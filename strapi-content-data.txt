@@ -1,0 +1,454 @@
+🚀 Starting Strapi content population...
+
+📌 Important: Please complete the following steps:
+
+1. Open Strapi Admin: http://localhost:1337/admin
+2. Login with:
+   Email: admin@lessoncraftstudio.com
+   Password: AdminPass123!
+
+3. Navigate to Content Manager
+
+4. For each content type (App Info, Image Theme, Image Asset):
+   - Click "Create new entry"
+   - Use the data below to fill in the forms
+
+============================================================
+APP INFO ENTRIES (33 total)
+============================================================
+
+1. Word Search Generator
+   Name: Word Search Generator
+   Slug: word-search
+   Component Name: word-search
+   Required Tier: free
+   Category: Language Arts
+   Description: Create custom word search puzzles with images. Perfect for vocabulary building and visual learning.
+   Short Description: Create visual word search puzzles
+   Features: ["Custom grid sizes 8x8 to 15x15","Multiple word directions","Image integration","Print-ready output","Answer key included"]
+
+2. Image Addition
+   Name: Image Addition
+   Slug: image-addition
+   Component Name: image-addition
+   Required Tier: core
+   Category: Math
+   Description: Visual addition worksheets using images for counting. Ideal for early math learners.
+   Short Description: Visual addition with images
+   Features: ["Visual counting exercises","Custom number ranges","Image-based problems","Multiple difficulty levels"]
+
+3. Alphabet Train
+   Name: Alphabet Train
+   Slug: alphabet-train
+   Component Name: alphabet-train
+   Required Tier: core
+   Category: Language Arts
+   Description: Learn alphabets with fun train themed activities. Great for letter recognition and sequencing.
+   Short Description: Alphabet learning with trains
+   Features: ["Letter recognition games","Alphabet sequencing","Visual learning","Upper and lowercase letters"]
+
+4. Coloring Page Designer
+   Name: Coloring Page Designer
+   Slug: coloring
+   Component Name: coloring
+   Required Tier: core
+   Category: Art & Creativity
+   Description: Create custom coloring pages from our image library. Develops fine motor skills and creativity.
+   Short Description: Custom coloring pages
+   Features: ["Custom designs","Multiple themes","Print-ready format","Various difficulty levels"]
+
+5. Math Worksheet Generator
+   Name: Math Worksheet Generator
+   Slug: math-worksheet
+   Component Name: math-worksheet
+   Required Tier: core
+   Category: Math
+   Description: Generate comprehensive math worksheets for all operations. Customizable for different grade levels.
+   Short Description: Complete math worksheet generator
+   Features: ["Addition, subtraction, multiplication, division","Custom difficulty levels","Answer keys provided","Mixed operations option"]
+
+6. Word Scramble
+   Name: Word Scramble
+   Slug: word-scramble
+   Component Name: word-scramble
+   Required Tier: core
+   Category: Language Arts
+   Description: Create word scramble puzzles with visual hints. Enhances spelling and vocabulary skills.
+   Short Description: Word scramble with images
+   Features: ["Custom word lists","Difficulty levels","Visual hints with images","Solution keys"]
+
+7. Find and Count
+   Name: Find and Count
+   Slug: find-and-count
+   Component Name: find-and-count
+   Required Tier: core
+   Category: Visual Perception
+   Description: Count objects in busy scenes. Develops counting skills and visual discrimination.
+   Short Description: Visual counting activities
+   Features: ["Visual counting exercises","Pattern recognition","Multiple themes","Progressive difficulty"]
+
+8. MatchUp Maker
+   Name: MatchUp Maker
+   Slug: matching-app
+   Component Name: matching-app
+   Required Tier: core
+   Category: Matching
+   Description: Create matching activities between images and words. Perfect for vocabulary development.
+   Short Description: Image and word matching
+   Features: ["Image to image matching","Word to image pairs","Custom content creation","Multiple layouts"]
+
+9. Drawing Lines
+   Name: Drawing Lines
+   Slug: drawing-lines
+   Component Name: drawing-lines
+   Required Tier: core
+   Category: Fine Motor Skills
+   Description: Line drawing and tracing exercises. Develops pre-writing skills and hand control.
+   Short Description: Line drawing practice
+   Features: ["Motor skill development","Path following exercises","Connect the dots","Tracing patterns"]
+
+10. Picture Bingo
+   Name: Picture Bingo
+   Slug: picture-bingo
+   Component Name: picture-bingo
+   Required Tier: core
+   Category: Games
+   Description: Create custom bingo cards with images. Fun group activity for learning.
+   Short Description: Image-based bingo cards
+   Features: ["Custom bingo cards","Multiple themes","Print multiple unique cards","Calling cards included"]
+
+11. Sudoku for Kids
+   Name: Sudoku for Kids
+   Slug: sudoku
+   Component Name: sudoku
+   Required Tier: full
+   Category: Logic
+   Description: Generate kid-friendly sudoku puzzles with images. Develops logical thinking.
+   Short Description: Image sudoku puzzles
+   Features: ["4x4 and 6x6 grids","Image-based puzzles","Multiple difficulties","Solution included"]
+
+12. Big Small Comparison
+   Name: Big Small Comparison
+   Slug: big-small-app
+   Component Name: big-small-app
+   Required Tier: full
+   Category: Comparison
+   Description: Size comparison activities with visual objects. Teaches relative size concepts.
+   Short Description: Size comparison activities
+   Features: ["Size concept learning","Visual comparison","Multiple object sets","Progressive difficulty"]
+
+13. Chart Count and Color
+   Name: Chart Count and Color
+   Slug: chart-count-color
+   Component Name: chart-count-color
+   Required Tier: full
+   Category: Math & Art
+   Description: Counting and coloring charts combined. Integrates math with art activities.
+   Short Description: Counting and coloring charts
+   Features: ["Data visualization","Counting practice","Coloring activity","Graph creation"]
+
+14. Code Addition
+   Name: Code Addition
+   Slug: code-addition
+   Component Name: code-addition
+   Required Tier: full
+   Category: Math
+   Description: Coded addition problems with secret messages. Makes math practice engaging.
+   Short Description: Math with secret codes
+   Features: ["Problem solving","Code breaking element","Math practice","Secret message reveal"]
+
+15. Draw and Color
+   Name: Draw and Color
+   Slug: draw-and-color
+   Component Name: draw-and-color
+   Required Tier: full
+   Category: Art
+   Description: Guided drawing and coloring activities. Develops artistic skills step by step.
+   Short Description: Guided drawing activities
+   Features: ["Step-by-step drawing","Following instructions","Creative expression","Art skill development"]
+
+16. Find Hidden Objects
+   Name: Find Hidden Objects
+   Slug: find-objects
+   Component Name: find-objects
+   Required Tier: full
+   Category: Visual Perception
+   Description: Hidden object puzzles in detailed scenes. Enhances visual scanning abilities.
+   Short Description: Hidden object puzzles
+   Features: ["Visual scanning practice","Attention to detail","Multiple themed scenes","Object lists"]
+
+17. Grid Match
+   Name: Grid Match
+   Slug: grid-match
+   Component Name: grid-match
+   Required Tier: full
+   Category: Matching
+   Description: Grid-based matching and memory games. Improves pattern recognition.
+   Short Description: Grid matching games
+   Features: ["Pattern matching","Memory skill development","Custom grid sizes","Progressive challenges"]
+
+18. Image Crossword
+   Name: Image Crossword
+   Slug: image-crossword
+   Component Name: image-crossword
+   Required Tier: full
+   Category: Language Arts
+   Description: Crossword puzzles with picture clues. Visual approach to word puzzles.
+   Short Description: Crosswords with images
+   Features: ["Visual clues","Custom word lists","Auto-generation","Difficulty settings"]
+
+19. Image Cryptogram
+   Name: Image Cryptogram
+   Slug: image-cryptogram
+   Component Name: image-cryptogram
+   Required Tier: full
+   Category: Logic
+   Description: Code-breaking puzzles with image hints. Develops logical thinking skills.
+   Short Description: Image-based cryptograms
+   Features: ["Logic puzzles","Code substitution","Visual hints","Progressive difficulty"]
+
+20. Math Puzzle Challenge
+   Name: Math Puzzle Challenge
+   Slug: math-puzzle
+   Component Name: math-puzzle
+   Required Tier: full
+   Category: Math
+   Description: Mathematical puzzle activities and brain teasers. Advanced problem-solving practice.
+   Short Description: Math puzzle challenges
+   Features: ["Complex problem solving","Multiple operations","Visual math concepts","Challenge levels"]
+
+21. Missing Pieces
+   Name: Missing Pieces
+   Slug: missing-pieces
+   Component Name: missing-pieces
+   Required Tier: full
+   Category: Visual Perception
+   Description: Complete the picture by finding missing parts. Develops visual completion skills.
+   Short Description: Find missing pieces
+   Features: ["Visual completion","Pattern recognition","Problem solving","Multiple themes"]
+
+22. More or Less
+   Name: More or Less
+   Slug: more-less
+   Component Name: more-less
+   Required Tier: full
+   Category: Math
+   Description: Number comparison activities with visual aids. Teaches greater than and less than concepts.
+   Short Description: Number comparison
+   Features: ["Number comparison","Visual representations","Progressive difficulty","Number sense development"]
+
+23. Odd One Out
+   Name: Odd One Out
+   Slug: odd-one-out
+   Component Name: odd-one-out
+   Required Tier: full
+   Category: Logic
+   Description: Find the item that doesn't belong. Develops categorization and logic skills.
+   Short Description: Find the odd one
+   Features: ["Logic skill building","Pattern recognition","Critical thinking","Multiple categories"]
+
+24. Pattern Train
+   Name: Pattern Train
+   Slug: pattern-train
+   Component Name: pattern-train
+   Required Tier: full
+   Category: Patterns
+   Description: Pattern sequence activities with train theme. Teaches pattern recognition and completion.
+   Short Description: Pattern sequences
+   Features: ["Pattern recognition","Sequence completion","Visual patterns","Increasing complexity"]
+
+25. Pattern Worksheet Maker
+   Name: Pattern Worksheet Maker
+   Slug: pattern-worksheet
+   Component Name: pattern-worksheet
+   Required Tier: full
+   Category: Patterns
+   Description: Create custom pattern worksheets. Flexible pattern creation tool.
+   Short Description: Custom pattern worksheets
+   Features: ["Custom pattern creation","Multiple pattern types","Difficulty levels","Answer keys"]
+
+26. Picture Pathway
+   Name: Picture Pathway
+   Slug: picture-path
+   Component Name: picture-path
+   Required Tier: full
+   Category: Logic
+   Description: Follow the path puzzle activities. Develops planning and direction skills.
+   Short Description: Path following puzzles
+   Features: ["Path following","Direction skills","Problem solving","Maze variations"]
+
+27. Picture Sort
+   Name: Picture Sort
+   Slug: picture-sort
+   Component Name: picture-sort
+   Required Tier: full
+   Category: Sorting
+   Description: Sorting and categorization with images. Teaches classification concepts.
+   Short Description: Image sorting activities
+   Features: ["Classification skills","Category sorting","Visual organization","Multiple sort criteria"]
+
+28. Prepositions Practice
+   Name: Prepositions Practice
+   Slug: prepositions
+   Component Name: prepositions
+   Required Tier: full
+   Category: Language Arts
+   Description: Learn prepositions with visual examples. Spatial concept understanding.
+   Short Description: Visual preposition learning
+   Features: ["Spatial concepts","Visual learning","Grammar practice","Position words"]
+
+29. Shadow Match
+   Name: Shadow Match
+   Slug: shadow-match
+   Component Name: shadow-match
+   Required Tier: full
+   Category: Matching
+   Description: Match objects to their shadows. Develops shape recognition skills.
+   Short Description: Shadow matching game
+   Features: ["Visual matching","Shape recognition","Problem solving","Multiple themes"]
+
+30. Story Dice Creator
+   Name: Story Dice Creator
+   Slug: story-dice
+   Component Name: story-dice
+   Required Tier: full
+   Category: Creative Writing
+   Description: Story creation with randomized image dice. Sparks creative writing.
+   Short Description: Story dice generator
+   Features: ["Creative writing prompts","Storytelling practice","Random story elements","Printable dice"]
+
+31. Visual Subtraction
+   Name: Visual Subtraction
+   Slug: subtraction
+   Component Name: subtraction
+   Required Tier: full
+   Category: Math
+   Description: Subtraction worksheets with visual aids. Makes subtraction concrete and visual.
+   Short Description: Visual subtraction
+   Features: ["Visual math concepts","Custom number ranges","Image-based problems","Step-by-step solutions"]
+
+32. Treasure Hunt Maps
+   Name: Treasure Hunt Maps
+   Slug: treasure-hunt
+   Component Name: treasure-hunt
+   Required Tier: full
+   Category: Games
+   Description: Create treasure hunt activities and maps. Adventure-based learning.
+   Short Description: Treasure hunt creator
+   Features: ["Adventure theme","Problem solving","Map reading skills","Clue creation"]
+
+33. Word Guess Game
+   Name: Word Guess Game
+   Slug: word-guess
+   Component Name: word-guess
+   Required Tier: full
+   Category: Language Arts
+   Description: Word guessing games with picture hints. Vocabulary building through play.
+   Short Description: Word guessing with images
+   Features: ["Vocabulary building","Letter recognition","Word formation","Hint system"]
+
+34. Writing Practice Sheets
+   Name: Writing Practice Sheets
+   Slug: writing-app
+   Component Name: writing-app
+   Required Tier: full
+   Category: Writing
+   Description: Handwriting practice sheet generator. Develops proper letter formation.
+   Short Description: Handwriting practice
+   Features: ["Letter tracing","Word practice","Custom content","Guidelines included"]
+
+============================================================
+IMAGE THEME ENTRIES (13 total)
+============================================================
+
+1. Alphabet
+   Theme Key: alphabet
+   Display Name: Alphabet
+   Description: Letters and alphabet-related images
+   Sort Order: 1
+
+2. Animals
+   Theme Key: animals
+   Display Name: Animals
+   Description: Various animals from farm to wild
+   Sort Order: 2
+
+3. Food
+   Theme Key: food
+   Display Name: Food
+   Description: Fruits, vegetables, and meals
+   Sort Order: 3
+
+4. General
+   Theme Key: general
+   Display Name: General
+   Description: Common everyday objects
+   Sort Order: 4
+
+5. Icons
+   Theme Key: icons
+   Display Name: Icons
+   Description: Simple icon illustrations
+   Sort Order: 5
+
+6. Prepositions
+   Theme Key: prepositions
+   Display Name: Prepositions
+   Description: Images showing spatial relationships
+   Sort Order: 6
+
+7. Symbols
+   Theme Key: symbols
+   Display Name: Symbols
+   Description: Mathematical and other symbols
+   Sort Order: 7
+
+8. Coloring
+   Theme Key: coloring
+   Display Name: Coloring
+   Description: Black and white images for coloring
+   Sort Order: 8
+
+9. Backgrounds
+   Theme Key: backgrounds
+   Display Name: Backgrounds
+   Description: Background patterns and scenes
+   Sort Order: 9
+
+10. Borders
+   Theme Key: borders
+   Display Name: Borders
+   Description: Decorative borders and frames
+   Sort Order: 10
+
+11. Templates
+   Theme Key: template
+   Display Name: Templates
+   Description: Worksheet templates
+   Sort Order: 11
+
+12. Drawing Lines
+   Theme Key: drawing-lines
+   Display Name: Drawing Lines
+   Description: Line drawing exercises
+   Sort Order: 12
+
+13. Alphabet SVG
+   Theme Key: alphabetsvg
+   Display Name: Alphabet SVG
+   Description: Vector alphabet images
+   Sort Order: 13
+
+============================================================
+NEXT STEPS:
+============================================================
+
+1. After creating all entries, go to Settings > Users & Permissions > Roles > Public
+2. Enable the following permissions:
+   - App Info: find, findOne
+   - Image Theme: find, findOne
+   - Image Asset: find, findOne
+
+3. Save the permissions
+
+✅ Once complete, all worksheet generator content will be available in Strapi!

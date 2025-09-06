@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.67 213.5">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #231f20;
+      }
+
+      .cls-3 {
+        fill: #2c292a;
+      }
+
+      .cls-4 {
+        fill: #1f1b1c;
+      }
+
+      .cls-5 {
+        fill: #363435;
+      }
+
+      .cls-6 {
+        fill: #2b2829;
+      }
+
+      .cls-2 {
+        font-family: LexendDeca-Regular, 'Lexend Deca';
+        font-size: 42px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path class="cls-1" d="M16.5,149.04h6.82l-9.11,15.77-9.1-15.77h6.82v-61.65h4.57v61.65Z"/>
+    <text class="cls-2" transform="translate(5.11 80.43)"><tspan x="0" y="0">1</tspan></text>
+    <text class="cls-2" transform="translate(0 35.7)"><tspan x="0" y="0">2</tspan></text>
+    <g id="Layer_1-2" data-name="Layer 1-2">
+      <path class="cls-4" d="M36.79,11c.09.04.2.04.29,0h.77c.11.04.23.04.34,0h.19c5.25.17,9.07,4.35,9.27,9.64.08,2.15-.15,3.93-1.09,5.89-1.56,3.24-4.74,5.57-8.42,5.45-.09.04-.2.04-.29,0-.25.04-.52.04-.77,0-.08.04-.2.04-.29,0-5.1.11-9.35-4.34-9.46-9.36v-.34c.04-.11.04-.23,0-.34v-.82c.04-.11.04-.23,0-.34v-.34c.12-4.81,4.33-9.33,9.22-9.44h.24Z"/>
+      <g>
+        <rect class="cls-6" x="34.92" y="114.51" width="5" height="13.01"/>
+        <rect class="cls-6" x="34.92" y="159.5" width="5" height="13.01"/>
+        <path class="cls-6" d="M39.91,181.5c.47.45-.33,11,0,13.01h-5c.13-1.88-.2-11.31.5-12.05.97-1.04,4.05-1.39,4.5-.96h0Z"/>
+        <path class="cls-6" d="M39.91,69.52v13h-4.99c.86-6-3.18-13.12,4.99-13Z"/>
+        <path class="cls-6" d="M39.92,92.51c-.34,2.01.46,12.56,0,13.01-.14.13-2.69.09-3.41-.11-2.01-.56-1.43-10.74-1.58-12.9h5-.01Z"/>
+        <rect class="cls-6" x="34.92" y="137.5" width="5" height="12.01"/>
+        <rect class="cls-3" x="34.92" y="51.52" width="5" height="9.01"/>
+        <polygon class="cls-5" points="39.92 204.5 39.92 213.5 34.93 213.49 34.92 204.5 39.92 204.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

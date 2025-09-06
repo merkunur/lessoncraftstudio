@@ -1,0 +1,9 @@
+import { BaseWebComponent } from '../shared/BaseWebComponent.js';
+class WritingAppGenerator extends BaseWebComponent {
+  get appName() { return 'writing-app'; }
+  render() { this.shadowRoot.innerHTML = `<style>:host{display:block}.layout{display:flex;height:80vh}.panel{width:340px;background:#2c2c2e;color:#e0e0e0;padding:20px}.main{flex:1;background:#f0f2f5;display:flex;justify-content:center;align-items:center}canvas{border:1px solid #ddd;background:white}button{width:100%;padding:10px;background:#007aff;color:white;border:none;border-radius:5px;cursor:pointer;margin:5px 0}</style><div class="layout"><div class="panel"><h2>Writing Practice</h2><button id="gen">Generate</button><button id="dl">Download</button></div><div class="main"><canvas id="c" width="612" height="792"></canvas></div></div>`; }
+  async generateWorksheet() { if (typeof fabric === 'undefined') await this.loadScript('https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js'); this.canvas = new fabric.Canvas(this.shadowRoot.getElementById('c')); this.canvas.add(new fabric.Text('Writing Practice', { left: 306, top: 30, fontSize: 20, originX: 'center', fontWeight: 'bold' })); for(let i=0;i<15;i++){ const y=80+i*40; this.canvas.add(new fabric.Line([50, y, 550, y], {stroke: '#ccc', strokeWidth: 1, selectable: false})); } this.emit('worksheet-generated', { type: 'writing-app' }); }
+  loadScript(s) { return new Promise((r,j) => { const sc = document.createElement('script'); sc.src = s; sc.onload = r; sc.onerror = j; document.head.appendChild(sc); }); }
+  setupEventListeners() { this.shadowRoot.getElementById('gen').onclick = () => this.generateWorksheet(); this.shadowRoot.getElementById('dl').onclick = () => { const l = document.createElement('a'); l.download = 'writing-practice.png'; l.href = this.canvas.toDataURL(); l.click(); }; }
+}
+customElements.define('lcs-writing-app', WritingAppGenerator);

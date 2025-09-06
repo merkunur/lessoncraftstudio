@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160.7 227.3">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #231f20;
+      }
+
+      .cls-3 {
+        fill: #272425;
+      }
+
+      .cls-4 {
+        fill: #282526;
+      }
+
+      .cls-2 {
+        font-family: LexendDeca-Regular, 'Lexend Deca';
+        font-size: 42px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path class="cls-1" d="M13.91,152.94h6.82s-9.08,15.77-9.08,15.77l-9.13-15.75h6.83s-.13-110.61-.13-110.61h4.57s.13,110.59.13,110.59ZM76.79,205.74l48.24-.11v-6.82s15.78,9.07,15.78,9.07l-15.75,9.14v-6.82s-48.25.11-48.25.11v-4.57Z"/>
+    <text class="cls-2" transform="translate(0 35.7)"><tspan x="0" y="0">1</tspan></text>
+    <text class="cls-2" transform="translate(46.67 217.01)"><tspan x="0" y="0">2</tspan></text>
+    <g id="Layer_1-2" data-name="Layer 1-2">
+      <g>
+        <path class="cls-4" d="M26.78,218.48h3.12v4.56h4.56c-.13.68.35,2.84-.39,3.09l-7.29.03v-7.68Z"/>
+        <path class="cls-3" d="M29.36,13.04h-2.58v7.44h3.12v-4.32h.25c-.52-.94-.78-2.03-.79-3.12Z"/>
+        <path class="cls-4" d="M26.78,32.24h3.12v11.4c0,.59-2.57.3-3.12.36v-11.76Z"/>
+        <path class="cls-4" d="M26.78,55.52h3.12v11.4c0,.59-2.57.3-3.12.36,0,0,0-11.76,0-11.76Z"/>
+        <path class="cls-4" d="M26.78,78.8h3.12v11.4c0,.59-2.57.3-3.12.36v-11.76Z"/>
+        <path class="cls-4" d="M26.78,102.08h3.12v11.4c0,.59-2.57.3-3.12.36v-11.76Z"/>
+        <path class="cls-4" d="M26.78,125.36h3.12v11.4c0,.59-2.57.3-3.12.36v-11.76Z"/>
+        <path class="cls-4" d="M26.78,148.64h3.12v11.4c0,.59-2.57.3-3.12.36v-11.76Z"/>
+        <path class="cls-4" d="M26.78,171.92h3.12v11.4c0,.59-2.57.3-3.12.36v-11.76Z"/>
+        <path class="cls-4" d="M26.78,195.2h3.12v11.4c0,.59-2.57.3-3.12.36v-11.76Z"/>
+        <rect class="cls-4" x="100.22" y="223.04" width="13.2" height="3.12"/>
+        <rect class="cls-4" x="126.62" y="223.04" width="13.2" height="3.12"/>
+        <path class="cls-4" d="M60.62,223.04v3.12h-12.84c-.59,0-.3-2.58-.36-3.12h13.2Z"/>
+        <path class="cls-4" d="M87.02,223.04v3.12h-12.84c-.59,0-.3-2.58-.36-3.12h13.2Z"/>
+        <path class="cls-4" d="M159.93,223.04c-.89,0-1.66-.16-2.35-.44v.44h-4.56c.06.54-.23,3.12.36,3.12h6.96s.36-.33.36-.36v-2.81c-.25.03-.51.05-.77.05Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

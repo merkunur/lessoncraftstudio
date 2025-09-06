@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "image_themes",
+  "info": {
+    "singularName": "image-theme",
+    "pluralName": "image-themes",
+    "displayName": "Image Theme",
+    "description": "Themes for organizing worksheet images"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "themeKey": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      }
+    },
+    "displayName": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "parentTheme": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::image-theme.image-theme"
+    },
+    "description": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "thumbnail": {
+      "type": "media",
+      "allowedTypes": ["images"]
+    },
+    "sortOrder": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

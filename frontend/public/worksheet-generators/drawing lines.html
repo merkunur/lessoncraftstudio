@@ -1,0 +1,1894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Drawing Lines Worksheet Generator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <style>
+        :root {
+            /* Theme Colors */
+            --app-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            --app-bg-dark: #2c2c2e;
+            --app-surface-dark: #3a3a3e;
+            --app-border-dark: #4a4a4a;
+            --app-text-primary-dark-theme: #e0e0e0;
+            --app-text-secondary-dark-theme: #a0a0a0;
+            --app-bg-light: #f0f2f5;
+            --app-surface-light: #ffffff;
+            --app-border-light: #dce1e6;
+            --app-text-primary-light-theme: #1c1c1e;
+            --app-text-secondary-light-theme: #545458;
+            --app-accent-primary: #007aff;
+            --app-accent-primary-hover: #005ecb;
+            --app-accent-danger: #ff3b30;
+            --sidebar-width: 340px;
+        }
+
+        /* Global Reset & Layout */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: var(--app-font-stack);
+            display: flex;
+            margin: 0;
+            height: 100vh;
+            background-color: var(--app-bg-light);
+            overflow: hidden;
+            color: var(--app-text-primary-light-theme);
+        }
+        .layout { display: flex; flex: 1; overflow: hidden; height: 100vh; position: relative; }
+
+        /* Sidebar Panel */
+        .panel {
+            width: var(--sidebar-width);
+            min-width: var(--sidebar-width);
+            background-color: var(--app-bg-dark);
+            color: var(--app-text-primary-dark-theme);
+            box-shadow: 2px 0 8px rgba(0,0,0,0.15);
+            display: flex;
+            flex-direction: column;
+            overflow-y: hidden;
+            z-index: 1000;
+            padding: 0;
+            transition: transform 0.3s ease-in-out;
+        }
+        .panel-header { padding: 20px 25px; border-bottom: 1px solid var(--app-border-dark); display: flex; justify-content: space-between; align-items: center; }
+        .panel-header h2 { font-size: 22px; font-weight: 600; color: var(--app-text-primary-dark-theme); margin: 0; }
+        .panel-content { overflow-y: auto; flex-grow: 1; padding: 10px 15px; }
+
+        /* Accordion Styles */
+        .accordion-item { background-color: transparent; border: none; border-bottom: 1px solid var(--app-border-dark); margin-bottom: 0; border-radius: 0; overflow: hidden; }
+        .accordion-item:last-child { border-bottom: none; }
+        .accordion-button { background-color: transparent; color: var(--app-text-primary-dark-theme); width: 100%; border: none; text-align: left; padding: 18px 10px; font-size: 15px; font-weight: 500; cursor: pointer; display: flex; justify-content: space-between; align-items: center; transition: background-color 0.15s ease; }
+        .accordion-button:hover { background-color: rgba(255,255,255,0.05); }
+        .accordion-button::after { content: '\f078'; font-family: 'Font Awesome 5 Free'; font-weight: 900; font-size: 12px; transition: transform 0.2s ease-in-out; }
+        .accordion-button.active::after { transform: rotate(-180deg); }
+        .accordion-content { padding: 10px 10px 20px 10px; display: none; background-color: transparent; }
+        .accordion-content.active { display: block; }
+        .accordion-content h4 { font-size: 13px; color: var(--app-text-secondary-dark-theme); margin-top: 15px; margin-bottom: 8px; border-bottom: 1px solid var(--app-border-dark); padding-bottom: 6px; font-weight: 500; }
+        .accordion-content h4:first-child { margin-top: 0; }
+        .accordion-content label { display: block; font-size: 13px; font-weight: 400; color: var(--app-text-secondary-dark-theme); margin-bottom: 6px; }
+        .accordion-content input[type="text"],
+        .accordion-content input[type="number"],
+        .accordion-content input[type="file"],
+        .accordion-content textarea,
+        .accordion-content select { width: 100%; padding: 8px 10px; font-size: 13px; border-radius: 5px; border: 1px solid var(--app-border-dark); background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); box-sizing: border-box; margin-bottom: 12px; }
+        .accordion-content input[type="file"]::file-selector-button { margin-right: 10px; border: 1px solid var(--app-border-dark); background: var(--app-bg-dark); padding: 4px 8px; border-radius: 3px; color: var(--app-text-primary-dark-theme); cursor: pointer; }
+        .accordion-content input[type="color"] { width: 100%; padding: 2px; height: 38px; margin-bottom: 12px; border-radius: 5px; border-color: var(--app-border-dark); }
+        .accordion-content input[type="range"] { width:100%; padding: 0; margin-bottom: 12px;}
+        .accordion-content input[type="checkbox"] { width: auto; margin-right: 8px; vertical-align: middle; accent-color: var(--app-accent-primary); }
+        .accordion-content label.checkbox-label { display: flex; align-items: center; font-size: 13px; font-weight: 400; margin-bottom: 12px; cursor: pointer; color: var(--app-text-secondary-dark-theme); }
+        .accordion-content button {
+            background-color: var(--app-surface-dark);
+            color: var(--app-text-primary-dark-theme);
+            border: 1px solid var(--app-border-dark);
+            font-weight: 500;
+            width: 100%;
+            padding: 8px 12px;
+            font-size: 13px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        /* Template Selection Grid */
+        #templateGrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(60px, 1fr)); gap: 8px; margin: 10px 0; }
+        .template-item { cursor: pointer; border: 2px solid transparent; border-radius: 6px; padding: 4px; background-color: var(--app-surface-dark); transition: all 0.2s ease; position: relative; aspect-ratio: 1 / 1; }
+        .template-item:hover { border-color: var(--app-accent-primary-hover); }
+        .template-item.selected { border-color: var(--app-accent-primary); background-color: rgba(0, 122, 255, 0.2); }
+        .template-item img { width: 100%; height: 100%; object-fit: contain; background-color: var(--app-surface-light); border-radius: 3px; }
+        .template-label { position: absolute; bottom: 4px; left: 4px; right: 4px; background: rgba(0,0,0,0.6); color: white; font-size: 9px; text-align: center; padding: 2px; border-bottom-left-radius: 3px; border-bottom-right-radius: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+        /* Pair Table */
+        #pairTable { margin-top: 15px; display: flex; flex-direction: column; gap: 8px; }
+        .pair-row { display: flex; align-items: center; gap: 8px; }
+        .pair-label { width: 20px; text-align: center; font-size: 13px; color: var(--app-text-secondary-dark-theme); }
+        .pair-slot { flex: 1; height: 60px; background: var(--app-surface-dark); border: 1px dashed var(--app-border-dark); border-radius: 4px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s ease; }
+        .pair-slot.active { border-style: solid; border-color: var(--app-accent-primary); background-color: rgba(0, 122, 255, 0.1); }
+        .pair-slot img { max-width: 100%; max-height: 100%; object-fit: contain; padding: 4px; }
+        .pair-slot span { font-size: 12px; color: var(--app-text-secondary-dark-theme); }
+
+        /* Dictionary, Upload Preview & Border Dictionary */
+        #dictionary, #uploadedImagesPreview, #borderDictionary, #backgroundDictionary {
+            border: 1px solid var(--app-border-dark);
+            padding: 8px;
+            height: 180px;
+            overflow-y: auto;
+            background-color: var(--app-surface-dark);
+            border-radius: 5px;
+            margin-top: 8px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            align-content: flex-start;
+        }
+        .dictionary-item, .border-thumbnail-item { cursor: pointer; border: 2px solid transparent; border-radius: 4px; padding: 2px; transition: border-color .15s ease, background-color .15s ease; width: 60px; height: 60px; background-color: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center; }
+        .dictionary-item:hover, .border-thumbnail-item:hover { border-color: var(--app-accent-primary); }
+        .border-thumbnail-item.selected { border-color: var(--app-accent-primary); background-color: rgba(0,122,255,0.1); }
+        .dictionary-item img, .border-thumbnail-item img { width: 100%; height: 100%; object-fit: contain; background-color: var(--app-surface-light); border-radius: 2px; }
+        #dictionary p.dictionary-message, #uploadedImagesPreview p.dictionary-message, #borderDictionary p.dictionary-message, #backgroundDictionary p.dictionary-message {
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+            color: var(--app-text-secondary-dark-theme);
+            margin: 0;
+            align-self: center;
+        }
+
+        /* Panel Footer & Messages */
+        .panel-footer { padding: 15px 25px; border-top: 1px solid var(--app-border-dark); margin-top: auto; background-color: var(--app-bg-dark); }
+        #message { padding: 10px 15px; border-radius: 5px; font-size: 13px; text-align: center; min-height: 20px; font-weight: 500; display: none; margin-bottom: 0; border-width: 1px; border-style: solid; }
+        #message.error { background-color: rgba(255, 59, 48, 0.2); color: var(--app-accent-danger); border-color: var(--app-accent-danger); }
+        #message.success { background-color: rgba(52, 199, 89, 0.2); color: #34c759; border-color: #34c759; }
+        #message.info { background-color: rgba(0, 122, 255, 0.15); color: var(--app-accent-primary); border-color: var(--app-accent-primary); }
+
+        /* Main Content Area */
+        .main { flex-grow: 1; display: flex; flex-direction: column; position: relative; overflow: hidden; padding: 0; background-color: var(--app-bg-light); }
+        
+        /* Responsive Controls */
+        .menu-toggle-btn { display: none; position: absolute; top: 12px; left: 20px; z-index: 20; background-color: var(--app-surface-light); color: var(--app-text-primary-light-theme); border: 1px solid var(--app-border-light); border-radius: 6px; width: 38px; height: 38px; font-size: 18px; cursor: pointer; align-items: center; justify-content: center; }
+        .menu-toggle-btn:hover { background-color: #e8e8ed; }
+        .menu-close-btn { display: none; background: none; border: none; color: var(--app-text-secondary-dark-theme); font-size: 28px; line-height: 1; cursor: pointer; padding: 0 5px; }
+        .menu-close-btn:hover { color: var(--app-text-primary-dark-theme); }
+        .menu-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.4); z-index: 999; }
+        .menu-overlay.is-active { display: block; }
+        
+        /* Top Right Actions */
+        .top-right-actions { position: absolute; top: 12px; right: 20px; z-index: 20; display: flex; gap: 10px; align-items: center; }
+        .top-right-actions .action-button { padding: 7px 14px; font-size: 13px; font-weight: 500; border-radius: 6px; border: none; color: white; cursor: pointer; transition: background-color 0.2s ease, transform 0.1s ease; }
+        .top-right-actions .action-button:active { transform: scale(0.98); }
+        .top-right-actions .action-button.accent { background-color: var(--app-accent-primary); }
+        .top-right-actions .action-button.accent:hover { background-color: var(--app-accent-primary-hover); }
+        .top-right-actions .action-button.danger { background-color: var(--app-surface-light); color: var(--app-text-primary-light-theme); border: 1px solid var(--app-border-light); }
+        .top-right-actions .action-button.danger:hover { background-color: #e8e8ed; }
+        .top-right-actions .action-button.secondary { background-color: var(--app-surface-light); color: var(--app-text-primary-light-theme); border: 1px solid var(--app-border-light); }
+        .top-right-actions .action-button.secondary:hover { background-color: #e8e8ed; }
+        .top-right-actions .action-button:disabled { background-color: #cccccc !important; color: #888888 !important; border-color: #cccccc !important; cursor: not-allowed; transform: none; }
+
+        /* Dropdown Content */
+        .dropdown-container { position: relative; display: inline-block; }
+        .dropdown-content { display: none; position: absolute; right: 0; top: calc(100% + 5px); background-color: var(--app-surface-light); min-width: 200px; box-shadow: 0px 5px 15px rgba(0,0,0,0.15); border: 1px solid var(--app-border-light); border-radius: 6px; padding: 8px; z-index: 25; }
+        .dropdown-content button { width: 100%; padding: 8px 12px; font-size: 13px; border-radius: 4px; box-sizing: border-box; margin-bottom: 6px; background-color: transparent; color: var(--app-text-primary-light-theme); border: none; cursor: pointer; text-align: left; font-weight: 400; transition: background-color 0.15s ease; }
+        .dropdown-content button:last-of-type { margin-bottom: 0; }
+        .dropdown-content button:hover { background-color: rgba(0,0,0,0.05); }
+        .dropdown-content button:disabled { background-color: transparent !important; color: var(--app-text-secondary-light-theme) !important; opacity: 0.6; cursor: not-allowed; }
+        .dropdown-content .checkbox-label { display: flex; align-items: center; font-size: 13px; font-weight: 400; padding: 6px 12px; margin-top: 4px; margin-bottom: 0; cursor: pointer; color: var(--app-text-primary-light-theme); border-radius: 4px; }
+        .dropdown-content .checkbox-label:hover { background-color: rgba(0,0,0,0.05); }
+        .dropdown-content .checkbox-label input[type="checkbox"] { width: auto; margin-right: 8px; vertical-align: middle; accent-color: var(--app-accent-primary); }
+
+        /* Tabs */
+        .tab-row { display: flex; gap: 0; justify-content: flex-start; padding: 0 20px; border-bottom: 1px solid var(--app-border-light); background-color: var(--app-surface-light); margin-top: 60px; }
+        .tab-button { padding: 12px 18px; background: transparent; border: none; border-bottom: 2px solid transparent; color: var(--app-text-secondary-light-theme); font-size: 14px; font-weight: 500; border-radius: 0; cursor: pointer; transition: color 0.2s ease, border-color 0.2s ease; margin-right: 10px; margin-bottom: -1px; }
+        .tab-button:hover { color: var(--app-text-primary-light-theme); }
+        .tab-button.active { color: var(--app-accent-primary); border-bottom: 2px solid var(--app-accent-primary); }
+        .tab-content-wrapper { flex-grow: 1; display: flex; align-items: flex-start; justify-content: center; padding: 25px; overflow-y: auto; }
+        .tab { display: none; width: 100%; height: 100%; margin: 0 auto; }
+        .tab.active { display: flex; flex-direction: column; }
+
+        /* Canvas */
+        .canvas-container-wrapper { border: none; background-color: var(--app-surface-light); box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-radius: 8px; overflow: auto; margin: auto; }
+        canvas { display: block; }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            :root { --sidebar-width: 300px; }
+            .panel { position: fixed; top: 0; left: 0; height: 100vh; z-index: 1000; transform: translateX(-100%); }
+            .panel.is-open { transform: translateX(0); }
+            .menu-toggle-btn, .menu-close-btn { display: flex; }
+            .tab-row { padding: 0 15px 0 70px; }
+        }
+        /* START: Contextual Toolbar CSS */
+        #object-context-toolbar {
+            position: absolute;
+            top: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: var(--app-surface-light);
+            border-radius: 6px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+            padding: 5px;
+            display: flex;
+            flex-direction: row;
+            gap: 4px;
+            z-index: 100;
+            align-items: center;
+            border: 1px solid var(--app-border-light);
+        }
+        .toolbar-group {
+            display: flex;
+            gap: 2px;
+            align-items: center;
+            padding: 0 4px;
+        }
+        .toolbar-group + .toolbar-group {
+            border-left: 1px solid var(--app-border-light);
+        }
+        .toolbar-item {
+            position: relative;
+        }
+        .context-btn {
+            background: none;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            padding: 5px 7px;
+            cursor: pointer;
+            font-size: 15px; 
+            color: var(--app-text-secondary-light-theme);
+            line-height: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 32px;
+            transition: background-color 0.2s, color 0.2s;
+        }
+        .context-btn:disabled {
+            color: #c5c5c7;
+            cursor: not-allowed;
+        }
+        .context-btn:not(:disabled):hover {
+            background-color: #e8e8ed;
+            color: var(--app-text-primary-light-theme);
+        }
+        .context-btn.active-dropdown {
+            background-color: #ddeeff;
+            color: var(--app-accent-primary);
+        }
+        #toolbarDeleteBtn:not(:disabled) {
+            color: var(--app-accent-danger);
+        }
+        #object-context-toolbar .dropdown-content {
+            display: none;
+            position: absolute;
+            top: calc(100% + 5px);
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: var(--app-surface-light);
+            min-width: 150px;
+            box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+            border: 1px solid var(--app-border-light);
+            border-radius: 6px;
+            padding: 8px;
+            z-index: 101;
+        }
+        #object-context-toolbar .dropdown-content
+        button {
+            width: 100%;
+            padding: 8px 12px;
+            font-size: 13px;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-bottom: 6px;
+            background-color: transparent;
+            color: var(--app-text-primary-light-theme);
+            border: none;
+            cursor: pointer;
+            text-align: left;
+            font-weight: 400;
+            transition: background-color 0.15s ease;
+        }
+        #object-context-toolbar .dropdown-content
+        button:last-of-type {
+            margin-bottom: 0;
+        }
+        #object-context-toolbar .dropdown-content
+        button:hover {
+            background-color: rgba(0,0,0,0.05);
+        }
+        /* END: Contextual Toolbar CSS */
+    </style>
+</head>
+<body>
+    <div class="layout">
+        <div id="menuOverlay" class="menu-overlay"></div>
+        <div class="panel">
+            <div class="panel-header">
+                <h2>Settings</h2>
+                <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
+            </div>
+            <div class="panel-content">
+
+                <div class="accordion-item">
+                    <button class="accordion-button active">Page Setup</button>
+                    <div class="accordion-content active">
+                        <label for="pageSizeSelect">Page Size:</label>
+                        <select id="pageSizeSelect">
+                            <option value="612x792">Letter Portrait (612x792)</option>
+                            <option value="792x612">Letter Landscape (792x612)</option>
+                            <option value="595x842">A4 Portrait (595x842)</option>
+                            <option value="842x595">A4 Landscape (842x595)</option>
+                            <option value="1200x1200">Square (1200x1200)</option>
+                            <option value="custom">Custom</option>
+                        </select>
+                        <div id="customPageSizeInputs" style="display:none;">
+                            <label for="pageWidth">Width (px):</label>
+                            <input type="number" id="pageWidth" value="612">
+                            <label for="pageHeight">Height (px):</label>
+                            <input type="number" id="pageHeight" value="792">
+                        </div>
+                         <label for="pageColor">Page Color:</label>
+                        <input type="color" id="pageColor" value="#FFFFFF">
+                        <button id="setPageSizeBtn" style="margin-top: 5px; padding: 8px 12px; background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); border: 1px solid var(--app-border-dark);">Apply Size</button>
+                         <h4>Options</h4>
+                        <label for="includeNameDate" class="checkbox-label">
+                            <input type="checkbox" id="includeNameDate" />Include Name/Date Fields
+                        </label>
+                        
+                        <h4>Border</h4>
+                        <label for="borderThemeSelect">Border Theme:</label>
+                        <select id="borderThemeSelect">
+                            <option value="none">None</option>
+                        </select>
+                        <label for="borderOpacity">Border Opacity:</label>
+                        <input type="range" id="borderOpacity" min="0" max="1" value="1" step="0.05">
+                        <div id="borderDictionary">
+                            <p class="dictionary-message">Select a theme to see borders.</p>
+                        </div>
+
+                        <h4>Background</h4>
+                        <label for="backgroundThemeSelect">Background Theme:</label>
+                        <select id="backgroundThemeSelect">
+                            <option value="none">None</option>
+                        </select>
+                        <label for="backgroundOpacity">Background Opacity:</label>
+                        <input type="range" id="backgroundOpacity" min="0" max="1" value="1" step="0.05" disabled>
+                        <div id="backgroundDictionary">
+                             <p class="dictionary-message">Select a theme to see backgrounds.</p>
+                        </div>
+                        </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-button">Text Tools</button>
+                    <div class="accordion-content">
+                        <h4>Add New Text</h4>
+                        <label for="textInput">Content:</label><input type="text" id="textInput" placeholder="Hello!">
+                        <button id="addTextBtn">Add Text</button>
+                        <h4>Selected Text Properties</h4>
+                        <label for="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                        <label for="fontSize">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+                        <label for="fontFamily">Font:</label>
+                        <select id="fontFamily" disabled>
+                            <option value="Lexend Deca">Lexend Deca</option>
+                            <option value="Baloo 2">Baloo 2</option>
+                            <option value="Nunito">Nunito</option>
+                            <option value="Quicksand">Quicksand</option>
+                            <option value="Fredoka">Fredoka</option>
+                            <option value="Arial">Arial</option>
+                            <option value="Verdana">Verdana</option>
+                        </select>
+                        <label for="textStrokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                        <label for="textStrokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-button">Template & Images</button>
+                    <div class="accordion-content">
+                        <h4>1. Select Drawing Template</h4>
+                        <div id="templateGrid"></div>
+                        <div id="templateInfo" style="font-size: 12px; color: var(--app-text-secondary-dark-theme); text-align: center; margin-top: 5px;"></div>
+                        
+                        <h4>2. Assign Image Pairs</h4>
+                        <label for="randomFill" class="checkbox-label">
+                            <input type="checkbox" id="randomFill" />Auto-fill images from selected theme
+                        </label>
+                        <div id="pairTable"></div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-button">Image Library</button>
+                    <div class="accordion-content">
+                        <label for="themeSelect">Image Theme:</label>
+                        <select id="themeSelect"></select>
+                        <label for="searchInput">Search Images:</label>
+                        <input type="text" id="searchInput" placeholder="e.g., apple, car" />
+                        <div id="dictionary">
+                            <p class="dictionary-message">Loading themes...</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <button class="accordion-button">Upload Custom Images</button>
+                    <div class="accordion-content">
+                        <label for="imageUploadInput">Select image(s) to upload:</label>
+                        <input type="file" id="imageUploadInput" multiple accept="image/*">
+                        <label style="margin-top:10px;">Your Uploaded Images (This Session):</label>
+                        <div id="uploadedImagesPreview">
+                            <p class="dictionary-message">Your uploaded images will appear here.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="panel-footer">
+                <div id="message"></div>
+            </div>
+        </div>
+
+        <div class="main">
+            <button id="menuToggleBtn" class="menu-toggle-btn"><i class="fas fa-bars"></i></button>
+            <div id="object-context-toolbar" style="display:none;">
+                <div class="toolbar-group">
+                    <div class="toolbar-item">
+                        <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
+                        <div class="dropdown-content" id="layersDropdown">
+                            <button id="toolbarBringForwardBtn">Bring Forward</button>
+                            <button id="toolbarSendBackwardBtn">Send Backward</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="toolbar-group">
+                    <div class="toolbar-item">
+                        <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
+                        <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
+                            <p style="font-size:11px; margin-bottom:5px; color:#555;">Align Selected:</p>
+                            <div>
+                                <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
+                                <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                                <button class="context-btn" id="alignRightBtn" title="Align Right"><i class="fas fa-align-right"></i></button>
+                            </div>
+                            <div style="margin-top: 5px;">
+                                <button class="context-btn" id="alignTopBtn" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                                <button class="context-btn" id="alignVCenterBtn" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
+                                <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                            </div>
+                            <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
+                            <p style="font-size:11px; margin-bottom:5px; color:#555;">Align to Page:</p>
+                            <div>
+                                <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                                <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="toolbar-group">
+                    <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
+                </div>
+            </div>
+            <div class="top-right-actions">
+                <button id="generateBtn" class="action-button accent">Generate</button>
+                <div class="dropdown-container">
+                    <button id="downloadDropdownBtn" class="action-button secondary">Download <i class="fas fa-caret-down"></i></button>
+                    <div id="downloadDropdownContent" class="dropdown-content">
+                        <button id="downloadJpegBtn" disabled>Download as JPEG</button>
+                        <button id="downloadPdfBtn" disabled>Download as PDF</button>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="grayscaleToggle" />Grayscale
+                        </label>
+                    </div>
+                </div>
+                <button id="clearBtn" class="action-button danger">Clear All</button>
+            </div>
+
+            <div class="tab-row">
+                <button class="tab-button active" data-tab="worksheetTab">Worksheet</button>
+            </div>
+            <div class="tab-content-wrapper">
+                <div class="tab active" id="worksheetTab">
+                    <div class="canvas-container-wrapper" id="worksheetCanvasWrapper">
+                        <canvas id="worksheetCanvasElement"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // --- STATE MANAGEMENT ---
+    let worksheetCanvas;
+    let currentCanvasConfig = { width: 612, height: 792 };
+    const downloadMultiplier = 6;
+
+    let selectedTemplate = null;
+    let templateOrientation = 'portrait';
+    let requiredPairs = 0;
+    let pairSelections = [];
+    let activePairSlot = null;
+    let allDictImages = [];
+    let uploadedImages = [];
+    let lastGeneratedData = null;
+
+    const templateMapping = {
+      'curve 1':    { pairs: 4, orientation: 'landscape' },
+      'curve 2':    { pairs: 4, orientation: 'landscape' },
+      'curve 3':    { pairs: 4, orientation: 'landscape' },
+      'curve 4':    { pairs: 4, orientation: 'landscape' },
+      'diagonal 1': { pairs: 5, orientation: 'portrait'  },
+      'diagonal 2': { pairs: 5, orientation: 'portrait'  },
+      'horizontal 1':{pairs:5, orientation: 'portrait'  },
+      'vertical 1': { pairs: 4, orientation: 'portrait'  }
+    };
+
+
+    // --- UI ELEMENT REFERENCES ---
+    const panel = document.querySelector('.panel');
+    const menuToggleBtn = document.getElementById('menuToggleBtn');
+    const menuCloseBtn = document.getElementById('menuCloseBtn');
+    const menuOverlay = document.getElementById('menuOverlay');
+
+    const generateBtn = document.getElementById('generateBtn');
+    const clearBtn = document.getElementById('clearBtn');
+    
+    const downloadDropdownBtn = document.getElementById('downloadDropdownBtn');
+    const downloadDropdownContent = document.getElementById('downloadDropdownContent');
+    const downloadJpegBtn = document.getElementById('downloadJpegBtn');
+    const downloadPdfBtn = document.getElementById('downloadPdfBtn');
+    const grayscaleToggle = document.getElementById('grayscaleToggle');
+    
+    const accordionButtons = document.querySelectorAll('.accordion-button');
+
+    const pageSizeSelect = document.getElementById('pageSizeSelect');
+    const customPageSizeInputsDiv = document.getElementById('customPageSizeInputs');
+    const pageWidthInput = document.getElementById('pageWidth');
+    const pageHeightInput = document.getElementById('pageHeight');
+    const setPageSizeBtn = document.getElementById('setPageSizeBtn');
+    const pageColorInput = document.getElementById('pageColor');
+    const includeNameDateCheckbox = document.getElementById('includeNameDate');
+    
+    const borderThemeSelect = document.getElementById('borderThemeSelect');
+    const borderOpacitySlider = document.getElementById('borderOpacity');
+    const borderDictionary = document.getElementById('borderDictionary');
+
+    // START: Added Background Refs
+    const backgroundThemeSelect = document.getElementById('backgroundThemeSelect');
+    const backgroundOpacitySlider = document.getElementById('backgroundOpacity');
+    const backgroundDictionary = document.getElementById('backgroundDictionary');
+    // END: Added Background Refs
+
+
+    // Text Tools
+    const textInput = document.getElementById('textInput');
+    const addTextBtn = document.getElementById('addTextBtn');
+    const textColorInput = document.getElementById('textColor');
+    const fontSizeInput = document.getElementById('fontSize');
+    const fontFamilySelect = document.getElementById('fontFamily');
+    const textStrokeColorInput = document.getElementById('textStrokeColor');
+    const textStrokeWidthInput = document.getElementById('textStrokeWidth');
+    
+    const templateGrid = document.getElementById('templateGrid');
+    const templateInfo = document.getElementById('templateInfo');
+    const randomFillCheckbox = document.getElementById('randomFill');
+    const pairTable = document.getElementById('pairTable');
+
+    const themeSelect = document.getElementById('themeSelect');
+    const searchInput = document.getElementById('searchInput');
+    const dictionaryDiv = document.getElementById('dictionary');
+    const imageUploadInput = document.getElementById('imageUploadInput');
+    const uploadedImagesPreview = document.getElementById('uploadedImagesPreview');
+
+    
+    const messageDiv = document.getElementById('message');
+    
+    const worksheetCanvasWrapper = document.getElementById('worksheetCanvasWrapper');
+    const worksheetCanvasElement = document.getElementById('worksheetCanvasElement');
+
+    // Toolbar References
+    const objectContextToolbar = document.getElementById('object-context-toolbar');
+    const layersBtn = document.getElementById('layersBtn');
+    const layersDropdown = document.getElementById('layersDropdown');
+    const toolbarBringForwardBtn = document.getElementById('toolbarBringForwardBtn');
+    const toolbarSendBackwardBtn = document.getElementById('toolbarSendBackwardBtn');
+    const alignBtn = document.getElementById('alignBtn');
+    const alignDropdown = document.getElementById('alignDropdown');
+    const toolbarDeleteBtn = document.getElementById('toolbarDeleteBtn');
+    const allToolbarButtons = objectContextToolbar.querySelectorAll('.context-btn');
+
+    // --- INITIALIZATION ---
+    function initializeApp() {
+        setupResponsiveSidebar();
+        setupAccordions();
+        setupDropdowns();
+        setupEventListeners();
+
+        worksheetCanvas = new fabric.Canvas(worksheetCanvasElement, {
+            backgroundColor: '#fff',
+            enableRetinaScaling: true,
+            preserveObjectStacking: true, // Important for layering control
+        });
+
+        setupCanvasEventHandlers();
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+        loadDrawingTemplates();
+        loadThemes();
+        loadBorderThemes();
+        loadBackgroundThemes(); // START: Added call
+        handleSelectionCleared(); // Initialize text tools state
+    }
+
+    // --- UI SETUP FUNCTIONS ---
+    function setupResponsiveSidebar() {
+        const openMenu = () => { panel.classList.add('is-open'); menuOverlay.classList.add('is-active'); };
+        const closeMenu = () => { panel.classList.remove('is-open'); menuOverlay.classList.remove('is-active'); };
+        menuToggleBtn.addEventListener('click', openMenu);
+        menuCloseBtn.addEventListener('click', closeMenu);
+        menuOverlay.addEventListener('click', closeMenu);
+    }
+    
+    function setupAccordions() {
+        accordionButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+                const isActive = button.classList.contains('active');
+                if (!isActive) {
+                    button.classList.add('active');
+                    content.style.display = 'block';
+                } else {
+                    button.classList.remove('active');
+                    content.style.display = 'none';
+                }
+            });
+        });
+        if (accordionButtons.length > 0) {
+            accordionButtons[0].classList.add('active');
+            accordionButtons[0].nextElementSibling.style.display = 'block';
+        }
+    }
+
+    function setupDropdowns() {
+        const setupDropdown = (button, content) => {
+            if (!button || !content) return;
+            button.addEventListener('click', (event) => {
+                const isVisible = content.style.display === 'block';
+                // Close all other dropdowns first
+                document.querySelectorAll('.dropdown-content').forEach(d => d.style.display = 'none');
+                content.style.display = isVisible ? 'none' : 'block';
+                event.stopPropagation();
+            });
+            return { button, content };
+        };
+        const downloadDropdown = setupDropdown(downloadDropdownBtn, downloadDropdownContent);
+
+        window.addEventListener('click', (event) => {
+             // **FIX**: Check if the click is outside the dropdown content as well
+            if (downloadDropdown && downloadDropdown.content.style.display === 'block' && 
+                !downloadDropdown.button.contains(event.target) && 
+                !downloadDropdown.content.contains(event.target)) {
+                downloadDropdown.content.style.display = 'none';
+            }
+        });
+    }
+
+    function setupEventListeners() {
+        // Page Setup
+        pageSizeSelect.addEventListener('change', handlePageSizeChange);
+        setPageSizeBtn.addEventListener('click', applyCustomPageSize);
+        pageColorInput.addEventListener('input', () => {
+            if (worksheetCanvas) {
+                worksheetCanvas.backgroundColor = pageColorInput.value;
+                worksheetCanvas.renderAll();
+            }
+        });
+        borderThemeSelect.addEventListener('change', loadBorderImages);
+        borderOpacitySlider.addEventListener('input', handleBorderOpacityChange);
+        imageUploadInput.addEventListener('change', handleImageUpload);
+        
+        // START: Added Background Listeners
+        backgroundThemeSelect.addEventListener('change', loadBackgroundImages);
+        backgroundOpacitySlider.addEventListener('input', handleBackgroundOpacityChange);
+        // END: Added Background Listeners
+
+        // Text Tools
+        addTextBtn.addEventListener('click', addTextToCanvas);
+        textInput.addEventListener('input', updateActiveTextObjectProperties);
+        textColorInput.addEventListener('input', updateActiveTextObjectProperties);
+        fontSizeInput.addEventListener('input', updateActiveTextObjectProperties);
+        fontFamilySelect.addEventListener('change', updateActiveTextObjectProperties);
+        textStrokeColorInput.addEventListener('input', updateActiveTextObjectProperties);
+        textStrokeWidthInput.addEventListener('input', updateActiveTextObjectProperties);
+
+        // Actions
+        generateBtn.addEventListener('click', generateWorksheet);
+        clearBtn.addEventListener('click', clearAll);
+        
+        // Downloads
+        downloadJpegBtn.addEventListener('click', () => {
+            downloadImageFile('jpeg');
+            if (downloadDropdownContent) downloadDropdownContent.style.display = 'none';
+        });
+        downloadPdfBtn.addEventListener('click', () => {
+            downloadPDF();
+            if (downloadDropdownContent) downloadDropdownContent.style.display = 'none';
+        });
+
+        // Image Library
+        themeSelect.addEventListener('change', loadDictionary);
+        searchInput.addEventListener('input', () => {
+            if (this.searchTimeout) clearTimeout(this.searchTimeout);
+            this.searchTimeout = setTimeout(renderDictionary, 300);
+        });
+
+        // Toolbar Listeners
+        layersBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(layersDropdown); });
+        alignBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(alignDropdown); });
+        toolbarBringForwardBtn.addEventListener('click', bringObjectForward);
+        toolbarSendBackwardBtn.addEventListener('click', sendObjectBackward);
+        toolbarDeleteBtn.addEventListener('click', deleteSelectedObjects);
+        document.querySelectorAll('#alignDropdown button').forEach(button => {
+            button.addEventListener('click', (e) => {
+                const type = e.currentTarget.id.replace('Btn', '');
+                alignObjects(type);
+            });
+        });
+        // Add a global listener to close popovers when clicking outside
+        window.addEventListener('click', () => {
+            closeAllPopovers();
+        });
+    }
+
+    function setupCanvasEventHandlers() {
+        worksheetCanvas.on({
+            'selection:created': handleObjectSelection,
+            'selection:updated': handleObjectSelection,
+            'selection:cleared': handleSelectionCleared
+        });
+
+        window.addEventListener('keydown', function(e) {
+            if (!worksheetCanvas) return;
+            const activeElement = document.activeElement;
+            if (activeElement && (activeElement.tagName === 'INPUT' || activeElement.tagName === 'TEXTAREA')) return;
+
+            const activeObject = worksheetCanvas.getActiveObject();
+            if (activeObject && (e.key === 'Delete' || e.key === 'Backspace')) {
+                if (activeObject.isEditing) return;
+                deleteSelectedObjects();
+            }
+        });
+    }
+
+    // --- DATA LOADING & UPLOADING ---
+    function loadDrawingTemplates() {
+        fetch('/api/templates')
+            .then(res => res.json())
+            .then(templateNames => {
+                 templateGrid.innerHTML = '';
+                templateNames.forEach(name => {
+                    const tile = document.createElement('div');
+                    tile.className = 'template-item';
+                    tile.onclick = () => selectTemplate(name);
+                    
+                    const img = document.createElement('img');
+                    img.src = `/images/drawing%20lines/${encodeURIComponent(name)}.png`;
+                    img.alt = name;
+                    img.onerror = () => { img.style.display = 'none'; };
+                    tile.appendChild(img);
+
+                    const lbl = document.createElement('div');
+                    lbl.className = 'template-label';
+                    lbl.textContent = name;
+                    tile.appendChild(lbl);
+
+                    templateGrid.appendChild(tile);
+                });
+            })
+            .catch(err => console.error('Failed to load templates:', err));
+    }
+
+    function loadThemes() {
+        fetch('/api/themes/nested')
+          .then(res => { if (!res.ok) throw new Error('Failed to load themes'); return res.json(); })
+          .then(themePaths => {
+            themeSelect.innerHTML = '<option value="all">All Themes</option>';
+            themePaths.forEach(themePath => {
+              const displayName = themePath
+                .split('/')
+                .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+                .join(' / ');
+              
+              const opt = document.createElement("option");
+              opt.value = themePath;
+              opt.textContent = displayName;
+              themeSelect.appendChild(opt);
+            });
+            loadDictionary();
+          })
+          .catch(err => {
+            console.error("Error loading themes:", err);
+            showMessage("Could not load image themes.", 'error');
+            dictionaryDiv.innerHTML = "<p class='dictionary-message'>Error loading themes.</p>";
+          });
+    }
+
+    function loadDictionary() {
+        const theme = themeSelect.value;
+        if (theme === 'all') {
+            allDictImages = [];
+            renderDictionary();
+            return;
+        }
+
+        dictionaryDiv.innerHTML = "<p class='dictionary-message'>Loading...</p>";
+        fetch(`/api/images?theme=${encodeURIComponent(theme)}`)
+            .then(res => { if (!res.ok) throw new Error('Failed to load images'); return res.json(); })
+            .then(images => {
+                allDictImages = images;
+                renderDictionary();
+            })
+            .catch(err => {
+                console.error("Error loading dictionary:", err);
+                dictionaryDiv.innerHTML = "<p class='dictionary-message'>Error loading images.</p>";
+            });
+    }
+
+    function loadBorderThemes() {
+        fetch('/api/borders/themes')
+            .then(res => res.ok ? res.json() : Promise.reject('Failed to load border themes'))
+            .then(themes => {
+                borderThemeSelect.innerHTML = '<option value="none">None</option>';
+                themes.forEach(theme => {
+                    const opt = document.createElement("option");
+                    opt.value = theme;
+                    opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
+                    borderThemeSelect.appendChild(opt);
+                });
+            })
+            .catch(err => {
+                console.error("Error loading border themes:", err);
+                showMessage("Could not load border themes.", 'error');
+            });
+    }
+
+    function loadBorderImages() {
+        const theme = borderThemeSelect.value;
+        const currentBorder = worksheetCanvas.getObjects().find(obj => obj.isBorder);
+
+        if (theme === 'none') {
+            borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
+            if (currentBorder) {
+                worksheetCanvas.remove(currentBorder).renderAll();
+            }
+            return;
+        }
+
+        borderDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} borders...</p>`;
+        fetch(`/api/borders/images?theme=${theme}`)
+            .then(res => res.ok ? res.json() : Promise.reject(`Failed to load images for border theme: ${theme}`))
+            .then(images => renderBorderThumbnails(images))
+            .catch(err => {
+                console.error('Error loading border images:', err);
+                borderDictionary.innerHTML = '<p class="dictionary-message">Error loading borders.</p>';
+                showMessage('Could not load border images.', 'error');
+            });
+    }
+
+    // START: Added background loading functions
+    function loadBackgroundThemes() {
+        fetch('/api/backgrounds/themes')
+            .then(res => res.ok ? res.json() : Promise.reject('Failed to load background themes'))
+            .then(themes => {
+                backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+                themes.forEach(theme => {
+                    const opt = document.createElement("option");
+                    opt.value = theme;
+                    opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
+                    backgroundThemeSelect.appendChild(opt);
+                });
+            })
+            .catch(err => {
+                console.error("Error loading background themes:", err);
+                showMessage("Could not load background themes.", 'error');
+            });
+    }
+
+    function loadBackgroundImages() {
+        const theme = backgroundThemeSelect.value;
+        const currentBackground = worksheetCanvas.getObjects().find(obj => obj.isBackground);
+
+        if (theme === 'none') {
+            backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see backgrounds.</p>';
+            if (currentBackground) {
+                worksheetCanvas.remove(currentBackground).renderAll();
+            }
+            backgroundOpacitySlider.value = 1;
+            backgroundOpacitySlider.disabled = true;
+            return;
+        }
+
+        backgroundDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} backgrounds...</p>`;
+        fetch(`/api/backgrounds/images?theme=${theme}`)
+            .then(res => res.ok ? res.json() : Promise.reject(`Failed to load images for background theme: ${theme}`))
+            .then(images => {
+                backgroundDictionary.innerHTML = "";
+                if (!images || images.length === 0) {
+                    backgroundDictionary.innerHTML = '<p class="dictionary-message">No backgrounds in this theme.</p>';
+                    return;
+                }
+                images.forEach(image => {
+                    const item = document.createElement("div");
+                    item.className = "border-thumbnail-item"; // Re-use styling from borders
+                    item.innerHTML = `<img src="${image.path}" alt="${image.name}" loading="lazy" />`;
+                    item.onclick = () => {
+                        addBackgroundToCanvas(image.path);
+                        document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
+                        item.classList.add('selected');
+                    };
+                    backgroundDictionary.appendChild(item);
+                });
+            })
+            .catch(err => {
+                console.error('Error loading background images:', err);
+                backgroundDictionary.innerHTML = '<p class="dictionary-message">Error loading backgrounds.</p>';
+                showMessage('Could not load background images.', 'error');
+            });
+    }
+    // END: Added background loading functions
+
+    function handleImageUpload(e) {
+        const files = e.target.files;
+        if (!files || files.length === 0) return;
+
+        let filesToLoad = Array.from(files).filter(f => f.type.startsWith('image/')).length;
+        if (filesToLoad === 0) return;
+
+        uploadedImagesPreview.innerHTML = `<p class='dictionary-message'>Loading ${filesToLoad} image(s)...</p>`;
+        let loadedCount = 0;
+        
+        for (const file of files) {
+            if (!file.type.startsWith('image/')) continue;
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                const imgDataUrl = event.target.result;
+                if (!uploadedImages.some(img => img.path === imgDataUrl)) {
+                    uploadedImages.push({ word: file.name, path: imgDataUrl });
+                }
+                loadedCount++;
+                if (loadedCount === filesToLoad) {
+                    renderUploadedImages();
+                    showMessage(`${loadedCount} custom image(s) available.`, 'success');
+                }
+            };
+            reader.onerror = () => {
+                loadedCount++;
+                showMessage(`Error reading file: ${file.name}`, 'error');
+                if (loadedCount === filesToLoad) {
+                    renderUploadedImages();
+                }
+            };
+            reader.readAsDataURL(file);
+        }
+        imageUploadInput.value = ''; // Reset file input
+    }
+
+
+    // --- UI RENDERING & DATA MANIPULATION ---
+    function renderBorderThumbnails(borders) {
+        borderDictionary.innerHTML = "";
+        if (!borders || borders.length === 0) {
+            borderDictionary.innerHTML = '<p class="dictionary-message">No borders in this theme.</p>';
+            return;
+        }
+        borders.forEach(border => {
+            const item = document.createElement("div");
+            item.className = "border-thumbnail-item";
+            item.innerHTML = `<img src="${border.path}" alt="${border.name}" loading="lazy" />`;
+            item.onclick = () => {
+                addBorderToCanvas(border.path);
+                document.querySelectorAll('.border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
+                item.classList.add('selected');
+            };
+            borderDictionary.appendChild(item);
+        });
+    }
+    
+    function selectTemplate(name) {
+        document.querySelectorAll('.template-item.selected').forEach(el => el.classList.remove('selected'));
+        const selectedEl = Array.from(templateGrid.children).find(child => child.querySelector('.template-label').textContent === name);
+        if (selectedEl) selectedEl.classList.add('selected');
+
+        selectedTemplate = name;
+        const templateData = templateMapping[name];
+        requiredPairs = templateData.pairs;
+        templateOrientation = templateData.orientation;
+
+        const targetPageValue = templateOrientation === 'landscape' ? '792x612' : '612x792';
+        pageSizeSelect.value = targetPageValue;
+        handlePageSizeChange();
+
+        templateInfo.textContent = `Selected: ${name} (${requiredPairs} pairs, ${templateOrientation})`;
+        generatePairTable(requiredPairs);
+    }
+
+    function generatePairTable(count) {
+        pairTable.innerHTML = '';
+        pairSelections = Array.from({ length: count }, () => ({ left: null, right: null }));
+
+        for (let i = 0; i < count; i++) {
+            const row = document.createElement('div');
+            row.className = 'pair-row';
+            row.innerHTML = `<div class="pair-label">${i + 1}</div>`;
+
+            ['left', 'right'].forEach(side => {
+                const slot = document.createElement('div');
+                slot.className = 'pair-slot';
+                slot.dataset.pairIndex = i;
+                slot.dataset.slot = side;
+                slot.onclick = () => selectPairSlot(slot);
+                slot.innerHTML = `<span>${side.charAt(0).toUpperCase()}</span>`;
+                row.appendChild(slot);
+            });
+            pairTable.appendChild(row);
+        }
+    }
+
+    function selectPairSlot(slot) {
+        document.querySelectorAll('.pair-slot.active').forEach(s => s.classList.remove('active'));
+        slot.classList.add('active');
+        activePairSlot = slot;
+    }
+    
+    async function renderDictionary() {
+        const query = searchInput.value.trim().toLowerCase();
+        dictionaryDiv.innerHTML = ''; // Clear the current list
+
+        let imagesToDisplay = [];
+
+        // If "All Themes" is selected, use the new server-side search
+        if (themeSelect.value === 'all') {
+            if (!query) {
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
+                return;
+            }
+            // Show a "Searching..." message while waiting for the server
+            dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+            try {
+                // Fetch results from the server instead of filtering locally
+                const response = await fetch(`/api/images?search=${encodeURIComponent(query)}`);
+                if (!response.ok) throw new Error(`Failed to search for "${query}"`);
+                imagesToDisplay = await response.json();
+            } catch (error) {
+                 console.error(error);
+                 showMessage(error.message, 'error');
+                 imagesToDisplay = [];
+            }
+        } else {
+            // This is the original logic for filtering within a specific, already-loaded theme
+            const source = allDictImages; 
+            imagesToDisplay = query ? source.filter(img => img.word.toLowerCase().includes(query)) : source;
+        }
+
+        // This is the original rendering logic for displaying the results
+        if (imagesToDisplay.length === 0) {
+            dictionaryDiv.innerHTML = `<p class="dictionary-message">No images found${query ? ` matching "${query}"` : ''}.</p>`;
+            return;
+        }
+
+        imagesToDisplay.sort((a, b) => a.word.localeCompare(b.word)).forEach(({ word, path }) => {
+            const item = document.createElement('div');
+            item.className = 'dictionary-item';
+            item.innerHTML = `<img src="${path}" alt="${word}" title="${word}" loading="lazy" crossOrigin="anonymous"/>`;
+            item.onclick = () => assignImageToSlot(path);
+            dictionaryDiv.appendChild(item);
+        });
+    }
+
+    function renderUploadedImages() {
+        uploadedImagesPreview.innerHTML = "";
+        if (uploadedImages.length === 0) {
+            uploadedImagesPreview.innerHTML = `<p class="dictionary-message">Your uploaded images will appear here.</p>`;
+            return;
+        }
+        uploadedImages.forEach(img => {
+            const item = document.createElement("div");
+            item.className = "dictionary-item";
+            item.innerHTML = `<img src="${img.path}" alt="${img.word}" loading="lazy" title="${img.word}"/>`;
+            item.onclick = () => assignImageToSlot(img.path);
+            uploadedImagesPreview.appendChild(item);
+        });
+    }
+    
+    function assignImageToSlot(src) {
+        if (!activePairSlot) {
+            showMessage('Please select a slot in the "Assign Image Pairs" section first.', 'info');
+            return;
+        }
+        activePairSlot.innerHTML = `<img src="${src}" />`;
+        const idx = activePairSlot.dataset.pairIndex;
+        const side = activePairSlot.dataset.slot;
+        pairSelections[idx][side] = { path: src };
+        
+        activePairSlot.classList.remove('active');
+        activePairSlot = null;
+    }
+    
+    // --- WORKSHEET GENERATION & CANVAS ---
+    async function generateWorksheet() {
+        if (!selectedTemplate) {
+            showMessage('Please select a drawing template.', 'error');
+            return;
+        }
+        
+        if (randomFillCheckbox.checked) {
+            let imagePool = [];
+            if (themeSelect.value === 'all') {
+                showMessage('Auto-filling from all themes...', 'info', 1500);
+                try {
+                    const response = await fetch('/api/images?search=');
+                    if (!response.ok) throw new Error('Could not fetch all images for auto-fill');
+                    imagePool = await response.json();
+                } catch (error) {
+                    showMessage(error.message, 'error');
+                    return;
+                }
+            } else {
+                imagePool = [...allDictImages];
+            }
+            imagePool.push(...uploadedImages);
+
+            if (imagePool.length === 0) {
+                showMessage('Cannot auto-fill. Please select a theme or upload images.', 'error');
+                return;
+            }
+            fillRandomPairs(imagePool);
+            updatePairTableUI();
+        }
+
+        if (pairSelections.some(p => !p.left || !p.right)) {
+            showMessage('Please fill all image pairs or toggle auto-fill.', 'error');
+            return;
+        }
+        
+        // START OF MODIFICATION: Non-destructive regeneration
+        // Remove only previously generated items, preserving user-added content and modifications.
+        const objectsToRemove = worksheetCanvas.getObjects().filter(obj => obj.isGeneratedItem);
+        objectsToRemove.forEach(obj => worksheetCanvas.remove(obj));
+        // END OF MODIFICATION
+        
+        worksheetCanvas.backgroundColor = pageColorInput.value;
+
+        lastGeneratedData = {
+            includeNameDate: includeNameDateCheckbox.checked,
+            template: selectedTemplate,
+            pairs: JSON.parse(JSON.stringify(pairSelections))
+        };
+        
+        try {
+            await renderDataToCanvas(worksheetCanvas, lastGeneratedData);
+            showMessage('Worksheet generated!', 'success');
+            downloadJpegBtn.disabled = false;
+            downloadPdfBtn.disabled = false;
+        } catch (error) {
+            console.error("Error during rendering:", error);
+            showMessage('An error occurred during generation.', 'error');
+        }
+    }
+
+    async function renderDataToCanvas(canvas, data) {
+        const { width, height } = canvas;
+        const margin = width * 0.07;
+        let currentY = margin;
+
+        if (data.includeNameDate) {
+            const nameDateText = "Name: _________________________      Date: ____________";
+            const nameDateObj = new fabric.Textbox(nameDateText, {
+                left: margin,
+                top: currentY,
+                fontSize: 18,
+                fontFamily: 'Fredoka',
+                fill: '#333',
+                width: width - (margin * 2),
+                selectable: true,
+                hasControls: true,
+                borderColor: 'var(--app-accent-primary)',
+                cornerColor: 'var(--app-accent-primary)',
+                isGeneratedItem: true // Mark as a generated item
+            });
+            canvas.add(nameDateObj);
+            currentY += nameDateObj.getBoundingRect(true).height + 40;
+        }
+
+        if (data.template === 'vertical 1') {
+            await renderVerticalExercises(canvas, data, currentY, margin);
+        } else {
+            await renderHorizontalExercises(canvas, data, currentY, margin);
+        }
+        
+        // Ensure background and border are always at the back after adding all elements
+        const border = canvas.getObjects().find(o => o.isBorder);
+        if(border) border.sendToBack();
+        const bg = canvas.getObjects().find(o => o.isBackground);
+        if(bg) bg.sendToBack();
+
+        canvas.renderAll();
+    }
+    
+    async function renderHorizontalExercises(canvas, data, startY, margin) {
+        const { width, height } = canvas;
+        const contentW = width - margin * 2;
+        const contentH = height - startY - margin;
+        const cellSize = contentW * 0.18;
+        const drawingWidth = contentW * 0.55;
+        
+        const tops = data.pairs.length > 1
+            ? Array.from({ length: data.pairs.length }, (_, i) => startY + Math.round((contentH - cellSize) / (data.pairs.length - 1) * i))
+            : [startY + (contentH - cellSize) / 2];
+
+        for (let i = 0; i < data.pairs.length; i++) {
+            const pair = data.pairs[i];
+            const [leftImg, rightImg, svgData] = await Promise.all([
+                loadImageAsFabric(pair.left.path, { crossOrigin: 'anonymous' }),
+                loadImageAsFabric(pair.right.path, { crossOrigin: 'anonymous' }),
+                fetch(`/images/drawing%20lines/${encodeURIComponent(data.template)}.svg`).then(r => r.text())
+            ]);
+
+            const sharedProps = { selectable: true, hasControls: true, hasBorders: true, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 8, transparentCorners: false, cornerStyle: 'circle', objectCaching: false, isGeneratedItem: true };
+
+            leftImg.scaleToWidth(cellSize);
+            leftImg.set({ ...sharedProps, left: margin, top: tops[i] });
+            
+            const line = await loadSVGAsFabric(svgData);
+            line.scaleToWidth(drawingWidth);
+            line.set({ ...sharedProps, left: margin + cellSize + (contentW - cellSize * 2 - drawingWidth) / 2, top: tops[i] + (cellSize - line.getScaledHeight()) / 2 });
+            
+            rightImg.scaleToWidth(cellSize);
+            rightImg.set({ ...sharedProps, left: margin + contentW - cellSize, top: tops[i] });
+            
+            canvas.add(leftImg, line, rightImg);
+        }
+    }
+    
+    async function renderVerticalExercises(canvas, data, startY, margin) {
+        const { width, height } = canvas;
+        const contentW = width - margin * 2;
+        const contentH = height - startY - margin;
+        const numCols = data.pairs.length;
+        const colWidth = contentW / numCols;
+        const cellSize = colWidth * 0.8;
+        const drawingHeight = contentH * 0.5;
+
+        for (let i = 0; i < data.pairs.length; i++) {
+            const pair = data.pairs[i];
+             const [topImg, bottomImg, svgData] = await Promise.all([
+                loadImageAsFabric(pair.left.path, { crossOrigin: 'anonymous' }),
+                loadImageAsFabric(pair.right.path, { crossOrigin: 'anonymous' }),
+                fetch(`/images/drawing%20lines/${encodeURIComponent(data.template)}.svg`).then(r => r.text())
+            ]);
+            
+            const sharedProps = { selectable: true, hasControls: true, hasBorders: true, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 8, transparentCorners: false, cornerStyle: 'circle', objectCaching: false, isGeneratedItem: true };
+
+            topImg.scaleToWidth(cellSize);
+            topImg.set({ ...sharedProps, left: margin + i * colWidth + (colWidth - cellSize) / 2, top: startY });
+
+            const line = await loadSVGAsFabric(svgData);
+            line.scaleToHeight(drawingHeight);
+            line.set({ ...sharedProps, left: margin + i * colWidth + (colWidth - line.getScaledWidth()) / 2, top: startY + (contentH - drawingHeight) / 2 });
+
+            bottomImg.scaleToWidth(cellSize);
+            bottomImg.set({ ...sharedProps, left: margin + i * colWidth + (colWidth - cellSize) / 2, top: startY + contentH - bottomImg.getScaledHeight() });
+            
+            canvas.add(topImg, line, bottomImg);
+        }
+    }
+    
+    function addBorderToCanvas(path) {
+        if (!worksheetCanvas) return;
+        
+        const existingBorder = worksheetCanvas.getObjects().find(obj => obj.isBorder);
+        if (existingBorder) worksheetCanvas.remove(existingBorder);
+
+        fabric.Image.fromURL(path, (img) => {
+            if (!img) { showMessage('Failed to load border image.', 'error'); return; }
+            img.scaleToWidth(worksheetCanvas.width);
+            img.set({
+                left: worksheetCanvas.width / 2, top: worksheetCanvas.height / 2,
+                originX: 'center', originY: 'center', selectable: true, evented: true, hasControls: true, hasBorders: true,
+                isBorder: true, 
+                borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
+                opacity: parseFloat(borderOpacitySlider.value)
+            });
+            worksheetCanvas.add(img);
+            // Ensure correct layering
+            img.sendToBack();
+            const bg = worksheetCanvas.getObjects().find(o => o.isBackground);
+            if (bg) bg.sendToBack();
+            worksheetCanvas.renderAll();
+            showMessage('Border added.', 'success', 1500);
+        }, { crossOrigin: 'anonymous' });
+    }
+
+    // START: Added background canvas function
+    function addBackgroundToCanvas(path) {
+        if (!worksheetCanvas) return;
+        
+        const existingBackground = worksheetCanvas.getObjects().find(obj => obj.isBackground);
+        if (existingBackground) worksheetCanvas.remove(existingBackground);
+
+        fabric.Image.fromURL(path, (img) => {
+            if (!img) { showMessage('Failed to load background image.', 'error'); return; }
+            
+            img.scaleToWidth(worksheetCanvas.width);
+            if(img.getScaledHeight() < worksheetCanvas.height) {
+                img.scaleToHeight(worksheetCanvas.height);
+            }
+
+            img.set({
+                left: worksheetCanvas.width / 2, top: worksheetCanvas.height / 2,
+                originX: 'center', originY: 'center',
+                selectable: true, evented: true, hasControls: true, hasBorders: true,
+                isBackground: true, // Custom property to identify it
+                borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
+                opacity: parseFloat(backgroundOpacitySlider.value)
+            });
+            worksheetCanvas.add(img).sendToBack(img);
+            backgroundOpacitySlider.disabled = false;
+            worksheetCanvas.renderAll();
+            showMessage('Background added.', 'success', 1500);
+        }, { crossOrigin: 'anonymous' });
+    }
+    // END: Added background canvas function
+
+    // --- TEXT TOOLS LOGIC ---
+    function addTextToCanvas() {
+        if (!worksheetCanvas) return;
+        const textContent = textInput.value.trim() || 'New Text';
+        const textObject = new fabric.Textbox(textContent, {
+            left: fabric.util.getRandomInt(30, Math.max(30, worksheetCanvas.width - 230)),
+            top: fabric.util.getRandomInt(30, Math.max(30, worksheetCanvas.height - 80)),
+            fontSize: 48, fill: '#333333',
+            fontFamily: fontFamilySelect.options[fontFamilySelect.selectedIndex].value,
+            width: 200, padding: 8, borderColor: 'var(--app-border-dark)', cornerColor: 'var(--app-accent-primary)',
+            cornerSize: 10, transparentCorners: false, cornerStyle: 'circle', stroke: '#000000', strokeWidth: 0
+        });
+        worksheetCanvas.add(textObject).setActiveObject(textObject);
+        
+        // Ensure background and border stay at the back after adding text
+        const border = worksheetCanvas.getObjects().find(o => o.isBorder);
+        if (border) border.sendToBack();
+        const bg = worksheetCanvas.getObjects().find(o => o.isBackground);
+        if (bg) bg.sendToBack();
+        worksheetCanvas.renderAll();
+        
+        textInput.value = '';
+        showMessage('Text added to worksheet.', 'success', 1500);
+    }
+    
+    function updateActiveTextObjectProperties() {
+        if (!worksheetCanvas) return;
+        const activeObject = worksheetCanvas.getActiveObject();
+        if (!activeObject || activeObject.type !== 'textbox' && activeObject.type !== 'i-text') return;
+
+        const newProps = {};
+        if (textColorInput.value !== activeObject.fill) newProps.fill = textColorInput.value;
+        const newFontSize = parseInt(fontSizeInput.value, 10);
+        if (newFontSize > 0 && newFontSize !== activeObject.fontSize) newProps.fontSize = newFontSize;
+        if (fontFamilySelect.value !== activeObject.fontFamily) newProps.fontFamily = fontFamilySelect.value;
+        if (textStrokeColorInput.value !== activeObject.stroke) newProps.stroke = textStrokeColorInput.value;
+        const newStrokeWidth = parseFloat(textStrokeWidthInput.value);
+        if (newStrokeWidth >= 0 && newStrokeWidth !== activeObject.strokeWidth) newProps.strokeWidth = newStrokeWidth;
+        if (document.activeElement === textInput && textInput.value !== activeObject.text) newProps.text = textInput.value;
+        
+        if (Object.keys(newProps).length > 0) {
+            activeObject.set(newProps);
+            worksheetCanvas.renderAll();
+        }
+    }
+    
+    // START: Toolbar and Selection Functions
+    let activePopover = null;
+
+    function togglePopover(popover) {
+        const isOpening = popover.style.display !== 'block';
+        closeAllPopovers();
+        if (isOpening) {
+            popover.style.display = 'block';
+            activePopover = popover;
+        }
+    }
+
+    function closeAllPopovers() {
+        if (activePopover) {
+            activePopover.style.display = 'none';
+            activePopover = null;
+        }
+        if(document.getElementById('layersBtn')) document.getElementById('layersBtn').classList.remove('active-dropdown');
+        if(document.getElementById('alignBtn')) document.getElementById('alignBtn').classList.remove('active-dropdown');
+    }
+
+    function bringObjectForward() {
+        const activeObject = worksheetCanvas.getActiveObject();
+        if (activeObject) {
+            if (activeObject.isBorder || activeObject.isBackground) return; // Cannot move special layers
+            worksheetCanvas.bringForward(activeObject);
+            worksheetCanvas.renderAll();
+        }
+        closeAllPopovers();
+    }
+
+    function sendObjectBackward() {
+        const activeObject = worksheetCanvas.getActiveObject();
+        if (activeObject) {
+            if (activeObject.isBorder || activeObject.isBackground) return; // Cannot move special layers
+            worksheetCanvas.sendBackwards(activeObject);
+
+            const border = worksheetCanvas.getObjects().find(obj => obj.isBorder);
+            if (border) worksheetCanvas.sendToBack(border);
+            
+            const bg = worksheetCanvas.getObjects().find(obj => obj.isBackground);
+            if (bg) bg.sendToBack(bg);
+            
+            worksheetCanvas.renderAll();
+        }
+        closeAllPopovers();
+    }
+
+    function deleteSelectedObjects() {
+        const activeObjects = worksheetCanvas.getActiveObjects();
+        if (activeObjects.length > 0) {
+            activeObjects.forEach(obj => {
+                // If we delete the background or border, reset their controls
+                if (obj.isBackground) {
+                    backgroundThemeSelect.value = 'none';
+                    backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see backgrounds.</p>';
+                    backgroundOpacitySlider.disabled = true;
+                }
+                if (obj.isBorder) {
+                    borderThemeSelect.value = 'none';
+                    borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
+                }
+                worksheetCanvas.remove(obj);
+            });
+            worksheetCanvas.discardActiveObject().renderAll();
+        }
+        closeAllPopovers();
+    }
+
+    function alignObjects(type) {
+        const activeObj = worksheetCanvas.getActiveObject();
+        if (!activeObj) {
+            closeAllPopovers();
+            return;
+        }
+
+        if (type.includes('Canvas')) { // Align single object to canvas
+            if (type === 'centerHCanvas') activeObj.centerH();
+            if (type === 'centerVCanvas') activeObj.centerV();
+            activeObj.setCoords();
+        } else if (activeObj.type === 'activeSelection') { // Align multiple objects
+            const group = activeObj;
+            
+            group.forEachObject(function(obj) {
+                switch (type) {
+                    case 'alignLeft':
+                        obj.set('left', -group.width / 2);
+                        break;
+                    case 'alignHCenter':
+                        obj.set('left', 0 - obj.getScaledWidth() / 2);
+                        break;
+                    case 'alignRight':
+                        obj.set('left', group.width / 2 - obj.getScaledWidth());
+                        break;
+                    case 'alignTop':
+                        obj.set('top', -group.height / 2);
+                        break;
+                    case 'alignVCenter':
+                        obj.set('top', 0 - obj.getScaledHeight() / 2);
+                        break;
+                    case 'alignBottom':
+                        obj.set('top', group.height / 2 - obj.getScaledHeight());
+                        break;
+                }
+            });
+        }
+        
+        worksheetCanvas.renderAll();
+        closeAllPopovers();
+    }
+
+    function handleObjectSelection(e) {
+        objectContextToolbar.style.display = 'flex';
+        const activeObject = worksheetCanvas.getActiveObject();
+
+        if (!activeObject) {
+            handleSelectionCleared();
+            return;
+        }
+        
+        if (activeObject.isBorder) {
+            borderOpacitySlider.value = activeObject.opacity;
+        }
+        // START: Update background slider on selection
+        if (activeObject.isBackground) {
+            backgroundOpacitySlider.value = activeObject.opacity;
+        }
+        // END: Update background slider on selection
+
+        const isGroup = activeObject.type === 'activeSelection';
+
+        allToolbarButtons.forEach(btn => btn.disabled = false);
+        document.querySelectorAll('#alignDropdown button').forEach(btn => {
+            if (btn.id.includes('Canvas')) {
+                btn.disabled = isGroup; // Disable align-to-canvas for multi-selection
+            } else {
+                btn.disabled = !isGroup; // Disable align-to-each-other for single selection
+            }
+        });
+
+        const isSingleTextObject = activeObject.type === 'textbox' || activeObject.type === 'i-text';
+        
+        [textColorInput, fontSizeInput, fontFamilySelect, textStrokeColorInput, textStrokeWidthInput, textInput].forEach(el => el.disabled = !isSingleTextObject);
+
+        if (isSingleTextObject) {
+            textInput.value = activeObject.text || "";
+            textColorInput.value = activeObject.fill || '#333333';
+            fontSizeInput.value = activeObject.fontSize || 48;
+            fontFamilySelect.value = activeObject.fontFamily || fontFamilySelect.options[0].value;
+            textStrokeColorInput.value = activeObject.stroke || '#000000';
+            textStrokeWidthInput.value = activeObject.strokeWidth || 0;
+        }
+    }
+    
+    function handleSelectionCleared() {
+        objectContextToolbar.style.display = 'none';
+        closeAllPopovers();
+
+        textColorInput.value = '#333333'; fontSizeInput.value = 48;
+        fontFamilySelect.value = fontFamilySelect.options[0].value;
+        textStrokeColorInput.value = '#000000'; textStrokeWidthInput.value = 0;
+        if (document.activeElement !== textInput) textInput.value = "";
+        [textColorInput, fontSizeInput, fontFamilySelect, textStrokeColorInput, textStrokeWidthInput].forEach(el => el.disabled = true);
+        textInput.disabled = false;
+    }
+
+    // --- UTILITY & HELPER FUNCTIONS ---
+    
+    function handleBorderOpacityChange() {
+        const border = worksheetCanvas.getObjects().find(obj => obj.isBorder);
+        if (border) {
+            border.set('opacity', parseFloat(borderOpacitySlider.value));
+            worksheetCanvas.renderAll();
+        }
+    }
+
+    // START: Added background opacity handler
+    function handleBackgroundOpacityChange() {
+        const background = worksheetCanvas.getObjects().find(obj => obj.isBackground);
+        if (background) {
+            background.set('opacity', parseFloat(backgroundOpacitySlider.value));
+            worksheetCanvas.renderAll();
+        }
+    }
+    // END: Added background opacity handler
+
+    function fillRandomPairs(imagePool) {
+        const themePaths = imagePool.map(img => img.path);
+        const slotsNeeded = requiredPairs * 2;
+        if (themePaths.length === 0) return;
+
+        let picks = [];
+        if (themePaths.length >= slotsNeeded) {
+            picks = [...themePaths].sort(() => 0.5 - Math.random()).slice(0, slotsNeeded);
+        } else {
+            picks = [...themePaths];
+            while (picks.length < slotsNeeded) picks.push(themePaths[Math.floor(Math.random() * themePaths.length)]);
+            picks.sort(() => 0.5 - Math.random());
+        }
+
+        for (let i = 0; i < requiredPairs; i++) {
+            pairSelections[i].left = { path: picks[2 * i] };
+            pairSelections[i].right = { path: picks[2 * i + 1] };
+        }
+    }
+    
+    function updatePairTableUI() {
+        pairSelections.forEach((pair, index) => {
+            if(pair.left) {
+                const leftSlot = document.querySelector(`.pair-slot[data-pair-index='${index}'][data-slot='left']`);
+                if(leftSlot) leftSlot.innerHTML = `<img src="${pair.left.path}" />`;
+            }
+            if(pair.right) {
+                const rightSlot = document.querySelector(`.pair-slot[data-pair-index='${index}'][data-slot='right']`);
+                if(rightSlot) rightSlot.innerHTML = `<img src="${pair.right.path}" />`;
+            }
+        });
+    }
+
+    function loadImageAsFabric(url, options) { return new Promise((resolve, reject) => { fabric.Image.fromURL(url, (img) => { if(img) resolve(img); else reject(new Error('Failed to load image: ' + url)); }, options); }); }
+    function loadSVGAsFabric(svgString) { return new Promise((resolve, reject) => { fabric.loadSVGFromString(svgString, (objects, options) => { if (objects) { resolve(fabric.util.groupSVGElements(objects, options)); } else { reject(new Error('Failed to load SVG string')); } }); }); }
+    function showMessage(msg, type = 'info', duration = 3000) { messageDiv.textContent = msg; messageDiv.className = `message ${type}`; messageDiv.style.display = 'block'; if (duration > 0) setTimeout(() => { messageDiv.style.display = 'none'; }, duration); }
+    
+    function clearAll() {
+        includeNameDateCheckbox.checked = false;
+        randomFillCheckbox.checked = false;
+        
+        selectedTemplate = null;
+        requiredPairs = 0;
+        templateInfo.textContent = '';
+        document.querySelectorAll('.template-item.selected').forEach(el => el.classList.remove('selected'));
+        pairTable.innerHTML = '';
+        pairSelections = [];
+        activePairSlot = null;
+        
+        themeSelect.value = 'all';
+        searchInput.value = '';
+        loadDictionary();
+        
+        uploadedImages = [];
+        renderUploadedImages();
+        
+        borderThemeSelect.value = 'none';
+        borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
+        borderOpacitySlider.value = 1;
+        
+        // START: Added background UI reset
+        backgroundThemeSelect.value = 'none';
+        backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see backgrounds.</p>';
+        backgroundOpacitySlider.value = 1;
+        backgroundOpacitySlider.disabled = true;
+        // END: Added background UI reset
+
+        worksheetCanvas.clear();
+        worksheetCanvas.backgroundColor = '#FFFFFF';
+        worksheetCanvas.renderAll();
+        lastGeneratedData = null;
+        handleSelectionCleared();
+        
+        downloadJpegBtn.disabled = true;
+        downloadPdfBtn.disabled = true;
+        
+        showMessage('Form cleared.', 'success', 2000);
+    }
+    
+    function handlePageSizeChange() {
+        const selectedValue = pageSizeSelect.value;
+        if (selectedValue === 'custom') {
+            customPageSizeInputsDiv.style.display = 'block';
+        } else {
+            customPageSizeInputsDiv.style.display = 'none';
+            const [w, h] = selectedValue.split('x').map(Number);
+            pageWidthInput.value = w;
+            pageHeightInput.value = h;
+            updateCanvasDisplayDimensions(w, h);
+        }
+    }
+
+    function applyCustomPageSize() {
+        const newWidth = parseInt(pageWidthInput.value, 10) || currentCanvasConfig.width;
+        const newHeight = parseInt(pageHeightInput.value, 10) || currentCanvasConfig.height;
+        updateCanvasDisplayDimensions(newWidth, newHeight);
+    }
+
+    function updateCanvasDisplayDimensions(width, height) {
+        currentCanvasConfig.width = width;
+        currentCanvasConfig.height = height;
+        const mainStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
+        const availableWidth = parseFloat(mainStyle.width) - parseFloat(mainStyle.paddingLeft) - parseFloat(mainStyle.paddingRight) - 10;
+        const availableHeight = parseFloat(mainStyle.height) - parseFloat(mainStyle.paddingTop) - parseFloat(mainStyle.paddingBottom) - 10;
+        const displayWidth = Math.min(width, availableWidth);
+        const displayHeight = Math.min(height, availableHeight);
+        worksheetCanvas.setWidth(width).setHeight(height).calcOffset().renderAll();
+        worksheetCanvasWrapper.style.width = `${displayWidth}px`;
+        worksheetCanvasWrapper.style.height = `${displayHeight}px`;
+    }
+
+    // --- DOWNLOAD & EXPORT LOGIC ---
+    async function getCanvasDataURL(canvasInstance, exportOpts) {
+        let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 1.0, multiplier: exportOpts.multiplier });
+        if (exportOpts.applyGrayscale) {
+            try { dataURL = await applyGrayscaleToDataURL(dataURL); }
+            catch (error) { console.error("Grayscale failed:", error); showMessage('Grayscale conversion failed.', 'error'); }
+        }
+        return dataURL;
+    }
+
+    async function applyGrayscaleToDataURL(dataURL) {
+        return new Promise((resolve, reject) => {
+            const img = new Image();
+            img.onload = () => {
+                const tempCanvas = document.createElement('canvas');
+                tempCanvas.width = img.width; tempCanvas.height = img.height;
+                const ctx = tempCanvas.getContext('2d');
+                if (!ctx) return reject(new Error("Failed to get 2D context."));
+                ctx.drawImage(img, 0, 0);
+                const imageData = ctx.getImageData(0, 0, tempCanvas.width, tempCanvas.height);
+                const data = imageData.data;
+                for (let i = 0; i < data.length; i += 4) {
+                    const gray = 0.2126 * data[i] + 0.7152 * data[i + 1] + 0.0722 * data[i + 2];
+                    data[i] = data[i + 1] = data[i + 2] = gray;
+                }
+                ctx.putImageData(imageData, 0, 0);
+                resolve(tempCanvas.toDataURL('image/jpeg', 1.0));
+            };
+            img.onerror = (err) => reject(err);
+            img.src = dataURL;
+        });
+    }
+
+    async function downloadImageFile() {
+        if (!lastGeneratedData) { showMessage('Please generate a worksheet first.', 'error'); return; }
+        showMessage('Preparing JPEG... Please wait.', 'info', 0);
+        try {
+            const exportOptions = { multiplier: downloadMultiplier, applyGrayscale: grayscaleToggle.checked };
+            const worksheetDataURL = await getCanvasDataURL(worksheetCanvas, exportOptions);
+            const link = document.createElement('a');
+            link.download = 'drawing_lines_worksheet.jpeg';
+            link.href = worksheetDataURL;
+            link.click();
+            showMessage('JPEG Download Initiated!', 'success', 3000);
+        } catch (error) { showMessage(`Error preparing JPEG: ${error.message}`, 'error'); }
+    }
+    
+    
+    // Check if user is on free tier
+    function isFreeTier() {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get('tier') === 'free';
+    }
+
+    // Add watermark to canvas before export
+    function addWatermarkToCanvas(canvas) {
+        if (!isFreeTier()) return;
+        
+        const watermarkText = new fabric.Text('FREE VERSION - LessonCraftStudio.com', {
+            fontSize: 40,
+            fill: 'rgba(0, 0, 0, 0.2)',
+            angle: -45,
+            left: canvas.width / 2,
+            top: canvas.height / 2,
+            originX: 'center',
+            originY: 'center',
+            selectable: false,
+            evented: false,
+            fontFamily: 'Arial, sans-serif',
+            fontWeight: 'bold'
+        });
+        
+        // Add multiple watermarks across the canvas
+        const watermarks = [];
+        const spacing = 250;
+        for (let x = 0; x < canvas.width; x += spacing) {
+            for (let y = 0; y < canvas.height; y += spacing) {
+                const wm = new fabric.Text('FREE VERSION', {
+                    fontSize: 20,
+                    fill: 'rgba(0, 0, 0, 0.15)',
+                    angle: -45,
+                    left: x,
+                    top: y,
+                    selectable: false,
+                    evented: false,
+                    fontFamily: 'Arial, sans-serif'
+                });
+                watermarks.push(wm);
+                canvas.add(wm);
+            }
+        }
+        
+        // Add main watermark
+        canvas.add(watermarkText);
+        canvas.renderAll();
+        
+        return { mainWatermark: watermarkText, watermarks };
+    }
+
+    // Remove watermark after export
+    function removeWatermarkFromCanvas(canvas, watermarkData) {
+        if (!watermarkData) return;
+        
+        if (watermarkData.mainWatermark) {
+            canvas.remove(watermarkData.mainWatermark);
+        }
+        if (watermarkData.watermarks) {
+            watermarkData.watermarks.forEach(wm => canvas.remove(wm));
+        }
+        canvas.renderAll();
+    }
+
+    // Override the original downloadPDF function
+    const originalDownloadPDF = typeof downloadPDF !== 'undefined' ? downloadPDF : null;
+    if (originalDownloadPDF) {
+        window.downloadPDF = async function(canvasToExport, fileName) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                return showMessage('Please generate content first.', 'error');
+            }
+            showMessage('Preparing PDF...', 'info', 0);
+            
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+            
+            try {
+                const { jsPDF } = window.jspdf;
+                const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
+                const pdf = new jsPDF({ 
+                    orientation, 
+                    unit: 'pt', 
+                    format: [canvasToExport.width, canvasToExport.height] 
+                });
+
+                const exportOptions = { 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
+                };
+                
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+                
+                pdf.save(fileName);
+                showMessage('PDF downloaded!', 'success');
+            } catch(e) { 
+                showMessage('Error creating PDF.', 'error'); 
+                console.error(e); 
+            } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
+        };
+    }
+
+    // Override the original downloadJPEG function if it exists
+    const originalDownloadJPEG = typeof downloadJPEG !== 'undefined' ? downloadJPEG : null;
+    if (originalDownloadJPEG) {
+        window.downloadJPEG = async function(canvasToExport, fileName) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                return showMessage('Please generate a worksheet first.', 'error');
+            }
+            showMessage('Preparing JPEG...', 'info', 0);
+            
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+            
+            try {
+                const exportOptions = { 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
+                };
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                
+                const link = document.createElement('a');
+                link.href = dataURL;
+                link.download = fileName;
+                link.click();
+                showMessage('JPEG download initiated!', 'success');
+            } catch(e) { 
+                showMessage('Error preparing JPEG.', 'error'); 
+                console.error(e); 
+            } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
+        };
+    }
+
+async function downloadPDF() {
+        if (!lastGeneratedData) { showMessage('Please generate a worksheet first.', 'error'); return; }
+        showMessage('Preparing PDF... Please wait.', 'info', 0);
+        try {
+            const { jsPDF } = window.jspdf;
+            const { width, height } = currentCanvasConfig;
+            const orientation = width > height ? 'l' : 'p';
+            const pdf = new jsPDF({ orientation, unit: 'pt', format: [width, height] });
+            const exportOptions = { multiplier: downloadMultiplier, applyGrayscale: grayscaleToggle.checked };
+            const imgData = await getCanvasDataURL(worksheetCanvas, exportOptions);
+            pdf.addImage(imgData, 'JPEG', 0, 0, width, height);
+            pdf.save("drawing_lines_worksheet.pdf");
+            showMessage('PDF Downloaded!', 'success', 3000);
+        } catch (error) { showMessage(`Error creating PDF: ${error.message}`, "error"); }
+    }
+
+    initializeApp();
+});
+</script>
+</body>
+</html>

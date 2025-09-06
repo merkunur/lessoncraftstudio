@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.91 211.05">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #231f20;
+      }
+
+      .cls-3 {
+        fill: #282526;
+      }
+
+      .cls-2 {
+        font-family: LexendDeca-Regular, 'Lexend Deca';
+        font-size: 42px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path class="cls-1" d="M35.12,163.23l-9.08,15.78-9.13-15.75h6.83s-.13-110.6-.13-110.6h4.57s.13,110.59.13,110.59h6.82Z"/>
+    <text class="cls-2" transform="translate(16.91 40.63)"><tspan x="0" y="0">1</tspan></text>
+    <g id="Layer_1-2" data-name="Layer 1-2">
+      <g>
+        <path class="cls-3" d="M.1,86.95v-12.72c.66.11,2.68-.25,3.02.22.54.77-.16,10.39.07,12.1-.24.74-2.41.26-3.09.39h0Z"/>
+        <rect class="cls-3" x=".1" y="49.51" width="3.12" height="12.48"/>
+        <path class="cls-3" d="M3.22,99.19v12.12c0,.59-2.58.3-3.12.36v-12.48h3.12Z"/>
+        <path class="cls-3" d="M3.22,136.39H.1v-12.48c.54.06,3.12-.23,3.12.36,0,0,0,12.12,0,12.12Z"/>
+        <path class="cls-3" d="M3.22,148.87v12.12c0,.59-2.58.3-3.12.36v-12.48h3.12Z"/>
+        <path class="cls-3" d="M3.22,198.55v12.12c0,.59-2.58.3-3.12.36v-12.48h3.12Z"/>
+        <path class="cls-3" d="M3.22,186.07H.1v-12.48c.54.06,3.12-.23,3.12.36,0,0,0,12.12,0,12.12Z"/>
+      </g>
+      <path class="cls-3" d="M0,37.44v-12.72c.66.11,2.68-.25,3.02.22.54.77-.16,10.39.07,12.1-.24.74-2.41.26-3.09.39h0Z"/>
+      <rect class="cls-3" width="3.12" height="12.48"/>
+    </g>
+  </g>
+</svg>

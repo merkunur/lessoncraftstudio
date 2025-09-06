@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+.tmp
+.cache
+.git
+.gitignore
+README.md
+.env
+build
+.strapi-updater.json
+.strapi
+exports

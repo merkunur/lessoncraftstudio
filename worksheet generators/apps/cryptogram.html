@@ -1,0 +1,2162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Image Cryptogram Worksheet Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    :root {
+        --app-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        --app-bg-dark: #2c2c2e;
+        --app-surface-dark: #3a3a3e;
+        --app-border-dark: #4a4a4a;
+        --app-text-primary-dark-theme: #e0e0e0;
+        --app-text-secondary-dark-theme: #a0a0a0;
+        --app-bg-light: #f0f2f5;
+        --app-surface-light: #ffffff;
+        --app-border-light: #dce1e6;
+        --app-text-primary-light-theme: #1c1c1e;
+        --app-text-secondary-light-theme: #545458;
+        --app-accent-primary: #007aff;
+        --app-accent-primary-hover: #005ecb;
+        --app-accent-danger: #ff3b30;
+        --sidebar-width: 340px;
+    }
+
+    /* --- Global Reset & Layout --- */
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      font-family: var(--app-font-stack);
+      display: flex;
+      margin: 0;
+      height: 100vh;
+      background-color: var(--app-bg-light);
+      overflow: hidden;
+      color: var(--app-text-primary-light-theme);
+    }
+    .layout {
+        display: flex;
+        flex: 1;
+        overflow: hidden;
+        height: 100vh;
+        position: relative;
+    }
+
+    /* --- Sidebar Panel --- */
+    .panel {
+      width: var(--sidebar-width);
+      min-width: var(--sidebar-width);
+      background-color: var(--app-bg-dark);
+      color: var(--app-text-primary-dark-theme);
+      box-shadow: 2px 0 8px rgba(0,0,0,0.15);
+      display: flex;
+      flex-direction: column;
+      overflow-y: hidden;
+      z-index: 10;
+      padding: 0;
+      transition: transform 0.3s ease-in-out;
+    }
+    .panel-header {
+        padding: 20px 25px;
+        text-align: left;
+        border-bottom: 1px solid var(--app-border-dark);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .panel-header h2 {
+        font-size: 22px;
+        font-weight: 600;
+        color: var(--app-text-primary-dark-theme);
+        margin: 0;
+    }
+    .panel-content {
+        overflow-y: auto;
+        flex-grow: 1;
+        padding: 10px 15px;
+    }
+    .panel-footer {
+        padding: 15px 25px;
+        border-top: 1px solid var(--app-border-dark);
+        margin-top: auto;
+        background-color: var(--app-bg-dark);
+    }
+
+    /* --- Accordion Styles --- */
+    .accordion-item {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid var(--app-border-dark);
+        margin-bottom: 0;
+    }
+    .accordion-item:last-child { border-bottom: none; }
+    .accordion-button {
+        background-color: transparent;
+        color: var(--app-text-primary-dark-theme);
+        width: 100%;
+        border: none;
+        text-align: left;
+        padding: 18px 10px;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: background-color 0.15s ease;
+    }
+    .accordion-button:hover { background-color: rgba(255,255,255,0.05); }
+    .accordion-button::after {
+        content: '\f078';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        font-size: 12px;
+        transition: transform 0.2s ease-in-out;
+    }
+    .accordion-button.active::after { transform: rotate(-180deg); }
+    .accordion-content {
+        padding: 10px 10px 20px 10px;
+        display: none;
+        background-color: transparent;
+    }
+    .accordion-content.active { display: block; }
+    .accordion-content h4 {
+        font-size: 13px;
+        color: var(--app-text-secondary-dark-theme);
+        margin-top: 15px;
+        margin-bottom: 8px;
+        border-bottom: 1px solid var(--app-border-dark);
+        padding-bottom: 6px;
+        font-weight: 500;
+    }
+    .accordion-content h4:first-child { margin-top: 0; }
+    .accordion-content label {
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        color: var(--app-text-secondary-dark-theme);
+        margin-bottom: 6px;
+    }
+    .accordion-content input[type="text"],
+    .accordion-content input[type="number"],
+    .accordion-content input[type="color"],
+    .accordion-content input[type="range"],
+    .accordion-content textarea,
+    .accordion-content select {
+        width: 100%;
+        padding: 8px 10px;
+        font-size: 13px;
+        border-radius: 5px;
+        border: 1px solid var(--app-border-dark);
+        background-color: var(--app-surface-dark);
+        color: var(--app-text-primary-dark-theme);
+        box-sizing: border-box;
+        margin-bottom: 12px;
+    }
+     .accordion-content input[type="file"] {
+      color: var(--app-text-secondary-dark-theme);
+      background-color: var(--app-surface-dark);
+      border: 1px solid var(--app-border-dark);
+      border-radius: 5px;
+      padding: 8px;
+      font-size: 13px;
+      margin-bottom: 12px;
+      width: 100%;
+    }
+     .accordion-content input[type="file"]::file-selector-button {
+        margin-right: 10px;
+        border: 1px solid var(--app-border-dark);
+        background: var(--app-bg-dark);
+        padding: 4px 8px;
+        border-radius: 3px;
+        color: var(--app-text-primary-dark-theme);
+        cursor: pointer;
+     }
+    .accordion-content input[type="color"] { padding: 2px; height: 38px; }
+    .accordion-content input[type="range"] { padding: 0; }
+    .accordion-content input[type="checkbox"] {
+        width: auto;
+        margin-right: 8px;
+        vertical-align: middle;
+        accent-color: var(--app-accent-primary);
+    }
+    .accordion-content label.checkbox-label {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 12px;
+        cursor: pointer;
+        color: var(--app-text-secondary-dark-theme);
+    }
+    .accordion-content button {
+        background-color: var(--app-surface-dark);
+        color: var(--app-text-primary-dark-theme);
+        border: 1px solid var(--app-border-dark);
+        font-weight: 500;
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 13px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .accordion-content button:hover {
+        background-color: #4a4a4e;
+    }
+
+    /* --- Image Library Specific Styles --- */
+    .letter-buttons {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(28px, 1fr));
+        gap: 4px;
+        margin-bottom: 15px;
+    }
+    .letter-buttons button {
+        width: 100%;
+        height: 28px;
+        padding: 0;
+        font-size: 12px;
+        font-weight: 600;
+        background-color: var(--app-surface-dark);
+        color: var(--app-text-primary-dark-theme);
+        border: 1px solid var(--app-border-dark);
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color .15s ease, border-color .15s ease;
+    }
+    .letter-buttons button:hover { background-color: #4f4f53; }
+    .letter-buttons button.active {
+        background-color: var(--app-accent-primary);
+        border-color: var(--app-accent-primary);
+        color: white;
+    }
+    #dictionary, #assignedImagesPreview, #borderDictionary, #backgroundDictionary, #uploadedImagesPreview {
+        border: 1px solid var(--app-border-dark);
+        padding: 10px;
+        max-height: 180px;
+        overflow-y: auto;
+        background-color: var(--app-surface-dark);
+        border-radius: 5px;
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-content: flex-start;
+    }
+    #assignedImagesPreview { min-height: 70px; border-style: dashed; border-color: var(--app-accent-primary); }
+    #dictionary p.dictionary-message, #borderDictionary p.dictionary-message, #backgroundDictionary p.dictionary-message, #uploadedImagesPreview p.dictionary-message {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        font-size: 12px;
+        color: var(--app-text-secondary-dark-theme);
+        margin: 0;
+        align-self: center;
+    }
+    .dictionary-item, .border-thumbnail-item {
+        padding: 8px;
+        cursor: pointer;
+        border: 1px solid transparent;
+        transition: background-color .15s ease, border-color .15s ease;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,0.05);
+    }
+    .dictionary-item:hover, .border-thumbnail-item:hover { border-color: var(--app-accent-primary); }
+    .dictionary-item.selected, .border-thumbnail-item.selected { border-color: var(--app-accent-primary); background-color: rgba(0, 122, 255, 0.15); }
+    .dictionary-item img, .border-thumbnail-item img {
+        width: 50px; height: 50px;
+        object-fit: contain;
+        border: 1px solid var(--app-border-dark);
+        border-radius: 3px;
+        background-color: var(--app-surface-light);
+        margin-bottom: 5px;
+    }
+    .border-thumbnail-item { padding: 2px; width: 60px; height: 60px; }
+    .border-thumbnail-item img { width: 100%; height: 100%; margin-bottom: 0; }
+    .dictionary-item span {
+        font-size: 10px; text-align: center; word-break: break-word; max-width: 50px;
+        color: var(--app-text-secondary-dark-theme);
+    }
+    .assigned-preview-item { position: relative; }
+    .assigned-preview-item .letter-badge {
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        background-color: var(--app-accent-primary);
+        color: white;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        font-size: 12px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--app-bg-dark);
+    }
+
+    /* --- Message Box --- */
+    #message {
+        padding: 10px 15px;
+        border-radius: 5px;
+        font-size: 13px;
+        text-align: center;
+        min-height: 20px;
+        font-weight: 500;
+        display: none;
+        margin-bottom: 0;
+        border-width: 1px;
+        border-style: solid;
+    }
+    #message.error { background-color: rgba(255, 59, 48, 0.2); color: var(--app-accent-danger); border-color: var(--app-accent-danger); }
+    #message.success { background-color: rgba(52, 199, 89, 0.2); color: #34c759; border-color: #34c759; }
+    #message.info { background-color: rgba(0, 122, 255, 0.15); color: var(--app-accent-primary); border-color: var(--app-accent-primary); }
+
+    /* --- Main Content Area --- */
+    .main {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+      padding: 0;
+      background-color: var(--app-bg-light);
+    }
+    .menu-toggle-btn {
+        display: none; /* Hidden by default */
+        position: absolute;
+        top: 12px; left: 20px; z-index: 20;
+        background-color: var(--app-surface-light);
+        color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light);
+        border-radius: 6px; width: 38px; height: 38px;
+        font-size: 18px; cursor: pointer;
+        align-items: center; justify-content: center;
+    }
+    .menu-toggle-btn:hover { background-color: #e8e8ed; }
+    .menu-close-btn {
+        display: none; /* Hidden by default */
+        background: none; border: none;
+        color: var(--app-text-secondary-dark-theme);
+        font-size: 28px; line-height: 1; cursor: pointer;
+        padding: 0 5px;
+    }
+    .menu-close-btn:hover { color: var(--app-text-primary-dark-theme); }
+    .menu-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.4); z-index: 998; }
+    .menu-overlay.is-active { display: block; }
+    
+    .top-right-actions {
+        position: absolute;
+        top: 12px; right: 20px; z-index: 20;
+        display: flex; gap: 10px; align-items: center;
+    }
+    .top-right-actions .action-button {
+        padding: 7px 14px; font-size: 13px; font-weight: 500;
+        border-radius: 6px; border: none; color: white; cursor: pointer;
+        transition: background-color 0.2s ease, transform 0.1s ease;
+    }
+    .top-right-actions .action-button:active { transform: scale(0.98); }
+    .top-right-actions .action-button.accent { background-color: var(--app-accent-primary); }
+    .top-right-actions .action-button.accent:hover { background-color: var(--app-accent-primary-hover); }
+    .top-right-actions .action-button.danger {
+        background-color: var(--app-surface-light);
+        color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light);
+    }
+    .top-right-actions .action-button.danger:hover { background-color: #e8e8ed; }
+    .top-right-actions .action-button.secondary {
+        background-color: var(--app-surface-light);
+        color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light);
+    }
+    .top-right-actions .action-button.secondary:hover { background-color: #e8e8ed; }
+    .top-right-actions .action-button:disabled {
+        background-color: #cccccc !important;
+        color: #888888 !important;
+        border-color: #cccccc !important;
+        cursor: not-allowed;
+        transform: none;
+    }
+
+    .dropdown-container { position: relative; display: inline-block; }
+    .dropdown-content {
+        display: none; position: absolute; right: 0;
+        top: calc(100% + 5px); background-color: var(--app-surface-light);
+        min-width: 200px; box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+        border: 1px solid var(--app-border-light); border-radius: 6px;
+        padding: 8px; z-index: 25;
+    }
+    .dropdown-content button {
+        width: 100%; padding: 8px 12px; font-size: 13px;
+        border-radius: 4px; box-sizing: border-box; margin-bottom: 6px;
+        background-color: transparent; color: var(--app-text-primary-light-theme);
+        border: none; cursor: pointer; text-align: left; font-weight: 400;
+        transition: background-color 0.15s ease;
+    }
+    .dropdown-content button:last-of-type { margin-bottom: 0; }
+    .dropdown-content button:hover { background-color: rgba(0,0,0,0.05); }
+    .dropdown-content button:disabled {
+        background-color: transparent !important;
+        color: var(--app-text-secondary-light-theme) !important;
+        opacity: 0.6; cursor: not-allowed;
+    }
+    .dropdown-content .checkbox-label {
+        display: flex; align-items: center; font-size: 13px;
+        font-weight: 400; padding: 6px 12px; margin-top: 4px;
+        margin-bottom: 0; cursor: pointer; color: var(--app-text-primary-light-theme);
+        border-radius: 4px;
+    }
+    .dropdown-content .checkbox-label:hover { background-color: rgba(0,0,0,0.05); }
+    .dropdown-content .checkbox-label input[type="checkbox"] {
+        width: auto; margin-right: 8px; vertical-align: middle;
+        accent-color: var(--app-accent-primary);
+    }
+    .tab-row {
+      display: flex; justify-content: flex-start;
+      padding: 0 20px; border-bottom: 1px solid var(--app-border-light);
+      background-color: var(--app-surface-light); margin-top: 60px;
+    }
+    .tab-button {
+      padding: 12px 18px; background: transparent; border: none;
+      border-bottom: 2px solid transparent; color: var(--app-text-secondary-light-theme);
+      font-size: 14px; font-weight: 500; cursor: pointer;
+      transition: color 0.2s ease, border-color 0.2s ease;
+      margin-right: 10px; margin-bottom: -1px;
+    }
+    .tab-button:hover { color: var(--app-text-primary-light-theme); }
+    .tab-button.active { color: var(--app-accent-primary); border-bottom: 2px solid var(--app-accent-primary); }
+    .tab-content-wrapper {
+        flex-grow: 1; display: flex; align-items: flex-start; justify-content: center;
+        padding: 25px; overflow-y: auto;
+    }
+    .tab { display: none; width: 100%; height: 100%; margin: 0 auto; }
+    .tab.active { display: flex; flex-direction: column; }
+    .canvas-container-wrapper {
+        border: none; background-color: var(--app-surface-light);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        border-radius: 8px; overflow: hidden; margin: auto; /* Changed to hidden and margin auto */
+    }
+    canvas { display: block; }
+
+    #exportArea { position: absolute; left: -9999px; top: 0; width: auto; height: auto;}
+
+    /* --- Responsive Styles --- */
+    @media (max-width: 1024px) {
+        :root { --sidebar-width: 300px; }
+        .panel { position: fixed; top: 0; left: 0; height: 100vh; z-index: 1000; transform: translateX(-100%); }
+        .panel.is-open { transform: translateX(0); }
+        .menu-toggle-btn { display: flex; }
+        .menu-close-btn { display: block; }
+        .tab-row { padding: 0 15px 0 70px; }
+    }
+
+    /* START: Contextual Toolbar CSS */
+    #object-context-toolbar {
+        position: absolute;
+        top: 12px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--app-surface-light);
+        border-radius: 6px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        z-index: 100;
+        align-items: center;
+        border: 1px solid var(--app-border-light);
+    }
+    .toolbar-group {
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        padding: 0 4px;
+    }
+    .toolbar-group + .toolbar-group {
+        border-left: 1px solid var(--app-border-light);
+    }
+    .toolbar-item {
+        position: relative;
+    }
+    .context-btn {
+        background: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        padding: 5px 7px;
+        cursor: pointer;
+        font-size: 15px; 
+        color: var(--app-text-secondary-light-theme);
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 32px;
+        transition: background-color 0.2s, color 0.2s;
+    }
+    .context-btn:disabled {
+        color: #c5c5c7;
+        cursor: not-allowed;
+    }
+    .context-btn:not(:disabled):hover {
+        background-color: #e8e8ed;
+        color: var(--app-text-primary-light-theme);
+    }
+    .context-btn.active-dropdown {
+        background-color: #ddeeff;
+        color: var(--app-accent-primary);
+    }
+    #toolbarDeleteBtn:not(:disabled) {
+        color: var(--app-accent-danger);
+    }
+    #object-context-toolbar .dropdown-content {
+        display: none;
+        position: absolute;
+        top: calc(100% + 5px);
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--app-surface-light);
+        min-width: 150px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+        border: 1px solid var(--app-border-light);
+        border-radius: 6px;
+        padding: 8px;
+        z-index: 101;
+    }
+    #object-context-toolbar .dropdown-content
+    button {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 13px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 6px;
+        background-color: transparent;
+        color: var(--app-text-primary-light-theme);
+        border: none;
+        cursor: pointer;
+        text-align: left;
+        font-weight: 400;
+        transition: background-color 0.15s ease;
+    }
+    #object-context-toolbar .dropdown-content
+    button:last-of-type {
+        margin-bottom: 0;
+    }
+    #object-context-toolbar .dropdown-content
+    button:hover {
+        background-color: rgba(0,0,0,0.05);
+    }
+    /* END: Contextual Toolbar CSS */
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <div id="menuOverlay" class="menu-overlay"></div>
+    <div class="panel">
+      <div class="panel-header">
+        <h2>Cryptogram Settings</h2>
+        <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
+      </div>
+      <div class="panel-content">
+
+        <div class="accordion-item">
+            <button class="accordion-button active">Puzzle Rules</button>
+            <div class="accordion-content active">
+                <label for="phrasesInput">Phrases (one per line):</label>
+                <textarea id="phrasesInput" placeholder="The quick brown fox..." rows="5"></textarea>
+
+                <label for="revealCountSelect">Letters to Reveal:</label>
+                <select id="revealCountSelect"></select>
+
+                <label for="maxLinesSelect">Max Lines per Puzzle:</label>
+                <select id="maxLinesSelect"></select>
+
+                <label for="autoAssignCheckbox" class="checkbox-label">
+                    <input type="checkbox" id="autoAssignCheckbox" /> Auto-assign images
+                </label>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button">Image Assignment</button>
+            <div class="accordion-content">
+                <label for="themeSelect">Image Theme:</label>
+                <select id="themeSelect"></select>
+                <label>Select a letter to assign an image:</label>
+                <div class="letter-buttons" id="letterButtons"></div>
+                <label for="searchInput">Search Images:</label>
+                <input type="text" id="searchInput" placeholder="e.g., apple, car" />
+                <label>Available Images (click to assign):</label>
+                <div id="dictionary"><p class='dictionary-message'>Select a letter above.</p></div>
+                <label style="margin-top:10px;">Assigned Images:</label>
+                <div id="assignedImagesPreview"></div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button">Upload Custom Images</button>
+            <div class="accordion-content">
+                <label for="imageUploadInput">Select image(s) to upload:</label>
+                <input type="file" id="imageUploadInput" multiple accept="image/*">
+                <label style="margin-top:10px;">Your Uploaded Images:</label>
+                <div id="uploadedImagesPreview">
+                    <p class="dictionary-message">Your uploaded images will appear here.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button">Page Setup</button>
+            <div class="accordion-content">
+                <label for="pageSizeSelect">Page Size:</label>
+                <select id="pageSizeSelect">
+                    <option value="816x1056">US Letter Portrait (816x1056)</option>
+                    <option value="1056x816">US Letter Landscape (1056x816)</option>
+                    <option value="1191x842">A4 Landscape (1191x842)</option>
+                    <option value="842x1191">A4 Portrait (842x1191)</option>
+                    <option value="1200x1200">Square (1200x1200)</option>
+                    <option value="custom">Custom</option>
+                </select>
+                <div id="customPageSizeInputs" style="display:none;">
+                    <label for="pageWidth">Width (px):</label>
+                    <input type="number" id="pageWidth" value="816">
+                    <label for="pageHeight">Height (px):</label>
+                    <input type="number" id="pageHeight" value="1056">
+                </div>
+                <label for="pageColor">Page Color:</label>
+                <input type="color" id="pageColor" value="#FFFFFF">
+                <button id="setPageSizeBtn">Apply Size & Color</button>
+                
+                <h4>Background</h4>
+                <label for="backgroundThemeSelect">Background Theme:</label>
+                <select id="backgroundThemeSelect">
+                    <option value="none">None</option>
+                </select>
+                <div id="backgroundDictionary"><p class="dictionary-message">Select a theme for backgrounds.</p></div>
+                <label for="backgroundOpacity">Background Opacity:</label>
+                <input type="range" id="backgroundOpacity" min="0" max="1" step="0.05" value="1" disabled>
+                
+                <h4>Border</h4>
+                <label for="borderThemeSelect">Border Theme:</label>
+                <select id="borderThemeSelect">
+                    <option value="none">None</option>
+                </select>
+                <div id="borderDictionary">
+                    <p class="dictionary-message">Select a theme to see borders.</p>
+                </div>
+                <label for="borderOpacity">Border Opacity:</label>
+                <input type="range" id="borderOpacity" min="0" max="1" step="0.05" value="1" disabled>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <button class="accordion-button">Text Tools</button>
+            <div class="accordion-content">
+                <h4>Add New Text</h4>
+                <label for="textInput">Content:</label><input type="text" id="textInput" placeholder="Hello!">
+                <button id="addTextBtn">Add Text</button>
+                <h4>Selected Text Properties</h4>
+                <label for="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                <label for="fontSize">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+                <label for="fontFamily">Font:</label>
+                <select id="fontFamily" disabled>
+                    <option value="Lexend Deca">Lexend Deca</option>
+                    <option value="Baloo 2">Baloo 2</option>
+                    <option value="Nunito">Nunito</option>
+                    <option value="Quicksand">Quicksand</option>
+                    <option value="Fredoka">Fredoka</option>
+                    <option value="Arial">Arial</option>
+                    <option value="Verdana">Verdana</option>
+                </select>
+                <label for="textStrokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                <label for="textStrokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+            </div>
+        </div>
+
+      </div>
+      <div class="panel-footer">
+          <div id="message"></div>
+      </div>
+    </div>
+
+    <div class="main">
+      <button id="menuToggleBtn" class="menu-toggle-btn"><i class="fas fa-bars"></i></button>
+
+      <div id="object-context-toolbar" style="display:none;">
+          <div class="toolbar-group">
+              <div class="toolbar-item">
+                  <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
+                  <div class="dropdown-content" id="layersDropdown">
+                      <button id="toolbarBringForwardBtn">Bring Forward</button>
+                      <button id="toolbarSendBackwardBtn">Send Backward</button>
+                  </div>
+              </div>
+          </div>
+          <div class="toolbar-group">
+              <div class="toolbar-item">
+                  <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
+                  <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
+                      <p style="font-size:11px; margin-bottom:5px; color:#555;">Align Selected:</p>
+                      <div>
+                          <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
+                          <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                          <button class="context-btn" id="alignRightBtn" title="Align Right"><i class="fas fa-align-right"></i></button>
+                      </div>
+                      <div style="margin-top: 5px;">
+                          <button class="context-btn" id="alignTopBtn" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                          <button class="context-btn" id="alignVCenterBtn" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
+                          <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                      </div>
+                      <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
+                      <p style="font-size:11px; margin-bottom:5px; color:#555;">Align to Page:</p>
+                      <div>
+                          <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                          <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="toolbar-group">
+              <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
+          </div>
+      </div>
+      <div class="top-right-actions">
+          <button id="generateBtn" class="action-button accent">Generate</button>
+          <div class="dropdown-container">
+              <button id="downloadDropdownBtn" class="action-button secondary" disabled>Download <i class="fas fa-caret-down"></i></button>
+              <div id="downloadDropdownContent" class="dropdown-content">
+                  <button id="downloadWorksheetJpegBtn" disabled>Worksheet (JPEG)</button>
+                  <button id="downloadAnswerKeyJpegBtn" disabled>Answer Key (JPEG)</button>
+                  <button id="downloadWorksheetPdfBtn" disabled>Worksheet (PDF)</button>
+                  <button id="downloadAnswerKeyPdfBtn" disabled>Answer Key (PDF)</button>
+                  <label class="checkbox-label">
+                      <input type="checkbox" id="grayscaleToggle" />Grayscale
+                  </label>
+              </div>
+          </div>
+          <button id="clearBtn" class="action-button danger">Clear All</button>
+      </div>
+
+      <div class="tab-row">
+        <button class="tab-button active" data-tab="worksheetTab">Worksheet</button>
+        <button class="tab-button" data-tab="answerKeyTab">Answer Key</button>
+      </div>
+
+      <div class="tab-content-wrapper">
+        <div class="tab active" id="worksheetTab">
+            <div class="canvas-container-wrapper" id="worksheetCanvasWrapper">
+                <canvas id="worksheetCanvasElement"></canvas>
+            </div>
+        </div>
+        <div class="tab" id="answerKeyTab">
+             <div class="canvas-container-wrapper" id="answerKeyCanvasWrapper">
+                <canvas id="answerKeyCanvasElement"></canvas>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="exportArea"></div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // --- CONSTANTS & STATE ---
+        const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+        const downloadMultiplier = 6;
+
+        let worksheetCanvas, answerKeyCanvas;
+        let currentCanvasConfig = { width: 816, height: 1056 };
+        
+        let currentThemeImages = [];
+        let assignedImages = {};
+        let selectedLetter = null;
+        let lastGeneratedPuzzle = null;
+        let uploadedImages = [];
+
+        // --- UI ELEMENT SELECTORS ---
+        const panel = document.querySelector('.panel');
+        const menuToggleBtn = document.getElementById('menuToggleBtn');
+        const menuCloseBtn = document.getElementById('menuCloseBtn');
+        const menuOverlay = document.getElementById('menuOverlay');
+        const messageDiv = document.getElementById("message");
+        
+        const phrasesInput = document.getElementById('phrasesInput');
+        const revealCountSelect = document.getElementById('revealCountSelect');
+        const maxLinesSelect = document.getElementById('maxLinesSelect');
+        const autoAssignCheckbox = document.getElementById('autoAssignCheckbox');
+
+        const themeSelect = document.getElementById('themeSelect');
+        const letterButtonsDiv = document.getElementById('letterButtons');
+        const searchInput = document.getElementById('searchInput');
+        const dictionaryDiv = document.getElementById('dictionary');
+        const assignedImagesPreviewDiv = document.getElementById('assignedImagesPreview');
+
+        const imageUploadInput = document.getElementById('imageUploadInput');
+        const uploadedImagesPreview = document.getElementById('uploadedImagesPreview');
+
+        const pageSizeSelect = document.getElementById('pageSizeSelect');
+        const customPageSizeInputsDiv = document.getElementById('customPageSizeInputs');
+        const pageWidthInput = document.getElementById('pageWidth');
+        const pageHeightInput = document.getElementById('pageHeight');
+        const pageColorInput = document.getElementById('pageColor');
+        const setPageSizeBtn = document.getElementById('setPageSizeBtn');
+        
+        const backgroundThemeSelect = document.getElementById('backgroundThemeSelect');
+        const backgroundDictionary = document.getElementById('backgroundDictionary');
+        const backgroundOpacity = document.getElementById('backgroundOpacity');
+
+        const borderThemeSelect = document.getElementById('borderThemeSelect');
+        const borderDictionary = document.getElementById('borderDictionary');
+        const borderOpacity = document.getElementById('borderOpacity');
+
+        const textInput = document.getElementById('textInput');
+        const addTextBtn = document.getElementById('addTextBtn');
+        const textColorInput = document.getElementById('textColor');
+        const fontSizeInput = document.getElementById('fontSize');
+        const fontFamilySelect = document.getElementById('fontFamily');
+        const textStrokeColorInput = document.getElementById('textStrokeColor');
+        const textStrokeWidthInput = document.getElementById('textStrokeWidth');
+        
+        const generateBtn = document.getElementById('generateBtn');
+        const downloadDropdownBtn = document.getElementById('downloadDropdownBtn');
+        const downloadDropdownContent = document.getElementById('downloadDropdownContent');
+        const grayscaleToggle = document.getElementById('grayscaleToggle');
+        const clearBtn = document.getElementById('clearBtn');
+        
+        const worksheetCanvasWrapper = document.getElementById('worksheetCanvasWrapper');
+        const worksheetCanvasElement = document.getElementById('worksheetCanvasElement');
+        const answerKeyCanvasWrapper = document.getElementById('answerKeyCanvasWrapper');
+        const answerKeyCanvasElement = document.getElementById('answerKeyCanvasElement');
+
+        // Toolbar References
+        const objectContextToolbar = document.getElementById('object-context-toolbar');
+        const layersBtn = document.getElementById('layersBtn');
+        const layersDropdown = document.getElementById('layersDropdown');
+        const toolbarBringForwardBtn = document.getElementById('toolbarBringForwardBtn');
+        const toolbarSendBackwardBtn = document.getElementById('toolbarSendBackwardBtn');
+        const alignBtn = document.getElementById('alignBtn');
+        const alignDropdown = document.getElementById('alignDropdown');
+        const toolbarDeleteBtn = document.getElementById('toolbarDeleteBtn');
+        const allToolbarButtons = objectContextToolbar.querySelectorAll('.context-btn');
+
+        // --- INITIALIZATION ---
+        function initializeApp() {
+            setupUI();
+            setupAccordions();
+            setupDropdowns();
+            setupResponsiveMenu();
+            
+            worksheetCanvas = initializeCanvas(worksheetCanvasElement);
+            answerKeyCanvas = initializeCanvas(answerKeyCanvasElement);
+            
+            setupCanvasEventListeners(worksheetCanvas);
+            setupCanvasEventListeners(answerKeyCanvas);
+
+            setupEventListeners();
+            
+            updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height, true);
+            loadThemes();
+            loadBorderThemes();
+            loadBackgroundThemes();
+        }
+
+        // --- UI SETUP FUNCTIONS ---
+        function setupUI() {
+            for (let i = 0; i <= 10; i++) revealCountSelect.innerHTML += `<option value="${i}">${i === 0 ? "None" : i}</option>`;
+            revealCountSelect.value = 3;
+            for (let i = 1; i <= 8; i++) maxLinesSelect.innerHTML += `<option value="${i}">${i}</option`;
+            maxLinesSelect.value = 4;
+
+            ALPHABET.forEach(l => {
+                const btn = document.createElement("button");
+                btn.textContent = l;
+                btn.dataset.letter = l;
+                btn.onclick = () => handleLetterSelection(l);
+                letterButtonsDiv.appendChild(btn);
+            });
+        }
+        
+        function setupAccordions() {
+            document.querySelectorAll('.accordion-button').forEach(button => {
+                button.addEventListener('click', () => {
+                    const content = button.nextElementSibling;
+                    const wasActive = button.classList.contains('active');
+                    if (!wasActive) {
+                        button.classList.add('active');
+                        content.classList.add('active');
+                    } else {
+                        button.classList.remove('active');
+                        content.classList.remove('active');
+                    }
+                });
+            });
+            if (document.querySelectorAll('.accordion-button').length > 0) {
+                document.querySelectorAll('.accordion-button')[0].click();
+            }
+        }
+        
+        function setupDropdowns() {
+            const setupDropdown = (button, content) => {
+                if (!button || !content) return;
+                button.addEventListener('click', (event) => {
+                    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+                    event.stopPropagation();
+                });
+                return { button, content };
+            };
+            const downloadDropdown = setupDropdown(downloadDropdownBtn, downloadDropdownContent);
+
+            window.addEventListener('click', (event) => {
+                if (downloadDropdown && downloadDropdown.content.style.display === 'block' && !downloadDropdown.button.contains(event.target)) {
+                    downloadDropdown.content.style.display = 'none';
+                }
+            });
+        }
+
+        function setupResponsiveMenu() {
+            const openMenu = () => { panel.classList.add('is-open'); menuOverlay.classList.add('is-active'); };
+            const closeMenu = () => { panel.classList.remove('is-open'); menuOverlay.classList.remove('is-active'); };
+            menuToggleBtn.addEventListener('click', openMenu);
+            menuCloseBtn.addEventListener('click', closeMenu);
+            menuOverlay.addEventListener('click', closeMenu);
+        }
+
+        function setupEventListeners() {
+            generateBtn.addEventListener('click', handleGenerate);
+            clearBtn.addEventListener('click', clearAll);
+
+            pageSizeSelect.addEventListener('change', handlePageSizeChange);
+            setPageSizeBtn.addEventListener('click', applyCustomPageSize);
+            pageColorInput.addEventListener('input', applyPageColor);
+            
+            borderThemeSelect.addEventListener('change', loadBorderImages);
+            borderOpacity.addEventListener('input', applyBorderOpacity);
+            backgroundThemeSelect.addEventListener('change', loadBackgroundImages);
+            backgroundOpacity.addEventListener('input', applyBackgroundOpacity);
+
+            addTextBtn.addEventListener('click', handleAddText);
+            
+            autoAssignCheckbox.addEventListener('change', (e) => {
+                if (e.target.checked) {
+                    autoAssignImages();
+                }
+            });
+
+            textInput.addEventListener('input', updateActiveTextObjectProperties);
+            textColorInput.addEventListener('input', updateActiveTextObjectProperties);
+            fontSizeInput.addEventListener('input', updateActiveTextObjectProperties);
+            fontFamilySelect.addEventListener('change', updateActiveTextObjectProperties);
+            textStrokeColorInput.addEventListener('input', updateActiveTextObjectProperties);
+            textStrokeWidthInput.addEventListener('input', updateActiveTextObjectProperties);
+
+            themeSelect.addEventListener('change', handleThemeChange);
+            searchInput.addEventListener('input', () => {
+                if (this.searchTimeout) clearTimeout(this.searchTimeout);
+                this.searchTimeout = setTimeout(renderDictionary, 300);
+            });
+            
+            imageUploadInput.addEventListener('change', handleImageUpload);
+
+            document.getElementById('downloadWorksheetJpegBtn').addEventListener('click', () => downloadImageFile(worksheetCanvas, 'cryptogram_worksheet.jpeg'));
+            document.getElementById('downloadAnswerKeyJpegBtn').addEventListener('click', () => downloadImageFile(answerKeyCanvas, 'cryptogram_answer_key.jpeg'));
+            document.getElementById('downloadWorksheetPdfBtn').addEventListener('click', () => downloadPDF(worksheetCanvas, 'cryptogram_worksheet.pdf'));
+            document.getElementById('downloadAnswerKeyPdfBtn').addEventListener('click', () => downloadPDF(answerKeyCanvas, 'cryptogram_answer_key.pdf'));
+
+            downloadDropdownContent.addEventListener('click', (e) => {
+                e.stopPropagation();
+            });
+
+            document.querySelectorAll(".tab-button").forEach(btn => {
+                btn.addEventListener("click", () => {
+                    document.querySelectorAll(".tab-button").forEach(b => b.classList.remove("active"));
+                    btn.classList.add("active");
+                    const tabId = btn.getAttribute("data-tab");
+                    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+                    document.getElementById(tabId)?.classList.add("active");
+                    
+                    const activeCanvas = getActiveCanvas();
+                    if (activeCanvas) {
+                        activeCanvas.discardActiveObject().renderAll();
+                        handleSelectionCleared(null, activeCanvas);
+                    }
+                });
+            });
+
+            // Toolbar Listeners
+            layersBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(layersDropdown); });
+            alignBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(alignDropdown); });
+            toolbarBringForwardBtn.addEventListener('click', bringObjectForward);
+            toolbarSendBackwardBtn.addEventListener('click', sendObjectBackward);
+            toolbarDeleteBtn.addEventListener('click', deleteSelectedObjects);
+            document.querySelectorAll('#alignDropdown button').forEach(button => {
+                button.addEventListener('click', (e) => {
+                    const type = e.currentTarget.id.replace('Btn', '');
+                    alignObjects(type);
+                });
+            });
+            window.addEventListener('click', () => {
+                closeAllPopovers();
+            });
+        }
+        
+        // --- CANVAS MANAGEMENT ---
+        function getActiveCanvas() {
+            const activeTab = document.querySelector('.tab.active');
+            // If the answer key tab is active, return that canvas, otherwise default to the worksheet canvas.
+            return activeTab && activeTab.id === 'answerKeyTab' ? answerKeyCanvas : worksheetCanvas;
+        }
+
+        function setupCanvasEventListeners(canvas) {
+            canvas.on({
+                'selection:created': function(e) { handleObjectSelection(e, this); },
+                'selection:updated': function(e) { handleObjectSelection(e, this); },
+                'selection:cleared': function(e) { handleSelectionCleared(e, this); }
+            });
+        }
+        
+        function initializeCanvas(canvasEl) {
+            const canvas = new fabric.Canvas(canvasEl, {
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height,
+                backgroundColor: '#fff',
+                preserveObjectStacking: true,
+                enableRetinaScaling: true 
+            });
+            setupGlobalKeydownListener(canvas);
+            return canvas;
+        }
+
+        function updateCanvasDisplayDimensions(width, height, fromLoad = false) {
+            currentCanvasConfig.width = width;
+            currentCanvasConfig.height = height;
+
+            const wrapper = document.querySelector('.tab-content-wrapper');
+            const mainContentAreaStyle = getComputedStyle(wrapper);
+            // Subtract padding and a small margin to get the net available space
+            const availableWidth = wrapper.clientWidth - parseFloat(mainContentAreaStyle.paddingLeft) - parseFloat(mainContentAreaStyle.paddingRight) - 40;
+            const availableHeight = wrapper.clientHeight - parseFloat(mainContentAreaStyle.paddingTop) - parseFloat(mainContentAreaStyle.paddingBottom) - 40;
+            
+            // Calculate the best scale to fit the canvas within the available space.
+            const scaleX = availableWidth / width;
+            const scaleY = availableHeight / height;
+            const scale = Math.min(scaleX, scaleY, 1); // Use the smaller scale factor, and don't scale up past 100%.
+
+            const displayWidth = width * scale;
+            const displayHeight = height * scale;
+
+            [worksheetCanvas, answerKeyCanvas].forEach(c => {
+                if (c) {
+                    // Set the logical canvas dimensions (for high-res export)
+                    c.setWidth(width);
+                    c.setHeight(height);
+                    
+                    // Set the display dimensions of the canvas element for a compact, responsive view
+                    c.setDimensions({ width: displayWidth, height: displayHeight }, { cssOnly: true });
+
+                    c.calcOffset();
+                    c.renderAll();
+                }
+            });
+            
+            [worksheetCanvasWrapper, answerKeyCanvasWrapper].forEach(w => {
+                if(w) {
+                    // The wrapper should be sized to the scaled canvas to maintain the drop shadow, etc.
+                    w.style.width = displayWidth + 'px';
+                    w.style.height = displayHeight + 'px';
+                }
+            });
+
+            if (!fromLoad) {
+                pageWidthInput.value = width;
+                pageHeightInput.value = height;
+            }
+        }
+
+        function handlePageSizeChange() {
+            const selectedValue = pageSizeSelect.value;
+            if (selectedValue === 'custom') {
+                customPageSizeInputsDiv.style.display = 'block';
+            } else {
+                customPageSizeInputsDiv.style.display = 'none';
+                const [w, h] = selectedValue.split('x').map(Number);
+                updateCanvasDisplayDimensions(w, h);
+            }
+        }
+
+        function applyCustomPageSize() {
+            let newWidth = parseInt(pageWidthInput.value, 10) || currentCanvasConfig.width;
+            let newHeight = parseInt(pageHeightInput.value, 10) || currentCanvasConfig.height;
+            updateCanvasDisplayDimensions(newWidth, newHeight);
+            applyPageColor();
+        }
+        
+        function applyPageColor() {
+            const newColor = pageColorInput.value;
+            [worksheetCanvas, answerKeyCanvas].forEach(c => {
+                if(c) {
+                    c.backgroundColor = newColor;
+                    c.renderAll();
+                }
+            });
+        }
+
+        function enforceZOrder(canvas) {
+            if (!canvas) return;
+            const background = canvas.getObjects().find(o => o.isBackground);
+            if (background) canvas.sendToBack(background);
+        
+            const border = canvas.getObjects().find(o => o.isBorder);
+            if (border) {
+                canvas.sendToBack(border);
+                if (background) canvas.bringForward(border);
+            }
+        }
+
+        // --- CORE LOGIC: DATA GENERATION ---
+        async function handleGenerate() {
+            showMessage("Generating puzzle data...", 'info', 0);
+            try {
+                const puzzleData = await generatePuzzleData();
+                if (!puzzleData) return; 
+
+                lastGeneratedPuzzle = puzzleData;
+                
+                await renderWorksheet(puzzleData);
+                await renderAnswerKey(puzzleData);
+
+                downloadDropdownBtn.disabled = false;
+                document.getElementById('downloadWorksheetJpegBtn').disabled = false;
+                document.getElementById('downloadWorksheetPdfBtn').disabled = false;
+                showMessage("Worksheet generated successfully!", "success", 3000);
+            } catch (error) {
+                console.error("Generation failed:", error);
+                showMessage(`Error: ${error.message}`, "error");
+            }
+        }
+
+        async function generatePuzzleData() {
+            const phrases = phrasesInput.value.trim().split("\n").filter(p => p.trim() !== "");
+            if (phrases.length === 0) {
+                showMessage("Please enter at least one phrase.", 'error');
+                return null;
+            }
+
+            if (autoAssignCheckbox.checked && Object.keys(assignedImages).length === 0) {
+                await autoAssignImages();
+            }
+
+            const uniqueLetters = [...new Set(phrases.join("").toUpperCase().split(""))]
+                .filter(c => ALPHABET.includes(c));
+
+            const unassigned = uniqueLetters.filter(l => !assignedImages[l]);
+            if (unassigned.length > 0) {
+                showMessage(`Missing images for letters: ${unassigned.join(", ")}. Please assign or auto-assign.`, 'error');
+                return null;
+            }
+            
+            const revealCount = parseInt(revealCountSelect.value, 10);
+            const clueLetters = [...uniqueLetters].sort(() => 0.5 - Math.random()).slice(0, revealCount);
+            const maxCharsPerLine = 15;
+            const maxTotalLines = parseInt(maxLinesSelect.value, 10);
+            let puzzleGrid = [];
+            let totalLines = 0;
+
+            for (const phrase of phrases) {
+                if (totalLines >= maxTotalLines) break;
+                const wrappedLines = wrapLineByWords(phrase.toUpperCase(), maxCharsPerLine);
+                for (const lineText of wrappedLines) {
+                    if (totalLines >= maxTotalLines) break;
+                    const lineData = lineText.split('').map(char => ({
+                        char,
+                        isLetter: ALPHABET.includes(char),
+                        image: assignedImages[char] || null
+                    }));
+                    puzzleGrid.push(lineData);
+                    totalLines++;
+                }
+            }
+            
+            return {
+                puzzleGrid,
+                clueLetters,
+                allUsedLetters: uniqueLetters,
+                assignedImages
+            };
+        }
+
+        function wrapLineByWords(text, maxChars) {
+            const words = text.trim().split(/\s+/);
+            if (words.length === 0) return [];
+            const rows = [];
+            let currentLine = words[0];
+            for (let i = 1; i < words.length; i++) {
+                const word = words[i];
+                if (currentLine.length + 1 + word.length <= maxChars) {
+                    currentLine += " " + word;
+                } else {
+                    rows.push(currentLine);
+                    currentLine = word;
+                }
+            }
+            rows.push(currentLine);
+            return rows;
+        }
+
+        // --- CORE LOGIC: CANVAS RENDERING ---
+        async function renderWorksheet(puzzleData) {
+            const canvas = worksheetCanvas;
+            const oldTransforms = {};
+            canvas.getObjects().forEach(obj => {
+                if (obj.isGeneratedItem && obj.originalIndex !== undefined) {
+                    oldTransforms[obj.originalIndex] = {
+                        left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle
+                    };
+                }
+            });
+            
+            const userAddedObjects = canvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground);
+            const oldGeneratedItems = canvas.getObjects().filter(o => o.isGeneratedItem);
+            oldGeneratedItems.forEach(o => canvas.remove(o));
+
+            const PADDING = 40;
+            const CELL_WIDTH = 60;
+            const CELL_HEIGHT = 90;
+            const CELL_MARGIN = 2;
+            const ROW_MARGIN = 10;
+            
+            let currentY = PADDING + 50;
+            const newGeneratedItems = [];
+
+            for (let i = 0; i < puzzleData.puzzleGrid.length; i++) {
+                const line = puzzleData.puzzleGrid[i];
+                const lineObjects = [];
+                let currentX = 0;
+
+                for (const cellData of line) {
+                    if (cellData.char !== ' ') {
+                        if (cellData.isLetter && cellData.image) {
+                            const img = await loadImage(cellData.image.path);
+                            img.scaleToHeight(CELL_HEIGHT * 0.5);
+                            img.set({ left: currentX + CELL_WIDTH / 2, top: CELL_HEIGHT * 0.75, originX: 'center', originY: 'center' });
+                            lineObjects.push(img);
+                        }
+                        const box = new fabric.Rect({ width: CELL_WIDTH, height: CELL_HEIGHT * 0.45, fill: 'white', stroke: '#aaa', strokeWidth: 1, rx: 4, ry: 4, left: currentX, top: 0 });
+                        lineObjects.push(box);
+                        let letterToShow = cellData.isLetter ? (puzzleData.clueLetters.includes(cellData.char) ? cellData.char : '') : cellData.char;
+                        const text = new fabric.Textbox(letterToShow, { width: CELL_WIDTH, fontSize: 24, fontWeight: 'bold', textAlign: 'center', left: currentX, top: (box.height / 2), originY: 'center' });
+                        lineObjects.push(text);
+                    }
+                    currentX += CELL_WIDTH + CELL_MARGIN;
+                }
+
+                const rowWidth = line.length * (CELL_WIDTH + CELL_MARGIN) - CELL_MARGIN;
+                const startX = (canvas.width - rowWidth) / 2;
+                
+                const groupConfig = {
+                    left: startX, top: currentY, isGeneratedItem: true, originalIndex: `line_${i}`, objectCaching: false,
+                    borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 10, transparentCorners: false
+                };
+                if (oldTransforms[`line_${i}`]) {
+                    Object.assign(groupConfig, oldTransforms[`line_${i}`]);
+                }
+                const lineGroup = new fabric.Group(lineObjects, groupConfig);
+                newGeneratedItems.push(lineGroup);
+                currentY += lineGroup.getScaledHeight() + ROW_MARGIN;
+            }
+
+            currentY += 20;
+            const legendLetters = puzzleData.allUsedLetters.sort();
+            const LEGEND_CELL_WIDTH = 60;
+            const LEGEND_CELL_HEIGHT = 80;
+            const LEGEND_COLS = 13;
+            let legendObjects = [];
+            
+            let col = 0;
+            let row = 0;
+            for(const letter of legendLetters) {
+                const x = col * (LEGEND_CELL_WIDTH + CELL_MARGIN);
+                const y = row * (LEGEND_CELL_HEIGHT + ROW_MARGIN);
+                
+                legendObjects.push(new fabric.Rect({ width: LEGEND_CELL_WIDTH, height: LEGEND_CELL_HEIGHT, fill: 'transparent', stroke: 'black', strokeWidth: 1, left: x, top: y }));
+                if (puzzleData.assignedImages[letter]) {
+                    const img = await loadImage(puzzleData.assignedImages[letter].path);
+                    img.scaleToHeight(LEGEND_CELL_HEIGHT * 0.6);
+                    img.set({ left: x + LEGEND_CELL_WIDTH / 2, top: y + LEGEND_CELL_HEIGHT * 0.35, originX: 'center', originY: 'center' });
+                    legendObjects.push(img);
+                }
+                let letterVisible = puzzleData.clueLetters.includes(letter);
+                legendObjects.push(new fabric.Textbox(letter, { width: LEGEND_CELL_WIDTH, fontSize: 20, textAlign: 'center', fill: letterVisible ? 'black' : 'transparent', left: x, top: y + LEGEND_CELL_HEIGHT - 15, originY: 'center' }));
+                col++;
+                if(col >= LEGEND_COLS) { col = 0; row++; }
+            }
+            const legendWidth = LEGEND_COLS * (LEGEND_CELL_WIDTH + CELL_MARGIN) - CELL_MARGIN;
+            const legendStartX = (canvas.width - legendWidth) / 2;
+            const legendConfig = {
+                left: legendStartX, top: currentY, isGeneratedItem: true, originalIndex: 'legend', objectCaching: false,
+                borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 10, transparentCorners: false
+            };
+            if(oldTransforms['legend']) {
+                Object.assign(legendConfig, oldTransforms['legend']);
+            }
+            const legendGroup = new fabric.Group(legendObjects, legendConfig);
+            newGeneratedItems.push(legendGroup);
+
+            newGeneratedItems.forEach(item => canvas.add(item));
+            enforceZOrder(canvas);
+            userAddedObjects.forEach(obj => canvas.bringToFront(obj));
+            canvas.renderAll();
+        }
+
+        async function renderAnswerKey(puzzleData) {
+            const canvas = answerKeyCanvas;
+
+            const oldTransforms = {};
+            canvas.getObjects().forEach(obj => {
+                if (obj.isAnswerKeyItem && obj.originalIndex !== undefined) {
+                    oldTransforms[obj.originalIndex] = {
+                        left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle
+                    };
+                }
+            });
+
+            const userAddedObjects = canvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground);
+            const objectsToRemove = canvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground);
+            objectsToRemove.forEach(o => canvas.remove(o));
+            
+            const background = worksheetCanvas.getObjects().find(o => o.isBackground);
+            if (background) {
+                await new Promise(resolve => background.clone(cloned => {
+                    cloned.set({ isBackground: true });
+                    canvas.add(cloned);
+                    resolve();
+                }));
+            }
+            const border = worksheetCanvas.getObjects().find(o => o.isBorder);
+            if (border) {
+                await new Promise(resolve => border.clone(cloned => {
+                    cloned.set({ isBorder: true });
+                    canvas.add(cloned);
+                    resolve();
+                }));
+            }
+            
+            const PADDING = 40, CELL_WIDTH = 60, CELL_HEIGHT = 90, CELL_MARGIN = 2, ROW_MARGIN = 10;
+            let currentY = PADDING + 50;
+            const newGeneratedItems = [];
+
+            for (let i = 0; i < puzzleData.puzzleGrid.length; i++) {
+                const line = puzzleData.puzzleGrid[i];
+                const lineObjects = [];
+                let currentX = 0;
+
+                for (const cellData of line) {
+                    if (cellData.char !== ' ') {
+                        if (cellData.isLetter && cellData.image) {
+                            const img = await loadImage(cellData.image.path);
+                            img.scaleToHeight(CELL_HEIGHT * 0.5);
+                            img.set({ left: currentX + CELL_WIDTH / 2, top: CELL_HEIGHT * 0.75, originX: 'center', originY: 'center' });
+                            lineObjects.push(img);
+                        }
+                        const box = new fabric.Rect({ width: CELL_WIDTH, height: CELL_HEIGHT * 0.45, fill: 'white', stroke: '#aaa', strokeWidth: 1, rx: 4, ry: 4, left: currentX, top: 0 });
+                        lineObjects.push(box);
+                        const text = new fabric.Textbox(cellData.char, { width: CELL_WIDTH, fontSize: 24, fontWeight: 'bold', textAlign: 'center', left: currentX, top: (box.height / 2), originY: 'center' });
+                        lineObjects.push(text);
+                    }
+                    currentX += CELL_WIDTH + CELL_MARGIN;
+                }
+
+                const rowWidth = line.length * (CELL_WIDTH + CELL_MARGIN) - CELL_MARGIN;
+                const startX = (canvas.width - rowWidth) / 2;
+                const groupConfig = {
+                    left: startX, top: currentY, isAnswerKeyItem: true, originalIndex: `line_${i}`, objectCaching: false,
+                    borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 10, transparentCorners: false
+                };
+                if (oldTransforms[`line_${i}`]) {
+                    Object.assign(groupConfig, oldTransforms[`line_${i}`]);
+                }
+                const lineGroup = new fabric.Group(lineObjects, groupConfig);
+                newGeneratedItems.push(lineGroup);
+                currentY += lineGroup.getScaledHeight() + ROW_MARGIN;
+            }
+            
+            currentY += 20;
+            const legendLetters = ALPHABET;
+            const LEGEND_CELL_WIDTH = 60, LEGEND_CELL_HEIGHT = 80, LEGEND_COLS = 13;
+            let legendObjects = [];
+            
+            let col = 0, row = 0;
+            for(const letter of legendLetters) {
+                const x = col * (LEGEND_CELL_WIDTH + CELL_MARGIN);
+                const y = row * (LEGEND_CELL_HEIGHT + ROW_MARGIN);
+                legendObjects.push(new fabric.Rect({ width: LEGEND_CELL_WIDTH, height: LEGEND_CELL_HEIGHT, fill: 'transparent', stroke: 'black', strokeWidth: 1, left: x, top: y }));
+                if (puzzleData.assignedImages[letter]) {
+                    const img = await loadImage(puzzleData.assignedImages[letter].path);
+                    img.scaleToHeight(LEGEND_CELL_HEIGHT * 0.6);
+                    img.set({ left: x + LEGEND_CELL_WIDTH / 2, top: y + LEGEND_CELL_HEIGHT * 0.35, originX: 'center', originY: 'center' });
+                    legendObjects.push(img);
+                }
+                legendObjects.push(new fabric.Textbox(letter, { width: LEGEND_CELL_WIDTH, fontSize: 20, textAlign: 'center', left: x, top: y + LEGEND_CELL_HEIGHT - 15, originY: 'center' }));
+                col++;
+                if(col >= LEGEND_COLS) { col = 0; row++; }
+            }
+
+            const legendWidth = LEGEND_COLS * (LEGEND_CELL_WIDTH + CELL_MARGIN) - CELL_MARGIN;
+            const legendStartX = (canvas.width - legendWidth) / 2;
+            const legendConfig = {
+                left: legendStartX, top: currentY, isAnswerKeyItem: true, originalIndex: 'legend', objectCaching: false,
+                borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 10, transparentCorners: false
+            };
+            if(oldTransforms['legend']) {
+                Object.assign(legendConfig, oldTransforms['legend']);
+            }
+            const legendGroup = new fabric.Group(legendObjects, legendConfig);
+            newGeneratedItems.push(legendGroup);
+
+            newGeneratedItems.forEach(item => canvas.add(item));
+            enforceZOrder(canvas);
+            userAddedObjects.forEach(obj => canvas.bringToFront(obj));
+            canvas.renderAll();
+            
+            document.getElementById('downloadAnswerKeyJpegBtn').disabled = false;
+            document.getElementById('downloadAnswerKeyPdfBtn').disabled = false;
+        }
+
+
+        function loadImage(url) {
+            return new Promise((resolve, reject) => {
+                fabric.Image.fromURL(url, (img) => {
+                    if (img) resolve(img);
+                    else reject(new Error(`Failed to load image: ${url}`));
+                }, { crossOrigin: 'anonymous' });
+            });
+        }
+        
+        // --- TEXT TOOLS LOGIC ---
+        function handleAddText() {
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+            const textContent = textInput.value.trim() || 'New Text';
+            const textObject = new fabric.Textbox(textContent, {
+                left: 50, top: 50, fontSize: 48,
+                fill: '#333333', fontFamily: 'Fredoka', width: 250,
+                padding: 8, borderColor: 'var(--app-accent-primary)',
+                cornerColor: 'var(--app-accent-primary)', cornerSize: 10,
+                transparentCorners: false, cornerStyle: 'circle',
+            });
+            activeCanvas.add(textObject).setActiveObject(textObject);
+            activeCanvas.renderAll();
+            textInput.value = '';
+        }
+
+        function updateActiveTextObjectProperties() {
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+            const activeObject = activeCanvas.getActiveObject();
+
+            if (activeObject && activeObject.type !== 'activeSelection' &&
+                (activeObject.type === 'textbox' || activeObject.type === 'i-text' || activeObject.type === 'text') &&
+                !activeObject.isPuzzleItem) {
+
+                const newProps = {};
+                let propsChanged = false;
+
+                const currentFill = typeof activeObject.fill === 'string' ? activeObject.fill : '';
+                if (textColorInput.value !== currentFill) {
+                    newProps.fill = textColorInput.value;
+                    propsChanged = true;
+                }
+                const currentFontSize = activeObject.fontSize;
+                const newFontSize = parseInt(fontSizeInput.value, 10);
+                if (!isNaN(newFontSize) && newFontSize > 0 && newFontSize !== currentFontSize) {
+                    newProps.fontSize = newFontSize;
+                    propsChanged = true;
+                }
+                const currentFontFamily = activeObject.fontFamily;
+                if (fontFamilySelect.value !== currentFontFamily) {
+                    newProps.fontFamily = fontFamilySelect.value;
+                    propsChanged = true;
+                }
+                const currentStroke = typeof activeObject.stroke === 'string' ? activeObject.stroke : '';
+                if (textStrokeColorInput.value !== currentStroke) {
+                    newProps.stroke = textStrokeColorInput.value;
+                    propsChanged = true;
+                }
+                const currentStrokeWidth = activeObject.strokeWidth;
+                const newStrokeWidth = parseFloat(textStrokeWidthInput.value);
+                if (!isNaN(newStrokeWidth) && newStrokeWidth >= 0 && newStrokeWidth !== currentStrokeWidth) {
+                    newProps.strokeWidth = newStrokeWidth;
+                    propsChanged = true;
+                }
+                if (document.activeElement === textInput && textInput.value !== activeObject.text) {
+                    newProps.text = textInput.value;
+                    propsChanged = true;
+                }
+                if (propsChanged && Object.keys(newProps).length > 0) {
+                    activeObject.set(newProps);
+                    activeCanvas.renderAll();
+                }
+            }
+        }
+
+        function handleObjectSelection(e, activeCanvas) {
+            objectContextToolbar.style.display = 'flex';
+            if (!activeCanvas) return;
+
+            const activeObject = activeCanvas.getActiveObject();
+            const isGroup = activeObject && activeObject.type === 'activeSelection';
+
+            allToolbarButtons.forEach(btn => btn.disabled = false);
+            document.querySelectorAll('#alignDropdown button').forEach(btn => {
+                if (btn.id.includes('Canvas')) {
+                    btn.disabled = isGroup;
+                } else {
+                    btn.disabled = !isGroup;
+                }
+            });
+
+            const currentActiveObject = e.target || activeCanvas.getActiveObject();
+            if (!currentActiveObject) {
+                handleSelectionCleared(null, activeCanvas);
+                return;
+            }
+
+            const isSingleTextObject = currentActiveObject.type !== 'activeSelection' &&
+                                         (currentActiveObject.type === 'textbox' || currentActiveObject.type === 'i-text' || currentActiveObject.type === 'text');
+
+            textColorInput.disabled = !isSingleTextObject;
+            fontSizeInput.disabled = !isSingleTextObject;
+            fontFamilySelect.disabled = !isSingleTextObject;
+            textStrokeColorInput.disabled = !isSingleTextObject;
+            textStrokeWidthInput.disabled = !isSingleTextObject;
+            textInput.disabled = !isSingleTextObject;
+
+            if (isSingleTextObject) {
+                textInput.value = currentActiveObject.text || "";
+                textColorInput.value = typeof currentActiveObject.fill === 'string' ? currentActiveObject.fill : '#333333';
+                fontSizeInput.value = currentActiveObject.fontSize || 48;
+                fontFamilySelect.value = currentActiveObject.fontFamily || fontFamilySelect.options[0].value;
+                textStrokeColorInput.value = typeof currentActiveObject.stroke === 'string' ? currentActiveObject.stroke : '#000000';
+                textStrokeWidthInput.value = currentActiveObject.strokeWidth || 0;
+            } else {
+                if (document.activeElement !== textInput) {
+                  textInput.value = "";
+                }
+            }
+        }
+        
+        function handleSelectionCleared(e, activeCanvas) {
+            objectContextToolbar.style.display = 'none';
+            closeAllPopovers();
+
+            textColorInput.value = '#333333';
+            textColorInput.disabled = true;
+            fontSizeInput.value = 48;
+            fontSizeInput.disabled = true;
+            fontFamilySelect.value = fontFamilySelect.options[0].value;
+            fontFamilySelect.disabled = true;
+            textStrokeColorInput.value = '#000000';
+            textStrokeColorInput.disabled = true;
+            textStrokeWidthInput.value = 0;
+            textStrokeWidthInput.disabled = true;
+
+            if (document.activeElement !== textInput) {
+              textInput.value = "";
+            }
+            textInput.disabled = false;
+        }
+
+        function setupGlobalKeydownListener(canvas) {
+            window.addEventListener('keydown', (e) => {
+                if (e.key === 'Delete' || e.key === 'Backspace') {
+                     if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA') return;
+                    const activeCanvas = getActiveCanvas();
+                    const activeObject = activeCanvas.getActiveObject();
+                    if (activeObject && !activeObject.isEditing && activeCanvas === canvas) {
+                        deleteSelectedObjects();
+                    }
+                }
+            });
+        }
+
+        // --- IMAGE LIBRARY & ASSIGNMENT ---
+        async function loadThemes() {
+            try {
+                const themePaths = await fetch('/api/themes/nested').then(res => res.ok ? res.json() : []);
+                
+                themeSelect.innerHTML = '<option value="all">All Themes</option>';
+                
+                themePaths.forEach(themePath => {
+                    const option = document.createElement('option');
+                    option.value = themePath;
+                    const displayName = themePath
+                        .split('/')
+                        .map(part => part.charAt(0).toUpperCase() + part.slice(1))
+                        .join(' / ');
+                    option.textContent = displayName;
+                    themeSelect.appendChild(option);
+                });
+
+                await handleThemeChange();
+            } catch (err) {
+                 console.error("Error loading themes:", err);
+                 showMessage("Could not load themes.", 'error');
+            }
+        }
+
+        async function handleThemeChange() {
+            const theme = themeSelect.value;
+            if (theme === 'all') {
+                currentThemeImages = [];
+                await renderDictionary();
+            } else {
+                dictionaryDiv.innerHTML = `<p class='dictionary-message'>Loading ${theme}...</p`;
+                try {
+                    currentThemeImages = await fetch(`/api/images?theme=${encodeURIComponent(theme)}`).then(res => res.ok ? res.json() : []);
+                } catch (e) {
+                    currentThemeImages = [];
+                    showMessage(`Failed to load theme "${theme}"`, 'error');
+                }
+                await renderDictionary();
+            }
+        }
+
+        function handleLetterSelection(letter) {
+            selectedLetter = letter;
+            document.querySelectorAll('.letter-buttons button').forEach(b => b.classList.remove('active'));
+            document.querySelector(`.letter-buttons button[data-letter="${letter}"]`).classList.add('active');
+            renderAssignedImagesPreview();
+        }
+
+        async function autoAssignImages() {
+            showMessage("Fetching all images for auto-assign...", 'info', 0);
+            let allImages = [];
+            try {
+                const themes = await fetch('/api/themes/nested').then(res => res.ok ? res.json() : []);
+                if (themes.length === 0) throw new Error("No themes found on server.");
+                
+                const imagePromises = themes.map(theme =>
+                    fetch(`/api/images?theme=${encodeURIComponent(theme)}`).then(res => res.ok ? res.json() : [])
+                );
+                
+                const imagesByTheme = await Promise.all(imagePromises);
+                allImages = [].concat(...imagesByTheme, uploadedImages);
+
+            } catch (e) {
+                console.error("Auto-assign failed:", e);
+                showMessage("Failed to fetch image list from server.", "error");
+                autoAssignCheckbox.checked = false;
+                return;
+            }
+
+            if (allImages.length === 0) {
+                 showMessage("Cannot auto-assign. No images found on server.", 'error');
+                 autoAssignCheckbox.checked = false;
+                 return;
+            }
+            
+            const uniqueImages = Array.from(new Map(allImages.map(img => [img.path, img])).values());
+
+            assignedImages = {};
+            ALPHABET.forEach(letter => {
+                const options = uniqueImages.filter(img => img.word.toLowerCase().startsWith(letter.toLowerCase()));
+                if (options.length > 0) {
+                    assignedImages[letter] = options[Math.floor(Math.random() * options.length)];
+                }
+            });
+
+            renderAssignedImagesPreview();
+            showMessage("Images have been auto-assigned.", 'success', 2000);
+        }
+
+        function handleImageAssignment(image) {
+            if (!selectedLetter) { showMessage("Please select a letter first.", "info"); return; }
+            assignedImages[selectedLetter] = image;
+            renderAssignedImagesPreview();
+        }
+
+        async function renderDictionary() {
+            const query = searchInput.value.trim().toLowerCase();
+            const selectedTheme = themeSelect.value;
+            dictionaryDiv.innerHTML = '';
+
+            let imagesToDisplay = [];
+
+            if (selectedTheme === 'all') {
+                if (!query) {
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
+                    return;
+                }
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p`;
+                try {
+                    const response = await fetch(`/api/images?search=${encodeURIComponent(query)}`);
+                    if (!response.ok) throw new Error(`Server error: ${response.status}`);
+                    imagesToDisplay = await response.json();
+                } catch(e) {
+                    showMessage(`Failed to search for "${query}"`, 'error');
+                    imagesToDisplay = [];
+                }
+            } else {
+                imagesToDisplay = query ? currentThemeImages.filter(img => img.word.toLowerCase().includes(query)) : currentThemeImages;
+            }
+
+            dictionaryDiv.innerHTML = '';
+            if (imagesToDisplay.length === 0) {
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">No images found${query ? ` matching "${query}"` : ''}.</p>`;
+                return;
+            }
+
+            imagesToDisplay.sort((a, b) => a.word.localeCompare(b.word)).forEach(({ word, path }) => {
+                const item = document.createElement('div');
+                item.className = 'dictionary-item';
+                item.innerHTML = `<img src="${path}" crossOrigin="anonymous" alt="${word}"/><span>${word}</span>`;
+                item.onclick = () => handleImageAssignment({ word, path });
+                dictionaryDiv.appendChild(item);
+            });
+        }
+        
+        function handleImageUpload(e) {
+            const files = e.target.files;
+            if (!files || files.length === 0) return;
+
+            let filesToLoad = Array.from(files).filter(f => f.type.startsWith('image/')).length;
+            if (filesToLoad === 0) return;
+
+            Array.from(files).forEach(file => {
+                if (!file.type.startsWith('image/')) return;
+                const reader = new FileReader();
+                reader.onload = (event) => {
+                    const imgData = { word: file.name, path: event.target.result };
+                    if (!uploadedImages.some(img => img.path === imgData.path)) {
+                        uploadedImages.push(imgData);
+                    }
+                    filesToLoad--;
+                    if (filesToLoad === 0) {
+                        renderUploadedImages();
+                        showMessage(`${uploadedImages.length} custom image(s) available.`, 'success');
+                    }
+                };
+                reader.readAsDataURL(file);
+            });
+            imageUploadInput.value = '';
+        }
+
+        function renderUploadedImages() {
+            uploadedImagesPreview.innerHTML = "";
+            if (uploadedImages.length === 0) {
+                uploadedImagesPreview.innerHTML = `<p class="dictionary-message">Your uploaded images will appear here.</p>`;
+                return;
+            }
+            uploadedImages.forEach(img => {
+                const item = document.createElement("div");
+                item.className = "dictionary-item";
+                item.innerHTML = `<img src="${img.path}" alt="${img.word}" loading="lazy"/><span>${img.word}</span>`;
+                item.onclick = () => handleImageAssignment(img);
+                uploadedImagesPreview.appendChild(item);
+            });
+        }
+
+
+        function renderAssignedImagesPreview() {
+            assignedImagesPreviewDiv.innerHTML = "";
+            Object.entries(assignedImages).sort((a,b) => a[0].localeCompare(b[0])).forEach(([letter, image]) => {
+                const item = document.createElement("div");
+                item.className = "dictionary-item assigned-preview-item";
+
+                const isSelected = selectedLetter === letter;
+                if (isSelected) item.classList.add('selected');
+
+                item.innerHTML = `<div class="letter-badge">${letter}</div><img src="${image.path}" alt="${image.word}" loading="lazy"/><span>${image.word}</span>`;
+                item.onclick = () => {
+                    delete assignedImages[letter];
+                    renderAssignedImagesPreview();
+                };
+                assignedImagesPreviewDiv.appendChild(item);
+            });
+        }
+
+        // --- UTILITY FUNCTIONS ---
+        function showMessage(msg, type = 'error', duration = 4000) {
+            messageDiv.textContent = msg;
+            messageDiv.className = `message ${type}`;
+            messageDiv.style.display = 'block';
+            if (duration > 0) {
+                setTimeout(() => { messageDiv.style.display = 'none'; }, duration);
+            }
+        }
+
+        function clearAll() {
+            lastGeneratedPuzzle = null;
+            assignedImages = {};
+            selectedLetter = null;
+            currentThemeImages = [];
+            uploadedImages = [];
+            phrasesInput.value = "";
+            revealCountSelect.value = 3;
+            maxLinesSelect.value = 4;
+            autoAssignCheckbox.checked = false;
+            themeSelect.value = "all";
+            pageSizeSelect.value = "816x1056";
+            document.querySelectorAll('.letter-buttons button.active').forEach(b => b.classList.remove('active'));
+            dictionaryDiv.innerHTML = "<p class='dictionary-message'>Type to search all images.</p>";
+            renderAssignedImagesPreview();
+            renderUploadedImages();
+            [worksheetCanvas, answerKeyCanvas].forEach(c => {
+                if (c) { c.clear(); c.backgroundColor = '#fff'; c.renderAll(); }
+            });
+            updateCanvasDisplayDimensions(816, 1056);
+            downloadDropdownBtn.disabled = true;
+            document.querySelectorAll('#downloadDropdownContent button').forEach(b => b.disabled = true);
+            downloadDropdownContent.style.display = 'none';
+            handleSelectionCleared(null, getActiveCanvas());
+            loadThemes();
+            showMessage("Form cleared.", "success", 2000);
+        }
+
+        // --- DOWNLOAD FUNCTIONS ---
+        async function getCanvasDataURLWithOptions(canvasInstance, exportOptions) {
+            canvasInstance.discardActiveObject();
+            canvasInstance.renderAll();
+
+            const { multiplier, applyPixelLevelGrayscale } = exportOptions;
+            const format = 'jpeg', quality = 1.0;
+            let dataURL = canvasInstance.toDataURL({ format, quality, multiplier });
+            if (applyPixelLevelGrayscale) {
+                try { dataURL = await applyGrayscaleToDataURL(dataURL, `image/${format}`, quality); }
+                catch (error) { console.error("Grayscale filter failed:", error); }
+            }
+            return dataURL;
+        }
+
+        function applyGrayscaleToDataURL(dataURL, outputFormat = 'image/jpeg', quality = 1.0) {
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                img.onload = () => {
+                    const tempCanvas = document.createElement('canvas');
+                    const ctx = tempCanvas.getContext('2d');
+                    tempCanvas.width = img.width; tempCanvas.height = img.height;
+                    if (!ctx) return reject(new Error("Failed to get 2D context."));
+                    ctx.drawImage(img, 0, 0);
+                    const imageData = ctx.getImageData(0, 0, tempCanvas.width, tempCanvas.height);
+                    const data = imageData.data;
+                    for (let i = 0; i < data.length; i += 4) {
+                        const gray = 0.2126 * data[i] + 0.7152 * data[i + 1] + 0.0722 * data[i + 2];
+                        data[i] = data[i + 1] = data[i + 2] = gray;
+                    }
+                    ctx.putImageData(imageData, 0, 0);
+                    resolve(tempCanvas.toDataURL(outputFormat, quality));
+                };
+                img.onerror = (err) => reject(err);
+                img.src = dataURL;
+            });
+        }
+        
+        async function downloadImageFile(canvasToExport, fileName) {
+            if (!canvasToExport) { showMessage("Canvas not available.", "error"); return; }
+            showMessage(`Preparing ${fileName}...`, 'info', 0);
+            try {
+                const exportOptions = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                const a = document.createElement('a');
+                a.download = fileName; a.href = dataURL; a.click();
+                showMessage('JPEG download initiated!', 'success');
+            } catch (error) {
+                showMessage(`Error preparing JPEG: ${error.message}`, 'error');
+            }
+        }
+        
+        async function downloadPDF(canvasToExport, fileName) {
+            if (!canvasToExport) { showMessage("Canvas not available.", "error"); return; }
+            showMessage(`Preparing ${fileName}...`, 'info', 0);
+            try {
+                const { jsPDF } = window.jspdf;
+                const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
+                const pdf = new jsPDF({ orientation, unit: 'pt', format: [canvasToExport.width, canvasToExport.height] });
+                const exportOptions = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
+
+                const imgData = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                pdf.addImage(imgData, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+                
+                pdf.save(fileName);
+                showMessage('PDF downloaded!', 'success');
+            } catch (error) {
+                showMessage(`Error creating PDF: ${error.message}`, "error");
+            }
+        }
+        
+        // --- BORDER AND BACKGROUND FUNCTIONS ---
+        function loadAssetThemes(type, selectEl) {
+             fetch(`/api/${type}/themes`)
+                .then(res => { if (!res.ok) throw new Error(`Failed to load ${type} themes`); return res.json(); })
+                .then(themes => {
+                    selectEl.innerHTML = `<option value="none">None</option>`;
+                    themes.forEach(theme => {
+                        const opt = document.createElement("option");
+                        opt.value = theme; opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
+                        selectEl.appendChild(opt);
+                    });
+                })
+                .catch(err => { console.error(`Error loading ${type} themes:`, err); });
+        }
+        
+        function loadAssetImages(type, theme, dictionaryEl, addFunc) {
+            const assetType = type.slice(0, -1); 
+            const propName = `is${assetType.charAt(0).toUpperCase() + assetType.slice(1)}`;
+
+            if (theme === 'none') {
+                dictionaryEl.innerHTML = `<p class="dictionary-message">Select a theme to see ${type}.</p>`;
+                
+                if (propName === 'isBackground') {
+                    [worksheetCanvas, answerKeyCanvas].forEach(canvas => {
+                        if (!canvas) return;
+                        const existingAsset = canvas.getObjects().find(obj => obj[propName]);
+                        if (existingAsset) canvas.remove(existingAsset);
+                        canvas.renderAll();
+                    });
+                } else {
+                    const existingAsset = worksheetCanvas.getObjects().find(obj => obj[propName]);
+                    if (existingAsset) worksheetCanvas.remove(existingAsset).renderAll();
+                }
+
+                dictionaryEl.querySelectorAll('.thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
+                 if (type === 'backgrounds') {
+                    backgroundOpacity.value = 1;
+                    backgroundOpacity.disabled = true;
+                }
+                if (type === 'borders') {
+                    borderOpacity.value = 1;
+                    borderOpacity.disabled = true;
+                }
+                return;
+            }
+            dictionaryEl.innerHTML = `<p class="dictionary-message">Loading ${theme} ${type}...</p>`;
+            fetch(`/api/${type}/images?theme=${theme}`)
+                .then(res => { if (!res.ok) throw new Error(`Failed to load images for ${type} theme`); return res.json(); })
+                .then(images => {
+                    dictionaryEl.innerHTML = "";
+                    if (images.length === 0) { dictionaryEl.innerHTML = `<p class="dictionary-message">No ${type} in this theme.</p>`; return; }
+                    images.forEach(asset => {
+                        const item = document.createElement("div"); item.className = "border-thumbnail-item";
+                        item.innerHTML = `<img src="${asset.path}" alt="${asset.name}" loading="lazy" />`;
+                        item.onclick = () => {
+                            addFunc(asset.path);
+                             dictionaryEl.querySelectorAll('.thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
+                            item.classList.add('selected');
+                        };
+                        dictionaryEl.appendChild(item);
+                    });
+                })
+                .catch(err => { console.error(`Error loading ${type} images:`, err); dictionaryEl.innerHTML = `<p class="dictionary-message">Error loading ${type}.</p>`; });
+        }
+
+        function loadBorderThemes() { loadAssetThemes('borders', borderThemeSelect); }
+        function loadBackgroundThemes() { loadAssetThemes('backgrounds', backgroundThemeSelect); }
+
+        function loadBorderImages() { loadAssetImages('borders', borderThemeSelect.value, borderDictionary, addBorderToCanvas); }
+        function loadBackgroundImages() { loadAssetImages('backgrounds', backgroundThemeSelect.value, backgroundDictionary, addBackgroundToCanvas); }
+        
+        function addBorderToCanvas(path) {
+            const propName = 'isBorder';
+            const existing = worksheetCanvas.getObjects().find(obj => obj[propName]);
+            if (existing) worksheetCanvas.remove(existing);
+
+            fabric.Image.fromURL(path, (img) => {
+                if (!img) return;
+                img.scaleToWidth(worksheetCanvas.width);
+                img.set({
+                    left: worksheetCanvas.width / 2, top: worksheetCanvas.height / 2, originX: 'center', originY: 'center',
+                    selectable: true, evented: true, [propName]: true,
+                    opacity: parseFloat(borderOpacity.value)
+                });
+                worksheetCanvas.add(img);
+                img.sendToBack();
+                const bg = worksheetCanvas.getObjects().find(o => o.isBackground);
+                if (bg) bg.sendToBack();
+                borderOpacity.disabled = false;
+                worksheetCanvas.renderAll();
+            }, { crossOrigin: 'anonymous' });
+        }
+        
+        function addBackgroundToCanvas(path) {
+            const propName = 'isBackground';
+
+            [worksheetCanvas, answerKeyCanvas].forEach(canvas => {
+                if (!canvas) return;
+                const existing = canvas.getObjects().find(obj => obj[propName]);
+                if (existing) canvas.remove(existing);
+                canvas.backgroundColor = pageColorInput.value;
+            });
+
+
+            fabric.Image.fromURL(path, (img) => {
+                if (!img) return;
+
+                const config = {
+                    originX: 'left',
+                    originY: 'top',
+                    selectable: true,
+                    evented: true,
+                    [propName]: true,
+                    opacity: parseFloat(backgroundOpacity.value)
+                };
+
+                img.clone(cloned => {
+                    cloned.set(config);
+                    cloned.scaleToWidth(worksheetCanvas.width);
+                    cloned.scaleToHeight(worksheetCanvas.height);
+                    worksheetCanvas.add(cloned).sendToBack();
+                    worksheetCanvas.renderAll();
+                });
+
+                img.clone(cloned => {
+                    cloned.set(config);
+                    cloned.scaleToWidth(answerKeyCanvas.width);
+                    cloned.scaleToHeight(answerKeyCanvas.height);
+                    answerKeyCanvas.add(cloned).sendToBack();
+                    answerKeyCanvas.renderAll();
+                });
+
+                backgroundOpacity.disabled = false;
+
+            }, { crossOrigin: 'anonymous' });
+        }
+
+        function applyBackgroundOpacity() {
+            const newOpacity = parseFloat(backgroundOpacity.value);
+            [worksheetCanvas, answerKeyCanvas].forEach(canvas => {
+                if (!canvas) return;
+                const bgImg = canvas.getObjects().find(o => o.isBackground);
+                if (bgImg) {
+                    bgImg.set('opacity', newOpacity);
+                    canvas.renderAll();
+                }
+            });
+        }
+        
+        function applyBorderOpacity() {
+            if (!worksheetCanvas) return;
+            const borderImg = worksheetCanvas.getObjects().find(o => o.isBorder);
+            if (borderImg) {
+                borderImg.set('opacity', parseFloat(borderOpacity.value));
+                worksheetCanvas.renderAll();
+            }
+        }
+
+        // START: New Toolbar Functions
+        let activePopover = null;
+
+        function togglePopover(popover) {
+            const isOpening = popover.style.display !== 'block';
+            closeAllPopovers();
+            if (isOpening) {
+                popover.style.display = 'block';
+                activePopover = popover;
+            }
+        }
+
+        function closeAllPopovers() {
+            if (activePopover) {
+                activePopover.style.display = 'none';
+                activePopover = null;
+            }
+            if(document.getElementById('layersBtn')) document.getElementById('layersBtn').classList.remove('active-dropdown');
+            if(document.getElementById('alignBtn')) document.getElementById('alignBtn').classList.remove('active-dropdown');
+        }
+
+        function bringObjectForward() {
+            const activeCanvas = getActiveCanvas();
+            const activeObject = activeCanvas.getActiveObject();
+            if (activeObject) {
+                activeCanvas.bringForward(activeObject);
+                const border = activeCanvas.getObjects().find(obj => obj.isBorder);
+                if (border) {
+                    activeCanvas.bringToFront(border);
+                }
+                 const bg = activeCanvas.getObjects().find(o => o.isBackground);
+                if (bg) bg.sendToBack();
+                activeCanvas.renderAll();
+            }
+            closeAllPopovers();
+        }
+
+        function sendObjectBackward() {
+            const activeCanvas = getActiveCanvas();
+            const activeObject = activeCanvas.getActiveObject();
+            if (activeObject) {
+                activeCanvas.sendBackwards(activeObject);
+                const bg = activeCanvas.getObjects().find(o => o.isBackground);
+                if (bg) bg.sendToBack();
+                activeCanvas.renderAll();
+            }
+            closeAllPopovers();
+        }
+
+        function deleteSelectedObjects() {
+            const activeCanvas = getActiveCanvas();
+            const activeObjects = activeCanvas.getActiveObjects();
+            if (activeObjects.length > 0) {
+                activeObjects.forEach(obj => activeCanvas.remove(obj));
+                activeCanvas.discardActiveObject().renderAll();
+            }
+            closeAllPopovers();
+        }
+
+        function alignObjects(type) {
+            const activeCanvas = getActiveCanvas();
+            const activeObj = activeCanvas.getActiveObject();
+            if (!activeObj) {
+                closeAllPopovers();
+                return;
+            }
+
+            if (type.includes('Canvas')) {
+                if (type === 'centerHCanvas') activeObj.centerH();
+                if (type === 'centerVCanvas') activeObj.centerV();
+                activeObj.setCoords();
+            } else if (activeObj.type === 'activeSelection') {
+                const group = activeObj;
+                group.forEachObject(function(obj) {
+                    switch (type) {
+                        case 'alignLeft':
+                            obj.set('left', -group.width / 2);
+                            break;
+                        case 'alignHCenter':
+                            obj.set('left', 0 - obj.getScaledWidth() / 2);
+                            break;
+                        case 'alignRight':
+                            obj.set('left', group.width / 2 - obj.getScaledWidth());
+                            break;
+                        case 'alignTop':
+                            obj.set('top', -group.height / 2);
+                            break;
+                        case 'alignVCenter':
+                            obj.set('top', 0 - obj.getScaledHeight() / 2);
+                            break;
+                        case 'alignBottom':
+                            obj.set('top', group.height / 2 - obj.getScaledHeight());
+                            break;
+                    }
+                });
+            }
+            
+            activeCanvas.renderAll();
+            closeAllPopovers();
+        }
+        // END: New Toolbar Functions
+
+
+        // --- START THE APP ---
+        initializeApp();
+    });
+  </script>
+</body>
+</html>

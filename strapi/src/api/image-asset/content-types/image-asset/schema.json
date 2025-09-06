@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "image_assets",
+  "info": {
+    "singularName": "image-asset",
+    "pluralName": "image-assets",
+    "displayName": "Image Asset",
+    "description": "Individual images for worksheet generators"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "fileKey": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "displayName": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "file": {
+      "type": "media",
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "themes": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::image-theme.image-theme"
+    },
+    "isPremium": {
+      "type": "boolean",
+      "default": false
+    },
+    "metadata": {
+      "type": "json"
+    }
+  }
+}

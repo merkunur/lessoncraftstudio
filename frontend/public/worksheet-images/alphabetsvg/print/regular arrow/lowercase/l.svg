@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 38.75 207.02">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #231f20;
+      }
+
+      .cls-2 {
+        font-family: LexendDeca-Regular, 'Lexend Deca';
+        font-size: 42px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path class="cls-1" d="M12.99,157h6.82s-9.08,15.77-9.08,15.77l-9.13-15.76h6.83s-.13-110.6-.13-110.6h4.57s.13,110.59.13,110.59Z"/>
+    <text class="cls-2" transform="translate(0 35.85)"><tspan x="0" y="0">1</tspan></text>
+    <g id="Layer_1-2" data-name="Layer 1-2">
+      <g>
+        <path class="cls-1" d="M32.49,205.77c-2.25,0-4.08-1.72-4.08-3.83V5.08c0-2.11,1.83-3.83,4.08-3.83h.93c2.25,0,4.08,1.72,4.08,3.83v196.86c0,2.11-1.83,3.83-4.08,3.83h-.93Z"/>
+        <path class="cls-1" d="M33.42,2.5c1.57,0,2.83,1.15,2.83,2.58v196.86c0,1.42-1.27,2.58-2.83,2.58h-.93c-1.57,0-2.83-1.15-2.83-2.58V5.08c0-1.42,1.27-2.58,2.83-2.58h.93M33.42,0h-.93c-2.94,0-5.33,2.28-5.33,5.08v196.86c0,2.8,2.39,5.08,5.33,5.08h.93c2.94,0,5.33-2.28,5.33-5.08V5.08c0-2.8-2.39-5.08-5.33-5.08h0Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

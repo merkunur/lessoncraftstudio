@@ -1,0 +1,132 @@
+{
+  "navigation": {
+    "apps": "Apps",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "startFree": "Start Free",
+    "dashboard": "Dashboard",
+    "signOut": "Sign Out"
+  },
+  "homepage": {
+    "hero": {
+      "title": "Create Professional Worksheets in Minutes",
+      "subtitle": "33 powerful worksheet generators with 100+ themed images for Teachers Pay Teachers sellers and educational publishers",
+      "cta": {
+        "tryFree": "Try Word Search Free",
+        "viewApps": "View All Apps"
+      }
+    },
+    "features": {
+      "title": "Everything You Need for Publishing Success",
+      "items": {
+        "apps": {
+          "title": "33 Worksheet Apps",
+          "description": "From math and reading to puzzles and games"
+        },
+        "images": {
+          "title": "100+ Image Themes",
+          "description": "Child-friendly illustrations with commercial license"
+        },
+        "languages": {
+          "title": "11 Languages",
+          "description": "Create worksheets in multiple languages"
+        },
+        "pod": {
+          "title": "POD License Included",
+          "description": "Sell your worksheets on any platform"
+        }
+      }
+    },
+    "pricing": {
+      "title": "Simple, Transparent Pricing",
+      "monthly": "Monthly",
+      "yearly": "Yearly (Save 20%)",
+      "free": {
+        "name": "Free",
+        "price": "$0",
+        "features": [
+          "Word Search Generator",
+          "Limited image library",
+          "Watermarked output",
+          "Basic support"
+        ],
+        "cta": "Start Free"
+      },
+      "core": {
+        "name": "Core Bundle",
+        "price": "$15",
+        "priceYearly": "$144",
+        "features": [
+          "10 most popular apps",
+          "Full image library access",
+          "No watermarks",
+          "POD commercial license",
+          "Priority support"
+        ],
+        "cta": "Start Core"
+      },
+      "full": {
+        "name": "Full Access",
+        "price": "$25",
+        "priceYearly": "$240",
+        "features": [
+          "All 33 apps",
+          "Full image library access",
+          "No watermarks",
+          "POD commercial license",
+          "Priority support",
+          "Early access to new apps"
+        ],
+        "cta": "Start Full Access",
+        "popular": "Most Popular"
+      }
+    }
+  },
+  "apps": {
+    "title": "Worksheet Generator Apps",
+    "subtitle": "Choose from 33 professional worksheet generators",
+    "search": "Search apps...",
+    "categories": {
+      "all": "All Apps",
+      "math": "Math",
+      "language": "Language Arts",
+      "puzzles": "Puzzles",
+      "games": "Games",
+      "visual": "Visual Perception",
+      "motor": "Fine Motor Skills"
+    },
+    "tier": {
+      "free": "Free",
+      "core": "Core Bundle",
+      "full": "Full Access"
+    }
+  },
+  "auth": {
+    "signIn": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your account",
+      "email": "Email",
+      "password": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "submit": "Sign In",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up"
+    },
+    "signUp": {
+      "title": "Create Your Account",
+      "subtitle": "Start creating worksheets today",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "terms": "I agree to the Terms of Service and Privacy Policy",
+      "submit": "Create Account",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in"
+    }
+  }
+}

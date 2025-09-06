@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31.74 275.19">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #231f20;
+      }
+
+      .cls-3 {
+        fill: #272425;
+      }
+
+      .cls-4 {
+        fill: #939598;
+      }
+
+      .cls-5 {
+        fill: #282526;
+      }
+
+      .cls-2 {
+        font-family: LexendDeca-Regular, 'Lexend Deca';
+        font-size: 42px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <path class="cls-1" d="M12.99,162.47h6.82s-9.08,15.77-9.08,15.77l-9.13-15.76h6.83s-.13-110.6-.13-110.6h4.57s.13,110.59.13,110.59Z"/>
+    <text class="cls-2" transform="translate(0 41.32)"><tspan x="0" y="0">1</tspan></text>
+    <g id="Layer_1-2" data-name="Layer 1-2">
+      <g>
+        <path class="cls-5" d="M27.58,218.07c.55.06,3.12-.23,3.12.36v12.12h-3.12v-12.48Z"/>
+        <path class="cls-5" d="M27.58,242.79c.55.06,3.12-.23,3.12.36v12.12h-3.12v-12.48Z"/>
+        <path class="cls-5" d="M27.58,119.19c.55.06,3.12-.23,3.12.36v12.12h-3.12v-12.48Z"/>
+        <path class="cls-5" d="M27.58,168.63c.55.06,3.12-.23,3.12.36v12.12h-3.12v-12.48Z"/>
+        <path class="cls-5" d="M27.58,69.75c.55.06,3.12-.23,3.12.36v12.12h-3.12v-12.48Z"/>
+        <path class="cls-5" d="M27.58,193.35c.55.06,3.12-.23,3.12.36v12.12h-3.12v-12.48Z"/>
+        <path class="cls-5" d="M27.58,143.91c.55.06,3.12-.23,3.12.36v12.12h-3.12v-12.48Z"/>
+        <path class="cls-5" d="M27.58,94.47c.55.06,3.12-.23,3.12.36v12.12h-3.12v-12.48Z"/>
+        <path class="cls-3" d="M30.33,50.07h-2.75v7.44h3.12v-4.32h.65c-.32-1.05-.68-2.08-1.02-3.12Z"/>
+        <path class="cls-3" d="M31.74,272.07h-1.04v-4.56h-3.12v7.44c1.15.09,2.37.14,3.59.14-.09-1.04.1-2.1.57-3.02h0Z"/>
+        <path class="cls-4" d="M31.16,274.95h-3.58v.24h3.6c0-.08-.02-.16-.02-.24Z"/>
+      </g>
+      <path class="cls-5" d="M28.1.02c.55.06,3.12-.23,3.12.36v12.12h-3.12V.02Z"/>
+      <path class="cls-5" d="M28.1,24.74c.55.06,3.12-.23,3.12.36v12.12h-3.12v-12.48Z"/>
+    </g>
+  </g>
+</svg>

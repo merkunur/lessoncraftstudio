@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132.24 60.24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #c7c8ca;
+      }
+
+      .cls-2 {
+        fill: #262324;
+      }
+
+      .cls-3 {
+        fill: #282526;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-1" d="M132.24,60v.24h-12.24v-.24l.22-.48h11.73l.29.48Z"/>
+      <path class="cls-1" d="M12,60v.24H0v-.24c.02-.19.09-.47.22-.48,1.43-.06,11.04-.35,11.49,0l.29.48Z"/>
+      <path class="cls-1" d="M36,60v.24h-12v-.24c.02-.19.09-.47.22-.48,1.43-.06,11.04-.35,11.49,0l.29.48Z"/>
+      <path class="cls-1" d="M60,60v.24h-12v-.24c.02-.19.09-.47.22-.48,1.43-.06,11.04-.35,11.49,0l.29.48Z"/>
+      <path class="cls-1" d="M84,60v.24h-12v-.24c.02-.19.09-.47.22-.48,1.43-.06,11.04-.35,11.49,0l.29.48Z"/>
+      <path class="cls-1" d="M108,60v.24h-12v-.24c.02-.19.09-.47.22-.48,1.43-.06,11.04-.35,11.49,0l.29.48Z"/>
+      <rect class="cls-3" x=".48" y=".24" width="12" height="3.12"/>
+      <rect class="cls-3" x="24.48" y=".24" width="12" height="3.12"/>
+      <rect class="cls-3" x="48.48" y=".24" width="12" height="3.12"/>
+      <rect class="cls-3" x="72.48" y=".24" width="12" height="3.12"/>
+      <rect class="cls-3" x="96.48" y=".24" width="12" height="3.12"/>
+      <polygon class="cls-3" points="132.24 0 132.24 3.36 120.48 3.36 120.48 .24 132.24 0"/>
+      <path class="cls-2" d="M120,60v-2.88c4.08.08,8.19-.21,12.24.24v2.64h-12.24Z"/>
+      <rect class="cls-2" y="57.12" width="12" height="2.88"/>
+      <rect class="cls-2" x="24" y="57.12" width="12" height="2.88"/>
+      <rect class="cls-2" x="48" y="57.12" width="12" height="2.88"/>
+      <rect class="cls-2" x="72" y="57.12" width="12" height="2.88"/>
+      <rect class="cls-2" x="96" y="57.12" width="12" height="2.88"/>
+    </g>
+  </g>
+</svg>

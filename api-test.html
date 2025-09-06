@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LessonCraftStudio API Tester</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #1E40AF;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #1E40AF;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #555;
+        }
+        input {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+        button {
+            background: #1E40AF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+        button:hover {
+            background: #1E3A8A;
+        }
+        button.secondary {
+            background: #FB923C;
+        }
+        button.secondary:hover {
+            background: #EA580C;
+        }
+        .response {
+            background: #f8f9fa;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            padding: 15px;
+            margin-top: 20px;
+            white-space: pre-wrap;
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        .success {
+            background: #d4edda;
+            border-color: #c3e6cb;
+            color: #155724;
+        }
+        .error {
+            background: #f8d7da;
+            border-color: #f5c6cb;
+            color: #721c24;
+        }
+        .info {
+            background: #d1ecf1;
+            border-color: #bee5eb;
+            color: #0c5460;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .token-display {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+    <h1>🚀 LessonCraftStudio API Tester</h1>
+    
+    <div class="info">
+        <strong>API Base URL:</strong> http://localhost:3001<br>
+        <strong>Status:</strong> <span id="api-status">Checking...</span>
+    </div>
+
+    <div class="container">
+        <h2>1. Register New User</h2>
+        <form id="registerForm">
+            <div class="form-group">
+                <label>Email:</label>
+                <input type="email" name="email" value="test@example.com" required>
+            </div>
+            <div class="form-group">
+                <label>Password:</label>
+                <input type="password" name="password" value="TestPass123" required>
+            </div>
+            <div class="form-group">
+                <label>First Name:</label>
+                <input type="text" name="firstName" value="Test">
+            </div>
+            <div class="form-group">
+                <label>Last Name:</label>
+                <input type="text" name="lastName" value="User">
+            </div>
+            <button type="submit">Register</button>
+        </form>
+        <div id="registerResponse" class="response" style="display:none;"></div>
+    </div>
+
+    <div class="container">
+        <h2>2. Login</h2>
+        <form id="loginForm">
+            <div class="form-group">
+                <label>Email:</label>
+                <input type="email" name="email" value="test@example.com" required>
+            </div>
+            <div class="form-group">
+                <label>Password:</label>
+                <input type="password" name="password" value="TestPass123" required>
+            </div>
+            <button type="submit">Login</button>
+        </form>
+        <div id="loginResponse" class="response" style="display:none;"></div>
+        <div id="tokenDisplay" class="token-display" style="display:none;">
+            <strong>Access Token (saved):</strong><br>
+            <span id="accessToken"></span>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>3. Get User Profile</h2>
+        <button onclick="getProfile()">Get My Profile</button>
+        <div id="profileResponse" class="response" style="display:none;"></div>
+    </div>
+
+    <div class="container">
+        <h2>4. Test Other Endpoints</h2>
+        <button onclick="testEndpoint('/health', 'GET', null, false)">Health Check</button>
+        <button onclick="testEndpoint('/api/test', 'GET')">API Test</button>
+        <button onclick="logout()" class="secondary">Logout</button>
+        <div id="testResponse" class="response" style="display:none;"></div>
+    </div>
+
+    <script>
+        const API_URL = 'http://localhost:3001';
+        let authToken = localStorage.getItem('authToken');
+
+        // Check API status
+        fetch(`${API_URL}/health`)
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('api-status').innerHTML = 
+                    '<span style="color: green;">✅ Connected</span>';
+            })
+            .catch(err => {
+                document.getElementById('api-status').innerHTML = 
+                    '<span style="color: red;">❌ Not Connected - Make sure API is running</span>';
+            });
+
+        // Register form
+        document.getElementById('registerForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const data = Object.fromEntries(formData);
+            
+            try {
+                const response = await fetch(`${API_URL}/api/auth/register`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+                
+                const result = await response.json();
+                const responseDiv = document.getElementById('registerResponse');
+                responseDiv.style.display = 'block';
+                responseDiv.className = response.ok ? 'response success' : 'response error';
+                responseDiv.textContent = JSON.stringify(result, null, 2);
+                
+                if (result.accessToken) {
+                    authToken = result.accessToken;
+                    localStorage.setItem('authToken', authToken);
+                }
+            } catch (error) {
+                document.getElementById('registerResponse').style.display = 'block';
+                document.getElementById('registerResponse').className = 'response error';
+                document.getElementById('registerResponse').textContent = 'Error: ' + error.message;
+            }
+        });
+
+        // Login form
+        document.getElementById('loginForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(e.target);
+            const data = Object.fromEntries(formData);
+            
+            try {
+                const response = await fetch(`${API_URL}/api/auth/login`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+                
+                const result = await response.json();
+                const responseDiv = document.getElementById('loginResponse');
+                responseDiv.style.display = 'block';
+                responseDiv.className = response.ok ? 'response success' : 'response error';
+                responseDiv.textContent = JSON.stringify(result, null, 2);
+                
+                if (result.accessToken) {
+                    authToken = result.accessToken;
+                    localStorage.setItem('authToken', authToken);
+                    document.getElementById('tokenDisplay').style.display = 'block';
+                    document.getElementById('accessToken').textContent = authToken;
+                }
+            } catch (error) {
+                document.getElementById('loginResponse').style.display = 'block';
+                document.getElementById('loginResponse').className = 'response error';
+                document.getElementById('loginResponse').textContent = 'Error: ' + error.message;
+            }
+        });
+
+        // Get profile
+        async function getProfile() {
+            if (!authToken) {
+                alert('Please login first!');
+                return;
+            }
+            
+            try {
+                const response = await fetch(`${API_URL}/api/users/me`, {
+                    headers: {
+                        'Authorization': `Bearer ${authToken}`
+                    }
+                });
+                
+                const result = await response.json();
+                const responseDiv = document.getElementById('profileResponse');
+                responseDiv.style.display = 'block';
+                responseDiv.className = response.ok ? 'response success' : 'response error';
+                responseDiv.textContent = JSON.stringify(result, null, 2);
+            } catch (error) {
+                document.getElementById('profileResponse').style.display = 'block';
+                document.getElementById('profileResponse').className = 'response error';
+                document.getElementById('profileResponse').textContent = 'Error: ' + error.message;
+            }
+        }
+
+        // Test endpoint
+        async function testEndpoint(path, method = 'GET', body = null, requireAuth = false) {
+            try {
+                const options = {
+                    method,
+                    headers: {}
+                };
+                
+                if (requireAuth && authToken) {
+                    options.headers['Authorization'] = `Bearer ${authToken}`;
+                }
+                
+                if (body) {
+                    options.headers['Content-Type'] = 'application/json';
+                    options.body = JSON.stringify(body);
+                }
+                
+                const response = await fetch(`${API_URL}${path}`, options);
+                const result = await response.json();
+                
+                const responseDiv = document.getElementById('testResponse');
+                responseDiv.style.display = 'block';
+                responseDiv.className = response.ok ? 'response success' : 'response error';
+                responseDiv.textContent = JSON.stringify(result, null, 2);
+            } catch (error) {
+                document.getElementById('testResponse').style.display = 'block';
+                document.getElementById('testResponse').className = 'response error';
+                document.getElementById('testResponse').textContent = 'Error: ' + error.message;
+            }
+        }
+
+        // Logout
+        async function logout() {
+            if (authToken) {
+                await testEndpoint('/api/auth/logout', 'POST', {}, true);
+                authToken = null;
+                localStorage.removeItem('authToken');
+                document.getElementById('tokenDisplay').style.display = 'none';
+                alert('Logged out successfully!');
+            } else {
+                alert('Not logged in!');
+            }
+        }
+
+        // Show token if exists
+        if (authToken) {
+            document.getElementById('tokenDisplay').style.display = 'block';
+            document.getElementById('accessToken').textContent = authToken;
+        }
+    </script>
+</body>
+</html>

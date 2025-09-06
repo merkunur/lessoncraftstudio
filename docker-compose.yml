@@ -1,0 +1,116 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:14-alpine
+    container_name: lcs-postgres
+    environment:
+      POSTGRES_USER: ${DB_USER:-lcsuser}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-lcspass123!}
+      POSTGRES_DB: ${DB_NAME:-lessoncraftstudio}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - lcs-network
+
+  # Strapi CMS
+  strapi:
+    build:
+      context: ./strapi
+      dockerfile: Dockerfile.dev
+    container_name: lcs-strapi
+    environment:
+      DATABASE_CLIENT: postgres
+      DATABASE_HOST: postgres
+      DATABASE_PORT: 5432
+      DATABASE_NAME: ${DB_NAME:-lessoncraftstudio}
+      DATABASE_USERNAME: ${DB_USER:-lcsuser}
+      DATABASE_PASSWORD: ${DB_PASSWORD:-lcspass123!}
+      JWT_SECRET: ${JWT_SECRET}
+      ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET}
+      APP_KEYS: ${APP_KEYS}
+      NODE_ENV: development
+    volumes:
+      - ./strapi:/app
+      - strapi_uploads:/app/public/uploads
+    ports:
+      - "1337:1337"
+    depends_on:
+      - postgres
+    networks:
+      - lcs-network
+
+  # Custom API
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile.dev
+    container_name: lcs-api
+    environment:
+      DATABASE_URL: postgresql://lcsuser:lcspass123!@postgres:5432/lessoncraftstudio
+      JWT_SECRET: ${JWT_SECRET}
+      STRIPE_SECRET_KEY: ${STRIPE_SECRET_KEY}
+      STRIPE_WEBHOOK_SECRET: ${STRIPE_WEBHOOK_SECRET}
+      NODE_ENV: development
+    volumes:
+      - ./api:/app
+      - /app/node_modules
+    ports:
+      - "3001:3001"
+    depends_on:
+      - postgres
+    networks:
+      - lcs-network
+
+  # Next.js Frontend
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.dev
+    container_name: lcs-frontend
+    environment:
+      NEXT_PUBLIC_STRAPI_URL: http://strapi:1337
+      STRAPI_URL: http://strapi:1337
+      NEXT_PUBLIC_API_URL: http://api:3001
+      NEXT_PUBLIC_LEGACY_APPS_URL: http://localhost:3002
+      NEXTAUTH_URL: http://localhost:3000
+      NEXTAUTH_SECRET: ${NEXTAUTH_SECRET}
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - ./frontend/web-components:/app/public/web-components
+    ports:
+      - "3000:3000"
+    depends_on:
+      - strapi
+      - api
+      - legacy-apps
+    networks:
+      - lcs-network
+
+  # Legacy Apps Server
+  legacy-apps:
+    build:
+      context: ./legacy-apps
+      dockerfile: Dockerfile
+    container_name: lcs-legacy-apps
+    environment:
+      PORT: 3002
+    volumes:
+      - ./legacy-apps:/app
+      - /app/node_modules
+    ports:
+      - "3002:3002"
+    networks:
+      - lcs-network
+
+networks:
+  lcs-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  strapi_uploads:

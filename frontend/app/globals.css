@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-inter: 'Inter', system-ui, sans-serif;
+    --font-poppins: 'Poppins', 'Inter', sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto px-4;
+    max-width: 1200px;
+  }
+  
+  .text-display {
+    @apply text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight;
+  }
+  
+  .text-h1 {
+    @apply text-3xl lg:text-4xl font-semibold;
+  }
+  
+  .text-h2 {
+    @apply text-2xl lg:text-3xl font-semibold;
+  }
+  
+  .text-h3 {
+    @apply text-xl lg:text-2xl font-medium;
+  }
+  
+  .text-body {
+    @apply text-base;
+  }
+  
+  .text-body-lg {
+    @apply text-lg;
+  }
+  
+  .text-body-sm {
+    @apply text-sm;
+  }
+}

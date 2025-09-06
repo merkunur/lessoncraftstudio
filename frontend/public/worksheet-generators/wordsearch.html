@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Search Generator</title>
+    <script src="js/translations.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
@@ -603,6 +604,30 @@
                 <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
             </div>
             <div class="panel-content">
+                <!-- Language Selection -->
+                <div class="accordion-item">
+                    <button class="accordion-button active" data-translate="wordSearch">Word Search</button>
+                    <div class="accordion-wrapper" style="display: block;">
+                        <h4>Select Language</h4>
+                        <label for="languageSelect">Language:</label>
+                        <select id="languageSelect">
+                            <option value="en">English</option>
+                            <option value="de">Deutsch (German)</option>
+                            <option value="fr">Français (French)</option>
+                            <option value="es">Español (Spanish)</option>
+                            <option value="pt">Português (Portuguese)</option>
+                            <option value="it">Italiano (Italian)</option>
+                            <option value="nl">Nederlands (Dutch)</option>
+                            <option value="sv">Svenska (Swedish)</option>
+                            <option value="da">Dansk (Danish)</option>
+                            <option value="no">Norsk (Norwegian)</option>
+                            <option value="fi">Suomi (Finnish)</option>
+                        </select>
+                        <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;">
+                            Image names and themes will be displayed in the selected language.
+                        </p>
+                    </div>
+                </div>
                 <div class="accordion-item">
                     <button class="accordion-button">Page & Scene</button>
                     <div class="accordion-wrapper">
@@ -695,7 +720,7 @@
                     <button class="accordion-button">Image Library</button>
                     <div class="accordion-wrapper">
                         <h4>Image Source for Puzzle</h4>
-                        <label for="worksheetThemeSelect">Generate from Theme:</label>
+                        <label for="worksheetThemeSelect" data-translate="theme">Theme:</label>
                         <select id="worksheetThemeSelect">
                              <option value="random_auto">-- Use Random Theme --</option>
                         </select>
@@ -772,8 +797,8 @@
                  <div class="dropdown-container">
                     <button id="generateDropdownBtn" class="action-button accent">Generate <i class="fas fa-caret-down"></i></button>
                     <div id="generateDropdownContent" class="dropdown-content">
-                        <button id="generateWorksheetBtn">Generate Worksheet</button>
-                        <button id="generateAnswerKeyBtn" disabled>Generate Answer Key</button>
+                        <button id="generateWorksheetBtn" data-translate="newWorksheet">New Worksheet</button>
+                        <button id="generateAnswerKeyBtn" disabled>Answer Key</button>
                     </div>
                 </div>
                 <div class="dropdown-container">
@@ -829,6 +854,32 @@ document.addEventListener("DOMContentLoaded", function() {
     let userSelectedImages = [];
     let lastGeneratedData = null; 
     let searchTimeout;
+    
+    // Language/locale handling
+    let currentLocale = 'en';
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('locale')) {
+        currentLocale = urlParams.get('locale');
+    }
+    
+    // Language-specific alphabets for grid generation
+    const languageAlphabets = {
+        'en': 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+        'de': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜSS',  // German with umlauts
+        'fr': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÀÂÆÇÉÈÊËÏÎÔÙÛŸ',  // French with accents
+        'es': 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚÜ',  // Spanish with ñ and accents
+        'pt': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÀÁÂÃÇÉÊÍÓÔÕÚ',  // Portuguese
+        'it': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÀÈÉÌÍÎÒÓÙÚ',  // Italian
+        'nl': 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',  // Dutch (uses standard alphabet)
+        'sv': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ',  // Swedish
+        'da': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ',  // Danish
+        'no': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ',  // Norwegian
+        'fi': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅ'   // Finnish
+    };
+    
+    function getAlphabetForLocale(locale) {
+        return languageAlphabets[locale] || languageAlphabets['en'];
+    }
 
     let worksheetCanvas, answerKeyCanvas;
     let currentCanvasConfig = { width: 612, height: 792 };
@@ -895,6 +946,9 @@ document.addEventListener("DOMContentLoaded", function() {
     const allowReverseWordsInput = getEl('allowReverseWords');
     const showWordListInput = getEl('showWordList');
 
+    // Language Settings
+    const languageSelect = getEl('languageSelect');
+    
     // Image Library
     const worksheetThemeSelect = getEl('worksheetThemeSelect');
     const themeSelect = getEl('themeSelect');
@@ -921,6 +975,21 @@ document.addEventListener("DOMContentLoaded", function() {
         setupDropdowns();
         setupTabs();
         setupEventListeners();
+        
+        // Set language selector to current locale and ensure it's visible
+        if (languageSelect) {
+            languageSelect.value = currentLocale;
+            // Ensure Language Settings accordion is expanded
+            const langAccordion = languageSelect.closest('.accordion-item');
+            if (langAccordion) {
+                const button = langAccordion.querySelector('.accordion-button');
+                const wrapper = langAccordion.querySelector('.accordion-wrapper');
+                if (button && wrapper) {
+                    button.classList.add('active');
+                    wrapper.style.display = 'block';
+                }
+            }
+        }
 
         worksheetCanvas = initializeCanvas(worksheetCanvasElement);
         answerKeyCanvas = initializeCanvas(answerKeyCanvasElement);
@@ -1006,6 +1075,47 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function setupEventListeners() {
+        // Language Settings
+        languageSelect.addEventListener('change', async () => {
+            const oldLocale = currentLocale;
+            currentLocale = languageSelect.value;
+            
+            // Clear all cached data when language changes
+            allImagesCache = {};
+            lastGeneratedData = null;
+            
+            // Update user-selected images with new translations
+            if (userSelectedImages.length > 0) {
+                const updatedImages = [];
+                for (const img of userSelectedImages) {
+                    // Extract theme from path
+                    const pathParts = img.path.split('/');
+                    const theme = pathParts[2]; // /images/theme/filename
+                    
+                    // Fetch updated image data with new locale
+                    try {
+                        const response = await fetch(`/api/multilingual-images?theme=${theme}&locale=${currentLocale}`);
+                        if (response.ok) {
+                            const themeImages = await response.json();
+                            const updatedImg = themeImages.find(i => i.path === img.path);
+                            if (updatedImg) {
+                                updatedImages.push(updatedImg);
+                            }
+                        }
+                    } catch (error) {
+                        console.error('Error updating image translation:', error);
+                    }
+                }
+                userSelectedImages = updatedImages;
+            }
+            
+            // Reload themes and images with new locale
+            loadThemes();
+            renderDictionary();
+            // Update UI translations
+            translatePage();
+        });
+        
         // Page & Scene
         pageSizeSelect.addEventListener('change', handlePageSizeChange);
         setPageSizeBtn.addEventListener('click', applyCustomPageSize);
@@ -1275,7 +1385,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (!themeImages) {
                  try {
                     showMessage(`Loading theme '${themeName}'...`, 'info', 2000);
-                    const response = await fetch(`/api/images?theme=${encodeURIComponent(themeName)}`);
+                    const response = await fetch(`/api/multilingual-images?theme=${encodeURIComponent(themeName)}&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to load theme: ${themeName}`);
                     allImagesCache[themeName] = await response.json();
                     themeImages = allImagesCache[themeName];
@@ -1336,7 +1446,10 @@ document.addEventListener("DOMContentLoaded", function() {
             if(allowDiagonal) directions.push({dr: -1, dc: -1}, {dr: -1, dc: 1});
         }
         
-        const wordsToPlace = shuffleArray(wordsConfig.map(w => w.word.toUpperCase().replace(/[^A-Z]/g, '')));
+        // Keep only letters (including international characters) and remove spaces/punctuation
+        const wordsToPlace = shuffleArray(wordsConfig.map(w => {
+            return w.word.toUpperCase().replace(/[^A-ZÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞŸ]/gi, '');
+        }));
         let colorIndex = 0;
 
         for (const word of wordsToPlace) {
@@ -1370,7 +1483,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
         
-        const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        const alphabet = getAlphabetForLocale(currentLocale);
         for (let r = 0; r < rows; r++) {
             for (let c = 0; c < cols; c++) {
                 if (grid[r][c] === '') grid[r][c] = alphabet[Math.floor(Math.random() * alphabet.length)];
@@ -1543,28 +1656,28 @@ document.addEventListener("DOMContentLoaded", function() {
     // --- Image Library Handlers ---
     async function loadThemes() {
         try {
-            const response = await fetch('/api/themes/nested');
+            const response = await fetch(`/api/themes?locale=${currentLocale}`);
             if (!response.ok) throw new Error('Failed to load themes');
-            const themePaths = await response.json();
+            const themeData = await response.json();
+            const themePaths = themeData.map(t => t.id);
 
             const allThemesOption = `<option value="all">All Themes (Randomly)</option>`;
             worksheetThemeSelect.innerHTML = `<option value="random_auto">-- Use Random Theme --</option>` + allThemesOption;
             themeSelect.innerHTML = `<option value="all">All Themes (for search)</option>`;
 
-            themePaths.forEach(path => {
-                const displayName = path.split('/').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' / ');
-                const optionHtml = `<option value="${path}">${displayName}</option>`;
+            themeData.forEach(theme => {
+                const optionHtml = `<option value="${theme.id}">${theme.name}</option>`;
                 themeSelect.innerHTML += optionHtml;
                 worksheetThemeSelect.innerHTML += optionHtml;
             });
 
             for (const path of themePaths) {
                 if (!allImagesCache[path]) {
-                    const res = await fetch(`/api/images?theme=${encodeURIComponent(path)}`);
+                    const res = await fetch(`/api/multilingual-images?theme=${encodeURIComponent(path)}&locale=${currentLocale}`);
                     if(res.ok) allImagesCache[path] = await res.json();
                 }
             }
-            const allRes = await fetch(`/api/images?search=`);
+            const allRes = await fetch(`/api/multilingual-images?theme=all&locale=${currentLocale}`);
             if (allRes.ok) allImagesCache['all'] = await allRes.json();
             
             await renderDictionary();
@@ -1589,13 +1702,13 @@ document.addEventListener("DOMContentLoaded", function() {
                     return;
                 }
                 dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-                const response = await fetch(`/api/images?search=${encodeURIComponent(query)}`);
+                const response = await fetch(`/api/multilingual-images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
                 if (!response.ok) throw new Error(`Failed to search for "${query}"`);
                 imagesToDisplay = await response.json();
             } else {
                 if (!allImagesCache[selectedTheme]) {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading theme...</p>`;
-                    const response = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}`);
+                    const response = await fetch(`/api/multilingual-images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to load theme: ${selectedTheme}`);
                     allImagesCache[selectedTheme] = await response.json();
                 }
@@ -2158,6 +2271,9 @@ async function downloadPDF(canvasToExport, fileName) {
 
     // --- Let's go! ---
     init();
+    
+    // Initialize translations after DOM is ready
+    translatePage();
 });
 </script>
 </body>

@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "themeKey": {
+    "folderName": {
       "type": "string",
       "required": true,
       "unique": true,
@@ -32,6 +32,14 @@
       "pluginOptions": {
         "i18n": {
           "localized": true
+        }
+      }
+    },
+    "translations": {
+      "type": "json",
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
         }
       }
     },

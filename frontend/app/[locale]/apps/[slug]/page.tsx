@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import WebComponentWrapper from '@/components/WebComponentWrapper';
+import AppContent from './AppContent';
 import { Button } from '@/components/ui/Button';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -368,11 +369,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
       <section className="flex-1 bg-white">
         {hasAccess ? (
           <div className="h-full">
-            <WebComponentWrapper 
-              appId={componentName}
-              sourceFile={sourceFile}
-              userTier={userTier as 'free' | 'core' | 'full'}
+            <AppContent 
+              appSlug={slug}
               locale={locale}
+              appName={appName}
             />
           </div>
         ) : (

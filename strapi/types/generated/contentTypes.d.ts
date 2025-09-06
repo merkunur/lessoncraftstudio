@@ -463,7 +463,14 @@ export interface ApiImageAssetImageAsset extends Schema.CollectionType {
         };
       }>;
     file: Attribute.Media<'images'> & Attribute.Required;
-    fileKey: Attribute.String & Attribute.Required & Attribute.Unique;
+    fileName: Attribute.String &
+      Attribute.Required &
+      Attribute.Unique &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
     isPremium: Attribute.Boolean & Attribute.DefaultTo<false>;
     locale: Attribute.String;
     localizations: Attribute.Relation<
@@ -478,6 +485,12 @@ export interface ApiImageAssetImageAsset extends Schema.CollectionType {
       'manyToMany',
       'api::image-theme.image-theme'
     >;
+    translations: Attribute.JSON &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
     updatedAt: Attribute.DateTime;
     updatedBy: Attribute.Relation<
       'api::image-asset.image-asset',
@@ -525,6 +538,14 @@ export interface ApiImageThemeImageTheme extends Schema.CollectionType {
           localized: true;
         };
       }>;
+    folderName: Attribute.String &
+      Attribute.Required &
+      Attribute.Unique &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: false;
+        };
+      }>;
     locale: Attribute.String;
     localizations: Attribute.Relation<
       'api::image-theme.image-theme',
@@ -538,15 +559,13 @@ export interface ApiImageThemeImageTheme extends Schema.CollectionType {
     >;
     publishedAt: Attribute.DateTime;
     sortOrder: Attribute.Integer & Attribute.DefaultTo<0>;
-    themeKey: Attribute.String &
-      Attribute.Required &
-      Attribute.Unique &
+    thumbnail: Attribute.Media<'images'>;
+    translations: Attribute.JSON &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
         };
       }>;
-    thumbnail: Attribute.Media<'images'>;
     updatedAt: Attribute.DateTime;
     updatedBy: Attribute.Relation<
       'api::image-theme.image-theme',

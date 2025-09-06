@@ -1,14 +1,26 @@
 # CLAUDE.md - LessonCraftStudio Implementation Guide
 
-## PROJECT STATUS: 90% Complete
+## 🚨 CRITICAL UNDERSTANDING: Image Library is the CORE
+**The entire purpose of using Strapi is to make image library management easy for non-technical admins.**
+- All 33 worksheet generators depend on the image library
+- Image file/folder names are essential for app functionality
+- Must support 11 languages with translations
+- Admin must be able to add/edit/organize images through Strapi
+- **WITHOUT THIS, THE PROJECT IS NOT COMPLETE**
+
+## PROJECT STATUS: 75% Complete (Image Library Integration Pending)
 - ✅ Infrastructure: Docker, PostgreSQL, API, Frontend working
 - ✅ Apps listing page: All 33 apps display correctly at /en/apps
 - ✅ Individual app pages: ALL WORKING! (e.g., /en/apps/image-addition)
 - ✅ Legacy HTML Apps: All 33 apps functional in iframe display
 - ✅ Web Components: ALL 33 APPS CONVERTED AND WORKING!
-- ✅ Image Library: Migration script created
-- ✅ Payments: Basic Stripe integration implemented
-- ⚠️ Strapi: Running with SQLite (PostgreSQL connection issues)
+- ❌ **CRITICAL: Image Library NOT integrated with Strapi** (25% of project)
+  - Apps currently use static images from folders
+  - No multilingual support for image names
+  - Admin cannot manage images through Strapi
+  - This is THE CORE FEATURE that needs completion
+- ✅ Payments: Basic Stripe integration structure in place
+- ⚠️ Strapi: Running with SQLite (needs image content types fixed)
 
 ## CRITICAL ISSUES TO FIX FIRST
 
@@ -91,17 +103,240 @@ class AppNameGenerator extends BaseWebComponent {
 customElements.define('lcs-app-name', AppNameGenerator);
 ```
 
-### PHASE 3: Migrate Image Library
+### PHASE 3: CRITICAL - Complete Image Library System (HIGHEST PRIORITY!)
 
-```javascript
-// Run migration script
-cd scripts
-node migrate-images.js
+#### Why This Is Critical:
+- **Image library is the HEART of the entire system** - all 33 apps depend on it
+- **File/folder names are essential** - apps scan folders as themes and use filenames
+- **Must be multilingual** - support 11 languages for global reach
+- **Must be admin-friendly** - non-tech users need to manage images easily
 
-// Images are in: frontend/public/images/
-// Themes: animals, food, transport, nature, school, sports, basics, special
-// Total: 100+ themes with thousands of images
+#### Current Image Structure:
 ```
+frontend/public/images/
+├── animals/        (cat.png, dog.png, bird.png...)
+├── food/           (apple.png, banana.png, pizza.png...)
+├── transportation/ (car.png, bus.png, plane.png...)
+├── nature/         (tree.png, flower.png, sun.png...)
+├── school/         (pencil.png, book.png, desk.png...)
+├── sports/         (ball.png, tennis.png, swimming.png...)
+└── 100+ more themes with 1000+ images total
+```
+
+#### Step-by-Step Implementation:
+
+##### Step 1: Fix Strapi Image Content Types
+```javascript
+// strapi/src/api/image-theme/content-types/image-theme/schema.json
+{
+  "attributes": {
+    "folderName": { // CRITICAL: This matches actual folder name
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "translations": { // Store all 11 language translations
+      "type": "json",
+      "required": true
+      // Format: { "en": "Animals", "de": "Tiere", "fr": "Animaux"... }
+    },
+    "parentTheme": { // For nested themes
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::image-theme.image-theme"
+    },
+    "sortOrder": {
+      "type": "integer"
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}
+
+// strapi/src/api/image-asset/content-types/image-asset/schema.json
+{
+  "attributes": {
+    "fileName": { // CRITICAL: Original filename without extension
+      "type": "string",
+      "required": true
+    },
+    "translations": { // All 11 language translations
+      "type": "json",
+      "required": true
+      // Format: { "en": "Cat", "de": "Katze", "fr": "Chat"... }
+    },
+    "file": {
+      "type": "media",
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "theme": { // Link to theme
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::image-theme.image-theme"
+    },
+    "tags": { // For search and filtering
+      "type": "json"
+    }
+  }
+}
+```
+
+##### Step 2: Create Admin-Friendly Strapi Interface
+```javascript
+// strapi/src/admin/app.js
+export default {
+  config: {
+    locales: ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'],
+  },
+  bootstrap(app) {
+    // Add custom image library manager button to admin panel
+    app.injectContentManagerComponent('editView', 'right-links', {
+      name: 'bulk-translate',
+      Component: BulkTranslateButton
+    });
+  }
+};
+```
+
+##### Step 3: Migration Script with Translations
+```javascript
+// scripts/migrate-images-with-translations.js
+const translations = {
+  // Theme translations
+  "animals": {
+    "en": "Animals",
+    "de": "Tiere",
+    "fr": "Animaux",
+    "es": "Animales",
+    "pt": "Animais",
+    "it": "Animali",
+    "nl": "Dieren",
+    "sv": "Djur",
+    "da": "Dyr",
+    "no": "Dyr",
+    "fi": "Eläimet"
+  },
+  // Image translations
+  "cat": {
+    "en": "Cat",
+    "de": "Katze",
+    "fr": "Chat",
+    "es": "Gato",
+    "pt": "Gato",
+    "it": "Gatto",
+    "nl": "Kat",
+    "sv": "Katt",
+    "da": "Kat",
+    "no": "Katt",
+    "fi": "Kissa"
+  }
+  // ... complete translation dictionary
+};
+
+async function migrateWithTranslations() {
+  // 1. Scan all folders in frontend/public/images/
+  // 2. Create theme entries with translations
+  // 3. Upload images and create asset entries with translations
+  // 4. Maintain folder/file structure relationships
+}
+```
+
+##### Step 4: Create API Endpoints for Apps
+```javascript
+// frontend/app/api/image-library/route.ts
+export async function GET(request: Request) {
+  const { searchParams } = new URL(request.url);
+  const theme = searchParams.get('theme');
+  const locale = searchParams.get('locale') || 'en';
+  
+  // Fetch from Strapi with translations
+  const response = await fetch(`${STRAPI_URL}/api/image-assets?filters[theme][folderName][$eq]=${theme}`);
+  const data = await response.json();
+  
+  // Return images with localized names
+  return NextResponse.json({
+    theme: data.theme.translations[locale],
+    images: data.images.map(img => ({
+      url: img.file.url,
+      name: img.translations[locale],
+      fileName: img.fileName
+    }))
+  });
+}
+```
+
+##### Step 5: Update Web Components to Use Dynamic Images
+```javascript
+// frontend/web-components/shared/ImageLibraryMixin.js
+export const ImageLibraryMixin = {
+  async loadThemeImages(themeName) {
+    const locale = this.getAttribute('locale') || 'en';
+    const response = await fetch(`/api/image-library?theme=${themeName}&locale=${locale}`);
+    const data = await response.json();
+    this.images = data.images;
+    this.updateImageGrid();
+  }
+};
+
+// Update each web component to use the mixin
+class WordSearchGenerator extends BaseWebComponent {
+  async connectedCallback() {
+    await this.loadThemeImages('animals'); // Load from Strapi
+    super.connectedCallback();
+  }
+}
+```
+
+##### Step 6: Admin Workflows in Strapi
+1. **Add New Theme**: Content Manager → Image Themes → Create
+   - Enter folder name (matches file system)
+   - Add translations for all 11 languages
+   - Set sort order and active status
+
+2. **Add New Images**: Content Manager → Image Assets → Create
+   - Upload image file
+   - Select theme
+   - Add translations for all 11 languages
+   - Add searchable tags
+
+3. **Bulk Operations**: Custom admin panel features
+   - Bulk translate using Google Translate API
+   - Bulk upload with CSV for translations
+   - Export/Import theme configurations
+
+##### Step 7: Maintain File System Sync
+```javascript
+// strapi/src/api/image-asset/services/image-asset.js
+module.exports = createCoreService('api::image-asset.image-asset', ({ strapi }) => ({
+  async afterCreate(event) {
+    // When image added in Strapi, also save to file system
+    const { result, params } = event;
+    const theme = await strapi.entityService.findOne('api::image-theme.image-theme', result.theme.id);
+    
+    // Save to frontend/public/images/{theme.folderName}/{fileName}
+    await saveToFileSystem(result.file, theme.folderName, result.fileName);
+  },
+  
+  async afterUpdate(event) {
+    // Sync changes to file system
+  },
+  
+  async afterDelete(event) {
+    // Remove from file system
+  }
+}));
+```
+
+#### Testing Checklist:
+- [ ] Admin can add new theme with translations
+- [ ] Admin can upload images with translations
+- [ ] Web components load images dynamically
+- [ ] Images display with correct language
+- [ ] File system stays in sync
+- [ ] Bulk operations work efficiently
 
 ### PHASE 4: Complete Authentication Flow
 

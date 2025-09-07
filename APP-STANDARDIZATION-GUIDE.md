@@ -1,13 +1,14 @@
 # App Standardization Guide - Complete Fix Patterns
 
-## ✅ Completed Apps (5/33)
+## ✅ Completed Apps (6/33)
 1. Word Search
 2. Math Worksheets  
 3. Alphabet Train
 4. Coloring Pages
 5. Image Addition
+6. Word Scramble
 
-## 🔧 Standard Fixes to Apply to Remaining 28 Apps
+## 🔧 Standard Fixes to Apply to Remaining 27 Apps
 
 ### 1. MULTILINGUAL SUPPORT (Critical)
 
@@ -370,16 +371,14 @@ For each of the remaining 28 apps:
 5. **Image Performance**: Always use lazy loading for image grids
 6. **API Locale**: Never forget &locale=${currentLocale} parameter
 
-## 🚀 Remaining Apps to Fix (28)
+## 🚀 Remaining Apps to Fix (27)
 
-### Core Bundle (7 remaining):
+### Core Bundle (5 remaining):
 - find-and-count
 - matching-app  
 - drawing-lines
 - picture-bingo
 - sudoku
-- word-scramble
-- math-worksheet
 
 ### Full Access (21 remaining):
 - big-small-app

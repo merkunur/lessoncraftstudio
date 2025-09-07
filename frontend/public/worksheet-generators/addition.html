@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Image Addition Worksheet Generator</title>
+  <script src="js/translations.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
@@ -304,6 +305,17 @@
         border-radius:3px;
         background-color: var(--app-surface-light); /* Light background for image itself */
         margin-bottom: 5px;
+        background-image: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+        background-size: 200% 100%;
+    }
+    
+    .dictionary-item img.lazy-image {
+        animation: loading 1.5s infinite;
+    }
+    
+    @keyframes loading {
+        0% { background-position: 200% 0; }
+        100% { background-position: -200% 0; }
     }
     .dictionary-item span {
         font-size: 10px; text-align: center; word-break: break-word; max-width: 50px;
@@ -586,10 +598,13 @@
     .tab-content-wrapper {
         flex-grow: 1;
         display: flex;
-        align-items: flex-start;
+        align-items: flex-end;
         justify-content: center;
         padding: 25px;
+        padding-bottom: 50px;
         overflow-y: auto;
+        min-height: 750px;
+        height: calc(100vh - 150px);
     }
 
     .tab {
@@ -747,11 +762,31 @@
       <div class="panel-content">
 
         <div class="accordion-item">
-            <button class="accordion-button active">Page Setup</button>
+            <button class="accordion-button active" data-translate="settings">Language Settings</button>
+            <div class="accordion-content active">
+                <label for="languageSelect" data-translate="language">Language:</label>
+                <select id="languageSelect">
+                    <option value="en">English</option>
+                    <option value="de">Deutsch</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="pt">Português</option>
+                    <option value="it">Italiano</option>
+                    <option value="nl">Nederlands</option>
+                    <option value="sv">Svenska</option>
+                    <option value="da">Dansk</option>
+                    <option value="no">Norsk</option>
+                    <option value="fi">Suomi</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button">Page Setup</button>
             <div class="accordion-content active">
                 <label for="pageSizeSelect">Page Size:</label>
                 <select id="pageSizeSelect">
-                    <option value="612x792">Letter Portrait (612x792)</option>
+                    <option value="765x990">Letter Portrait (765x990)</option>
                     <option value="800x1000">Default Worksheet (800x1000)</option>
                     <option value="595x842">A4 Portrait (595x842)</option>
                     <option value="842x595">A4 Landscape (842x595)</option>
@@ -999,6 +1034,13 @@
       menuOverlay.addEventListener('click', closeMenu);
 
 
+      // Language/locale handling
+      let currentLocale = 'en';
+      const urlParams = new URLSearchParams(window.location.search);
+      if (urlParams.get('locale')) {
+          currentLocale = urlParams.get('locale');
+      }
+      
       let allImages = [];
       let uploadedImages = [];
       let selectedImages = [];
@@ -1018,6 +1060,7 @@
       const showPlusSignCheckbox = document.getElementById("showPlusSign");
       const includeExerciseNumbersCheckbox = document.getElementById("includeExerciseNumbers");
       const useFriendlyBoxCheckbox = document.getElementById("useFriendlyBox");
+      const languageSelect = document.getElementById("languageSelect");
       const themeSelect = document.getElementById("themeSelect");
       const searchInput = document.getElementById("searchInput");
       const dictionaryDiv = document.getElementById("dictionary");
@@ -1049,7 +1092,7 @@
 
       let worksheetCanvas;
       let answerKeyCanvas;
-      let currentCanvasConfig = { width: 612, height: 792 };
+      let currentCanvasConfig = { width: 765, height: 990 };
 
       const pageSizeSelect = document.getElementById('pageSizeSelect');
       const customPageSizeInputsDiv = document.getElementById('customPageSizeInputs');
@@ -1097,6 +1140,32 @@
       }
       const generateDropdown = setupDropdown(generateDropdownBtn, generateDropdownContent);
       const downloadDropdown = setupDropdown(downloadDropdownBtn, downloadDropdownContent);
+
+      // Set language dropdown value
+      if (languageSelect && currentLocale) {
+          languageSelect.value = currentLocale;
+      }
+
+      // Language change handler
+      if (languageSelect) {
+          languageSelect.addEventListener('change', (e) => {
+              const newLocale = e.target.value;
+              // Clear all cached data
+              selectedImages = [];
+              uploadedImages = [];
+              allImages = [];
+              
+              // Update URL and reload
+              const url = new URL(window.location.href);
+              url.searchParams.set('locale', newLocale);
+              window.location.href = url.toString();
+          });
+      }
+
+      // Translate the page
+      if (typeof translatePage === 'function') {
+          translatePage();
+      }
 
       window.addEventListener('click', function(event) {
           if (activePopover && !activePopover.parentElement.contains(event.target)) {
@@ -1476,24 +1545,60 @@
         }
       }
 
+      // Lazy loading setup
+      function setupLazyLoading() {
+          const lazyImages = document.querySelectorAll('.lazy-image');
+          
+          if ('IntersectionObserver' in window) {
+              const imageObserver = new IntersectionObserver((entries, observer) => {
+                  entries.forEach(entry => {
+                      if (entry.isIntersecting) {
+                          const img = entry.target;
+                          img.src = img.dataset.src;
+                          img.classList.remove('lazy-image');
+                          observer.unobserve(img);
+                      }
+                  });
+              }, {
+                  rootMargin: '50px 0px',
+                  threshold: 0.01
+              });
+              
+              lazyImages.forEach(img => imageObserver.observe(img));
+          } else {
+              // Fallback for older browsers
+              lazyImages.forEach(img => {
+                  img.src = img.dataset.src;
+              });
+          }
+      }
+
       function loadThemes() {
-        fetch('/api/themes/nested')
-          .then(res => { if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`); return res.json(); })
-          .then(themePaths => {
+        if (!themeSelect || !dictionaryDiv) {
+            console.error('Elements not found:', { themeSelect, dictionaryDiv });
+            setTimeout(loadThemes, 100); // Retry if elements not ready
+            return;
+        }
+        fetch(`/api/themes-translated?locale=${currentLocale}`)
+          .then(res => { 
+            if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`); 
+            return res.json(); 
+          })
+          .then(themes => {
             themeSelect.innerHTML = '<option value="all">All Themes</option>';
-            themePaths.forEach(themePath => {
-                const displayName = themePath
-                    .split('/')
-                    .map(part => part.charAt(0).toUpperCase() + part.slice(1))
-                    .join(' / ');
+            themes.forEach(theme => {
                 const opt = document.createElement("option");
-                opt.value = themePath;
-                opt.textContent = displayName;
+                opt.value = theme.value;
+                opt.textContent = theme.displayName;
                 themeSelect.appendChild(opt);
             });
             loadDictionary();
           })
-          .catch(err => { console.error("Error loading themes:", err); showMessage("Could not load themes.", 'error'); dictionaryDiv.innerHTML = "<p class='dictionary-message'>Error loading themes.</p>"; });
+          .catch(err => { 
+            console.error("Error loading themes:", err); 
+            showMessage("Could not load themes.", 'error'); 
+            dictionaryDiv.innerHTML = "<p class='dictionary-message'>Error loading themes. Please refresh the page.</p>"; 
+          });
       }
 
       async function loadDictionary() {
@@ -1505,30 +1610,40 @@
         // If "All Themes" is selected, use the new server-side search
         if (theme === 'all') {
             if (!query) {
-                dictionaryDiv.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">Select a theme or type to search all images.</p>`;
                 allImages = []; // Clear global store
-                return;
-            }
-            // Show a "Searching..." message while waiting for the server
-            dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-            try {
-                // Fetch results from the server instead of filtering locally
-                const res = await fetch(`/api/images?search=${encodeURIComponent(query)}`);
-                if (!res.ok) throw new Error(`Failed to search for "${query}"`);
-                imagesToRender = await res.json();
-                allImages = []; // We don't store search results globally
-            } catch (err) {
-                 console.error("Error searching images:", err);
-                 showMessage(err.message, 'error');
-                 dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error during search.</p>`;
-                 allImages = [];
-                 return;
+                // Load a default theme (animals) to show some images
+                try {
+                    const res = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                    if (!res.ok) throw new Error(`Failed to load default images`);
+                    imagesToRender = await res.json();
+                    allImages = imagesToRender;
+                } catch (err) {
+                    console.error("Error loading default images:", err);
+                    return;
+                }
+            } else {
+                // Show a "Searching..." message while waiting for the server
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+                try {
+                    // Fetch results from the server instead of filtering locally
+                    const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                    if (!res.ok) throw new Error(`Failed to search for "${query}"`);
+                    imagesToRender = await res.json();
+                    allImages = []; // We don't store search results globally
+                } catch (err) {
+                     console.error("Error searching images:", err);
+                     showMessage(err.message, 'error');
+                     dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error during search.</p>`;
+                     allImages = [];
+                     return;
+                }
             }
         } else {
             // This is the logic for fetching and filtering a specific theme
             dictionaryDiv.innerHTML = `<p class='dictionary-message'>Loading images for theme: ${themeSelect.options[themeSelect.selectedIndex].text}... Please wait.</p>`;
             try {
-                const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}`);
+                const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
                 if (!res.ok) throw new Error(`Failed to load images for theme`);
                 const themeImages = await res.json();
                 allImages = themeImages; // Store for generator
@@ -1549,16 +1664,44 @@
             return;
         }
 
-        imagesToRender.sort((a, b) => a.word.localeCompare(b.word)).forEach(img => {
+        // Create a document fragment for better performance
+        const fragment = document.createDocumentFragment();
+        
+        imagesToRender.sort((a, b) => a.word.localeCompare(b.word)).forEach((img, index) => {
             const item = document.createElement("div");
             item.className = "dictionary-item";
             const isSelected = selectedImages.some(selImg => selImg.path === img.path);
             if (isSelected) item.classList.add('selected');
             
-            item.innerHTML = `<img src="${img.path}" alt="${img.word}" loading="lazy"/><span>${img.word}</span>`;
+            const imgElement = document.createElement("img");
+            
+            // Only load first 6 images immediately, defer the rest
+            if (index < 6) {
+                imgElement.src = img.path;
+            } else {
+                imgElement.dataset.src = img.path;
+                imgElement.classList.add('lazy-image');
+            }
+            
+            imgElement.alt = img.word;
+            imgElement.loading = "lazy";
+            imgElement.style.width = "60px";
+            imgElement.style.height = "60px";
+            imgElement.style.objectFit = "contain";
+            
+            const span = document.createElement("span");
+            span.textContent = img.word;
+            
+            item.appendChild(imgElement);
+            item.appendChild(span);
             item.onclick = () => toggleImageSelection(img);
-            dictionaryDiv.appendChild(item);
+            fragment.appendChild(item);
         });
+        
+        dictionaryDiv.appendChild(fragment);
+        
+        // Set up lazy loading for remaining images
+        setTimeout(() => setupLazyLoading(), 100);
       }
 
     function renderUploadedImages() {
@@ -1660,8 +1803,8 @@
 
         searchInput.value = "";
         themeSelect.value = "all";
-        pageSizeSelect.value = "612x792"; customPageSizeInputsDiv.style.display = 'none';
-        updateCanvasDisplayDimensions(612,792);
+        pageSizeSelect.value = "765x990"; customPageSizeInputsDiv.style.display = 'none';
+        updateCanvasDisplayDimensions(765,990);
         handleSelectionCleared(null, getActiveCanvas());
         showMessage("Form cleared.", "success", 2000); 
         loadDictionary();

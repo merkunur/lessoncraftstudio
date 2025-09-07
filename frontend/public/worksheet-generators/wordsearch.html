@@ -257,6 +257,17 @@
             border-radius: 3px;
             background-color: var(--app-surface-light);
             margin-bottom: 5px;
+            background-image: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background-size: 200% 100%;
+        }
+        
+        .dictionary-item img.lazy-image {
+            animation: loading 1.5s infinite;
+        }
+        
+        @keyframes loading {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
         }
         .dictionary-item span { font-size: 10px; text-align: center; max-width: 50px; color: var(--app-text-secondary-dark-theme); }
         
@@ -417,10 +428,13 @@
         .tab-content-wrapper {
             flex-grow: 1;
             display: flex;
-            align-items: flex-start;
+            align-items: flex-end;
             justify-content: center;
             padding: 25px;
+            padding-bottom: 50px;
             overflow-y: auto;
+            min-height: 750px;
+            height: calc(100vh - 150px);
         }
         .tab { display: none; width: 100%; height: 100%; }
         .tab.active { display: flex; flex-direction: column; }
@@ -634,7 +648,7 @@
                         <h4>Page Setup</h4>
                         <label for="pageSizeSelect">Page Size:</label>
                         <select id="pageSizeSelect">
-                            <option value="612x792">Letter Portrait (612x792)</option>
+                            <option value="765x990">Letter Portrait (765x990)</option>
                             <option value="792x612">Letter Landscape (792x612)</option>
                             <option value="595x842">A4 Portrait (595x842)</option>
                             <option value="842x595">A4 Landscape (842x595)</option>
@@ -865,16 +879,16 @@ document.addEventListener("DOMContentLoaded", function() {
     // Language-specific alphabets for grid generation
     const languageAlphabets = {
         'en': 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
-        'de': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜSS',  // German with umlauts
-        'fr': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÀÂÆÇÉÈÊËÏÎÔÙÛŸ',  // French with accents
-        'es': 'ABCDEFGHIJKLMNÑOPQRSTUVWXYZÁÉÍÓÚÜ',  // Spanish with ñ and accents
-        'pt': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÀÁÂÃÇÉÊÍÓÔÕÚ',  // Portuguese
-        'it': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÀÈÉÌÍÎÒÓÙÚ',  // Italian
-        'nl': 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',  // Dutch (uses standard alphabet)
-        'sv': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ',  // Swedish
-        'da': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ',  // Danish
-        'no': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ',  // Norwegian
-        'fi': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÅ'   // Finnish
+        'de': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ',  // German with umlauts
+        'fr': 'AAABCCDEEEEEFGHIIIJLLMNNOOOPQRRSSTTTUUVWXYZÀÂÉÈÊËÎÏÔÙÛÇ',  // French with weighted frequency
+        'es': 'AAABCCDEEEEEFGHIIIJLLMNNÑOOOPQRRSSTTTUUVWXYZÁÉÍÓÚ',  // Spanish with ñ and accents
+        'pt': 'AAABCCDEEEEEFGHIIIJLLMNNOOOPQRRSSTTTUUVWXYZÀÁÂÃÇÉÊÍÓÔÕÚ',  // Portuguese
+        'it': 'AAABCCDEEEEEFGHIIIJLLMNNOOOPQRRSSTTTUUVWXYZÀÈÉÌÒÙ',  // Italian
+        'nl': 'AAABCCDEEEEEFGHIIIJLLMNNOOOPQRRSSTTTUUVWXYZ',  // Dutch
+        'sv': 'AAABCCDEEEEEFGHIIIJLLMNNOOOPQRRSSTTTUUVWXYZÅÄÖ',  // Swedish
+        'da': 'AAABCCDEEEEEFGHIIIJLLMNNOOOPQRRSSTTTUUVWXYZÆØÅ',  // Danish
+        'no': 'AAABCCDEEEEEFGHIIIJLLMNNOOOPQRRSSTTTUUVWXYZÆØÅ',  // Norwegian
+        'fi': 'AAABCCDEEEEEFGHIIIJLLMNNOOOPQRRSSTTTUUVWXYZÄÖ'   // Finnish
     };
     
     function getAlphabetForLocale(locale) {
@@ -882,7 +896,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     let worksheetCanvas, answerKeyCanvas;
-    let currentCanvasConfig = { width: 612, height: 792 };
+    let currentCanvasConfig = { width: 765, height: 990 };
 
     // --- UI ELEMENT SELECTORS ---
     const getEl = (id) => document.getElementById(id);
@@ -1004,7 +1018,10 @@ document.addEventListener("DOMContentLoaded", function() {
         setupCanvasEventListeners(answerKeyCanvas);
         updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
 
-        loadThemes();
+        loadThemes().then(() => {
+            // Only render dictionary after themes are loaded
+            renderDictionary();
+        });
         loadBorderThemes();
         loadBackgroundThemes();
         renderUploadedImages();
@@ -1094,7 +1111,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     
                     // Fetch updated image data with new locale
                     try {
-                        const response = await fetch(`/api/multilingual-images?theme=${theme}&locale=${currentLocale}`);
+                        const response = await fetch(`/api/images?theme=${theme}&locale=${currentLocale}`);
                         if (response.ok) {
                             const themeImages = await response.json();
                             const updatedImg = themeImages.find(i => i.path === img.path);
@@ -1109,8 +1126,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 userSelectedImages = updatedImages;
             }
             
-            // Reload themes and images with new locale
-            loadThemes();
+            // Reload themes with new locale, then render dictionary
+            await loadThemes();
             renderDictionary();
             // Update UI translations
             translatePage();
@@ -1385,7 +1402,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (!themeImages) {
                  try {
                     showMessage(`Loading theme '${themeName}'...`, 'info', 2000);
-                    const response = await fetch(`/api/multilingual-images?theme=${encodeURIComponent(themeName)}&locale=${currentLocale}`);
+                    const response = await fetch(`/api/images?theme=${encodeURIComponent(themeName)}&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to load theme: ${themeName}`);
                     allImagesCache[themeName] = await response.json();
                     themeImages = allImagesCache[themeName];
@@ -1512,8 +1529,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 gridObjects.push(new fabric.Text(grid[r][c], {
                     left: c * cellSize + cellSize / 2,
                     top: r * cellSize + cellSize / 2,
-                    fontSize: cellSize * 0.6, fontFamily: 'Fredoka',
+                    fontSize: cellSize * 0.6, fontFamily: 'Arial, sans-serif',
                     originX: 'center', originY: 'center',
+                    fontWeight: 'bold'
                 }));
             }
         }
@@ -1530,8 +1548,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 for (let c = 0; c < cols; c++) {
                     gridObjects.push(new fabric.Text(grid[r][c], {
                         left: c * cellSize + cellSize / 2, top: r * cellSize + cellSize / 2,
-                        fontSize: cellSize * 0.6, fontFamily: 'Fredoka',
+                        fontSize: cellSize * 0.6, fontFamily: 'Arial, sans-serif',
                         originX: 'center', originY: 'center',
+                        fontWeight: 'bold',
                     }));
                 }
             }
@@ -1566,8 +1585,9 @@ document.addEventListener("DOMContentLoaded", function() {
                     }
                     if (settings.showWordList || isAnswerKey) {
                         groupObjects.push(new fabric.Textbox(wordInfo.word, {
-                            fontSize: 16, fontFamily: 'Fredoka', width: itemWidth, textAlign: 'center',
-                            originX: 'center', top: (img ? img.getScaledHeight() : 0)
+                            fontSize: 16, fontFamily: 'Arial, sans-serif', width: itemWidth, textAlign: 'center',
+                            originX: 'center', top: (img ? img.getScaledHeight() : 0),
+                            fontWeight: '500'
                         }));
                     }
                     const group = new fabric.Group(groupObjects, {
@@ -1653,34 +1673,52 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
     
+    // --- Lazy Loading Setup ---
+    function setupLazyLoading() {
+        const lazyImages = document.querySelectorAll('.lazy-image');
+        
+        if ('IntersectionObserver' in window) {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src;
+                        img.classList.remove('lazy-image');
+                        observer.unobserve(img);
+                    }
+                });
+            }, {
+                rootMargin: '50px 0px',
+                threshold: 0.01
+            });
+            
+            lazyImages.forEach(img => imageObserver.observe(img));
+        } else {
+            // Fallback for older browsers
+            lazyImages.forEach(img => {
+                img.src = img.dataset.src;
+            });
+        }
+    }
+
     // --- Image Library Handlers ---
     async function loadThemes() {
         try {
-            const response = await fetch(`/api/themes?locale=${currentLocale}`);
+            const response = await fetch(`/api/themes-translated?locale=${currentLocale}`);
             if (!response.ok) throw new Error('Failed to load themes');
             const themeData = await response.json();
-            const themePaths = themeData.map(t => t.id);
 
             const allThemesOption = `<option value="all">All Themes (Randomly)</option>`;
             worksheetThemeSelect.innerHTML = `<option value="random_auto">-- Use Random Theme --</option>` + allThemesOption;
             themeSelect.innerHTML = `<option value="all">All Themes (for search)</option>`;
 
             themeData.forEach(theme => {
-                const optionHtml = `<option value="${theme.id}">${theme.name}</option>`;
+                const optionHtml = `<option value="${theme.value}">${theme.displayName}</option>`;
                 themeSelect.innerHTML += optionHtml;
                 worksheetThemeSelect.innerHTML += optionHtml;
             });
 
-            for (const path of themePaths) {
-                if (!allImagesCache[path]) {
-                    const res = await fetch(`/api/multilingual-images?theme=${encodeURIComponent(path)}&locale=${currentLocale}`);
-                    if(res.ok) allImagesCache[path] = await res.json();
-                }
-            }
-            const allRes = await fetch(`/api/multilingual-images?theme=all&locale=${currentLocale}`);
-            if (allRes.ok) allImagesCache['all'] = await allRes.json();
-            
-            await renderDictionary();
+            // Don't load anything here - renderDictionary will be called separately
 
         } catch (error) {
             console.error("Error loading themes:", error);
@@ -1698,17 +1736,21 @@ document.addEventListener("DOMContentLoaded", function() {
         try {
             if (selectedTheme === 'all') {
                 if (!query) {
-                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
-                    return;
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Select a theme or type to search all images.</p>`;
+                    // Load a default theme (animals) to show some images
+                    const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                    if (!response.ok) throw new Error(`Failed to load default images`);
+                    imagesToDisplay = await response.json();
+                } else {
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+                    const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                    if (!response.ok) throw new Error(`Failed to search for "${query}"`);
+                    imagesToDisplay = await response.json();
                 }
-                dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-                const response = await fetch(`/api/multilingual-images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
-                if (!response.ok) throw new Error(`Failed to search for "${query}"`);
-                imagesToDisplay = await response.json();
             } else {
                 if (!allImagesCache[selectedTheme]) {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading theme...</p>`;
-                    const response = await fetch(`/api/multilingual-images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
+                    const response = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to load theme: ${selectedTheme}`);
                     allImagesCache[selectedTheme] = await response.json();
                 }
@@ -1727,19 +1769,50 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         dictionaryDiv.innerHTML = '';
-        imagesToDisplay.sort((a, b) => a.word.localeCompare(b.word)).forEach((img) => {
-            const item = createThumbnailItem(img);
-            dictionaryDiv.appendChild(item);
+        
+        // Create a document fragment for better performance
+        const fragment = document.createDocumentFragment();
+        
+        imagesToDisplay.sort((a, b) => a.word.localeCompare(b.word)).forEach((img, index) => {
+            const item = createThumbnailItem(img, index);
+            fragment.appendChild(item);
         });
+        
+        dictionaryDiv.appendChild(fragment);
+        
+        // Set up lazy loading for remaining images
+        setTimeout(() => setupLazyLoading(), 100);
     }
 
-    function createThumbnailItem(image) {
+    function createThumbnailItem(image, index = 0) {
         const item = document.createElement("div");
         item.className = "dictionary-item";
         if (userSelectedImages.some(i => i.path === image.path)) {
             item.classList.add('selected');
         }
-        item.innerHTML = `<img src="${image.path}" crossOrigin="anonymous" alt="${image.word}" loading="lazy"/><span>${image.word}</span>`;
+        
+        const imgElement = document.createElement("img");
+        
+        // Only load first 6 images immediately, defer the rest
+        if (index < 6) {
+            imgElement.src = image.path;
+        } else {
+            imgElement.dataset.src = image.path;
+            imgElement.classList.add('lazy-image');
+        }
+        
+        imgElement.alt = image.word;
+        imgElement.loading = "lazy";
+        imgElement.crossOrigin = "anonymous";
+        imgElement.style.width = "60px";
+        imgElement.style.height = "60px";
+        imgElement.style.objectFit = "contain";
+        
+        const span = document.createElement("span");
+        span.textContent = image.word;
+        
+        item.appendChild(imgElement);
+        item.appendChild(span);
         item.onclick = () => handleImageSelection(image);
         return item;
     }

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Word Scramble Themes</title>
+    <script src="worksheet-generators/js/translations.js"></script>
+</head>
+<body>
+    <h1>Word Scramble Theme Translation Test</h1>
+    
+    <div>
+        <label>Language: </label>
+        <select id="languageSelect">
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+            <option value="fr">Français</option>
+            <option value="es">Español</option>
+        </select>
+    </div>
+    
+    <div>
+        <label>Themes: </label>
+        <select id="themeSelect" style="width: 300px;"></select>
+    </div>
+    
+    <div id="log" style="margin-top: 20px; padding: 10px; background: #f0f0f0; font-family: monospace; white-space: pre;"></div>
+    
+    <script>
+        let currentLocale = 'en';
+        const log = document.getElementById('log');
+        const themeSelect = document.getElementById('themeSelect');
+        const languageSelect = document.getElementById('languageSelect');
+        
+        function addLog(msg) {
+            log.textContent += msg + '\n';
+        }
+        
+        async function loadThemes() {
+            try {
+                addLog(`\nLoading themes for locale: ${currentLocale}`);
+                
+                const res = await fetch(`/api/themes-translated?locale=${currentLocale}`);
+                const themes = await res.json();
+                
+                addLog(`Received ${themes.length} themes from API:`);
+                themes.slice(0, 5).forEach(theme => {
+                    addLog(`  ${theme.value} = ${theme.displayName}`);
+                });
+                
+                // Build options HTML
+                themeSelect.innerHTML = '<option value="all" data-translate="allThemes">All Themes</option>';
+                
+                // Add theme options
+                themes.forEach(theme => {
+                    const optionHtml = `<option value="${theme.value}">${theme.displayName}</option>`;
+                    themeSelect.innerHTML += optionHtml;
+                });
+                
+                addLog(`\nDropdown now has ${themeSelect.options.length} options`);
+                addLog('First 5 options in dropdown:');
+                for (let i = 0; i < Math.min(5, themeSelect.options.length); i++) {
+                    const opt = themeSelect.options[i];
+                    addLog(`  ${opt.value} = ${opt.text}`);
+                }
+                
+                // Apply translations
+                if (typeof translatePage === 'function') {
+                    addLog('\nCalling translatePage()...');
+                    translatePage();
+                    
+                    addLog('After translatePage(), first 5 options:');
+                    for (let i = 0; i < Math.min(5, themeSelect.options.length); i++) {
+                        const opt = themeSelect.options[i];
+                        addLog(`  ${opt.value} = ${opt.text}`);
+                    }
+                }
+                
+            } catch (err) {
+                addLog('ERROR: ' + err.message);
+            }
+        }
+        
+        languageSelect.addEventListener('change', function() {
+            currentLocale = this.value;
+            loadThemes();
+        });
+        
+        // Load initially
+        loadThemes();
+    </script>
+</body>
+</html>

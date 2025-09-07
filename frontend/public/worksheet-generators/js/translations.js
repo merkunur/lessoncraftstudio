@@ -23,6 +23,10 @@ const translations = {
     nature: 'Nature',
     sports: 'Sports',
     transportation: 'Transportation',
+    allThemes: 'All Themes',
+    selectTheme: 'Select Theme:',
+    searchImages: 'Search Images:',
+    searchPlaceholder: 'e.g., apple, car',
     
     // Math worksheet
     mathWorksheet: 'Math Worksheet',
@@ -80,6 +84,10 @@ const translations = {
     nature: 'Natur',
     sports: 'Sport',
     transportation: 'Verkehr',
+    allThemes: 'Alle Themen',
+    selectTheme: 'Thema wählen:',
+    searchImages: 'Bilder suchen:',
+    searchPlaceholder: 'z.B. Apfel, Auto',
     
     // Math worksheet
     mathWorksheet: 'Mathe-Arbeitsblatt',
@@ -137,6 +145,10 @@ const translations = {
     nature: 'Nature',
     sports: 'Sports',
     transportation: 'Transport',
+    allThemes: 'Tous les Thèmes',
+    selectTheme: 'Sélectionner le thème:',
+    searchImages: 'Rechercher des images:',
+    searchPlaceholder: 'ex: pomme, voiture',
     
     // Math worksheet
     mathWorksheet: 'Feuille de Maths',
@@ -194,6 +206,10 @@ const translations = {
     nature: 'Naturaleza',
     sports: 'Deportes',
     transportation: 'Transporte',
+    allThemes: 'Todos los Temas',
+    selectTheme: 'Seleccionar tema:',
+    searchImages: 'Buscar imágenes:',
+    searchPlaceholder: 'ej: manzana, coche',
     
     // Math worksheet
     mathWorksheet: 'Hoja de Matemáticas',
@@ -247,7 +263,11 @@ const translations = {
     school: 'Escola',
     nature: 'Natureza',
     sports: 'Esportes',
-    transportation: 'Transporte'
+    transportation: 'Transporte',
+    allThemes: 'Todos os Temas',
+    selectTheme: 'Selecionar tema:',
+    searchImages: 'Pesquisar imagens:',
+    searchPlaceholder: 'ex: maçã, carro'
   },
   
   it: {
@@ -269,7 +289,11 @@ const translations = {
     school: 'Scuola',
     nature: 'Natura',
     sports: 'Sport',
-    transportation: 'Trasporti'
+    transportation: 'Trasporti',
+    allThemes: 'Tutti i Temi',
+    selectTheme: 'Seleziona tema:',
+    searchImages: 'Cerca immagini:',
+    searchPlaceholder: 'es: mela, auto'
   },
   
   nl: {
@@ -291,7 +315,11 @@ const translations = {
     school: 'School',
     nature: 'Natuur',
     sports: 'Sport',
-    transportation: 'Vervoer'
+    transportation: 'Vervoer',
+    allThemes: 'Alle Thema\'s',
+    selectTheme: 'Selecteer thema:',
+    searchImages: 'Zoek afbeeldingen:',
+    searchPlaceholder: 'bijv: appel, auto'
   },
   
   sv: {
@@ -313,7 +341,11 @@ const translations = {
     school: 'Skola',
     nature: 'Natur',
     sports: 'Sport',
-    transportation: 'Transport'
+    transportation: 'Transport',
+    allThemes: 'Alla Teman',
+    selectTheme: 'Välj tema:',
+    searchImages: 'Sök bilder:',
+    searchPlaceholder: 'ex: äpple, bil'
   },
   
   da: {
@@ -335,7 +367,11 @@ const translations = {
     school: 'Skole',
     nature: 'Natur',
     sports: 'Sport',
-    transportation: 'Transport'
+    transportation: 'Transport',
+    allThemes: 'Alle Temaer',
+    selectTheme: 'Vælg tema:',
+    searchImages: 'Søg billeder:',
+    searchPlaceholder: 'fx: æble, bil'
   },
   
   no: {
@@ -357,7 +393,11 @@ const translations = {
     school: 'Skole',
     nature: 'Natur',
     sports: 'Sport',
-    transportation: 'Transport'
+    transportation: 'Transport',
+    allThemes: 'Alle Temaer',
+    selectTheme: 'Velg tema:',
+    searchImages: 'Søk bilder:',
+    searchPlaceholder: 'f.eks: eple, bil'
   },
   
   fi: {
@@ -379,7 +419,11 @@ const translations = {
     school: 'Koulu',
     nature: 'Luonto',
     sports: 'Urheilu',
-    transportation: 'Liikenne'
+    transportation: 'Liikenne',
+    allThemes: 'Kaikki Teemat',
+    selectTheme: 'Valitse teema:',
+    searchImages: 'Hae kuvia:',
+    searchPlaceholder: 'esim: omena, auto'
   }
 };
 

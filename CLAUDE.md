@@ -1,5 +1,165 @@
 # CLAUDE.md - LessonCraftStudio Implementation Guide
 
+## 🚨 CRITICAL FIX: Image Translation Support
+**PROBLEM**: Image file names stay in English even when users select another language from language settings.
+
+**SOLUTION**: Add locale parameter to all image API calls and display translated names.
+
+**Implementation Steps**:
+
+### 1. Add currentLocale Variable
+```javascript
+let currentLocale = 'en'; // Current language setting
+```
+
+### 2. Initialize Locale from URL
+```javascript
+const urlParams = new URLSearchParams(window.location.search);
+const localeParam = urlParams.get('locale');
+if (localeParam && languageSelect) {
+  languageSelect.value = localeParam;
+  currentLocale = localeParam;
+}
+```
+
+### 3. Add Locale to ALL Image API Calls
+```javascript
+// For themes
+const response = await fetch(`/api/themes/nested?locale=${currentLocale}`);
+
+// For image search
+const response = await fetch(`/api/images?search=${query}&locale=${currentLocale}`);
+
+// For theme images  
+const response = await fetch(`/api/images?theme=${theme}&locale=${currentLocale}`);
+```
+
+### 4. Display Translated Names
+```javascript
+// Use translated name if available, otherwise fall back to word
+const displayName = imgData.name || imgData.word;
+item.innerHTML = `<img src="${imgData.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
+```
+
+### 5. Reload on Language Change (if not reloading page)
+```javascript
+languageSelect.addEventListener('change', function() {
+  currentLocale = this.value;
+  applyTranslations();
+  loadThemes(); // Reload with new locale
+  if (dictThemeEl.value && dictThemeEl.value !== 'all') {
+    renderImagesAfterLoadOrSearch(); // Reload images
+  }
+});
+```
+
+**APPS FIXED**: Word Search ✅, Math Worksheets ✅
+**NEEDS FIXING**: All remaining 31 apps that display images
+
+## 🚨 CRITICAL FIX: Canvas Clipping Issue with Zoom
+**PROBLEM**: When using `canvas.setZoom()` for display scaling, elements get cut off when moved to the right or bottom edges of the canvas.
+
+**ROOT CAUSE**: The canvas wrapper has `overflow: auto` which clips the zoomed content. The canvas viewport doesn't match the zoomed dimensions.
+
+**SOLUTION** (Apply to ALL apps with zoom scaling):
+
+### 1. Fix CSS Overflow
+```css
+.canvas-container-wrapper {
+    overflow: visible;  /* Changed from auto */
+    position: relative;
+}
+
+/* Ensure Fabric.js container doesn't clip */
+.canvas-container { 
+    overflow: visible !important;
+    position: relative !important;
+}
+```
+
+### 2. Update Canvas Dimensions After Zoom
+```javascript
+function updateCanvasDisplayDimensions(width, height) {
+    // Apply zoom first
+    const finalZoom = (displayWidth / width);
+    canvas.setZoom(finalZoom);
+    
+    // Set dimensions AFTER zoom to match viewport
+    canvas.setDimensions({
+        width: displayWidth,
+        height: displayHeight
+    });
+}
+```
+
+### 3. Fix Export Functions
+```javascript
+async function getCanvasDataURL(canvasInstance) {
+    // Save current state
+    const currentZoom = canvasInstance.getZoom();
+    const currentWidth = canvasInstance.getWidth();
+    const currentHeight = canvasInstance.getHeight();
+    
+    // Reset for export
+    canvasInstance.setZoom(1);
+    canvasInstance.setDimensions({
+        width: currentCanvasConfig.width,
+        height: currentCanvasConfig.height
+    });
+    
+    let dataURL = canvasInstance.toDataURL(...);
+    
+    // Restore display state
+    canvasInstance.setZoom(currentZoom);
+    canvasInstance.setDimensions({
+        width: currentWidth,
+        height: currentHeight
+    });
+    
+    return dataURL;
+}
+```
+
+**APPS FIXED**: Word Search ✅, Image Addition ✅, Alphabet Train ✅, Coloring Pages ✅
+**NEEDS FIXING**: All remaining 29 apps that implement zoom scaling
+
+## 📐 STANDARD PAGE SIZES FOR PUBLISHING
+**CRITICAL**: All apps MUST use industry-standard page dimensions for professional publishing:
+
+### Universal Publishing Standards (in points)
+- **Letter Portrait**: 612×792 (8.5" × 11")
+- **Letter Landscape**: 792×612 (11" × 8.5")
+- **A4 Portrait**: 595×842 (210mm × 297mm)
+- **A4 Landscape**: 842×595 (297mm × 210mm)
+- **Square**: 1200×1200 (custom format)
+
+### Default Canvas Configuration
+```javascript
+let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait
+```
+
+### Page Size Options (ALL APPS MUST MATCH)
+```html
+<select id="pageSizeSelect">
+    <option value="612x792">Letter Portrait (612x792)</option>
+    <option value="792x612">Letter Landscape (792x612)</option>
+    <option value="595x842">A4 Portrait (595x842)</option>
+    <option value="842x595">A4 Landscape (842x595)</option>
+    <option value="1200x1200">Square (1200x1200)</option>
+    <option value="custom">Custom</option>
+</select>
+```
+
+**FIXED APPS**: Word Search ✅, Image Addition ✅, Coloring Pages ✅
+**NEEDS STANDARDIZATION**: Alphabet Train and remaining 29 apps
+
+### User-Selected Dimensions (Publishing/Printing)
+- **Downloads ALWAYS respect user-selected page dimensions**
+- **All presets follow industry standards for professional publishing**
+- **For publishing businesses**: Users can select exact dimensions they need
+- **Implementation**: `updateCanvasDisplayDimensions()` updates both canvas and `currentCanvasConfig`
+- **PDF/JPEG exports**: Automatically use `currentCanvasConfig.width` and `currentCanvasConfig.height`
+
 ## 🚨 CRITICAL UNDERSTANDING: Image Library is the CORE
 **The entire purpose of using Strapi is to make image library management easy for non-technical admins.**
 - All 33 worksheet generators depend on the image library
@@ -14,11 +174,12 @@
 - ✅ Individual app pages: ALL WORKING! (e.g., /en/apps/image-addition)
 - ✅ Legacy HTML Apps: All 33 apps functional in iframe display
 - ✅ Web Components: ALL 33 APPS CONVERTED AND WORKING!
-- ✅ **Multilingual Support: 2/33 apps fully multilingual (Word Search, Image Addition)**
+- ✅ **Multilingual Support: 3/33 apps fully multilingual (Word Search, Alphabet Train, Coloring Pages)**
   - Full support for 11 languages (EN, DE, FR, ES, PT, IT, NL, SV, DA, NO, FI)
   - Theme names translate correctly
   - Image names translate correctly
-  - Language-specific alphabets for Word Search
+  - Language-specific alphabets for Word Search and Alphabet Train
+  - All apps use standard canvas size (765x990)
 - ⚠️ **CRITICAL: Image Library NOT integrated with Strapi** (20% of project)
   - Apps currently use static images from folders
   - Admin cannot manage images through Strapi
@@ -33,24 +194,44 @@
 2. **Image Performance**: 300-600KB images as thumbnails = DISASTER. Use lazy loading!
 3. **ID Consistency**: HTML `id="languageSelect"` ≠ JS `getElementById("language-select")`
 
-### ✅ Completed Apps (2/33)
-- **Word Search**: Full multilingual with language-specific alphabets
-- **Image Addition**: Full multilingual with lazy loading optimization
+### ✅ Completed Apps (3/33)
+- **Word Search**: Full multilingual with language-specific alphabets, standard canvas size
+- **Alphabet Train**: Full multilingual with proper alphabet ordering for each language
+- **Coloring Pages**: Full multilingual with lazy loading, standard canvas size
 
 ### 📋 Quick Implementation Checklist
-1. Add `<script src="js/translations.js"></script>` to head
-2. Add language selector HTML (use `id="languageSelect"`)
-3. Initialize `currentLocale` BEFORE DOM elements
-4. Add language handler AFTER DOM elements defined
-5. Use `/api/themes-translated?locale=${currentLocale}` for themes
-6. Add `&locale=${currentLocale}` to all image API calls
-7. **STANDARD**: Load "animals" theme by default when "All Themes" selected with no search
-8. Implement lazy loading for images (load first 6, defer rest)
-9. Test all 11 languages
+1. **Set standard canvas size**: `currentCanvasConfig = { width: 765, height: 990 }`
+2. Add `<script src="js/translations.js"></script>` to head
+3. Add language selector HTML (use `id="languageSelect"`)
+4. Initialize `currentLocale` BEFORE DOM elements
+5. Add language handler AFTER DOM elements defined
+6. Use `/api/themes-translated?locale=${currentLocale}` for themes
+7. Add `&locale=${currentLocale}` to all image API calls
+8. **STANDARD**: Load "animals" theme by default when "All Themes" selected with no search
+9. Implement lazy loading for images (load first 10, defer rest)
+10. **FIX CANVAS CLIPPING**: Change overflow to visible, set dimensions after zoom
+11. Test all 11 languages
 
-### 🔧 Standard Canvas Size (ALL APPS)
+### 🔧 Canvas Size Implementation
 ```javascript
+// Default size on load
 let currentCanvasConfig = { width: 765, height: 990 };
+
+// When user selects different size
+function handlePageSizeChange() {
+    const [w, h] = this.value.split('x').map(Number);
+    updateCanvasDisplayDimensions(w, h);  // Updates currentCanvasConfig
+}
+
+// Downloads automatically use current dimensions
+async function downloadPDF() {
+    const pdf = new jsPDF({ 
+        orientation: orientation, 
+        unit: 'pt', 
+        format: [currentCanvasConfig.width, currentCanvasConfig.height]  // User's selected size
+    });
+    // PDF will be exact dimensions user selected
+}
 ```
 
 ### 📚 Full Documentation

@@ -1,8 +1,9 @@
 import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { getTranslatedThemeName } from '../multilingual-images/translations';
 
-// Translation dictionary for theme names
+// Legacy translations (now using comprehensive dictionary)
 const themeTranslations: Record<string, Record<string, string>> = {
   'alphabet': {
     'en': 'Alphabet', 'de': 'Alphabet', 'fr': 'Alphabet', 'es': 'Alfabeto', 
@@ -121,9 +122,7 @@ export async function GET(request: NextRequest) {
       .filter(file => file.isDirectory() && !excludedFolders.includes(file.name))
       .map(file => ({
         value: file.name,
-        displayName: themeTranslations[file.name]?.[locale] || 
-                    themeTranslations[file.name]?.['en'] || 
-                    file.name.charAt(0).toUpperCase() + file.name.slice(1)
+        displayName: getTranslatedThemeName(file.name, locale)
       }))
       .sort((a, b) => a.displayName.localeCompare(b.displayName, locale));
     

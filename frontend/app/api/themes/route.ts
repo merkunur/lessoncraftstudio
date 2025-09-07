@@ -119,13 +119,19 @@ export async function GET(request: NextRequest) {
   try {
     const files = await fs.promises.readdir(imagesDir, { withFileTypes: true });
     
+    // Exclude special-purpose folders that aren't general image themes
     const excludedFolders = ['borders', 'backgrounds', 'drawing lines', 'template', 'alphabetsvg'];
     
     const themes = files
       .filter(file => file.isDirectory() && !excludedFolders.includes(file.name))
       .map(file => ({
         id: file.name,
+        folderName: file.name,  // Add folderName for compatibility
+        path: file.name,         // Add path for compatibility
         name: themeTranslations[file.name]?.[locale] || 
+              themeTranslations[file.name]?.['en'] || 
+              file.name.charAt(0).toUpperCase() + file.name.slice(1),
+        displayName: themeTranslations[file.name]?.[locale] || 
               themeTranslations[file.name]?.['en'] || 
               file.name.charAt(0).toUpperCase() + file.name.slice(1)
       }));

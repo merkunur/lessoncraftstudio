@@ -35,35 +35,35 @@ export default function AppContent({ appSlug, locale, appName }: AppContentProps
     'image-addition': 'addition.html',
     'alphabet-train': 'alphabet train.html',
     'coloring': 'coloring.html',
-    'math-worksheet': 'math-worksheet.html',
-    'word-scramble': 'word-scramble.html',
-    'find-and-count': 'find-and-count.html',
+    'math-worksheet': 'math worksheet.html',
+    'word-scramble': 'word scramble.html',
+    'find-and-count': 'find and count.html',
     'matching-app': 'matching.html',
     'drawing-lines': 'drawing lines.html',
     'picture-bingo': 'bingo.html',
     'sudoku': 'sudoku.html',
-    'big-small-app': 'big-small.html',
-    'chart-count-color': 'chart-count-color.html',
-    'code-addition': 'code-addition.html',
-    'draw-and-color': 'draw-and-color.html',
-    'find-objects': 'find-objects.html',
-    'grid-match': 'grid-match.html',
-    'image-crossword': 'image-crossword.html',
-    'image-cryptogram': 'image-cryptogram.html',
-    'math-puzzle': 'math-puzzle.html',
-    'missing-pieces': 'missing-pieces.html',
-    'more-less': 'more-less.html',
-    'odd-one-out': 'odd-one-out.html',
-    'pattern-train': 'pattern-train.html',
-    'pattern-worksheet': 'pattern-worksheet.html',
-    'picture-path': 'picture-path.html',
-    'picture-sort': 'picture-sort.html',
+    'big-small-app': 'big small.html',
+    'chart-count-color': 'chart count.html',
+    'code-addition': 'code addition.html',
+    'draw-and-color': 'draw and color.html',
+    'find-objects': 'find objects.html',
+    'grid-match': 'grid match.html',
+    'image-crossword': 'crossword.html',
+    'image-cryptogram': 'cryptogram.html',
+    'math-puzzle': 'math puzzle.html',
+    'missing-pieces': 'missing pieces.html',
+    'more-less': 'more less.html',
+    'odd-one-out': 'odd one out.html',
+    'pattern-train': 'pattern train.html',
+    'pattern-worksheet': 'pattern worksheet.html',
+    'picture-path': 'picture path.html',
+    'picture-sort': 'picture sort.html',
     'prepositions': 'prepositions.html',
-    'shadow-match': 'shadow-match.html',
+    'shadow-match': 'shadow match.html',
     'story-dice': 'story-dice.html',
     'subtraction': 'subtraction.html',
-    'treasure-hunt': 'treasure-hunt.html',
-    'word-guess': 'word-guess.html',
+    'treasure-hunt': 'treasure hunt.html',
+    'word-guess': 'word guess.html',
     'writing-app': 'writing.html'
   };
 
@@ -76,8 +76,8 @@ export default function AppContent({ appSlug, locale, appName }: AppContentProps
   // Get the HTML file name for the app
   const htmlFile = appFileMap[appSlug] || `${appSlug}.html`;
   
-  // Build the iframe URL with locale parameter
-  const iframeUrl = `/worksheet-generators/${htmlFile}?locale=${selectedLocale}`;
+  // Build the iframe URL with locale parameter - encode the filename to handle spaces
+  const iframeUrl = `/worksheet-generators/${encodeURIComponent(htmlFile)}?locale=${selectedLocale}`;
 
   // Check if this is the writing app (English only)
   const isWritingApp = appSlug === 'writing-app';

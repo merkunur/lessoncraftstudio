@@ -547,10 +547,17 @@
         background-color: var(--app-surface-light);
         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         border-radius: 8px;
-        overflow: auto;
+        overflow: visible;
         margin: auto;
+        position: relative;
     }
     canvas { display: block; }
+    
+    /* Ensure Fabric.js container doesn't clip content */
+    .canvas-container { 
+        overflow: visible !important;
+        position: relative !important;
+    }
 
     #exportArea { position: absolute; left: -9999px; top: 0; width: auto; height: auto;}
 
@@ -733,18 +740,18 @@
             <div class="accordion-content">
                 <label for="pageSizeSelect">Paper Size:</label>
                 <select id="pageSizeSelect">
+                    <option value="612x792" selected>Letter Portrait (612x792)</option>
                     <option value="792x612">Letter Landscape (792x612)</option>
-                    <option value="612x792">Letter Portrait (612x792)</option>
-                    <option value="842x595">A4 Landscape (842x595)</option>
                     <option value="595x842">A4 Portrait (595x842)</option>
+                    <option value="842x595">A4 Landscape (842x595)</option>
                     <option value="1200x1200">Square (1200x1200)</option>
                     <option value="custom">Custom</option>
                 </select>
                 <div id="customPageSizeInputs" style="display:none; margin-top: 8px;">
                     <label for="pageWidth">Width (px):</label>
-                    <input type="number" id="pageWidth" value="792">
+                    <input type="number" id="pageWidth" value="612">
                     <label for="pageHeight">Height (px):</label>
-                    <input type="number" id="pageHeight" value="612">
+                    <input type="number" id="pageHeight" value="792">
                 </div>
                 <button id="setPageSizeBtn" style="margin-top: 8px;">Apply Size</button>
 
@@ -1022,7 +1029,7 @@
 
     let worksheetCanvas;
     let answerKeyCanvas;
-    let currentCanvasConfig = { width: 792, height: 612 };
+    let currentCanvasConfig = { width: 612, height: 792 };
 
     const pageColorInput = document.getElementById('pageColor');
     const borderThemeSelect = document.getElementById('borderThemeSelect');
@@ -1166,6 +1173,10 @@
               customPageSizeInputsDiv.style.display = 'block';
           } else {
               customPageSizeInputsDiv.style.display = 'none';
+              // Immediately apply the selected page size
+              const [newWidth, newHeight] = selectedValue.split('x').map(Number);
+              updateCanvasDisplayDimensions(newWidth, newHeight);
+              showMessage("Page size updated.", "success", 1500);
           }
         });
 
@@ -1211,17 +1222,49 @@
     function updateCanvasDisplayDimensions(width, height) {
         currentCanvasConfig.width = width;
         currentCanvasConfig.height = height;
+        
+        // Get available space
+        const mainStyle = document.querySelector('.tab-content-wrapper');
+        const availableWidth = mainStyle ? mainStyle.clientWidth - 50 : window.innerWidth - 400;
+        const availableHeight = mainStyle ? mainStyle.clientHeight - 50 : window.innerHeight - 200;
+        
+        // Apply 25% scaling for better visibility
+        // Extra 25% for landscape orientations
+        const isLandscape = width > height;
+        const baseScale = 1.25; // Base 25% larger for all
+        const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+        const displayScale = baseScale * landscapeBonus;
+        
+        // Calculate display dimensions with scaling
+        const scaledWidth = width * displayScale;
+        const scaledHeight = height * displayScale;
+        
+        // Ensure it fits in available space
+        const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+        const displayWidth = scaledWidth * scaleRatio;
+        const displayHeight = scaledHeight * scaleRatio;
 
         [worksheetCanvas, answerKeyCanvas].forEach(c => {
             if (c) {
-                c.setWidth(width); c.setHeight(height); c.calcOffset(); c.renderAll();
+                // Apply zoom for display scaling
+                const finalZoom = (displayWidth / width);
+                c.setZoom(finalZoom);
+                
+                // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+                c.setDimensions({
+                    width: displayWidth,
+                    height: displayHeight
+                });
+                
+                c.calcOffset(); 
+                c.renderAll();
             }
         });
         
         [worksheetCanvasWrapper, answerKeyCanvasWrapper].forEach(w => {
             if(w) {
-                w.style.width = width + 'px';
-                w.style.height = height + 'px';
+                w.style.width = displayWidth + 'px';
+                w.style.height = displayHeight + 'px';
             }
         });
         pageWidthInput.value = width;
@@ -1446,8 +1489,22 @@
         if (!activeObj) { closeAllPopovers(); return; }
 
         if (type.includes('Canvas')) { // Align single object to canvas
-            if (type === 'centerHCanvas') activeObj.centerH();
-            if (type === 'centerVCanvas') activeObj.centerV();
+            // Use actual canvas dimensions, not display dimensions
+            const actualCenterX = currentCanvasConfig.width / 2;
+            const actualCenterY = currentCanvasConfig.height / 2;
+            
+            if (type === 'centerHCanvas') {
+                activeObj.set('left', actualCenterX);
+                if (activeObj.originX !== 'center') {
+                    activeObj.set('left', actualCenterX - (activeObj.width * activeObj.scaleX) / 2);
+                }
+            }
+            if (type === 'centerVCanvas') {
+                activeObj.set('top', actualCenterY);
+                if (activeObj.originY !== 'center') {
+                    activeObj.set('top', actualCenterY - (activeObj.height * activeObj.scaleY) / 2);
+                }
+            }
             activeObj.setCoords();
         } else if (activeObj.type === 'activeSelection') { // Align multiple objects
             const group = activeObj;
@@ -1581,9 +1638,9 @@
       backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme for backgrounds.</p>';
       backgroundOpacityInput.value = 1;
       
-      pageSizeSelect.value = "792x612";
+      pageSizeSelect.value = "612x792";
       customPageSizeInputsDiv.style.display = 'none';
-      updateCanvasDisplayDimensions(792, 612);
+      updateCanvasDisplayDimensions(612, 792);
 
 
       updateAssignedImagesPanel();
@@ -2042,11 +2099,23 @@
         try {
             // Part B, Step 3: Regenerate and Re-apply Transforms
             const trainBgImg = await loadImage(currentTemplatePath);
-            trainBgImg.scaleToWidth(currentCanvasConfig.width);
+            
+            // Calculate proper scaling to fit within page borders with margins
+            const pageMargin = 40; // Margin from page edges
+            const maxTrainWidth = currentCanvasConfig.width - (pageMargin * 2);
+            const maxTrainHeight = currentCanvasConfig.height - (pageMargin * 2);
+            
+            // Scale to fit within the available space
+            trainBgImg.scaleToWidth(maxTrainWidth);
+            if (trainBgImg.getScaledHeight() > maxTrainHeight) {
+                trainBgImg.scaleToHeight(maxTrainHeight);
+            }
+            
             trainBgImg.set({ left: currentCanvasConfig.width / 2, top: currentCanvasConfig.height / 2, originX: 'center', originY: 'center', selectable: true, evented: true, objectCaching: false, isTrainTemplate: true, isTrainGeneratedItem: true, originalIndex: -1 });
             
             const canvasBgTopEdge = (currentCanvasConfig.height - trainBgImg.getScaledHeight()) / 2;
-            const S_SCALE = currentCanvasConfig.width / 940;
+            const trainLeftEdge = (currentCanvasConfig.width - trainBgImg.getScaledWidth()) / 2;
+            const S_SCALE = trainBgImg.getScaledWidth() / 940; // Scale based on actual train width
             const conceptualBoxSizeForScaling = WAGON_BOX_SIZE_BASE * S_SCALE * 0.65 * 1.3 * 1.2;
             const currentClueCount = Math.max(3, Math.min(parseInt(document.getElementById('clueCount').value, 10), selectedLetters.length));
             let lettersCopyForClues = [...selectedLetters];
@@ -2061,7 +2130,7 @@
                 if (idx >= BASE_WAGON_POSITIONS.length) break;
                 const letter = selectedLetters[idx], basePos = BASE_WAGON_POSITIONS[idx], adj = EXTRA_ADJUSTMENTS[idx];
                 const finalTop = canvasBgTopEdge + ((basePos.top + adj.deltaTop) * S_SCALE);
-                const finalLeft = (basePos.left + adj.deltaLeft) * S_SCALE;
+                const finalLeft = trainLeftEdge + ((basePos.left + adj.deltaLeft) * S_SCALE);
                 if (clues.includes(letter) && letterToImage[letter]) {
                     const clueFabImg = await loadImage(letterToImage[letter].path);
                     const scaleFactor = Math.min(conceptualBoxSizeForScaling / clueFabImg.width, conceptualBoxSizeForScaling / clueFabImg.height);
@@ -2080,7 +2149,16 @@
 
             const cutoutElements = [];
             const enlargedCutBoxSize = (WAGON_BOX_SIZE_BASE * 0.6156 * S_SCALE) * 1.2;
-            const startXCut = 145 * S_SCALE, cutBoxTop_full = canvasBgTopEdge + (470 * S_SCALE), cutSpacing = 10 * S_SCALE;
+            const cutSpacing = 10 * S_SCALE;
+            
+            // Calculate cutout position to ensure it fits within page
+            const trainBottom = canvasBgTopEdge + trainBgImg.getScaledHeight();
+            const cutBoxTop_full = Math.min(trainBottom + 20, currentCanvasConfig.height - enlargedCutBoxSize - 40);
+            
+            // Center the cutout boxes horizontally
+            const totalCutoutWidth = remainingLettersForCutouts.length * enlargedCutBoxSize + (remainingLettersForCutouts.length - 1) * cutSpacing;
+            const startXCut = (currentCanvasConfig.width - totalCutoutWidth) / 2;
+            
             for (let i = 0; i < remainingLettersForCutouts.length; i++) {
                 const letter = remainingLettersForCutouts[i], assignedImgData = letterToImage[letter];
                 if (!assignedImgData) continue;
@@ -2171,11 +2249,23 @@
             
             // Part C, Step 4: Regenerate, Re-apply, and Finalize
             const trainBgImg = await loadImage(currentTemplatePath);
-            trainBgImg.scaleToWidth(currentCanvasConfig.width);
+            
+            // Calculate proper scaling to fit within page borders with margins
+            const pageMargin = 40; // Margin from page edges
+            const maxTrainWidth = currentCanvasConfig.width - (pageMargin * 2);
+            const maxTrainHeight = currentCanvasConfig.height - (pageMargin * 2);
+            
+            // Scale to fit within the available space
+            trainBgImg.scaleToWidth(maxTrainWidth);
+            if (trainBgImg.getScaledHeight() > maxTrainHeight) {
+                trainBgImg.scaleToHeight(maxTrainHeight);
+            }
+            
             trainBgImg.set({ originX: 'center', originY: 'center', left: currentCanvasConfig.width / 2, top: currentCanvasConfig.height / 2, isTrainTemplate: true, isAnswerKeyItem: true });
 
             const canvasBgTopEdge = (currentCanvasConfig.height - trainBgImg.getScaledHeight()) / 2;
-            const S_SCALE = currentCanvasConfig.width / 940;
+            const trainLeftEdge = (currentCanvasConfig.width - trainBgImg.getScaledWidth()) / 2;
+            const S_SCALE = trainBgImg.getScaledWidth() / 940; // Scale based on actual train width
             const conceptualBoxSizeForScaling = WAGON_BOX_SIZE_BASE * S_SCALE * 0.65 * 1.3 * 1.2;
             const answerKeyElements = [trainBgImg];
             
@@ -2183,7 +2273,7 @@
                 if (idx >= BASE_WAGON_POSITIONS.length || !letterToImage[letter]) return Promise.resolve();
                 const basePos = BASE_WAGON_POSITIONS[idx], adj = EXTRA_ADJUSTMENTS[idx];
                 const finalTop = canvasBgTopEdge + ((basePos.top + adj.deltaTop) * S_SCALE);
-                const finalLeft = (basePos.left + adj.deltaLeft) * S_SCALE;
+                const finalLeft = trainLeftEdge + ((basePos.left + adj.deltaLeft) * S_SCALE);
 
                 return loadImage(letterToImage[letter].path).then(img => {
                     const scaleFactor = Math.min(conceptualBoxSizeForScaling / img.width, conceptualBoxSizeForScaling / img.height);
@@ -2265,7 +2355,28 @@
 
     async function getFabricCanvasDataURLWithOptions(canvasInstance, exportOpts) {
         canvasInstance.discardActiveObject().renderAll();
+        
+        // Save current state
+        const currentZoom = canvasInstance.getZoom();
+        const currentWidth = canvasInstance.getWidth();
+        const currentHeight = canvasInstance.getHeight();
+        
+        // Reset to actual dimensions for export
+        canvasInstance.setZoom(1);
+        canvasInstance.setDimensions({
+            width: currentCanvasConfig.width,
+            height: currentCanvasConfig.height
+        });
+        
         let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 1.0, multiplier: exportOpts.multiplier });
+        
+        // Restore the display state after export
+        canvasInstance.setZoom(currentZoom);
+        canvasInstance.setDimensions({
+            width: currentWidth,
+            height: currentHeight
+        });
+        
         if (exportOpts.applyPixelLevelGrayscale) {
             try { 
                 dataURL = await applyGrayscaleToDataURL(dataURL); 

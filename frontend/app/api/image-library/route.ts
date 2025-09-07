@@ -2,7 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
 
-const STRAPI_URL = process.env.NEXT_PUBLIC_STRAPI_URL || 'http://localhost:1337';
+// When running in Docker, use host.docker.internal to access host machine
+const STRAPI_URL = 'http://host.docker.internal:1337';
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
@@ -10,16 +11,19 @@ export async function GET(request: NextRequest) {
   const locale = searchParams.get('locale') || 'en';
   
   try {
-    // Fetch theme data from Strapi
-    const themeResponse = await fetch(`${STRAPI_URL}/api/image-themes?filters[folderName][$eq]=${theme}`);
-    const themeData = await themeResponse.json();
-    
-    if (!themeData.data || themeData.data.length === 0) {
-      return NextResponse.json({ error: 'Theme not found' }, { status: 404 });
+    // Try to fetch theme data from Strapi, but don't fail if not found
+    let themeTranslations = {};
+    try {
+      const themeResponse = await fetch(`${STRAPI_URL}/api/image-themes?filters[folderName][$eq]=${theme}`);
+      const themeData = await themeResponse.json();
+      
+      if (themeData.data && themeData.data.length > 0) {
+        const themeInfo = themeData.data[0].attributes;
+        themeTranslations = themeInfo.translations || {};
+      }
+    } catch (err) {
+      console.warn(`Could not fetch theme data from Strapi for ${theme}:`, err);
     }
-    
-    const themeInfo = themeData.data[0].attributes;
-    const themeTranslations = themeInfo.translations || {};
     
     // Get images from file system
     const imagesPath = path.join(process.cwd(), 'public', 'images', theme);
@@ -59,23 +63,21 @@ export async function GET(request: NextRequest) {
       
       const displayName = imageTranslations[locale] || imageTranslations['en'] || capitalizeWords(baseName);
       
+      // Return format compatible with Math Worksheets app
       return {
         url: `/images/${theme}/${fileName}`,
+        path: `/images/${theme}/${fileName}`, // Add path for compatibility
         fileName: baseName,
         displayName: displayName,
+        name: displayName, // Add name for compatibility
+        word: displayName, // Add word for compatibility
         translations: imageTranslations
       };
     });
     
-    return NextResponse.json({
-      theme: {
-        name: themeTranslations[locale] || themeInfo.displayName,
-        folderName: theme,
-        translations: themeTranslations
-      },
-      images: images,
-      locale: locale
-    });
+    // Return array format for compatibility with Math Worksheets app
+    // When theme is specified, return just the images array
+    return NextResponse.json(images);
   } catch (error) {
     console.error('Error fetching image library:', error);
     return NextResponse.json({ error: 'Internal server error' }, { status: 500 });

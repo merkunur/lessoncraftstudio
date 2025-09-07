@@ -1,65 +1,121 @@
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
-export async function GET() {
-  const imagesDir = path.join(process.cwd(), 'public', 'images');
+// Translation dictionary for theme names
+const themeTranslations: Record<string, Record<string, string>> = {
+  'alphabet': {
+    'en': 'Alphabet',
+    'de': 'Alphabet',
+    'fr': 'Alphabet',
+    'es': 'Alfabeto',
+    'pt': 'Alfabeto',
+    'it': 'Alfabeto',
+    'nl': 'Alfabet',
+    'sv': 'Alfabet',
+    'da': 'Alfabet',
+    'no': 'Alfabet',
+    'fi': 'Aakkoset'
+  },
+  'animals': {
+    'en': 'Animals',
+    'de': 'Tiere',
+    'fr': 'Animaux',
+    'es': 'Animales',
+    'pt': 'Animais',
+    'it': 'Animali',
+    'nl': 'Dieren',
+    'sv': 'Djur',
+    'da': 'Dyr',
+    'no': 'Dyr',
+    'fi': 'Eläimet'
+  },
+  'food': {
+    'en': 'Food',
+    'de': 'Essen',
+    'fr': 'Nourriture',
+    'es': 'Comida',
+    'pt': 'Comida',
+    'it': 'Cibo',
+    'nl': 'Eten',
+    'sv': 'Mat',
+    'da': 'Mad',
+    'no': 'Mat',
+    'fi': 'Ruoka'
+  },
+  'general': {
+    'en': 'General',
+    'de': 'Allgemein',
+    'fr': 'Général',
+    'es': 'General',
+    'pt': 'Geral',
+    'it': 'Generale',
+    'nl': 'Algemeen',
+    'sv': 'Allmän',
+    'da': 'Generel',
+    'no': 'Generell',
+    'fi': 'Yleinen'
+  }
+};
+
+export async function GET(request: NextRequest) {
+  const { searchParams } = new URL(request.url);
+  const locale = searchParams.get('locale') || 'en';
+  
+  const imagesBaseDir = path.join(process.cwd(), 'public', 'images');
+  const excludedFolders = new Set(['borders', 'backgrounds', 'drawing lines', 'template', 'alphabetsvg']);
+  const themePaths: Array<{ path: string; name: string; displayName: string; folderName: string }> = [];
+  
+  function findThemeFolders(directory: string, currentPath = '') {
+    try {
+      const files = fs.readdirSync(directory, { withFileTypes: true });
+      let hasImages = false;
+      
+      // Check if this folder contains images
+      for (const file of files) {
+        if (!file.isDirectory() && /\.(png|jpe?g|gif|svg)$/i.test(file.name)) {
+          hasImages = true;
+          break;
+        }
+      }
+      
+      // If folder has images and is not root, add it as a theme
+      if (hasImages && currentPath !== '') {
+        const pathParts = currentPath.split(path.sep);
+        const baseName = pathParts[0];
+        const displayName = themeTranslations[baseName]?.[locale] || 
+                           themeTranslations[baseName]?.['en'] || 
+                           baseName.charAt(0).toUpperCase() + baseName.slice(1);
+        
+        themePaths.push({
+          path: currentPath.replace(/\\/g, '/'),
+          name: displayName,
+          displayName: displayName,
+          folderName: currentPath.replace(/\\/g, '/')
+        });
+      }
+      
+      // Recursively check subdirectories
+      for (const file of files) {
+        if (file.isDirectory()) {
+          // Skip excluded folders at root level
+          if (currentPath === '' && excludedFolders.has(file.name)) {
+            continue;
+          }
+          const newPath = currentPath ? path.join(currentPath, file.name) : file.name;
+          findThemeFolders(path.join(directory, file.name), newPath);
+        }
+      }
+    } catch (err) {
+      console.error(`Could not read directory: ${directory}`, err);
+    }
+  }
   
   try {
-    const excludedFolders = ['borders', 'backgrounds', 'drawing lines', 'template'];
-    
-    // Recursively find all directories that contain images
-    async function findImageDirs(dir: string, relativePath: string = ''): Promise<string[]> {
-      const results: string[] = [];
-      
-      try {
-        const entries = await fs.promises.readdir(dir, { withFileTypes: true });
-        
-        // Check if this directory contains any images
-        const hasImages = entries.some(entry => 
-          !entry.isDirectory() && /\.(png|jpe?g|gif|svg)$/i.test(entry.name)
-        );
-        
-        // If it has images, add this path
-        if (hasImages && relativePath) {
-          results.push(relativePath);
-        }
-        
-        // Recursively check subdirectories
-        for (const entry of entries) {
-          if (entry.isDirectory()) {
-            const newPath = relativePath ? `${relativePath}/${entry.name}` : entry.name;
-            const subDirPath = path.join(dir, entry.name);
-            const subResults = await findImageDirs(subDirPath, newPath);
-            results.push(...subResults);
-          }
-        }
-      } catch (err) {
-        // Ignore errors reading directories
-      }
-      
-      return results;
-    }
-    
-    // Get all theme directories
-    const allThemes: string[] = [];
-    const topLevelDirs = await fs.promises.readdir(imagesDir, { withFileTypes: true });
-    
-    for (const dir of topLevelDirs) {
-      if (dir.isDirectory() && !excludedFolders.includes(dir.name)) {
-        const dirPath = path.join(imagesDir, dir.name);
-        const themes = await findImageDirs(dirPath, dir.name);
-        
-        // Also add the top-level directory if it's not already included
-        if (!themes.includes(dir.name)) {
-          allThemes.push(dir.name);
-        }
-        allThemes.push(...themes);
-      }
-    }
-    
-    return NextResponse.json(allThemes);
-  } catch (error) {
-    return NextResponse.json({ error: 'Error reading themes directory' }, { status: 500 });
+    findThemeFolders(imagesBaseDir);
+    themePaths.sort((a, b) => a.path.localeCompare(b.path));
+    return NextResponse.json(themePaths);
+  } catch (err) {
+    return NextResponse.json({ error: 'Error scanning for nested themes' }, { status: 500 });
   }
 }

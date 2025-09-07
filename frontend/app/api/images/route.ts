@@ -1,8 +1,9 @@
 import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { getTranslatedImageName } from '../multilingual-images/translations';
 
-// Translation dictionary for common words
+// Legacy translations (kept for backward compatibility, but now using comprehensive dictionary)
 const translations: Record<string, Record<string, string>> = {
   // Animals
   'cat': { 'en': 'Cat', 'de': 'Katze', 'fr': 'Chat', 'es': 'Gato', 'pt': 'Gato', 'it': 'Gatto', 'nl': 'Kat', 'sv': 'Katt', 'da': 'Kat', 'no': 'Katt', 'fi': 'Kissa' },
@@ -50,13 +51,12 @@ export async function GET(request: Request) {
             }
             await findMatchingImages(fullPath, newRelativePath);
           } else if (/\.(png|jpe?g|gif|svg)$/i.test(file.name)) {
-            const baseName = path.basename(file.name, path.extname(file.name)).toLowerCase();
-            const displayName = translations[baseName]?.[locale] || 
-                              translations[baseName]?.['en'] || 
-                              baseName.replace(/[-_]/g, ' ');
+            const baseName = path.basename(file.name, path.extname(file.name));
+            const displayName = getTranslatedImageName(baseName, locale);
             if (displayName.toLowerCase().includes(searchQuery)) {
               results.push({
                 word: displayName,
+                name: displayName,
                 path: `/images/${newRelativePath}`
               });
             }
@@ -82,12 +82,11 @@ export async function GET(request: Request) {
     const files = await fs.promises.readdir(folderPath);
     const imageFiles = files.filter(f => /\.(png|jpe?g|gif|svg)$/i.test(f));
     const images = imageFiles.map(f => {
-      const baseName = path.basename(f, path.extname(f)).toLowerCase();
-      const displayName = translations[baseName]?.[locale] || 
-                        translations[baseName]?.['en'] || 
-                        path.basename(f, path.extname(f)).replace(/[-_]/g, ' ');
+      const baseName = path.basename(f, path.extname(f));
+      const displayName = getTranslatedImageName(baseName, locale);
       return {
         word: displayName,
+        name: displayName,
         path: `/images/${theme}/${f}`
       };
     });

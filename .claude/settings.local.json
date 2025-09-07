@@ -58,7 +58,11 @@
       "Bash(git add:*)",
       "Bash(sed:*)",
       "Bash(for app in word-search coloring math-worksheet)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "Bash(git push:*)",
+      "Bash(git commit:*)",
+      "Read(//c/**)",
+      "Bash(git checkout:*)"
     ],
     "deny": [],
     "ask": []

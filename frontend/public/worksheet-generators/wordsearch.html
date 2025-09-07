@@ -443,10 +443,17 @@
             background-color: var(--app-surface-light);
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
-            overflow: auto;
+            overflow: visible;
             margin: auto;
+            position: relative;
         }
         canvas { display: block; }
+        
+        /* Ensure Fabric.js container doesn't clip content */
+        .canvas-container { 
+            overflow: visible !important;
+            position: relative !important;
+        }
         
         /* START: Contextual Toolbar CSS */
         #object-context-toolbar {
@@ -648,7 +655,7 @@
                         <h4>Page Setup</h4>
                         <label for="pageSizeSelect">Page Size:</label>
                         <select id="pageSizeSelect">
-                            <option value="765x990">Letter Portrait (765x990)</option>
+                            <option value="612x792">Letter Portrait (612x792)</option>
                             <option value="792x612">Letter Landscape (792x612)</option>
                             <option value="595x842">A4 Portrait (595x842)</option>
                             <option value="842x595">A4 Landscape (842x595)</option>
@@ -896,7 +903,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     let worksheetCanvas, answerKeyCanvas;
-    let currentCanvasConfig = { width: 765, height: 990 };
+    let currentCanvasConfig = { width: 612, height: 792 };
 
     // --- UI ELEMENT SELECTORS ---
     const getEl = (id) => document.getElementById(id);
@@ -1111,7 +1118,11 @@ document.addEventListener("DOMContentLoaded", function() {
                     
                     // Fetch updated image data with new locale
                     try {
-                        const response = await fetch(`/api/images?theme=${theme}&locale=${currentLocale}`);
+                        // Refresh with new locale
+                        let response = await fetch(`/api/images-strapi?theme=${theme}&locale=${currentLocale}`);
+                        if (!response.ok) {
+                            response = await fetch(`/api/images?theme=${theme}&locale=${currentLocale}`);
+                        }
                         if (response.ok) {
                             const themeImages = await response.json();
                             const updatedImg = themeImages.find(i => i.path === img.path);
@@ -1237,14 +1248,33 @@ document.addEventListener("DOMContentLoaded", function() {
         const availableWidth = mainStyle.clientWidth - 50; 
         const availableHeight = mainStyle.clientHeight - 50;
         
-        const scaleRatio = Math.min(availableWidth / width, availableHeight / height, 1);
-        const displayWidth = width * scaleRatio;
-        const displayHeight = height * scaleRatio;
+        // Apply 25% scaling for better visibility
+        // Extra 25% for landscape orientations
+        const isLandscape = width > height;
+        const baseScale = 1.25; // Base 25% larger for all
+        const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+        const displayScale = baseScale * landscapeBonus;
+        
+        // Calculate display dimensions with scaling
+        const scaledWidth = width * displayScale;
+        const scaledHeight = height * displayScale;
+        
+        // Ensure it fits in available space
+        const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+        const displayWidth = scaledWidth * scaleRatio;
+        const displayHeight = scaledHeight * scaleRatio;
 
         [worksheetCanvas, answerKeyCanvas].forEach(c => {
             if (c) {
-                c.setWidth(width);
-                c.setHeight(height);
+                // Apply zoom for display scaling
+                const finalZoom = (displayWidth / width);
+                c.setZoom(finalZoom);
+                
+                // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+                c.setDimensions({
+                    width: displayWidth,
+                    height: displayHeight
+                });
 
                 const border = c.getObjects().find(o => o.isBorder);
                 const background = c.getObjects().find(o => o.isBackground);
@@ -1402,7 +1432,11 @@ document.addEventListener("DOMContentLoaded", function() {
             if (!themeImages) {
                  try {
                     showMessage(`Loading theme '${themeName}'...`, 'info', 2000);
-                    const response = await fetch(`/api/images?theme=${encodeURIComponent(themeName)}&locale=${currentLocale}`);
+                    // Load theme with translations
+                    let response = await fetch(`/api/images-strapi?theme=${encodeURIComponent(themeName)}&locale=${currentLocale}`);
+                    if (!response.ok) {
+                        response = await fetch(`/api/images?theme=${encodeURIComponent(themeName)}&locale=${currentLocale}`);
+                    }
                     if (!response.ok) throw new Error(`Failed to load theme: ${themeName}`);
                     allImagesCache[themeName] = await response.json();
                     themeImages = allImagesCache[themeName];
@@ -1704,7 +1738,11 @@ document.addEventListener("DOMContentLoaded", function() {
     // --- Image Library Handlers ---
     async function loadThemes() {
         try {
-            const response = await fetch(`/api/themes-translated?locale=${currentLocale}`);
+            // Try Strapi API first, fallback to filesystem
+            let response = await fetch(`/api/themes-strapi?locale=${currentLocale}`);
+            if (!response.ok) {
+                response = await fetch(`/api/themes-translated?locale=${currentLocale}`);
+            }
             if (!response.ok) throw new Error('Failed to load themes');
             const themeData = await response.json();
 
@@ -1738,19 +1776,31 @@ document.addEventListener("DOMContentLoaded", function() {
                 if (!query) {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Select a theme or type to search all images.</p>`;
                     // Load a default theme (animals) to show some images
-                    const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                    // Load default theme
+                    let response = await fetch(`/api/images-strapi?theme=animals&locale=${currentLocale}`);
+                    if (!response.ok) {
+                        response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                    }
                     if (!response.ok) throw new Error(`Failed to load default images`);
                     imagesToDisplay = await response.json();
                 } else {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-                    const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                    // Search images
+                    let response = await fetch(`/api/images-strapi?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                    if (!response.ok) {
+                        response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                    }
                     if (!response.ok) throw new Error(`Failed to search for "${query}"`);
                     imagesToDisplay = await response.json();
                 }
             } else {
                 if (!allImagesCache[selectedTheme]) {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading theme...</p>`;
-                    const response = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
+                    // Load theme images
+                    let response = await fetch(`/api/images-strapi?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
+                    if (!response.ok) {
+                        response = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
+                    }
                     if (!response.ok) throw new Error(`Failed to load theme: ${selectedTheme}`);
                     allImagesCache[selectedTheme] = await response.json();
                 }
@@ -2084,7 +2134,27 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // --- Download Handlers ---
     async function getCanvasDataURLWithOptions(canvasInstance, exportOpts) {
+        // Save current state
+        const currentZoom = canvasInstance.getZoom();
+        const currentWidth = canvasInstance.getWidth();
+        const currentHeight = canvasInstance.getHeight();
+        
+        // Reset to actual dimensions for export
+        canvasInstance.setZoom(1);
+        canvasInstance.setDimensions({
+            width: currentCanvasConfig.width,
+            height: currentCanvasConfig.height
+        });
+        
         let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 1.0, multiplier: exportOpts.multiplier });
+        
+        // Restore the display state after export
+        canvasInstance.setZoom(currentZoom);
+        canvasInstance.setDimensions({
+            width: currentWidth,
+            height: currentHeight
+        });
+        
         if (exportOpts.applyGrayscale) {
             try { dataURL = await applyGrayscaleToDataURL(dataURL); }
             catch (error) { console.error("Grayscale failed:", error); }
@@ -2322,8 +2392,23 @@ async function downloadPDF(canvasToExport, fileName) {
         if (!activeObj) { closeAllPopovers(); return; }
 
         if (type.includes('Canvas')) {
-            if (type === 'centerHCanvas') activeObj.centerH();
-            if (type === 'centerVCanvas') activeObj.centerV();
+            // Use actual canvas dimensions, not display dimensions
+            const zoom = canvas.getZoom();
+            const actualCenterX = currentCanvasConfig.width / 2;
+            const actualCenterY = currentCanvasConfig.height / 2;
+            
+            if (type === 'centerHCanvas') {
+                activeObj.set('left', actualCenterX);
+                if (activeObj.originX !== 'center') {
+                    activeObj.set('left', actualCenterX - (activeObj.width * activeObj.scaleX) / 2);
+                }
+            }
+            if (type === 'centerVCanvas') {
+                activeObj.set('top', actualCenterY);
+                if (activeObj.originY !== 'center') {
+                    activeObj.set('top', actualCenterY - (activeObj.height * activeObj.scaleY) / 2);
+                }
+            }
             activeObj.setCoords();
         } else if (activeObj.type === 'activeSelection') {
             const group = activeObj;

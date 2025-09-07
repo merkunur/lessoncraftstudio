@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>Coloring Page Designer</title>
+    <script src="js/translations.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
@@ -149,9 +150,33 @@
 
         /* Main Content Area */
         .main { flex-grow: 1; display: flex; flex-direction: column; position: relative; overflow: hidden; padding: 0; background-color: var(--app-bg-light); }
-        .tab-content-wrapper { flex-grow: 1; display: flex; align-items: center; justify-content: center; padding: 25px; overflow-y: auto; }
-        .canvas-container-wrapper { border: none; background-color: var(--app-surface-light); box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-radius: 8px; overflow: auto; margin: auto; }
+        .tab-content-wrapper { 
+            flex-grow: 1; 
+            display: flex; 
+            align-items: flex-end; 
+            justify-content: center; 
+            padding: 25px;
+            padding-bottom: 50px;
+            overflow-y: auto;
+            min-height: 750px;
+            height: calc(100vh - 150px);
+        }
+        .canvas-container-wrapper { 
+            border: none; 
+            background-color: var(--app-surface-light); 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+            border-radius: 8px; 
+            overflow: visible; 
+            margin: auto;
+            position: relative;
+        }
         canvas { display: block; }
+        
+        /* Ensure Fabric.js container doesn't clip content */
+        .canvas-container { 
+            overflow: visible !important;
+            position: relative !important;
+        }
 
         /* Responsive Controls */
         .menu-toggle-btn {
@@ -335,16 +360,35 @@
       <div class="panel-content">
 
         <div class="accordion-item">
-            <button class="accordion-button active">Page Setup</button>
+            <button class="accordion-button active" data-translate="settings">Language Settings</button>
             <div class="accordion-content active">
+                <label for="languageSelect" data-translate="language">Language:</label>
+                <select id="languageSelect">
+                    <option value="en">English</option>
+                    <option value="de">Deutsch</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="pt">Português</option>
+                    <option value="it">Italiano</option>
+                    <option value="nl">Nederlands</option>
+                    <option value="sv">Svenska</option>
+                    <option value="da">Dansk</option>
+                    <option value="no">Norsk</option>
+                    <option value="fi">Suomi</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <button class="accordion-button">Page Setup</button>
+            <div class="accordion-content">
                 <h4>Page Dimensions</h4>
                 <label for="pageSizeSelect">Page Size:</label>
                 <select id="pageSizeSelect">
-                    <option value="800x1000">Default (800x1000)</option>
-                    <option value="595x842">A4 Portrait (595x842)</option>
-                    <option value="842x595">A4 Landscape (842x595)</option>
                     <option value="612x792" selected>Letter Portrait (612x792)</option>
                     <option value="792x612">Letter Landscape (792x612)</option>
+                    <option value="595x842">A4 Portrait (595x842)</option>
+                    <option value="842x595">A4 Landscape (842x595)</option>
                     <option value="1200x1200">Square (1200x1200)</option>
                     <option value="custom">Custom</option>
                 </select>
@@ -491,6 +535,13 @@ document.addEventListener("DOMContentLoaded", function() {
     let uploadedImages = [];
     let currentCanvasConfig = { width: 612, height: 792 };
     const downloadMultiplier = 6;
+    
+    // Language/locale handling
+    let currentLocale = 'en';
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('locale')) {
+        currentLocale = urlParams.get('locale');
+    }
     let canvas;
     let activeDropdown = null;
 
@@ -500,6 +551,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const menuCloseBtn = document.getElementById('menuCloseBtn');
     const menuOverlay = document.getElementById('menuOverlay');
     const messageDiv = document.getElementById('message');
+    const languageSelect = document.getElementById('languageSelect');
     
     // Page Setup
     const pageSizeSelect = document.getElementById('pageSizeSelect');
@@ -584,6 +636,25 @@ document.addEventListener("DOMContentLoaded", function() {
         loadThemes();
         loadBorderThemes();
         handleSelectionCleared();
+        
+        // Set language selector value and add change handler
+        if (languageSelect && currentLocale) {
+            languageSelect.value = currentLocale;
+        }
+        
+        if (languageSelect) {
+            languageSelect.addEventListener('change', (e) => {
+                const newLocale = e.target.value;
+                const url = new URL(window.location.href);
+                url.searchParams.set('locale', newLocale);
+                window.location.href = url.toString();
+            });
+        }
+        
+        // Translate the page
+        if (typeof translatePage === 'function') {
+            translatePage();
+        }
     }
 
     function setupAccordions() {
@@ -716,16 +787,47 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Page Setup
     function updateCanvasDisplayDimensions(width, height, fromLoad = false) {
+        // Store actual dimensions for downloads
         currentCanvasConfig.width = width;
         currentCanvasConfig.height = height;
-        canvas.setWidth(width);
-        canvas.setHeight(height);
+        
+        // Apply 25% scaling for better visibility
+        // Extra 25% for landscape orientations (matching Word Search behavior)
+        const isLandscape = width > height;
+        const baseScale = 1.25; // Base 25% larger for all
+        const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+        const displayScale = baseScale * landscapeBonus;
+        
+        // Calculate display dimensions with scaling
+        const scaledWidth = width * displayScale;
+        const scaledHeight = height * displayScale;
+        
+        // Get available space
         const mainStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
         const availableWidth = parseFloat(mainStyle.width) - parseFloat(mainStyle.paddingLeft) * 2;
         const availableHeight = parseFloat(mainStyle.height) - parseFloat(mainStyle.paddingTop) * 2;
-        worksheetCanvasWrapper.style.width = Math.min(width, availableWidth) + 'px';
-        worksheetCanvasWrapper.style.height = Math.min(height, availableHeight) + 'px';
+        
+        // Ensure it fits in available space
+        const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+        const displayWidth = scaledWidth * scaleRatio;
+        const displayHeight = scaledHeight * scaleRatio;
+        
+        // Apply zoom for display scaling
+        const finalZoom = (displayWidth / width);
+        canvas.setZoom(finalZoom);
+        
+        // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+        canvas.setDimensions({
+            width: displayWidth,
+            height: displayHeight
+        });
+        
+        // Apply display dimensions to wrapper
+        worksheetCanvasWrapper.style.width = displayWidth + 'px';
+        worksheetCanvasWrapper.style.height = displayHeight + 'px';
+        
         canvas.renderAll();
+        
         if (!fromLoad) {
             pageWidthInput.value = width;
             pageHeightInput.value = height;
@@ -833,15 +935,21 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function loadThemes() {
-        fetch('/api/themes/nested')
+        fetch(`/api/themes-translated?locale=${currentLocale}`)
           .then(res => res.ok ? res.json() : Promise.reject('Failed to load themes'))
           .then(themes => {
-            themeSelect.innerHTML = '<option value="all">All Themes</option>';
-            const capitalize = (s) => s.charAt(0).toUpperCase() + s.slice(1);
-            themes.forEach(themePath => {
-                const displayName = themePath.split('/').map(capitalize).join(' / ');
-                themeSelect.add(new Option(displayName, themePath));
+            themeSelect.innerHTML = '<option value="all" data-translate="allThemes">All Themes</option>';
+            themes.forEach(theme => {
+                themeSelect.add(new Option(theme.displayName, theme.value));
             });
+            // Translate the "All Themes" option if translation function exists
+            if (typeof translatePage === 'function') {
+                const allOption = themeSelect.querySelector('option[value="all"]');
+                if (allOption && window.translations && window.translations[currentLocale]) {
+                    const translatedText = window.translations[currentLocale]['allThemes'] || 'All Themes';
+                    allOption.textContent = translatedText;
+                }
+            }
             loadDictionary();
           })
           .catch(err => { console.error("Theme Error:", err); dictionaryDiv.innerHTML = "<p class='dictionary-message'>Error loading themes.</p>"; });
@@ -855,7 +963,7 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
         dictionaryDiv.innerHTML = `<p class='dictionary-message'>Loading...</p>`;
-        fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}`)
+        fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`)
             .then(res => res.ok ? res.json() : Promise.reject(`Failed to load images for theme: ${selectedTheme}`))
             .then(images => {
                 currentThemeImages = images;
@@ -879,13 +987,23 @@ document.addEventListener("DOMContentLoaded", function() {
         // If "All Themes" is selected, use the new server-side search
         if (selectedTheme === 'all') {
             if (!query) {
-                dictionaryDiv.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
-                return;
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">Select a theme or type to search all images.</p>`;
+                // Load a default theme (animals) to show some images
+                try {
+                    const res = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                    if (!res.ok) throw new Error(`Failed to load default images`);
+                    imagesToDisplay = await res.json();
+                } catch (err) {
+                    console.error("Error loading default images:", err);
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Select a theme or type to search all images.</p>`;
+                    return;
+                }
+            } else {
+                // Show a "Searching..." message while waiting for the server
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+                // Fetch results from the server instead of filtering locally
+                imagesToDisplay = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`, `Failed to search for "${query}"`);
             }
-            // Show a "Searching..." message while waiting for the server
-            dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-            // Fetch results from the server instead of filtering locally
-            imagesToDisplay = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}`, `Failed to search for "${query}"`);
         } else {
             // This is the original logic for filtering within a specific, already-loaded theme
             const source = currentThemeImages; // Assumes 'currentThemeImages' holds images for the selected theme
@@ -898,15 +1016,65 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
 
-        imagesToDisplay.sort((a, b) => a.word.localeCompare(b.word)).forEach(({ word, path, theme }) => {
+        imagesToDisplay.sort((a, b) => a.word.localeCompare(b.word)).forEach(({ word, path, theme }, index) => {
             const item = document.createElement('div');
             item.className = 'dictionary-item';
-            // The 'theme' property may not exist on search results, so we don't display it
-            item.innerHTML = `<img src="${path}" crossOrigin="anonymous" alt="${word}"/><span>${word}</span>`;
+            
+            // Create img element with lazy loading
+            const imgElement = document.createElement('img');
+            imgElement.alt = word;
+            imgElement.crossOrigin = 'anonymous';
+            
+            // Only load first 10 images immediately, lazy load the rest
+            if (index < 10) {
+                imgElement.src = path;
+            } else {
+                imgElement.dataset.src = path;
+                imgElement.classList.add('lazy-image');
+                imgElement.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="50" height="50"%3E%3Crect width="50" height="50" fill="%23f0f0f0"/%3E%3C/svg%3E';
+            }
+            
+            const spanElement = document.createElement('span');
+            spanElement.textContent = word;
+            
+            item.appendChild(imgElement);
+            item.appendChild(spanElement);
+            
             // Ensure the click handler is correctly assigned
             item.onclick = () => handleDictionaryItemClick({ word, path });
             dictionaryDiv.appendChild(item);
         });
+        
+        // Setup lazy loading after appending all items
+        setTimeout(() => setupLazyLoading(), 100);
+    }
+
+    function setupLazyLoading() {
+        const lazyImages = document.querySelectorAll('.lazy-image');
+        
+        if ('IntersectionObserver' in window) {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src;
+                        img.classList.remove('lazy-image');
+                        observer.unobserve(img);
+                    }
+                });
+            }, {
+                rootMargin: '50px 0px',
+                threshold: 0.01
+            });
+            
+            lazyImages.forEach(img => imageObserver.observe(img));
+        } else {
+            // Fallback for browsers that don't support IntersectionObserver
+            lazyImages.forEach(img => {
+                img.src = img.dataset.src;
+                img.classList.remove('lazy-image');
+            });
+        }
     }
 
     function handleImageUpload(e) {
@@ -1151,8 +1319,22 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         if (type.includes('Canvas')) { // Align single object to canvas
-            if (type === 'centerHCanvas') activeObj.centerH();
-            if (type === 'centerVCanvas') activeObj.centerV();
+            // Use actual canvas dimensions, not display dimensions
+            const actualCenterX = currentCanvasConfig.width / 2;
+            const actualCenterY = currentCanvasConfig.height / 2;
+            
+            if (type === 'centerHCanvas') {
+                activeObj.set('left', actualCenterX);
+                if (activeObj.originX !== 'center') {
+                    activeObj.set('left', actualCenterX - (activeObj.width * activeObj.scaleX) / 2);
+                }
+            }
+            if (type === 'centerVCanvas') {
+                activeObj.set('top', actualCenterY);
+                if (activeObj.originY !== 'center') {
+                    activeObj.set('top', actualCenterY - (activeObj.height * activeObj.scaleY) / 2);
+                }
+            }
             activeObj.setCoords();
         } else if (activeObj.type === 'activeSelection') { // Align multiple objects
             const group = activeObj;
@@ -1189,9 +1371,29 @@ document.addEventListener("DOMContentLoaded", function() {
 
     /* --- Download Functionality --- */
     async function getCanvasDataURL(canvasInstance, multiplier) {
+        // Save current state
+        const currentZoom = canvasInstance.getZoom();
+        const currentWidth = canvasInstance.getWidth();
+        const currentHeight = canvasInstance.getHeight();
+        
+        // Reset to actual dimensions for export
+        canvasInstance.setZoom(1);
+        canvasInstance.setDimensions({
+            width: currentCanvasConfig.width,
+            height: currentCanvasConfig.height
+        });
+        
         const grayscaleEnabled = grayscaleToggle.checked;
         const format = 'jpeg';
         let dataURL = canvasInstance.toDataURL({ format, quality: 1.0, multiplier });
+        
+        // Restore the display state after export
+        canvasInstance.setZoom(currentZoom);
+        canvasInstance.setDimensions({
+            width: currentWidth,
+            height: currentHeight
+        });
+        
         if (grayscaleEnabled) {
             try { dataURL = await applyGrayscaleToDataURL(dataURL); }
             catch (error) { console.error("Grayscale failed:", error); }
@@ -1223,10 +1425,17 @@ document.addEventListener("DOMContentLoaded", function() {
     async function downloadImageFile() {
         showMessage('Preparing JPEG... Please wait.', 'info', 0);
         try {
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvas);
+            
             const dataURL = await getCanvasDataURL(canvas, downloadMultiplier);
             const link = document.createElement('a');
             link.download = 'coloring_page.jpeg'; link.href = dataURL;
             link.click();
+            
+            // Remove watermark after export
+            removeWatermarkFromCanvas(canvas, watermarkData);
+            
             showMessage('JPEG Download Initiated!', 'success', 3000);
         } catch (error) { showMessage(`Error preparing JPEG: ${error.message}`, 'error'); }
     }
@@ -1373,12 +1582,19 @@ document.addEventListener("DOMContentLoaded", function() {
 async function downloadPDF() {
         showMessage('Preparing PDF... Please wait.', 'info', 0);
         try {
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvas);
+            
             const { jsPDF } = window.jspdf;
             const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
             const pdf = new jsPDF({ orientation, unit: 'pt', format: [currentCanvasConfig.width, currentCanvasConfig.height] });
             const imgData = await getCanvasDataURL(canvas, downloadMultiplier);
             pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
             pdf.save("coloring_page.pdf");
+            
+            // Remove watermark after export
+            removeWatermarkFromCanvas(canvas, watermarkData);
+            
             showMessage('PDF Downloaded!', 'success', 3000);
         } catch (error) { showMessage(`Error creating PDF: ${error.message}`, "error"); }
     }

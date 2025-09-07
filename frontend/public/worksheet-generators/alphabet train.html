@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Alphabet Train Worksheet App</title>
+  <script src="js/translations.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -709,8 +710,27 @@
       </div>
       <div class="panel-content">
         <div class="accordion-item">
-            <button class="accordion-button active">Page Setup</button>
+            <button class="accordion-button active" data-translate="settings">Language Settings</button>
             <div class="accordion-content active">
+                <label for="languageSelect" data-translate="language">Language:</label>
+                <select id="languageSelect">
+                    <option value="en">English</option>
+                    <option value="de">Deutsch</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="pt">Português</option>
+                    <option value="it">Italiano</option>
+                    <option value="nl">Nederlands</option>
+                    <option value="sv">Svenska</option>
+                    <option value="da">Dansk</option>
+                    <option value="no">Norsk</option>
+                    <option value="fi">Suomi</option>
+                </select>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button class="accordion-button">Page Setup</button>
+            <div class="accordion-content">
                 <label for="pageSizeSelect">Paper Size:</label>
                 <select id="pageSizeSelect">
                     <option value="792x612">Letter Landscape (792x612)</option>
@@ -958,8 +978,47 @@
     let downloadMultiplier = 6;
     let activePopover = null;
     let currentTemplatePath = '/images/background/train.png';
-
-    const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split('');
+    
+    // Language/locale handling
+    let currentLocale = 'en';
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('locale')) {
+        currentLocale = urlParams.get('locale');
+    }
+    
+    // Language-specific alphabets with proper ordering
+    // Limited to what fits on the train (11 wagons selected from available letters)
+    const languageAlphabets = {
+        'en': "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        'de': "AÄBCDEFGHIJKLMNOÖPQRSTUÜVWXYZ",  // German with umlauts in correct positions
+        'fr': "ABCDEFGHIJKLMNOPQRSTUVWXYZ",  // French uses standard alphabet
+        'es': "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ",  // Spanish with Ñ after N
+        'pt': "ABCDEFGHIJKLMNOPQRSTUVWXYZ",  // Portuguese uses standard alphabet
+        'it': "ABCDEFGHIJKLMNOPQRSTUVWXYZ",  // Italian uses standard alphabet
+        'nl': "ABCDEFGHIJKLMNOPQRSTUVWXYZ",  // Dutch uses standard alphabet
+        'sv': "ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ",  // Swedish with ÅÄÖ at end
+        'da': "ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ",  // Danish with ÆØÅ at end
+        'no': "ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ",  // Norwegian with ÆØÅ at end
+        'fi': "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖ"   // Finnish with ÄÖ at end
+    };
+    
+    function getAlphabetForLocale(locale) {
+        return languageAlphabets[locale] || languageAlphabets['en'];
+    }
+    
+    function sortLettersByAlphabet(letters, locale) {
+        const alphabetOrder = getAlphabetForLocale(locale);
+        return letters.sort((a, b) => {
+            const indexA = alphabetOrder.indexOf(a);
+            const indexB = alphabetOrder.indexOf(b);
+            // If letter not found in alphabet, put it at the end
+            if (indexA === -1) return 1;
+            if (indexB === -1) return -1;
+            return indexA - indexB;
+        });
+    }
+    
+    let alphabet = getAlphabetForLocale(currentLocale).split('');
 
     let worksheetCanvas;
     let answerKeyCanvas;
@@ -1002,6 +1061,7 @@
     const menuToggleBtn = document.getElementById('menuToggleBtn');
     const menuCloseBtn = document.getElementById('menuCloseBtn');
     const menuOverlay = document.getElementById('menuOverlay');
+    const languageSelect = document.getElementById('languageSelect');
     const textInput = document.getElementById('textInput');
     const addTextBtn = document.getElementById('addTextBtn');
     const textColorInput = document.getElementById('textColor');
@@ -1546,14 +1606,18 @@
       textInput.value = '';
     }
 
-    alphabet.forEach(letter => {
-      const btn = document.createElement('button');
-      btn.textContent = letter;
-      btn.className = 'alphabet-button';
-      btn.dataset.letter = letter;
-      btn.addEventListener('click', () => toggleLetter(letter, btn));
-      alphabetGridEl.appendChild(btn);
-    });
+    function generateAlphabetButtons() {
+      alphabetGridEl.innerHTML = '';
+      alphabet.forEach(letter => {
+        const btn = document.createElement('button');
+        btn.textContent = letter;
+        btn.className = 'alphabet-button';
+        btn.dataset.letter = letter;
+        btn.addEventListener('click', () => toggleLetter(letter, btn));
+        alphabetGridEl.appendChild(btn);
+      });
+    }
+    generateAlphabetButtons();
 
     function toggleLetter(letter, btn) {
       if (isAutoCreateMode) { showMessage("Disable 'Auto Create' to select letters manually.", "info"); return; }
@@ -1566,14 +1630,15 @@
         if (letterToImage[letter]) { delete letterToImage[letter]; }
       }
       letterCountEl.textContent = `Selected: ${selectedLetters.length}/11`;
-      if (selectedLetters.length === 11) selectedLetters.sort();
+      if (selectedLetters.length === 11) selectedLetters = sortLettersByAlphabet(selectedLetters, currentLocale);
       updateAssignedImagesPanel(); updateGenerateButtonState();
     }
 
     function updateAssignedImagesPanel() {
       assignedImagesEl.innerHTML = '';
-      let lettersForPanel = isAutoCreateMode && selectedLetters.length === 0 && Object.keys(letterToImage).length > 0 ? Object.keys(letterToImage).sort() : selectedLetters;
-      const displayOrder = lettersForPanel.length > 0 ? [...lettersForPanel].sort() : [];
+      let lettersForPanel = isAutoCreateMode && selectedLetters.length === 0 && Object.keys(letterToImage).length > 0 ? 
+          sortLettersByAlphabet(Object.keys(letterToImage), currentLocale) : selectedLetters;
+      const displayOrder = lettersForPanel.length > 0 ? sortLettersByAlphabet([...lettersForPanel], currentLocale) : [];
       displayOrder.forEach(letter => {
         const item = document.createElement('div'); item.className = 'assigned-item';
         const lbl = document.createElement('div'); lbl.textContent = letter; item.appendChild(lbl);
@@ -1613,17 +1678,13 @@
     }
     
     async function fetchThemes() {
-        const themePaths = await fetchFromApi('/api/themes/nested', 'Failed to load themes');
+        const themePaths = await fetchFromApi(`/api/themes-translated?locale=${currentLocale}`, 'Failed to load themes');
         themeSelectEl.innerHTML = '<option value="all">All Themes</option>';
         if (Array.isArray(themePaths)) {
-            themePaths.forEach(themePath => {
-                const displayName = themePath
-                    .split('/')
-                    .map(part => part.charAt(0).toUpperCase() + part.slice(1))
-                    .join(' / ');
+            themePaths.forEach(theme => {
                 const opt = document.createElement('option');
-                opt.value = themePath;
-                opt.textContent = displayName;
+                opt.value = theme.value;
+                opt.textContent = theme.displayName;
                 themeSelectEl.appendChild(opt);
             });
         }
@@ -1642,7 +1703,7 @@
             }
             // Fetch results from the server instead of filtering locally
             dictionaryEl.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-            imagesToDisplay = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}`, `Failed to search for "${query}"`);
+            imagesToDisplay = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`, `Failed to search for "${query}"`);
         } else {
             // This logic remains the same for filtering within a specific theme
             const source = currentThemeImages;
@@ -1690,7 +1751,7 @@
       if (selectedTheme !== 'all') {
         const themeName = themeSelectEl.options[themeSelectEl.selectedIndex]?.textContent;
         showMessage(`Loading for ${themeName}...`, 'info', 0);
-        currentThemeImages = await fetchFromApi(`/api/images?theme=${encodeURIComponent(selectedTheme)}`, `Failed to load images for ${themeName}`);
+        currentThemeImages = await fetchFromApi(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`, `Failed to load images for ${themeName}`);
         if(messageEl.textContent.startsWith("Loading for")) showMessage(`Loaded ${currentThemeImages.length} for ${themeName}.`, 'success', 2000);
       }
       // Re-render the dictionary with the new theme (and existing search query if any)
@@ -1817,7 +1878,7 @@
             letterToImage = {};
             assignedCount = 0;
 
-            const themeImages = await fetchFromApi(`/api/images?theme=${encodeURIComponent(autoTheme)}`, `Failed to load images for theme: ${themeSelectEl.options[themeSelectEl.selectedIndex].text}`);
+            const themeImages = await fetchFromApi(`/api/images?theme=${encodeURIComponent(autoTheme)}&locale=${currentLocale}`, `Failed to load images for theme: ${themeSelectEl.options[themeSelectEl.selectedIndex].text}`);
             const fullImageLibrary = [...themeImages, ...uploadedImages];
 
             if (fullImageLibrary.length === 0) {
@@ -1846,7 +1907,10 @@
             while (attempts < 20 && !success) {
                 selectedLetters = [];
                 letterToImage = {};
-                const potential = [...availableLetters].sort(() => 0.5 - Math.random()).slice(0, 11).sort();
+                const potential = sortLettersByAlphabet(
+                    [...availableLetters].sort(() => 0.5 - Math.random()).slice(0, 11),
+                    currentLocale
+                );
                 const usedPaths = new Set();
                 let currentLTI = {};
                 let possible = true;
@@ -2696,7 +2760,41 @@ async function downloadPDF(canvasToExport, fileName) {
         dictionaryEl.style.display = isAuto ? 'none' : 'block';
         dictionaryPreviewEl.style.display = isAuto ? 'none' : 'flex';
     }
+    // Language selector handler
+    if (languageSelect) {
+        languageSelect.value = currentLocale;
+        languageSelect.addEventListener('change', async () => {
+            currentLocale = languageSelect.value;
+            
+            // Update alphabet for new language
+            alphabet = getAlphabetForLocale(currentLocale).split('');
+            
+            // Clear selections
+            selectedLetters = [];
+            letterToImage = {};
+            assignedCount = 0;
+            
+            // Regenerate alphabet buttons
+            generateAlphabetButtons();
+            letterCountEl.textContent = 'Selected: 0/11';
+            updateAssignedImagesPanel();
+            
+            // Reload themes with new locale
+            await fetchThemes();
+            
+            // Update UI translations
+            if (typeof translatePage === 'function') {
+                translatePage();
+            }
+        });
+    }
+    
     initializeApp();
+    
+    // Translate page on load
+    if (typeof translatePage === 'function') {
+        translatePage();
+    }
   </script>
 </body>
 </html>

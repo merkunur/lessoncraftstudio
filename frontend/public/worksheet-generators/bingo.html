@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Picture Bingo Worksheet Generator</title>
+  <script src="js/translations.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
@@ -109,7 +110,8 @@
     .tab-content-wrapper { flex-grow: 1; display: flex; align-items: flex-start; justify-content: center; padding: 25px; overflow-y: auto; }
     .tab { display: none; width: 100%; height: 100%; margin: 0 auto; }
     .tab.active { display: flex; flex-direction: column; }
-    .canvas-container-wrapper { border: none; background-color: var(--app-surface-light); box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden; margin: auto; }
+    .canvas-container-wrapper { border: none; background-color: var(--app-surface-light); box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-radius: 8px; overflow: visible !important; margin: auto; position: relative; }
+    .canvas-container { overflow: visible !important; position: relative !important; }
     canvas { display: block; }
     #exportArea { position: absolute; left: -9999px; top: 0; width: auto; height: auto;}
     
@@ -143,6 +145,22 @@
       <div class="panel-header">
         <h2>Worksheet Settings</h2>
         <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
+      </div>
+      <div class="language-selector" style="padding: 10px 25px; border-bottom: 1px solid var(--app-border-dark);">
+        <label style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Language:</label>
+        <select id="languageSelect" style="width: 100%; padding: 8px 10px; font-size: 13px; border-radius: 5px; border: 1px solid var(--app-border-dark); background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); margin-top: 6px;">
+            <option value="en">English</option>
+            <option value="de">Deutsch (German)</option>
+            <option value="fr">Français (French)</option>
+            <option value="es">Español (Spanish)</option>
+            <option value="pt">Português (Portuguese)</option>
+            <option value="it">Italiano (Italian)</option>
+            <option value="nl">Nederlands (Dutch)</option>
+            <option value="sv">Svenska (Swedish)</option>
+            <option value="da">Dansk (Danish)</option>
+            <option value="no">Norsk (Norwegian)</option>
+            <option value="fi">Suomi (Finnish)</option>
+        </select>
       </div>
       <div class="panel-content">
 
@@ -351,6 +369,16 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 
   <script>
+    // MUST BE FIRST - Before ANY DOM element references
+    let currentLocale = 'en';
+    
+    // Initialize locale from URL if present
+    const urlParams = new URLSearchParams(window.location.search);
+    const localeParam = urlParams.get('locale');
+    if (localeParam) {
+        currentLocale = localeParam;
+    }
+    
     document.addEventListener("DOMContentLoaded", function() {
       // --- START: Standard UI Initialization ---
       const accordionButtons = document.querySelectorAll('.accordion-button');
@@ -365,6 +393,27 @@
           });
       });
       if (accordionButtons.length > 0) { accordionButtons[0].click(); }
+
+      // Set language selector and add handler
+      const languageSelect = document.getElementById('languageSelect');
+      if (languageSelect) {
+          languageSelect.value = currentLocale;
+          languageSelect.addEventListener('change', function() {
+              currentLocale = this.value;
+              if (typeof translatePage === 'function') {
+                  translatePage();
+              }
+              loadThemes(); // Reload themes with translations
+              if (themeSelect.value && themeSelect.value !== 'all') {
+                  loadDictionary(); // Reload images with new locale
+              }
+          });
+      }
+
+      // Apply initial translations if function exists
+      if (typeof translatePage === 'function') {
+          translatePage();
+      }
 
       const panel = document.querySelector('.panel');
       const menuToggleBtn = document.getElementById('menuToggleBtn');
@@ -412,7 +461,8 @@
 
       let worksheetCanvas;
       let calloutsCanvas;
-      let singlePageConfig = { width: 612, height: 792 };
+      let currentCanvasConfig = { width: 612, height: 792 }; // Standard Letter Portrait
+      let singlePageConfig = currentCanvasConfig; // Alias for compatibility
 
       const pageSizeSelect = document.getElementById('pageSizeSelect');
       const customPageSizeInputsDiv = document.getElementById('customPageSizeInputs');
@@ -506,31 +556,43 @@
       }
 
       function updateCanvasDisplayDimensions(width, height, fromLoad = false) {
+          currentCanvasConfig.width = width;
+          currentCanvasConfig.height = height;
           singlePageConfig.width = width;
           singlePageConfig.height = height;
 
-          const mainContentAreaStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
-          const availableWidth = parseFloat(mainContentAreaStyle.width) - parseFloat(mainContentAreaStyle.paddingLeft) - parseFloat(mainContentAreaStyle.paddingRight) - 10;
-          const availableHeight = parseFloat(mainContentAreaStyle.height) - parseFloat(mainContentAreaStyle.paddingTop) - parseFloat(mainContentAreaStyle.paddingBottom) - 10;
+          // Use the same method as Word Search - get the parent element directly
+          const mainStyle = document.getElementById('worksheetTab').parentElement;
+          const availableWidth = mainStyle.clientWidth - 50;
+          const availableHeight = mainStyle.clientHeight - 50;
           
-          let displayWidth = width;
-          let displayHeight = height;
-          const aspectRatio = width / height;
-
-          if (width > availableWidth) {
-              displayWidth = availableWidth;
-              displayHeight = displayWidth / aspectRatio;
-          }
-          if (displayHeight > availableHeight) {
-              displayHeight = availableHeight;
-              displayWidth = displayHeight * aspectRatio;
-          }
+          // Apply 25% scaling for better visibility (same as Word Search)
+          // Extra 25% for landscape orientations
+          const isLandscape = width > height;
+          const baseScale = 1.25; // Base 25% larger for all
+          const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+          const displayScale = baseScale * landscapeBonus;
+          
+          // Calculate display dimensions with scaling
+          const scaledWidth = width * displayScale;
+          const scaledHeight = height * displayScale;
+          
+          // Ensure it fits in available space
+          const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+          const displayWidth = scaledWidth * scaleRatio;
+          const displayHeight = scaledHeight * scaleRatio;
+          
+          // Apply zoom for display
+          const finalZoom = displayWidth / width;
           
           [worksheetCanvas, calloutsCanvas].forEach(c => {
             if (c) { 
-                c.setWidth(width); 
-                c.setHeight(height); 
-                c.calcOffset(); 
+                c.setZoom(finalZoom);
+                // CRITICAL: Set dimensions AFTER zoom
+                c.setDimensions({
+                    width: displayWidth,
+                    height: displayHeight
+                });
                 c.renderAll(); 
             }
           });
@@ -557,14 +619,17 @@
         
       // --- START: Standard Library/Upload/Asset Functions ---
       function loadThemes() {
-        fetch('/api/themes/nested')
+        fetch(`/api/themes-translated?locale=${currentLocale}`)
           .then(res => { if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`); return res.json(); })
           .then(themePaths => {
             themeSelect.innerHTML = '<option value="all">All Themes</option>';
-            themePaths.forEach(themePath => {
-                const displayName = themePath.split('/').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' / ');
+            themePaths.forEach(theme => {
+                // Handle both old format (string) and new format ({value, displayName})
+                const value = theme.value || theme;
+                const displayName = theme.displayName || value.split('/').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' / ');
+                
                 const opt = document.createElement("option");
-                opt.value = themePath;
+                opt.value = value;
                 opt.textContent = displayName;
                 themeSelect.appendChild(opt);
             });
@@ -580,34 +645,58 @@
 
         if (theme === 'all') {
             if (!query) {
-                dictionaryDiv.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
-                allImages = []; return;
+                // Load animals as default when "All Themes" is selected with no search
+                dictionaryDiv.innerHTML = `<p class='dictionary-message'>Loading default animals theme...</p>`;
+                try {
+                    const res = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                    if (!res.ok) throw new Error(`Failed to load default images`);
+                    const defaultData = await res.json();
+                    const defaultImages = Array.isArray(defaultData) ? defaultData : (defaultData.images || []);
+                    allImages = defaultImages;
+                    imagesToRender = defaultImages;
+                } catch (err) {
+                    console.error("Error loading default images:", err);
+                    dictionaryDiv.innerHTML = `<p class='dictionary-message'>Type to search all images.</p>`;
+                    allImages = [];
+                    return;
+                }
+            } else {
+                dictionaryDiv.innerHTML = `<p class='dictionary-message'>Searching...</p>`;
+                try {
+                    const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                    if (!res.ok) throw new Error(`Failed to search for "${query}"`);
+                    const searchData = await res.json();
+                    imagesToRender = Array.isArray(searchData) ? searchData : (searchData.images || []);
+                    allImages = [];
+                } catch (err) { console.error("Error searching images:", err); showMessage(err.message, 'error'); dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error during search.</p>`; allImages = []; return; }
             }
-            dictionaryDiv.innerHTML = `<p class='dictionary-message'>Searching...</p>`;
-            try {
-                const res = await fetch(`/api/images?search=${encodeURIComponent(query)}`);
-                if (!res.ok) throw new Error(`Failed to search for "${query}"`);
-                imagesToRender = await res.json();
-                allImages = [];
-            } catch (err) { console.error("Error searching images:", err); showMessage(err.message, 'error'); dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error during search.</p>`; allImages = []; return; }
         } else {
             dictionaryDiv.innerHTML = `<p class='dictionary-message'>Loading images...</p>`;
             try {
-                const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}`);
+                const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
                 if (!res.ok) throw new Error(`Failed to load images for theme`);
-                const themeImages = await res.json();
+                const themeData = await res.json();
+                const themeImages = Array.isArray(themeData) ? themeData : (themeData.images || []);
                 allImages = themeImages;
-                imagesToRender = query ? themeImages.filter(img => img.word.toLowerCase().includes(query)) : themeImages;
+                imagesToRender = query ? themeImages.filter(img => {
+                    const displayName = img.name || img.word;
+                    return displayName.toLowerCase().includes(query);
+                }) : themeImages;
             } catch (err) { console.error("Error loading dictionary:", err); dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error loading images.</p>`; allImages = []; return; }
         }
 
         dictionaryDiv.innerHTML = "";
         if (imagesToRender.length === 0) { dictionaryDiv.innerHTML = `<p class="dictionary-message">No images found${query ? ` matching "${query}"` : ''}.</p>`; return; }
-        imagesToRender.sort((a, b) => a.word.localeCompare(b.word)).forEach(img => {
+        imagesToRender.sort((a, b) => {
+            const nameA = a.name || a.word;
+            const nameB = b.name || b.word;
+            return nameA.localeCompare(nameB);
+        }).forEach(img => {
             const item = document.createElement("div");
             item.className = "dictionary-item";
             if (selectedImages.some(selImg => selImg.path === img.path)) item.classList.add('selected');
-            item.innerHTML = `<img src="${img.path}" alt="${img.word}" loading="lazy"/><span>${img.word}</span>`;
+            const displayName = img.name || img.word;
+            item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
             item.onclick = () => toggleImageSelection(img);
             dictionaryDiv.appendChild(item);
         });
@@ -620,7 +709,8 @@
             const item = document.createElement("div");
             item.className = "dictionary-item";
             if (selectedImages.some(selImg => selImg.path === img.path)) item.classList.add('selected');
-            item.innerHTML = `<img src="${img.path}" alt="${img.word}" loading="lazy"/><span>${img.word}</span>`;
+            const displayName = img.name || img.word;
+            item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
             item.onclick = () => toggleImageSelection(img);
             uploadedImagesPreviewDiv.appendChild(item);
         });
@@ -758,7 +848,24 @@
           const activeCanvas = getActiveCanvas();
           if (!activeCanvas) return;
           const activeObj = activeCanvas.getActiveObject(); if (!activeObj) return;
-          if (type.includes('Canvas')) { if (type === 'centerHCanvas') activeObj.centerH(); if (type === 'centerVCanvas') activeObj.centerV(); } 
+          if (type.includes('Canvas')) {
+              // Use actual canvas dimensions, not display dimensions
+              const actualCenterX = currentCanvasConfig.width / 2;
+              const actualCenterY = currentCanvasConfig.height / 2;
+              
+              if (type === 'centerHCanvas') {
+                  activeObj.set('left', actualCenterX);
+                  if (activeObj.originX !== 'center') {
+                      activeObj.set('left', actualCenterX - (activeObj.width * activeObj.scaleX) / 2);
+                  }
+              }
+              if (type === 'centerVCanvas') {
+                  activeObj.set('top', actualCenterY);
+                  if (activeObj.originY !== 'center') {
+                      activeObj.set('top', actualCenterY - (activeObj.height * activeObj.scaleY) / 2);
+                  }
+              }
+          } 
           else if (activeObj.type === 'activeSelection') {
               const group = activeObj;
               group.forEachObject(function(obj) {
@@ -891,7 +998,7 @@
             let themeImages = [...uploadedImages, ...allImages];
             if (themeImages.length === 0 && themeSelect.value === 'all' && searchInput.value === '') {
                  try {
-                    const res = await fetch(`/api/images?search=`);
+                    const res = await fetch(`/api/images?search=&locale=${currentLocale}`);
                     if (!res.ok) throw new Error('Failed to fetch images for auto-generation.');
                     themeImages = await res.json();
                 } catch(err) { showMessage(err.message, 'error'); return null; }
@@ -912,22 +1019,48 @@
           const cols = parseInt(bingoColsInput.value, 10);
           const cardFill = cardFillSelect.value;
           const chipFill = chipFillSelect.value;
-          const pagePadding = 40;
           
           const gridElements = [];
           const chipObjectPromises = [];
 
-          const gridWidth = singlePageConfig.width - (pagePadding * 2);
-          const gridHeight = (singlePageConfig.height - (pagePadding * 2)) * 0.55;
-          const cellWidth = gridWidth / cols;
-          const cellHeight = gridHeight / rows;
+          // Use actual canvas dimensions from currentCanvasConfig
+          const canvasWidth = currentCanvasConfig.width;
+          const canvasHeight = currentCanvasConfig.height;
+          
+          // Dynamic margins based on canvas size
+          const topMargin = Math.min(80, canvasHeight * 0.1);
+          const sideMargin = Math.min(40, canvasWidth * 0.05);
+          const bottomMargin = Math.min(40, canvasHeight * 0.05);
+          const middleGap = 20; // Gap between grid and chips
+          
+          // Calculate available space
+          const availableWidth = canvasWidth - (sideMargin * 2);
+          const availableHeight = canvasHeight - topMargin - bottomMargin - middleGap;
+          
+          // Split available height between grid (60%) and chips (40%)
+          const gridHeight = Math.min(availableHeight * 0.6, 500); // Cap at 500px for very large pages
+          const chipsAreaHeight = Math.min(availableHeight * 0.4, 300); // Cap at 300px for very large pages
+          
+          // Ensure we don't exceed available space
+          const totalNeededHeight = gridHeight + chipsAreaHeight + middleGap;
+          let finalGridHeight = gridHeight;
+          let finalChipsHeight = chipsAreaHeight;
+          
+          if (totalNeededHeight > availableHeight) {
+              const scale = availableHeight / totalNeededHeight;
+              finalGridHeight = gridHeight * scale;
+              finalChipsHeight = chipsAreaHeight * scale;
+          }
+          
+          const cellWidth = availableWidth / cols;
+          const cellHeight = finalGridHeight / rows;
 
           for(let r = 0; r < rows; r++) {
               for(let c = 0; c < cols; c++) {
                   const idx = r * cols + c;
                   const item = cardItems[idx];
-                  const cellLeft = pagePadding + (c * cellWidth);
-                  const cellTop = topOffset + pagePadding + (r * cellHeight);
+                  const cellLeft = sideMargin + (c * cellWidth);
+                  const cellTop = topOffset + topMargin + (r * cellHeight);
                   gridElements.push(new fabric.Rect({ left: cellLeft, top: cellTop, width: cellWidth, height: cellHeight, fill: '#fafafa', stroke: '#999', strokeWidth: 1 }));
                   if (cardFill === 'image') {
                       const img = await new Promise(resolve => fabric.Image.fromURL(item.path, resolve, { crossOrigin: 'anonymous' }));
@@ -945,11 +1078,15 @@
               }
           }
 
-          const chipsAreaTopAbsolute = topOffset + pagePadding + gridHeight + 20;
-          const chipsAreaHeight = singlePageConfig.height - (pagePadding + gridHeight + 20) - pagePadding;
-          const chipSize = Math.min(gridWidth / cols, chipsAreaHeight / rows) * 0.9;
-          const chipCellWidth = gridWidth / cols;
-          const chipCellHeight = chipsAreaHeight / rows;
+          // Position chips area below the grid
+          const chipsAreaTopAbsolute = topOffset + topMargin + finalGridHeight + middleGap;
+          
+          // Use the calculated chips height
+          const chipCellWidth = availableWidth / cols;
+          const chipCellHeight = finalChipsHeight / rows;
+          
+          // Calculate chip size to fit within the cell
+          const chipSize = Math.min(chipCellWidth, chipCellHeight) * 0.8;
 
           shuffle([...cardItems]).forEach((item, idx) => {
               const promise = new Promise(resolve => {
@@ -999,7 +1136,7 @@
               const r = Math.floor(idx / cols);
               const c = idx % cols;
               chip.set({
-                left: pagePadding + (c * chipCellWidth) + (chipCellWidth / 2),
+                left: sideMargin + (c * chipCellWidth) + (chipCellWidth / 2),
                 top: chipsAreaTopAbsolute + (r * chipCellHeight) + (chipCellHeight / 2),
                 originX: 'center',
                 originY: 'center'
@@ -1013,11 +1150,12 @@
           const gridGroup = new fabric.Group(gridElements, {...groupStyles, isBingoElement: true, originalIndex: `card_${index}`});
           const chipsGroup = new fabric.Group(chipObjects, {...groupStyles, isBingoElement: true, originalIndex: `chips_${index}`});
           
-          gridGroup.top = topOffset;
-          gridGroup.left = (targetCanvas.width - gridGroup.width) / 2;
+          // Center groups based on actual canvas dimensions
+          gridGroup.top = topOffset + topMargin;
+          gridGroup.left = (canvasWidth - gridGroup.width) / 2;
           
           chipsGroup.top = chipsAreaTopAbsolute;
-          chipsGroup.left = (targetCanvas.width - chipsGroup.width) / 2;
+          chipsGroup.left = (canvasWidth - chipsGroup.width) / 2;
           
           targetCanvas.add(gridGroup, chipsGroup);
 
@@ -1060,23 +1198,48 @@
         const uniqueWords = [...new Set(allItems.map(item => item.word))];
         shuffle(uniqueWords);
         
-        const pagePadding = 40;
-        const gridWidth = singlePageConfig.width - (pagePadding * 2);
-        const gridHeight = singlePageConfig.height - (pagePadding * 2);
+        // Use actual canvas dimensions with dynamic margins
+        const canvasWidth = currentCanvasConfig.width;
+        const canvasHeight = currentCanvasConfig.height;
+        
+        // Dynamic margins based on canvas size
+        const topMargin = Math.min(80, canvasHeight * 0.1);
+        const sideMargin = Math.min(40, canvasWidth * 0.05);
+        const bottomMargin = Math.min(40, canvasHeight * 0.05);
+        
+        const availableWidth = canvasWidth - (sideMargin * 2);
+        const availableHeight = canvasHeight - topMargin - bottomMargin;
+        
         const numCalloutWords = uniqueWords.length;
         const calloutCols = Math.min(6, Math.ceil(Math.sqrt(numCalloutWords * 1.5)));
         const calloutRows = Math.ceil(numCalloutWords / calloutCols);
-        const cellWidth = gridWidth / calloutCols;
-        const cellHeight = gridHeight / calloutRows;
+        
+        // Ensure cells fit within available space
+        let cellWidth = availableWidth / calloutCols;
+        let cellHeight = availableHeight / calloutRows;
+        
+        // Limit cell size for readability
+        const maxCellSize = 120;
+        if (cellWidth > maxCellSize || cellHeight > maxCellSize) {
+            const scale = Math.min(maxCellSize / cellWidth, maxCellSize / cellHeight);
+            cellWidth *= scale;
+            cellHeight *= scale;
+        }
         const cellGap = 10;
         const gridElements = [];
 
+        // Calculate actual grid dimensions and center it
+        const actualGridWidth = calloutCols * cellWidth;
+        const actualGridHeight = calloutRows * cellHeight;
+        const gridStartX = (canvasWidth - actualGridWidth) / 2;
+        const gridStartY = (canvasHeight - actualGridHeight) / 2;
+        
         for(let i=0; i<uniqueWords.length; i++) {
             const r = Math.floor(i / calloutCols);
             const c = i % calloutCols;
             const word = uniqueWords[i];
-            const cellLeft = pagePadding + (c * cellWidth);
-            const cellTop = pagePadding + (r * cellHeight);
+            const cellLeft = gridStartX + (c * cellWidth);
+            const cellTop = gridStartY + (r * cellHeight);
 
             const rect = new fabric.Rect({
                 left: cellLeft + (cellGap / 2), top: cellTop + (cellGap / 2),
@@ -1100,8 +1263,9 @@
         if (oldTransforms['callout_grid']) {
             calloutGroup.set(oldTransforms['callout_grid']);
         } else {
-            calloutGroup.left = (calloutsCanvas.width - calloutGroup.width) / 2;
-            calloutGroup.top = (calloutsCanvas.height - calloutGroup.height) / 2;
+            // Center based on actual canvas dimensions
+            calloutGroup.left = (canvasWidth - calloutGroup.width) / 2;
+            calloutGroup.top = (canvasHeight - calloutGroup.height) / 2;
         }
 
         calloutsCanvas.add(calloutGroup);
@@ -1186,9 +1350,29 @@
       }
 
       async function getCanvasDataURL(canvasInstance, exportOpts) {
+          // Save current state
+          const currentZoom = canvasInstance.getZoom();
+          const currentWidth = canvasInstance.getWidth();
+          const currentHeight = canvasInstance.getHeight();
+          
+          // Reset to actual size for export
+          canvasInstance.setZoom(1);
+          canvasInstance.setDimensions({
+              width: currentCanvasConfig.width,
+              height: currentCanvasConfig.height
+          });
+          
           const grayscaleEnabled = grayscaleToggle.checked;
           const format = 'jpeg';
           let dataURL = canvasInstance.toDataURL({ format: format, quality: 1.0, multiplier: exportOpts.multiplier });
+          
+          // Restore display state
+          canvasInstance.setZoom(currentZoom);
+          canvasInstance.setDimensions({
+              width: currentWidth,
+              height: currentHeight
+          });
+          
           if (grayscaleEnabled) { try { dataURL = await applyGrayscaleToDataURL(dataURL, `image/${format}`); } catch (error) { console.error("Grayscale failed:", error); } }
           return dataURL;
       }
@@ -1242,8 +1426,8 @@
 
             const offscreenCanvasEl = document.createElement('canvas');
             const offscreenCanvas = initializeCanvas(offscreenCanvasEl);
-            offscreenCanvas.setWidth(singlePageConfig.width);
-            offscreenCanvas.setHeight(singlePageConfig.height);
+            offscreenCanvas.setWidth(currentCanvasConfig.width);
+            offscreenCanvas.setHeight(currentCanvasConfig.height);
 
             for (let i = 0; i < cardDataGroups.length; i++) {
                 offscreenCanvas.clear();
@@ -1293,8 +1477,8 @@
 
             try {
                 const { jsPDF } = window.jspdf;
-                const orientation = singlePageConfig.width > singlePageConfig.height ? 'l' : 'p';
-                const pdf = new jsPDF({ orientation, unit: 'pt', format: [singlePageConfig.width, singlePageConfig.height] });
+                const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
+                const pdf = new jsPDF({ orientation, unit: 'pt', format: [currentCanvasConfig.width, currentCanvasConfig.height] });
 
                 if (isMultiPage) {
                     const cardDataGroups = worksheetCanvas.bingoData;
@@ -1312,11 +1496,11 @@
 
                     const offscreenCanvasEl = document.createElement('canvas');
                     const offscreenCanvas = initializeCanvas(offscreenCanvasEl);
-                    offscreenCanvas.setWidth(singlePageConfig.width);
-                    offscreenCanvas.setHeight(singlePageConfig.height);
+                    offscreenCanvas.setWidth(currentCanvasConfig.width);
+                    offscreenCanvas.setHeight(currentCanvasConfig.height);
 
                     for (let i = 0; i < cardDataGroups.length; i++) {
-                        if (i > 0) pdf.addPage([singlePageConfig.width, singlePageConfig.height], orientation);
+                        if (i > 0) pdf.addPage([currentCanvasConfig.width, currentCanvasConfig.height], orientation);
                         
                         offscreenCanvas.clear();
                         offscreenCanvas.backgroundColor = pageColorInput.value || '#FFFFFF';
@@ -1341,12 +1525,12 @@
                         offscreenCanvas.renderAll();
 
                         const pageDataURL = await getCanvasDataURL(offscreenCanvas, { multiplier: downloadMultiplier });
-                        pdf.addImage(pageDataURL, 'JPEG', 0, 0, singlePageConfig.width, singlePageConfig.height);
+                        pdf.addImage(pageDataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
                     }
                     offscreenCanvas.dispose();
                 } else {
                     const dataURL = await getCanvasDataURL(canvasInstance, { multiplier: downloadMultiplier });
-                    pdf.addImage(dataURL, 'JPEG', 0, 0, singlePageConfig.width, singlePageConfig.height);
+                    pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
                 }
                 
                 pdf.save(filename);

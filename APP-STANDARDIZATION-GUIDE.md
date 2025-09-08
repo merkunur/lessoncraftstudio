@@ -1,14 +1,19 @@
 # App Standardization Guide - Complete Fix Patterns
 
-## ✅ Completed Apps (6/33)
+## ✅ Completed Apps (11/33)
 1. Word Search
 2. Math Worksheets  
 3. Alphabet Train
 4. Coloring Pages
 5. Image Addition
 6. Word Scramble
+7. Find and Count
+8. Matching App
+9. Picture Bingo
+10. Drawing Lines
+11. Sudoku
 
-## 🔧 Standard Fixes to Apply to Remaining 27 Apps
+## 🔧 Standard Fixes to Apply to Remaining 22 Apps
 
 ### 1. MULTILINGUAL SUPPORT (Critical)
 
@@ -142,6 +147,25 @@ function updateCustomSize() {
 ```
 
 ### 3. CANVAS DISPLAY SCALING FIX
+
+#### ⚠️ CRITICAL - Why This Keeps Failing:
+**Common Mistakes I Keep Making:**
+1. **Using wrong element selector**: Using class name with getElementById (`$('tab-content-wrapper')`) when it's a class not an ID
+2. **Using getComputedStyle**: This returns CSS values that might include units/padding. Use `clientWidth/clientHeight` instead
+3. **Wrong parent element**: Must use the actual tab element's parent, not a wrapper class
+4. **Inconsistent element names**: Different apps use different IDs (wsTab vs worksheetTab)
+
+**CORRECT Implementation (from Word Search):**
+```javascript
+// CORRECT - Direct element access with clientWidth/clientHeight
+const mainStyle = document.getElementById('wsTab').parentElement;
+const availableWidth = mainStyle.clientWidth - 50;
+const availableHeight = mainStyle.clientHeight - 50;
+
+// WRONG - What I keep doing
+const mainStyle = getComputedStyle($('tab-content-wrapper')); // Wrong selector
+const availableWidth = parseFloat(mainStyle.width) - 50; // Wrong method
+```
 
 #### A. CSS Fixes (Add to style section)
 ```css
@@ -344,9 +368,82 @@ if (dictThemeEl.value === 'all' && !searchQuery) {
 }
 ```
 
+### 7. ALIGNMENT TOOL CENTER FIX
+
+**Problem**: The alignment tool centers objects to the display (zoomed) canvas center, not the actual canvas center.
+
+**Solution**: Use actual canvas dimensions from `currentCanvasConfig` instead of display dimensions.
+
+```javascript
+function alignObjects(type) {
+    const canvas = getActiveCanvas();
+    const activeObj = canvas.getActiveObject();
+    if (!activeObj) return;
+
+    if (type.includes('Canvas')) {
+        // Use actual canvas dimensions, not display dimensions
+        const actualCenterX = currentCanvasConfig.width / 2;
+        const actualCenterY = currentCanvasConfig.height / 2;
+        
+        if (type === 'centerHCanvas') {
+            activeObj.set('left', actualCenterX);
+            if (activeObj.originX !== 'center') {
+                activeObj.set('left', actualCenterX - (activeObj.width * activeObj.scaleX) / 2);
+            }
+        }
+        if (type === 'centerVCanvas') {
+            activeObj.set('top', actualCenterY);
+            if (activeObj.originY !== 'center') {
+                activeObj.set('top', actualCenterY - (activeObj.height * activeObj.scaleY) / 2);
+            }
+        }
+        activeObj.setCoords();
+    }
+    // ... rest of alignment logic
+}
+```
+
+### 8. LAYOUT BOUNDARY CONTAINMENT
+
+**Problem**: Generated content exceeds page borders, especially with many items or different page sizes.
+
+**Solution**: Use consistent margins and proper sizing calculations.
+
+```javascript
+function renderToCanvas(canvas, data) {
+    // Use actual canvas dimensions
+    const canvasWidth = currentCanvasConfig.width;
+    const canvasHeight = currentCanvasConfig.height;
+    
+    // Define consistent margins
+    const topMargin = 100;     // Space for title/instructions
+    const sideMargin = 40;     // Consistent side margins
+    const bottomMargin = 40;   // Bottom margin for layout
+    
+    // Calculate content area
+    const contentWidth = canvasWidth - (sideMargin * 2);
+    const contentHeight = canvasHeight - topMargin - bottomMargin;
+    
+    // For grids or item layouts
+    const maxCellSize = 80;  // Limit max size to prevent overflow
+    const cellSize = Math.min(
+        (contentWidth - gaps) / columns,
+        (contentHeight - gaps) / rows,
+        maxCellSize
+    );
+    
+    // Position content within margins
+    const contentX = sideMargin + (contentWidth - actualWidth) / 2;
+    const contentY = topMargin + spacing;
+    
+    // For bottom elements (legend, footer, etc.)
+    const legendY = canvasHeight - elementHeight - bottomMargin;
+}
+```
+
 ## 📋 QUICK IMPLEMENTATION CHECKLIST
 
-For each of the remaining 28 apps:
+For each of the remaining 25 apps (Find and Count and Matching App are now fixed):
 
 1. **Add translations.js to head**
 2. **Add language selector HTML**
@@ -360,7 +457,9 @@ For each of the remaining 28 apps:
 10. **Fix PDF/JPEG export with zoom reset**
 11. **Add lazy loading for images**
 12. **Load "animals" as default theme**
-13. **Test all 11 languages**
+13. **Fix alignment tool to use actual canvas center**
+14. **Implement proper layout boundaries with margins**
+15. **Test all 11 languages**
 
 ## 🎯 Common Pitfalls to Avoid
 
@@ -371,16 +470,11 @@ For each of the remaining 28 apps:
 5. **Image Performance**: Always use lazy loading for image grids
 6. **API Locale**: Never forget &locale=${currentLocale} parameter
 
-## 🚀 Remaining Apps to Fix (27)
+## 🚀 Remaining Apps to Fix (22)
 
-### Core Bundle (5 remaining):
-- find-and-count
-- matching-app  
-- drawing-lines
-- picture-bingo
-- sudoku
+### Core Bundle: ✅ ALL COMPLETED!
 
-### Full Access (21 remaining):
+### Full Access (22 remaining):
 - big-small-app
 - chart-count-color
 - code-addition

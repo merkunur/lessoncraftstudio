@@ -42,6 +42,11 @@ const translations = {
     coloringPage: 'Coloring Page',
     selectImage: 'Select Image',
     
+    // Sudoku specific
+    sudokuPuzzle: 'Sudoku Puzzle',
+    sudokuAnswerKey: 'Sudoku Answer Key',
+    completeSolution: 'Complete Solution',
+    
     // Common words for image names
     cat: 'Cat',
     dog: 'Dog',
@@ -102,6 +107,11 @@ const translations = {
     // Coloring
     coloringPage: 'Malvorlage',
     selectImage: 'Bild auswählen',
+    
+    // Sudoku specific
+    sudokuPuzzle: 'Sudoku-Rätsel',
+    sudokuAnswerKey: 'Sudoku-Lösung',
+    completeSolution: 'Vollständige Lösung',
     
     // Common words for image names
     cat: 'Katze',
@@ -164,6 +174,11 @@ const translations = {
     coloringPage: 'Page de Coloriage',
     selectImage: 'Sélectionner une Image',
     
+    // Sudoku specific
+    sudokuPuzzle: 'Grille de Sudoku',
+    sudokuAnswerKey: 'Solution du Sudoku',
+    completeSolution: 'Solution Complète',
+    
     // Common words for image names
     cat: 'Chat',
     dog: 'Chien',
@@ -224,6 +239,11 @@ const translations = {
     // Coloring
     coloringPage: 'Página para Colorear',
     selectImage: 'Seleccionar Imagen',
+    
+    // Sudoku specific
+    sudokuPuzzle: 'Rompecabezas Sudoku',
+    sudokuAnswerKey: 'Clave de Respuestas Sudoku',
+    completeSolution: 'Solución Completa',
     
     // Common words for image names
     cat: 'Gato',

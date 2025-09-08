@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hidden Picture Worksheet Generator</title>
+    <title>Find and Count Worksheet Generator</title>
+    <script src="js/translations.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
@@ -653,16 +654,40 @@
                 <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
             </div>
             <div class="panel-content">
+                <!-- Language Selection -->
                 <div class="accordion-item">
-                    <button class="accordion-button active">Page Setup</button>
+                    <button class="accordion-button active">Language Settings</button>
                     <div class="accordion-content active">
+                        <h4>Select Language</h4>
+                        <label for="languageSelect">Language:</label>
+                        <select id="languageSelect">
+                            <option value="en">English</option>
+                            <option value="de">Deutsch (German)</option>
+                            <option value="fr">Français (French)</option>
+                            <option value="es">Español (Spanish)</option>
+                            <option value="pt">Português (Portuguese)</option>
+                            <option value="it">Italiano (Italian)</option>
+                            <option value="nl">Nederlands (Dutch)</option>
+                            <option value="sv">Svenska (Swedish)</option>
+                            <option value="da">Dansk (Danish)</option>
+                            <option value="no">Norsk (Norwegian)</option>
+                            <option value="fi">Suomi (Finnish)</option>
+                        </select>
+                        <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;">
+                            Image names and themes will be displayed in the selected language.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button">Page Setup</button>
+                    <div class="accordion-content">
                         <label for="pageSizeSelect">Page Size:</label>
                         <select id="pageSizeSelect">
                             <option value="800x1000">Default Worksheet (800x1000)</option>
                             <option value="595x842">A4 Portrait (595x842)</option>
                             <option value="842x595">A4 Landscape (842x595)</option>
                             <option value="612x792" selected>Letter Portrait (612x792)</option>
-                            <option value="792x612">Letter Landscape (792x792)</option>
+                            <option value="792x612">Letter Landscape (792x612)</option>
                             <option value="1200x1200">Square (1200x1200)</option>
                             <option value="custom">Custom</option>
                         </select>
@@ -855,6 +880,13 @@
     <div id="exportArea"></div>
 
 <script>
+// Language/locale handling
+let currentLocale = 'en';
+const urlParams = new URLSearchParams(window.location.search);
+if (urlParams.has('locale')) {
+    currentLocale = urlParams.get('locale');
+}
+
 document.addEventListener("DOMContentLoaded", function() {
     // --- UI INITIALIZATION ---
     const accordionButtons = document.querySelectorAll('.accordion-button');
@@ -997,19 +1029,44 @@ document.addEventListener("DOMContentLoaded", function() {
     function updateCanvasDisplayDimensions(width, height) {
         currentCanvasConfig.width = width;
         currentCanvasConfig.height = height;
-        const wrapperStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
-        const availableWidth = parseFloat(wrapperStyle.width) - parseFloat(wrapperStyle.paddingLeft) - parseFloat(wrapperStyle.paddingRight) - 10;
-        const availableHeight = parseFloat(wrapperStyle.height) - parseFloat(wrapperStyle.paddingTop) - parseFloat(wrapperStyle.paddingBottom) - 10;
-        const scaleRatio = Math.min(availableWidth / width, availableHeight / height, 1);
-        const displayWidth = width * scaleRatio;
-        const displayHeight = height * scaleRatio;
+        
+        const mainStyle = document.getElementById('worksheetTab').parentElement;
+        const availableWidth = mainStyle.clientWidth - 50; 
+        const availableHeight = mainStyle.clientHeight - 50;
+        
+        // Apply 25% scaling for better visibility
+        // Extra 25% for landscape orientations
+        const isLandscape = width > height;
+        const baseScale = 1.25; // Base 25% larger for all
+        const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+        const displayScale = baseScale * landscapeBonus;
+        
+        // Calculate display dimensions with scaling
+        const scaledWidth = width * displayScale;
+        const scaledHeight = height * displayScale;
+        
+        // Ensure it fits in available space
+        const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+        const displayWidth = scaledWidth * scaleRatio;
+        const displayHeight = scaledHeight * scaleRatio;
 
         [worksheetCanvas, answerKeyCanvas].forEach(c => {
-            if (c) { c.setWidth(width); c.setHeight(height); c.calcOffset(); c.renderAll(); }
+            if (c) {
+                // Apply zoom for display scaling
+                const finalZoom = (displayWidth / width);
+                c.setZoom(finalZoom);
+                
+                // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+                c.setDimensions({
+                    width: displayWidth,
+                    height: displayHeight
+                });
+                
+                c.calcOffset();
+                c.renderAll();
+            }
         });
-        [worksheetCanvasWrapper, answerKeyCanvasWrapper].forEach(w => {
-            if(w) { w.style.width = displayWidth + 'px'; w.style.height = displayHeight + 'px'; }
-        });
+        
         pageWidthInput.value = width;
         pageHeightInput.value = height;
     }
@@ -1239,8 +1296,22 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         if (type.includes('Canvas')) { // Align single object to canvas
-            if (type === 'centerHCanvas') activeObj.centerH();
-            if (type === 'centerVCanvas') activeObj.centerV();
+            // Use actual canvas dimensions, not display dimensions
+            const actualCenterX = currentCanvasConfig.width / 2;
+            const actualCenterY = currentCanvasConfig.height / 2;
+            
+            if (type === 'centerHCanvas') {
+                activeObj.set('left', actualCenterX);
+                if (activeObj.originX !== 'center') {
+                    activeObj.set('left', actualCenterX - (activeObj.width * activeObj.scaleX) / 2);
+                }
+            }
+            if (type === 'centerVCanvas') {
+                activeObj.set('top', actualCenterY);
+                if (activeObj.originY !== 'center') {
+                    activeObj.set('top', actualCenterY - (activeObj.height * activeObj.scaleY) / 2);
+                }
+            }
             activeObj.setCoords();
         }
         else if (activeObj.type === 'activeSelection') { // Align multiple objects
@@ -1285,25 +1356,44 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function loadThemes() {
-        fetch('/api/themes/nested')
+        fetch(`/api/themes-translated?locale=${currentLocale}`)
             .then(res => res.json())
-            .then(themePaths => {
+            .then(themes => {
                 themeSelect.innerHTML = '';
                 const allThemesOpt = document.createElement("option");
                 allThemesOpt.value = "all";
                 allThemesOpt.textContent = "All Themes";
                 themeSelect.appendChild(allThemesOpt);
 
-                themePaths.forEach(themePath => {
+                themes.forEach(theme => {
                     const opt = document.createElement("option");
-                    opt.value = themePath;
-                    const displayName = themePath
-                        .split('/')
-                        .map(part => part.charAt(0).toUpperCase() + part.slice(1))
-                        .join(' / ');
-                    opt.textContent = displayName;
+                    opt.value = theme.value;
+                    opt.textContent = theme.displayName;
                     themeSelect.appendChild(opt);
                 });
+                
+                // Also update background and border theme selects
+                backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+                borderThemeSelect.innerHTML = '<option value="none">None</option>';
+                
+                themes.forEach(theme => {
+                    const bgOpt = document.createElement("option");
+                    bgOpt.value = theme.value;
+                    bgOpt.textContent = theme.displayName;
+                    backgroundThemeSelect.appendChild(bgOpt);
+                    
+                    const borderOpt = document.createElement("option");
+                    borderOpt.value = theme.value;
+                    borderOpt.textContent = theme.displayName;
+                    borderThemeSelect.appendChild(borderOpt);
+                });
+                
+                // Set default theme to "animals" if it exists
+                if (themes.some(t => t.value === 'animals')) {
+                    themeSelect.value = 'animals';
+                } else if (themes.length > 0) {
+                    themeSelect.value = themes[0].value;
+                }
                 
                 loadThemeImages();
             }).catch(err => {
@@ -1321,7 +1411,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         dictionaryDiv.innerHTML = "<p class='dictionary-message'>Loading...</p>";
         try {
-            const response = await fetch(`/api/images?theme=${encodeURIComponent(theme)}`);
+            const response = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
             if (!response.ok) throw new Error(`Failed to load images for theme: ${theme}`);
             currentThemeImages = await response.json();
         } catch (error) {
@@ -1340,21 +1430,32 @@ document.addEventListener("DOMContentLoaded", function() {
 
         if (theme === 'all') {
             if (!query) {
-                dictionaryDiv.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
-                return;
-            }
-            dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-            try {
-                const response = await fetch(`/api/images?search=${encodeURIComponent(query)}`);
-                if (!response.ok) throw new Error(`Failed to search for "${query}"`);
-                imagesToDisplay = await response.json();
-            } catch (error) {
-                showMessage(error.message, 'error');
-                imagesToDisplay = [];
+                // Load default "animals" theme when "all" is selected with no search
+                try {
+                    const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                    if (!response.ok) throw new Error(`Failed to load default theme`);
+                    imagesToDisplay = await response.json();
+                } catch (error) {
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
+                    return;
+                }
+            } else {
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+                try {
+                    const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                    if (!response.ok) throw new Error(`Failed to search for "${query}"`);
+                    imagesToDisplay = await response.json();
+                } catch (error) {
+                    showMessage(error.message, 'error');
+                    imagesToDisplay = [];
+                }
             }
         } else {
             const source = currentThemeImages;
-            imagesToDisplay = query ? source.filter(img => img.word.toLowerCase().includes(query)) : source;
+            imagesToDisplay = query ? source.filter(img => {
+                const displayName = (img.name || img.word).toLowerCase();
+                return displayName.includes(query);
+            }) : source;
         }
 
         if (imagesToDisplay.length === 0) {
@@ -1362,12 +1463,17 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
 
-        imagesToDisplay.sort((a, b) => a.word.localeCompare(b.word)).forEach((img) => {
+        imagesToDisplay.sort((a, b) => {
+            const nameA = a.name || a.word;
+            const nameB = b.name || b.word;
+            return nameA.localeCompare(nameB);
+        }).forEach((img) => {
             const item = document.createElement('div');
             item.className = 'dictionary-item';
             const isSelected = selectedImages.some(selImg => selImg.path === img.path);
             if (isSelected) item.classList.add('selected');
-            item.innerHTML = `<img src="${img.path}" crossOrigin="anonymous" alt="${img.word}"/><span>${img.word}</span>`;
+            const displayName = img.name || img.word;
+            item.innerHTML = `<img src="${img.path}" crossOrigin="anonymous" alt="${displayName}"/><span>${displayName}</span>`;
             item.onclick = () => toggleImageSelection(img);
             dictionaryDiv.appendChild(item);
         });
@@ -1385,7 +1491,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const isSelected = selectedImages.some(selImg => selImg.path === img.path);
             if (isSelected) item.classList.add('selected');
 
-            item.innerHTML = `<img src="${img.path}" alt="${img.word}"/><span>${img.word}</span>`;
+            const displayName = img.name || img.word;
+            item.innerHTML = `<img src="${img.path}" alt="${displayName}"/><span>${displayName}</span>`;
             item.onclick = () => toggleImageSelection(img);
             uploadedImagesPreviewDiv.appendChild(item);
         });
@@ -1400,10 +1507,11 @@ document.addEventListener("DOMContentLoaded", function() {
         selectedImages.forEach(img => {
             const configItem = document.createElement('div');
             configItem.className = 'config-item';
+            const displayName = img.name || img.word;
             
             const itemHTML = `
-                <img src="${img.path}" alt="${img.word}" />
-                <span>${img.word.charAt(0).toUpperCase() + img.word.slice(1)}</span>
+                <img src="${img.path}" alt="${displayName}" />
+                <span>${displayName.charAt(0).toUpperCase() + displayName.slice(1)}</span>
                 <select data-path="${img.path}">
                     <option value="none" ${!img.type || img.type === 'none' ? 'selected' : ''}>Select Task...</option>
                     <option value="circle" ${img.type === 'circle' ? 'selected' : ''}>Circle</option>
@@ -1624,31 +1732,194 @@ document.addEventListener("DOMContentLoaded", function() {
         // It should NOT clear the canvas.
         
         const { gridData, questions, rows, cols } = data;
-        const canvasWidth = canvas.getWidth();
-        const topMargin = 50;
-        const contentWidth = canvasWidth - topMargin * 2;
+        // Use the actual canvas dimensions, not the zoomed display dimensions
+        const canvasWidth = currentCanvasConfig.width;
+        const canvasHeight = currentCanvasConfig.height;
+        const topMargin = 100; // Increased for title/instructions with better spacing
+        const sideMargin = 40; // Consistent side margins
+        const bottomMargin = 40; // Bottom margin for layout
+        const contentWidth = canvasWidth - (sideMargin * 2);
         
         const gridRows = rows;
         const gridCols = cols;
         
+        const itemTag = isAnswerKey ? 'isAnswerKeyItem' : 'isGeneratedItem';
+        
+        // Get translated text based on current locale
+        const getTranslatedTitle = () => {
+            const titles = {
+                en: 'Find and Count',
+                de: 'Finde und Zähle',
+                fr: 'Trouve et Compte',
+                es: 'Encuentra y Cuenta',
+                pt: 'Encontre e Conte',
+                it: 'Trova e Conta',
+                nl: 'Zoek en Tel',
+                sv: 'Hitta och Räkna',
+                da: 'Find og Tæl',
+                no: 'Finn og Tell',
+                fi: 'Etsi ja Laske'
+            };
+            return titles[currentLocale] || titles.en;
+        };
+        
+        const getTaskInstruction = (type, items) => {
+            const itemsList = items.join(', ');
+            const instructions = {
+                en: {
+                    circle: `Circle all the ${itemsList}`,
+                    square: `Put a square around all the ${itemsList}`,
+                    cross: `Cross out all the ${itemsList}`,
+                    count: `Count all the ${itemsList}`
+                },
+                de: {
+                    circle: `Kreise alle ${itemsList} ein`,
+                    square: `Zeichne ein Quadrat um alle ${itemsList}`,
+                    cross: `Streiche alle ${itemsList} durch`,
+                    count: `Zähle alle ${itemsList}`
+                },
+                fr: {
+                    circle: `Entoure tous les ${itemsList}`,
+                    square: `Mets un carré autour de tous les ${itemsList}`,
+                    cross: `Barre tous les ${itemsList}`,
+                    count: `Compte tous les ${itemsList}`
+                },
+                es: {
+                    circle: `Circula todos los ${itemsList}`,
+                    square: `Pon un cuadrado alrededor de todos los ${itemsList}`,
+                    cross: `Tacha todos los ${itemsList}`,
+                    count: `Cuenta todos los ${itemsList}`
+                },
+                pt: {
+                    circle: `Circule todos os ${itemsList}`,
+                    square: `Coloque um quadrado em volta de todos os ${itemsList}`,
+                    cross: `Risque todos os ${itemsList}`,
+                    count: `Conte todos os ${itemsList}`
+                },
+                it: {
+                    circle: `Cerchia tutti i ${itemsList}`,
+                    square: `Metti un quadrato intorno a tutti i ${itemsList}`,
+                    cross: `Barra tutti i ${itemsList}`,
+                    count: `Conta tutti i ${itemsList}`
+                },
+                nl: {
+                    circle: `Omcirkel alle ${itemsList}`,
+                    square: `Zet een vierkant om alle ${itemsList}`,
+                    cross: `Streep alle ${itemsList} door`,
+                    count: `Tel alle ${itemsList}`
+                },
+                sv: {
+                    circle: `Ringa in alla ${itemsList}`,
+                    square: `Sätt en kvadrat runt alla ${itemsList}`,
+                    cross: `Stryk över alla ${itemsList}`,
+                    count: `Räkna alla ${itemsList}`
+                },
+                da: {
+                    circle: `Sæt ring om alle ${itemsList}`,
+                    square: `Sæt en firkant omkring alle ${itemsList}`,
+                    cross: `Streg alle ${itemsList} over`,
+                    count: `Tæl alle ${itemsList}`
+                },
+                no: {
+                    circle: `Sett ring rundt alle ${itemsList}`,
+                    square: `Sett en firkant rundt alle ${itemsList}`,
+                    cross: `Stryk over alle ${itemsList}`,
+                    count: `Tell alle ${itemsList}`
+                },
+                fi: {
+                    circle: `Ympyröi kaikki ${itemsList}`,
+                    square: `Piirrä neliö kaikkien ${itemsList} ympärille`,
+                    cross: `Yliviivaa kaikki ${itemsList}`,
+                    count: `Laske kaikki ${itemsList}`
+                }
+            };
+            const langInstructions = instructions[currentLocale] || instructions.en;
+            return langInstructions[type] || '';
+        };
+        
+        // Add title
+        const title = new fabric.Text(getTranslatedTitle(), {
+            left: canvasWidth / 2,
+            top: 25,
+            fontSize: 28,
+            fontFamily: 'Fredoka',
+            fontWeight: 'bold',
+            fill: '#333',
+            originX: 'center',
+            selectable: true,  // Make editable
+            evented: true,
+            [itemTag]: true,
+            originalIndex: 'title'
+        });
+        canvas.add(title);
+        
+        // Generate instructions based on selected tasks
+        let instructionTexts = [];
+        const taskTypes = {};
+        questions.forEach(q => {
+            if (!taskTypes[q.type]) {
+                taskTypes[q.type] = [];
+            }
+            const displayName = q.name || q.word;
+            taskTypes[q.type].push(displayName);
+        });
+        
+        // Build instruction text based on task types
+        for (const [type, items] of Object.entries(taskTypes)) {
+            const instruction = getTaskInstruction(type, items);
+            if (instruction) {
+                instructionTexts.push(instruction);
+            }
+        }
+        
+        const instructionText = instructionTexts.join('. ') + (instructionTexts.length > 0 ? '.' : '');
+        const defaultInstruction = currentLocale === 'de' ? 'Finde die versteckten Objekte im Bild unten:' :
+                                  currentLocale === 'fr' ? 'Trouve les objets cachés dans l\'image ci-dessous:' :
+                                  currentLocale === 'es' ? 'Encuentra los objetos ocultos en la imagen de abajo:' :
+                                  currentLocale === 'pt' ? 'Encontre os objetos escondidos na imagem abaixo:' :
+                                  currentLocale === 'it' ? 'Trova gli oggetti nascosti nell\'immagine qui sotto:' :
+                                  currentLocale === 'nl' ? 'Vind de verborgen objecten in de afbeelding hieronder:' :
+                                  currentLocale === 'sv' ? 'Hitta de dolda objekten i bilden nedan:' :
+                                  currentLocale === 'da' ? 'Find de skjulte objekter i billedet nedenfor:' :
+                                  currentLocale === 'no' ? 'Finn de skjulte objektene i bildet nedenfor:' :
+                                  currentLocale === 'fi' ? 'Etsi piilotetut esineet alla olevasta kuvasta:' :
+                                  'Find the hidden objects in the picture below:';
+        
+        // Add instructions
+        const instructions = new fabric.Text(instructionText || defaultInstruction, {
+            left: canvasWidth / 2,
+            top: 55,
+            fontSize: 16,
+            fontFamily: 'Arial',
+            fill: '#555',
+            originX: 'center',
+            selectable: true,  // Make editable
+            evented: true,
+            [itemTag]: true,
+            originalIndex: 'instructions'
+        });
+        canvas.add(instructions);
+        
         const legendNeeded = isAnswerKey || (questions && questions.length > 0);
         const legendAreaHeight = legendNeeded ? 120 : 0;
 
-        const availableGridHeight = canvas.getHeight() - topMargin - 50 - legendAreaHeight;
+        const availableGridHeight = canvasHeight - topMargin - bottomMargin - legendAreaHeight;
         const gridContentWidth = contentWidth;
         const gridContentHeight = availableGridHeight;
 
         const cellGap = 2;
         
-        const cellWidthBasedOnContainer = (gridContentWidth - (cellGap * (cols - 1))) / cols;
-        const cellHeightBasedOnContainer = (gridContentHeight - (cellGap * (rows - 1))) / rows;
-        const cellSize = Math.min(cellWidthBasedOnContainer, cellHeightBasedOnContainer);
+        // Calculate cell size with more conservative sizing to ensure fitting
+        const maxCellWidth = (gridContentWidth - (cellGap * (cols - 1))) / cols;
+        const maxCellHeight = (gridContentHeight - (cellGap * (rows - 1))) / rows;
+        const cellSize = Math.min(maxCellWidth, maxCellHeight, 80); // Also limit max cell size
 
         const gridActualWidth = cols * cellSize + (cols - 1) * cellGap;
         const gridActualHeight = rows * cellSize + (rows - 1) * cellGap;
 
-        const gridLeftX = (canvasWidth - gridActualWidth) / 2;
-        const gridTopY = topMargin + (gridContentHeight - gridActualHeight) / 2;
+        // Center the grid horizontally within the content area
+        const gridLeftX = sideMargin + (contentWidth - gridActualWidth) / 2;
+        const gridTopY = topMargin + 20; // Fixed top position with consistent spacing
 
         const gridImagePromises = gridData.flat().map((cellData, index) => {
             const r = Math.floor(index / gridCols);
@@ -1669,8 +1940,6 @@ document.addEventListener("DOMContentLoaded", function() {
         });
         
         const gridImages = await Promise.all(gridImagePromises);
-        
-        const itemTag = isAnswerKey ? 'isAnswerKeyItem' : 'isGeneratedItem';
 
         const groupOptions = {
             objectCaching: false,
@@ -1762,8 +2031,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 
                 const legendGroup = new fabric.Group([legendBox, ...legendItems], {
                     ...groupOptions,
-                    left: (canvas.width - legendBoxWidth) / 2,
-                    top: canvas.height - legendBoxHeight - 30,
+                    left: (canvasWidth - legendBoxWidth) / 2,
+                    top: canvasHeight - legendBoxHeight - bottomMargin,
                     [itemTag]: true, originalIndex: 'legend'
                 });
                 canvas.add(legendGroup);
@@ -1882,8 +2151,8 @@ document.addEventListener("DOMContentLoaded", function() {
             fontSize: 40,
             fill: 'rgba(0, 0, 0, 0.2)',
             angle: -45,
-            left: canvas.width / 2,
-            top: canvas.height / 2,
+            left: currentCanvasConfig.width / 2,
+            top: currentCanvasConfig.height / 2,
             originX: 'center',
             originY: 'center',
             selectable: false,
@@ -1895,8 +2164,8 @@ document.addEventListener("DOMContentLoaded", function() {
         // Add multiple watermarks across the canvas
         const watermarks = [];
         const spacing = 250;
-        for (let x = 0; x < canvas.width; x += spacing) {
-            for (let y = 0; y < canvas.height; y += spacing) {
+        for (let x = 0; x < currentCanvasConfig.width; x += spacing) {
+            for (let y = 0; y < currentCanvasConfig.height; y += spacing) {
                 const wm = new fabric.Text('FREE VERSION', {
                     fontSize: 20,
                     fill: 'rgba(0, 0, 0, 0.15)',
@@ -2283,6 +2552,17 @@ async function downloadPDF(canvasToExport, filename) {
     downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadPDF(answerKeyCanvas, 'answer_key'));
     // END: REFACTORED CODE (Part D, Step 3)
 
+
+    // Language Settings
+    const languageSelect = document.getElementById('languageSelect');
+    if (languageSelect) {
+        languageSelect.value = currentLocale;
+        languageSelect.addEventListener('change', async () => {
+            currentLocale = languageSelect.value;
+            await loadThemes();
+            await loadThemeImages();
+        });
+    }
 
     themeSelect.addEventListener('change', loadThemeImages);
     borderThemeSelect.addEventListener('change', loadBorderImages);

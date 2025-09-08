@@ -5,6 +5,7 @@
     <title>MatchUp Maker</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="/js/translations.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
@@ -295,10 +296,19 @@
       }
       .tab { display: none; width: 100%; height: 100%; margin: 0 auto; }
       .tab.active { display: flex; justify-content: center; align-items: flex-start; }
+      /* Fix canvas clipping with zoom */
       .canvas-container-wrapper {
         border: none; background-color: var(--app-surface-light);
         box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-radius: 8px;
-        overflow: auto; margin: auto;
+        overflow: visible !important; /* Fixed from auto */
+        margin: auto;
+        position: relative;
+      }
+      
+      .canvas-container {
+        overflow: visible !important;
+        position: relative !important;
+        margin: 0 auto;
       }
       #exportArea { position: absolute; left: -9999px; top: 0; }
       /* START: Contextual Toolbar CSS */
@@ -436,6 +446,22 @@
             <div class="panel-header">
                 <h2>MatchUp Maker</h2>
                 <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
+            </div>
+            <div class="language-selector" style="padding: 10px 25px; border-bottom: 1px solid var(--app-border-dark);">
+                <label data-translate-key="language" style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Language:</label>
+                <select id="languageSelect" style="width: 100%; padding: 8px 10px; font-size: 13px; border-radius: 5px; border: 1px solid var(--app-border-dark); background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); margin-top: 6px;">
+                    <option value="en">English</option>
+                    <option value="de">Deutsch (German)</option>
+                    <option value="fr">Français (French)</option>
+                    <option value="es">Español (Spanish)</option>
+                    <option value="pt">Português (Portuguese)</option>
+                    <option value="it">Italiano (Italian)</option>
+                    <option value="nl">Nederlands (Dutch)</option>
+                    <option value="sv">Svenska (Swedish)</option>
+                    <option value="da">Dansk (Danish)</option>
+                    <option value="no">Norsk (Norwegian)</option>
+                    <option value="fi">Suomi (Finnish)</option>
+                </select>
             </div>
             <div class="panel-content">
                 <div class="accordion-item">
@@ -655,6 +681,16 @@
     <div id="exportArea"></div>
 
     <script>
+      // MUST BE FIRST - Before ANY DOM element references
+      let currentLocale = 'en';
+      
+      // Initialize locale from URL if present
+      const urlParams = new URLSearchParams(window.location.search);
+      const localeParam = urlParams.get('locale');
+      if (localeParam) {
+          currentLocale = localeParam;
+      }
+      
       document.addEventListener('DOMContentLoaded', async () => {
         const $ = id => document.getElementById(id);
         
@@ -666,7 +702,8 @@
         let currentGeneratedData = { worksheet: [], answerKey: [], mode: null };
         let worksheetCanvas, answerKeyCanvas;
         let activeTextObject = null;
-        let currentConfig = { width: 612, height: 792 };
+        let currentCanvasConfig = { width: 612, height: 792 }; // Standard Letter Portrait
+        let currentConfig = currentCanvasConfig; // Alias for compatibility
         const downloadMultiplier = 6;
 
         // --- DOM Element References ---
@@ -758,38 +795,50 @@
         
         const updateCanvasDisplayDimensions = () => {
             if (pageSizeSelect.value === 'custom') {
-                currentConfig.width = parseInt(pageWidthInput.value, 10) || 612;
-                currentConfig.height = parseInt(pageHeightInput.value, 10) || 792;
+                currentCanvasConfig.width = parseInt(pageWidthInput.value, 10) || 612;
+                currentCanvasConfig.height = parseInt(pageHeightInput.value, 10) || 792;
             } else {
-                [currentConfig.width, currentConfig.height] = pageSizeSelect.value.split('x').map(Number);
+                [currentCanvasConfig.width, currentCanvasConfig.height] = pageSizeSelect.value.split('x').map(Number);
             }
+            
+            // Update alias
+            currentConfig = currentCanvasConfig;
 
+            // Use the same method as Word Search - get the parent element directly
+            const mainStyle = $('wsTab').parentElement;
+            const availableWidth = mainStyle.clientWidth - 50;
+            const availableHeight = mainStyle.clientHeight - 50;
+            
+            // Apply 25% scaling for better visibility (same as Word Search)
+            // Extra 25% for landscape orientations
+            const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+            const baseScale = 1.25; // Base 25% larger for all
+            const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+            const displayScale = baseScale * landscapeBonus;
+            
+            // Calculate display dimensions with scaling
+            const scaledWidth = currentCanvasConfig.width * displayScale;
+            const scaledHeight = currentCanvasConfig.height * displayScale;
+            
+            // Ensure it fits in available space
+            const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+            const displayWidth = scaledWidth * scaleRatio;
+            const displayHeight = scaledHeight * scaleRatio;
+            
+            // Apply zoom for display
+            const finalZoom = displayWidth / currentCanvasConfig.width;
+            
             [worksheetCanvas, answerKeyCanvas].forEach(c => {
                 if (c) {
-                    c.setWidth(currentConfig.width);
-                    c.setHeight(currentConfig.height);
-                    c.calcOffset();
+                    c.setZoom(finalZoom);
+                    // CRITICAL: Set dimensions AFTER zoom
+                    c.setDimensions({
+                        width: displayWidth,
+                        height: displayHeight
+                    });
                     c.renderAll();
                 }
             });
-
-            const mainContentAreaStyle = getComputedStyle($('tab-content-wrapper'));
-            const availableWidth = parseFloat(mainContentAreaStyle.width) - 40;
-            const availableHeight = parseFloat(mainContentAreaStyle.height) - 40;
-
-            let displayWidth = currentConfig.width;
-            let displayHeight = currentConfig.height;
-
-            if (displayWidth > availableWidth) {
-                const ratio = availableWidth / displayWidth;
-                displayWidth = availableWidth;
-                displayHeight *= ratio;
-            }
-            if (displayHeight > availableHeight) {
-                const ratio = availableHeight / displayHeight;
-                displayHeight = availableHeight;
-                displayWidth *= ratio;
-            }
 
             [worksheetCanvasWrapper, answerKeyCanvasWrapper].forEach(w => {
               if (w) {
@@ -928,8 +977,22 @@
             }
 
             if (type.includes('Canvas')) { // Align single object to canvas
-                if (type === 'centerHCanvas') activeObj.centerH();
-                if (type === 'centerVCanvas') activeObj.centerV();
+                // Use actual canvas dimensions, not display dimensions
+                const actualCenterX = currentCanvasConfig.width / 2;
+                const actualCenterY = currentCanvasConfig.height / 2;
+                
+                if (type === 'centerHCanvas') {
+                    activeObj.set('left', actualCenterX);
+                    if (activeObj.originX !== 'center') {
+                        activeObj.set('left', actualCenterX - (activeObj.width * activeObj.scaleX) / 2);
+                    }
+                }
+                if (type === 'centerVCanvas') {
+                    activeObj.set('top', actualCenterY);
+                    if (activeObj.originY !== 'center') {
+                        activeObj.set('top', actualCenterY - (activeObj.height * activeObj.scaleY) / 2);
+                    }
+                }
                 activeObj.setCoords();
             } else if (activeObj.type === 'activeSelection') { // Align multiple objects
                 const group = activeObj;
@@ -1206,17 +1269,25 @@
 
             if (selectedTheme === 'all') {
                 if (!query) {
-                    dictionary.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
-                    return;
+                    // Load animals theme by default when "All Themes" is selected with no search
+                    dictionary.innerHTML = `<p class="dictionary-message">Loading default theme...</p>`;
+                    imagesToDisplay = await fetchFromApi(`/api/images?theme=animals&locale=${currentLocale}`, 'Failed to load default theme');
+                } else {
+                    dictionary.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+                    imagesToDisplay = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`, `Failed to search for "${query}"`);
                 }
-                dictionary.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-                imagesToDisplay = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}`, `Failed to search for "${query}"`);
             } else {
                 const source = currentThemeImages;
-                imagesToDisplay = query ? source.filter(img => img.word.toLowerCase().includes(query)) : source;
+                imagesToDisplay = query ? source.filter(img => {
+                    const displayName = img.name || img.word;
+                    return displayName.toLowerCase().includes(query);
+                }) : source;
             }
 
-            const uploadedMatches = uploadedImages.filter(img => img.word.toLowerCase().includes(query));
+            const uploadedMatches = uploadedImages.filter(img => {
+                const displayName = img.name || img.word;
+                return displayName.toLowerCase().includes(query);
+            });
             const combined = [...uploadedMatches, ...imagesToDisplay];
 
             if (combined.length === 0) {
@@ -1231,14 +1302,19 @@
                 return true;
             });
 
-            uniqueImages.sort((a, b) => a.word.localeCompare(b.word)).forEach(({ word, path }) => {
+            uniqueImages.sort((a, b) => {
+                const aName = a.name || a.word || '';
+                const bName = b.name || b.word || '';
+                return aName.localeCompare(bName);
+            }).forEach(img => {
                 const item = document.createElement('div');
                 item.className = 'dictionary-item';
-                if (selectedImages.some(s => s.path === path)) {
+                if (selectedImages.some(s => s.path === img.path)) {
                     item.classList.add('selected');
                 }
-                item.innerHTML = `<img src="${path}" crossOrigin="anonymous" alt="${word}"/><span>${word}</span>`;
-                item.onclick = () => toggleImageSelection({ word, path });
+                const displayName = img.name || img.word;
+                item.innerHTML = `<img src="${img.path}" crossOrigin="anonymous" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
+                item.onclick = () => toggleImageSelection(img);
                 dictionary.appendChild(item);
             });
         }
@@ -1263,7 +1339,8 @@
             selectedImages.forEach(img => {
                 const item = document.createElement('div');
                 item.className = 'dictionary-item';
-                item.innerHTML = `<img src="${img.path}" alt="${img.word}"><span>${img.word}</span>`;
+                const displayName = img.name || img.word;
+                item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"><span>${displayName}</span>`;
                 item.onclick = () => toggleImageSelection(img);
                 selectedImagesPreview.appendChild(item);
             });
@@ -1274,7 +1351,8 @@
             uploadedImages.forEach(img => {
                 const item = document.createElement('div');
                 item.className = 'dictionary-item';
-                item.innerHTML = `<img src="${img.path}" alt="${img.word}"><span>${img.word}</span>`;
+                const displayName = img.name || img.word;
+                item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"><span>${displayName}</span>`;
                 item.onclick = () => toggleImageSelection(img);
                 uploadedImagesPreview.appendChild(item);
             });
@@ -1367,9 +1445,11 @@
             const modalOverlay = $('modalOverlay'), modalTheme = $('modalTheme'), modalDict = $('modalDict');
             
             modalTheme.innerHTML = '<option value="all">All Library Themes</option><option value="uploads">My Uploads</option>';
-            themes.forEach(themePath => {
-                const displayName = themePath.split('/').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' / ');
-                modalTheme.add(new Option(displayName, themePath));
+            themes.forEach(theme => {
+                // Handle both old format (string) and new format ({value, displayName})
+                const value = theme.value || theme;
+                const displayName = theme.displayName || theme.split('/').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' / ');
+                modalTheme.add(new Option(displayName, value));
             });
 
             const closeModal = () => modalOverlay.remove();
@@ -1380,10 +1460,12 @@
                 images.forEach(img => {
                     const item = document.createElement('div');
                     item.className = 'dictionary-item';
-                    item.innerHTML = `<img src="${img.path}" alt="${img.word}"><span>${img.word}</span>`;
+                    const displayName = img.name || img.word;
+                item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"><span>${displayName}</span>`;
                     item.onclick = () => {
                         configSlots[r][c] = { type: 'img', val: img };
-                        $(`lbl-${r}-${c}`).textContent = img.word;
+                        const displayName = img.name || img.word;
+                        $(`lbl-${r}-${c}`).textContent = displayName;
                         closeModal();
                     };
                     modalDict.append(item);
@@ -1395,9 +1477,11 @@
                 if(theme === 'uploads') {
                     renderModalDict(uploadedImages);
                 } else if (theme === 'all') {
-                    renderModalDict([]);
+                    // Load default "animals" theme when "All" is selected
+                    const modalImages = await fetch(`/api/images?theme=animals&locale=${currentLocale}`).then(res => res.json());
+                    renderModalDict(modalImages);
                 } else {
-                    const modalImages = await fetch(`/api/images?theme=${encodeURIComponent(theme)}`).then(res => res.json());
+                    const modalImages = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`).then(res => res.json());
                     renderModalDict(modalImages);
                 }
             };
@@ -1430,10 +1514,10 @@
                     if (letterType === 'randomAll') {
                         if (themes.length === 0) throw new Error('Themes not loaded yet. Please wait.');
                         const randomTheme = themes[Math.floor(Math.random() * themes.length)];
-                        pool = await fetchFromApi(`/api/images?theme=${encodeURIComponent(randomTheme)}`, `Failed to load random theme "${randomTheme}"`);
+                        pool = await fetchFromApi(`/api/images?theme=${encodeURIComponent(randomTheme)}&locale=${currentLocale}`, `Failed to load random theme "${randomTheme}"`);
                     } else if (letterType === 'randomTheme') {
                         if (!letterThemeEl.value) throw new Error('Please choose a theme.');
-                        pool = await fetchFromApi(`/api/images?theme=${encodeURIComponent(letterThemeEl.value)}`, 'Failed to load theme images.');
+                        pool = await fetchFromApi(`/api/images?theme=${encodeURIComponent(letterThemeEl.value)}&locale=${currentLocale}`, 'Failed to load theme images.');
                     } else {
                         const allSelected = [...selectedImages, ...uploadedImages];
                         if (allSelected.length < n) throw new Error(`Please select at least ${n} images.`);
@@ -1441,7 +1525,10 @@
                     }
                     if (pool.length < n) throw new Error(`Not enough images in the selected theme. Found ${pool.length}, need ${n}.`);
                     pool = shuffle(pool).slice(0, n);
-                    answerKey = pool.map(img => ({ left: { type: 'img', val: img }, right: { type: 'text', val: img.word.charAt(0).toUpperCase() } }));
+                    answerKey = pool.map(img => {
+                        const displayName = img.name || img.word;
+                        return { left: { type: 'img', val: img }, right: { type: 'text', val: displayName.charAt(0).toUpperCase() } };
+                    });
                     const rightItems = shuffle(answerKey.map(p => p.right));
                     pairs = answerKey.map((p, i) => ({ left: p.left, right: rightItems[i] }));
                 } else {
@@ -1544,7 +1631,8 @@
                     fabric.Image.fromURL(item.val.path, (img) => {
                         img.scaleToWidth(80);
                         if(item.type === 'imgname') {
-                            const text = new fabric.Textbox(item.val.word, { 
+                            const displayName = item.val.name || item.val.word;
+                            const text = new fabric.Textbox(displayName, { 
                                 fontSize: 20, 
                                 top: img.getScaledHeight() + 5,
                                 originX: 'center'
@@ -1568,34 +1656,44 @@
             if (pairs.length === 0) {
                 canvas.renderAll(); return;
             }
-            const PADDING = 40;
-            let topOffset = PADDING;
+            // Use actual canvas dimensions for proper layout
+            const canvasWidth = currentCanvasConfig.width;
+            const canvasHeight = currentCanvasConfig.height;
+            
+            // Define consistent margins
+            const topMargin = 60;
+            const sideMargin = 50;
+            const bottomMargin = 40;
+            
+            let topOffset = topMargin;
 
             if (includeNameDate.checked && !isAnswerKey) {
                 const nameDateKey = 'header_nameDate';
                 const nameDateGroup = canvas.getObjects().find(o => o.originalIndex === 'nameDate');
                 if (!nameDateGroup) {
                     const textOptions = { fontSize: 16, fontFamily: 'Fredoka', fill: '#333' };
-                    const groupWidth = canvas.width - (PADDING * 2);
+                    const groupWidth = canvasWidth - (sideMargin * 2);
                     const nameText = new fabric.Textbox('Name: _________________________', { ...textOptions, width: groupWidth / 2 - 10, left: 0, top: 0 });
                     const dateText = new fabric.Textbox('Date: ________________', { ...textOptions, width: groupWidth / 2 - 10, left: groupWidth / 2 + 10, top: 0, textAlign: 'right' });
                     const newNameDateGroup = new fabric.Group([nameText, dateText], {
-                        left: PADDING, top: PADDING / 2,
+                        left: sideMargin, top: topMargin / 2,
                         isGeneratedItem: true, originalIndex: 'nameDate', position: 'header',
                         borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
                         cornerSize: 8, transparentCorners: false, cornerStyle: 'circle'
                     });
                     if (transforms[nameDateKey]) newNameDateGroup.set(transforms[nameDateKey]);
                     canvas.add(newNameDateGroup);
-                    topOffset = newNameDateGroup.getBoundingRect(true).height + PADDING;
+                    topOffset = newNameDateGroup.getBoundingRect(true).height + topMargin;
                 } else {
-                     topOffset = nameDateGroup.getBoundingRect(true).height + PADDING;
+                     topOffset = nameDateGroup.getBoundingRect(true).height + topMargin;
                 }
             }
 
-            const itemHeight = (canvas.height - topOffset - PADDING) / pairs.length;
-            const leftColX = canvas.width * 0.1;
-            const rightColX = canvas.width * 0.75;
+            // Calculate available space and item height
+            const availableHeight = canvasHeight - topOffset - bottomMargin;
+            const itemHeight = Math.min(availableHeight / pairs.length, 120); // Limit max item height
+            const leftColX = sideMargin + (canvasWidth * 0.05);
+            const rightColX = canvasWidth - sideMargin - (canvasWidth * 0.25);
             
             const createAndPositionItem = async (itemData, colX, isLeftCol, index, mode) => {
                 const mainObject = await createFabricObject(itemData);
@@ -1689,6 +1787,18 @@
 
         // --- Download Logic ---
         const getCanvasDataURL = async (canvasInstance, options) => {
+            // Save current state
+            const currentZoom = canvasInstance.getZoom();
+            const currentWidth = canvasInstance.getWidth();
+            const currentHeight = canvasInstance.getHeight();
+            
+            // Reset to actual size for export
+            canvasInstance.setZoom(1);
+            canvasInstance.setDimensions({
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
+            });
+            
             let dataURL = canvasInstance.toDataURL({
                 format: 'jpeg',
                 quality: 1.0,
@@ -1708,6 +1818,14 @@
                     tempImg.src = dataURL;
                 });
             }
+            
+            // Restore display state
+            canvasInstance.setZoom(currentZoom);
+            canvasInstance.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
+            
             return dataURL;
         };
 
@@ -1732,14 +1850,14 @@
             showMessage(`Preparing ${fileName}...`, 'info', 0);
             const { jsPDF } = window.jspdf;
             const pdf = new jsPDF({
-                orientation: currentConfig.width > currentConfig.height ? 'l' : 'p',
+                orientation: currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p',
                 unit: 'pt',
-                format: [currentConfig.width, currentConfig.height]
+                format: [currentCanvasConfig.width, currentCanvasConfig.height]
             });
 
             const exportOptions = { multiplier: downloadMultiplier };
             const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
-            pdf.addImage(dataURL, 'JPEG', 0, 0, currentConfig.width, currentConfig.height);
+            pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
             pdf.save(fileName);
             showMessage(`${fileName} downloaded!`, "success");
         };
@@ -1781,7 +1899,7 @@
         // --- Initial Setup & Event Listeners ---
         const loadThemes = async () => {
             try {
-                const themePaths = await fetchFromApi('/api/themes/nested', 'Failed to load themes');
+                const themePaths = await fetchFromApi(`/api/themes-translated?locale=${currentLocale}`, 'Failed to load themes');
                 themes = themePaths;
                 const themeSelects = [dictTheme, letterThemeEl];
                 
@@ -1794,9 +1912,11 @@
                     }
                 });
 
-                themePaths.forEach(path => {
-                    const displayName = path.split('/').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' / ');
-                    const option = new Option(displayName, path);
+                themePaths.forEach(theme => {
+                    // Handle both old format (string) and new format ({value, displayName})
+                    const value = theme.value || theme;
+                    const displayName = theme.displayName || theme.split('/').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' / ');
+                    const option = new Option(displayName, value);
                     themeSelects.forEach(sel => sel.add(option.cloneNode(true)));
                 });
             } catch (e) {
@@ -1804,6 +1924,37 @@
             }
         };
 
+        // Add language handler after DOM elements defined
+        const languageSelect = document.getElementById('languageSelect');
+        if (languageSelect) {
+            languageSelect.value = currentLocale;
+            languageSelect.addEventListener('change', async function() {
+                currentLocale = this.value;
+                if (typeof applyTranslations === 'function') {
+                    applyTranslations();
+                }
+                await loadThemes(); // Reload themes with translations
+                
+                // Reload current theme images with new locale
+                const selectedTheme = dictTheme.value;
+                if (selectedTheme && selectedTheme !== 'all') {
+                    // Reload specific theme
+                    currentThemeImages = await fetchFromApi(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`, `Failed to load theme "${selectedTheme}"`);
+                } else {
+                    // Clear current theme images for "all" selection
+                    currentThemeImages = [];
+                }
+                
+                // Always re-render dictionary to update displayed names
+                await renderDictionary();
+            });
+        }
+        
+        // Apply translations on load
+        if (typeof applyTranslations === 'function') {
+            applyTranslations();
+        }
+        
         const init = async () => {
             worksheetCanvas = initializeCanvas('worksheetCanvasElement');
             answerKeyCanvas = initializeCanvas('answerKeyCanvasElement');
@@ -1854,7 +2005,7 @@
                 if (selectedTheme === 'all') {
                     currentThemeImages = [];
                 } else {
-                    currentThemeImages = await fetchFromApi(`/api/images?theme=${encodeURIComponent(selectedTheme)}`, `Failed to load theme "${selectedTheme}"`);
+                    currentThemeImages = await fetchFromApi(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`, `Failed to load theme "${selectedTheme}"`);
                 }
                 await renderDictionary();
             });
@@ -1897,12 +2048,15 @@
                 handleSelectionChange();
             });
             
-            await renderDictionary(); 
+            // Don't render dictionary here - let it be done after language handler is set up
             updateCanvasDisplayDimensions();
             updateUI();
         };
 
-        init();
+        await init();
+        
+        // Now render dictionary with correct locale
+        await renderDictionary();
     });
     
     // Check if user is on free tier

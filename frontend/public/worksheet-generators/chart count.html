@@ -6,6 +6,7 @@
   <title>Picture Graph Playground</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="/js/translations.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
   <style>
@@ -450,15 +451,29 @@
       <div class="accordion-item">
         <button class="accordion-button active">Page Setup</button>
         <div class="accordion-content active">
+          <div class="language-selector" style="margin-bottom: 15px;">
+              <label data-translate-key="language">Language:</label>
+              <select id="languageSelect">
+                  <option value="en">English</option>
+                  <option value="de">Deutsch</option>
+                  <option value="fr">Français</option>
+                  <option value="es">Español</option>
+                  <option value="pt">Português</option>
+                  <option value="it">Italiano</option>
+                  <option value="nl">Nederlands</option>
+                  <option value="sv">Svenska</option>
+                  <option value="da">Dansk</option>
+                  <option value="no">Norsk</option>
+                  <option value="fi">Suomi</option>
+              </select>
+          </div>
           <label for="pageSizeSelect">Page Size:</label>
           <select id="pageSizeSelect">
-              <option value="792x612">Letter Landscape (792x612)</option>
-              <option value="800x1000">Default Portrait (800x1000)</option>
-              <option value="1000x800">Default Landscape (1000x800)</option>
-              <option value="595x842">A4 Portrait (595x842)</option>
-              <option value="842x595">A4 Landscape (842x595)</option>
-              <option value="612x792">Letter Portrait (612x792)</option>
-              <option value="1200x1200">Square (1200x1200)</option>
+              <option value="612x792">Letter Portrait (612×792)</option>
+              <option value="792x612" selected>Letter Landscape (792×612)</option>
+              <option value="595x842">A4 Portrait (595×842)</option>
+              <option value="842x595">A4 Landscape (842×595)</option>
+              <option value="1200x1200">Square (1200×1200)</option>
               <option value="custom">Custom</option>
           </select>
           <div id="customPageSizeInputs" style="display:none;">
@@ -683,6 +698,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const downloadWsPdfBtn = document.getElementById('downloadWsPdfBtn');
     const downloadAkPdfBtn = document.getElementById('downloadAkPdfBtn');
     const grayscaleToggle = document.getElementById('grayscaleToggle');
+    const languageSelect = document.getElementById('languageSelect');
     const pageSizeSelect = document.getElementById('pageSizeSelect');
     const customPageSizeInputsDiv = document.getElementById('customPageSizeInputs');
     const pageWidthInput = document.getElementById('pageWidth');
@@ -813,6 +829,21 @@ document.addEventListener('DOMContentLoaded', () => {
         downloadAkJpegBtn.addEventListener('click', () => downloadCanvasAsJPEG(solutionCanvas, 'answer_key.jpeg'));
         downloadWsPdfBtn.addEventListener('click', () => downloadCanvasAsPDF(worksheetCanvas, 'worksheet.pdf'));
         downloadAkPdfBtn.addEventListener('click', () => downloadCanvasAsPDF(solutionCanvas, 'answer_key.pdf'));
+
+        // Language selector handler
+        if (languageSelect) {
+            languageSelect.value = currentLocale;
+            languageSelect.addEventListener('change', function() {
+                currentLocale = this.value;
+                applyTranslations();
+                loadThemes(); // Reload themes with translations
+            });
+        }
+        
+        // Apply translations on load
+        if (typeof applyTranslations !== 'undefined') {
+            applyTranslations();
+        }
 
         pageSizeSelect.addEventListener('change', () => {
             customPageSizeInputsDiv.style.display = pageSizeSelect.value === 'custom' ? 'block' : 'none';

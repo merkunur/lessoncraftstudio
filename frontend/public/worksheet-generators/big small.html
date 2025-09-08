@@ -5,6 +5,7 @@
   <title>Big & Small Worksheet Generator</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="/js/translations.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
@@ -537,8 +538,16 @@
         background-color: var(--app-surface-light);
         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         border-radius: 8px;
-        overflow: auto;
+        overflow: visible !important;  /* Changed from auto */
         margin: auto;
+        position: relative;
+    }
+    
+    /* Ensure Fabric.js container doesn't clip */
+    .canvas-container { 
+        overflow: visible !important;
+        position: relative !important;
+        margin: 0 auto;
     }
     canvas {
       display: block;
@@ -684,13 +693,29 @@
             <button class="accordion-button active">Page Setup</button>
             <div class="accordion-content active">
                 <h4>Configuration</h4>
+                <div class="language-selector" style="margin-bottom: 15px;">
+                    <label data-translate-key="language">Language:</label>
+                    <select id="languageSelect">
+                        <option value="en">English</option>
+                        <option value="de">Deutsch</option>
+                        <option value="fr">Français</option>
+                        <option value="es">Español</option>
+                        <option value="pt">Português</option>
+                        <option value="it">Italiano</option>
+                        <option value="nl">Nederlands</option>
+                        <option value="sv">Svenska</option>
+                        <option value="da">Dansk</option>
+                        <option value="no">Norsk</option>
+                        <option value="fi">Suomi</option>
+                    </select>
+                </div>
                 <label for="pageSizeSelect">Page Size:</label>
                 <select id="pageSizeSelect">
-                    <option value="800x1000">Default Worksheet (800x1000)</option>
-                    <option value="595x842">A4 Portrait (595x842)</option>
-                    <option value="842x595">A4 Landscape (842x595)</option>
-                    <option value="612x792" selected>Letter Portrait (612x792)</option>
-                    <option value="792x612">Letter Landscape (792x612)</option>
+                    <option value="612x792" selected>Letter Portrait (612×792)</option>
+                    <option value="792x612">Letter Landscape (792×612)</option>
+                    <option value="595x842">A4 Portrait (595×842)</option>
+                    <option value="842x595">A4 Landscape (842×595)</option>
+                    <option value="1200x1200">Square (1200×1200)</option>
                     <option value="custom">Custom</option>
                 </select>
                 <div id="customPageSizeInputs" style="display:none;">
@@ -881,6 +906,16 @@
   </div>
 
   <script>
+    // Initialize locale BEFORE DOMContentLoaded
+    let currentLocale = 'en';
+    
+    // Initialize locale from URL if present
+    const urlParams = new URLSearchParams(window.location.search);
+    const localeParam = urlParams.get('locale');
+    if (localeParam) {
+        currentLocale = localeParam;
+    }
+    
     document.addEventListener("DOMContentLoaded", function() {
       // --- DEFAULT STATE & CONSTANTS ---
       const DEFAULT_PROBLEM_COUNT = 4;
@@ -924,12 +959,30 @@
       const worksheetCanvasElement = document.getElementById('worksheetCanvasElement');
       const answerKeyCanvasWrapper = document.getElementById('answerKeyCanvasWrapper');
       const answerKeyCanvasElement = document.getElementById('answerKeyCanvasElement');
+      const languageSelect = document.getElementById('languageSelect');
       const pageSizeSelect = document.getElementById('pageSizeSelect');
       const customPageSizeInputsDiv = document.getElementById('customPageSizeInputs');
       const pageWidthInput = document.getElementById('pageWidth');
       const pageHeightInput = document.getElementById('pageHeight');
       const setPageSizeBtn = document.getElementById('setPageSizeBtn');
       const pageColorInput = document.getElementById('pageColor');
+      
+      // Language selector handler
+      if (languageSelect) {
+          languageSelect.value = currentLocale;
+          languageSelect.addEventListener('change', function() {
+              currentLocale = this.value;
+              applyTranslations();
+              loadThemes(); // Reload themes with translations
+              loadBorderThemes();
+              loadBackgroundThemes();
+          });
+      }
+      
+      // Apply translations on load
+      if (typeof applyTranslations !== 'undefined') {
+          applyTranslations();
+      }
       const borderThemeSelect = document.getElementById('borderThemeSelect');
       const borderDictionary = document.getElementById('borderDictionary');
       const borderOpacityInput = document.getElementById('borderOpacity');
@@ -1082,7 +1135,7 @@
       async function getImagesForTheme(theme) {
           if (allImagesCache[theme]) return allImagesCache[theme];
           try {
-              const images = await fetch(`/api/images?theme=${encodeURIComponent(theme)}`).then(res => {
+              const images = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`).then(res => {
                   if (!res.ok) throw new Error(`Network response was not ok for theme: ${theme}`);
                   return res.json();
               });
@@ -1096,7 +1149,7 @@
       }
 
       function loadThemes() {
-        fetch('/api/themes/nested')
+        fetch(`/api/themes-translated?locale=${currentLocale}`)
           .then(res => res.ok ? res.json() : Promise.reject(`HTTP error! status: ${res.status}`))
           .then(themePaths => {
             allThemes = themePaths;
@@ -1136,7 +1189,7 @@
                       return;
                   }
                   dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-                  imagesToDisplay = await fetch(`/api/images?search=${encodeURIComponent(query)}`).then(res => res.json());
+                  imagesToDisplay = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`).then(res => res.json());
               } else {
                   const source = await getImagesForTheme(selectedTheme);
                   imagesToDisplay = query ? source.filter(img => img.word.toLowerCase().includes(query)) : source;
@@ -1158,7 +1211,8 @@
               item.className = 'dictionary-item';
               if (selectedImages.some(selImg => selImg.path === img.path)) item.classList.add('selected');
 
-              item.innerHTML = `<img src="${img.path}" crossOrigin="anonymous" alt="${img.word}"/><span>${img.word}</span>`;
+              const displayName = img.name || img.word;
+              item.innerHTML = `<img src="${img.path}" crossOrigin="anonymous" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
               item.onclick = (e) => toggleImageSelection(img, e.currentTarget);
               dictionaryDiv.appendChild(item);
           });
@@ -1170,7 +1224,8 @@
             const item = document.createElement("div");
             item.className = "dictionary-item";
             if (selectedImages.some(selImg => selImg.path === img.path)) item.classList.add('selected');
-            item.innerHTML = `<img src="${img.path}" alt="${img.word}" loading="lazy"/><span>${img.word}</span>`;
+            const displayName = img.name || img.word;
+            item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
             item.onclick = (e) => toggleImageSelection(img, e.currentTarget);
             uploadedImagesPreviewDiv.appendChild(item);
         });
@@ -1193,7 +1248,7 @@
         selectedImages.forEach(img => { 
             const imgEl = document.createElement("img"); 
             imgEl.src = img.path; 
-            imgEl.alt = img.word; 
+            imgEl.alt = img.name || img.word; 
             imgEl.onclick = () => {
                 const index = selectedImages.findIndex(i => i.path === img.path);
                 if (index > -1) selectedImages.splice(index, 1);
@@ -1307,8 +1362,22 @@
         }
 
         if (type.includes('Canvas')) { // Align single object to canvas
-            if (type === 'centerHCanvas') activeObj.centerH();
-            if (type === 'centerVCanvas') activeObj.centerV();
+            // Use actual canvas dimensions, not display dimensions
+            const actualCenterX = currentCanvasConfig.width / 2;
+            const actualCenterY = currentCanvasConfig.height / 2;
+            
+            if (type === 'centerHCanvas') {
+                activeObj.set('left', actualCenterX);
+                if (activeObj.originX !== 'center') {
+                    activeObj.set('left', actualCenterX - (activeObj.width * activeObj.scaleX) / 2);
+                }
+            }
+            if (type === 'centerVCanvas') {
+                activeObj.set('top', actualCenterY);
+                if (activeObj.originY !== 'center') {
+                    activeObj.set('top', actualCenterY - (activeObj.height * activeObj.scaleY) / 2);
+                }
+            }
             activeObj.setCoords();
         } else if (activeObj.type === 'activeSelection') { // Align multiple objects
             const group = activeObj;
@@ -1396,7 +1465,7 @@
       
       // --- BACKGROUNDS & BORDERS ---
       function loadAssetThemes(type, selectEl) {
-             fetch(`/api/${type}/themes`)
+             fetch(`/api/${type}/themes?locale=${currentLocale}`)
                 .then(res => { if (!res.ok) throw new Error(`Failed to load ${type} themes`); return res.json(); })
                 .then(themes => {
                     selectEl.innerHTML = `<option value="none">None</option>`;
@@ -1422,7 +1491,7 @@
                 return;
             }
             dictionaryEl.innerHTML = `<p class="dictionary-message">Loading ${theme} ${type}...</p>`;
-            fetch(`/api/${type}/images?theme=${theme}`)
+            fetch(`/api/${type}/images?theme=${theme}&locale=${currentLocale}`)
                 .then(res => { if (!res.ok) throw new Error(`Failed to load images for ${type} theme`); return res.json(); })
                 .then(images => {
                     dictionaryEl.innerHTML = "";
@@ -1533,7 +1602,7 @@
                   imagePool = await getImagesForTheme(theme);
               } else {
                   try {
-                      imagePool = await fetch('/api/images?search=').then(res => res.json());
+                      imagePool = await fetch(`/api/images?search=&locale=${currentLocale}`).then(res => res.json());
                   } catch (e) {
                       console.error("Failed to fetch all images for auto-creation:", e);
                       if (allThemes.length > 0) {
@@ -1912,10 +1981,29 @@
       }
       
       async function getCanvasDataURLWithOptions(canvasInstance, exportOptions) {
+          // Save current state
+          const currentZoom = canvasInstance.getZoom();
+          const currentWidth = canvasInstance.getWidth();
+          const currentHeight = canvasInstance.getHeight();
+          
+          // Reset to actual size for export
+          canvasInstance.setZoom(1);
+          canvasInstance.setDimensions({
+              width: currentCanvasConfig.width,
+              height: currentCanvasConfig.height
+          });
+          
           const dataURL = canvasInstance.toDataURL({
               format: 'jpeg',
               quality: 1.0,
               multiplier: exportOptions.multiplier
+          });
+          
+          // Restore display state
+          canvasInstance.setZoom(currentZoom);
+          canvasInstance.setDimensions({
+              width: currentWidth,
+              height: currentHeight
           });
 
           if (exportOptions.applyPixelLevelGrayscale) {

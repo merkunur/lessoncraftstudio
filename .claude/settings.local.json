@@ -63,7 +63,8 @@
       "Bash(git commit:*)",
       "Read(//c/**)",
       "Bash(git checkout:*)",
-      "Bash(del frontend\\public\\test-word-scramble-themes.html)"
+      "Bash(del frontend\\public\\test-word-scramble-themes.html)",
+      "Bash(git -C C:/Users/rkgen/lessoncraftstudio log --oneline -5)"
     ],
     "deny": [],
     "ask": []

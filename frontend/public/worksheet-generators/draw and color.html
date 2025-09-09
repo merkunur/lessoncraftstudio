@@ -878,7 +878,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let worksheetCanvas;
     let currentThemeImages = []; // Holds images for the currently selected theme
     let selectedImage = null;
-    let currentCanvasConfig = { width: 612, height: 792 };
+    // Remove duplicate - already declared globally above
     const downloadMultiplier = 6; // For high-resolution export
 
     // --- Accordion & Dropdown UI Logic ---
@@ -1768,7 +1768,9 @@ document.addEventListener("DOMContentLoaded", function() {
             if (!img) { showMessage('Failed to load background image.', 'error'); return; }
 
             img.set({
-                originX: 'left', originY: 'top',
+                left: 0,  // Position at 0,0
+                top: 0,
+                originX: 'left', originY: 'top',  // Keep default origins to avoid coordinate issues
                 selectable: true, evented: true, hasControls: true, hasBorders: true,
                 isBackground: true, // Custom property
                 opacity: parseFloat(backgroundOpacityInput.value),
@@ -1778,7 +1780,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 transparentCorners: false,
                 cornerStyle: 'circle'
             });
-            img.scaleToWidth(worksheetCanvas.width);
+            img.scaleToWidth(currentCanvasConfig.width);  // Use actual canvas width
+            img.setCoords();  // Update coordinates after scaling
             worksheetCanvas.add(img);
             maintainZOrder(); // Use the centralized function to fix z-order
             backgroundOpacityInput.disabled = false;
@@ -1796,10 +1799,11 @@ document.addEventListener("DOMContentLoaded", function() {
         fabric.Image.fromURL(path, (img) => {
             if (!img) { showMessage('Failed to load border image.', 'error'); return; }
             
-            img.scaleToWidth(worksheetCanvas.width);
+            img.scaleToWidth(currentCanvasConfig.width);  // Use actual canvas width
             img.set({
-                left: worksheetCanvas.width / 2, top: worksheetCanvas.height / 2,
-                originX: 'center', originY: 'center',
+                left: 0,  // Position at 0,0
+                top: 0,
+                originX: 'left', originY: 'top',  // Use default origins to avoid coordinate issues
                 selectable: true, evented: true, hasControls: true, hasBorders: true,
                 opacity: parseFloat(borderOpacityInput.value),
                 isBorder: true,
@@ -1809,6 +1813,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 transparentCorners: false,
                 cornerStyle: 'circle',
             });
+            img.setCoords();  // Update coordinates after scaling
             worksheetCanvas.add(img);
             maintainZOrder(); // Use the centralized function to fix z-order
             borderOpacityInput.disabled = false;
@@ -2150,38 +2155,63 @@ async function downloadPDF() {
         'selection:created': handleObjectSelection,
         'selection:updated': handleObjectSelection,
         'selection:cleared': handleSelectionCleared,
-        'object:moving': constrainObjectMovement
+        'object:moving': constrainObjectMovement,
+        'object:modified': function(e) {
+            // Ensure coordinates are updated after any modification
+            if (e.target) {
+                e.target.setCoords();
+                worksheetCanvas.renderAll();
+            }
+        },
+        'object:scaling': function(e) {
+            // Update coordinates during scaling
+            if (e.target) {
+                e.target.setCoords();
+            }
+        }
     });
     
     // Constrain objects to stay within page boundaries
     function constrainObjectMovement(e) {
         const obj = e.target;
-        const zoom = worksheetCanvas.getZoom();
         
-        // Get object dimensions
-        const objWidth = obj.getScaledWidth() / zoom;
-        const objHeight = obj.getScaledHeight() / zoom;
+        // Special handling for background and border objects
+        if (obj.isBackground || obj.isBorder) {
+            // Don't constrain background/border, just update coords
+            obj.setCoords();
+            return;
+        }
+        // Get object bounding rect (accounts for rotation and scale)
+        const boundingRect = obj.getBoundingRect();
         
         // Define boundaries with small margin
         const margin = 10;
-        const leftBound = margin;
-        const topBound = margin;
-        const rightBound = currentCanvasConfig.width - objWidth - margin;
-        const bottomBound = currentCanvasConfig.height - objHeight - margin;
+        const canvasWidth = currentCanvasConfig.width;
+        const canvasHeight = currentCanvasConfig.height;
         
-        // Constrain position
-        if (obj.left < leftBound) {
-            obj.left = leftBound;
+        // Calculate how much to adjust if object is out of bounds
+        let newLeft = obj.left;
+        let newTop = obj.top;
+        
+        // Check boundaries using bounding rect
+        if (boundingRect.left < margin) {
+            newLeft = obj.left + (margin - boundingRect.left);
         }
-        if (obj.left > rightBound) {
-            obj.left = rightBound;
+        if (boundingRect.top < margin) {
+            newTop = obj.top + (margin - boundingRect.top);
         }
-        if (obj.top < topBound) {
-            obj.top = topBound;
+        if (boundingRect.left + boundingRect.width > canvasWidth - margin) {
+            newLeft = obj.left - ((boundingRect.left + boundingRect.width) - (canvasWidth - margin));
         }
-        if (obj.top > bottomBound) {
-            obj.top = bottomBound;
+        if (boundingRect.top + boundingRect.height > canvasHeight - margin) {
+            newTop = obj.top - ((boundingRect.top + boundingRect.height) - (canvasHeight - margin));
         }
+        
+        // Apply constraints
+        obj.set({
+            left: newLeft,
+            top: newTop
+        });
         
         obj.setCoords();
     }

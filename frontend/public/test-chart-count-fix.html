@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart Count - Image Library Fix Test</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f9fafb;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #1f2937;
+            margin-bottom: 10px;
+        }
+        .success-box {
+            background: #10b981;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .success-box h2 {
+            margin: 0 0 10px 0;
+        }
+        .app-frame {
+            width: 100%;
+            height: 900px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            background: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Chart Count - Image Library Fix Test</h1>
+        
+        <div class="success-box">
+            <h2>✅ Fixed: currentLocale now inside DOMContentLoaded</h2>
+            <p>The currentLocale initialization has been moved inside the DOMContentLoaded event listener to prevent breaking the image library.</p>
+        </div>
+        
+        <h2>Live App Test:</h2>
+        <iframe src="/api/worksheet/chart%20count.html?locale=en&tier=free" class="app-frame" id="appFrame"></iframe>
+    </div>
+    
+    <script>
+        const iframe = document.getElementById('appFrame');
+        
+        iframe.addEventListener('load', function() {
+            setTimeout(() => {
+                try {
+                    const iframeDoc = iframe.contentDocument;
+                    const themeSelect = iframeDoc.getElementById('themeSelect');
+                    const languageSelect = iframeDoc.getElementById('languageSelect');
+                    
+                    console.log('Checking Chart Count app status...');
+                    
+                    if (themeSelect) {
+                        console.log(`✅ Theme select found with ${themeSelect.options.length} options`);
+                        if (themeSelect.options.length > 1) {
+                            console.log('✅ Themes loaded successfully!');
+                            // List first few themes
+                            for (let i = 1; i < Math.min(5, themeSelect.options.length); i++) {
+                                console.log(`  - ${themeSelect.options[i].text}`);
+                            }
+                        } else {
+                            console.error('❌ No themes loaded!');
+                        }
+                    } else {
+                        console.error('❌ Theme select not found!');
+                    }
+                    
+                    if (languageSelect) {
+                        console.log(`✅ Language select found, current value: ${languageSelect.value}`);
+                    } else {
+                        console.error('❌ Language select not found!');
+                    }
+                    
+                    // Check for console errors in iframe
+                    const iframeWin = iframe.contentWindow;
+                    if (iframeWin.console && iframeWin.console.error) {
+                        console.log('Checking for errors in iframe console...');
+                    }
+                    
+                } catch (e) {
+                    console.error('Error checking iframe:', e);
+                }
+            }, 2000);
+        });
+        
+        console.log('Loading Chart Count app...');
+    </script>
+</body>
+</html>

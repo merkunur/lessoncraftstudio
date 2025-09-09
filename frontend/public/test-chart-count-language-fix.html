@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart Count - Language Test</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f9fafb;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .test-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin: 20px 0;
+        }
+        .test-button {
+            padding: 10px;
+            background: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+        .test-button:hover {
+            background: #2563eb;
+        }
+        .app-frame {
+            width: 100%;
+            height: 900px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            background: white;
+        }
+        .status {
+            padding: 15px;
+            background: #f3f4f6;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-family: monospace;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Chart Count - Theme Translation Test</h1>
+        
+        <div class="status" id="status">
+            Click a language button to test theme translations
+        </div>
+        
+        <div class="test-grid">
+            <button class="test-button" onclick="testLanguage('en')">English</button>
+            <button class="test-button" onclick="testLanguage('de')">German</button>
+            <button class="test-button" onclick="testLanguage('fr')">French</button>
+            <button class="test-button" onclick="testLanguage('es')">Spanish</button>
+            <button class="test-button" onclick="testLanguage('pt')">Portuguese</button>
+            <button class="test-button" onclick="testLanguage('it')">Italian</button>
+        </div>
+        
+        <iframe src="/api/worksheet/chart%20count.html?locale=en&tier=free" class="app-frame" id="appFrame"></iframe>
+    </div>
+    
+    <script>
+        const iframe = document.getElementById('appFrame');
+        const status = document.getElementById('status');
+        
+        function testLanguage(locale) {
+            // Reload iframe with new locale
+            iframe.src = `/api/worksheet/chart%20count.html?locale=${locale}&tier=free`;
+            status.innerHTML = `Loading ${locale}...`;
+            
+            iframe.addEventListener('load', function onLoad() {
+                iframe.removeEventListener('load', onLoad);
+                
+                setTimeout(() => {
+                    try {
+                        const iframeDoc = iframe.contentDocument;
+                        const iframeWin = iframe.contentWindow;
+                        
+                        // Check currentLocale value
+                        const currentLocale = iframeWin.currentLocale;
+                        
+                        // Check language selector
+                        const languageSelect = iframeDoc.getElementById('languageSelect');
+                        
+                        // Check theme dropdown
+                        const themeSelect = iframeDoc.getElementById('themeSelect');
+                        
+                        let report = `<strong>Language: ${locale}</strong><br>`;
+                        report += `currentLocale: ${currentLocale}<br>`;
+                        report += `languageSelect.value: ${languageSelect ? languageSelect.value : 'NOT FOUND'}<br>`;
+                        
+                        if (themeSelect && themeSelect.options.length > 1) {
+                            report += `<br>First 5 themes:<br>`;
+                            for (let i = 1; i < Math.min(6, themeSelect.options.length); i++) {
+                                report += `  - ${themeSelect.options[i].text}<br>`;
+                            }
+                        } else {
+                            report += `<br>No themes loaded!<br>`;
+                        }
+                        
+                        status.innerHTML = report;
+                        
+                        // Check for expected translations
+                        if (locale === 'de' && themeSelect) {
+                            const hasGerman = Array.from(themeSelect.options).some(opt => 
+                                opt.text.includes('Tiere') || opt.text.includes('Allgemein')
+                            );
+                            if (hasGerman) {
+                                status.innerHTML += '<br><span style="color: green">✅ German translations working!</span>';
+                            } else {
+                                status.innerHTML += '<br><span style="color: red">❌ German translations NOT working!</span>';
+                            }
+                        }
+                        
+                    } catch (e) {
+                        status.innerHTML = `Error: ${e.message}`;
+                    }
+                }, 2000);
+            });
+        }
+        
+        // Test English on load
+        setTimeout(() => testLanguage('en'), 1000);
+    </script>
+</body>
+</html>

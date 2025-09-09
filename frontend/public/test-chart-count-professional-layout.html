@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart Count - Professional Layout Test</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f9fafb;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #1f2937;
+            margin-bottom: 10px;
+        }
+        .success-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .success-box h2 {
+            margin: 0 0 10px 0;
+        }
+        .test-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .test-button {
+            padding: 12px 20px;
+            background: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+        .test-button:hover {
+            background: #2563eb;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .test-button.landscape {
+            background: #10b981;
+        }
+        .test-button.landscape:hover {
+            background: #059669;
+        }
+        .test-button.portrait {
+            background: #f59e0b;
+        }
+        .test-button.portrait:hover {
+            background: #d97706;
+        }
+        .app-frame {
+            width: 100%;
+            height: 900px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            background: white;
+        }
+        .improvements-list {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .improvements-list h3 {
+            margin-top: 0;
+            color: #1f2937;
+        }
+        .improvements-list ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .improvements-list li {
+            margin: 8px 0;
+            color: #4b5563;
+        }
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            margin: 20px 0;
+        }
+        .feature-card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .feature-card h4 {
+            color: #1f2937;
+            margin-top: 0;
+        }
+        .feature-card ul {
+            margin: 10px 0;
+            padding-left: 20px;
+            color: #4b5563;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Chart Count - Professional Adaptive Layout</h1>
+        
+        <div class="success-box">
+            <h2>🎨 Professional Educational Content Design Implemented!</h2>
+            <p>The app now creates professional-looking worksheets with intelligent adaptive layouts that adjust based on page orientation.</p>
+        </div>
+        
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h4>📐 Portrait Mode (Letter/A4)</h4>
+                <ul>
+                    <li>Vertical stacked layout</li>
+                    <li>Image grid centered horizontally</li>
+                    <li>Chart area below with proper spacing</li>
+                    <li>85% optimal scaling for balance</li>
+                    <li>Professional 80px margins</li>
+                </ul>
+            </div>
+            <div class="feature-card">
+                <h4>🖼️ Landscape Mode</h4>
+                <ul>
+                    <li>Side-by-side layout</li>
+                    <li>Image grid on left</li>
+                    <li>Chart area on right</li>
+                    <li>90% optimal scaling</li>
+                    <li>Vertically aligned centers</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="improvements-list">
+            <h3>✨ Professional Layout Features:</h3>
+            <ul>
+                <li><strong>Intelligent Orientation Detection:</strong> Automatically detects portrait vs landscape</li>
+                <li><strong>Dynamic Scaling:</strong> Content scales to fit but never exceeds 100% size</li>
+                <li><strong>Professional Margins:</strong> 80px top/bottom, 60px sides for clean appearance</li>
+                <li><strong>Perfect Centering:</strong> Both horizontal and vertical centering within boundaries</li>
+                <li><strong>Consistent Spacing:</strong> 40px between elements for visual balance</li>
+                <li><strong>Adaptive Positioning:</strong> Smart layout based on available space</li>
+                <li><strong>Visual Hierarchy:</strong> Proper scaling ratios (90% landscape, 85% portrait)</li>
+                <li><strong>Boundary Compliance:</strong> All content stays within page borders</li>
+            </ul>
+        </div>
+        
+        <div class="test-grid">
+            <button class="test-button portrait" onclick="testLayout('612x792')">Letter Portrait</button>
+            <button class="test-button landscape" onclick="testLayout('792x612')">Letter Landscape</button>
+            <button class="test-button portrait" onclick="testLayout('595x842')">A4 Portrait</button>
+            <button class="test-button landscape" onclick="testLayout('842x595')">A4 Landscape</button>
+            <button class="test-button" onclick="testLayout('1200x1200')">Square Format</button>
+            <button class="test-button" onclick="generateWorksheet()">Generate Worksheet</button>
+        </div>
+        
+        <h2>Live Preview:</h2>
+        <iframe src="/api/worksheet/chart%20count.html?locale=en&tier=free" class="app-frame" id="appFrame"></iframe>
+    </div>
+    
+    <script>
+        const iframe = document.getElementById('appFrame');
+        
+        function testLayout(pageSize) {
+            console.log(`Testing layout with page size: ${pageSize}`);
+            
+            setTimeout(() => {
+                try {
+                    const iframeDoc = iframe.contentDocument;
+                    
+                    // Set page size
+                    const pageSizeSelect = iframeDoc.getElementById('pageSizeSelect');
+                    if (pageSizeSelect) {
+                        pageSizeSelect.value = pageSize;
+                        pageSizeSelect.dispatchEvent(new Event('change'));
+                        
+                        const [width, height] = pageSize.split('x').map(Number);
+                        const orientation = width > height ? 'LANDSCAPE' : 'PORTRAIT';
+                        console.log(`✅ Set to ${orientation} (${pageSize})`);
+                        
+                        // Generate worksheet after changing size
+                        setTimeout(() => generateWorksheet(), 500);
+                    }
+                } catch (e) {
+                    console.error('Error setting layout:', e);
+                }
+            }, 500);
+        }
+        
+        function generateWorksheet() {
+            try {
+                const iframeDoc = iframe.contentDocument;
+                const generateBtn = iframeDoc.getElementById('generateWorksheetBtn');
+                if (generateBtn) {
+                    generateBtn.click();
+                    console.log('✅ Generated worksheet with professional layout');
+                }
+            } catch (e) {
+                console.error('Error generating worksheet:', e);
+            }
+        }
+        
+        // Professional layout calculation log
+        console.log(`
+🎨 Professional Layout System:
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📐 PORTRAIT Layout (612×792):
+• Top Margin: 80px
+• Bottom Margin: 80px  
+• Side Margins: 60px
+• Available: 492×632px
+• Layout: Vertical Stack
+• Scale Factor: 0.85
+• Element Spacing: 40px
+
+🖼️ LANDSCAPE Layout (792×612):
+• Top Margin: 80px
+• Bottom Margin: 80px
+• Side Margins: 60px
+• Available: 672×452px
+• Layout: Side-by-Side
+• Scale Factor: 0.9
+• Element Spacing: 40px
+
+✨ Professional Features:
+• Smart orientation detection
+• Dynamic content scaling
+• Perfect center alignment
+• Consistent visual hierarchy
+• Clean, balanced spacing
+        `);
+    </script>
+</body>
+</html>

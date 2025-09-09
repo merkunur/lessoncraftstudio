@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big or Small App Test</title>
+    <script type="module">
+        import '/web-components/big-small-app/index.js';
+    </script>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        lcs-big-small-app {
+            display: block;
+            width: 100%;
+            min-height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Big or Small App Test - All Languages</h1>
+        
+        <lcs-big-small-app 
+            id="bigSmallApp"
+            locale="en"
+            subscription="premium">
+        </lcs-big-small-app>
+        
+        <div style="margin-top: 20px;">
+            <label>Test Language: </label>
+            <select id="langTest">
+                <option value="en">English</option>
+                <option value="de">Deutsch</option>
+                <option value="fr">Français</option>
+                <option value="es">Español</option>
+                <option value="pt">Português</option>
+                <option value="it">Italiano</option>
+                <option value="nl">Nederlands</option>
+                <option value="sv">Svenska</option>
+                <option value="da">Dansk</option>
+                <option value="no">Norsk</option>
+                <option value="fi">Suomi</option>
+            </select>
+        </div>
+    </div>
+
+    <script>
+        const app = document.getElementById('bigSmallApp');
+        const langSelect = document.getElementById('langTest');
+        
+        // Set sample images for testing
+        const sampleImages = [
+            { fileKey: 'cat', displayName: 'Cat', name: 'Cat', url: '/images/animals/cat.png', path: '/images/animals/cat.png', theme: 'animals' },
+            { fileKey: 'dog', displayName: 'Dog', name: 'Dog', url: '/images/animals/dog.png', path: '/images/animals/dog.png', theme: 'animals' },
+            { fileKey: 'bird', displayName: 'Bird', name: 'Bird', url: '/images/animals/bird.png', path: '/images/animals/bird.png', theme: 'animals' },
+            { fileKey: 'fish', displayName: 'Fish', name: 'Fish', url: '/images/animals/fish.png', path: '/images/animals/fish.png', theme: 'animals' },
+            { fileKey: 'rabbit', displayName: 'Rabbit', name: 'Rabbit', url: '/images/animals/rabbit.png', path: '/images/animals/rabbit.png', theme: 'animals' },
+            { fileKey: 'elephant', displayName: 'Elephant', name: 'Elephant', url: '/images/animals/elephant.png', path: '/images/animals/elephant.png', theme: 'animals' },
+            { fileKey: 'apple', displayName: 'Apple', name: 'Apple', url: '/images/food/apple.png', path: '/images/food/apple.png', theme: 'food' },
+            { fileKey: 'banana', displayName: 'Banana', name: 'Banana', url: '/images/food/banana.png', path: '/images/food/banana.png', theme: 'food' },
+            { fileKey: 'pizza', displayName: 'Pizza', name: 'Pizza', url: '/images/food/pizza.png', path: '/images/food/pizza.png', theme: 'food' },
+            { fileKey: 'car', displayName: 'Car', name: 'Car', url: '/images/transportation/car.png', path: '/images/transportation/car.png', theme: 'transportation' }
+        ];
+        
+        // Set images on the component
+        setTimeout(() => {
+            app.images = sampleImages;
+        }, 500);
+        
+        // Handle language change
+        langSelect.addEventListener('change', (e) => {
+            app.locale = e.target.value;
+            // Update URL to include locale
+            const url = new URL(window.location);
+            url.searchParams.set('locale', e.target.value);
+            window.history.pushState({}, '', url);
+        });
+        
+        // Check for locale in URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const localeParam = urlParams.get('locale');
+        if (localeParam) {
+            app.locale = localeParam;
+            langSelect.value = localeParam;
+        }
+    </script>
+</body>
+</html>

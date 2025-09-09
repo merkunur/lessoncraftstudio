@@ -1,4 +1,4 @@
-import { BaseWebComponent } from '../shared/BaseWebComponent.js';
+import { BaseWebComponent } from '/api/web-components/shared/BaseWebComponent.js';
 
 class BigSmallAppGenerator extends BaseWebComponent {
   constructor() {

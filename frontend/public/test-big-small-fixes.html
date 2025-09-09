@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Small App - Fixes Test</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f9fafb;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #1f2937;
+            margin-bottom: 10px;
+        }
+        .fixes-box {
+            background: #10b981;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .fixes-box h2 {
+            margin: 0 0 10px 0;
+        }
+        .app-frame {
+            width: 100%;
+            height: 900px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            background: white;
+        }
+        .issue-list {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .issue-list h3 {
+            margin-top: 0;
+            color: #1f2937;
+        }
+        .issue-list ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .issue-list li {
+            margin: 8px 0;
+            color: #4b5563;
+        }
+        .test-actions {
+            background: #f3f4f6;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .test-actions button {
+            padding: 8px 16px;
+            background: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .test-actions button:hover {
+            background: #2563eb;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Big Small App - Testing Fixes</h1>
+        
+        <div class="fixes-box">
+            <h2>✅ Issues Fixed</h2>
+            <p><strong>Fixed the following issues:</strong></p>
+            <ul style="margin: 10px 0; padding-left: 20px;">
+                <li>Removed duplicate updateCanvasDisplayDimensions function</li>
+                <li>Fixed canvas references (was using non-existent canvas1/canvas2)</li>
+                <li>Added proper canvas zoom and scaling (60% width, 70% height of viewport)</li>
+                <li>Added window resize handler for responsive canvas</li>
+                <li>Canvas now initializes with proper size after app loads</li>
+            </ul>
+        </div>
+        
+        <div class="issue-list">
+            <h3>What Was Wrong:</h3>
+            <ul>
+                <li><strong>Duplicate Functions:</strong> There were two updateCanvasDisplayDimensions functions conflicting</li>
+                <li><strong>Wrong Canvas References:</strong> Second function referenced canvas1/canvas2 instead of worksheetCanvas/answerKeyCanvas</li>
+                <li><strong>No Zoom:</strong> Original function didn't use zoom, making canvas appear at actual size (tiny)</li>
+                <li><strong>No Resize Handler:</strong> Canvas didn't adjust when window was resized</li>
+            </ul>
+        </div>
+        
+        <div class="issue-list">
+            <h3>How It's Fixed Now:</h3>
+            <ul>
+                <li><strong>Single Function:</strong> One updateCanvasDisplayDimensions function that properly handles both canvases</li>
+                <li><strong>Proper Scaling:</strong> Canvas scales to 60% of window width, 70% of height (whichever is smaller)</li>
+                <li><strong>Zoom Applied:</strong> Uses Fabric.js zoom to scale canvas for display</li>
+                <li><strong>Responsive:</strong> Updates on window resize</li>
+                <li><strong>Accordion Works:</strong> Sidebar accordions are properly initialized and clickable</li>
+            </ul>
+        </div>
+        
+        <div class="test-actions">
+            <h3>Test Actions:</h3>
+            <button onclick="testAccordion()">Test Accordions</button>
+            <button onclick="testCanvasSize()">Check Canvas Size</button>
+            <button onclick="resizeWindow()">Simulate Window Resize</button>
+        </div>
+        
+        <h2>Live App Preview:</h2>
+        <iframe src="/api/worksheet/big%20small.html?locale=en&tier=free" class="app-frame" id="appFrame"></iframe>
+    </div>
+    
+    <script>
+        const iframe = document.getElementById('appFrame');
+        
+        function testAccordion() {
+            console.log('Testing accordions in iframe...');
+            try {
+                const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                const accordions = iframeDoc.querySelectorAll('.accordion-button');
+                console.log(`Found ${accordions.length} accordion buttons`);
+                
+                // Test clicking the second accordion
+                if (accordions[1]) {
+                    accordions[1].click();
+                    console.log('✅ Clicked Text Tools accordion');
+                }
+            } catch (e) {
+                console.error('Error testing accordions:', e);
+            }
+        }
+        
+        function testCanvasSize() {
+            console.log('Checking canvas size...');
+            try {
+                const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                const canvas = iframeDoc.querySelector('.canvas-container');
+                if (canvas) {
+                    const rect = canvas.getBoundingClientRect();
+                    console.log(`Canvas size: ${rect.width}x${rect.height}`);
+                    console.log(`Window size: ${window.innerWidth}x${window.innerHeight}`);
+                    console.log(`Canvas is ${(rect.width/window.innerWidth*100).toFixed(1)}% of window width`);
+                    
+                    if (rect.width > 100 && rect.height > 100) {
+                        console.log('✅ Canvas is properly sized');
+                    } else {
+                        console.log('❌ Canvas is too small');
+                    }
+                }
+            } catch (e) {
+                console.error('Error checking canvas:', e);
+            }
+        }
+        
+        function resizeWindow() {
+            console.log('Triggering resize event...');
+            window.dispatchEvent(new Event('resize'));
+            setTimeout(() => {
+                testCanvasSize();
+            }, 500);
+        }
+        
+        // Monitor iframe loading
+        iframe.addEventListener('load', () => {
+            console.log('✅ Big Small App loaded');
+            setTimeout(() => {
+                testCanvasSize();
+            }, 1000);
+        });
+    </script>
+</body>
+</html>

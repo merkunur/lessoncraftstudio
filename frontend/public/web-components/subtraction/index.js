@@ -1,0 +1,9 @@
+import { BaseWebComponent } from '../shared/BaseWebComponent.js';
+class SubtractionGenerator extends BaseWebComponent {
+  get appName() { return 'subtraction'; }
+  render() { this.shadowRoot.innerHTML = `<style>:host{display:block}.layout{display:flex;height:80vh}.panel{width:340px;background:#2c2c2e;color:#e0e0e0;padding:20px}.main{flex:1;background:#f0f2f5;display:flex;justify-content:center;align-items:center}canvas{border:1px solid #ddd;background:white}button{width:100%;padding:10px;background:#007aff;color:white;border:none;border-radius:5px;cursor:pointer;margin:5px 0}</style><div class="layout"><div class="panel"><h2>Subtraction</h2><button id="gen">Generate</button><button id="dl">Download</button></div><div class="main"><canvas id="c" width="612" height="792"></canvas></div></div>`; }
+  async generateWorksheet() { if (typeof fabric === 'undefined') await this.loadScript('https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js'); this.canvas = new fabric.Canvas(this.shadowRoot.getElementById('c')); this.canvas.add(new fabric.Text('Subtraction Practice', { left: 306, top: 30, fontSize: 20, originX: 'center', fontWeight: 'bold' })); for(let i=0;i<10;i++){ const a=Math.floor(Math.random()*10)+5; const b=Math.floor(Math.random()*a)+1; this.canvas.add(new fabric.Text(`${i+1}. ${a} - ${b} = ___`, { left: 50, top: 80 + i * 40, fontSize: 16 })); } this.emit('worksheet-generated', { type: 'subtraction' }); }
+  loadScript(s) { return new Promise((r,j) => { const sc = document.createElement('script'); sc.src = s; sc.onload = r; sc.onerror = j; document.head.appendChild(sc); }); }
+  setupEventListeners() { this.shadowRoot.getElementById('gen').onclick = () => this.generateWorksheet(); this.shadowRoot.getElementById('dl').onclick = () => { const l = document.createElement('a'); l.download = 'subtraction.png'; l.href = this.canvas.toDataURL(); l.click(); }; }
+}
+customElements.define('lcs-subtraction', SubtractionGenerator);

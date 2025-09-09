@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Small App - Final Test</title>
+    <script src="/js/translations.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f9fafb;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #1f2937;
+            margin-bottom: 10px;
+        }
+        .status {
+            padding: 10px;
+            background: #10b981;
+            color: white;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .instructions {
+            background: #f3f4f6;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .instructions h2 {
+            margin-top: 0;
+            color: #1f2937;
+        }
+        .instructions ol {
+            margin: 10px 0;
+        }
+        .instructions li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Big Small App - Fully Standardized</h1>
+        <div class="status">✅ All standardizations complete!</div>
+        
+        <div class="instructions">
+            <h2>Test Instructions:</h2>
+            <ol>
+                <li><strong>Language Support:</strong> Change the language dropdown to see translated themes and images</li>
+                <li><strong>Page Sizes:</strong> Select different page sizes (Letter, A4, Square, Custom)</li>
+                <li><strong>Theme Loading:</strong> Select a theme from the dropdown to load images</li>
+                <li><strong>Image Search:</strong> Type in the search box to find specific images</li>
+                <li><strong>Canvas Scaling:</strong> Generate a worksheet and observe proper canvas display without clipping</li>
+                <li><strong>Export Functions:</strong> Test PDF and JPEG downloads - they should export at correct dimensions</li>
+            </ol>
+            
+            <h2>What's Been Fixed:</h2>
+            <ul>
+                <li>✅ Multilingual support with 11 languages</li>
+                <li>✅ Standard page sizes (612×792 Letter, 595×842 A4, etc.)</li>
+                <li>✅ Canvas zoom without clipping issues</li>
+                <li>✅ API integration for themes and images</li>
+                <li>✅ PDF/JPEG export with zoom state preservation</li>
+                <li>✅ Lazy loading for performance</li>
+                <li>✅ Default "animals" theme when "All Themes" selected</li>
+            </ul>
+        </div>
+
+        <lcs-big-small-app></lcs-big-small-app>
+    </div>
+
+    <script type="module">
+        import BigSmallAppGenerator from '/web-components/big-small-app/index.js';
+        
+        // Log component initialization
+        window.addEventListener('load', () => {
+            const component = document.querySelector('lcs-big-small-app');
+            console.log('Big Small App loaded successfully');
+            console.log('Current locale:', component.currentLocale);
+            console.log('Canvas config:', component.currentCanvasConfig);
+            
+            // Test API connectivity
+            fetch('/api/themes-translated?locale=en')
+                .then(res => res.json())
+                .then(data => {
+                    console.log('Themes loaded:', data.length, 'themes');
+                    console.log('Sample themes:', data.slice(0, 3));
+                })
+                .catch(err => console.error('Theme loading error:', err));
+                
+            fetch('/api/images?theme=animals&locale=en')
+                .then(res => res.json())
+                .then(data => {
+                    console.log('Images loaded:', data.length, 'images');
+                    console.log('Sample image:', data[0]);
+                })
+                .catch(err => console.error('Image loading error:', err));
+        });
+    </script>
+</body>
+</html>

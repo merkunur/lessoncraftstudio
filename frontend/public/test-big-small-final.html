@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big or Small Final Test</title>
+    <script type="module">
+        import '/web-components/big-small-app/index.js';
+    </script>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .test-status {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .test-result {
+            padding: 8px;
+            margin: 4px 0;
+            border-radius: 4px;
+        }
+        .pass { background: #d4edda; color: #155724; }
+        .fail { background: #f8d7da; color: #721c24; }
+        .info { background: #d1ecf1; color: #0c5460; }
+        lcs-big-small-app {
+            display: block;
+            width: 100%;
+            min-height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="test-status">
+            <h1>Big or Small App - Final Test</h1>
+            <div id="testResults"></div>
+        </div>
+        
+        <lcs-big-small-app id="bigSmallApp" locale="en" subscription="premium"></lcs-big-small-app>
+    </div>
+
+    <script>
+        function addResult(test, passed, details = '') {
+            const results = document.getElementById('testResults');
+            const div = document.createElement('div');
+            div.className = `test-result ${passed ? 'pass' : 'fail'}`;
+            div.innerHTML = `${passed ? '✓' : '✗'} ${test}${details ? ': ' + details : ''}`;
+            results.appendChild(div);
+        }
+        
+        function addInfo(message) {
+            const results = document.getElementById('testResults');
+            const div = document.createElement('div');
+            div.className = 'test-result info';
+            div.innerHTML = `ℹ ${message}`;
+            results.appendChild(div);
+        }
+        
+        window.addEventListener('DOMContentLoaded', async () => {
+            const app = document.getElementById('bigSmallApp');
+            
+            // Wait for initialization
+            await new Promise(resolve => setTimeout(resolve, 100));
+            
+            // Test 1: Component registration
+            addResult('Component registered', customElements.get('lcs-big-small-app') !== undefined);
+            
+            // Test 2: Shadow DOM
+            addResult('Shadow DOM created', app.shadowRoot !== null);
+            
+            if (app.shadowRoot) {
+                // Test 3: Essential elements
+                const imageGrid = app.shadowRoot.getElementById('imageGrid');
+                addResult('Image grid exists', imageGrid !== null);
+                
+                const generateBtn = app.shadowRoot.getElementById('generateBtn');
+                addResult('Generate button exists', generateBtn !== null);
+                
+                const canvasContainer = app.shadowRoot.getElementById('canvasContainer');
+                addResult('Canvas container exists', canvasContainer !== null);
+                
+                // Test 4: Initial canvas state (should not exist yet)
+                const canvas = app.shadowRoot.getElementById('worksheetCanvas');
+                addResult('Canvas not created initially (good)', canvas === null);
+                
+                // Test 5: Check _images initialization
+                addResult('_images is an array', Array.isArray(app._images));
+                addInfo(`Initial _images length: ${app._images ? app._images.length : 'undefined'}`);
+                
+                // Test 6: Sample images
+                try {
+                    const samples = app.getSampleImages();
+                    addResult('getSampleImages() works', samples && samples.length > 0, `${samples.length} images`);
+                } catch (e) {
+                    addResult('getSampleImages() works', false, e.message);
+                }
+                
+                // Test 7: Check if sample images loaded
+                if (imageGrid) {
+                    const items = imageGrid.querySelectorAll('.image-item');
+                    addResult('Sample images rendered', items.length > 0, `${items.length} items`);
+                    
+                    // Test 8: Image selection
+                    if (items.length > 0) {
+                        items[0].click();
+                        await new Promise(resolve => setTimeout(resolve, 100));
+                        addResult('Image selection works', app.selectedImages.size > 0, `${app.selectedImages.size} selected`);
+                        addResult('Selected state visible', items[0].classList.contains('selected'));
+                    }
+                }
+                
+                // Test 9: Set custom images
+                addInfo('Setting custom test images...');
+                const testImages = [
+                    { fileKey: 'apple', displayName: 'Apple', name: 'Apple', url: '/images/food/apple.png', path: '/images/food/apple.png' },
+                    { fileKey: 'banana', displayName: 'Banana', name: 'Banana', url: '/images/food/banana.png', path: '/images/food/banana.png' },
+                    { fileKey: 'orange', displayName: 'Orange', name: 'Orange', url: '/images/food/orange.png', path: '/images/food/orange.png' }
+                ];
+                
+                app.images = testImages;
+                await new Promise(resolve => setTimeout(resolve, 100));
+                
+                // Test 10: Check custom images loaded
+                if (imageGrid) {
+                    const newItems = imageGrid.querySelectorAll('.image-item');
+                    addResult('Custom images rendered', newItems.length === testImages.length, `${newItems.length}/${testImages.length}`);
+                }
+                
+                // Test 11: Methods exist
+                addResult('updateImageLibrary method exists', typeof app.updateImageLibrary === 'function');
+                addResult('generateWorksheet method exists', typeof app.generateWorksheet === 'function');
+                addResult('initializeCanvas method exists', typeof app.initializeCanvas === 'function');
+                
+                // Summary
+                const passed = document.querySelectorAll('.test-result.pass').length;
+                const failed = document.querySelectorAll('.test-result.fail').length;
+                addInfo(`Summary: ${passed} passed, ${failed} failed`);
+            }
+        });
+    </script>
+</body>
+</html>

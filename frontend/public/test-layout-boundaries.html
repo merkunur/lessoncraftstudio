@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Small App - Layout Boundaries Test</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f9fafb;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #1f2937;
+            margin-bottom: 10px;
+        }
+        .success-box {
+            background: #10b981;
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .success-box h2 {
+            margin: 0 0 10px 0;
+        }
+        .test-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .test-button {
+            padding: 10px 15px;
+            background: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .test-button:hover {
+            background: #2563eb;
+        }
+        .test-button.warning {
+            background: #f59e0b;
+        }
+        .test-button.warning:hover {
+            background: #d97706;
+        }
+        .test-button.danger {
+            background: #ef4444;
+        }
+        .test-button.danger:hover {
+            background: #dc2626;
+        }
+        .app-frame {
+            width: 100%;
+            height: 900px;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            background: white;
+        }
+        .improvements-list {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .improvements-list h3 {
+            margin-top: 0;
+            color: #1f2937;
+        }
+        .improvements-list ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .improvements-list li {
+            margin: 8px 0;
+            color: #4b5563;
+        }
+        .test-instructions {
+            background: #fef3c7;
+            border: 1px solid #fbbf24;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .test-instructions h3 {
+            margin-top: 0;
+            color: #92400e;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Big Small App - Professional Layout Test</h1>
+        
+        <div class="success-box">
+            <h2>✅ Layout Boundary Constraints Implemented!</h2>
+            <p>The app now ensures all content stays within page boundaries for professional output.</p>
+        </div>
+        
+        <div class="improvements-list">
+            <h3>What Was Fixed:</h3>
+            <ul>
+                <li><strong>Dynamic Box Sizing:</strong> Exercises automatically resize to fit within page boundaries</li>
+                <li><strong>Proper Margins:</strong> Top: 60-100px, Bottom: 60px, Sides: 50px</li>
+                <li><strong>Smart Grid Layout:</strong> Adjusts columns (2-3) based on orientation and exercise count</li>
+                <li><strong>Vertical Centering:</strong> Content centers vertically in available space</li>
+                <li><strong>Horizontal Centering:</strong> Grid centers horizontally on page</li>
+                <li><strong>Aspect Ratio Maintenance:</strong> Keeps 1.67:1 width/height ratio when possible</li>
+                <li><strong>Minimum Size Protection:</strong> Ensures readability with 80px minimum height</li>
+                <li><strong>Overflow Prevention:</strong> Warns if too many exercises for page size</li>
+            </ul>
+        </div>
+        
+        <div class="test-instructions">
+            <h3>🧪 Test Different Scenarios:</h3>
+            <p>Try these combinations to verify the layout stays professional:</p>
+            <ol>
+                <li>Generate with different exercise counts (1-10)</li>
+                <li>Switch between page sizes (Letter, A4, Landscape)</li>
+                <li>Toggle "Include Name & Date" option</li>
+                <li>Check that exercises never exceed page borders</li>
+                <li>Verify spacing remains consistent and professional</li>
+            </ol>
+        </div>
+        
+        <div class="test-grid">
+            <button class="test-button" onclick="testScenario(2, '612x792')">2 Exercises - Letter Portrait</button>
+            <button class="test-button" onclick="testScenario(4, '612x792')">4 Exercises - Letter Portrait</button>
+            <button class="test-button" onclick="testScenario(6, '612x792')">6 Exercises - Letter Portrait</button>
+            <button class="test-button warning" onclick="testScenario(8, '612x792')">8 Exercises - Letter Portrait</button>
+            <button class="test-button danger" onclick="testScenario(10, '612x792')">10 Exercises - Letter Portrait</button>
+            <button class="test-button" onclick="testScenario(4, '792x612')">4 Exercises - Letter Landscape</button>
+            <button class="test-button" onclick="testScenario(6, '792x612')">6 Exercises - Letter Landscape</button>
+            <button class="test-button warning" onclick="testScenario(9, '792x612')">9 Exercises - Letter Landscape</button>
+            <button class="test-button" onclick="testScenario(4, '595x842')">4 Exercises - A4 Portrait</button>
+            <button class="test-button" onclick="testScenario(6, '595x842')">6 Exercises - A4 Portrait</button>
+            <button class="test-button" onclick="testScenario(4, '842x595')">4 Exercises - A4 Landscape</button>
+            <button class="test-button" onclick="testScenario(1, '1200x1200')">1 Exercise - Square</button>
+        </div>
+        
+        <h2>Live App Preview:</h2>
+        <iframe src="/api/worksheet/big%20small.html?locale=en&tier=free" class="app-frame" id="appFrame"></iframe>
+    </div>
+    
+    <script>
+        const iframe = document.getElementById('appFrame');
+        
+        function testScenario(exerciseCount, pageSize) {
+            console.log(`Testing: ${exerciseCount} exercises on ${pageSize} page`);
+            
+            // Wait for iframe to be ready
+            setTimeout(() => {
+                try {
+                    const iframeWin = iframe.contentWindow;
+                    const iframeDoc = iframe.contentDocument;
+                    
+                    // Set exercise count
+                    const problemCount = iframeDoc.getElementById('problemCount');
+                    if (problemCount) {
+                        problemCount.value = exerciseCount;
+                    }
+                    
+                    // Set page size
+                    const pageSizeSelect = iframeDoc.getElementById('pageSizeSelect');
+                    if (pageSizeSelect) {
+                        pageSizeSelect.value = pageSize;
+                        pageSizeSelect.dispatchEvent(new Event('change'));
+                    }
+                    
+                    // Trigger generation after a short delay
+                    setTimeout(() => {
+                        const generateBtn = iframeDoc.getElementById('generateWorksheetBtn');
+                        if (generateBtn) {
+                            generateBtn.click();
+                            console.log(`✅ Generated ${exerciseCount} exercises on ${pageSize}`);
+                        }
+                    }, 500);
+                    
+                } catch (e) {
+                    console.error('Error setting up test:', e);
+                }
+            }, 1000);
+        }
+        
+        // Monitor iframe loading
+        iframe.addEventListener('load', () => {
+            console.log('✅ Big Small App loaded - ready for testing');
+        });
+        
+        // Log layout calculations
+        console.log(`
+🎯 Layout Boundary Formula:
+• Available Width = Page Width - (Side Margins × 2)
+• Available Height = Page Height - Top Margin - Bottom Margin
+• Box Width = (Available Width - Gaps) / Columns
+• Box Height = min(Box Width × 0.6, Max Height per Row)
+• Grid Centers in Available Space
+
+📏 Example (Letter Portrait, 4 exercises):
+• Page: 612×792
+• Available: 512×632 (after margins)
+• 2 columns, 2 rows
+• Box size: ~243×146 (fits perfectly)
+• Centered with professional spacing
+        `);
+    </script>
+</body>
+</html>

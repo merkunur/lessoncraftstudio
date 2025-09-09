@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Small App - Debug Version</title>
+    <script src="/js/translations.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f9fafb;
+        }
+        .debug-panel {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            width: 400px;
+            max-height: 500px;
+            overflow-y: auto;
+            background: #1f2937;
+            color: #10b981;
+            padding: 10px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 11px;
+            z-index: 9999;
+        }
+        .debug-entry {
+            margin: 2px 0;
+            padding: 2px 5px;
+            border-left: 2px solid #10b981;
+        }
+        .debug-entry.error {
+            border-left-color: #ef4444;
+            color: #ef4444;
+        }
+        .debug-entry.warn {
+            border-left-color: #f59e0b;
+            color: #f59e0b;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="debug-panel" id="debugPanel">
+        <strong>Debug Log:</strong>
+        <div id="debugLog"></div>
+    </div>
+    
+    <div class="container">
+        <h1>Big Small App - Debug Mode</h1>
+        <p>Check the debug panel on the right for detailed logging →</p>
+        
+        <div id="componentContainer"></div>
+    </div>
+
+    <script type="module">
+        // Create debug logging function
+        const debugLog = document.getElementById('debugLog');
+        let logCount = 0;
+        
+        function log(message, type = 'info') {
+            logCount++;
+            const entry = document.createElement('div');
+            entry.className = `debug-entry ${type}`;
+            entry.textContent = `[${logCount}] ${new Date().toLocaleTimeString()}: ${message}`;
+            debugLog.appendChild(entry);
+            debugLog.scrollTop = debugLog.scrollHeight;
+            console.log(`[DEBUG ${type}]`, message);
+        }
+        
+        // Override console methods to capture all logs
+        const originalLog = console.log;
+        const originalError = console.error;
+        const originalWarn = console.warn;
+        
+        console.log = (...args) => {
+            originalLog(...args);
+            log(args.join(' '), 'info');
+        };
+        
+        console.error = (...args) => {
+            originalError(...args);
+            log(args.join(' '), 'error');
+        };
+        
+        console.warn = (...args) => {
+            originalWarn(...args);
+            log(args.join(' '), 'warn');
+        };
+        
+        // Import the component
+        log('Starting component import...');
+        import('/web-components/big-small-app/index.js').then(module => {
+            log('Component module loaded successfully');
+            
+            // Create a custom version with extra logging
+            const OriginalBigSmallApp = module.default;
+            
+            class DebugBigSmallApp extends OriginalBigSmallApp {
+                constructor() {
+                    super();
+                    log('DebugBigSmallApp constructor called');
+                }
+                
+                connectedCallback() {
+                    log('connectedCallback starting');
+                    super.connectedCallback();
+                    log('connectedCallback completed');
+                }
+                
+                render() {
+                    log('render() starting');
+                    super.render();
+                    log('render() completed');
+                    
+                    // Log DOM state
+                    const themeSelect = this.shadowRoot.getElementById('themeSelect');
+                    const imageGrid = this.shadowRoot.getElementById('imageGrid');
+                    log(`DOM Check - themeSelect exists: ${!!themeSelect}, imageGrid exists: ${!!imageGrid}`);
+                }
+                
+                async loadThemes() {
+                    log('loadThemes() starting');
+                    log(`Current locale: ${this.currentLocale}`);
+                    
+                    try {
+                        const url = `/api/themes-translated?locale=${this.currentLocale}`;
+                        log(`Fetching themes from: ${url}`);
+                        
+                        let response = await fetch(url);
+                        log(`Response status: ${response.status}, OK: ${response.ok}`);
+                        
+                        if (!response.ok) {
+                            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                        }
+                        
+                        const themeData = await response.json();
+                        log(`Received theme data: ${JSON.stringify(themeData).substring(0, 200)}...`);
+                        log(`Theme data type: ${Array.isArray(themeData) ? 'array' : 'object'}`);
+                        
+                        const themeSelect = this.shadowRoot.getElementById('themeSelect');
+                        if (!themeSelect) {
+                            log('ERROR: themeSelect element not found!', 'error');
+                            return;
+                        }
+                        
+                        log('themeSelect element found, populating...');
+                        
+                        // Get translation for "All Themes"
+                        const allThemesText = this.getTranslation ? this.getTranslation('bigSmallApp.allThemes') : 'All Themes';
+                        log(`All Themes translation: "${allThemesText}"`);
+                        
+                        themeSelect.innerHTML = `<option value="all">${allThemesText || 'All Themes'}</option>`;
+                        
+                        const themes = Array.isArray(themeData) ? themeData : (themeData.themes || []);
+                        log(`Processing ${themes.length} themes`);
+                        
+                        themes.forEach((theme, index) => {
+                            const option = document.createElement('option');
+                            option.value = theme.value || theme.folder || '';
+                            option.textContent = theme.displayName || theme.name || 'Unknown';
+                            themeSelect.appendChild(option);
+                            if (index < 3) {
+                                log(`Added theme: ${option.value} = ${option.textContent}`);
+                            }
+                        });
+                        
+                        log(`Theme select now has ${themeSelect.options.length} options`);
+                        
+                        // Load default theme
+                        if (themeSelect.value === 'all') {
+                            log('Loading default theme: animals');
+                            this.loadThemeImages('animals');
+                        }
+                        
+                        log('loadThemes() completed successfully');
+                        
+                    } catch (error) {
+                        log(`ERROR in loadThemes: ${error.message}`, 'error');
+                        log(`Error stack: ${error.stack}`, 'error');
+                        
+                        // Call the fallback
+                        log('Falling back to updateImageLibrary()');
+                        this.updateImageLibrary();
+                    }
+                }
+                
+                async loadThemeImages(theme) {
+                    log(`loadThemeImages("${theme}") starting`);
+                    
+                    try {
+                        const url = `/api/images?theme=${encodeURIComponent(theme)}&locale=${this.currentLocale}`;
+                        log(`Fetching images from: ${url}`);
+                        
+                        let response = await fetch(url);
+                        log(`Response status: ${response.status}, OK: ${response.ok}`);
+                        
+                        if (!response.ok) {
+                            throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                        }
+                        
+                        const data = await response.json();
+                        log(`Received ${Array.isArray(data) ? data.length : (data.images ? data.images.length : 0)} images`);
+                        
+                        this.allImages = Array.isArray(data) ? data : (data.images || []);
+                        
+                        const imageGrid = this.shadowRoot.getElementById('imageGrid');
+                        if (!imageGrid) {
+                            log('ERROR: imageGrid element not found!', 'error');
+                            return;
+                        }
+                        
+                        imageGrid.innerHTML = '';
+                        log('Cleared image grid, displaying images...');
+                        
+                        this.displayImages(this.allImages.slice(0, this.INITIAL_LOAD_COUNT));
+                        log(`Displayed first ${Math.min(this.INITIAL_LOAD_COUNT, this.allImages.length)} images`);
+                        
+                        if (this.allImages.length > this.INITIAL_LOAD_COUNT) {
+                            setTimeout(() => {
+                                this.displayImages(this.allImages.slice(this.INITIAL_LOAD_COUNT));
+                                log(`Displayed remaining ${this.allImages.length - this.INITIAL_LOAD_COUNT} images`);
+                            }, 100);
+                        }
+                        
+                        log('loadThemeImages() completed successfully');
+                        
+                    } catch (error) {
+                        log(`ERROR in loadThemeImages: ${error.message}`, 'error');
+                        log(`Error stack: ${error.stack}`, 'error');
+                        this.updateImageLibrary();
+                    }
+                }
+                
+                setupEventListeners() {
+                    log('setupEventListeners() starting');
+                    super.setupEventListeners();
+                    log('setupEventListeners() completed');
+                    
+                    // Log which elements have listeners
+                    const elements = [
+                        'generateBtn', 'clearBtn', 'downloadBtn', 'downloadJPEGBtn', 
+                        'printBtn', 'themeSelect', 'searchBtn', 'searchInput'
+                    ];
+                    
+                    elements.forEach(id => {
+                        const el = this.shadowRoot.getElementById(id);
+                        log(`Element ${id}: ${el ? 'found' : 'NOT FOUND'}`);
+                    });
+                }
+            }
+            
+            // Register the debug component
+            customElements.define('debug-big-small-app', DebugBigSmallApp);
+            log('Debug component registered');
+            
+            // Create and add the component
+            const component = document.createElement('debug-big-small-app');
+            document.getElementById('componentContainer').appendChild(component);
+            log('Component added to DOM');
+            
+        }).catch(error => {
+            log(`Failed to import component: ${error.message}`, 'error');
+        });
+        
+        // Test API endpoints directly
+        setTimeout(() => {
+            log('Testing API endpoints directly...');
+            
+            fetch('/api/themes-translated?locale=en')
+                .then(res => {
+                    log(`Direct API test - themes status: ${res.status}`);
+                    return res.json();
+                })
+                .then(data => {
+                    log(`Direct API test - themes count: ${Array.isArray(data) ? data.length : 'not array'}`);
+                })
+                .catch(err => {
+                    log(`Direct API test - themes error: ${err.message}`, 'error');
+                });
+                
+            fetch('/api/images?theme=animals&locale=en')
+                .then(res => {
+                    log(`Direct API test - images status: ${res.status}`);
+                    return res.json();
+                })
+                .then(data => {
+                    log(`Direct API test - images count: ${Array.isArray(data) ? data.length : 'not array'}`);
+                })
+                .catch(err => {
+                    log(`Direct API test - images error: ${err.message}`, 'error');
+                });
+        }, 2000);
+    </script>
+</body>
+</html>

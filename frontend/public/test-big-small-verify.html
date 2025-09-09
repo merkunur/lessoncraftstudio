@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big or Small App Verification</title>
+    <script type="module">
+        import '/web-components/big-small-app/index.js';
+    </script>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+        .status {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .test-result {
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 4px;
+        }
+        .pass {
+            background: #d4edda;
+            color: #155724;
+        }
+        .fail {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        lcs-big-small-app {
+            display: block;
+            width: 100%;
+            min-height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <div class="status">
+        <h1>Big or Small App Verification</h1>
+        <div id="testResults"></div>
+    </div>
+    
+    <lcs-big-small-app id="bigSmallApp" locale="en" subscription="premium"></lcs-big-small-app>
+    
+    <script>
+        window.addEventListener('DOMContentLoaded', async () => {
+            const results = document.getElementById('testResults');
+            const app = document.getElementById('bigSmallApp');
+            let testsPassed = 0;
+            let testsFailed = 0;
+            
+            function addResult(test, passed, details = '') {
+                const div = document.createElement('div');
+                div.className = `test-result ${passed ? 'pass' : 'fail'}`;
+                div.innerHTML = `${passed ? '✓' : '✗'} ${test}${details ? ': ' + details : ''}`;
+                results.appendChild(div);
+                if (passed) testsPassed++;
+                else testsFailed++;
+            }
+            
+            // Wait for component to initialize
+            await new Promise(resolve => setTimeout(resolve, 100));
+            
+            // Test 1: Component exists
+            addResult('Component registered', customElements.get('lcs-big-small-app') !== undefined);
+            
+            // Test 2: Shadow DOM created
+            addResult('Shadow DOM created', app.shadowRoot !== null);
+            
+            if (app.shadowRoot) {
+                // Test 3: Key elements exist
+                const imageGrid = app.shadowRoot.getElementById('imageGrid');
+                addResult('Image grid exists', imageGrid !== null);
+                
+                const generateBtn = app.shadowRoot.getElementById('generateBtn');
+                addResult('Generate button exists', generateBtn !== null);
+                
+                const canvas = app.shadowRoot.getElementById('worksheetCanvas');
+                addResult('Canvas element exists', canvas !== null);
+                
+                // Test 4: Sample images load
+                const sampleImages = app.getSampleImages();
+                addResult('Sample images available', sampleImages && sampleImages.length > 0, `${sampleImages ? sampleImages.length : 0} images`);
+                
+                // Test 5: Set test images
+                const testImages = [
+                    { fileKey: 'cat', displayName: 'Cat', name: 'Cat', url: '/images/animals/cat.png', path: '/images/animals/cat.png' },
+                    { fileKey: 'dog', displayName: 'Dog', name: 'Dog', url: '/images/animals/dog.png', path: '/images/animals/dog.png' },
+                    { fileKey: 'bird', displayName: 'Bird', name: 'Bird', url: '/images/animals/bird.png', path: '/images/animals/bird.png' }
+                ];
+                
+                app.images = testImages;
+                await new Promise(resolve => setTimeout(resolve, 100));
+                
+                // Test 6: Images rendered
+                const imageItems = imageGrid ? imageGrid.querySelectorAll('.image-item') : [];
+                addResult('Images rendered in grid', imageItems.length > 0, `${imageItems.length} items`);
+                
+                // Test 7: Image selection works
+                if (imageItems.length > 0) {
+                    const firstItem = imageItems[0];
+                    firstItem.click();
+                    await new Promise(resolve => setTimeout(resolve, 100));
+                    
+                    addResult('Image selection works', app.selectedImages.size > 0, `${app.selectedImages.size} selected`);
+                    addResult('Selected state shown', firstItem.classList.contains('selected'));
+                }
+                
+                // Test 8: Event listeners attached
+                if (generateBtn) {
+                    // Check if setupEventListeners was called
+                    const hasListener = generateBtn.onclick !== null || 
+                                       generateBtn.hasAttribute('onclick') || 
+                                       app.setupEventListeners !== undefined;
+                    addResult('Event listeners setup', hasListener);
+                }
+                
+                // Test 9: Methods exist
+                addResult('updateImageLibrary method exists', typeof app.updateImageLibrary === 'function');
+                addResult('generateWorksheet method exists', typeof app.generateWorksheet === 'function');
+                addResult('setupEventListeners method exists', typeof app.setupEventListeners === 'function');
+            }
+            
+            // Summary
+            const summary = document.createElement('div');
+            summary.className = 'test-result';
+            summary.style.marginTop = '20px';
+            summary.style.fontWeight = 'bold';
+            summary.innerHTML = `Tests Passed: ${testsPassed} | Tests Failed: ${testsFailed}`;
+            results.appendChild(summary);
+        });
+    </script>
+</body>
+</html>

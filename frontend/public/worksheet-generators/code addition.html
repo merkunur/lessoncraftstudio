@@ -7,6 +7,7 @@
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="/js/translations.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
@@ -337,7 +338,15 @@
     .canvas-container-wrapper {
         border: none; background-color: var(--app-surface-light);
         box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-radius: 8px;
-        overflow: auto; margin: auto;
+        overflow: visible !important; /* Fix canvas clipping with zoom */
+        margin: 20px auto;
+        position: relative;
+    }
+    
+    .canvas-container {
+        overflow: visible !important;
+        position: relative !important;
+        margin: 0 auto;
     }
     canvas { display: block; }
     
@@ -510,6 +519,24 @@
       <div class="panel-header">
         <h2>Image Addition</h2>
         <button id="sidebarCloseBtn">&times;</button>
+      </div>
+      <div style="padding: 10px 25px; border-bottom: 1px solid var(--app-border-dark);">
+        <div class="language-selector" style="margin-bottom: 10px;">
+          <label data-translate-key="language" style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Language:</label>
+          <select id="languageSelect" style="width: 100%; padding: 6px; background: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); border: 1px solid var(--app-border-dark); border-radius: 5px; font-size: 13px;">
+            <option value="en">English</option>
+            <option value="de">Deutsch</option>
+            <option value="fr">Français</option>
+            <option value="es">Español</option>
+            <option value="pt">Português</option>
+            <option value="it">Italiano</option>
+            <option value="nl">Nederlands</option>
+            <option value="sv">Svenska</option>
+            <option value="da">Dansk</option>
+            <option value="no">Norsk</option>
+            <option value="fi">Suomi</option>
+          </select>
+        </div>
       </div>
       <div class="panel-content">
 
@@ -735,11 +762,21 @@
   </div>
   
   <script>
+    // MUST BE FIRST - Before ANY DOM element references
+    let currentLocale = 'en';
+    let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
+    
+    // Initialize locale from URL if present
+    const urlParams = new URLSearchParams(window.location.search);
+    const localeParam = urlParams.get('locale');
+    if (localeParam) {
+        currentLocale = localeParam;
+    }
+
     document.addEventListener("DOMContentLoaded", () => {
         const MAX_IMAGES = 5;
         let currentThemeImages = [], selectedImages = [], userUploadedImages = [];
         let isFirstAnswerKeyGeneration = true;
-        let currentWorksheetConfig = { width: 612, height: 792 };
         const downloadMultiplier = 6;
 
         // UI Element Selectors
@@ -828,18 +865,17 @@
 
         async function initializeImageLibrary() {
             try {
-                const themePaths = await (await fetch('/api/themes/nested')).json();
+                const themePaths = await (await fetch(`/api/themes-translated?locale=${currentLocale}`)).json();
                 
                 const worksheetThemeSelect = document.getElementById('worksheetThemeSelect');
                 
                 themeSelect.innerHTML = '<option value="all">All Themes</option>';
                 worksheetThemeSelect.innerHTML = '<option value="use_selected">Use Manually Selected Images</option>';
                 
-                themePaths.forEach(path => {
-                    const displayName = path.split('/').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' / ');
+                themePaths.forEach(theme => {
                     const option = document.createElement('option');
-                    option.value = path;
-                    option.textContent = displayName;
+                    option.value = theme.value || theme;
+                    option.textContent = theme.displayName || theme;
                     themeSelect.add(option.cloneNode(true));
                     worksheetThemeSelect.add(option);
                 });
@@ -879,16 +915,25 @@
 
             if (selectedTheme === 'all') {
                 if (!query) {
-                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
-                    return;
-                }
-                dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-                try {
-                    const res = await fetch(`/api/images?search=${encodeURIComponent(query)}`);
-                    if (!res.ok) throw new Error(`Server search failed`);
-                    imagesToDisplay = await res.json();
-                } catch(e) {
-                     showMessage(`Failed to search for "${query}"`, 'error');
+                    // Load animals theme by default when "All Themes" is selected with no search
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading animals...</p>`;
+                    try {
+                        const res = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                        imagesToDisplay = res.ok ? await res.json() : [];
+                    } catch (error) {
+                        console.error('Error loading default theme:', error);
+                        dictionaryDiv.innerHTML = `<p class="dictionary-message">Failed to load images.</p>`;
+                        return;
+                    }
+                } else {
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+                    try {
+                        const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                        if (!res.ok) throw new Error(`Server search failed`);
+                        imagesToDisplay = await res.json();
+                    } catch(e) {
+                        showMessage(`Failed to search for "${query}"`, 'error');
+                    }
                 }
             } else {
                 const source = currentThemeImages;
@@ -944,12 +989,13 @@
 
                 const imgEl = document.createElement('img');
                 imgEl.src = imgData.path;
-                imgEl.alt = imgData.word;
+                const displayName = imgData.name || imgData.word;
+                imgEl.alt = displayName;
                 imgContainer.appendChild(imgEl);
 
                 const label = document.createElement('span');
                 label.className = 'thumbnail-label';
-                label.textContent = imgData.word;
+                label.textContent = displayName;
 
                 item.appendChild(imgContainer);
                 item.appendChild(label);
@@ -1004,7 +1050,7 @@
                 baseImagePool = await prepareExerciseImages(); 
             } else {
                 try {
-                    const res = await fetch(`/api/images?theme=${encodeURIComponent(selectedWorksheetTheme)}`);
+                    const res = await fetch(`/api/images?theme=${encodeURIComponent(selectedWorksheetTheme)}&locale=${currentLocale}`);
                     let themeImages = await res.json();
                     if (themeImages.length > 0) {
                          while (baseImagePool.length < 5) {
@@ -1039,26 +1085,64 @@
             
             worksheetCanvas.problemsData = { pool: baseImagePool, pairs: problemPairs };
 
+            // Professional layout with proper margins
+            const canvasWidth = currentCanvasConfig.width;
+            const canvasHeight = currentCanvasConfig.height;
+            const isLandscape = canvasWidth > canvasHeight;
+            
+            // Set margins based on orientation
+            const topMargin = isLandscape ? 60 : 80;
+            const bottomMargin = isLandscape ? 60 : 80;
+            const sideMargin = isLandscape ? 60 : 40;
+            
+            // Calculate content area
+            const contentWidth = canvasWidth - (sideMargin * 2);
+            const contentHeight = canvasHeight - topMargin - bottomMargin;
+
             const allPromises = [];
-            let currentY = 20;
+            let currentY = topMargin;
 
             if (document.getElementById('includeNameDate').checked) {
                 const nameDatePromise = new Promise(resolve => {
                     const nameText = new fabric.Textbox("Name: _______________________", { fontSize: 20, fontFamily: 'Arial' });
                     const dateText = new fabric.Textbox("Date: ____________", { left: nameText.width + 30, fontSize: 20, fontFamily: 'Arial' });
-                    const group = new fabric.Group([nameText, dateText], { top: currentY, left: 30, isGeneratedItem: true, originalIndex: -1, ...getEditableGroupOptions('NameDate') });
-                    currentY += group.getScaledHeight() + 40;
+                    const group = new fabric.Group([nameText, dateText], { 
+                        top: currentY, 
+                        left: sideMargin, 
+                        isGeneratedItem: true, 
+                        originalIndex: -1, 
+                        ...getEditableGroupOptions('NameDate') 
+                    });
+                    currentY += group.getScaledHeight() + 30;
                     resolve(group);
                 });
                 allPromises.push(nameDatePromise);
             }
             
             const legendPromise = new Promise(async (resolve) => {
+                // Adaptive legend sizing based on orientation and number of items
+                const legendImageHeight = isLandscape ? 50 : 60;
+                const legendSpacing = isLandscape ? 20 : 25;
+                const circleRadius = isLandscape ? 10 : 12;
+                const numberFontSize = isLandscape ? 12 : 14;
+                
                 const legendItemPromises = baseImagePool.map((imgData, i) => new Promise(async (resolveImg) => {
                     const img = await fabricImageFromURL(imgData.path);
-                    img.scaleToHeight(60);
-                    const numberCircle = new fabric.Circle({ radius: 12, fill: '#ffeb3b', stroke: '#333', strokeWidth: 1 });
-                    const numberText = new fabric.Text(String(i + 1), { fontSize: 14, fontFamily: 'Fredoka', originX: 'center', originY: 'center', left: 12, top: 14 });
+                    img.scaleToHeight(legendImageHeight);
+                    const numberCircle = new fabric.Circle({ 
+                        radius: circleRadius, 
+                        fill: '#ffeb3b', 
+                        stroke: '#333', 
+                        strokeWidth: 1 
+                    });
+                    const numberText = new fabric.Text(String(i + 1), { 
+                        fontSize: numberFontSize, 
+                        fontFamily: 'Fredoka', 
+                        originX: 'center', 
+                        originY: 'center', 
+                        left: circleRadius, 
+                        top: circleRadius + 2 
+                    });
                     const numberGroup = new fabric.Group([numberCircle, numberText]);
 
                     numberGroup.left = img.getScaledWidth() - 10;
@@ -1066,63 +1150,148 @@
                     numberGroup.originY = 'bottom';
                     numberGroup.originX = 'left';
 
-                    const itemGroup = new fabric.Group([img, numberGroup], { left: i * (img.getScaledWidth() + 30) });
+                    const itemGroup = new fabric.Group([img, numberGroup], { 
+                        left: i * (img.getScaledWidth() + legendSpacing) 
+                    });
                     resolveImg(itemGroup);
                 }));
                 const resolvedItems = await Promise.all(legendItemPromises);
-                const legendGroup = new fabric.Group(resolvedItems, { top: currentY, left: 30, isGeneratedItem: true, originalIndex: -2, ...getEditableGroupOptions('Legend') });
-                legendGroup.scale(0.7); // Scale down by 30%
-                currentY += legendGroup.getScaledHeight() + 30;
+                const legendGroup = new fabric.Group(resolvedItems, { 
+                    top: currentY, 
+                    left: sideMargin, 
+                    isGeneratedItem: true, 
+                    originalIndex: -2, 
+                    ...getEditableGroupOptions('Legend') 
+                });
+                
+                // Scale legend to fit width if needed
+                const maxLegendWidth = contentWidth * 0.95; // Leave 5% margin
+                const baseScale = isLandscape ? 0.6 : 0.7;
+                
+                // Apply base scale first
+                legendGroup.scale(baseScale);
+                
+                // Check if additional scaling is needed
+                if (legendGroup.getScaledWidth() > maxLegendWidth) {
+                    const additionalScale = maxLegendWidth / legendGroup.getScaledWidth();
+                    legendGroup.scale(legendGroup.scaleX * additionalScale);
+                }
+                
+                // Center legend horizontally
+                legendGroup.set('left', sideMargin + (contentWidth - legendGroup.getScaledWidth()) / 2);
+                
+                // Spacing after legend
+                const legendSpacingAfter = isLandscape ? 20 : 30;
+                currentY += legendGroup.getScaledHeight() + legendSpacingAfter;
                 resolve(legendGroup);
             });
             allPromises.push(legendPromise);
 
             const exercisesPromise = new Promise(async (resolve) => {
                 const numExercises = problemPairs.length;
-                const defaultRowHeight = 120;
-                const requiredHeight = numExercises * defaultRowHeight;
-                const availableHeight = currentWorksheetConfig.height - currentY - 20;
-
-                let scaleFactor = 1;
-                if (requiredHeight > availableHeight && availableHeight > 0) {
-                    scaleFactor = availableHeight / requiredHeight;
+                
+                // Calculate available space for exercises
+                const availableHeight = canvasHeight - currentY - bottomMargin;
+                const availableWidth = contentWidth;
+                
+                // Different layouts for portrait vs landscape
+                let exercisesPerRow, rowsNeeded, itemScale;
+                
+                if (isLandscape) {
+                    // Landscape: Try 2-column layout for better space usage
+                    exercisesPerRow = numExercises <= 6 ? 1 : 2;
+                    rowsNeeded = Math.ceil(numExercises / exercisesPerRow);
+                } else {
+                    // Portrait: Single column
+                    exercisesPerRow = 1;
+                    rowsNeeded = numExercises;
                 }
                 
-                scaleFactor *= 0.88; // Apply extra 12% scaling as a safety margin
-
-                const verticalSpacing = defaultRowHeight * scaleFactor;
+                // Calculate optimal scale for exercises
+                const targetRowHeight = 100; // Base height for each exercise
+                const minRowHeight = 50; // Minimum acceptable height
+                const maxRowHeight = 120; // Maximum height to prevent oversizing
+                
+                // Calculate height per row based on available space
+                const heightPerRow = availableHeight / rowsNeeded;
+                let rowHeight = Math.min(Math.max(heightPerRow * 0.8, minRowHeight), maxRowHeight);
+                
+                // Calculate scale factor based on row height
+                let scaleFactor = rowHeight / targetRowHeight;
+                scaleFactor = Math.min(scaleFactor, 1.0); // Don't scale up
+                scaleFactor = Math.max(scaleFactor, 0.4); // Don't scale down too much
+                
+                // Additional adjustment for safety
+                scaleFactor *= 0.85;
+                
+                const verticalSpacing = rowHeight;
 
                 const exerciseRowPromises = problemPairs.map((pair, i) => new Promise(async (resolveRow) => {
                     let currentX = 0;
                     const rowElements = [];
 
+                    // Adaptive sizing based on available space
+                    const imageHeight = isLandscape ? 70 : 80;
+                    const fontSize = isLandscape ? 20 : 24;
+                    const plusFontSize = isLandscape ? 24 : 30;
+                    const spacing = isLandscape ? 10 : 15;
+
                     if (document.getElementById('includeExerciseNumbers').checked) {
-                        rowElements.push(new fabric.Text(`${i + 1}.`, { fontSize: 24, left: currentX, top: 35, fontFamily: 'Fredoka' }));
-                        currentX += 30;
+                        rowElements.push(new fabric.Text(`${i + 1}.`, { 
+                            fontSize: fontSize, 
+                            left: currentX, 
+                            top: 35, 
+                            fontFamily: 'Fredoka' 
+                        }));
+                        currentX += 25;
                     }
                     
                     const imgA = await fabricImageFromURL(pair[0].path);
-                    imgA.scaleToHeight(90);
+                    imgA.scaleToHeight(imageHeight);
                     imgA.set({ left: currentX });
                     rowElements.push(imgA);
-                    currentX += imgA.getScaledWidth() + 15;
+                    currentX += imgA.getScaledWidth() + spacing;
 
-                    rowElements.push(new fabric.Text('+', { left: currentX, top: 30, fontSize: 30 }));
-                    currentX += 25;
+                    rowElements.push(new fabric.Text('+', { 
+                        left: currentX, 
+                        top: 30, 
+                        fontSize: plusFontSize 
+                    }));
+                    currentX += 20;
 
                     const imgB = await fabricImageFromURL(pair[1].path);
-                    imgB.scaleToHeight(90);
+                    imgB.scaleToHeight(imageHeight);
                     imgB.set({ left: currentX });
                     rowElements.push(imgB);
-                    currentX += imgB.getScaledWidth() + 15;
+                    currentX += imgB.getScaledWidth() + spacing;
 
                     const aIndex = baseImagePool.findIndex(p => p.path === pair[0].path);
                     const bIndex = baseImagePool.findIndex(p => p.path === pair[1].path);
-                    const equals = new fabric.Text('=', { left: currentX, top: 30, fontSize: 30, isEqualsSign: true, operandA_index: aIndex, operandB_index: bIndex });
+                    const equals = new fabric.Text('=', { 
+                        left: currentX, 
+                        top: 30, 
+                        fontSize: plusFontSize, 
+                        isEqualsSign: true, 
+                        operandA_index: aIndex, 
+                        operandB_index: bIndex 
+                    });
                     rowElements.push(equals);
-                    currentX += equals.width + 15;
+                    currentX += equals.width + spacing;
                     
-                    rowElements.push(new fabric.Rect({ left: currentX, top: 25, width: 60, height: 40, fill: 'transparent', stroke: '#007aff', strokeWidth: 2, rx: 8, ry: 8, isAnswerBox: true }));
+                    const boxWidth = isLandscape ? 50 : 60;
+                    const boxHeight = isLandscape ? 35 : 40;
+                    rowElements.push(new fabric.Rect({ 
+                        left: currentX, 
+                        top: 25, 
+                        width: boxWidth, 
+                        height: boxHeight, 
+                        fill: 'transparent', 
+                        stroke: '#007aff', 
+                        strokeWidth: 2, 
+                        rx: 8, 
+                        ry: 8, 
+                        isAnswerBox: true 
+                    }));
                     
                     resolveRow(new fabric.Group(rowElements, {}));
                 }));
@@ -1131,9 +1300,42 @@
                 
                 resolvedRows.forEach((row, i) => {
                     row.scale(scaleFactor);
+                    
+                    // Position based on layout (1 or 2 columns)
+                    let leftPosition, topPosition;
+                    
+                    if (exercisesPerRow === 2 && isLandscape) {
+                        // Two-column layout for landscape
+                        const col = i % 2;
+                        const rowIndex = Math.floor(i / 2);
+                        const columnWidth = contentWidth / 2;
+                        const rowWidth = row.getScaledWidth();
+                        
+                        // Center within each column
+                        leftPosition = sideMargin + (col * columnWidth) + (columnWidth - rowWidth) / 2;
+                        topPosition = currentY + (rowIndex * verticalSpacing);
+                    } else {
+                        // Single column layout
+                        const rowWidth = row.getScaledWidth();
+                        leftPosition = sideMargin + (contentWidth - rowWidth) / 2;
+                        topPosition = currentY + (i * verticalSpacing);
+                    }
+                    
+                    // Ensure content doesn't exceed page width
+                    const maxWidth = contentWidth;
+                    if (row.getScaledWidth() > maxWidth) {
+                        const additionalScale = maxWidth / row.getScaledWidth();
+                        row.scale(row.scaleX * additionalScale * 0.95);
+                        // Recalculate position after additional scaling
+                        const newRowWidth = row.getScaledWidth();
+                        if (exercisesPerRow === 1) {
+                            leftPosition = sideMargin + (contentWidth - newRowWidth) / 2;
+                        }
+                    }
+                    
                     const newProps = {
-                        top: currentY + (i * verticalSpacing),
-                        left: 30,
+                        top: topPosition,
+                        left: leftPosition,
                         isGeneratedItem: true,
                         originalIndex: i,
                         ...getEditableGroupOptions(`Exercise ${i + 1}`)
@@ -1171,7 +1373,7 @@
             downloadWorksheetPdfBtn.disabled = false;
             generateAnswerKeyBtn.disabled = false;
             showMessage('Worksheet Generated!', 'success');
-        };
+        }
 
         async function generateAnswerKey() {
             if (!worksheetCanvas || !worksheetCanvas.problemsData?.pool || !worksheetCanvas.problemsData?.pairs) {
@@ -1273,11 +1475,16 @@
             
             if (isFirstAnswerKeyGeneration) {
                 const worksheetExercises = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem && o.originalIndex >= 0);
+                
+                // Check if worksheet has name/date field to adjust answer key positions
+                const hasNameDate = worksheetCanvas.getObjects().some(o => o.isGeneratedItem && o.originalIndex === -1);
+                const nameDateOffset = hasNameDate ? 60 : 0; // Approximate height of name/date section
+                
                 newExerciseRows.forEach((row, i) => {
                     const correspondingWorksheetRow = worksheetExercises.find(item => item.originalIndex === i);
                     if (correspondingWorksheetRow) {
                         row.set({
-                            top: correspondingWorksheetRow.top,
+                            top: correspondingWorksheetRow.top - nameDateOffset, // Adjust position upward if name/date exists
                             left: correspondingWorksheetRow.left,
                             scaleX: correspondingWorksheetRow.scaleX,
                             scaleY: correspondingWorksheetRow.scaleY,
@@ -1315,30 +1522,63 @@
 
         function initializeCanvas(canvasEl) {
             return new fabric.Canvas(canvasEl, {
-                width: currentWorksheetConfig.width,
-                height: currentWorksheetConfig.height,
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height,
                 backgroundColor: '#fff',
                 preserveObjectStacking: true
             });
         }
         
         function updateCanvasDisplayDimensions(width, height) {
-            currentWorksheetConfig.width = width;
-            currentWorksheetConfig.height = height;
+            currentCanvasConfig.width = width;
+            currentCanvasConfig.height = height;
 
-            const mainStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
-            const availableWidth = parseFloat(mainStyle.width) - parseFloat(mainStyle.paddingLeft) - parseFloat(mainStyle.paddingRight);
-            const scale = Math.min(1, availableWidth / width);
-            const displayWidth = width * scale;
-            const displayHeight = height * scale;
-
-            [worksheetCanvas, answerKeyCanvas].forEach(c => {
-                if (c) { c.setWidth(width); c.setHeight(height); c.calcOffset(); c.renderAll(); }
+            // Get available space correctly
+            const tabElement = document.getElementById('worksheetTab');
+            const parentElement = tabElement ? tabElement.parentElement : document.querySelector('.tab-content-wrapper');
+            const availableWidth = parentElement ? parentElement.clientWidth - 50 : window.innerWidth * 0.8;
+            const availableHeight = window.innerHeight * 0.7;
+            
+            // Apply 25% scaling for better visibility (matching Word Search)
+            // Extra 25% for landscape orientations
+            const isLandscape = width > height;
+            const baseScale = 1.25; // Base 25% larger for all
+            const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+            const displayScale = baseScale * landscapeBonus;
+            
+            // Calculate display dimensions with scaling
+            const scaledWidth = width * displayScale;
+            const scaledHeight = height * displayScale;
+            
+            // Ensure it fits in available space
+            const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+            const displayWidth = Math.round(scaledWidth * scaleRatio);
+            const displayHeight = Math.round(scaledHeight * scaleRatio);
+            
+            // Apply to both canvases
+            [worksheetCanvas, answerKeyCanvas].forEach(canvas => {
+                if (canvas) {
+                    // Apply zoom for display
+                    const finalZoom = displayWidth / width;
+                    canvas.setZoom(finalZoom);
+                    
+                    // CRITICAL: Set dimensions AFTER zoom
+                    canvas.setDimensions({
+                        width: displayWidth,
+                        height: displayHeight
+                    });
+                    
+                    // Update all object coordinates after zoom
+                    canvas.getObjects().forEach(obj => {
+                        obj.setCoords();
+                    });
+                    
+                    canvas.renderAll();
+                }
             });
-            [worksheetCanvasWrapper, answerKeyCanvasWrapper].forEach(w => {
-                if(w) { w.style.width = displayWidth + 'px'; w.style.height = displayHeight + 'px'; }
-            });
-            pageWidthInput.value = width; pageHeightInput.value = height;
+            
+            pageWidthInput.value = width; 
+            pageHeightInput.value = height;
         }
 
         function fabricImageFromURL(url) {
@@ -1472,8 +1712,16 @@
             }
 
             if (type.includes('Canvas')) {
-                if (type === 'centerHCanvas') activeObj.centerH();
-                if (type === 'centerVCanvas') activeObj.centerV();
+                // Use actual canvas dimensions from currentCanvasConfig
+                const actualCenterX = currentCanvasConfig.width / 2;
+                const actualCenterY = currentCanvasConfig.height / 2;
+                
+                if (type === 'centerHCanvas') {
+                    activeObj.set('left', actualCenterX - (activeObj.width * activeObj.scaleX) / 2);
+                }
+                if (type === 'centerVCanvas') {
+                    activeObj.set('top', actualCenterY - (activeObj.height * activeObj.scaleY) / 2);
+                }
                 activeObj.setCoords();
             } else if (activeObj.type === 'activeSelection') {
                 const group = activeObj;
@@ -1669,6 +1917,18 @@
         }
 
         async function getCanvasDataURLWithOptions(canvasInstance, options) {
+            // Save current state
+            const currentZoom = canvasInstance.getZoom();
+            const currentWidth = canvasInstance.getWidth();
+            const currentHeight = canvasInstance.getHeight();
+            
+            // Reset to actual size for export
+            canvasInstance.setZoom(1);
+            canvasInstance.setDimensions({
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
+            });
+            
             let dataURL = canvasInstance.toDataURL({
                 format: 'jpeg',
                 quality: 1.0,
@@ -1683,6 +1943,14 @@
                     showMessage("Grayscale conversion failed.", "error");
                 }
             }
+            
+            // Restore display state
+            canvasInstance.setZoom(currentZoom);
+            canvasInstance.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
+            
             return dataURL;
         }
 
@@ -1864,7 +2132,8 @@ async function downloadPDF(canvasInstance, baseFileName) {
             updateDownloadButtonsState(false);
 
             const { jsPDF } = window.jspdf;
-            const orientation = canvasInstance.width > canvasInstance.height ? 'l' : 'p';
+            // Use actual canvas dimensions from config
+            const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
             
             const exportOptions = {
                 multiplier: downloadMultiplier,
@@ -1872,9 +2141,14 @@ async function downloadPDF(canvasInstance, baseFileName) {
             };
 
             try {
-                const pdf = new jsPDF({ orientation, unit: 'pt', format: [canvasInstance.width, canvasInstance.height] });
+                // Create PDF with user-selected dimensions
+                const pdf = new jsPDF({ 
+                    orientation, 
+                    unit: 'pt', 
+                    format: [currentCanvasConfig.width, currentCanvasConfig.height] 
+                });
                 const imgData = await getCanvasDataURLWithOptions(canvasInstance, exportOptions);
-                pdf.addImage(imgData, 'JPEG', 0, 0, canvasInstance.width, canvasInstance.height);
+                pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
                 pdf.save(`${baseFileName}.pdf`);
                 showMessage("PDF Downloaded!", "success");
             } catch (e) {
@@ -1892,7 +2166,7 @@ async function downloadPDF(canvasInstance, baseFileName) {
                     randomPool = [...currentThemeImages];
                 } else {
                     try {
-                        const res = await fetch('/api/images?search=');
+                        const res = await fetch(`/api/images?search=&locale=${currentLocale}`);
                         if (!res.ok) throw new Error('Failed to fetch all images for random pool');
                         randomPool = await res.json();
                     } catch (e) {
@@ -1921,7 +2195,7 @@ async function downloadPDF(canvasInstance, baseFileName) {
                 currentThemeImages = [];
             } else {
                 try {
-                    const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}`);
+                    const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
                     if (!res.ok) throw new Error('Failed to fetch theme images');
                     currentThemeImages = await res.json();
                 } catch(e) {
@@ -2220,12 +2494,51 @@ async function downloadPDF(canvasInstance, baseFileName) {
             }
         });
         
-        updateCanvasDisplayDimensions(currentWorksheetConfig.width, currentWorksheetConfig.height);
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
         
         downloadWorksheetJpegBtn.disabled = true;
         downloadWorksheetPdfBtn.disabled = true;
         downloadAnswerKeyJpegBtn.disabled = true;
         downloadAnswerKeyPdfBtn.disabled = true;
+
+        // Initialize language selector
+        if (languageSelect && currentLocale) {
+            languageSelect.value = currentLocale;
+        }
+
+        // Language change handler
+        if (languageSelect) {
+            languageSelect.addEventListener('change', function() {
+                currentLocale = this.value;
+                
+                // Apply translations if available
+                if (typeof applyTranslations !== 'undefined') {
+                    applyTranslations();
+                }
+                
+                // Reload themes with new locale
+                initializeImageLibrary();
+                loadBorderThemes();
+                loadBackgroundThemes();
+                
+                // Clear current selections to force reload
+                if (dictThemeEl.value && dictThemeEl.value !== 'all') {
+                    // Reload current theme images with new language
+                    updateDictionaryView(dictThemeEl.value);
+                } else if (dictThemeEl.value === 'all' && !dictSearchInput.value.trim()) {
+                    // Reload animals theme by default
+                    fetch(`/api/images?theme=animals&locale=${currentLocale}`)
+                        .then(response => response.json())
+                        .then(images => {
+                            allImages = images;
+                            renderImagesAfterLoadOrSearch();
+                        })
+                        .catch(error => {
+                            console.error('Error loading default animals theme:', error);
+                        });
+                }
+            });
+        }
 
         initializeImageLibrary();
         loadBorderThemes();

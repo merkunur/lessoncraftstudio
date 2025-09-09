@@ -304,9 +304,17 @@
         background-color: var(--app-surface-light);
         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         border-radius: 8px;
-        overflow: hidden; /* Changed from auto to hidden */
+        overflow: visible !important; /* Changed from auto to visible */
+        position: relative;
         margin: auto;
     }
+    
+    /* Ensure Fabric.js container doesn't clip */
+    .canvas-container { 
+        overflow: visible !important;
+        position: relative !important;
+    }
+    
     canvas { display: block; }
     
     /* Responsive Sidebar (Mobile/Tablet) */
@@ -469,8 +477,8 @@
           </div>
           <label for="pageSizeSelect">Page Size:</label>
           <select id="pageSizeSelect">
-              <option value="612x792">Letter Portrait (612×792)</option>
-              <option value="792x612" selected>Letter Landscape (792×612)</option>
+              <option value="612x792" selected>Letter Portrait (612×792)</option>
+              <option value="792x612">Letter Landscape (792×612)</option>
               <option value="595x842">A4 Portrait (595×842)</option>
               <option value="842x595">A4 Landscape (842×595)</option>
               <option value="1200x1200">Square (1200×1200)</option>
@@ -478,9 +486,9 @@
           </select>
           <div id="customPageSizeInputs" style="display:none;">
               <label for="pageWidth">Width (px):</label>
-              <input type="number" id="pageWidth" value="792">
+              <input type="number" id="pageWidth" value="612">
               <label for="pageHeight">Height (px):</label>
-              <input type="number" id="pageHeight" value="612">
+              <input type="number" id="pageHeight" value="792">
           </div>
           <button id="setPageSizeBtn">Apply Size</button>
 
@@ -667,6 +675,17 @@
 <div id="exportArea"></div>
 
 <script>
+    // MUST BE FIRST - Before ANY DOM element references
+    let currentLocale = 'en';
+    let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
+    
+    // Initialize locale from URL if present
+    const urlParams = new URLSearchParams(window.location.search);
+    const localeParam = urlParams.get('locale');
+    if (localeParam) {
+        currentLocale = localeParam;
+    }
+
 document.addEventListener('DOMContentLoaded', () => {
     // --- STATE MANAGEMENT ---
     let imageCache = { themes: [] };
@@ -675,7 +694,6 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentThemeImages = [];
     let lastGeneratedData = null;
     let worksheetCanvas, solutionCanvas;
-    let currentCanvasConfig = { width: 792, height: 612 };
     const downloadMultiplier = 6;
 
     // --- DOM ELEMENT REFERENCES ---
@@ -835,8 +853,15 @@ document.addEventListener('DOMContentLoaded', () => {
             languageSelect.value = currentLocale;
             languageSelect.addEventListener('change', function() {
                 currentLocale = this.value;
-                applyTranslations();
-                loadThemes(); // Reload themes with translations
+                if (typeof applyTranslations !== 'undefined') {
+                    applyTranslations();
+                }
+                initializeImageLibrary(); // Reload themes with translations
+                
+                // If a theme is selected, reload its images
+                if (themeSelect.value && themeSelect.value !== 'all') {
+                    handleThemeChange();
+                }
             });
         }
         
@@ -979,26 +1004,28 @@ document.addEventListener('DOMContentLoaded', () => {
         showMessage('info', 'Loading image themes...');
         try {
             // Fetch nested theme paths
-            const themePaths = await fetch('/api/themes/nested').then(res => res.ok ? res.json() : []);
+            const themePaths = await fetch(`/api/themes-translated?locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
             imageCache.themes = themePaths;
             
             // Populate dropdowns with nested theme structure
-            themeSelect.innerHTML = '<option value="all">All Themes</option>';
-            worksheetThemeSelect.innerHTML = '<option value="">Manual Selection Below</option>';
+            themeSelect.innerHTML = '<option value="all" data-translate-key="allThemes">All Themes</option>';
+            worksheetThemeSelect.innerHTML = '<option value="" data-translate-key="manualSelection">Manual Selection Below</option>';
 
-            themePaths.forEach(themePath => {
-                const displayName = themePath
-                    .split('/')
-                    .map(part => part.charAt(0).toUpperCase() + part.slice(1))
-                    .join(' / ');
+            themePaths.forEach(theme => {
                 const opt = document.createElement('option');
-                opt.value = themePath;
-                opt.textContent = displayName;
+                opt.value = theme.value || theme;
+                opt.textContent = theme.displayName || theme.value || theme;
                 themeSelect.appendChild(opt.cloneNode(true));
                 worksheetThemeSelect.appendChild(opt.cloneNode(true));
             });
             
             showMessage('success', 'Image library ready.');
+            
+            // Re-apply translations to update "All Themes" text
+            if (typeof applyTranslations !== 'undefined') {
+                applyTranslations();
+            }
+            
             await renderDictionary();
         } catch (error) {
             console.error("Failed to initialize image library:", error);
@@ -1012,7 +1039,7 @@ document.addEventListener('DOMContentLoaded', () => {
             dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading ${selectedTheme} images...</p>`;
             try {
                 // Encode the theme parameter to handle slashes correctly
-                currentThemeImages = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}`).then(res => res.json());
+                currentThemeImages = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`).then(res => res.json());
             } catch (e) {
                 showMessage('error', `Failed to load theme: ${selectedTheme}`);
                 currentThemeImages = [];
@@ -1033,13 +1060,18 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             if (selectedTheme === '' || selectedTheme === 'all') {
                 if (!query) {
-                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
-                    return;
+                    // Load animals theme by default when "All Themes" is selected with no search
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading animals...</p>`;
+                    imagesToDisplay = await fetch(`/api/images?theme=animals&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
+                } else {
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+                    imagesToDisplay = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
                 }
-                dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-                imagesToDisplay = await fetch(`/api/images?search=${encodeURIComponent(query)}`).then(res => res.ok ? res.json() : []);
             } else {
-                imagesToDisplay = query ? currentThemeImages.filter(img => img.word.toLowerCase().includes(query)) : currentThemeImages;
+                imagesToDisplay = query ? currentThemeImages.filter(img => {
+                    const displayName = (img.name || img.word).toLowerCase();
+                    return displayName.includes(query);
+                }) : currentThemeImages;
             }
         } catch (error) {
             console.error('Error fetching/filtering images:', error);
@@ -1059,7 +1091,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (selectedImages.some(sel => sel.path === imgData.path)) {
                 item.classList.add('selected');
             }
-            item.innerHTML = `<img src="${imgData.path}" crossOrigin="anonymous" alt="${imgData.word}"/><span>${imgData.word}</span>`;
+            const displayName = imgData.name || imgData.word;
+            item.innerHTML = `<img src="${imgData.path}" crossOrigin="anonymous" alt="${displayName}"/><span>${displayName}</span>`;
             item.onclick = () => toggleImageSelection(imgData);
             dictionaryDiv.appendChild(item);
         });
@@ -1078,7 +1111,8 @@ document.addEventListener('DOMContentLoaded', () => {
             if (selectedImages.some(sel => sel.path === imgData.path)) {
                 item.classList.add('selected');
             }
-            item.innerHTML = `<img src="${imgData.path}" alt="${imgData.word}" loading="lazy"/><span>${imgData.word}</span>`;
+            const displayName = imgData.name || imgData.word;
+            item.innerHTML = `<img src="${imgData.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
             item.onclick = () => toggleImageSelection(imgData);
             uploadedImagesPreviewDiv.appendChild(item);
         });
@@ -1121,11 +1155,11 @@ document.addEventListener('DOMContentLoaded', () => {
                  if (selectedImages.length !== 6) throw new Error(`When selecting manually, you must choose exactly 6 images. You have ${selectedImages.length}.`);
                 imagesForChartGeneration = [...selectedImages];
             } else if (chosenWorksheetTheme) {
-                const themeImages = await fetch(`/api/images?theme=${encodeURIComponent(chosenWorksheetTheme)}`).then(res => res.ok ? res.json() : []);
+                const themeImages = await fetch(`/api/images?theme=${encodeURIComponent(chosenWorksheetTheme)}&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
                 if (themeImages.length < 6) throw new Error(`Theme "${chosenWorksheetTheme}" has fewer than 6 images. Please choose another theme or select images manually.`);
                 imagesForChartGeneration = getRandomElements(themeImages, 6);
             } else {
-                const allServerImages = await fetch('/api/images?search=').then(res => res.ok ? res.json() : []);
+                const allServerImages = await fetch(`/api/images?search=&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
                 const combinedPool = [...new Map([...allServerImages, ...uploadedImages].map(item => [item.path, item])).values()];
                 if (combinedPool.length < 6) throw new Error('Not enough images in the library (requires 6). Please upload more.');
                 imagesForChartGeneration = getRandomElements(combinedPool, 6);
@@ -1206,11 +1240,128 @@ document.addEventListener('DOMContentLoaded', () => {
         // Add the new cards to the canvas
         worksheetCanvas.add(...exerciseGroups);
 
-        // Center the block ONLY on the first generation
+        // Professional adaptive layout based on page orientation
         if (isFirstGeneration && exerciseGroups.length > 0) {
-            const tempGroup = new fabric.Group(exerciseGroups);
-            tempGroup.center();
-            tempGroup.destroy(); // Ungroup after centering.
+            // Define professional margins
+            const TOP_MARGIN = document.getElementById('includeNameDate').checked ? 100 : 80;
+            const BOTTOM_MARGIN = 80;
+            const SIDE_MARGIN = 60;
+            const ELEMENT_SPACING = 40; // Space between elements
+            
+            // Calculate available space
+            const availableWidth = currentCanvasConfig.width - (SIDE_MARGIN * 2);
+            const availableHeight = currentCanvasConfig.height - TOP_MARGIN - BOTTOM_MARGIN;
+            
+            // Determine if page is landscape or portrait
+            const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+            
+            // Get original dimensions of both groups
+            const imageGrid = exerciseGroups[0];
+            const chartArea = exerciseGroups[1];
+            
+            if (imageGrid && chartArea) {
+                const gridOriginalWidth = imageGrid.width;
+                const gridOriginalHeight = imageGrid.height;
+                const chartOriginalWidth = chartArea.width;
+                const chartOriginalHeight = chartArea.height;
+                
+                if (isLandscape) {
+                    // LANDSCAPE: Side-by-side layout
+                    // Calculate scale to fit both elements side by side
+                    const totalOriginalWidth = gridOriginalWidth + chartOriginalWidth + ELEMENT_SPACING;
+                    const maxHeight = Math.max(gridOriginalHeight, chartOriginalHeight);
+                    
+                    // Calculate scale factors
+                    let scaleX = availableWidth / totalOriginalWidth;
+                    let scaleY = availableHeight / maxHeight;
+                    let finalScale = Math.min(scaleX, scaleY, 1); // Don't scale up beyond 100%
+                    
+                    // Apply professional scaling (slightly smaller for better appearance)
+                    finalScale = finalScale * 0.9;
+                    
+                    // Scale both groups
+                    imageGrid.scale(finalScale);
+                    chartArea.scale(finalScale);
+                    
+                    // Update coordinates after scaling
+                    imageGrid.setCoords();
+                    chartArea.setCoords();
+                    
+                    // Calculate actual dimensions after scaling
+                    const scaledGridWidth = gridOriginalWidth * finalScale;
+                    const scaledChartWidth = chartOriginalWidth * finalScale;
+                    const scaledGridHeight = gridOriginalHeight * finalScale;
+                    const scaledChartHeight = chartOriginalHeight * finalScale;
+                    
+                    // Center horizontally
+                    const totalWidth = scaledGridWidth + ELEMENT_SPACING + scaledChartWidth;
+                    const startX = SIDE_MARGIN + (availableWidth - totalWidth) / 2;
+                    
+                    // Center vertically (align tops with same vertical position)
+                    const maxScaledHeight = Math.max(scaledGridHeight, scaledChartHeight);
+                    const startY = TOP_MARGIN + (availableHeight - maxScaledHeight) / 2;
+                    
+                    // Position elements
+                    imageGrid.set({
+                        left: startX,
+                        top: startY + (maxScaledHeight - scaledGridHeight) / 2 // Vertically center if different heights
+                    });
+                    
+                    chartArea.set({
+                        left: startX + scaledGridWidth + ELEMENT_SPACING,
+                        top: startY + (maxScaledHeight - scaledChartHeight) / 2 // Vertically center if different heights
+                    });
+                    
+                } else {
+                    // PORTRAIT: Vertical stacked layout
+                    // Calculate scale to fit both elements vertically
+                    const maxWidth = Math.max(gridOriginalWidth, chartOriginalWidth);
+                    const totalOriginalHeight = gridOriginalHeight + chartOriginalHeight + ELEMENT_SPACING;
+                    
+                    // Calculate scale factors
+                    let scaleX = availableWidth / maxWidth;
+                    let scaleY = availableHeight / totalOriginalHeight;
+                    let finalScale = Math.min(scaleX, scaleY, 1); // Don't scale up beyond 100%
+                    
+                    // Apply professional scaling (slightly smaller for better appearance)
+                    finalScale = finalScale * 0.85;
+                    
+                    // Scale both groups
+                    imageGrid.scale(finalScale);
+                    chartArea.scale(finalScale);
+                    
+                    // Update coordinates after scaling
+                    imageGrid.setCoords();
+                    chartArea.setCoords();
+                    
+                    // Calculate actual dimensions after scaling
+                    const scaledGridWidth = gridOriginalWidth * finalScale;
+                    const scaledChartWidth = chartOriginalWidth * finalScale;
+                    const scaledGridHeight = gridOriginalHeight * finalScale;
+                    const scaledChartHeight = chartOriginalHeight * finalScale;
+                    
+                    // Calculate total height
+                    const totalHeight = scaledGridHeight + ELEMENT_SPACING + scaledChartHeight;
+                    
+                    // Center vertically
+                    const startY = TOP_MARGIN + (availableHeight - totalHeight) / 2;
+                    
+                    // Center each element horizontally
+                    const gridX = SIDE_MARGIN + (availableWidth - scaledGridWidth) / 2;
+                    const chartX = SIDE_MARGIN + (availableWidth - scaledChartWidth) / 2;
+                    
+                    // Position elements
+                    imageGrid.set({
+                        left: gridX,
+                        top: startY
+                    });
+                    
+                    chartArea.set({
+                        left: chartX,
+                        top: startY + scaledGridHeight + ELEMENT_SPACING
+                    });
+                }
+            }
         }
         
         // If name/date field doesn't exist, create it
@@ -1224,6 +1375,11 @@ document.addEventListener('DOMContentLoaded', () => {
         enforceZOrder(worksheetCanvas);
         const userObjects = worksheetCanvas.getObjects().filter(o => !o.isWorksheetExercise && !o.isBorder && !o.isBackground);
         userObjects.forEach(o => o.bringToFront());
+        
+        // CRITICAL: Update all object coordinates after positioning
+        worksheetCanvas.forEachObject(function(obj) {
+            obj.setCoords();
+        });
         
         worksheetCanvas.renderAll();
     }
@@ -1289,11 +1445,128 @@ document.addEventListener('DOMContentLoaded', () => {
         // Add all items back to the canvas
         solutionCanvas.add(...exerciseGroups);
 
-        // Center only on first generation
+        // Professional adaptive layout for solution (same as worksheet)
         if (isFirstAnswerKeyGeneration && exerciseGroups.length > 0) {
-            const tempGroup = new fabric.Group(exerciseGroups);
-            tempGroup.center();
-            tempGroup.destroy();
+            // Define professional margins
+            const TOP_MARGIN = document.getElementById('includeNameDate').checked ? 100 : 80;
+            const BOTTOM_MARGIN = 80;
+            const SIDE_MARGIN = 60;
+            const ELEMENT_SPACING = 40; // Space between elements
+            
+            // Calculate available space
+            const availableWidth = currentCanvasConfig.width - (SIDE_MARGIN * 2);
+            const availableHeight = currentCanvasConfig.height - TOP_MARGIN - BOTTOM_MARGIN;
+            
+            // Determine if page is landscape or portrait
+            const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+            
+            // Get original dimensions of both groups
+            const imageGrid = exerciseGroups[0];
+            const chartArea = exerciseGroups[1];
+            
+            if (imageGrid && chartArea) {
+                const gridOriginalWidth = imageGrid.width;
+                const gridOriginalHeight = imageGrid.height;
+                const chartOriginalWidth = chartArea.width;
+                const chartOriginalHeight = chartArea.height;
+                
+                if (isLandscape) {
+                    // LANDSCAPE: Side-by-side layout
+                    // Calculate scale to fit both elements side by side
+                    const totalOriginalWidth = gridOriginalWidth + chartOriginalWidth + ELEMENT_SPACING;
+                    const maxHeight = Math.max(gridOriginalHeight, chartOriginalHeight);
+                    
+                    // Calculate scale factors
+                    let scaleX = availableWidth / totalOriginalWidth;
+                    let scaleY = availableHeight / maxHeight;
+                    let finalScale = Math.min(scaleX, scaleY, 1); // Don't scale up beyond 100%
+                    
+                    // Apply professional scaling (slightly smaller for better appearance)
+                    finalScale = finalScale * 0.9;
+                    
+                    // Scale both groups
+                    imageGrid.scale(finalScale);
+                    chartArea.scale(finalScale);
+                    
+                    // Update coordinates after scaling
+                    imageGrid.setCoords();
+                    chartArea.setCoords();
+                    
+                    // Calculate actual dimensions after scaling
+                    const scaledGridWidth = gridOriginalWidth * finalScale;
+                    const scaledChartWidth = chartOriginalWidth * finalScale;
+                    const scaledGridHeight = gridOriginalHeight * finalScale;
+                    const scaledChartHeight = chartOriginalHeight * finalScale;
+                    
+                    // Center horizontally
+                    const totalWidth = scaledGridWidth + ELEMENT_SPACING + scaledChartWidth;
+                    const startX = SIDE_MARGIN + (availableWidth - totalWidth) / 2;
+                    
+                    // Center vertically (align tops with same vertical position)
+                    const maxScaledHeight = Math.max(scaledGridHeight, scaledChartHeight);
+                    const startY = TOP_MARGIN + (availableHeight - maxScaledHeight) / 2;
+                    
+                    // Position elements
+                    imageGrid.set({
+                        left: startX,
+                        top: startY + (maxScaledHeight - scaledGridHeight) / 2 // Vertically center if different heights
+                    });
+                    
+                    chartArea.set({
+                        left: startX + scaledGridWidth + ELEMENT_SPACING,
+                        top: startY + (maxScaledHeight - scaledChartHeight) / 2 // Vertically center if different heights
+                    });
+                    
+                } else {
+                    // PORTRAIT: Vertical stacked layout
+                    // Calculate scale to fit both elements vertically
+                    const maxWidth = Math.max(gridOriginalWidth, chartOriginalWidth);
+                    const totalOriginalHeight = gridOriginalHeight + chartOriginalHeight + ELEMENT_SPACING;
+                    
+                    // Calculate scale factors
+                    let scaleX = availableWidth / maxWidth;
+                    let scaleY = availableHeight / totalOriginalHeight;
+                    let finalScale = Math.min(scaleX, scaleY, 1); // Don't scale up beyond 100%
+                    
+                    // Apply professional scaling (slightly smaller for better appearance)
+                    finalScale = finalScale * 0.85;
+                    
+                    // Scale both groups
+                    imageGrid.scale(finalScale);
+                    chartArea.scale(finalScale);
+                    
+                    // Update coordinates after scaling
+                    imageGrid.setCoords();
+                    chartArea.setCoords();
+                    
+                    // Calculate actual dimensions after scaling
+                    const scaledGridWidth = gridOriginalWidth * finalScale;
+                    const scaledChartWidth = chartOriginalWidth * finalScale;
+                    const scaledGridHeight = gridOriginalHeight * finalScale;
+                    const scaledChartHeight = chartOriginalHeight * finalScale;
+                    
+                    // Calculate total height
+                    const totalHeight = scaledGridHeight + ELEMENT_SPACING + scaledChartHeight;
+                    
+                    // Center vertically
+                    const startY = TOP_MARGIN + (availableHeight - totalHeight) / 2;
+                    
+                    // Center each element horizontally
+                    const gridX = SIDE_MARGIN + (availableWidth - scaledGridWidth) / 2;
+                    const chartX = SIDE_MARGIN + (availableWidth - scaledChartWidth) / 2;
+                    
+                    // Position elements
+                    imageGrid.set({
+                        left: gridX,
+                        top: startY
+                    });
+                    
+                    chartArea.set({
+                        left: chartX,
+                        top: startY + scaledGridHeight + ELEMENT_SPACING
+                    });
+                }
+            }
         }
 
         // Clone name/date group if it exists on worksheet
@@ -1310,6 +1583,11 @@ document.addEventListener('DOMContentLoaded', () => {
         enforceZOrder(solutionCanvas);
         const finalUserObjects = solutionCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground);
         finalUserObjects.forEach(o => o.bringToFront());
+
+        // CRITICAL: Update all object coordinates after positioning
+        solutionCanvas.forEachObject(function(obj) {
+            obj.setCoords();
+        });
 
         solutionCanvas.renderAll();
     }
@@ -1367,8 +1645,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const borderRect = new fabric.Rect({ width: groupWidth + padding * 2, height: groupHeight + padding * 2, fill: 'transparent', stroke: '#dce1e6', strokeWidth: 3, strokeDashArray: [8, 8], rx: 12, ry: 12, originX: 'left', originY: 'top', left: 0, top: 0 });
         
         const finalGroup = new fabric.Group([borderRect, ...imageElements], {
-            left: 50,
-            top: 50, 
+            left: 0,  // Position will be set in renderWorksheet
+            top: 0,   // Position will be set in renderWorksheet
             objectCaching: false, 
             borderColor: 'var(--app-accent-primary)', 
             cornerColor: 'var(--app-accent-primary)', 
@@ -1433,7 +1711,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     
         const chartGroup = new fabric.Group(chartElements, {
-            left: 450, top: 50,
+            left: 0,  // Position will be set in renderWorksheet
+            top: 0,   // Position will be set in renderWorksheet
             objectCaching: false,
             borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
             cornerSize: 10, transparentCorners: false, cornerStyle: 'circle',
@@ -1523,8 +1802,22 @@ document.addEventListener('DOMContentLoaded', () => {
             closeAllPopovers(); return;
         }
         if (type.includes('Canvas')) {
-            if (type === 'centerHCanvas') activeObj.centerH();
-            if (type === 'centerVCanvas') activeObj.centerV();
+            // Use actual canvas dimensions from currentCanvasConfig, not display dimensions
+            const actualCenterX = currentCanvasConfig.width / 2;
+            const actualCenterY = currentCanvasConfig.height / 2;
+            
+            if (type === 'centerHCanvas') {
+                activeObj.set('left', actualCenterX);
+                if (activeObj.originX !== 'center') {
+                    activeObj.set('left', actualCenterX - (activeObj.width * activeObj.scaleX) / 2);
+                }
+            }
+            if (type === 'centerVCanvas') {
+                activeObj.set('top', actualCenterY);
+                if (activeObj.originY !== 'center') {
+                    activeObj.set('top', actualCenterY - (activeObj.height * activeObj.scaleY) / 2);
+                }
+            }
             activeObj.setCoords();
         } else if (activeObj.type === 'activeSelection') {
             const group = activeObj;
@@ -1672,24 +1965,59 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!width || !height) return;
         currentCanvasConfig.width = width;
         currentCanvasConfig.height = height;
-        const wrapperStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
-        const availableWidth = parseFloat(wrapperStyle.width) - (parseFloat(wrapperStyle.paddingLeft) + parseFloat(wrapperStyle.paddingRight));
-        const availableHeight = parseFloat(wrapperStyle.height) - (parseFloat(wrapperStyle.paddingTop) + parseFloat(wrapperStyle.paddingBottom));
-        const scaleFactor = Math.min(availableWidth / width, availableHeight / height, 1);
-        const displayWidth = width * scaleFactor;
-        const displayHeight = height * scaleFactor;
+        
+        const mainStyle = document.getElementById('worksheetTab').parentElement;
+        const availableWidth = mainStyle.clientWidth - 50;
+        const availableHeight = mainStyle.clientHeight - 50;
+        
+        // Apply 25% scaling for better visibility (matching Word Search)
+        // Extra 25% for landscape orientations
+        const isLandscape = width > height;
+        const baseScale = 1.25; // Base 25% larger for all
+        const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+        const displayScale = baseScale * landscapeBonus;
+        
+        // Calculate display dimensions with scaling
+        const scaledWidth = width * displayScale;
+        const scaledHeight = height * displayScale;
+        
+        // Ensure it fits in available space
+        const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+        const displayWidth = scaledWidth * scaleRatio;
+        const displayHeight = scaledHeight * scaleRatio;
+        
+        // Apply zoom for display
+        const finalZoom = displayWidth / width;
+        
         [worksheetCanvas, solutionCanvas].forEach(c => {
             if (c) {
-                c.setWidth(width).setHeight(height);
-                if (c.wrapperEl) {
-                    c.wrapperEl.style.width = displayWidth + 'px';
-                    c.wrapperEl.style.height = displayHeight + 'px';
-                }
-                c.calcOffset(); c.renderAll();
+                c.setZoom(finalZoom);
+                
+                // CRITICAL: Set dimensions AFTER zoom
+                c.setDimensions({
+                    width: displayWidth,
+                    height: displayHeight
+                });
+                
+                // CRITICAL: Recalculate all object coordinates after zoom
+                c.calcOffset();
+                c.forEachObject(function(obj) {
+                    obj.setCoords();
+                });
+                
+                // Re-render canvas
+                c.renderAll();
             }
         });
-        pageWidthInput.value = width; pageHeightInput.value = height;
+        
+        pageWidthInput.value = width; 
+        pageHeightInput.value = height;
     }
+    
+    // Update on window resize
+    window.addEventListener('resize', () => {
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+    });
     
     function showMessage(type, msg, duration = 3000) {
         messageDiv.textContent = msg;
@@ -1921,11 +2249,31 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- STANDARDIZED DOWNLOAD & EXPORT LOGIC ---
     async function getCanvasDataURLWithOptions(canvasInstance, exportOpts) {
+        // Save current state
+        const currentZoom = canvasInstance.getZoom();
+        const currentWidth = canvasInstance.getWidth();
+        const currentHeight = canvasInstance.getHeight();
+        
+        // Reset to actual size for export
+        canvasInstance.setZoom(1);
+        canvasInstance.setDimensions({
+            width: currentCanvasConfig.width,
+            height: currentCanvasConfig.height
+        });
+        
         canvasInstance.discardActiveObject().renderAll();
         let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 1.0, multiplier: exportOpts.multiplier });
         if (exportOpts.applyPixelLevelGrayscale) {
             try { dataURL = await applyGrayscaleToDataURL(dataURL); } catch (error) { console.error("Grayscale filter failed:", error); }
         }
+        
+        // Restore display state
+        canvasInstance.setZoom(currentZoom);
+        canvasInstance.setDimensions({
+            width: currentWidth,
+            height: currentHeight
+        });
+        
         return dataURL;
     }
     
@@ -1983,9 +2331,18 @@ document.addEventListener('DOMContentLoaded', () => {
         
         try {
             const imgData = await getCanvasDataURLWithOptions(canvas, exportOpts);
-            const orientation = canvas.width > canvas.height ? 'l' : 'p';
-            const pdf = new jsPDF({ orientation, unit: 'pt', format: [canvas.width, canvas.height] });
-            pdf.addImage(imgData, 'JPEG', 0, 0, canvas.width, canvas.height);
+            // Determine orientation based on user-selected dimensions
+            const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'landscape' : 'portrait';
+            
+            // Create PDF with user-selected dimensions
+            const pdf = new jsPDF({ 
+                orientation: orientation, 
+                unit: 'pt', 
+                format: [currentCanvasConfig.width, currentCanvasConfig.height] 
+            });
+            
+            // Add image at full page size
+            pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
             pdf.save(fileName);
             showMessage('success', `${fileName} Downloaded!`);
         } catch (e) { 

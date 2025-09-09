@@ -1,6 +1,6 @@
 # App Standardization Guide - Complete Fix Patterns
 
-## ✅ Completed Apps (14/33)
+## ✅ Completed Apps (16/33)
 1. Word Search
 2. Math Worksheets  
 3. Alphabet Train
@@ -14,9 +14,11 @@
 11. Sudoku
 12. Big or Small App ✅ STANDARDIZED
 13. Big Small ✅ FULLY STANDARDIZED (2025-09-09)
-14. Chart Count Color
+14. Chart Count Color ✅ FULLY STANDARDIZED (2025-09-09)
+15. Code Addition ✅ FULLY STANDARDIZED (2025-09-09)
+16. Draw and Color ✅ FULLY STANDARDIZED (2025-09-09)
 
-## 🔧 Standard Fixes to Apply to Remaining 22 Apps
+## 🔧 Standard Fixes to Apply to Remaining 17 Apps
 
 ### 1. MULTILINGUAL SUPPORT (Critical)
 
@@ -473,14 +475,13 @@ For each of the remaining 25 apps (Find and Count and Matching App are now fixed
 5. **Image Performance**: Always use lazy loading for image grids
 6. **API Locale**: Never forget &locale=${currentLocale} parameter
 
-## 🚀 Remaining Apps to Fix (21)
+## 🚀 Remaining Apps to Fix (17)
 
 ### Core Bundle: ✅ ALL COMPLETED!
 
-### Full Access (21 remaining):
-- chart-count-color
-- code-addition
-- draw-and-color
+### Full Access (17 remaining):
+- ✅ code-addition (2025-09-09)
+- ✅ draw-and-color (2025-09-09)
 - find-objects
 - grid-match
 - image-crossword

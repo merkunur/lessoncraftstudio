@@ -815,7 +815,26 @@
         }
         
         // --- CONSTANTS & STATE ---
-        const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+        // Language-specific alphabets with proper ordering
+        const languageAlphabets = {
+            'en': "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+            'de': "AÄBCDEFGHIJKLMNOÖPQRSTUÜVWXYZ",  // German with umlauts in correct positions
+            'fr': "ABCDEFGHIJKLMNOPQRSTUVWXYZ",  // French uses standard alphabet
+            'es': "ABCDEFGHIJKLMNÑOPQRSTUVWXYZ",  // Spanish with Ñ after N
+            'pt': "ABCDEFGHIJKLMNOPQRSTUVWXYZ",  // Portuguese uses standard alphabet
+            'it': "ABCDEFGHIJKLMNOPQRSTUVWXYZ",  // Italian uses standard alphabet
+            'nl': "ABCDEFGHIJKLMNOPQRSTUVWXYZ",  // Dutch uses standard alphabet
+            'sv': "ABCDEFGHIJKLMNOPQRSTUVWXYZÅÄÖ",  // Swedish with ÅÄÖ at end
+            'da': "ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ",  // Danish with ÆØÅ at end
+            'no': "ABCDEFGHIJKLMNOPQRSTUVWXYZÆØÅ",  // Norwegian with ÆØÅ at end
+            'fi': "ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖ"   // Finnish with ÄÖ at end
+        };
+        
+        function getAlphabetForLocale(locale) {
+            return languageAlphabets[locale] || languageAlphabets['en'];
+        }
+        
+        let ALPHABET = getAlphabetForLocale(currentLocale).split("");
         const downloadMultiplier = 6;
 
         let worksheetCanvas, answerKeyCanvas;
@@ -928,6 +947,12 @@
             for (let i = 1; i <= 8; i++) maxLinesSelect.innerHTML += `<option value="${i}">${i}</option`;
             maxLinesSelect.value = 4;
 
+            // Create initial letter buttons
+            updateLetterButtons();
+        }
+        
+        function updateLetterButtons() {
+            letterButtonsDiv.innerHTML = ''; // Clear existing buttons
             ALPHABET.forEach(l => {
                 const btn = document.createElement("button");
                 btn.textContent = l;
@@ -935,6 +960,11 @@
                 btn.onclick = () => handleLetterSelection(l);
                 letterButtonsDiv.appendChild(btn);
             });
+            // Reset selected letter if it's not in the new alphabet
+            if (selectedLetter && !ALPHABET.includes(selectedLetter)) {
+                selectedLetter = null;
+                selectedLetterDisplay.textContent = 'None';
+            }
         }
         
         function setupAccordions() {
@@ -988,6 +1018,8 @@
                 languageSelect.value = currentLocale;
                 languageSelect.addEventListener('change', function() {
                     currentLocale = this.value;
+                    ALPHABET = getAlphabetForLocale(currentLocale).split(""); // Update alphabet for new language
+                    updateLetterButtons(); // Rebuild letter buttons with new alphabet
                     if (typeof translatePage !== 'undefined') translatePage();
                     loadThemes(); // Reload themes with translations
                     renderDictionary(); // Re-render images with translations

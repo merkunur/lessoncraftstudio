@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Search Generator</title>
-    <script src="js/translations.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="js/translations.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <style>
         :root {
@@ -901,7 +903,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function getAlphabetForLocale(locale) {
         return languageAlphabets[locale] || languageAlphabets['en'];
     }
-
+    
     let worksheetCanvas, answerKeyCanvas;
     let currentCanvasConfig = { width: 612, height: 792 };
 
@@ -996,21 +998,6 @@ document.addEventListener("DOMContentLoaded", function() {
         setupDropdowns();
         setupTabs();
         setupEventListeners();
-        
-        // Set language selector to current locale and ensure it's visible
-        if (languageSelect) {
-            languageSelect.value = currentLocale;
-            // Ensure Language Settings accordion is expanded
-            const langAccordion = languageSelect.closest('.accordion-item');
-            if (langAccordion) {
-                const button = langAccordion.querySelector('.accordion-button');
-                const wrapper = langAccordion.querySelector('.accordion-wrapper');
-                if (button && wrapper) {
-                    button.classList.add('active');
-                    wrapper.style.display = 'block';
-                }
-            }
-        }
 
         worksheetCanvas = initializeCanvas(worksheetCanvasElement);
         answerKeyCanvas = initializeCanvas(answerKeyCanvasElement);
@@ -1025,14 +1012,36 @@ document.addEventListener("DOMContentLoaded", function() {
         setupCanvasEventListeners(answerKeyCanvas);
         updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
 
-        loadThemes().then(() => {
-            // Only render dictionary after themes are loaded
-            renderDictionary();
-        });
+        // Initialize language selector
+        if (languageSelect) {
+            languageSelect.value = currentLocale;
+            languageSelect.addEventListener('change', function() {
+                currentLocale = this.value;
+                applyTranslations();
+                
+                // Clear the image cache to force reload with new translations
+                allImagesCache = {};
+                
+                loadThemes(); // Reload themes with new locale
+                
+                // Reload the animals theme with new language
+                preloadDefaultTheme();
+                
+                if (themeSelect.value && themeSelect.value !== 'all') {
+                    renderDictionary(); // Reload images if a theme is selected
+                }
+            });
+        }
+        
+        // Apply translations on load
+        applyTranslations();
+        
+        loadThemes();
         loadBorderThemes();
         loadBackgroundThemes();
-        renderUploadedImages();
-        showMessage('Select images or a theme to begin.', 'info', 5000);
+        
+        // Preload default theme in background for instant first generation
+        preloadDefaultTheme();
     }
 
     // --- SETUP FUNCTIONS ---
@@ -1099,50 +1108,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function setupEventListeners() {
-        // Language Settings
-        languageSelect.addEventListener('change', async () => {
-            const oldLocale = currentLocale;
-            currentLocale = languageSelect.value;
-            
-            // Clear all cached data when language changes
-            allImagesCache = {};
-            lastGeneratedData = null;
-            
-            // Update user-selected images with new translations
-            if (userSelectedImages.length > 0) {
-                const updatedImages = [];
-                for (const img of userSelectedImages) {
-                    // Extract theme from path
-                    const pathParts = img.path.split('/');
-                    const theme = pathParts[2]; // /images/theme/filename
-                    
-                    // Fetch updated image data with new locale
-                    try {
-                        // Refresh with new locale
-                        let response = await fetch(`/api/images-strapi?theme=${theme}&locale=${currentLocale}`);
-                        if (!response.ok) {
-                            response = await fetch(`/api/images?theme=${theme}&locale=${currentLocale}`);
-                        }
-                        if (response.ok) {
-                            const themeImages = await response.json();
-                            const updatedImg = themeImages.find(i => i.path === img.path);
-                            if (updatedImg) {
-                                updatedImages.push(updatedImg);
-                            }
-                        }
-                    } catch (error) {
-                        console.error('Error updating image translation:', error);
-                    }
-                }
-                userSelectedImages = updatedImages;
-            }
-            
-            // Reload themes with new locale, then render dictionary
-            await loadThemes();
-            renderDictionary();
-            // Update UI translations
-            translatePage();
-        });
         
         // Page & Scene
         pageSizeSelect.addEventListener('change', handlePageSizeChange);
@@ -1217,10 +1182,14 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
+    
     function getActiveCanvas() {
         const activeTab = document.querySelector('.tab.active');
-        // If the answer key tab is active, return that canvas, otherwise default to the worksheet canvas.
-        return activeTab && activeTab.id === 'answerKeyTab' ? answerKeyCanvas : worksheetCanvas;
+        // If the answer key tab is active, return it
+        if (activeTab && activeTab.id === 'answerKeyTab') {
+            return answerKeyCanvas;
+        }
+        return worksheetCanvas;
     }
 
     function setupCanvasEventListeners(canvas) {
@@ -1264,7 +1233,11 @@ document.addEventListener("DOMContentLoaded", function() {
         const displayWidth = scaledWidth * scaleRatio;
         const displayHeight = scaledHeight * scaleRatio;
 
-        [worksheetCanvas, answerKeyCanvas].forEach(c => {
+        // Only update initialized canvases
+        const canvases = [worksheetCanvas];
+        if (answerKeyCanvas) canvases.push(answerKeyCanvas);
+        
+        canvases.forEach(c => {
             if (c) {
                 // Apply zoom for display scaling
                 const finalZoom = (displayWidth / width);
@@ -1327,6 +1300,7 @@ document.addEventListener("DOMContentLoaded", function() {
             !o.isPuzzleElement && !o.isBorder && !o.isBackground
         );
 
+        // Remove ALL puzzle elements including images loaded asynchronously
         const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isPuzzleElement);
         oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
         // --- END PRESERVATION LOGIC ---
@@ -1432,11 +1406,8 @@ document.addEventListener("DOMContentLoaded", function() {
             if (!themeImages) {
                  try {
                     showMessage(`Loading theme '${themeName}'...`, 'info', 2000);
-                    // Load theme with translations
-                    let response = await fetch(`/api/images-strapi?theme=${encodeURIComponent(themeName)}&locale=${currentLocale}`);
-                    if (!response.ok) {
-                        response = await fetch(`/api/images?theme=${encodeURIComponent(themeName)}&locale=${currentLocale}`);
-                    }
+                    // Load theme with translations (direct API for speed)
+                    const response = await fetch(`/api/images?theme=${encodeURIComponent(themeName)}&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to load theme: ${themeName}`);
                     allImagesCache[themeName] = await response.json();
                     themeImages = allImagesCache[themeName];
@@ -1455,7 +1426,8 @@ document.addEventListener("DOMContentLoaded", function() {
         } else { // Random theme
             const availableThemes = Object.keys(allImagesCache).filter(t => t !== 'all' && allImagesCache[t] && allImagesCache[t].length >= MIN_THEME_IMAGES);
             if (availableThemes.length === 0) {
-                showMessage(`No themes have enough images (${MIN_THEME_IMAGES}) for random generation.`, 'error');
+                // This should rarely happen since we preload animals theme
+                showMessage('Please wait for themes to load...', 'error');
                 return null;
             }
             const randomTheme = availableThemes[Math.floor(Math.random() * availableThemes.length)];
@@ -1468,7 +1440,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         const settings = {
-            wordsConfig: sourceImages.map(img => ({word: img.word, path: img.path})),
+            wordsConfig: sourceImages.map(img => ({word: img.word, path: img.path, name: img.name || img.word})),
             rows: parseInt(rowsInput.value),
             cols: parseInt(colsInput.value),
             allowDiagonal: allowDiagonalInput.checked,
@@ -1549,108 +1521,319 @@ document.addEventListener("DOMContentLoaded", function() {
         const { rows, cols } = settings;
         const tag = isAnswerKey ? 'isAnswerKeyItem' : 'isPuzzleElement';
 
-        // --- Create Grid Group ---
-        const gridObjects = [];
-        const totalGridWidth = 500;
-        const cellSize = totalGridWidth / cols;
-        for (let r = 0; r < rows; r++) {
-            for (let c = 0; c < cols; c++) {
-                gridObjects.push(new fabric.Rect({
-                    left: c * cellSize, top: r * cellSize,
-                    width: cellSize, height: cellSize, fill: 'white',
-                    stroke: '#ccc', strokeWidth: 1,
-                }));
-                gridObjects.push(new fabric.Text(grid[r][c], {
-                    left: c * cellSize + cellSize / 2,
-                    top: r * cellSize + cellSize / 2,
-                    fontSize: cellSize * 0.6, fontFamily: 'Arial, sans-serif',
-                    originX: 'center', originY: 'center',
-                    fontWeight: 'bold'
-                }));
-            }
+        // Professional layout with proper margins (10% on each side = 80% usable area)
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const marginRatio = 0.1; // 10% margins
+        const usableWidth = pageWidth * (1 - 2 * marginRatio);
+        const usableHeight = pageHeight * (1 - 2 * marginRatio);
+        
+        // Determine if landscape or portrait
+        const isLandscape = pageWidth > pageHeight;
+        
+        // Calculate optimal grid size based on page orientation and word count
+        const wordsCount = placedWordsInfo.length;
+        let gridTargetSize;
+        
+        if (isLandscape) {
+            // Landscape: grid on left, word list on right
+            gridTargetSize = Math.min(usableHeight * 0.8, usableWidth * 0.5);
+        } else {
+            // Portrait: grid on top, word list below
+            gridTargetSize = Math.min(usableWidth * 0.9, usableHeight * 0.5);
         }
+        
+        // Ensure grid fits with proper aspect ratio
+        const gridAspectRatio = rows / cols;
+        let totalGridWidth, totalGridHeight;
+        
+        if (gridAspectRatio > 1) {
+            // More rows than columns
+            totalGridHeight = gridTargetSize;
+            totalGridWidth = gridTargetSize / gridAspectRatio;
+        } else {
+            // More columns than rows (or square)
+            totalGridWidth = gridTargetSize;
+            totalGridHeight = gridTargetSize * gridAspectRatio;
+        }
+        
+        const cellSize = totalGridWidth / cols;
+        
+        // Create grid using Fabric.js objects (like Image Crossword does)
+        const gridElements = [];
+        
+        // Background rectangle
+        const background = new fabric.Rect({
+            left: 0,
+            top: 0,
+            width: totalGridWidth,
+            height: totalGridHeight,
+            fill: 'white',
+            stroke: null,
+            selectable: false,
+            evented: false
+        });
+        gridElements.push(background);
+        
+        // Draw answer key highlights if needed
         if (isAnswerKey) {
             placedWordsInfo.forEach(({word, r, c, dr, dc, color}) => {
                 for (let i = 0; i < word.length; i++) {
-                    gridObjects.push(new fabric.Rect({
-                        left: (c + dc * i) * cellSize, top: (r + dr * i) * cellSize,
-                        width: cellSize, height: cellSize, fill: color,
-                    }));
+                    const highlight = new fabric.Rect({
+                        left: (c + dc * i) * cellSize,
+                        top: (r + dr * i) * cellSize,
+                        width: cellSize,
+                        height: cellSize,
+                        fill: color,
+                        stroke: null,
+                        selectable: false,
+                        evented: false
+                    });
+                    gridElements.push(highlight);
                 }
             });
-            for (let r = 0; r < rows; r++) {
-                for (let c = 0; c < cols; c++) {
-                    gridObjects.push(new fabric.Text(grid[r][c], {
-                        left: c * cellSize + cellSize / 2, top: r * cellSize + cellSize / 2,
-                        fontSize: cellSize * 0.6, fontFamily: 'Arial, sans-serif',
-                        originX: 'center', originY: 'center',
-                        fontWeight: 'bold',
-                    }));
-                }
+        }
+        
+        // Draw grid lines using Fabric.js lines
+        // Vertical lines
+        for (let i = 1; i < cols; i++) {
+            const line = new fabric.Line([i * cellSize, 0, i * cellSize, totalGridHeight], {
+                stroke: '#999',
+                strokeWidth: 1,
+                selectable: false,
+                evented: false
+            });
+            gridElements.push(line);
+        }
+        
+        // Horizontal lines
+        for (let i = 1; i < rows; i++) {
+            const line = new fabric.Line([0, i * cellSize, totalGridWidth, i * cellSize], {
+                stroke: '#999',
+                strokeWidth: 1,
+                selectable: false,
+                evented: false
+            });
+            gridElements.push(line);
+        }
+        
+        // Draw outer border as a single rectangle to ensure corners connect
+        const outerBorder = new fabric.Rect({
+            left: 0,
+            top: 0,
+            width: totalGridWidth,
+            height: totalGridHeight,
+            fill: 'transparent',
+            stroke: '#333',
+            strokeWidth: 2, // 30% less thick (was 3, now 2)
+            selectable: false,
+            evented: false
+        });
+        gridElements.push(outerBorder);
+        
+        // Add letters
+        for (let r = 0; r < rows; r++) {
+            for (let c = 0; c < cols; c++) {
+                const letter = new fabric.Text(grid[r][c], {
+                    left: c * cellSize + cellSize / 2,
+                    top: r * cellSize + cellSize / 2,
+                    fontSize: cellSize * 0.55,
+                    fontFamily: 'Arial',
+                    fontWeight: 'bold',
+                    fill: 'black',
+                    originX: 'center',
+                    originY: 'center',
+                    selectable: false,
+                    evented: false
+                });
+                gridElements.push(letter);
             }
         }
-        const puzzleGridGroup = new fabric.Group(gridObjects, {
-            [tag]: true, originalIndex: 'grid_0', selectable: true, evented: true,
-            objectCaching: false, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
+        
+        // Group all grid elements
+        const puzzleGridGroup = new fabric.Group(gridElements, {
+            [tag]: true,
+            originalIndex: 'grid_0',
+            selectable: true,
+            evented: true,
+            borderColor: 'var(--app-accent-primary)',
+            cornerColor: 'var(--app-accent-primary)'
         });
 
-        // --- Create Clue Groups ---
-        const placedWords = placedWordsInfo.map(p => p.word);
-        const wordsToDisplay = settings.wordsConfig.filter(wc => placedWords.includes(wc.word.toUpperCase()));
-        const listTop = puzzleGridGroup.height + 30;
-        const listWidth = totalGridWidth;
-        const itemsPerRow = 4;
+        // --- Create Word List with Smart Layout ---
+        // Ensure we only display words that were actually placed in the grid
+        const placedWords = placedWordsInfo.map(p => p.word.toUpperCase());
+        const wordsToDisplay = settings.wordsConfig.filter(wc => {
+            const wordUpper = wc.word.toUpperCase();
+            return placedWords.includes(wordUpper);
+        });
+        
+        // Double-check that we're not showing more words than were placed
+        if (wordsToDisplay.length !== placedWordsInfo.length) {
+            console.warn(`Mismatch: ${wordsToDisplay.length} words to display vs ${placedWordsInfo.length} placed words`);
+        }
+        
+        // Calculate word list layout based on orientation
+        let listLeft, listTop, listWidth, listHeight;
+        let itemsPerRow, itemsPerCol;
+        
+        if (isLandscape) {
+            // Landscape: word list on the right side
+            listLeft = puzzleGridGroup.width + usableWidth * 0.05; // 5% gap
+            listTop = 0;
+            listWidth = usableWidth - puzzleGridGroup.width - usableWidth * 0.05;
+            listHeight = usableHeight;
+            
+            // Calculate optimal grid for word items
+            itemsPerCol = Math.ceil(Math.sqrt(wordsToDisplay.length * (listHeight / listWidth)));
+            itemsPerRow = Math.ceil(wordsToDisplay.length / itemsPerCol);
+        } else {
+            // Portrait: word list below the grid
+            listLeft = 0;
+            listTop = puzzleGridGroup.height + usableHeight * 0.05; // 5% gap
+            listWidth = usableWidth;
+            listHeight = usableHeight - puzzleGridGroup.height - usableHeight * 0.05;
+            
+            // Calculate optimal grid for word items
+            itemsPerRow = Math.min(4, Math.ceil(Math.sqrt(wordsToDisplay.length)));
+            itemsPerCol = Math.ceil(wordsToDisplay.length / itemsPerRow);
+        }
+        
         const itemWidth = listWidth / itemsPerRow;
-        const itemHeight = itemWidth;
+        const itemHeight = Math.min(itemWidth, listHeight / itemsPerCol);
 
-        const imageLoadPromises = wordsToDisplay.map((wordInfo, i) => {
-            return new Promise(resolve => {
-                const row = Math.floor(i / itemsPerRow);
-                const col = i % itemsPerRow;
-                const itemLeft = col * itemWidth;
-                const itemTop = listTop + row * itemHeight;
+        // Create text elements immediately without waiting for images
+        const wordListClues = [];
+        const imageLoadConfigs = [];
+        
+        wordsToDisplay.forEach((wordInfo, i) => {
+            const row = Math.floor(i / itemsPerRow);
+            const col = i % itemsPerRow;
+            const itemLeft = listLeft + col * itemWidth;
+            const itemTop = listTop + row * itemHeight;
 
-                fabric.Image.fromURL(wordInfo.path, (img) => {
-                    const groupObjects = [];
-                    if(img){
-                        img.scaleToHeight(itemHeight * 0.7);
-                        img.set({ originX: 'center', top: 0 });
-                        groupObjects.push(img);
-                    }
-                    if (settings.showWordList || isAnswerKey) {
-                        groupObjects.push(new fabric.Textbox(wordInfo.word, {
-                            fontSize: 16, fontFamily: 'Arial, sans-serif', width: itemWidth, textAlign: 'center',
-                            originX: 'center', top: (img ? img.getScaledHeight() : 0),
-                            fontWeight: '500'
-                        }));
-                    }
-                    const group = new fabric.Group(groupObjects, {
-                        left: itemLeft, top: itemTop, [tag]: true, originalIndex: `clue_${i}`,
-                        selectable: true, evented: true, objectCaching: false,
-                        borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
+            // Create just the text for now
+            if (settings.showWordList || isAnswerKey) {
+                // Scale font size based on item size
+                const fontSize = Math.min(20, Math.max(12, itemHeight * 0.12));
+                
+                // Use translated name if available, otherwise fall back to word
+                const displayName = wordInfo.name || wordInfo.word;
+                const text = new fabric.Textbox(displayName, {
+                    fontSize: fontSize, 
+                    fontFamily: 'Arial, sans-serif', 
+                    width: itemWidth * 0.9, 
+                    textAlign: 'center',
+                    left: itemLeft + itemWidth/2, 
+                    top: itemTop + itemHeight * 0.92, // Text at very bottom with clear spacing
+                    originX: 'center',
+                    fontWeight: '500',
+                    [tag]: true, 
+                    originalIndex: `clue_text_${i}`,
+                    selectable: true, 
+                    evented: true
+                });
+                wordListClues.push(text);
+                
+                // Store image info to load later
+                imageLoadConfigs.push({
+                    path: wordInfo.path,
+                    baseLeft: itemLeft + itemWidth/2,
+                    baseTop: itemTop + itemHeight * 0.42, // Center images slightly higher
+                    height: itemHeight * 0.32, // Smaller images (32%) for better spacing
+                    index: i
+                });
+            }
+        });
+        
+        // --- Apply Professional Layout with Margins ---
+        const allElements = [puzzleGridGroup, ...wordListClues];
+        
+        // Position grid first
+        const marginX = pageWidth * marginRatio;
+        const marginY = pageHeight * marginRatio;
+        
+        if (isLandscape) {
+            // Landscape: grid on left
+            puzzleGridGroup.set({
+                left: marginX,
+                top: marginY + (usableHeight - puzzleGridGroup.height) / 2
+            });
+        } else {
+            // Portrait: grid centered at top
+            puzzleGridGroup.set({
+                left: marginX + (usableWidth - puzzleGridGroup.width) / 2,
+                top: marginY
+            });
+        }
+        
+        // Update word list positions to be relative to the margin
+        wordListClues.forEach((elem, index) => {
+            if (elem) {
+                const row = Math.floor(index / itemsPerRow);
+                const col = index % itemsPerRow;
+                
+                if (isLandscape) {
+                    elem.set({
+                        left: marginX + totalGridWidth + usableWidth * 0.05 + col * itemWidth + itemWidth/2,
+                        top: marginY + row * itemHeight + itemHeight * 0.92
                     });
-                    resolve(group);
-                }, { crossOrigin: 'anonymous' });
+                } else {
+                    elem.set({
+                        left: marginX + col * itemWidth + itemWidth/2,
+                        top: marginY + totalGridHeight + usableHeight * 0.05 + row * itemHeight + itemHeight * 0.92
+                    });
+                }
+            }
+        });
+        
+        // Load images synchronously to ensure proper alignment
+        const imagePromises = imageLoadConfigs.map((config) => {
+            return new Promise((resolve) => {
+                const img = new Image();
+                img.crossOrigin = 'anonymous';
+                img.onload = function() {
+                    const fabricImg = new fabric.Image(img);
+                    fabricImg.scaleToHeight(config.height);
+                    fabricImg.set({
+                        left: marginX + config.baseLeft,
+                        top: marginY + config.baseTop,
+                        originX: 'center',
+                        [tag]: true,
+                        originalIndex: `clue_img_${config.index}`,
+                        selectable: true,
+                        evented: true
+                    });
+                    allElements.push(fabricImg);
+                    resolve();
+                };
+                img.onerror = function() {
+                    console.warn('Failed to load image:', config.path);
+                    // Add transparent placeholder on error
+                    const placeholder = new fabric.Rect({
+                        left: marginX + config.baseLeft,
+                        top: marginY + config.baseTop,
+                        width: config.height * 0.8,
+                        height: config.height,
+                        fill: 'transparent',
+                        stroke: 'transparent',
+                        originX: 'center',
+                        [tag]: true,
+                        originalIndex: `clue_img_${config.index}`,
+                        selectable: true,
+                        evented: true
+                    });
+                    allElements.push(placeholder);
+                    resolve();
+                };
+                img.src = config.path;
             });
         });
-        const wordListClues = await Promise.all(imageLoadPromises);
         
-        // --- Assemble, Position, and Deconstruct ---
-        const allElements = [puzzleGridGroup, ...wordListClues];
-        const finalAssembly = new fabric.Group(allElements);
-
-        const canvas = isAnswerKey ? answerKeyCanvas : worksheetCanvas;
-        const availableWidth = canvas.width * 0.9;
-        const availableHeight = canvas.height * 0.9;
-        const scale = Math.min(availableWidth / finalAssembly.width, availableHeight / finalAssembly.height, 1);
-
-        finalAssembly.scale(scale);
-        finalAssembly.center();
-
-        const items = finalAssembly.getObjects();
-        finalAssembly._restoreObjectsState();
+        // Wait for all images to load before returning
+        await Promise.all(imagePromises);
         
-        return items;
+        return allElements;
     }
     
     function shuffleArray(arr) { return arr.slice().sort(() => Math.random() - 0.5); }
@@ -1662,7 +1845,9 @@ document.addEventListener("DOMContentLoaded", function() {
         uploadedImages = [];
         worksheetThemeSelect.value = "random_auto";
         
-        [worksheetCanvas, answerKeyCanvas].forEach(c => {
+        const canvases = [worksheetCanvas];
+        if (answerKeyCanvas) canvases.push(answerKeyCanvas);
+        canvases.forEach(c => {
             if(c) {
                 c.clear().backgroundColor = '#FFFFFF';
                 c.renderAll();
@@ -1736,13 +1921,31 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // --- Image Library Handlers ---
+    
+    async function preloadDefaultTheme() {
+        // Silently preload animals theme and its images in background
+        try {
+            const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+            if (response.ok) {
+                const images = await response.json();
+                allImagesCache['animals'] = images;
+                
+                // Preload first 8 actual images in browser cache
+                const imagesToPreload = images.slice(0, 8);
+                imagesToPreload.forEach(imgData => {
+                    const img = new Image();
+                    img.src = imgData.path;
+                });
+            }
+        } catch (error) {
+            // Fail silently - not critical
+        }
+    }
+    
     async function loadThemes() {
         try {
-            // Try Strapi API first, fallback to filesystem
-            let response = await fetch(`/api/themes-strapi?locale=${currentLocale}`);
-            if (!response.ok) {
-                response = await fetch(`/api/themes-translated?locale=${currentLocale}`);
-            }
+            // Use the filesystem API directly (faster and more reliable)
+            const response = await fetch(`/api/themes-translated?locale=${currentLocale}`);
             if (!response.ok) throw new Error('Failed to load themes');
             const themeData = await response.json();
 
@@ -1772,40 +1975,27 @@ document.addEventListener("DOMContentLoaded", function() {
         let imagesToDisplay = [];
 
         try {
-            if (selectedTheme === 'all') {
-                if (!query) {
-                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Select a theme or type to search all images.</p>`;
-                    // Load a default theme (animals) to show some images
-                    // Load default theme
-                    let response = await fetch(`/api/images-strapi?theme=animals&locale=${currentLocale}`);
-                    if (!response.ok) {
-                        response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
-                    }
-                    if (!response.ok) throw new Error(`Failed to load default images`);
-                    imagesToDisplay = await response.json();
-                } else {
-                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-                    // Search images
-                    let response = await fetch(`/api/images-strapi?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
-                    if (!response.ok) {
-                        response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
-                    }
-                    if (!response.ok) throw new Error(`Failed to search for "${query}"`);
-                    imagesToDisplay = await response.json();
-                }
+            if (selectedTheme === 'all' && query) {
+                // Search across all images
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+                const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                if (!response.ok) throw new Error(`Failed to search for "${query}"`);
+                imagesToDisplay = await response.json();
             } else {
-                if (!allImagesCache[selectedTheme]) {
+                // Load specific theme (or default to animals if 'all' with no query)
+                const themeToLoad = (selectedTheme === 'all' && !query) ? 'animals' : selectedTheme;
+                if (!allImagesCache[themeToLoad]) {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading theme...</p>`;
-                    // Load theme images
-                    let response = await fetch(`/api/images-strapi?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
-                    if (!response.ok) {
-                        response = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
-                    }
-                    if (!response.ok) throw new Error(`Failed to load theme: ${selectedTheme}`);
-                    allImagesCache[selectedTheme] = await response.json();
+                    // Load theme images (direct API for speed)
+                    const response = await fetch(`/api/images?theme=${encodeURIComponent(themeToLoad)}&locale=${currentLocale}`);
+                    if (!response.ok) throw new Error(`Failed to load theme: ${themeToLoad}`);
+                    allImagesCache[themeToLoad] = await response.json();
                 }
-                const source = allImagesCache[selectedTheme] || [];
-                imagesToDisplay = query ? source.filter(img => img.word.toLowerCase().includes(query)) : source;
+                const source = allImagesCache[themeToLoad] || [];
+                imagesToDisplay = query ? source.filter(img => {
+                    const displayName = (img.name || img.word).toLowerCase();
+                    return displayName.includes(query);
+                }) : source;
             }
         } catch (error) {
             console.error("Error fetching images:", error);
@@ -1823,15 +2013,16 @@ document.addEventListener("DOMContentLoaded", function() {
         // Create a document fragment for better performance
         const fragment = document.createDocumentFragment();
         
-        imagesToDisplay.sort((a, b) => a.word.localeCompare(b.word)).forEach((img, index) => {
+        imagesToDisplay.sort((a, b) => {
+            const nameA = a.name || a.word;
+            const nameB = b.name || b.word;
+            return nameA.localeCompare(nameB);
+        }).forEach((img, index) => {
             const item = createThumbnailItem(img, index);
             fragment.appendChild(item);
         });
         
         dictionaryDiv.appendChild(fragment);
-        
-        // Set up lazy loading for remaining images
-        setTimeout(() => setupLazyLoading(), 100);
     }
 
     function createThumbnailItem(image, index = 0) {
@@ -1843,23 +2034,24 @@ document.addEventListener("DOMContentLoaded", function() {
         
         const imgElement = document.createElement("img");
         
-        // Only load first 6 images immediately, defer the rest
-        if (index < 6) {
+        // Only load first 10 images immediately for faster initial display
+        if (index < 10) {
             imgElement.src = image.path;
         } else {
-            imgElement.dataset.src = image.path;
-            imgElement.classList.add('lazy-image');
+            // Use native lazy loading for rest
+            imgElement.loading = "lazy";
+            imgElement.src = image.path;
         }
         
         imgElement.alt = image.word;
-        imgElement.loading = "lazy";
         imgElement.crossOrigin = "anonymous";
         imgElement.style.width = "60px";
         imgElement.style.height = "60px";
         imgElement.style.objectFit = "contain";
         
         const span = document.createElement("span");
-        span.textContent = image.word;
+        const displayName = image.name || image.word;
+        span.textContent = displayName;
         
         item.appendChild(imgElement);
         item.appendChild(span);
@@ -1884,13 +2076,33 @@ document.addEventListener("DOMContentLoaded", function() {
         renderUploadedImages();
     }
 
-    function handleWorksheetThemeChange() {
-        if (worksheetThemeSelect.value !== 'random_auto') {
+    async function handleWorksheetThemeChange() {
+        const selectedTheme = worksheetThemeSelect.value;
+        if (selectedTheme !== 'random_auto') {
             userSelectedImages = [];
             renderSelectedImages();
             renderDictionary();
             renderUploadedImages();
             showMessage(`Puzzle will generate using the '${worksheetThemeSelect.options[worksheetThemeSelect.selectedIndex].text}' theme.`, 'info');
+            
+            // Preload theme if not cached
+            if (selectedTheme !== 'all' && !allImagesCache[selectedTheme]) {
+                try {
+                    const response = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
+                    if (response.ok) {
+                        const images = await response.json();
+                        allImagesCache[selectedTheme] = images;
+                        
+                        // Preload first 8 images
+                        images.slice(0, 8).forEach(imgData => {
+                            const img = new Image();
+                            img.src = imgData.path;
+                        });
+                    }
+                } catch (error) {
+                    // Silent fail
+                }
+            }
         }
     }
 
@@ -1969,7 +2181,9 @@ document.addEventListener("DOMContentLoaded", function() {
     
     function applyPageColor() {
         const newColor = pageColorInput.value;
-        [worksheetCanvas, answerKeyCanvas].forEach(c => {
+        const canvases = [worksheetCanvas];
+        if (answerKeyCanvas) canvases.push(answerKeyCanvas);
+        canvases.forEach(c => {
              if(c) {
                 c.backgroundColor = newColor;
                 c.renderAll();
@@ -1995,7 +2209,9 @@ document.addEventListener("DOMContentLoaded", function() {
         const assetType = type.slice(0, -1);
         const propName = `is${assetType.charAt(0).toUpperCase() + assetType.slice(1)}`;
 
-        [worksheetCanvas, answerKeyCanvas].forEach(c => {
+        const canvases = [worksheetCanvas];
+        if (answerKeyCanvas) canvases.push(answerKeyCanvas);
+        canvases.forEach(c => {
             if (c) {
                 const existing = c.getObjects().find(obj => obj[propName]);
                 if (existing) c.remove(existing);
@@ -2007,7 +2223,9 @@ document.addEventListener("DOMContentLoaded", function() {
         opacitySlider.disabled = true;
 
         if (theme === 'none') {
-            [worksheetCanvas, answerKeyCanvas].forEach(c => c && c.renderAll());
+            const canvases = [worksheetCanvas];
+            if (answerKeyCanvas) canvases.push(answerKeyCanvas);
+            canvases.forEach(c => c && c.renderAll());
             dictionaryEl.innerHTML = `<p class="dictionary-message">Select a theme to see ${type}.</p>`;
             return;
         }
@@ -2062,7 +2280,7 @@ document.addEventListener("DOMContentLoaded", function() {
         };
 
         applyOverlay(worksheetCanvas, true);
-        applyOverlay(answerKeyCanvas, true);
+        if (answerKeyCanvas) applyOverlay(answerKeyCanvas, true);
     }
 
     function addBorderToCanvas(path) { addOverlayToCanvas(path, 'isBorder', borderOpacitySlider); }
@@ -2070,7 +2288,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function applyBackgroundOpacity() {
         const opacity = parseFloat(backgroundOpacitySlider.value);
-        [worksheetCanvas, answerKeyCanvas].forEach(c => {
+        const canvases = [worksheetCanvas];
+        if (answerKeyCanvas) canvases.push(answerKeyCanvas);
+        canvases.forEach(c => {
             if (!c) return;
             const bgImg = c.getObjects().find(o => o.isBackground);
             if (bgImg) { bgImg.set('opacity', opacity); c.renderAll(); }
@@ -2079,7 +2299,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function applyBorderOpacity() {
         const opacity = parseFloat(borderOpacitySlider.value);
-        [worksheetCanvas, answerKeyCanvas].forEach(c => {
+        const canvases = [worksheetCanvas];
+        if (answerKeyCanvas) canvases.push(answerKeyCanvas);
+        canvases.forEach(c => {
             if (!c) return;
             const borderImg = c.getObjects().find(o => o.isBorder);
             if (borderImg) { borderImg.set('opacity', opacity); c.renderAll(); }
@@ -2480,9 +2702,26 @@ async function downloadPDF(canvasToExport, fileName) {
     // --- Let's go! ---
     init();
     
-    // Initialize translations after DOM is ready
-    translatePage();
+    // Apply translations function
+    function applyTranslations() {
+        if (typeof translations === 'undefined' || !translations[currentLocale]) return;
+        
+        const t = translations[currentLocale];
+        
+        // Update all elements with data-translate-key attribute
+        document.querySelectorAll('[data-translate-key]').forEach(element => {
+            const key = element.getAttribute('data-translate-key');
+            if (t[key]) {
+                if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                    element.placeholder = t[key];
+                } else {
+                    element.textContent = t[key];
+                }
+            }
+        });
+    }
 });
 </script>
+
 </body>
 </html>

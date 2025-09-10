@@ -2082,11 +2082,31 @@ document.addEventListener("DOMContentLoaded", function() {
     clearBtn.addEventListener("click", clearAll);
 
     async function getCanvasDataURLWithOptions(canvasInstance, exportOptions) {
+        // Save current state
+        const currentZoom = canvasInstance.getZoom();
+        const currentWidth = canvasInstance.getWidth();
+        const currentHeight = canvasInstance.getHeight();
+        
+        // Reset to actual size for export
+        canvasInstance.setZoom(1);
+        canvasInstance.setDimensions({
+            width: currentCanvasConfig.width,
+            height: currentCanvasConfig.height
+        });
+        
         canvasInstance.discardActiveObject();
         canvasInstance.renderAll();
 
         const { multiplier, applyPixelLevelGrayscale } = exportOptions;
         let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 1.0, multiplier });
+        
+        // Restore display state
+        canvasInstance.setZoom(currentZoom);
+        canvasInstance.setDimensions({
+            width: currentWidth,
+            height: currentHeight
+        });
+        
         if (applyPixelLevelGrayscale) {
             try { dataURL = await applyGrayscaleToDataURL(dataURL); } 
             catch (error) { showMessage('Grayscale conversion failed.', 'error'); }
@@ -2215,11 +2235,11 @@ document.addEventListener("DOMContentLoaded", function() {
             
             try {
                 const { jsPDF } = window.jspdf;
-                const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
+                const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
                 const pdf = new jsPDF({ 
                     orientation, 
                     unit: 'pt', 
-                    format: [canvasToExport.width, canvasToExport.height] 
+                    format: [currentCanvasConfig.width, currentCanvasConfig.height] 
                 });
 
                 const exportOptions = { 
@@ -2228,7 +2248,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 };
                 
                 const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
-                pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+                pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
                 
                 pdf.save(fileName);
                 showMessage('PDF downloaded!', 'success');

@@ -2422,7 +2422,27 @@
         };
         
         try {
+            // Save current state
+            const currentZoom = canvasInstance.getZoom();
+            const currentWidth = canvasInstance.getWidth();
+            const currentHeight = canvasInstance.getHeight();
+            
+            // Reset for export at exact dimensions
+            canvasInstance.setZoom(1);
+            canvasInstance.setDimensions({
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
+            });
+            
             const dataURL = await getCanvasDataURLWithOptions(canvasInstance, exportOpts);
+            
+            // Restore display state
+            canvasInstance.setZoom(currentZoom);
+            canvasInstance.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
+            
             triggerDownload(dataURL, fileName);
             showMessage('Download Initiated!', 'success');
         } catch (e) {
@@ -2449,16 +2469,35 @@
         };
 
         try {
+            // Save current state
+            const currentZoom = canvasInstance.getZoom();
+            const currentWidth = canvasInstance.getWidth();
+            const currentHeight = canvasInstance.getHeight();
+            
+            // Reset to actual size for export
+            canvasInstance.setZoom(1);
+            canvasInstance.setDimensions({
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
+            });
+            
             const imgData = await getCanvasDataURLWithOptions(canvasInstance, exportOpts);
             
-            const orientation = canvasInstance.width > canvasInstance.height ? 'l' : 'p';
+            const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'landscape' : 'portrait';
             const pdf = new jsPDF({
                 orientation,
                 unit: 'pt',
-                format: [canvasInstance.width, canvasInstance.height]
+                format: [currentCanvasConfig.width, currentCanvasConfig.height]
             });
 
-            pdf.addImage(imgData, 'JPEG', 0, 0, canvasInstance.width, canvasInstance.height);
+            pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
+            
+            // Restore display state
+            canvasInstance.setZoom(currentZoom);
+            canvasInstance.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
             
             pdf.save(fileName);
             showMessage("PDF Downloaded!", "success");

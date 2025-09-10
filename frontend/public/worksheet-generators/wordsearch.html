@@ -2191,9 +2191,29 @@ document.addEventListener("DOMContentLoaded", function() {
         // Add watermark if free tier
         const watermarkData = addWatermarkToCanvas(canvasToExport);
         
-        const exportOptions = { multiplier: downloadMultiplier, applyGrayscale: grayscaleToggle.checked };
         try {
+            // Save current state
+            const currentZoom = canvasToExport.getZoom();
+            const currentWidth = canvasToExport.getWidth();
+            const currentHeight = canvasToExport.getHeight();
+            
+            // Reset for export at exact dimensions
+            canvasToExport.setZoom(1);
+            canvasToExport.setDimensions({
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
+            });
+            
+            const exportOptions = { multiplier: downloadMultiplier, applyGrayscale: grayscaleToggle.checked };
             const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+            
+            // Restore display state
+            canvasToExport.setZoom(currentZoom);
+            canvasToExport.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
+            
             const link = document.createElement('a');
             link.download = fileName;
             link.href = dataURL;
@@ -2283,11 +2303,41 @@ async function downloadPDF(canvasToExport, fileName) {
         
         try {
             const { jsPDF } = window.jspdf;
-            const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
-            const pdf = new jsPDF({ orientation, unit: 'pt', format: [canvasToExport.width, canvasToExport.height] });
+            
+            // Save current state
+            const currentZoom = canvasToExport.getZoom();
+            const currentWidth = canvasToExport.getWidth();
+            const currentHeight = canvasToExport.getHeight();
+            
+            // Reset to actual size for export
+            canvasToExport.setZoom(1);
+            canvasToExport.setDimensions({
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
+            });
+            
+            // Determine orientation based on actual dimensions
+            const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'landscape' : 'portrait';
+            
+            // Create PDF with user-selected dimensions (exact for publishing)
+            const pdf = new jsPDF({ 
+                orientation: orientation, 
+                unit: 'pt', 
+                format: [currentCanvasConfig.width, currentCanvasConfig.height] 
+            });
 
             const exportOptions = { multiplier: downloadMultiplier, applyGrayscale: grayscaleToggle.checked };
-            pdf.addImage(await getCanvasDataURLWithOptions(canvasToExport, exportOptions), 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+            const imgData = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+            
+            // Add image at exact user-selected dimensions
+            pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
+            
+            // Restore display state
+            canvasToExport.setZoom(currentZoom);
+            canvasToExport.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
             
             pdf.save(fileName);
             showMessage('PDF downloaded!', 'success');

@@ -2395,15 +2395,41 @@
         }
         showMessage(`Preparing ${fileName}...`, 'info', 0);
         
+        // Save current state
+        const currentZoom = canvasToExport.getZoom();
+        const currentWidth = canvasToExport.getWidth();
+        const currentHeight = canvasToExport.getHeight();
+        
+        // Reset to actual size for export
+        canvasToExport.setZoom(1);
+        canvasToExport.setDimensions({
+            width: currentCanvasConfig.width,
+            height: currentCanvasConfig.height
+        });
+        
         const exportOpts = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
         try {
             const dataURL = await getFabricCanvasDataURLWithOptions(canvasToExport, exportOpts);
+            
+            // Restore display state
+            canvasToExport.setZoom(currentZoom);
+            canvasToExport.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
+            
             const link = document.createElement('a');
             link.download = fileName;
             link.href = dataURL;
             link.click();
             showMessage('Download Initiated!', 'success');
         } catch (e) { 
+            // Restore display state on error
+            canvasToExport.setZoom(currentZoom);
+            canvasToExport.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
             showMessage(`JPEG Error: ${e.message}`, 'error');
         }
     }
@@ -2554,17 +2580,43 @@ async function downloadPDF(canvasToExport, fileName) {
         }
         showMessage(`Preparing ${fileName}...`, 'info', 0);
         
+        // Save current state
+        const currentZoom = canvasToExport.getZoom();
+        const currentWidth = canvasToExport.getWidth();
+        const currentHeight = canvasToExport.getHeight();
+        
+        // Reset to actual size for export
+        canvasToExport.setZoom(1);
+        canvasToExport.setDimensions({
+            width: currentCanvasConfig.width,
+            height: currentCanvasConfig.height
+        });
+        
         const { jsPDF } = window.jspdf; 
-        const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
-        const pdf = new jsPDF({ orientation, unit: 'pt', format: [canvasToExport.width, canvasToExport.height] });
+        const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
+        const pdf = new jsPDF({ orientation, unit: 'pt', format: [currentCanvasConfig.width, currentCanvasConfig.height] });
         const exportOpts = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
         
         try {
             const imgData = await getFabricCanvasDataURLWithOptions(canvasToExport, exportOpts);
-            pdf.addImage(imgData, "JPEG", 0, 0, canvasToExport.width, canvasToExport.height);
+            pdf.addImage(imgData, "JPEG", 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
+            
+            // Restore display state
+            canvasToExport.setZoom(currentZoom);
+            canvasToExport.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
+            
             pdf.save(fileName);
             showMessage("PDF Downloaded!", "success");
         } catch (e) { 
+            // Restore display state on error
+            canvasToExport.setZoom(currentZoom);
+            canvasToExport.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
             showMessage(`PDF Error: ${e.message}`, "error");
         }
     }

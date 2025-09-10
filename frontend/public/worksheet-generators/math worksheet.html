@@ -2539,9 +2539,30 @@
             return;
         }
         showMessage('Preparing JPEG... Please wait.', 'info', 0);
-        const exportOptions = { multiplier: downloadMultiplier };
+        
         try {
+            // Save current state
+            const currentZoom = canvasToExport.getZoom();
+            const currentWidth = canvasToExport.getWidth();
+            const currentHeight = canvasToExport.getHeight();
+            
+            // Reset for export at exact dimensions
+            canvasToExport.setZoom(1);
+            canvasToExport.setDimensions({
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
+            });
+            
+            const exportOptions = { multiplier: downloadMultiplier };
             const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
+            
+            // Restore display state
+            canvasToExport.setZoom(currentZoom);
+            canvasToExport.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
+            
             const link = document.createElement('a');
             link.download = filename; 
             link.href = dataURL;
@@ -2561,12 +2582,41 @@
 
         try {
             const { jsPDF } = window.jspdf;
-            const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
-            const pdf = new jsPDF({ orientation, unit: 'pt', format: [canvasToExport.width, canvasToExport.height] });
+            
+            // Save current state
+            const currentZoom = canvasToExport.getZoom();
+            const currentWidth = canvasToExport.getWidth();
+            const currentHeight = canvasToExport.getHeight();
+            
+            // Reset to actual size for export
+            canvasToExport.setZoom(1);
+            canvasToExport.setDimensions({
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
+            });
+            
+            // Determine orientation based on actual dimensions
+            const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'landscape' : 'portrait';
+            
+            // Create PDF with user-selected dimensions (exact for publishing)
+            const pdf = new jsPDF({ 
+                orientation: orientation, 
+                unit: 'pt', 
+                format: [currentCanvasConfig.width, currentCanvasConfig.height] 
+            });
 
             const exportOptions = { multiplier: downloadMultiplier };
             const imgData = await getCanvasDataURL(canvasToExport, exportOptions);
-            pdf.addImage(imgData, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+            
+            // Add image at exact user-selected dimensions
+            pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
+            
+            // Restore display state
+            canvasToExport.setZoom(currentZoom);
+            canvasToExport.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
             
             pdf.save(filename);
             showMessage('PDF Downloaded!', 'success', 3000);

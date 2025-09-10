@@ -2137,11 +2137,11 @@
             
             try {
                 const { jsPDF } = window.jspdf;
-                const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
+                const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
                 const pdf = new jsPDF({ 
                     orientation, 
                     unit: 'pt', 
-                    format: [canvasToExport.width, canvasToExport.height] 
+                    format: [currentCanvasConfig.width, currentCanvasConfig.height] 
                 });
 
                 const exportOptions = { 
@@ -2149,8 +2149,8 @@
                     applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
                 };
                 
-                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
-                pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+                const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
+                pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
                 
                 pdf.save(fileName);
                 showMessage('PDF downloaded!', 'success');
@@ -2181,7 +2181,7 @@
                     multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
                     applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
                 };
-                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
                 
                 const link = document.createElement('a');
                 link.href = dataURL;

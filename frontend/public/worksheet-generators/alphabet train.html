@@ -2078,8 +2078,8 @@
         // Part B, Step 1: Preserve State
         const oldTransforms = {};
         worksheetCanvas.getObjects().forEach(obj => {
-            if (obj.isTrainGeneratedItem && obj.originalIndex !== undefined) {
-                oldTransforms[obj.originalIndex] = {
+            if (obj.isTrainGeneratedItem && obj.generationId) {
+                oldTransforms[obj.generationId] = {
                     left: obj.left, top: obj.top,
                     scaleX: obj.scaleX, scaleY: obj.scaleY,
                     angle: obj.angle
@@ -2137,14 +2137,43 @@
                     clueFabImg.scale(scaleFactor).set({
                         left: finalLeft + ((WAGON_BOX_SIZE_BASE * S_SCALE - clueFabImg.getScaledWidth()) / 2),
                         top: finalTop + ((WAGON_BOX_SIZE_BASE * S_SCALE - clueFabImg.getScaledHeight()) / 2),
-                        originX: 'left', originY: 'top', selectable: false, evented: false
+                        originX: 'left', originY: 'top', 
+                        selectable: true, 
+                        evented: true,
+                        hasControls: true,
+                        hasBorders: true,
+                        borderColor: 'var(--app-accent-primary)',
+                        cornerColor: 'var(--app-accent-primary)',
+                        cornerSize: 8,
+                        transparentCorners: false,
+                        cornerStyle: 'circle'
                     });
                     masterElements.push(clueFabImg);
                 }
             }
-            const masterWorksheetGroup = new fabric.Group(masterElements, { selectable: true, hasControls: true, hasBorders: true, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', isTrainGeneratedItem: true, originalIndex: 0 });
-            if (oldTransforms[0]) masterWorksheetGroup.set(oldTransforms[0]);
-            newGeneratedObjects.push(masterWorksheetGroup);
+            // Add train background as a separate object
+            trainBgImg.set({
+                isTrainGeneratedItem: true, 
+                generationId: 'trainBackground',
+                selectable: true,
+                evented: true,
+                originalIndex: 0
+            });
+            if (oldTransforms['trainBackground']) trainBgImg.set(oldTransforms['trainBackground']);
+            newGeneratedObjects.push(trainBgImg);
+            
+            // Add wagon images as individual objects (skip first element which is trainBgImg)
+            for (let i = 1; i < masterElements.length; i++) {
+                masterElements[i].set({
+                    isTrainGeneratedItem: true,
+                    generationId: `wagonImage_${i-1}`,
+                    originalIndex: i
+                });
+                if (oldTransforms[`wagonImage_${i-1}`]) {
+                    masterElements[i].set(oldTransforms[`wagonImage_${i-1}`]);
+                }
+                newGeneratedObjects.push(masterElements[i]);
+            }
 
 
             const cutoutElements = [];
@@ -2212,8 +2241,8 @@
         // Part C, Step 1: Preserve State
         const oldTransforms = {};
         answerKeyCanvas.getObjects().forEach(obj => {
-            if (obj.isAnswerKeyItem && obj.originalIndex !== undefined) {
-                oldTransforms[obj.originalIndex] = {
+            if (obj.isAnswerKeyItem && obj.generationId) {
+                oldTransforms[obj.generationId] = {
                     left: obj.left, top: obj.top,
                     scaleX: obj.scaleX, scaleY: obj.scaleY,
                     angle: obj.angle
@@ -2267,44 +2296,76 @@
             const trainLeftEdge = (currentCanvasConfig.width - trainBgImg.getScaledWidth()) / 2;
             const S_SCALE = trainBgImg.getScaledWidth() / 940; // Scale based on actual train width
             const conceptualBoxSizeForScaling = WAGON_BOX_SIZE_BASE * S_SCALE * 0.65 * 1.3 * 1.2;
-            const answerKeyElements = [trainBgImg];
+            // Add train background first
+            trainBgImg.set({
+                isAnswerKeyItem: true,
+                generationId: 'answerKeyTrain',
+                selectable: true,
+                evented: true
+            });
+            if (oldTransforms['answerKeyTrain']) {
+                trainBgImg.set(oldTransforms['answerKeyTrain']);
+            } else {
+                trainBgImg.center();
+            }
+            answerKeyCanvas.add(trainBgImg);
             
-            const imageLoadPromises = selectedLetters.map((letter, idx) => {
-                if (idx >= BASE_WAGON_POSITIONS.length || !letterToImage[letter]) return Promise.resolve();
+            // Create individual groups for each wagon image with its letter
+            const imageLoadPromises = selectedLetters.map(async (letter, idx) => {
+                if (idx >= BASE_WAGON_POSITIONS.length || !letterToImage[letter]) return;
+                
                 const basePos = BASE_WAGON_POSITIONS[idx], adj = EXTRA_ADJUSTMENTS[idx];
                 const finalTop = canvasBgTopEdge + ((basePos.top + adj.deltaTop) * S_SCALE);
                 const finalLeft = trainLeftEdge + ((basePos.left + adj.deltaLeft) * S_SCALE);
 
-                return loadImage(letterToImage[letter].path).then(img => {
-                    const scaleFactor = Math.min(conceptualBoxSizeForScaling / img.width, conceptualBoxSizeForScaling / img.height);
-                    img.scale(scaleFactor).set({
-                        left: finalLeft + ((WAGON_BOX_SIZE_BASE * S_SCALE - img.getScaledWidth()) / 2),
-                        top: finalTop + ((WAGON_BOX_SIZE_BASE * S_SCALE - img.getScaledHeight()) / 2) - 10,
-                        originX: 'left', originY: 'top'
-                    });
-                    const letterText = new fabric.Text(letter, {
-                        left: finalLeft + (WAGON_BOX_SIZE_BASE * S_SCALE / 2),
-                        top: finalTop + (WAGON_BOX_SIZE_BASE * S_SCALE) - 2 - 10,
-                        originX: 'center', originY: 'bottom', fontSize: 16, fill: '#000',
-                        backgroundColor: 'rgba(255,255,255,0.8)', padding: 2,
-                        shadow: 'rgba(0,0,0,0.3) 1px 1px 2px'
-                    });
-                    answerKeyElements.push(img, letterText);
+                const img = await loadImage(letterToImage[letter].path);
+                const scaleFactor = Math.min(conceptualBoxSizeForScaling / img.width, conceptualBoxSizeForScaling / img.height);
+                
+                // Position relative to group origin (0,0)
+                img.scale(scaleFactor).set({
+                    left: -img.getScaledWidth() / 2,
+                    top: -img.getScaledHeight() / 2 - 10,
+                    originX: 'left', originY: 'top'
                 });
+                
+                const letterText = new fabric.Text(letter, {
+                    left: 0,
+                    top: (WAGON_BOX_SIZE_BASE * S_SCALE) / 2 - 12,
+                    originX: 'center', originY: 'bottom', 
+                    fontSize: 16, 
+                    fill: '#000',
+                    backgroundColor: 'rgba(255,255,255,0.8)', 
+                    padding: 2,
+                    shadow: 'rgba(0,0,0,0.3) 1px 1px 2px'
+                });
+                
+                // Create a group for this wagon image and its letter
+                const wagonGroup = new fabric.Group([img, letterText], {
+                    left: finalLeft + (WAGON_BOX_SIZE_BASE * S_SCALE / 2),
+                    top: finalTop + (WAGON_BOX_SIZE_BASE * S_SCALE / 2),
+                    originX: 'center',
+                    originY: 'center',
+                    selectable: true,
+                    evented: true,
+                    hasControls: true,
+                    hasBorders: true,
+                    borderColor: 'var(--app-accent-primary)',
+                    cornerColor: 'var(--app-accent-primary)',
+                    cornerSize: 8,
+                    transparentCorners: false,
+                    cornerStyle: 'circle',
+                    isAnswerKeyItem: true,
+                    generationId: `answerKeyWagon_${idx}`
+                });
+                
+                if (oldTransforms[`answerKeyWagon_${idx}`]) {
+                    wagonGroup.set(oldTransforms[`answerKeyWagon_${idx}`]);
+                }
+                
+                answerKeyCanvas.add(wagonGroup);
             });
-            await Promise.all(imageLoadPromises);
             
-            const answerKeyGroup = new fabric.Group(answerKeyElements, {
-                selectable: true, hasControls: true, hasBorders: true,
-                objectCaching: false, isAnswerKeyItem: true, originalIndex: 0,
-                borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
-            });
-            if (oldTransforms[0]) {
-                answerKeyGroup.set(oldTransforms[0]);
-            } else {
-                answerKeyGroup.center();
-            }
-            answerKeyCanvas.add(answerKeyGroup);
+            await Promise.all(imageLoadPromises);
             
             enforceZOrder(answerKeyCanvas);
             userAddedObjects.forEach(obj => answerKeyCanvas.bringToFront(obj));

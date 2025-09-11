@@ -5,6 +5,7 @@
   <title>Odd-One-Out Worksheet Generator</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="js/translations.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
@@ -591,8 +592,14 @@
         background-color: var(--app-surface-light);
         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         border-radius: 8px;
-        overflow: auto;
+        overflow: visible; /* CRITICAL FIX: Changed from auto to prevent clipping */
         margin: auto;
+        position: relative;
+    }
+    /* Ensure Fabric.js container doesn't clip */
+    .canvas-container { 
+        overflow: visible !important;
+        position: relative !important;
     }
     canvas { display: block; }
 
@@ -733,15 +740,34 @@
       <div class="panel-content">
 
         <div class="accordion-item">
-            <button class="accordion-button active">Page Setup</button>
+            <button class="accordion-button active" data-translate="settings">Language Settings</button>
+            <div class="accordion-content active">
+                <label for="languageSelect" data-translate="language">Language:</label>
+                <select id="languageSelect">
+                    <option value="en">English</option>
+                    <option value="de">Deutsch</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="pt">Português</option>
+                    <option value="it">Italiano</option>
+                    <option value="nl">Nederlands</option>
+                    <option value="sv">Svenska</option>
+                    <option value="da">Dansk</option>
+                    <option value="no">Norsk</option>
+                    <option value="fi">Suomi</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <button class="accordion-button">Page Setup</button>
             <div class="accordion-content active">
                 <label for="pageSizeSelect">Page Size:</label>
                 <select id="pageSizeSelect">
                     <option value="612x792">Letter Portrait (612x792)</option>
-                    <option value="800x1000">Default Worksheet (800x1000)</option>
+                    <option value="792x612">Letter Landscape (792x612)</option>
                     <option value="595x842">A4 Portrait (595x842)</option>
                     <option value="842x595">A4 Landscape (842x595)</option>
-                    <option value="792x612">Letter Landscape (792x612)</option>
                     <option value="1200x1200">Square (1200x1200)</option>
                     <option value="custom">Custom</option>
                 </select>
@@ -804,15 +830,33 @@
         <div class="accordion-item">
             <button class="accordion-button">Exercise Configuration</button>
             <div class="accordion-content">
+                <label for="exerciseCountSelect">Number of Exercises:</label>
+                <select id="exerciseCountSelect">
+                  <option value="5">5 Exercises</option>
+                  <option value="6" selected>6 Exercises</option>
+                  <option value="7">7 Exercises</option>
+                  <option value="8">8 Exercises</option>
+                  <option value="9">9 Exercises</option>
+                  <option value="10">10 Exercises</option>
+                </select>
+                
                 <label for="modeSelect">Mode:</label>
                 <select id="modeSelect">
                   <option value="identical">Identical (3 + 1 from same theme)</option>
                   <option value="similar" selected>Similar (3 from Theme A, 1 from Theme B)</option>
                 </select>
-                <label for="rowSelect">Configure Row:</label>
+                
+                <label for="rowSelect">Configure Exercise:</label>
                 <select id="rowSelect"></select>
                 
-                <button id="clearRowBtn">Clear Selections for This Row</button>
+                <label for="exerciseModeSelect">Mode for this Exercise:</label>
+                <select id="exerciseModeSelect">
+                  <option value="">Use Global Mode</option>
+                  <option value="identical">Identical (3 + 1 from same theme)</option>
+                  <option value="similar">Similar (3 from Theme A, 1 from Theme B)</option>
+                </select>
+                
+                <button id="clearRowBtn">Clear Selections for This Exercise</button>
                 
                 <label for="includeNameDate" class="checkbox-label" style="margin-top: 15px;">
                     <input type="checkbox" id="includeNameDate" />Include Name/Date Fields
@@ -834,10 +878,10 @@
                 <label for="searchInput">Search Images:</label>
                 <input type="text" id="searchInput" placeholder="e.g., apple, car" />
 
-                <label>Available Images (click to add to row below):</label>
+                <label>Available Images (click to add to exercise below):</label>
                 <div id="dictionary"><p class='dictionary-message'>Loading images...</p></div>
                 
-                <h4>Row Selections</h4>
+                <h4>Exercise Selections</h4>
                 <label>Common Images (3):</label>
                 <div id="prevCommon"></div>
                 <label>Odd Image (1):</label>
@@ -948,9 +992,12 @@
   </div>
 
   <script>
+    // Initialize currentLocale FIRST, before any DOM access
+    let currentLocale = 'en';
+    
     document.addEventListener("DOMContentLoaded", function() {
       // --- CONSTANTS & DEFAULTS ---
-      const ROWS = 5;
+      let EXERCISE_COUNT = 6; // Default, can be changed by user
       const DEFAULT_PAGE_SIZE = "612x792";
       const downloadMultiplier = 6; // For high-res export
 
@@ -983,8 +1030,10 @@
         textStrokeColor: document.getElementById('textStrokeColor'),
         textStrokeWidth: document.getElementById('textStrokeWidth'),
 
+        exerciseCountSelect: document.getElementById('exerciseCountSelect'),
         modeSelect: document.getElementById('modeSelect'),
         rowSelect: document.getElementById('rowSelect'),
+        exerciseModeSelect: document.getElementById('exerciseModeSelect'),
         clearRowBtn: document.getElementById('clearRowBtn'),
         includeNameDate: document.getElementById('includeNameDate'),
         includeExerciseNumbers: document.getElementById('includeExerciseNumbers'),
@@ -1031,7 +1080,35 @@
         alignDropdown: document.getElementById('alignDropdown'),
         toolbarDeleteBtn: document.getElementById('toolbarDeleteBtn'),
         allToolbarButtons: document.querySelectorAll('#object-context-toolbar .context-btn'),
+        languageSelect: document.getElementById('languageSelect')
       };
+
+      // --- INITIALIZE LOCALE FROM URL ---
+      const urlParams = new URLSearchParams(window.location.search);
+      const localeParam = urlParams.get('locale');
+      if (localeParam) {
+        currentLocale = localeParam;
+      }
+
+      // Set language selector value
+      if (ui.languageSelect && currentLocale) {
+        ui.languageSelect.value = currentLocale;
+      }
+      
+      // Add language change handler
+      if (ui.languageSelect) {
+        ui.languageSelect.addEventListener('change', (e) => {
+          const newLocale = e.target.value;
+          const url = new URL(window.location.href);
+          url.searchParams.set('locale', newLocale);
+          window.location.href = url.toString();
+        });
+      }
+
+      // Apply initial translations
+      if (typeof applyTranslations === 'function') {
+        applyTranslations();
+      }
 
       // --- STATE MANAGEMENT ---
       let worksheetCanvas, answerKeyCanvas;
@@ -1040,9 +1117,13 @@
       let imageCache = {};
       let uploadedImages = [];
       let lastGeneratedRows = [];
+      let lastGeneratedExerciseCount = null; // Track last exercise count used
+      let lastAnswerKeyExerciseCount = null; // Track last answer key exercise count
+      let lastIncludeExerciseNumbers = null; // Track if exercise numbers setting changed
 
-      let commonSelections = Array.from({ length: ROWS }, () => []);
-      let oddSelections = Array(ROWS).fill(null);
+      let commonSelections = Array.from({ length: 10 }, () => []); // Max 10 exercises
+      let oddSelections = Array(10).fill(null);
+      let exerciseModes = Array(10).fill(null); // Per-exercise mode settings
       
       // --- HELPER FUNCTIONS ---
       const showMessage = (msg, type = 'error', duration = 3000) => {
@@ -1133,21 +1214,44 @@
           currentCanvasConfig.width = width;
           currentCanvasConfig.height = height;
 
-          const wrapperStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
-          const availableW = parseFloat(wrapperStyle.width) - 40;
-          const availableH = parseFloat(wrapperStyle.height) - 40;
-          const scale = Math.min(availableW / width, availableH / height, 1);
+          const mainContentAreaStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
+          const availableWidth = parseFloat(mainContentAreaStyle.width) - parseFloat(mainContentAreaStyle.paddingLeft) - parseFloat(mainContentAreaStyle.paddingRight) - 10;
+          const availableHeight = parseFloat(mainContentAreaStyle.height) - parseFloat(mainContentAreaStyle.paddingTop) - parseFloat(mainContentAreaStyle.paddingBottom) - 10;
           
-          const displayW = width * scale;
-          const displayH = height * scale;
+          // Apply 25% scaling for better visibility
+          // Extra 25% for landscape orientations
+          const isLandscape = width > height;
+          const baseScale = 1.25; // Base 25% larger for all
+          const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+          const displayScale = baseScale * landscapeBonus;
+          
+          // Calculate display dimensions with scaling
+          const scaledWidth = width * displayScale;
+          const scaledHeight = height * displayScale;
+          
+          // Ensure it fits in available space
+          const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+          const displayWidth = scaledWidth * scaleRatio;
+          const displayHeight = scaledHeight * scaleRatio;
 
           [worksheetCanvas, answerKeyCanvas].forEach(c => {
               if (c) {
-                  c.setWidth(width); c.setHeight(height); c.calcOffset(); c.renderAll();
+                  // Apply zoom for display scaling
+                  const finalZoom = (displayWidth / width);
+                  c.setZoom(finalZoom);
+                  
+                  // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+                  c.setDimensions({
+                      width: displayWidth,
+                      height: displayHeight
+                  });
+                  
+                  c.calcOffset();
+                  c.renderAll();
               }
           });
           [ui.worksheetCanvasWrapper, ui.answerKeyCanvasWrapper].forEach(w => {
-              if (w) { w.style.width = displayW + 'px'; w.style.height = displayH + 'px'; }
+              if (w) { w.style.width = displayWidth + 'px'; w.style.height = displayHeight + 'px'; }
           });
           
           ui.pageWidth.value = width;
@@ -1272,11 +1376,16 @@
       // --- IMAGE LIBRARY & SELECTION ---
       const fetchImageThemes = async () => {
           try {
-              const themes = await(await fetch('/api/themes/nested')).json();
-              allThemes = themes;
-              const themeOptions = ['<option value="">(random)</option>', ...themes.map(t => `<option value="${t}">${t.split('/').map(p=>p.charAt(0).toUpperCase()+p.slice(1)).join(' / ')}</option>`)].join('');
+              const themes = await(await fetch(`/api/themes-translated?locale=${currentLocale}`)).json();
+              allThemes = themes.map(t => t.value); // Store just the values for random selection
+              const themeOptions = ['<option value="">(random)</option>', ...themes.map(t => `<option value="${t.value}">${t.displayName}</option>`)].join('');
               ui.themeSelect.innerHTML = themeOptions;
               ui.themeBSelect.innerHTML = themeOptions;
+              
+              // Set default theme to 'animals' if available
+              if (allThemes.includes('animals')) {
+                  ui.themeSelect.value = 'animals';
+              }
           } catch (e) { showMessage('Could not load image themes.', 'error'); }
       };
 
@@ -1284,7 +1393,7 @@
           if (!theme) return [];
           if (imageCache[theme]) return imageCache[theme];
           try {
-              const images = await(await fetch(`/api/images?theme=${encodeURIComponent(theme)}`)).json();
+              const images = await(await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`)).json();
               imageCache[theme] = images;
               return images;
           } catch (e) { showMessage(`Could not load images for theme: ${theme}`, 'error'); return []; }
@@ -1294,7 +1403,15 @@
           const mode = ui.modeSelect.value;
           let themeA = ui.themeSelect.value;
           let themeB = ui.themeBSelect.value;
-          if (!themeA && allThemes.length > 0) themeA = getRandomElement(allThemes) || '';
+          
+          // STANDARD: Load "animals" theme by default when no theme selected
+          if (!themeA && !ui.searchInput.value.trim()) {
+              themeA = 'animals';
+              ui.themeSelect.value = 'animals';
+          } else if (!themeA && allThemes.length > 0) {
+              themeA = getRandomElement(allThemes) || '';
+          }
+          
           if ((!themeB || themeB === themeA) && allThemes.length > 0) themeB = getRandomElement(allThemes.filter(t => t !== themeA)) || '';
 
           let pool = [];
@@ -1305,7 +1422,7 @@
           }
           
           const query = ui.searchInput.value.trim().toLowerCase();
-          const filteredPool = query ? pool.filter(img => img.word.toLowerCase().includes(query)) : pool;
+          const filteredPool = query ? pool.filter(img => (img.name || img.word).toLowerCase().includes(query)) : pool;
 
           ui.dictionary.innerHTML = '';
           if (!filteredPool.length) {
@@ -1313,18 +1430,50 @@
               return;
           }
           
-          filteredPool.forEach(img => {
-              const item = document.createElement("div");
-              item.className = "dictionary-item";
-              item.innerHTML = `<img src="${img.path}" alt="${img.word}" loading="lazy"/><span>${img.word}</span>`;
-              item.onclick = () => handleImageSelection(img);
-              ui.dictionary.appendChild(item);
-          });
+          // Implement lazy loading: show first 20, load rest on scroll
+          const MAX_INITIAL_IMAGES = 20;
+          let loadedCount = 0;
+          
+          const renderImages = (startIdx, endIdx) => {
+              for (let i = startIdx; i < Math.min(endIdx, filteredPool.length); i++) {
+                  const img = filteredPool[i];
+                  const item = document.createElement("div");
+                  item.className = "dictionary-item";
+                  const displayName = img.name || img.word;
+                  item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
+                  item.onclick = () => handleImageSelection(img);
+                  ui.dictionary.appendChild(item);
+              }
+              loadedCount = endIdx;
+          };
+          
+          // Load initial batch
+          renderImages(0, MAX_INITIAL_IMAGES);
+          
+          // Load more on scroll if needed
+          if (filteredPool.length > MAX_INITIAL_IMAGES) {
+              const loadMoreOnScroll = () => {
+                  if (ui.dictionary.scrollTop + ui.dictionary.clientHeight >= ui.dictionary.scrollHeight - 50) {
+                      if (loadedCount < filteredPool.length) {
+                          renderImages(loadedCount, loadedCount + 20);
+                      }
+                      if (loadedCount >= filteredPool.length) {
+                          ui.dictionary.removeEventListener('scroll', loadMoreOnScroll);
+                      }
+                  }
+              };
+              ui.dictionary.addEventListener('scroll', loadMoreOnScroll);
+          }
       };
 
       const handleImageSelection = (image) => {
         const r = +ui.rowSelect.value;
-        const mode = ui.modeSelect.value;
+        // Use per-exercise mode if set, otherwise use global mode
+        const mode = exerciseModes[r] || ui.modeSelect.value;
+        
+        // Ensure image has both word and name for compatibility
+        if (!image.name && image.word) image.name = image.word;
+        if (!image.word && image.name) image.word = image.name;
 
         if (mode === 'identical') {
             if (!commonSelections[r][0]) {
@@ -1344,10 +1493,18 @@
       
       const renderPreviews = () => {
         const r = +ui.rowSelect.value;
-        const createImgTag = (img) => `<img src="${img.path}" data-path="${img.path}" alt="${img.word}">`;
+        const createImgTag = (img) => {
+            const displayName = img.name || img.word;
+            return `<img src="${img.path}" data-path="${img.path}" alt="${displayName}">`;
+        };
         
         ui.prevCommon.innerHTML = commonSelections[r].map(createImgTag).join('') || '<p class="dictionary-message">None selected</p>';
         ui.prevOdd.innerHTML = oddSelections[r] ? createImgTag(oddSelections[r]) : '<p class="dictionary-message">None selected</p>';
+        
+        // Update exercise mode selector to show current exercise's mode
+        if (ui.exerciseModeSelect) {
+            ui.exerciseModeSelect.value = exerciseModes[r] || '';
+        }
       };
 
       const handleUploadedImages = (e) => {
@@ -1398,7 +1555,7 @@
       
       // --- CORE LOGIC: DATA GENERATION & RENDERING ---
       const buildRowsData = async () => {
-        const mode = ui.modeSelect.value;
+        const globalMode = ui.modeSelect.value;
         const generatedRows = [];
         const usedPaths = new Set();
         
@@ -1419,9 +1576,12 @@
           return [...themePool, ...uploadedImages];
         }
 
-        for (let i = 0; i < ROWS; i++) {
+        for (let i = 0; i < EXERCISE_COUNT; i++) {
             let commonItems = [...commonSelections[i]];
             let oddItem = oddSelections[i];
+            
+            // Use exercise-specific mode if set, otherwise use global mode
+            const mode = exerciseModes[i] || globalMode;
 
             if (mode === 'identical') {
                 const themeA = ui.themeSelect.value || getRandomElement(allThemes);
@@ -1480,16 +1640,29 @@
       const renderWorksheet = async () => {
         showMessage('Generating worksheet...', 'info', 0);
         
+        // Check if exercise count or exercise numbers setting changed
+        const exerciseCountChanged = lastGeneratedExerciseCount !== null && lastGeneratedExerciseCount !== EXERCISE_COUNT;
+        const exerciseNumbersChanged = lastIncludeExerciseNumbers !== null && lastIncludeExerciseNumbers !== ui.includeExerciseNumbers.checked;
+        
         const oldTransforms = {};
-        worksheetCanvas.getObjects().forEach(o => {
-            if (o.isWorksheetItem && typeof o.originalIndex !== 'undefined') {
-                oldTransforms[o.originalIndex] = {
-                    left: o.left, top: o.top,
-                    scaleX: o.scaleX, scaleY: o.scaleY,
-                    angle: o.angle
-                };
-            }
-        });
+        // Only preserve transforms if neither exercise count nor exercise numbers setting changed
+        if (!exerciseCountChanged && !exerciseNumbersChanged) {
+            worksheetCanvas.getObjects().forEach(o => {
+                if (o.isWorksheetItem && typeof o.originalIndex !== 'undefined') {
+                    oldTransforms[o.originalIndex] = {
+                        left: o.left, top: o.top,
+                        scaleX: o.scaleX, scaleY: o.scaleY,
+                        angle: o.angle
+                    };
+                }
+            });
+        }
+        
+        // Store current settings
+        lastGeneratedExerciseCount = EXERCISE_COUNT;
+        lastIncludeExerciseNumbers = ui.includeExerciseNumbers.checked;
+        // Reset answer key count to force fresh layout on next answer key generation
+        lastAnswerKeyExerciseCount = null;
         
         const userAddedObjects = worksheetCanvas.getObjects().filter(o => 
             !o.isWorksheetItem && !o.isBorder && !o.isBackground && !o.isNameDate
@@ -1508,10 +1681,33 @@
         const nameDateObj = worksheetCanvas.getObjects().find(o => o.isNameDate);
         if (ui.includeNameDate.checked) {
             if (!nameDateObj) {
+                // Professional name/date field positioning
+                const pageWidth = currentCanvasConfig.width;
+                const pageHeight = currentCanvasConfig.height;
+                const PAGE_MARGIN_H = pageWidth * 0.1;
+                const PAGE_MARGIN_V = pageHeight * 0.08;
+                const fontSize = Math.min(pageWidth * 0.022, 14);
+                
+                // Position at top with proper spacing
                 const nameDateText = new fabric.Group([
-                    new fabric.Textbox("Name: ________________", { fontSize: 18, left: 0, top: 0 }),
-                    new fabric.Textbox("Date: ________", { fontSize: 18, left: 250, top: 0 })
-                ], { left: 40, top: 25, selectable: true, isNameDate: true });
+                    new fabric.Textbox("Name: ________________", { 
+                        fontSize: fontSize, 
+                        left: 0, 
+                        top: 0,
+                        fill: '#333'
+                    }),
+                    new fabric.Textbox("Date: ________", { 
+                        fontSize: fontSize, 
+                        left: pageWidth * 0.32, 
+                        top: 0,
+                        fill: '#333'
+                    })
+                ], { 
+                    left: PAGE_MARGIN_H, 
+                    top: PAGE_MARGIN_V, 
+                    selectable: true, 
+                    isNameDate: true 
+                });
                 worksheetCanvas.add(nameDateText);
             }
         } else {
@@ -1535,18 +1731,18 @@
               showMessage("Please generate the worksheet first.", "error");
               return;
           }
+          
+          // CRITICAL: Check if exercise count matches current setting
+          if (lastGeneratedRows.length !== EXERCISE_COUNT) {
+              showMessage("Exercise count has changed. Please regenerate the worksheet first.", "error");
+              return;
+          }
+          
           showMessage('Generating answer key...', 'info');
 
+          // ALWAYS use fresh layout for answer key to match worksheet
+          // Don't preserve old transforms since worksheet was regenerated
           const oldTransforms = {};
-          answerKeyCanvas.getObjects().forEach(o => {
-              if (o.isAnswerKeyItem && typeof o.originalIndex !== 'undefined') {
-                  oldTransforms[o.originalIndex] = {
-                      left: o.left, top: o.top,
-                      scaleX: o.scaleX, scaleY: o.scaleY,
-                      angle: o.angle
-                  };
-              }
-          });
 
           const userAddedObjects = answerKeyCanvas.getObjects().filter(o => 
               !o.isAnswerKeyItem && !o.isBorder && !o.isBackground
@@ -1582,6 +1778,9 @@
           userAddedObjects.forEach(o => answerKeyCanvas.bringToFront(o));
           answerKeyCanvas.renderAll();
           
+          // Store current exercise count for answer key
+          lastAnswerKeyExerciseCount = EXERCISE_COUNT;
+          
           document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
           showMessage("Answer key generated!", "success");
 
@@ -1590,36 +1789,145 @@
       };
 
       const renderCardsToCanvas = async (rowsData, canvas, isAnswerKey, oldTransforms = {}) => {
-        const MARGIN = 40;
-        const TOP_OFFSET = ui.includeNameDate.checked ? 80 : 40;
-        const ROW_SPACING = 20;
-        const CARD_HEIGHT = (canvas.height - TOP_OFFSET - MARGIN - (ROW_SPACING * (ROWS -1))) / ROWS;
-        const CARD_WIDTH = canvas.width - (MARGIN * 2);
-        const IMAGE_CONTAINER_SIZE = CARD_HEIGHT * 0.7;
+        // Use actual page dimensions from config, not canvas display dimensions
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const isLandscape = pageWidth > pageHeight;
+        const exerciseCount = rowsData.length;
+        
+        // Smart column layout: 2 columns for landscape OR portrait with 7+ exercises
+        const COLUMNS = (isLandscape || (!isLandscape && exerciseCount >= 7)) ? 2 : 1;
+        const ROWS_PER_COLUMN = Math.ceil(exerciseCount / COLUMNS);
+        
+        // Professional margins - slightly larger for breathing room
+        const PAGE_MARGIN_H = pageWidth * 0.1;  // 10% horizontal margins
+        const PAGE_MARGIN_V = pageHeight * 0.08; // 8% vertical margins
+        
+        // Name/Date spacing
+        const NAME_DATE_HEIGHT = 35;
+        const NAME_DATE_SPACING = 20;
+        const TOP_OFFSET = ui.includeNameDate.checked 
+          ? PAGE_MARGIN_V + NAME_DATE_HEIGHT + NAME_DATE_SPACING 
+          : PAGE_MARGIN_V;
+        
+        // FIXED positioning for exercise numbers
+        const EXERCISE_NUMBER_WIDTH = 25; // Fixed width for number
+        const NUMBER_CARD_GAP = 15; // FIXED 15px gap between number and card
+        
+        // Calculate available content area
+        const totalContentWidth = pageWidth - (PAGE_MARGIN_H * 2);
+        const contentHeight = pageHeight - TOP_OFFSET - PAGE_MARGIN_V;
+        
+        // BETTER SPACING: Distribute cards evenly to fill the page
+        // Calculate optimal row spacing to fill vertical space
+        const MIN_ROW_SPACING = 20;
+        const MAX_ROW_SPACING = 60;
+        const OPTIMAL_ROW_SPACING = (contentHeight - (contentHeight / ROWS_PER_COLUMN * ROWS_PER_COLUMN)) / (ROWS_PER_COLUMN - 1 || 1);
+        const ROW_SPACING = Math.min(Math.max(OPTIMAL_ROW_SPACING, MIN_ROW_SPACING), MAX_ROW_SPACING);
+        
+        // Column spacing for two columns - more generous
+        const COLUMN_SPACING = COLUMNS === 2 ? pageWidth * 0.08 : 0;
+        
+        // Calculate card height to fit available space
+        const CARD_HEIGHT = (contentHeight - (ROW_SPACING * (ROWS_PER_COLUMN - 1))) / ROWS_PER_COLUMN;
+        
+        // Card aspect ratio - wider cards for better content display
+        const CARD_ASPECT_RATIO = 3.2;
+        
+        // Calculate maximum card width available
+        const SPACE_FOR_NUMBERS = ui.includeExerciseNumbers.checked 
+          ? (EXERCISE_NUMBER_WIDTH + NUMBER_CARD_GAP) * COLUMNS 
+          : 0;
+        const MAX_CARD_WIDTH = (totalContentWidth - COLUMN_SPACING - SPACE_FOR_NUMBERS) / COLUMNS;
+        
+        // Final card width - use smaller of ideal or max
+        const IDEAL_CARD_WIDTH = CARD_HEIGHT * CARD_ASPECT_RATIO;
+        const FINAL_CARD_WIDTH = Math.min(IDEAL_CARD_WIDTH, MAX_CARD_WIDTH);
+        
+        // If cards are too wide, reduce height to maintain aspect ratio
+        const FINAL_CARD_HEIGHT = Math.min(CARD_HEIGHT, FINAL_CARD_WIDTH / CARD_ASPECT_RATIO);
+        
+        // Internal card padding
+        const CARD_PADDING_H = FINAL_CARD_WIDTH * 0.05;
+        const CARD_PADDING_V = FINAL_CARD_HEIGHT * 0.15;
+        
+        // Image size proportional to card - increased by 80% from original 0.7 to 1.26
+        const IMAGE_CONTAINER_SIZE = (FINAL_CARD_HEIGHT - (CARD_PADDING_V * 2)) * 1.26;
 
         for (let i = 0; i < rowsData.length; i++) {
             const rowData = rowsData[i];
-            const cardY = TOP_OFFSET + i * (CARD_HEIGHT + ROW_SPACING);
+            
+            // Calculate position based on column layout
+            const column = COLUMNS === 2 ? Math.floor(i / ROWS_PER_COLUMN) : 0;
+            const rowInColumn = COLUMNS === 2 ? i % ROWS_PER_COLUMN : i;
+            
+            // Calculate vertical position with even distribution
+            const verticalSpacing = contentHeight / ROWS_PER_COLUMN;
+            const cardY = TOP_OFFSET + rowInColumn * verticalSpacing + (verticalSpacing - FINAL_CARD_HEIGHT) / 2;
+            
+            // Calculate horizontal positioning
+            let cardX, numberX;
+            
+            if (COLUMNS === 2) {
+                // Two columns - center each column's content
+                const columnWidth = (totalContentWidth - COLUMN_SPACING) / 2;
+                const columnStartX = PAGE_MARGIN_H + column * (columnWidth + COLUMN_SPACING);
+                
+                // Center card+number unit within column
+                const unitWidth = (ui.includeExerciseNumbers.checked ? EXERCISE_NUMBER_WIDTH + NUMBER_CARD_GAP : 0) + FINAL_CARD_WIDTH;
+                const unitStartX = columnStartX + (columnWidth - unitWidth) / 2;
+                
+                numberX = unitStartX;
+                cardX = unitStartX + (ui.includeExerciseNumbers.checked ? EXERCISE_NUMBER_WIDTH + NUMBER_CARD_GAP : 0);
+            } else {
+                // Single column - center in page
+                const unitWidth = (ui.includeExerciseNumbers.checked ? EXERCISE_NUMBER_WIDTH + NUMBER_CARD_GAP : 0) + FINAL_CARD_WIDTH;
+                const unitStartX = PAGE_MARGIN_H + (totalContentWidth - unitWidth) / 2;
+                
+                numberX = unitStartX;
+                cardX = unitStartX + (ui.includeExerciseNumbers.checked ? EXERCISE_NUMBER_WIDTH + NUMBER_CARD_GAP : 0);
+            }
+            
+            const numberY = cardY + FINAL_CARD_HEIGHT / 2;
 
             const cardElements = [];
 
+            // Exercise number OUTSIDE the card (not in cardElements)
+            if (ui.includeExerciseNumbers.checked) {
+                const fontSize = Math.min(FINAL_CARD_HEIGHT * 0.35, 18);
+                const numText = new fabric.Text(`${i + 1}.`, {
+                    fontSize: fontSize, 
+                    fill: '#444',
+                    fontWeight: 'bold',
+                    left: numberX,
+                    top: numberY,
+                    originX: 'left',
+                    originY: 'center',
+                    selectable: false, 
+                    evented: false,
+                    isWorksheetItem: !isAnswerKey,
+                    isAnswerKeyItem: isAnswerKey
+                });
+                canvas.add(numText);
+            }
+            
+            // Card background
+            const cornerRadius = Math.min(FINAL_CARD_HEIGHT * 0.1, 12);
+            const strokeWidth = 1;
+            
             const cardBg = new fabric.Rect({
-                width: CARD_WIDTH, height: CARD_HEIGHT,
-                fill: '#ffffff', stroke: '#e0e0e0', strokeWidth: 1,
-                rx: 10, ry: 10,
-                shadow: 'rgba(0,0,0,0.1) 0px 2px 4px',
-                selectable: false, evented: false,
+                width: FINAL_CARD_WIDTH, 
+                height: FINAL_CARD_HEIGHT,
+                fill: '#ffffff', 
+                stroke: '#d0d0d0', 
+                strokeWidth: strokeWidth,
+                rx: cornerRadius, 
+                ry: cornerRadius,
+                shadow: 'rgba(0,0,0,0.06) 0px 2px 4px',
+                selectable: false, 
+                evented: false,
             });
             cardElements.push(cardBg);
-
-            if (ui.includeExerciseNumbers.checked) {
-                const numText = new fabric.Text(`${i + 1}.`, {
-                    fontSize: 20, fill: '#333',
-                    left: 20, top: 20,
-                    selectable: false, evented: false,
-                });
-                cardElements.push(numText);
-            }
 
             const imagePromises = rowData.items.map(imgData => 
               new Promise(resolve => fabric.Image.fromURL(imgData.path, img => resolve(img), { crossOrigin: 'anonymous' }))
@@ -1627,27 +1935,56 @@
             const images = await Promise.all(imagePromises);
 
             const numImages = images.filter(Boolean).length;
-            const contentWidth = numImages * IMAGE_CONTAINER_SIZE + (numImages - 1) * 15;
-            let startX = (CARD_WIDTH - contentWidth) / 2;
+            // Calculate content area for images
+            const imageAreaWidth = FINAL_CARD_WIDTH - (CARD_PADDING_H * 2);
+            
+            // Start with desired spacing
+            let imageSpacing = IMAGE_CONTAINER_SIZE * 0.08; // Reduced from 0.15 for larger images
+            let actualImageSize = IMAGE_CONTAINER_SIZE;
+            
+            // Calculate if images fit with current size and spacing
+            let totalImagesWidth = numImages * actualImageSize + (numImages - 1) * imageSpacing;
+            
+            // If images don't fit, scale them down proportionally
+            if (totalImagesWidth > imageAreaWidth) {
+                // First try minimal spacing
+                const minSpacing = 5;
+                totalImagesWidth = numImages * actualImageSize + (numImages - 1) * minSpacing;
+                
+                if (totalImagesWidth > imageAreaWidth) {
+                    // Scale down images to fit with minimal spacing
+                    actualImageSize = (imageAreaWidth - (numImages - 1) * minSpacing) / numImages;
+                    imageSpacing = minSpacing;
+                } else {
+                    // Use minimal spacing
+                    imageSpacing = minSpacing;
+                }
+                totalImagesWidth = numImages * actualImageSize + (numImages - 1) * imageSpacing;
+            }
+            
+            // Center images within card
+            let startX = CARD_PADDING_H + (imageAreaWidth - totalImagesWidth) / 2;
 
             for (let j = 0; j < images.length; j++) {
                 const img = images[j];
                 if (img) {
-                    img.scaleToHeight(IMAGE_CONTAINER_SIZE);
-                    img.scaleToWidth(IMAGE_CONTAINER_SIZE);
+                    img.scaleToHeight(actualImageSize);
+                    img.scaleToWidth(actualImageSize);
                     img.set({
-                        left: startX + (j * (IMAGE_CONTAINER_SIZE + 15)),
-                        top: (CARD_HEIGHT - img.getScaledHeight()) / 2,
+                        left: startX + (j * (actualImageSize + imageSpacing)),
+                        top: (FINAL_CARD_HEIGHT - img.getScaledHeight()) / 2,
                         selectable: false, evented: false
                     });
 
                     if (isAnswerKey && rowData.items[j].path === rowData.oddItemPath) {
+                        // Scale circle stroke based on actual image size
+                        const strokeWidth = Math.max(actualImageSize * 0.04, 3);
                         const circle = new fabric.Circle({
-                            radius: (img.getScaledWidth() / 2) + 5,
+                            radius: (img.getScaledWidth() / 2) + strokeWidth,
                             left: img.left + img.getScaledWidth() / 2,
                             top: img.top + img.getScaledHeight() / 2,
                             originX: 'center', originY: 'center',
-                            fill: 'transparent', stroke: 'red', strokeWidth: 4,
+                            fill: 'transparent', stroke: 'red', strokeWidth: strokeWidth,
                             selectable: false, evented: false
                         });
                         cardElements.push(img, circle);
@@ -1658,7 +1995,7 @@
             }
 
             const cardGroup = new fabric.Group(cardElements, {
-                left: MARGIN, top: cardY,
+                left: cardX, top: cardY,
                 isWorksheetItem: !isAnswerKey,
                 isAnswerKeyItem: isAnswerKey,
                 originalIndex: i,
@@ -1850,10 +2187,30 @@
       };
 
       const getCanvasDataURL = async (canvas, grayscale) => {
+          // Save current state
+          const currentZoom = canvas.getZoom();
+          const currentWidth = canvas.getWidth();
+          const currentHeight = canvas.getHeight();
+          
+          // Reset for export
+          canvas.setZoom(1);
+          canvas.setDimensions({
+              width: currentCanvasConfig.width,
+              height: currentCanvasConfig.height
+          });
+          
           let dataURL = canvas.toDataURL({ format: 'jpeg', quality: 1.0, multiplier: downloadMultiplier });
           if (grayscale) {
               dataURL = await applyGrayscaleToDataURL(dataURL);
           }
+          
+          // Restore display state
+          canvas.setZoom(currentZoom);
+          canvas.setDimensions({
+              width: currentWidth,
+              height: currentHeight
+          });
+          
           return dataURL;
       };
 
@@ -1885,12 +2242,16 @@
           showMessage('Preparing PDF...', 'info', 0);
           try {
               const { jsPDF } = window.jspdf;
-              const orientation = canvas.width > canvas.height ? 'l' : 'p';
-              const pdf = new jsPDF({ orientation, unit: 'pt', format: [canvas.width, canvas.height] });
+              const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
+              const pdf = new jsPDF({ 
+                  orientation, 
+                  unit: 'pt', 
+                  format: [currentCanvasConfig.width, currentCanvasConfig.height] // Use user's selected size
+              });
               const grayscale = ui.grayscaleToggle.checked;
               
               const imgData = await getCanvasDataURL(canvas, grayscale);
-              pdf.addImage(imgData, 'JPEG', 0, 0, canvas.width, canvas.height);
+              pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
               pdf.save(fileName);
               showMessage('PDF Downloaded!', 'success');
           } catch(e) { 
@@ -1904,12 +2265,16 @@
       const clearRow = (rowIndex) => {
         commonSelections[rowIndex] = [];
         oddSelections[rowIndex] = null;
+        exerciseModes[rowIndex] = null;
       };
       const clearAll = () => {
-        commonSelections = Array.from({ length: ROWS }, () => []);
-        oddSelections = Array(ROWS).fill(null);
+        commonSelections = Array.from({ length: 10 }, () => []); // Reset to max size
+        oddSelections = Array(10).fill(null);
         uploadedImages = [];
         lastGeneratedRows = [];
+        lastGeneratedExerciseCount = null; // Reset exercise count tracking
+        lastAnswerKeyExerciseCount = null; // Reset answer key count tracking
+        lastIncludeExerciseNumbers = null; // Reset exercise numbers tracking
         
         ui.pageSizeSelect.value = DEFAULT_PAGE_SIZE;
         updateCanvasDisplayDimensions(...DEFAULT_PAGE_SIZE.split('x').map(Number));
@@ -1940,6 +2305,41 @@
         showMessage('Form cleared.', 'success', 2000);
       };
 
+      // --- EXERCISE COUNT MANAGEMENT ---
+      const updateExerciseCount = () => {
+        const oldCount = EXERCISE_COUNT;
+        EXERCISE_COUNT = parseInt(ui.exerciseCountSelect.value);
+        
+        // Update row selector options
+        ui.rowSelect.innerHTML = '';
+        for (let i = 0; i < EXERCISE_COUNT; i++) {
+          const opt = document.createElement('option');
+          opt.value = i;
+          opt.textContent = `Exercise ${i + 1}`;
+          ui.rowSelect.appendChild(opt);
+        }
+        
+        // Clear selections beyond the new count
+        for (let i = EXERCISE_COUNT; i < 10; i++) {
+          commonSelections[i] = [];
+          oddSelections[i] = null;
+        }
+        
+        // CRITICAL: Clear generated rows when exercise count changes
+        // This forces regeneration of worksheet before answer key can be created
+        if (oldCount !== EXERCISE_COUNT && lastGeneratedRows.length > 0) {
+          lastGeneratedRows = [];
+          lastAnswerKeyExerciseCount = null; // Reset answer key count too
+          // Disable answer key button until worksheet is regenerated
+          ui.generateAnswerKeyBtn.disabled = true;
+          ui.downloadAkJpegBtn.disabled = true;
+          ui.downloadAkPdfBtn.disabled = true;
+          showMessage('Exercise count changed. Please regenerate the worksheet.', 'info');
+        }
+        
+        renderPreviews();
+      };
+      
       // --- INITIALIZATION ---
       const init = async () => {
         initSidebar();
@@ -1949,8 +2349,8 @@
         answerKeyCanvas = initializeCanvas(ui.answerKeyCanvasElement);
         updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
 
-        // Populate row selector
-        for (let i = 0; i < ROWS; i++) { ui.rowSelect.add(new Option(`Row ${i + 1}`, i)); }
+        // Initialize exercise count and row selector
+        updateExerciseCount();
 
         // Setup Event Listeners
         ui.clearBtn.addEventListener('click', clearAll);
@@ -1993,11 +2393,30 @@
         });
         
         // App specific listeners
-        [ui.modeSelect, ui.rowSelect, ui.themeSelect, ui.themeBSelect].forEach(el => el.addEventListener('change', () => {
-            if (el.id === 'modeSelect') {
-                commonSelections = Array.from({ length: ROWS }, () => []);
-                oddSelections = Array(ROWS).fill(null);
+        ui.exerciseCountSelect.addEventListener('change', updateExerciseCount);
+        
+        // Row select handler - update previews and mode selector
+        ui.rowSelect.addEventListener('change', () => {
+            renderPreviews();
+            loadDictionary();
+        });
+        
+        // Exercise mode selector handler
+        ui.exerciseModeSelect.addEventListener('change', () => {
+            const r = +ui.rowSelect.value;
+            exerciseModes[r] = ui.exerciseModeSelect.value || null;
+            // Clear selections for this exercise if mode changed
+            if (ui.exerciseModeSelect.value) {
+                commonSelections[r] = [];
+                oddSelections[r] = null;
+                renderPreviews();
+                loadDictionary();
             }
+        });
+        
+        // Theme and global mode selectors handler
+        [ui.modeSelect, ui.themeSelect, ui.themeBSelect].forEach(el => el.addEventListener('change', () => {
+            // Don't clear selections when global mode changes anymore
             renderPreviews();
             loadDictionary();
         }));

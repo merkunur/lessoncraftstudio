@@ -77,20 +77,57 @@ languageSelect.addEventListener('change', function() {
 }
 ```
 
-### 2. Update Canvas Dimensions After Zoom
+### 2. CRITICAL: Correct Canvas Display Dimensions Implementation
 ```javascript
 function updateCanvasDisplayDimensions(width, height) {
-    // Apply zoom first
-    const finalZoom = (displayWidth / width);
-    canvas.setZoom(finalZoom);
+    currentCanvasConfig.width = width;
+    currentCanvasConfig.height = height;
+
+    const mainContentAreaStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
+    const availableWidth = parseFloat(mainContentAreaStyle.width) - parseFloat(mainContentAreaStyle.paddingLeft) - parseFloat(mainContentAreaStyle.paddingRight) - 10;
+    const availableHeight = parseFloat(mainContentAreaStyle.height) - parseFloat(mainContentAreaStyle.paddingTop) - parseFloat(mainContentAreaStyle.paddingBottom) - 10;
     
-    // Set dimensions AFTER zoom to match viewport
-    canvas.setDimensions({
-        width: displayWidth,
-        height: displayHeight
+    // CRITICAL: Apply 25% scaling for better visibility
+    // Extra 25% for landscape orientations (MUST MATCH IMAGE ADDITION APP)
+    const isLandscape = width > height;
+    const baseScale = 1.25; // Base 25% larger for all
+    const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+    const displayScale = baseScale * landscapeBonus;
+    
+    // Calculate display dimensions with scaling
+    const scaledWidth = width * displayScale;
+    const scaledHeight = height * displayScale;
+    
+    // Ensure it fits in available space
+    const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+    const displayWidth = scaledWidth * scaleRatio;
+    const displayHeight = scaledHeight * scaleRatio;
+
+    [worksheetCanvas, answerKeyCanvas].forEach(c => {
+        if (c) {
+            // Apply zoom for display scaling
+            const finalZoom = (displayWidth / width);
+            c.setZoom(finalZoom);
+            
+            // CRITICAL: Set dimensions AFTER zoom to ensure viewport matches zoomed size
+            // This is CORRECT - it sets the canvas element size, not internal coordinates
+            c.setDimensions({
+                width: displayWidth,
+                height: displayHeight
+            });
+            
+            c.calcOffset();
+            c.renderAll();
+        }
     });
 }
 ```
+
+**⚠️ COMMON MISTAKE TO AVOID**:
+Do NOT use `setWidth()`/`setHeight()` followed by `setZoom()` without `setDimensions()`. This will cause the canvas to appear too small on screen. The correct pattern is:
+1. `setZoom()` first to scale the canvas
+2. `setDimensions()` to set the viewport/element size
+3. The canvas internally maintains the actual page dimensions through the zoom factor
 
 ### 3. Fix Export Functions
 ```javascript

@@ -597,10 +597,10 @@
                         <h4 data-translate="page">Page</h4>
                         <label for="pageSizeSelect" data-translate="pageSize">Page Size:</label>
                         <select id="pageSizeSelect">
-                            <option value="612x792">Letter Portrait (612x792)</option>
-                            <option value="792x612">Letter Landscape (792x612)</option>
-                            <option value="595x842">A4 Portrait (595x842)</option>
-                            <option value="842x595">A4 Landscape (842x595)</option>
+                            <option value="612x792">Letter Portrait (8.5×11")</option>
+                            <option value="792x612">Letter Landscape (11×8.5")</option>
+                            <option value="595x842">A4 Portrait (210×297mm)</option>
+                            <option value="842x595">A4 Landscape (297×210mm)</option>
                             <option value="custom">Custom</option>
                         </select>
                         <div id="customPageSizeInputs" style="display:none;">
@@ -1320,7 +1320,10 @@
                 }
             } else {
                 const source = appState.imageCache; 
-                imagesToDisplay = query ? source.filter(img => img.word.toLowerCase().includes(query)) : source;
+                imagesToDisplay = query ? source.filter(img => {
+                    const displayName = (img.name || img.word).toLowerCase();
+                    return displayName.includes(query);
+                }) : source;
             }
 
             if (imagesToDisplay.length === 0) {

@@ -111,6 +111,48 @@ export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const locale = searchParams.get('locale') || 'en';
   
+  try {
+    // Try to fetch from Strapi first
+    const strapiUrl = process.env.STRAPI_URL || 'http://localhost:1337';
+    
+    // Try with locale first, then without if empty
+    let response = await fetch(`${strapiUrl}/api/image-themes?locale=${locale}&populate=*`, {
+      cache: 'no-store'
+    });
+    
+    let data = response.ok ? await response.json() : { data: [] };
+    
+    // If locale-specific query returned nothing, try without locale
+    if ((!data.data || data.data.length === 0) && locale !== 'en') {
+      response = await fetch(`${strapiUrl}/api/image-themes?populate=*`, {
+        cache: 'no-store'
+      });
+      if (response.ok) {
+        data = await response.json();
+      }
+    }
+    
+    if (response.ok && data.data && data.data.length > 0) {
+        const themes = data.data.map((theme: any) => {
+          const folderName = theme.attributes.folderName;
+          // Use the translation helper function for consistent translations
+          const displayName = getTranslatedThemeName(folderName, locale);
+          
+          return {
+            value: folderName,
+            displayName: displayName
+          };
+        });
+        
+        themes.sort((a: any, b: any) => a.displayName.localeCompare(b.displayName, locale));
+        return NextResponse.json(themes);
+    }
+    // If Strapi returned empty data, fall through to filesystem
+  } catch (error) {
+    console.log('Strapi not available, falling back to file system');
+  }
+  
+  // Fallback to file system if Strapi is not available
   const imagesDir = path.join(process.cwd(), 'public', 'images');
   
   try {

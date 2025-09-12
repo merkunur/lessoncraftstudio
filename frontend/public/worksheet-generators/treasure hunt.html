@@ -5,6 +5,7 @@
   <title>Treasure Hunt Worksheet Generator</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="js/translations.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
@@ -241,7 +242,20 @@
     .tab-content-wrapper { flex-grow: 1; display: flex; align-items: flex-start; justify-content: center; padding: 25px; overflow-y: auto; }
     .tab { display: none; width: 100%; height: 100%; margin: 0 auto; }
     .tab.active { display: flex; flex-direction: column; }
-    .canvas-container-wrapper { border: none; background-color: var(--app-surface-light); box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-radius: 8px; overflow: auto; margin: auto; }
+    .canvas-container-wrapper { 
+        border: none; 
+        background-color: var(--app-surface-light); 
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+        border-radius: 8px; 
+        overflow: visible !important; /* Changed from auto to prevent clipping */
+        margin: auto; 
+        position: relative;
+    }
+    /* Ensure Fabric.js container doesn't clip */
+    .canvas-container { 
+        overflow: visible !important;
+        position: relative !important;
+    }
     canvas { display: block; }
     #exportArea { position: absolute; left: -9999px; top: 0; width: auto; height: auto;}
     @media (max-width: 1024px) {
@@ -279,15 +293,37 @@
       </div>
       <div class="panel-content">
 
+        <!-- Language Selector Section -->
         <div class="accordion-item">
-            <button class="accordion-button active">Page Setup</button>
+            <button class="accordion-button active">Language Settings</button>
             <div class="accordion-content active">
+                <h4>Select Language</h4>
+                <label for="languageSelect">Language:</label>
+                <select id="languageSelect">
+                    <option value="en">English</option>
+                    <option value="de">Deutsch (German)</option>
+                    <option value="fr">Français (French)</option>
+                    <option value="es">Español (Spanish)</option>
+                    <option value="pt">Português (Portuguese)</option>
+                    <option value="it">Italiano (Italian)</option>
+                    <option value="nl">Nederlands (Dutch)</option>
+                    <option value="sv">Svenska (Swedish)</option>
+                    <option value="da">Dansk (Danish)</option>
+                    <option value="no">Norsk (Norwegian)</option>
+                    <option value="fi">Suomi (Finnish)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button">Page Setup</button>
+            <div class="accordion-content">
                 <label for="pageSizeSelect">Page Size:</label>
                 <select id="pageSizeSelect">
-                    <option value="612x792">Letter Portrait (612x792)</option>
-                    <option value="792x612">Letter Landscape (792x612)</option>
-                    <option value="595x842">A4 Portrait (595x842)</option>
-                    <option value="842x595">A4 Landscape (842x595)</option>
+                    <option value="612x792">Letter Portrait (8.5×11")</option>
+                    <option value="792x612">Letter Landscape (11×8.5")</option>
+                    <option value="595x842">A4 Portrait (210×297mm)</option>
+                    <option value="842x595">A4 Landscape (297×210mm)</option>
                     <option value="1200x1200">Square (1200x1200)</option>
                     <option value="custom">Custom</option>
                 </select>
@@ -459,6 +495,8 @@
       menuCloseBtn.addEventListener('click', () => { panel.classList.remove('is-open'); menuOverlay.classList.remove('is-active'); });
       menuOverlay.addEventListener('click', () => { panel.classList.remove('is-open'); menuOverlay.classList.remove('is-active'); });
 
+      // --- Global State & Configuration ---
+      let currentLocale = 'en'; // Current language setting
       let allImages = [];
       let uploadedImages = [];
       let selectedImages = [];
@@ -466,6 +504,8 @@
       let lastGeneratedData = null; 
       const downloadMultiplier = 6;
 
+      // --- DOM Element References ---
+      const languageSelect = document.getElementById('languageSelect');
       const worksheetThemeSelect = document.getElementById("worksheetThemeSelect");
       const themeSelect = document.getElementById("themeSelect");
       const searchInput = document.getElementById("searchInput");
@@ -716,32 +756,42 @@
         if (duration > 0) setTimeout(() => { messageDiv.style.display = 'none'; }, duration);
       }
 
-      function loadThemes() {
-        fetch('/api/themes/nested')
-          .then(res => res.json())
-          .then(themePaths => {
-            availableThemes = themePaths;
+      async function loadThemes() {
+        try {
+            const res = await fetch(`/api/themes-translated?locale=${currentLocale}`);
+            if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+            const themes = await res.json();
+            
+            availableThemes = themes.map(t => t.value); // Keep compatibility with existing code
+            
             [themeSelect, worksheetThemeSelect].forEach(sel => {
                 sel.innerHTML = '';
                 if(sel.id === 'worksheetThemeSelect') {
                     const defaultOpt = document.createElement("option");
-                    defaultOpt.value = ""; defaultOpt.textContent = "-- Select Theme for Worksheet --";
+                    defaultOpt.value = ""; 
+                    defaultOpt.textContent = "-- Select Theme for Worksheet --";
                     sel.appendChild(defaultOpt);
                 } else {
                     const allOpt = document.createElement("option");
-                    allOpt.value = "all"; allOpt.textContent = "All Themes (For Search)";
+                    allOpt.value = "all"; 
+                    const allThemesText = (typeof translations !== 'undefined' && translations[currentLocale]?.allThemes) || 'All Themes';
+                    allOpt.textContent = allThemesText;
                     sel.appendChild(allOpt);
                 }
             });
-            themePaths.forEach(themePath => {
-                const displayName = themePath.split('/').map(p => p.charAt(0).toUpperCase() + p.slice(1)).join(' / ');
+            
+            themes.forEach(theme => {
                 const opt = document.createElement("option");
-                opt.value = themePath; opt.textContent = displayName;
+                opt.value = theme.value;
+                opt.textContent = theme.displayName;
                 themeSelect.appendChild(opt.cloneNode(true));
                 worksheetThemeSelect.appendChild(opt);
             });
             loadDictionary();
-          }).catch(err => showMessage("Could not load themes.", 'error'));
+        } catch (err) {
+            console.error('Failed to load themes:', err);
+            showMessage("Could not load themes.", 'error');
+        }
       }
 
       async function loadDictionary() {
@@ -756,14 +806,14 @@
                 allImages = []; return;
             }
             try {
-                const res = await fetch(`/api/images?search=${encodeURIComponent(query)}`);
+                const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
                 imagesToRender = await res.json();
             } catch (err) { dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error during search.</p>`; return; }
         } else {
             try {
-                const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}`);
+                const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
                 allImages = await res.json();
-                imagesToRender = query ? allImages.filter(img => img.word.toLowerCase().includes(query)) : allImages;
+                imagesToRender = query ? allImages.filter(img => (img.name || img.word).toLowerCase().includes(query)) : allImages;
             } catch (err) { dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error loading images.</p>`; return; }
         }
 
@@ -777,7 +827,8 @@
             const item = document.createElement("div");
             item.className = "dictionary-item";
             if (selectedImages.some(sel => sel.path === img.path)) item.classList.add('selected');
-            item.innerHTML = `<img src="${img.path}" alt="${img.word}" loading="lazy"/><span>${img.word}</span>`;
+            const displayName = img.name || img.word;
+            item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
             item.onclick = () => toggleImageSelection(img);
             dictionaryDiv.appendChild(item);
         });
@@ -793,7 +844,8 @@
             const item = document.createElement("div");
             item.className = "dictionary-item";
             if (selectedImages.some(selImg => selImg.path === img.path)) item.classList.add('selected');
-            item.innerHTML = `<img src="${img.path}" alt="${img.word}" loading="lazy"/><span>${img.word}</span>`;
+            const displayName = img.name || img.word;
+            item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
             item.onclick = () => toggleImageSelection(img);
             uploadedImagesPreviewDiv.appendChild(item);
         });
@@ -819,7 +871,7 @@
         selectedImages.forEach(img => { 
             const imgEl = document.createElement("img");
             imgEl.src = img.path;
-            imgEl.alt = img.word;
+            imgEl.alt = img.name || img.word;
             imgEl.onclick = () => toggleImageSelection(img);
             selectedImagesPreviewDiv.appendChild(imgEl); 
         });
@@ -866,7 +918,7 @@
         const worksheetThemeValue = worksheetThemeSelect.value;
         if (worksheetThemeValue) {
             try {
-                const res = await fetch(`/api/images?theme=${encodeURIComponent(worksheetThemeValue)}`);
+                const res = await fetch(`/api/images?theme=${encodeURIComponent(worksheetThemeValue)}&locale=${currentLocale}`);
                 const themeImages = await res.json();
                 if (themeImages.length === 0) { showMessage(`Theme "${worksheetThemeValue}" has no images.`, 'error'); return null; }
                 imagesForPuzzle = getRandomElements(themeImages, 6);
@@ -1308,6 +1360,26 @@
       
       borderThemeSelect.addEventListener("change", () => loadBorderAndBackgroundImages('border'));
       backgroundThemeSelect.addEventListener("change", () => loadBorderAndBackgroundImages('background'));
+      
+      // Initialize language from URL if provided
+      const urlParams = new URLSearchParams(window.location.search);
+      const localeParam = urlParams.get('locale');
+      if (localeParam && languageSelect) {
+          languageSelect.value = localeParam;
+          currentLocale = localeParam;
+      } else if (languageSelect && languageSelect.value) {
+          currentLocale = languageSelect.value;
+      }
+      
+      // Language change handler - reload page with new locale
+      if (languageSelect) {
+          languageSelect.addEventListener('change', function(e) {
+              const newLocale = e.target.value;
+              const url = new URL(window.location.href);
+              url.searchParams.set('locale', newLocale);
+              window.location.href = url.toString();
+          });
+      }
       
       loadThemes();
       loadBorderAndBackgroundThemes('border');

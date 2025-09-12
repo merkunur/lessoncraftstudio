@@ -30,6 +30,78 @@ export async function GET(request: Request) {
   const search = searchParams.get('search');
   const locale = searchParams.get('locale') || 'en';
   
+  // Try to fetch from Strapi first if we have a theme
+  if (theme && theme !== 'all' && !theme.includes('..')) {
+    try {
+      const strapiUrl = process.env.STRAPI_URL || 'http://localhost:1337';
+      
+      // First get the theme ID from Strapi
+      let themeResponse = await fetch(
+        `${strapiUrl}/api/image-themes?filters[folderName][$eq]=${theme}&locale=${locale}`,
+        { cache: 'no-store' }
+      );
+      
+      let themeData = themeResponse.ok ? await themeResponse.json() : { data: [] };
+      
+      // If locale-specific query returned nothing, try without locale
+      if ((!themeData.data || themeData.data.length === 0) && locale !== 'en') {
+        themeResponse = await fetch(
+          `${strapiUrl}/api/image-themes?filters[folderName][$eq]=${theme}`,
+          { cache: 'no-store' }
+        );
+        if (themeResponse.ok) {
+          themeData = await themeResponse.json();
+        }
+      }
+      
+      if (themeResponse.ok) {
+        if (themeData.data && themeData.data.length > 0) {
+          const themeId = themeData.data[0].id;
+          
+          // Now get images for this theme
+          let imagesResponse = await fetch(
+            `${strapiUrl}/api/image-assets?filters[themes][id][$eq]=${themeId}&populate=file&locale=${locale}`,
+            { cache: 'no-store' }
+          );
+          
+          let imagesData = imagesResponse.ok ? await imagesResponse.json() : { data: [] };
+          
+          // If locale-specific query returned nothing, try without locale
+          if ((!imagesData.data || imagesData.data.length === 0) && locale !== 'en') {
+            imagesResponse = await fetch(
+              `${strapiUrl}/api/image-assets?filters[themes][id][$eq]=${themeId}&populate=file`,
+              { cache: 'no-store' }
+            );
+            if (imagesResponse.ok) {
+              imagesData = await imagesResponse.json();
+            }
+          }
+          
+          if (imagesResponse.ok) {
+            // Check if we actually got images from Strapi
+            if (imagesData.data && imagesData.data.length > 0) {
+              const images = imagesData.data.map((img: any) => {
+                const displayName = img.attributes.displayName || 
+                                   img.attributes.translations?.[locale] ||
+                                   img.attributes.fileName;
+                return {
+                  word: displayName,
+                  name: displayName,
+                  path: img.attributes.file?.data?.attributes?.url || `/images/${theme}/${img.attributes.fileName}.png`
+                };
+              });
+              return NextResponse.json(images);
+            }
+            // If Strapi returned empty data, fall through to filesystem
+          }
+        }
+      }
+    } catch (error) {
+      console.log('Strapi not available for images, falling back to file system');
+    }
+  }
+  
+  // Fallback to file system
   const imagesBaseDir = path.join(process.cwd(), 'public', 'images');
   
   if (search) {

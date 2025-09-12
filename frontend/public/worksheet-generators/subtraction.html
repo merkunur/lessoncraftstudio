@@ -6,6 +6,7 @@
   <title>Image Subtraction Worksheet Generator</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="js/translations.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
@@ -136,9 +137,7 @@
         background-color: transparent;
         border-top: none;
     }
-    .accordion-content.active {
-        display: block;
-    }
+    /* .accordion-content.active rule removed - using inline styles instead */
      .accordion-content h4 {
         font-size: 13px;
         color: var(--app-text-secondary-dark-theme);
@@ -599,8 +598,13 @@
         background-color: var(--app-surface-light);
         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         border-radius: 8px;
-        overflow: auto;
+        overflow: visible !important;  /* CRITICAL: Changed from auto to prevent clipping with zoom */
         margin: auto;
+    }
+    /* Ensure Fabric.js container doesn't clip */
+    .canvas-container { 
+        overflow: visible !important;
+        position: relative !important;
     }
     canvas { display: block; }
     
@@ -736,16 +740,38 @@
       </div>
       <div class="panel-content">
 
+        <!-- Language Selector Section -->
         <div class="accordion-item">
-            <button class="accordion-button active">Page Setup</button>
+            <button class="accordion-button active">Language Settings</button>
             <div class="accordion-content active">
+                <h4>Select Language</h4>
+                <label for="languageSelect">Language:</label>
+                <select id="languageSelect">
+                    <option value="en">English</option>
+                    <option value="de">Deutsch (German)</option>
+                    <option value="fr">Français (French)</option>
+                    <option value="es">Español (Spanish)</option>
+                    <option value="pt">Português (Portuguese)</option>
+                    <option value="it">Italiano (Italian)</option>
+                    <option value="nl">Nederlands (Dutch)</option>
+                    <option value="sv">Svenska (Swedish)</option>
+                    <option value="da">Dansk (Danish)</option>
+                    <option value="no">Norsk (Norwegian)</option>
+                    <option value="fi">Suomi (Finnish)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button">Page Setup</button>
+            <div class="accordion-content">
                 <label for="pageSizeSelect">Page Size:</label>
                 <select id="pageSizeSelect">
-                    <option value="612x792">Letter Portrait (612x792)</option>
+                    <option value="612x792">Letter Portrait (8.5×11")</option>
                     <option value="800x1000">Default Worksheet (800x1000)</option>
-                    <option value="595x842">A4 Portrait (595x842)</option>
-                    <option value="842x595">A4 Landscape (842x595)</option>
-                    <option value="792x612" selected>Letter Landscape (792x612)</option>
+                    <option value="595x842">A4 Portrait (210×297mm)</option>
+                    <option value="842x595">A4 Landscape (297×210mm)</option>
+                    <option value="792x612" selected>Letter Landscape (11×8.5")</option>
                     <option value="1200x1200">Square (1200x1200)</option>
                     <option value="custom">Custom</option>
                 </select>
@@ -948,12 +974,17 @@
           button.addEventListener('click', () => {
               const content = button.nextElementSibling;
               button.classList.toggle('active');
+              // Use inline style.display like the working Prepositions app
               content.style.display = content.style.display === 'block' ? 'none' : 'block';
           });
       });
-      accordionButtons[0]?.classList.add('active');
-      if (accordionButtons[0]?.nextElementSibling) {
-        accordionButtons[0].nextElementSibling.style.display = 'block';
+      // Initialize first accordion as open
+      if (accordionButtons.length > 0) {
+          const firstButton = accordionButtons[0];
+          const firstContent = firstButton.nextElementSibling;
+          if (firstButton.classList.contains('active') && firstContent) {
+              firstContent.style.display = 'block';
+          }
       }
 
       const panel = document.querySelector('.panel');
@@ -965,6 +996,7 @@
       menuOverlay.addEventListener('click', () => { panel.classList.remove('is-open'); menuOverlay.classList.remove('is-active'); });
 
       // --- Global State & Configuration ---
+      let currentLocale = 'en'; // Current language setting
       let allImages = [];
       let uploadedImages = [];
       let selectedImages = [];
@@ -975,6 +1007,7 @@
       const downloadMultiplier = 6;
 
       // --- DOM Element References ---
+      const languageSelect = document.getElementById('languageSelect');
       const problemCountInput = document.getElementById("problemCount");
       const maxMinuendInput = document.getElementById("maxMinuend");
       const includeNameDateCheckbox = document.getElementById("includeNameDate");
@@ -1036,7 +1069,7 @@
       // --- Canvas State ---
       let worksheetCanvas;
       let answerKeyCanvas;
-      let currentCanvasConfig = { width: 792, height: 612 }; // Set default to landscape
+      let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
       
       // --- Dropdown Logic ---
       function setupDropdown(button, content) {
@@ -1287,21 +1320,28 @@
       function getRandomInt(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; }
 
       // --- Image Library (Dictionary System) ---
-      function loadThemes() {
-        fetch('/api/themes/nested')
-          .then(res => { if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`); return res.json(); })
-          .then(themePaths => {
-            themeSelect.innerHTML = '<option value="all">All Themes</option>';
-            themePaths.forEach(themePath => {
-                const displayName = themePath.split('/').map(p => p.charAt(0).toUpperCase() + p.slice(1)).join(' / ');
+      async function loadThemes() {
+        try {
+            const res = await fetch(`/api/themes-translated?locale=${currentLocale}`);
+            if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
+            const themes = await res.json();
+            
+            // Get translated "All Themes" text
+            const allThemesText = (typeof translations !== 'undefined' && translations[currentLocale]?.allThemes) || 'All Themes';
+            themeSelect.innerHTML = `<option value="all">${allThemesText}</option>`;
+            
+            themes.forEach(theme => {
                 const opt = document.createElement("option");
-                opt.value = themePath;
-                opt.textContent = displayName;
+                opt.value = theme.value;
+                opt.textContent = theme.displayName;
                 themeSelect.appendChild(opt);
             });
             loadDictionary();
-          })
-          .catch(err => { console.error("Error loading themes:", err); showMessage("Could not load themes.", 'error'); dictionaryDiv.innerHTML = "<p class='dictionary-message'>Error loading themes.</p>"; });
+        } catch(err) {
+            console.error('Error loading themes:', err);
+            showMessage('Could not load themes.', 'error');
+            dictionaryDiv.innerHTML = "<p class='dictionary-message'>Error loading themes.</p>";
+        }
       }
 
       async function loadDictionary() {
@@ -1311,29 +1351,40 @@
 
         if (theme === 'all') {
             if (!query) {
-                dictionaryDiv.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
-                allImages = [];
-                return;
-            }
-            dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-            try {
-                const res = await fetch(`/api/images?search=${encodeURIComponent(query)}`);
-                if (!res.ok) throw new Error(`Failed to search for "${query}"`);
-                imagesToRender = await res.json();
-                allImages = []; 
-            } catch (err) {
-                 showMessage(err.message, 'error');
-                 dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error during search.</p>`;
-                 allImages = []; return;
+                // Load default "animals" theme when "All Themes" is selected with no search
+                dictionaryDiv.innerHTML = `<p class='dictionary-message'>Loading default theme...</p>`;
+                try {
+                    const res = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                    if (!res.ok) throw new Error(`Failed to load default theme`);
+                    imagesToRender = await res.json();
+                    allImages = imagesToRender;
+                } catch (err) {
+                    console.error("Error loading default images:", err);
+                    allImages = [];
+                    return;
+                }
+            } else {
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+                try {
+                    const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                    if (!res.ok) throw new Error(`Failed to search for "${query}"`);
+                    imagesToRender = await res.json();
+                    allImages = [];
+                } catch (err) {
+                    showMessage(err.message, 'error');
+                    dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error during search.</p>`;
+                    allImages = []; 
+                    return;
+                }
             }
         } else {
             dictionaryDiv.innerHTML = `<p class='dictionary-message'>Loading images for theme...</p>`;
             try {
-                const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}`);
+                const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
                 if (!res.ok) throw new Error(`Failed to load images for theme`);
                 const themeImages = await res.json();
                 allImages = themeImages;
-                imagesToRender = query ? themeImages.filter(img => img.word.toLowerCase().includes(query)) : themeImages;
+                imagesToRender = query ? themeImages.filter(img => (img.name || img.word).toLowerCase().includes(query)) : themeImages;
             } catch (err) {
                 dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error loading images.</p>`;
                 allImages = []; return;
@@ -1346,13 +1397,14 @@
             return;
         }
 
-        imagesToRender.sort((a, b) => a.word.localeCompare(b.word)).forEach(img => {
+        imagesToRender.sort((a, b) => (a.name || a.word).localeCompare(b.name || b.word)).forEach(img => {
             const item = document.createElement("div");
             item.className = "dictionary-item";
             const isSelected = selectedImages.some(selImg => selImg.path === img.path);
             if (isSelected) item.classList.add('selected');
             
-            item.innerHTML = `<img src="${img.path}" alt="${img.word}" loading="lazy"/><span>${img.word}</span>`;
+            const displayName = img.name || img.word;
+            item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
             item.onclick = () => toggleImageSelection(img);
             dictionaryDiv.appendChild(item);
         });
@@ -1369,7 +1421,8 @@
             item.className = "dictionary-item";
             const isSelected = selectedImages.some(selImg => selImg.path === img.path);
             if (isSelected) item.classList.add('selected');
-            item.innerHTML = `<img src="${img.path}" alt="${img.word}" loading="lazy"/><span>${img.word}</span>`;
+            const displayName = img.name || img.word;
+            item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
             item.onclick = () => toggleImageSelection(img);
             uploadedImagesPreviewDiv.appendChild(item);
         });
@@ -1439,7 +1492,7 @@
         closeAllPopovers();
         
         searchInput.value = ""; themeSelect.value = "all";
-        pageSizeSelect.value = "792x612"; // Reset to landscape
+        pageSizeSelect.value = "612x792"; // Reset to landscape
         customPageSizeInputsDiv.style.display = 'none';
         updateCanvasDisplayDimensions(792, 612, true); // Reset to landscape
         handleSelectionCleared(null, worksheetCanvas);
@@ -2010,19 +2063,23 @@ async function downloadPDF(canvasToExport, fileName) {
     }
 
     // --- Border & Background Logic ---
-    function loadAssetThemes(assetType, selectElement) {
-        fetch(`/api/${assetType}/themes`)
-            .then(res => res.ok ? res.json() : Promise.reject(`Failed to load ${assetType} themes`))
-            .then(themes => {
-                selectElement.innerHTML = '<option value="none">None</option>';
-                themes.forEach(theme => {
-                    const opt = document.createElement("option");
-                    opt.value = theme;
-                    opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                    selectElement.appendChild(opt);
-                });
-            })
-            .catch(err => { console.error(`Error loading ${assetType} themes:`, err); showMessage(`Could not load ${assetType} themes.`, 'error'); });
+    async function loadAssetThemes(assetType, selectElement) {
+        try {
+            const res = await fetch(`/api/themes-translated?locale=${currentLocale}`);
+            if (!res.ok) throw new Error(`Failed to load ${assetType} themes`);
+            const themes = await res.json();
+            
+            selectElement.innerHTML = '<option value="none">None</option>';
+            themes.forEach(theme => {
+                const opt = document.createElement("option");
+                opt.value = theme.value;
+                opt.textContent = theme.displayName;
+                selectElement.appendChild(opt);
+            });
+        } catch(err) {
+            console.error(`Error loading ${assetType} themes:`, err);
+            showMessage(`Could not load ${assetType} themes.`, 'error');
+        }
     }
 
     function loadAssetImages(assetType, theme, dictionaryElement, clickHandler) {
@@ -2032,15 +2089,16 @@ async function downloadPDF(canvasToExport, fileName) {
             return;
         }
         dictionaryElement.innerHTML = `<p class="dictionary-message">Loading ${theme} ${assetType}...</p>`;
-        fetch(`/api/${assetType}/images?theme=${theme}`)
+        fetch(`/api/images?theme=${theme}&locale=${currentLocale}`)
             .then(res => res.ok ? res.json() : Promise.reject(`Failed to load images for ${assetType} theme`))
             .then(images => {
                 dictionaryElement.innerHTML = "";
                 if (images.length === 0) { dictionaryElement.innerHTML = `<p class="dictionary-message">No ${assetType} in this theme.</p>`; return; }
                 images.forEach(image => {
+                    const displayName = image.name || image.word;
                     const item = document.createElement("div");
                     item.className = "border-thumbnail-item";
-                    item.innerHTML = `<img src="${image.path}" alt="${image.name}" loading="lazy" />`;
+                    item.innerHTML = `<img src="${image.path}" alt="${displayName}" loading="lazy" />`;
                     item.onclick = () => {
                         clickHandler(image.path);
                         document.querySelectorAll(`#${dictionaryElement.id} .border-thumbnail-item.selected`).forEach(el => el.classList.remove('selected'));
@@ -2213,6 +2271,29 @@ async function downloadPDF(canvasToExport, fileName) {
       worksheetCanvas = initializeCanvas(worksheetCanvasElement);
       answerKeyCanvas = initializeCanvas(answerKeyCanvasElement);
       updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height, true);
+      
+      // Initialize language from URL if provided
+      const urlParams = new URLSearchParams(window.location.search);
+      const localeParam = urlParams.get('locale');
+      if (localeParam && languageSelect) {
+          languageSelect.value = localeParam;
+          currentLocale = localeParam;
+      } else if (languageSelect && languageSelect.value) {
+          currentLocale = languageSelect.value;
+      }
+      
+      // Language change handler - reload page with new locale
+      if (languageSelect) {
+          languageSelect.addEventListener('change', function(e) {
+              const newLocale = e.target.value;
+              const url = new URL(window.location.href);
+              url.searchParams.set('locale', newLocale);
+              window.location.href = url.toString();
+          });
+      }
+      
+      // Note: Addition app doesn't call applyTranslations, so we don't either
+      // The translations.js script handles everything automatically
       
       clearAll(); // Set initial default state
       setupEventListeners();

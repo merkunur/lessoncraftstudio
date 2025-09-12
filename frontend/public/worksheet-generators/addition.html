@@ -793,10 +793,10 @@
             <div class="accordion-content active">
                 <label for="pageSizeSelect">Page Size:</label>
                 <select id="pageSizeSelect">
-                    <option value="612x792">Letter Portrait (612x792)</option>
-                    <option value="792x612">Letter Landscape (792x612)</option>
-                    <option value="595x842">A4 Portrait (595x842)</option>
-                    <option value="842x595">A4 Landscape (842x595)</option>
+                    <option value="612x792">Letter Portrait (8.5×11")</option>
+                    <option value="792x612">Letter Landscape (11×8.5")</option>
+                    <option value="595x842">A4 Portrait (210×297mm)</option>
+                    <option value="842x595">A4 Landscape (297×210mm)</option>
                     <option value="1200x1200">Square (1200x1200)</option>
                     <option value="custom">Custom</option>
                 </select>
@@ -1695,7 +1695,10 @@
                 const themeImages = await res.json();
                 allImages = themeImages; // Store for generator
                 // Filter based on query
-                imagesToRender = query ? themeImages.filter(img => img.word.toLowerCase().includes(query)) : themeImages;
+                imagesToRender = query ? themeImages.filter(img => {
+                    const displayName = img.name || img.word;
+                    return displayName.toLowerCase().includes(query);
+                }) : themeImages;
             } catch (err) {
                 console.error("Error loading dictionary:", err);
                 dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error loading images.</p>`;
@@ -1714,7 +1717,11 @@
         // Create a document fragment for better performance
         const fragment = document.createDocumentFragment();
         
-        imagesToRender.sort((a, b) => a.word.localeCompare(b.word)).forEach((img, index) => {
+        imagesToRender.sort((a, b) => {
+            const aName = a.name || a.word;
+            const bName = b.name || b.word;
+            return aName.localeCompare(bName);
+        }).forEach((img, index) => {
             const item = document.createElement("div");
             item.className = "dictionary-item";
             const isSelected = selectedImages.some(selImg => selImg.path === img.path);
@@ -1730,14 +1737,15 @@
                 imgElement.classList.add('lazy-image');
             }
             
-            imgElement.alt = img.word;
+            const displayName = img.name || img.word;
+            imgElement.alt = displayName;
             imgElement.loading = "lazy";
             imgElement.style.width = "60px";
             imgElement.style.height = "60px";
             imgElement.style.objectFit = "contain";
             
             const span = document.createElement("span");
-            span.textContent = img.word;
+            span.textContent = displayName;
             
             item.appendChild(imgElement);
             item.appendChild(span);
@@ -1763,7 +1771,8 @@
             const isSelected = selectedImages.some(selImg => selImg.path === img.path);
             if (isSelected) item.classList.add('selected');
 
-            item.innerHTML = `<img src="${img.path}" alt="${img.word}" loading="lazy"/><span>${img.word}</span>`;
+            const displayName = img.name || img.word;
+            item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
             item.onclick = () => toggleImageSelection(img);
             uploadedImagesPreviewDiv.appendChild(item);
         });

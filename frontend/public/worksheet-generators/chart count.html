@@ -6,7 +6,7 @@
   <title>Picture Graph Playground</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="/js/translations.js"></script>
+  <script src="js/translations.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
   <style>
@@ -477,10 +477,10 @@
           </div>
           <label for="pageSizeSelect">Page Size:</label>
           <select id="pageSizeSelect">
-              <option value="612x792" selected>Letter Portrait (612×792)</option>
-              <option value="792x612">Letter Landscape (792×612)</option>
-              <option value="595x842">A4 Portrait (595×842)</option>
-              <option value="842x595">A4 Landscape (842×595)</option>
+              <option value="612x792" selected>Letter Portrait (8.5×11")</option>
+              <option value="792x612">Letter Landscape (11×8.5")</option>
+              <option value="595x842">A4 Portrait (210×297mm)</option>
+              <option value="842x595">A4 Landscape (297×210mm)</option>
               <option value="1200x1200">Square (1200×1200)</option>
               <option value="custom">Custom</option>
           </select>
@@ -1138,7 +1138,8 @@ document.addEventListener('DOMContentLoaded', () => {
         selectedImages.forEach(img => {
             const item = document.createElement("div");
             item.className = 'selected-preview-item';
-            item.innerHTML = `<img src="${img.path}" alt="${img.word}" title="Click to remove"/>`;
+            const displayName = img.name || img.word;
+            item.innerHTML = `<img src="${img.path}" alt="${displayName}" title="Click to remove"/>`;
             item.onclick = () => toggleImageSelection(img);
             selectedImagesPreviewDiv.appendChild(item);
         });
@@ -1596,22 +1597,30 @@ document.addEventListener('DOMContentLoaded', () => {
     function generateIconSetFromSource(sourceImagesForChart) {
       if (!sourceImagesForChart || sourceImagesForChart.length !== 6) return null;
       const counts = {};
-      sourceImagesForChart.forEach(img => { counts[img.word] = 0; });
+      sourceImagesForChart.forEach(img => { 
+          const displayName = img.name || img.word;
+          counts[displayName] = 0; 
+      });
       let icons = [];
       let attempts = 0; const maxPerType = 5;
       while (icons.length < 20 && attempts < 500) {
         const pick = sourceImagesForChart[Math.floor(Math.random() * sourceImagesForChart.length)];
-        if (counts[pick.word] < maxPerType) {
+        const pickName = pick.name || pick.word;
+        if (counts[pickName] < maxPerType) {
             icons.push(pick);
-            counts[pick.word]++;
+            counts[pickName]++;
         }
         attempts++;
       }
       const finalIcons = shuffleArray(icons);
       const finalCounts = {};
-      sourceImagesForChart.forEach(img => { finalCounts[img.word] = 0; });
+      sourceImagesForChart.forEach(img => { 
+          const displayName = img.name || img.word;
+          finalCounts[displayName] = 0; 
+      });
       finalIcons.forEach(iconInGrid => {
-        if (finalCounts.hasOwnProperty(iconInGrid.word)) { finalCounts[iconInGrid.word]++; }
+        const iconName = iconInGrid.name || iconInGrid.word;
+        if (finalCounts.hasOwnProperty(iconName)) { finalCounts[iconName]++; }
       });
       return { icons: finalIcons, counts: finalCounts, chartImages: sourceImagesForChart };
     }
@@ -1683,7 +1692,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     width: cellWidth, height: cellHeight,
                     fill: 'transparent', stroke: '#dce1e6', strokeWidth: 1
                 });
-                if (isSolution && counts[chartImages[col].word] >= (5 - row)) {
+                const colImageName = chartImages[col].name || chartImages[col].word;
+                if (isSolution && counts[colImageName] >= (5 - row)) {
                     rect.set('fill', '#FFC857');
                 }
                 chartElements.push(rect);

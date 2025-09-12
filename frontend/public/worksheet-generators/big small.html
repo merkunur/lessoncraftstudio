@@ -707,10 +707,10 @@
         <div class="page-size-selector">
           <label data-translate-key="pageSize" style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Page Size:</label>
           <select id="pageSizeSelect" style="width: 100%; padding: 6px; background: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); border: 1px solid var(--app-border-dark); border-radius: 5px; font-size: 13px;">
-            <option value="612x792">Letter Portrait (612×792)</option>
-            <option value="792x612">Letter Landscape (792×612)</option>
-            <option value="595x842">A4 Portrait (595×842)</option>
-            <option value="842x595">A4 Landscape (842×595)</option>
+            <option value="612x792">Letter Portrait (8.5×11")</option>
+            <option value="792x612">Letter Landscape (11×8.5")</option>
+            <option value="595x842">A4 Portrait (210×297mm)</option>
+            <option value="842x595">A4 Landscape (297×210mm)</option>
             <option value="1200x1200">Square (1200×1200)</option>
             <option value="custom">Custom</option>
           </select>
@@ -729,10 +729,10 @@
                 <label for="pageSizeSelect">Page Size:</label>
                 <select id="pageSizeSelect">
                     <option value="800x1000">Default Worksheet (800x1000)</option>
-                    <option value="595x842">A4 Portrait (595x842)</option>
-                    <option value="842x595">A4 Landscape (842x595)</option>
-                    <option value="612x792" selected>Letter Portrait (612x792)</option>
-                    <option value="792x612">Letter Landscape (792x612)</option>
+                    <option value="595x842">A4 Portrait (210×297mm)</option>
+                    <option value="842x595">A4 Landscape (297×210mm)</option>
+                    <option value="612x792" selected>Letter Portrait (8.5×11")</option>
+                    <option value="792x612">Letter Landscape (11×8.5")</option>
                     <option value="custom">Custom</option>
                 </select>
                 <div id="customPageSizeInputs" style="display:none;">
@@ -1313,7 +1313,8 @@
             const item = document.createElement("div");
             item.className = "dictionary-item";
             if (selectedImages.some(selImg => selImg.path === img.path)) item.classList.add('selected');
-            item.innerHTML = `<img src="${img.path}" alt="${img.word}" loading="lazy"/><span>${img.word}</span>`;
+            const displayName = img.name || img.word;
+            item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
             item.onclick = (e) => toggleImageSelection(img, e.currentTarget);
             uploadedImagesPreviewDiv.appendChild(item);
         });
@@ -1336,7 +1337,8 @@
         selectedImages.forEach(img => { 
             const imgEl = document.createElement("img"); 
             imgEl.src = img.path; 
-            imgEl.alt = img.word; 
+            const displayName = img.name || img.word;
+            imgEl.alt = displayName; 
             imgEl.onclick = () => {
                 const index = selectedImages.findIndex(i => i.path === img.path);
                 if (index > -1) selectedImages.splice(index, 1);

@@ -7,7 +7,7 @@
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="/js/translations.js"></script>
+  <script src="js/translations.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
@@ -545,11 +545,10 @@
             <div class="accordion-content active">
                 <label for="pageSizeSelect">Page Size:</label>
                 <select id="pageSizeSelect">
-                    <option value="612x792" selected>Letter Portrait (612x792)</option>
-                    <option value="792x612">Letter Landscape (792x612)</option>
-                    <option value="595x842">A4 Portrait (595x842)</option>
-                    <option value="842x595">A4 Landscape (842x595)</option>
-                    <option value="816x1056">Default (816x1056)</option>
+                    <option value="612x792" selected>Letter Portrait (8.5×11")</option>
+                    <option value="792x612">Letter Landscape (11×8.5")</option>
+                    <option value="595x842">A4 Portrait (210×297mm)</option>
+                    <option value="842x595">A4 Landscape (297×210mm)</option>
                     <option value="1200x1200">Square (1200x1200)</option>
                     <option value="custom">Custom</option>
                 </select>
@@ -937,7 +936,10 @@
                 }
             } else {
                 const source = currentThemeImages;
-                imagesToDisplay = query ? source.filter(img => img.word.toLowerCase().includes(query)) : source;
+                imagesToDisplay = query ? source.filter(img => {
+                    const displayName = (img.name || img.word).toLowerCase();
+                    return displayName.includes(query);
+                }) : source;
             }
 
             if (imagesToDisplay.length === 0) {
@@ -2284,7 +2286,8 @@ async function downloadPDF(canvasInstance, baseFileName) {
                 borderImages.forEach(imgData => {
                     const item = document.createElement('div');
                     item.className = 'thumbnail-item';
-                    item.innerHTML = `<div class="thumbnail-image-container"><img src="${imgData.path}" alt="${imgData.name}" /></div><span class="thumbnail-label">${imgData.name}</span>`;
+                    const displayName = imgData.name || imgData.word;
+                    item.innerHTML = `<div class="thumbnail-image-container"><img src="${imgData.path}" alt="${displayName}" /></div><span class="thumbnail-label">${displayName}</span>`;
                     
                     item.onclick = () => {
                         const currentActiveCanvas = getActiveCanvas();
@@ -2374,7 +2377,8 @@ async function downloadPDF(canvasInstance, baseFileName) {
                 bgImages.forEach(imgData => {
                     const item = document.createElement('div');
                     item.className = 'thumbnail-item';
-                    item.innerHTML = `<div class="thumbnail-image-container"><img src="${imgData.path}" alt="${imgData.name}" /></div><span class="thumbnail-label">${imgData.name}</span>`;
+                    const displayName = imgData.name || imgData.word;
+                    item.innerHTML = `<div class="thumbnail-image-container"><img src="${imgData.path}" alt="${displayName}" /></div><span class="thumbnail-label">${displayName}</span>`;
                     item.onclick = () => {
                         document.querySelectorAll('#backgroundThumbnailGallery .thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                         item.classList.add('selected');

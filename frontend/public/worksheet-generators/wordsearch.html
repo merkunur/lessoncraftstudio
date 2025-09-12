@@ -657,10 +657,10 @@
                         <h4>Page Setup</h4>
                         <label for="pageSizeSelect">Page Size:</label>
                         <select id="pageSizeSelect">
-                            <option value="612x792">Letter Portrait (612x792)</option>
-                            <option value="792x612">Letter Landscape (792x612)</option>
-                            <option value="595x842">A4 Portrait (595x842)</option>
-                            <option value="842x595">A4 Landscape (842x595)</option>
+                            <option value="612x792">Letter Portrait (8.5×11")</option>
+                            <option value="792x612">Letter Landscape (11×8.5")</option>
+                            <option value="595x842">A4 Portrait (210×297mm)</option>
+                            <option value="842x595">A4 Landscape (297×210mm)</option>
                             <option value="custom">Custom</option>
                         </select>
                         <div id="customPageSizeInputs" style="display:none;">
@@ -1944,19 +1944,28 @@ document.addEventListener("DOMContentLoaded", function() {
     
     async function loadThemes() {
         try {
+            // Get elements fresh each time to ensure they exist
+            const worksheetThemeSelectEl = document.getElementById('worksheetThemeSelect');
+            const themeSelectEl = document.getElementById('themeSelect');
+            
+            if (!worksheetThemeSelectEl || !themeSelectEl) {
+                console.error('Theme select elements not found');
+                return;
+            }
+            
             // Use the filesystem API directly (faster and more reliable)
             const response = await fetch(`/api/themes-translated?locale=${currentLocale}`);
             if (!response.ok) throw new Error('Failed to load themes');
             const themeData = await response.json();
 
             const allThemesOption = `<option value="all">All Themes (Randomly)</option>`;
-            worksheetThemeSelect.innerHTML = `<option value="random_auto">-- Use Random Theme --</option>` + allThemesOption;
-            themeSelect.innerHTML = `<option value="all">All Themes (for search)</option>`;
+            worksheetThemeSelectEl.innerHTML = `<option value="random_auto">-- Use Random Theme --</option>` + allThemesOption;
+            themeSelectEl.innerHTML = `<option value="all">All Themes (for search)</option>`;
 
             themeData.forEach(theme => {
                 const optionHtml = `<option value="${theme.value}">${theme.displayName}</option>`;
-                themeSelect.innerHTML += optionHtml;
-                worksheetThemeSelect.innerHTML += optionHtml;
+                themeSelectEl.innerHTML += optionHtml;
+                worksheetThemeSelectEl.innerHTML += optionHtml;
             });
 
             // Don't load anything here - renderDictionary will be called separately

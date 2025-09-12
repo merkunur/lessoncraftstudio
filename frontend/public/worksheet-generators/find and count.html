@@ -496,10 +496,16 @@
             background-color: var(--app-surface-light);
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
             border-radius: 8px;
-            overflow: auto;
+            overflow: visible; /* Fixed from auto to prevent clipping */
             margin: auto;
         }
         canvas { display: block; }
+        
+        /* Ensure Fabric.js container doesn't clip content */
+        .canvas-container { 
+            overflow: visible !important;
+            position: relative !important;
+        }
         #exportArea { position: absolute; left: -9999px; top: 0; }
 
         /* Responsive */
@@ -684,10 +690,10 @@
                         <label for="pageSizeSelect">Page Size:</label>
                         <select id="pageSizeSelect">
                             <option value="800x1000">Default Worksheet (800x1000)</option>
-                            <option value="595x842">A4 Portrait (595x842)</option>
-                            <option value="842x595">A4 Landscape (842x595)</option>
-                            <option value="612x792" selected>Letter Portrait (612x792)</option>
-                            <option value="792x612">Letter Landscape (792x612)</option>
+                            <option value="595x842">A4 Portrait (210×297mm)</option>
+                            <option value="842x595">A4 Landscape (297×210mm)</option>
+                            <option value="612x792" selected>Letter Portrait (8.5×11")</option>
+                            <option value="792x612">Letter Landscape (11×8.5")</option>
                             <option value="1200x1200">Square (1200x1200)</option>
                             <option value="custom">Custom</option>
                         </select>
@@ -1735,9 +1741,9 @@ document.addEventListener("DOMContentLoaded", function() {
         // Use the actual canvas dimensions, not the zoomed display dimensions
         const canvasWidth = currentCanvasConfig.width;
         const canvasHeight = currentCanvasConfig.height;
-        const topMargin = 100; // Increased for title/instructions with better spacing
-        const sideMargin = 40; // Consistent side margins
-        const bottomMargin = 40; // Bottom margin for layout
+        const topMargin = 120; // Space for title and instructions
+        const sideMargin = 60; // Increased side margins for professional look
+        const bottomMargin = 50; // Bottom margin for layout
         const contentWidth = canvasWidth - (sideMargin * 2);
         
         const gridRows = rows;
@@ -1837,8 +1843,8 @@ document.addEventListener("DOMContentLoaded", function() {
             return langInstructions[type] || '';
         };
         
-        // Add title
-        const title = new fabric.Text(getTranslatedTitle(), {
+        // Add title as editable textbox
+        const title = new fabric.Textbox(getTranslatedTitle(), {
             left: canvasWidth / 2,
             top: 25,
             fontSize: 28,
@@ -1846,8 +1852,12 @@ document.addEventListener("DOMContentLoaded", function() {
             fontWeight: 'bold',
             fill: '#333',
             originX: 'center',
+            textAlign: 'center',
+            width: contentWidth - 20,  // Constrain to content width
+            splitByGrapheme: true,  // Better text wrapping if needed
             selectable: true,  // Make editable
             evented: true,
+            editable: true,  // Explicitly enable editing
             [itemTag]: true,
             originalIndex: 'title'
         });
@@ -1885,23 +1895,28 @@ document.addEventListener("DOMContentLoaded", function() {
                                   currentLocale === 'fi' ? 'Etsi piilotetut esineet alla olevasta kuvasta:' :
                                   'Find the hidden objects in the picture below:';
         
-        // Add instructions
-        const instructions = new fabric.Text(instructionText || defaultInstruction, {
+        // Add instructions with text wrapping to stay within margins
+        const maxTextWidth = contentWidth - 20; // Ensure padding within content area
+        const instructions = new fabric.Textbox(instructionText || defaultInstruction, {
             left: canvasWidth / 2,
-            top: 55,
+            top: 65,
             fontSize: 16,
             fontFamily: 'Arial',
             fill: '#555',
             originX: 'center',
+            textAlign: 'center',
+            width: maxTextWidth,
+            splitByGrapheme: true, // Better text wrapping
             selectable: true,  // Make editable
             evented: true,
+            editable: true,  // Explicitly enable editing
             [itemTag]: true,
             originalIndex: 'instructions'
         });
         canvas.add(instructions);
         
         const legendNeeded = isAnswerKey || (questions && questions.length > 0);
-        const legendAreaHeight = legendNeeded ? 120 : 0;
+        const legendAreaHeight = legendNeeded ? 160 : 0;  // Space allocated for legend
 
         const availableGridHeight = canvasHeight - topMargin - bottomMargin - legendAreaHeight;
         const gridContentWidth = contentWidth;
@@ -1990,49 +2005,155 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         if (legendNeeded) {
-            const itemHeight = 50;
+            // Simple, clean design parameters
+            const imageHeight = 50;  // Compact but clear
+            
             const legendItemPromises = questions.map(q => {
                 return new Promise(resolve => {
                     fabric.Image.fromURL(q.path, img => {
-                        img.scaleToHeight(itemHeight);
-                        let textContent;
+                        // Scale image to consistent height
+                        img.scaleToHeight(imageHeight);
+                        
+                        // Determine count for answer key
+                        let countValue = '';
                         if(isAnswerKey) {
                             const count = gridData.flat().filter(cell => cell && cell.word.toLowerCase() === q.word.toLowerCase()).length;
-                            textContent = 'x ' + count;
-                        } else {
-                            textContent = 'x ____';
+                            countValue = count.toString();
                         }
-                        const text = new fabric.Text(textContent, {
-                            left: img.getScaledWidth() + 10, top: (itemHeight - 28) / 2,
-                            fontSize: 28, fontFamily: 'Fredoka', fill: '#333'
+                        
+                        // Simple equals sign
+                        const equalsText = new fabric.Text('=', {
+                            fontSize: 24,
+                            fontFamily: 'Arial, sans-serif',
+                            fill: '#666666'
                         });
-                        resolve(new fabric.Group([img, text], { selectable: false, evented: false }));
+                        
+                        // Count or blank line
+                        const countDisplay = isAnswerKey ? 
+                            new fabric.Text(countValue, {
+                                fontSize: 28,
+                                fontFamily: 'Arial, sans-serif',
+                                fontWeight: 'bold',
+                                fill: '#2c3e50'
+                            }) :
+                            new fabric.Line([0, 0, 40, 0], {
+                                stroke: '#999999',
+                                strokeWidth: 2
+                            });
+                        
+                        // Position elements in a simple row
+                        img.set({ 
+                            left: 0, 
+                            top: 0
+                        });
+                        
+                        equalsText.set({
+                            left: img.getScaledWidth() + 15,
+                            top: (imageHeight - 24) / 2
+                        });
+                        
+                        if (isAnswerKey) {
+                            countDisplay.set({
+                                left: img.getScaledWidth() + 50,
+                                top: (imageHeight - 28) / 2
+                            });
+                        } else {
+                            countDisplay.set({
+                                left: img.getScaledWidth() + 50,
+                                top: imageHeight / 2
+                            });
+                        }
+                        
+                        // Create simple group
+                        const group = new fabric.Group([img, equalsText, countDisplay], { 
+                            selectable: false, 
+                            evented: false
+                        });
+                        
+                        resolve(group);
                     }, { crossOrigin: 'anonymous' });
                 });
             });
             const legendItems = (await Promise.all(legendItemPromises)).filter(item => item !== null);
             
             if (legendItems.length > 0) {
-                const itemPadding = 25; const boxPadding = 30;
-                const totalItemsWidth = legendItems.reduce((sum, item) => sum + item.width, 0);
-                const totalSpacing = (legendItems.length - 1) * itemPadding;
-                const legendBoxWidth = totalItemsWidth + totalSpacing + (boxPadding * 2);
-                const legendBoxHeight = itemHeight + (boxPadding * 2);
+                // Clean, minimal spacing
+                const horizontalPadding = 30;
+                const verticalPadding = 20;
+                const itemSpacing = 50;  // Clear separation
                 
-                const legendBox = new fabric.Rect({
-                    width: legendBoxWidth, height: legendBoxHeight, fill: '#f8f9fa', rx: 15, ry: 15,
-                    stroke: '#e9ecef', strokeWidth: 2, shadow: 'rgba(0,0,0,0.08) 0px 4px 12px',
-                    selectable: false, evented: false
+                // Calculate actual dimensions based on items
+                const itemHeight = Math.max(...legendItems.map(item => item.height));
+                const totalItemsWidth = legendItems.reduce((sum, item) => sum + item.width, 0);
+                const totalSpacing = (legendItems.length - 1) * itemSpacing;
+                let legendBoxWidth = totalItemsWidth + totalSpacing + (horizontalPadding * 2);
+                let legendBoxHeight = itemHeight + (verticalPadding * 2);
+                
+                // Constrain legend width to content width
+                const maxLegendWidth = contentWidth - 20; // Small margin from edges
+                let scaleFactor = 1;
+                
+                if (legendBoxWidth > maxLegendWidth) {
+                    // Calculate scale factor to fit within max width
+                    const availableWidth = maxLegendWidth - (horizontalPadding * 2);
+                    const neededWidth = totalItemsWidth + totalSpacing;
+                    scaleFactor = availableWidth / neededWidth;
+                    
+                    // Apply uniform scaling to maintain proportions
+                    legendItems.forEach(item => {
+                        item.scale(scaleFactor);
+                    });
+                    
+                    // Update box dimensions after scaling
+                    legendBoxWidth = maxLegendWidth;
+                    // Recalculate height based on scaled items
+                    const scaledItemHeight = Math.max(...legendItems.map(item => item.getScaledHeight()));
+                    legendBoxHeight = scaledItemHeight + (verticalPadding * 2);
+                }
+                
+                // Simple, clean container
+                const legendBackground = new fabric.Rect({
+                    width: legendBoxWidth, 
+                    height: legendBoxHeight, 
+                    fill: '#f9f9f9',
+                    stroke: '#cccccc', 
+                    strokeWidth: 1,
+                    rx: 6, 
+                    ry: 6,
+                    selectable: false, 
+                    evented: false
                 });
                 
-                let currentX = boxPadding;
-                const itemY = (legendBoxHeight - itemHeight) / 2;
-                legendItems.forEach(item => { item.set({ left: currentX, top: itemY }); currentX += item.width + itemPadding; });
+                // Properly center and position items within the legend
+                const scaledItemsWidth = legendItems.reduce((sum, item) => sum + item.getScaledWidth(), 0);
                 
-                const legendGroup = new fabric.Group([legendBox, ...legendItems], {
+                // Calculate spacing to distribute items evenly
+                const totalAvailableWidth = legendBoxWidth - (horizontalPadding * 2);
+                const spaceBetweenItems = legendItems.length > 1 ? 
+                    (totalAvailableWidth - scaledItemsWidth) / (legendItems.length - 1) : 0;
+                
+                // Center the entire group if only one item
+                const startX = legendItems.length === 1 ? 
+                    (legendBoxWidth - scaledItemsWidth) / 2 : horizontalPadding;
+                
+                // Position items centered vertically and distributed horizontally
+                let currentX = startX;
+                legendItems.forEach((item, index) => {
+                    // Center each item vertically in the container
+                    const itemHeight = item.getScaledHeight();
+                    const verticalCenter = (legendBoxHeight - itemHeight) / 2;
+                    
+                    item.set({ 
+                        left: currentX,
+                        top: verticalCenter
+                    }); 
+                    currentX += item.getScaledWidth() + (index < legendItems.length - 1 ? spaceBetweenItems : 0);
+                });
+                
+                const legendGroup = new fabric.Group([legendBackground, ...legendItems], {
                     ...groupOptions,
                     left: (canvasWidth - legendBoxWidth) / 2,
-                    top: canvasHeight - legendBoxHeight - bottomMargin,
+                    top: canvasHeight - legendBoxHeight - 60,  // Professional 60px bottom margin
                     [itemTag]: true, originalIndex: 'legend'
                 });
                 canvas.add(legendGroup);

@@ -5,7 +5,7 @@
   <title>Grid-Match Puzzle Worksheet Generator</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="/js/translations.js"></script>
+  <script src="js/translations.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
@@ -125,15 +125,15 @@
     .accordion-button.active::after {
         transform: rotate(-180deg);
     }
-    .accordion-content {
+    .accordion-wrapper {
         padding: 10px 10px 20px 10px;
         display: none;
         background-color: transparent;
     }
-    .accordion-content.active {
+    .accordion-button.active + .accordion-wrapper {
         display: block;
     }
-     .accordion-content h4 {
+     .accordion-wrapper h4 {
         font-size: 13px;
         color: var(--app-text-secondary-dark-theme);
         margin-top: 15px;
@@ -142,21 +142,21 @@
         padding-bottom: 6px;
         font-weight: 500;
     }
-     .accordion-content h4:first-child {
+     .accordion-wrapper h4:first-child {
         margin-top: 0;
      }
 
-    .accordion-content label {
+    .accordion-wrapper label {
         display: block;
         font-size: 13px;
         font-weight: 400;
         color: var(--app-text-secondary-dark-theme);
         margin-bottom: 6px;
     }
-    .accordion-content input[type="text"],
-    .accordion-content input[type="number"],
-    .accordion-content textarea,
-    .accordion-content select {
+    .accordion-wrapper input[type="text"],
+    .accordion-wrapper input[type="number"],
+    .accordion-wrapper textarea,
+    .accordion-wrapper select {
         width: 100%;
         padding: 8px 10px;
         font-size: 13px;
@@ -167,13 +167,13 @@
         box-sizing: border-box;
         margin-bottom: 12px;
     }
-     .accordion-content input[type="color"] {
+     .accordion-wrapper input[type="color"] {
          width: 100%; padding: 2px; height: 38px; margin-bottom: 12px; border-radius: 5px; border-color: var(--app-border-dark);
     }
-    .accordion-content input[type="range"] { width:100%; padding: 0; margin-bottom: 12px;}
+    .accordion-wrapper input[type="range"] { width:100%; padding: 0; margin-bottom: 12px;}
 
     /* START: Custom Image Upload Styles */
-     .accordion-content input[type="file"] {
+     .accordion-wrapper input[type="file"] {
       color: var(--app-text-secondary-dark-theme);
       background-color: var(--app-surface-dark);
       border: 1px solid var(--app-border-dark);
@@ -183,7 +183,7 @@
       margin-bottom: 12px;
       width: 100%;
     }
-     .accordion-content input[type="file"]::file-selector-button {
+     .accordion-wrapper input[type="file"]::file-selector-button {
         margin-right: 10px;
         border: 1px solid var(--app-border-dark);
         background: var(--app-bg-dark);
@@ -195,7 +195,7 @@
     /* END: Custom Image Upload Styles */
 
     /* Buttons within accordion (sidebar) */
-    .accordion-content button {
+    .accordion-wrapper button {
         background-color: var(--app-surface-dark);
         color: var(--app-text-primary-dark-theme);
         border: 1px solid var(--app-border-dark);
@@ -206,10 +206,10 @@
         border-radius: 5px;
         margin-bottom: 10px;
     }
-    .accordion-content button:hover {
+    .accordion-wrapper button:hover {
         background-color: #48484a;
     }
-     .accordion-content button:active { transform: scale(0.98); }
+     .accordion-wrapper button:active { transform: scale(0.98); }
 
     /* Image Library Styles */
     #dictionary, #selectedImagesPreview, #borderDictionary, #uploadedImagesPreview, #backgroundDictionary {
@@ -652,31 +652,38 @@
       </div>
       <div class="panel-content">
         <!-- Language Selector -->
-        <div class="control-group" style="padding: 10px 0; border-bottom: 1px solid var(--app-border-dark);">
-          <label data-translate="language">Language:</label>
-          <select id="languageSelect" style="width: 100%; padding: 5px;">
-            <option value="en">English</option>
-            <option value="de">Deutsch</option>
-            <option value="fr">Français</option>
-            <option value="es">Español</option>
-            <option value="pt">Português</option>
-            <option value="it">Italiano</option>
-            <option value="nl">Nederlands</option>
-            <option value="sv">Svenska</option>
-            <option value="da">Dansk</option>
-            <option value="no">Norsk</option>
-            <option value="fi">Suomi</option>
-          </select>
+        <div class="accordion-item">
+            <button class="accordion-button active" data-translate="mathPuzzle">Math Puzzle</button>
+            <div class="accordion-wrapper" style="display: block;">
+                <h4 data-translate="selectLanguage">Select Language</h4>
+                <label for="languageSelect" data-translate="language">Language:</label>
+                <select id="languageSelect">
+                    <option value="en">English</option>
+                    <option value="de">Deutsch (German)</option>
+                    <option value="fr">Français (French)</option>
+                    <option value="es">Español (Spanish)</option>
+                    <option value="pt">Português (Portuguese)</option>
+                    <option value="it">Italiano (Italian)</option>
+                    <option value="nl">Nederlands (Dutch)</option>
+                    <option value="sv">Svenska (Swedish)</option>
+                    <option value="da">Dansk (Danish)</option>
+                    <option value="no">Norsk (Norwegian)</option>
+                    <option value="fi">Suomi (Finnish)</option>
+                </select>
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;">
+                    Image names and themes will be displayed in the selected language.
+                </p>
+            </div>
         </div>
         <div class="accordion-item">
-            <button class="accordion-button active" data-translate="pageSettings">Page Setup</button>
-            <div class="accordion-content active">
+            <button class="accordion-button" data-translate="pageSettings">Page Setup</button>
+            <div class="accordion-wrapper">
                 <label for="pageSizeSelect" data-translate="pageSize">Page Size:</label>
                 <select id="pageSizeSelect">
-                    <option value="612x792">Letter Portrait (612x792)</option>
-                    <option value="792x612">Letter Landscape (792x612)</option>
-                    <option value="595x842">A4 Portrait (595x842)</option>
-                    <option value="842x595">A4 Landscape (842x595)</option>
+                    <option value="612x792">Letter Portrait (8.5×11")</option>
+                    <option value="792x612">Letter Landscape (11×8.5")</option>
+                    <option value="595x842">A4 Portrait (210×297mm)</option>
+                    <option value="842x595">A4 Landscape (297×210mm)</option>
                     <option value="800x1000">Default Worksheet (800x1000)</option>
                     <option value="1200x1200">Square (1200x1200)</option>
                 </select>
@@ -707,7 +714,7 @@
         
         <div class="accordion-item">
             <button class="accordion-button">Text Tools</button>
-            <div class="accordion-content">
+            <div class="accordion-wrapper">
                 <h4>Add New Text</h4>
                 <label for="textInput" data-translate="content">Content:</label><input type="text" id="textInput" placeholder="Hello!">
                 <button id="addTextBtn">Add Text</button>
@@ -731,7 +738,7 @@
 
         <div class="accordion-item">
             <button class="accordion-button">Puzzle Configuration</button>
-            <div class="accordion-content">
+            <div class="accordion-wrapper">
                 <label for="rowInput" data-translate="rowsRange">Rows (2–4):</label>
                 <input type="number" id="rowInput" min="2" max="4" value="3">
                 <label for="colInput" data-translate="columnsRange">Columns (2–4):</label>
@@ -747,7 +754,7 @@
         
         <div class="accordion-item">
             <button class="accordion-button">Image Library</button>
-            <div class="accordion-content">
+            <div class="accordion-wrapper">
                 <label for="themeSelect" data-translate="selectTheme">Select Theme:</label>
                 <select id="themeSelect"></select>
                 <label for="searchInput" data-translate="searchImages">Search Images:</label>
@@ -763,7 +770,7 @@
         
         <div class="accordion-item">
             <button class="accordion-button">Upload Custom Images</button>
-            <div class="accordion-content">
+            <div class="accordion-wrapper">
                 <label for="imageUploadInput" data-translate="selectImagesToUpload">Select image(s) to upload:</label>
                 <input type="file" id="imageUploadInput" multiple accept="image/*">
                 <label style="margin-top:10px;" data-translate="yourUploadedImages">Your Uploaded Images (This Session):</label>
@@ -1495,7 +1502,10 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         } else {
             const source = currentThemeImages;
-            imagesToDisplay = query ? source.filter(img => img.word.toLowerCase().includes(query)) : source;
+            imagesToDisplay = query ? source.filter(img => {
+                const displayName = (img.name || img.word).toLowerCase();
+                return displayName.includes(query);
+            }) : source;
         }
 
         if (imagesToDisplay.length === 0) {

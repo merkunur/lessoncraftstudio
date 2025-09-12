@@ -1518,11 +1518,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const availableWidth = width - PADDING * 2;
         const availableHeight = height - PADDING * 2;
         
-        // Professional grid layout that maximizes space usage
+        // Professional grid layout - FIXED: Maximum 2 columns for answer key
         const count = images.length;
         let cols, rows;
         
-        // Optimize layout for visual balance and space utilization
+        // Answer key always uses maximum 2 columns for better visibility
         if (count === 1) {
             cols = 1; rows = 1;
         } else if (count === 2) {
@@ -1536,16 +1536,9 @@ document.addEventListener('DOMContentLoaded', () => {
             cols = 2; rows = 2; // 2x2 grid with one empty space
         } else if (count === 4) {
             cols = 2; rows = 2;
-        } else if (count <= 6) {
-            cols = 3; rows = 2;
-        } else if (count <= 9) {
-            cols = 3; rows = 3;
-        } else if (count <= 12) {
-            cols = 4; rows = 3;
         } else {
-            // For larger counts, maintain aspect ratio
-            const aspectRatio = availableWidth / availableHeight;
-            cols = Math.ceil(Math.sqrt(count * aspectRatio));
+            // For any count > 4, use 2 columns maximum
+            cols = 2;
             rows = Math.ceil(count / cols);
         }
         
@@ -1558,12 +1551,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const cellH = (availableHeight - (rows - 1) * gap) / rows;
         
         // Use larger cells to fill space professionally
-        // Target 3x the worksheet size for clear visibility, but adapt to available space
+        // FIXED: Double the image size for answer key
         const worksheetSize = worksheetCutoutCellSize || 60;
-        const idealCellSize = worksheetSize * 3;
+        const idealCellSize = worksheetSize * 6;  // Doubled from 3x to 6x
         
-        // Allow cells to be as large as space permits, with a reasonable maximum
-        const maxCellSize = Math.min(150, availableWidth * 0.45, availableHeight * 0.45);
+        // Allow cells to be as large as space permits, with increased maximum
+        const maxCellSize = Math.min(300, availableWidth * 0.45, availableHeight * 0.45);  // Doubled from 150 to 300
         const cellSize = Math.min(cellW, cellH, Math.max(idealCellSize, cellW * 0.9, cellH * 0.9), maxCellSize);
         
         // Calculate actual grid size with optimized cells

@@ -1157,8 +1157,22 @@
           if (!activeObj) return;
 
           if (type.includes('Canvas')) {
-              if (type === 'centerHCanvas') activeObj.centerH();
-              if (type === 'centerVCanvas') activeObj.centerV();
+              // Use actual page dimensions, not zoomed viewport
+              const pageWidth = currentCanvasConfig.width;
+              const pageHeight = currentCanvasConfig.height;
+              
+              if (type === 'centerHCanvas') {
+                  // Center horizontally on the actual page
+                  const centerX = pageWidth / 2;
+                  activeObj.set('left', centerX);
+                  activeObj.set('originX', 'center');
+              }
+              if (type === 'centerVCanvas') {
+                  // Center vertically on the actual page
+                  const centerY = pageHeight / 2;
+                  activeObj.set('top', centerY);
+                  activeObj.set('originY', 'center');
+              }
           }
           else if (activeObj.type === 'activeSelection') {
               const group = activeObj;
@@ -1194,13 +1208,37 @@
           const mainContentAreaStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
           const availableWidth = parseFloat(mainContentAreaStyle.width) - parseFloat(mainContentAreaStyle.paddingLeft) - parseFloat(mainContentAreaStyle.paddingRight) - 10;
           const availableHeight = parseFloat(mainContentAreaStyle.height) - parseFloat(mainContentAreaStyle.paddingTop) - parseFloat(mainContentAreaStyle.paddingBottom) - 10;
-          const scaleRatio = Math.min(availableWidth / width, availableHeight / height, 1);
-          const displayWidth = width * scaleRatio;
-          const displayHeight = height * scaleRatio;
+          
+          // Apply 25% scaling for better visibility
+          // Extra 25% for landscape orientations
+          const isLandscape = width > height;
+          const baseScale = 1.25; // Base 25% larger for all
+          const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+          const displayScale = baseScale * landscapeBonus;
+          
+          // Calculate display dimensions with scaling
+          const scaledWidth = width * displayScale;
+          const scaledHeight = height * displayScale;
+          
+          // Ensure it fits in available space
+          const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+          const displayWidth = scaledWidth * scaleRatio;
+          const displayHeight = scaledHeight * scaleRatio;
 
           [worksheetCanvas, answerKeyCanvas].forEach(c => {
               if (c) {
-                  c.setWidth(width); c.setHeight(height); c.calcOffset(); c.renderAll();
+                  // Apply zoom for display scaling
+                  const finalZoom = (displayWidth / width);
+                  c.setZoom(finalZoom);
+                  
+                  // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+                  c.setDimensions({
+                      width: displayWidth,
+                      height: displayHeight
+                  });
+                  
+                  c.calcOffset();
+                  c.renderAll();
               }
           });
           [worksheetCanvasWrapper, answerKeyCanvasWrapper].forEach(w => {
@@ -1557,9 +1595,13 @@
         const oldTransforms = {};
         const userAddedObjects = [];
         const oldGeneratedItems = [];
+        
+        // Count old problems to detect if we're increasing the count
+        let oldProblemCount = 0;
 
         worksheetCanvas.getObjects().forEach(o => {
             if (o.isGeneratedItem && typeof o.originalIndex !== 'undefined') {
+                oldProblemCount++;
                 oldTransforms[o.originalIndex] = {
                     left: o.left, top: o.top,
                     scaleX: o.scaleX, scaleY: o.scaleY,
@@ -1572,24 +1614,66 @@
         });
 
         oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
+        
+        // Clear old transforms if we're increasing the problem count to avoid overlaps
+        const newProblemCount = problemsData.length;
+        if (newProblemCount > oldProblemCount) {
+            // When increasing exercises, use fresh layout to prevent overlaps
+            Object.keys(oldTransforms).forEach(key => delete oldTransforms[key]);
+        }
 
         worksheetCanvas.backgroundColor = pageColorInput.value || '#FFFFFF';
 
-        let currentY = 20;
+        // Professional margins based on page size
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const marginTop = Math.max(40, pageHeight * 0.05);
+        const marginBottom = Math.max(40, pageHeight * 0.05);
+        const marginLeft = Math.max(40, pageWidth * 0.06);
+        const marginRight = Math.max(40, pageWidth * 0.06);
+        
+        const contentWidth = pageWidth - marginLeft - marginRight;
+        const contentHeight = pageHeight - marginTop - marginBottom;
+
+        let currentY = marginTop;
         let nameDateGroup = worksheetCanvas.getObjects().find(o => o.isNameDateGroup);
         if (includeNameDateCheckbox.checked) {
             if (!nameDateGroup) {
                 const nameTextObj = new fabric.Textbox("Name: _________________________", { fontSize: 18, fontFamily: 'Arial', top: 0, left: 0 });
                 const dateTextObj = new fabric.Textbox("Date: ____________", { fontSize: 18, fontFamily: 'Arial', top: 0, left: nameTextObj.width + 30 });
-                nameDateGroup = new fabric.Group([nameTextObj, dateTextObj], { left: 30, top: currentY, selectable: true, hasControls: true, hasBorders: true, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 8, transparentCorners: false, cornerStyle: 'circle', isNameDateGroup: true });
+                nameDateGroup = new fabric.Group([nameTextObj, dateTextObj], { 
+                    left: marginLeft, 
+                    top: currentY, 
+                    selectable: true, 
+                    hasControls: true, 
+                    hasBorders: true, 
+                    borderColor: 'var(--app-accent-primary)', 
+                    cornerColor: 'var(--app-accent-primary)', 
+                    cornerSize: 8, 
+                    transparentCorners: false, 
+                    cornerStyle: 'circle', 
+                    isNameDateGroup: true 
+                });
                 worksheetCanvas.add(nameDateGroup);
+            } else {
+                nameDateGroup.set({ left: marginLeft, top: currentY });
             }
-            currentY += nameDateGroup.getBoundingRect(true).height + 30;
+            currentY += nameDateGroup.getBoundingRect(true).height + 20;
         } else {
             if(nameDateGroup) worksheetCanvas.remove(nameDateGroup);
         }
 
-        const imageSize = 40; const textFontSize = 20; const itemPadding = 5; const rowPadding = 30;
+        // Calculate optimal sizes based on available space and problem count
+        const problemCount = problemsData.length;
+        const availableHeight = contentHeight - (currentY - marginTop);
+        const estimatedRowHeight = availableHeight / problemCount;
+        
+        // Dynamic sizing based on available space
+        const baseImageSize = Math.min(40, estimatedRowHeight * 0.5);
+        const imageSize = Math.max(20, Math.min(60, baseImageSize));
+        const textFontSize = Math.max(14, Math.min(24, imageSize * 0.5));
+        const itemPadding = Math.max(3, Math.min(10, imageSize * 0.125));
+        const rowSpacing = Math.max(10, Math.min(30, (availableHeight - (problemCount * imageSize * 1.5)) / (problemCount + 1)));
         
         for (let i = 0; i < problemsData.length; i++) {
             const problem = problemsData[i];
@@ -1645,20 +1729,48 @@
             const answerLine = new fabric.Line([currentX, imageSize / 2 + textFontSize / 2 + 2, currentX + 50, imageSize / 2 + textFontSize / 2 + 2], { stroke: '#333', strokeWidth: 2, selectable: false, evented: false });
             allRowObjects.push(answerLine);
 
+            // Scale row to fit within content width if needed
             const rowGroup = new fabric.Group(allRowObjects, { 
-                left: rowPadding, top: currentY, 
-                selectable: true, hasControls: true, hasBorders: true,
-                borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
-                isGeneratedItem: true, originalIndex: i, objectCaching: false,
-                cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
+                left: marginLeft, 
+                top: currentY, 
+                selectable: true, 
+                hasControls: true, 
+                hasBorders: true,
+                borderColor: 'var(--app-accent-primary)', 
+                cornerColor: 'var(--app-accent-primary)',
+                isGeneratedItem: true, 
+                originalIndex: i, 
+                objectCaching: false,
+                cornerSize: 10, 
+                transparentCorners: false, 
+                cornerStyle: 'circle'
             });
+            
+            // Ensure row fits within content width
+            if (rowGroup.getScaledWidth() > contentWidth) {
+                const scaleFactor = contentWidth / rowGroup.getScaledWidth();
+                rowGroup.scale(scaleFactor * 0.95); // 95% to add small padding
+            }
 
             if (oldTransforms[i]) {
-                rowGroup.set(oldTransforms[i]);
+                // Validate old transforms are within margins
+                const validLeft = Math.max(marginLeft, Math.min(oldTransforms[i].left, pageWidth - marginRight - rowGroup.getScaledWidth()));
+                const validTop = Math.max(marginTop, Math.min(oldTransforms[i].top, pageHeight - marginBottom - rowGroup.getScaledHeight()));
+                rowGroup.set({
+                    ...oldTransforms[i],
+                    left: validLeft,
+                    top: validTop
+                });
             }
             
             worksheetCanvas.add(rowGroup);
-            currentY += Math.max(rowGroup.getScaledHeight(), imageSize, textFontSize) + 20;
+            currentY += rowGroup.getScaledHeight() + rowSpacing;
+            
+            // Ensure we don't exceed bottom margin
+            if (currentY + imageSize > pageHeight - marginBottom) {
+                // If we're running out of space, stop adding more problems
+                break;
+            }
         }
         
         enforceZOrder(worksheetCanvas);
@@ -1726,8 +1838,12 @@
         const userAddedObjects = [];
         const oldGeneratedItems = [];
         
+        // Count old problems to detect if we're increasing the count
+        let oldProblemCount = 0;
+        
         answerKeyCanvas.getObjects().forEach(o => {
              if (o.isAnswerKeyItem && typeof o.originalIndex !== 'undefined') {
+                oldProblemCount++;
                 oldTransforms[o.originalIndex] = {
                     left: o.left, top: o.top,
                     scaleX: o.scaleX, scaleY: o.scaleY,
@@ -1740,6 +1856,13 @@
         });
         
         [...oldGeneratedItems, ...answerKeyCanvas.getObjects().filter(o => o.isBorder || o.isBackground)].forEach(o => answerKeyCanvas.remove(o));
+        
+        // Clear old transforms if we're increasing the problem count to avoid overlaps
+        const newProblemCount = worksheetCanvas.problemsData.length;
+        if (newProblemCount > oldProblemCount) {
+            // When increasing exercises, use fresh layout to prevent overlaps
+            Object.keys(oldTransforms).forEach(key => delete oldTransforms[key]);
+        }
         answerKeyCanvas.backgroundColor = pageColorInput.value || '#FFFFFF';
 
         const wsBackground = worksheetCanvas.getObjects().find(o => o.isBackground);
@@ -1764,12 +1887,34 @@
         }
 
         const problemsData = worksheetCanvas.problemsData;
-        let currentY = 20;
+        
+        // Use same margins as worksheet
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const marginTop = Math.max(40, pageHeight * 0.05);
+        const marginBottom = Math.max(40, pageHeight * 0.05);
+        const marginLeft = Math.max(40, pageWidth * 0.06);
+        const marginRight = Math.max(40, pageWidth * 0.06);
+        
+        const contentWidth = pageWidth - marginLeft - marginRight;
+        const contentHeight = pageHeight - marginTop - marginBottom;
+        
+        let currentY = marginTop;
         if (includeNameDateCheckbox.checked) {
-            currentY += 60;
+            currentY += 48; // Space for name/date header
         }
 
-        const imageSize = 40; const textFontSize = 20; const itemPadding = 5; const rowPadding = 30;
+        // Calculate optimal sizes based on available space and problem count
+        const problemCount = problemsData.length;
+        const availableHeight = contentHeight - (currentY - marginTop);
+        const estimatedRowHeight = availableHeight / problemCount;
+        
+        // Dynamic sizing based on available space (same as worksheet)
+        const baseImageSize = Math.min(40, estimatedRowHeight * 0.5);
+        const imageSize = Math.max(20, Math.min(60, baseImageSize));
+        const textFontSize = Math.max(14, Math.min(24, imageSize * 0.5));
+        const itemPadding = Math.max(3, Math.min(10, imageSize * 0.125));
+        const rowSpacing = Math.max(10, Math.min(30, (availableHeight - (problemCount * imageSize * 1.5)) / (problemCount + 1)));
 
         for (let i = 0; i < problemsData.length; i++) {
             const problem = problemsData[i];
@@ -1816,19 +1961,48 @@
             expressionObject.set({ left: currentX, top: imageSize / 2, originY: 'center' });
             allRowObjects.push(expressionObject);
 
+            // Scale row to fit within content width if needed
             const rowGroup = new fabric.Group(allRowObjects, {
-                left: rowPadding, top: currentY, selectable: true, hasControls: true, hasBorders: true,
-                borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
-                isAnswerKeyItem: true, originalIndex: i, objectCaching: false,
-                cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
+                left: marginLeft, 
+                top: currentY, 
+                selectable: true, 
+                hasControls: true, 
+                hasBorders: true,
+                borderColor: 'var(--app-accent-primary)', 
+                cornerColor: 'var(--app-accent-primary)',
+                isAnswerKeyItem: true, 
+                originalIndex: i, 
+                objectCaching: false,
+                cornerSize: 10, 
+                transparentCorners: false, 
+                cornerStyle: 'circle'
             });
+            
+            // Ensure row fits within content width
+            if (rowGroup.getScaledWidth() > contentWidth) {
+                const scaleFactor = contentWidth / rowGroup.getScaledWidth();
+                rowGroup.scale(scaleFactor * 0.95); // 95% to add small padding
+            }
 
             if (oldTransforms[i]) {
-                rowGroup.set(oldTransforms[i]);
+                // Validate old transforms are within margins
+                const validLeft = Math.max(marginLeft, Math.min(oldTransforms[i].left, pageWidth - marginRight - rowGroup.getScaledWidth()));
+                const validTop = Math.max(marginTop, Math.min(oldTransforms[i].top, pageHeight - marginBottom - rowGroup.getScaledHeight()));
+                rowGroup.set({
+                    ...oldTransforms[i],
+                    left: validLeft,
+                    top: validTop
+                });
             }
 
             answerKeyCanvas.add(rowGroup);
-            currentY += Math.max(rowGroup.getScaledHeight(), imageSize, textFontSize) + 20;
+            currentY += rowGroup.getScaledHeight() + rowSpacing;
+            
+            // Ensure we don't exceed bottom margin
+            if (currentY + imageSize > pageHeight - marginBottom) {
+                // If we're running out of space, stop adding more problems
+                break;
+            }
         }
 
         enforceZOrder(answerKeyCanvas);
@@ -1843,12 +2017,110 @@
 
     // --- Download & Export Functions ---
     async function getCanvasDataURL(canvasInstance, exportOpts) {
-        const dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 1.0, multiplier: exportOpts.multiplier });
+        // Save current state
+        const currentZoom = canvasInstance.getZoom();
+        const currentWidth = canvasInstance.getWidth();
+        const currentHeight = canvasInstance.getHeight();
+        
+        // Reset zoom for export
+        canvasInstance.setZoom(1);
+        
+        // CRITICAL: Set canvas to actual document dimensions
+        canvasInstance.setWidth(currentCanvasConfig.width);
+        canvasInstance.setHeight(currentCanvasConfig.height);
+        canvasInstance.calcOffset();
+        canvasInstance.renderAll();
+        
+        let dataURL = canvasInstance.toDataURL({ 
+            format: 'png',  // Use PNG first for better quality
+            quality: 1.0, 
+            multiplier: exportOpts.multiplier || 6 
+        });
+        
+        // Convert to JPEG
+        dataURL = await convertToJPEG(dataURL);
+        
+        // Restore display state
+        canvasInstance.setZoom(currentZoom);
+        canvasInstance.setDimensions({
+            width: currentWidth,
+            height: currentHeight
+        });
+        canvasInstance.calcOffset();
+        canvasInstance.renderAll();
+        
         if (exportOpts.grayscale) {
             try { return await applyGrayscaleToDataURL(dataURL); }
             catch (error) { console.error("Grayscale failed:", error); }
         }
         return dataURL;
+    }
+    
+    // High-quality export function for PDFs
+    async function getCanvasDataURLWithOptions(canvasInstance, exportOpts) {
+        // Save current state
+        const currentZoom = canvasInstance.getZoom();
+        const currentWidth = canvasInstance.getWidth();
+        const currentHeight = canvasInstance.getHeight();
+        
+        // Reset zoom for export
+        canvasInstance.setZoom(1);
+        
+        // Set canvas to actual document dimensions
+        canvasInstance.setWidth(currentCanvasConfig.width);
+        canvasInstance.setHeight(currentCanvasConfig.height);
+        canvasInstance.calcOffset();
+        canvasInstance.renderAll();
+        
+        // Export at high quality
+        const multiplier = exportOpts.multiplier || 6;
+        let dataURL = canvasInstance.toDataURL({ 
+            format: 'png',
+            quality: 1.0, 
+            multiplier: multiplier
+        });
+        
+        // Convert to JPEG
+        dataURL = await convertToJPEG(dataURL);
+        
+        // Restore display state
+        canvasInstance.setZoom(currentZoom);
+        canvasInstance.setDimensions({
+            width: currentWidth,
+            height: currentHeight
+        });
+        canvasInstance.calcOffset();
+        canvasInstance.renderAll();
+        
+        if (exportOpts.applyGrayscale || exportOpts.grayscale) {
+            try { 
+                dataURL = await applyGrayscaleToDataURL(dataURL); 
+            } catch (error) { 
+                console.error("Grayscale failed:", error); 
+            }
+        }
+        
+        return dataURL;
+    }
+    
+    async function convertToJPEG(pngDataURL) {
+        return new Promise((resolve) => {
+            const img = new Image();
+            img.onload = () => {
+                const canvas = document.createElement('canvas');
+                canvas.width = img.width;
+                canvas.height = img.height;
+                const ctx = canvas.getContext('2d');
+                
+                // White background for JPEG
+                ctx.fillStyle = '#FFFFFF';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+                
+                ctx.drawImage(img, 0, 0);
+                resolve(canvas.toDataURL('image/jpeg', 0.95));
+            };
+            img.src = pngDataURL;
+        });
     }
 
     async function applyGrayscaleToDataURL(dataURL) {
@@ -1975,11 +2247,11 @@
             
             try {
                 const { jsPDF } = window.jspdf;
-                const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
+                const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
                 const pdf = new jsPDF({ 
                     orientation, 
                     unit: 'pt', 
-                    format: [canvasToExport.width, canvasToExport.height] 
+                    format: [currentCanvasConfig.width, currentCanvasConfig.height] 
                 });
 
                 const exportOptions = { 
@@ -1988,7 +2260,7 @@
                 };
                 
                 const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
-                pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+                pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
                 
                 pdf.save(fileName);
                 showMessage('PDF downloaded!', 'success');
@@ -2049,12 +2321,20 @@ async function downloadPDF(canvasToExport, fileName) {
 
         try {
             const { jsPDF } = window.jspdf;
-            const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
-            const pdf = new jsPDF({ orientation, unit: 'pt', format: [canvasToExport.width, canvasToExport.height] });
-            const exportOptions = { multiplier: downloadMultiplier, grayscale: grayscaleToggle.checked };
+            const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
+            const pdf = new jsPDF({ 
+                orientation, 
+                unit: 'pt', 
+                format: [currentCanvasConfig.width, currentCanvasConfig.height] 
+            });
+            
+            const exportOptions = { 
+                multiplier: downloadMultiplier || 6, 
+                grayscale: grayscaleToggle.checked 
+            };
 
-            const imgData = await getCanvasDataURL(canvasToExport, exportOptions);
-            pdf.addImage(imgData, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+            const imgData = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+            pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
 
             pdf.save(fileName);
             showMessage('PDF Downloaded!', 'success', 3000);

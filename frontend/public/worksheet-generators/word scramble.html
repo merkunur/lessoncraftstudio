@@ -1393,6 +1393,8 @@
             showMessage('Generating worksheet...', 'info', 0);
             
             const oldTransforms = {};
+            const oldPuzzleCount = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem).length;
+            
             worksheetCanvas.getObjects().forEach(obj => {
                 if (obj.isGeneratedItem) {
                     oldTransforms[obj.originalIndex] = {
@@ -1405,6 +1407,12 @@
             oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
 
             const puzzleCount = parseInt(ui.puzzleCount.value, 10);
+            
+            // Clear old transforms if we're changing the puzzle count to avoid overlaps
+            const newPuzzleCount = puzzleCount;
+            if (newPuzzleCount !== oldPuzzleCount) {
+                Object.keys(oldTransforms).forEach(key => delete oldTransforms[key]);
+            }
             
             let puzzleImagePool = [...selectedImages];
             if (puzzleImagePool.length < puzzleCount) {
@@ -1467,6 +1475,8 @@
             showMessage('Generating answer key...', 'info', 0);
             
             const oldTransforms = {};
+            const oldPuzzleCount = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem).length;
+            
             answerKeyCanvas.getObjects().forEach(obj => {
                 if (obj.isAnswerKeyItem) {
                     oldTransforms[obj.originalIndex] = {
@@ -1477,6 +1487,12 @@
 
             const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground);
             objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
+            
+            // Clear old transforms if puzzle count changed to avoid overlaps
+            const newPuzzleCount = lastGeneratedPuzzles.length;
+            if (newPuzzleCount !== oldPuzzleCount) {
+                Object.keys(oldTransforms).forEach(key => delete oldTransforms[key]);
+            }
 
             const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground);
 
@@ -1510,37 +1526,89 @@
         }
 
         async function renderPuzzles(canvas, puzzlesData, isAnswerKey, transforms = {}) {
-            const topMargin = 30;
-            const bottomMargin = 30;
-            let currentY = topMargin;
-            let availableHeight = currentCanvasConfig.height - topMargin - bottomMargin;
+            // Use actual page dimensions, not zoomed canvas dimensions
+            const pageWidth = currentCanvasConfig.width;
+            const pageHeight = currentCanvasConfig.height;
+            const isLandscape = pageWidth > pageHeight;
+            
+            // Professional margins - slightly smaller for better space utilization
+            const topMargin = pageHeight * 0.07;
+            const bottomMargin = pageHeight * 0.07;
+            const leftMargin = pageWidth * 0.07;
+            const rightMargin = pageWidth * 0.07;
+            
+            let availableWidth = pageWidth - leftMargin - rightMargin;
 
             const userAddedObjects = canvas.getObjects().filter(o => !o.isGeneratedItem && !o.isAnswerKeyItem && !o.isBorder && !o.isBackground);
             userAddedObjects.forEach(o => canvas.remove(o));
-
-            if (ui.includeNameDate.checked && !isAnswerKey) {
-                availableHeight -= 55;
-            }
-
-            const baseRowHeight = 95;
-            const requiredHeight = puzzlesData.length * baseRowHeight;
-            const scale = requiredHeight > availableHeight ? availableHeight / requiredHeight : 1.0;
-
-            const imageWidth = 150 * scale;
-            const cellWidth = 40 * scale;
-            const cellHeight = 40 * scale;
-            const rowPadding = 20 * scale;
-            const fontSize = 30 * scale;
-            const numFontSize = 24 * scale;
-
+            
+            // Determine if we should use two columns (landscape with more than 5 exercises)
+            const useColumns = isLandscape && puzzlesData.length > 5;
+            const columnGap = useColumns ? pageWidth * 0.05 : 0;
+            const columnWidth = useColumns ? (availableWidth - columnGap) / 2 : availableWidth;
+            
+            // Add name/date if needed
+            const nameDateHeight = (ui.includeNameDate.checked && !isAnswerKey) ? 50 : 0;
             if (ui.includeNameDate.checked && !isAnswerKey) {
                 const nameDateGroup = new fabric.Group([
                     new fabric.Textbox("Name: ________________", { left: 0, top: 0, fontSize: 18 }),
                     new fabric.Textbox("Date: ________", { left: 350, top: 0, fontSize: 18 })
-                ], { left: 40, top: currentY, selectable: true, hasControls: true, evented: true, isGeneratedItem: false });
+                ], { left: leftMargin, top: topMargin, selectable: true, hasControls: true, evented: true, isGeneratedItem: false });
                 canvas.add(nameDateGroup);
-                currentY += nameDateGroup.height + 15;
             }
+            
+            // Calculate puzzle area
+            const puzzleAreaTop = topMargin + nameDateHeight;
+            const puzzleAreaHeight = pageHeight - puzzleAreaTop - bottomMargin;
+            
+            // Distribute items across columns
+            let columnItems = [];
+            if (useColumns) {
+                // Split items evenly between columns
+                const itemsPerColumn = Math.ceil(puzzlesData.length / 2);
+                columnItems = [
+                    puzzlesData.slice(0, itemsPerColumn),
+                    puzzlesData.slice(itemsPerColumn)
+                ];
+            } else {
+                columnItems = [puzzlesData];
+            }
+            
+            // Calculate base dimensions
+            const baseRowHeight = 95;
+            const baseRowWidth = 150 + 15 + (10 * 40); // image + padding + max 10 letter cells
+            
+            // Calculate optimal scale
+            let scale = 1.0;
+            
+            // First check horizontal constraints
+            const horizontalScale = Math.min(1.0, columnWidth / baseRowWidth);
+            
+            // Then check vertical constraints for each column
+            let verticalScale = 1.0;
+            for (let items of columnItems) {
+                if (items.length > 0) {
+                    // Each item gets equal share of the height
+                    const heightPerItem = puzzleAreaHeight / items.length;
+                    const itemScale = heightPerItem / baseRowHeight;
+                    verticalScale = Math.min(verticalScale, itemScale);
+                }
+            }
+            
+            // Use the smaller scale, but cap for readability
+            scale = Math.min(horizontalScale, verticalScale);
+            scale = Math.min(scale, 1.2); // Don't make it too large
+            scale = Math.max(scale, 0.4); // Don't make it too small
+            
+            // Calculate scaled dimensions
+            const imageWidth = 150 * scale;
+            const cellWidth = 40 * scale;
+            const cellHeight = 40 * scale;
+            const fontSize = Math.max(18, 30 * scale);
+            const numFontSize = Math.max(14, 24 * scale);
+            
+            // Calculate actual row height after scaling
+            const actualRowHeight = Math.max(cellHeight * 2 + 10, imageWidth * 0.75); // Two rows of letters + gap
 
             const caseValue = document.querySelector('input[name="letterCase"]:checked').value;
             const colorCoded = document.querySelector('input[name="letterColor"]:checked').value === 'color';
@@ -1548,81 +1616,110 @@
             const consonantColor = '#ffffff';
 
             const newItems = [];
-            for (const [i, puzzle] of puzzlesData.entries()) {
-                const img = await new Promise(resolve => fabric.Image.fromURL(puzzle.image.path, resolve, { crossOrigin: 'anonymous' }));
-                img.scaleToWidth(imageWidth);
-
-                const numText = ui.includeExerciseNumbers.checked ? new fabric.Text(`${i + 1}.`, {
-                    fontSize: numFontSize, originY: 'center', fill: '#333'
-                }) : null;
-
-                const puzzleContentGroup = new fabric.Group([], { objectCaching: false });
-
-                const answerGridElements = [];
-                for (let j = 0; j < puzzle.word.length; j++) {
-                    const letter = caseValue === 'lower' ? puzzle.word[j].toLowerCase() : puzzle.word[j];
-                    const bgColor = colorCoded ? (isVowel(letter) ? vowelColor : consonantColor) : '#ffffff';
-                    const rect = new fabric.Rect({ width: cellWidth, height: cellHeight, fill: bgColor, stroke: '#333', strokeWidth: 1 });
-                    const text = new fabric.Text(letter, {
-                        fontSize: fontSize, fontFamily: 'Fredoka', originX: 'center', originY: 'center', textBaseline: 'middle', left: cellWidth / 2, top: cellHeight / 2,
-                        visible: isAnswerKey || puzzle.clueIndices.has(j)
-                    });
-                    answerGridElements.push(new fabric.Group([rect, text], { left: j * cellWidth, top: 0 }));
-                }
-                const answerGridGroup = new fabric.Group(answerGridElements, { top: 0 });
-                puzzleContentGroup.addWithUpdate(answerGridGroup);
-
-                const scrambledElements = [];
-                for (let j = 0; j < puzzle.scrambled.length; j++) {
-                    const letter = caseValue === 'lower' ? puzzle.scrambled[j].toLowerCase() : puzzle.scrambled[j];
-                    const bgColor = colorCoded ? (isVowel(letter) ? vowelColor : consonantColor) : 'transparent';
-                    const text = new fabric.Text(letter, {
-                        fontSize: fontSize, fontFamily: 'Fredoka', originX: 'center', originY: 'center', textBaseline: 'middle',
-                        left: cellWidth / 2, top: cellHeight / 2
-                    });
-                    const cellGroup = new fabric.Group([new fabric.Rect({width: cellWidth, height: cellHeight, fill: bgColor, stroke: 'transparent'}), text], { left: j * cellWidth });
-                    scrambledElements.push(cellGroup);
-                }
-                const scrambledGroup = new fabric.Group(scrambledElements, { top: answerGridGroup.height + (5 * scale) });
-                if (!isAnswerKey) {
-                    puzzleContentGroup.addWithUpdate(scrambledGroup);
-                }
-
-                const rowHeight = Math.max(img.getScaledHeight(), puzzleContentGroup.height, numText ? numText.height : 0);
-                img.top = (rowHeight - img.getScaledHeight()) / 2;
-                puzzleContentGroup.top = (rowHeight - puzzleContentGroup.height) / 2;
-                if (numText) numText.top = rowHeight / 2;
-
-                let currentX = 0;
-                const rowElements = [];
-                if (numText) {
-                    numText.left = currentX;
-                    currentX += numText.width + (5 * scale);
-                    rowElements.push(numText);
-                }
-                img.left = currentX;
-                currentX += img.getScaledWidth() + (10 * scale);
-                rowElements.push(img);
-
-                puzzleContentGroup.left = currentX;
-                rowElements.push(puzzleContentGroup);
-
-                const rowGroup = new fabric.Group(rowElements, {
-                    top: currentY,
-                    left: 30,
-                    isGeneratedItem: !isAnswerKey,
-                    isAnswerKeyItem: isAnswerKey,
-                    originalIndex: i,
-                    selectable: true, evented: true, objectCaching: false,
-                    borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
-                });
-
-                if (transforms[i]) {
-                    rowGroup.set(transforms[i]);
-                }
+            
+            // Render each column
+            let globalIndex = 0;
+            for (let colIdx = 0; colIdx < columnItems.length; colIdx++) {
+                const items = columnItems[colIdx];
+                if (items.length === 0) continue;
                 
-                newItems.push(rowGroup);
-                currentY += rowGroup.getScaledHeight() + rowPadding;
+                // Calculate column position
+                const columnX = leftMargin + (colIdx * (columnWidth + columnGap));
+                
+                // Calculate spacing for this column to fill the height
+                const totalItemHeight = actualRowHeight * items.length;
+                const totalSpacing = puzzleAreaHeight - totalItemHeight;
+                
+                // Distribute spacing: half at top/bottom, rest between items
+                const edgeSpacing = totalSpacing * 0.15; // 15% at top and bottom
+                const betweenSpacing = items.length > 1 
+                    ? (totalSpacing - 2 * edgeSpacing) / (items.length - 1)
+                    : 0;
+                
+                // Start position for this column
+                let currentY = puzzleAreaTop + edgeSpacing;
+                
+                // Render items in this column
+                for (let itemIdx = 0; itemIdx < items.length; itemIdx++) {
+                    const puzzle = items[itemIdx];
+                    const img = await new Promise(resolve => fabric.Image.fromURL(puzzle.image.path, resolve, { crossOrigin: 'anonymous' }));
+                    img.scaleToWidth(imageWidth);
+
+                    const numText = ui.includeExerciseNumbers.checked ? new fabric.Text(`${globalIndex + 1}.`, {
+                        fontSize: numFontSize, originY: 'center', fill: '#333'
+                    }) : null;
+
+                    const puzzleContentGroup = new fabric.Group([], { objectCaching: false });
+
+                    const answerGridElements = [];
+                    for (let j = 0; j < puzzle.word.length; j++) {
+                        const letter = caseValue === 'lower' ? puzzle.word[j].toLowerCase() : puzzle.word[j];
+                        const bgColor = colorCoded ? (isVowel(letter) ? vowelColor : consonantColor) : '#ffffff';
+                        const rect = new fabric.Rect({ width: cellWidth, height: cellHeight, fill: bgColor, stroke: '#333', strokeWidth: 1 });
+                        const text = new fabric.Text(letter, {
+                            fontSize: fontSize, fontFamily: 'Fredoka', originX: 'center', originY: 'center', textBaseline: 'middle', left: cellWidth / 2, top: cellHeight / 2,
+                            visible: isAnswerKey || puzzle.clueIndices.has(j)
+                        });
+                        answerGridElements.push(new fabric.Group([rect, text], { left: j * cellWidth, top: 0 }));
+                    }
+                    const answerGridGroup = new fabric.Group(answerGridElements, { top: 0 });
+                    puzzleContentGroup.addWithUpdate(answerGridGroup);
+
+                    const scrambledElements = [];
+                    for (let j = 0; j < puzzle.scrambled.length; j++) {
+                        const letter = caseValue === 'lower' ? puzzle.scrambled[j].toLowerCase() : puzzle.scrambled[j];
+                        const bgColor = colorCoded ? (isVowel(letter) ? vowelColor : consonantColor) : 'transparent';
+                        const text = new fabric.Text(letter, {
+                            fontSize: fontSize, fontFamily: 'Fredoka', originX: 'center', originY: 'center', textBaseline: 'middle',
+                            left: cellWidth / 2, top: cellHeight / 2
+                        });
+                        const cellGroup = new fabric.Group([new fabric.Rect({width: cellWidth, height: cellHeight, fill: bgColor, stroke: 'transparent'}), text], { left: j * cellWidth });
+                        scrambledElements.push(cellGroup);
+                    }
+                    const scrambledGroup = new fabric.Group(scrambledElements, { top: answerGridGroup.height + (5 * scale) });
+                    if (!isAnswerKey) {
+                        puzzleContentGroup.addWithUpdate(scrambledGroup);
+                    }
+
+                    const rowHeight = Math.max(img.getScaledHeight(), puzzleContentGroup.height, numText ? numText.height : 0);
+                    img.top = (rowHeight - img.getScaledHeight()) / 2;
+                    puzzleContentGroup.top = (rowHeight - puzzleContentGroup.height) / 2;
+                    if (numText) numText.top = rowHeight / 2;
+
+                    let currentX = 0;
+                    const rowElements = [];
+                    if (numText) {
+                        numText.left = currentX;
+                        currentX += numText.width + (5 * scale);
+                        rowElements.push(numText);
+                    }
+                    img.left = currentX;
+                    currentX += img.getScaledWidth() + (10 * scale);
+                    rowElements.push(img);
+
+                    puzzleContentGroup.left = currentX;
+                    rowElements.push(puzzleContentGroup);
+
+                    const rowGroup = new fabric.Group(rowElements, {
+                        top: currentY,
+                        left: columnX,
+                        isGeneratedItem: !isAnswerKey,
+                        isAnswerKeyItem: isAnswerKey,
+                        originalIndex: globalIndex,
+                        selectable: true, evented: true, objectCaching: false,
+                        borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
+                    });
+
+                    if (transforms[globalIndex]) {
+                        rowGroup.set(transforms[globalIndex]);
+                    }
+                    
+                    newItems.push(rowGroup);
+                    
+                    // Move to next position
+                    currentY += actualRowHeight + betweenSpacing;
+                    globalIndex++;
+                }
             }
 
             newItems.forEach(item => canvas.add(item));

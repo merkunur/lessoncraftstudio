@@ -2205,15 +2205,25 @@
         const currentWidth = canvasInstance.getWidth();
         const currentHeight = canvasInstance.getHeight();
         
-        // Reset for export
+        // Reset zoom for export
         canvasInstance.setZoom(1);
-        canvasInstance.setDimensions({
-            width: currentCanvasConfig.width,
-            height: currentCanvasConfig.height
-        });
+        
+        // CRITICAL: Set canvas to actual document dimensions
+        canvasInstance.setWidth(currentCanvasConfig.width);
+        canvasInstance.setHeight(currentCanvasConfig.height);
+        canvasInstance.calcOffset();
         
         canvasInstance.discardActiveObject().renderAll();
-        let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 1.0, multiplier: exportOpts.multiplier });
+        
+        // Export at high quality
+        let dataURL = canvasInstance.toDataURL({ 
+            format: 'png',  // Use PNG first for better quality
+            quality: 1.0, 
+            multiplier: exportOpts.multiplier || 6 
+        });
+        
+        // Convert to JPEG
+        dataURL = await convertToJPEG(dataURL);
         
         // Restore display state
         canvasInstance.setZoom(currentZoom);
@@ -2221,12 +2231,33 @@
             width: currentWidth,
             height: currentHeight
         });
+        canvasInstance.calcOffset();
         canvasInstance.renderAll();
         
         if (exportOpts.applyPixelLevelGrayscale) {
             try { dataURL = await applyGrayscaleToDataURL(dataURL); } catch (error) { console.error("Grayscale failed:", error); }
         }
         return dataURL;
+    }
+    
+    async function convertToJPEG(pngDataURL) {
+        return new Promise((resolve) => {
+            const img = new Image();
+            img.onload = () => {
+                const canvas = document.createElement('canvas');
+                canvas.width = img.width;
+                canvas.height = img.height;
+                const ctx = canvas.getContext('2d');
+                
+                // White background for JPEG
+                ctx.fillStyle = '#FFFFFF';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+                
+                ctx.drawImage(img, 0, 0);
+                resolve(canvas.toDataURL('image/jpeg', 0.95));
+            };
+            img.src = pngDataURL;
+        });
     }
 
     async function downloadImageFile(canvasToExport, baseFilename) {
@@ -2324,11 +2355,11 @@
             
             try {
                 const { jsPDF } = window.jspdf;
-                const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
+                const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
                 const pdf = new jsPDF({ 
                     orientation, 
                     unit: 'pt', 
-                    format: [canvasToExport.width, canvasToExport.height] 
+                    format: [currentCanvasConfig.width, currentCanvasConfig.height] 
                 });
 
                 const exportOptions = { 
@@ -2336,8 +2367,8 @@
                     applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
                 };
                 
-                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
-                pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+                const dataURL = await getFabricCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
                 
                 pdf.save(fileName);
                 showMessage('PDF downloaded!', 'success');
@@ -2368,7 +2399,7 @@
                     multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
                     applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
                 };
-                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                const dataURL = await getFabricCanvasDataURLWithOptions(canvasToExport, exportOptions);
                 
                 const link = document.createElement('a');
                 link.href = dataURL;
@@ -2386,19 +2417,45 @@
     }
 
 async function downloadPDF(canvasToExport, baseFilename) {
-        if (!canvasToExport || canvasToExport.getObjects().length === 0) { showMessage("Please generate content first.", "error"); return; }
+        console.log('downloadPDF called with:', baseFilename);
+        
+        if (!canvasToExport || canvasToExport.getObjects().length === 0) { 
+            showMessage("Please generate content first.", "error"); 
+            return; 
+        }
+        
         showMessage('Preparing PDF...', 'info', 0);
-        const { jsPDF } = window.jspdf; 
-        const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
-        const pdf = new jsPDF({ orientation, unit: 'pt', format: [currentCanvasConfig.width, currentCanvasConfig.height] });
-        const exportOpts = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
         
         try {
+            // Check if jsPDF is loaded
+            if (!window.jspdf) {
+                throw new Error('jsPDF library not loaded');
+            }
+            
+            const { jsPDF } = window.jspdf; 
+            const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
+            const pdf = new jsPDF({ 
+                orientation, 
+                unit: 'pt', 
+                format: [currentCanvasConfig.width, currentCanvasConfig.height] 
+            });
+            
+            const exportOpts = { 
+                multiplier: downloadMultiplier || 6, 
+                applyPixelLevelGrayscale: grayscaleToggle.checked 
+            };
+            
+            console.log('Getting canvas data URL...');
             const imgData = await getFabricCanvasDataURLWithOptions(canvasToExport, exportOpts);
+            
+            console.log('Adding image to PDF...');
             pdf.addImage(imgData, "JPEG", 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
+            
+            console.log('Saving PDF...');
             pdf.save(`pattern_train_${baseFilename}.pdf`);
             showMessage("PDF Downloaded!", "success");
         } catch (e) {
+            console.error('PDF Error:', e);
             showMessage(`PDF Error: ${e.message}`, "error");
         }
     }

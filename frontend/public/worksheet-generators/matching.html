@@ -1493,6 +1493,7 @@
             showMessage("Generating Worksheet...", "info", 2000);
 
             const oldTransforms = {};
+            const oldPairCount = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem && o.position !== 'header').length / 2; // Each pair has 2 items
             const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground);
             
             worksheetCanvas.getObjects().forEach(o => {
@@ -1555,6 +1556,16 @@
                     pairs = shuffledLeft.map((l, i) => ({ left: l, right: shuffledRight[i] }));
                 }
 
+                // Clear old transforms if pair count changed to avoid overlaps
+                const newPairCount = pairs.length;
+                if (newPairCount !== oldPairCount) {
+                    Object.keys(oldTransforms).forEach(key => {
+                        if (key !== 'header_nameDate') { // Keep name/date position
+                            delete oldTransforms[key];
+                        }
+                    });
+                }
+                
                 currentGeneratedData = { worksheet: pairs, answerKey: answerKey, mode: m };
                 await renderCanvas(worksheetCanvas, pairs, false, oldTransforms, m);
 
@@ -1582,6 +1593,7 @@
             
             const mode = currentGeneratedData.mode;
             const oldTransforms = {};
+            const oldPairCount = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem && o.position !== 'header' && o.position !== 'line').length / 2;
             const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground);
             answerKeyCanvas.getObjects().forEach(o => {
                 if (o.isAnswerKeyItem) {
@@ -1592,6 +1604,16 @@
 
             const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground);
             objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
+            
+            // Clear old transforms if pair count changed to avoid overlaps
+            const newPairCount = currentGeneratedData.answerKey.length;
+            if (newPairCount !== oldPairCount) {
+                Object.keys(oldTransforms).forEach(key => {
+                    if (key !== 'header_nameDate') { // Keep name/date position
+                        delete oldTransforms[key];
+                    }
+                });
+            }
 
             const bgsFromWs = worksheetCanvas.getObjects().filter(o => o.isBackground);
             if (bgsFromWs.length > 0) {
@@ -1656,15 +1678,18 @@
             if (pairs.length === 0) {
                 canvas.renderAll(); return;
             }
-            // Use actual canvas dimensions for proper layout
-            const canvasWidth = currentCanvasConfig.width;
-            const canvasHeight = currentCanvasConfig.height;
+            // Use actual page dimensions, not zoomed canvas dimensions
+            const pageWidth = currentCanvasConfig.width;
+            const pageHeight = currentCanvasConfig.height;
             
-            // Define consistent margins
-            const topMargin = 60;
-            const sideMargin = 50;
-            const bottomMargin = 40;
+            // Professional margins (7% of page dimensions)
+            const topMargin = pageHeight * 0.07;
+            const bottomMargin = pageHeight * 0.07;
+            const leftMargin = pageWidth * 0.07;
+            const rightMargin = pageWidth * 0.07;
             
+            // Name/date handling
+            const nameDateHeight = (includeNameDate.checked && !isAnswerKey) ? 50 : 0;
             let topOffset = topMargin;
 
             if (includeNameDate.checked && !isAnswerKey) {
@@ -1672,28 +1697,51 @@
                 const nameDateGroup = canvas.getObjects().find(o => o.originalIndex === 'nameDate');
                 if (!nameDateGroup) {
                     const textOptions = { fontSize: 16, fontFamily: 'Fredoka', fill: '#333' };
-                    const groupWidth = canvasWidth - (sideMargin * 2);
+                    const groupWidth = pageWidth - (leftMargin * 2);
                     const nameText = new fabric.Textbox('Name: _________________________', { ...textOptions, width: groupWidth / 2 - 10, left: 0, top: 0 });
                     const dateText = new fabric.Textbox('Date: ________________', { ...textOptions, width: groupWidth / 2 - 10, left: groupWidth / 2 + 10, top: 0, textAlign: 'right' });
                     const newNameDateGroup = new fabric.Group([nameText, dateText], {
-                        left: sideMargin, top: topMargin / 2,
+                        left: leftMargin, top: topMargin,
                         isGeneratedItem: true, originalIndex: 'nameDate', position: 'header',
                         borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
                         cornerSize: 8, transparentCorners: false, cornerStyle: 'circle'
                     });
                     if (transforms[nameDateKey]) newNameDateGroup.set(transforms[nameDateKey]);
                     canvas.add(newNameDateGroup);
-                    topOffset = newNameDateGroup.getBoundingRect(true).height + topMargin;
-                } else {
-                     topOffset = nameDateGroup.getBoundingRect(true).height + topMargin;
                 }
+                topOffset = topMargin + nameDateHeight;
             }
 
-            // Calculate available space and item height
-            const availableHeight = canvasHeight - topOffset - bottomMargin;
-            const itemHeight = Math.min(availableHeight / pairs.length, 120); // Limit max item height
-            const leftColX = sideMargin + (canvasWidth * 0.05);
-            const rightColX = canvasWidth - sideMargin - (canvasWidth * 0.25);
+            // Calculate puzzle area for professional distribution
+            const puzzleAreaTop = topOffset;
+            const puzzleAreaHeight = pageHeight - puzzleAreaTop - bottomMargin;
+            
+            // Calculate spacing for even distribution across full height
+            const totalSpacing = puzzleAreaHeight;
+            
+            // Distribute spacing: 10% at top/bottom edges, rest evenly between items
+            const edgeSpacing = totalSpacing * 0.05;
+            const availableForItems = totalSpacing - (2 * edgeSpacing);
+            
+            // Calculate item height with spacing
+            let itemHeight;
+            let betweenSpacing;
+            
+            if (pairs.length === 1) {
+                // Single item - center it
+                itemHeight = Math.min(availableForItems, 100);
+                betweenSpacing = 0;
+            } else {
+                // Multiple items - distribute evenly
+                itemHeight = Math.min(availableForItems / pairs.length * 0.7, 90); // Use 70% for items, 30% for spacing
+                const totalItemHeight = itemHeight * pairs.length;
+                betweenSpacing = (availableForItems - totalItemHeight) / (pairs.length - 1);
+            }
+            
+            // Column positions - wider spread for better visual balance
+            const contentWidth = pageWidth - leftMargin - rightMargin;
+            const leftColX = leftMargin + contentWidth * 0.1;
+            const rightColX = pageWidth - rightMargin - contentWidth * 0.3;
             
             const createAndPositionItem = async (itemData, colX, isLeftCol, index, mode) => {
                 const mainObject = await createFabricObject(itemData);
@@ -1739,7 +1787,7 @@
                 
                 finalObject.set({
                     left: colX, 
-                    top: topOffset + (index * itemHeight) + itemHeight / 2,
+                    top: 0, // Will be set properly in the loop
                     originX: isLeftCol ? 'left' : 'center',
                     originY: 'center',
                     [tag]: true, 
@@ -1750,11 +1798,20 @@
                 return finalObject;
             };
 
+            // Start position with edge spacing
+            let currentY = puzzleAreaTop + edgeSpacing;
+
             for (let i = 0; i < pairs.length; i++) {
                 const p = pairs[i];
+                
+                // Calculate Y position for this item (centered in its space)
+                const itemY = currentY + itemHeight / 2;
 
                 const leftItem = await createAndPositionItem(p.left, leftColX, true, i, mode);
                 const rightItem = await createAndPositionItem(p.right, rightColX, false, i, mode);
+                
+                if (leftItem) leftItem.set({ top: itemY });
+                if (rightItem) rightItem.set({ top: itemY });
                 
                 if (!leftItem || !rightItem) continue;
 
@@ -1770,7 +1827,7 @@
                     const lineStartX = leftItem.left + leftItem.getScaledWidth();
                     const lineEndX = rightItem.left - (rightItem.getScaledWidth() / 2);
                     const line = new fabric.Line(
-                        [lineStartX + 5, leftItem.top, lineEndX - 5, rightItem.top],
+                        [lineStartX + 5, itemY, lineEndX - 5, itemY],
                         { 
                             stroke: '#555', strokeWidth: 2, selectable: true, evented: true,
                             isAnswerKeyItem: true, originalIndex: i, position: 'line',
@@ -1782,6 +1839,9 @@
                     if(transforms[lineKey]) line.set(transforms[lineKey]);
                     canvas.add(line);
                 }
+                
+                // Move to next position
+                currentY += itemHeight + betweenSpacing;
             }
         };
 

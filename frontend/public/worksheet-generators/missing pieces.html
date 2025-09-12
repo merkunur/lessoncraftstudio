@@ -1909,14 +1909,118 @@
         
         // --- Download Functions (Standard) ---
         async function getCanvasDataURL(canvasInstance, exportOpts) {
+            // Save current state
+            const currentZoom = canvasInstance.getZoom();
+            const currentWidth = canvasInstance.getWidth();
+            const currentHeight = canvasInstance.getHeight();
+            
+            // Reset zoom to 1 for export
+            canvasInstance.setZoom(1);
+            
+            // CRITICAL: Set canvas width/height to actual document dimensions
+            canvasInstance.setWidth(currentCanvasConfig.width);
+            canvasInstance.setHeight(currentCanvasConfig.height);
+            canvasInstance.calcOffset();
+            canvasInstance.renderAll();
+            
+            // Export at high quality with multiplier
             const format = exportOpts.format || 'jpeg';
-            let dataURL = canvasInstance.toDataURL({ format: format, quality: 1.0, multiplier: exportOpts.multiplier });
+            const multiplier = exportOpts.multiplier || 6;
+            
+            let dataURL = canvasInstance.toDataURL({ 
+                format: 'png',  // Use PNG for better quality first
+                quality: 1.0, 
+                multiplier: multiplier
+            });
+            
+            // Convert to JPEG if needed
+            if (format === 'jpeg') {
+                dataURL = await convertToJPEG(dataURL);
+            }
+            
+            // Restore the display state
+            canvasInstance.setZoom(currentZoom);
+            canvasInstance.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
+            canvasInstance.calcOffset();
+            canvasInstance.renderAll();
+            
             if (grayscaleToggle.checked) {
                 try { dataURL = await applyGrayscaleToDataURL(dataURL, `image/${format}`); }
                 catch (error) { console.error("Grayscale failed:", error); }
             }
             return dataURL;
         }
+        
+        async function convertToJPEG(pngDataURL) {
+            return new Promise((resolve) => {
+                const img = new Image();
+                img.onload = () => {
+                    const canvas = document.createElement('canvas');
+                    canvas.width = img.width;
+                    canvas.height = img.height;
+                    const ctx = canvas.getContext('2d');
+                    
+                    // White background for JPEG
+                    ctx.fillStyle = '#FFFFFF';
+                    ctx.fillRect(0, 0, canvas.width, canvas.height);
+                    
+                    ctx.drawImage(img, 0, 0);
+                    resolve(canvas.toDataURL('image/jpeg', 0.95));
+                };
+                img.src = pngDataURL;
+            });
+        }
+        
+        // Higher quality export function for PDFs
+        async function getCanvasDataURLWithOptions(canvasInstance, exportOpts) {
+            // Save current state
+            const currentZoom = canvasInstance.getZoom();
+            const currentWidth = canvasInstance.getWidth();
+            const currentHeight = canvasInstance.getHeight();
+            
+            // Reset zoom to 1 for export
+            canvasInstance.setZoom(1);
+            
+            // Set canvas to actual document dimensions
+            canvasInstance.setWidth(currentCanvasConfig.width);
+            canvasInstance.setHeight(currentCanvasConfig.height);
+            canvasInstance.calcOffset();
+            canvasInstance.renderAll();
+            
+            // Export at high quality
+            const multiplier = exportOpts.multiplier || 6;
+            let dataURL = canvasInstance.toDataURL({ 
+                format: 'png',
+                quality: 1.0, 
+                multiplier: multiplier
+            });
+            
+            // Convert to JPEG
+            dataURL = await convertToJPEG(dataURL);
+            
+            // Restore the display state
+            canvasInstance.setZoom(currentZoom);
+            canvasInstance.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
+            canvasInstance.calcOffset();
+            canvasInstance.renderAll();
+            
+            if (exportOpts.applyGrayscale) {
+                try { 
+                    dataURL = await applyGrayscaleToDataURL(dataURL, 'image/jpeg'); 
+                } catch (error) { 
+                    console.error("Grayscale failed:", error); 
+                }
+            }
+            
+            return dataURL;
+        }
+        
         function applyGrayscaleToDataURL(dataURL, outputFormat = 'image/jpeg') {
             return new Promise((resolve, reject) => {
                 const img = new Image();
@@ -1938,16 +2042,25 @@
             });
         }
         async function downloadImageFile(canvasToExport, filename) {
-            if (!canvasToExport || canvasToExport.getObjects().length === 0) { showMessage("Canvas is empty. Generate content first.", 'error'); return; }
-            showMessage('Preparing JPEG... Please wait.', 'info', 0);
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) { 
+                showMessage("Canvas is empty. Generate content first.", 'error'); 
+                return; 
+            }
+            showMessage('Preparing high-quality JPEG... Please wait.', 'info', 0);
             
-            const exportOptions = { multiplier: downloadMultiplier, format: 'jpeg' };
+            // Use high multiplier for better quality
+            const exportOptions = { 
+                multiplier: downloadMultiplier || 6, 
+                format: 'jpeg' 
+            };
+            
             try {
                 const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
                 const link = document.createElement('a');
-                link.download = filename; link.href = dataURL;
+                link.download = filename; 
+                link.href = dataURL;
                 link.click();
-                showMessage('JPEG Download Initiated!', 'success', 3000);
+                showMessage('High-quality JPEG downloaded!', 'success', 3000);
             } catch (error) {
                 showMessage(`Error preparing JPEG: ${error.message}`, 'error');
             }
@@ -2093,22 +2206,13 @@
     }
 
 async function downloadPDF(canvasToExport, filename) {
-            if (!canvasToExport || canvasToExport.getObjects().length === 0) { showMessage("Canvas is empty. Generate content first.", 'error'); return; }
-            showMessage('Preparing PDF... Please wait.', 'info', 0);
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) { 
+                showMessage("Canvas is empty. Generate content first.", 'error'); 
+                return; 
+            }
+            showMessage('Preparing high-quality PDF... Please wait.', 'info', 0);
 
             const { jsPDF } = window.jspdf;
-            
-            // Save current state
-            const currentZoom = canvasToExport.getZoom();
-            const currentWidth = canvasToExport.getWidth();
-            const currentHeight = canvasToExport.getHeight();
-            
-            // Reset to actual size for export
-            canvasToExport.setZoom(1);
-            canvasToExport.setDimensions({
-                width: currentCanvasConfig.width,
-                height: currentCanvasConfig.height
-            });
             
             // Determine orientation
             const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'landscape' : 'portrait';
@@ -2121,25 +2225,18 @@ async function downloadPDF(canvasToExport, filename) {
             });
 
             try {
-                const imgData = canvasToExport.toDataURL('image/jpeg', 1.0);
+                // Use high-quality export function with multiplier
+                const exportOptions = { 
+                    multiplier: 6,  // High resolution for PDF
+                    applyGrayscale: grayscaleToggle.checked 
+                };
+                
+                const imgData = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
                 pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
                 
-                // Restore display state
-                canvasToExport.setZoom(currentZoom);
-                canvasToExport.setDimensions({
-                    width: currentWidth,
-                    height: currentHeight
-                });
-                
                 pdf.save(filename);
-                showMessage('PDF Downloaded!', 'success');
+                showMessage('High-quality PDF Downloaded!', 'success');
             } catch (error) {
-                // Restore display state on error too
-                canvasToExport.setZoom(currentZoom);
-                canvasToExport.setDimensions({
-                    width: currentWidth,
-                    height: currentHeight
-                });
                 showMessage(`Error creating PDF: ${error.message}`, "error");
             }
         }

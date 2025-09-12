@@ -320,11 +320,11 @@
             <div class="accordion-content">
                 <label for="pageSizeSelect">Page Size:</label>
                 <select id="pageSizeSelect">
-                    <option value="612x792">Letter Portrait (8.5×11")</option>
-                    <option value="792x612">Letter Landscape (11×8.5")</option>
-                    <option value="595x842">A4 Portrait (210×297mm)</option>
-                    <option value="842x595">A4 Landscape (297×210mm)</option>
-                    <option value="1200x1200">Square (1200x1200)</option>
+                    <option value="612x792">Letter Portrait (612×792)</option>
+                    <option value="792x612">Letter Landscape (792×612)</option>
+                    <option value="595x842">A4 Portrait (595×842)</option>
+                    <option value="842x595">A4 Landscape (842×595)</option>
+                    <option value="1200x1200">Square (1200×1200)</option>
                     <option value="custom">Custom</option>
                 </select>
                 <div id="customPageSizeInputs" style="display:none;">
@@ -499,6 +499,127 @@
       let currentLocale = 'en'; // Current language setting
       let allImages = [];
       let uploadedImages = [];
+      
+      // --- Treasure Hunt Translations ---
+      const treasureHuntTranslations = {
+          startAt: {
+              en: "Start at",
+              de: "Beginne bei",
+              fr: "Commence à",
+              es: "Comienza en",
+              pt: "Comece em",
+              it: "Inizia a",
+              nl: "Begin bij",
+              sv: "Börja vid",
+              da: "Start ved",
+              no: "Start ved",
+              fi: "Aloita kohdasta"
+          },
+          move: {
+              en: "Move",
+              de: "Gehe",
+              fr: "Déplace",
+              es: "Mueve",
+              pt: "Mova",
+              it: "Muovi",
+              nl: "Ga",
+              sv: "Flytta",
+              da: "Flyt",
+              no: "Flytt",
+              fi: "Liiku"
+          },
+          north: {
+              en: "north",
+              de: "nach Norden",
+              fr: "vers le nord",
+              es: "al norte",
+              pt: "para o norte",
+              it: "a nord",
+              nl: "naar het noorden",
+              sv: "norrut",
+              da: "nordpå",
+              no: "nordover",
+              fi: "pohjoiseen"
+          },
+          south: {
+              en: "south",
+              de: "nach Süden",
+              fr: "vers le sud",
+              es: "al sur",
+              pt: "para o sul",
+              it: "a sud",
+              nl: "naar het zuiden",
+              sv: "söderut",
+              da: "sydpå",
+              no: "sørover",
+              fi: "etelään"
+          },
+          east: {
+              en: "east",
+              de: "nach Osten",
+              fr: "vers l'est",
+              es: "al este",
+              pt: "para o leste",
+              it: "a est",
+              nl: "naar het oosten",
+              sv: "österut",
+              da: "østpå",
+              no: "østover",
+              fi: "itään"
+          },
+          west: {
+              en: "west",
+              de: "nach Westen",
+              fr: "vers l'ouest",
+              es: "al oeste",
+              pt: "para o oeste",
+              it: "a ovest",
+              nl: "naar het westen",
+              sv: "västerut",
+              da: "vestpå",
+              no: "vestover",
+              fi: "länteen"
+          },
+          square: {
+              en: "square",
+              de: "Feld",
+              fr: "case",
+              es: "casilla",
+              pt: "casa",
+              it: "casella",
+              nl: "vak",
+              sv: "ruta",
+              da: "felt",
+              no: "rute",
+              fi: "ruutu"
+          },
+          squares: {
+              en: "squares",
+              de: "Felder",
+              fr: "cases",
+              es: "casillas",
+              pt: "casas",
+              it: "caselle",
+              nl: "vakken",
+              sv: "rutor",
+              da: "felter",
+              no: "ruter",
+              fi: "ruutua"
+          },
+          whereIsTreasure: {
+              en: "Where is the treasure?",
+              de: "Wo ist der Schatz?",
+              fr: "Où est le trésor?",
+              es: "¿Dónde está el tesoro?",
+              pt: "Onde está o tesouro?",
+              it: "Dov'è il tesoro?",
+              nl: "Waar is de schat?",
+              sv: "Var är skatten?",
+              da: "Hvor er skatten?",
+              no: "Hvor er skatten?",
+              fi: "Missä on aarre?"
+          }
+      };
       let selectedImages = [];
       let availableThemes = [];
       let lastGeneratedData = null; 
@@ -627,26 +748,55 @@
 
       function initializeCanvas(canvasEl) {
           return new fabric.Canvas(canvasEl, {
-              width: currentCanvasConfig.width,
-              height: currentCanvasConfig.height,
               backgroundColor: '#fff',
               preserveObjectStacking: true,
               enableRetinaScaling: true
           });
       }
 
-      function updateCanvasDisplayDimensions() {
-          const { width, height } = currentCanvasConfig;
+      function updateCanvasDisplayDimensions(width, height) {
+          currentCanvasConfig.width = width;
+          currentCanvasConfig.height = height;
+          
           const mainStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
           const availableWidth = parseFloat(mainStyle.width) - parseFloat(mainStyle.paddingLeft) - parseFloat(mainStyle.paddingRight) - 10;
           const availableHeight = parseFloat(mainStyle.height) - parseFloat(mainStyle.paddingTop) - parseFloat(mainStyle.paddingBottom) - 10;
-          const displayWidth = Math.min(width, availableWidth);
-          const displayHeight = Math.min(height, availableHeight);
           
-          [worksheetCanvas, answerKeyCanvas].forEach(c => { if(c) { c.setWidth(width); c.setHeight(height); c.calcOffset(); c.renderAll(); }});
-          [worksheetCanvasWrapper, answerKeyCanvasWrapper].forEach(w => { if(w) { w.style.width = displayWidth + 'px'; w.style.height = displayHeight + 'px'; }});
+          // Apply 25% scaling for better visibility
+          // Extra 25% for landscape orientations
+          const isLandscape = width > height;
+          const baseScale = 1.25; // Base 25% larger for all
+          const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+          const displayScale = baseScale * landscapeBonus;
           
-          pageWidthInput.value = width; pageHeightInput.value = height;
+          // Calculate display dimensions with scaling
+          const scaledWidth = width * displayScale;
+          const scaledHeight = height * displayScale;
+          
+          // Ensure it fits in available space
+          const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+          const displayWidth = scaledWidth * scaleRatio;
+          const displayHeight = scaledHeight * scaleRatio;
+          
+          [worksheetCanvas, answerKeyCanvas].forEach(c => {
+              if (c) {
+                  // Apply zoom for display scaling
+                  const finalZoom = (displayWidth / width);
+                  c.setZoom(finalZoom);
+                  
+                  // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+                  c.setDimensions({
+                      width: displayWidth,
+                      height: displayHeight
+                  });
+                  
+                  c.calcOffset();
+                  c.renderAll();
+              }
+          });
+          
+          pageWidthInput.value = width;
+          pageHeightInput.value = height;
       }
       
       pageSizeSelect.addEventListener('change', function() {
@@ -655,14 +805,13 @@
           } else {
               customPageSizeInputsDiv.style.display = 'none';
               const [w, h] = this.value.split('x').map(Number);
-              currentCanvasConfig.width = w; currentCanvasConfig.height = h;
-              updateCanvasDisplayDimensions();
+              updateCanvasDisplayDimensions(w, h);
           }
       });
       customPageSizeInputs.addEventListener('change', () => {
-          currentCanvasConfig.width = parseInt(pageWidthInput.value, 10);
-          currentCanvasConfig.height = parseInt(pageHeightInput.value, 10);
-          updateCanvasDisplayDimensions();
+          const width = parseInt(pageWidthInput.value, 10);
+          const height = parseInt(pageHeightInput.value, 10);
+          updateCanvasDisplayDimensions(width, height);
       });
 
       pageColorInput.addEventListener('input', () => {
@@ -906,8 +1055,7 @@
         searchInput.value = "";
         themeSelect.value = "all";
         pageSizeSelect.value = "612x792"; customPageSizeInputsDiv.style.display = 'none';
-        currentCanvasConfig = { width: 612, height: 792 };
-        updateCanvasDisplayDimensions();
+        updateCanvasDisplayDimensions(612, 792);
         handleSelectionCleared(null, getActiveCanvas());
         showMessage("Form cleared.", "success", 2000); 
         loadDictionary();
@@ -961,6 +1109,20 @@
         }
         const canvas = worksheetCanvas;
         
+        // Use actual page dimensions, not zoomed canvas dimensions
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        
+        // Professional margins (5-6% of page dimensions)
+        const marginTop = pageHeight * 0.06;
+        const marginBottom = pageHeight * 0.06;
+        const marginLeft = pageWidth * 0.06;
+        const marginRight = pageWidth * 0.06;
+        
+        // Available content area
+        const contentWidth = pageWidth - marginLeft - marginRight;
+        const contentHeight = pageHeight - marginTop - marginBottom;
+        
         const oldTransforms = {};
         canvas.getObjects().forEach(o => {
             if (o.isGeneratedItem) {
@@ -977,28 +1139,42 @@
         const puzzleGroup = await createPuzzleGridGroup(gridMap);
         puzzleGroup.set({ isGeneratedItem: true, selectable: true, originalIndex: 0 });
 
+        // Instructions text with proper width constraint
         const instructionsText = new fabric.Textbox(instructions.join('\n'), {
-            width: canvas.width,
+            width: contentWidth,
             fontSize: 20, fontFamily: 'Fredoka', textAlign: 'center',
             isGeneratedItem: true, selectable: true, originalIndex: 1
         });
         
         const generatedItems = [puzzleGroup, instructionsText];
         
+        // Calculate scale to fit within content area
         const totalWidth = Math.max(puzzleGroup.getScaledWidth(), instructionsText.getScaledWidth());
         const totalHeight = puzzleGroup.getScaledHeight() + instructionsText.getScaledHeight() + 20;
-        const scaleToFit = Math.min((canvas.width * 0.9) / totalWidth, (canvas.height * 0.9) / totalHeight);
+        const scaleToFit = Math.min(contentWidth / totalWidth, contentHeight / totalHeight);
         
         if (!oldTransforms[0] && scaleToFit < 1) { // Only auto-scale if not previously positioned
             generatedItems.forEach(item => item.scale(scaleToFit));
         }
         
+        // Position elements within the content area
         const padding = 20 * (scaleToFit < 1 && !oldTransforms[0] ? scaleToFit : 1);
         const totalContentHeight = puzzleGroup.getScaledHeight() + instructionsText.getScaledHeight() + padding;
-        const startY = (canvas.height - totalContentHeight) / 2;
+        const startY = marginTop + (contentHeight - totalContentHeight) / 2;
 
-        instructionsText.set({ left: canvas.width / 2, top: startY, originX: 'center', originY: 'top' });
-        puzzleGroup.set({ left: canvas.width / 2, top: startY + instructionsText.getScaledHeight() + padding, originX: 'center', originY: 'top' });
+        instructionsText.set({ 
+            left: pageWidth / 2, 
+            top: startY, 
+            originX: 'center', 
+            originY: 'top' 
+        });
+        
+        puzzleGroup.set({ 
+            left: pageWidth / 2, 
+            top: startY + instructionsText.getScaledHeight() + padding, 
+            originX: 'center', 
+            originY: 'top' 
+        });
         
         generatedItems.forEach(item => {
             if (oldTransforms[item.originalIndex]) {
@@ -1046,12 +1222,26 @@
             }));
         }
 
+        // Use actual page dimensions
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        
+        // Professional margins
+        const marginTop = pageHeight * 0.06;
+        const marginBottom = pageHeight * 0.06;
+        const marginLeft = pageWidth * 0.06;
+        const marginRight = pageWidth * 0.06;
+        
+        // Available content area
+        const contentWidth = pageWidth - marginLeft - marginRight;
+        const contentHeight = pageHeight - marginTop - marginBottom;
+        
         const { gridMap, finalPos } = lastGeneratedData;
         const puzzleGroup = await createPuzzleGridGroup(gridMap, finalPos);
         puzzleGroup.set({ isAnswerKeyItem: true, originX: 'center', originY: 'center', originalIndex: 0 });
         
         if (!oldTransforms[0]) { // Only auto-scale if not previously positioned
-             const scaleToFit = Math.min((canvas.width * 0.9) / puzzleGroup.getScaledWidth(), (canvas.height * 0.9) / puzzleGroup.getScaledHeight());
+             const scaleToFit = Math.min(contentWidth / puzzleGroup.getScaledWidth(), contentHeight / puzzleGroup.getScaledHeight());
              if (scaleToFit < 1) puzzleGroup.scale(scaleToFit);
         }
 
@@ -1060,7 +1250,11 @@
         if (oldTransforms[0]) {
             puzzleGroup.set(oldTransforms[0]);
         } else {
-            puzzleGroup.center();
+            // Center within content area
+            puzzleGroup.set({
+                left: pageWidth / 2,
+                top: pageHeight / 2
+            });
         }
         puzzleGroup.setCoords();
 
@@ -1071,7 +1265,15 @@
     
     async function createPuzzleGridGroup(gridMap, finalPos = null) {
         const gridSize = 5;
-        const cellSize = 140;
+        
+        // Adaptive cell size based on page dimensions
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const minDimension = Math.min(pageWidth, pageHeight);
+        
+        // Cell size should be approximately 1/7 of the smaller page dimension
+        // This ensures the 5x5 grid fits well with margins
+        const cellSize = Math.min(140, Math.floor(minDimension / 7));
         const gridElements = [];
         
         const gridLines = [];
@@ -1151,23 +1353,92 @@
       } return moves;
     }
     function movesToFiveInstructions(moves, startPos) {
-      const lines = [`Start at ${String.fromCharCode(65 + startPos.row)}${startPos.col + 1}.`];
-      moves.forEach((m,i) => lines.push(`Move ${m.dir} ${m.steps} square${m.steps !== 1 ? 's' : ''}.`));
-      lines[lines.length-1] += ' Where is the treasure?';
-      while(lines.length<5) lines.push('...'); return lines.slice(0,5);
+      const t = treasureHuntTranslations;
+      const locale = currentLocale || 'en';
+      
+      // Get translated text
+      const startText = t.startAt[locale] || t.startAt.en;
+      const moveText = t.move[locale] || t.move.en;
+      const squareText = t.square[locale] || t.square.en;
+      const squaresText = t.squares[locale] || t.squares.en;
+      const treasureText = t.whereIsTreasure[locale] || t.whereIsTreasure.en;
+      
+      // Build instructions
+      const lines = [`${startText} ${String.fromCharCode(65 + startPos.row)}${startPos.col + 1}.`];
+      
+      moves.forEach((m, i) => {
+          const direction = t[m.dir][locale] || t[m.dir].en;
+          const unit = m.steps !== 1 ? squaresText : squareText;
+          lines.push(`${moveText} ${direction} ${m.steps} ${unit}.`);
+      });
+      
+      lines[lines.length-1] = lines[lines.length-1].replace('.', '') + ' ' + treasureText;
+      
+      while(lines.length<5) lines.push('...'); 
+      return lines.slice(0,5);
     }
     function applyMove(p, d, s) { if(d==='north')p.row-=s; if(d==='south')p.row+=s; if(d==='west')p.col-=s; if(d==='east')p.col+=s; return p; }
     function applyMoves(p, m) { m.forEach(move => p = applyMove(p, move.dir, move.steps)); return p; }
 
-    async function getCanvasDataURLWithOptions(canvasInstance, exportOptions) {
-        const { multiplier, applyPixelLevelGrayscale } = exportOptions;
-        const format = 'jpeg';
-        let dataURL = canvasInstance.toDataURL({ format, quality: 1.0, multiplier });
-        if (applyPixelLevelGrayscale) {
-            try { dataURL = await applyGrayscaleToDataURL(dataURL, `image/${format}`, 1.0); }
-            catch (error) { console.error("Grayscale conversion failed:", error); }
-        }
+    async function getCanvasDataURL(canvasInstance, forPDF = false) {
+        // Save current state
+        const currentZoom = canvasInstance.getZoom();
+        const currentWidth = canvasInstance.getWidth();
+        const currentHeight = canvasInstance.getHeight();
+        
+        // Reset to actual dimensions for export
+        canvasInstance.setZoom(1);
+        canvasInstance.setDimensions({
+            width: currentCanvasConfig.width,
+            height: currentCanvasConfig.height
+        });
+        
+        // Use lower multiplier for PDFs to reduce file size
+        // 3x is sufficient for PDF quality while keeping file size reasonable
+        const multiplier = forPDF ? 3 : 6;
+        
+        // Export at high quality
+        const dataURL = canvasInstance.toDataURL({
+            format: 'png',
+            quality: 1.0,
+            multiplier: multiplier
+        });
+        
+        // Restore display state
+        canvasInstance.setZoom(currentZoom);
+        canvasInstance.setDimensions({
+            width: currentWidth,
+            height: currentHeight
+        });
+        
         return dataURL;
+    }
+    
+    async function getFabricCanvasDataURLWithOptions(canvasInstance, exportOptions) {
+        return await getCanvasDataURL(canvasInstance);
+    }
+    
+    async function getCanvasDataURLWithOptions(canvasInstance, exportOptions) {
+        // For backward compatibility
+        return await getCanvasDataURL(canvasInstance);
+    }
+    
+    async function convertToJPEG(pngDataURL) {
+        return new Promise((resolve) => {
+            const img = new Image();
+            img.onload = () => {
+                const canvas = document.createElement('canvas');
+                canvas.width = img.width;
+                canvas.height = img.height;
+                const ctx = canvas.getContext('2d');
+                // White background for JPEG
+                ctx.fillStyle = '#FFFFFF';
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+                ctx.drawImage(img, 0, 0);
+                resolve(canvas.toDataURL('image/jpeg', 1.0));
+            };
+            img.src = pngDataURL;
+        });
     }
     async function applyGrayscaleToDataURL(dataURL, outputFormat, quality) {
         return new Promise((resolve, reject) => {
@@ -1199,12 +1470,12 @@
             return;
         }
         showMessage('Preparing JPEG...', 'info', 0);
-        const exportOptions = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
         try {
-            const dataURL = await getCanvasDataURLWithOptions(canvasInstance, exportOptions);
+            const pngDataURL = await getCanvasDataURL(canvasInstance);
+            const jpegDataURL = await convertToJPEG(pngDataURL);
             const link = document.createElement('a');
             link.download = fileName;
-            link.href = dataURL;
+            link.href = jpegDataURL;
             link.click();
             showMessage('Download Initiated!', 'success');
         } catch (e) {
@@ -1219,13 +1490,23 @@
             return;
         }
         showMessage('Preparing PDF...', 'info', 0);
-        const exportOptions = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
         try {
             const { jsPDF } = window.jspdf;
-            const orientation = canvasInstance.width > canvasInstance.height ? 'l' : 'p';
-            const pdf = new jsPDF({ orientation, unit: 'pt', format: [canvasInstance.width, canvasInstance.height] });
-            const imgData = await getCanvasDataURLWithOptions(canvasInstance, exportOptions);
-            pdf.addImage(imgData, 'JPEG', 0, 0, canvasInstance.width, canvasInstance.height);
+            const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
+            const pdf = new jsPDF({ 
+                orientation, 
+                unit: 'pt', 
+                format: [currentCanvasConfig.width, currentCanvasConfig.height],
+                compress: true // Enable PDF compression
+            });
+            
+            // Get optimized data for PDF (3x multiplier instead of 6x)
+            const pngDataURL = await getCanvasDataURL(canvasInstance, true);
+            // Convert to JPEG for smaller PDF size
+            const jpegDataURL = await convertToJPEG(pngDataURL);
+            
+            // Add as JPEG which is much smaller in PDFs than PNG
+            pdf.addImage(jpegDataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
             pdf.save(fileName);
             showMessage('PDF Downloaded!', 'success');
         } catch (e) {
@@ -1294,7 +1575,7 @@
       setupCanvasEventListeners(answerKeyCanvas);
       
       window.addEventListener('keydown', (e) => { if(e.key==='Delete'||e.key==='Backspace') if(!['INPUT','TEXTAREA'].includes(document.activeElement.tagName)) deleteSelectedObjects(); });
-      updateCanvasDisplayDimensions();
+      updateCanvasDisplayDimensions(612, 792); // Initialize with Letter Portrait
       clearBtn.addEventListener("click", clearAll);
       imageUploadInput.addEventListener('change', (e) => {
           [...e.target.files].forEach(file => {

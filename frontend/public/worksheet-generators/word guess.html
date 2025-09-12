@@ -420,11 +420,11 @@
             <div class="accordion-content">
                 <label for="pageSizeSelect">Page Size:</label>
                 <select id="pageSizeSelect">
-                    <option value="612x792">Letter Portrait (8.5×11")</option>
-                    <option value="842x595">A4 Landscape (297×210mm)</option>
-                    <option value="595x842">A4 Portrait (210×297mm)</option>
-                    <option value="792x612">Letter Landscape (11×8.5")</option>
-                    <option value="1200x1200">Square (1200x1200)</option>
+                    <option value="612x792">Letter Portrait (612×792)</option>
+                    <option value="792x612">Letter Landscape (792×612)</option>
+                    <option value="595x842">A4 Portrait (595×842)</option>
+                    <option value="842x595">A4 Landscape (842×595)</option>
+                    <option value="1200x1200">Square (1200×1200)</option>
                     <option value="custom">Custom</option>
                 </select>
                 <div id="customPageSizeInputs" style="display:none;">
@@ -904,16 +904,41 @@
             currentCanvasConfig.height = height;
             const wrapperStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
             const availableWidth = parseFloat(wrapperStyle.width) - parseFloat(wrapperStyle.paddingLeft) - parseFloat(wrapperStyle.paddingRight) - 10;
-            const displayWidth = Math.min(width, availableWidth);
-            const scale = displayWidth / width;
-            const displayHeight = height * scale;
+            const availableHeight = parseFloat(wrapperStyle.height) - parseFloat(wrapperStyle.paddingTop) - parseFloat(wrapperStyle.paddingBottom) - 10;
+            
+            // Apply 25% scaling for better visibility
+            // Extra 25% for landscape orientations
+            const isLandscape = width > height;
+            const baseScale = 1.25; // Base 25% larger for all
+            const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+            const displayScale = baseScale * landscapeBonus;
+            
+            // Calculate display dimensions with scaling
+            const scaledWidth = width * displayScale;
+            const scaledHeight = height * displayScale;
+            
+            // Ensure it fits in available space
+            const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+            const displayWidth = scaledWidth * scaleRatio;
+            const displayHeight = scaledHeight * scaleRatio;
             
             [worksheetCanvas, answerKeyCanvas].forEach(c => {
-                if (c) { c.setWidth(width); c.setHeight(height); c.setZoom(scale); c.calcOffset(); c.renderAll(); }
+                if (c) {
+                    // Apply zoom for display scaling
+                    const finalZoom = (displayWidth / width);
+                    c.setZoom(finalZoom);
+                    
+                    // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+                    c.setDimensions({
+                        width: displayWidth,
+                        height: displayHeight
+                    });
+                    
+                    c.calcOffset();
+                    c.renderAll();
+                }
             });
-            [ui.worksheetCanvasWrapper, ui.answerKeyCanvasWrapper].forEach(w => {
-                if(w) { w.style.width = displayWidth + 'px'; w.style.height = displayHeight + 'px'; }
-            });
+            
             if (!fromLoad) { ui.pageWidthInput.value = width; ui.pageHeightInput.value = height; }
         }
 
@@ -1098,8 +1123,22 @@
             if (!activeObj) return;
 
             if (type.includes('Canvas')) { // Align single object to canvas
-                if (type === 'centerHCanvas') activeObj.centerH();
-                if (type === 'centerVCanvas') activeObj.centerV();
+                // Use actual page dimensions, not zoomed viewport
+                const pageWidth = currentCanvasConfig.width;
+                const pageHeight = currentCanvasConfig.height;
+                
+                if (type === 'centerHCanvas') {
+                    // Center horizontally on the actual page
+                    const centerX = pageWidth / 2;
+                    activeObj.set('left', centerX);
+                    activeObj.set('originX', 'center');
+                }
+                if (type === 'centerVCanvas') {
+                    // Center vertically on the actual page
+                    const centerY = pageHeight / 2;
+                    activeObj.set('top', centerY);
+                    activeObj.set('originY', 'center');
+                }
             }
             else if (activeObj.type === 'activeSelection') { // Align multiple objects to each other
                 const group = activeObj;
@@ -1265,6 +1304,8 @@
             
             // Part B, Step 1: Preserve State
             const oldTransforms = {};
+            const oldPuzzleCount = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem).length;
+            
             worksheetCanvas.getObjects().forEach(obj => {
                 if (obj.isGeneratedItem) {
                     oldTransforms[obj.originalIndex] = {
@@ -1279,6 +1320,12 @@
             oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
 
             const puzzleCount = parseInt(ui.puzzleCount.value, 10);
+            
+            // Clear old transforms if we're changing the puzzle count to avoid overlaps
+            const newPuzzleCount = puzzleCount;
+            if (newPuzzleCount !== oldPuzzleCount) {
+                Object.keys(oldTransforms).forEach(key => delete oldTransforms[key]);
+            }
             const difficulty = parseInt(document.querySelector('input[name="difficulty"]:checked').value, 10);
             const excludeSet = new Set((ui.excludeLetters.value || '').toUpperCase().split(''));
             
@@ -1338,6 +1385,8 @@
 
             // Part C, Step 1: Preserve State
             const oldTransforms = {};
+            const oldPuzzleCount = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem).length;
+            
             answerKeyCanvas.getObjects().forEach(obj => {
                 if (obj.isAnswerKeyItem) {
                     oldTransforms[obj.originalIndex] = {
@@ -1350,6 +1399,12 @@
             // Part C, Step 2: Precise Removal
             const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground);
             objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
+            
+            // Clear old transforms if puzzle count changed to avoid overlaps
+            const newPuzzleCount = lastGeneratedPuzzles.length;
+            if (newPuzzleCount !== oldPuzzleCount) {
+                Object.keys(oldTransforms).forEach(key => delete oldTransforms[key]);
+            }
 
             // Part C, Step 3: Clone Decoratives
             const background = worksheetCanvas.getObjects().find(o => o.isBackground);
@@ -1381,106 +1436,185 @@
         }
 
         async function renderPuzzles(canvas, puzzlesData, isAnswerKey, oldTransforms = {}) {
-            const topMargin = 30;
-            const bottomMargin = 30;
-            let currentY = topMargin;
-            let availableHeight = canvas.height - topMargin - bottomMargin;
+            // Use actual page dimensions, not zoomed canvas dimensions
+            const pageWidth = currentCanvasConfig.width;
+            const pageHeight = currentCanvasConfig.height;
+            const isLandscape = pageWidth > pageHeight;
             
-            if (ui.includeNameDate.checked && !isAnswerKey) {
-                const nameDateHeight = 40;
-                availableHeight -= (nameDateHeight + 15);
-            }
+            // Professional margins - slightly smaller for better space utilization
+            const topMargin = pageHeight * 0.07;
+            const bottomMargin = pageHeight * 0.07;
+            const leftMargin = pageWidth * 0.07;
+            const rightMargin = pageWidth * 0.07;
             
-            const baseRowHeight = 85; 
-            const requiredHeight = puzzlesData.length * baseRowHeight;
-
-            let scale = 1.0;
-            if (requiredHeight > availableHeight) {
-                scale = availableHeight / requiredHeight;
-            }
-
-            const cellWidth = 45 * scale;
-            const cellHeight = 45 * scale;
-            const imageWidth = 120 * scale;
-            const rowPadding = 25 * scale;
-            const fontSize = 30 * scale;
-            const numFontSize = 24 * scale;
-
+            let availableWidth = pageWidth - leftMargin - rightMargin;
+            
+            // Determine if we should use two columns (landscape with more than 5 exercises)
+            const useColumns = isLandscape && puzzlesData.length > 5;
+            const columnGap = useColumns ? pageWidth * 0.05 : 0;
+            const columnWidth = useColumns ? (availableWidth - columnGap) / 2 : availableWidth;
+            
+            // Add name/date if needed
+            const nameDateHeight = (ui.includeNameDate.checked && !isAnswerKey) ? 50 : 0;
             if (ui.includeNameDate.checked && !isAnswerKey) {
                 const nameDateGroup = new fabric.Group([
                     new fabric.Textbox("Name: ________________", { left: 0, top: 0, fontSize: 18 }),
                     new fabric.Textbox("Date: ________", { left: 350, top: 0, fontSize: 18 })
-                ], { left: 40, top: currentY, selectable: true, hasControls: true, evented: true });
+                ], { left: leftMargin, top: topMargin, selectable: true, hasControls: true, evented: true });
                 canvas.add(nameDateGroup);
-                currentY += nameDateGroup.height + 15;
             }
-
+            
+            // Calculate puzzle area
+            const puzzleAreaTop = topMargin + nameDateHeight;
+            const puzzleAreaHeight = pageHeight - puzzleAreaTop - bottomMargin;
+            
+            // Distribute items across columns
+            let columnItems = [];
+            if (useColumns) {
+                // Split items evenly between columns
+                const itemsPerColumn = Math.ceil(puzzlesData.length / 2);
+                columnItems = [
+                    puzzlesData.slice(0, itemsPerColumn),
+                    puzzlesData.slice(itemsPerColumn)
+                ];
+            } else {
+                columnItems = [puzzlesData];
+            }
+            
+            // Calculate base dimensions
+            const baseRowHeight = 85;
+            const baseRowWidth = 120 + 15 + (8 * 45); // image + padding + max 8 letter cells
+            
+            // Calculate optimal scale
+            let scale = 1.0;
+            
+            // First check horizontal constraints
+            const horizontalScale = Math.min(1.0, columnWidth / baseRowWidth);
+            
+            // Then check vertical constraints for each column
+            let verticalScale = 1.0;
+            for (let items of columnItems) {
+                if (items.length > 0) {
+                    // Each item gets equal share of the height
+                    const heightPerItem = puzzleAreaHeight / items.length;
+                    const itemScale = heightPerItem / baseRowHeight;
+                    verticalScale = Math.min(verticalScale, itemScale);
+                }
+            }
+            
+            // Use the smaller scale, but cap for readability
+            scale = Math.min(horizontalScale, verticalScale);
+            scale = Math.min(scale, 1.2); // Don't make it too large
+            scale = Math.max(scale, 0.4); // Don't make it too small
+            
+            // Calculate scaled dimensions
+            const cellWidth = 45 * scale;
+            const cellHeight = 45 * scale;
+            const imageWidth = 120 * scale;
+            const fontSize = Math.max(18, 30 * scale);
+            const numFontSize = Math.max(14, 24 * scale);
+            
+            // Calculate actual row height after scaling
+            const actualRowHeight = Math.max(cellHeight, imageWidth * 0.75); // Approximate height
+            
             const caseValue = document.querySelector('input[name="letterCase"]:checked').value;
-
-            for (let i = 0; i < puzzlesData.length; i++) {
-                const puzzle = puzzlesData[i];
-                const rowElements = [];
-                let currentX = 0;
+            
+            // Render each column
+            let globalIndex = 0;
+            for (let colIdx = 0; colIdx < columnItems.length; colIdx++) {
+                const items = columnItems[colIdx];
+                if (items.length === 0) continue;
                 
-                const img = await new Promise(resolve => fabric.Image.fromURL(puzzle.image.path, resolve, { crossOrigin: 'anonymous' }));
-                img.scaleToWidth(imageWidth);
+                // Calculate column position
+                const columnX = leftMargin + (colIdx * (columnWidth + columnGap));
+                
+                // Calculate spacing for this column to fill the height
+                const totalItemHeight = actualRowHeight * items.length;
+                const totalSpacing = puzzleAreaHeight - totalItemHeight;
+                
+                // Distribute spacing: half at top/bottom, rest between items
+                const edgeSpacing = totalSpacing * 0.15; // 15% at top and bottom
+                const betweenSpacing = items.length > 1 
+                    ? (totalSpacing - 2 * edgeSpacing) / (items.length - 1)
+                    : 0;
+                
+                // Start position for this column
+                let currentY = puzzleAreaTop + edgeSpacing;
+                
+                // Render items in this column
+                for (let itemIdx = 0; itemIdx < items.length; itemIdx++) {
+                    const puzzle = items[itemIdx];
+                    const rowElements = [];
+                    let currentX = 0;
+                    
+                    const img = await new Promise(resolve => fabric.Image.fromURL(puzzle.image.path, resolve, { crossOrigin: 'anonymous' }));
+                    img.scaleToWidth(imageWidth);
 
-                if (ui.includeExerciseNumbers.checked) {
-                    const numText = new fabric.Text(`${i + 1}.`, {
-                        left: currentX, fontSize: numFontSize, originY: 'center',
-                        top: img.getScaledHeight() / 2
+                    if (ui.includeExerciseNumbers.checked) {
+                        const numText = new fabric.Text(`${globalIndex + 1}.`, {
+                            left: currentX, fontSize: numFontSize, originY: 'center',
+                            top: img.getScaledHeight() / 2
+                        });
+                        rowElements.push(numText);
+                        currentX += numText.width + (10 * scale);
+                    }
+                    
+                    img.set({ left: currentX, top: 0, selectable: false });
+                    
+                    const gridElements = [];
+                    for (let j = 0; j < puzzle.word.length; j++) {
+                        const rect = new fabric.Rect({
+                            width: cellWidth, height: cellHeight, fill: 'white', stroke: 'black',
+                            strokeWidth: 1, originX: 'left', originY: 'top',
+                        });
+                        const letter = caseValue === 'lower' ? puzzle.word[j].toLowerCase() : puzzle.word[j];
+                        const text = new fabric.Text(letter, {
+                            fontSize: fontSize, fontFamily: 'Fredoka', originX: 'center', originY: 'center',
+                            left: cellWidth / 2, top: cellHeight / 2,
+                            visible: isAnswerKey || puzzle.clueIndices.has(j)
+                        });
+                        const cellGroup = new fabric.Group([rect, text], { left: j * cellWidth, top: 0, });
+                        gridElements.push(cellGroup);
+                    }
+
+                    const gridGroup = new fabric.Group(gridElements, { 
+                        left: currentX + img.getScaledWidth() + (15 * scale),
+                        top: 0, selectable: false,
                     });
-                    rowElements.push(numText);
-                    currentX += numText.width + (10 * scale);
-                }
-                
-                img.set({ left: currentX, top: 0, selectable: false });
-                
-                const gridElements = [];
-                for (let j = 0; j < puzzle.word.length; j++) {
-                    const rect = new fabric.Rect({
-                        width: cellWidth, height: cellHeight, fill: 'white', stroke: 'black',
-                        strokeWidth: 1, originX: 'left', originY: 'top',
+                    
+                    const rowHeight = Math.max(img.getScaledHeight(), gridGroup.height);
+                    img.top = (rowHeight - img.getScaledHeight()) / 2;
+                    gridGroup.top = (rowHeight - gridGroup.height) / 2;
+                    
+                    const numObject = rowElements.find(el => el.type === 'text');
+                    if (numObject) { numObject.top = img.top + (img.getScaledHeight() / 2); }
+
+                    rowElements.push(img, gridGroup);
+                    
+                    const rowGroup = new fabric.Group(rowElements, { 
+                        top: currentY, 
+                        left: columnX, 
+                        selectable: true, 
+                        evented: true, 
+                        objectCaching: false,
+                        borderColor: 'var(--app-accent-primary)', 
+                        cornerColor: 'var(--app-accent-primary)',
+                        isGeneratedItem: !isAnswerKey,
+                        isAnswerKeyItem: isAnswerKey,
+                        originalIndex: globalIndex
                     });
-                    const letter = caseValue === 'lower' ? puzzle.word[j].toLowerCase() : puzzle.word[j];
-                    const text = new fabric.Text(letter, {
-                        fontSize: fontSize, fontFamily: 'Fredoka', originX: 'center', originY: 'center',
-                        left: cellWidth / 2, top: cellHeight / 2,
-                        visible: isAnswerKey || puzzle.clueIndices.has(j)
-                    });
-                    const cellGroup = new fabric.Group([rect, text], { left: j * cellWidth, top: 0, });
-                    gridElements.push(cellGroup);
+                    
+                    // Re-apply transform if it exists
+                    if (oldTransforms[globalIndex]) {
+                        rowGroup.set(oldTransforms[globalIndex]);
+                    }
+
+                    canvas.add(rowGroup);
+                    
+                    // Move to next position
+                    currentY += actualRowHeight + betweenSpacing;
+                    globalIndex++;
                 }
-
-                const gridGroup = new fabric.Group(gridElements, { 
-                    left: currentX + img.getScaledWidth() + (15 * scale),
-                    top: 0, selectable: false,
-                });
-                
-                const rowHeight = Math.max(img.getScaledHeight(), gridGroup.height);
-                img.top = (rowHeight - img.getScaledHeight()) / 2;
-                gridGroup.top = (rowHeight - gridGroup.height) / 2;
-                
-                const numObject = rowElements.find(el => el.type === 'text');
-                if (numObject) { numObject.top = img.top + (img.getScaledHeight() / 2); }
-
-                rowElements.push(img, gridGroup);
-                
-                const rowGroup = new fabric.Group(rowElements, { 
-                    top: currentY, left: 30, selectable: true, evented: true, objectCaching: false,
-                    borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
-                    isGeneratedItem: !isAnswerKey,
-                    isAnswerKeyItem: isAnswerKey,
-                    originalIndex: i
-                });
-                
-                // Re-apply transform if it exists
-                if (oldTransforms[i]) {
-                    rowGroup.set(oldTransforms[i]);
-                }
-
-                canvas.add(rowGroup);
-                currentY += rowGroup.height + rowPadding;
             }
         }
         
@@ -1673,9 +1807,32 @@
         }
         
         // --- Download Logic ---
-        async function getCanvasDataURL(canvasInstance, format = 'jpeg') {
-            const options = { format: format, quality: 1.0, multiplier: downloadMultiplier };
+        async function getCanvasDataURL(canvasInstance, format = 'jpeg', forPDF = false) {
+            // Save current state
+            const currentZoom = canvasInstance.getZoom();
+            const currentWidth = canvasInstance.getWidth();
+            const currentHeight = canvasInstance.getHeight();
+            
+            // Reset to actual dimensions for export
+            canvasInstance.setZoom(1);
+            canvasInstance.setDimensions({
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
+            });
+            
+            // Use lower multiplier for PDFs to reduce file size
+            const multiplier = forPDF ? 3 : downloadMultiplier;
+            
+            const options = { format: format, quality: 1.0, multiplier: multiplier };
             let dataURL = canvasInstance.toDataURL(options);
+            
+            // Restore display state
+            canvasInstance.setZoom(currentZoom);
+            canvasInstance.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
+            
             if (ui.grayscaleToggle.checked) {
                 try { dataURL = await applyGrayscaleToDataURL(dataURL, `image/${format}`); }
                 catch (error) { console.error("Grayscale failed:", error); }
@@ -1870,11 +2027,16 @@ async function downloadPDF(canvasToExport, fileName = 'download') {
             showMessage('Preparing PDF...', 'info', 0);
             try {
                 const { jsPDF } = window.jspdf;
-                const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
-                const pdf = new jsPDF({ orientation, unit: 'pt', format: [canvasToExport.width, canvasToExport.height] });
+                const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
+                const pdf = new jsPDF({ 
+                    orientation, 
+                    unit: 'pt', 
+                    format: [currentCanvasConfig.width, currentCanvasConfig.height],
+                    compress: true
+                });
                 
-                const imgData = await getCanvasDataURL(canvasToExport, 'jpeg');
-                pdf.addImage(imgData, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+                const imgData = await getCanvasDataURL(canvasToExport, 'jpeg', true);
+                pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
                 
                 pdf.save(`clue-grid_${fileName}.pdf`);
                 showMessage('PDF Downloaded!', 'success');

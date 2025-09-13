@@ -1300,7 +1300,8 @@
                     try {
                         const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
                         if (!response.ok) throw new Error(`Failed to load default theme`);
-                        imagesToDisplay = await response.json();
+                        const data = await response.json();
+                        imagesToDisplay = data.images || data;
                     } catch (error) {
                         console.error(error);
                         showMessage(error.message, 'error');
@@ -1311,7 +1312,8 @@
                     try {
                         const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
                         if (!response.ok) throw new Error(`Failed to search for "${query}"`);
-                        imagesToDisplay = await response.json();
+                        const data = await response.json();
+                        imagesToDisplay = data.images || data;
                     } catch (error) {
                         console.error(error);
                         showMessage(error.message, 'error');
@@ -1385,6 +1387,45 @@
                 console.error("Theme loading error:", error);
                 showMessage('Could not load themes.', 'error');
             }
+            renderDictionary();
+        }
+        
+        async function loadDictionary() {
+            // Load dictionary images - wrapper for renderDictionary
+            const theme = themeSelect.value;
+            const query = searchInput.value.trim();
+            
+            if (theme === 'all') {
+                if (!query) {
+                    // Load animals theme by default when "All Themes" selected with no search
+                    try {
+                        const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                        if (response.ok) {
+                            const data = await response.json();
+                            // Extract images array from API response
+                            const images = data.images || data;
+                            appState.imageCache = images;
+                        }
+                    } catch (error) {
+                        console.error('Error loading default images:', error);
+                    }
+                } else {
+                    // Handle search across all themes
+                    try {
+                        const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                        if (response.ok) {
+                            const data = await response.json();
+                            // Extract images array from API response  
+                            const images = data.images || data;
+                            appState.imageCache = images;
+                        }
+                    } catch (error) {
+                        console.error('Error searching images:', error);
+                    }
+                }
+            }
+            
+            // Display images in the dictionary div
             renderDictionary();
         }
 
@@ -2459,7 +2500,8 @@ async function downloadPDF(canvasToExport, filename) {
                     dictionaryDiv.innerHTML = `<p class='dictionary-message'>Loading theme...</p>`;
                     const response = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to load theme: ${theme}`);
-                    appState.imageCache = await response.json();
+                    const data = await response.json();
+                    appState.imageCache = data.images || data;
                 } catch (error) {
                     console.error("Theme loading error:", error);
                     showMessage(error.message, 'error');
@@ -2608,7 +2650,9 @@ async function downloadPDF(canvasToExport, filename) {
             setupTextToolListeners();
 
             updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
-            loadThemes();
+            loadThemes().then(() => {
+                loadDictionary(); // Load images after themes are loaded
+            });
             loadBorderThemes();
             loadBackgroundThemes();
             renderSelectedImagePreview();

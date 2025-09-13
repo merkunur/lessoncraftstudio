@@ -1259,10 +1259,10 @@
         }
 
         function handleItemModeChange() { const isManual = dom.itemThemeSelect.value === 'manual'; dom.itemManualSelectionGroup.style.display = isManual ? 'block' : 'none'; updateGenerateButtonState(); }
-        async function handleManualItemThemeChange() { manualSelectItemTheme = dom.themeSelect.value; dom.dictionary.innerHTML = `<p class="dictionary-message">Loading...</p>`; if (manualSelectItemTheme !== 'all') { currentItemThemeImages = await fetchFromApi(`/api/images?theme=${encodeURIComponent(manualSelectItemTheme)}&locale=${currentLocale}`, `Failed to load images`); } await renderDictionary('item'); }
+        async function handleManualItemThemeChange() { manualSelectItemTheme = dom.themeSelect.value; dom.dictionary.innerHTML = `<p class="dictionary-message">Loading...</p>`; if (manualSelectItemTheme !== 'all') { const response = await fetchFromApi(`/api/images?theme=${encodeURIComponent(manualSelectItemTheme)}&locale=${currentLocale}`, `Failed to load images`); currentItemThemeImages = response.images || response; } await renderDictionary('item'); }
         
         function handleShapeModeChange() { const isManual = dom.shapeThemeSelect.value === 'manual'; dom.shapeManualSelectionGroup.style.display = isManual ? 'block' : 'none'; }
-        async function handleManualShapeThemeChange() { manualSelectShapeTheme = dom.shapeImageThemeSelect.value; dom.shapeDictionary.innerHTML = `<p class="dictionary-message">Loading...</p`; if (manualSelectShapeTheme !== 'all') { currentShapeThemeImages = await fetchFromApi(`/api/images?theme=${encodeURIComponent(manualSelectShapeTheme)}&locale=${currentLocale}`, `Failed to load images`); } await renderDictionary('shape'); }
+        async function handleManualShapeThemeChange() { manualSelectShapeTheme = dom.shapeImageThemeSelect.value; dom.shapeDictionary.innerHTML = `<p class="dictionary-message">Loading...</p`; if (manualSelectShapeTheme !== 'all') { const response = await fetchFromApi(`/api/images?theme=${encodeURIComponent(manualSelectShapeTheme)}&locale=${currentLocale}`, `Failed to load images`); currentShapeThemeImages = response.images || response; } await renderDictionary('shape'); }
 
         async function renderDictionary(type) { // type can be 'item' or 'shape'
             const isItem = type === 'item';
@@ -1280,7 +1280,8 @@
                     // Load default theme (animals) when no search query
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading default images...</p>`;
                     try {
-                        imagesToDisplay = await fetchFromApi(`/api/images?theme=animals&locale=${currentLocale}`, `Failed to load default images`);
+                        const response = await fetchFromApi(`/api/images?theme=animals&locale=${currentLocale}`, `Failed to load default images`);
+                        imagesToDisplay = response.images || response;
                     } catch (err) {
                         console.error("Error loading default images:", err);
                         dictionaryDiv.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
@@ -1288,13 +1289,15 @@
                     }
                 } else {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-                    imagesToDisplay = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`, `Failed to search`);
+                    const response = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`, `Failed to search`);
+                    imagesToDisplay = response.images || response;
                 }
             } else {
                 // For specific theme, we need to load the images if not already loaded
                 if (!themeImages || themeImages.length === 0) {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading theme images...</p>`;
-                    const loadedImages = await fetchFromApi(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`, `Failed to load theme images`);
+                    const response = await fetchFromApi(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`, `Failed to load theme images`);
+                    const loadedImages = response.images || response;
                     if (isItem) {
                         currentItemThemeImages = loadedImages;
                     } else {
@@ -1386,7 +1389,8 @@
                 if (selectedItems.length < exerciseCount) { showMessage(`Please select at least ${exerciseCount} item images.`, 'error'); return; }
                 itemsToUse = shuffleArray(selectedItems).slice(0, exerciseCount);
             } else {
-                let themeImages = (dom.itemThemeSelect.value === 'all') ? await fetchFromApi(`/api/images?search=&locale=${currentLocale}`, 'Failed to fetch all images') : await fetchFromApi(`/api/images?theme=${encodeURIComponent(dom.itemThemeSelect.value)}&locale=${currentLocale}`, 'Failed to fetch theme images');
+                let themeResponse = (dom.itemThemeSelect.value === 'all') ? await fetchFromApi(`/api/images?search=&locale=${currentLocale}`, 'Failed to fetch all images') : await fetchFromApi(`/api/images?theme=${encodeURIComponent(dom.itemThemeSelect.value)}&locale=${currentLocale}`, 'Failed to fetch theme images');
+                let themeImages = themeResponse.images || themeResponse;
                 const allAvailable = [...themeImages, ...uploadedImages];
                 if (allAvailable.length < exerciseCount) { showMessage(`Not enough images in this theme (${allAvailable.length}) to generate.`, 'error'); return; }
                 itemsToUse = shuffleArray(allAvailable).slice(0, exerciseCount);
@@ -1396,7 +1400,8 @@
             if (dom.shapeThemeSelect.value === 'manual') {
                 shapesToUse = [...selectedShapes];
             } else {
-                let themeImages = (dom.shapeThemeSelect.value === 'all') ? await fetchFromApi(`/api/images?search=&locale=${currentLocale}`, 'Failed to fetch all images') : await fetchFromApi(`/api/images?theme=${encodeURIComponent(dom.shapeThemeSelect.value)}&locale=${currentLocale}`, 'Failed to fetch shape images');
+                let themeResponse = (dom.shapeThemeSelect.value === 'all') ? await fetchFromApi(`/api/images?search=&locale=${currentLocale}`, 'Failed to fetch all images') : await fetchFromApi(`/api/images?theme=${encodeURIComponent(dom.shapeThemeSelect.value)}&locale=${currentLocale}`, 'Failed to fetch shape images');
+                let themeImages = themeResponse.images || themeResponse;
                 const allAvailable = [...themeImages, ...uploadedImages];
                 if (allAvailable.length > 0) shapesToUse = shuffleArray(allAvailable).slice(0, exerciseCount);
             }

@@ -1192,11 +1192,13 @@
                         return;
                     }
                     const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
-                    imagesToRender = await res.json();
+                    const data = await res.json();
+                    imagesToRender = data.images || data; // Handle both old and new API formats
                     currentThemeImages = [];
                 } else {
                     const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
-                    const themeImages = await res.json();
+                    const data = await res.json();
+                const themeImages = data.images || data; // Handle both old and new API formats
                     currentThemeImages = themeImages;
                     imagesToRender = query ? themeImages.filter(img => (img.name || img.word).toLowerCase().includes(query)) : themeImages;
                 }

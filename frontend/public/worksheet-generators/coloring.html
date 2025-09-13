@@ -965,8 +965,8 @@ document.addEventListener("DOMContentLoaded", function() {
         dictionaryDiv.innerHTML = `<p class='dictionary-message'>Loading...</p>`;
         fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`)
             .then(res => res.ok ? res.json() : Promise.reject(`Failed to load images for theme: ${selectedTheme}`))
-            .then(images => {
-                currentThemeImages = images;
+            .then(data => {
+                currentThemeImages = data.images || data;
                 renderDictionary();
             })
             .catch(err => {
@@ -992,7 +992,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 try {
                     const res = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
                     if (!res.ok) throw new Error(`Failed to load default images`);
-                    imagesToDisplay = await res.json();
+                    const data = await res.json();
+                    imagesToDisplay = data.images || data;
                 } catch (err) {
                     console.error("Error loading default images:", err);
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Select a theme or type to search all images.</p>`;
@@ -1002,7 +1003,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 // Show a "Searching..." message while waiting for the server
                 dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
                 // Fetch results from the server instead of filtering locally
-                imagesToDisplay = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`, `Failed to search for "${query}"`);
+                const response = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`, `Failed to search for "${query}"`);
+                imagesToDisplay = response.images || response;
             }
         } else {
             // This is the original logic for filtering within a specific, already-loaded theme

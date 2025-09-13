@@ -1,0 +1,122 @@
+{
+  "folder_name": "Miscellaneous",
+  "name": {
+    "en": "Miscellaneous",
+    "de": "Verschiedenes",
+    "fr": "Divers",
+    "es": "Varios",
+    "pt": "Diversos",
+    "it": "Vari",
+    "nl": "Diversen",
+    "sv": "Övrigt",
+    "da": "Diverse",
+    "no": "Diverse",
+    "fi": "Sekalaiset"
+  },
+  "images": {
+    "baseball": {
+      "en": "Baseball",
+      "de": "Baseball",
+      "fr": "Baseball",
+      "es": "Béisbol",
+      "pt": "Beisebol",
+      "it": "Baseball",
+      "nl": "Honkbal",
+      "sv": "Baseboll",
+      "da": "Baseball",
+      "no": "Baseball",
+      "fi": "Pesäpallo"
+    },
+    "book": {
+      "en": "Book",
+      "de": "Buch",
+      "fr": "Livre",
+      "es": "Libro",
+      "pt": "Livro",
+      "it": "Libro",
+      "nl": "Boek",
+      "sv": "Bok",
+      "da": "Bog",
+      "no": "Bok",
+      "fi": "Kirja"
+    },
+    "carpet": {
+      "en": "Carpet",
+      "de": "Teppich",
+      "fr": "Tapis",
+      "es": "Alfombra",
+      "pt": "Tapete",
+      "it": "Tappeto",
+      "nl": "Tapijt",
+      "sv": "Matta",
+      "da": "Tæppe",
+      "no": "Teppe",
+      "fi": "Matto"
+    },
+    "cup": {
+      "en": "Cup",
+      "de": "Tasse",
+      "fr": "Tasse",
+      "es": "Taza",
+      "pt": "Xícara",
+      "it": "Tazza",
+      "nl": "Kopje",
+      "sv": "Kopp",
+      "da": "Kop",
+      "no": "Kopp",
+      "fi": "Kuppi"
+    },
+    "cupboard": {
+      "en": "Cupboard",
+      "de": "Schrank",
+      "fr": "Placard",
+      "es": "Armario",
+      "pt": "Armário",
+      "it": "Armadio",
+      "nl": "Kast",
+      "sv": "Skåp",
+      "da": "Skab",
+      "no": "Skap",
+      "fi": "Kaappi"
+    },
+    "curtain": {
+      "en": "Curtain",
+      "de": "Vorhang",
+      "fr": "Rideau",
+      "es": "Cortina",
+      "pt": "Cortina",
+      "it": "Tenda",
+      "nl": "Gordijn",
+      "sv": "Gardin",
+      "da": "Gardin",
+      "no": "Gardin",
+      "fi": "Verho"
+    },
+    "desk": {
+      "en": "Desk",
+      "de": "Schreibtisch",
+      "fr": "Bureau",
+      "es": "Escritorio",
+      "pt": "Mesa",
+      "it": "Scrivania",
+      "nl": "Bureau",
+      "sv": "Skrivbord",
+      "da": "Skrivebord",
+      "no": "Pult",
+      "fi": "Pöytä"
+    },
+    "door": {
+      "en": "Door",
+      "de": "Tür",
+      "fr": "Porte",
+      "es": "Puerta",
+      "pt": "Porta",
+      "it": "Porta",
+      "nl": "Deur",
+      "sv": "Dörr",
+      "da": "Dør",
+      "no": "Dør",
+      "fi": "Ovi"
+    }
+  }
+}

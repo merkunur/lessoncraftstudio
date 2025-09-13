@@ -3,14 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "sync": "node scripts/sync-directus-simple.js",
+    "dev": "npm run sync && next dev",
+    "build": "npm run sync && next build",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
     "@prisma/client": "^6.15.0",
     "@stripe/stripe-js": "^7.9.0",
+    "axios": "^1.6.0",
     "@types/bcryptjs": "^2.4.6",
     "bcryptjs": "^3.0.2",
     "class-variance-authority": "^0.7.1",

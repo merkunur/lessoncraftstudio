@@ -1,0 +1,27 @@
+FROM node:20-slim
+
+# Install dependencies for image processing
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    python3 \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+
+# Install dependencies without sharp issues
+RUN npm ci --production
+
+# Copy application files
+COPY . .
+
+# Build Strapi admin
+RUN npm run build
+
+# Expose port
+EXPOSE 1337
+
+# Start Strapi in production mode
+CMD ["npm", "start"]

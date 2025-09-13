@@ -1245,10 +1245,12 @@
                   if (!query) {
                       // Load animals theme by default when no search query
                       dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading animals theme...</p>`;
-                      imagesToDisplay = await fetch(`/api/images?theme=animals&locale=${currentLocale}`).then(res => res.json());
+                      const data = await fetch(`/api/images?theme=animals&locale=${currentLocale}`).then(res => res.json());
+                      imagesToDisplay = data.images || data;
                   } else {
                       dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-                      imagesToDisplay = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`).then(res => res.json());
+                      const data = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`).then(res => res.json());
+                      imagesToDisplay = data.images || data;
                   }
               } else {
                   const source = await getImagesForTheme(selectedTheme);
@@ -1692,7 +1694,8 @@
                   imagePool = await getImagesForTheme(theme);
               } else {
                   try {
-                      imagePool = await fetch(`/api/images?search=&locale=${currentLocale}`).then(res => res.json());
+                      const data = await fetch(`/api/images?search=&locale=${currentLocale}`).then(res => res.json());
+                      imagePool = data.images || data;
                   } catch (e) {
                       console.error("Failed to fetch all images for auto-creation:", e);
                       if (allThemes.length > 0) {

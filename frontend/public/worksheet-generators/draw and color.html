@@ -981,7 +981,8 @@ document.addEventListener("DOMContentLoaded", function() {
             return;
         }
         // Encode the theme parameter for the API call
-        currentThemeImages = await fetchFromApi(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`, 'Could not load images for theme.');
+        const response = await fetchFromApi(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`, 'Could not load images for theme.');
+        currentThemeImages = response.images || response;
         renderDictionary();
     }
     
@@ -1017,7 +1018,8 @@ document.addEventListener("DOMContentLoaded", function() {
             // Show a "Searching..." message while waiting for the server
             dictionary.innerHTML = `<p class="dictionary-message">Searching...</p>`;
             // Fetch results from the server instead of filtering locally
-            imagesToDisplay = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`, `Failed to search for "${query}"`);
+            const response = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`, `Failed to search for "${query}"`);
+            imagesToDisplay = response.images || response;
         } else {
             // This is the original logic for filtering within a specific, already-loaded theme
             const source = currentThemeImages; // Assumes 'currentThemeImages' holds images for the selected theme

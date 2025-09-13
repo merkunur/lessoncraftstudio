@@ -918,7 +918,8 @@
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading animals...</p>`;
                     try {
                         const res = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
-                        imagesToDisplay = res.ok ? await res.json() : [];
+                        const data = res.ok ? await res.json() : {};
+                        imagesToDisplay = data.images || data || []; // Handle both new and old API formats
                     } catch (error) {
                         console.error('Error loading default theme:', error);
                         dictionaryDiv.innerHTML = `<p class="dictionary-message">Failed to load images.</p>`;
@@ -929,7 +930,8 @@
                     try {
                         const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
                         if (!res.ok) throw new Error(`Server search failed`);
-                        imagesToDisplay = await res.json();
+                        const searchData = await res.json();
+                        imagesToDisplay = searchData.images || searchData; // Handle both new and old API formats
                     } catch(e) {
                         showMessage(`Failed to search for "${query}"`, 'error');
                     }
@@ -2199,7 +2201,8 @@ async function downloadPDF(canvasInstance, baseFileName) {
                 try {
                     const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
                     if (!res.ok) throw new Error('Failed to fetch theme images');
-                    currentThemeImages = await res.json();
+                    const themeData = await res.json();
+                    currentThemeImages = themeData.images || themeData; // Handle both new and old API formats
                 } catch(e) {
                     showMessage(`Could not load images for theme: ${theme}`, 'error');
                     currentThemeImages = [];

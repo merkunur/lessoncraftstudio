@@ -1,0 +1,96 @@
+{
+  "folder_name": "general",
+  "name": {
+    "en": "General",
+    "de": "Allgemein",
+    "fr": "Général",
+    "es": "General",
+    "pt": "Geral",
+    "it": "Generale",
+    "nl": "Algemeen",
+    "sv": "Allmän",
+    "da": "Generel",
+    "no": "Generell",
+    "fi": "Yleinen"
+  },
+  "images": {
+    "apple": {
+      "en": "Apple",
+      "de": "Apfel",
+      "fr": "Pomme",
+      "es": "Manzana",
+      "pt": "Maçã",
+      "it": "Mela",
+      "nl": "Appel",
+      "sv": "Äpple",
+      "da": "Æble",
+      "no": "Eple",
+      "fi": "Omena"
+    },
+    "banana": {
+      "en": "Banana",
+      "de": "Banane",
+      "fr": "Banane",
+      "es": "Plátano",
+      "pt": "Banana",
+      "it": "Banana",
+      "nl": "Banaan",
+      "sv": "Banan",
+      "da": "Banan",
+      "no": "Banan",
+      "fi": "Banaani"
+    },
+    "carrot": {
+      "en": "Car",
+      "de": "Auto",
+      "fr": "Voiture",
+      "es": "Coche",
+      "pt": "Carro",
+      "it": "Auto",
+      "nl": "Auto",
+      "sv": "Bil",
+      "da": "Bil",
+      "no": "Bil",
+      "fi": "Auto"
+    },
+    "dog": {
+      "en": "Dog",
+      "de": "Hund",
+      "fr": "Chien",
+      "es": "Perro",
+      "pt": "Cão",
+      "it": "Cane",
+      "nl": "Hond",
+      "sv": "Hund",
+      "da": "Hund",
+      "no": "Hund",
+      "fi": "Koira"
+    },
+    "egg": {
+      "en": "Egg",
+      "de": "Egg",
+      "fr": "Egg",
+      "es": "Egg",
+      "pt": "Egg",
+      "it": "Egg",
+      "nl": "Egg",
+      "sv": "Egg",
+      "da": "Egg",
+      "no": "Egg",
+      "fi": "Egg"
+    },
+    "fish": {
+      "en": "Fish",
+      "de": "Fisch",
+      "fr": "Poisson",
+      "es": "Pez",
+      "pt": "Peixe",
+      "it": "Pesce",
+      "nl": "Vis",
+      "sv": "Fisk",
+      "da": "Fisk",
+      "no": "Fisk",
+      "fi": "Kala"
+    }
+  }
+}

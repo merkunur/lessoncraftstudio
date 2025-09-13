@@ -956,12 +956,14 @@
             }
             try {
                 const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
-                imagesToRender = await res.json();
+                const data = await res.json();
+                    imagesToRender = data.images || data; // Handle both old and new API formats
             } catch (err) { dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error during search.</p>`; return; }
         } else {
             try {
                 const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
-                allImages = await res.json();
+                const data = await res.json();
+                allImages = data.images || data; // Handle both old and new API formats
                 imagesToRender = query ? allImages.filter(img => (img.name || img.word).toLowerCase().includes(query)) : allImages;
             } catch (err) { dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error loading images.</p>`; return; }
         }
@@ -1067,7 +1069,8 @@
         if (worksheetThemeValue) {
             try {
                 const res = await fetch(`/api/images?theme=${encodeURIComponent(worksheetThemeValue)}&locale=${currentLocale}`);
-                const themeImages = await res.json();
+                const data = await res.json();
+                const themeImages = data.images || data; // Handle both old and new API formats
                 if (themeImages.length === 0) { showMessage(`Theme "${worksheetThemeValue}" has no images.`, 'error'); return null; }
                 imagesForPuzzle = getRandomElements(themeImages, 6);
             } catch (e) { showMessage("Error loading theme images.", 'error'); return null; }

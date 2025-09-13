@@ -1026,6 +1026,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 applyTranslations();
             }
             
+            // Select the first theme or 'all' and load its images
+            if (themeSelect.options.length > 0 && !themeSelect.value) {
+                themeSelect.value = 'all';
+            }
             await renderDictionary();
         } catch (error) {
             console.error("Failed to initialize image library:", error);
@@ -1039,7 +1043,8 @@ document.addEventListener('DOMContentLoaded', () => {
             dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading ${selectedTheme} images...</p>`;
             try {
                 // Encode the theme parameter to handle slashes correctly
-                currentThemeImages = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`).then(res => res.json());
+                const data = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`).then(res => res.json());
+                currentThemeImages = data.images || data;
             } catch (e) {
                 showMessage('error', `Failed to load theme: ${selectedTheme}`);
                 currentThemeImages = [];
@@ -1062,10 +1067,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (!query) {
                     // Load animals theme by default when "All Themes" is selected with no search
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading animals...</p>`;
-                    imagesToDisplay = await fetch(`/api/images?theme=animals&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
+                    const data = await fetch(`/api/images?theme=animals&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
+                    imagesToDisplay = data.images || data;
                 } else {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-                    imagesToDisplay = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
+                    const data = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
+                    imagesToDisplay = data.images || data;
                 }
             } else {
                 imagesToDisplay = query ? currentThemeImages.filter(img => {
@@ -1156,11 +1163,13 @@ document.addEventListener('DOMContentLoaded', () => {
                  if (selectedImages.length !== 6) throw new Error(`When selecting manually, you must choose exactly 6 images. You have ${selectedImages.length}.`);
                 imagesForChartGeneration = [...selectedImages];
             } else if (chosenWorksheetTheme) {
-                const themeImages = await fetch(`/api/images?theme=${encodeURIComponent(chosenWorksheetTheme)}&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
+                const data = await fetch(`/api/images?theme=${encodeURIComponent(chosenWorksheetTheme)}&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
+                const themeImages = data.images || data;
                 if (themeImages.length < 6) throw new Error(`Theme "${chosenWorksheetTheme}" has fewer than 6 images. Please choose another theme or select images manually.`);
                 imagesForChartGeneration = getRandomElements(themeImages, 6);
             } else {
-                const allServerImages = await fetch(`/api/images?search=&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
+                const data = await fetch(`/api/images?search=&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
+                const allServerImages = data.images || data;
                 const combinedPool = [...new Map([...allServerImages, ...uploadedImages].map(item => [item.path, item])).values()];
                 if (combinedPool.length < 6) throw new Error('Not enough images in the library (requires 6). Please upload more.');
                 imagesForChartGeneration = getRandomElements(combinedPool, 6);

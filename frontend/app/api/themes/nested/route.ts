@@ -1,8 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+import imageLibraryManager from '@/lib/image-library-manager';
 
-// Translation dictionary for theme names
+// Translation dictionary for theme names (kept for backward compatibility)
 const themeTranslations: Record<string, Record<string, string>> = {
   'alphabet': {
     'en': 'Alphabet',
@@ -167,96 +166,20 @@ export async function GET(request: NextRequest) {
   const locale = searchParams.get('locale') || 'en';
   
   try {
-    // Try to fetch from Strapi first
-    const strapiUrl = process.env.STRAPI_URL || 'http://localhost:1337';
-    const response = await fetch(`${strapiUrl}/api/image-themes?locale=${locale}&populate=*`, {
-      cache: 'no-store'
-    });
+    // Use the ImageLibraryManager to get themes with automatic sync
+    const themes = imageLibraryManager.getThemes(locale);
     
-    if (response.ok) {
-      const data = await response.json();
-      const themePaths = data.data.map((theme: any) => {
-        const folderName = theme.attributes.folderName;
-        const displayName = theme.attributes.displayName || 
-                           theme.attributes.translations?.[locale] ||
-                           folderName;
-        
-        return {
-          path: folderName,
-          name: displayName,
-          displayName: displayName,
-          folderName: folderName
-        };
-      });
-      
-      themePaths.sort((a: any, b: any) => a.path.localeCompare(b.path));
-      return NextResponse.json(themePaths);
-    }
-  } catch (error) {
-    console.log('Strapi not available, falling back to file system');
-  }
-  
-  // Fallback to file system scanning if Strapi is not available
-  const imagesBaseDir = path.join(process.cwd(), 'public', 'images');
-  const excludedFolders = new Set(['borders', 'backgrounds', 'drawing lines', 'template', 'alphabetsvg']);
-  const themePaths: Array<{ path: string; name: string; displayName: string; folderName: string }> = [];
-  
-  function findThemeFolders(directory: string, currentPath = '') {
-    try {
-      const files = fs.readdirSync(directory, { withFileTypes: true });
-      let hasImages = false;
-      
-      // Check if this folder contains images
-      for (const file of files) {
-        if (!file.isDirectory() && /\.(png|jpe?g|gif|svg)$/i.test(file.name)) {
-          hasImages = true;
-          break;
-        }
-      }
-      
-      // If folder has images and is not root, add it as a theme
-      if (hasImages && currentPath !== '') {
-        const pathParts = currentPath.split(path.sep);
-        
-        // Translate each part of the path
-        const translatedParts = pathParts.map(part => {
-          return themeTranslations[part]?.[locale] || 
-                 themeTranslations[part]?.['en'] || 
-                 part.charAt(0).toUpperCase() + part.slice(1);
-        });
-        
-        // Join translated parts for display name
-        const displayName = translatedParts.join(' / ');
-        
-        themePaths.push({
-          path: currentPath.replace(/\\/g, '/'),
-          name: displayName,
-          displayName: displayName,
-          folderName: currentPath.replace(/\\/g, '/')
-        });
-      }
-      
-      // Recursively check subdirectories
-      for (const file of files) {
-        if (file.isDirectory()) {
-          // Skip excluded folders at root level
-          if (currentPath === '' && excludedFolders.has(file.name)) {
-            continue;
-          }
-          const newPath = currentPath ? path.join(currentPath, file.name) : file.name;
-          findThemeFolders(path.join(directory, file.name), newPath);
-        }
-      }
-    } catch (err) {
-      console.error(`Could not read directory: ${directory}`, err);
-    }
-  }
-  
-  try {
-    findThemeFolders(imagesBaseDir);
-    themePaths.sort((a, b) => a.path.localeCompare(b.path));
+    // Convert to expected format
+    const themePaths = themes.map(theme => ({
+      path: theme.value,
+      name: theme.displayName,
+      displayName: theme.displayName,
+      folderName: theme.value
+    }));
+    
     return NextResponse.json(themePaths);
   } catch (err) {
-    return NextResponse.json({ error: 'Error scanning for nested themes' }, { status: 500 });
+    console.error('Error getting themes:', err);
+    return NextResponse.json({ error: 'Error loading themes' }, { status: 500 });
   }
 }

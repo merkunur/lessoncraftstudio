@@ -1,0 +1,122 @@
+{
+  "folder_name": "drawing lines",
+  "name": {
+    "en": "Drawing Lines",
+    "de": "Linien zeichnen",
+    "fr": "Tracer des lignes",
+    "es": "Dibujar líneas",
+    "pt": "Desenhar linhas",
+    "it": "Disegnare linee",
+    "nl": "Lijnen tekenen",
+    "sv": "Rita linjer",
+    "da": "Tegne linjer",
+    "no": "Tegne linjer",
+    "fi": "Viivojen piirtäminen"
+  },
+  "images": {
+    "curve 1": {
+      "en": "Curve 1",
+      "de": "Curve 1",
+      "fr": "Curve 1",
+      "es": "Curve 1",
+      "pt": "Curve 1",
+      "it": "Curve 1",
+      "nl": "Curve 1",
+      "sv": "Curve 1",
+      "da": "Curve 1",
+      "no": "Curve 1",
+      "fi": "Curve 1"
+    },
+    "curve 2": {
+      "en": "Curve 2",
+      "de": "Curve 2",
+      "fr": "Curve 2",
+      "es": "Curve 2",
+      "pt": "Curve 2",
+      "it": "Curve 2",
+      "nl": "Curve 2",
+      "sv": "Curve 2",
+      "da": "Curve 2",
+      "no": "Curve 2",
+      "fi": "Curve 2"
+    },
+    "curve 3": {
+      "en": "Curve 3",
+      "de": "Curve 3",
+      "fr": "Curve 3",
+      "es": "Curve 3",
+      "pt": "Curve 3",
+      "it": "Curve 3",
+      "nl": "Curve 3",
+      "sv": "Curve 3",
+      "da": "Curve 3",
+      "no": "Curve 3",
+      "fi": "Curve 3"
+    },
+    "curve 4": {
+      "en": "Curve 4",
+      "de": "Curve 4",
+      "fr": "Curve 4",
+      "es": "Curve 4",
+      "pt": "Curve 4",
+      "it": "Curve 4",
+      "nl": "Curve 4",
+      "sv": "Curve 4",
+      "da": "Curve 4",
+      "no": "Curve 4",
+      "fi": "Curve 4"
+    },
+    "diagonal 1": {
+      "en": "Diagonal 1",
+      "de": "Diagonal 1",
+      "fr": "Diagonal 1",
+      "es": "Diagonal 1",
+      "pt": "Diagonal 1",
+      "it": "Diagonal 1",
+      "nl": "Diagonal 1",
+      "sv": "Diagonal 1",
+      "da": "Diagonal 1",
+      "no": "Diagonal 1",
+      "fi": "Diagonal 1"
+    },
+    "diagonal 2": {
+      "en": "Diagonal 2",
+      "de": "Diagonal 2",
+      "fr": "Diagonal 2",
+      "es": "Diagonal 2",
+      "pt": "Diagonal 2",
+      "it": "Diagonal 2",
+      "nl": "Diagonal 2",
+      "sv": "Diagonal 2",
+      "da": "Diagonal 2",
+      "no": "Diagonal 2",
+      "fi": "Diagonal 2"
+    },
+    "horizontal 1": {
+      "en": "Horizontal 1",
+      "de": "Horizontal 1",
+      "fr": "Horizontal 1",
+      "es": "Horizontal 1",
+      "pt": "Horizontal 1",
+      "it": "Horizontal 1",
+      "nl": "Horizontal 1",
+      "sv": "Horizontal 1",
+      "da": "Horizontal 1",
+      "no": "Horizontal 1",
+      "fi": "Horizontal 1"
+    },
+    "vertical 1": {
+      "en": "Vertical 1",
+      "de": "Vertical 1",
+      "fr": "Vertical 1",
+      "es": "Vertical 1",
+      "pt": "Vertical 1",
+      "it": "Vertical 1",
+      "nl": "Vertical 1",
+      "sv": "Vertical 1",
+      "da": "Vertical 1",
+      "no": "Vertical 1",
+      "fi": "Vertical 1"
+    }
+  }
+}

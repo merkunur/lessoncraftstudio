@@ -1,0 +1,181 @@
+{
+  "themes": [
+    {
+      "id": 1,
+      "folderName": "animals",
+      "name": {
+        "en": "Animals",
+        "de": "Tiere",
+        "fr": "Animaux",
+        "es": "Animales",
+        "pt": "Animais",
+        "it": "Animali",
+        "nl": "Dieren",
+        "sv": "Djur",
+        "da": "Dyr",
+        "no": "Dyr",
+        "fi": "Eläimet"
+      },
+      "sortOrder": 1,
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "folderName": "food",
+      "name": {
+        "en": "Food",
+        "de": "Essen",
+        "fr": "Nourriture",
+        "es": "Comida",
+        "pt": "Comida",
+        "it": "Cibo",
+        "nl": "Voedsel",
+        "sv": "Mat",
+        "da": "Mad",
+        "no": "Mat",
+        "fi": "Ruoka"
+      },
+      "sortOrder": 2,
+      "isActive": true
+    },
+    {
+      "id": 3,
+      "folderName": "transportation",
+      "name": {
+        "en": "Transportation",
+        "de": "Transport",
+        "fr": "Transport",
+        "es": "Transporte",
+        "pt": "Transporte",
+        "it": "Trasporti",
+        "nl": "Vervoer",
+        "sv": "Transport",
+        "da": "Transport",
+        "no": "Transport",
+        "fi": "Liikenne"
+      },
+      "sortOrder": 3,
+      "isActive": true
+    }
+  ],
+  "images": {
+    "animals": [
+      {
+        "fileName": "cat.png",
+        "name": {
+          "en": "Cat",
+          "de": "Katze",
+          "fr": "Chat",
+          "es": "Gato",
+          "pt": "Gato",
+          "it": "Gatto",
+          "nl": "Kat",
+          "sv": "Katt",
+          "da": "Kat",
+          "no": "Katt",
+          "fi": "Kissa"
+        }
+      },
+      {
+        "fileName": "dog.png",
+        "name": {
+          "en": "Dog",
+          "de": "Hund",
+          "fr": "Chien",
+          "es": "Perro",
+          "pt": "Cão",
+          "it": "Cane",
+          "nl": "Hond",
+          "sv": "Hund",
+          "da": "Hund",
+          "no": "Hund",
+          "fi": "Koira"
+        }
+      },
+      {
+        "fileName": "bird.png",
+        "name": {
+          "en": "Bird",
+          "de": "Vogel",
+          "fr": "Oiseau",
+          "es": "Pájaro",
+          "pt": "Pássaro",
+          "it": "Uccello",
+          "nl": "Vogel",
+          "sv": "Fågel",
+          "da": "Fugl",
+          "no": "Fugl",
+          "fi": "Lintu"
+        }
+      }
+    ],
+    "food": [
+      {
+        "fileName": "apple.png",
+        "name": {
+          "en": "Apple",
+          "de": "Apfel",
+          "fr": "Pomme",
+          "es": "Manzana",
+          "pt": "Maçã",
+          "it": "Mela",
+          "nl": "Appel",
+          "sv": "Äpple",
+          "da": "Æble",
+          "no": "Eple",
+          "fi": "Omena"
+        }
+      },
+      {
+        "fileName": "banana.png",
+        "name": {
+          "en": "Banana",
+          "de": "Banane",
+          "fr": "Banane",
+          "es": "Plátano",
+          "pt": "Banana",
+          "it": "Banana",
+          "nl": "Banaan",
+          "sv": "Banan",
+          "da": "Banan",
+          "no": "Banan",
+          "fi": "Banaani"
+        }
+      }
+    ],
+    "transportation": [
+      {
+        "fileName": "car.png",
+        "name": {
+          "en": "Car",
+          "de": "Auto",
+          "fr": "Voiture",
+          "es": "Coche",
+          "pt": "Carro",
+          "it": "Auto",
+          "nl": "Auto",
+          "sv": "Bil",
+          "da": "Bil",
+          "no": "Bil",
+          "fi": "Auto"
+        }
+      },
+      {
+        "fileName": "bus.png",
+        "name": {
+          "en": "Bus",
+          "de": "Bus",
+          "fr": "Bus",
+          "es": "Autobús",
+          "pt": "Ônibus",
+          "it": "Autobus",
+          "nl": "Bus",
+          "sv": "Buss",
+          "da": "Bus",
+          "no": "Buss",
+          "fi": "Bussi"
+        }
+      }
+    ]
+  }
+}

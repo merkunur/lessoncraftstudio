@@ -51,12 +51,6 @@ module.exports = ({ env }) => ({
       ],
     },
   },
-  upload: {
-    config: {
-      provider: 'local',
-      providerOptions: {
-        sizeLimit: 250 * 1024 * 1024, // 250MB
-      },
-    },
-  },
+  // Upload plugin completely disabled - using custom image management
+  upload: false,
 });

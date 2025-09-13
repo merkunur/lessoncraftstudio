@@ -8,7 +8,7 @@
     "description": "Themes for organizing worksheet images"
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {
     "i18n": {
@@ -16,6 +16,15 @@
     }
   },
   "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "folderName": {
       "type": "string",
       "required": true,
@@ -26,28 +35,6 @@
         }
       }
     },
-    "displayName": {
-      "type": "string",
-      "required": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "translations": {
-      "type": "json",
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
-    },
-    "parentTheme": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::image-theme.image-theme"
-    },
     "description": {
       "type": "text",
       "pluginOptions": {
@@ -56,13 +43,13 @@
         }
       }
     },
-    "thumbnail": {
-      "type": "media",
-      "allowedTypes": ["images"]
-    },
     "sortOrder": {
       "type": "integer",
       "default": 0
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": true
     }
   }
 }

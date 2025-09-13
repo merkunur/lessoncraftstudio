@@ -1,0 +1,57 @@
+{
+  "folder_name": "symbols",
+  "name": {
+    "en": "Symbols",
+    "de": "Symbole",
+    "fr": "Symboles",
+    "es": "Símbolos",
+    "pt": "Símbolos",
+    "it": "Simboli",
+    "nl": "Symbolen",
+    "sv": "Symboler",
+    "da": "Symboler",
+    "no": "Symboler",
+    "fi": "Symbolit"
+  },
+  "images": {
+    "equal": {
+      "en": "Equal",
+      "de": "Gleich",
+      "fr": "Égal",
+      "es": "Igual",
+      "pt": "Igual",
+      "it": "Uguale",
+      "nl": "Gelijk",
+      "sv": "Lika",
+      "da": "Lig",
+      "no": "Lik",
+      "fi": "Yhtä suuri"
+    },
+    "less": {
+      "en": "Less",
+      "de": "Weniger",
+      "fr": "Moins",
+      "es": "Menos",
+      "pt": "Menos",
+      "it": "Meno",
+      "nl": "Minder",
+      "sv": "Mindre",
+      "da": "Mindre",
+      "no": "Mindre",
+      "fi": "Vähemmän"
+    },
+    "more": {
+      "en": "More",
+      "de": "Mehr",
+      "fr": "Plus",
+      "es": "Más",
+      "pt": "Mais",
+      "it": "Più",
+      "nl": "Meer",
+      "sv": "Mer",
+      "da": "Mere",
+      "no": "Mer",
+      "fi": "Enemmän"
+    }
+  }
+}

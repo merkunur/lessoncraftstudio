@@ -1,0 +1,109 @@
+{
+  "folder_name": "furniture",
+  "name": {
+    "en": "Furniture",
+    "de": "Möbel",
+    "fr": "Meubles",
+    "es": "Muebles",
+    "pt": "Móveis",
+    "it": "Mobili",
+    "nl": "Meubels",
+    "sv": "Möbler",
+    "da": "Møbler",
+    "no": "Møbler",
+    "fi": "Huonekalut"
+  },
+  "images": {
+    "armchair": {
+      "en": "Armchair",
+      "de": "Sessel",
+      "fr": "Fauteuil",
+      "es": "Sillón",
+      "pt": "Poltrona",
+      "it": "Poltrona",
+      "nl": "Fauteuil",
+      "sv": "Fåtölj",
+      "da": "Lænestol",
+      "no": "Lenestol",
+      "fi": "Nojatuoli"
+    },
+    "bookshelf": {
+      "en": "Book",
+      "de": "Buch",
+      "fr": "Livre",
+      "es": "Libro",
+      "pt": "Livro",
+      "it": "Libro",
+      "nl": "Boek",
+      "sv": "Bok",
+      "da": "Bog",
+      "no": "Bok",
+      "fi": "Kirja"
+    },
+    "chair": {
+      "en": "Chair",
+      "de": "Stuhl",
+      "fr": "Chaise",
+      "es": "Silla",
+      "pt": "Cadeira",
+      "it": "Sedia",
+      "nl": "Stoel",
+      "sv": "Stol",
+      "da": "Stol",
+      "no": "Stol",
+      "fi": "Tuoli"
+    },
+    "cupboard": {
+      "en": "Cupboard",
+      "de": "Schrank",
+      "fr": "Placard",
+      "es": "Armario",
+      "pt": "Armário",
+      "it": "Armadio",
+      "nl": "Kast",
+      "sv": "Skåp",
+      "da": "Skab",
+      "no": "Skap",
+      "fi": "Kaappi"
+    },
+    "desk": {
+      "en": "Desk",
+      "de": "Schreibtisch",
+      "fr": "Bureau",
+      "es": "Escritorio",
+      "pt": "Mesa",
+      "it": "Scrivania",
+      "nl": "Bureau",
+      "sv": "Skrivbord",
+      "da": "Skrivebord",
+      "no": "Pult",
+      "fi": "Pöytä"
+    },
+    "dresser": {
+      "en": "Dresser",
+      "de": "Dresser",
+      "fr": "Dresser",
+      "es": "Dresser",
+      "pt": "Dresser",
+      "it": "Dresser",
+      "nl": "Dresser",
+      "sv": "Dresser",
+      "da": "Dresser",
+      "no": "Dresser",
+      "fi": "Dresser"
+    },
+    "table": {
+      "en": "Table",
+      "de": "Tisch",
+      "fr": "Table",
+      "es": "Mesa",
+      "pt": "Mesa",
+      "it": "Tavolo",
+      "nl": "Tafel",
+      "sv": "Bord",
+      "da": "Bord",
+      "no": "Bord",
+      "fi": "Pöytä"
+    }
+  }
+}

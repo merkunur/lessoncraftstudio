@@ -1752,7 +1752,8 @@ document.addEventListener("DOMContentLoaded", function() {
             try {
                 const res = await fetch(`/api/images?theme=${encodeURIComponent(animalsTheme)}&locale=${currentLocale}`);
                 if (!res.ok) throw new Error(`Failed to load animals theme`);
-                const themeImages = await res.json();
+                const data = await res.json();
+                const themeImages = data.images || data; // Handle both old and new API formats
                 allImages = themeImages;
                 imagesToRender = themeImages;
             } catch (err) {
@@ -1766,7 +1767,8 @@ document.addEventListener("DOMContentLoaded", function() {
             try {
                 const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
                 if (!res.ok) throw new Error(`Failed to search for "${query}"`);
-                imagesToRender = await res.json();
+                const data = await res.json();
+                    imagesToRender = data.images || data; // Handle both old and new API formats
                 allImages = []; // Not storing search results globally
             } catch (err) {
                 console.error("Error searching images:", err);
@@ -1781,7 +1783,8 @@ document.addEventListener("DOMContentLoaded", function() {
         try {
             const res = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
             if (!res.ok) throw new Error(`Failed to load images for theme`);
-            const themeImages = await res.json();
+            const data = await res.json();
+                const themeImages = data.images || data; // Handle both old and new API formats
             allImages = themeImages; // Store for generator and client-side filtering
             imagesToRender = query ? themeImages.filter(img => {
                 const searchTerm = (img.word || img.name || '').toLowerCase();

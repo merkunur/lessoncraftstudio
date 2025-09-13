@@ -1,0 +1,109 @@
+{
+  "folder_name": "new",
+  "name": {
+    "en": "New",
+    "de": "Neu",
+    "fr": "Nouveau",
+    "es": "Nuevo",
+    "pt": "Novo",
+    "it": "Nuovo",
+    "nl": "Nieuw",
+    "sv": "Ny",
+    "da": "Ny",
+    "no": "Ny",
+    "fi": "Uusi"
+  },
+  "images": {
+    "camera": {
+      "en": "Camera",
+      "de": "Kamera",
+      "fr": "Caméra",
+      "es": "Cámara",
+      "pt": "Câmera",
+      "it": "Fotocamera",
+      "nl": "Camera",
+      "sv": "Kamera",
+      "da": "Kamera",
+      "no": "Kamera",
+      "fi": "Kamera"
+    },
+    "crab": {
+      "en": "Crab",
+      "de": "Krabbe",
+      "fr": "Crabe",
+      "es": "Cangrejo",
+      "pt": "Caranguejo",
+      "it": "Granchio",
+      "nl": "Krab",
+      "sv": "Krabba",
+      "da": "Krabbe",
+      "no": "Krabbe",
+      "fi": "Rapu"
+    },
+    "gear": {
+      "en": "Gear",
+      "de": "Zahnrad",
+      "fr": "Engrenage",
+      "es": "Engranaje",
+      "pt": "Engrenagem",
+      "it": "Ingranaggio",
+      "nl": "Tandwiel",
+      "sv": "Kugghjul",
+      "da": "Tandhjul",
+      "no": "Tannhjul",
+      "fi": "Hammaspyörä"
+    },
+    "label": {
+      "en": "Label",
+      "de": "Etikett",
+      "fr": "Étiquette",
+      "es": "Etiqueta",
+      "pt": "Etiqueta",
+      "it": "Etichetta",
+      "nl": "Label",
+      "sv": "Etikett",
+      "da": "Etiket",
+      "no": "Etikett",
+      "fi": "Etiketti"
+    },
+    "lock": {
+      "en": "Lock",
+      "de": "Schloss",
+      "fr": "Serrure",
+      "es": "Cerradura",
+      "pt": "Fechadura",
+      "it": "Serratura",
+      "nl": "Slot",
+      "sv": "Lås",
+      "da": "Lås",
+      "no": "Lås",
+      "fi": "Lukko"
+    },
+    "magnifier": {
+      "en": "Magnifier",
+      "de": "Lupe",
+      "fr": "Loupe",
+      "es": "Lupa",
+      "pt": "Lupa",
+      "it": "Lente",
+      "nl": "Vergrootglas",
+      "sv": "Förstoringsglas",
+      "da": "Forstørrelsesglas",
+      "no": "Forstørrelsesglass",
+      "fi": "Suurennuslasi"
+    },
+    "music": {
+      "en": "Music",
+      "de": "Musik",
+      "fr": "Musique",
+      "es": "Música",
+      "pt": "Música",
+      "it": "Musica",
+      "nl": "Muziek",
+      "sv": "Musik",
+      "da": "Musik",
+      "no": "Musikk",
+      "fi": "Musiikki"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: lcs-postgres
+    environment:
+      POSTGRES_USER: lcsuser
+      POSTGRES_PASSWORD: lcspass123!
+      POSTGRES_DB: lessoncraftstudio
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - lcs-network
+    ports:
+      - "5432:5432"
+
+  directus:
+    image: directus/directus:latest
+    container_name: lcs-directus
+    ports:
+      - "8055:8055"
+    environment:
+      KEY: 'your-random-key-here'
+      SECRET: 'your-random-secret-here'
+      
+      # Database
+      DB_CLIENT: 'pg'
+      DB_HOST: 'postgres'
+      DB_PORT: '5432'
+      DB_DATABASE: 'lessoncraftstudio'
+      DB_USER: 'lcsuser'
+      DB_PASSWORD: 'lcspass123!'
+      
+      # Admin user
+      ADMIN_EMAIL: 'admin@lessoncraftstudio.com'
+      ADMIN_PASSWORD: 'admin123!'
+      
+      # File storage (local)
+      STORAGE_LOCATIONS: 'local'
+      STORAGE_LOCAL_DRIVER: 'local'
+      STORAGE_LOCAL_ROOT: './uploads'
+      
+      # Public URL
+      PUBLIC_URL: 'http://localhost:8055'
+    volumes:
+      - ./directus/uploads:/directus/uploads
+      - ./directus/extensions:/directus/extensions
+    depends_on:
+      - postgres
+    networks:
+      - lcs-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.dev
+    container_name: lcs-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: development
+      NEXT_PUBLIC_DIRECTUS_URL: http://localhost:8055
+      DIRECTUS_INTERNAL_URL: http://lcs-directus:8055
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+      - /app/.next
+    networks:
+      - lcs-network
+
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile.dev
+    container_name: lcs-api
+    ports:
+      - "3001:3001"
+    environment:
+      NODE_ENV: development
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_USER: lcsuser
+      DB_PASSWORD: lcspass123!
+      DB_NAME: lessoncraftstudio
+      DIRECTUS_URL: http://directus:8055
+    depends_on:
+      - postgres
+      - directus
+    networks:
+      - lcs-network
+
+  legacy-apps:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.legacy
+    container_name: lcs-legacy-apps
+    ports:
+      - "3002:80"
+    networks:
+      - lcs-network
+
+networks:
+  lcs-network:
+    driver: bridge
+
+volumes:
+  postgres_data:

@@ -1222,19 +1222,22 @@ document.addEventListener("DOMContentLoaded", function() {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading animals theme...</p>`;
                     const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to load animals theme`);
-                    imagesToDisplay = await response.json();
+                    const data = await response.json();
+                    imagesToDisplay = data.images || data;
                 } else {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
                     const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to search for "${query}"`);
-                    imagesToDisplay = await response.json();
+                    const data = await response.json();
+                    imagesToDisplay = data.images || data;
                 }
             } else {
                 if (!allImagesCache[selectedTheme]) {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading theme...</p>`;
                     const response = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to load theme: ${selectedTheme}`);
-                    allImagesCache[selectedTheme] = await response.json();
+                    const data = await response.json();
+                    allImagesCache[selectedTheme] = data.images || data;
                 }
                 const source = allImagesCache[selectedTheme] || [];
                 imagesToDisplay = query ? source.filter(img => {

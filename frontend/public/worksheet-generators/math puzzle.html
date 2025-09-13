@@ -996,7 +996,9 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         
         updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height, true);
-        loadThemes();
+        loadThemes().then(() => {
+            loadDictionary(); // Load images after themes are loaded
+        });
         loadBorderThemes();
         loadBackgroundThemes(); // <-- ADDED
         handleSelectionCleared(null, getActiveCanvas()); // Initialize text tools

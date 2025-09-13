@@ -1,0 +1,109 @@
+{
+  "folder_name": "object",
+  "name": {
+    "en": "Object",
+    "de": "Gegenstand",
+    "fr": "Objet",
+    "es": "Objeto",
+    "pt": "Objeto",
+    "it": "Oggetto",
+    "nl": "Voorwerp",
+    "sv": "Föremål",
+    "da": "Genstand",
+    "no": "Gjenstand",
+    "fi": "Esine"
+  },
+  "images": {
+    "badge": {
+      "en": "Badge",
+      "de": "Abzeichen",
+      "fr": "Badge",
+      "es": "Insignia",
+      "pt": "Crachá",
+      "it": "Distintivo",
+      "nl": "Badge",
+      "sv": "Märke",
+      "da": "Emblem",
+      "no": "Merke",
+      "fi": "Rintamerkki"
+    },
+    "beard": {
+      "en": "Beard",
+      "de": "Bart",
+      "fr": "Barbe",
+      "es": "Barba",
+      "pt": "Barba",
+      "it": "Barba",
+      "nl": "Baard",
+      "sv": "Skägg",
+      "da": "Skæg",
+      "no": "Skjegg",
+      "fi": "Parta"
+    },
+    "bone": {
+      "en": "Bone",
+      "de": "Knochen",
+      "fr": "Os",
+      "es": "Hueso",
+      "pt": "Osso",
+      "it": "Osso",
+      "nl": "Bot",
+      "sv": "Ben",
+      "da": "Knogle",
+      "no": "Bein",
+      "fi": "Luu"
+    },
+    "briefcase": {
+      "en": "Briefcase",
+      "de": "Aktentasche",
+      "fr": "Porte-documents",
+      "es": "Maletín",
+      "pt": "Pasta",
+      "it": "Valigetta",
+      "nl": "Aktetas",
+      "sv": "Portfölj",
+      "da": "Mappe",
+      "no": "Stresskoffert",
+      "fi": "Salkku"
+    },
+    "cane": {
+      "en": "Cane",
+      "de": "Gehstock",
+      "fr": "Canne",
+      "es": "Bastón",
+      "pt": "Bengala",
+      "it": "Bastone",
+      "nl": "Wandelstok",
+      "sv": "Käpp",
+      "da": "Stok",
+      "no": "Stokk",
+      "fi": "Keppi"
+    },
+    "car": {
+      "en": "Car",
+      "de": "Auto",
+      "fr": "Voiture",
+      "es": "Coche",
+      "pt": "Carro",
+      "it": "Auto",
+      "nl": "Auto",
+      "sv": "Bil",
+      "da": "Bil",
+      "no": "Bil",
+      "fi": "Auto"
+    },
+    "pencil": {
+      "en": "Pencil",
+      "de": "Bleistift",
+      "fr": "Crayon",
+      "es": "Lápiz",
+      "pt": "Lápis",
+      "it": "Matita",
+      "nl": "Potlood",
+      "sv": "Penna",
+      "da": "Blyant",
+      "no": "Blyant",
+      "fi": "Kynä"
+    }
+  }
+}

@@ -1036,7 +1036,9 @@ document.addEventListener("DOMContentLoaded", function() {
         // Apply translations on load
         applyTranslations();
         
-        loadThemes();
+        loadThemes().then(() => {
+            renderDictionary(); // Load images after themes are loaded
+        });
         loadBorderThemes();
         loadBackgroundThemes();
         
@@ -1989,7 +1991,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
                 const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
                 if (!response.ok) throw new Error(`Failed to search for "${query}"`);
-                imagesToDisplay = await response.json();
+                const searchData = await response.json();
+                imagesToDisplay = searchData.images || searchData; // Handle both new and old API formats
             } else {
                 // Load specific theme (or default to animals if 'all' with no query)
                 const themeToLoad = (selectedTheme === 'all' && !query) ? 'animals' : selectedTheme;
@@ -1998,7 +2001,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     // Load theme images (direct API for speed)
                     const response = await fetch(`/api/images?theme=${encodeURIComponent(themeToLoad)}&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to load theme: ${themeToLoad}`);
-                    allImagesCache[themeToLoad] = await response.json();
+                    const themeData = await response.json();
+                    allImagesCache[themeToLoad] = themeData.images || themeData; // Handle both new and old API formats
                 }
                 const source = allImagesCache[themeToLoad] || [];
                 imagesToDisplay = query ? source.filter(img => {

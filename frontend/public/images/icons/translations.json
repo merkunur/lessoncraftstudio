@@ -1,0 +1,57 @@
+{
+  "folder_name": "icons",
+  "name": {
+    "en": "Icons",
+    "de": "Symbole",
+    "fr": "Icônes",
+    "es": "Iconos",
+    "pt": "Ícones",
+    "it": "Icone",
+    "nl": "Pictogrammen",
+    "sv": "Ikoner",
+    "da": "Ikoner",
+    "no": "Ikoner",
+    "fi": "Kuvakkeet"
+  },
+  "images": {
+    "block_icon_text": {
+      "en": "Lock",
+      "de": "Schloss",
+      "fr": "Serrure",
+      "es": "Cerradura",
+      "pt": "Fechadura",
+      "it": "Serratura",
+      "nl": "Slot",
+      "sv": "Lås",
+      "da": "Lås",
+      "no": "Lås",
+      "fi": "Lukko"
+    },
+    "col_icon_text": {
+      "en": "Col Icon Text",
+      "de": "Col Icon Text",
+      "fr": "Col Icon Text",
+      "es": "Col Icon Text",
+      "pt": "Col Icon Text",
+      "it": "Col Icon Text",
+      "nl": "Col Icon Text",
+      "sv": "Col Icon Text",
+      "da": "Col Icon Text",
+      "no": "Col Icon Text",
+      "fi": "Col Icon Text"
+    },
+    "row_icon_text": {
+      "en": "Row Icon Text",
+      "de": "Row Icon Text",
+      "fr": "Row Icon Text",
+      "es": "Row Icon Text",
+      "pt": "Row Icon Text",
+      "it": "Row Icon Text",
+      "nl": "Row Icon Text",
+      "sv": "Row Icon Text",
+      "da": "Row Icon Text",
+      "no": "Row Icon Text",
+      "fi": "Row Icon Text"
+    }
+  }
+}

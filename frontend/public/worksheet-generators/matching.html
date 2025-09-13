@@ -1271,10 +1271,12 @@
                 if (!query) {
                     // Load animals theme by default when "All Themes" is selected with no search
                     dictionary.innerHTML = `<p class="dictionary-message">Loading default theme...</p>`;
-                    imagesToDisplay = await fetchFromApi(`/api/images?theme=animals&locale=${currentLocale}`, 'Failed to load default theme');
+                    const response = await fetchFromApi(`/api/images?theme=animals&locale=${currentLocale}`, 'Failed to load default theme');
+                    imagesToDisplay = response.images || response; // Handle both new and old API formats
                 } else {
                     dictionary.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-                    imagesToDisplay = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`, `Failed to search for "${query}"`);
+                    const response = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`, `Failed to search for "${query}"`);
+                    imagesToDisplay = response.images || response; // Handle both new and old API formats
                 }
             } else {
                 const source = currentThemeImages;
@@ -1478,10 +1480,12 @@
                     renderModalDict(uploadedImages);
                 } else if (theme === 'all') {
                     // Load default "animals" theme when "All" is selected
-                    const modalImages = await fetch(`/api/images?theme=animals&locale=${currentLocale}`).then(res => res.json());
+                    const data = await fetch(`/api/images?theme=animals&locale=${currentLocale}`).then(res => res.json());
+                    const modalImages = data.images || data;
                     renderModalDict(modalImages);
                 } else {
-                    const modalImages = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`).then(res => res.json());
+                    const data = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`).then(res => res.json());
+                    const modalImages = data.images || data;
                     renderModalDict(modalImages);
                 }
             };
@@ -1999,7 +2003,8 @@
                 const selectedTheme = dictTheme.value;
                 if (selectedTheme && selectedTheme !== 'all') {
                     // Reload specific theme
-                    currentThemeImages = await fetchFromApi(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`, `Failed to load theme "${selectedTheme}"`);
+                    const response = await fetchFromApi(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`, `Failed to load theme "${selectedTheme}"`);
+                    currentThemeImages = response.images || response; // Handle both new and old API formats
                 } else {
                     // Clear current theme images for "all" selection
                     currentThemeImages = [];
@@ -2065,7 +2070,8 @@
                 if (selectedTheme === 'all') {
                     currentThemeImages = [];
                 } else {
-                    currentThemeImages = await fetchFromApi(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`, `Failed to load theme "${selectedTheme}"`);
+                    const response = await fetchFromApi(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`, `Failed to load theme "${selectedTheme}"`);
+                    currentThemeImages = response.images || response; // Handle both new and old API formats
                 }
                 await renderDictionary();
             });

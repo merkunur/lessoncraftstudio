@@ -1363,14 +1363,16 @@
                     try {
                         const res = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
                         if (!res.ok) throw new Error('Theme load failed');
-                        imagesToRender = await res.json();
+                        const data = await res.json();
+                    imagesToRender = data.images || data; // Handle both old and new API formats
                     } catch (err) { dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error loading images.</p>`; return; }
                 } else {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
                     try {
                         const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
                         if (!res.ok) throw new Error('Search failed');
-                        imagesToRender = await res.json();
+                        const data = await res.json();
+                    imagesToRender = data.images || data; // Handle both old and new API formats
                     } catch (err) { dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error during search.</p>`; return; }
                 }
             } else {
@@ -1378,7 +1380,8 @@
                 try {
                     const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
                     if (!res.ok) throw new Error('Theme load failed');
-                    const themeImages = await res.json();
+                    const data = await res.json();
+                const themeImages = data.images || data; // Handle both old and new API formats
                     imagesToRender = query ? themeImages.filter(img => {
                         const displayName = (img.name || img.word).toLowerCase();
                         return displayName.includes(query);

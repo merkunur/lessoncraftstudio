@@ -2572,9 +2572,9 @@ function loadDictionary(){
 
   let fetchPromise;
   if (q) {
-      fetchPromise = fetch(`/api/images?search=${q}`).then(r => r.json());
+      fetchPromise = fetch(`/api/images?search=${q}`).then(r => r.json()).then(data => data.images || data);
   } else if (theme !== 'all') {
-      fetchPromise = fetch(`/api/images?theme=${theme}`).then(r => r.json());
+      fetchPromise = fetch(`/api/images?theme=${theme}`).then(r => r.json()).then(data => data.images || data);
   } else {
       fetchPromise = Promise.resolve([]);
   }

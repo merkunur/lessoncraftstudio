@@ -1191,16 +1191,19 @@
                         // Load animals theme by default when "All Themes" is selected with no search
                         const res = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
                         if (!res.ok) throw new Error(`Failed to load default theme`);
-                        imagesToRender = await res.json();
+                        const data = await res.json();
+                    imagesToRender = data.images || data; // Handle both old and new API formats
                     } else {
                         const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
                         if (!res.ok) throw new Error(`Failed to search for "${query}"`);
-                        imagesToRender = await res.json();
+                        const data = await res.json();
+                    imagesToRender = data.images || data; // Handle both old and new API formats
                     }
                 } else {
                     const res = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
                     if (!res.ok) throw new Error(`Failed to load images for theme`);
-                    const themeImages = await res.json();
+                    const data = await res.json();
+                const themeImages = data.images || data; // Handle both old and new API formats
                     allImagesData.themes[selectedTheme] = themeImages;
                     imagesToRender = query ? themeImages.filter(img => img.word.toLowerCase().includes(query)) : themeImages;
                 }

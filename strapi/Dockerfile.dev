@@ -1,4 +1,17 @@
-FROM node:18-alpine
+FROM node:20-slim
+
+# Install dependencies for sharp and image processing
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    python3 \
+    libcairo2-dev \
+    libpango1.0-dev \
+    libjpeg-dev \
+    libgif-dev \
+    librsvg2-dev \
+    libpixman-1-dev \
+    libvips-dev \
+    && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
 
@@ -8,7 +21,11 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install
 
-# Copy application files
+# Remove upload plugin to avoid sharp issues
+RUN rm -rf node_modules/@strapi/plugin-upload && \
+    rm -rf node_modules/@strapi/provider-upload-local
+
+# Copy application files  
 COPY . .
 
 # Expose port

@@ -1033,7 +1033,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (selectedTheme && selectedTheme !== 'all') {
             dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading ${selectedTheme} images...</p>`;
             try {
-                currentThemeImages = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`).then(res => res.json());
+                const data = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`).then(res => res.json());
+                currentThemeImages = data.images || data;
             } catch (e) {
                 showMessage('error', `Failed to load theme: ${selectedTheme}`);
                 currentThemeImages = [];
@@ -1043,7 +1044,8 @@ document.addEventListener('DOMContentLoaded', () => {
             currentThemeImages = [];
             if (!searchInput.value.trim()) {
                 try {
-                    currentThemeImages = await fetch(`/api/images?theme=animals&locale=${currentLocale}`).then(res => res.json());
+                    const data = await fetch(`/api/images?theme=animals&locale=${currentLocale}`).then(res => res.json());
+                    currentThemeImages = data.images || data;
                 } catch (e) {
                     console.error('Failed to load default animals theme');
                 }
@@ -1065,7 +1067,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 if (query) {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-                    imagesToDisplay = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
+                    const data = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`).then(res => res.ok ? res.json() : {images: []});
+                    imagesToDisplay = data.images || data;
                 } else {
                     // Use the default animals theme images loaded in handleThemeChange
                     imagesToDisplay = currentThemeImages;
@@ -1207,8 +1210,10 @@ document.addEventListener('DOMContentLoaded', () => {
         if (isThemeMode) {
             showMessage('info', 'Generating from themes...', 0);
             try {
-                const leftThemeImages = await fetch(`/api/images?theme=${encodeURIComponent(leftCategoryThemeSelect.value)}&locale=${currentLocale}`).then(res => res.json());
-                const rightThemeImages = await fetch(`/api/images?theme=${encodeURIComponent(rightCategoryThemeSelect.value)}&locale=${currentLocale}`).then(res => res.json());
+                const leftData = await fetch(`/api/images?theme=${encodeURIComponent(leftCategoryThemeSelect.value)}&locale=${currentLocale}`).then(res => res.json());
+                const rightData = await fetch(`/api/images?theme=${encodeURIComponent(rightCategoryThemeSelect.value)}&locale=${currentLocale}`).then(res => res.json());
+                const leftThemeImages = leftData.images || leftData;
+                const rightThemeImages = rightData.images || rightData;
                 if (leftThemeImages.length < THEME_MIN_IMAGES) throw new Error(`Theme "${leftCategoryThemeSelect.options[leftCategoryThemeSelect.selectedIndex].text}" has fewer than ${THEME_MIN_IMAGES} images.`);
                 if (rightThemeImages.length < THEME_MIN_IMAGES) throw new Error(`Theme "${rightCategoryThemeSelect.options[rightCategoryThemeSelect.selectedIndex].text}" has fewer than ${THEME_MIN_IMAGES} images.`);
                 const leftSet = getRandomElements(leftThemeImages, THEME_MIN_IMAGES, THEME_MAX_IMAGES).map(img => ({...img, category: 'left'}));

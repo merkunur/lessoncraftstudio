@@ -1,706 +1,298 @@
-# CLAUDE.md - LessonCraftStudio Implementation Guide
+# CLAUDE.md - LessonCraftStudio Complete Project Guide
 
-## 🚨 CRITICAL FIX: Image Translation Support
-**PROBLEM**: Image file names stay in English even when users select another language from language settings.
+## 🎯 PROJECT OVERVIEW
 
-**SOLUTION**: Add locale parameter to all image API calls and display translated names.
+### What We're Building
+**LessonCraftStudio** - A professional worksheet generator platform for educators and parents
+- **33 interactive worksheet generator apps** (word search, math puzzles, coloring pages, etc.)
+- **Multi-language support** for 11 languages (EN, DE, FR, ES, PT, IT, NL, SV, DA, NO, FI)
+- **Dynamic image library** managed through Directus CMS
+- **Subscription-based SaaS** with free tier, core bundle, and full access
+- **Professional publishing quality** - outputs in standard page sizes for printing/publishing businesses
 
-**Implementation Steps**:
+### Why We're Building It
+- **For Educators**: Easy-to-use tools to create custom educational materials
+- **For Publishing Businesses**: Professional-quality worksheets in standard formats
+- **For Global Reach**: Full multilingual support for international markets
+- **For Easy Management**: Non-technical admins can manage all content through Directus CMS
 
-### 1. Add currentLocale Variable
-```javascript
-let currentLocale = 'en'; // Current language setting
+### The Core Architecture
+```
+Frontend (Next.js) → API Routes → Directus CMS → PostgreSQL
+     ↓                    ↓              ↓            ↓
+33 HTML Apps      Image Proxy     Image Library   Database
+     ↓                    ↓              ↓            ↓
+Web Components    Authentication  141+ Images    Translations
 ```
 
-### 2. Initialize Locale from URL
+## 📊 CURRENT PROJECT STATUS: 85% Complete
+
+### ✅ COMPLETED (What's Working)
+1. **Infrastructure** (100%)
+   - Docker containerization with PostgreSQL
+   - Next.js 14 frontend at http://localhost:3000
+   - Express.js API at http://localhost:3001
+   - Directus CMS at http://localhost:8055
+
+2. **Directus CMS Integration** (100%)
+   - Full image library management system
+   - 141 images uploaded and categorized
+   - Special collections: backgrounds, borders, templates
+   - Multilingual translations for all content
+   - API authentication and proxy endpoints
+
+3. **Frontend Structure** (100%)
+   - All 33 app pages working
+   - App listing page with categories
+   - Navigation and routing
+   - 11 language support infrastructure
+
+4. **Image Library System** (100%)
+   - Dynamic loading from Directus
+   - API endpoint: `/api/images`
+   - Image proxy: `/api/directus-image`
+   - Real-time updates from CMS
+   - Search and theme filtering
+
+5. **Web Components** (100%)
+   - All 33 apps converted to web components
+   - Located in `frontend/web-components/`
+   - Working at `/en/apps/[app-name]`
+
+### ⚠️ IN PROGRESS (Partially Complete)
+
+1. **Multilingual Implementation** (10%)
+   - ✅ Completed: Word Search, Alphabet Train, Coloring Pages
+   - ❌ Remaining: 30 apps need multilingual support
+   - Each app needs translation.js integration
+
+2. **Canvas Scaling Issues** (10%)
+   - ✅ Fixed: Word Search, Image Addition, Alphabet Train, Coloring Pages
+   - ❌ Remaining: 29 apps have canvas clipping issues
+   - Need overflow:visible and proper zoom implementation
+
+3. **API Response Handling** (90%)
+   - ✅ Most apps handle `{images: [...]}` structure
+   - ⚠️ Some apps may still need fixes for API response extraction
+
+### ❌ NOT STARTED (To Do)
+
+1. **Authentication System** (0%)
+   - User registration/login
+   - Dashboard implementation
+   - Session management
+
+2. **Payment Integration** (0%)
+   - Stripe checkout
+   - Subscription management
+   - Tier access control
+
+3. **Email System** (0%)
+   - Welcome emails
+   - Payment confirmations
+   - Password reset
+
+## 🔧 CRITICAL PATTERNS & FIXES
+
+### Pattern 1: API Response Structure
+**Problem**: API returns `{images: [...], pagination: {...}}` but apps expect array
 ```javascript
-const urlParams = new URLSearchParams(window.location.search);
-const localeParam = urlParams.get('locale');
-if (localeParam && languageSelect) {
-  languageSelect.value = localeParam;
-  currentLocale = localeParam;
+// ❌ WRONG - Breaks when API returns object
+const images = await response.json();
+
+// ✅ CORRECT - Handles both formats
+const data = await response.json();
+const images = data.images || data;
+```
+
+### Pattern 2: Loading Default Content
+**Problem**: "All Themes" shows empty library
+```javascript
+// ✅ SOLUTION - Load animals theme as default
+if (theme === 'all' && !query) {
+    const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+    const data = await response.json();
+    imagesToDisplay = data.images || data;
 }
 ```
 
-### 3. Add Locale to ALL Image API Calls
+### Pattern 3: Missing Function Calls
+**Problem**: Functions exist but aren't called on page load
 ```javascript
-// For themes
-const response = await fetch(`/api/themes/nested?locale=${currentLocale}`);
-
-// For image search
-const response = await fetch(`/api/images?search=${query}&locale=${currentLocale}`);
-
-// For theme images  
-const response = await fetch(`/api/images?theme=${theme}&locale=${currentLocale}`);
-```
-
-### 4. Display Translated Names
-```javascript
-// Use translated name if available, otherwise fall back to word
-const displayName = imgData.name || imgData.word;
-item.innerHTML = `<img src="${imgData.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
-```
-
-### 5. Reload on Language Change (if not reloading page)
-```javascript
-languageSelect.addEventListener('change', function() {
-  currentLocale = this.value;
-  applyTranslations();
-  loadThemes(); // Reload with new locale
-  if (dictThemeEl.value && dictThemeEl.value !== 'all') {
-    renderImagesAfterLoadOrSearch(); // Reload images
-  }
+// ✅ SOLUTION - Call after themes load
+loadThemes().then(() => {
+    loadDictionary(); // or renderDictionary() or loadThemeImages()
 });
 ```
 
-**APPS FIXED**: Word Search ✅, Math Worksheets ✅
-**NEEDS FIXING**: All remaining 31 apps that display images
-
-## 🚨 CRITICAL FIX: Canvas Clipping Issue with Zoom
-**PROBLEM**: When using `canvas.setZoom()` for display scaling, elements get cut off when moved to the right or bottom edges of the canvas.
-
-**ROOT CAUSE**: The canvas wrapper has `overflow: auto` which clips the zoomed content. The canvas viewport doesn't match the zoomed dimensions.
-
-**SOLUTION** (Apply to ALL apps with zoom scaling):
-
-### 1. Fix CSS Overflow
-```css
-.canvas-container-wrapper {
-    overflow: visible;  /* Changed from auto */
-    position: relative;
-}
-
-/* Ensure Fabric.js container doesn't clip */
-.canvas-container { 
-    overflow: visible !important;
-    position: relative !important;
-}
-```
-
-### 2. CRITICAL: Correct Canvas Display Dimensions Implementation
+### Pattern 4: Canvas Display Scaling
+**Problem**: Canvas gets clipped when zoomed
 ```javascript
-function updateCanvasDisplayDimensions(width, height) {
-    currentCanvasConfig.width = width;
-    currentCanvasConfig.height = height;
-
-    const mainContentAreaStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
-    const availableWidth = parseFloat(mainContentAreaStyle.width) - parseFloat(mainContentAreaStyle.paddingLeft) - parseFloat(mainContentAreaStyle.paddingRight) - 10;
-    const availableHeight = parseFloat(mainContentAreaStyle.height) - parseFloat(mainContentAreaStyle.paddingTop) - parseFloat(mainContentAreaStyle.paddingBottom) - 10;
-    
-    // CRITICAL: Apply 25% scaling for better visibility
-    // Extra 25% for landscape orientations (MUST MATCH IMAGE ADDITION APP)
-    const isLandscape = width > height;
-    const baseScale = 1.25; // Base 25% larger for all
-    const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
-    const displayScale = baseScale * landscapeBonus;
-    
-    // Calculate display dimensions with scaling
-    const scaledWidth = width * displayScale;
-    const scaledHeight = height * displayScale;
-    
-    // Ensure it fits in available space
-    const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
-    const displayWidth = scaledWidth * scaleRatio;
-    const displayHeight = scaledHeight * scaleRatio;
-
-    [worksheetCanvas, answerKeyCanvas].forEach(c => {
-        if (c) {
-            // Apply zoom for display scaling
-            const finalZoom = (displayWidth / width);
-            c.setZoom(finalZoom);
-            
-            // CRITICAL: Set dimensions AFTER zoom to ensure viewport matches zoomed size
-            // This is CORRECT - it sets the canvas element size, not internal coordinates
-            c.setDimensions({
-                width: displayWidth,
-                height: displayHeight
-            });
-            
-            c.calcOffset();
-            c.renderAll();
-        }
-    });
-}
+// ✅ CORRECT ORDER
+c.setZoom(finalZoom);           // First: Apply zoom
+c.setDimensions({                // Second: Set viewport size
+    width: displayWidth,
+    height: displayHeight
+});
 ```
 
-**⚠️ COMMON MISTAKE TO AVOID**:
-Do NOT use `setWidth()`/`setHeight()` followed by `setZoom()` without `setDimensions()`. This will cause the canvas to appear too small on screen. The correct pattern is:
-1. `setZoom()` first to scale the canvas
-2. `setDimensions()` to set the viewport/element size
-3. The canvas internally maintains the actual page dimensions through the zoom factor
+## 📁 KEY FILES & LOCATIONS
 
-### 3. Fix Export Functions
-```javascript
-async function getCanvasDataURL(canvasInstance) {
-    // Save current state
-    const currentZoom = canvasInstance.getZoom();
-    const currentWidth = canvasInstance.getWidth();
-    const currentHeight = canvasInstance.getHeight();
-    
-    // Reset for export
-    canvasInstance.setZoom(1);
-    canvasInstance.setDimensions({
-        width: currentCanvasConfig.width,
-        height: currentCanvasConfig.height
-    });
-    
-    let dataURL = canvasInstance.toDataURL(...);
-    
-    // Restore display state
-    canvasInstance.setZoom(currentZoom);
-    canvasInstance.setDimensions({
-        width: currentWidth,
-        height: currentHeight
-    });
-    
-    return dataURL;
-}
+### Image Library Apps (33 HTML files)
+```
+frontend/public/worksheet-generators/
+├── word-search.html          ✅ Fully multilingual
+├── alphabet-train.html       ✅ Fully multilingual  
+├── coloring.html             ✅ Fully multilingual
+├── image-addition.html       ✅ API fixed, needs multilingual
+├── find-and-count.html       ✅ API fixed, needs multilingual
+├── code-addition.html        ✅ API fixed, needs multilingual
+├── grid-match.html           ✅ API fixed, needs multilingual
+└── [26 more apps]            ⚠️ Need API fixes & multilingual
 ```
 
-**APPS FIXED**: Word Search ✅, Image Addition ✅, Alphabet Train ✅, Coloring Pages ✅
-**NEEDS FIXING**: All remaining 29 apps that implement zoom scaling
-
-## 📐 STANDARD PAGE SIZES FOR PUBLISHING
-**CRITICAL**: All apps MUST use industry-standard page dimensions for professional publishing:
-
-### Universal Publishing Standards (in points)
-- **Letter Portrait**: 612×792 (8.5" × 11")
-- **Letter Landscape**: 792×612 (11" × 8.5")
-- **A4 Portrait**: 595×842 (210mm × 297mm)
-- **A4 Landscape**: 842×595 (297mm × 210mm)
-- **Square**: 1200×1200 (custom format)
-
-### Default Canvas Configuration
-```javascript
-let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait
+### API Endpoints
+```
+frontend/app/api/
+├── images/route.ts           # Main image library endpoint
+├── directus-image/route.ts   # Proxy for Directus assets
+├── borders/route.ts          # Border images endpoint
+├── backgrounds/route.ts      # Background images endpoint
+└── themes/route.ts           # Theme listing endpoint
 ```
 
-### Page Size Options (ALL APPS MUST MATCH)
-```html
-<select id="pageSizeSelect">
-    <option value="612x792">Letter Portrait (612x792)</option>
-    <option value="792x612">Letter Landscape (792x612)</option>
-    <option value="595x842">A4 Portrait (595x842)</option>
-    <option value="842x595">A4 Landscape (842x595)</option>
-    <option value="1200x1200">Square (1200x1200)</option>
-    <option value="custom">Custom</option>
-</select>
+### Web Components
+```
+frontend/web-components/
+├── shared/BaseWebComponent.js
+├── word-search/index.js
+├── image-addition/index.js
+└── [31 more components]
 ```
 
-**FIXED APPS**: Word Search ✅, Image Addition ✅, Coloring Pages ✅
-**NEEDS STANDARDIZATION**: Alphabet Train and remaining 29 apps
+## 🚀 IMMEDIATE NEXT STEPS
 
-### User-Selected Dimensions (Publishing/Printing)
-- **Downloads ALWAYS respect user-selected page dimensions**
-- **All presets follow industry standards for professional publishing**
-- **For publishing businesses**: Users can select exact dimensions they need
-- **Implementation**: `updateCanvasDisplayDimensions()` updates both canvas and `currentCanvasConfig`
-- **PDF/JPEG exports**: Automatically use `currentCanvasConfig.width` and `currentCanvasConfig.height`
+### Priority 1: Fix Remaining Apps (High Impact)
+1. **Find apps that don't load images**
+   ```bash
+   # Test each app's image library
+   grep -l "fetchFromApi\|fetch('/api/images" frontend/public/worksheet-generators/*.html
+   ```
 
-## 🚨 CRITICAL UNDERSTANDING: Image Library is the CORE
-**The entire purpose of using Strapi is to make image library management easy for non-technical admins.**
-- All 33 worksheet generators depend on the image library
-- Image file/folder names are essential for app functionality
-- Must support 11 languages with translations
-- Admin must be able to add/edit/organize images through Strapi
-- **WITHOUT THIS, THE PROJECT IS NOT COMPLETE**
+2. **Apply API response fix pattern**
+   ```javascript
+   const data = await response.json();
+   const images = data.images || data;
+   ```
 
-## PROJECT STATUS: 80% Complete
-- ✅ Infrastructure: Docker, PostgreSQL, API, Frontend working
-- ✅ Apps listing page: All 33 apps display correctly at /en/apps
-- ✅ Individual app pages: ALL WORKING! (e.g., /en/apps/image-addition)
-- ✅ Legacy HTML Apps: All 33 apps functional in iframe display
-- ✅ Web Components: ALL 33 APPS CONVERTED AND WORKING!
-- ✅ **Multilingual Support: 3/33 apps fully multilingual (Word Search, Alphabet Train, Coloring Pages)**
-  - Full support for 11 languages (EN, DE, FR, ES, PT, IT, NL, SV, DA, NO, FI)
-  - Theme names translate correctly
-  - Image names translate correctly
-  - Language-specific alphabets for Word Search and Alphabet Train
-  - All apps use standard canvas size (765x990)
-- ⚠️ **CRITICAL: Image Library NOT integrated with Strapi** (20% of project)
-  - Apps currently use static images from folders
-  - Admin cannot manage images through Strapi
-  - This is THE CORE FEATURE that needs completion
-- ✅ Payments: Basic Stripe integration structure in place
-- ⚠️ Strapi: Running with SQLite (needs image content types fixed)
+3. **Ensure loadDictionary/renderDictionary called on load**
 
-## 🌍 MULTILINGUAL IMPLEMENTATION (CRITICAL FOR REMAINING 31 APPS)
+### Priority 2: Complete Multilingual Support
+1. Add `<script src="js/translations.js"></script>` to remaining 30 apps
+2. Initialize `currentLocale` variable
+3. Add `&locale=${currentLocale}` to all API calls
+4. Implement language selector
 
-### ⚠️ CRITICAL LESSONS LEARNED
-1. **JavaScript Order Matters**: Using DOM elements before they're defined breaks EVERYTHING
-2. **Image Performance**: 300-600KB images as thumbnails = DISASTER. Use lazy loading!
-3. **ID Consistency**: HTML `id="languageSelect"` ≠ JS `getElementById("language-select")`
+### Priority 3: Fix Canvas Clipping
+1. Change CSS `overflow: auto` to `overflow: visible`
+2. Apply correct zoom pattern (zoom first, then dimensions)
+3. Test with different page sizes
 
-### ✅ Completed Apps (3/33)
-- **Word Search**: Full multilingual with language-specific alphabets, standard canvas size
-- **Alphabet Train**: Full multilingual with proper alphabet ordering for each language
-- **Coloring Pages**: Full multilingual with lazy loading, standard canvas size
+## 🏗️ PROJECT COMPLETION CHECKLIST
 
-### 📋 Quick Implementation Checklist
-1. **Set standard canvas size**: `currentCanvasConfig = { width: 765, height: 990 }`
-2. Add `<script src="js/translations.js"></script>` to head
-3. Add language selector HTML (use `id="languageSelect"`)
-4. Initialize `currentLocale` BEFORE DOM elements
-5. Add language handler AFTER DOM elements defined
-6. Use `/api/themes-translated?locale=${currentLocale}` for themes
-7. Add `&locale=${currentLocale}` to all image API calls
-8. **STANDARD**: Load "animals" theme by default when "All Themes" selected with no search
-9. Implement lazy loading for images (load first 10, defer rest)
-10. **FIX CANVAS CLIPPING**: Change overflow to visible, set dimensions after zoom
-11. Test all 11 languages
+### Phase 1: Core Functionality (85% ✅)
+- [x] Docker infrastructure
+- [x] Directus CMS setup
+- [x] Image library integration
+- [x] All 33 apps accessible
+- [x] Web components conversion
+- [ ] All apps load images correctly (90%)
+- [ ] Canvas scaling issues resolved (10%)
 
-### 🔧 Canvas Size Implementation
-```javascript
-// Default size on load
-let currentCanvasConfig = { width: 765, height: 990 };
+### Phase 2: Internationalization (10% ⚠️)
+- [x] Translation infrastructure
+- [x] 3/33 apps multilingual
+- [ ] 30/33 apps need translation support
+- [ ] Language-specific content (alphabets, etc.)
 
-// When user selects different size
-function handlePageSizeChange() {
-    const [w, h] = this.value.split('x').map(Number);
-    updateCanvasDisplayDimensions(w, h);  // Updates currentCanvasConfig
-}
-
-// Downloads automatically use current dimensions
-async function downloadPDF() {
-    const pdf = new jsPDF({ 
-        orientation: orientation, 
-        unit: 'pt', 
-        format: [currentCanvasConfig.width, currentCanvasConfig.height]  // User's selected size
-    });
-    // PDF will be exact dimensions user selected
-}
-```
-
-### 📚 Full Documentation
-See `MULTILINGUAL-WORKFLOW.md` for complete step-by-step instructions
-
-## CRITICAL ISSUES TO FIX FIRST
-
-### 1. Strapi Database Configuration
-**Status**: Switched to SQLite for development
-**Location**: strapi/config/database.js configured for SQLite
-**Note**: PostgreSQL can be re-enabled in production
-
-### 2. Strapi Running Locally
-**Status**: Running at http://localhost:1337
-**Content Types**: app-info, image-asset, image-theme created
-**API Routes**: Public access enabled for development
-
-### 3. All App Pages Working
-**Status**: FIXED - All 33 app pages accessible
-**Solution**: Modified getAppData to always return data
-**Location**: frontend/app/[locale]/apps/[slug]/page.tsx
-
-## STEP-BY-STEP COMPLETION PLAN
-
-### PHASE 1: Fix Current Blockers (Do This First!)
-```bash
-# 1. Fix database connection
-docker-compose down
-# Edit docker-compose.yml - ensure all passwords are lcspass123!
-docker-compose up -d postgres
-docker-compose up -d api
-
-# 2. Fix Strapi
-cd strapi
-npm install
-cd ..
-docker-compose up -d strapi
-
-# 3. Test everything
-curl http://localhost:3001/health  # Should return {"status":"healthy"}
-curl http://localhost:1337/admin   # Should load Strapi admin
-curl http://localhost:3000/en/apps # Should show all apps
-```
-
-### PHASE 2: Web Components ✅ COMPLETE!
-
-#### Status: ALL 33 APPS CONVERTED!
-- ✅ All web components created in frontend/web-components/
-- ✅ Copied to ../lessoncraftstudio-latest/frontend/web-components/
-- ✅ All apps working at http://localhost:3000/en/apps/[app-name]
-
-#### Completed Apps:
-- Free Tier (1): word-search
-- Core Bundle (10): image-addition, alphabet-train, coloring, math-worksheet, word-scramble, find-and-count, matching-app, drawing-lines, picture-bingo, sudoku
-- Full Access (22): All remaining apps
-
-#### Conversion Steps for Each App:
-```javascript
-// 1. Copy HTML from frontend/public/[app-name].html
-// 2. Create frontend/web-components/[app-name]/index.js
-// 3. Use this template:
-
-import { BaseWebComponent } from '../shared/BaseWebComponent.js';
-
-class AppNameGenerator extends BaseWebComponent {
-  get appName() { return 'app-name'; }
-  
-  render() {
-    // Copy HTML structure here
-    this.shadowRoot.innerHTML = `
-      <style>${this.getStyles()}</style>
-      <div class="app-container">
-        <!-- HTML from legacy app -->
-      </div>
-    `;
-  }
-  
-  getStyles() {
-    // Copy CSS from legacy app
-    return `/* styles here */`;
-  }
-}
-
-customElements.define('lcs-app-name', AppNameGenerator);
-```
-
-### PHASE 3: CRITICAL - Complete Image Library System (HIGHEST PRIORITY!)
-
-#### Why This Is Critical:
-- **Image library is the HEART of the entire system** - all 33 apps depend on it
-- **File/folder names are essential** - apps scan folders as themes and use filenames
-- **Must be multilingual** - support 11 languages for global reach
-- **Must be admin-friendly** - non-tech users need to manage images easily
-
-#### Current Image Structure:
-```
-frontend/public/images/
-├── animals/        (cat.png, dog.png, bird.png...)
-├── food/           (apple.png, banana.png, pizza.png...)
-├── transportation/ (car.png, bus.png, plane.png...)
-├── nature/         (tree.png, flower.png, sun.png...)
-├── school/         (pencil.png, book.png, desk.png...)
-├── sports/         (ball.png, tennis.png, swimming.png...)
-└── 100+ more themes with 1000+ images total
-```
-
-#### Step-by-Step Implementation:
-
-##### Step 1: Fix Strapi Image Content Types
-```javascript
-// strapi/src/api/image-theme/content-types/image-theme/schema.json
-{
-  "attributes": {
-    "folderName": { // CRITICAL: This matches actual folder name
-      "type": "string",
-      "required": true,
-      "unique": true
-    },
-    "translations": { // Store all 11 language translations
-      "type": "json",
-      "required": true
-      // Format: { "en": "Animals", "de": "Tiere", "fr": "Animaux"... }
-    },
-    "parentTheme": { // For nested themes
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::image-theme.image-theme"
-    },
-    "sortOrder": {
-      "type": "integer"
-    },
-    "isActive": {
-      "type": "boolean",
-      "default": true
-    }
-  }
-}
-
-// strapi/src/api/image-asset/content-types/image-asset/schema.json
-{
-  "attributes": {
-    "fileName": { // CRITICAL: Original filename without extension
-      "type": "string",
-      "required": true
-    },
-    "translations": { // All 11 language translations
-      "type": "json",
-      "required": true
-      // Format: { "en": "Cat", "de": "Katze", "fr": "Chat"... }
-    },
-    "file": {
-      "type": "media",
-      "required": true,
-      "allowedTypes": ["images"]
-    },
-    "theme": { // Link to theme
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::image-theme.image-theme"
-    },
-    "tags": { // For search and filtering
-      "type": "json"
-    }
-  }
-}
-```
-
-##### Step 2: Create Admin-Friendly Strapi Interface
-```javascript
-// strapi/src/admin/app.js
-export default {
-  config: {
-    locales: ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'],
-  },
-  bootstrap(app) {
-    // Add custom image library manager button to admin panel
-    app.injectContentManagerComponent('editView', 'right-links', {
-      name: 'bulk-translate',
-      Component: BulkTranslateButton
-    });
-  }
-};
-```
-
-##### Step 3: Migration Script with Translations
-```javascript
-// scripts/migrate-images-with-translations.js
-const translations = {
-  // Theme translations
-  "animals": {
-    "en": "Animals",
-    "de": "Tiere",
-    "fr": "Animaux",
-    "es": "Animales",
-    "pt": "Animais",
-    "it": "Animali",
-    "nl": "Dieren",
-    "sv": "Djur",
-    "da": "Dyr",
-    "no": "Dyr",
-    "fi": "Eläimet"
-  },
-  // Image translations
-  "cat": {
-    "en": "Cat",
-    "de": "Katze",
-    "fr": "Chat",
-    "es": "Gato",
-    "pt": "Gato",
-    "it": "Gatto",
-    "nl": "Kat",
-    "sv": "Katt",
-    "da": "Kat",
-    "no": "Katt",
-    "fi": "Kissa"
-  }
-  // ... complete translation dictionary
-};
-
-async function migrateWithTranslations() {
-  // 1. Scan all folders in frontend/public/images/
-  // 2. Create theme entries with translations
-  // 3. Upload images and create asset entries with translations
-  // 4. Maintain folder/file structure relationships
-}
-```
-
-##### Step 4: Create API Endpoints for Apps
-```javascript
-// frontend/app/api/image-library/route.ts
-export async function GET(request: Request) {
-  const { searchParams } = new URL(request.url);
-  const theme = searchParams.get('theme');
-  const locale = searchParams.get('locale') || 'en';
-  
-  // Fetch from Strapi with translations
-  const response = await fetch(`${STRAPI_URL}/api/image-assets?filters[theme][folderName][$eq]=${theme}`);
-  const data = await response.json();
-  
-  // Return images with localized names
-  return NextResponse.json({
-    theme: data.theme.translations[locale],
-    images: data.images.map(img => ({
-      url: img.file.url,
-      name: img.translations[locale],
-      fileName: img.fileName
-    }))
-  });
-}
-```
-
-##### Step 5: Update Web Components to Use Dynamic Images
-```javascript
-// frontend/web-components/shared/ImageLibraryMixin.js
-export const ImageLibraryMixin = {
-  async loadThemeImages(themeName) {
-    const locale = this.getAttribute('locale') || 'en';
-    const response = await fetch(`/api/image-library?theme=${themeName}&locale=${locale}`);
-    const data = await response.json();
-    this.images = data.images;
-    this.updateImageGrid();
-  }
-};
-
-// Update each web component to use the mixin
-class WordSearchGenerator extends BaseWebComponent {
-  async connectedCallback() {
-    await this.loadThemeImages('animals'); // Load from Strapi
-    super.connectedCallback();
-  }
-}
-```
-
-##### Step 6: Admin Workflows in Strapi
-1. **Add New Theme**: Content Manager → Image Themes → Create
-   - Enter folder name (matches file system)
-   - Add translations for all 11 languages
-   - Set sort order and active status
-
-2. **Add New Images**: Content Manager → Image Assets → Create
-   - Upload image file
-   - Select theme
-   - Add translations for all 11 languages
-   - Add searchable tags
-
-3. **Bulk Operations**: Custom admin panel features
-   - Bulk translate using Google Translate API
-   - Bulk upload with CSV for translations
-   - Export/Import theme configurations
-
-##### Step 7: Maintain File System Sync
-```javascript
-// strapi/src/api/image-asset/services/image-asset.js
-module.exports = createCoreService('api::image-asset.image-asset', ({ strapi }) => ({
-  async afterCreate(event) {
-    // When image added in Strapi, also save to file system
-    const { result, params } = event;
-    const theme = await strapi.entityService.findOne('api::image-theme.image-theme', result.theme.id);
-    
-    // Save to frontend/public/images/{theme.folderName}/{fileName}
-    await saveToFileSystem(result.file, theme.folderName, result.fileName);
-  },
-  
-  async afterUpdate(event) {
-    // Sync changes to file system
-  },
-  
-  async afterDelete(event) {
-    // Remove from file system
-  }
-}));
-```
-
-#### Testing Checklist:
-- [ ] Admin can add new theme with translations
-- [ ] Admin can upload images with translations
-- [ ] Web components load images dynamically
-- [ ] Images display with correct language
-- [ ] File system stays in sync
-- [ ] Bulk operations work efficiently
-
-### PHASE 4: Complete Authentication Flow
-
-Files to complete:
-- frontend/app/[locale]/(auth)/signin/page.tsx
-- frontend/app/[locale]/(auth)/signup/page.tsx
-- frontend/app/[locale]/(auth)/verify/page.tsx
-- frontend/app/[locale]/dashboard/page.tsx
-
-### PHASE 5: Implement Payments
-
-```javascript
-// 1. Get Stripe keys from dashboard.stripe.com
-// 2. Update .env:
-STRIPE_SECRET_KEY=sk_test_xxxxx
-STRIPE_WEBHOOK_SECRET=whsec_xxxxx
-
-// 3. Implement in api/src/controllers/subscription.controller.ts
-// 4. Add checkout to frontend/app/[locale]/pricing/page.tsx
-```
-
-## PROJECT STRUCTURE (Reference Only)
-
-```
-lessoncraftstudio/
-├── frontend/           # Next.js 14 app
-│   ├── app/           # App router pages
-│   ├── components/    # React components
-│   ├── web-components/# 33 worksheet generators (1/33 done)
-│   └── public/        # Legacy HTML apps & images
-├── api/               # Express.js API
-├── strapi/            # Strapi v5 CMS
-├── docker-compose.yml # Container orchestration
-└── .env               # Environment variables
-```
-
-## QUICK COMMANDS
-
-```bash
-# Start everything
-docker-compose up -d
-
-# Check status
-docker ps
-
-# View logs
-docker logs lcs-frontend
-docker logs lcs-api
-docker logs lcs-strapi
-
-# Restart a service
-docker-compose restart frontend
-
-# Test endpoints
-curl http://localhost:3000/en/apps     # Frontend
-curl http://localhost:3001/health      # API
-curl http://localhost:1337/admin       # Strapi
-```
-
-## CURRENT WORKING URLS
-- ✅ http://localhost:3000/en - Homepage
-- ✅ http://localhost:3000/en/apps - Apps directory (all 33 apps display)
-- ✅ http://localhost:3000/en/apps/word-search - Individual app pages NOW WORKING!
-- ✅ http://localhost:3000/en/apps/image-addition - All apps load in iframe
-- ✅ http://localhost:3000/en/apps/coloring - Full functionality available
-- ✅ http://localhost:3000/worksheet-generators/addition.html - Direct HTML access
-- ✅ http://localhost:3001/health - API health check
-- ⚠️ http://localhost:1337/admin - Strapi admin (container issues - not critical)
-
-## ENVIRONMENT VARIABLES (.env)
-```
-DB_USER=lcsuser
-DB_PASSWORD=lcspass123!
-DB_NAME=lessoncraftstudio
-JWT_SECRET=Or838tWGlXCOY0zIr5IwWVKg8AOXZA0KsPTDl/2SYAw=
-ADMIN_JWT_SECRET=ZJstR/AazMMJKDTzTo70zAFGtDcdpLivvekTmMdo7Tc=
-NEXTAUTH_SECRET=tqEULwU9scBVe5UDr+Dbz/baIDQ22fjdyHexktkOGR8=
-APP_KEYS=Ev15Ad/Z/ykj3W8zIE7kMg==,EjsvTnunOUDAj0IDxGj9iQ==,app-key-3,app-key-4
-```
-
-## COMPLETION CHECKLIST
-
-### Infrastructure (95% ✅)
-- [x] Docker setup
-- [x] PostgreSQL database
-- [x] Express API server
-- [x] Next.js frontend
-- [ ] Strapi CMS (running but connection issues)
-
-### Frontend (80% ✅)
-- [x] Homepage
-- [x] Apps listing page
-- [x] Navigation & layout
-- [x] 11 language support
-- [ ] Individual app pages (404 issue)
+### Phase 3: User Features (0% ❌)
+- [ ] User authentication
 - [ ] User dashboard
+- [ ] Save/load worksheets
+- [ ] Download history
 
-### Web Components (3% ❌)
-- [x] Word Search (1/33)
-- [ ] Core Bundle apps (0/10)
-- [ ] Full Access apps (0/22)
+### Phase 4: Monetization (0% ❌)
+- [ ] Stripe integration
+- [ ] Subscription tiers
+- [ ] Access control
+- [ ] Payment webhooks
 
-### Features (10% ❌)
-- [ ] Image library migration
-- [ ] User authentication flow
-- [ ] Payment integration
-- [ ] Subscription management
+### Phase 5: Polish & Launch (0% ❌)
 - [ ] Email notifications
+- [ ] Error handling
+- [ ] Performance optimization
+- [ ] Production deployment
 
-## REMEMBER
-1. **Don't rebuild Docker images** - User explicitly said not to
-2. **Apps were working before** - Focus on restoring, not rewriting
-3. **Use existing code** - Legacy HTML apps are in frontend/public/
-4. **Test incrementally** - Verify each step works before moving on
-5. **Prioritize Core Bundle** - Get 10 most popular apps working first
+## 💡 DEBUGGING TIPS
+
+### When Apps Don't Load Images:
+1. Check browser console for errors
+2. Verify API response: `curl http://localhost:3000/api/images?theme=animals`
+3. Look for these patterns:
+   - Missing `data.images || data` extraction
+   - Function never called on page load
+   - Function called but not defined
+
+### Quick Test Commands:
+```bash
+# Test API
+curl http://localhost:3000/api/images?theme=animals&locale=en | jq
+
+# Check Directus
+curl http://localhost:8055/items/image_library
+
+# View Docker logs
+docker logs lcs-frontend -f
+docker logs lcs-directus -f
+```
+
+## 🎯 SUCCESS METRICS
+
+When complete, the platform will:
+1. **Load images instantly** in all 33 apps
+2. **Reflect Directus changes** immediately
+3. **Support 11 languages** fully
+4. **Export professional PDFs** in standard sizes
+5. **Handle subscriptions** automatically
+6. **Scale to thousands of users**
+
+## 🔴 CRITICAL REMINDERS
+
+1. **NEVER rebuild Docker images** unless absolutely necessary
+2. **API returns objects**, not arrays: `{images: [...], pagination: {...}}`
+3. **Default to animals theme** when "All Themes" selected with no search
+4. **Test incrementally** - verify each fix before moving on
+5. **Canvas zoom order matters** - zoom first, then dimensions
+
+## 📝 SESSION CONTEXT
+
+### Last Session Accomplishments:
+- Fixed API response handling in code-addition.html, find-and-count.html, grid-match.html
+- Ensured all three apps properly extract images array from API response
+- Made apps load default "animals" theme when "All Themes" selected
+- Verified loadDictionary/renderDictionary functions are called on page load
+
+### Current Working State:
+- Directus CMS: Running with 141 images
+- API: Serving images with proper structure
+- Frontend: 33 apps accessible, most loading images correctly
+- Remaining Issues: Some apps may still need API fixes, multilingual support needed
+
+### Next Logical Steps:
+1. Test all 33 apps systematically for image loading
+2. Fix any remaining API response issues
+3. Begin multilingual implementation for remaining 30 apps
+4. Address canvas clipping issues in 29 apps
+
+---
+*This is a living document. Update as the project evolves.*

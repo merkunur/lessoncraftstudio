@@ -1429,7 +1429,8 @@
                     try {
                         const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
                         if (!res.ok) throw new Error(`Failed to search for "${query}"`);
-                        imagesToDisplay = await res.json();
+                        const searchData = await res.json();
+                        imagesToDisplay = searchData.images || searchData; // Handle both new and old API formats
                     } catch (err) {
                         showMessage(`Error searching for "${query}"`, 'error');
                         console.error(err);
@@ -1443,7 +1444,8 @@
                     try {
                         const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
                         if (!res.ok) throw new Error(`Failed to load theme: ${theme}`);
-                        imageCache[theme] = await res.json();
+                        const themeData = await res.json();
+                        imageCache[theme] = themeData.images || themeData; // Handle both new and old API formats
                     } catch (err) {
                         showMessage(`Error loading theme: ${theme}`, 'error');
                         console.error(err);

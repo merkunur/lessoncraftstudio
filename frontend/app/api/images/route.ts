@@ -3,6 +3,10 @@ import fs from 'fs';
 import path from 'path';
 import { getTranslatedImageName } from '../multilingual-images/translations';
 
+// Use Docker service name when running in container, localhost for local dev
+const DIRECTUS_URL = process.env.DIRECTUS_URL || 'http://lcs-directus:8055';
+const API_TOKEN = 'static-api-token-for-sync';
+
 // Legacy translations (kept for backward compatibility, but now using comprehensive dictionary)
 const translations: Record<string, Record<string, string>> = {
   // Animals
@@ -29,76 +33,124 @@ export async function GET(request: Request) {
   const theme = searchParams.get('theme');
   const search = searchParams.get('search');
   const locale = searchParams.get('locale') || 'en';
+  const page = parseInt(searchParams.get('page') || '1');
+  const limit = parseInt(searchParams.get('limit') || '100'); // Default 100 images per page
   
-  // Try to fetch from Strapi first if we have a theme
-  if (theme && theme !== 'all' && !theme.includes('..')) {
-    try {
-      const strapiUrl = process.env.STRAPI_URL || 'http://localhost:1337';
-      
-      // First get the theme ID from Strapi
-      let themeResponse = await fetch(
-        `${strapiUrl}/api/image-themes?filters[folderName][$eq]=${theme}&locale=${locale}`,
-        { cache: 'no-store' }
-      );
-      
-      let themeData = themeResponse.ok ? await themeResponse.json() : { data: [] };
-      
-      // If locale-specific query returned nothing, try without locale
-      if ((!themeData.data || themeData.data.length === 0) && locale !== 'en') {
-        themeResponse = await fetch(
-          `${strapiUrl}/api/image-themes?filters[folderName][$eq]=${theme}`,
-          { cache: 'no-store' }
-        );
-        if (themeResponse.ok) {
-          themeData = await themeResponse.json();
+  // ALWAYS fetch from Directus for dynamic updates
+  try {
+    // Search across all themes
+    if (search && (!theme || theme === 'all')) {
+      const response = await fetch(
+        `${DIRECTUS_URL}/items/image_assets?` + new URLSearchParams({
+          'fields': '*,image_file.*,theme_id.*',
+          'filter[translations][_contains]': search,
+          'filter[status][_eq]': 'active',
+          'limit': limit.toString(),
+          'page': page.toString()
+        }),
+        {
+          headers: {
+            'Authorization': `Bearer ${API_TOKEN}`
+          }
         }
+      );
+
+      if (response.ok) {
+        const data = await response.json();
+        
+        const images = data.data.map((item: any) => ({
+          path: item.image_file ? `/api/directus-image?id=${item.image_file.filename_disk}` : `/images/${item.theme_id?.folder_name || 'animals'}/${item.file_name}.png`,
+          url: item.image_file ? `/api/directus-image?id=${item.image_file.filename_disk}` : `/images/${item.theme_id?.folder_name || 'animals'}/${item.file_name}.png`,
+          name: item.translations?.[locale] || item.file_name,
+          word: item.translations?.[locale] || item.file_name,
+          theme: item.theme_id?.folder_name || 'unknown'
+        }));
+
+        return NextResponse.json({
+          images,
+          pagination: {
+            page,
+            limit,
+            total: data.meta?.total_count || images.length,
+            totalPages: Math.ceil((data.meta?.total_count || images.length) / limit),
+            hasMore: page * limit < (data.meta?.total_count || images.length)
+          }
+        });
       }
-      
+    }
+
+    // Get specific theme from Directus
+    if (theme && theme !== 'all' && !theme.includes('..')) {
+      // First get the theme ID
+      const themeResponse = await fetch(
+        `${DIRECTUS_URL}/items/image_themes?` + new URLSearchParams({
+          'filter[folder_name][_eq]': theme,
+          'limit': '1'
+        }),
+        {
+          headers: {
+            'Authorization': `Bearer ${API_TOKEN}`
+          }
+        }
+      );
+
       if (themeResponse.ok) {
+        const themeData = await themeResponse.json();
+        
         if (themeData.data && themeData.data.length > 0) {
           const themeId = themeData.data[0].id;
-          
+
           // Now get images for this theme
-          let imagesResponse = await fetch(
-            `${strapiUrl}/api/image-assets?filters[themes][id][$eq]=${themeId}&populate=file&locale=${locale}`,
-            { cache: 'no-store' }
+          const response = await fetch(
+            `${DIRECTUS_URL}/items/image_assets?` + new URLSearchParams({
+              'fields': '*,image_file.*',
+              'filter[theme_id][_eq]': themeId.toString(),
+              'filter[status][_eq]': 'active',
+              'limit': limit.toString(),
+              'page': page.toString(),
+              'sort': 'file_name'
+            }),
+            {
+              headers: {
+                'Authorization': `Bearer ${API_TOKEN}`
+              }
+            }
           );
-          
-          let imagesData = imagesResponse.ok ? await imagesResponse.json() : { data: [] };
-          
-          // If locale-specific query returned nothing, try without locale
-          if ((!imagesData.data || imagesData.data.length === 0) && locale !== 'en') {
-            imagesResponse = await fetch(
-              `${strapiUrl}/api/image-assets?filters[themes][id][$eq]=${themeId}&populate=file`,
-              { cache: 'no-store' }
-            );
-            if (imagesResponse.ok) {
-              imagesData = await imagesResponse.json();
+
+          if (response.ok) {
+            const data = await response.json();
+            console.log(`Got ${data.data.length} images from Directus for theme ${theme}`);
+            // Debug: Check if image_file is present
+            if (data.data.length > 0) {
+              console.log('First item has image_file:', !!data.data[0].image_file);
+              if (data.data[0].image_file) {
+                console.log('Image file disk name:', data.data[0].image_file.filename_disk);
+              }
             }
-          }
-          
-          if (imagesResponse.ok) {
-            // Check if we actually got images from Strapi
-            if (imagesData.data && imagesData.data.length > 0) {
-              const images = imagesData.data.map((img: any) => {
-                const displayName = img.attributes.displayName || 
-                                   img.attributes.translations?.[locale] ||
-                                   img.attributes.fileName;
-                return {
-                  word: displayName,
-                  name: displayName,
-                  path: img.attributes.file?.data?.attributes?.url || `/images/${theme}/${img.attributes.fileName}.png`
-                };
-              });
-              return NextResponse.json(images);
-            }
-            // If Strapi returned empty data, fall through to filesystem
+            
+            const images = data.data.map((item: any) => ({
+              path: item.image_file ? `/api/directus-image?id=${item.image_file.filename_disk}` : `/images/${theme}/${item.file_name}.png`,
+              url: item.image_file ? `/api/directus-image?id=${item.image_file.filename_disk}` : `/images/${theme}/${item.file_name}.png`,
+              name: item.translations?.[locale] || item.file_name,
+              word: item.translations?.[locale] || item.file_name
+            }));
+
+            return NextResponse.json({
+              images,
+              pagination: {
+                page,
+                limit,
+                total: data.meta?.total_count || images.length,
+                totalPages: Math.ceil((data.meta?.total_count || images.length) / limit),
+                hasMore: page * limit < (data.meta?.total_count || images.length)
+              }
+            });
           }
         }
       }
-    } catch (error) {
-      console.log('Strapi not available for images, falling back to file system');
     }
+  } catch (error) {
+    console.log('Error fetching from Directus, falling back to filesystem:', error);
   }
   
   // Fallback to file system
@@ -140,7 +192,22 @@ export async function GET(request: Request) {
     }
     
     await findMatchingImages(imagesBaseDir);
-    return NextResponse.json(results);
+    
+    // Apply pagination for search results
+    const startIndex = (page - 1) * limit;
+    const endIndex = startIndex + limit;
+    const paginatedResults = results.slice(startIndex, endIndex);
+    
+    return NextResponse.json({
+      images: paginatedResults,
+      pagination: {
+        page,
+        limit,
+        total: results.length,
+        totalPages: Math.ceil(results.length / limit),
+        hasMore: endIndex < results.length
+      }
+    });
   }
   
   if (!theme || theme.includes('..') || theme === 'all') {
@@ -163,7 +230,21 @@ export async function GET(request: Request) {
       };
     });
     
-    return NextResponse.json(images);
+    // Apply pagination for filesystem images
+    const startIndex = (page - 1) * limit;
+    const endIndex = startIndex + limit;
+    const paginatedImages = images.slice(startIndex, endIndex);
+    
+    return NextResponse.json({
+      images: paginatedImages,
+      pagination: {
+        page,
+        limit,
+        total: images.length,
+        totalPages: Math.ceil(images.length / limit),
+        hasMore: endIndex < images.length
+      }
+    });
   } catch (err) {
     return NextResponse.json({ error: `Error reading images folder: ${theme}` }, { status: 500 });
   }

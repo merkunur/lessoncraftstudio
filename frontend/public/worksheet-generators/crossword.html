@@ -936,7 +936,9 @@ document.addEventListener("DOMContentLoaded", function() {
         // Apply translations on load
         applyTranslations();
         
-        loadThemes();
+        loadThemes().then(() => {
+            renderDictionary(); // Load images after themes are loaded
+        });
         loadBorderThemes();
         loadBackgroundThemes();
         renderUploadedImages();
@@ -1204,7 +1206,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
                     const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to search for "${query}"`);
-                    imagesToDisplay = await response.json();
+                    const searchData = await response.json();
+                    imagesToDisplay = searchData.images || searchData; // Handle both new and old API formats
                 }
             }
             
@@ -1213,7 +1216,8 @@ document.addEventListener("DOMContentLoaded", function() {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading theme...</p>`;
                     const response = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to load theme: ${selectedTheme}`);
-                    allImagesCache[selectedTheme] = await response.json();
+                    const themeData = await response.json();
+                    allImagesCache[selectedTheme] = themeData.images || themeData; // Handle both new and old API formats
                 }
                 const source = allImagesCache[selectedTheme] || [];
                 imagesToDisplay = query ? source.filter(img => {

@@ -1393,7 +1393,8 @@
           if (!theme) return [];
           if (imageCache[theme]) return imageCache[theme];
           try {
-              const images = await(await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`)).json();
+              const data = await(await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`)).json();
+              const images = data.images || data;
               imageCache[theme] = images;
               return images;
           } catch (e) { showMessage(`Could not load images for theme: ${theme}`, 'error'); return []; }

@@ -1512,7 +1512,8 @@
                 dictDiv.innerHTML = `<p class='dictionary-message'>Loading default theme...</p>`;
                 try {
                     const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
-                    const animalsImages = await response.json();
+                    const data = await response.json();
+                    const animalsImages = data.images || data; // Handle both new and old API formats
                     imagesToDisplay = animalsImages.map(img => {
                         const mappedImg = { ...img };
                         if (!mappedImg.path) {
@@ -1530,7 +1531,8 @@
             } else {
                 dictDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
                 try { 
-                    const searchResults = await (await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`)).json();
+                    const data = await (await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`)).json();
+                    const searchResults = data.images || data;
                     // Map search results same as theme images
                     imagesToDisplay = searchResults.map(img => {
                         const mappedImg = { ...img };
@@ -1760,7 +1762,8 @@
                 if (!selectedTheme) throw new Error('Please select a theme for the worksheet.');
                 const res = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
                 if (!res.ok) throw new Error(`Failed to load images for theme: ${selectedTheme}`);
-                const themeImages = await res.json();
+                const data = await res.json();
+                const themeImages = data.images || data; // Handle both old and new API formats
                 // Use path property (API returns path, not url)
                 imagesForGeneration = themeImages.map(img => img.path || img.url || '/images/placeholder.png');
                 if (imagesForGeneration.length === 0) throw new Error(`Theme "${selectedTheme}" has no images.`);

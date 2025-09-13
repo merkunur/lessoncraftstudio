@@ -942,7 +942,9 @@
             if (typeof translatePage !== 'undefined') translatePage();
             
             updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
-            loadThemes();
+            loadThemes().then(() => {
+                loadDictionary(); // Load images after themes are loaded
+            });
             loadBorderThemes();
             loadBackgroundThemes();
         }
@@ -1887,7 +1889,8 @@
                 if (!searchInput.value || searchInput.value.trim() === '') {
                     dictionaryDiv.innerHTML = `<p class='dictionary-message'>Loading default theme...</p>`;
                     try {
-                        currentThemeImages = await fetch(`/api/images?theme=animals&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
+                        const data = await fetch(`/api/images?theme=animals&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
+                        currentThemeImages = data.images || data;
                     } catch (e) {
                         currentThemeImages = [];
                     }
@@ -1898,7 +1901,8 @@
             } else {
                 dictionaryDiv.innerHTML = `<p class='dictionary-message'>Loading ${theme}...</p>`;
                 try {
-                    currentThemeImages = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
+                    const data = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
+                    currentThemeImages = data.images || data;
                 } catch (e) {
                     currentThemeImages = [];
                     showMessage(`Failed to load theme "${theme}"`, 'error');
@@ -1925,7 +1929,9 @@
                 if (themes.length === 0) throw new Error("No themes found on server.");
                 
                 const imagePromises = themes.map(theme => {
-                    return fetch(`/api/images?theme=${encodeURIComponent(theme.value)}&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
+                    return fetch(`/api/images?theme=${encodeURIComponent(theme.value)}&locale=${currentLocale}`)
+                        .then(res => res.ok ? res.json() : {images: []})
+                        .then(data => data.images || data);
                 });
                 
                 const imagesByTheme = await Promise.all(imagePromises);

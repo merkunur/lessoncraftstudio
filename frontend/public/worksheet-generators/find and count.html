@@ -1419,7 +1419,8 @@ document.addEventListener("DOMContentLoaded", function() {
         try {
             const response = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
             if (!response.ok) throw new Error(`Failed to load images for theme: ${theme}`);
-            currentThemeImages = await response.json();
+            const data = await response.json();
+            currentThemeImages = data.images || data;
         } catch (error) {
             showMessage(error.message, 'error');
             currentThemeImages = [];
@@ -1440,7 +1441,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 try {
                     const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to load default theme`);
-                    imagesToDisplay = await response.json();
+                    const data = await response.json();
+                    imagesToDisplay = data.images || data;
                 } catch (error) {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
                     return;
@@ -1450,7 +1452,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 try {
                     const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to search for "${query}"`);
-                    imagesToDisplay = await response.json();
+                    const data = await response.json();
+                    imagesToDisplay = data.images || data;
                 } catch (error) {
                     showMessage(error.message, 'error');
                     imagesToDisplay = [];
@@ -2440,6 +2443,80 @@ async function downloadPDF(canvasToExport, filename) {
     // END: REFACTORED CODE (Part D, Step 2)
 
     // --- BORDER & BACKGROUND LOGIC ---
+    async function loadDictionary() {
+        const theme = themeSelect.value;
+        const query = searchInput.value.trim().toLowerCase();
+        
+        dictionaryDiv.innerHTML = '';
+        let imagesToDisplay = [];
+        
+        try {
+            if (theme === 'all') {
+                if (!query) {
+                    // Load animals theme by default when "All Themes" is selected with no search
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading default theme...</p>`;
+                    const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                    if (!response.ok) throw new Error('Failed to load default theme');
+                    const data = await response.json();
+                    imagesToDisplay = data.images || data; // Handle both new and old API formats
+                } else {
+                    // Search across all themes
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+                    const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                    if (!response.ok) throw new Error(`Failed to search for "${query}"`);
+                    const data = await response.json();
+                    imagesToDisplay = data.images || data; // Handle both new and old API formats
+                }
+            } else {
+                // Load specific theme
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading theme...</p>`;
+                const response = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
+                if (!response.ok) throw new Error(`Failed to load theme: ${theme}`);
+                const data = await response.json();
+                const themeImages = data.images || data; // Handle both new and old API formats
+                
+                // Filter by search query if present
+                imagesToDisplay = query ? themeImages.filter(img => {
+                    const displayName = (img.name || img.word || '').toLowerCase();
+                    return displayName.includes(query);
+                }) : themeImages;
+            }
+            
+            // Render the images
+            if (imagesToDisplay.length === 0) {
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">No images found${query ? ` matching "${query}"` : ''}.</p>`;
+                return;
+            }
+            
+            imagesToDisplay.forEach(img => {
+                const item = document.createElement('div');
+                item.className = 'dictionary-item';
+                const displayName = img.name || img.word || 'Image';
+                item.innerHTML = `
+                    <img src="${img.path || img.url}" alt="${displayName}" loading="lazy"/>
+                    <span>${displayName}</span>
+                `;
+                item.onclick = () => {
+                    // Toggle selection
+                    if (item.classList.contains('selected')) {
+                        item.classList.remove('selected');
+                        const idx = selectedImages.findIndex(x => x.path === (img.path || img.url));
+                        if (idx >= 0) selectedImages.splice(idx, 1);
+                    } else {
+                        item.classList.add('selected');
+                        selectedImages.push(img);
+                    }
+                    updateSelectedPanels();
+                };
+                dictionaryDiv.appendChild(item);
+            });
+            
+        } catch (error) {
+            console.error('Error loading images:', error);
+            dictionaryDiv.innerHTML = `<p class="dictionary-message">Error loading images: ${error.message}</p>`;
+        }
+    }
+
     function loadBorderThemes() {
         fetch('/api/borders/themes')
             .then(res => {
@@ -2848,7 +2925,9 @@ async function downloadPDF(canvasToExport, filename) {
     setupCanvasEventListeners(answerKeyCanvas);
     
     updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
-    loadThemes();
+    loadThemes().then(() => {
+        loadThemeImages(); // Load images after themes are loaded
+    });
     loadBorderThemes();
     loadBackgroundThemes(); 
     handleSelectionCleared(null, worksheetCanvas);

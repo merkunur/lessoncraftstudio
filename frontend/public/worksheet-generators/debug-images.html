@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Debug Image Loading</title>
+    <style>
+        body { padding: 20px; font-family: Arial; }
+        .test { margin: 10px; padding: 10px; border: 1px solid #ccc; }
+        .success { background: #d4edda; }
+        .error { background: #f8d7da; }
+        img { width: 50px; height: 50px; object-fit: contain; margin-right: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Image Loading Debug</h1>
+    <button onclick="testAll()">Run All Tests</button>
+    <div id="results"></div>
+
+    <script>
+        async function testAll() {
+            const results = document.getElementById('results');
+            results.innerHTML = '';
+            
+            // Test 1: Check current location
+            addResult('Current Location', window.location.href);
+            
+            // Test 2: Check base URL
+            const base = document.querySelector('base');
+            addResult('Base Tag', base ? base.href : 'No base tag');
+            
+            // Test 3: Test API endpoint
+            try {
+                const apiUrl = '/api/images?theme=animals&locale=en';
+                addResult('API URL', apiUrl);
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+                addResult('API Response', `${data.images ? data.images.length : 0} images`, true);
+                
+                // Test 4: Load first image
+                if (data.images && data.images.length > 0) {
+                    const firstImage = data.images[0];
+                    await testImage(firstImage.path, 'First Image from API');
+                }
+            } catch (error) {
+                addResult('API Error', error.message, false);
+            }
+            
+            // Test 5: Direct path tests
+            const testPaths = [
+                '/images/animals/cat.png',
+                '../images/animals/cat.png',
+                '../../images/animals/cat.png',
+                './images/animals/cat.png',
+                'images/animals/cat.png'
+            ];
+            
+            for (const path of testPaths) {
+                await testImage(path, `Path: ${path}`);
+            }
+            
+            // Test 6: Check if we're in an iframe
+            addResult('In iframe?', window.self !== window.top ? 'Yes' : 'No');
+            
+            // Test 7: Check parent origin if in iframe
+            if (window.self !== window.top) {
+                try {
+                    addResult('Parent origin', document.referrer || 'Unknown');
+                } catch (e) {
+                    addResult('Parent origin', 'Cannot access (cross-origin)');
+                }
+            }
+        }
+        
+        function testImage(src, label) {
+            return new Promise((resolve) => {
+                const img = new Image();
+                const startTime = Date.now();
+                
+                img.onload = () => {
+                    const loadTime = Date.now() - startTime;
+                    addResult(label, `✓ Loaded in ${loadTime}ms`, true);
+                    resolve();
+                };
+                
+                img.onerror = () => {
+                    addResult(label, `✗ Failed to load`, false);
+                    // Try to get more error info
+                    fetch(src, { method: 'HEAD' })
+                        .then(res => {
+                            addResult(`  └─ HEAD request`, `Status: ${res.status}`, res.ok);
+                        })
+                        .catch(err => {
+                            addResult(`  └─ HEAD request`, `Error: ${err.message}`, false);
+                        });
+                    resolve();
+                };
+                
+                img.src = src;
+            });
+        }
+        
+        function addResult(label, value, success = null) {
+            const results = document.getElementById('results');
+            const div = document.createElement('div');
+            div.className = 'test';
+            if (success !== null) {
+                div.className += success ? ' success' : ' error';
+            }
+            div.innerHTML = `<strong>${label}:</strong> ${value}`;
+            results.appendChild(div);
+        }
+        
+        // Auto-run on load
+        window.onload = () => {
+            testAll();
+        };
+    </script>
+</body>
+</html>

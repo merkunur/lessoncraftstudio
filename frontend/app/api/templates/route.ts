@@ -1,0 +1,84 @@
+import { NextRequest, NextResponse } from 'next/server';
+import imageLibraryManager from '@/lib/image-library-manager';
+import fs from 'fs';
+import path from 'path';
+
+export async function GET(request: NextRequest) {
+  const { searchParams } = new URL(request.url);
+  const appType = searchParams.get('appType');
+  const locale = searchParams.get('locale') || 'en';
+  
+  try {
+    // Determine which templates to fetch based on app type
+    if (appType === 'alphabet-train' || appType === 'pattern-train') {
+      // Get train templates
+      const templates = imageLibraryManager.getTrainTemplates(locale);
+      console.log(`Train templates for ${appType}, locale=${locale}:`, templates.length);
+      return NextResponse.json(templates);
+    } else if (appType === 'prepositions') {
+      // Get worksheet templates
+      const templates = imageLibraryManager.getWorksheetTemplates(locale);
+      console.log(`Worksheet templates for ${appType}, locale=${locale}:`, templates.length);
+      return NextResponse.json(templates);
+    }
+    
+    // If no specific app type, return empty array
+    return NextResponse.json([]);
+    
+    // Legacy fallback code (keeping for reference)
+    if (templates.length === 0) {
+      const templatePath = path.join(process.cwd(), 'public', 'images', 'template');
+      
+      if (fs.existsSync(templatePath)) {
+        const files = fs.readdirSync(templatePath)
+          .filter(f => /\.(png|jpg|jpeg|gif|svg)$/i.test(f));
+        
+        const fileSystemTemplates = files.map(file => {
+          const name = file.replace(/\.(png|jpg|jpeg|gif|svg)$/i, '');
+          let type = 'general';
+          
+          // Infer app type from filename
+          if (name.includes('code') || name.includes('addition')) {
+            type = 'code-addition';
+          } else if (name.includes('math')) {
+            type = 'math-worksheet';
+          } else if (name.includes('word') && name.includes('search')) {
+            type = 'word-search';
+          } else if (name.includes('whiteboard')) {
+            type = 'whiteboard';
+          }
+          
+          if (appType && type !== appType) return null;
+          
+          return {
+            name: name,
+            url: `/images/template/${file}`,
+            path: `/images/template/${file}`,
+            appType: type,
+            description: `Template for ${type}`,
+            config: null
+          };
+        }).filter(Boolean);
+        
+        return NextResponse.json(fileSystemTemplates);
+      }
+    }
+    
+    // Map Directus URLs to local paths
+    const mappedTemplates = templates.map(template => ({
+      ...template,
+      path: template.url?.startsWith('/assets/') 
+        ? `/images/template/${template.name}.png`
+        : template.url
+    }));
+    
+    return NextResponse.json(mappedTemplates);
+    
+  } catch (error) {
+    console.error('Error fetching templates:', error);
+    return NextResponse.json(
+      { error: 'Failed to fetch templates' },
+      { status: 500 }
+    );
+  }
+}

@@ -1685,9 +1685,11 @@
                 return;
             }
             dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-            imagesToDisplay = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`, `Failed to search for "${query}"`);
+            const searchResponse = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`, `Failed to search for "${query}"`);
+            imagesToDisplay = searchResponse.images || searchResponse; // Handle both new and old API formats
         } else {
-            currentThemeImages = await fetchFromApi(`/api/images?theme=${encodeURIComponent(selectedDictionaryTheme)}&locale=${currentLocale}`, `Failed to load images for theme: ${selectedDictionaryTheme}`);
+            const themeResponse = await fetchFromApi(`/api/images?theme=${encodeURIComponent(selectedDictionaryTheme)}&locale=${currentLocale}`, `Failed to load images for theme: ${selectedDictionaryTheme}`);
+            currentThemeImages = themeResponse.images || themeResponse; // Handle both new and old API formats
             const source = currentThemeImages;
             imagesToDisplay = query ? source.filter(img => {
                 const displayName = img.name || img.word;

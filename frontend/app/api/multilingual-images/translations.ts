@@ -43,6 +43,11 @@ export const themeTranslations: Record<string, Record<string, string>> = {
     'pt': 'Comida', 'it': 'Cibo', 'nl': 'Eten', 'sv': 'Mat',
     'da': 'Mad', 'no': 'Mat', 'fi': 'Ruoka'
   },
+  'furniture': {
+    'en': 'Furniture', 'de': 'Möbel', 'fr': 'Meubles', 'es': 'Muebles',
+    'pt': 'Móveis', 'it': 'Mobili', 'nl': 'Meubels', 'sv': 'Möbler',
+    'da': 'Møbler', 'no': 'Møbler', 'fi': 'Huonekalut'
+  },
   'general': {
     'en': 'General', 'de': 'Allgemein', 'fr': 'Général', 'es': 'General',
     'pt': 'Geral', 'it': 'Generale', 'nl': 'Algemeen', 'sv': 'Allmän',
@@ -202,6 +207,15 @@ export const imageTranslations: Record<string, Record<string, string>> = {
   'mountain': { 'en': 'Mountain', 'de': 'Berg', 'fr': 'Montagne', 'es': 'Montaña', 'pt': 'Montanha', 'it': 'Montagna', 'nl': 'Berg', 'sv': 'Berg', 'da': 'Bjerg', 'no': 'Fjell', 'fi': 'Vuori' },
   'river': { 'en': 'River', 'de': 'Fluss', 'fr': 'Rivière', 'es': 'Río', 'pt': 'Rio', 'it': 'Fiume', 'nl': 'Rivier', 'sv': 'Flod', 'da': 'Flod', 'no': 'Elv', 'fi': 'Joki' },
   'ocean': { 'en': 'Ocean', 'de': 'Ozean', 'fr': 'Océan', 'es': 'Océano', 'pt': 'Oceano', 'it': 'Oceano', 'nl': 'Oceaan', 'sv': 'Hav', 'da': 'Hav', 'no': 'Hav', 'fi': 'Valtameri' },
+  
+  // Furniture
+  'chair': { 'en': 'Chair', 'de': 'Stuhl', 'fr': 'Chaise', 'es': 'Silla', 'pt': 'Cadeira', 'it': 'Sedia', 'nl': 'Stoel', 'sv': 'Stol', 'da': 'Stol', 'no': 'Stol', 'fi': 'Tuoli' },
+  'table': { 'en': 'Table', 'de': 'Tisch', 'fr': 'Table', 'es': 'Mesa', 'pt': 'Mesa', 'it': 'Tavolo', 'nl': 'Tafel', 'sv': 'Bord', 'da': 'Bord', 'no': 'Bord', 'fi': 'Pöytä' },
+  'armchair': { 'en': 'Armchair', 'de': 'Sessel', 'fr': 'Fauteuil', 'es': 'Sillón', 'pt': 'Poltrona', 'it': 'Poltrona', 'nl': 'Fauteuil', 'sv': 'Fåtölj', 'da': 'Lænestol', 'no': 'Lenestol', 'fi': 'Nojatuoli' },
+  'desk': { 'en': 'Desk', 'de': 'Schreibtisch', 'fr': 'Bureau', 'es': 'Escritorio', 'pt': 'Escrivaninha', 'it': 'Scrivania', 'nl': 'Bureau', 'sv': 'Skrivbord', 'da': 'Skrivebord', 'no': 'Skrivebord', 'fi': 'Kirjoituspöytä' },
+  'dresser': { 'en': 'Dresser', 'de': 'Kommode', 'fr': 'Commode', 'es': 'Cómoda', 'pt': 'Cômoda', 'it': 'Cassettiera', 'nl': 'Ladekast', 'sv': 'Byrå', 'da': 'Kommode', 'no': 'Kommode', 'fi': 'Lipasto' },
+  'cupboard': { 'en': 'Cupboard', 'de': 'Schrank', 'fr': 'Placard', 'es': 'Armario', 'pt': 'Armário', 'it': 'Armadio', 'nl': 'Kast', 'sv': 'Skåp', 'da': 'Skab', 'no': 'Skap', 'fi': 'Kaappi' },
+  'bookshelf': { 'en': 'Bookshelf', 'de': 'Bücherregal', 'fr': 'Bibliothèque', 'es': 'Estantería', 'pt': 'Estante', 'it': 'Libreria', 'nl': 'Boekenkast', 'sv': 'Bokhylla', 'da': 'Bogreol', 'no': 'Bokhylle', 'fi': 'Kirjahylly' },
   'beach': { 'en': 'Beach', 'de': 'Strand', 'fr': 'Plage', 'es': 'Playa', 'pt': 'Praia', 'it': 'Spiaggia', 'nl': 'Strand', 'sv': 'Strand', 'da': 'Strand', 'no': 'Strand', 'fi': 'Ranta' },
   
   // School

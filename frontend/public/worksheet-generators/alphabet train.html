@@ -1756,12 +1756,16 @@
 
         if (selectedTheme === 'all') {
             if (!query) {
-                dictionaryEl.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
-                return;
+                // Load animals theme by default when "All Themes" is selected with no search
+                dictionaryEl.innerHTML = `<p class="dictionary-message">Loading default theme...</p>`;
+                const defaultResponse = await fetchFromApi(`/api/images?theme=animals&locale=${currentLocale}`, 'Failed to load default theme');
+                imagesToDisplay = defaultResponse.images || defaultResponse; // Handle both new and old API formats
+            } else {
+                // Fetch results from the server instead of filtering locally
+                dictionaryEl.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+                const searchResponse = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`, `Failed to search for "${query}"`);
+                imagesToDisplay = searchResponse.images || searchResponse; // Handle both new and old API formats
             }
-            // Fetch results from the server instead of filtering locally
-            dictionaryEl.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-            imagesToDisplay = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`, `Failed to search for "${query}"`);
         } else {
             // This logic remains the same for filtering within a specific theme
             const source = currentThemeImages;
@@ -1819,7 +1823,8 @@
       if (selectedTheme !== 'all') {
         const themeName = themeSelectEl.options[themeSelectEl.selectedIndex]?.textContent;
         showMessage(`Loading for ${themeName}...`, 'info', 0);
-        currentThemeImages = await fetchFromApi(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`, `Failed to load images for ${themeName}`);
+        const themeResponse = await fetchFromApi(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`, `Failed to load images for ${themeName}`);
+        currentThemeImages = themeResponse.images || themeResponse; // Handle both new and old API formats
         if(messageEl.textContent.startsWith("Loading for")) showMessage(`Loaded ${currentThemeImages.length} for ${themeName}.`, 'success', 2000);
       }
       // Re-render the dictionary with the new theme (and existing search query if any)
@@ -1946,7 +1951,8 @@
             letterToImage = {};
             assignedCount = 0;
 
-            const themeImages = await fetchFromApi(`/api/images?theme=${encodeURIComponent(autoTheme)}&locale=${currentLocale}`, `Failed to load images for theme: ${themeSelectEl.options[themeSelectEl.selectedIndex].text}`);
+            const themeImagesResponse = await fetchFromApi(`/api/images?theme=${encodeURIComponent(autoTheme)}&locale=${currentLocale}`, `Failed to load images for theme: ${themeSelectEl.options[themeSelectEl.selectedIndex].text}`);
+            const themeImages = themeImagesResponse.images || themeImagesResponse; // Handle both new and old API formats
             const fullImageLibrary = [...themeImages, ...uploadedImages];
 
             if (fullImageLibrary.length === 0) {

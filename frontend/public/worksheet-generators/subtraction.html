@@ -1394,7 +1394,8 @@
                 try {
                     const res = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
                     if (!res.ok) throw new Error(`Failed to load default theme`);
-                    imagesToRender = await res.json();
+                    const data = await res.json();
+                    imagesToRender = data.images || data; // Handle both old and new API formats
                     allImages = imagesToRender;
                 } catch (err) {
                     console.error("Error loading default images:", err);
@@ -1406,7 +1407,8 @@
                 try {
                     const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
                     if (!res.ok) throw new Error(`Failed to search for "${query}"`);
-                    imagesToRender = await res.json();
+                    const data = await res.json();
+                    imagesToRender = data.images || data; // Handle both old and new API formats
                     allImages = [];
                 } catch (err) {
                     showMessage(err.message, 'error');
@@ -1420,7 +1422,8 @@
             try {
                 const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
                 if (!res.ok) throw new Error(`Failed to load images for theme`);
-                const themeImages = await res.json();
+                const data = await res.json();
+                const themeImages = data.images || data; // Handle both old and new API formats
                 allImages = themeImages;
                 imagesToRender = query ? themeImages.filter(img => (img.name || img.word).toLowerCase().includes(query)) : themeImages;
             } catch (err) {

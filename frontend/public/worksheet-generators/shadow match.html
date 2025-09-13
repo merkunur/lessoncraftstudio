@@ -1332,18 +1332,21 @@
                     dictionaryDiv.innerHTML = `<p class='dictionary-message'>Loading default theme...</p>`;
                     const res = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
                     if (!res.ok) throw new Error(`Failed to load default theme`);
-                    imagesToRender = await res.json();
+                    const data = await res.json();
+                    imagesToRender = data.images || data; // Handle both old and new API formats
                 } else {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
                     const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
                     if (!res.ok) throw new Error(`Failed to search for "${query}"`);
-                    imagesToRender = await res.json();
+                    const data = await res.json();
+                    imagesToRender = data.images || data; // Handle both old and new API formats
                 }
             } else {
                 dictionaryDiv.innerHTML = `<p class='dictionary-message'>Loading images...</p>`;
                 const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
                 if (!res.ok) throw new Error(`Failed to load images for theme`);
-                const themeImages = await res.json();
+                const data = await res.json();
+                const themeImages = data.images || data; // Handle both old and new API formats
                 allImages = themeImages;
                 imagesToRender = query ? themeImages.filter(img => (img.name || img.word).toLowerCase().includes(query)) : themeImages;
             }
@@ -1985,7 +1988,8 @@
             worksheetCanvas.renderAll(); answerKeyCanvas.renderAll(); return;
         }
         borderDictionary.innerHTML = `<p class="dictionary-message">Loading...</p>`;
-        fetch(`/api/images?theme=${theme}&locale=${currentLocale}`).then(res => res.json()).then(images => {
+        fetch(`/api/images?theme=${theme}&locale=${currentLocale}`).then(res => res.json()).then(data => {
+            const images = data.images || data;
             borderDictionary.innerHTML = "";
             images.forEach(border => {
                 const item = document.createElement("div"); item.className = "border-thumbnail-item";
@@ -2004,7 +2008,8 @@
             backgroundOpacitySlider.disabled = true; return;
         }
         backgroundDictionary.innerHTML = `<p class="dictionary-message">Loading...</p>`;
-        fetch(`/api/images?theme=${theme}&locale=${currentLocale}`).then(res => res.json()).then(images => {
+        fetch(`/api/images?theme=${theme}&locale=${currentLocale}`).then(res => res.json()).then(data => {
+            const images = data.images || data;
             backgroundDictionary.innerHTML = "";
             images.forEach(bg => {
                 const item = document.createElement("div"); item.className = "border-thumbnail-item";
@@ -2415,7 +2420,9 @@ async function downloadPDF(canvasToExport) {
       
       // Now load everything with the correct locale
       clearAll();
-      loadThemes();
+      loadThemes().then(() => {
+          loadDictionary(); // Load images after themes are loaded
+      });
       loadBorderThemes();
       loadBackgroundThemes();
     });

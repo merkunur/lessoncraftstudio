@@ -2464,14 +2464,26 @@ async function downloadPDF(canvasToExport, baseFilename) {
     
     // --- BORDER LOGIC ---
     async function loadBorderThemes() {
-        const themes = await fetchFromApi('/api/borders/themes', 'Failed to load border themes');
-        borderThemeSelect.innerHTML = '<option value="none">None</option>';
-        themes.forEach(theme => {
-            const opt = document.createElement("option");
-            opt.value = theme;
-            opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-            borderThemeSelect.appendChild(opt);
-        });
+        try {
+            // First option is always None
+            borderThemeSelect.innerHTML = '<option value="none">None</option>';
+
+            // Fetch actual themes from the API
+            const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
+            if (!response.ok) {
+                console.error('Failed to load border themes');
+                return;
+            }
+
+            const themes = await response.json();
+            // Add each theme as an option
+            themes.forEach(theme => {
+                const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                borderThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+            });
+        } catch (error) {
+            console.error('Error loading border themes:', error);
+        }
     }
 
     async function loadBorderImages() {
@@ -2493,7 +2505,8 @@ async function downloadPDF(canvasToExport, baseFilename) {
         }
 
         borderDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} borders...</p>`;
-        const images = await fetchFromApi(`/api/borders/images?theme=${theme}`, `Failed to load images for border theme: ${theme}`);
+        const data = await fetchFromApi(`/api/borders/images?theme=${theme}`, `Failed to load images for border theme: ${theme}`);
+        const images = data.images || data;
         renderBorderThumbnails(images);
     }
     
@@ -2564,14 +2577,26 @@ async function downloadPDF(canvasToExport, baseFilename) {
     
     // START: New Background Functions
     async function loadBackgroundThemes() {
-        const themes = await fetchFromApi('/api/backgrounds/themes', 'Failed to load background themes');
-        backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
-        themes.forEach(theme => {
-            const opt = document.createElement("option");
-            opt.value = theme;
-            opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-            backgroundThemeSelect.appendChild(opt);
-        });
+        try {
+            // First option is always None
+            backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+
+            // Fetch actual themes from the API
+            const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
+            if (!response.ok) {
+                console.error('Failed to load background themes');
+                return;
+            }
+
+            const themes = await response.json();
+            // Add each theme as an option
+            themes.forEach(theme => {
+                const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                backgroundThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+            });
+        } catch (error) {
+            console.error('Error loading background themes:', error);
+        }
     }
 
     async function loadBackgroundImages() {
@@ -2593,7 +2618,8 @@ async function downloadPDF(canvasToExport, baseFilename) {
         }
 
         backgroundDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} backgrounds...</p>`;
-        const images = await fetchFromApi(`/api/backgrounds/images?theme=${theme}`, `Failed to load images for background theme: ${theme}`);
+        const data = await fetchFromApi(`/api/backgrounds/images?theme=${theme}`, `Failed to load images for background theme: ${theme}`);
+        const images = data.images || data;
         renderBackgroundThumbnails(images);
     }
 

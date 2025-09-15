@@ -2701,14 +2701,30 @@ async function downloadPDF(canvasToExport, fileName) {
     
     // --- BORDER LOGIC ---
     async function loadBorderThemes() {
-        const themes = await fetchFromApi('/api/borders/themes', 'Failed to load border themes');
-        borderThemeSelect.innerHTML = '<option value="none">None</option>';
-        themes.forEach(theme => {
-            const opt = document.createElement("option");
-            opt.value = theme;
-            opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-            borderThemeSelect.appendChild(opt);
-        });
+        try {
+            // First option is always None
+            borderThemeSelect.innerHTML = '<option value="none">None</option>';
+
+            // Fetch actual themes from the filesystem API with locale
+            const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
+            if (!response.ok) {
+                console.error('Failed to load border themes');
+                return;
+            }
+
+            const themes = await response.json();
+            // Add each theme as an option
+            themes.forEach(theme => {
+                // Handle both old format (string) and new format (object)
+                const value = typeof theme === 'string' ? theme : theme.value;
+                const displayName = typeof theme === 'string'
+                    ? theme.charAt(0).toUpperCase() + theme.slice(1)
+                    : theme.displayName;
+                borderThemeSelect.innerHTML += `<option value="${value}">${displayName}</option>`;
+            });
+        } catch (error) {
+            console.error('Error loading border themes:', error);
+        }
     }
 
     async function loadBorderImages() {
@@ -2731,7 +2747,12 @@ async function downloadPDF(canvasToExport, fileName) {
         }
 
         borderDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} borders...</p>`;
-        const images = await fetchFromApi(`/api/borders/images?theme=${theme}`, `Failed to load images for border theme: ${theme}`);
+
+        // Use filesystem endpoint for specific themes
+        const apiUrl = `/api/borders/images?theme=${theme}`;
+
+        const data = await fetchFromApi(apiUrl, `Failed to load images for border theme: ${theme}`);
+        const images = data.images || data; // Handle both API response formats
         renderBorderThumbnails(images);
     }
     
@@ -2741,10 +2762,19 @@ async function downloadPDF(canvasToExport, fileName) {
             borderDictionary.innerHTML = '<p class="dictionary-message">No borders in this theme.</p>';
             return;
         }
+        console.log('Rendering border thumbnails:', borders);
         borders.forEach(border => {
             const item = document.createElement("div");
             item.className = "border-thumbnail-item";
-            item.innerHTML = `<img src="${border.path}" alt="${border.name}" loading="lazy" />`;
+            const imgElement = document.createElement("img");
+            imgElement.src = border.path;
+            imgElement.alt = border.name;
+            imgElement.loading = "lazy";
+            imgElement.onerror = () => {
+                console.error(`Failed to load border image: ${border.path}`);
+                imgElement.src = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100" height="100" fill="%23f0f0f0"/><text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="%23999">Error</text></svg>';
+            };
+            item.appendChild(imgElement);
             item.onclick = () => {
                 addBorderToCanvas(border.path);
                 document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
@@ -2806,14 +2836,30 @@ async function downloadPDF(canvasToExport, fileName) {
     
     // START: New Background Functions
     async function loadBackgroundThemes() {
-        const themes = await fetchFromApi('/api/backgrounds/themes', 'Failed to load background themes');
-        backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
-        themes.forEach(theme => {
-            const opt = document.createElement("option");
-            opt.value = theme;
-            opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-            backgroundThemeSelect.appendChild(opt);
-        });
+        try {
+            // First option is always None
+            backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+
+            // Fetch actual themes from the filesystem API with locale
+            const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
+            if (!response.ok) {
+                console.error('Failed to load background themes');
+                return;
+            }
+
+            const themes = await response.json();
+            // Add each theme as an option
+            themes.forEach(theme => {
+                // Handle both old format (string) and new format (object)
+                const value = typeof theme === 'string' ? theme : theme.value;
+                const displayName = typeof theme === 'string'
+                    ? theme.charAt(0).toUpperCase() + theme.slice(1)
+                    : theme.displayName;
+                backgroundThemeSelect.innerHTML += `<option value="${value}">${displayName}</option>`;
+            });
+        } catch (error) {
+            console.error('Error loading background themes:', error);
+        }
     }
 
     async function loadBackgroundImages() {
@@ -2836,7 +2882,12 @@ async function downloadPDF(canvasToExport, fileName) {
         }
 
         backgroundDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} backgrounds...</p>`;
-        const images = await fetchFromApi(`/api/backgrounds/images?theme=${theme}`, `Failed to load images for background theme: ${theme}`);
+
+        // Use filesystem endpoint for specific themes
+        const apiUrl = `/api/backgrounds/images?theme=${theme}`;
+
+        const data = await fetchFromApi(apiUrl, `Failed to load images for background theme: ${theme}`);
+        const images = data.images || data; // Handle both API response formats
         renderBackgroundThumbnails(images);
     }
 
@@ -2846,10 +2897,19 @@ async function downloadPDF(canvasToExport, fileName) {
             backgroundDictionary.innerHTML = '<p class="dictionary-message">No backgrounds in this theme.</p>';
             return;
         }
+        console.log('Rendering background thumbnails:', backgrounds);
         backgrounds.forEach(bg => {
             const item = document.createElement("div");
             item.className = "border-thumbnail-item";
-            item.innerHTML = `<img src="${bg.path}" alt="${bg.name}" loading="lazy" />`;
+            const imgElement = document.createElement("img");
+            imgElement.src = bg.path;
+            imgElement.alt = bg.name;
+            imgElement.loading = "lazy";
+            imgElement.onerror = () => {
+                console.error(`Failed to load background image: ${bg.path}`);
+                imgElement.src = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><rect width="100" height="100" fill="%23f0f0f0"/><text x="50%" y="50%" text-anchor="middle" dy=".3em" fill="%23999">Error</text></svg>';
+            };
+            item.appendChild(imgElement);
             item.onclick = () => {
                 addBackgroundToCanvas(bg.path);
                 document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
@@ -2912,11 +2972,13 @@ async function downloadPDF(canvasToExport, fileName) {
 
     // START: Template Functions
     async function loadTemplates() {
-        const templates = await fetchFromApi('/api/train-templates', 'Failed to load train templates');
+        const templates = await fetchFromApi(`/api/train-templates?locale=${currentLocale}`, 'Failed to load train templates');
+        console.log('Loaded train templates:', templates);
         templates.forEach(template => {
             const opt = document.createElement('option');
-            opt.value = template.path;
-            opt.textContent = template.name.charAt(0).toUpperCase() + template.name.slice(1).replace(/[-_]/g, ' ');
+            opt.value = template.path || template.url; // Use path or url
+            // Use the translated name which is already localized
+            opt.textContent = template.name;
             templateSelect.appendChild(opt);
         });
     }

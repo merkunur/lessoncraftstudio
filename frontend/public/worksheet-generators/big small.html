@@ -1556,18 +1556,22 @@
       });
       
       // --- BACKGROUNDS & BORDERS ---
-      function loadAssetThemes(type, selectEl) {
-             fetch(`/api/${type}/themes`)
-                .then(res => { if (!res.ok) throw new Error(`Failed to load ${type} themes`); return res.json(); })
-                .then(themes => {
-                    selectEl.innerHTML = `<option value="none">None</option>`;
-                    themes.forEach(theme => {
-                        const opt = document.createElement("option");
-                        opt.value = theme; opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                        selectEl.appendChild(opt);
-                    });
-                })
-                .catch(err => { console.error(`Error loading ${type} themes:`, err); });
+      async function loadAssetThemes(type, selectEl) {
+          try {
+              selectEl.innerHTML = `<option value="none">None</option>`;
+              const response = await fetch(`/api/${type}/themes`);
+              if (!response.ok) {
+                  console.error(`Failed to load ${type} themes`);
+                  return;
+              }
+              const themes = await response.json();
+              themes.forEach(theme => {
+                  const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                  selectEl.innerHTML += `<option value="${theme}">${displayName}</option>`;
+              });
+          } catch (error) {
+              console.error(`Error loading ${type} themes:`, error);
+          }
       }
 
       function loadAssetImages(type, theme, dictionaryEl, addFunc) {
@@ -1582,12 +1586,15 @@
                 dictionaryEl.querySelectorAll('.border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                 return;
             }
-            dictionaryEl.innerHTML = `<p class="dictionary-message">Loading ${theme} ${type}...</p>`;
-            fetch(`/api/${type}/images?theme=${theme}`)
-                .then(res => { if (!res.ok) throw new Error(`Failed to load images for ${type} theme`); return res.json(); })
-                .then(images => {
+            dictionaryEl.innerHTML = `<p class="dictionary-message">Loading ${type}...</p>`;
+            // Use filesystem endpoint for specific themes
+            const url = `/api/${type}/images?theme=${theme}`;
+            fetch(url)
+                .then(res => { if (!res.ok) throw new Error(`Failed to load ${type}`); return res.json(); })
+                .then(data => {
+                    const images = data.images || data; // Handle API response structure
                     dictionaryEl.innerHTML = "";
-                    if (images.length === 0) { dictionaryEl.innerHTML = `<p class="dictionary-message">No ${type} in this theme.</p>`; return; }
+                    if (images.length === 0) { dictionaryEl.innerHTML = `<p class="dictionary-message">No ${type} available.</p>`; return; }
                     images.forEach(asset => {
                         const item = document.createElement("div"); item.className = "border-thumbnail-item";
                         item.innerHTML = `<img src="${asset.path}" alt="${asset.name}" loading="lazy" />`;

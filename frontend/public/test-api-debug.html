@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>API Debug Test</title>
+</head>
+<body>
+  <h1>Testing API Responses</h1>
+
+  <h2>Border Themes API:</h2>
+  <pre id="borderThemes">Loading...</pre>
+
+  <h2>Background Themes API:</h2>
+  <pre id="backgroundThemes">Loading...</pre>
+
+  <h2>Main Themes API:</h2>
+  <pre id="mainThemes">Loading...</pre>
+
+  <h2>Testing Select Population:</h2>
+  <select id="testBorderSelect">
+    <option value="none">None</option>
+  </select>
+
+  <button onclick="testSelectUpdate()">Test Select Update</button>
+
+  <pre id="log"></pre>
+
+  <script>
+    function log(msg) {
+      document.getElementById('log').textContent += msg + '\n';
+      console.log(msg);
+    }
+
+    async function testAPIs() {
+      // Test border themes API
+      try {
+        const borderResponse = await fetch('/api/borders/themes');
+        const borderThemes = await borderResponse.json();
+        document.getElementById('borderThemes').textContent = JSON.stringify(borderThemes, null, 2);
+        log('Border themes count: ' + borderThemes.length);
+
+        // Try to populate select
+        const select = document.getElementById('testBorderSelect');
+        log('Select element found: ' + !!select);
+        log('Select initial options: ' + select.options.length);
+
+        borderThemes.forEach(theme => {
+          log('Adding theme: ' + theme.displayName);
+          select.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
+        });
+
+        log('Select after adding: ' + select.options.length);
+        log('Select HTML: ' + select.innerHTML);
+
+      } catch (error) {
+        document.getElementById('borderThemes').textContent = 'Error: ' + error;
+      }
+
+      // Test background themes API
+      try {
+        const bgResponse = await fetch('/api/backgrounds/themes');
+        const bgThemes = await bgResponse.json();
+        document.getElementById('backgroundThemes').textContent = JSON.stringify(bgThemes, null, 2);
+        log('Background themes count: ' + bgThemes.length);
+      } catch (error) {
+        document.getElementById('backgroundThemes').textContent = 'Error: ' + error;
+      }
+
+      // Test main themes API
+      try {
+        const mainResponse = await fetch('/api/themes');
+        const mainThemes = await mainResponse.json();
+        document.getElementById('mainThemes').textContent = JSON.stringify(mainThemes.slice(0, 3), null, 2) + '\n... and more';
+        log('Main themes count: ' + mainThemes.length);
+      } catch (error) {
+        document.getElementById('mainThemes').textContent = 'Error: ' + error;
+      }
+    }
+
+    function testSelectUpdate() {
+      const select = document.getElementById('testBorderSelect');
+      log('\n=== Manual Select Update Test ===');
+      log('Current options: ' + select.options.length);
+
+      // Try different methods
+      const option1 = document.createElement('option');
+      option1.value = 'test1';
+      option1.text = 'Test 1';
+      select.add(option1);
+      log('After add(): ' + select.options.length);
+
+      select.innerHTML += '<option value="test2">Test 2</option>';
+      log('After innerHTML +=: ' + select.options.length);
+
+      const option3 = new Option('Test 3', 'test3');
+      select.appendChild(option3);
+      log('After appendChild: ' + select.options.length);
+    }
+
+    // Run tests on load
+    window.addEventListener('DOMContentLoaded', testAPIs);
+  </script>
+</body>
+</html>

@@ -33,6 +33,9 @@ class ImageLibraryManager {
   private static instance: ImageLibraryManager;
   private state: ImageLibraryState;
   private syncInterval: NodeJS.Timeout | null = null;
+  private initPromise: Promise<void>;
+  private initResolver: (() => void) | null = null;
+  private isInitialized = false;
   private readonly SYNC_INTERVAL = 60000; // Check every minute
   private readonly DIRECTUS_URL = process.env.DIRECTUS_INTERNAL_URL || 'http://lcs-directus:8055';
   private readonly ADMIN_EMAIL = 'admin@lessoncraftstudio.com';
@@ -60,13 +63,18 @@ class ImageLibraryManager {
       worksheetTemplateThemes: new Map(),
       worksheetTemplates: new Map()
     };
-    
+
+    // Create initialization promise
+    this.initPromise = new Promise<void>((resolve) => {
+      this.initResolver = resolve;
+    });
+
     // Load cached translations immediately for instant availability
     this.loadCachedTranslations();
-    
-    // Start automatic sync
+
+    // Start automatic sync - this will resolve initPromise when first sync completes
     this.startAutoSync();
-    
+
     // Monitor performance
     this.logSystemStatus();
   }
@@ -76,6 +84,12 @@ class ImageLibraryManager {
       ImageLibraryManager.instance = new ImageLibraryManager();
     }
     return ImageLibraryManager.instance;
+  }
+
+  // Wait for initialization to complete
+  async waitForInit(): Promise<void> {
+    if (this.isInitialized) return;
+    await this.initPromise;
   }
   
   // Start automatic sync checking
@@ -238,15 +252,23 @@ class ImageLibraryManager {
       
       this.state.lastSync = Date.now();
       const syncDuration = Date.now() - startTime;
-      
+
       // Log performance metrics
       console.log(`✅ Image library sync completed successfully`);
       console.log(`📊 Sync Stats: ${totalThemes} themes, ${totalImages} images in ${syncDuration}ms`);
       console.log(`💾 Memory: ${Math.round(process.memoryUsage().heapUsed / 1024 / 1024)}MB used`);
-      
+
+      // Resolve initialization promise on first successful sync
+      if (!this.isInitialized && this.initResolver) {
+        this.isInitialized = true;
+        this.initResolver();
+        this.initResolver = null;
+        console.log('✅ ImageLibraryManager initialized and ready');
+      }
+
       // Clean up old cache entries
       this.cleanupCache();
-      
+
       return true;
       
     } catch (error) {
@@ -456,6 +478,51 @@ class ImageLibraryManager {
       }
     }, 60000); // Log every minute
   }
+
+  // Clear all caches - for admin use
+  clearCache(): void {
+    console.log('🧹 Clearing all image library caches...');
+
+    // Clear image caches
+    this.state.imageCache.clear();
+    this.state.cacheTimestamps.clear();
+
+    // Clear collection caches
+    this.state.backgrounds.clear();
+    this.state.borders.clear();
+    this.state.trainTemplates.clear();
+    this.state.worksheetTemplates.clear();
+
+    // Reset last sync to force refresh
+    this.state.lastSync = 0;
+
+    console.log('✅ Cache cleared successfully');
+  }
+
+  // Get cache statistics
+  getCacheStats(): any {
+    const totalCacheEntries =
+      this.state.imageCache.size +
+      this.state.backgrounds.size +
+      this.state.borders.size +
+      this.state.trainTemplates.size +
+      this.state.worksheetTemplates.size;
+
+    let totalImages = 0;
+    for (const images of this.state.imageCache.values()) {
+      totalImages += images.length;
+    }
+
+    return {
+      size: totalCacheEntries,
+      themes: this.state.themes.size,
+      images: totalImages,
+      lastSync: this.state.lastSync,
+      backgrounds: this.state.backgrounds.size,
+      borders: this.state.borders.size,
+      templates: this.state.trainTemplates.size + this.state.worksheetTemplates.size
+    };
+  }
   
   // Built-in translations (fallback)
   private getBuiltInTranslation(themeName: string, locale: string): string {
@@ -549,16 +616,28 @@ class ImageLibraryManager {
                 }
               }
               
+              // Use Directus proxy for images
+              // Only use Directus files - NO FALLBACK
+              if (!img.image_file?.id) {
+                console.log(`Skipping background ${img.file_name} - no Directus file`);
+                continue;
+              }
+              const imagePath = `/api/directus-image?id=${img.image_file.id}`;
+
               backgroundImages.push({
                 name: img.file_name,
-                path: `/images/backgrounds/${theme.folder_name}/${fileName}`,
-                url: `/images/backgrounds/${theme.folder_name}/${fileName}`,
+                path: imagePath,
+                url: imagePath,
                 translations: img.translations || {}
               });
             }
             
             this.state.backgrounds.set(theme.folder_name, backgroundImages);
           }
+
+          // Always include filesystem files
+          const fsThemePath = path.join(process.cwd(), 'public', 'images', 'backgrounds', theme.folder_name);
+          // NO FILESYSTEM FALLBACK - Only use Directus
         }
       }
       
@@ -616,18 +695,33 @@ class ImageLibraryManager {
                 }
               }
               
+              // Use Directus proxy for images
+              // Only use Directus files - NO FALLBACK
+              if (!img.image_file?.id) {
+                console.log(`Skipping border ${img.file_name} - no Directus file`);
+                continue;
+              }
+              const imagePath = `/api/directus-image?id=${img.image_file.id}`;
+
               borderImages.push({
                 name: img.file_name,
-                path: `/images/borders/${style.style_name}/${fileName}`,
-                url: `/images/borders/${style.style_name}/${fileName}`,
+                path: imagePath,
+                url: imagePath,
                 translations: img.translations || {}
               });
             }
             
             this.state.borders.set(style.style_name, borderImages);
           }
+
+          // Always include filesystem files
+          const fsStylePath = path.join(process.cwd(), 'public', 'images', 'borders', style.style_name);
+          // NO FILESYSTEM FALLBACK - Only use Directus
         }
       }
+
+      console.log(`Border state after sync:`, Array.from(this.state.borders.keys()),
+        Array.from(this.state.borders.entries()).map(([k, v]) => `${k}: ${v.length} images`));
       
       // Sync templates
       const templateResponse = await fetch(
@@ -734,13 +828,19 @@ class ImageLibraryManager {
   
   // Get border styles
   getBorderStyles(locale: string = 'en'): any[] {
+    console.log('getBorderStyles called with locale:', locale);
+    console.log('borderStyles size:', this.state.borderStyles.size);
+    console.log('Border styles keys:', Array.from(this.state.borderStyles.keys()));
     const styles: any[] = [];
     for (const [styleName, style] of this.state.borderStyles.entries()) {
+      console.log(`Processing ${styleName}, style data:`, JSON.stringify(style));
       let displayName = styleName;
       if (style.translations?.[locale]) {
         displayName = style.translations[locale];
+        console.log(`Found ${locale} translation: ${displayName}`);
       } else if (style.translations?.['en']) {
         displayName = style.translations['en'];
+        console.log(`Using English fallback: ${displayName}`);
       }
       
       styles.push({
@@ -841,13 +941,16 @@ class ImageLibraryManager {
                 }
               }
               
-              // Add to templates array even if no file uploaded (will use local file)
-              templateImages.push({
-                name: img.file_name,
-                path: `/images/template/train/${fileName}`,  // Use existing local path
-                url: `/images/template/train/${fileName}`,
-                translations: img.translations || {}
-              });
+              // Use Directus image path if available, otherwise skip
+              if (img.image_file?.id) {
+                const imagePath = `/api/directus-image?id=${img.image_file.id}`;
+                templateImages.push({
+                  name: img.file_name,
+                  path: imagePath,
+                  url: imagePath,
+                  translations: img.translations || {}
+                });
+              }
             }
             
             this.state.trainTemplates.set(theme.folder_name, templateImages);
@@ -916,13 +1019,16 @@ class ImageLibraryManager {
                 }
               }
               
-              // Add to templates array even if no file uploaded (will use local file)
-              templateImages.push({
-                name: img.file_name,
-                path: `/images/template/worksheet/${fileName}`,  // Use existing local path
-                url: `/images/template/worksheet/${fileName}`,
-                translations: img.translations || {}
-              });
+              // Use Directus image path if available, otherwise skip
+              if (img.image_file?.id) {
+                const imagePath = `/api/directus-image?id=${img.image_file.id}`;
+                templateImages.push({
+                  name: img.file_name,
+                  path: imagePath,
+                  url: imagePath,
+                  translations: img.translations || {}
+                });
+              }
             }
             
             this.state.worksheetTemplates.set(theme.folder_name, templateImages);

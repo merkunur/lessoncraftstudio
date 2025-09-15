@@ -54,17 +54,8 @@
       "fi": "Lintu"
     },
     "cat": {
-      "en": "Cat",
-      "de": "Katze",
-      "fr": "Chat",
-      "es": "Gato",
-      "pt": "Gato",
-      "it": "Gatto",
-      "nl": "Kat",
-      "sv": "Katt",
-      "da": "Kat",
-      "no": "Katt",
-      "fi": "Kissa"
+      "en": "Test Cat",
+      "de": "Test Katze"
     },
     "cow": {
       "en": "Cow",
@@ -442,6 +433,7 @@
       "da": "Zebra",
       "no": "Zebra",
       "fi": "Zebra"
-    }
+    },
+    "jh,bjknk": {}
   }
 }

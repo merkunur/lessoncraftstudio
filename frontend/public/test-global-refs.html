@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Global References Test</title>
+</head>
+<body>
+    <h1>Testing Global vs Local References</h1>
+
+    <select id="borderThemeSelect">
+        <option value="none">None</option>
+    </select>
+
+    <button onclick="testMethod1()">Method 1: document.getElementById</button>
+    <button onclick="testMethod2()">Method 2: Global Variable</button>
+    <button onclick="testMethod3()">Method 3: Window Property</button>
+
+    <pre id="log"></pre>
+
+    <script>
+        // Store references globally
+        let globalBorderSelect = null;
+        window.windowBorderSelect = null;
+
+        function log(msg) {
+            document.getElementById('log').textContent += msg + '\n';
+        }
+
+        function testMethod1() {
+            log('\nMethod 1: Using document.getElementById');
+            const select = document.getElementById('borderThemeSelect');
+            log('Select found: ' + !!select);
+
+            if (select) {
+                // Try to add options
+                const opt1 = document.createElement('option');
+                opt1.value = 'test1';
+                opt1.textContent = 'Test 1';
+                select.appendChild(opt1);
+
+                log('Options after adding: ' + select.options.length);
+                log('Options: ' + Array.from(select.options).map(o => o.text).join(', '));
+            }
+        }
+
+        function testMethod2() {
+            log('\nMethod 2: Using global variable');
+            log('Global select exists: ' + !!globalBorderSelect);
+
+            if (globalBorderSelect) {
+                const opt2 = document.createElement('option');
+                opt2.value = 'test2';
+                opt2.textContent = 'Test 2';
+                globalBorderSelect.appendChild(opt2);
+
+                log('Options after adding: ' + globalBorderSelect.options.length);
+                log('Options: ' + Array.from(globalBorderSelect.options).map(o => o.text).join(', '));
+            }
+        }
+
+        function testMethod3() {
+            log('\nMethod 3: Using window property');
+            log('Window select exists: ' + !!window.windowBorderSelect);
+
+            if (window.windowBorderSelect) {
+                const opt3 = document.createElement('option');
+                opt3.value = 'test3';
+                opt3.textContent = 'Test 3';
+                window.windowBorderSelect.appendChild(opt3);
+
+                log('Options after adding: ' + window.windowBorderSelect.options.length);
+                log('Options: ' + Array.from(window.windowBorderSelect.options).map(o => o.text).join(', '));
+            }
+        }
+
+        // Initialize on load
+        window.addEventListener('DOMContentLoaded', () => {
+            globalBorderSelect = document.getElementById('borderThemeSelect');
+            window.windowBorderSelect = document.getElementById('borderThemeSelect');
+
+            log('Page loaded');
+            log('Global reference set: ' + !!globalBorderSelect);
+            log('Window reference set: ' + !!window.windowBorderSelect);
+
+            // Test API call
+            fetch('/api/borders/themes')
+                .then(res => res.json())
+                .then(themes => {
+                    log('\nAPI returned ' + themes.length + ' themes');
+                    log('Themes: ' + themes.map(t => t.displayName).join(', '));
+
+                    // Try adding them all methods
+                    const select = document.getElementById('borderThemeSelect');
+                    themes.forEach(theme => {
+                        const opt = document.createElement('option');
+                        opt.value = theme.value;
+                        opt.textContent = theme.displayName;
+                        select.appendChild(opt);
+                    });
+
+                    log('\nFinal option count: ' + select.options.length);
+                    log('Final options: ' + Array.from(select.options).map(o => o.text).join(', '));
+                })
+                .catch(err => log('API Error: ' + err));
+        });
+    </script>
+</body>
+</html>

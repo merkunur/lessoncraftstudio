@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Select Debug Test</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        .test-section { margin: 20px 0; padding: 20px; border: 1px solid #ccc; }
+        select { padding: 5px; margin: 10px 0; display: block; }
+        button { padding: 10px; margin: 5px; }
+        .log { background: #f0f0f0; padding: 10px; margin: 10px 0; font-family: monospace; }
+    </style>
+</head>
+<body>
+    <h1>Select Element Debug Test</h1>
+
+    <div class="test-section">
+        <h2>Test 1: Static Select (Control)</h2>
+        <select id="staticSelect">
+            <option value="none">None</option>
+            <option value="spring">Spring</option>
+            <option value="math">Math</option>
+        </select>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 2: Dynamic with innerHTML</h2>
+        <select id="dynamicSelect1">
+            <option value="none">None</option>
+        </select>
+        <button onclick="addWithInnerHTML()">Add Options with innerHTML</button>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 3: Dynamic with appendChild</h2>
+        <select id="dynamicSelect2">
+            <option value="none">None</option>
+        </select>
+        <button onclick="addWithAppendChild()">Add Options with appendChild</button>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 4: Exact Reproduction of Issue</h2>
+        <select id="borderThemeSelect">
+            <option value="none">None</option>
+        </select>
+        <button onclick="reproduceIssue()">Reproduce Border Theme Loading</button>
+    </div>
+
+    <div class="test-section">
+        <h2>Test 5: Async Loading Like App</h2>
+        <select id="asyncSelect">
+            <option value="none">None</option>
+        </select>
+        <button onclick="loadAsync()">Load Async</button>
+    </div>
+
+    <div class="log" id="log"></div>
+
+    <script>
+        function log(message) {
+            const logDiv = document.getElementById('log');
+            logDiv.innerHTML += message + '<br>';
+            console.log(message);
+        }
+
+        function addWithInnerHTML() {
+            const select = document.getElementById('dynamicSelect1');
+            select.innerHTML = '<option value="none">None</option>';
+            select.innerHTML += '<option value="spring">Spring</option>';
+            select.innerHTML += '<option value="math">Math</option>';
+            log(`innerHTML method: Added options. Total: ${select.options.length}`);
+        }
+
+        function addWithAppendChild() {
+            const select = document.getElementById('dynamicSelect2');
+            select.innerHTML = '';
+
+            const none = document.createElement('option');
+            none.value = 'none';
+            none.textContent = 'None';
+            select.appendChild(none);
+
+            const spring = document.createElement('option');
+            spring.value = 'spring';
+            spring.textContent = 'Spring';
+            select.appendChild(spring);
+
+            const math = document.createElement('option');
+            math.value = 'math';
+            math.textContent = 'Math';
+            select.appendChild(math);
+
+            log(`appendChild method: Added options. Total: ${select.options.length}`);
+        }
+
+        function reproduceIssue() {
+            const themes = [
+                { value: 'spring', displayName: 'spring' },
+                { value: 'math', displayName: 'Math' }
+            ];
+
+            const borderSelect = document.getElementById('borderThemeSelect');
+            borderSelect.innerHTML = '<option value="none">None</option>';
+
+            themes.forEach(theme => {
+                const themeValue = theme.value;
+                const displayName = theme.displayName.charAt(0).toUpperCase() + theme.displayName.slice(1);
+                borderSelect.innerHTML += `<option value="${themeValue}">${displayName}</option>`;
+            });
+
+            log(`Reproduce issue: Added options. Total: ${borderSelect.options.length}`);
+            log(`Options: ${Array.from(borderSelect.options).map(o => o.text).join(', ')}`);
+        }
+
+        async function loadAsync() {
+            // Simulate API call
+            await new Promise(resolve => setTimeout(resolve, 100));
+
+            const response = await fetch('/api/borders/themes');
+            const themes = await response.json();
+
+            const select = document.getElementById('asyncSelect');
+            select.innerHTML = '<option value="none">None</option>';
+
+            themes.forEach(theme => {
+                const themeValue = theme.value;
+                const displayName = theme.displayName;
+                select.innerHTML += `<option value="${themeValue}">${displayName}</option>`;
+            });
+
+            log(`Async load: Added options. Total: ${select.options.length}`);
+        }
+
+        // Test on page load
+        window.addEventListener('DOMContentLoaded', () => {
+            log('Page loaded. Testing selects...');
+
+            // Check all selects
+            const selects = document.querySelectorAll('select');
+            selects.forEach(select => {
+                log(`${select.id}: ${select.options.length} options, display: ${window.getComputedStyle(select).display}`);
+            });
+        });
+    </script>
+</body>
+</html>

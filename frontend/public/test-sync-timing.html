@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sync Timing Test - Immediate vs Delayed Calls</title>
+    <style>
+        body { font-family: monospace; padding: 20px; background: #1a1a1a; color: #0f0; }
+        .test { margin: 20px 0; padding: 15px; border: 1px solid #0f0; }
+        .error { color: #f00; }
+        .success { color: #0f0; }
+        .warning { color: #ff0; }
+        pre { background: #000; padding: 10px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>🔍 Sync Timing Investigation</h1>
+    <div id="results"></div>
+
+    <script>
+        const results = document.getElementById('results');
+        let testNumber = 0;
+
+        function log(message, type = '') {
+            const className = type ? ` class="${type}"` : '';
+            results.innerHTML += `<div${className}>${new Date().toISOString().split('T')[1]} - ${message}</div>`;
+        }
+
+        async function testEndpoint(url, delay = 0) {
+            if (delay > 0) {
+                await new Promise(resolve => setTimeout(resolve, delay));
+            }
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                return { error: error.message };
+            }
+        }
+
+        async function runTest() {
+            log('=== SYNC TIMING TEST STARTED ===', 'warning');
+
+            // Test 1: Immediate calls (should be empty if sync hasn't completed)
+            log('\nTest 1: IMMEDIATE API CALLS (no wait)');
+
+            const immediate1 = await testEndpoint('/api/borders/themes');
+            log(`Borders themes (immediate): ${JSON.stringify(immediate1)}`);
+
+            const immediate2 = await testEndpoint('/api/borders/images?theme=spring');
+            log(`Spring borders (immediate): ${JSON.stringify(immediate2).substring(0, 100)}...`);
+
+            const immediate3 = await testEndpoint('/api/train-templates');
+            log(`Train templates (immediate): ${JSON.stringify(immediate3).substring(0, 100)}...`);
+
+            // Test 2: After 1 second
+            log('\nTest 2: AFTER 1 SECOND DELAY', 'warning');
+            await new Promise(resolve => setTimeout(resolve, 1000));
+
+            const after1s1 = await testEndpoint('/api/borders/themes');
+            log(`Borders themes (1s): ${JSON.stringify(after1s1)}`);
+
+            const after1s2 = await testEndpoint('/api/borders/images?theme=spring');
+            log(`Spring borders (1s): ${JSON.stringify(after1s2).substring(0, 100)}...`);
+
+            // Test 3: After 5 seconds
+            log('\nTest 3: AFTER 5 SECONDS DELAY', 'warning');
+            await new Promise(resolve => setTimeout(resolve, 4000));
+
+            const after5s1 = await testEndpoint('/api/borders/themes');
+            log(`Borders themes (5s): ${JSON.stringify(after5s1)}`);
+
+            const after5s2 = await testEndpoint('/api/borders/images?theme=spring');
+            log(`Spring borders (5s): ${JSON.stringify(after5s2).substring(0, 100)}...`);
+
+            const after5s3 = await testEndpoint('/api/train-templates');
+            log(`Train templates (5s): ${JSON.stringify(after5s3).substring(0, 100)}...`);
+
+            // Test 4: Multiple rapid calls to test if singleton persists
+            log('\nTest 4: RAPID SEQUENTIAL CALLS (testing singleton)', 'warning');
+            for (let i = 0; i < 5; i++) {
+                const result = await testEndpoint('/api/borders/themes');
+                log(`Call ${i+1}: ${result.length || 0} themes`);
+                await new Promise(resolve => setTimeout(resolve, 100));
+            }
+
+            // Test 5: Force server restart test (make multiple calls with delays)
+            log('\nTest 5: TESTING PERSISTENCE ACROSS TIME', 'warning');
+            await new Promise(resolve => setTimeout(resolve, 10000));
+
+            const after10s = await testEndpoint('/api/borders/themes');
+            log(`Borders after 10s wait: ${JSON.stringify(after10s)}`);
+
+            // Analysis
+            log('\n=== ANALYSIS ===', 'success');
+
+            const immediateEmpty = (!immediate1.length || immediate1.length === 0) &&
+                                  (!immediate2.images || immediate2.images.length === 0) &&
+                                  (!immediate3.length || immediate3.length === 0);
+
+            const delayedHasData = (after5s1.length > 0 ||
+                                   (after5s2.images && after5s2.images.length > 0) ||
+                                   (after5s3.length > 0));
+
+            if (immediateEmpty && delayedHasData) {
+                log('❌ PROBLEM CONFIRMED: Sync is async and not awaited!', 'error');
+                log('   - Immediate calls return empty (sync not complete)', 'error');
+                log('   - Delayed calls return data (sync completed in background)', 'error');
+                log('   - This means data is NOT loading dynamically on first request', 'error');
+            } else if (!immediateEmpty && delayedHasData) {
+                log('✅ Sync appears to be working (data available immediately)', 'success');
+                log('   - But this might be from a previous sync', 'warning');
+                log('   - Try restarting the server and running this test again', 'warning');
+            } else if (immediateEmpty && !delayedHasData) {
+                log('❌ CRITICAL: Sync is not working at all!', 'error');
+                log('   - No data even after delays', 'error');
+                log('   - Check Directus connection and database', 'error');
+            }
+        }
+
+        // Run test immediately
+        runTest();
+    </script>
+</body>
+</html>

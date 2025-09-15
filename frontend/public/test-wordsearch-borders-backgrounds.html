@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wordsearch Borders & Backgrounds Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test-section { margin: 20px 0; padding: 15px; background: #f5f5f5; border-radius: 8px; }
+        .success { color: green; }
+        .error { color: red; }
+        .image-preview {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+            border: 2px solid #ddd;
+            padding: 5px;
+            background: white;
+        }
+        .image-preview img {
+            max-width: 200px;
+            max-height: 200px;
+            display: block;
+        }
+        .image-preview .name {
+            margin-top: 5px;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Wordsearch App - Borders & Backgrounds Loading Test</h1>
+    <div id="results"></div>
+
+    <script>
+        const currentLocale = 'en';
+
+        async function testBordersAndBackgrounds() {
+            const results = document.getElementById('results');
+            let html = '';
+
+            // Test 1: Load Border Themes
+            html += '<div class="test-section">';
+            html += '<h2>Border Themes Test</h2>';
+            try {
+                const borderThemesResponse = await fetch('/api/borders/themes');
+                const borderThemes = await borderThemesResponse.json();
+
+                if (borderThemes && borderThemes.length > 0) {
+                    html += '<p class="success">✅ Found ' + borderThemes.length + ' border themes: ' + borderThemes.join(', ') + '</p>';
+
+                    // Test loading images for each theme
+                    for (const theme of borderThemes) {
+                        html += '<h3>Border Theme: ' + theme + '</h3>';
+                        const imagesResponse = await fetch(`/api/borders/images?theme=${theme}`);
+                        const imagesData = await imagesResponse.json();
+
+                        if (imagesData.images && imagesData.images.length > 0) {
+                            html += '<p class="success">✅ Found ' + imagesData.images.length + ' images</p>';
+                            html += '<div>';
+
+                            for (const img of imagesData.images) {
+                                // Test if image actually loads
+                                const testImg = new Image();
+                                testImg.src = img.path;
+
+                                html += '<div class="image-preview">';
+                                html += '<img src="' + img.path + '" onerror="this.style.border=\'2px solid red\'; this.alt=\'Failed to load\'">';
+                                html += '<div class="name">' + img.name + '</div>';
+                                html += '<div class="name" style="font-size:10px; color:#999;">' + img.path + '</div>';
+                                html += '</div>';
+                            }
+                            html += '</div>';
+                        } else {
+                            html += '<p class="error">❌ No images found for theme: ' + theme + '</p>';
+                        }
+                    }
+                } else {
+                    html += '<p class="error">❌ No border themes found</p>';
+                }
+            } catch (error) {
+                html += '<p class="error">❌ Error loading border themes: ' + error.message + '</p>';
+            }
+            html += '</div>';
+
+            // Test 2: Load Background Themes
+            html += '<div class="test-section">';
+            html += '<h2>Background Themes Test</h2>';
+            try {
+                const bgThemesResponse = await fetch('/api/backgrounds/themes');
+                const bgThemes = await bgThemesResponse.json();
+
+                if (bgThemes && bgThemes.length > 0) {
+                    html += '<p class="success">✅ Found ' + bgThemes.length + ' background themes: ' + bgThemes.join(', ') + '</p>';
+
+                    // Test loading images for each theme
+                    for (const theme of bgThemes) {
+                        html += '<h3>Background Theme: ' + theme + '</h3>';
+                        const imagesResponse = await fetch(`/api/backgrounds/images?theme=${theme}`);
+                        const imagesData = await imagesResponse.json();
+
+                        if (imagesData.images && imagesData.images.length > 0) {
+                            html += '<p class="success">✅ Found ' + imagesData.images.length + ' images</p>';
+                            html += '<div>';
+
+                            for (const img of imagesData.images) {
+                                // Test if image actually loads
+                                const testImg = new Image();
+                                testImg.src = img.path;
+
+                                html += '<div class="image-preview">';
+                                html += '<img src="' + img.path + '" onerror="this.style.border=\'2px solid red\'; this.alt=\'Failed to load\'">';
+                                html += '<div class="name">' + img.name + '</div>';
+                                html += '<div class="name" style="font-size:10px; color:#999;">' + img.path + '</div>';
+                                html += '</div>';
+                            }
+                            html += '</div>';
+                        } else {
+                            html += '<p class="error">❌ No images found for theme: ' + theme + '</p>';
+                        }
+                    }
+                } else {
+                    html += '<p class="error">❌ No background themes found</p>';
+                }
+            } catch (error) {
+                html += '<p class="error">❌ Error loading background themes: ' + error.message + '</p>';
+            }
+            html += '</div>';
+
+            // Test 3: Simulate Wordsearch loadAssetImages function
+            html += '<div class="test-section">';
+            html += '<h2>Wordsearch loadAssetImages Simulation</h2>';
+
+            // Test border loading like Wordsearch does
+            if (borderThemes && borderThemes.length > 0) {
+                const testTheme = borderThemes[0];
+                html += '<h3>Testing border loading for: ' + testTheme + '</h3>';
+
+                const apiUrl = `/api/borders/images?theme=${testTheme}`;
+                try {
+                    const response = await fetch(apiUrl);
+                    const data = await response.json();
+                    const images = data.images || data;
+
+                    if (images.length > 0) {
+                        html += '<p class="success">✅ Wordsearch simulation successful - ' + images.length + ' border images would load</p>';
+                    } else {
+                        html += '<p class="error">❌ Wordsearch simulation failed - no images returned</p>';
+                    }
+                } catch (error) {
+                    html += '<p class="error">❌ Wordsearch simulation error: ' + error.message + '</p>';
+                }
+            }
+
+            // Test background loading like Wordsearch does
+            if (bgThemes && bgThemes.length > 0) {
+                const testTheme = bgThemes[0];
+                html += '<h3>Testing background loading for: ' + testTheme + '</h3>';
+
+                const apiUrl = `/api/backgrounds/images?theme=${testTheme}`;
+                try {
+                    const response = await fetch(apiUrl);
+                    const data = await response.json();
+                    const images = data.images || data;
+
+                    if (images.length > 0) {
+                        html += '<p class="success">✅ Wordsearch simulation successful - ' + images.length + ' background images would load</p>';
+                    } else {
+                        html += '<p class="error">❌ Wordsearch simulation failed - no images returned</p>';
+                    }
+                } catch (error) {
+                    html += '<p class="error">❌ Wordsearch simulation error: ' + error.message + '</p>';
+                }
+            }
+
+            html += '</div>';
+
+            results.innerHTML = html;
+        }
+
+        // Run test on load
+        testBordersAndBackgrounds();
+    </script>
+</body>
+</html>

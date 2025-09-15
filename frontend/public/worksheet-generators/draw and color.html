@@ -1012,14 +1012,20 @@ document.addEventListener("DOMContentLoaded", function() {
         // If "All Themes" is selected, use the new server-side search
         if (selectedTheme === 'all') {
             if (!query) {
-                dictionary.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
-                return;
+                // Show the default theme images (animals) when no search query
+                imagesToDisplay = currentThemeImages || [];
+                // If no images loaded yet, show a message
+                if (imagesToDisplay.length === 0) {
+                    dictionary.innerHTML = `<p class="dictionary-message">Loading default theme...</p>`;
+                    return;
+                }
+            } else {
+                // Show a "Searching..." message while waiting for the server
+                dictionary.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+                // Fetch results from the server instead of filtering locally
+                const response = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`, `Failed to search for "${query}"`);
+                imagesToDisplay = response.images || response;
             }
-            // Show a "Searching..." message while waiting for the server
-            dictionary.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-            // Fetch results from the server instead of filtering locally
-            const response = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`, `Failed to search for "${query}"`);
-            imagesToDisplay = response.images || response;
         } else {
             // This is the original logic for filtering within a specific, already-loaded theme
             const source = currentThemeImages; // Assumes 'currentThemeImages' holds images for the selected theme
@@ -1706,19 +1712,22 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
-    function loadAssetThemes(type, selectEl) {
-        fetch(`/api/${type}/themes`)
-        .then(res => { if (!res.ok) throw new Error(`Failed to load ${type} themes`); return res.json(); })
-        .then(themes => {
+    async function loadAssetThemes(type, selectEl) {
+        try {
             selectEl.innerHTML = `<option value="none">None</option>`;
+            const response = await fetch(`/api/${type}/themes`);
+            if (!response.ok) {
+                console.error(`Failed to load ${type} themes`);
+                return;
+            }
+            const themes = await response.json();
             themes.forEach(theme => {
-                const opt = document.createElement("option");
-                opt.value = theme;
-                opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                selectEl.appendChild(opt);
+                const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                selectEl.innerHTML += `<option value="${theme}">${displayName}</option>`;
             });
-        })
-        .catch(err => { console.error(`Error loading ${type} themes:`, err); });
+        } catch (error) {
+            console.error(`Error loading ${type} themes:`, error);
+        }
     }
 
     function loadBorderThemes() { loadAssetThemes('borders', borderThemeSelect); }
@@ -1741,9 +1750,12 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         dictionaryEl.innerHTML = `<p class="dictionary-message">Loading ${theme}...</p>`;
-        fetch(`/api/${type}/images?theme=${theme}`)
+        // Use filesystem endpoint for specific themes
+        const apiUrl = `/api/${type}/images?theme=${theme}`;
+        fetch(apiUrl)
         .then(res => { if (!res.ok) throw new Error(`Failed to load images for ${type} theme`); return res.json(); })
-        .then(images => {
+        .then(data => {
+            const images = type === 'backgrounds' ? (data.backgrounds || data || []) : data;
             dictionaryEl.innerHTML = "";
             if (images.length === 0) { dictionaryEl.innerHTML = `<p class="dictionary-message">No ${type} in this theme.</p>`; return; }
             images.forEach(asset => {
@@ -2300,8 +2312,8 @@ async function downloadPDF() {
                 // Load default animals theme for "All Themes"
                 fetch(`/api/images?theme=animals&locale=${currentLocale}`)
                     .then(response => response.json())
-                    .then(images => {
-                        currentThemeImages = images;
+                    .then(data => {
+                        currentThemeImages = data.images || data;
                         renderDictionary();
                     })
                     .catch(error => {

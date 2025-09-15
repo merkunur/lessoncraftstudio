@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timing Fix Test</title>
+</head>
+<body>
+    <h1>Testing with Proper Timing</h1>
+
+    <h2>Main Themes (WORKS):</h2>
+    <select id="themeSelect">
+        <option value="all">All Themes</option>
+    </select>
+
+    <h2>Border Themes (Testing Fix):</h2>
+    <select id="borderThemeSelect">
+        <option value="none">None</option>
+    </select>
+
+    <pre id="log"></pre>
+
+    <script>
+        function log(msg) {
+            document.getElementById('log').textContent += msg + '\n';
+            console.log(msg);
+        }
+
+        // Wait for DOM to be completely ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', init);
+        } else {
+            init();
+        }
+
+        function init() {
+            log('DOM is ready');
+
+            // Double-check selects exist
+            const borderSelect = document.getElementById('borderThemeSelect');
+            if (!borderSelect) {
+                log('ERROR: borderThemeSelect not found!');
+                return;
+            }
+
+            log('borderThemeSelect found, loading themes...');
+
+            // Load border themes with a small delay to ensure DOM is settled
+            setTimeout(() => {
+                loadBorderThemes();
+            }, 100);
+        }
+
+        function loadBorderThemes() {
+            log('\n=== LOADING BORDER THEMES ===');
+
+            fetch('/api/borders/themes')
+                .then(response => {
+                    log('Response received: ' + response.ok);
+                    return response.json();
+                })
+                .then(themes => {
+                    log('Themes parsed: ' + themes.length + ' themes');
+
+                    const borderSelect = document.getElementById('borderThemeSelect');
+                    if (!borderSelect) {
+                        log('ERROR: Select disappeared!');
+                        return;
+                    }
+
+                    // Clear existing options
+                    while (borderSelect.options.length > 0) {
+                        borderSelect.remove(0);
+                    }
+
+                    // Add None option
+                    const noneOption = new Option('None', 'none');
+                    borderSelect.add(noneOption);
+
+                    // Add theme options using Option constructor
+                    themes.forEach(theme => {
+                        const option = new Option(theme.displayName, theme.value);
+                        borderSelect.add(option);
+                        log('Added: ' + theme.displayName);
+                    });
+
+                    log('Final option count: ' + borderSelect.options.length);
+
+                    // Force a reflow
+                    borderSelect.style.display = 'none';
+                    borderSelect.offsetHeight; // Force reflow
+                    borderSelect.style.display = '';
+
+                    // Verify options are there
+                    log('\nVerifying options:');
+                    for (let i = 0; i < borderSelect.options.length; i++) {
+                        log('  Option ' + i + ': ' + borderSelect.options[i].text);
+                    }
+                })
+                .catch(error => {
+                    log('ERROR: ' + error);
+                });
+        }
+    </script>
+</body>
+</html>

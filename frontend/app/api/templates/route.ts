@@ -9,6 +9,9 @@ export async function GET(request: NextRequest) {
   const locale = searchParams.get('locale') || 'en';
   
   try {
+    // Wait for ImageLibraryManager to initialize
+    await imageLibraryManager.waitForInit();
+
     // Determine which templates to fetch based on app type
     if (appType === 'alphabet-train' || appType === 'pattern-train') {
       // Get train templates

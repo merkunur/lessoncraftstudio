@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find Count Minimal Test</title>
+</head>
+<body>
+    <h1>Find Count Minimal Test</h1>
+    <select id="borderThemeSelect"><option value="none">None</option></select>
+    <select id="backgroundThemeSelect"><option value="none">None</option></select>
+
+    <script>
+        console.log('Script started');
+
+        // Test 1: Can we find the elements?
+        const borderSelect = document.getElementById('borderThemeSelect');
+        const bgSelect = document.getElementById('backgroundThemeSelect');
+        console.log('Elements found:', !!borderSelect, !!bgSelect);
+
+        // Test 2: Can we fetch data?
+        fetch('/api/borders/themes')
+            .then(r => r.json())
+            .then(data => {
+                console.log('Border themes:', data);
+                data.forEach(theme => {
+                    borderSelect.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
+                });
+                console.log('Border select has', borderSelect.options.length, 'options');
+            });
+
+        fetch('/api/backgrounds/themes')
+            .then(r => r.json())
+            .then(data => {
+                console.log('Background themes:', data);
+                data.forEach(theme => {
+                    bgSelect.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
+                });
+                console.log('Background select has', bgSelect.options.length, 'options');
+            });
+
+        // Test 3: Show on page
+        setTimeout(() => {
+            document.body.innerHTML += `<p>Border options: ${borderSelect.options.length}</p>`;
+            document.body.innerHTML += `<p>Background options: ${bgSelect.options.length}</p>`;
+        }, 1000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find Count Debug</title>
+</head>
+<body>
+    <h1>Find Count Debug Test</h1>
+
+    <select id="borderThemeSelect">
+        <option value="none">None</option>
+    </select>
+
+    <select id="backgroundThemeSelect">
+        <option value="none">None</option>
+    </select>
+
+    <div id="log"></div>
+
+    <script>
+        const currentLocale = 'en';
+
+        function log(msg) {
+            console.log(msg);
+            document.getElementById('log').innerHTML += '<div>' + msg + '</div>';
+        }
+
+        async function populateBorderThemes() {
+            log('populateBorderThemes called');
+            const borderThemeSelect = document.getElementById('borderThemeSelect');
+
+            if (!borderThemeSelect) {
+                log('ERROR: borderThemeSelect not found!');
+                return;
+            }
+
+            try {
+                log('Fetching border themes...');
+                const response = await fetch('/api/borders/themes?locale=' + currentLocale);
+                log('Response status: ' + response.status);
+
+                const themes = await response.json();
+                log('Got ' + themes.length + ' border themes');
+
+                borderThemeSelect.innerHTML = '<option value="none">None</option>';
+                themes.forEach(theme => {
+                    borderThemeSelect.innerHTML += '<option value="' + theme.value + '">' + (theme.displayName || theme.value) + '</option>';
+                });
+
+                log('Border select now has ' + borderThemeSelect.options.length + ' options');
+            } catch (error) {
+                log('ERROR: ' + error.message);
+            }
+        }
+
+        async function populateBackgroundThemes() {
+            log('populateBackgroundThemes called');
+            const backgroundThemeSelect = document.getElementById('backgroundThemeSelect');
+
+            if (!backgroundThemeSelect) {
+                log('ERROR: backgroundThemeSelect not found!');
+                return;
+            }
+
+            try {
+                log('Fetching background themes...');
+                const response = await fetch('/api/backgrounds/themes?locale=' + currentLocale);
+                log('Response status: ' + response.status);
+
+                const themes = await response.json();
+                log('Got ' + themes.length + ' background themes');
+
+                backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+                themes.forEach(theme => {
+                    backgroundThemeSelect.innerHTML += '<option value="' + theme.value + '">' + (theme.displayName || theme.value) + '</option>';
+                });
+
+                log('Background select now has ' + backgroundThemeSelect.options.length + ' options');
+            } catch (error) {
+                log('ERROR: ' + error.message);
+            }
+        }
+
+        async function init() {
+            log('init() called');
+            log('borderThemeSelect exists: ' + !!document.getElementById('borderThemeSelect'));
+            log('backgroundThemeSelect exists: ' + !!document.getElementById('backgroundThemeSelect'));
+
+            await populateBorderThemes();
+            await populateBackgroundThemes();
+
+            log('init() complete');
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            log('DOMContentLoaded fired');
+            init();
+        });
+    </script>
+</body>
+</html>

@@ -120,7 +120,15 @@ export async function GET(request: NextRequest) {
     const files = await fs.promises.readdir(imagesDir, { withFileTypes: true });
     
     // Exclude special-purpose folders that aren't general image themes
-    const excludedFolders = ['borders', 'backgrounds', 'drawing lines', 'template', 'alphabetsvg'];
+    const excludedFolders = [
+      'borders',           // Border assets
+      'backgrounds',       // Background assets
+      'drawing lines',     // Drawing Lines app specific
+      'template',          // Template assets
+      'alphabetsvg',       // Writing app specific
+      'prepositions',      // Prepositions app specific
+      'symbols'            // More Less app specific
+    ];
     
     const themes = files
       .filter(file => file.isDirectory() && !excludedFolders.includes(file.name))

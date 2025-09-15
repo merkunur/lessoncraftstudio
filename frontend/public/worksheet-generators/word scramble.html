@@ -1728,11 +1728,22 @@
         }
 
         // --- Asset Management (Borders/Backgrounds) ---
-        function loadBorderThemes() {
-            fetch('/api/borders/themes').then(r => r.json()).then(themes => {
+        async function loadBorderThemes() {
+            try {
                 ui.borderThemeSelect.innerHTML = '<option value="none">None</option>';
-                themes.forEach(t => ui.borderThemeSelect.add(new Option(t.charAt(0).toUpperCase() + t.slice(1), t)));
-            }).catch(() => showMessage("Could not load border themes.", 'error'));
+                const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
+                if (!response.ok) {
+                    console.error('Failed to load border themes');
+                    return;
+                }
+                const themes = await response.json();
+                themes.forEach(theme => {
+                    const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                    ui.borderThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                });
+            } catch (error) {
+                console.error('Error loading border themes:', error);
+            }
         }
 
         function loadBorderImages() {
@@ -1745,7 +1756,9 @@
                 return;
             }
 
-            fetch(`/api/borders/images?theme=${theme}`).then(r => r.json()).then(images => {
+            const apiUrl = `/api/borders/images?theme=${theme}`;
+            fetch(apiUrl).then(r => r.json()).then(data => {
+                const images = data.images || data;
                 ui.borderDictionary.innerHTML = "";
                 images.forEach(img => {
                     const item = document.createElement("div");
@@ -1778,11 +1791,22 @@
             }, { crossOrigin: 'anonymous' });
         }
         
-        function loadBackgroundThemes() {
-            fetch('/api/backgrounds/themes').then(r => r.json()).then(themes => {
+        async function loadBackgroundThemes() {
+            try {
                 ui.backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
-                themes.forEach(t => ui.backgroundThemeSelect.add(new Option(t.charAt(0).toUpperCase() + t.slice(1), t)));
-            }).catch(() => showMessage("Could not load background themes.", 'error'));
+                const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
+                if (!response.ok) {
+                    console.error('Failed to load background themes');
+                    return;
+                }
+                const themes = await response.json();
+                themes.forEach(theme => {
+                    const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                    ui.backgroundThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                });
+            } catch (error) {
+                console.error('Error loading background themes:', error);
+            }
         }
         
         function loadBackgroundImages() {
@@ -1793,7 +1817,9 @@
                 ui.backgroundOpacitySlider.disabled = true;
                 return;
             }
-            fetch(`/api/backgrounds/images?theme=${theme}`).then(r => r.json()).then(images => {
+            const apiUrl = `/api/backgrounds/images?theme=${theme}`;
+            fetch(apiUrl).then(r => r.json()).then(data => {
+                const images = data.images || data;
                  ui.backgroundDictionary.innerHTML = "";
                 images.forEach(img => {
                     const item = document.createElement("div");

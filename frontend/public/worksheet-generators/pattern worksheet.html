@@ -882,27 +882,9 @@
               })
               .catch(err => { console.error("Error loading themes:", err); showMessage(err.message, 'error'); });
 
-            fetch('/api/borders/themes')
-                .then(res => res.ok ? res.json() : Promise.reject('Failed to load border themes'))
-                .then(themes => {
-                    themes.forEach(theme => {
-                        const opt = document.createElement("option");
-                        opt.value = theme;
-                        opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                        ui.borderThemeSelect.appendChild(opt);
-                    });
-                }).catch(err => { console.error(err); showMessage(err.message, 'error'); });
+            ui.borderThemeSelect.innerHTML += '<option value="all">All Borders</option>';
 
-            fetch('/api/backgrounds/themes')
-                .then(res => res.ok ? res.json() : Promise.reject('Failed to load background themes'))
-                .then(themes => {
-                    themes.forEach(theme => {
-                        const opt = document.createElement("option");
-                        opt.value = theme;
-                        opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                        ui.backgroundThemeSelect.appendChild(opt);
-                    });
-                }).catch(err => { console.error(err); showMessage(err.message, 'error'); });
+            ui.backgroundThemeSelect.innerHTML += '<option value="all">All Backgrounds</option>';
         }
         
         function getActiveCanvas() {
@@ -2370,9 +2352,10 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             }
             dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading...</p>`;
             try {
-                const res = await fetch(`/api/${type}s/images?theme=${theme}`);
+                const res = await fetch(`/api/${type}s?locale=${currentLocale}`);
                 if (!res.ok) throw new Error(`Failed to load ${type} images.`);
-                const images = await res.json();
+                const data = await res.json();
+                const images = data.images || data;
                 dictionaryDiv.innerHTML = "";
                 images.forEach(imgData => {
                     const item = document.createElement("div");

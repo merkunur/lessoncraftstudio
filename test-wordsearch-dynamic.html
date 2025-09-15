@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head><title>Wordsearch Dynamic Test</title></head>
+<body>
+<h1>Testing Wordsearch Dynamic Loading</h1>
+<div id="results"></div>
+<script>
+async function testDynamicLoading() {
+    const results = document.getElementById('results');
+    let html = '<h2>Test Results:</h2>';
+    
+    // Test 1: Main themes
+    const themes = await fetch('/api/themes-translated?locale=en').then(r => r.json());
+    html += `<p>✅ Main Themes: ${themes.length} themes loaded dynamically</p>`;
+    
+    // Test 2: Background themes
+    const bgThemes = await fetch('/api/backgrounds/themes').then(r => r.json());
+    html += `<p>✅ Background Themes: ${bgThemes.join(', ')}</p>`;
+    
+    // Test 3: Border themes
+    const borderThemes = await fetch('/api/borders/themes').then(r => r.json());
+    html += `<p>✅ Border Themes: ${borderThemes.join(', ')}</p>`;
+    
+    // Test 4: All backgrounds from Directus
+    const allBg = await fetch('/api/backgrounds?locale=en').then(r => r.json());
+    html += `<p>✅ All Backgrounds (Directus): ${allBg.length} images</p>`;
+    
+    // Test 5: All borders from Directus
+    const allBorders = await fetch('/api/borders?locale=en').then(r => r.json());
+    html += `<p>✅ All Borders (Directus): ${allBorders.length} images</p>`;
+    
+    results.innerHTML = html;
+}
+testDynamicLoading();
+</script>
+</body>
+</html>

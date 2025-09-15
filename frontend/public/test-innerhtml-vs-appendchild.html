@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>innerHTML vs appendChild Test</title>
+</head>
+<body>
+    <h1>Testing innerHTML += vs appendChild</h1>
+
+    <h2>Using innerHTML += (like working apps):</h2>
+    <select id="innerHTMLSelect">
+        <option value="none">None</option>
+    </select>
+
+    <h2>Using appendChild (like v2 apps):</h2>
+    <select id="appendChildSelect">
+        <option value="none">None</option>
+    </select>
+
+    <h2>Using Option constructor + add():</h2>
+    <select id="optionAddSelect">
+        <option value="none">None</option>
+    </select>
+
+    <button onclick="runTest()">Load All</button>
+    <button onclick="checkSelects()">Check Values</button>
+
+    <pre id="log"></pre>
+
+    <script>
+        function log(msg) {
+            document.getElementById('log').textContent += msg + '\n';
+            console.log(msg);
+        }
+
+        async function loadWithInnerHTML() {
+            log('\n=== Using innerHTML += ===');
+            const select = document.getElementById('innerHTMLSelect');
+
+            const response = await fetch('/api/borders/themes');
+            const themes = await response.json();
+
+            // Clear and add None
+            select.innerHTML = '<option value="none">None</option>';
+
+            // THIS IS HOW WORKING APPS DO IT
+            themes.forEach(theme => {
+                const themeValue = typeof theme === 'object' ? theme.value : theme;
+                const displayName = typeof theme === 'object'
+                    ? theme.displayName
+                    : theme.charAt(0).toUpperCase() + theme.slice(1);
+                select.innerHTML += `<option value="${themeValue}">${displayName}</option>`;
+            });
+
+            log('innerHTML method: ' + select.options.length + ' options');
+        }
+
+        async function loadWithAppendChild() {
+            log('\n=== Using appendChild ===');
+            const select = document.getElementById('appendChildSelect');
+
+            const response = await fetch('/api/borders/themes');
+            const themes = await response.json();
+
+            // Clear
+            select.innerHTML = '';
+
+            // Add None
+            const noneOption = document.createElement('option');
+            noneOption.value = 'none';
+            noneOption.textContent = 'None';
+            select.appendChild(noneOption);
+
+            // THIS IS HOW V2 APPS DO IT
+            themes.forEach(theme => {
+                const themeValue = typeof theme === 'object' ? theme.value : theme;
+                const displayName = typeof theme === 'object'
+                    ? theme.displayName
+                    : theme.charAt(0).toUpperCase() + theme.slice(1);
+
+                const option = document.createElement('option');
+                option.value = themeValue;
+                option.textContent = displayName;
+                select.appendChild(option);
+            });
+
+            log('appendChild method: ' + select.options.length + ' options');
+        }
+
+        async function loadWithOptionAdd() {
+            log('\n=== Using Option + add() ===');
+            const select = document.getElementById('optionAddSelect');
+
+            const response = await fetch('/api/borders/themes');
+            const themes = await response.json();
+
+            // Clear
+            while (select.options.length > 0) {
+                select.remove(0);
+            }
+
+            // Add None
+            select.add(new Option('None', 'none'));
+
+            // Use Option constructor
+            themes.forEach(theme => {
+                const themeValue = typeof theme === 'object' ? theme.value : theme;
+                const displayName = typeof theme === 'object'
+                    ? theme.displayName
+                    : theme.charAt(0).toUpperCase() + theme.slice(1);
+
+                const option = new Option(displayName, themeValue);
+                select.add(option);
+            });
+
+            log('Option+add method: ' + select.options.length + ' options');
+        }
+
+        async function runTest() {
+            log('Starting test...');
+            await loadWithInnerHTML();
+            await loadWithAppendChild();
+            await loadWithOptionAdd();
+
+            setTimeout(() => {
+                log('\n=== FINAL CHECK ===');
+                checkSelects();
+            }, 500);
+        }
+
+        function checkSelects() {
+            const selects = ['innerHTMLSelect', 'appendChildSelect', 'optionAddSelect'];
+            selects.forEach(id => {
+                const select = document.getElementById(id);
+                log(`\n${id}:`);
+                log('  Options: ' + select.options.length);
+                log('  Values: ' + Array.from(select.options).map(o => o.value).join(', '));
+            });
+        }
+
+        // Auto-run on load
+        window.addEventListener('DOMContentLoaded', runTest);
+    </script>
+</body>
+</html>

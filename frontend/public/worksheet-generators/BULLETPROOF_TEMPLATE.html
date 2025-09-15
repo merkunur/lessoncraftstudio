@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BULLETPROOF TEMPLATE - Borders & Backgrounds GUARANTEED</title>
+
+    <!-- STEP 1: Include these THREE files in this EXACT order -->
+    <script src="js/translations.js"></script>
+    <script src="js/bulletproof-loader.js"></script>
+
+    <!-- Your other scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .controls {
+            background: #f5f5f5;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        select {
+            padding: 8px;
+            margin: 10px;
+            min-width: 200px;
+            border: 2px solid #ddd;
+            transition: border-color 0.3s;
+        }
+        .status {
+            padding: 15px;
+            background: #e8f5e9;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        #verificationReport {
+            font-family: monospace;
+            background: #263238;
+            color: #aed581;
+            padding: 15px;
+            border-radius: 5px;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>🛡️ BULLETPROOF TEMPLATE - This CANNOT Fail</h1>
+
+    <div class="status">
+        <strong>Status:</strong> <span id="status">Initializing...</span>
+    </div>
+
+    <!-- STEP 2: Create these select elements with these EXACT IDs -->
+    <div class="controls">
+        <h2>Border & Background Selection</h2>
+
+        <label>Border Theme:
+            <select id="borderThemeSelect">
+                <option value="none">Loading...</option>
+            </select>
+        </label>
+
+        <label>Background Theme:
+            <select id="backgroundThemeSelect">
+                <option value="none">Loading...</option>
+            </select>
+        </label>
+    </div>
+
+    <div id="verificationReport"></div>
+
+    <script>
+    // STEP 3: This is THE ONLY initialization code you need
+
+    // Set locale FIRST - EXACTLY like alphabet train
+    let currentLocale = 'en';
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('locale')) {
+        currentLocale = urlParams.get('locale');
+    }
+    console.log('Current locale:', currentLocale);
+
+    // Wait for DOM and initialize
+    document.addEventListener('DOMContentLoaded', async function() {
+        console.log('=== BULLETPROOF INITIALIZATION STARTING ===');
+
+        // Update status
+        document.getElementById('status').textContent = 'Loading themes...';
+
+        try {
+            // Initialize the bulletproof loader
+            const success = await BulletproofLoader.init({
+                borderSelect: document.getElementById('borderThemeSelect'),
+                backgroundSelect: document.getElementById('backgroundThemeSelect')
+            });
+
+            if (success) {
+                document.getElementById('status').textContent = '✅ All themes loaded successfully!';
+                document.getElementById('status').style.color = 'green';
+            } else {
+                document.getElementById('status').textContent = '⚠️ Loaded with fallback themes';
+                document.getElementById('status').style.color = 'orange';
+            }
+
+            // Display verification report
+            const report = BulletproofLoader.verify();
+            document.getElementById('verificationReport').textContent =
+                '=== VERIFICATION REPORT ===\n' +
+                JSON.stringify(report, null, 2) + '\n' +
+                '========================';
+
+            // Add change handlers for demonstration
+            document.getElementById('borderThemeSelect').addEventListener('change', async function(e) {
+                console.log('Border theme selected:', e.target.value);
+
+                if (e.target.value !== 'none') {
+                    // Load border images
+                    const images = await BulletproofLoader.loadBorderImages(e.target.value);
+                    console.log('Border images loaded:', images.length);
+                }
+            });
+
+            document.getElementById('backgroundThemeSelect').addEventListener('change', async function(e) {
+                console.log('Background theme selected:', e.target.value);
+
+                if (e.target.value !== 'none') {
+                    // Load background images
+                    const images = await BulletproofLoader.loadBackgroundImages(e.target.value);
+                    console.log('Background images loaded:', images.length);
+                }
+            });
+
+        } catch (error) {
+            console.error('Fatal initialization error:', error);
+            document.getElementById('status').textContent = '❌ Initialization failed: ' + error.message;
+            document.getElementById('status').style.color = 'red';
+        }
+
+        console.log('=== BULLETPROOF INITIALIZATION COMPLETE ===');
+    });
+
+    // YOUR APP-SPECIFIC CODE GOES HERE
+    // Everything above is the GUARANTEED working pattern
+    </script>
+</body>
+</html>

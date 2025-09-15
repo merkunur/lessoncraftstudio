@@ -1635,13 +1635,22 @@
         });
     }
 
-    function loadAssetThemes(type, selectEl) {
-        fetch(`/api/${type}/themes?locale=${currentLocale}`)
-            .then(res => res.ok ? res.json() : Promise.reject())
-            .then(themes => {
-                selectEl.innerHTML = '<option value="none">None</option>';
-                themes.forEach(theme => selectEl.add(new Option(theme.charAt(0).toUpperCase() + theme.slice(1), theme)));
-            }).catch(() => console.error(`Error loading ${type} themes.`));
+    async function loadAssetThemes(type, selectEl) {
+        try {
+            selectEl.innerHTML = '<option value="none">None</option>';
+            const response = await fetch(`/api/${type}/themes`);
+            if (!response.ok) {
+                console.error(`Failed to load ${type} themes`);
+                return;
+            }
+            const themes = await response.json();
+            themes.forEach(theme => {
+                const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                selectEl.innerHTML += `<option value="${theme}">${displayName}</option>`;
+            });
+        } catch (error) {
+            console.error(`Error loading ${type} themes:`, error);
+        }
     }
 
     function loadAssetImages(type, theme, dictionaryEl, addFunc) {
@@ -1653,7 +1662,7 @@
             return;
         }
         dictionaryEl.innerHTML = `<p class="dictionary-message">Loading...</p>`;
-        fetch(`/api/${type}/images?theme=${theme}&locale=${currentLocale}`)
+        fetch(`/api/${type}/images?theme=${theme}`)
             .then(res => res.ok ? res.json() : Promise.reject())
             .then(images => {
                 dictionaryEl.innerHTML = images.length === 0 ? `<p class="dictionary-message">No ${type} in this theme.</p>` : "";

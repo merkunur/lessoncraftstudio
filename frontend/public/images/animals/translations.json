@@ -67,17 +67,17 @@
       "fi": "Cow"
     },
     "dog": {
-      "en": "Dog",
+      "da": "Hund",
       "de": "Hund",
-      "fr": "Chien",
+      "en": "Dog",
       "es": "Perro",
-      "pt": "Cão",
+      "fi": "Koira",
+      "fr": "Chien",
       "it": "Cane",
       "nl": "Hond",
-      "sv": "Hund",
-      "da": "Hund",
       "no": "Hund",
-      "fi": "Koira"
+      "pt": "Cão",
+      "sv": "Hund"
     },
     "fox": {
       "en": "Fox",

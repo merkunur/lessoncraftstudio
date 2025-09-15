@@ -1037,8 +1037,8 @@
         }
 
         async function fetchThemesFor(type) { return await fetchFromApi(`/api/${type}/themes?locale=${currentLocale}`, `Failed to load ${type} themes`); }
-        async function loadBorderThemes() { const themes = await fetchThemesFor('borders'); dom.borderThemeSelect.innerHTML = '<option value="none">None</option>'; themes.forEach(theme => dom.borderThemeSelect.appendChild(new Option(theme.charAt(0).toUpperCase() + theme.slice(1), theme))); }
-        async function loadBackgroundThemes() { const themes = await fetchFromApi(`/api/backgrounds/themes?locale=${currentLocale}`, 'Failed to load backgrounds themes'); dom.backgroundThemeSelect.innerHTML = '<option value="none">None</option>'; themes.forEach(theme => dom.backgroundThemeSelect.appendChild(new Option(theme.charAt(0).toUpperCase() + theme.slice(1), theme))); }
+        async function loadBorderThemes() { dom.borderThemeSelect.innerHTML = '<option value="none">None</option>'; dom.borderThemeSelect.innerHTML += '<option value="all">All Borders</option>'; }
+        async function loadBackgroundThemes() { dom.backgroundThemeSelect.innerHTML = '<option value="none">None</option>'; dom.backgroundThemeSelect.innerHTML += '<option value="all">All Backgrounds</option>'; }
         async function loadBorderImages() { await loadSpecialImages('border', dom.borderThemeSelect.value, dom.borderDictionary); }
         async function loadBackgroundImages() { await loadSpecialImages('background', dom.backgroundThemeSelect.value, dom.backgroundDictionary); }
         async function loadSpecialImages(type, theme, container) {
@@ -1052,7 +1052,8 @@
                 return; 
             }
             container.innerHTML = `<p class="dictionary-message">Loading ${theme} ${type}s...</p>`;
-            const images = await fetchFromApi(`/api/${type}s/images?theme=${theme}&locale=${currentLocale}`, `Failed to load images for ${type} theme: ${theme}`);
+            const data = await fetchFromApi(`/api/${type}s?locale=${currentLocale}`, `Failed to load images for ${type} theme: ${theme}`);
+            const images = data.images || data;
             renderSpecialThumbnails(images, type, container);
         }
 

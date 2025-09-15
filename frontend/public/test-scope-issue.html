@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scope Test</title>
+</head>
+<body>
+    <h1>Testing Scope Issue</h1>
+
+    <select id="testSelect">
+        <option value="none">None</option>
+    </select>
+
+    <button onclick="testMethod1()">Method 1: Direct getElementById</button>
+    <button onclick="testMethod2()">Method 2: Use const reference</button>
+    <button onclick="testMethod3()">Method 3: Delayed execution</button>
+
+    <pre id="log"></pre>
+
+    <script>
+        // Const reference like Addition app
+        const testSelect = document.getElementById('testSelect');
+
+        function log(msg) {
+            document.getElementById('log').innerText += msg + '\n';
+        }
+
+        // Method 1: Get element inside function
+        function testMethod1() {
+            const select = document.getElementById('testSelect');
+            select.innerHTML = '<option value="none">None</option>';
+            select.innerHTML += '<option value="test1">Test 1</option>';
+            log('Method 1: ' + select.options.length + ' options');
+        }
+
+        // Method 2: Use const reference
+        function testMethod2() {
+            testSelect.innerHTML = '<option value="none">None</option>';
+            testSelect.innerHTML += '<option value="test2">Test 2</option>';
+            log('Method 2: ' + testSelect.options.length + ' options');
+        }
+
+        // Method 3: Delayed
+        function testMethod3() {
+            setTimeout(() => {
+                const select = document.getElementById('testSelect');
+                select.innerHTML = '<option value="none">None</option>';
+                select.innerHTML += '<option value="test3">Test 3</option>';
+                log('Method 3: ' + select.options.length + ' options');
+            }, 100);
+        }
+    </script>
+</body>
+</html>

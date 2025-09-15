@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Translation API</title>
+</head>
+<body>
+    <h1>Translation API Test</h1>
+
+    <label>Locale:
+        <select id="localeSelect" onchange="testAPI()">
+            <option value="en">English</option>
+            <option value="sv">Swedish</option>
+            <option value="de">German</option>
+            <option value="fr">French</option>
+        </select>
+    </label>
+
+    <h2>Border Themes:</h2>
+    <div id="borderThemes"></div>
+
+    <h2>Background Themes:</h2>
+    <div id="backgroundThemes"></div>
+
+    <script>
+    async function testAPI() {
+        const locale = document.getElementById('localeSelect').value;
+
+        // Test border themes
+        const borderResponse = await fetch(`/api/borders/themes?locale=${locale}`);
+        const borderThemes = await borderResponse.json();
+
+        let borderHTML = '<ul>';
+        borderThemes.forEach(theme => {
+            borderHTML += `<li>${theme.value}: ${theme.displayName}</li>`;
+        });
+        borderHTML += '</ul>';
+        document.getElementById('borderThemes').innerHTML = borderHTML;
+
+        // Test background themes
+        const bgResponse = await fetch(`/api/backgrounds/themes?locale=${locale}`);
+        const bgThemes = await bgResponse.json();
+
+        let bgHTML = '<ul>';
+        bgThemes.forEach(theme => {
+            bgHTML += `<li>${theme.value}: ${theme.displayName}</li>`;
+        });
+        bgHTML += '</ul>';
+        document.getElementById('backgroundThemes').innerHTML = bgHTML;
+    }
+
+    // Test on load
+    testAPI();
+    </script>
+</body>
+</html>

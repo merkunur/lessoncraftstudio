@@ -1,26 +1,33 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+import imageLibraryManager from '@/lib/image-library-manager';
 
-export async function GET() {
-  const backgroundsDir = path.join(process.cwd(), 'public', 'images', 'backgrounds');
-  
+export async function GET(request: Request) {
+  const { searchParams } = new URL(request.url);
+  const locale = searchParams.get('locale') || 'en';
+
   try {
-    // Check if backgrounds directory exists
-    if (!fs.existsSync(backgroundsDir)) {
-      return NextResponse.json([]);
-    }
-    
-    const files = await fs.promises.readdir(backgroundsDir, { withFileTypes: true });
-    const themes = files
-      .filter(file => file.isDirectory())
-      .map(file => file.name);
-    
-    return NextResponse.json(themes);
-  } catch (err: any) {
-    if (err.code === 'ENOENT') {
-      return NextResponse.json([]);
-    }
-    return NextResponse.json({ error: 'Error reading backgrounds directory' }, { status: 500 });
+    // Wait for ImageLibraryManager to initialize
+    await imageLibraryManager.waitForInit();
+
+    // Get background themes from Directus via ImageLibraryManager
+    const backgroundThemes = imageLibraryManager.getBackgroundThemes(locale);
+
+    // Return translated names
+    const themes = backgroundThemes.map(theme => ({
+      value: theme.name,
+      displayName: theme.displayName || theme.name
+    }));
+
+    return NextResponse.json(themes, {
+      headers: {
+        'Content-Type': 'application/json; charset=utf-8',
+      },
+    });
+  } catch (error) {
+    console.error('Error fetching background themes:', error);
+    return NextResponse.json(
+      { error: 'Failed to fetch background themes' },
+      { status: 500 }
+    );
   }
 }

@@ -1,21 +1,33 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+import imageLibraryManager from '@/lib/image-library-manager';
 
-export async function GET() {
-  const bordersDir = path.join(process.cwd(), 'public', 'images', 'borders');
-  
+export async function GET(request: Request) {
+  const { searchParams } = new URL(request.url);
+  const locale = searchParams.get('locale') || 'en';
+
   try {
-    const files = await fs.promises.readdir(bordersDir, { withFileTypes: true });
-    const themes = files
-      .filter(file => file.isDirectory())
-      .map(file => file.name);
-    
-    return NextResponse.json(themes);
-  } catch (err: any) {
-    if (err.code === 'ENOENT') {
-      return NextResponse.json([]);
-    }
-    return NextResponse.json({ error: 'Error reading borders directory' }, { status: 500 });
+    // Wait for ImageLibraryManager to initialize
+    await imageLibraryManager.waitForInit();
+
+    // Get border styles from Directus via ImageLibraryManager
+    const borderStyles = imageLibraryManager.getBorderStyles(locale);
+
+    // Return translated names
+    const themes = borderStyles.map(style => ({
+      value: style.name,
+      displayName: style.displayName || style.name
+    }));
+
+    return NextResponse.json(themes, {
+      headers: {
+        'Content-Type': 'application/json; charset=utf-8',
+      },
+    });
+  } catch (error) {
+    console.error('Error fetching border themes:', error);
+    return NextResponse.json(
+      { error: 'Failed to fetch border themes' },
+      { status: 500 }
+    );
   }
 }

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Subtraction Worksheet Generator - Fixed</title>
+  <script src="js/translations.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --app-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --app-bg-dark: #2c2c2e;
+      --app-surface-dark: #3a3a3e;
+      --app-border-dark: #4a4a4a;
+      --app-text-primary-dark-theme: #e0e0e0;
+      --app-text-secondary-dark-theme: #a0a0a0;
+      --app-bg-light: #f0f2f5;
+      --app-surface-light: #ffffff;
+      --app-border-light: #dce1e6;
+      --app-text-primary-light-theme: #1c1c1e;
+      --app-text-secondary-light-theme: #545458;
+      --app-accent-primary: #007aff;
+      --app-accent-primary-hover: #005ecb;
+      --app-accent-danger: #ff3b30;
+      --sidebar-width: 340px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--app-font-stack);
+      display: flex;
+      margin: 0;
+      height: 100vh;
+      background-color: var(--app-bg-light);
+      overflow: hidden;
+      color: var(--app-text-primary-light-theme);
+    }
+    .layout {
+      display: flex;
+      flex: 1;
+      overflow: hidden;
+      height: 100vh;
+    }
+    .panel {
+      width: var(--sidebar-width);
+      background-color: var(--app-bg-dark);
+      color: var(--app-text-primary-dark-theme);
+      display: flex;
+      flex-direction: column;
+      overflow-y: hidden;
+    }
+    .panel-header {
+      padding: 20px 25px;
+      border-bottom: 1px solid var(--app-border-dark);
+    }
+    .panel-header h2 {
+      font-size: 22px;
+      color: var(--app-text-primary-dark-theme);
+      margin: 0;
+    }
+    .panel-content {
+      overflow-y: auto;
+      flex-grow: 1;
+      padding: 0;
+    }
+    .accordion-item {
+      border-bottom: 1px solid var(--app-border-dark);
+    }
+    .accordion-button {
+      background-color: transparent;
+      color: var(--app-text-primary-dark-theme);
+      width: 100%;
+      border: none;
+      text-align: left;
+      padding: 18px 20px;
+      font-size: 15px;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .accordion-button::after {
+      content: '\f078';
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+      font-size: 12px;
+      transition: transform 0.2s;
+    }
+    .accordion-button.active::after {
+      transform: rotate(-180deg);
+    }
+    .accordion-content {
+      padding: 10px 15px 20px 15px;
+      display: none;
+      background: transparent;
+    }
+    .accordion-content.active {
+      display: block;
+    }
+    .accordion-content label {
+      display: block;
+      font-size: 13px;
+      color: var(--app-text-secondary-dark-theme);
+      margin-bottom: 6px;
+    }
+    .accordion-content input[type="text"],
+    .accordion-content input[type="number"],
+    .accordion-content select {
+      width: 100%;
+      padding: 8px 10px;
+      font-size: 13px;
+      border-radius: 5px;
+      border: 1px solid var(--app-border-dark);
+      background-color: var(--app-surface-dark);
+      color: var(--app-text-primary-dark-theme);
+      margin-bottom: 12px;
+    }
+    .accordion-content h4 {
+      font-size: 13px;
+      color: var(--app-text-secondary-dark-theme);
+      margin-top: 15px;
+      margin-bottom: 8px;
+      border-bottom: 1px solid var(--app-border-dark);
+      padding-bottom: 6px;
+    }
+    .main {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      background-color: var(--app-bg-light);
+    }
+    .canvas-container {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    #dictionary {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+      gap: 10px;
+      padding: 15px;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+    .dictionary-item {
+      border: 2px solid transparent;
+      border-radius: 8px;
+      padding: 8px;
+      background: var(--app-surface-dark);
+      cursor: pointer;
+      text-align: center;
+    }
+    .dictionary-item.selected {
+      border-color: var(--app-accent-primary);
+    }
+    .dictionary-item img {
+      width: 100%;
+      height: 60px;
+      object-fit: contain;
+    }
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <div class="panel">
+      <div class="panel-header">
+        <h2>Subtraction Worksheet</h2>
+      </div>
+      <div class="panel-content">
+        <!-- Problem Settings -->
+        <div class="accordion-item">
+          <button class="accordion-button active">Problem Settings</button>
+          <div class="accordion-content active">
+            <label>Number of Problems:</label>
+            <input type="number" id="problemCount" value="10" min="1" max="30" />
+            <label>Max Minuend:</label>
+            <input type="number" id="maxMinuend" value="20" min="1" max="100" />
+          </div>
+        </div>
+
+        <!-- Page Setup with Borders & Backgrounds -->
+        <div class="accordion-item">
+          <button class="accordion-button">Page Setup</button>
+          <div class="accordion-content">
+            <h4>Background</h4>
+            <label for="backgroundThemeSelect">Background Theme:</label>
+            <select id="backgroundThemeSelect">
+              <option value="none">None</option>
+            </select>
+            <div id="backgroundDictionary"></div>
+
+            <h4>Border</h4>
+            <label for="borderThemeSelect">Border Theme:</label>
+            <select id="borderThemeSelect">
+              <option value="none">None</option>
+            </select>
+            <div id="borderDictionary"></div>
+          </div>
+        </div>
+
+        <!-- Image Library -->
+        <div class="accordion-item">
+          <button class="accordion-button">Image Library</button>
+          <div class="accordion-content">
+            <label>Select Theme:</label>
+            <select id="themeSelect">
+              <option value="all">All Themes</option>
+            </select>
+            <label>Search:</label>
+            <input type="text" id="searchInput" placeholder="Search images..." />
+            <div id="dictionary"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="canvas-container">
+        <canvas id="worksheetCanvas"></canvas>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Initialize accordion
+      const accordionButtons = document.querySelectorAll('.accordion-button');
+      accordionButtons.forEach(button => {
+        button.addEventListener('click', () => {
+          const content = button.nextElementSibling;
+          button.classList.toggle('active');
+          content.classList.toggle('active');
+        });
+      });
+
+      // Get all element references as const at top level
+      const borderThemeSelect = document.getElementById('borderThemeSelect');
+      const backgroundThemeSelect = document.getElementById('backgroundThemeSelect');
+      const borderDictionary = document.getElementById('borderDictionary');
+      const backgroundDictionary = document.getElementById('backgroundDictionary');
+      const themeSelect = document.getElementById('themeSelect');
+      const searchInput = document.getElementById('searchInput');
+      const dictionary = document.getElementById('dictionary');
+      const problemCountInput = document.getElementById('problemCount');
+      const maxMinuendInput = document.getElementById('maxMinuend');
+
+      let worksheetCanvas;
+      let currentLocale = 'en';
+      let selectedImages = [];
+
+      // Initialize canvas
+      function initializeCanvas() {
+        worksheetCanvas = new fabric.Canvas('worksheetCanvas', {
+          width: 816,
+          height: 1056,
+          backgroundColor: 'white'
+        });
+      }
+
+      // Load border themes - exactly like Addition app
+      async function loadBorderThemes() {
+        try {
+          // First option is always None
+          borderThemeSelect.innerHTML = '<option value="none">None</option>';
+
+          // Fetch themes
+          const response = await fetch('/api/borders/themes');
+          if (!response.ok) {
+            console.error('Failed to load border themes');
+            return;
+          }
+
+          const themes = await response.json();
+
+          // Add each theme as an option
+          themes.forEach(theme => {
+            const themeValue = typeof theme === 'string' ? theme : theme.value;
+            const displayName = typeof theme === 'string'
+              ? theme.charAt(0).toUpperCase() + theme.slice(1)
+              : theme.displayName.charAt(0).toUpperCase() + theme.displayName.slice(1);
+            borderThemeSelect.innerHTML += `<option value="${themeValue}">${displayName}</option>`;
+          });
+
+          console.log('Border themes loaded:', borderThemeSelect.options.length, 'options');
+        } catch (error) {
+          console.error('Error loading border themes:', error);
+        }
+      }
+
+      // Load background themes - exactly like Addition app
+      async function loadBackgroundThemes() {
+        try {
+          // First option is always None
+          backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+
+          // Fetch themes
+          const response = await fetch('/api/backgrounds/themes');
+          if (!response.ok) {
+            console.error('Failed to load background themes');
+            return;
+          }
+
+          const themes = await response.json();
+
+          // Add each theme as an option
+          themes.forEach(theme => {
+            const themeValue = typeof theme === 'string' ? theme : theme.value;
+            const displayName = typeof theme === 'string'
+              ? theme.charAt(0).toUpperCase() + theme.slice(1)
+              : theme.displayName.charAt(0).toUpperCase() + theme.displayName.slice(1);
+            backgroundThemeSelect.innerHTML += `<option value="${themeValue}">${displayName}</option>`;
+          });
+
+          console.log('Background themes loaded:', backgroundThemeSelect.options.length, 'options');
+        } catch (error) {
+          console.error('Error loading background themes:', error);
+        }
+      }
+
+      // Load main themes
+      async function loadThemes() {
+        try {
+          const response = await fetch('/api/themes');
+          const themes = await response.json();
+
+          themeSelect.innerHTML = '<option value="all">All Themes</option>';
+          themes.forEach(theme => {
+            const option = document.createElement('option');
+            option.value = theme.value;
+            option.textContent = theme.displayName;
+            themeSelect.appendChild(option);
+          });
+        } catch (error) {
+          console.error('Error loading themes:', error);
+        }
+      }
+
+      // Load border images when theme selected
+      function loadBorderImages() {
+        const theme = borderThemeSelect.value;
+        if (theme === 'none') {
+          borderDictionary.innerHTML = '';
+          return;
+        }
+
+        fetch(`/api/borders/images?theme=${theme}`)
+          .then(res => res.json())
+          .then(data => {
+            const images = data.images || data;
+            borderDictionary.innerHTML = '';
+            images.forEach(img => {
+              const div = document.createElement('div');
+              div.className = 'dictionary-item';
+              div.innerHTML = `<img src="${img.path}" alt="${img.name}" />`;
+              div.onclick = () => applyBorder(img.path);
+              borderDictionary.appendChild(div);
+            });
+          })
+          .catch(err => console.error('Error loading border images:', err));
+      }
+
+      // Load background images when theme selected
+      function loadBackgroundImages() {
+        const theme = backgroundThemeSelect.value;
+        if (theme === 'none') {
+          backgroundDictionary.innerHTML = '';
+          return;
+        }
+
+        fetch(`/api/backgrounds/images?theme=${theme}`)
+          .then(res => res.json())
+          .then(data => {
+            const images = data.images || data;
+            backgroundDictionary.innerHTML = '';
+            images.forEach(img => {
+              const div = document.createElement('div');
+              div.className = 'dictionary-item';
+              div.innerHTML = `<img src="${img.path}" alt="${img.name}" />`;
+              div.onclick = () => applyBackground(img.path);
+              backgroundDictionary.appendChild(div);
+            });
+          })
+          .catch(err => console.error('Error loading background images:', err));
+      }
+
+      // Apply border to canvas
+      function applyBorder(imagePath) {
+        fabric.Image.fromURL(imagePath, function(img) {
+          img.scaleToWidth(worksheetCanvas.width);
+          img.scaleToHeight(worksheetCanvas.height);
+          img.set({
+            left: 0,
+            top: 0,
+            selectable: false,
+            evented: false
+          });
+          worksheetCanvas.add(img);
+          worksheetCanvas.renderAll();
+        });
+      }
+
+      // Apply background to canvas
+      function applyBackground(imagePath) {
+        fabric.Image.fromURL(imagePath, function(img) {
+          img.scaleToWidth(worksheetCanvas.width);
+          img.scaleToHeight(worksheetCanvas.height);
+          img.set({
+            left: 0,
+            top: 0,
+            selectable: false,
+            evented: false,
+            opacity: 0.3
+          });
+          worksheetCanvas.add(img);
+          worksheetCanvas.sendToBack(img);
+          worksheetCanvas.renderAll();
+        });
+      }
+
+      // Initialize everything
+      initializeCanvas();
+      loadThemes();
+      loadBorderThemes();
+      loadBackgroundThemes();
+
+      // Set up event listeners
+      borderThemeSelect.addEventListener('change', loadBorderImages);
+      backgroundThemeSelect.addEventListener('change', loadBackgroundImages);
+
+      console.log('Subtraction worksheet initialized successfully');
+    });
+  </script>
+</body>
+</html>

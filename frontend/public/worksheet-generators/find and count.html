@@ -887,11 +887,18 @@
 
 <script>
 // Language/locale handling
-let currentLocale = 'en';
-const urlParams = new URLSearchParams(window.location.search);
-if (urlParams.has('locale')) {
-    currentLocale = urlParams.get('locale');
+// Helper function to get current locale
+function getLocale() {
+    // Always use URL params directly for consistency
+    const urlParams = new URLSearchParams(window.location.search);
+    const locale = urlParams.get('locale') || 'en';
+    console.log('getLocale returning:', locale);
+    return locale;
 }
+
+// For backward compatibility
+let currentLocale = getLocale();
+console.log('Initial locale:', currentLocale);
 
 document.addEventListener("DOMContentLoaded", function() {
     // --- UI INITIALIZATION ---
@@ -1362,7 +1369,8 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function loadThemes() {
-        fetch(`/api/themes-translated?locale=${currentLocale}`)
+        const locale = getLocale();
+        return fetch(`/api/themes-translated?locale=${locale}`)
             .then(res => res.json())
             .then(themes => {
                 themeSelect.innerHTML = '';
@@ -1376,22 +1384,6 @@ document.addEventListener("DOMContentLoaded", function() {
                     opt.value = theme.value;
                     opt.textContent = theme.displayName;
                     themeSelect.appendChild(opt);
-                });
-                
-                // Also update background and border theme selects
-                backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
-                borderThemeSelect.innerHTML = '<option value="none">None</option>';
-                
-                themes.forEach(theme => {
-                    const bgOpt = document.createElement("option");
-                    bgOpt.value = theme.value;
-                    bgOpt.textContent = theme.displayName;
-                    backgroundThemeSelect.appendChild(bgOpt);
-                    
-                    const borderOpt = document.createElement("option");
-                    borderOpt.value = theme.value;
-                    borderOpt.textContent = theme.displayName;
-                    borderThemeSelect.appendChild(borderOpt);
                 });
                 
                 // Set default theme to "animals" if it exists
@@ -1417,7 +1409,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         dictionaryDiv.innerHTML = "<p class='dictionary-message'>Loading...</p>";
         try {
-            const response = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
+            const response = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${getLocale()}`);
             if (!response.ok) throw new Error(`Failed to load images for theme: ${theme}`);
             const data = await response.json();
             currentThemeImages = data.images || data;
@@ -1439,7 +1431,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (!query) {
                 // Load default "animals" theme when "all" is selected with no search
                 try {
-                    const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                    const response = await fetch(`/api/images?theme=animals&locale=${getLocale()}`);
                     if (!response.ok) throw new Error(`Failed to load default theme`);
                     const data = await response.json();
                     imagesToDisplay = data.images || data;
@@ -1450,7 +1442,7 @@ document.addEventListener("DOMContentLoaded", function() {
             } else {
                 dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
                 try {
-                    const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                    const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${getLocale()}`);
                     if (!response.ok) throw new Error(`Failed to search for "${query}"`);
                     const data = await response.json();
                     imagesToDisplay = data.images || data;
@@ -2455,14 +2447,14 @@ async function downloadPDF(canvasToExport, filename) {
                 if (!query) {
                     // Load animals theme by default when "All Themes" is selected with no search
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading default theme...</p>`;
-                    const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                    const response = await fetch(`/api/images?theme=animals&locale=${getLocale()}`);
                     if (!response.ok) throw new Error('Failed to load default theme');
                     const data = await response.json();
                     imagesToDisplay = data.images || data; // Handle both new and old API formats
                 } else {
                     // Search across all themes
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-                    const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                    const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${getLocale()}`);
                     if (!response.ok) throw new Error(`Failed to search for "${query}"`);
                     const data = await response.json();
                     imagesToDisplay = data.images || data; // Handle both new and old API formats
@@ -2470,7 +2462,7 @@ async function downloadPDF(canvasToExport, filename) {
             } else {
                 // Load specific theme
                 dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading theme...</p>`;
-                const response = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
+                const response = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${getLocale()}`);
                 if (!response.ok) throw new Error(`Failed to load theme: ${theme}`);
                 const data = await response.json();
                 const themeImages = data.images || data; // Handle both new and old API formats
@@ -2517,25 +2509,47 @@ async function downloadPDF(canvasToExport, filename) {
         }
     }
 
-    function loadBorderThemes() {
-        fetch('/api/borders/themes')
-            .then(res => {
-                if (!res.ok) throw new Error('Failed to load border themes');
-                return res.json();
-            })
-            .then(themes => {
-                borderThemeSelect.innerHTML = '<option value="none">None</option>';
-                themes.forEach(theme => {
-                    const opt = document.createElement("option");
-                    opt.value = theme;
-                    opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                    borderThemeSelect.appendChild(opt);
-                });
-            })
-            .catch(err => {
-                console.error("Error loading border themes:", err);
-                showMessage("Could not load border themes.", 'error');
+    async function loadBorderThemes() {
+        try {
+            const locale = getLocale();
+            console.log('Loading border themes with locale:', locale);
+
+            // Clear and add default option
+            while (borderThemeSelect.firstChild) {
+                borderThemeSelect.removeChild(borderThemeSelect.firstChild);
+            }
+            const noneOption = document.createElement('option');
+            noneOption.value = 'none';
+            noneOption.textContent = 'None';
+            borderThemeSelect.appendChild(noneOption);
+            const url = `/api/borders/themes?locale=${locale}`;
+            console.log('Fetching border themes from:', url);
+            const response = await fetch(url);
+            if (!response.ok) {
+                console.error('Failed to load border themes');
+                return;
+            }
+            const themes = await response.json();
+            console.log('Border themes received:', themes);
+            console.log('Theme data structure:', JSON.stringify(themes));
+
+            themes.forEach(theme => {
+                // Handle both string and object format
+                const value = typeof theme === 'string' ? theme : theme.value;
+                const displayName = typeof theme === 'string'
+                    ? theme.charAt(0).toUpperCase() + theme.slice(1)
+                    : (theme.displayName || theme.value);
+
+                console.log(`Adding border theme: value="${value}", displayName="${displayName}", original theme:`, theme);
+
+                const option = document.createElement('option');
+                option.value = value;
+                option.textContent = displayName;
+                borderThemeSelect.appendChild(option);
             });
+        } catch (error) {
+            console.error('Error loading border themes:', error);
+        }
     }
 
     function loadBorderImages() {
@@ -2557,12 +2571,14 @@ async function downloadPDF(canvasToExport, filename) {
         }
 
         borderDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} borders...</p>`;
-        fetch(`/api/borders/images?theme=${theme}`)
+        const apiUrl = `/api/borders/images?theme=${theme}`;
+        fetch(apiUrl)
             .then(res => {
                 if (!res.ok) throw new Error(`Failed to load images for border theme: ${theme}`);
                 return res.json();
             })
-            .then(images => {
+            .then(data => {
+                const images = data.images || data;
                 renderBorderThumbnails(images);
             })
             .catch(err => {
@@ -2629,19 +2645,47 @@ async function downloadPDF(canvasToExport, filename) {
     }
 
     // START: Added Background Functions
-    function loadBackgroundThemes() {
-        fetch('/api/backgrounds/themes')
-            .then(res => { if (!res.ok) throw new Error('Failed to load background themes'); return res.json(); })
-            .then(themes => {
-                backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
-                themes.forEach(theme => {
-                    const opt = document.createElement("option");
-                    opt.value = theme;
-                    opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                    backgroundThemeSelect.appendChild(opt);
-                });
-            })
-            .catch(err => console.error("Error loading background themes:", err));
+    async function loadBackgroundThemes() {
+        try {
+            const locale = getLocale();
+            console.log('Loading background themes with locale:', locale);
+
+            // Clear and add default option
+            while (backgroundThemeSelect.firstChild) {
+                backgroundThemeSelect.removeChild(backgroundThemeSelect.firstChild);
+            }
+            const noneOption = document.createElement('option');
+            noneOption.value = 'none';
+            noneOption.textContent = 'None';
+            backgroundThemeSelect.appendChild(noneOption);
+            const url = `/api/backgrounds/themes?locale=${locale}`;
+            console.log('Fetching background themes from:', url);
+            const response = await fetch(url);
+            if (!response.ok) {
+                console.error('Failed to load background themes');
+                return;
+            }
+            const themes = await response.json();
+            console.log('Background themes received:', themes);
+            console.log('Background theme data structure:', JSON.stringify(themes));
+
+            themes.forEach(theme => {
+                // Handle both string and object format
+                const value = typeof theme === 'string' ? theme : theme.value;
+                const displayName = typeof theme === 'string'
+                    ? theme.charAt(0).toUpperCase() + theme.slice(1)
+                    : (theme.displayName || theme.value);
+
+                console.log(`Adding background theme: value="${value}", displayName="${displayName}", original theme:`, theme);
+
+                const option = document.createElement('option');
+                option.value = value;
+                option.textContent = displayName;
+                backgroundThemeSelect.appendChild(option);
+            });
+        } catch (error) {
+            console.error('Error loading background themes:', error);
+        }
     }
 
     function loadBackgroundImages() {
@@ -2660,12 +2704,15 @@ async function downloadPDF(canvasToExport, filename) {
             return;
         }
 
-        backgroundDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} backgrounds...</p>`;
-        fetch(`/api/backgrounds/images?theme=${theme}`)
+        backgroundDictionary.innerHTML = `<p class="dictionary-message">Loading backgrounds...</p>`;
+        const apiUrl = `/api/backgrounds/images?theme=${theme}`;
+        fetch(apiUrl)
             .then(res => { if (!res.ok) throw new Error('Failed to load background images'); return res.json(); })
-            .then(images => {
+            .then(data => {
+                // Handle API response that returns {images: [...]}
+                const images = data.images || data;
                 backgroundDictionary.innerHTML = "";
-                if (images.length === 0) { backgroundDictionary.innerHTML = '<p class="dictionary-message">No backgrounds in this theme.</p>'; return; }
+                if (!images || images.length === 0) { backgroundDictionary.innerHTML = '<p class="dictionary-message">No backgrounds in this theme.</p>'; return; }
                 images.forEach(asset => {
                     const item = document.createElement("div");
                     item.className = "border-thumbnail-item";
@@ -2928,8 +2975,12 @@ async function downloadPDF(canvasToExport, filename) {
     loadThemes().then(() => {
         loadThemeImages(); // Load images after themes are loaded
     });
-    loadBorderThemes();
-    loadBackgroundThemes(); 
+    // Load themes after a short delay to ensure translations.js is ready
+    setTimeout(() => {
+        console.log('Loading border and background themes after delay');
+        loadBorderThemes();
+        loadBackgroundThemes();
+    }, 100); 
     handleSelectionCleared(null, worksheetCanvas);
     renderSelectedObjectConfig();
     renderUploadedImages();

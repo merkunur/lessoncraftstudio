@@ -887,21 +887,37 @@
         
         async function loadBorderThemes() {
             try {
-                const themes = await (await fetch('/api/borders/themes')).json();
-                const themeOptionsHTML = themes.map(t => `<option value="${t}">${t.charAt(0).toUpperCase() + t.slice(1)}</option>`).join('');
-                borderThemeSelect.innerHTML += themeOptionsHTML;
+                borderThemeSelect.innerHTML = '<option value="">None</option>';
+                const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
+                if (!response.ok) {
+                    console.error('Failed to load border themes');
+                    return;
+                }
+                const themes = await response.json();
+                themes.forEach(theme => {
+                    const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                    borderThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                });
             } catch (error) {
-                 showMessage('Failed to load border themes.', 'error');
+                console.error('Error loading border themes:', error);
             }
         }
 
         async function loadBackgroundThemes() {
             try {
-                const themes = await (await fetch('/api/backgrounds/themes')).json();
-                const themeOptionsHTML = themes.map(t => `<option value="${t}">${t.charAt(0).toUpperCase() + t.slice(1)}</option>`).join('');
-                backgroundThemeSelect.innerHTML += themeOptionsHTML;
+                backgroundThemeSelect.innerHTML = '<option value="">None</option>';
+                const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
+                if (!response.ok) {
+                    console.error('Failed to load background themes');
+                    return;
+                }
+                const themes = await response.json();
+                themes.forEach(theme => {
+                    const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                    backgroundThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                });
             } catch (error) {
-                 showMessage('Failed to load background themes.', 'error');
+                console.error('Error loading background themes:', error);
             }
         }
 
@@ -2284,8 +2300,10 @@ async function downloadPDF(canvasInstance, baseFileName) {
             borderControls.style.display = 'block';
 
             try {
-                const res = await fetch(`/api/borders/images?theme=${theme}`);
-                const borderImages = await res.json();
+                const apiUrl = `/api/borders/images?theme=${theme}`;
+                const res = await fetch(apiUrl);
+                const data = await res.json();
+                const borderImages = Array.isArray(data) ? data : (data.images || []);
                 borderImages.forEach(imgData => {
                     const item = document.createElement('div');
                     item.className = 'thumbnail-item';
@@ -2375,8 +2393,10 @@ async function downloadPDF(canvasInstance, baseFileName) {
             backgroundThumbnailGallery.style.display = 'grid';
 
             try {
-                const res = await fetch(`/api/backgrounds/images?theme=${theme}`);
-                const bgImages = await res.json();
+                const apiUrl = `/api/backgrounds/images?theme=${theme}`;
+                const res = await fetch(apiUrl);
+                const data = await res.json();
+                const bgImages = Array.isArray(data) ? data : (data.images || data || []);
                 bgImages.forEach(imgData => {
                     const item = document.createElement('div');
                     item.className = 'thumbnail-item';

@@ -968,6 +968,52 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function() {
+      // Load border themes
+      async function loadBorderThemes() {
+        try {
+          const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
+          if (!response.ok) {
+            console.error('Failed to load border themes');
+            return;
+          }
+          const themes = await response.json();
+          const borderThemeSelect = document.getElementById('borderThemeSelect');
+          borderThemeSelect.innerHTML = '<option value="none">None</option>';
+          themes.forEach(theme => {
+            const themeValue = theme.value || theme;
+            const displayName = theme.displayName || theme.charAt(0).toUpperCase() + theme.slice(1);
+            borderThemeSelect.innerHTML += `<option value="${themeValue}">${displayName}</option>`;
+          });
+        } catch (error) {
+          console.error('Error loading border themes:', error);
+        }
+      }
+
+      // Load background themes
+      async function loadBackgroundThemes() {
+        try {
+          const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
+          if (!response.ok) {
+            console.error('Failed to load background themes');
+            return;
+          }
+          const themes = await response.json();
+          const backgroundThemeSelect = document.getElementById('backgroundThemeSelect');
+          backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+          themes.forEach(theme => {
+            const themeValue = theme.value || theme;
+            const displayName = theme.displayName || theme.charAt(0).toUpperCase() + theme.slice(1);
+            backgroundThemeSelect.innerHTML += `<option value="${themeValue}">${displayName}</option>`;
+          });
+        } catch (error) {
+          console.error('Error loading background themes:', error);
+        }
+      }
+
+      // Load themes on page load
+      loadBorderThemes();
+      loadBackgroundThemes();
+
       // --- Accordion & Responsive Sidebar Logic ---
       const accordionButtons = document.querySelectorAll('.accordion-button');
       accordionButtons.forEach(button => {
@@ -2347,21 +2393,12 @@ async function downloadPDF(canvasToExport, fileName) {
 
     // --- Border & Background Logic ---
     async function loadAssetThemes(assetType, selectElement) {
-        try {
-            const res = await fetch(`/api/themes-translated?locale=${currentLocale}`);
-            if (!res.ok) throw new Error(`Failed to load ${assetType} themes`);
-            const themes = await res.json();
-            
-            selectElement.innerHTML = '<option value="none">None</option>';
-            themes.forEach(theme => {
-                const opt = document.createElement("option");
-                opt.value = theme.value;
-                opt.textContent = theme.displayName;
-                selectElement.appendChild(opt);
-            });
-        } catch(err) {
-            console.error(`Error loading ${assetType} themes:`, err);
-            showMessage(`Could not load ${assetType} themes.`, 'error');
+        // Background and border themes are hardcoded since Directus has limited theme structure
+        selectElement.innerHTML = '<option value="none">None</option>';
+        if (assetType === 'backgrounds') {
+            selectElement.innerHTML += '<option value="all">All Backgrounds</option>';
+        } else if (assetType === 'borders') {
+            selectElement.innerHTML += '<option value="all">All Borders</option>';
         }
     }
 
@@ -2372,11 +2409,16 @@ async function downloadPDF(canvasToExport, fileName) {
             return;
         }
         dictionaryElement.innerHTML = `<p class="dictionary-message">Loading ${theme} ${assetType}...</p>`;
-        fetch(`/api/images?theme=${theme}&locale=${currentLocale}`)
+        // Use the correct API endpoint for borders and backgrounds
+        const apiEndpoint = assetType === 'borders' ? `/api/borders/images?theme=${theme}`
+                          : assetType === 'backgrounds' ? `/api/backgrounds/images?theme=${theme}`
+                          : `/api/images?theme=${theme}&locale=${currentLocale}`;
+        fetch(apiEndpoint)
             .then(res => res.ok ? res.json() : Promise.reject(`Failed to load images for ${assetType} theme`))
-            .then(images => {
+            .then(data => {
+                const images = data.images || data;
                 dictionaryElement.innerHTML = "";
-                if (images.length === 0) { dictionaryElement.innerHTML = `<p class="dictionary-message">No ${assetType} in this theme.</p>`; return; }
+                if (!images || !Array.isArray(images) || images.length === 0) { dictionaryElement.innerHTML = `<p class="dictionary-message">No ${assetType} in this theme.</p>`; return; }
                 images.forEach(image => {
                     const displayName = image.name || image.word;
                     const item = document.createElement("div");

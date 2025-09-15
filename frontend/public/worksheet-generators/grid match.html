@@ -1096,18 +1096,12 @@
         
         // --- Asset (Border/Background) Functions ---
         async function loadAssetThemes(type, selectEl) {
-             try {
-                const response = await fetch(`/api/${type}/themes?locale=${currentLocale}`);
-                if (!response.ok) throw new Error(`Failed to load ${type} themes`);
-                const themes = await response.json();
-                selectEl.innerHTML = `<option value="">None</option>`;
-                themes.forEach(theme => {
-                    const opt = new Option(theme.charAt(0).toUpperCase() + theme.slice(1), theme);
-                    selectEl.appendChild(opt);
-                });
-            } catch (error) {
-                console.error(`${type} theme loading error:`, error);
-                showMessage(`Could not load ${type} themes.`, 'error');
+            // Background and border themes are hardcoded since Directus has limited theme structure
+            selectEl.innerHTML = `<option value="">None</option>`;
+            if (type === 'backgrounds') {
+                selectEl.innerHTML += `<option value="all">All Backgrounds</option>`;
+            } else if (type === 'borders') {
+                selectEl.innerHTML += `<option value="all">All Borders</option>`;
             }
         }
 
@@ -1121,9 +1115,10 @@
                 return;
             }
             try {
-                const response = await fetch(`/api/borders/images?theme=${theme}&locale=${currentLocale}`);
+                const response = await fetch(`/api/borders?locale=${currentLocale}`);
                 if (!response.ok) throw new Error('Network response was not ok');
-                const images = await response.json();
+                const data = await response.json();
+                const images = data.images || data;
                 
                 borderGallery.innerHTML = "";
                 if (images.length === 0) {
@@ -1161,9 +1156,11 @@
                 return;
             }
              try {
-                const response = await fetch(`/api/backgrounds/images?theme=${theme}&locale=${currentLocale}`);
+                // Load all backgrounds from Directus
+                const response = await fetch(`/api/backgrounds?locale=${currentLocale}`);
                 if (!response.ok) throw new Error('Network response was not ok');
-                const images = await response.json();
+                const data = await response.json();
+                const images = data.backgrounds || data || [];
                 
                 backgroundDictionary.innerHTML = "";
                 if (images.length === 0) {

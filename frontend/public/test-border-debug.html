@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Border/Background Debug Test</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        .test { margin: 20px 0; padding: 20px; border: 1px solid #ccc; }
+        select { padding: 5px; margin: 10px; display: block; min-width: 200px; }
+        .log { background: #f0f0f0; padding: 10px; font-family: monospace; white-space: pre; }
+    </style>
+</head>
+<body>
+    <h1>Border/Background Theme Loading Test</h1>
+
+    <div class="test">
+        <h2>Test 1: Direct API Call</h2>
+        <button onclick="testAPI()">Test API</button>
+        <div id="apiLog" class="log"></div>
+    </div>
+
+    <div class="test">
+        <h2>Test 2: Simple Select Population</h2>
+        <select id="simpleSelect">
+            <option value="none">None</option>
+        </select>
+        <button onclick="populateSimple()">Populate Simple</button>
+    </div>
+
+    <div class="test">
+        <h2>Test 3: Hidden Select Population</h2>
+        <div id="hiddenContainer" style="display: none;">
+            <select id="hiddenSelect">
+                <option value="none">None</option>
+            </select>
+        </div>
+        <button onclick="populateHidden()">Populate Hidden</button>
+        <button onclick="showHidden()">Show Hidden</button>
+    </div>
+
+    <div class="test">
+        <h2>Test 4: Exact Reproduction</h2>
+        <div class="accordion-content" style="display: none;" id="accordionTest">
+            <select id="testBorderSelect">
+                <option value="none">None</option>
+            </select>
+        </div>
+        <button onclick="showAccordion()">Show Accordion First</button>
+        <button onclick="populateAccordion()">Then Populate</button>
+    </div>
+
+    <div class="test">
+        <h2>Test 5: Check Subtraction-v2 State</h2>
+        <button onclick="checkSubtractionApp()">Check Subtraction App</button>
+        <div id="subtractionLog" class="log"></div>
+    </div>
+
+    <script>
+        function log(id, msg) {
+            document.getElementById(id).innerText += msg + '\n';
+        }
+
+        async function testAPI() {
+            log('apiLog', 'Testing /api/borders/themes...');
+            const response = await fetch('/api/borders/themes');
+            const data = await response.json();
+            log('apiLog', 'Response: ' + JSON.stringify(data, null, 2));
+        }
+
+        function populateSimple() {
+            const select = document.getElementById('simpleSelect');
+            select.innerHTML = '<option value="none">None</option>';
+            select.innerHTML += '<option value="spring">Spring</option>';
+            select.innerHTML += '<option value="math">Math</option>';
+            console.log('Simple select populated:', select.options.length, 'options');
+            alert('Simple select has ' + select.options.length + ' options');
+        }
+
+        function populateHidden() {
+            const select = document.getElementById('hiddenSelect');
+            select.innerHTML = '<option value="none">None</option>';
+            select.innerHTML += '<option value="spring">Spring</option>';
+            select.innerHTML += '<option value="math">Math</option>';
+            console.log('Hidden select populated:', select.options.length, 'options');
+            alert('Hidden select has ' + select.options.length + ' options (while hidden)');
+        }
+
+        function showHidden() {
+            document.getElementById('hiddenContainer').style.display = 'block';
+            const select = document.getElementById('hiddenSelect');
+            alert('Hidden select now visible with ' + select.options.length + ' options');
+        }
+
+        function showAccordion() {
+            document.getElementById('accordionTest').style.display = 'block';
+            alert('Accordion shown');
+        }
+
+        function populateAccordion() {
+            const select = document.getElementById('testBorderSelect');
+            select.innerHTML = '<option value="none">None</option>';
+            select.innerHTML += '<option value="spring">Spring</option>';
+            select.innerHTML += '<option value="math">Math</option>';
+            alert('Accordion select has ' + select.options.length + ' options');
+        }
+
+        async function checkSubtractionApp() {
+            // Open subtraction app in iframe to check
+            const iframe = document.createElement('iframe');
+            iframe.src = '/worksheet-generators/subtraction-v2.html';
+            iframe.style.display = 'none';
+            document.body.appendChild(iframe);
+
+            iframe.onload = function() {
+                const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+                const borderSelect = iframeDoc.getElementById('borderThemeSelect');
+                const bgSelect = iframeDoc.getElementById('backgroundThemeSelect');
+
+                log('subtractionLog', 'Border select found: ' + !!borderSelect);
+                log('subtractionLog', 'Border select options: ' + (borderSelect ? borderSelect.options.length : 'N/A'));
+                log('subtractionLog', 'Background select found: ' + !!bgSelect);
+                log('subtractionLog', 'Background select options: ' + (bgSelect ? bgSelect.options.length : 'N/A'));
+
+                // Check accordion state
+                const accordion = iframeDoc.querySelector('.accordion-content:has(#borderThemeSelect)');
+                if (accordion) {
+                    const display = window.getComputedStyle(accordion).display;
+                    log('subtractionLog', 'Accordion display: ' + display);
+                }
+
+                // Try to check console logs
+                setTimeout(() => {
+                    log('subtractionLog', '\nAfter 2 seconds:');
+                    log('subtractionLog', 'Border select options: ' + (borderSelect ? borderSelect.options.length : 'N/A'));
+                    log('subtractionLog', 'Background select options: ' + (bgSelect ? bgSelect.options.length : 'N/A'));
+
+                    if (borderSelect && borderSelect.options.length > 1) {
+                        log('subtractionLog', 'Options found: ');
+                        for (let i = 0; i < borderSelect.options.length; i++) {
+                            log('subtractionLog', '  - ' + borderSelect.options[i].value + ': ' + borderSelect.options[i].text);
+                        }
+                    }
+                }, 2000);
+            };
+        }
+    </script>
+</body>
+</html>

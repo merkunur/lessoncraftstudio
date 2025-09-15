@@ -2589,33 +2589,13 @@ async function downloadPDF(canvasToExport, fileName) {
    * Border & Background Logic
    ********************************/
   function loadBorderThemes() {
-      fetch(`/api/borders/themes?locale=${currentLocale}`)
-          .then(res => { if (!res.ok) throw new Error('Failed to load border themes'); return res.json(); })
-          .then(themes => {
-              borderThemeSelect.innerHTML = '<option value="none">None</option>';
-              themes.forEach(theme => {
-                  const opt = document.createElement("option");
-                  opt.value = theme;
-                  opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                  borderThemeSelect.appendChild(opt);
-              });
-          })
-          .catch(err => { console.error("Error loading border themes:", err); displayMessage("Could not load border themes.", 'error'); });
+      borderThemeSelect.innerHTML = '<option value="none">None</option>';
+      borderThemeSelect.innerHTML += '<option value="all">All Borders</option>';
   }
 
   function loadBackgroundThemes() {
-      fetch(`/api/backgrounds/themes?locale=${currentLocale}`)
-          .then(res => { if (!res.ok) throw new Error('Failed to load background themes'); return res.json(); })
-          .then(themes => {
-              backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
-              themes.forEach(theme => {
-                  const opt = document.createElement("option");
-                  opt.value = theme;
-                  opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                  backgroundThemeSelect.appendChild(opt);
-              });
-          })
-          .catch(err => { console.error("Error loading background themes:", err); displayMessage("Could not load background themes.", 'error'); });
+      backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+      backgroundThemeSelect.innerHTML += '<option value="all">All Backgrounds</option>';
   }
 
   function loadBorderImages() {
@@ -2633,9 +2613,12 @@ async function downloadPDF(canvasToExport, fileName) {
       }
       
       borderDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} borders...</p> मांझी>`;
-      fetch(`/api/borders/images?theme=${theme}&locale=${currentLocale}`)
+      fetch(`/api/borders?locale=${currentLocale}`)
           .then(res => { if (!res.ok) throw new Error(`Failed to load images for border theme`); return res.json(); })
-          .then(images => { renderBorderThumbnails(images); })
+          .then(data => {
+              const images = data.images || data;
+              renderBorderThumbnails(images);
+          })
           .catch(err => { console.error('Error loading border images:', err); borderDictionary.innerHTML = '<p class="dictionary-message">Error loading borders.</p>'; });
   }
 
@@ -2654,9 +2637,12 @@ async function downloadPDF(canvasToExport, fileName) {
       }
       
       backgroundDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} backgrounds...</p>`;
-      fetch(`/api/backgrounds/images?theme=${theme}&locale=${currentLocale}`)
+      fetch(`/api/backgrounds?locale=${currentLocale}`)
           .then(res => { if (!res.ok) throw new Error(`Failed to load images for background theme`); return res.json(); })
-          .then(images => { renderBackgroundThumbnails(images); })
+          .then(data => {
+              const images = data.images || data;
+              renderBackgroundThumbnails(images);
+          })
           .catch(err => { console.error('Error loading background images:', err); backgroundDictionary.innerHTML = '<p class="dictionary-message">Error loading backgrounds.</p>'; });
   }
   

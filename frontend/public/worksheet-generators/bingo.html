@@ -733,18 +733,22 @@
         selectedCountMsg.textContent = `Selected for custom call-outs: ${selectedImages.length}`;
       }
 
-      function loadAssetThemes(type, selectEl) {
-        fetch(`/api/${type}/themes`)
-            .then(res => res.ok ? res.json() : Promise.reject(`Failed to load ${type} themes`))
-            .then(themes => {
-                selectEl.innerHTML = '<option value="none">None</option>';
-                themes.forEach(theme => {
-                    const opt = document.createElement("option");
-                    opt.value = theme;
-                    opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                    selectEl.appendChild(opt);
-                });
-            }).catch(err => { console.error(`Error loading ${type} themes:`, err); showMessage(`Could not load ${type} themes.`, 'error'); });
+      async function loadAssetThemes(type, selectEl) {
+        try {
+            selectEl.innerHTML = '<option value="none">None</option>';
+            const response = await fetch(`/api/${type}/themes`);
+            if (!response.ok) {
+                console.error(`Failed to load ${type} themes`);
+                return;
+            }
+            const themes = await response.json();
+            themes.forEach(theme => {
+                const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                selectEl.innerHTML += `<option value="${theme}">${displayName}</option>`;
+            });
+        } catch (error) {
+            console.error(`Error loading ${type} themes:`, error);
+        }
       }
 
       function loadAssetImages(type, theme, dictionaryEl, sliderEl, addFunc) {
@@ -1000,7 +1004,8 @@
                  try {
                     const res = await fetch(`/api/images?search=&locale=${currentLocale}`);
                     if (!res.ok) throw new Error('Failed to fetch images for auto-generation.');
-                    themeImages = await res.json();
+                    const data = await res.json();
+                    themeImages = data.images || data;
                 } catch(err) { showMessage(err.message, 'error'); return null; }
             }
 

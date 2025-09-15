@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find Count - Border Test</title>
+    <style>
+        body { padding: 20px; font-family: Arial; }
+        select { padding: 5px; margin: 10px; width: 200px; }
+        #log { border: 1px solid #ccc; padding: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Find Count - Border Loading Test</h1>
+
+    <div>
+        <label>Border Theme:</label>
+        <select id="borderThemeSelect">
+            <option value="none">None</option>
+        </select>
+    </div>
+
+    <div>
+        <label>Background Theme:</label>
+        <select id="backgroundThemeSelect">
+            <option value="none">None</option>
+        </select>
+    </div>
+
+    <div id="log">
+        <h3>Log:</h3>
+    </div>
+
+    <script>
+        const currentLocale = 'en';
+        const logDiv = document.getElementById('log');
+        
+        function log(msg) {
+            console.log(msg);
+            logDiv.innerHTML += `<div>${new Date().toISOString().split('T')[1].split('.')[0]} - ${msg}</div>`;
+        }
+
+        async function populateBorderThemes() {
+            log('populateBorderThemes called');
+            const borderThemeSelect = document.getElementById('borderThemeSelect');
+            log(`borderThemeSelect exists: ${!!borderThemeSelect}`);
+
+            try {
+                borderThemeSelect.innerHTML = '<option value="none">None</option>';
+                log(`Fetching: /api/borders/themes?locale=${currentLocale}`);
+                const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
+                log(`Response status: ${response.status}`);
+                
+                if (!response.ok) {
+                    log('ERROR: Failed to load border themes');
+                    return;
+                }
+
+                const themes = await response.json();
+                log(`Received ${themes.length} border themes`);
+
+                themes.forEach(theme => {
+                    const themeValue = typeof theme === 'object' ? theme.value : theme;
+                    const displayName = typeof theme === 'object'
+                        ? theme.displayName
+                        : theme.charAt(0).toUpperCase() + theme.slice(1);
+                    borderThemeSelect.innerHTML += `<option value="${themeValue}">${displayName}</option>`;
+                });
+                
+                log(`Border select now has ${borderThemeSelect.options.length} options`);
+            } catch (error) {
+                log(`ERROR: ${error.message}`);
+            }
+        }
+
+        async function populateBackgroundThemes() {
+            log('populateBackgroundThemes called');
+            const backgroundThemeSelect = document.getElementById('backgroundThemeSelect');
+
+            try {
+                backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+                log(`Fetching: /api/backgrounds/themes?locale=${currentLocale}`);
+                const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
+                log(`Response status: ${response.status}`);
+                
+                if (!response.ok) {
+                    log('ERROR: Failed to load background themes');
+                    return;
+                }
+
+                const themes = await response.json();
+                log(`Received ${themes.length} background themes`);
+
+                themes.forEach(theme => {
+                    const themeValue = typeof theme === 'object' ? theme.value : theme;
+                    const displayName = typeof theme === 'object'
+                        ? theme.displayName
+                        : theme.charAt(0).toUpperCase() + theme.slice(1);
+                    backgroundThemeSelect.innerHTML += `<option value="${themeValue}">${displayName}</option>`;
+                });
+                
+                log(`Background select now has ${backgroundThemeSelect.options.length} options`);
+            } catch (error) {
+                log(`ERROR: ${error.message}`);
+            }
+        }
+
+        // Run immediately
+        log('Page loaded, calling populate functions...');
+        populateBorderThemes();
+        populateBackgroundThemes();
+    </script>
+</body>
+</html>

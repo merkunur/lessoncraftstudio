@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Visibility Test</title>
+  <style>
+    /* Ensure selects are visible */
+    select {
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+      width: 200px !important;
+      height: auto !important;
+      min-height: 30px !important;
+      padding: 5px !important;
+      margin: 10px !important;
+      border: 2px solid red !important;
+      background-color: white !important;
+      color: black !important;
+    }
+
+    select option {
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+      background-color: white !important;
+      color: black !important;
+      padding: 5px !important;
+    }
+
+    .test-container {
+      padding: 20px;
+      background: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <div class="test-container">
+    <h1>CSS Visibility Test</h1>
+
+    <h2>Static HTML Select (should work):</h2>
+    <select id="staticSelect">
+      <option value="none">None</option>
+      <option value="spring">Spring</option>
+      <option value="math">Math</option>
+    </select>
+
+    <h2>Dynamic Select (testing):</h2>
+    <select id="dynamicSelect">
+      <option value="none">None</option>
+    </select>
+
+    <h2>Select populated with innerHTML:</h2>
+    <select id="innerHTMLSelect">
+      <option value="none">None</option>
+    </select>
+
+    <button onclick="populateSelects()">Populate Selects</button>
+    <button onclick="inspectSelects()">Inspect Selects</button>
+
+    <pre id="log"></pre>
+  </div>
+
+  <script>
+    function log(msg) {
+      document.getElementById('log').textContent += msg + '\n';
+      console.log(msg);
+    }
+
+    async function populateSelects() {
+      log('\n=== Populating Selects ===');
+
+      // Get data from API
+      const response = await fetch('/api/borders/themes');
+      const themes = await response.json();
+      log('Got ' + themes.length + ' themes from API');
+
+      // Method 1: appendChild
+      const dynamicSelect = document.getElementById('dynamicSelect');
+      dynamicSelect.innerHTML = '<option value="none">None</option>';
+
+      themes.forEach(theme => {
+        const option = document.createElement('option');
+        option.value = theme.value;
+        option.textContent = theme.displayName;
+        dynamicSelect.appendChild(option);
+      });
+
+      log('Dynamic select now has ' + dynamicSelect.options.length + ' options');
+
+      // Method 2: innerHTML
+      const innerHTMLSelect = document.getElementById('innerHTMLSelect');
+      innerHTMLSelect.innerHTML = '<option value="none">None</option>';
+
+      themes.forEach(theme => {
+        innerHTMLSelect.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
+      });
+
+      log('innerHTML select now has ' + innerHTMLSelect.options.length + ' options');
+
+      // Force reflow
+      dynamicSelect.style.display = 'none';
+      dynamicSelect.offsetHeight;
+      dynamicSelect.style.display = 'block';
+
+      innerHTMLSelect.style.display = 'none';
+      innerHTMLSelect.offsetHeight;
+      innerHTMLSelect.style.display = 'block';
+    }
+
+    function inspectSelects() {
+      log('\n=== Inspecting All Selects ===');
+
+      const selects = ['staticSelect', 'dynamicSelect', 'innerHTMLSelect'];
+
+      selects.forEach(id => {
+        const select = document.getElementById(id);
+        log('\n' + id + ':');
+        log('  Options count: ' + select.options.length);
+        log('  Computed style display: ' + window.getComputedStyle(select).display);
+        log('  Computed style visibility: ' + window.getComputedStyle(select).visibility);
+        log('  Computed style opacity: ' + window.getComputedStyle(select).opacity);
+        log('  Options:');
+        for (let i = 0; i < select.options.length; i++) {
+          log('    ' + i + ': ' + select.options[i].value + ' = ' + select.options[i].text);
+        }
+      });
+    }
+
+    // Auto-populate on load
+    window.addEventListener('DOMContentLoaded', () => {
+      setTimeout(populateSelects, 500);
+    });
+  </script>
+</body>
+</html>

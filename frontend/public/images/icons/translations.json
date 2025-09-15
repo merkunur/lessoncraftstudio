@@ -14,7 +14,7 @@
     "fi": "Kuvakkeet"
   },
   "images": {
-    "block_icon_text": {
+    "block icon text": {
       "en": "Lock",
       "de": "Schloss",
       "fr": "Serrure",
@@ -27,7 +27,7 @@
       "no": "Lås",
       "fi": "Lukko"
     },
-    "col_icon_text": {
+    "col icon text": {
       "en": "Col Icon Text",
       "de": "Col Icon Text",
       "fr": "Col Icon Text",
@@ -40,7 +40,7 @@
       "no": "Col Icon Text",
       "fi": "Col Icon Text"
     },
-    "row_icon_text": {
+    "row icon text": {
       "en": "Row Icon Text",
       "de": "Row Icon Text",
       "fr": "Row Icon Text",

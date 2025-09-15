@@ -1457,17 +1457,39 @@
         });
 
         // --- Borders & Backgrounds (Standard) ---
-        function loadBorderThemes() { 
-            fetch(`/api/borders/themes?locale=${currentLocale}`).then(res => res.json()).then(themes => { 
-                borderThemeSelect.innerHTML = '<option value="none">None</option>'; 
-                themes.forEach(theme => borderThemeSelect.add(new Option(theme.charAt(0).toUpperCase() + theme.slice(1), theme))); 
-            }); 
+        async function loadBorderThemes() {
+            try {
+                borderThemeSelect.innerHTML = '<option value="none">None</option>';
+                const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
+                if (!response.ok) {
+                    console.error('Failed to load border themes');
+                    return;
+                }
+                const themes = await response.json();
+                themes.forEach(theme => {
+                    const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                    borderThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                });
+            } catch (error) {
+                console.error('Error loading border themes:', error);
+            }
         }
-        function loadBackgroundThemes() { 
-            fetch(`/api/backgrounds/themes?locale=${currentLocale}`).then(res => res.json()).then(themes => { 
-                backgroundThemeSelect.innerHTML = '<option value="none">None</option>'; 
-                themes.forEach(theme => backgroundThemeSelect.add(new Option(theme.charAt(0).toUpperCase() + theme.slice(1), theme))); 
-            }); 
+        async function loadBackgroundThemes() {
+            try {
+                backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+                const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
+                if (!response.ok) {
+                    console.error('Failed to load background themes');
+                    return;
+                }
+                const themes = await response.json();
+                themes.forEach(theme => {
+                    const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                    backgroundThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                });
+            } catch (error) {
+                console.error('Error loading background themes:', error);
+            }
         }
         function loadBorderImages() {
             const theme = borderThemeSelect.value;
@@ -1476,7 +1498,8 @@
                 borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme.</p>';
                 const existing = activeCanvas.getObjects().find(o => o.isBorder); if (existing) activeCanvas.remove(existing); activeCanvas.renderAll(); borderOpacitySlider.disabled = true; return;
             }
-            fetch(`/api/borders/images?theme=${theme}&locale=${currentLocale}`).then(res => res.json()).then(images => {
+            fetch(`/api/borders/images?theme=${theme}`).then(res => res.json()).then(data => {
+                const images = data.images || data;
                 borderDictionary.innerHTML = "";
                 images.forEach(img => {
                     const item = document.createElement("div"); item.className = "border-thumbnail-item";
@@ -1493,7 +1516,8 @@
                 backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme.</p>';
                 const existing = activeCanvas.getObjects().find(o => o.isBackground); if (existing) activeCanvas.remove(existing); activeCanvas.renderAll(); backgroundOpacitySlider.disabled = true; return;
             }
-            fetch(`/api/backgrounds/images?theme=${theme}&locale=${currentLocale}`).then(res => res.json()).then(images => {
+            fetch(`/api/backgrounds/images?theme=${theme}`).then(res => res.json()).then(data => {
+                const images = data.images || data;
                 backgroundDictionary.innerHTML = "";
                 images.forEach(img => {
                     const item = document.createElement("div"); item.className = "border-thumbnail-item";

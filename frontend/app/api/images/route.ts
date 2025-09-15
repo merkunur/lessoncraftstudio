@@ -38,8 +38,85 @@ export async function GET(request: Request) {
   
   // ALWAYS fetch from Directus for dynamic updates
   try {
-    // Search across all themes
-    if (search && (!theme || theme === 'all')) {
+    // Get all images when no theme specified or theme is 'all'
+    if (!theme || theme === 'all') {
+      const queryParams: any = {
+        'fields': '*,image_file.*,theme_id.*',
+        'filter[status][_eq]': 'active',
+        'filter[theme_id][folder_name][_neq]': 'alphabetsvg', // Exclude alphabetsvg - it's only for writing app
+        'limit': limit.toString(),
+        'page': page.toString(),
+        'sort': 'theme_id,file_name'
+      };
+
+      // Add search filter if provided
+      if (search) {
+        queryParams['filter[_or][0][translations][_contains]'] = search;
+        queryParams['filter[_or][1][file_name][_contains]'] = search;
+      }
+
+      const response = await fetch(
+        `${DIRECTUS_URL}/items/image_assets?` + new URLSearchParams(queryParams),
+        {
+          headers: {
+            'Authorization': `Bearer ${API_TOKEN}`
+          }
+        }
+      );
+
+      if (response.ok) {
+        const data = await response.json();
+
+        // Debug: Log first item to see structure
+        if (data.data && data.data.length > 0) {
+          console.log('First image asset:', JSON.stringify(data.data[0], null, 2));
+        }
+
+        const images = data.data.map((item: any) => {
+          // Get translated name
+          let displayName = item.file_name;
+          if (item.translations) {
+            const trans = typeof item.translations === 'string'
+              ? JSON.parse(item.translations)
+              : item.translations;
+            displayName = trans[locale] || trans['en'] || item.file_name;
+          }
+
+          // ONLY use Directus files - NO FALLBACK
+          if (!item.image_file?.id) {
+            console.log(`Skipping ${item.file_name} - no Directus file`);
+            return null; // Skip items without Directus files
+          }
+
+          console.log(`Using Directus proxy for ${item.file_name}: ${item.image_file.id}`);
+          const imagePath = `/api/directus-image?id=${item.image_file.id}`;
+
+          return {
+            path: imagePath,
+            url: imagePath,
+            name: displayName,
+            word: displayName,
+            theme: item.theme_id?.folder_name || item.theme_id?.name || 'unknown'
+          };
+        }).filter(Boolean); // Remove null entries
+
+        console.log(`Returning ${images.length} images with Directus files (filtered from ${data.data.length})`);
+
+        return NextResponse.json({
+          images,
+          pagination: {
+            page,
+            limit,
+            total: data.meta?.total_count || images.length,
+            totalPages: Math.ceil((data.meta?.total_count || images.length) / limit),
+            hasMore: page * limit < (data.meta?.total_count || images.length)
+          }
+        });
+      }
+    }
+
+    // Search across all themes (kept separate for specific search behavior)
+    else if (search && (!theme || theme === 'all')) {
       const response = await fetch(
         `${DIRECTUS_URL}/items/image_assets?` + new URLSearchParams({
           'fields': '*,image_file.*,theme_id.*',
@@ -128,12 +205,34 @@ export async function GET(request: Request) {
               }
             }
             
-            const images = data.data.map((item: any) => ({
-              path: item.image_file ? `/api/directus-image?id=${item.image_file.filename_disk}` : `/images/${theme}/${item.file_name}.png`,
-              url: item.image_file ? `/api/directus-image?id=${item.image_file.filename_disk}` : `/images/${theme}/${item.file_name}.png`,
-              name: item.translations?.[locale] || item.file_name,
-              word: item.translations?.[locale] || item.file_name
-            }));
+            const images = data.data.map((item: any) => {
+              // Get translated name
+              let displayName = item.file_name;
+              if (item.translations) {
+                const trans = typeof item.translations === 'string'
+                  ? JSON.parse(item.translations)
+                  : item.translations;
+                displayName = trans[locale] || trans['en'] || item.file_name;
+              }
+
+              // ONLY use Directus files - NO FALLBACK
+              if (!item.image_file?.id) {
+                console.log(`Skipping ${item.file_name} - no Directus file`);
+                return null; // Skip items without Directus files
+              }
+
+              console.log(`Using Directus proxy for ${item.file_name}: ${item.image_file.id}`);
+              const imagePath = `/api/directus-image?id=${item.image_file.id}`;
+
+              return {
+                path: imagePath,
+                url: imagePath,
+                name: displayName,
+                word: displayName
+              };
+            }).filter(Boolean); // Remove null entries
+
+            console.log(`Returning ${images.length} images with Directus files (filtered from ${data.data.length})`);
 
             return NextResponse.json({
               images,
@@ -157,7 +256,15 @@ export async function GET(request: Request) {
   const imagesBaseDir = path.join(process.cwd(), 'public', 'images');
   
   if (search) {
-    const excludedFolders = new Set(['borders', 'backgrounds', 'drawing lines', 'template']);
+    const excludedFolders = new Set([
+      'borders',           // Border assets
+      'backgrounds',       // Background assets
+      'drawing lines',     // Drawing Lines app specific
+      'template',          // Template assets
+      'alphabetsvg',       // Writing app specific
+      'prepositions',      // Prepositions app specific
+      'symbols'            // More Less app specific
+    ]);
     const results: any[] = [];
     const searchQuery = search.toLowerCase();
     

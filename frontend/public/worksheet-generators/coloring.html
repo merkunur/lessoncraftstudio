@@ -1122,20 +1122,28 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Border System
-    function loadBorderThemes() {
-        fetch('/api/borders/themes')
-            .then(res => res.ok ? res.json() : Promise.reject('Failed to load themes'))
-            .then(themes => {
-                borderThemeSelect.innerHTML = '<option value="none">None</option>';
-                themes.forEach(theme => borderThemeSelect.add(new Option(theme.charAt(0).toUpperCase() + theme.slice(1), theme)));
-            })
-            .catch(err => console.error("Border Theme Error:", err));
+    async function loadBorderThemes() {
+        try {
+            borderThemeSelect.innerHTML = `<option value="none">None</option>`;
+            const response = await fetch(`/api/borders/themes`);
+            if (!response.ok) {
+                console.error('Failed to load border themes');
+                return;
+            }
+            const themes = await response.json();
+            themes.forEach(theme => {
+                const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                borderThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+            });
+        } catch (error) {
+            console.error('Error loading border themes:', error);
+        }
     }
-    function loadBorderImages() {
+    async function loadBorderImages() {
         const theme = borderThemeSelect.value;
         const existingBorder = canvas.getObjects().find(obj => obj.isBorder);
         if (existingBorder) canvas.remove(existingBorder);
-        
+
         if (theme === 'none') {
             borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
             canvas.renderAll();
@@ -1143,23 +1151,31 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         borderDictionary.innerHTML = `<p class="dictionary-message">Loading...</p>`;
-        fetch(`/api/borders/images?theme=${theme}`)
-            .then(res => res.ok ? res.json() : Promise.reject('Failed to load borders'))
-            .then(images => {
-                borderDictionary.innerHTML = "";
-                images.forEach(border => {
-                    const item = document.createElement("div");
-                    item.className = "border-thumbnail-item";
-                    item.innerHTML = `<img src="${border.path}" alt="${border.name}" loading="lazy" />`;
-                    item.onclick = () => {
-                        addBorderToCanvas(border.path);
-                        document.querySelectorAll('.border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
-                        item.classList.add('selected');
-                    };
-                    borderDictionary.appendChild(item);
-                });
-            })
-            .catch(err => { console.error('Border Image Error:', err); borderDictionary.innerHTML = '<p class="dictionary-message">Error.</p>'; });
+
+        const apiUrl = `/api/borders/images?theme=${theme}`;
+
+        try {
+            const response = await fetch(apiUrl);
+            if (!response.ok) throw new Error('Failed to load borders');
+            const data = await response.json();
+            const images = data.images || data;
+
+            borderDictionary.innerHTML = "";
+            images.forEach(border => {
+                const item = document.createElement("div");
+                item.className = "border-thumbnail-item";
+                item.innerHTML = `<img src="${border.path}" alt="${border.name}" loading="lazy" />`;
+                item.onclick = () => {
+                    addBorderToCanvas(border.path);
+                    document.querySelectorAll('.border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
+                    item.classList.add('selected');
+                };
+                borderDictionary.appendChild(item);
+            });
+        } catch (err) {
+            console.error('Border Image Error:', err);
+            borderDictionary.innerHTML = '<p class="dictionary-message">Error loading borders.</p>';
+        }
     }
     function addBorderToCanvas(path) {
         const existingBorder = canvas.getObjects().find(obj => obj.isBorder);

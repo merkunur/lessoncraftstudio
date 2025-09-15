@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Find Count - Borders Only Test</title>
+    <style>
+        body { padding: 20px; font-family: Arial; }
+        select { padding: 5px; margin: 10px 0; width: 200px; }
+    </style>
+</head>
+<body>
+    <h1>Find Count - Borders Only Test</h1>
+
+    <div>
+        <h4>Border Theme:</h4>
+        <select id="borderThemeSelect">
+            <option value="none">None</option>
+        </select>
+    </div>
+
+    <div>
+        <h4>Background Theme:</h4>
+        <select id="backgroundThemeSelect">
+            <option value="none">None</option>
+        </select>
+    </div>
+
+    <script>
+        console.log('Starting borders-only test');
+
+        // Simple function to load border themes
+        function loadBorderThemes() {
+            console.log('Loading border themes...');
+            fetch('/api/borders/themes')
+                .then(response => response.json())
+                .then(themes => {
+                    console.log('Border themes received:', themes);
+                    const select = document.getElementById('borderThemeSelect');
+                    select.innerHTML = '<option value="none">None</option>';
+                    themes.forEach(theme => {
+                        const option = document.createElement('option');
+                        option.value = theme.value || theme;
+                        option.textContent = theme.displayName || theme;
+                        select.appendChild(option);
+                    });
+                    console.log('Border select now has', select.options.length, 'options');
+                })
+                .catch(error => console.error('Error loading border themes:', error));
+        }
+
+        // Simple function to load background themes
+        function loadBackgroundThemes() {
+            console.log('Loading background themes...');
+            fetch('/api/backgrounds/themes')
+                .then(response => response.json())
+                .then(themes => {
+                    console.log('Background themes received:', themes);
+                    const select = document.getElementById('backgroundThemeSelect');
+                    select.innerHTML = '<option value="none">None</option>';
+                    themes.forEach(theme => {
+                        const option = document.createElement('option');
+                        option.value = theme.value || theme;
+                        option.textContent = theme.displayName || theme;
+                        select.appendChild(option);
+                    });
+                    console.log('Background select now has', select.options.length, 'options');
+                })
+                .catch(error => console.error('Error loading background themes:', error));
+        }
+
+        // Load themes when page loads
+        loadBorderThemes();
+        loadBackgroundThemes();
+
+        // Also try on DOMContentLoaded
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOMContentLoaded - loading themes again');
+            loadBorderThemes();
+            loadBackgroundThemes();
+        });
+    </script>
+</body>
+</html>

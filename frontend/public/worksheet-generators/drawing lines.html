@@ -919,22 +919,22 @@ document.addEventListener("DOMContentLoaded", function() {
             });
     }
 
-    function loadBorderThemes() {
-        fetch('/api/borders/themes')
-            .then(res => res.ok ? res.json() : Promise.reject('Failed to load border themes'))
-            .then(themes => {
-                borderThemeSelect.innerHTML = '<option value="none">None</option>';
-                themes.forEach(theme => {
-                    const opt = document.createElement("option");
-                    opt.value = theme;
-                    opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                    borderThemeSelect.appendChild(opt);
-                });
-            })
-            .catch(err => {
-                console.error("Error loading border themes:", err);
-                showMessage("Could not load border themes.", 'error');
+    async function loadBorderThemes() {
+        try {
+            borderThemeSelect.innerHTML = '<option value="none">None</option>';
+            const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
+            if (!response.ok) {
+                console.error('Failed to load border themes');
+                return;
+            }
+            const themes = await response.json();
+            themes.forEach(theme => {
+                const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                borderThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
             });
+        } catch (error) {
+            console.error('Error loading border themes:', error);
+        }
     }
 
     function loadBorderImages() {
@@ -950,9 +950,13 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         borderDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} borders...</p>`;
-        fetch(`/api/borders/images?theme=${theme}`)
+        const apiUrl = `/api/borders/images?theme=${theme}`;
+        fetch(apiUrl)
             .then(res => res.ok ? res.json() : Promise.reject(`Failed to load images for border theme: ${theme}`))
-            .then(images => renderBorderThumbnails(images))
+            .then(data => {
+                const images = data.images || data;
+                renderBorderThumbnails(images);
+            })
             .catch(err => {
                 console.error('Error loading border images:', err);
                 borderDictionary.innerHTML = '<p class="dictionary-message">Error loading borders.</p>';
@@ -961,22 +965,22 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // START: Added background loading functions
-    function loadBackgroundThemes() {
-        fetch('/api/backgrounds/themes')
-            .then(res => res.ok ? res.json() : Promise.reject('Failed to load background themes'))
-            .then(themes => {
-                backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
-                themes.forEach(theme => {
-                    const opt = document.createElement("option");
-                    opt.value = theme;
-                    opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                    backgroundThemeSelect.appendChild(opt);
-                });
-            })
-            .catch(err => {
-                console.error("Error loading background themes:", err);
-                showMessage("Could not load background themes.", 'error');
+    async function loadBackgroundThemes() {
+        try {
+            backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+            const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
+            if (!response.ok) {
+                console.error('Failed to load background themes');
+                return;
+            }
+            const themes = await response.json();
+            themes.forEach(theme => {
+                const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                backgroundThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
             });
+        } catch (error) {
+            console.error('Error loading background themes:', error);
+        }
     }
 
     function loadBackgroundImages() {
@@ -994,9 +998,11 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         backgroundDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} backgrounds...</p>`;
-        fetch(`/api/backgrounds/images?theme=${theme}`)
-            .then(res => res.ok ? res.json() : Promise.reject(`Failed to load images for background theme: ${theme}`))
-            .then(images => {
+        const apiUrl = `/api/backgrounds/images?theme=${theme}`;
+        fetch(apiUrl)
+            .then(res => res.ok ? res.json() : Promise.reject(`Failed to load backgrounds`))
+            .then(data => {
+                const images = data.images || data || [];
                 backgroundDictionary.innerHTML = "";
                 if (!images || images.length === 0) {
                     backgroundDictionary.innerHTML = '<p class="dictionary-message">No backgrounds in this theme.</p>';
@@ -1134,21 +1140,27 @@ document.addEventListener("DOMContentLoaded", function() {
         // If "All Themes" is selected, use the new server-side search
         if (themeSelect.value === 'all') {
             if (!query) {
-                dictionaryDiv.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
-                return;
-            }
-            // Show a "Searching..." message while waiting for the server
-            dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-            try {
-                // Fetch results from the server instead of filtering locally
-                const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
-                if (!response.ok) throw new Error(`Failed to search for "${query}"`);
-                const searchData = await response.json();
-                imagesToDisplay = Array.isArray(searchData) ? searchData : (searchData.images || []);
-            } catch (error) {
-                 console.error(error);
-                 showMessage(error.message, 'error');
-                 imagesToDisplay = [];
+                // Show the default theme images (animals) when no search query
+                imagesToDisplay = allDictImages || [];
+                // If no images loaded yet, show a message
+                if (imagesToDisplay.length === 0) {
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading default theme...</p>`;
+                    return;
+                }
+            } else {
+                // Show a "Searching..." message while waiting for the server
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+                try {
+                    // Fetch results from the server instead of filtering locally
+                    const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                    if (!response.ok) throw new Error(`Failed to search for "${query}"`);
+                    const searchData = await response.json();
+                    imagesToDisplay = Array.isArray(searchData) ? searchData : (searchData.images || []);
+                } catch (error) {
+                     console.error(error);
+                     showMessage(error.message, 'error');
+                     imagesToDisplay = [];
+                }
             }
         } else {
             // This is the original logic for filtering within a specific, already-loaded theme
@@ -1223,7 +1235,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 try {
                     const response = await fetch(`/api/images?search=&locale=${currentLocale}`);
                     if (!response.ok) throw new Error('Could not fetch all images for auto-fill');
-                    imagePool = await response.json();
+                    const data = await response.json();
+                    imagePool = data.images || data;
                 } catch (error) {
                     showMessage(error.message, 'error');
                     return;

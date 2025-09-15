@@ -1879,9 +1879,10 @@
             try {
                 if (themeSelect.value === 'all') {
                     // Fetch all images from the server for random generation
-                    const res = await fetch('/api/images?search=');
+                    const res = await fetch(`/api/images?search=&locale=${currentLocale}`);
                     if (!res.ok) throw new Error('Failed to fetch all images for auto-generation.');
-                    const allServerImages = await res.json();
+                    const data = await res.json();
+                    const allServerImages = data.images || data;
                     sourcePool.push(...allServerImages);
                 } else {
                     // Use the pre-loaded images for the currently selected theme
@@ -2520,46 +2521,58 @@
     // END: Standardized Download Functions
 
     // --- BORDER & BACKGROUND LOGIC ---
-    function loadBorderThemes() {
-        fetch('/api/borders/themes')
-            .then(res => {
-                if (!res.ok) throw new Error('Failed to load border themes');
-                return res.json();
-            })
-            .then(themes => {
-                borderThemeSelect.innerHTML = '<option value="none">None</option>';
-                themes.forEach(theme => {
-                    const opt = document.createElement("option");
-                    opt.value = theme;
-                    opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                    borderThemeSelect.appendChild(opt);
-                });
-            })
-            .catch(err => {
-                console.error("Error loading border themes:", err);
-                showMessage("Could not load border themes.", 'error');
+    async function loadBorderThemes() {
+        try {
+            // First option is always None
+            borderThemeSelect.innerHTML = '<option value="none">None</option>';
+
+            // Fetch actual themes from the filesystem API
+            const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
+            if (!response.ok) {
+                console.error('Failed to load border themes');
+                return;
+            }
+
+            const themes = await response.json();
+            // Add each theme as an option
+            themes.forEach(theme => {
+                // Handle both object format {value, displayName} and string format
+                const themeValue = typeof theme === 'string' ? theme : theme.value;
+                const displayName = typeof theme === 'string'
+                    ? theme.charAt(0).toUpperCase() + theme.slice(1)
+                    : theme.displayName;
+                borderThemeSelect.innerHTML += `<option value="${themeValue}">${displayName}</option>`;
             });
+        } catch (error) {
+            console.error('Error loading border themes:', error);
+        }
     }
 
-    function loadBackgroundThemes() {
-        fetch('/api/backgrounds/themes')
-            .then(res => {
-                if (!res.ok) throw new Error('Failed to load background themes');
-                return res.json();
-            })
-            .then(themes => {
-                backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
-                themes.forEach(theme => {
-                    const opt = document.createElement("option");
-                    opt.value = theme;
-                    opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                    backgroundThemeSelect.appendChild(opt);
-                });
-            })
-            .catch(err => {
-                console.error("Error loading background themes:", err);
-                showMessage("Could not load background themes.", 'error');
+    async function loadBackgroundThemes() {
+        try {
+            // First option is always None
+            backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+
+            // Fetch actual themes from the filesystem API
+            const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
+            if (!response.ok) {
+                console.error('Failed to load background themes');
+                return;
+            }
+
+            const themes = await response.json();
+            // Add each theme as an option
+            themes.forEach(theme => {
+                // Handle both object format {value, displayName} and string format
+                const themeValue = typeof theme === 'string' ? theme : theme.value;
+                const displayName = typeof theme === 'string'
+                    ? theme.charAt(0).toUpperCase() + theme.slice(1)
+                    : theme.displayName;
+                backgroundThemeSelect.innerHTML += `<option value="${themeValue}">${displayName}</option>`;
             });
+        } catch (error) {
+            console.error('Error loading background themes:', error);
+        }
     }
 
     function loadBorderImages() {
@@ -2576,9 +2589,14 @@
         }
         
         borderDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} borders...</p>`;
-        fetch(`/api/borders/images?theme=${theme}`)
+
+        // Use filesystem endpoint for specific themes
+        const apiUrl = `/api/borders/images?theme=${theme}`;
+
+        fetch(apiUrl)
             .then(res => { if (!res.ok) throw new Error(`Failed to load images for border theme`); return res.json(); })
-            .then(images => {
+            .then(data => {
+                const images = data.images || data;
                 renderBorderThumbnails(images);
             })
             .catch(err => {
@@ -2601,9 +2619,14 @@
         }
         
         backgroundDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} backgrounds...</p>`;
-        fetch(`/api/backgrounds/images?theme=${theme}`)
-            .then(res => { if (!res.ok) throw new Error(`Failed to load images for background theme`); return res.json(); })
-            .then(images => {
+
+        // Use filesystem endpoint for specific themes
+        const apiUrl = `/api/backgrounds/images?theme=${theme}`;
+
+        fetch(apiUrl)
+            .then(res => { if (!res.ok) throw new Error(`Failed to load backgrounds`); return res.json(); })
+            .then(data => {
+                const images = data.images || data || [];
                 renderBackgroundThumbnails(images);
             })
             .catch(err => {

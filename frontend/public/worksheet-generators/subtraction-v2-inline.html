@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Subtraction V2 - Inline Test</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    select { width: 200px; padding: 5px; margin: 10px 0; }
+  </style>
+</head>
+<body>
+  <h1>Subtraction V2 - Inline Test</h1>
+
+  <label>Border Theme:</label>
+  <select id="borderThemeSelect">
+    <option value="none">None</option>
+  </select>
+
+  <label>Background Theme:</label>
+  <select id="backgroundThemeSelect">
+    <option value="none">None</option>
+  </select>
+
+  <script>
+    // DIRECTLY IN SCRIPT, NOT IN DOMContentLoaded
+    console.log('Script executing...');
+
+    // Try to populate immediately
+    fetch('/api/borders/themes')
+      .then(response => response.json())
+      .then(themes => {
+        console.log('Border themes:', themes);
+        const select = document.getElementById('borderThemeSelect');
+        themes.forEach(theme => {
+          select.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
+        });
+        console.log('Border select now has', select.options.length, 'options');
+      });
+
+    fetch('/api/backgrounds/themes')
+      .then(response => response.json())
+      .then(themes => {
+        console.log('Background themes:', themes);
+        const select = document.getElementById('backgroundThemeSelect');
+        themes.forEach(theme => {
+          select.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
+        });
+        console.log('Background select now has', select.options.length, 'options');
+      });
+  </script>
+</body>
+</html>

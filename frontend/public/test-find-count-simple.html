@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Find and Count Simple Test</title>
+</head>
+<body>
+  <h1>Find and Count Simple Test</h1>
+  <select id="borderThemeSelect"><option value="none">None</option></select>
+  <select id="backgroundThemeSelect"><option value="none">None</option></select>
+
+  <script>
+    console.log('Starting test...');
+
+    // Copy the EXACT function from find-and-count-v2.html
+    async function populateBorderThemes() {
+        try {
+            const response = await fetch('/api/borders/themes');
+            if (!response.ok) {
+                console.error('Failed to load border themes:', response.status);
+                return;
+            }
+
+            const themes = await response.json();
+            console.log('Border themes loaded:', themes);
+            const borderSelect = document.getElementById('borderThemeSelect');
+
+            if (!borderSelect) {
+                console.error('borderThemeSelect element not found!');
+                return;
+            }
+
+            // Use innerHTML += like the WORKING apps
+            borderSelect.innerHTML = '<option value="none">None</option>';
+
+            themes.forEach(theme => {
+                const themeValue = typeof theme === 'string' ? theme : theme.value;
+                const displayName = typeof theme === 'string'
+                    ? theme.charAt(0).toUpperCase() + theme.slice(1)
+                    : (theme.displayName || themeValue).charAt(0).toUpperCase() + (theme.displayName || themeValue).slice(1);
+
+                // THIS IS HOW THE WORKING APPS DO IT
+                borderSelect.innerHTML += `<option value="${themeValue}">${displayName}</option>`;
+            });
+
+            console.log('Border select now has', borderSelect.options.length, 'options');
+
+        } catch (error) {
+            console.error('Error loading border themes:', error);
+        }
+    }
+
+    // Test immediate call
+    console.log('Calling populateBorderThemes immediately...');
+    populateBorderThemes();
+
+    // Test with timeout like the app
+    setTimeout(async () => {
+        console.log('Calling populateBorderThemes with timeout...');
+        await populateBorderThemes();
+    }, 100);
+  </script>
+</body>
+</html>

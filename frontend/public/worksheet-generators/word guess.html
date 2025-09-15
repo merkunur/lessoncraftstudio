@@ -1634,10 +1634,8 @@
 
         // --- Asset Management (Borders/Backgrounds) ---
         function loadBorderThemes() {
-            fetch('/api/borders/themes').then(r => r.json()).then(themes => {
-                ui.borderThemeSelect.innerHTML = '<option value="none">None</option>';
-                themes.forEach(t => ui.borderThemeSelect.add(new Option(t.charAt(0).toUpperCase() + t.slice(1), t)));
-            }).catch(() => showMessage("Could not load border themes.", 'error'));
+            ui.borderThemeSelect.innerHTML = '<option value="none">None</option>';
+            ui.borderThemeSelect.innerHTML += '<option value="all">All Borders</option>';
         }
 
         function loadBorderImages() {
@@ -1655,7 +1653,8 @@
                 return;
             }
 
-            fetch(`/api/borders/images?theme=${theme}`).then(r => r.json()).then(images => {
+            fetch(`/api/borders?locale=${currentLocale}`).then(r => r.json()).then(data => {
+                const images = data.images || data;
                 ui.borderDictionary.innerHTML = "";
                 images.forEach(img => {
                     const item = document.createElement("div");
@@ -1698,10 +1697,8 @@
         }
         
         function loadBackgroundThemes() {
-            fetch('/api/backgrounds/themes').then(r => r.json()).then(themes => {
-                ui.backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
-                themes.forEach(t => ui.backgroundThemeSelect.add(new Option(t.charAt(0).toUpperCase() + t.slice(1), t)));
-            }).catch(() => showMessage("Could not load background themes.", 'error'));
+            ui.backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+            ui.backgroundThemeSelect.innerHTML += '<option value="all">All Backgrounds</option>';
         }
         
         function loadBackgroundImages() {
@@ -1712,7 +1709,8 @@
                 ui.backgroundOpacitySlider.disabled = true;
                 return;
             }
-            fetch(`/api/backgrounds/images?theme=${theme}`).then(r => r.json()).then(images => {
+            fetch(`/api/backgrounds?locale=${currentLocale}`).then(r => r.json()).then(data => {
+                const images = data.images || data;
                  ui.backgroundDictionary.innerHTML = "";
                 images.forEach(img => {
                     const item = document.createElement("div");

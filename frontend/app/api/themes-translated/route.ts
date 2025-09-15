@@ -134,17 +134,27 @@ export async function GET(request: NextRequest) {
       const data = await response.json();
       
       if (data.data && data.data.length > 0) {
-        const themes = data.data.map((theme: any) => {
-          const folderName = theme.folder_name;
-          // Use translations from Directus or fallback to helper function
-          const displayName = theme.name?.[locale] || theme.name?.['en'] || getTranslatedThemeName(folderName, locale);
-          
-          return {
-            value: folderName,
-            displayName: displayName
-          };
-        });
-        
+        // Define app-specific folders to exclude
+        const excludedFolders = [
+          'alphabetsvg',       // Writing app specific
+          'prepositions',      // Prepositions app specific
+          'symbols',           // More Less app specific
+          'drawing lines'      // Drawing Lines app specific
+        ];
+
+        const themes = data.data
+          .filter((theme: any) => !excludedFolders.includes(theme.folder_name))
+          .map((theme: any) => {
+            const folderName = theme.folder_name;
+            // Use translations from Directus or fallback to helper function
+            const displayName = theme.name?.[locale] || theme.name?.['en'] || getTranslatedThemeName(folderName, locale);
+
+            return {
+              value: folderName,
+              displayName: displayName
+            };
+          });
+
         themes.sort((a: any, b: any) => a.displayName.localeCompare(b.displayName, locale));
         return NextResponse.json(themes);
       }
@@ -188,7 +198,15 @@ export async function GET(request: NextRequest) {
   try {
     const files = await fs.promises.readdir(imagesDir, { withFileTypes: true });
     
-    const excludedFolders = ['borders', 'backgrounds', 'drawing lines', 'template', 'alphabetsvg'];
+    const excludedFolders = [
+      'borders',           // Border assets
+      'backgrounds',       // Background assets
+      'drawing lines',     // Drawing Lines app specific
+      'template',          // Template assets
+      'alphabetsvg',       // Writing app specific
+      'prepositions',      // Prepositions app specific
+      'symbols'            // More Less app specific
+    ];
     
     const themes = files
       .filter(file => file.isDirectory() && !excludedFolders.includes(file.name))

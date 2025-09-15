@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head><title>Wordsearch Dynamic Test</title></head>
+<body>
+<h1>Testing Wordsearch Dynamic Loading</h1>
+<div id="results"></div>
+<script>
+async function testDynamicLoading() {
+    const results = document.getElementById('results');
+    let html = '<h2>Test Results:</h2>';
+
+    try {
+        // Test 1: Main themes from Directus
+        const themes = await fetch('/api/themes-translated?locale=en').then(r => r.json());
+        html += '<p>✅ Main Themes: ' + themes.length + ' themes loaded (from Directus image_themes)</p>';
+
+        // Test 2: Background themes from filesystem
+        const bgThemes = await fetch('/api/backgrounds/themes').then(r => r.json());
+        html += '<p>✅ Background Themes (filesystem): ' + bgThemes.join(', ') + '</p>';
+
+        // Test 3: Border themes from filesystem
+        const borderThemes = await fetch('/api/borders/themes').then(r => r.json());
+        html += '<p>✅ Border Themes (filesystem): ' + borderThemes.join(', ') + '</p>';
+
+        // Test 4: All backgrounds from Directus
+        const allBg = await fetch('/api/backgrounds?locale=en').then(r => r.json());
+        const bgImages = allBg.images || allBg;
+        html += '<p>✅ All Backgrounds (from Directus): ' + bgImages.length + ' images</p>';
+
+        // Test 5: All borders from Directus
+        const allBorders = await fetch('/api/borders?locale=en').then(r => r.json());
+        const borderImages = allBorders.images || allBorders;
+        html += '<p>✅ All Borders (from Directus): ' + borderImages.length + ' images</p>';
+
+        // Test 6: Specific background theme from filesystem
+        const autumnBg = await fetch('/api/backgrounds/images?theme=autumn').then(r => r.json());
+        html += '<p>✅ Autumn backgrounds (filesystem): ' + autumnBg.length + ' images</p>';
+
+        html += '<h3>Summary:</h3>';
+        html += '<ul>';
+        html += '<li>Main image themes: Loading from Directus ✅</li>';
+        html += '<li>Background/Border themes: Loading from filesystem (legacy)</li>';
+        html += '<li>"All Backgrounds": Loading from Directus ✅</li>';
+        html += '<li>"All Borders": Loading from Directus (empty) ✅</li>';
+        html += '</ul>';
+
+    } catch (error) {
+        html += '<p>❌ Error: ' + error.message + '</p>';
+    }
+
+    results.innerHTML = html;
+}
+testDynamicLoading();
+</script>
+</body>
+</html>

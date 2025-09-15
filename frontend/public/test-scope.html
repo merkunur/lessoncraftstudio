@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scope Test</title>
+</head>
+<body>
+    <h1>Scope Test</h1>
+    <select id="borderThemeSelect"><option>Loading...</option></select>
+    <select id="backgroundThemeSelect"><option>Loading...</option></select>
+    
+    <script>
+        const currentLocale = 'en';
+        
+        // Function defined OUTSIDE DOMContentLoaded
+        async function populateBorderThemes() {
+            console.log('populateBorderThemes called');
+            const select = document.getElementById('borderThemeSelect');
+            if (!select) {
+                console.error('No borderThemeSelect!');
+                return;
+            }
+            
+            try {
+                const response = await fetch('/api/borders/themes?locale=' + currentLocale);
+                const themes = await response.json();
+                select.innerHTML = '<option value="none">None</option>';
+                themes.forEach(t => {
+                    select.innerHTML += '<option value="' + t.value + '">' + t.displayName + '</option>';
+                });
+                console.log('Borders loaded: ' + select.options.length + ' options');
+            } catch (e) {
+                console.error('Error:', e);
+            }
+        }
+        
+        // Call from INSIDE DOMContentLoaded
+        document.addEventListener('DOMContentLoaded', async function() {
+            console.log('DOM ready');
+            console.log('Select exists:', !!document.getElementById('borderThemeSelect'));
+            
+            // Call the function
+            await populateBorderThemes();
+            
+            console.log('Done');
+        });
+    </script>
+</body>
+</html>

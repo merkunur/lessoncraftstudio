@@ -2081,28 +2081,38 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- BORDER & BACKGROUND LOGIC ---
     async function loadBorderThemes() {
         try {
-            const themes = await fetch('/api/borders/themes').then(res => res.ok ? res.json() : []);
             borderThemeSelect.innerHTML = '<option value="none">None</option>';
+            const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
+            if (!response.ok) {
+                console.error('Failed to load border themes');
+                return;
+            }
+            const themes = await response.json();
             themes.forEach(theme => {
-                const opt = document.createElement("option");
-                opt.value = theme;
-                opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                borderThemeSelect.appendChild(opt);
+                const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                borderThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
             });
-        } catch (error) { showMessage('error', 'Failed to load border themes.'); }
+        } catch (error) {
+            console.error('Error loading border themes:', error);
+        }
     }
     
     async function loadBackgroundThemes() {
         try {
-            const themes = await fetch('/api/backgrounds/themes').then(res => res.ok ? res.json() : []);
             backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+            const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
+            if (!response.ok) {
+                console.error('Failed to load background themes');
+                return;
+            }
+            const themes = await response.json();
             themes.forEach(theme => {
-                const opt = document.createElement("option");
-                opt.value = theme;
-                opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                backgroundThemeSelect.appendChild(opt);
+                const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                backgroundThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
             });
-        } catch (error) { showMessage('error', 'Failed to load background themes.'); }
+        } catch (error) {
+            console.error('Error loading background themes:', error);
+        }
     }
 
     async function loadBackgroundImages() {
@@ -2123,7 +2133,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         backgroundDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} backgrounds...</p>`;
         try {
-            const images = await fetch(`/api/backgrounds/images?theme=${theme}`).then(res => res.ok ? res.json() : []);
+            const apiUrl = `/api/backgrounds/images?theme=${theme}`;
+            const response = await fetch(apiUrl).then(res => res.ok ? res.json() : []);
+            const images = response.images || response;
             backgroundDictionary.innerHTML = "";
             if (images.length === 0) {
                 backgroundDictionary.innerHTML = '<p class="dictionary-message">No backgrounds found in this theme.</p>';
@@ -2207,7 +2219,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
         borderDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} borders...</p>`;
         try {
-            const images = await fetch(`/api/borders/images?theme=${theme}`).then(res => res.ok ? res.json() : []);
+            const apiUrl = `/api/borders/images?theme=${theme}`;
+            const response = await fetch(apiUrl).then(res => res.ok ? res.json() : []);
+            const images = response.images || response;
             borderDictionary.innerHTML = "";
             if (images.length === 0) {
                 borderDictionary.innerHTML = '<p class="dictionary-message">No borders found in this theme.</p>';

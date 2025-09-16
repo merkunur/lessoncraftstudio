@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pattern Train Worksheet App</title>
   <script src="js/translations.js"></script>
+  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/unified-language-manager.js"></script>
+  <script src="js/border-background-sizer.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -908,7 +911,13 @@
     /********************************
      * Global State & Setup
      ********************************/
+    // Set currentLocale globally BEFORE anything else (critical for enhancement scripts)
     let currentLocale = 'en'; // Current language setting
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('locale')) {
+        currentLocale = urlParams.get('locale');
+    }
+    window.currentLocale = currentLocale;
     let patternElements = [];
     let selectedImages = [];
     let elementToImage = {};
@@ -1406,25 +1415,12 @@
         if (activeObjects.length > 0) {
             activeObjects.forEach(obj => {
                 if (obj.isBorder) {
-                    borderThemeSelect.value = 'none';
-                    borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
-                    borderOpacityInput.value = 1;
-                    borderOpacityInput.disabled = true;
-                    // Also clear from other canvas
-                    const otherCanvas = activeCanvas === worksheetCanvas ? answerKeyCanvas : worksheetCanvas;
-                    const otherBorder = otherCanvas.getObjects().find(o => o.isBorder);
-                    if (otherBorder) otherCanvas.remove(otherBorder);
-                    otherCanvas.renderAll();
+                    // Don't reset the UI - user might want to add a different border
+                    // Just remove from the active canvas
                 }
                 if (obj.isBackground) {
-                    backgroundThemeSelect.value = 'none';
-                    backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme for backgrounds.</p>';
-                    backgroundOpacityInput.value = 1;
-                    backgroundOpacityInput.disabled = true;
-                    const otherCanvas = activeCanvas === worksheetCanvas ? answerKeyCanvas : worksheetCanvas;
-                    const otherBg = otherCanvas.getObjects().find(o => o.isBackground);
-                    if (otherBg) otherCanvas.remove(otherBg);
-                    otherCanvas.renderAll();
+                    // Don't reset the UI - user might want to add a different background
+                    // Just remove from the active canvas
                 }
                 activeCanvas.remove(obj)
             });
@@ -1814,7 +1810,7 @@
       if (selectedWsTheme && selectedWsTheme !== 'none') {
         try {
           const themeImagesResponse = await fetchFromApi(`/api/images?theme=${encodeURIComponent(selectedWsTheme)}&locale=${currentLocale}`, `Failed to fetch images for theme ${selectedWsTheme}`);
-          let themeImages = themeImagesResponse; 
+          let themeImages = themeImagesResponse.images || themeImagesResponse; // Handle API response format
 
           const fullImageLibrary = [...themeImages, ...uploadedImages];
 
@@ -2478,8 +2474,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
             const themes = await response.json();
             // Add each theme as an option
             themes.forEach(theme => {
-                const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
-                borderThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                borderThemeSelect.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
             });
         } catch (error) {
             console.error('Error loading border themes:', error);
@@ -2489,14 +2484,17 @@ async function downloadPDF(canvasToExport, baseFilename) {
     async function loadBorderImages() {
         const theme = borderThemeSelect.value;
         document.querySelectorAll('.border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
-        
-        [worksheetCanvas, answerKeyCanvas].forEach(c => {
-            if (!c) return;
-            const existingBorder = c.getObjects().find(obj => obj.isBorder);
-            if (existingBorder) c.remove(existingBorder);
-            c.renderAll();
-        });
-        
+
+        // Only clear from active canvas when changing themes
+        const activeCanvas = getActiveCanvas();
+        if (activeCanvas) {
+            const existingBorder = activeCanvas.getObjects().find(obj => obj.isBorder);
+            if (existingBorder) {
+                activeCanvas.remove(existingBorder);
+                activeCanvas.renderAll();
+            }
+        }
+
         if (theme === 'none') {
             borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
             borderOpacityInput.value = 1;
@@ -2511,11 +2509,13 @@ async function downloadPDF(canvasToExport, baseFilename) {
     }
     
     function renderBorderThumbnails(borders) {
-        borderDictionary.innerHTML = "";
         if (borders.length === 0) {
             borderDictionary.innerHTML = '<p class="dictionary-message">No borders in this theme.</p>';
             return;
         }
+
+        // Build all elements first, then append in one go for better performance
+        const fragment = document.createDocumentFragment();
         borders.forEach(border => {
             const item = document.createElement("div");
             item.className = "border-thumbnail-item";
@@ -2525,37 +2525,40 @@ async function downloadPDF(canvasToExport, baseFilename) {
                 document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                 item.classList.add('selected');
             };
-            borderDictionary.appendChild(item);
+            fragment.appendChild(item);
         });
+        borderDictionary.innerHTML = "";
+        borderDictionary.appendChild(fragment);
     }
 
     function addBorderToCanvas(path) {
-        if (!worksheetCanvas || !answerKeyCanvas) return;
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
 
         fabric.Image.fromURL(path, (img) => {
             if (!img) { showMessage('Failed to load border image.', 'error'); return; }
-            
-            [worksheetCanvas, answerKeyCanvas].forEach(c => {
-                const existingBorder = c.getObjects().find(obj => obj.isBorder);
-                if (existingBorder) c.remove(existingBorder);
 
-                img.clone(clonedImg => {
-                    clonedImg.scaleToWidth(c.width);
-                    clonedImg.set({
-                        left: c.width / 2, top: c.height / 2,
-                        originX: 'center', originY: 'center',
-                        selectable: true, evented: true, hasControls: true, hasBorders: true, objectCaching: false,
-                        isBorder: true,
-                        opacity: parseFloat(borderOpacityInput.value),
-                        borderColor: 'var(--app-accent-secondary)', cornerColor: 'var(--app-accent-secondary)',
-                        cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
-                    });
-                    
-                    c.add(clonedImg);
-                    enforceZOrder(c);
-                    c.renderAll();
-                });
+            const existingBorder = activeCanvas.getObjects().find(obj => obj.isBorder);
+            if (existingBorder) activeCanvas.remove(existingBorder);
+
+            // Scale to 70% of canvas height (professional standard)
+            const targetHeight = currentCanvasConfig.height * 0.7;
+            img.scaleToHeight(targetHeight);
+            img.set({
+                left: currentCanvasConfig.width / 2,
+                top: currentCanvasConfig.height / 2,
+                originX: 'center',
+                originY: 'center',
+                selectable: true, evented: true, hasControls: true, hasBorders: true, objectCaching: false,
+                isBorder: true,
+                opacity: parseFloat(borderOpacityInput.value),
+                borderColor: 'var(--app-accent-secondary)', cornerColor: 'var(--app-accent-secondary)',
+                cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
             });
+
+            activeCanvas.add(img);
+            enforceZOrder(activeCanvas);
+            activeCanvas.renderAll();
 
             borderOpacityInput.disabled = false;
             showMessage('Border added.', 'success', 1500);
@@ -2564,15 +2567,14 @@ async function downloadPDF(canvasToExport, baseFilename) {
 
     function updateBorderOpacity() {
         const newOpacity = parseFloat(borderOpacityInput.value);
-        if (!worksheetCanvas || !answerKeyCanvas) return;
-        
-        [worksheetCanvas, answerKeyCanvas].forEach(c => {
-            const border = c.getObjects().find(obj => obj.isBorder);
-            if (border) {
-                border.set('opacity', newOpacity);
-                c.renderAll();
-            }
-        });
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+
+        const border = activeCanvas.getObjects().find(obj => obj.isBorder);
+        if (border) {
+            border.set('opacity', newOpacity);
+            activeCanvas.renderAll();
+        }
     }
     
     // START: New Background Functions
@@ -2591,8 +2593,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
             const themes = await response.json();
             // Add each theme as an option
             themes.forEach(theme => {
-                const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
-                backgroundThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                backgroundThemeSelect.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
             });
         } catch (error) {
             console.error('Error loading background themes:', error);
@@ -2602,13 +2603,16 @@ async function downloadPDF(canvasToExport, baseFilename) {
     async function loadBackgroundImages() {
         const theme = backgroundThemeSelect.value;
         document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
-        
-         [worksheetCanvas, answerKeyCanvas].forEach(c => {
-            if (!c) return;
-            const existingBackground = c.getObjects().find(obj => obj.isBackground);
-            if (existingBackground) c.remove(existingBackground);
-            c.renderAll();
-        });
+
+        // Only clear from active canvas when changing themes
+        const activeCanvas = getActiveCanvas();
+        if (activeCanvas) {
+            const existingBackground = activeCanvas.getObjects().find(obj => obj.isBackground);
+            if (existingBackground) {
+                activeCanvas.remove(existingBackground);
+                activeCanvas.renderAll();
+            }
+        }
 
         if (theme === 'none') {
             backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme for backgrounds.</p>';
@@ -2624,11 +2628,13 @@ async function downloadPDF(canvasToExport, baseFilename) {
     }
 
     function renderBackgroundThumbnails(backgrounds) {
-        backgroundDictionary.innerHTML = "";
         if (backgrounds.length === 0) {
             backgroundDictionary.innerHTML = '<p class="dictionary-message">No backgrounds in this theme.</p>';
             return;
         }
+
+        // Build all elements first, then append in one go for better performance
+        const fragment = document.createDocumentFragment();
         backgrounds.forEach(bg => {
             const item = document.createElement("div");
             item.className = "border-thumbnail-item";
@@ -2638,36 +2644,39 @@ async function downloadPDF(canvasToExport, baseFilename) {
                 document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                 item.classList.add('selected');
             };
-            backgroundDictionary.appendChild(item);
+            fragment.appendChild(item);
         });
+        backgroundDictionary.innerHTML = "";
+        backgroundDictionary.appendChild(fragment);
     }
 
     function addBackgroundToCanvas(path) {
-       if (!worksheetCanvas || !answerKeyCanvas) return;
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
 
         fabric.Image.fromURL(path, (img) => {
             if (!img) { showMessage('Failed to load background image.', 'error'); return; }
 
-            [worksheetCanvas, answerKeyCanvas].forEach(c => {
-                 const existingBackground = c.getObjects().find(obj => obj.isBackground);
-                if (existingBackground) c.remove(existingBackground);
+            const existingBackground = activeCanvas.getObjects().find(obj => obj.isBackground);
+            if (existingBackground) activeCanvas.remove(existingBackground);
 
-                img.clone(clonedImg => {
-                    clonedImg.scaleToWidth(c.width);
-                    clonedImg.set({
-                        left: c.width / 2, top: c.height / 2,
-                        originX: 'center', originY: 'center',
-                        selectable: true, evented: true, hasControls: true, hasBorders: true, objectCaching: false,
-                        isBackground: true,
-                        opacity: parseFloat(backgroundOpacityInput.value),
-                        borderColor: 'var(--app-accent-secondary)', cornerColor: 'var(--app-accent-secondary)',
-                        cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
-                    });
-                    c.add(clonedImg);
-                    enforceZOrder(c);
-                    c.renderAll();
-                });
+            // Scale to 70% of canvas height (professional standard)
+            const targetHeight = currentCanvasConfig.height * 0.7;
+            img.scaleToHeight(targetHeight);
+            img.set({
+                left: currentCanvasConfig.width / 2,
+                top: currentCanvasConfig.height / 2,
+                originX: 'center',
+                originY: 'center',
+                selectable: true, evented: true, hasControls: true, hasBorders: true, objectCaching: false,
+                isBackground: true,
+                opacity: parseFloat(backgroundOpacityInput.value),
+                borderColor: 'var(--app-accent-secondary)', cornerColor: 'var(--app-accent-secondary)',
+                cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
             });
+            activeCanvas.add(img);
+            enforceZOrder(activeCanvas);
+            activeCanvas.renderAll();
 
             backgroundOpacityInput.disabled = false;
             showMessage('Background added.', 'success', 1500);
@@ -2676,15 +2685,14 @@ async function downloadPDF(canvasToExport, baseFilename) {
 
     function updateBackgroundOpacity() {
         const newOpacity = parseFloat(backgroundOpacityInput.value);
-        if (!worksheetCanvas || !answerKeyCanvas) return;
-        
-        [worksheetCanvas, answerKeyCanvas].forEach(c => {
-            const background = c.getObjects().find(obj => obj.isBackground);
-            if (background) {
-                background.set('opacity', newOpacity);
-                c.renderAll();
-            }
-        });
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+
+        const background = activeCanvas.getObjects().find(obj => obj.isBackground);
+        if (background) {
+            background.set('opacity', newOpacity);
+            activeCanvas.renderAll();
+        }
     }
     // END: New Background Functions
 
@@ -2766,28 +2774,30 @@ async function downloadPDF(canvasToExport, baseFilename) {
         
         // Language change handler
         if (languageSelect) {
-            languageSelect.addEventListener('change', async function() {
-                currentLocale = this.value;
-                
-                // Apply translations
-                if (typeof applyTranslations === 'function') {
-                    applyTranslations();
-                }
-                
-                // Update URL with new locale
-                const url = new URL(window.location);
-                url.searchParams.set('locale', currentLocale);
-                window.history.replaceState({}, '', url);
-                
-                // Reload themes with new locale
-                await fetchThemes();
-                loadDictionary();
+            languageSelect.addEventListener('change', function() {
+                const newLocale = this.value;
+                // Update URL and reload page (like Addition app does)
+                const url = new URL(window.location.href);
+                url.searchParams.set('locale', newLocale);
+                window.location.href = url.toString();
             });
         }
         
         await initializeImageLibrary();
-        await loadBorderThemes();
-        await loadBackgroundThemes();
+
+        // Initialize BulletproofLoader for borders and backgrounds
+        if (window.BulletproofLoader) {
+            await window.BulletproofLoader.init({
+                borderSelect: borderThemeSelect,
+                backgroundSelect: backgroundThemeSelect
+            });
+            console.log('BulletproofLoader initialized');
+        } else {
+            // Fallback if BulletproofLoader not available
+            await loadBorderThemes();
+            await loadBackgroundThemes();
+        }
+
         await loadTemplates();
         
         patternSelect.dispatchEvent(new Event('change'));

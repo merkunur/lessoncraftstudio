@@ -8,6 +8,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations.js"></script>
+  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/unified-language-manager.js"></script>
+  <script src="js/border-background-sizer.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   
@@ -761,18 +764,21 @@
   </div>
   
   <script>
-    // MUST BE FIRST - Before ANY DOM element references
+    // Set currentLocale globally BEFORE DOMContentLoaded (like addition.html does)
     let currentLocale = 'en';
-    let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
-    
-    // Initialize locale from URL if present
     const urlParams = new URLSearchParams(window.location.search);
-    const localeParam = urlParams.get('locale');
-    if (localeParam) {
-        currentLocale = localeParam;
+    if (urlParams.get('locale')) {
+        currentLocale = urlParams.get('locale');
     }
+    window.currentLocale = currentLocale; // Make it globally accessible
+    console.log('Global currentLocale set to:', currentLocale);
 
-    document.addEventListener("DOMContentLoaded", () => {
+    // Canvas config must be global for overlay function
+    let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
+  </script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
         const MAX_IMAGES = 5;
         let currentThemeImages = [], selectedImages = [], userUploadedImages = [];
         let isFirstAnswerKeyGeneration = true;
@@ -895,8 +901,10 @@
                 }
                 const themes = await response.json();
                 themes.forEach(theme => {
-                    const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
-                    borderThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                    // Handle both object format {value, displayName} and string format
+                    const value = theme.value || theme;
+                    const displayName = theme.displayName || (typeof theme === 'string' ? theme.charAt(0).toUpperCase() + theme.slice(1) : value);
+                    borderThemeSelect.innerHTML += `<option value="${value}">${displayName}</option>`;
                 });
             } catch (error) {
                 console.error('Error loading border themes:', error);
@@ -913,8 +921,10 @@
                 }
                 const themes = await response.json();
                 themes.forEach(theme => {
-                    const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
-                    backgroundThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                    // Handle both object format {value, displayName} and string format
+                    const value = theme.value || theme;
+                    const displayName = theme.displayName || (typeof theme === 'string' ? theme.charAt(0).toUpperCase() + theme.slice(1) : value);
+                    backgroundThemeSelect.innerHTML += `<option value="${value}">${displayName}</option>`;
                 });
             } catch (error) {
                 console.error('Error loading background themes:', error);
@@ -1071,7 +1081,9 @@
             } else {
                 try {
                     const res = await fetch(`/api/images?theme=${encodeURIComponent(selectedWorksheetTheme)}&locale=${currentLocale}`);
-                    let themeImages = await res.json();
+                    const data = await res.json();
+                    // CRITICAL: Handle API response format {images: [...]}
+                    const themeImages = data.images || data;
                     if (themeImages.length > 0) {
                          while (baseImagePool.length < 5) {
                             baseImagePool.push(themeImages[Math.floor(Math.random() * themeImages.length)]);
@@ -2300,7 +2312,7 @@ async function downloadPDF(canvasInstance, baseFileName) {
             borderControls.style.display = 'block';
 
             try {
-                const apiUrl = `/api/borders/images?theme=${theme}`;
+                const apiUrl = `/api/borders/images?theme=${theme}&locale=${currentLocale}`;
                 const res = await fetch(apiUrl);
                 const data = await res.json();
                 const borderImages = Array.isArray(data) ? data : (data.images || []);
@@ -2319,17 +2331,33 @@ async function downloadPDF(canvasInstance, baseFileName) {
                         if (oldBorder) currentActiveCanvas.remove(oldBorder);
                         
                         fabric.Image.fromURL(imgData.path, (img) => {
-                            img.set({
-                                isBorder: true,
-                                originX: 'left', originY: 'top',
-                                selectable: true, evented: true,
-                                opacity: parseFloat(borderOpacity.value),
-                                ...getEditableGroupOptions('border')
+                            img.clone(clonedImg => {
+                                // Use ACTUAL canvas dimensions like Addition app
+                                const actualWidth = currentCanvasConfig.width;
+                                const actualHeight = currentCanvasConfig.height;
+
+                                // Scale to 70% of ACTUAL canvas height
+                                const targetHeight = actualHeight * 0.7;
+                                const scaleFactor = targetHeight / clonedImg.height;
+
+                                clonedImg.set({
+                                    isBorder: true,
+                                    originX: 'center',
+                                    originY: 'center',
+                                    left: actualWidth / 2,  // Use actual dimensions
+                                    top: actualHeight / 2,   // Use actual dimensions
+                                    scaleX: scaleFactor,
+                                    scaleY: scaleFactor,
+                                    selectable: true,
+                                    evented: true,
+                                    opacity: parseFloat(borderOpacity.value),
+                                    ...getEditableGroupOptions('border')
+                                });
+
+                                currentActiveCanvas.add(clonedImg);
+                                enforceZOrder(currentActiveCanvas);
+                                currentActiveCanvas.renderAll();
                             });
-                            img.scaleToWidth(currentActiveCanvas.width);
-                            currentActiveCanvas.add(img);
-                            enforceZOrder(currentActiveCanvas);
-                            currentActiveCanvas.renderAll();
                         }, { crossOrigin: 'anonymous' });
                     };
                     borderThumbnailGallery.appendChild(item);
@@ -2354,23 +2382,35 @@ async function downloadPDF(canvasInstance, baseFileName) {
             if (oldBg) activeCanvas.remove(oldBg);
 
             fabric.Image.fromURL(path, (img) => {
-                const bgConfig = {
-                    isBackground: true,
-                    selectable: true, evented: true,
-                    originX: 'left', originY: 'top',
-                    opacity: parseFloat(backgroundOpacity.value),
-                    ...getEditableGroupOptions('background')
-                };
-                
-                const newBg = fabric.util.object.clone(img).set(bgConfig);
-                newBg.scaleToWidth(activeCanvas.width);
-                newBg.scaleToHeight(activeCanvas.height);
-                activeCanvas.add(newBg);
-                enforceZOrder(activeCanvas);
-                activeCanvas.renderAll();
-                
-                backgroundControls.style.display = 'block';
+                img.clone(clonedImg => {
+                    // Use ACTUAL canvas dimensions like Addition app
+                    const actualWidth = currentCanvasConfig.width;
+                    const actualHeight = currentCanvasConfig.height;
 
+                    // Scale to 70% of ACTUAL canvas height
+                    const targetHeight = actualHeight * 0.7;
+                    const scaleFactor = targetHeight / clonedImg.height;
+
+                    clonedImg.set({
+                        isBackground: true,
+                        originX: 'center',
+                        originY: 'center',
+                        left: actualWidth / 2,  // Use actual dimensions
+                        top: actualHeight / 2,   // Use actual dimensions
+                        scaleX: scaleFactor,
+                        scaleY: scaleFactor,
+                        selectable: true,
+                        evented: true,
+                        opacity: parseFloat(backgroundOpacity.value),
+                        ...getEditableGroupOptions('background')
+                    });
+
+                    activeCanvas.add(clonedImg);
+                    enforceZOrder(activeCanvas);
+                    activeCanvas.renderAll();
+
+                    backgroundControls.style.display = 'block';
+                });
             }, { crossOrigin: 'anonymous' });
         }
         
@@ -2393,7 +2433,7 @@ async function downloadPDF(canvasInstance, baseFileName) {
             backgroundThumbnailGallery.style.display = 'grid';
 
             try {
-                const apiUrl = `/api/backgrounds/images?theme=${theme}`;
+                const apiUrl = `/api/backgrounds/images?theme=${theme}&locale=${currentLocale}`;
                 const res = await fetch(apiUrl);
                 const data = await res.json();
                 const bgImages = Array.isArray(data) ? data : (data.images || data || []);
@@ -2545,8 +2585,13 @@ async function downloadPDF(canvasInstance, baseFileName) {
                 
                 // Reload themes with new locale
                 initializeImageLibrary();
-                loadBorderThemes();
-                loadBackgroundThemes();
+
+                // Only manually reload themes if BulletproofLoader is not available
+                // BulletproofLoader automatically handles language changes via UnifiedLanguageManager
+                if (!window.BulletproofLoader) {
+                    loadBorderThemes();
+                    loadBackgroundThemes();
+                }
                 
                 // Clear current selections to force reload
                 if (dictThemeEl.value && dictThemeEl.value !== 'all') {
@@ -2568,8 +2613,27 @@ async function downloadPDF(canvasInstance, baseFileName) {
         }
 
         initializeImageLibrary();
-        loadBorderThemes();
-        loadBackgroundThemes();
+
+        // Initialize BulletproofLoader AFTER core functionality is set up
+        if (window.BulletproofLoader) {
+            window.BulletproofLoader.init({
+                borderSelect: borderThemeSelect,
+                backgroundSelect: backgroundThemeSelect
+            }).then(() => {
+                console.log('BulletproofLoader initialized successfully');
+                // BulletproofLoader handles theme loading, no need for manual loading
+            }).catch(error => {
+                console.error('BulletproofLoader init failed:', error);
+                // Fallback to manual loading only on error
+                loadBorderThemes();
+                loadBackgroundThemes();
+            });
+        } else {
+            // Fallback if BulletproofLoader not available
+            loadBorderThemes();
+            loadBackgroundThemes();
+        }
+
         updatePreview();
         handleSelectionCleared(null, getActiveCanvas());
     });

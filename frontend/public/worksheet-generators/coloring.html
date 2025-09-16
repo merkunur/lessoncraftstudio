@@ -6,6 +6,11 @@
     <script src="js/translations.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <!-- Enhancement scripts for robust integration -->
+    <script src="js/bulletproof-loader.js"></script>
+    <script src="js/unified-language-manager.js"></script>
+    <script src="js/border-background-sizer.js"></script>
+    <script src="js/auto-fix-system.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
@@ -529,19 +534,25 @@
 </div>
 
 <script>
+// Set currentLocale globally BEFORE DOMContentLoaded
+let currentLocale = 'en';
+const urlParams = new URLSearchParams(window.location.search);
+if (urlParams.get('locale')) {
+    currentLocale = urlParams.get('locale');
+}
+window.currentLocale = currentLocale; // Make it globally accessible for BulletproofLoader
+console.log('Global currentLocale set to:', currentLocale);
+</script>
+
+<script>
 document.addEventListener("DOMContentLoaded", function() {
     /* --- App State & Constants --- */
     let currentThemeImages = [];
     let uploadedImages = [];
     let currentCanvasConfig = { width: 612, height: 792 };
     const downloadMultiplier = 6;
-    
-    // Language/locale handling
-    let currentLocale = 'en';
-    const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get('locale')) {
-        currentLocale = urlParams.get('locale');
-    }
+
+    // currentLocale is already set globally before DOMContentLoaded
     let canvas;
     let activeDropdown = null;
 
@@ -634,9 +645,23 @@ document.addEventListener("DOMContentLoaded", function() {
         initializeCanvas();
         setupEventListeners();
         loadThemes();
-        loadBorderThemes();
+
+        // Initialize BulletproofLoader INSTEAD of loadBorderThemes
+        if (window.BulletproofLoader) {
+            window.BulletproofLoader.init({
+                borderSelect: borderThemeSelect,
+                backgroundSelect: null, // No background select in this app
+                locale: currentLocale
+            }).then(() => {
+                console.log('BulletproofLoader initialized for borders');
+            });
+        } else {
+            console.warn('BulletproofLoader not found - falling back to basic loading');
+            loadBorderThemes();
+        }
+
         handleSelectionCleared();
-        
+
         // Set language selector value and add change handler
         if (languageSelect && currentLocale) {
             languageSelect.value = currentLocale;
@@ -1122,18 +1147,22 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // Border System
+    // REPLACED BY BulletproofLoader - keeping as fallback only
     async function loadBorderThemes() {
         try {
             borderThemeSelect.innerHTML = `<option value="none">None</option>`;
-            const response = await fetch(`/api/borders/themes`);
+            const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
             if (!response.ok) {
                 console.error('Failed to load border themes');
                 return;
             }
             const themes = await response.json();
             themes.forEach(theme => {
-                const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
-                borderThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                const value = typeof theme === 'string' ? theme : theme.value;
+                const displayName = typeof theme === 'string'
+                    ? theme.charAt(0).toUpperCase() + theme.slice(1)
+                    : (theme.displayName || theme.value);
+                borderThemeSelect.innerHTML += `<option value="${value}">${displayName}</option>`;
             });
         } catch (error) {
             console.error('Error loading border themes:', error);
@@ -1177,18 +1206,39 @@ document.addEventListener("DOMContentLoaded", function() {
             borderDictionary.innerHTML = '<p class="dictionary-message">Error loading borders.</p>';
         }
     }
+    // Updated to use proper centering like addition/alphabet train apps
     function addBorderToCanvas(path) {
         const existingBorder = canvas.getObjects().find(obj => obj.isBorder);
         if (existingBorder) canvas.remove(existingBorder);
-        
+
         fabric.Image.fromURL(path, (img) => {
+            if (!img) return;
+
+            // Use ACTUAL canvas dimensions for correct centering
+            const actualWidth = currentCanvasConfig.width;
+            const actualHeight = currentCanvasConfig.height;
+
+            // Scale to 70% of actual canvas height while preserving aspect ratio
+            const targetHeight = actualHeight * 0.7;
+            const scaleFactor = targetHeight / img.height;
+
             img.set({
-                originX: 'center', originY: 'center', left: canvas.width / 2, top: canvas.height / 2,
-                selectable: true, evented: true, isBorder: true, objectCaching: false,
-                borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)'
+                originX: 'center',
+                originY: 'center',
+                left: actualWidth / 2,  // Use actual dimensions
+                top: actualHeight / 2,  // Use actual dimensions
+                scaleX: scaleFactor,
+                scaleY: scaleFactor,
+                selectable: true,
+                evented: true,
+                isBorder: true,
+                objectCaching: false,
+                borderColor: 'var(--app-accent-primary)',
+                cornerColor: 'var(--app-accent-primary)',
+                cornerSize: 10,
+                transparentCorners: false,
+                cornerStyle: 'circle'
             });
-            img.scaleToWidth(canvas.width);
-            if (img.getScaledHeight() > canvas.height) img.scaleToHeight(canvas.height);
             canvas.add(img).sendToBack(img).renderAll();
         }, { crossOrigin: 'anonymous' });
     }

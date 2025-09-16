@@ -6,6 +6,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations.js"></script>
+  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/unified-language-manager.js"></script>
+  <script src="js/border-background-sizer.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
@@ -992,9 +995,14 @@
   </div>
 
   <script>
-    // Initialize currentLocale FIRST, before any DOM access
+    // Set currentLocale globally BEFORE DOMContentLoaded (critical for enhancement scripts)
     let currentLocale = 'en';
-    
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('locale')) {
+        currentLocale = urlParams.get('locale');
+    }
+    window.currentLocale = currentLocale;
+
     document.addEventListener("DOMContentLoaded", function() {
       // --- CONSTANTS & DEFAULTS ---
       let EXERCISE_COUNT = 6; // Default, can be changed by user
@@ -1199,6 +1207,165 @@
         ui.menuOverlay.addEventListener('click', closeMenu);
       };
       
+      // --- BORDER AND BACKGROUND FUNCTIONS ---
+      async function loadBorderThemes() {
+          try {
+              ui.borderThemeSelect.innerHTML = '<option value="none">None</option>';
+              const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
+              if (!response.ok) {
+                  console.error('Failed to load border themes');
+                  return;
+              }
+              const themes = await response.json();
+              themes.forEach(theme => {
+                  ui.borderThemeSelect.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
+              });
+          } catch (error) {
+              console.error('Error loading border themes:', error);
+          }
+      }
+
+      async function loadBackgroundThemes() {
+          try {
+              ui.backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+              const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
+              if (!response.ok) {
+                  console.error('Failed to load background themes');
+                  return;
+              }
+              const themes = await response.json();
+              themes.forEach(theme => {
+                  ui.backgroundThemeSelect.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
+              });
+          } catch (error) {
+              console.error('Error loading background themes:', error);
+          }
+      }
+
+      function loadBorderImages() {
+          const theme = ui.borderThemeSelect.value;
+          const activeCanvas = getActiveCanvas();
+          if (theme === 'none') {
+              ui.borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme.</p>';
+              const existing = activeCanvas.getObjects().find(o => o.isBorder);
+              if (existing) activeCanvas.remove(existing);
+              activeCanvas.renderAll();
+              ui.borderOpacitySlider.disabled = true;
+              return;
+          }
+          ui.borderDictionary.innerHTML = '<p class="dictionary-message">Loading borders...</p>';
+          fetch(`/api/borders/images?theme=${theme}`)
+              .then(res => res.ok ? res.json() : Promise.reject('Failed to load border images'))
+              .then(data => {
+                  const images = data.images || data || [];
+                  ui.borderDictionary.innerHTML = "";
+                  images.forEach(img => {
+                      const item = document.createElement("div");
+                      item.className = "border-thumbnail-item";
+                      item.innerHTML = `<img src="${img.path}" alt="${img.name}" loading="lazy" />`;
+                      item.onclick = () => {
+                          addBorderToCanvas(img.path);
+                          document.querySelectorAll('#borderDictionary .selected').forEach(el => el.classList.remove('selected'));
+                          item.classList.add('selected');
+                      };
+                      ui.borderDictionary.appendChild(item);
+                  });
+              })
+              .catch(err => {
+                  console.error('Error loading border images:', err);
+                  ui.borderDictionary.innerHTML = '<p class="dictionary-message">Error loading borders.</p>';
+              });
+      }
+
+      function loadBackgroundImages() {
+          const theme = ui.backgroundThemeSelect.value;
+          const activeCanvas = getActiveCanvas();
+          if (theme === 'none') {
+              ui.backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme.</p>';
+              const existing = activeCanvas.getObjects().find(o => o.isBackground);
+              if (existing) activeCanvas.remove(existing);
+              activeCanvas.renderAll();
+              ui.backgroundOpacitySlider.disabled = true;
+              return;
+          }
+          ui.backgroundDictionary.innerHTML = '<p class="dictionary-message">Loading backgrounds...</p>';
+          fetch(`/api/backgrounds/images?theme=${theme}`)
+              .then(res => res.ok ? res.json() : Promise.reject('Failed to load background images'))
+              .then(data => {
+                  const images = data.images || data || [];
+                  ui.backgroundDictionary.innerHTML = "";
+                  images.forEach(img => {
+                      const item = document.createElement("div");
+                      item.className = "border-thumbnail-item";
+                      item.innerHTML = `<img src="${img.path}" alt="${img.name}" loading="lazy" />`;
+                      item.onclick = () => {
+                          addBackgroundToCanvas(img.path);
+                          document.querySelectorAll('#backgroundDictionary .selected').forEach(el => el.classList.remove('selected'));
+                          item.classList.add('selected');
+                      };
+                      ui.backgroundDictionary.appendChild(item);
+                  });
+              })
+              .catch(err => {
+                  console.error('Error loading background images:', err);
+                  ui.backgroundDictionary.innerHTML = '<p class="dictionary-message">Error loading backgrounds.</p>';
+              });
+      }
+
+      function addBorderToCanvas(path) {
+          const activeCanvas = getActiveCanvas();
+          const existing = activeCanvas.getObjects().find(o => o.isBorder);
+          if (existing) activeCanvas.remove(existing);
+
+          fabric.Image.fromURL(path, (img) => {
+              // Scale to 70% of canvas height (professional standard)
+              const targetHeight = currentCanvasConfig.height * 0.7;
+              img.scaleToHeight(targetHeight);
+
+              img.set({
+                  isBorder: true,
+                  selectable: true,
+                  evented: true,
+                  originX: 'center',
+                  originY: 'center',
+                  left: currentCanvasConfig.width / 2,
+                  top: currentCanvasConfig.height / 2,
+                  opacity: parseFloat(ui.borderOpacitySlider.value)
+              });
+              activeCanvas.add(img);
+              enforceZOrder(activeCanvas);
+              activeCanvas.renderAll();
+              ui.borderOpacitySlider.disabled = false;
+          }, { crossOrigin: 'anonymous' });
+      }
+
+      function addBackgroundToCanvas(path) {
+          const activeCanvas = getActiveCanvas();
+          const existing = activeCanvas.getObjects().find(o => o.isBackground);
+          if (existing) activeCanvas.remove(existing);
+
+          fabric.Image.fromURL(path, (img) => {
+              // Scale to 70% of canvas height (professional standard)
+              const targetHeight = currentCanvasConfig.height * 0.7;
+              img.scaleToHeight(targetHeight);
+
+              img.set({
+                  isBackground: true,
+                  selectable: true,
+                  evented: true,
+                  originX: 'center',
+                  originY: 'center',
+                  left: currentCanvasConfig.width / 2,
+                  top: currentCanvasConfig.height / 2,
+                  opacity: parseFloat(ui.backgroundOpacitySlider.value)
+              });
+              activeCanvas.add(img);
+              enforceZOrder(activeCanvas);
+              activeCanvas.renderAll();
+              ui.backgroundOpacitySlider.disabled = false;
+          }, { crossOrigin: 'anonymous' });
+      }
+
       // --- CANVAS SETUP ---
       const initializeCanvas = (canvasEl) => {
           return new fabric.Canvas(canvasEl, {
@@ -1361,15 +1528,23 @@
       };
 
       const setupAssetControls = () => {
-        ui.borderThemeSelect.addEventListener("change", () => loadAssetImages('borders'));
-        ui.backgroundThemeSelect.addEventListener("change", () => loadAssetImages('backgrounds'));
+        ui.borderThemeSelect.addEventListener("change", loadBorderImages);
+        ui.backgroundThemeSelect.addEventListener("change", loadBackgroundImages);
         ui.borderOpacitySlider.addEventListener('input', () => {
-            const asset = worksheetCanvas.getObjects().find(o => o.isBorder);
-            if (asset) { asset.set('opacity', parseFloat(ui.borderOpacitySlider.value)); worksheetCanvas.renderAll(); }
+            const activeCanvas = getActiveCanvas();
+            const asset = activeCanvas.getObjects().find(o => o.isBorder);
+            if (asset) {
+                asset.set('opacity', parseFloat(ui.borderOpacitySlider.value));
+                activeCanvas.renderAll();
+            }
         });
         ui.backgroundOpacitySlider.addEventListener('input', () => {
-            const asset = worksheetCanvas.getObjects().find(o => o.isBackground);
-            if (asset) { asset.set('opacity', parseFloat(ui.backgroundOpacitySlider.value)); worksheetCanvas.renderAll(); }
+            const activeCanvas = getActiveCanvas();
+            const asset = activeCanvas.getObjects().find(o => o.isBackground);
+            if (asset) {
+                asset.set('opacity', parseFloat(ui.backgroundOpacitySlider.value));
+                activeCanvas.renderAll();
+            }
         });
       };
       
@@ -2065,10 +2240,7 @@
         const activeObjects = activeCanvas.getActiveObjects();
         if (activeObjects.length > 0) {
             activeObjects.forEach(obj => {
-                // Allow deleting exercise cards and user text, but not assets
-                if (!obj.isBorder && !obj.isBackground) {
-                    activeCanvas.remove(obj);
-                }
+                activeCanvas.remove(obj);
             });
             activeCanvas.discardActiveObject().renderAll();
         }
@@ -2441,8 +2613,20 @@
         setupAssetControls();
         
         await fetchImageThemes();
-        await Promise.all([loadAssetThemes('borders'), loadAssetThemes('backgrounds')]);
-        
+
+        // Initialize BulletproofLoader for borders and backgrounds
+        if (window.BulletproofLoader) {
+            await window.BulletproofLoader.init({
+                borderSelect: ui.borderThemeSelect,
+                backgroundSelect: ui.backgroundThemeSelect
+            });
+            console.log('BulletproofLoader initialized');
+        } else {
+            // Fallback if BulletproofLoader not available
+            await loadBorderThemes();
+            await loadBackgroundThemes();
+        }
+
         loadDictionary();
         renderPreviews();
         handleSelectionCleared(null, null);

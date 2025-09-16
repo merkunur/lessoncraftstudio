@@ -74,10 +74,37 @@ class BulletproofLoader {
      * Initialize with retry logic
      */
     async init(config = {}) {
-        console.log('[BulletproofLoader] Starting initialization...');
+        // Check if already initializing to prevent double calls
+        if (this.initializing) {
+            console.log('[BulletproofLoader] Already initializing, skipping duplicate call');
+            return this.initPromise;
+        }
 
-        // Set locale
-        this.state.locale = this.getLocale();
+        console.log('[BulletproofLoader] Starting initialization...');
+        this.initializing = true;
+
+        // Store the promise for potential duplicate calls
+        this.initPromise = this._doInit(config);
+
+        // Clear the flag after completion
+        this.initPromise.finally(() => {
+            this.initializing = false;
+        });
+
+        return this.initPromise;
+    }
+
+    async _doInit(config) {
+        // Reset retry count for fresh init
+        this.state.retryCount = 0;
+
+        // Set locale - use config.locale if provided, otherwise use getLocale()
+        if (config.locale) {
+            console.log(`[BulletproofLoader] Using provided locale: ${config.locale}`);
+            this.state.locale = config.locale;
+        } else {
+            this.state.locale = this.getLocale();
+        }
 
         // Get elements or use provided ones
         this.borderSelect = config.borderSelect || document.getElementById('borderThemeSelect');
@@ -377,7 +404,9 @@ class BulletproofLoader {
 // Create global instance
 window.BulletproofLoader = new BulletproofLoader();
 
-// Auto-initialize on DOM ready if selects exist
+// DO NOT auto-initialize - let each app control when to initialize with proper locale
+// This was causing the bug where themes loaded in English only
+/*
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
         if (document.getElementById('borderThemeSelect') || document.getElementById('backgroundThemeSelect')) {
@@ -391,3 +420,4 @@ if (document.readyState === 'loading') {
         window.BulletproofLoader.init();
     }
 }
+*/

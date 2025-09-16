@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Image Word Scramble Worksheet</title>
   <script src="js/translations.js"></script>
+  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/unified-language-manager.js"></script>
+  <script src="js/border-background-sizer.js"></script>
+  <script src="js/auto-fix-system.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
@@ -388,6 +392,15 @@
         .tab-row { padding: 0 15px 0 70px; }
     }
   </style>
+  <script>
+    // Set currentLocale globally BEFORE any scripts initialize
+    let currentLocale = 'en';
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('locale')) {
+        currentLocale = urlParams.get('locale');
+    }
+    window.currentLocale = currentLocale;
+  </script>
 </head>
 <body>
   <div class="layout">
@@ -633,12 +646,7 @@
   <script>
     document.addEventListener("DOMContentLoaded", function() {
         // --- Locale/Language Handling ---
-        let currentLocale = 'en';
-        const urlParams = new URLSearchParams(window.location.search);
-        const localeParam = urlParams.get('locale');
-        if (localeParam) {
-            currentLocale = localeParam;
-        }
+        // currentLocale is already set globally before scripts load
 
         // --- App State ---
         let currentThemeImages = [];
@@ -789,8 +797,20 @@
             
             updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height, true);
             loadThemes();
-            loadBorderThemes();
-            loadBackgroundThemes();
+
+            // Initialize BulletproofLoader for borders and backgrounds
+            (async function() {
+                if (window.BulletproofLoader) {
+                    await window.BulletproofLoader.init({
+                        borderSelect: ui.borderThemeSelect,
+                        backgroundSelect: ui.backgroundThemeSelect
+                    });
+                } else {
+                    // Fallback if BulletproofLoader not available
+                    loadBorderThemes();
+                    loadBackgroundThemes();
+                }
+            })();
             updateSelectedImagesUI();
             handleSelectionCleared(null, getActiveCanvas());
         }
@@ -1166,8 +1186,21 @@
             const activeObjects = activeCanvas.getActiveObjects();
             if (activeObjects.length > 0) {
                 activeObjects.forEach(obj => {
-                    if (!obj.isGeneratedItem && !obj.isAnswerKeyItem && !obj.isBorderOrBg) {
+                    // Allow deletion of borders and backgrounds, but protect generated items
+                    if (!obj.isGeneratedItem && !obj.isAnswerKeyItem) {
                         activeCanvas.remove(obj);
+
+                        // If we deleted a border or background, update the UI
+                        if (obj.isBorder) {
+                            ui.borderThemeSelect.value = 'none';
+                            ui.borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
+                            ui.borderOpacitySlider.disabled = true;
+                        }
+                        if (obj.isBackground) {
+                            ui.backgroundThemeSelect.value = 'none';
+                            ui.backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme for backgrounds.</p>';
+                            ui.backgroundOpacitySlider.disabled = true;
+                        }
                     }
                 });
                 activeCanvas.discardActiveObject().renderAll();
@@ -1422,7 +1455,9 @@
                 } else {
                      try {
                         const res = await fetch(`/api/images?search=`);
-                        sourcePool.push(...await res.json());
+                        const data = await res.json();
+                        const images = data.images || data || [];
+                        sourcePool.push(...images);
                      } catch(e) { /* ignore */ }
                 }
                 sourcePool = sourcePool.filter(img => !puzzleImagePool.some(p => p.path === img.path));
@@ -1749,7 +1784,8 @@
         function loadBorderImages() {
             const theme = ui.borderThemeSelect.value;
             ui.borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
-            removeAsset('isBorder', worksheetCanvas);
+            // Remove border from all canvases when theme changes
+            removeAsset('isBorder');
             
             if (theme === 'none') {
                 ui.borderOpacitySlider.disabled = true;
@@ -1774,21 +1810,54 @@
             });
         }
         
+        // Unified overlay function for borders and backgrounds with proper centering
+        async function addOverlayToCanvas(path, propName, opacitySlider) {
+            // Use the active canvas (worksheet or answer key)
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+
+            const img = await new Promise((resolve) =>
+                fabric.Image.fromURL(path, resolve, { crossOrigin: 'anonymous' })
+            );
+
+            if (!img) {
+                showMessage(`Failed to load ${propName === 'isBorder' ? 'border' : 'background'} image.`, 'error');
+                return;
+            }
+
+            // Remove existing overlay of the same type from the active canvas
+            removeAsset(propName, activeCanvas);
+
+            // Use ACTUAL canvas dimensions from currentCanvasConfig, not display dimensions
+            const actualWidth = currentCanvasConfig.width;
+            const actualHeight = currentCanvasConfig.height;
+
+            // Scale to 70% of ACTUAL canvas height while preserving aspect ratio
+            const targetHeight = actualHeight * 0.7;
+            const scaleFactor = targetHeight / img.height;
+
+            img.set({
+                [propName]: true,
+                isBorderOrBg: true,
+                originX: 'center',
+                originY: 'center',
+                left: actualWidth / 2,
+                top: actualHeight / 2,
+                scaleX: scaleFactor,
+                scaleY: scaleFactor,
+                selectable: true,
+                evented: true,
+                opacity: parseFloat(opacitySlider.value)
+            });
+
+            activeCanvas.add(img);
+            enforceZOrder(activeCanvas);
+            activeCanvas.renderAll();
+            opacitySlider.disabled = false;
+        }
+
         function addBorderToCanvas(path) {
-            removeAsset('isBorder', worksheetCanvas);
-            fabric.Image.fromURL(path, (img) => {
-                img.set({
-                    originX: 'left', originY: 'top',
-                    scaleX: worksheetCanvas.width / img.width,
-                    scaleY: worksheetCanvas.height / img.height,
-                    opacity: parseFloat(ui.borderOpacitySlider.value),
-                    isBorder: true, isBorderOrBg: true, selectable: true, evented: true,
-                });
-                worksheetCanvas.add(img);
-                enforceZOrder(worksheetCanvas);
-                worksheetCanvas.renderAll();
-                ui.borderOpacitySlider.disabled = false;
-            }, { crossOrigin: 'anonymous' });
+            addOverlayToCanvas(path, 'isBorder', ui.borderOpacitySlider);
         }
         
         async function loadBackgroundThemes() {
@@ -1836,22 +1905,7 @@
         }
 
         function addBackgroundToCanvas(path) {
-            removeAsset('isBackground');
-            fabric.Image.fromURL(path, (img) => {
-                img.scaleToWidth(worksheetCanvas.width);
-                 img.set({
-                    isBackground: true, isBorderOrBg: true, selectable: true, evented: true,
-                    opacity: parseFloat(ui.backgroundOpacitySlider.value),
-                    left: worksheetCanvas.width / 2,
-                    top: worksheetCanvas.height / 2,
-                    originX: 'center',
-                    originY: 'center'
-                });
-                worksheetCanvas.add(img);
-                enforceZOrder(worksheetCanvas);
-                worksheetCanvas.renderAll();
-                ui.backgroundOpacitySlider.disabled = false;
-            }, { crossOrigin: 'anonymous' });
+            addOverlayToCanvas(path, 'isBackground', ui.backgroundOpacitySlider);
         }
 
         function removeAsset(prop, canvasInstance = null) {

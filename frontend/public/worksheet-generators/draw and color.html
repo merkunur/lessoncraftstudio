@@ -7,6 +7,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations.js"></script>
+  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/unified-language-manager.js"></script>
+  <script src="js/border-background-sizer.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
@@ -812,6 +815,9 @@ const localeParam = urlParams.get('locale');
 if (localeParam) {
     currentLocale = localeParam;
 }
+
+// Set currentLocale globally BEFORE DOMContentLoaded (critical for enhancement scripts)
+window.currentLocale = currentLocale;
 
 document.addEventListener("DOMContentLoaded", function() {
     // --- UI Element References ---
@@ -1715,15 +1721,17 @@ document.addEventListener("DOMContentLoaded", function() {
     async function loadAssetThemes(type, selectEl) {
         try {
             selectEl.innerHTML = `<option value="none">None</option>`;
-            const response = await fetch(`/api/${type}/themes`);
+            const response = await fetch(`/api/${type}/themes?locale=${currentLocale}`);
             if (!response.ok) {
                 console.error(`Failed to load ${type} themes`);
                 return;
             }
             const themes = await response.json();
             themes.forEach(theme => {
-                const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
-                selectEl.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                // Handle both object format {value, displayName} and string format
+                const value = theme.value || theme;
+                const displayName = theme.displayName || (typeof theme === 'string' ? theme.charAt(0).toUpperCase() + theme.slice(1) : value);
+                selectEl.innerHTML += `<option value="${value}">${displayName}</option>`;
             });
         } catch (error) {
             console.error(`Error loading ${type} themes:`, error);
@@ -1751,11 +1759,12 @@ document.addEventListener("DOMContentLoaded", function() {
 
         dictionaryEl.innerHTML = `<p class="dictionary-message">Loading ${theme}...</p>`;
         // Use filesystem endpoint for specific themes
-        const apiUrl = `/api/${type}/images?theme=${theme}`;
+        const apiUrl = `/api/${type}/images?theme=${theme}&locale=${currentLocale}`;
         fetch(apiUrl)
         .then(res => { if (!res.ok) throw new Error(`Failed to load images for ${type} theme`); return res.json(); })
         .then(data => {
-            const images = type === 'backgrounds' ? (data.backgrounds || data || []) : data;
+            // Handle API response format {images: [...]} or direct array
+            const images = data.images || data;
             dictionaryEl.innerHTML = "";
             if (images.length === 0) { dictionaryEl.innerHTML = `<p class="dictionary-message">No ${type} in this theme.</p>`; return; }
             images.forEach(asset => {
@@ -1797,7 +1806,17 @@ document.addEventListener("DOMContentLoaded", function() {
                 transparentCorners: false,
                 cornerStyle: 'circle'
             });
-            img.scaleToWidth(currentCanvasConfig.width);  // Use actual canvas width
+            // Scale to 70% of actual canvas height (professional standard)
+            const targetHeight = currentCanvasConfig.height * 0.7;
+            img.scaleToHeight(targetHeight);
+
+            // Center on canvas
+            img.set({
+                left: currentCanvasConfig.width / 2,
+                top: currentCanvasConfig.height / 2,
+                originX: 'center',
+                originY: 'center'
+            });
             img.setCoords();  // Update coordinates after scaling
             worksheetCanvas.add(img);
             maintainZOrder(); // Use the centralized function to fix z-order
@@ -1816,11 +1835,15 @@ document.addEventListener("DOMContentLoaded", function() {
         fabric.Image.fromURL(path, (img) => {
             if (!img) { showMessage('Failed to load border image.', 'error'); return; }
             
-            img.scaleToWidth(currentCanvasConfig.width);  // Use actual canvas width
+            // Scale to 70% of actual canvas height (professional standard)
+            const targetHeight = currentCanvasConfig.height * 0.7;
+            img.scaleToHeight(targetHeight);
+
             img.set({
-                left: 0,  // Position at 0,0
-                top: 0,
-                originX: 'left', originY: 'top',  // Use default origins to avoid coordinate issues
+                left: currentCanvasConfig.width / 2,
+                top: currentCanvasConfig.height / 2,
+                originX: 'center',
+                originY: 'center',
                 selectable: true, evented: true, hasControls: true, hasBorders: true,
                 opacity: parseFloat(borderOpacityInput.value),
                 isBorder: true,
@@ -2325,8 +2348,27 @@ async function downloadPDF() {
 
     // Final initializations
     loadThemes();
-    loadBorderThemes();
-    loadBackgroundThemes();
+
+    // Initialize BulletproofLoader AFTER core functionality is set up
+    if (window.BulletproofLoader) {
+        window.BulletproofLoader.init({
+            borderSelect: borderThemeSelect,
+            backgroundSelect: backgroundThemeSelect
+        }).then(() => {
+            console.log('BulletproofLoader initialized successfully');
+            // BulletproofLoader handles theme loading, no need for manual loading
+        }).catch(error => {
+            console.error('BulletproofLoader init failed:', error);
+            // Fallback to manual loading only on error
+            loadBorderThemes();
+            loadBackgroundThemes();
+        });
+    } else {
+        // Fallback if BulletproofLoader not available
+        loadBorderThemes();
+        loadBackgroundThemes();
+    }
+
     renderSelectedPreview();
     handleSelectionCleared();
     toggleMirrorOptions(); // Initial check

@@ -6,6 +6,11 @@
   <script src="js/translations.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <!-- Enhancement scripts for robust integration -->
+  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/unified-language-manager.js"></script>
+  <script src="js/border-background-sizer.js"></script>
+  <script src="js/auto-fix-system.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
@@ -1004,6 +1009,17 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
   <script>
+    // Set currentLocale globally BEFORE DOMContentLoaded (like wordsearch.html does)
+    let currentLocale = 'en';
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('locale')) {
+        currentLocale = urlParams.get('locale');
+    }
+    window.currentLocale = currentLocale; // Make it globally accessible for BulletproofLoader
+    console.log('Global currentLocale set to:', currentLocale);
+  </script>
+
+  <script>
     document.addEventListener("DOMContentLoaded", function() {
       const accordionButtons = document.querySelectorAll('.accordion-button');
       accordionButtons.forEach(button => {
@@ -1041,11 +1057,7 @@
 
 
       // Language/locale handling
-      let currentLocale = 'en';
-      const urlParams = new URLSearchParams(window.location.search);
-      if (urlParams.get('locale')) {
-          currentLocale = urlParams.get('locale');
-      }
+      // currentLocale is already set globally before DOMContentLoaded
       
       let allImages = [];
       let uploadedImages = [];
@@ -2521,59 +2533,11 @@
     // END: Standardized Download Functions
 
     // --- BORDER & BACKGROUND LOGIC ---
-    async function loadBorderThemes() {
-        try {
-            // First option is always None
-            borderThemeSelect.innerHTML = '<option value="none">None</option>';
+    // REMOVED - Now handled entirely by BulletproofLoader
+    // Original loadBorderThemes function has been replaced by BulletproofLoader.init()
 
-            // Fetch actual themes from the filesystem API
-            const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
-            if (!response.ok) {
-                console.error('Failed to load border themes');
-                return;
-            }
-
-            const themes = await response.json();
-            // Add each theme as an option
-            themes.forEach(theme => {
-                // Handle both object format {value, displayName} and string format
-                const themeValue = typeof theme === 'string' ? theme : theme.value;
-                const displayName = typeof theme === 'string'
-                    ? theme.charAt(0).toUpperCase() + theme.slice(1)
-                    : theme.displayName;
-                borderThemeSelect.innerHTML += `<option value="${themeValue}">${displayName}</option>`;
-            });
-        } catch (error) {
-            console.error('Error loading border themes:', error);
-        }
-    }
-
-    async function loadBackgroundThemes() {
-        try {
-            // First option is always None
-            backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
-
-            // Fetch actual themes from the filesystem API
-            const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
-            if (!response.ok) {
-                console.error('Failed to load background themes');
-                return;
-            }
-
-            const themes = await response.json();
-            // Add each theme as an option
-            themes.forEach(theme => {
-                // Handle both object format {value, displayName} and string format
-                const themeValue = typeof theme === 'string' ? theme : theme.value;
-                const displayName = typeof theme === 'string'
-                    ? theme.charAt(0).toUpperCase() + theme.slice(1)
-                    : theme.displayName;
-                backgroundThemeSelect.innerHTML += `<option value="${themeValue}">${displayName}</option>`;
-            });
-        } catch (error) {
-            console.error('Error loading background themes:', error);
-        }
-    }
+    // REMOVED - Now handled entirely by BulletproofLoader
+    // Original loadBackgroundThemes function has been replaced by BulletproofLoader.init()
 
     function loadBorderImages() {
         const theme = borderThemeSelect.value;
@@ -2667,75 +2631,81 @@
         });
     }
 
-    function addBorderToCanvas(path) {
+    // Unified overlay function - same pattern as alphabet train
+    async function addOverlayToCanvas(path, propName, opacitySlider) {
+        const img = await new Promise((resolve) => fabric.Image.fromURL(path, resolve, { crossOrigin: 'anonymous' }));
+        if (!img) return;
+
         const activeCanvas = getActiveCanvas();
         if (!activeCanvas) return;
-        const existingBorder = activeCanvas.getObjects().find(obj => obj.isBorder);
-        if (existingBorder) activeCanvas.remove(existingBorder);
 
-        fabric.Image.fromURL(path, (img) => {
-            if (!img) { showMessage('Failed to load border image.', 'error'); return; }
-            
-            img.scaleToWidth(activeCanvas.width);
-            img.set({
-                left: activeCanvas.width / 2, top: activeCanvas.height / 2,
-                originX: 'center', originY: 'center',
-                selectable: true, evented: true, isBorder: true,
-                opacity: parseFloat(borderOpacitySlider.value),
-                borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
-                cornerSize: 10, transparentCorners: false, cornerStyle: 'circle',
+        const existing = activeCanvas.getObjects().find(obj => obj[propName]);
+        if (existing) activeCanvas.remove(existing);
+
+        img.clone(clonedImg => {
+            // Use ACTUAL canvas dimensions, not display dimensions
+            const actualWidth = currentCanvasConfig.width;
+            const actualHeight = currentCanvasConfig.height;
+
+            // Scale to 70% of ACTUAL canvas height while preserving aspect ratio
+            const targetHeight = actualHeight * 0.7;
+            const scaleFactor = targetHeight / img.height;
+
+            clonedImg.set({
+                [propName]: true,
+                originX: 'center',
+                originY: 'center',
+                left: actualWidth / 2,  // Use actual dimensions for correct centering
+                top: actualHeight / 2,  // Use actual dimensions for correct centering
+                scaleX: scaleFactor,
+                scaleY: scaleFactor,
+                selectable: true,
+                evented: true,
+                opacity: parseFloat(opacitySlider.value),
+                borderColor: 'var(--app-accent-primary)',
+                cornerColor: 'var(--app-accent-primary)',
+                cornerSize: 10,
+                transparentCorners: false,
+                cornerStyle: 'circle'
             });
-            activeCanvas.add(img).sendToBack(img);
-            
-            const bg = activeCanvas.getObjects().find(o => o.isBackground);
-            if (bg) bg.sendToBack();
+
+            activeCanvas.add(clonedImg);
+            // Ensure proper z-order
+            const background = activeCanvas.getObjects().find(o => o.isBackground);
+            if (background) activeCanvas.sendToBack(background);
+            const border = activeCanvas.getObjects().find(o => o.isBorder);
+            if (border && background) activeCanvas.bringToFront(border);
 
             activeCanvas.renderAll();
+        });
+
+        // Enable the appropriate opacity slider
+        if (propName === 'isBorder') {
             borderOpacitySlider.disabled = false;
-        }, { crossOrigin: 'anonymous' });
+        } else if (propName === 'isBackground') {
+            backgroundOpacitySlider.disabled = false;
+            showMessage('Background added.', 'success', 1500);
+        }
+    }
+
+    function addBorderToCanvas(path) {
+        addOverlayToCanvas(path, 'isBorder', borderOpacitySlider);
     }
 
     function addBackgroundToCanvas(path) {
-        [worksheetCanvas, answerKeyCanvas].forEach(canvas => {
-            if (!canvas) return;
-            const existing = canvas.getObjects().find(obj => obj.isBackground);
-            if (existing) canvas.remove(existing);
-        });
-
-        fabric.Image.fromURL(path, (img) => {
-            if (!img) { showMessage('Failed to load background image.', 'error'); return; }
-            
-            const config = {
-                selectable: true, evented: true, isBackground: true,
-                opacity: parseFloat(backgroundOpacitySlider.value),
-                borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
-                cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
-            };
-
-            const wsImg = fabric.util.object.clone(img);
-            wsImg.set(config).scaleToWidth(worksheetCanvas.width);
-            worksheetCanvas.add(wsImg).sendToBack(wsImg);
-            worksheetCanvas.renderAll();
-
-            const akImg = fabric.util.object.clone(img);
-            akImg.set(config).scaleToWidth(answerKeyCanvas.width);
-            answerKeyCanvas.add(akImg).sendToBack(akImg);
-            answerKeyCanvas.renderAll();
-            
-            backgroundOpacitySlider.disabled = false;
-            showMessage('Background added.', 'success', 1500);
-        }, { crossOrigin: 'anonymous' });
+        addOverlayToCanvas(path, 'isBackground', backgroundOpacitySlider);
     }
 
     function applyBackgroundOpacity() {
         const newOpacity = parseFloat(backgroundOpacitySlider.value);
-        [worksheetCanvas, answerKeyCanvas].forEach(c => {
-            const bg = c.getObjects().find(obj => obj.isBackground);
+        const activeCanvas = getActiveCanvas();
+        if (activeCanvas) {
+            const bg = activeCanvas.getObjects().find(obj => obj.isBackground);
             if (bg) {
                 bg.set('opacity', newOpacity);
-                c.renderAll();
+                activeCanvas.renderAll();
             }
-        });
+        }
     }
 
 
@@ -2861,8 +2831,25 @@
       maxOperandInput.value = DEFAULT_MAX_OPERAND;
 
       loadThemes();
-      loadBorderThemes();
-      loadBackgroundThemes();
+
+      // Initialize BulletproofLoader to handle border/background themes
+      // EXACTLY like wordsearch.html does it
+      if (window.BulletproofLoader) {
+          console.log('Initializing BulletproofLoader with locale:', currentLocale);
+
+          window.BulletproofLoader.init({
+              borderSelect: borderThemeSelect,
+              backgroundSelect: backgroundThemeSelect,
+              locale: currentLocale  // EXPLICITLY pass the locale
+          }).then(() => {
+              console.log('✅ BulletproofLoader initialized successfully');
+          }).catch(err => {
+              console.error('❌ BulletproofLoader failed:', err);
+          });
+      } else {
+          console.warn('⚠️ BulletproofLoader not found');
+      }
+
       renderSelectedImages();
       handleSelectionCleared(null, getActiveCanvas());
     });

@@ -4,9 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Image Subtraction Worksheet Generator</title>
+  <script src="js/translations.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="js/translations.js"></script>
+  <!-- Enhancement scripts for robust integration -->
+  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/unified-language-manager.js"></script>
+  <script src="js/border-background-sizer.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
@@ -967,6 +971,17 @@
   </div>
 
   <script>
+    // Set currentLocale globally BEFORE DOMContentLoaded
+    let currentLocale = 'en';
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('locale')) {
+        currentLocale = urlParams.get('locale');
+    }
+    window.currentLocale = currentLocale; // Make it globally accessible for BulletproofLoader
+    console.log('Global currentLocale set to:', currentLocale);
+  </script>
+
+  <script>
     document.addEventListener("DOMContentLoaded", function() {
       // Load border themes
       async function loadBorderThemes() {
@@ -1042,7 +1057,7 @@
       menuOverlay.addEventListener('click', () => { panel.classList.remove('is-open'); menuOverlay.classList.remove('is-active'); });
 
       // --- Global State & Configuration ---
-      let currentLocale = 'en'; // Current language setting
+      // currentLocale already set globally before DOMContentLoaded
       let allImages = [];
       let uploadedImages = [];
       let selectedImages = [];
@@ -2409,23 +2424,25 @@ async function downloadPDF(canvasToExport, fileName) {
             return;
         }
         dictionaryElement.innerHTML = `<p class="dictionary-message">Loading ${theme} ${assetType}...</p>`;
-        // Use the correct API endpoint for borders and backgrounds
-        const apiEndpoint = assetType === 'borders' ? `/api/borders/images?theme=${theme}`
-                          : assetType === 'backgrounds' ? `/api/backgrounds/images?theme=${theme}`
+        // Use the correct API endpoint for borders and backgrounds with locale
+        const apiEndpoint = assetType === 'borders' ? `/api/borders/images?theme=${theme}&locale=${currentLocale}`
+                          : assetType === 'backgrounds' ? `/api/backgrounds/images?theme=${theme}&locale=${currentLocale}`
                           : `/api/images?theme=${theme}&locale=${currentLocale}`;
         fetch(apiEndpoint)
             .then(res => res.ok ? res.json() : Promise.reject(`Failed to load images for ${assetType} theme`))
             .then(data => {
                 const images = data.images || data;
+                console.log(`Loaded ${assetType} images:`, images); // Debug log
                 dictionaryElement.innerHTML = "";
                 if (!images || !Array.isArray(images) || images.length === 0) { dictionaryElement.innerHTML = `<p class="dictionary-message">No ${assetType} in this theme.</p>`; return; }
                 images.forEach(image => {
                     const displayName = image.name || image.word;
+                    const imageSrc = image.url || image.path; // Handle both url and path
                     const item = document.createElement("div");
                     item.className = "border-thumbnail-item";
-                    item.innerHTML = `<img src="${image.path}" alt="${displayName}" loading="lazy" />`;
+                    item.innerHTML = `<img src="${imageSrc}" alt="${displayName}" loading="lazy" crossorigin="anonymous" />`;
                     item.onclick = () => {
-                        clickHandler(image.path);
+                        clickHandler(imageSrc);
                         document.querySelectorAll(`#${dictionaryElement.id} .border-thumbnail-item.selected`).forEach(el => el.classList.remove('selected'));
                         item.classList.add('selected');
                     };
@@ -2439,51 +2456,86 @@ async function downloadPDF(canvasToExport, fileName) {
     }
 
     function addBorderToCanvas(path) {
-        if (!worksheetCanvas) return;
-        const existingBorder = worksheetCanvas.getObjects().find(obj => obj.isBorder);
-        if (existingBorder) worksheetCanvas.remove(existingBorder);
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+
+        const existingBorder = activeCanvas.getObjects().find(obj => obj.isBorder);
+        if (existingBorder) activeCanvas.remove(existingBorder);
 
         fabric.Image.fromURL(path, (img) => {
             if (!img) { showMessage('Failed to load border image.', 'error'); return; }
-            img.scaleToWidth(worksheetCanvas.width);
+
+            // Use ACTUAL canvas dimensions, not display dimensions
+            const actualWidth = currentCanvasConfig.width;
+            const actualHeight = currentCanvasConfig.height;
+
+            // Scale to 70% of ACTUAL canvas height while preserving aspect ratio
+            const targetHeight = actualHeight * 0.7;
+            const scaleFactor = targetHeight / img.height;
+
             img.set({
-                left: worksheetCanvas.width / 2, top: worksheetCanvas.height / 2, originX: 'center', originY: 'center',
-                selectable: true, evented: true, isBorder: true, opacity: parseFloat(borderOpacitySlider.value),
-                borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
-                cornerSize: 10, transparentCorners: false, cornerStyle: 'circle',
+                left: actualWidth / 2,  // Use actual dimensions for correct centering
+                top: actualHeight / 2,  // Use actual dimensions for correct centering
+                scaleX: scaleFactor,
+                scaleY: scaleFactor,
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                evented: true,
+                isBorder: true,
+                opacity: parseFloat(borderOpacitySlider.value),
+                borderColor: 'var(--app-accent-primary)',
+                cornerColor: 'var(--app-accent-primary)',
+                cornerSize: 10,
+                transparentCorners: false,
+                cornerStyle: 'circle'
             });
-            worksheetCanvas.add(img);
-            enforceZOrder(worksheetCanvas);
-            worksheetCanvas.renderAll();
+            activeCanvas.add(img);
+            enforceZOrder(activeCanvas);
+            activeCanvas.renderAll();
             borderOpacitySlider.disabled = false;
         }, { crossOrigin: 'anonymous' });
     }
 
     function addBackgroundToCanvas(path) {
-        [worksheetCanvas, answerKeyCanvas].forEach(canvas => {
-            if (!canvas) return;
-            const existing = canvas.getObjects().find(obj => obj.isBackground);
-            if (existing) canvas.remove(existing);
-        });
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+
+        const existing = activeCanvas.getObjects().find(obj => obj.isBackground);
+        if (existing) activeCanvas.remove(existing);
+
         fabric.Image.fromURL(path, (img) => {
             if (!img) { showMessage('Failed to load background image.', 'error'); return; }
-            const config = {
-                selectable: true, evented: true, isBackground: true, opacity: parseFloat(backgroundOpacitySlider.value),
-                borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
-                cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
-            };
-            img.clone(wsImg => {
-                wsImg.set(config).scaleToWidth(worksheetCanvas.width);
-                worksheetCanvas.add(wsImg);
-                enforceZOrder(worksheetCanvas);
-                worksheetCanvas.renderAll();
+
+            // Use ACTUAL canvas dimensions, not display dimensions
+            const actualWidth = currentCanvasConfig.width;
+            const actualHeight = currentCanvasConfig.height;
+
+            // Scale to 70% of ACTUAL canvas height while preserving aspect ratio
+            const targetHeight = actualHeight * 0.7;
+            const scaleFactor = targetHeight / img.height;
+
+            img.set({
+                left: actualWidth / 2,  // Use actual dimensions for correct centering
+                top: actualHeight / 2,  // Use actual dimensions for correct centering
+                scaleX: scaleFactor,
+                scaleY: scaleFactor,
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                evented: true,
+                isBackground: true,
+                opacity: parseFloat(backgroundOpacitySlider.value),
+                borderColor: 'var(--app-accent-primary)',
+                cornerColor: 'var(--app-accent-primary)',
+                cornerSize: 10,
+                transparentCorners: false,
+                cornerStyle: 'circle'
             });
-            img.clone(akImg => {
-                akImg.set(config).scaleToWidth(answerKeyCanvas.width);
-                answerKeyCanvas.add(akImg);
-                enforceZOrder(answerKeyCanvas);
-                answerKeyCanvas.renderAll();
-            });
+
+            activeCanvas.add(img);
+            enforceZOrder(activeCanvas);
+            activeCanvas.renderAll();
             backgroundOpacitySlider.disabled = false;
             showMessage('Background added.', 'success', 1500);
         }, { crossOrigin: 'anonymous' });
@@ -2587,8 +2639,14 @@ async function downloadPDF(canvasToExport, fileName) {
       });
       backgroundThemeSelect.addEventListener("change", () => loadAssetImages('backgrounds', backgroundThemeSelect.value, backgroundDictionary, addBackgroundToCanvas));
       backgroundOpacitySlider.addEventListener('input', () => {
-          const newOpacity = parseFloat(backgroundOpacitySlider.value);
-          [worksheetCanvas, answerKeyCanvas].forEach(c => c?.getObjects().find(o => o.isBackground)?.set('opacity', newOpacity) && c.renderAll());
+          const activeCanvas = getActiveCanvas();
+          if (activeCanvas) {
+              const background = activeCanvas.getObjects().find(o => o.isBackground);
+              if (background) {
+                  background.set('opacity', parseFloat(backgroundOpacitySlider.value));
+                  activeCanvas.renderAll();
+              }
+          }
       });
     }
 
@@ -2626,6 +2684,19 @@ async function downloadPDF(canvasToExport, fileName) {
       loadThemes();
       loadAssetThemes('borders', borderThemeSelect);
       loadAssetThemes('backgrounds', backgroundThemeSelect);
+
+      // Initialize BulletproofLoader after app setup
+      if (window.BulletproofLoader) {
+          BulletproofLoader.init({
+              borderSelect: borderThemeSelect,
+              backgroundSelect: backgroundThemeSelect,
+              locale: currentLocale
+          }).then(() => {
+              console.log('BulletproofLoader initialized for Subtraction app');
+          }).catch(error => {
+              console.error('BulletproofLoader initialization failed:', error);
+          });
+      }
 
     });
   </script>

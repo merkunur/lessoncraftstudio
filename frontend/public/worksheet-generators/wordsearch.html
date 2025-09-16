@@ -11,6 +11,15 @@
     <script src="js/unified-language-manager.js"></script>
     <script src="js/border-background-sizer.js"></script>
     <script src="js/auto-fix-system.js"></script>
+    <script>
+        // Set currentLocale globally BEFORE any scripts initialize
+        let currentLocale = 'en';
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('locale')) {
+            currentLocale = urlParams.get('locale');
+        }
+        window.currentLocale = currentLocale;
+    </script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -881,13 +890,9 @@ document.addEventListener("DOMContentLoaded", function() {
     let userSelectedImages = [];
     let lastGeneratedData = null; 
     let searchTimeout;
-    
-    // Language/locale handling
-    let currentLocale = 'en';
-    const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get('locale')) {
-        currentLocale = urlParams.get('locale');
-    }
+
+    // Language/locale handling (already set globally)
+    // currentLocale is available from global scope
     
     // Language-specific alphabets for grid generation
     const languageAlphabets = {
@@ -997,7 +1002,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const allToolbarButtons = objectContextToolbar.querySelectorAll('.context-btn');
 
     // --- INITIALIZATION ---
-    function init() {
+    async function init() {
         setupAccordion();
         setupDropdowns();
         setupTabs();
@@ -1060,12 +1065,13 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
         // Initialize BulletproofLoader for borders and backgrounds
-        BulletproofLoader.init({
-            borderSelect: borderThemeSelect,
-            backgroundSelect: backgroundThemeSelect
-        }).then(() => {
+        if (window.BulletproofLoader) {
+            await window.BulletproofLoader.init({
+                borderSelect: borderThemeSelect,
+                backgroundSelect: backgroundThemeSelect
+            });
             console.log('✅ Borders and backgrounds loaded successfully');
-        });
+        }
         
         // Preload default theme in background for instant first generation
         preloadDefaultTheme();
@@ -2319,34 +2325,38 @@ document.addEventListener("DOMContentLoaded", function() {
         const img = await new Promise((resolve) => fabric.Image.fromURL(path, resolve, { crossOrigin: 'anonymous' }));
         if (!img) return;
 
-        const applyOverlay = (canvas, isEditable) => {
-            if (!canvas) return;
-            const existing = canvas.getObjects().find(obj => obj[propName]);
-            if (existing) canvas.remove(existing);
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
 
-            img.clone(clonedImg => {
-                clonedImg.set({
-                    [propName]: true,
-                    originX: 'center',
-                    originY: 'center',
-                    left: canvas.width / 2,
-                    top: canvas.height / 2,
-                    selectable: isEditable,
-                    evented: isEditable,
-                    opacity: parseFloat(opacitySlider.value)
-                });
+        const existing = activeCanvas.getObjects().find(obj => obj[propName]);
+        if (existing) activeCanvas.remove(existing);
 
-                // Scale to 70% of canvas height as requested
-                const targetHeight = canvas.height * 0.7;
-                clonedImg.scaleToHeight(targetHeight);
+        img.clone(clonedImg => {
+            // Use ACTUAL canvas dimensions, not display dimensions (THIS IS THE FIX!)
+            const actualWidth = currentCanvasConfig.width;
+            const actualHeight = currentCanvasConfig.height;
 
-                canvas.add(clonedImg);
-                enforceZOrder(canvas);
+            // Scale to 70% of ACTUAL canvas height while preserving aspect ratio
+            const targetHeight = actualHeight * 0.7;
+            const scaleFactor = targetHeight / img.height;
+
+            clonedImg.set({
+                [propName]: true,
+                originX: 'center',
+                originY: 'center',
+                left: actualWidth / 2,  // Use actual dimensions for correct centering
+                top: actualHeight / 2,  // Use actual dimensions for correct centering
+                scaleX: scaleFactor,
+                scaleY: scaleFactor,
+                selectable: true,
+                evented: true,
+                opacity: parseFloat(opacitySlider.value)
             });
-        };
 
-        applyOverlay(worksheetCanvas, true);
-        if (answerKeyCanvas) applyOverlay(answerKeyCanvas, true);
+            activeCanvas.add(clonedImg);
+            enforceZOrder(activeCanvas);
+            activeCanvas.renderAll();
+        });
     }
 
     function addBorderToCanvas(path) { addOverlayToCanvas(path, 'isBorder', borderOpacitySlider); }
@@ -2354,24 +2364,24 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function applyBackgroundOpacity() {
         const opacity = parseFloat(backgroundOpacitySlider.value);
-        const canvases = [worksheetCanvas];
-        if (answerKeyCanvas) canvases.push(answerKeyCanvas);
-        canvases.forEach(c => {
-            if (!c) return;
-            const bgImg = c.getObjects().find(o => o.isBackground);
-            if (bgImg) { bgImg.set('opacity', opacity); c.renderAll(); }
-        });
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+        const bgImg = activeCanvas.getObjects().find(o => o.isBackground);
+        if (bgImg) {
+            bgImg.set('opacity', opacity);
+            activeCanvas.renderAll();
+        }
     }
 
     function applyBorderOpacity() {
         const opacity = parseFloat(borderOpacitySlider.value);
-        const canvases = [worksheetCanvas];
-        if (answerKeyCanvas) canvases.push(answerKeyCanvas);
-        canvases.forEach(c => {
-            if (!c) return;
-            const borderImg = c.getObjects().find(o => o.isBorder);
-            if (borderImg) { borderImg.set('opacity', opacity); c.renderAll(); }
-        });
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+        const borderImg = activeCanvas.getObjects().find(o => o.isBorder);
+        if (borderImg) {
+            borderImg.set('opacity', opacity);
+            activeCanvas.renderAll();
+        }
     }
 
     function enforceZOrder(canvas) {
@@ -2766,7 +2776,9 @@ async function downloadPDF(canvasToExport, fileName) {
     }
 
     // --- Let's go! ---
-    init();
+    init().catch(err => {
+        console.error('Failed to initialize:', err);
+    });
     
     // Apply translations function
     function applyTranslations() {

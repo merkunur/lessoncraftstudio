@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Find and Count Worksheet Generator</title>
     <script src="js/translations.js"></script>
+    <script src="js/bulletproof-loader.js"></script>
+    <script src="js/unified-language-manager.js"></script>
+    <script src="js/border-background-sizer.js"></script>
+    <script src="js/auto-fix-system.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
@@ -650,6 +654,15 @@
         }
         /* END: Contextual Toolbar CSS */
     </style>
+    <script>
+        // Set currentLocale globally BEFORE any scripts initialize
+        let currentLocale = 'en';
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('locale')) {
+            currentLocale = urlParams.get('locale');
+        }
+        window.currentLocale = currentLocale;
+    </script>
 </head>
 <body>
     <div class="layout">
@@ -896,8 +909,7 @@ function getLocale() {
     return locale;
 }
 
-// For backward compatibility
-let currentLocale = getLocale();
+// currentLocale is already set globally before scripts load
 console.log('Initial locale:', currentLocale);
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -1294,7 +1306,31 @@ document.addEventListener("DOMContentLoaded", function() {
         const canvas = getActiveCanvas();
         const activeObjects = canvas.getActiveObjects();
         if (activeObjects.length > 0) {
-            activeObjects.forEach(obj => canvas.remove(obj));
+            activeObjects.forEach(obj => {
+                canvas.remove(obj);
+
+                // Sync UI only if no borders/backgrounds remain on either canvas
+                if (obj.isBorder) {
+                    const bordersExist = [worksheetCanvas, answerKeyCanvas].some(c =>
+                        c && c.getObjects().some(o => o.isBorder)
+                    );
+                    if (!bordersExist) {
+                        borderThemeSelect.value = 'none';
+                        borderDictionary.innerHTML = '';
+                        borderOpacitySlider.disabled = true;
+                    }
+                }
+                if (obj.isBackground) {
+                    const backgroundsExist = [worksheetCanvas, answerKeyCanvas].some(c =>
+                        c && c.getObjects().some(o => o.isBackground)
+                    );
+                    if (!backgroundsExist) {
+                        backgroundThemeSelect.value = 'none';
+                        backgroundDictionary.innerHTML = '';
+                        backgroundOpacitySlider.disabled = true;
+                    }
+                }
+            });
             canvas.discardActiveObject().renderAll();
         }
         closeAllPopovers();
@@ -2607,41 +2643,67 @@ async function downloadPDF(canvasToExport, filename) {
         });
     }
 
-    function addBorderToCanvas(path) {
-        const canvases = [worksheetCanvas, answerKeyCanvas];
-        canvases.forEach(canvas => {
-            if (!canvas) return;
-            const existingBorder = canvas.getObjects().find(obj => obj.isBorder);
-            if (existingBorder) canvas.remove(existingBorder);
-        });
+    // Unified overlay function for borders and backgrounds with proper centering
+    async function addOverlayToCanvas(path, propName, opacitySlider, applyToAll = false) {
+        const img = await new Promise((resolve) =>
+            fabric.Image.fromURL(path, resolve, { crossOrigin: 'anonymous' })
+        );
 
-        fabric.Image.fromURL(path, (img) => {
-            if (!img) {
-                showMessage('Failed to load border image.', 'error');
-                return;
-            }
-            const borderOptions = {
-                scaleX: worksheetCanvas.width / img.width,
-                scaleY: worksheetCanvas.height / img.height,
-                left: worksheetCanvas.width / 2, top: worksheetCanvas.height / 2, originX: 'center', originY: 'center',
-                selectable: true, evented: true, hasControls: true, hasBorders: true,
-                isBorder: true, opacity: parseFloat(borderOpacitySlider.value),
-                borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
-                cornerSize: 10, transparentCorners: false, cornerStyle: 'circle',
-            };
-            
-            canvases.forEach(canvas => {
-                if (!canvas) return;
-                const newBorder = new fabric.Image(img.getElement(), borderOptions);
-                canvas.add(newBorder);
-                enforceZOrder(canvas);
-                canvas.renderAll();
+        if (!img) {
+            showMessage(`Failed to load ${propName === 'isBorder' ? 'border' : 'background'} image.`, 'error');
+            return;
+        }
+
+        const applyOverlay = (canvas) => {
+            if (!canvas) return;
+
+            // Remove existing overlay of the same type
+            const existing = canvas.getObjects().find(obj => obj[propName]);
+            if (existing) canvas.remove(existing);
+
+            // Use ACTUAL canvas dimensions from currentCanvasConfig, not display dimensions
+            const actualWidth = currentCanvasConfig.width;
+            const actualHeight = currentCanvasConfig.height;
+
+            // Scale to 70% of ACTUAL canvas height while preserving aspect ratio
+            const targetHeight = actualHeight * 0.7;
+            const scaleFactor = targetHeight / img.height;
+
+            const clonedImg = new fabric.Image(img.getElement(), {
+                [propName]: true,
+                originX: 'center',
+                originY: 'center',
+                left: actualWidth / 2,
+                top: actualHeight / 2,
+                scaleX: scaleFactor,
+                scaleY: scaleFactor,
+                selectable: true,
+                evented: true,
+                hasControls: true,
+                hasBorders: true,
+                opacity: parseFloat(opacitySlider.value),
+                borderColor: 'var(--app-accent-primary)',
+                cornerColor: 'var(--app-accent-primary)',
+                cornerSize: 10,
+                transparentCorners: false,
+                cornerStyle: 'circle'
             });
 
-            borderOpacitySlider.disabled = false;
-            showMessage('Border added.', 'success', 1500);
+            canvas.add(clonedImg);
+            enforceZOrder(canvas);
+            canvas.renderAll();
+        };
 
-        }, { crossOrigin: 'anonymous' });
+        // Apply only to the active canvas for independent control
+        applyOverlay(getActiveCanvas());
+
+        opacitySlider.disabled = false;
+        const overlayType = propName === 'isBorder' ? 'Border' : 'Background';
+        showMessage(`${overlayType} added.`, 'success', 1500);
+    }
+
+    function addBorderToCanvas(path) {
+        addOverlayToCanvas(path, 'isBorder', borderOpacitySlider, true);
     }
 
     // START: Added Background Functions
@@ -2732,34 +2794,7 @@ async function downloadPDF(canvasToExport, filename) {
     }
 
     function addBackgroundToCanvas(path) {
-        [worksheetCanvas, answerKeyCanvas].forEach(canvas => {
-            if (!canvas) return;
-            const existing = canvas.getObjects().find(obj => obj.isBackground);
-            if (existing) canvas.remove(existing);
-        });
-
-        fabric.Image.fromURL(path, (img) => {
-            if (!img) return;
-
-            const bgOptions = {
-                left: 0, top: 0,
-                scaleX: worksheetCanvas.width / img.width,
-                scaleY: worksheetCanvas.height / img.height,
-                selectable: true, evented: true, isBackground: true,
-                opacity: parseFloat(backgroundOpacitySlider.value),
-                borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
-            };
-
-            [worksheetCanvas, answerKeyCanvas].forEach(canvas => {
-                 const newBg = new fabric.Image(img.getElement(), bgOptions);
-                 canvas.add(newBg);
-                 enforceZOrder(canvas);
-                 canvas.renderAll();
-            });
-            
-            backgroundOpacitySlider.disabled = false;
-
-        }, { crossOrigin: 'anonymous' });
+        addOverlayToCanvas(path, 'isBackground', backgroundOpacitySlider, true);
     }
 
     function applyBackgroundOpacity(e) {
@@ -2917,28 +2952,31 @@ async function downloadPDF(canvasToExport, filename) {
         const activeObject = activeCanvas.getActiveObject();
         
         if (activeObject && (e.key === 'Delete' || e.key === 'Backspace') && !activeObject.isEditing) {
+            // Delete only from the active canvas
+            activeCanvas.remove(activeObject);
+            activeCanvas.renderAll();
+
+            // Sync UI only if no borders/backgrounds remain on either canvas
             if (activeObject.isBorder) {
-                const wsBorder = worksheetCanvas.getObjects().find(o => o.isBorder);
-                if(wsBorder) worksheetCanvas.remove(wsBorder);
-                const akBorder = answerKeyCanvas.getObjects().find(o => o.isBorder);
-                if(akBorder) answerKeyCanvas.remove(akBorder);
-                worksheetCanvas.renderAll();
-                answerKeyCanvas.renderAll();
-                borderThemeSelect.value = 'none';
-                document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
-                borderOpacitySlider.disabled = true;
-                borderOpacitySlider.value = 1;
+                const bordersExist = [worksheetCanvas, answerKeyCanvas].some(c =>
+                    c && c.getObjects().some(o => o.isBorder)
+                );
+                if (!bordersExist) {
+                    borderThemeSelect.value = 'none';
+                    document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
+                    borderOpacitySlider.disabled = true;
+                    borderOpacitySlider.value = 1;
+                }
             } else if (activeObject.isBackground) {
-                const wsBg = worksheetCanvas.getObjects().find(o => o.isBackground);
-                if(wsBg) worksheetCanvas.remove(wsBg);
-                const akBg = answerKeyCanvas.getObjects().find(o => o.isBackground);
-                if(akBg) answerKeyCanvas.remove(akBg);
-                worksheetCanvas.renderAll();
-                answerKeyCanvas.renderAll();
-                backgroundThemeSelect.value = 'none';
-                document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
-                backgroundOpacitySlider.disabled = true;
-                backgroundOpacitySlider.value = 1;
+                const backgroundsExist = [worksheetCanvas, answerKeyCanvas].some(c =>
+                    c && c.getObjects().some(o => o.isBackground)
+                );
+                if (!backgroundsExist) {
+                    backgroundThemeSelect.value = 'none';
+                    document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
+                    backgroundOpacitySlider.disabled = true;
+                    backgroundOpacitySlider.value = 1;
+                }
             } else {
                  activeCanvas.remove(activeObject);
                  if (activeObject.type === 'activeSelection') {
@@ -2978,8 +3016,19 @@ async function downloadPDF(canvasToExport, filename) {
     // Load themes after a short delay to ensure translations.js is ready
     setTimeout(() => {
         console.log('Loading border and background themes after delay');
-        loadBorderThemes();
-        loadBackgroundThemes();
+        // Initialize BulletproofLoader for borders and backgrounds
+        (async function() {
+            if (window.BulletproofLoader) {
+                await window.BulletproofLoader.init({
+                    borderSelect: borderThemeSelect,
+                    backgroundSelect: backgroundThemeSelect
+                });
+            } else {
+                // Fallback if BulletproofLoader not available
+                loadBorderThemes();
+                loadBackgroundThemes();
+            }
+        })();
     }, 100); 
     handleSelectionCleared(null, worksheetCanvas);
     renderSelectedObjectConfig();

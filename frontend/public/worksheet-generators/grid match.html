@@ -8,6 +8,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="js/translations.js"></script>
+    <script src="js/bulletproof-loader.js"></script>
+    <script src="js/unified-language-manager.js"></script>
+    <script src="js/border-background-sizer.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
@@ -791,15 +794,25 @@
     <div id="exportArea"></div>
 
     <script>
+    // MUST BE FIRST - Before ANY DOM element references
+    let currentLocale = 'en';
+    let currentCanvasConfig = { width: 612, height: 792 };
+
+    // Initialize locale from URL if present
+    const urlParams = new URLSearchParams(window.location.search);
+    const localeParam = urlParams.get('locale');
+    if (localeParam) {
+        currentLocale = localeParam;
+    }
+
+    // Set currentLocale globally BEFORE DOMContentLoaded (critical for enhancement scripts)
+    window.currentLocale = currentLocale;
+
     document.addEventListener("DOMContentLoaded", function () {
         // --- Global Constants & State ---
         const downloadMultiplier = 6;
-        
-        // Initialize locale BEFORE DOM elements
-        let currentLocale = 'en';
-        
+
         let wsCanvas, akCanvas;
-        let currentCanvasConfig = { width: 612, height: 792 };
         
         // State for assets
         let currentBorder = { path: null, theme: '' };
@@ -1096,12 +1109,35 @@
         
         // --- Asset (Border/Background) Functions ---
         async function loadAssetThemes(type, selectEl) {
-            // Background and border themes are hardcoded since Directus has limited theme structure
-            selectEl.innerHTML = `<option value="">None</option>`;
-            if (type === 'backgrounds') {
-                selectEl.innerHTML += `<option value="all">All Backgrounds</option>`;
-            } else if (type === 'borders') {
-                selectEl.innerHTML += `<option value="all">All Borders</option>`;
+            // Don't load if BulletproofLoader/UnifiedLanguageManager are actively managing themes
+            if (window.BulletproofLoader && window.UnifiedLanguageManager) {
+                // BulletproofLoader handles theme loading
+                console.log(`${type} themes managed by BulletproofLoader, skipping manual load...`);
+                return;
+            }
+
+            try {
+                selectEl.innerHTML = `<option value="">None</option>`;
+                const response = await fetch(`/api/${type}/themes?locale=${currentLocale}`);
+                if (!response.ok) {
+                    console.error(`Failed to load ${type} themes`);
+                    // Fallback to hardcoded
+                    if (type === 'backgrounds') {
+                        selectEl.innerHTML += `<option value="all">All Backgrounds</option>`;
+                    } else if (type === 'borders') {
+                        selectEl.innerHTML += `<option value="all">All Borders</option>`;
+                    }
+                    return;
+                }
+                const themes = await response.json();
+                themes.forEach(theme => {
+                    // Handle both object format {value, displayName} and string format
+                    const value = theme.value || theme;
+                    const displayName = theme.displayName || (typeof theme === 'string' ? theme.charAt(0).toUpperCase() + theme.slice(1) : value);
+                    selectEl.innerHTML += `<option value="${value}">${displayName}</option>`;
+                });
+            } catch (error) {
+                console.error(`Error loading ${type} themes:`, error);
             }
         }
 
@@ -1115,7 +1151,8 @@
                 return;
             }
             try {
-                const response = await fetch(`/api/borders?locale=${currentLocale}`);
+                const apiUrl = theme === 'all' ? `/api/borders?locale=${currentLocale}` : `/api/borders/images?theme=${theme}&locale=${currentLocale}`;
+                const response = await fetch(apiUrl);
                 if (!response.ok) throw new Error('Network response was not ok');
                 const data = await response.json();
                 const images = data.images || data;
@@ -1156,11 +1193,12 @@
                 return;
             }
              try {
-                // Load all backgrounds from Directus
-                const response = await fetch(`/api/backgrounds?locale=${currentLocale}`);
+                // Load backgrounds based on theme
+                const apiUrl = theme === 'all' ? `/api/backgrounds?locale=${currentLocale}` : `/api/backgrounds/images?theme=${theme}&locale=${currentLocale}`;
+                const response = await fetch(apiUrl);
                 if (!response.ok) throw new Error('Network response was not ok');
                 const data = await response.json();
-                const images = data.backgrounds || data || [];
+                const images = data.images || data.backgrounds || data || [];
                 
                 backgroundDictionary.innerHTML = "";
                 if (images.length === 0) {
@@ -1191,95 +1229,100 @@
         }
 
         function addBorderToCanvas(imageURL) {
-            [wsCanvas, akCanvas].forEach(canvas => {
-                if (!canvas) return;
-                canvas.getObjects().forEach(obj => { if (obj.isBorder) canvas.remove(obj); });
-                if (!imageURL) { 
-                    borderOpacitySlider.disabled = true;
-                    canvas.renderAll();
-                    return;
-                }
+            const canvas = getActiveCanvas();
+            if (!canvas) return;
 
-                fabric.Image.fromURL(imageURL, (img) => {
-                    img.set({
-                        originX: 'center', originY: 'center',
-                        left: canvas.width / 2, top: canvas.height / 2,
-                        selectable: true, evented: true, isBorder: true,
-                        opacity: parseFloat(borderOpacitySlider.value),
-                        borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 10, transparentCorners: false
-                    });
-                    img.scaleToWidth(canvas.width);
-                    img.scaleToHeight(canvas.height);
-                    canvas.add(img);
-                    enforceZOrder(canvas);
-                    borderOpacitySlider.disabled = false;
-                    canvas.renderAll();
-                }, { crossOrigin: 'anonymous' });
-            });
+            canvas.getObjects().forEach(obj => { if (obj.isBorder) canvas.remove(obj); });
+            if (!imageURL) {
+                borderOpacitySlider.disabled = true;
+                canvas.renderAll();
+                return;
+            }
+
+            fabric.Image.fromURL(imageURL, (img) => {
+                // Scale to 70% of actual canvas height (professional standard)
+                const targetHeight = currentCanvasConfig.height * 0.7;
+                img.scaleToHeight(targetHeight);
+
+                img.set({
+                    originX: 'center', originY: 'center',
+                    left: currentCanvasConfig.width / 2, top: currentCanvasConfig.height / 2,
+                    selectable: true, evented: true, isBorder: true,
+                    opacity: parseFloat(borderOpacitySlider.value),
+                    borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 10, transparentCorners: false
+                });
+                canvas.add(img);
+                enforceZOrder(canvas);
+                borderOpacitySlider.disabled = false;
+                canvas.renderAll();
+            }, { crossOrigin: 'anonymous' });
         }
         
         function applyBorderOpacity() {
             const opacity = parseFloat(borderOpacitySlider.value);
-            [wsCanvas, akCanvas].forEach(canvas => {
-                if (!canvas) return;
-                const borderImg = canvas.getObjects().find(o => o.isBorder);
-                if (borderImg) {
-                    borderImg.set('opacity', opacity);
-                    canvas.renderAll();
-                }
-            });
+            const canvas = getActiveCanvas();
+            if (!canvas) return;
+            const borderImg = canvas.getObjects().find(o => o.isBorder);
+            if (borderImg) {
+                borderImg.set('opacity', opacity);
+                canvas.renderAll();
+            }
         }
 
         function addBackgroundToCanvas(path) {
-            [wsCanvas, akCanvas].forEach(canvas => {
-                if (!canvas) return;
+            const canvas = getActiveCanvas();
+            if (!canvas) return;
 
-                canvas.getObjects().forEach(obj => { if (obj.isBackground) canvas.remove(obj); });
-                
-                if (!path) {
-                    canvas.backgroundColor = pageColorInput.value; 
-                    backgroundOpacitySlider.disabled = true;
-                    canvas.renderAll();
-                    return;
-                }
+            canvas.getObjects().forEach(obj => { if (obj.isBackground) canvas.remove(obj); });
 
-                fabric.Image.fromURL(path, (img) => {
-                    const config = {
-                        selectable: true, 
-                        evented: true, 
-                        isBackground: true,
-                        opacity: parseFloat(backgroundOpacitySlider.value),
-                        borderColor: 'var(--app-accent-primary)', 
-                        cornerColor: 'var(--app-accent-primary)', 
-                        cornerSize: 10, 
-                        transparentCorners: false
-                    };
-                    
-                    const imageForCanvas = fabric.util.object.clone(img);
-                    imageForCanvas.set(config);
-                    imageForCanvas.scaleToWidth(canvas.width);
-                    imageForCanvas.scaleToHeight(canvas.height);
-                    canvas.add(imageForCanvas);
-                    
-                    enforceZOrder(canvas);
-                    
-                    canvas.renderAll();
-                }, { crossOrigin: 'anonymous' });
-                
-                backgroundOpacitySlider.disabled = false;
-            });
+            if (!path) {
+                canvas.backgroundColor = pageColorInput.value;
+                backgroundOpacitySlider.disabled = true;
+                canvas.renderAll();
+                return;
+            }
+
+            fabric.Image.fromURL(path, (img) => {
+                const config = {
+                    selectable: true,
+                    evented: true,
+                    isBackground: true,
+                    opacity: parseFloat(backgroundOpacitySlider.value),
+                    borderColor: 'var(--app-accent-primary)',
+                    cornerColor: 'var(--app-accent-primary)',
+                    cornerSize: 10,
+                    transparentCorners: false
+                };
+
+                // Scale to 70% of actual canvas height (professional standard)
+                const targetHeight = currentCanvasConfig.height * 0.7;
+
+                img.scaleToHeight(targetHeight);
+                img.set({
+                    ...config,
+                    originX: 'center',
+                    originY: 'center',
+                    left: currentCanvasConfig.width / 2,
+                    top: currentCanvasConfig.height / 2
+                });
+                canvas.add(img);
+
+                enforceZOrder(canvas);
+                canvas.renderAll();
+            }, { crossOrigin: 'anonymous' });
+
+            backgroundOpacitySlider.disabled = false;
         }
 
         function applyBackgroundOpacity() {
             const opacity = parseFloat(backgroundOpacitySlider.value);
-            [wsCanvas, akCanvas].forEach(canvas => {
-                if (!canvas) return;
-                const bgImg = canvas.getObjects().find(o => o.isBackground);
-                if (bgImg) {
-                    bgImg.set('opacity', opacity);
-                    canvas.renderAll();
-                }
-            });
+            const canvas = getActiveCanvas();
+            if (!canvas) return;
+            const bgImg = canvas.getObjects().find(o => o.isBackground);
+            if (bgImg) {
+                bgImg.set('opacity', opacity);
+                canvas.renderAll();
+            }
         }
 
         // --- Image Library Logic ---
@@ -2610,11 +2653,9 @@ async function downloadPDF(canvasToExport, filename) {
         function initializeApp() {
             // Initialize language from URL params
             const languageSelect = $('languageSelect');
-            const urlParams = new URLSearchParams(window.location.search);
-            const localeParam = urlParams.get('locale');
-            if (localeParam && languageSelect) {
-                languageSelect.value = localeParam;
-                currentLocale = localeParam;
+            // urlParams already declared globally
+            if (currentLocale && languageSelect) {
+                languageSelect.value = currentLocale;
             }
             
             // Apply initial translations
@@ -2623,18 +2664,12 @@ async function downloadPDF(canvasToExport, filename) {
             // Language change handler
             if (languageSelect) {
                 languageSelect.addEventListener('change', function() {
-                    currentLocale = this.value;
-                    applyTranslations();
-                    
-                    // Reload themes with new locale
-                    loadThemes();
-                    loadBorderThemes();
-                    loadBackgroundThemes();
-                    
-                    // If a theme is selected, reload its images
-                    if (themeSelect.value) {
-                        renderDictionary();
-                    }
+                    const newLocale = this.value;
+
+                    // Update URL and reload page (like Addition app does)
+                    const url = new URL(window.location.href);
+                    url.searchParams.set('locale', newLocale);
+                    window.location.href = url.toString();
                 });
             }
             
@@ -2650,8 +2685,26 @@ async function downloadPDF(canvasToExport, filename) {
             loadThemes().then(() => {
                 loadDictionary(); // Load images after themes are loaded
             });
-            loadBorderThemes();
-            loadBackgroundThemes();
+            // Initialize BulletproofLoader AFTER core functionality is set up
+            if (window.BulletproofLoader) {
+                window.BulletproofLoader.init({
+                    borderSelect: borderThemeSelect,
+                    backgroundSelect: backgroundThemeSelect
+                }).then(() => {
+                    console.log('BulletproofLoader initialized successfully');
+                    // BulletproofLoader handles theme loading, no need for manual loading
+                }).catch(error => {
+                    console.error('BulletproofLoader init failed:', error);
+                    // Fallback to manual loading only on error
+                    loadBorderThemes();
+                    loadBackgroundThemes();
+                });
+            } else {
+                // Fallback if BulletproofLoader not available
+                loadBorderThemes();
+                loadBackgroundThemes();
+            }
+
             renderSelectedImagePreview();
             renderUploadedImages();
             handleSelectionCleared(null, getActiveCanvas());

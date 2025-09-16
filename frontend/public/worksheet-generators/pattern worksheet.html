@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pattern Worksheet Generator</title>
   <script src="js/translations.js"></script>
+  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/unified-language-manager.js"></script>
+  <script src="js/border-background-sizer.js"></script>
+  <script src="js/auto-fix-system.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
@@ -626,16 +630,18 @@
   </div>
 
   <script>
-    // MUST BE GLOBAL - Before DOMContentLoaded
+    // MUST BE GLOBAL - Before DOMContentLoaded for proper enhancement script initialization
     let currentLocale = 'en';
     let currentCanvasConfig = { width: 612, height: 792 };
-    
+
     // Initialize locale from URL if present
     const urlParams = new URLSearchParams(window.location.search);
     const localeParam = urlParams.get('locale');
     if (localeParam) {
         currentLocale = localeParam;
     }
+    // Set globally for all enhancement scripts
+    window.currentLocale = currentLocale;
     
     document.addEventListener("DOMContentLoaded", function() {
         // --- CACHED DOM ELEMENTS ---
@@ -882,9 +888,7 @@
               })
               .catch(err => { console.error("Error loading themes:", err); showMessage(err.message, 'error'); });
 
-            ui.borderThemeSelect.innerHTML += '<option value="all">All Borders</option>';
-
-            ui.backgroundThemeSelect.innerHTML += '<option value="all">All Backgrounds</option>';
+            // Border and background themes will be populated by BulletproofLoader
         }
         
         function getActiveCanvas() {
@@ -899,11 +903,10 @@
             if (languageSelect) {
                 languageSelect.value = currentLocale;
                 languageSelect.addEventListener('change', function() {
-                    currentLocale = this.value;
-                    if (typeof applyTranslations !== 'undefined') {
-                        applyTranslations();
-                    }
-                    loadAllAssetThemes();
+                    const newLocale = this.value;
+                    const url = new URL(window.location);
+                    url.searchParams.set('locale', newLocale);
+                    window.location.href = url.toString();
                     // Reload current theme images if any
                     if (puzzleConfigs.length > 0) {
                         loadDictionaryImages(false);
@@ -2352,17 +2355,18 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             }
             dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading...</p>`;
             try {
-                const res = await fetch(`/api/${type}s?locale=${currentLocale}`);
+                const res = await fetch(`/api/${type}s/images?theme=${theme}&locale=${currentLocale}`);
                 if (!res.ok) throw new Error(`Failed to load ${type} images.`);
                 const data = await res.json();
-                const images = data.images || data;
+                const images = data.images || data[`${type}s`] || data || [];
                 dictionaryDiv.innerHTML = "";
                 images.forEach(imgData => {
                     const item = document.createElement("div");
                     item.className = "border-thumbnail-item";
-                    item.innerHTML = `<img src="${imgData.path}" alt="${imgData.name}" loading="lazy" />`;
+                    const imgPath = imgData.url || imgData.path;
+                    item.innerHTML = `<img src="${imgPath}" alt="${imgData.name}" loading="lazy" />`;
                     item.onclick = () => {
-                        addFunction(imgData.path);
+                        addFunction(imgPath);
                         dictionaryDiv.querySelectorAll('.selected').forEach(el => el.classList.remove('selected'));
                         item.classList.add('selected');
                     };
@@ -2381,15 +2385,15 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
         }
         function addCanvasAsset(path, flag, isSelectable, opacitySlider) {
             const assetFlag = flag;
-            [worksheetCanvas, answerKeyCanvas].forEach(canvas => {
-                if (!canvas) return;
-                const existingAsset = canvas.getObjects().find(obj => obj[assetFlag]);
-                if (existingAsset) canvas.remove(existingAsset);
-            });
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+
+            const existingAsset = activeCanvas.getObjects().find(obj => obj[assetFlag]);
+            if (existingAsset) activeCanvas.remove(existingAsset);
 
             fabric.Image.fromURL(path, (img) => {
                 if (!img) { showMessage(`Failed to load asset image.`, 'error'); return; }
-                
+
                 const commonConfig = {
                     left: currentCanvasConfig.width / 2, top: currentCanvasConfig.height / 2,
                     originX: 'center', originY: 'center',
@@ -2398,20 +2402,14 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
                     [assetFlag]: true,
                 };
 
+                // Scale to 70% of actual canvas height (professional standard)
+                const targetHeight = currentCanvasConfig.height * 0.7;
+                img.scaleToHeight(targetHeight);
                 img.set(commonConfig);
-                img.scaleToWidth(worksheetCanvas.width);
-                if (img.getScaledHeight() > worksheetCanvas.height) {
-                    img.scaleToHeight(worksheetCanvas.height);
-                }
 
-                worksheetCanvas.add(img);
-                enforceZOrder(worksheetCanvas);
-                worksheetCanvas.renderAll();
-
-                const akImg = fabric.util.object.clone(img);
-                answerKeyCanvas.add(akImg);
-                enforceZOrder(answerKeyCanvas);
-                answerKeyCanvas.renderAll();
+                activeCanvas.add(img);
+                enforceZOrder(activeCanvas);
+                activeCanvas.renderAll();
 
                 opacitySlider.disabled = false;
             }, { crossOrigin: 'anonymous' });
@@ -2424,10 +2422,13 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
         }
         function applyAssetOpacity(flag, slider) {
             const newOpacity = parseFloat(slider.value);
-            [worksheetCanvas, answerKeyCanvas].forEach(c => {
-                const asset = c.getObjects().find(obj => obj[flag]);
-                if (asset) { asset.set('opacity', newOpacity); c.renderAll(); }
-            });
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+            const asset = activeCanvas.getObjects().find(obj => obj[flag]);
+            if (asset) {
+                asset.set('opacity', newOpacity);
+                activeCanvas.renderAll();
+            }
         }
         
         function addText() {
@@ -2581,7 +2582,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             const activeObjects = activeCanvas.getActiveObjects();
             if (activeObjects.length > 0) {
                 activeObjects.forEach(obj => {
-                    if (!obj.isBorder && !obj.isBackground) activeCanvas.remove(obj);
+                    activeCanvas.remove(obj);
                 });
                 activeCanvas.discardActiveObject().renderAll();
             }
@@ -2680,8 +2681,26 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             activeCanvas.renderAll();
             closeAllPopovers();
         }
-        
+
         initializeApp();
+
+        // Initialize BulletproofLoader to handle border/background themes
+        // EXACTLY like addition.html and picture path.html do it
+        if (window.BulletproofLoader) {
+            console.log('Initializing BulletproofLoader with locale:', currentLocale);
+
+            window.BulletproofLoader.init({
+                borderSelect: ui.borderThemeSelect,
+                backgroundSelect: ui.backgroundThemeSelect,
+                locale: currentLocale  // EXPLICITLY pass the locale
+            }).then(() => {
+                console.log('✅ BulletproofLoader initialized successfully');
+            }).catch(err => {
+                console.error('❌ BulletproofLoader failed:', err);
+            });
+        } else {
+            console.warn('⚠️ BulletproofLoader not found');
+        }
     });
   </script>
 </body>

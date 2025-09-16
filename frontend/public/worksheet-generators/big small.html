@@ -3,9 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <title>Big & Small Worksheet Generator</title>
+  <!-- Set locale BEFORE any scripts load -->
+  <script>
+    window.currentLocale = 'en';
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('locale')) {
+      window.currentLocale = urlParams.get('locale');
+    }
+  </script>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="/worksheet-generators/js/translations.js"></script>
+  <script src="/worksheet-generators/js/bulletproof-loader.js"></script>
+  <script src="/worksheet-generators/js/unified-language-manager.js"></script>
+  <script src="/worksheet-generators/js/border-background-sizer.js"></script>
+  <script src="/worksheet-generators/js/auto-fix-system.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
@@ -924,16 +937,9 @@
 
   <script>
     // MUST BE FIRST - Before ANY DOM element references
-    let currentLocale = 'en';
+    let currentLocale = window.currentLocale || 'en';
     let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
-    
-    // Initialize locale from URL if present
-    const urlParams = new URLSearchParams(window.location.search);
-    const localeParam = urlParams.get('locale');
-    if (localeParam) {
-        currentLocale = localeParam;
-    }
-    
+
     document.addEventListener("DOMContentLoaded", function() {
       // --- DEFAULT STATE & CONSTANTS ---
       const DEFAULT_PROBLEM_COUNT = 4;
@@ -1189,10 +1195,10 @@
       async function getImagesForTheme(theme) {
           if (allImagesCache[theme]) return allImagesCache[theme];
           try {
-              const images = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`).then(res => {
-                  if (!res.ok) throw new Error(`Network response was not ok for theme: ${theme}`);
-                  return res.json();
-              });
+              const response = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
+              if (!response.ok) throw new Error(`Network response was not ok for theme: ${theme}`);
+              const data = await response.json();
+              const images = data.images || data; // CRITICAL: Handle both response formats
               allImagesCache[theme] = images;
               return images;
           } catch (e) {
@@ -1559,15 +1565,16 @@
       async function loadAssetThemes(type, selectEl) {
           try {
               selectEl.innerHTML = `<option value="none">None</option>`;
-              const response = await fetch(`/api/${type}/themes`);
+              const response = await fetch(`/api/${type}/themes?locale=${currentLocale}`);
               if (!response.ok) {
                   console.error(`Failed to load ${type} themes`);
                   return;
               }
               const themes = await response.json();
               themes.forEach(theme => {
-                  const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
-                  selectEl.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                  const displayName = theme.displayName || theme.value || theme;
+                  const value = theme.value || theme;
+                  selectEl.innerHTML += `<option value="${value}">${displayName}</option>`;
               });
           } catch (error) {
               console.error(`Error loading ${type} themes:`, error);
@@ -1575,20 +1582,21 @@
       }
 
       function loadAssetImages(type, theme, dictionaryEl, addFunc) {
+            const activeCanvas = getActiveCanvas();
             if (theme === 'none') {
                 dictionaryEl.innerHTML = `<p class="dictionary-message">Select a theme to see ${type}.</p>`;
                 const propName = `is${type.charAt(0).toUpperCase() + type.slice(1, -1)}`;
-                const existingAsset = worksheetCanvas.getObjects().find(obj => obj[propName]);
+                const existingAsset = activeCanvas.getObjects().find(obj => obj[propName]);
                 if (existingAsset) {
-                  worksheetCanvas.remove(existingAsset);
-                  worksheetCanvas.renderAll();
+                  activeCanvas.remove(existingAsset);
+                  activeCanvas.renderAll();
                 }
                 dictionaryEl.querySelectorAll('.border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                 return;
             }
             dictionaryEl.innerHTML = `<p class="dictionary-message">Loading ${type}...</p>`;
-            // Use filesystem endpoint for specific themes
-            const url = `/api/${type}/images?theme=${theme}`;
+            // Use filesystem endpoint for specific themes with locale
+            const url = `/api/${type}/images?theme=${theme}&locale=${currentLocale}`;
             fetch(url)
                 .then(res => { if (!res.ok) throw new Error(`Failed to load ${type}`); return res.json(); })
                 .then(data => {
@@ -1615,43 +1623,66 @@
       function loadBorderImages() { loadAssetImages('borders', borderThemeSelect.value, borderDictionary, addBorderToCanvas); }
       function loadBackgroundImages() { loadAssetImages('backgrounds', backgroundThemeSelect.value, backgroundDictionary, addBackgroundToCanvas); }
 
+      // Unified overlay function for both borders and backgrounds
+      function addOverlayToCanvas(path, type) {
+          const activeCanvas = getActiveCanvas();
+          if (!activeCanvas) return;
+
+          const propName = type === 'border' ? 'isBorder' : 'isBackground';
+          const opacitySlider = type === 'border' ? borderOpacityInput : backgroundOpacityInput;
+          const isEditable = true; // Always make borders/backgrounds editable
+
+          // Remove existing overlay of the same type
+          const existing = activeCanvas.getObjects().find(obj => obj[propName]);
+          if (existing) activeCanvas.remove(existing);
+
+          fabric.Image.fromURL(path, (img) => {
+              img.clone(clonedImg => {
+                  // Use ACTUAL canvas dimensions, not display dimensions
+                  const actualWidth = currentCanvasConfig.width;
+                  const actualHeight = currentCanvasConfig.height;
+
+                  // Scale to 70% of ACTUAL canvas height
+                  const targetHeight = actualHeight * 0.7;
+                  const scaleFactor = targetHeight / img.height;
+
+                  clonedImg.set({
+                      [propName]: true,
+                      originX: 'center',
+                      originY: 'center',
+                      left: actualWidth / 2,  // Use actual dimensions for correct centering
+                      top: actualHeight / 2,   // Use actual dimensions for correct centering
+                      scaleX: scaleFactor,
+                      scaleY: scaleFactor,
+                      selectable: isEditable,
+                      evented: isEditable,
+                      hasControls: isEditable,
+                      hasBorders: isEditable,
+                      opacity: parseFloat(opacitySlider.value),
+                      borderColor: 'var(--app-accent-primary)',
+                      cornerColor: 'var(--app-accent-primary)',
+                      cornerSize: 10,
+                      transparentCorners: false,
+                      cornerStyle: 'circle'
+                  });
+
+                  activeCanvas.add(clonedImg);
+                  enforceZOrder(activeCanvas);
+                  activeCanvas.renderAll();
+
+                  if (type === 'background') {
+                      backgroundOpacityInput.disabled = false;
+                  }
+              });
+          }, { crossOrigin: 'anonymous' });
+      }
+
       function addBorderToCanvas(path) {
-        if (!worksheetCanvas) return;
-        const opacityValue = parseFloat(borderOpacityInput.value);
-        const existingBorder = worksheetCanvas.getObjects().find(obj => obj.isBorder);
-        if (existingBorder) worksheetCanvas.remove(existingBorder);
-        fabric.Image.fromURL(path, (img) => {
-            img.scaleToWidth(worksheetCanvas.width);
-            img.set({
-                left: worksheetCanvas.width / 2, top: worksheetCanvas.height / 2, originX: 'center', originY: 'center',
-                selectable: true, evented: true, hasControls: true, hasBorders: true, isBorder: true,
-                opacity: opacityValue,
-                borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
-            });
-            worksheetCanvas.add(img);
-            enforceZOrder(worksheetCanvas);
-            worksheetCanvas.renderAll();
-        }, { crossOrigin: 'anonymous' });
+          addOverlayToCanvas(path, 'border');
       }
 
       function addBackgroundToCanvas(path) {
-          if (!worksheetCanvas) return;
-          const existingBg = worksheetCanvas.getObjects().find(obj => obj.isBackground);
-          if (existingBg) worksheetCanvas.remove(existingBg);
-
-          fabric.Image.fromURL(path, (img) => {
-              img.scaleToWidth(worksheetCanvas.width);
-              img.set({
-                  left: 0, top: 0, originX: 'left', originY: 'top',
-                  selectable: true, evented: true, isBackground: true,
-                  opacity: parseFloat(backgroundOpacityInput.value),
-                  borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
-              });
-              worksheetCanvas.add(img);
-              backgroundOpacityInput.disabled = false;
-              enforceZOrder(worksheetCanvas);
-              worksheetCanvas.renderAll();
-          }, { crossOrigin: 'anonymous' });
+          addOverlayToCanvas(path, 'background');
       }
       
       function applyBackgroundOpacity() {
@@ -2615,22 +2646,49 @@ async function downloadPDF(canvasInstance, fileName) {
         addExerciseNumbersCheckbox.checked = DEFAULT_EXERCISE_NUMBERS;
         
         loadThemes();
-        loadBorderThemes();
-        loadBackgroundThemes();
+
+        // Initialize BulletproofLoader for borders and backgrounds
+        if (window.BulletproofLoader) {
+            window.BulletproofLoader.init({
+                borderSelect: borderThemeSelect,
+                backgroundSelect: backgroundThemeSelect
+            }).then(() => {
+                console.log('BulletproofLoader initialized');
+            });
+        } else {
+            // Fallback if BulletproofLoader not available
+            loadBorderThemes();
+            loadBackgroundThemes();
+        }
+
         renderSelectedImagesPreview();
         handleSelectionCleared(null, getActiveCanvas());
       }
-      
+
       // --- LANGUAGE HANDLER (MUST BE AFTER all getElementById calls) ---
       const languageSelect = document.getElementById('languageSelect');
       if (languageSelect) {
           languageSelect.value = currentLocale;
           languageSelect.addEventListener('change', function() {
-              currentLocale = this.value;
-              if (typeof applyTranslations === 'function') {
-                  applyTranslations();
+              const newLocale = this.value;
+              currentLocale = newLocale;
+
+              if (window.UnifiedLanguageManager) {
+                  window.UnifiedLanguageManager.changeLanguage(newLocale).then(() => {
+                      console.log('Language changed to', newLocale);
+                  });
+                  // UnifiedLanguageManager handles theme reloading, so just reload app-specific content
+                  loadThemes();
+              } else {
+                  // Fallback if UnifiedLanguageManager not available
+                  if (typeof applyTranslations === 'function') {
+                      applyTranslations();
+                  }
+                  loadThemes();
+                  loadBorderThemes();
+                  loadBackgroundThemes();
               }
-              loadThemes(); // Reload themes with translations
+
               // If images are loaded, reload them
               if (dictionaryThemeSelect && dictionaryThemeSelect.value && dictionaryThemeSelect.value !== 'all') {
                   loadDictionary();

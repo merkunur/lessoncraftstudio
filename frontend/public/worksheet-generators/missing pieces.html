@@ -6,6 +6,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations.js"></script>
+  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/unified-language-manager.js"></script>
+  <script src="js/border-background-sizer.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
@@ -921,6 +924,14 @@
   <div id="exportArea"></div>
 
   <script>
+    // Set currentLocale globally BEFORE DOMContentLoaded (critical for enhancement scripts)
+    let currentLocale = 'en';
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('locale')) {
+        currentLocale = urlParams.get('locale');
+    }
+    window.currentLocale = currentLocale;
+
     document.addEventListener("DOMContentLoaded", function() {
         // Accordion & Responsive Sidebar Logic (Standard)
         const accordionButtons = document.querySelectorAll('.accordion-button');
@@ -949,7 +960,7 @@
         menuOverlay.addEventListener('click', closeMenu);
 
         // --- Global App State & Constants ---
-        let currentLocale = 'en'; // Current language setting
+        // currentLocale already set globally
         let uploadedImages = [];
         let selectedImages = [];
         let lastGeneratedPuzzleData = null;
@@ -1192,9 +1203,9 @@
             const activeCanvas = getActiveCanvas();
             const activeObjects = activeCanvas.getActiveObjects();
             if (activeObjects.length > 0) {
-                activeObjects.forEach(obj => { 
-                    if (!obj.isGeneratedItem && !obj.isAnswerKeyItem && !obj.isBorder && !obj.isBackground) {
-                        activeCanvas.remove(obj); 
+                activeObjects.forEach(obj => {
+                    if (!obj.isGeneratedItem && !obj.isAnswerKeyItem) {
+                        activeCanvas.remove(obj);
                     }
                 });
                 activeCanvas.discardActiveObject().renderAll();
@@ -1467,8 +1478,7 @@
                 }
                 const themes = await response.json();
                 themes.forEach(theme => {
-                    const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
-                    borderThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                    borderThemeSelect.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
                 });
             } catch (error) {
                 console.error('Error loading border themes:', error);
@@ -1484,8 +1494,7 @@
                 }
                 const themes = await response.json();
                 themes.forEach(theme => {
-                    const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
-                    backgroundThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                    backgroundThemeSelect.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
                 });
             } catch (error) {
                 console.error('Error loading background themes:', error);
@@ -1529,10 +1538,24 @@
         }
         function addBorderToCanvas(path) {
             const activeCanvas = getActiveCanvas();
-            const existing = activeCanvas.getObjects().find(o => o.isBorder); if (existing) activeCanvas.remove(existing);
+            const existing = activeCanvas.getObjects().find(o => o.isBorder);
+            if (existing) activeCanvas.remove(existing);
+
             fabric.Image.fromURL(path, (img) => {
-                img.set({ isBorder: true, selectable: true, evented: true, originX: 'center', originY: 'center', left: activeCanvas.width / 2, top: activeCanvas.height / 2, opacity: parseFloat(borderOpacitySlider.value) });
-                img.scaleToWidth(activeCanvas.width);
+                // Scale to 70% of canvas height (professional standard)
+                const targetHeight = currentCanvasConfig.height * 0.7;
+                img.scaleToHeight(targetHeight);
+
+                img.set({
+                    isBorder: true,
+                    selectable: true,
+                    evented: true,
+                    originX: 'center',
+                    originY: 'center',
+                    left: currentCanvasConfig.width / 2,
+                    top: currentCanvasConfig.height / 2,
+                    opacity: parseFloat(borderOpacitySlider.value)
+                });
                 activeCanvas.add(img);
                 enforceZOrder(activeCanvas);
                 activeCanvas.renderAll();
@@ -1541,12 +1564,26 @@
         }
         function addBackgroundToCanvas(path) {
             const activeCanvas = getActiveCanvas();
-            const existing = activeCanvas.getObjects().find(o => o.isBackground); if (existing) activeCanvas.remove(existing);
+            const existing = activeCanvas.getObjects().find(o => o.isBackground);
+            if (existing) activeCanvas.remove(existing);
+
             fabric.Image.fromURL(path, (img) => {
-                img.set({ isBackground: true, selectable: true, evented: true, originX: 'center', originY: 'center', left: activeCanvas.width / 2, top: activeCanvas.height / 2, opacity: parseFloat(backgroundOpacitySlider.value) });
-                img.scaleToWidth(activeCanvas.width);
+                // Scale to 70% of canvas height (professional standard)
+                const targetHeight = currentCanvasConfig.height * 0.7;
+                img.scaleToHeight(targetHeight);
+
+                img.set({
+                    isBackground: true,
+                    selectable: true,
+                    evented: true,
+                    originX: 'center',
+                    originY: 'center',
+                    left: currentCanvasConfig.width / 2,
+                    top: currentCanvasConfig.height / 2,
+                    opacity: parseFloat(backgroundOpacitySlider.value)
+                });
                 activeCanvas.add(img);
-                enforceZOrder(activeCanvas)
+                enforceZOrder(activeCanvas);
                 activeCanvas.renderAll();
                 backgroundOpacitySlider.disabled = false;
             }, { crossOrigin: 'anonymous' });
@@ -2360,14 +2397,11 @@ async function downloadPDF(canvasToExport, filename) {
         
         if (languageSelect) {
             languageSelect.addEventListener('change', function() {
-                currentLocale = this.value;
-                applyTranslations();
-                loadThemes();
-                loadBorderThemes();
-                loadBackgroundThemes();
-                if (themeSelect.value && themeSelect.value !== 'all') {
-                    loadDictionary();
-                }
+                const newLocale = this.value;
+                // Update URL and reload page (like Addition app does)
+                const url = new URL(window.location.href);
+                url.searchParams.set('locale', newLocale);
+                window.location.href = url.toString();
             });
         }
         
@@ -2390,7 +2424,22 @@ async function downloadPDF(canvasToExport, filename) {
         }
         
         applyTranslations();
-        loadThemes(); loadBorderThemes(); loadBackgroundThemes();
+        loadThemes();
+
+        // Initialize BulletproofLoader for borders and backgrounds
+        if (window.BulletproofLoader) {
+            window.BulletproofLoader.init({
+                borderSelect: borderThemeSelect,
+                backgroundSelect: backgroundThemeSelect
+            }).then(() => {
+                console.log('BulletproofLoader initialized');
+            });
+        } else {
+            // Fallback if BulletproofLoader not available
+            loadBorderThemes();
+            loadBackgroundThemes();
+        }
+
         // Load dictionary after themes are loaded
         setTimeout(() => {
             if (themeSelect && themeSelect.value === 'all') {

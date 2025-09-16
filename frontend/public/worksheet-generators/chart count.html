@@ -4,9 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Picture Graph Playground</title>
+  <script src="js/translations.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="js/translations.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
   <style>
@@ -675,18 +675,21 @@
 <div id="exportArea"></div>
 
 <script>
-    // MUST BE FIRST - Before ANY DOM element references
+    // Set currentLocale globally BEFORE DOMContentLoaded (like addition.html does)
     let currentLocale = 'en';
-    let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
-    
-    // Initialize locale from URL if present
     const urlParams = new URLSearchParams(window.location.search);
-    const localeParam = urlParams.get('locale');
-    if (localeParam) {
-        currentLocale = localeParam;
+    if (urlParams.get('locale')) {
+        currentLocale = urlParams.get('locale');
     }
+    window.currentLocale = currentLocale; // Make it globally accessible
+    console.log('Global currentLocale set to:', currentLocale);
 
-document.addEventListener('DOMContentLoaded', () => {
+    // Canvas config must be global for overlay function
+    let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
     // --- STATE MANAGEMENT ---
     let imageCache = { themes: [] };
     let selectedImages = [];
@@ -857,7 +860,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     applyTranslations();
                 }
                 initializeImageLibrary(); // Reload themes with translations
-                
+
                 // If a theme is selected, reload its images
                 if (themeSelect.value && themeSelect.value !== 'all') {
                     handleThemeChange();
@@ -1794,21 +1797,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function deleteSelectedObjects() {
         const activeCanvas = getActiveCanvas();
-        const otherCanvas = activeCanvas === worksheetCanvas ? solutionCanvas : worksheetCanvas;
         const activeObjects = activeCanvas.getActiveObjects();
         if (activeObjects.length > 0) {
             activeObjects.forEach(obj => {
-                if (obj.isBackground || obj.isBorder || obj.isNameDate) {
-                    const otherObj = otherCanvas.getObjects().find(o => 
-                        (o.isBackground && obj.isBackground) || 
-                        (o.isBorder && obj.isBorder) ||
-                        (o.isNameDate && obj.isNameDate)
-                    );
-                    if(otherObj) otherCanvas.remove(otherObj);
-                }
+                // Only delete from the active canvas
                 activeCanvas.remove(obj);
+
+                // Update UI if deleting border or background
+                if (obj.isBorder) {
+                    borderThemeSelect.value = 'none';
+                }
+                if (obj.isBackground) {
+                    backgroundThemeSelect.value = 'none';
+                }
             });
-            otherCanvas.renderAll();
             activeCanvas.discardActiveObject().renderAll();
         }
         closeAllPopovers();
@@ -2089,8 +2091,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             const themes = await response.json();
             themes.forEach(theme => {
-                const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
-                borderThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                // Handle both object format {value, displayName} and string format
+                const value = theme.value || theme;
+                const displayName = theme.displayName || (typeof theme === 'string' ? theme.charAt(0).toUpperCase() + theme.slice(1) : value);
+                borderThemeSelect.innerHTML += `<option value="${value}">${displayName}</option>`;
             });
         } catch (error) {
             console.error('Error loading border themes:', error);
@@ -2107,8 +2111,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             const themes = await response.json();
             themes.forEach(theme => {
-                const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
-                backgroundThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                // Handle both object format {value, displayName} and string format
+                const value = theme.value || theme;
+                const displayName = theme.displayName || (typeof theme === 'string' ? theme.charAt(0).toUpperCase() + theme.slice(1) : value);
+                backgroundThemeSelect.innerHTML += `<option value="${value}">${displayName}</option>`;
             });
         } catch (error) {
             console.error('Error loading background themes:', error);
@@ -2120,20 +2126,20 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
         if (theme === 'none') {
             backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see backgrounds.</p>';
-            [worksheetCanvas, solutionCanvas].forEach(canvas => {
-                if (!canvas) return;
-                const existingBg = canvas.getObjects().find(obj => obj.isBackground);
+            const activeCanvas = getActiveCanvas();
+            if (activeCanvas) {
+                const existingBg = activeCanvas.getObjects().find(obj => obj.isBackground);
                 if (existingBg) {
-                    canvas.remove(existingBg);
-                    canvas.renderAll();
+                    activeCanvas.remove(existingBg);
+                    activeCanvas.renderAll();
                 }
-            });
+            }
             return;
         }
 
         backgroundDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} backgrounds...</p>`;
         try {
-            const apiUrl = `/api/backgrounds/images?theme=${theme}`;
+            const apiUrl = `/api/backgrounds/images?theme=${theme}&locale=${currentLocale}`;
             const response = await fetch(apiUrl).then(res => res.ok ? res.json() : []);
             const images = response.images || response;
             backgroundDictionary.innerHTML = "";
@@ -2156,50 +2162,55 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     
     function addBackgroundToCanvas(path) {
-        if (!worksheetCanvas || !solutionCanvas) return;
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
 
-        [worksheetCanvas, solutionCanvas].forEach(canvas => {
-            canvas.getObjects().filter(o => o.isBackground).forEach(o => canvas.remove(o));
-        });
+        // Remove existing background from active canvas only
+        activeCanvas.getObjects().filter(o => o.isBackground).forEach(o => activeCanvas.remove(o));
 
         fabric.Image.fromURL(path, (img) => {
             if (!img) return;
             const opacity = parseFloat(backgroundOpacitySlider.value);
-            
-            const commonConfig = {
-                isBackground: true,
-                selectable: true,
-                evented: true,
-                opacity: opacity,
-                originX: 'center',
-                originY: 'center',
-            };
 
-            const addImageTo = (canvas, image) => {
-                const newImg = fabric.util.object.clone(image);
-                newImg.set({ ...commonConfig, left: canvas.width / 2, top: canvas.height / 2 });
-                newImg.scaleToWidth(canvas.width);
-                canvas.add(newImg);
-                enforceZOrder(canvas);
-                canvas.renderAll();
-            };
-            
-            addImageTo(worksheetCanvas, img);
-            addImageTo(solutionCanvas, img);
+            img.clone(clonedImg => {
+                // Use ACTUAL canvas dimensions like Addition app
+                const actualWidth = currentCanvasConfig.width;
+                const actualHeight = currentCanvasConfig.height;
 
+                // Scale to 70% of ACTUAL canvas height
+                const targetHeight = actualHeight * 0.7;
+                const scaleFactor = targetHeight / clonedImg.height;
+
+                clonedImg.set({
+                    isBackground: true,
+                    originX: 'center',
+                    originY: 'center',
+                    left: actualWidth / 2,  // Use actual dimensions
+                    top: actualHeight / 2,   // Use actual dimensions
+                    scaleX: scaleFactor,
+                    scaleY: scaleFactor,
+                    selectable: true,
+                    evented: true,
+                    opacity: opacity
+                });
+
+                activeCanvas.add(clonedImg);
+                enforceZOrder(activeCanvas);
+                activeCanvas.renderAll();
+            });
         }, { crossOrigin: 'anonymous' });
     }
 
     function handleBackgroundOpacityChange() {
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+
         const opacity = parseFloat(backgroundOpacitySlider.value);
-        [worksheetCanvas, solutionCanvas].forEach(canvas => {
-            if (!canvas) return;
-            const background = canvas.getObjects().find(obj => obj.isBackground);
-            if (background) {
-                background.set('opacity', opacity);
-                canvas.renderAll();
-            }
-        });
+        const background = activeCanvas.getObjects().find(obj => obj.isBackground);
+        if (background) {
+            background.set('opacity', opacity);
+            activeCanvas.renderAll();
+        }
     }
 
     async function loadBorderImages() {
@@ -2207,19 +2218,20 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
         if (theme === 'none') {
             borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
-            [worksheetCanvas, solutionCanvas].forEach(canvas => {
-                const existingBorder = canvas.getObjects().find(obj => obj.isBorder);
-                 if (existingBorder) {
-                    canvas.remove(existingBorder);
-                    canvas.renderAll();
+            const activeCanvas = getActiveCanvas();
+            if (activeCanvas) {
+                const existingBorder = activeCanvas.getObjects().find(obj => obj.isBorder);
+                if (existingBorder) {
+                    activeCanvas.remove(existingBorder);
+                    activeCanvas.renderAll();
                 }
-            });
+            }
             return;
         }
 
         borderDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} borders...</p>`;
         try {
-            const apiUrl = `/api/borders/images?theme=${theme}`;
+            const apiUrl = `/api/borders/images?theme=${theme}&locale=${currentLocale}`;
             const response = await fetch(apiUrl).then(res => res.ok ? res.json() : []);
             const images = response.images || response;
             borderDictionary.innerHTML = "";
@@ -2242,42 +2254,55 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function addBorderToCanvas(path) {
-        if (!worksheetCanvas || !solutionCanvas) return;
-        [worksheetCanvas, solutionCanvas].forEach(c => c.getObjects().filter(o => o.isBorder).forEach(o => c.remove(o)));
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+
+        // Remove existing border from active canvas only
+        activeCanvas.getObjects().filter(o => o.isBorder).forEach(o => activeCanvas.remove(o));
 
         fabric.Image.fromURL(path, (img) => {
             if (!img) return;
             const opacity = parseFloat(borderOpacitySlider.value);
-            const commonConfig = {
-                isBorder: true,
-                opacity: opacity,
-                originX: 'center', originY: 'center',
-                selectable: true, evented: true,
-            };
 
-            const addImageTo = (canvas, image) => {
-                const newImg = fabric.util.object.clone(image);
-                newImg.scaleToWidth(canvas.width);
-                newImg.set({ ...commonConfig, left: canvas.width / 2, top: canvas.height / 2 });
-                canvas.add(newImg);
-                enforceZOrder(canvas);
-                canvas.renderAll();
-            };
-            
-            addImageTo(worksheetCanvas, img);
-            addImageTo(solutionCanvas, img);
+            img.clone(clonedImg => {
+                // Use ACTUAL canvas dimensions like Addition app
+                const actualWidth = currentCanvasConfig.width;
+                const actualHeight = currentCanvasConfig.height;
+
+                // Scale to 70% of ACTUAL canvas height
+                const targetHeight = actualHeight * 0.7;
+                const scaleFactor = targetHeight / clonedImg.height;
+
+                clonedImg.set({
+                    isBorder: true,
+                    originX: 'center',
+                    originY: 'center',
+                    left: actualWidth / 2,  // Use actual dimensions
+                    top: actualHeight / 2,   // Use actual dimensions
+                    scaleX: scaleFactor,
+                    scaleY: scaleFactor,
+                    selectable: true,
+                    evented: true,
+                    opacity: opacity
+                });
+
+                activeCanvas.add(clonedImg);
+                enforceZOrder(activeCanvas);
+                activeCanvas.renderAll();
+            });
         }, { crossOrigin: 'anonymous' });
     }
 
     function handleBorderOpacityChange() {
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+
         const opacity = parseFloat(borderOpacitySlider.value);
-        [worksheetCanvas, solutionCanvas].forEach(canvas => {
-            const border = canvas.getObjects().find(obj => obj.isBorder);
-            if (border) {
-                border.set('opacity', opacity);
-                canvas.renderAll();
-            }
-        });
+        const border = activeCanvas.getObjects().find(obj => obj.isBorder);
+        if (border) {
+            border.set('opacity', opacity);
+            activeCanvas.renderAll();
+        }
     }
 
     // --- STANDARDIZED DOWNLOAD & EXPORT LOGIC ---
@@ -2386,7 +2411,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- START THE APP ---
     initializeApp();
 });
+</script>
 
+<script>
     // Check if user is on free tier
     function isFreeTier() {
         const urlParams = new URLSearchParams(window.location.search);

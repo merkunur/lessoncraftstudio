@@ -1553,12 +1553,20 @@ document.addEventListener("DOMContentLoaded", function() {
         if (!activeCanvas) return;
         const textContent = textInput.value.trim() || 'New Text';
         const textObject = new fabric.Textbox(textContent, {
-            left: fabric.util.getRandomInt(50, activeCanvas.width - 250),
-            top: fabric.util.getRandomInt(50, activeCanvas.height - 100),
-            fontSize: 48, fill: '#333333', fontFamily: fontFamilySelect.value,
-            width: 200, padding: 8, borderColor: 'var(--app-accent-primary)',
-            cornerColor: 'var(--app-accent-primary)', cornerSize: 10,
-            transparentCorners: false, cornerStyle: 'circle'
+            left: (currentCanvasConfig.width - 250) / 2,
+            top: (currentCanvasConfig.height - 100) / 2,
+            fontSize: 48,
+            fill: '#333333',
+            fontFamily: 'Arial',
+            width: 250,
+            padding: 8,
+            borderColor: 'var(--app-accent-primary)',
+            cornerColor: 'var(--app-accent-primary)',
+            cornerSize: 10,
+            transparentCorners: false,
+            cornerStyle: 'circle',
+            stroke: '#000000',
+            strokeWidth: 0
         });
         activeCanvas.add(textObject).setActiveObject(textObject).renderAll();
         textInput.value = '';

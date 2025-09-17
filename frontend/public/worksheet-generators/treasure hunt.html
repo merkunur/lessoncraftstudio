@@ -6,6 +6,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="js/translations.js"></script>
+  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/unified-language-manager.js"></script>
+  <script src="js/border-background-sizer.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
@@ -339,11 +342,15 @@
                 <h4>Background</h4>
                 <label for="backgroundThemeSelect">Background Theme:</label>
                 <select id="backgroundThemeSelect"><option value="none">None</option></select>
+                <label for="backgroundOpacitySlider">Background Opacity:</label>
+                <input type="range" id="backgroundOpacitySlider" min="0.1" max="1" step="0.1" value="1" disabled>
                 <div id="backgroundDictionary"><p class="dictionary-message">Select a theme for backgrounds.</p></div>
-                
+
                 <h4>Border</h4>
                 <label for="borderThemeSelect">Border Theme:</label>
                 <select id="borderThemeSelect"><option value="none">None</option></select>
+                <label for="borderOpacitySlider">Border Opacity:</label>
+                <input type="range" id="borderOpacitySlider" min="0.1" max="1" step="0.1" value="1" disabled>
                 <div id="borderDictionary"><p class="dictionary-message">Select a theme to see borders.</p></div>
             </div>
         </div>
@@ -473,6 +480,16 @@
   <div id="exportArea"></div>
 
   <script>
+    // Set locale BEFORE DOMContentLoaded (critical for BulletproofLoader)
+    let currentLocale = 'en';
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('locale')) {
+        currentLocale = urlParams.get('locale');
+    }
+    window.currentLocale = currentLocale;
+  </script>
+
+  <script>
     document.addEventListener("DOMContentLoaded", function() {
       const accordionButtons = document.querySelectorAll('.accordion-button');
       accordionButtons.forEach(button => {
@@ -496,7 +513,7 @@
       menuOverlay.addEventListener('click', () => { panel.classList.remove('is-open'); menuOverlay.classList.remove('is-active'); });
 
       // --- Global State & Configuration ---
-      let currentLocale = 'en'; // Current language setting
+      // currentLocale is already defined globally before DOMContentLoaded
       let allImages = [];
       let uploadedImages = [];
       
@@ -740,7 +757,30 @@
           const activeCanvas = getActiveCanvas();
           const activeObjects = activeCanvas.getActiveObjects();
           if (activeObjects.length > 0) {
-              activeObjects.forEach(obj => { if(!obj.isGeneratedItem && !obj.isAnswerKeyItem) activeCanvas.remove(obj) });
+              activeObjects.forEach(obj => {
+                  // Allow deletion of ALL user-selected objects including borders/backgrounds
+                  if(!obj.isGeneratedItem && !obj.isAnswerKeyItem) {
+                      activeCanvas.remove(obj);
+
+                      // Sync UI when special objects are deleted
+                      if (obj.isBorder) {
+                          const borderThemeSelect = document.getElementById('borderThemeSelect');
+                          const borderDictionary = document.getElementById('borderDictionary');
+                          const borderOpacitySlider = document.getElementById('borderOpacitySlider');
+                          if (borderThemeSelect) borderThemeSelect.value = 'none';
+                          if (borderDictionary) borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
+                          if (borderOpacitySlider) borderOpacitySlider.disabled = true;
+                      }
+                      if (obj.isBackground) {
+                          const backgroundThemeSelect = document.getElementById('backgroundThemeSelect');
+                          const backgroundDictionary = document.getElementById('backgroundDictionary');
+                          const backgroundOpacitySlider = document.getElementById('backgroundOpacitySlider');
+                          if (backgroundThemeSelect) backgroundThemeSelect.value = 'none';
+                          if (backgroundDictionary) backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme for backgrounds.</p>';
+                          if (backgroundOpacitySlider) backgroundOpacitySlider.disabled = true;
+                      }
+                  }
+              });
               activeCanvas.discardActiveObject().renderAll();
           }
           closeAllPopovers();
@@ -825,8 +865,20 @@
           if (!activeCanvas) return;
           const textContent = textInput.value.trim() || 'New Text';
           const textObject = new fabric.Textbox(textContent, {
-              left: 50, top: 50, fontSize: 48, fill: '#333333', fontFamily: 'Fredoka', width: 200, padding: 8,
-              borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 10, transparentCorners: false, cornerStyle: 'circle',
+              left: (currentCanvasConfig.width - 250) / 2,
+              top: (currentCanvasConfig.height - 100) / 2,
+              fontSize: 48,
+              fill: '#333333',
+              fontFamily: 'Arial',
+              width: 250,
+              padding: 8,
+              borderColor: 'var(--app-accent-primary)',
+              cornerColor: 'var(--app-accent-primary)',
+              cornerSize: 10,
+              transparentCorners: false,
+              cornerStyle: 'circle',
+              stroke: '#000000',
+              strokeWidth: 0
           });
           activeCanvas.add(textObject);
           activeCanvas.setActiveObject(textObject);
@@ -936,6 +988,20 @@
                 themeSelect.appendChild(opt.cloneNode(true));
                 worksheetThemeSelect.appendChild(opt);
             });
+
+            // Select a theme with images (animals is known to have images)
+            if (themes.length > 0 && themeSelect.options.length > 1) {
+                // Try to find "animals" theme which is known to have images
+                const animalsTheme = themes.find(t => t.value === 'animals');
+                if (animalsTheme) {
+                    themeSelect.value = 'animals';
+                } else {
+                    // Fallback to first non-ali theme
+                    const goodTheme = themes.find(t => t.value !== 'ali');
+                    themeSelect.value = goodTheme ? goodTheme.value : themes[0].value;
+                }
+            }
+
             loadDictionary();
         } catch (err) {
             console.error('Failed to load themes:', err);
@@ -1518,6 +1584,9 @@
         }
     }
     
+    // REMOVED - Now handled entirely by BulletproofLoader
+    // Original loadBorderAndBackgroundThemes function has been replaced by BulletproofLoader.init()
+    /*
     function loadBorderAndBackgroundThemes(type) {
         const selectEl = document.getElementById(`${type}ThemeSelect`);
         fetch(`/api/${type}s/themes`).then(res => res.json()).then(themes => {
@@ -1529,45 +1598,117 @@
             });
         }).catch(err => console.error(`Error loading ${type} themes`, err));
     }
+    */
     function loadBorderAndBackgroundImages(type) {
         const theme = document.getElementById(`${type}ThemeSelect`).value;
         const dictionaryEl = document.getElementById(`${type}Dictionary`);
         const activeCanvas = getActiveCanvas();
+        const opacitySlider = document.getElementById(`${type}OpacitySlider`);
+
         if (theme === 'none') {
             dictionaryEl.innerHTML = `<p class="dictionary-message">Select a theme to see ${type}s.</p>`;
             const propName = `is${type.charAt(0).toUpperCase() + type.slice(1)}`;
             const existing = activeCanvas.getObjects().find(o => o[propName]);
             if (existing) activeCanvas.remove(existing).renderAll();
+            if (opacitySlider) opacitySlider.disabled = true;
             return;
         }
-        fetch(`/api/${type}s/images?theme=${theme}`).then(res => res.json()).then(images => {
-            dictionaryEl.innerHTML = "";
-            images.forEach(imgData => {
-                const item = document.createElement("div"); item.className = "border-thumbnail-item";
-                item.innerHTML = `<img src="${imgData.path}" alt="${imgData.name}" loading="lazy" />`;
-                item.onclick = () => { addBorderOrBackground(type, imgData.path); };
-                dictionaryEl.appendChild(item);
+
+        dictionaryEl.innerHTML = `<p class="dictionary-message">Loading ${theme} ${type}s...</p>`;
+
+        fetch(`/api/${type}s/images?theme=${theme}`)
+            .then(res => {
+                if (!res.ok) throw new Error(`Failed to load images for ${type} theme`);
+                return res.json();
+            })
+            .then(data => {
+                // CRITICAL: Handle both API response formats
+                const images = data.images || data;
+                dictionaryEl.innerHTML = "";
+
+                if (!images || images.length === 0) {
+                    dictionaryEl.innerHTML = `<p class="dictionary-message">No ${type}s found.</p>`;
+                    return;
+                }
+
+                images.forEach(imgData => {
+                    const item = document.createElement("div");
+                    item.className = "border-thumbnail-item";
+                    item.innerHTML = `<img src="${imgData.path}" alt="${imgData.name}" loading="lazy" />`;
+                    item.onclick = () => { addBorderOrBackground(type, imgData.path); };
+                    dictionaryEl.appendChild(item);
+                });
+            })
+            .catch(err => {
+                console.error(`Error loading ${type} images:`, err);
+                dictionaryEl.innerHTML = `<p class="dictionary-message">Error loading ${type}s.</p>`;
             });
-        }).catch(err => console.error(`Error loading ${type} images`, err));
     }
-    function addBorderOrBackground(type, path) {
-        const isBackground = type === 'background';
-        const propName = isBackground ? 'isBackground' : 'isBorder';
+    // Unified overlay function - EXACTLY like addition.html
+    async function addOverlayToCanvas(path, propName, opacitySlider) {
+        const img = await new Promise((resolve) => fabric.Image.fromURL(path, resolve, { crossOrigin: 'anonymous' }));
+        if (!img) return;
+
         const activeCanvas = getActiveCanvas();
-        
-        const existing = activeCanvas.getObjects().find(o => o[propName]);
+        if (!activeCanvas) return;
+
+        const existing = activeCanvas.getObjects().find(obj => obj[propName]);
         if (existing) activeCanvas.remove(existing);
 
-        fabric.Image.fromURL(path, (img) => {
-            img.scaleToWidth(activeCanvas.width);
-            img.set({
-                left: activeCanvas.width / 2, top: activeCanvas.height / 2, originX: 'center', originY: 'center',
-                selectable: true, evented: true, [propName]: true,
+        img.clone(clonedImg => {
+            // Use ACTUAL canvas dimensions, not display dimensions (CRITICAL FIX)
+            const actualWidth = currentCanvasConfig.width;
+            const actualHeight = currentCanvasConfig.height;
+
+            // Scale to 70% of ACTUAL canvas height while preserving aspect ratio
+            const targetHeight = actualHeight * 0.7;
+            const scaleFactor = targetHeight / img.height;
+
+            clonedImg.set({
+                [propName]: true,
+                originX: 'center',
+                originY: 'center',
+                left: actualWidth / 2,  // Use actual dimensions for correct centering
+                top: actualHeight / 2,  // Use actual dimensions for correct centering
+                scaleX: scaleFactor,    // Preserve aspect ratio
+                scaleY: scaleFactor,    // Same scale for both dimensions
+                selectable: true,
+                evented: true,
+                opacity: parseFloat(opacitySlider ? opacitySlider.value : 1),
+                borderColor: 'var(--app-accent-primary)',
+                cornerColor: 'var(--app-accent-primary)'
             });
-            activeCanvas.add(img);
+
+            activeCanvas.add(clonedImg);
             enforceZOrder(activeCanvas);
             activeCanvas.renderAll();
-        }, { crossOrigin: 'anonymous' });
+
+            if (opacitySlider) {
+                opacitySlider.disabled = false;
+            }
+
+            const typeLabel = propName === 'isBorder' ? 'Border' : 'Background';
+            showMessage(`${typeLabel} added.`, 'success', 1500);
+        });
+    }
+
+    function addBorderToCanvas(path) {
+        const borderOpacitySlider = document.getElementById('borderOpacitySlider');
+        addOverlayToCanvas(path, 'isBorder', borderOpacitySlider);
+    }
+
+    function addBackgroundToCanvas(path) {
+        const backgroundOpacitySlider = document.getElementById('backgroundOpacitySlider');
+        addOverlayToCanvas(path, 'isBackground', backgroundOpacitySlider);
+    }
+
+    // Wrapper for backward compatibility
+    function addBorderOrBackground(type, path) {
+        if (type === 'border') {
+            addBorderToCanvas(path);
+        } else {
+            addBackgroundToCanvas(path);
+        }
     }
 
     // --- INITIALIZATION ---
@@ -1644,6 +1785,32 @@
       
       borderThemeSelect.addEventListener("change", () => loadBorderAndBackgroundImages('border'));
       backgroundThemeSelect.addEventListener("change", () => loadBorderAndBackgroundImages('background'));
+
+      // Add opacity slider functionality
+      const borderOpacitySlider = document.getElementById('borderOpacitySlider');
+      const backgroundOpacitySlider = document.getElementById('backgroundOpacitySlider');
+
+      borderOpacitySlider.addEventListener('input', () => {
+          const activeCanvas = getActiveCanvas();
+          if (activeCanvas) {
+              const activeBorder = activeCanvas.getObjects().find(obj => obj.isBorder);
+              if (activeBorder) {
+                  activeBorder.set('opacity', parseFloat(borderOpacitySlider.value));
+                  activeCanvas.renderAll();
+              }
+          }
+      });
+
+      backgroundOpacitySlider.addEventListener('input', () => {
+          const activeCanvas = getActiveCanvas();
+          if (activeCanvas) {
+              const activeBackground = activeCanvas.getObjects().find(obj => obj.isBackground);
+              if (activeBackground) {
+                  activeBackground.set('opacity', parseFloat(backgroundOpacitySlider.value));
+                  activeCanvas.renderAll();
+              }
+          }
+      });
       
       // Initialize language from URL if provided
       const urlParams = new URLSearchParams(window.location.search);
@@ -1666,8 +1833,25 @@
       }
       
       loadThemes();
-      loadBorderAndBackgroundThemes('border');
-      loadBorderAndBackgroundThemes('background');
+
+      // Initialize BulletproofLoader to handle border/background themes
+      // EXACTLY like addition.html does it
+      if (window.BulletproofLoader) {
+          console.log('Initializing BulletproofLoader with locale:', currentLocale);
+
+          window.BulletproofLoader.init({
+              borderSelect: borderThemeSelect,
+              backgroundSelect: backgroundThemeSelect,
+              locale: currentLocale  // EXPLICITLY pass the locale
+          }).then(() => {
+              console.log('✅ BulletproofLoader initialized successfully');
+          }).catch(err => {
+              console.error('Failed to initialize BulletproofLoader:', err);
+          });
+      } else {
+          console.error('BulletproofLoader not loaded!');
+      }
+
       renderSelectedImages();
       handleSelectionCleared(null, getActiveCanvas());
     });

@@ -231,7 +231,7 @@
         margin: auto;
         position: relative; /* Needed for absolute positioning of children */
         transform-origin: top center;
-        transform: scale(0.75);
+        /* Dynamic scaling will be applied via JavaScript */
       }
 
       #object-context-toolbar {
@@ -411,14 +411,22 @@
     .editable-block.selected .resize-handle { display: block; }
     .resize-handle-se { bottom: -6px; right: -6px; cursor: se-resize; }
     .editable-block > *:not(.resize-handle) { width: 100%; height: 100%; } /* Removed cursor:move from here */
-    .text-block-wrapper { display: flex; align-items: flex-start; justify-content: center; }
+    .text-block-wrapper { display: flex; align-items: center; justify-content: center; }
     .editable-text-box {
         width: 100%;
-        height: auto;
-        padding: 5px;
-        white-space: pre-wrap;
-        border: none; background: transparent; text-align: center;
+        height: 100%;
+        padding: 8px;
+        white-space: nowrap; /* Force single line */
+        overflow: hidden; /* Hide overflow */
+        text-overflow: ellipsis; /* Show ellipsis for long text */
+        border: none;
+        background: transparent;
+        text-align: center;
         cursor: inherit; /* Inherit cursor from parent .editable-block */
+        display: flex;
+        align-items: center; /* Vertically center the text */
+        justify-content: center; /* Horizontally center the text */
+        line-height: 1.2;
     }
     .editable-text-box.selected, .editable-block.selected .editable-text-box { outline: none; }
     .editable-text-box:focus {
@@ -472,7 +480,7 @@
         color: #333; /* Default text color */
         align-items: flex-end; /* Align cursive to baseline */
         position: relative; /* Needed for 'top' property to work */
-        top: calc(var(--row-height-px) * 0.33);
+        top: calc(var(--row-height-px) * 0.2); /* Reduced from 0.33 to better align with writing lines */
     }
     .row .letters.cursive-font.tracing {
         color: #ccc; /* Lighter color for tracing */
@@ -509,7 +517,7 @@
     .row.fill .text-line.cursive-font {
         position: relative;
         transform: none;
-        top: calc(var(--row-height-px) * 0.33);
+        top: calc(var(--row-height-px) * 0.2); /* Reduced from 0.33 to match other cursive alignment */
         left: 0;
         padding-left: 8px;
         font-size: calc(var(--row-height-px, 40.32px) * 1.279202);
@@ -1638,20 +1646,20 @@
         <button class="accordion-button">Text Tools</button>
         <div class="accordion-content">
             <h4>Add New Text</h4>
-            <label for="textInput">Content:</label><input type="text" id="textInput" placeholder="Hello!">
+            <label for="textInput">Content:</label><input type="text" id="textInput" placeholder="New Text">
             <button id="addTextBtn">Add Text to Worksheet</button>
             <h4 style="margin-top:20px;">Selected Text Properties</h4>
             <label for="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
-            <label for="fontSize">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+            <label for="fontSize">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled readonly>
             <label for="fontFamily">Font:</label>
             <select id="fontFamily" disabled>
+                <option value="Arial" selected>Arial</option>
+                <option value="Verdana">Verdana</option>
                 <option value="Lexend Deca">Lexend Deca</option>
                 <option value="Baloo 2">Baloo 2</option>
                 <option value="Nunito">Nunito</option>
                 <option value="Quicksand">Quicksand</option>
                 <option value="Fredoka">Fredoka</option>
-                <option value="Arial">Arial</option>
-                <option value="Verdana">Verdana</option>
             </select>
             <label for="textStrokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
             <label for="textStrokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
@@ -2144,14 +2152,20 @@ function makeTextBoxEditable(box) {
         box.style.cursor = 'text';
     });
 
+    // Prevent Enter key from creating new lines
+    box.addEventListener('keydown', e => {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            box.blur(); // Exit editing mode on Enter
+        }
+    });
+
     box.addEventListener('input', () => {
-        box.style.height = 'auto';
-        box.style.height = `${box.scrollHeight}px`;
-        wrapper.style.height = box.style.height;
+        // Keep height fixed for single-line text
+        // Don't auto-adjust height
         const blockId = parseInt(wrapper.dataset.blockId);
         let state = blocksState.find(s => s.id === blockId);
         if (state) {
-            state.height = wrapper.clientHeight;
             state.text = box.innerText;
         }
     });
@@ -2171,33 +2185,58 @@ function makeTextBoxEditable(box) {
 
 function addTextToCanvas() {
     const textInput = document.getElementById('textInput');
+
+    // Standardized text box properties
+    const textContent = textInput.value.trim() || 'New Text';
+    const standardWidth = 250;
+    const standardHeight = 60; // Fixed height for single line
+    const standardFontSize = 48;
+    const standardFontFamily = 'Arial';
+    const standardColor = '#333333';
+
+    // Get actual worksheet dimensions
+    const worksheetWidth = parseFloat(worksheetEl.style.width) || 612;
+    const worksheetHeight = parseFloat(worksheetEl.style.height) || 792;
+
+    // Center the text box on the worksheet
+    const initialLeft = (worksheetWidth - standardWidth) / 2;
+    const initialTop = (worksheetHeight - standardHeight) / 2;
+
+    // Create text box with standardized properties
     const box = document.createElement('div');
     box.contentEditable = false;
     box.className = 'editable-text-box';
-    box.innerText = textInput.value || 'New Text';
-    box.style.fontFamily = document.getElementById('fontFamily').value;
-    box.style.fontSize = `${document.getElementById('fontSize').value}px`;
-    box.style.color = document.getElementById('textColor').value;
-
-    const worksheetRect = worksheetEl.getBoundingClientRect();
-    const currentScale = parseFloat(window.getComputedStyle(worksheetEl).transform.match(/scale\(([^)]+)\)/)?.[1] || 1) || 0.75;
-    const initialLeft = (worksheetRect.width / currentScale / 2) - 100;
-    const initialTop = (worksheetRect.height / currentScale / 2) - 50;
+    box.innerText = textContent;
+    box.style.fontFamily = standardFontFamily;
+    box.style.fontSize = `${standardFontSize}px`;
+    box.style.color = standardColor;
+    box.style.lineHeight = '1.2';
+    box.style.whiteSpace = 'nowrap'; // Prevent text wrapping
+    box.style.overflow = 'hidden'; // Hide overflow text
+    box.style.textOverflow = 'ellipsis'; // Show ellipsis for long text
 
     const state = {
         id: blockIdCounter++,
         type: 'text',
-        x: initialLeft, y: initialTop,
-        width: 200, height: 50, // Start with a reasonable height
+        x: initialLeft,
+        y: initialTop,
+        width: standardWidth,
+        height: standardHeight,
         zIndex: highestZ++,
         locked: false,
-        text: box.innerText, style: box.style.cssText
+        text: box.innerText,
+        style: box.style.cssText
     };
     blocksState.push(state);
 
     const block = createBlockFromState(state);
     worksheetEl.appendChild(block);
-    
+
+    // Update the form fields to reflect standard values
+    document.getElementById('fontSize').value = standardFontSize;
+    document.getElementById('fontFamily').value = standardFontFamily;
+    document.getElementById('textColor').value = standardColor;
+
     const newBox = block.querySelector('.editable-text-box');
     if(newBox) {
         newBox.dispatchEvent(new Event('input', { bubbles: true }));
@@ -2521,13 +2560,20 @@ function renderRowControls() {
 }
 
 
-fetch('/api/themes')
+// Always use English locale for this writing practice app
+const currentLocale = 'en';
+
+fetch(`/api/themes-translated?locale=${currentLocale}`)
     .then(r=>r.json())
-    .then(t=> {
-    themes = t;
+    .then(themes => {
     themeSelect.innerHTML = '';
     themeSelect.add(new Option('All Themes','all'));
-    t.forEach(x=> themeSelect.add(new Option(x,x)));
+    themes.forEach(theme => {
+        const opt = document.createElement("option");
+        opt.value = theme.value;
+        opt.textContent = theme.displayName;
+        themeSelect.appendChild(opt);
+    });
     loadDictionary();
 });
 themeSelect.onchange = loadDictionary;
@@ -2572,9 +2618,11 @@ function loadDictionary(){
 
   let fetchPromise;
   if (q) {
-      fetchPromise = fetch(`/api/images?search=${q}`).then(r => r.json()).then(data => data.images || data);
+      // Always use English locale for API calls
+      fetchPromise = fetch(`/api/images?search=${q}&locale=${currentLocale}`).then(r => r.json()).then(data => data.images || data);
   } else if (theme !== 'all') {
-      fetchPromise = fetch(`/api/images?theme=${theme}`).then(r => r.json()).then(data => data.images || data);
+      // Always use English locale for API calls
+      fetchPromise = fetch(`/api/images?theme=${theme}&locale=${currentLocale}`).then(r => r.json()).then(data => data.images || data);
   } else {
       fetchPromise = Promise.resolve([]);
   }
@@ -2614,13 +2662,22 @@ function loadDictionary(){
 
 // NEW: Functions to load asset themes and images (copied from more less.html, adapted for writing.html)
 function loadAssetThemes(type, selectEl) {
-    // Background and border themes are hardcoded since Directus has limited theme structure
-    selectEl.innerHTML = '<option value="none">None</option>';
-    if (type === 'backgrounds') {
-        selectEl.innerHTML += '<option value="all">All Backgrounds</option>';
-    } else if (type === 'borders') {
-        selectEl.innerHTML += '<option value="all">All Borders</option>';
-    }
+    // Always use English locale for borders and backgrounds
+    fetch(`/api/${type}/themes?locale=${currentLocale}`)
+        .then(response => response.json())
+        .then(themes => {
+            selectEl.innerHTML = '<option value="none">None</option>';
+            themes.forEach(theme => {
+                const option = document.createElement('option');
+                option.value = theme.value;
+                option.textContent = theme.displayName;
+                selectEl.appendChild(option);
+            });
+        })
+        .catch(err => {
+            console.error(`Error loading ${type} themes:`, err);
+            selectEl.innerHTML = '<option value="none">None</option>';
+        });
 }
 
 function loadAssetImages(type, theme, dictionaryEl, addFunc) {
@@ -2636,9 +2693,11 @@ function loadAssetImages(type, theme, dictionaryEl, addFunc) {
         return;
     }
     dictionaryEl.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">Loading...</div>`;
-    fetch(`/api/${type}/images?theme=${theme}`)
+    // Always use English locale for API calls
+    fetch(`/api/${type}/images?theme=${theme}&locale=${currentLocale}`)
         .then(res => res.ok ? res.json() : Promise.reject())
-        .then(images => {
+        .then(data => {
+            const images = data.images || data; // Handle both API response formats
             dictionaryEl.innerHTML = images.length === 0 ? `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">No ${type} in this theme.</div>` : "";
             images.forEach(asset => {
                 const item = document.createElement("div");
@@ -2657,44 +2716,62 @@ function loadAssetImages(type, theme, dictionaryEl, addFunc) {
 // NEW: Functions to add border and background to worksheet (adapted for DOM)
 function addBorderToCanvas(path) {
     blocksState = blocksState.filter(s => s.type !== 'border');
-    const defaultWidth = worksheetEl.clientWidth * 0.9;
-    const defaultHeight = worksheetEl.clientHeight * 0.9;
-    const state = {
-        id: blockIdCounter++,
-        type: 'border',
-        src: path,
-        x: (worksheetEl.clientWidth - defaultWidth) / 2,
-        y: (worksheetEl.clientHeight - defaultHeight) / 2,
-        width: defaultWidth,
-        height: defaultHeight,
-        zIndex: highestZ++,
-        locked: false,
-        opacity: parseFloat(borderOpacitySlider.value)
+
+    // Load image to get natural dimensions for aspect ratio
+    const img = new Image();
+    img.onload = () => {
+        // Scale to 70% of page height while preserving aspect ratio
+        const targetHeight = worksheetEl.clientHeight * 0.7;
+        const aspectRatio = img.width / img.height;
+        const targetWidth = targetHeight * aspectRatio;
+
+        const state = {
+            id: blockIdCounter++,
+            type: 'border',
+            src: path,
+            x: (worksheetEl.clientWidth - targetWidth) / 2,
+            y: (worksheetEl.clientHeight - targetHeight) / 2,
+            width: targetWidth,
+            height: targetHeight,
+            zIndex: highestZ++,
+            locked: false,
+            opacity: parseFloat(borderOpacitySlider.value)
+        };
+        blocksState.push(state);
+        renderWorksheet();
+        borderOpacitySlider.disabled = false;
     };
-    blocksState.push(state);
-    renderWorksheet();
-    borderOpacitySlider.disabled = false;
+    img.src = path;
 }
 
 function addBackgroundToCanvas(path) {
     blocksState = blocksState.filter(s => s.type !== 'background');
-    const defaultWidth = worksheetEl.clientWidth * 0.9;
-    const defaultHeight = worksheetEl.clientHeight * 0.9;
-    const state = {
-        id: blockIdCounter++,
-        type: 'background',
-        src: path,
-        x: (worksheetEl.clientWidth - defaultWidth) / 2,
-        y: (worksheetEl.clientHeight - defaultHeight) / 2,
-        width: defaultWidth,
-        height: defaultHeight,
-        zIndex: highestZ++,
-        locked: false,
-        opacity: parseFloat(backgroundOpacitySlider.value)
+
+    // Load image to get natural dimensions for aspect ratio
+    const img = new Image();
+    img.onload = () => {
+        // Scale to 70% of page height while preserving aspect ratio
+        const targetHeight = worksheetEl.clientHeight * 0.7;
+        const aspectRatio = img.width / img.height;
+        const targetWidth = targetHeight * aspectRatio;
+
+        const state = {
+            id: blockIdCounter++,
+            type: 'background',
+            src: path,
+            x: (worksheetEl.clientWidth - targetWidth) / 2,
+            y: (worksheetEl.clientHeight - targetHeight) / 2,
+            width: targetWidth,
+            height: targetHeight,
+            zIndex: highestZ++,
+            locked: false,
+            opacity: parseFloat(backgroundOpacitySlider.value)
+        };
+        blocksState.push(state);
+        renderWorksheet();
+        backgroundOpacitySlider.disabled = false;
     };
-    blocksState.push(state);
-    renderWorksheet();
-    backgroundOpacitySlider.disabled = false;
+    img.src = path;
 }
 
 // NEW: Function to apply opacity (adapted for DOM)
@@ -2755,7 +2832,43 @@ function updateWorksheetPageSize() {
     }
     worksheetEl.style.width = `${widthPx}px`;
     worksheetEl.style.height = `${heightPx}px`;
+
+    // Update display scaling to match standard from other apps
+    updateWorksheetDisplayScaling(widthPx, heightPx);
+
     renderWorksheet();
+}
+
+// Function to update worksheet display scaling - matches standard from Fabric.js apps
+function updateWorksheetDisplayScaling(width, height) {
+    // Get available space in the content wrapper
+    const contentWrapper = document.querySelector('.tab-content-wrapper');
+    const wrapperStyle = getComputedStyle(contentWrapper);
+    const availableWidth = parseFloat(wrapperStyle.width) - parseFloat(wrapperStyle.paddingLeft) - parseFloat(wrapperStyle.paddingRight) - 10;
+    const availableHeight = parseFloat(wrapperStyle.height) - parseFloat(wrapperStyle.paddingTop) - parseFloat(wrapperStyle.paddingBottom) - 10;
+
+    // Based on user feedback:
+    // - 1.25 was 15% too big
+    // - 0.75 was too small
+    // - Correct scale is approximately 1.087 (1.25 / 1.15)
+
+    const isLandscape = width > height;
+
+    // Match the exact visual appearance of other apps
+    const baseScale = 1.087; // Empirically determined to match other apps
+    const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional scaling for landscape
+    const displayScale = baseScale * landscapeBonus;
+
+    // Calculate scaled dimensions
+    const scaledWidth = width * displayScale;
+    const scaledHeight = height * displayScale;
+
+    // Ensure it fits in available space
+    const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+
+    // Apply the final scale
+    const finalScale = displayScale * scaleRatio;
+    worksheetEl.style.transform = `scale(${finalScale})`;
 }
 
 function renderWorksheet(options = {}){
@@ -2833,6 +2946,10 @@ function createBlockFromState(state) {
             contentElement.className = 'editable-text-box';
             contentElement.style.cssText = state.style;
             contentElement.innerText = state.text;
+            // Ensure single-line properties are maintained
+            contentElement.style.whiteSpace = 'nowrap';
+            contentElement.style.overflow = 'hidden';
+            contentElement.style.textOverflow = 'ellipsis';
             block.appendChild(contentElement);
             makeTextBoxEditable(contentElement);
             break;
@@ -3351,6 +3468,14 @@ function confirmClearAll() {
     borderOpacitySlider.value = 1;
     borderOpacitySlider.disabled = true;
 
+    // Reset text input fields to defaults
+    document.getElementById('textInput').value = '';
+    document.getElementById('fontSize').value = 48;
+    document.getElementById('fontFamily').value = 'Arial';
+    document.getElementById('textColor').value = '#333333';
+    document.getElementById('textStrokeColor').value = '#000000';
+    document.getElementById('textStrokeWidth').value = 0;
+
     renderWorksheet();
     deselectAll();
     showMessage("Worksheet cleared.", "success");
@@ -3480,6 +3605,15 @@ document.addEventListener('DOMContentLoaded', () => {
     updateUIMode();
     updateWorksheetPageSize();
     renderWorksheet(); // Initial render to apply any default page size/background/border
+
+    // Handle window resize to maintain proper scaling
+    window.addEventListener('resize', () => {
+        const widthPx = parseFloat(worksheetEl.style.width);
+        const heightPx = parseFloat(worksheetEl.style.height);
+        if (widthPx && heightPx) {
+            updateWorksheetDisplayScaling(widthPx, heightPx);
+        }
+    });
 
     const openMenu = () => { document.querySelector('.panel').classList.add('is-open'); document.getElementById('menuOverlay').classList.add('is-active'); };
     const closeMenu = () => { document.querySelector('.panel').classList.remove('is-open'); document.getElementById('menuOverlay').classList.remove('is-active'); };

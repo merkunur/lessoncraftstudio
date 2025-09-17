@@ -1512,21 +1512,32 @@
           if (!activeCanvas) return;
           const textContent = textInput.value.trim() || 'New Text';
           const textObject = new fabric.Textbox(textContent, {
-              left: fabric.util.getRandomInt(30, Math.max(30, activeCanvas.width - 230)),
-              top: fabric.util.getRandomInt(30, Math.max(30, activeCanvas.height - 80)),
+              // Position - Always centered
+              left: (currentCanvasConfig.width - 250) / 2,
+              top: (currentCanvasConfig.height - 100) / 2,
+
+              // Typography - Always consistent
               fontSize: 48,
               fill: '#333333',
-              fontFamily: fontFamilySelect.options[fontFamilySelect.selectedIndex].value,
-              width: 200,
+              fontFamily: 'Arial',  // Standardized font
+
+              // Dimensions - Prevent text wrapping
+              width: 250,
               padding: 8,
+
+              // Styling - Professional appearance
               borderColor: 'var(--app-accent-primary)',
               cornerColor: 'var(--app-accent-primary)',
               cornerSize: 10,
               transparentCorners: false,
               cornerStyle: 'circle',
+
+              // Stroke - No outline by default
               stroke: '#000000',
               strokeWidth: 0,
-              isPuzzleElement: false, 
+
+              // App-specific properties
+              isPuzzleElement: false,
               objectCaching: false 
           });
           activeCanvas.add(textObject);

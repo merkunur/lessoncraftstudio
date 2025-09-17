@@ -876,8 +876,9 @@ document.addEventListener("DOMContentLoaded", function() {
     // Classroom Helpers
     function addNameField() {
         const nameText = new fabric.Textbox('Name: ____________________', {
-            left: 40, top: 30, fontFamily: 'Fredoka', fontSize: Math.min(32, canvas.width / 20),
-            fill: '#333', width: canvas.width > 500 ? 400 : canvas.width - 80, padding: 5,
+            left: 40, top: 30, fontFamily: 'Fredoka', fontSize: Math.min(32, currentCanvasConfig.width / 20),
+            // Use actual canvas dimensions, not display dimensions
+            fill: '#333', width: currentCanvasConfig.width > 500 ? 400 : currentCanvasConfig.width - 80, padding: 5,
             borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 10,
             transparentCorners: false, cornerStyle: 'circle'
         });
@@ -885,9 +886,10 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     function addHandwritingLines() {
         const lineProps = { stroke: '#888', strokeWidth: 1, selectable: true, evented: true };
-        const yStart = canvas.height - 120;
+        // Use actual canvas dimensions, not display dimensions
+        const yStart = currentCanvasConfig.height - 120;
         const xStart = 40;
-        const lineWidth = canvas.width - (xStart * 2);
+        const lineWidth = currentCanvasConfig.width - (xStart * 2);
         const lineHeight = 25;
         if (lineWidth < 100) { showMessage('Canvas too narrow for lines.', 'error'); return; }
 
@@ -919,11 +921,29 @@ document.addEventListener("DOMContentLoaded", function() {
     function addText() {
         const textContent = textInput.value.trim() || 'New Text';
         const textObject = new fabric.Textbox(textContent, {
-            left: fabric.util.getRandomInt(30, Math.max(30, canvas.width - 230)),
-            top: fabric.util.getRandomInt(30, Math.max(30, canvas.height - 80)),
-            fontSize: 48, fill: '#333333', fontFamily: fontFamilySelect.options[0].value, width: 200, padding: 8,
-            borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
-            cornerSize: 10, transparentCorners: false, cornerStyle: 'circle',
+            // Position - Always centered
+            left: (currentCanvasConfig.width - 250) / 2,
+            top: (currentCanvasConfig.height - 100) / 2,
+
+            // Typography - Always consistent
+            fontSize: 48,
+            fill: '#333333',
+            fontFamily: 'Arial',  // Standardized font
+
+            // Dimensions - Prevent text wrapping
+            width: 250,
+            padding: 8,
+
+            // Styling - Professional appearance
+            borderColor: 'var(--app-accent-primary)',
+            cornerColor: 'var(--app-accent-primary)',
+            cornerSize: 10,
+            transparentCorners: false,
+            cornerStyle: 'circle',
+
+            // Stroke - No outline by default
+            stroke: '#000000',
+            strokeWidth: 0
         });
         canvas.add(textObject).setActiveObject(textObject).renderAll();
         textInput.value = '';
@@ -1139,7 +1159,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     function addImageToCanvas(imgUrl) {
         fabric.Image.fromURL(imgUrl, (img) => {
-            const maxDim = Math.min(canvas.width * 0.4, canvas.height * 0.4);
+            const maxDim = Math.min(currentCanvasConfig.width * 0.4, currentCanvasConfig.height * 0.4);
             img.scaleToWidth(maxDim);
             if (img.getScaledHeight() > maxDim) img.scaleToHeight(maxDim);
             canvas.add(img).centerObject(img).setActiveObject(img).renderAll();
@@ -1526,8 +1546,8 @@ document.addEventListener("DOMContentLoaded", function() {
             fontSize: 40,
             fill: 'rgba(0, 0, 0, 0.2)',
             angle: -45,
-            left: canvas.width / 2,
-            top: canvas.height / 2,
+            left: currentCanvasConfig.width / 2,
+            top: currentCanvasConfig.height / 2,
             originX: 'center',
             originY: 'center',
             selectable: false,
@@ -1539,8 +1559,8 @@ document.addEventListener("DOMContentLoaded", function() {
         // Add multiple watermarks across the canvas
         const watermarks = [];
         const spacing = 250;
-        for (let x = 0; x < canvas.width; x += spacing) {
-            for (let y = 0; y < canvas.height; y += spacing) {
+        for (let x = 0; x < currentCanvasConfig.width; x += spacing) {
+            for (let y = 0; y < currentCanvasConfig.height; y += spacing) {
                 const wm = new fabric.Text('FREE VERSION', {
                     fontSize: 20,
                     fill: 'rgba(0, 0, 0, 0.15)',

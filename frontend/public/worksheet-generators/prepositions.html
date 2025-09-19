@@ -985,21 +985,55 @@
 
         async function loadTemplates() {
             dom.templateSelect.innerHTML = '<option value="">None</option>';
-            // Add the whiteboard template directly since it's in images/prepositions/
-            dom.templateSelect.add(new Option('Whiteboard', '/images/prepositions/whiteboard.png'));
-            
-            // Select whiteboard by default
-            dom.templateSelect.value = '/images/prepositions/whiteboard.png';
-            currentTemplatePath = '/images/prepositions/whiteboard.png';
-            
-            // Load the whiteboard template on canvas
+
+            try {
+                // Load worksheet templates from the API
+                const response = await fetch(`/api/templates?appType=prepositions&locale=${currentLocale}`);
+                if (response.ok) {
+                    const data = await response.json();
+                    const templates = data.templates || data;
+
+                    console.log('Loaded worksheet templates:', templates);
+
+                    templates.forEach(template => {
+                        const option = new Option(
+                            template.displayName || template.name,
+                            template.path || template.url || `/images/worksheet_templates/${template.name}`
+                        );
+                        dom.templateSelect.add(option);
+                    });
+
+                    // Select whiteboard by default if available
+                    const whiteboardOption = Array.from(dom.templateSelect.options).find(
+                        opt => opt.value.includes('whiteboard')
+                    );
+                    if (whiteboardOption) {
+                        dom.templateSelect.value = whiteboardOption.value;
+                        currentTemplatePath = whiteboardOption.value;
+                    }
+                } else {
+                    console.warn('Failed to load worksheet templates from API');
+                    // Fallback to hardcoded template
+                    dom.templateSelect.add(new Option('Whiteboard', '/images/prepositions/whiteboard.png'));
+                    dom.templateSelect.value = '/images/prepositions/whiteboard.png';
+                    currentTemplatePath = '/images/prepositions/whiteboard.png';
+                }
+            } catch (error) {
+                console.error('Error loading worksheet templates:', error);
+                // Fallback to hardcoded template
+                dom.templateSelect.add(new Option('Whiteboard', '/images/prepositions/whiteboard.png'));
+                dom.templateSelect.value = '/images/prepositions/whiteboard.png';
+                currentTemplatePath = '/images/prepositions/whiteboard.png';
+            }
+
+            // Load the selected template on canvas
             if (currentTemplatePath) {
                 await addTemplateToCanvases(currentTemplatePath);
             }
         }
 
         async function handleTemplateChange(event) {
-            currentTemplatePath = event.target.value;
+            currentTemplatePath = event ? event.target.value : dom.templateSelect.value;
             [worksheetCanvas, answerKeyCanvas].forEach(canvas => {
                 canvas.getObjects().filter(o => o.isTemplate).forEach(o => canvas.remove(o));
             });

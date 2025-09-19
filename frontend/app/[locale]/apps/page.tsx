@@ -14,8 +14,19 @@ interface PageProps {
   };
 }
 
+type AppTier = 'free' | 'core' | 'full';
+
+interface App {
+  id: string;
+  name: string;
+  tier: AppTier;
+  category: string;
+  icon: string;
+  popular?: boolean;
+}
+
 // Hardcoded app data for now (will be replaced with Strapi data)
-const apps = [
+const apps: App[] = [
   // Free Tier (1 app)
   { id: 'word-search', name: 'Word Search', tier: 'free', category: 'Word Games', icon: '🔍', popular: true },
   
@@ -60,14 +71,14 @@ const apps = [
 // Get unique categories
 const categories = Array.from(new Set(apps.map(app => app.category)));
 
-function AppCard({ app, locale }: { app: typeof apps[0], locale: string }) {
-  const tierColors = {
+function AppCard({ app, locale }: { app: App, locale: string }) {
+  const tierColors: Record<AppTier, string> = {
     free: 'border-green-500 bg-green-50',
     core: 'border-blue-500 bg-blue-50',
     full: 'border-purple-500 bg-purple-50'
   };
 
-  const tierBadgeColors = {
+  const tierBadgeColors: Record<AppTier, string> = {
     free: 'bg-green-500 text-white',
     core: 'bg-blue-500 text-white',
     full: 'bg-purple-500 text-white'

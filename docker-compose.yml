@@ -82,6 +82,7 @@ services:
       - ./frontend:/app
       - /app/node_modules
       - ./frontend/web-components:/app/public/web-components
+      - ./frontend/public/uploads:/app/public/uploads
     ports:
       - "3000:3000"
     depends_on:

@@ -489,6 +489,11 @@
             EN (🇬🇧 English) • DE (🇩🇪 German) • FR (🇫🇷 French) • ES (🇪🇸 Spanish) • PT (🇵🇹 Portuguese) •
             IT (🇮🇹 Italian) • NL (🇳🇱 Dutch) • SV (🇸🇪 Swedish) • DA (🇩🇰 Danish) • NO (🇳🇴 Norwegian) • FI (🇫🇮 Finnish)
         </div>
+        <div style="margin-top: 15px;">
+            <a href="/homepage-content-manager.html" style="display: inline-block; padding: 10px 20px; background: linear-gradient(135deg, #667eea, #764ba2); color: white; text-decoration: none; border-radius: 8px; font-weight: 500;">
+                📄 Manage Homepage Content
+            </a>
+        </div>
     </div>
 
     <div class="container">
@@ -979,9 +984,9 @@
                             </td>
                             <td>${imageId ? imageId.substring(0, 8) + '...' : 'None'}</td>
                             <td class="actions">
-                                <button class="action-btn edit-btn" onclick="editItem(${item.id}, '${currentTab}')">Edit</button>
+                                <button class="action-btn edit-btn" onclick="editItem('${item.id}', '${currentTab}')">Edit</button>
                                 <button class="action-btn view-btn" onclick="viewImage('${imageId}')">View</button>
-                                <button class="action-btn delete-btn" onclick="deleteItem(${item.id}, '${currentTab}')">Delete</button>
+                                <button class="action-btn delete-btn" onclick="deleteItem('${item.id}', '${currentTab}')">Delete</button>
                             </td>
                         </tr>
                     `;
@@ -1009,7 +1014,7 @@
                 const themeName = item.theme_id?.name?.en || item.theme_id?.folder_name || item.style_id?.translations?.en || item.style_id?.style_name || '';
 
                 html += `
-                    <div class="grid-item" onclick="editItem(${item.id}, '${currentTab}')">
+                    <div class="grid-item" onclick="editItem('${item.id}', '${currentTab}')">
                         <img src="/api/directus-image?id=${imageId}" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22150%22><rect width=%22200%22 height=%22150%22 fill=%22%23f0f0f0%22/><text x=%2250%%22 y=%2250%%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%23999%22>No Image</text></svg>'">
                         <div class="grid-item-info">
                             <div class="grid-item-name">${name}</div>
@@ -1027,7 +1032,7 @@
         }
 
         // Edit item
-        async function editItem(id, collection) {
+        window.editItem = async function(id, collection) {
             console.log('Edit item called:', { id, collection });
             try {
                 if (collection === 'files') {
@@ -1299,7 +1304,7 @@
         }
 
         // Save changes
-        async function saveChanges() {
+        window.saveChanges = async function() {
             if (!currentEditItem) return;
 
             try {
@@ -1406,7 +1411,7 @@
         }
 
         // Delete item
-        async function deleteItem(id, collection) {
+        window.deleteItem = async function(id, collection) {
             if (!confirm('Are you sure you want to delete this item?')) return;
 
             try {
@@ -1437,7 +1442,7 @@
         }
 
         // View image
-        function viewImage(id) {
+        window.viewImage = function(id) {
             if (!id || id === 'undefined') return;
             window.open(`/api/directus-image?id=${id}`, '_blank');
         }
@@ -1457,7 +1462,7 @@
         }
 
         // Switch tab
-        function switchTab(tab) {
+        window.switchTab = function(tab) {
             currentTab = tab;
             currentPage = 1;
 
@@ -1469,7 +1474,7 @@
         }
 
         // Set view type
-        function setView(view) {
+        window.setView = function(view) {
             currentView = view;
 
             // Update UI
@@ -1480,7 +1485,7 @@
         }
 
         // Handle search
-        function handleSearch() {
+        window.handleSearch = function() {
             const searchTerm = document.getElementById('search').value.toLowerCase();
 
             if (searchTerm) {
@@ -1492,6 +1497,23 @@
                 filteredData = [...allData];
             }
 
+            totalItems = filteredData.length;
+            currentPage = 1;
+            updatePagination();
+            renderContent();
+        }
+
+        // Filter by theme
+        window.filterByTheme = function() {
+            const selectedTheme = document.getElementById('filter-theme').value;
+            if (selectedTheme) {
+                filteredData = allData.filter(item => {
+                    return item.theme_id === selectedTheme ||
+                           item.style_id === selectedTheme;
+                });
+            } else {
+                filteredData = [...allData];
+            }
             totalItems = filteredData.length;
             currentPage = 1;
             updatePagination();
@@ -1528,7 +1550,7 @@
         }
 
         // Go to page
-        function goToPage(page) {
+        window.goToPage = function(page) {
             const totalPages = Math.ceil(totalItems / itemsPerPage);
             if (page < 1 || page > totalPages) return;
 
@@ -1546,21 +1568,21 @@
         }
 
         // Close modals
-        function closeEditModal() {
+        window.closeEditModal = function() {
             document.getElementById('edit-modal').classList.remove('show');
             currentEditItem = null;
         }
 
-        function closeUploadModal() {
+        window.closeUploadModal = function() {
             document.getElementById('upload-modal').classList.remove('show');
         }
 
-        function showUploadModal() {
+        window.showUploadModal = function() {
             document.getElementById('upload-modal').classList.add('show');
         }
 
         // Upload files
-        async function uploadFiles() {
+        window.uploadFiles = async function() {
             const fileInput = document.getElementById('file-input');
             const files = fileInput.files;
             const collection = document.getElementById('upload-collection').value;
@@ -1736,13 +1758,13 @@
         }
 
         // Sync now
-        async function syncNow() {
+        window.syncNow = async function() {
             alert('Triggering sync... The system will update within 60 seconds.');
             // Could trigger a frontend restart or manual sync here
         }
 
         // Clear app caches
-        async function clearAppCaches() {
+        window.clearAppCaches = async function() {
             try {
                 const response = await fetch('/api/cache/clear', { method: 'POST' });
                 const result = await response.json();
@@ -1785,14 +1807,14 @@
         }
 
         // Show batch modal
-        function showBatchModal() {
+        window.showBatchModal = function() {
             const checked = document.querySelectorAll('.item-checkbox:checked');
             document.getElementById('batch-count').textContent = checked.length;
             document.getElementById('batch-modal').classList.add('show');
         }
 
         // Close batch modal
-        function closeBatchModal() {
+        window.closeBatchModal = function() {
             document.getElementById('batch-modal').classList.remove('show');
         }
 
@@ -1878,7 +1900,7 @@
         }
 
         // Execute batch operation
-        async function executeBatchOperation() {
+        window.executeBatchOperation = async function() {
             const operation = document.getElementById('batch-operation').value;
             const checked = document.querySelectorAll('.item-checkbox:checked');
             const ids = Array.from(checked).map(cb => cb.value);
@@ -1945,7 +1967,7 @@
         });
 
         // Load themes management view
-        async function loadThemesManagement() {
+        window.loadThemesManagement = async function() {
             const contentArea = document.getElementById('content-area');
             contentArea.innerHTML = '<div class="loading">Loading themes...</div>';
 
@@ -1955,8 +1977,8 @@
                     { name: 'image_themes', label: 'Image Themes', field: 'folder_name' },
                     { name: 'border_styles', label: 'Border Styles', field: 'style_name' },
                     { name: 'background_themes', label: 'Background Themes', field: 'folder_name' },
-                    { name: 'train_template_themes', label: 'Train Template Themes', field: 'name' },
-                    { name: 'worksheet_template_themes', label: 'Worksheet Template Themes', field: 'name' }
+                    { name: 'train_template_themes', label: 'Train Template Themes', field: 'folder_name' },
+                    { name: 'worksheet_template_themes', label: 'Worksheet Template Themes', field: 'folder_name' }
                 ];
 
                 let html = `
@@ -2027,8 +2049,8 @@
                                     </td>
                                     <td>${usageCount > 0 ? `${usageCount} items` : '-'}</td>
                                     <td class="actions">
-                                        <button class="action-btn edit-btn" onclick="editTheme('${col.name}', ${item.id})">Edit</button>
-                                        <button class="action-btn delete-btn" onclick="deleteTheme('${col.name}', ${item.id}, ${usageCount})">Delete</button>
+                                        <button class="action-btn edit-btn" onclick="console.log('Button clicked:', '${col.name}', '${item.id}'); window.editTheme('${col.name}', '${item.id}')">Edit</button>
+                                        <button class="action-btn delete-btn" onclick="console.log('Delete clicked:', '${col.name}', '${item.id}'); window.deleteTheme('${col.name}', '${item.id}', ${usageCount})">Delete</button>
                                     </td>
                                 </tr>
                             `;
@@ -2050,7 +2072,7 @@
         }
 
         // Show create theme modal
-        function showCreateThemeModal() {
+        window.showCreateThemeModal = function() {
             currentEditItem = null;
             document.getElementById('theme-folder').value = '';
             // Clear all 11 language fields
@@ -2065,7 +2087,8 @@
         }
 
         // Edit theme
-        async function editTheme(collection, id) {
+        window.editTheme = async function(collection, id) {
+            console.log('editTheme called with:', collection, id);
             currentEditItem = { collection, id };
 
             const response = await fetch(`${DIRECTUS_URL}/items/${collection}/${id}`, {
@@ -2075,6 +2098,7 @@
             if (response.ok) {
                 const data = await response.json();
                 const item = data.data;
+                console.log('Loaded item data:', item);
 
                 document.getElementById('theme-type').value = collection;
                 document.getElementById('theme-folder').value = item.folder_name || item.style_name || '';
@@ -2084,7 +2108,9 @@
                 languages.forEach(lang => {
                     const field = document.getElementById(`theme-name-${lang}`);
                     if (field) {
-                        if (collection === 'border_styles') {
+                        if (collection === 'border_styles' ||
+                            collection === 'train_template_themes' ||
+                            collection === 'worksheet_template_themes') {
                             field.value = item.translations?.[lang] || '';
                         } else {
                             field.value = item.name?.[lang] || '';
@@ -2095,11 +2121,14 @@
                 document.getElementById('theme-sort').value = item.sort_order || 999;
                 document.getElementById('theme-active').checked = item.is_active !== false;
                 document.getElementById('theme-modal').classList.add('show');
+            } else {
+                console.error('Failed to fetch item:', response.status, await response.text());
+                alert('Failed to load theme data');
             }
         }
 
         // Save theme
-        async function saveTheme() {
+        window.saveTheme = async function() {
             const collection = document.getElementById('theme-type').value;
             const folderName = document.getElementById('theme-folder').value;
             const nameEn = document.getElementById('theme-name-en').value;
@@ -2132,6 +2161,10 @@
             if (collection === 'border_styles') {
                 themeData.style_name = folderName;
                 themeData.translations = translations;
+            } else if (collection === 'train_template_themes' || collection === 'worksheet_template_themes') {
+                themeData.folder_name = folderName;
+                themeData.translations = translations;
+                themeData.theme_name = translations.en; // Set theme_name to English value
             } else {
                 themeData.folder_name = folderName;
                 themeData.name = translations;
@@ -2176,7 +2209,7 @@
         }
 
         // Delete theme
-        async function deleteTheme(collection, id, usageCount) {
+        window.deleteTheme = async function(collection, id, usageCount) {
             if (usageCount > 0) {
                 alert(`Cannot delete theme: It is used by ${usageCount} items. Please reassign them first.`);
                 return;
@@ -2203,13 +2236,13 @@
         }
 
         // Close theme modal
-        function closeThemeModal() {
+        window.closeThemeModal = function() {
             document.getElementById('theme-modal').classList.remove('show');
             currentEditItem = null;
         }
 
         // Quick create theme
-        function quickCreateTheme() {
+        window.quickCreateTheme = function() {
             const themeName = prompt('Enter theme name (e.g., "vehicles", "sports", "nature"):')
             if (!themeName) return;
 
@@ -2246,6 +2279,10 @@
             if (collection === 'border_styles') {
                 themeData.style_name = themeName.toLowerCase().replace(/\s+/g, '_');
                 themeData.translations = fullTranslations;
+            } else if (collection === 'train_template_themes' || collection === 'worksheet_template_themes') {
+                themeData.folder_name = themeName.toLowerCase().replace(/\s+/g, '_');
+                themeData.translations = fullTranslations;
+                themeData.theme_name = displayName; // Set theme_name to display name
             } else {
                 themeData.folder_name = themeName.toLowerCase().replace(/\s+/g, '_');
                 themeData.name = fullTranslations;
@@ -2275,6 +2312,15 @@
 
         // Initialize on load
         window.addEventListener('load', init);
+
+        // Debug: Check if functions are attached
+        console.log('Admin Dashboard Functions Loaded:', {
+            editTheme: typeof window.editTheme,
+            deleteTheme: typeof window.deleteTheme,
+            saveTheme: typeof window.saveTheme,
+            loadThemesManagement: typeof window.loadThemesManagement,
+            showCreateThemeModal: typeof window.showCreateThemeModal
+        });
     </script>
 </body>
 </html>

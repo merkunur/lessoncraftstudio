@@ -3,6 +3,22 @@
 import { useState, useEffect } from 'react';
 import DirectusGuide from './directus-guide';
 
+interface Theme {
+  id: string;
+  name: string;
+  folderName: string;
+  translations?: Record<string, string>;
+}
+
+interface Image {
+  id: string;
+  name: string;
+  fileName: string;
+  theme: string;
+  imageUrl: string;
+  translations?: Record<string, string>;
+}
+
 export default function ImageLibraryAdmin() {
   const [showGuide, setShowGuide] = useState(true);
   
@@ -22,8 +38,8 @@ export default function ImageLibraryAdmin() {
     );
   }
   
-  const [themes, setThemes] = useState([]);
-  const [images, setImages] = useState([]);
+  const [themes, setThemes] = useState<Theme[]>([]);
+  const [images, setImages] = useState<Image[]>([]);
   const [selectedTheme, setSelectedTheme] = useState('');
   
   // Theme form
@@ -44,7 +60,7 @@ export default function ImageLibraryAdmin() {
     setThemes(data);
   };
 
-  const fetchImages = async (theme) => {
+  const fetchImages = async (theme: string) => {
     const response = await fetch(`/api/images?theme=${theme}`);
     const data = await response.json();
     setImages(data);

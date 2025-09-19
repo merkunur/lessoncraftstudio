@@ -21,10 +21,58 @@ interface WorksheetGeneration {
   watermarked: boolean;
 }
 
+interface WorksheetApp {
+  name: string;
+  url: string;
+  icon: string;
+  tier: 'free' | 'core' | 'full';
+  category: string;
+}
+
+const allApps: WorksheetApp[] = [
+  // Free Tier (3 apps)
+  { name: 'Word Search', url: '/worksheet-generators/wordsearch.html', icon: '🔍', tier: 'free', category: 'Language' },
+  { name: 'Addition', url: '/worksheet-generators/addition.html', icon: '➕', tier: 'free', category: 'Math' },
+  { name: 'Coloring', url: '/worksheet-generators/coloring.html', icon: '🎨', tier: 'free', category: 'Art' },
+
+  // Core Bundle (7 more apps = 10 total)
+  { name: 'Subtraction', url: '/worksheet-generators/subtraction.html', icon: '➖', tier: 'core', category: 'Math' },
+  { name: 'Alphabet Train', url: '/worksheet-generators/alphabet%20train.html', icon: '🚂', tier: 'core', category: 'Language' },
+  { name: 'Find and Count', url: '/worksheet-generators/find%20and%20count.html', icon: '🔢', tier: 'core', category: 'Math' },
+  { name: 'Matching', url: '/worksheet-generators/matching.html', icon: '🎯', tier: 'core', category: 'Logic' },
+  { name: 'Crossword', url: '/worksheet-generators/crossword.html', icon: '📝', tier: 'core', category: 'Language' },
+  { name: 'Sudoku', url: '/worksheet-generators/sudoku.html', icon: '🎲', tier: 'core', category: 'Logic' },
+  { name: 'Shadow Match', url: '/worksheet-generators/shadow%20match.html', icon: '👥', tier: 'core', category: 'Visual' },
+
+  // Full Access (23 more apps = 33 total)
+  { name: 'Math Puzzle', url: '/worksheet-generators/math%20puzzle.html', icon: '🧮', tier: 'full', category: 'Math' },
+  { name: 'Word Scramble', url: '/worksheet-generators/word%20scramble.html', icon: '🔤', tier: 'full', category: 'Language' },
+  { name: 'Chart Count', url: '/worksheet-generators/chart%20count.html', icon: '📊', tier: 'full', category: 'Math' },
+  { name: 'Drawing Lines', url: '/worksheet-generators/drawing%20lines.html', icon: '✏️', tier: 'full', category: 'Art' },
+  { name: 'Big Small', url: '/worksheet-generators/big%20small.html', icon: '📏', tier: 'full', category: 'Visual' },
+  { name: 'Code Addition', url: '/worksheet-generators/code%20addition.html', icon: '🔐', tier: 'full', category: 'Math' },
+  { name: 'Cryptogram', url: '/worksheet-generators/cryptogram.html', icon: '🗝️', tier: 'full', category: 'Language' },
+  { name: 'Draw and Color', url: '/worksheet-generators/draw%20and%20color.html', icon: '🖍️', tier: 'full', category: 'Art' },
+  { name: 'Find Objects', url: '/worksheet-generators/find%20objects.html', icon: '👀', tier: 'full', category: 'Visual' },
+  { name: 'Grid Match', url: '/worksheet-generators/grid%20match.html', icon: '⚡', tier: 'full', category: 'Logic' },
+  { name: 'Math Worksheet', url: '/worksheet-generators/math%20worksheet.html', icon: '📐', tier: 'full', category: 'Math' },
+  { name: 'More Less', url: '/worksheet-generators/more%20less.html', icon: '⚖️', tier: 'full', category: 'Math' },
+  { name: 'Odd One Out', url: '/worksheet-generators/odd%20one%20out.html', icon: '🎭', tier: 'full', category: 'Logic' },
+  { name: 'Picture Path', url: '/worksheet-generators/picture%20path.html', icon: '🗺️', tier: 'full', category: 'Visual' },
+  { name: 'Picture Sort', url: '/worksheet-generators/picture%20sort.html', icon: '📦', tier: 'full', category: 'Logic' },
+  { name: 'Prepositions', url: '/worksheet-generators/prepositions.html', icon: '📍', tier: 'full', category: 'Language' },
+  { name: 'Treasure Hunt', url: '/worksheet-generators/treasure%20hunt.html', icon: '🗝️', tier: 'full', category: 'Adventure' },
+  { name: 'Word Guess', url: '/worksheet-generators/word%20guess.html', icon: '💭', tier: 'full', category: 'Language' },
+  { name: 'Writing', url: '/worksheet-generators/writing.html', icon: '✍️', tier: 'full', category: 'Language' },
+  { name: 'Bingo', url: '/worksheet-generators/bingo.html', icon: '🎱', tier: 'full', category: 'Game' },
+];
+
 export default function DashboardPage() {
   const [user, setUser] = useState<User | null>(null);
   const [recentGenerations, setRecentGenerations] = useState<WorksheetGeneration[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [searchTerm, setSearchTerm] = useState('');
+  const [selectedCategory, setSelectedCategory] = useState('all');
   const router = useRouter();
   const t = useTranslations('dashboard');
 
@@ -194,28 +242,69 @@ export default function DashboardPage() {
               )}
             </div>
 
-            {/* Popular Apps */}
+            {/* Worksheet Apps */}
             <div className="bg-white rounded-lg shadow p-6">
-              <h2 className="text-xl font-semibold text-gray-900 mb-4">Popular Apps</h2>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                {[
-                  { icon: '➕', name: 'Addition', locked: user?.subscriptionTier === 'free' },
-                  { icon: '🔤', name: 'Word Scramble', locked: user?.subscriptionTier === 'free' },
-                  { icon: '🎨', name: 'Coloring', locked: user?.subscriptionTier === 'free' },
-                  { icon: '🧩', name: 'Sudoku', locked: user?.subscriptionTier === 'free' },
-                ].map((app, index) => (
-                  <div key={index} className="relative">
-                    <div className={`p-4 text-center border rounded-lg ${app.locked ? 'opacity-50' : 'hover:border-blue-500 cursor-pointer'}`}>
-                      <div className="text-3xl mb-2">{app.icon}</div>
-                      <p className="text-sm font-medium">{app.name}</p>
-                    </div>
-                    {app.locked && (
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <span className="text-xs px-2 py-1 bg-gray-800 text-white rounded">🔒 Upgrade</span>
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-xl font-semibold text-gray-900">Worksheet Generators</h2>
+                <div className="flex gap-2">
+                  <input
+                    type="text"
+                    placeholder="Search..."
+                    className="px-3 py-1 border rounded-md text-sm"
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                  />
+                  <select
+                    className="px-3 py-1 border rounded-md text-sm"
+                    value={selectedCategory}
+                    onChange={(e) => setSelectedCategory(e.target.value)}
+                  >
+                    <option value="all">All Categories</option>
+                    {[...new Set(allApps.map(app => app.category))].map(cat => (
+                      <option key={cat} value={cat}>{cat}</option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+                {allApps
+                  .filter(app => {
+                    const searchMatch = app.name.toLowerCase().includes(searchTerm.toLowerCase());
+                    const catMatch = selectedCategory === 'all' || app.category === selectedCategory;
+                    return searchMatch && catMatch;
+                  })
+                  .map((app) => {
+                    const canAccess = app.tier === 'free' ||
+                      (user?.subscriptionTier === 'core' && (app.tier === 'free' || app.tier === 'core')) ||
+                      user?.subscriptionTier === 'full';
+
+                    return (
+                      <div
+                        key={app.name}
+                        className={`relative p-3 text-center border rounded-lg transition-all ${
+                          canAccess
+                            ? 'hover:border-blue-500 hover:shadow-md cursor-pointer'
+                            : 'opacity-60 bg-gray-50'
+                        }`}
+                        onClick={() => canAccess && window.open(app.url, '_blank')}
+                      >
+                        <div className="text-2xl mb-1">{app.icon}</div>
+                        <p className="text-xs font-medium">{app.name}</p>
+                        <span className={`text-xs px-1 py-0.5 rounded mt-1 inline-block ${
+                          app.tier === 'free' ? 'bg-green-100 text-green-700' :
+                          app.tier === 'core' ? 'bg-blue-100 text-blue-700' :
+                          'bg-purple-100 text-purple-700'
+                        }`}>
+                          {app.tier === 'free' ? 'Free' : app.tier === 'core' ? 'Core' : 'Pro'}
+                        </span>
+                        {!canAccess && (
+                          <div className="absolute inset-0 flex items-center justify-center bg-gray-900 bg-opacity-10 rounded-lg">
+                            <span className="text-xs px-2 py-1 bg-gray-800 text-white rounded">🔒</span>
+                          </div>
+                        )}
                       </div>
-                    )}
-                  </div>
-                ))}
+                    );
+                  })}
               </div>
             </div>
           </div>

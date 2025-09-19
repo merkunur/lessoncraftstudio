@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LessonCraftStudio - Professioneller Arbeitsblatt-Generator</title>
+    <meta name="description" content="33 leistungsstarke Arbeitsblatt-Generatoren mit über 100 thematischen Bildern für Bildungsverlage">
+    <link rel="stylesheet" href="/css/main.css">
+    <style>
+        /* Base styles */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #333; }
+
+        /* Navigation */
+        nav { background: white; box-shadow: 0 2px 10px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
+        .nav-container { max-width: 1200px; margin: 0 auto; padding: 1rem; display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: bold; color: #667eea; text-decoration: none; }
+        .nav-menu { display: flex; gap: 2rem; list-style: none; align-items: center; }
+        .nav-menu a { text-decoration: none; color: #333; font-weight: 500; transition: color 0.3s; }
+        .nav-menu a:hover { color: #667eea; }
+
+        /* Language Switcher */
+        .language-switcher { position: relative; }
+        .language-current { padding: 0.5rem 1rem; background: #f7fafc; border-radius: 6px; cursor: pointer; display: flex; align-items: center; gap: 0.5rem; }
+        .language-dropdown { position: absolute; top: 100%; right: 0; background: white; border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); margin-top: 0.5rem; display: none; min-width: 150px; }
+        .language-dropdown.active { display: block; }
+        .language-dropdown a { display: block; padding: 0.75rem 1rem; color: #333; text-decoration: none; transition: background 0.3s; }
+        .language-dropdown a:hover { background: #f7fafc; }
+
+        /* Buttons */
+        .btn { padding: 0.75rem 1.5rem; border-radius: 6px; text-decoration: none; display: inline-block; transition: all 0.3s; font-weight: 500; }
+        .btn-primary { background: linear-gradient(135deg, #667eea, #764ba2); color: white; }
+        .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 10px 20px rgba(102, 126, 234, 0.4); }
+        .btn-secondary { background: white; color: #667eea; border: 2px solid #667eea; }
+        .btn-secondary:hover { background: #667eea; color: white; }
+
+        /* Hero Section */
+        .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 5rem 1rem; text-align: center; }
+        .hero h1 { font-size: 3rem; margin-bottom: 1rem; }
+        .hero p { font-size: 1.25rem; margin-bottom: 2rem; opacity: 0.95; }
+        .hero-buttons { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+
+        /* Features Section */
+        .features { padding: 4rem 1rem; background: #f7fafc; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        .section-title { text-align: center; font-size: 2.5rem; margin-bottom: 3rem; color: #333; }
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; }
+        .feature-card { background: white; padding: 2rem; border-radius: 12px; text-align: center; box-shadow: 0 5px 20px rgba(0,0,0,0.08); transition: transform 0.3s; }
+        .feature-card:hover { transform: translateY(-5px); }
+        .feature-icon { font-size: 3rem; margin-bottom: 1rem; }
+        .feature-title { font-size: 1.25rem; margin-bottom: 0.5rem; color: #333; }
+        .feature-description { color: #666; }
+
+        /* Samples Section */
+        .samples { padding: 4rem 1rem; }
+        .samples-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem; }
+        .sample-card { border: 1px solid #e2e8f0; border-radius: 12px; overflow: hidden; transition: all 0.3s; background: white; }
+        .sample-card:hover { box-shadow: 0 10px 30px rgba(0,0,0,0.15); transform: translateY(-5px); }
+        .sample-image { width: 100%; height: 200px; background: #f7fafc; display: flex; align-items: center; justify-content: center; font-size: 3rem; }
+        .sample-content { padding: 1.5rem; }
+        .sample-title { font-size: 1.25rem; margin-bottom: 0.5rem; color: #333; }
+        .sample-description { color: #666; margin-bottom: 1rem; }
+        .sample-meta { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+        .badge { padding: 0.25rem 0.75rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600; }
+        .badge-blue { background: #ebf8ff; color: #2b6cb0; }
+        .badge-green { background: #f0fff4; color: #22543d; }
+        .badge-yellow { background: #fffff0; color: #744210; }
+
+        /* Pricing Section */
+        .pricing { padding: 4rem 1rem; background: #f7fafc; }
+        .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; max-width: 900px; margin: 3rem auto; }
+        .pricing-card { background: white; border-radius: 12px; padding: 2rem; text-align: center; border: 2px solid #e2e8f0; position: relative; }
+        .pricing-card.featured { border-color: #667eea; transform: scale(1.05); }
+        .pricing-badge { position: absolute; top: -12px; left: 50%; transform: translateX(-50%); background: #667eea; color: white; padding: 0.25rem 1rem; border-radius: 20px; font-size: 0.75rem; }
+        .pricing-title { font-size: 1.5rem; margin-bottom: 1rem; }
+        .pricing-price { font-size: 3rem; font-weight: bold; color: #667eea; }
+        .pricing-period { color: #666; font-size: 1rem; }
+        .pricing-features { list-style: none; margin: 2rem 0; }
+        .pricing-features li { padding: 0.5rem 0; color: #666; }
+        .pricing-features li:before { content: "✓ "; color: #48bb78; font-weight: bold; }
+
+        /* Footer */
+        footer { background: #2d3748; color: white; padding: 3rem 1rem; margin-top: 4rem; }
+        .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto; }
+        .footer-section h3 { margin-bottom: 1rem; }
+        .footer-section a { color: #cbd5e0; text-decoration: none; display: block; padding: 0.25rem 0; }
+        .footer-section a:hover { color: white; }
+        .footer-bottom { text-align: center; margin-top: 2rem; padding-top: 2rem; border-top: 1px solid #4a5568; color: #a0aec0; }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="/" class="logo">LessonCraftStudio</a>
+            <ul class="nav-menu">
+                <li><a href="/static/de/apps">Apps</a></li>
+                <li><a href="/static/de/preise">Preise</a></li>
+                <li><a href="/static/de/blog">Blog</a></li>
+                <li class="language-switcher">
+                    <div class="language-current" onclick="toggleLanguageDropdown()">
+                        🇩🇪 DE <span>▼</span>
+                    </div>
+                    <div class="language-dropdown" id="language-dropdown">
+                        <a href="/static/en/homepage">🇬🇧 English</a>
+                        <a href="/static/de/homepage">🇩🇪 Deutsch</a>
+                        <a href="/static/fr/homepage">🇫🇷 Français</a>
+                        <a href="/static/es/homepage">🇪🇸 Español</a>
+                        <a href="/static/it/homepage">🇮🇹 Italiano</a>
+                        <a href="/static/pt/homepage">🇵🇹 Português</a>
+                        <a href="/static/nl/homepage">🇳🇱 Nederlands</a>
+                        <a href="/static/sv/homepage">🇸🇪 Svenska</a>
+                        <a href="/static/da/homepage">🇩🇰 Dansk</a>
+                        <a href="/static/no/homepage">🇳🇴 Norsk</a>
+                        <a href="/static/fi/homepage">🇫🇮 Suomi</a>
+                    </div>
+                </li>
+                <li><a href="/static/de/anmelden" class="btn btn-secondary">Anmelden</a></li>
+                <li><a href="/static/de/registrieren" class="btn btn-primary">Kostenlos starten</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Erstellen Sie professionelle Arbeitsblätter in Minuten</h1>
+            <p>33 leistungsstarke Arbeitsblatt-Generatoren mit über 100 thematischen Bildern</p>
+            <div class="hero-buttons">
+                <a href="/worksheet-generators/wordsearch.html" class="btn btn-primary">Wortsuche kostenlos testen</a>
+                <a href="/static/de/apps" class="btn btn-secondary">Alle Apps anzeigen</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Alles was Sie brauchen</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3 class="feature-title">33 Arbeitsblatt-Apps</h3>
+                    <p class="feature-description">Von Mathematik und Lesen bis zu Rätseln und Spielen</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3 class="feature-title">100+ Bildthemen</h3>
+                    <p class="feature-description">Kinderfreundliche Illustrationen mit kommerzieller Lizenz</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3 class="feature-title">11 Sprachen</h3>
+                    <p class="feature-description">Erstellen Sie Arbeitsblätter in mehreren Sprachen</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✅</div>
+                    <h3 class="feature-title">POD-Lizenz inklusive</h3>
+                    <p class="feature-description">Verkaufen Sie Ihre Arbeitsblätter auf jeder Plattform</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Samples Section -->
+    <section class="samples">
+        <div class="container">
+            <h2 class="section-title">Arbeitsblätter-Beispielgalerie</h2>
+            <p style="text-align: center; color: #666; max-width: 800px; margin: 0 auto;">
+                Klicken Sie auf ein Arbeitsblatt für eine größere Vorschau. Dies sind nur einige Beispiele aus unserer Sammlung von 33 professionellen Arbeitsblatt-Generatoren.
+            </p>
+
+            <div class="samples-grid">
+                <div class="sample-card">
+                    <div class="sample-image">🚂</div>
+                    <div class="sample-content">
+                        <h3 class="sample-title">Alphabet Train</h3>
+                        <p class="sample-description">Fun alphabet learning with colorful train cars</p>
+                        <div class="sample-meta">
+                            <span class="badge badge-blue">Literacy</span>
+                            <span class="badge badge-green">Easy</span>
+                            <span class="badge badge-yellow">3-5 years</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sample-card">
+                    <div class="sample-image">🔢</div>
+                    <div class="sample-content">
+                        <h3 class="sample-title">Code Addition</h3>
+                        <p class="sample-description">Crack the code with addition puzzles</p>
+                        <div class="sample-meta">
+                            <span class="badge badge-blue">Math</span>
+                            <span class="badge badge-yellow">Medium</span>
+                            <span class="badge badge-yellow">6-8 years</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sample-card">
+                    <div class="sample-image">📊</div>
+                    <div class="sample-content">
+                        <h3 class="sample-title">Chart & Count</h3>
+                        <p class="sample-description">Learn graphing and data visualization</p>
+                        <div class="sample-meta">
+                            <span class="badge badge-blue">Math</span>
+                            <span class="badge badge-yellow">Medium</span>
+                            <span class="badge badge-yellow">7-10 years</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sample-card">
+                    <div class="sample-image">🔍</div>
+                    <div class="sample-content">
+                        <h3 class="sample-title">Hidden Objects</h3>
+                        <p class="sample-description">Find hidden objects in detailed scenes</p>
+                        <div class="sample-meta">
+                            <span class="badge badge-blue">Puzzle</span>
+                            <span class="badge badge-green">Easy</span>
+                            <span class="badge badge-yellow">5-8 years</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sample-card">
+                    <div class="sample-image">👁️</div>
+                    <div class="sample-content">
+                        <h3 class="sample-title">I Spy Game</h3>
+                        <p class="sample-description">Classic I Spy searching game</p>
+                        <div class="sample-meta">
+                            <span class="badge badge-blue">Puzzle</span>
+                            <span class="badge badge-green">Easy</span>
+                            <span class="badge badge-yellow">4-7 years</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sample-card">
+                    <div class="sample-image">🚆</div>
+                    <div class="sample-content">
+                        <h3 class="sample-title">Pattern Train</h3>
+                        <p class="sample-description">Complete the pattern sequences</p>
+                        <div class="sample-meta">
+                            <span class="badge badge-blue">Logic</span>
+                            <span class="badge badge-yellow">Medium</span>
+                            <span class="badge badge-yellow">5-8 years</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="/static/de/apps" class="btn btn-primary">Alle 33 Arbeitsblatt-Generatoren erkunden →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+        <div class="container">
+            <h2 class="section-title">Einfache, transparente Preise</h2>
+            <p style="text-align: center; color: #666;">Wählen Sie den Plan, der zu Ihnen passt</p>
+
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3 class="pricing-title">Kostenlos</h3>
+                    <div class="pricing-price">$0</div>
+                    <ul class="pricing-features">
+                        <li>Word Search Generator</li>
+                        <li>Limited image library</li>
+                        <li>Watermarked output</li>
+                        <li>Basic support</li>
+                    </ul>
+                    <a href="/static/en/signup" class="btn btn-secondary" style="width: 100%;">Start Free</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <span class="pricing-badge">Am beliebtesten</span>
+                    <h3 class="pricing-title">Core Bundle</h3>
+                    <div class="pricing-price">$15<span class="pricing-period">/month</span></div>
+                    <ul class="pricing-features">
+                        <li>10 most popular apps</li>
+                        <li>Full image library access</li>
+                        <li>No watermarks</li>
+                        <li>POD commercial license</li>
+                        <li>Priority support</li>
+                    </ul>
+                    <a href="/static/en/signup?plan=core" class="btn btn-primary" style="width: 100%;">Choose Core Bundle</a>
+                </div>
+
+                <div class="pricing-card">
+                    <h3 class="pricing-title">Full Access</h3>
+                    <div class="pricing-price">$25<span class="pricing-period">/month</span></div>
+                    <ul class="pricing-features">
+                        <li>All 33 apps</li>
+                        <li>Full image library access</li>
+                        <li>No watermarks</li>
+                        <li>POD commercial license</li>
+                        <li>Priority support</li>
+                        <li>Early access to new apps</li>
+                    </ul>
+                    <a href="/static/en/signup?plan=full" class="btn btn-primary" style="width: 100%;">Get Full Access</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h3>Product</h3>
+                <a href="/static/en/apps">Apps</a>
+                <a href="/static/en/pricing">Pricing</a>
+                <a href="/static/en/blog">Blog</a>
+            </div>
+            <div class="footer-section">
+                <h3>Support</h3>
+                <a href="/static/en/help">Help Center</a>
+                <a href="/static/en/contact">Contact</a>
+                <a href="/static/en/faq">FAQ</a>
+            </div>
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <a href="/static/en/terms">Terms of Service</a>
+                <a href="/static/en/privacy">Privacy Policy</a>
+                <a href="/static/en/license">License Terms</a>
+            </div>
+            <div class="footer-section">
+                <h3>Company</h3>
+                <a href="/static/en/about">About Us</a>
+                <a href="/static/en/careers">Careers</a>
+                <a href="/static/en/partners">Partners</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 LessonCraftStudio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Language switcher
+        function toggleLanguageDropdown() {
+            const dropdown = document.getElementById('language-dropdown');
+            dropdown.classList.toggle('active');
+        }
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(e) {
+            const switcher = document.querySelector('.language-switcher');
+            if (!switcher.contains(e.target)) {
+                document.getElementById('language-dropdown').classList.remove('active');
+            }
+        });
+
+        // Detect current language from URL
+        const currentPath = window.location.pathname;
+        const langMatch = currentPath.match(/^\/([a-z]{2})\//);
+        const currentLang = langMatch ? langMatch[1] : 'en';
+
+        // Update navigation links to include language
+        document.querySelectorAll('nav a').forEach(link => {
+            const href = link.getAttribute('href');
+            if (href && href.startsWith('/') && !href.match(/^\/[a-z]{2}\//)) {
+                link.setAttribute('href', `/${currentLang}${href}`);
+            }
+        });
+    </script>
+</body>
+</html>

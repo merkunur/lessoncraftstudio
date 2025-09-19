@@ -41,7 +41,7 @@ export async function POST(request: NextRequest) {
 }
 
 // Legacy POST implementation (kept for reference)
-export async function POST_LEGACY(request: NextRequest) {
+async function POST_LEGACY(request: NextRequest) {
   try {
     console.log('🔄 Manual sync triggered (legacy)...');
     

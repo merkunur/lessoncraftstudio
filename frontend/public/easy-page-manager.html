@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easy Page Manager - LessonCraftStudio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .main-content {
+            padding: 40px;
+        }
+
+        /* Big Upload Area */
+        .upload-section {
+            background: #f0f7ff;
+            border: 3px dashed #667eea;
+            border-radius: 20px;
+            padding: 60px;
+            text-align: center;
+            margin-bottom: 40px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .upload-section:hover {
+            background: #e0f2ff;
+            transform: scale(1.02);
+        }
+
+        .upload-section.dragover {
+            background: #d0e9ff;
+            border-color: #764ba2;
+        }
+
+        .upload-icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+
+        .upload-title {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .upload-subtitle {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .upload-button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 18px 40px;
+            font-size: 20px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .upload-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+        }
+
+        .file-input {
+            display: none;
+        }
+
+        /* Simple Language Selector */
+        .language-selector {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 40px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .language-selector h2 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .language-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+        }
+
+        .language-btn {
+            padding: 15px;
+            border: 2px solid #e0e0e0;
+            background: white;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .language-btn:hover {
+            border-color: #667eea;
+            background: #f0f7ff;
+        }
+
+        .language-btn.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-color: #667eea;
+        }
+
+        /* Your Pages Section */
+        .pages-section {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .pages-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .pages-header h2 {
+            color: #333;
+            font-size: 24px;
+        }
+
+        .page-count {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 20px;
+            font-size: 16px;
+        }
+
+        .pages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .page-card {
+            background: white;
+            border: 2px solid #e0e0e0;
+            border-radius: 15px;
+            padding: 20px;
+            transition: all 0.3s;
+        }
+
+        .page-card:hover {
+            border-color: #667eea;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+            transform: translateY(-3px);
+        }
+
+        .page-card.uploaded {
+            background: #f0fff4;
+            border-color: #4caf50;
+        }
+
+        .page-icon {
+            font-size: 40px;
+            margin-bottom: 10px;
+        }
+
+        .page-name {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+            text-transform: capitalize;
+        }
+
+        .page-status {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 15px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .status-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: #e0e0e0;
+        }
+
+        .status-dot.uploaded {
+            background: #4caf50;
+        }
+
+        .page-actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .action-btn {
+            flex: 1;
+            padding: 8px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+
+        .action-btn.view {
+            background: #2196f3;
+            color: white;
+        }
+
+        .action-btn.view:hover {
+            background: #1976d2;
+        }
+
+        .action-btn.edit {
+            background: #ff9800;
+            color: white;
+        }
+
+        .action-btn.edit:hover {
+            background: #f57c00;
+        }
+
+        .action-btn.delete {
+            background: #f44336;
+            color: white;
+        }
+
+        .action-btn.delete:hover {
+            background: #d32f2f;
+        }
+
+        .action-btn.upload {
+            background: #4caf50;
+            color: white;
+        }
+
+        .action-btn.upload:hover {
+            background: #388e3c;
+        }
+
+        /* Success Message */
+        .success-message {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #4caf50;
+            color: white;
+            padding: 20px 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            display: none;
+            animation: slideIn 0.3s;
+            font-size: 16px;
+            z-index: 1000;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .success-message.show {
+            display: block;
+        }
+
+        /* Help Section */
+        .help-section {
+            background: #fffbf0;
+            border: 2px solid #ffc107;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 40px;
+        }
+
+        .help-section h3 {
+            color: #f57c00;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+
+        .help-section p {
+            color: #666;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        .help-steps {
+            margin-top: 15px;
+            padding-left: 20px;
+        }
+
+        .help-steps li {
+            color: #666;
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+
+        /* Modal for Preview */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 2000;
+            padding: 20px;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 20px;
+            max-width: 90%;
+            max-height: 90%;
+            margin: auto;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .modal-header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        .modal-body {
+            height: calc(90vh - 100px);
+            overflow: auto;
+        }
+
+        .preview-frame {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 60px;
+            color: #999;
+        }
+
+        .empty-state-icon {
+            font-size: 80px;
+            margin-bottom: 20px;
+        }
+
+        .empty-state-text {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>📄 Easy Page Manager</h1>
+            <p>Upload and manage your website pages - No technical knowledge needed!</p>
+        </div>
+
+        <div class="main-content">
+            <!-- Help Section -->
+            <div class="help-section">
+                <h3>🎯 How to use this tool:</h3>
+                <ol class="help-steps">
+                    <li>Select your language below (the language of the page you're uploading)</li>
+                    <li>Click the big upload area or drag your HTML file onto it</li>
+                    <li>Your page will automatically appear in the correct section</li>
+                    <li>All pages automatically link to each other - no setup needed!</li>
+                </ol>
+            </div>
+
+            <!-- Language Selector -->
+            <div class="language-selector">
+                <h2>Step 1: Select Language for Upload</h2>
+                <div class="language-grid">
+                    <button class="language-btn active" data-lang="en">🇬🇧 English</button>
+                    <button class="language-btn" data-lang="de">🇩🇪 German</button>
+                    <button class="language-btn" data-lang="fr">🇫🇷 French</button>
+                    <button class="language-btn" data-lang="es">🇪🇸 Spanish</button>
+                    <button class="language-btn" data-lang="it">🇮🇹 Italian</button>
+                    <button class="language-btn" data-lang="pt">🇵🇹 Portuguese</button>
+                    <button class="language-btn" data-lang="nl">🇳🇱 Dutch</button>
+                    <button class="language-btn" data-lang="sv">🇸🇪 Swedish</button>
+                    <button class="language-btn" data-lang="da">🇩🇰 Danish</button>
+                    <button class="language-btn" data-lang="no">🇳🇴 Norwegian</button>
+                    <button class="language-btn" data-lang="fi">🇫🇮 Finnish</button>
+                </div>
+            </div>
+
+            <!-- Upload Section -->
+            <div class="upload-section" id="upload-area">
+                <div class="upload-icon">📤</div>
+                <div class="upload-title">Step 2: Upload Your Page</div>
+                <div class="upload-subtitle">Drag & drop your HTML file here or click to browse</div>
+                <button class="upload-button">Choose File From Computer</button>
+                <input type="file" class="file-input" id="file-input" accept=".html">
+            </div>
+
+            <!-- Pages Section -->
+            <div class="pages-section">
+                <div class="pages-header">
+                    <h2>Your Website Pages</h2>
+                    <div class="page-count">
+                        <span id="page-count">0</span> pages uploaded
+                    </div>
+                </div>
+                <div class="pages-grid" id="pages-grid">
+                    <!-- Pages will be inserted here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Message -->
+    <div class="success-message" id="success-message">
+        ✅ Page uploaded successfully!
+    </div>
+
+    <!-- Preview Modal -->
+    <div class="modal" id="preview-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title">Page Preview</h3>
+                <button class="modal-close" onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <iframe class="preview-frame" id="preview-frame"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Configuration
+        const languages = {
+            en: 'English',
+            de: 'German',
+            fr: 'French',
+            es: 'Spanish',
+            it: 'Italian',
+            pt: 'Portuguese',
+            nl: 'Dutch',
+            sv: 'Swedish',
+            da: 'Danish',
+            no: 'Norwegian',
+            fi: 'Finnish'
+        };
+
+        // Standard pages every website needs
+        const standardPages = [
+            { id: 'homepage', name: 'Homepage', icon: '🏠' },
+            { id: 'apps', name: 'Apps / Products', icon: '📱' },
+            { id: 'pricing', name: 'Pricing', icon: '💰' },
+            { id: 'about', name: 'About Us', icon: '👥' },
+            { id: 'contact', name: 'Contact', icon: '📧' },
+            { id: 'blog', name: 'Blog', icon: '📝' },
+            { id: 'faq', name: 'FAQ', icon: '❓' },
+            { id: 'terms', name: 'Terms of Service', icon: '📜' },
+            { id: 'privacy', name: 'Privacy Policy', icon: '🔒' }
+        ];
+
+        let currentLanguage = 'en';
+        let uploadedPages = {};
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            setupLanguageButtons();
+            setupUploadArea();
+            loadExistingPages();
+            displayPages();
+        });
+
+        function setupLanguageButtons() {
+            const buttons = document.querySelectorAll('.language-btn');
+            buttons.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    buttons.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    currentLanguage = this.dataset.lang;
+                    displayPages();
+                });
+            });
+        }
+
+        function setupUploadArea() {
+            const uploadArea = document.getElementById('upload-area');
+            const fileInput = document.getElementById('file-input');
+
+            uploadArea.addEventListener('click', () => fileInput.click());
+
+            uploadArea.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                uploadArea.classList.add('dragover');
+            });
+
+            uploadArea.addEventListener('dragleave', () => {
+                uploadArea.classList.remove('dragover');
+            });
+
+            uploadArea.addEventListener('drop', (e) => {
+                e.preventDefault();
+                uploadArea.classList.remove('dragover');
+                handleFiles(e.dataTransfer.files);
+            });
+
+            fileInput.addEventListener('change', (e) => {
+                handleFiles(e.target.files);
+            });
+        }
+
+        function handleFiles(files) {
+            const file = files[0];
+            if (!file || !file.name.endsWith('.html')) {
+                alert('Please upload an HTML file');
+                return;
+            }
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const content = e.target.result;
+
+                // Try to detect what page this is
+                const pageName = detectPageType(file.name, content);
+
+                // Process and save the page
+                processAndSavePage(pageName, content);
+            };
+            reader.readAsText(file);
+        }
+
+        function detectPageType(filename, content) {
+            const name = filename.toLowerCase().replace('.html', '');
+
+            // Check if filename matches standard pages
+            for (const page of standardPages) {
+                if (name.includes(page.id) ||
+                    name.includes(page.name.toLowerCase()) ||
+                    content.toLowerCase().includes(`<title>.*${page.name}.*</title>`)) {
+                    return page.id;
+                }
+            }
+
+            // If no match, use the filename as page name
+            return name.replace(/[^a-z0-9]/g, '');
+        }
+
+        function processAndSavePage(pageName, content) {
+            // Automatically fix links for multi-language support
+            let processedContent = content;
+
+            // Update language switcher links
+            Object.keys(languages).forEach(lang => {
+                // Fix any existing language links
+                processedContent = processedContent.replace(
+                    new RegExp(`href="[^"]*/${lang}/([^"]*)"`, 'g'),
+                    `href="/static/${lang}/$1"`
+                );
+            });
+
+            // Add auto-linking to other pages
+            standardPages.forEach(page => {
+                // Update navigation links automatically
+                processedContent = processedContent.replace(
+                    new RegExp(`href="[^"]*${page.id}[^"]*"`, 'gi'),
+                    `href="/static/${currentLanguage}/${page.id}"`
+                );
+            });
+
+            // Add language persistence script if not present
+            if (!processedContent.includes('localStorage.setItem')) {
+                const languageScript = `
+                    <script>
+                        // Auto-added by Page Manager
+                        localStorage.setItem('selectedLanguage', '${currentLanguage}');
+
+                        // Handle language switching
+                        document.addEventListener('DOMContentLoaded', function() {
+                            const links = document.querySelectorAll('a[href*="/static/"]');
+                            links.forEach(link => {
+                                link.addEventListener('click', function(e) {
+                                    const href = this.getAttribute('href');
+                                    const match = href.match(/\\/static\\/([a-z]{2})\\//);
+                                    if (match) {
+                                        localStorage.setItem('selectedLanguage', match[1]);
+                                    }
+                                });
+                            });
+                        });
+                    </script>
+                `;
+                processedContent = processedContent.replace('</body>', languageScript + '</body>');
+            }
+
+            // Save to storage
+            savePageToStorage(currentLanguage, pageName, processedContent);
+
+            // Show success
+            showSuccess(`Page "${pageName}" uploaded successfully for ${languages[currentLanguage]}!`);
+
+            // Refresh display
+            loadExistingPages();
+            displayPages();
+        }
+
+        function savePageToStorage(lang, pageName, content) {
+            // Save to localStorage (in production, this would be an API call)
+            const key = `page_${lang}_${pageName}`;
+            localStorage.setItem(key, content);
+
+            // Save metadata
+            const metadata = JSON.parse(localStorage.getItem('pageMetadata') || '{}');
+            if (!metadata[lang]) metadata[lang] = {};
+            metadata[lang][pageName] = {
+                uploaded: new Date().toISOString(),
+                size: content.length,
+                title: extractTitle(content)
+            };
+            localStorage.setItem('pageMetadata', JSON.stringify(metadata));
+
+            // In production, make API call to save to server
+            saveToServer(lang, pageName, content);
+        }
+
+        async function saveToServer(lang, pageName, content) {
+            try {
+                const response = await fetch('/api/save-page', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        language: lang,
+                        pageName: pageName,
+                        content: content
+                    })
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    console.log('Page saved to server:', result.url);
+                    return true;
+                } else {
+                    console.warn('Server save failed, using local storage');
+                    return false;
+                }
+            } catch (error) {
+                console.warn('Server not available, saved locally');
+                return false;
+            }
+        }
+
+        function extractTitle(html) {
+            const match = html.match(/<title>(.*?)<\/title>/i);
+            return match ? match[1] : 'Untitled';
+        }
+
+        async function loadExistingPages() {
+            uploadedPages = {};
+
+            // Try to load from server first
+            for (const lang of Object.keys(languages)) {
+                try {
+                    const response = await fetch(`/api/save-page?language=${lang}`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        if (data.pages && data.pages.length > 0) {
+                            uploadedPages[lang] = {};
+                            data.pages.forEach(page => {
+                                uploadedPages[lang][page.name] = {
+                                    uploaded: true,
+                                    url: page.url
+                                };
+                            });
+                        }
+                    }
+                } catch (error) {
+                    console.log(`Could not load pages for ${lang} from server`);
+                }
+            }
+
+            // Also check localStorage as fallback
+            const metadata = JSON.parse(localStorage.getItem('pageMetadata') || '{}');
+            Object.keys(metadata).forEach(lang => {
+                uploadedPages[lang] = uploadedPages[lang] || {};
+                Object.keys(metadata[lang]).forEach(pageName => {
+                    uploadedPages[lang][pageName] = metadata[lang][pageName];
+                });
+            });
+        }
+
+        function displayPages() {
+            const grid = document.getElementById('pages-grid');
+            grid.innerHTML = '';
+
+            let totalPages = 0;
+
+            standardPages.forEach(page => {
+                const isUploaded = uploadedPages[currentLanguage] &&
+                                 uploadedPages[currentLanguage][page.id];
+
+                if (isUploaded) totalPages++;
+
+                const card = document.createElement('div');
+                card.className = `page-card ${isUploaded ? 'uploaded' : ''}`;
+
+                card.innerHTML = `
+                    <div class="page-icon">${page.icon}</div>
+                    <div class="page-name">${page.name}</div>
+                    <div class="page-status">
+                        <div class="status-dot ${isUploaded ? 'uploaded' : ''}"></div>
+                        <span>${isUploaded ? 'Uploaded' : 'Not uploaded'}</span>
+                    </div>
+                    <div class="page-actions">
+                        ${isUploaded ? `
+                            <button class="action-btn view" onclick="viewPage('${page.id}')">View</button>
+                            <button class="action-btn delete" onclick="deletePage('${page.id}')">Delete</button>
+                        ` : `
+                            <button class="action-btn upload" onclick="promptUpload('${page.id}')">Upload</button>
+                        `}
+                    </div>
+                `;
+
+                grid.appendChild(card);
+            });
+
+            // Update count
+            document.getElementById('page-count').textContent = totalPages;
+
+            // Show empty state if no pages
+            if (totalPages === 0 && grid.children.length === 0) {
+                grid.innerHTML = `
+                    <div class="empty-state">
+                        <div class="empty-state-icon">📭</div>
+                        <div class="empty-state-text">No pages uploaded yet</div>
+                    </div>
+                `;
+            }
+        }
+
+        function viewPage(pageName) {
+            const key = `page_${currentLanguage}_${pageName}`;
+            const content = localStorage.getItem(key);
+
+            if (content) {
+                // Show in modal
+                document.getElementById('modal-title').textContent =
+                    `Preview: ${pageName} (${languages[currentLanguage]})`;
+                document.getElementById('preview-frame').srcdoc = content;
+                document.getElementById('preview-modal').style.display = 'block';
+            } else {
+                // Open in new window (if saved on server)
+                window.open(`/static/${currentLanguage}/${pageName}`, '_blank');
+            }
+        }
+
+        function deletePage(pageName) {
+            if (confirm(`Are you sure you want to delete "${pageName}" for ${languages[currentLanguage]}?`)) {
+                const key = `page_${currentLanguage}_${pageName}`;
+                localStorage.removeItem(key);
+
+                // Update metadata
+                const metadata = JSON.parse(localStorage.getItem('pageMetadata') || '{}');
+                if (metadata[currentLanguage]) {
+                    delete metadata[currentLanguage][pageName];
+                    localStorage.setItem('pageMetadata', JSON.stringify(metadata));
+                }
+
+                loadExistingPages();
+                displayPages();
+                showSuccess(`Page "${pageName}" deleted`);
+            }
+        }
+
+        function promptUpload(pageName) {
+            alert(`Please upload the ${pageName} file using the upload area above.\n\nMake sure to select ${languages[currentLanguage]} as the language first!`);
+            document.getElementById('upload-area').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function closeModal() {
+            document.getElementById('preview-modal').style.display = 'none';
+        }
+
+        function showSuccess(message) {
+            const successDiv = document.getElementById('success-message');
+            successDiv.textContent = '✅ ' + message;
+            successDiv.classList.add('show');
+
+            setTimeout(() => {
+                successDiv.classList.remove('show');
+            }, 3000);
+        }
+
+        // Close modal on ESC key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+</html>

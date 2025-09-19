@@ -134,12 +134,14 @@ export async function GET(request: NextRequest) {
       const data = await response.json();
       
       if (data.data && data.data.length > 0) {
-        // Define app-specific folders to exclude
+        // Define app-specific folders to exclude from main image library
         const excludedFolders = [
-          'alphabetsvg',       // Writing app specific
+          'alphabetsvg',       // Writing app specific (SVG letters)
           'prepositions',      // Prepositions app specific
           'symbols',           // More Less app specific
-          'drawing lines'      // Drawing Lines app specific
+          'drawing lines',     // Drawing Lines app specific
+          'train_templates',   // Train templates (for Alphabet Train & Pattern Train)
+          'worksheet_templates'// Worksheet templates (for Prepositions app)
         ];
 
         const themes = data.data

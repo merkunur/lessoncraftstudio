@@ -39,7 +39,7 @@ export class ImageLibraryService {
   }
 
   // Authenticate with Directus (server-side only)
-  private async authenticate(): Promise<string> {
+  private async authenticate(): Promise<string | null> {
     if (this.accessToken) return this.accessToken;
 
     try {

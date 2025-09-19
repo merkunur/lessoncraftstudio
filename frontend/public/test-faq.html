@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test FAQ Accordion</title>
+    <style>
+        .faq-section-1734889234 {
+            padding: 64px 24px;
+            background-color: #FFFFFF;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .faq-container-1734889234 {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .faq-title-1734889234 {
+            color: #480005;
+            font-size: 32px;
+            line-height: 1.2;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 48px;
+            word-break: break-word;
+        }
+
+        .faq-item-1734889234 {
+            margin-bottom: 24px;
+            border-bottom: 1px solid #480005;
+            padding-bottom: 24px;
+        }
+
+        .faq-item-1734889234:last-of-type {
+            border-bottom: none;
+        }
+
+        .faq-header-1734889234 {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            cursor: pointer;
+            gap: 16px;
+        }
+
+        .faq-question-1734889234 {
+            color: #480005;
+            font-size: 18px;
+            line-height: 1.3;
+            font-weight: 600;
+            text-align: left;
+            flex: 1;
+            word-break: break-word;
+        }
+
+        .faq-toggle-1734889234 {
+            color: #480005;
+            font-size: 18px;
+            font-weight: 700;
+            background: transparent;
+            border: 2px solid #480005;
+            border-radius: 4px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            flex-shrink: 0;
+        }
+
+        .faq-toggle-1734889234:hover {
+            background-color: #480005;
+            color: #FFFFFF;
+        }
+
+        .faq-answer-1734889234 {
+            color: #480005;
+            font-size: 14px;
+            line-height: 1.4;
+            font-weight: 400;
+            text-align: left;
+            margin-top: 16px;
+            padding-right: 56px;
+            word-break: break-word;
+            max-height: 0;
+            overflow: hidden;
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+
+        .faq-item-1734889234.active .faq-answer-1734889234 {
+            max-height: 200px;
+            opacity: 1;
+        }
+
+        .faq-item-1734889234.active .faq-toggle-1734889234 {
+            transform: rotate(45deg);
+            background-color: #480005;
+            color: #FFFFFF;
+        }
+
+        .debug-info {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            background: #333;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="debug-info" id="debug">
+        Click events: <span id="clickCount">0</span><br>
+        Active items: <span id="activeCount">0</span>
+    </div>
+
+    <section class="faq-section-1734889234">
+        <div class="faq-container-1734889234">
+            <h2 class="faq-title-1734889234">Frequently Asked Questions</h2>
+
+            <div class="faq-item-1734889234" data-faq-item="1">
+                <div class="faq-header-1734889234">
+                    <h3 class="faq-question-1734889234">How do I create an account?</h3>
+                    <button class="faq-toggle-1734889234" aria-label="Toggle answer">+</button>
+                </div>
+                <div class="faq-answer-1734889234">
+                    <p>To create an account, click the 'Sign Up' button in the top right corner of the page. Fill in your email address, create a secure password, and verify your email to get started.</p>
+                </div>
+            </div>
+
+            <div class="faq-item-1734889234" data-faq-item="2">
+                <div class="faq-header-1734889234">
+                    <h3 class="faq-question-1734889234">What payment methods do you accept?</h3>
+                    <button class="faq-toggle-1734889234" aria-label="Toggle answer">+</button>
+                </div>
+                <div class="faq-answer-1734889234">
+                    <p>We accept all major credit cards (Visa, MasterCard, American Express), PayPal, Apple Pay, Google Pay, and bank transfers for premium accounts.</p>
+                </div>
+            </div>
+
+            <div class="faq-item-1734889234" data-faq-item="3">
+                <div class="faq-header-1734889234">
+                    <h3 class="faq-question-1734889234">How can I reset my password?</h3>
+                    <button class="faq-toggle-1734889234" aria-label="Toggle answer">+</button>
+                </div>
+                <div class="faq-answer-1734889234">
+                    <p>Click 'Forgot Password' on the login page, enter your email address, and we'll send you a secure link to reset your password within minutes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        let clickCount = 0;
+
+        function updateDebug() {
+            document.getElementById('clickCount').textContent = clickCount;
+            const activeItems = document.querySelectorAll('.faq-item-1734889234.active');
+            document.getElementById('activeCount').textContent = activeItems.length;
+        }
+
+        function initFAQ_1734889234() {
+            console.log('Initializing FAQ accordion...');
+
+            try {
+                const faqItems_1734889234 = document.querySelectorAll('.faq-item-1734889234');
+                console.log('Found FAQ items:', faqItems_1734889234.length);
+
+                faqItems_1734889234.forEach(item => {
+                    const header_1734889234 = item.querySelector('.faq-header-1734889234');
+                    const toggle_1734889234 = item.querySelector('.faq-toggle-1734889234');
+
+                    if (!header_1734889234) {
+                        console.error('Header not found for item:', item);
+                        return;
+                    }
+
+                    header_1734889234.addEventListener('click', (e) => {
+                        console.log('FAQ header clicked!');
+                        clickCount++;
+                        updateDebug();
+
+                        const isActive_1734889234 = item.classList.contains('active');
+                        console.log('Current state:', isActive_1734889234 ? 'active' : 'inactive');
+
+                        // Close all other items
+                        faqItems_1734889234.forEach(otherItem => {
+                            otherItem.classList.remove('active');
+                        });
+
+                        // Toggle current item
+                        if (!isActive_1734889234) {
+                            item.classList.add('active');
+                            console.log('Opened FAQ item');
+                        } else {
+                            console.log('Closed FAQ item');
+                        }
+
+                        updateDebug();
+                    });
+                });
+
+                console.log('FAQ initialization complete!');
+            } catch (e) {
+                console.error('Error initializing FAQ:', e);
+            }
+        }
+
+        // Initialize when DOM is ready
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initFAQ_1734889234);
+        } else {
+            initFAQ_1734889234();
+        }
+
+        // Also initialize on load just to be sure
+        window.addEventListener('load', () => {
+            console.log('Window loaded, checking FAQ initialization...');
+            const headers = document.querySelectorAll('.faq-header-1734889234');
+            console.log('Headers found on load:', headers.length);
+        });
+    </script>
+</body>
+</html>

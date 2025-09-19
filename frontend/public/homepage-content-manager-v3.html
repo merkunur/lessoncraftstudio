@@ -1,0 +1,2337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage Content Manager - LessonCraftStudio (Complete Edition)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 16px;
+        }
+
+        .language-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 15px;
+            font-size: 13px;
+        }
+
+        .language-list span {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 5px 10px;
+            border-radius: 20px;
+        }
+
+        .main-tabs {
+            display: flex;
+            background: #f7fafc;
+            border-bottom: 2px solid #e2e8f0;
+            overflow-x: auto;
+        }
+
+        .main-tab {
+            flex: 1;
+            min-width: 140px;
+            padding: 18px 24px;
+            background: none;
+            border: none;
+            border-bottom: 3px solid transparent;
+            color: #4a5568;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .main-tab:hover {
+            background: white;
+            color: #667eea;
+        }
+
+        .main-tab.active {
+            background: white;
+            color: #667eea;
+            border-bottom-color: #667eea;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .section {
+            display: none;
+        }
+
+        .section.active {
+            display: block;
+        }
+
+        .section-header {
+            margin-bottom: 30px;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 20px;
+        }
+
+        .section h2 {
+            color: #2d3748;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+
+        .section-header p {
+            color: #718096;
+            font-size: 15px;
+        }
+
+        .subsection {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 30px;
+        }
+
+        .subsection h3 {
+            color: #4a5568;
+            margin-bottom: 20px;
+            font-size: 20px;
+            border-bottom: 1px solid #e2e8f0;
+            padding-bottom: 10px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #4a5568;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .language-tabs {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .lang-tab {
+            padding: 8px 12px;
+            border: 1px solid #e2e8f0;
+            background: white;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 13px;
+            transition: all 0.3s ease;
+        }
+
+        .lang-tab:hover {
+            background: #f7fafc;
+            border-color: #cbd5e0;
+        }
+
+        .lang-tab.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+
+        .language-content {
+            display: none;
+        }
+
+        .language-content.active {
+            display: block;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-right: 10px;
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #5a67d8;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+        }
+
+        .btn-secondary {
+            background: #edf2f7;
+            color: #4a5568;
+        }
+
+        .btn-secondary:hover {
+            background: #e2e8f0;
+        }
+
+        .btn-danger {
+            background: #f56565;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background: #e53e3e;
+        }
+
+        .btn-success {
+            background: #48bb78;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #38a169;
+        }
+
+        .btn-warning {
+            background: #ed8936;
+            color: white;
+        }
+
+        .btn-warning:hover {
+            background: #dd6b20;
+        }
+
+        .actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 30px;
+            padding-top: 30px;
+            border-top: 2px solid #e2e8f0;
+            flex-wrap: wrap;
+        }
+
+        .message {
+            padding: 14px 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            display: none;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .message.show {
+            display: flex;
+        }
+
+        .message.success {
+            background: #c6f6d5;
+            color: #22543d;
+            border: 1px solid #9ae6b4;
+        }
+
+        .message.error {
+            background: #fed7d7;
+            color: #742a2a;
+            border: 1px solid #fc8181;
+        }
+
+        .message.info {
+            background: #bee3f8;
+            color: #2a4e7c;
+            border: 1px solid #90cdf4;
+        }
+
+        .card {
+            background: white;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 15px;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .card h4 {
+            color: #2d3748;
+            margin-bottom: 12px;
+            font-size: 18px;
+        }
+
+        .card-actions {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            display: flex;
+            gap: 5px;
+        }
+
+        .btn-small {
+            padding: 6px 12px;
+            font-size: 12px;
+        }
+
+        /* Image Upload Styles */
+        .image-upload-zone {
+            border: 2px dashed #cbd5e0;
+            border-radius: 8px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            background: #f7fafc;
+            margin: 20px 0;
+            position: relative;
+        }
+
+        .image-upload-zone:hover {
+            border-color: #667eea;
+            background: #ebf8ff;
+        }
+
+        .image-upload-zone.drag-over {
+            border-color: #48bb78;
+            background: #f0fff4;
+            transform: scale(1.02);
+        }
+
+        .upload-icon {
+            width: 60px;
+            height: 60px;
+            margin: 0 auto 15px;
+            color: #a0aec0;
+        }
+
+        .upload-text {
+            color: #4a5568;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        .upload-subtext {
+            color: #a0aec0;
+            font-size: 14px;
+        }
+
+        .image-preview-container {
+            position: relative;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .image-preview {
+            max-width: 300px;
+            max-height: 200px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .image-remove {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background: #f56565;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            font-size: 18px;
+            line-height: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .image-remove:hover {
+            background: #e53e3e;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .modal.show {
+            display: flex;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 12px;
+            max-width: 900px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            animation: slideUp 0.3s ease;
+        }
+
+        @keyframes slideUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .modal-header {
+            padding: 24px;
+            border-bottom: 1px solid #e2e8f0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #f7fafc;
+        }
+
+        .modal-header h2 {
+            color: #2d3748;
+            font-size: 22px;
+            margin: 0;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 28px;
+            color: #a0aec0;
+            cursor: pointer;
+            line-height: 1;
+            padding: 0;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-close:hover {
+            color: #4a5568;
+        }
+
+        .modal-body {
+            padding: 24px;
+        }
+
+        .modal-footer {
+            padding: 24px;
+            border-top: 1px solid #e2e8f0;
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            background: #f7fafc;
+        }
+
+        /* Grid Layouts */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+
+        /* Sample Card Styles */
+        .sample-card {
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .sample-card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+            transform: translateY(-4px);
+        }
+
+        .sample-image-container {
+            width: 100%;
+            height: 180px;
+            background: #f7fafc;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .sample-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .sample-content {
+            padding: 15px;
+        }
+
+        .sample-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 8px;
+        }
+
+        .sample-description {
+            font-size: 14px;
+            color: #718096;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
+
+        .sample-meta {
+            display: flex;
+            gap: 5px;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        .badge-blue {
+            background: #ebf8ff;
+            color: #2b6cb0;
+        }
+
+        .badge-green {
+            background: #f0fff4;
+            color: #22543d;
+        }
+
+        .badge-yellow {
+            background: #fffff0;
+            color: #744210;
+        }
+
+        .badge-purple {
+            background: #faf5ff;
+            color: #553c9a;
+        }
+
+        .badge-red {
+            background: #fff5f5;
+            color: #c53030;
+        }
+
+        /* Loading Spinner */
+        .loading-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.9);
+            z-index: 2000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .loading-overlay.show {
+            display: flex;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid #e2e8f0;
+            border-top-color: #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Tooltip */
+        .tooltip {
+            position: relative;
+            display: inline-block;
+        }
+
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: #2d3748;
+            color: white;
+            text-align: center;
+            border-radius: 6px;
+            padding: 8px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -100px;
+            font-size: 12px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        /* Translation Status Indicator */
+        .translation-status {
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            margin-left: 5px;
+        }
+
+        .translation-status.complete {
+            background: #48bb78;
+        }
+
+        .translation-status.partial {
+            background: #ed8936;
+        }
+
+        .translation-status.empty {
+            background: #e53e3e;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .main-tab {
+                font-size: 13px;
+                padding: 14px 16px;
+            }
+
+            .modal-content {
+                width: 95%;
+                max-height: 95vh;
+            }
+
+            .grid-2, .grid-3, .grid-4 {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="spinner"></div>
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h1>
+                <span>🎨</span>
+                Complete Homepage Content Manager
+            </h1>
+            <p>Full control over every element on your LessonCraftStudio homepage in 11 languages</p>
+            <div class="language-list">
+                <span>🇬🇧 English</span>
+                <span>🇩🇪 German</span>
+                <span>🇫🇷 French</span>
+                <span>🇪🇸 Spanish</span>
+                <span>🇮🇹 Italian</span>
+                <span>🇵🇹 Portuguese</span>
+                <span>🇳🇱 Dutch</span>
+                <span>🇸🇪 Swedish</span>
+                <span>🇩🇰 Danish</span>
+                <span>🇳🇴 Norwegian</span>
+                <span>🇫🇮 Finnish</span>
+            </div>
+        </div>
+
+        <div class="main-tabs">
+            <button class="main-tab active" onclick="switchMainTab('navigation')">Navigation</button>
+            <button class="main-tab" onclick="switchMainTab('hero')">Hero Section</button>
+            <button class="main-tab" onclick="switchMainTab('features')">Features</button>
+            <button class="main-tab" onclick="switchMainTab('samples')">Worksheet Samples</button>
+            <button class="main-tab" onclick="switchMainTab('pricing')">Pricing</button>
+            <button class="main-tab" onclick="switchMainTab('footer')">Footer</button>
+            <button class="main-tab" onclick="switchMainTab('translations')">Translations</button>
+            <button class="main-tab" onclick="switchMainTab('seo')">SEO</button>
+        </div>
+
+        <div class="content">
+            <div id="message" class="message"></div>
+
+            <!-- Navigation Section -->
+            <div id="navigation-section" class="section active">
+                <div class="section-header">
+                    <h2>Navigation & Header</h2>
+                    <p>Configure the top navigation bar, logo, and menu items</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>Logo & Brand</h3>
+                    <div class="form-group">
+                        <label>Logo Text/Brand Name</label>
+                        <input type="text" id="nav-logo-text" placeholder="LessonCraftStudio">
+                    </div>
+                    <div class="form-group">
+                        <label>Logo Image URL (optional)</label>
+                        <div class="image-upload-zone" id="logo-upload-zone">
+                            <svg class="upload-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
+                            </svg>
+                            <div class="upload-text">Drop logo image here or click to browse</div>
+                            <div class="upload-subtext">PNG, JPG, SVG (max 2MB)</div>
+                            <input type="file" id="logo-file-input" accept="image/*" style="display: none;">
+                        </div>
+                        <div id="logo-preview"></div>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Menu Items</h3>
+                    <div id="menu-items-container"></div>
+                    <button class="btn btn-success" onclick="addMenuItem()">+ Add Menu Item</button>
+                </div>
+
+                <div class="subsection">
+                    <h3>Action Buttons</h3>
+                    <div id="nav-buttons-container"></div>
+                    <button class="btn btn-success" onclick="addNavButton()">+ Add Button</button>
+                </div>
+
+                <div class="actions">
+                    <button class="btn btn-primary" onclick="saveNavigationSection()">Save Navigation</button>
+                    <button class="btn btn-secondary" onclick="resetSection('navigation')">Reset</button>
+                </div>
+            </div>
+
+            <!-- Hero Section -->
+            <div id="hero-section" class="section">
+                <div class="section-header">
+                    <h2>Hero Section</h2>
+                    <p>The main headline and call-to-action area at the top of your homepage</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>Main Content</h3>
+                    <div class="language-tabs">
+                        <button class="lang-tab active" onclick="switchLanguage('hero', 'en')">🇬🇧 EN</button>
+                        <button class="lang-tab" onclick="switchLanguage('hero', 'de')">🇩🇪 DE</button>
+                        <button class="lang-tab" onclick="switchLanguage('hero', 'fr')">🇫🇷 FR</button>
+                        <button class="lang-tab" onclick="switchLanguage('hero', 'es')">🇪🇸 ES</button>
+                        <button class="lang-tab" onclick="switchLanguage('hero', 'it')">🇮🇹 IT</button>
+                        <button class="lang-tab" onclick="switchLanguage('hero', 'pt')">🇵🇹 PT</button>
+                        <button class="lang-tab" onclick="switchLanguage('hero', 'nl')">🇳🇱 NL</button>
+                        <button class="lang-tab" onclick="switchLanguage('hero', 'sv')">🇸🇪 SV</button>
+                        <button class="lang-tab" onclick="switchLanguage('hero', 'da')">🇩🇰 DA</button>
+                        <button class="lang-tab" onclick="switchLanguage('hero', 'no')">🇳🇴 NO</button>
+                        <button class="lang-tab" onclick="switchLanguage('hero', 'fi')">🇫🇮 FI</button>
+                    </div>
+
+                    <div id="hero-content-en" class="language-content active">
+                        <div class="form-group">
+                            <label>Main Headline</label>
+                            <input type="text" id="hero-title-en" placeholder="Create Engaging Worksheets in Minutes">
+                        </div>
+                        <div class="form-group">
+                            <label>Subtitle</label>
+                            <textarea id="hero-subtitle-en" placeholder="Professional worksheet generators for teachers and parents..."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>Primary Button Text</label>
+                            <input type="text" id="hero-cta-primary-en" placeholder="Try Free">
+                        </div>
+                        <div class="form-group">
+                            <label>Secondary Button Text</label>
+                            <input type="text" id="hero-cta-secondary-en" placeholder="View All Apps">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Hero Background</h3>
+                    <div class="form-group">
+                        <label>Background Type</label>
+                        <select id="hero-bg-type">
+                            <option value="gradient">Gradient</option>
+                            <option value="image">Image</option>
+                            <option value="video">Video</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Background Value</label>
+                        <input type="text" id="hero-bg-value" placeholder="e.g., linear-gradient(135deg, #667eea 0%, #764ba2 100%)">
+                    </div>
+                </div>
+
+                <div class="actions">
+                    <button class="btn btn-primary" onclick="saveHeroSection()">Save Hero Section</button>
+                    <button class="btn btn-secondary" onclick="resetSection('hero')">Reset</button>
+                </div>
+            </div>
+
+            <!-- Features Section -->
+            <div id="features-section" class="section">
+                <div class="section-header">
+                    <h2>Features</h2>
+                    <p>Highlight the key features and benefits of your platform</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>Section Header</h3>
+                    <div class="language-tabs">
+                        <button class="lang-tab active" onclick="switchLanguage('features-header', 'en')">🇬🇧 EN</button>
+                        <button class="lang-tab" onclick="switchLanguage('features-header', 'de')">🇩🇪 DE</button>
+                        <button class="lang-tab" onclick="switchLanguage('features-header', 'fr')">🇫🇷 FR</button>
+                        <button class="lang-tab" onclick="switchLanguage('features-header', 'es')">🇪🇸 ES</button>
+                        <button class="lang-tab" onclick="switchLanguage('features-header', 'it')">🇮🇹 IT</button>
+                        <button class="lang-tab" onclick="switchLanguage('features-header', 'pt')">🇵🇹 PT</button>
+                        <button class="lang-tab" onclick="switchLanguage('features-header', 'nl')">🇳🇱 NL</button>
+                        <button class="lang-tab" onclick="switchLanguage('features-header', 'sv')">🇸🇪 SV</button>
+                        <button class="lang-tab" onclick="switchLanguage('features-header', 'da')">🇩🇰 DA</button>
+                        <button class="lang-tab" onclick="switchLanguage('features-header', 'no')">🇳🇴 NO</button>
+                        <button class="lang-tab" onclick="switchLanguage('features-header', 'fi')">🇫🇮 FI</button>
+                    </div>
+
+                    <div id="features-header-content-en" class="language-content active">
+                        <div class="form-group">
+                            <label>Section Title</label>
+                            <input type="text" id="features-title-en" placeholder="Everything You Need">
+                        </div>
+                        <div class="form-group">
+                            <label>Section Subtitle</label>
+                            <textarea id="features-subtitle-en" placeholder="Complete toolkit for creating educational materials"></textarea>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Feature Items</h3>
+                    <div id="features-list" class="grid-3"></div>
+                    <button class="btn btn-success" onclick="openFeatureModal()">+ Add New Feature</button>
+                </div>
+
+                <div class="actions">
+                    <button class="btn btn-primary" onclick="saveFeaturesSection()">Save Features</button>
+                    <button class="btn btn-secondary" onclick="resetSection('features')">Reset</button>
+                </div>
+            </div>
+
+            <!-- Worksheet Samples Section -->
+            <div id="samples-section" class="section">
+                <div class="section-header">
+                    <h2>Worksheet Samples Gallery</h2>
+                    <p>Showcase example worksheets from your generators</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>Section Headers & Labels</h3>
+                    <div class="language-tabs">
+                        <button class="lang-tab active" onclick="switchLanguage('samples-header', 'en')">🇬🇧 EN</button>
+                        <button class="lang-tab" onclick="switchLanguage('samples-header', 'de')">🇩🇪 DE</button>
+                        <button class="lang-tab" onclick="switchLanguage('samples-header', 'fr')">🇫🇷 FR</button>
+                        <button class="lang-tab" onclick="switchLanguage('samples-header', 'es')">🇪🇸 ES</button>
+                        <button class="lang-tab" onclick="switchLanguage('samples-header', 'it')">🇮🇹 IT</button>
+                        <button class="lang-tab" onclick="switchLanguage('samples-header', 'pt')">🇵🇹 PT</button>
+                        <button class="lang-tab" onclick="switchLanguage('samples-header', 'nl')">🇳🇱 NL</button>
+                        <button class="lang-tab" onclick="switchLanguage('samples-header', 'sv')">🇸🇪 SV</button>
+                        <button class="lang-tab" onclick="switchLanguage('samples-header', 'da')">🇩🇰 DA</button>
+                        <button class="lang-tab" onclick="switchLanguage('samples-header', 'no')">🇳🇴 NO</button>
+                        <button class="lang-tab" onclick="switchLanguage('samples-header', 'fi')">🇫🇮 FI</button>
+                    </div>
+
+                    <div id="samples-header-content-en" class="language-content active">
+                        <div class="form-group">
+                            <label>Section Title</label>
+                            <input type="text" id="samples-title-en" placeholder="Worksheet Samples Gallery">
+                        </div>
+                        <div class="form-group">
+                            <label>Section Subtitle</label>
+                            <textarea id="samples-subtitle-en" placeholder="Click on any worksheet to see a larger preview"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>Call to Action Text</label>
+                            <input type="text" id="samples-cta-en" placeholder="Explore All 33 Worksheet Generators →">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Category Labels</h3>
+                    <div class="language-tabs">
+                        <button class="lang-tab active" onclick="switchLanguage('categories', 'en')">🇬🇧 EN</button>
+                        <button class="lang-tab" onclick="switchLanguage('categories', 'de')">🇩🇪 DE</button>
+                        <button class="lang-tab" onclick="switchLanguage('categories', 'fr')">🇫🇷 FR</button>
+                        <button class="lang-tab" onclick="switchLanguage('categories', 'es')">🇪🇸 ES</button>
+                        <button class="lang-tab" onclick="switchLanguage('categories', 'it')">🇮🇹 IT</button>
+                        <button class="lang-tab" onclick="switchLanguage('categories', 'pt')">🇵🇹 PT</button>
+                        <button class="lang-tab" onclick="switchLanguage('categories', 'nl')">🇳🇱 NL</button>
+                        <button class="lang-tab" onclick="switchLanguage('categories', 'sv')">🇸🇪 SV</button>
+                        <button class="lang-tab" onclick="switchLanguage('categories', 'da')">🇩🇰 DA</button>
+                        <button class="lang-tab" onclick="switchLanguage('categories', 'no')">🇳🇴 NO</button>
+                        <button class="lang-tab" onclick="switchLanguage('categories', 'fi')">🇫🇮 FI</button>
+                    </div>
+
+                    <div id="categories-content-en" class="language-content active">
+                        <div class="grid-2">
+                            <div class="form-group">
+                                <label>Math</label>
+                                <input type="text" id="category-math-en" placeholder="Math">
+                            </div>
+                            <div class="form-group">
+                                <label>Literacy</label>
+                                <input type="text" id="category-literacy-en" placeholder="Literacy">
+                            </div>
+                            <div class="form-group">
+                                <label>Puzzle</label>
+                                <input type="text" id="category-puzzle-en" placeholder="Puzzle">
+                            </div>
+                            <div class="form-group">
+                                <label>Logic</label>
+                                <input type="text" id="category-logic-en" placeholder="Logic">
+                            </div>
+                            <div class="form-group">
+                                <label>Creative</label>
+                                <input type="text" id="category-creative-en" placeholder="Creative">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Difficulty Labels</h3>
+                    <div class="language-tabs">
+                        <button class="lang-tab active" onclick="switchLanguage('difficulties', 'en')">🇬🇧 EN</button>
+                        <button class="lang-tab" onclick="switchLanguage('difficulties', 'de')">🇩🇪 DE</button>
+                        <button class="lang-tab" onclick="switchLanguage('difficulties', 'fr')">🇫🇷 FR</button>
+                        <button class="lang-tab" onclick="switchLanguage('difficulties', 'es')">🇪🇸 ES</button>
+                        <button class="lang-tab" onclick="switchLanguage('difficulties', 'it')">🇮🇹 IT</button>
+                        <button class="lang-tab" onclick="switchLanguage('difficulties', 'pt')">🇵🇹 PT</button>
+                        <button class="lang-tab" onclick="switchLanguage('difficulties', 'nl')">🇳🇱 NL</button>
+                        <button class="lang-tab" onclick="switchLanguage('difficulties', 'sv')">🇸🇪 SV</button>
+                        <button class="lang-tab" onclick="switchLanguage('difficulties', 'da')">🇩🇰 DA</button>
+                        <button class="lang-tab" onclick="switchLanguage('difficulties', 'no')">🇳🇴 NO</button>
+                        <button class="lang-tab" onclick="switchLanguage('difficulties', 'fi')">🇫🇮 FI</button>
+                    </div>
+
+                    <div id="difficulties-content-en" class="language-content active">
+                        <div class="grid-3">
+                            <div class="form-group">
+                                <label>Easy</label>
+                                <input type="text" id="difficulty-easy-en" placeholder="Easy">
+                            </div>
+                            <div class="form-group">
+                                <label>Medium</label>
+                                <input type="text" id="difficulty-medium-en" placeholder="Medium">
+                            </div>
+                            <div class="form-group">
+                                <label>Hard</label>
+                                <input type="text" id="difficulty-hard-en" placeholder="Hard">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Worksheet Samples</h3>
+                    <div id="samples-list" class="grid-3"></div>
+                    <button class="btn btn-success" onclick="openSampleModal()">+ Add New Sample</button>
+                </div>
+
+                <div class="actions">
+                    <button class="btn btn-primary" onclick="saveSamplesSection()">Save Samples</button>
+                    <button class="btn btn-secondary" onclick="resetSection('samples')">Reset</button>
+                </div>
+            </div>
+
+            <!-- Pricing Section -->
+            <div id="pricing-section" class="section">
+                <div class="section-header">
+                    <h2>Pricing Tiers</h2>
+                    <p>Configure your subscription plans and pricing</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>Section Header</h3>
+                    <div class="language-tabs">
+                        <button class="lang-tab active" onclick="switchLanguage('pricing-header', 'en')">🇬🇧 EN</button>
+                        <button class="lang-tab" onclick="switchLanguage('pricing-header', 'de')">🇩🇪 DE</button>
+                        <button class="lang-tab" onclick="switchLanguage('pricing-header', 'fr')">🇫🇷 FR</button>
+                        <button class="lang-tab" onclick="switchLanguage('pricing-header', 'es')">🇪🇸 ES</button>
+                        <button class="lang-tab" onclick="switchLanguage('pricing-header', 'it')">🇮🇹 IT</button>
+                        <button class="lang-tab" onclick="switchLanguage('pricing-header', 'pt')">🇵🇹 PT</button>
+                        <button class="lang-tab" onclick="switchLanguage('pricing-header', 'nl')">🇳🇱 NL</button>
+                        <button class="lang-tab" onclick="switchLanguage('pricing-header', 'sv')">🇸🇪 SV</button>
+                        <button class="lang-tab" onclick="switchLanguage('pricing-header', 'da')">🇩🇰 DA</button>
+                        <button class="lang-tab" onclick="switchLanguage('pricing-header', 'no')">🇳🇴 NO</button>
+                        <button class="lang-tab" onclick="switchLanguage('pricing-header', 'fi')">🇫🇮 FI</button>
+                    </div>
+
+                    <div id="pricing-header-content-en" class="language-content active">
+                        <div class="form-group">
+                            <label>Section Title</label>
+                            <input type="text" id="pricing-title-en" placeholder="Simple, Transparent Pricing">
+                        </div>
+                        <div class="form-group">
+                            <label>Monthly/Yearly Toggle Labels</label>
+                            <div class="grid-2">
+                                <input type="text" id="pricing-monthly-en" placeholder="Monthly">
+                                <input type="text" id="pricing-yearly-en" placeholder="Yearly (Save 20%)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Pricing Tiers</h3>
+                    <div id="pricing-list" class="grid-3"></div>
+                    <button class="btn btn-success" onclick="openPricingModal()">+ Add Pricing Tier</button>
+                </div>
+
+                <div class="actions">
+                    <button class="btn btn-primary" onclick="savePricingSection()">Save Pricing</button>
+                    <button class="btn btn-secondary" onclick="resetSection('pricing')">Reset</button>
+                </div>
+            </div>
+
+            <!-- Footer Section -->
+            <div id="footer-section" class="section">
+                <div class="section-header">
+                    <h2>Footer</h2>
+                    <p>Configure footer content, links, and copyright information</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>Company Information</h3>
+                    <div class="language-tabs">
+                        <button class="lang-tab active" onclick="switchLanguage('footer-company', 'en')">🇬🇧 EN</button>
+                        <button class="lang-tab" onclick="switchLanguage('footer-company', 'de')">🇩🇪 DE</button>
+                        <button class="lang-tab" onclick="switchLanguage('footer-company', 'fr')">🇫🇷 FR</button>
+                        <button class="lang-tab" onclick="switchLanguage('footer-company', 'es')">🇪🇸 ES</button>
+                        <button class="lang-tab" onclick="switchLanguage('footer-company', 'it')">🇮🇹 IT</button>
+                        <button class="lang-tab" onclick="switchLanguage('footer-company', 'pt')">🇵🇹 PT</button>
+                        <button class="lang-tab" onclick="switchLanguage('footer-company', 'nl')">🇳🇱 NL</button>
+                        <button class="lang-tab" onclick="switchLanguage('footer-company', 'sv')">🇸🇪 SV</button>
+                        <button class="lang-tab" onclick="switchLanguage('footer-company', 'da')">🇩🇰 DA</button>
+                        <button class="lang-tab" onclick="switchLanguage('footer-company', 'no')">🇳🇴 NO</button>
+                        <button class="lang-tab" onclick="switchLanguage('footer-company', 'fi')">🇫🇮 FI</button>
+                    </div>
+
+                    <div id="footer-company-content-en" class="language-content active">
+                        <div class="form-group">
+                            <label>Company Name</label>
+                            <input type="text" id="footer-company-name-en" placeholder="LessonCraftStudio">
+                        </div>
+                        <div class="form-group">
+                            <label>Company Tagline</label>
+                            <input type="text" id="footer-company-tagline-en" placeholder="Empowering educators worldwide">
+                        </div>
+                        <div class="form-group">
+                            <label>Copyright Text</label>
+                            <input type="text" id="footer-copyright-en" placeholder="© 2024 LessonCraftStudio. All rights reserved.">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Footer Sections</h3>
+                    <div id="footer-sections-list"></div>
+                    <button class="btn btn-success" onclick="addFooterSection()">+ Add Footer Section</button>
+                </div>
+
+                <div class="actions">
+                    <button class="btn btn-primary" onclick="saveFooterSection()">Save Footer</button>
+                    <button class="btn btn-secondary" onclick="resetSection('footer')">Reset</button>
+                </div>
+            </div>
+
+            <!-- Translations Section -->
+            <div id="translations-section" class="section">
+                <div class="section-header">
+                    <h2>Common Translations</h2>
+                    <p>Manage common UI text and messages across all languages</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>Common UI Elements</h3>
+                    <div class="language-tabs">
+                        <button class="lang-tab active" onclick="switchLanguage('common-ui', 'en')">🇬🇧 EN</button>
+                        <button class="lang-tab" onclick="switchLanguage('common-ui', 'de')">🇩🇪 DE</button>
+                        <button class="lang-tab" onclick="switchLanguage('common-ui', 'fr')">🇫🇷 FR</button>
+                        <button class="lang-tab" onclick="switchLanguage('common-ui', 'es')">🇪🇸 ES</button>
+                        <button class="lang-tab" onclick="switchLanguage('common-ui', 'it')">🇮🇹 IT</button>
+                        <button class="lang-tab" onclick="switchLanguage('common-ui', 'pt')">🇵🇹 PT</button>
+                        <button class="lang-tab" onclick="switchLanguage('common-ui', 'nl')">🇳🇱 NL</button>
+                        <button class="lang-tab" onclick="switchLanguage('common-ui', 'sv')">🇸🇪 SV</button>
+                        <button class="lang-tab" onclick="switchLanguage('common-ui', 'da')">🇩🇰 DA</button>
+                        <button class="lang-tab" onclick="switchLanguage('common-ui', 'no')">🇳🇴 NO</button>
+                        <button class="lang-tab" onclick="switchLanguage('common-ui', 'fi')">🇫🇮 FI</button>
+                    </div>
+
+                    <div id="common-ui-content-en" class="language-content active">
+                        <div class="grid-2">
+                            <div class="form-group">
+                                <label>Loading</label>
+                                <input type="text" id="ui-loading-en" placeholder="Loading...">
+                            </div>
+                            <div class="form-group">
+                                <label>Error</label>
+                                <input type="text" id="ui-error-en" placeholder="An error occurred">
+                            </div>
+                            <div class="form-group">
+                                <label>Success</label>
+                                <input type="text" id="ui-success-en" placeholder="Success!">
+                            </div>
+                            <div class="form-group">
+                                <label>No Results</label>
+                                <input type="text" id="ui-no-results-en" placeholder="No results found">
+                            </div>
+                            <div class="form-group">
+                                <label>View More</label>
+                                <input type="text" id="ui-view-more-en" placeholder="View More">
+                            </div>
+                            <div class="form-group">
+                                <label>View Less</label>
+                                <input type="text" id="ui-view-less-en" placeholder="View Less">
+                            </div>
+                            <div class="form-group">
+                                <label>Search</label>
+                                <input type="text" id="ui-search-en" placeholder="Search...">
+                            </div>
+                            <div class="form-group">
+                                <label>Filter</label>
+                                <input type="text" id="ui-filter-en" placeholder="Filter">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="actions">
+                    <button class="btn btn-primary" onclick="saveTranslations()">Save Translations</button>
+                    <button class="btn btn-secondary" onclick="resetSection('translations')">Reset</button>
+                </div>
+            </div>
+
+            <!-- SEO Section -->
+            <div id="seo-section" class="section">
+                <div class="section-header">
+                    <h2>SEO Settings</h2>
+                    <p>Optimize your homepage for search engines in all languages</p>
+                </div>
+
+                <div class="subsection">
+                    <h3>Meta Tags</h3>
+                    <div class="language-tabs">
+                        <button class="lang-tab active" onclick="switchLanguage('seo', 'en')">🇬🇧 EN</button>
+                        <button class="lang-tab" onclick="switchLanguage('seo', 'de')">🇩🇪 DE</button>
+                        <button class="lang-tab" onclick="switchLanguage('seo', 'fr')">🇫🇷 FR</button>
+                        <button class="lang-tab" onclick="switchLanguage('seo', 'es')">🇪🇸 ES</button>
+                        <button class="lang-tab" onclick="switchLanguage('seo', 'it')">🇮🇹 IT</button>
+                        <button class="lang-tab" onclick="switchLanguage('seo', 'pt')">🇵🇹 PT</button>
+                        <button class="lang-tab" onclick="switchLanguage('seo', 'nl')">🇳🇱 NL</button>
+                        <button class="lang-tab" onclick="switchLanguage('seo', 'sv')">🇸🇪 SV</button>
+                        <button class="lang-tab" onclick="switchLanguage('seo', 'da')">🇩🇰 DA</button>
+                        <button class="lang-tab" onclick="switchLanguage('seo', 'no')">🇳🇴 NO</button>
+                        <button class="lang-tab" onclick="switchLanguage('seo', 'fi')">🇫🇮 FI</button>
+                    </div>
+
+                    <div id="seo-content-en" class="language-content active">
+                        <div class="form-group">
+                            <label>Page Title (60 characters max)</label>
+                            <input type="text" id="seo-title-en" placeholder="LessonCraftStudio - Create Engaging Educational Worksheets">
+                        </div>
+                        <div class="form-group">
+                            <label>Meta Description (160 characters max)</label>
+                            <textarea id="seo-description-en" placeholder="Professional worksheet generators for teachers and parents. Create math, literacy, puzzle worksheets in minutes. Free trial available."></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>Keywords (comma-separated)</label>
+                            <input type="text" id="seo-keywords-en" placeholder="worksheet generator, educational materials, teaching resources">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="actions">
+                    <button class="btn btn-primary" onclick="saveSEOSettings()">Save SEO Settings</button>
+                    <button class="btn btn-secondary" onclick="resetSection('seo')">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sample Modal -->
+    <div id="sampleModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="sampleModalTitle">Edit Worksheet Sample</h2>
+                <button class="modal-close" onclick="closeSampleModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="subsection">
+                    <h3>Sample Image</h3>
+                    <div class="image-upload-zone" id="sample-upload-zone">
+                        <svg class="upload-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path>
+                        </svg>
+                        <div class="upload-text">Drop worksheet image here or click to browse</div>
+                        <div class="upload-subtext">PNG, JPG (max 5MB)</div>
+                        <input type="file" id="sample-file-input" accept="image/*" style="display: none;">
+                    </div>
+                    <div id="sample-image-preview"></div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Sample Details</h3>
+                    <div class="language-tabs">
+                        <button class="lang-tab active" onclick="switchModalLanguage('sample', 'en')">🇬🇧 EN</button>
+                        <button class="lang-tab" onclick="switchModalLanguage('sample', 'de')">🇩🇪 DE</button>
+                        <button class="lang-tab" onclick="switchModalLanguage('sample', 'fr')">🇫🇷 FR</button>
+                        <button class="lang-tab" onclick="switchModalLanguage('sample', 'es')">🇪🇸 ES</button>
+                        <button class="lang-tab" onclick="switchModalLanguage('sample', 'it')">🇮🇹 IT</button>
+                        <button class="lang-tab" onclick="switchModalLanguage('sample', 'pt')">🇵🇹 PT</button>
+                        <button class="lang-tab" onclick="switchModalLanguage('sample', 'nl')">🇳🇱 NL</button>
+                        <button class="lang-tab" onclick="switchModalLanguage('sample', 'sv')">🇸🇪 SV</button>
+                        <button class="lang-tab" onclick="switchModalLanguage('sample', 'da')">🇩🇰 DA</button>
+                        <button class="lang-tab" onclick="switchModalLanguage('sample', 'no')">🇳🇴 NO</button>
+                        <button class="lang-tab" onclick="switchModalLanguage('sample', 'fi')">🇫🇮 FI</button>
+                    </div>
+
+                    <div id="sample-content-en" class="language-content active">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" id="sample-name-en" placeholder="e.g., Word Search - Animals">
+                        </div>
+                        <div class="form-group">
+                            <label>Description</label>
+                            <textarea id="sample-description-en" placeholder="Find hidden animal names in this engaging word search puzzle"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label>Age Range (translated)</label>
+                            <input type="text" id="sample-age-en" placeholder="e.g., 5-7 years">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="subsection">
+                    <h3>Metadata</h3>
+                    <div class="grid-3">
+                        <div class="form-group">
+                            <label>Category</label>
+                            <select id="sample-category">
+                                <option value="math">Math</option>
+                                <option value="literacy">Literacy</option>
+                                <option value="puzzle">Puzzle</option>
+                                <option value="logic">Logic</option>
+                                <option value="creative">Creative</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Difficulty</label>
+                            <select id="sample-difficulty">
+                                <option value="easy">Easy</option>
+                                <option value="medium">Medium</option>
+                                <option value="hard">Hard</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Featured</label>
+                            <select id="sample-featured">
+                                <option value="false">No</option>
+                                <option value="true">Yes</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeSampleModal()">Cancel</button>
+                <button class="btn btn-primary" onclick="saveSampleFromModal()">Save Sample</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Global state
+        let homepageContent = {};
+        let currentEditingSample = null;
+        let currentEditingFeature = null;
+        let currentEditingPricing = null;
+        let uploadedImages = {};
+
+        const languages = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
+        const languageNames = {
+            en: '🇬🇧 EN', de: '🇩🇪 DE', fr: '🇫🇷 FR', es: '🇪🇸 ES',
+            it: '🇮🇹 IT', pt: '🇵🇹 PT', nl: '🇳🇱 NL', sv: '🇸🇪 SV',
+            da: '🇩🇰 DA', no: '🇳🇴 NO', fi: '🇫🇮 FI'
+        };
+
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeAllLanguageContents();
+            loadContent();
+            initializeImageUploads();
+        });
+
+        // Initialize all language content divs
+        function initializeAllLanguageContents() {
+            const sections = [
+                'hero', 'features-header', 'samples-header', 'categories',
+                'difficulties', 'pricing-header', 'footer-company',
+                'common-ui', 'seo', 'sample'
+            ];
+
+            sections.forEach(section => {
+                languages.forEach(lang => {
+                    if (lang !== 'en') {
+                        createLanguageContent(section, lang);
+                    }
+                });
+            });
+        }
+
+        // Create language content div
+        function createLanguageContent(section, lang) {
+            const enContent = document.getElementById(`${section}-content-en`);
+            if (!enContent) return;
+
+            const container = enContent.parentNode;
+            const div = document.createElement('div');
+            div.id = `${section}-content-${lang}`;
+            div.className = 'language-content';
+            div.innerHTML = enContent.innerHTML.replace(/-en"/g, `-${lang}"`);
+            container.appendChild(div);
+        }
+
+        // Initialize image upload zones
+        function initializeImageUploads() {
+            // Logo upload
+            setupImageUpload('logo-upload-zone', 'logo-file-input', 'logo-preview', 'logo');
+
+            // Sample upload in modal
+            setupImageUpload('sample-upload-zone', 'sample-file-input', 'sample-image-preview', 'sample');
+        }
+
+        // Setup image upload functionality
+        function setupImageUpload(zoneId, inputId, previewId, imageKey) {
+            const zone = document.getElementById(zoneId);
+            const input = document.getElementById(inputId);
+            const preview = document.getElementById(previewId);
+
+            if (!zone || !input) return;
+
+            // Click to upload
+            zone.addEventListener('click', () => input.click());
+
+            // Drag and drop
+            zone.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                zone.classList.add('drag-over');
+            });
+
+            zone.addEventListener('dragleave', () => {
+                zone.classList.remove('drag-over');
+            });
+
+            zone.addEventListener('drop', (e) => {
+                e.preventDefault();
+                zone.classList.remove('drag-over');
+                const files = e.dataTransfer.files;
+                if (files.length > 0) {
+                    handleImageUpload(files[0], preview, imageKey);
+                }
+            });
+
+            // File input change
+            input.addEventListener('change', (e) => {
+                if (e.target.files.length > 0) {
+                    handleImageUpload(e.target.files[0], preview, imageKey);
+                }
+            });
+        }
+
+        // Handle image upload
+        async function handleImageUpload(file, previewElement, imageKey) {
+            if (!file.type.startsWith('image/')) {
+                showMessage('Please upload an image file', 'error');
+                return;
+            }
+
+            if (file.size > 5 * 1024 * 1024) {
+                showMessage('Image size must be less than 5MB', 'error');
+                return;
+            }
+
+            showLoading(true);
+
+            try {
+                const formData = new FormData();
+                formData.append('file', file);
+                formData.append('type', imageKey); // Use imageKey as type for organization
+
+                const response = await fetch('/api/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    uploadedImages[imageKey] = data.url;
+
+                    // Show preview
+                    if (previewElement) {
+                        previewElement.innerHTML = `
+                            <div class="image-preview-container">
+                                <img src="${data.url}" alt="Preview" class="image-preview">
+                                <button class="image-remove" onclick="removeImage('${imageKey}', '${previewElement.id}')">&times;</button>
+                            </div>
+                        `;
+                    }
+
+                    showMessage('Image uploaded successfully', 'success');
+                } else {
+                    const error = await response.json();
+                    showMessage(error.error || 'Failed to upload image', 'error');
+                }
+            } catch (error) {
+                console.error('Upload error:', error);
+                showMessage('Error uploading image', 'error');
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        // Remove uploaded image
+        function removeImage(imageKey, previewId) {
+            delete uploadedImages[imageKey];
+            document.getElementById(previewId).innerHTML = '';
+        }
+
+        // Remove logo specifically
+        function removeLogo() {
+            delete uploadedImages.logo;
+            if (homepageContent.navigation && homepageContent.navigation.logo) {
+                delete homepageContent.navigation.logo.image;
+            }
+            document.getElementById('logo-preview').innerHTML = '';
+            showMessage('Logo removed. Save to apply changes.', 'info');
+        }
+
+        // Load content from API
+        async function loadContent() {
+            showLoading(true);
+            try {
+                const response = await fetch('/api/homepage/content?raw=true');
+                if (response.ok) {
+                    homepageContent = await response.json();
+                    console.log('Successfully loaded content:', homepageContent);
+                    updateAllSections();
+                    showMessage('Content loaded successfully', 'success');
+                } else {
+                    const errorText = await response.text();
+                    console.error('API Response Error:', response.status, errorText);
+                    showMessage(`API Error (${response.status}): Using default content`, 'error');
+                    loadDefaultContent();
+                    updateAllSections();
+                }
+            } catch (error) {
+                console.error('Error loading content:', error);
+                showMessage(`Network Error: ${error.message}. Using defaults`, 'error');
+                loadDefaultContent();
+                updateAllSections();
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        // Load default content structure
+        function loadDefaultContent() {
+            homepageContent = {
+                navigation: {
+                    logo: { text: 'LessonCraftStudio', image: '' },
+                    menuItems: [],
+                    buttons: []
+                },
+                hero: {
+                    title: {},
+                    subtitle: {},
+                    cta_primary_text: {},
+                    cta_secondary_text: {}
+                },
+                featuresSection: { title: {}, subtitle: {} },
+                features: [],
+                samplesSection: {
+                    title: {},
+                    subtitle: {},
+                    cta: {},
+                    categories: {
+                        math: {}, literacy: {}, puzzle: {}, logic: {}, creative: {}
+                    },
+                    difficulties: {
+                        easy: {}, medium: {}, hard: {}
+                    }
+                },
+                samples: [],
+                pricingSection: {
+                    title: {},
+                    periods: { monthly: {}, yearly: {} }
+                },
+                pricing: [],
+                footer: {
+                    companyName: {},
+                    companyTagline: {},
+                    copyright: {},
+                    sections: []
+                },
+                commonUI: {
+                    loading: {}, error: {}, success: {}, noResults: {},
+                    viewMore: {}, viewLess: {}, search: {}, filter: {}
+                },
+                seo: {
+                    title: {},
+                    description: {},
+                    keywords: {}
+                }
+            };
+        }
+
+        // Update all sections
+        function updateAllSections() {
+            updateNavigationSection();
+            updateHeroSection();
+            updateFeaturesSection();
+            updateSamplesSection();
+            updatePricingSection();
+            updateFooterSection();
+            updateTranslationsSection();
+            updateSEOSection();
+        }
+
+        // Update navigation section
+        function updateNavigationSection() {
+            if (homepageContent.navigation) {
+                // Update logo text
+                const logoText = homepageContent.navigation.logo?.text ||
+                                homepageContent.navigation.logo?.en ||
+                                'LessonCraftStudio';
+                document.getElementById('nav-logo-text').value = logoText;
+
+                // Display logo image if exists
+                if (homepageContent.navigation.logo?.image) {
+                    const logoPreview = document.getElementById('logo-preview');
+                    logoPreview.innerHTML = `
+                        <div class="image-preview-container">
+                            <img src="${homepageContent.navigation.logo.image}" alt="Logo" class="image-preview">
+                            <button class="image-remove" onclick="removeLogo()">&times;</button>
+                        </div>
+                    `;
+                    // Store in uploadedImages so it persists
+                    uploadedImages.logo = homepageContent.navigation.logo.image;
+                }
+
+                // Update menu items (menuItems is an object with keys like 'apps', 'pricing', 'blog')
+                const menuContainer = document.getElementById('menu-items-container');
+                menuContainer.innerHTML = '';
+                if (homepageContent.navigation.menuItems) {
+                    Object.entries(homepageContent.navigation.menuItems).forEach(([key, translations], index) => {
+                        const menuItemDiv = document.createElement('div');
+                        menuItemDiv.className = 'card';
+                        menuItemDiv.innerHTML = `
+                            <h4>${key.charAt(0).toUpperCase() + key.slice(1)}</h4>
+                            <div class="grid-2">
+                                ${languages.map(lang => `
+                                    <div class="form-group">
+                                        <label>${languageNames[lang]}</label>
+                                        <input type="text" value="${translations[lang] || ''}"
+                                               id="menu-${key}-${lang}" placeholder="${key}">
+                                    </div>
+                                `).join('')}
+                            </div>
+                        `;
+                        menuContainer.appendChild(menuItemDiv);
+                    });
+                }
+
+                // Update nav buttons (buttons is also an object)
+                const buttonsContainer = document.getElementById('nav-buttons-container');
+                buttonsContainer.innerHTML = '';
+                if (homepageContent.navigation.buttons) {
+                    Object.entries(homepageContent.navigation.buttons).forEach(([key, translations], index) => {
+                        const buttonDiv = document.createElement('div');
+                        buttonDiv.className = 'card';
+                        buttonDiv.innerHTML = `
+                            <h4>${key.charAt(0).toUpperCase() + key.slice(1)} Button</h4>
+                            <div class="grid-2">
+                                ${languages.map(lang => `
+                                    <div class="form-group">
+                                        <label>${languageNames[lang]}</label>
+                                        <input type="text" value="${translations[lang] || ''}"
+                                               id="button-${key}-${lang}" placeholder="${key}">
+                                    </div>
+                                `).join('')}
+                            </div>
+                        `;
+                        buttonsContainer.appendChild(buttonDiv);
+                    });
+                }
+            }
+        }
+
+        // Update hero section
+        function updateHeroSection() {
+            if (homepageContent.hero) {
+                languages.forEach(lang => {
+                    const titleEl = document.getElementById(`hero-title-${lang}`);
+                    const subtitleEl = document.getElementById(`hero-subtitle-${lang}`);
+                    const primaryEl = document.getElementById(`hero-cta-primary-${lang}`);
+                    const secondaryEl = document.getElementById(`hero-cta-secondary-${lang}`);
+
+                    if (titleEl) titleEl.value = homepageContent.hero.title?.[lang] || '';
+                    if (subtitleEl) subtitleEl.value = homepageContent.hero.subtitle?.[lang] || '';
+                    if (primaryEl) primaryEl.value = homepageContent.hero.cta_primary_text?.[lang] || '';
+                    if (secondaryEl) secondaryEl.value = homepageContent.hero.cta_secondary_text?.[lang] || '';
+                });
+            }
+        }
+
+        // Update features section
+        function updateFeaturesSection() {
+            // Update header
+            if (homepageContent.featuresSection) {
+                languages.forEach(lang => {
+                    const titleEl = document.getElementById(`features-title-${lang}`);
+                    const subtitleEl = document.getElementById(`features-subtitle-${lang}`);
+
+                    if (titleEl) titleEl.value = homepageContent.featuresSection.title?.[lang] || '';
+                    if (subtitleEl) subtitleEl.value = homepageContent.featuresSection.subtitle?.[lang] || '';
+                });
+            }
+
+            // Update features list
+            const container = document.getElementById('features-list');
+            container.innerHTML = '';
+            (homepageContent.features || []).forEach((feature, index) => {
+                const card = createFeatureCard(feature, index);
+                container.appendChild(card);
+            });
+        }
+
+        // Update samples section
+        function updateSamplesSection() {
+            // Update headers
+            if (homepageContent.samplesSection) {
+                languages.forEach(lang => {
+                    const titleEl = document.getElementById(`samples-title-${lang}`);
+                    const subtitleEl = document.getElementById(`samples-subtitle-${lang}`);
+                    const ctaEl = document.getElementById(`samples-cta-${lang}`);
+
+                    if (titleEl) titleEl.value = homepageContent.samplesSection.title?.[lang] || '';
+                    if (subtitleEl) subtitleEl.value = homepageContent.samplesSection.subtitle?.[lang] || '';
+                    if (ctaEl) ctaEl.value = homepageContent.samplesSection.cta?.[lang] || '';
+
+                    // Update categories
+                    ['math', 'literacy', 'puzzle', 'logic', 'creative'].forEach(cat => {
+                        const catEl = document.getElementById(`category-${cat}-${lang}`);
+                        if (catEl) catEl.value = homepageContent.samplesSection.categories?.[cat]?.[lang] || '';
+                    });
+
+                    // Update difficulties
+                    ['easy', 'medium', 'hard'].forEach(diff => {
+                        const diffEl = document.getElementById(`difficulty-${diff}-${lang}`);
+                        if (diffEl) diffEl.value = homepageContent.samplesSection.difficulties?.[diff]?.[lang] || '';
+                    });
+                });
+            }
+
+            // Update samples list
+            const container = document.getElementById('samples-list');
+            container.innerHTML = '';
+            (homepageContent.samples || []).forEach((sample, index) => {
+                const card = createSampleCard(sample, index);
+                container.appendChild(card);
+            });
+        }
+
+        // Update pricing section
+        function updatePricingSection() {
+            // Update header
+            if (homepageContent.pricingSection) {
+                languages.forEach(lang => {
+                    const titleEl = document.getElementById(`pricing-title-${lang}`);
+                    const monthlyEl = document.getElementById(`pricing-monthly-${lang}`);
+                    const yearlyEl = document.getElementById(`pricing-yearly-${lang}`);
+
+                    if (titleEl) titleEl.value = homepageContent.pricingSection.title?.[lang] || '';
+                    if (monthlyEl) monthlyEl.value = homepageContent.pricingSection.periods?.monthly?.[lang] || '';
+                    if (yearlyEl) yearlyEl.value = homepageContent.pricingSection.periods?.yearly?.[lang] || '';
+                });
+            }
+
+            // Update pricing list
+            const container = document.getElementById('pricing-list');
+            container.innerHTML = '';
+            (homepageContent.pricing || []).forEach((tier, index) => {
+                const card = createPricingCard(tier, index);
+                container.appendChild(card);
+            });
+        }
+
+        // Update footer section
+        function updateFooterSection() {
+            if (homepageContent.footer) {
+                languages.forEach(lang => {
+                    const nameEl = document.getElementById(`footer-company-name-${lang}`);
+                    const taglineEl = document.getElementById(`footer-company-tagline-${lang}`);
+                    const copyrightEl = document.getElementById(`footer-copyright-${lang}`);
+
+                    if (nameEl) nameEl.value = homepageContent.footer.companyName?.[lang] || '';
+                    if (taglineEl) taglineEl.value = homepageContent.footer.companyTagline?.[lang] || '';
+                    if (copyrightEl) copyrightEl.value = homepageContent.footer.copyright?.[lang] || '';
+                });
+
+                // Update footer sections (if sections is an object, convert to array)
+                const container = document.getElementById('footer-sections-list');
+                container.innerHTML = '';
+
+                const sections = homepageContent.footer.sections;
+                if (sections) {
+                    if (Array.isArray(sections)) {
+                        sections.forEach((section, index) => {
+                            // Handle array format
+                            const sectionDiv = document.createElement('div');
+                            sectionDiv.className = 'card';
+                            sectionDiv.innerHTML = `<h4>Footer Section ${index + 1}</h4>`;
+                            container.appendChild(sectionDiv);
+                        });
+                    } else if (typeof sections === 'object') {
+                        // Handle object format
+                        Object.entries(sections).forEach(([key, section]) => {
+                            const sectionDiv = document.createElement('div');
+                            sectionDiv.className = 'card';
+                            sectionDiv.innerHTML = `<h4>${key}</h4>`;
+                            container.appendChild(sectionDiv);
+                        });
+                    }
+                }
+            }
+        }
+
+        // Update translations section
+        function updateTranslationsSection() {
+            if (homepageContent.commonUI) {
+                languages.forEach(lang => {
+                    const fields = ['loading', 'error', 'success', 'no-results', 'view-more', 'view-less', 'search', 'filter'];
+                    fields.forEach(field => {
+                        const el = document.getElementById(`ui-${field}-${lang}`);
+                        const key = field.replace('-', '');
+                        if (el) el.value = homepageContent.commonUI[key]?.[lang] || '';
+                    });
+                });
+            }
+        }
+
+        // Update SEO section
+        function updateSEOSection() {
+            if (homepageContent.seo) {
+                languages.forEach(lang => {
+                    const titleEl = document.getElementById(`seo-title-${lang}`);
+                    const descEl = document.getElementById(`seo-description-${lang}`);
+                    const keywordsEl = document.getElementById(`seo-keywords-${lang}`);
+
+                    if (titleEl) titleEl.value = homepageContent.seo.title?.[lang] || '';
+                    if (descEl) descEl.value = homepageContent.seo.description?.[lang] || '';
+                    if (keywordsEl) keywordsEl.value = homepageContent.seo.keywords?.[lang] || '';
+                });
+            }
+        }
+
+        // Create sample card
+        function createSampleCard(sample, index) {
+            const card = document.createElement('div');
+            card.className = 'sample-card';
+
+            const categoryBadgeClass = {
+                math: 'badge-blue',
+                literacy: 'badge-green',
+                puzzle: 'badge-purple',
+                logic: 'badge-yellow',
+                creative: 'badge-red'
+            }[sample.category] || 'badge-blue';
+
+            const difficultyBadgeClass = {
+                easy: 'badge-green',
+                medium: 'badge-yellow',
+                hard: 'badge-red'
+            }[sample.difficulty] || 'badge-green';
+
+            card.innerHTML = `
+                <div class="sample-image-container">
+                    <img src="${sample.image_url || '/api/placeholder/250/180'}" alt="${sample.name?.en}" class="sample-image">
+                </div>
+                <div class="sample-content">
+                    <div class="sample-title">${sample.name?.en || 'Untitled'}</div>
+                    <div class="sample-description">${sample.description?.en || 'No description'}</div>
+                    <div class="sample-meta">
+                        <span class="badge ${categoryBadgeClass}">${sample.category}</span>
+                        <span class="badge ${difficultyBadgeClass}">${sample.difficulty}</span>
+                        <span class="badge badge-blue">${sample.age_range?.en || '5-7 years'}</span>
+                    </div>
+                    <div style="display: flex; gap: 5px;">
+                        <button class="btn btn-small btn-primary" onclick="editSample(${index})">Edit</button>
+                        <button class="btn btn-small btn-danger" onclick="deleteSample(${index})">Delete</button>
+                    </div>
+                </div>
+            `;
+            return card;
+        }
+
+        // Create feature card
+        function createFeatureCard(feature, index) {
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.innerHTML = `
+                <div class="card-actions">
+                    <button class="btn btn-small btn-primary" onclick="editFeature(${index})">Edit</button>
+                    <button class="btn btn-small btn-danger" onclick="deleteFeature(${index})">Delete</button>
+                </div>
+                <h4>${feature.icon || '✨'} ${feature.title?.en || 'Untitled Feature'}</h4>
+                <p>${feature.description?.en || 'No description'}</p>
+            `;
+            return card;
+        }
+
+        // Create pricing card
+        function createPricingCard(tier, index) {
+            const card = document.createElement('div');
+            card.className = 'card';
+            card.innerHTML = `
+                <div class="card-actions">
+                    <button class="btn btn-small btn-primary" onclick="editPricing(${index})">Edit</button>
+                    <button class="btn btn-small btn-danger" onclick="deletePricing(${index})">Delete</button>
+                </div>
+                <h4>${tier.name?.en || 'Untitled'}</h4>
+                <p style="font-size: 24px; font-weight: bold; color: #667eea;">$${tier.price || 0}/month</p>
+                <ul style="list-style: none; padding: 0;">
+                    ${(tier.features?.en || []).map(f => `<li>✅ ${f}</li>`).join('')}
+                </ul>
+            `;
+            return card;
+        }
+
+        // Open sample modal
+        function openSampleModal() {
+            currentEditingSample = {
+                name: {},
+                description: {},
+                age_range: {},
+                category: 'math',
+                difficulty: 'easy',
+                image_url: '',
+                featured: false
+            };
+
+            // Clear image preview
+            document.getElementById('sample-image-preview').innerHTML = '';
+            uploadedImages.sample = null;
+
+            // Clear form fields
+            languages.forEach(lang => {
+                document.getElementById(`sample-name-${lang}`).value = '';
+                document.getElementById(`sample-description-${lang}`).value = '';
+                document.getElementById(`sample-age-${lang}`).value = '';
+            });
+
+            document.getElementById('sample-category').value = 'math';
+            document.getElementById('sample-difficulty').value = 'easy';
+            document.getElementById('sample-featured').value = 'false';
+
+            document.getElementById('sampleModalTitle').textContent = 'Add New Worksheet Sample';
+            document.getElementById('sampleModal').classList.add('show');
+        }
+
+        // Edit sample
+        function editSample(index) {
+            currentEditingSample = { ...homepageContent.samples[index], index };
+
+            // Set image preview
+            if (currentEditingSample.image_url) {
+                document.getElementById('sample-image-preview').innerHTML = `
+                    <div class="image-preview-container">
+                        <img src="${currentEditingSample.image_url}" alt="Preview" class="image-preview">
+                        <button class="image-remove" onclick="removeImage('sample', 'sample-image-preview')">&times;</button>
+                    </div>
+                `;
+            }
+
+            // Populate form fields
+            languages.forEach(lang => {
+                document.getElementById(`sample-name-${lang}`).value = currentEditingSample.name?.[lang] || '';
+                document.getElementById(`sample-description-${lang}`).value = currentEditingSample.description?.[lang] || '';
+                document.getElementById(`sample-age-${lang}`).value = currentEditingSample.age_range?.[lang] || '';
+            });
+
+            document.getElementById('sample-category').value = currentEditingSample.category;
+            document.getElementById('sample-difficulty').value = currentEditingSample.difficulty;
+            document.getElementById('sample-featured').value = String(currentEditingSample.featured);
+
+            document.getElementById('sampleModalTitle').textContent = 'Edit Worksheet Sample';
+            document.getElementById('sampleModal').classList.add('show');
+        }
+
+        // Save sample from modal
+        function saveSampleFromModal() {
+            // Collect data
+            languages.forEach(lang => {
+                currentEditingSample.name[lang] = document.getElementById(`sample-name-${lang}`).value;
+                currentEditingSample.description[lang] = document.getElementById(`sample-description-${lang}`).value;
+                currentEditingSample.age_range[lang] = document.getElementById(`sample-age-${lang}`).value;
+            });
+
+            currentEditingSample.category = document.getElementById('sample-category').value;
+            currentEditingSample.difficulty = document.getElementById('sample-difficulty').value;
+            currentEditingSample.featured = document.getElementById('sample-featured').value === 'true';
+
+            // Use uploaded image if available
+            if (uploadedImages.sample) {
+                currentEditingSample.image_url = uploadedImages.sample;
+            }
+
+            // Save to content
+            if (currentEditingSample.index !== undefined) {
+                homepageContent.samples[currentEditingSample.index] = currentEditingSample;
+            } else {
+                homepageContent.samples.push(currentEditingSample);
+            }
+
+            updateSamplesSection();
+            closeSampleModal();
+            showMessage('Sample saved successfully', 'success');
+        }
+
+        // Close sample modal
+        function closeSampleModal() {
+            document.getElementById('sampleModal').classList.remove('show');
+            currentEditingSample = null;
+            uploadedImages.sample = null;
+        }
+
+        // Delete sample
+        function deleteSample(index) {
+            if (confirm('Are you sure you want to delete this sample?')) {
+                homepageContent.samples.splice(index, 1);
+                updateSamplesSection();
+                showMessage('Sample deleted', 'success');
+            }
+        }
+
+        // Switch main tab
+        function switchMainTab(tab) {
+            document.querySelectorAll('.main-tab').forEach(t => t.classList.remove('active'));
+            event.target.classList.add('active');
+
+            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+            document.getElementById(`${tab}-section`).classList.add('active');
+        }
+
+        // Switch language
+        function switchLanguage(section, lang) {
+            const tabs = event.target.parentNode;
+            tabs.querySelectorAll('.lang-tab').forEach(t => t.classList.remove('active'));
+            event.target.classList.add('active');
+
+            document.querySelectorAll(`[id^="${section}-content-"]`).forEach(c => c.classList.remove('active'));
+            const content = document.getElementById(`${section}-content-${lang}`);
+            if (content) content.classList.add('active');
+        }
+
+        // Switch modal language
+        function switchModalLanguage(section, lang) {
+            const tabs = event.target.parentNode;
+            tabs.querySelectorAll('.lang-tab').forEach(t => t.classList.remove('active'));
+            event.target.classList.add('active');
+
+            document.querySelectorAll(`[id^="${section}-content-"]`).forEach(c => c.classList.remove('active'));
+            const content = document.getElementById(`${section}-content-${lang}`);
+            if (content) content.classList.add('active');
+        }
+
+        // Show/hide loading
+        function showLoading(show) {
+            document.getElementById('loadingOverlay').classList.toggle('show', show);
+        }
+
+        // Show message
+        function showMessage(text, type) {
+            const message = document.getElementById('message');
+            message.textContent = text;
+            message.className = `message show ${type}`;
+            setTimeout(() => message.classList.remove('show'), 5000);
+        }
+
+        // Save functions for each section
+        async function saveNavigationSection() {
+            showMessage('Saving navigation...', 'info');
+
+            // Update navigation with current form values and uploaded images
+            if (!homepageContent.navigation) {
+                homepageContent.navigation = { logo: {}, menuItems: {}, buttons: {} };
+            }
+
+            // Save logo text
+            homepageContent.navigation.logo.text = document.getElementById('nav-logo-text').value;
+
+            // CRITICAL: Save uploaded logo image if available
+            if (uploadedImages.logo) {
+                homepageContent.navigation.logo.image = uploadedImages.logo;
+                console.log('Saving logo image:', uploadedImages.logo);
+            }
+
+            // Collect menu items from form
+            const menuItems = {};
+            document.querySelectorAll('[id^="menu-"]').forEach(input => {
+                const match = input.id.match(/menu-(.+)-(.+)/);
+                if (match) {
+                    const [, key, lang] = match;
+                    if (!menuItems[key]) menuItems[key] = {};
+                    menuItems[key][lang] = input.value;
+                }
+            });
+            if (Object.keys(menuItems).length > 0) {
+                homepageContent.navigation.menuItems = menuItems;
+            }
+
+            // Collect buttons from form
+            const buttons = {};
+            document.querySelectorAll('[id^="button-"]').forEach(input => {
+                const match = input.id.match(/button-(.+)-(.+)/);
+                if (match) {
+                    const [, key, lang] = match;
+                    if (!buttons[key]) buttons[key] = {};
+                    buttons[key][lang] = input.value;
+                }
+            });
+            if (Object.keys(buttons).length > 0) {
+                homepageContent.navigation.buttons = buttons;
+            }
+
+            try {
+                const response = await fetch('/api/homepage/content', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        section: 'navigation',
+                        content: homepageContent.navigation
+                    })
+                });
+
+                if (response.ok) {
+                    showMessage('Navigation saved successfully! Reload homepage to see changes.', 'success');
+                } else {
+                    showMessage('Failed to save navigation', 'error');
+                }
+            } catch (error) {
+                console.error('Error saving navigation:', error);
+                showMessage('Error saving navigation', 'error');
+            }
+        }
+
+        async function saveHeroSection() {
+            // Collect all language data
+            languages.forEach(lang => {
+                if (!homepageContent.hero.title) homepageContent.hero.title = {};
+                if (!homepageContent.hero.subtitle) homepageContent.hero.subtitle = {};
+                if (!homepageContent.hero.cta_primary_text) homepageContent.hero.cta_primary_text = {};
+                if (!homepageContent.hero.cta_secondary_text) homepageContent.hero.cta_secondary_text = {};
+
+                homepageContent.hero.title[lang] = document.getElementById(`hero-title-${lang}`).value;
+                homepageContent.hero.subtitle[lang] = document.getElementById(`hero-subtitle-${lang}`).value;
+                homepageContent.hero.cta_primary_text[lang] = document.getElementById(`hero-cta-primary-${lang}`).value;
+                homepageContent.hero.cta_secondary_text[lang] = document.getElementById(`hero-cta-secondary-${lang}`).value;
+            });
+
+            try {
+                const response = await fetch('/api/homepage/content', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        section: 'hero',
+                        content: homepageContent.hero
+                    })
+                });
+
+                if (response.ok) {
+                    showMessage('Hero section saved successfully', 'success');
+                } else {
+                    showMessage('Failed to save hero section', 'error');
+                }
+            } catch (error) {
+                console.error('Error saving hero section:', error);
+                showMessage('Error saving hero section', 'error');
+            }
+        }
+
+        async function saveFeaturesSection() {
+            // Collect header data
+            languages.forEach(lang => {
+                homepageContent.featuresSection.title[lang] = document.getElementById(`features-title-${lang}`).value;
+                homepageContent.featuresSection.subtitle[lang] = document.getElementById(`features-subtitle-${lang}`).value;
+            });
+
+            showMessage('Features saved', 'success');
+        }
+
+        async function saveSamplesSection() {
+            // Collect all samples data
+            languages.forEach(lang => {
+                if (!homepageContent.samplesSection) {
+                    homepageContent.samplesSection = {
+                        title: {}, subtitle: {}, cta: {},
+                        categories: { math: {}, literacy: {}, puzzle: {}, logic: {}, creative: {} },
+                        difficulties: { easy: {}, medium: {}, hard: {} }
+                    };
+                }
+
+                homepageContent.samplesSection.title[lang] = document.getElementById(`samples-title-${lang}`).value;
+                homepageContent.samplesSection.subtitle[lang] = document.getElementById(`samples-subtitle-${lang}`).value;
+                homepageContent.samplesSection.cta[lang] = document.getElementById(`samples-cta-${lang}`).value;
+
+                // Categories
+                ['math', 'literacy', 'puzzle', 'logic', 'creative'].forEach(cat => {
+                    if (!homepageContent.samplesSection.categories[cat]) {
+                        homepageContent.samplesSection.categories[cat] = {};
+                    }
+                    homepageContent.samplesSection.categories[cat][lang] = document.getElementById(`category-${cat}-${lang}`).value;
+                });
+
+                // Difficulties
+                ['easy', 'medium', 'hard'].forEach(diff => {
+                    if (!homepageContent.samplesSection.difficulties[diff]) {
+                        homepageContent.samplesSection.difficulties[diff] = {};
+                    }
+                    homepageContent.samplesSection.difficulties[diff][lang] = document.getElementById(`difficulty-${diff}-${lang}`).value;
+                });
+            });
+
+            try {
+                const response = await fetch('/api/homepage/content', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        section: 'samples',
+                        content: {
+                            samplesSection: homepageContent.samplesSection,
+                            samples: homepageContent.samples
+                        }
+                    })
+                });
+
+                if (response.ok) {
+                    showMessage('Samples section saved successfully', 'success');
+                    // Reload the page content to see changes
+                    setTimeout(() => {
+                        window.location.reload();
+                    }, 2000);
+                } else {
+                    showMessage('Failed to save samples section', 'error');
+                }
+            } catch (error) {
+                console.error('Error saving samples section:', error);
+                showMessage('Error saving samples section', 'error');
+            }
+        }
+
+        async function savePricingSection() {
+            showMessage('Pricing saved', 'success');
+        }
+
+        async function saveFooterSection() {
+            showMessage('Footer saved', 'success');
+        }
+
+        async function saveTranslations() {
+            showMessage('Translations saved', 'success');
+        }
+
+        async function saveSEOSettings() {
+            languages.forEach(lang => {
+                homepageContent.seo.title[lang] = document.getElementById(`seo-title-${lang}`).value;
+                homepageContent.seo.description[lang] = document.getElementById(`seo-description-${lang}`).value;
+                homepageContent.seo.keywords[lang] = document.getElementById(`seo-keywords-${lang}`).value;
+            });
+
+            showMessage('SEO settings saved', 'success');
+        }
+
+        // Placeholder functions
+        function addMenuItem() {
+            const menuContainer = document.getElementById('menu-items-container');
+            const newItem = document.createElement('div');
+            newItem.className = 'card';
+            newItem.innerHTML = `
+                <h4>New Menu Item</h4>
+                <div class="grid-2">
+                    ${languages.map(lang => `
+                        <div class="form-group">
+                            <label>${languageNames[lang]}</label>
+                            <input type="text" placeholder="Menu item text">
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+            menuContainer.appendChild(newItem);
+        }
+
+        function addNavButton() {
+            const buttonsContainer = document.getElementById('nav-buttons-container');
+            const newButton = document.createElement('div');
+            newButton.className = 'card';
+            newButton.innerHTML = `
+                <h4>New Button</h4>
+                <div class="grid-2">
+                    ${languages.map(lang => `
+                        <div class="form-group">
+                            <label>${languageNames[lang]}</label>
+                            <input type="text" placeholder="Button text">
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+            buttonsContainer.appendChild(newButton);
+        }
+
+        function openFeatureModal() {
+            showMessage('Feature editor coming soon', 'info');
+        }
+
+        function openPricingModal() {
+            showMessage('Pricing tier editor coming soon', 'info');
+        }
+
+        function addFooterSection() {
+            const container = document.getElementById('footer-sections-list');
+            const newSection = document.createElement('div');
+            newSection.className = 'card';
+            newSection.innerHTML = `
+                <h4>New Footer Section</h4>
+                <p>Footer section configuration</p>
+            `;
+            container.appendChild(newSection);
+        }
+
+        function deleteFeature(index) {
+            if (confirm('Delete this feature?')) {
+                homepageContent.features.splice(index, 1);
+                updateFeaturesSection();
+                showMessage('Feature deleted', 'success');
+            }
+        }
+
+        function deletePricing(index) {
+            if (confirm('Delete this pricing tier?')) {
+                homepageContent.pricing.splice(index, 1);
+                updatePricingSection();
+                showMessage('Pricing tier deleted', 'success');
+            }
+        }
+
+        function resetSection(section) {
+            if (confirm('Reset this section? All unsaved changes will be lost.')) {
+                loadContent();
+            }
+        }
+    </script>
+</body>
+</html>

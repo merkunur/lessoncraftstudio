@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LessonCraftStudio - Static Page Manager</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .language-tabs {
+            display: flex;
+            background: #f8f9fa;
+            border-bottom: 3px solid #667eea;
+            overflow-x: auto;
+        }
+
+        .language-tab {
+            padding: 15px 25px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 500;
+            color: #666;
+            transition: all 0.3s;
+            white-space: nowrap;
+            position: relative;
+        }
+
+        .language-tab:hover {
+            background: rgba(102, 126, 234, 0.1);
+            color: #667eea;
+        }
+
+        .language-tab.active {
+            background: white;
+            color: #667eea;
+            font-weight: 600;
+        }
+
+        .language-tab .badge {
+            display: inline-block;
+            background: #28a745;
+            color: white;
+            border-radius: 10px;
+            padding: 2px 6px;
+            font-size: 11px;
+            margin-left: 5px;
+        }
+
+        .language-tab .badge.missing {
+            background: #dc3545;
+        }
+
+        .language-tab .badge.partial {
+            background: #ffc107;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .page-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .page-card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            position: relative;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+
+        .page-card:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
+        }
+
+        .page-card.uploaded {
+            background: #d4edda;
+            border-color: #28a745;
+        }
+
+        .page-card h3 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .page-status {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .status-icon {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+
+        .status-icon.uploaded {
+            background: #28a745;
+        }
+
+        .status-icon.missing {
+            background: #dc3545;
+        }
+
+        .page-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s;
+            flex: 1;
+            text-align: center;
+        }
+
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #5a67d8;
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #218838;
+        }
+
+        .btn-danger {
+            background: #dc3545;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background: #c82333;
+        }
+
+        .upload-section {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 2px dashed #dee2e6;
+            text-align: center;
+        }
+
+        .upload-area {
+            padding: 40px;
+            background: white;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .upload-area:hover {
+            background: #f1f3f5;
+            border-color: #667eea;
+        }
+
+        .upload-area.dragover {
+            background: #e7f3ff;
+            border-color: #667eea;
+        }
+
+        .stats-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .stat-card h4 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+
+        .stat-card p {
+            font-size: 1em;
+            opacity: 0.9;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 12px;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 30px;
+            position: relative;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 30px;
+            cursor: pointer;
+            color: #666;
+        }
+
+        .modal-close:hover {
+            color: #333;
+        }
+
+        .editor-container {
+            margin-top: 20px;
+        }
+
+        .code-editor {
+            width: 100%;
+            min-height: 400px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            padding: 15px;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            background: #f8f9fa;
+        }
+
+        .preview-frame {
+            width: 100%;
+            height: 500px;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            margin-top: 20px;
+        }
+
+        .link-manager {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .link-list {
+            display: grid;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .link-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+            background: white;
+            border-radius: 6px;
+            border: 1px solid #dee2e6;
+        }
+
+        .link-item:hover {
+            border-color: #667eea;
+        }
+
+        .path-info {
+            font-family: monospace;
+            font-size: 12px;
+            color: #666;
+            background: #f1f3f5;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 20px;
+            background: #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+            transition: width 0.3s;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            display: none;
+            z-index: 2000;
+            animation: slideIn 0.3s;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateX(100%); }
+            to { transform: translateX(0); }
+        }
+
+        .toast.success {
+            border-left: 4px solid #28a745;
+        }
+
+        .toast.error {
+            border-left: 4px solid #dc3545;
+        }
+
+        .toast.info {
+            border-left: 4px solid #17a2b8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌍 Static Page Manager</h1>
+            <p>Manage multilingual static HTML pages for LessonCraftStudio</p>
+        </div>
+
+        <div class="language-tabs" id="language-tabs">
+            <button class="language-tab active" data-lang="en">🇬🇧 English <span class="badge">0</span></button>
+            <button class="language-tab" data-lang="de">🇩🇪 Deutsch <span class="badge missing">0</span></button>
+            <button class="language-tab" data-lang="fr">🇫🇷 Français <span class="badge missing">0</span></button>
+            <button class="language-tab" data-lang="es">🇪🇸 Español <span class="badge missing">0</span></button>
+            <button class="language-tab" data-lang="it">🇮🇹 Italiano <span class="badge missing">0</span></button>
+            <button class="language-tab" data-lang="pt">🇵🇹 Português <span class="badge missing">0</span></button>
+            <button class="language-tab" data-lang="nl">🇳🇱 Nederlands <span class="badge missing">0</span></button>
+            <button class="language-tab" data-lang="sv">🇸🇪 Svenska <span class="badge missing">0</span></button>
+            <button class="language-tab" data-lang="da">🇩🇰 Dansk <span class="badge missing">0</span></button>
+            <button class="language-tab" data-lang="no">🇳🇴 Norsk <span class="badge missing">0</span></button>
+            <button class="language-tab" data-lang="fi">🇫🇮 Suomi <span class="badge missing">0</span></button>
+        </div>
+
+        <div class="content">
+            <!-- Statistics -->
+            <div class="stats-section">
+                <div class="stat-card">
+                    <h4 id="total-pages">0</h4>
+                    <p>Total Pages</p>
+                </div>
+                <div class="stat-card">
+                    <h4 id="languages-complete">0/11</h4>
+                    <p>Languages Complete</p>
+                </div>
+                <div class="stat-card">
+                    <h4 id="completion-rate">0%</h4>
+                    <p>Completion Rate</p>
+                </div>
+            </div>
+
+            <!-- Upload Section -->
+            <div class="upload-section">
+                <h2>📤 Upload Pages</h2>
+                <div class="upload-area" id="upload-area">
+                    <div>
+                        📁 Drop HTML files here or click to browse
+                        <br><br>
+                        <input type="file" id="file-input" multiple accept=".html" style="display: none;">
+                        <button class="btn btn-primary">Choose Files</button>
+                        <br><br>
+                        <small>Files will be automatically assigned to the current language</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Page Grid -->
+            <h2>📄 Pages</h2>
+            <div class="page-grid" id="page-grid">
+                <!-- Pages will be dynamically inserted here -->
+            </div>
+
+            <!-- Link Manager -->
+            <div class="link-manager">
+                <h2>🔗 Link Configuration</h2>
+                <p>Configure how pages link to each other across languages</p>
+                <div class="link-list" id="link-list">
+                    <!-- Links will be listed here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Modal -->
+    <div class="modal" id="edit-modal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeEditModal()">&times;</span>
+            <h2>Edit Page: <span id="edit-page-name"></span></h2>
+            <div class="editor-container">
+                <textarea class="code-editor" id="code-editor"></textarea>
+                <div style="margin-top: 20px; display: flex; gap: 10px;">
+                    <button class="btn btn-primary" onclick="savePageContent()">💾 Save</button>
+                    <button class="btn btn-secondary" onclick="previewPage()">👁️ Preview</button>
+                    <button class="btn btn-success" onclick="validateHTML()">✔️ Validate</button>
+                </div>
+                <iframe class="preview-frame" id="preview-frame" style="display: none;"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <script>
+        // Configuration
+        const languages = {
+            en: { name: 'English', flag: '🇬🇧' },
+            de: { name: 'Deutsch', flag: '🇩🇪' },
+            fr: { name: 'Français', flag: '🇫🇷' },
+            es: { name: 'Español', flag: '🇪🇸' },
+            it: { name: 'Italiano', flag: '🇮🇹' },
+            pt: { name: 'Português', flag: '🇵🇹' },
+            nl: { name: 'Nederlands', flag: '🇳🇱' },
+            sv: { name: 'Svenska', flag: '🇸🇪' },
+            da: { name: 'Dansk', flag: '🇩🇰' },
+            no: { name: 'Norsk', flag: '🇳🇴' },
+            fi: { name: 'Suomi', flag: '🇫🇮' }
+        };
+
+        const pages = [
+            'homepage',
+            'apps',
+            'pricing',
+            'contact',
+            'about',
+            'terms',
+            'privacy',
+            'faq',
+            'blog',
+            'testimonials'
+        ];
+
+        let currentLanguage = 'en';
+        let pageStatus = {};
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            initializePageStatus();
+            setupLanguageTabs();
+            setupUploadArea();
+            updateDisplay();
+            checkExistingPages();
+        });
+
+        function initializePageStatus() {
+            Object.keys(languages).forEach(lang => {
+                pageStatus[lang] = {};
+                pages.forEach(page => {
+                    pageStatus[lang][page] = false;
+                });
+            });
+        }
+
+        function setupLanguageTabs() {
+            const tabs = document.querySelectorAll('.language-tab');
+            tabs.forEach(tab => {
+                tab.addEventListener('click', function() {
+                    // Remove active class from all tabs
+                    tabs.forEach(t => t.classList.remove('active'));
+                    // Add active class to clicked tab
+                    this.classList.add('active');
+                    // Update current language
+                    currentLanguage = this.dataset.lang;
+                    // Update display
+                    updateDisplay();
+                });
+            });
+        }
+
+        function setupUploadArea() {
+            const uploadArea = document.getElementById('upload-area');
+            const fileInput = document.getElementById('file-input');
+
+            uploadArea.addEventListener('click', () => fileInput.click());
+
+            uploadArea.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                uploadArea.classList.add('dragover');
+            });
+
+            uploadArea.addEventListener('dragleave', () => {
+                uploadArea.classList.remove('dragover');
+            });
+
+            uploadArea.addEventListener('drop', (e) => {
+                e.preventDefault();
+                uploadArea.classList.remove('dragover');
+                handleFiles(e.dataTransfer.files);
+            });
+
+            fileInput.addEventListener('change', (e) => {
+                handleFiles(e.target.files);
+            });
+        }
+
+        function handleFiles(files) {
+            Array.from(files).forEach(file => {
+                if (file.name.endsWith('.html')) {
+                    uploadFile(file);
+                } else {
+                    showToast(`Skipped ${file.name} - only HTML files allowed`, 'error');
+                }
+            });
+        }
+
+        async function uploadFile(file) {
+            const reader = new FileReader();
+            reader.onload = async function(e) {
+                const content = e.target.result;
+                const pageName = file.name.replace('.html', '').toLowerCase();
+
+                // Process the HTML content
+                const processedContent = processHTMLForLanguage(content, currentLanguage);
+
+                // Save to server (simulated here - in production, this would be an API call)
+                await savePageToServer(currentLanguage, pageName, processedContent);
+
+                // Update status
+                if (pages.includes(pageName)) {
+                    pageStatus[currentLanguage][pageName] = true;
+                }
+
+                updateDisplay();
+                showToast(`✅ Uploaded ${pageName} for ${languages[currentLanguage].name}`, 'success');
+            };
+            reader.readAsText(file);
+        }
+
+        function processHTMLForLanguage(content, lang) {
+            // Update language links in the HTML
+            let processed = content;
+
+            // Update language switcher links
+            Object.keys(languages).forEach(l => {
+                const pattern = new RegExp(`href="[^"]*/${l}/`, 'g');
+                processed = processed.replace(pattern, `href="/static/${l}/`);
+            });
+
+            // Update current language indicator
+            processed = processed.replace(/lang="[^"]*"/, `lang="${lang}"`);
+
+            // Add language persistence script
+            const languageScript = `
+                <script>
+                    // Store selected language
+                    localStorage.setItem('selectedLanguage', '${lang}');
+
+                    // Handle language switching
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const savedLang = localStorage.getItem('selectedLanguage');
+                        if (savedLang && savedLang !== '${lang}') {
+                            // Redirect to saved language version
+                            const currentPath = window.location.pathname;
+                            const newPath = currentPath.replace(/\\/static\\/[a-z]{2}\\//, '/static/' + savedLang + '/');
+                            if (newPath !== currentPath) {
+                                window.location.href = newPath;
+                            }
+                        }
+                    });
+                </script>
+            `;
+
+            // Insert before closing body tag
+            if (!processed.includes('localStorage.setItem')) {
+                processed = processed.replace('</body>', languageScript + '</body>');
+            }
+
+            return processed;
+        }
+
+        async function savePageToServer(lang, pageName, content) {
+            // In production, this would be an API call to save the file
+            // For now, we'll use localStorage to simulate
+            const key = `page_${lang}_${pageName}`;
+            localStorage.setItem(key, content);
+
+            // Also save metadata
+            const metadata = JSON.parse(localStorage.getItem('pageMetadata') || '{}');
+            if (!metadata[lang]) metadata[lang] = {};
+            metadata[lang][pageName] = {
+                uploaded: new Date().toISOString(),
+                size: content.length
+            };
+            localStorage.setItem('pageMetadata', JSON.stringify(metadata));
+        }
+
+        async function checkExistingPages() {
+            // Check localStorage for existing pages
+            const metadata = JSON.parse(localStorage.getItem('pageMetadata') || '{}');
+
+            Object.keys(metadata).forEach(lang => {
+                Object.keys(metadata[lang]).forEach(pageName => {
+                    if (pages.includes(pageName)) {
+                        pageStatus[lang][pageName] = true;
+                    }
+                });
+            });
+
+            updateDisplay();
+        }
+
+        function updateDisplay() {
+            updatePageGrid();
+            updateStats();
+            updateLanguageTabs();
+            updateLinkList();
+        }
+
+        function updatePageGrid() {
+            const grid = document.getElementById('page-grid');
+            grid.innerHTML = '';
+
+            pages.forEach(page => {
+                const isUploaded = pageStatus[currentLanguage][page];
+
+                const card = document.createElement('div');
+                card.className = `page-card ${isUploaded ? 'uploaded' : ''}`;
+
+                card.innerHTML = `
+                    <h3>${page.charAt(0).toUpperCase() + page.slice(1)}</h3>
+                    <div class="page-status">
+                        <div class="status-icon ${isUploaded ? 'uploaded' : 'missing'}"></div>
+                        <span>${isUploaded ? 'Uploaded' : 'Not uploaded'}</span>
+                    </div>
+                    <div class="page-actions">
+                        ${isUploaded ?
+                            `<button class="btn btn-primary" onclick="editPage('${page}')">Edit</button>
+                             <button class="btn btn-secondary" onclick="viewPage('${page}')">View</button>
+                             <button class="btn btn-danger" onclick="deletePage('${page}')">Delete</button>` :
+                            `<button class="btn btn-primary" onclick="createPage('${page}')">Create</button>
+                             <button class="btn btn-secondary" onclick="importFromOtherLang('${page}')">Import</button>`
+                        }
+                    </div>
+                    ${isUploaded ? `<div class="path-info">/static/${currentLanguage}/${page}</div>` : ''}
+                `;
+
+                grid.appendChild(card);
+            });
+        }
+
+        function updateStats() {
+            // Calculate total pages uploaded
+            let totalPages = 0;
+            let languagesComplete = 0;
+
+            Object.keys(languages).forEach(lang => {
+                const langPages = Object.values(pageStatus[lang]).filter(status => status).length;
+                totalPages += langPages;
+
+                if (langPages === pages.length) {
+                    languagesComplete++;
+                }
+            });
+
+            const totalPossible = Object.keys(languages).length * pages.length;
+            const completionRate = Math.round((totalPages / totalPossible) * 100);
+
+            document.getElementById('total-pages').textContent = totalPages;
+            document.getElementById('languages-complete').textContent = `${languagesComplete}/11`;
+            document.getElementById('completion-rate').textContent = `${completionRate}%`;
+        }
+
+        function updateLanguageTabs() {
+            const tabs = document.querySelectorAll('.language-tab');
+            tabs.forEach(tab => {
+                const lang = tab.dataset.lang;
+                const uploadedCount = Object.values(pageStatus[lang]).filter(status => status).length;
+                const badge = tab.querySelector('.badge');
+
+                badge.textContent = uploadedCount;
+                badge.className = 'badge';
+
+                if (uploadedCount === 0) {
+                    badge.classList.add('missing');
+                } else if (uploadedCount < pages.length) {
+                    badge.classList.add('partial');
+                }
+            });
+        }
+
+        function updateLinkList() {
+            const linkList = document.getElementById('link-list');
+            linkList.innerHTML = '';
+
+            // Show link structure for current language
+            pages.forEach(page => {
+                if (pageStatus[currentLanguage][page]) {
+                    const linkItem = document.createElement('div');
+                    linkItem.className = 'link-item';
+                    linkItem.innerHTML = `
+                        <span>${page}</span>
+                        <span class="path-info">/static/${currentLanguage}/${page}</span>
+                    `;
+                    linkList.appendChild(linkItem);
+                }
+            });
+        }
+
+        function editPage(pageName) {
+            const key = `page_${currentLanguage}_${pageName}`;
+            const content = localStorage.getItem(key) || '';
+
+            document.getElementById('edit-page-name').textContent = `${pageName} (${languages[currentLanguage].name})`;
+            document.getElementById('code-editor').value = content;
+            document.getElementById('edit-modal').style.display = 'block';
+        }
+
+        function closeEditModal() {
+            document.getElementById('edit-modal').style.display = 'none';
+            document.getElementById('preview-frame').style.display = 'none';
+        }
+
+        function savePageContent() {
+            const pageName = document.getElementById('edit-page-name').textContent.split(' ')[0];
+            const content = document.getElementById('code-editor').value;
+
+            savePageToServer(currentLanguage, pageName, content);
+            closeEditModal();
+            showToast('✅ Page saved successfully', 'success');
+        }
+
+        function previewPage() {
+            const content = document.getElementById('code-editor').value;
+            const frame = document.getElementById('preview-frame');
+
+            frame.style.display = 'block';
+            frame.srcdoc = content;
+        }
+
+        function validateHTML() {
+            const content = document.getElementById('code-editor').value;
+
+            // Basic HTML validation
+            const parser = new DOMParser();
+            const doc = parser.parseFromString(content, 'text/html');
+            const errors = doc.querySelectorAll('parsererror');
+
+            if (errors.length > 0) {
+                showToast('❌ HTML has errors', 'error');
+            } else {
+                showToast('✅ HTML is valid', 'success');
+            }
+        }
+
+        function viewPage(pageName) {
+            // Open the page in a new tab
+            window.open(`/static/${currentLanguage}/${pageName}`, '_blank');
+        }
+
+        function deletePage(pageName) {
+            if (confirm(`Are you sure you want to delete ${pageName} for ${languages[currentLanguage].name}?`)) {
+                const key = `page_${currentLanguage}_${pageName}`;
+                localStorage.removeItem(key);
+                pageStatus[currentLanguage][pageName] = false;
+                updateDisplay();
+                showToast('🗑️ Page deleted', 'info');
+            }
+        }
+
+        function createPage(pageName) {
+            // Create a template based on page type
+            const template = generatePageTemplate(pageName, currentLanguage);
+
+            savePageToServer(currentLanguage, pageName, template);
+            pageStatus[currentLanguage][pageName] = true;
+            updateDisplay();
+            showToast(`✅ Created ${pageName} template`, 'success');
+
+            // Open editor
+            editPage(pageName);
+        }
+
+        function importFromOtherLang(pageName) {
+            // Find a language that has this page
+            let sourceLanguage = null;
+            for (const lang of Object.keys(languages)) {
+                if (pageStatus[lang][pageName]) {
+                    sourceLanguage = lang;
+                    break;
+                }
+            }
+
+            if (!sourceLanguage) {
+                showToast('❌ No source page found to import', 'error');
+                return;
+            }
+
+            // Get the source content
+            const sourceKey = `page_${sourceLanguage}_${pageName}`;
+            const sourceContent = localStorage.getItem(sourceKey) || '';
+
+            // Process for current language
+            const processedContent = processHTMLForLanguage(sourceContent, currentLanguage);
+
+            // Save
+            savePageToServer(currentLanguage, pageName, processedContent);
+            pageStatus[currentLanguage][pageName] = true;
+            updateDisplay();
+            showToast(`✅ Imported ${pageName} from ${languages[sourceLanguage].name}`, 'success');
+        }
+
+        function generatePageTemplate(pageName, lang) {
+            const langConfig = languages[lang];
+            const baseUrl = `/static/${lang}`;
+
+            return `<!DOCTYPE html>
+<html lang="${lang}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>${pageName.charAt(0).toUpperCase() + pageName.slice(1)} - LessonCraftStudio</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; }
+        nav { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 1rem; }
+        .nav-content { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { color: white; font-size: 1.5rem; font-weight: bold; text-decoration: none; }
+        .nav-links { display: flex; gap: 2rem; }
+        .nav-links a { color: white; text-decoration: none; }
+        .language-selector { position: relative; }
+        .language-btn { background: white; color: #667eea; padding: 0.5rem 1rem; border-radius: 6px; cursor: pointer; }
+        .language-dropdown { display: none; position: absolute; top: 100%; right: 0; background: white; border-radius: 6px; box-shadow: 0 5px 15px rgba(0,0,0,0.2); margin-top: 0.5rem; }
+        .language-dropdown.show { display: block; }
+        .language-dropdown a { display: block; padding: 0.5rem 1rem; color: #333; text-decoration: none; }
+        .language-dropdown a:hover { background: #f8f9fa; }
+        .content { max-width: 1200px; margin: 2rem auto; padding: 0 1rem; }
+        h1 { color: #333; }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <a href="${baseUrl}/homepage" class="logo">${langConfig.flag} LessonCraftStudio</a>
+            <div class="nav-links">
+                <a href="${baseUrl}/homepage">Home</a>
+                <a href="${baseUrl}/apps">Apps</a>
+                <a href="${baseUrl}/pricing">Pricing</a>
+                <a href="${baseUrl}/about">About</a>
+                <a href="${baseUrl}/contact">Contact</a>
+                <div class="language-selector">
+                    <div class="language-btn" onclick="toggleLanguageDropdown()">
+                        ${langConfig.flag} ${langConfig.name}
+                    </div>
+                    <div class="language-dropdown" id="language-dropdown">
+                        ${Object.keys(languages).map(l =>
+                            `<a href="/static/${l}/${pageName}">${languages[l].flag} ${languages[l].name}</a>`
+                        ).join('')}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <h1>${pageName.charAt(0).toUpperCase() + pageName.slice(1)}</h1>
+        <p>This is the ${pageName} page in ${langConfig.name}.</p>
+
+        <!-- Add your content here -->
+
+    </div>
+
+    <script>
+        // Language persistence
+        localStorage.setItem('selectedLanguage', '${lang}');
+
+        // Handle language switching
+        function toggleLanguageDropdown() {
+            document.getElementById('language-dropdown').classList.toggle('show');
+        }
+
+        // Close dropdown when clicking outside
+        window.onclick = function(event) {
+            if (!event.target.matches('.language-btn')) {
+                const dropdowns = document.getElementsByClassName('language-dropdown');
+                for (let i = 0; i < dropdowns.length; i++) {
+                    dropdowns[i].classList.remove('show');
+                }
+            }
+        }
+
+        // Check for language preference
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedLang = localStorage.getItem('selectedLanguage');
+            if (savedLang && savedLang !== '${lang}') {
+                const currentPath = window.location.pathname;
+                const newPath = currentPath.replace(/\\/static\\/[a-z]{2}\\//, '/static/' + savedLang + '/');
+                if (newPath !== currentPath) {
+                    window.location.href = newPath;
+                }
+            }
+        });
+    </script>
+</body>
+</html>`;
+        }
+
+        function showToast(message, type = 'info') {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.className = `toast ${type}`;
+            toast.style.display = 'block';
+
+            setTimeout(() => {
+                toast.style.display = 'none';
+            }, 3000);
+        }
+    </script>
+</body>
+</html>

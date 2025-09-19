@@ -1,88 +1,12 @@
-import NextAuth, { NextAuthOptions } from 'next-auth';
-import CredentialsProvider from 'next-auth/providers/credentials';
-import bcrypt from 'bcryptjs';
-import { prisma } from '@/lib/prisma';
+// Temporarily disabled auth while setting up static pages
+// Auth will be implemented after static page system is complete
 
-export const authOptions: NextAuthOptions = {
-  providers: [
-    CredentialsProvider({
-      name: 'credentials',
-      credentials: {
-        email: { label: "Email", type: "email" },
-        password: { label: "Password", type: "password" }
-      },
-      async authorize(credentials) {
-        if (!credentials?.email || !credentials?.password) {
-          return null;
-        }
-        
-        try {
-          // Check if user exists
-          const user = await prisma.user.findUnique({
-            where: { email: credentials.email }
-          });
-          
-          if (!user) {
-            return null;
-          }
-          
-          // Verify password
-          const isValid = await bcrypt.compare(
-            credentials.password,
-            user.passwordHash
-          );
-          
-          if (!isValid) {
-            return null;
-          }
-          
-          // Check if email is verified
-          if (!user.emailVerified) {
-            throw new Error('Please verify your email before logging in');
-          }
-          
-          return {
-            id: user.id,
-            email: user.email,
-            name: `${user.firstName} ${user.lastName}`,
-            subscriptionTier: user.subscriptionTier,
-            image: null
-          };
-        } catch (error) {
-          console.error('Auth error:', error);
-          return null;
-        }
-      }
-    })
-  ],
-  callbacks: {
-    async jwt({ token, user }) {
-      if (user) {
-        token.id = user.id;
-        token.subscriptionTier = user.subscriptionTier;
-      }
-      return token;
-    },
-    async session({ session, token }) {
-      if (session?.user) {
-        session.user.id = token.id as string;
-        session.user.subscriptionTier = token.subscriptionTier as string;
-      }
-      return session;
-    }
-  },
-  session: {
-    strategy: 'jwt',
-    maxAge: 24 * 60 * 60, // 24 hours
-  },
-  pages: {
-    signIn: '/auth/signin',
-    signUp: '/auth/signup',
-    error: '/auth/error',
-  },
-  secret: process.env.NEXTAUTH_SECRET,
-};
+import { NextResponse } from 'next/server';
 
-const handler = NextAuth(authOptions);
+export async function GET() {
+  return NextResponse.json({ message: 'Auth not configured yet' }, { status: 501 });
+}
 
-export { handler as GET, handler as POST };
+export async function POST() {
+  return NextResponse.json({ message: 'Auth not configured yet' }, { status: 501 });
+}

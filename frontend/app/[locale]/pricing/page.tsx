@@ -1,5 +1,6 @@
 import { getTranslations } from 'next-intl/server';
 import Link from 'next/link';
+import FAQAccordion from '@/components/FAQAccordion';
 
 const plans = [
   {
@@ -8,9 +9,9 @@ const plans = [
     period: '',
     description: 'Perfect for trying out our platform',
     features: [
-      '1 App - Word Search Generator',
+      '3 Basic Apps',
       'Watermarked output',
-      'Limited image library (10 images)',
+      'Basic image library',
       'Basic templates',
       'Community support',
       'Personal use only'
@@ -20,20 +21,21 @@ const plans = [
       'No commercial license',
       'Limited customization'
     ],
+    apps: ['Word Search', 'Addition', 'Coloring'],
     cta: 'Start Free',
     ctaLink: '/auth/signup',
     variant: 'free'
   },
   {
     name: 'Core Bundle',
-    price: '$15',
+    price: '$9',
     period: '/month',
-    yearlyPrice: '$144',
+    yearlyPrice: '$90',
     description: 'Most popular apps for professional teachers',
     features: [
       '10 Most Popular Apps',
       'No watermarks',
-      'Full image library (100+ themes)',
+      'Full image library (141+ images)',
       'All templates and styles',
       'POD commercial license',
       'Standard email support',
@@ -41,9 +43,9 @@ const plans = [
       'Save and reuse worksheets'
     ],
     apps: [
-      'Word Search', 'Image Addition', 'Alphabet Train', 
-      'Coloring Pages', 'Math Worksheets', 'Word Scramble',
-      'Find and Count', 'MatchUp Maker', 'Drawing Lines', 'Picture Bingo'
+      'All Free apps +', 'Subtraction', 'Alphabet Train',
+      'Find and Count', 'Matching', 'Crossword',
+      'Sudoku', 'Shadow Match'
     ],
     cta: 'Start 7-Day Trial',
     ctaLink: '/auth/signup?plan=core',
@@ -52,9 +54,9 @@ const plans = [
   },
   {
     name: 'Full Access',
-    price: '$25',
+    price: '$19',
     period: '/month',
-    yearlyPrice: '$240',
+    yearlyPrice: '$190',
     description: 'Complete toolkit for serious educators',
     features: [
       'All 33 Apps',
@@ -66,6 +68,12 @@ const plans = [
       'Custom branding options',
       'API access (coming soon)',
       'Team collaboration (coming soon)'
+    ],
+    apps: [
+      'All 33 worksheet generators including:',
+      'Math Puzzle', 'Word Scramble', 'Chart Count',
+      'Cryptogram', 'Treasure Hunt', 'Bingo',
+      'And 20+ more advanced tools!'
     ],
     newApps: [
       'Plus 23 additional apps including:',
@@ -297,48 +305,8 @@ export default async function PricingPage() {
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
             Frequently Asked Questions
           </h2>
-          
-          <div className="max-w-3xl mx-auto space-y-6">
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="font-semibold text-gray-900 mb-2">Can I switch plans anytime?</h3>
-              <p className="text-gray-600">
-                Yes! You can upgrade or downgrade your plan at any time. Changes take effect immediately, 
-                and we'll prorate any differences.
-              </p>
-            </div>
-            
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="font-semibold text-gray-900 mb-2">What payment methods do you accept?</h3>
-              <p className="text-gray-600">
-                We accept all major credit cards (Visa, MasterCard, American Express) and PayPal. 
-                All payments are processed securely through Stripe.
-              </p>
-            </div>
-            
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="font-semibold text-gray-900 mb-2">Is there a free trial?</h3>
-              <p className="text-gray-600">
-                Yes! Both Core Bundle and Full Access plans come with a 7-day free trial. 
-                No credit card required to start.
-              </p>
-            </div>
-            
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="font-semibold text-gray-900 mb-2">What's the POD commercial license?</h3>
-              <p className="text-gray-600">
-                The Print-on-Demand (POD) commercial license allows you to sell worksheets you create 
-                on platforms like Teachers Pay Teachers, Etsy, or your own website.
-              </p>
-            </div>
-            
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="font-semibold text-gray-900 mb-2">Can I cancel my subscription?</h3>
-              <p className="text-gray-600">
-                Absolutely! You can cancel your subscription at any time from your account settings. 
-                You'll continue to have access until the end of your billing period.
-              </p>
-            </div>
-          </div>
+
+          <FAQAccordion />
         </div>
       </section>
 

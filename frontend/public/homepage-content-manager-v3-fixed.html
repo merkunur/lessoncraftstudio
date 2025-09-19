@@ -1,0 +1,2141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage Content Manager v3 - Fixed</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .header {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: #666;
+            font-size: 16px;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            background: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            flex-wrap: wrap;
+        }
+
+        .tab {
+            padding: 12px 24px;
+            background: #f5f5f5;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s;
+        }
+
+        .tab.active {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+        }
+
+        .tab:hover:not(.active) {
+            background: #e0e0e0;
+        }
+
+        .content-section {
+            display: none;
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            animation: fadeIn 0.3s;
+        }
+
+        .content-section.active {
+            display: block;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #555;
+            font-weight: 500;
+            font-size: 14px;
+        }
+
+        input[type="text"],
+        input[type="url"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: transform 0.2s;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background: #6c757d;
+        }
+
+        .btn-danger {
+            background: #dc3545;
+        }
+
+        .btn-success {
+            background: #28a745;
+        }
+
+        .btn-small {
+            padding: 5px 10px;
+            font-size: 12px;
+        }
+
+        .btn-primary {
+            background: #007bff;
+        }
+
+        .card {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border: 1px solid #e9ecef;
+        }
+
+        .card h3, .card h4 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .grid-4 {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 15px;
+        }
+
+        @media (max-width: 768px) {
+            .grid-2, .grid-3, .grid-4 {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .feature-item,
+        .pricing-item,
+        .sample-item {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+
+        .feature-item h4,
+        .pricing-item h4,
+        .sample-item h4 {
+            margin-bottom: 10px;
+        }
+
+        .item-actions {
+            display: flex;
+            gap: 5px;
+            margin-top: 10px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+        }
+
+        .message {
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            animation: slideIn 0.3s;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+
+        .message.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .message.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .message.info {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+
+        .upload-zone {
+            border: 2px dashed #ddd;
+            border-radius: 8px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .upload-zone:hover,
+        .upload-zone.drag-over {
+            border-color: #667eea;
+            background: #f0f3ff;
+        }
+
+        .image-preview {
+            max-width: 200px;
+            max-height: 150px;
+            object-fit: contain;
+        }
+
+        .image-preview-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .image-remove {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background: #dc3545;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 25px;
+            height: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            line-height: 1;
+        }
+
+        .section-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .section-header h2 {
+            color: #333;
+        }
+
+        .footer-section-item {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .footer-link-item {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .footer-link-item input {
+            flex: 1;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 1000;
+            animation: fadeIn 0.3s;
+        }
+
+        .modal.active {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer-section-item {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .footer-link-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 10px;
+            padding: 30px;
+            max-width: 800px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+            animation: slideUp 0.3s;
+        }
+
+        @keyframes slideUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .modal-header h3 {
+            color: #333;
+            margin: 0;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: #999;
+        }
+
+        .modal-close:hover {
+            color: #333;
+        }
+
+        .modal-body {
+            margin-bottom: 20px;
+        }
+
+        .modal-footer {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        .feature-list-item {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+            align-items: center;
+        }
+
+        .feature-list-item input {
+            flex: 1;
+        }
+
+        .feature-list-item button {
+            padding: 5px 10px;
+        }
+
+        .drag-handle {
+            cursor: move;
+            color: #999;
+            margin-right: 10px;
+        }
+
+        .sortable-ghost {
+            opacity: 0.5;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .icon-selector {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .icon-option {
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .icon-option:hover,
+        .icon-option.selected {
+            border-color: #667eea;
+            background: #f0f3ff;
+        }
+
+        /* Language tabs */
+        .lang-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .lang-tab {
+            padding: 8px 16px;
+            background: #f5f5f5;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+
+        .lang-tab.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+
+        .lang-tab:hover:not(.active) {
+            background: #e0e0e0;
+        }
+
+        .lang-content {
+            display: none;
+        }
+
+        .lang-content.active {
+            display: block;
+        }
+
+        /* Grid layouts */
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        /* Sample cards */
+        .sample-card {
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+
+        .sample-card:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            transform: translateY(-2px);
+        }
+
+        .sample-image-container {
+            height: 150px;
+            background: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .sample-image {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+
+        .sample-content {
+            padding: 15px;
+        }
+
+        .sample-title {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+
+        .sample-description {
+            font-size: 13px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .sample-meta {
+            display: flex;
+            gap: 5px;
+            flex-wrap: wrap;
+            margin-bottom: 10px;
+        }
+
+        .badge {
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+
+        .badge-blue { background: #e3f2ff; color: #1976d2; }
+        .badge-green { background: #e8f5e9; color: #388e3c; }
+        .badge-purple { background: #f3e5f5; color: #7b1fa2; }
+        .badge-yellow { background: #fff8e1; color: #f57c00; }
+        .badge-red { background: #ffebee; color: #c62828; }
+
+        /* Loading and messages */
+        #loadingOverlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 9999;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #loadingOverlay.show {
+            display: flex;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .message {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            padding: 15px 20px;
+            border-radius: 8px;
+            color: white;
+            font-weight: 500;
+            z-index: 10000;
+            opacity: 0;
+            transform: translateX(100%);
+            transition: all 0.3s;
+        }
+
+        .message.show {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .message.success {
+            background: #4caf50;
+        }
+
+        .message.error {
+            background: #f44336;
+        }
+
+        .message.info {
+            background: #2196f3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>🎨 Homepage Content Manager v3 - Fixed</h1>
+            <p>Complete control over all homepage content with working edit functionality</p>
+            <div id="message-container"></div>
+        </div>
+
+        <!-- Tabs -->
+        <div class="tabs">
+            <button class="tab active" onclick="switchTab('navigation')">Navigation</button>
+            <button class="tab" onclick="switchTab('hero')">Hero Section</button>
+            <button class="tab" onclick="switchTab('features')">Features</button>
+            <button class="tab" onclick="switchTab('samples')">Samples</button>
+            <button class="tab" onclick="switchTab('pricing')">Pricing</button>
+            <button class="tab" onclick="switchTab('footer')">Footer</button>
+            <button class="tab" onclick="switchTab('translations')">Translations</button>
+            <button class="tab" onclick="switchTab('seo')">SEO</button>
+        </div>
+
+        <!-- Content Sections (placeholder for now) -->
+        <div id="content-sections">
+            <!-- Will be populated by JavaScript -->
+        </div>
+
+        <!-- Save Actions -->
+        <div class="actions" style="margin-top: 30px;">
+            <button class="btn btn-success" onclick="saveAllContent()">💾 Save All Changes</button>
+            <button class="btn btn-secondary" onclick="loadContent()">🔄 Reload Content</button>
+        </div>
+    </div>
+
+    <!-- Feature Edit Modal -->
+    <div id="feature-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Edit Feature</h3>
+                <button class="modal-close" onclick="closeFeatureModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Icon</label>
+                    <select id="feature-icon">
+                        <option value="apps">Apps</option>
+                        <option value="images">Images</option>
+                        <option value="languages">Languages</option>
+                        <option value="pod">POD License</option>
+                        <option value="license">License</option>
+                        <option value="education">Education</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Color Scheme</label>
+                    <select id="feature-color">
+                        <option value="primary">Primary</option>
+                        <option value="secondary">Secondary</option>
+                        <option value="accent">Accent</option>
+                        <option value="green">Green</option>
+                    </select>
+                </div>
+                <div id="feature-translations"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeFeatureModal()">Cancel</button>
+                <button class="btn btn-success" onclick="saveFeature()">Save Feature</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pricing Edit Modal -->
+    <div id="pricing-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Edit Pricing Tier</h3>
+                <button class="modal-close" onclick="closePricingModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label>Price</label>
+                    <input type="text" id="pricing-price" placeholder="$0">
+                </div>
+                <div class="form-group">
+                    <label>Price Period</label>
+                    <input type="text" id="pricing-period" placeholder="/mo or leave empty">
+                </div>
+                <div class="form-group">
+                    <label>Highlighted</label>
+                    <input type="checkbox" id="pricing-highlighted">
+                </div>
+                <div id="pricing-translations"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closePricingModal()">Cancel</button>
+                <button class="btn btn-success" onclick="savePricing()">Save Pricing</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let homepageContent = {};
+        let currentFeatureIndex = -1;
+        let currentPricingIndex = -1;
+        const languages = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
+        const languageNames = {
+            en: 'English',
+            de: 'German',
+            fr: 'French',
+            es: 'Spanish',
+            it: 'Italian',
+            pt: 'Portuguese',
+            nl: 'Dutch',
+            sv: 'Swedish',
+            da: 'Danish',
+            no: 'Norwegian',
+            fi: 'Finnish'
+        };
+
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', function() {
+            loadContent();
+        });
+
+        async function loadContent() {
+            showLoading(true);
+            try {
+                const response = await fetch('/api/homepage/content?raw=true');
+                if (response.ok) {
+                    homepageContent = await response.json();
+                    renderAllSections();
+                    showMessage('Content loaded successfully', 'success');
+                } else {
+                    showMessage('Failed to load content', 'error');
+                }
+            } catch (error) {
+                console.error('Error loading content:', error);
+                showMessage('Error loading content', 'error');
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        function renderAllSections() {
+            const container = document.getElementById('content-sections');
+            container.innerHTML = `
+                <!-- Navigation Section -->
+                <div id="navigation-section" class="content-section active">
+                    <div class="section-header">
+                        <h2>Navigation</h2>
+                    </div>
+                    <div id="navigation-content">
+                        <div class="card">
+                            <h3>Logo</h3>
+                            <div class="form-group">
+                                <label>Logo Text</label>
+                                <input type="text" id="nav-logo-text" placeholder="LessonCraftStudio">
+                            </div>
+                            <div class="form-group">
+                                <label>Logo Image</label>
+                                <div id="logo-preview"></div>
+                                <input type="file" id="logo-upload" accept="image/*" onchange="handleLogoUpload(event)">
+                            </div>
+                        </div>
+                        <div class="card">
+                            <h3>Menu Items</h3>
+                            <div id="menu-items-container"></div>
+                        </div>
+                        <div class="card">
+                            <h3>Navigation Buttons</h3>
+                            <div id="nav-buttons-container"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Section -->
+                <div id="hero-section" class="content-section">
+                    <div class="section-header">
+                        <h2>Hero Section</h2>
+                    </div>
+                    <div id="hero-content">
+                        <div class="lang-tabs">
+                            ${languages.map(lang => `<button class="lang-tab ${lang === 'en' ? 'active' : ''}" onclick="switchLanguage('hero', '${lang}')">${languageNames[lang]}</button>`).join('')}
+                        </div>
+                        ${languages.map(lang => `
+                            <div id="hero-content-${lang}" class="lang-content ${lang === 'en' ? 'active' : ''}">
+                                <div class="form-group">
+                                    <label>Title</label>
+                                    <input type="text" id="hero-title-${lang}" placeholder="Main headline">
+                                </div>
+                                <div class="form-group">
+                                    <label>Subtitle</label>
+                                    <textarea id="hero-subtitle-${lang}" placeholder="Supporting text"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label>Primary CTA Text</label>
+                                    <input type="text" id="hero-cta-primary-${lang}" placeholder="Try Free">
+                                </div>
+                                <div class="form-group">
+                                    <label>Secondary CTA Text</label>
+                                    <input type="text" id="hero-cta-secondary-${lang}" placeholder="Learn More">
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+
+                <!-- Features Section -->
+                <div id="features-section" class="content-section">
+                    <div class="section-header">
+                        <h2>Features</h2>
+                        <button class="btn btn-small btn-primary" onclick="addFeature()">+ Add Feature</button>
+                    </div>
+                    <div id="features-content">
+                        <div class="card">
+                            <h3>Section Headers</h3>
+                            <div class="grid-2">
+                                ${languages.map(lang => `
+                                    <div class="form-group">
+                                        <label>${languageNames[lang]} - Title</label>
+                                        <input type="text" id="features-title-${lang}" placeholder="Section title">
+                                    </div>
+                                `).join('')}
+                            </div>
+                            <div class="grid-2">
+                                ${languages.map(lang => `
+                                    <div class="form-group">
+                                        <label>${languageNames[lang]} - Subtitle</label>
+                                        <input type="text" id="features-subtitle-${lang}" placeholder="Section subtitle">
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                        <h3>Feature Items</h3>
+                        <div class="features-list" id="features-list"></div>
+                    </div>
+                </div>
+
+                <!-- Samples Section -->
+                <div id="samples-section" class="content-section">
+                    <div class="section-header">
+                        <h2>Worksheet Samples</h2>
+                        <button class="btn btn-small btn-primary" onclick="openSampleModal()">+ Add Sample</button>
+                    </div>
+                    <div id="samples-content">
+                        <div class="card">
+                            <h3>Section Headers</h3>
+                            <div class="grid-2">
+                                ${languages.map(lang => `
+                                    <div class="form-group">
+                                        <label>${languageNames[lang]} - Title</label>
+                                        <input type="text" id="samples-title-${lang}" placeholder="Gallery title">
+                                    </div>
+                                `).join('')}
+                            </div>
+                            <div class="grid-2">
+                                ${languages.map(lang => `
+                                    <div class="form-group">
+                                        <label>${languageNames[lang]} - Subtitle</label>
+                                        <textarea id="samples-subtitle-${lang}" placeholder="Gallery description"></textarea>
+                                    </div>
+                                `).join('')}
+                            </div>
+                            <div class="grid-2">
+                                ${languages.map(lang => `
+                                    <div class="form-group">
+                                        <label>${languageNames[lang]} - CTA Text</label>
+                                        <input type="text" id="samples-cta-${lang}" placeholder="View all apps">
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3>Categories</h3>
+                            ${['math', 'literacy', 'puzzle', 'logic', 'creative'].map(cat => `
+                                <div style="margin-bottom: 20px;">
+                                    <h4 style="color: #667eea; margin-bottom: 10px;">${cat.charAt(0).toUpperCase() + cat.slice(1)}</h4>
+                                    <div class="grid-3">
+                                        ${languages.map(lang => `
+                                            <div class="form-group">
+                                                <label>${languageNames[lang]}</label>
+                                                <input type="text" id="category-${cat}-${lang}" placeholder="Translation for ${cat}">
+                                            </div>
+                                        `).join('')}
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+
+                        <div class="card">
+                            <h3>Difficulties</h3>
+                            ${['easy', 'medium', 'hard'].map(diff => `
+                                <div style="margin-bottom: 20px;">
+                                    <h4 style="color: #667eea; margin-bottom: 10px;">${diff.charAt(0).toUpperCase() + diff.slice(1)}</h4>
+                                    <div class="grid-3">
+                                        ${languages.map(lang => `
+                                            <div class="form-group">
+                                                <label>${languageNames[lang]}</label>
+                                                <input type="text" id="difficulty-${diff}-${lang}" placeholder="Translation for ${diff}">
+                                            </div>
+                                        `).join('')}
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+
+                        <div class="card">
+                            <h3>Modal Labels</h3>
+                            <div style="margin-bottom: 20px;">
+                                <h4 style="color: #667eea; margin-bottom: 10px;">Age Range Label</h4>
+                                <div class="grid-3">
+                                    ${languages.map(lang => `
+                                        <div class="form-group">
+                                            <label>${languageNames[lang]}</label>
+                                            <input type="text" id="modal-age-range-${lang}" placeholder="e.g. Age Range">
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </div>
+                            <div style="margin-bottom: 20px;">
+                                <h4 style="color: #667eea; margin-bottom: 10px;">Difficulty Label</h4>
+                                <div class="grid-3">
+                                    ${languages.map(lang => `
+                                        <div class="form-group">
+                                            <label>${languageNames[lang]}</label>
+                                            <input type="text" id="modal-difficulty-${lang}" placeholder="e.g. Difficulty">
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </div>
+                            <div style="margin-bottom: 20px;">
+                                <h4 style="color: #667eea; margin-bottom: 10px;">Category Label</h4>
+                                <div class="grid-3">
+                                    ${languages.map(lang => `
+                                        <div class="form-group">
+                                            <label>${languageNames[lang]}</label>
+                                            <input type="text" id="modal-category-${lang}" placeholder="e.g. Category">
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        </div>
+
+                        <h3>Sample Worksheets</h3>
+                        <div id="samples-list" class="grid-3"></div>
+                    </div>
+                </div>
+
+                <!-- Pricing Section -->
+                <div id="pricing-section" class="content-section">
+                    <div class="section-header">
+                        <h2>Pricing</h2>
+                        <button class="btn btn-small btn-primary" onclick="addPricingTier()">+ Add Pricing Tier</button>
+                    </div>
+                    <div id="pricing-content">
+                        <div class="card">
+                            <h3>Section Headers</h3>
+                            <div class="grid-2">
+                                ${languages.map(lang => `
+                                    <div class="form-group">
+                                        <label>${languageNames[lang]} - Title</label>
+                                        <input type="text" id="pricing-title-${lang}" placeholder="Pricing title">
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                        <h3>Pricing Tiers</h3>
+                        <div class="pricing-list" id="pricing-list"></div>
+                    </div>
+                </div>
+
+                <!-- Footer Section -->
+                <div id="footer-section" class="content-section">
+                    <div class="section-header">
+                        <h2>Footer</h2>
+                    </div>
+                    <div id="footer-content"></div>
+                </div>
+
+                <!-- Translations Section -->
+                <div id="translations-section" class="content-section">
+                    <div class="section-header">
+                        <h2>Common Translations</h2>
+                    </div>
+                    <div id="translations-content">
+                        <div class="card">
+                            <div class="grid-2">
+                                ${['loading', 'error', 'success', 'no-results', 'view-more', 'view-less', 'search', 'filter'].map(field => `
+                                    <div>
+                                        <h4>${field.replace('-', ' ').split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')}</h4>
+                                        ${languages.slice(0, 3).map(lang => `
+                                            <div class="form-group">
+                                                <label>${languageNames[lang]}</label>
+                                                <input type="text" id="ui-${field}-${lang}" placeholder="Translation">
+                                            </div>
+                                        `).join('')}
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SEO Section -->
+                <div id="seo-section" class="content-section">
+                    <div class="section-header">
+                        <h2>SEO Settings</h2>
+                    </div>
+                    <div id="seo-content">
+                        <div class="lang-tabs">
+                            ${languages.map(lang => `<button class="lang-tab ${lang === 'en' ? 'active' : ''}" onclick="switchLanguage('seo', '${lang}')">${languageNames[lang]}</button>`).join('')}
+                        </div>
+                        ${languages.map(lang => `
+                            <div id="seo-content-${lang}" class="lang-content ${lang === 'en' ? 'active' : ''}">
+                                <div class="form-group">
+                                    <label>Page Title</label>
+                                    <input type="text" id="seo-title-${lang}" placeholder="SEO title">
+                                </div>
+                                <div class="form-group">
+                                    <label>Meta Description</label>
+                                    <textarea id="seo-description-${lang}" rows="3" placeholder="SEO description"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <label>Keywords</label>
+                                    <textarea id="seo-keywords-${lang}" rows="2" placeholder="Comma-separated keywords"></textarea>
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+
+            // Render each section
+            renderNavigationSection();
+            renderHeroSection();
+            renderFeaturesSection();
+            renderSamplesSection();
+            renderPricingSection();
+            renderFooterSection();
+            renderTranslationsSection();
+            renderSEOSection();
+        }
+
+        function renderFeaturesSection() {
+            const container = document.getElementById('features-content');
+            if (!homepageContent.features) return;
+
+            let html = '<div class="features-list">';
+            homepageContent.features.forEach((feature, index) => {
+                html += `
+                    <div class="feature-item">
+                        <div class="item-header">
+                            <h4>${feature.title?.en || 'Feature ' + (index + 1)}</h4>
+                            <div class="item-actions">
+                                <button class="btn btn-small btn-primary" onclick="editFeature(${index})">Edit</button>
+                                <button class="btn btn-small btn-danger" onclick="deleteFeature(${index})">Delete</button>
+                            </div>
+                        </div>
+                        <p>${feature.description?.en || 'No description'}</p>
+                        <small>Icon: ${feature.icon || 'none'} | Color: ${feature.color_scheme || 'primary'}</small>
+                    </div>
+                `;
+            });
+            html += '</div>';
+            container.innerHTML = html;
+        }
+
+        function renderPricingSection() {
+            const container = document.getElementById('pricing-content');
+            if (!homepageContent.pricing) return;
+
+            let html = '<div class="pricing-list">';
+            homepageContent.pricing.forEach((tier, index) => {
+                html += `
+                    <div class="pricing-item">
+                        <div class="item-header">
+                            <h4>${tier.name?.en || 'Tier ' + (index + 1)}</h4>
+                            <div class="item-actions">
+                                <button class="btn btn-small btn-primary" onclick="editPricing(${index})">Edit</button>
+                                <button class="btn btn-small btn-danger" onclick="deletePricing(${index})">Delete</button>
+                            </div>
+                        </div>
+                        <p>Price: ${tier.price || '$0'} ${tier.price_period || ''}</p>
+                        <p>Features: ${tier.features?.en?.length || 0} items</p>
+                    </div>
+                `;
+            });
+            html += '</div>';
+            container.innerHTML = html;
+        }
+
+        function renderFooterSection() {
+            const container = document.getElementById('footer-content');
+            if (!homepageContent.footer) return;
+
+            let html = `
+                <div class="card">
+                    <h3>Company Info</h3>
+                    <div class="grid-2">
+                        ${languages.map(lang => `
+                            <div class="form-group">
+                                <label>${languageNames[lang]} - Company Name</label>
+                                <input type="text" id="footer-company-${lang}"
+                                       value="${homepageContent.footer.companyName?.[lang] || ''}"
+                                       onchange="updateFooterField('companyName', '${lang}', this.value)">
+                            </div>
+                        `).join('')}
+                    </div>
+                    <div class="grid-2">
+                        ${languages.map(lang => `
+                            <div class="form-group">
+                                <label>${languageNames[lang]} - Tagline</label>
+                                <textarea id="footer-tagline-${lang}"
+                                          onchange="updateFooterField('companyTagline', '${lang}', this.value)">${homepageContent.footer.companyTagline?.[lang] || ''}</textarea>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Footer Sections</h3>
+                    ${renderFooterSections()}
+                </div>
+
+                <div class="card">
+                    <h3>Copyright Text</h3>
+                    <div class="grid-2">
+                        ${languages.map(lang => `
+                            <div class="form-group">
+                                <label>${languageNames[lang]}</label>
+                                <input type="text" id="footer-copyright-${lang}"
+                                       value="${homepageContent.footer.copyright?.[lang] || ''}"
+                                       onchange="updateFooterField('copyright', '${lang}', this.value)">
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            `;
+            container.innerHTML = html;
+        }
+
+        function renderFooterSections() {
+            const sections = homepageContent.footer?.sections || {};
+            let html = '';
+
+            ['product', 'support', 'legal'].forEach(sectionKey => {
+                const section = sections[sectionKey];
+                if (!section) return;
+
+                html += `
+                    <div class="footer-section-item" style="margin-bottom: 30px; padding: 20px; background: #f8f9fa; border-radius: 8px;">
+                        <h4 style="color: #667eea; margin-bottom: 15px;">${sectionKey.charAt(0).toUpperCase() + sectionKey.slice(1)} Section</h4>
+
+                        <div class="form-group">
+                            <h5>Section Title (All Languages)</h5>
+                            <div class="grid-3">
+                                ${languages.map(lang => `
+                                    <div class="form-group">
+                                        <label>${languageNames[lang]}</label>
+                                        <input type="text" id="footer-${sectionKey}-title-${lang}"
+                                               placeholder="${languageNames[lang]} title"
+                                               value="${section.title?.[lang] || ''}"
+                                               onchange="updateFooterSectionTitle('${sectionKey}', '${lang}', this.value)">
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <h5>Links</h5>
+                            ${Object.entries(section.links || {}).map(([linkKey, linkValue]) => `
+                                <div style="margin-bottom: 20px; padding: 15px; background: white; border-radius: 6px;">
+                                    <h6 style="color: #764ba2; margin-bottom: 10px;">${linkKey.charAt(0).toUpperCase() + linkKey.slice(1)}</h6>
+                                    <div class="grid-3">
+                                        ${languages.map(lang => `
+                                            <div class="form-group">
+                                                <label>${languageNames[lang]}</label>
+                                                <input type="text" id="footer-${sectionKey}-${linkKey}-${lang}"
+                                                       placeholder="${languageNames[lang]}"
+                                                       value="${linkValue[lang] || ''}"
+                                                       onchange="updateFooterSectionLink('${sectionKey}', '${linkKey}', '${lang}', this.value)">
+                                            </div>
+                                        `).join('')}
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            });
+
+            return html;
+        }
+
+        // Feature Modal Functions
+        function editFeature(index) {
+            currentFeatureIndex = index;
+            const feature = homepageContent.features[index];
+
+            document.getElementById('feature-icon').value = feature.icon || 'apps';
+            document.getElementById('feature-color').value = feature.color_scheme || 'primary';
+
+            const translationsDiv = document.getElementById('feature-translations');
+            translationsDiv.innerHTML = `
+                <h4>Title Translations</h4>
+                <div class="grid-2">
+                    ${languages.map(lang => `
+                        <div class="form-group">
+                            <label>${languageNames[lang]}</label>
+                            <input type="text" id="feature-title-${lang}"
+                                   value="${feature.title?.[lang] || ''}"
+                                   placeholder="Feature title">
+                        </div>
+                    `).join('')}
+                </div>
+
+                <h4>Description Translations</h4>
+                <div class="grid-2">
+                    ${languages.map(lang => `
+                        <div class="form-group">
+                            <label>${languageNames[lang]}</label>
+                            <textarea id="feature-desc-${lang}"
+                                      placeholder="Feature description">${feature.description?.[lang] || ''}</textarea>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+
+            document.getElementById('feature-modal').classList.add('active');
+        }
+
+        function saveFeature() {
+            if (currentFeatureIndex === -1) return;
+
+            const feature = homepageContent.features[currentFeatureIndex];
+            feature.icon = document.getElementById('feature-icon').value;
+            feature.color_scheme = document.getElementById('feature-color').value;
+
+            if (!feature.title) feature.title = {};
+            if (!feature.description) feature.description = {};
+
+            languages.forEach(lang => {
+                feature.title[lang] = document.getElementById(`feature-title-${lang}`).value;
+                feature.description[lang] = document.getElementById(`feature-desc-${lang}`).value;
+            });
+
+            renderFeaturesSection();
+            closeFeatureModal();
+            showMessage('Feature updated', 'success');
+        }
+
+        function closeFeatureModal() {
+            document.getElementById('feature-modal').classList.remove('active');
+            currentFeatureIndex = -1;
+        }
+
+        function addFeature() {
+            const newFeature = {
+                icon: 'apps',
+                title: { en: 'New Feature' },
+                description: { en: 'Feature description' },
+                color_scheme: 'primary',
+                sort_order: homepageContent.features.length + 1
+            };
+            homepageContent.features.push(newFeature);
+            renderFeaturesSection();
+            editFeature(homepageContent.features.length - 1);
+        }
+
+        function deleteFeature(index) {
+            if (confirm('Delete this feature?')) {
+                homepageContent.features.splice(index, 1);
+                renderFeaturesSection();
+                showMessage('Feature deleted', 'success');
+            }
+        }
+
+        // Pricing Modal Functions
+        function editPricing(index) {
+            currentPricingIndex = index;
+            const tier = homepageContent.pricing[index];
+
+            document.getElementById('pricing-price').value = tier.price || '';
+            document.getElementById('pricing-period').value = tier.price_period || '';
+            document.getElementById('pricing-highlighted').checked = tier.highlighted || false;
+
+            const translationsDiv = document.getElementById('pricing-translations');
+            translationsDiv.innerHTML = `
+                <h4>Name Translations</h4>
+                <div class="grid-2">
+                    ${languages.map(lang => `
+                        <div class="form-group">
+                            <label>${languageNames[lang]}</label>
+                            <input type="text" id="pricing-name-${lang}"
+                                   value="${tier.name?.[lang] || ''}"
+                                   placeholder="Tier name">
+                        </div>
+                    `).join('')}
+                </div>
+
+                <h4>Features (one per line)</h4>
+                <div class="grid-2">
+                    ${languages.map(lang => `
+                        <div class="form-group">
+                            <label>${languageNames[lang]}</label>
+                            <textarea id="pricing-features-${lang}"
+                                      rows="5"
+                                      placeholder="One feature per line">${(tier.features?.[lang] || []).join('\\n')}</textarea>
+                        </div>
+                    `).join('')}
+                </div>
+
+                <h4>CTA Button Text</h4>
+                <div class="grid-2">
+                    ${languages.map(lang => `
+                        <div class="form-group">
+                            <label>${languageNames[lang]}</label>
+                            <input type="text" id="pricing-cta-${lang}"
+                                   value="${tier.cta_text?.[lang] || ''}"
+                                   placeholder="Button text">
+                        </div>
+                    `).join('')}
+                </div>
+
+                <h4>Badge Text (if highlighted)</h4>
+                <div class="grid-2">
+                    ${languages.map(lang => `
+                        <div class="form-group">
+                            <label>${languageNames[lang]}</label>
+                            <input type="text" id="pricing-badge-${lang}"
+                                   value="${tier.badge_text?.[lang] || ''}"
+                                   placeholder="Badge text">
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+
+            document.getElementById('pricing-modal').classList.add('active');
+        }
+
+        function savePricing() {
+            if (currentPricingIndex === -1) return;
+
+            const tier = homepageContent.pricing[currentPricingIndex];
+            tier.price = document.getElementById('pricing-price').value;
+            tier.price_period = document.getElementById('pricing-period').value;
+            tier.highlighted = document.getElementById('pricing-highlighted').checked;
+
+            if (!tier.name) tier.name = {};
+            if (!tier.features) tier.features = {};
+            if (!tier.cta_text) tier.cta_text = {};
+            if (!tier.badge_text) tier.badge_text = {};
+
+            languages.forEach(lang => {
+                tier.name[lang] = document.getElementById(`pricing-name-${lang}`).value;
+                tier.features[lang] = document.getElementById(`pricing-features-${lang}`).value.split('\\n').filter(f => f.trim());
+                tier.cta_text[lang] = document.getElementById(`pricing-cta-${lang}`).value;
+                tier.badge_text[lang] = document.getElementById(`pricing-badge-${lang}`).value;
+            });
+
+            renderPricingSection();
+            closePricingModal();
+            showMessage('Pricing tier updated', 'success');
+        }
+
+        function closePricingModal() {
+            document.getElementById('pricing-modal').classList.remove('active');
+            currentPricingIndex = -1;
+        }
+
+        function addPricingTier() {
+            const newTier = {
+                name: { en: 'New Plan' },
+                price: '$0',
+                price_period: '/mo',
+                features: { en: ['Feature 1', 'Feature 2'] },
+                cta_text: { en: 'Get Started' },
+                cta_link: '/signup',
+                highlighted: false,
+                badge_text: {},
+                sort_order: homepageContent.pricing.length + 1
+            };
+            homepageContent.pricing.push(newTier);
+            renderPricingSection();
+            editPricing(homepageContent.pricing.length - 1);
+        }
+
+        function deletePricing(index) {
+            if (confirm('Delete this pricing tier?')) {
+                homepageContent.pricing.splice(index, 1);
+                renderPricingSection();
+                showMessage('Pricing tier deleted', 'success');
+            }
+        }
+
+        // Footer update functions
+        function updateFooterField(field, lang, value) {
+            if (!homepageContent.footer) homepageContent.footer = {};
+            if (!homepageContent.footer[field]) homepageContent.footer[field] = {};
+            homepageContent.footer[field][lang] = value;
+        }
+
+        function updateFooterSectionTitle(section, lang, value) {
+            if (!homepageContent.footer.sections) homepageContent.footer.sections = {};
+            if (!homepageContent.footer.sections[section]) homepageContent.footer.sections[section] = {};
+            if (!homepageContent.footer.sections[section].title) homepageContent.footer.sections[section].title = {};
+            homepageContent.footer.sections[section].title[lang] = value;
+        }
+
+        function updateFooterSectionLink(section, link, lang, value) {
+            if (!homepageContent.footer.sections[section].links) homepageContent.footer.sections[section].links = {};
+            if (!homepageContent.footer.sections[section].links[link]) homepageContent.footer.sections[section].links[link] = {};
+            homepageContent.footer.sections[section].links[link][lang] = value;
+        }
+
+        // Render navigation section
+        function renderNavigationSection() {
+            if (!homepageContent.navigation) return;
+
+            // Logo text input
+            const logoText = homepageContent.navigation.logo?.text || 'LessonCraftStudio';
+            const logoTextInput = document.getElementById('nav-logo-text');
+            if (logoTextInput) logoTextInput.value = logoText;
+
+            // Display logo image if exists
+            if (homepageContent.navigation.logo?.image) {
+                const logoPreview = document.getElementById('logo-preview');
+                if (logoPreview) {
+                    logoPreview.innerHTML = `
+                        <div class="image-preview-container">
+                            <img src="${homepageContent.navigation.logo.image}" alt="Logo" class="image-preview">
+                            <button class="image-remove" onclick="removeLogo()">&times;</button>
+                        </div>
+                    `;
+                    uploadedImages.logo = homepageContent.navigation.logo.image;
+                }
+            }
+
+            // Render menu items
+            const menuContainer = document.getElementById('menu-items-container');
+            if (menuContainer) {
+                menuContainer.innerHTML = '';
+                if (homepageContent.navigation.menuItems) {
+                    Object.entries(homepageContent.navigation.menuItems).forEach(([key, translations]) => {
+                        const menuItemDiv = document.createElement('div');
+                        menuItemDiv.className = 'card';
+                        menuItemDiv.innerHTML = `
+                            <h4>${key.charAt(0).toUpperCase() + key.slice(1)}</h4>
+                            <div class="grid-2">
+                                ${languages.map(lang => `
+                                    <div class="form-group">
+                                        <label>${languageNames[lang]}</label>
+                                        <input type="text" value="${translations[lang] || ''}"
+                                               id="menu-${key}-${lang}" placeholder="${key}">
+                                    </div>
+                                `).join('')}
+                            </div>
+                        `;
+                        menuContainer.appendChild(menuItemDiv);
+                    });
+                }
+            }
+
+            // Render nav buttons
+            const buttonsContainer = document.getElementById('nav-buttons-container');
+            if (buttonsContainer) {
+                buttonsContainer.innerHTML = '';
+                if (homepageContent.navigation.buttons) {
+                    Object.entries(homepageContent.navigation.buttons).forEach(([key, translations]) => {
+                        const buttonDiv = document.createElement('div');
+                        buttonDiv.className = 'card';
+                        buttonDiv.innerHTML = `
+                            <h4>${key.charAt(0).toUpperCase() + key.slice(1)} Button</h4>
+                            <div class="grid-2">
+                                ${languages.map(lang => `
+                                    <div class="form-group">
+                                        <label>${languageNames[lang]}</label>
+                                        <input type="text" value="${translations[lang] || ''}"
+                                               id="button-${key}-${lang}" placeholder="${key}">
+                                    </div>
+                                `).join('')}
+                            </div>
+                        `;
+                        buttonsContainer.appendChild(buttonDiv);
+                    });
+                }
+            }
+        }
+
+        function renderHeroSection() {
+            if (!homepageContent.hero) return;
+
+            languages.forEach(lang => {
+                const titleEl = document.getElementById(`hero-title-${lang}`);
+                const subtitleEl = document.getElementById(`hero-subtitle-${lang}`);
+                const primaryEl = document.getElementById(`hero-cta-primary-${lang}`);
+                const secondaryEl = document.getElementById(`hero-cta-secondary-${lang}`);
+
+                if (titleEl) titleEl.value = homepageContent.hero.title?.[lang] || '';
+                if (subtitleEl) subtitleEl.value = homepageContent.hero.subtitle?.[lang] || '';
+                if (primaryEl) primaryEl.value = homepageContent.hero.cta_primary_text?.[lang] || '';
+                if (secondaryEl) secondaryEl.value = homepageContent.hero.cta_secondary_text?.[lang] || '';
+            });
+        }
+
+        function renderSamplesSection() {
+            // Update headers
+            if (homepageContent.samplesSection) {
+                languages.forEach(lang => {
+                    const titleEl = document.getElementById(`samples-title-${lang}`);
+                    const subtitleEl = document.getElementById(`samples-subtitle-${lang}`);
+                    const ctaEl = document.getElementById(`samples-cta-${lang}`);
+
+                    if (titleEl) titleEl.value = homepageContent.samplesSection.title?.[lang] || '';
+                    if (subtitleEl) subtitleEl.value = homepageContent.samplesSection.subtitle?.[lang] || '';
+                    if (ctaEl) ctaEl.value = homepageContent.samplesSection.cta?.[lang] || '';
+
+                    // Update categories
+                    ['math', 'literacy', 'puzzle', 'logic', 'creative'].forEach(cat => {
+                        const catEl = document.getElementById(`category-${cat}-${lang}`);
+                        if (catEl) catEl.value = homepageContent.samplesSection.categories?.[cat]?.[lang] || '';
+                    });
+
+                    // Update difficulties
+                    ['easy', 'medium', 'hard'].forEach(diff => {
+                        const diffEl = document.getElementById(`difficulty-${diff}-${lang}`);
+                        if (diffEl) diffEl.value = homepageContent.samplesSection.difficulties?.[diff]?.[lang] || '';
+                    });
+
+                    // Update modal labels
+                    const ageRangeEl = document.getElementById(`modal-age-range-${lang}`);
+                    const modalDiffEl = document.getElementById(`modal-difficulty-${lang}`);
+                    const modalCatEl = document.getElementById(`modal-category-${lang}`);
+
+                    if (ageRangeEl) ageRangeEl.value = homepageContent.samplesSection.modalLabels?.ageRange?.[lang] || '';
+                    if (modalDiffEl) modalDiffEl.value = homepageContent.samplesSection.modalLabels?.difficulty?.[lang] || '';
+                    if (modalCatEl) modalCatEl.value = homepageContent.samplesSection.modalLabels?.category?.[lang] || '';
+                });
+            }
+
+            // Update samples list
+            const container = document.getElementById('samples-list');
+            if (container) {
+                container.innerHTML = '';
+                (homepageContent.samples || []).forEach((sample, index) => {
+                    const card = createSampleCard(sample, index);
+                    container.appendChild(card);
+                });
+            }
+        }
+
+        function renderTranslationsSection() {
+            if (!homepageContent.commonUI) return;
+
+            languages.forEach(lang => {
+                const fields = [
+                    { key: 'loading', id: 'loading' },
+                    { key: 'error', id: 'error' },
+                    { key: 'success', id: 'success' },
+                    { key: 'noResults', id: 'no-results' },
+                    { key: 'viewMore', id: 'view-more' },
+                    { key: 'viewLess', id: 'view-less' },
+                    { key: 'search', id: 'search' },
+                    { key: 'filter', id: 'filter' }
+                ];
+
+                fields.forEach(field => {
+                    const el = document.getElementById(`ui-${field.id}-${lang}`);
+                    if (el) el.value = homepageContent.commonUI[field.key]?.[lang] || '';
+                });
+            });
+        }
+
+        function renderSEOSection() {
+            if (!homepageContent.seo) return;
+
+            languages.forEach(lang => {
+                const titleEl = document.getElementById(`seo-title-${lang}`);
+                const descEl = document.getElementById(`seo-description-${lang}`);
+                const keywordsEl = document.getElementById(`seo-keywords-${lang}`);
+
+                if (titleEl) titleEl.value = homepageContent.seo.title?.[lang] || '';
+                if (descEl) descEl.value = homepageContent.seo.description?.[lang] || '';
+                if (keywordsEl) keywordsEl.value = homepageContent.seo.keywords?.[lang] || '';
+            });
+        }
+
+        // Create sample card
+        function createSampleCard(sample, index) {
+            const card = document.createElement('div');
+            card.className = 'sample-card';
+
+            const categoryBadgeClass = {
+                math: 'badge-blue',
+                literacy: 'badge-green',
+                puzzle: 'badge-purple',
+                logic: 'badge-yellow',
+                creative: 'badge-red'
+            }[sample.category] || 'badge-blue';
+
+            const difficultyBadgeClass = {
+                easy: 'badge-green',
+                medium: 'badge-yellow',
+                hard: 'badge-red'
+            }[sample.difficulty] || 'badge-green';
+
+            card.innerHTML = `
+                <div class="sample-image-container">
+                    <img src="${sample.image_url || '/api/placeholder/250/180'}" alt="${sample.name?.en}" class="sample-image">
+                </div>
+                <div class="sample-content">
+                    <div class="sample-title">${sample.name?.en || 'Untitled'}</div>
+                    <div class="sample-description">${sample.description?.en || 'No description'}</div>
+                    <div class="sample-meta">
+                        <span class="badge ${categoryBadgeClass}">${sample.category}</span>
+                        <span class="badge ${difficultyBadgeClass}">${sample.difficulty}</span>
+                        <span class="badge badge-blue">${sample.age_range?.en || '5-7 years'}</span>
+                    </div>
+                    <div style="display: flex; gap: 5px;">
+                        <button class="btn btn-small btn-primary" onclick="editSample(${index})">Edit</button>
+                        <button class="btn btn-small btn-danger" onclick="deleteSample(${index})">Delete</button>
+                    </div>
+                </div>
+            `;
+            return card;
+        }
+
+        // Sample management functions
+        let currentEditingSample = null;
+        let uploadedImages = { logo: null, sample: null };
+
+        function editSample(index) {
+            currentEditingSample = { ...homepageContent.samples[index], index };
+
+            // Create and show the sample edit modal
+            showSampleEditModal(currentEditingSample);
+        }
+
+        function showSampleEditModal(sample) {
+            // Create modal if it doesn't exist
+            let modal = document.getElementById('sample-edit-modal');
+            if (!modal) {
+                modal = document.createElement('div');
+                modal.id = 'sample-edit-modal';
+                modal.className = 'modal';
+                modal.innerHTML = `
+                    <div class="modal-content" style="max-width: 1000px;">
+                        <div class="modal-header">
+                            <h3>Edit Worksheet Sample</h3>
+                            <button class="modal-close" onclick="closeSampleEditModal()">&times;</button>
+                        </div>
+                        <div class="modal-body" id="sample-modal-body">
+                            <!-- Content will be inserted here -->
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-secondary" onclick="closeSampleEditModal()">Cancel</button>
+                            <button class="btn btn-success" onclick="saveSampleEdit()">Save Sample</button>
+                        </div>
+                    </div>
+                `;
+                document.body.appendChild(modal);
+            }
+
+            // Populate modal content
+            const modalBody = document.getElementById('sample-modal-body');
+            modalBody.innerHTML = `
+                <div class="form-group">
+                    <label>Category</label>
+                    <select id="edit-sample-category">
+                        <option value="math" ${sample.category === 'math' ? 'selected' : ''}>Math</option>
+                        <option value="literacy" ${sample.category === 'literacy' ? 'selected' : ''}>Literacy</option>
+                        <option value="puzzle" ${sample.category === 'puzzle' ? 'selected' : ''}>Puzzle</option>
+                        <option value="logic" ${sample.category === 'logic' ? 'selected' : ''}>Logic</option>
+                        <option value="creative" ${sample.category === 'creative' ? 'selected' : ''}>Creative</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Difficulty</label>
+                    <select id="edit-sample-difficulty">
+                        <option value="easy" ${sample.difficulty === 'easy' ? 'selected' : ''}>Easy</option>
+                        <option value="medium" ${sample.difficulty === 'medium' ? 'selected' : ''}>Medium</option>
+                        <option value="hard" ${sample.difficulty === 'hard' ? 'selected' : ''}>Hard</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Featured</label>
+                    <input type="checkbox" id="edit-sample-featured" ${sample.featured ? 'checked' : ''}>
+                </div>
+                <div class="form-group">
+                    <label>Image URL</label>
+                    <input type="text" id="edit-sample-image" value="${sample.image_url || ''}" placeholder="/worksheet-samples/example.png">
+                </div>
+
+                <h4>Name (All Languages)</h4>
+                <div class="grid-3">
+                    ${languages.map(lang => `
+                        <div class="form-group">
+                            <label>${languageNames[lang]}</label>
+                            <input type="text" id="edit-sample-name-${lang}"
+                                   value="${sample.name?.[lang] || ''}"
+                                   placeholder="Sample name in ${languageNames[lang]}">
+                        </div>
+                    `).join('')}
+                </div>
+
+                <h4>Description (All Languages)</h4>
+                <div class="grid-2">
+                    ${languages.map(lang => `
+                        <div class="form-group">
+                            <label>${languageNames[lang]}</label>
+                            <textarea id="edit-sample-desc-${lang}" rows="3"
+                                      placeholder="Description in ${languageNames[lang]}">${sample.description?.[lang] || ''}</textarea>
+                        </div>
+                    `).join('')}
+                </div>
+
+                <h4>Age Range (All Languages)</h4>
+                <div class="grid-3">
+                    ${languages.map(lang => `
+                        <div class="form-group">
+                            <label>${languageNames[lang]}</label>
+                            <input type="text" id="edit-sample-age-${lang}"
+                                   value="${sample.age_range?.[lang] || sample.age_range || ''}"
+                                   placeholder="e.g., 5-7 years">
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+
+            modal.classList.add('active');
+        }
+
+        function closeSampleEditModal() {
+            const modal = document.getElementById('sample-edit-modal');
+            if (modal) {
+                modal.classList.remove('active');
+                currentEditingSample = null;
+            }
+        }
+
+        function saveSampleEdit() {
+            if (!currentEditingSample) return;
+
+            const index = currentEditingSample.index;
+            const updatedSample = {
+                category: document.getElementById('edit-sample-category').value,
+                difficulty: document.getElementById('edit-sample-difficulty').value,
+                featured: document.getElementById('edit-sample-featured').checked,
+                image_url: document.getElementById('edit-sample-image').value,
+                name: {},
+                description: {},
+                age_range: {}
+            };
+
+            // Collect all language data
+            languages.forEach(lang => {
+                updatedSample.name[lang] = document.getElementById(`edit-sample-name-${lang}`).value;
+                updatedSample.description[lang] = document.getElementById(`edit-sample-desc-${lang}`).value;
+                updatedSample.age_range[lang] = document.getElementById(`edit-sample-age-${lang}`).value;
+            });
+
+            // Update the sample in the main content
+            homepageContent.samples[index] = updatedSample;
+
+            // Re-render the samples section
+            renderSamplesSection();
+            closeSampleEditModal();
+            showMessage('Sample updated successfully', 'success');
+        }
+
+        function deleteSample(index) {
+            if (confirm('Are you sure you want to delete this sample?')) {
+                homepageContent.samples.splice(index, 1);
+                renderSamplesSection();
+                showMessage('Sample deleted', 'success');
+            }
+        }
+
+        // Helper functions
+        function removeLogo() {
+            const logoPreview = document.getElementById('logo-preview');
+            if (logoPreview) logoPreview.innerHTML = '';
+            uploadedImages.logo = null;
+            if (homepageContent.navigation?.logo) {
+                homepageContent.navigation.logo.image = '';
+            }
+        }
+
+        function handleLogoUpload(event) {
+            const file = event.target.files[0];
+            if (!file) return;
+
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const logoPreview = document.getElementById('logo-preview');
+                if (logoPreview) {
+                    logoPreview.innerHTML = `
+                        <div class="image-preview-container">
+                            <img src="${e.target.result}" alt="Logo" class="image-preview">
+                            <button class="image-remove" onclick="removeLogo()">&times;</button>
+                        </div>
+                    `;
+                    uploadedImages.logo = e.target.result;
+                }
+            };
+            reader.readAsDataURL(file);
+        }
+
+        function switchLanguage(section, lang) {
+            // Update tab active state
+            const tabContainer = event.target.parentElement;
+            tabContainer.querySelectorAll('.lang-tab').forEach(tab => tab.classList.remove('active'));
+            event.target.classList.add('active');
+
+            // Show corresponding content
+            document.querySelectorAll(`[id^="${section}-content-"]`).forEach(content => {
+                content.classList.remove('active');
+            });
+            const targetContent = document.getElementById(`${section}-content-${lang}`);
+            if (targetContent) targetContent.classList.add('active');
+        }
+
+        function addFeature() {
+            const newFeature = {
+                icon: 'apps',
+                title: { en: 'New Feature' },
+                description: { en: 'Feature description' },
+                color_scheme: 'primary',
+                sort_order: homepageContent.features.length + 1
+            };
+            homepageContent.features.push(newFeature);
+            renderFeaturesSection();
+            editFeature(homepageContent.features.length - 1);
+        }
+
+        function openSampleModal() {
+            alert('Sample modal coming soon - for now, samples can be edited inline');
+        }
+
+        function showMessage(text, type = 'info') {
+            const existingMessage = document.querySelector('.message');
+            if (existingMessage) existingMessage.remove();
+
+            const message = document.createElement('div');
+            message.className = `message ${type}`;
+            message.textContent = text;
+            document.body.appendChild(message);
+
+            setTimeout(() => message.classList.add('show'), 10);
+            setTimeout(() => {
+                message.classList.remove('show');
+                setTimeout(() => message.remove(), 300);
+            }, 3000);
+        }
+
+        function showLoading(show) {
+            let overlay = document.getElementById('loadingOverlay');
+            if (!overlay) {
+                overlay = document.createElement('div');
+                overlay.id = 'loadingOverlay';
+                overlay.innerHTML = '<div class="spinner"></div>';
+                document.body.appendChild(overlay);
+            }
+            overlay.classList.toggle('show', show);
+        }
+
+        // Collect all form data before saving
+        function collectAllFormData() {
+            // Collect Navigation data
+            if (!homepageContent.navigation) homepageContent.navigation = { logo: {}, menuItems: {}, buttons: {} };
+            homepageContent.navigation.logo.text = document.getElementById('nav-logo-text')?.value || '';
+            if (uploadedImages.logo) {
+                homepageContent.navigation.logo.image = uploadedImages.logo;
+            }
+
+            // Collect menu items
+            const menuItems = {};
+            document.querySelectorAll('[id^="menu-"]').forEach(input => {
+                const match = input.id.match(/menu-(.+)-(.+)/);
+                if (match) {
+                    const [, key, lang] = match;
+                    if (!menuItems[key]) menuItems[key] = {};
+                    menuItems[key][lang] = input.value;
+                }
+            });
+            if (Object.keys(menuItems).length > 0) {
+                homepageContent.navigation.menuItems = menuItems;
+            }
+
+            // Collect buttons
+            const buttons = {};
+            document.querySelectorAll('[id^="button-"]').forEach(input => {
+                const match = input.id.match(/button-(.+)-(.+)/);
+                if (match) {
+                    const [, key, lang] = match;
+                    if (!buttons[key]) buttons[key] = {};
+                    buttons[key][lang] = input.value;
+                }
+            });
+            if (Object.keys(buttons).length > 0) {
+                homepageContent.navigation.buttons = buttons;
+            }
+
+            // Collect Hero section
+            if (!homepageContent.hero) homepageContent.hero = {};
+            languages.forEach(lang => {
+                const titleEl = document.getElementById(`hero-title-${lang}`);
+                const subtitleEl = document.getElementById(`hero-subtitle-${lang}`);
+                const primaryEl = document.getElementById(`hero-cta-primary-${lang}`);
+                const secondaryEl = document.getElementById(`hero-cta-secondary-${lang}`);
+
+                if (!homepageContent.hero.title) homepageContent.hero.title = {};
+                if (!homepageContent.hero.subtitle) homepageContent.hero.subtitle = {};
+                if (!homepageContent.hero.cta_primary_text) homepageContent.hero.cta_primary_text = {};
+                if (!homepageContent.hero.cta_secondary_text) homepageContent.hero.cta_secondary_text = {};
+
+                if (titleEl) homepageContent.hero.title[lang] = titleEl.value;
+                if (subtitleEl) homepageContent.hero.subtitle[lang] = subtitleEl.value;
+                if (primaryEl) homepageContent.hero.cta_primary_text[lang] = primaryEl.value;
+                if (secondaryEl) homepageContent.hero.cta_secondary_text[lang] = secondaryEl.value;
+            });
+
+            // Collect Features section headers
+            if (!homepageContent.featuresSection) homepageContent.featuresSection = {};
+            languages.forEach(lang => {
+                const titleEl = document.getElementById(`features-title-${lang}`);
+                const subtitleEl = document.getElementById(`features-subtitle-${lang}`);
+
+                if (!homepageContent.featuresSection.title) homepageContent.featuresSection.title = {};
+                if (!homepageContent.featuresSection.subtitle) homepageContent.featuresSection.subtitle = {};
+
+                if (titleEl) homepageContent.featuresSection.title[lang] = titleEl.value;
+                if (subtitleEl) homepageContent.featuresSection.subtitle[lang] = subtitleEl.value;
+            });
+
+            // Collect Samples section
+            if (!homepageContent.samplesSection) homepageContent.samplesSection = { categories: {}, difficulties: {}, modalLabels: {} };
+            languages.forEach(lang => {
+                const titleEl = document.getElementById(`samples-title-${lang}`);
+                const subtitleEl = document.getElementById(`samples-subtitle-${lang}`);
+                const ctaEl = document.getElementById(`samples-cta-${lang}`);
+
+                if (!homepageContent.samplesSection.title) homepageContent.samplesSection.title = {};
+                if (!homepageContent.samplesSection.subtitle) homepageContent.samplesSection.subtitle = {};
+                if (!homepageContent.samplesSection.cta) homepageContent.samplesSection.cta = {};
+
+                if (titleEl) homepageContent.samplesSection.title[lang] = titleEl.value;
+                if (subtitleEl) homepageContent.samplesSection.subtitle[lang] = subtitleEl.value;
+                if (ctaEl) homepageContent.samplesSection.cta[lang] = ctaEl.value;
+
+                // Collect categories
+                ['math', 'literacy', 'puzzle', 'logic', 'creative'].forEach(cat => {
+                    const catEl = document.getElementById(`category-${cat}-${lang}`);
+                    if (catEl) {
+                        if (!homepageContent.samplesSection.categories[cat]) homepageContent.samplesSection.categories[cat] = {};
+                        homepageContent.samplesSection.categories[cat][lang] = catEl.value;
+                    }
+                });
+
+                // Collect difficulties
+                ['easy', 'medium', 'hard'].forEach(diff => {
+                    const diffEl = document.getElementById(`difficulty-${diff}-${lang}`);
+                    if (diffEl) {
+                        if (!homepageContent.samplesSection.difficulties[diff]) homepageContent.samplesSection.difficulties[diff] = {};
+                        homepageContent.samplesSection.difficulties[diff][lang] = diffEl.value;
+                    }
+                });
+            });
+
+            // Collect Pricing section headers
+            if (!homepageContent.pricingSection) homepageContent.pricingSection = { periods: {} };
+            languages.forEach(lang => {
+                const titleEl = document.getElementById(`pricing-title-${lang}`);
+                if (titleEl) {
+                    if (!homepageContent.pricingSection.title) homepageContent.pricingSection.title = {};
+                    homepageContent.pricingSection.title[lang] = titleEl.value;
+                }
+            });
+
+            // Collect Footer data
+            if (!homepageContent.footer) homepageContent.footer = {};
+            languages.forEach(lang => {
+                const companyEl = document.getElementById(`footer-company-${lang}`);
+                const taglineEl = document.getElementById(`footer-tagline-${lang}`);
+                const copyrightEl = document.getElementById(`footer-copyright-${lang}`);
+
+                if (!homepageContent.footer.companyName) homepageContent.footer.companyName = {};
+                if (!homepageContent.footer.companyTagline) homepageContent.footer.companyTagline = {};
+                if (!homepageContent.footer.copyright) homepageContent.footer.copyright = {};
+
+                if (companyEl) homepageContent.footer.companyName[lang] = companyEl.value;
+                if (taglineEl) homepageContent.footer.companyTagline[lang] = taglineEl.value;
+                if (copyrightEl) homepageContent.footer.copyright[lang] = copyrightEl.value;
+            });
+
+            // Collect Common UI translations
+            if (!homepageContent.commonUI) homepageContent.commonUI = {};
+            const uiFields = [
+                { key: 'loading', id: 'loading' },
+                { key: 'error', id: 'error' },
+                { key: 'success', id: 'success' },
+                { key: 'noResults', id: 'no-results' },
+                { key: 'viewMore', id: 'view-more' },
+                { key: 'viewLess', id: 'view-less' },
+                { key: 'search', id: 'search' },
+                { key: 'filter', id: 'filter' }
+            ];
+
+            languages.forEach(lang => {
+                uiFields.forEach(field => {
+                    const el = document.getElementById(`ui-${field.id}-${lang}`);
+                    if (el) {
+                        if (!homepageContent.commonUI[field.key]) homepageContent.commonUI[field.key] = {};
+                        homepageContent.commonUI[field.key][lang] = el.value;
+                    }
+                });
+            });
+
+            // Collect SEO data
+            if (!homepageContent.seo) homepageContent.seo = {};
+            languages.forEach(lang => {
+                const titleEl = document.getElementById(`seo-title-${lang}`);
+                const descEl = document.getElementById(`seo-description-${lang}`);
+                const keywordsEl = document.getElementById(`seo-keywords-${lang}`);
+
+                if (!homepageContent.seo.title) homepageContent.seo.title = {};
+                if (!homepageContent.seo.description) homepageContent.seo.description = {};
+                if (!homepageContent.seo.keywords) homepageContent.seo.keywords = {};
+
+                if (titleEl) homepageContent.seo.title[lang] = titleEl.value;
+                if (descEl) homepageContent.seo.description[lang] = descEl.value;
+                if (keywordsEl) homepageContent.seo.keywords[lang] = keywordsEl.value;
+            });
+
+            return homepageContent;
+        }
+
+        // Save functionality
+        async function saveAllContent() {
+            showLoading(true);
+            try {
+                // CRITICAL: Collect all form data before saving!
+                const updatedContent = collectAllFormData();
+                console.log('Saving content:', updatedContent);
+
+                const response = await fetch('/api/homepage/content', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        section: 'all',
+                        content: updatedContent
+                    })
+                });
+
+                if (response.ok) {
+                    showMessage('All changes saved successfully!', 'success');
+                } else {
+                    const error = await response.text();
+                    console.error('Save failed:', error);
+                    showMessage('Failed to save changes', 'error');
+                }
+            } catch (error) {
+                console.error('Save error:', error);
+                showMessage('Error saving changes', 'error');
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        // Utility functions
+        function switchTab(tabName) {
+            document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.content-section').forEach(section => section.classList.remove('active'));
+
+            event.target.classList.add('active');
+            document.getElementById(`${tabName}-section`).classList.add('active');
+        }
+
+        function showMessage(text, type) {
+            const container = document.getElementById('message-container');
+            container.innerHTML = `<div class="message ${type}">${text}</div>`;
+            setTimeout(() => container.innerHTML = '', 3000);
+        }
+
+        function showLoading(show) {
+            // Implementation for loading state
+        }
+    </script>
+</body>
+</html>

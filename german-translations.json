@@ -1,0 +1,117 @@
+{
+  "hero": {
+    "title": {
+      "de": "Erstellen Sie professionelle Arbeitsblätter in Minuten"
+    },
+    "subtitle": {
+      "de": "33 leistungsstarke Arbeitsblatt-Generatoren mit über 100 thematischen Bildern"
+    },
+    "cta_primary_text": {
+      "de": "Wortsuche kostenlos testen"
+    },
+    "cta_secondary_text": {
+      "de": "Alle Apps anzeigen"
+    }
+  },
+  "features": [
+    {
+      "title": {
+        "de": "33 Arbeitsblatt-Apps"
+      },
+      "description": {
+        "de": "Von Mathematik und Lesen bis zu Rätseln und Spielen"
+      }
+    },
+    {
+      "title": {
+        "de": "100+ Bildthemen"
+      },
+      "description": {
+        "de": "Kinderfreundliche Illustrationen mit kommerzieller Lizenz"
+      }
+    },
+    {
+      "title": {
+        "de": "11 Sprachen"
+      },
+      "description": {
+        "de": "Erstellen Sie Arbeitsblätter in mehreren Sprachen"
+      }
+    },
+    {
+      "title": {
+        "de": "POD-Lizenz inklusive"
+      },
+      "description": {
+        "de": "Verkaufen Sie Ihre Arbeitsblätter auf jeder Plattform"
+      }
+    }
+  ],
+  "pricing": [
+    {
+      "name": {
+        "de": "Kostenlos"
+      },
+      "features": {
+        "de": [
+          "Wortsuche-Generator",
+          "Begrenzte Bildbibliothek",
+          "Mit Wasserzeichen versehene Ausgabe",
+          "Basis-Support"
+        ]
+      },
+      "cta_text": {
+        "de": "Kostenlos starten"
+      }
+    },
+    {
+      "name": {
+        "de": "Basis-Paket"
+      },
+      "features": {
+        "de": [
+          "10 beliebteste Apps",
+          "Voller Zugriff auf die Bildbibliothek",
+          "Keine Wasserzeichen",
+          "POD-Kommerzielle Lizenz",
+          "Prioritäts-Support"
+        ]
+      },
+      "cta_text": {
+        "de": "Basis-Paket starten"
+      }
+    },
+    {
+      "name": {
+        "de": "Vollzugriff"
+      },
+      "features": {
+        "de": [
+          "Alle 33 Apps",
+          "Voller Zugriff auf die Bildbibliothek",
+          "Keine Wasserzeichen",
+          "POD-Kommerzielle Lizenz",
+          "Prioritäts-Support",
+          "Frühzeitiger Zugang zu neuen Apps"
+        ]
+      },
+      "cta_text": {
+        "de": "Vollzugriff starten"
+      },
+      "badge_text": {
+        "de": "Am beliebtesten"
+      }
+    }
+  ],
+  "seo": {
+    "title": {
+      "de": "LessonCraftStudio - Professioneller Arbeitsblatt-Generator"
+    },
+    "description": {
+      "de": "33 leistungsstarke Arbeitsblatt-Generatoren mit über 100 thematischen Bildern für Teachers Pay Teachers-Verkäufer und Bildungsverlage"
+    },
+    "keywords": {
+      "de": "Arbeitsblatt-Generator, Teachers Pay Teachers, Bildungsressourcen, druckbare Arbeitsblätter, POD-Lizenz, Lehrmaterial, Unterrichtsmaterial"
+    }
+  }
+}

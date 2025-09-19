@@ -39,6 +39,22 @@
         }
       }
     },
+    "samples": {
+      "title": "Discover Our Creative Worksheets",
+      "subtitle": "Explore our collection of beautifully designed educational worksheets",
+      "viewAll": "Explore All 33 Worksheet Generators",
+      "featured": "Featured",
+      "viewSample": "View Sample",
+      "tryGenerator": "Try This Worksheet Generator",
+      "close": "Close",
+      "categories": {
+        "all": "All Worksheets",
+        "math": "Mathematics",
+        "literacy": "Literacy",
+        "puzzle": "Puzzles",
+        "logic": "Logic"
+      }
+    },
     "pricing": {
       "title": "Simple, Transparent Pricing",
       "monthly": "Monthly",

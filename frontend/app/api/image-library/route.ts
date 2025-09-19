@@ -9,7 +9,11 @@ export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const theme = searchParams.get('theme');
   const locale = searchParams.get('locale') || 'en';
-  
+
+  if (!theme) {
+    return NextResponse.json({ error: 'Theme parameter is required' }, { status: 400 });
+  }
+
   try {
     // Try to fetch theme data from Strapi, but don't fail if not found
     let themeTranslations = {};

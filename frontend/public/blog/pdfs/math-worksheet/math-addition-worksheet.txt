@@ -1,0 +1,14 @@
+﻿This is a sample Math Worksheet PDF
+=====================================
+
+1. Addition Problems:
+   2 + 3 = ___
+   5 + 7 = ___
+   8 + 4 = ___
+
+2. Subtraction Problems:
+   10 - 3 = ___
+   15 - 7 = ___
+   20 - 8 = ___
+
+Practice makes perfect\!

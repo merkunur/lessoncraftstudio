@@ -190,7 +190,7 @@ export default function WebComponentWrapper({
                   'prepositions': 'prepositions.html'
                 };
                 
-                htmlFilename = appFileMap[appId] || appId + '.html';
+                htmlFilename = (appId && appFileMap[appId]) || (appId ? appId + '.html' : 'unknown.html');
               }
               
               // Create iframe for the legacy app

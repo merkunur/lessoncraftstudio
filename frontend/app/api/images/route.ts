@@ -43,7 +43,7 @@ export async function GET(request: Request) {
       const queryParams: any = {
         'fields': '*,image_file.*,theme_id.*',
         'filter[status][_eq]': 'active',
-        'filter[theme_id][folder_name][_neq]': 'alphabetsvg', // Exclude alphabetsvg - it's only for writing app
+        'filter[theme_id][folder_name][_nin]': 'alphabetsvg,prepositions,symbols,drawing lines,train_templates,worksheet_templates', // Exclude app-specific themes
         'limit': limit.toString(),
         'page': page.toString(),
         'sort': 'theme_id,file_name'

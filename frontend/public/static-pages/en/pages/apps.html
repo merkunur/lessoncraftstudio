@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worksheet Generator Apps - LessonCraftStudio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);
+        }
+
+        /* Navigation */
+        nav {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 1rem 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: white;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: opacity 0.3s;
+        }
+
+        .nav-links a:hover {
+            opacity: 0.8;
+        }
+
+        /* Language Selector */
+        .language-selector {
+            position: relative;
+        }
+
+        .language-btn {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.3s;
+        }
+
+        .language-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .language-dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background: white;
+            border-radius: 6px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            margin-top: 0.5rem;
+            overflow: hidden;
+            min-width: 150px;
+        }
+
+        .language-dropdown.show {
+            display: block;
+        }
+
+        .language-dropdown a {
+            display: block;
+            padding: 0.5rem 1rem;
+            color: #333;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .language-dropdown a:hover {
+            background: #f8f9fa;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 4rem 0;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            opacity: 0.95;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Filter Section */
+        .filter-section {
+            background: white;
+            padding: 2rem 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 70px;
+            z-index: 50;
+        }
+
+        .filter-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .filter-group {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .filter-group label {
+            font-weight: 600;
+            color: #666;
+        }
+
+        .filter-group select {
+            padding: 0.5rem 1rem;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            background: white;
+            cursor: pointer;
+            min-width: 150px;
+        }
+
+        .search-box {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .search-box input {
+            width: 100%;
+            padding: 0.5rem 1rem;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+
+        /* Apps Grid */
+        .apps-container {
+            max-width: 1200px;
+            margin: 3rem auto;
+            padding: 0 20px;
+        }
+
+        .category-section {
+            margin-bottom: 3rem;
+        }
+
+        .category-title {
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .apps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .app-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .app-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .app-icon {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 2rem;
+            text-align: center;
+            font-size: 3rem;
+        }
+
+        .app-content {
+            padding: 1.5rem;
+        }
+
+        .app-title {
+            font-size: 1.25rem;
+            color: #333;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .app-description {
+            color: #666;
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+        }
+
+        .app-meta {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.85rem;
+            color: #999;
+        }
+
+        .difficulty-badge {
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .difficulty-easy {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .difficulty-medium {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .difficulty-hard {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .age-badge {
+            background: #e7f3ff;
+            color: #004085;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .app-link {
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        /* Footer */
+        footer {
+            background: #2d3748;
+            color: white;
+            padding: 3rem 0;
+            margin-top: 5rem;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-top: 1rem;
+        }
+
+        .footer-links a {
+            color: #a0aec0;
+            text-decoration: none;
+        }
+
+        .footer-links a:hover {
+            color: white;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .filter-container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .filter-group {
+                width: 100%;
+            }
+
+            .filter-group select {
+                width: 100%;
+            }
+
+            .search-box {
+                width: 100%;
+            }
+
+            .apps-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-content">
+            <a href="/static/en/homepage" class="logo">
+                ✏️ LessonCraftStudio
+            </a>
+            <div class="nav-links">
+                <a href="/static/en/homepage">Home</a>
+                <a href="/static/en/apps">Apps</a>
+                <a href="/static/en/pricing">Pricing</a>
+                <a href="/static/en/about">About</a>
+                <a href="/static/en/contact">Contact</a>
+                <div class="language-selector">
+                    <div class="language-btn" onclick="toggleLanguageDropdown()">
+                        🇬🇧 English
+                    </div>
+                    <div class="language-dropdown" id="language-dropdown">
+                        <a href="/static/en/apps">🇬🇧 English</a>
+                        <a href="/static/de/apps">🇩🇪 Deutsch</a>
+                        <a href="/static/fr/apps">🇫🇷 Français</a>
+                        <a href="/static/es/apps">🇪🇸 Español</a>
+                        <a href="/static/it/apps">🇮🇹 Italiano</a>
+                        <a href="/static/pt/apps">🇵🇹 Português</a>
+                        <a href="/static/nl/apps">🇳🇱 Nederlands</a>
+                        <a href="/static/sv/apps">🇸🇪 Svenska</a>
+                        <a href="/static/da/apps">🇩🇰 Dansk</a>
+                        <a href="/static/no/apps">🇳🇴 Norsk</a>
+                        <a href="/static/fi/apps">🇫🇮 Suomi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>33 Professional Worksheet Generators</h1>
+        <p>Create engaging educational materials with our comprehensive suite of worksheet generators. Perfect for teachers, parents, and publishers.</p>
+    </div>
+
+    <!-- Filter Section -->
+    <div class="filter-section">
+        <div class="filter-container">
+            <div class="filter-group">
+                <label>Category:</label>
+                <select id="category-filter">
+                    <option value="all">All Categories</option>
+                    <option value="literacy">Literacy</option>
+                    <option value="math">Mathematics</option>
+                    <option value="puzzles">Puzzles</option>
+                    <option value="creative">Creative</option>
+                    <option value="visual">Visual Learning</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Age:</label>
+                <select id="age-filter">
+                    <option value="all">All Ages</option>
+                    <option value="3-5">3-5 years</option>
+                    <option value="6-8">6-8 years</option>
+                    <option value="9-12">9-12 years</option>
+                    <option value="13+">13+ years</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Difficulty:</label>
+                <select id="difficulty-filter">
+                    <option value="all">All Levels</option>
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search apps...">
+            </div>
+        </div>
+    </div>
+
+    <!-- Apps Container -->
+    <div class="apps-container">
+        <!-- Literacy Apps -->
+        <div class="category-section" data-category="literacy">
+            <h2 class="category-title">📚 Literacy & Language</h2>
+            <div class="apps-grid">
+                <a href="/worksheet-generators/wordsearch.html" class="app-link">
+                    <div class="app-card" data-age="6-8,9-12,13+" data-difficulty="medium">
+                        <div class="app-icon">🔤</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Word Search</h3>
+                            <p class="app-description">Create custom word search puzzles with themed vocabulary lists</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-medium">Medium</span>
+                                <span class="age-badge">6+ years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/crossword.html" class="app-link">
+                    <div class="app-card" data-age="9-12,13+" data-difficulty="hard">
+                        <div class="app-icon">📝</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Crossword</h3>
+                            <p class="app-description">Generate crossword puzzles with custom clues and answers</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-hard">Hard</span>
+                                <span class="age-badge">9+ years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/word%20scramble.html" class="app-link">
+                    <div class="app-card" data-age="6-8,9-12" data-difficulty="easy">
+                        <div class="app-icon">🔀</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Word Scramble</h3>
+                            <p class="app-description">Scramble words for students to unscramble</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-easy">Easy</span>
+                                <span class="age-badge">6+ years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/alphabet%20train.html" class="app-link">
+                    <div class="app-card" data-age="3-5,6-8" data-difficulty="easy">
+                        <div class="app-icon">🚂</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Alphabet Train</h3>
+                            <p class="app-description">Fun alphabet learning with train-themed activities</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-easy">Easy</span>
+                                <span class="age-badge">3-8 years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/writing.html" class="app-link">
+                    <div class="app-card" data-age="3-5,6-8" data-difficulty="easy">
+                        <div class="app-icon">✍️</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Writing Practice</h3>
+                            <p class="app-description">Letter and word tracing worksheets</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-easy">Easy</span>
+                                <span class="age-badge">3-8 years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/word%20guess.html" class="app-link">
+                    <div class="app-card" data-age="6-8,9-12" data-difficulty="medium">
+                        <div class="app-icon">❓</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Word Guess</h3>
+                            <p class="app-description">Guess the word games with hints and clues</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-medium">Medium</span>
+                                <span class="age-badge">6+ years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/cryptogram.html" class="app-link">
+                    <div class="app-card" data-age="9-12,13+" data-difficulty="hard">
+                        <div class="app-icon">🔐</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Cryptogram</h3>
+                            <p class="app-description">Decode secret messages with letter substitution</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-hard">Hard</span>
+                                <span class="age-badge">9+ years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/prepositions.html" class="app-link">
+                    <div class="app-card" data-age="6-8,9-12" data-difficulty="easy">
+                        <div class="app-icon">📍</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Prepositions</h3>
+                            <p class="app-description">Learn prepositions with visual exercises</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-easy">Easy</span>
+                                <span class="age-badge">6+ years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Mathematics Apps -->
+        <div class="category-section" data-category="math">
+            <h2 class="category-title">🔢 Mathematics</h2>
+            <div class="apps-grid">
+                <a href="/worksheet-generators/addition.html" class="app-link">
+                    <div class="app-card" data-age="3-5,6-8" data-difficulty="easy">
+                        <div class="app-icon">➕</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Addition</h3>
+                            <p class="app-description">Practice addition with visual aids and problems</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-easy">Easy</span>
+                                <span class="age-badge">3-8 years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/subtraction.html" class="app-link">
+                    <div class="app-card" data-age="6-8,9-12" data-difficulty="easy">
+                        <div class="app-icon">➖</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Subtraction</h3>
+                            <p class="app-description">Master subtraction with engaging problems</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-easy">Easy</span>
+                                <span class="age-badge">6+ years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/math%20worksheet.html" class="app-link">
+                    <div class="app-card" data-age="6-8,9-12,13+" data-difficulty="medium">
+                        <div class="app-icon">📐</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Math Worksheet</h3>
+                            <p class="app-description">Comprehensive math problem generator</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-medium">Medium</span>
+                                <span class="age-badge">6+ years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/math%20puzzle.html" class="app-link">
+                    <div class="app-card" data-age="9-12,13+" data-difficulty="hard">
+                        <div class="app-icon">🧩</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Math Puzzle</h3>
+                            <p class="app-description">Challenge students with math-based puzzles</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-hard">Hard</span>
+                                <span class="age-badge">9+ years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/code%20addition.html" class="app-link">
+                    <div class="app-card" data-age="6-8,9-12" data-difficulty="medium">
+                        <div class="app-icon">🔢</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Code Addition</h3>
+                            <p class="app-description">Solve addition problems to crack codes</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-medium">Medium</span>
+                                <span class="age-badge">6+ years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/chart%20count.html" class="app-link">
+                    <div class="app-card" data-age="3-5,6-8" data-difficulty="easy">
+                        <div class="app-icon">📊</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Chart Count</h3>
+                            <p class="app-description">Count objects and create simple charts</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-easy">Easy</span>
+                                <span class="age-badge">3-8 years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Puzzles & Games -->
+        <div class="category-section" data-category="puzzles">
+            <h2 class="category-title">🎮 Puzzles & Games</h2>
+            <div class="apps-grid">
+                <a href="/worksheet-generators/sudoku.html" class="app-link">
+                    <div class="app-card" data-age="9-12,13+" data-difficulty="hard">
+                        <div class="app-icon">🔢</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Sudoku</h3>
+                            <p class="app-description">Generate Sudoku puzzles of varying difficulty</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-hard">Hard</span>
+                                <span class="age-badge">9+ years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/bingo.html" class="app-link">
+                    <div class="app-card" data-age="3-5,6-8,9-12" data-difficulty="easy">
+                        <div class="app-icon">🎯</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Bingo</h3>
+                            <p class="app-description">Create custom bingo cards for any topic</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-easy">Easy</span>
+                                <span class="age-badge">All ages</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/treasure%20hunt.html" class="app-link">
+                    <div class="app-card" data-age="6-8,9-12" data-difficulty="medium">
+                        <div class="app-icon">🗺️</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Treasure Hunt</h3>
+                            <p class="app-description">Create treasure map activities and adventures</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-medium">Medium</span>
+                                <span class="age-badge">6+ years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Creative & Art -->
+        <div class="category-section" data-category="creative">
+            <h2 class="category-title">🎨 Creative & Art</h2>
+            <div class="apps-grid">
+                <a href="/worksheet-generators/coloring.html" class="app-link">
+                    <div class="app-card" data-age="3-5,6-8" data-difficulty="easy">
+                        <div class="app-icon">🎨</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Coloring Pages</h3>
+                            <p class="app-description">Generate coloring pages with various themes</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-easy">Easy</span>
+                                <span class="age-badge">3-8 years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/draw%20and%20color.html" class="app-link">
+                    <div class="app-card" data-age="3-5,6-8" data-difficulty="easy">
+                        <div class="app-icon">✏️</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Draw and Color</h3>
+                            <p class="app-description">Drawing prompts with coloring activities</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-easy">Easy</span>
+                                <span class="age-badge">3-8 years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/drawing%20lines.html" class="app-link">
+                    <div class="app-card" data-age="3-5,6-8" data-difficulty="easy">
+                        <div class="app-icon">📏</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Drawing Lines</h3>
+                            <p class="app-description">Practice fine motor skills with line drawing</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-easy">Easy</span>
+                                <span class="age-badge">3-8 years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Visual Learning -->
+        <div class="category-section" data-category="visual">
+            <h2 class="category-title">👁️ Visual Learning</h2>
+            <div class="apps-grid">
+                <a href="/worksheet-generators/matching.html" class="app-link">
+                    <div class="app-card" data-age="3-5,6-8" data-difficulty="easy">
+                        <div class="app-icon">🔗</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Matching</h3>
+                            <p class="app-description">Match related items and concepts</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-easy">Easy</span>
+                                <span class="age-badge">3-8 years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/shadow%20match.html" class="app-link">
+                    <div class="app-card" data-age="3-5,6-8" data-difficulty="easy">
+                        <div class="app-icon">👥</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Shadow Match</h3>
+                            <p class="app-description">Match objects with their shadows</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-easy">Easy</span>
+                                <span class="age-badge">3-8 years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/picture%20sort.html" class="app-link">
+                    <div class="app-card" data-age="3-5,6-8" data-difficulty="easy">
+                        <div class="app-icon">🖼️</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Picture Sort</h3>
+                            <p class="app-description">Sort pictures by category or attribute</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-easy">Easy</span>
+                                <span class="age-badge">3-8 years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/picture%20path.html" class="app-link">
+                    <div class="app-card" data-age="3-5,6-8" data-difficulty="medium">
+                        <div class="app-icon">🛤️</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Picture Path</h3>
+                            <p class="app-description">Follow picture paths and sequences</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-medium">Medium</span>
+                                <span class="age-badge">3-8 years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/find%20objects.html" class="app-link">
+                    <div class="app-card" data-age="3-5,6-8" data-difficulty="easy">
+                        <div class="app-icon">🔍</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Find Objects</h3>
+                            <p class="app-description">Find hidden objects in pictures</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-easy">Easy</span>
+                                <span class="age-badge">3-8 years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/find%20and%20count.html" class="app-link">
+                    <div class="app-card" data-age="3-5,6-8" data-difficulty="easy">
+                        <div class="app-icon">🔢</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Find and Count</h3>
+                            <p class="app-description">Find and count specific objects</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-easy">Easy</span>
+                                <span class="age-badge">3-8 years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/odd%20one%20out.html" class="app-link">
+                    <div class="app-card" data-age="6-8,9-12" data-difficulty="medium">
+                        <div class="app-icon">❌</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Odd One Out</h3>
+                            <p class="app-description">Identify the item that doesn't belong</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-medium">Medium</span>
+                                <span class="age-badge">6+ years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/big%20small.html" class="app-link">
+                    <div class="app-card" data-age="3-5" data-difficulty="easy">
+                        <div class="app-icon">📐</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Big & Small</h3>
+                            <p class="app-description">Compare sizes and learn concepts</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-easy">Easy</span>
+                                <span class="age-badge">3-5 years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/more%20less.html" class="app-link">
+                    <div class="app-card" data-age="3-5,6-8" data-difficulty="easy">
+                        <div class="app-icon">⚖️</div>
+                        <div class="app-content">
+                            <h3 class="app-title">More or Less</h3>
+                            <p class="app-description">Compare quantities and numbers</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-easy">Easy</span>
+                                <span class="age-badge">3-8 years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="/worksheet-generators/grid%20match.html" class="app-link">
+                    <div class="app-card" data-age="6-8,9-12" data-difficulty="medium">
+                        <div class="app-icon">⚔️</div>
+                        <div class="app-content">
+                            <h3 class="app-title">Grid Match</h3>
+                            <p class="app-description">Match items on coordinate grids</p>
+                            <div class="app-meta">
+                                <span class="difficulty-badge difficulty-medium">Medium</span>
+                                <span class="age-badge">6+ years</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 LessonCraftStudio. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="/static/en/privacy">Privacy Policy</a>
+                <a href="/static/en/terms">Terms of Service</a>
+                <a href="/static/en/contact">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Language persistence
+        localStorage.setItem('selectedLanguage', 'en');
+
+        // Language dropdown toggle
+        function toggleLanguageDropdown() {
+            document.getElementById('language-dropdown').classList.toggle('show');
+        }
+
+        // Close dropdown when clicking outside
+        window.onclick = function(event) {
+            if (!event.target.matches('.language-btn')) {
+                const dropdowns = document.getElementsByClassName('language-dropdown');
+                for (let i = 0; i < dropdowns.length; i++) {
+                    dropdowns[i].classList.remove('show');
+                }
+            }
+        }
+
+        // Check for language preference on load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Check if user has a saved language preference
+            const savedLang = localStorage.getItem('selectedLanguage');
+            if (savedLang && savedLang !== 'en') {
+                // Redirect to the saved language version
+                const currentPath = window.location.pathname;
+                const newPath = currentPath.replace(/\/static\/[a-z]{2}\//, '/static/' + savedLang + '/');
+                if (newPath !== currentPath) {
+                    window.location.href = newPath;
+                }
+            }
+
+            // Filter functionality
+            const categoryFilter = document.getElementById('category-filter');
+            const ageFilter = document.getElementById('age-filter');
+            const difficultyFilter = document.getElementById('difficulty-filter');
+            const searchInput = document.getElementById('search-input');
+
+            function filterApps() {
+                const category = categoryFilter.value;
+                const age = ageFilter.value;
+                const difficulty = difficultyFilter.value;
+                const searchTerm = searchInput.value.toLowerCase();
+
+                // Show/hide category sections
+                const sections = document.querySelectorAll('.category-section');
+                sections.forEach(section => {
+                    const sectionCategory = section.dataset.category;
+                    const shouldShowSection = category === 'all' || sectionCategory === category;
+
+                    if (shouldShowSection) {
+                        section.style.display = 'block';
+
+                        // Filter cards within section
+                        const cards = section.querySelectorAll('.app-card');
+                        let visibleCards = 0;
+
+                        cards.forEach(card => {
+                            const cardAge = card.dataset.age ? card.dataset.age.split(',') : [];
+                            const cardDifficulty = card.dataset.difficulty;
+                            const title = card.querySelector('.app-title').textContent.toLowerCase();
+                            const description = card.querySelector('.app-description').textContent.toLowerCase();
+
+                            let showCard = true;
+
+                            // Age filter
+                            if (age !== 'all' && !cardAge.includes(age)) {
+                                showCard = false;
+                            }
+
+                            // Difficulty filter
+                            if (difficulty !== 'all' && cardDifficulty !== difficulty) {
+                                showCard = false;
+                            }
+
+                            // Search filter
+                            if (searchTerm && !title.includes(searchTerm) && !description.includes(searchTerm)) {
+                                showCard = false;
+                            }
+
+                            card.parentElement.style.display = showCard ? 'block' : 'none';
+                            if (showCard) visibleCards++;
+                        });
+
+                        // Hide section if no cards visible
+                        if (visibleCards === 0) {
+                            section.style.display = 'none';
+                        }
+                    } else {
+                        section.style.display = 'none';
+                    }
+                });
+            }
+
+            // Add event listeners
+            categoryFilter.addEventListener('change', filterApps);
+            ageFilter.addEventListener('change', filterApps);
+            difficultyFilter.addEventListener('change', filterApps);
+            searchInput.addEventListener('input', filterApps);
+        });
+    </script>
+</body>
+</html>

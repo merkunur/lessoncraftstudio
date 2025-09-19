@@ -166,7 +166,7 @@ class ImageLibraryManager {
       for (let i = 0; i < themes.length; i += BATCH_SIZE) {
         const batch = themes.slice(i, i + BATCH_SIZE);
         
-        await Promise.all(batch.map(async (theme) => {
+        await Promise.all(batch.map(async (theme: any) => {
           totalThemes++;
         const themePath = path.join(imagesDir, theme.folder_name);
         

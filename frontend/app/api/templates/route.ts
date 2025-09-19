@@ -27,8 +27,8 @@ export async function GET(request: NextRequest) {
     
     // If no specific app type, return empty array
     return NextResponse.json([]);
-    
-    // Legacy fallback code (keeping for reference)
+
+    /* Legacy fallback code (keeping for reference)
     if (templates.length === 0) {
       const templatePath = path.join(process.cwd(), 'public', 'images', 'template');
       
@@ -66,16 +66,17 @@ export async function GET(request: NextRequest) {
         return NextResponse.json(fileSystemTemplates);
       }
     }
-    
-    // Map Directus URLs to local paths
+
+    // Map Directus URLs to local paths (unreachable code - commented out)
     const mappedTemplates = templates.map(template => ({
       ...template,
-      path: template.url?.startsWith('/assets/') 
+      path: template.url?.startsWith('/assets/')
         ? `/images/template/${template.name}.png`
         : template.url
     }));
-    
+
     return NextResponse.json(mappedTemplates);
+    */
     
   } catch (error) {
     console.error('Error fetching templates:', error);

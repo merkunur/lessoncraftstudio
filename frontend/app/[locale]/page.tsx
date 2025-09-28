@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import WorksheetSamples from '@/components/WorksheetSamples';
+import { getTranslations } from 'next-intl/server';
 
 async function getHomepageContent(locale: string) {
   // For now, just return null to use default content
@@ -28,82 +29,83 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 
 export default async function HomePage({ params }: { params: { locale: string } }) {
   const locale = params.locale || 'en';
+  const t = await getTranslations({ locale, namespace: 'homepage' });
   const content = await getHomepageContent(locale);
 
-  // Use API content or fallback to defaults
-  const hero = content?.hero || {
-    title: 'Create Engaging Worksheets in Minutes',
-    subtitle: 'Professional worksheet generators for teachers and parents. Access 33 interactive apps with beautiful illustrations.',
+  // Use translations from messages files
+  const hero = {
+    title: t('hero.title'),
+    subtitle: t('hero.subtitle'),
     ctaButtons: {
-      tryFree: 'Try Free',
-      viewApps: 'View All Apps'
+      tryFree: t('hero.cta.tryFree'),
+      viewApps: t('hero.cta.viewApps')
     }
   };
 
-  const features = content?.features || {
-    title: 'Everything You Need',
+  const features = {
+    title: t('features.title'),
     items: [
       {
         icon: 'apps',
-        title: '33 Worksheet Apps',
-        description: 'From math puzzles to word searches'
+        title: t('features.items.apps.title'),
+        description: t('features.items.apps.description')
       },
       {
         icon: 'images',
-        title: '141+ Images',
-        description: 'Beautiful illustrations for every theme'
+        title: t('features.items.images.title'),
+        description: t('features.items.images.description')
       },
       {
         icon: 'languages',
-        title: '11 Languages',
-        description: 'Full multilingual support'
+        title: t('features.items.languages.title'),
+        description: t('features.items.languages.description')
       },
       {
         icon: 'pod',
-        title: 'POD License',
-        description: 'Sell on Amazon, Etsy, and more'
+        title: t('features.items.pod.title'),
+        description: t('features.items.pod.description')
       }
     ]
   };
 
-  const pricing = content?.pricing || {
-    title: 'Simple, Transparent Pricing',
+  const pricing = {
+    title: t('pricing.title'),
     free: {
-      name: 'Free Tier',
-      price: '$0',
+      name: t('pricing.free.name'),
+      price: t('pricing.free.price'),
       features: [
-        'Word Search Generator',
-        'Limited image library',
-        'Watermarked output',
-        'Basic support'
+        t('pricing.free.features.0'),
+        t('pricing.free.features.1'),
+        t('pricing.free.features.2'),
+        t('pricing.free.features.3')
       ],
-      cta: 'Start Free'
+      cta: t('pricing.free.cta')
     },
     core: {
-      name: 'Core Bundle',
-      price: '$14.99',
+      name: t('pricing.core.name'),
+      price: t('pricing.core.price'),
       features: [
-        '10 most popular apps',
-        'Full image library access',
-        'No watermarks',
-        'POD commercial license',
-        'Priority support'
+        t('pricing.core.features.0'),
+        t('pricing.core.features.1'),
+        t('pricing.core.features.2'),
+        t('pricing.core.features.3'),
+        t('pricing.core.features.4')
       ],
-      cta: 'Choose Core'
+      cta: t('pricing.core.cta')
     },
     full: {
-      name: 'Full Access',
-      price: '$29.99',
-      popular: 'Most Popular',
+      name: t('pricing.full.name'),
+      price: t('pricing.full.price'),
+      popular: t('pricing.full.popular'),
       features: [
-        'All 33 apps',
-        'Full image library access',
-        'No watermarks',
-        'POD commercial license',
-        'Priority support',
-        'Early access to new apps'
+        t('pricing.full.features.0'),
+        t('pricing.full.features.1'),
+        t('pricing.full.features.2'),
+        t('pricing.full.features.3'),
+        t('pricing.full.features.4'),
+        t('pricing.full.features.5')
       ],
-      cta: 'Get Full Access'
+      cta: t('pricing.full.cta')
     }
   };
 
@@ -147,14 +149,6 @@ export default async function HomePage({ params }: { params: { locale: string } 
       <section className="bg-gradient-to-b from-primary-50 to-white py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            {/* Logo with LessonCraftStudio text */}
-            <div className="mb-8 flex justify-center items-center">
-              <img
-                src="/logo-lcs.png"
-                alt="LessonCraftStudio"
-                className="h-24 w-auto object-contain"
-              />
-            </div>
             <h1 className="text-display mb-6 text-gray-900">
               {hero.title}
             </h1>

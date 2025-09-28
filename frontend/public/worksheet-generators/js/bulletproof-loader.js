@@ -166,11 +166,12 @@ class BulletproofLoader {
             return;
         }
 
-        // Clear and add None option
-        this.borderSelect.innerHTML = '<option value="none">None</option>';
+        // Clear and add None option with translation
+        const noneText = (typeof t !== 'undefined' ? t('none') : 'None');
+        this.borderSelect.innerHTML = `<option value="none">${noneText}</option>`;
 
         try {
-            // EXACT same API call as alphabet train
+            // Fetch without aggressive timeout - let the API complete
             const response = await fetch(`/api/borders/themes?locale=${this.state.locale}`);
 
             if (!response.ok) {
@@ -221,11 +222,12 @@ class BulletproofLoader {
             return;
         }
 
-        // Clear and add None option
-        this.backgroundSelect.innerHTML = '<option value="none">None</option>';
+        // Clear and add None option with translation
+        const noneText = (typeof t !== 'undefined' ? t('none') : 'None');
+        this.backgroundSelect.innerHTML = `<option value="none">${noneText}</option>`;
 
         try {
-            // EXACT same API call as alphabet train
+            // Fetch without aggressive timeout - let the API complete
             const response = await fetch(`/api/backgrounds/themes?locale=${this.state.locale}`);
 
             if (!response.ok) {
@@ -321,21 +323,25 @@ class BulletproofLoader {
     useFallback() {
         console.log('[BulletproofLoader] Using hardcoded fallback themes');
 
+        // Use locale-appropriate fallback
+        const isGerman = this.state.locale === 'de';
+
         const fallbackBorders = [
-            { value: 'spring', displayName: 'Spring' },
-            { value: 'math', displayName: 'Math' }
+            { value: 'spring', displayName: isGerman ? 'Frühling' : 'Spring' },
+            { value: 'math', displayName: isGerman ? 'Mathematik' : 'Math' }
         ];
 
         const fallbackBackgrounds = [
-            { value: 'summer', displayName: 'Summer' },
-            { value: 'autumn', displayName: 'Autumn' },
-            { value: 'winter', displayName: 'Winter' },
-            { value: 'spring', displayName: 'Spring' }
+            { value: 'summer', displayName: isGerman ? 'Sommer' : 'Summer' },
+            { value: 'autumn', displayName: isGerman ? 'Herbst' : 'Autumn' },
+            { value: 'winter', displayName: isGerman ? 'Winter' : 'Winter' },
+            { value: 'spring', displayName: isGerman ? 'Frühling' : 'Spring' }
         ];
 
         // Populate borders
         if (this.borderSelect) {
-            this.borderSelect.innerHTML = '<option value="none">None</option>';
+            const noneText = (typeof t !== 'undefined' ? t('none') : 'None');
+            this.borderSelect.innerHTML = `<option value="none">${noneText}</option>`;
             fallbackBorders.forEach(theme => {
                 const option = document.createElement('option');
                 option.value = theme.value;
@@ -346,7 +352,8 @@ class BulletproofLoader {
 
         // Populate backgrounds
         if (this.backgroundSelect) {
-            this.backgroundSelect.innerHTML = '<option value="none">None</option>';
+            const noneText = (typeof t !== 'undefined' ? t('none') : 'None');
+            this.backgroundSelect.innerHTML = `<option value="none">${noneText}</option>`;
             fallbackBackgrounds.forEach(theme => {
                 const option = document.createElement('option');
                 option.value = theme.value;

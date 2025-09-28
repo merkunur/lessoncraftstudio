@@ -5,31 +5,17 @@ import { useState, useRef, useEffect } from 'react';
 import { locales } from '@/i18n/request';
 
 const languageNames: Record<string, string> = {
-  en: 'English',
-  de: 'Deutsch',
-  fr: 'Français',
-  es: 'Español',
-  it: 'Italiano',
-  pt: 'Português',
-  nl: 'Nederlands',
-  sv: 'Svenska',
   da: 'Dansk',
+  de: 'Deutsch',
+  en: 'English',
+  es: 'Español',
+  fr: 'Français',
+  it: 'Italiano',
+  nl: 'Nederlands',
   no: 'Norsk',
-  fi: 'Suomi'
-};
-
-const languageFlags: Record<string, string> = {
-  en: '🇬🇧',
-  de: '🇩🇪',
-  fr: '🇫🇷',
-  es: '🇪🇸',
-  it: '🇮🇹',
-  pt: '🇵🇹',
-  nl: '🇳🇱',
-  sv: '🇸🇪',
-  da: '🇩🇰',
-  no: '🇳🇴',
-  fi: '🇫🇮'
+  pt: 'Português',
+  fi: 'Suomi',
+  sv: 'Svenska'
 };
 
 export function LanguageSelector() {
@@ -71,8 +57,7 @@ export function LanguageSelector() {
         className="flex items-center space-x-2 px-3 py-2 rounded-lg hover:bg-gray-100 transition-colors"
         aria-label="Select language"
       >
-        <span className="text-lg">{languageFlags[currentLocale]}</span>
-        <span className="text-sm font-medium text-gray-700 hidden sm:inline">
+        <span className="text-sm font-medium text-gray-700">
           {languageNames[currentLocale]}
         </span>
         <svg
@@ -87,19 +72,20 @@ export function LanguageSelector() {
 
       {isOpen && (
         <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
-          {locales.map((locale) => (
+          {locales
+            .sort((a, b) => languageNames[a].localeCompare(languageNames[b]))
+            .map((locale) => (
             <button
               key={locale}
               onClick={() => handleLocaleChange(locale)}
-              className={`w-full flex items-center space-x-3 px-4 py-2 text-left hover:bg-gray-50 transition-colors ${
+              className={`w-full flex items-center justify-between px-4 py-2 text-left hover:bg-gray-50 transition-colors ${
                 locale === currentLocale ? 'bg-blue-50 text-blue-600' : 'text-gray-700'
               }`}
             >
-              <span className="text-lg">{languageFlags[locale]}</span>
               <span className="text-sm font-medium">{languageNames[locale]}</span>
               {locale === currentLocale && (
                 <svg
-                  className="w-4 h-4 ml-auto text-blue-600"
+                  className="w-4 h-4 text-blue-600"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"

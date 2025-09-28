@@ -1,132 +1,835 @@
 {
   "navigation": {
-    "apps": "Apps",
-    "pricing": "Pricing",
+    "apps": "Generatoren",
+    "pricing": "Preise",
     "blog": "Blog",
-    "signIn": "Sign In",
-    "signUp": "Sign Up",
-    "startFree": "Start Free",
-    "dashboard": "Dashboard",
-    "signOut": "Sign Out"
+    "contact": "Kontakt",
+    "signIn": "Anmelden",
+    "signUp": "Registrieren",
+    "startFree": "Kostenlos starten",
+    "dashboard": "Übersicht",
+    "signOut": "Abmelden"
   },
   "homepage": {
     "hero": {
-      "title": "Create Professional Worksheets in Minutes",
-      "subtitle": "33 powerful worksheet generators with 100+ themed images for Teachers Pay Teachers sellers and educational publishers",
+      "title": "Erstellen Sie beeindruckende Arbeitsblätter in wenigen Minuten",
+      "subtitle": "Professionelle Arbeitsblatt-Generatoren für Lehrkräfte und Eltern. Zugriff auf 33 interaktive Apps mit wunderschönen Illustrationen.",
       "cta": {
-        "tryFree": "Try Word Search Free",
-        "viewApps": "View All Apps"
+        "tryFree": "Wortsuche kostenlos testen",
+        "viewApps": "Alle Generatoren ansehen"
       }
     },
     "features": {
-      "title": "Everything You Need for Publishing Success",
+      "title": "Alles was Sie für erfolgreiche Unterrichtsmaterialien brauchen",
       "items": {
         "apps": {
-          "title": "33 Worksheet Apps",
-          "description": "From math and reading to puzzles and games"
+          "title": "33 Arbeitsblatt-Generatoren",
+          "description": "Von Mathematik und Lesen bis zu Rätseln und Spielen"
         },
         "images": {
-          "title": "100+ Image Themes",
-          "description": "Child-friendly illustrations with commercial license"
+          "title": "Über 100 Bildthemen",
+          "description": "Kindgerechte Illustrationen mit kommerzieller Lizenz"
         },
         "languages": {
-          "title": "11 Languages",
-          "description": "Create worksheets in multiple languages"
+          "title": "11 Sprachen",
+          "description": "Erstellen Sie Arbeitsblätter in mehreren Sprachen"
         },
         "pod": {
-          "title": "POD License Included",
-          "description": "Sell your worksheets on any platform"
+          "title": "POD-Lizenz inklusive",
+          "description": "Verkaufen Sie Ihre Arbeitsblätter auf jeder Plattform"
         }
       }
     },
     "pricing": {
-      "title": "Simple, Transparent Pricing",
-      "monthly": "Monthly",
-      "yearly": "Yearly (Save 20%)",
+      "title": "Einfache, transparente Preise",
+      "monthly": "Monatlich",
+      "yearly": "Jährlich (20% sparen)",
       "free": {
-        "name": "Free",
+        "name": "Kostenlos",
         "price": "$0",
         "features": [
-          "Word Search Generator",
-          "Limited image library",
-          "Watermarked output",
-          "Basic support"
+          "Wortsuche-Generator",
+          "Begrenzte Bildauswahl",
+          "Mit Wasserzeichen",
+          "Basis-Support"
         ],
-        "cta": "Start Free"
+        "cta": "Kostenlos starten"
       },
       "core": {
-        "name": "Core Bundle",
+        "name": "Basis-Paket",
         "price": "$15",
         "priceYearly": "$144",
         "features": [
-          "10 most popular apps",
-          "Full image library access",
-          "No watermarks",
-          "POD commercial license",
-          "Priority support"
+          "10 beliebteste Generatoren",
+          "Voller Zugriff auf Bildbibliothek",
+          "Ohne Wasserzeichen",
+          "POD-Kommerzlizenz",
+          "Prioritäts-Support"
         ],
-        "cta": "Start Core"
+        "cta": "Basis-Paket wählen"
       },
       "full": {
-        "name": "Full Access",
+        "name": "Vollzugriff",
         "price": "$25",
         "priceYearly": "$240",
         "features": [
-          "All 33 apps",
-          "Full image library access",
-          "No watermarks",
-          "POD commercial license",
-          "Priority support",
-          "Early access to new apps"
+          "Alle 33 Generatoren",
+          "Voller Zugriff auf Bildbibliothek",
+          "Ohne Wasserzeichen",
+          "POD-Kommerzlizenz",
+          "Prioritäts-Support",
+          "Früher Zugang zu neuen Apps"
         ],
-        "cta": "Start Full Access",
-        "popular": "Most Popular"
+        "cta": "Vollzugriff sichern",
+        "popular": "Beliebteste Wahl"
       }
     }
   },
   "apps": {
-    "title": "Worksheet Generator Apps",
-    "subtitle": "Choose from 33 professional worksheet generators",
-    "search": "Search apps...",
+    "title": "Arbeitsblatt-Generatoren",
+    "subtitle": "Wählen Sie aus 33 professionellen Arbeitsblatt-Generatoren",
+    "search": "Generatoren suchen...",
+    "heroTitle": "33 Arbeitsblatt-Generatoren",
+    "heroSubtitle": "Verwandeln Sie Ihre Unterrichtsmaterialien mit unserer umfassenden Sammlung pädagogischer Arbeitsblatt-Generatoren. Von Worträtseln bis zu Mathe-Aufgaben – bei uns finden Sie alles, was Sie brauchen.",
     "categories": {
-      "all": "All Apps",
-      "math": "Math",
-      "language": "Language Arts",
-      "puzzles": "Puzzles",
-      "games": "Games",
-      "visual": "Visual Perception",
-      "motor": "Fine Motor Skills"
+      "all": "Alle Generatoren",
+      "math": "Mathematik",
+      "language": "Sprache & Lesen",
+      "puzzles": "Rätsel",
+      "games": "Spiele",
+      "visual": "Visuelle Wahrnehmung",
+      "motor": "Feinmotorik",
+      "wordGames": "Wortspiele",
+      "languageArts": "Sprachförderung",
+      "artCreativity": "Kunst & Kreativität",
+      "matching": "Zuordnung",
+      "fineMotorSkills": "Feinmotorik",
+      "logic": "Logik",
+      "concepts": "Grundkonzepte",
+      "patterns": "Muster",
+      "sorting": "Sortieren"
     },
     "tier": {
-      "free": "Free",
-      "core": "Core Bundle",
-      "full": "Full Access"
+      "free": "Kostenlos",
+      "core": "Basis-Paket",
+      "full": "Vollzugriff",
+      "popular": "Beliebt"
+    },
+    "wordSearch": {
+      "name": "Wortsuche",
+      "description": "Erstellen Sie spannende Wortsuchrätsel mit thematischen Begriffen und Bildern",
+      "features": {
+        "gridSizes": "Verschiedene Rastergrößen",
+        "directions": "Richtungsoptionen",
+        "themedImages": "Themenbasierte Bilder",
+        "answerKey": "Lösungsschlüssel-Erstellung"
+      },
+      "languageLabel": "Sprache"
+    },
+    "tierInfo": {
+      "freeTitle": "Kostenlose Version",
+      "freeDescription": "Testen Sie den Wortsuche-Generator mit Wasserzeichen",
+      "coreTitle": "Basis-Paket - $15/Monat",
+      "coreDescription": "Zugriff auf die 10 beliebtesten Apps mit kommerzieller Lizenz",
+      "fullTitle": "Vollzugriff - $25/Monat",
+      "fullDescription": "Alle 33 Apps, Prioritäts-Support, frühzeitiger Zugang"
+    },
+    "appNames": {
+      "wordSearch": "Wortsuche",
+      "imageAddition": "Bilder-Addition",
+      "alphabetTrain": "Buchstaben-Zug",
+      "coloringPages": "Ausmalbilder",
+      "mathWorksheets": "Mathe-Arbeitsblätter",
+      "wordScramble": "Buchstabensalat",
+      "findAndCount": "Finden und Zählen",
+      "matchUpMaker": "Zuordnungsspiele",
+      "drawingLines": "Linien zeichnen",
+      "pictureBingo": "Bilder-Bingo",
+      "sudokuForKids": "Kinder-Sudoku",
+      "bigOrSmall": "Groß oder Klein",
+      "chartCountColor": "Diagramme zählen & malen",
+      "codeAddition": "Code-Addition",
+      "drawAndColor": "Zeichnen und Ausmalen",
+      "findObjects": "Gegenstände finden",
+      "gridMatch": "Gitter-Zuordnung",
+      "imageCrossword": "Bilder-Kreuzworträtsel",
+      "imageCryptogram": "Bilder-Kryptogramm",
+      "mathPuzzle": "Mathe-Rätsel",
+      "missingPieces": "Fehlende Teile",
+      "moreOrLess": "Mehr oder Weniger",
+      "oddOneOut": "Was passt nicht?",
+      "patternTrain": "Muster-Zug",
+      "patternWorksheets": "Muster-Arbeitsblätter",
+      "picturePathway": "Bilderpfad",
+      "pictureSort": "Bilder sortieren",
+      "prepositions": "Präpositionen",
+      "shadowMatch": "Schatten-Zuordnung",
+      "storyDice": "Geschichtenwürfel",
+      "subtraction": "Subtraktion",
+      "treasureHunt": "Schatzsuche",
+      "wordGuess": "Wörter raten",
+      "writingPractice": "Schreibübungen"
+    },
+    "cta": {
+      "title": "Bereit für großartige Arbeitsblätter?",
+      "subtitle": "Beginnen Sie mit unserem kostenlosen Wortsuche-Generator oder schalten Sie heute alle Apps frei",
+      "startFreeTrial": "Kostenlos testen",
+      "viewPricing": "Preise ansehen"
+    },
+    "filters": {
+      "allApps": "Alle Apps"
+    },
+    "picturePath": {
+      "title": "Bilderpfad",
+      "description": "Erstellen Sie visuelle Pfad-Rätsel mit Bildern und Wegbeschreibungen"
+    },
+    "matchupMaker": {
+      "title": "Zuordnungsspiel",
+      "description": "Gestalten Sie Zuordnungsaufgaben zum Verbinden von Begriffen und Bildern"
     }
   },
   "auth": {
     "signIn": {
-      "title": "Welcome Back",
-      "subtitle": "Sign in to your account",
-      "email": "Email",
-      "password": "Password",
-      "rememberMe": "Remember me",
-      "forgotPassword": "Forgot password?",
-      "submit": "Sign In",
-      "noAccount": "Don't have an account?",
-      "signUp": "Sign up"
+      "title": "Willkommen zurück",
+      "subtitle": "Melden Sie sich in Ihrem Konto an",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "ihre@email.de",
+      "password": "Passwort",
+      "passwordPlaceholder": "Ihr Passwort",
+      "rememberMe": "Angemeldet bleiben",
+      "forgotPassword": "Passwort vergessen?",
+      "submit": "Anmelden",
+      "noAccount": "Noch kein Konto?",
+      "signUp": "Jetzt kostenlos registrieren",
+      "orContinueWith": "Oder fortfahren mit"
     },
     "signUp": {
-      "title": "Create Your Account",
-      "subtitle": "Start creating worksheets today",
-      "firstName": "First Name",
-      "lastName": "Last Name",
-      "email": "Email",
-      "password": "Password",
-      "confirmPassword": "Confirm Password",
-      "terms": "I agree to the Terms of Service and Privacy Policy",
-      "submit": "Create Account",
-      "hasAccount": "Already have an account?",
-      "signIn": "Sign in"
+      "title": "Ihr kostenloses Konto erstellen",
+      "subtitle": "Starten Sie in wenigen Sekunden",
+      "firstName": "Vorname",
+      "firstNamePlaceholder": "Max",
+      "lastName": "Nachname",
+      "lastNamePlaceholder": "Mustermann",
+      "email": "E-Mail-Adresse",
+      "emailPlaceholder": "max@beispiel.de",
+      "password": "Passwort",
+      "passwordPlaceholder": "Mindestens 8 Zeichen",
+      "passwordHint": "Mindestens 8 Zeichen erforderlich",
+      "confirmPassword": "Passwort bestätigen",
+      "confirmPasswordPlaceholder": "Passwort wiederholen",
+      "terms": "Ich stimme den",
+      "termsLink": "Nutzungsbedingungen",
+      "and": "und der",
+      "privacyLink": "Datenschutzerklärung",
+      "termsEnd": "zu",
+      "submit": "Kostenlos registrieren",
+      "hasAccount": "Schon registriert?",
+      "signIn": "Hier anmelden",
+      "orSignUpWith": "Oder registrieren mit",
+      "freeAccountInfo": "Starten Sie kostenlos mit dem Wortsuche-Generator",
+      "upgradeAnytime": "Jederzeit erweiterbar auf alle 33 Apps!",
+      "errors": {
+        "allFieldsRequired": "Alle Felder müssen ausgefüllt werden",
+        "passwordLength": "Das Passwort muss mindestens 8 Zeichen lang sein",
+        "passwordsDoNotMatch": "Die Passwörter stimmen nicht überein",
+        "agreeToTerms": "Sie müssen den Nutzungsbedingungen zustimmen",
+        "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+      }
     }
+  },
+  "footer": {
+    "companyName": "LessonCraftStudio",
+    "companyTagline": "Professionelle Arbeitsblatt-Generatoren für Bildungsverlage.",
+    "product": {
+      "title": "Produkt",
+      "apps": "Generatoren",
+      "pricing": "Preise",
+      "blog": "Blog"
+    },
+    "support": {
+      "title": "Unterstützung",
+      "helpCenter": "Hilfe-Center",
+      "contact": "Kontakt",
+      "faq": "Häufige Fragen"
+    },
+    "legal": {
+      "title": "Rechtliches",
+      "terms": "Nutzungsbedingungen",
+      "privacy": "Datenschutz",
+      "license": "Lizenzbedingungen"
+    },
+    "copyright": "© 2024 LessonCraftStudio. Alle Rechte vorbehalten."
+  },
+  "pricing": {
+    "heroTitle": "Faire Preise für Ihren Erfolg",
+    "heroSubtitle": "Wählen Sie das perfekte Paket für Ihre kreativen Unterrichtsmaterialien – vom kostenlosen Start bis zur Profi-Ausstattung",
+    "billingToggle": {
+      "monthly": "Monatlich",
+      "yearly": "Jährlich",
+      "yearlyDiscount": "20% sparen"
+    },
+    "labels": {
+      "whatsIncluded": "Was ist enthalten:",
+      "limitations": "Einschränkungen:",
+      "appsIncluded": "Verfügbare Generatoren:",
+      "orYearly": "oder",
+      "perYear": "/Jahr"
+    },
+    "plans": {
+      "free": {
+        "name": "Kostenlos",
+        "price": "$0",
+        "period": "",
+        "description": "Perfekt zum Ausprobieren und Kennenlernen",
+        "features": {
+          "0": "Wortsuche-Generator (mit Wasserzeichen)",
+          "1": "Dezentes Wasserzeichen auf Ausgaben",
+          "2": "Zugriff auf Basis-Bildauswahl",
+          "3": "Standard-Vorlagen inklusive",
+          "4": "Community-Forum für Hilfe",
+          "5": "Für den persönlichen Gebrauch"
+        },
+        "limitations": {
+          "0": "Wasserzeichen auf Arbeitsblättern",
+          "1": "Nur für private Nutzung",
+          "2": "Basis-Anpassungen möglich"
+        },
+        "apps": {
+          "0": "Wortsuche-Generator (mit Wasserzeichen)"
+        },
+        "cta": "Kostenlos beginnen"
+      },
+      "core": {
+        "name": "Basis-Paket",
+        "price": "$15",
+        "period": "/Monat",
+        "yearlyPrice": "$144",
+        "description": "Die beliebtesten Tools für professionelle Arbeitsblätter",
+        "features": {
+          "0": "10 Top-Generatoren für jeden Bedarf",
+          "1": "Komplett ohne Wasserzeichen",
+          "2": "Komplette Bildbibliothek (100+ Themen)",
+          "3": "Alle Premium-Vorlagen verfügbar",
+          "4": "Kommerzielle Nutzung erlaubt (POD)",
+          "5": "Persönlicher E-Mail-Support",
+          "6": "Export als PDF und JPEG in hoher Qualität"
+        },
+        "apps": {
+          "0": "10 beliebteste Generatoren:",
+          "1": "Bilder-Addition",
+          "2": "Alphabet-Zug",
+          "3": "Ausmalbilder",
+          "4": "Mathe-Arbeitsblätter",
+          "5": "Buchstabensalat",
+          "6": "Finden und Zählen",
+          "7": "Zuordnungsspiel",
+          "8": "Linien ziehen",
+          "9": "Bilder-Bingo",
+          "10": "Sudoku für Kinder"
+        },
+        "cta": "7 Tage kostenlos testen"
+      },
+      "full": {
+        "name": "Vollzugriff",
+        "price": "$25",
+        "period": "/Monat",
+        "yearlyPrice": "$240",
+        "description": "Das Komplettpaket für Profis und Vielnutzer",
+        "features": {
+          "0": "Alle 33 Arbeitsblatt-Generatoren",
+          "1": "Alles aus dem Basis-Paket plus 23 weitere",
+          "2": "VIP-Support mit schneller Antwort",
+          "3": "Vorabzugang zu neuen Features",
+          "4": "Maximale Anpassungsfreiheit",
+          "5": "Regelmäßige Updates und neue Funktionen"
+        },
+        "apps": {
+          "0": "Alle Basis-Paket Generatoren plus:",
+          "1": "Groß oder Klein",
+          "2": "Diagramme zählen & malen",
+          "3": "Code-Addition",
+          "4": "Zeichnen und Ausmalen",
+          "5": "Gegenstände finden",
+          "6": "Gitter-Zuordnung",
+          "7": "Bilder-Kreuzworträtsel",
+          "8": "Bilder-Kryptogramm",
+          "9": "Mathe-Rätsel",
+          "10": "Fehlende Teile",
+          "11": "Mehr oder Weniger",
+          "12": "Was passt nicht?",
+          "13": "Muster-Zug",
+          "14": "Muster-Arbeitsblätter",
+          "15": "Bilderpfad",
+          "16": "Bilder sortieren",
+          "17": "Präpositionen",
+          "18": "Schatten-Zuordnung",
+          "19": "Subtraktion",
+          "20": "Schatzsuche",
+          "21": "Wörter raten",
+          "22": "Schreibübungen"
+        },
+        "cta": "7 Tage kostenlos testen",
+        "popular": "BESTSELLER"
+      }
+    },
+    "comparison": {
+      "title": "Die Pakete im direkten Vergleich",
+      "features": "Funktionen",
+      "numberOfApps": "Verfügbare Generatoren",
+      "watermark": "Wasserzeichenfrei",
+      "commercialLicense": "Verkaufslizenz",
+      "imageLibrarySize": "Umfang der Bildbibliothek",
+      "imageLibrary": {
+        "free": "Begrenzt (10 Themen)",
+        "core": "Vollständig (100+ Themen)",
+        "full": "Vollständig (100+ Themen)"
+      },
+      "support": "Support",
+      "supportTypes": {
+        "free": "Community",
+        "core": "E-Mail",
+        "full": "Prioritäts-E-Mail"
+      },
+      "earlyAccess": "Vorabzugang zu Neuheiten"
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "items": [
+        {
+          "question": "Kann ich mein Abo jederzeit kündigen?",
+          "answer": "Ja, Sie können Ihr Abonnement jederzeit kündigen. Es läuft bis zum Ende des aktuellen Abrechnungszeitraums und wird dann automatisch beendet."
+        },
+        {
+          "question": "Was bedeutet POD-Kommerzlizenz?",
+          "answer": "POD steht für Print-on-Demand. Mit dieser Lizenz dürfen Sie die erstellten Arbeitsblätter kommerziell nutzen und auf Plattformen wie Teachers Pay Teachers oder Etsy verkaufen."
+        },
+        {
+          "question": "Kann ich zwischen den Paketen wechseln?",
+          "answer": "Natürlich! Sie können jederzeit upgraden oder downgraden. Beim Upgrade zahlen Sie nur die Differenz, beim Downgrade wird die Änderung zum nächsten Abrechnungszeitraum wirksam."
+        },
+        {
+          "question": "Gibt es eine kostenlose Testversion?",
+          "answer": "Ja, sowohl das Basis-Paket als auch der Vollzugriff bieten eine 7-tägige kostenlose Testphase. Sie können alle Funktionen uneingeschränkt testen, bevor Sie sich entscheiden."
+        },
+        {
+          "question": "Welche Zahlungsmethoden werden akzeptiert?",
+          "answer": "Wir akzeptieren alle gängigen Kreditkarten (Visa, Mastercard, American Express) sowie PayPal. Die Zahlung erfolgt sicher über Stripe."
+        },
+        {
+          "question": "Kann ich die Arbeitsblätter in anderen Sprachen erstellen?",
+          "answer": "Ja! Unsere Plattform unterstützt 11 Sprachen: Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Bereit, großartige Arbeitsblätter zu erstellen?",
+      "subtitle": "Schließen Sie sich tausenden Lehrkräften an, die bereits Zeit sparen und ihre Schüler begeistern",
+      "button": "Jetzt kostenlos starten",
+      "disclaimer": "Keine Kreditkarte erforderlich • Jederzeit kündbar"
+    }
+  },
+  "worksheetSamples": {
+    "title": "Arbeitsblätter-Beispielgalerie",
+    "subtitle": "Klicken Sie auf ein Arbeitsblatt für eine größere Vorschau. Dies sind nur einige Beispiele aus unserer Sammlung von 33 professionellen Arbeitsblatt-Generatoren.",
+    "ctaText": "Alle 33 Arbeitsblatt-Generatoren erkunden →",
+    "alphabetTrain": {
+      "title": "Alphabet-Zug",
+      "description": "Spaßiges Alphabet-Lernen mit bunten Zugwaggons"
+    },
+    "codeAddition": {
+      "title": "Code-Addition",
+      "description": "Knacke den Code mit Additionsrätseln"
+    },
+    "diagramAndCount": {
+      "title": "Diagramm & Zählen",
+      "description": "Lernen Sie Grafiken und Datenvisualisierung"
+    },
+    "hiddenObjects": {
+      "title": "Versteckte Objekte",
+      "description": "Finde versteckte Objekte in detaillierten Szenen"
+    },
+    "iSpy": {
+      "title": "Ich Sehe Was",
+      "description": "Klassisches Ich-sehe-was Suchspiel!"
+    },
+    "patternTrain": {
+      "title": "Muster-Zug",
+      "description": "Vervollständige die Mustersequenzen"
+    },
+    "modalLabels": {
+      "ageRange": "Altersgruppe",
+      "difficulty": "Schwierigkeit",
+      "category": "Kategorie"
+    },
+    "difficulties": {
+      "Easy": "Einfach",
+      "Medium": "Mittel",
+      "Hard": "Schwer"
+    },
+    "categories": {
+      "Language": "Sprache",
+      "Math": "Mathematik",
+      "Visual": "Visuell",
+      "Pattern": "Muster"
+    },
+    "ageRanges": {
+      "age3to5": "3-5 Jahre",
+      "age4to7": "4-7 Jahre",
+      "age5to8": "5-8 Jahre",
+      "age6to8": "6-8 Jahre",
+      "age7to10": "7-10 Jahre"
+    }
+  },
+  "common": {
+    "loading": "Wird geladen...",
+    "error": "Ein Fehler ist aufgetreten",
+    "retry": "Erneut versuchen",
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "create": "Erstellen",
+    "search": "Suchen",
+    "filter": "Filtern",
+    "sort": "Sortieren",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "close": "Schließen",
+    "open": "Öffnen",
+    "yes": "Ja",
+    "no": "Nein",
+    "confirm": "Bestätigen",
+    "download": "Herunterladen",
+    "upload": "Hochladen",
+    "select": "Auswählen",
+    "selectAll": "Alle auswählen",
+    "deselectAll": "Alle abwählen",
+    "required": "Erforderlich",
+    "optional": "Optional"
+  },
+  "blogPage": {
+    "hero": {
+      "title": "LessonCraftStudio Blog",
+      "subtitle": "Praxistipps, Anleitungen und Einblicke für Lehrkräfte, die beeindruckende Lernmaterialien erstellen"
+    },
+    "categories": {
+      "all": "Alle Beiträge",
+      "worksheetTips": "Arbeitsblatt-Tipps",
+      "teachingResources": "Unterrichtsmaterial",
+      "educationalActivities": "Lernaktivitäten",
+      "learningStrategies": "Lernstrategien",
+      "curriculumGuides": "Lehrpläne & Anleitungen",
+      "parentResources": "Für Eltern",
+      "seasonalContent": "Saisonale Inhalte"
+    },
+    "loading": {
+      "message": "Blogbeiträge werden geladen..."
+    },
+    "empty": {
+      "title": "Noch keine Blogbeiträge vorhanden",
+      "description": "Schauen Sie bald wieder vorbei für neue Bildungsinhalte!"
+    },
+    "postCard": {
+      "pdfSamples": "PDF-Beispiele",
+      "readTime": "Lesezeit"
+    },
+    "pagination": {
+      "previous": "Zurück",
+      "next": "Weiter",
+      "showing": "Zeige",
+      "of": "von",
+      "posts": "Beiträgen"
+    },
+    "newsletter": {
+      "title": "Bleiben Sie auf dem Laufenden mit Bildungstipps",
+      "subtitle": "Erhalten Sie wöchentliche Einblicke, wie Sie bessere Unterrichtsmaterialien erstellen und Ihr Lehrgeschäft ausbauen",
+      "emailPlaceholder": "Ihre E-Mail-Adresse",
+      "subscribe": "Anmelden",
+      "success": "Danke für Ihre Anmeldung!",
+      "error": "Etwas ist schief gelaufen. Bitte versuchen Sie es später erneut.",
+      "noSpam": "Kein Spam, jederzeit abmeldbar."
+    }
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Wir freuen uns auf Ihre Nachricht und melden uns schnellstmöglich bei Ihnen.",
+    "getInTouch": "Kontaktformular",
+    "name": "Name",
+    "email": "E-Mail",
+    "subject": "Betreff",
+    "selectSubject": "Bitte wählen",
+    "subjects": {
+      "general": "Allgemeine Anfrage",
+      "support": "Technischer Support",
+      "feedback": "Feedback",
+      "partnership": "Kooperation"
+    },
+    "message": "Nachricht",
+    "send": "Nachricht senden",
+    "sending": "Sende...",
+    "successMessage": "Vielen Dank! Wir haben Ihre Nachricht erhalten und melden uns in Kürze.",
+    "errorMessage": "Leider ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.",
+    "otherWaysToConnect": "Weitere Kontaktmöglichkeiten",
+    "emailUs": "Direkter E-Mail-Kontakt",
+    "responseTime": "Antwortzeit",
+    "responseTimeInfo": "Wir antworten in der Regel innerhalb von 1-2 Werktagen.",
+    "faq": "Häufig gestellte Fragen",
+    "faqInfo": "In unseren FAQ finden Sie schnelle Antworten auf die häufigsten Fragen.",
+    "followUs": "Folgen Sie uns"
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "effectiveDate": "Januar 2025",
+    "acceptance": {
+      "title": "1. ANNAHME",
+      "content": "Mit der Nutzung von LessonCraftStudio akzeptieren Sie diese Bedingungen. Bei Nichteinverständnis nutzen Sie unseren Service bitte nicht."
+    },
+    "serviceDescription": {
+      "title": "2. LEISTUNGSBESCHREIBUNG",
+      "content": "LessonCraftStudio bietet Werkzeuge zur Erstellung von Arbeitsblättern in drei Stufen: Kostenlos (begrenzt), Core (erweitert) und Vollzugriff (unbegrenzt)."
+    },
+    "userAccounts": {
+      "title": "3. BENUTZERKONTEN",
+      "requirements": "Anforderungen:",
+      "age": "Mindestalter: 18 Jahre",
+      "accurate": "Korrekte Registrierungsdaten",
+      "security": "Kontosicherheit gewährleisten",
+      "responsible": "Verantwortung für Kontoaktivitäten"
+    },
+    "paymentTerms": {
+      "title": "4. ZAHLUNGSBEDINGUNGEN",
+      "pricing": "Aktuelle Preise bei Anmeldung angezeigt",
+      "billing": "Wiederkehrende Abrechnung nach gewähltem Tarif",
+      "refunds": "Keine Rückerstattung für Teilzeiträume",
+      "changes": "Preisänderungen mit 30 Tagen Vorlauf"
+    },
+    "acceptableUse": {
+      "title": "5. ZULÄSSIGE NUTZUNG",
+      "prohibited": "Untersagt:",
+      "illegal": "Illegale Aktivitäten",
+      "harmful": "Schädliche oder anstößige Inhalte",
+      "infringement": "Verletzung geistigen Eigentums",
+      "system": "Systemstörung oder -beschädigung",
+      "resale": "Unberechtigter Weiterverkauf"
+    },
+    "intellectualProperty": {
+      "title": "6. GEISTIGES EIGENTUM",
+      "content": "Plattform und Tools bleiben unser Eigentum. Ihre Inhalte bleiben Ihres. Generierte Inhalte werden gemäß Abonnement lizenziert."
+    },
+    "termination": {
+      "title": "7. KÜNDIGUNG",
+      "user": "Jederzeit über Kontoeinstellungen kündbar",
+      "company": "Wir können bei Verstößen kündigen",
+      "effect": "Kündigung beendet Zugang; Inhaltslizenz bleibt bestehen"
+    },
+    "disclaimers": {
+      "title": "8. HAFTUNGSAUSSCHLUSS",
+      "asis": "Service wird ohne Gewähr bereitgestellt",
+      "availability": "Keine Garantie für ständige Verfügbarkeit",
+      "suitability": "Keine Gewährleistung für bestimmte Zwecke",
+      "content": "Nutzer verantwortlich für Inhaltsrichtigkeit"
+    },
+    "limitationLiability": {
+      "title": "9. HAFTUNGSBESCHRÄNKUNG",
+      "content": "Maximale Haftung: gezahlte Gebühren der letzten 12 Monate. Keine Haftung für indirekte oder Folgeschäden."
+    },
+    "indemnification": {
+      "title": "10. SCHADLOSHALTUNG",
+      "content": "Sie stellen uns von Ansprüchen aus Ihrer Nutzung, Inhalten oder Verstößen frei."
+    },
+    "governingLaw": {
+      "title": "11. ANWENDBARES RECHT",
+      "content": "Schwedisches Recht. Gerichtsstand Stockholm. EU-Verbraucherrechte bleiben erhalten."
+    },
+    "changes": {
+      "title": "12. ÄNDERUNGEN",
+      "content": "Wir können Bedingungen mit Ankündigung ändern. Weitere Nutzung gilt als Zustimmung."
+    },
+    "contact": {
+      "title": "13. KONTAKT",
+      "content": "Fragen: legal@lessoncraftstudio.com"
+    }
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "effectiveDate": "Januar 2025",
+    "introduction": {
+      "title": "1. EINLEITUNG",
+      "content": "Diese Erklärung erläutert unsere Datenverarbeitung gemäß DSGVO und schwedischem Recht."
+    },
+    "dataController": {
+      "title": "2. VERANTWORTLICHE STELLE",
+      "content": "LessonCraftStudio, Stockholm, Schweden. Kontakt: privacy@lessoncraftstudio.com"
+    },
+    "dataCollection": {
+      "title": "3. ERHOBENE DATEN",
+      "intro": "Wir erheben:",
+      "personal": "Kontodaten (Name, E-Mail)",
+      "usage": "Nutzungsanalysen",
+      "technical": "Technische Daten (IP, Browser)",
+      "cookies": "Cookie-Einstellungen"
+    },
+    "legalBasis": {
+      "title": "4. RECHTSGRUNDLAGE",
+      "intro": "Verarbeitung basiert auf:",
+      "consent": "Ihrer Einwilligung",
+      "contract": "Vertragserfüllung",
+      "legal": "Rechtlichen Verpflichtungen",
+      "legitimate": "Berechtigten Interessen"
+    },
+    "dataUsage": {
+      "title": "5. DATENNUTZUNG",
+      "service": "Servicebereitstellung",
+      "account": "Kontoverwaltung",
+      "communication": "Kommunikation",
+      "improvement": "Serviceverbesserung",
+      "legal": "Rechtliche Compliance"
+    },
+    "dataSharing": {
+      "title": "6. DATENWEITERGABE",
+      "intro": "Begrenzte Weitergabe an:",
+      "providers": "Dienstleister (Auftragsverarbeiter)",
+      "payment": "Zahlungsdienstleister",
+      "legal": "Behörden bei Verpflichtung",
+      "consent": "Dritte mit Einwilligung"
+    },
+    "dataRetention": {
+      "title": "7. DATENSPEICHERUNG",
+      "content": "Kontodaten: Kontodauer plus 1 Jahr. Protokolle: 90 Tage. Marketing: Bis Widerspruch."
+    },
+    "userRights": {
+      "title": "8. IHRE RECHTE",
+      "intro": "DSGVO-Rechte umfassen:",
+      "access": "Auskunft über Ihre Daten",
+      "rectification": "Berichtigung von Unrichtigkeiten",
+      "erasure": "Löschung beantragen",
+      "restriction": "Einschränkung der Verarbeitung",
+      "portability": "Datenübertragbarkeit",
+      "objection": "Widerspruch gegen Verarbeitung",
+      "withdraw": "Einwilligung widerrufen",
+      "complaint": "Beschwerde bei Aufsichtsbehörde"
+    },
+    "dataSecurity": {
+      "title": "9. SICHERHEIT",
+      "content": "Branchenübliche Sicherheit mit Verschlüsselung, Zugangskontrollen und regelmäßigen Audits."
+    },
+    "cookies": {
+      "title": "10. COOKIES",
+      "intro": "Wir nutzen:",
+      "essential": "Notwendige Cookies (erforderlich)",
+      "functional": "Funktionale Cookies (Einstellungen)",
+      "analytics": "Analyse-Cookies (mit Einwilligung)"
+    },
+    "children": {
+      "title": "11. KINDER",
+      "content": "Service für Lehrkräfte/Eltern. Keine Datenerhebung von Kindern unter 16."
+    },
+    "international": {
+      "title": "12. INTERNATIONALE ÜBERMITTLUNG",
+      "content": "Daten in EU/EWR gespeichert. Externe Übermittlungen mit Standardvertragsklauseln."
+    },
+    "changes": {
+      "title": "13. ÄNDERUNGEN",
+      "content": "Aktualisierungen per E-Mail. Weitere Nutzung gilt als Annahme."
+    },
+    "contact": {
+      "title": "14. KONTAKT",
+      "intro": "Fragen oder Rechteausübung:",
+      "email": "E-Mail: privacy@lessoncraftstudio.com",
+      "address": "Adresse: Stockholm, Schweden",
+      "dpo": "Datenschutzbeauftragter: dpo@lessoncraftstudio.com"
+    }
+  },
+  "license": {
+    "title": "Lizenzbedingungen",
+    "lastUpdated": "Zuletzt aktualisiert",
+    "effectiveDate": "Januar 2025",
+    "grantOfLicense": {
+      "title": "1. LIZENZGEWÄHRUNG",
+      "intro": "LessonCraftStudio gewährt Ihnen eine Lizenz zur Nutzung generierter Inhalte basierend auf Ihrem Abonnement:",
+      "freeTier": "Kostenlos: Nur persönliche, nicht-kommerzielle Bildungsnutzung",
+      "coreBundle": "Core: Kommerzielle Bildungsnutzung in Ihrer Einrichtung",
+      "fullAccess": "Vollzugriff: Uneingeschränkte kommerzielle Nutzung inkl. POD und Weiterverkauf"
+    },
+    "intellectualProperty": {
+      "title": "2. GEISTIGES EIGENTUM",
+      "content": "Sie behalten Ihre Originalinhalte. Wir behalten Rechte an Plattformelementen. Generierte Inhalte werden gemäß Abschnitt 1 lizenziert."
+    },
+    "restrictions": {
+      "title": "3. EINSCHRÄNKUNGEN",
+      "intro": "Sie dürfen nicht:",
+      "reverseEngineer": "Die Plattform zurückentwickeln",
+      "competing": "Konkurrierende Dienste erstellen",
+      "sublicense": "Plattformzugang unterlizenzieren",
+      "removeNotices": "Wasserzeichen von kostenlosen Inhalten entfernen",
+      "illegal": "Für illegale Zwecke nutzen"
+    },
+    "commercialDistribution": {
+      "title": "4. KOMMERZIELLE VERTEILUNG",
+      "pod": "Print-on-Demand: Vollzugriff-Abonnenten dürfen unbegrenzt über POD-Plattformen verkaufen.",
+      "digital": "Digitale Verteilung: Alle Stufen dürfen digitale Versionen gemäß ihrer Lizenz verteilen."
+    },
+    "termination": {
+      "title": "5. BEENDIGUNG",
+      "content": "Wir können bei Verstößen mit 30 Tagen Frist kündigen. Während gültiger Abonnements erstellte Inhalte bleiben lizenziert."
+    },
+    "warrantyDisclaimer": {
+      "title": "6. GEWÄHRLEISTUNGSAUSSCHLUSS",
+      "content": "Service wird ohne Gewähr bereitgestellt. Wir garantieren keine Eignung für bestimmte Zwecke."
+    },
+    "limitationOfLiability": {
+      "title": "7. HAFTUNGSBESCHRÄNKUNG",
+      "content": "Maximale Haftung begrenzt auf gezahlte Gebühren der vorangegangenen 12 Monate."
+    },
+    "governingLaw": {
+      "title": "8. ANWENDBARES RECHT",
+      "content": "Schwedisches Recht. Gerichtsstand Stockholm."
+    },
+    "modifications": {
+      "title": "9. ÄNDERUNGEN",
+      "content": "Wir können Bedingungen mit 30 Tagen Vorlauf ändern. Weitere Nutzung gilt als Annahme."
+    },
+    "contact": {
+      "title": "10. KONTAKT",
+      "content": "Für Lizenzanfragen: license@lessoncraftstudio.com"
+    }
+  },
+  "worksheetUI": {
+    "difficultyLevel": "Schwierigkeitsgrad",
+    "imageLibrary": "Bildbibliothek",
+    "uploadImage": "Bild hochladen",
+    "selectTheme": "Thema auswählen",
+    "pageSettings": "Seiteneinstellungen",
+    "generate": "Erstellen",
+    "generateWorksheet": "Arbeitsblatt erstellen",
+    "generateAnswerKey": "Lösungsschlüssel erstellen",
+    "download": "Herunterladen",
+    "downloadPDF": "Als PDF herunterladen",
+    "downloadJPEG": "Als JPEG herunterladen",
+    "clearAll": "Alles zurücksetzen",
+    "preview": "Vorschau",
+    "settings": "Einstellungen",
+    "borderAndBackground": "Rahmen & Hintergrund",
+    "textTools": "Textwerkzeuge",
+    "puzzleConfiguration": "Rätsel-Konfiguration",
+    "exerciseConfiguration": "Aufgaben-Konfiguration",
+    "numberOfExercises": "Anzahl der Aufgaben",
+    "numberOfPuzzles": "Anzahl der Rätsel",
+    "template": "Vorlage",
+    "theme": "Thema",
+    "none": "Keine",
+    "random": "Zufällig",
+    "manualSelection": "Manuelle Auswahl",
+    "selectedImages": "Ausgewählte Bilder",
+    "availableImages": "Verfügbare Bilder",
+    "searchImages": "Bilder suchen",
+    "loadingImages": "Bilder werden geladen...",
+    "noImagesFound": "Keine Bilder gefunden",
+    "uploadYourOwn": "Eigene hochladen",
+    "chooseFiles": "Dateien auswählen",
+    "filesSelected": "Dateien ausgewählt",
+    "noFileChosen": "Keine Datei ausgewählt"
   }
 }

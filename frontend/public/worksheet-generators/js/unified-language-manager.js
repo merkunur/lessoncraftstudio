@@ -39,6 +39,11 @@ class UnifiedLanguageManager {
         const urlParams = new URLSearchParams(window.location.search);
         this.currentLocale = urlParams.get('locale') || 'en';
 
+        // Sync with global currentLocale variable
+        if (typeof window.currentLocale !== 'undefined') {
+            window.currentLocale = this.currentLocale;
+        }
+
         // Find or create language selector
         this.setupLanguageSelector();
 
@@ -106,7 +111,6 @@ class UnifiedLanguageManager {
 
         const wrapper = document.createElement('div');
         wrapper.innerHTML = `
-            <label for="languageSelect" style="margin-right: 10px;">Language:</label>
             <select id="languageSelect" style="padding: 5px; min-width: 150px;">
                 ${Object.entries(this.supportedLocales).map(([code, name]) =>
                     `<option value="${code}">${name}</option>`
@@ -117,6 +121,11 @@ class UnifiedLanguageManager {
         container.appendChild(wrapper);
         this.languageSelector = document.getElementById('languageSelect');
         this.languageSelector.value = this.currentLocale;
+
+        // Apply translation to the label immediately
+        if (typeof applyTranslations === 'function') {
+            setTimeout(() => applyTranslations(), 0);
+        }
     }
 
     /**
@@ -167,6 +176,14 @@ class UnifiedLanguageManager {
 
         const oldLocale = this.currentLocale;
         this.currentLocale = newLocale;
+
+        // Update global currentLocale variable that applyTranslations uses
+        if (typeof window.currentLocale !== 'undefined') {
+            window.currentLocale = newLocale;
+        }
+        if (typeof currentLocale !== 'undefined') {
+            currentLocale = newLocale;
+        }
 
         // Update URL without reloading
         const url = new URL(window.location);

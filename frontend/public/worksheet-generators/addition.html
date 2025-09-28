@@ -2,8 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Image Addition Worksheet Generator</title>
-  <script src="js/translations.js"></script>
+  <title data-translate="additionGenerator">Image Addition Worksheet Generator</title>
+  <script src="js/translations-addition-complete.js"></script>
+  <script>
+    // CRITICAL: Set locales IMMEDIATELY after loading translations.js!
+    const urlParams = new URLSearchParams(window.location.search);
+
+    // UI locale from URL parameter (interface language)
+    let uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
+
+    // Content locale for worksheet (initially same as UI)
+    let currentLocale = urlParams.get('content') || uiLocale;
+
+    // Make both globally accessible BEFORE any other scripts run
+    window.uiLocale = uiLocale;
+    window.currentLocale = currentLocale;
+
+    console.log('Locales set early - UI:', uiLocale, 'Content:', currentLocale);
+
+    // Define the translation function globally so BulletproofLoader can use it
+    function t(key) {
+        // Check if translations object exists
+        if (typeof translations === 'undefined') {
+            console.warn('Translations not loaded, returning key:', key);
+            return key;
+        }
+
+        const locale = window.currentLocale || 'en';
+
+        // Get translation from the appropriate language object
+        const translation = (translations[locale] && translations[locale][key]) ||
+                           (translations.en && translations.en[key]) ||
+                           key;
+
+        return translation;
+    }
+    // Make t function globally available
+    window.t = t;
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <!-- Enhancement scripts for robust integration -->
@@ -179,25 +215,31 @@
         box-sizing: border-box;
         margin-bottom: 12px; /* UPDATED MARGIN */
     }
-     .accordion-content input[type="file"] {
-      color: var(--app-text-secondary-dark-theme);
-      background-color: var(--app-surface-dark);
-      border: 1px solid var(--app-border-dark);
-      border-radius: 5px;
-      padding: 8px;
-      font-size: 13px;
-      margin-bottom: 12px;
-      width: 100%;
+     /* Custom file input styling */
+    .custom-file-input-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 12px;
     }
-     .accordion-content input[type="file"]::file-selector-button {
-        margin-right: 10px;
-        border: 1px solid var(--app-border-dark);
-        background: var(--app-bg-dark);
-        padding: 4px 8px;
-        border-radius: 3px;
+    .custom-file-button {
+        background-color: var(--app-surface-dark);
         color: var(--app-text-primary-dark-theme);
+        border: 1px solid var(--app-border-dark);
+        padding: 8px 16px;
+        font-size: 13px;
+        border-radius: 5px;
         cursor: pointer;
-     }
+        font-weight: 500;
+        transition: background-color 0.15s ease;
+    }
+    .custom-file-button:hover {
+        background-color: rgba(255,255,255,0.1);
+    }
+    .file-input-status {
+        color: var(--app-text-secondary-dark-theme);
+        font-size: 13px;
+    }
     .accordion-content input[type="color"] {
          width: 100%; padding: 2px; height: 38px; margin-bottom: 12px; border-radius: 5px; border-color: var(--app-border-dark);
     }
@@ -768,15 +810,15 @@
     <div id="menuOverlay" class="menu-overlay"></div>
     <div class="panel">
       <div class="panel-header">
-        <h2>Worksheet Settings</h2>
+        <h2 data-translate="worksheetSettings">Worksheet Settings</h2>
         <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
       </div>
       <div class="panel-content">
 
         <div class="accordion-item">
-            <button class="accordion-button active" data-translate="settings">Language Settings</button>
+            <button class="accordion-button active" data-translate="worksheetContentSettings">Worksheet Content Settings</button>
             <div class="accordion-content active">
-                <label for="languageSelect" data-translate="language">Language:</label>
+                <label for="languageSelect" data-translate="worksheetContentLanguage">Worksheet Content Language:</label>
                 <select id="languageSelect">
                     <option value="en">English</option>
                     <option value="de">Deutsch</option>
@@ -794,59 +836,59 @@
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Page Setup</button>
+            <button class="accordion-button" data-translate="pageSetup">Page Setup</button>
             <div class="accordion-content active">
-                <label for="pageSizeSelect">Page Size:</label>
+                <label for="pageSizeSelect" data-translate="pageSize">Page Size:</label>
                 <select id="pageSizeSelect">
-                    <option value="612x792">Letter Portrait (612×792)</option>
-                    <option value="792x612">Letter Landscape (792×612)</option>
-                    <option value="595x842">A4 Portrait (595×842)</option>
-                    <option value="842x595">A4 Landscape (842×595)</option>
-                    <option value="1200x1200">Square (1200×1200)</option>
-                    <option value="custom">Custom</option>
+                    <option value="612x792" data-translate="letterPortrait">Letter Portrait (612×792)</option>
+                    <option value="792x612" data-translate="letterLandscape">Letter Landscape (792×612)</option>
+                    <option value="595x842" data-translate="a4Portrait">A4 Portrait (595×842)</option>
+                    <option value="842x595" data-translate="a4Landscape">A4 Landscape (842×595)</option>
+                    <option value="1200x1200" data-translate="square">Square (1200×1200)</option>
+                    <option value="custom" data-translate="custom">Custom</option>
                 </select>
                 <div id="customPageSizeInputs" style="display:none;">
-                    <label for="pageWidth">Width (px):</label>
+                    <label for="pageWidth" data-translate="width">Width (px):</label>
                     <input type="number" id="pageWidth" value="612">
-                    <label for="pageHeight">Height (px):</label>
+                    <label for="pageHeight" data-translate="height">Height (px):</label>
                     <input type="number" id="pageHeight" value="792">
                 </div>
-                <label for="pageColor">Page Color:</label>
+                <label for="pageColor" data-translate="pageColor">Page Color:</label>
                 <input type="color" id="pageColor" value="#FFFFFF">
-                <button id="setPageSizeBtn">Apply Size</button>
+                <button id="setPageSizeBtn" data-translate="applySize">Apply Size</button>
                 
-                <h4>Background</h4>
-                <label for="backgroundThemeSelect">Background Theme:</label>
+                <h4 data-translate="background">Background</h4>
+                <label for="backgroundThemeSelect" data-translate="backgroundTheme">Background Theme:</label>
                 <select id="backgroundThemeSelect">
-                    <option value="none">None</option>
+                    <option value="none" data-translate="none">None</option>
                 </select>
-                <div id="backgroundDictionary"><p class="dictionary-message">Select a theme for backgrounds.</p></div>
-                <label for="backgroundOpacitySlider">Background Opacity:</label>
+                <div id="backgroundDictionary"><p class="dictionary-message" data-translate="selectBackgroundTheme">Select a theme for backgrounds.</p></div>
+                <label for="backgroundOpacitySlider" data-translate="backgroundOpacity">Background Opacity:</label>
                 <input type="range" id="backgroundOpacitySlider" min="0" max="1" step="0.05" value="1" disabled>
 
-                <h4>Border</h4>
-                <label for="borderThemeSelect">Border Theme:</label>
+                <h4 data-translate="border">Border</h4>
+                <label for="borderThemeSelect" data-translate="borderTheme">Border Theme:</label>
                 <select id="borderThemeSelect">
-                    <option value="none">None</option>
+                    <option value="none" data-translate="none">None</option>
                 </select>
                 <div id="borderDictionary">
-                    <p class="dictionary-message">Select a theme to see borders.</p>
+                    <p class="dictionary-message" data-translate="selectBorderTheme">Select a theme to see borders.</p>
                 </div>
-                <label for="borderOpacitySlider">Border Opacity:</label>
+                <label for="borderOpacitySlider" data-translate="borderOpacity">Border Opacity:</label>
                 <input type="range" id="borderOpacitySlider" min="0" max="1" value="1" step="0.05" disabled>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Text Tools</button>
+            <button class="accordion-button" data-translate="textTools">Text Tools</button>
             <div class="accordion-content">
-                <h4>Add New Text</h4>
-                <label for="textInput">Content:</label><input type="text" id="textInput" placeholder="Hello!">
-                <button id="addTextBtn">Add Text</button>
-                <h4>Selected Text Properties</h4>
-                <label for="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
-                <label for="fontSize">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
-                <label for="fontFamily">Font:</label>
+                <h4 data-translate="addNewText">Add New Text</h4>
+                <label for="textInput" data-translate="content">Content:</label><input type="text" id="textInput" placeholder="Hello!">
+                <button id="addTextBtn" data-translate="addText">Add Text</button>
+                <h4 data-translate="selectedTextProperties">Selected Text Properties</h4>
+                <label for="textColor" data-translate="color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                <label for="fontSize" data-translate="size">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+                <label for="fontFamily" data-translate="font">Font:</label>
                 <select id="fontFamily" disabled>
                     <option value="Lexend Deca">Lexend Deca</option>
                     <option value="Baloo 2">Baloo 2</option>
@@ -856,59 +898,63 @@
                     <option value="Arial">Arial</option>
                     <option value="Verdana">Verdana</option>
                 </select>
-                <label for="textStrokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
-                <label for="textStrokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+                <label for="textStrokeColor" data-translate="outlineColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                <label for="textStrokeWidth" data-translate="outlineWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
             </div>
         </div>
 
 
         <div class="accordion-item">
-            <button class="accordion-button">Exercise Configuration</button>
+            <button class="accordion-button" data-translate="exerciseConfiguration">Exercise Configuration</button>
             <div class="accordion-content">
-                <label for="problemCount">Number of Exercises (1–10):</label>
+                <label for="problemCount" data-translate="numberOfExercises">Number of Exercises (1–10):</label>
                 <input type="number" id="problemCount" value="5" min="1" max="10" />
-                <label for="minOperand">Min items per group (1-10):</label>
+                <label for="minOperand" data-translate="minItemsPerGroup">Min items per group (1-10):</label>
                 <input type="number" id="minOperand" value="1" min="1" max="10">
-                <label for="maxOperand">Max items per group (1-10):</label>
+                <label for="maxOperand" data-translate="maxItemsPerGroup">Max items per group (1-10):</label>
                 <input type="number" id="maxOperand" value="5" min="1" max="10">
                 <label for="includeNameDate" class="checkbox-label">
-                    <input type="checkbox" id="includeNameDate" />Include Name/Date Fields
+                    <input type="checkbox" id="includeNameDate" /><span data-translate="includeNameDateFields">Include Name/Date Fields</span>
                 </label>
                 <label for="showPlusSign" class="checkbox-label">
-                    <input type="checkbox" id="showPlusSign" checked />Show '+' Between Image Groups
+                    <input type="checkbox" id="showPlusSign" checked /><span data-translate="showPlusSignBetweenGroups">Show '+' Between Image Groups</span>
                 </label>
                 <label for="includeExerciseNumbers" class="checkbox-label">
-                    <input type="checkbox" id="includeExerciseNumbers" checked />Include Exercise Numbers
+                    <input type="checkbox" id="includeExerciseNumbers" checked /><span data-translate="includeExerciseNumbers">Include Exercise Numbers</span>
                 </label>
                 <label for="useFriendlyBox" class="checkbox-label">
-                    <input type="checkbox" id="useFriendlyBox" checked />Use child-friendly box for expressions
+                    <input type="checkbox" id="useFriendlyBox" checked /><span data-translate="useChildFriendlyBox">Use child-friendly box for expressions</span>
                 </label>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Image Library</button>
+            <button class="accordion-button" data-translate="imageLibrary">Image Library</button>
             <div class="accordion-content">
-                <label for="themeSelect">Select Theme:</label>
+                <label for="themeSelect" data-translate="selectTheme">Select Theme:</label>
                 <select id="themeSelect"></select>
-                <label for="searchInput">Search Images:</label>
+                <label for="searchInput" data-translate="searchImages">Search Images:</label>
                 <input type="text" id="searchInput" placeholder="e.g., apple, car" />
-                <p class="selected-count" id="selectedCountMsg">Selected: 0 / (Number of Exercises)</p>
-                <label>Available Images:</label>
-                <div id="dictionary"><p class='dictionary-message'>Loading images...</p></div>
-                <label style="margin-top:10px;">Selected Images for Problems:</label>
+                <p class="selected-count" id="selectedCountMsg" data-translate="selectedCount">Selected: 0 / (Number of Exercises)</p>
+                <label data-translate="availableImages">Available Images:</label>
+                <div id="dictionary"><p class='dictionary-message' data-translate="loadingImages">Loading images...</p></div>
+                <label style="margin-top:10px;" data-translate="selectedImagesForProblems">Selected Images for Problems:</label>
                 <div id="selectedImagesPreview" class="selected-preview"></div>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Upload Custom Images</button>
+            <button class="accordion-button" data-translate="uploadCustomImages">Upload Custom Images</button>
             <div class="accordion-content">
-                <label for="imageUploadInput">Select image(s) to upload:</label>
-                <input type="file" id="imageUploadInput" multiple accept="image/*">
-                <label style="margin-top:10px;">Your Uploaded Images (This Session):</label>
+                <label for="imageUploadInput" data-translate="selectImagesToUpload">Select image(s) to upload:</label>
+                <div class="custom-file-input-wrapper">
+                    <input type="file" id="imageUploadInput" multiple accept="image/*" style="display: none;">
+                    <button type="button" id="customFileButton" class="custom-file-button" data-translate="chooseFiles">Choose Files</button>
+                    <span id="fileInputStatus" class="file-input-status" data-translate="noFileChosen">No file chosen</span>
+                </div>
+                <label style="margin-top:10px;" data-translate="yourUploadedImages">Your Uploaded Images (This Session):</label>
                 <div id="uploadedImagesPreview">
-                    <p class="dictionary-message">Your uploaded images will appear here.</p>
+                    <p class="dictionary-message" data-translate="uploadedImagesWillAppearHere">Your uploaded images will appear here.</p>
                 </div>
             </div>
         </div>
@@ -927,8 +973,8 @@
               <div class="toolbar-item">
                   <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
                   <div class="dropdown-content" id="layersDropdown">
-                          <button id="toolbarBringForwardBtn">Bring Forward</button>
-                          <button id="toolbarSendBackwardBtn">Send Backward</button>
+                          <button id="toolbarBringForwardBtn" data-translate="bringForward">Bring Forward</button>
+                          <button id="toolbarSendBackwardBtn" data-translate="sendBackward">Send Backward</button>
                   </div>
               </div>
           </div>
@@ -936,7 +982,7 @@
               <div class="toolbar-item">
                   <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
                   <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
-                          <p style="font-size:11px; margin-bottom:5px; color:#555;">Align Selected:</p>
+                          <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="alignSelected">Align Selected:</p>
                           <div>
                                   <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
                                   <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
@@ -948,7 +994,7 @@
                                   <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
                           </div>
                           <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
-                          <p style="font-size:11px; margin-bottom:5px; color:#555;">Align to Page:</p>
+                          <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="alignToPage">Align to Page:</p>
                           <div>
                                   <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
                                   <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
@@ -962,31 +1008,31 @@
       </div>
       <div class="top-right-actions">
           <div class="dropdown-container">
-            <button id="generateDropdownBtn" class="action-button accent">Generate <i class="fas fa-caret-down"></i></button>
+            <button id="generateDropdownBtn" class="action-button accent"><span data-translate="generate">Generate</span> <i class="fas fa-caret-down"></i></button>
             <div id="generateDropdownContent" class="dropdown-content">
-                <button id="generateWorksheetBtn">Generate Worksheet</button>
-                <button id="generateAnswerKeyBtn" disabled>Generate Answer Key</button>
+                <button id="generateWorksheetBtn" data-translate="generateWorksheet">Generate Worksheet</button>
+                <button id="generateAnswerKeyBtn" disabled data-translate="generateAnswerKey">Generate Answer Key</button>
             </div>
           </div>
         <div class="dropdown-container">
-            <button id="downloadDropdownBtn" class="action-button secondary">Download <i class="fas fa-caret-down"></i></button>
+            <button id="downloadDropdownBtn" class="action-button secondary"><span data-translate="download">Download</span> <i class="fas fa-caret-down"></i></button>
             <div id="downloadDropdownContent" class="dropdown-content">
-                <button id="downloadWorksheetJpegBtn" disabled>Worksheet (JPEG)</button>
-                <button id="downloadAnswerKeyJpegBtn" disabled>Answer Key (JPEG)</button>
-                <button id="downloadWorksheetPdfBtn" disabled>Worksheet (PDF)</button>
-                <button id="downloadAnswerKeyPdfBtn" disabled>Answer Key (PDF)</button>
+                <button id="downloadWorksheetJpegBtn" disabled data-translate="worksheetJpeg">Worksheet (JPEG)</button>
+                <button id="downloadAnswerKeyJpegBtn" disabled data-translate="answerKeyJpeg">Answer Key (JPEG)</button>
+                <button id="downloadWorksheetPdfBtn" disabled data-translate="worksheetPdf">Worksheet (PDF)</button>
+                <button id="downloadAnswerKeyPdfBtn" disabled data-translate="answerKeyPdf">Answer Key (PDF)</button>
                 <hr style="margin: 6px 0; border-color: var(--app-border-light);">
                 <label class="checkbox-label">
-                    <input type="checkbox" id="grayscaleToggle" />Grayscale
+                    <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                 </label>
             </div>
         </div>
-        <button id="clearBtn" class="action-button danger">Clear All</button>
+        <button id="clearBtn" class="action-button danger" data-translate="clearAll">Clear All</button>
       </div>
 
       <div class="tab-row">
-        <button class="tab-button active" data-tab="worksheetTab">Worksheet</button>
-        <button class="tab-button" data-tab="answerKeyTab">Answer Key</button>
+        <button class="tab-button active" data-tab="worksheetTab" data-translate="worksheet">Worksheet</button>
+        <button class="tab-button" data-tab="answerKeyTab" data-translate="answerKey">Answer Key</button>
       </div>
       <div class="tab-content-wrapper">
         <div class="tab active" id="worksheetTab">
@@ -1008,16 +1054,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
-  <script>
-    // Set currentLocale globally BEFORE DOMContentLoaded (like wordsearch.html does)
-    let currentLocale = 'en';
-    const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get('locale')) {
-        currentLocale = urlParams.get('locale');
-    }
-    window.currentLocale = currentLocale; // Make it globally accessible for BulletproofLoader
-    console.log('Global currentLocale set to:', currentLocale);
-  </script>
 
   <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -1057,8 +1093,81 @@
 
 
       // Language/locale handling
-      // currentLocale is already set globally before DOMContentLoaded
-      
+      // uiLocale and currentLocale are already set globally before DOMContentLoaded
+      // uiLocale = interface language (buttons, menus, messages)
+      // currentLocale = worksheet content language (image names, themes, canvas text)
+
+      // Translation function
+      function t(key) {
+          // Check if translations object exists
+          if (typeof translations === 'undefined') {
+              console.warn('Translations not loaded');
+              return key;
+          }
+
+          // Get translation for UI locale (interface language)
+          const localeTranslations = translations[uiLocale];
+          if (localeTranslations && localeTranslations[key]) {
+              return localeTranslations[key];
+          }
+
+          // Fall back to English if available
+          if (translations.en && translations.en[key]) {
+              return translations.en[key];
+          }
+
+          // Return the key itself as fallback
+          return key;
+      }
+
+      // Initialize translations for all elements with data-translate
+      function initializeTranslations() {
+          const elements = document.querySelectorAll('[data-translate]');
+          elements.forEach(element => {
+              const key = element.getAttribute('data-translate');
+              const translation = t(key);
+
+              // For option elements, preserve the value attribute
+              if (element.tagName === 'OPTION') {
+                  element.textContent = translation;
+              } else if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                  // For input elements, update placeholder if it exists
+                  if (element.hasAttribute('placeholder')) {
+                      element.placeholder = translation;
+                  }
+              } else {
+                  // For most elements, update text content
+                  // Preserve any child elements (like icons)
+                  if (element.querySelector('i')) {
+                      // Has an icon, update only the text node
+                      const textNode = Array.from(element.childNodes).find(node => node.nodeType === Node.TEXT_NODE);
+                      if (textNode) {
+                          textNode.textContent = translation;
+                      } else if (element.querySelector('span[data-translate]')) {
+                          // Update the span with translation
+                          element.querySelector('span[data-translate]').textContent = translation;
+                      }
+                  } else {
+                      element.textContent = translation;
+                  }
+              }
+          });
+
+          // Update page title
+          const titleElement = document.querySelector('title[data-translate]');
+          if (titleElement) {
+              const key = titleElement.getAttribute('data-translate');
+              document.title = t(key);
+          }
+      }
+
+      // Alias for compatibility
+      const applyTranslations = initializeTranslations;
+      window.applyTranslations = initializeTranslations;
+
+      // Initialize translations on load
+      initializeTranslations();
+
       let allImages = [];
       let uploadedImages = [];
       let selectedImages = [];
@@ -1088,6 +1197,8 @@
 
       const imageUploadInput = document.getElementById("imageUploadInput");
       const uploadedImagesPreviewDiv = document.getElementById("uploadedImagesPreview");
+      const customFileButton = document.getElementById("customFileButton");
+      const fileInputStatus = document.getElementById("fileInputStatus");
 
       const generateDropdownBtn = document.getElementById("generateDropdownBtn");
       const generateDropdownContent = document.getElementById("generateDropdownContent");
@@ -1159,24 +1270,52 @@
       const generateDropdown = setupDropdown(generateDropdownBtn, generateDropdownContent);
       const downloadDropdown = setupDropdown(downloadDropdownBtn, downloadDropdownContent);
 
-      // Set language dropdown value
+      // Set content language dropdown value
       if (languageSelect && currentLocale) {
           languageSelect.value = currentLocale;
       }
 
-      // Language change handler
+      // Content language change handler
       if (languageSelect) {
-          languageSelect.addEventListener('change', (e) => {
+          languageSelect.addEventListener('change', async (e) => {
               const newLocale = e.target.value;
-              // Clear all cached data
+              console.log('Content language changed to:', newLocale);
+
+              // Update global content locale (for worksheet)
+              currentLocale = newLocale;
+              window.currentLocale = newLocale;
+
+              // Re-apply translations to UI
+              initializeTranslations();
+
+              // Clear cached data
               selectedImages = [];
               uploadedImages = [];
               allImages = [];
-              
-              // Update URL and reload
+
+              // Use UnifiedLanguageManager if available (for borders/backgrounds)
+              if (window.UnifiedLanguageManager) {
+                  await window.UnifiedLanguageManager.changeLanguage(newLocale);
+              }
+
+              // Reload themes and images with new content locale
+              loadThemes();  // This should use currentLocale
+
+              // Fix "None" translation after language change
+              setTimeout(() => {
+                  const noneOptions = document.querySelectorAll('option[value="none"]');
+                  noneOptions.forEach(option => {
+                      option.textContent = t('none');
+                  });
+              }, 200);
+
+              // Note: We do NOT call translatePage() here because that's for UI language
+              // UI language is controlled by the main app's language selector in the header
+
+              // Update URL to persist content locale choice
               const url = new URL(window.location.href);
-              url.searchParams.set('locale', newLocale);
-              window.location.href = url.toString();
+              url.searchParams.set('content', newLocale);
+              window.history.pushState({}, '', url);
           });
       }
 
@@ -1445,7 +1584,7 @@
           activeCanvas.setActiveObject(textObject);
           activeCanvas.renderAll();
           textInput.value = '';
-          showMessage('Text added to worksheet.', 'success', 1500);
+          showMessage(t('textAddedToWorksheet'), 'success', 1500);
       });
 
       function updateActiveTextObjectProperties() {
@@ -1655,7 +1794,7 @@
             return res.json(); 
           })
           .then(themes => {
-            themeSelect.innerHTML = '<option value="all">All Themes</option>';
+            themeSelect.innerHTML = `<option value="all">${t('allThemes')}</option>`;
             themes.forEach(theme => {
                 const opt = document.createElement("option");
                 opt.value = theme.value;
@@ -1666,8 +1805,8 @@
           })
           .catch(err => { 
             console.error("Error loading themes:", err); 
-            showMessage("Could not load themes.", 'error'); 
-            dictionaryDiv.innerHTML = "<p class='dictionary-message'>Error loading themes. Please refresh the page.</p>"; 
+            showMessage(t('couldNotLoadThemes'), 'error'); 
+            dictionaryDiv.innerHTML = `<p class='dictionary-message'>${t('errorLoadingThemes')}</p>`; 
           });
       }
 
@@ -1680,7 +1819,7 @@
         // If "All Themes" is selected, use the new server-side search
         if (theme === 'all') {
             if (!query) {
-                dictionaryDiv.innerHTML = `<p class="dictionary-message">Select a theme or type to search all images.</p>`;
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('selectThemeOrSearch')}</p>`;
                 allImages = []; // Clear global store
                 // Load a default theme (animals) to show some images
                 try {
@@ -1695,7 +1834,7 @@
                 }
             } else {
                 // Show a "Searching..." message while waiting for the server
-                dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('searching')}</p>`;
                 try {
                     // Fetch results from the server instead of filtering locally
                     const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
@@ -1706,14 +1845,14 @@
                 } catch (err) {
                      console.error("Error searching images:", err);
                      showMessage(err.message, 'error');
-                     dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error during search.</p>`;
+                     dictionaryDiv.innerHTML = `<p class='dictionary-message'>${t('errorDuringSearch')}</p>`;
                      allImages = [];
                      return;
                 }
             }
         } else {
             // This is the logic for fetching and filtering a specific theme
-            dictionaryDiv.innerHTML = `<p class='dictionary-message'>Loading images for theme: ${themeSelect.options[themeSelect.selectedIndex].text}... Please wait.</p>`;
+            dictionaryDiv.innerHTML = `<p class='dictionary-message'>${t('loadingImagesForTheme').replace('{}', themeSelect.options[themeSelect.selectedIndex].text)}</p>`;
             try {
                 const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
                 if (!res.ok) throw new Error(`Failed to load images for theme`);
@@ -1727,7 +1866,7 @@
                 }) : themeImages;
             } catch (err) {
                 console.error("Error loading dictionary:", err);
-                dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error loading images.</p>`;
+                dictionaryDiv.innerHTML = `<p class='dictionary-message'>${t('errorLoadingImages')}</p>`;
                 allImages = [];
                 return;
             }
@@ -1736,7 +1875,7 @@
         // This is the original rendering logic for displaying the results
         dictionaryDiv.innerHTML = "";
         if (imagesToRender.length === 0) {
-            dictionaryDiv.innerHTML = `<p class="dictionary-message">No images found${query ? ` matching "${query}"` : ''}.</p>`;
+            dictionaryDiv.innerHTML = `<p class="dictionary-message">${query ? t('noImagesFoundMatching').replace('{}', query) : t('noImagesFound')}</p>`;
             return;
         }
 
@@ -1788,7 +1927,7 @@
     function renderUploadedImages() {
         uploadedImagesPreviewDiv.innerHTML = "";
         if (uploadedImages.length === 0) {
-            uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">Your uploaded images will appear here.</p>`;
+            uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">${t('uploadedImagesWillAppearHere')}</p>`;
             return;
         }
         uploadedImages.forEach(img => {
@@ -1810,7 +1949,7 @@
         if (index !== -1) { 
             selectedImages.splice(index, 1);
         } else {
-          if (selectedImages.length >= currentProblemCount) { showMessage(`Max ${currentProblemCount} image(s) selected.`, 'info'); return; }
+          if (selectedImages.length >= currentProblemCount) { showMessage(t('maxImagesSelected').replace('{}', currentProblemCount), 'info'); return; }
           selectedImages.push(image);
         }
         renderSelectedImages();
@@ -1835,7 +1974,7 @@
         selectedImagesPreviewDiv.innerHTML = "";
         selectedImages.forEach(img => { const imgEl = document.createElement("img"); imgEl.src = img.path; imgEl.alt = img.word; imgEl.onclick = () => toggleImageSelection(img); selectedImagesPreviewDiv.appendChild(imgEl); });
         const currentProblemCount = parseInt(problemCountInput.value, 10) || DEFAULT_EXERCISES;
-        selectedCountMsg.textContent = `Selected: ${selectedImages.length} / ${currentProblemCount}`;
+        selectedCountMsg.textContent = t('selectedCount').replace('{}', `${selectedImages.length} / ${currentProblemCount}`);
       }
 
       function clearAll() {
@@ -1854,7 +1993,7 @@
             worksheetCanvas.remove(existingBorder);
         }
         borderThemeSelect.value = "none";
-        borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
+        borderDictionary.innerHTML = `<p class="dictionary-message">${t('selectBorderTheme')}</p>`;
         borderOpacitySlider.value = 1;
         borderOpacitySlider.disabled = true;
 
@@ -1863,7 +2002,7 @@
             worksheetCanvas.remove(existingBackground);
         }
         backgroundThemeSelect.value = "none";
-        backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme for backgrounds.</p>';
+        backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('selectBackgroundTheme')}</p>`;
         backgroundOpacitySlider.value = 1;
         backgroundOpacitySlider.disabled = true;
 
@@ -1888,7 +2027,7 @@
         pageSizeSelect.value = "612x792"; customPageSizeInputsDiv.style.display = 'none';
         updateCanvasDisplayDimensions(612,792);
         handleSelectionCleared(null, getActiveCanvas());
-        showMessage("Form cleared.", "success", 2000); 
+        showMessage(t('formCleared'), "success", 2000); 
         loadDictionary();
       }
 
@@ -1918,7 +2057,7 @@
             }
             
             if (sourcePool.length === 0) {
-                showMessage("No images available in the library. Try uploading some!", 'error'); 
+                showMessage(t('noImagesAvailable'), 'error'); 
                 return []; 
             }
 
@@ -1958,7 +2097,7 @@
 
         const exerciseImages = await prepareExerciseImages(currentProblemCount);
         if (exerciseImages.length === 0) {
-            showMessage('Please select some images first, either from the library or by uploading your own.', 'info');
+            showMessage(t('pleaseSelectImages'), 'info');
             return;
         }
 
@@ -1992,8 +2131,11 @@
 
         let currentY = 20;
         if (includeNameDate) {
-            const nameTextContent = "Name: _________________________";
-            const dateTextContent = "Date: ____________";
+            // Use content locale for worksheet text
+            const nameLabel = translations[currentLocale]?.nameLabel || translations.en?.nameLabel || "Name:";
+            const dateLabel = translations[currentLocale]?.dateLabel || translations.en?.dateLabel || "Date:";
+            const nameTextContent = `${nameLabel} _________________________`;
+            const dateTextContent = `${dateLabel} ____________`;
             const textOptions = { fontSize: 18, fontFamily: 'Fredoka', fill: '#333' };
             const nameTextObj = new fabric.Textbox(nameTextContent, { ...textOptions, left: 0, top: 0 });
             const estimatedNameWidth = nameTextObj.width || nameTextContent.length * (textOptions.fontSize * 0.6);
@@ -2138,12 +2280,12 @@
         downloadWorksheetJpegBtn.disabled = false;
         downloadWorksheetPdfBtn.disabled = false;
         generateAnswerKeyBtn.disabled = false;
-        showMessage("Worksheet generated successfully!", "success");
+        showMessage(t('worksheetGeneratedSuccessfully'), "success");
     }
 
     async function generateAnswerKeyFromCanvas() {
         if (!worksheetCanvas || !worksheetCanvas.problemsData) {
-            showMessage("Please generate a worksheet first.", "error");
+            showMessage(t('pleaseGenerateWorksheetFirst'), "error");
             return;
         }
 
@@ -2195,8 +2337,11 @@
 
         let currentY = 20;
         if (includeNameDate) {
-            const nameTextContent = "Name: _________________________";
-            const dateTextContent = "Date: ____________";
+            // Use content locale for worksheet text
+            const nameLabel = translations[currentLocale]?.nameLabel || translations.en?.nameLabel || "Name:";
+            const dateLabel = translations[currentLocale]?.dateLabel || translations.en?.dateLabel || "Date:";
+            const nameTextContent = `${nameLabel} _________________________`;
+            const dateTextContent = `${dateLabel} ____________`;
             const textOptions = { fontSize: 18, fontFamily: 'Fredoka', fill: '#333' };
             const nameTextObj = new fabric.Textbox(nameTextContent, { ...textOptions, left: 0, top: 0 });
             const estimatedNameWidth = nameTextObj.width || nameTextContent.length * (textOptions.fontSize * 0.6);
@@ -2340,7 +2485,7 @@
         document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
         downloadAnswerKeyJpegBtn.disabled = false;
         downloadAnswerKeyPdfBtn.disabled = false;
-        showMessage("Answer key generated!", "success");
+        showMessage(t('answerKeyGenerated'), "success");
     }
 
     // START: Standardized Download Functions
@@ -2419,7 +2564,7 @@
                 dataURL = await applyGrayscaleToDataURL(dataURL);
             } catch (error) {
                 console.error("Grayscale failed:", error);
-                showMessage(`Grayscale failed: ${error.message}`, 'error');
+                showMessage(t('grayscaleFailed').replace('{}', error.message), 'error');
                 // If grayscale fails, we return the original colored image data URL
             }
         }
@@ -2447,7 +2592,7 @@
      */
     async function downloadJpegFile(canvasInstance, fileName) {
         if (!canvasInstance || canvasInstance.getObjects().length === 0) {
-            showMessage("Please generate the content before downloading.", "error");
+            showMessage(t('pleaseGenerateContentFirst'), "error");
             return;
         }
         showMessage(`Preparing ${fileName}...`, 'info', 0);
@@ -2480,9 +2625,9 @@
             });
             
             triggerDownload(dataURL, fileName);
-            showMessage('Download Initiated!', 'success');
+            showMessage(t('downloadInitiated'), 'success');
         } catch (e) {
-            showMessage(`JPEG Error: ${e.message}`, 'error');
+            showMessage(t('jpegError').replace('{}', e.message), 'error');
         }
     }
 
@@ -2493,7 +2638,7 @@
      */
     async function downloadPdfFile(canvasInstance, fileName) {
         if (!canvasInstance || canvasInstance.getObjects().length === 0) {
-            showMessage("Please generate the content before downloading.", "error");
+            showMessage(t('pleaseGenerateContentFirst'), "error");
             return;
         }
         showMessage(`Preparing ${fileName}...`, 'info', 0);
@@ -2536,9 +2681,9 @@
             });
             
             pdf.save(fileName);
-            showMessage("PDF Downloaded!", "success");
+            showMessage(t('pdfDownloaded'), "success");
         } catch (e) {
-            showMessage(`PDF Error: ${e.message}`, "error");
+            showMessage(t('pdfError').replace('{}', e.message), "error");
         }
     }
     // END: Standardized Download Functions
@@ -2553,7 +2698,7 @@
     function loadBorderImages() {
         const theme = borderThemeSelect.value;
         if (theme === 'none') {
-            borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
+            borderDictionary.innerHTML = `<p class="dictionary-message">${t('selectBorderTheme')}</p>`;
             const existingBorder = worksheetCanvas.getObjects().find(obj => obj.isBorder);
             if (existingBorder) {
                 worksheetCanvas.remove(existingBorder).renderAll();
@@ -2563,7 +2708,7 @@
             return;
         }
         
-        borderDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} borders...</p>`;
+        borderDictionary.innerHTML = `<p class="dictionary-message">${t('loadingBorders').replace('{}', theme)}</p>`;
 
         // Use filesystem endpoint for specific themes
         const apiUrl = `/api/borders/images?theme=${theme}`;
@@ -2576,14 +2721,14 @@
             })
             .catch(err => {
                 console.error('Error loading border images:', err);
-                borderDictionary.innerHTML = '<p class="dictionary-message">Error loading borders.</p>';
+                borderDictionary.innerHTML = `<p class="dictionary-message">${t('errorLoadingBorders')}</p>`;
             });
     }
 
     function loadBackgroundImages() {
         const theme = backgroundThemeSelect.value;
         if (theme === 'none') {
-            backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme for backgrounds.</p>';
+            backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('selectBackgroundTheme')}</p>`;
             [worksheetCanvas, answerKeyCanvas].forEach(c => {
                  const existingBg = c.getObjects().find(obj => obj.isBackground);
                  if (existingBg) c.remove(existingBg).renderAll();
@@ -2593,7 +2738,7 @@
             return;
         }
         
-        backgroundDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} backgrounds...</p>`;
+        backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('loadingBackgrounds').replace('{}', theme)}</p>`;
 
         // Use filesystem endpoint for specific themes
         const apiUrl = `/api/backgrounds/images?theme=${theme}`;
@@ -2695,7 +2840,7 @@
             borderOpacitySlider.disabled = false;
         } else if (propName === 'isBackground') {
             backgroundOpacitySlider.disabled = false;
-            showMessage('Background added.', 'success', 1500);
+            showMessage(t('backgroundAdded'), 'success', 1500);
         }
     }
 
@@ -2738,14 +2883,33 @@
 
       clearBtn.addEventListener("click", clearAll);
       problemCountInput.addEventListener("input", renderSelectedImages);
+      // Custom file input handling
+      customFileButton.addEventListener('click', () => {
+          imageUploadInput.click();
+      });
+
       imageUploadInput.addEventListener('change', (e) => {
           const files = e.target.files;
-          if(!files || files.length === 0) return;
+          if(!files || files.length === 0) {
+              fileInputStatus.textContent = t('noFileChosen');
+              fileInputStatus.setAttribute('data-translate', 'noFileChosen');
+              return;
+          }
+
+          // Update file status with count
+          const fileCount = files.length;
+          if (fileCount === 1) {
+              fileInputStatus.textContent = files[0].name;
+              fileInputStatus.removeAttribute('data-translate');
+          } else {
+              fileInputStatus.textContent = t('filesSelected').replace('{}', fileCount);
+              fileInputStatus.removeAttribute('data-translate');
+          }
 
           let filesToLoad = Array.from(files).filter(f => f.type.startsWith('image/')).length;
           if(filesToLoad === 0) return;
           
-          uploadedImagesPreviewDiv.innerHTML = `<p class='dictionary-message'>Loading ${filesToLoad} image(s)...</p>`;
+          uploadedImagesPreviewDiv.innerHTML = `<p class='dictionary-message'>${t('loadingImagesCount').replace('{}', filesToLoad)}</p>`;
           
           for(const file of files) {
               if(!file.type.startsWith('image/')) continue;
@@ -2757,12 +2921,12 @@
                   filesToLoad--;
                   if (filesToLoad === 0) {
                       renderUploadedImages();
-                      showMessage(`${uploadedImages.length} custom image(s) available.`, 'success');
+                      showMessage(t('customImagesAvailable').replace('{}', uploadedImages.length), 'success');
                   }
               };
               reader.onerror = () => {
                   filesToLoad--;
-                  showMessage(`Error reading file: ${file.name}`, 'error');
+                  showMessage(t('errorReadingFile').replace('{}', file.name), 'error');
               };
               reader.readAsDataURL(file);
           }
@@ -2790,12 +2954,12 @@
       generateWorksheetBtn.addEventListener("click", async () => {
         if (generateDropdownContent) generateDropdownContent.style.display = 'none';
         try { await generateWorksheet(); }
-        catch (e) { console.error("Error generating worksheet:", e); showMessage("Error during generation: " + e.message, 'error'); }
+        catch (e) { console.error("Error generating worksheet:", e); showMessage(t('errorDuringGeneration').replace('{}', e.message), 'error'); }
       });
       generateAnswerKeyBtn.addEventListener("click", async () => {
         if (generateDropdownContent) generateDropdownContent.style.display = 'none';
         try { await generateAnswerKeyFromCanvas(); }
-        catch (e) { console.error("Error generating answer key:", e); showMessage("Error during generation: " + e.message, 'error'); }
+        catch (e) { console.error("Error generating answer key:", e); showMessage(t('errorDuringGeneration').replace('{}', e.message), 'error'); }
       });
       
       // Toolbar Listeners
@@ -2854,6 +3018,13 @@
               locale: currentLocale  // EXPLICITLY pass the locale
           }).then(() => {
               console.log('✅ BulletproofLoader initialized successfully');
+              // Apply translations to the newly created option elements
+              setTimeout(() => {
+                  const noneOptions = document.querySelectorAll('option[value="none"]');
+                  noneOptions.forEach(option => {
+                      option.textContent = t('none');
+                  });
+              }, 100);
           }).catch(err => {
               console.error('❌ BulletproofLoader failed:', err);
           });
@@ -2936,7 +3107,7 @@
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
                 return showMessage('Please generate content first.', 'error');
             }
-            showMessage('Preparing PDF...', 'info', 0);
+            showMessage(t('preparingPDF'), 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -2959,9 +3130,9 @@
                 pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
                 
                 pdf.save(fileName);
-                showMessage('PDF downloaded!', 'success');
+                showMessage(t('pdfDownloaded'), 'success');
             } catch(e) { 
-                showMessage('Error creating PDF.', 'error'); 
+                showMessage(t('errorCreatingPDF'), 'error'); 
                 console.error(e); 
             } finally {
                 // Remove watermark after export
@@ -2975,9 +3146,9 @@
     if (originalDownloadJPEG) {
         window.downloadJPEG = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate a worksheet first.', 'error');
+                return showMessage(t('pleaseGenerateWorksheetFirst'), 'error');
             }
-            showMessage('Preparing JPEG...', 'info', 0);
+            showMessage(t('preparingJPEG'), 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -2993,9 +3164,9 @@
                 link.href = dataURL;
                 link.download = fileName;
                 link.click();
-                showMessage('JPEG download initiated!', 'success');
+                showMessage(t('jpegDownloadInitiated'), 'success');
             } catch(e) { 
-                showMessage('Error preparing JPEG.', 'error'); 
+                showMessage(t('errorPreparingJPEG'), 'error'); 
                 console.error(e); 
             } finally {
                 // Remove watermark after export

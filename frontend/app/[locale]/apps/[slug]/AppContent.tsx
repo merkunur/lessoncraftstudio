@@ -84,34 +84,6 @@ export default function AppContent({ appSlug, locale, appName }: AppContentProps
 
   return (
     <div className="app-content-container">
-      {/* Language Selector - Hide for writing app */}
-      {!isWritingApp && (
-        <div className="language-selector-bar">
-          <div className="container mx-auto px-4">
-            <div className="flex items-center justify-between py-3">
-              <h1 className="text-xl font-semibold text-gray-800">{appName}</h1>
-              <div className="flex items-center gap-3">
-                <label htmlFor="language-select" className="text-sm text-gray-600">
-                  Language:
-                </label>
-                <select
-                  id="language-select"
-                  value={selectedLocale}
-                  onChange={(e) => handleLanguageChange(e.target.value)}
-                  className="px-3 py-1.5 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-                >
-                  {languages.map((lang) => (
-                    <option key={lang.code} value={lang.code}>
-                      {lang.name}
-                    </option>
-                  ))}
-                </select>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
-
       {/* App iframe */}
       <div className="app-iframe-container">
         <iframe
@@ -127,14 +99,6 @@ export default function AppContent({ appSlug, locale, appName }: AppContentProps
         .app-content-container {
           min-height: 100vh;
           background-color: #f5f5f5;
-        }
-
-        .language-selector-bar {
-          background-color: white;
-          border-bottom: 1px solid #e5e7eb;
-          position: sticky;
-          top: 0;
-          z-index: 10;
         }
 
         .app-iframe-container {

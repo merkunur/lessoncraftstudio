@@ -32,19 +32,413 @@ interface WorksheetSamplesProps {
 }
 
 export default function WorksheetSamples({ locale = 'en' }: WorksheetSamplesProps) {
+  // Helper function to translate difficulty
+  const translateDifficulty = (difficulty: string): string => {
+    if (locale === 'de') {
+      switch(difficulty) {
+        case 'Easy':
+          return 'Einfach';
+        case 'Medium':
+          return 'Mittel';
+        case 'Hard':
+          return 'Schwer';
+        default:
+          return difficulty;
+      }
+    } else if (locale === 'fr') {
+      switch(difficulty) {
+        case 'Easy':
+          return 'Facile';
+        case 'Medium':
+          return 'Moyen';
+        case 'Hard':
+          return 'Difficile';
+        default:
+          return difficulty;
+      }
+    } else if (locale === 'es') {
+      switch(difficulty) {
+        case 'Easy':
+          return 'Fácil';
+        case 'Medium':
+          return 'Medio';
+        case 'Hard':
+          return 'Difícil';
+        default:
+          return difficulty;
+      }
+    } else if (locale === 'it') {
+      switch(difficulty) {
+        case 'Easy':
+          return 'Facile';
+        case 'Medium':
+          return 'Medio';
+        case 'Hard':
+          return 'Difficile';
+        default:
+          return difficulty;
+      }
+    } else if (locale === 'pt') {
+      switch(difficulty) {
+        case 'Easy':
+          return 'Fácil';
+        case 'Medium':
+          return 'Médio';
+        case 'Hard':
+          return 'Difícil';
+        default:
+          return difficulty;
+      }
+    } else if (locale === 'nl') {
+      switch(difficulty) {
+        case 'Easy':
+          return 'Makkelijk';
+        case 'Medium':
+          return 'Gemiddeld';
+        case 'Hard':
+          return 'Moeilijk';
+        default:
+          return difficulty;
+      }
+    } else if (locale === 'sv') {
+      switch(difficulty) {
+        case 'Easy':
+          return 'Lätt';
+        case 'Medium':
+          return 'Medel';
+        case 'Hard':
+          return 'Svår';
+        default:
+          return difficulty;
+      }
+    } else if (locale === 'da') {
+      switch(difficulty) {
+        case 'Easy':
+          return 'Let';
+        case 'Medium':
+          return 'Mellem';
+        case 'Hard':
+          return 'Svær';
+        default:
+          return difficulty;
+      }
+    } else if (locale === 'no') {
+      switch(difficulty) {
+        case 'Easy':
+          return 'Lett';
+        case 'Medium':
+          return 'Middels';
+        case 'Hard':
+          return 'Vanskelig';
+        default:
+          return difficulty;
+      }
+    } else if (locale === 'fi') {
+      switch(difficulty) {
+        case 'Easy':
+          return 'Helppo';
+        case 'Medium':
+          return 'Keskitaso';
+        case 'Hard':
+          return 'Vaikea';
+        default:
+          return difficulty;
+      }
+    }
+    return difficulty;
+  };
+
+  // Helper function to translate age range
+  const translateAgeRange = (ageRange: string): string => {
+    if (locale === 'de') {
+      switch(ageRange) {
+        case '3-5 years':
+          return '3-5 Jahre';
+        case '4-7 years':
+          return '4-7 Jahre';
+        case '5-8 years':
+          return '5-8 Jahre';
+        case '6-8 years':
+          return '6-8 Jahre';
+        case '7-10 years':
+          return '7-10 Jahre';
+        default:
+          return ageRange;
+      }
+    } else if (locale === 'fr') {
+      switch(ageRange) {
+        case '3-5 years':
+          return '3-5 ans';
+        case '4-7 years':
+          return '4-7 ans';
+        case '5-8 years':
+          return '5-8 ans';
+        case '6-8 years':
+          return '6-8 ans';
+        case '7-10 years':
+          return '7-10 ans';
+        default:
+          return ageRange;
+      }
+    } else if (locale === 'es') {
+      switch(ageRange) {
+        case '3-5 years':
+          return '3-5 años';
+        case '4-7 years':
+          return '4-7 años';
+        case '5-8 years':
+          return '5-8 años';
+        case '6-8 years':
+          return '6-8 años';
+        case '7-10 years':
+          return '7-10 años';
+        default:
+          return ageRange;
+      }
+    } else if (locale === 'it') {
+      switch(ageRange) {
+        case '3-5 years':
+          return '3-5 anni';
+        case '4-7 years':
+          return '4-7 anni';
+        case '5-8 years':
+          return '5-8 anni';
+        case '6-8 years':
+          return '6-8 anni';
+        case '7-10 years':
+          return '7-10 anni';
+        default:
+          return ageRange;
+      }
+    } else if (locale === 'pt') {
+      switch(ageRange) {
+        case '3-5 years':
+          return '3-5 anos';
+        case '4-7 years':
+          return '4-7 anos';
+        case '5-8 years':
+          return '5-8 anos';
+        case '6-8 years':
+          return '6-8 anos';
+        case '7-10 years':
+          return '7-10 anos';
+        default:
+          return ageRange;
+      }
+    } else if (locale === 'nl') {
+      switch(ageRange) {
+        case '3-5 years':
+          return '3-5 jaar';
+        case '4-7 years':
+          return '4-7 jaar';
+        case '5-8 years':
+          return '5-8 jaar';
+        case '6-8 years':
+          return '6-8 jaar';
+        case '7-10 years':
+          return '7-10 jaar';
+        default:
+          return ageRange;
+      }
+    } else if (locale === 'sv') {
+      switch(ageRange) {
+        case '3-5 years':
+          return '3-5 år';
+        case '4-7 years':
+          return '4-7 år';
+        case '5-8 years':
+          return '5-8 år';
+        case '6-8 years':
+          return '6-8 år';
+        case '7-10 years':
+          return '7-10 år';
+        default:
+          return ageRange;
+      }
+    } else if (locale === 'da') {
+      switch(ageRange) {
+        case '3-5 years':
+          return '3-5 år';
+        case '4-7 years':
+          return '4-7 år';
+        case '5-8 years':
+          return '5-8 år';
+        case '6-8 years':
+          return '6-8 år';
+        case '7-10 years':
+          return '7-10 år';
+        default:
+          return ageRange;
+      }
+    } else if (locale === 'no') {
+      switch(ageRange) {
+        case '3-5 years':
+          return '3-5 år';
+        case '4-7 years':
+          return '4-7 år';
+        case '5-8 years':
+          return '5-8 år';
+        case '6-8 years':
+          return '6-8 år';
+        case '7-10 years':
+          return '7-10 år';
+        default:
+          return ageRange;
+      }
+    } else if (locale === 'fi') {
+      switch(ageRange) {
+        case '3-5 years':
+          return '3-5 vuotta';
+        case '4-7 years':
+          return '4-7 vuotta';
+        case '5-8 years':
+          return '5-8 vuotta';
+        case '6-8 years':
+          return '6-8 vuotta';
+        case '7-10 years':
+          return '7-10 vuotta';
+        default:
+          return ageRange;
+      }
+    }
+    return ageRange;
+  };
+
+  const getLocalizedContent = () => {
+    if (locale === 'de') {
+      return {
+        sectionTitle: 'Arbeitsblätter-Beispielgalerie',
+        sectionSubtitle: 'Klicken Sie auf ein Arbeitsblatt für eine größere Vorschau. Dies sind nur einige Beispiele aus unserer Sammlung von 33 professionellen Arbeitsblatt-Generatoren.',
+        ctaText: 'Alle 33 Arbeitsblatt-Generatoren erkunden →',
+        modalLabels: {
+          ageRange: 'Altersgruppe',
+          difficulty: 'Schwierigkeit',
+          category: 'Kategorie'
+        }
+      };
+    } else if (locale === 'fr') {
+      return {
+        sectionTitle: 'Galerie d\'exemples de fiches',
+        sectionSubtitle: 'Cliquez sur une fiche pour un aperçu plus grand. Voici quelques exemples de notre collection de 33 générateurs professionnels de fiches pédagogiques.',
+        ctaText: 'Explorer les 33 générateurs de fiches →',
+        modalLabels: {
+          ageRange: 'Tranche d\'âge',
+          difficulty: 'Difficulté',
+          category: 'Catégorie'
+        }
+      };
+    } else if (locale === 'es') {
+      return {
+        sectionTitle: 'Galería de ejemplos de hojas de trabajo',
+        sectionSubtitle: 'Haz clic en una hoja para ver una vista previa más grande. Estos son solo algunos ejemplos de nuestra colección de 33 generadores profesionales de hojas de trabajo.',
+        ctaText: 'Explorar los 33 generadores de hojas →',
+        modalLabels: {
+          ageRange: 'Rango de edad',
+          difficulty: 'Dificultad',
+          category: 'Categoría'
+        }
+      };
+    } else if (locale === 'it') {
+      return {
+        sectionTitle: 'Galleria di esempi di schede didattiche',
+        sectionSubtitle: 'Clicca su una scheda per vedere un\'anteprima più grande. Questi sono solo alcuni esempi dalla nostra collezione di 33 generatori professionali di schede didattiche.',
+        ctaText: 'Esplora tutti i 33 generatori di schede →',
+        modalLabels: {
+          ageRange: 'Fascia d\'età',
+          difficulty: 'Difficoltà',
+          category: 'Categoria'
+        }
+      };
+    } else if (locale === 'pt') {
+      return {
+        sectionTitle: 'Galeria de exemplos de fichas de trabalho',
+        sectionSubtitle: 'Clique em uma ficha para ver uma pré-visualização maior. Estes são apenas alguns exemplos da nossa coleção de 33 geradores profissionais de fichas de trabalho.',
+        ctaText: 'Explorar os 33 geradores de fichas →',
+        modalLabels: {
+          ageRange: 'Faixa etária',
+          difficulty: 'Dificuldade',
+          category: 'Categoria'
+        }
+      };
+    } else if (locale === 'nl') {
+      return {
+        sectionTitle: 'Galerij met werkbladvoorbeelden',
+        sectionSubtitle: 'Klik op een werkblad voor een grotere preview. Dit zijn slechts enkele voorbeelden uit onze collectie van 33 professionele werkbladgenerators.',
+        ctaText: 'Ontdek alle 33 werkbladgenerators →',
+        modalLabels: {
+          ageRange: 'Leeftijdsgroep',
+          difficulty: 'Moeilijkheidsgraad',
+          category: 'Categorie'
+        }
+      };
+    } else if (locale === 'sv') {
+      return {
+        sectionTitle: 'Galleri med arbetsbladsexempel',
+        sectionSubtitle: 'Klicka på ett arbetsblad för en större förhandsvisning. Detta är bara några exempel från vår samling av 33 professionella arbetsbladsgeneratorer.',
+        ctaText: 'Utforska alla 33 arbetsbladsgeneratorer →',
+        modalLabels: {
+          ageRange: 'Åldersgrupp',
+          difficulty: 'Svårighetsgrad',
+          category: 'Kategori'
+        }
+      };
+    } else if (locale === 'da') {
+      return {
+        sectionTitle: 'Galleri med arbejdsarkeksempler',
+        sectionSubtitle: 'Klik på et arbejdsark for en større forhåndsvisning. Dette er kun nogle eksempler fra vores samling af 33 professionelle arbejdsarkgeneratorer.',
+        ctaText: 'Udforsk alle 33 arbejdsarkgeneratorer →',
+        modalLabels: {
+          ageRange: 'Aldersgruppe',
+          difficulty: 'Sværhedsgrad',
+          category: 'Kategori'
+        }
+      };
+    } else if (locale === 'no') {
+      return {
+        sectionTitle: 'Galleri med arbeidsarkeksempler',
+        sectionSubtitle: 'Klikk på et arbeidsark for en større forhåndsvisning. Dette er bare noen eksempler fra vår samling av 33 profesjonelle arbeidsarkgeneratorer.',
+        ctaText: 'Utforsk alle 33 arbeidsarkgeneratorer →',
+        modalLabels: {
+          ageRange: 'Aldersgruppe',
+          difficulty: 'Vanskelighetsgrad',
+          category: 'Kategori'
+        }
+      };
+    } else if (locale === 'fi') {
+      return {
+        sectionTitle: 'Työarkkiesimerkkien galleria',
+        sectionSubtitle: 'Klikkaa työarkkia nähdäksesi suuremman esikatselun. Nämä ovat vain muutamia esimerkkejä 33 ammattimaisesta työarkkigeneraattoristamme.',
+        ctaText: 'Tutustu kaikkiin 33 työarkkigeneraattoriin →',
+        modalLabels: {
+          ageRange: 'Ikäryhmä',
+          difficulty: 'Vaikeustaso',
+          category: 'Kategoria'
+        }
+      };
+    }
+    return {
+      sectionTitle: 'Worksheet Samples Gallery',
+      sectionSubtitle: 'Click on any worksheet to see a larger preview. These are just some examples from our collection of 33 professional worksheet generators.',
+      ctaText: 'Explore All 33 Worksheet Generators →',
+      modalLabels: {
+        ageRange: 'Age Range',
+        difficulty: 'Difficulty',
+        category: 'Category'
+      }
+    };
+  };
+
+  const localizedContent = getLocalizedContent();
+
   const [content, setContent] = useState<SamplesContent>({
     samples: [],
-    sectionTitle: 'Worksheet Samples Gallery',
-    sectionSubtitle: 'Click on any worksheet to see a larger preview.',
-    ctaText: 'Explore All 33 Worksheet Generators →',
+    sectionTitle: localizedContent.sectionTitle,
+    sectionSubtitle: localizedContent.sectionSubtitle,
+    ctaText: localizedContent.ctaText,
     ctaUrl: `/${locale}/apps`,
     categories: {},
     difficulties: {},
-    modalLabels: {
-      ageRange: 'Age Range',
-      difficulty: 'Difficulty',
-      category: 'Category'
-    }
+    modalLabels: localizedContent.modalLabels
   });
   const [selectedSample, setSelectedSample] = useState<WorksheetSample | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -75,18 +469,19 @@ export default function WorksheetSamples({ locale = 'en' }: WorksheetSamplesProp
           }));
 
           // Update all content
+          const localContent = getLocalizedContent();
           setContent({
             samples: transformedSamples,
-            sectionTitle: apiContent.samplesSection?.title || 'Worksheet Samples Gallery',
-            sectionSubtitle: apiContent.samplesSection?.subtitle || 'Click on any worksheet to see a larger preview.',
-            ctaText: apiContent.samplesSection?.cta || 'Explore All 33 Worksheet Generators →',
+            sectionTitle: apiContent.samplesSection?.title || localContent.sectionTitle,
+            sectionSubtitle: apiContent.samplesSection?.subtitle || localContent.sectionSubtitle,
+            ctaText: apiContent.samplesSection?.cta || localContent.ctaText,
             ctaUrl: `/${locale}/apps`,
             categories: apiContent.samplesSection?.categories || {},
             difficulties: apiContent.samplesSection?.difficulties || {},
             modalLabels: {
-              ageRange: apiContent.samplesSection?.modalLabels?.ageRange || 'Age Range',
-              difficulty: apiContent.samplesSection?.modalLabels?.difficulty || 'Difficulty',
-              category: apiContent.samplesSection?.modalLabels?.category || 'Category'
+              ageRange: apiContent.samplesSection?.modalLabels?.ageRange || localContent.modalLabels.ageRange,
+              difficulty: apiContent.samplesSection?.modalLabels?.difficulty || localContent.modalLabels.difficulty,
+              category: apiContent.samplesSection?.modalLabels?.category || localContent.modalLabels.category
             }
           });
         }
@@ -100,59 +495,152 @@ export default function WorksheetSamples({ locale = 'en' }: WorksheetSamplesProp
     }
   };
 
+  // Helper function to get translated sample names
+  const getSampleName = (sampleId: string): string => {
+    const names: Record<string, Record<string, string>> = {
+      'alphabet': {
+        'de': 'Alphabet-Zug',
+        'fr': 'Train de l\'alphabet',
+        'es': 'Tren del alfabeto',
+        'it': 'Trenino dell\'alfabeto',
+        'pt': 'Comboio do alfabeto',
+        'nl': 'Alfabettrein',
+        'sv': 'Alfabetståg',
+        'en': 'Alphabet Train'
+      }
+    };
+    return names[sampleId]?.[locale] || names[sampleId]?.['en'] || 'Unknown';
+  };
+
+  // Helper function to get translated sample descriptions
+  const getSampleDescription = (sampleId: string): string => {
+    const descriptions: Record<string, Record<string, string>> = {
+      'alphabet': {
+        'de': 'Spaßiges Alphabet-Lernen mit bunten Zugwaggons',
+        'fr': 'Apprentissage ludique de l\'alphabet avec des wagons colorés',
+        'es': 'Aprendizaje divertido del alfabeto con vagones coloridos',
+        'it': 'Apprendimento divertente dell\'alfabeto con vagoni colorati',
+        'pt': 'Aprendizagem divertida do alfabeto com vagões coloridos',
+        'nl': 'Leuk alfabetleren met kleurrijke treinwagons',
+        'en': 'Fun alphabet learning with colorful train cars'
+      }
+    };
+    return descriptions[sampleId]?.[locale] || descriptions[sampleId]?.['en'] || '';
+  };
+
   // Fallback samples in case API fails
   const fallbackSamples: WorksheetSample[] = [
     {
       id: 'alphabet',
-      name: 'Alphabet Train',
+      name: locale === 'de' ? 'Alphabet-Zug' : (locale === 'fr' ? 'Train de l\'alphabet' : (locale === 'es' ? 'Tren del alfabeto' : (locale === 'it' ? 'Trenino dell\'alfabeto' : (locale === 'pt' ? 'Comboio do alfabeto' : (locale === 'nl' ? 'Alfabettrein' : (locale === 'sv' ? 'Alfabetståg' : (locale === 'da' ? 'Alfabettog' : (locale === 'no' ? 'Alfabettog' : (locale === 'fi' ? 'Aakkosjuna' : 'Alphabet Train'))))))))),
       category: 'literacy',
       image: '/worksheet-samples/alphabet.png',
-      description: 'Fun alphabet learning with colorful train cars',
+      description: locale === 'de' ? 'Spaßiges Alphabet-Lernen mit bunten Zugwaggons' :
+                    (locale === 'fr' ? 'Apprentissage ludique de l\'alphabet avec des wagons colorés' :
+                    (locale === 'es' ? 'Aprendizaje divertido del alfabeto con vagones coloridos' :
+                    (locale === 'it' ? 'Apprendimento divertente dell\'alfabeto con vagoni colorati' :
+                    (locale === 'pt' ? 'Aprendizagem divertida do alfabeto com vagões coloridos' :
+                    (locale === 'nl' ? 'Leuk alfabetleren met kleurrijke treinwagons' :
+                    (locale === 'sv' ? 'Rolig alfabetsinlärning med färgglada tågvagnar' :
+                    (locale === 'da' ? 'Sjov alfabetlæring med farverige togvogne' :
+                    (locale === 'no' ? 'Morsom alfabetlæring med fargerike togvogner' :
+                    (locale === 'fi' ? 'Hauska aakkosten oppiminen värikkäillä junavaunuilla' :
+                    'Fun alphabet learning with colorful train cars'))))))))),
       difficulty: 'Easy',
       ageRange: '3-5 years'
     },
     {
       id: 'code-addition',
-      name: 'Code Addition',
+      name: locale === 'de' ? 'Code-Addition' : (locale === 'fr' ? 'Code-Addition' : (locale === 'es' ? 'Code-Addition' : (locale === 'it' ? 'Code-Addition' : (locale === 'pt' ? 'Code-Addition' : (locale === 'nl' ? 'Code-Addition' : (locale === 'sv' ? 'Code-Addition' : (locale === 'da' ? 'Code-Addition' : (locale === 'no' ? 'Code-Addition' : (locale === 'fi' ? 'Code-Addition' : 'Code Addition'))))))))),
       category: 'math',
       image: '/worksheet-samples/code-addition.png',
-      description: 'Crack the code with addition puzzles',
+      description: locale === 'de' ? 'Knacke den Code mit Additionsrätseln' :
+                    (locale === 'fr' ? 'Déchiffrez le code avec des énigmes d\'addition' :
+                    (locale === 'es' ? 'Descifra el código con acertijos de suma' :
+                    (locale === 'it' ? 'Decifra il codice con enigmi di addizione' :
+                    (locale === 'pt' ? 'Decifre o código com enigmas de adição' :
+                    (locale === 'nl' ? 'Kraak de code met optelraadsels' :
+                    (locale === 'sv' ? 'Knäck koden med additionsgåtor' :
+                    (locale === 'da' ? 'Knæk koden med additionsgåder' :
+                    (locale === 'no' ? 'Knekk koden med addisjonsoppgaver' :
+                    (locale === 'fi' ? 'Murra koodi yhteenlaskutehtävillä' :
+                    'Crack the code with addition puzzles'))))))))),
       difficulty: 'Medium',
       ageRange: '6-8 years'
     },
     {
       id: 'graph',
-      name: 'Chart & Count',
+      name: locale === 'de' ? 'Diagramm & Zählen' : (locale === 'fr' ? 'Graphiques et comptage' : (locale === 'es' ? 'Gráficos y conteo' : (locale === 'it' ? 'Grafici e conteggio' : (locale === 'pt' ? 'Gráficos e contagem' : (locale === 'nl' ? 'Grafieken en tellen' : (locale === 'sv' ? 'Diagram och räkning' : (locale === 'da' ? 'Diagram og tælling' : (locale === 'no' ? 'Diagram og telling' : (locale === 'fi' ? 'Kaavio ja laskeminen' : 'Chart & Count'))))))))),
       category: 'math',
       image: '/worksheet-samples/graph.png',
-      description: 'Learn graphing and data visualization',
+      description: locale === 'de' ? 'Lernen Sie Grafiken und Datenvisualisierung' :
+                    (locale === 'fr' ? 'Apprenez les graphiques et la visualisation de données' :
+                    (locale === 'es' ? 'Aprende gráficos y visualización de datos' :
+                    (locale === 'it' ? 'Impara i grafici e la visualizzazione dei dati' :
+                    (locale === 'pt' ? 'Aprenda gráficos e visualização de dados' :
+                    (locale === 'nl' ? 'Leer grafieken en datavisualisatie' :
+                    (locale === 'sv' ? 'Lär dig diagram och datavisualisering' :
+                    (locale === 'da' ? 'Lær diagrammer og datavisualisering' :
+                    (locale === 'no' ? 'Lær diagrammer og datavisualisering' :
+                    (locale === 'fi' ? 'Opi kaavioita ja datan visualisointia' :
+                    'Learn graphing and data visualization'))))))))),
       difficulty: 'Medium',
       ageRange: '7-10 years'
     },
     {
       id: 'hidden-object',
-      name: 'Hidden Objects',
+      name: locale === 'de' ? 'Versteckte Objekte' : (locale === 'fr' ? 'Objets cachés' : (locale === 'es' ? 'Objetos ocultos' : (locale === 'it' ? 'Oggetti nascosti' : (locale === 'pt' ? 'Objetos escondidos' : (locale === 'nl' ? 'Verborgen voorwerpen' : (locale === 'sv' ? 'Gömda föremål' : (locale === 'da' ? 'Skjulte objekter' : (locale === 'no' ? 'Skjulte objekter' : (locale === 'fi' ? 'Piilotetut esineet' : 'Hidden Objects'))))))))),
       category: 'puzzle',
       image: '/worksheet-samples/hidden-object.png',
-      description: 'Find hidden objects in detailed scenes',
+      description: locale === 'de' ? 'Finde versteckte Objekte in detaillierten Szenen' :
+                    (locale === 'fr' ? 'Trouvez les objets cachés dans des scènes détaillées' :
+                    (locale === 'es' ? 'Encuentra objetos ocultos en escenas detalladas' :
+                    (locale === 'it' ? 'Trova oggetti nascosti in scene dettagliate' :
+                    (locale === 'pt' ? 'Encontre objetos escondidos em cenas detalhadas' :
+                    (locale === 'nl' ? 'Vind verborgen voorwerpen in gedetailleerde scènes' :
+                    (locale === 'sv' ? 'Hitta gömda föremål i detaljerade scener' :
+                    (locale === 'da' ? 'Find skjulte objekter i detaljerede scener' :
+                    (locale === 'no' ? 'Finn skjulte objekter i detaljerte scener' :
+                    (locale === 'fi' ? 'Etsi piilotettuja esineitä yksityiskohtaisista kohtauksista' :
+                    'Find hidden objects in detailed scenes'))))))))),
       difficulty: 'Easy',
       ageRange: '5-8 years'
     },
     {
       id: 'i-spy',
-      name: 'I Spy Game',
+      name: locale === 'de' ? 'Ich Sehe Was' : (locale === 'fr' ? 'Cherche et trouve' : (locale === 'es' ? 'Veo Veo' : (locale === 'it' ? 'Aguzza la vista' : (locale === 'pt' ? 'Eu Espio' : (locale === 'nl' ? 'Ik zie ik zie' : (locale === 'sv' ? 'Jag ser' : (locale === 'da' ? 'Jeg ser' : (locale === 'no' ? 'Jeg ser' : (locale === 'fi' ? 'Minä näen' : 'I Spy Game'))))))))),
       category: 'puzzle',
       image: '/worksheet-samples/i-spy.png',
-      description: 'Classic I Spy searching game',
+      description: locale === 'de' ? 'Klassisches Ich-sehe-was Suchspiel!' :
+                    (locale === 'fr' ? 'Le jeu classique de recherche visuelle!' :
+                    (locale === 'es' ? '¡El clásico juego de búsqueda visual!' :
+                    (locale === 'it' ? 'Il classico gioco di ricerca visiva!' :
+                    (locale === 'pt' ? 'O clássico jogo de busca visual!' :
+                    (locale === 'nl' ? 'Het klassieke zoekspel!' :
+                    (locale === 'sv' ? 'Det klassiska sökspelet!' :
+                    (locale === 'da' ? 'Det klassiske søgespil!' :
+                    (locale === 'no' ? 'Det klassiske søkespillet!' :
+                    (locale === 'fi' ? 'Klassinen hakupeli!' :
+                    'Classic I Spy searching game'))))))))),
       difficulty: 'Easy',
       ageRange: '4-7 years'
     },
     {
       id: 'train',
-      name: 'Pattern Train',
+      name: locale === 'de' ? 'Muster-Zug' : (locale === 'fr' ? 'Train des motifs' : (locale === 'es' ? 'Tren de patrones' : (locale === 'it' ? 'Trenino dei pattern' : (locale === 'pt' ? 'Comboio de padrões' : (locale === 'nl' ? 'Patronentrein' : (locale === 'sv' ? 'Mönstertåg' : (locale === 'da' ? 'Mønstertog' : (locale === 'no' ? 'Mønstertog' : (locale === 'fi' ? 'Kuviojuna' : 'Pattern Train'))))))))),
       category: 'logic',
       image: '/worksheet-samples/train.png',
-      description: 'Complete the pattern sequences',
+      description: locale === 'de' ? 'Vervollständige die Mustersequenzen' :
+                    (locale === 'fr' ? 'Complétez les séquences de motifs' :
+                    (locale === 'es' ? 'Completa las secuencias de patrones' :
+                    (locale === 'it' ? 'Completa le sequenze di pattern' :
+                    (locale === 'pt' ? 'Complete as sequências de padrões' :
+                    (locale === 'nl' ? 'Maak de patroonreeksen af' :
+                    (locale === 'sv' ? 'Komplettera mönstersekvenserna' :
+                    (locale === 'da' ? 'Fuldfør mønstersekvenserne' :
+                    (locale === 'no' ? 'Fullfør mønstersekvensene' :
+                    (locale === 'fi' ? 'Täydennä kuviosarjat' :
+                    'Complete the pattern sequences'))))))))),
       difficulty: 'Medium',
       ageRange: '5-8 years'
     }
@@ -161,9 +649,9 @@ export default function WorksheetSamples({ locale = 'en' }: WorksheetSamplesProp
   // Helper function for difficulty colors
   const getDifficultyColor = (difficulty: string) => {
     const diffLower = difficulty.toLowerCase();
-    if (diffLower === 'easy' || diffLower === 'einfach' || diffLower === 'lätt') {
+    if (diffLower === 'easy' || diffLower === 'einfach' || diffLower === 'facile' || diffLower === 'fácil' || diffLower === 'makkelijk' || diffLower === 'lätt' || diffLower === 'let' || diffLower === 'lett' || diffLower === 'helppo') {
       return 'bg-green-100 text-green-700';
-    } else if (diffLower === 'hard' || diffLower === 'schwer' || diffLower === 'svår') {
+    } else if (diffLower === 'hard' || diffLower === 'schwer' || diffLower === 'difficile' || diffLower === 'difícil' || diffLower === 'moeilijk' || diffLower === 'svår' || diffLower === 'svær' || diffLower === 'vanskelig' || diffLower === 'vaikea') {
       return 'bg-red-100 text-red-700';
     } else {
       return 'bg-yellow-100 text-yellow-700';
@@ -235,12 +723,12 @@ export default function WorksheetSamples({ locale = 'en' }: WorksheetSamplesProp
                   </p>
                   <div className="flex items-center justify-between text-xs">
                     <span className="px-2 py-1 bg-blue-100 text-blue-700 rounded-full">
-                      {sample.ageRange}
+                      {translateAgeRange(sample.ageRange)}
                     </span>
                     <span className={`px-2 py-1 rounded-full ${
                       getDifficultyColor(sample.difficulty)
                     }`}>
-                      {content.difficulties?.[sample.difficulty.toLowerCase()] || sample.difficulty}
+                      {translateDifficulty(sample.difficulty)}
                     </span>
                   </div>
                 </div>
@@ -293,12 +781,10 @@ export default function WorksheetSamples({ locale = 'en' }: WorksheetSamplesProp
                 <p className="text-gray-600 mb-2">{selectedSample.description}</p>
                 <div className="flex gap-4 text-sm">
                   <span>
-                    <strong>{content.modalLabels?.ageRange || 'Age Range'}:</strong> {selectedSample.ageRange}
+                    <strong>{content.modalLabels?.ageRange || 'Age Range'}:</strong> {translateAgeRange(selectedSample.ageRange)}
                   </span>
                   <span>
-                    <strong>{content.modalLabels?.difficulty || 'Difficulty'}:</strong> {
-                      content.difficulties?.[selectedSample.difficulty.toLowerCase()] || selectedSample.difficulty
-                    }
+                    <strong>{content.modalLabels?.difficulty || 'Difficulty'}:</strong> {translateDifficulty(selectedSample.difficulty)}
                   </span>
                   {selectedSample.category && (
                     <span>

@@ -1,132 +1,786 @@
 {
   "navigation": {
-    "apps": "Apps",
-    "pricing": "Pricing",
+    "apps": "Generators",
+    "pricing": "Prijzen",
     "blog": "Blog",
-    "signIn": "Sign In",
-    "signUp": "Sign Up",
-    "startFree": "Start Free",
+    "contact": "Contact",
+    "signIn": "Inloggen",
+    "signUp": "Registreren",
+    "startFree": "Gratis beginnen",
     "dashboard": "Dashboard",
-    "signOut": "Sign Out"
+    "signOut": "Uitloggen"
   },
   "homepage": {
     "hero": {
-      "title": "Create Professional Worksheets in Minutes",
-      "subtitle": "33 powerful worksheet generators with 100+ themed images for Teachers Pay Teachers sellers and educational publishers",
+      "title": "Maak indrukwekkende werkbladen in enkele minuten",
+      "subtitle": "Professionele werkbladgenerators voor leerkrachten en ouders. Toegang tot 33 interactieve applicaties met prachtige illustraties.",
       "cta": {
-        "tryFree": "Try Word Search Free",
-        "viewApps": "View All Apps"
+        "tryFree": "Probeer woordzoeker gratis",
+        "viewApps": "Bekijk alle generators"
       }
     },
     "features": {
-      "title": "Everything You Need for Publishing Success",
+      "title": "Alles wat je nodig hebt voor kwalitatief lesmateriaal",
       "items": {
         "apps": {
-          "title": "33 Worksheet Apps",
-          "description": "From math and reading to puzzles and games"
+          "title": "33 werkbladgenerators",
+          "description": "Van wiskunde en lezen tot puzzels en spelletjes"
         },
         "images": {
-          "title": "100+ Image Themes",
-          "description": "Child-friendly illustrations with commercial license"
+          "title": "Meer dan 100 afbeeldingsthema's",
+          "description": "Kindvriendelijke illustraties met commerciële licentie"
         },
         "languages": {
-          "title": "11 Languages",
-          "description": "Create worksheets in multiple languages"
+          "title": "11 talen",
+          "description": "Maak werkbladen in meerdere talen"
         },
         "pod": {
-          "title": "POD License Included",
-          "description": "Sell your worksheets on any platform"
+          "title": "POD-licentie inbegrepen",
+          "description": "Verkoop je werkbladen op elk platform"
         }
       }
     },
     "pricing": {
-      "title": "Simple, Transparent Pricing",
-      "monthly": "Monthly",
-      "yearly": "Yearly (Save 20%)",
+      "title": "Eenvoudige, transparante prijzen",
+      "monthly": "Maandelijks",
+      "yearly": "Jaarlijks (Bespaar 20%)",
       "free": {
-        "name": "Free",
+        "name": "Gratis",
         "price": "$0",
         "features": [
-          "Word Search Generator",
-          "Limited image library",
-          "Watermarked output",
-          "Basic support"
+          "Woordzoeker generator",
+          "Beperkte afbeeldingsbibliotheek",
+          "Met watermerk",
+          "Basis ondersteuning"
         ],
-        "cta": "Start Free"
+        "cta": "Gratis beginnen"
       },
       "core": {
-        "name": "Core Bundle",
+        "name": "Basis Pakket",
         "price": "$15",
         "priceYearly": "$144",
         "features": [
-          "10 most popular apps",
-          "Full image library access",
-          "No watermarks",
-          "POD commercial license",
-          "Priority support"
+          "10 populairste generators",
+          "Volledige toegang tot afbeeldingsbibliotheek",
+          "Zonder watermerk",
+          "POD commerciële licentie",
+          "Prioriteit ondersteuning"
         ],
-        "cta": "Start Core"
+        "cta": "Kies Basis Pakket"
       },
       "full": {
-        "name": "Full Access",
+        "name": "Volledige Toegang",
         "price": "$25",
         "priceYearly": "$240",
         "features": [
-          "All 33 apps",
-          "Full image library access",
-          "No watermarks",
-          "POD commercial license",
-          "Priority support",
-          "Early access to new apps"
+          "Alle 33 generators",
+          "Volledige toegang tot afbeeldingsbibliotheek",
+          "Zonder watermerk",
+          "POD commerciële licentie",
+          "Prioriteit ondersteuning",
+          "Vroege toegang tot nieuwe apps"
         ],
-        "cta": "Start Full Access",
-        "popular": "Most Popular"
+        "cta": "Krijg Volledige Toegang",
+        "popular": "Meest populair"
       }
     }
   },
-  "apps": {
-    "title": "Worksheet Generator Apps",
-    "subtitle": "Choose from 33 professional worksheet generators",
-    "search": "Search apps...",
+  "worksheetSamples": {
+    "title": "Galerij met werkbladvoorbeelden",
+    "subtitle": "Klik op een werkblad voor een grotere preview. Dit zijn slechts enkele voorbeelden uit onze collectie van 33 professionele werkbladgenerators.",
+    "ctaText": "Ontdek alle 33 werkbladgenerators →",
+    "alphabetTrain": {
+      "title": "Alfabettrein",
+      "description": "Leuk alfabetleren met kleurrijke treinwagons"
+    },
+    "codeAddition": {
+      "title": "Code-Addition",
+      "description": "Kraak de code met optelraadsels"
+    },
+    "diagramAndCount": {
+      "title": "Grafieken en tellen",
+      "description": "Leer grafieken en datavisualisatie"
+    },
+    "hiddenObjects": {
+      "title": "Verborgen voorwerpen",
+      "description": "Vind verborgen voorwerpen in gedetailleerde scènes"
+    },
+    "iSpy": {
+      "title": "Ik zie ik zie",
+      "description": "Het klassieke zoekspel!"
+    },
+    "patternTrain": {
+      "title": "Patronentrein",
+      "description": "Maak de patroonreeksen af"
+    },
+    "modalLabels": {
+      "ageRange": "Leeftijdsgroep",
+      "difficulty": "Moeilijkheidsgraad",
+      "category": "Categorie"
+    },
+    "difficulties": {
+      "Easy": "Makkelijk",
+      "Medium": "Gemiddeld",
+      "Hard": "Moeilijk"
+    },
     "categories": {
-      "all": "All Apps",
-      "math": "Math",
-      "language": "Language Arts",
-      "puzzles": "Puzzles",
-      "games": "Games",
-      "visual": "Visual Perception",
-      "motor": "Fine Motor Skills"
+      "Language": "Taal",
+      "Math": "Wiskunde",
+      "Visual": "Visueel",
+      "Pattern": "Patronen"
+    },
+    "ageRanges": {
+      "age3to5": "3-5 jaar",
+      "age4to7": "4-7 jaar",
+      "age5to8": "5-8 jaar",
+      "age6to8": "6-8 jaar",
+      "age7to10": "7-10 jaar"
+    }
+  },
+  "apps": {
+    "title": "Werkbladgenerators",
+    "subtitle": "Kies uit 33 professionele werkbladgenerators",
+    "search": "Zoek generators...",
+    "heroTitle": "33 werkbladgenerators voor onderwijs",
+    "heroSubtitle": "Transformeer je lesmateriaal met onze complete collectie educatieve werkbladgenerators. Van woordzoekers tot rekenpuzzels, we hebben alles wat je nodig hebt.",
+    "categories": {
+      "all": "Alle generators",
+      "math": "Wiskunde",
+      "language": "Taal en lezen",
+      "puzzles": "Puzzels",
+      "games": "Spelletjes",
+      "visual": "Visuele waarneming",
+      "motor": "Fijne motoriek",
+      "wordGames": "Woordspelletjes",
+      "languageArts": "Taal en schrijven",
+      "artCreativity": "Kunst en creativiteit",
+      "matching": "Koppelen",
+      "fineMotorSkills": "Fijne motoriek",
+      "logic": "Logica",
+      "concepts": "Basisconcepten",
+      "patterns": "Patronen",
+      "sorting": "Sorteren"
     },
     "tier": {
-      "free": "Free",
-      "core": "Core Bundle",
-      "full": "Full Access"
+      "free": "Gratis",
+      "core": "Basis Pakket",
+      "full": "Volledige Toegang",
+      "popular": "Populair"
+    },
+    "tierInfo": {
+      "freeTitle": "Gratis versie",
+      "freeDescription": "Probeer de woordzoeker generator met watermerk",
+      "coreTitle": "Basis Pakket - $15/maand",
+      "coreDescription": "Toegang tot de 10 populairste apps met commerciële licentie",
+      "fullTitle": "Volledige Toegang - $25/maand",
+      "fullDescription": "Alle 33 apps, prioriteitsondersteuning, vroege toegang"
+    },
+    "appNames": {
+      "wordSearch": "Woordzoeker",
+      "imageAddition": "Optellen met plaatjes",
+      "alphabetTrain": "Alfabettrein",
+      "coloringPages": "Kleurplaten",
+      "mathWorksheets": "Rekenwerkbladen",
+      "wordScramble": "Lettermix",
+      "findAndCount": "Zoek en tel",
+      "matchUpMaker": "Koppelspellen",
+      "drawingLines": "Lijnen trekken",
+      "pictureBingo": "Plaatjesbingo",
+      "sudokuForKids": "Kindersudoku",
+      "bigOrSmall": "Groot of klein",
+      "chartCountColor": "Grafieken tellen en kleuren",
+      "codeAddition": "Code-Addition",
+      "drawAndColor": "Tekenen en kleuren",
+      "findObjects": "Voorwerpen zoeken",
+      "gridMatch": "Rooster koppelen",
+      "imageCrossword": "Beeldkruiswoordpuzzel",
+      "imageCryptogram": "Beeldcryptogram",
+      "mathPuzzle": "Rekenpuzzel",
+      "missingPieces": "Ontbrekende stukjes",
+      "moreOrLess": "Meer of minder",
+      "oddOneOut": "Welke hoort er niet bij",
+      "patternTrain": "Patronentrein",
+      "patternWorksheets": "Patroonwerkbladen",
+      "picturePathway": "Plaatjespad",
+      "pictureSort": "Plaatjes sorteren",
+      "prepositions": "Voorzetsels",
+      "shadowMatch": "Schaduw koppelen",
+      "subtraction": "Aftrekken",
+      "treasureHunt": "Schatzoeken",
+      "wordGuess": "Woord raden",
+      "englishWritingPractice": "Engelse schrijfoefeningen"
+    },
+    "cta": {
+      "title": "Klaar om geweldige werkbladen te maken?",
+      "subtitle": "Begin met onze gratis woordzoeker generator of ontgrendel vandaag alle apps",
+      "startFreeTrial": "Gratis proberen",
+      "viewPricing": "Bekijk prijzen"
+    },
+    "filters": {
+      "allApps": "Alle apps"
     }
   },
   "auth": {
     "signIn": {
-      "title": "Welcome Back",
-      "subtitle": "Sign in to your account",
-      "email": "Email",
-      "password": "Password",
-      "rememberMe": "Remember me",
-      "forgotPassword": "Forgot password?",
-      "submit": "Sign In",
-      "noAccount": "Don't have an account?",
-      "signUp": "Sign up"
+      "title": "Fijn je weer te zien!",
+      "subtitle": "Ga naar je lesmateriaal",
+      "email": "E-mailadres",
+      "emailPlaceholder": "jouw@email.nl",
+      "password": "Wachtwoord",
+      "passwordPlaceholder": "Je wachtwoord",
+      "rememberMe": "Ingelogd blijven",
+      "forgotPassword": "Wachtwoord vergeten?",
+      "submit": "Inloggen",
+      "noAccount": "Heb je nog geen account?",
+      "signUp": "Maak er gratis een aan",
+      "orContinueWith": "Of ga verder met"
     },
     "signUp": {
-      "title": "Create Your Account",
-      "subtitle": "Start creating worksheets today",
-      "firstName": "First Name",
-      "lastName": "Last Name",
-      "email": "Email",
-      "password": "Password",
-      "confirmPassword": "Confirm Password",
-      "terms": "I agree to the Terms of Service and Privacy Policy",
-      "submit": "Create Account",
-      "hasAccount": "Already have an account?",
-      "signIn": "Sign in"
+      "title": "Maak je account aan",
+      "subtitle": "Begin vandaag met het maken van werkbladen",
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "email": "E-mailadres",
+      "password": "Wachtwoord",
+      "confirmPassword": "Bevestig wachtwoord",
+      "terms": "Ik ga akkoord met de servicevoorwaarden en het privacybeleid",
+      "submit": "Account aanmaken",
+      "hasAccount": "Heb je al een account?",
+      "signIn": "Inloggen"
+    }
+  },
+  "pricing": {
+    "heroTitle": "Heldere prijzen zonder verrassingen",
+    "heroSubtitle": "Kies het perfecte pakket voor professioneel lesmateriaal",
+    "billingToggle": {
+      "monthly": "Maandelijks",
+      "yearly": "Jaarlijks",
+      "yearlyDiscount": "20% korting"
+    },
+    "labels": {
+      "whatsIncluded": "Wat zit erbij:",
+      "limitations": "Beperkingen:",
+      "appsIncluded": "Generators inbegrepen:",
+      "orYearly": "of",
+      "perYear": "/jaar"
+    },
+    "plans": {
+      "free": {
+        "name": "Gratis",
+        "price": "$0",
+        "period": "",
+        "description": "Perfect om onze tools uit te proberen",
+        "features": {
+          "0": "Woordzoeker generator (met watermerk)",
+          "1": "Subtiel watermerk op documenten",
+          "2": "Beperkte afbeeldingenbibliotheek",
+          "3": "Standaard sjablonen inbegrepen",
+          "4": "Community ondersteuning",
+          "5": "Alleen voor persoonlijk gebruik"
+        },
+        "limitations": {
+          "0": "Watermerk op alle documenten",
+          "1": "Geen commerciële licentie",
+          "2": "Beperkte aanpassingsmogelijkheden"
+        },
+        "apps": {
+          "0": "Woordzoeker generator (met watermerk)"
+        },
+        "cta": "Gratis starten"
+      },
+      "core": {
+        "name": "Basispakket",
+        "price": "$15",
+        "period": "/maand",
+        "yearlyPrice": "$144",
+        "description": "De essentiële tools voor professionele leerkrachten",
+        "features": {
+          "0": "De 10 populairste generators",
+          "1": "Geen watermerk",
+          "2": "Complete bibliotheek (100+ thema's)",
+          "3": "Alle premium sjablonen",
+          "4": "POD commerciële licentie inbegrepen",
+          "5": "Email ondersteuning",
+          "6": "Export naar PDF en JPEG hoge kwaliteit"
+        },
+        "apps": {
+          "0": "10 populairste generators:",
+          "1": "Optellen met plaatjes",
+          "2": "Alfabettrein",
+          "3": "Kleurplaten",
+          "4": "Rekenwerkbladen",
+          "5": "Lettermix",
+          "6": "Zoek en tel",
+          "7": "Koppelspellen",
+          "8": "Lijnen trekken",
+          "9": "Plaatjesbingo",
+          "10": "Kindersudoku"
+        },
+        "cta": "7 dagen gratis proberen"
+      },
+      "full": {
+        "name": "Volledige Toegang",
+        "price": "$25",
+        "period": "/maand",
+        "yearlyPrice": "$240",
+        "description": "Het complete pakket voor ambitieuze content creators",
+        "features": {
+          "0": "Alle 33 generators beschikbaar",
+          "1": "Alles uit het Basispakket inbegrepen",
+          "2": "Prioritaire email ondersteuning",
+          "3": "Vroege toegang tot nieuwe functies",
+          "4": "Geavanceerde aanpassingsopties",
+          "5": "Regelmatige updates en nieuwe functies"
+        },
+        "apps": {
+          "0": "Alle generators van het Basispakket plus:",
+          "1": "Groot of klein",
+          "2": "Grafieken tellen en kleuren",
+          "3": "Code-Addition",
+          "4": "Tekenen en kleuren",
+          "5": "Voorwerpen zoeken",
+          "6": "Rooster koppelen",
+          "7": "Beeldkruiswoordpuzzel",
+          "8": "Beeldcryptogram",
+          "9": "Rekenpuzzel",
+          "10": "Ontbrekende stukjes",
+          "11": "Meer of minder",
+          "12": "Welke hoort er niet bij",
+          "13": "Patronentrein",
+          "14": "Patroonwerkbladen",
+          "15": "Plaatjespad",
+          "16": "Plaatjes sorteren",
+          "17": "Voorzetsels",
+          "18": "Schaduw koppelen",
+          "19": "Aftrekken",
+          "20": "Schatzoeken",
+          "21": "Woord raden",
+          "22": "Engelse schrijfoefeningen"
+        },
+        "cta": "7 dagen gratis proberen",
+        "popular": "MEEST GEKOZEN"
+      }
+    },
+    "comparison": {
+      "title": "Vergelijk onze pakketten in detail",
+      "features": "Functies",
+      "numberOfApps": "Aantal generators",
+      "watermark": "Zonder watermerk",
+      "commercialLicense": "Commerciële licentie",
+      "imageLibrarySize": "Grootte afbeeldingenbibliotheek",
+      "imageLibrary": {
+        "free": "Beperkt (10 thema's)",
+        "core": "Compleet (100+ thema's)",
+        "full": "Compleet (100+ thema's)"
+      },
+      "support": "Ondersteuning",
+      "supportTypes": {
+        "free": "Community",
+        "core": "Email",
+        "full": "Prioritaire email"
+      },
+      "earlyAccess": "Vroege toegang"
+    },
+    "faq": {
+      "title": "Veelgestelde vragen",
+      "items": {
+        "0": {
+          "question": "Kan ik op elk moment van pakket wisselen?",
+          "answer": "Jazeker! Je kunt op elk moment upgraden of downgraden. Wijzigingen gaan direct in en we berekenen automatisch het verschil."
+        },
+        "1": {
+          "question": "Welke betaalmethoden accepteren jullie?",
+          "answer": "We accepteren alle grote creditcards (Visa, Mastercard, American Express) en PayPal. Alle betalingen worden veilig verwerkt via Stripe."
+        },
+        "2": {
+          "question": "Is er een gratis proefperiode?",
+          "answer": "Ja! Zowel het Basispakket als Volledige Toegang bieden 7 dagen gratis proefperiode. Je hebt geen creditcard nodig om te beginnen."
+        },
+        "3": {
+          "question": "Wat is de POD commerciële licentie?",
+          "answer": "De Print-on-Demand (POD) licentie stelt je in staat om de werkbladen die je maakt te verkopen op platforms zoals Teachers Pay Teachers, Etsy of je eigen website."
+        },
+        "4": {
+          "question": "Kan ik mijn abonnement opzeggen?",
+          "answer": "Natuurlijk! Je kunt je abonnement op elk moment opzeggen in je accountinstellingen. Je behoudt toegang tot het einde van je betaalde periode."
+        },
+        "5": {
+          "question": "Zijn de werkbladen beschikbaar in het Nederlands?",
+          "answer": "Ja! Ons platform ondersteunt 11 talen waaronder Nederlands. Je kunt werkbladen volledig in het Nederlands maken met vertaalde instructies en inhoud."
+        }
+      }
+    },
+    "cta": {
+      "title": "Klaar om geweldige werkbladen te maken?",
+      "subtitle": "Sluit je aan bij duizenden leerkrachten die tijd besparen en hun leerlingen motiveren",
+      "button": "Begin nu gratis",
+      "disclaimer": "Geen creditcard vereist • Opzeggen wanneer je wilt"
+    }
+  },
+  "footer": {
+    "companyName": "LessonCraftStudio",
+    "companyTagline": "Professionele werkbladgenerators voor educatieve uitgevers.",
+    "product": {
+      "title": "Product",
+      "apps": "Generators",
+      "pricing": "Prijzen",
+      "blog": "Blog"
+    },
+    "support": {
+      "title": "Ondersteuning",
+      "helpCenter": "Helpcentrum",
+      "contact": "Contact",
+      "faq": "Veelgestelde vragen"
+    },
+    "legal": {
+      "title": "Juridisch",
+      "terms": "Servicevoorwaarden",
+      "privacy": "Privacy",
+      "license": "Licentievoorwaarden"
+    },
+    "copyright": "© 2024 LessonCraftStudio. Alle rechten voorbehouden."
+  },
+  "common": {
+    "loading": "Laden...",
+    "error": "Er is een fout opgetreden",
+    "retry": "Opnieuw proberen",
+    "save": "Opslaan",
+    "cancel": "Annuleren",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "create": "Aanmaken",
+    "search": "Zoeken",
+    "filter": "Filteren",
+    "sort": "Sorteren",
+    "next": "Volgende",
+    "previous": "Vorige",
+    "close": "Sluiten",
+    "open": "Openen",
+    "yes": "Ja",
+    "no": "Nee",
+    "confirm": "Bevestigen",
+    "download": "Downloaden",
+    "upload": "Uploaden",
+    "select": "Selecteren",
+    "selectAll": "Alles selecteren",
+    "deselectAll": "Alles deselecteren",
+    "required": "Verplicht",
+    "optional": "Optioneel"
+  },
+  "blogPage": {
+    "hero": {
+      "title": "LessonCraftStudio Blog",
+      "subtitle": "Praktische tips, tutorials en inspiratie voor het maken van geweldig lesmateriaal"
+    },
+    "categories": {
+      "all": "Alle artikelen",
+      "worksheetTips": "Werkblad tips",
+      "teachingResources": "Lesmaterialen",
+      "educationalActivities": "Educatieve activiteiten",
+      "learningStrategies": "Leerstrategieën",
+      "curriculumGuides": "Leerplan gidsen",
+      "parentResources": "Voor ouders",
+      "seasonalContent": "Seizoensgebonden content"
+    },
+    "loading": {
+      "message": "Blogartikelen laden..."
+    },
+    "empty": {
+      "title": "Geen artikelen beschikbaar",
+      "description": "Kom snel terug voor nieuwe educatieve content!"
+    },
+    "postCard": {
+      "pdfSamples": "PDF voorbeelden",
+      "readTime": "leestijd"
+    },
+    "pagination": {
+      "previous": "Vorige",
+      "next": "Volgende",
+      "showing": "Weergave",
+      "of": "van",
+      "posts": "artikelen"
+    },
+    "newsletter": {
+      "title": "Blijf op de hoogte van educatieve tips",
+      "subtitle": "Ontvang wekelijks ideeën om betere lesmaterialen te maken en je onderwijspraktijk te verbeteren",
+      "emailPlaceholder": "Je e-mailadres",
+      "subscribe": "Inschrijven",
+      "success": "Bedankt voor je inschrijving!",
+      "error": "Er ging iets mis. Probeer het later opnieuw.",
+      "noSpam": "Geen spam, uitschrijven kan altijd."
+    },
+    "signUp": {
+      "title": "Maak je gratis account aan",
+      "hasAccount": "Heb je al een account?",
+      "signIn": "Log in",
+      "firstName": "Voornaam",
+      "lastName": "Achternaam",
+      "email": "E-mailadres",
+      "password": "Wachtwoord",
+      "confirmPassword": "Bevestig wachtwoord",
+      "passwordHint": "Minimaal 8 tekens",
+      "terms": "Ik ga akkoord met de",
+      "termsLink": "algemene voorwaarden",
+      "and": "en het",
+      "privacyLink": "privacybeleid",
+      "termsEnd": "",
+      "submit": "Account aanmaken",
+      "orSignUpWith": "Of registreer met",
+      "freeAccountInfo": "Je gratis account bevat 10 downloads per maand",
+      "upgradeAnytime": "Upgrade naar premium wanneer je wilt",
+      "errors": {
+        "allFieldsRequired": "Alle velden zijn verplicht",
+        "passwordLength": "Het wachtwoord moet minimaal 8 tekens bevatten",
+        "passwordsDoNotMatch": "De wachtwoorden komen niet overeen",
+        "agreeToTerms": "Je moet de voorwaarden accepteren om door te gaan",
+        "invalidEmail": "Het e-mailadres is ongeldig"
+      }
+    }
+  },
+  "contact": {
+    "title": "Neem contact op",
+    "subtitle": "We staan klaar om je te helpen! Heb je een vraag of suggestie? Laat het ons weten - we helpen graag.",
+    "getInTouch": "Neem contact op",
+    "name": "Naam",
+    "email": "E-mail",
+    "subject": "Onderwerp",
+    "selectSubject": "Selecteer een onderwerp",
+    "subjects": {
+      "general": "Algemene vraag",
+      "support": "Technische ondersteuning",
+      "feedback": "Feedback",
+      "partnership": "Samenwerkingsmogelijkheid"
+    },
+    "message": "Bericht",
+    "send": "Bericht versturen",
+    "sending": "Versturen...",
+    "successMessage": "Top! Je bericht is binnen. Dank je wel! We gaan er snel mee aan de slag en nemen contact met je op.",
+    "errorMessage": "Oeps, er ging iets mis. Probeer het over een paar minuten nog eens.",
+    "otherWaysToConnect": "Andere manieren om contact op te nemen",
+    "emailUs": "E-mail ons",
+    "responseTime": "Reactietijd",
+    "responseTimeInfo": "We reageren meestal binnen 48 uur (vaak nog dezelfde dag).",
+    "faq": "Veelgestelde vragen",
+    "faqInfo": "Snel antwoord nodig? Check onze FAQ voor directe hulp bij veelgestelde vragen.",
+    "followUs": "Volg ons"
+  },
+  "terms": {
+    "title": "Gebruiksvoorwaarden",
+    "lastUpdated": "Laatst bijgewerkt",
+    "effectiveDate": "Januari 2025",
+    "acceptance": {
+      "title": "1. AANVAARDING",
+      "content": "Door LessonCraftStudio te gebruiken, accepteert u deze voorwaarden. Als u niet akkoord gaat, gebruik onze dienst dan niet."
+    },
+    "serviceDescription": {
+      "title": "2. DIENSTOMSCHRIJVING",
+      "content": "LessonCraftStudio biedt hulpmiddelen voor het maken van werkbladen in drie abonnementen: Gratis (beperkt), Core (uitgebreid) en Volledige Toegang (onbeperkt)."
+    },
+    "userAccounts": {
+      "title": "3. GEBRUIKERSACCOUNTS",
+      "requirements": "Vereisten:",
+      "age": "Minimumleeftijd: 18 jaar",
+      "accurate": "Nauwkeurige registratiegegevens",
+      "security": "Accountbeveiliging handhaven",
+      "responsible": "Verantwoordelijkheid voor accountactiviteiten"
+    },
+    "paymentTerms": {
+      "title": "4. BETALINGSVOORWAARDEN",
+      "pricing": "Actuele prijzen getoond bij aanmelding",
+      "billing": "Terugkerende facturering volgens gekozen abonnement",
+      "refunds": "Geen terugbetalingen voor gedeeltelijke periodes",
+      "changes": "Prijswijzigingen met 30 dagen vooraankondiging"
+    },
+    "acceptableUse": {
+      "title": "5. ACCEPTABEL GEBRUIK",
+      "prohibited": "Verboden:",
+      "illegal": "Illegale activiteiten",
+      "harmful": "Schadelijke of aanstootgevende inhoud",
+      "infringement": "Schending intellectueel eigendom",
+      "system": "Systeemverstoring of -beschadiging",
+      "resale": "Ongeautoriseerde doorverkoop"
+    },
+    "intellectualProperty": {
+      "title": "6. INTELLECTUEEL EIGENDOM",
+      "content": "Platform en tools blijven ons eigendom. Uw inhoud blijft van u. Gegenereerde inhoud wordt gelicentieerd volgens abonnement."
+    },
+    "termination": {
+      "title": "7. BEËINDIGING",
+      "user": "Op elk moment opzegbaar via accountinstellingen",
+      "company": "Wij kunnen beëindigen bij overtredingen",
+      "effect": "Beëindiging stopt toegang; inhoudslicentie blijft geldig"
+    },
+    "disclaimers": {
+      "title": "8. VRIJWARING",
+      "asis": "Dienst geleverd ZOALS HIJ IS",
+      "availability": "Geen garantie op doorlopende beschikbaarheid",
+      "suitability": "Geen garantie van geschiktheid voor een doel",
+      "content": "Gebruiker verantwoordelijk voor nauwkeurigheid inhoud"
+    },
+    "limitationLiability": {
+      "title": "9. AANSPRAKELIJKHEIDSBEPERKING",
+      "content": "Maximale aansprakelijkheid: betaalde bedragen afgelopen 12 maanden. Geen aansprakelijkheid voor indirecte of gevolgschade."
+    },
+    "indemnification": {
+      "title": "10. VRIJWARING",
+      "content": "U vrijwaart ons tegen claims voortvloeiend uit uw gebruik, inhoud of overtredingen."
+    },
+    "governingLaw": {
+      "title": "11. TOEPASSELIJK RECHT",
+      "content": "Zweeds recht. Jurisdictie Stockholm. Europese consumentenrechten blijven behouden."
+    },
+    "changes": {
+      "title": "12. WIJZIGINGEN",
+      "content": "Wij kunnen voorwaarden wijzigen met kennisgeving. Voortgezet gebruik betekent aanvaarding."
+    },
+    "contact": {
+      "title": "13. CONTACT",
+      "content": "Vragen: legal@lessoncraftstudio.com"
+    }
+  },
+  "privacy": {
+    "title": "Privacybeleid",
+    "lastUpdated": "Laatst bijgewerkt",
+    "effectiveDate": "Januari 2025",
+    "introduction": {
+      "title": "1. INLEIDING",
+      "content": "Dit beleid legt onze gegevensverwerking uit conform de AVG en Zweedse wetgeving."
+    },
+    "dataController": {
+      "title": "2. VERWERKINGSVERANTWOORDELIJKE",
+      "content": "LessonCraftStudio, Stockholm, Zweden. Contact: privacy@lessoncraftstudio.com"
+    },
+    "dataCollection": {
+      "title": "3. VERZAMELDE GEGEVENS",
+      "intro": "Wij verzamelen:",
+      "personal": "Accountgegevens (naam, e-mail)",
+      "usage": "Gebruiksanalyses",
+      "technical": "Technische gegevens (IP, browser)",
+      "cookies": "Cookievoorkeuren"
+    },
+    "legalBasis": {
+      "title": "4. RECHTSGROND",
+      "intro": "Verwerking gebaseerd op:",
+      "consent": "Uw toestemming",
+      "contract": "Uitvoering overeenkomst",
+      "legal": "Wettelijke verplichtingen",
+      "legitimate": "Gerechtvaardigd belang"
+    },
+    "dataUsage": {
+      "title": "5. GEGEVENSGEBRUIK",
+      "service": "Dienstverlening",
+      "account": "Accountbeheer",
+      "communication": "Communicatie",
+      "improvement": "Serviceverbetering",
+      "legal": "Wettelijke naleving"
+    },
+    "dataSharing": {
+      "title": "6. GEGEVENSDELING",
+      "intro": "Beperkt delen met:",
+      "providers": "Dienstverleners (verwerkers)",
+      "payment": "Betalingsverwerkers",
+      "legal": "Autoriteiten indien vereist",
+      "consent": "Derden met toestemming"
+    },
+    "dataRetention": {
+      "title": "7. GEGEVENSBEWARING",
+      "content": "Accountgegevens: duur account plus 1 jaar. Logs: 90 dagen. Marketing: tot bezwaar."
+    },
+    "userRights": {
+      "title": "8. UW RECHTEN",
+      "intro": "AVG-rechten omvatten:",
+      "access": "Inzage in uw gegevens",
+      "rectification": "Correctie onjuistheden",
+      "erasure": "Verzoek tot verwijdering",
+      "restriction": "Beperking verwerking",
+      "portability": "Gegevensoverdraagbaarheid",
+      "objection": "Bezwaar tegen verwerking",
+      "withdraw": "Intrekken toestemming",
+      "complaint": "Klacht bij AP"
+    },
+    "dataSecurity": {
+      "title": "9. BEVEILIGING",
+      "content": "Industriestandaard beveiliging met encryptie, toegangscontroles en regelmatige audits."
+    },
+    "cookies": {
+      "title": "10. COOKIES",
+      "intro": "Wij gebruiken:",
+      "essential": "Essentiële cookies (vereist)",
+      "functional": "Functionele cookies (voorkeuren)",
+      "analytics": "Analytische cookies (met toestemming)"
+    },
+    "children": {
+      "title": "11. KINDEREN",
+      "content": "Dienst voor docenten/ouders. Geen verzameling bij kinderen onder 16."
+    },
+    "international": {
+      "title": "12. INTERNATIONALE DOORGIFTEN",
+      "content": "Gegevens opgeslagen in EU/EER. Externe doorgiften met standaardcontractbepalingen."
+    },
+    "changes": {
+      "title": "13. WIJZIGINGEN",
+      "content": "Updates gemeld via e-mail. Voortgezet gebruik betekent aanvaarding."
+    },
+    "contact": {
+      "title": "14. CONTACT",
+      "intro": "Vragen of uitoefening rechten:",
+      "email": "E-mail: privacy@lessoncraftstudio.com",
+      "address": "Adres: Stockholm, Zweden",
+      "dpo": "FG: dpo@lessoncraftstudio.com"
+    }
+  },
+  "license": {
+    "title": "Licentievoorwaarden",
+    "lastUpdated": "Laatst bijgewerkt",
+    "effectiveDate": "Januari 2025",
+    "grantOfLicense": {
+      "title": "1. LICENTIEVERLENING",
+      "intro": "LessonCraftStudio verleent u een licentie om gegenereerde inhoud te gebruiken volgens uw abonnement:",
+      "freeTier": "Gratis: Alleen persoonlijk niet-commercieel educatief gebruik",
+      "coreBundle": "Core: Commercieel educatief gebruik binnen uw instelling",
+      "fullAccess": "Volledige Toegang: Onbeperkt commercieel gebruik inclusief print-on-demand en doorverkoop"
+    },
+    "intellectualProperty": {
+      "title": "2. INTELLECTUEEL EIGENDOM",
+      "content": "U behoudt uw originele inhoud. Wij behouden rechten op platformelementen. Gegenereerde inhoud wordt gelicentieerd volgens Sectie 1."
+    },
+    "restrictions": {
+      "title": "3. BEPERKINGEN",
+      "intro": "U mag niet:",
+      "reverseEngineer": "Platform reverse engineeren",
+      "competing": "Concurrerende diensten creëren",
+      "sublicense": "Platformtoegang sublicentiëren",
+      "removeNotices": "Watermerken van gratis inhoud verwijderen",
+      "illegal": "Voor illegale doeleinden gebruiken"
+    },
+    "commercialDistribution": {
+      "title": "4. COMMERCIËLE DISTRIBUTIE",
+      "pod": "Print-on-demand: Volledige Toegang-abonnees kunnen onbeperkt verkopen via print-on-demand platformen.",
+      "digital": "Digitale distributie: Alle niveaus kunnen digitale versies distribueren volgens hun licentie."
+    },
+    "termination": {
+      "title": "5. BEËINDIGING",
+      "content": "Wij kunnen beëindigen bij schending met 30 dagen kennisgeving. Tijdens geldig abonnement gemaakte inhoud blijft gelicentieerd."
+    },
+    "warrantyDisclaimer": {
+      "title": "6. GARANTIE-UITSLUITING",
+      "content": "Dienst geleverd ZOALS HIJ IS zonder garanties. Wij garanderen geen geschiktheid voor specifieke doeleinden."
+    },
+    "limitationOfLiability": {
+      "title": "7. AANSPRAKELIJKHEIDSBEPERKING",
+      "content": "Maximale aansprakelijkheid beperkt tot betaalde bedragen voorgaande 12 maanden."
+    },
+    "governingLaw": {
+      "title": "8. TOEPASSELIJK RECHT",
+      "content": "Zweeds recht. Jurisdictie Stockholm."
+    },
+    "modifications": {
+      "title": "9. WIJZIGINGEN",
+      "content": "Wij kunnen voorwaarden wijzigen met 30 dagen kennisgeving. Voortgezet gebruik betekent aanvaarding."
+    },
+    "contact": {
+      "title": "10. CONTACT",
+      "content": "Voor licentievragen: license@lessoncraftstudio.com"
     }
   }
 }

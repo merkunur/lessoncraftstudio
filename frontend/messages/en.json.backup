@@ -1,0 +1,622 @@
+{
+  "navigation": {
+    "apps": "Apps",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "contact": "Contact",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "startFree": "Start Free",
+    "dashboard": "Dashboard",
+    "signOut": "Sign Out"
+  },
+  "homepage": {
+    "hero": {
+      "title": "Create Professional Worksheets in Minutes",
+      "subtitle": "33 powerful worksheet generators with 100+ themed images for Teachers Pay Teachers sellers and educational publishers",
+      "cta": {
+        "tryFree": "Try Word Search Free",
+        "viewApps": "View All Apps"
+      }
+    },
+    "features": {
+      "title": "Everything You Need for Publishing Success",
+      "items": {
+        "apps": {
+          "title": "33 Worksheet Apps",
+          "description": "From math and reading to puzzles and games"
+        },
+        "images": {
+          "title": "100+ Image Themes",
+          "description": "Child-friendly illustrations with commercial license"
+        },
+        "languages": {
+          "title": "11 Languages",
+          "description": "Create worksheets in multiple languages"
+        },
+        "pod": {
+          "title": "POD License Included",
+          "description": "Sell your worksheets on any platform"
+        }
+      }
+    },
+    "samples": {
+      "title": "Discover Our Creative Worksheets",
+      "subtitle": "Explore our collection of beautifully designed educational worksheets",
+      "viewAll": "Explore All 33 Worksheet Generators",
+      "featured": "Featured",
+      "viewSample": "View Sample",
+      "tryGenerator": "Try This Worksheet Generator",
+      "close": "Close",
+      "categories": {
+        "all": "All Worksheets",
+        "math": "Mathematics",
+        "literacy": "Literacy",
+        "puzzle": "Puzzles",
+        "logic": "Logic"
+      }
+    },
+    "pricing": {
+      "title": "Simple, Transparent Pricing",
+      "monthly": "Monthly",
+      "yearly": "Yearly (Save 20%)",
+      "free": {
+        "name": "Free",
+        "price": "$0",
+        "features": [
+          "Word Search Generator",
+          "Limited image library",
+          "Watermarked output",
+          "Basic support"
+        ],
+        "cta": "Start Free"
+      },
+      "core": {
+        "name": "Core Bundle",
+        "price": "$15",
+        "priceYearly": "$144",
+        "features": [
+          "10 most popular apps",
+          "Full image library access",
+          "No watermarks",
+          "POD commercial license",
+          "Priority support"
+        ],
+        "cta": "Start Core"
+      },
+      "full": {
+        "name": "Full Access",
+        "price": "$25",
+        "priceYearly": "$240",
+        "features": [
+          "All 33 apps",
+          "Full image library access",
+          "No watermarks",
+          "POD commercial license",
+          "Priority support",
+          "Early access to new apps"
+        ],
+        "cta": "Start Full Access",
+        "popular": "Most Popular"
+      }
+    }
+  },
+  "apps": {
+    "title": "Worksheet Generator Apps",
+    "subtitle": "Choose from 33 professional worksheet generators",
+    "search": "Search apps...",
+    "categories": {
+      "all": "All Apps",
+      "math": "Math",
+      "language": "Language Arts",
+      "puzzles": "Puzzles",
+      "games": "Games",
+      "visual": "Visual Perception",
+      "motor": "Fine Motor Skills"
+    },
+    "tier": {
+      "free": "Free",
+      "core": "Core Bundle",
+      "full": "Full Access"
+    }
+  },
+  "pricing": {
+    "heroTitle": "Simple, Transparent Pricing",
+    "heroSubtitle": "Choose the perfect plan for your educational content creation needs",
+    "billingToggle": {
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "yearlyDiscount": "Save 20%"
+    },
+    "labels": {
+      "whatsIncluded": "What's included:",
+      "limitations": "Limitations:",
+      "appsIncluded": "Generators included:",
+      "orYearly": "or",
+      "perYear": "/year"
+    },
+    "plans": {
+      "free": {
+        "name": "Free",
+        "price": "$0",
+        "period": "",
+        "description": "Perfect for trying out our platform",
+        "features": {
+          "0": "Word Search generator (with watermark)",
+          "1": "Watermarked output",
+          "2": "Basic image library",
+          "3": "Basic templates",
+          "4": "Community support",
+          "5": "Personal use only"
+        },
+        "limitations": {
+          "0": "Watermark on all worksheets",
+          "1": "No commercial license",
+          "2": "Limited customization"
+        },
+        "apps": {
+          "0": "Word Search generator (with watermark)"
+        },
+        "cta": "Start Free"
+      },
+      "core": {
+        "name": "Core Bundle",
+        "price": "$15",
+        "period": "/month",
+        "yearlyPrice": "$144",
+        "description": "Most popular apps for professional teachers",
+        "features": {
+          "0": "10 Most Popular Apps",
+          "1": "No watermarks",
+          "2": "Full image library (100+ themes)",
+          "3": "All templates and styles",
+          "4": "POD commercial license",
+          "5": "Standard email support",
+          "6": "Export to PDF and JPEG high quality"
+        },
+        "apps": {
+          "0": "10 Most Popular Apps:",
+          "1": "Image Addition",
+          "2": "Alphabet Train",
+          "3": "Coloring Pages",
+          "4": "Math Worksheets",
+          "5": "Word Scramble",
+          "6": "Find and Count",
+          "7": "MatchUp Maker",
+          "8": "Drawing Lines",
+          "9": "Picture Bingo",
+          "10": "Sudoku for Kids"
+        },
+        "cta": "Start 7-Day Trial"
+      },
+      "full": {
+        "name": "Full Access",
+        "price": "$25",
+        "period": "/month",
+        "yearlyPrice": "$240",
+        "description": "Complete toolkit for serious educators",
+        "features": {
+          "0": "All 33 Worksheet Generators",
+          "1": "Everything in Core Bundle plus 23 more",
+          "2": "Priority email support",
+          "3": "Early access to new apps",
+          "4": "Advanced customization options",
+          "5": "Regular updates and new features"
+        },
+        "apps": {
+          "0": "All Core Bundle apps plus:",
+          "1": "Big or Small",
+          "2": "Chart Count & Color",
+          "3": "Code Addition",
+          "4": "Draw and Color",
+          "5": "Find Objects",
+          "6": "Grid Match",
+          "7": "Image Crossword",
+          "8": "Image Cryptogram",
+          "9": "Math Puzzle",
+          "10": "Missing Pieces",
+          "11": "More or Less",
+          "12": "Odd One Out",
+          "13": "Pattern Train",
+          "14": "Pattern Worksheets",
+          "15": "Picture Pathway",
+          "16": "Picture Sort",
+          "17": "Prepositions",
+          "18": "Shadow Match",
+          "19": "Subtraction",
+          "20": "Treasure Hunt",
+          "21": "Word Guess",
+          "22": "English Writing Practice"
+        },
+        "cta": "Start 7-Day Trial",
+        "popular": "MOST POPULAR"
+      }
+    },
+    "comparison": {
+      "title": "Compare Plans",
+      "features": "Features",
+      "numberOfApps": "Number of Apps",
+      "watermark": "Watermark",
+      "commercialLicense": "Commercial License",
+      "imageLibrarySize": "Image Library Size",
+      "imageLibrary": {
+        "free": "Limited (10 themes)",
+        "core": "Complete (100+ themes)",
+        "full": "Complete (100+ themes)"
+      },
+      "support": "Support",
+      "supportTypes": {
+        "free": "Community",
+        "core": "Email",
+        "full": "Priority Email"
+      },
+      "earlyAccess": "Early Access"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "Can I cancel my subscription anytime?",
+          "answer": "Yes, you can cancel your subscription at any time. Your access will continue until the end of your current billing period."
+        },
+        {
+          "question": "What is a POD commercial license?",
+          "answer": "POD stands for Print-on-Demand. This license allows you to sell the worksheets you create on platforms like Teachers Pay Teachers, Etsy, or any other marketplace."
+        },
+        {
+          "question": "Can I switch between plans?",
+          "answer": "Absolutely! You can upgrade or downgrade your plan anytime. When upgrading, you'll only pay the difference. Downgrades take effect at your next billing cycle."
+        },
+        {
+          "question": "Is there a free trial?",
+          "answer": "Yes! Both the Core Bundle and Full Access plans come with a 7-day free trial. No credit card required to start."
+        },
+        {
+          "question": "What payment methods do you accept?",
+          "answer": "We accept all major credit cards (Visa, Mastercard, American Express) and PayPal. All payments are securely processed through Stripe."
+        },
+        {
+          "question": "Can I create worksheets in different languages?",
+          "answer": "Yes! Our platform supports 11 languages: English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Ready to Transform Your Teaching Materials?",
+      "subtitle": "Join thousands of educators creating professional worksheets with LessonCraftStudio",
+      "button": "Start Your Free Trial",
+      "disclaimer": "No credit card required"
+    }
+  },
+  "auth": {
+    "signIn": {
+      "title": "Welcome Back",
+      "subtitle": "Sign in to your account",
+      "email": "Email",
+      "emailPlaceholder": "Email",
+      "password": "Password",
+      "passwordPlaceholder": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "submit": "Sign In",
+      "noAccount": "Don't have an account?",
+      "signUp": "Sign up",
+      "orContinueWith": "Or continue with"
+    },
+    "signUp": {
+      "title": "Create your free account",
+      "hasAccount": "Already have an account?",
+      "signIn": "Sign in",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "passwordHint": "At least 8 characters",
+      "terms": "I agree to the",
+      "termsLink": "Terms of Service",
+      "and": "and",
+      "privacyLink": "Privacy Policy",
+      "termsEnd": "",
+      "submit": "Create Account",
+      "orSignUpWith": "Or sign up with",
+      "freeAccountInfo": "Your free account includes 10 downloads per month",
+      "upgradeAnytime": "Upgrade to premium anytime",
+      "errors": {
+        "allFieldsRequired": "All fields are required",
+        "passwordLength": "Password must be at least 8 characters",
+        "passwordsDoNotMatch": "Passwords do not match",
+        "agreeToTerms": "You must agree to the terms to continue",
+        "invalidEmail": "Please enter a valid email address"
+      }
+    }
+  },
+  "blogPage": {
+    "hero": {
+      "title": "LessonCraftStudio Blog",
+      "subtitle": "Tips, tutorials, and insights for educators creating amazing learning materials"
+    },
+    "categories": {
+      "all": "All Posts",
+      "worksheetTips": "Worksheet Tips",
+      "teachingResources": "Teaching Resources",
+      "educationalActivities": "Educational Activities",
+      "learningStrategies": "Learning Strategies",
+      "curriculumGuides": "Curriculum Guides",
+      "parentResources": "Parent Resources",
+      "seasonalContent": "Seasonal Content"
+    },
+    "loading": {
+      "message": "Loading blog posts..."
+    },
+    "empty": {
+      "title": "No blog posts available",
+      "description": "Check back soon for new educational content!"
+    },
+    "postCard": {
+      "pdfSamples": "PDF Samples",
+      "readTime": "read"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "showing": "Showing",
+      "of": "of",
+      "posts": "posts"
+    },
+    "newsletter": {
+      "title": "Stay Updated with Educational Tips",
+      "subtitle": "Get weekly insights on creating better educational materials and growing your teaching business",
+      "emailPlaceholder": "Your email address",
+      "subscribe": "Subscribe",
+      "success": "Thanks for subscribing!",
+      "error": "Something went wrong. Please try again later.",
+      "noSpam": "No spam, unsubscribe anytime."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you. Send us a message and we'll respond as soon as possible.",
+    "getInTouch": "Get in Touch",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "selectSubject": "Select a subject",
+    "subjects": {
+      "general": "General Inquiry",
+      "support": "Technical Support",
+      "feedback": "Feedback",
+      "partnership": "Partnership Opportunity"
+    },
+    "message": "Message",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "successMessage": "Thank you for your message! We'll get back to you soon.",
+    "errorMessage": "Something went wrong. Please try again later.",
+    "otherWaysToConnect": "Other Ways to Connect",
+    "emailUs": "Email Us",
+    "responseTime": "Response Time",
+    "responseTimeInfo": "We typically respond within 24-48 hours during business days.",
+    "faq": "Frequently Asked Questions",
+    "faqInfo": "Check our FAQ page for instant answers to common questions.",
+    "followUs": "Follow Us"
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: September 2024",
+    "sections": {
+      "acceptance": {
+        "title": "1. Acceptance of Terms",
+        "content": "By accessing and using LessonCraftStudio (\"the Service\"), you accept and agree to be bound by these Terms of Service and our Privacy Policy. If you do not agree to these terms, you may not use the Service. These terms are governed by Swedish law and the courts of Stockholm, Sweden have exclusive jurisdiction."
+      },
+      "description": {
+        "title": "2. Service Description",
+        "content": "LessonCraftStudio is an educational SaaS platform that provides worksheet generation tools and related services. We offer 33 different worksheet generators with access to 100+ themed images for educational content creation. The service includes free and paid subscription tiers with varying features and capabilities."
+      },
+      "accounts": {
+        "title": "3. User Accounts",
+        "content": "To access certain features, you must create an account. You are responsible for maintaining the confidentiality of your account credentials and for all activities under your account. You must provide accurate and complete information when creating your account and keep it updated."
+      },
+      "subscriptions": {
+        "title": "4. Subscriptions and Pricing",
+        "content": "We offer free and paid subscription plans. Paid subscriptions are billed monthly or annually in advance. Prices are listed in USD and include applicable Swedish VAT. You can change or cancel your subscription at any time through your account settings."
+      },
+      "payment": {
+        "title": "5. Payment Terms",
+        "content": "Payments are processed securely through Stripe. By providing payment information, you authorize us to charge your payment method for the selected subscription. Failed payments may result in service suspension. Refunds are provided according to our refund policy and applicable consumer protection laws."
+      },
+      "license": {
+        "title": "6. License and Usage Rights",
+        "content": "We grant you a non-exclusive, non-transferable license to use the Service for creating educational materials. Paid subscribers receive a commercial Print-on-Demand (POD) license allowing sale of created worksheets on platforms like Teachers Pay Teachers, Etsy, and similar marketplaces."
+      },
+      "content": {
+        "title": "7. Content Ownership",
+        "content": "You retain ownership of educational content you create using our Service. We retain ownership of our software, images, templates, and other proprietary materials. You may not redistribute, resell, or sublicense our proprietary content separately from worksheets you create."
+      },
+      "prohibited": {
+        "title": "8. Prohibited Uses",
+        "content": "You may not use the Service for any unlawful purpose, to infringe intellectual property rights, to transmit harmful content, or to attempt unauthorized access to our systems. Commercial use requires a paid subscription with appropriate licensing."
+      },
+      "privacy": {
+        "title": "9. Privacy and GDPR Compliance",
+        "content": "We are committed to protecting your privacy and comply with the EU General Data Protection Regulation (GDPR). We process personal data as described in our Privacy Policy. You have rights regarding your personal data including access, correction, deletion, and data portability under GDPR."
+      },
+      "termination": {
+        "title": "10. Termination",
+        "content": "You may terminate your account at any time. We may terminate or suspend access for violations of these terms or for any other reason. Upon termination, your right to use the Service ceases immediately, but these terms remain in effect regarding past use."
+      },
+      "warranties": {
+        "title": "11. Disclaimers and Warranties",
+        "content": "The Service is provided \"as is\" without warranties of any kind. We disclaim all warranties, express or implied, including merchantability and fitness for a particular purpose. We do not warrant that the Service will be uninterrupted or error-free."
+      },
+      "liability": {
+        "title": "12. Limitation of Liability",
+        "content": "To the maximum extent permitted by Swedish law, our liability is limited to the amount you paid for the Service in the 12 months preceding the claim. We are not liable for indirect, incidental, special, or consequential damages."
+      },
+      "indemnification": {
+        "title": "13. Indemnification",
+        "content": "You agree to indemnify and hold us harmless from claims arising from your use of the Service, violation of these terms, or infringement of third-party rights. This obligation survives termination of your account."
+      },
+      "governing": {
+        "title": "14. Governing Law",
+        "content": "These terms are governed by Swedish law without regard to conflict of law principles. Any disputes shall be resolved exclusively in the courts of Stockholm, Sweden. EU consumers retain their rights under applicable consumer protection directives."
+      },
+      "changes": {
+        "title": "15. Changes to Terms",
+        "content": "We may modify these terms at any time. We will notify users of material changes via email or through the Service. Continued use after changes constitutes acceptance of the new terms. You may terminate your account if you disagree with changes."
+      },
+      "withdrawal": {
+        "title": "16. EU Consumer Right of Withdrawal",
+        "content": "EU consumers have the right to withdraw from purchase contracts within 14 days without giving a reason. For digital services, this right may be waived if you expressly request immediate access and acknowledge the loss of withdrawal right upon service commencement."
+      },
+      "contact": {
+        "title": "17. Contact Information",
+        "content": "For questions about these terms, please contact us at legal@lessoncraftstudio.com or through our website contact form. Our registered address is available upon request in compliance with Swedish company law requirements."
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last Updated",
+      "introduction": {
+        "title": "1. Introduction",
+        "content": "LessonCraft Studio values your privacy and is committed to protecting your personal data. This privacy policy explains how we collect, use, store, and protect your information in compliance with the EU General Data Protection Regulation (GDPR) and Swedish data protection laws."
+      },
+      "dataController": {
+        "title": "2. Data Controller",
+        "content": "LessonCraft Studio, based in Stockholm, Sweden, is the data controller responsible for your personal data. We determine the purposes and means of processing your personal data in accordance with GDPR requirements."
+      },
+      "dataCollection": {
+        "title": "3. Data We Collect",
+        "intro": "We collect the following categories of personal data:",
+        "personal": "Personal identification information (name, email address, billing address)",
+        "usage": "Usage data (worksheets created, features used, preferences)",
+        "technical": "Technical data (IP address, browser type, device information)",
+        "cookies": "Cookie data and similar tracking technologies"
+      },
+      "legalBasis": {
+        "title": "4. Legal Basis for Processing",
+        "intro": "We process your personal data under the following legal bases:",
+        "consent": "Consent - for marketing communications and certain cookies",
+        "contract": "Contract performance - to provide our services to you",
+        "legal": "Legal obligations - to comply with tax and accounting requirements",
+        "legitimate": "Legitimate interests - to improve our services and prevent fraud"
+      },
+      "dataUsage": {
+        "title": "5. How We Use Your Data",
+        "service": "To provide and maintain our worksheet generation service",
+        "account": "To manage your account and subscription",
+        "communication": "To communicate with you about updates, support, and marketing (with consent)",
+        "improvement": "To improve our services through analytics and feedback",
+        "legal": "To comply with legal obligations and protect our rights"
+      },
+      "dataSharing": {
+        "title": "6. Data Sharing",
+        "intro": "We only share your data with:",
+        "providers": "Service providers who process data on our behalf (hosting, analytics)",
+        "payment": "Payment processors for secure transaction handling",
+        "legal": "Authorities when legally required or to protect rights",
+        "consent": "Third parties with your explicit consent"
+      },
+      "dataRetention": {
+        "title": "7. Data Retention",
+        "content": "We retain your personal data only as long as necessary for the purposes collected, typically for the duration of your account plus 5 years for tax records. You can request deletion at any time, subject to legal retention requirements."
+      },
+      "userRights": {
+        "title": "8. Your Rights Under GDPR",
+        "intro": "As an EU data subject, you have the following rights:",
+        "access": "Right to access - obtain a copy of your personal data",
+        "rectification": "Right to rectification - correct inaccurate data",
+        "erasure": "Right to erasure (right to be forgotten) - delete your data",
+        "restriction": "Right to restriction - limit processing of your data",
+        "portability": "Right to data portability - receive your data in a portable format",
+        "objection": "Right to object - object to certain types of processing",
+        "withdraw": "Right to withdraw consent at any time",
+        "complaint": "Right to lodge a complaint with the Swedish Data Protection Authority (IMY)"
+      },
+      "dataSecurity": {
+        "title": "9. Data Security",
+        "content": "We implement appropriate technical and organizational measures to protect your personal data, including encryption, access controls, regular security audits, and staff training. We promptly notify you of any data breaches as required by GDPR."
+      },
+      "cookies": {
+        "title": "10. Cookies",
+        "intro": "We use cookies to enhance your experience:",
+        "essential": "Essential cookies - required for basic site functionality",
+        "functional": "Functional cookies - remember your preferences",
+        "analytics": "Analytics cookies - understand site usage (with consent)"
+      },
+      "children": {
+        "title": "11. Children's Privacy",
+        "content": "Our service is designed for educators and parents. We do not knowingly collect personal data from children under 16. If you believe we have collected such data, please contact us immediately for removal."
+      },
+      "international": {
+        "title": "12. International Data Transfers",
+        "content": "Your data is primarily stored within the EU/EEA. Any transfers outside this area are protected by appropriate safeguards such as Standard Contractual Clauses or adequacy decisions in compliance with GDPR."
+      },
+      "changes": {
+        "title": "13. Changes to This Policy",
+        "content": "We may update this privacy policy periodically. We will notify you of material changes via email or prominent notice on our service. Your continued use after notification constitutes acceptance of the updated policy."
+      },
+      "contact": {
+        "title": "14. Contact Information",
+        "intro": "For any privacy-related questions or to exercise your rights, contact us:",
+        "email": "Email",
+        "address": "Address",
+        "dpo": "Data Protection Officer"
+      }
+    },
+    "license": {
+      "title": "License Terms",
+      "lastUpdated": "Effective Date",
+      "effectiveDate": "January 2025",
+      "grantOfLicense": {
+        "title": "1. GRANT OF LICENSE",
+        "intro": "LessonCraft Studio grants you a non-exclusive, non-transferable license to use content generated through our platform according to your subscription tier:",
+        "freeTier": "Free Tier: Personal, non-commercial educational use only. Content must retain all watermarks.",
+        "coreBundle": "Core Bundle: Includes free tier rights plus: commercial educational use, classroom distribution within your institution, paid tutoring services, local print sales (maximum 500 copies per design).",
+        "fullAccess": "Full Access: Unrestricted commercial use including print-on-demand, digital products, course materials, and derivative works. No attribution required."
+      },
+      "intellectualProperty": {
+        "title": "2. INTELLECTUAL PROPERTY",
+        "content": "You retain ownership of original content you provide. LessonCraft Studio retains all rights to the platform, templates, and design elements. Generated content combining your input with our elements is licensed to you per Section 1."
+      },
+      "restrictions": {
+        "title": "3. RESTRICTIONS",
+        "intro": "You may not:",
+        "reverseEngineer": "Reverse engineer or copy the platform",
+        "competing": "Create competing worksheet generation services",
+        "sublicense": "Sublicense platform access",
+        "removeNotices": "Remove copyright notices from free tier content",
+        "illegal": "Use content for illegal purposes"
+      },
+      "commercialDistribution": {
+        "title": "4. COMMERCIAL DISTRIBUTION",
+        "pod": "Print-on-Demand Rights: Full Access subscribers may sell unlimited compilations through Amazon KDP, Teachers Pay Teachers, and similar platforms.",
+        "digital": "Digital Resale: Prohibited for Free and Core Bundle tiers. Full Access permits incorporation into paid digital products."
+      },
+      "termination": {
+        "title": "5. TERMINATION",
+        "content": "Violation of these terms results in immediate license termination. Upon termination, you must cease using all content created during the violation period. Compliant content may continue to be used according to its original license tier."
+      },
+      "warrantyDisclaimer": {
+        "title": "6. WARRANTY DISCLAIMER",
+        "content": "Content is provided \"as is\" without warranties of any kind. LessonCraft Studio disclaims all liability for content accuracy, educational outcomes, or fitness for particular purposes."
+      },
+      "limitationOfLiability": {
+        "title": "7. LIMITATION OF LIABILITY",
+        "content": "Our maximum liability shall not exceed fees paid by you in the preceding twelve (12) months. We are not liable for indirect, incidental, or consequential damages."
+      },
+      "governingLaw": {
+        "title": "8. GOVERNING LAW",
+        "content": "These terms are governed by Swedish law. Disputes shall be resolved in Stockholm courts. EU consumers retain statutory rights."
+      },
+      "modifications": {
+        "title": "9. MODIFICATIONS",
+        "content": "We may modify these terms with 30 days notice via email. Continued use constitutes acceptance."
+      },
+      "contact": {
+        "title": "10. CONTACT",
+        "content": "For licensing inquiries: license@lessoncraftstudio.com"
+      }
+    }
+  }
+}

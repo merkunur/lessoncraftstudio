@@ -194,32 +194,23 @@ export async function GET(request: NextRequest) {
     console.log('Strapi not available either, falling back to file system');
   }
   
-  // Fallback to file system if Strapi is not available
-  const imagesDir = path.join(process.cwd(), 'public', 'images');
-  
+  // Fallback to local JSON metadata
   try {
-    const files = await fs.promises.readdir(imagesDir, { withFileTypes: true });
-    
-    const excludedFolders = [
-      'borders',           // Border assets
-      'backgrounds',       // Background assets
-      'drawing lines',     // Drawing Lines app specific
-      'template',          // Template assets
-      'alphabetsvg',       // Writing app specific
-      'prepositions',      // Prepositions app specific
-      'symbols'            // More Less app specific
-    ];
-    
-    const themes = files
-      .filter(file => file.isDirectory() && !excludedFolders.includes(file.name))
-      .map(file => ({
-        value: file.name,
-        displayName: getTranslatedThemeName(file.name, locale)
+    const metadataPath = path.join(process.cwd(), 'public', 'data', 'images-metadata.json');
+    const metadata = JSON.parse(await fs.promises.readFile(metadataPath, 'utf-8'));
+
+    // Extract themes from metadata
+    const themes = metadata.themes
+      .filter((theme: any) => theme.active !== false)
+      .map((theme: any) => ({
+        value: theme.id,
+        displayName: theme.displayNames?.[locale] || theme.displayNames?.['en'] || theme.name
       }))
-      .sort((a, b) => a.displayName.localeCompare(b.displayName, locale));
-    
+      .sort((a: any, b: any) => a.displayName.localeCompare(b.displayName, locale));
+
     return NextResponse.json(themes);
   } catch (error) {
-    return NextResponse.json({ error: 'Error reading themes directory' }, { status: 500 });
+    console.error('Error reading images metadata:', error);
+    return NextResponse.json({ error: 'Error reading themes metadata' }, { status: 500 });
   }
 }

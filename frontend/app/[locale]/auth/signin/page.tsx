@@ -11,7 +11,7 @@ export default function SignInPage() {
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
-  const t = useTranslations('auth');
+  const t = useTranslations('auth.signIn');
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -54,12 +54,12 @@ export default function SignInPage() {
       <div className="max-w-md w-full space-y-8">
         <div>
           <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-            Sign in to your account
+            {t('title')}
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
-            Or{' '}
+            {t('noAccount')}{' '}
             <Link href="/auth/signup" className="font-medium text-blue-600 hover:text-blue-500">
-              create a new account
+              {t('signUp')}
             </Link>
           </p>
         </div>
@@ -83,7 +83,7 @@ export default function SignInPage() {
           <div className="rounded-md shadow-sm -space-y-px">
             <div>
               <label htmlFor="email-address" className="sr-only">
-                Email address
+                {t('email')}
               </label>
               <input
                 id="email-address"
@@ -92,14 +92,14 @@ export default function SignInPage() {
                 autoComplete="email"
                 required
                 className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
-                placeholder="Email address"
+                placeholder={t('email')}
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
               />
             </div>
             <div>
               <label htmlFor="password" className="sr-only">
-                Password
+                {t('password')}
               </label>
               <input
                 id="password"
@@ -108,7 +108,7 @@ export default function SignInPage() {
                 autoComplete="current-password"
                 required
                 className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
-                placeholder="Password"
+                placeholder={t('password')}
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
               />
@@ -124,13 +124,13 @@ export default function SignInPage() {
                 className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
               />
               <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-900">
-                Remember me
+                {t('rememberMe')}
               </label>
             </div>
 
             <div className="text-sm">
               <Link href="/auth/forgot-password" className="font-medium text-blue-600 hover:text-blue-500">
-                Forgot your password?
+                {t('forgotPassword')}
               </Link>
             </div>
           </div>
@@ -147,7 +147,7 @@ export default function SignInPage() {
                   <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                 </svg>
               ) : (
-                'Sign in'
+                t('submit')
               )}
             </button>
           </div>
@@ -158,7 +158,7 @@ export default function SignInPage() {
                 <div className="w-full border-t border-gray-300" />
               </div>
               <div className="relative flex justify-center text-sm">
-                <span className="px-2 bg-gray-50 text-gray-500">Or continue with</span>
+                <span className="px-2 bg-gray-50 text-gray-500">{t('orContinueWith')}</span>
               </div>
             </div>
 

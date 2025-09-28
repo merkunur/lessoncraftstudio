@@ -1,132 +1,786 @@
 {
   "navigation": {
-    "apps": "Apps",
-    "pricing": "Pricing",
-    "blog": "Blog",
-    "signIn": "Sign In",
-    "signUp": "Sign Up",
-    "startFree": "Start Free",
-    "dashboard": "Dashboard",
-    "signOut": "Sign Out"
+    "apps": "Generatorer",
+    "pricing": "Priser",
+    "blog": "Blogg",
+    "contact": "Kontakt",
+    "signIn": "Logg inn",
+    "signUp": "Registrer deg",
+    "startFree": "Start gratis",
+    "dashboard": "Kontrollpanel",
+    "signOut": "Logg ut"
   },
   "homepage": {
     "hero": {
-      "title": "Create Professional Worksheets in Minutes",
-      "subtitle": "33 powerful worksheet generators with 100+ themed images for Teachers Pay Teachers sellers and educational publishers",
+      "title": "Lag fantastiske arbeidsark på få minutter",
+      "subtitle": "Profesjonelle arbeidsarkgeneratorer for lærere og foreldre. Få tilgang til 33 interaktive applikasjoner med vakre illustrasjoner.",
       "cta": {
-        "tryFree": "Try Word Search Free",
-        "viewApps": "View All Apps"
+        "tryFree": "Prøv ordsøk gratis",
+        "viewApps": "Se alle generatorer"
       }
     },
     "features": {
-      "title": "Everything You Need for Publishing Success",
+      "title": "Alt du trenger for å lage kvalitetsmateriell",
       "items": {
         "apps": {
-          "title": "33 Worksheet Apps",
-          "description": "From math and reading to puzzles and games"
+          "title": "33 arbeidsarkgeneratorer",
+          "description": "Fra matematikk og lesing til puslespill og spill"
         },
         "images": {
-          "title": "100+ Image Themes",
-          "description": "Child-friendly illustrations with commercial license"
+          "title": "Over 100 bildetemaer",
+          "description": "Barnevennlige illustrasjoner med kommersiell lisens"
         },
         "languages": {
-          "title": "11 Languages",
-          "description": "Create worksheets in multiple languages"
+          "title": "11 språk",
+          "description": "Lag arbeidsark på flere språk"
         },
         "pod": {
-          "title": "POD License Included",
-          "description": "Sell your worksheets on any platform"
+          "title": "POD-lisens inkludert",
+          "description": "Selg dine arbeidsark på hvilken som helst plattform"
         }
       }
     },
     "pricing": {
-      "title": "Simple, Transparent Pricing",
-      "monthly": "Monthly",
-      "yearly": "Yearly (Save 20%)",
+      "title": "Enkel, transparent prissetting",
+      "monthly": "Månedlig",
+      "yearly": "Årlig (Spar 20%)",
       "free": {
-        "name": "Free",
+        "name": "Gratis",
         "price": "$0",
         "features": [
-          "Word Search Generator",
-          "Limited image library",
-          "Watermarked output",
-          "Basic support"
+          "Ordsøkgenerator",
+          "Begrenset bildebibliotek",
+          "Med vannmerke",
+          "Grunnleggende støtte"
         ],
-        "cta": "Start Free"
+        "cta": "Start gratis"
       },
       "core": {
-        "name": "Core Bundle",
+        "name": "Kjernepakke",
         "price": "$15",
         "priceYearly": "$144",
         "features": [
-          "10 most popular apps",
-          "Full image library access",
-          "No watermarks",
-          "POD commercial license",
-          "Priority support"
+          "10 mest populære generatorer",
+          "Full tilgang til bildebibliotek",
+          "Uten vannmerke",
+          "POD kommersiell lisens",
+          "Prioritert støtte"
         ],
-        "cta": "Start Core"
+        "cta": "Velg Kjernepakke"
       },
       "full": {
-        "name": "Full Access",
+        "name": "Full Tilgang",
         "price": "$25",
         "priceYearly": "$240",
         "features": [
-          "All 33 apps",
-          "Full image library access",
-          "No watermarks",
-          "POD commercial license",
-          "Priority support",
-          "Early access to new apps"
+          "Alle 33 generatorer",
+          "Full tilgang til bildebibliotek",
+          "Uten vannmerke",
+          "POD kommersiell lisens",
+          "Prioritert støtte",
+          "Tidlig tilgang til nye apper"
         ],
-        "cta": "Start Full Access",
-        "popular": "Most Popular"
+        "cta": "Få Full Tilgang",
+        "popular": "Mest populær"
       }
     }
   },
-  "apps": {
-    "title": "Worksheet Generator Apps",
-    "subtitle": "Choose from 33 professional worksheet generators",
-    "search": "Search apps...",
+  "worksheetSamples": {
+    "title": "Galleri med arbeidsarkeksempler",
+    "subtitle": "Klikk på et arbeidsark for en større forhåndsvisning. Dette er bare noen eksempler fra vår samling av 33 profesjonelle arbeidsarkgeneratorer.",
+    "ctaText": "Utforsk alle 33 arbeidsarkgeneratorer →",
+    "alphabetTrain": {
+      "title": "Alfabettog",
+      "description": "Morsom alfabetlæring med fargerike togvogner"
+    },
+    "codeAddition": {
+      "title": "Code-Addition",
+      "description": "Knekkk koden med addisjonsoppgaver"
+    },
+    "diagramAndCount": {
+      "title": "Diagram og telling",
+      "description": "Lær diagrammer og datavisualisering"
+    },
+    "hiddenObjects": {
+      "title": "Skjulte objekter",
+      "description": "Finn skjulte objekter i detaljerte scener"
+    },
+    "iSpy": {
+      "title": "Jeg ser",
+      "description": "Det klassiske søkespillet!"
+    },
+    "patternTrain": {
+      "title": "Mønstertog",
+      "description": "Fullfør mønstersekvensene"
+    },
+    "modalLabels": {
+      "ageRange": "Aldersgruppe",
+      "difficulty": "Vanskelighetsgrad",
+      "category": "Kategori"
+    },
+    "difficulties": {
+      "Easy": "Lett",
+      "Medium": "Middels",
+      "Hard": "Vanskelig"
+    },
     "categories": {
-      "all": "All Apps",
-      "math": "Math",
-      "language": "Language Arts",
-      "puzzles": "Puzzles",
-      "games": "Games",
-      "visual": "Visual Perception",
-      "motor": "Fine Motor Skills"
+      "Language": "Språk",
+      "Math": "Matematikk",
+      "Visual": "Visuell",
+      "Pattern": "Mønster"
+    },
+    "ageRanges": {
+      "age3to5": "3-5 år",
+      "age4to7": "4-7 år",
+      "age5to8": "5-8 år",
+      "age6to8": "6-8 år",
+      "age7to10": "7-10 år"
+    }
+  },
+  "apps": {
+    "title": "Arbeidsarkgeneratorer",
+    "subtitle": "Velg blant 33 profesjonelle arbeidsarkgeneratorer",
+    "search": "Søk generatorer...",
+    "heroTitle": "33 pedagogiske arbeidsarkgeneratorer",
+    "heroSubtitle": "Forvandle undervisningsmaterialet ditt med vår komplette samling av pedagogiske arbeidsarkgeneratorer. Fra ordsøking til matteoppgaver, vi har alt du trenger.",
+    "categories": {
+      "all": "Alle generatorer",
+      "math": "Matematikk",
+      "language": "Språk og lesing",
+      "puzzles": "Puslespill",
+      "games": "Spill",
+      "visual": "Visuell persepsjon",
+      "motor": "Finmotorikk",
+      "wordGames": "Ordleker",
+      "languageArts": "Norsk og skriving",
+      "artCreativity": "Kunst og kreativitet",
+      "matching": "Kobling",
+      "fineMotorSkills": "Finmotorikk",
+      "logic": "Logikk",
+      "concepts": "Grunnleggende konsepter",
+      "patterns": "Mønstre",
+      "sorting": "Sortering"
     },
     "tier": {
-      "free": "Free",
-      "core": "Core Bundle",
-      "full": "Full Access"
+      "free": "Gratis",
+      "core": "Kjernepakke",
+      "full": "Full Tilgang",
+      "popular": "Populær"
+    },
+    "tierInfo": {
+      "freeTitle": "Gratisversjon",
+      "freeDescription": "Prøv ordsøkingsgeneratoren med vannmerke",
+      "coreTitle": "Kjernepakke - $15/måned",
+      "coreDescription": "Tilgang til de 10 mest populære appene med kommersiell lisens",
+      "fullTitle": "Full Tilgang - $25/måned",
+      "fullDescription": "Alle 33 apper, prioritert støtte, tidlig tilgang"
+    },
+    "appNames": {
+      "wordSearch": "Ordsøking",
+      "imageAddition": "Bildeaddisjon",
+      "alphabetTrain": "Alfabettog",
+      "coloringPages": "Fargeleggingssider",
+      "mathWorksheets": "Matteoppgaver",
+      "wordScramble": "Bokstavrot",
+      "findAndCount": "Finn og tell",
+      "matchUpMaker": "Koblespill",
+      "drawingLines": "Tegn linjer",
+      "pictureBingo": "Bildebingo",
+      "sudokuForKids": "Barnesudoku",
+      "bigOrSmall": "Stor eller liten",
+      "chartCountColor": "Diagrammer å telle og fargelegge",
+      "codeAddition": "Kodeaddisjon",
+      "drawAndColor": "Tegn og fargelegg",
+      "findObjects": "Finn objektene",
+      "gridMatch": "Rutenettkobling",
+      "imageCrossword": "Bildekryssord",
+      "imageCryptogram": "Bildekryptogram",
+      "mathPuzzle": "Mattepuslespill",
+      "missingPieces": "Manglende brikker",
+      "moreOrLess": "Mer eller mindre",
+      "oddOneOut": "Hvilket passer ikke inn",
+      "patternTrain": "Mønstertog",
+      "patternWorksheets": "Mønsterøvelser",
+      "picturePathway": "Bildesti",
+      "pictureSort": "Sorter bilder",
+      "prepositions": "Preposisjoner",
+      "shadowMatch": "Skyggekobling",
+      "subtraction": "Subtraksjon",
+      "treasureHunt": "Skattejakt",
+      "wordGuess": "Gjett ordet",
+      "englishWritingPractice": "Engelske skriveøvelser"
+    },
+    "cta": {
+      "title": "Klar til å lage fantastiske arbeidsark?",
+      "subtitle": "Start med vår gratis ordsøkingsgenerator eller lås opp alle apper i dag",
+      "startFreeTrial": "Prøv gratis",
+      "viewPricing": "Se priser"
+    },
+    "filters": {
+      "allApps": "Alle apper"
     }
   },
   "auth": {
     "signIn": {
-      "title": "Welcome Back",
-      "subtitle": "Sign in to your account",
-      "email": "Email",
-      "password": "Password",
-      "rememberMe": "Remember me",
-      "forgotPassword": "Forgot password?",
-      "submit": "Sign In",
-      "noAccount": "Don't have an account?",
-      "signUp": "Sign up"
+      "title": "Så hyggelig å se deg igjen!",
+      "subtitle": "Kom inn til undervisningsmateriellet ditt",
+      "email": "E-postadresse",
+      "emailPlaceholder": "din@epost.no",
+      "password": "Passord",
+      "passwordPlaceholder": "Ditt passord",
+      "rememberMe": "Hold meg innlogget",
+      "forgotPassword": "Glemt passordet?",
+      "submit": "Logg inn",
+      "noAccount": "Har du ikke konto ennå?",
+      "signUp": "Lag en gratis konto",
+      "orContinueWith": "Eller fortsett med"
     },
     "signUp": {
-      "title": "Create Your Account",
-      "subtitle": "Start creating worksheets today",
-      "firstName": "First Name",
-      "lastName": "Last Name",
-      "email": "Email",
-      "password": "Password",
-      "confirmPassword": "Confirm Password",
-      "terms": "I agree to the Terms of Service and Privacy Policy",
-      "submit": "Create Account",
-      "hasAccount": "Already have an account?",
-      "signIn": "Sign in"
+      "title": "Opprett din konto",
+      "subtitle": "Begynn å lage arbeidsark i dag",
+      "firstName": "Fornavn",
+      "lastName": "Etternavn",
+      "email": "E-postadresse",
+      "password": "Passord",
+      "confirmPassword": "Bekreft passord",
+      "terms": "Jeg godtar tjenestevilkårene og personvernerklæringen",
+      "submit": "Opprett konto",
+      "hasAccount": "Har du allerede en konto?",
+      "signIn": "Logg inn"
+    }
+  },
+  "footer": {
+    "companyName": "LessonCraftStudio",
+    "companyTagline": "Profesjonelle arbeidsarkgeneratorer for utdanningsutgivere.",
+    "product": {
+      "title": "Produkt",
+      "apps": "Generatorer",
+      "pricing": "Priser",
+      "blog": "Blogg"
+    },
+    "support": {
+      "title": "Støtte",
+      "helpCenter": "Hjelpesenter",
+      "contact": "Kontakt",
+      "faq": "Ofte stilte spørsmål"
+    },
+    "legal": {
+      "title": "Juridisk",
+      "terms": "Tjenestevilkår",
+      "privacy": "Personvern",
+      "license": "Lisensvilkår"
+    },
+    "copyright": "© 2024 LessonCraftStudio. Alle rettigheter forbeholdt."
+  },
+  "pricing": {
+    "heroTitle": "Rettferdige priser som passer dine behov",
+    "heroSubtitle": "Velg den perfekte pakken for dine kreative undervisningsmaterialer - fra gratis start til profesjonell løsning",
+    "billingToggle": {
+      "monthly": "Månedlig",
+      "yearly": "Årlig",
+      "yearlyDiscount": "Spar 20%"
+    },
+    "labels": {
+      "whatsIncluded": "Dette er inkludert:",
+      "limitations": "Begrensninger:",
+      "appsIncluded": "Tilgjengelige generatorer:",
+      "orYearly": "eller",
+      "perYear": "/år"
+    },
+    "plans": {
+      "free": {
+        "name": "Gratis",
+        "price": "$0",
+        "period": "",
+        "description": "Perfekt for å teste våre verktøy",
+        "features": {
+          "0": "Ordsøkingsgenerator (med vannmerke)",
+          "1": "Diskret vannmerke på dokumenter",
+          "2": "Begrenset bildebibliotek",
+          "3": "Standard maler",
+          "4": "Forum-støtte",
+          "5": "Kun for personlig bruk"
+        },
+        "limitations": {
+          "0": "Vannmerke på alle arbeidsark",
+          "1": "Ingen kommersiell lisens",
+          "2": "Begrenset tilpasning"
+        },
+        "apps": {
+          "0": "Ordsøkingsgenerator (med vannmerke)"
+        },
+        "cta": "Start gratis"
+      },
+      "core": {
+        "name": "Kjernepakke",
+        "price": "$15",
+        "period": "/måned",
+        "yearlyPrice": "$144",
+        "description": "De mest populære verktøyene for profesjonelle lærere",
+        "features": {
+          "0": "10 mest populære generatorer",
+          "1": "Ingen vannmerker",
+          "2": "Fullt bildebibliotek (100+ temaer)",
+          "3": "Alle premium-maler",
+          "4": "POD kommersiell lisens",
+          "5": "E-post støtte",
+          "6": "Eksporter til PDF og JPEG i høy kvalitet"
+        },
+        "apps": {
+          "0": "10 mest populære generatorer:",
+          "1": "Bildeaddisjon",
+          "2": "Alfabettog",
+          "3": "Fargeark",
+          "4": "Matteark",
+          "5": "Bokstavblanding",
+          "6": "Finn og tell",
+          "7": "Match-spill",
+          "8": "Tegn linjer",
+          "9": "Bildebingo",
+          "10": "Sudoku for barn"
+        },
+        "cta": "7 dagers gratis prøveperiode"
+      },
+      "full": {
+        "name": "Full Tilgang",
+        "price": "$25",
+        "period": "/måned",
+        "yearlyPrice": "$240",
+        "description": "Den komplette løsningen for ambisiøse pedagoger",
+        "features": {
+          "0": "Alle 33 arbeidsarkgeneratorer",
+          "1": "Alt fra Kjernepakken pluss 23 ekstra",
+          "2": "Prioritert e-post støtte",
+          "3": "Tidlig tilgang til nye funksjoner",
+          "4": "Avanserte tilpasningsalternativer",
+          "5": "Jevnlige oppdateringer og nye funksjoner"
+        },
+        "apps": {
+          "0": "Alle Kjernepakke-generatorer pluss:",
+          "1": "Stor eller liten",
+          "2": "Diagrammer tell og farg",
+          "3": "Kodeaddisjon",
+          "4": "Tegn og farg",
+          "5": "Finn objekter",
+          "6": "Rutenett-matching",
+          "7": "Bildekryssord",
+          "8": "Bildekryptogram",
+          "9": "Mattepuslespill",
+          "10": "Manglende brikker",
+          "11": "Mer eller mindre",
+          "12": "Hvilket passer ikke inn",
+          "13": "Mønstertog",
+          "14": "Mønsterark",
+          "15": "Bildesti",
+          "16": "Sorter bilder",
+          "17": "Preposisjoner",
+          "18": "Skyggekobling",
+          "19": "Subtraksjon",
+          "20": "Skattejakt",
+          "21": "Gjett ordet",
+          "22": "Skriveøvelser"
+        },
+        "cta": "7 dagers gratis prøveperiode",
+        "popular": "MEST POPULÆR"
+      }
+    },
+    "comparison": {
+      "title": "Sammenlign våre pakker i detalj",
+      "features": "Funksjoner",
+      "numberOfApps": "Antall generatorer",
+      "watermark": "Uten vannmerke",
+      "commercialLicense": "Kommersiell lisens",
+      "imageLibrarySize": "Størrelse på bildebibliotek",
+      "imageLibrary": {
+        "free": "Begrenset (10 temaer)",
+        "core": "Fullt (100+ temaer)",
+        "full": "Fullt (100+ temaer)"
+      },
+      "support": "Støtte",
+      "supportTypes": {
+        "free": "Forum",
+        "core": "E-post",
+        "full": "Prioritert e-post"
+      },
+      "earlyAccess": "Tidlig tilgang til nye funksjoner"
+    },
+    "faq": {
+      "title": "Ofte stilte spørsmål",
+      "items": [
+        {
+          "question": "Kan jeg bytte pakke når som helst?",
+          "answer": "Absolutt! Du kan oppgradere eller nedgradere pakken din når du vil. Endringene trer i kraft umiddelbart og vi justerer faktureringen proporsjonalt."
+        },
+        {
+          "question": "Hva er POD kommersiell lisens?",
+          "answer": "POD står for Print-on-Demand. Denne lisensen lar deg selge arbeidsarkene du lager på plattformer som Teachers Pay Teachers, Etsy eller din egen nettbutikk."
+        },
+        {
+          "question": "Kan jeg bytte mellom pakkene?",
+          "answer": "Ja, du kan oppgradere eller nedgradere når som helst. Ved oppgradering betaler du bare differansen. Ved nedgradering trer endringen i kraft ved neste faktureringssyklus."
+        },
+        {
+          "question": "Er det en gratis prøveperiode?",
+          "answer": "Ja! Både Kjernepakken og Full Tilgang tilbyr 7 dagers gratis prøveperiode. Du kan teste alle funksjonene uten forpliktelse før du bestemmer deg."
+        },
+        {
+          "question": "Hvilke betalingsmetoder aksepterer dere?",
+          "answer": "Vi aksepterer alle store kredittkort (Visa, Mastercard, American Express) samt PayPal. Betalinger er sikret gjennom Stripe."
+        },
+        {
+          "question": "Kan jeg lage arbeidsark på andre språk?",
+          "answer": "Ja! Vår plattform støtter 11 språk: norsk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, nederlandsk, svensk, dansk og finsk."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Klar til å lage fantastiske undervisningsmateriell?",
+      "subtitle": "Bli med tusenvis av lærere som sparer tid og engasjerer elevene sine",
+      "button": "Start gratis",
+      "disclaimer": "Ingen kredittkort nødvendig • Avbryt når som helst"
+    }
+  },
+  "common": {
+    "loading": "Laster...",
+    "error": "En feil oppstod",
+    "retry": "Prøv igjen",
+    "save": "Lagre",
+    "cancel": "Avbryt",
+    "delete": "Slett",
+    "edit": "Rediger",
+    "create": "Opprett",
+    "search": "Søk",
+    "filter": "Filtrer",
+    "sort": "Sorter",
+    "next": "Neste",
+    "previous": "Forrige",
+    "close": "Lukk",
+    "open": "Åpne",
+    "yes": "Ja",
+    "no": "Nei",
+    "confirm": "Bekreft",
+    "download": "Last ned",
+    "upload": "Last opp",
+    "select": "Velg",
+    "selectAll": "Velg alle",
+    "deselectAll": "Velg bort alle",
+    "required": "Obligatorisk",
+    "optional": "Valgfri"
+  },
+  "blogPage": {
+    "hero": {
+      "title": "LessonCraftStudio Blogg",
+      "subtitle": "Praktiske tips, veiledninger og inspirasjon for å lage fantastisk undervisningsmateriell"
+    },
+    "categories": {
+      "all": "Alle innlegg",
+      "worksheetTips": "Tips for oppgaveark",
+      "teachingResources": "Undervisningsressurser",
+      "educationalActivities": "Pedagogiske aktiviteter",
+      "learningStrategies": "Læringsstrategier",
+      "curriculumGuides": "Læreplanveiledninger",
+      "parentResources": "For foreldre",
+      "seasonalContent": "Sesonginnhold"
+    },
+    "loading": {
+      "message": "Laster inn blogginnlegg..."
+    },
+    "empty": {
+      "title": "Ingen innlegg tilgjengelig",
+      "description": "Kom tilbake snart for nytt pedagogisk innhold!"
+    },
+    "postCard": {
+      "pdfSamples": "PDF-eksempler",
+      "readTime": "lesetid"
+    },
+    "pagination": {
+      "previous": "Forrige",
+      "next": "Neste",
+      "showing": "Viser",
+      "of": "av",
+      "posts": "innlegg"
+    },
+    "newsletter": {
+      "title": "Hold deg oppdatert med pedagogiske tips",
+      "subtitle": "Få ukentlige ideer for å lage bedre undervisningsmateriell og utvikle din praksis",
+      "emailPlaceholder": "Din e-postadresse",
+      "subscribe": "Abonner",
+      "success": "Takk for din påmelding!",
+      "error": "Noe gikk galt. Prøv igjen senere.",
+      "noSpam": "Ingen spam, avmeld når som helst."
+    },
+    "signUp": {
+      "title": "Opprett din gratis konto",
+      "hasAccount": "Har du allerede en konto?",
+      "signIn": "Logg inn",
+      "firstName": "Fornavn",
+      "lastName": "Etternavn",
+      "email": "E-postadresse",
+      "password": "Passord",
+      "confirmPassword": "Bekreft passord",
+      "passwordHint": "Minst 8 tegn",
+      "terms": "Jeg godtar",
+      "termsLink": "vilkårene",
+      "and": "og",
+      "privacyLink": "personvernreglene",
+      "termsEnd": "",
+      "submit": "Opprett konto",
+      "orSignUpWith": "Eller registrer deg med",
+      "freeAccountInfo": "Din gratis konto inkluderer 10 nedlastinger per måned",
+      "upgradeAnytime": "Oppgrader til premium når som helst",
+      "errors": {
+        "allFieldsRequired": "Alle felt må fylles ut",
+        "passwordLength": "Passordet må inneholde minst 8 tegn",
+        "passwordsDoNotMatch": "Passordene stemmer ikke overens",
+        "agreeToTerms": "Du må godta vilkårene for å fortsette",
+        "invalidEmail": "E-postadressen er ugyldig"
+      }
+    }
+  },
+  "contact": {
+    "title": "Kontakt oss",
+    "subtitle": "Vi er her for å hjelpe! Har du spørsmål eller innspill? Send gjerne en melding - vi setter stor pris på å høre fra deg.",
+    "getInTouch": "Ta kontakt",
+    "name": "Navn",
+    "email": "E-post",
+    "subject": "Emne",
+    "selectSubject": "Velg et emne",
+    "subjects": {
+      "general": "Generell henvendelse",
+      "support": "Teknisk støtte",
+      "feedback": "Tilbakemelding",
+      "partnership": "Partnerskapsmulighet"
+    },
+    "message": "Melding",
+    "send": "Send melding",
+    "sending": "Sender...",
+    "successMessage": "Flott! Meldingen din er mottatt. Tusen takk for at du tok kontakt! Vi kommer tilbake til deg snart.",
+    "errorMessage": "Oops, noe gikk galt. Prøv igjen om litt.",
+    "otherWaysToConnect": "Andre måter å komme i kontakt på",
+    "emailUs": "Send oss e-post",
+    "responseTime": "Svartid",
+    "responseTimeInfo": "Vi svarer som regel innen 48 timer (ofte samme dag).",
+    "faq": "Ofte stilte spørsmål",
+    "faqInfo": "Har du det travelt? Sjekk FAQ-siden vår for raske svar på vanlige spørsmål.",
+    "followUs": "Følg oss"
+  },
+  "terms": {
+    "title": "Bruksvilkår",
+    "lastUpdated": "Sist oppdatert",
+    "effectiveDate": "Januar 2025",
+    "acceptance": {
+      "title": "1. AKSEPT",
+      "content": "Ved å bruke LessonCraftStudio godtar du disse vilkårene. Hvis du ikke er enig, vennligst ikke bruk tjenesten vår."
+    },
+    "serviceDescription": {
+      "title": "2. TJENESTEBESKRIVELSE",
+      "content": "LessonCraftStudio tilbyr verktøy for å lage arbeidsark i tre abonnementsnivåer: Gratis (begrenset), Core (utvidet) og Full tilgang (ubegrenset)."
+    },
+    "userAccounts": {
+      "title": "3. BRUKERKONTOER",
+      "requirements": "Krav:",
+      "age": "Minimumsalder: 18 år",
+      "accurate": "Nøyaktig registreringsinformasjon",
+      "security": "Opprettholde kontosikkerhet",
+      "responsible": "Ansvar for kontoaktiviteter"
+    },
+    "paymentTerms": {
+      "title": "4. BETALINGSVILKÅR",
+      "pricing": "Gjeldende priser vises ved registrering",
+      "billing": "Tilbakevendende fakturering etter valgt abonnement",
+      "refunds": "Ingen refusjon for delvise perioder",
+      "changes": "Prisendringer med 30 dagers varsel"
+    },
+    "acceptableUse": {
+      "title": "5. AKSEPTABEL BRUK",
+      "prohibited": "Forbudt:",
+      "illegal": "Ulovlige aktiviteter",
+      "harmful": "Skadelig eller støtende innhold",
+      "infringement": "Krenkelse av immaterielle rettigheter",
+      "system": "Systemforstyrrelse eller -skade",
+      "resale": "Uautorisert videresalg"
+    },
+    "intellectualProperty": {
+      "title": "6. IMMATERIELLE RETTIGHETER",
+      "content": "Plattform og verktøy forblir vår eiendom. Ditt innhold forblir ditt. Generert innhold lisensieres etter abonnement."
+    },
+    "termination": {
+      "title": "7. OPPSIGELSE",
+      "user": "Kan sies opp når som helst via kontoinnstillinger",
+      "company": "Vi kan si opp ved brudd",
+      "effect": "Oppsigelse avslutter tilgang; innholdslisens fortsetter"
+    },
+    "disclaimers": {
+      "title": "8. ANSVARSFRASKRIVELSE",
+      "asis": "Tjenesten leveres SOM DEN ER",
+      "availability": "Ingen garanti for kontinuerlig tilgjengelighet",
+      "suitability": "Ingen garanti for egnethet til formål",
+      "content": "Bruker ansvarlig for innholdets nøyaktighet"
+    },
+    "limitationLiability": {
+      "title": "9. ANSVARSBEGRENSNING",
+      "content": "Maksimalt ansvar: gebyrer betalt siste 12 måneder. Intet ansvar for indirekte skader eller følgeskader."
+    },
+    "indemnification": {
+      "title": "10. SKADESLØSHOLDELSE",
+      "content": "Du holder oss skadesløse fra krav som oppstår fra din bruk, innhold eller brudd."
+    },
+    "governingLaw": {
+      "title": "11. GJELDENDE LOV",
+      "content": "Svensk lov gjelder. Stockholms domstoler har jurisdiksjon. EU-forbrukerrettigheter bevares."
+    },
+    "changes": {
+      "title": "12. ENDRINGER",
+      "content": "Vi kan endre vilkår med varsel. Fortsatt bruk utgjør aksept."
+    },
+    "contact": {
+      "title": "13. KONTAKT",
+      "content": "Spørsmål: legal@lessoncraftstudio.com"
+    }
+  },
+  "privacy": {
+    "title": "Personvernerklæring",
+    "lastUpdated": "Sist oppdatert",
+    "effectiveDate": "Januar 2025",
+    "introduction": {
+      "title": "1. INNLEDNING",
+      "content": "Denne erklæringen forklarer vår databehandling i henhold til GDPR og svensk lov."
+    },
+    "dataController": {
+      "title": "2. BEHANDLINGSANSVARLIG",
+      "content": "LessonCraftStudio, Stockholm, Sverige. Kontakt: privacy@lessoncraftstudio.com"
+    },
+    "dataCollection": {
+      "title": "3. DATA VI SAMLER INN",
+      "intro": "Vi samler inn:",
+      "personal": "Kontodata (navn, e-post)",
+      "usage": "Bruksanalyse",
+      "technical": "Tekniske data (IP, nettleser)",
+      "cookies": "Cookie-preferanser"
+    },
+    "legalBasis": {
+      "title": "4. RETTSLIG GRUNNLAG",
+      "intro": "Behandling baseres på:",
+      "consent": "Ditt samtykke",
+      "contract": "Kontraktsoppfyllelse",
+      "legal": "Juridiske forpliktelser",
+      "legitimate": "Legitime interesser"
+    },
+    "dataUsage": {
+      "title": "5. DATABRUK",
+      "service": "Tjenestelevering",
+      "account": "Kontoadministrasjon",
+      "communication": "Kommunikasjon",
+      "improvement": "Tjenesteforbedring",
+      "legal": "Juridisk overholdelse"
+    },
+    "dataSharing": {
+      "title": "6. DATADELING",
+      "intro": "Begrenset deling med:",
+      "providers": "Tjenesteleverandører (databehandlere)",
+      "payment": "Betalingsprosessorer",
+      "legal": "Myndigheter når påkrevd",
+      "consent": "Tredjeparter med samtykke"
+    },
+    "dataRetention": {
+      "title": "7. DATALAGRING",
+      "content": "Kontodata: kontovarighet pluss 1 år. Loggfiler: 90 dager. Markedsføring: til avmelding."
+    },
+    "userRights": {
+      "title": "8. DINE RETTIGHETER",
+      "intro": "GDPR-rettigheter inkluderer:",
+      "access": "Tilgang til dine data",
+      "rectification": "Retting av unøyaktigheter",
+      "erasure": "Anmodning om sletting",
+      "restriction": "Begrensning av behandling",
+      "portability": "Dataportabilitet",
+      "objection": "Innsigelse mot behandling",
+      "withdraw": "Tilbaketrekking av samtykke",
+      "complaint": "Klage til Datatilsynet"
+    },
+    "dataSecurity": {
+      "title": "9. SIKKERHET",
+      "content": "Bransjestandard sikkerhet med kryptering, tilgangskontroller og regelmessige revisjoner."
+    },
+    "cookies": {
+      "title": "10. INFORMASJONSKAPSLER",
+      "intro": "Vi bruker:",
+      "essential": "Essensielle cookies (påkrevd)",
+      "functional": "Funksjonelle cookies (preferanser)",
+      "analytics": "Analytiske cookies (med samtykke)"
+    },
+    "children": {
+      "title": "11. BARN",
+      "content": "Tjeneste for lærere/foreldre. Ingen innsamling fra barn under 16."
+    },
+    "international": {
+      "title": "12. INTERNASJONALE OVERFØRINGER",
+      "content": "Data lagres i EU/EØS. Eksterne overføringer med standardkontraktsklausuler."
+    },
+    "changes": {
+      "title": "13. ENDRINGER",
+      "content": "Oppdateringer meddeles via e-post. Fortsatt bruk utgjør aksept."
+    },
+    "contact": {
+      "title": "14. KONTAKT",
+      "intro": "Spørsmål eller utøvelse av rettigheter:",
+      "email": "E-post: privacy@lessoncraftstudio.com",
+      "address": "Adresse: Stockholm, Sverige",
+      "dpo": "Personvernombud: dpo@lessoncraftstudio.com"
+    }
+  },
+  "license": {
+    "title": "Lisensvilkår",
+    "lastUpdated": "Sist oppdatert",
+    "effectiveDate": "Januar 2025",
+    "grantOfLicense": {
+      "title": "1. LISENSTILLATELSE",
+      "intro": "LessonCraftStudio gir deg lisens til å bruke generert innhold basert på ditt abonnement:",
+      "freeTier": "Gratis: Kun personlig ikke-kommersiell utdanningsbruk",
+      "coreBundle": "Core: Kommersiell utdanningsbruk innenfor din institusjon",
+      "fullAccess": "Full tilgang: Ubegrenset kommersiell bruk inkludert print-on-demand og videresalg"
+    },
+    "intellectualProperty": {
+      "title": "2. IMMATERIELLE RETTIGHETER",
+      "content": "Du beholder ditt originale innhold. Vi beholder rettigheter til plattformelementer. Generert innhold lisensieres i henhold til Seksjon 1."
+    },
+    "restrictions": {
+      "title": "3. BEGRENSNINGER",
+      "intro": "Du må ikke:",
+      "reverseEngineer": "Reverse-engineere plattformen",
+      "competing": "Lage konkurrerende tjenester",
+      "sublicense": "Underlisensiere plattformtilgang",
+      "removeNotices": "Fjerne vannmerker fra gratisinnhold",
+      "illegal": "Bruke til ulovlige formål"
+    },
+    "commercialDistribution": {
+      "title": "4. KOMMERSIELL DISTRIBUSJON",
+      "pod": "Print-on-demand: Full tilgang-abonnenter kan selge ubegrenset via print-on-demand-plattformer.",
+      "digital": "Digital distribusjon: Alle nivåer kan distribuere digitale versjoner i henhold til sin lisens."
+    },
+    "termination": {
+      "title": "5. OPPSIGELSE",
+      "content": "Vi kan si opp ved brudd med 30 dagers varsel. Innhold laget under gyldig abonnement forblir lisensiert."
+    },
+    "warrantyDisclaimer": {
+      "title": "6. GARANTIFRASKRIVELSE",
+      "content": "Tjenesten leveres SOM DEN ER uten garantier. Vi garanterer ikke egnethet til spesifikke formål."
+    },
+    "limitationOfLiability": {
+      "title": "7. ANSVARSBEGRENSNING",
+      "content": "Maksimalt ansvar begrenset til gebyrer betalt siste 12 måneder."
+    },
+    "governingLaw": {
+      "title": "8. GJELDENDE LOV",
+      "content": "Svensk lov gjelder. Stockholms domstoler."
+    },
+    "modifications": {
+      "title": "9. ENDRINGER",
+      "content": "Vi kan endre vilkår med 30 dagers varsel. Fortsatt bruk utgjør aksept."
+    },
+    "contact": {
+      "title": "10. KONTAKT",
+      "content": "For lisensspørsmål: license@lessoncraftstudio.com"
     }
   }
 }

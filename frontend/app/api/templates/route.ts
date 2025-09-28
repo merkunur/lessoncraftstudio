@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server';
-import imageLibraryManager from '@/lib/image-library-manager';
 import fs from 'fs';
 import path from 'path';
 
@@ -7,24 +6,47 @@ export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const appType = searchParams.get('appType');
   const locale = searchParams.get('locale') || 'en';
-  
-  try {
-    // Wait for ImageLibraryManager to initialize
-    await imageLibraryManager.waitForInit();
 
+  try {
     // Determine which templates to fetch based on app type
     if (appType === 'alphabet-train' || appType === 'pattern-train') {
-      // Get train templates
-      const templates = imageLibraryManager.getTrainTemplates(locale);
+      // Get train templates from local JSON
+      const metadataPath = path.join(process.cwd(), 'public', 'data', 'train-templates-metadata.json');
+
+      if (!fs.existsSync(metadataPath)) {
+        return NextResponse.json([]);
+      }
+
+      const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf-8'));
+      const templates = metadata.templates.map(template => ({
+        path: template.path,
+        url: template.path,
+        name: template.translations?.[locale] || template.translations?.['en'] || template.displayName || template.name
+      }));
+
       console.log(`Train templates for ${appType}, locale=${locale}:`, templates.length);
       return NextResponse.json(templates);
+
     } else if (appType === 'prepositions') {
-      // Get worksheet templates
-      const templates = imageLibraryManager.getWorksheetTemplates(locale);
+      // Get worksheet templates from local JSON
+      const metadataPath = path.join(process.cwd(), 'public', 'data', 'worksheet-templates-metadata.json');
+
+      if (!fs.existsSync(metadataPath)) {
+        return NextResponse.json([]);
+      }
+
+      const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf-8'));
+      const templates = metadata.templates.map(template => ({
+        path: template.path,
+        url: template.path,
+        name: template.translations?.[locale] || template.translations?.['en'] || template.displayName || template.name,
+        displayName: template.translations?.[locale] || template.translations?.['en'] || template.displayName || template.name
+      }));
+
       console.log(`Worksheet templates for ${appType}, locale=${locale}:`, templates.length);
-      return NextResponse.json(templates);
+      return NextResponse.json({ templates });
     }
-    
+
     // If no specific app type, return empty array
     return NextResponse.json([]);
 

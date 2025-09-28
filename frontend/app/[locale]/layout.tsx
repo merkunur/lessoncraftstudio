@@ -24,17 +24,17 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  
+
   if (!locales.includes(locale as any)) {
     notFound();
   }
 
-  const messages = await getMessages();
+  const messages = await getMessages({ locale });
 
   return (
     <html lang={locale} className={`${inter.variable} ${poppins.variable}`}>
       <body className="min-h-screen bg-gray-50 font-sans">
-        <NextIntlClientProvider messages={messages}>
+        <NextIntlClientProvider locale={locale} messages={messages}>
           <Navigation />
           <main className="flex-1">
             {children}

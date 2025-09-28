@@ -21,12 +21,26 @@ export function Navigation() {
   const pathname = usePathname();
   const locale = pathname.split('/')[1] || 'en';
   const [navContent, setNavContent] = useState<NavigationContent>({});
+  const [customLogo, setCustomLogo] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Fetch navigation content from API
+    // Fetch navigation content and current logo from API
     fetchNavigationContent();
+    fetchCurrentLogo();
   }, [locale]);
+
+  const fetchCurrentLogo = async () => {
+    try {
+      const response = await fetch('/api/admin/branding/current-logo');
+      if (response.ok) {
+        const data = await response.json();
+        setCustomLogo(data.logoUrl);
+      }
+    } catch (error) {
+      console.error('Failed to fetch current logo:', error);
+    }
+  };
 
   const fetchNavigationContent = async () => {
     try {
@@ -44,40 +58,67 @@ export function Navigation() {
     }
   };
 
-  // Use custom logo if available, otherwise use the new LCS logo
-  const logoImage = navContent?.logo?.image || '/logo-lcs.png';
+  // Use uploaded logo first, then custom content logo, then default
+  const logoImage = customLogo || navContent?.logo?.image || '/logo-lcs.png';
   const logoText = navContent?.logo?.text || 'LessonCraftStudio';
 
   return (
-    <nav className="bg-white border-b border-gray-100">
+    <nav className="bg-gray-50 border-b border-gray-200">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between" style={{ height: '120px' }}>
           {/* Logo */}
-          <Link href={`/${locale}`} className="flex items-center space-x-3">
-            {/* Display LCS logo */}
-            <img
-              src={logoImage}
-              alt={logoText}
-              className="h-12 w-auto object-contain"
-              onError={(e) => {
-                // Fallback if image fails to load
-                const target = e.target as HTMLImageElement;
-                target.style.display = 'none';
-                const fallback = target.nextElementSibling as HTMLElement;
-                if (fallback) fallback.style.display = 'flex';
-              }}
-            />
-
-            {/* Fallback text logo (only shown if image fails) */}
+          <Link href={`/${locale}`} className="flex items-center space-x-4 h-full">
+            {/* Display LCS logo - scaled to show complete logo */}
             <div
-              className="hidden items-center space-x-3"
-              style={{ display: 'none' }}
+              className="flex items-center justify-center relative"
+              style={{
+                height: '110px',   // Taller container
+                width: '130px',    // Wider container
+                overflow: 'visible'  // Allow slight overflow if needed
+              }}
             >
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-lg">L</span>
-              </div>
-              <span className="font-display font-semibold text-gray-900">
+              <img
+                src={logoImage}
+                alt={logoText}
+                style={{
+                  position: 'absolute',
+                  width: '240%',     // Further reduced scale
+                  height: '240%',    // Further reduced scale
+                  maxWidth: 'none',  // Override default max-width
+                  top: '50%',
+                  left: '50%',
+                  transform: 'translate(-50%, -50%)',
+                  objectFit: 'contain',
+                  mixBlendMode: 'multiply',  // Blend white background with gray
+                  filter: 'contrast(1.1)'     // Slight contrast adjustment
+                }}
+                onError={(e) => {
+                  // Fallback if image fails to load
+                  const target = e.target as HTMLImageElement;
+                  target.style.display = 'none';
+                  const fallback = target.nextElementSibling as HTMLElement;
+                  if (fallback) fallback.style.display = 'flex';
+                }}
+              />
+            </div>
+
+            {/* Always show LessonCraftStudio text next to logo */}
+            <div className="flex flex-col justify-center">
+              <span className="font-display font-bold text-4xl text-gray-900 tracking-tight leading-none">
                 LessonCraftStudio
+              </span>
+              <span className="text-base text-gray-600 tracking-wider mt-1">
+                {locale === 'de' ? 'Pädagogischer Arbeitsblatt-Generator' :
+                 locale === 'fr' ? 'Générateur de Fiches Pédagogiques' :
+                 locale === 'es' ? 'Generador de Hojas de Trabajo Educativas' :
+                 locale === 'it' ? 'Generatore di Schede Didattiche' :
+                 locale === 'pt' ? 'Gerador de Fichas de Trabalho Educativas' :
+                 locale === 'nl' ? 'Educatieve Werkbladgenerator' :
+                 locale === 'sv' ? 'Pedagogisk Arbetsbladsgenerator' :
+                 locale === 'da' ? 'Pædagogisk Arbejdsarkgenerator' :
+                 locale === 'no' ? 'Pedagogisk Arbeidsarkgenerator' :
+                 locale === 'fi' ? 'Opetusmateriaaligeneraattori' :
+                 'Educational Worksheet Generator'}
               </span>
             </div>
           </Link>

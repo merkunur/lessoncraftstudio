@@ -7,30 +7,34 @@ interface FAQItem {
   answer: string;
 }
 
-const faqData: FAQItem[] = [
-  {
-    question: "Can I switch plans anytime?",
-    answer: "Yes! You can upgrade or downgrade your plan at any time. Changes take effect immediately, and we'll prorate any differences."
-  },
-  {
-    question: "What payment methods do you accept?",
-    answer: "We accept all major credit cards (Visa, MasterCard, American Express) and PayPal. All payments are processed securely through Stripe."
-  },
-  {
-    question: "Is there a free trial?",
-    answer: "Yes! Both Core Bundle and Full Access plans come with a 7-day free trial. No credit card required to start."
-  },
-  {
-    question: "What's the POD commercial license?",
-    answer: "The Print-on-Demand (POD) commercial license allows you to sell worksheets you create on platforms like Teachers Pay Teachers, Etsy, or your own website."
-  },
-  {
-    question: "Can I cancel my subscription?",
-    answer: "Absolutely! You can cancel your subscription at any time from your account settings. You'll continue to have access until the end of your billing period."
-  }
-];
+interface FAQAccordionProps {
+  items?: FAQItem[];
+}
 
-export default function FAQAccordion() {
+export default function FAQAccordion({ items }: FAQAccordionProps) {
+  // Fallback to English if no items provided
+  const faqData = items || [
+    {
+      question: "Can I switch plans anytime?",
+      answer: "Yes! You can upgrade or downgrade your plan at any time. Changes take effect immediately, and we'll prorate any differences."
+    },
+    {
+      question: "What payment methods do you accept?",
+      answer: "We accept all major credit cards (Visa, MasterCard, American Express) and PayPal. All payments are processed securely through Stripe."
+    },
+    {
+      question: "Is there a free trial?",
+      answer: "Yes! Both Core Bundle and Full Access plans come with a 7-day free trial. No credit card required to start."
+    },
+    {
+      question: "What's the POD commercial license?",
+      answer: "The Print-on-Demand (POD) commercial license allows you to sell worksheets you create on platforms like Teachers Pay Teachers, Etsy, or your own website."
+    },
+    {
+      question: "Can I cancel my subscription?",
+      answer: "Absolutely! You can cancel your subscription at any time from your account settings. You'll continue to have access until the end of your billing period."
+    }
+  ];
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const toggleItem = (index: number) => {

@@ -4,6 +4,18 @@
 
 ---
 
+## 📍 FOR TRANSLATIONS - START HERE
+**If you're implementing translations, READ THIS FIRST:**
+```
+C:\Users\rkgen\lessoncraftstudio\README-TRANSLATIONS-START-HERE.md
+```
+Then follow:
+```
+C:\Users\rkgen\lessoncraftstudio\TRANSLATION-IMPLEMENTATION-MASTER-GUIDE.md
+```
+
+---
+
 ## 🚨 CRITICAL WARNING: SEPARATION OF CONCERNS
 
 **GOLDEN RULE**: Image library synchronization modifications should NEVER affect core worksheet generation functionality!

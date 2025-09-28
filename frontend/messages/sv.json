@@ -1,132 +1,787 @@
 {
   "navigation": {
-    "apps": "Apps",
-    "pricing": "Pricing",
-    "blog": "Blog",
-    "signIn": "Sign In",
-    "signUp": "Sign Up",
-    "startFree": "Start Free",
-    "dashboard": "Dashboard",
-    "signOut": "Sign Out"
+    "apps": "Generatorer",
+    "pricing": "Priser",
+    "blog": "Blogg",
+    "contact": "Kontakt",
+    "signIn": "Logga in",
+    "signUp": "Registrera",
+    "startFree": "Börja gratis",
+    "dashboard": "Kontrollpanel",
+    "signOut": "Logga ut"
   },
   "homepage": {
     "hero": {
-      "title": "Create Professional Worksheets in Minutes",
-      "subtitle": "33 powerful worksheet generators with 100+ themed images for Teachers Pay Teachers sellers and educational publishers",
+      "title": "Skapa fantastiska arbetsblad på några minuter",
+      "subtitle": "Professionella arbetsbladsgeneratorer för lärare och föräldrar. Få tillgång till 33 interaktiva applikationer med vackra illustrationer.",
       "cta": {
-        "tryFree": "Try Word Search Free",
-        "viewApps": "View All Apps"
+        "tryFree": "Prova ordsökning gratis",
+        "viewApps": "Se alla generatorer"
       }
     },
     "features": {
-      "title": "Everything You Need for Publishing Success",
+      "title": "Allt du behöver för att skapa kvalitetsmaterial",
       "items": {
         "apps": {
-          "title": "33 Worksheet Apps",
-          "description": "From math and reading to puzzles and games"
+          "title": "33 arbetsbladsgeneratorer",
+          "description": "Från matematik och läsning till pussel och spel"
         },
         "images": {
-          "title": "100+ Image Themes",
-          "description": "Child-friendly illustrations with commercial license"
+          "title": "Över 100 bildteman",
+          "description": "Barnvänliga illustrationer med kommersiell licens"
         },
         "languages": {
-          "title": "11 Languages",
-          "description": "Create worksheets in multiple languages"
+          "title": "11 språk",
+          "description": "Skapa arbetsblad på flera språk"
         },
         "pod": {
-          "title": "POD License Included",
-          "description": "Sell your worksheets on any platform"
+          "title": "POD-licens inkluderad",
+          "description": "Sälj dina arbetsblad på vilken plattform som helst"
         }
       }
     },
     "pricing": {
-      "title": "Simple, Transparent Pricing",
-      "monthly": "Monthly",
-      "yearly": "Yearly (Save 20%)",
+      "title": "Enkla, transparenta priser",
+      "monthly": "Månadsvis",
+      "yearly": "Årligen (Spara 20%)",
       "free": {
-        "name": "Free",
+        "name": "Gratis",
         "price": "$0",
         "features": [
-          "Word Search Generator",
-          "Limited image library",
-          "Watermarked output",
-          "Basic support"
+          "Ordsökningsgenerator",
+          "Begränsat bildbibliotek",
+          "Med vattenstämpel",
+          "Grundläggande support"
         ],
-        "cta": "Start Free"
+        "cta": "Börja gratis"
       },
       "core": {
-        "name": "Core Bundle",
+        "name": "Baspaket",
         "price": "$15",
         "priceYearly": "$144",
         "features": [
-          "10 most popular apps",
-          "Full image library access",
-          "No watermarks",
-          "POD commercial license",
-          "Priority support"
+          "10 mest populära generatorer",
+          "Full tillgång till bildbiblioteket",
+          "Utan vattenstämpel",
+          "POD kommersiell licens",
+          "Prioriterad support"
         ],
-        "cta": "Start Core"
+        "cta": "Välj Baspaket"
       },
       "full": {
-        "name": "Full Access",
+        "name": "Full Tillgång",
         "price": "$25",
         "priceYearly": "$240",
         "features": [
-          "All 33 apps",
-          "Full image library access",
-          "No watermarks",
-          "POD commercial license",
-          "Priority support",
-          "Early access to new apps"
+          "Alla 33 generatorer",
+          "Full tillgång till bildbiblioteket",
+          "Utan vattenstämpel",
+          "POD kommersiell licens",
+          "Prioriterad support",
+          "Tidig tillgång till nya appar"
         ],
-        "cta": "Start Full Access",
-        "popular": "Most Popular"
+        "cta": "Få Full Tillgång",
+        "popular": "Mest populär"
       }
     }
   },
-  "apps": {
-    "title": "Worksheet Generator Apps",
-    "subtitle": "Choose from 33 professional worksheet generators",
-    "search": "Search apps...",
+  "worksheetSamples": {
+    "title": "Galleri med arbetsbladsexempel",
+    "subtitle": "Klicka på ett arbetsblad för en större förhandsvisning. Detta är bara några exempel från vår samling av 33 professionella arbetsbladsgeneratorer.",
+    "ctaText": "Utforska alla 33 arbetsbladsgeneratorer →",
+    "alphabetTrain": {
+      "title": "Alfabetståg",
+      "description": "Rolig alfabetsinlärning med färgglada tågvagnar"
+    },
+    "codeAddition": {
+      "title": "Code-Addition",
+      "description": "Knäck koden med additionsgåtor"
+    },
+    "diagramAndCount": {
+      "title": "Diagram och räkning",
+      "description": "Lär dig diagram och datavisualisering"
+    },
+    "hiddenObjects": {
+      "title": "Gömda föremål",
+      "description": "Hitta gömda föremål i detaljerade scener"
+    },
+    "iSpy": {
+      "title": "Jag ser",
+      "description": "Det klassiska sökspelet!"
+    },
+    "patternTrain": {
+      "title": "Mönstertåg",
+      "description": "Komplettera mönstersekvenserna"
+    },
+    "modalLabels": {
+      "ageRange": "Åldersgrupp",
+      "difficulty": "Svårighetsgrad",
+      "category": "Kategori"
+    },
+    "difficulties": {
+      "Easy": "Lätt",
+      "Medium": "Medel",
+      "Hard": "Svår"
+    },
     "categories": {
-      "all": "All Apps",
-      "math": "Math",
-      "language": "Language Arts",
-      "puzzles": "Puzzles",
-      "games": "Games",
-      "visual": "Visual Perception",
-      "motor": "Fine Motor Skills"
+      "Language": "Språk",
+      "Math": "Matematik",
+      "Visual": "Visuell",
+      "Pattern": "Mönster"
+    },
+    "ageRanges": {
+      "age3to5": "3-5 år",
+      "age4to7": "4-7 år",
+      "age5to8": "5-8 år",
+      "age6to8": "6-8 år",
+      "age7to10": "7-10 år"
+    }
+  },
+  "apps": {
+    "title": "Arbetsbladsgeneratorer",
+    "subtitle": "Välj bland 33 professionella arbetsbladsgeneratorer",
+    "search": "Sök generatorer...",
+    "heroTitle": "33 pedagogiska arbetsbladsgeneratorer",
+    "heroSubtitle": "Förvandla ditt undervisningsmaterial med vår kompletta samling pedagogiska arbetsbladsgeneratorer. Från ordsökning till mattepussel, vi har allt du behöver.",
+    "categories": {
+      "all": "Alla generatorer",
+      "math": "Matematik",
+      "language": "Språk och läsning",
+      "puzzles": "Pussel",
+      "games": "Spel",
+      "visual": "Visuell perception",
+      "motor": "Finmotorik",
+      "wordGames": "Ordlekar",
+      "languageArts": "Svenska och skrivning",
+      "artCreativity": "Konst och kreativitet",
+      "matching": "Parbildning",
+      "fineMotorSkills": "Finmotorik",
+      "logic": "Logik",
+      "concepts": "Grundbegrepp",
+      "patterns": "Mönster",
+      "sorting": "Sortering"
     },
     "tier": {
-      "free": "Free",
-      "core": "Core Bundle",
-      "full": "Full Access"
+      "free": "Gratis",
+      "core": "Baspaket",
+      "full": "Full Tillgång",
+      "popular": "Populär"
+    },
+    "tierInfo": {
+      "freeTitle": "Gratisversion",
+      "freeDescription": "Prova ordsökningsgeneratorn med vattenstämpel",
+      "coreTitle": "Baspaket - $15/månad",
+      "coreDescription": "Tillgång till de 10 mest populära apparna med kommersiell licens",
+      "fullTitle": "Full Tillgång - $25/månad",
+      "fullDescription": "Alla 33 appar, prioriterad support, tidig tillgång"
+    },
+    "appNames": {
+      "wordSearch": "Ordsökning",
+      "imageAddition": "Bildaddition",
+      "alphabetTrain": "Alfabetståg",
+      "coloringPages": "Målarbilder",
+      "mathWorksheets": "Matteuppgifter",
+      "wordScramble": "Bokstavskrammel",
+      "findAndCount": "Hitta och räkna",
+      "matchUpMaker": "Matchningsspel",
+      "drawingLines": "Rita linjer",
+      "pictureBingo": "Bildbingo",
+      "sudokuForKids": "Barnsudoku",
+      "bigOrSmall": "Stor eller liten",
+      "chartCountColor": "Diagram att räkna och färglägga",
+      "codeAddition": "Code-Addition",
+      "drawAndColor": "Rita och färglägg",
+      "findObjects": "Hitta föremålen",
+      "gridMatch": "Rutnätsmatchning",
+      "imageCrossword": "Bildkorsord",
+      "imageCryptogram": "Bildkryptogram",
+      "mathPuzzle": "Mattepussel",
+      "missingPieces": "Saknade bitar",
+      "moreOrLess": "Mer eller mindre",
+      "oddOneOut": "Vilket hör inte hemma",
+      "patternTrain": "Mönstertåg",
+      "patternWorksheets": "Mönsterövningar",
+      "picturePathway": "Bildväg",
+      "pictureSort": "Sortera bilder",
+      "prepositions": "Prepositioner",
+      "shadowMatch": "Skuggmatchning",
+      "subtraction": "Subtraktion",
+      "treasureHunt": "Skattjakt",
+      "wordGuess": "Gissa ordet",
+      "englishWritingPractice": "Engelska skrivövningar"
+    },
+    "cta": {
+      "title": "Redo att skapa fantastiska arbetsblad?",
+      "subtitle": "Börja med vår gratis ordsökningsgenerator eller lås upp alla appar idag",
+      "startFreeTrial": "Prova gratis",
+      "viewPricing": "Se priser"
+    },
+    "filters": {
+      "allApps": "Alla appar"
     }
   },
   "auth": {
     "signIn": {
-      "title": "Welcome Back",
-      "subtitle": "Sign in to your account",
-      "email": "Email",
-      "password": "Password",
-      "rememberMe": "Remember me",
-      "forgotPassword": "Forgot password?",
-      "submit": "Sign In",
-      "noAccount": "Don't have an account?",
-      "signUp": "Sign up"
+      "title": "Vad kul att se dig igen!",
+      "subtitle": "Kom åt ditt läromaterial",
+      "email": "E-postadress",
+      "emailPlaceholder": "din@epost.se",
+      "password": "Lösenord",
+      "passwordPlaceholder": "Ditt lösenord",
+      "rememberMe": "Håll mig inloggad",
+      "forgotPassword": "Glömt lösenordet?",
+      "submit": "Logga in",
+      "noAccount": "Har du inget konto än?",
+      "signUp": "Skapa ett gratis",
+      "orContinueWith": "Eller fortsätt med"
     },
     "signUp": {
-      "title": "Create Your Account",
-      "subtitle": "Start creating worksheets today",
-      "firstName": "First Name",
-      "lastName": "Last Name",
-      "email": "Email",
-      "password": "Password",
-      "confirmPassword": "Confirm Password",
-      "terms": "I agree to the Terms of Service and Privacy Policy",
-      "submit": "Create Account",
-      "hasAccount": "Already have an account?",
-      "signIn": "Sign in"
+      "title": "Skapa ditt konto",
+      "subtitle": "Börja skapa arbetsblad idag",
+      "firstName": "Förnamn",
+      "lastName": "Efternamn",
+      "email": "E-postadress",
+      "password": "Lösenord",
+      "confirmPassword": "Bekräfta lösenord",
+      "terms": "Jag godkänner användarvillkoren och sekretesspolicyn",
+      "submit": "Skapa konto",
+      "hasAccount": "Har du redan ett konto?",
+      "signIn": "Logga in"
+    }
+  },
+  "pricing": {
+    "heroTitle": "Tydliga priser utan dolda kostnader",
+    "heroSubtitle": "Välj det perfekta paketet för att skapa professionellt undervisningsmaterial",
+    "billingToggle": {
+      "monthly": "Månadsvis",
+      "yearly": "Årsvis",
+      "yearlyDiscount": "Spara 20%"
+    },
+    "labels": {
+      "whatsIncluded": "Detta ingår:",
+      "limitations": "Begränsningar:",
+      "appsIncluded": "Generatorer som ingår:",
+      "orYearly": "eller",
+      "perYear": "/år"
+    },
+    "plans": {
+      "free": {
+        "name": "Gratis",
+        "price": "$0",
+        "period": "",
+        "description": "Perfekt för att testa våra verktyg",
+        "features": {
+          "0": "Ordsökningsgenerator (med vattenstämpel)",
+          "1": "Diskret vattenstämpel på dokument",
+          "2": "Begränsat bildbibliotek",
+          "3": "Standardmallar inkluderade",
+          "4": "Community-support",
+          "5": "Endast för personligt bruk"
+        },
+        "limitations": {
+          "0": "Vattenstämpel på alla dokument",
+          "1": "Ingen kommersiell licens",
+          "2": "Begränsade anpassningsmöjligheter"
+        },
+        "apps": {
+          "0": "Ordsökningsgenerator (med vattenstämpel)"
+        },
+        "cta": "Börja gratis"
+      },
+      "core": {
+        "name": "Baspaket",
+        "price": "$15",
+        "period": "/månad",
+        "yearlyPrice": "$144",
+        "description": "De viktigaste verktygen för professionella lärare",
+        "features": {
+          "0": "De 10 populäraste generatorerna",
+          "1": "Utan vattenstämpel",
+          "2": "Komplett bibliotek (100+ teman)",
+          "3": "Alla premiummallar",
+          "4": "POD kommersiell licens inkluderad",
+          "5": "E-postsupport",
+          "6": "Export till PDF och JPEG i hög kvalitet"
+        },
+        "apps": {
+          "0": "10 populäraste generatorer:",
+          "1": "Bildaddition",
+          "2": "Alfabetståg",
+          "3": "Målarbilder",
+          "4": "Matteuppgifter",
+          "5": "Bokstavskrammel",
+          "6": "Hitta och räkna",
+          "7": "Matchningsspel",
+          "8": "Rita linjer",
+          "9": "Bildbingo",
+          "10": "Barnsudoku"
+        },
+        "cta": "Prova gratis i 7 dagar"
+      },
+      "full": {
+        "name": "Full Tillgång",
+        "price": "$25",
+        "period": "/månad",
+        "yearlyPrice": "$240",
+        "description": "Det kompletta paketet för ambitiösa innehållsskapare",
+        "features": {
+          "0": "Alla 33 generatorer tillgängliga",
+          "1": "Allt från Baspaketet inkluderat",
+          "2": "Prioriterad e-postsupport",
+          "3": "Tidig tillgång till nya funktioner",
+          "4": "Avancerade anpassningsalternativ",
+          "5": "Obegränsad lagring av dina arbetsblad",
+          "6": "Regelbundna uppdateringar och nya funktioner"
+        },
+        "apps": {
+          "0": "Alla generatorer från Baspaketet plus:",
+          "1": "Stor eller liten",
+          "2": "Diagram att räkna och färglägga",
+          "3": "Code-Addition",
+          "4": "Rita och färglägg",
+          "5": "Hitta föremålen",
+          "6": "Rutnätsmatchning",
+          "7": "Bildkorsord",
+          "8": "Bildkryptogram",
+          "9": "Mattepussel",
+          "10": "Saknade bitar",
+          "11": "Mer eller mindre",
+          "12": "Vilket hör inte hemma",
+          "13": "Mönsterståg",
+          "14": "Mönsterövningar",
+          "15": "Bildväg",
+          "16": "Sortera bilder",
+          "17": "Prepositioner",
+          "18": "Skuggmatchning",
+          "19": "Subtraktion",
+          "20": "Skattjakt",
+          "21": "Gissa ordet",
+          "22": "Engelska skrivövningar"
+        },
+        "cta": "Prova gratis i 7 dagar",
+        "popular": "POPULÄRAST"
+      }
+    },
+    "comparison": {
+      "title": "Jämför våra paket i detalj",
+      "features": "Funktioner",
+      "numberOfApps": "Antal generatorer",
+      "watermark": "Utan vattenstämpel",
+      "commercialLicense": "Kommersiell licens",
+      "imageLibrarySize": "Bildbiblioteksstorlek",
+      "imageLibrary": {
+        "free": "Begränsad (10 teman)",
+        "core": "Komplett (100+ teman)",
+        "full": "Komplett (100+ teman)"
+      },
+      "support": "Support",
+      "supportTypes": {
+        "free": "Community",
+        "core": "E-post",
+        "full": "Prioriterad e-post"
+      },
+      "earlyAccess": "Tidig tillgång"
+    },
+    "faq": {
+      "title": "Vanliga frågor",
+      "items": {
+        "0": {
+          "question": "Kan jag byta paket när som helst?",
+          "answer": "Absolut! Du kan uppgradera eller nedgradera när som helst. Ändringar träder i kraft omedelbart och vi justerar priset automatiskt."
+        },
+        "1": {
+          "question": "Vilka betalningsmetoder accepterar ni?",
+          "answer": "Vi accepterar alla stora kreditkort (Visa, Mastercard, American Express) och PayPal. Alla betalningar hanteras säkert via Stripe."
+        },
+        "2": {
+          "question": "Finns det en gratis provperiod?",
+          "answer": "Ja! Både Baspaketet och Full Tillgång erbjuder 7 dagars gratis provperiod. Inget kreditkort behövs för att börja."
+        },
+        "3": {
+          "question": "Vad är POD kommersiell licens?",
+          "answer": "Print-on-Demand (POD) licensen låter dig sälja arbetsblad du skapar på plattformar som Teachers Pay Teachers, Etsy eller din egen webbplats."
+        },
+        "4": {
+          "question": "Kan jag avsluta min prenumeration?",
+          "answer": "Självklart! Du kan avsluta din prenumeration när som helst från dina kontoinställningar. Du behåller tillgången till slutet av din betalda period."
+        },
+        "5": {
+          "question": "Finns arbetsbladen på svenska?",
+          "answer": "Ja! Vår plattform stöder 11 språk inklusive svenska. Du kan skapa arbetsblad helt på svenska med översatta instruktioner och innehåll."
+        }
+      }
+    },
+    "cta": {
+      "title": "Redo att skapa fantastiska arbetsblad?",
+      "subtitle": "Gå med tusentals lärare som sparar tid och engagerar sina elever",
+      "button": "Börja gratis nu",
+      "disclaimer": "Inget kreditkort krävs • Avsluta när du vill"
+    }
+  },
+  "footer": {
+    "companyName": "LessonCraftStudio",
+    "companyTagline": "Professionella arbetsbladsgeneratorer för utbildningsförlag.",
+    "product": {
+      "title": "Produkt",
+      "apps": "Generatorer",
+      "pricing": "Priser",
+      "blog": "Blogg"
+    },
+    "support": {
+      "title": "Support",
+      "helpCenter": "Hjälpcenter",
+      "contact": "Kontakt",
+      "faq": "Vanliga frågor"
+    },
+    "legal": {
+      "title": "Juridiskt",
+      "terms": "Användarvillkor",
+      "privacy": "Integritet",
+      "license": "Licensvillkor"
+    },
+    "copyright": "© 2024 LessonCraftStudio. Alla rättigheter förbehållna."
+  },
+  "common": {
+    "loading": "Laddar...",
+    "error": "Ett fel uppstod",
+    "retry": "Försök igen",
+    "save": "Spara",
+    "cancel": "Avbryt",
+    "delete": "Ta bort",
+    "edit": "Redigera",
+    "create": "Skapa",
+    "search": "Sök",
+    "filter": "Filtrera",
+    "sort": "Sortera",
+    "next": "Nästa",
+    "previous": "Föregående",
+    "close": "Stäng",
+    "open": "Öppna",
+    "yes": "Ja",
+    "no": "Nej",
+    "confirm": "Bekräfta",
+    "download": "Ladda ner",
+    "upload": "Ladda upp",
+    "select": "Välj",
+    "selectAll": "Välj alla",
+    "deselectAll": "Avmarkera alla",
+    "required": "Obligatorisk",
+    "optional": "Valfri"
+  },
+  "blogPage": {
+    "hero": {
+      "title": "LessonCraftStudio Blogg",
+      "subtitle": "Praktiska tips, guider och inspiration för att skapa fantastiskt undervisningsmaterial"
+    },
+    "categories": {
+      "all": "Alla inlägg",
+      "worksheetTips": "Tips för arbetsblad",
+      "teachingResources": "Undervisningsmaterial",
+      "educationalActivities": "Pedagogiska aktiviteter",
+      "learningStrategies": "Inlärningsstrategier",
+      "curriculumGuides": "Läroplansstöd",
+      "parentResources": "För föräldrar",
+      "seasonalContent": "Säsongsinnehåll"
+    },
+    "loading": {
+      "message": "Laddar blogginlägg..."
+    },
+    "empty": {
+      "title": "Inga inlägg tillgängliga",
+      "description": "Kom tillbaka snart för nytt pedagogiskt innehåll!"
+    },
+    "postCard": {
+      "pdfSamples": "PDF-exempel",
+      "readTime": "läsning"
+    },
+    "pagination": {
+      "previous": "Föregående",
+      "next": "Nästa",
+      "showing": "Visar",
+      "of": "av",
+      "posts": "inlägg"
+    },
+    "newsletter": {
+      "title": "Håll dig uppdaterad med pedagogiska tips",
+      "subtitle": "Få veckovisa idéer för att skapa bättre undervisningsmaterial och utveckla din verksamhet",
+      "emailPlaceholder": "Din e-postadress",
+      "subscribe": "Prenumerera",
+      "success": "Tack för din prenumeration!",
+      "error": "Något gick fel. Försök igen senare.",
+      "noSpam": "Ingen spam, avsluta när du vill."
+    },
+    "signUp": {
+      "title": "Skapa ditt gratis konto",
+      "hasAccount": "Har du redan ett konto?",
+      "signIn": "Logga in",
+      "firstName": "Förnamn",
+      "lastName": "Efternamn",
+      "email": "E-postadress",
+      "password": "Lösenord",
+      "confirmPassword": "Bekräfta lösenord",
+      "passwordHint": "Minst 8 tecken",
+      "terms": "Jag godkänner",
+      "termsLink": "användarvillkoren",
+      "and": "och",
+      "privacyLink": "integritetspolicyn",
+      "termsEnd": "",
+      "submit": "Skapa konto",
+      "orSignUpWith": "Eller registrera dig med",
+      "freeAccountInfo": "Ditt gratiskonto inkluderar 10 nedladdningar per månad",
+      "upgradeAnytime": "Uppgradera till premium när som helst",
+      "errors": {
+        "allFieldsRequired": "Alla fält är obligatoriska",
+        "passwordLength": "Lösenordet måste innehålla minst 8 tecken",
+        "passwordsDoNotMatch": "Lösenorden matchar inte",
+        "agreeToTerms": "Du måste godkänna villkoren för att fortsätta",
+        "invalidEmail": "E-postadressen är ogiltig"
+      }
+    }
+  },
+  "contact": {
+    "title": "Kontakta oss",
+    "subtitle": "Vi är här för att hjälpa dig! Har du frågor eller förslag? Hör av dig så kör vi igång.",
+    "getInTouch": "Kom i kontakt",
+    "name": "Namn",
+    "email": "E-post",
+    "subject": "Ämne",
+    "selectSubject": "Välj ett ämne",
+    "subjects": {
+      "general": "Allmän förfrågan",
+      "support": "Teknisk support",
+      "feedback": "Feedback",
+      "partnership": "Samarbetsmöjlighet"
+    },
+    "message": "Meddelande",
+    "send": "Skicka meddelande",
+    "sending": "Skickar...",
+    "successMessage": "Toppen! Ditt meddelande har kommit fram. Tack så mycket! Vi hör av oss snart.",
+    "errorMessage": "Oj, något strölade till sig. Prova igen om några minuter.",
+    "otherWaysToConnect": "Andra sätt att komma i kontakt",
+    "emailUs": "Maila oss",
+    "responseTime": "Svarstid",
+    "responseTimeInfo": "Vi brukar svara inom 48 timmar (ofta samma dag).",
+    "faq": "Vanliga frågor",
+    "faqInfo": "Bråttom? Kika på våra vanliga frågor för snabba svar.",
+    "followUs": "Följ oss"
+  },
+  "terms": {
+    "title": "Användarvillkor",
+    "lastUpdated": "Senast uppdaterad",
+    "effectiveDate": "Januari 2025",
+    "acceptance": {
+      "title": "1. GODKÄNNANDE",
+      "content": "Genom att använda LessonCraftStudio godkänner du dessa villkor. Om du inte samtycker, använd inte vår tjänst."
+    },
+    "serviceDescription": {
+      "title": "2. TJÄNSTEBESKRIVNING",
+      "content": "LessonCraftStudio erbjuder verktyg för att skapa arbetsblad i tre prenumerationsnivåer: Gratis (begränsad), Core (utökad) och Fullständig åtkomst (obegränsad)."
+    },
+    "userAccounts": {
+      "title": "3. ANVÄNDARKONTON",
+      "requirements": "Krav:",
+      "age": "Minimiålder: 18 år",
+      "accurate": "Korrekta registreringsuppgifter",
+      "security": "Upprätthålla kontosäkerhet",
+      "responsible": "Ansvar för kontoaktiviteter"
+    },
+    "paymentTerms": {
+      "title": "4. BETALNINGSVILLKOR",
+      "pricing": "Aktuella priser visas vid registrering",
+      "billing": "Återkommande fakturering enligt vald prenumeration",
+      "refunds": "Ingen återbetalning för delperioder",
+      "changes": "Prisändringar med 30 dagars varsel"
+    },
+    "acceptableUse": {
+      "title": "5. ACCEPTABEL ANVÄNDNING",
+      "prohibited": "Förbjudet:",
+      "illegal": "Olagliga aktiviteter",
+      "harmful": "Skadligt eller stötande innehåll",
+      "infringement": "Intrång i immateriella rättigheter",
+      "system": "Systemstörning eller skada",
+      "resale": "Obehörig återförsäljning"
+    },
+    "intellectualProperty": {
+      "title": "6. IMMATERIELLA RÄTTIGHETER",
+      "content": "Plattformen och verktygen förblir vår egendom. Ditt innehåll förblir ditt. Genererat innehåll licensieras enligt prenumeration."
+    },
+    "termination": {
+      "title": "7. UPPSÄGNING",
+      "user": "Kan sägas upp när som helst via kontoinställningar",
+      "company": "Vi kan säga upp vid överträdelser",
+      "effect": "Uppsägning avslutar åtkomst; innehållslicens kvarstår"
+    },
+    "disclaimers": {
+      "title": "8. FRISKRIVNING",
+      "asis": "Tjänsten tillhandahålls I BEFINTLIGT SKICK",
+      "availability": "Ingen garanti för kontinuerlig tillgänglighet",
+      "suitability": "Ingen garanti för lämplighet för ändamål",
+      "content": "Användaren ansvarar för innehållets korrekthet"
+    },
+    "limitationLiability": {
+      "title": "9. ANSVARSBEGRÄNSNING",
+      "content": "Maximalt ansvar: avgifter betalda under senaste 12 månaderna. Inget ansvar för indirekta skador eller följdskador."
+    },
+    "indemnification": {
+      "title": "10. SKADESTÅND",
+      "content": "Du håller oss skadeslösa från anspråk som uppstår från din användning, innehåll eller överträdelser."
+    },
+    "governingLaw": {
+      "title": "11. TILLÄMPLIG LAG",
+      "content": "Svensk lag gäller. Stockholms tingsrätt har jurisdiktion. EU-konsumenträttigheter bevaras."
+    },
+    "changes": {
+      "title": "12. ÄNDRINGAR",
+      "content": "Vi kan ändra villkoren med meddelande. Fortsatt användning innebär godkännande."
+    },
+    "contact": {
+      "title": "13. KONTAKT",
+      "content": "Frågor: legal@lessoncraftstudio.com"
+    }
+  },
+  "privacy": {
+    "title": "Integritetspolicy",
+    "lastUpdated": "Senast uppdaterad",
+    "effectiveDate": "Januari 2025",
+    "introduction": {
+      "title": "1. INLEDNING",
+      "content": "Denna policy förklarar vår databehandling enligt GDPR och svensk lag."
+    },
+    "dataController": {
+      "title": "2. PERSONUPPGIFTSANSVARIG",
+      "content": "LessonCraftStudio, Stockholm, Sverige. Kontakt: privacy@lessoncraftstudio.com"
+    },
+    "dataCollection": {
+      "title": "3. INSAMLADE UPPGIFTER",
+      "intro": "Vi samlar in:",
+      "personal": "Kontouppgifter (namn, e-post)",
+      "usage": "Användningsanalyser",
+      "technical": "Tekniska data (IP, webbläsare)",
+      "cookies": "Cookie-preferenser"
+    },
+    "legalBasis": {
+      "title": "4. RÄTTSLIG GRUND",
+      "intro": "Behandling baseras på:",
+      "consent": "Ditt samtycke",
+      "contract": "Fullgörande av avtal",
+      "legal": "Rättsliga förpliktelser",
+      "legitimate": "Berättigade intressen"
+    },
+    "dataUsage": {
+      "title": "5. DATAANVÄNDNING",
+      "service": "Tillhandahållande av tjänst",
+      "account": "Kontohantering",
+      "communication": "Kommunikation",
+      "improvement": "Tjänsteförbättring",
+      "legal": "Rättslig efterlevnad"
+    },
+    "dataSharing": {
+      "title": "6. DATADELNING",
+      "intro": "Begränsad delning med:",
+      "providers": "Tjänsteleverantörer (personuppgiftsbiträden)",
+      "payment": "Betalningsprocessorer",
+      "legal": "Myndigheter vid krav",
+      "consent": "Tredje part med samtycke"
+    },
+    "dataRetention": {
+      "title": "7. DATALAGRING",
+      "content": "Kontouppgifter: kontots varaktighet plus 1 år. Loggar: 90 dagar. Marknadsföring: till återkallande."
+    },
+    "userRights": {
+      "title": "8. DINA RÄTTIGHETER",
+      "intro": "GDPR-rättigheter inkluderar:",
+      "access": "Tillgång till dina uppgifter",
+      "rectification": "Rättelse av felaktigheter",
+      "erasure": "Begäran om radering",
+      "restriction": "Begränsning av behandling",
+      "portability": "Dataportabilitet",
+      "objection": "Invändning mot behandling",
+      "withdraw": "Återkalla samtycke",
+      "complaint": "Klagomål till IMY"
+    },
+    "dataSecurity": {
+      "title": "9. SÄKERHET",
+      "content": "Branschstandard säkerhet med kryptering, åtkomstkontroller och regelbundna granskningar."
+    },
+    "cookies": {
+      "title": "10. COOKIES",
+      "intro": "Vi använder:",
+      "essential": "Nödvändiga cookies (obligatoriska)",
+      "functional": "Funktionella cookies (preferenser)",
+      "analytics": "Analyserande cookies (med samtycke)"
+    },
+    "children": {
+      "title": "11. BARN",
+      "content": "Tjänst för lärare/föräldrar. Ingen insamling från barn under 16."
+    },
+    "international": {
+      "title": "12. INTERNATIONELLA ÖVERFÖRINGAR",
+      "content": "Data lagras inom EU/EES. Externa överföringar med standardavtalsklausuler."
+    },
+    "changes": {
+      "title": "13. ÄNDRINGAR",
+      "content": "Uppdateringar meddelas via e-post. Fortsatt användning innebär godkännande."
+    },
+    "contact": {
+      "title": "14. KONTAKT",
+      "intro": "Frågor eller utövande av rättigheter:",
+      "email": "E-post: privacy@lessoncraftstudio.com",
+      "address": "Adress: Stockholm, Sverige",
+      "dpo": "DSO: dpo@lessoncraftstudio.com"
+    }
+  },
+  "license": {
+    "title": "Licensvillkor",
+    "lastUpdated": "Senast uppdaterad",
+    "effectiveDate": "Januari 2025",
+    "grantOfLicense": {
+      "title": "1. LICENSBEVILJANDE",
+      "intro": "LessonCraftStudio beviljar dig en licens att använda genererat innehåll baserat på din prenumeration:",
+      "freeTier": "Gratis: Endast personlig icke-kommersiell utbildningsanvändning",
+      "coreBundle": "Core: Kommersiell utbildningsanvändning inom din institution",
+      "fullAccess": "Fullständig åtkomst: Obegränsad kommersiell användning inklusive print-on-demand och återförsäljning"
+    },
+    "intellectualProperty": {
+      "title": "2. IMMATERIELLA RÄTTIGHETER",
+      "content": "Du behåller ditt originalinnehåll. Vi behåller rättigheter till plattformselement. Genererat innehåll licensieras enligt Avsnitt 1."
+    },
+    "restrictions": {
+      "title": "3. BEGRÄNSNINGAR",
+      "intro": "Du får inte:",
+      "reverseEngineer": "Bakåtkonstruera plattformen",
+      "competing": "Skapa konkurrerande tjänster",
+      "sublicense": "Underlicensiera plattformsåtkomst",
+      "removeNotices": "Ta bort vattenstämplar från gratis innehåll",
+      "illegal": "Använda för olagliga syften"
+    },
+    "commercialDistribution": {
+      "title": "4. KOMMERSIELL DISTRIBUTION",
+      "pod": "Print-on-demand: Fullständig åtkomst-prenumeranter kan sälja obegränsat via print-on-demand-plattformar.",
+      "digital": "Digital distribution: Alla nivåer kan distribuera digitala versioner enligt sin licens."
+    },
+    "termination": {
+      "title": "5. UPPSÄGNING",
+      "content": "Vi kan säga upp vid överträdelse med 30 dagars varsel. Innehåll skapat under giltig prenumeration förblir licensierat."
+    },
+    "warrantyDisclaimer": {
+      "title": "6. GARANTIFRISKRIVNING",
+      "content": "Tjänsten tillhandahålls I BEFINTLIGT SKICK utan garantier. Vi garanterar inte lämplighet för specifika ändamål."
+    },
+    "limitationOfLiability": {
+      "title": "7. ANSVARSBEGRÄNSNING",
+      "content": "Maximalt ansvar begränsat till avgifter betalda under föregående 12 månader."
+    },
+    "governingLaw": {
+      "title": "8. TILLÄMPLIG LAG",
+      "content": "Svensk lag gäller. Stockholms tingsrätt."
+    },
+    "modifications": {
+      "title": "9. ÄNDRINGAR",
+      "content": "Vi kan ändra villkor med 30 dagars varsel. Fortsatt användning innebär godkännande."
+    },
+    "contact": {
+      "title": "10. KONTAKT",
+      "content": "För licensfrågor: license@lessoncraftstudio.com"
     }
   }
 }

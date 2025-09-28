@@ -8,6 +8,7 @@ import Link from 'next/link';
 export default function BrandingSettings() {
   const [currentLogo, setCurrentLogo] = useState('/logo-lcs.png');
   const [previewLogo, setPreviewLogo] = useState<string | null>(null);
+  const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [isUploading, setIsUploading] = useState(false);
   const [message, setMessage] = useState<{ type: 'success' | 'error'; text: string } | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -28,6 +29,9 @@ export default function BrandingSettings() {
       return;
     }
 
+    // Store the file
+    setSelectedFile(file);
+
     // Create preview
     const reader = new FileReader();
     reader.onloadend = () => {
@@ -38,7 +42,7 @@ export default function BrandingSettings() {
   };
 
   const handleUpload = async () => {
-    if (!fileInputRef.current?.files?.[0]) {
+    if (!selectedFile) {
       setMessage({ type: 'error', text: 'Please select a file to upload' });
       return;
     }
@@ -46,7 +50,7 @@ export default function BrandingSettings() {
     setIsUploading(true);
     setMessage(null);
     const formData = new FormData();
-    formData.append('logo', fileInputRef.current.files[0]);
+    formData.append('logo', selectedFile);
 
     try {
       const response = await fetch('/api/admin/branding/logo', {
@@ -63,6 +67,7 @@ export default function BrandingSettings() {
       // Update logo with cache-busting parameter
       setCurrentLogo(data.logoUrl);
       setPreviewLogo(null);
+      setSelectedFile(null);
       setMessage({ type: 'success', text: 'Logo updated successfully! The change may take a moment to reflect across all pages.' });
 
       // Clear file input
@@ -85,6 +90,7 @@ export default function BrandingSettings() {
 
   const cancelPreview = () => {
     setPreviewLogo(null);
+    setSelectedFile(null);
     if (fileInputRef.current) {
       fileInputRef.current.value = '';
     }

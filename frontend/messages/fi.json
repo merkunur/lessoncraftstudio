@@ -1,132 +1,786 @@
 {
   "navigation": {
-    "apps": "Apps",
-    "pricing": "Pricing",
-    "blog": "Blog",
-    "signIn": "Sign In",
-    "signUp": "Sign Up",
-    "startFree": "Start Free",
-    "dashboard": "Dashboard",
-    "signOut": "Sign Out"
+    "apps": "Generaattorit",
+    "pricing": "Hinnoittelu",
+    "blog": "Blogi",
+    "contact": "Ota yhteyttä",
+    "signIn": "Kirjaudu sisään",
+    "signUp": "Rekisteröidy",
+    "startFree": "Aloita ilmaiseksi",
+    "dashboard": "Hallintapaneeli",
+    "signOut": "Kirjaudu ulos"
   },
   "homepage": {
     "hero": {
-      "title": "Create Professional Worksheets in Minutes",
-      "subtitle": "33 powerful worksheet generators with 100+ themed images for Teachers Pay Teachers sellers and educational publishers",
+      "title": "Luo upeita työarkkeja muutamassa minuutissa",
+      "subtitle": "Ammattimaisia työarkkigeneraattoreita opettajille ja vanhemmille. Saat käyttöösi 33 interaktiivista sovellusta kauniilla kuvituksilla.",
       "cta": {
-        "tryFree": "Try Word Search Free",
-        "viewApps": "View All Apps"
+        "tryFree": "Kokeile sananhakua ilmaiseksi",
+        "viewApps": "Näytä kaikki generaattorit"
       }
     },
     "features": {
-      "title": "Everything You Need for Publishing Success",
+      "title": "Kaikki mitä tarvitset laatumateriaalien luomiseen",
       "items": {
         "apps": {
-          "title": "33 Worksheet Apps",
-          "description": "From math and reading to puzzles and games"
+          "title": "33 työarkkigeneraattoria",
+          "description": "Matematiikasta ja lukemisesta pulmapeleihin ja peleihin"
         },
         "images": {
-          "title": "100+ Image Themes",
-          "description": "Child-friendly illustrations with commercial license"
+          "title": "Yli 100 kuvateemaa",
+          "description": "Lapsiystävällisiä kuvituksia kaupallisella lisenssillä"
         },
         "languages": {
-          "title": "11 Languages",
-          "description": "Create worksheets in multiple languages"
+          "title": "11 kieltä",
+          "description": "Luo työarkkeja useilla kielillä"
         },
         "pod": {
-          "title": "POD License Included",
-          "description": "Sell your worksheets on any platform"
+          "title": "POD-lisenssi sisältyy",
+          "description": "Myy työarkkejasi millä tahansa alustalla"
         }
       }
     },
     "pricing": {
-      "title": "Simple, Transparent Pricing",
-      "monthly": "Monthly",
-      "yearly": "Yearly (Save 20%)",
+      "title": "Selkeä, läpinäkyvä hinnoittelu",
+      "monthly": "Kuukausittain",
+      "yearly": "Vuosittain (Säästä 20%)",
       "free": {
-        "name": "Free",
+        "name": "Ilmainen",
         "price": "$0",
         "features": [
-          "Word Search Generator",
-          "Limited image library",
-          "Watermarked output",
-          "Basic support"
+          "Sananhakugeneraattori",
+          "Rajoitettu kuvakirjasto",
+          "Vesileimalla",
+          "Perustuki"
         ],
-        "cta": "Start Free"
+        "cta": "Aloita ilmaiseksi"
       },
       "core": {
-        "name": "Core Bundle",
+        "name": "Ydinpaketti",
         "price": "$15",
         "priceYearly": "$144",
         "features": [
-          "10 most popular apps",
-          "Full image library access",
-          "No watermarks",
-          "POD commercial license",
-          "Priority support"
+          "10 suosituinta generaattoria",
+          "Täysi pääsy kuvakirjastoon",
+          "Ei vesileimaa",
+          "POD kaupallinen lisenssi",
+          "Prioriteettituki"
         ],
-        "cta": "Start Core"
+        "cta": "Valitse Ydinpaketti"
       },
       "full": {
-        "name": "Full Access",
+        "name": "Täysi Pääsy",
         "price": "$25",
         "priceYearly": "$240",
         "features": [
-          "All 33 apps",
-          "Full image library access",
-          "No watermarks",
-          "POD commercial license",
-          "Priority support",
-          "Early access to new apps"
+          "Kaikki 33 generaattoria",
+          "Täysi pääsy kuvakirjastoon",
+          "Ei vesileimaa",
+          "POD kaupallinen lisenssi",
+          "Prioriteettituki",
+          "Varhainen pääsy uusiin sovelluksiin"
         ],
-        "cta": "Start Full Access",
-        "popular": "Most Popular"
+        "cta": "Hanki Täysi Pääsy",
+        "popular": "Suosituin"
       }
     }
   },
-  "apps": {
-    "title": "Worksheet Generator Apps",
-    "subtitle": "Choose from 33 professional worksheet generators",
-    "search": "Search apps...",
+  "worksheetSamples": {
+    "title": "Työarkkiesimerkkien galleria",
+    "subtitle": "Klikkaa työarkkia nähdäksesi suuremman esikatselun. Nämä ovat vain muutamia esimerkkejä 33 ammattimaisesta työarkkigeneraattoristamme.",
+    "ctaText": "Tutustu kaikkiin 33 työarkkigeneraattoriin →",
+    "alphabetTrain": {
+      "title": "Aakkosjuna",
+      "description": "Hauska aakkosten oppiminen värikkäillä junavaunuilla"
+    },
+    "codeAddition": {
+      "title": "Code-Addition",
+      "description": "Murra koodi yhteenlaskutehtävillä"
+    },
+    "diagramAndCount": {
+      "title": "Kaavio ja laskeminen",
+      "description": "Opi kaavioita ja datan visualisointia"
+    },
+    "hiddenObjects": {
+      "title": "Piilotetut esineet",
+      "description": "Etsi piilotettuja esineitä yksityiskohtaisista kohtauksista"
+    },
+    "iSpy": {
+      "title": "Minä näen",
+      "description": "Klassinen hakupeli!"
+    },
+    "patternTrain": {
+      "title": "Kuviojuna",
+      "description": "Täydennä kuviosarjat"
+    },
+    "modalLabels": {
+      "ageRange": "Ikäryhmä",
+      "difficulty": "Vaikeustaso",
+      "category": "Kategoria"
+    },
+    "difficulties": {
+      "Easy": "Helppo",
+      "Medium": "Keskitaso",
+      "Hard": "Vaikea"
+    },
     "categories": {
-      "all": "All Apps",
-      "math": "Math",
-      "language": "Language Arts",
-      "puzzles": "Puzzles",
-      "games": "Games",
-      "visual": "Visual Perception",
-      "motor": "Fine Motor Skills"
+      "Language": "Kieli",
+      "Math": "Matematiikka",
+      "Visual": "Visuaalinen",
+      "Pattern": "Kuvio"
+    },
+    "ageRanges": {
+      "age3to5": "3-5 vuotta",
+      "age4to7": "4-7 vuotta",
+      "age5to8": "5-8 vuotta",
+      "age6to8": "6-8 vuotta",
+      "age7to10": "7-10 vuotta"
+    }
+  },
+  "apps": {
+    "title": "Tehtävämonistegeneraattorit",
+    "subtitle": "Valitse 33 ammattimaisesta tehtävämonistegeneraattorista",
+    "search": "Hae generaattoreita...",
+    "heroTitle": "33 pedagogista tehtävämonistegeneraattoria",
+    "heroSubtitle": "Uudista opetusmateriaalisi kattavalla kokoelmalla pedagogisia tehtävämonistegeneraattoreita. Sanaristikoista matemaattisiin pulmiin, meillä on kaikki mitä tarvitset.",
+    "categories": {
+      "all": "Kaikki generaattorit",
+      "math": "Matematiikka",
+      "language": "Kieli ja lukeminen",
+      "puzzles": "Palapelit",
+      "games": "Pelit",
+      "visual": "Visuaalinen hahmottaminen",
+      "motor": "Hienomotoriikka",
+      "wordGames": "Sanapelit",
+      "languageArts": "Äidinkieli ja kirjoittaminen",
+      "artCreativity": "Taide ja luovuus",
+      "matching": "Yhdistäminen",
+      "fineMotorSkills": "Hienomotoriikka",
+      "logic": "Logiikka",
+      "concepts": "Peruskäsitteet",
+      "patterns": "Kuviot",
+      "sorting": "Lajittelu"
     },
     "tier": {
-      "free": "Free",
-      "core": "Core Bundle",
-      "full": "Full Access"
+      "free": "Ilmainen",
+      "core": "Peruspaketti",
+      "full": "Täysi Pääsy",
+      "popular": "Suosittu"
+    },
+    "tierInfo": {
+      "freeTitle": "Ilmaisversio",
+      "freeDescription": "Kokeile sanaristikkogeneraattoria vesileimalla",
+      "coreTitle": "Peruspaketti - $15/kuukausi",
+      "coreDescription": "Pääsy 10 suosituimpaan sovellukseen kaupallisella lisenssillä",
+      "fullTitle": "Täysi Pääsy - $25/kuukausi",
+      "fullDescription": "Kaikki 33 sovellusta, priorisoitu tuki, varhainen pääsy"
+    },
+    "appNames": {
+      "wordSearch": "Sanaristikko",
+      "imageAddition": "Kuvalaskut",
+      "alphabetTrain": "Aakkosjuna",
+      "coloringPages": "Värityskuvat",
+      "mathWorksheets": "Matematiikkatehtävät",
+      "wordScramble": "Kirjainsekoitus",
+      "findAndCount": "Etsi ja laske",
+      "matchUpMaker": "Yhdistämispeli",
+      "drawingLines": "Viivanveto",
+      "pictureBingo": "Kuvabingo",
+      "sudokuForKids": "Lasten sudoku",
+      "bigOrSmall": "Iso vai pieni",
+      "chartCountColor": "Kaaviot laskemiseen ja värittämiseen",
+      "codeAddition": "Koodilasku",
+      "drawAndColor": "Piirrä ja väritä",
+      "findObjects": "Etsi esineet",
+      "gridMatch": "Ruudukkoyhdistely",
+      "imageCrossword": "Kuvasanaristikko",
+      "imageCryptogram": "Kuvakryptogrammi",
+      "mathPuzzle": "Matikkapulma",
+      "missingPieces": "Puuttuvat palat",
+      "moreOrLess": "Enemmän vai vähemmän",
+      "oddOneOut": "Mikä ei kuulu joukkoon",
+      "patternTrain": "Kuviojuna",
+      "patternWorksheets": "Kuvioharjoitukset",
+      "picturePathway": "Kuvapolku",
+      "pictureSort": "Kuvien lajittelu",
+      "prepositions": "Prepositiot",
+      "shadowMatch": "Varjopari",
+      "subtraction": "Vähennyslasku",
+      "treasureHunt": "Aarteenmetsästys",
+      "wordGuess": "Arvaa sana",
+      "englishWritingPractice": "Englannin kirjoitusharjoitukset"
+    },
+    "cta": {
+      "title": "Valmis luomaan upeita tehtävämonisteitä?",
+      "subtitle": "Aloita ilmaisella sanaristikkogeneraattorilla tai avaa kaikki sovellukset tänään",
+      "startFreeTrial": "Kokeile ilmaiseksi",
+      "viewPricing": "Katso hinnat"
+    },
+    "filters": {
+      "allApps": "Kaikki sovellukset"
     }
   },
   "auth": {
     "signIn": {
-      "title": "Welcome Back",
-      "subtitle": "Sign in to your account",
-      "email": "Email",
-      "password": "Password",
-      "rememberMe": "Remember me",
-      "forgotPassword": "Forgot password?",
-      "submit": "Sign In",
-      "noAccount": "Don't have an account?",
-      "signUp": "Sign up"
+      "title": "Mukava nähdä sinut taas!",
+      "subtitle": "Pääset opetusmateriaaleihin",
+      "email": "Sähköpostiosoite",
+      "emailPlaceholder": "sinun@sahkoposti.fi",
+      "password": "Salasana",
+      "passwordPlaceholder": "Salasanasi",
+      "rememberMe": "Pidä minut kirjautuneena",
+      "forgotPassword": "Unohtuiko salasana?",
+      "submit": "Kirjaudu",
+      "noAccount": "Eikö sinulla ole vielä tiliä?",
+      "signUp": "Luo ilmainen tili",
+      "orContinueWith": "Tai jatka tunnuksilla"
     },
     "signUp": {
-      "title": "Create Your Account",
-      "subtitle": "Start creating worksheets today",
-      "firstName": "First Name",
-      "lastName": "Last Name",
-      "email": "Email",
-      "password": "Password",
-      "confirmPassword": "Confirm Password",
-      "terms": "I agree to the Terms of Service and Privacy Policy",
-      "submit": "Create Account",
-      "hasAccount": "Already have an account?",
-      "signIn": "Sign in"
+      "title": "Luo tilisi",
+      "subtitle": "Aloita työarkkien luominen tänään",
+      "firstName": "Etunimi",
+      "lastName": "Sukunimi",
+      "email": "Sähköpostiosoite",
+      "password": "Salasana",
+      "confirmPassword": "Vahvista salasana",
+      "terms": "Hyväksyn käyttöehdot ja tietosuojakäytännön",
+      "submit": "Luo tili",
+      "hasAccount": "Onko sinulla jo tili?",
+      "signIn": "Kirjaudu sisään"
+    }
+  },
+  "footer": {
+    "companyName": "LessonCraftStudio",
+    "companyTagline": "Ammattimaisia työarkkigeneraattoreita opetusalan julkaisijoille.",
+    "product": {
+      "title": "Tuote",
+      "apps": "Generaattorit",
+      "pricing": "Hinnoittelu",
+      "blog": "Blogi"
+    },
+    "support": {
+      "title": "Tuki",
+      "helpCenter": "Ohjekeskus",
+      "contact": "Yhteystiedot",
+      "faq": "Usein kysytyt kysymykset"
+    },
+    "legal": {
+      "title": "Juridiset asiat",
+      "terms": "Käyttöehdot",
+      "privacy": "Tietosuoja",
+      "license": "Lisenssiehdot"
+    },
+    "copyright": "© 2024 LessonCraftStudio. Kaikki oikeudet pidätetään."
+  },
+  "pricing": {
+    "heroTitle": "Selkeät hinnat jotka sopivat tarpeisiisi",
+    "heroSubtitle": "Valitse täydellinen paketti luoviin opetusmateriaaleihin - ilmaisesta kokeilusta ammattilaisratkaisuun",
+    "billingToggle": {
+      "monthly": "Kuukausittain",
+      "yearly": "Vuosittain",
+      "yearlyDiscount": "Säästä 20%"
+    },
+    "labels": {
+      "whatsIncluded": "Mitä sisältyy:",
+      "limitations": "Rajoitukset:",
+      "appsIncluded": "Käytettävissä olevat generaattorit:",
+      "orYearly": "tai",
+      "perYear": "/vuosi"
+    },
+    "plans": {
+      "free": {
+        "name": "Ilmainen",
+        "price": "$0",
+        "period": "",
+        "description": "Täydellinen työkalujemme kokeiluun",
+        "features": {
+          "0": "Sanaristikkogeneraattori (vesileimalla)",
+          "1": "Huomaamaton vesileima dokumenteissa",
+          "2": "Rajoitettu kuvakirjasto",
+          "3": "Vakiopohjat",
+          "4": "Yhteisötuki",
+          "5": "Vain henkilökohtaiseen käyttöön"
+        },
+        "limitations": {
+          "0": "Vesileima kaikissa tehtävämonisteissa",
+          "1": "Ei kaupallista lisenssiä",
+          "2": "Rajoitettu mukauttaminen"
+        },
+        "apps": {
+          "0": "Sanaristikkogeneraattori (vesileimalla)"
+        },
+        "cta": "Aloita ilmaiseksi"
+      },
+      "core": {
+        "name": "Peruspaketti",
+        "price": "$15",
+        "period": "/kuukausi",
+        "yearlyPrice": "$144",
+        "description": "Suosituimmat työkalut ammattiopettajille",
+        "features": {
+          "0": "10 suosituinta generaattoria",
+          "1": "Ei vesileimoja",
+          "2": "Täydellinen kuvakirjasto (100+ teemaa)",
+          "3": "Kaikki premium-pohjat",
+          "4": "POD-kaupallinen lisenssi",
+          "5": "Sähköpostituki",
+          "6": "Vienti PDF- ja JPEG-muotoon korkealaatuisena"
+        },
+        "apps": {
+          "0": "10 suosituinta generaattoria:",
+          "1": "Kuvalaskut",
+          "2": "Aakkosjuna",
+          "3": "Värityssivut",
+          "4": "Matematiikkamonisteet",
+          "5": "Sanojen sekoitus",
+          "6": "Etsi ja laske",
+          "7": "Yhdistämispeli",
+          "8": "Viivojen piirtäminen",
+          "9": "Kuvabingo",
+          "10": "Lasten sudoku"
+        },
+        "cta": "7 päivän ilmainen kokeilu"
+      },
+      "full": {
+        "name": "Täysi Pääsy",
+        "price": "$25",
+        "period": "/kuukausi",
+        "yearlyPrice": "$240",
+        "description": "Kokonaisvaltainen ratkaisu vaativille opettajille",
+        "features": {
+          "0": "Kaikki 33 tehtävämonistegeneraattoria",
+          "1": "Kaikki Peruspaketin sisältö sekä 23 lisää",
+          "2": "Ensisijainen sähköpostituki",
+          "3": "Varhainen pääsy uusiin ominaisuuksiin",
+          "4": "Edistyneet mukautusmahdollisuudet",
+          "5": "Säännölliset päivitykset ja uudet toiminnot"
+        },
+        "apps": {
+          "0": "Kaikki Peruspaketin generaattorit sekä:",
+          "1": "Iso vai pieni",
+          "2": "Kaaviot laske ja väritä",
+          "3": "Koodiyhteenlasku",
+          "4": "Piirtäminen ja värittäminen",
+          "5": "Etsi esineet",
+          "6": "Ruudukkoyhdistäminen",
+          "7": "Kuvasanaristikko",
+          "8": "Kuvakryptogrammi",
+          "9": "Matematiikkapulma",
+          "10": "Puuttuvat palaset",
+          "11": "Enemmän vai vähemmän",
+          "12": "Mikä ei kuulu joukkoon",
+          "13": "Kuviojuna",
+          "14": "Kuviomonisteet",
+          "15": "Kuvapolku",
+          "16": "Kuvien lajittelu",
+          "17": "Prepositiot",
+          "18": "Varjopari",
+          "19": "Vähennyslasku",
+          "20": "Aarteenmetsästys",
+          "21": "Arvaa sana",
+          "22": "Kirjoitusharjoitukset"
+        },
+        "cta": "7 päivän ilmainen kokeilu",
+        "popular": "SUOSITUIN"
+      }
+    },
+    "comparison": {
+      "title": "Vertaile pakettejamme yksityiskohtaisesti",
+      "features": "Ominaisuudet",
+      "numberOfApps": "Generaattorien määrä",
+      "watermark": "Ilman vesileimaa",
+      "commercialLicense": "Kaupallinen lisenssi",
+      "imageLibrarySize": "Kuvakirjaston koko",
+      "imageLibrary": {
+        "free": "Rajoitettu (10 teemaa)",
+        "core": "Täydellinen (100+ teemaa)",
+        "full": "Täydellinen (100+ teemaa)"
+      },
+      "support": "Tuki",
+      "supportTypes": {
+        "free": "Yhteisö",
+        "core": "Sähköposti",
+        "full": "Ensisijainen sähköposti"
+      },
+      "earlyAccess": "Varhainen pääsy uusiin ominaisuuksiin"
+    },
+    "faq": {
+      "title": "Usein kysytyt kysymykset",
+      "items": [
+        {
+          "question": "Voinko vaihtaa pakettia milloin tahansa?",
+          "answer": "Tietenkin! Voit päivittää tai alentaa pakettiasi koska tahansa. Muutokset astuvat voimaan välittömästi ja laskutus mukautetaan suhteellisesti."
+        },
+        {
+          "question": "Mikä on POD-kaupallinen lisenssi?",
+          "answer": "POD tarkoittaa Print-on-Demand eli tilaustulostepalvelua. Tämä lisenssi antaa sinulle oikeuden myydä luomiasi tehtävämonisteita alustoilla kuten Teachers Pay Teachers, Etsy tai omassa verkkokaupassa."
+        },
+        {
+          "question": "Voinko vaihtaa pakettien välillä?",
+          "answer": "Kyllä, voit päivittää tai alentaa milloin tahansa. Päivityksessä maksat vain erotuksen. Alennuksessa muutos astuu voimaan seuraavan laskutusjakson alussa."
+        },
+        {
+          "question": "Onko tarjolla ilmainen kokeilujakso?",
+          "answer": "Kyllä! Sekä Peruspaketti että Täysi Pääsy tarjoavat 7 päivän ilmaisen kokeilujakson. Voit testata kaikkia ominaisuuksia ilman sitoutumista ennen päätöksentekoa."
+        },
+        {
+          "question": "Mitä maksutapoja hyväksytte?",
+          "answer": "Hyväksymme kaikki suurimmat luottokortit (Visa, Mastercard, American Express) sekä PayPalin. Maksut suojataan Stripen kautta."
+        },
+        {
+          "question": "Voinko luoda tehtävämonisteita muilla kielillä?",
+          "answer": "Kyllä! Alustamme tukee 11 kieltä: suomi, englanti, saksa, ranska, espanja, portugali, italia, hollanti, ruotsi, tanska ja norja."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Valmis luomaan upeita opetusmateriaaleja?",
+      "subtitle": "Liity tuhansien opettajien joukkoon, jotka säästävät aikaa ja innostavat oppilaitaan",
+      "button": "Aloita ilmaiseksi",
+      "disclaimer": "Ei luottokorttia tarvita • Peruuta milloin tahansa"
+    }
+  },
+  "common": {
+    "loading": "Ladataan...",
+    "error": "Tapahtui virhe",
+    "retry": "Yritä uudelleen",
+    "save": "Tallenna",
+    "cancel": "Peruuta",
+    "delete": "Poista",
+    "edit": "Muokkaa",
+    "create": "Luo",
+    "search": "Hae",
+    "filter": "Suodata",
+    "sort": "Lajittele",
+    "next": "Seuraava",
+    "previous": "Edellinen",
+    "close": "Sulje",
+    "open": "Avaa",
+    "yes": "Kyllä",
+    "no": "Ei",
+    "confirm": "Vahvista",
+    "download": "Lataa",
+    "upload": "Lataa ylös",
+    "select": "Valitse",
+    "selectAll": "Valitse kaikki",
+    "deselectAll": "Poista kaikki valinnat",
+    "required": "Pakollinen",
+    "optional": "Valinnainen"
+  },
+  "blogPage": {
+    "hero": {
+      "title": "LessonCraftStudio Blogi",
+      "subtitle": "Käytännön vinkkejä, ohjeita ja inspiraatiota loistavien opetusmateriaalien luomiseen"
+    },
+    "categories": {
+      "all": "Kaikki artikkelit",
+      "worksheetTips": "Tehtävämoniste-vinkit",
+      "teachingResources": "Opetusmateriaalit",
+      "educationalActivities": "Opetustoiminta",
+      "learningStrategies": "Oppimisstrategiat",
+      "curriculumGuides": "Opetussuunnitelmaoppaat",
+      "parentResources": "Vanhemmille",
+      "seasonalContent": "Vuodenaikasisältö"
+    },
+    "loading": {
+      "message": "Ladataan blogikirjoituksia..."
+    },
+    "empty": {
+      "title": "Ei artikkeleita saatavilla",
+      "description": "Palaa pian takaisin uuden opetussisällön pariin!"
+    },
+    "postCard": {
+      "pdfSamples": "PDF-esimerkit",
+      "readTime": "lukuaika"
+    },
+    "pagination": {
+      "previous": "Edellinen",
+      "next": "Seuraava",
+      "showing": "Näytetään",
+      "of": "yhteensä",
+      "posts": "artikkelia"
+    },
+    "newsletter": {
+      "title": "Pysy ajan tasalla opetusvinkeistä",
+      "subtitle": "Saa viikoittain ideoita parempien opetusmateriaalien luomiseen ja toimintasi kehittämiseen",
+      "emailPlaceholder": "Sähköpostiosoitteesi",
+      "subscribe": "Tilaa",
+      "success": "Kiitos tilauksestasi!",
+      "error": "Jotain meni pieleen. Yritä myöhemmin uudelleen.",
+      "noSpam": "Ei roskapostia, voit peruuttaa milloin vain."
+    },
+    "signUp": {
+      "title": "Luo ilmainen tilisi",
+      "hasAccount": "Onko sinulla jo tili?",
+      "signIn": "Kirjaudu sisään",
+      "firstName": "Etunimi",
+      "lastName": "Sukunimi",
+      "email": "Sähköpostiosoite",
+      "password": "Salasana",
+      "confirmPassword": "Vahvista salasana",
+      "passwordHint": "Vähintään 8 merkkiä",
+      "terms": "Hyväksyn",
+      "termsLink": "käyttöehdot",
+      "and": "ja",
+      "privacyLink": "tietosuojakäytännön",
+      "termsEnd": "",
+      "submit": "Luo tili",
+      "orSignUpWith": "Tai rekisteröidy",
+      "freeAccountInfo": "Ilmainen tilisi sisältää 10 latausta kuukaudessa",
+      "upgradeAnytime": "Päivitä premium-tiliin milloin tahansa",
+      "errors": {
+        "allFieldsRequired": "Kaikki kentät ovat pakollisia",
+        "passwordLength": "Salasanan tulee olla vähintään 8 merkkiä",
+        "passwordsDoNotMatch": "Salasanat eivät täsmää",
+        "agreeToTerms": "Sinun tulee hyväksyä ehdot jatkaaksesi",
+        "invalidEmail": "Sähköpostiosoite on virheellinen"
+      }
+    }
+  },
+  "contact": {
+    "title": "Ota yhteyttä",
+    "subtitle": "Autamme mielellään! Onko kysyttävää tai ehdotuksia? Ota yhteyttä - vastaamme nopeasti.",
+    "getInTouch": "Ota yhteyttä",
+    "name": "Nimi",
+    "email": "Sähköposti",
+    "subject": "Aihe",
+    "selectSubject": "Valitse aihe",
+    "subjects": {
+      "general": "Yleinen kysely",
+      "support": "Tekninen tuki",
+      "feedback": "Palaute",
+      "partnership": "Yhteistyömahdollisuus"
+    },
+    "message": "Viesti",
+    "send": "Lähetä viesti",
+    "sending": "Lähetetään...",
+    "successMessage": "Kiitos viestistä! Olemme vastaanottaneet yhteydenottosi ja vastaamme pian.",
+    "errorMessage": "Hups, jotain meni vikaan. Yritä hetken kuluttua uudelleen.",
+    "otherWaysToConnect": "Muut yhteydenottotavat",
+    "emailUs": "Lähetä sähköpostia",
+    "responseTime": "Vastausaika",
+    "responseTimeInfo": "Vastaamme yleensä 48 tunnin kuluessa (usein samana päivänä).",
+    "faq": "Usein kysytyt kysymykset",
+    "faqInfo": "Kiire? Tarkista UKK-sivumme - siellä on vastauksia yleisimpiin kysymyksiin.",
+    "followUs": "Seuraa meitä"
+  },
+  "terms": {
+    "title": "Käyttöehdot",
+    "lastUpdated": "Viimeksi päivitetty",
+    "effectiveDate": "Tammikuu 2025",
+    "acceptance": {
+      "title": "1. HYVÄKSYMINEN",
+      "content": "Käyttämällä LessonCraftStudiota hyväksyt nämä ehdot. Jos et hyväksy, älä käytä palveluamme."
+    },
+    "serviceDescription": {
+      "title": "2. PALVELUN KUVAUS",
+      "content": "LessonCraftStudio tarjoaa työkaluja työarkkien luomiseen kolmella tilaustyypillä: Ilmainen (rajoitettu), Core (laajennettu) ja Täysi pääsy (rajoittamaton)."
+    },
+    "userAccounts": {
+      "title": "3. KÄYTTÄJÄTILIT",
+      "requirements": "Vaatimukset:",
+      "age": "Vähimmäisikä: 18 vuotta",
+      "accurate": "Tarkat rekisteröintitiedot",
+      "security": "Tilin turvallisuuden ylläpito",
+      "responsible": "Vastuu tilin toiminnoista"
+    },
+    "paymentTerms": {
+      "title": "4. MAKSUEHDOT",
+      "pricing": "Voimassa olevat hinnat näytetään rekisteröinnin yhteydessä",
+      "billing": "Toistuva laskutus valitun tilauksen mukaan",
+      "refunds": "Ei hyvitystä osittaisista kausista",
+      "changes": "Hintojen muutoksista ilmoitetaan 30 päivää etukäteen"
+    },
+    "acceptableUse": {
+      "title": "5. HYVÄKSYTTÄVÄ KÄYTTÖ",
+      "prohibited": "Kielletty:",
+      "illegal": "Laittomat toiminnot",
+      "harmful": "Haitallinen tai loukkaava sisältö",
+      "infringement": "Immateriaalioikeuksien loukkaaminen",
+      "system": "Järjestelmän häirintä tai vahingoittaminen",
+      "resale": "Luvaton jälleenmyynti"
+    },
+    "intellectualProperty": {
+      "title": "6. IMMATERIAALIOIKEUDET",
+      "content": "Alusta ja työkalut pysyvät meidän omaisuutenamme. Sisältösi pysyy sinun. Luotu sisältö lisensoidaan tilauksen mukaan."
+    },
+    "termination": {
+      "title": "7. IRTISANOMINEN",
+      "user": "Voidaan irtisanoa milloin tahansa tiliasetuksista",
+      "company": "Voimme irtisanoa rikkomusten vuoksi",
+      "effect": "Irtisanominen lopettaa pääsyn; sisältölisenssi jatkuu"
+    },
+    "disclaimers": {
+      "title": "8. VASTUUVAPAUSLAUSEKE",
+      "asis": "Palvelu tarjotaan SELLAISENAAN",
+      "availability": "Ei takuuta jatkuvasta saatavuudesta",
+      "suitability": "Ei takuuta sopivuudesta tarkoitukseen",
+      "content": "Käyttäjä vastaa sisällön tarkkuudesta"
+    },
+    "limitationLiability": {
+      "title": "9. VASTUUN RAJOITUS",
+      "content": "Enimmäisvastuu: viimeisen 12 kuukauden aikana maksetut maksut. Ei vastuuta epäsuorista vahingoista."
+    },
+    "indemnification": {
+      "title": "10. VAHINGONKORVAUS",
+      "content": "Pidät meidät vahingottomana vaatimuksista, jotka johtuvat käytöstäsi, sisällöstäsi tai rikkomuksistasi."
+    },
+    "governingLaw": {
+      "title": "11. SOVELLETTAVA LAKI",
+      "content": "Ruotsin laki soveltuu. Tukholman tuomioistuimilla on toimivalta. EU-kuluttajaoikeudet säilyvät."
+    },
+    "changes": {
+      "title": "12. MUUTOKSET",
+      "content": "Voimme muuttaa ehtoja ilmoittamalla. Jatkuva käyttö merkitsee hyväksyntää."
+    },
+    "contact": {
+      "title": "13. YHTEYSTIEDOT",
+      "content": "Kysymykset: legal@lessoncraftstudio.com"
+    }
+  },
+  "privacy": {
+    "title": "Tietosuojaseloste",
+    "lastUpdated": "Viimeksi päivitetty",
+    "effectiveDate": "Tammikuu 2025",
+    "introduction": {
+      "title": "1. JOHDANTO",
+      "content": "Tämä seloste selittää tietojenkäsittelymme GDPR:n ja Ruotsin lain mukaisesti."
+    },
+    "dataController": {
+      "title": "2. REKISTERINPITÄJÄ",
+      "content": "LessonCraftStudio, Tukholma, Ruotsi. Yhteystiedot: privacy@lessoncraftstudio.com"
+    },
+    "dataCollection": {
+      "title": "3. KERÄTTÄVÄT TIEDOT",
+      "intro": "Keräämme:",
+      "personal": "Tilitiedot (nimi, sähköposti)",
+      "usage": "Käyttöanalytiikka",
+      "technical": "Tekniset tiedot (IP, selain)",
+      "cookies": "Evästeasetukset"
+    },
+    "legalBasis": {
+      "title": "4. KÄSITTELYN OIKEUSPERUSTE",
+      "intro": "Käsittely perustuu:",
+      "consent": "Suostumukseesi",
+      "contract": "Sopimuksen täyttämiseen",
+      "legal": "Lakisääteisiin velvoitteisiin",
+      "legitimate": "Oikeutettuihin etuihin"
+    },
+    "dataUsage": {
+      "title": "5. TIETOJEN KÄYTTÖ",
+      "service": "Palvelun toimittaminen",
+      "account": "Tilin hallinta",
+      "communication": "Viestintä",
+      "improvement": "Palvelun parantaminen",
+      "legal": "Lakisääteinen noudattaminen"
+    },
+    "dataSharing": {
+      "title": "6. TIETOJEN JAKAMINEN",
+      "intro": "Rajoitettu jakaminen:",
+      "providers": "Palveluntarjoajat (tietojenkäsittelijät)",
+      "payment": "Maksuprosessorit",
+      "legal": "Viranomaiset tarvittaessa",
+      "consent": "Kolmannet osapuolet suostumuksella"
+    },
+    "dataRetention": {
+      "title": "7. TIETOJEN SÄILYTYS",
+      "content": "Tilitiedot: tilin kesto plus 1 vuosi. Lokitiedostot: 90 päivää. Markkinointi: peruutukseen asti."
+    },
+    "userRights": {
+      "title": "8. OIKEUTESI",
+      "intro": "GDPR-oikeudet sisältävät:",
+      "access": "Pääsy tietoihisi",
+      "rectification": "Virheellisten tietojen korjaaminen",
+      "erasure": "Pyyntö poistaa tiedot",
+      "restriction": "Käsittelyn rajoittaminen",
+      "portability": "Tietojen siirrettävyys",
+      "objection": "Vastustaminen käsittelyä",
+      "withdraw": "Suostumuksen peruuttaminen",
+      "complaint": "Valitus tietosuojavaltuutetulle"
+    },
+    "dataSecurity": {
+      "title": "9. TURVALLISUUS",
+      "content": "Alan standardin mukainen turvallisuus salauksella, pääsynhallinnalla ja säännöllisillä tarkastuksilla."
+    },
+    "cookies": {
+      "title": "10. EVÄSTEET",
+      "intro": "Käytämme:",
+      "essential": "Välttämättömät evästeet (pakollinen)",
+      "functional": "Toiminnalliset evästeet (asetukset)",
+      "analytics": "Analytiikkaevästeet (suostumuksella)"
+    },
+    "children": {
+      "title": "11. LAPSET",
+      "content": "Palvelu opettajille/vanhemmille. Ei tietojen keräämistä alle 16-vuotiailta."
+    },
+    "international": {
+      "title": "12. KANSAINVÄLISET SIIRROT",
+      "content": "Tiedot säilytetään EU/ETA-alueella. Ulkoiset siirrot vakiosopimuslausekkeilla."
+    },
+    "changes": {
+      "title": "13. MUUTOKSET",
+      "content": "Päivityksistä ilmoitetaan sähköpostitse. Jatkuva käyttö merkitsee hyväksyntää."
+    },
+    "contact": {
+      "title": "14. YHTEYSTIEDOT",
+      "intro": "Kysymykset tai oikeuksien käyttö:",
+      "email": "Sähköposti: privacy@lessoncraftstudio.com",
+      "address": "Osoite: Tukholma, Ruotsi",
+      "dpo": "Tietosuojavastaava: dpo@lessoncraftstudio.com"
+    }
+  },
+  "license": {
+    "title": "Lisenssiehdot",
+    "lastUpdated": "Viimeksi päivitetty",
+    "effectiveDate": "Tammikuu 2025",
+    "grantOfLicense": {
+      "title": "1. LISENSSIN MYÖNTÄMINEN",
+      "intro": "LessonCraftStudio myöntää sinulle lisenssin käyttää luotua sisältöä tilauksesi perusteella:",
+      "freeTier": "Ilmainen: Vain henkilökohtainen ei-kaupallinen opetuskäyttö",
+      "coreBundle": "Core: Kaupallinen opetuskäyttö omassa oppilaitoksessasi",
+      "fullAccess": "Täysi pääsy: Rajoittamaton kaupallinen käyttö mukaan lukien print-on-demand ja jälleenmyynti"
+    },
+    "intellectualProperty": {
+      "title": "2. IMMATERIAALIOIKEUDET",
+      "content": "Säilytät alkuperäisen sisältösi. Säilytämme oikeudet alustan elementteihin. Luotu sisältö lisensoidaan kohdan 1 mukaisesti."
+    },
+    "restrictions": {
+      "title": "3. RAJOITUKSET",
+      "intro": "Et saa:",
+      "reverseEngineer": "Käänteismallintaa alustaa",
+      "competing": "Luoda kilpailevia palveluita",
+      "sublicense": "Alilisensoida alustan käyttöä",
+      "removeNotices": "Poistaa vesileimoja ilmaissisällöstä",
+      "illegal": "Käyttää laittomiin tarkoituksiin"
+    },
+    "commercialDistribution": {
+      "title": "4. KAUPALLINEN JAKELU",
+      "pod": "Print-on-demand: Täysi pääsy -tilaajat voivat myydä rajoittamattomasti print-on-demand-alustoilla.",
+      "digital": "Digitaalinen jakelu: Kaikki tasot voivat jakaa digitaalisia versioita lisenssinsä mukaisesti."
+    },
+    "termination": {
+      "title": "5. IRTISANOMINEN",
+      "content": "Voimme irtisanoa rikkomuksen vuoksi 30 päivän varoitusajalla. Voimassa olevan tilauksen aikana luotu sisältö pysyy lisensoituna."
+    },
+    "warrantyDisclaimer": {
+      "title": "6. TAKUUN VASTUUVAPAUSLAUSEKE",
+      "content": "Palvelu tarjotaan SELLAISENAAN ilman takuita. Emme takaa sopivuutta tiettyihin tarkoituksiin."
+    },
+    "limitationOfLiability": {
+      "title": "7. VASTUUN RAJOITUS",
+      "content": "Enimmäisvastuu rajoitettu viimeisen 12 kuukauden aikana maksettuihin maksuihin."
+    },
+    "governingLaw": {
+      "title": "8. SOVELLETTAVA LAKI",
+      "content": "Ruotsin laki soveltuu. Tukholman tuomioistuimet."
+    },
+    "modifications": {
+      "title": "9. MUUTOKSET",
+      "content": "Voimme muuttaa ehtoja 30 päivän varoitusajalla. Jatkuva käyttö merkitsee hyväksyntää."
+    },
+    "contact": {
+      "title": "10. YHTEYSTIEDOT",
+      "content": "Lisenssikysymykset: license@lessoncraftstudio.com"
     }
   }
 }

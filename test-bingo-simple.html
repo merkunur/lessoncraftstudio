@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Bingo Translation Test</title>
+</head>
+<body>
+    <h1>Picture Bingo Translation Test</h1>
+
+    <h2>Direct Translation Test</h2>
+    <div style="border: 1px solid #ccc; padding: 10px; margin: 10px;">
+        <button onclick="testTranslations()">Test Translations Directly</button>
+        <div id="results"></div>
+    </div>
+
+    <h2>Test in App</h2>
+    <div style="margin: 10px;">
+        <button onclick="loadApp('en')">English</button>
+        <button onclick="loadApp('de')">German</button>
+        <button onclick="loadApp('fr')">French</button>
+        <button onclick="loadApp('sv')">Swedish</button>
+    </div>
+
+    <iframe id="appFrame" src="frontend/public/worksheet-generators/bingo.html?locale=de" style="width: 100%; height: 600px; border: 1px solid #333;"></iframe>
+
+    <script>
+        function testTranslations() {
+            const results = document.getElementById('results');
+            results.innerHTML = '<h3>Loading translations file...</h3>';
+
+            // Load the translations file
+            const script = document.createElement('script');
+            script.src = 'frontend/public/worksheet-generators/js/translations-picture-bingo.js';
+            script.onload = function() {
+                let html = '<h3>Translation File Loaded</h3>';
+
+                if (typeof PICTURE_BINGO_TRANSLATIONS !== 'undefined') {
+                    html += '<p style="color: green;">✅ PICTURE_BINGO_TRANSLATIONS exists</p>';
+
+                    // Test some key translations
+                    const testKeys = ['background', 'border', 'grayscale', 'generate', 'worksheetSettings'];
+
+                    html += '<h4>English:</h4><ul>';
+                    testKeys.forEach(key => {
+                        const value = PICTURE_BINGO_TRANSLATIONS.en[key];
+                        html += `<li>${key}: ${value || 'MISSING'}</li>`;
+                    });
+                    html += '</ul>';
+
+                    html += '<h4>German:</h4><ul>';
+                    testKeys.forEach(key => {
+                        const value = PICTURE_BINGO_TRANSLATIONS.de[key];
+                        html += `<li>${key}: ${value || 'MISSING'}</li>`;
+                    });
+                    html += '</ul>';
+                } else {
+                    html += '<p style="color: red;">❌ PICTURE_BINGO_TRANSLATIONS not found</p>';
+                }
+
+                results.innerHTML = html;
+            };
+            document.head.appendChild(script);
+        }
+
+        function loadApp(locale) {
+            const frame = document.getElementById('appFrame');
+            frame.src = `frontend/public/worksheet-generators/bingo.html?locale=${locale}`;
+
+            // Check the frame after it loads
+            frame.onload = function() {
+                setTimeout(() => {
+                    const frameWindow = frame.contentWindow;
+                    const frameDoc = frame.contentDocument;
+
+                    console.log('=== Checking Frame ===');
+                    console.log('Locale:', frameWindow.currentLocale);
+                    console.log('Translations loaded:', typeof frameWindow.PICTURE_BINGO_TRANSLATIONS !== 'undefined');
+                    console.log('t() exists:', typeof frameWindow.t === 'function');
+
+                    if (frameWindow.t) {
+                        console.log('Testing t() function:');
+                        console.log('  t("background"):', frameWindow.t('background'));
+                        console.log('  t("border"):', frameWindow.t('border'));
+                        console.log('  t("grayscale"):', frameWindow.t('grayscale'));
+                        console.log('  t("generate"):', frameWindow.t('generate'));
+                    }
+
+                    // Check actual DOM elements
+                    const bgElement = frameDoc.querySelector('[data-translate="background"]');
+                    if (bgElement) {
+                        console.log('Background element text:', bgElement.textContent);
+                    }
+
+                    const generateBtn = frameDoc.querySelector('[data-translate="generate"]');
+                    if (generateBtn) {
+                        console.log('Generate button text:', generateBtn.textContent);
+                    }
+
+                    // Try to manually update translations
+                    if (frameWindow.updateTranslations) {
+                        console.log('Calling updateTranslations()...');
+                        frameWindow.updateTranslations();
+
+                        setTimeout(() => {
+                            console.log('After updateTranslations:');
+                            if (bgElement) console.log('  Background:', bgElement.textContent);
+                            if (generateBtn) console.log('  Generate:', generateBtn.textContent);
+                        }, 500);
+                    }
+                }, 1000);
+            };
+        }
+
+        // Auto-test on load
+        window.onload = function() {
+            testTranslations();
+        };
+    </script>
+</body>
+</html>

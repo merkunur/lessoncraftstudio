@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Picture Bingo Translation Diagnostic</title>
+    <style>
+        body { font-family: monospace; padding: 20px; }
+        .success { color: green; }
+        .error { color: red; }
+        .info { color: blue; }
+        pre { background: #f0f0f0; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Picture Bingo Translation Diagnostic</h1>
+
+    <h2>1. Loading Translation File</h2>
+    <div id="loadTest"></div>
+
+    <h2>2. Testing Translation Function</h2>
+    <div id="functionTest"></div>
+
+    <h2>3. Testing Language Support</h2>
+    <div id="languageTest"></div>
+
+    <h2>4. Testing Critical Keys</h2>
+    <div id="keyTest"></div>
+
+    <h2>5. Live App Test</h2>
+    <button onclick="testApp('en')">Test English</button>
+    <button onclick="testApp('de')">Test German</button>
+    <button onclick="testApp('fr')">Test French</button>
+    <button onclick="testApp('sv')">Test Swedish</button>
+    <br><br>
+    <iframe id="testFrame" style="width: 100%; height: 600px; border: 1px solid #ccc;"></iframe>
+
+    <script>
+        // Set locale first
+        window.currentLocale = 'en';
+    </script>
+    <script src="frontend/public/worksheet-generators/js/translations-picture-bingo.js"></script>
+    <script>
+        // Diagnostic tests
+        document.addEventListener('DOMContentLoaded', function() {
+            // Test 1: Check if translations loaded
+            const loadDiv = document.getElementById('loadTest');
+            if (typeof PICTURE_BINGO_TRANSLATIONS !== 'undefined') {
+                loadDiv.innerHTML = '<span class="success">✅ PICTURE_BINGO_TRANSLATIONS loaded successfully</span>';
+                loadDiv.innerHTML += '<pre>' + JSON.stringify(Object.keys(PICTURE_BINGO_TRANSLATIONS), null, 2) + '</pre>';
+            } else {
+                loadDiv.innerHTML = '<span class="error">❌ PICTURE_BINGO_TRANSLATIONS not loaded</span>';
+            }
+
+            // Test 2: Check translation functions
+            const funcDiv = document.getElementById('functionTest');
+
+            // Define t() function
+            window.t = function(key) {
+                if (typeof PICTURE_BINGO_TRANSLATIONS === 'undefined') {
+                    return key;
+                }
+                const locale = window.currentLocale || 'en';
+                return (PICTURE_BINGO_TRANSLATIONS[locale] && PICTURE_BINGO_TRANSLATIONS[locale][key]) ||
+                       (PICTURE_BINGO_TRANSLATIONS.en && PICTURE_BINGO_TRANSLATIONS.en[key]) ||
+                       key;
+            };
+
+            if (typeof getTranslation === 'function') {
+                funcDiv.innerHTML = '<span class="success">✅ getTranslation function found</span><br>';
+                funcDiv.innerHTML += 'Test: getTranslation("generate", "de") = <span class="info">' + getTranslation('generate', 'de') + '</span><br>';
+                funcDiv.innerHTML += 'Test: t("generate") = <span class="info">' + t('generate') + '</span>';
+            } else {
+                funcDiv.innerHTML = '<span class="error">❌ getTranslation function not found</span>';
+            }
+
+            // Test 3: Check languages
+            const langDiv = document.getElementById('languageTest');
+            if (typeof PICTURE_BINGO_TRANSLATIONS !== 'undefined') {
+                const languages = Object.keys(PICTURE_BINGO_TRANSLATIONS);
+                languages.forEach(lang => {
+                    const keys = Object.keys(PICTURE_BINGO_TRANSLATIONS[lang]);
+                    langDiv.innerHTML += `<div>${lang}: <span class="${keys.length >= 141 ? 'success' : 'error'}">${keys.length} keys</span></div>`;
+                });
+            }
+
+            // Test 4: Check critical keys
+            const keyDiv = document.getElementById('keyTest');
+            const criticalKeys = ['background', 'border', 'grayscale', 'generate', 'worksheetSettings'];
+
+            criticalKeys.forEach(key => {
+                if (PICTURE_BINGO_TRANSLATIONS && PICTURE_BINGO_TRANSLATIONS.en) {
+                    const hasKey = PICTURE_BINGO_TRANSLATIONS.en[key];
+                    keyDiv.innerHTML += `<div>${key}: <span class="${hasKey ? 'success' : 'error'}">${hasKey ? '✅ ' + hasKey : '❌ Missing'}</span></div>`;
+
+                    // Test German translation
+                    if (PICTURE_BINGO_TRANSLATIONS.de) {
+                        const deValue = PICTURE_BINGO_TRANSLATIONS.de[key];
+                        keyDiv.innerHTML += `<div>&nbsp;&nbsp;German: <span class="info">${deValue || 'Missing'}</span></div>`;
+                    }
+                }
+            });
+        });
+
+        function testApp(locale) {
+            const frame = document.getElementById('testFrame');
+            frame.src = `frontend/public/worksheet-generators/bingo.html?locale=${locale}`;
+
+            // Wait for frame to load then check
+            frame.onload = function() {
+                setTimeout(() => {
+                    try {
+                        const frameWindow = frame.contentWindow;
+                        const frameDoc = frame.contentDocument;
+
+                        console.log('=== FRAME DIAGNOSTIC ===');
+                        console.log('currentLocale:', frameWindow.currentLocale);
+                        console.log('PICTURE_BINGO_TRANSLATIONS exists:', typeof frameWindow.PICTURE_BINGO_TRANSLATIONS !== 'undefined');
+                        console.log('t() function exists:', typeof frameWindow.t === 'function');
+
+                        if (frameWindow.t) {
+                            console.log('t("generate") =', frameWindow.t('generate'));
+                            console.log('t("background") =', frameWindow.t('background'));
+                            console.log('t("border") =', frameWindow.t('border'));
+                            console.log('t("grayscale") =', frameWindow.t('grayscale'));
+                        }
+
+                        // Check DOM elements
+                        const elementsWithTranslate = frameDoc.querySelectorAll('[data-translate]');
+                        console.log('Elements with data-translate:', elementsWithTranslate.length);
+
+                        // Check specific elements
+                        const generateBtn = frameDoc.querySelector('[data-translate="generate"]');
+                        if (generateBtn) {
+                            console.log('Generate button text:', generateBtn.textContent);
+                        }
+
+                        const backgroundHeader = frameDoc.querySelector('[data-translate="background"]');
+                        if (backgroundHeader) {
+                            console.log('Background header text:', backgroundHeader.textContent);
+                        }
+                    } catch (e) {
+                        console.error('Error accessing frame:', e);
+                    }
+                }, 1000);
+            };
+        }
+    </script>
+</body>
+</html>

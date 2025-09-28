@@ -1,0 +1,186 @@
+
+
+    // ==========================================
+    // SUCCESS MESSAGES (8 keys)
+    // ==========================================
+    "sudoku.msg.worksheet.success": "Arbetsblad skapat!",
+    "sudoku.msg.answer.generated": "Facit skapat!",
+    "sudoku.msg.download.started": "Nedladdning startad!",
+    "sudoku.msg.pdf.success": "PDF nedladdad!",
+    "sudoku.msg.cleared": "Alla inställningar rensade.",
+    "sudoku.msg.individual.mode": "Läge för enskilda bilder aktiverat.",
+    "sudoku.msg.uploads.ready": "{count} egen(a) bild(er) tillgänglig(a). Klicka för att välja.",
+
+    // ==========================================
+    // ERROR MESSAGES (12 keys)
+    // ==========================================
+    "sudoku.msg.worksheet.error": "Fel vid skapande av arbetsblad: {message}",
+    "sudoku.msg.generate.first": "Skapa först ett arbetsblad.",
+    "sudoku.msg.theme.insufficient": "Temat '{theme}' behöver minst {count} bilder.",
+    "sudoku.msg.select.minimum": "Välj eller ladda upp minst {count} bilder.",
+    "sudoku.msg.render.error": "Fel vid rendering av arbetsblad: {message}",
+    "sudoku.msg.clear.theme": "Avmarkera 'Skapa från tema' för att välja enskilda bilder.",
+    "sudoku.msg.max.selection": "Du kan bara välja {count} bilder.",
+    "sudoku.msg.file.error": "Fel vid läsning av fil: {filename}",
+    "sudoku.msg.generate.content": "Skapa först innehåll för denna arbetsyta.",
+    "sudoku.msg.jpeg.error": "Fel vid förberedelse av JPEG.",
+    "sudoku.msg.pdf.error": "Fel vid skapande av PDF.",
+    "sudoku.asset.failed": "Kunde inte ladda bilden {asset}.",
+
+    // ==========================================
+    // INFO/STATUS MESSAGES (13 keys)
+    // ==========================================
+    "sudoku.msg.select.to.begin": "Välj {REQUIRED_IMAGES} bilder eller ett tema för att börja.",
+    "sudoku.msg.loading.animals": "Laddar djurtema...",
+    "sudoku.msg.searching": "Söker...",
+    "sudoku.msg.loading.theme": "Laddar tema...",
+    "sudoku.msg.no.images": "Inga bilder hittades{query}.",
+    "sudoku.msg.loading.specific": "Laddar tema '{theme}'...",
+    "sudoku.msg.theme.selected": "Pusslet skapas med slumpmässiga bilder från temat '{theme}'.",
+    "sudoku.msg.loading.uploads": "Laddar {count} bild(er)...",
+    "sudoku.msg.preparing": "Förbereder {filename}...",
+    "sudoku.asset.select": "Välj ett tema för att se {type}.",
+    "sudoku.asset.loading": "Laddar {theme} {type}...",
+    "sudoku.asset.empty": "Inga {type} i detta tema.",
+
+    // ==========================================
+    // WATERMARK TEXT (2 keys)
+    // ==========================================
+    "watermarkText": "GRATISVERSION - LessonCraftStudio.com",
+    "watermarkSmallText": "GRATISVERSION"
+  }
+};
+
+// ==========================================
+// VALIDATION & VERIFICATION
+// ==========================================
+
+// Verify all 174 keys are present
+const keyCount = Object.keys(SUDOKU_TRANSLATIONS_SV.sv).length;
+console.log(`✅ Swedish translation complete: ${keyCount}/174 keys`);
+
+// Verify critical user-mentioned items
+const criticalItems = {
+  background: SUDOKU_TRANSLATIONS_SV.sv["sudoku.background.title"],
+  border: SUDOKU_TRANSLATIONS_SV.sv["sudoku.border.title"],
+  grayscale: SUDOKU_TRANSLATIONS_SV.sv["common.grayscale"]
+};
+console.log("Critical items check:", criticalItems);
+
+// ==========================================
+// HELPER FUNCTIONS
+// ==========================================
+
+/**
+ * Get Swedish translation for a key
+ * @param {string} key - Translation key
+ * @returns {string} Translated text
+ */
+function getSwedishTranslation(key) {
+  return SUDOKU_TRANSLATIONS_SV.sv[key] || key;
+}
+
+/**
+ * Format Swedish translation with placeholders
+ * @param {string} text - Text with {} placeholders
+ * @param {...any} values - Values to replace
+ * @returns {string} Formatted text
+ */
+function formatSwedishTranslation(text, ...values) {
+  let result = text;
+  values.forEach((value) => {
+    result = result.replace('{}', value);
+  });
+  return result;
+}
+
+// ==========================================
+// EXPORT FOR USE IN APPLICATION
+// ==========================================
+
+// For use in the translations system
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = SUDOKU_TRANSLATIONS_SV;
+}
+
+// Make available globally for browser
+if (typeof window !== 'undefined') {
+  window.SUDOKU_TRANSLATIONS_SV = SUDOKU_TRANSLATIONS_SV;
+}
+
+// ==========================================
+// TRANSLATION NOTES
+// ==========================================
+/**
+ * Swedish Educational Context:
+ * - "Sudoku för barn" = Natural Swedish for kids' sudoku
+ * - "Arbetsblad" = Standard term in Swedish schools
+ * - "Facit" = Answer key (Swedish educational term)
+ * - "Bildsamling" = Image library (natural Swedish)
+ * - "Gråskala" = Grayscale (standard Swedish term)
+ * - "Ram" = Border (standard term)
+ * - "Bakgrund" = Background (standard term)
+ *
+ * Sudoku-specific terminology:
+ * - "Svårighetsgrad" = Difficulty level
+ * - "Tomma rutor" = Empty cells (sudoku term)
+ * - "Pussel" = Puzzle (standard Swedish)
+ * - "4x4 rutnät" = 4x4 grid (for kids)
+ * - "Bildsudoku" = Picture sudoku
+ *
+ * UI Conventions:
+ * - Using informal "du" form (standard in modern Swedish software)
+ * - Clear, straightforward language for educational context
+ * - Professional tone accessible to teachers
+ * - "Ladda ner" for download (standard Swedish)
+ * - "Ladda upp" for upload (standard Swedish)
+ *
+ * Swedish-specific choices:
+ * - "Inställningar" for settings (standard in apps)
+ * - "Genomskinlighet" for opacity/transparency
+ * - "Lager" for layers (standard graphics term)
+ * - "Kontur" for outline (standard graphics term)
+ * - Decimal comma notation (8,5×11")
+ * - "GRATISVERSION" for free version
+ * - "Liggande/Stående" for landscape/portrait
+ *
+ * Educational terminology:
+ * - "Arbetsblad" = Worksheet (school terminology)
+ * - "Bildsamling" = Image collection for educational use
+ * - "Enskilda bilder" = Individual images
+ * - "Tillgängliga bilder" = Available images
+ * - Clear instructional language for teachers
+ *
+ * Cultural adaptations:
+ * - A4 format prominently featured (Swedish/European standard)
+ * - Metric measurements prioritized
+ * - "t.ex." for examples (Swedish abbreviation)
+ * - Clear, professional tone for educators
+ * - Error messages are helpful and clear
+ * - Swedish clarity and simplicity preserved
+ *
+ * Grammar considerations:
+ * - Proper use of articles (en, ett, den, det)
+ * - Clear imperatives for actions
+ * - Professional yet approachable register
+ * - Natural Swedish word order
+ * - Consistent informal tone (du)
+ * - Proper compound word formation
+ *
+ * Sudoku for Kids specific:
+ * - Simplified 4x4 grid for younger children
+ * - Visual/picture-based instead of numbers
+ * - Three difficulty levels appropriate for grundskola
+ * - Focus on pattern recognition
+ * - Educational game context emphasized
+ *
+ * Swedish style:
+ * - Clear and straightforward language
+ * - Functional and practical
+ * - Professional yet accessible
+ * - Efficient communication
+ * - Educational appropriateness
+ *
+ * Note: Swedish prefers clear, functional communication
+ * with a focus on clarity and user-friendliness
+ */

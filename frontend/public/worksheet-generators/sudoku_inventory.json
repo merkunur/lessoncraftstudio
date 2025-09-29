@@ -1,0 +1,2166 @@
+{
+  "htmlTexts": [
+    {
+      "type": "html_element",
+      "text": "Sudoku Settings",
+      "tag": "h2",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "sudoku_settings",
+      "selector": "h2",
+      "context": {
+        "parent": "div",
+        "section": "Sudoku",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Select Language",
+      "tag": "h4",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "select_language",
+      "selector": "h4",
+      "context": {
+        "parent": "div",
+        "section": "Sudoku",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Page Setup",
+      "tag": "h4",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "page_setup",
+      "selector": "h4",
+      "context": {
+        "parent": "div",
+        "section": "Page & Scene",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Background",
+      "tag": "h4",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "background",
+      "selector": "h4",
+      "context": {
+        "parent": "div",
+        "section": "Page & Scene",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Border",
+      "tag": "h4",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "border",
+      "selector": "h4",
+      "context": {
+        "parent": "div",
+        "section": "Page & Scene",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Difficulty",
+      "tag": "h4",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "difficulty",
+      "selector": "h4",
+      "context": {
+        "parent": "div",
+        "section": "Sudoku for Kids",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Add New Text",
+      "tag": "h4",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "add_new_text",
+      "selector": "h4",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Selected Text Properties",
+      "tag": "h4",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "selected_text_properties",
+      "selector": "h4",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Image Source for Puzzle",
+      "tag": "h4",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "image_source_for_puzzle",
+      "selector": "h4",
+      "context": {
+        "parent": "div",
+        "section": "Image Library",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Individual Image Selection",
+      "tag": "h4",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "individual_image_selection",
+      "selector": "h4",
+      "context": {
+        "parent": "div",
+        "section": "Image Library",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Image names and themes will be displayed in the selected language.",
+      "tag": "p",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "image_names_and_themes_will_be_displayed_in_the_se",
+      "selector": "p",
+      "context": {
+        "parent": "div",
+        "section": "Sudoku",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Select a theme for backgrounds.",
+      "tag": "p",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "select_a_theme_for_backgrounds",
+      "selector": "p.dictionary-message",
+      "context": {
+        "parent": "div",
+        "section": "Page & Scene",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Select a theme to see borders.",
+      "tag": "p",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "select_a_theme_to_see_borders",
+      "selector": "p.dictionary-message",
+      "context": {
+        "parent": "div",
+        "section": "Page & Scene",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Loading images...",
+      "tag": "p",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "loading_images",
+      "selector": "p.dictionary-message",
+      "context": {
+        "parent": "div",
+        "section": "Image Library",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Your uploaded images will appear here.",
+      "tag": "p",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "your_uploaded_images_will_appear_here",
+      "selector": "p.dictionary-message",
+      "context": {
+        "parent": "div",
+        "section": "Upload Custom Images",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Align Selected:",
+      "tag": "p",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "align_selected",
+      "selector": "p",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Align to Page:",
+      "tag": "p",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "align_to_page",
+      "selector": "p",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Language:",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "language",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Sudoku",
+        "formField": "Language:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Page Size:",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "page_size",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Page & Scene",
+        "formField": "Page Size:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Width (px):",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "width_px",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Page & Scene",
+        "formField": "Width (px):"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Height (px):",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "height_px",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Page & Scene",
+        "formField": "Height (px):"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Fallback Color:",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "fallback_color",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Page & Scene",
+        "formField": "Fallback Color:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Background Theme:",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "background_theme",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Page & Scene",
+        "formField": "Background Theme:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Background Opacity:",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "background_opacity",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Page & Scene",
+        "formField": "Background Opacity:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Border Theme:",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "border_theme",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Page & Scene",
+        "formField": "Border Theme:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Border Opacity:",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "border_opacity",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Page & Scene",
+        "formField": "Border Opacity:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Number of blank cells:",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "number_of_blank_cells",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Sudoku for Kids",
+        "formField": "Number of blank cells:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Content:",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "content",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": "Content:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Color:",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "color",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": "Color:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Size:",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "size",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": "Size:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Font:",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "font",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": "Font:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Outline Color:",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "outline_color",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": "Outline Color:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Outline (0-10):",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "outline_010",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": "Outline (0-10):"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Generate from Theme:",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "generate_from_theme",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Image Library",
+        "formField": "Generate from Theme:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Filter by Theme:",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "filter_by_theme",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Image Library",
+        "formField": "Filter by Theme:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Search Images:",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "search_images",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Image Library",
+        "formField": "Search Images:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Available Images (Requires 4):",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "available_images_requires_4",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Image Library",
+        "formField": "Available Images (Requires 4):"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Selected Images:",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "selected_images",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Image Library",
+        "formField": "Selected Images:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Select image(s) to upload:",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "select_images_to_upload",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Upload Custom Images",
+        "formField": "Select image(s) to upload:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Your Uploaded Images (This Session):",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "your_uploaded_images_this_session",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Upload Custom Images",
+        "formField": "Your Uploaded Images (This Session):"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Grayscale",
+      "tag": "label",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "grayscale",
+      "selector": "#grayscaleLabel",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": "\n                            Grayscale\n                        "
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Sudoku",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "sudoku",
+      "selector": "button.accordion-button.active",
+      "context": {
+        "parent": "div",
+        "section": "Sudoku",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Page & Scene",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "page_scene",
+      "selector": "button.accordion-button",
+      "context": {
+        "parent": "div",
+        "section": "Page & Scene",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Apply Size",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "apply_size",
+      "selector": "#setPageSizeBtn",
+      "context": {
+        "parent": "div",
+        "section": "Page & Scene",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Sudoku for Kids",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "sudoku_for_kids",
+      "selector": "button.accordion-button",
+      "context": {
+        "parent": "div",
+        "section": "Sudoku for Kids",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Text Tools",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "text_tools",
+      "selector": "button.accordion-button",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Add Text",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "add_text",
+      "selector": "#addTextBtn",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Image Library",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "image_library",
+      "selector": "button.accordion-button",
+      "context": {
+        "parent": "div",
+        "section": "Image Library",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Upload Custom Images",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "upload_custom_images",
+      "selector": "button.accordion-button",
+      "context": {
+        "parent": "div",
+        "section": "Upload Custom Images",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Bring Forward",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "bring_forward",
+      "selector": "#toolbarBringForwardBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Send Backward",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "send_backward",
+      "selector": "#toolbarSendBackwardBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Generate",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "generate",
+      "selector": "#generateDropdownBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Generate Worksheet",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "generate_worksheet",
+      "selector": "#generateWorksheetBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Generate Answer Key",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "generate_answer_key",
+      "selector": "#generateAnswerKeyBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Download",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "download",
+      "selector": "#downloadDropdownBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Worksheet (JPEG)",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "worksheet_jpeg",
+      "selector": "#downloadWorksheetJpegBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Answer Key (JPEG)",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "answer_key_jpeg",
+      "selector": "#downloadAnswerKeyJpegBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Worksheet (PDF)",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "worksheet_pdf",
+      "selector": "#downloadWorksheetPdfBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Answer Key (PDF)",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "answer_key_pdf",
+      "selector": "#downloadAnswerKeyPdfBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Clear All",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "clear_all",
+      "selector": "#clearBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Worksheet",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "worksheet",
+      "selector": "button.tab-button.active",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Answer Key",
+      "tag": "button",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "answer_key",
+      "selector": "button.tab-button",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "English",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "english",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Sudoku",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Deutsch (German)",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "deutsch_german",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Sudoku",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Français (French)",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "franais_french",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Sudoku",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Español (Spanish)",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "espaol_spanish",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Sudoku",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Português (Portuguese)",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "portugus_portuguese",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Sudoku",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Italiano (Italian)",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "italiano_italian",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Sudoku",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Nederlands (Dutch)",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "nederlands_dutch",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Sudoku",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Svenska (Swedish)",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "svenska_swedish",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Sudoku",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Dansk (Danish)",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "dansk_danish",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Sudoku",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Norsk (Norwegian)",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "norsk_norwegian",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Sudoku",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Suomi (Finnish)",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "suomi_finnish",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Sudoku",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Letter Landscape (11×8.5\")",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "letter_landscape_1185",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page & Scene",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Letter Portrait (8.5×11\")",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "letter_portrait_8511",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page & Scene",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "A4 Landscape (297×210mm)",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "a4_landscape_297210mm",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page & Scene",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "A4 Portrait (210×297mm)",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "a4_portrait_210297mm",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page & Scene",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Custom",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "custom",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page & Scene",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "None (Use Fallback Color)",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "none_use_fallback_color",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page & Scene",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "None",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "none",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page & Scene",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Easy (4 blanks)",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "easy_4_blanks",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Sudoku for Kids",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Medium (6 blanks)",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "medium_6_blanks",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Sudoku for Kids",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Hard (8 blanks)",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "hard_8_blanks",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Sudoku for Kids",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Lexend Deca",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "lexend_deca",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Baloo 2",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "baloo_2",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Nunito",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "nunito",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Quicksand",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "quicksand",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Fredoka",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "fredoka",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Arial",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "arial",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Verdana",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "verdana",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "-- Or Select Individual Images Below --",
+      "tag": "option",
+      "file": "sudoku.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "_or_select_individual_images_below_",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Image Library",
+        "formField": null
+      }
+    }
+  ],
+  "javascriptTexts": [
+    {
+      "type": "placeholder",
+      "text": "Title, Instructions...",
+      "file": "sudoku.html",
+      "hasTranslation": false,
+      "translationKey": "title_instructions"
+    },
+    {
+      "type": "placeholder",
+      "text": "e.g., apple, car",
+      "file": "sudoku.html",
+      "hasTranslation": false,
+      "translationKey": "eg_apple_car"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Layers",
+      "file": "sudoku.html",
+      "hasTranslation": false,
+      "translationKey": "layers"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Align",
+      "file": "sudoku.html",
+      "hasTranslation": false,
+      "translationKey": "align"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Align Left",
+      "file": "sudoku.html",
+      "hasTranslation": false,
+      "translationKey": "align_left"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Center Horizontally",
+      "file": "sudoku.html",
+      "hasTranslation": false,
+      "translationKey": "center_horizontally"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Align Right",
+      "file": "sudoku.html",
+      "hasTranslation": false,
+      "translationKey": "align_right"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Align Top",
+      "file": "sudoku.html",
+      "hasTranslation": false,
+      "translationKey": "align_top"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Center Vertically",
+      "file": "sudoku.html",
+      "hasTranslation": false,
+      "translationKey": "center_vertically"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Align Bottom",
+      "file": "sudoku.html",
+      "hasTranslation": false,
+      "translationKey": "align_bottom"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Center on Page Horizontally",
+      "file": "sudoku.html",
+      "hasTranslation": false,
+      "translationKey": "center_on_page_horizontally"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Center on Page Vertically",
+      "file": "sudoku.html",
+      "hasTranslation": false,
+      "translationKey": "center_on_page_vertically"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Delete Selected",
+      "file": "sudoku.html",
+      "hasTranslation": false,
+      "translationKey": "delete_selected"
+    },
+    {
+      "type": "javascript_string",
+      "text": "<option value=\"all\">All Themes</option>",
+      "file": "sudoku.html",
+      "line": 390,
+      "context": "innerHTML_assignment",
+      "translationKey": "option_valueallall_themesoption"
+    },
+    {
+      "type": "javascript_string",
+      "text": "<option value=\"\">-- Or Select Individual Images Below --</option>",
+      "file": "sudoku.html",
+      "line": 391,
+      "context": "innerHTML_assignment",
+      "translationKey": "option_value_or_select_individual_images_below_opt"
+    },
+    {
+      "type": "ui_message",
+      "text": "Worksheet generated successfully!",
+      "file": "sudoku.html",
+      "line": 517,
+      "function": "showMessage",
+      "translationKey": "worksheet_generated_successfully",
+      "context": "UI Message"
+    },
+    {
+      "type": "javascript_string",
+      "text": "Worksheet generated successfully!",
+      "file": "sudoku.html",
+      "line": 517,
+      "context": "showMessage_call",
+      "translationKey": "worksheet_generated_successfully"
+    },
+    {
+      "type": "ui_message",
+      "text": "Please generate a worksheet first.",
+      "file": "sudoku.html",
+      "line": 529,
+      "function": "showMessage",
+      "translationKey": "please_generate_a_worksheet_first",
+      "context": "UI Message"
+    },
+    {
+      "type": "javascript_string",
+      "text": "Please generate a worksheet first.",
+      "file": "sudoku.html",
+      "line": 529,
+      "context": "showMessage_call",
+      "translationKey": "please_generate_a_worksheet_first"
+    },
+    {
+      "type": "ui_message",
+      "text": "Answer key generated!",
+      "file": "sudoku.html",
+      "line": 534,
+      "function": "showMessage",
+      "translationKey": "answer_key_generated",
+      "context": "UI Message"
+    },
+    {
+      "type": "javascript_string",
+      "text": "Answer key generated!",
+      "file": "sudoku.html",
+      "line": 534,
+      "context": "showMessage_call",
+      "translationKey": "answer_key_generated"
+    },
+    {
+      "type": "ui_message",
+      "text": "Clear 'Generate from Theme' to select individual images.",
+      "file": "sudoku.html",
+      "line": 1200,
+      "function": "showMessage",
+      "translationKey": "clear_generate_from_theme_to_select_individual_ima",
+      "context": "UI Message"
+    },
+    {
+      "type": "javascript_string",
+      "text": "Clear 'Generate from Theme' to select individual images.",
+      "file": "sudoku.html",
+      "line": 1200,
+      "context": "showMessage_call",
+      "translationKey": "clear_generate_from_theme_to_select_individual_ima"
+    },
+    {
+      "type": "javascript_string",
+      "text": "<p class=\"dictionary-message\">Select a theme to see borders.</p>",
+      "file": "sudoku.html",
+      "line": 1387,
+      "context": "innerHTML_assignment",
+      "translationKey": "p_classdictionarymessageselect_a_theme_to_see_bord"
+    },
+    {
+      "type": "javascript_string",
+      "text": "<p class=\"dictionary-message\">Select a theme for backgrounds.</p>",
+      "file": "sudoku.html",
+      "line": 1389,
+      "context": "innerHTML_assignment",
+      "translationKey": "p_classdictionarymessageselect_a_theme_for_backgro"
+    },
+    {
+      "type": "ui_message",
+      "text": "All settings cleared.",
+      "file": "sudoku.html",
+      "line": 1404,
+      "function": "showMessage",
+      "translationKey": "all_settings_cleared",
+      "context": "UI Message"
+    },
+    {
+      "type": "javascript_string",
+      "text": "All settings cleared.",
+      "file": "sudoku.html",
+      "line": 1404,
+      "context": "showMessage_call",
+      "translationKey": "all_settings_cleared"
+    },
+    {
+      "type": "ui_message",
+      "text": "Please generate content for this canvas first.",
+      "file": "sudoku.html",
+      "line": 1460,
+      "function": "showMessage",
+      "translationKey": "please_generate_content_for_this_canvas_first",
+      "context": "UI Message"
+    },
+    {
+      "type": "javascript_string",
+      "text": "Please generate content for this canvas first.",
+      "file": "sudoku.html",
+      "line": 1460,
+      "context": "showMessage_call",
+      "translationKey": "please_generate_content_for_this_canvas_first"
+    },
+    {
+      "type": "ui_message",
+      "text": "Download initiated!",
+      "file": "sudoku.html",
+      "line": 1470,
+      "function": "showMessage",
+      "translationKey": "download_initiated",
+      "context": "UI Message"
+    },
+    {
+      "type": "javascript_string",
+      "text": "Download initiated!",
+      "file": "sudoku.html",
+      "line": 1470,
+      "context": "showMessage_call",
+      "translationKey": "download_initiated"
+    },
+    {
+      "type": "ui_message",
+      "text": "Error preparing JPEG.",
+      "file": "sudoku.html",
+      "line": 1471,
+      "function": "showMessage",
+      "translationKey": "error_preparing_jpeg",
+      "context": "UI Message"
+    },
+    {
+      "type": "javascript_string",
+      "text": "Error preparing JPEG.",
+      "file": "sudoku.html",
+      "line": 1471,
+      "context": "showMessage_call",
+      "translationKey": "error_preparing_jpeg"
+    },
+    {
+      "type": "ui_message",
+      "text": "PDF downloaded!",
+      "file": "sudoku.html",
+      "line": 1487,
+      "function": "showMessage",
+      "translationKey": "pdf_downloaded",
+      "context": "UI Message"
+    },
+    {
+      "type": "javascript_string",
+      "text": "PDF downloaded!",
+      "file": "sudoku.html",
+      "line": 1487,
+      "context": "showMessage_call",
+      "translationKey": "pdf_downloaded"
+    },
+    {
+      "type": "ui_message",
+      "text": "Error creating PDF.",
+      "file": "sudoku.html",
+      "line": 1488,
+      "function": "showMessage",
+      "translationKey": "error_creating_pdf",
+      "context": "UI Message"
+    },
+    {
+      "type": "javascript_string",
+      "text": "Error creating PDF.",
+      "file": "sudoku.html",
+      "line": 1488,
+      "context": "showMessage_call",
+      "translationKey": "error_creating_pdf"
+    },
+    {
+      "type": "javascript_string",
+      "text": "<p class=\"dictionary-message\">Select a theme to see backgrounds.</p>",
+      "file": "sudoku.html",
+      "line": 1759,
+      "context": "innerHTML_assignment",
+      "translationKey": "p_classdictionarymessageselect_a_theme_to_see_back"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "type": "template_with_placeholders",
+      "text": "Select ",
+      "file": "sudoku.html",
+      "line": 133,
+      "hasPlaceholders": true,
+      "translationKey": "select_",
+      "context": "showMessage()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": " images or a theme to begin.",
+      "file": "sudoku.html",
+      "line": 133,
+      "hasPlaceholders": true,
+      "translationKey": "_images_or_a_theme_to_begin",
+      "context": "showMessage()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "/api/themes-translated?locale=",
+      "file": "sudoku.html",
+      "line": 386,
+      "hasPlaceholders": true,
+      "translationKey": "apithemestranslatedlocale",
+      "context": "fetch()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "<option value=\"",
+      "file": "sudoku.html",
+      "line": 396,
+      "hasPlaceholders": true,
+      "translationKey": "option_value",
+      "context": "var optionHtml"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "</option>",
+      "file": "sudoku.html",
+      "line": 396,
+      "hasPlaceholders": true,
+      "translationKey": "option",
+      "context": "var optionHtml"
+    },
+    {
+      "type": "template_literal",
+      "text": "<p class=\"dictionary-message\">Loading animals theme...</p>",
+      "file": "sudoku.html",
+      "line": 421,
+      "hasPlaceholders": false,
+      "translationKey": "p_classdictionarymessageloading_animals_themep",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "/api/images?theme=animals&locale=",
+      "file": "sudoku.html",
+      "line": 422,
+      "hasPlaceholders": true,
+      "translationKey": "apiimagesthemeanimalslocale",
+      "context": "fetch()"
+    },
+    {
+      "type": "template_literal",
+      "text": "Failed to load animals theme",
+      "file": "sudoku.html",
+      "line": 423,
+      "hasPlaceholders": false,
+      "translationKey": "failed_to_load_animals_theme",
+      "context": ""
+    },
+    {
+      "type": "template_literal",
+      "text": "<p class=\"dictionary-message\">Searching...</p>",
+      "file": "sudoku.html",
+      "line": 427,
+      "hasPlaceholders": false,
+      "translationKey": "p_classdictionarymessagesearchingp",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "/api/images?search=",
+      "file": "sudoku.html",
+      "line": 428,
+      "hasPlaceholders": true,
+      "translationKey": "apiimagessearch",
+      "context": "fetch()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "&locale=",
+      "file": "sudoku.html",
+      "line": 428,
+      "hasPlaceholders": true,
+      "translationKey": "locale",
+      "context": "fetch()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "Failed to search for \"",
+      "file": "sudoku.html",
+      "line": 429,
+      "hasPlaceholders": true,
+      "translationKey": "failed_to_search_for_",
+      "context": ""
+    },
+    {
+      "type": "template_literal",
+      "text": "<p class=\"dictionary-message\">Loading theme...</p>",
+      "file": "sudoku.html",
+      "line": 435,
+      "hasPlaceholders": false,
+      "translationKey": "p_classdictionarymessageloading_themep",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "/api/images?theme=",
+      "file": "sudoku.html",
+      "line": 436,
+      "hasPlaceholders": true,
+      "translationKey": "apiimagestheme",
+      "context": "fetch()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "Failed to load theme: ",
+      "file": "sudoku.html",
+      "line": 437,
+      "hasPlaceholders": true,
+      "translationKey": "failed_to_load_theme_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "<p class=\"dictionary-message\">",
+      "file": "sudoku.html",
+      "line": 449,
+      "hasPlaceholders": true,
+      "translationKey": "p_classdictionarymessage",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "<p class=\"dictionary-message\">No images found",
+      "file": "sudoku.html",
+      "line": 454,
+      "hasPlaceholders": true,
+      "translationKey": "p_classdictionarymessageno_images_found",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": " matching \"",
+      "file": "sudoku.html",
+      "line": 454,
+      "hasPlaceholders": true,
+      "translationKey": "_matching_",
+      "context": ""
+    },
+    {
+      "type": "template_literal",
+      "text": "<p class=\"dictionary-message\">Your uploaded images will appear here.</p>",
+      "file": "sudoku.html",
+      "line": 469,
+      "hasPlaceholders": false,
+      "translationKey": "p_classdictionarymessageyour_uploaded_images_will_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "<img src=\"",
+      "file": "sudoku.html",
+      "line": 484,
+      "hasPlaceholders": true,
+      "translationKey": "img_src",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "\" alt=\"",
+      "file": "sudoku.html",
+      "line": 484,
+      "hasPlaceholders": true,
+      "translationKey": "_alt",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "\" title=\"",
+      "file": "sudoku.html",
+      "line": 484,
+      "hasPlaceholders": true,
+      "translationKey": "_title",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "\" crossOrigin=\"anonymous\" alt=\"",
+      "file": "sudoku.html",
+      "line": 497,
+      "hasPlaceholders": true,
+      "translationKey": "_crossoriginanonymous_alt",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "\" loading=\"lazy\"/><span>",
+      "file": "sudoku.html",
+      "line": 497,
+      "hasPlaceholders": true,
+      "translationKey": "_loadinglazyspan",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "</span>",
+      "file": "sudoku.html",
+      "line": 497,
+      "hasPlaceholders": true,
+      "translationKey": "span",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "Loading theme '",
+      "file": "sudoku.html",
+      "line": 545,
+      "hasPlaceholders": true,
+      "translationKey": "loading_theme_",
+      "context": "showMessage()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "Theme '",
+      "file": "sudoku.html",
+      "line": 557,
+      "hasPlaceholders": true,
+      "translationKey": "theme_",
+      "context": "showMessage()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "' needs at least ",
+      "file": "sudoku.html",
+      "line": 557,
+      "hasPlaceholders": true,
+      "translationKey": "_needs_at_least_",
+      "context": "showMessage()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": " images.",
+      "file": "sudoku.html",
+      "line": 557,
+      "hasPlaceholders": true,
+      "translationKey": "_images",
+      "context": "showMessage()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "Please select or upload at least ",
+      "file": "sudoku.html",
+      "line": 564,
+      "hasPlaceholders": true,
+      "translationKey": "please_select_or_upload_at_least_",
+      "context": "showMessage()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "rgba(100, 120, 160, ",
+      "file": "sudoku.html",
+      "line": 853,
+      "hasPlaceholders": true,
+      "translationKey": "rgba100_120_160_",
+      "context": "{fill: ...}"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "You can only select ",
+      "file": "sudoku.html",
+      "line": 1208,
+      "hasPlaceholders": true,
+      "translationKey": "you_can_only_select_",
+      "context": "showMessage()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "Puzzle will generate using random images from the '",
+      "file": "sudoku.html",
+      "line": 1225,
+      "hasPlaceholders": true,
+      "translationKey": "puzzle_will_generate_using_random_images_from_the_",
+      "context": "showMessage()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "' theme.",
+      "file": "sudoku.html",
+      "line": 1225,
+      "hasPlaceholders": true,
+      "translationKey": "_theme",
+      "context": "showMessage()"
+    },
+    {
+      "type": "template_literal",
+      "text": "Switched to individual image selection mode.",
+      "file": "sudoku.html",
+      "line": 1227,
+      "hasPlaceholders": false,
+      "translationKey": "switched_to_individual_image_selection_mode",
+      "context": "showMessage()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "<p class='dictionary-message'>Loading ",
+      "file": "sudoku.html",
+      "line": 1238,
+      "hasPlaceholders": true,
+      "translationKey": "p_classdictionarymessageloading_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": " image(s)...</p>",
+      "file": "sudoku.html",
+      "line": 1238,
+      "hasPlaceholders": true,
+      "translationKey": "_imagesp",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": " custom image(s) available. Click them to select.",
+      "file": "sudoku.html",
+      "line": 1251,
+      "hasPlaceholders": true,
+      "translationKey": "_custom_images_available_click_them_to_select",
+      "context": "showMessage()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "Error reading file: ",
+      "file": "sudoku.html",
+      "line": 1256,
+      "hasPlaceholders": true,
+      "translationKey": "error_reading_file_",
+      "context": "showMessage()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "Preparing ",
+      "file": "sudoku.html",
+      "line": 1462,
+      "hasPlaceholders": true,
+      "translationKey": "preparing_",
+      "context": "showMessage()"
+    },
+    {
+      "type": "template_literal",
+      "text": "<option value=\"none\">None</option>",
+      "file": "sudoku.html",
+      "line": 1552,
+      "hasPlaceholders": false,
+      "translationKey": "option_valuenonenoneoption",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "/api/",
+      "file": "sudoku.html",
+      "line": 1553,
+      "hasPlaceholders": true,
+      "translationKey": "api",
+      "context": "fetch()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "/themes",
+      "file": "sudoku.html",
+      "line": 1553,
+      "hasPlaceholders": true,
+      "translationKey": "themes",
+      "context": "fetch()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "Failed to load ",
+      "file": "sudoku.html",
+      "line": 1555,
+      "hasPlaceholders": true,
+      "translationKey": "failed_to_load_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "Error loading ",
+      "file": "sudoku.html",
+      "line": 1564,
+      "hasPlaceholders": true,
+      "translationKey": "error_loading_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": " themes:",
+      "file": "sudoku.html",
+      "line": 1564,
+      "hasPlaceholders": true,
+      "translationKey": "_themes",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "<p class=\"dictionary-message\">Select a theme to see ",
+      "file": "sudoku.html",
+      "line": 1581,
+      "hasPlaceholders": true,
+      "translationKey": "p_classdictionarymessageselect_a_theme_to_see_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "<p class=\"dictionary-message\">Loading ",
+      "file": "sudoku.html",
+      "line": 1593,
+      "hasPlaceholders": true,
+      "translationKey": "p_classdictionarymessageloading_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "/images?theme=",
+      "file": "sudoku.html",
+      "line": 1594,
+      "hasPlaceholders": true,
+      "translationKey": "imagestheme",
+      "context": "fetch()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "<p class=\"dictionary-message\">No ",
+      "file": "sudoku.html",
+      "line": 1600,
+      "hasPlaceholders": true,
+      "translationKey": "p_classdictionarymessageno_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": " in this theme.</p>",
+      "file": "sudoku.html",
+      "line": 1600,
+      "hasPlaceholders": true,
+      "translationKey": "_in_this_themep",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "\" loading=\"lazy\" />",
+      "file": "sudoku.html",
+      "line": 1606,
+      "hasPlaceholders": true,
+      "translationKey": "_loadinglazy_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": " image.",
+      "file": "sudoku.html",
+      "line": 1640,
+      "hasPlaceholders": true,
+      "translationKey": "_image",
+      "context": "showMessage()"
+    }
+  ],
+  "browserControlled": [],
+  "metadata": {
+    "extractedAt": "2025-09-23T22:12:02.183Z",
+    "version": "1.0.0",
+    "totalTexts": 182
+  },
+  "summary": {
+    "htmlTexts": 91,
+    "javascriptTexts": 38,
+    "dynamicTexts": 53,
+    "browserControlled": 0,
+    "totalTexts": 182,
+    "withTranslations": 1,
+    "withoutTranslations": 90
+  }
+}

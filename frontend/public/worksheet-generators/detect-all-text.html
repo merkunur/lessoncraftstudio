@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Text Detection System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #1a1a1a;
+            color: #e0e0e0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: white;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: rgba(255,255,255,0.9);
+            font-size: 1.1em;
+        }
+
+        .controls {
+            background: #2a2a2a;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        button {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background: #5a67d8;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        button:disabled {
+            background: #444;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .status {
+            padding: 10px 20px;
+            background: #333;
+            border-radius: 6px;
+            flex: 1;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .panel {
+            background: #2a2a2a;
+            border-radius: 10px;
+            padding: 20px;
+            max-height: 70vh;
+            overflow-y: auto;
+        }
+
+        .panel h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .stat-card {
+            background: #333;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2em;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            color: #999;
+            margin-top: 5px;
+        }
+
+        .text-list {
+            max-height: 500px;
+            overflow-y: auto;
+            background: #1a1a1a;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        .text-item {
+            background: #333;
+            margin-bottom: 10px;
+            padding: 12px;
+            border-radius: 6px;
+            border-left: 3px solid #667eea;
+            display: grid;
+            gap: 8px;
+        }
+
+        .text-content {
+            color: #fff;
+            font-size: 1.1em;
+            word-break: break-word;
+        }
+
+        .text-source {
+            color: #888;
+            font-size: 0.85em;
+        }
+
+        .text-status {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .badge {
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            font-weight: 600;
+        }
+
+        .badge-translated {
+            background: #22c55e;
+            color: white;
+        }
+
+        .badge-missing {
+            background: #ef4444;
+            color: white;
+        }
+
+        .badge-source {
+            background: #444;
+            color: #aaa;
+        }
+
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            color: #999;
+        }
+
+        .spinner {
+            border: 3px solid #333;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin-right: 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            border-radius: 8px;
+            background: white;
+        }
+
+        .filter-section {
+            background: #333;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .filter-section label {
+            margin-right: 10px;
+        }
+
+        .filter-section input, .filter-section select {
+            background: #1a1a1a;
+            border: 1px solid #444;
+            color: #e0e0e0;
+            padding: 8px 12px;
+            border-radius: 4px;
+            margin-right: 10px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 6px;
+            background: #333;
+            border-radius: 3px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            transition: width 0.3s ease;
+        }
+
+        #exportSection {
+            background: #333;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        #exportSection textarea {
+            width: 100%;
+            height: 200px;
+            background: #1a1a1a;
+            border: 1px solid #444;
+            color: #e0e0e0;
+            padding: 10px;
+            border-radius: 4px;
+            font-family: 'Monaco', 'Menlo', monospace;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 UI Text Detection System</h1>
+            <div class="subtitle">Professional solution for detecting ALL translatable text in web applications</div>
+        </header>
+
+        <div class="controls">
+            <button id="loadAppBtn">Load Wordsearch App</button>
+            <button id="detectBtn" disabled>Start Detection</button>
+            <button id="exportBtn" disabled>Export for Translation</button>
+            <button id="compareBtn" disabled>Compare with Existing</button>
+            <div class="status" id="status">Ready to start...</div>
+        </div>
+
+        <div class="main-content">
+            <div class="panel">
+                <h2>Detection Results</h2>
+
+                <div class="stats">
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalTexts">0</div>
+                        <div class="stat-label">Total Texts</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="translatedTexts">0</div>
+                        <div class="stat-label">Translated</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="missingTexts">0</div>
+                        <div class="stat-label">Missing</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="coverage">0%</div>
+                        <div class="stat-label">Coverage</div>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <label>Filter:</label>
+                    <select id="filterType">
+                        <option value="all">All Texts</option>
+                        <option value="missing">Missing Translations</option>
+                        <option value="translated">Already Translated</option>
+                    </select>
+                    <input type="text" id="searchText" placeholder="Search text...">
+                </div>
+
+                <div id="textList" class="text-list">
+                    <div class="loading">
+                        Click "Load App" then "Start Detection" to begin
+                    </div>
+                </div>
+
+                <div id="exportSection" style="display: none;">
+                    <h3>Export Data</h3>
+                    <textarea id="exportData" readonly></textarea>
+                    <button id="copyBtn">Copy to Clipboard</button>
+                    <button id="downloadBtn">Download JSON</button>
+                </div>
+            </div>
+
+            <div class="panel">
+                <h2>Live App Preview</h2>
+                <iframe id="appFrame" style="display: none;"></iframe>
+                <div id="framePlaceholder" class="loading">
+                    Click "Load Wordsearch App" to preview
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/translations.js"></script>
+    <script src="js/ui-text-detector.js"></script>
+    <script>
+        const detector = {
+            currentApp: null,
+            detectedData: null,
+            existingTranslations: typeof translations !== 'undefined' ? translations : {},
+
+            init() {
+                this.setupEventListeners();
+                this.updateStatus('Ready to detect UI text');
+            },
+
+            setupEventListeners() {
+                document.getElementById('loadAppBtn').addEventListener('click', () => this.loadApp());
+                document.getElementById('detectBtn').addEventListener('click', () => this.startDetection());
+                document.getElementById('exportBtn').addEventListener('click', () => this.exportData());
+                document.getElementById('compareBtn').addEventListener('click', () => this.compareTranslations());
+                document.getElementById('filterType').addEventListener('change', () => this.filterResults());
+                document.getElementById('searchText').addEventListener('input', () => this.filterResults());
+                document.getElementById('copyBtn').addEventListener('click', () => this.copyToClipboard());
+                document.getElementById('downloadBtn').addEventListener('click', () => this.downloadJSON());
+            },
+
+            loadApp() {
+                const frame = document.getElementById('appFrame');
+                const placeholder = document.getElementById('framePlaceholder');
+
+                this.updateStatus('Loading Wordsearch app...');
+
+                frame.src = '/worksheet-generators/wordsearch.html';
+                frame.style.display = 'block';
+                placeholder.style.display = 'none';
+
+                frame.onload = () => {
+                    this.currentApp = frame.contentWindow;
+                    document.getElementById('detectBtn').disabled = false;
+                    this.updateStatus('App loaded. Ready to detect text.');
+
+                    // Inject the detector script into the iframe
+                    const script = frame.contentDocument.createElement('script');
+                    script.src = 'js/ui-text-detector.js';
+                    frame.contentDocument.head.appendChild(script);
+                };
+            },
+
+            async startDetection() {
+                if (!this.currentApp) {
+                    alert('Please load the app first');
+                    return;
+                }
+
+                this.updateStatus('Detection in progress...');
+                document.getElementById('detectBtn').disabled = true;
+
+                try {
+                    // Initialize detector in the iframe
+                    if (!this.currentApp.uiTextDetector) {
+                        this.currentApp.uiTextDetector = new this.currentApp.UITextDetector();
+                    }
+
+                    const detector = this.currentApp.uiTextDetector;
+                    detector.start();
+
+                    // Wait for dynamic content
+                    await new Promise(resolve => setTimeout(resolve, 2000));
+
+                    // Trigger UI interactions to reveal hidden text
+                    const doc = this.currentApp.document;
+
+                    // Click all accordion buttons to reveal content
+                    doc.querySelectorAll('.accordion-button').forEach(btn => {
+                        btn.click();
+                    });
+
+                    // Trigger dropdowns
+                    doc.querySelectorAll('select').forEach(select => {
+                        const event = new Event('focus', { bubbles: true });
+                        select.dispatchEvent(event);
+                    });
+
+                    // Hover over elements with tooltips
+                    doc.querySelectorAll('[title], [data-tooltip]').forEach(el => {
+                        const event = new MouseEvent('mouseover', { bubbles: true });
+                        el.dispatchEvent(event);
+                    });
+
+                    // Wait for any animations
+                    await new Promise(resolve => setTimeout(resolve, 1000));
+
+                    // Get results
+                    this.detectedData = detector.getDetectedTexts();
+
+                    // Display results
+                    this.displayResults();
+
+                    document.getElementById('exportBtn').disabled = false;
+                    document.getElementById('compareBtn').disabled = false;
+
+                    this.updateStatus(`Detection complete! Found ${this.detectedData.length} unique texts`);
+
+                } catch (error) {
+                    console.error('Detection error:', error);
+                    this.updateStatus('Detection failed: ' + error.message);
+                } finally {
+                    document.getElementById('detectBtn').disabled = false;
+                }
+            },
+
+            displayResults() {
+                if (!this.detectedData) return;
+
+                const totalTexts = this.detectedData.length;
+                const germanTranslations = this.existingTranslations.de || {};
+
+                let translated = 0;
+                let missing = 0;
+
+                // Analyze each detected text
+                const results = this.detectedData.map(item => {
+                    // Check if translation exists
+                    let isTranslated = false;
+                    let translationKey = null;
+
+                    // Check if this exact text exists in German translations
+                    Object.entries(germanTranslations).forEach(([key, value]) => {
+                        if (value === item.text || this.existingTranslations.en[key] === item.text) {
+                            isTranslated = true;
+                            translationKey = key;
+                        }
+                    });
+
+                    if (isTranslated) {
+                        translated++;
+                    } else {
+                        missing++;
+                    }
+
+                    return {
+                        ...item,
+                        isTranslated,
+                        translationKey
+                    };
+                });
+
+                // Update stats
+                document.getElementById('totalTexts').textContent = totalTexts;
+                document.getElementById('translatedTexts').textContent = translated;
+                document.getElementById('missingTexts').textContent = missing;
+                document.getElementById('coverage').textContent =
+                    Math.round((translated / totalTexts) * 100) + '%';
+
+                // Store results for filtering
+                this.allResults = results;
+                this.filterResults();
+            },
+
+            filterResults() {
+                if (!this.allResults) return;
+
+                const filterType = document.getElementById('filterType').value;
+                const searchText = document.getElementById('searchText').value.toLowerCase();
+
+                let filtered = this.allResults;
+
+                // Filter by type
+                if (filterType === 'missing') {
+                    filtered = filtered.filter(item => !item.isTranslated);
+                } else if (filterType === 'translated') {
+                    filtered = filtered.filter(item => item.isTranslated);
+                }
+
+                // Filter by search
+                if (searchText) {
+                    filtered = filtered.filter(item =>
+                        item.text.toLowerCase().includes(searchText)
+                    );
+                }
+
+                // Display filtered results
+                const listContainer = document.getElementById('textList');
+                listContainer.innerHTML = '';
+
+                if (filtered.length === 0) {
+                    listContainer.innerHTML = '<div class="loading">No texts found matching criteria</div>';
+                    return;
+                }
+
+                filtered.forEach(item => {
+                    const div = document.createElement('div');
+                    div.className = 'text-item';
+
+                    div.innerHTML = `
+                        <div class="text-content">"${item.text}"</div>
+                        <div class="text-status">
+                            <span class="badge ${item.isTranslated ? 'badge-translated' : 'badge-missing'}">
+                                ${item.isTranslated ? 'Translated' : 'Missing'}
+                            </span>
+                            ${item.sources.map(s => `<span class="badge badge-source">${s}</span>`).join('')}
+                        </div>
+                        ${item.translationKey ? `<div class="text-source">Key: ${item.translationKey}</div>` : ''}
+                    `;
+
+                    listContainer.appendChild(div);
+                });
+            },
+
+            exportData() {
+                if (!this.detectedData) return;
+
+                const exportObj = {};
+
+                // Only export missing translations
+                this.detectedData.forEach(item => {
+                    if (!item.isTranslated) {
+                        const key = this.generateKey(item.text);
+                        exportObj[key] = {
+                            en: item.text,
+                            de: `[TRANSLATE] ${item.text}`,
+                            sources: item.sources
+                        };
+                    }
+                });
+
+                const exportText = JSON.stringify(exportObj, null, 2);
+                document.getElementById('exportData').value = exportText;
+                document.getElementById('exportSection').style.display = 'block';
+
+                this.updateStatus(`Ready to export ${Object.keys(exportObj).length} missing translations`);
+            },
+
+            generateKey(text) {
+                return text
+                    .toLowerCase()
+                    .replace(/[^a-z0-9\s]/g, '')
+                    .replace(/\s+/g, '_')
+                    .substring(0, 50);
+            },
+
+            copyToClipboard() {
+                const textarea = document.getElementById('exportData');
+                textarea.select();
+                document.execCommand('copy');
+                this.updateStatus('Copied to clipboard!');
+            },
+
+            downloadJSON() {
+                const data = document.getElementById('exportData').value;
+                const blob = new Blob([data], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `missing-translations-${Date.now()}.json`;
+                a.click();
+                URL.revokeObjectURL(url);
+            },
+
+            compareTranslations() {
+                // Compare with existing translations
+                this.updateStatus('Comparing with existing translations...');
+                this.displayResults();
+            },
+
+            updateStatus(message) {
+                document.getElementById('status').textContent = message;
+            }
+        };
+
+        // Initialize when DOM is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            detector.init();
+        });
+    </script>
+</body>
+</html>

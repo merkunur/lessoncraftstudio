@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Translation Diagnostics</title>
+    <style>
+        body { font-family: monospace; padding: 20px; }
+        .section { margin: 20px 0; padding: 10px; border: 1px solid #ccc; }
+        .success { background: #d4edda; }
+        .error { background: #f8d7da; }
+        .warning { background: #fff3cd; }
+        pre { background: #f5f5f5; padding: 10px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>Translation System Diagnostics</h1>
+
+    <div class="section">
+        <h2>1. Load Wordsearch and Check</h2>
+        <button onclick="loadAndCheck()">Load Wordsearch</button>
+        <button onclick="checkGerman()">Check German</button>
+    </div>
+
+    <div id="results"></div>
+
+    <iframe id="testFrame" style="display:none"></iframe>
+
+    <script>
+        function loadAndCheck() {
+            const results = document.getElementById('results');
+            results.innerHTML = '<h3>Loading wordsearch.html...</h3>';
+
+            const iframe = document.getElementById('testFrame');
+            iframe.src = '/worksheet-generators/wordsearch.html';
+
+            iframe.onload = () => {
+                setTimeout(() => {
+                    const iframeWindow = iframe.contentWindow;
+                    const iframeDoc = iframe.contentDocument;
+
+                    let report = '<div class="section">';
+
+                    // Check what exists
+                    report += '<h3>System Check:</h3><pre>';
+                    report += `currentLocale: ${iframeWindow.currentLocale}\n`;
+                    report += `translations object exists: ${typeof iframeWindow.translations !== 'undefined'}\n`;
+                    report += `translateAllElements exists: ${typeof iframeWindow.translateAllElements === 'function'}\n`;
+                    report += `applyTranslations exists: ${typeof iframeWindow.applyTranslations === 'function'}\n`;
+                    report += `translatePage exists: ${typeof iframeWindow.translatePage === 'function'}\n`;
+                    report += `worksheetTranslationSystem exists: ${typeof iframeWindow.worksheetTranslationSystem !== 'undefined'}\n`;
+                    report += '</pre>';
+
+                    // Check data-translate elements
+                    const elementsWithTranslate = iframeDoc.querySelectorAll('[data-translate]');
+                    report += `<h3>Elements with data-translate: ${elementsWithTranslate.length}</h3>`;
+
+                    // Check first 10 elements
+                    report += '<h4>First 10 elements:</h4><pre>';
+                    let count = 0;
+                    elementsWithTranslate.forEach(el => {
+                        if (count < 10) {
+                            const key = el.getAttribute('data-translate');
+                            const text = el.textContent || el.value || el.placeholder || '';
+                            report += `${key}: "${text}"\n`;
+                            count++;
+                        }
+                    });
+                    report += '</pre>';
+
+                    // Check if translations exist for these keys
+                    if (iframeWindow.translations) {
+                        report += '<h4>Translation keys available:</h4><pre>';
+                        const enKeys = Object.keys(iframeWindow.translations.en || {}).length;
+                        const deKeys = Object.keys(iframeWindow.translations.de || {}).length;
+                        report += `English keys: ${enKeys}\n`;
+                        report += `German keys: ${deKeys}\n`;
+
+                        // Check specific keys
+                        const testKeys = ['background', 'border', 'grayscale', 'background_heading', 'border_heading'];
+                        report += '\nTest key values:\n';
+                        testKeys.forEach(key => {
+                            const enVal = iframeWindow.translations.en?.[key];
+                            const deVal = iframeWindow.translations.de?.[key];
+                            report += `${key}: EN="${enVal}" DE="${deVal}"\n`;
+                        });
+                        report += '</pre>';
+                    }
+
+                    // Try to manually call translation functions
+                    report += '<h3>Manual Translation Test:</h3><pre>';
+                    try {
+                        if (typeof iframeWindow.translateAllElements === 'function') {
+                            iframeWindow.translateAllElements();
+                            report += 'Called translateAllElements() - SUCCESS\n';
+                        }
+                        if (typeof iframeWindow.applyTranslations === 'function') {
+                            iframeWindow.applyTranslations();
+                            report += 'Called applyTranslations() - SUCCESS\n';
+                        }
+                    } catch(e) {
+                        report += `Error calling translation functions: ${e.message}\n`;
+                    }
+                    report += '</pre>';
+
+                    // Check if text actually changed
+                    report += '<h3>Text Content Check:</h3><pre>';
+                    elementsWithTranslate.forEach(el => {
+                        if (count < 5) {
+                            const key = el.getAttribute('data-translate');
+                            const text = el.textContent || el.value || el.placeholder || '';
+                            if (key === 'background' || key === 'border') {
+                                report += `${key}: Current text = "${text}"\n`;
+                            }
+                        }
+                    });
+                    report += '</pre>';
+
+                    report += '</div>';
+                    results.innerHTML = report;
+                }, 1000);
+            };
+        }
+
+        function checkGerman() {
+            const results = document.getElementById('results');
+            results.innerHTML = '<h3>Loading German version...</h3>';
+
+            const iframe = document.getElementById('testFrame');
+            iframe.src = '/worksheet-generators/wordsearch.html?locale=de';
+
+            iframe.onload = () => {
+                setTimeout(() => {
+                    const iframeWindow = iframe.contentWindow;
+                    const iframeDoc = iframe.contentDocument;
+
+                    let report = '<div class="section warning">';
+                    report += '<h3>German Version Check:</h3><pre>';
+                    report += `currentLocale: ${iframeWindow.currentLocale}\n`;
+
+                    // Check specific elements
+                    const testElements = [
+                        { selector: '[data-translate="background"]', expected: 'Hintergrund' },
+                        { selector: '[data-translate="border"]', expected: 'Rahmen' },
+                        { selector: '[data-translate="grayscale"]', expected: 'Graustufen' },
+                    ];
+
+                    report += '\nElement checks:\n';
+                    testElements.forEach(test => {
+                        const el = iframeDoc.querySelector(test.selector);
+                        if (el) {
+                            const text = el.textContent || el.value || el.placeholder || '';
+                            const match = text === test.expected;
+                            report += `${test.selector}: "${text}" ${match ? '✅' : '❌ Expected: ' + test.expected}\n`;
+                        } else {
+                            report += `${test.selector}: NOT FOUND ❌\n`;
+                        }
+                    });
+
+                    // Try forcing translation
+                    report += '\nForcing translation...\n';
+                    try {
+                        iframeWindow.currentLocale = 'de';
+                        if (iframeWindow.translateAllElements) {
+                            iframeWindow.translateAllElements();
+                            report += 'Called translateAllElements() with locale=de\n';
+                        }
+                        if (iframeWindow.applyTranslations) {
+                            iframeWindow.applyTranslations();
+                            report += 'Called applyTranslations() with locale=de\n';
+                        }
+
+                        // Check again
+                        report += '\nAfter forcing:\n';
+                        testElements.forEach(test => {
+                            const el = iframeDoc.querySelector(test.selector);
+                            if (el) {
+                                const text = el.textContent || el.value || el.placeholder || '';
+                                const match = text === test.expected;
+                                report += `${test.selector}: "${text}" ${match ? '✅' : '❌'}\n`;
+                            }
+                        });
+                    } catch(e) {
+                        report += `Error: ${e.message}\n`;
+                    }
+
+                    report += '</pre></div>';
+                    results.innerHTML += report;
+                }, 1500);
+            };
+        }
+    </script>
+</body>
+</html>

@@ -732,7 +732,7 @@
                         <h4 data-translate="border">Border</h4>
                         <label for="borderThemeSelect" data-translate="borderTheme">Border Theme:</label>
                         <select id="borderThemeSelect">
-                            <option value="none" data-translate="none">None</option>
+                            <option value="none" data-translate="common.none">None</option>
                         </select>
                         <div id="borderDictionary">
                             <p class="dictionary-message" data-translate="selectThemeToSeeBorders">Select a theme to see borders.</p>
@@ -2353,7 +2353,7 @@ document.addEventListener("DOMContentLoaded", function() {
     async function loadAssetThemes(type, selectEl) {
         try {
             // First option is always None
-            selectEl.innerHTML = `<option value="none">${t('none')}</option>`;
+            selectEl.innerHTML = `<option value="none">${t('common.none')}</option>`;
 
             // Fetch actual themes from the filesystem API
             const response = await fetch(`/api/${type}/themes`);

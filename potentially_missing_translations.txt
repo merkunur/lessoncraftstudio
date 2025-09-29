@@ -1,0 +1,116 @@
+# TEXTS THAT MIGHT NEED TRANSLATION KEYS
+# Total: 3371 texts
+
+
+        ];
+        
+        templateGrid.innerHTML = 
+  // Finnish doesn
+  └─ HEAD request
+ ${translatedPrep}
+ && ch <= 
+ + (files.length === 1 ? getTranslation(
+ + treasureText;
+      
+      while(lines.length<5) lines.push(
+ :
+                                  currentLocale === 
+ : '';
+                        rightPart = 
+ : '';
+                    const leftPart = 
+ : `<p class=
+ : getTranslation(
+ ? `<select data-row=
+ ? activeObject.fill : 
+ alt=
+ data-col=
+ data-translate-key=
+ data-type=
+ placeholder=
+ style=
+ type=
+ || e.key === 
+ || selectedTheme === 
+ });
+                  eqSign.set({ left: currentXInRow, top: symbolSize / 2, originY: 
+ });
+                  eqSign.set({ left: currentXInSolution, top: (symbolSize * 0.8) / 2, originY: 
+ };
+                document.querySelectorAll(
+ };
+            currentBackground = { path: null, theme: 
+ };
+        let currentBackground = { path: null, theme: 
+${A} + ${B} = ${answer}
+${MANUAL_MODE_VALUE}
+${String.fromCharCode(65 + problem.id)} → ${shadowIndex + 1}
+${allThemesRandomText}
+${allThemesSearchText}
+${allThemesText}
+${asset.name}
+${asset.path}
+${assignedImage.path}
+${assignedImage.word}
+${a} + ${num - a}
+${a} - ${a - num}
+${baseFileName}.jpeg
+${baseFileName}.pdf
+${baseFilename}.jpeg
+${bg.name}
+${bg.path}
+${bgData.name}
+${bgData.path}
+${blockId}
+${border.name}
+${border.path}
+${borderData.name}
+${borderData.path}
+${chosenWorksheetTheme}
+${d.name}
+${data.images ? data.images.length : 0} images
+${displayHeight}px
+${displayName}
+${displayName} (Random)
+${displayWidth}px
+${element.clientHeight}px
+${end.r},${end.c}
+${errorMessage}. Status: ${res.status}
+${fileCount} ${translations[currentLocale]?.filesSelected || 'files selected'}
+${fileName} Downloaded!
+${fileName} download initiated!
+${fileName} downloaded!
+${filenamePrefix}.${format}
+${filename} download initiated!
+${filename} downloaded!
+${filename}.jpeg
+${filename}.pdf
+${files.length} ${filesText}
+${files.length} ${getTranslation('filesSelected') || 'files selected'}
+${files.length} custom image(s) loaded.
+${finalHeight}px
+${finalWidth}px
+${globalIndex + 1}.
+${heightPx}px
+${i === 0 ? "None" : i}
+${id}
+${image.name}
+${image.path}
+${imageFiles.length} image(s) loaded.
+${imageName}
+${imagePath}
+${imageSrc}
+${imageToUse.word}
+${img.name}
+${img.path || img.url}
+${img.path}
+${img.word}
+${imgData.name}
+${imgData.path}
+${imgData.word}
+${imgDisplayName}
+${imgObject.path}
+${imgPath}
+${index + 1}.
+${index}
+${isDistractor ? 

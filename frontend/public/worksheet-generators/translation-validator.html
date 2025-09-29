@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translation Validator - Worksheet Generators</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #5e72e4 0%, #825ee4 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            opacity: 0.9;
+            font-size: 1.1em;
+        }
+
+        .controls {
+            background: #f8f9fa;
+            padding: 20px 30px;
+            border-bottom: 1px solid #dee2e6;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        label {
+            font-weight: 600;
+            color: #495057;
+            font-size: 0.9em;
+        }
+
+        select, input, button {
+            padding: 8px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+
+        select:focus, input:focus {
+            outline: none;
+            border-color: #5e72e4;
+            box-shadow: 0 0 0 3px rgba(94, 114, 228, 0.1);
+        }
+
+        button {
+            background: #5e72e4;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background: #4c63d2;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(94, 114, 228, 0.3);
+        }
+
+        button:disabled {
+            background: #adb5bd;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            height: calc(100vh - 300px);
+            min-height: 500px;
+        }
+
+        .panel {
+            padding: 30px;
+            overflow-y: auto;
+        }
+
+        .panel-left {
+            border-right: 1px solid #dee2e6;
+        }
+
+        .panel-title {
+            font-size: 1.5em;
+            color: #495057;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .stat-value {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .translation-grid {
+            display: grid;
+            gap: 15px;
+        }
+
+        .translation-item {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #5e72e4;
+        }
+
+        .translation-key {
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            font-size: 0.9em;
+            color: #e83e8c;
+            margin-bottom: 8px;
+        }
+
+        .translation-text {
+            display: grid;
+            grid-template-columns: 40px 1fr;
+            gap: 10px;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+
+        .lang-badge {
+            background: #495057;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .missing {
+            background: #dc3545;
+        }
+
+        .test-section {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .test-title {
+            font-size: 1.2em;
+            color: #495057;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .test-content {
+            display: grid;
+            gap: 10px;
+        }
+
+        .test-element {
+            background: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            border: 1px solid #dee2e6;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .status-badge {
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+
+        .status-ok {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status-missing {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .iframe-container {
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 10px;
+            margin-top: 20px;
+            height: 400px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            color: #6c757d;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #5e72e4;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin-right: 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .alert {
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .alert-info {
+            background: #cfe2ff;
+            color: #084298;
+            border-left: 4px solid #084298;
+        }
+
+        .alert-success {
+            background: #d1e7dd;
+            color: #0f5132;
+            border-left: 4px solid #0f5132;
+        }
+
+        .alert-warning {
+            background: #fff3cd;
+            color: #664d03;
+            border-left: 4px solid #664d03;
+        }
+
+        .alert-error {
+            background: #f8d7da;
+            color: #842029;
+            border-left: 4px solid #842029;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e9ecef;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #5e72e4, #825ee4);
+            transition: width 0.3s ease;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌍 Translation Validator</h1>
+            <div class="subtitle">Complete Translation Testing & Validation System</div>
+        </header>
+
+        <div class="controls">
+            <div class="control-group">
+                <label>Select Language</label>
+                <select id="languageSelect">
+                    <option value="en">English</option>
+                    <option value="de">Deutsch (German)</option>
+                    <option value="fr">Français (French)</option>
+                    <option value="es">Español (Spanish)</option>
+                    <option value="pt">Português (Portuguese)</option>
+                    <option value="it">Italiano (Italian)</option>
+                    <option value="nl">Nederlands (Dutch)</option>
+                    <option value="sv">Svenska (Swedish)</option>
+                    <option value="da">Dansk (Danish)</option>
+                    <option value="no">Norsk (Norwegian)</option>
+                    <option value="fi">Suomi (Finnish)</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label>Select App to Test</label>
+                <select id="appSelect">
+                    <option value="">-- Select App --</option>
+                </select>
+            </div>
+
+            <button id="scanBtn">🔍 Scan All Apps</button>
+            <button id="validateBtn">✓ Validate Current</button>
+            <button id="testBtn">🧪 Test in App</button>
+            <button id="exportBtn">📥 Export Report</button>
+        </div>
+
+        <div class="main-content">
+            <div class="panel panel-left">
+                <h2 class="panel-title">📊 Translation Coverage</h2>
+
+                <div id="stats" class="stats">
+                    <div class="stat-card">
+                        <div class="stat-value" id="totalKeys">0</div>
+                        <div class="stat-label">Total Keys</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="translatedKeys">0</div>
+                        <div class="stat-label">Translated</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="missingKeys">0</div>
+                        <div class="stat-label">Missing</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-value" id="coverage">0%</div>
+                        <div class="stat-label">Coverage</div>
+                    </div>
+                </div>
+
+                <div id="alerts"></div>
+
+                <div class="test-section">
+                    <div class="test-title">Common UI Elements</div>
+                    <div id="commonElements" class="test-content">
+                        <div class="loading">
+                            <div class="spinner"></div>
+                            <span>Loading translations...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="test-section">
+                    <div class="test-title">Missing Translations</div>
+                    <div id="missingTranslations" class="test-content">
+                        <div class="loading">
+                            <div class="spinner"></div>
+                            <span>Scanning...</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-right">
+                <h2 class="panel-title">🔬 Live Preview</h2>
+
+                <div id="previewSection">
+                    <div class="alert alert-info">
+                        Select an app and language to preview translations in real-time.
+                    </div>
+
+                    <div class="test-section">
+                        <div class="test-title">Test Elements</div>
+                        <div class="test-content">
+                            <button data-translate="generate">Generate</button>
+                            <button data-translate="download">Download</button>
+                            <button data-translate="new_worksheet">New Worksheet</button>
+                            <button data-translate="answer_key">Answer Key</button>
+                            <button data-translate="settings">Settings</button>
+                        </div>
+                    </div>
+
+                    <div class="iframe-container" id="iframeContainer" style="display: none;">
+                        <iframe id="appPreview"></iframe>
+                    </div>
+                </div>
+
+                <div class="test-section">
+                    <div class="test-title">Translation Details</div>
+                    <div id="translationDetails" class="translation-grid">
+                        <!-- Translation items will be added here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/translations.js"></script>
+    <script src="js/translation-extractor.js"></script>
+    <script src="js/translation-system.js"></script>
+    <script>
+        const validator = {
+            currentLocale: 'en',
+            translations: {},
+            apps: [],
+            extractor: null,
+
+            async init() {
+                console.log('Initializing Translation Validator...');
+
+                // Load translations
+                this.translations = typeof translations !== 'undefined' ? translations : {};
+
+                // Initialize extractor
+                this.extractor = new TranslationExtractor();
+                this.extractor.existingTranslations = this.translations;
+
+                // Populate app list
+                await this.loadAppList();
+
+                // Set up event listeners
+                this.setupEventListeners();
+
+                // Initial validation
+                this.validateCurrent();
+            },
+
+            async loadAppList() {
+                // Fetch list of worksheet generator apps
+                const response = await fetch('/worksheet-generators/');
+                const html = await response.text();
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+
+                // Extract HTML files from directory listing or use predefined list
+                this.apps = [
+                    'wordsearch.html',
+                    'addition.html',
+                    'subtraction.html',
+                    'coloring.html',
+                    'math worksheet.html',
+                    'sudoku.html',
+                    'crossword.html',
+                    'bingo.html',
+                    'matching.html',
+                    'alphabet train.html',
+                    'pattern train.html'
+                ].filter(app => !app.includes('test') && !app.includes('debug'));
+
+                // Populate select
+                const appSelect = document.getElementById('appSelect');
+                this.apps.forEach(app => {
+                    const option = document.createElement('option');
+                    option.value = app;
+                    option.textContent = app.replace('.html', '').replace(/-/g, ' ').toUpperCase();
+                    appSelect.appendChild(option);
+                });
+            },
+
+            setupEventListeners() {
+                document.getElementById('languageSelect').addEventListener('change', (e) => {
+                    this.currentLocale = e.target.value;
+                    this.validateCurrent();
+                    this.updatePreview();
+                });
+
+                document.getElementById('appSelect').addEventListener('change', (e) => {
+                    if (e.target.value) {
+                        this.loadAppPreview(e.target.value);
+                    }
+                });
+
+                document.getElementById('scanBtn').addEventListener('click', () => this.scanAll());
+                document.getElementById('validateBtn').addEventListener('click', () => this.validateCurrent());
+                document.getElementById('testBtn').addEventListener('click', () => this.testInApp());
+                document.getElementById('exportBtn').addEventListener('click', () => this.exportReport());
+
+                // Test button translations
+                document.querySelectorAll('[data-translate]').forEach(btn => {
+                    btn.addEventListener('click', () => {
+                        const key = btn.dataset.translate;
+                        this.showTranslationDetails(key);
+                    });
+                });
+            },
+
+            validateCurrent() {
+                const locale = this.currentLocale;
+                const localeTranslations = this.translations[locale] || {};
+                const englishKeys = Object.keys(this.translations.en || {});
+
+                const stats = {
+                    total: englishKeys.length,
+                    translated: 0,
+                    missing: 0
+                };
+
+                const missing = [];
+                const commonElements = [];
+
+                // Common UI elements to check
+                const commonKeys = [
+                    'generate', 'download', 'print', 'settings',
+                    'new_worksheet', 'answer_key', 'easy', 'medium', 'hard'
+                ];
+
+                englishKeys.forEach(key => {
+                    if (localeTranslations[key] && !localeTranslations[key].includes('[NEEDS_TRANSLATION]')) {
+                        stats.translated++;
+                    } else {
+                        stats.missing++;
+                        missing.push({ key, english: this.translations.en[key] });
+                    }
+
+                    if (commonKeys.includes(key)) {
+                        commonElements.push({
+                            key,
+                            english: this.translations.en[key],
+                            translated: localeTranslations[key] || 'MISSING',
+                            status: localeTranslations[key] ? 'ok' : 'missing'
+                        });
+                    }
+                });
+
+                // Update UI
+                document.getElementById('totalKeys').textContent = stats.total;
+                document.getElementById('translatedKeys').textContent = stats.translated;
+                document.getElementById('missingKeys').textContent = stats.missing;
+                document.getElementById('coverage').textContent =
+                    Math.round((stats.translated / stats.total) * 100) + '%';
+
+                // Update common elements
+                const commonElementsDiv = document.getElementById('commonElements');
+                commonElementsDiv.innerHTML = commonElements.map(elem => `
+                    <div class="test-element">
+                        <span><strong>${elem.english}</strong> → ${elem.translated}</span>
+                        <span class="status-badge status-${elem.status}">${elem.status.toUpperCase()}</span>
+                    </div>
+                `).join('');
+
+                // Update missing translations
+                const missingDiv = document.getElementById('missingTranslations');
+                if (missing.length === 0) {
+                    missingDiv.innerHTML = '<div class="alert alert-success">✅ All translations complete!</div>';
+                } else {
+                    missingDiv.innerHTML = missing.slice(0, 10).map(item => `
+                        <div class="test-element">
+                            <span><code>${item.key}</code>: "${item.english}"</span>
+                            <span class="status-badge status-missing">MISSING</span>
+                        </div>
+                    `).join('');
+
+                    if (missing.length > 10) {
+                        missingDiv.innerHTML += `<div class="alert alert-warning">...and ${missing.length - 10} more missing translations</div>`;
+                    }
+                }
+
+                this.updateTestButtons();
+            },
+
+            updateTestButtons() {
+                document.querySelectorAll('[data-translate]').forEach(btn => {
+                    const key = btn.dataset.translate;
+                    const translation = this.translations[this.currentLocale]?.[key] ||
+                                      this.translations.en?.[key] || key;
+                    btn.textContent = translation;
+                });
+            },
+
+            async scanAll() {
+                const alertsDiv = document.getElementById('alerts');
+                alertsDiv.innerHTML = '<div class="alert alert-info">🔍 Scanning all apps for translatable text...</div>';
+
+                try {
+                    // Scan each app
+                    for (const app of this.apps) {
+                        const response = await fetch(`/worksheet-generators/${app}`);
+                        const html = await response.text();
+                        this.extractor.extractFromHTML(html, app);
+                    }
+
+                    const report = this.extractor.generateMissingTranslationsReport();
+
+                    alertsDiv.innerHTML = `
+                        <div class="alert alert-success">
+                            ✅ Scan complete! Found ${this.extractor.extractedTexts.size} unique texts.
+                            <br>${report.missingTexts.length} new texts need translation.
+                        </div>
+                    `;
+
+                    // Update translation details
+                    this.showScanResults(report);
+                } catch (error) {
+                    alertsDiv.innerHTML = `<div class="alert alert-error">❌ Scan failed: ${error.message}</div>`;
+                }
+            },
+
+            loadAppPreview(app) {
+                const iframe = document.getElementById('appPreview');
+                const container = document.getElementById('iframeContainer');
+
+                container.style.display = 'block';
+                iframe.src = `/worksheet-generators/${app}?locale=${this.currentLocale}`;
+
+                // Update preview message
+                document.getElementById('previewSection').querySelector('.alert').innerHTML =
+                    `Previewing <strong>${app}</strong> in <strong>${this.currentLocale.toUpperCase()}</strong>`;
+            },
+
+            showTranslationDetails(key) {
+                const details = document.getElementById('translationDetails');
+                const languages = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+
+                details.innerHTML = `
+                    <div class="translation-item">
+                        <div class="translation-key">${key}</div>
+                        ${languages.map(lang => {
+                            const text = this.translations[lang]?.[key] || 'MISSING';
+                            const isMissing = !this.translations[lang]?.[key];
+                            return `
+                                <div class="translation-text">
+                                    <span class="lang-badge ${isMissing ? 'missing' : ''}">${lang.toUpperCase()}</span>
+                                    <span>${text}</span>
+                                </div>
+                            `;
+                        }).join('')}
+                    </div>
+                `;
+            },
+
+            showScanResults(report) {
+                const details = document.getElementById('translationDetails');
+
+                const html = report.missingTexts.slice(0, 5).map(item => `
+                    <div class="translation-item">
+                        <div class="translation-key">${item.key}</div>
+                        <div class="translation-text">
+                            <span class="lang-badge">EN</span>
+                            <span>${item.text}</span>
+                        </div>
+                        <div class="translation-text">
+                            <span class="lang-badge missing">SOURCES</span>
+                            <span>${item.sources.join(', ')}</span>
+                        </div>
+                    </div>
+                `).join('');
+
+                details.innerHTML = html;
+            },
+
+            testInApp() {
+                const app = document.getElementById('appSelect').value;
+                if (!app) {
+                    alert('Please select an app to test');
+                    return;
+                }
+
+                window.open(`/worksheet-generators/${app}?locale=${this.currentLocale}`, '_blank');
+            },
+
+            exportReport() {
+                const report = {
+                    timestamp: new Date().toISOString(),
+                    locale: this.currentLocale,
+                    stats: {
+                        total: document.getElementById('totalKeys').textContent,
+                        translated: document.getElementById('translatedKeys').textContent,
+                        missing: document.getElementById('missingKeys').textContent,
+                        coverage: document.getElementById('coverage').textContent
+                    },
+                    translations: this.translations[this.currentLocale] || {}
+                };
+
+                const blob = new Blob([JSON.stringify(report, null, 2)], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `translation-report-${this.currentLocale}-${Date.now()}.json`;
+                a.click();
+                URL.revokeObjectURL(url);
+            },
+
+            updatePreview() {
+                const iframe = document.getElementById('appPreview');
+                if (iframe.src) {
+                    const url = new URL(iframe.src);
+                    url.searchParams.set('locale', this.currentLocale);
+                    iframe.src = url.toString();
+                }
+            }
+        };
+
+        // Initialize when DOM is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            validator.init();
+        });
+    </script>
+</body>
+</html>

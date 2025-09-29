@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Validate Translations</title>
+</head>
+<body>
+    <h1>Validating translations.js</h1>
+    <pre id="output"></pre>
+
+    <script>
+        const output = document.getElementById('output');
+
+        // Try to load translations.js
+        const script = document.createElement('script');
+        script.src = 'js/translations.js';
+
+        script.onload = function() {
+            output.innerHTML += 'SUCCESS: translations.js loaded\n\n';
+
+            if (typeof translations !== 'undefined') {
+                output.innerHTML += 'translations object exists\n';
+                output.innerHTML += 'Type: ' + typeof translations + '\n';
+                output.innerHTML += 'Locales found: ' + Object.keys(translations).join(', ') + '\n\n';
+
+                // Check each locale
+                Object.keys(translations).forEach(locale => {
+                    const keys = Object.keys(translations[locale]);
+                    output.innerHTML += locale + ': ' + keys.length + ' keys\n';
+                });
+
+                // Specific test for German
+                if (translations.de) {
+                    output.innerHTML += '\nGerman translations:\n';
+                    output.innerHTML += '  generate = ' + translations.de.generate + '\n';
+                    output.innerHTML += '  download = ' + translations.de.download + '\n';
+                    output.innerHTML += '  settings = ' + translations.de.settings + '\n';
+                    output.innerHTML += '  worksheetSettings = ' + translations.de.worksheetSettings + '\n';
+                    output.innerHTML += '  pageAndScene = ' + translations.de.pageAndScene + '\n';
+                }
+            } else {
+                output.innerHTML += 'ERROR: translations object not defined!\n';
+            }
+        };
+
+        script.onerror = function() {
+            output.innerHTML += 'ERROR: Failed to load translations.js\n';
+            output.innerHTML += 'Check browser console for JavaScript errors\n';
+        };
+
+        document.head.appendChild(script);
+    </script>
+</body>
+</html>

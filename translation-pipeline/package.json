@@ -1,0 +1,21 @@
+{
+  "name": "translation-pipeline",
+  "version": "1.0.0",
+  "description": "Automated translation pipeline for LessonCraftStudio",
+  "main": "pipeline-integration.js",
+  "scripts": {
+    "demo": "node pipeline-integration.js demo",
+    "single": "node pipeline-integration.js single",
+    "batch": "node pipeline-integration.js batch",
+    "extract": "node extraction-engine.js",
+    "validate": "node runtime-validator.js"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.23.0",
+    "@babel/traverse": "^7.23.0",
+    "@babel/types": "^7.23.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "author": "Senior Software Engineer",
+  "license": "MIT"
+}

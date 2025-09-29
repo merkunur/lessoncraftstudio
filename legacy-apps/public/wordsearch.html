@@ -6,8 +6,54 @@
     <title>Word Search Generator</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="/web-component-bridge.js"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/professional-runtime-translator.js"></script>
+    <script src="js/force-translations.js"></script>
+    <script src="js/apply-translations.js"></script>
+    <script src="js/auto-translate-all.js"></script>
+    <script src="js/bulletproof-loader.js"></script>
+    <script src="js/unified-language-manager.js"></script>
+    <script src="js/border-background-sizer.js"></script>
+    <script src="js/auto-fix-system.js"></script>
+    <script>
+        // Set currentLocale globally BEFORE any scripts initialize
+        let currentLocale = 'en';
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('locale')) {
+            currentLocale = urlParams.get('locale');
+        }
+        window.currentLocale = currentLocale;
+    
+
+        // Simple translation function for data-translate elements
+        function translateAllElements() {
+            if (typeof translations === 'undefined') return;
+
+            document.querySelectorAll('[data-translate]').forEach(element => {
+                const key = element.dataset.translate;
+                const translation = (translations[currentLocale] && translations[currentLocale][key]) ||
+                                  (translations.en && translations.en[key]) ||
+                                  key;
+
+                if (element.tagName === 'INPUT') {
+                    if (element.type === 'submit' || element.type === 'button') {
+                        element.value = translation;
+                    } else if (element.placeholder) {
+                        element.placeholder = translation;
+                    }
+                } else if (element.tagName === 'SPAN' || element.tagName === 'H4' || element.tagName === 'LABEL') {
+                    element.textContent = translation;
+                }
+            });
+        }
+
+        // Watch for language changes
+        document.addEventListener('languageChanged', translateAllElements);
+    
+    </script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
     <style>
         :root {
@@ -162,15 +208,29 @@
             width: 100%; padding: 2px; height: 38px; margin-bottom: 12px; border-radius: 5px; border-color: var(--app-border-dark);
         }
         .accordion-wrapper input[type="range"] { width:100%; padding: 0; margin-bottom: 12px;}
-        .accordion-wrapper input[type="file"] {
-          color: var(--app-text-secondary-dark-theme);
-          background-color: var(--app-surface-dark);
-          border: 1px solid var(--app-border-dark);
-          border-radius: 5px;
-          padding: 8px;
-          font-size: 13px;
-          margin-bottom: 12px;
-          width: 100%;
+        /* Custom file input styling */
+        .custom-file-input {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
+        .file-input-button {
+            padding: 8px 16px;
+            background: var(--app-bg-dark);
+            border: 1px solid var(--app-border-dark);
+            border-radius: 5px;
+            color: var(--app-text-dark-theme);
+            cursor: pointer;
+            font-size: 13px;
+            transition: background 0.3s;
+        }
+        .file-input-button:hover {
+            background: var(--app-surface-dark);
+        }
+        .file-input-label {
+            color: var(--app-text-secondary-dark-theme);
+            font-size: 13px;
         }
         .accordion-wrapper input[type="file"]::file-selector-button {
             margin-right: 10px;
@@ -257,6 +317,17 @@
             border-radius: 3px;
             background-color: var(--app-surface-light);
             margin-bottom: 5px;
+            background-image: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background-size: 200% 100%;
+        }
+        
+        .dictionary-item img.lazy-image {
+            animation: loading 1.5s infinite;
+        }
+        
+        @keyframes loading {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
         }
         .dictionary-item span { font-size: 10px; text-align: center; max-width: 50px; color: var(--app-text-secondary-dark-theme); }
         
@@ -417,10 +488,13 @@
         .tab-content-wrapper {
             flex-grow: 1;
             display: flex;
-            align-items: flex-start;
+            align-items: flex-end;
             justify-content: center;
             padding: 25px;
+            padding-bottom: 50px;
             overflow-y: auto;
+            min-height: 750px;
+            height: calc(100vh - 150px);
         }
         .tab { display: none; width: 100%; height: 100%; }
         .tab.active { display: flex; flex-direction: column; }
@@ -429,10 +503,17 @@
             background-color: var(--app-surface-light);
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
-            overflow: auto;
+            overflow: visible;
             margin: auto;
+            position: relative;
         }
         canvas { display: block; }
+        
+        /* Ensure Fabric.js container doesn't clip content */
+        .canvas-container { 
+            overflow: visible !important;
+            position: relative !important;
+        }
         
         /* START: Contextual Toolbar CSS */
         #object-context-toolbar {
@@ -600,20 +681,43 @@
     <div class="layout">
         <div class="panel">
             <div class="panel-header">
-                <h2>Word Search Settings</h2>
+                <h2 data-translate="wordSearchSettings">Word Search Settings</h2>
                 <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
             </div>
             <div class="panel-content">
+                <!-- Language Selection -->
                 <div class="accordion-item">
-                    <button class="accordion-button">Page & Scene</button>
+                    <button class="accordion-button active" data-translate-key="wordSearch">Word Search</button>
+                    <div class="accordion-wrapper" style="display: block;">
+                        <h4 data-translate-key="selectLanguage">Select Language</h4>
+                        <select id="languageSelect">
+                            <option value="en">English</option>
+                            <option value="de">Deutsch (German)</option>
+                            <option value="fr">Français (French)</option>
+                            <option value="es">Español (Spanish)</option>
+                            <option value="pt">Português (Portuguese)</option>
+                            <option value="it">Italiano (Italian)</option>
+                            <option value="nl">Nederlands (Dutch)</option>
+                            <option value="sv">Svenska (Swedish)</option>
+                            <option value="da">Dansk (Danish)</option>
+                            <option value="no">Norsk (Norwegian)</option>
+                            <option value="fi">Suomi (Finnish)</option>
+                        </select>
+                        <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate-key="imageNamesAndThemesNote">
+                            Image names and themes will be displayed in the selected language.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button" data-translate="pageAndScene">Page & Scene</button>
                     <div class="accordion-wrapper">
-                        <h4>Page Setup</h4>
-                        <label for="pageSizeSelect">Page Size:</label>
+                        <h4 data-translate="pageSetup">Page Setup</h4>
+                        <label for="pageSizeSelect" data-translate="pageSize">Page Size:</label>
                         <select id="pageSizeSelect">
-                            <option value="612x792">Letter Portrait (612x792)</option>
-                            <option value="792x612">Letter Landscape (792x612)</option>
-                            <option value="595x842">A4 Portrait (595x842)</option>
-                            <option value="842x595">A4 Landscape (842x595)</option>
+                            <option value="612x792">Letter Portrait (8.5×11")</option>
+                            <option value="792x612">Letter Landscape (11×8.5")</option>
+                            <option value="595x842">A4 Portrait (210×297mm)</option>
+                            <option value="842x595">A4 Landscape (297×210mm)</option>
                             <option value="custom">Custom</option>
                         </select>
                         <div id="customPageSizeInputs" style="display:none;">
@@ -622,41 +726,41 @@
                             <label for="pageHeight">Height (px):</label>
                             <input type="number" id="pageHeight" value="792">
                         </div>
-                         <button id="setPageSizeBtn">Apply Size</button>
+                         <button id="setPageSizeBtn" data-translate="applySize">Apply Size</button>
 
-                        <h4>Background</h4>
-                        <label for="pageColor">Fallback Color:</label>
+                        <h4 data-translate="background">Background</h4>
+                        <label for="pageColor" data-translate="fallbackColor">Fallback Color:</label>
                         <input type="color" id="pageColor" value="#FFFFFF">
-                        <label for="backgroundThemeSelect">Background Theme:</label>
+                        <label for="backgroundThemeSelect" data-translate="backgroundTheme">Background Theme:</label>
                         <select id="backgroundThemeSelect">
                             <option value="none">None (Use Fallback Color)</option>
                         </select>
-                        <div id="backgroundDictionary"><p class="dictionary-message">Select a theme for backgrounds.</p></div>
-                        <label for="backgroundOpacity">Background Opacity:</label>
+                        <div id="backgroundDictionary"><p class="dictionary-message" data-translate="selectThemeForBackgrounds">Select a theme for backgrounds.</p></div>
+                        <label for="backgroundOpacity" data-translate="backgroundOpacity">Background Opacity:</label>
                         <input type="range" id="backgroundOpacity" min="0" max="1" step="0.05" value="1" disabled>
                         
-                        <h4>Border</h4>
-                        <label for="borderThemeSelect">Border Theme:</label>
+                        <h4 data-translate="border">Border</h4>
+                        <label for="borderThemeSelect" data-translate="borderTheme">Border Theme:</label>
                         <select id="borderThemeSelect">
-                            <option value="none">None</option>
+                            <option value="none" data-translate="none">None</option>
                         </select>
                         <div id="borderDictionary">
-                            <p class="dictionary-message">Select a theme to see borders.</p>
+                            <p class="dictionary-message" data-translate="selectThemeToSeeBorders">Select a theme to see borders.</p>
                         </div>
-                        <label for="borderOpacity">Border Opacity:</label>
+                        <label for="borderOpacity" data-translate="borderOpacity">Border Opacity:</label>
                         <input type="range" id="borderOpacity" min="0" max="1" step="0.05" value="1" disabled>
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <button class="accordion-button">Text Tools</button>
+                    <button class="accordion-button" data-translate="textTools">Text Tools</button>
                     <div class="accordion-wrapper">
-                        <h4>Add New Text</h4>
-                        <label for="textInput">Content:</label><input type="text" id="textInput" placeholder="Hello!">
-                        <button id="addTextBtn">Add Text</button>
-                        <h4>Selected Text Properties</h4>
-                        <label for="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
-                        <label for="fontSize">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
-                        <label for="fontFamily">Font:</label>
+                        <h4 data-translate="addNewText">Add New Text</h4>
+                        <label for="textInput" data-translate="content">Content:</label><input type="text" id="textInput" placeholder="Hello!" data-translate-placeholder="helloPlaceholder">
+                        <button id="addTextBtn" data-translate="addText">Add Text</button>
+                        <h4 data-translate="selectedTextProperties">Selected Text Properties</h4>
+                        <label for="textColor" data-translate="color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                        <label for="fontSize" data-translate="size">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+                        <label for="fontFamily" data-translate="font">Font:</label>
                         <select id="fontFamily" disabled>
                             <option value="Lexend Deca">Lexend Deca</option>
                             <option value="Baloo 2">Baloo 2</option>
@@ -666,62 +770,67 @@
                             <option value="Arial">Arial</option>
                             <option value="Verdana">Verdana</option>
                         </select>
-                        <label for="textStrokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
-                        <label for="textStrokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+                        <label for="textStrokeColor" data-translate="outlineColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                        <label for="textStrokeWidth" data-translate="outlineWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <button class="accordion-button">Puzzle Settings</button>
+                    <button class="accordion-button" data-translate="puzzleSettings">Puzzle Settings</button>
                     <div class="accordion-wrapper">
-                        <h4>Grid Size</h4>
+                        <h4 data-translate="gridSize">Grid Size</h4>
                         <div class="grid-inputs">
                             <div>
-                                <label for="rows">Rows:</label>
+                                <label for="rows" data-translate="rows">Rows:</label>
                                 <input type="number" id="rows" min="5" max="30" value="12" />
                             </div>
                             <div>
-                                <label for="cols">Columns:</label>
+                                <label for="cols" data-translate="columns">Columns:</label>
                                 <input type="number" id="cols" min="5" max="30" value="12" />
                             </div>
                         </div>
 
-                        <h4>Puzzle Options</h4>
-                        <label class="checkbox-label"><input type="checkbox" id="allowDiagonal" checked /> Allow Diagonal Words</label>
-                        <label class="checkbox-label"><input type="checkbox" id="allowReverseWords" /> Allow Reverse Words</label>
-                        <label class="checkbox-label"><input type="checkbox" id="showWordList" checked /> Show Word/Image List</label>
+                        <h4 data-translate="puzzleOptions">Puzzle Options</h4>
+                        <label class="checkbox-label"><input type="checkbox" id="allowDiagonal" checked /> <span data-translate="allowDiagonal">Allow Diagonal Words</span></label>
+                        <label class="checkbox-label"><input type="checkbox" id="allowReverseWords" /> <span data-translate="allowReverseWords">Allow Reverse Words</span></label>
+                        <label class="checkbox-label"><input type="checkbox" id="showWordList" checked /> <span data-translate="showWordList">Show Word/Image List</span></label>
+                        <label class="checkbox-label"><input type="checkbox" id="classicMode" /> <span data-translate="classicMode">Classic Mode (Text Only)</span></label>
                     </div>
                 </div>
 
                 <div class="accordion-item">
-                    <button class="accordion-button">Image Library</button>
+                    <button class="accordion-button" data-translate="imageLibrary">Image Library</button>
                     <div class="accordion-wrapper">
-                        <h4>Image Source for Puzzle</h4>
-                        <label for="worksheetThemeSelect">Generate from Theme:</label>
+                        <h4 data-translate="imageSourceForPuzzle">Image Source for Puzzle</h4>
+                        <label for="worksheetThemeSelect" data-translate="theme">Theme:</label>
                         <select id="worksheetThemeSelect">
-                             <option value="random_auto">-- Use Random Theme --</option>
+                             <option value="random_auto" data-translate="useRandomTheme">-- Use Random Theme --</option>
                         </select>
 
-                        <h4 style="margin-top: 20px;">Individual Image Selection</h4>
-                        <label for="themeSelect">Filter by Theme:</label>
+                        <h4 style="margin-top: 20px;" data-translate="individualImageSelection">Individual Image Selection</h4>
+                        <label for="themeSelect" data-translate="filterByTheme">Filter by Theme:</label>
                         <select id="themeSelect"></select>
-                        <label for="searchInput">Search Images:</label>
-                        <input type="text" id="searchInput" placeholder="e.g., apple, car" />
+                        <label for="searchInput" data-translate="searchImages">Search Images:</label>
+                        <input type="text" id="searchInput" placeholder="e.g., apple, car" data-translate-placeholder="searchPlaceholder" />
                         
-                        <label>Available Images (max 8):</label>
+                        <label data-translate="availableImages">Available Images (max 8):</label>
                         <div id="dictionary"><p class='dictionary-message'>Loading images...</p></div>
                         
-                        <label style="margin-top:10px;">Selected Images:</label>
+                        <label style="margin-top:10px;" data-translate="selectedImages">Selected Images:</label>
                         <div id="selectedImagesPreview"></div>
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <button class="accordion-button">Upload Custom Images</button>
+                    <button class="accordion-button" data-translate="uploadCustomImages">Upload Custom Images</button>
                     <div class="accordion-wrapper">
-                        <label for="imageUploadInput">Select image(s) to upload:</label>
-                        <input type="file" id="imageUploadInput" multiple accept="image/*">
-                        <label style="margin-top:10px;">Your Uploaded Images (This Session):</label>
+                        <label for="imageUploadInput" data-translate-key="selectImagesToUpload">Select image(s) to upload:</label>
+                        <div class="custom-file-input">
+                            <button type="button" class="file-input-button" onclick="document.getElementById('imageUploadInput').click()" data-translate-key="chooseFiles">Choose files</button>
+                            <span class="file-input-label" id="fileInputLabel" data-translate-key="noFileChosen">No file chosen</span>
+                            <input type="file" id="imageUploadInput" multiple accept="image/*" style="display: none;">
+                        </div>
+                        <label style="margin-top:10px;" data-translate-key="uploadedImages">Your Uploaded Images (This Session):</label>
                         <div id="uploadedImagesPreview">
-                            <p class="dictionary-message">Your uploaded images will appear here.</p>
+                            <p class="dictionary-message" data-translate-key="yourUploadedImagesWillAppearHere">Your uploaded images will appear here.</p>
                         </div>
                     </div>
                 </div>
@@ -734,27 +843,27 @@
             <div id="object-context-toolbar" style="display:none;">
                 <div class="toolbar-group">
                     <div class="toolbar-item">
-                        <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
+                        <button class="context-btn" id="layersBtn" title="Layers" data-translate-title="layers"><i class="fas fa-layer-group"></i></button>
                         <div class="dropdown-content" id="layersDropdown">
-                            <button id="toolbarBringForwardBtn">Bring Forward</button>
-                            <button id="toolbarSendBackwardBtn">Send Backward</button>
+                            <button id="toolbarBringForwardBtn" data-translate="bringForward">Bring Forward</button>
+                            <button id="toolbarSendBackwardBtn" data-translate="sendBackward">Send Backward</button>
                         </div>
                     </div>
                 </div>
                 <div class="toolbar-group">
                     <div class="toolbar-item">
-                        <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
+                        <button class="context-btn" id="alignBtn" title="Align" data-translate-title="align"><i class="fas fa-th"></i></button>
                         <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
                             <p style="font-size:11px; margin-bottom:5px; color:#555;">Align Selected:</p>
                             <div>
-                                <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
-                                <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
-                                <button class="context-btn" id="alignRightBtn" title="Align Right"><i class="fas fa-align-right"></i></button>
+                                <button class="context-btn" id="alignLeftBtn" title="Align Left" data-translate-title="alignLeft"><i class="fas fa-align-left"></i></button>
+                                <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally" data-translate-title="centerHorizontally"><i class="fas fa-align-center"></i></button>
+                                <button class="context-btn" id="alignRightBtn" title="Align Right" data-translate-title="alignRight"><i class="fas fa-align-right"></i></button>
                             </div>
                             <div style="margin-top: 5px;">
-                                <button class="context-btn" id="alignTopBtn" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
-                                <button class="context-btn" id="alignVCenterBtn" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
-                                <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                                <button class="context-btn" id="alignTopBtn" title="Align Top" data-translate-title="alignTop"><i class="fas fa-long-arrow-alt-up"></i></button>
+                                <button class="context-btn" id="alignVCenterBtn" title="Center Vertically" data-translate-title="centerVertically"><i class="fas fa-grip-lines"></i></button>
+                                <button class="context-btn" id="alignBottomBtn" title="Align Bottom" data-translate-title="alignBottom"><i class="fas fa-long-arrow-alt-down"></i></button>
                             </div>
                             <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
                             <p style="font-size:11px; margin-bottom:5px; color:#555;">Align to Page:</p>
@@ -766,37 +875,37 @@
                     </div>
                 </div>
                 <div class="toolbar-group">
-                    <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
+                    <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected" data-translate-title="deleteSelected"><i class="fas fa-trash-alt"></i></button>
                 </div>
             </div>
             <div class="top-right-actions">
                  <div class="dropdown-container">
-                    <button id="generateDropdownBtn" class="action-button accent">Generate <i class="fas fa-caret-down"></i></button>
+                    <button id="generateDropdownBtn" class="action-button accent"><span data-translate="generate">Generate</span> <i class="fas fa-caret-down"></i></button>
                     <div id="generateDropdownContent" class="dropdown-content">
-                        <button id="generateWorksheetBtn">Generate Worksheet</button>
-                        <button id="generateAnswerKeyBtn" disabled>Generate Answer Key</button>
+                        <button id="generateWorksheetBtn" data-translate="newWorksheet">New Worksheet</button>
+                        <button id="generateAnswerKeyBtn" disabled data-translate="answerKey">Answer Key</button>
                     </div>
                 </div>
                 <div class="dropdown-container">
-                    <button id="downloadDropdownBtn" class="action-button download-btn">Download <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                    <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
                     <div id="downloadDropdownContent" class="dropdown-content">
-                        <button id="downloadWorksheetJpegBtn" disabled>Worksheet (JPEG)</button>
-                        <button id="downloadAnswerKeyJpegBtn" disabled>Answer Key (JPEG)</button>
+                        <button id="downloadWorksheetJpegBtn" disabled data-translate="worksheetJpeg">Worksheet (JPEG)</button>
+                        <button id="downloadAnswerKeyJpegBtn" disabled data-translate="answerKeyJpeg">Answer Key (JPEG)</button>
                         <hr style="margin: 6px 0; border-color: #eee;">
-                        <button id="downloadWorksheetPdfBtn" disabled>Worksheet (PDF)</button>
-                        <button id="downloadAnswerKeyPdfBtn" disabled>Answer Key (PDF)</button>
+                        <button id="downloadWorksheetPdfBtn" disabled data-translate="worksheetPdf">Worksheet (PDF)</button>
+                        <button id="downloadAnswerKeyPdfBtn" disabled data-translate="answerKeyPdf">Answer Key (PDF)</button>
                         <hr style="margin: 6px 0; border-color: #eee;">
                         <label class="checkbox-label" id="grayscaleLabel">
-                            <input type="checkbox" id="grayscaleToggle" />Grayscale
+                            <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
                         </label>
                     </div>
                 </div>
-                <button id="clearBtn" class="action-button danger">Clear All</button>
+                <button id="clearBtn" class="action-button danger" data-translate="clearAll">Clear All</button>
             </div>
 
             <div class="tab-row">
-                <button class="tab-button active" data-tab="worksheetTab">Worksheet</button>
-                <button class="tab-button" data-tab="answerKeyTab">Answer Key</button>
+                <button class="tab-button active" data-tab="worksheetTab" data-translate="worksheet">Worksheet</button>
+                <button class="tab-button" data-tab="answerKeyTab" data-translate="answerKey">Answer Key</button>
             </div>
 
             <div class="tab-content-wrapper">
@@ -816,6 +925,11 @@
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
+    // Translate the UI based on locale parameter
+    if (typeof translatePage === 'function') {
+        translatePage();
+    }
+
     // --- CONSTANTS AND STATE ---
     const MAX_WORDS = 8;
     const MIN_THEME_IMAGES = 5;
@@ -825,12 +939,67 @@ document.addEventListener("DOMContentLoaded", function() {
         'rgba(255, 215, 0, 0.7)', 'rgba(255, 160, 122, 0.7)', 'rgba(230, 230, 250, 0.7)'
     ];
 
+
     let allImagesCache = {};
+
+    // Initialize translations on page load
+    function initializeTranslations() {
+        if (typeof translateAllElements === 'function') {
+            translateAllElements();
+        } else if (window.worksheetTranslationSystem) {
+            window.worksheetTranslationSystem.translatePage();
+        }
+
+        // Override showMessage to use translations
+        const originalShowMessage = window.showMessage;
+        if (originalShowMessage) {
+            window.showMessage = function(msg, type = 'error', duration = 4000) {
+                let translatedMsg = msg;
+                if (window.worksheetTranslationSystem) {
+                    translatedMsg = window.worksheetTranslationSystem.translateDynamicText(msg);
+                } else if (typeof translations !== 'undefined' && translations[currentLocale]) {
+                    // Fallback translation method
+                    Object.entries(translations.en || {}).forEach(([key, value]) => {
+                        if (value === msg && translations[currentLocale][key]) {
+                            translatedMsg = translations[currentLocale][key];
+                        }
+                    });
+                }
+                return originalShowMessage.call(this, translatedMsg, type, duration);
+            };
+        }
+    }
+
+    // Call translation initialization
+    setTimeout(initializeTranslations, 100);
+
     let uploadedImages = [];
     let userSelectedImages = [];
     let lastGeneratedData = null; 
     let searchTimeout;
 
+    // Language/locale handling (already set globally)
+    // currentLocale is available from global scope
+    
+    // Language-specific alphabets for grid generation
+    const languageAlphabets = {
+        'en': 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+        'de': 'ABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜ',  // German with umlauts
+        'fr': 'AAABCCDEEEEEFGHIIIJLLMNNOOOPQRRSSTTTUUVWXYZÀÂÉÈÊËÎÏÔÙÛÇ',  // French with weighted frequency
+        'es': 'AAABCCDEEEEEFGHIIIJLLMNNÑOOOPQRRSSTTTUUVWXYZÁÉÍÓÚ',  // Spanish with ñ and accents
+        'pt': 'AAABCCDEEEEEFGHIIIJLLMNNOOOPQRRSSTTTUUVWXYZÀÁÂÃÇÉÊÍÓÔÕÚ',  // Portuguese
+        'it': 'AAABCCDEEEEEFGHIIIJLLMNNOOOPQRRSSTTTUUVWXYZÀÈÉÌÒÙ',  // Italian
+        'nl': 'AAABCCDEEEEEFGHIIIJLLMNNOOOPQRRSSTTTUUVWXYZ',  // Dutch
+        'sv': 'AAABCCDEEEEEFGHIIIJLLMNNOOOPQRRSSTTTUUVWXYZÅÄÖ',  // Swedish
+        'da': 'AAABCCDEEEEEFGHIIIJLLMNNOOOPQRRSSTTTUUVWXYZÆØÅ',  // Danish
+        'no': 'AAABCCDEEEEEFGHIIIJLLMNNOOOPQRRSSTTTUUVWXYZÆØÅ',  // Norwegian
+        'fi': 'AAABCCDEEEEEFGHIIIJLLMNNOOOPQRRSSTTTUUVWXYZÄÖ'   // Finnish
+    };
+    
+    function getAlphabetForLocale(locale) {
+        return languageAlphabets[locale] || languageAlphabets['en'];
+    }
+    
     let worksheetCanvas, answerKeyCanvas;
     let currentCanvasConfig = { width: 612, height: 792 };
 
@@ -895,7 +1064,11 @@ document.addEventListener("DOMContentLoaded", function() {
     const allowDiagonalInput = getEl('allowDiagonal');
     const allowReverseWordsInput = getEl('allowReverseWords');
     const showWordListInput = getEl('showWordList');
+    const classicModeInput = getEl('classicMode');
 
+    // Language Settings
+    const languageSelect = getEl('languageSelect');
+    
     // Image Library
     const worksheetThemeSelect = getEl('worksheetThemeSelect');
     const themeSelect = getEl('themeSelect');
@@ -917,7 +1090,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const allToolbarButtons = objectContextToolbar.querySelectorAll('.context-btn');
 
     // --- INITIALIZATION ---
-    function init() {
+    async function init() {
         setupAccordion();
         setupDropdowns();
         setupTabs();
@@ -936,11 +1109,61 @@ document.addEventListener("DOMContentLoaded", function() {
         setupCanvasEventListeners(answerKeyCanvas);
         updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
 
-        loadThemes();
-        loadBorderThemes();
-        loadBackgroundThemes();
-        renderUploadedImages();
-        showMessage('Select images or a theme to begin.', 'info', 5000);
+        // Initialize language selector with UnifiedLanguageManager
+        if (languageSelect) {
+            languageSelect.value = currentLocale;
+            languageSelect.addEventListener('change', async function() {
+                const newLocale = this.value;
+                console.log('Language changed to:', newLocale);
+
+                // Update global locale
+                currentLocale = newLocale;
+                window.currentLocale = newLocale;
+
+                // Use UnifiedLanguageManager if available
+                if (window.UnifiedLanguageManager) {
+                    // This will handle everything: borders, backgrounds, themes, translations
+                    await window.UnifiedLanguageManager.changeLanguage(newLocale);
+
+                    // Also reload app-specific content
+                    loadThemes(); // Reload themes with new locale
+                    preloadDefaultTheme();
+
+                    if (themeSelect.value && themeSelect.value !== 'all') {
+                        renderDictionary(); // Reload images if a theme is selected
+                    }
+                } else {
+                    // Fallback to old method
+                    applyTranslations();
+                    allImagesCache = {};
+                    loadThemes();
+                    preloadDefaultTheme();
+
+                    if (themeSelect.value && themeSelect.value !== 'all') {
+                        renderDictionary();
+                    }
+                }
+            });
+        }
+        
+        
+        
+        loadThemes().then(() => {
+            renderDictionary(); // Load images after themes are loaded
+        });
+
+        // Initialize BulletproofLoader for borders and backgrounds
+        if (window.BulletproofLoader) {
+            await window.BulletproofLoader.init({
+                borderSelect: borderThemeSelect,
+                backgroundSelect: backgroundThemeSelect,
+                locale: currentLocale
+            });
+            console.log('✅ Borders and backgrounds loaded successfully with locale:', currentLocale);
+        }
+        
+        // Preload default theme in background for instant first generation
+        preloadDefaultTheme();
     }
 
     // --- SETUP FUNCTIONS ---
@@ -1007,6 +1230,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function setupEventListeners() {
+        
         // Page & Scene
         pageSizeSelect.addEventListener('change', handlePageSizeChange);
         setPageSizeBtn.addEventListener('click', applyCustomPageSize);
@@ -1035,7 +1259,18 @@ document.addEventListener("DOMContentLoaded", function() {
             clearTimeout(searchTimeout);
             searchTimeout = setTimeout(renderDictionary, 300);
         });
-        imageUploadInput.addEventListener('change', handleImageUpload);
+        // Update file input label when files are selected
+        const fileInputLabel = document.getElementById('fileInputLabel');
+        imageUploadInput.addEventListener('change', function(e) {
+            const fileCount = this.files.length;
+            if (fileCount > 0) {
+                const text = fileCount === 1 ? this.files[0].name : `${fileCount} ${translations[currentLocale]?.filesSelected || 'files selected'}`;
+                fileInputLabel.textContent = text;
+            } else {
+                fileInputLabel.textContent = translations[currentLocale]?.noFileChosen || 'No file chosen';
+            }
+            handleImageUpload(e);
+        });
         
         // Text Tools
         addTextBtn.addEventListener('click', handleAddText);
@@ -1080,10 +1315,14 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
+    
     function getActiveCanvas() {
         const activeTab = document.querySelector('.tab.active');
-        // If the answer key tab is active, return that canvas, otherwise default to the worksheet canvas.
-        return activeTab && activeTab.id === 'answerKeyTab' ? answerKeyCanvas : worksheetCanvas;
+        // If the answer key tab is active, return it
+        if (activeTab && activeTab.id === 'answerKeyTab') {
+            return answerKeyCanvas;
+        }
+        return worksheetCanvas;
     }
 
     function setupCanvasEventListeners(canvas) {
@@ -1111,14 +1350,37 @@ document.addEventListener("DOMContentLoaded", function() {
         const availableWidth = mainStyle.clientWidth - 50; 
         const availableHeight = mainStyle.clientHeight - 50;
         
-        const scaleRatio = Math.min(availableWidth / width, availableHeight / height, 1);
-        const displayWidth = width * scaleRatio;
-        const displayHeight = height * scaleRatio;
+        // Apply 25% scaling for better visibility
+        // Extra 25% for landscape orientations
+        const isLandscape = width > height;
+        const baseScale = 1.25; // Base 25% larger for all
+        const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+        const displayScale = baseScale * landscapeBonus;
+        
+        // Calculate display dimensions with scaling
+        const scaledWidth = width * displayScale;
+        const scaledHeight = height * displayScale;
+        
+        // Ensure it fits in available space
+        const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+        const displayWidth = scaledWidth * scaleRatio;
+        const displayHeight = scaledHeight * scaleRatio;
 
-        [worksheetCanvas, answerKeyCanvas].forEach(c => {
+        // Only update initialized canvases
+        const canvases = [worksheetCanvas];
+        if (answerKeyCanvas) canvases.push(answerKeyCanvas);
+        
+        canvases.forEach(c => {
             if (c) {
-                c.setWidth(width);
-                c.setHeight(height);
+                // Apply zoom for display scaling
+                const finalZoom = (displayWidth / width);
+                c.setZoom(finalZoom);
+                
+                // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+                c.setDimensions({
+                    width: displayWidth,
+                    height: displayHeight
+                });
 
                 const border = c.getObjects().find(o => o.isBorder);
                 const background = c.getObjects().find(o => o.isBackground);
@@ -1171,6 +1433,7 @@ document.addEventListener("DOMContentLoaded", function() {
             !o.isPuzzleElement && !o.isBorder && !o.isBackground
         );
 
+        // Remove ALL puzzle elements including images loaded asynchronously
         const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isPuzzleElement);
         oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
         // --- END PRESERVATION LOGIC ---
@@ -1192,7 +1455,7 @@ document.addEventListener("DOMContentLoaded", function() {
         userAddedObjects.forEach(obj => obj.bringToFront());
         worksheetCanvas.renderAll();
         
-        showMessage("Worksheet generated successfully!", "success");
+        showMessage(typeof t !== 'undefined' ? t('worksheetGeneratedSuccessfully') : "Worksheet generated successfully!", "success");
         downloadWorksheetJpegBtn.disabled = false;
         downloadWorksheetPdfBtn.disabled = false;
         generateAnswerKeyBtn.disabled = false;
@@ -1200,7 +1463,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     async function handleGenerateAnswerKey() {
         if (!lastGeneratedData) {
-            showMessage("Please generate a worksheet first.", "error");
+            showMessage(typeof t !== 'undefined' ? t('pleaseGenerateWorksheetFirst') : "Please generate a worksheet first.", "error");
             return;
         }
 
@@ -1260,7 +1523,7 @@ document.addEventListener("DOMContentLoaded", function() {
         answerKeyCanvas.renderAll();
         
         document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
-        showMessage("Answer key generated!", "success");
+        showMessage(typeof t !== 'undefined' ? t('answerKeyGenerated') : "Answer key generated!", "success");
         downloadAnswerKeyJpegBtn.disabled = false;
         downloadAnswerKeyPdfBtn.disabled = false;
     }
@@ -1275,10 +1538,14 @@ document.addEventListener("DOMContentLoaded", function() {
             let themeImages = allImagesCache[themeName];
             if (!themeImages) {
                  try {
-                    showMessage(`Loading theme '${themeName}'...`, 'info', 2000);
-                    const response = await fetch(`/api/images?theme=${encodeURIComponent(themeName)}`);
+                    const loadingMsg = typeof t !== 'undefined' ? `${t('loadingTheme')} '${themeName}'...` : `Loading theme '${themeName}'...`;
+                    showMessage(loadingMsg, 'info', 2000);
+                    // Load theme with translations (direct API for speed)
+                    const response = await fetch(`/api/images?theme=${encodeURIComponent(themeName)}&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to load theme: ${themeName}`);
-                    allImagesCache[themeName] = await response.json();
+                    const data = await response.json();
+                    // CRITICAL: API returns {images: [...]} not direct array
+                    allImagesCache[themeName] = data.images || data;
                     themeImages = allImagesCache[themeName];
                 } catch (error) {
                     showMessage(error.message, 'error');
@@ -1286,7 +1553,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }
             if (themeImages.length < MIN_THEME_IMAGES) {
-                showMessage(`Theme '${themeName}' needs at least ${MIN_THEME_IMAGES} images.`, 'error');
+                const themeNeedsMsg = typeof t !== 'undefined' ? t('themeNeedsMoreImages').replace('{}', MIN_THEME_IMAGES).replace('Theme', `'${themeName}'`) : `Theme '${themeName}' needs at least ${MIN_THEME_IMAGES} images.`;
+                showMessage(themeNeedsMsg, 'error');
                 return null;
             }
             sourceImages = shuffleArray(themeImages).slice(0, numWords);
@@ -1295,7 +1563,8 @@ document.addEventListener("DOMContentLoaded", function() {
         } else { // Random theme
             const availableThemes = Object.keys(allImagesCache).filter(t => t !== 'all' && allImagesCache[t] && allImagesCache[t].length >= MIN_THEME_IMAGES);
             if (availableThemes.length === 0) {
-                showMessage(`No themes have enough images (${MIN_THEME_IMAGES}) for random generation.`, 'error');
+                // This should rarely happen since we preload animals theme
+                showMessage(typeof t !== 'undefined' ? t('pleaseWaitForThemesToLoad') : 'Please wait for themes to load...', 'error');
                 return null;
             }
             const randomTheme = availableThemes[Math.floor(Math.random() * availableThemes.length)];
@@ -1303,22 +1572,23 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         
         if (sourceImages.length === 0) {
-            showMessage('No images selected or available to generate the puzzle.', 'error');
+            showMessage(typeof t !== 'undefined' ? t('noImagesSelectedOrAvailable') : 'No images selected or available to generate the puzzle.', 'error');
             return null;
         }
 
         const settings = {
-            wordsConfig: sourceImages.map(img => ({word: img.word, path: img.path})),
+            wordsConfig: sourceImages.map(img => ({word: img.word, path: img.path, name: img.name || img.word})),
             rows: parseInt(rowsInput.value),
             cols: parseInt(colsInput.value),
             allowDiagonal: allowDiagonalInput.checked,
             allowReverseWords: allowReverseWordsInput.checked,
-            showWordList: showWordListInput.checked
+            showWordList: showWordListInput.checked,
+            classicMode: classicModeInput.checked
         };
         
         const gridData = generateGridData(settings);
         if (gridData.placedWordsInfo.length < 1) {
-             showMessage('Failed to place any words. Try a larger grid or different words.', 'error');
+             showMessage(typeof t !== 'undefined' ? t('failedToPlaceWords') : 'Failed to place any words. Try a larger grid or different words.', 'error');
              return null;
         }
         
@@ -1337,7 +1607,10 @@ document.addEventListener("DOMContentLoaded", function() {
             if(allowDiagonal) directions.push({dr: -1, dc: -1}, {dr: -1, dc: 1});
         }
         
-        const wordsToPlace = shuffleArray(wordsConfig.map(w => w.word.toUpperCase().replace(/[^A-Z]/g, '')));
+        // Keep only letters (including international characters) and remove spaces/punctuation
+        const wordsToPlace = shuffleArray(wordsConfig.map(w => {
+            return w.word.toUpperCase().replace(/[^A-ZÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞŸ]/gi, '');
+        }));
         let colorIndex = 0;
 
         for (const word of wordsToPlace) {
@@ -1371,7 +1644,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         }
         
-        const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        const alphabet = getAlphabetForLocale(currentLocale);
         for (let r = 0; r < rows; r++) {
             for (let c = 0; c < cols; c++) {
                 if (grid[r][c] === '') grid[r][c] = alphabet[Math.floor(Math.random() * alphabet.length)];
@@ -1386,105 +1659,349 @@ document.addEventListener("DOMContentLoaded", function() {
         const { rows, cols } = settings;
         const tag = isAnswerKey ? 'isAnswerKeyItem' : 'isPuzzleElement';
 
-        // --- Create Grid Group ---
-        const gridObjects = [];
-        const totalGridWidth = 500;
-        const cellSize = totalGridWidth / cols;
-        for (let r = 0; r < rows; r++) {
-            for (let c = 0; c < cols; c++) {
-                gridObjects.push(new fabric.Rect({
-                    left: c * cellSize, top: r * cellSize,
-                    width: cellSize, height: cellSize, fill: 'white',
-                    stroke: '#ccc', strokeWidth: 1,
-                }));
-                gridObjects.push(new fabric.Text(grid[r][c], {
-                    left: c * cellSize + cellSize / 2,
-                    top: r * cellSize + cellSize / 2,
-                    fontSize: cellSize * 0.6, fontFamily: 'Fredoka',
-                    originX: 'center', originY: 'center',
-                }));
-            }
+        // Professional layout with proper margins (10% on each side = 80% usable area)
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const marginRatio = 0.1; // 10% margins
+        const usableWidth = pageWidth * (1 - 2 * marginRatio);
+        const usableHeight = pageHeight * (1 - 2 * marginRatio);
+        
+        // Determine if landscape or portrait
+        const isLandscape = pageWidth > pageHeight;
+        
+        // Calculate optimal grid size based on page orientation and word count
+        const wordsCount = placedWordsInfo.length;
+        let gridTargetSize;
+        
+        if (isLandscape) {
+            // Landscape: grid on left, word list on right
+            gridTargetSize = Math.min(usableHeight * 0.8, usableWidth * 0.5);
+        } else {
+            // Portrait: grid on top, word list below
+            gridTargetSize = Math.min(usableWidth * 0.9, usableHeight * 0.5);
         }
+        
+        // Ensure grid fits with proper aspect ratio
+        const gridAspectRatio = rows / cols;
+        let totalGridWidth, totalGridHeight;
+        
+        if (gridAspectRatio > 1) {
+            // More rows than columns
+            totalGridHeight = gridTargetSize;
+            totalGridWidth = gridTargetSize / gridAspectRatio;
+        } else {
+            // More columns than rows (or square)
+            totalGridWidth = gridTargetSize;
+            totalGridHeight = gridTargetSize * gridAspectRatio;
+        }
+        
+        const cellSize = totalGridWidth / cols;
+        
+        // Create grid using Fabric.js objects (like Image Crossword does)
+        const gridElements = [];
+        
+        // Background rectangle
+        const background = new fabric.Rect({
+            left: 0,
+            top: 0,
+            width: totalGridWidth,
+            height: totalGridHeight,
+            fill: 'white',
+            stroke: null,
+            selectable: false,
+            evented: false
+        });
+        gridElements.push(background);
+        
+        // Draw answer key highlights if needed
         if (isAnswerKey) {
             placedWordsInfo.forEach(({word, r, c, dr, dc, color}) => {
                 for (let i = 0; i < word.length; i++) {
-                    gridObjects.push(new fabric.Rect({
-                        left: (c + dc * i) * cellSize, top: (r + dr * i) * cellSize,
-                        width: cellSize, height: cellSize, fill: color,
-                    }));
+                    const highlight = new fabric.Rect({
+                        left: (c + dc * i) * cellSize,
+                        top: (r + dr * i) * cellSize,
+                        width: cellSize,
+                        height: cellSize,
+                        fill: color,
+                        stroke: null,
+                        selectable: false,
+                        evented: false
+                    });
+                    gridElements.push(highlight);
                 }
             });
-            for (let r = 0; r < rows; r++) {
-                for (let c = 0; c < cols; c++) {
-                    gridObjects.push(new fabric.Text(grid[r][c], {
-                        left: c * cellSize + cellSize / 2, top: r * cellSize + cellSize / 2,
-                        fontSize: cellSize * 0.6, fontFamily: 'Fredoka',
-                        originX: 'center', originY: 'center',
-                    }));
-                }
+        }
+        
+        // Draw grid lines using Fabric.js lines
+        // Vertical lines
+        for (let i = 1; i < cols; i++) {
+            const line = new fabric.Line([i * cellSize, 0, i * cellSize, totalGridHeight], {
+                stroke: '#999',
+                strokeWidth: 1,
+                selectable: false,
+                evented: false
+            });
+            gridElements.push(line);
+        }
+        
+        // Horizontal lines
+        for (let i = 1; i < rows; i++) {
+            const line = new fabric.Line([0, i * cellSize, totalGridWidth, i * cellSize], {
+                stroke: '#999',
+                strokeWidth: 1,
+                selectable: false,
+                evented: false
+            });
+            gridElements.push(line);
+        }
+        
+        // Draw outer border as a single rectangle to ensure corners connect
+        const outerBorder = new fabric.Rect({
+            left: 0,
+            top: 0,
+            width: totalGridWidth,
+            height: totalGridHeight,
+            fill: 'transparent',
+            stroke: '#333',
+            strokeWidth: 2, // 30% less thick (was 3, now 2)
+            selectable: false,
+            evented: false
+        });
+        gridElements.push(outerBorder);
+        
+        // Add letters
+        for (let r = 0; r < rows; r++) {
+            for (let c = 0; c < cols; c++) {
+                const letter = new fabric.Text(grid[r][c], {
+                    left: c * cellSize + cellSize / 2,
+                    top: r * cellSize + cellSize / 2,
+                    fontSize: cellSize * 0.55,
+                    fontFamily: 'Arial',
+                    fontWeight: 'bold',
+                    fill: 'black',
+                    originX: 'center',
+                    originY: 'center',
+                    selectable: false,
+                    evented: false
+                });
+                gridElements.push(letter);
             }
         }
-        const puzzleGridGroup = new fabric.Group(gridObjects, {
-            [tag]: true, originalIndex: 'grid_0', selectable: true, evented: true,
-            objectCaching: false, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
+        
+        // Group all grid elements
+        const puzzleGridGroup = new fabric.Group(gridElements, {
+            [tag]: true,
+            originalIndex: 'grid_0',
+            selectable: true,
+            evented: true,
+            borderColor: 'var(--app-accent-primary)',
+            cornerColor: 'var(--app-accent-primary)'
         });
 
-        // --- Create Clue Groups ---
-        const placedWords = placedWordsInfo.map(p => p.word);
-        const wordsToDisplay = settings.wordsConfig.filter(wc => placedWords.includes(wc.word.toUpperCase()));
-        const listTop = puzzleGridGroup.height + 30;
-        const listWidth = totalGridWidth;
-        const itemsPerRow = 4;
+        // --- Create Word List with Smart Layout ---
+        // Ensure we only display words that were actually placed in the grid
+        const placedWords = placedWordsInfo.map(p => p.word.toUpperCase());
+        const wordsToDisplay = settings.wordsConfig.filter(wc => {
+            const wordUpper = wc.word.toUpperCase();
+            return placedWords.includes(wordUpper);
+        });
+        
+        // Double-check that we're not showing more words than were placed
+        if (wordsToDisplay.length !== placedWordsInfo.length) {
+            console.warn(`Mismatch: ${wordsToDisplay.length} words to display vs ${placedWordsInfo.length} placed words`);
+        }
+        
+        // Calculate word list layout based on orientation
+        let listLeft, listTop, listWidth, listHeight;
+        let itemsPerRow, itemsPerCol;
+        
+        if (isLandscape) {
+            // Landscape: word list on the right side
+            listLeft = puzzleGridGroup.width + usableWidth * 0.05; // 5% gap
+            listTop = 0;
+            listWidth = usableWidth - puzzleGridGroup.width - usableWidth * 0.05;
+            listHeight = usableHeight;
+            
+            // Calculate optimal grid for word items
+            itemsPerCol = Math.ceil(Math.sqrt(wordsToDisplay.length * (listHeight / listWidth)));
+            itemsPerRow = Math.ceil(wordsToDisplay.length / itemsPerCol);
+        } else {
+            // Portrait: word list below the grid
+            listLeft = 0;
+            listTop = puzzleGridGroup.height + usableHeight * 0.05; // 5% gap
+            listWidth = usableWidth;
+            listHeight = usableHeight - puzzleGridGroup.height - usableHeight * 0.05;
+            
+            // Calculate optimal grid for word items
+            itemsPerRow = Math.min(4, Math.ceil(Math.sqrt(wordsToDisplay.length)));
+            itemsPerCol = Math.ceil(wordsToDisplay.length / itemsPerRow);
+        }
+        
         const itemWidth = listWidth / itemsPerRow;
-        const itemHeight = itemWidth;
+        const itemHeight = Math.min(itemWidth, listHeight / itemsPerCol);
 
-        const imageLoadPromises = wordsToDisplay.map((wordInfo, i) => {
-            return new Promise(resolve => {
-                const row = Math.floor(i / itemsPerRow);
-                const col = i % itemsPerRow;
-                const itemLeft = col * itemWidth;
-                const itemTop = listTop + row * itemHeight;
+        // Create text elements immediately without waiting for images
+        const wordListClues = [];
+        const imageLoadConfigs = [];
 
-                fabric.Image.fromURL(wordInfo.path, (img) => {
-                    const groupObjects = [];
-                    if(img){
-                        img.scaleToHeight(itemHeight * 0.7);
-                        img.set({ originX: 'center', top: 0 });
-                        groupObjects.push(img);
-                    }
-                    if (settings.showWordList || isAnswerKey) {
-                        groupObjects.push(new fabric.Textbox(wordInfo.word, {
-                            fontSize: 16, fontFamily: 'Fredoka', width: itemWidth, textAlign: 'center',
-                            originX: 'center', top: (img ? img.getScaledHeight() : 0)
-                        }));
-                    }
-                    const group = new fabric.Group(groupObjects, {
-                        left: itemLeft, top: itemTop, [tag]: true, originalIndex: `clue_${i}`,
-                        selectable: true, evented: true, objectCaching: false,
-                        borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
+        // Determine display mode
+        const classicMode = settings.classicMode || false;
+
+        wordsToDisplay.forEach((wordInfo, i) => {
+            const row = Math.floor(i / itemsPerRow);
+            const col = i % itemsPerRow;
+            const itemLeft = listLeft + col * itemWidth;
+            const itemTop = listTop + row * itemHeight;
+
+            // Classic mode: show only text
+            if (classicMode) {
+                // Scale font size based on item size
+                const fontSize = Math.min(20, Math.max(12, itemHeight * 0.12));
+
+                // Use translated name if available, otherwise fall back to word
+                const displayName = wordInfo.name || wordInfo.word;
+                const text = new fabric.Textbox(displayName, {
+                    fontSize: fontSize,
+                    fontFamily: 'Arial, sans-serif',
+                    width: itemWidth * 0.9,
+                    textAlign: 'center',
+                    left: itemLeft + itemWidth/2,
+                    top: itemTop + itemHeight * 0.5, // Center text vertically in classic mode
+                    originX: 'center',
+                    originY: 'center',
+                    fontWeight: '500',
+                    [tag]: true,
+                    originalIndex: `clue_text_${i}`,
+                    selectable: true,
+                    evented: true
+                });
+                wordListClues.push(text);
+            }
+            // Normal mode: show images with optional text
+            else {
+                // Add text if showWordList is checked or it's an answer key
+                if (settings.showWordList || isAnswerKey) {
+                    // Scale font size based on item size
+                    const fontSize = Math.min(20, Math.max(12, itemHeight * 0.12));
+
+                    // Use translated name if available, otherwise fall back to word
+                    const displayName = wordInfo.name || wordInfo.word;
+                    const text = new fabric.Textbox(displayName, {
+                        fontSize: fontSize,
+                        fontFamily: 'Arial, sans-serif',
+                        width: itemWidth * 0.9,
+                        textAlign: 'center',
+                        left: itemLeft + itemWidth/2,
+                        top: itemTop + itemHeight * 0.92, // Text at very bottom with clear spacing
+                        originX: 'center',
+                        fontWeight: '500',
+                        [tag]: true,
+                        originalIndex: `clue_text_${i}`,
+                        selectable: true,
+                        evented: true
                     });
-                    resolve(group);
-                }, { crossOrigin: 'anonymous' });
+                    wordListClues.push(text);
+                }
+
+                // Always store image info to load (will display images regardless of showWordList)
+                imageLoadConfigs.push({
+                    path: wordInfo.path,
+                    baseLeft: itemLeft + itemWidth/2,
+                    baseTop: itemTop + itemHeight * 0.42, // Center images slightly higher
+                    height: itemHeight * 0.32, // Smaller images (32%) for better spacing
+                    index: i
+                });
+            }
+        });
+        
+        // --- Apply Professional Layout with Margins ---
+        const allElements = [puzzleGridGroup, ...wordListClues];
+        
+        // Position grid first
+        const marginX = pageWidth * marginRatio;
+        const marginY = pageHeight * marginRatio;
+        
+        if (isLandscape) {
+            // Landscape: grid on left
+            puzzleGridGroup.set({
+                left: marginX,
+                top: marginY + (usableHeight - puzzleGridGroup.height) / 2
+            });
+        } else {
+            // Portrait: grid centered at top
+            puzzleGridGroup.set({
+                left: marginX + (usableWidth - puzzleGridGroup.width) / 2,
+                top: marginY
+            });
+        }
+        
+        // Update word list positions to be relative to the margin
+        wordListClues.forEach((elem, index) => {
+            if (elem) {
+                const row = Math.floor(index / itemsPerRow);
+                const col = index % itemsPerRow;
+                
+                if (isLandscape) {
+                    elem.set({
+                        left: marginX + totalGridWidth + usableWidth * 0.05 + col * itemWidth + itemWidth/2,
+                        top: marginY + row * itemHeight + itemHeight * 0.92
+                    });
+                } else {
+                    elem.set({
+                        left: marginX + col * itemWidth + itemWidth/2,
+                        top: marginY + totalGridHeight + usableHeight * 0.05 + row * itemHeight + itemHeight * 0.92
+                    });
+                }
+            }
+        });
+        
+        // Load images synchronously to ensure proper alignment
+        const imagePromises = imageLoadConfigs.map((config) => {
+            return new Promise((resolve) => {
+                const img = new Image();
+                img.crossOrigin = 'anonymous';
+                img.onload = function() {
+                    const fabricImg = new fabric.Image(img);
+                    fabricImg.scaleToHeight(config.height);
+                    fabricImg.set({
+                        left: marginX + config.baseLeft,
+                        top: marginY + config.baseTop,
+                        originX: 'center',
+                        [tag]: true,
+                        originalIndex: `clue_img_${config.index}`,
+                        selectable: true,
+                        evented: true
+                    });
+                    allElements.push(fabricImg);
+                    resolve();
+                };
+                img.onerror = function() {
+                    console.warn('Failed to load image:', config.path);
+                    // Add transparent placeholder on error
+                    const placeholder = new fabric.Rect({
+                        left: marginX + config.baseLeft,
+                        top: marginY + config.baseTop,
+                        width: config.height * 0.8,
+                        height: config.height,
+                        fill: 'transparent',
+                        stroke: 'transparent',
+                        originX: 'center',
+                        [tag]: true,
+                        originalIndex: `clue_img_${config.index}`,
+                        selectable: true,
+                        evented: true
+                    });
+                    allElements.push(placeholder);
+                    resolve();
+                };
+                img.src = config.path;
             });
         });
-        const wordListClues = await Promise.all(imageLoadPromises);
         
-        // --- Assemble, Position, and Deconstruct ---
-        const allElements = [puzzleGridGroup, ...wordListClues];
-        const finalAssembly = new fabric.Group(allElements);
-
-        const canvas = isAnswerKey ? answerKeyCanvas : worksheetCanvas;
-        const availableWidth = canvas.width * 0.9;
-        const availableHeight = canvas.height * 0.9;
-        const scale = Math.min(availableWidth / finalAssembly.width, availableHeight / finalAssembly.height, 1);
-
-        finalAssembly.scale(scale);
-        finalAssembly.center();
-
-        const items = finalAssembly.getObjects();
-        finalAssembly._restoreObjectsState();
+        // Wait for all images to load before returning
+        await Promise.all(imagePromises);
         
-        return items;
+        return allElements;
     }
     
     function shuffleArray(arr) { return arr.slice().sort(() => Math.random() - 0.5); }
@@ -1496,7 +2013,9 @@ document.addEventListener("DOMContentLoaded", function() {
         uploadedImages = [];
         worksheetThemeSelect.value = "random_auto";
         
-        [worksheetCanvas, answerKeyCanvas].forEach(c => {
+        const canvases = [worksheetCanvas];
+        if (answerKeyCanvas) canvases.push(answerKeyCanvas);
+        canvases.forEach(c => {
             if(c) {
                 c.clear().backgroundColor = '#FFFFFF';
                 c.renderAll();
@@ -1509,9 +2028,9 @@ document.addEventListener("DOMContentLoaded", function() {
         updateCanvasDisplayDimensions(initialW, initialH);
         
         borderThemeSelect.value = 'none';
-        borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
+        borderDictionary.innerHTML = '<p class="dictionary-message">' + (typeof t !== 'undefined' ? t('selectThemeToSeeBorders') : 'Select a theme to see borders.') + '</p>';
         backgroundThemeSelect.value = 'none';
-        backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme for backgrounds.</p>';
+        backgroundDictionary.innerHTML = '<p class="dictionary-message">' + (typeof t !== 'undefined' ? t('selectThemeForBackgrounds') : 'Select a theme for backgrounds.') + '</p>';
         backgroundOpacitySlider.value = 1;
         backgroundOpacitySlider.disabled = true;
         borderOpacitySlider.value = 1;
@@ -1527,7 +2046,7 @@ document.addEventListener("DOMContentLoaded", function() {
         downloadAnswerKeyJpegBtn.disabled = true;
         downloadAnswerKeyPdfBtn.disabled = true;
         generateAnswerKeyBtn.disabled = true;
-        showMessage('All settings cleared.', 'success');
+        showMessage(typeof t !== 'undefined' ? t('allSettingsCleared') : 'All settings cleared.', 'success');
     }
     
     // --- UI & EVENT HANDLERS ---
@@ -1541,34 +2060,88 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
     
+    // --- Lazy Loading Setup ---
+    function setupLazyLoading() {
+        const lazyImages = document.querySelectorAll('.lazy-image');
+        
+        if ('IntersectionObserver' in window) {
+            const imageObserver = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const img = entry.target;
+                        img.src = img.dataset.src;
+                        img.classList.remove('lazy-image');
+                        observer.unobserve(img);
+                    }
+                });
+            }, {
+                rootMargin: '50px 0px',
+                threshold: 0.01
+            });
+            
+            lazyImages.forEach(img => imageObserver.observe(img));
+        } else {
+            // Fallback for older browsers
+            lazyImages.forEach(img => {
+                img.src = img.dataset.src;
+            });
+        }
+    }
+
     // --- Image Library Handlers ---
+    
+    async function preloadDefaultTheme() {
+        // Silently preload animals theme and its images in background
+        try {
+            const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+            if (response.ok) {
+                const data = await response.json();
+                // CRITICAL: API returns {images: [...]} not direct array
+                const images = data.images || data;
+                allImagesCache['animals'] = images;
+
+                // Preload first 8 actual images in browser cache
+                const imagesToPreload = images.slice(0, 8);
+                imagesToPreload.forEach(imgData => {
+                    const img = new Image();
+                    img.src = imgData.path;
+                });
+            }
+        } catch (error) {
+            // Fail silently - not critical
+        }
+    }
+    
     async function loadThemes() {
         try {
-            const response = await fetch('/api/themes/nested');
+            // Get elements fresh each time to ensure they exist
+            const worksheetThemeSelectEl = document.getElementById('worksheetThemeSelect');
+            const themeSelectEl = document.getElementById('themeSelect');
+            
+            if (!worksheetThemeSelectEl || !themeSelectEl) {
+                console.error('Theme select elements not found');
+                return;
+            }
+            
+            // Use the filesystem API directly (faster and more reliable)
+            const response = await fetch(`/api/themes-translated?locale=${currentLocale}`);
             if (!response.ok) throw new Error('Failed to load themes');
-            const themePaths = await response.json();
+            const themeData = await response.json();
 
-            const allThemesOption = `<option value="all">All Themes (Randomly)</option>`;
-            worksheetThemeSelect.innerHTML = `<option value="random_auto">-- Use Random Theme --</option>` + allThemesOption;
-            themeSelect.innerHTML = `<option value="all">All Themes (for search)</option>`;
+            const randomThemeText = typeof t !== 'undefined' ? t('useRandomTheme') : '-- Use Random Theme --';
+            const allThemesRandomText = typeof t !== 'undefined' ? t('allThemesRandomly') : 'All Themes (Randomly)';
+            const allThemesSearchText = typeof t !== 'undefined' ? t('allThemesForSearch') : 'All Themes (for search)';
+            const allThemesOption = `<option value="all">${allThemesRandomText}</option>`;
+            worksheetThemeSelectEl.innerHTML = `<option value="random_auto">${randomThemeText}</option>` + allThemesOption;
+            themeSelectEl.innerHTML = `<option value="all">${allThemesSearchText}</option>`;
 
-            themePaths.forEach(path => {
-                const displayName = path.split('/').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' / ');
-                const optionHtml = `<option value="${path}">${displayName}</option>`;
-                themeSelect.innerHTML += optionHtml;
-                worksheetThemeSelect.innerHTML += optionHtml;
+            themeData.forEach(theme => {
+                const optionHtml = `<option value="${theme.value}">${theme.displayName}</option>`;
+                themeSelectEl.innerHTML += optionHtml;
+                worksheetThemeSelectEl.innerHTML += optionHtml;
             });
 
-            for (const path of themePaths) {
-                if (!allImagesCache[path]) {
-                    const res = await fetch(`/api/images?theme=${encodeURIComponent(path)}`);
-                    if(res.ok) allImagesCache[path] = await res.json();
-                }
-            }
-            const allRes = await fetch(`/api/images?search=`);
-            if (allRes.ok) allImagesCache['all'] = await allRes.json();
-            
-            await renderDictionary();
+            // Don't load anything here - renderDictionary will be called separately
 
         } catch (error) {
             console.error("Error loading themes:", error);
@@ -1584,24 +2157,29 @@ document.addEventListener("DOMContentLoaded", function() {
         let imagesToDisplay = [];
 
         try {
-            if (selectedTheme === 'all') {
-                if (!query) {
-                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
-                    return;
-                }
+            if (selectedTheme === 'all' && query) {
+                // Search across all images
                 dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
-                const response = await fetch(`/api/images?search=${encodeURIComponent(query)}`);
+                const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
                 if (!response.ok) throw new Error(`Failed to search for "${query}"`);
-                imagesToDisplay = await response.json();
+                const searchData = await response.json();
+                imagesToDisplay = searchData.images || searchData; // Handle both new and old API formats
             } else {
-                if (!allImagesCache[selectedTheme]) {
+                // Load specific theme (or default to animals if 'all' with no query)
+                const themeToLoad = (selectedTheme === 'all' && !query) ? 'animals' : selectedTheme;
+                if (!allImagesCache[themeToLoad]) {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading theme...</p>`;
-                    const response = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}`);
-                    if (!response.ok) throw new Error(`Failed to load theme: ${selectedTheme}`);
-                    allImagesCache[selectedTheme] = await response.json();
+                    // Load theme images (direct API for speed)
+                    const response = await fetch(`/api/images?theme=${encodeURIComponent(themeToLoad)}&locale=${currentLocale}`);
+                    if (!response.ok) throw new Error(`Failed to load theme: ${themeToLoad}`);
+                    const themeData = await response.json();
+                    allImagesCache[themeToLoad] = themeData.images || themeData; // Handle both new and old API formats
                 }
-                const source = allImagesCache[selectedTheme] || [];
-                imagesToDisplay = query ? source.filter(img => img.word.toLowerCase().includes(query)) : source;
+                const source = allImagesCache[themeToLoad] || [];
+                imagesToDisplay = query ? source.filter(img => {
+                    const displayName = (img.name || img.word).toLowerCase();
+                    return displayName.includes(query);
+                }) : source;
             }
         } catch (error) {
             console.error("Error fetching images:", error);
@@ -1615,19 +2193,52 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         dictionaryDiv.innerHTML = '';
-        imagesToDisplay.sort((a, b) => a.word.localeCompare(b.word)).forEach((img) => {
-            const item = createThumbnailItem(img);
-            dictionaryDiv.appendChild(item);
+        
+        // Create a document fragment for better performance
+        const fragment = document.createDocumentFragment();
+        
+        imagesToDisplay.sort((a, b) => {
+            const nameA = a.name || a.word;
+            const nameB = b.name || b.word;
+            return nameA.localeCompare(nameB);
+        }).forEach((img, index) => {
+            const item = createThumbnailItem(img, index);
+            fragment.appendChild(item);
         });
+        
+        dictionaryDiv.appendChild(fragment);
     }
 
-    function createThumbnailItem(image) {
+    function createThumbnailItem(image, index = 0) {
         const item = document.createElement("div");
         item.className = "dictionary-item";
         if (userSelectedImages.some(i => i.path === image.path)) {
             item.classList.add('selected');
         }
-        item.innerHTML = `<img src="${image.path}" crossOrigin="anonymous" alt="${image.word}" loading="lazy"/><span>${image.word}</span>`;
+        
+        const imgElement = document.createElement("img");
+        
+        // Only load first 10 images immediately for faster initial display
+        if (index < 10) {
+            imgElement.src = image.path;
+        } else {
+            // Use native lazy loading for rest
+            imgElement.loading = "lazy";
+            imgElement.src = image.path;
+        }
+        
+        imgElement.alt = image.word;
+        imgElement.crossOrigin = "anonymous";
+        imgElement.style.width = "60px";
+        imgElement.style.height = "60px";
+        imgElement.style.objectFit = "contain";
+        
+        const span = document.createElement("span");
+        const displayName = image.name || image.word;
+        span.textContent = displayName;
+        
+        item.appendChild(imgElement);
+        item.appendChild(span);
         item.onclick = () => handleImageSelection(image);
         return item;
     }
@@ -1639,7 +2250,8 @@ document.addEventListener("DOMContentLoaded", function() {
             userSelectedImages.splice(index, 1);
         } else {
             if (userSelectedImages.length >= MAX_WORDS) {
-                showMessage(`You can select a maximum of ${MAX_WORDS} images.`, 'error');
+                const maxImagesMsg = typeof t !== 'undefined' ? t('maxImagesSelected').replace('{}', MAX_WORDS) : `You can select a maximum of ${MAX_WORDS} images.`;
+                showMessage(maxImagesMsg, 'error');
                 return;
             }
             userSelectedImages.push(image);
@@ -1649,13 +2261,36 @@ document.addEventListener("DOMContentLoaded", function() {
         renderUploadedImages();
     }
 
-    function handleWorksheetThemeChange() {
-        if (worksheetThemeSelect.value !== 'random_auto') {
+    async function handleWorksheetThemeChange() {
+        const selectedTheme = worksheetThemeSelect.value;
+        if (selectedTheme !== 'random_auto') {
             userSelectedImages = [];
             renderSelectedImages();
             renderDictionary();
             renderUploadedImages();
-            showMessage(`Puzzle will generate using the '${worksheetThemeSelect.options[worksheetThemeSelect.selectedIndex].text}' theme.`, 'info');
+            const puzzleGenMsg = typeof t !== 'undefined' ? t('puzzleWillGenerateUsing').replace('{}', worksheetThemeSelect.options[worksheetThemeSelect.selectedIndex].text) : `Puzzle will generate using the '${worksheetThemeSelect.options[worksheetThemeSelect.selectedIndex].text}' theme.`;
+            showMessage(puzzleGenMsg, 'info');
+            
+            // Preload theme if not cached
+            if (selectedTheme !== 'all' && !allImagesCache[selectedTheme]) {
+                try {
+                    const response = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        // CRITICAL: API returns {images: [...]} not direct array
+                        const images = data.images || data;
+                        allImagesCache[selectedTheme] = images;
+
+                        // Preload first 8 images
+                        images.slice(0, 8).forEach(imgData => {
+                            const img = new Image();
+                            img.src = imgData.path;
+                        });
+                    }
+                } catch (error) {
+                    // Silent fail
+                }
+            }
         }
     }
 
@@ -1690,12 +2325,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 filesToLoad--;
                 if (filesToLoad === 0) {
                     renderUploadedImages();
-                    showMessage(`${uploadedImages.length} custom image(s) available.`, 'success');
+                    const customImgMsg = typeof t !== 'undefined' ? t('customImagesAvailable').replace('{}', uploadedImages.length) : `${uploadedImages.length} custom image(s) available.`;
+                    showMessage(customImgMsg, 'success');
                 }
             };
             reader.onerror = () => {
                 filesToLoad--;
-                showMessage(`Error reading file: ${file.name}`, 'error');
+                const errorReadMsg = typeof t !== 'undefined' ? t('errorReadingFile').replace('{}', file.name) : `Error reading file: ${file.name}`;
+                showMessage(errorReadMsg, 'error');
             };
             reader.readAsDataURL(file);
         }
@@ -1705,7 +2342,8 @@ document.addEventListener("DOMContentLoaded", function() {
     function renderUploadedImages() {
         uploadedImagesPreviewDiv.innerHTML = "";
         if (uploadedImages.length === 0) {
-            uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">Your uploaded images will appear here.</p>`;
+            const uploadedMsg = typeof t !== 'undefined' ? t('yourUploadedImagesWillAppearHere') : 'Your uploaded images will appear here.';
+            uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">${uploadedMsg}</p>`;
             return;
         }
         uploadedImages.forEach(img => {
@@ -1734,7 +2372,9 @@ document.addEventListener("DOMContentLoaded", function() {
     
     function applyPageColor() {
         const newColor = pageColorInput.value;
-        [worksheetCanvas, answerKeyCanvas].forEach(c => {
+        const canvases = [worksheetCanvas];
+        if (answerKeyCanvas) canvases.push(answerKeyCanvas);
+        canvases.forEach(c => {
              if(c) {
                 c.backgroundColor = newColor;
                 c.renderAll();
@@ -1742,25 +2382,36 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    function loadAssetThemes(type, selectEl) {
-         fetch(`/api/${type}/themes`)
-            .then(res => res.ok ? res.json() : Promise.reject(`Failed to load ${type} themes`))
-            .then(themes => {
-                selectEl.innerHTML = `<option value="none">None</option>`;
-                themes.forEach(theme => {
-                    const opt = document.createElement("option");
-                    opt.value = theme; opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
-                    selectEl.appendChild(opt);
-                });
-            })
-            .catch(err => { console.error(`Error loading ${type} themes:`, err); });
+    async function loadAssetThemes(type, selectEl) {
+        try {
+            // First option is always None
+            selectEl.innerHTML = `<option value="none" data-translate="none">None</option>`;
+
+            // Fetch actual themes from the filesystem API
+            const response = await fetch(`/api/${type}/themes`);
+            if (!response.ok) {
+                console.error(`Failed to load ${type} themes`);
+                return;
+            }
+
+            const themes = await response.json();
+            // Add each theme as an option
+            themes.forEach(theme => {
+                const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                selectEl.innerHTML += `<option value="${theme}">${displayName}</option>`;
+            });
+        } catch (error) {
+            console.error(`Error loading ${type} themes:`, error);
+        }
     }
         
     function loadAssetImages(type, theme, dictionaryEl, addFunc, opacitySlider) {
         const assetType = type.slice(0, -1);
         const propName = `is${assetType.charAt(0).toUpperCase() + assetType.slice(1)}`;
 
-        [worksheetCanvas, answerKeyCanvas].forEach(c => {
+        const canvases = [worksheetCanvas];
+        if (answerKeyCanvas) canvases.push(answerKeyCanvas);
+        canvases.forEach(c => {
             if (c) {
                 const existing = c.getObjects().find(obj => obj[propName]);
                 if (existing) c.remove(existing);
@@ -1772,14 +2423,25 @@ document.addEventListener("DOMContentLoaded", function() {
         opacitySlider.disabled = true;
 
         if (theme === 'none') {
-            [worksheetCanvas, answerKeyCanvas].forEach(c => c && c.renderAll());
-            dictionaryEl.innerHTML = `<p class="dictionary-message">Select a theme to see ${type}.</p>`;
+            const canvases = [worksheetCanvas];
+            if (answerKeyCanvas) canvases.push(answerKeyCanvas);
+            canvases.forEach(c => c && c.renderAll());
+            const selectMsg = type === 'borders' ? (typeof t !== 'undefined' ? t('selectThemeToSeeBorders') : 'Select a theme to see borders.') : (typeof t !== 'undefined' ? t('selectThemeForBackgrounds') : 'Select a theme for backgrounds.');
+            dictionaryEl.innerHTML = `<p class="dictionary-message">${selectMsg}</p>`;
             return;
         }
-        dictionaryEl.innerHTML = `<p class="dictionary-message">Loading ${theme} ${type}...</p>`;
-        fetch(`/api/${type}/images?theme=${theme}`)
+        const loadingKey = type === 'borders' ? 'loadingThemeBorders' : 'loadingThemeBackgrounds';
+        const loadingMsg = typeof t !== 'undefined' ? t(loadingKey).replace('{}', theme) : `Loading ${theme} ${type}...`;
+        dictionaryEl.innerHTML = `<p class="dictionary-message">${loadingMsg}</p>`;
+
+        // Use filesystem endpoint for specific themes
+        const apiUrl = `/api/${type}/images?theme=${theme}`;
+
+        fetch(apiUrl)
             .then(res => res.ok ? res.json() : Promise.reject(`Error loading ${type} images`))
-            .then(images => {
+            .then(data => {
+                // Handle both API response formats
+                const images = data.images || data;
                 dictionaryEl.innerHTML = "";
                 if (images.length === 0) { dictionaryEl.innerHTML = `<p class="dictionary-message">No ${type} in this theme.</p>`; return; }
                 images.forEach(asset => {
@@ -1797,8 +2459,9 @@ document.addEventListener("DOMContentLoaded", function() {
             .catch(err => { console.error(err); dictionaryEl.innerHTML = `<p class="dictionary-message">${err}.</p>`; });
     }
 
-    function loadBorderThemes() { loadAssetThemes('borders', borderThemeSelect); }
-    function loadBackgroundThemes() { loadAssetThemes('backgrounds', backgroundThemeSelect); }
+    // REPLACED BY BulletproofLoader - these functions are no longer needed
+    // async function loadBorderThemes() { await loadAssetThemes('borders', borderThemeSelect); }
+    // async function loadBackgroundThemes() { await loadAssetThemes('backgrounds', backgroundThemeSelect); }
     function loadBorderImages() { loadAssetImages('borders', borderThemeSelect.value, borderDictionary, addBorderToCanvas, borderOpacitySlider); }
     function loadBackgroundImages() { loadAssetImages('backgrounds', backgroundThemeSelect.value, backgroundDictionary, addBackgroundToCanvas, backgroundOpacitySlider); }
     
@@ -1806,28 +2469,38 @@ document.addEventListener("DOMContentLoaded", function() {
         const img = await new Promise((resolve) => fabric.Image.fromURL(path, resolve, { crossOrigin: 'anonymous' }));
         if (!img) return;
 
-        const applyOverlay = (canvas, isEditable) => {
-            if (!canvas) return;
-            const existing = canvas.getObjects().find(obj => obj[propName]);
-            if (existing) canvas.remove(existing);
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
 
-            img.clone(clonedImg => {
-                clonedImg.set({
-                    [propName]: true,
-                    originX: 'center', originY: 'center',
-                    left: canvas.width / 2, top: canvas.height / 2,
-                    selectable: isEditable, evented: isEditable,
-                    opacity: parseFloat(opacitySlider.value)
-                });
-                clonedImg.scaleToWidth(canvas.width, false);
-                clonedImg.scaleToHeight(canvas.height, false);
-                canvas.add(clonedImg);
-                enforceZOrder(canvas);
+        const existing = activeCanvas.getObjects().find(obj => obj[propName]);
+        if (existing) activeCanvas.remove(existing);
+
+        img.clone(clonedImg => {
+            // Use ACTUAL canvas dimensions, not display dimensions (THIS IS THE FIX!)
+            const actualWidth = currentCanvasConfig.width;
+            const actualHeight = currentCanvasConfig.height;
+
+            // Scale to 70% of ACTUAL canvas height while preserving aspect ratio
+            const targetHeight = actualHeight * 0.7;
+            const scaleFactor = targetHeight / img.height;
+
+            clonedImg.set({
+                [propName]: true,
+                originX: 'center',
+                originY: 'center',
+                left: actualWidth / 2,  // Use actual dimensions for correct centering
+                top: actualHeight / 2,  // Use actual dimensions for correct centering
+                scaleX: scaleFactor,
+                scaleY: scaleFactor,
+                selectable: true,
+                evented: true,
+                opacity: parseFloat(opacitySlider.value)
             });
-        };
 
-        applyOverlay(worksheetCanvas, true);
-        applyOverlay(answerKeyCanvas, true);
+            activeCanvas.add(clonedImg);
+            enforceZOrder(activeCanvas);
+            activeCanvas.renderAll();
+        });
     }
 
     function addBorderToCanvas(path) { addOverlayToCanvas(path, 'isBorder', borderOpacitySlider); }
@@ -1835,20 +2508,24 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function applyBackgroundOpacity() {
         const opacity = parseFloat(backgroundOpacitySlider.value);
-        [worksheetCanvas, answerKeyCanvas].forEach(c => {
-            if (!c) return;
-            const bgImg = c.getObjects().find(o => o.isBackground);
-            if (bgImg) { bgImg.set('opacity', opacity); c.renderAll(); }
-        });
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+        const bgImg = activeCanvas.getObjects().find(o => o.isBackground);
+        if (bgImg) {
+            bgImg.set('opacity', opacity);
+            activeCanvas.renderAll();
+        }
     }
 
     function applyBorderOpacity() {
         const opacity = parseFloat(borderOpacitySlider.value);
-        [worksheetCanvas, answerKeyCanvas].forEach(c => {
-            if (!c) return;
-            const borderImg = c.getObjects().find(o => o.isBorder);
-            if (borderImg) { borderImg.set('opacity', opacity); c.renderAll(); }
-        });
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+        const borderImg = activeCanvas.getObjects().find(o => o.isBorder);
+        if (borderImg) {
+            borderImg.set('opacity', opacity);
+            activeCanvas.renderAll();
+        }
     }
 
     function enforceZOrder(canvas) {
@@ -1869,12 +2546,29 @@ document.addEventListener("DOMContentLoaded", function() {
         if (!activeCanvas) return;
         const textContent = textInput.value.trim() || 'New Text';
         const textObject = new fabric.Textbox(textContent, {
-            left: fabric.util.getRandomInt(50, activeCanvas.width - 250),
-            top: fabric.util.getRandomInt(50, activeCanvas.height - 100),
-            fontSize: 48, fill: '#333333', fontFamily: fontFamilySelect.value,
-            width: 200, padding: 8, borderColor: 'var(--app-accent-primary)',
-            cornerColor: 'var(--app-accent-primary)', cornerSize: 10,
-            transparentCorners: false, cornerStyle: 'circle'
+            // Position - Always centered
+            left: (currentCanvasConfig.width - 250) / 2,
+            top: (currentCanvasConfig.height - 100) / 2,
+
+            // Typography - Always consistent
+            fontSize: 48,
+            fill: '#333333',
+            fontFamily: 'Arial',  // Standardized font
+
+            // Dimensions - Prevent text wrapping
+            width: 250,  // Standardized width
+            padding: 8,
+
+            // Styling - Professional appearance
+            borderColor: 'var(--app-accent-primary)',
+            cornerColor: 'var(--app-accent-primary)',
+            cornerSize: 10,
+            transparentCorners: false,
+            cornerStyle: 'circle',
+
+            // Stroke - No outline by default
+            stroke: '#000000',
+            strokeWidth: 0
         });
         activeCanvas.add(textObject).setActiveObject(textObject);
         activeCanvas.renderAll();
@@ -1899,7 +2593,27 @@ document.addEventListener("DOMContentLoaded", function() {
     
     // --- Download Handlers ---
     async function getCanvasDataURLWithOptions(canvasInstance, exportOpts) {
+        // Save current state
+        const currentZoom = canvasInstance.getZoom();
+        const currentWidth = canvasInstance.getWidth();
+        const currentHeight = canvasInstance.getHeight();
+        
+        // Reset to actual dimensions for export
+        canvasInstance.setZoom(1);
+        canvasInstance.setDimensions({
+            width: currentCanvasConfig.width,
+            height: currentCanvasConfig.height
+        });
+        
         let dataURL = canvasInstance.toDataURL({ format: 'jpeg', quality: 1.0, multiplier: exportOpts.multiplier });
+        
+        // Restore the display state after export
+        canvasInstance.setZoom(currentZoom);
+        canvasInstance.setDimensions({
+            width: currentWidth,
+            height: currentHeight
+        });
+        
         if (exportOpts.applyGrayscale) {
             try { dataURL = await applyGrayscaleToDataURL(dataURL); }
             catch (error) { console.error("Grayscale failed:", error); }
@@ -1930,33 +2644,169 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     async function downloadImageFile(canvasToExport, fileName) {
-        if (!canvasToExport || canvasToExport.getObjects().length === 0) return showMessage('Please generate content first.', 'error');
-        showMessage('Preparing JPEG...', 'info', 0);
-        const exportOptions = { multiplier: downloadMultiplier, applyGrayscale: grayscaleToggle.checked };
+        if (!canvasToExport || canvasToExport.getObjects().length === 0) return showMessage(typeof t !== 'undefined' ? t('pleaseGenerateContentFirst') : 'Please generate content first.', 'error');
+        showMessage(typeof t !== 'undefined' ? t('preparingJpeg') : 'Preparing JPEG...', 'info', 0);
+        
+        // Add watermark if free tier
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
+        
         try {
+            // Save current state
+            const currentZoom = canvasToExport.getZoom();
+            const currentWidth = canvasToExport.getWidth();
+            const currentHeight = canvasToExport.getHeight();
+            
+            // Reset for export at exact dimensions
+            canvasToExport.setZoom(1);
+            canvasToExport.setDimensions({
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
+            });
+            
+            const exportOptions = { multiplier: downloadMultiplier, applyGrayscale: grayscaleToggle.checked };
             const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+            
+            // Restore display state
+            canvasToExport.setZoom(currentZoom);
+            canvasToExport.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
+            
             const link = document.createElement('a');
             link.download = fileName;
             link.href = dataURL;
             link.click();
-            showMessage('JPEG download initiated!', 'success');
-        } catch(e) { showMessage('Error preparing JPEG.', 'error'); console.error(e); }
+            showMessage(typeof t !== 'undefined' ? t('jpegDownloadInitiated') : 'JPEG download initiated!', 'success');
+        } catch(e) { 
+            showMessage(typeof t !== 'undefined' ? t('errorPreparingJpeg') : 'Error preparing JPEG.', 'error'); 
+            console.error(e); 
+        } finally {
+            // Remove watermark after export
+            removeWatermarkFromCanvas(canvasToExport, watermarkData);
+        }
     }
 
-    async function downloadPDF(canvasToExport, fileName) {
-        if (!canvasToExport || canvasToExport.getObjects().length === 0) return showMessage('Please generate content first.', 'error');
-        showMessage('Preparing PDF...', 'info', 0);
+    
+    // Check if user is on free tier
+    function isFreeTier() {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get('tier') === 'free';
+    }
+
+    // Add watermark to canvas before export
+    function addWatermarkToCanvas(canvas) {
+        if (!isFreeTier()) return;
+        
+        const watermarkText = new fabric.Text('FREE VERSION - LessonCraftStudio.com', {
+            fontSize: 40,
+            fill: 'rgba(0, 0, 0, 0.2)',
+            angle: -45,
+            left: canvas.width / 2,
+            top: canvas.height / 2,
+            originX: 'center',
+            originY: 'center',
+            selectable: false,
+            evented: false,
+            fontFamily: 'Arial, sans-serif',
+            fontWeight: 'bold'
+        });
+        
+        // Add multiple watermarks across the canvas
+        const watermarks = [];
+        const spacing = 250;
+        for (let x = 0; x < canvas.width; x += spacing) {
+            for (let y = 0; y < canvas.height; y += spacing) {
+                const wm = new fabric.Text('FREE VERSION', {
+                    fontSize: 20,
+                    fill: 'rgba(0, 0, 0, 0.15)',
+                    angle: -45,
+                    left: x,
+                    top: y,
+                    selectable: false,
+                    evented: false,
+                    fontFamily: 'Arial, sans-serif'
+                });
+                watermarks.push(wm);
+                canvas.add(wm);
+            }
+        }
+        
+        // Add main watermark
+        canvas.add(watermarkText);
+        canvas.renderAll();
+        
+        return { mainWatermark: watermarkText, watermarks };
+    }
+
+    // Remove watermark after export
+    function removeWatermarkFromCanvas(canvas, watermarkData) {
+        if (!watermarkData) return;
+        
+        if (watermarkData.mainWatermark) {
+            canvas.remove(watermarkData.mainWatermark);
+        }
+        if (watermarkData.watermarks) {
+            watermarkData.watermarks.forEach(wm => canvas.remove(wm));
+        }
+        canvas.renderAll();
+    }
+
+
+async function downloadPDF(canvasToExport, fileName) {
+        if (!canvasToExport || canvasToExport.getObjects().length === 0) return showMessage(typeof t !== 'undefined' ? t('pleaseGenerateContentFirst') : 'Please generate content first.', 'error');
+        showMessage(typeof t !== 'undefined' ? t('preparingPdf') : 'Preparing PDF...', 'info', 0);
+        
+        // Add watermark if free tier
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
+        
         try {
             const { jsPDF } = window.jspdf;
-            const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
-            const pdf = new jsPDF({ orientation, unit: 'pt', format: [canvasToExport.width, canvasToExport.height] });
+            
+            // Save current state
+            const currentZoom = canvasToExport.getZoom();
+            const currentWidth = canvasToExport.getWidth();
+            const currentHeight = canvasToExport.getHeight();
+            
+            // Reset to actual size for export
+            canvasToExport.setZoom(1);
+            canvasToExport.setDimensions({
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
+            });
+            
+            // Determine orientation based on actual dimensions
+            const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'landscape' : 'portrait';
+            
+            // Create PDF with user-selected dimensions (exact for publishing)
+            const pdf = new jsPDF({ 
+                orientation: orientation, 
+                unit: 'pt', 
+                format: [currentCanvasConfig.width, currentCanvasConfig.height] 
+            });
 
             const exportOptions = { multiplier: downloadMultiplier, applyGrayscale: grayscaleToggle.checked };
-            pdf.addImage(await getCanvasDataURLWithOptions(canvasToExport, exportOptions), 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+            const imgData = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+            
+            // Add image at exact user-selected dimensions
+            pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
+            
+            // Restore display state
+            canvasToExport.setZoom(currentZoom);
+            canvasToExport.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
             
             pdf.save(fileName);
-            showMessage('PDF downloaded!', 'success');
-        } catch(e) { showMessage('Error creating PDF.', 'error'); console.error(e); }
+            showMessage(typeof t !== 'undefined' ? t('pdfDownloaded') : 'PDF downloaded!', 'success');
+        } catch(e) { 
+            showMessage(typeof t !== 'undefined' ? t('errorCreatingPdf') : 'Error creating PDF.', 'error'); 
+            console.error(e); 
+        } finally {
+            // Remove watermark after export
+            removeWatermarkFromCanvas(canvasToExport, watermarkData);
+        }
     }
     
     // --- Context Toolbar Handlers ---
@@ -2051,8 +2901,23 @@ document.addEventListener("DOMContentLoaded", function() {
         if (!activeObj) { closeAllPopovers(); return; }
 
         if (type.includes('Canvas')) {
-            if (type === 'centerHCanvas') activeObj.centerH();
-            if (type === 'centerVCanvas') activeObj.centerV();
+            // Use actual canvas dimensions, not display dimensions
+            const zoom = canvas.getZoom();
+            const actualCenterX = currentCanvasConfig.width / 2;
+            const actualCenterY = currentCanvasConfig.height / 2;
+            
+            if (type === 'centerHCanvas') {
+                activeObj.set('left', actualCenterX);
+                if (activeObj.originX !== 'center') {
+                    activeObj.set('left', actualCenterX - (activeObj.width * activeObj.scaleX) / 2);
+                }
+            }
+            if (type === 'centerVCanvas') {
+                activeObj.set('top', actualCenterY);
+                if (activeObj.originY !== 'center') {
+                    activeObj.set('top', actualCenterY - (activeObj.height * activeObj.scaleY) / 2);
+                }
+            }
             activeObj.setCoords();
         } else if (activeObj.type === 'activeSelection') {
             const group = activeObj;
@@ -2072,8 +2937,161 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // --- Let's go! ---
-    init();
+    init().catch(err => {
+        console.error('Failed to initialize:', err);
+    });
+});
+
+// Apply translations function - MUST be global for UnifiedLanguageManager
+
+
+
+// Apply translations function that ACTUALLY WORKS
+function applyTranslations() {
+    const locale = window.currentLocale || 'en';
+
+    console.log('[TRANSLATION] Starting translation for locale:', locale);
+
+    // Check if translations exist
+    if (typeof translations === 'undefined') {
+        console.error('[TRANSLATION] ERROR: translations object not found!');
+        return;
+    }
+
+    if (!translations[locale]) {
+        console.error('[TRANSLATION] ERROR: No translations for locale:', locale);
+        console.log('[TRANSLATION] Available locales:', Object.keys(translations));
+        return;
+    }
+
+    const t = translations[locale];
+    console.log('[TRANSLATION] Loaded translations for', locale, '- Keys:', Object.keys(t).length);
+
+    // Get ALL translatable elements
+    const elements = document.querySelectorAll('[data-translate], [data-translate-key]');
+    console.log('[TRANSLATION] Found', elements.length, 'elements to translate');
+
+    let translated = 0;
+    elements.forEach(element => {
+        const key = element.getAttribute('data-translate') || element.getAttribute('data-translate-key');
+
+        if (!key) {
+            console.warn('[TRANSLATION] Element has no translation key:', element);
+            return;
+        }
+
+        if (!t[key]) {
+            console.warn('[TRANSLATION] Missing translation for key:', key);
+            return;
+        }
+
+        const translation = t[key];
+        const tagName = element.tagName;
+
+        // Handle different element types
+        if (tagName === 'INPUT' || tagName === 'TEXTAREA') {
+            if (element.type === 'button' || element.type === 'submit') {
+                element.value = translation;
+                console.log(`[TRANSLATION] Button input: "${key}" -> "${translation}"`);
+            } else {
+                element.placeholder = translation;
+                console.log(`[TRANSLATION] Placeholder: "${key}" -> "${translation}"`);
+            }
+        } else if (tagName === 'BUTTON') {
+            // Handle buttons with or without icons
+            const icons = element.querySelectorAll('i, svg, .fas, .far, .fab');
+            if (icons.length > 0) {
+                // Has icons - preserve them
+                let updated = false;
+
+                // Try to update text nodes
+                element.childNodes.forEach(node => {
+                    if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
+                        node.textContent = translation;
+                        updated = true;
+                    }
+                });
+
+                // If no text node, try span
+                if (!updated) {
+                    const span = element.querySelector('span');
+                    if (span) {
+                        span.textContent = translation;
+                        updated = true;
+                    }
+                }
+
+                if (updated) {
+                    console.log(`[TRANSLATION] Button with icon: "${key}" -> "${translation}"`);
+                }
+            } else {
+                // No icons - replace all text
+                element.textContent = translation;
+                console.log(`[TRANSLATION] Button: "${key}" -> "${translation}"`);
+            }
+        } else if (tagName === 'OPTION') {
+            element.textContent = translation;
+            console.log(`[TRANSLATION] Option: "${key}" -> "${translation}"`);
+        } else if (tagName === 'LABEL' && element.textContent.endsWith(':')) {
+            element.textContent = translation + ':';
+            console.log(`[TRANSLATION] Label: "${key}" -> "${translation}:"`);
+        } else {
+            // Default - handle any other element
+            const children = element.children;
+            if (children.length > 0) {
+                // Has children - try to preserve them
+                let updated = false;
+
+                // Update text nodes
+                element.childNodes.forEach(node => {
+                    if (node.nodeType === Node.TEXT_NODE && node.textContent.trim()) {
+                        node.textContent = translation;
+                        updated = true;
+                    }
+                });
+
+                // Try span if no text node
+                if (!updated) {
+                    const span = element.querySelector('span[data-translate]');
+                    if (span && span.getAttribute('data-translate') === key) {
+                        span.textContent = translation;
+                        updated = true;
+                    }
+                }
+
+                if (!updated) {
+                    // Last resort - replace everything
+                    element.textContent = translation;
+                }
+
+                console.log(`[TRANSLATION] Element with children: "${key}" -> "${translation}"`);
+            } else {
+                // No children - safe to replace
+                element.textContent = translation;
+                console.log(`[TRANSLATION] Element: "${key}" -> "${translation}"`);
+            }
+        }
+
+        translated++;
+    });
+
+    console.log(`[TRANSLATION] Complete! Translated ${translated} elements to ${locale}`);
+}
+
+// Call translations on page load AND after delay
+document.addEventListener('DOMContentLoaded', function() {
+    // Call immediately
+    if (typeof applyTranslations === 'function') {
+        applyTranslations();
+
+        // Call again after delay for dynamic content
+        setTimeout(() => {
+            applyTranslations();
+            console.log('[TRANSLATION] Applied translations again after delay');
+        }, 500);
+    }
 });
 </script>
+
 </body>
 </html>

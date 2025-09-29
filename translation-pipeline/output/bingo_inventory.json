@@ -1,0 +1,2058 @@
+{
+  "htmlTexts": [
+    {
+      "type": "html_element",
+      "text": "Worksheet Settings",
+      "tag": "h2",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "worksheetSettings",
+      "selector": "h2",
+      "context": {
+        "parent": "div",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Background",
+      "tag": "h4",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "background",
+      "selector": "h4",
+      "context": {
+        "parent": "div",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Border",
+      "tag": "h4",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "border",
+      "selector": "h4",
+      "context": {
+        "parent": "div",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Add New Text",
+      "tag": "h4",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "addNewText",
+      "selector": "h4",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Selected Text Properties",
+      "tag": "h4",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "selectedTextProperties",
+      "selector": "h4",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Select a theme for backgrounds.",
+      "tag": "p",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "selectThemeForBackgrounds",
+      "selector": "p.dictionary-message",
+      "context": {
+        "parent": "div",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Select a theme to see borders.",
+      "tag": "p",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "selectThemeToSeeBorders",
+      "selector": "p.dictionary-message",
+      "context": {
+        "parent": "div",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Selected for custom call-outs: 0",
+      "tag": "p",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "selectedForCustomCallouts",
+      "selector": "#selectedCountMsg",
+      "context": {
+        "parent": "div",
+        "section": "Image Library",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Loading images...",
+      "tag": "p",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "loadingImages",
+      "selector": "p.dictionary-message",
+      "context": {
+        "parent": "div",
+        "section": "Image Library",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Your uploaded images will appear here.",
+      "tag": "p",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "uploadedImagesWillAppearHere",
+      "selector": "p.dictionary-message",
+      "context": {
+        "parent": "div",
+        "section": "Upload Custom Images",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Align Selected:",
+      "tag": "p",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "alignSelected",
+      "selector": "p",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Align to Page:",
+      "tag": "p",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "alignToPage",
+      "selector": "p",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Language:",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "language",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Page Setup",
+        "formField": "Language:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Page Size:",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "pageSize",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Page Setup",
+        "formField": "Page Size:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Width (px):",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "widthPx",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Page Setup",
+        "formField": "Width (px):"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Height (px):",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "heightPx",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Page Setup",
+        "formField": "Height (px):"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Page Color:",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "pageColor",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Page Setup",
+        "formField": "Page Color:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Background Theme:",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "backgroundTheme",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Page Setup",
+        "formField": "Background Theme:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Background Opacity:",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "backgroundOpacity",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Page Setup",
+        "formField": "Background Opacity:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Border Theme:",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "borderTheme",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Page Setup",
+        "formField": "Border Theme:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Border Opacity:",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "borderOpacity",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Page Setup",
+        "formField": "Border Opacity:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Content:",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "content",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": "Content:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Color:",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "color",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": "Color:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Size:",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "size",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": "Size:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Font:",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "font",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": "Font:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Outline Color:",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "outlineColor",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": "Outline Color:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Outline (0-10):",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "outlineWidth",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": "Outline (0-10):"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Rows (3–5):",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "rows",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Bingo Card Settings",
+        "formField": "Rows (3–5):"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Columns (3–5):",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "columns",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Bingo Card Settings",
+        "formField": "Columns (3–5):"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Number of Cards (1–10):",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "numberOfCards",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Bingo Card Settings",
+        "formField": "Number of Cards (1–10):"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Card Cell Fill:",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "cardCellFill",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Bingo Card Settings",
+        "formField": "Card Cell Fill:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Chip Fill:",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "chipFill",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Bingo Card Settings",
+        "formField": "Chip Fill:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Select Theme:",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "selectTheme",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Image Library",
+        "formField": "Select Theme:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Search Images:",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "searchImages",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Image Library",
+        "formField": "Search Images:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Available Images (Click to select for custom call-outs):",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "availableImages",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Image Library",
+        "formField": "Available Images (Click to select for custom call-outs):"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Selected Custom Images:",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "selectedCustomImages",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Image Library",
+        "formField": "Selected Custom Images:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Select image(s) to upload:",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "selectImagesToUpload",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Upload Custom Images",
+        "formField": "Select image(s) to upload:"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Your Uploaded Images (This Session):",
+      "tag": "label",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "yourUploadedImages",
+      "selector": "label",
+      "context": {
+        "parent": "div",
+        "section": "Upload Custom Images",
+        "formField": "Your Uploaded Images (This Session):"
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Page Setup",
+      "tag": "button",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "pageSetup",
+      "selector": "button.accordion-button.active",
+      "context": {
+        "parent": "div",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Apply Size",
+      "tag": "button",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "applySize",
+      "selector": "#setPageSizeBtn",
+      "context": {
+        "parent": "div",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Text Tools",
+      "tag": "button",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "textTools",
+      "selector": "button.accordion-button",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Add Text",
+      "tag": "button",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "addText",
+      "selector": "#addTextBtn",
+      "context": {
+        "parent": "div",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Bingo Card Settings",
+      "tag": "button",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "bingoCardSettings",
+      "selector": "button.accordion-button",
+      "context": {
+        "parent": "div",
+        "section": "Bingo Card Settings",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Image Library",
+      "tag": "button",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "imageLibrary",
+      "selector": "button.accordion-button",
+      "context": {
+        "parent": "div",
+        "section": "Image Library",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Upload Custom Images",
+      "tag": "button",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "uploadCustomImages",
+      "selector": "button.accordion-button",
+      "context": {
+        "parent": "div",
+        "section": "Upload Custom Images",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Bring Forward",
+      "tag": "button",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "bringForward",
+      "selector": "#toolbarBringForwardBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Send Backward",
+      "tag": "button",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "sendBackward",
+      "selector": "#toolbarSendBackwardBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Generate",
+      "tag": "button",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "generate",
+      "selector": "#generateWorksheetBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Worksheet (JPEG)",
+      "tag": "button",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "worksheetJpeg",
+      "selector": "#downloadWorksheetJpegBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Call-out (JPEG)",
+      "tag": "button",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "calloutJpeg",
+      "selector": "#downloadCalloutJpegBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Worksheet (PDF)",
+      "tag": "button",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "worksheetPdf",
+      "selector": "#downloadWorksheetPdfBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Call-out (PDF)",
+      "tag": "button",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "calloutPdf",
+      "selector": "#downloadCalloutPdfBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Clear All",
+      "tag": "button",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "clearAll",
+      "selector": "#clearBtn",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Cards + Chips",
+      "tag": "button",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "cardsAndChips",
+      "selector": "button.tab-button.active",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Call-outs",
+      "tag": "button",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "callouts",
+      "selector": "button.tab-button",
+      "context": {
+        "parent": "div",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "English",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "english",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Deutsch (German)",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "deutsch_german",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Français (French)",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "franais_french",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Español (Spanish)",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "espaol_spanish",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Português (Portuguese)",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "portugus_portuguese",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Italiano (Italian)",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "italiano_italian",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Nederlands (Dutch)",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "nederlands_dutch",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Svenska (Swedish)",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "svenska_swedish",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Dansk (Danish)",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "dansk_danish",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Norsk (Norwegian)",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "norsk_norwegian",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Suomi (Finnish)",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "suomi_finnish",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Letter Portrait (8.5×11\")",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "letterPortrait",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Letter Landscape (11×8.5\")",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "letterLandscape",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "A4 Portrait (210×297mm)",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "a4Portrait",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "A4 Landscape (297×210mm)",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "a4Landscape",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Square (1200x1200)",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "square",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Custom",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "custom",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "None",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "none",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Page Setup",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Lexend Deca",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "lexend_deca",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Baloo 2",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "baloo_2",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Nunito",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "nunito",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Quicksand",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "quicksand",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Fredoka",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "fredoka",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Arial",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "arial",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Verdana",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": false,
+      "translationKey": "verdana",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Text Tools",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Image",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "image",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Bingo Card Settings",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Word",
+      "tag": "option",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "word",
+      "selector": "option",
+      "context": {
+        "parent": "select",
+        "section": "Bingo Card Settings",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Use custom selection (below)",
+      "tag": "span",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "useCustomSelection",
+      "selector": "span",
+      "context": {
+        "parent": "label",
+        "section": "Bingo Card Settings",
+        "formField": "\n                     Use custom selection (below)\n                "
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Choose Files",
+      "tag": "span",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "chooseFiles",
+      "selector": "span",
+      "context": {
+        "parent": "button",
+        "section": "Upload Custom Images",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "No file chosen",
+      "tag": "span",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "noFileChosen",
+      "selector": "#fileSelectionText",
+      "context": {
+        "parent": "div",
+        "section": "Upload Custom Images",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Download",
+      "tag": "span",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "download",
+      "selector": "span",
+      "context": {
+        "parent": "button",
+        "section": "main",
+        "formField": null
+      }
+    },
+    {
+      "type": "html_element",
+      "text": "Grayscale",
+      "tag": "span",
+      "file": "bingo.html",
+      "line": "unknown",
+      "hasTranslation": true,
+      "translationKey": "grayscale",
+      "selector": "span",
+      "context": {
+        "parent": "label",
+        "section": "main",
+        "formField": "\n                    Grayscale\n                "
+      }
+    }
+  ],
+  "javascriptTexts": [
+    {
+      "type": "placeholder",
+      "text": "Hello!",
+      "file": "bingo.html",
+      "hasTranslation": true,
+      "translationKey": "hello"
+    },
+    {
+      "type": "placeholder",
+      "text": "e.g., apple, car",
+      "file": "bingo.html",
+      "hasTranslation": true,
+      "translationKey": "searchPlaceholder"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Layers",
+      "file": "bingo.html",
+      "hasTranslation": true,
+      "translationKey": "layers"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Align",
+      "file": "bingo.html",
+      "hasTranslation": true,
+      "translationKey": "align"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Align Left",
+      "file": "bingo.html",
+      "hasTranslation": true,
+      "translationKey": "alignLeft"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Center Horizontally",
+      "file": "bingo.html",
+      "hasTranslation": true,
+      "translationKey": "centerHorizontally"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Align Right",
+      "file": "bingo.html",
+      "hasTranslation": true,
+      "translationKey": "alignRight"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Align Top",
+      "file": "bingo.html",
+      "hasTranslation": true,
+      "translationKey": "alignTop"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Center Vertically",
+      "file": "bingo.html",
+      "hasTranslation": true,
+      "translationKey": "centerVertically"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Align Bottom",
+      "file": "bingo.html",
+      "hasTranslation": true,
+      "translationKey": "alignBottom"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Center on Page Horizontally",
+      "file": "bingo.html",
+      "hasTranslation": true,
+      "translationKey": "centerOnPageHorizontally"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Center on Page Vertically",
+      "file": "bingo.html",
+      "hasTranslation": true,
+      "translationKey": "centerOnPageVertically"
+    },
+    {
+      "type": "title_attribute",
+      "text": "Delete Selected",
+      "file": "bingo.html",
+      "hasTranslation": true,
+      "translationKey": "deleteSelected"
+    },
+    {
+      "type": "javascript_string",
+      "text": "selectedForCustomCallouts",
+      "file": "bingo.html",
+      "line": 59,
+      "context": "t_call",
+      "translationKey": "selectedforcustomcallouts"
+    },
+    {
+      "type": "javascript_string",
+      "text": "pictureBingoWorksheetGenerator",
+      "file": "bingo.html",
+      "line": 75,
+      "context": "t_call",
+      "translationKey": "picturebingoworksheetgenerator"
+    },
+    {
+      "type": "javascript_string",
+      "text": "allThemes",
+      "file": "bingo.html",
+      "line": 80,
+      "context": "t_call",
+      "translationKey": "allthemes"
+    },
+    {
+      "type": "javascript_string",
+      "text": "couldNotLoadThemes",
+      "file": "bingo.html",
+      "line": 372,
+      "context": "t_call",
+      "translationKey": "couldnotloadthemes"
+    },
+    {
+      "type": "javascript_string",
+      "text": "errorLoadingThemes",
+      "file": "bingo.html",
+      "line": 372,
+      "context": "t_call",
+      "translationKey": "errorloadingthemes"
+    },
+    {
+      "type": "javascript_string",
+      "text": "loadingDefaultAnimalsTheme",
+      "file": "bingo.html",
+      "line": 383,
+      "context": "t_call",
+      "translationKey": "loadingdefaultanimalstheme"
+    },
+    {
+      "type": "javascript_string",
+      "text": "typeToSearchAllImages",
+      "file": "bingo.html",
+      "line": 393,
+      "context": "t_call",
+      "translationKey": "typetosearchallimages"
+    },
+    {
+      "type": "javascript_string",
+      "text": "errorDuringSearch",
+      "file": "bingo.html",
+      "line": 405,
+      "context": "t_call",
+      "translationKey": "errorduringsearch"
+    },
+    {
+      "type": "javascript_string",
+      "text": "<option value=\"none\">None</option>",
+      "file": "bingo.html",
+      "line": 472,
+      "context": "innerHTML_assignment",
+      "translationKey": "option_valuenonenoneoption"
+    },
+    {
+      "type": "javascript_string",
+      "text": "<p class=\"dictionary-message\">Select a theme to see borders.</p>",
+      "file": "bingo.html",
+      "line": 624,
+      "context": "innerHTML_assignment",
+      "translationKey": "p_classdictionarymessageselect_a_theme_to_see_bord"
+    },
+    {
+      "type": "javascript_string",
+      "text": "<p class=\"dictionary-message\">Select a theme to see backgrounds.</p>",
+      "file": "bingo.html",
+      "line": 629,
+      "context": "innerHTML_assignment",
+      "translationKey": "p_classdictionarymessageselect_a_theme_to_see_back"
+    },
+    {
+      "type": "javascript_string",
+      "text": "needMoreImages",
+      "file": "bingo.html",
+      "line": 807,
+      "context": "t_call",
+      "translationKey": "needmoreimages"
+    },
+    {
+      "type": "javascript_string",
+      "text": "themeHasTooFewImages",
+      "file": "bingo.html",
+      "line": 822,
+      "context": "t_call",
+      "translationKey": "themehastoofewimages"
+    },
+    {
+      "type": "javascript_string",
+      "text": "couldNotGenerateUniqueCards",
+      "file": "bingo.html",
+      "line": 1130,
+      "context": "t_call",
+      "translationKey": "couldnotgenerateuniquecards"
+    },
+    {
+      "type": "javascript_string",
+      "text": "bingoWorksheetGenerated",
+      "file": "bingo.html",
+      "line": 1150,
+      "context": "t_call",
+      "translationKey": "bingoworksheetgenerated"
+    },
+    {
+      "type": "javascript_string",
+      "text": "preparingFile",
+      "file": "bingo.html",
+      "line": 1209,
+      "context": "t_call",
+      "translationKey": "preparingfile"
+    },
+    {
+      "type": "javascript_string",
+      "text": "downloadInitiated",
+      "file": "bingo.html",
+      "line": 1216,
+      "context": "t_call",
+      "translationKey": "downloadinitiated"
+    },
+    {
+      "type": "javascript_string",
+      "text": "errorPreparingJpeg",
+      "file": "bingo.html",
+      "line": 1217,
+      "context": "t_call",
+      "translationKey": "errorpreparingjpeg"
+    },
+    {
+      "type": "javascript_string",
+      "text": "preparingZipFile",
+      "file": "bingo.html",
+      "line": 1222,
+      "context": "t_call",
+      "translationKey": "preparingzipfile"
+    },
+    {
+      "type": "javascript_string",
+      "text": "zipDownloadInitiated",
+      "file": "bingo.html",
+      "line": 1279,
+      "context": "t_call",
+      "translationKey": "zipdownloadinitiated"
+    },
+    {
+      "type": "javascript_string",
+      "text": "errorCreatingZip",
+      "file": "bingo.html",
+      "line": 1281,
+      "context": "t_call",
+      "translationKey": "errorcreatingzip"
+    },
+    {
+      "type": "javascript_string",
+      "text": "pdfDownloaded",
+      "file": "bingo.html",
+      "line": 1351,
+      "context": "t_call",
+      "translationKey": "pdfdownloaded"
+    },
+    {
+      "type": "javascript_string",
+      "text": "errorCreatingPdf",
+      "file": "bingo.html",
+      "line": 1354,
+      "context": "t_call",
+      "translationKey": "errorcreatingpdf"
+    },
+    {
+      "type": "javascript_string",
+      "text": "<p class=\"dictionary-message\">Select a theme for backgrounds.</p>",
+      "file": "bingo.html",
+      "line": 1380,
+      "context": "innerHTML_assignment",
+      "translationKey": "p_classdictionarymessageselect_a_theme_for_backgro"
+    },
+    {
+      "type": "javascript_string",
+      "text": "formCleared",
+      "file": "bingo.html",
+      "line": 1389,
+      "context": "t_call",
+      "translationKey": "formcleared"
+    },
+    {
+      "type": "javascript_string",
+      "text": "noFileChosen",
+      "file": "bingo.html",
+      "line": 1418,
+      "context": "t_call",
+      "translationKey": "nofilechosen"
+    },
+    {
+      "type": "javascript_string",
+      "text": "loadingImages",
+      "file": "bingo.html",
+      "line": 1430,
+      "context": "t_call",
+      "translationKey": "loadingimages"
+    },
+    {
+      "type": "javascript_string",
+      "text": "customImagesAvailable",
+      "file": "bingo.html",
+      "line": 1442,
+      "context": "t_call",
+      "translationKey": "customimagesavailable"
+    },
+    {
+      "type": "javascript_string",
+      "text": "errorReadingFile",
+      "file": "bingo.html",
+      "line": 1445,
+      "context": "t_call",
+      "translationKey": "errorreadingfile"
+    },
+    {
+      "type": "javascript_string",
+      "text": "generationFailed",
+      "file": "bingo.html",
+      "line": 1484,
+      "context": "t_call",
+      "translationKey": "generationfailed"
+    },
+    {
+      "type": "javascript_string",
+      "text": "pleaseGenerateContentFirst",
+      "file": "bingo.html",
+      "line": 1618,
+      "context": "t_call",
+      "translationKey": "pleasegeneratecontentfirst"
+    },
+    {
+      "type": "javascript_string",
+      "text": "preparingPdf",
+      "file": "bingo.html",
+      "line": 1620,
+      "context": "t_call",
+      "translationKey": "preparingpdf"
+    },
+    {
+      "type": "javascript_string",
+      "text": "pleaseGenerateWorksheetFirst",
+      "file": "bingo.html",
+      "line": 1659,
+      "context": "t_call",
+      "translationKey": "pleasegenerateworksheetfirst"
+    },
+    {
+      "type": "javascript_string",
+      "text": "preparingJpeg",
+      "file": "bingo.html",
+      "line": 1661,
+      "context": "t_call",
+      "translationKey": "preparingjpeg"
+    },
+    {
+      "type": "javascript_string",
+      "text": "jpegDownloadInitiated",
+      "file": "bingo.html",
+      "line": 1677,
+      "context": "t_call",
+      "translationKey": "jpegdownloadinitiated"
+    }
+  ],
+  "dynamicTexts": [
+    {
+      "type": "template_with_placeholders",
+      "text": "/api/themes-translated?locale=",
+      "file": "bingo.html",
+      "line": 356,
+      "hasPlaceholders": true,
+      "translationKey": "apithemestranslatedlocale",
+      "context": "fetch()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "HTTP error! status: ",
+      "file": "bingo.html",
+      "line": 357,
+      "hasPlaceholders": true,
+      "translationKey": "http_error_status_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "<p class='dictionary-message'>",
+      "file": "bingo.html",
+      "line": 383,
+      "hasPlaceholders": true,
+      "translationKey": "p_classdictionarymessage",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "</p>",
+      "file": "bingo.html",
+      "line": 383,
+      "hasPlaceholders": true,
+      "translationKey": "p",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "/api/images?theme=animals&locale=",
+      "file": "bingo.html",
+      "line": 385,
+      "hasPlaceholders": true,
+      "translationKey": "apiimagesthemeanimalslocale",
+      "context": "fetch()"
+    },
+    {
+      "type": "template_literal",
+      "text": "Failed to load default images",
+      "file": "bingo.html",
+      "line": 386,
+      "hasPlaceholders": false,
+      "translationKey": "failed_to_load_default_images",
+      "context": ""
+    },
+    {
+      "type": "template_literal",
+      "text": "<p class='dictionary-message'>Searching...</p>",
+      "file": "bingo.html",
+      "line": 398,
+      "hasPlaceholders": false,
+      "translationKey": "p_classdictionarymessagesearchingp",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "/api/images?search=",
+      "file": "bingo.html",
+      "line": 400,
+      "hasPlaceholders": true,
+      "translationKey": "apiimagessearch",
+      "context": "fetch()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "&locale=",
+      "file": "bingo.html",
+      "line": 400,
+      "hasPlaceholders": true,
+      "translationKey": "locale",
+      "context": "fetch()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "Failed to search for \"",
+      "file": "bingo.html",
+      "line": 401,
+      "hasPlaceholders": true,
+      "translationKey": "failed_to_search_for_",
+      "context": ""
+    },
+    {
+      "type": "template_literal",
+      "text": "<p class='dictionary-message'>Loading images...</p>",
+      "file": "bingo.html",
+      "line": 408,
+      "hasPlaceholders": false,
+      "translationKey": "p_classdictionarymessageloading_imagesp",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "/api/images?theme=",
+      "file": "bingo.html",
+      "line": 410,
+      "hasPlaceholders": true,
+      "translationKey": "apiimagestheme",
+      "context": "fetch()"
+    },
+    {
+      "type": "template_literal",
+      "text": "Failed to load images for theme",
+      "file": "bingo.html",
+      "line": 411,
+      "hasPlaceholders": false,
+      "translationKey": "failed_to_load_images_for_theme",
+      "context": ""
+    },
+    {
+      "type": "template_literal",
+      "text": "<p class='dictionary-message'>Error loading images.</p>",
+      "file": "bingo.html",
+      "line": 419,
+      "hasPlaceholders": false,
+      "translationKey": "p_classdictionarymessageerror_loading_imagesp",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "<p class=\"dictionary-message\">No images found",
+      "file": "bingo.html",
+      "line": 423,
+      "hasPlaceholders": true,
+      "translationKey": "p_classdictionarymessageno_images_found",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": " matching \"",
+      "file": "bingo.html",
+      "line": 423,
+      "hasPlaceholders": true,
+      "translationKey": "_matching_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "<img src=\"",
+      "file": "bingo.html",
+      "line": 433,
+      "hasPlaceholders": true,
+      "translationKey": "img_src",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "\" alt=\"",
+      "file": "bingo.html",
+      "line": 433,
+      "hasPlaceholders": true,
+      "translationKey": "_alt",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "\" loading=\"lazy\"/><span>",
+      "file": "bingo.html",
+      "line": 433,
+      "hasPlaceholders": true,
+      "translationKey": "_loadinglazyspan",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "</span>",
+      "file": "bingo.html",
+      "line": 433,
+      "hasPlaceholders": true,
+      "translationKey": "span",
+      "context": ""
+    },
+    {
+      "type": "template_literal",
+      "text": "<p class=\"dictionary-message\">Your uploaded images will appear here.</p>",
+      "file": "bingo.html",
+      "line": 441,
+      "hasPlaceholders": false,
+      "translationKey": "p_classdictionarymessageyour_uploaded_images_will_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "/api/",
+      "file": "bingo.html",
+      "line": 473,
+      "hasPlaceholders": true,
+      "translationKey": "api",
+      "context": "fetch()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "/themes?locale=",
+      "file": "bingo.html",
+      "line": 473,
+      "hasPlaceholders": true,
+      "translationKey": "themeslocale",
+      "context": "fetch()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "Failed to load ",
+      "file": "bingo.html",
+      "line": 475,
+      "hasPlaceholders": true,
+      "translationKey": "failed_to_load_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "<option value=\"",
+      "file": "bingo.html",
+      "line": 485,
+      "hasPlaceholders": true,
+      "translationKey": "option_value",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "</option>",
+      "file": "bingo.html",
+      "line": 485,
+      "hasPlaceholders": true,
+      "translationKey": "option",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "Error loading ",
+      "file": "bingo.html",
+      "line": 488,
+      "hasPlaceholders": true,
+      "translationKey": "error_loading_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": " themes:",
+      "file": "bingo.html",
+      "line": 488,
+      "hasPlaceholders": true,
+      "translationKey": "_themes",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "<p class=\"dictionary-message\">Select a theme to see ",
+      "file": "bingo.html",
+      "line": 494,
+      "hasPlaceholders": true,
+      "translationKey": "p_classdictionarymessageselect_a_theme_to_see_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "<p class=\"dictionary-message\">Loading ",
+      "file": "bingo.html",
+      "line": 503,
+      "hasPlaceholders": true,
+      "translationKey": "p_classdictionarymessageloading_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "/images?theme=",
+      "file": "bingo.html",
+      "line": 504,
+      "hasPlaceholders": true,
+      "translationKey": "imagestheme",
+      "context": "fetch()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "Failed to load images for ",
+      "file": "bingo.html",
+      "line": 505,
+      "hasPlaceholders": true,
+      "translationKey": "failed_to_load_images_for_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "<p class=\"dictionary-message\">No ",
+      "file": "bingo.html",
+      "line": 510,
+      "hasPlaceholders": true,
+      "translationKey": "p_classdictionarymessageno_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": " in this theme.</p>",
+      "file": "bingo.html",
+      "line": 510,
+      "hasPlaceholders": true,
+      "translationKey": "_in_this_themep",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "\" loading=\"lazy\" />",
+      "file": "bingo.html",
+      "line": 517,
+      "hasPlaceholders": true,
+      "translationKey": "_loadinglazy_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": " images:",
+      "file": "bingo.html",
+      "line": 525,
+      "hasPlaceholders": true,
+      "translationKey": "_images",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "<p class=\"dictionary-message\">Error loading ",
+      "file": "bingo.html",
+      "line": 525,
+      "hasPlaceholders": true,
+      "translationKey": "p_classdictionarymessageerror_loading_",
+      "context": ""
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "/api/images?search=&locale=",
+      "file": "bingo.html",
+      "line": 814,
+      "hasPlaceholders": true,
+      "translationKey": "apiimagessearchlocale",
+      "context": "fetch()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "image/",
+      "file": "bingo.html",
+      "line": 1190,
+      "hasPlaceholders": true,
+      "translationKey": "image",
+      "context": "applyGrayscaleToDataURL()"
+    },
+    {
+      "type": "template_with_placeholders",
+      "text": "Preparing ",
+      "file": "bingo.html",
+      "line": 1288,
+      "hasPlaceholders": true,
+      "translationKey": "preparing_",
+      "context": "showMessage()"
+    }
+  ],
+  "browserControlled": [],
+  "metadata": {
+    "extractedAt": "2025-09-23T22:09:55.301Z",
+    "version": "1.0.0",
+    "totalTexts": 175
+  },
+  "summary": {
+    "htmlTexts": 87,
+    "javascriptTexts": 48,
+    "dynamicTexts": 40,
+    "browserControlled": 0,
+    "totalTexts": 175,
+    "totalUniqueTexts": 175
+  }
+}

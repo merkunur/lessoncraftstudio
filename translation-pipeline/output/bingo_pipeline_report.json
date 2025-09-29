@@ -1,0 +1,78 @@
+{
+  "app": "bingo.html",
+  "timestamp": "2025-09-23T22:09:55.301Z",
+  "stages": {
+    "extraction": {
+      "success": true,
+      "totalTexts": 175,
+      "htmlTexts": 87,
+      "jsTexts": 48,
+      "dynamicTexts": 40
+    },
+    "analysis": {
+      "success": true,
+      "missingKeys": 91,
+      "missingByLocale": {
+        "de": 70,
+        "fr": 128,
+        "es": 128,
+        "pt": 128,
+        "it": 128,
+        "nl": 128,
+        "sv": 128,
+        "da": 128,
+        "no": 128,
+        "fi": 128
+      }
+    },
+    "application_de": {
+      "success": true,
+      "applied": 56,
+      "failed": 0,
+      "coverage": 32
+    },
+    "validation": {
+      "success": true,
+      "validationFile": "C:\\Users\\rkgen\\lessoncraftstudio\\translation-pipeline\\output\\bingo_validation.html"
+    }
+  },
+  "summary": {
+    "totalTexts": 175,
+    "translatedTexts": 84,
+    "coveragePercentage": 32,
+    "missingTranslations": 91,
+    "recommendation": "❌ NOT READY - Major translation effort required"
+  },
+  "inventory": {
+    "htmlTexts": 87,
+    "javascriptTexts": 48,
+    "dynamicTexts": 40,
+    "browserControlled": 0,
+    "totalTexts": 175,
+    "totalUniqueTexts": 175
+  },
+  "missingAnalysis": {
+    "totalMissing": 91,
+    "byLocale": {
+      "de": 70,
+      "fr": 128,
+      "es": 128,
+      "pt": 128,
+      "it": 128,
+      "nl": 128,
+      "sv": 128,
+      "da": 128,
+      "no": 128,
+      "fi": 128
+    },
+    "missingKeys": {}
+  },
+  "nextSteps": [
+    "1. Add missing translation keys to translations.js",
+    "2. Provide translations for all target locales",
+    "3. Run pipeline again to verify coverage",
+    "4. Test with runtime validator in browser",
+    "5. Perform user acceptance testing",
+    "6. Deploy to production"
+  ]
+}

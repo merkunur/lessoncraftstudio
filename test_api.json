@@ -1,1 +1,0 @@
-   ✗ Background endpoint not fixed echo  echo 2. Testing APIs: curl -s http://localhost:3000/api/images?theme=animals&locale=en

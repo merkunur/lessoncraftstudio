@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Picture Graph Playground</title>
+  <title data-translate="chartcount.page.title">Picture Graph Playground</title>
   <script src="js/translations.js"></script>
+  <script src="js/translations-chart-count.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -451,136 +452,142 @@
 
   <div class="panel">
     <div class="panel-header">
-      <h2>Graph Settings</h2>
+      <h2 data-translate="chartcount.settings.title">Graph Settings</h2>
       <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
     </div>
     <div class="panel-content">
 
       <div class="accordion-item">
-        <button class="accordion-button active">Page Setup</button>
+        <button class="accordion-button active" data-translate="chartcount.page.setup">Page Setup</button>
         <div class="accordion-content active">
           <div class="language-selector" style="margin-bottom: 15px;">
-              <label data-translate-key="language">Language:</label>
+              <label data-translate="language.label">Language:</label>
               <select id="languageSelect">
-                  <option value="en">English</option>
-                  <option value="de">Deutsch</option>
-                  <option value="fr">Français</option>
-                  <option value="es">Español</option>
-                  <option value="pt">Português</option>
-                  <option value="it">Italiano</option>
-                  <option value="nl">Nederlands</option>
-                  <option value="sv">Svenska</option>
-                  <option value="da">Dansk</option>
-                  <option value="no">Norsk</option>
-                  <option value="fi">Suomi</option>
+                  <option value="en" data-translate="lang_en">English</option>
+                  <option value="de" data-translate="lang_de">Deutsch</option>
+                  <option value="fr" data-translate="lang_fr">Français</option>
+                  <option value="es" data-translate="lang_es">Español</option>
+                  <option value="pt" data-translate="lang_pt">Português</option>
+                  <option value="it" data-translate="lang_it">Italiano</option>
+                  <option value="nl" data-translate="lang_nl">Nederlands</option>
+                  <option value="sv" data-translate="lang_sv">Svenska</option>
+                  <option value="da" data-translate="lang_da">Dansk</option>
+                  <option value="no" data-translate="lang_no">Norsk</option>
+                  <option value="fi" data-translate="lang_fi">Suomi</option>
               </select>
           </div>
-          <label for="pageSizeSelect">Page Size:</label>
+          <label for="pageSizeSelect" data-translate="chartcount.page.size.label">Page Size:</label>
           <select id="pageSizeSelect">
-              <option value="612x792" selected>Letter Portrait (8.5×11")</option>
-              <option value="792x612">Letter Landscape (11×8.5")</option>
-              <option value="595x842">A4 Portrait (210×297mm)</option>
-              <option value="842x595">A4 Landscape (297×210mm)</option>
-              <option value="1200x1200">Square (1200×1200)</option>
-              <option value="custom">Custom</option>
+              <option value="612x792" selected data-translate="page.size.letter.portrait">Letter Portrait (8.5×11")</option>
+              <option value="792x612" data-translate="page.size.letter.landscape">Letter Landscape (11×8.5")</option>
+              <option value="595x842" data-translate="page.size.a4.portrait">A4 Portrait (210×297mm)</option>
+              <option value="842x595" data-translate="page.size.a4.landscape">A4 Landscape (297×210mm)</option>
+              <option value="1200x1200" data-translate="page.size.square">Square (1200×1200)</option>
+              <option value="custom" data-translate="page.size.custom">Custom</option>
           </select>
           <div id="customPageSizeInputs" style="display:none;">
-              <label for="pageWidth">Width (px):</label>
+              <label for="pageWidth" data-translate="chartcount.width.label">Width (px):</label>
               <input type="number" id="pageWidth" value="612">
-              <label for="pageHeight">Height (px):</label>
+              <label for="pageHeight" data-translate="chartcount.height.label">Height (px):</label>
               <input type="number" id="pageHeight" value="792">
           </div>
-          <button id="setPageSizeBtn">Apply Size</button>
+          <button id="setPageSizeBtn" data-translate="chartcount.apply.size">Apply Size</button>
 
-          <label for="pageColor">Page Color:</label>
+          <label for="pageColor" data-translate="chartcount.page.color">Page Color:</label>
           <input type="color" id="pageColor" value="#FFFFFF">
-          <button id="setPageSizeBtn">Apply Size</button>
+          <button id="setPageSizeBtn" data-translate="chartcount.apply.size">Apply Size</button>
 
           <label for="includeNameDate" class="checkbox-label" style="margin-top: 15px;">
-              <input type="checkbox" id="includeNameDate" />Include Name/Date Fields
+              <input type="checkbox" id="includeNameDate" /><span data-translate="chartcount.include.name.date">Include Name/Date Fields</span>
           </label>
           
-          <h4 style="margin-top: 15px;">Background</h4>
-          <label for="backgroundThemeSelect">Background Theme:</label>
+          <h4 style="margin-top: 15px;" data-translate="chartcount.background.title">Background</h4>
+          <label for="backgroundThemeSelect" data-translate="chartcount.background.theme">Background Theme:</label>
           <select id="backgroundThemeSelect">
-              <option value="none">None</option>
+              <option value="none" data-translate="common.none">None</option>
           </select>
           <div id="backgroundDictionary">
-              <p class="dictionary-message">Select a theme to see backgrounds.</p>
+              <p class="dictionary-message" data-translate="chartcount.background.message">Select a theme to see backgrounds.</p>
           </div>
-          <label for="backgroundOpacity" style="margin-top: 10px;">Background Opacity:</label>
+          <label for="backgroundOpacity" style="margin-top: 10px;" data-translate="chartcount.background.opacity">Background Opacity:</label>
           <input type="range" id="backgroundOpacity" min="0" max="1" value="1" step="0.05">
 
-          <h4 style="margin-top: 15px;">Border</h4>
-          <label for="borderThemeSelect">Border Theme:</label>
+          <h4 style="margin-top: 15px;" data-translate="chartcount.border.title">Border</h4>
+          <label for="borderThemeSelect" data-translate="chartcount.border.theme">Border Theme:</label>
           <select id="borderThemeSelect">
-              <option value="none">None</option>
+              <option value="none" data-translate="common.none">None</option>
           </select>
           <div id="borderDictionary">
-              <p class="dictionary-message">Select a theme to see borders.</p>
+              <p class="dictionary-message" data-translate="chartcount.border.message">Select a theme to see borders.</p>
           </div>
-          <label for="borderOpacity" style="margin-top: 10px;">Border Opacity:</label>
+          <label for="borderOpacity" style="margin-top: 10px;" data-translate="chartcount.border.opacity">Border Opacity:</label>
           <input type="range" id="borderOpacity" min="0" max="1" value="1" step="0.05">
         </div>
       </div>
 
       <div class="accordion-item">
-        <button class="accordion-button">Text Tools</button>
+        <button class="accordion-button" data-translate="chartcount.text.tools">Text Tools</button>
         <div class="accordion-content">
-            <h4>Add New Text</h4>
-            <label for="textInput">Content:</label><input type="text" id="textInput" placeholder="Hello!">
-            <button id="addTextBtn">Add Text</button>
-            <h4>Selected Text Properties</h4>
-            <label for="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
-            <label for="fontSize">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
-            <label for="fontFamily">Font:</label>
+            <h4 data-translate="chartcount.text.add.new">Add New Text</h4>
+            <label for="textInput" data-translate="chartcount.text.content.label">Content:</label><input type="text" id="textInput" placeholder="Hello!" data-translate-placeholder="chartcount.text.placeholder">
+            <button id="addTextBtn" data-translate="chartcount.text.add.button">Add Text</button>
+            <h4 data-translate="chartcount.text.properties">Selected Text Properties</h4>
+            <label for="textColor" data-translate="chartcount.text.color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+            <label for="fontSize" data-translate="chartcount.text.size">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+            <label for="fontFamily" data-translate="chartcount.text.font">Font:</label>
             <select id="fontFamily" disabled>
-                <option value="Lexend Deca">Lexend Deca</option>
-                <option value="Baloo 2">Baloo 2</option>
-                <option value="Nunito">Nunito</option>
-                <option value="Quicksand">Quicksand</option>
-                <option value="Fredoka">Fredoka</option>
-                <option value="Arial">Arial</option>
-                <option value="Verdana">Verdana</option>
+                <option value="Lexend Deca" data-translate="font.lexend">Lexend Deca</option>
+                <option value="Baloo 2" data-translate="font.baloo">Baloo 2</option>
+                <option value="Nunito" data-translate="font.nunito">Nunito</option>
+                <option value="Quicksand" data-translate="font.quicksand">Quicksand</option>
+                <option value="Fredoka" data-translate="font.fredoka">Fredoka</option>
+                <option value="Arial" data-translate="font.arial">Arial</option>
+                <option value="Verdana" data-translate="font.verdana">Verdana</option>
             </select>
-            <label for="textStrokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
-            <label for="textStrokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+            <label for="textStrokeColor" data-translate="chartcount.text.outline.color">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+            <label for="textStrokeWidth" data-translate="chartcount.text.outline.width">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
         </div>
       </div>
 
       <div class="accordion-item">
-        <button class="accordion-button">Image Library</button>
+        <button class="accordion-button" data-translate="chartcount.image.library">Image Library</button>
         <div class="accordion-content">
             
-            <label for="worksheetThemeSelect">Worksheet Image Source:</label>
+            <label for="worksheetThemeSelect" data-translate="chartcount.worksheet.source">Worksheet Image Source:</label>
             <select id="worksheetThemeSelect">
-                <option value="">Manual Selection Below</option>
+                <option value="" data-translate="chartcount.manual.selection">Manual Selection Below</option>
             </select>
             
-            <h4 style="margin-top:20px;">Manual Image Selection & Browse</h4>
-            <label for="themeSelect">Image Browser Theme:</label>
+            <h4 style="margin-top:20px;" data-translate="chartcount.manual.browse">Manual Image Selection & Browse</h4>
+            <label for="themeSelect" data-translate="chartcount.browser.theme">Image Browser Theme:</label>
             <select id="themeSelect"></select>
-            <label for="searchInput">Search Images:</label>
-            <input type="text" id="searchInput" placeholder="e.g., apple, car" />
+            <label for="searchInput" data-translate="chartcount.search.label">Search Images:</label>
+            <input type="text" id="searchInput" placeholder="e.g., apple, car" data-translate-placeholder="chartcount.search.placeholder" />
             
-            <p class="selected-count">Manually Selected: <span id="selectedCount">0</span> / 6</p>
+            <p class="selected-count" data-translate="chartcount.selected.count" data-count="0">Manually Selected: <span id="selectedCount">0</span> / 6</p>
 
-            <label>Available Images (Click to add):</label>
-            <div id="dictionary"><p class='dictionary-message'>Loading images...</p></div>
+            <label data-translate="chartcount.available.images">Available Images (Click to add):</label>
+            <div id="dictionary"><p class='dictionary-message' data-translate="chartcount.loading.images">Loading images...</p></div>
 
-            <label style="margin-top:15px;">Selected Images (Click to remove):</label>
+            <label style="margin-top:15px;" data-translate="chartcount.selected.images">Selected Images (Click to remove):</label>
             <div id="selectedImagesPreview"></div>
         </div>
       </div>
         
       <div class="accordion-item">
-        <button class="accordion-button">Upload Custom Images</button>
+        <button class="accordion-button" data-translate="chartcount.upload.title">Upload Custom Images</button>
         <div class="accordion-content">
-            <label for="imageUploadInput">Select image(s) to upload:</label>
-            <input type="file" id="imageUploadInput" multiple accept="image/*">
-            <label style="margin-top:10px;">Your Uploaded Images (This Session):</label>
+            <label data-translate="chartcount.upload.select">Select image(s) to upload:</label>
+            <div class="custom-file-input-wrapper" style="position: relative; margin: 10px 0;">
+                <button type="button" class="custom-file-button" onclick="document.getElementById('imageUploadInput').click()" style="padding: 8px 15px; background: #007aff; color: white; border: none; border-radius: 5px; cursor: pointer;">
+                    <span data-translate="chartcount.upload.choose.files">Choose files</span>
+                </button>
+                <span class="file-input-status" data-translate="chartcount.upload.no.file" style="margin-left: 10px; color: #666;">No file chosen</span>
+                <input type="file" id="imageUploadInput" multiple accept="image/*" style="position: absolute; left: -9999px;">
+            </div>
+            <label style="margin-top:10px;" data-translate="chartcount.uploaded.label">Your Uploaded Images (This Session):</label>
             <div id="uploadedImagesPreview">
-                <p class="dictionary-message">Your uploaded images will appear here.</p>
+                <p class="dictionary-message" data-translate="chartcount.uploaded.placeholder">Your uploaded images will appear here.</p>
             </div>
         </div>
       </div>
@@ -595,68 +602,68 @@
     <button id="menuToggleBtn" class="menu-toggle-btn"><i class="fas fa-bars"></i></button>
     <div class="top-right-actions">
         <div class="dropdown-container">
-            <button id="generateDropdownBtn" class="action-button accent">Generate <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+            <button id="generateDropdownBtn" class="action-button accent"><span data-translate="chartcount.generate">Generate</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
             <div id="generateDropdownContent" class="dropdown-content">
-                <button id="generateWorksheetBtn">Generate Worksheet</button>
-                <button id="generateSolutionBtn" disabled>Generate Answer Key</button>
+                <button id="generateWorksheetBtn" data-translate="chartcount.generate.worksheet">Generate Worksheet</button>
+                <button id="generateSolutionBtn" disabled data-translate="chartcount.generate.answer">Generate Answer Key</button>
             </div>
         </div>
         <div class="dropdown-container">
-            <button id="downloadDropdownBtn" class="action-button secondary" disabled>Download <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+            <button id="downloadDropdownBtn" class="action-button secondary" disabled><span data-translate="chartcount.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
             <div id="downloadDropdownContent" class="dropdown-content">
-                <button id="downloadWsJpegBtn" disabled>Worksheet (JPEG)</button>
-                <button id="downloadAkJpegBtn" disabled>Answer Key (JPEG)</button>
-                <button id="downloadWsPdfBtn" disabled>Worksheet (PDF)</button>
-                <button id="downloadAkPdfBtn" disabled>Answer Key (PDF)</button>
+                <button id="downloadWsJpegBtn" disabled data-translate="chartcount.download.worksheet.jpeg">Worksheet (JPEG)</button>
+                <button id="downloadAkJpegBtn" disabled data-translate="chartcount.download.answer.jpeg">Answer Key (JPEG)</button>
+                <button id="downloadWsPdfBtn" disabled data-translate="chartcount.download.worksheet.pdf">Worksheet (PDF)</button>
+                <button id="downloadAkPdfBtn" disabled data-translate="chartcount.download.answer.pdf">Answer Key (PDF)</button>
                 <label class="checkbox-label">
-                    <input type="checkbox" id="grayscaleToggle" />Grayscale
+                    <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
                 </label>
             </div>
         </div>
-        <button id="clearBtn" class="action-button danger">Clear All</button>
+        <button id="clearBtn" class="action-button danger" data-translate="chartcount.clear.all">Clear All</button>
     </div>
     
     <div id="object-context-toolbar" style="display:none;">
         <div class="toolbar-group">
             <div class="toolbar-item">
-                <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
+                <button class="context-btn" id="layersBtn" title="Layers" data-translate-title="toolbar.layers"><i class="fas fa-layer-group"></i></button>
                 <div class="dropdown-content" id="layersDropdown">
-                    <button id="toolbarBringForwardBtn">Bring Forward</button>
-                    <button id="toolbarSendBackwardBtn">Send Backward</button>
+                    <button id="toolbarBringForwardBtn" data-translate="toolbar.bring.forward">Bring Forward</button>
+                    <button id="toolbarSendBackwardBtn" data-translate="toolbar.send.backward">Send Backward</button>
                 </div>
             </div>
         </div>
         <div class="toolbar-group">
             <div class="toolbar-item">
-                <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
+                <button class="context-btn" id="alignBtn" title="Align" data-translate-title="toolbar.align"><i class="fas fa-th"></i></button>
                 <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
-                    <p style="font-size:11px; margin-bottom:5px; color:#555;">Align Selected:</p>
+                    <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.selected">Align Selected:</p>
                     <div>
-                        <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
-                        <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
-                        <button class="context-btn" id="alignRightBtn" title="Align Right"><i class="fas fa-align-right"></i></button>
+                        <button class="context-btn" id="alignLeftBtn" title="Align Left" data-translate-title="toolbar.align.left"><i class="fas fa-align-left"></i></button>
+                        <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally" data-translate-title="toolbar.center.h"><i class="fas fa-align-center"></i></button>
+                        <button class="context-btn" id="alignRightBtn" title="Align Right" data-translate-title="toolbar.align.right"><i class="fas fa-align-right"></i></button>
                     </div>
                     <div style="margin-top: 5px;">
-                        <button class="context-btn" id="alignTopBtn" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
-                        <button class="context-btn" id="alignVCenterBtn" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
-                        <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                        <button class="context-btn" id="alignTopBtn" title="Align Top" data-translate-title="toolbar.align.top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                        <button class="context-btn" id="alignVCenterBtn" title="Center Vertically" data-translate-title="toolbar.center.v"><i class="fas fa-grip-lines"></i></button>
+                        <button class="context-btn" id="alignBottomBtn" title="Align Bottom" data-translate-title="toolbar.align.bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
                     </div>
                     <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
-                    <p style="font-size:11px; margin-bottom:5px; color:#555;">Align to Page:</p>
+                    <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.to.page">Align to Page:</p>
                     <div>
-                        <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
-                        <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                        <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally" data-translate-title="toolbar.center.page.h"><i class="fas fa-arrows-alt-h"></i></button>
+                        <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically" data-translate-title="toolbar.center.page.v"><i class="fas fa-arrows-alt-v"></i></button>
                     </div>
                 </div>
             </div>
         </div>
         <div class="toolbar-group">
-            <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
+            <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected" data-translate-title="toolbar.delete"><i class="fas fa-trash-alt"></i></button>
         </div>
     </div>
     <div class="tab-row">
-      <button class="tab-button active" data-tab="worksheetTab">Worksheet</button>
-      <button class="tab-button" data-tab="solutionTab">Answer Key</button>
+      <button class="tab-button active" data-tab="worksheetTab" data-translate="chartcount.tab.worksheet">Worksheet</button>
+      <button class="tab-button" data-tab="solutionTab" data-translate="chartcount.tab.answer">Answer Key</button>
     </div>
     <div class="tab-content-wrapper">
       <div class="tab active" id="worksheetTab">
@@ -686,6 +693,80 @@
 
     // Canvas config must be global for overlay function
     let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
+
+    // Translation helper functions (using CHART_COUNT_TRANSLATIONS)
+    function t(key) {
+        if (typeof CHART_COUNT_TRANSLATIONS === 'undefined') {
+            console.warn('CHART_COUNT_TRANSLATIONS not loaded, returning key:', key);
+            return key;
+        }
+        const locale = window.currentLocale || 'en';
+        const translation = (CHART_COUNT_TRANSLATIONS[locale] && CHART_COUNT_TRANSLATIONS[locale][key]) ||
+                           (CHART_COUNT_TRANSLATIONS.en && CHART_COUNT_TRANSLATIONS.en[key]) ||
+                           key;
+        return translation;
+    }
+    window.t = t;
+
+    function formatTranslation(text, params) {
+        let formatted = text;
+        for (const [key, value] of Object.entries(params)) {
+            formatted = formatted.replace(new RegExp(`\\{${key}\\}`, 'g'), value);
+        }
+        return formatted;
+    }
+    window.formatTranslation = formatTranslation;
+
+    // Apply translations to all elements
+    function applyTranslations() {
+        const locale = window.currentLocale || 'en';
+        console.log('Applying translations for locale:', locale);
+
+        // Translate elements with data-translate attribute
+        document.querySelectorAll('[data-translate]').forEach(element => {
+            const key = element.getAttribute('data-translate');
+            const translation = t(key);
+            if (element.tagName === 'OPTION') {
+                element.textContent = translation;
+            } else if (element.tagName === 'INPUT' || element.tagName === 'BUTTON') {
+                element.textContent = translation;
+                element.value = element.value; // Preserve value for inputs
+            } else {
+                element.textContent = translation;
+            }
+        });
+
+        // Translate placeholders
+        document.querySelectorAll('[data-translate-placeholder]').forEach(element => {
+            const key = element.getAttribute('data-translate-placeholder');
+            element.placeholder = t(key);
+        });
+
+        // Translate titles
+        document.querySelectorAll('[data-translate-title]').forEach(element => {
+            const key = element.getAttribute('data-translate-title');
+            element.title = t(key);
+        });
+
+        // Update the selected count display if it exists
+        const selectedCountElement = document.querySelector('[data-translate="chartcount.selected.count"]');
+        if (selectedCountElement) {
+            const count = selectedCountElement.getAttribute('data-count') || '0';
+            selectedCountElement.innerHTML = formatTranslation(t('chartcount.selected.count'), {count: count});
+        }
+
+        // Update file input status if files are already selected
+        const fileInput = document.getElementById('imageUploadInput');
+        const fileStatusSpan = document.querySelector('.file-input-status');
+        if (fileInput && fileStatusSpan) {
+            if (fileInput.files && fileInput.files.length > 0) {
+                fileStatusSpan.textContent = formatTranslation(t('chartcount.upload.files.selected'), {count: fileInput.files.length});
+            } else {
+                fileStatusSpan.textContent = t('chartcount.upload.no.file');
+            }
+        }
+    }
+    window.applyTranslations = applyTranslations;
 </script>
 
 <script>
@@ -932,12 +1013,23 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function handleImageUpload(e) {
         const files = e.target.files;
+
+        // Update file input status text
+        const fileStatusSpan = document.querySelector('.file-input-status');
+        if (fileStatusSpan) {
+            if (files && files.length > 0) {
+                fileStatusSpan.textContent = formatTranslation(t('chartcount.upload.files.selected'), {count: files.length});
+            } else {
+                fileStatusSpan.textContent = t('chartcount.upload.no.file');
+            }
+        }
+
         if (!files || files.length === 0) return;
 
         let filesToLoad = Array.from(files).filter(f => f.type.startsWith('image/')).length;
         if (filesToLoad === 0) return;
 
-        showMessage('info', `Loading ${filesToLoad} image(s)...`, 0);
+        showMessage('info', formatTranslation(t('chartcount.msg.loading.uploads'), {count: filesToLoad}), 0);
 
         for (const file of files) {
             if (!file.type.startsWith('image/')) continue;
@@ -950,12 +1042,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 filesToLoad--;
                 if (filesToLoad === 0) {
                     renderUploadedImages();
-                    showMessage('success', `${uploadedImages.length} custom image(s) now available.`);
+                    showMessage('success', formatTranslation(t('chartcount.msg.uploads.available'), {count: uploadedImages.length}));
                 }
             };
             reader.onerror = () => {
                 filesToLoad--;
-                showMessage('error', `Error reading file: ${file.name}`);
+                showMessage('error', formatTranslation(t('chartcount.msg.file.error'), {filename: file.name}));
             };
             reader.readAsDataURL(file);
         }
@@ -1004,15 +1096,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // --- MODIFIED IMAGE LIBRARY LOGIC ---
     async function initializeImageLibrary() {
-        showMessage('info', 'Loading image themes...');
+        showMessage('info', t('chartcount.msg.loading.themes'));
         try {
             // Fetch nested theme paths
             const themePaths = await fetch(`/api/themes-translated?locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
             imageCache.themes = themePaths;
             
             // Populate dropdowns with nested theme structure
-            themeSelect.innerHTML = '<option value="all" data-translate-key="allThemes">All Themes</option>';
-            worksheetThemeSelect.innerHTML = '<option value="" data-translate-key="manualSelection">Manual Selection Below</option>';
+            themeSelect.innerHTML = '<option value="all" data-translate-key="allThemes">' + t('chartcount.themes.all') + '</option>';
+            worksheetThemeSelect.innerHTML = '<option value="" data-translate-key="manualSelection">' + t('chartcount.manual.selection') + '</option>';
 
             themePaths.forEach(theme => {
                 const opt = document.createElement('option');
@@ -1022,7 +1114,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 worksheetThemeSelect.appendChild(opt.cloneNode(true));
             });
             
-            showMessage('success', 'Image library ready.');
+            showMessage('success', t('chartcount.msg.library.ready'));
             
             // Re-apply translations to update "All Themes" text
             if (typeof applyTranslations !== 'undefined') {
@@ -1036,7 +1128,7 @@ document.addEventListener('DOMContentLoaded', function() {
             await renderDictionary();
         } catch (error) {
             console.error("Failed to initialize image library:", error);
-            showMessage('error', 'Could not load image library.');
+            showMessage('error', t('chartcount.msg.library.error'));
         }
     }
 
@@ -1049,7 +1141,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const data = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`).then(res => res.json());
                 currentThemeImages = data.images || data;
             } catch (e) {
-                showMessage('error', `Failed to load theme: ${selectedTheme}`);
+                showMessage('error', formatTranslation(t('chartcount.msg.theme.error'), {theme: selectedTheme}));
                 currentThemeImages = [];
             }
         } else {
@@ -1085,12 +1177,12 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         } catch (error) {
             console.error('Error fetching/filtering images:', error);
-            showMessage('error', 'Could not retrieve images.');
+            showMessage('error', t('chartcount.msg.retrieve.error'));
             imagesToDisplay = [];
         }
 
         if (imagesToDisplay.length === 0) {
-            dictionaryDiv.innerHTML = `<p class="dictionary-message">No images found${query ? ` matching "${query}"` : ''}.</p>`;
+            dictionaryDiv.innerHTML = `<p class="dictionary-message">${formatTranslation(t('chartcount.msg.no.images'), {query: query ? ` matching "${query}"` : ''})}</p>`;
             return;
         }
 
@@ -1111,7 +1203,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function renderUploadedImages() {
         uploadedImagesPreviewDiv.innerHTML = "";
         if (uploadedImages.length === 0) {
-            uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">Your uploaded images will appear here.</p>`;
+            uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">${t('chartcount.uploaded.placeholder')}</p>`;
             return;
         }
         uploadedImages.forEach(imgData => {
@@ -1134,7 +1226,7 @@ document.addEventListener('DOMContentLoaded', function() {
             selectedImages.splice(index, 1);
         } else {
             if (selectedImages.length >= 6) {
-                showMessage('info', "Maximum of 6 images can be selected.", 3000);
+                showMessage('info', t('chartcount.msg.max.images'), 3000);
                 return;
             }
             selectedImages.push(image);
@@ -1154,10 +1246,17 @@ document.addEventListener('DOMContentLoaded', function() {
             selectedImagesPreviewDiv.appendChild(item);
         });
         selectedCountSpan.textContent = selectedImages.length;
+        // Update the translated selected count display
+        const selectedCountElement = document.querySelector('[data-translate="chartcount.selected.count"]');
+        if (selectedCountElement) {
+            selectedCountElement.setAttribute('data-count', selectedImages.length);
+            const parent = selectedCountElement;
+            parent.innerHTML = formatTranslation(t('chartcount.selected.count'), {count: selectedImages.length}).replace('{count}', `<span id="selectedCount">${selectedImages.length}</span>`);
+        }
     }
 
     async function generateChartData() {
-        showMessage('info', 'Generating chart data...', 0);
+        showMessage('info', t('chartcount.msg.generating'), 0);
         let imagesForChartGeneration = [];
         const chosenWorksheetTheme = worksheetThemeSelect.value;
 
@@ -1184,7 +1283,7 @@ document.addEventListener('DOMContentLoaded', function() {
             lastGeneratedData = generatedData;
             return generatedData;
         } catch (e) {
-            showMessage('error', e.message);
+            showMessage('error', t('chartcount.msg.generation.failed'));
             return null;
         }
     }
@@ -1196,21 +1295,21 @@ document.addEventListener('DOMContentLoaded', function() {
             await renderWorksheet(data);
             generateSolutionBtn.disabled = false;
             updateDownloadButtonsState(true);
-            showMessage('success', 'Worksheet generated!');
+            showMessage('success', t('chartcount.msg.worksheet.generated'));
         }
         generateWorksheetBtn.disabled = false;
     }
 
     async function handleGenerateSolution() {
         if (!lastGeneratedData) {
-            showMessage('error', 'Please generate the worksheet first.');
+            showMessage('error', t('chartcount.msg.generate.first'));
             return;
         }
         await renderSolution(lastGeneratedData);
         switchTab(document.querySelector('.tab-button[data-tab="solutionTab"]'));
         downloadAkJpegBtn.disabled = false;
         downloadAkPdfBtn.disabled = false;
-        showMessage('success', 'Answer key generated!');
+        showMessage('success', t('chartcount.msg.answer.generated'));
     }
 
     // START: Refactor Step 2 (Worksheet Generation)
@@ -1746,8 +1845,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function createFabricNameDateGroup() {
-        const nameText = new fabric.Textbox("Name: ____________________", { left: 0, top: 0, fontSize: 18, fontFamily: 'Fredoka', fill: '#333', width: 250 });
-        const dateText = new fabric.Textbox("Date: ____________", { left: nameText.width + 30, top: 0, fontSize: 18, fontFamily: 'Fredoka', fill: '#333', width: 180 });
+        const nameText = new fabric.Textbox(t('chartcount.name.field'), { left: 0, top: 0, fontSize: 18, fontFamily: 'Fredoka', fill: '#333', width: 250 });
+        const dateText = new fabric.Textbox(t('chartcount.date.field'), { left: nameText.width + 30, top: 0, fontSize: 18, fontFamily: 'Fredoka', fill: '#333', width: 180 });
         const group = new fabric.Group([nameText, dateText], { left: 50, top: currentCanvasConfig.height - 50, isNameDate: true, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 8, transparentCorners: false, cornerStyle: 'circle' });
         return group;
     }
@@ -1890,7 +1989,7 @@ document.addEventListener('DOMContentLoaded', function() {
         activeCanvas.setActiveObject(textObject);
         activeCanvas.renderAll();
         textInput.value = '';
-        showMessage('success', 'Text added.', 1500);
+        showMessage('success', t('chartcount.msg.text.added'), 1500);
     }
 
     function updateActiveTextObjectProperties() {
@@ -1990,12 +2089,12 @@ document.addEventListener('DOMContentLoaded', function() {
         worksheetThemeSelect.value = "";
         
         borderThemeSelect.value = "none";
-        borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
+        borderDictionary.innerHTML = '<p class="dictionary-message">' + formatTranslation(t('chartcount.asset.select'), {type: t('chartcount.border.title').toLowerCase()}) + '</p>';
         borderOpacitySlider.value = 1;
         document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
         
         backgroundThemeSelect.value = "none";
-        backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see backgrounds.</p>';
+        backgroundDictionary.innerHTML = '<p class="dictionary-message">' + formatTranslation(t('chartcount.asset.select'), {type: t('chartcount.background.title').toLowerCase()}) + '</p>';
         backgroundOpacitySlider.value = 1;
         document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
 
@@ -2003,7 +2102,7 @@ document.addEventListener('DOMContentLoaded', function() {
         grayscaleToggle.checked = false;
         generateSolutionBtn.disabled = true;
         updateDownloadButtonsState(false);
-        showMessage('success', 'Form cleared.');
+        showMessage('success', t('chartcount.msg.canvas.cleared'));
     }
 
     function updateCanvasDisplayDimensions(width, height) {
@@ -2107,7 +2206,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // --- BORDER & BACKGROUND LOGIC ---
     async function loadBorderThemes() {
         try {
-            borderThemeSelect.innerHTML = '<option value="none">None</option>';
+            borderThemeSelect.innerHTML = '<option value="none">' + t('common.none') + '</option>';
             const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
             if (!response.ok) {
                 console.error('Failed to load border themes');
@@ -2127,7 +2226,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     async function loadBackgroundThemes() {
         try {
-            backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+            backgroundThemeSelect.innerHTML = '<option value="none">' + t('common.none') + '</option>';
             const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
             if (!response.ok) {
                 console.error('Failed to load background themes');
@@ -2149,7 +2248,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const theme = backgroundThemeSelect.value;
         document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
         if (theme === 'none') {
-            backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see backgrounds.</p>';
+            backgroundDictionary.innerHTML = '<p class="dictionary-message">' + formatTranslation(t('chartcount.asset.select'), {type: t('chartcount.background.title').toLowerCase()}) + '</p>';
             const activeCanvas = getActiveCanvas();
             if (activeCanvas) {
                 const existingBg = activeCanvas.getObjects().find(obj => obj.isBackground);
@@ -2161,14 +2260,14 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
-        backgroundDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} backgrounds...</p>`;
+        backgroundDictionary.innerHTML = `<p class="dictionary-message">${formatTranslation(t('chartcount.asset.loading'), {type: t('chartcount.background.title').toLowerCase()})}</p>`;
         try {
             const apiUrl = `/api/backgrounds/images?theme=${theme}&locale=${currentLocale}`;
             const response = await fetch(apiUrl).then(res => res.ok ? res.json() : []);
             const images = response.images || response;
             backgroundDictionary.innerHTML = "";
             if (images.length === 0) {
-                backgroundDictionary.innerHTML = '<p class="dictionary-message">No backgrounds found in this theme.</p>';
+                backgroundDictionary.innerHTML = '<p class="dictionary-message">' + formatTranslation(t('chartcount.asset.none'), {type: t('chartcount.background.title').toLowerCase()}) + '</p>';
                 return;
             }
             images.forEach(bgData => {
@@ -2182,7 +2281,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 };
                 backgroundDictionary.appendChild(item);
             });
-        } catch (error) { backgroundDictionary.innerHTML = '<p class="dictionary-message">Error loading backgrounds.</p>'; }
+        } catch (error) { backgroundDictionary.innerHTML = '<p class="dictionary-message">' + formatTranslation(t('chartcount.asset.error'), {type: t('chartcount.background.title').toLowerCase()}) + '</p>'; }
     }
     
     function addBackgroundToCanvas(path) {
@@ -2241,7 +2340,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const theme = borderThemeSelect.value;
         document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
         if (theme === 'none') {
-            borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
+            borderDictionary.innerHTML = '<p class="dictionary-message">' + formatTranslation(t('chartcount.asset.select'), {type: t('chartcount.border.title').toLowerCase()}) + '</p>';
             const activeCanvas = getActiveCanvas();
             if (activeCanvas) {
                 const existingBorder = activeCanvas.getObjects().find(obj => obj.isBorder);
@@ -2253,14 +2352,14 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
-        borderDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} borders...</p>`;
+        borderDictionary.innerHTML = `<p class="dictionary-message">${formatTranslation(t('chartcount.asset.loading'), {type: t('chartcount.border.title').toLowerCase()})}</p>`;
         try {
             const apiUrl = `/api/borders/images?theme=${theme}&locale=${currentLocale}`;
             const response = await fetch(apiUrl).then(res => res.ok ? res.json() : []);
             const images = response.images || response;
             borderDictionary.innerHTML = "";
             if (images.length === 0) {
-                borderDictionary.innerHTML = '<p class="dictionary-message">No borders found in this theme.</p>';
+                borderDictionary.innerHTML = '<p class="dictionary-message">' + formatTranslation(t('chartcount.asset.none'), {type: t('chartcount.border.title').toLowerCase()}) + '</p>';
                 return;
             }
             images.forEach(borderData => {
@@ -2274,7 +2373,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 };
                 borderDictionary.appendChild(item);
             });
-        } catch (error) { borderDictionary.innerHTML = '<p class="dictionary-message">Error loading borders.</p>'; }
+        } catch (error) { borderDictionary.innerHTML = '<p class="dictionary-message">' + formatTranslation(t('chartcount.asset.error'), {type: t('chartcount.border.title').toLowerCase()}) + '</p>'; }
     }
 
     function addBorderToCanvas(path) {
@@ -2383,10 +2482,10 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     async function downloadCanvasAsJPEG(canvas, fileName) {
-        if (!lastGeneratedData) { showMessage("error", "Please generate a worksheet first."); return; }
-        if (!canvas) { showMessage("error", "Canvas not available for download."); return; }
-    
-        showMessage('info', `Preparing ${fileName}...`, 0);
+        if (!lastGeneratedData) { showMessage("error", t('chartcount.msg.generate.first')); return; }
+        if (!canvas) { showMessage("error", t('chartcount.msg.download.error')); return; }
+
+        showMessage('info', t('chartcount.msg.preparing.download'), 0);
         const exportOpts = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
         
         try {
@@ -2397,17 +2496,17 @@ document.addEventListener('DOMContentLoaded', function() {
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
-            showMessage('success', `${fileName} download initiated!`, 3000);
+            showMessage('success', t('chartcount.msg.library.ready'), 3000);
         } catch (e) { 
-            showMessage('error', `JPEG Error: ${e.message}`);
+            showMessage('error', t('chartcount.msg.download.error'));
         }
     }
     
     async function downloadCanvasAsPDF(canvas, fileName) {
-        if (!lastGeneratedData) { showMessage("error", "Please generate a worksheet first."); return; }
-        if (!canvas) { showMessage("error", "Canvas not available for download."); return; }
-    
-        showMessage('info', `Preparing ${fileName}...`, 0);
+        if (!lastGeneratedData) { showMessage("error", t('chartcount.msg.generate.first')); return; }
+        if (!canvas) { showMessage("error", t('chartcount.msg.download.error')); return; }
+
+        showMessage('info', t('chartcount.msg.preparing.download'), 0);
         const { jsPDF } = window.jspdf;
         const exportOpts = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
         
@@ -2426,9 +2525,9 @@ document.addEventListener('DOMContentLoaded', function() {
             // Add image at full page size
             pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
             pdf.save(fileName);
-            showMessage('success', `${fileName} Downloaded!`);
+            showMessage('success', t('chartcount.msg.library.ready'));
         } catch (e) { 
-            showMessage('error', `PDF Error: ${e.message}`);
+            showMessage('error', t('chartcount.msg.pdf.error'));
         }
     }
     
@@ -2507,9 +2606,9 @@ document.addEventListener('DOMContentLoaded', function() {
     if (originalDownloadPDF) {
         window.downloadPDF = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate content first.', 'error');
+                return showMessage(t('chartcount.msg.generate.first'), 'error');
             }
-            showMessage('Preparing PDF...', 'info', 0);
+            showMessage(t('chartcount.msg.preparing.download'), 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -2532,9 +2631,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
                 
                 pdf.save(fileName);
-                showMessage('PDF downloaded!', 'success');
+                showMessage(t('chartcount.msg.library.ready'), 'success');
             } catch(e) { 
-                showMessage('Error creating PDF.', 'error'); 
+                showMessage(t('chartcount.msg.pdf.error'), 'error'); 
                 console.error(e); 
             } finally {
                 // Remove watermark after export
@@ -2548,9 +2647,9 @@ document.addEventListener('DOMContentLoaded', function() {
     if (originalDownloadJPEG) {
         window.downloadJPEG = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate a worksheet first.', 'error');
+                return showMessage(t('chartcount.msg.generate.first'), 'error');
             }
-            showMessage('Preparing JPEG...', 'info', 0);
+            showMessage(t('chartcount.msg.preparing.download'), 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -2566,9 +2665,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 link.href = dataURL;
                 link.download = fileName;
                 link.click();
-                showMessage('JPEG download initiated!', 'success');
+                showMessage(t('chartcount.msg.library.ready'), 'success');
             } catch(e) { 
-                showMessage('Error preparing JPEG.', 'error'); 
+                showMessage(t('chartcount.msg.download.error'), 'error'); 
                 console.error(e); 
             } finally {
                 // Remove watermark after export

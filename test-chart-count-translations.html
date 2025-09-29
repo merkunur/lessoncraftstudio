@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Chart Count Translations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 { color: #333; }
+        .test-section {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .success { color: green; }
+        .error { color: red; }
+        .info { color: blue; }
+        .warning { color: orange; }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: 2px solid #333;
+            margin: 10px 0;
+        }
+        .language-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .language-card {
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .language-card h3 {
+            margin-top: 0;
+        }
+        pre {
+            background: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chart Count Translation Test Suite</h1>
+
+    <div class="test-section">
+        <h2>📋 Translation Coverage Report</h2>
+        <div id="coverage-report"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>🌍 Language Tests</h2>
+        <p>Click on a language to open the Chart Count app in that language:</p>
+        <div class="language-grid">
+            <div class="language-card">
+                <h3>🇬🇧 English (en)</h3>
+                <button onclick="openApp('en')">Open in English</button>
+                <div id="test-en"></div>
+            </div>
+            <div class="language-card">
+                <h3>🇩🇪 German (de)</h3>
+                <button onclick="openApp('de')">Open in German</button>
+                <div id="test-de"></div>
+            </div>
+            <div class="language-card">
+                <h3>🇫🇷 French (fr)</h3>
+                <button onclick="openApp('fr')">Open in French</button>
+                <div id="test-fr"></div>
+            </div>
+            <div class="language-card">
+                <h3>🇪🇸 Spanish (es)</h3>
+                <button onclick="openApp('es')">Open in Spanish</button>
+                <div id="test-es"></div>
+            </div>
+            <div class="language-card">
+                <h3>🇵🇹 Portuguese (pt)</h3>
+                <button onclick="openApp('pt')">Open in Portuguese</button>
+                <div id="test-pt"></div>
+            </div>
+            <div class="language-card">
+                <h3>🇮🇹 Italian (it)</h3>
+                <button onclick="openApp('it')">Open in Italian</button>
+                <div id="test-it"></div>
+            </div>
+            <div class="language-card">
+                <h3>🇳🇱 Dutch (nl)</h3>
+                <button onclick="openApp('nl')">Open in Dutch</button>
+                <div id="test-nl"></div>
+            </div>
+            <div class="language-card">
+                <h3>🇸🇪 Swedish (sv)</h3>
+                <button onclick="openApp('sv')">Open in Swedish</button>
+                <div id="test-sv"></div>
+            </div>
+            <div class="language-card">
+                <h3>🇩🇰 Danish (da)</h3>
+                <button onclick="openApp('da')">Open in Danish</button>
+                <div id="test-da"></div>
+            </div>
+            <div class="language-card">
+                <h3>🇳🇴 Norwegian (no)</h3>
+                <button onclick="openApp('no')">Open in Norwegian</button>
+                <div id="test-no"></div>
+            </div>
+            <div class="language-card">
+                <h3>🇫🇮 Finnish (fi)</h3>
+                <button onclick="openApp('fi')">Open in Finnish</button>
+                <div id="test-fi"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>🧪 Live Test</h2>
+        <p>Current Locale: <select id="locale-selector">
+            <option value="en">English</option>
+            <option value="de">German</option>
+            <option value="fr">French</option>
+            <option value="es">Spanish</option>
+            <option value="pt">Portuguese</option>
+            <option value="it">Italian</option>
+            <option value="nl">Dutch</option>
+            <option value="sv">Swedish</option>
+            <option value="da">Danish</option>
+            <option value="no">Norwegian</option>
+            <option value="fi">Finnish</option>
+        </select></p>
+        <iframe id="test-frame" src="frontend/public/worksheet-generators/chart count.html?locale=en"></iframe>
+    </div>
+
+    <div class="test-section">
+        <h2>🔍 Critical Keys Test</h2>
+        <div id="critical-keys-test"></div>
+    </div>
+
+    <script src="frontend/public/worksheet-generators/js/translations-chart-count.js"></script>
+    <script>
+        // Test translation coverage
+        function testCoverage() {
+            const report = document.getElementById('coverage-report');
+            const languages = Object.keys(CHART_COUNT_TRANSLATIONS);
+            const enKeys = Object.keys(CHART_COUNT_TRANSLATIONS.en);
+
+            let html = '<table style="width: 100%; border-collapse: collapse;">';
+            html += '<tr><th>Language</th><th>Keys</th><th>Coverage</th><th>Status</th></tr>';
+
+            languages.forEach(lang => {
+                const keys = Object.keys(CHART_COUNT_TRANSLATIONS[lang] || {});
+                const coverage = ((keys.length / enKeys.length) * 100).toFixed(1);
+                const status = keys.length === enKeys.length ?
+                    '<span class="success">✅ Complete</span>' :
+                    '<span class="warning">⚠️ Partial</span>';
+
+                html += `<tr>
+                    <td>${lang}</td>
+                    <td>${keys.length} / ${enKeys.length}</td>
+                    <td>${coverage}%</td>
+                    <td>${status}</td>
+                </tr>`;
+            });
+
+            html += '</table>';
+            report.innerHTML = html;
+        }
+
+        // Test critical keys
+        function testCriticalKeys() {
+            const criticalKeys = [
+                'chartcount.background.title',
+                'chartcount.border.title',
+                'common.grayscale',
+                'chartcount.page.title',
+                'chartcount.generate',
+                'chartcount.msg.exact.six'
+            ];
+
+            const testDiv = document.getElementById('critical-keys-test');
+            let html = '<h3>Testing Critical Translation Keys:</h3>';
+
+            criticalKeys.forEach(key => {
+                html += '<div style="margin: 10px 0;">';
+                html += `<strong>${key}:</strong><br>`;
+
+                ['en', 'de', 'fr', 'es'].forEach(lang => {
+                    const value = CHART_COUNT_TRANSLATIONS[lang]?.[key];
+                    if (value) {
+                        html += `<span class="success">${lang}: ${value}</span><br>`;
+                    } else {
+                        html += `<span class="error">${lang}: MISSING</span><br>`;
+                    }
+                });
+
+                html += '</div>';
+            });
+
+            testDiv.innerHTML = html;
+        }
+
+        // Open app in specific language
+        function openApp(locale) {
+            const url = `frontend/public/worksheet-generators/chart count.html?locale=${locale}`;
+            window.open(url, '_blank');
+        }
+
+        // Update iframe when locale changes
+        document.getElementById('locale-selector').addEventListener('change', function() {
+            const locale = this.value;
+            document.getElementById('test-frame').src =
+                `frontend/public/worksheet-generators/chart count.html?locale=${locale}`;
+        });
+
+        // Test specific language
+        function testLanguage(locale) {
+            const testDiv = document.getElementById(`test-${locale}`);
+            const keys = Object.keys(CHART_COUNT_TRANSLATIONS[locale] || {});
+            const enKeys = Object.keys(CHART_COUNT_TRANSLATIONS.en);
+
+            if (keys.length === enKeys.length) {
+                testDiv.innerHTML = '<span class="success">✅ All keys translated</span>';
+            } else {
+                testDiv.innerHTML = `<span class="warning">⚠️ ${keys.length}/${enKeys.length} keys</span>`;
+            }
+        }
+
+        // Run tests on load
+        window.addEventListener('DOMContentLoaded', function() {
+            testCoverage();
+            testCriticalKeys();
+
+            // Test each language
+            ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'].forEach(lang => {
+                testLanguage(lang);
+            });
+        });
+
+        // Console diagnostic
+        console.log('=== CHART COUNT TRANSLATIONS DIAGNOSTIC ===');
+        console.log('Total languages:', Object.keys(CHART_COUNT_TRANSLATIONS).length);
+        console.log('Languages:', Object.keys(CHART_COUNT_TRANSLATIONS).join(', '));
+        Object.keys(CHART_COUNT_TRANSLATIONS).forEach(lang => {
+            const keys = Object.keys(CHART_COUNT_TRANSLATIONS[lang]);
+            console.log(`${lang}: ${keys.length} keys`);
+        });
+
+        // Test critical keys in console
+        console.log('\n=== CRITICAL KEYS TEST ===');
+        ['chartcount.background.title', 'chartcount.border.title', 'common.grayscale'].forEach(key => {
+            console.log(`${key}:`, {
+                en: CHART_COUNT_TRANSLATIONS.en?.[key],
+                de: CHART_COUNT_TRANSLATIONS.de?.[key],
+                fr: CHART_COUNT_TRANSLATIONS.fr?.[key]
+            });
+        });
+    </script>
+</body>
+</html>

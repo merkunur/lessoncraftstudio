@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chart Count Complete Translation Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .language-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .language-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .language-card h3 {
+            margin-top: 0;
+            padding: 10px;
+            background: #f0f0f0;
+            border-radius: 3px;
+        }
+        .success { color: green; font-weight: bold; }
+        .error { color: red; font-weight: bold; }
+        .warning { color: orange; }
+        .key-test {
+            margin: 5px 0;
+            padding: 5px;
+            background: #f9f9f9;
+            border-left: 3px solid #ddd;
+        }
+        .key-test.success { border-left-color: green; }
+        .key-test.error { border-left-color: red; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th { background: #f0f0f0; }
+        .test-section {
+            margin: 30px 0;
+            padding: 20px;
+            border: 2px solid #333;
+            border-radius: 5px;
+        }
+        .iframe-container {
+            margin: 20px 0;
+        }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: 2px solid #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chart Count Complete Translation Verification</h1>
+
+    <div class="test-section">
+        <h2>📊 Translation Coverage Summary</h2>
+        <table id="coverage-table">
+            <thead>
+                <tr>
+                    <th>Language</th>
+                    <th>Code</th>
+                    <th>Keys</th>
+                    <th>Coverage</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="coverage-body"></tbody>
+        </table>
+    </div>
+
+    <div class="test-section">
+        <h2>🔍 Critical Translation Tests</h2>
+        <div id="critical-tests"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>🌍 File Input Translation Test</h2>
+        <p>Tests the three critical file input texts that must be translated:</p>
+        <div id="file-input-tests"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>🎯 Live Application Test</h2>
+        <p>Select a language to test the actual Chart Count application:</p>
+        <select id="language-selector" onchange="updateIframe()">
+            <option value="">Select a language...</option>
+            <option value="en">🇬🇧 English</option>
+            <option value="de">🇩🇪 German (Deutsch)</option>
+            <option value="fr">🇫🇷 French (Français)</option>
+            <option value="es">🇪🇸 Spanish (Español)</option>
+            <option value="pt">🇵🇹 Portuguese (Português)</option>
+            <option value="it">🇮🇹 Italian (Italiano)</option>
+            <option value="nl">🇳🇱 Dutch (Nederlands)</option>
+            <option value="sv">🇸🇪 Swedish (Svenska)</option>
+            <option value="da">🇩🇰 Danish (Dansk)</option>
+            <option value="no">🇳🇴 Norwegian (Norsk)</option>
+            <option value="fi">🇫🇮 Finnish (Suomi)</option>
+        </select>
+
+        <div class="iframe-container">
+            <iframe id="test-frame"></iframe>
+        </div>
+
+        <div style="background: #f0f0f0; padding: 15px; margin-top: 20px; border-radius: 5px;">
+            <h4>Test Checklist for Each Language:</h4>
+            <ol>
+                <li>✅ Title should be translated (not "Chart Count Worksheet Generator")</li>
+                <li>✅ "Background" label should be translated</li>
+                <li>✅ "Border" label should be translated</li>
+                <li>✅ "Grayscale" checkbox should be translated</li>
+                <li>✅ File input button should say "Choose files" in the language</li>
+                <li>✅ File input status should say "No file chosen" in the language</li>
+                <li>✅ Upload preview should say "Your uploaded images will appear here" in the language</li>
+                <li>✅ Generate button should be translated</li>
+                <li>✅ All accordion section titles should be translated</li>
+            </ol>
+        </div>
+    </div>
+
+    <div class="test-section">
+        <h2>📋 All Languages Quick Test</h2>
+        <div class="language-grid" id="language-grid"></div>
+    </div>
+
+    <script src="frontend/public/worksheet-generators/js/translations-chart-count.js"></script>
+    <script>
+        // Test configuration
+        const languages = {
+            'en': '🇬🇧 English',
+            'de': '🇩🇪 German',
+            'fr': '🇫🇷 French',
+            'es': '🇪🇸 Spanish',
+            'pt': '🇵🇹 Portuguese',
+            'it': '🇮🇹 Italian',
+            'nl': '🇳🇱 Dutch',
+            'sv': '🇸🇪 Swedish',
+            'da': '🇩🇰 Danish',
+            'no': '🇳🇴 Norwegian',
+            'fi': '🇫🇮 Finnish'
+        };
+
+        const criticalKeys = [
+            'chartcount.background.title',
+            'chartcount.border.title',
+            'common.grayscale',
+            'chartcount.upload.choose.files',
+            'chartcount.upload.no.file',
+            'chartcount.upload.files.selected',
+            'chartcount.upload.placeholder',
+            'chartcount.generate',
+            'chartcount.page.title'
+        ];
+
+        const fileInputKeys = [
+            'chartcount.upload.choose.files',
+            'chartcount.upload.no.file',
+            'chartcount.upload.files.selected'
+        ];
+
+        // Test functions
+        function testCoverage() {
+            const tbody = document.getElementById('coverage-body');
+            const enKeys = Object.keys(CHART_COUNT_TRANSLATIONS.en);
+            const expectedKeys = 171;
+
+            let html = '';
+            for (const [code, name] of Object.entries(languages)) {
+                const keys = Object.keys(CHART_COUNT_TRANSLATIONS[code] || {});
+                const coverage = ((keys.length / expectedKeys) * 100).toFixed(1);
+                const status = keys.length === expectedKeys ?
+                    '<span class="success">✅ Complete</span>' :
+                    `<span class="error">❌ Missing ${expectedKeys - keys.length} keys</span>`;
+
+                html += `<tr>
+                    <td>${name}</td>
+                    <td>${code}</td>
+                    <td>${keys.length} / ${expectedKeys}</td>
+                    <td>${coverage}%</td>
+                    <td>${status}</td>
+                </tr>`;
+            }
+            tbody.innerHTML = html;
+        }
+
+        function testCriticalKeys() {
+            const container = document.getElementById('critical-tests');
+            let html = '<h3>Testing Critical Translation Keys:</h3>';
+
+            for (const key of criticalKeys) {
+                html += `<div class="key-test">`;
+                html += `<strong>${key}:</strong><br>`;
+
+                for (const [code, name] of Object.entries(languages)) {
+                    const value = CHART_COUNT_TRANSLATIONS[code]?.[key];
+                    if (value && value !== key) {
+                        html += `<span class="success">✓</span> ${code}: "${value}"<br>`;
+                    } else {
+                        html += `<span class="error">✗</span> ${code}: MISSING<br>`;
+                    }
+                }
+                html += `</div>`;
+            }
+            container.innerHTML = html;
+        }
+
+        function testFileInputTranslations() {
+            const container = document.getElementById('file-input-tests');
+            let html = '<table><thead><tr><th>Language</th>';
+
+            for (const key of fileInputKeys) {
+                html += `<th>${key.split('.').pop()}</th>`;
+            }
+            html += '</tr></thead><tbody>';
+
+            for (const [code, name] of Object.entries(languages)) {
+                html += `<tr><td><strong>${name}</strong></td>`;
+
+                for (const key of fileInputKeys) {
+                    const value = CHART_COUNT_TRANSLATIONS[code]?.[key];
+                    if (value && value !== key) {
+                        html += `<td class="success">${value}</td>`;
+                    } else {
+                        html += `<td class="error">MISSING</td>`;
+                    }
+                }
+                html += '</tr>';
+            }
+            html += '</tbody></table>';
+            container.innerHTML = html;
+        }
+
+        function createLanguageCards() {
+            const grid = document.getElementById('language-grid');
+            let html = '';
+
+            for (const [code, name] of Object.entries(languages)) {
+                const keys = Object.keys(CHART_COUNT_TRANSLATIONS[code] || {});
+                const isComplete = keys.length === 171;
+
+                html += `<div class="language-card">
+                    <h3>${name} (${code})</h3>
+                    <p>Keys: ${keys.length} / 171</p>
+                    <p>Status: ${isComplete ? '<span class="success">✅ Complete</span>' : '<span class="error">❌ Incomplete</span>'}</p>
+                    <button onclick="testLanguage('${code}')">Test ${name}</button>
+                    <div id="test-${code}" style="margin-top: 10px;"></div>
+                </div>`;
+            }
+            grid.innerHTML = html;
+        }
+
+        function testLanguage(locale) {
+            const url = `frontend/public/worksheet-generators/chart count.html?locale=${locale}`;
+            window.open(url, '_blank');
+
+            // Show sample translations
+            const testDiv = document.getElementById(`test-${locale}`);
+            let html = '<div style="font-size: 0.9em; margin-top: 10px;">';
+            html += '<strong>Sample translations:</strong><br>';
+
+            const sampleKeys = ['chartcount.page.title', 'chartcount.background.title', 'chartcount.border.title'];
+            for (const key of sampleKeys) {
+                const value = CHART_COUNT_TRANSLATIONS[locale]?.[key];
+                html += `${key}: "${value || 'MISSING'}"<br>`;
+            }
+            html += '</div>';
+            testDiv.innerHTML = html;
+        }
+
+        function updateIframe() {
+            const selector = document.getElementById('language-selector');
+            const locale = selector.value;
+            const iframe = document.getElementById('test-frame');
+
+            if (locale) {
+                iframe.src = `frontend/public/worksheet-generators/chart count.html?locale=${locale}`;
+            } else {
+                iframe.src = '';
+            }
+        }
+
+        // Run all tests on load
+        window.addEventListener('DOMContentLoaded', function() {
+            testCoverage();
+            testCriticalKeys();
+            testFileInputTranslations();
+            createLanguageCards();
+
+            // Console diagnostics
+            console.log('=== CHART COUNT TRANSLATION DIAGNOSTIC ===');
+            console.log('Total languages:', Object.keys(CHART_COUNT_TRANSLATIONS).length);
+
+            for (const [code, name] of Object.entries(languages)) {
+                const keys = Object.keys(CHART_COUNT_TRANSLATIONS[code] || {});
+                const missing = 171 - keys.length;
+                if (missing > 0) {
+                    console.warn(`${name} (${code}): ${keys.length} keys - MISSING ${missing} keys`);
+                } else {
+                    console.log(`${name} (${code}): ${keys.length} keys - ✅ COMPLETE`);
+                }
+            }
+
+            // Test specific problem languages
+            console.log('\n=== TESTING DANISH AND FINNISH ===');
+            console.log('Danish keys:', Object.keys(CHART_COUNT_TRANSLATIONS.da).length);
+            console.log('Finnish keys:', Object.keys(CHART_COUNT_TRANSLATIONS.fi).length);
+
+            console.log('\nDanish file input translations:');
+            console.log('- Choose files:', CHART_COUNT_TRANSLATIONS.da['chartcount.upload.choose.files']);
+            console.log('- No file:', CHART_COUNT_TRANSLATIONS.da['chartcount.upload.no.file']);
+
+            console.log('\nFinnish file input translations:');
+            console.log('- Choose files:', CHART_COUNT_TRANSLATIONS.fi['chartcount.upload.choose.files']);
+            console.log('- No file:', CHART_COUNT_TRANSLATIONS.fi['chartcount.upload.no.file']);
+        });
+    </script>
+</body>
+</html>

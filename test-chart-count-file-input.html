@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Chart Count File Input Translations</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        iframe {
+            width: 100%;
+            height: 800px;
+            border: 2px solid #333;
+            margin: 20px 0;
+        }
+        .test-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+        .test-card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        h3 { margin-top: 0; }
+        .success { color: green; }
+        .warning { color: orange; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>Chart Count File Input Translation Test</h1>
+
+    <div class="test-grid">
+        <div class="test-card">
+            <h3>🇬🇧 English</h3>
+            <p>Expected:</p>
+            <ul>
+                <li>Button: "Choose files"</li>
+                <li>Status: "No file chosen"</li>
+                <li>After selection: "X file(s) selected"</li>
+                <li>Placeholder: "Your uploaded images will appear here."</li>
+            </ul>
+            <button onclick="openApp('en')">Test English</button>
+        </div>
+
+        <div class="test-card">
+            <h3>🇩🇪 German</h3>
+            <p>Expected:</p>
+            <ul>
+                <li>Button: "Dateien auswählen"</li>
+                <li>Status: "Keine Datei ausgewählt"</li>
+                <li>After selection: "X Datei(en) ausgewählt"</li>
+                <li>Placeholder: "Ihre hochgeladenen Bilder erscheinen hier."</li>
+            </ul>
+            <button onclick="openApp('de')">Test German</button>
+        </div>
+
+        <div class="test-card">
+            <h3>🇫🇷 French</h3>
+            <p>Expected:</p>
+            <ul>
+                <li>Button: "Choisir des fichiers"</li>
+                <li>Status: "Aucun fichier sélectionné"</li>
+                <li>After selection: "X fichier(s) sélectionné(s)"</li>
+                <li>Placeholder: "Vos images téléversées apparaîtront ici."</li>
+            </ul>
+            <button onclick="openApp('fr')">Test French</button>
+        </div>
+
+        <div class="test-card">
+            <h3>🇪🇸 Spanish</h3>
+            <p>Expected:</p>
+            <ul>
+                <li>Button: "Elegir archivos"</li>
+                <li>Status: "Ningún archivo seleccionado"</li>
+                <li>After selection: "X archivo(s) seleccionado(s)"</li>
+                <li>Placeholder: "Tus imágenes subidas aparecerán aquí."</li>
+            </ul>
+            <button onclick="openApp('es')">Test Spanish</button>
+        </div>
+    </div>
+
+    <h2>Live Test</h2>
+    <p>
+        <select id="locale-selector" onchange="updateIframe()">
+            <option value="en">English</option>
+            <option value="de">German (Deutsch)</option>
+            <option value="fr">French (Français)</option>
+            <option value="es">Spanish (Español)</option>
+            <option value="pt">Portuguese (Português)</option>
+            <option value="it">Italian (Italiano)</option>
+            <option value="nl">Dutch (Nederlands)</option>
+        </select>
+    </p>
+    <iframe id="test-frame" src="frontend/public/worksheet-generators/chart count.html?locale=en"></iframe>
+
+    <h2>Instructions for Testing:</h2>
+    <ol>
+        <li>Select a language from the dropdown above</li>
+        <li>In the app, expand the "Upload Custom Images" accordion</li>
+        <li>Check that the button text is translated (not "Choose files" in English)</li>
+        <li>Check that the status text is translated (not "No file chosen" in English)</li>
+        <li>Click the button and select some files</li>
+        <li>Verify the status updates to show "X file(s) selected" in the correct language</li>
+        <li>Check that "Your uploaded images will appear here" is translated</li>
+    </ol>
+
+    <script>
+        function openApp(locale) {
+            window.open(`frontend/public/worksheet-generators/chart count.html?locale=${locale}#upload-section`, '_blank');
+        }
+
+        function updateIframe() {
+            const locale = document.getElementById('locale-selector').value;
+            document.getElementById('test-frame').src =
+                `frontend/public/worksheet-generators/chart count.html?locale=${locale}`;
+        }
+    </script>
+</body>
+</html>

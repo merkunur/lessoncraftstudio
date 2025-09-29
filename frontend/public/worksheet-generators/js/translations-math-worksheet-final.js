@@ -35,6 +35,9 @@ const translations = {
         "borderTheme": "Border Theme:",
         "borderOpacity": "Border Opacity:",
         "none": "None",
+        "common.none": "None",
+        "outlineColor": "Outline Color:",
+        "outlineThickness": "Outline (0-10):",
 
         // Text Tools
         "textTools": "Text Tools",
@@ -206,6 +209,9 @@ const translations = {
         "borderTheme": "Rahmenthema:",
         "borderOpacity": "Rahmendeckkraft:",
         "none": "Keine",
+        "common.none": "Keine",
+        "outlineColor": "Konturfarbe:",
+        "outlineThickness": "Kontur (0-10):",
 
         // Text Tools
         "textTools": "Textwerkzeuge",
@@ -371,6 +377,9 @@ const translations = {
         "borderTheme": "Thème de Bordure:",
         "borderOpacity": "Opacité de la Bordure:",
         "none": "Aucun",
+        "common.none": "Aucun",
+        "outlineColor": "Couleur du contour:",
+        "outlineThickness": "Contour (0-10):",
 
         // Text Tools
         "textTools": "Outils de Texte",
@@ -542,6 +551,9 @@ const translations = {
         "borderTheme": "Tema de Borde:",
         "borderOpacity": "Opacidad del Borde:",
         "none": "Ninguno",
+        "common.none": "Ninguno",
+        "outlineColor": "Color del contorno:",
+        "outlineThickness": "Contorno (0-10):",
 
         // Text Tools
         "textTools": "Herramientas de Texto",
@@ -707,6 +719,9 @@ const translations = {
         "borderTheme": "Tema Bordo:",
         "borderOpacity": "Opacità Bordo:",
         "none": "Nessuno",
+        "common.none": "Nessuno",
+        "outlineColor": "Colore contorno:",
+        "outlineThickness": "Contorno (0-10):",
 
         // Text Tools
         "textTools": "Strumenti Testo",
@@ -872,6 +887,9 @@ const translations = {
         "borderTheme": "Tema da Borda:",
         "borderOpacity": "Opacidade da Borda:",
         "none": "Nenhum",
+        "common.none": "Nenhum",
+        "outlineColor": "Cor do contorno:",
+        "outlineThickness": "Contorno (0-10):",
 
         // Text Tools
         "textTools": "Ferramentas de Texto",
@@ -1049,6 +1067,9 @@ const translations = {
         "borderTheme": "Randthema:",
         "borderOpacity": "Rand Dekking:",
         "none": "Geen",
+        "common.none": "Geen",
+        "outlineColor": "Omtrekkleur:",
+        "outlineThickness": "Omtrek (0-10):",
 
         // Text Tools
         "textTools": "Tekstgereedschappen",
@@ -1208,6 +1229,9 @@ const translations = {
         "borderTheme": "Kanttema:",
         "borderOpacity": "Kantopacitet:",
         "none": "Ingen",
+        "common.none": "Ingen",
+        "outlineColor": "Konturfärg:",
+        "outlineThickness": "Kontur (0-10):",
 
         // Text Tools
         "textTools": "Textverktyg",
@@ -1367,6 +1391,9 @@ const translations = {
         "borderTheme": "Kanttema:",
         "borderOpacity": "Kant Uigennemsigtighed:",
         "none": "Ingen",
+        "common.none": "Ingen",
+        "outlineColor": "Konturfarve:",
+        "outlineThickness": "Kontur (0-10):",
 
         // Text Tools
         "textTools": "Tekstværktøjer",
@@ -1526,6 +1553,9 @@ const translations = {
         "borderTheme": "Kanttema:",
         "borderOpacity": "Kant Ugjennomsiktighet:",
         "none": "Ingen",
+        "common.none": "Ingen",
+        "outlineColor": "Konturfarge:",
+        "outlineThickness": "Kontur (0-10):",
 
         // Text Tools
         "textTools": "Tekstverktøy",
@@ -1685,6 +1715,9 @@ const translations = {
         "borderTheme": "Reunusteema:",
         "borderOpacity": "Reunuksen Peittävyys:",
         "none": "Ei mitään",
+        "common.none": "Ei mitään",
+        "outlineColor": "Ääriviivan väri:",
+        "outlineThickness": "Ääriviiva (0-10):",
 
         // Text Tools
         "textTools": "Tekstityökalut",

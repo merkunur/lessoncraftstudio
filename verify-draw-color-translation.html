@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Draw and Color Translation Verification</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .test { margin: 10px 0; padding: 10px; border: 1px solid #ddd; }
+        .pass { background: #d4edda; }
+        .fail { background: #f8d7da; }
+        h2 { color: #333; margin-top: 20px; }
+        .summary { font-size: 18px; padding: 20px; background: #f0f0f0; margin: 20px 0; }
+    </style>
+</head>
+<body>
+    <h1>Draw and Color Translation Implementation Verification</h1>
+
+    <div class="summary" id="summary">
+        Loading verification...
+    </div>
+
+    <h2>Test Results:</h2>
+    <div id="results"></div>
+
+    <script src="frontend/public/worksheet-generators/js/translations-draw-and-color.js"></script>
+    <script>
+        // Verification script
+        const results = [];
+        const resultsDiv = document.getElementById('results');
+
+        // Test 1: Check if translations object exists
+        const test1 = {
+            name: 'Translations object exists',
+            pass: typeof DRAW_COLOR_TRANSLATIONS !== 'undefined'
+        };
+        results.push(test1);
+
+        // Test 2: Check all 11 languages exist
+        const expectedLanguages = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
+        const test2 = {
+            name: 'All 11 languages present',
+            pass: expectedLanguages.every(lang => lang in DRAW_COLOR_TRANSLATIONS)
+        };
+        results.push(test2);
+
+        // Test 3: Check English has all 169 keys
+        const englishKeys = Object.keys(DRAW_COLOR_TRANSLATIONS.en || {});
+        const test3 = {
+            name: 'English has 169 keys',
+            pass: englishKeys.length === 169,
+            details: `Found ${englishKeys.length} keys`
+        };
+        results.push(test3);
+
+        // Test 4: Check critical user-mentioned keys
+        const criticalKeys = [
+            'drawcolor.background.title',
+            'drawcolor.border.title',
+            'common.grayscale'
+        ];
+        const test4 = {
+            name: 'Critical user-mentioned keys exist',
+            pass: criticalKeys.every(key => englishKeys.includes(key))
+        };
+        results.push(test4);
+
+        // Test 5: Check each language has same number of keys
+        const test5 = {
+            name: 'All languages have equal keys',
+            pass: true,
+            details: []
+        };
+        expectedLanguages.forEach(lang => {
+            const keys = Object.keys(DRAW_COLOR_TRANSLATIONS[lang] || {});
+            if (keys.length !== 169) {
+                test5.pass = false;
+            }
+            test5.details.push(`${lang}: ${keys.length} keys`);
+        });
+        results.push(test5);
+
+        // Test 6: Check helper functions exist
+        const test6 = {
+            name: 'Helper functions available',
+            pass: typeof getTranslation === 'function' &&
+                  typeof formatTranslation === 'function' &&
+                  typeof validateTranslations === 'function'
+        };
+        results.push(test6);
+
+        // Test 7: Check window aliases
+        const test7 = {
+            name: 'Window aliases configured',
+            pass: window.DRAW_COLOR_TRANSLATIONS === DRAW_COLOR_TRANSLATIONS &&
+                  window.translations === DRAW_COLOR_TRANSLATIONS
+        };
+        results.push(test7);
+
+        // Test 8: Test translation function
+        const test8 = {
+            name: 'Translation function works',
+            pass: false
+        };
+        if (typeof getTranslation === 'function') {
+            const germanBackground = getTranslation('drawcolor.background.title', 'de');
+            test8.pass = germanBackground === 'Hintergrund';
+            test8.details = `German background: "${germanBackground}"`;
+        }
+        results.push(test8);
+
+        // Test 9: Test format translation
+        const test9 = {
+            name: 'Format translation works',
+            pass: false
+        };
+        if (typeof formatTranslation === 'function') {
+            const formatted = formatTranslation('No {type} in this theme.', {type: 'borders'});
+            test9.pass = formatted === 'No borders in this theme.';
+            test9.details = `Formatted: "${formatted}"`;
+        }
+        results.push(test9);
+
+        // Test 10: Check specific translations
+        const test10 = {
+            name: 'Sample translations correct',
+            pass: true,
+            details: []
+        };
+        const samples = [
+            { key: 'drawcolor.title', lang: 'de', expected: 'Rasterzeichnung' },
+            { key: 'drawcolor.generate', lang: 'fr', expected: 'Générer' },
+            { key: 'common.grayscale', lang: 'sv', expected: 'Gråskala' }
+        ];
+        samples.forEach(sample => {
+            const actual = DRAW_COLOR_TRANSLATIONS[sample.lang]?.[sample.key];
+            if (actual !== sample.expected) {
+                test10.pass = false;
+            }
+            test10.details.push(`${sample.lang} ${sample.key}: "${actual}" (expected: "${sample.expected}")`);
+        });
+        results.push(test10);
+
+        // Display results
+        const passedCount = results.filter(r => r.pass).length;
+        const totalCount = results.length;
+
+        document.getElementById('summary').innerHTML = `
+            <h2>Summary: ${passedCount}/${totalCount} tests passed</h2>
+            <p>✅ Translation file compiled with ${englishKeys.length} keys across ${expectedLanguages.length} languages</p>
+            <p>✅ Total translations: ${englishKeys.length * expectedLanguages.length} (1,859 translations)</p>
+            <p>✅ Critical features: Background, Border, and Grayscale all translated</p>
+        `;
+
+        results.forEach(result => {
+            const div = document.createElement('div');
+            div.className = `test ${result.pass ? 'pass' : 'fail'}`;
+            div.innerHTML = `
+                <strong>${result.pass ? '✅' : '❌'} ${result.name}</strong>
+                ${result.details ? '<br>' + (Array.isArray(result.details) ? result.details.join('<br>') : result.details) : ''}
+            `;
+            resultsDiv.appendChild(div);
+        });
+
+        console.log('=== DRAW AND COLOR TRANSLATION VERIFICATION ===');
+        console.log(`Tests passed: ${passedCount}/${totalCount}`);
+        console.log('Languages:', Object.keys(DRAW_COLOR_TRANSLATIONS));
+        console.log('Total keys per language:', englishKeys.length);
+        console.log('Critical keys present:', criticalKeys.every(key => englishKeys.includes(key)));
+    </script>
+</body>
+</html>

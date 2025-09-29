@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SpotWorks - Find the Objects Generator</title>
+  <title data-translate="findobjects.page.title">SpotWorks - Find the Objects Generator</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="js/translations.js"></script>
+  <script src="js/translations-find-objects.js"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
@@ -525,143 +525,143 @@
     <div id="menuOverlay" class="menu-overlay"></div>
     <div class="panel">
         <div class="panel-header">
-          <h2>SpotWorks</h2>
+          <h2 data-translate="findobjects.title">SpotWorks</h2>
           <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
         </div>
         <div class="panel-content">
             <div class="language-selector" style="margin: 10px 15px; padding-bottom: 10px; border-bottom: 1px solid var(--app-border-dark);">
-                <label data-translate-key="language" style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Language:</label>
+                <label data-translate="language.label" style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Language:</label>
                 <select id="languageSelect" style="width: 100%; padding: 6px; background: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); border: 1px solid var(--app-border-dark); border-radius: 5px; font-size: 13px;">
-                    <option value="en">English</option>
-                    <option value="de">Deutsch</option>
-                    <option value="fr">Français</option>
-                    <option value="es">Español</option>
-                    <option value="pt">Português</option>
-                    <option value="it">Italiano</option>
-                    <option value="nl">Nederlands</option>
-                    <option value="sv">Svenska</option>
-                    <option value="da">Dansk</option>
-                    <option value="no">Norsk</option>
-                    <option value="fi">Suomi</option>
+                    <option value="en" data-translate="language.english">English</option>
+                    <option value="de" data-translate="language.german">Deutsch</option>
+                    <option value="fr" data-translate="language.french">Français</option>
+                    <option value="es" data-translate="language.spanish">Español</option>
+                    <option value="pt" data-translate="language.portuguese">Português</option>
+                    <option value="it" data-translate="language.italian">Italiano</option>
+                    <option value="nl" data-translate="language.dutch">Nederlands</option>
+                    <option value="sv" data-translate="language.swedish">Svenska</option>
+                    <option value="da" data-translate="language.danish">Dansk</option>
+                    <option value="no" data-translate="language.norwegian">Norsk</option>
+                    <option value="fi" data-translate="language.finnish">Suomi</option>
                 </select>
             </div>
 
             <div class="accordion-item">
-                <button class="accordion-button">Page & Scene</button>
+                <button class="accordion-button" data-translate="findobjects.page.scene">Page & Scene</button>
                 <div class="accordion-content">
-                    <h4>Page Setup</h4>
-                    <label for="pageSizeSelect">Page Size:</label>
+                    <h4 data-translate="findobjects.page.setup">Page Setup</h4>
+                    <label for="pageSizeSelect" data-translate="findobjects.page.size.label">Page Size:</label>
                     <select id="pageSizeSelect">
-                        <option value="612x792" selected>Letter Portrait (8.5×11")</option>
-                        <option value="792x612">Letter Landscape (11×8.5")</option>
-                        <option value="595x842">A4 Portrait (210×297mm)</option>
-                        <option value="842x595">A4 Landscape (297×210mm)</option>
-                        <option value="custom">Custom</option>
+                        <option value="612x792" selected data-translate="page.size.letter.portrait">Letter Portrait (8.5×11")</option>
+                        <option value="792x612" data-translate="page.size.letter.landscape">Letter Landscape (11×8.5")</option>
+                        <option value="595x842" data-translate="page.size.a4.portrait">A4 Portrait (210×297mm)</option>
+                        <option value="842x595" data-translate="page.size.a4.landscape">A4 Landscape (297×210mm)</option>
+                        <option value="custom" data-translate="page.size.custom">Custom</option>
                     </select>
                     <div id="customPageSizeInputs" style="display:none;">
-                        <label for="pageWidth">Width (px):</label>
+                        <label for="pageWidth" data-translate="findobjects.width.label">Width (px):</label>
                         <input type="number" id="pageWidth" value="612">
-                        <label for="pageHeight">Height (px):</label>
+                        <label for="pageHeight" data-translate="findobjects.height.label">Height (px):</label>
                         <input type="number" id="pageHeight" value="792">
                     </div>
-                     <button id="setPageSizeBtn">Apply Size</button>
+                     <button id="setPageSizeBtn" data-translate="findobjects.apply.size">Apply Size</button>
 
-                    <h4>Background</h4>
+                    <h4 data-translate="findobjects.background.title">Background</h4>
                     <label for="useDefaultDecorations" class="checkbox-label">
-                        <input type="checkbox" id="useDefaultDecorations" checked />Use Child-Friendly Decorations
+                        <input type="checkbox" id="useDefaultDecorations" checked /><span data-translate="findobjects.use.decorations">Use Child-Friendly Decorations</span>
                     </label>
-                    <label for="pageColor">Fallback Color:</label>
+                    <label for="pageColor" data-translate="findobjects.fallback.color">Fallback Color:</label>
                     <input type="color" id="pageColor" value="#FFFFFF">
-                    <label for="backgroundThemeSelect">Background Theme:</label>
+                    <label for="backgroundThemeSelect" data-translate="findobjects.background.theme">Background Theme:</label>
                     <select id="backgroundThemeSelect">
-                        <option value="none">None (Use Fallback Color)</option>
+                        <option value="none" data-translate="findobjects.background.none">None (Use Fallback Color)</option>
                     </select>
-                    <div id="backgroundDictionary"><p class="dictionary-message">Select a theme for backgrounds.</p></div>
-                    <label for="backgroundOpacity">Background Opacity:</label>
+                    <div id="backgroundDictionary"><p class="dictionary-message" data-translate="findobjects.background.message">Select a theme for backgrounds.</p></div>
+                    <label for="backgroundOpacity" data-translate="findobjects.background.opacity">Background Opacity:</label>
                     <input type="range" id="backgroundOpacity" min="0" max="1" step="0.05" value="1" disabled>
                     
-                    <h4>Border</h4>
-                    <label for="borderThemeSelect">Border Theme:</label>
+                    <h4 data-translate="findobjects.border.title">Border</h4>
+                    <label for="borderThemeSelect" data-translate="findobjects.border.theme">Border Theme:</label>
                     <select id="borderThemeSelect">
-                        <option value="none">None</option>
+                        <option value="none" data-translate="common.none">None</option>
                     </select>
-                    <div id="borderDictionary"><p class="dictionary-message">Select a theme for borders.</p></div>
-                    <label for="borderOpacity">Border Opacity:</label>
+                    <div id="borderDictionary"><p class="dictionary-message" data-translate="findobjects.border.message">Select a theme for borders.</p></div>
+                    <label for="borderOpacity" data-translate="findobjects.border.opacity">Border Opacity:</label>
                     <input type="range" id="borderOpacity" min="0" max="1" step="0.05" value="1" disabled>
                 </div>
             </div>
 
              <div class="accordion-item">
-                <button class="accordion-button">Text & Content</button>
+                <button class="accordion-button" data-translate="findobjects.text.content">Text & Content</button>
                 <div class="accordion-content">
-                    <h4>Text Tools</h4>
-                    <label for="textInput">Add New Text:</label><input type="text" id="textInput" placeholder="Find the hidden objects!">
-                    <button id="addTextBtn">Add Text</button>
+                    <h4 data-translate="findobjects.text.tools">Text Tools</h4>
+                    <label for="textInput" data-translate="findobjects.text.add.label">Add New Text:</label><input type="text" id="textInput" placeholder="Find the hidden objects!">
+                    <button id="addTextBtn" data-translate="findobjects.add.text">Add Text</button>
                     
-                    <h4>Selected Text Properties</h4>
-                    <label for="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
-                    <label for="fontSize">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
-                    <label for="fontFamily">Font:</label>
+                    <h4 data-translate="findobjects.text.properties">Selected Text Properties</h4>
+                    <label for="textColor" data-translate="findobjects.text.color.label">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                    <label for="fontSize" data-translate="findobjects.text.size.label">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+                    <label for="fontFamily" data-translate="findobjects.text.font.label">Font:</label>
                     <select id="fontFamily" disabled>
-                        <option value="Lexend Deca">Lexend Deca</option>
-                        <option value="Baloo 2">Baloo 2</option>
-                        <option value="Nunito">Nunito</option>
-                        <option value="Quicksand">Quicksand</option>
-                        <option value="Fredoka">Fredoka</option>
-                        <option value="Arial">Arial</option>
-                        <option value="Verdana">Verdana</option>
+                        <option value="Lexend Deca" data-translate="font.lexend">Lexend Deca</option>
+                        <option value="Baloo 2" data-translate="font.baloo">Baloo 2</option>
+                        <option value="Nunito" data-translate="font.nunito">Nunito</option>
+                        <option value="Quicksand" data-translate="font.quicksand">Quicksand</option>
+                        <option value="Fredoka" data-translate="font.fredoka">Fredoka</option>
+                        <option value="Arial" data-translate="font.arial">Arial</option>
+                        <option value="Verdana" data-translate="font.verdana">Verdana</option>
                     </select>
-                    <label for="textStrokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
-                    <label for="textStrokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+                    <label for="textStrokeColor" data-translate="findobjects.text.outline.color.label">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                    <label for="textStrokeWidth" data-translate="findobjects.text.outline.width.label">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
 
-                    <h4 style="margin-top:20px;">Other Content</h4>
+                    <h4 style="margin-top:20px;" data-translate="findobjects.other.content.label">Other Content</h4>
                      <label for="includeNameDate" class="checkbox-label">
-                        <input type="checkbox" id="includeNameDate" />Include Name/Date Fields
+                        <input type="checkbox" id="includeNameDate" /><span data-translate="findobjects.include.name.date.label">Include Name/Date Fields</span>
                     </label>
                 </div>
             </div>
 
             <div class="accordion-item">
-                <button class="accordion-button">Image Library</button>
+                <button class="accordion-button" data-translate="findobjects.image.library">Image Library</button>
                 <div class="accordion-content">
-                    <h4>Search Library</h4>
-                    <label for="themeSelect">Filter by Theme:</label>
+                    <h4 data-translate="findobjects.search.library">Search Library</h4>
+                    <label for="themeSelect" data-translate="findobjects.filter.theme">Filter by Theme:</label>
                     <select id="themeSelect">
-                        <option value="all">All Themes</option>
+                        <option value="all" data-translate="findobjects.all.themes">All Themes</option>
                     </select>
-                    <label for="searchInput">Search Images:</label>
-                    <input type="text" id="searchInput" placeholder="e.g., apple, car" />
-                    <label>Available Images:</label>
+                    <label for="searchInput" data-translate="findobjects.search.label">Search Images:</label>
+                    <input type="text" id="searchInput" placeholder="e.g., apple, car" data-translate-placeholder="findobjects.search.placeholder" />
+                    <label data-translate="findobjects.available.images.label" data-translate="findobjects.available.images.label">Available Images</label>
                     <div id="dictionary"><p class='dictionary-message'>Loading images...</p></div>
                 </div>
             </div>
 
             <div class="accordion-item">
-                <button class="accordion-button">Upload Custom Images</button>
+                <button class="accordion-button" data-translate="findobjects.upload.custom">Upload Custom Images</button>
                 <div class="accordion-content">
-                    <label for="imageUploadInput">Select image(s) to upload:</label>
-                    <input type="file" id="imageUploadInput" multiple accept="image/*">
-                    <label style="margin-top:10px;">Your Uploaded Images (This Session):</label>
+                    <label for="imageUploadInput" data-translate="findobjects.upload.select">Select image(s) to upload:</label>
+                    <input type="file" id="imageUploadInput" multiple accept="image/*" style="display: none;">
+                    <label style="margin-top:10px;" data-translate="findobjects.upload.session">Your Uploaded Images (This Session):</label>
                     <div id="uploadedImagesPreview">
-                        <p class="dictionary-message">Your uploaded images will appear here.</p>
+                        <p class="dictionary-message" data-translate="findobjects.upload.placeholder">Your uploaded images will appear here.</p>
                     </div>
                 </div>
             </div>
 
             <div class="accordion-item">
-                <button class="accordion-button">Object Selection</button>
+                <button class="accordion-button" data-translate="findobjects.object.selection">Object Selection</button>
                 <div class="accordion-content">
-                    <h4>Distractors (Select 8–12)</h4>
-                    <label for="distractorThemeSelect">Or Select Theme for Distractors:</label>
+                    <h4 data-translate="findobjects.distractors.label">Distractors (Select 8–12)</h4>
+                    <label for="distractorThemeSelect" data-translate="findobjects.distractors.theme.label" data-translate="findobjects.distractors.theme.label">Or Select Theme for Distractors:</label>
                     <select id="distractorThemeSelect">
-                        <option value="">-- No Theme (Use Manual Selection) --</option>
+                        <option value="" data-translate="findobjects.no.theme.manual">-- No Theme (Use Manual Selection) --</option>
                     </select>
                     <div class="selected-items" id="distractorItems"></div>
 
-                    <h4 style="margin-top: 20px;">Hidden Objects (Select 1–5)</h4>
-                    <label for="hiddenObjectThemeSelect">Or Select Theme for Hidden Objects:</label>
+                    <h4 style="margin-top: 20px;" data-translate="findobjects.hidden.label">Hidden Objects (Select 1–5)</h4>
+                    <label for="hiddenObjectThemeSelect" data-translate="findobjects.hidden.theme.label" data-translate="findobjects.hidden.theme.label">Or Select Theme for Hidden Objects:</label>
                     <select id="hiddenObjectThemeSelect">
-                        <option value="">-- No Theme (Use Manual Selection) --</option>
+                        <option value="" data-translate="findobjects.no.theme.manual">-- No Theme (Use Manual Selection) --</option>
                     </select>
                     <div class="selected-items" id="hiddenItems"></div>
                 </div>
@@ -688,7 +688,7 @@
               <div class="toolbar-item">
                   <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
                   <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
-                       <p style="font-size:11px; margin-bottom:5px; color:#555;">Align Selected:</p>
+                       <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="findobjects.align.selected">Align Selected:</p>
                        <div>
                            <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
                            <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
@@ -714,30 +714,30 @@
       </div>
       <div class="top-right-actions">
           <div class="dropdown-container">
-            <button id="generateDropdownBtn" class="action-button accent" disabled>Generate <i class="fas fa-caret-down"></i></button>
+            <button id="generateDropdownBtn" class="action-button accent" disabled><span data-translate="findobjects.generate">Generate</span> <i class="fas fa-caret-down"></i></button>
             <div id="generateDropdownContent" class="dropdown-content">
-                <button id="generateWorksheetBtn">Generate Worksheet</button>
-                <button id="generateAnswerKeyBtn" disabled>Generate Answer Key</button>
+                <button id="generateWorksheetBtn" data-translate="findobjects.generate.worksheet">Generate Worksheet</button>
+                <button id="generateAnswerKeyBtn" disabled data-translate="findobjects.generate.answer">Generate Answer Key</button>
             </div>
           </div>
         <div class="dropdown-container">
-            <button id="downloadDropdownBtn" class="action-button dark-style" disabled>Download <i class="fas fa-caret-down"></i></button>
+            <button id="downloadDropdownBtn" class="action-button dark-style" disabled><span data-translate="findobjects.download">Download</span> <i class="fas fa-caret-down"></i></button>
             <div id="downloadDropdownContent" class="dropdown-content">
-                <button id="downloadWorksheetJpegBtn" disabled>Worksheet (JPEG)</button>
-                <button id="downloadAnswerKeyJpegBtn" disabled>Answer Key (JPEG)</button>
-                <button id="downloadWorksheetPdfBtn" disabled>Worksheet (PDF)</button>
-                <button id="downloadAnswerKeyPdfBtn" disabled>Answer Key (PDF)</button>
+                <button id="downloadWorksheetJpegBtn" disabled data-translate="findobjects.download.worksheet.jpeg">Worksheet (JPEG)</button>
+                <button id="downloadAnswerKeyJpegBtn" disabled data-translate="findobjects.download.answer.jpeg">Answer Key (JPEG)</button>
+                <button id="downloadWorksheetPdfBtn" disabled data-translate="findobjects.download.worksheet.pdf">Worksheet (PDF)</button>
+                <button id="downloadAnswerKeyPdfBtn" disabled data-translate="findobjects.download.answer.pdf">Answer Key (PDF)</button>
                 <label class="checkbox-label">
-                    <input type="checkbox" id="grayscaleToggle" />Grayscale
+                    <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
                 </label>
             </div>
         </div>
-        <button id="clearBtn" class="action-button danger">Clear All</button>
+        <button id="clearBtn" class="action-button danger" data-translate="findobjects.clear.all">Clear All</button>
       </div>
 
       <div class="tab-row">
-        <button class="tab-button active" data-tab="worksheetTab">Worksheet</button>
-        <button class="tab-button" data-tab="answerKeyTab">Answer Key</button>
+        <button class="tab-button active" data-tab="worksheetTab" data-translate="findobjects.tab.worksheet">Worksheet</button>
+        <button class="tab-button" data-tab="answerKeyTab" data-translate="findobjects.tab.answer">Answer Key</button>
       </div>
       <div class="tab-content-wrapper">
         <div class="tab active" id="worksheetTab">
@@ -769,7 +769,128 @@
 
     // Set currentLocale globally BEFORE DOMContentLoaded (critical for enhancement scripts)
     window.currentLocale = currentLocale;
+
+
+    // Function to update all elements with data-translate attribute
     
+    // Update theme select options
+    function updateThemeOptions() {
+        // Update All Themes option if exists
+        document.querySelectorAll('option[value=""]').forEach(option => {
+            if (option.textContent === 'All Themes' || option.textContent.includes('All')) {
+                option.textContent = t('findobjects.all.themes');
+                option.setAttribute('data-translate', 'findobjects.all.themes');
+            }
+        });
+    }
+
+function updateTranslations() {
+        // Update all elements with data-translate attribute
+        document.querySelectorAll('[data-translate]').forEach(element => {
+            const key = element.getAttribute('data-translate');
+            if (key) {
+                const translation = t(key);
+
+                // For option elements and other elements with text content
+                if (element.tagName === 'OPTION' || element.tagName === 'BUTTON' ||
+                    element.tagName === 'LABEL' || element.tagName === 'H1' ||
+                    element.tagName === 'H2' || element.tagName === 'H3' ||
+                    element.tagName === 'H4' || element.tagName === 'SPAN' ||
+                    element.tagName === 'P' || element.tagName === 'DIV') {
+                    element.textContent = translation;
+                } else if (element.tagName === 'TITLE') {
+                    document.title = translation;
+                }
+            }
+        });
+
+        // Update placeholders
+        document.querySelectorAll('[data-translate-placeholder]').forEach(element => {
+            const key = element.getAttribute('data-translate-placeholder');
+            if (key && element.placeholder !== undefined) {
+                element.placeholder = t(key);
+            }
+        });
+
+        // Also check for data-placeholder-translate for backwards compatibility
+        document.querySelectorAll('[data-placeholder-translate]').forEach(element => {
+            const key = element.getAttribute('data-placeholder-translate');
+            if (key && element.placeholder !== undefined) {
+                element.placeholder = t(key);
+            }
+        });
+    }
+
+    // Handle file input translation
+    function setupFileInputTranslation() {
+        const fileInput = document.getElementById('imageUploadInput');
+        if (fileInput && !fileInput.dataset.translated) {
+            // Create custom button and label
+            const wrapper = document.createElement('div');
+            wrapper.className = 'custom-file-input-wrapper';
+            wrapper.style.display = 'flex';
+            wrapper.style.alignItems = 'center';
+            wrapper.style.gap = '10px';
+
+            const customButton = document.createElement('button');
+            customButton.type = 'button';
+            customButton.textContent = t('findobjects.choose.files');
+            customButton.setAttribute('data-translate', 'findobjects.choose.files');
+            customButton.className = 'file-input-button';
+            customButton.style.padding = '5px 10px';
+            customButton.style.cursor = 'pointer';
+
+            const statusLabel = document.createElement('span');
+            statusLabel.textContent = t('findobjects.no.file.chosen');
+            statusLabel.setAttribute('data-translate', 'findobjects.no.file.chosen');
+            statusLabel.className = 'file-input-status';
+            statusLabel.style.color = '#666';
+
+            // Hide original input
+            fileInput.style.display = 'none';
+            fileInput.dataset.translated = 'true';
+
+            // Insert custom elements
+            fileInput.parentNode.insertBefore(wrapper, fileInput.nextSibling);
+            wrapper.appendChild(customButton);
+            wrapper.appendChild(statusLabel);
+
+            // Handle button click
+            customButton.addEventListener('click', () => fileInput.click());
+
+            // Handle file selection
+            fileInput.addEventListener('change', function() {
+                if (this.files.length > 0) {
+                    statusLabel.textContent = this.files.length + ' ' + t('findobjects.files.selected');
+                } else {
+                    statusLabel.textContent = t('findobjects.no.file.chosen');
+                }
+            });
+        }
+    }
+
+    // Update file input when language changes
+    function updateFileInputTranslation() {
+        const customButton = document.querySelector('.file-input-button');
+        const statusLabel = document.querySelector('.file-input-status');
+        const fileInput = document.getElementById('imageUploadInput');
+
+        if (customButton) {
+            customButton.textContent = t('findobjects.choose.files');
+        }
+
+        if (statusLabel && fileInput) {
+            if (fileInput.files.length > 0) {
+                statusLabel.textContent = fileInput.files.length + ' ' + t('findobjects.files.selected');
+            } else {
+                statusLabel.textContent = t('findobjects.no.file.chosen');
+            }
+        }
+    }
+
+
+    window.updateTranslations = updateTranslations;
+
     document.addEventListener("DOMContentLoaded", function() {
         // --- Globals & Constants ---
         const downloadMultiplier = 6;
@@ -838,6 +959,14 @@
 
         // --- Initial Setup ---
         function initializeApp() {
+            // Set language selector to current locale
+            if (languageSelect && currentLocale) {
+                languageSelect.value = currentLocale;
+            }
+
+            // Apply initial translations
+            updateTranslations();
+
             setupAccordions();
             setupResponsiveMenu();
             setupDropdowns();
@@ -866,7 +995,51 @@
                     // Fallback to manual loading only on error
                     loadBorderThemes();
                     loadBackgroundThemes();
-                });
+                
+    // Fix file input text
+    const fileInput = document.getElementById('uploadImages');
+    if (fileInput) {
+        // Create a custom file input wrapper
+        const wrapper = document.createElement('div');
+        wrapper.className = 'file-input-wrapper';
+        wrapper.style.position = 'relative';
+        wrapper.style.display = 'inline-block';
+
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.textContent = t('findobjects.choose.files');
+        button.setAttribute('data-translate', 'findobjects.choose.files');
+        button.onclick = () => fileInput.click();
+
+        const label = document.createElement('span');
+        label.textContent = t('findobjects.no.file.chosen');
+        label.setAttribute('data-translate', 'findobjects.no.file.chosen');
+        label.style.marginLeft = '10px';
+
+        fileInput.style.display = 'none';
+        fileInput.parentNode.insertBefore(wrapper, fileInput);
+        wrapper.appendChild(fileInput);
+        wrapper.appendChild(button);
+        wrapper.appendChild(label);
+
+        fileInput.addEventListener('change', function() {
+            if (this.files.length > 0) {
+                label.textContent = this.files.length + ' file(s) selected';
+            } else {
+                label.textContent = t('findobjects.no.file.chosen');
+            }
+            // Setup file input translation
+    if (typeof setupFileInputTranslation === 'function') {
+        setTimeout(() => setupFileInputTranslation(), 100);
+    }
+    // Update custom file input
+    if (typeof updateCustomFileInput === 'function') {
+        updateCustomFileInput();
+    }
+});
+    }
+
+});
             } else {
                 // Fallback if BulletproofLoader not available
                 loadBorderThemes();
@@ -931,6 +1104,27 @@
         }
         
         function setupEventListeners() {
+            // Language selector change handler
+            languageSelect.addEventListener('change', function() {
+                const newLocale = this.value;
+                currentLocale = newLocale;
+                window.currentLocale = newLocale;
+
+                // Update all translations
+                updateTranslations();
+
+                // Clear image cache to reload with new translations
+                imageCache = {};
+                loadAllThemes(); // Reload themes with translations
+                loadDictionary(); // Reload current images
+                updateSelectedPanels(); // Update selected items display
+
+                // Optionally update URL without reload
+                const url = new URL(window.location);
+                url.searchParams.set('locale', newLocale);
+                window.history.replaceState({}, '', url);
+            });
+
             generateWorksheetBtn.addEventListener('click', generateWorksheet);
             generateAnswerKeyBtn.addEventListener('click', generateAnswerKey);
 
@@ -955,25 +1149,9 @@
             backgroundThemeSelect.addEventListener('change', loadBackgroundImages);
             backgroundOpacitySlider.addEventListener('input', applyBackgroundOpacity);
             
-            // Language change handler
+            // Set initial language selector value
             if (languageSelect) {
                 languageSelect.value = currentLocale;
-                languageSelect.addEventListener('change', function() {
-                    currentLocale = this.value;
-                    if (typeof applyTranslations === 'function') {
-                        applyTranslations();
-                    }
-                    // Clear image cache to reload with new translations
-                    imageCache = {};
-                    loadAllThemes(); // Reload themes with translations
-                    loadDictionary(); // Reload current images
-                    updateSelectedPanels(); // Update selected items display
-                });
-            }
-            
-            // Apply translations on load
-            if (typeof applyTranslations === 'function') {
-                applyTranslations();
             }
             document.querySelector('#downloadDropdownContent .checkbox-label').addEventListener('click', (e) => e.stopPropagation());
 
@@ -1204,7 +1382,7 @@
                 if (isDistractor) selectedDistractors = [];
                 else selectedHidden = [];
                 updateSelectedPanels();
-                showMessage(`${isDistractor ? 'Distractor' : 'Hidden Object'} theme selected. Manual items cleared.`);
+                showMessage(formatTranslation(t('findobjects.msg.theme.selected'), {type: isDistractor ? t('findobjects.distractors.label') : t('findobjects.hidden.label')}));
             }
             updateGenerateButton();
         }
@@ -1418,9 +1596,9 @@
                 const themes = await res.json();
                 
                 const themeDropdowns = [
-                    {el: themeSelect, staticHtml: '<option value="all">All Themes</option>'},
-                    {el: distractorThemeSelect, staticHtml: '<option value="">-- No Theme (Use Manual Selection) --</option>'},
-                    {el: hiddenObjectThemeSelect, staticHtml: '<option value="">-- No Theme (Use Manual Selection) --</option>'}
+                    {el: themeSelect, staticHtml: `<option value="all" data-translate="findobjects.themes.all">${t('findobjects.themes.all')}</option>`},
+                    {el: distractorThemeSelect, staticHtml: `<option value="" data-translate="findobjects.no.theme.manual">${t('findobjects.no.theme.manual')}</option>`},
+                    {el: hiddenObjectThemeSelect, staticHtml: `<option value="" data-translate="findobjects.no.theme.manual">${t('findobjects.no.theme.manual')}</option>`}
                 ];
                 
                 themeDropdowns.forEach(dd => {
@@ -1433,15 +1611,15 @@
                     });
                 });
             } catch (err) {
-                showMessage('Error loading themes.', 'error');
+                showMessage(t('findobjects.msg.themes.error'), 'error');
                 console.error(err);
             }
         }
 
         async function loadDictionary() {
-            const theme = themeSelect.value;
+            let theme = themeSelect.value;  // Changed from const to let
             const query = searchInput.value.trim().toLowerCase();
-            dictionaryDiv.innerHTML = ''; 
+            dictionaryDiv.innerHTML = '';
 
             let imagesToDisplay = [];
 
@@ -1458,7 +1636,7 @@
                         const searchData = await res.json();
                         imagesToDisplay = searchData.images || searchData; // Handle both new and old API formats
                     } catch (err) {
-                        showMessage(`Error searching for "${query}"`, 'error');
+                        showMessage(formatTranslation(t('findobjects.msg.search.error'), {query: query}), 'error');
                         console.error(err);
                     }
                 }
@@ -1473,7 +1651,7 @@
                         const themeData = await res.json();
                         imageCache[theme] = themeData.images || themeData; // Handle both new and old API formats
                     } catch (err) {
-                        showMessage(`Error loading theme: ${theme}`, 'error');
+                        showMessage(formatTranslation(t('findobjects.msg.theme.error'), {theme: theme}), 'error');
                         console.error(err);
                         dictionaryDiv.innerHTML = `<p class="dictionary-message">Failed to load theme.</p>`;
                         return;
@@ -1511,12 +1689,12 @@
                     loadedCount++;
                     if (loadedCount === filesToLoad) {
                         renderUploadedImages();
-                        showMessage(`${loadedCount} custom image(s) available.`, 'success');
+                        showMessage(formatTranslation(t('findobjects.msg.uploads.available'), {count: loadedCount}), 'success');
                     }
                 };
                 reader.onerror = () => {
                     filesToLoad--; 
-                    showMessage(`Error reading file: ${file.name}`, 'error');
+                    showMessage(formatTranslation(t('findobjects.msg.file.error'), {filename: file.name}), 'error');
                 };
                 reader.readAsDataURL(file);
             }
@@ -1542,8 +1720,8 @@
                     <img src="${imgData.path}" alt="${displayName}" loading="lazy"/>
                     <span>${displayName}</span>
                     <div class="dict-btns">
-                        <button data-action="distractor">Distractor</button>
-                        <button data-action="hidden">Hidden</button>
+                        <button data-action="distractor">${t("findobjects.distractor.button")}</button>
+                        <button data-action="hidden">${t("findobjects.hidden.button")}</button>
                     </div>`;
                 item.querySelector('.dict-btns').addEventListener('click', (e) => {
                     if (e.target.tagName === 'BUTTON') {
@@ -1562,10 +1740,10 @@
             
             const isAlreadySelected = selectedDistractors.some(i => i.path === imgData.path) || selectedHidden.some(i => i.path === imgData.path);
             if (isAlreadySelected) {
-                showMessage("Image already selected in one of the categories.", 'info'); return;
+                showMessage(t('findobjects.msg.already.selected'), 'info'); return;
             }
             if (targetArray.length >= limit) {
-                showMessage(`Cannot add more than ${limit} ${category} images.`, 'info'); return;
+                showMessage(formatTranslation(t('findobjects.msg.selection.limit'), {limit: limit, category: category}), 'info'); return;
             }
 
             targetArray.push(imgData);
@@ -1615,11 +1793,11 @@
 
         async function generateWorksheet() {
             generateDropdownBtn.disabled = true;
-            showMessage('Generating worksheet...', 'info');
+            showMessage(t('findobjects.msg.generating'), 'info');
             try {
                 const images = await prepareImagesForGeneration();
                 if (!images) {
-                    showMessage('Image preparation failed. Please check selections.', 'error');
+                    showMessage(t('findobjects.msg.prep.failed'), 'error');
                     return; 
                 }
                 
@@ -1629,10 +1807,10 @@
                 downloadWorksheetJpegBtn.disabled = false;
                 downloadWorksheetPdfBtn.disabled = false;
                 generateAnswerKeyBtn.disabled = false;
-                showMessage('Worksheet generated successfully!', 'success');
+                showMessage(t('findobjects.msg.worksheet.success'), 'success');
             } catch (error) {
                 console.error("A critical error occurred during generation:", error);
-                showMessage("An unexpected error occurred. Please try again.", "error");
+                showMessage(t('findobjects.msg.unexpected.error'), 'error');
             } finally {
                 generateDropdownBtn.disabled = false;
             }
@@ -1640,10 +1818,10 @@
         
         async function generateAnswerKey() {
             if (!lastGeneratedLayout) {
-                showMessage("Please generate a worksheet first.", "error");
+                showMessage(t('findobjects.msg.generate.first'), 'error');
                 return;
             }
-            showMessage('Generating Answer Key...', 'info');
+            showMessage(t('findobjects.msg.generating.answer'), 'info');
 
             const oldTransforms = {};
             answerKeyCanvas.getObjects().forEach(obj => {
@@ -1725,7 +1903,7 @@
             downloadAnswerKeyJpegBtn.disabled = false;
             downloadAnswerKeyPdfBtn.disabled = false;
             document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
-            showMessage('Answer Key Generated.', 'success');
+            showMessage(t('findobjects.msg.answer.generated'), 'success');
         }
 
 
@@ -1743,7 +1921,7 @@
                     imageCache[themeName] = images;
                     return images;
                 } catch (err) {
-                    showMessage(`Could not load images for ${type} theme.`, 'error');
+                    showMessage(formatTranslation(t('findobjects.msg.theme.load.error'), {type: type}), 'error');
                     return null;
                 }
             }
@@ -1751,7 +1929,7 @@
             if (distractorThemeSelect.value) {
                 const themeImages = await getImagesFromTheme(distractorThemeSelect.value, 'distractor');
                 if (!themeImages || themeImages.length < 8) {
-                     showMessage('Distractor theme has fewer than 8 images.', 'error'); return null;
+                     showMessage(t('findobjects.msg.distractor.insufficient'), 'error'); return null;
                 }
                 dists = getRandomSubset(themeImages, Math.floor(Math.random() * (Math.min(12, themeImages.length) - 8 + 1)) + 8);
             }
@@ -1759,14 +1937,14 @@
             if (hiddenObjectThemeSelect.value) {
                 const themeImages = await getImagesFromTheme(hiddenObjectThemeSelect.value, 'hidden object');
                  if (!themeImages || themeImages.length < 1) {
-                    showMessage('Hidden object theme is empty.', 'error'); return null;
+                    showMessage(t('findobjects.msg.hidden.empty'), 'error'); return null;
                 }
                 hidden = getRandomSubset(themeImages, Math.floor(Math.random() * (Math.min(5, themeImages.length) - 1 + 1)) + 1);
             }
 
             const uniqueHidden = [...hidden];
             if (uniqueHidden.length < 1 || uniqueHidden.length > 5) { showMessage(`Hidden object count must be 1-5. You have ${uniqueHidden.length}.`, 'error'); return null; }
-            if (dists.length < 8) { showMessage('Please select at least 8 distractors.', 'error'); return null;}
+            if (dists.length < 8) { showMessage(t('findobjects.msg.min.distractors'), 'error'); return null;}
             
             let allDistractors = [...dists];
             if (allDistractors.length > 0) {
@@ -2115,13 +2293,13 @@
             if (includeNameDate.checked) {
                 const uniqueId = 'name-date-field';
                 const nameDateGroup = new fabric.Group([
-                    new fabric.Textbox("Name: ________________", { 
+                    new fabric.Textbox(t("findobjects.name.field"), { 
                         fontSize: 18, 
                         fontFamily: 'Fredoka', 
                         left: 0, 
                         top: 0 
                     }),
-                    new fabric.Textbox("Date: ________", { 
+                    new fabric.Textbox(t("findobjects.date.field"), { 
                         fontSize: 18, 
                         fontFamily: 'Fredoka', 
                         left: 300, 
@@ -2285,10 +2463,31 @@
             downloadAnswerKeyJpegBtn.disabled = true;
             downloadWorksheetPdfBtn.disabled = true;
             downloadAnswerKeyPdfBtn.disabled = true;
-            showMessage('All selections and canvases cleared.', 'success');
+            showMessage(t('findobjects.msg.cleared'), 'success');
         }
 
-        function showMessage(msg, type = 'info', duration = 3000) {
+        
+// Translation function
+function t(key, params = {}) {
+    if (typeof translations === 'undefined') return key;
+    const currentLocale = window.currentLocale || 'en';
+    const translation = (translations[currentLocale] && translations[currentLocale][key]) ||
+                       (translations.en && translations.en[key]) ||
+                       key;
+    return formatTranslation(translation, params);
+}
+window.t = t;
+
+function formatTranslation(text, params) {
+    let formatted = text;
+    for (const [key, value] of Object.entries(params)) {
+        formatted = formatted.replace(new RegExp(`\{${key}\}`, 'g'), value);
+    }
+    return formatted;
+}
+window.formatTranslation = formatTranslation;
+
+function showMessage(msg, type = 'info', duration = 3000) {
             messageDiv.textContent = msg;
             messageDiv.className = `message ${type}`;
             messageDiv.style.display = 'block';
@@ -2299,7 +2498,7 @@
 
         async function loadAssetThemes(type, selectEl) {
             try {
-                selectEl.innerHTML = `<option value="none">None</option>`;
+                selectEl.innerHTML = `<option value="none" data-translate="common.none">${t('common.none')}</option>`;
                 const response = await fetch(`/api/${type}/themes?locale=${currentLocale}`);
                 if (!response.ok) {
                     console.error(`Failed to load ${type} themes`);
@@ -2477,7 +2676,7 @@
                 link.download = `${baseFileName}.jpeg`;
                 link.href = dataURL;
                 link.click();
-                showMessage('JPEG Download Initiated!', 'success');
+                showMessage(t('findobjects.msg.download.initiated'), 'success');
             } catch (error) {
                 showMessage(`Error preparing JPEG: ${error.message}`, 'error');
             }
@@ -2489,6 +2688,75 @@
         const urlParams = new URLSearchParams(window.location.search);
         return urlParams.get('tier') === 'free';
     }
+
+    // Create custom file input UI
+    function createCustomFileInput() {
+        const fileInput = document.getElementById('imageUploadInput');
+        if (!fileInput) return;
+
+        // Check if already customized
+        if (fileInput.parentNode.querySelector('.custom-file-wrapper')) return;
+
+        // Create wrapper
+        const wrapper = document.createElement('div');
+        wrapper.className = 'custom-file-wrapper';
+        wrapper.style.cssText = 'display: flex; align-items: center; gap: 10px; margin-top: 10px;';
+
+        // Create custom button
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'custom-file-button';
+        button.textContent = t('findobjects.choose.files');
+        button.setAttribute('data-translate', 'findobjects.choose.files');
+        button.style.cssText = 'padding: 6px 12px; background: #4a4a4a; color: white; border: none; border-radius: 4px; cursor: pointer;';
+
+        // Create status label
+        const label = document.createElement('span');
+        label.className = 'custom-file-label';
+        label.textContent = t('findobjects.no.file.chosen');
+        label.setAttribute('data-translate', 'findobjects.no.file.chosen');
+        label.style.cssText = 'color: #888;';
+
+        // Insert wrapper after the file input
+        fileInput.parentNode.insertBefore(wrapper, fileInput.nextSibling);
+        wrapper.appendChild(button);
+        wrapper.appendChild(label);
+
+        // Handle button click
+        button.onclick = () => fileInput.click();
+
+        // Handle file selection
+        fileInput.onchange = function() {
+            if (this.files.length > 0) {
+                label.textContent = this.files.length + ' ' + t('findobjects.files.selected');
+                label.removeAttribute('data-translate');
+            } else {
+                label.textContent = t('findobjects.no.file.chosen');
+                label.setAttribute('data-translate', 'findobjects.no.file.chosen');
+            }
+        };
+    }
+
+    // Update custom file input when language changes
+    function updateCustomFileInput() {
+        const button = document.querySelector('.custom-file-button');
+        const label = document.querySelector('.custom-file-label');
+        const fileInput = document.getElementById('imageUploadInput');
+
+        if (button) {
+            button.textContent = t('findobjects.choose.files');
+        }
+
+        if (label && fileInput) {
+            if (fileInput.files.length === 0) {
+                label.textContent = t('findobjects.no.file.chosen');
+            } else {
+                label.textContent = fileInput.files.length + ' ' + t('findobjects.files.selected');
+            }
+        }
+    }
+
+
 
     // Add watermark to canvas before export
     function addWatermarkToCanvas(canvas) {
@@ -2553,9 +2821,9 @@
     if (originalDownloadPDF) {
         window.downloadPDF = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate content first.', 'error');
+                return showMessage(t('findobjects.msg.generate.first'), 'error');
             }
-            showMessage('Preparing PDF...', 'info', 0);
+            showMessage(t('findobjects.msg.preparing.pdf'), 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -2578,9 +2846,9 @@
                 pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
                 
                 pdf.save(fileName);
-                showMessage('PDF downloaded!', 'success');
+                showMessage(t('findobjects.msg.pdf.downloaded'), 'success');
             } catch(e) { 
-                showMessage('Error creating PDF.', 'error'); 
+                showMessage(t('findobjects.msg.pdf.error'), 'error'); 
                 console.error(e); 
             } finally {
                 // Remove watermark after export
@@ -2594,7 +2862,7 @@
     if (originalDownloadJPEG) {
         window.downloadJPEG = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate a worksheet first.', 'error');
+                return showMessage(t('findobjects.msg.generate.first'), 'error');
             }
             showMessage('Preparing JPEG...', 'info', 0);
             
@@ -2614,7 +2882,7 @@
                 link.click();
                 showMessage('JPEG download initiated!', 'success');
             } catch(e) { 
-                showMessage('Error preparing JPEG.', 'error'); 
+                showMessage(t('findobjects.msg.jpeg.error'), 'error'); 
                 console.error(e); 
             } finally {
                 // Remove watermark after export

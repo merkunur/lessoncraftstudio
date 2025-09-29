@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test All Find Objects Languages</title>
+    <script src="frontend/public/worksheet-generators/js/translations-find-objects.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .language-test {
+            margin: 20px 0;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #f9f9f9;
+        }
+        .pass { color: green; font-weight: bold; }
+        .fail { color: red; font-weight: bold; }
+        h2 { color: #333; border-bottom: 2px solid #ddd; padding-bottom: 10px; }
+        table { width: 100%; border-collapse: collapse; margin: 10px 0; }
+        th, td { padding: 8px; border: 1px solid #ddd; text-align: left; }
+        th { background: #f0f0f0; }
+    </style>
+</head>
+<body>
+    <h1>Find Objects Translation Test - All Languages</h1>
+
+    <div id="languageTests"></div>
+
+    <script>
+        // Test all 11 languages
+        const languages = {
+            en: 'English',
+            de: 'German (Deutsch)',
+            fr: 'French (Français)',
+            es: 'Spanish (Español)',
+            it: 'Italian (Italiano)',
+            pt: 'Portuguese (Português)',
+            nl: 'Dutch (Nederlands)',
+            sv: 'Swedish (Svenska)',
+            da: 'Danish (Dansk)',
+            no: 'Norwegian (Norsk)',
+            fi: 'Finnish (Suomi)'
+        };
+
+        // Critical test keys
+        const testKeys = [
+            { key: 'findobjects.background.title', en: 'Background' },
+            { key: 'findobjects.border.title', en: 'Border' },
+            { key: 'findobjects.generate', en: 'Generate' },
+            { key: 'findobjects.page.scene', en: 'Page & Scene' },
+            { key: 'findobjects.text.content', en: 'Text & Content' },
+            { key: 'findobjects.image.library', en: 'Image Library' },
+            { key: 'findobjects.object.selection', en: 'Object Selection' },
+            { key: 'common.grayscale', en: 'Grayscale' }
+        ];
+
+        const container = document.getElementById('languageTests');
+
+        Object.entries(languages).forEach(([lang, name]) => {
+            const div = document.createElement('div');
+            div.className = 'language-test';
+
+            // Test this language
+            window.currentLocale = lang;
+
+            let passCount = 0;
+            let totalCount = testKeys.length;
+            let testHTML = '<table><tr><th>Key</th><th>Translation</th><th>Status</th></tr>';
+
+            testKeys.forEach(test => {
+                const result = t(test.key);
+                const isTranslated = result !== test.key && result !== test.en;
+                const isEnglish = lang === 'en';
+
+                // For English, it should match the expected English value
+                // For other languages, it should be different from the key and English
+                const passed = isEnglish ? (result === test.en) : isTranslated;
+
+                if (passed) passCount++;
+
+                testHTML += `<tr>
+                    <td>${test.key}</td>
+                    <td>${result}</td>
+                    <td class="${passed ? 'pass' : 'fail'}">${passed ? '✓' : '✗'}</td>
+                </tr>`;
+            });
+
+            testHTML += '</table>';
+
+            const coverage = Math.round((passCount / totalCount) * 100);
+            const status = coverage === 100 ? 'pass' : coverage > 80 ? 'warning' : 'fail';
+
+            div.innerHTML = `
+                <h2>${name} (${lang.toUpperCase()})</h2>
+                <p><strong>Coverage:</strong> <span class="${status}">${coverage}%</span> (${passCount}/${totalCount} tests passed)</p>
+                <p><strong>Total Keys Available:</strong> ${translations[lang] ? Object.keys(translations[lang]).length : 0}</p>
+                ${testHTML}
+            `;
+
+            container.appendChild(div);
+        });
+
+        // Overall summary
+        const summary = document.createElement('div');
+        summary.style.marginTop = '30px';
+        summary.style.padding = '20px';
+        summary.style.background = '#e8f4f8';
+        summary.style.borderRadius = '8px';
+
+        const totalLanguages = Object.keys(translations).length;
+        const englishKeys = Object.keys(translations.en).length;
+
+        summary.innerHTML = `
+            <h2>Overall Summary</h2>
+            <p><strong>Total Languages Loaded:</strong> ${totalLanguages}</p>
+            <p><strong>Total Keys per Language:</strong> ${englishKeys}</p>
+            <p><strong>Languages Available:</strong> ${Object.keys(translations).join(', ')}</p>
+        `;
+
+        container.appendChild(summary);
+
+        // Reset to English
+        window.currentLocale = 'en';
+    </script>
+</body>
+</html>

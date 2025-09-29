@@ -107,6 +107,7 @@ const translations = {
     "fallbackColor": "Fallback Color:",
     "backgroundTheme": "Background Theme:",
     "none": "None",
+    "common.none": "None",
     "selectBackgroundTheme": "Select a theme for backgrounds.",
     "backgroundOpacity": "Background Opacity:",
 
@@ -299,6 +300,7 @@ const translations = {
     "fallbackColor": "Ersatzfarbe:",
     "backgroundTheme": "Hintergrundthema:",
     "none": "Kein",
+    "common.none": "Kein",
     "selectBackgroundTheme": "Wählen Sie ein Thema für Hintergründe.",
     "backgroundOpacity": "Hintergrund-Transparenz:",
 
@@ -491,6 +493,7 @@ const translations = {
     "fallbackColor": "Couleur de secours :",
     "backgroundTheme": "Thème d'arrière-plan :",
     "none": "Aucun",
+    "common.none": "Aucun",
     "selectBackgroundTheme": "Sélectionnez un thème pour l'arrière-plan.",
     "backgroundOpacity": "Opacité de l'arrière-plan :",
 
@@ -683,6 +686,7 @@ const translations = {
     "fallbackColor": "Color alternativo:",
     "backgroundTheme": "Tema de fondo:",
     "none": "Ninguno",
+    "common.none": "Ninguno",
     "selectBackgroundTheme": "Seleccione un tema para el fondo.",
     "backgroundOpacity": "Opacidad del fondo:",
 
@@ -875,6 +879,7 @@ const translations = {
     "fallbackColor": "Colore di riserva:",
     "backgroundTheme": "Tema sfondo:",
     "none": "Nessuno",
+    "common.none": "Nessuno",
     "selectBackgroundTheme": "Seleziona un tema per lo sfondo.",
     "backgroundOpacity": "Opacità dello sfondo:",
 
@@ -1067,6 +1072,7 @@ const translations = {
     "fallbackColor": "Cor alternativa:",
     "backgroundTheme": "Tema de fundo:",
     "none": "Nenhum",
+    "common.none": "Nenhum",
     "selectBackgroundTheme": "Selecione um tema para o fundo.",
     "backgroundOpacity": "Opacidade do fundo:",
 
@@ -1259,6 +1265,7 @@ const translations = {
     "fallbackColor": "Vervangende kleur:",
     "backgroundTheme": "Achtergrondthema:",
     "none": "Geen",
+    "common.none": "Geen",
     "selectBackgroundTheme": "Selecteer een thema voor de achtergrond.",
     "backgroundOpacity": "Transparantie achtergrond:",
 
@@ -1451,6 +1458,7 @@ const translations = {
     "fallbackColor": "Reservfärg:",
     "backgroundTheme": "Bakgrundstema:",
     "none": "Ingen",
+    "common.none": "Ingen",
     "selectBackgroundTheme": "Välj ett tema för bakgrunden.",
     "backgroundOpacity": "Bakgrundens genomskinlighet:",
 
@@ -1643,6 +1651,7 @@ const translations = {
     "fallbackColor": "Alternativ farve:",
     "backgroundTheme": "Baggrundstema:",
     "none": "Ingen",
+    "common.none": "Ingen",
     "selectBackgroundTheme": "Vælg et tema til baggrunden.",
     "backgroundOpacity": "Baggrundens gennemsigtighed:",
 
@@ -1835,6 +1844,7 @@ const translations = {
     "fallbackColor": "Reservefarge:",
     "backgroundTheme": "Bakgrunnstema:",
     "none": "Ingen",
+    "common.none": "Ingen",
     "selectBackgroundTheme": "Velg et tema for bakgrunnen.",
     "backgroundOpacity": "Bakgrunnens gjennomsiktighet:",
 
@@ -2027,6 +2037,7 @@ const translations = {
     "fallbackColor": "Varaväri:",
     "backgroundTheme": "Taustateema:",
     "none": "Ei mitään",
+    "common.none": "Ei mitään",
     "selectBackgroundTheme": "Valitse taustateema.",
     "backgroundOpacity": "Taustan läpinäkyvyys:",
 

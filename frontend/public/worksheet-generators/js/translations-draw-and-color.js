@@ -1509,8 +1509,19 @@ if (typeof module !== 'undefined' && module.exports) {
 // Make available globally in browser
 if (typeof window !== 'undefined') {
   window.DRAW_COLOR_TRANSLATIONS = DRAW_COLOR_TRANSLATIONS;
+  window.translations = DRAW_COLOR_TRANSLATIONS;  // Alias for compatibility
   window.t = t;
   window.formatTranslation = formatTranslation;
   window.getCurrentLocale = getCurrentLocale;
   window.validateDrawColorTranslations = validateDrawColorTranslations;
+
+  // Add helper functions for the verification test
+  window.getTranslation = function(key, locale) {
+    locale = locale || getCurrentLocale();
+    return (DRAW_COLOR_TRANSLATIONS[locale] && DRAW_COLOR_TRANSLATIONS[locale][key]) ||
+           (DRAW_COLOR_TRANSLATIONS.en && DRAW_COLOR_TRANSLATIONS.en[key]) ||
+           key;
+  };
+
+  window.validateTranslations = validateDrawColorTranslations;
 }

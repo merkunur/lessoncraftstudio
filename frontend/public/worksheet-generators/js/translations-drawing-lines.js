@@ -77,6 +77,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "border": "Border",
     "borderTheme": "Border Theme:",
     "none": "None",
+    "common.none": "None",
     "borderOpacity": "Border Opacity:",
     "selectBorderTheme": "Select a theme to see borders.",
 
@@ -275,6 +276,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "border": "Rahmen",
     "borderTheme": "Rahmenvorlage:",
     "none": "Keine",
+    "common.none": "Kein",
     "borderOpacity": "Rahmentransparenz:",
     "selectBorderTheme": "Wählen Sie ein Thema für Rahmen.",
 
@@ -458,6 +460,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "border": "Bordure",
     "borderTheme": "Thème de bordure :",
     "none": "Aucun",
+    "common.none": "Aucun",
     "borderOpacity": "Opacité de la bordure :",
     "selectBorderTheme": "Sélectionnez un thème pour voir les bordures.",
 
@@ -641,6 +644,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "border": "Borde",
     "borderTheme": "Tema de borde:",
     "none": "Ninguno",
+    "common.none": "Ninguno",
     "borderOpacity": "Opacidad del borde:",
     "selectBorderTheme": "Selecciona un tema para ver los bordes.",
 
@@ -824,6 +828,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "border": "Cornice",
     "borderTheme": "Tema cornice:",
     "none": "Nessuno",
+    "common.none": "Nessuno",
     "borderOpacity": "Opacità cornice:",
     "selectBorderTheme": "Seleziona un tema per vedere le cornici.",
 
@@ -1007,6 +1012,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "border": "Moldura",
     "borderTheme": "Tema da moldura:",
     "none": "Nenhum",
+    "common.none": "Nenhum",
     "borderOpacity": "Opacidade da moldura:",
     "selectBorderTheme": "Selecione um tema para ver as molduras.",
 
@@ -1190,6 +1196,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "border": "Rand",
     "borderTheme": "Randthema:",
     "none": "Geen",
+    "common.none": "Geen",
     "borderOpacity": "Randdoorzichtigheid:",
     "selectBorderTheme": "Kies een thema om randen te bekijken.",
 
@@ -1373,6 +1380,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "border": "Ram",
     "borderTheme": "Ramtema:",
     "none": "Ingen",
+    "common.none": "Ingen",
     "borderOpacity": "Ramgenomskinlighet:",
     "selectBorderTheme": "Välj ett tema för att se ramar.",
 
@@ -1556,6 +1564,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "border": "Ramme",
     "borderTheme": "Rammetema:",
     "none": "Ingen",
+    "common.none": "Ingen",
     "borderOpacity": "Rammegennemsigtighed:",
     "selectBorderTheme": "Vælg et tema for at se rammer.",
 
@@ -1739,6 +1748,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "border": "Ramme",
     "borderTheme": "Rammetema:",
     "none": "Ingen",
+    "common.none": "Ingen",
     "borderOpacity": "Rammesynlighet:",
     "selectBorderTheme": "Velg et tema for å se rammer.",
 
@@ -1922,6 +1932,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "border": "Reunus",
     "borderTheme": "Reunusteema:",
     "none": "Ei mitään",
+    "common.none": "Ei mitään",
     "borderOpacity": "Reunuksen läpinäkyvyys:",
     "selectBorderTheme": "Valitse teema nähdäksesi reunukset.",
 

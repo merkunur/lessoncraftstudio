@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Sudoku Generator</title>
+    <title data-translate="sudoku.page.title">Sudoku for Kids - Create Colorful Visual Sudoku Puzzles</title>
 
     <!-- Core Libraries -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
@@ -21,6 +21,7 @@
 
     <!-- Enhancement Scripts -->
     <script src="js/translations.js"></script>
+    <script src="js/translations-sudoku.js"></script>
     <script src="js/bulletproof-loader.js"></script>
     <script src="js/unified-language-manager.js"></script>
     <script src="js/border-background-sizer.js"></script>
@@ -615,143 +616,149 @@
     <div class="layout">
         <div class="panel">
             <div class="panel-header">
-                <h2>Sudoku Settings</h2>
+                <h2 data-translate="sudoku.settings.title">Sudoku Settings</h2>
                 <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
             </div>
             <div class="panel-content">
                 <!-- Language Selection -->
                 <div class="accordion-item">
-                    <button class="accordion-button active" data-translate="sudoku">Sudoku</button>
+                    <button class="accordion-button active" data-translate="sudoku.accordion.label">Sudoku</button>
                     <div class="accordion-wrapper" style="display: block;">
-                        <h4>Select Language</h4>
-                        <label for="languageSelect">Language:</label>
+                        <h4 data-translate="sudoku.language.select">Select Language</h4>
+                        <label for="languageSelect" data-translate="sudoku.language.label">Language:</label>
                         <select id="languageSelect">
-                            <option value="en">English</option>
-                            <option value="de">Deutsch (German)</option>
-                            <option value="fr">Français (French)</option>
-                            <option value="es">Español (Spanish)</option>
-                            <option value="pt">Português (Portuguese)</option>
-                            <option value="it">Italiano (Italian)</option>
-                            <option value="nl">Nederlands (Dutch)</option>
-                            <option value="sv">Svenska (Swedish)</option>
-                            <option value="da">Dansk (Danish)</option>
-                            <option value="no">Norsk (Norwegian)</option>
-                            <option value="fi">Suomi (Finnish)</option>
+                            <option value="en" data-translate="lang_en">English</option>
+                            <option value="de" data-translate="lang_de">Deutsch (German)</option>
+                            <option value="fr" data-translate="lang_fr">Français (French)</option>
+                            <option value="es" data-translate="lang_es">Español (Spanish)</option>
+                            <option value="pt" data-translate="lang_pt">Português (Portuguese)</option>
+                            <option value="it" data-translate="lang_it">Italiano (Italian)</option>
+                            <option value="nl" data-translate="lang_nl">Nederlands (Dutch)</option>
+                            <option value="sv" data-translate="lang_sv">Svenska (Swedish)</option>
+                            <option value="da" data-translate="lang_da">Dansk (Danish)</option>
+                            <option value="no" data-translate="lang_no">Norsk (Norwegian)</option>
+                            <option value="fi" data-translate="lang_fi">Suomi (Finnish)</option>
                         </select>
                         <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;">
-                            Image names and themes will be displayed in the selected language.
+                            <span data-translate="sudoku.language.description">Image names and themes will be displayed in the selected language.</span>
                         </p>
                     </div>
                 </div>
                     <div class="accordion-item">
-                        <button class="accordion-button">Page & Scene</button>
+                        <button class="accordion-button" data-translate="sudoku.page.scene.title">Page & Scene</button>
                         <div class="accordion-wrapper">
-                            <h4>Page Setup</h4>
-                            <label for="pageSizeSelect">Page Size:</label>
+                            <h4 data-translate="sudoku.page.setup">Page Setup</h4>
+                            <label for="pageSizeSelect" data-translate="sudoku.page.size.label">Page Size:</label>
                             <select id="pageSizeSelect">
-                                <option value="792x612">Letter Landscape (11×8.5")</option>
-                                <option value="612x792">Letter Portrait (8.5×11")</option>
-                                <option value="842x595">A4 Landscape (297×210mm)</option>
-                                <option value="595x842">A4 Portrait (210×297mm)</option>
-                                <option value="custom">Custom</option>
+                                <option value="792x612" data-translate="page.size.letter.landscape">Letter Landscape (11×8.5")</option>
+                                <option value="612x792" data-translate="page.size.letter.portrait">Letter Portrait (8.5×11")</option>
+                                <option value="842x595" data-translate="page.size.a4.landscape">A4 Landscape (297×210mm)</option>
+                                <option value="595x842" data-translate="page.size.a4.portrait">A4 Portrait (210×297mm)</option>
+                                <option value="custom" data-translate="page.size.custom">Custom</option>
                             </select>
                             <div id="customPageSizeInputs" style="display:none;">
-                                <label for="pageWidth">Width (px):</label>
+                                <label for="pageWidth" data-translate="sudoku.page.width">Width (px):</label>
                                 <input type="number" id="pageWidth" value="792">
-                                <label for="pageHeight">Height (px):</label>
+                                <label for="pageHeight" data-translate="sudoku.page.height">Height (px):</label>
                                 <input type="number" id="pageHeight" value="612">
                             </div>
-                             <button id="setPageSizeBtn">Apply Size</button>
+                             <button id="setPageSizeBtn" data-translate="sudoku.page.apply">Apply Size</button>
 
-                            <h4>Background</h4>
-                            <label for="pageColor">Fallback Color:</label>
+                            <h4 data-translate="sudoku.background.title">Background</h4>
+                            <label for="pageColor" data-translate="sudoku.background.color">Fallback Color:</label>
                             <input type="color" id="pageColor" value="#FFFFFF">
-                            <label for="backgroundThemeSelect">Background Theme:</label>
+                            <label for="backgroundThemeSelect" data-translate="sudoku.background.theme.label">Background Theme:</label>
                             <select id="backgroundThemeSelect">
-                                <option value="none">None (Use Fallback Color)</option>
+                                <option value="none" data-translate="sudoku.background.none">None (Use Fallback Color)</option>
                             </select>
-                            <div id="backgroundDictionary"><p class="dictionary-message">Select a theme for backgrounds.</p></div>
-                            <label for="backgroundOpacity">Background Opacity:</label>
+                            <div id="backgroundDictionary"><p class="dictionary-message" data-translate="sudoku.background.select.message">Select a theme for backgrounds.</p></div>
+                            <label for="backgroundOpacity" data-translate="sudoku.background.opacity">Background Opacity:</label>
                             <input type="range" id="backgroundOpacity" min="0" max="1" step="0.05" value="1" disabled>
                             
-                            <h4>Border</h4>
-                            <label for="borderThemeSelect">Border Theme:</label>
+                            <h4 data-translate="sudoku.border.title">Border</h4>
+                            <label for="borderThemeSelect" data-translate="sudoku.border.theme.label">Border Theme:</label>
                             <select id="borderThemeSelect">
-                                <option value="none">None</option>
+                                <option value="none" data-translate="common.none">None</option>
                             </select>
                             <div id="borderDictionary">
-                                <p class="dictionary-message">Select a theme to see borders.</p>
+                                <p class="dictionary-message" data-translate="sudoku.border.select.message">Select a theme to see borders.</p>
                             </div>
-                            <label for="borderOpacity">Border Opacity:</label>
+                            <label for="borderOpacity" data-translate="sudoku.border.opacity">Border Opacity:</label>
                             <input type="range" id="borderOpacity" min="0" max="1" step="0.05" value="1" disabled>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button class="accordion-button">Sudoku for Kids</button>
+                        <button class="accordion-button" data-translate="sudoku.kids.title">Sudoku for Kids</button>
                         <div class="accordion-wrapper">
-                            <h4>Difficulty</h4>
-                            <label for="difficultySelect">Number of blank cells:</label>
+                            <h4 data-translate="sudoku.difficulty.title">Difficulty</h4>
+                            <label for="difficultySelect" data-translate="sudoku.blanks.label">Number of blank cells:</label>
                             <select id="difficultySelect">
-                                <option value="4">Easy (4 blanks)</option>
-                                <option value="6">Medium (6 blanks)</option>
-                                <option value="8">Hard (8 blanks)</option>
+                                <option value="4" data-translate="sudoku.difficulty.easy">Easy (4 blanks)</option>
+                                <option value="6" data-translate="sudoku.difficulty.medium">Medium (6 blanks)</option>
+                                <option value="8" data-translate="sudoku.difficulty.hard">Hard (8 blanks)</option>
                             </select>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button class="accordion-button">Text Tools</button>
+                        <button class="accordion-button" data-translate="sudoku.text.tools">Text Tools</button>
                         <div class="accordion-wrapper">
-                            <h4>Add New Text</h4>
-                            <label for="textInput">Content:</label><input type="text" id="textInput" placeholder="Title, Instructions...">
-                            <button id="addTextBtn">Add Text</button>
-                            <h4>Selected Text Properties</h4>
-                            <label for="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
-                            <label for="fontSize">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
-                            <label for="fontFamily">Font:</label>
+                            <h4 data-translate="sudoku.text.add.title">Add New Text</h4>
+                            <label for="textInput" data-translate="sudoku.text.content.label">Content:</label><input type="text" id="textInput" placeholder="Title, Instructions..." data-placeholder-translate="sudoku.text.placeholder">
+                            <button id="addTextBtn" data-translate="sudoku.text.add.button">Add Text</button>
+                            <h4 data-translate="sudoku.text.properties">Selected Text Properties</h4>
+                            <label for="textColor" data-translate="sudoku.text.color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                            <label for="fontSize" data-translate="sudoku.text.size">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+                            <label for="fontFamily" data-translate="sudoku.text.font">Font:</label>
                             <select id="fontFamily" disabled>
-                                <option value="Lexend Deca">Lexend Deca</option>
-                                <option value="Baloo 2">Baloo 2</option>
-                                <option value="Nunito">Nunito</option>
-                                <option value="Quicksand">Quicksand</option>
-                                <option value="Fredoka">Fredoka</option>
-                                <option value="Arial">Arial</option>
-                                <option value="Verdana">Verdana</option>
+                                <option value="Lexend Deca" data-translate="font.lexend">Lexend Deca</option>
+                                <option value="Baloo 2" data-translate="font.baloo">Baloo 2</option>
+                                <option value="Nunito" data-translate="font.nunito">Nunito</option>
+                                <option value="Quicksand" data-translate="font.quicksand">Quicksand</option>
+                                <option value="Fredoka" data-translate="font.fredoka">Fredoka</option>
+                                <option value="Arial" data-translate="font.arial">Arial</option>
+                                <option value="Verdana" data-translate="font.verdana">Verdana</option>
                             </select>
-                            <label for="textStrokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
-                            <label for="textStrokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+                            <label for="textStrokeColor" data-translate="sudoku.text.outline.color">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                            <label for="textStrokeWidth" data-translate="sudoku.text.outline.width">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
                         </div>
                     </div>
 
                     <div class="accordion-item">
-                        <button class="accordion-button">Image Library</button>
+                        <button class="accordion-button" data-translate="sudoku.image.library">Image Library</button>
                         <div class="accordion-wrapper">
-                            <h4>Image Source for Puzzle</h4>
-                            <label for="worksheetThemeSelect">Generate from Theme:</label>
+                            <h4 data-translate="sudoku.image.source">Image Source for Puzzle</h4>
+                            <label for="worksheetThemeSelect" data-translate="sudoku.generate.theme">Generate from Theme:</label>
                             <select id="worksheetThemeSelect">
-                                <option value="">-- Or Select Individual Images Below --</option>
+                                <option value="" data-translate="sudoku.select.individual">-- Or Select Individual Images Below --</option>
                             </select>
 
-                            <h4 style="margin-top: 20px;">Individual Image Selection</h4>
-                            <label for="themeSelect">Filter by Theme:</label>
+                            <h4 style="margin-top: 20px;" data-translate="sudoku.image.individual">Individual Image Selection</h4>
+                            <label for="themeSelect" data-translate="sudoku.filter.theme">Filter by Theme:</label>
                             <select id="themeSelect"></select>
-                            <label for="searchInput">Search Images:</label>
-                            <input type="text" id="searchInput" placeholder="e.g., apple, car" />
+                            <label for="searchInput" data-translate="sudoku.search.label">Search Images:</label>
+                            <input type="text" id="searchInput" placeholder="e.g., apple, car" data-placeholder-translate="sudoku.search.placeholder" />
                             
-                            <label>Available Images (Requires 4):</label>
+                            <label data-translate="sudoku.available.images">Available Images (Requires 4):</label>
                             <div id="dictionary"><p class='dictionary-message'>Loading images...</p></div>
                             
-                            <label style="margin-top:10px;">Selected Images:</label>
+                            <label style="margin-top:10px;" data-translate="sudoku.selected.images">Selected Images:</label>
                             <div id="selectedImagesPreview"></div>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <button class="accordion-button">Upload Custom Images</button>
+                        <button class="accordion-button" data-translate="sudoku.upload.title">Upload Custom Images</button>
                         <div class="accordion-wrapper">
-                            <label for="imageUploadInput">Select image(s) to upload:</label>
-                            <input type="file" id="imageUploadInput" multiple accept="image/*">
-                            <label style="margin-top:10px;">Your Uploaded Images (This Session):</label>
+                            <label for="imageUploadInput" data-translate="sudoku.upload.select">Select image(s) to upload:</label>
+                            <div class="custom-file-input-wrapper" style="position: relative; margin-bottom: 10px;">
+                                <button type="button" class="custom-file-button" onclick="document.getElementById('imageUploadInput').click()" style="padding: 8px 16px; background: var(--app-accent-primary); color: white; border: none; border-radius: 5px; cursor: pointer;">
+                                    <span data-translate="sudoku.upload.button">Choose files</span>
+                                </button>
+                                <span class="file-input-status" data-translate="sudoku.upload.no.file" style="margin-left: 10px; color: var(--app-text-secondary-dark-theme);">No file chosen</span>
+                                <input type="file" id="imageUploadInput" multiple accept="image/*" style="position: absolute; opacity: 0; width: 0; height: 0;">
+                            </div>
+                            <label style="margin-top:10px;" data-translate="sudoku.uploaded.images">Your Uploaded Images (This Session):</label>
                             <div id="uploadedImagesPreview">
-                                <p class="dictionary-message">Your uploaded images will appear here.</p>
+                                <p class="dictionary-message" data-translate="sudoku.upload.placeholder">Your uploaded images will appear here.</p>
                             </div>
                         </div>
                     </div>
@@ -767,8 +774,8 @@
                     <div class="toolbar-item">
                         <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
                         <div class="dropdown-content" id="layersDropdown">
-                            <button id="toolbarBringForwardBtn">Bring Forward</button>
-                            <button id="toolbarSendBackwardBtn">Send Backward</button>
+                            <button id="toolbarBringForwardBtn" data-translate="toolbar.bring.forward">Bring Forward</button>
+                            <button id="toolbarSendBackwardBtn" data-translate="toolbar.send.backward">Send Backward</button>
                         </div>
                     </div>
                 </div>
@@ -776,7 +783,7 @@
                     <div class="toolbar-item">
                         <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
                         <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
-                            <p style="font-size:11px; margin-bottom:5px; color:#555;">Align Selected:</p>
+                            <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.selected">Align Selected:</p>
                             <div>
                                 <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
                                 <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
@@ -788,7 +795,7 @@
                                 <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
                             </div>
                             <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
-                            <p style="font-size:11px; margin-bottom:5px; color:#555;">Align to Page:</p>
+                            <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.page">Align to Page:</p>
                             <div>
                                 <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
                                 <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
@@ -802,32 +809,32 @@
             </div>
             <div class="top-right-actions">
                  <div class="dropdown-container">
-                    <button id="generateDropdownBtn" class="action-button accent">Generate <i class="fas fa-caret-down"></i></button>
+                    <button id="generateDropdownBtn" class="action-button accent"><span data-translate="sudoku.generate">Generate</span> <i class="fas fa-caret-down"></i></button>
                     <div id="generateDropdownContent" class="dropdown-content">
-                        <button id="generateWorksheetBtn">Generate Worksheet</button>
-                        <button id="generateAnswerKeyBtn" disabled>Generate Answer Key</button>
+                        <button id="generateWorksheetBtn" data-translate="sudoku.generate.worksheet">Generate Worksheet</button>
+                        <button id="generateAnswerKeyBtn" disabled data-translate="sudoku.generate.answer">Generate Answer Key</button>
                     </div>
                 </div>
                 <div class="dropdown-container">
-                    <button id="downloadDropdownBtn" class="action-button download-btn">Download <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                    <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="sudoku.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
                     <div id="downloadDropdownContent" class="dropdown-content">
-                        <button id="downloadWorksheetJpegBtn" disabled>Worksheet (JPEG)</button>
-                        <button id="downloadAnswerKeyJpegBtn" disabled>Answer Key (JPEG)</button>
+                        <button id="downloadWorksheetJpegBtn" disabled data-translate="sudoku.download.worksheet.jpeg">Worksheet (JPEG)</button>
+                        <button id="downloadAnswerKeyJpegBtn" disabled data-translate="sudoku.download.answer.jpeg">Answer Key (JPEG)</button>
                         <hr style="margin: 4px 0; border: none; border-top: 1px solid #eee;">
-                        <button id="downloadWorksheetPdfBtn" disabled>Worksheet (PDF)</button>
-                        <button id="downloadAnswerKeyPdfBtn" disabled>Answer Key (PDF)</button>
+                        <button id="downloadWorksheetPdfBtn" disabled data-translate="sudoku.download.worksheet.pdf">Worksheet (PDF)</button>
+                        <button id="downloadAnswerKeyPdfBtn" disabled data-translate="sudoku.download.answer.pdf">Answer Key (PDF)</button>
                         <hr style="margin: 4px 0; border: none; border-top: 1px solid #eee;">
                         <label class="checkbox-label" id="grayscaleLabel">
-                            <input type="checkbox" id="grayscaleToggle" />Grayscale
+                            <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
                         </label>
                     </div>
                 </div>
-                <button id="clearBtn" class="action-button danger">Clear All</button>
+                <button id="clearBtn" class="action-button danger" data-translate="sudoku.clear.all">Clear All</button>
             </div>
 
             <div class="tab-row">
-                <button class="tab-button active" data-tab="worksheetTab">Worksheet</button>
-                <button class="tab-button" data-tab="answerKeyTab">Answer Key</button>
+                <button class="tab-button active" data-tab="worksheetTab" data-translate="sudoku.tab.worksheet">Worksheet</button>
+                <button class="tab-button" data-tab="answerKeyTab" data-translate="sudoku.tab.answer">Answer Key</button>
             </div>
 
             <div class="tab-content-wrapper">
@@ -849,7 +856,82 @@ document.addEventListener("DOMContentLoaded", function() {
     // --- CONSTANTS AND STATE ---
     // Use the global currentLocale that was set in the head
     let currentLocale = window.currentLocale || 'en';
-    
+
+    // Translation helper functions
+    function t(key) {
+        if (typeof SUDOKU_TRANSLATIONS === 'undefined') {
+            console.warn('Translations not loaded, returning key:', key);
+            return key;
+        }
+        const translation = (SUDOKU_TRANSLATIONS[currentLocale] && SUDOKU_TRANSLATIONS[currentLocale][key]) ||
+                           (SUDOKU_TRANSLATIONS.en && SUDOKU_TRANSLATIONS.en[key]) ||
+                           key;
+        return translation;
+    }
+    window.t = t;
+
+    function formatTranslation(text, params) {
+        let formatted = text;
+        for (const [key, value] of Object.entries(params)) {
+            formatted = formatted.replace(new RegExp(`\\{${key}\\}`, 'g'), value);
+        }
+        return formatted;
+    }
+    window.formatTranslation = formatTranslation;
+
+    function translatePage() {
+        // Update all elements with data-translate
+        document.querySelectorAll('[data-translate]').forEach(element => {
+            const key = element.getAttribute('data-translate');
+            const translation = t(key);
+
+            // Handle different element types
+            if (element.tagName === 'OPTION') {
+                element.textContent = translation;
+            } else if (element.tagName === 'TITLE') {
+                document.title = translation;
+            } else if (element.tagName === 'P') {
+                element.textContent = translation;
+            } else if (element.tagName === 'SPAN' || element.tagName === 'LABEL' ||
+                       element.tagName === 'H1' || element.tagName === 'H2' ||
+                       element.tagName === 'H3' || element.tagName === 'H4' ||
+                       element.tagName === 'BUTTON' || element.tagName === 'DIV') {
+                element.textContent = translation;
+            } else {
+                element.textContent = translation;
+            }
+        });
+
+        // Update placeholders
+        document.querySelectorAll('[data-placeholder-translate]').forEach(element => {
+            const key = element.getAttribute('data-placeholder-translate');
+            element.placeholder = t(key);
+        });
+
+        // Update title attributes
+        document.querySelectorAll('[data-title-translate]').forEach(element => {
+            const key = element.getAttribute('data-title-translate');
+            element.title = t(key);
+        });
+
+        // Update language option display names
+        if (typeof languageSelect !== 'undefined' && languageSelect) {
+            languageSelect.querySelectorAll('option').forEach(option => {
+                const langCode = option.value;
+                const langKey = `lang_${langCode}`;
+                if (t(langKey) !== langKey) {
+                    option.textContent = t(langKey);
+                }
+            });
+        }
+
+        // Update default text content in Fabric.js (if needed)
+        if (typeof fabric !== 'undefined' && fabric.textDefaults) {
+            fabric.textDefaults.text = t('sudoku.text.default');
+        }
+    }
+    window.translatePage = translatePage;
+
     const REQUIRED_IMAGES = 4;
     const downloadMultiplier = 6;
 
@@ -966,17 +1048,23 @@ document.addEventListener("DOMContentLoaded", function() {
             if (window.BulletproofLoader) {
                 await window.BulletproofLoader.init({
                     borderSelect: borderThemeSelect,
-                    backgroundSelect: backgroundThemeSelect
+                    backgroundSelect: backgroundThemeSelect,
+                    locale: currentLocale  // Pass the current locale explicitly
                 });
             } else {
-                // Fallback to regular loading
+                // Fallback to regular loading - only if BulletproofLoader not available
+                console.warn('BulletproofLoader not available, using fallback');
                 loadBorderThemes();
                 loadBackgroundThemes();
             }
         })();
 
         renderUploadedImages();
-        showMessage(`Select ${REQUIRED_IMAGES} images or a theme to begin.`, 'info', 5000);
+
+        // Apply initial translations
+        translatePage();
+
+        showMessage(formatTranslation(t('sudoku.msg.select.to.begin'), {REQUIRED_IMAGES: REQUIRED_IMAGES}), 'info', 5000);
         
         // Add language handler
         if (languageSelect) {
@@ -1000,8 +1088,8 @@ document.addEventListener("DOMContentLoaded", function() {
                         translatePage();
                     }
                     loadThemes();
-                    loadBorderThemes();
-                    loadBackgroundThemes();
+                    // Don't call loadBorderThemes/loadBackgroundThemes here
+                    // BulletproofLoader handles these with proper translations
 
                     if (themeSelect.value) {
                         renderDictionary();
@@ -1112,7 +1200,17 @@ document.addEventListener("DOMContentLoaded", function() {
             clearTimeout(searchTimeout);
             searchTimeout = setTimeout(renderDictionary, 300);
         });
-        imageUploadInput.addEventListener('change', handleImageUpload);
+        imageUploadInput.addEventListener('change', function(e) {
+            handleImageUpload(e);
+            // Update file status text
+            const fileStatusSpan = document.querySelector('.file-input-status');
+            const fileCount = e.target.files?.length || 0;
+            if (fileCount > 0) {
+                fileStatusSpan.textContent = formatTranslation(t('sudoku.upload.files.selected'), {count: fileCount});
+            } else {
+                fileStatusSpan.textContent = t('sudoku.upload.no.file');
+            }
+        });
         
         addTextBtn.addEventListener('click', handleAddText);
         [textColorInput, fontSizeInput, fontFamilySelect, textStrokeColorInput, textStrokeWidthInput].forEach(el => {
@@ -1233,8 +1331,8 @@ document.addEventListener("DOMContentLoaded", function() {
             if (!response.ok) throw new Error('Failed to load themes');
             const themeData = await response.json();
 
-            themeSelect.innerHTML = '<option value="all">All Themes</option>';
-            worksheetThemeSelect.innerHTML = '<option value="">-- Or Select Individual Images Below --</option>';
+            themeSelect.innerHTML = `<option value="all" data-translate="sudoku.themes.all">${t('sudoku.themes.all')}</option>`;
+            worksheetThemeSelect.innerHTML = `<option value="" data-translate="sudoku.select.individual">${t('sudoku.select.individual')}</option>`;
 
             // The API returns an array of objects with value and displayName
             if (Array.isArray(themeData)) {
@@ -1264,7 +1362,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (selectedTheme === 'all') {
                 if (!query) {
                     // Load animals theme by default when "All Themes" is selected with no search
-                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading animals theme...</p>`;
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('sudoku.msg.loading.animals')}</p>`;
                     const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to load animals theme`);
                     const data = await response.json();
@@ -1278,7 +1376,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             } else {
                 if (!allImagesCache[selectedTheme]) {
-                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading theme...</p>`;
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('sudoku.msg.loading.theme')}</p>`;
                     const response = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to load theme: ${selectedTheme}`);
                     const data = await response.json();
@@ -1297,7 +1395,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         if (imagesToDisplay.length === 0) {
-            dictionaryDiv.innerHTML = `<p class="dictionary-message">No images found${query ? ` matching "${query}"` : ''}.</p>`;
+            dictionaryDiv.innerHTML = `<p class="dictionary-message">${formatTranslation(t('sudoku.msg.no.images'), {query: query ? ` for "${query}"` : ''})}</p>`;
             return;
         }
 
@@ -1312,7 +1410,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function renderUploadedImages() {
         uploadedImagesPreviewDiv.innerHTML = "";
         if (uploadedImages.length === 0) {
-            uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">Your uploaded images will appear here.</p>`;
+            uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">${t('sudoku.upload.placeholder')}</p>`;
             return;
         }
         uploadedImages.forEach(img => {
@@ -1360,24 +1458,24 @@ document.addEventListener("DOMContentLoaded", function() {
             if (!success) return;
             
             await renderWorksheet();
-            showMessage("Worksheet generated successfully!", "success");
+            showMessage(t('sudoku.msg.worksheet.success'), 'success');
             downloadWorksheetJpegBtn.disabled = false;
             downloadWorksheetPdfBtn.disabled = false;
             generateAnswerKeyBtn.disabled = false;
         } catch (error) {
             console.error("Error generating worksheet:", error);
-            showMessage("Error generating worksheet: " + error.message, "error");
+            showMessage(formatTranslation(t('sudoku.msg.worksheet.error'), {message: error.message}), 'error');
         }
     }
 
     async function handleGenerateAnswerKey() {
         if (!lastGeneratedSolution) {
-            showMessage("Please generate a worksheet first.", "error");
+            showMessage(t('sudoku.msg.generate.first'), 'error');
             return;
         }
         await renderAnswerKey();
         document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
-        showMessage("Answer key generated!", "success");
+        showMessage(t('sudoku.msg.answer.generated'), 'success');
         downloadAnswerKeyJpegBtn.disabled = false;
         downloadAnswerKeyPdfBtn.disabled = false;
     }
@@ -1388,7 +1486,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (selectedWorksheetTheme) {
             if (!allImagesCache[selectedWorksheetTheme]) {
                 try {
-                    showMessage(`Loading theme '${selectedWorksheetTheme}'...`, 'info', 2000);
+                    showMessage(formatTranslation(t('sudoku.msg.loading.specific'), {theme: selectedWorksheetTheme}), 'info', 2000);
                     const response = await fetch(`/api/images?theme=${encodeURIComponent(selectedWorksheetTheme)}&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to load theme: ${selectedWorksheetTheme}`);
                     const data = await response.json();
@@ -1400,14 +1498,14 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             const themeImages = allImagesCache[selectedWorksheetTheme] || [];
             if (themeImages.length < REQUIRED_IMAGES) {
-                showMessage(`Theme '${selectedWorksheetTheme}' needs at least ${REQUIRED_IMAGES} images.`, 'error');
+                showMessage(formatTranslation(t('sudoku.msg.theme.insufficient'), {theme: selectedWorksheetTheme, count: REQUIRED_IMAGES}), 'error');
                 return false;
             }
             sourceImages = shuffleArray(themeImages).slice(0, REQUIRED_IMAGES);
         } else {
             const allAvailable = [...userSelectedImages, ...uploadedImages];
              if (allAvailable.length < REQUIRED_IMAGES) {
-                 showMessage(`Please select or upload at least ${REQUIRED_IMAGES} images.`, 'error');
+                 showMessage(formatTranslation(t('sudoku.msg.select.minimum'), {count: REQUIRED_IMAGES}), 'error');
                  return false;
             }
             sourceImages = shuffleArray(allAvailable).slice(0, REQUIRED_IMAGES);
@@ -1587,7 +1685,7 @@ document.addEventListener("DOMContentLoaded", function() {
         worksheetCanvas.renderAll();
         } catch (error) {
             console.error("Error in renderWorksheet:", error);
-            showMessage("Error rendering worksheet: " + error.message, "error");
+            showMessage(formatTranslation(t('sudoku.msg.render.error'), {message: error.message}), 'error');
             throw error;
         }
     }
@@ -2043,7 +2141,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     function handleImageSelection(image) {
         if (worksheetThemeSelect.value) {
-            showMessage("Clear 'Generate from Theme' to select individual images.", 'info');
+            showMessage(t('sudoku.msg.clear.theme'), 'info');
             return;
         }
         const index = userSelectedImages.findIndex(i => i.path === image.path);
@@ -2051,7 +2149,7 @@ document.addEventListener("DOMContentLoaded", function() {
             userSelectedImages.splice(index, 1);
         } else {
             if(userSelectedImages.length >= REQUIRED_IMAGES) {
-                showMessage(`You can only select ${REQUIRED_IMAGES} images.`, 'error');
+                showMessage(formatTranslation(t('sudoku.msg.max.selection'), {count: REQUIRED_IMAGES}), 'error');
                 return;
             }
             userSelectedImages.push(image);
@@ -2068,9 +2166,9 @@ document.addEventListener("DOMContentLoaded", function() {
             renderSelectedImages();
             renderDictionary();
             renderUploadedImages();
-            showMessage(`Puzzle will generate using random images from the '${theme}' theme.`, 'info');
+            showMessage(formatTranslation(t('sudoku.msg.theme.selected'), {theme: theme}), 'info');
         } else {
-            showMessage(`Switched to individual image selection mode.`, 'info');
+            showMessage(t('sudoku.msg.individual.mode'), 'info');
         }
     }
 
@@ -2081,7 +2179,7 @@ document.addEventListener("DOMContentLoaded", function() {
         let filesToLoad = Array.from(files).filter(f => f.type.startsWith('image/')).length;
         if (filesToLoad === 0) return;
 
-        uploadedImagesPreviewDiv.innerHTML = `<p class='dictionary-message'>Loading ${filesToLoad} image(s)...</p>`;
+        uploadedImagesPreviewDiv.innerHTML = `<p class='dictionary-message'>${formatTranslation(t('sudoku.msg.loading.uploads'), {count: filesToLoad})}</p>`;
 
         for (const file of files) {
             if (!file.type.startsWith('image/')) continue;
@@ -2094,12 +2192,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 filesToLoad--;
                 if (filesToLoad === 0) {
                     renderUploadedImages();
-                    showMessage(`${uploadedImages.length} custom image(s) available. Click them to select.`, 'success');
+                    showMessage(formatTranslation(t('sudoku.msg.uploads.ready'), {count: uploadedImages.length}), 'success');
                 }
             };
             reader.onerror = () => {
                 filesToLoad--;
-                showMessage(`Error reading file: ${file.name}`, 'error');
+                showMessage(formatTranslation(t('sudoku.msg.file.error'), {filename: file.name}), 'error');
             };
             reader.readAsDataURL(file);
         }
@@ -2110,7 +2208,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const activeCanvas = getActiveCanvas();
         if (!activeCanvas) return;
         
-        const textContent = textInput.value.trim() || 'New Text';
+        const textContent = textInput.value.trim() || t('sudoku.text.default');
         const textObject = new fabric.Textbox(textContent, {
             // Position - Always centered
             left: (currentCanvasConfig.width - 250) / 2,
@@ -2230,9 +2328,9 @@ document.addEventListener("DOMContentLoaded", function() {
         updateCanvasDisplayDimensions(initialW, initialH);
         
         borderThemeSelect.value = 'none';
-        borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
+        borderDictionary.innerHTML = `<p class="dictionary-message">${t('sudoku.border.select.message')}</p>`;
         backgroundThemeSelect.value = 'none';
-        backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme for backgrounds.</p>';
+        backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('sudoku.background.select.message')}</p>`;
         backgroundOpacitySlider.value = 1;
         backgroundOpacitySlider.disabled = true;
         borderOpacitySlider.value = 1;
@@ -2247,7 +2345,7 @@ document.addEventListener("DOMContentLoaded", function() {
         downloadAnswerKeyPdfBtn.disabled = true;
         generateAnswerKeyBtn.disabled = true;
 
-        showMessage('All settings cleared.', 'success');
+        showMessage(t('sudoku.msg.cleared'), 'success');
     }
     
     async function getCanvasDataURLWithOptions(canvasInstance, exportOpts) {
@@ -2303,9 +2401,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
     async function downloadImageFile(canvasToExport, filename) {
         if (!canvasToExport || canvasToExport.getObjects().filter(o => o.isGenerated || o.isCutOut).length === 0) {
-            return showMessage('Please generate content for this canvas first.', 'error');
+            return showMessage(t('sudoku.msg.generate.content'), 'error');
         }
-        showMessage(`Preparing ${filename}...`, 'info', 2000);
+        showMessage(formatTranslation(t('sudoku.msg.preparing'), {filename: filename}), 'info', 2000);
         const exportOptions = { multiplier: downloadMultiplier, applyGrayscale: grayscaleToggle.checked };
         try {
             const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
@@ -2313,15 +2411,15 @@ document.addEventListener("DOMContentLoaded", function() {
             link.download = filename;
             link.href = dataURL;
             link.click();
-            showMessage('Download initiated!', 'success');
-        } catch(e) { showMessage('Error preparing JPEG.', 'error'); console.error(e); }
+            showMessage(t('sudoku.msg.download.started'), 'success');
+        } catch(e) { showMessage(t('sudoku.msg.jpeg.error'), 'error'); console.error(e); }
     }
 
     async function downloadPDF(canvasToExport, filename) {
         if (!canvasToExport || canvasToExport.getObjects().filter(o => o.isGenerated || o.isCutOut).length === 0) {
-            return showMessage('Please generate content for this canvas first.', 'error');
+            return showMessage(t('sudoku.msg.generate.content'), 'error');
         }
-        showMessage(`Preparing ${filename}...`, 'info', 2000);
+        showMessage(formatTranslation(t('sudoku.msg.preparing'), {filename: filename}), 'info', 2000);
         try {
             const { jsPDF } = window.jspdf;
             const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
@@ -2330,8 +2428,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const exportOptions = { multiplier: downloadMultiplier, applyGrayscale: grayscaleToggle.checked };
             pdf.addImage(await getCanvasDataURLWithOptions(canvasToExport, exportOptions), 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
             pdf.save(filename);
-            showMessage('PDF downloaded!', 'success');
-        } catch(e) { showMessage('Error creating PDF.', 'error'); console.error(e); }
+            showMessage(t('sudoku.msg.pdf.success'), 'success');
+        } catch(e) { showMessage(t('sudoku.msg.pdf.error'), 'error'); console.error(e); }
     }
 
     function handlePageSizeChange() {
@@ -2395,19 +2493,38 @@ document.addEventListener("DOMContentLoaded", function() {
     
     async function loadAssetThemes(type, selectEl) {
         try {
-            selectEl.innerHTML = `<option value="none">None</option>`;
-            const response = await fetch(`/api/${type}/themes`);
+            // Get properly translated "none" text
+            const noneText = (typeof SUDOKU_TRANSLATIONS !== 'undefined' &&
+                             SUDOKU_TRANSLATIONS[currentLocale] &&
+                             SUDOKU_TRANSLATIONS[currentLocale]['common.none']) ||
+                            t('common.none') || 'None';
+
+            selectEl.innerHTML = `<option value="none" data-translate="common.none">${noneText}</option>`;
+            const response = await fetch(`/api/${type}/themes?locale=${currentLocale}`);
             if (!response.ok) {
                 console.error(`Failed to load ${type} themes`);
                 return;
             }
             const themes = await response.json();
-            themes.forEach(theme => {
-                const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
-                selectEl.innerHTML += `<option value="${theme}">${displayName}</option>`;
+            themes.forEach(themeObj => {
+                // Handle both string and object formats
+                if (typeof themeObj === 'string') {
+                    const displayName = themeObj.charAt(0).toUpperCase() + themeObj.slice(1);
+                    selectEl.innerHTML += `<option value="${themeObj}">${displayName}</option>`;
+                } else if (themeObj && themeObj.value) {
+                    // Use displayName if provided, otherwise capitalize value
+                    const displayName = themeObj.displayName || (themeObj.value.charAt(0).toUpperCase() + themeObj.value.slice(1));
+                    selectEl.innerHTML += `<option value="${themeObj.value}">${displayName}</option>`;
+                }
             });
         } catch (error) {
             console.error(`Error loading ${type} themes:`, error);
+            // Ensure fallback also uses translated text
+            const noneText = (typeof SUDOKU_TRANSLATIONS !== 'undefined' &&
+                             SUDOKU_TRANSLATIONS[currentLocale] &&
+                             SUDOKU_TRANSLATIONS[currentLocale]['common.none']) ||
+                            'None';
+            selectEl.innerHTML = `<option value="none" data-translate="common.none">${noneText}</option>`;
         }
     }
         
@@ -2424,7 +2541,7 @@ document.addEventListener("DOMContentLoaded", function() {
         dictionaryEl.querySelectorAll('.thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
         
         if (theme === 'none') {
-            dictionaryEl.innerHTML = `<p class="dictionary-message">Select a theme to see ${type}.</p>`;
+            dictionaryEl.innerHTML = `<p class="dictionary-message">${formatTranslation(t('sudoku.asset.select'), {type: type === 'borders' ? t('sudoku.border.title') : t('sudoku.background.title')})}</p>`;
              if (type === 'backgrounds') {
                 backgroundOpacitySlider.value = 1;
                 backgroundOpacitySlider.disabled = true;
@@ -2436,7 +2553,7 @@ document.addEventListener("DOMContentLoaded", function() {
             [worksheetCanvas, answerKeyCanvas].forEach(c => enforceZOrder(c));
             return;
         }
-        dictionaryEl.innerHTML = `<p class="dictionary-message">Loading ${theme} ${type}...</p>`;
+        dictionaryEl.innerHTML = `<p class="dictionary-message">${formatTranslation(t('sudoku.asset.loading'), {theme: theme, type: type === 'borders' ? t('sudoku.border.title') : t('sudoku.background.title')})}</p>`;
         fetch(`/api/${type}/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`)
             .then(res => res.ok ? res.json() : Promise.reject(`Error loading ${type} images`))
             .then(data => {
@@ -2483,7 +2600,7 @@ document.addEventListener("DOMContentLoaded", function() {
         canvases.forEach(targetCanvas => {
             fabric.Image.fromURL(path, (img) => {
                 if (!img) {
-                    showMessage(`Failed to load ${propName.replace('is', '').toLowerCase()} image.`, 'error');
+                    showMessage(formatTranslation(t('sudoku.asset.failed'), {asset: propName === 'isBorder' ? t('sudoku.border.title') : t('sudoku.background.title')}), 'error');
                     return;
                 }
 
@@ -2593,7 +2710,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     );
                     if (!bordersExist) {
                         borderThemeSelect.value = 'none';
-                        borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
+                        borderDictionary.innerHTML = `<p class="dictionary-message">${t('sudoku.border.select.message')}</p>`;
                         document.querySelectorAll('#borderDictionary .thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
                     }
                 } else if (obj.isBackground) {

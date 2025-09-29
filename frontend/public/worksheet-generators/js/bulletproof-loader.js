@@ -167,7 +167,7 @@ class BulletproofLoader {
         }
 
         // Clear and add None option with translation
-        const noneText = (typeof t !== 'undefined' ? t('none') : 'None');
+        const noneText = (typeof t !== 'undefined' ? t('common.none') : 'None');
         this.borderSelect.innerHTML = `<option value="none">${noneText}</option>`;
 
         try {
@@ -223,7 +223,7 @@ class BulletproofLoader {
         }
 
         // Clear and add None option with translation
-        const noneText = (typeof t !== 'undefined' ? t('none') : 'None');
+        const noneText = (typeof t !== 'undefined' ? t('common.none') : 'None');
         this.backgroundSelect.innerHTML = `<option value="none">${noneText}</option>`;
 
         try {

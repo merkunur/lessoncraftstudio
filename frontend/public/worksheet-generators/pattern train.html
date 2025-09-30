@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pattern Train Worksheet App</title>
-  <script src="js/translations-pattern-train.js?v=4"></script>
+  <script src="js/translations-pattern-train.js?v=5"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
@@ -1146,7 +1146,7 @@
                 [newWidth, newHeight] = pageSizeSelect.value.split('x').map(Number);
             }
             updateCanvasDisplayDimensions(newWidth, newHeight);
-            showMessage(t("pattern.train.msg.page.size.updated"), "success", 1500);
+            showMessage(t("pattern.train.msg.page.updated"), "success", 1500);
         });
 
         pageColorInput.addEventListener('input', () => {
@@ -1597,12 +1597,12 @@
       pageColorInput.value = '#FFFFFF';
       
       borderThemeSelect.value = "none";
-      borderDictionary.innerHTML = `<p class="dictionary-message">${t('pattern.train.select.theme.borders')}</p>`;
+      borderDictionary.innerHTML = `<p class="dictionary-message">${t('pattern.train.border.message')}</p>`;
       borderOpacityInput.value = 1;
       borderOpacityInput.disabled = true;
 
       backgroundThemeSelect.value = "none";
-      backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('pattern.train.select.theme.backgrounds')}</p>`;
+      backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('pattern.train.background.message')}</p>`;
       backgroundOpacityInput.value = 1;
       backgroundOpacityInput.disabled = true;
       
@@ -1635,7 +1635,7 @@
             selectedImages = [];
             elementToImage = {};
             updateAssignedImagesPanel();
-            showMessage(t('pattern.train.msg.worksheet.theme').replace('{theme}', selectedWsTheme));
+            showMessage(t('pattern.train.msg.theme.selected').replace('{selectedWsTheme}', selectedWsTheme));
             searchInput.disabled = true;
             themeSelect.disabled = true;
             dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('pattern.train.worksheet.theme.selected')}</p>`;
@@ -1643,7 +1643,7 @@
             searchInput.disabled = false;
             themeSelect.disabled = false;
             loadDictionary();
-            showMessage(t('pattern.train.msg.manual.selection'));
+            showMessage(t('pattern.train.msg.manual.activated'));
         }
         updateGenerateButtonState();
     });
@@ -1830,14 +1830,14 @@
             const reader = new FileReader();
             reader.onload = (event) => resolve({ word: file.name.split('.')[0], path: event.target.result });
             reader.onerror = (err) => {
-                showMessage(t('pattern.train.msg.error.reading').replace('{file}', file.name), 'error');
+                showMessage(t('pattern.train.msg.file.error').replace('{name}', file.name), 'error');
                 reject(err);
             };
             reader.readAsDataURL(file);
         }))).then(newImages => {
             uploadedImages.push(...newImages.filter(img => !uploadedImages.some(existing => existing.path === img.path)));
             renderUploadedImages();
-            showMessage(t('pattern.train.msg.images.available').replace('{count}', uploadedImages.length), 'success');
+            showMessage(t('pattern.train.msg.uploads.available').replace('{count}', uploadedImages.length), 'success');
         });
         imageUploadInput.value = '';
     });
@@ -1879,7 +1879,7 @@
           const fullImageLibrary = [...themeImages, ...uploadedImages];
 
           if (fullImageLibrary.length < patternElements.length) {
-            showMessage(t('pattern.train.msg.theme.not.enough').replace('{theme}', selectedWsTheme).replace('{count}', fullImageLibrary.length).replace('{need}', patternElements.length).replace('{pattern}', patternSelect.value), 'error');
+            showMessage(t('pattern.train.msg.not.enough.images').replace('{theme}', selectedWsTheme).replace('{count}', fullImageLibrary.length).replace('{needed}', patternElements.length).replace('{pattern}', patternSelect.value), 'error');
             updateDownloadButtonsState(false);
             return;
           }
@@ -1888,7 +1888,7 @@
           let availableImages = [...fullImageLibrary];
           for (let i = 0; i < patternElements.length; i++) {
             if (availableImages.length === 0) {
-              showMessage(t('pattern.train.msg.not.enough.unique').replace('{theme}', selectedWsTheme), 'error');
+              showMessage(t('pattern.train.msg.theme.insufficient').replace('{theme}', selectedWsTheme), 'error');
               updateDownloadButtonsState(false);
               return;
             }
@@ -1897,17 +1897,17 @@
             availableImages.splice(randomIndex, 1);
           }
           updateAssignedImagesPanel();
-          showMessage(t('pattern.train.msg.images.selected').replace('{pattern}', patternSelect.value).replace('{theme}', selectedWsTheme), 'success', 2000);
+          showMessage(t('pattern.train.msg.auto.selected').replace('{pattern}', patternSelect.value).replace('{theme}', selectedWsTheme), 'success', 2000);
 
         } catch (error) {
           console.error("Error auto-selecting images from theme:", error);
-          showMessage(t('pattern.train.msg.error.auto').replace('{error}', error.message), 'error');
+          showMessage(t('pattern.train.msg.auto.error').replace('{message}', error.message), 'error');
           updateDownloadButtonsState(false);
           return;
         }
       } else {
         if (selectedImages.length !== patternElements.length) {
-          showMessage(t("pattern.train.msg.select.all.images"), 'error');
+          showMessage(t("pattern.train.msg.select.all"), 'error');
           updateDownloadButtonsState(false);
           return;
         }
@@ -2237,7 +2237,7 @@
 
         } catch (error) {
             console.error("Error building answer key on canvas:", error);
-            showMessage(t('pattern.train.msg.answer.key.error').replace('{error}', error.message), 'error');
+            showMessage(t('pattern.train.msg.answer.error').replace('{message}', error.message), 'error');
         } finally {
             answerKeyCanvas.renderAll();
         }
@@ -2332,7 +2332,7 @@
             link.download = `pattern_train_${baseFilename}.jpeg`;
             link.href = dataURL;
             link.click();
-            showMessage(t('pattern.train.msg.jpeg.downloaded'), 'success');
+            showMessage(t('pattern.train.msg.jpeg.initiated'), 'success');
         } catch (e) {
             showMessage(t('pattern.train.msg.jpeg.error').replace('{error}', e.message), 'error');
         }
@@ -2467,7 +2467,7 @@
                 link.href = dataURL;
                 link.download = fileName;
                 link.click();
-                showMessage(t('pattern.train.msg.jpeg.downloaded'), 'success');
+                showMessage(t('pattern.train.msg.jpeg.initiated'), 'success');
             } catch(e) {
                 showMessage(t('pattern.train.msg.jpeg.error'), 'error'); 
                 console.error(e); 
@@ -2560,7 +2560,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
         }
 
         if (theme === 'none') {
-            borderDictionary.innerHTML = `<p class="dictionary-message">${t('pattern.train.select.theme.borders')}</p>`;
+            borderDictionary.innerHTML = `<p class="dictionary-message">${t('pattern.train.border.message')}</p>`;
             borderOpacityInput.value = 1;
             borderOpacityInput.disabled = true;
             return;
@@ -2679,7 +2679,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
         }
 
         if (theme === 'none') {
-            backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('pattern.train.select.theme.backgrounds')}</p>`;
+            backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('pattern.train.background.message')}</p>`;
             backgroundOpacityInput.value = 1;
             backgroundOpacityInput.disabled = true;
             return;

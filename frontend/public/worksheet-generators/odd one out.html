@@ -5,7 +5,7 @@
   <title>Odd-One-Out Worksheet Generator</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="js/translations.js"></script>
+  <script src="js/translations-odd-one-out.js?v=1"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
@@ -194,6 +194,41 @@
         padding: 4px 8px;
         border-radius: 3px;
         color: var(--app-text-primary-dark-theme);
+        cursor: pointer;
+     }
+     /* Custom File Input Wrapper for Translation */
+     .custom-file-input-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 12px;
+     }
+     .custom-file-button {
+        background-color: var(--app-surface-dark);
+        color: var(--app-text-primary-dark-theme);
+        border: 1px solid var(--app-border-dark);
+        border-radius: 5px;
+        padding: 8px 12px;
+        font-size: 13px;
+        cursor: pointer;
+        transition: background-color 0.15s ease;
+     }
+     .custom-file-button:hover {
+        background-color: lighten(var(--app-surface-dark), 5%);
+        border-color: lighten(var(--app-border-dark), 10%);
+     }
+     .file-input-status {
+        font-size: 12px;
+        color: var(--app-text-secondary-dark-theme);
+     }
+     .custom-file-input-wrapper input[type="file"] {
+        position: absolute;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
         cursor: pointer;
      }
     .accordion-content input[type="color"] {
@@ -737,7 +772,7 @@
     <div id="menuOverlay" class="menu-overlay"></div>
     <div class="panel">
       <div class="panel-header">
-        <h2>Odd One Out</h2>
+        <h2 data-translate="oddoneout.title">Odd One Out</h2>
         <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
       </div>
       <div class="panel-content">
@@ -747,159 +782,164 @@
             <div class="accordion-content active">
                 <label for="languageSelect" data-translate="language">Language:</label>
                 <select id="languageSelect">
-                    <option value="en">English</option>
-                    <option value="de">Deutsch</option>
-                    <option value="fr">Français</option>
-                    <option value="es">Español</option>
-                    <option value="pt">Português</option>
-                    <option value="it">Italiano</option>
-                    <option value="nl">Nederlands</option>
-                    <option value="sv">Svenska</option>
-                    <option value="da">Dansk</option>
-                    <option value="no">Norsk</option>
-                    <option value="fi">Suomi</option>
+                    <option value="en" data-translate="language.english">English</option>
+                    <option value="de" data-translate="language.german">Deutsch</option>
+                    <option value="fr" data-translate="language.french">Français</option>
+                    <option value="es" data-translate="language.spanish">Español</option>
+                    <option value="pt" data-translate="language.portuguese">Português</option>
+                    <option value="it" data-translate="language.italian">Italiano</option>
+                    <option value="nl" data-translate="language.dutch">Nederlands</option>
+                    <option value="sv" data-translate="language.swedish">Svenska</option>
+                    <option value="da" data-translate="language.danish">Dansk</option>
+                    <option value="no" data-translate="language.norwegian">Norsk</option>
+                    <option value="fi" data-translate="language.finnish">Suomi</option>
                 </select>
             </div>
         </div>
         
         <div class="accordion-item">
-            <button class="accordion-button">Page Setup</button>
+            <button class="accordion-button" data-translate="oddoneout.page.setup">Page Setup</button>
             <div class="accordion-content active">
-                <label for="pageSizeSelect">Page Size:</label>
+                <label for="pageSizeSelect" data-translate="oddoneout.page.size">Page Size:</label>
                 <select id="pageSizeSelect">
-                    <option value="612x792">Letter Portrait (8.5×11")</option>
-                    <option value="792x612">Letter Landscape (11×8.5")</option>
-                    <option value="595x842">A4 Portrait (210×297mm)</option>
-                    <option value="842x595">A4 Landscape (297×210mm)</option>
-                    <option value="1200x1200">Square (1200x1200)</option>
-                    <option value="custom">Custom</option>
+                    <option value="612x792" data-translate="page.size.letter.portrait">Letter Portrait (8.5×11")</option>
+                    <option value="792x612" data-translate="page.size.letter.landscape">Letter Landscape (11×8.5")</option>
+                    <option value="595x842" data-translate="page.size.a4.portrait">A4 Portrait (210×297mm)</option>
+                    <option value="842x595" data-translate="page.size.a4.landscape">A4 Landscape (297×210mm)</option>
+                    <option value="1200x1200" data-translate="page.size.square">Square (1200x1200)</option>
+                    <option value="custom" data-translate="page.size.custom">Custom</option>
                 </select>
                 <div id="customPageSizeInputs" style="display:none;">
-                    <label for="pageWidth">Width (px):</label>
+                    <label for="pageWidth" data-translate="oddoneout.width.label">Width (px):</label>
                     <input type="number" id="pageWidth" value="612">
-                    <label for="pageHeight">Height (px):</label>
+                    <label for="pageHeight" data-translate="oddoneout.height.label">Height (px):</label>
                     <input type="number" id="pageHeight" value="792">
                 </div>
-                <label for="pageColor">Page Color:</label>
+                <label for="pageColor" data-translate="oddoneout.page.color">Page Color:</label>
                 <input type="color" id="pageColor" value="#FFFFFF">
-                <button id="setPageSizeBtn">Apply Size</button>
+                <button id="setPageSizeBtn" data-translate="oddoneout.apply.size">Apply Size</button>
                 
-                <h4>Background</h4>
-                <label for="backgroundThemeSelect">Background Theme:</label>
+                <h4 data-translate="oddoneout.background.title">Background</h4>
+                <label for="backgroundThemeSelect" data-translate="oddoneout.background.theme">Background Theme:</label>
                 <select id="backgroundThemeSelect">
-                    <option value="none">None</option>
+                    <option value="none" data-translate="common.none">None</option>
                 </select>
-                <div id="backgroundDictionary"><p class="dictionary-message">Select a theme for backgrounds.</p></div>
-                <label for="backgroundOpacitySlider">Background Opacity:</label>
+                <div id="backgroundDictionary"><p class="dictionary-message" data-translate="oddoneout.background.message">Select a theme for backgrounds.</p></div>
+                <label for="backgroundOpacitySlider" data-translate="oddoneout.background.opacity">Background Opacity:</label>
                 <input type="range" id="backgroundOpacitySlider" min="0" max="1" step="0.05" value="1" disabled>
 
-                <h4>Border</h4>
-                <label for="borderThemeSelect">Border Theme:</label>
+                <h4 data-translate="oddoneout.border.title">Border</h4>
+                <label for="borderThemeSelect" data-translate="oddoneout.border.theme">Border Theme:</label>
                 <select id="borderThemeSelect">
-                    <option value="none">None</option>
+                    <option value="none" data-translate="common.none">None</option>
                 </select>
                 <div id="borderDictionary">
-                    <p class="dictionary-message">Select a theme to see borders.</p>
+                    <p class="dictionary-message" data-translate="oddoneout.border.message">Select a theme to see borders.</p>
                 </div>
-                <label for="borderOpacitySlider">Border Opacity:</label>
+                <label for="borderOpacitySlider" data-translate="oddoneout.border.opacity">Border Opacity:</label>
                 <input type="range" id="borderOpacitySlider" min="0" max="1" value="1" step="0.05" disabled>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Text Tools</button>
+            <button class="accordion-button" data-translate="oddoneout.text.tools">Text Tools</button>
             <div class="accordion-content">
-                <h4>Add New Text</h4>
-                <label for="textInput">Content:</label><input type="text" id="textInput" placeholder="Hello!">
-                <button id="addTextBtn">Add Text</button>
-                <h4>Selected Text Properties</h4>
-                <label for="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
-                <label for="fontSize">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
-                <label for="fontFamily">Font:</label>
+                <h4 data-translate="oddoneout.text.add.new">Add New Text</h4>
+                <label for="textInput" data-translate="oddoneout.text.content">Content:</label><input type="text" id="textInput" data-translate-placeholder="oddoneout.text.placeholder">
+                <button id="addTextBtn" data-translate="oddoneout.text.add.button">Add Text</button>
+                <h4 data-translate="oddoneout.text.properties">Selected Text Properties</h4>
+                <label for="textColor" data-translate="oddoneout.text.color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                <label for="fontSize" data-translate="oddoneout.text.size">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+                <label for="fontFamily" data-translate="oddoneout.text.font">Font:</label>
                 <select id="fontFamily" disabled>
-                    <option value="Lexend Deca">Lexend Deca</option>
-                    <option value="Baloo 2">Baloo 2</option>
-                    <option value="Nunito">Nunito</option>
-                    <option value="Quicksand">Quicksand</option>
-                    <option value="Fredoka">Fredoka</option>
-                    <option value="Arial">Arial</option>
-                    <option value="Verdana">Verdana</option>
+                    <option value="Lexend Deca" data-translate="font.lexend">Lexend Deca</option>
+                    <option value="Baloo 2" data-translate="font.baloo">Baloo 2</option>
+                    <option value="Nunito" data-translate="font.nunito">Nunito</option>
+                    <option value="Quicksand" data-translate="font.quicksand">Quicksand</option>
+                    <option value="Fredoka" data-translate="font.fredoka">Fredoka</option>
+                    <option value="Arial" data-translate="font.arial">Arial</option>
+                    <option value="Verdana" data-translate="font.verdana">Verdana</option>
                 </select>
-                <label for="textStrokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
-                <label for="textStrokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+                <label for="textStrokeColor" data-translate="oddoneout.text.outline.color">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                <label for="textStrokeWidth" data-translate="oddoneout.text.outline.width">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Exercise Configuration</button>
+            <button class="accordion-button" data-translate="oddoneout.exercise.config">Exercise Configuration</button>
             <div class="accordion-content">
-                <label for="exerciseCountSelect">Number of Exercises:</label>
+                <label for="exerciseCountSelect" data-translate="oddoneout.exercises.count">Number of Exercises:</label>
                 <select id="exerciseCountSelect">
-                  <option value="5">5 Exercises</option>
-                  <option value="6" selected>6 Exercises</option>
-                  <option value="7">7 Exercises</option>
-                  <option value="8">8 Exercises</option>
-                  <option value="9">9 Exercises</option>
-                  <option value="10">10 Exercises</option>
+                  <option value="5" data-translate="oddoneout.exercises.5">5 Exercises</option>
+                  <option value="6" selected data-translate="oddoneout.exercises.6">6 Exercises</option>
+                  <option value="7" data-translate="oddoneout.exercises.7">7 Exercises</option>
+                  <option value="8" data-translate="oddoneout.exercises.8">8 Exercises</option>
+                  <option value="9" data-translate="oddoneout.exercises.9">9 Exercises</option>
+                  <option value="10" data-translate="oddoneout.exercises.10">10 Exercises</option>
                 </select>
-                
-                <label for="modeSelect">Mode:</label>
+
+                <label for="modeSelect" data-translate="oddoneout.mode.label">Mode:</label>
                 <select id="modeSelect">
-                  <option value="identical">Identical (3 + 1 from same theme)</option>
-                  <option value="similar" selected>Similar (3 from Theme A, 1 from Theme B)</option>
+                  <option value="identical" data-translate="oddoneout.mode.identical">Identical (3 + 1 from same theme)</option>
+                  <option value="similar" selected data-translate="oddoneout.mode.similar">Similar (3 from Theme A, 1 from Theme B)</option>
                 </select>
-                
-                <label for="rowSelect">Configure Exercise:</label>
+
+                <label for="rowSelect" data-translate="oddoneout.configure.exercise">Configure Exercise:</label>
                 <select id="rowSelect"></select>
-                
-                <label for="exerciseModeSelect">Mode for this Exercise:</label>
+
+                <label for="exerciseModeSelect" data-translate="oddoneout.exercise.mode">Mode for this Exercise:</label>
                 <select id="exerciseModeSelect">
-                  <option value="">Use Global Mode</option>
-                  <option value="identical">Identical (3 + 1 from same theme)</option>
-                  <option value="similar">Similar (3 from Theme A, 1 from Theme B)</option>
+                  <option value="" data-translate="oddoneout.use.global">Use Global Mode</option>
+                  <option value="identical" data-translate="oddoneout.mode.identical">Identical (3 + 1 from same theme)</option>
+                  <option value="similar" data-translate="oddoneout.mode.similar">Similar (3 from Theme A, 1 from Theme B)</option>
                 </select>
-                
-                <button id="clearRowBtn">Clear Selections for This Exercise</button>
+
+                <button id="clearRowBtn" data-translate="oddoneout.clear.selections">Clear Selections for This Exercise</button>
                 
                 <label for="includeNameDate" class="checkbox-label" style="margin-top: 15px;">
-                    <input type="checkbox" id="includeNameDate" />Include Name/Date Fields
+                    <input type="checkbox" id="includeNameDate" /><span data-translate="oddoneout.include.name.date">Include Name/Date Fields</span>
                 </label>
                 <label for="includeExerciseNumbers" class="checkbox-label">
-                    <input type="checkbox" id="includeExerciseNumbers" />Include Exercise Numbers
+                    <input type="checkbox" id="includeExerciseNumbers" /><span data-translate="oddoneout.include.numbers">Include Exercise Numbers</span>
                 </label>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Image Library</button>
+            <button class="accordion-button" data-translate="oddoneout.image.library">Image Library</button>
             <div class="accordion-content">
-                <label for="themeSelect">Theme A (for Similar/Identical):</label>
+                <label for="themeSelect" data-translate="oddoneout.theme.a">Theme A (for Similar/Identical):</label>
                 <select id="themeSelect"></select>
-                <label for="themeBSelect">Theme B (for Similar Mode Odd One Out):</label>
+                <label for="themeBSelect" data-translate="oddoneout.theme.b">Theme B (for Similar Mode Odd One Out):</label>
                 <select id="themeBSelect"></select>
 
-                <label for="searchInput">Search Images:</label>
-                <input type="text" id="searchInput" placeholder="e.g., apple, car" />
+                <label for="searchInput" data-translate="oddoneout.search.images">Search Images:</label>
+                <input type="text" id="searchInput" data-translate-placeholder="oddoneout.search.placeholder" />
 
-                <label>Available Images (click to add to exercise below):</label>
-                <div id="dictionary"><p class='dictionary-message'>Loading images...</p></div>
-                
-                <h4>Exercise Selections</h4>
-                <label>Common Images (3):</label>
+                <label data-translate="oddoneout.available.images">Available Images (click to add to exercise below):</label>
+                <div id="dictionary"><p class='dictionary-message' data-translate="oddoneout.loading.images">Loading images...</p></div>
+
+                <h4 data-translate="oddoneout.exercise.selections">Exercise Selections</h4>
+                <label data-translate="oddoneout.common.images">Common Images (3):</label>
                 <div id="prevCommon"></div>
-                <label>Odd Image (1):</label>
+                <label data-translate="oddoneout.odd.image">Odd Image (1):</label>
                 <div id="prevOdd"></div>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Upload Custom Images</button>
+            <button class="accordion-button" data-translate="oddoneout.upload.custom">Upload Custom Images</button>
             <div class="accordion-content">
-                <label for="imageUploadInput">Select image(s) to upload:</label>
-                <input type="file" id="imageUploadInput" multiple accept="image/*">
-                <label style="margin-top:10px;">Your Uploaded Images (This Session):</label>
+                <div class="custom-file-input-wrapper">
+                    <button type="button" class="custom-file-button">
+                        <span data-translate="oddoneout.upload.select">Select image(s) to upload</span>
+                    </button>
+                    <span class="file-input-status" data-translate="common.none">None</span>
+                    <input type="file" id="imageUploadInput" multiple accept="image/*" style="opacity: 0;">
+                </div>
+                <label style="margin-top:10px;" data-translate="oddoneout.uploaded.images">Your Uploaded Images (This Session):</label>
                 <div id="uploadedImagesPreview">
-                    <p class="dictionary-message">Your uploaded images will appear here.</p>
+                    <p class="dictionary-message" data-translate="oddoneout.uploaded.placeholder">Your uploaded images will appear here.</p>
                 </div>
             </div>
         </div>
@@ -918,8 +958,8 @@
               <div class="toolbar-item">
                   <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
                   <div class="dropdown-content" id="layersDropdown">
-                          <button id="toolbarBringForwardBtn">Bring Forward</button>
-                          <button id="toolbarSendBackwardBtn">Send Backward</button>
+                          <button id="toolbarBringForwardBtn" data-translate="toolbar.bring.forward">Bring Forward</button>
+                          <button id="toolbarSendBackwardBtn" data-translate="toolbar.send.backward">Send Backward</button>
                   </div>
               </div>
           </div>
@@ -927,7 +967,7 @@
               <div class="toolbar-item">
                   <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
                   <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
-                          <p style="font-size:11px; margin-bottom:5px; color:#555;">Align Selected:</p>
+                          <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.selected">Align Selected:</p>
                           <div>
                                   <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
                                   <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
@@ -939,7 +979,7 @@
                                   <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
                           </div>
                           <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
-                          <p style="font-size:11px; margin-bottom:5px; color:#555;">Align to Page:</p>
+                          <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.to.page">Align to Page:</p>
                           <div>
                                   <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
                                   <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
@@ -953,31 +993,31 @@
       </div>
       <div class="top-right-actions">
           <div class="dropdown-container">
-            <button id="generateDropdownBtn" class="action-button accent">Generate <i class="fas fa-caret-down"></i></button>
+            <button id="generateDropdownBtn" class="action-button accent" data-translate="oddoneout.generate">Generate <i class="fas fa-caret-down"></i></button>
             <div id="generateDropdownContent" class="dropdown-content">
-                <button id="generateWorksheetBtn">Generate Worksheet</button>
-                <button id="generateAnswerKeyBtn" disabled>Generate Answer Key</button>
+                <button id="generateWorksheetBtn" data-translate="oddoneout.generate.worksheet">Generate Worksheet</button>
+                <button id="generateAnswerKeyBtn" disabled data-translate="oddoneout.generate.answer">Generate Answer Key</button>
             </div>
           </div>
         <div class="dropdown-container">
-            <button id="downloadDropdownBtn" class="action-button secondary">Download <i class="fas fa-caret-down"></i></button>
+            <button id="downloadDropdownBtn" class="action-button secondary" data-translate="oddoneout.download">Download <i class="fas fa-caret-down"></i></button>
             <div id="downloadDropdownContent" class="dropdown-content">
-                <button id="downloadWsJpegBtn">Worksheet (JPEG)</button>
-                <button id="downloadAkJpegBtn" disabled>Answer Key (JPEG)</button>
-                <button id="downloadWsPdfBtn">Worksheet (PDF)</button>
-                <button id="downloadAkPdfBtn" disabled>Answer Key (PDF)</button>
+                <button id="downloadWsJpegBtn" data-translate="oddoneout.download.worksheet.jpeg">Worksheet (JPEG)</button>
+                <button id="downloadAkJpegBtn" disabled data-translate="oddoneout.download.answer.jpeg">Answer Key (JPEG)</button>
+                <button id="downloadWsPdfBtn" data-translate="oddoneout.download.worksheet.pdf">Worksheet (PDF)</button>
+                <button id="downloadAkPdfBtn" disabled data-translate="oddoneout.download.answer.pdf">Answer Key (PDF)</button>
                 <hr style="margin: 6px 0; border: none; border-top: 1px solid var(--app-border-light);">
                 <label class="checkbox-label">
-                    <input type="checkbox" id="grayscaleToggle" />Grayscale
+                    <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
                 </label>
             </div>
             </div>
-        <button id="clearBtn" class="action-button danger">Clear All</button>
+        <button id="clearBtn" class="action-button danger" data-translate="oddoneout.clear.all">Clear All</button>
       </div>
 
       <div class="tab-row">
-        <button class="tab-button active" data-tab="worksheetTab">Worksheet</button>
-        <button class="tab-button" data-tab="answerKeyTab">Answer Key</button>
+        <button class="tab-button active" data-tab="worksheetTab" data-translate="oddoneout.tab.worksheet">Worksheet</button>
+        <button class="tab-button" data-tab="answerKeyTab" data-translate="oddoneout.tab.answer">Answer Key</button>
       </div>
       <div class="tab-content-wrapper">
         <div class="tab active" id="worksheetTab">
@@ -1002,6 +1042,35 @@
         currentLocale = urlParams.get('locale');
     }
     window.currentLocale = currentLocale;
+
+    // Translation function with fallback
+    function t(key) {
+      if (typeof translations === 'undefined') {
+        console.warn('Translations not loaded, returning key:', key);
+        return key;
+      }
+      const locale = window.currentLocale || 'en';
+      return translations[locale]?.[key] || translations.en?.[key] || key;
+    }
+    window.t = t;
+
+    // Apply translations to elements with data-translate attributes
+    function applyTranslations() {
+      const locale = window.currentLocale || 'en';
+
+      // Translate elements with data-translate attribute
+      document.querySelectorAll('[data-translate]').forEach(el => {
+        const key = el.getAttribute('data-translate');
+        el.textContent = t(key);
+      });
+
+      // Translate placeholders
+      document.querySelectorAll('[data-translate-placeholder]').forEach(el => {
+        const key = el.getAttribute('data-translate-placeholder');
+        el.placeholder = t(key);
+      });
+    }
+    window.applyTranslations = applyTranslations;
 
     document.addEventListener("DOMContentLoaded", function() {
       // --- CONSTANTS & DEFAULTS ---
@@ -1210,7 +1279,7 @@
       // --- BORDER AND BACKGROUND FUNCTIONS ---
       async function loadBorderThemes() {
           try {
-              ui.borderThemeSelect.innerHTML = '<option value="none">None</option>';
+              ui.borderThemeSelect.innerHTML = `<option value="none">${t('common.none')}</option>`;
               const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
               if (!response.ok) {
                   console.error('Failed to load border themes');
@@ -1227,7 +1296,7 @@
 
       async function loadBackgroundThemes() {
           try {
-              ui.backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+              ui.backgroundThemeSelect.innerHTML = `<option value="none">${t('common.none')}</option>`;
               const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
               if (!response.ok) {
                   console.error('Failed to load background themes');
@@ -1246,14 +1315,14 @@
           const theme = ui.borderThemeSelect.value;
           const activeCanvas = getActiveCanvas();
           if (theme === 'none') {
-              ui.borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme.</p>';
+              ui.borderDictionary.innerHTML = `<p class="dictionary-message">${t('oddoneout.border.message')}</p>`;
               const existing = activeCanvas.getObjects().find(o => o.isBorder);
               if (existing) activeCanvas.remove(existing);
               activeCanvas.renderAll();
               ui.borderOpacitySlider.disabled = true;
               return;
           }
-          ui.borderDictionary.innerHTML = '<p class="dictionary-message">Loading borders...</p>';
+          ui.borderDictionary.innerHTML = `<p class="dictionary-message">${t('oddoneout.loading.images')}</p>`;
           fetch(`/api/borders/images?theme=${theme}`)
               .then(res => res.ok ? res.json() : Promise.reject('Failed to load border images'))
               .then(data => {
@@ -1273,7 +1342,7 @@
               })
               .catch(err => {
                   console.error('Error loading border images:', err);
-                  ui.borderDictionary.innerHTML = '<p class="dictionary-message">Error loading borders.</p>';
+                  ui.borderDictionary.innerHTML = `<p class="dictionary-message">${t('oddoneout.msg.load.failed', { type: 'border' })}</p>`;
               });
       }
 
@@ -1281,14 +1350,14 @@
           const theme = ui.backgroundThemeSelect.value;
           const activeCanvas = getActiveCanvas();
           if (theme === 'none') {
-              ui.backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme.</p>';
+              ui.backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('oddoneout.background.message')}</p>`;
               const existing = activeCanvas.getObjects().find(o => o.isBackground);
               if (existing) activeCanvas.remove(existing);
               activeCanvas.renderAll();
               ui.backgroundOpacitySlider.disabled = true;
               return;
           }
-          ui.backgroundDictionary.innerHTML = '<p class="dictionary-message">Loading backgrounds...</p>';
+          ui.backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('oddoneout.loading.images')}</p>`;
           fetch(`/api/backgrounds/images?theme=${theme}`)
               .then(res => res.ok ? res.json() : Promise.reject('Failed to load background images'))
               .then(data => {
@@ -1308,7 +1377,7 @@
               })
               .catch(err => {
                   console.error('Error loading background images:', err);
-                  ui.backgroundDictionary.innerHTML = '<p class="dictionary-message">Error loading backgrounds.</p>';
+                  ui.backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('oddoneout.msg.load.failed', { type: 'background' })}</p>`;
               });
       }
 
@@ -1458,7 +1527,7 @@
         if (existingAsset) worksheetCanvas.remove(existingAsset);
 
         fabric.Image.fromURL(path, (img) => {
-            if (!img) { showMessage(`Failed to load ${type} image.`, 'error'); return; }
+            if (!img) { showMessage(t('oddoneout.msg.load.failed').replace('{type}', type), 'error'); return; }
             img.set({
                 originX: 'center', originY: 'center',
                 selectable: true, evented: true, [propName]: true,
@@ -1482,14 +1551,14 @@
             .then(res => res.ok ? res.json() : Promise.reject('Failed to load themes'))
             .then(themes => {
                 const selectEl = (type === 'borders') ? ui.borderThemeSelect : ui.backgroundThemeSelect;
-                selectEl.innerHTML = '<option value="none">None</option>';
+                selectEl.innerHTML = `<option value="none">${t('common.none')}</option>`;
                 themes.forEach(theme => {
                     const opt = document.createElement("option");
                     opt.value = theme;
                     opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
                     selectEl.appendChild(opt);
                 });
-            }).catch(err => showMessage(`Could not load ${type} themes.`, 'error'));
+            }).catch(err => showMessage(t('oddoneout.msg.themes.error').replace('{type}', type), 'error'));
       };
       
       const loadAssetImages = (type) => {
@@ -1500,7 +1569,7 @@
         const theme = selectEl.value;
 
         if (theme === 'none') {
-            dictEl.innerHTML = `<p class="dictionary-message">Select a theme.</p>`;
+            dictEl.innerHTML = `<p class="dictionary-message">${t('oddoneout.border.message')}</p>`;
             const existing = worksheetCanvas.getObjects().find(obj => obj[propName]);
             if (existing) worksheetCanvas.remove(existing).renderAll();
             document.querySelectorAll(`.${type==='borders'?'border':'background'}-thumbnail-item.selected`).forEach(el => el.classList.remove('selected'));
@@ -1508,7 +1577,7 @@
             return;
         }
         
-        dictEl.innerHTML = `<p class="dictionary-message">Loading...</p>`;
+        dictEl.innerHTML = `<p class="dictionary-message">${t('oddoneout.loading.images')}</p>`;
         fetch(`/api/${type}/images?theme=${theme}`)
             .then(res => res.ok ? res.json() : Promise.reject('Failed to load images'))
             .then(images => {
@@ -1524,7 +1593,7 @@
                     };
                     dictEl.appendChild(item);
                 });
-            }).catch(err => { dictEl.innerHTML = `<p class="dictionary-message">Error loading.</p>`; });
+            }).catch(err => { dictEl.innerHTML = `<p class="dictionary-message">${t('oddoneout.msg.load.failed', { type: 'asset' })}</p>`; });
       };
 
       const setupAssetControls = () => {
@@ -1561,7 +1630,7 @@
               if (allThemes.includes('animals')) {
                   ui.themeSelect.value = 'animals';
               }
-          } catch (e) { showMessage('Could not load image themes.', 'error'); }
+          } catch (e) { showMessage(t('oddoneout.msg.load.themes.error'), 'error'); }
       };
 
       const fetchImagesByTheme = async (theme) => {
@@ -1572,7 +1641,7 @@
               const images = data.images || data;
               imageCache[theme] = images;
               return images;
-          } catch (e) { showMessage(`Could not load images for theme: ${theme}`, 'error'); return []; }
+          } catch (e) { showMessage(t('oddoneout.msg.load.theme.error').replace('{theme}', theme), 'error'); return []; }
       };
       
       const loadDictionary = async () => {
@@ -1602,7 +1671,7 @@
 
           ui.dictionary.innerHTML = '';
           if (!filteredPool.length) {
-              ui.dictionary.innerHTML = `<p class="dictionary-message">No images found.</p>`;
+              ui.dictionary.innerHTML = `<p class="dictionary-message">${t('oddoneout.msg.no.images.found')}</p>`;
               return;
           }
           
@@ -1674,8 +1743,8 @@
             return `<img src="${img.path}" data-path="${img.path}" alt="${displayName}">`;
         };
         
-        ui.prevCommon.innerHTML = commonSelections[r].map(createImgTag).join('') || '<p class="dictionary-message">None selected</p>';
-        ui.prevOdd.innerHTML = oddSelections[r] ? createImgTag(oddSelections[r]) : '<p class="dictionary-message">None selected</p>';
+        ui.prevCommon.innerHTML = commonSelections[r].map(createImgTag).join('') || `<p class="dictionary-message">${t('common.none')}</p>`;
+        ui.prevOdd.innerHTML = oddSelections[r] ? createImgTag(oddSelections[r]) : `<p class="dictionary-message">${t('common.none')}</p>`;
         
         // Update exercise mode selector to show current exercise's mode
         if (ui.exerciseModeSelect) {
@@ -1690,7 +1759,7 @@
           let filesToLoad = Array.from(files).filter(f => f.type.startsWith('image/')).length;
           if(filesToLoad === 0) return;
           
-          ui.uploadedImagesPreview.innerHTML = `<p class='dictionary-message'>Loading ${filesToLoad} image(s)...</p>`;
+          ui.uploadedImagesPreview.innerHTML = `<p class='dictionary-message'>${t('oddoneout.loading.images')}</p>`;
           
           for(const file of files) {
               if(!file.type.startsWith('image/')) continue;
@@ -1702,22 +1771,37 @@
                   filesToLoad--;
                   if (filesToLoad === 0) {
                       renderUploadedImages();
-                      showMessage(`${uploadedImages.length} custom image(s) available.`, 'success');
+                      showMessage(t('oddoneout.msg.uploads.available').replace('{count}', uploadedImages.length), 'success');
                   }
               };
               reader.onerror = () => {
                   filesToLoad--;
-                  showMessage(`Error reading file: ${file.name}`, 'error');
+                  showMessage(t('oddoneout.msg.file.error').replace('{filename}', file.name), 'error');
               };
               reader.readAsDataURL(file);
           }
           ui.imageUploadInput.value = ''; // Reset file input
+
+          // Update custom file input status
+          const fileInputStatus = document.querySelector('.file-input-status');
+          if (fileInputStatus) {
+              fileInputStatus.textContent = t('common.none');
+          }
       };
-      
+
+      // Update file input status display when files are selected
+      ui.imageUploadInput.addEventListener('change', (e) => {
+          const fileInputStatus = document.querySelector('.file-input-status');
+          if (fileInputStatus && e.target.files.length > 0) {
+              const count = e.target.files.length;
+              fileInputStatus.textContent = `${count} ${count === 1 ? 'file' : 'files'}`;
+          }
+      });
+
       const renderUploadedImages = () => {
           ui.uploadedImagesPreview.innerHTML = "";
           if (uploadedImages.length === 0) {
-              ui.uploadedImagesPreview.innerHTML = `<p class="dictionary-message">Your uploaded images will appear here.</p>`;
+              ui.uploadedImagesPreview.innerHTML = `<p class="dictionary-message">${t('oddoneout.uploaded.placeholder')}</p>`;
               return;
           }
           uploadedImages.forEach(img => {
@@ -1765,14 +1849,14 @@
                 
                 const baseImage = commonItems[0] || getUniqueImage(poolA);
                 if (!baseImage) {
-                    showMessage(`Not enough unique images in theme "${themeA}" to generate row ${i + 1}.`, 'error');
+                    showMessage(t('oddoneout.msg.insufficient.theme').replace('{theme}', themeA).replace('{row}', i + 1), 'error');
                     return null;
                 }
                 commonItems = [baseImage, baseImage, baseImage];
                 if (!oddItem || oddItem.path === baseImage.path) {
                     oddItem = getUniqueImage(poolA.filter(p => p.path !== baseImage.path));
                     if (!oddItem) {
-                        showMessage(`Could not find a unique 'odd' image for row ${i + 1}.`, 'error');
+                        showMessage(t('oddoneout.msg.no.unique.odd').replace('{row}', i + 1), 'error');
                         return null;
                     }
                 }
@@ -1792,7 +1876,7 @@
                 if (!oddItem) oddItem = getUniqueImage(poolB);
                 
                 if (commonItems.length < 3 || !oddItem) {
-                    showMessage(`Not enough unique images to generate row ${i + 1}.`, 'error');
+                    showMessage(t('oddoneout.msg.insufficient.images').replace('{row}', i + 1), 'error');
                     return null;
                 }
             }
@@ -1814,7 +1898,7 @@
       
       // START OF CHANGES
       const renderWorksheet = async () => {
-        showMessage('Generating worksheet...', 'info', 0);
+        showMessage(t('oddoneout.msg.generating'), 'info', 0);
         
         // Check if exercise count or exercise numbers setting changed
         const exerciseCountChanged = lastGeneratedExerciseCount !== null && lastGeneratedExerciseCount !== EXERCISE_COUNT;
@@ -1849,7 +1933,7 @@
 
         const rowsData = await buildRowsData();
         if (!rowsData) {
-            showMessage('Generation failed. Please check image selections and themes.', 'error');
+            showMessage(t('oddoneout.msg.generation.failed'), 'error');
             return;
         }
         lastGeneratedRows = rowsData;
@@ -1899,22 +1983,22 @@
         worksheetCanvas.renderAll();
         
         ui.generateAnswerKeyBtn.disabled = false;
-        showMessage('Worksheet generated!', 'success');
+        showMessage(t('oddoneout.msg.worksheet.generated'), 'success');
       };
       
       const renderAnswerKey = async () => {
           if (lastGeneratedRows.length === 0) {
-              showMessage("Please generate the worksheet first.", "error");
+              showMessage(t('oddoneout.msg.generate.first'), "error");
               return;
           }
           
           // CRITICAL: Check if exercise count matches current setting
           if (lastGeneratedRows.length !== EXERCISE_COUNT) {
-              showMessage("Exercise count has changed. Please regenerate the worksheet first.", "error");
+              showMessage(t('oddoneout.msg.exercise.changed'), "error");
               return;
           }
           
-          showMessage('Generating answer key...', 'info');
+          showMessage(t('oddoneout.msg.generating.answer'), 'info');
 
           // ALWAYS use fresh layout for answer key to match worksheet
           // Don't preserve old transforms since worksheet was regenerated
@@ -1958,7 +2042,7 @@
           lastAnswerKeyExerciseCount = EXERCISE_COUNT;
           
           document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
-          showMessage("Answer key generated!", "success");
+          showMessage(t('oddoneout.msg.answer.generated'), "success");
 
           ui.downloadAkJpegBtn.disabled = false;
           ui.downloadAkPdfBtn.disabled = false;
@@ -2399,10 +2483,10 @@
 
       const downloadImageFile = async (canvas, fileName) => {
           if (!canvas || canvas.getObjects().length === 0) {
-              showMessage('Canvas is empty and cannot be downloaded.', 'error');
+              showMessage(t('oddoneout.msg.canvas.empty'), 'error');
               return;
           }
-          showMessage('Preparing JPEG...', 'info', 0);
+          showMessage(t('oddoneout.msg.preparing.jpeg'), 'info', 0);
           try {
               const grayscale = ui.grayscaleToggle.checked;
               const dataURL = await getCanvasDataURL(canvas, grayscale);
@@ -2410,19 +2494,19 @@
               link.download = fileName;
               link.href = dataURL;
               link.click();
-              showMessage('Download Initiated!', 'success');
-          } catch(e) { 
-              showMessage('Error preparing JPEG for download.', 'error');
+              showMessage(t('oddoneout.msg.download.initiated'), 'success');
+          } catch(e) {
+              showMessage(t('oddoneout.msg.jpeg.error'), 'error');
               console.error("JPEG Download Error:", e);
           }
       };
       
       const downloadPDF = async (canvas, fileName) => {
           if (!canvas || canvas.getObjects().length === 0) {
-              showMessage('Canvas is empty and cannot be downloaded.', 'error');
+              showMessage(t('oddoneout.msg.canvas.empty'), 'error');
               return;
           }
-          showMessage('Preparing PDF...', 'info', 0);
+          showMessage(t('oddoneout.msg.preparing.pdf'), 'info', 0);
           try {
               const { jsPDF } = window.jspdf;
               const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
@@ -2436,9 +2520,9 @@
               const imgData = await getCanvasDataURL(canvas, grayscale);
               pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
               pdf.save(fileName);
-              showMessage('PDF Downloaded!', 'success');
-          } catch(e) { 
-              showMessage('Error creating PDF for download.', 'error'); 
+              showMessage(t('oddoneout.msg.pdf.downloaded'), 'success');
+          } catch(e) {
+              showMessage(t('oddoneout.msg.pdf.error'), 'error'); 
               console.error("PDF Download Error:", e);
           }
       };
@@ -2485,7 +2569,7 @@
         ui.downloadAkPdfBtn.disabled = true;
         // END OF CHANGES
 
-        showMessage('Form cleared.', 'success', 2000);
+        showMessage(t('oddoneout.msg.form.cleared'), 'success', 2000);
       };
 
       // --- EXERCISE COUNT MANAGEMENT ---
@@ -2517,7 +2601,7 @@
           ui.generateAnswerKeyBtn.disabled = true;
           ui.downloadAkJpegBtn.disabled = true;
           ui.downloadAkPdfBtn.disabled = true;
-          showMessage('Exercise count changed. Please regenerate the worksheet.', 'info');
+          showMessage(t('oddoneout.msg.regenerate'), 'info');
         }
         
         renderPreviews();
@@ -2714,9 +2798,9 @@
     if (originalDownloadPDF) {
         window.downloadPDF = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate content first.', 'error');
+                return showMessage(t('oddoneout.msg.generate.content'), 'error');
             }
-            showMessage('Preparing PDF...', 'info', 0);
+            showMessage(t('oddoneout.msg.preparing.pdf'), 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -2739,9 +2823,9 @@
                 pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
                 
                 pdf.save(fileName);
-                showMessage('PDF downloaded!', 'success');
-            } catch(e) { 
-                showMessage('Error creating PDF.', 'error'); 
+                showMessage(t('oddoneout.msg.pdf.downloaded'), 'success');
+            } catch(e) {
+                showMessage(t('oddoneout.msg.pdf.error.simple'), 'error'); 
                 console.error(e); 
             } finally {
                 // Remove watermark after export
@@ -2755,9 +2839,9 @@
     if (originalDownloadJPEG) {
         window.downloadJPEG = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate a worksheet first.', 'error');
+                return showMessage(t('oddoneout.msg.generate.worksheet.first'), 'error');
             }
-            showMessage('Preparing JPEG...', 'info', 0);
+            showMessage(t('oddoneout.msg.preparing.jpeg'), 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -2773,9 +2857,9 @@
                 link.href = dataURL;
                 link.download = fileName;
                 link.click();
-                showMessage('JPEG download initiated!', 'success');
-            } catch(e) { 
-                showMessage('Error preparing JPEG.', 'error'); 
+                showMessage(t('oddoneout.msg.jpeg.initiated'), 'success');
+            } catch(e) {
+                showMessage(t('oddoneout.msg.jpeg.error.simple'), 'error'); 
                 console.error(e); 
             } finally {
                 // Remove watermark after export

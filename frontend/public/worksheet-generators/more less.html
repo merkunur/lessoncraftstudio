@@ -5,7 +5,7 @@
   <title>Compare Numbers Worksheet</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="js/translations.js"></script>
+  <script src="js/translations-more-less.js?v=1"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
@@ -753,127 +753,127 @@
     <div id="menuOverlay" class="menu-overlay"></div>
     <div class="panel">
       <div class="panel-header">
-        <h2>Comparison Worksheet Maker</h2>
+        <h2 data-translate="moreless.settings.title">Comparison Worksheet Maker</h2>
         <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
       </div>
       <div class="panel-content">
 
         <div class="accordion-item">
-            <button class="accordion-button active">Language Selection</button>
+            <button class="accordion-button active" data-translate="moreless.language.selection">Language Selection</button>
             <div class="accordion-content active">
-                <label for="languageSelect">Language:</label>
+                <label for="languageSelect" data-translate="moreless.language.label">Language:</label>
                 <select id="languageSelect">
-                    <option value="en">English</option>
-                    <option value="de">Deutsch</option>
-                    <option value="fr">Français</option>
-                    <option value="es">Español</option>
-                    <option value="pt">Português</option>
-                    <option value="it">Italiano</option>
-                    <option value="nl">Nederlands</option>
-                    <option value="sv">Svenska</option>
-                    <option value="da">Dansk</option>
-                    <option value="no">Norsk</option>
-                    <option value="fi">Suomi</option>
+                    <option value="en" data-translate="language.english">English</option>
+                    <option value="de" data-translate="language.german">Deutsch</option>
+                    <option value="fr" data-translate="language.french">Français</option>
+                    <option value="es" data-translate="language.spanish">Español</option>
+                    <option value="pt" data-translate="language.portuguese">Português</option>
+                    <option value="it" data-translate="language.italian">Italiano</option>
+                    <option value="nl" data-translate="language.dutch">Nederlands</option>
+                    <option value="sv" data-translate="language.swedish">Svenska</option>
+                    <option value="da" data-translate="language.danish">Dansk</option>
+                    <option value="no" data-translate="language.norwegian">Norsk</option>
+                    <option value="fi" data-translate="language.finnish">Suomi</option>
                 </select>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Page Setup</button>
+            <button class="accordion-button" data-translate="moreless.page.setup">Page Setup</button>
             <div class="accordion-content">
-                <label for="pageSizeSelect">Page Size:</label>
+                <label for="pageSizeSelect" data-translate="moreless.page.size">Page Size:</label>
                 <select id="pageSizeSelect">
-                    <option value="612x792" selected>Letter Portrait (8.5×11")</option>
-                    <option value="792x612">Letter Landscape (11×8.5")</option>
-                    <option value="595x842">A4 Portrait (210×297mm)</option>
-                    <option value="842x595">A4 Landscape (297×210mm)</option>
-                    <option value="1200x1200">Square (1200x1200)</option>
-                    <option value="custom">Custom</option>
+                    <option value="612x792" selected data-translate="page.size.letter.portrait">Letter Portrait (8.5×11")</option>
+                    <option value="792x612" data-translate="page.size.letter.landscape">Letter Landscape (11×8.5")</option>
+                    <option value="595x842" data-translate="page.size.a4.portrait">A4 Portrait (210×297mm)</option>
+                    <option value="842x595" data-translate="page.size.a4.landscape">A4 Landscape (297×210mm)</option>
+                    <option value="1200x1200" data-translate="page.size.square">Square (1200x1200)</option>
+                    <option value="custom" data-translate="page.size.custom">Custom</option>
                 </select>
                 <div id="customPageSizeInputs" style="display:none;">
-                    <label for="pageWidth">Width (px):</label>
+                    <label for="pageWidth" data-translate="moreless.width.label">Width (px):</label>
                     <input type="number" id="pageWidth" value="612">
-                    <label for="pageHeight">Height (px):</label>
+                    <label for="pageHeight" data-translate="moreless.height.label">Height (px):</label>
                     <input type="number" id="pageHeight" value="792">
                 </div>
-                <label for="pageColor">Page Color:</label>
+                <label for="pageColor" data-translate="moreless.page.color">Page Color:</label>
                 <input type="color" id="pageColor" value="#FFFFFF">
-                <button id="setPageSizeBtn">Apply Size</button>
-                
-                <h4>Background</h4>
-                <label for="backgroundThemeSelect">Background Theme:</label>
+                <button id="setPageSizeBtn" data-translate="moreless.apply.size">Apply Size</button>
+
+                <h4 data-translate="moreless.background.title">Background</h4>
+                <label for="backgroundThemeSelect" data-translate="moreless.background.theme">Background Theme:</label>
                 <select id="backgroundThemeSelect">
-                    <option value="none">None</option>
+                    <option value="none" data-translate="common.none">None</option>
                 </select>
-                <div id="backgroundDictionary"><p class="dictionary-message">Select a theme for backgrounds.</p></div>
-                <label for="backgroundOpacitySlider">Background Opacity:</label>
+                <div id="backgroundDictionary"><p class="dictionary-message" data-translate="moreless.background.message">Select a theme for backgrounds.</p></div>
+                <label for="backgroundOpacitySlider" data-translate="moreless.background.opacity">Background Opacity:</label>
                 <input type="range" id="backgroundOpacitySlider" min="0" max="1" step="0.05" value="1" disabled>
 
-                <h4>Border</h4>
-                <label for="borderThemeSelect">Border Theme:</label>
+                <h4 data-translate="moreless.border.title">Border</h4>
+                <label for="borderThemeSelect" data-translate="moreless.border.theme">Border Theme:</label>
                 <select id="borderThemeSelect">
-                    <option value="none">None</option>
+                    <option value="none" data-translate="common.none">None</option>
                 </select>
                 <div id="borderDictionary">
-                    <p class="dictionary-message">Select a theme to see borders.</p>
+                    <p class="dictionary-message" data-translate="moreless.border.message">Select a theme to see borders.</p>
                 </div>
-                <label for="borderOpacitySlider">Border Opacity:</label>
+                <label for="borderOpacitySlider" data-translate="moreless.border.opacity">Border Opacity:</label>
                 <input type="range" id="borderOpacitySlider" min="0" max="1" value="1" step="0.05" disabled>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Text Tools</button>
+            <button class="accordion-button" data-translate="moreless.text.tools">Text Tools</button>
             <div class="accordion-content">
-                <h4>Add New Text</h4>
-                <label for="textInput">Content:</label><input type="text" id="textInput" placeholder="Hello!">
-                <button id="addTextBtn">Add Text</button>
-                <h4>Selected Text Properties</h4>
-                <label for="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
-                <label for="fontSize">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
-                <label for="fontFamily">Font:</label>
+                <h4 data-translate="moreless.text.add.new">Add New Text</h4>
+                <label for="textInput" data-translate="moreless.text.content">Content:</label><input type="text" id="textInput" data-translate-placeholder="moreless.text.placeholder" placeholder="Hello!">
+                <button id="addTextBtn" data-translate="moreless.text.add.button">Add Text</button>
+                <h4 data-translate="moreless.text.properties">Selected Text Properties</h4>
+                <label for="textColor" data-translate="moreless.text.color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                <label for="fontSize" data-translate="moreless.text.size">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+                <label for="fontFamily" data-translate="moreless.text.font">Font:</label>
                 <select id="fontFamily" disabled>
-                    <option value="Lexend Deca">Lexend Deca</option>
-                    <option value="Baloo 2">Baloo 2</option>
-                    <option value="Nunito">Nunito</option>
-                    <option value="Quicksand">Quicksand</option>
-                    <option value="Fredoka">Fredoka</option>
-                    <option value="Arial">Arial</option>
-                    <option value="Verdana">Verdana</option>
+                    <option value="Lexend Deca" data-translate="font.lexend">Lexend Deca</option>
+                    <option value="Baloo 2" data-translate="font.baloo">Baloo 2</option>
+                    <option value="Nunito" data-translate="font.nunito">Nunito</option>
+                    <option value="Quicksand" data-translate="font.quicksand">Quicksand</option>
+                    <option value="Fredoka" data-translate="font.fredoka">Fredoka</option>
+                    <option value="Arial" data-translate="font.arial">Arial</option>
+                    <option value="Verdana" data-translate="font.verdana">Verdana</option>
                 </select>
-                <label for="textStrokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
-                <label for="textStrokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+                <label for="textStrokeColor" data-translate="moreless.text.outline.color">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                <label for="textStrokeWidth" data-translate="moreless.text.outline.width">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Worksheet Configuration</button>
+            <button class="accordion-button" data-translate="moreless.worksheet.config">Worksheet Configuration</button>
             <div class="accordion-content">
-                <label for="problemCountInput">Number of Exercises (1–8):</label>
+                <label for="problemCountInput" data-translate="moreless.exercises.count">Number of Exercises (1–8):</label>
                 <input type="number" id="problemCountInput" value="5" min="1" max="8" />
 
                 <label class="checkbox-label" style="margin-top: 15px;">
                     <input type="radio" name="image_selection_mode" value="individual" checked>
-                    <span>Individual Images</span>
+                    <span data-translate="moreless.mode.individual">Individual Images</span>
                 </label>
                 <label class="checkbox-label">
                     <input type="radio" name="image_selection_mode" value="theme">
-                    <span>Theme for Worksheet</span>
+                    <span data-translate="moreless.mode.theme">Theme for Worksheet</span>
                 </label>
 
                 <div id="individualImageSelectionSection">
-                    <label>Theme for Dictionary <select id="themeDict"></select></label>
-                    <label>Pick 1–5 images</label>
-                    <div id="dict"><p class='dictionary-message'>Loading themes...</p></div>
-                    <small id="selCount">0 / 5 selected</small>
+                    <label><span data-translate="moreless.theme.dictionary">Theme for Dictionary</span> <select id="themeDict"></select></label>
+                    <label data-translate="moreless.pick.images">Pick 1–5 images</label>
+                    <div id="dict"><p class='dictionary-message' data-translate="moreless.loading.themes">Loading themes...</p></div>
+                    <small id="selCount" data-translate="moreless.selected.count">0 / 5 selected</small>
                 </div>
 
                 <div id="worksheetThemeSelectionSection" style="display: none;">
-                    <label>Theme for Worksheet <select id="themeWorksheet"></select></label>
-                    <small>Images will be randomly selected from this theme.</small>
+                    <label><span data-translate="moreless.theme.worksheet">Theme for Worksheet</span> <select id="themeWorksheet"></select></label>
+                    <small data-translate="moreless.theme.random">Images will be randomly selected from this theme.</small>
                 </div>
 
-                <h4>Relations</h4>
+                <h4 data-translate="moreless.relations">Relations</h4>
                 <label class="checkbox-label">
                     <span>&gt;</span>
                     <input type="checkbox" value="gt" checked>
@@ -886,36 +886,40 @@
                     <span>=</span>
                     <input type="checkbox" value="eq" checked>
                 </label>
-                <h4>Symbol Display</h4>
+                <h4 data-translate="moreless.symbol.display">Symbol Display</h4>
                 <label class="checkbox-label">
                     <input type="radio" name="symbol_display_type" value="image" checked>
-                    <span>Illustrations</span>
+                    <span data-translate="moreless.display.illustrations">Illustrations</span>
                 </label>
                 <label class="checkbox-label">
                     <input type="radio" name="symbol_display_type" value="text">
-                    <span>Normal Symbols (&gt;, &lt;, =)</span>
+                    <span data-translate="moreless.display.normal">Normal Symbols (&gt;, &lt;, =)</span>
                 </label>
                 <label class="checkbox-label">
                     <input type="checkbox" id="showSym">
-                    show symbols for circling
+                    <span data-translate="moreless.symbol.mode.circling">show symbols for circling</span>
                 </label>
                 <label for="includeNameDate" class="checkbox-label">
-                    <input type="checkbox" id="includeNameDate" />Include Name/Date Fields
+                    <input type="checkbox" id="includeNameDate" /><span data-translate="moreless.include.name.date">Include Name/Date Fields</span>
                 </label>
                 <label for="includeExerciseNumbers" class="checkbox-label">
-                    <input type="checkbox" id="includeExerciseNumbers" checked />Include Exercise Numbers
+                    <input type="checkbox" id="includeExerciseNumbers" checked /><span data-translate="moreless.include.numbers">Include Exercise Numbers</span>
                 </label>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Upload Custom Images</button>
+            <button class="accordion-button" data-translate="moreless.upload.custom">Upload Custom Images</button>
             <div class="accordion-content">
-                <label for="imageUploadInput">Select image(s) to upload:</label>
-                <input type="file" id="imageUploadInput" multiple accept="image/*">
-                <label style="margin-top:10px;">Your Uploaded Images (This Session):</label>
+                <label data-translate="moreless.upload.select">Select image(s) to upload:</label>
+                <div style="margin-bottom: 12px;">
+                    <button type="button" id="customFileButton" class="action-button" style="padding: 8px 16px; font-size: 14px; background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); border: 1px solid var(--app-border-dark);" data-translate="chooseFiles">Choose Files</button>
+                    <span id="fileSelectionText" style="margin-left: 10px; color: var(--app-text-secondary-dark-theme);" data-translate="noFileChosen">No file chosen</span>
+                    <input type="file" id="imageUploadInput" multiple accept="image/*" style="position: absolute; left: -9999px;">
+                </div>
+                <label style="margin-top:10px;" data-translate="moreless.uploaded.images">Your Uploaded Images (This Session):</label>
                 <div id="uploadedImagesPreview">
-                    <p class="dictionary-message">Your uploaded images will appear here.</p>
+                    <p class="dictionary-message" data-translate="moreless.uploaded.placeholder">Your uploaded images will appear here.</p>
                 </div>
             </div>
         </div>
@@ -969,30 +973,30 @@
       </div>
       <div class="top-right-actions">
           <div class="dropdown-container">
-            <button id="generateDropdownBtn" class="action-button accent">Generate <i class="fas fa-caret-down"></i></button>
+            <button id="generateDropdownBtn" class="action-button accent"><span data-translate="moreless.generate">Generate</span> <i class="fas fa-caret-down"></i></button>
             <div id="generateDropdownContent" class="dropdown-content">
-                <button id="generateWorksheetBtn">Generate Worksheet</button>
-                <button id="generateAnswerKeyBtn" disabled>Generate Answer Key</button>
+                <button id="generateWorksheetBtn" data-translate="moreless.generate.worksheet">Generate Worksheet</button>
+                <button id="generateAnswerKeyBtn" disabled data-translate="moreless.generate.answer">Generate Answer Key</button>
             </div>
           </div>
         <div class="dropdown-container">
-            <button id="downloadDropdownBtn" class="action-button secondary">Download <i class="fas fa-caret-down"></i></button>
+            <button id="downloadDropdownBtn" class="action-button secondary"><span data-translate="moreless.download">Download</span> <i class="fas fa-caret-down"></i></button>
             <div id="downloadDropdownContent" class="dropdown-content">
-                <button id="downloadWorksheetJpegBtn">Worksheet (JPEG)</button>
-                <button id="downloadAnswerKeyJpegBtn" disabled>Answer Key (JPEG)</button>
-                <button id="downloadWorksheetPdfBtn">Worksheet (PDF)</button>
-                <button id="downloadAnswerKeyPdfBtn" disabled>Answer Key (PDF)</button>
+                <button id="downloadWorksheetJpegBtn" data-translate="moreless.download.worksheet.jpeg">Worksheet (JPEG)</button>
+                <button id="downloadAnswerKeyJpegBtn" disabled data-translate="moreless.download.answer.jpeg">Answer Key (JPEG)</button>
+                <button id="downloadWorksheetPdfBtn" data-translate="moreless.download.worksheet.pdf">Worksheet (PDF)</button>
+                <button id="downloadAnswerKeyPdfBtn" disabled data-translate="moreless.download.answer.pdf">Answer Key (PDF)</button>
                 <label class="checkbox-label" id="grayscaleLabel">
-                    <input type="checkbox" id="grayscaleToggle" />Grayscale
+                    <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
                 </label>
             </div>
         </div>
-        <button id="clearBtn" class="action-button danger">Clear All</button>
+        <button id="clearBtn" class="action-button danger" data-translate="moreless.clear.all">Clear All</button>
       </div>
 
       <div class="tab-row">
-        <button class="tab-button active" data-tab="worksheetTab">Worksheet</button>
-        <button class="tab-button" data-tab="answerKeyTab">Answer Key</button>
+        <button class="tab-button active" data-tab="worksheetTab" data-translate="moreless.tab.worksheet">Worksheet</button>
+        <button class="tab-button" data-tab="answerKeyTab" data-translate="moreless.tab.answer">Answer Key</button>
       </div>
       <div class="tab-content-wrapper">
         <div class="tab active" id="worksheetTab">
@@ -1059,24 +1063,56 @@
         });
       }
       
+      // Translation function
+      function t(key) {
+        if (typeof translations === 'undefined') {
+          console.warn('[More Less] Translations not loaded, returning key:', key);
+          return key;
+        }
+        const locale = window.currentLocale || 'en';
+        const translation = (translations[locale] && translations[locale][key]) ||
+                           (translations.en && translations.en[key]) ||
+                           key;
+        return translation;
+      }
+
       // Apply translations function
       function applyTranslations() {
-        if (typeof window.translations === 'undefined') return;
-        
-        const trans = window.translations[currentLocale] || window.translations.en;
-        
-        // Update text content for elements with data-translate attribute
+        if (typeof translations === 'undefined') {
+          console.warn('[More Less] Translations not loaded');
+          return;
+        }
+
+        console.log('[More Less] Applying translations for locale:', window.currentLocale);
+
+        // Translate elements with data-translate attribute
         document.querySelectorAll('[data-translate]').forEach(el => {
           const key = el.getAttribute('data-translate');
-          const keys = key.split('.');
-          let value = trans;
-          for (const k of keys) {
-            value = value?.[k];
-          }
-          if (value) {
-            el.textContent = value;
+          if (key) {
+            el.textContent = t(key);
           }
         });
+
+        // Translate placeholder attributes
+        document.querySelectorAll('[data-translate-placeholder]').forEach(el => {
+          const key = el.getAttribute('data-translate-placeholder');
+          if (key) {
+            el.placeholder = t(key);
+          }
+        });
+
+        // Translate title attributes
+        document.querySelectorAll('[data-translate-title]').forEach(el => {
+          const key = el.getAttribute('data-translate-title');
+          if (key) {
+            el.title = t(key);
+          }
+        });
+
+        // Call translatePage if available from unified-language-manager
+        if (typeof translatePage !== 'undefined') {
+          translatePage();
+        }
       }
 
       // DOM Elements Cache
@@ -1172,7 +1208,7 @@
       }
       
       function updateSelCount() {
-          if (selCountSpan) selCountSpan.textContent = `${selectedImages.size} / ${DEFAULT_MAX_SELECTED_IMAGES} selected`;
+          if (selCountSpan) selCountSpan.textContent = t('moreless.selected.count').replace('0 / 5', `${selectedImages.size} / ${DEFAULT_MAX_SELECTED_IMAGES}`);
       }
 
       function setupDropdown(button, content) {
@@ -1466,8 +1502,8 @@
             const res = await fetch(`/api/themes-translated?locale=${currentLocale}`);
             if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
             const themeData = await res.json();
-            themeDictSelect.innerHTML = '<option value="all">All Themes (for search)</option>';
-            themeWorksheetSelect.innerHTML = '<option value="">Select a theme</option>';
+            themeDictSelect.innerHTML = `<option value="all">${t('moreless.themes.all')}</option>`;
+            themeWorksheetSelect.innerHTML = `<option value="">${t('moreless.msg.select.worksheet.theme')}</option>`;
             
             // Process themes - API returns array with {value, displayName} format
             if (Array.isArray(themeData)) {
@@ -1494,7 +1530,7 @@
             renderDictionaryFunc();
         } catch (error) { 
             console.error('Error loading themes:', error);
-            showSidebarMessage("Could not load themes: " + error.message, 'error'); 
+            showSidebarMessage(t('moreless.msg.themes.error') + ': ' + error.message, 'error'); 
         }
       }
       
@@ -1510,7 +1546,7 @@
         if (selectedThemeForDict === 'all') {
             if (!query) { 
                 // Load animals theme by default when "All Themes" is selected with no search
-                dictDiv.innerHTML = `<p class='dictionary-message'>Loading default theme...</p>`;
+                dictDiv.innerHTML = `<p class='dictionary-message'>${t('moreless.loading.themes')}</p>`;
                 try {
                     const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
                     const data = await response.json();
@@ -1526,11 +1562,11 @@
                         return mappedImg;
                     });
                 } catch (err) {
-                    dictDiv.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`; 
+                    dictDiv.innerHTML = `<p class="dictionary-message">${t('moreless.msg.pick.images')}</p>`; 
                     return; 
                 }
             } else {
-                dictDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+                dictDiv.innerHTML = `<p class="dictionary-message">${t('moreless.msg.loading')}</p>`;
                 try { 
                     const data = await (await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`)).json();
                     const searchResults = data.images || data;
@@ -1546,10 +1582,10 @@
                         return mappedImg;
                     });
                 } 
-                catch (err) { dictDiv.innerHTML = `<p class='dictionary-message'>Error during search.</p>`; return; }
+                catch (err) { dictDiv.innerHTML = `<p class='dictionary-message'>${t('moreless.msg.search.error')}</p>`; return; }
             }
         } else {
-            dictDiv.innerHTML = `<p class='dictionary-message'>Loading images...</p>`;
+            dictDiv.innerHTML = `<p class='dictionary-message'>${t('moreless.msg.loading')}</p>`;
             try {
                 const response = await fetch(`/api/images?theme=${encodeURIComponent(selectedThemeForDict)}&locale=${currentLocale}`);
                 const data = await response.json();
@@ -1583,11 +1619,11 @@
                 }) : mappedImages;
             } catch (err) { 
                 console.error('Error loading images:', err);
-                dictDiv.innerHTML = `<p class='dictionary-message'>Error loading images.</p>`; 
+                dictDiv.innerHTML = `<p class='dictionary-message'>${t('moreless.msg.image.failed')}</p>`; 
                 return; 
             }
         }
-        dictDiv.innerHTML = imagesToDisplay.length === 0 ? `<p class="dictionary-message">No images found.</p>` : "";
+        dictDiv.innerHTML = imagesToDisplay.length === 0 ? `<p class="dictionary-message">${t('moreless.msg.no.images')}</p>` : "";
         imagesToDisplay.sort((a, b) => a.word.localeCompare(b.word)).forEach(img => {
             const item = document.createElement("div");
             item.className = "dictionary-item";
@@ -1602,7 +1638,7 @@
     function toggleImageSelection(image) {
         if (selectedImages.has(image.path)) selectedImages.delete(image.path);
         else if (selectedImages.size < DEFAULT_MAX_SELECTED_IMAGES) selectedImages.add(image.path);
-        else showSidebarMessage(`Max ${DEFAULT_MAX_SELECTED_IMAGES} images allowed.`, 'info');
+        else showSidebarMessage(t('moreless.msg.max.images').replace('{max}', DEFAULT_MAX_SELECTED_IMAGES), 'info');
         updateSelCount();
         renderSelectedImagesPreview();
         [...dictDiv.querySelectorAll('.dictionary-item'), ...uploadedImagesPreviewDiv.querySelectorAll('.dictionary-item')].forEach(item => {
@@ -1625,7 +1661,7 @@
     }
 
     function renderUploadedImages() {
-        uploadedImagesPreviewDiv.innerHTML = uploadedImages.length ? "" : `<p class="dictionary-message">Your uploaded images will appear here.</p>`;
+        uploadedImagesPreviewDiv.innerHTML = uploadedImages.length ? "" : `<p class="dictionary-message">${t('moreless.uploaded.placeholder')}</p>`;
         uploadedImages.forEach(img => {
             const item = document.createElement("div");
             item.className = "dictionary-item";
@@ -1639,7 +1675,7 @@
 
     async function loadAssetThemes(type, selectEl) {
         try {
-            selectEl.innerHTML = '<option value="none">None</option>';
+            selectEl.innerHTML = `<option value="none">${t('common.none')}</option>`;
             const response = await fetch(`/api/${type}/themes?locale=${currentLocale}`);
             if (!response.ok) {
                 console.error(`Failed to load ${type} themes`);
@@ -1658,17 +1694,17 @@
     function loadAssetImages(type, theme, dictionaryEl, addFunc) {
         const assetName = type.slice(0, -1);
         if (theme === 'none') {
-            dictionaryEl.innerHTML = `<p class="dictionary-message">Select a theme.</p>`;
+            dictionaryEl.innerHTML = `<p class="dictionary-message">${t('moreless.msg.select.theme')}</p>`;
             const existing = worksheetCanvas.getObjects().find(o => o[`is${assetName.charAt(0).toUpperCase() + assetName.slice(1)}`]);
             if (existing) worksheetCanvas.remove(existing).renderAll();
             return;
         }
-        dictionaryEl.innerHTML = `<p class="dictionary-message">Loading...</p>`;
+        dictionaryEl.innerHTML = `<p class="dictionary-message">${t('moreless.msg.loading')}</p>`;
         fetch(`/api/${type}/images?theme=${theme}`)
             .then(res => res.ok ? res.json() : Promise.reject())
             .then(data => {
                 const images = data.images || data || [];
-                dictionaryEl.innerHTML = images.length === 0 ? `<p class="dictionary-message">No ${type} in this theme.</p>` : "";
+                dictionaryEl.innerHTML = images.length === 0 ? `<p class="dictionary-message">${t('moreless.msg.theme.empty')}</p>` : "";
                 images.forEach(asset => {
                     const item = document.createElement("div");
                     item.className = "border-thumbnail-item";
@@ -1682,7 +1718,7 @@
                     };
                     dictionaryEl.appendChild(item);
                 });
-            }).catch(() => dictionaryEl.innerHTML = `<p class="dictionary-message">Error loading ${type}.</p>`);
+            }).catch(() => dictionaryEl.innerHTML = `<p class="dictionary-message">${t('moreless.msg.themes.error')}</p>`);
     }
 
     function addBorderToCanvas(path) {
@@ -1757,7 +1793,7 @@
     // Border and Background Functions
     async function loadBorderThemes() {
         try {
-            borderThemeSelect.innerHTML = '<option value="none">None</option>';
+            borderThemeSelect.innerHTML = `<option value="none">${t('common.none')}</option>`;
             const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
             if (!response.ok) {
                 console.error('Failed to load border themes');
@@ -1774,7 +1810,7 @@
 
     async function loadBackgroundThemes() {
         try {
-            backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+            backgroundThemeSelect.innerHTML = `<option value="none">${t('common.none')}</option>`;
             const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
             if (!response.ok) {
                 console.error('Failed to load background themes');
@@ -1793,14 +1829,14 @@
         const theme = borderThemeSelect.value;
         const activeCanvas = getActiveCanvas();
         if (theme === 'none') {
-            borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme.</p>';
+            borderDictionary.innerHTML = `<p class="dictionary-message">${t('moreless.border.message')}</p>`;
             const existing = activeCanvas.getObjects().find(o => o.isBorder);
             if (existing) activeCanvas.remove(existing);
             activeCanvas.renderAll();
             borderOpacitySlider.disabled = true;
             return;
         }
-        borderDictionary.innerHTML = '<p class="dictionary-message">Loading borders...</p>';
+        borderDictionary.innerHTML = `<p class="dictionary-message">${t('moreless.msg.loading.borders')}</p>`;
         fetch(`/api/borders/images?theme=${theme}`)
             .then(res => res.ok ? res.json() : Promise.reject('Failed to load border images'))
             .then(data => {
@@ -1820,7 +1856,7 @@
             })
             .catch(err => {
                 console.error('Error loading border images:', err);
-                borderDictionary.innerHTML = '<p class="dictionary-message">Error loading borders.</p>';
+                borderDictionary.innerHTML = `<p class="dictionary-message">${t('moreless.msg.borders.error')}</p>`;
             });
     }
 
@@ -1828,14 +1864,14 @@
         const theme = backgroundThemeSelect.value;
         const activeCanvas = getActiveCanvas();
         if (theme === 'none') {
-            backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme.</p>';
+            backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('moreless.background.message')}</p>`;
             const existing = activeCanvas.getObjects().find(o => o.isBackground);
             if (existing) activeCanvas.remove(existing);
             activeCanvas.renderAll();
             backgroundOpacitySlider.disabled = true;
             return;
         }
-        backgroundDictionary.innerHTML = '<p class="dictionary-message">Loading backgrounds...</p>';
+        backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('moreless.msg.loading.backgrounds')}</p>`;
         fetch(`/api/backgrounds/images?theme=${theme}`)
             .then(res => res.ok ? res.json() : Promise.reject('Failed to load background images'))
             .then(data => {
@@ -1855,7 +1891,7 @@
             })
             .catch(err => {
                 console.error('Error loading background images:', err);
-                backgroundDictionary.innerHTML = '<p class="dictionary-message">Error loading backgrounds.</p>';
+                backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('moreless.msg.backgrounds.error')}</p>`;
             });
     }
 
@@ -1999,11 +2035,11 @@
             worksheetCanvas.renderAll();
 
             [generateAnswerKeyBtn, downloadAnswerKeyJpegBtn, downloadAnswerKeyPdfBtn].forEach(b => b.disabled = false);
-            showSidebarMessage("Worksheet updated!", "success");
+            showSidebarMessage(t('moreless.msg.worksheet.success'), "success");
 
         } catch(e) { 
             console.error(e); 
-            showSidebarMessage(`Error: ${e.message}`, 'error'); 
+            showSidebarMessage(t('moreless.msg.generation.error').replace('{error}', e.message), 'error'); 
         }
     }
 
@@ -2263,7 +2299,7 @@
     }
 
     async function generateAnswerKey() {
-        if (!lastGeneratedRows.length) { showSidebarMessage("Please generate a worksheet first.", "error"); return; }
+        if (!lastGeneratedRows.length) { showSidebarMessage(t('moreless.msg.generate.first'), "error"); return; }
 
         // Clear all old answer cards - always apply fresh layout
         // This ensures consistent multi-column layout on each generation
@@ -2392,13 +2428,13 @@
         answerKeyCanvas.renderAll();
         
         document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
-        showSidebarMessage("Answer key updated!", "success");
+        showSidebarMessage(t('moreless.msg.answer.generated'), "success");
         
         [downloadAnswerKeyJpegBtn, downloadAnswerKeyPdfBtn].forEach(b => b.disabled = false);
     }
 
     async function downloadImageFile(canvasToExport, filename) {
-        showSidebarMessage('Preparing JPEG...', 'info', 0);
+        showSidebarMessage(t('moreless.msg.preparing.jpeg'), 'info', 0);
         try {
             const options = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
             const url = await getCanvasDataURLWithOptions(canvasToExport, options);
@@ -2406,9 +2442,9 @@
             a.href = url;
             a.download = filename;
             a.click();
-            showSidebarMessage('JPEG Download Initiated!', 'success', 3000);
+            showSidebarMessage(t('moreless.msg.jpeg.success'), 'success', 3000);
         } catch (e) {
-            showSidebarMessage(`JPEG Error: ${e.message}`, 'error');
+            showSidebarMessage(t('moreless.msg.jpeg.error').replace('{error}', e.message), 'error');
         }
     }
 
@@ -2482,35 +2518,35 @@
     if (originalDownloadPDF) {
         window.downloadPDF = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate content first.', 'error');
+                return showMessage(t('moreless.msg.generate.first'), 'error');
             }
-            showMessage('Preparing PDF...', 'info', 0);
-            
+            showMessage(t('moreless.msg.preparing.pdf'), 'info', 0);
+
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
-            
+
             try {
                 const { jsPDF } = window.jspdf;
                 const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
-                const pdf = new jsPDF({ 
-                    orientation, 
-                    unit: 'pt', 
-                    format: [canvasToExport.width, canvasToExport.height] 
+                const pdf = new jsPDF({
+                    orientation,
+                    unit: 'pt',
+                    format: [canvasToExport.width, canvasToExport.height]
                 });
 
-                const exportOptions = { 
-                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
-                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
+                const exportOptions = {
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6,
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked
                 };
-                
+
                 const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
                 pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
-                
+
                 pdf.save(fileName);
-                showMessage('PDF downloaded!', 'success');
-            } catch(e) { 
-                showMessage('Error creating PDF.', 'error'); 
-                console.error(e); 
+                showMessage(t('moreless.msg.pdf.downloaded'), 'success');
+            } catch(e) {
+                showMessage(t('moreless.msg.pdf.error'), 'error');
+                console.error(e);
             } finally {
                 // Remove watermark after export
                 removeWatermarkFromCanvas(canvasToExport, watermarkData);
@@ -2523,28 +2559,28 @@
     if (originalDownloadJPEG) {
         window.downloadJPEG = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate a worksheet first.', 'error');
+                return showMessage(t('moreless.msg.generate.first'), 'error');
             }
-            showMessage('Preparing JPEG...', 'info', 0);
-            
+            showMessage(t('moreless.msg.preparing.jpeg'), 'info', 0);
+
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
-            
+
             try {
-                const exportOptions = { 
-                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
-                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
+                const exportOptions = {
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6,
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked
                 };
                 const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
-                
+
                 const link = document.createElement('a');
                 link.href = dataURL;
                 link.download = fileName;
                 link.click();
-                showMessage('JPEG download initiated!', 'success');
-            } catch(e) { 
-                showMessage('Error preparing JPEG.', 'error'); 
-                console.error(e); 
+                showMessage(t('moreless.msg.jpeg.success'), 'success');
+            } catch(e) {
+                showMessage(t('moreless.msg.jpeg.simple'), 'error');
+                console.error(e);
             } finally {
                 // Remove watermark after export
                 removeWatermarkFromCanvas(canvasToExport, watermarkData);
@@ -2553,7 +2589,7 @@
     }
 
 async function downloadPDF(canvasToExport, filename) {
-        showSidebarMessage('Preparing PDF...', 'info', 0);
+        showSidebarMessage(t('moreless.msg.preparing.pdf'), 'info', 0);
         try {
             const { jsPDF } = window.jspdf;
             // Use the user-selected dimensions from currentCanvasConfig
@@ -2564,9 +2600,9 @@ async function downloadPDF(canvasToExport, filename) {
             const options = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
             pdf.addImage(await getCanvasDataURLWithOptions(canvasToExport, options), 'JPEG', 0, 0, width, height);
             pdf.save(filename);
-            showSidebarMessage('PDF Downloaded!', 'success', 3000);
+            showSidebarMessage(t('moreless.msg.pdf.downloaded'), 'success', 3000);
         } catch (e) {
-            showSidebarMessage(`PDF Error: ${e.message}`, "error");
+            showSidebarMessage(t('moreless.msg.pdf.error.detailed').replace('{error}', e.message), "error");
         }
     }
     
@@ -2647,7 +2683,7 @@ async function downloadPDF(canvasToExport, filename) {
             });
             activeCanvas.add(textObject).setActiveObject(textObject).renderAll();
             textInput.value = '';
-            showSidebarMessage('Text added.', 'success', 1500);
+            showSidebarMessage(t('moreless.msg.text.added'), 'success', 1500);
         });
 
         [textInput, textColorInput, fontSizeInput, fontFamilySelect, textStrokeColorInput, textStrokeWidthInput].forEach(el => el.addEventListener('input', updateActiveTextObjectProperties));
@@ -2663,10 +2699,39 @@ async function downloadPDF(canvasToExport, filename) {
           if(searchTimeout) clearTimeout(searchTimeout);
           searchTimeout = setTimeout(renderDictionaryFunc, 300);
         });
+        // Custom file input button handler
+        const customFileButton = document.getElementById('customFileButton');
+        const fileSelectionText = document.getElementById('fileSelectionText');
+
+        if (customFileButton) {
+            customFileButton.addEventListener('click', () => imageUploadInput.click());
+        }
+
+        // Manually translate file button after delay
+        setTimeout(() => {
+            if (customFileButton && typeof t !== 'undefined') {
+                customFileButton.textContent = t('chooseFiles');
+            }
+            if (fileSelectionText && typeof t !== 'undefined') {
+                fileSelectionText.textContent = t('noFileChosen');
+            }
+        }, 150);
+
         imageUploadInput.addEventListener('change', (e) => {
             const files = Array.from(e.target.files).filter(f => f.type.startsWith('image/'));
+
+            // Update file selection text
+            if (fileSelectionText) {
+                const fileCount = files.length;
+                if (fileCount > 0) {
+                    fileSelectionText.textContent = t('filesSelected').replace('{count}', fileCount);
+                } else {
+                    fileSelectionText.textContent = t('noFileChosen');
+                }
+            }
+
             if (files.length === 0) return;
-            uploadedImagesPreviewDiv.innerHTML = `<p class='dictionary-message'>Loading ${files.length} image(s)...</p>`;
+            uploadedImagesPreviewDiv.innerHTML = `<p class='dictionary-message'>${t('moreless.msg.loading')}</p>`;
             Promise.all(files.map(file => new Promise((resolve, reject) => {
                 const reader = new FileReader();
                 reader.onload = e => resolve({ word: file.name.split('.')[0], path: e.target.result });
@@ -2675,7 +2740,7 @@ async function downloadPDF(canvasToExport, filename) {
             }))).then(newImages => {
                 uploadedImages.push(...newImages.filter(n => !uploadedImages.some(u => u.path === n.path)));
                 renderUploadedImages();
-                showSidebarMessage(`${newImages.length} custom image(s) available.`, 'success');
+                showSidebarMessage(t('moreless.msg.images.loaded').replace('{count}', newImages.length), 'success');
             }).catch(err => showSidebarMessage(err.message, 'error'));
             e.target.value = '';
         });
@@ -2705,12 +2770,12 @@ async function downloadPDF(canvasToExport, filename) {
             includeNameDateCheckbox.checked = false; includeExerciseNumbersCheckbox.checked = true;
             pageColorInput.value = '#FFFFFF';
             [borderThemeSelect, backgroundThemeSelect].forEach(s => s.value = 'none');
-            [borderDictionary, backgroundDictionary].forEach(d => d.innerHTML = '<p class="dictionary-message">Select a theme to see items.</p>');
+            [borderDictionary, backgroundDictionary].forEach(d => d.innerHTML = `<p class="dictionary-message">${t('moreless.msg.select.theme')}</p>`);
             [borderOpacitySlider, backgroundOpacitySlider].forEach(s => { s.value = 1; s.disabled = true; });
             [worksheetCanvas, answerKeyCanvas].forEach(c => { if(c) { c.clear(); c.backgroundColor = '#FFFFFF'; c.renderAll(); } });
             [generateAnswerKeyBtn, downloadAnswerKeyJpegBtn, downloadAnswerKeyPdfBtn].forEach(b => b.disabled = true);
             renderDictionaryFunc(); renderUploadedImages(); renderSelectedImagesPreview(); handleSelectionCleared();
-            showSidebarMessage("All settings cleared.", "success", 2000);
+            showSidebarMessage(t('moreless.msg.cleared'), "success", 2000);
         });
 
         document.querySelectorAll('.tab-button').forEach(btn => btn.addEventListener('click', () => {
@@ -2758,8 +2823,14 @@ async function downloadPDF(canvasToExport, filename) {
 
     initializeApp();
 
-    // Apply translations on load
-    applyTranslations();
+    // Apply translations on load with delay to ensure translations file is loaded
+    setTimeout(function() {
+      console.log('[More Less] Applying translations for locale:', window.currentLocale);
+      applyTranslations();
+      if (typeof translatePage !== 'undefined') {
+        translatePage();
+      }
+    }, 100);
 
     // Open first accordion by default
     const firstAccordion = document.querySelector('.accordion-button');

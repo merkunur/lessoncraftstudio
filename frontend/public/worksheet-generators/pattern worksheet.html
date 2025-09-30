@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pattern Worksheet Generator</title>
+  <title data-translate="pattern.worksheet.page.title">Pattern Worksheet Generator</title>
+  <script src="js/translations-pattern-worksheet.js?v=1"></script>
   <script src="js/translations.js"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -374,7 +375,7 @@
     <div id="menuOverlay" class="menu-overlay"></div>
     <div class="panel">
       <div class="panel-header">
-        <h2 data-translate-key="patternSettings">Pattern Settings</h2>
+        <h2 data-translate="pattern.worksheet.pattern.settings">Pattern Settings</h2>
         <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
       </div>
       
@@ -382,159 +383,159 @@
         
         <!-- Language Settings Accordion -->
         <div class="accordion-item">
-            <button class="accordion-button active" data-translate="settings">Language Settings</button>
+            <button class="accordion-button active" data-translate="pattern.worksheet.language.settings">Language Settings</button>
             <div class="accordion-content active">
-                <label for="languageSelect" data-translate="language">Language:</label>
+                <label for="languageSelect" data-translate="pattern.worksheet.language.label">Language:</label>
                 <select id="languageSelect">
-                    <option value="en">English</option>
-                    <option value="de">Deutsch</option>
-                    <option value="fr">Français</option>
-                    <option value="es">Español</option>
-                    <option value="pt">Português</option>
-                    <option value="it">Italiano</option>
-                    <option value="nl">Nederlands</option>
-                    <option value="sv">Svenska</option>
-                    <option value="da">Dansk</option>
-                    <option value="no">Norsk</option>
-                    <option value="fi">Suomi</option>
+                    <option value="en" data-translate="language.english">English</option>
+                    <option value="de" data-translate="language.german">Deutsch</option>
+                    <option value="fr" data-translate="language.french">Français</option>
+                    <option value="es" data-translate="language.spanish">Español</option>
+                    <option value="pt" data-translate="language.portuguese">Português</option>
+                    <option value="it" data-translate="language.italian">Italiano</option>
+                    <option value="nl" data-translate="language.dutch">Nederlands</option>
+                    <option value="sv" data-translate="language.swedish">Svenska</option>
+                    <option value="da" data-translate="language.danish">Dansk</option>
+                    <option value="no" data-translate="language.norwegian">Norsk</option>
+                    <option value="fi" data-translate="language.finnish">Suomi</option>
                 </select>
             </div>
         </div>
         
         <div class="accordion-item">
-            <button class="accordion-button active">Page Setup</button>
+            <button class="accordion-button active" data-translate="pattern.worksheet.page.setup">Page Setup</button>
             <div class="accordion-content active">
-                <label for="pageSizeSelect">Page Size:</label>
+                <label for="pageSizeSelect" data-translate="pattern.worksheet.page.size">Page Size:</label>
                 <select id="pageSizeSelect">
-                    <option value="612x792">Letter Portrait (8.5×11")</option>
-                    <option value="792x612">Letter Landscape (11×8.5")</option>
-                    <option value="595x842">A4 Portrait (210×297mm)</option>
-                    <option value="842x595">A4 Landscape (297×210mm)</option>
-                    <option value="1200x1200">Square (1200x1200)</option>
-                    <option value="custom">Custom</option>
+                    <option value="612x792" data-translate="page.size.letter.portrait">Letter Portrait (8.5×11")</option>
+                    <option value="792x612" data-translate="page.size.letter.landscape">Letter Landscape (11×8.5")</option>
+                    <option value="595x842" data-translate="page.size.a4.portrait">A4 Portrait (210×297mm)</option>
+                    <option value="842x595" data-translate="page.size.a4.landscape">A4 Landscape (297×210mm)</option>
+                    <option value="1200x1200" data-translate="page.size.square">Square (1200x1200)</option>
+                    <option value="custom" data-translate="page.size.custom">Custom</option>
                 </select>
                 <div id="customPageSizeInputs" style="display:none;">
-                    <label for="pageWidth">Width (px):</label>
+                    <label for="pageWidth" data-translate="pattern.worksheet.width.label">Width (px):</label>
                     <input type="number" id="pageWidth" value="612">
-                    <label for="pageHeight">Height (px):</label>
+                    <label for="pageHeight" data-translate="pattern.worksheet.height.label">Height (px):</label>
                     <input type="number" id="pageHeight" value="792">
                 </div>
-                <label for="pageColor">Page Color:</label>
+                <label for="pageColor" data-translate="pattern.worksheet.page.color">Page Color:</label>
                 <input type="color" id="pageColor" value="#FFFFFF">
-                <button id="setPageSizeBtn">Apply Size</button>
+                <button id="setPageSizeBtn" data-translate="pattern.worksheet.apply.size">Apply Size</button>
                 
-                <h4>Background</h4>
-                <label for="backgroundThemeSelect">Background Theme:</label>
-                <select id="backgroundThemeSelect"><option value="none">None</option></select>
-                <div id="backgroundDictionary"><p class="dictionary-message">Select a theme.</p></div>
-                <label for="backgroundOpacitySlider">Background Opacity:</label>
+                <h4 data-translate="pattern.worksheet.background.title">Background</h4>
+                <label for="backgroundThemeSelect" data-translate="pattern.worksheet.background.theme">Background Theme:</label>
+                <select id="backgroundThemeSelect"><option value="none" data-translate="common.none">None</option></select>
+                <div id="backgroundDictionary"><p class="dictionary-message" data-translate="pattern.worksheet.background.message">Select a theme.</p></div>
+                <label for="backgroundOpacitySlider" data-translate="pattern.worksheet.background.opacity">Background Opacity:</label>
                 <input type="range" id="backgroundOpacitySlider" min="0" max="1" step="0.05" value="1" disabled>
 
-                <h4>Border</h4>
-                <label for="borderThemeSelect">Border Theme:</label>
-                <select id="borderThemeSelect"><option value="none">None</option></select>
-                <div id="borderDictionary"><p class="dictionary-message">Select a theme.</p></div>
-                <label for="borderOpacitySlider">Border Opacity:</label>
+                <h4 data-translate="pattern.worksheet.border.title">Border</h4>
+                <label for="borderThemeSelect" data-translate="pattern.worksheet.border.theme">Border Theme:</label>
+                <select id="borderThemeSelect"><option value="none" data-translate="common.none">None</option></select>
+                <div id="borderDictionary"><p class="dictionary-message" data-translate="pattern.worksheet.border.message">Select a theme.</p></div>
+                <label for="borderOpacitySlider" data-translate="pattern.worksheet.border.opacity">Border Opacity:</label>
                 <input type="range" id="borderOpacitySlider" min="0" max="1" value="1" step="0.05" disabled>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Text Tools</button>
+            <button class="accordion-button" data-translate="pattern.worksheet.text.tools">Text Tools</button>
             <div class="accordion-content">
-                <h4>Add New Text</h4>
-                <label for="textInput">Content:</label><input type="text" id="textInput" placeholder="Hello!">
-                <button id="addTextBtn">Add Text</button>
-                <h4>Selected Text Properties</h4>
-                <label for="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
-                <label for="fontSize">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
-                <label for="fontFamily">Font:</label>
+                <h4 data-translate="pattern.worksheet.text.add.new">Add New Text</h4>
+                <label for="textInput" data-translate="pattern.worksheet.text.content">Content:</label><input type="text" id="textInput" data-translate-placeholder="pattern.worksheet.text.placeholder" placeholder="Hello!">
+                <button id="addTextBtn" data-translate="pattern.worksheet.text.add.button">Add Text</button>
+                <h4 data-translate="pattern.worksheet.text.properties">Selected Text Properties</h4>
+                <label for="textColor" data-translate="pattern.worksheet.text.color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                <label for="fontSize" data-translate="pattern.worksheet.text.size">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+                <label for="fontFamily" data-translate="pattern.worksheet.text.font">Font:</label>
                 <select id="fontFamily" disabled>
-                    <option value="Lexend Deca">Lexend Deca</option>
-                    <option value="Baloo 2">Baloo 2</option>
-                    <option value="Nunito">Nunito</option>
-                    <option value="Quicksand">Quicksand</option>
-                    <option value="Fredoka">Fredoka</option>
-                    <option value="Arial">Arial</option>
-                    <option value="Verdana">Verdana</option>
+                    <option value="Lexend Deca" data-translate="font.lexend">Lexend Deca</option>
+                    <option value="Baloo 2" data-translate="font.baloo">Baloo 2</option>
+                    <option value="Nunito" data-translate="font.nunito">Nunito</option>
+                    <option value="Quicksand" data-translate="font.quicksand">Quicksand</option>
+                    <option value="Fredoka" data-translate="font.fredoka">Fredoka</option>
+                    <option value="Arial" data-translate="font.arial">Arial</option>
+                    <option value="Verdana" data-translate="font.verdana">Verdana</option>
                 </select>
-                <label for="textStrokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
-                <label for="textStrokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+                <label for="textStrokeColor" data-translate="pattern.worksheet.text.outline.color">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                <label for="textStrokeWidth" data-translate="pattern.worksheet.text.outline.width">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
             </div>
         </div>
         
         <div class="accordion-item">
-            <button class="accordion-button">Pattern Settings</button>
+            <button class="accordion-button" data-translate="pattern.worksheet.settings">Pattern Settings</button>
             <div class="accordion-content">
-                <h4>Global Settings</h4>
-                <label for="exerciseCount">Number of Exercises (1-8):</label>
+                <h4 data-translate="pattern.worksheet.global.settings">Global Settings</h4>
+                <label for="exerciseCount" data-translate="pattern.worksheet.exercises.count">Number of Exercises (1-8):</label>
                 <input type="number" id="exerciseCount" value="3" min="1" max="8">
-                <label for="worksheetThemeSelect">Overall Worksheet Theme:</label>
+                <label for="worksheetThemeSelect" data-translate="pattern.worksheet.overall.theme">Overall Worksheet Theme:</label>
                 <select id="worksheetThemeSelect">
-                    <option value="none">None (Use individual settings)</option>
+                    <option value="none" data-translate="pattern.worksheet.theme.none">None (Use individual settings)</option>
                 </select>
                 <label class="checkbox-label">
-                    <input type="checkbox" id="useWorksheetThemeCheckbox"> Use Overall Worksheet Theme
+                    <input type="checkbox" id="useWorksheetThemeCheckbox"><span data-translate="pattern.worksheet.use.overall"> Use Overall Worksheet Theme</span>
                 </label>
                 <label class="checkbox-label" id="includeNumbersLabel">
-                    <input type="checkbox" id="includeNumbersCheckbox" checked> Include Puzzle Numbers
+                    <input type="checkbox" id="includeNumbersCheckbox" checked><span data-translate="pattern.worksheet.include.numbers"> Include Puzzle Numbers</span>
                 </label>
                 <label class="checkbox-label">
-                    <input type="checkbox" id="randomStartCheckbox"> Start from random element
+                    <input type="checkbox" id="randomStartCheckbox"><span data-translate="pattern.worksheet.random.start"> Start from random element</span>
                 </label>
                 
                 <div id="individualPuzzleConfigContainer">
-                    <h4>Individual Puzzle Settings</h4>
-                    <label for="configurePuzzleSelect">Configure Puzzle:</label>
+                    <h4 data-translate="pattern.worksheet.individual.settings">Individual Puzzle Settings</h4>
+                    <label for="configurePuzzleSelect" data-translate="pattern.worksheet.configure.puzzle">Configure Puzzle:</label>
                     <select id="configurePuzzleSelect">
                       </select>
-                    <label for="patternSelect">Pattern Type:</label>
+                    <label for="patternSelect" data-translate="pattern.worksheet.pattern.type">Pattern Type:</label>
                     <select id="patternSelect">
-                      <option value="AB">AB (2 images)</option>
-                      <option value="AAB">AAB (2 images)</option>
-                      <option value="ABB">ABB (2 images)</option>
-                      <option value="ABC">ABC (3 images)</option>
-                      <option value="AABB">AABB (2 images)</option>
-                      <option value="ABBC">ABBC (3 images)</option>
-                      <option value="AABC">AABC (3 images)</option>
-                      <option value="ABCC">ABCC (3 images)</option>
-                      <option value="ABCD">ABCD (4 images)</option>
+                      <option value="AB" data-translate="pattern.worksheet.pattern.ab">AB (2 images)</option>
+                      <option value="AAB" data-translate="pattern.worksheet.pattern.aab">AAB (2 images)</option>
+                      <option value="ABB" data-translate="pattern.worksheet.pattern.abb">ABB (2 images)</option>
+                      <option value="ABC" data-translate="pattern.worksheet.pattern.abc">ABC (3 images)</option>
+                      <option value="AABB" data-translate="pattern.worksheet.pattern.aabb">AABB (2 images)</option>
+                      <option value="ABBC" data-translate="pattern.worksheet.pattern.abbc">ABBC (3 images)</option>
+                      <option value="AABC" data-translate="pattern.worksheet.pattern.aabc">AABC (3 images)</option>
+                      <option value="ABCC" data-translate="pattern.worksheet.pattern.abcc">ABCC (3 images)</option>
+                      <option value="ABCD" data-translate="pattern.worksheet.pattern.abcd">ABCD (4 images)</option>
                     </select>
-                    <label for="questionTypeSelect">Question Type:</label>
+                    <label for="questionTypeSelect" data-translate="pattern.worksheet.question.type">Question Type:</label>
                     <select id="questionTypeSelect">
-                      <option value="blank">Blank Box</option>
-                      <option value="options">Choose from Options</option>
+                      <option value="blank" data-translate="pattern.worksheet.blank.box">Blank Box</option>
+                      <option value="options" data-translate="pattern.worksheet.choose.options">Choose from Options</option>
                     </select>
                     <label class="checkbox-label" id="randomBlankLabel">
-                        <input type="checkbox" id="randomBlankCheckbox"> Random blank box position
+                        <input type="checkbox" id="randomBlankCheckbox"><span data-translate="pattern.worksheet.random.blank"> Random blank box position</span>
                     </label>
-                    <h4>Images for Selected Puzzle</h4>
-                    <label for="themeSelect">Image Theme:</label>
+                    <h4 data-translate="pattern.worksheet.images.selected">Images for Selected Puzzle</h4>
+                    <label for="themeSelect" data-translate="pattern.worksheet.image.theme">Image Theme:</label>
                     <select id="themeSelect"></select>
-                    <label>Assigned Images:</label>
+                    <label data-translate="pattern.worksheet.assigned.images">Assigned Images:</label>
                     <div id="assignedImages"></div>
                 </div>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Image Library</button>
+            <button class="accordion-button" data-translate="pattern.worksheet.image.library">Image Library</button>
             <div class="accordion-content">
-                <label for="searchInput">Search Images:</label>
-                <input type="text" id="searchInput" placeholder="e.g., apple, car" />
-                <label>Available Images (Click to assign):</label>
-                <div id="dictionary"><p class='dictionary-message'>Select a theme to see images.</p></div>
+                <label for="searchInput" data-translate="pattern.worksheet.search.images">Search Images:</label>
+                <input type="text" id="searchInput" data-translate-placeholder="pattern.worksheet.search.placeholder" placeholder="e.g., apple, car" />
+                <label data-translate="pattern.worksheet.available.images">Available Images (Click to assign):</label>
+                <div id="dictionary"><p class='dictionary-message' data-translate="pattern.worksheet.select.theme">Select a theme to see images.</p></div>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Upload Custom Images</button>
+            <button class="accordion-button" data-translate="pattern.worksheet.upload.custom">Upload Custom Images</button>
             <div class="accordion-content">
-                <label for="imageUploadInput">Select image(s) to upload:</label>
+                <label for="imageUploadInput" data-translate="pattern.worksheet.upload.select">Select image(s) to upload:</label>
                 <input type="file" id="imageUploadInput" multiple accept="image/*">
-                <label style="margin-top:10px;">Your Uploaded Images:</label>
+                <label style="margin-top:10px;" data-translate="pattern.worksheet.uploaded.images">Your Uploaded Images:</label>
                 <div id="uploadedImagesPreview">
-                    <p class="dictionary-message">Your uploaded images will appear here.</p>
+                    <p class="dictionary-message" data-translate="pattern.worksheet.uploaded.placeholder">Your uploaded images will appear here.</p>
                 </div>
             </div>
         </div>
@@ -589,30 +590,30 @@
 
       <div class="top-right-actions">
           <div class="dropdown-container">
-            <button id="generateDropdownBtn" class="action-button accent">Generate <i class="fas fa-caret-down"></i></button>
+            <button id="generateDropdownBtn" class="action-button accent"><span data-translate="pattern.worksheet.generate">Generate</span> <i class="fas fa-caret-down"></i></button>
             <div id="generateDropdownContent" class="dropdown-content">
-                <button id="generateWorksheetBtn">Generate Worksheet</button>
-                <button id="generateAnswerKeyBtn" disabled>Generate Answer Key</button>
+                <button id="generateWorksheetBtn" data-translate="pattern.worksheet.generate.worksheet">Generate Worksheet</button>
+                <button id="generateAnswerKeyBtn" data-translate="pattern.worksheet.generate.answer" disabled>Generate Answer Key</button>
             </div>
           </div>
         <div class="dropdown-container">
-            <button id="downloadDropdownBtn" class="action-button secondary" disabled>Download <i class="fas fa-caret-down"></i></button>
+            <button id="downloadDropdownBtn" class="action-button secondary" disabled><span data-translate="pattern.worksheet.download">Download</span> <i class="fas fa-caret-down"></i></button>
             <div id="downloadDropdownContent" class="dropdown-content">
-                <button id="downloadWsJpegBtn">Worksheet (JPEG)</button>
-                <button id="downloadAkJpegBtn" disabled>Answer Key (JPEG)</button>
-                <button id="downloadWsPdfBtn">Worksheet (PDF)</button>
-                <button id="downloadAkPdfBtn" disabled>Answer Key (PDF)</button>
+                <button id="downloadWsJpegBtn" data-translate="pattern.worksheet.download.worksheet.jpeg">Worksheet (JPEG)</button>
+                <button id="downloadAkJpegBtn" data-translate="pattern.worksheet.download.answer.jpeg" disabled>Answer Key (JPEG)</button>
+                <button id="downloadWsPdfBtn" data-translate="pattern.worksheet.download.worksheet.pdf">Worksheet (PDF)</button>
+                <button id="downloadAkPdfBtn" data-translate="pattern.worksheet.download.answer.pdf" disabled>Answer Key (PDF)</button>
                 <label class="checkbox-label">
-                    <input type="checkbox" id="grayscaleToggle" />Grayscale
+                    <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
                 </label>
             </div>
         </div>
-        <button id="clearBtn" class="action-button danger">Clear All</button>
+        <button id="clearBtn" class="action-button danger" data-translate="pattern.worksheet.clear.all">Clear All</button>
       </div>
 
       <div class="tab-row">
-        <button class="tab-button active" data-tab="worksheetTab">Worksheet</button>
-        <button class="tab-button" data-tab="answerKeyTab">Answer Key</button>
+        <button class="tab-button active" data-tab="worksheetTab" data-translate="pattern.worksheet.tab.worksheet">Worksheet</button>
+        <button class="tab-button" data-tab="answerKeyTab" data-translate="pattern.worksheet.tab.answer">Answer Key</button>
       </div>
       <div class="tab-content-wrapper">
         <div class="tab active" id="worksheetTab">
@@ -642,7 +643,31 @@
     }
     // Set globally for all enhancement scripts
     window.currentLocale = currentLocale;
-    
+
+    // Translation functions
+    function t(key) {
+      if (typeof translations === 'undefined') {
+        console.warn('Translations not loaded, returning key:', key);
+        return key;
+      }
+      const locale = window.currentLocale || 'en';
+      return translations[locale]?.[key] || translations.en?.[key] || key;
+    }
+    window.t = t;
+
+    function applyTranslations() {
+      const locale = window.currentLocale || 'en';
+      document.querySelectorAll('[data-translate]').forEach(el => {
+        const key = el.getAttribute('data-translate');
+        el.textContent = t(key);
+      });
+      document.querySelectorAll('[data-translate-placeholder]').forEach(el => {
+        const key = el.getAttribute('data-translate-placeholder');
+        el.placeholder = t(key);
+      });
+    }
+    window.applyTranslations = applyTranslations;
+
     document.addEventListener("DOMContentLoaded", function() {
         // --- CACHED DOM ELEMENTS ---
         const ui = {
@@ -1137,11 +1162,11 @@
             updateCanvasDisplayDimensions(612, 792);
 
             ui.borderThemeSelect.value = "none";
-            ui.borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme.</p>';
+            ui.borderDictionary.innerHTML = `<p class="dictionary-message">${t('pattern.worksheet.border.message')}</p>`;
             ui.borderOpacitySlider.value = 1;
             ui.borderOpacitySlider.disabled = true;
             ui.backgroundThemeSelect.value = "none";
-            ui.backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme.</p>';
+            ui.backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('pattern.worksheet.background.message')}</p>`;
             ui.backgroundOpacitySlider.value = 1;
             ui.backgroundOpacitySlider.disabled = true;
 
@@ -1154,8 +1179,8 @@
             ui.downloadAkJpegBtn.disabled = true;
             ui.downloadAkPdfBtn.disabled = true;
 
-            
-            showMessage("All settings cleared.", "success", 2000);
+
+            showMessage(t('pattern.worksheet.msg.cleared'), "success", 2000);
         }
 
         async function loadDictionaryImages(resetSearch = true) {
@@ -1168,25 +1193,25 @@
             const query = ui.searchInput.value.trim().toLowerCase();
             
             let imagesToRender = [];
-            ui.dictionary.innerHTML = `<p class="dictionary-message">Loading images...</p>`;
+            ui.dictionary.innerHTML = `<p class="dictionary-message">${t('pattern.worksheet.msg.loading')}</p>`;
 
             try {
                 if (selectedTheme === 'all') {
                     if (!query) {
                         // Load animals theme by default when "All Themes" is selected with no search
                         const res = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
-                        if (!res.ok) throw new Error(`Failed to load default theme`);
+                        if (!res.ok) throw new Error(t('pattern.worksheet.msg.error.loading'));
                         const data = await res.json();
                     imagesToRender = data.images || data; // Handle both old and new API formats
                     } else {
                         const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
-                        if (!res.ok) throw new Error(`Failed to search for "${query}"`);
+                        if (!res.ok) throw new Error(t('pattern.worksheet.msg.error.loading'));
                         const data = await res.json();
                     imagesToRender = data.images || data; // Handle both old and new API formats
                     }
                 } else {
                     const res = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
-                    if (!res.ok) throw new Error(`Failed to load images for theme`);
+                    if (!res.ok) throw new Error(t('pattern.worksheet.msg.error.loading'));
                     const data = await res.json();
                 const themeImages = data.images || data; // Handle both old and new API formats
                     allImagesData.themes[selectedTheme] = themeImages;
@@ -1195,7 +1220,7 @@
                 renderDictionaryFromData(imagesToRender, query);
             } catch (err) {
                 console.error("Error loading dictionary:", err);
-                ui.dictionary.innerHTML = `<p class='dictionary-message'>Error loading images.</p>`;
+                ui.dictionary.innerHTML = `<p class='dictionary-message'>${t('pattern.worksheet.msg.loading.error')}</p>`;
                 showMessage(err.message, 'error');
             }
         }
@@ -1203,7 +1228,8 @@
         function renderDictionaryFromData(images, query) {
             ui.dictionary.innerHTML = "";
             if (images.length === 0) {
-                ui.dictionary.innerHTML = `<p class="dictionary-message">No images found${query ? ` matching "${query}"` : ''}.</p>`;
+                const queryText = query ? ` matching "${query}"` : '';
+                ui.dictionary.innerHTML = `<p class="dictionary-message">${t('pattern.worksheet.msg.no.images').replace('{query}', queryText)}</p>`;
                 return;
             }
 
@@ -1226,7 +1252,7 @@
             const config = puzzleConfigs[currentPuzzleSetupIndex];
             const isAlreadySelected = config.images.some(img => img && img.path === imageToAssign.path);
             if (isAlreadySelected) {
-                showMessage('This image is already assigned to this puzzle.', 'info', 2000);
+                showMessage(t('pattern.worksheet.msg.already.assigned'), 'info', 2000);
                 return;
             }
 
@@ -1236,7 +1262,7 @@
                 updateAssignedImagesPanel();
                 loadDictionaryImages(false);
             } else {
-                showMessage('All image slots for this pattern are full. Click an assigned image to remove it first.', 'error');
+                showMessage(t('pattern.worksheet.msg.slots.full'), 'error');
             }
         }
 
@@ -1262,7 +1288,7 @@
         function renderUploadedImages() {
             ui.uploadedImagesPreview.innerHTML = "";
             if (allImagesData.uploads.length === 0) {
-                ui.uploadedImagesPreview.innerHTML = `<p class="dictionary-message">Your uploaded images will appear here.</p>`;
+                ui.uploadedImagesPreview.innerHTML = `<p class="dictionary-message">${t('pattern.worksheet.uploaded.placeholder')}</p>`;
                 return;
             }
             allImagesData.uploads.forEach(img => {
@@ -1276,21 +1302,21 @@
         }
         
         async function handleGenerateWorksheet() {
-            showMessage('Building puzzle data...', 'info', 0);
+            showMessage(t('pattern.worksheet.msg.building'), 'info', 0);
             ui.generateDropdownContent.style.display = 'none';
 
             try {
                 lastGeneratedPuzzles = await buildPuzzlesData();
                 if (!lastGeneratedPuzzles || lastGeneratedPuzzles.length === 0) {
-                    showMessage("Failed to build puzzle data. Check configurations.", "error");
+                    showMessage(t('pattern.worksheet.msg.build.failed'), "error");
                     return;
                 }
-                showMessage('Rendering worksheet...', 'info', 0);
+                showMessage(t('pattern.worksheet.msg.rendering'), 'info', 0);
                 await renderWorksheetFromData(lastGeneratedPuzzles);
 
                 ui.generateAnswerKeyBtn.disabled = false;
                 ui.downloadDropdownBtn.disabled = false;
-                showMessage("Worksheet generated successfully!", "success");
+                showMessage(t('pattern.worksheet.msg.generated'), "success");
             } catch (err) {
                 console.error("Error generating worksheet:", err);
                 showMessage(err.message, "error");
@@ -1300,18 +1326,18 @@
         async function handleGenerateAnswerKey() {
             ui.generateDropdownContent.style.display = 'none';
             if (lastGeneratedPuzzles.length === 0) {
-                showMessage("Please generate a worksheet first.", "error");
+                showMessage(t('pattern.worksheet.msg.generate.first'), "error");
                 return;
             }
-            showMessage('Rendering answer key...', 'info', 0);
+            showMessage(t('pattern.worksheet.msg.rendering.answer'), 'info', 0);
 
             try {
                 await renderAnswerKeyFromData(lastGeneratedPuzzles);
                 document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
-                
+
                 ui.downloadAkJpegBtn.disabled = false;
                 ui.downloadAkPdfBtn.disabled = false;
-                showMessage("Answer key generated!", "success");
+                showMessage(t('pattern.worksheet.msg.answer.generated'), "success");
             } catch (err) {
                 console.error("Error generating answer key:", err);
                 showMessage(err.message, "error");
@@ -1330,7 +1356,7 @@
             if (useGlobalWorksheetTheme) {
                 const theme = ui.worksheetThemeSelect.value;
                 if (theme === 'none') {
-                    throw new Error("Please select an overall theme or uncheck 'Use Overall Worksheet Theme'.");
+                    throw new Error(t('pattern.worksheet.msg.select.theme.required'));
                 }
                 for (let i = 0; i < exerciseCount; i++) {
                     const randomPattern = getRandomElement(Object.keys(PATTERNS));
@@ -1361,7 +1387,7 @@
                             puzzleNumber: globalOptions.includeNumbers ? i + 1 : null 
                         });
                     } else {
-                        showMessage(`Puzzle ${i + 1} is incomplete and will be generated randomly.`, 'info', 4000);
+                        showMessage(t('pattern.worksheet.msg.incomplete.puzzle').replace('{number}', i + 1), 'info', 4000);
                         
                         const allThemes = Array.from(ui.worksheetThemeSelect.options).map(opt => opt.value).filter(v => v !== 'none');
                         const randomTheme = getRandomElement(allThemes) || 'all';
@@ -2005,11 +2031,11 @@
 
         async function downloadImageFile(canvasToExport, format = 'jpeg', filenamePrefix = 'download') {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                showMessage(`Cannot download, the selected page is empty.`, 'error');
+                showMessage(t('pattern.worksheet.msg.empty.page'), 'error');
                 return;
             }
-            showMessage(`Preparing ${format.toUpperCase()}...`, 'info', 0);
-            
+            showMessage(t('pattern.worksheet.msg.preparing').replace('{format}', format.toUpperCase()), 'info', 0);
+
             try {
                 const dataURL = await getCanvasDataURLWithOptions(canvasToExport, {
                     format: format,
@@ -2018,9 +2044,9 @@
                     applyGrayscale: ui.grayscaleToggle.checked
                 });
                 downloadDataURL(dataURL, `${filenamePrefix}.${format}`);
-                showMessage('Download initiated!', 'success', 3000);
+                showMessage(t('pattern.worksheet.msg.download.initiated'), 'success', 3000);
             } catch (err) {
-                showMessage(`Error creating file: ${err.message}`, 'error');
+                showMessage(t('pattern.worksheet.msg.file.error').replace('{message}', err.message), 'error');
             }
         }
         
@@ -2094,35 +2120,35 @@
     if (originalDownloadPDF) {
         window.downloadPDF = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate content first.', 'error');
+                return showMessage(t('pattern.worksheet.msg.generate.content.first'), 'error');
             }
-            showMessage('Preparing PDF...', 'info', 0);
-            
+            showMessage(t('pattern.worksheet.msg.preparing.pdf'), 'info', 0);
+
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
-            
+
             try {
                 const { jsPDF } = window.jspdf;
                 const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
-                const pdf = new jsPDF({ 
-                    orientation, 
-                    unit: 'pt', 
-                    format: [canvasToExport.width, canvasToExport.height] 
+                const pdf = new jsPDF({
+                    orientation,
+                    unit: 'pt',
+                    format: [canvasToExport.width, canvasToExport.height]
                 });
 
-                const exportOptions = { 
-                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
-                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
+                const exportOptions = {
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6,
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked
                 };
-                
+
                 const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
                 pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
-                
+
                 pdf.save(fileName);
-                showMessage('PDF downloaded!', 'success');
-            } catch(e) { 
-                showMessage('Error creating PDF.', 'error'); 
-                console.error(e); 
+                showMessage(t('pattern.worksheet.msg.pdf.downloaded'), 'success');
+            } catch(e) {
+                showMessage(t('pattern.worksheet.msg.pdf.error'), 'error');
+                console.error(e);
             } finally {
                 // Remove watermark after export
                 removeWatermarkFromCanvas(canvasToExport, watermarkData);
@@ -2135,9 +2161,9 @@
     if (originalDownloadJPEG) {
         window.downloadJPEG = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate a worksheet first.', 'error');
+                return showMessage(t('pattern.worksheet.msg.generate.worksheet.first'), 'error');
             }
-            showMessage('Preparing JPEG...', 'info', 0);
+            showMessage(t('pattern.worksheet.msg.preparing.jpeg'), 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -2153,9 +2179,9 @@
                 link.href = dataURL;
                 link.download = fileName;
                 link.click();
-                showMessage('JPEG download initiated!', 'success');
-            } catch(e) { 
-                showMessage('Error preparing JPEG.', 'error'); 
+                showMessage(t('pattern.worksheet.msg.jpeg.initiated'), 'success');
+            } catch(e) {
+                showMessage(t('pattern.worksheet.msg.jpeg.error'), 'error');
                 console.error(e); 
             } finally {
                 // Remove watermark after export
@@ -2166,32 +2192,32 @@
 
 async function downloadPDF(canvasToExport, filename = 'download.pdf') {
              if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                showMessage(`Cannot download, the selected page is empty.`, 'error');
+                showMessage(t('pattern.worksheet.msg.empty.page'), 'error');
                 return;
             }
-            showMessage('Preparing PDF...', 'info', 0);
+            showMessage(t('pattern.worksheet.msg.preparing.pdf'), 'info', 0);
 
             try {
                 const { jsPDF } = window.jspdf;
                 const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'landscape' : 'portrait';
-                const pdf = new jsPDF({ 
-                    orientation: orientation, 
-                    unit: 'pt', 
-                    format: [currentCanvasConfig.width, currentCanvasConfig.height] 
+                const pdf = new jsPDF({
+                    orientation: orientation,
+                    unit: 'pt',
+                    format: [currentCanvasConfig.width, currentCanvasConfig.height]
                 });
-                
+
                 const imgData = await getCanvasDataURLWithOptions(canvasToExport, {
                     format: 'jpeg',
                     quality: 1.0,
                     multiplier: downloadMultiplier,
                     applyGrayscale: ui.grayscaleToggle.checked
                 });
-                
+
                 pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
                 pdf.save(filename);
-                showMessage('PDF Downloaded!', 'success', 3000);
+                showMessage(t('pattern.worksheet.msg.pdf.downloaded.alt'), 'success', 3000);
             } catch (err) {
-                showMessage(`Error creating PDF: ${err.message}`, "error");
+                showMessage(t('pattern.worksheet.msg.pdf.error.detailed').replace('{message}', err.message), "error");
             }
         }
         
@@ -2353,7 +2379,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
                 opacitySlider.disabled = true;
                 return;
             }
-            dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading...</p>`;
+            dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('pattern.worksheet.msg.loading.simple')}</p>`;
             try {
                 const res = await fetch(`/api/${type}s/images?theme=${theme}&locale=${currentLocale}`);
                 if (!res.ok) throw new Error(`Failed to load ${type} images.`);
@@ -2374,7 +2400,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
                 });
             } catch (err) {
                 console.error(`Error loading ${type} images:`, err);
-                dictionaryDiv.innerHTML = `<p class="dictionary-message">Error loading.</p>`;
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('pattern.worksheet.msg.error.loading')}</p>`;
             }
         }
         function addBorderToCanvas(path) {
@@ -2392,7 +2418,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             if (existingAsset) activeCanvas.remove(existingAsset);
 
             fabric.Image.fromURL(path, (img) => {
-                if (!img) { showMessage(`Failed to load asset image.`, 'error'); return; }
+                if (!img) { showMessage(t('pattern.worksheet.msg.asset.failed'), 'error'); return; }
 
                 const commonConfig = {
                     left: currentCanvasConfig.width / 2, top: currentCanvasConfig.height / 2,

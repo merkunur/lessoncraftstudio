@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pattern Train Worksheet App</title>
-  <script src="js/translations-pattern-train.js?v=1"></script>
+  <script src="js/translations-pattern-train.js?v=2">
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
@@ -694,7 +694,7 @@
                     <option value="fi" data-translate="language.finnish">Suomi</option>
                 </select>
                 
-                <label for="pageSizeSelect" data-translate="pattern.train.paper.size.label">Paper Size:</label>
+                <label for="pageSizeSelect" data-translate="pattern.train.page.size">Paper Size:</label>
                 <select id="pageSizeSelect">
                     <option value="612x792" data-translate="paper.size.letter.portrait">Letter Portrait (8.5×11")</option>
                     <option value="792x612" data-translate="paper.size.letter.landscape">Letter Landscape (11×8.5")</option>
@@ -704,15 +704,15 @@
                     <option value="custom" data-translate="paper.size.custom">Custom</option>
                 </select>
                 <div id="customPageSizeInputs" style="display:none; margin-top: 8px;">
-                    <label for="pageWidth" data-translate="pattern.train.width.px">Width (px):</label>
+                    <label for="pageWidth" data-translate="pattern.train.width.label">Width (px):</label>
                     <input type="number" id="pageWidth" value="792">
-                    <label for="pageHeight" data-translate="pattern.train.height.px">Height (px):</label>
+                    <label for="pageHeight" data-translate="pattern.train.height.label">Height (px):</label>
                     <input type="number" id="pageHeight" value="612">
                 </div>
                 <button id="setPageSizeBtn" style="margin-top: 8px;" data-translate="pattern.train.apply.size">Apply Size</button>
 
-                <h4 data-translate="pattern.train.template">Template</h4>
-                <label for="templateSelect" data-translate="pattern.train.train.template">Train Template:</label>
+                <h4 data-translate="pattern.train.template.title">Template</h4>
+                <label for="templateSelect" data-translate="pattern.train.template.label">Train Template:</label>
                 <select id="templateSelect">
                     <option value="/images/background/train.png" data-translate="pattern.train.default.train">Default Train</option>
                 </select>
@@ -720,26 +720,26 @@
                 <label for="pageColor" data-translate="pattern.train.page.color">Page Color:</label>
                 <input type="color" id="pageColor" value="#FFFFFF">
 
-                <h4 data-translate="pattern.train.background">Background</h4>
+                <h4 data-translate="pattern.train.background.title">Background</h4>
                 <label for="backgroundThemeSelect" data-translate="pattern.train.background.theme">Background Theme:</label>
                 <select id="backgroundThemeSelect">
-                    <option value="none" data-translate="pattern.train.none">None</option>
+                    <option value="none" data-translate="common.none">None</option>
                 </select>
                 <label for="backgroundOpacity" data-translate="pattern.train.background.opacity">Background Opacity:</label>
                 <input type="range" id="backgroundOpacity" min="0" max="1" value="1" step="0.05">
                 <div id="backgroundDictionary">
-                    <p class="dictionary-message" data-translate="pattern.train.select.theme.backgrounds">Select a theme for backgrounds.</p>
+                    <p class="dictionary-message" data-translate="pattern.train.background.message">Select a theme for backgrounds.</p>
                 </div>
 
-                <h4 data-translate="pattern.train.border">Border</h4>
+                <h4 data-translate="pattern.train.border.title">Border</h4>
                 <label for="borderThemeSelect" data-translate="pattern.train.border.theme">Border Theme:</label>
                 <select id="borderThemeSelect">
-                    <option value="none" data-translate="pattern.train.none">None</option>
+                    <option value="none" data-translate="common.none">None</option>
                 </select>
                 <label for="borderOpacity" data-translate="pattern.train.border.opacity">Border Opacity:</label>
                 <input type="range" id="borderOpacity" min="0" max="1" value="1" step="0.05">
                 <div id="borderDictionary">
-                    <p class="dictionary-message" data-translate="pattern.train.select.theme.borders">Select a theme to see borders.</p>
+                    <p class="dictionary-message" data-translate="pattern.train.border.message">Select a theme to see borders.</p>
                 </div>
             </div>
         </div>
@@ -747,13 +747,13 @@
         <div class="accordion-item">
             <button class="accordion-button" data-translate="pattern.train.text.tools">Text Tools</button>
             <div class="accordion-content">
-                <h4 data-translate="pattern.train.add.new.text">Add New Text</h4>
-                <label for="textInput" data-translate="pattern.train.content">Content:</label><input type="text" id="textInput" data-translate-placeholder="pattern.train.worksheet.title.placeholder">
-                <button id="addTextBtn" data-translate="pattern.train.add.text.worksheet">Add Text to Worksheet</button>
-                <h4 data-translate="pattern.train.selected.text.properties">Selected Text Properties</h4>
-                <label for="textColor" data-translate="pattern.train.color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
-                <label for="fontSize" data-translate="pattern.train.size">Size:</label><input type="number" id="fontSize" value="36" min="8" disabled>
-                <label for="fontFamily" data-translate="pattern.train.font">Font:</label>
+                <h4 data-translate="pattern.train.text.add.new">Add New Text</h4>
+                <label for="textInput" data-translate="pattern.train.text.content">Content:</label><input type="text" id="textInput" data-translate-placeholder="pattern.train.text.placeholder">
+                <button id="addTextBtn" data-translate="pattern.train.text.add.button">Add Text to Worksheet</button>
+                <h4 data-translate="pattern.train.text.properties">Selected Text Properties</h4>
+                <label for="textColor" data-translate="pattern.train.text.color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                <label for="fontSize" data-translate="pattern.train.text.size">Size:</label><input type="number" id="fontSize" value="36" min="8" disabled>
+                <label for="fontFamily" data-translate="pattern.train.text.font">Font:</label>
                 <select id="fontFamily" disabled>
                     <option value="Lexend Deca" data-translate="font.lexend.deca">Lexend Deca</option>
                     <option value="Baloo 2" data-translate="font.baloo.2">Baloo 2</option>
@@ -763,15 +763,15 @@
                     <option value="Arial" data-translate="font.arial">Arial</option>
                     <option value="Verdana" data-translate="font.verdana">Verdana</option>
                 </select>
-                <label for="textStrokeColor" data-translate="pattern.train.outline.color">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
-                <label for="textStrokeWidth" data-translate="pattern.train.outline.0.10">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+                <label for="textStrokeColor" data-translate="pattern.train.text.stroke.color">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                <label for="textStrokeWidth" data-translate="pattern.train.text.stroke.width">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
             </div>
         </div>
 
         <div class="accordion-item">
             <button class="accordion-button" data-translate="pattern.train.pattern.configuration">Pattern Configuration</button>
             <div class="accordion-content">
-                <label for="patternSelect" data-translate="pattern.train.select.pattern.type">Select a pattern type:</label>
+                <label for="patternSelect" data-translate="pattern.train.pattern.label">Select a pattern type:</label>
                 <select id="patternSelect">
                   <option value="AB" data-translate="pattern.train.pattern.ab">AB</option>
                   <option value="AAB" data-translate="pattern.train.pattern.aab">AAB</option>
@@ -780,12 +780,12 @@
                   <option value="AABB" data-translate="pattern.train.pattern.aabb">AABB</option>
                 </select>
 
-                <label for="worksheetThemeSelect" style="margin-top:15px;" data-translate="pattern.train.or.select.theme">OR Select theme for auto-picking (Optional):</label>
+                <label for="worksheetThemeSelect" style="margin-top:15px;" data-translate="pattern.train.use.theme">OR Select theme for auto-picking (Optional):</label>
                 <select id="worksheetThemeSelect">
-                    <option value="none" data-translate="pattern.train.manual.image.selection">-- Manual Image Selection --</option>
+                    <option value="none" data-translate="pattern.train.manual.selection">-- Manual Image Selection --</option>
                 </select>
 
-                <label for="clueCount" style="margin-top:15px;" data-translate="pattern.train.number.clues">Number of Clues (4-10):</label>
+                <label for="clueCount" style="margin-top:15px;" data-translate="pattern.train.clues.count">Number of Clues (4-10):</label>
                 <input type="number" id="clueCount" value="4" min="4" max="10" />
 
                 <label for="includeNameDateCheckbox" class="checkbox-label" style="margin-top: 15px;">
@@ -798,22 +798,22 @@
             <button class="accordion-button" data-translate="pattern.train.image.selection">Image Selection</button>
             <div class="accordion-content">
                 <div class="dictionary-section panel-section" style="border-bottom:none; padding:0;">
-                  <label for="themeSelect" data-translate="pattern.train.image.theme">Image Theme (for dictionary):</label>
+                  <label for="themeSelect" data-translate="pattern.train.theme.label">Image Theme (for dictionary):</label>
                   <select id="themeSelect"></select>
-                  <input type="text" id="searchInput" data-translate-placeholder="pattern.train.search.images.placeholder" />
-                  <div class="dictionary" id="dictionary"><p class="dictionary-message" data-translate="pattern.train.loading.themes">Loading themes...</p></div>
+                  <input type="text" id="searchInput" data-translate-placeholder="pattern.train.search.placeholder" />
+                  <div class="dictionary" id="dictionary"><p class="dictionary-message" data-translate="pattern.train.msg.loading.library">Loading themes...</p></div>
                 </div>
                 <div id="dictionaryPreview"></div>
 
-                <label for="imageUploadInput" style="margin-top:10px;" data-translate="pattern.train.select.images.upload">Select image(s) to upload:</label>
+                <label for="imageUploadInput" style="margin-top:10px;" data-translate="pattern.train.upload.select">Select image(s) to upload:</label>
                 <input type="file" id="imageUploadInput" multiple accept="image/*">
-                <label style="margin-top:10px;" data-translate="pattern.train.uploaded.images.session">Your Uploaded Images (This Session):</label>
+                <label style="margin-top:10px;" data-translate="pattern.train.uploaded.images">Your Uploaded Images (This Session):</label>
                 <div id="uploadedImagesPreview">
-                    <p class="dictionary-message" data-translate="pattern.train.uploaded.images.appear">Your uploaded images will appear here.</p>
+                    <p class="dictionary-message" data-translate="pattern.train.uploaded.placeholder">Your uploaded images will appear here.</p>
                 </div>
 
                 <div class="assigned-section panel-section" style="border-bottom:none; padding:0; margin-top:15px;">
-                    <h4 data-translate="pattern.train.your.selected.images">Your Selected Images</h4>
+                    <h4 data-translate="pattern.train.assigned.images">Your Selected Images</h4>
                     <div class="assigned-images" id="assignedImages"></div>
                 </div>
             </div>
@@ -833,8 +833,8 @@
                 <div class="toolbar-item">
                     <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
                     <div class="dropdown-content" id="layersDropdown">
-                        <button id="toolbarBringForwardBtn" data-translate="pattern.train.bring.forward">Bring Forward</button>
-                        <button id="toolbarSendBackwardBtn" data-translate="pattern.train.send.backward">Send Backward</button>
+                        <button id="toolbarBringForwardBtn" data-translate="toolbar.bring.forward">Bring Forward</button>
+                        <button id="toolbarSendBackwardBtn" data-translate="toolbar.send.backward">Send Backward</button>
                     </div>
                 </div>
             </div>
@@ -842,7 +842,7 @@
                 <div class="toolbar-item">
                     <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
                     <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
-                        <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="pattern.train.align.selected">Align Selected:</p>
+                        <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.selected">Align Selected:</p>
                         <div>
                             <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
                             <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
@@ -854,7 +854,7 @@
                             <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
                         </div>
                         <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
-                        <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="pattern.train.align.to.page">Align to Page:</p>
+                        <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.to.page">Align to Page:</p>
                         <div>
                             <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
                             <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
@@ -871,12 +871,12 @@
             <div class="dropdown-container">
                 <button id="downloadDropdownBtn" class="action-button secondary" disabled data-translate="pattern.train.download">Download <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
                 <div id="downloadDropdownContent" class="dropdown-content">
-                    <button id="downloadWsJpegBtn" disabled data-translate="pattern.train.worksheet.jpeg">Worksheet (JPEG)</button>
-                    <button id="downloadAkJpegBtn" disabled data-translate="pattern.train.answer.key.jpeg">Answer Key (JPEG)</button>
-                    <button id="downloadWsPdfBtn" disabled data-translate="pattern.train.worksheet.pdf">Worksheet (PDF)</button>
-                    <button id="downloadAkPdfBtn" disabled data-translate="pattern.train.answer.key.pdf">Answer Key (PDF)</button>
+                    <button id="downloadWsJpegBtn" disabled data-translate="pattern.train.download.worksheet.jpeg">Worksheet (JPEG)</button>
+                    <button id="downloadAkJpegBtn" disabled data-translate="pattern.train.download.answer.jpeg">Answer Key (JPEG)</button>
+                    <button id="downloadWsPdfBtn" disabled data-translate="pattern.train.download.worksheet.pdf">Worksheet (PDF)</button>
+                    <button id="downloadAkPdfBtn" disabled data-translate="pattern.train.download.answer.pdf">Answer Key (PDF)</button>
                     <label class="checkbox-label">
-                        <input type="checkbox" id="grayscaleToggle" /><span data-translate="pattern.train.grayscale">Grayscale</span>
+                        <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
                     </label>
                 </div>
             </div>
@@ -884,8 +884,8 @@
         </div>
 
         <div class="tab-row">
-            <button class="tab-button active" data-tab="worksheetTab" data-translate="pattern.train.worksheet.canvas">Worksheet (Canvas)</button>
-            <button class="tab-button" data-tab="answerKeyTab" data-translate="pattern.train.answer.key.canvas">Answer Key (Canvas)</button>
+            <button class="tab-button active" data-tab="worksheetTab" data-translate="pattern.train.tab.worksheet">Worksheet (Canvas)</button>
+            <button class="tab-button" data-tab="answerKeyTab" data-translate="pattern.train.tab.answer">Answer Key (Canvas)</button>
         </div>
         <div class="tab-content-wrapper">
             <div class="tab active" id="worksheetTab">

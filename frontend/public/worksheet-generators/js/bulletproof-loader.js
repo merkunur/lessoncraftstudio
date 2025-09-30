@@ -170,11 +170,11 @@ class BulletproofLoader {
         // Get translated "None" text
         let noneText = 'None';
         if (typeof window.getTranslation === 'function') {
-            noneText = window.getTranslation('common.none', this.state.locale);
+            noneText = window.getTranslation('decoration.none', this.state.locale);
         } else if (typeof window.translations !== 'undefined' && window.translations[this.state.locale]) {
-            noneText = window.translations[this.state.locale]['common.none'] || 'None';
+            noneText = window.translations[this.state.locale]['decoration.none'] || 'None';
         }
-        this.borderSelect.innerHTML = `<option value="none" data-translate="common.none">${noneText}</option>`;
+        this.borderSelect.innerHTML = `<option value="none" data-translate="decoration.none">${noneText}</option>`;
 
         try {
             // Fetch without aggressive timeout - let the API complete
@@ -232,11 +232,11 @@ class BulletproofLoader {
         // Get translated "None" text
         let noneText = 'None';
         if (typeof window.getTranslation === 'function') {
-            noneText = window.getTranslation('common.none', this.state.locale);
+            noneText = window.getTranslation('decoration.none', this.state.locale);
         } else if (typeof window.translations !== 'undefined' && window.translations[this.state.locale]) {
-            noneText = window.translations[this.state.locale]['common.none'] || 'None';
+            noneText = window.translations[this.state.locale]['decoration.none'] || 'None';
         }
-        this.backgroundSelect.innerHTML = `<option value="none" data-translate="common.none">${noneText}</option>`;
+        this.backgroundSelect.innerHTML = `<option value="none" data-translate="decoration.none">${noneText}</option>`;
 
         try {
             // Fetch without aggressive timeout - let the API complete

@@ -5,7 +5,7 @@
   <title>Missing Pieces Worksheet Generator</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="js/translations.js"></script>
+  <script src="js/translations-missing-pieces.js?v=2"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
@@ -690,37 +690,37 @@
     <div id="menuOverlay" class="menu-overlay"></div>
     <div class="panel">
       <div class="panel-header">
-        <h2>Missing Pieces</h2>
+        <h2 data-translate="missingpieces.title">Missing Pieces</h2>
         <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
       </div>
       <div class="panel-content">
         
         <!-- Language Selection (First, for consistency) -->
         <div class="accordion-item">
-            <button class="accordion-button active">Language Settings</button>
+            <button class="accordion-button active" data-translate="missingpieces.language.settings">Language Settings</button>
             <div class="accordion-content active">
-                <h4>Select Language</h4>
-                <label for="languageSelect">Language:</label>
+                <h4 data-translate="missingpieces.select.language">Select Language</h4>
+                <label for="languageSelect" data-translate="missingpieces.language.label">Language:</label>
                 <select id="languageSelect">
-                    <option value="en">English</option>
-                    <option value="de">Deutsch (German)</option>
-                    <option value="fr">Français (French)</option>
-                    <option value="es">Español (Spanish)</option>
-                    <option value="pt">Português (Portuguese)</option>
-                    <option value="it">Italiano (Italian)</option>
-                    <option value="nl">Nederlands (Dutch)</option>
-                    <option value="sv">Svenska (Swedish)</option>
-                    <option value="da">Dansk (Danish)</option>
-                    <option value="no">Norsk (Norwegian)</option>
-                    <option value="fi">Suomi (Finnish)</option>
+                    <option value="en" data-translate="language.english">English</option>
+                    <option value="de" data-translate="language.german.full">Deutsch (German)</option>
+                    <option value="fr" data-translate="language.french.full">Français (French)</option>
+                    <option value="es" data-translate="language.spanish.full">Español (Spanish)</option>
+                    <option value="pt" data-translate="language.portuguese.full">Português (Portuguese)</option>
+                    <option value="it" data-translate="language.italian.full">Italiano (Italian)</option>
+                    <option value="nl" data-translate="language.dutch.full">Nederlands (Dutch)</option>
+                    <option value="sv" data-translate="language.swedish.full">Svenska (Swedish)</option>
+                    <option value="da" data-translate="language.danish.full">Dansk (Danish)</option>
+                    <option value="no" data-translate="language.norwegian.full">Norsk (Norwegian)</option>
+                    <option value="fi" data-translate="language.finnish.full">Suomi (Finnish)</option>
                 </select>
             </div>
         </div>
         
         <div class="accordion-item">
-            <button class="accordion-button">Page Setup</button>
+            <button class="accordion-button" data-translate="missingpieces.page.setup">Page Setup</button>
             <div class="accordion-content">
-                <label for="pageSizeSelect">Page Size:</label>
+                <label for="pageSizeSelect" data-translate="missingpieces.page.size">Page Size:</label>
                 <select id="pageSizeSelect">
                     <option value="612x792">Letter Portrait (8.5×11")</option>
                     <option value="800x1000">Default Worksheet (800x1000)</option>
@@ -731,69 +731,69 @@
                     <option value="custom">Custom</option>
                 </select>
                 <div id="customPageSizeInputs" style="display:none;">
-                    <label for="pageWidth">Width (px):</label>
+                    <label for="pageWidth" data-translate="missingpieces.width.label">Width (px):</label>
                     <input type="number" id="pageWidth" value="612">
-                    <label for="pageHeight">Height (px):</label>
+                    <label for="pageHeight" data-translate="missingpieces.height.label">Height (px):</label>
                     <input type="number" id="pageHeight" value="792">
                 </div>
-                <label for="pageColor">Page Color:</label>
+                <label for="pageColor" data-translate="missingpieces.page.color">Page Color:</label>
                 <input type="color" id="pageColor" value="#FFFFFF">
-                <button id="setPageSizeBtn">Apply Size</button>
-                
-                <h4>Background</h4>
-                <label for="backgroundThemeSelect">Background Theme:</label>
+                <button id="setPageSizeBtn" data-translate="missingpieces.apply.size">Apply Size</button>
+
+                <h4 data-translate="missingpieces.background.title">Background</h4>
+                <label for="backgroundThemeSelect" data-translate="missingpieces.background.theme">Background Theme:</label>
                 <select id="backgroundThemeSelect">
-                    <option value="none">None</option>
+                    <option value="none" data-translate="common.none">None</option>
                 </select>
-                <div id="backgroundDictionary"><p class="dictionary-message">Select a theme for backgrounds.</p></div>
-                <label for="backgroundOpacitySlider">Background Opacity:</label>
+                <div id="backgroundDictionary"><p class="dictionary-message" data-translate="missingpieces.background.message">Select a theme for backgrounds.</p></div>
+                <label for="backgroundOpacitySlider" data-translate="missingpieces.background.opacity">Background Opacity:</label>
                 <input type="range" id="backgroundOpacitySlider" min="0" max="1" step="0.05" value="1" disabled>
 
-                <h4>Border</h4>
-                <label for="borderThemeSelect">Border Theme:</label>
+                <h4 data-translate="missingpieces.border.title">Border</h4>
+                <label for="borderThemeSelect" data-translate="missingpieces.border.theme">Border Theme:</label>
                 <select id="borderThemeSelect">
-                    <option value="none">None</option>
+                    <option value="none" data-translate="common.none">None</option>
                 </select>
                 <div id="borderDictionary">
-                    <p class="dictionary-message">Select a theme to see borders.</p>
+                    <p class="dictionary-message" data-translate="missingpieces.border.message">Select a theme to see borders.</p>
                 </div>
-                <label for="borderOpacitySlider">Border Opacity:</label>
+                <label for="borderOpacitySlider" data-translate="missingpieces.border.opacity">Border Opacity:</label>
                 <input type="range" id="borderOpacitySlider" min="0" max="1" step="0.05" value="1" disabled>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Text Tools</button>
+            <button class="accordion-button" data-translate="missingpieces.text.tools">Text Tools</button>
             <div class="accordion-content">
-                <h4>Add New Text</h4>
-                <label for="textInput">Content:</label><input type="text" id="textInput" placeholder="Hello!">
-                <button id="addTextBtn">Add Text</button>
-                <h4>Selected Text Properties</h4>
-                <label for="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
-                <label for="fontSize">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
-                <label for="fontFamily">Font:</label>
+                <h4 data-translate="missingpieces.text.add.new">Add New Text</h4>
+                <label for="textInput" data-translate="missingpieces.text.content">Content:</label><input type="text" id="textInput" data-translate-placeholder="missingpieces.text.placeholder" placeholder="Hello!">
+                <button id="addTextBtn" data-translate="missingpieces.text.add.button">Add Text</button>
+                <h4 data-translate="missingpieces.text.properties">Selected Text Properties</h4>
+                <label for="textColor" data-translate="missingpieces.text.color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                <label for="fontSize" data-translate="missingpieces.text.size">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+                <label for="fontFamily" data-translate="missingpieces.text.font">Font:</label>
                 <select id="fontFamily" disabled>
-                    <option value="Lexend Deca">Lexend Deca</option>
-                    <option value="Baloo 2">Baloo 2</option>
-                    <option value="Nunito">Nunito</option>
-                    <option value="Quicksand">Quicksand</option>
-                    <option value="Fredoka">Fredoka</option>
-                    <option value="Arial">Arial</option>
-                    <option value="Verdana">Verdana</option>
+                    <option value="Lexend Deca" data-translate="font.lexend">Lexend Deca</option>
+                    <option value="Baloo 2" data-translate="font.baloo">Baloo 2</option>
+                    <option value="Nunito" data-translate="font.nunito">Nunito</option>
+                    <option value="Quicksand" data-translate="font.quicksand">Quicksand</option>
+                    <option value="Fredoka" data-translate="font.fredoka">Fredoka</option>
+                    <option value="Arial" data-translate="font.arial">Arial</option>
+                    <option value="Verdana" data-translate="font.verdana">Verdana</option>
                 </select>
-                <label for="textStrokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
-                <label for="textStrokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+                <label for="textStrokeColor" data-translate="missingpieces.text.outline.color">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                <label for="textStrokeWidth" data-translate="missingpieces.text.outline.width">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Puzzle Configuration</button>
+            <button class="accordion-button" data-translate="missingpieces.puzzle.config">Puzzle Configuration</button>
             <div class="accordion-content">
-                <label for="missingCountInput">Missing Pieces (1–5):</label>
+                <label for="missingCountInput" data-translate="missingpieces.missing.count">Missing Pieces (1–5):</label>
                 <input type="number" id="missingCountInput" value="1" min="1" max="5">
-                <label for="solutionOptionsInput">Solution Options (2–6):</label>
+                <label for="solutionOptionsInput" data-translate="missingpieces.solution.options">Solution Options (2–6):</label>
                 <input type="number" id="solutionOptionsInput" value="3" min="2" max="6">
-                <label for="pieceShapeSelect">Piece Shape:</label>
+                <label for="pieceShapeSelect" data-translate="missingpieces.piece.shape">Piece Shape:</label>
                 <select id="pieceShapeSelect">
                     <option value="square">Square</option>
                     <option value="circle">Circle</option>
@@ -806,27 +806,27 @@
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Image Library</button>
+            <button class="accordion-button" data-translate="missingpieces.image.library">Image Library</button>
             <div class="accordion-content">
-                <label for="themeSelect">Select Theme:</label>
+                <label for="themeSelect" data-translate="missingpieces.select.theme">Select Theme:</label>
                 <select id="themeSelect"></select>
-                <label for="searchInput">Search Images:</label>
-                <input type="text" id="searchInput" placeholder="e.g., apple, car" />
-                <label>Available Images:</label>
-                <div id="dictionary"><p class='dictionary-message'>Loading images...</p></div>
-                <label style="margin-top:10px;">Selected Image for Puzzle:</label>
+                <label for="searchInput" data-translate="missingpieces.search.images">Search Images:</label>
+                <input type="text" id="searchInput" data-translate-placeholder="missingpieces.search.placeholder" placeholder="e.g., apple, car" />
+                <label data-translate="missingpieces.available.images">Available Images:</label>
+                <div id="dictionary"><p class='dictionary-message' data-translate="missingpieces.loading.images">Loading images...</p></div>
+                <label style="margin-top:10px;" data-translate="missingpieces.selected.image">Selected Image for Puzzle:</label>
                 <div id="selectedImagesPreview" class="selected-preview"></div>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Upload Custom Images</button>
+            <button class="accordion-button" data-translate="missingpieces.upload.custom">Upload Custom Images</button>
             <div class="accordion-content">
-                <label for="imageUploadInput">Select image(s) to upload:</label>
+                <label for="imageUploadInput" data-translate="missingpieces.upload.select">Select image(s) to upload:</label>
                 <input type="file" id="imageUploadInput" multiple accept="image/*">
-                <label style="margin-top:10px;">Your Uploaded Images (This Session):</label>
+                <label style="margin-top:10px;" data-translate="missingpieces.uploaded.images">Your Uploaded Images (This Session):</label>
                 <div id="uploadedImagesPreview">
-                    <p class="dictionary-message">Your uploaded images will appear here.</p>
+                    <p class="dictionary-message" data-translate="missingpieces.uploaded.placeholder">Your uploaded images will appear here.</p>
                 </div>
             </div>
         </div>
@@ -881,30 +881,30 @@
 
       <div class="top-right-actions">
           <div class="dropdown-container">
-            <button id="generateDropdownBtn" class="action-button accent">Generate <i class="fas fa-caret-down"></i></button>
+            <button id="generateDropdownBtn" class="action-button accent" data-translate="missingpieces.generate">Generate <i class="fas fa-caret-down"></i></button>
             <div id="generateDropdownContent" class="dropdown-content">
-                <button id="generateWorksheetBtn">Generate Worksheet</button>
-                <button id="generateAnswerKeyBtn" disabled>Generate Answer Key</button>
+                <button id="generateWorksheetBtn" data-translate="missingpieces.generate.worksheet">Generate Worksheet</button>
+                <button id="generateAnswerKeyBtn" data-translate="missingpieces.generate.answer" disabled>Generate Answer Key</button>
             </div>
           </div>
         <div class="dropdown-container">
-            <button id="downloadDropdownBtn" class="action-button secondary">Download <i class="fas fa-caret-down"></i></button>
+            <button id="downloadDropdownBtn" class="action-button secondary" data-translate="missingpieces.download">Download <i class="fas fa-caret-down"></i></button>
             <div id="downloadDropdownContent" class="dropdown-content">
-                <button id="downloadWorksheetJpegBtn" disabled>Worksheet (JPEG)</button>
-                <button id="downloadAnswerKeyJpegBtn" disabled>Answer Key (JPEG)</button>
-                <button id="downloadWorksheetPdfBtn" disabled>Worksheet (PDF)</button>
-                <button id="downloadAnswerKeyPdfBtn" disabled>Answer Key (PDF)</button>
+                <button id="downloadWorksheetJpegBtn" data-translate="missingpieces.download.worksheet.jpeg" disabled>Worksheet (JPEG)</button>
+                <button id="downloadAnswerKeyJpegBtn" data-translate="missingpieces.download.answer.jpeg" disabled>Answer Key (JPEG)</button>
+                <button id="downloadWorksheetPdfBtn" data-translate="missingpieces.download.worksheet.pdf" disabled>Worksheet (PDF)</button>
+                <button id="downloadAnswerKeyPdfBtn" data-translate="missingpieces.download.answer.pdf" disabled>Answer Key (PDF)</button>
                 <label class="checkbox-label">
-                    <input type="checkbox" id="grayscaleToggle" />Grayscale
+                    <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
                 </label>
             </div>
         </div>
-        <button id="clearBtn" class="action-button danger">Clear All</button>
+        <button id="clearBtn" class="action-button danger" data-translate="missingpieces.clear.all">Clear All</button>
       </div>
 
       <div class="tab-row">
-        <button class="tab-button active" data-tab="worksheetTab">Worksheet</button>
-        <button class="tab-button" data-tab="answerKeyTab">Answer Key</button>
+        <button class="tab-button active" data-tab="worksheetTab" data-translate="missingpieces.tab.worksheet">Worksheet</button>
+        <button class="tab-button" data-tab="answerKeyTab" data-translate="missingpieces.tab.answer">Answer Key</button>
       </div>
       <div class="tab-content-wrapper">
         <div class="tab active" id="worksheetTab">
@@ -1295,7 +1295,7 @@
             activeCanvas.setActiveObject(textObject);
             activeCanvas.renderAll();
             textInput.value = '';
-            showMessage('Text added to worksheet.', 'success', 1500);
+            showMessage(t('missingpieces.msg.text.added'), 'success', 1500);
         }
         function updateActiveTextObjectProperties() {
             const activeCanvas = getActiveCanvas();
@@ -1358,7 +1358,7 @@
                 const response = await fetch(`/api/themes-translated?locale=${currentLocale}`);
                 if (!response.ok) throw new Error('Failed to load themes');
                 const themeData = await response.json();
-                themeSelect.innerHTML = '<option value="all">All Themes</option>';
+                themeSelect.innerHTML = `<option value="all">${t('missingpieces.themes.all')}</option>`;
                 themeData.forEach(theme => {
                     const opt = document.createElement("option");
                     opt.value = theme.value;
@@ -1368,7 +1368,7 @@
                 loadDictionary();
             } catch(err) {
                 console.error("Error loading themes:", err);
-                showMessage("Could not load themes.", 'error');
+                showMessage(t('missingpieces.msg.themes.error'), 'error');
             }
         }
         async function loadDictionary() {
@@ -1378,24 +1378,24 @@
             if (theme === 'all') {
                 if (!query) {
                     // Default to animals theme when "All Themes" is selected with no search
-                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading animals theme...</p>`;
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('missingpieces.msg.loading.default')}</p>`;
                     try {
                         const res = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
                         if (!res.ok) throw new Error('Theme load failed');
                         const data = await res.json();
                     imagesToRender = data.images || data; // Handle both old and new API formats
-                    } catch (err) { dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error loading images.</p>`; return; }
+                    } catch (err) { dictionaryDiv.innerHTML = `<p class='dictionary-message'>${t('missingpieces.msg.search.error')}</p>`; return; }
                 } else {
-                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('missingpieces.msg.searching')}</p>`;
                     try {
                         const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
                         if (!res.ok) throw new Error('Search failed');
                         const data = await res.json();
                     imagesToRender = data.images || data; // Handle both old and new API formats
-                    } catch (err) { dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error during search.</p>`; return; }
+                    } catch (err) { dictionaryDiv.innerHTML = `<p class='dictionary-message'>${t('missingpieces.msg.search.error')}</p>`; return; }
                 }
             } else {
-                dictionaryDiv.innerHTML = `<p class='dictionary-message'>Loading images for theme...</p>`;
+                dictionaryDiv.innerHTML = `<p class='dictionary-message'>${t('missingpieces.msg.loading.theme')}</p>`;
                 try {
                     const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
                     if (!res.ok) throw new Error('Theme load failed');
@@ -1405,13 +1405,13 @@
                         const displayName = (img.name || img.word).toLowerCase();
                         return displayName.includes(query);
                     }) : themeImages;
-                } catch (err) { dictionaryDiv.innerHTML = `<p class='dictionary-message'>Error loading images.</p>`; return; }
+                } catch (err) { dictionaryDiv.innerHTML = `<p class='dictionary-message'>${t('missingpieces.msg.search.error')}</p>`; return; }
             }
             renderDictionaryItems(imagesToRender);
         }
         function renderDictionaryItems(images) {
             dictionaryDiv.innerHTML = "";
-            if (images.length === 0) { dictionaryDiv.innerHTML = `<p class="dictionary-message">No images found.</p>`; return; }
+            if (images.length === 0) { dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('missingpieces.msg.no.images').replace('{query}', '')}</p>`; return; }
             images.sort((a, b) => {
                 const nameA = a.name || a.word;
                 const nameB = b.name || b.word;
@@ -1428,7 +1428,7 @@
         }
         function renderUploadedImages() {
             uploadedImagesPreviewDiv.innerHTML = "";
-            if (uploadedImages.length === 0) { uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">No uploaded images.</p>`; return; }
+            if (uploadedImages.length === 0) { uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">${t('missingpieces.uploaded.placeholder')}</p>`; return; }
             uploadedImages.forEach(img => {
                 const item = document.createElement("div");
                 item.className = "dictionary-item";
@@ -1467,7 +1467,7 @@
                     }
                     if (++loadedCount === imageFiles.length) {
                          renderUploadedImages();
-                         showMessage(`${imageFiles.length} image(s) loaded.`, 'success');
+                         showMessage(t('missingpieces.msg.images.loaded').replace('{count}', imageFiles.length), 'success');
                     }
                 };
                 reader.readAsDataURL(file);
@@ -1478,7 +1478,7 @@
         // --- Borders & Backgrounds (Standard) ---
         async function loadBorderThemes() {
             try {
-                borderThemeSelect.innerHTML = '<option value="none">None</option>';
+                borderThemeSelect.innerHTML = `<option value="none">${t('common.none')}</option>`;
                 const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
                 if (!response.ok) {
                     console.error('Failed to load border themes');
@@ -1494,7 +1494,7 @@
         }
         async function loadBackgroundThemes() {
             try {
-                backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+                backgroundThemeSelect.innerHTML = `<option value="none">${t('common.none')}</option>`;
                 const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
                 if (!response.ok) {
                     console.error('Failed to load background themes');
@@ -1512,7 +1512,7 @@
             const theme = borderThemeSelect.value;
             const activeCanvas = getActiveCanvas();
             if (theme === 'none') {
-                borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme.</p>';
+                borderDictionary.innerHTML = `<p class="dictionary-message">${t('missingpieces.border.message')}</p>`;
                 const existing = activeCanvas.getObjects().find(o => o.isBorder); if (existing) activeCanvas.remove(existing); activeCanvas.renderAll(); borderOpacitySlider.disabled = true; return;
             }
             fetch(`/api/borders/images?theme=${theme}`).then(res => res.json()).then(data => {
@@ -1530,7 +1530,7 @@
             const theme = backgroundThemeSelect.value;
             const activeCanvas = getActiveCanvas();
             if (theme === 'none') {
-                backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme.</p>';
+                backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('missingpieces.background.message')}</p>`;
                 const existing = activeCanvas.getObjects().find(o => o.isBackground); if (existing) activeCanvas.remove(existing); activeCanvas.renderAll(); backgroundOpacitySlider.disabled = true; return;
             }
             fetch(`/api/backgrounds/images?theme=${theme}`).then(res => res.json()).then(data => {
@@ -1647,13 +1647,13 @@
 
         function generatePuzzleData() {
             const mainImage = selectedImages[0];
-            if (!mainImage) { showMessage("Please select an image for the puzzle first."); return null; }
+            if (!mainImage) { showMessage(t('missingpieces.msg.select.image')); return null; }
             const missingCount = parseInt(missingCountInput.value, 10);
             const solOptions = parseInt(solutionOptionsInput.value, 10);
             const pieceShape = pieceShapeSelect.value;
-            if (missingCount < 1 || missingCount > 5) { showMessage("Missing pieces must be 1-5."); return null; }
-            if (solOptions < 2 || solOptions > 6) { showMessage("Solution options must be 2-6."); return null; }
-            if (missingCount >= solOptions) { showMessage("Missing pieces count must be less than solution options."); return null; }
+            if (missingCount < 1 || missingCount > 5) { showMessage(t('missingpieces.msg.pieces.range')); return null; }
+            if (solOptions < 2 || solOptions > 6) { showMessage(t('missingpieces.msg.options.range')); return null; }
+            if (missingCount >= solOptions) { showMessage(t('missingpieces.msg.pieces.less')); return null; }
 
             return new Promise((resolve) => {
                 const img = new Image();
@@ -1672,8 +1672,8 @@
                         }
                         attempts++;
                     }
-                    if (positions.length < missingCount) { showMessage("Could not find enough distinct pieces."); resolve(null); return; }
-                    
+                    if (positions.length < missingCount) { showMessage(t('missingpieces.msg.distinct.pieces')); resolve(null); return; }
+
                     const correctPieces = positions.map(p => p.data);
                     let correctIndices = [];
                     while(correctIndices.length < correctPieces.length) {
@@ -1698,7 +1698,7 @@
                     }
                     resolve({ mainImage, pieceShape, pieceSize: pieceCutSize, positions, optionPieces: optionArray, correctIndices });
                 };
-                img.onerror = () => { showMessage("Failed to load selected image."); resolve(null); };
+                img.onerror = () => { showMessage(t('missingpieces.msg.image.failed')); resolve(null); };
             });
         }
         
@@ -1890,11 +1890,11 @@
         // --- Main Action Handlers ---
         async function handleGenerateWorksheet() {
             if (generateDropdownContent) generateDropdownContent.style.display = 'none';
-            showMessage('Generating puzzle data...', 'info', 0);
+            showMessage(t('missingpieces.msg.generating'), 'info', 0);
             try {
                 const puzzleData = await generatePuzzleData();
                 if (!puzzleData) {
-                    showMessage('Puzzle generation failed. Please check your selections.', 'error'); return;
+                    showMessage(t('missingpieces.msg.generation.failed'), 'error'); return;
                 }
                 lastGeneratedPuzzleData = puzzleData;
 
@@ -1917,20 +1917,20 @@
                 enforceZOrder(worksheetCanvas);
                 userAddedObjects.forEach(obj => worksheetCanvas.bringToFront(obj));
                 worksheetCanvas.renderAll();
-                
+
                 generateAnswerKeyBtn.disabled = false;
                 [downloadWorksheetJpegBtn, downloadWorksheetPdfBtn].forEach(b => b.disabled = false);
-                showMessage("Worksheet generated successfully!", "success");
+                showMessage(t('missingpieces.msg.worksheet.success'), "success");
             } catch (error) {
                 console.error("Error during worksheet generation:", error);
-                showMessage("An unexpected error occurred during generation.", 'error');
+                showMessage(t('missingpieces.msg.unexpected.error'), 'error');
             }
         }
 
         async function handleGenerateAnswerKey() {
             if (generateDropdownContent) generateDropdownContent.style.display = 'none';
-            if (!lastGeneratedPuzzleData) { showMessage("Please generate a worksheet first.", 'error'); return; }
-            showMessage('Generating answer key...', 'info', 0);
+            if (!lastGeneratedPuzzleData) { showMessage(t('missingpieces.msg.generate.first'), 'error'); return; }
+            showMessage(t('missingpieces.msg.generating.answer'), 'info', 0);
 
             try {
                 const oldTransforms = {};
@@ -1969,13 +1969,13 @@
                 enforceZOrder(answerKeyCanvas);
                 userAddedObjects.forEach(obj => answerKeyCanvas.bringToFront(obj));
                 answerKeyCanvas.renderAll();
-                
+
                 [downloadAnswerKeyJpegBtn, downloadAnswerKeyPdfBtn].forEach(b => b.disabled = false);
                 document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
-                showMessage('Answer key generated!', 'success');
+                showMessage(t('missingpieces.msg.answer.generated'), 'success');
             } catch(error) {
                 console.error("Error generating answer key:", error);
-                showMessage("An error occurred during answer key generation.", "error");
+                showMessage(t('missingpieces.msg.answer.error'), "error");
             }
         }
         
@@ -2114,11 +2114,11 @@
             });
         }
         async function downloadImageFile(canvasToExport, filename) {
-            if (!canvasToExport || canvasToExport.getObjects().length === 0) { 
-                showMessage("Canvas is empty. Generate content first.", 'error'); 
-                return; 
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                showMessage(t('missingpieces.msg.canvas.empty'), 'error');
+                return;
             }
-            showMessage('Preparing high-quality JPEG... Please wait.', 'info', 0);
+            showMessage(t('missingpieces.msg.preparing.jpeg'), 'info', 0);
             
             // Use high multiplier for better quality
             const exportOptions = { 
@@ -2129,12 +2129,12 @@
             try {
                 const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
                 const link = document.createElement('a');
-                link.download = filename; 
+                link.download = filename;
                 link.href = dataURL;
                 link.click();
-                showMessage('High-quality JPEG downloaded!', 'success', 3000);
+                showMessage(t('missingpieces.msg.jpeg.success'), 'success', 3000);
             } catch (error) {
-                showMessage(`Error preparing JPEG: ${error.message}`, 'error');
+                showMessage(t('missingpieces.msg.jpeg.error').replace('{error}', error.message), 'error');
             }
         }
         
@@ -2207,9 +2207,9 @@
     if (originalDownloadPDF) {
         window.downloadPDF = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate content first.', 'error');
+                return showMessage(t('missingpieces.msg.generate.first'), 'error');
             }
-            showMessage('Preparing PDF...', 'info', 0);
+            showMessage(t('missingpieces.msg.preparing.pdf'), 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -2230,11 +2230,11 @@
                 
                 const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
                 pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
-                
+
                 pdf.save(fileName);
-                showMessage('PDF downloaded!', 'success');
-            } catch(e) { 
-                showMessage('Error creating PDF.', 'error'); 
+                showMessage(t('missingpieces.msg.pdf.downloaded'), 'success');
+            } catch(e) {
+                showMessage(t('missingpieces.msg.pdf.error'), 'error');
                 console.error(e); 
             } finally {
                 // Remove watermark after export
@@ -2248,9 +2248,9 @@
     if (originalDownloadJPEG) {
         window.downloadJPEG = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate a worksheet first.', 'error');
+                return showMessage(t('missingpieces.msg.generate.first'), 'error');
             }
-            showMessage('Preparing JPEG...', 'info', 0);
+            showMessage(t('missingpieces.msg.preparing.jpeg.simple'), 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -2266,9 +2266,9 @@
                 link.href = dataURL;
                 link.download = fileName;
                 link.click();
-                showMessage('JPEG download initiated!', 'success');
-            } catch(e) { 
-                showMessage('Error preparing JPEG.', 'error'); 
+                showMessage(t('missingpieces.msg.jpeg.success'), 'success');
+            } catch(e) {
+                showMessage(t('missingpieces.msg.jpeg.simple'), 'error');
                 console.error(e); 
             } finally {
                 // Remove watermark after export
@@ -2278,11 +2278,11 @@
     }
 
 async function downloadPDF(canvasToExport, filename) {
-            if (!canvasToExport || canvasToExport.getObjects().length === 0) { 
-                showMessage("Canvas is empty. Generate content first.", 'error'); 
-                return; 
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                showMessage(t('missingpieces.msg.canvas.empty'), 'error');
+                return;
             }
-            showMessage('Preparing high-quality PDF... Please wait.', 'info', 0);
+            showMessage(t('missingpieces.msg.preparing.pdf.quality'), 'info', 0);
 
             const { jsPDF } = window.jspdf;
             
@@ -2305,11 +2305,11 @@ async function downloadPDF(canvasToExport, filename) {
                 
                 const imgData = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
                 pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
-                
+
                 pdf.save(filename);
-                showMessage('High-quality PDF Downloaded!', 'success');
+                showMessage(t('missingpieces.msg.pdf.quality.success'), 'success');
             } catch (error) {
-                showMessage(`Error creating PDF: ${error.message}`, "error");
+                showMessage(t('missingpieces.msg.pdf.error.detailed').replace('{error}', error.message), "error");
             }
         }
 
@@ -2328,7 +2328,7 @@ async function downloadPDF(canvasToExport, filename) {
             pageSizeSelect.value = "612x792";
             customPageSizeInputsDiv.style.display = 'none';
             updateCanvasDisplayDimensions(612, 792);
-            showMessage("Form cleared.", "success", 2000);
+            showMessage(t('missingpieces.msg.form.cleared'), "success", 2000);
         }
 
         // --- Event Listener Setup ---
@@ -2413,25 +2413,64 @@ async function downloadPDF(canvasToExport, filename) {
             });
         }
         
-        // Apply translations
+        // Apply translations using the t() function from translations-missing-pieces.js
         function applyTranslations() {
-            if (typeof translations === 'undefined' || !translations[currentLocale]) return;
-            const t = translations[currentLocale];
+            console.log('[Missing Pieces] Applying translations for locale:', window.currentLocale);
+            console.log('[Missing Pieces] Translation function available:', typeof t !== 'undefined');
+            console.log('[Missing Pieces] Translations object available:', typeof translations !== 'undefined');
+
+            if (typeof t === 'undefined') {
+                console.warn('[Missing Pieces] t() function not available');
+                return;
+            }
+
+            // Translate elements with data-translate attribute
             document.querySelectorAll('[data-translate]').forEach(element => {
                 const key = element.getAttribute('data-translate');
-                if (t[key]) {
-                    if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
-                        element.placeholder = t[key];
-                    } else if (element.tagName === 'BUTTON' || element.tagName === 'LABEL' || element.tagName === 'OPTION') {
-                        element.textContent = t[key];
-                    } else {
-                        element.textContent = t[key];
+                if (key && typeof t !== 'undefined') {
+                    const translation = t(key);
+                    if (translation && translation !== key) {
+                        if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                            if (element.type === 'button' || element.type === 'submit') {
+                                element.value = translation;
+                            }
+                        } else if (element.tagName === 'OPTION') {
+                            element.textContent = translation;
+                        } else {
+                            element.textContent = translation;
+                        }
                     }
                 }
             });
+
+            // Translate placeholders
+            document.querySelectorAll('[data-translate-placeholder]').forEach(element => {
+                const key = element.getAttribute('data-translate-placeholder');
+                if (key && typeof t !== 'undefined') {
+                    element.placeholder = t(key);
+                }
+            });
+
+            // Translate titles/tooltips
+            document.querySelectorAll('[data-translate-title]').forEach(element => {
+                const key = element.getAttribute('data-translate-title');
+                if (key && typeof t !== 'undefined') {
+                    element.title = t(key);
+                }
+            });
+
+            console.log('[Missing Pieces] Translations applied successfully');
         }
-        
-        applyTranslations();
+
+        // Apply translations after a short delay to ensure translations are loaded
+        setTimeout(function() {
+            applyTranslations();
+
+            // Also apply unified translations if available
+            if (typeof translatePage !== 'undefined') {
+                translatePage();
+            }
+        }, 100);
         loadThemes();
 
         // Initialize BulletproofLoader for borders and backgrounds

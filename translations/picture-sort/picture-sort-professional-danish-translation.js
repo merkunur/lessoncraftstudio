@@ -54,7 +54,10 @@ const PICTURE_SORT_DANISH_TRANSLATIONS = {
     "picture.sort.right.category": "→ Højre Kategori",
     "picture.sort.count.format": "Venstre: {left} | Højre: {right} | I alt: {total}/{max}",
 
-    // ===== 7. UPLOAD SECTION (3 items) =====
+    // ===== 7. UPLOAD SECTION (3 items) =====    "picture.sort.upload.button": "Vælg filer",
+    "picture.sort.upload.no.file": "Ingen fil valgt",
+    "picture.sort.upload.files.selected": "{count} filer valgt",
+    
     "picture.sort.upload.select": "Vælg billede(r) til upload:",
     "picture.sort.uploaded.images": "Dine Uploadede Billeder (Denne Session):",
     "picture.sort.uploaded.placeholder": "Dine uploadede billeder vises her.",

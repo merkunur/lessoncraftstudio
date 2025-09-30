@@ -53,7 +53,10 @@ const PICTURE_SORT_TRANSLATIONS = {
     "picture.sort.right.category": "→ Right Category",
     "picture.sort.count.format": "Left: {left} | Right: {right} | Total: {total}/{max}",
 
-    // ===== 7. UPLOAD SECTION (3 items) =====
+    // ===== 7. UPLOAD SECTION (6 items) =====
+    "picture.sort.upload.button": "Choose files",
+    "picture.sort.upload.no.file": "No file chosen",
+    "picture.sort.upload.files.selected": "{count} files selected",
     "picture.sort.upload.select": "Select image(s) to upload:",
     "picture.sort.uploaded.images": "Your Uploaded Images (This Session):",
     "picture.sort.uploaded.placeholder": "Your uploaded images will appear here.",

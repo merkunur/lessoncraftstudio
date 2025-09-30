@@ -54,7 +54,10 @@ const PICTURE_SORT_SPANISH_TRANSLATIONS = {
     "picture.sort.right.category": "→ Categoría Derecha",
     "picture.sort.count.format": "Izquierda: {left} | Derecha: {right} | Total: {total}/{max}",
 
-    // ===== 7. UPLOAD SECTION (3 items) =====
+    // ===== 7. UPLOAD SECTION (3 items) =====    "picture.sort.upload.button": "Elegir archivos",
+    "picture.sort.upload.no.file": "Ningún archivo elegido",
+    "picture.sort.upload.files.selected": "{count} archivos seleccionados",
+    
     "picture.sort.upload.select": "Seleccionar imagen(es) para subir:",
     "picture.sort.uploaded.images": "Tus Imágenes Subidas (Esta Sesión):",
     "picture.sort.uploaded.placeholder": "Tus imágenes subidas aparecerán aquí.",

@@ -54,7 +54,10 @@ const PICTURE_SORT_GERMAN_TRANSLATIONS = {
     "picture.sort.right.category": "→ Rechte Kategorie",
     "picture.sort.count.format": "Links: {left} | Rechts: {right} | Gesamt: {total}/{max}",
 
-    // ===== 7. UPLOAD SECTION (3 items) =====
+    // ===== 7. UPLOAD SECTION (3 items) =====    "picture.sort.upload.button": "Dateien auswählen",
+    "picture.sort.upload.no.file": "Keine Datei ausgewählt",
+    "picture.sort.upload.files.selected": "{count} Dateien ausgewählt",
+    
     "picture.sort.upload.select": "Bild(er) zum Hochladen auswählen:",
     "picture.sort.uploaded.images": "Ihre Hochgeladenen Bilder (Diese Sitzung):",
     "picture.sort.uploaded.placeholder": "Ihre hochgeladenen Bilder erscheinen hier.",

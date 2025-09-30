@@ -54,7 +54,10 @@ const PICTURE_SORT_FINNISH_TRANSLATIONS = {
     "picture.sort.right.category": "→ Oikea Kategoria",
     "picture.sort.count.format": "Vasen: {left} | Oikea: {right} | Yhteensä: {total}/{max}",
 
-    // ===== 7. UPLOAD SECTION (3 items) =====
+    // ===== 7. UPLOAD SECTION (3 items) =====    "picture.sort.upload.button": "Valitse tiedostoja",
+    "picture.sort.upload.no.file": "Ei tiedostoa valittu",
+    "picture.sort.upload.files.selected": "{count} tiedostoa valittu",
+    
     "picture.sort.upload.select": "Valitse ladattava(t) kuva(t):",
     "picture.sort.uploaded.images": "Omat Ladatut Kuvat (Tämä Istunto):",
     "picture.sort.uploaded.placeholder": "Lataamasi kuvat näkyvät tässä.",

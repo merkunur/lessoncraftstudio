@@ -54,7 +54,10 @@ const PICTURE_SORT_NORWEGIAN_TRANSLATIONS = {
     "picture.sort.right.category": "→ Høyre Kategori",
     "picture.sort.count.format": "Venstre: {left} | Høyre: {right} | Totalt: {total}/{max}",
 
-    // ===== 7. UPLOAD SECTION (3 items) =====
+    // ===== 7. UPLOAD SECTION (3 items) =====    "picture.sort.upload.button": "Velg filer",
+    "picture.sort.upload.no.file": "Ingen fil valgt",
+    "picture.sort.upload.files.selected": "{count} filer valgt",
+    
     "picture.sort.upload.select": "Velg bilde(r) for opplasting:",
     "picture.sort.uploaded.images": "Dine Opplastede Bilder (Denne Økten):",
     "picture.sort.uploaded.placeholder": "Dine opplastede bilder vises her.",

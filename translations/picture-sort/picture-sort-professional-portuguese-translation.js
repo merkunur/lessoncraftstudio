@@ -54,7 +54,10 @@ const PICTURE_SORT_PORTUGUESE_TRANSLATIONS = {
     "picture.sort.right.category": "→ Categoria Direita",
     "picture.sort.count.format": "Esquerda: {left} | Direita: {right} | Total: {total}/{max}",
 
-    // ===== 7. UPLOAD SECTION (3 items) =====
+    // ===== 7. UPLOAD SECTION (3 items) =====    "picture.sort.upload.button": "Escolher arquivos",
+    "picture.sort.upload.no.file": "Nenhum arquivo escolhido",
+    "picture.sort.upload.files.selected": "{count} arquivos selecionados",
+    
     "picture.sort.upload.select": "Selecionar imagem(ns) para carregar:",
     "picture.sort.uploaded.images": "Suas Imagens Carregadas (Esta Sessão):",
     "picture.sort.uploaded.placeholder": "Suas imagens carregadas aparecerão aqui.",

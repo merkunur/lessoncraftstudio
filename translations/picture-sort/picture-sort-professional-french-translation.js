@@ -54,7 +54,10 @@ const PICTURE_SORT_FRENCH_TRANSLATIONS = {
     "picture.sort.right.category": "→ Catégorie de Droite",
     "picture.sort.count.format": "Gauche : {left} | Droite : {right} | Total : {total}/{max}",
 
-    // ===== 7. UPLOAD SECTION (3 items) =====
+    // ===== 7. UPLOAD SECTION (3 items) =====    "picture.sort.upload.button": "Choisir des fichiers",
+    "picture.sort.upload.no.file": "Aucun fichier choisi",
+    "picture.sort.upload.files.selected": "{count} fichiers sélectionnés",
+    
     "picture.sort.upload.select": "Sélectionner image(s) à téléverser :",
     "picture.sort.uploaded.images": "Vos Images Téléversées (Cette Session) :",
     "picture.sort.uploaded.placeholder": "Vos images téléversées apparaîtront ici.",

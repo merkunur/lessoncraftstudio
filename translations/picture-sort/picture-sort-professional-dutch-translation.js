@@ -54,7 +54,10 @@ const PICTURE_SORT_DUTCH_TRANSLATIONS = {
     "picture.sort.right.category": "→ Rechter Categorie",
     "picture.sort.count.format": "Links: {left} | Rechts: {right} | Totaal: {total}/{max}",
 
-    // ===== 7. UPLOAD SECTION (3 items) =====
+    // ===== 7. UPLOAD SECTION (3 items) =====    "picture.sort.upload.button": "Bestanden kiezen",
+    "picture.sort.upload.no.file": "Geen bestand gekozen",
+    "picture.sort.upload.files.selected": "{count} bestanden geselecteerd",
+    
     "picture.sort.upload.select": "Selecteer afbeelding(en) om te uploaden:",
     "picture.sort.uploaded.images": "Je Geüploade Afbeeldingen (Deze Sessie):",
     "picture.sort.uploaded.placeholder": "Je geüploade afbeeldingen verschijnen hier.",

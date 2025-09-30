@@ -54,7 +54,10 @@ const PICTURE_SORT_SWEDISH_TRANSLATIONS = {
     "picture.sort.right.category": "→ Höger Kategori",
     "picture.sort.count.format": "Vänster: {left} | Höger: {right} | Totalt: {total}/{max}",
 
-    // ===== 7. UPLOAD SECTION (3 items) =====
+    // ===== 7. UPLOAD SECTION (3 items) =====    "picture.sort.upload.button": "Välj filer",
+    "picture.sort.upload.no.file": "Ingen fil vald",
+    "picture.sort.upload.files.selected": "{count} filer valda",
+    
     "picture.sort.upload.select": "Välj bild(er) att ladda upp:",
     "picture.sort.uploaded.images": "Dina Uppladdade Bilder (Denna Session):",
     "picture.sort.uploaded.placeholder": "Dina uppladdade bilder visas här.",

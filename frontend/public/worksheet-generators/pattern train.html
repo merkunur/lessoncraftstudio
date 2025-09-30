@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pattern Train Worksheet App</title>
-  <script src="js/translations-pattern-train.js?v=3">
+  <script src="js/translations-pattern-train.js?v=4"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
@@ -805,8 +805,16 @@
                 </div>
                 <div id="dictionaryPreview"></div>
 
-                <label for="imageUploadInput" style="margin-top:10px;" data-translate="pattern.train.upload.select">Select image(s) to upload:</label>
-                <input type="file" id="imageUploadInput" multiple accept="image/*">
+                <label style="margin-top:10px;" data-translate="pattern.train.upload.select">Select image(s) to upload:</label>
+                <div style="margin-top:8px;">
+                    <input type="file" id="imageUploadInput" multiple accept="image/*" style="display:none;">
+                    <button type="button" id="customFileButton" class="action-button" style="padding:8px 16px; font-size:13px; background-color:#4a90e2; color:white; border:none; border-radius:6px; cursor:pointer;">
+                        <span data-translate="pattern.train.upload.button">Choose files</span>
+                    </button>
+                    <span id="fileCountDisplay" style="margin-left:12px; font-size:13px; color:#666;">
+                        <span data-translate="pattern.train.upload.no.file">No file chosen</span>
+                    </span>
+                </div>
                 <label style="margin-top:10px;" data-translate="pattern.train.uploaded.images">Your Uploaded Images (This Session):</label>
                 <div id="uploadedImagesPreview">
                     <p class="dictionary-message" data-translate="pattern.train.uploaded.placeholder">Your uploaded images will appear here.</p>
@@ -1786,13 +1794,36 @@
       clearAllSelectionsAndState();
       showMessage(t("pattern.train.msg.cleared"), "success", 2000);
     });
-    
+
+    // Custom file button handler
+    const customFileButton = document.getElementById('customFileButton');
+    const fileCountDisplay = document.getElementById('fileCountDisplay');
+
+    customFileButton.addEventListener('click', () => {
+        imageUploadInput.click();
+    });
+
     imageUploadInput.addEventListener('change', (e) => {
         const files = e.target.files;
-        if (!files || files.length === 0) return;
+        if (!files || files.length === 0) {
+            fileCountDisplay.innerHTML = `<span data-translate="pattern.train.upload.no.file">No file chosen</span>`;
+            applyTranslations();
+            return;
+        }
         const imageFiles = Array.from(files).filter(f => f.type.startsWith('image/'));
-        if (imageFiles.length === 0) return;
-        
+        if (imageFiles.length === 0) {
+            fileCountDisplay.innerHTML = `<span data-translate="pattern.train.upload.no.file">No file chosen</span>`;
+            applyTranslations();
+            return;
+        }
+
+        // Update file count display
+        if (imageFiles.length === 1) {
+            fileCountDisplay.textContent = imageFiles[0].name;
+        } else {
+            fileCountDisplay.textContent = t('pattern.train.upload.files.selected').replace('{count}', imageFiles.length);
+        }
+
         uploadedImagesPreviewDiv.innerHTML = `<p class='dictionary-message'>${t('pattern.train.msg.loading.images').replace('{count}', imageFiles.length)}</p>`;
 
         Promise.all(imageFiles.map(file => new Promise((resolve, reject) => {

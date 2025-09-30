@@ -1,7 +1,7 @@
 /**
  * Picture Pathway - Compiled Translations
  * Auto-generated from professional translation files
- * Total Keys: 155
+ * Total Keys: 158
  * Languages: 11 (en, de, fr, es, it, pt, nl, sv, da, no, fi)
  */
 
@@ -140,7 +140,10 @@ const translations = {
     "picture.pathway.text.size": "Size:",
     "picture.pathway.text.tools": "Text Tools",
     "picture.pathway.themes.all": "All Themes",
+    "picture.pathway.upload.button": "Choose files",
     "picture.pathway.upload.custom": "Upload Custom Images",
+    "picture.pathway.upload.files.selected": "{count} files selected",
+    "picture.pathway.upload.no.file": "No file chosen",
     "picture.pathway.upload.select": "Select image(s) to upload:",
     "picture.pathway.uploaded.images": "Your Uploaded Images (This Session):",
     "picture.pathway.uploaded.placeholder": "Your uploaded images will appear here.",
@@ -297,7 +300,10 @@ const translations = {
     "picture.pathway.text.size": "Größe:",
     "picture.pathway.text.tools": "Textwerkzeuge",
     "picture.pathway.themes.all": "Alle Themen",
+    "picture.pathway.upload.button": "Dateien auswählen",
     "picture.pathway.upload.custom": "Eigene Bilder hochladen",
+    "picture.pathway.upload.files.selected": "{count} Dateien ausgewählt",
+    "picture.pathway.upload.no.file": "Keine Datei ausgewählt",
     "picture.pathway.upload.select": "Bild(er) zum Hochladen wählen:",
     "picture.pathway.uploaded.images": "Deine hochgeladenen Bilder (diese Sitzung):",
     "picture.pathway.uploaded.placeholder": "Deine hochgeladenen Bilder werden hier angezeigt.",
@@ -454,7 +460,10 @@ const translations = {
     "picture.pathway.text.size": "Taille :",
     "picture.pathway.text.tools": "Outils de Texte",
     "picture.pathway.themes.all": "Tous les Thèmes",
+    "picture.pathway.upload.button": "Choisir des fichiers",
     "picture.pathway.upload.custom": "Téléverser vos Images",
+    "picture.pathway.upload.files.selected": "{count} fichiers sélectionnés",
+    "picture.pathway.upload.no.file": "Aucun fichier choisi",
     "picture.pathway.upload.select": "Sélectionner les images à téléverser :",
     "picture.pathway.uploaded.images": "Vos Images Téléversées (cette session) :",
     "picture.pathway.uploaded.placeholder": "Vos images téléversées apparaîtront ici.",
@@ -611,7 +620,10 @@ const translations = {
     "picture.pathway.text.size": "Tamaño:",
     "picture.pathway.text.tools": "Herramientas de Texto",
     "picture.pathway.themes.all": "Todos los Temas",
+    "picture.pathway.upload.button": "Elegir archivos",
     "picture.pathway.upload.custom": "Cargar Imágenes Propias",
+    "picture.pathway.upload.files.selected": "{count} archivos seleccionados",
+    "picture.pathway.upload.no.file": "Ningún archivo elegido",
     "picture.pathway.upload.select": "Seleccionar imagen(es) para cargar:",
     "picture.pathway.uploaded.images": "Tus Imágenes Cargadas (esta sesión):",
     "picture.pathway.uploaded.placeholder": "Tus imágenes cargadas aparecerán aquí.",
@@ -768,7 +780,10 @@ const translations = {
     "picture.pathway.text.size": "Dimensione:",
     "picture.pathway.text.tools": "Strumenti di Testo",
     "picture.pathway.themes.all": "Tutti i Temi",
+    "picture.pathway.upload.button": "Scegli file",
     "picture.pathway.upload.custom": "Carica le Tue Immagini",
+    "picture.pathway.upload.files.selected": "{count} file selezionati",
+    "picture.pathway.upload.no.file": "Nessun file scelto",
     "picture.pathway.upload.select": "Seleziona immagini da caricare:",
     "picture.pathway.uploaded.images": "Le Tue Immagini Caricate (questa sessione):",
     "picture.pathway.uploaded.placeholder": "Le tue immagini caricate appariranno qui.",
@@ -925,7 +940,10 @@ const translations = {
     "picture.pathway.text.size": "Tamanho:",
     "picture.pathway.text.tools": "Ferramentas de Texto",
     "picture.pathway.themes.all": "Todos os Temas",
+    "picture.pathway.upload.button": "Escolher arquivos",
     "picture.pathway.upload.custom": "Carregar Imagens Próprias",
+    "picture.pathway.upload.files.selected": "{count} arquivos selecionados",
+    "picture.pathway.upload.no.file": "Nenhum arquivo escolhido",
     "picture.pathway.upload.select": "Selecionar imagem(ns) para carregar:",
     "picture.pathway.uploaded.images": "Suas Imagens Carregadas (esta sessão):",
     "picture.pathway.uploaded.placeholder": "Suas imagens carregadas aparecerão aqui.",
@@ -1082,7 +1100,10 @@ const translations = {
     "picture.pathway.text.size": "Grootte:",
     "picture.pathway.text.tools": "Tekstgereedschap",
     "picture.pathway.themes.all": "Alle Thema's",
+    "picture.pathway.upload.button": "Bestanden kiezen",
     "picture.pathway.upload.custom": "Eigen Afbeeldingen Uploaden",
+    "picture.pathway.upload.files.selected": "{count} bestanden geselecteerd",
+    "picture.pathway.upload.no.file": "Geen bestand gekozen",
     "picture.pathway.upload.select": "Selecteer afbeelding(en) om te uploaden:",
     "picture.pathway.uploaded.images": "Je Geüploade Afbeeldingen (deze sessie):",
     "picture.pathway.uploaded.placeholder": "Je geüploade afbeeldingen verschijnen hier.",
@@ -1239,7 +1260,10 @@ const translations = {
     "picture.pathway.text.size": "Storlek:",
     "picture.pathway.text.tools": "Textverktyg",
     "picture.pathway.themes.all": "Alla Teman",
+    "picture.pathway.upload.button": "Välj filer",
     "picture.pathway.upload.custom": "Ladda upp Egna Bilder",
+    "picture.pathway.upload.files.selected": "{count} filer valda",
+    "picture.pathway.upload.no.file": "Ingen fil vald",
     "picture.pathway.upload.select": "Välj bild(er) att ladda upp:",
     "picture.pathway.uploaded.images": "Dina Uppladdade Bilder (denna session):",
     "picture.pathway.uploaded.placeholder": "Dina uppladdade bilder visas här.",
@@ -1396,7 +1420,10 @@ const translations = {
     "picture.pathway.text.size": "Størrelse:",
     "picture.pathway.text.tools": "Tekstværktøjer",
     "picture.pathway.themes.all": "Alle Temaer",
+    "picture.pathway.upload.button": "Vælg filer",
     "picture.pathway.upload.custom": "Upload Egne Billeder",
+    "picture.pathway.upload.files.selected": "{count} filer valgt",
+    "picture.pathway.upload.no.file": "Ingen fil valgt",
     "picture.pathway.upload.select": "Vælg billede(r) til upload:",
     "picture.pathway.uploaded.images": "Dine Uploadede Billeder (denne session):",
     "picture.pathway.uploaded.placeholder": "Dine uploadede billeder vises her.",
@@ -1553,7 +1580,10 @@ const translations = {
     "picture.pathway.text.size": "Størrelse:",
     "picture.pathway.text.tools": "Tekstverktøy",
     "picture.pathway.themes.all": "Alle Temaer",
+    "picture.pathway.upload.button": "Velg filer",
     "picture.pathway.upload.custom": "Last Opp Egne Bilder",
+    "picture.pathway.upload.files.selected": "{count} filer valgt",
+    "picture.pathway.upload.no.file": "Ingen fil valgt",
     "picture.pathway.upload.select": "Velg bilde(r) for opplasting:",
     "picture.pathway.uploaded.images": "Dine Opplastede Bilder (denne økten):",
     "picture.pathway.uploaded.placeholder": "Dine opplastede bilder vises her.",
@@ -1710,7 +1740,10 @@ const translations = {
     "picture.pathway.text.size": "Koko:",
     "picture.pathway.text.tools": "Tekstityökalut",
     "picture.pathway.themes.all": "Kaikki Teemat",
+    "picture.pathway.upload.button": "Valitse tiedostoja",
     "picture.pathway.upload.custom": "Lataa Omia Kuvia",
+    "picture.pathway.upload.files.selected": "{count} tiedostoa valittu",
+    "picture.pathway.upload.no.file": "Ei tiedostoa valittu",
     "picture.pathway.upload.select": "Valitse ladattava(t) kuva(t):",
     "picture.pathway.uploaded.images": "Lataamasi Kuvat (tämä istunto):",
     "picture.pathway.uploaded.placeholder": "Lataamasi kuvat näkyvät tässä.",
@@ -1732,15 +1765,15 @@ const translations = {
     "toolbar.delete": "Poista Valitut",
     "toolbar.layers": "Tasot",
     "toolbar.send.backward": "Vie Taakse"
-  }
+  },
 };
 
-// Export for use in modules
+// Export for use in the application
 if (typeof module !== "undefined" && module.exports) {
-  module.exports = { translations };
+  module.exports = translations;
 }
 
-// Expose globally for BulletproofLoader and other utilities
+// Make available globally for the application
 if (typeof window !== "undefined") {
   window.translations = translations;
 }

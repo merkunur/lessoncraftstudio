@@ -100,7 +100,10 @@ const PICTURE_PATHWAY_DANISH_TRANSLATIONS = {
     "picture.pathway.path.count": "Stibilleder ({count}/4 anbefalet)",
     "picture.pathway.distractor.count": "Forstyrrende Billeder ({count})",
 
-    // ===== 10. UPLOAD SECTION (3 items) =====
+    // ===== 10. UPLOAD SECTION (3 items) =====    "picture.pathway.upload.button": "Vælg filer",
+    "picture.pathway.upload.no.file": "Ingen fil valgt",
+    "picture.pathway.upload.files.selected": "{count} filer valgt",
+    
     "picture.pathway.upload.select": "Vælg billede(r) til upload:",
     "picture.pathway.uploaded.images": "Dine Uploadede Billeder (denne session):",
     "picture.pathway.uploaded.placeholder": "Dine uploadede billeder vises her.",

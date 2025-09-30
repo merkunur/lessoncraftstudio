@@ -100,7 +100,10 @@ const PICTURE_PATHWAY_NORWEGIAN_TRANSLATIONS = {
     "picture.pathway.path.count": "Stibilder ({count}/4 anbefalt)",
     "picture.pathway.distractor.count": "Avledende Bilder ({count})",
 
-    // ===== 10. UPLOAD SECTION (3 items) =====
+    // ===== 10. UPLOAD SECTION (3 items) =====    "picture.pathway.upload.button": "Velg filer",
+    "picture.pathway.upload.no.file": "Ingen fil valgt",
+    "picture.pathway.upload.files.selected": "{count} filer valgt",
+    
     "picture.pathway.upload.select": "Velg bilde(r) for opplasting:",
     "picture.pathway.uploaded.images": "Dine Opplastede Bilder (denne økten):",
     "picture.pathway.uploaded.placeholder": "Dine opplastede bilder vises her.",

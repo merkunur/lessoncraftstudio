@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <title data-translate="picture.pathway.page.title">Picture Pathway</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="js/translations-picture-pathway.js?v=1"></script>
+  <script src="js/translations-picture-pathway.js?v=3"></script>
   <script src="js/translations.js"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
@@ -180,24 +180,37 @@
         margin-bottom: 12px;
     }
      .accordion-content input[type="file"] {
-      color: var(--app-text-secondary-dark-theme);
-      background-color: var(--app-surface-dark);
-      border: 1px solid var(--app-border-dark);
-      border-radius: 5px;
-      padding: 8px;
-      font-size: 13px;
-      margin-bottom: 12px;
-      width: 100%;
+      display: none;
     }
-     .accordion-content input[type="file"]::file-selector-button {
-        margin-right: 10px;
-        border: 1px solid var(--app-border-dark);
-        background: var(--app-bg-dark);
-        padding: 4px 8px;
-        border-radius: 3px;
-        color: var(--app-text-primary-dark-theme);
+    .custom-file-input-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .custom-file-button {
+        padding: 8px 16px;
+        background-color: var(--app-accent-primary);
+        color: white;
+        border: none;
+        border-radius: 5px;
         cursor: pointer;
-     }
+        font-size: 13px;
+        white-space: nowrap;
+        transition: background-color 0.2s;
+    }
+    .custom-file-button:hover {
+        background-color: var(--app-accent-primary-hover);
+    }
+    .custom-file-status {
+        color: var(--app-text-secondary-dark-theme);
+        font-size: 13px;
+        flex: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
     .accordion-content input[type="color"] {
          width: 100%; padding: 2px; height: 38px; margin-bottom: 12px; border-radius: 5px; border-color: var(--app-border-dark);
     }
@@ -925,6 +938,10 @@
             <button class="accordion-button" data-translate="picture.pathway.upload.custom">Upload Custom Images</button>
             <div class="accordion-content">
                 <label for="imageUploadInput" data-translate="picture.pathway.upload.select">Select image(s) to upload:</label>
+                <div class="custom-file-input-wrapper">
+                    <button type="button" class="custom-file-button" id="customFileButton" data-translate="picture.pathway.upload.button">Choose files</button>
+                    <span class="custom-file-status" id="customFileStatus" data-translate="picture.pathway.upload.no.file">No file chosen</span>
+                </div>
                 <input type="file" id="imageUploadInput" multiple accept="image/*">
                 <label style="margin-top:10px;" data-translate="picture.pathway.uploaded.images">Your Uploaded Images (This Session):</label>
                 <div id="uploadedImagesPreview">
@@ -1028,12 +1045,14 @@
 <script>
 // MUST BE GLOBAL - Before DOMContentLoaded
 let currentLocale = 'en';
+window.currentLocale = currentLocale;
 
 // Initialize locale from URL if present
 const urlParams = new URLSearchParams(window.location.search);
 const localeParam = urlParams.get('locale');
 if (localeParam) {
     currentLocale = localeParam;
+    window.currentLocale = currentLocale;
 }
 
 // Translation functions
@@ -1122,8 +1141,9 @@ document.addEventListener("DOMContentLoaded", function() {
       }
       languageSelect.addEventListener('change', function() {
           currentLocale = this.value;
+          window.currentLocale = currentLocale;
           if (typeof applyTranslations !== 'undefined') {
-              applyTranslations(currentLocale);
+              applyTranslations();
           }
           // Reload themes with new locale
           loadThemes();
@@ -1147,6 +1167,8 @@ document.addEventListener("DOMContentLoaded", function() {
   const messageArea = document.getElementById('messageArea');
   const imageUploadInput = document.getElementById("imageUploadInput");
   const uploadedImagesPreviewDiv = document.getElementById("uploadedImagesPreview");
+  const customFileButton = document.getElementById("customFileButton");
+  const customFileStatus = document.getElementById("customFileStatus");
 
   const generateDropdownBtn = document.getElementById("generateDropdownBtn");
   const generateDropdownContent = document.getElementById("generateDropdownContent");
@@ -1972,13 +1994,29 @@ document.addEventListener("DOMContentLoaded", function() {
     updateSelectionPreviews();
   });
 
+  // Custom file button handler
+  customFileButton.addEventListener('click', () => {
+      imageUploadInput.click();
+  });
+
   imageUploadInput.addEventListener('change', (e) => {
       const files = e.target.files;
-      if(!files || files.length === 0) return;
+      if(!files || files.length === 0) {
+          customFileStatus.textContent = t('picture.pathway.upload.no.file');
+          return;
+      }
+
+      // Update custom file status
+      const count = files.length;
+      if (count === 1) {
+          customFileStatus.textContent = files[0].name;
+      } else {
+          customFileStatus.textContent = t('picture.pathway.upload.files.selected').replace('{count}', count);
+      }
 
       let filesToLoad = Array.from(files).filter(f => f.type.startsWith('image/')).length;
       if(filesToLoad === 0) return;
-      
+
       uploadedImagesPreviewDiv.innerHTML = `<p class='dictionary-message'>Loading ${filesToLoad} image(s)...</p>`;
       
       for(const file of files) {
@@ -2001,6 +2039,7 @@ document.addEventListener("DOMContentLoaded", function() {
           reader.readAsDataURL(file);
       }
       imageUploadInput.value = ''; // Reset file input
+      customFileStatus.textContent = t('picture.pathway.upload.no.file'); // Reset status
   });
 
 

@@ -100,7 +100,10 @@ const PICTURE_PATHWAY_FINNISH_TRANSLATIONS = {
     "picture.pathway.path.count": "Polkukuvat ({count}/4 suositus)",
     "picture.pathway.distractor.count": "Hämäävät Kuvat ({count})",
 
-    // ===== 10. UPLOAD SECTION (3 items) =====
+    // ===== 10. UPLOAD SECTION (3 items) =====    "picture.pathway.upload.button": "Valitse tiedostoja",
+    "picture.pathway.upload.no.file": "Ei tiedostoa valittu",
+    "picture.pathway.upload.files.selected": "{count} tiedostoa valittu",
+    
     "picture.pathway.upload.select": "Valitse ladattava(t) kuva(t):",
     "picture.pathway.uploaded.images": "Lataamasi Kuvat (tämä istunto):",
     "picture.pathway.uploaded.placeholder": "Lataamasi kuvat näkyvät tässä.",

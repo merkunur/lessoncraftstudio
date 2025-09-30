@@ -100,7 +100,10 @@ const PICTURE_PATHWAY_ITALIAN_TRANSLATIONS = {
     "picture.pathway.path.count": "Immagini del Percorso ({count}/4 consigliate)",
     "picture.pathway.distractor.count": "Immagini Fuorvianti ({count})",
 
-    // ===== 10. UPLOAD SECTION (3 items) =====
+    // ===== 10. UPLOAD SECTION (3 items) =====    "picture.pathway.upload.button": "Scegli file",
+    "picture.pathway.upload.no.file": "Nessun file scelto",
+    "picture.pathway.upload.files.selected": "{count} file selezionati",
+    
     "picture.pathway.upload.select": "Seleziona immagini da caricare:",
     "picture.pathway.uploaded.images": "Le Tue Immagini Caricate (questa sessione):",
     "picture.pathway.uploaded.placeholder": "Le tue immagini caricate appariranno qui.",

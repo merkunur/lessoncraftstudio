@@ -99,7 +99,10 @@ const PICTURE_PATHWAY_TRANSLATIONS = {
     "picture.pathway.path.count": "Path Images ({count}/4 recommended)",
     "picture.pathway.distractor.count": "Distractor Images ({count})",
 
-    // ===== 10. UPLOAD SECTION (3 items) =====
+    // ===== 10. UPLOAD SECTION (6 items) =====
+    "picture.pathway.upload.button": "Choose files",
+    "picture.pathway.upload.no.file": "No file chosen",
+    "picture.pathway.upload.files.selected": "{count} files selected",
     "picture.pathway.upload.select": "Select image(s) to upload:",
     "picture.pathway.uploaded.images": "Your Uploaded Images (This Session):",
     "picture.pathway.uploaded.placeholder": "Your uploaded images will appear here.",

@@ -134,7 +134,9 @@
       "Bash(start \"file:///C:/Users/rkgen/lessoncraftstudio/frontend/public/worksheet-generators/more%20less.html?locale=it\")",
       "Bash(start \"file:///C:/Users/rkgen/lessoncraftstudio/frontend/public/worksheet-generators/more%20less.html?locale=pt\")",
       "Bash(start \"file:///C:/Users/rkgen/lessoncraftstudio/frontend/public/worksheet-generators/more%20less.html?locale=nl\")",
-      "Bash(start \"file:///C:/Users/rkgen/lessoncraftstudio/frontend/public/worksheet-generators/more%20less.html?locale=da\")"
+      "Bash(start \"file:///C:/Users/rkgen/lessoncraftstudio/frontend/public/worksheet-generators/more%20less.html?locale=da\")",
+      "Bash(start \"file:///C:/Users/rkgen/lessoncraftstudio/frontend/public/worksheet-generators/pattern train.html?locale=sv\")",
+      "Bash(start \"file:///C:/Users/rkgen/lessoncraftstudio/frontend/public/worksheet-generators/picture%20path.html?locale=sv\")"
     ],
     "deny": [],
     "ask": []

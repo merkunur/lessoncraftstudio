@@ -100,7 +100,13 @@ const PICTURE_PATHWAY_GERMAN_TRANSLATIONS = {
     "picture.pathway.path.count": "Wegbilder ({count}/4 empfohlen)",
     "picture.pathway.distractor.count": "Ablenkungsbilder ({count})",
 
-    // ===== 10. UPLOAD SECTION (3 items) =====
+    // ===== 10. UPLOAD SECTION (3 items) =====    "picture.pathway.upload.button": "Dateien auswählen",
+    "picture.pathway.upload.no.file": "Keine Datei ausgewählt",
+    "picture.pathway.upload.files.selected": "{count} Dateien ausgewählt",    "picture.pathway.upload.button": "Dateien auswählen",
+    "picture.pathway.upload.no.file": "Keine Datei ausgewählt",
+    "picture.pathway.upload.files.selected": "{count} Dateien ausgewählt",
+    
+    
     "picture.pathway.upload.select": "Bild(er) zum Hochladen wählen:",
     "picture.pathway.uploaded.images": "Deine hochgeladenen Bilder (diese Sitzung):",
     "picture.pathway.uploaded.placeholder": "Deine hochgeladenen Bilder werden hier angezeigt.",

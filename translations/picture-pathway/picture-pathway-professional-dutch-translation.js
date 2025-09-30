@@ -100,7 +100,10 @@ const PICTURE_PATHWAY_DUTCH_TRANSLATIONS = {
     "picture.pathway.path.count": "Padbeelden ({count}/4 aanbevolen)",
     "picture.pathway.distractor.count": "Afleidingsbeelden ({count})",
 
-    // ===== 10. UPLOAD SECTION (3 items) =====
+    // ===== 10. UPLOAD SECTION (3 items) =====    "picture.pathway.upload.button": "Bestanden kiezen",
+    "picture.pathway.upload.no.file": "Geen bestand gekozen",
+    "picture.pathway.upload.files.selected": "{count} bestanden geselecteerd",
+    
     "picture.pathway.upload.select": "Selecteer afbeelding(en) om te uploaden:",
     "picture.pathway.uploaded.images": "Je Geüploade Afbeeldingen (deze sessie):",
     "picture.pathway.uploaded.placeholder": "Je geüploade afbeeldingen verschijnen hier.",

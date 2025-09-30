@@ -100,7 +100,10 @@ const PICTURE_PATHWAY_SWEDISH_TRANSLATIONS = {
     "picture.pathway.path.count": "Vägbilder ({count}/4 rekommenderas)",
     "picture.pathway.distractor.count": "Vilseledande Bilder ({count})",
 
-    // ===== 10. UPLOAD SECTION (3 items) =====
+    // ===== 10. UPLOAD SECTION (3 items) =====    "picture.pathway.upload.button": "Välj filer",
+    "picture.pathway.upload.no.file": "Ingen fil vald",
+    "picture.pathway.upload.files.selected": "{count} filer valda",
+    
     "picture.pathway.upload.select": "Välj bild(er) att ladda upp:",
     "picture.pathway.uploaded.images": "Dina Uppladdade Bilder (denna session):",
     "picture.pathway.uploaded.placeholder": "Dina uppladdade bilder visas här.",

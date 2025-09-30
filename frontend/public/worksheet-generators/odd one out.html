@@ -5,7 +5,7 @@
   <title>Odd-One-Out Worksheet Generator</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="js/translations-odd-one-out.js?v=1"></script>
+  <script src="js/translations-odd-one-out.js?v=2"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
@@ -1622,7 +1622,7 @@
           try {
               const themes = await(await fetch(`/api/themes-translated?locale=${currentLocale}`)).json();
               allThemes = themes.map(t => t.value); // Store just the values for random selection
-              const themeOptions = ['<option value="">(random)</option>', ...themes.map(t => `<option value="${t.value}">${t.displayName}</option>`)].join('');
+              const themeOptions = [`<option value="">${t('oddoneout.theme.random')}</option>`, ...themes.map(t => `<option value="${t.value}">${t.displayName}</option>`)].join('');
               ui.themeSelect.innerHTML = themeOptions;
               ui.themeBSelect.innerHTML = themeOptions;
               

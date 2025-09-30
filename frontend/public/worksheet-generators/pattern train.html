@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pattern Train Worksheet App</title>
-  <script src="js/translations.js"></script>
+  <script src="js/translations-pattern-train.js?v=1"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
@@ -672,148 +672,148 @@
     <div id="menuOverlay" class="menu-overlay"></div>
     <div class="panel">
       <div class="panel-header">
-        <h2>Pattern Train Settings</h2>
+        <h2 data-translate="pattern.train.title">Pattern Train Settings</h2>
         <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
       </div>
       <div class="panel-content">
         <div class="accordion-item">
-            <button class="accordion-button active">Page Setup</button>
+            <button class="accordion-button active" data-translate="pattern.train.page.setup">Page Setup</button>
             <div class="accordion-content active">
-                <label for="languageSelect">Language:</label>
+                <label for="languageSelect" data-translate="pattern.train.language.label">Language:</label>
                 <select id="languageSelect">
-                    <option value="en">English</option>
-                    <option value="de">Deutsch</option>
-                    <option value="fr">Français</option>
-                    <option value="es">Español</option>
-                    <option value="pt">Português</option>
-                    <option value="it">Italiano</option>
-                    <option value="nl">Nederlands</option>
-                    <option value="sv">Svenska</option>
-                    <option value="da">Dansk</option>
-                    <option value="no">Norsk</option>
-                    <option value="fi">Suomi</option>
+                    <option value="en" data-translate="language.english">English</option>
+                    <option value="de" data-translate="language.german">Deutsch</option>
+                    <option value="fr" data-translate="language.french">Français</option>
+                    <option value="es" data-translate="language.spanish">Español</option>
+                    <option value="pt" data-translate="language.portuguese">Português</option>
+                    <option value="it" data-translate="language.italian">Italiano</option>
+                    <option value="nl" data-translate="language.dutch">Nederlands</option>
+                    <option value="sv" data-translate="language.swedish">Svenska</option>
+                    <option value="da" data-translate="language.danish">Dansk</option>
+                    <option value="no" data-translate="language.norwegian">Norsk</option>
+                    <option value="fi" data-translate="language.finnish">Suomi</option>
                 </select>
                 
-                <label for="pageSizeSelect">Paper Size:</label>
+                <label for="pageSizeSelect" data-translate="pattern.train.paper.size.label">Paper Size:</label>
                 <select id="pageSizeSelect">
-                    <option value="612x792">Letter Portrait (8.5×11")</option>
-                    <option value="792x612">Letter Landscape (11×8.5")</option>
-                    <option value="842x595">A4 Landscape (297×210mm)</option>
-                    <option value="595x842">A4 Portrait (210×297mm)</option>
-                    <option value="1200x1200">Square (1200x1200)</option>
-                    <option value="custom">Custom</option>
+                    <option value="612x792" data-translate="paper.size.letter.portrait">Letter Portrait (8.5×11")</option>
+                    <option value="792x612" data-translate="paper.size.letter.landscape">Letter Landscape (11×8.5")</option>
+                    <option value="842x595" data-translate="paper.size.a4.landscape">A4 Landscape (297×210mm)</option>
+                    <option value="595x842" data-translate="paper.size.a4.portrait">A4 Portrait (210×297mm)</option>
+                    <option value="1200x1200" data-translate="paper.size.square">Square (1200x1200)</option>
+                    <option value="custom" data-translate="paper.size.custom">Custom</option>
                 </select>
                 <div id="customPageSizeInputs" style="display:none; margin-top: 8px;">
-                    <label for="pageWidth">Width (px):</label>
+                    <label for="pageWidth" data-translate="pattern.train.width.px">Width (px):</label>
                     <input type="number" id="pageWidth" value="792">
-                    <label for="pageHeight">Height (px):</label>
+                    <label for="pageHeight" data-translate="pattern.train.height.px">Height (px):</label>
                     <input type="number" id="pageHeight" value="612">
                 </div>
-                <button id="setPageSizeBtn" style="margin-top: 8px;">Apply Size</button>
+                <button id="setPageSizeBtn" style="margin-top: 8px;" data-translate="pattern.train.apply.size">Apply Size</button>
 
-                <h4>Template</h4>
-                <label for="templateSelect">Train Template:</label>
+                <h4 data-translate="pattern.train.template">Template</h4>
+                <label for="templateSelect" data-translate="pattern.train.train.template">Train Template:</label>
                 <select id="templateSelect">
-                    <option value="/images/background/train.png">Default Train</option>
+                    <option value="/images/background/train.png" data-translate="pattern.train.default.train">Default Train</option>
                 </select>
 
-                <label for="pageColor">Page Color:</label>
+                <label for="pageColor" data-translate="pattern.train.page.color">Page Color:</label>
                 <input type="color" id="pageColor" value="#FFFFFF">
-                
-                <h4>Background</h4>
-                <label for="backgroundThemeSelect">Background Theme:</label>
+
+                <h4 data-translate="pattern.train.background">Background</h4>
+                <label for="backgroundThemeSelect" data-translate="pattern.train.background.theme">Background Theme:</label>
                 <select id="backgroundThemeSelect">
-                    <option value="none">None</option>
+                    <option value="none" data-translate="pattern.train.none">None</option>
                 </select>
-                <label for="backgroundOpacity">Background Opacity:</label>
+                <label for="backgroundOpacity" data-translate="pattern.train.background.opacity">Background Opacity:</label>
                 <input type="range" id="backgroundOpacity" min="0" max="1" value="1" step="0.05">
                 <div id="backgroundDictionary">
-                    <p class="dictionary-message">Select a theme for backgrounds.</p>
+                    <p class="dictionary-message" data-translate="pattern.train.select.theme.backgrounds">Select a theme for backgrounds.</p>
                 </div>
 
-                <h4>Border</h4>
-                <label for="borderThemeSelect">Border Theme:</label>
+                <h4 data-translate="pattern.train.border">Border</h4>
+                <label for="borderThemeSelect" data-translate="pattern.train.border.theme">Border Theme:</label>
                 <select id="borderThemeSelect">
-                    <option value="none">None</option>
+                    <option value="none" data-translate="pattern.train.none">None</option>
                 </select>
-                <label for="borderOpacity">Border Opacity:</label>
+                <label for="borderOpacity" data-translate="pattern.train.border.opacity">Border Opacity:</label>
                 <input type="range" id="borderOpacity" min="0" max="1" value="1" step="0.05">
                 <div id="borderDictionary">
-                    <p class="dictionary-message">Select a theme to see borders.</p>
+                    <p class="dictionary-message" data-translate="pattern.train.select.theme.borders">Select a theme to see borders.</p>
                 </div>
             </div>
         </div>
         
         <div class="accordion-item">
-            <button class="accordion-button">Text Tools</button>
+            <button class="accordion-button" data-translate="pattern.train.text.tools">Text Tools</button>
             <div class="accordion-content">
-                <h4>Add New Text</h4>
-                <label for="textInput">Content:</label><input type="text" id="textInput" placeholder="Worksheet Title...">
-                <button id="addTextBtn">Add Text to Worksheet</button>
-                <h4>Selected Text Properties</h4>
-                <label for="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
-                <label for="fontSize">Size:</label><input type="number" id="fontSize" value="36" min="8" disabled>
-                <label for="fontFamily">Font:</label>
+                <h4 data-translate="pattern.train.add.new.text">Add New Text</h4>
+                <label for="textInput" data-translate="pattern.train.content">Content:</label><input type="text" id="textInput" data-translate-placeholder="pattern.train.worksheet.title.placeholder">
+                <button id="addTextBtn" data-translate="pattern.train.add.text.worksheet">Add Text to Worksheet</button>
+                <h4 data-translate="pattern.train.selected.text.properties">Selected Text Properties</h4>
+                <label for="textColor" data-translate="pattern.train.color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                <label for="fontSize" data-translate="pattern.train.size">Size:</label><input type="number" id="fontSize" value="36" min="8" disabled>
+                <label for="fontFamily" data-translate="pattern.train.font">Font:</label>
                 <select id="fontFamily" disabled>
-                    <option value="Lexend Deca">Lexend Deca</option>
-                    <option value="Baloo 2">Baloo 2</option>
-                    <option value="Nunito">Nunito</option>
-                    <option value="Quicksand">Quicksand</option>
-                    <option value="Fredoka">Fredoka</option>
-                    <option value="Arial">Arial</option>
-                    <option value="Verdana">Verdana</option>
+                    <option value="Lexend Deca" data-translate="font.lexend.deca">Lexend Deca</option>
+                    <option value="Baloo 2" data-translate="font.baloo.2">Baloo 2</option>
+                    <option value="Nunito" data-translate="font.nunito">Nunito</option>
+                    <option value="Quicksand" data-translate="font.quicksand">Quicksand</option>
+                    <option value="Fredoka" data-translate="font.fredoka">Fredoka</option>
+                    <option value="Arial" data-translate="font.arial">Arial</option>
+                    <option value="Verdana" data-translate="font.verdana">Verdana</option>
                 </select>
-                <label for="textStrokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
-                <label for="textStrokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+                <label for="textStrokeColor" data-translate="pattern.train.outline.color">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                <label for="textStrokeWidth" data-translate="pattern.train.outline.0.10">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Pattern Configuration</button>
+            <button class="accordion-button" data-translate="pattern.train.pattern.configuration">Pattern Configuration</button>
             <div class="accordion-content">
-                <label for="patternSelect">Select a pattern type:</label>
+                <label for="patternSelect" data-translate="pattern.train.select.pattern.type">Select a pattern type:</label>
                 <select id="patternSelect">
-                  <option value="AB">AB</option>
-                  <option value="AAB">AAB</option>
-                  <option value="ABB">ABB</option>
-                  <option value="ABC">ABC</option>
-                  <option value="AABB">AABB</option>
+                  <option value="AB" data-translate="pattern.train.pattern.ab">AB</option>
+                  <option value="AAB" data-translate="pattern.train.pattern.aab">AAB</option>
+                  <option value="ABB" data-translate="pattern.train.pattern.abb">ABB</option>
+                  <option value="ABC" data-translate="pattern.train.pattern.abc">ABC</option>
+                  <option value="AABB" data-translate="pattern.train.pattern.aabb">AABB</option>
                 </select>
 
-                <label for="worksheetThemeSelect" style="margin-top:15px;">OR Select theme for auto-picking (Optional):</label>
+                <label for="worksheetThemeSelect" style="margin-top:15px;" data-translate="pattern.train.or.select.theme">OR Select theme for auto-picking (Optional):</label>
                 <select id="worksheetThemeSelect">
-                    <option value="none">-- Manual Image Selection --</option>
+                    <option value="none" data-translate="pattern.train.manual.image.selection">-- Manual Image Selection --</option>
                 </select>
 
-                <label for="clueCount" style="margin-top:15px;">Number of Clues (4-10):</label>
+                <label for="clueCount" style="margin-top:15px;" data-translate="pattern.train.number.clues">Number of Clues (4-10):</label>
                 <input type="number" id="clueCount" value="4" min="4" max="10" />
 
                 <label for="includeNameDateCheckbox" class="checkbox-label" style="margin-top: 15px;">
-                    <input type="checkbox" id="includeNameDateCheckbox" />Include Name/Date Fields
+                    <input type="checkbox" id="includeNameDateCheckbox" /><span data-translate="pattern.train.include.name.date">Include Name/Date Fields</span>
                 </label>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Image Selection</button>
+            <button class="accordion-button" data-translate="pattern.train.image.selection">Image Selection</button>
             <div class="accordion-content">
                 <div class="dictionary-section panel-section" style="border-bottom:none; padding:0;">
-                  <label for="themeSelect">Image Theme (for dictionary):</label>
+                  <label for="themeSelect" data-translate="pattern.train.image.theme">Image Theme (for dictionary):</label>
                   <select id="themeSelect"></select>
-                  <input type="text" id="searchInput" placeholder="Search images for manual selection..." />
-                  <div class="dictionary" id="dictionary"><p class="dictionary-message">Loading themes...</p></div>
+                  <input type="text" id="searchInput" data-translate-placeholder="pattern.train.search.images.placeholder" />
+                  <div class="dictionary" id="dictionary"><p class="dictionary-message" data-translate="pattern.train.loading.themes">Loading themes...</p></div>
                 </div>
                 <div id="dictionaryPreview"></div>
 
-                <label for="imageUploadInput" style="margin-top:10px;">Select image(s) to upload:</label>
+                <label for="imageUploadInput" style="margin-top:10px;" data-translate="pattern.train.select.images.upload">Select image(s) to upload:</label>
                 <input type="file" id="imageUploadInput" multiple accept="image/*">
-                <label style="margin-top:10px;">Your Uploaded Images (This Session):</label>
+                <label style="margin-top:10px;" data-translate="pattern.train.uploaded.images.session">Your Uploaded Images (This Session):</label>
                 <div id="uploadedImagesPreview">
-                    <p class="dictionary-message">Your uploaded images will appear here.</p>
+                    <p class="dictionary-message" data-translate="pattern.train.uploaded.images.appear">Your uploaded images will appear here.</p>
                 </div>
 
                 <div class="assigned-section panel-section" style="border-bottom:none; padding:0; margin-top:15px;">
-                    <h4>Your Selected Images</h4>
+                    <h4 data-translate="pattern.train.your.selected.images">Your Selected Images</h4>
                     <div class="assigned-images" id="assignedImages"></div>
                 </div>
             </div>
@@ -833,8 +833,8 @@
                 <div class="toolbar-item">
                     <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
                     <div class="dropdown-content" id="layersDropdown">
-                        <button id="toolbarBringForwardBtn">Bring Forward</button>
-                        <button id="toolbarSendBackwardBtn">Send Backward</button>
+                        <button id="toolbarBringForwardBtn" data-translate="pattern.train.bring.forward">Bring Forward</button>
+                        <button id="toolbarSendBackwardBtn" data-translate="pattern.train.send.backward">Send Backward</button>
                     </div>
                 </div>
             </div>
@@ -842,7 +842,7 @@
                 <div class="toolbar-item">
                     <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
                     <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
-                        <p style="font-size:11px; margin-bottom:5px; color:#555;">Align Selected:</p>
+                        <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="pattern.train.align.selected">Align Selected:</p>
                         <div>
                             <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
                             <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
@@ -854,7 +854,7 @@
                             <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
                         </div>
                         <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
-                        <p style="font-size:11px; margin-bottom:5px; color:#555;">Align to Page:</p>
+                        <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="pattern.train.align.to.page">Align to Page:</p>
                         <div>
                             <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
                             <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
@@ -867,25 +867,25 @@
             </div>
         </div>
         <div class="top-right-actions">
-            <button id="generateBtn" class="action-button accent" disabled>Generate Worksheet</button>
+            <button id="generateBtn" class="action-button accent" disabled data-translate="pattern.train.generate.worksheet">Generate Worksheet</button>
             <div class="dropdown-container">
-                <button id="downloadDropdownBtn" class="action-button secondary" disabled>Download <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                <button id="downloadDropdownBtn" class="action-button secondary" disabled data-translate="pattern.train.download">Download <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
                 <div id="downloadDropdownContent" class="dropdown-content">
-                    <button id="downloadWsJpegBtn" disabled>Worksheet (JPEG)</button>
-                    <button id="downloadAkJpegBtn" disabled>Answer Key (JPEG)</button>
-                    <button id="downloadWsPdfBtn" disabled>Worksheet (PDF)</button>
-                    <button id="downloadAkPdfBtn" disabled>Answer Key (PDF)</button>
+                    <button id="downloadWsJpegBtn" disabled data-translate="pattern.train.worksheet.jpeg">Worksheet (JPEG)</button>
+                    <button id="downloadAkJpegBtn" disabled data-translate="pattern.train.answer.key.jpeg">Answer Key (JPEG)</button>
+                    <button id="downloadWsPdfBtn" disabled data-translate="pattern.train.worksheet.pdf">Worksheet (PDF)</button>
+                    <button id="downloadAkPdfBtn" disabled data-translate="pattern.train.answer.key.pdf">Answer Key (PDF)</button>
                     <label class="checkbox-label">
-                        <input type="checkbox" id="grayscaleToggle" />Grayscale
+                        <input type="checkbox" id="grayscaleToggle" /><span data-translate="pattern.train.grayscale">Grayscale</span>
                     </label>
                 </div>
             </div>
-            <button id="clearBtn" class="action-button danger">Clear All</button>
+            <button id="clearBtn" class="action-button danger" data-translate="pattern.train.clear.all">Clear All</button>
         </div>
 
         <div class="tab-row">
-            <button class="tab-button active" data-tab="worksheetTab">Worksheet (Canvas)</button>
-            <button class="tab-button" data-tab="answerKeyTab">Answer Key (Canvas)</button>
+            <button class="tab-button active" data-tab="worksheetTab" data-translate="pattern.train.worksheet.canvas">Worksheet (Canvas)</button>
+            <button class="tab-button" data-tab="answerKeyTab" data-translate="pattern.train.answer.key.canvas">Answer Key (Canvas)</button>
         </div>
         <div class="tab-content-wrapper">
             <div class="tab active" id="worksheetTab">
@@ -918,6 +918,39 @@
         currentLocale = urlParams.get('locale');
     }
     window.currentLocale = currentLocale;
+
+    /********************************
+     * Translation Functions
+     ********************************/
+    function t(key) {
+      if (typeof translations === 'undefined') {
+        console.warn('Translations not loaded:', key);
+        return key;
+      }
+      const locale = window.currentLocale || 'en';
+      return translations[locale]?.[key] || translations.en?.[key] || key;
+    }
+
+    function applyTranslations() {
+      // Translate elements with data-translate
+      document.querySelectorAll('[data-translate]').forEach(el => {
+        const key = el.getAttribute('data-translate');
+        if (key) el.textContent = t(key);
+      });
+
+      // Translate placeholders
+      document.querySelectorAll('[data-translate-placeholder]').forEach(el => {
+        const key = el.getAttribute('data-translate-placeholder');
+        if (key) el.placeholder = t(key);
+      });
+    }
+
+    // Apply translations after a delay to ensure translations are loaded
+    setTimeout(() => {
+      applyTranslations();
+      if (typeof translatePage !== 'undefined') translatePage();
+    }, 100);
+
     let patternElements = [];
     let selectedImages = [];
     let elementToImage = {};
@@ -1105,7 +1138,7 @@
                 [newWidth, newHeight] = pageSizeSelect.value.split('x').map(Number);
             }
             updateCanvasDisplayDimensions(newWidth, newHeight);
-            showMessage("Page size updated.", "success", 1500);
+            showMessage(t("pattern.train.msg.page.size.updated"), "success", 1500);
         });
 
         pageColorInput.addEventListener('input', () => {
@@ -1497,7 +1530,7 @@
         activeCanvas.setActiveObject(textObject);
         activeCanvas.renderAll();
         const canvasName = activeCanvas === worksheetCanvas ? 'worksheet' : 'answer key';
-        showMessage(`Text added to ${canvasName}.`, 'success', 1500);
+        showMessage(t('pattern.train.msg.text.added').replace('{canvas}', canvasName), 'success', 1500);
     }
 
     function updateActiveTextObjectProperties() {
@@ -1556,12 +1589,12 @@
       pageColorInput.value = '#FFFFFF';
       
       borderThemeSelect.value = "none";
-      borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
+      borderDictionary.innerHTML = `<p class="dictionary-message">${t('pattern.train.select.theme.borders')}</p>`;
       borderOpacityInput.value = 1;
       borderOpacityInput.disabled = true;
 
       backgroundThemeSelect.value = "none";
-      backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme for backgrounds.</p>';
+      backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('pattern.train.select.theme.backgrounds')}</p>`;
       backgroundOpacityInput.value = 1;
       backgroundOpacityInput.disabled = true;
       
@@ -1594,15 +1627,15 @@
             selectedImages = [];
             elementToImage = {};
             updateAssignedImagesPanel();
-            showMessage(`Worksheet will use theme: ${selectedWsTheme}. Images auto-selected on generation.`);
+            showMessage(t('pattern.train.msg.worksheet.theme').replace('{theme}', selectedWsTheme));
             searchInput.disabled = true;
             themeSelect.disabled = true;
-            dictionaryDiv.innerHTML = '<p class="dictionary-message">Worksheet theme selected. Manual image selection via dictionary is disabled.</p>';
+            dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('pattern.train.worksheet.theme.selected')}</p>`;
         } else {
             searchInput.disabled = false;
             themeSelect.disabled = false;
             loadDictionary();
-            showMessage('Manual image selection activated.');
+            showMessage(t('pattern.train.msg.manual.selection'));
         }
         updateGenerateButtonState();
     });
@@ -1631,9 +1664,9 @@
     }
 
     async function initializeImageLibrary() {
-        showMessage("Loading image library...", "info", 0);
+        showMessage(t("pattern.train.msg.loading.library"), "info", 0);
         await fetchThemes();
-        showMessage("Image themes loaded.", "success", 2000);
+        showMessage(t("pattern.train.msg.themes.loaded"), "success", 2000);
         loadDictionary();
     }
     
@@ -1641,8 +1674,8 @@
         const themePaths = await fetchFromApi(`/api/themes-translated?locale=${currentLocale}`, 'Failed to load themes');
         allThemesData = themePaths; 
 
-        themeSelect.innerHTML = '<option value="all">All Themes (for dictionary)</option>';
-        worksheetThemeSelect.innerHTML = '<option value="none">-- Manual Image Selection --</option>';
+        themeSelect.innerHTML = `<option value="all">${t('pattern.train.all.themes')}</option>`;
+        worksheetThemeSelect.innerHTML = `<option value="none">${t('pattern.train.manual.image.selection')}</option>`;
 
         if (Array.isArray(themePaths)) {
             themePaths.forEach(theme => {
@@ -1668,19 +1701,19 @@
         const query = searchInput.value.trim().toLowerCase();
         
         if (worksheetThemeSelect.value !== 'none') {
-           dictionaryDiv.innerHTML = '<p class="dictionary-message">Worksheet theme selected. Manual image selection via dictionary is disabled.</p>';
+           dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('pattern.train.worksheet.theme.selected')}</p>`;
            return;
         }
 
-        dictionaryDiv.innerHTML = ''; 
+        dictionaryDiv.innerHTML = '';
         let imagesToDisplay = [];
 
         if (selectedDictionaryTheme === 'all') {
             if (!query) {
-                dictionaryDiv.innerHTML = `<p class="dictionary-message">Type to search all images.</p>`;
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('pattern.train.msg.type.search')}</p>`;
                 return;
             }
-            dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+            dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('pattern.train.msg.searching')}</p>`;
             const searchResponse = await fetchFromApi(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`, `Failed to search for "${query}"`);
             imagesToDisplay = searchResponse.images || searchResponse; // Handle both new and old API formats
         } else {
@@ -1694,7 +1727,7 @@
         }
 
         if (imagesToDisplay.length === 0) {
-            dictionaryDiv.innerHTML = `<p class="dictionary-message">No images found${query ? ` matching "${query}"` : ''}.</p>`;
+            dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('pattern.train.msg.no.images')}${query ? ` ${t('pattern.train.msg.matching')} "${query}"` : ''}.</p>`;
             return;
         }
 
@@ -1715,7 +1748,7 @@
     function renderUploadedImages() {
         uploadedImagesPreviewDiv.innerHTML = "";
         if (uploadedImages.length === 0) {
-            uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">Your uploaded images will appear here.</p>`;
+            uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">${t('pattern.train.uploaded.images.appear')}</p>`;
             return;
         }
         uploadedImages.forEach(imgData => {
@@ -1736,22 +1769,22 @@
 
     function handleDictionaryItemClick(imgData) {
       if (worksheetThemeSelect.value !== 'none') {
-        showMessage("Switch to '-- Manual Image Selection --' to select images from dictionary.");
+        showMessage(t("pattern.train.msg.switch.manual"));
         return;
       }
       dictionaryPreviewEl.innerHTML = `<img src="${imgData.path}" alt="${imgData.word}" title="${imgData.word}" crossOrigin="anonymous"/>`;
-      if (selectedImages.find(e=>e.path===imgData.path)) { showMessage('Image already selected for pattern.', 'info'); return; }
-      if (selectedImages.length >= patternElements.length) { showMessage('All image slots filled for pattern. Clear selections or change pattern.', 'error'); return; }
-      
+      if (selectedImages.find(e=>e.path===imgData.path)) { showMessage(t('pattern.train.msg.already.selected'), 'info'); return; }
+      if (selectedImages.length >= patternElements.length) { showMessage(t('pattern.train.msg.slots.filled'), 'error'); return; }
+
       selectedImages.push(imgData);
       updateAssignedImagesPanel();
       updateGenerateButtonState();
-      showMessage(`Assigned "${imgData.word}" to pattern.`, "success");
+      showMessage(t('pattern.train.msg.assigned').replace('{word}', imgData.word), "success");
     }
 
     clearBtn.addEventListener('click', () => {
       clearAllSelectionsAndState();
-      showMessage("All selections and worksheet cleared.", "success", 2000);
+      showMessage(t("pattern.train.msg.cleared"), "success", 2000);
     });
     
     imageUploadInput.addEventListener('change', (e) => {
@@ -1760,20 +1793,20 @@
         const imageFiles = Array.from(files).filter(f => f.type.startsWith('image/'));
         if (imageFiles.length === 0) return;
         
-        uploadedImagesPreviewDiv.innerHTML = `<p class='dictionary-message'>Loading ${imageFiles.length} image(s)...</pに対し、`;
-        
+        uploadedImagesPreviewDiv.innerHTML = `<p class='dictionary-message'>${t('pattern.train.msg.loading.images').replace('{count}', imageFiles.length)}</p>`;
+
         Promise.all(imageFiles.map(file => new Promise((resolve, reject) => {
             const reader = new FileReader();
             reader.onload = (event) => resolve({ word: file.name.split('.')[0], path: event.target.result });
             reader.onerror = (err) => {
-                showMessage(`Error reading file: ${file.name}`, 'error');
+                showMessage(t('pattern.train.msg.error.reading').replace('{file}', file.name), 'error');
                 reject(err);
             };
             reader.readAsDataURL(file);
         }))).then(newImages => {
             uploadedImages.push(...newImages.filter(img => !uploadedImages.some(existing => existing.path === img.path)));
             renderUploadedImages();
-            showMessage(`${uploadedImages.length} custom image(s) available.`, 'success');
+            showMessage(t('pattern.train.msg.images.available').replace('{count}', uploadedImages.length), 'success');
         });
         imageUploadInput.value = '';
     });
@@ -1802,7 +1835,7 @@
     });
 
     generateBtn.addEventListener('click', async () => {
-      showMessage("Generating worksheet...", "info", 0);
+      showMessage(t("pattern.train.msg.generating"), "info", 0);
       patternElements = Array.from(new Set(patternSelect.value.split('')));
 
       const selectedWsTheme = worksheetThemeSelect.value;
@@ -1815,7 +1848,7 @@
           const fullImageLibrary = [...themeImages, ...uploadedImages];
 
           if (fullImageLibrary.length < patternElements.length) {
-            showMessage(`Theme "${selectedWsTheme}" (and your uploads) has only ${fullImageLibrary.length} unique image(s). Need ${patternElements.length} for pattern "${patternSelect.value}". Select more images manually or choose a different theme/pattern.`, 'error');
+            showMessage(t('pattern.train.msg.theme.not.enough').replace('{theme}', selectedWsTheme).replace('{count}', fullImageLibrary.length).replace('{need}', patternElements.length).replace('{pattern}', patternSelect.value), 'error');
             updateDownloadButtonsState(false);
             return;
           }
@@ -1824,26 +1857,26 @@
           let availableImages = [...fullImageLibrary];
           for (let i = 0; i < patternElements.length; i++) {
             if (availableImages.length === 0) {
-              showMessage(`Not enough unique images in theme "${selectedWsTheme}" during selection process.`, 'error');
+              showMessage(t('pattern.train.msg.not.enough.unique').replace('{theme}', selectedWsTheme), 'error');
               updateDownloadButtonsState(false);
               return;
             }
             const randomIndex = Math.floor(Math.random() * availableImages.length);
             selectedImages.push(availableImages[randomIndex]);
-            availableImages.splice(randomIndex, 1); 
+            availableImages.splice(randomIndex, 1);
           }
           updateAssignedImagesPanel();
-          showMessage(`Images for pattern "${patternSelect.value}" randomly selected from theme "${selectedWsTheme}".`, 'success', 2000);
+          showMessage(t('pattern.train.msg.images.selected').replace('{pattern}', patternSelect.value).replace('{theme}', selectedWsTheme), 'success', 2000);
 
         } catch (error) {
           console.error("Error auto-selecting images from theme:", error);
-          showMessage(`Error: ${error.message}. Please try again or select manually.`, 'error');
+          showMessage(t('pattern.train.msg.error.auto').replace('{error}', error.message), 'error');
           updateDownloadButtonsState(false);
           return;
         }
       } else {
         if (selectedImages.length !== patternElements.length) {
-          showMessage("Please select all images for the pattern or choose a worksheet theme.", 'error');
+          showMessage(t("pattern.train.msg.select.all.images"), 'error');
           updateDownloadButtonsState(false);
           return;
         }
@@ -2034,7 +2067,7 @@
 
         } catch (error) {
             console.error("Error building worksheet:", error);
-            showMessage(`Error: ${error.message}`, 'error');
+            showMessage(t('pattern.train.msg.error').replace('{error}', error.message), 'error');
         } finally {
             // --- Part B, Step 4: Finalize Canvas ---
             enforceZOrder(worksheetCanvas);
@@ -2173,7 +2206,7 @@
 
         } catch (error) {
             console.error("Error building answer key on canvas:", error);
-            showMessage(`Answer Key Error: ${error.message}`, 'error');
+            showMessage(t('pattern.train.msg.answer.key.error').replace('{error}', error.message), 'error');
         } finally {
             answerKeyCanvas.renderAll();
         }
@@ -2259,8 +2292,8 @@
     }
 
     async function downloadImageFile(canvasToExport, baseFilename) {
-        if (!canvasToExport || canvasToExport.getObjects().length === 0) { showMessage("Please generate content first.", "error"); return; }
-        showMessage('Preparing JPEG...', 'info', 0);
+        if (!canvasToExport || canvasToExport.getObjects().length === 0) { showMessage(t("pattern.train.msg.generate.first"), "error"); return; }
+        showMessage(t('pattern.train.msg.preparing.jpeg'), 'info', 0);
         const exportOpts = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
         try {
             const dataURL = await getFabricCanvasDataURLWithOptions(canvasToExport, exportOpts);
@@ -2268,9 +2301,9 @@
             link.download = `pattern_train_${baseFilename}.jpeg`;
             link.href = dataURL;
             link.click();
-            showMessage('JPEG Download Initiated!', 'success');
+            showMessage(t('pattern.train.msg.jpeg.downloaded'), 'success');
         } catch (e) {
-            showMessage(`JPEG Error: ${e.message}`, 'error');
+            showMessage(t('pattern.train.msg.jpeg.error').replace('{error}', e.message), 'error');
         }
     }
 
@@ -2344,9 +2377,9 @@
     if (originalDownloadPDF) {
         window.downloadPDF = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate content first.', 'error');
+                return showMessage(t('pattern.train.msg.generate.first'), 'error');
             }
-            showMessage('Preparing PDF...', 'info', 0);
+            showMessage(t('pattern.train.msg.preparing.pdf'), 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -2369,9 +2402,9 @@
                 pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
                 
                 pdf.save(fileName);
-                showMessage('PDF downloaded!', 'success');
-            } catch(e) { 
-                showMessage('Error creating PDF.', 'error'); 
+                showMessage(t('pattern.train.msg.pdf.downloaded'), 'success');
+            } catch(e) {
+                showMessage(t('pattern.train.msg.pdf.error'), 'error'); 
                 console.error(e); 
             } finally {
                 // Remove watermark after export
@@ -2385,9 +2418,9 @@
     if (originalDownloadJPEG) {
         window.downloadJPEG = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate a worksheet first.', 'error');
+                return showMessage(t('pattern.train.msg.generate.first'), 'error');
             }
-            showMessage('Preparing JPEG...', 'info', 0);
+            showMessage(t('pattern.train.msg.preparing.jpeg'), 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -2403,9 +2436,9 @@
                 link.href = dataURL;
                 link.download = fileName;
                 link.click();
-                showMessage('JPEG download initiated!', 'success');
-            } catch(e) { 
-                showMessage('Error preparing JPEG.', 'error'); 
+                showMessage(t('pattern.train.msg.jpeg.downloaded'), 'success');
+            } catch(e) {
+                showMessage(t('pattern.train.msg.jpeg.error'), 'error'); 
                 console.error(e); 
             } finally {
                 // Remove watermark after export
@@ -2416,18 +2449,18 @@
 
 async function downloadPDF(canvasToExport, baseFilename) {
         console.log('downloadPDF called with:', baseFilename);
-        
-        if (!canvasToExport || canvasToExport.getObjects().length === 0) { 
-            showMessage("Please generate content first.", "error"); 
-            return; 
+
+        if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+            showMessage(t("pattern.train.msg.generate.first"), "error");
+            return;
         }
-        
-        showMessage('Preparing PDF...', 'info', 0);
+
+        showMessage(t('pattern.train.msg.preparing.pdf'), 'info', 0);
         
         try {
             // Check if jsPDF is loaded
             if (!window.jspdf) {
-                throw new Error('jsPDF library not loaded');
+                throw new Error(t('pattern.train.msg.jspdf.not.loaded'));
             }
             
             const { jsPDF } = window.jspdf; 
@@ -2451,10 +2484,10 @@ async function downloadPDF(canvasToExport, baseFilename) {
             
             console.log('Saving PDF...');
             pdf.save(`pattern_train_${baseFilename}.pdf`);
-            showMessage("PDF Downloaded!", "success");
+            showMessage(t("pattern.train.msg.pdf.downloaded"), "success");
         } catch (e) {
             console.error('PDF Error:', e);
-            showMessage(`PDF Error: ${e.message}`, "error");
+            showMessage(t('pattern.train.msg.pdf.error').replace('{error}', e.message), "error");
         }
     }
     
@@ -2462,7 +2495,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
     async function loadBorderThemes() {
         try {
             // First option is always None
-            borderThemeSelect.innerHTML = '<option value="none">None</option>';
+            borderThemeSelect.innerHTML = `<option value="none">${t('pattern.train.none')}</option>`;
 
             // Fetch actual themes from the API
             const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
@@ -2496,13 +2529,13 @@ async function downloadPDF(canvasToExport, baseFilename) {
         }
 
         if (theme === 'none') {
-            borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
+            borderDictionary.innerHTML = `<p class="dictionary-message">${t('pattern.train.select.theme.borders')}</p>`;
             borderOpacityInput.value = 1;
             borderOpacityInput.disabled = true;
             return;
         }
 
-        borderDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} borders...</p>`;
+        borderDictionary.innerHTML = `<p class="dictionary-message">${t('pattern.train.msg.loading.borders').replace('{theme}', theme)}</p>`;
         const data = await fetchFromApi(`/api/borders/images?theme=${theme}`, `Failed to load images for border theme: ${theme}`);
         const images = data.images || data;
         renderBorderThumbnails(images);
@@ -2510,7 +2543,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
     
     function renderBorderThumbnails(borders) {
         if (borders.length === 0) {
-            borderDictionary.innerHTML = '<p class="dictionary-message">No borders in this theme.</p>';
+            borderDictionary.innerHTML = `<p class="dictionary-message">${t('pattern.train.msg.no.borders')}</p>`;
             return;
         }
 
@@ -2536,7 +2569,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
         if (!activeCanvas) return;
 
         fabric.Image.fromURL(path, (img) => {
-            if (!img) { showMessage('Failed to load border image.', 'error'); return; }
+            if (!img) { showMessage(t('pattern.train.msg.border.failed'), 'error'); return; }
 
             const existingBorder = activeCanvas.getObjects().find(obj => obj.isBorder);
             if (existingBorder) activeCanvas.remove(existingBorder);
@@ -2561,7 +2594,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
             activeCanvas.renderAll();
 
             borderOpacityInput.disabled = false;
-            showMessage('Border added.', 'success', 1500);
+            showMessage(t('pattern.train.msg.border.added'), 'success', 1500);
         }, { crossOrigin: 'anonymous' });
     }
 
@@ -2581,7 +2614,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
     async function loadBackgroundThemes() {
         try {
             // First option is always None
-            backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+            backgroundThemeSelect.innerHTML = `<option value="none">${t('pattern.train.none')}</option>`;
 
             // Fetch actual themes from the API
             const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
@@ -2615,13 +2648,13 @@ async function downloadPDF(canvasToExport, baseFilename) {
         }
 
         if (theme === 'none') {
-            backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme for backgrounds.</p>';
+            backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('pattern.train.select.theme.backgrounds')}</p>`;
             backgroundOpacityInput.value = 1;
             backgroundOpacityInput.disabled = true;
             return;
         }
 
-        backgroundDictionary.innerHTML = `<p class="dictionary-message">Loading ${theme} backgrounds...</p>`;
+        backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('pattern.train.msg.loading.backgrounds').replace('{theme}', theme)}</p>`;
         const data = await fetchFromApi(`/api/backgrounds/images?theme=${theme}`, `Failed to load images for background theme: ${theme}`);
         const images = data.images || data;
         renderBackgroundThumbnails(images);
@@ -2629,7 +2662,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
 
     function renderBackgroundThumbnails(backgrounds) {
         if (backgrounds.length === 0) {
-            backgroundDictionary.innerHTML = '<p class="dictionary-message">No backgrounds in this theme.</p>';
+            backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('pattern.train.msg.no.backgrounds')}</p>`;
             return;
         }
 
@@ -2655,7 +2688,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
         if (!activeCanvas) return;
 
         fabric.Image.fromURL(path, (img) => {
-            if (!img) { showMessage('Failed to load background image.', 'error'); return; }
+            if (!img) { showMessage(t('pattern.train.msg.background.failed'), 'error'); return; }
 
             const existingBackground = activeCanvas.getObjects().find(obj => obj.isBackground);
             if (existingBackground) activeCanvas.remove(existingBackground);
@@ -2679,7 +2712,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
             activeCanvas.renderAll();
 
             backgroundOpacityInput.disabled = false;
-            showMessage('Background added.', 'success', 1500);
+            showMessage(t('pattern.train.msg.background.added'), 'success', 1500);
         }, { crossOrigin: 'anonymous' });
     }
 
@@ -2741,7 +2774,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
 
         } catch(err) {
             console.error("Error replacing template:", err);
-            showMessage("Could not load the selected template.", "error");
+            showMessage(t("pattern.train.msg.template.error"), "error");
         }
     }
     // END: Template Functions

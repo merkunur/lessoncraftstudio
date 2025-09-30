@@ -532,7 +532,15 @@
             <button class="accordion-button" data-translate="pattern.worksheet.upload.custom">Upload Custom Images</button>
             <div class="accordion-content">
                 <label for="imageUploadInput" data-translate="pattern.worksheet.upload.select">Select image(s) to upload:</label>
-                <input type="file" id="imageUploadInput" multiple accept="image/*">
+                <div style="margin-top:8px;">
+                    <input type="file" id="imageUploadInput" multiple accept="image/*" style="display:none;">
+                    <button type="button" id="customFileButton" class="action-button" style="padding:8px 16px; font-size:13px; background-color:#4a90e2; color:white; border:none; border-radius:6px; cursor:pointer;">
+                        <span data-translate="pattern.worksheet.upload.button">Choose files</span>
+                    </button>
+                    <span id="fileCountDisplay" style="margin-left:12px; font-size:13px; color:#666;">
+                        <span data-translate="pattern.worksheet.upload.no.file">No file chosen</span>
+                    </span>
+                </div>
                 <label style="margin-top:10px;" data-translate="pattern.worksheet.uploaded.images">Your Uploaded Images:</label>
                 <div id="uploadedImagesPreview">
                     <p class="dictionary-message" data-translate="pattern.worksheet.uploaded.placeholder">Your uploaded images will appear here.</p>
@@ -847,7 +855,7 @@
             for (let i = 0; i < count; i++) {
                 const option = document.createElement('option');
                 option.value = i;
-                option.textContent = `Puzzle ${i + 1} Settings`;
+                option.textContent = t('pattern.worksheet.msg.puzzle.settings').replace('{number}', i + 1);
                 ui.configurePuzzleSelect.appendChild(option);
             }
             
@@ -883,15 +891,15 @@
               .then(themePaths => {
                   const themeFragment = document.createDocumentFragment();
                   const worksheetThemeFragment = document.createDocumentFragment();
-                  
+
                   const allOpt = document.createElement('option');
                   allOpt.value = 'all';
-                  allOpt.textContent = 'All Images (Search required)';
+                  allOpt.textContent = t('pattern.worksheet.msg.all.images');
                   themeFragment.appendChild(allOpt);
 
                   const noneOpt = document.createElement('option');
                   noneOpt.value = 'none';
-                  noneOpt.textContent = 'None (Use individual settings)';
+                  noneOpt.textContent = t('pattern.worksheet.theme.none');
                   worksheetThemeFragment.appendChild(noneOpt);
 
                   themePaths.forEach(theme => {
@@ -996,6 +1004,16 @@
                 searchTimeout = setTimeout(() => loadDictionaryImages(false), 300);
             });
             ui.imageUploadInput.addEventListener('change', handleImageUpload);
+
+            // Custom file button handler
+            const customFileButton = document.getElementById('customFileButton');
+            const fileCountDisplay = document.getElementById('fileCountDisplay');
+
+            if (customFileButton) {
+                customFileButton.addEventListener('click', () => {
+                    ui.imageUploadInput.click();
+                });
+            }
 
             setupDropdown(ui.generateDropdownBtn, ui.generateDropdownContent);
             setupDropdown(ui.downloadDropdownBtn, ui.downloadDropdownContent);
@@ -1114,7 +1132,7 @@
                 } else {
                     const placeholder = document.createElement('div');
                     placeholder.className = 'placeholder';
-                    placeholder.innerHTML = `<div class="symbol-text">${elementSymbol}</div><div class="symbol-desc">Click an image below</div>`;
+                    placeholder.innerHTML = `<div class="symbol-text">${elementSymbol}</div><div class="symbol-desc">${t('pattern.worksheet.msg.click.below')}</div>`;
                     itemDiv.appendChild(placeholder);
                 }
                 const span = document.createElement('span');
@@ -1268,8 +1286,25 @@
 
         function handleImageUpload(e) {
             const files = e.target.files;
-            if(!files || files.length === 0) return;
-            
+            const fileCountDisplay = document.getElementById('fileCountDisplay');
+
+            if(!files || files.length === 0) {
+                if (fileCountDisplay) {
+                    fileCountDisplay.innerHTML = '<span data-translate="pattern.worksheet.upload.no.file">No file chosen</span>';
+                    applyTranslations();
+                }
+                return;
+            }
+
+            // Update file count display
+            if (fileCountDisplay) {
+                if (files.length === 1) {
+                    fileCountDisplay.textContent = files[0].name;
+                } else {
+                    fileCountDisplay.textContent = t('pattern.worksheet.upload.files.selected').replace('{count}', files.length);
+                }
+            }
+
             Array.from(files).forEach(file => {
                 if(!file.type.startsWith('image/')) return;
                 const reader = new FileReader();

@@ -5,7 +5,7 @@
   <title>Missing Pieces Worksheet Generator</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="js/translations-missing-pieces.js?v=2"></script>
+  <script src="js/translations-missing-pieces.js?v=3"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
@@ -795,12 +795,12 @@
                 <input type="number" id="solutionOptionsInput" value="3" min="2" max="6">
                 <label for="pieceShapeSelect" data-translate="missingpieces.piece.shape">Piece Shape:</label>
                 <select id="pieceShapeSelect">
-                    <option value="square">Square</option>
-                    <option value="circle">Circle</option>
-                    <option value="rectPortrait">Rectangle (Portrait)</option>
-                    <option value="rectLandscape">Rectangle (Landscape)</option>
-                    <option value="ellipsePortrait">Ellipse (Portrait)</option>
-                    <option value="ellipseLandscape">Ellipse (Landscape)</option>
+                    <option value="square" data-translate="shape.square">Square</option>
+                    <option value="circle" data-translate="shape.circle">Circle</option>
+                    <option value="rectPortrait" data-translate="shape.rect.portrait">Rectangle (Portrait)</option>
+                    <option value="rectLandscape" data-translate="shape.rect.landscape">Rectangle (Landscape)</option>
+                    <option value="ellipsePortrait" data-translate="shape.ellipse.portrait">Ellipse (Portrait)</option>
+                    <option value="ellipseLandscape" data-translate="shape.ellipse.landscape">Ellipse (Landscape)</option>
                 </select>
             </div>
         </div>
@@ -822,8 +822,12 @@
         <div class="accordion-item">
             <button class="accordion-button" data-translate="missingpieces.upload.custom">Upload Custom Images</button>
             <div class="accordion-content">
-                <label for="imageUploadInput" data-translate="missingpieces.upload.select">Select image(s) to upload:</label>
-                <input type="file" id="imageUploadInput" multiple accept="image/*">
+                <label data-translate="missingpieces.upload.select">Select image(s) to upload:</label>
+                <div style="position: relative; margin: 10px 0;">
+                    <button type="button" id="customFileButton" class="action-button" style="padding: 8px 16px; font-size: 14px;" data-translate="chooseFiles">Choose Files</button>
+                    <span id="fileSelectionText" style="margin-left: 10px; color: var(--app-text-secondary-dark-theme);" data-translate="noFileChosen">No file chosen</span>
+                    <input type="file" id="imageUploadInput" multiple accept="image/*" style="position: absolute; left: -9999px;">
+                </div>
                 <label style="margin-top:10px;" data-translate="missingpieces.uploaded.images">Your Uploaded Images (This Session):</label>
                 <div id="uploadedImagesPreview">
                     <p class="dictionary-message" data-translate="missingpieces.uploaded.placeholder">Your uploaded images will appear here.</p>
@@ -1455,8 +1459,29 @@
                 selectedImagesPreviewDiv.appendChild(imgEl);
             });
         }
+        // Custom file button handler
+        const customFileButton = document.getElementById('customFileButton');
+        const fileSelectionText = document.getElementById('fileSelectionText');
+
+        if (customFileButton) {
+            customFileButton.addEventListener('click', () => {
+                imageUploadInput.click();
+            });
+        }
+
         imageUploadInput.addEventListener('change', (e) => {
             const imageFiles = Array.from(e.target.files).filter(f => f.type.startsWith('image/'));
+
+            // Update file selection text
+            if (fileSelectionText) {
+                const fileCount = imageFiles.length;
+                if (fileCount > 0) {
+                    fileSelectionText.textContent = t('filesSelected').replace('{count}', fileCount);
+                } else {
+                    fileSelectionText.textContent = t('noFileChosen');
+                }
+            }
+
             if (imageFiles.length === 0) return;
             let loadedCount = 0;
             imageFiles.forEach(file => {

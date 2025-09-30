@@ -919,7 +919,7 @@
                       loadDictionaryImages(false);
                   }
               })
-              .catch(err => { console.error("Error loading themes:", err); showMessage(err.message, 'error'); });
+              .catch(err => { console.error("Error loading themes:", err); showMessage(t('pattern.worksheet.msg.loading.error'), 'error'); });
 
             // Border and background themes will be populated by BulletproofLoader
         }
@@ -1239,7 +1239,7 @@
             } catch (err) {
                 console.error("Error loading dictionary:", err);
                 ui.dictionary.innerHTML = `<p class='dictionary-message'>${t('pattern.worksheet.msg.loading.error')}</p>`;
-                showMessage(err.message, 'error');
+                showMessage(t('pattern.worksheet.msg.loading.error'), 'error');
             }
         }
         
@@ -1562,9 +1562,9 @@
                 imagePool.push(...(await res.json()));
             }
             
-            if (imagePool.length === 0) throw new Error(`No images found for theme '${themeName}'.`);
+            if (imagePool.length === 0) throw new Error(t('pattern.worksheet.msg.theme.no.images').replace('{theme}', themeName));
             const uniqueImagePool = [...new Map(imagePool.map(item => [item.path, item])).values()];
-            if (uniqueImagePool.length < count) throw new Error(`Not enough unique images in theme '${themeName}' for this pattern.`);
+            if (uniqueImagePool.length < count) throw new Error(t('pattern.worksheet.msg.theme.insufficient').replace('{theme}', themeName));
 
             const results = [];
             const shuffled = uniqueImagePool.sort(() => 0.5 - Math.random());
@@ -2417,7 +2417,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('pattern.worksheet.msg.loading.simple')}</p>`;
             try {
                 const res = await fetch(`/api/${type}s/images?theme=${theme}&locale=${currentLocale}`);
-                if (!res.ok) throw new Error(`Failed to load ${type} images.`);
+                if (!res.ok) throw new Error(t('pattern.worksheet.msg.asset.failed'));
                 const data = await res.json();
                 const images = data.images || data[`${type}s`] || data || [];
                 dictionaryDiv.innerHTML = "";

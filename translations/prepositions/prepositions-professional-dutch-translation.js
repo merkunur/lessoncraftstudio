@@ -102,7 +102,10 @@ const PREPOSITIONS_DUTCH_TRANSLATIONS = {
     "prepositions.shape.selected.count": "Geselecteerd: 0/8",
     "prepositions.theme.random.format": "{displayName} (Willekeurig)",
 
-    // ===== 10. UPLOAD SECTION (3 items) =====
+    // ===== 10. UPLOAD SECTION (3 items) =====    "prepositions.upload.button": "Bestanden kiezen",
+    "prepositions.upload.no.file": "Geen bestand gekozen",
+    "prepositions.upload.files.selected": "{count} bestanden geselecteerd",
+    
     "prepositions.upload.select": "Selecteer afbeelding(en) om te uploaden:",
     "prepositions.uploaded.images": "Uw geüploade afbeeldingen:",
     "prepositions.uploaded.placeholder": "Uw geüploade afbeeldingen verschijnen hier.",

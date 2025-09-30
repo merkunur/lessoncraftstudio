@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prepositions Worksheet Generator</title>
-    <script src="js/translations.js"></script>
+    <title data-translate="prepositions.page.title">Prepositions Worksheet Generator</title>
+    <script src="js/translations-prepositions.js?v=4"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <!-- Enhancement scripts for robust integration -->
@@ -89,8 +89,36 @@
         }
         .accordion-content input[type="color"] { width: 100%; padding: 2px; height: 38px; }
         .accordion-content input[type="range"] { padding: 0; }
-        .accordion-content input[type="file"] { color: var(--app-text-secondary-dark-theme); padding: 8px; }
-        .accordion-content input[type="file"]::file-selector-button { margin-right: 10px; border: 1px solid var(--app-border-dark); background: var(--app-bg-dark); padding: 4px 8px; border-radius: 3px; color: var(--app-text-primary-dark-theme); cursor: pointer; }
+        .accordion-content input[type="file"] { display: none; }
+        .custom-file-input-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 12px;
+            width: 100%;
+        }
+        .custom-file-button {
+            padding: 8px 16px;
+            background-color: var(--app-accent-primary);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 13px;
+            white-space: nowrap;
+            transition: background-color 0.2s;
+        }
+        .custom-file-button:hover {
+            background-color: var(--app-accent-primary-hover);
+        }
+        .custom-file-status {
+            color: var(--app-text-secondary-dark-theme);
+            font-size: 13px;
+            flex: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
         .accordion-content label.checkbox-label { display: flex; align-items: center; font-size: 13px; font-weight: 400; margin-bottom: 12px; cursor: pointer; color: var(--app-text-secondary-dark-theme); }
         .accordion-content input[type="checkbox"] { width: auto; margin-right: 8px; vertical-align: middle; accent-color: var(--app-accent-primary); }
         .accordion-content button {
@@ -255,17 +283,17 @@
             <div style="padding: 10px 15px; border-bottom: 1px solid var(--app-border-dark);">
                 <label for="languageSelect" style="color: var(--app-text-secondary-dark-theme); font-size: 12px; display: block; margin-bottom: 5px;" data-translate="language">Language</label>
                 <select id="languageSelect" style="width: 100%; padding: 6px; font-size: 13px; border-radius: 5px; border: 1px solid var(--app-border-dark); background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme);">
-                    <option value="en">English</option>
-                    <option value="de">Deutsch</option>
-                    <option value="fr">Français</option>
-                    <option value="es">Español</option>
-                    <option value="pt">Português</option>
-                    <option value="it">Italiano</option>
-                    <option value="nl">Nederlands</option>
-                    <option value="sv">Svenska</option>
-                    <option value="da">Dansk</option>
-                    <option value="no">Norsk</option>
-                    <option value="fi">Suomi</option>
+                    <option value="en" data-translate="language.english">English</option>
+                    <option value="de" data-translate="language.german">Deutsch</option>
+                    <option value="fr" data-translate="language.french">Français</option>
+                    <option value="es" data-translate="language.spanish">Español</option>
+                    <option value="pt" data-translate="language.portuguese">Português</option>
+                    <option value="it" data-translate="language.italian">Italiano</option>
+                    <option value="nl" data-translate="language.dutch">Nederlands</option>
+                    <option value="sv" data-translate="language.swedish">Svenska</option>
+                    <option value="da" data-translate="language.danish">Dansk</option>
+                    <option value="no" data-translate="language.norwegian">Norsk</option>
+                    <option value="fi" data-translate="language.finnish">Suomi</option>
                 </select>
             </div>
             <div class="panel-content">
@@ -274,12 +302,12 @@
                     <div class="accordion-content active">
                         <label for="pageSizeSelect" data-translate="paper_size">Paper Size:</label>
                         <select id="pageSizeSelect">
-                            <option value="612x792">Letter Portrait (8.5×11")</option>
-                            <option value="792x612">Letter Landscape (11×8.5")</option>
-                            <option value="595x842">A4 Portrait (210×297mm)</option>
-                            <option value="842x595">A4 Landscape (297×210mm)</option>
-                            <option value="1200x1200">Square (1200×1200)</option>
-                            <option value="custom">Custom</option>
+                            <option value="612x792" data-translate="page.size.letter.portrait">Letter Portrait (8.5×11")</option>
+                            <option value="792x612" data-translate="page.size.letter.landscape">Letter Landscape (11×8.5")</option>
+                            <option value="595x842" data-translate="page.size.a4.portrait">A4 Portrait (210×297mm)</option>
+                            <option value="842x595" data-translate="page.size.a4.landscape">A4 Landscape (297×210mm)</option>
+                            <option value="1200x1200" data-translate="page.size.square">Square (1200×1200)</option>
+                            <option value="custom" data-translate="page.size.custom">Custom</option>
                         </select>
                         <div id="customPageSizeInputs" style="display:none; margin-top: 8px;">
                             <label for="pageWidth" data-translate="width_px">Width (px):</label>
@@ -290,60 +318,60 @@
                         <button id="setPageSizeBtn" style="margin-top: 8px;" data-translate="apply_size">Apply Size</button>
                         
                         <h4 style="margin-top:15px;" data-translate="template">Template</h4>
-                        <label for="templateSelect">Worksheet Template:</label>
+                        <label for="templateSelect" data-translate="prepositions.template.label">Worksheet Template:</label>
                         <select id="templateSelect"></select>
 
-                        <label for="pageColor" style="margin-top:10px;">Page Color:</label>
+                        <label for="pageColor" style="margin-top:10px;" data-translate="prepositions.page.color">Page Color:</label>
                         <input type="color" id="pageColor" value="#FFFFFF">
-                        <h4>Background</h4>
-                        <label for="backgroundThemeSelect">Background Theme:</label>
+                        <h4 data-translate="prepositions.background.title">Background</h4>
+                        <label for="backgroundThemeSelect" data-translate="prepositions.background.theme">Background Theme:</label>
                         <select id="backgroundThemeSelect">
-                            <option value="none">None</option>
+                            <option value="none" data-translate="common.none">None</option>
                         </select>
-                        <label for="backgroundOpacity">Background Opacity:</label>
+                        <label for="backgroundOpacity" data-translate="prepositions.background.opacity">Background Opacity:</label>
                         <input type="range" id="backgroundOpacity" min="0" max="1" value="1" step="0.05">
-                        <div id="backgroundDictionary"><p class="dictionary-message">Select a theme for backgrounds.</p></div>
-                        <h4>Border</h4>
-                        <label for="borderThemeSelect">Border Theme:</label>
-                        <select id="borderThemeSelect"><option value="none">None</option></select>
-                        <label for="borderOpacity">Border Opacity:</label>
+                        <div id="backgroundDictionary"><p class="dictionary-message" data-translate="prepositions.background.message">Select a theme for backgrounds.</p></div>
+                        <h4 data-translate="prepositions.border.title">Border</h4>
+                        <label for="borderThemeSelect" data-translate="prepositions.border.theme">Border Theme:</label>
+                        <select id="borderThemeSelect"><option value="none" data-translate="common.none">None</option></select>
+                        <label for="borderOpacity" data-translate="prepositions.border.opacity">Border Opacity:</label>
                         <input type="range" id="borderOpacity" min="0" max="1" value="1" step="0.05">
-                        <div id="borderDictionary"><p class="dictionary-message">Select a theme to see borders.</p></div>
+                        <div id="borderDictionary"><p class="dictionary-message" data-translate="prepositions.border.message">Select a theme to see borders.</p></div>
                     </div>
                 </div>
 
                 <div class="accordion-item">
                     <button class="accordion-button" data-translate="text_tools">Text Tools</button>
                     <div class="accordion-content">
-                        <h4>Add New Text</h4>
-                        <label for="textInput">Content:</label><input type="text" id="textInput" placeholder="Worksheet Title...">
-                        <button id="addTextBtn">Add Text to Worksheet</button>
-                        <h4>Selected Text Properties</h4>
-                        <label for="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
-                        <label for="fontSize">Size:</label><input type="number" id="fontSize" value="36" min="8" disabled>
-                        <label for="fontFamily">Font:</label>
+                        <h4 data-translate="prepositions.text.add.new">Add New Text</h4>
+                        <label for="textInput" data-translate="prepositions.text.content">Content:</label><input type="text" id="textInput" data-translate-placeholder="prepositions.text.placeholder" placeholder="Worksheet Title...">
+                        <button id="addTextBtn" data-translate="prepositions.text.add.button">Add Text to Worksheet</button>
+                        <h4 data-translate="prepositions.text.properties">Selected Text Properties</h4>
+                        <label for="textColor" data-translate="prepositions.text.color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                        <label for="fontSize" data-translate="prepositions.text.size">Size:</label><input type="number" id="fontSize" value="36" min="8" disabled>
+                        <label for="fontFamily" data-translate="prepositions.text.font">Font:</label>
                         <select id="fontFamily" disabled>
-                            <option value="Lexend Deca">Lexend Deca</option>
-                            <option value="Baloo 2">Baloo 2</option>
-                            <option value="Nunito">Nunito</option>
-                            <option value="Quicksand">Quicksand</option>
-                            <option value="Fredoka">Fredoka</option>
-                            <option value="Arial">Arial</option>
-                            <option value="Verdana">Verdana</option>
+                            <option value="Lexend Deca" data-translate="font.lexend">Lexend Deca</option>
+                            <option value="Baloo 2" data-translate="font.baloo">Baloo 2</option>
+                            <option value="Nunito" data-translate="font.nunito">Nunito</option>
+                            <option value="Quicksand" data-translate="font.quicksand">Quicksand</option>
+                            <option value="Fredoka" data-translate="font.fredoka">Fredoka</option>
+                            <option value="Arial" data-translate="font.arial">Arial</option>
+                            <option value="Verdana" data-translate="font.verdana">Verdana</option>
                         </select>
-                        <label for="textStrokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
-                        <label for="textStrokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+                        <label for="textStrokeColor" data-translate="prepositions.text.outline.color">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                        <label for="textStrokeWidth" data-translate="prepositions.text.outline.width">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
                     </div>
                 </div>
                  <div class="accordion-item">
                     <button class="accordion-button" data-translate="configuration">Configuration</button>
                     <div class="accordion-content">
-                        <label for="exerciseCount">Number of Exercises (1-8):</label>
+                        <label for="exerciseCount" data-translate="prepositions.exercises.count">Number of Exercises (1-8):</label>
                         <input type="number" id="exerciseCount" value="8" min="1" max="8">
-                        <h4>Select Prepositions</h4>
+                        <h4 data-translate="prepositions.select.prepositions">Select Prepositions</h4>
                         <div id="prepositionsGrid" class="prepositions-grid"></div>
                         <label for="includeNameDateCheckbox" class="checkbox-label" style="margin-top: 15px;">
-                            <input type="checkbox" id="includeNameDateCheckbox" />Include Name/Date Fields
+                            <input type="checkbox" id="includeNameDateCheckbox" /><span data-translate="prepositions.include.name.date">Include Name/Date Fields</span>
                         </label>
                     </div>
                 </div>
@@ -351,17 +379,17 @@
                 <div class="accordion-item">
                     <button class="accordion-button" data-translate="item_selection">Item Selection</button>
                     <div class="accordion-content">
-                         <label for="itemThemeSelect">Generation Mode:</label>
+                         <label for="itemThemeSelect" data-translate="prepositions.generation.mode">Generation Mode:</label>
                         <select id="itemThemeSelect">
-                            <option value="manual">Manual Image Selection</option>
-                            <option value="all">All Themes (Random)</option>
+                            <option value="manual" data-translate="prepositions.manual.selection.option">Manual Selection</option>
+                            <option value="all" data-translate="prepositions.all.themes.option">All Themes</option>
                         </select>
                         <div id="itemManualSelectionGroup">
-                            <label for="themeSelect">Image Theme:</label>
+                            <label for="themeSelect" data-translate="prepositions.image.theme">Image Theme:</label>
                             <select id="themeSelect"></select>
-                            <input type="text" id="searchInput" placeholder="Search item images..." />
-                            <div class="dictionary-grid" id="dictionary"><p class="dictionary-message">Loading themes...</p></div>
-                            <p id="selectedCount" style="text-align:right; font-size:12px; margin-top:5px; color: var(--app-text-secondary-dark-theme);">Selected: 0/8</p>
+                            <input type="text" id="searchInput" data-translate-placeholder="prepositions.search.items.placeholder" placeholder="Search item images..." />
+                            <div class="dictionary-grid" id="dictionary"><p class="dictionary-message" data-translate="prepositions.loading.themes">Loading themes...</p></div>
+                            <p id="selectedCount" style="text-align:right; font-size:12px; margin-top:5px; color: var(--app-text-secondary-dark-theme);" data-translate="prepositions.selected.count">Selected: 0/8</p>
                         </div>
                     </div>
                 </div>
@@ -369,17 +397,17 @@
                 <div class="accordion-item">
                     <button class="accordion-button" data-translate="shape_replacement">Shape Replacement</button>
                     <div class="accordion-content">
-                        <label for="shapeThemeSelect">Generation Mode:</label>
+                        <label for="shapeThemeSelect" data-translate="prepositions.generation.mode">Generation Mode:</label>
                         <select id="shapeThemeSelect">
-                            <option value="manual">Manual Shape Selection</option>
-                            <option value="all">All Themes (Random)</option>
+                            <option value="manual" data-translate="prepositions.manual.shape.selection">Manual Shape Selection</option>
+                            <option value="all" data-translate="prepositions.all.themes.option">All Themes</option>
                         </select>
                         <div id="shapeManualSelectionGroup">
-                            <label for="shapeImageThemeSelect">Shape Image Theme:</label>
+                            <label for="shapeImageThemeSelect" data-translate="prepositions.shape.theme">Shape Image Theme:</label>
                             <select id="shapeImageThemeSelect"></select>
-                            <input type="text" id="shapeSearchInput" placeholder="Search shape images..." />
-                            <div class="dictionary-grid" id="shapeDictionary"><p class="dictionary-message">Loading themes...</p></div>
-                            <p id="selectedShapesCount" style="text-align:right; font-size:12px; margin-top:5px; color: var(--app-text-secondary-dark-theme);">Selected: 0/8</p>
+                            <input type="text" id="shapeSearchInput" data-translate-placeholder="prepositions.search.shapes.placeholder" placeholder="Search shape images..." />
+                            <div class="dictionary-grid" id="shapeDictionary"><p class="dictionary-message" data-translate="prepositions.loading.themes">Loading themes...</p></div>
+                            <p id="selectedShapesCount" style="text-align:right; font-size:12px; margin-top:5px; color: var(--app-text-secondary-dark-theme);" data-translate="prepositions.shape.selected.count">Selected: 0/8</p>
                         </div>
                     </div>
                 </div>
@@ -387,10 +415,14 @@
                 <div class="accordion-item">
                     <button class="accordion-button" data-translate="upload_custom_images">Upload Custom Images</button>
                     <div class="accordion-content">
-                        <label for="imageUploadInput">Select image(s) to upload:</label>
+                        <label for="imageUploadInput" data-translate="prepositions.upload.select">Select image(s) to upload:</label>
+                        <div class="custom-file-input-wrapper">
+                            <button type="button" class="custom-file-button" id="customFileButton" data-translate="prepositions.upload.button">Choose files</button>
+                            <span class="custom-file-status" id="customFileStatus" data-translate="prepositions.upload.no.file">No file chosen</span>
+                        </div>
                         <input type="file" id="imageUploadInput" multiple accept="image/*">
-                        <label style="margin-top:10px;">Your Uploaded Images:</label>
-                        <div class="dictionary-grid" id="uploadedImagesPreview"><p class="dictionary-message">Your uploaded images will appear here.</p></div>
+                        <label style="margin-top:10px;" data-translate="prepositions.uploaded.images">Your Uploaded Images:</label>
+                        <div class="dictionary-grid" id="uploadedImagesPreview"><p class="dictionary-message" data-translate="prepositions.uploaded.placeholder">Your uploaded images will appear here.</p></div>
                     </div>
                 </div>
 
@@ -405,28 +437,28 @@
             <div id="object-context-toolbar" style="display:none;">
                 <div class="toolbar-group">
                     <div class="toolbar-item">
-                        <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
+                        <button class="context-btn" id="layersBtn" data-translate="toolbar.layers" title="Layers"><i class="fas fa-layer-group"></i></button>
                         <div class="dropdown-content" id="layersDropdown">
-                            <button id="toolbarBringForwardBtn">Bring Forward</button>
-                            <button id="toolbarSendBackwardBtn">Send Backward</button>
+                            <button id="toolbarBringForwardBtn" data-translate="toolbar.bring.forward">Bring Forward</button>
+                            <button id="toolbarSendBackwardBtn" data-translate="toolbar.send.backward">Send Backward</button>
                         </div>
                     </div>
                 </div>
                 <div class="toolbar-group">
                     <div class="toolbar-item">
-                        <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
+                        <button class="context-btn" id="alignBtn" data-translate="toolbar.align" title="Align"><i class="fas fa-th"></i></button>
                         <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
-                            <p style="font-size:11px; margin-bottom:5px; color:#555;">Align Selected:</p>
-                            <div><button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button><button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button><button class="context-btn" id="alignRightBtn" title="Align Right"><i class="fas fa-align-right"></i></button></div>
-                            <div style="margin-top: 5px;"><button class="context-btn" id="alignTopBtn" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button><button class="context-btn" id="alignVCenterBtn" title="Center Vertically"><i class="fas fa-grip-lines"></i></button><button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button></div>
+                            <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.selected">Align Selected:</p>
+                            <div><button class="context-btn" id="alignLeftBtn" data-translate="toolbar.align.left" title="Align Left"><i class="fas fa-align-left"></i></button><button class="context-btn" id="alignHCenterBtn" data-translate="toolbar.center.h" title="Center Horizontally"><i class="fas fa-align-center"></i></button><button class="context-btn" id="alignRightBtn" data-translate="toolbar.align.right" title="Align Right"><i class="fas fa-align-right"></i></button></div>
+                            <div style="margin-top: 5px;"><button class="context-btn" id="alignTopBtn" data-translate="toolbar.align.top" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button><button class="context-btn" id="alignVCenterBtn" data-translate="toolbar.center.v" title="Center Vertically"><i class="fas fa-grip-lines"></i></button><button class="context-btn" id="alignBottomBtn" data-translate="toolbar.align.bottom" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button></div>
                             <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
-                            <p style="font-size:11px; margin-bottom:5px; color:#555;">Align to Page:</p>
-                            <div><button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button><button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button></div>
+                            <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.to.page">Align to Page:</p>
+                            <div><button class="context-btn" id="centerHCanvasBtn" data-translate="toolbar.center.page.h" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button><button class="context-btn" id="centerVCanvasBtn" data-translate="toolbar.center.page.v" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button></div>
                         </div>
                     </div>
                 </div>
                 <div class="toolbar-group">
-                    <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
+                    <button class="context-btn" id="toolbarDeleteBtn" data-translate="toolbar.delete" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
                 </div>
             </div>
 
@@ -439,20 +471,20 @@
                     </div>
                 </div>
                 <div class="dropdown-container">
-                    <button id="downloadDropdownBtn" class="action-button secondary" disabled>Download <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                    <button id="downloadDropdownBtn" class="action-button secondary" disabled><span data-translate="prepositions.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
                     <div id="downloadDropdownContent" class="dropdown-content">
-                        <button id="downloadWsJpegBtn" disabled>Worksheet (JPEG)</button>
-                        <button id="downloadAkJpegBtn" disabled>Answer Key (JPEG)</button>
-                        <button id="downloadWsPdfBtn" disabled>Worksheet (PDF)</button>
-                        <button id="downloadAkPdfBtn" disabled>Answer Key (PDF)</button>
-                        <label class="checkbox-label"><input type="checkbox" id="grayscaleToggle" />Grayscale</label>
+                        <button id="downloadWsJpegBtn" disabled data-translate="prepositions.download.worksheet.jpeg">Worksheet (JPEG)</button>
+                        <button id="downloadAkJpegBtn" disabled data-translate="prepositions.download.answer.jpeg">Answer Key (JPEG)</button>
+                        <button id="downloadWsPdfBtn" disabled data-translate="prepositions.download.worksheet.pdf">Worksheet (PDF)</button>
+                        <button id="downloadAkPdfBtn" disabled data-translate="prepositions.download.answer.pdf">Answer Key (PDF)</button>
+                        <label class="checkbox-label"><input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span></label>
                     </div>
                 </div>
-                <button id="clearBtn" class="action-button danger">Clear All</button>
+                <button id="clearBtn" class="action-button danger" data-translate="prepositions.clear.all">Clear All</button>
             </div>
             <div class="tab-row">
-                <button class="tab-button active" data-tab="worksheetTab">Worksheet</button>
-                <button class="tab-button" data-tab="answerKeyTab">Answer Key</button>
+                <button class="tab-button active" data-tab="worksheetTab" data-translate="prepositions.tab.worksheet">Worksheet</button>
+                <button class="tab-button" data-tab="answerKeyTab" data-translate="prepositions.tab.answer">Answer Key</button>
             </div>
             <div class="tab-content-wrapper">
                 <div class="tab active" id="worksheetTab"><div class="canvas-container-wrapper" id="worksheetCanvasWrapper"><canvas id="worksheetCanvasElement"></canvas></div></div>
@@ -473,6 +505,35 @@
         }
         window.currentLocale = currentLocale; // Make it globally accessible
         console.log('Global currentLocale set to:', currentLocale);
+
+        // Translation function with parameter substitution
+        function t(key, params = {}) {
+            if (typeof translations === 'undefined') {
+                console.warn('Translations not loaded:', key);
+                return key;
+            }
+            const locale = window.currentLocale || 'en';
+            let text = translations[locale]?.[key] || translations.en?.[key] || key;
+
+            // Replace parameters like {count}, {theme}, {type}, etc.
+            Object.keys(params).forEach(param => {
+                text = text.replace(new RegExp(`\\{${param}\\}`, 'g'), params[param]);
+            });
+
+            return text;
+        }
+
+        // Apply translations function
+        function applyTranslations() {
+            document.querySelectorAll('[data-translate]').forEach(el => {
+                const key = el.getAttribute('data-translate');
+                if (key) el.textContent = t(key);
+            });
+            document.querySelectorAll('[data-translate-placeholder]').forEach(el => {
+                const key = el.getAttribute('data-translate-placeholder');
+                if (key) el.placeholder = t(key);
+            });
+        }
     </script>
 
     <script>
@@ -608,6 +669,8 @@
                 shapeManualSelectionGroup: document.getElementById('shapeManualSelectionGroup'),
                 imageUploadInput: document.getElementById('imageUploadInput'),
                 uploadedImagesPreview: document.getElementById('uploadedImagesPreview'),
+                customFileButton: document.getElementById('customFileButton'),
+                customFileStatus: document.getElementById('customFileStatus'),
                 includeNameDateCheckbox: document.getElementById('includeNameDateCheckbox'),
                 exerciseCount: document.getElementById('exerciseCount'),
                 prepositionsGrid: document.getElementById('prepositionsGrid'),
@@ -712,9 +775,8 @@
             if (languageSelect) {
                 languageSelect.addEventListener('change', async function() {
                     currentLocale = this.value;
-                    if (typeof applyTranslations === 'function') {
-                        applyTranslations();
-                    }
+                    window.currentLocale = currentLocale;
+                    applyTranslations();
                     // Rebuild prepositions checklist with new translations
                     buildPrepositionsChecklist();
                     // Reload themes with new locale
@@ -772,6 +834,11 @@
             dom.shapeImageThemeSelect.addEventListener('change', handleManualShapeThemeChange);
             dom.shapeSearchInput.addEventListener('input', () => { if(this.searchTimeout) clearTimeout(this.searchTimeout); this.searchTimeout = setTimeout(() => renderDictionary('shape'), 300); });
             
+            // Custom file button handler
+            dom.customFileButton.addEventListener('click', () => {
+                dom.imageUploadInput.click();
+            });
+
             dom.imageUploadInput.addEventListener('change', handleImageUpload);
 
             dom.generateWorksheetBtn.addEventListener('click', generateWorksheet);
@@ -906,7 +973,7 @@
                 }
             });
             
-            showMessage("Page size updated.", "success", 1500);
+            showMessage(t("prepositions.msg.page.updated"), "success", 1500);
         }
 
         function updateCanvasDisplayDimensions(width, height) {
@@ -984,7 +1051,7 @@
         }
 
         async function loadTemplates() {
-            dom.templateSelect.innerHTML = '<option value="">None</option>';
+            dom.templateSelect.innerHTML = `<option value="">${t('common.none')}</option>`;
 
             try {
                 // Load worksheet templates from the API
@@ -1083,13 +1150,13 @@
                         enforceLayerOrder(canvas);
                     });
                 });
-            } catch(err) { showMessage("Could not load the selected template.", "error"); }
+            } catch(err) { showMessage(t("prepositions.msg.template.error"), "error"); }
         }
 
         async function fetchThemesFor(type) { return await fetchFromApi(`/api/${type}/themes?locale=${currentLocale}`, `Failed to load ${type} themes`); }
         async function loadBorderThemes() {
             const themes = await fetchThemesFor('borders');
-            dom.borderThemeSelect.innerHTML = '<option value="none">None</option>';
+            dom.borderThemeSelect.innerHTML = `<option value="none">${t('common.none')}</option>`;
             themes.forEach(theme => {
                 const option = document.createElement('option');
                 option.value = theme.value;
@@ -1099,7 +1166,7 @@
         }
         async function loadBackgroundThemes() {
             const themes = await fetchThemesFor('backgrounds');
-            dom.backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+            dom.backgroundThemeSelect.innerHTML = `<option value="none">${t('common.none')}</option>`;
             themes.forEach(theme => {
                 const option = document.createElement('option');
                 option.value = theme.value;
@@ -1144,7 +1211,7 @@
             if(typeKey === 'isBackground') currentBackgroundImagePath = path;
 
             fabric.Image.fromURL(path, (img) => {
-                if (!img) { showMessage(`Failed to load ${typeName} image.`, 'error'); return; }
+                if (!img) { showMessage(t('prepositions.msg.load.failed', { typeName }), 'error'); return; }
                 const opacityInput = document.getElementById(`${typeName}Opacity`);
 
                 const activeCanvas = getActiveCanvas();
@@ -1185,7 +1252,8 @@
 
                 activeCanvas.renderAll();
                 opacityInput.disabled = false;
-                showMessage(`${typeName.charAt(0).toUpperCase() + typeName.slice(1)} added.`, 'success', 1500);
+                const Type = typeName.charAt(0).toUpperCase() + typeName.slice(1);
+                showMessage(t('prepositions.msg.item.added', { Type }), 'success', 1500);
             }, { crossOrigin: 'anonymous' });
         }
 
@@ -1215,7 +1283,7 @@
         function addText() {
             const activeCanvas = getActiveCanvas();
             if (!activeCanvas) return;
-            const textObject = new fabric.Textbox(dom.textInput.value.trim() || 'New Text', {
+            const textObject = new fabric.Textbox(dom.textInput.value.trim() || t('prepositions.text.default'), {
                 left: (currentCanvasConfig.width - 250) / 2,
                 top: (currentCanvasConfig.height - 100) / 2,
                 fontSize: 48,
@@ -1296,8 +1364,8 @@
             const activeObjects = activeCanvas.getActiveObjects(); 
             if (activeObjects.length > 0) { 
                 activeObjects.forEach(obj => { 
-                    if (obj.isBorder) { dom.borderThemeSelect.value = 'none'; dom.borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>'; } 
-                    if (obj.isBackground) { dom.backgroundThemeSelect.value = 'none'; dom.backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme for backgrounds.</p>'; } 
+                    if (obj.isBorder) { dom.borderThemeSelect.value = 'none'; dom.borderDictionary.innerHTML = `<p class="dictionary-message">${t('prepositions.border.message')}</p>`; }
+                    if (obj.isBackground) { dom.backgroundThemeSelect.value = 'none'; dom.backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('prepositions.background.message')}</p>`; } 
                     if (obj.isTemplate) { dom.templateSelect.value = ''; currentTemplatePath = ''; } 
                     activeCanvas.remove(obj); 
                 }); 
@@ -1367,8 +1435,8 @@
             const selectors = [dom.themeSelect, dom.itemThemeSelect, dom.shapeImageThemeSelect, dom.shapeThemeSelect];
             selectors.forEach(sel => {
                 const isModeSelector = sel.id.endsWith('ThemeSelect') && !sel.id.includes('Image');
-                sel.innerHTML = `<option value="${isModeSelector ? 'manual' : 'all'}">${isModeSelector ? 'Manual Selection' : 'All Themes'}</option>`;
-                if (isModeSelector) sel.add(new Option('All Themes (Random)', 'all'));
+                sel.innerHTML = `<option value="${isModeSelector ? 'manual' : 'all'}">${isModeSelector ? t('prepositions.manual.selection.option') : t('prepositions.all.themes.option')}</option>`;
+                if (isModeSelector) sel.add(new Option(t('prepositions.all.themes.random'), 'all'));
             });
 
             if (Array.isArray(themePaths)) {
@@ -1403,9 +1471,9 @@
             let imagesToDisplay = [];
 
             if (theme === 'all') {
-                if (!query) { 
+                if (!query) {
                     // Load default theme (animals) when no search query
-                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading default images...</p>`;
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('prepositions.msg.loading.default')}</p>`;
                     try {
                         const response = await fetchFromApi(`/api/images?theme=animals&locale=${currentLocale}`, `Failed to load default images`);
                         imagesToDisplay = response.images || response;
@@ -1475,7 +1543,7 @@
                 selectionArray.splice(index, 1);
                 itemElement.classList.remove('selected');
             } else {
-                if (selectionArray.length >= exerciseCount) { showMessage(`You can only select up to ${exerciseCount} ${type} images.`, 'error'); return; }
+                if (selectionArray.length >= exerciseCount) { showMessage(t('prepositions.msg.max.selection', { exerciseCount, type }), 'error'); return; }
                 selectionArray.push(imgData);
                 itemElement.classList.add('selected');
             }
@@ -1483,12 +1551,40 @@
             if (isItem) updateGenerateButtonState();
         }
 
-        function handleImageUpload(e) { Promise.all(Array.from(e.target.files).map(file => new Promise((resolve, reject) => { const reader = new FileReader(); reader.onload = (event) => resolve({ word: file.name.split('.')[0], path: event.target.result, isUploaded: true }); reader.onerror = reject; reader.readAsDataURL(file); }))).then(newImages => { uploadedImages.push(...newImages); renderUploadedImages(); renderDictionary('item'); renderDictionary('shape'); }); e.target.value = ''; }
+        function handleImageUpload(e) {
+            const files = e.target.files;
+            if (!files || files.length === 0) {
+                dom.customFileStatus.textContent = t('prepositions.upload.no.file');
+                return;
+            }
+
+            // Update custom file status
+            const count = files.length;
+            if (count === 1) {
+                dom.customFileStatus.textContent = files[0].name;
+            } else {
+                dom.customFileStatus.textContent = t('prepositions.upload.files.selected', {count: count});
+            }
+
+            Promise.all(Array.from(files).map(file => new Promise((resolve, reject) => {
+                const reader = new FileReader();
+                reader.onload = (event) => resolve({ word: file.name.split('.')[0], path: event.target.result, isUploaded: true });
+                reader.onerror = reject;
+                reader.readAsDataURL(file);
+            }))).then(newImages => {
+                uploadedImages.push(...newImages);
+                renderUploadedImages();
+                renderDictionary('item');
+                renderDictionary('shape');
+            });
+            e.target.value = '';
+            dom.customFileStatus.textContent = t('prepositions.upload.no.file'); // Reset status
+        }
         function renderUploadedImages() { dom.uploadedImagesPreview.innerHTML = ""; if (uploadedImages.length === 0) { dom.uploadedImagesPreview.innerHTML = `<p class="dictionary-message">Your uploaded images appear here.</p>`; return; } uploadedImages.forEach(imgData => { const displayName = imgData.name || imgData.word; const item = document.createElement('div'); item.className = 'dictionary-item'; item.innerHTML = `<img src="${imgData.path}" alt="${displayName}"/><span>${displayName}</span>`; item.onclick = () => handleDictionaryItemClick(imgData, item, 'item'); dom.uploadedImagesPreview.appendChild(item); }); }
 
         // --- Core Generation Logic ---
         async function generateWorksheet() {
-            showMessage("Generating worksheet...", "info", 0);
+            showMessage(t("prepositions.msg.generating"), "info", 0);
 
             // --- Part B, Step 1: Preserve State ---
             const oldTransforms = {};
@@ -1509,17 +1605,17 @@
             
             const exerciseCount = parseInt(dom.exerciseCount.value, 10);
             const selectedPreps = Array.from(dom.prepositionsGrid.querySelectorAll('input:checked')).map(cb => cb.value);
-            if (selectedPreps.length === 0) { showMessage('Please select at least one preposition.', 'error'); return; }
+            if (selectedPreps.length === 0) { showMessage(t('prepositions.msg.select.preposition'), 'error'); return; }
 
             let itemsToUse = [];
             if (dom.itemThemeSelect.value === 'manual') {
-                if (selectedItems.length < exerciseCount) { showMessage(`Please select at least ${exerciseCount} item images.`, 'error'); return; }
+                if (selectedItems.length < exerciseCount) { showMessage(t('prepositions.msg.select.items', { exerciseCount }), 'error'); return; }
                 itemsToUse = shuffleArray(selectedItems).slice(0, exerciseCount);
             } else {
                 let themeResponse = (dom.itemThemeSelect.value === 'all') ? await fetchFromApi(`/api/images?search=&locale=${currentLocale}`, 'Failed to fetch all images') : await fetchFromApi(`/api/images?theme=${encodeURIComponent(dom.itemThemeSelect.value)}&locale=${currentLocale}`, 'Failed to fetch theme images');
                 let themeImages = themeResponse.images || themeResponse;
                 const allAvailable = [...themeImages, ...uploadedImages];
-                if (allAvailable.length < exerciseCount) { showMessage(`Not enough images in this theme (${allAvailable.length}) to generate.`, 'error'); return; }
+                if (allAvailable.length < exerciseCount) { showMessage(t('prepositions.msg.insufficient.images', { count: allAvailable.length }), 'error'); return; }
                 itemsToUse = shuffleArray(allAvailable).slice(0, exerciseCount);
             }
 
@@ -1569,15 +1665,15 @@
             
             updateDownloadButtonsState(true, !!(answerKeyCanvas.getObjects().find(o => o.isAnswerKeyItem)));
             updateGenerateButtonState();
-            showMessage("Worksheet generated!", "success");
+            showMessage(t("prepositions.msg.worksheet.generated"), "success");
         }
         
         async function generateAnswerKey() {
             if (!lastGeneratedAssignments) {
-                showMessage("Please generate a worksheet first.", "error");
+                showMessage(t("prepositions.msg.generate.first"), "error");
                 return;
             }
-            showMessage("Generating answer key...", "info", 0);
+            showMessage(t("prepositions.msg.generating.answer"), "info", 0);
 
             // --- Part C, Step 1: Preserve State ---
             const oldTransforms = {};
@@ -1639,7 +1735,7 @@
             answerKeyCanvas.renderAll();
 
             updateDownloadButtonsState(true, true);
-            showMessage("Answer key ready.", "success");
+            showMessage(t("prepositions.msg.answer.ready"), "success");
             document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
         }
 
@@ -1858,7 +1954,7 @@
             return allElements;
         }
 
-        function addNameDateGroup(canvasInstance) { const nameText = new fabric.Textbox("Name: ____________", { fontSize: 16, fontFamily: 'Arial' }); const dateText = new fabric.Textbox("Date: ____________", { left: nameText.width + 30, fontSize: 16, fontFamily: 'Arial' }); const group = new fabric.Group([nameText, dateText], { left: 50, top: 20, isNameDate: true, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 8, transparentCorners: false, cornerStyle: 'circle' }); canvasInstance.add(group); }
+        function addNameDateGroup(canvasInstance) { const nameText = new fabric.Textbox(t("prepositions.name.field"), { fontSize: 16, fontFamily: 'Arial' }); const dateText = new fabric.Textbox(t("prepositions.date.field"), { left: nameText.width + 30, fontSize: 16, fontFamily: 'Arial' }); const group = new fabric.Group([nameText, dateText], { left: 50, top: 20, isNameDate: true, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 8, transparentCorners: false, cornerStyle: 'circle' }); canvasInstance.add(group); }
         async function loadImage(url) { return new Promise((resolve) => fabric.Image.fromURL(url, resolve, { crossOrigin: 'anonymous' })); }
 
         // --- File Download ---
@@ -1866,10 +1962,10 @@
         async function applyGrayscaleToDataURL(dataURL) { return new Promise((resolve) => { const img = new Image(); img.onload = () => { const canvas = document.createElement('canvas'); const ctx = canvas.getContext('2d'); canvas.width = img.width; canvas.height = img.height; ctx.drawImage(img, 0, 0); const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height); const data = imageData.data; for (let i = 0; i < data.length; i += 4) { const gray = data[i] * 0.2126 + data[i + 1] * 0.7152 + data[i + 2] * 0.0722; data[i] = data[i + 1] = data[i + 2] = gray; } ctx.putImageData(imageData, 0, 0); resolve(canvas.toDataURL('image/jpeg', 1.0)); }; img.crossOrigin = "Anonymous"; img.src = dataURL; }); }
         async function downloadImageFile(canvasToExport, baseFilename) { 
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                showMessage('Canvas is empty, nothing to download.', 'error');
+                showMessage(t('prepositions.msg.empty.canvas'), 'error');
                 return;
             }
-            showMessage('Preparing JPEG...', 'info', 0); 
+            showMessage(t('prepositions.msg.preparing.jpeg'), 'info', 0); 
             const exportOpts = { multiplier: downloadMultiplier, applyGrayscale: dom.grayscaleToggle.checked }; 
             try { 
                 const dataURL = await getFabricCanvasDataURLWithOptions(canvasToExport, exportOpts); 
@@ -1877,9 +1973,9 @@
                 link.download = `${baseFilename}.jpeg`; 
                 link.href = dataURL; 
                 link.click();
-                showMessage('JPEG Download Initiated!', 'success');
+                showMessage(t('prepositions.msg.jpeg.initiated'), 'success');
             } catch (e) { 
-                showMessage(`JPEG Error: ${e.message}`, 'error'); 
+                showMessage(t('prepositions.msg.jpeg.error', { message: e.message }), 'error'); 
             }
         }
         
@@ -1893,7 +1989,7 @@
     function addWatermarkToCanvas(canvas) {
         if (!isFreeTier()) return;
         
-        const watermarkText = new fabric.Text('FREE VERSION - LessonCraftStudio.com', {
+        const watermarkText = new fabric.Text(t('prepositions.watermark.main'), {
             fontSize: 40,
             fill: 'rgba(0, 0, 0, 0.2)',
             angle: -45,
@@ -1912,7 +2008,7 @@
         const spacing = 250;
         for (let x = 0; x < canvas.width; x += spacing) {
             for (let y = 0; y < canvas.height; y += spacing) {
-                const wm = new fabric.Text('FREE VERSION', {
+                const wm = new fabric.Text(t('prepositions.watermark.small'), {
                     fontSize: 20,
                     fill: 'rgba(0, 0, 0, 0.15)',
                     angle: -45,
@@ -1952,9 +2048,9 @@
     if (originalDownloadPDF || true) {  // Always create the function
         window.downloadPDF = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate content first.', 'error');
+                return showMessage(t('prepositions.msg.generate.content.first'), 'error');
             }
-            showMessage('Preparing PDF...', 'info', 0);
+            showMessage(t('prepositions.msg.preparing.pdf'), 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -1998,9 +2094,9 @@
                 canvasToExport.renderAll();
                 
                 pdf.save(fileName);
-                showMessage('PDF downloaded!', 'success');
-            } catch(e) { 
-                showMessage('Error creating PDF.', 'error'); 
+                showMessage(t('prepositions.msg.pdf.downloaded'), 'success');
+            } catch(e) {
+                showMessage(t('prepositions.msg.pdf.error'), 'error'); 
                 console.error(e); 
             } finally {
                 // Remove watermark after export
@@ -2014,9 +2110,9 @@
     if (originalDownloadJPEG) {
         window.downloadJPEG = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate a worksheet first.', 'error');
+                return showMessage(t('prepositions.msg.generate.worksheet.first'), 'error');
             }
-            showMessage('Preparing JPEG...', 'info', 0);
+            showMessage(t('prepositions.msg.preparing.jpeg'), 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -2032,9 +2128,9 @@
                 link.href = dataURL;
                 link.download = fileName;
                 link.click();
-                showMessage('JPEG download initiated!', 'success');
+                showMessage(t('prepositions.msg.jpeg.initiated.alt'), 'success');
             } catch(e) { 
-                showMessage('Error preparing JPEG.', 'error'); 
+                showMessage(t('prepositions.msg.jpeg.error.simple'), 'error'); 
                 console.error(e); 
             } finally {
                 // Remove watermark after export
@@ -2065,8 +2161,8 @@
                 addTemplateToCanvases(currentTemplatePath);
             }
 
-            dom.borderThemeSelect.value = 'none'; dom.borderDictionary.innerHTML = '<p class="dictionary-message">Select a theme to see borders.</p>';
-            dom.backgroundThemeSelect.value = 'none'; dom.backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme for backgrounds.</p>';
+            dom.borderThemeSelect.value = 'none'; dom.borderDictionary.innerHTML = `<p class="dictionary-message">${t('prepositions.border.message')}</p>`;
+            dom.backgroundThemeSelect.value = 'none'; dom.backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('prepositions.background.message')}</p>`;
             dom.includeNameDateCheckbox.checked = false; dom.grayscaleToggle.checked = false;
             dom.pageSizeSelect.value = "612x792"; updateCanvasDisplayDimensions(612,792); // Letter Portrait default
             dom.exerciseCount.value = 8;
@@ -2077,7 +2173,7 @@
             renderUploadedImages(); 
             updateGenerateButtonState(); 
             updateDownloadButtonsState(false, false);
-            showMessage("Worksheet cleared.", "success");
+            showMessage(t("prepositions.msg.cleared"), "success");
         }
 
     </script>

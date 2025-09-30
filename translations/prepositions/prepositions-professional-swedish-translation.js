@@ -102,7 +102,10 @@ const PREPOSITIONS_SWEDISH_TRANSLATIONS = {
     "prepositions.shape.selected.count": "Valda: 0/8",
     "prepositions.theme.random.format": "{displayName} (Slumpmässigt)",
 
-    // ===== 10. UPLOAD SECTION (3 items) =====
+    // ===== 10. UPLOAD SECTION (3 items) =====    "prepositions.upload.button": "Välj filer",
+    "prepositions.upload.no.file": "Ingen fil vald",
+    "prepositions.upload.files.selected": "{count} filer valda",
+    
     "prepositions.upload.select": "Välj bild(er) att ladda upp:",
     "prepositions.uploaded.images": "Dina uppladdade bilder:",
     "prepositions.uploaded.placeholder": "Dina uppladdade bilder visas här.",

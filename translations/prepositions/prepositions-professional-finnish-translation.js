@@ -102,7 +102,10 @@ const PREPOSITIONS_FINNISH_TRANSLATIONS = {
     "prepositions.shape.selected.count": "Valittu: 0/8",
     "prepositions.theme.random.format": "{displayName} (Satunnainen)",
 
-    // ===== 10. UPLOAD SECTION (3 items) =====
+    // ===== 10. UPLOAD SECTION (3 items) =====    "prepositions.upload.button": "Valitse tiedostoja",
+    "prepositions.upload.no.file": "Ei tiedostoa valittu",
+    "prepositions.upload.files.selected": "{count} tiedostoa valittu",
+    
     "prepositions.upload.select": "Valitse ladattava(t) kuva(t):",
     "prepositions.uploaded.images": "Lataamasi kuvat:",
     "prepositions.uploaded.placeholder": "Lataamasi kuvat näkyvät tässä.",

@@ -102,7 +102,10 @@ const PREPOSITIONS_GERMAN_TRANSLATIONS = {
     "prepositions.shape.selected.count": "Ausgewählt: 0/8",
     "prepositions.theme.random.format": "{displayName} (Zufällig)",
 
-    // ===== 10. UPLOAD SECTION (3 items) =====
+    // ===== 10. UPLOAD SECTION (3 items) =====    "prepositions.upload.button": "Dateien auswählen",
+    "prepositions.upload.no.file": "Keine Datei ausgewählt",
+    "prepositions.upload.files.selected": "{count} Dateien ausgewählt",
+    
     "prepositions.upload.select": "Bild(er) zum Hochladen auswählen:",
     "prepositions.uploaded.images": "Ihre hochgeladenen Bilder:",
     "prepositions.uploaded.placeholder": "Ihre hochgeladenen Bilder erscheinen hier.",

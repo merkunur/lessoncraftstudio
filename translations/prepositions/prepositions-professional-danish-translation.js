@@ -102,7 +102,10 @@ const PREPOSITIONS_DANISH_TRANSLATIONS = {
     "prepositions.shape.selected.count": "Valgte: 0/8",
     "prepositions.theme.random.format": "{displayName} (Tilfældigt)",
 
-    // ===== 10. UPLOAD SECTION (3 items) =====
+    // ===== 10. UPLOAD SECTION (3 items) =====    "prepositions.upload.button": "Vælg filer",
+    "prepositions.upload.no.file": "Ingen fil valgt",
+    "prepositions.upload.files.selected": "{count} filer valgt",
+    
     "prepositions.upload.select": "Vælg billede(r) til upload:",
     "prepositions.uploaded.images": "Dine uploadede billeder:",
     "prepositions.uploaded.placeholder": "Dine uploadede billeder vises her.",

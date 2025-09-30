@@ -138,7 +138,9 @@
       "Bash(start \"file:///C:/Users/rkgen/lessoncraftstudio/frontend/public/worksheet-generators/pattern train.html?locale=sv\")",
       "Bash(start \"file:///C:/Users/rkgen/lessoncraftstudio/frontend/public/worksheet-generators/picture%20path.html?locale=sv\")",
       "Bash(start \"file:///C:/Users/rkgen/lessoncraftstudio/frontend/public/worksheet-generators/picture%20sort.html?locale=de\")",
-      "Bash(start \"file:///C:/Users/rkgen/lessoncraftstudio/frontend/public/worksheet-generators/picture%20sort.html?locale=sv\")"
+      "Bash(start \"file:///C:/Users/rkgen/lessoncraftstudio/frontend/public/worksheet-generators/picture%20sort.html?locale=sv\")",
+      "Bash(start \"file:///C:/Users/rkgen/lessoncraftstudio/frontend/public/worksheet-generators/prepositions.html?locale=de\")",
+      "Bash(start \"file:///C:/Users/rkgen/lessoncraftstudio/frontend/public/worksheet-generators/prepositions.html?locale=sv\")"
     ],
     "deny": [],
     "ask": []

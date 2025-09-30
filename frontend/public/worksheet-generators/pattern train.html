@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Pattern Train Worksheet App</title>
-  <script src="js/translations-pattern-train.js?v=2">
+  <script src="js/translations-pattern-train.js?v=3">
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
@@ -696,12 +696,12 @@
                 
                 <label for="pageSizeSelect" data-translate="pattern.train.page.size">Paper Size:</label>
                 <select id="pageSizeSelect">
-                    <option value="612x792" data-translate="paper.size.letter.portrait">Letter Portrait (8.5×11")</option>
-                    <option value="792x612" data-translate="paper.size.letter.landscape">Letter Landscape (11×8.5")</option>
-                    <option value="842x595" data-translate="paper.size.a4.landscape">A4 Landscape (297×210mm)</option>
-                    <option value="595x842" data-translate="paper.size.a4.portrait">A4 Portrait (210×297mm)</option>
-                    <option value="1200x1200" data-translate="paper.size.square">Square (1200x1200)</option>
-                    <option value="custom" data-translate="paper.size.custom">Custom</option>
+                    <option value="612x792" data-translate="page.size.letter.portrait">Letter Portrait (8.5×11")</option>
+                    <option value="792x612" data-translate="page.size.letter.landscape">Letter Landscape (11×8.5")</option>
+                    <option value="842x595" data-translate="page.size.a4.landscape">A4 Landscape (297×210mm)</option>
+                    <option value="595x842" data-translate="page.size.a4.portrait">A4 Portrait (210×297mm)</option>
+                    <option value="1200x1200" data-translate="page.size.square">Square (1200x1200)</option>
+                    <option value="custom" data-translate="page.size.custom">Custom</option>
                 </select>
                 <div id="customPageSizeInputs" style="display:none; margin-top: 8px;">
                     <label for="pageWidth" data-translate="pattern.train.width.label">Width (px):</label>
@@ -714,7 +714,7 @@
                 <h4 data-translate="pattern.train.template.title">Template</h4>
                 <label for="templateSelect" data-translate="pattern.train.template.label">Train Template:</label>
                 <select id="templateSelect">
-                    <option value="/images/background/train.png" data-translate="pattern.train.default.train">Default Train</option>
+                    <option value="/images/background/train.png" data-translate="common.none">Default Train</option>
                 </select>
 
                 <label for="pageColor" data-translate="pattern.train.page.color">Page Color:</label>
@@ -755,8 +755,8 @@
                 <label for="fontSize" data-translate="pattern.train.text.size">Size:</label><input type="number" id="fontSize" value="36" min="8" disabled>
                 <label for="fontFamily" data-translate="pattern.train.text.font">Font:</label>
                 <select id="fontFamily" disabled>
-                    <option value="Lexend Deca" data-translate="font.lexend.deca">Lexend Deca</option>
-                    <option value="Baloo 2" data-translate="font.baloo.2">Baloo 2</option>
+                    <option value="Lexend Deca" data-translate="font.lexend">Lexend Deca</option>
+                    <option value="Baloo 2" data-translate="font.baloo">Baloo 2</option>
                     <option value="Nunito" data-translate="font.nunito">Nunito</option>
                     <option value="Quicksand" data-translate="font.quicksand">Quicksand</option>
                     <option value="Fredoka" data-translate="font.fredoka">Fredoka</option>
@@ -769,11 +769,11 @@
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button" data-translate="pattern.train.pattern.configuration">Pattern Configuration</button>
+            <button class="accordion-button" data-translate="pattern.train.worksheet.config">Pattern Configuration</button>
             <div class="accordion-content">
                 <label for="patternSelect" data-translate="pattern.train.pattern.label">Select a pattern type:</label>
                 <select id="patternSelect">
-                  <option value="AB" data-translate="pattern.train.pattern.ab">AB</option>
+                  <option value="AB" data-translate="pattern.train.pattern.abab">AB</option>
                   <option value="AAB" data-translate="pattern.train.pattern.aab">AAB</option>
                   <option value="ABB" data-translate="pattern.train.pattern.abb">ABB</option>
                   <option value="ABC" data-translate="pattern.train.pattern.abc">ABC</option>
@@ -795,7 +795,7 @@
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button" data-translate="pattern.train.image.selection">Image Selection</button>
+            <button class="accordion-button" data-translate="pattern.train.upload.custom">Image Selection</button>
             <div class="accordion-content">
                 <div class="dictionary-section panel-section" style="border-bottom:none; padding:0;">
                   <label for="themeSelect" data-translate="pattern.train.theme.label">Image Theme (for dictionary):</label>
@@ -1675,7 +1675,7 @@
         allThemesData = themePaths; 
 
         themeSelect.innerHTML = `<option value="all">${t('pattern.train.all.themes')}</option>`;
-        worksheetThemeSelect.innerHTML = `<option value="none">${t('pattern.train.manual.image.selection')}</option>`;
+        worksheetThemeSelect.innerHTML = `<option value="none">${t('pattern.train.manual.selection')}</option>`;
 
         if (Array.isArray(themePaths)) {
             themePaths.forEach(theme => {
@@ -1710,7 +1710,7 @@
 
         if (selectedDictionaryTheme === 'all') {
             if (!query) {
-                dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('pattern.train.msg.type.search')}</p>`;
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('pattern.train.available.images')}</p>`;
                 return;
             }
             dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('pattern.train.msg.searching')}</p>`;
@@ -1748,7 +1748,7 @@
     function renderUploadedImages() {
         uploadedImagesPreviewDiv.innerHTML = "";
         if (uploadedImages.length === 0) {
-            uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">${t('pattern.train.uploaded.images.appear')}</p>`;
+            uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">${t('pattern.train.uploaded.placeholder')}</p>`;
             return;
         }
         uploadedImages.forEach(imgData => {
@@ -2495,7 +2495,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
     async function loadBorderThemes() {
         try {
             // First option is always None
-            borderThemeSelect.innerHTML = `<option value="none">${t('pattern.train.none')}</option>`;
+            borderThemeSelect.innerHTML = `<option value="none">${t('common.none')}</option>`;
 
             // Fetch actual themes from the API
             const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
@@ -2614,7 +2614,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
     async function loadBackgroundThemes() {
         try {
             // First option is always None
-            backgroundThemeSelect.innerHTML = `<option value="none">${t('pattern.train.none')}</option>`;
+            backgroundThemeSelect.innerHTML = `<option value="none">${t('common.none')}</option>`;
 
             // Fetch actual themes from the API
             const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);

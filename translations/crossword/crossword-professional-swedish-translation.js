@@ -41,6 +41,7 @@ const CROSSWORD_TRANSLATIONS_SV = {
     "uploadCustomImages": "Ladda upp egna bilder",
     "language": "Språk",
     "selectLanguage": "Välj språk:",
+    "language.note": "Bildnamn och teman visas på det valda språket.",
     "page": "Sida",
     "pageSize": "Sidstorlek:",
     "background": "Bakgrund",
@@ -119,11 +120,15 @@ const CROSSWORD_TRANSLATIONS_SV = {
     "crossword.selected.images": "Valda bilder:",
     "crossword.themes.all": "Alla teman",
     "crossword.generate.from.theme": "Skapa från tema",
+    "crossword.select.individual": "-- Eller välj enskilda bilder nedan --",
     "crossword.select.all": "Välj alla",
     "crossword.deselect.all": "Avmarkera alla",
 
-    // ============= 12. UPLOAD SECTION (3 keys) =============
+    // ============= 12. UPLOAD SECTION (6 keys) =============
     "crossword.upload.select": "Välj bilder att ladda upp:",
+    "crossword.upload.choose.files": "Välj filer",
+    "crossword.upload.no.file": "Ingen fil vald",
+    "crossword.upload.files.selected": "filer valda",
     "crossword.uploaded.label": "Dina uppladdade bilder (klicka för att använda):",
     "crossword.uploaded.placeholder": "Dina uppladdade bilder visas här.",
 
@@ -160,6 +165,7 @@ const CROSSWORD_TRANSLATIONS_SV = {
     // ============= 15. CANVAS TABS (2 keys) =============
     "crossword.tab.worksheet": "Arbetsblad",
     "crossword.tab.answer": "Facit",
+    "crossword.tab.puzzle": "Pussel",
 
     // ============= 16. SUCCESS MESSAGES (15 keys) =============
     "worksheetGenerated": "Arbetsblad skapat!",
@@ -207,6 +213,9 @@ const CROSSWORD_TRANSLATIONS_SV = {
     "crossword.msg.no.valid.puzzle": "Kunde inte generera ett giltigt korsord. Prova med andra bilder.",
     "crossword.msg.duplicate.words": "Dubbletter av ord upptäckta.",
     "crossword.msg.insufficient.images": "Otillräckligt med bilder för att fylla rutnätet.",
+    "crossword.msg.min.images": "Minst {min} bilder krävs.",
+    "crossword.msg.max.images": "Högst {max} bilder tillåtna.",
+    "crossword.msg.select.minimum.count": "Välj minst {count} bilder från biblioteket eller dina uppladdningar.",
 
     // ============= 18. LOADING & STATUS MESSAGES (8 keys) =============
     "preparingPDF": "Förbereder PDF...",

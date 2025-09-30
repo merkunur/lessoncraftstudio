@@ -31,11 +31,25 @@ const CROSSWORD_TRANSLATIONS_DE = {
     "language.norwegian": "Norwegisch",
     "language.finnish": "Finnisch",
 
-    // ============= 2. HAUPTBENUTZEROBERFLÄCHE (4 Schlüssel) =============
+    // ============= 2. HAUPTBENUTZEROBERFLÄCHE (15 Schlüssel) =============
+    "crossword": "Kreuzworträtsel",
     "language": "Sprache",
     "selectLanguage": "Sprache wählen:",
+    "language.note": "Bildnamen und Themen werden in der ausgewählten Sprache angezeigt.",
     "pageSetup": "Seiteneinstellung",
-    "backgroundTheme": "Hintergrund",
+    "page": "Seite",
+    "pageSize": "Seitenformat:",
+    "textTools": "Textwerkzeuge",
+    "gridOptions": "Rasteroptionen",
+    "imageLibrary": "Bildbibliothek",
+    "uploadCustomImages": "Eigene Bilder hochladen",
+    "background": "Hintergrund",
+    "backgroundTheme": "Hintergrundthema",
+    "fallbackColor": "Standardfarbe:",
+    "border": "Rahmen",
+    "borderTheme": "Rahmenthema",
+    "addNewText": "Text hinzufügen",
+    "noneUseFallback": "Keine (Standardfarbe verwenden)",
 
     // ============= 3. SEITENKOPF & TITEL (2 Schlüssel) =============
     "crossword.page.title": "Bilder-Kreuzworträtsel Generator",
@@ -106,9 +120,12 @@ const CROSSWORD_TRANSLATIONS_DE = {
     "crossword.select.minimum": "Wähle mindestens 8 Bilder oder nutze 'Aus Thema generieren'",
     "crossword.themes.all": "Alle Themen",
 
-    // ============= 10. UPLOAD-BEREICH (4 Schlüssel) =============
+    // ============= 10. UPLOAD-BEREICH (5 Schlüssel) =============
     "crossword.upload.title": "Eigene Bilder hochladen",
     "crossword.upload.select": "Bilder zum Hochladen auswählen:",
+    "crossword.upload.choose.files": "Dateien auswählen",
+    "crossword.upload.no.file": "Keine Datei ausgewählt",
+    "crossword.upload.files.selected": "Dateien ausgewählt",
     "crossword.uploaded.label": "Deine hochgeladenen Bilder (Klicken zum Hinzufügen/Entfernen):",
     "crossword.uploaded.placeholder": "Deine hochgeladenen Bilder erscheinen hier.",
 
@@ -145,6 +162,7 @@ const CROSSWORD_TRANSLATIONS_DE = {
     // ============= 13. ARBEITSBLATT-REGISTERKARTEN (2 Schlüssel) =============
     "crossword.tab.worksheet": "Arbeitsblatt",
     "crossword.tab.answer": "Lösungsblatt",
+    "crossword.tab.puzzle": "Rätsel",
 
     // ============= 14. ERFOLGSMELDUNGEN (10 Schlüssel) =============
     "crossword.msg.worksheet.generated": "Arbeitsblatt erfolgreich erstellt!",
@@ -171,8 +189,15 @@ const CROSSWORD_TRANSLATIONS_DE = {
     "crossword.msg.pdf.error": "Fehler beim Erstellen der PDF-Datei.",
     "crossword.msg.generate.content": "Bitte erstelle zuerst Inhalte.",
     "crossword.msg.no.images": "Keine Bilder gefunden{query}",
+    "crossword.msg.no.borders": "Keine Rahmen in diesem Thema.",
+    "crossword.msg.no.backgrounds": "Keine Hintergründe in diesem Thema.",
+    "crossword.msg.no.text": "Kein Text angegeben.",
     "crossword.msg.theme.error": "Fehler beim Laden des Themas.",
     "crossword.msg.upload.error": "Fehler beim Hochladen der Bilder.",
+    "crossword.msg.border.error": "Fehler beim Laden der Rahmen für Thema '{theme}'.",
+    "crossword.msg.border.loading.error": "Fehler beim Laden der Rahmen.",
+    "crossword.msg.background.error": "Fehler beim Laden der Hintergründe für Thema '{theme}'.",
+    "crossword.msg.background.loading.error": "Fehler beim Laden der Hintergründe.",
     "crossword.msg.invalid.size": "Ungültiges Seitenformat.",
     "crossword.msg.invalid.dimensions": "Ungültige Dimensionen eingegeben.",
     "crossword.msg.min.images": "Mindestens 8 Bilder für Kreuzworträtsel erforderlich.",
@@ -185,15 +210,18 @@ const CROSSWORD_TRANSLATIONS_DE = {
     "crossword.msg.network.error": "Netzwerkfehler. Bitte Verbindung prüfen.",
     "crossword.msg.unexpected.error": "Ein unerwarteter Fehler ist aufgetreten.",
 
-    // ============= 16. LADE- & STATUSMELDUNGEN (8 Schlüssel) =============
+    // ============= 16. LADE- & STATUSMELDUNGEN (11 Schlüssel) =============
     "crossword.msg.searching": "Suche läuft...",
+    "crossword.msg.loading": "Lädt...",
     "crossword.msg.loading.theme": "Thema wird geladen...",
     "crossword.msg.loading.named.theme": "Lade Thema '{theme}'...",
     "crossword.msg.loading.uploads": "Lade {count} Bild(er)...",
+    "crossword.msg.loading.default": "Lade Standardthema...",
     "crossword.msg.preparing.jpeg": "JPEG wird vorbereitet...",
     "crossword.msg.preparing.pdf": "PDF wird erstellt...",
     "crossword.msg.generating": "Kreuzworträtsel wird generiert...",
     "crossword.msg.processing.images": "Bilder werden verarbeitet...",
+    "crossword.msg.processing": "Verarbeitung läuft...",
 
     // ============= 17. WASSERZEICHEN-TEXT (2 Schlüssel) =============
     "crossword.watermark.main": "KOSTENLOSE VERSION - LessonCraftStudio.com",

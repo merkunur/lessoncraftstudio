@@ -5,7 +5,7 @@
   <title>Compare Numbers Worksheet</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="js/translations-more-less.js?v=7"></script>
+  <script src="js/translations-more-less.js?v=8"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
@@ -1974,27 +1974,27 @@
             let imagesForGeneration = [];
             if (imageSelectionMode === 'theme') {
                 const selectedTheme = themeWorksheetSelect.value;
-                if (!selectedTheme) throw new Error('Please select a theme for the worksheet.');
+                if (!selectedTheme) throw new Error(t('moreless.msg.select.worksheet.theme'));
                 const res = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
-                if (!res.ok) throw new Error(`Failed to load images for theme: ${selectedTheme}`);
+                if (!res.ok) throw new Error(t('error.theme.loading'));
                 const data = await res.json();
                 const themeImages = data.images || data; // Handle both old and new API formats
                 // Use path property (API returns path, not url)
                 imagesForGeneration = themeImages.map(img => img.path || img.url || '/images/placeholder.png');
-                if (imagesForGeneration.length === 0) throw new Error(`Theme "${selectedTheme}" has no images.`);
+                if (imagesForGeneration.length === 0) throw new Error(t('moreless.msg.theme.empty').replace('{theme}', selectedTheme));
             } else {
                 imagesForGeneration = Array.from(selectedImages);
-                if (imagesForGeneration.length === 0) throw new Error('Please pick 1–5 images.');
+                if (imagesForGeneration.length === 0) throw new Error(t('moreless.msg.pick.images'));
             }
 
             const rels = Array.from(relationCheckboxes).filter(i => i.checked).map(i => i.value);
-            if (!rels.length) throw new Error('Select at least one relation type.');
-            
+            if (!rels.length) throw new Error(t('moreless.msg.select.relation'));
+
             const problemCount = parseInt(problemCountInput.value, 10);
-            if (isNaN(problemCount) || problemCount < 1 || problemCount > 8) throw new Error('Enter a valid number of exercises (1-8).');
+            if (isNaN(problemCount) || problemCount < 1 || problemCount > 8) throw new Error(t('moreless.msg.valid.exercises'));
 
             lastGeneratedRows = buildRows(imagesForGeneration, rels, problemCount);
-            if (!lastGeneratedRows.length) throw new Error('Could not generate worksheet rows.');
+            if (!lastGeneratedRows.length) throw new Error(t('moreless.msg.generation.failed'));
 
             if (includeNameDateCheckbox.checked) {
                 // Use actual page dimensions for proper positioning

@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="js/translations.js"></script>
+  <script src="js/translations-cryptogram.js"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
@@ -179,6 +179,28 @@
         border-radius: 3px;
         color: var(--app-text-primary-dark-theme);
         cursor: pointer;
+     }
+     .custom-file-upload {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 12px;
+     }
+     .file-upload-btn {
+        padding: 8px 16px;
+        background: var(--app-bg-dark);
+        color: var(--app-text-primary-dark-theme);
+        border: 1px solid var(--app-border-dark);
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 13px;
+     }
+     .file-upload-btn:hover {
+        background: var(--app-surface-dark);
+     }
+     #fileUploadStatus {
+        color: var(--app-text-secondary-dark-theme);
+        font-size: 13px;
      }
     .accordion-wrapper input[type="color"] { padding: 2px; height: 38px; }
     .accordion-wrapper input[type="range"] { padding: 0; }
@@ -573,7 +595,7 @@
     <div id="menuOverlay" class="menu-overlay"></div>
     <div class="panel">
       <div class="panel-header">
-        <h2 data-translate-key="title">Cryptogram Settings</h2>
+        <h2 data-translate="title">Cryptogram Settings</h2>
         <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
       </div>
       <div class="panel-content">
@@ -582,137 +604,141 @@
             <button class="accordion-button active" data-translate="imageCryptogram">Image Cryptogram</button>
             <div class="accordion-wrapper" style="display: block;">
                 <h4 data-translate="selectLanguage">Select Language</h4>
-                <label for="languageSelect" data-translate-key="language">Language:</label>
+                <label for="languageSelect" data-translate="language">Language:</label>
                 <select id="languageSelect" class="control-select">
-                    <option value="en">English</option>
-                    <option value="de">Deutsch (German)</option>
-                    <option value="fr">Français (French)</option>
-                    <option value="es">Español (Spanish)</option>
-                    <option value="pt">Português (Portuguese)</option>
-                    <option value="it">Italiano (Italian)</option>
-                    <option value="nl">Nederlands (Dutch)</option>
-                    <option value="sv">Svenska (Swedish)</option>
-                    <option value="da">Dansk (Danish)</option>
-                    <option value="no">Norsk (Norwegian)</option>
-                    <option value="fi">Suomi (Finnish)</option>
+                    <option value="en" data-translate="language.english">English</option>
+                    <option value="de" data-translate="language.german.full">Deutsch (German)</option>
+                    <option value="fr" data-translate="language.french.full">Français (French)</option>
+                    <option value="es" data-translate="language.spanish.full">Español (Spanish)</option>
+                    <option value="pt" data-translate="language.portuguese.full">Português (Portuguese)</option>
+                    <option value="it" data-translate="language.italian.full">Italiano (Italian)</option>
+                    <option value="nl" data-translate="language.dutch.full">Nederlands (Dutch)</option>
+                    <option value="sv" data-translate="language.swedish.full">Svenska (Swedish)</option>
+                    <option value="da" data-translate="language.danish.full">Dansk (Danish)</option>
+                    <option value="no" data-translate="language.norwegian.full">Norsk (Norwegian)</option>
+                    <option value="fi" data-translate="language.finnish.full">Suomi (Finnish)</option>
                 </select>
-                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;">
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="cryptogram.language.description">
                     Image names and themes will be displayed in the selected language.
                 </p>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Puzzle Rules</button>
+            <button class="accordion-button" data-translate="cryptogram.puzzle.rules">Puzzle Rules</button>
             <div class="accordion-wrapper">
-                <label for="phrasesInput">Phrases (one per line):</label>
-                <textarea id="phrasesInput" placeholder="The quick brown fox..." rows="5"></textarea>
+                <label for="phrasesInput" data-translate="cryptogram.phrases.label">Phrases (one per line):</label>
+                <textarea id="phrasesInput" data-translate="cryptogram.phrases.placeholder" placeholder="The quick brown fox..." rows="5"></textarea>
 
-                <label for="revealCountSelect">Letters to Reveal:</label>
+                <label for="revealCountSelect" data-translate="cryptogram.letters.reveal">Letters to Reveal:</label>
                 <select id="revealCountSelect"></select>
 
-                <label for="maxLinesSelect">Max Lines per Puzzle:</label>
+                <label for="maxLinesSelect" data-translate="cryptogram.max.lines">Max Lines per Puzzle:</label>
                 <select id="maxLinesSelect"></select>
 
                 <label for="autoAssignCheckbox" class="checkbox-label">
-                    <input type="checkbox" id="autoAssignCheckbox" /> Auto-assign images
+                    <input type="checkbox" id="autoAssignCheckbox" /> <span data-translate="cryptogram.auto.assign">Auto-assign images</span>
                 </label>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Image Assignment</button>
+            <button class="accordion-button" data-translate="cryptogram.image.assignment">Image Assignment</button>
             <div class="accordion-wrapper">
-                <label for="themeSelect">Image Theme:</label>
+                <label for="themeSelect" data-translate="cryptogram.image.theme">Image Theme:</label>
                 <select id="themeSelect"></select>
-                <label>Select a letter to assign an image:</label>
+                <label data-translate="cryptogram.select.letter">Select a letter to assign an image:</label>
                 <div class="letter-buttons" id="letterButtons"></div>
-                <label for="searchInput">Search Images:</label>
-                <input type="text" id="searchInput" placeholder="e.g., apple, car" />
-                <label>Available Images (click to assign):</label>
-                <div id="dictionary"><p class='dictionary-message'>Select a letter above.</p></div>
-                <label style="margin-top:10px;">Assigned Images:</label>
+                <label for="searchInput" data-translate="cryptogram.search.label">Search Images:</label>
+                <input type="text" id="searchInput" data-translate="cryptogram.search.placeholder" placeholder="e.g., apple, car" />
+                <label data-translate="cryptogram.available.images">Available Images (click to assign):</label>
+                <div id="dictionary"><p class='dictionary-message' data-translate="cryptogram.select.letter.above">Select a letter above.</p></div>
+                <label style="margin-top:10px;" data-translate="cryptogram.assigned.images">Assigned Images:</label>
                 <div id="assignedImagesPreview"></div>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Upload Custom Images</button>
+            <button class="accordion-button" data-translate="cryptogram.upload.title">Upload Custom Images</button>
             <div class="accordion-wrapper">
-                <label for="imageUploadInput">Select image(s) to upload:</label>
-                <input type="file" id="imageUploadInput" multiple accept="image/*">
-                <label style="margin-top:10px;">Your Uploaded Images:</label>
+                <label data-translate="cryptogram.upload.select">Select image(s) to upload:</label>
+                <div class="custom-file-upload">
+                    <button type="button" class="file-upload-btn" id="customUploadBtn" data-translate="cryptogram.upload.choose.files">Choose Files</button>
+                    <span id="fileUploadStatus" data-translate="cryptogram.upload.no.file">No file chosen</span>
+                    <input type="file" id="imageUploadInput" multiple accept="image/*" style="display: none;">
+                </div>
+                <label style="margin-top:10px;" data-translate="cryptogram.uploaded.label">Your Uploaded Images:</label>
                 <div id="uploadedImagesPreview">
-                    <p class="dictionary-message">Your uploaded images will appear here.</p>
+                    <p class="dictionary-message" data-translate="cryptogram.uploaded.placeholder">Your uploaded images will appear here.</p>
                 </div>
             </div>
         </div>
 
         <div class="accordion-item">
-            <button class="accordion-button">Page Setup</button>
+            <button class="accordion-button" data-translate="pageSetup">Page Setup</button>
             <div class="accordion-wrapper">
-                <label for="pageSizeSelect" data-translate-key="pageSize">Page Size:</label>
+                <label for="pageSizeSelect" data-translate="pageSize">Page Size:</label>
                 <select id="pageSizeSelect">
-                    <option value="612x792">Letter Portrait (8.5×11")</option>
-                    <option value="792x612">Letter Landscape (11×8.5")</option>
-                    <option value="595x842">A4 Portrait (210×297mm)</option>
-                    <option value="842x595">A4 Landscape (297×210mm)</option>
-                    <option value="1200x1200">Square (1200×1200)</option>
-                    <option value="custom">Custom</option>
+                    <option value="612x792" data-translate="page.size.letter.portrait">Letter Portrait (8.5×11")</option>
+                    <option value="792x612" data-translate="page.size.letter.landscape">Letter Landscape (11×8.5")</option>
+                    <option value="595x842" data-translate="page.size.a4.portrait">A4 Portrait (210×297mm)</option>
+                    <option value="842x595" data-translate="page.size.a4.landscape">A4 Landscape (297×210mm)</option>
+                    <option value="1200x1200" data-translate="page.size.square">Square (1200×1200)</option>
+                    <option value="custom" data-translate="page.size.custom">Custom</option>
                 </select>
                 <div id="customPageSizeInputs" style="display:none;">
-                    <label for="pageWidth">Width (px):</label>
-                    <input type="number" id="pageWidth" value="816">
-                    <label for="pageHeight">Height (px):</label>
-                    <input type="number" id="pageHeight" value="1056">
+                    <label for="pageWidth" data-translate="cryptogram.width.label">Width (px):</label>
+                    <input type="number" id="pageWidth" value="816" data-translate="placeholder.custom.width" placeholder="Width">
+                    <label for="pageHeight" data-translate="cryptogram.height.label">Height (px):</label>
+                    <input type="number" id="pageHeight" value="1056" data-translate="placeholder.custom.height" placeholder="Height">
                 </div>
-                <label for="pageColor">Page Color:</label>
+                <label for="pageColor" data-translate="cryptogram.page.color">Page Color:</label>
                 <input type="color" id="pageColor" value="#FFFFFF">
-                <button id="setPageSizeBtn">Apply Size & Color</button>
-                
-                <h4>Background</h4>
-                <label for="backgroundThemeSelect">Background Theme:</label>
+                <button id="setPageSizeBtn" data-translate="cryptogram.apply.size.color">Apply Size & Color</button>
+
+                <h4 data-translate="cryptogram.background.title">Background</h4>
+                <label for="backgroundThemeSelect" data-translate="cryptogram.background.theme">Background Theme:</label>
                 <select id="backgroundThemeSelect">
-                    <option value="none">None</option>
+                    <option value="none" data-translate="common.none">None</option>
                 </select>
-                <div id="backgroundDictionary"><p class="dictionary-message">Select a theme for backgrounds.</p></div>
-                <label for="backgroundOpacity">Background Opacity:</label>
+                <div id="backgroundDictionary"><p class="dictionary-message" data-translate="cryptogram.background.message">Select a theme for backgrounds.</p></div>
+                <label for="backgroundOpacity" data-translate="cryptogram.background.opacity">Background Opacity:</label>
                 <input type="range" id="backgroundOpacity" min="0" max="1" step="0.05" value="1" disabled>
-                
-                <h4>Border</h4>
-                <label for="borderThemeSelect">Border Theme:</label>
+
+                <h4 data-translate="cryptogram.border.title">Border</h4>
+                <label for="borderThemeSelect" data-translate="cryptogram.border.theme">Border Theme:</label>
                 <select id="borderThemeSelect">
-                    <option value="none">None</option>
+                    <option value="none" data-translate="common.none">None</option>
                 </select>
                 <div id="borderDictionary">
-                    <p class="dictionary-message">Select a theme to see borders.</p>
+                    <p class="dictionary-message" data-translate="cryptogram.border.message">Select a theme to see borders.</p>
                 </div>
-                <label for="borderOpacity">Border Opacity:</label>
+                <label for="borderOpacity" data-translate="cryptogram.border.opacity">Border Opacity:</label>
                 <input type="range" id="borderOpacity" min="0" max="1" step="0.05" value="1" disabled>
             </div>
         </div>
         
         <div class="accordion-item">
-            <button class="accordion-button">Text Tools</button>
+            <button class="accordion-button" data-translate="cryptogram.text.tools">Text Tools</button>
             <div class="accordion-wrapper">
-                <h4>Add New Text</h4>
-                <label for="textInput">Content:</label><input type="text" id="textInput" placeholder="Hello!">
-                <button id="addTextBtn">Add Text</button>
-                <h4>Selected Text Properties</h4>
-                <label for="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
-                <label for="fontSize">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
-                <label for="fontFamily">Font:</label>
+                <h4 data-translate="cryptogram.text.add.new">Add New Text</h4>
+                <label for="textInput" data-translate="cryptogram.text.content.label">Content:</label><input type="text" id="textInput" data-translate="cryptogram.text.placeholder" placeholder="Hello!">
+                <button id="addTextBtn" data-translate="cryptogram.text.add.button">Add Text</button>
+                <h4 data-translate="cryptogram.text.properties">Selected Text Properties</h4>
+                <label for="textColor" data-translate="cryptogram.text.color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                <label for="fontSize" data-translate="cryptogram.text.size">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+                <label for="fontFamily" data-translate="cryptogram.text.font">Font:</label>
                 <select id="fontFamily" disabled>
-                    <option value="Lexend Deca">Lexend Deca</option>
-                    <option value="Baloo 2">Baloo 2</option>
-                    <option value="Nunito">Nunito</option>
-                    <option value="Quicksand">Quicksand</option>
-                    <option value="Fredoka">Fredoka</option>
-                    <option value="Arial">Arial</option>
-                    <option value="Verdana">Verdana</option>
+                    <option value="Lexend Deca" data-translate="font.lexend">Lexend Deca</option>
+                    <option value="Baloo 2" data-translate="font.baloo">Baloo 2</option>
+                    <option value="Nunito" data-translate="font.nunito">Nunito</option>
+                    <option value="Quicksand" data-translate="font.quicksand">Quicksand</option>
+                    <option value="Fredoka" data-translate="font.fredoka">Fredoka</option>
+                    <option value="Arial" data-translate="font.arial">Arial</option>
+                    <option value="Verdana" data-translate="font.verdana">Verdana</option>
                 </select>
-                <label for="textStrokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
-                <label for="textStrokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+                <label for="textStrokeColor" data-translate="cryptogram.text.outline.color">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                <label for="textStrokeWidth" data-translate="cryptogram.text.outline.width">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
             </div>
         </div>
 
@@ -728,61 +754,61 @@
       <div id="object-context-toolbar" style="display:none;">
           <div class="toolbar-group">
               <div class="toolbar-item">
-                  <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
+                  <button class="context-btn" id="layersBtn" data-translate="title.layers" title="Layers"><i class="fas fa-layer-group"></i></button>
                   <div class="dropdown-content" id="layersDropdown">
-                      <button id="toolbarBringForwardBtn">Bring Forward</button>
-                      <button id="toolbarSendBackwardBtn">Send Backward</button>
+                      <button id="toolbarBringForwardBtn" data-translate="cryptogram.layers.bring.forward">Bring Forward</button>
+                      <button id="toolbarSendBackwardBtn" data-translate="cryptogram.layers.send.backward">Send Backward</button>
                   </div>
               </div>
           </div>
           <div class="toolbar-group">
               <div class="toolbar-item">
-                  <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
+                  <button class="context-btn" id="alignBtn" data-translate="title.align" title="Align"><i class="fas fa-th"></i></button>
                   <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
-                      <p style="font-size:11px; margin-bottom:5px; color:#555;">Align Selected:</p>
+                      <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="cryptogram.align.selected">Align Selected:</p>
                       <div>
-                          <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
-                          <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
-                          <button class="context-btn" id="alignRightBtn" title="Align Right"><i class="fas fa-align-right"></i></button>
+                          <button class="context-btn" id="alignLeftBtn" data-translate="title.align.left" title="Align Left"><i class="fas fa-align-left"></i></button>
+                          <button class="context-btn" id="alignHCenterBtn" data-translate="title.align.center.h" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                          <button class="context-btn" id="alignRightBtn" data-translate="title.align.right" title="Align Right"><i class="fas fa-align-right"></i></button>
                       </div>
                       <div style="margin-top: 5px;">
-                          <button class="context-btn" id="alignTopBtn" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
-                          <button class="context-btn" id="alignVCenterBtn" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
-                          <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                          <button class="context-btn" id="alignTopBtn" data-translate="title.align.top" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                          <button class="context-btn" id="alignVCenterBtn" data-translate="title.align.center.v" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
+                          <button class="context-btn" id="alignBottomBtn" data-translate="title.align.bottom" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
                       </div>
                       <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
-                      <p style="font-size:11px; margin-bottom:5px; color:#555;">Align to Page:</p>
+                      <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="cryptogram.align.to.page">Align to Page:</p>
                       <div>
-                          <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
-                          <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                          <button class="context-btn" id="centerHCanvasBtn" data-translate="title.center.page.h" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                          <button class="context-btn" id="centerVCanvasBtn" data-translate="title.center.page.v" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
                       </div>
                   </div>
               </div>
           </div>
           <div class="toolbar-group">
-              <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
+              <button class="context-btn" id="toolbarDeleteBtn" data-translate="title.delete.selected" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
           </div>
       </div>
       <div class="top-right-actions">
-          <button id="generateBtn" class="action-button accent">Generate</button>
+          <button id="generateBtn" class="action-button accent" data-translate="cryptogram.generate">Generate</button>
           <div class="dropdown-container">
-              <button id="downloadDropdownBtn" class="action-button secondary" disabled>Download <i class="fas fa-caret-down"></i></button>
+              <button id="downloadDropdownBtn" class="action-button secondary" disabled><span data-translate="cryptogram.download">Download</span> <i class="fas fa-caret-down"></i></button>
               <div id="downloadDropdownContent" class="dropdown-content">
-                  <button id="downloadWorksheetJpegBtn" disabled>Worksheet (JPEG)</button>
-                  <button id="downloadAnswerKeyJpegBtn" disabled>Answer Key (JPEG)</button>
-                  <button id="downloadWorksheetPdfBtn" disabled>Worksheet (PDF)</button>
-                  <button id="downloadAnswerKeyPdfBtn" disabled>Answer Key (PDF)</button>
+                  <button id="downloadWorksheetJpegBtn" disabled data-translate="cryptogram.download.worksheet.jpeg">Worksheet (JPEG)</button>
+                  <button id="downloadAnswerKeyJpegBtn" disabled data-translate="cryptogram.download.answer.jpeg">Answer Key (JPEG)</button>
+                  <button id="downloadWorksheetPdfBtn" disabled data-translate="cryptogram.download.worksheet.pdf">Worksheet (PDF)</button>
+                  <button id="downloadAnswerKeyPdfBtn" disabled data-translate="cryptogram.download.answer.pdf">Answer Key (PDF)</button>
                   <label class="checkbox-label">
-                      <input type="checkbox" id="grayscaleToggle" />Grayscale
+                      <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
                   </label>
               </div>
           </div>
-          <button id="clearBtn" class="action-button danger">Clear All</button>
+          <button id="clearBtn" class="action-button danger" data-translate="cryptogram.clear.all">Clear All</button>
       </div>
 
       <div class="tab-row">
-        <button class="tab-button active" data-tab="worksheetTab">Worksheet</button>
-        <button class="tab-button" data-tab="answerKeyTab">Answer Key</button>
+        <button class="tab-button active" data-tab="worksheetTab" data-translate="cryptogram.tab.worksheet">Worksheet</button>
+        <button class="tab-button" data-tab="answerKeyTab" data-translate="cryptogram.tab.answer">Answer Key</button>
       </div>
 
       <div class="tab-content-wrapper">
@@ -820,15 +846,55 @@
     document.addEventListener("DOMContentLoaded", function() {
         // --- LANGUAGE SUPPORT ---
         
-        // Define translatePage fallback if translations.js doesn't load
-        if (typeof window.translatePage === 'undefined') {
-            window.translatePage = function() {
-                // Basic fallback - just sets data-translate-key elements
-                document.querySelectorAll('[data-translate-key]').forEach(el => {
-                    // Keep original text if no translation available
-                });
-            };
+        // Define translation functions
+        function getTranslation(key, locale) {
+            locale = locale || currentLocale || 'en';
+            if (!translations || !translations[locale]) {
+                console.warn(`No translations found for locale: ${locale}`);
+                return key;
+            }
+            return translations[locale][key] || translations.en[key] || key;
         }
+
+        function formatTranslation(key, params, locale) {
+            let text = getTranslation(key, locale);
+            if (params) {
+                Object.keys(params).forEach(param => {
+                    text = text.replace(new RegExp(`\\{${param}\\}`, 'g'), params[param]);
+                });
+            }
+            return text;
+        }
+
+        function applyTranslations() {
+            if (!translations || !translations[currentLocale]) {
+                console.error('Translations not loaded');
+                return;
+            }
+
+            const t = translations[currentLocale];
+
+            // Update all elements with data-translate attribute
+            document.querySelectorAll('[data-translate]').forEach(element => {
+                const key = element.getAttribute('data-translate');
+                if (t[key]) {
+                    if (element.tagName === 'INPUT' && element.type !== 'color' && element.type !== 'range') {
+                        element.placeholder = t[key];
+                    } else if (element.tagName === 'TEXTAREA') {
+                        element.placeholder = t[key];
+                    } else if (element.tagName === 'OPTION') {
+                        element.textContent = t[key];
+                    } else {
+                        element.textContent = t[key];
+                    }
+                }
+            });
+        }
+
+        // Legacy support
+        window.translatePage = applyTranslations;
+        window.getTranslation = getTranslation;
+        window.formatTranslation = formatTranslation;
         
         // --- CONSTANTS & STATE ---
         // Language-specific alphabets with proper ordering
@@ -958,7 +1024,8 @@
             if (window.BulletproofLoader) {
                 window.BulletproofLoader.init({
                     borderSelect: borderThemeSelect,
-                    backgroundSelect: backgroundThemeSelect
+                    backgroundSelect: backgroundThemeSelect,
+                    locale: currentLocale
                 }).then(() => {
                     console.log('BulletproofLoader initialized successfully');
                     // BulletproofLoader handles theme loading, no need for manual loading
@@ -977,7 +1044,7 @@
 
         // --- UI SETUP FUNCTIONS ---
         function setupUI() {
-            for (let i = 0; i <= 10; i++) revealCountSelect.innerHTML += `<option value="${i}">${i === 0 ? "None" : i}</option>`;
+            for (let i = 0; i <= 10; i++) revealCountSelect.innerHTML += `<option value="${i}">${i === 0 ? getTranslation("common.none") || "None" : i}</option>`;
             revealCountSelect.value = 3;
             for (let i = 1; i <= 8; i++) maxLinesSelect.innerHTML += `<option value="${i}">${i}</option`;
             maxLinesSelect.value = 4;
@@ -998,7 +1065,7 @@
             // Reset selected letter if it's not in the new alphabet
             if (selectedLetter && !ALPHABET.includes(selectedLetter)) {
                 selectedLetter = null;
-                selectedLetterDisplay.textContent = 'None';
+                selectedLetterDisplay.textContent = getTranslation("common.none") || 'None';
             }
         }
         
@@ -1052,11 +1119,38 @@
             if (languageSelect) {
                 languageSelect.value = currentLocale;
                 languageSelect.addEventListener('change', function() {
-                    const newLocale = this.value;
-                    // Update URL and reload page (like Addition app does)
-                    const url = new URL(window.location.href);
-                    url.searchParams.set('locale', newLocale);
-                    window.location.href = url.toString();
+                    currentLocale = this.value;
+                    window.currentLocale = currentLocale;
+
+                    // Update alphabet for new language
+                    ALPHABET = getAlphabetForLocale(currentLocale).split("");
+
+                    // Apply translations
+                    applyTranslations();
+
+                    // Update URL parameter
+                    const url = new URL(window.location);
+                    url.searchParams.set('locale', currentLocale);
+                    window.history.replaceState({}, '', url);
+
+                    // Reload themes with new locale
+                    loadThemes().then(() => {
+                        loadDictionary();
+                    });
+
+                    // Reinitialize BulletproofLoader with new locale
+                    if (window.BulletproofLoader) {
+                        window.BulletproofLoader.init({
+                            borderSelect: borderThemeSelect,
+                            backgroundSelect: backgroundThemeSelect,
+                            locale: currentLocale
+                        });
+                    }
+
+                    // Clear assigned images and regenerate letter buttons
+                    assignedImages = {};
+                    renderAssignedImages();
+                    renderLetterButtons();
                 });
             }
             
@@ -1093,7 +1187,26 @@
                 this.searchTimeout = setTimeout(renderDictionary, 300);
             });
             
-            imageUploadInput.addEventListener('change', handleImageUpload);
+            // Custom file upload button
+            const customUploadBtn = document.getElementById('customUploadBtn');
+            const fileUploadStatus = document.getElementById('fileUploadStatus');
+
+            customUploadBtn.addEventListener('click', () => {
+                imageUploadInput.click();
+            });
+
+            imageUploadInput.addEventListener('change', (e) => {
+                const fileCount = e.target.files.length;
+                if (fileCount > 0) {
+                    const statusText = fileCount === 1
+                        ? formatTranslation("cryptogram.upload.file.selected", {count: fileCount}) || `${fileCount} file selected`
+                        : formatTranslation("cryptogram.upload.files.selected", {count: fileCount}) || `${fileCount} files selected`;
+                    fileUploadStatus.textContent = statusText;
+                } else {
+                    fileUploadStatus.textContent = getTranslation("cryptogram.upload.no.file") || "No file chosen";
+                }
+                handleImageUpload(e);
+            });
 
             document.getElementById('downloadWorksheetJpegBtn').addEventListener('click', () => downloadImageFile(worksheetCanvas, 'cryptogram_worksheet.jpeg'));
             document.getElementById('downloadAnswerKeyJpegBtn').addEventListener('click', () => downloadImageFile(answerKeyCanvas, 'cryptogram_answer_key.jpeg'));
@@ -1261,7 +1374,7 @@
 
         // --- CORE LOGIC: DATA GENERATION ---
         async function handleGenerate() {
-            showMessage("Generating puzzle data...", 'info', 0);
+            showMessage(getTranslation("cryptogram.msg.generating") || "Generating puzzle data...", 'info', 0);
             try {
                 const puzzleData = await generatePuzzleData();
                 if (!puzzleData) return; 
@@ -1274,17 +1387,17 @@
                 downloadDropdownBtn.disabled = false;
                 document.getElementById('downloadWorksheetJpegBtn').disabled = false;
                 document.getElementById('downloadWorksheetPdfBtn').disabled = false;
-                showMessage("Worksheet generated successfully!", "success", 3000);
+                showMessage(getTranslation("cryptogram.msg.generated") || "Worksheet generated successfully!", "success", 3000);
             } catch (error) {
                 console.error("Generation failed:", error);
-                showMessage(`Error: ${error.message}`, "error");
+                showMessage(formatTranslation("cryptogram.msg.error.details", {error: error.message}) || `Error: ${error.message}`, "error");
             }
         }
 
         async function generatePuzzleData() {
             const phrases = phrasesInput.value.trim().split("\n").filter(p => p.trim() !== "");
             if (phrases.length === 0) {
-                showMessage("Please enter at least one phrase.", 'error');
+                showMessage(getTranslation("cryptogram.msg.enter.phrase") || "Please enter at least one phrase.", 'error');
                 return null;
             }
 
@@ -1297,7 +1410,7 @@
 
             const unassigned = uniqueLetters.filter(l => !assignedImages[l]);
             if (unassigned.length > 0) {
-                showMessage(`Missing images for letters: ${unassigned.join(", ")}. Please assign or auto-assign.`, 'error');
+                showMessage(formatTranslation("cryptogram.msg.missing.images", {letters: unassigned.join(", ")}) || `Missing images for letters: ${unassigned.join(", ")}. Please assign or auto-assign.`, 'error');
                 return null;
             }
             
@@ -1739,7 +1852,7 @@
         function handleAddText() {
             const activeCanvas = getActiveCanvas();
             if (!activeCanvas) return;
-            const textContent = textInput.value.trim() || 'New Text';
+            const textContent = textInput.value.trim() || getTranslation("cryptogram.text.default") || 'New Text';
             const textObject = new fabric.Textbox(textContent, {
                 left: (currentCanvasConfig.width - 250) / 2,
                 top: (currentCanvasConfig.height - 100) / 2,
@@ -1899,7 +2012,7 @@
                 
                 const themes = await response.json();
                 
-                themeSelect.innerHTML = '<option value="all">All Themes</option>';
+                themeSelect.innerHTML = `<option value="all" data-translate="cryptogram.themes.all">${getTranslation("cryptogram.themes.all") || "All Themes"}</option>`;
                 
                 themes.forEach(theme => {
                     const option = document.createElement('option');
@@ -1911,7 +2024,7 @@
                 await handleThemeChange();
             } catch (err) {
                  console.error("Error loading themes:", err);
-                 showMessage("Could not load themes.", 'error');
+                 showMessage(getTranslation("cryptogram.msg.themes.error") || "Could not load themes.", 'error');
             }
         }
 
@@ -1920,7 +2033,7 @@
             if (theme === 'all') {
                 // Load animals theme by default when "All Themes" is selected with no search
                 if (!searchInput.value || searchInput.value.trim() === '') {
-                    dictionaryDiv.innerHTML = `<p class='dictionary-message'>Loading default theme...</p>`;
+                    dictionaryDiv.innerHTML = `<p class='dictionary-message'>${getTranslation("cryptogram.msg.loading.default") || "Loading default theme..."}</p>`;
                     try {
                         const data = await fetch(`/api/images?theme=animals&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
                         currentThemeImages = data.images || data;
@@ -1932,13 +2045,13 @@
                 }
                 await renderDictionary();
             } else {
-                dictionaryDiv.innerHTML = `<p class='dictionary-message'>Loading ${theme}...</p>`;
+                dictionaryDiv.innerHTML = `<p class='dictionary-message'>${formatTranslation("cryptogram.msg.loading.theme", {theme}) || `Loading ${theme}...`}</p>`;
                 try {
                     const data = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
                     currentThemeImages = data.images || data;
                 } catch (e) {
                     currentThemeImages = [];
-                    showMessage(`Failed to load theme "${theme}"`, 'error');
+                    showMessage(formatTranslation("cryptogram.msg.theme.load.failed", {theme: theme}) || `Failed to load theme "${theme}"`, 'error');
                 }
                 await renderDictionary();
             }
@@ -1952,7 +2065,7 @@
         }
 
         async function autoAssignImages() {
-            showMessage("Fetching all images for auto-assign...", 'info', 0);
+            showMessage(getTranslation("cryptogram.msg.fetching.images") || "Fetching all images for auto-assign...", 'info', 0);
             let allImages = [];
             try {
                 const response = await fetch(`/api/themes-translated?locale=${currentLocale}`);
@@ -1972,13 +2085,13 @@
 
             } catch (e) {
                 console.error("Auto-assign failed:", e);
-                showMessage("Failed to fetch image list from server.", "error");
+                showMessage(getTranslation("cryptogram.msg.fetch.failed") || "Failed to fetch image list from server.", "error");
                 autoAssignCheckbox.checked = false;
                 return;
             }
 
             if (allImages.length === 0) {
-                 showMessage("Cannot auto-assign. No images found on server.", 'error');
+                 showMessage(getTranslation("cryptogram.msg.no.images.server") || "Cannot auto-assign. No images found on server.", 'error');
                  autoAssignCheckbox.checked = false;
                  return;
             }
@@ -1997,11 +2110,11 @@
             });
 
             renderAssignedImagesPreview();
-            showMessage("Images have been auto-assigned.", 'success', 2000);
+            showMessage(getTranslation("cryptogram.msg.auto.assigned") || "Images have been auto-assigned.", 'success', 2000);
         }
 
         function handleImageAssignment(image) {
-            if (!selectedLetter) { showMessage("Please select a letter first.", "info"); return; }
+            if (!selectedLetter) { showMessage(getTranslation("cryptogram.msg.select.letter") || "Please select a letter first.", "info"); return; }
             assignedImages[selectedLetter] = image;
             renderAssignedImagesPreview();
         }
@@ -2019,14 +2132,14 @@
                     imagesToDisplay = currentThemeImages;
                 } else {
                     // Search across all themes
-                    dictionaryDiv.innerHTML = `<p class="dictionary-message">Searching...</p>`;
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">${getTranslation("cryptogram.msg.searching") || "Searching..."}</p>`;
                     try {
                         const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
                         if (!response.ok) throw new Error(`Server error: ${response.status}`);
                         const searchData = await response.json();
                         imagesToDisplay = searchData.images || searchData;
                     } catch(e) {
-                        showMessage(`Failed to search for "${query}"`, 'error');
+                        showMessage(formatTranslation("cryptogram.msg.search.failed", {query: query}) || `Failed to search for "${query}"`, 'error');
                         imagesToDisplay = [];
                     }
                 }
@@ -2040,7 +2153,10 @@
 
             dictionaryDiv.innerHTML = '';
             if (imagesToDisplay.length === 0) {
-                dictionaryDiv.innerHTML = `<p class="dictionary-message">No images found${query ? ` matching "${query}"` : ''}.</p>`;
+                const msg = query
+                    ? formatTranslation("cryptogram.msg.search.failed", {query}) || `No images found matching "${query}".`
+                    : getTranslation("cryptogram.msg.no.images") || "No images found.";
+                dictionaryDiv.innerHTML = `<p class="dictionary-message">${msg}</p>`;
                 return;
             }
 
@@ -2076,7 +2192,7 @@
                     filesToLoad--;
                     if (filesToLoad === 0) {
                         renderUploadedImages();
-                        showMessage(`${uploadedImages.length} custom image(s) available.`, 'success');
+                        showMessage(formatTranslation("cryptogram.msg.images.uploaded", {count: uploadedImages.length}) || `${uploadedImages.length} custom image(s) available.`, 'success');
                     }
                 };
                 reader.readAsDataURL(file);
@@ -2087,7 +2203,7 @@
         function renderUploadedImages() {
             uploadedImagesPreview.innerHTML = "";
             if (uploadedImages.length === 0) {
-                uploadedImagesPreview.innerHTML = `<p class="dictionary-message">Your uploaded images will appear here.</p>`;
+                uploadedImagesPreview.innerHTML = `<p class="dictionary-message">${getTranslation("cryptogram.uploaded.placeholder") || "Your uploaded images will appear here."}</p>`;
                 return;
             }
             uploadedImages.forEach(img => {
@@ -2143,7 +2259,7 @@
             themeSelect.value = "all";
             pageSizeSelect.value = "612x792";
             document.querySelectorAll('.letter-buttons button.active').forEach(b => b.classList.remove('active'));
-            dictionaryDiv.innerHTML = "<p class='dictionary-message'>Type to search all images.</p>";
+            dictionaryDiv.innerHTML = `<p class='dictionary-message'>${getTranslation("cryptogram.msg.type.search") || "Type to search all images."}</p>`;
             renderAssignedImagesPreview();
             renderUploadedImages();
             [worksheetCanvas, answerKeyCanvas].forEach(c => {
@@ -2155,7 +2271,7 @@
             downloadDropdownContent.style.display = 'none';
             handleSelectionCleared(null, getActiveCanvas());
             loadThemes();
-            showMessage("Form cleared.", "success", 2000);
+            showMessage(getTranslation("cryptogram.msg.form.cleared") || "Form cleared.", "success", 2000);
         }
 
         // --- DOWNLOAD FUNCTIONS ---
@@ -2217,16 +2333,16 @@
         }
         
         async function downloadImageFile(canvasToExport, fileName) {
-            if (!canvasToExport) { showMessage("Canvas not available.", "error"); return; }
-            showMessage(`Preparing ${fileName}...`, 'info', 0);
+            if (!canvasToExport) { showMessage(getTranslation("cryptogram.msg.canvas.unavailable") || "Canvas not available.", "error"); return; }
+            showMessage(formatTranslation("cryptogram.msg.preparing.file", {fileName: fileName}) || `Preparing ${fileName}...`, 'info', 0);
             try {
                 const exportOptions = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
                 const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
                 const a = document.createElement('a');
                 a.download = fileName; a.href = dataURL; a.click();
-                showMessage('JPEG download initiated!', 'success');
+                showMessage(getTranslation("cryptogram.msg.jpeg.initiated") || 'JPEG download initiated!', 'success');
             } catch (error) {
-                showMessage(`Error preparing JPEG: ${error.message}`, 'error');
+                showMessage(formatTranslation("cryptogram.msg.jpeg.error", {error: error.message}) || `Error preparing JPEG: ${error.message}`, 'error');
             }
         }
         
@@ -2300,9 +2416,9 @@
     if (originalDownloadPDF) {
         window.downloadPDF = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate content first.', 'error');
+                return showMessage(getTranslation("cryptogram.msg.generate.first") || 'Please generate content first.', 'error');
             }
-            showMessage('Preparing PDF...', 'info', 0);
+            showMessage(getTranslation("cryptogram.msg.preparing.pdf") || 'Preparing PDF...', 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -2323,11 +2439,11 @@
                 
                 const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
                 pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
-                
+
                 pdf.save(fileName);
-                showMessage('PDF downloaded!', 'success');
+                showMessage(getTranslation("cryptogram.msg.pdf.downloaded") || 'PDF downloaded!', 'success');
             } catch(e) { 
-                showMessage('Error creating PDF.', 'error'); 
+                showMessage(getTranslation("cryptogram.msg.pdf.error") || 'Error creating PDF.', 'error'); 
                 console.error(e); 
             } finally {
                 // Remove watermark after export
@@ -2341,9 +2457,9 @@
     if (originalDownloadJPEG) {
         window.downloadJPEG = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate a worksheet first.', 'error');
+                return showMessage(getTranslation("cryptogram.msg.generate.worksheet.first") || 'Please generate a worksheet first.', 'error');
             }
-            showMessage('Preparing JPEG...', 'info', 0);
+            showMessage(getTranslation("cryptogram.msg.preparing.jpeg") || 'Preparing JPEG...', 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -2359,9 +2475,9 @@
                 link.href = dataURL;
                 link.download = fileName;
                 link.click();
-                showMessage('JPEG download initiated!', 'success');
+                showMessage(getTranslation("cryptogram.msg.jpeg.initiated") || 'JPEG download initiated!', 'success');
             } catch(e) { 
-                showMessage('Error preparing JPEG.', 'error'); 
+                showMessage(getTranslation("cryptogram.msg.jpeg.error.simple") || 'Error preparing JPEG.', 'error'); 
                 console.error(e); 
             } finally {
                 // Remove watermark after export
@@ -2371,8 +2487,8 @@
     }
 
 async function downloadPDF(canvasToExport, fileName) {
-            if (!canvasToExport) { showMessage("Canvas not available.", "error"); return; }
-            showMessage(`Preparing ${fileName}...`, 'info', 0);
+            if (!canvasToExport) { showMessage(getTranslation("cryptogram.msg.canvas.unavailable") || "Canvas not available.", "error"); return; }
+            showMessage(formatTranslation("cryptogram.msg.preparing.file", {fileName: fileName}) || `Preparing ${fileName}...`, 'info', 0);
             try {
                 const { jsPDF } = window.jspdf;
                 const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
@@ -2381,18 +2497,18 @@ async function downloadPDF(canvasToExport, fileName) {
 
                 const imgData = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
                 pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
-                
+
                 pdf.save(fileName);
-                showMessage('PDF downloaded!', 'success');
+                showMessage(getTranslation("cryptogram.msg.pdf.downloaded") || 'PDF downloaded!', 'success');
             } catch (error) {
-                showMessage(`Error creating PDF: ${error.message}`, "error");
+                showMessage(formatTranslation("cryptogram.msg.pdf.error.details", {error: error.message}) || `Error creating PDF: ${error.message}`, "error");
             }
         }
         
         // --- BORDER AND BACKGROUND FUNCTIONS ---
         async function loadAssetThemes(type, selectEl) {
             try {
-                selectEl.innerHTML = `<option value="none">None</option>`;
+                selectEl.innerHTML = `<option value="none">${getTranslation("common.none") || "None"}</option>`;
                 const response = await fetch(`/api/${type}/themes?locale=${currentLocale}`);
                 if (!response.ok) {
                     console.error(`Failed to load ${type} themes`);
@@ -2415,7 +2531,7 @@ async function downloadPDF(canvasToExport, fileName) {
             const propName = `is${assetType.charAt(0).toUpperCase() + assetType.slice(1)}`;
 
             if (theme === 'none') {
-                dictionaryEl.innerHTML = `<p class="dictionary-message">Select a theme to see ${type}.</p>`;
+                dictionaryEl.innerHTML = `<p class="dictionary-message">${formatTranslation("cryptogram.asset.select", {type}) || `Select a theme to see ${type}.`}</p>`;
                 
                 if (propName === 'isBackground') {
                     [worksheetCanvas, answerKeyCanvas].forEach(canvas => {
@@ -2440,7 +2556,7 @@ async function downloadPDF(canvasToExport, fileName) {
                 }
                 return;
             }
-            dictionaryEl.innerHTML = `<p class="dictionary-message">Loading ${theme} ${type}...</p>`;
+            dictionaryEl.innerHTML = `<p class="dictionary-message">${formatTranslation("cryptogram.asset.loading", {theme, type}) || `Loading ${theme} ${type}...`}</p>`;
             // Use filesystem endpoints only
             const apiUrl = `/api/${type}/images?theme=${theme}&locale=${currentLocale}`;
             fetch(apiUrl)
@@ -2448,7 +2564,7 @@ async function downloadPDF(canvasToExport, fileName) {
                 .then(data => {
                     const images = data.images || data;
                     dictionaryEl.innerHTML = "";
-                    if (images.length === 0) { dictionaryEl.innerHTML = `<p class="dictionary-message">No ${type} in this theme.</p>`; return; }
+                    if (images.length === 0) { dictionaryEl.innerHTML = `<p class="dictionary-message">${formatTranslation("cryptogram.asset.none", {type}) || `No ${type} in this theme.`}</p>`; return; }
                     images.forEach(asset => {
                         const item = document.createElement("div"); item.className = "border-thumbnail-item";
                         item.innerHTML = `<img src="${asset.path}" alt="${asset.name}" loading="lazy" />`;
@@ -2460,7 +2576,7 @@ async function downloadPDF(canvasToExport, fileName) {
                         dictionaryEl.appendChild(item);
                     });
                 })
-                .catch(err => { console.error(`Error loading ${type} images:`, err); dictionaryEl.innerHTML = `<p class="dictionary-message">Error loading ${type}.</p>`; });
+                .catch(err => { console.error(`Error loading ${type} images:`, err); dictionaryEl.innerHTML = `<p class="dictionary-message">${formatTranslation("cryptogram.asset.error", {type}) || `Error loading ${type}.`}</p>`; });
         }
 
         function loadBorderThemes() { loadAssetThemes('borders', borderThemeSelect); }

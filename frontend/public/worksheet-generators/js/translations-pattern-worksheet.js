@@ -1838,3 +1838,8 @@ const translations = {
 if (typeof module !== "undefined" && module.exports) {
   module.exports = { translations };
 }
+
+// Expose globally for BulletproofLoader and other utilities
+if (typeof window !== "undefined") {
+  window.translations = translations;
+}

@@ -5,7 +5,7 @@
   <title>Missing Pieces Worksheet Generator</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="js/translations-missing-pieces.js?v=3"></script>
+  <script src="js/translations-missing-pieces.js?v=5"></script>
   <script src="js/bulletproof-loader.js"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
@@ -1468,6 +1468,16 @@
                 imageUploadInput.click();
             });
         }
+
+        // Manually translate the file button elements after they're created
+        setTimeout(() => {
+            if (customFileButton && typeof t !== 'undefined') {
+                customFileButton.textContent = t('chooseFiles');
+            }
+            if (fileSelectionText && typeof t !== 'undefined') {
+                fileSelectionText.textContent = t('noFileChosen');
+            }
+        }, 150);
 
         imageUploadInput.addEventListener('change', (e) => {
             const imageFiles = Array.from(e.target.files).filter(f => f.type.startsWith('image/'));

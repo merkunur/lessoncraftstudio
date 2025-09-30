@@ -197,10 +197,13 @@ const translations = {
     "toolbar.send.backward": "Send Backward"
   },
   "de": {
+    "chooseFiles": "Dateien auswählen",
     "common.error": "Fehler",
     "common.grayscale": "Graustufen",
     "common.loading": "Lädt...",
     "common.none": "Keine",
+    "filesSelected": "{count} Datei(en) ausgewählt",
+    "noFileChosen": "Keine Datei ausgewählt",
     "error.alignment": "Fehler beim Ausrichten der Objekte.",
     "error.api.connection": "Keine Verbindung zum Server möglich.",
     "error.background.loading": "Fehler beim Laden des Hintergrunds.",
@@ -405,6 +408,9 @@ const translations = {
     "toolbar.send.backward": "Nach hinten"
   },
   "fr": {
+    "chooseFiles": "Choisir des fichiers",
+    "noFileChosen": "Aucun fichier sélectionné",
+    "filesSelected": "{count} fichier(s) sélectionné(s)",
     "common.error": "Erreur",
     "common.grayscale": "Niveaux de gris",
     "common.loading": "Chargement...",
@@ -613,6 +619,9 @@ const translations = {
     "toolbar.send.backward": "Reculer"
   },
   "es": {
+    "chooseFiles": "Elegir archivos",
+    "noFileChosen": "Ningún archivo seleccionado",
+    "filesSelected": "{count} archivo(s) seleccionado(s)",
     "common.error": "Error",
     "common.grayscale": "Escala de grises",
     "common.loading": "Cargando...",
@@ -821,6 +830,9 @@ const translations = {
     "toolbar.send.backward": "Enviar atrás"
   },
   "it": {
+    "chooseFiles": "Scegli file",
+    "noFileChosen": "Nessun file scelto",
+    "filesSelected": "{count} file selezionato/i",
     "common.error": "Errore",
     "common.grayscale": "Scala di grigi",
     "common.loading": "Caricamento...",
@@ -1029,6 +1041,9 @@ const translations = {
     "toolbar.send.backward": "Porta indietro"
   },
   "pt": {
+    "chooseFiles": "Escolher arquivos",
+    "noFileChosen": "Nenhum arquivo escolhido",
+    "filesSelected": "{count} arquivo(s) selecionado(s)",
     "common.error": "Erro",
     "common.grayscale": "Escala de Cinza",
     "common.loading": "A carregar...",
@@ -1237,6 +1252,9 @@ const translations = {
     "toolbar.send.backward": "Enviar para Trás"
   },
   "nl": {
+    "chooseFiles": "Bestanden kiezen",
+    "noFileChosen": "Geen bestand gekozen",
+    "filesSelected": "{count} bestand(en) geselecteerd",
     "common.error": "Fout",
     "common.grayscale": "Grijstinten",
     "common.loading": "Laden...",
@@ -1445,6 +1463,9 @@ const translations = {
     "toolbar.send.backward": "Naar Achteren Sturen"
   },
   "sv": {
+    "chooseFiles": "Välj filer",
+    "noFileChosen": "Ingen fil vald",
+    "filesSelected": "{count} fil(er) valda",
     "common.error": "Fel",
     "common.grayscale": "Gråskala",
     "common.loading": "Laddar...",
@@ -1653,6 +1674,9 @@ const translations = {
     "toolbar.send.backward": "Flytta Bakåt"
   },
   "da": {
+    "chooseFiles": "Vælg filer",
+    "noFileChosen": "Ingen fil valgt",
+    "filesSelected": "{count} fil(er) valgt",
     "common.error": "Fejl",
     "common.grayscale": "Gråtoner",
     "common.loading": "Indlæser...",
@@ -1861,6 +1885,9 @@ const translations = {
     "toolbar.send.backward": "Send Tilbage"
   },
   "no": {
+    "chooseFiles": "Velg filer",
+    "noFileChosen": "Ingen fil valgt",
+    "filesSelected": "{count} fil(er) valgt",
     "common.error": "Feil",
     "common.grayscale": "Gråtoner",
     "common.loading": "Laster...",
@@ -2069,6 +2096,9 @@ const translations = {
     "toolbar.send.backward": "Send Tilbake"
   },
   "fi": {
+    "chooseFiles": "Valitse tiedostot",
+    "noFileChosen": "Ei tiedostoa valittu",
+    "filesSelected": "{count} tiedosto(a) valittu",
     "common.error": "Virhe",
     "common.grayscale": "Harmaasävy",
     "common.loading": "Ladataan...",

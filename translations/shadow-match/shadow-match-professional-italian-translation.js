@@ -97,6 +97,11 @@ const SHADOW_MATCH_ITALIAN_TRANSLATIONS = {
     "shadow.match.uploaded.images": "Le Tue Immagini Caricate (Questa Sessione):",
     "shadow.match.uploaded.placeholder": "Le tue immagini caricate appariranno qui.",
 
+    // ===== UPLOAD BUTTON (3 items - for custom file input wrapper) =====
+    "shadow.match.upload.button": "Scegli file",
+    "shadow.match.upload.no.file": "Nessun file scelto",
+    "shadow.match.upload.files.selected": "{count} file selezionati",
+
     // ===== 10. TOOLBAR (15 items) =====
     "toolbar.layers": "Livelli",
     "toolbar.bring.forward": "Porta Avanti",

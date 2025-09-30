@@ -97,6 +97,11 @@ const SHADOW_MATCH_DUTCH_TRANSLATIONS = {
     "shadow.match.uploaded.images": "Uw Geüploade Afbeeldingen (Deze Sessie):",
     "shadow.match.uploaded.placeholder": "Uw geüploade afbeeldingen verschijnen hier.",
 
+    // ===== UPLOAD BUTTON (3 items - for custom file input wrapper) =====
+    "shadow.match.upload.button": "Bestanden kiezen",
+    "shadow.match.upload.no.file": "Geen bestand gekozen",
+    "shadow.match.upload.files.selected": "{count} bestanden geselecteerd",
+
     // ===== 10. TOOLBAR (15 items) =====
     "toolbar.layers": "Lagen",
     "toolbar.bring.forward": "Naar Voren",

@@ -96,6 +96,11 @@ const SHADOW_MATCH_TRANSLATIONS = {
     "shadow.match.uploaded.images": "Your Uploaded Images (This Session):",
     "shadow.match.uploaded.placeholder": "Your uploaded images will appear here.",
 
+    // ===== UPLOAD BUTTON (3 items - for custom file input wrapper) =====
+    "shadow.match.upload.button": "Choose Files",
+    "shadow.match.upload.no.file": "No file chosen",
+    "shadow.match.upload.files.selected": "{count} files selected",
+
     // ===== 10. TOOLBAR (15 items) =====
     "toolbar.layers": "Layers",
     "toolbar.bring.forward": "Bring Forward",

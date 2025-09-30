@@ -97,6 +97,11 @@ const SHADOW_MATCH_SWEDISH_TRANSLATIONS = {
     "shadow.match.uploaded.images": "Dina Uppladdade Bilder (Denna Session):",
     "shadow.match.uploaded.placeholder": "Dina uppladdade bilder visas här.",
 
+    // ===== UPLOAD BUTTON (3 items - for custom file input wrapper) =====
+    "shadow.match.upload.button": "Välj filer",
+    "shadow.match.upload.no.file": "Ingen fil vald",
+    "shadow.match.upload.files.selected": "{count} filer valda",
+
     // ===== 10. TOOLBAR (15 items) =====
     "toolbar.layers": "Lager",
     "toolbar.bring.forward": "Flytta Framåt",

@@ -97,6 +97,11 @@ const SHADOW_MATCH_NORWEGIAN_TRANSLATIONS = {
     "shadow.match.uploaded.images": "Dine Opplastede Bilder (Denne Økten):",
     "shadow.match.uploaded.placeholder": "Dine opplastede bilder vises her.",
 
+    // ===== UPLOAD BUTTON (3 items - for custom file input wrapper) =====
+    "shadow.match.upload.button": "Velg filer",
+    "shadow.match.upload.no.file": "Ingen fil valgt",
+    "shadow.match.upload.files.selected": "{count} filer valgt",
+
     // ===== 10. TOOLBAR (15 items) =====
     "toolbar.layers": "Lag",
     "toolbar.bring.forward": "Flytt Fremover",

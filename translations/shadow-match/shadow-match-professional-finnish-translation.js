@@ -97,6 +97,11 @@ const SHADOW_MATCH_FINNISH_TRANSLATIONS = {
     "shadow.match.uploaded.images": "Lataamasi kuvat (tämä istunto):",
     "shadow.match.uploaded.placeholder": "Lataamasi kuvat näkyvät tässä.",
 
+    // ===== UPLOAD BUTTON (3 items - for custom file input wrapper) =====
+    "shadow.match.upload.button": "Valitse tiedostoja",
+    "shadow.match.upload.no.file": "Ei tiedostoa valittu",
+    "shadow.match.upload.files.selected": "{count} tiedostoa valittu",
+
     // ===== 10. TOOLBAR (15 items) =====
     "toolbar.layers": "Tasot",
     "toolbar.bring.forward": "Tuo eteen",

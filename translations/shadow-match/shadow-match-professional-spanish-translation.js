@@ -97,6 +97,11 @@ const SHADOW_MATCH_SPANISH_TRANSLATIONS = {
     "shadow.match.uploaded.images": "Tus Imágenes Subidas (Esta Sesión):",
     "shadow.match.uploaded.placeholder": "Tus imágenes subidas aparecerán aquí.",
 
+    // ===== UPLOAD BUTTON (3 items - for custom file input wrapper) =====
+    "shadow.match.upload.button": "Elegir archivos",
+    "shadow.match.upload.no.file": "Ningún archivo elegido",
+    "shadow.match.upload.files.selected": "{count} archivos seleccionados",
+
     // ===== 10. TOOLBAR (15 items) =====
     "toolbar.layers": "Capas",
     "toolbar.bring.forward": "Traer al Frente",

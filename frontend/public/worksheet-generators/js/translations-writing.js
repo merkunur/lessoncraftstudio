@@ -79,14 +79,46 @@ const translations = {
     "stroke.circle": "Circle",
     "stroke.zigzag": "Zig-Zag Line",
 
-    // ===== 8. IMAGE LIBRARY (10 items) =====
+    // ===== 8. IMAGE LIBRARY (14 items) =====
     "library.imageMode": "Image Mode:",
     "imageMode.exercise": "Exercise Image",
     "imageMode.custom": "Custom Images",
     "library.pickExercise": "Pick an exercise image (optional):",
+    "library.allThemes": "Kaikki Teemat",
+    "library.allThemes": "Alle Temaer",
+    "library.allThemes": "Alle Temaer",
+    "library.allThemes": "Alla Teman",
+    "library.allThemes": "Alle Thema's",
+    "library.allThemes": "Todos os Temas",
+    "library.allThemes": "Tutti i Temi",
+    "library.allThemes": "All Themes",
     "library.searchPlaceholder": "Search images...",
     "library.selectedStatus": "Selected: {word}",
     "library.selectUpload": "Select image(s) to upload:",
+    "library.chooseFiles": "Valitse tiedostot",
+    "library.noFileChosen": "Ei valittua tiedostoa",
+    "library.filesSelected": "{x} tiedosto(a) valittu",
+    "library.chooseFiles": "Velg filer",
+    "library.noFileChosen": "Ingen fil valgt",
+    "library.filesSelected": "{x} fil(er) valgt",
+    "library.chooseFiles": "Vælg filer",
+    "library.noFileChosen": "Ingen fil valgt",
+    "library.filesSelected": "{x} fil(er) valgt",
+    "library.chooseFiles": "Välj filer",
+    "library.noFileChosen": "Ingen fil vald",
+    "library.filesSelected": "{x} fil(er) valda",
+    "library.chooseFiles": "Bestanden kiezen",
+    "library.noFileChosen": "Geen bestand gekozen",
+    "library.filesSelected": "{x} bestand(en) geselecteerd",
+    "library.chooseFiles": "Escolher arquivos",
+    "library.noFileChosen": "Nenhum arquivo escolhido",
+    "library.filesSelected": "{x} arquivo(s) selecionado(s)",
+    "library.chooseFiles": "Scegli file",
+    "library.noFileChosen": "Nessun file scelto",
+    "library.filesSelected": "{x} file selezionato/i",
+    "library.chooseFiles": "Choose Files",
+    "library.noFileChosen": "No file chosen",
+    "library.filesSelected": "{x} file(s) selected",
     "library.uploadedImages": "Your Uploaded Images:",
     "button.unselectImage": "Unselect Image",
     "button.clearSelection": "Clear Selection",
@@ -145,12 +177,20 @@ const translations = {
     "message.generateWorksheet": "Please generate a worksheet first.",
     "message.jpegError": "Error preparing JPEG.",
 
-    // ===== 14. INFO/LOADING MESSAGES (9 items) =====
+    // ===== 14. INFO/LOADING MESSAGES (10 items) =====
     "message.selectBackgroundTheme": "Select a theme for backgrounds.",
     "message.selectBorderTheme": "Select a theme to see borders.",
     "message.noImages": "No images found. Select a theme or try a different search.",
     "message.themeLoadError": "Error loading {type} themes:",
     "message.selectTheme": "Select a theme.",
+    "message.selectImageToInclude": "Valitse kuva sisällytettäväksi.",
+    "message.selectImageToInclude": "Vennligst velg et bilde å inkludere.",
+    "message.selectImageToInclude": "Vælg venligst et billede, der skal medtages.",
+    "message.selectImageToInclude": "Vänligen välj en bild att inkludera.",
+    "message.selectImageToInclude": "Selecteer een afbeelding om toe te voegen.",
+    "message.selectImageToInclude": "Por favor, selecione uma imagem para incluir.",
+    "message.selectImageToInclude": "Per favore, seleziona un'immagine da includere.",
+    "message.selectImageToInclude": "Please select an image to include.",
     "message.loading": "Loading...",
     "message.loadError": "Error loading {type}.",
     "message.preparingPdf": "Preparing PDF...",
@@ -238,14 +278,18 @@ const translations = {
     "stroke.circle": "Kreis",
     "stroke.zigzag": "Zickzack-Linie",
 
-    // ===== 8. IMAGE LIBRARY (11 items) =====
+    // ===== 8. IMAGE LIBRARY (14 items) =====
     "library.imageMode": "Bildmodus:",
     "imageMode.exercise": "Übungsbild",
     "imageMode.custom": "Eigene Bilder",
     "library.pickExercise": "Übungsbild auswählen (optional):",
+    "library.allThemes": "Alle Themen",
     "library.searchPlaceholder": "Bilder suchen...",
     "library.selectedStatus": "Ausgewählt: {word}",
     "library.selectUpload": "Bild(er) zum Hochladen auswählen:",
+    "library.chooseFiles": "Dateien auswählen",
+    "library.noFileChosen": "Keine Datei ausgewählt",
+    "library.filesSelected": "{x} Datei(en) ausgewählt",
     "library.uploadedImages": "Ihre hochgeladenen Bilder:",
     "button.unselectImage": "Auswahl aufheben",
     "button.clearSelection": "Auswahl löschen",
@@ -304,12 +348,13 @@ const translations = {
     "message.generateWorksheet": "Bitte erst ein Arbeitsblatt generieren.",
     "message.jpegError": "Fehler beim Vorbereiten des JPEG.",
 
-    // ===== 14. INFO/LOADING MESSAGES (9 items) =====
+    // ===== 14. INFO/LOADING MESSAGES (10 items) =====
     "message.selectBackgroundTheme": "Wählen Sie ein Thema für Hintergründe.",
     "message.selectBorderTheme": "Wählen Sie ein Thema für Rahmen.",
     "message.noImages": "Keine Bilder gefunden. Wählen Sie ein Thema oder versuchen Sie eine andere Suche.",
     "message.themeLoadError": "Fehler beim Laden der {type}-Themen:",
     "message.selectTheme": "Wählen Sie ein Thema.",
+    "message.selectImageToInclude": "Bitte wählen Sie ein Bild zum Einfügen aus.",
     "message.loading": "Lädt...",
     "message.loadError": "Fehler beim Laden von {type}.",
     "message.preparingPdf": "PDF wird vorbereitet...",
@@ -397,14 +442,18 @@ const translations = {
     "stroke.circle": "Cercle",
     "stroke.zigzag": "Ligne Zigzag",
 
-    // ===== 8. IMAGE LIBRARY (11 items) =====
+    // ===== 8. IMAGE LIBRARY (14 items) =====
     "library.imageMode": "Mode Image :",
     "imageMode.exercise": "Image d'Exercice",
     "imageMode.custom": "Images Personnalisées",
     "library.pickExercise": "Choisir une image d'exercice (optionnel) :",
+    "library.allThemes": "Tous les Thèmes",
     "library.searchPlaceholder": "Rechercher des images...",
     "library.selectedStatus": "Sélectionné : {word}",
     "library.selectUpload": "Sélectionner image(s) à télécharger :",
+    "library.chooseFiles": "Choisir des fichiers",
+    "library.noFileChosen": "Aucun fichier choisi",
+    "library.filesSelected": "{x} fichier(s) sélectionné(s)",
     "library.uploadedImages": "Vos Images Téléchargées :",
     "button.unselectImage": "Désélectionner l'Image",
     "button.clearSelection": "Effacer la Sélection",
@@ -463,12 +512,13 @@ const translations = {
     "message.generateWorksheet": "Veuillez d'abord générer une feuille d'exercices.",
     "message.jpegError": "Erreur lors de la préparation du JPEG.",
 
-    // ===== 14. INFO/LOADING MESSAGES (9 items) =====
+    // ===== 14. INFO/LOADING MESSAGES (10 items) =====
     "message.selectBackgroundTheme": "Sélectionnez un thème pour les fonds.",
     "message.selectBorderTheme": "Sélectionnez un thème pour les bordures.",
     "message.noImages": "Aucune image trouvée. Sélectionnez un thème ou essayez une autre recherche.",
     "message.themeLoadError": "Erreur lors du chargement des thèmes {type} :",
     "message.selectTheme": "Sélectionnez un thème.",
+    "message.selectImageToInclude": "Veuillez sélectionner une image à inclure.",
     "message.loading": "Chargement...",
     "message.loadError": "Erreur lors du chargement de {type}.",
     "message.preparingPdf": "Préparation du PDF...",
@@ -556,14 +606,18 @@ const translations = {
     "stroke.circle": "Círculo",
     "stroke.zigzag": "Línea en Zigzag",
 
-    // ===== 8. IMAGE LIBRARY (11 items) =====
+    // ===== 8. IMAGE LIBRARY (14 items) =====
     "library.imageMode": "Modo de Imagen:",
     "imageMode.exercise": "Imagen de Ejercicio",
     "imageMode.custom": "Imágenes Personalizadas",
     "library.pickExercise": "Elegir una imagen de ejercicio (opcional):",
+    "library.allThemes": "Todos los Temas",
     "library.searchPlaceholder": "Buscar imágenes...",
     "library.selectedStatus": "Seleccionado: {word}",
     "library.selectUpload": "Seleccionar imagen(es) para subir:",
+    "library.chooseFiles": "Elegir archivos",
+    "library.noFileChosen": "Ningún archivo elegido",
+    "library.filesSelected": "{x} archivo(s) seleccionado(s)",
     "library.uploadedImages": "Sus Imágenes Subidas:",
     "button.unselectImage": "Deseleccionar Imagen",
     "button.clearSelection": "Limpiar Selección",
@@ -622,12 +676,13 @@ const translations = {
     "message.generateWorksheet": "Por favor, primero genere una hoja de ejercicios.",
     "message.jpegError": "Error al preparar el JPEG.",
 
-    // ===== 14. INFO/LOADING MESSAGES (9 items) =====
+    // ===== 14. INFO/LOADING MESSAGES (10 items) =====
     "message.selectBackgroundTheme": "Seleccione un tema para los fondos.",
     "message.selectBorderTheme": "Seleccione un tema para los marcos.",
     "message.noImages": "No se encontraron imágenes. Seleccione un tema o intente otra búsqueda.",
     "message.themeLoadError": "Error al cargar los temas de {type}:",
     "message.selectTheme": "Seleccione un tema.",
+    "message.selectImageToInclude": "Por favor, seleccione una imagen para incluir.",
     "message.loading": "Cargando...",
     "message.loadError": "Error al cargar {type}.",
     "message.preparingPdf": "Preparando PDF...",
@@ -715,7 +770,7 @@ const translations = {
     "stroke.circle": "Cerchio",
     "stroke.zigzag": "Linea a Zigzag",
 
-    // ===== 8. IMAGE LIBRARY (11 items) =====
+    // ===== 8. IMAGE LIBRARY (14 items) =====
     "library.imageMode": "Modalità Immagine:",
     "imageMode.exercise": "Immagine di Esercizio",
     "imageMode.custom": "Immagini Personalizzate",
@@ -781,7 +836,7 @@ const translations = {
     "message.generateWorksheet": "Per favore, genera prima una scheda.",
     "message.jpegError": "Errore nella preparazione del JPEG.",
 
-    // ===== 14. INFO/LOADING MESSAGES (9 items) =====
+    // ===== 14. INFO/LOADING MESSAGES (10 items) =====
     "message.selectBackgroundTheme": "Seleziona un tema per gli sfondi.",
     "message.selectBorderTheme": "Seleziona un tema per le cornici.",
     "message.noImages": "Nessuna immagine trovata. Seleziona un tema o prova un'altra ricerca.",
@@ -874,7 +929,7 @@ const translations = {
     "stroke.circle": "Círculo",
     "stroke.zigzag": "Linha em Ziguezague",
 
-    // ===== 8. IMAGE LIBRARY (11 items) =====
+    // ===== 8. IMAGE LIBRARY (14 items) =====
     "library.imageMode": "Modo de Imagem:",
     "imageMode.exercise": "Imagem de Exercício",
     "imageMode.custom": "Imagens Personalizadas",
@@ -940,7 +995,7 @@ const translations = {
     "message.generateWorksheet": "Por favor, gere primeiro uma ficha.",
     "message.jpegError": "Erro ao preparar o JPEG.",
 
-    // ===== 14. INFO/LOADING MESSAGES (9 items) =====
+    // ===== 14. INFO/LOADING MESSAGES (10 items) =====
     "message.selectBackgroundTheme": "Selecione um tema para os fundos.",
     "message.selectBorderTheme": "Selecione um tema para as molduras.",
     "message.noImages": "Nenhuma imagem encontrada. Selecione um tema ou tente outra pesquisa.",
@@ -1033,7 +1088,7 @@ const translations = {
     "stroke.circle": "Cirkel",
     "stroke.zigzag": "Zigzaglijn",
 
-    // ===== 8. IMAGE LIBRARY (11 items) =====
+    // ===== 8. IMAGE LIBRARY (14 items) =====
     "library.imageMode": "Afbeeldingsmodus:",
     "imageMode.exercise": "Oefenafbeelding",
     "imageMode.custom": "Eigen Afbeeldingen",
@@ -1099,7 +1154,7 @@ const translations = {
     "message.generateWorksheet": "Genereer eerst een werkblad.",
     "message.jpegError": "Fout bij het voorbereiden van de JPEG.",
 
-    // ===== 14. INFO/LOADING MESSAGES (9 items) =====
+    // ===== 14. INFO/LOADING MESSAGES (10 items) =====
     "message.selectBackgroundTheme": "Selecteer een thema voor achtergronden.",
     "message.selectBorderTheme": "Selecteer een thema voor randen.",
     "message.noImages": "Geen afbeeldingen gevonden. Selecteer een thema of probeer een andere zoekopdracht.",
@@ -1192,7 +1247,7 @@ const translations = {
     "stroke.circle": "Cirkel",
     "stroke.zigzag": "Sicksacklinje",
 
-    // ===== 8. IMAGE LIBRARY (11 items) =====
+    // ===== 8. IMAGE LIBRARY (14 items) =====
     "library.imageMode": "Bildläge:",
     "imageMode.exercise": "Övningsbild",
     "imageMode.custom": "Egna Bilder",
@@ -1258,7 +1313,7 @@ const translations = {
     "message.generateWorksheet": "Vänligen generera ett arbetsblad först.",
     "message.jpegError": "Fel vid förberedelse av JPEG.",
 
-    // ===== 14. INFO/LOADING MESSAGES (9 items) =====
+    // ===== 14. INFO/LOADING MESSAGES (10 items) =====
     "message.selectBackgroundTheme": "Välj ett tema för bakgrunder.",
     "message.selectBorderTheme": "Välj ett tema för ramar.",
     "message.noImages": "Inga bilder hittades. Välj ett tema eller prova en annan sökning.",
@@ -1351,7 +1406,7 @@ const translations = {
     "stroke.circle": "Cirkel",
     "stroke.zigzag": "Zigzaglinje",
 
-    // ===== 8. IMAGE LIBRARY (11 items) =====
+    // ===== 8. IMAGE LIBRARY (14 items) =====
     "library.imageMode": "Billedtilstand:",
     "imageMode.exercise": "Øvelsesbillede",
     "imageMode.custom": "Egne Billeder",
@@ -1417,7 +1472,7 @@ const translations = {
     "message.generateWorksheet": "Generer venligst et arbejdsark først.",
     "message.jpegError": "Fejl ved forberedelse af JPEG.",
 
-    // ===== 14. INFO/LOADING MESSAGES (9 items) =====
+    // ===== 14. INFO/LOADING MESSAGES (10 items) =====
     "message.selectBackgroundTheme": "Vælg et tema til baggrunde.",
     "message.selectBorderTheme": "Vælg et tema til rammer.",
     "message.noImages": "Ingen billeder fundet. Vælg et tema eller prøv en anden søgning.",
@@ -1510,7 +1565,7 @@ const translations = {
     "stroke.circle": "Sirkel",
     "stroke.zigzag": "Sikksakklinje",
 
-    // ===== 8. IMAGE LIBRARY (11 items) =====
+    // ===== 8. IMAGE LIBRARY (14 items) =====
     "library.imageMode": "Bildemodus:",
     "imageMode.exercise": "Øvingsbilde",
     "imageMode.custom": "Egne Bilder",
@@ -1576,7 +1631,7 @@ const translations = {
     "message.generateWorksheet": "Vennligst generer et arbeidsark først.",
     "message.jpegError": "Feil ved klargjøring av JPEG.",
 
-    // ===== 14. INFO/LOADING MESSAGES (9 items) =====
+    // ===== 14. INFO/LOADING MESSAGES (10 items) =====
     "message.selectBackgroundTheme": "Velg et tema for bakgrunner.",
     "message.selectBorderTheme": "Velg et tema for rammer.",
     "message.noImages": "Ingen bilder funnet. Velg et tema eller prøv et annet søk.",
@@ -1669,7 +1724,7 @@ const translations = {
     "stroke.circle": "Ympyrä",
     "stroke.zigzag": "Siksak-viiva",
 
-    // ===== 8. IMAGE LIBRARY (11 items) =====
+    // ===== 8. IMAGE LIBRARY (14 items) =====
     "library.imageMode": "Kuvatila:",
     "imageMode.exercise": "Harjoituskuva",
     "imageMode.custom": "Omat Kuvat",
@@ -1735,7 +1790,7 @@ const translations = {
     "message.generateWorksheet": "Luo ensin tehtävä.",
     "message.jpegError": "Virhe JPEG:n valmistelussa.",
 
-    // ===== 14. INFO/LOADING MESSAGES (9 items) =====
+    // ===== 14. INFO/LOADING MESSAGES (10 items) =====
     "message.selectBackgroundTheme": "Valitse taustateema.",
     "message.selectBorderTheme": "Valitse reunusteema.",
     "message.noImages": "Kuvia ei löytynyt. Valitse teema tai kokeile toista hakua.",

@@ -1519,7 +1519,7 @@
                             <div id="imageStatusText" style="margin-bottom:8px;"></div>
                             <button onclick="unselectImage()" style="background:var(--app-accent-danger); border:none; color:white; padding:5px 10px; border-radius:4px; cursor:pointer;" data-translate="button.unselectImage">Unselect Image</button>
                         </div>
-                        <div id="imagePrompt" style="font-size:13px; color:var(--app-text-secondary-dark-theme); margin-top:10px;">Please select an image to include.</div>
+                        <div id="imagePrompt" style="font-size:13px; color:var(--app-text-secondary-dark-theme); margin-top:10px;" data-translate="message.selectImageToInclude">Please select an image to include.</div>
                     </div>
                      <div id="customImageSection" style="display: none; margin-top: 15px;">
                         <div id="customImageSelectionPreview" style="display:none; border:1px solid var(--app-border-dark); padding:10px; text-align:center; margin-bottom:10px;">
@@ -1537,8 +1537,12 @@
             <div class="accordion-item">
                 <button class="accordion-button" data-translate="library.uploadTitle">Upload Custom Images</button>
                 <div class="accordion-content">
-                    <label for="imageUploadInput" data-translate="library.selectUpload">Select image(s) to upload:</label>
-                    <input type="file" id="imageUploadInput" multiple accept="image/*">
+                    <label data-translate="library.selectUpload">Select image(s) to upload:</label>
+                    <div style="margin: 10px 0;">
+                        <button type="button" id="customFileButton" class="action-button" style="padding: 8px 16px; font-size: 14px;" data-translate="library.chooseFiles">Choose Files</button>
+                        <span id="fileSelectionText" style="margin-left: 10px; color: var(--app-text-secondary-dark-theme);" data-translate="library.noFileChosen">No file chosen</span>
+                        <input type="file" id="imageUploadInput" multiple accept="image/*" style="position: absolute; left: -9999px;">
+                    </div>
                     <label style="margin-top:10px;" data-translate="library.uploadedImages">Your Uploaded Images:</label>
                     <div id="uploadedImagesPreview"></div>
                 </div>
@@ -2520,7 +2524,7 @@ function renderRowControls() {
         const panel = newAccordion.querySelector('.accordion-content');
 
         newAccordion.dataset.stateId = state.id;
-        header.textContent = `Row ${index + 1}`;
+        header.textContent = formatTranslation(t('row.title'), { number: index + 1 });
 
         const wasOpen = openAccordionHeaders.some(h => h.parentElement.dataset.stateId === String(state.id));
         if (wasOpen) {
@@ -2578,6 +2582,10 @@ function renderRowControls() {
 
         rowsContainer.appendChild(newAccordion);
     });
+
+    // Apply translations to all newly added row controls
+    applyTranslations();
+
     document.querySelectorAll('#rowsContainer .accordion-button').forEach(btn => setupAccordion(btn.parentElement.querySelector('.accordion-button')));
 }
 
@@ -2589,7 +2597,8 @@ fetch(`/api/themes-translated?locale=${currentLocale}`)
     .then(r=>r.json())
     .then(themes => {
     themeSelect.innerHTML = '';
-    themeSelect.add(new Option('All Themes','all'));
+    const allThemesOption = new Option(t('library.allThemes'),'all');
+    themeSelect.add(allThemesOption);
     themes.forEach(theme => {
         const opt = document.createElement("option");
         opt.value = theme.value;
@@ -3660,9 +3669,30 @@ document.addEventListener('DOMContentLoaded', () => {
 
     addSelectedCustomImageBtn.addEventListener('click', addSelectedCustomImageToWorksheet);
     clearCustomImageSelectionBtn.addEventListener('click', clearCustomImageSelection);
+
+    // Custom file button handlers
+    const customFileButton = document.getElementById('customFileButton');
+    const fileSelectionText = document.getElementById('fileSelectionText');
+
+    if (customFileButton) {
+        customFileButton.addEventListener('click', () => {
+            imageUploadInput.click();
+        });
+    }
+
     imageUploadInput.addEventListener('change', (e) => {
         const files = e.target.files;
         if (!files) return;
+
+        // Update file selection text
+        if (fileSelectionText) {
+            const fileCount = files.length;
+            if (fileCount > 0) {
+                fileSelectionText.textContent = formatTranslation(t('library.filesSelected'), { x: fileCount });
+            } else {
+                fileSelectionText.textContent = t('library.noFileChosen');
+            }
+        }
 
         Promise.all(Array.from(files).filter(f => f.type.startsWith('image/')).map(file => new Promise((resolve, reject) => {
             const reader = new FileReader();
@@ -3681,9 +3711,8 @@ document.addEventListener('DOMContentLoaded', () => {
     borderThemeSelect.addEventListener("change", () => loadAssetImages('borders', borderThemeSelect.value, borderDictionary, addBorderToCanvas));
     borderOpacitySlider.addEventListener('input', () => applyOpacity(borderOpacitySlider, 'border'));
 
-    // NEW: Initial load of themes for background and border
-    loadAssetThemes('borders', borderThemeSelect);
-    loadAssetThemes('backgrounds', backgroundThemeSelect);
+    // NEW: Initialize BulletproofLoader for background and border theme dropdowns
+    BulletproofLoader.init();
 
     updateUIMode();
     updateWorksheetPageSize();

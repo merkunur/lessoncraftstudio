@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Writing Worksheet Generator</title>
+    <title data-translate="page.title">Writing Worksheet Generator</title>
+    <script src="js/translations-writing.js"></script>
+    <script src="js/bulletproof-loader.js"></script>
+    <script src="js/unified-language-manager.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -1430,72 +1433,91 @@
     <div id="menuOverlay" class="menu-overlay"></div>
     <div class="panel">
         <div class="panel-header">
-            <h2>Writing Worksheet</h2>
+            <h2 data-translate="settings.title">Writing Worksheet</h2>
             <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
         </div>
         <div class="panel-content">
             <div class="accordion-item">
-                <button class="accordion-button">Page Setup</button>
+                <button class="accordion-button" data-translate="settings.languageLabel">Language</button>
                 <div class="accordion-content">
-                    <label for="pageSizeSelect">Page Size:</label>
+                    <label for="languageSelect" data-translate="settings.languageLabel">Language:</label>
+                    <select id="languageSelect">
+                        <option value="en" data-translate="lang.en">English</option>
+                        <option value="de" data-translate="lang.de">Deutsch (German)</option>
+                        <option value="fr" data-translate="lang.fr">Français (French)</option>
+                        <option value="es" data-translate="lang.es">Español (Spanish)</option>
+                        <option value="pt" data-translate="lang.pt">Português (Portuguese)</option>
+                        <option value="it" data-translate="lang.it">Italiano (Italian)</option>
+                        <option value="nl" data-translate="lang.nl">Nederlands (Dutch)</option>
+                        <option value="sv" data-translate="lang.sv">Svenska (Swedish)</option>
+                        <option value="da" data-translate="lang.da">Dansk (Danish)</option>
+                        <option value="no" data-translate="lang.no">Norsk (Norwegian)</option>
+                        <option value="fi" data-translate="lang.fi">Suomi (Finnish)</option>
+                    </select>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <button class="accordion-button" data-translate="settings.pageSetup">Page Setup</button>
+                <div class="accordion-content">
+                    <label for="pageSizeSelect" data-translate="settings.pageSize">Page Size:</label>
                     <select id="pageSizeSelect">
-                        <option value="letter" selected>Letter Portrait (8.5×11")</option>
-                        <option value="letter-landscape">Letter Landscape (11×8.5")</option>
-                        <option value="a4">A4 Portrait (210×297mm)</option>
-                        <option value="a4-landscape">A4 Landscape (297×210mm)</option>
-                        <option value="custom">Custom</option>
+                        <option value="letter" selected data-translate="pageSize.letterPortrait">Letter Portrait (8.5×11")</option>
+                        <option value="letter-landscape" data-translate="pageSize.letterLandscape">Letter Landscape (11×8.5")</option>
+                        <option value="a4" data-translate="pageSize.a4Portrait">A4 Portrait (210×297mm)</option>
+                        <option value="a4-landscape" data-translate="pageSize.a4Landscape">A4 Landscape (297×210mm)</option>
+                        <option value="custom" data-translate="pageSize.custom">Custom</option>
                     </select>
                     <div id="customPageSizeInputs" style="display:none; margin-top: 10px; display:flex; flex-direction:column; gap:10px;">
                         <div>
-                            <label for="customWidth">Width (px):</label>
+                            <label for="customWidth" data-translate="settings.width">Width (px):</label>
                             <input type="number" id="customWidth" value="816" min="100">
                         </div>
                         <div>
-                            <label for="customHeight">Height (px):</label>
+                            <label for="customHeight" data-translate="settings.height">Height (px):</label>
                             <input type="number" id="customHeight" value="1056" min="100">
                         </div>
                     </div>
                     <h4 style="margin-top:20px;">Background</h4>
-                    <label for="backgroundThemeSelect">Background Theme:</label>
+                    <label for="backgroundThemeSelect" data-translate="decoration.backgroundTheme">Background Theme:</label>
                     <select id="backgroundThemeSelect">
-                        <option value="none">None</option>
+                        <option value="none" data-translate="decoration.none">None</option>
                     </select>
-                    <div id="backgroundDictionary"><div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">Select a theme for backgrounds.</div></div>
-                    <label for="backgroundOpacitySlider">Background Opacity:</label>
+                    <div id="backgroundDictionary"><div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);" data-translate="message.selectBackgroundTheme">Select a theme for backgrounds.</div></div>
+                    <label for="backgroundOpacitySlider" data-translate="decoration.backgroundOpacity">Background Opacity:</label>
                     <input type="range" id="backgroundOpacitySlider" min="0" max="1" step="0.05" value="1" disabled>
 
                     <h4 style="margin-top:20px;">Border</h4>
-                    <label for="borderThemeSelect">Border Theme:</label>
+                    <label for="borderThemeSelect" data-translate="decoration.borderTheme">Border Theme:</label>
                     <select id="borderThemeSelect">
-                        <option value="none">None</option>
+                        <option value="none" data-translate="decoration.none">None</option>
                     </select>
-                    <div id="borderDictionary"><div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">Select a theme to see borders.</div></div>
-                    <label for="borderOpacitySlider">Border Opacity:</label>
+                    <div id="borderDictionary"><div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);" data-translate="message.selectBorderTheme">Select a theme to see borders.</div></div>
+                    <label for="borderOpacitySlider" data-translate="decoration.borderOpacity">Border Opacity:</label>
                     <input type="range" id="borderOpacitySlider" min="0" max="1" value="1" step="0.05" disabled>
                 </div>
             </div>
 
             <div class="accordion-item">
-                <button class="accordion-button">Image Library</button>
+                <button class="accordion-button" data-translate="library.title">Image Library</button>
                 <div class="accordion-content">
-                    <label>Image Mode:</label>
+                    <label data-translate="library.imageMode">Image Mode:</label>
                     <div class="radio-group">
                         <input type="radio" id="exerciseImageMode" name="imageMode" value="exercise" checked>
-                        <label for="exerciseImageMode">Exercise Image</label>
+                        <label for="exerciseImageMode" data-translate="imageMode.exercise">Exercise Image</label>
                     </div>
                     <div class="radio-group">
                         <input type="radio" id="customImageMode" name="imageMode" value="custom">
-                        <label for="customImageMode">Custom Images</label>
+                        <label for="customImageMode" data-translate="imageMode.custom">Custom Images</label>
                     </div>
 
                     <div id="exerciseImageSection" style="margin-top: 15px;">
-                        <label>Pick an exercise image (optional):</label>
+                        <label data-translate="library.pickExercise">Pick an exercise image (optional):</label>
                         <select id="themeSelect"></select>
-                        <input id="searchInput" placeholder="Search images..." style="margin-top:10px;"/>
+                        <input id="searchInput" data-translate-placeholder="library.searchPlaceholder" placeholder="Search images..." style="margin-top:10px;"/>
                         <div id="imageFeedback" style="display:none; border:1px solid var(--app-border-dark); padding:10px; text-align:center; margin-top:10px;">
                             <img id="thumbnailPreview" style="width:100%; height:140px; object-fit:contain; margin-bottom:8px; background:white; border-radius:4px;"/>
                             <div id="imageStatusText" style="margin-bottom:8px;"></div>
-                            <button onclick="unselectImage()" style="background:var(--app-accent-danger); border:none; color:white; padding:5px 10px; border-radius:4px; cursor:pointer;">Unselect Image</button>
+                            <button onclick="unselectImage()" style="background:var(--app-accent-danger); border:none; color:white; padding:5px 10px; border-radius:4px; cursor:pointer;" data-translate="button.unselectImage">Unselect Image</button>
                         </div>
                         <div id="imagePrompt" style="font-size:13px; color:var(--app-text-secondary-dark-theme); margin-top:10px;">Please select an image to include.</div>
                     </div>
@@ -1503,21 +1525,21 @@
                         <div id="customImageSelectionPreview" style="display:none; border:1px solid var(--app-border-dark); padding:10px; text-align:center; margin-bottom:10px;">
                             <img id="customImageThumbnailPreview" style="width:100%; height:80px; object-fit:contain; margin-bottom:8px; background:white; border-radius:4px;"/>
                             <div id="customImageStatusText" style="margin-bottom:8px;"></div>
-                            <button id="clearCustomImageSelectionBtn" style="background:var(--app-accent-danger); border:none; color:white; padding:5px 10px; border-radius:4px; cursor:pointer;">Clear Selection</button>
+                            <button id="clearCustomImageSelectionBtn" style="background:var(--app-accent-danger); border:none; color:white; padding:5px 10px; border-radius:4px; cursor:pointer;" data-translate="button.clearSelection">Clear Selection</button>
                         </div>
                         <p style="font-size:13px; color:var(--app-text-secondary-dark-theme); margin-bottom:10px;">Select an image below and click 'Add' to place it on the page.</p>
-                        <button id="addSelectedCustomImageBtn" style="background: var(--app-accent-primary); color: white;" disabled>Add Selected Image</button>
+                        <button id="addSelectedCustomImageBtn" style="background: var(--app-accent-primary); color: white;" disabled data-translate="button.addSelectedImage">Add Selected Image</button>
                     </div>
                     <div id="dictionary"></div>
                 </div>
             </div>
 
             <div class="accordion-item">
-                <button class="accordion-button">Upload Custom Images</button>
+                <button class="accordion-button" data-translate="library.uploadTitle">Upload Custom Images</button>
                 <div class="accordion-content">
-                    <label for="imageUploadInput">Select image(s) to upload:</label>
+                    <label for="imageUploadInput" data-translate="library.selectUpload">Select image(s) to upload:</label>
                     <input type="file" id="imageUploadInput" multiple accept="image/*">
-                    <label style="margin-top:10px;">Your Uploaded Images:</label>
+                    <label style="margin-top:10px;" data-translate="library.uploadedImages">Your Uploaded Images:</label>
                     <div id="uploadedImagesPreview"></div>
                 </div>
             </div>
@@ -1534,55 +1556,55 @@
 
         <div id="object-context-toolbar">
             <div class="toolbar-group">
-                <button id="bringForwardBtn" title="Bring Forward" class="context-btn"><i class="fas fa-layer-group" style="transform: translateY(-2px);"></i></button>
-                <button id="sendBackwardBtn" title="Send Backward" class="context-btn"><i class="fas fa-layer-group" style="transform: translateY(2px) scaleY(-1);"></i></button>
+                <button id="bringForwardBtn" data-translate="toolbar.bringForward" title="Bring Forward" class="context-btn"><i class="fas fa-layer-group" style="transform: translateY(-2px);"></i></button>
+                <button id="sendBackwardBtn" data-translate="toolbar.sendBackward" title="Send Backward" class="context-btn"><i class="fas fa-layer-group" style="transform: translateY(2px) scaleY(-1);"></i></button>
             </div>
             <div class="toolbar-group">
                 <div class="toolbar-item">
-                    <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
+                    <button class="context-btn" id="alignBtn" data-translate="toolbar.align" title="Align"><i class="fas fa-th"></i></button>
                     <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
                         <p style="font-size:11px; margin-bottom:5px; color:#555;">Align Selected:</p>
                         <div>
-                            <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
-                            <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
-                            <button class="context-btn" id="alignRightBtn" title="Align Right"><i class="fas fa-align-right"></i></button>
+                            <button class="context-btn" id="alignLeftBtn" data-translate="toolbar.alignLeft" title="Align Left"><i class="fas fa-align-left"></i></button>
+                            <button class="context-btn" id="alignHCenterBtn" data-translate="toolbar.centerH" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                            <button class="context-btn" id="alignRightBtn" data-translate="toolbar.alignRight" title="Align Right"><i class="fas fa-align-right"></i></button>
                         </div>
                         <div style="margin-top: 5px;">
-                            <button class="context-btn" id="alignTopBtn" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
-                            <button class="context-btn" id="alignVCenterBtn" title="Center Vertically"><i class="fas fa-grip-lines-vertical"></i></button>
-                            <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                            <button class="context-btn" id="alignTopBtn" data-translate="toolbar.alignTop" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                            <button class="context-btn" id="alignVCenterBtn" data-translate="toolbar.centerV" title="Center Vertically"><i class="fas fa-grip-lines-vertical"></i></button>
+                            <button class="context-btn" id="alignBottomBtn" data-translate="toolbar.alignBottom" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
                         </div>
                         <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
                         <p style="font-size:11px; margin-bottom:5px; color:#555;">Align to Page:</p>
                         <div>
-                            <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
-                            <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                            <button class="context-btn" id="centerHCanvasBtn" data-translate="toolbar.centerPageH" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                            <button class="context-btn" id="centerVCanvasBtn" data-translate="toolbar.centerPageV" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="toolbar-group">
-                <button id="cropBtn" title="Crop Overflow" class="context-btn" style="display: none;"><i class="fas fa-crop-alt"></i></button>
-                <button id="lockBtn" title="Lock" class="context-btn">
+                <button id="cropBtn" data-translate="toolbar.cropOverflow" title="Crop Overflow" class="context-btn" style="display: none;"><i class="fas fa-crop-alt"></i></button>
+                <button id="lockBtn" data-translate="toolbar.lock" title="Lock" class="context-btn">
                     <i id="lockIcon" class="fas fa-lock-open"></i>
                 </button>
-                <button id="toolbarDeleteBtn" title="Delete" class="context-btn"><i class="fas fa-trash-alt"></i></button>
+                <button id="toolbarDeleteBtn" data-translate="toolbar.delete" title="Delete" class="context-btn"><i class="fas fa-trash-alt"></i></button>
             </div>
         </div>
 
         <div class="top-right-actions">
-            <button id="addRowBtn" class="action-button accent"><i class="fas fa-pen-square"></i> Add Row</button>
+            <button id="addRowBtn" class="action-button accent" data-translate="button.addRow"><i class="fas fa-pen-square"></i> Add Row</button>
             <div class="dropdown-container">
-                <button id="downloadDropdownBtn" class="action-button secondary">Download <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                <button id="downloadDropdownBtn" class="action-button secondary" data-translate="button.download">Download <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
                 <div id="downloadDropdownContent" class="dropdown-content">
-                    <button id="downloadPdfBtn">Download as PDF</button>
-                    <button id="downloadJpegBtn">Download as JPEG</button>
+                    <button id="downloadPdfBtn" data-translate="button.downloadPdf">Download as PDF</button>
+                    <button id="downloadJpegBtn" data-translate="button.downloadJpeg">Download as JPEG</button>
                     <label class="checkbox-label">
-                        <input type="checkbox" id="grayscaleToggle" />Grayscale
+                        <input type="checkbox" id="grayscaleToggle" /><span data-translate="settings.grayscale">Grayscale</span>
                     </label>
                 </div>
             </div>
-            <button id="clearAllBtn" class="action-button danger">Clear All</button>
+            <button id="clearAllBtn" class="action-button danger" data-translate="button.clearAll">Clear All</button>
         </div>
 
         <div class="tab-content-wrapper">
@@ -1595,63 +1617,63 @@
     <div class="accordion-item">
         <button class="accordion-button">Row 1</button>
         <div class="accordion-content">
-            <label>Row Type:</label>
+            <label data-translate="row.type">Row Type:</label>
             <select class="mode">
-                <option value="trace">Trace</option>
-                <option value="fading-trace">Fading Trace</option>
-                <option value="guided-copy">Guided Copy</option>
-                <option value="fill"></option>
+                <option value="trace" data-translate="rowType.trace">Trace</option>
+                <option value="fading-trace" data-translate="rowType.fadingTrace">Fading Trace</option>
+                <option value="guided-copy" data-translate="rowType.guidedCopy">Guided Copy</option>
+                <option value="fill" data-translate="rowType.fill">Fill</option>
             </select>
-            <label>Font Style:</label>
+            <label data-translate="row.fontStyle">Font Style:</label>
             <select class="font-style">
-                <option value="print/regular">Print Regular</option>
-                <option value="print/regular arrow">Print Regular Arrow</option>
-                <option value="print/tracing">Print Tracing</option>
-                <option value="print/tracing arrow">Print Tracing Arrow</option>
-                <option value="cursive">Cursive</option>
+                <option value="print/regular" data-translate="fontStyle.printRegular">Print Regular</option>
+                <option value="print/regular arrow" data-translate="fontStyle.printRegularArrow">Print Regular Arrow</option>
+                <option value="print/tracing" data-translate="fontStyle.printTracing">Print Tracing</option>
+                <option value="print/tracing arrow" data-translate="fontStyle.printTracingArrow">Print Tracing Arrow</option>
+                <option value="cursive" data-translate="fontStyle.cursive">Cursive</option>
             </select>
-            <label>Content:</label>
+            <label data-translate="row.content">Content:</label>
             <select class="content">
-                <option value="empty">Empty</option>
-                <option value="beginning">Beginning Letter</option>
-                <option value="filename">Whole File Name</option>
-                <option value="custom">Custom Text</option>
-                <option value="pre-writing"></option>
+                <option value="empty" data-translate="content.empty">Empty</option>
+                <option value="beginning" data-translate="content.beginningLetter">Beginning Letter</option>
+                <option value="filename" data-translate="content.wholeFileName">Whole File Name</option>
+                <option value="custom" data-translate="content.customText">Custom Text</option>
+                <option value="pre-writing" data-translate="content.preWriting">Pre-writing</option>
             </select>
             <div class="case-options">
-                <label>Case:</label>
+                <label data-translate="row.case">Case:</label>
                 <select class="case">
-                    <option value="uppercase">Upper-case</option>
-                    <option value="lowercase">Lower-case</option>
-                    <option value="title">Title Case</option>
+                    <option value="uppercase" data-translate="case.uppercase">Upper-case</option>
+                    <option value="lowercase" data-translate="case.lowercase">Lower-case</option>
+                    <option value="title" data-translate="case.titleCase">Title Case</option>
                 </select>
             </div>
             <div class="stroke-options" style="display:none;">
-                <label>Stroke Type:</label>
+                <label data-translate="row.strokeType">Stroke Type:</label>
                 <select class="stroke-type">
-                    <option value="vertical">Vertical Line</option>
-                    <option value="horizontal">Horizontal Line</option>
-                    <option value="circle">Circle</option>
-                    <option value="zigzag">Zig-Zag Line</option>
+                    <option value="vertical" data-translate="stroke.vertical">Vertical Line</option>
+                    <option value="horizontal" data-translate="stroke.horizontal">Horizontal Line</option>
+                    <option value="circle" data-translate="stroke.circle">Circle</option>
+                    <option value="zigzag" data-translate="stroke.zigzag">Zig-Zag Line</option>
                 </select>
             </div>
-            <textarea class="custom-text-input" placeholder="Enter custom trace text here..." style="display:none; margin-top: 10px;"></textarea>
-            <button class="delete-row-btn" style="background-color: var(--app-accent-danger); color: white; border: none;">Delete Row</button>
+            <textarea class="custom-text-input" data-translate-placeholder="row.customTextPlaceholder" placeholder="Enter custom trace text here..." style="display:none; margin-top: 10px;"></textarea>
+            <button class="delete-row-btn" style="background-color: var(--app-accent-danger); color: white; border: none;" data-translate="button.deleteRow">Delete Row</button>
         </div>
     </div>
 </template>
 
 <template id="textToolsTpl">
     <div class="accordion-item">
-        <button class="accordion-button">Text Tools</button>
+        <button class="accordion-button" data-translate="settings.textTools">Text Tools</button>
         <div class="accordion-content">
-            <h4>Add New Text</h4>
-            <label for="textInput">Content:</label><input type="text" id="textInput" placeholder="New Text">
-            <button id="addTextBtn">Add Text to Worksheet</button>
-            <h4 style="margin-top:20px;">Selected Text Properties</h4>
-            <label for="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
-            <label for="fontSize">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled readonly>
-            <label for="fontFamily">Font:</label>
+            <h4 data-translate="text.addNewTitle">Add New Text</h4>
+            <label for="textInput" data-translate="text.content">Content:</label><input type="text" id="textInput" data-translate-placeholder="text.placeholder" placeholder="New Text">
+            <button id="addTextBtn" data-translate="button.addText">Add Text to Worksheet</button>
+            <h4 style="margin-top:20px;" data-translate="text.selectedProperties">Selected Text Properties</h4>
+            <label for="textColor" data-translate="text.color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+            <label for="fontSize" data-translate="text.size">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled readonly>
+            <label for="fontFamily" data-translate="text.font">Font:</label>
             <select id="fontFamily" disabled>
                 <option value="Arial" selected>Arial</option>
                 <option value="Verdana">Verdana</option>
@@ -1661,9 +1683,9 @@
                 <option value="Quicksand">Quicksand</option>
                 <option value="Fredoka">Fredoka</option>
             </select>
-            <label for="textStrokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
-            <label for="textStrokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
-            <button id="toolbarDeleteSelectedTextBtn" style="background:var(--app-accent-danger); color:white; margin-top:15px; display:none;">Delete Selected Text</button>
+            <label for="textStrokeColor" data-translate="text.outlineColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+            <label for="textStrokeWidth" data-translate="text.outlineWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+            <button id="toolbarDeleteSelectedTextBtn" style="background:var(--app-accent-danger); color:white; margin-top:15px; display:none;" data-translate="button.deleteSelectedText">Delete Selected Text</button>
         </div>
     </div>
 </template>
@@ -2655,7 +2677,7 @@ function loadDictionary(){
           dictDiv.appendChild(d);
         });
         if (dictDiv.innerHTML === '') {
-             dictDiv.innerHTML = '<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">No images found. Select a theme or try a different search.</div>';
+             dictDiv.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">${t('message.noImages')}</div>`;
         }
     }).catch(e => console.error(e));
 }
@@ -2675,15 +2697,15 @@ function loadAssetThemes(type, selectEl) {
             });
         })
         .catch(err => {
-            console.error(`Error loading ${type} themes:`, err);
-            selectEl.innerHTML = '<option value="none">None</option>';
+            console.error(formatTranslation(t('message.themeLoadError'), { type: type }), err);
+            selectEl.innerHTML = `<option value="none">${t('decoration.none')}</option>`;
         });
 }
 
 function loadAssetImages(type, theme, dictionaryEl, addFunc) {
     const assetName = type.slice(0, -1); // 'border' or 'background'
     if (theme === 'none') {
-        dictionaryEl.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">Select a theme.</div>`;
+        dictionaryEl.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">${t('message.selectTheme')}</div>`;
         // Remove existing asset from blocksState
         blocksState = blocksState.filter(s => s.type !== assetName);
         renderWorksheet();
@@ -2692,7 +2714,7 @@ function loadAssetImages(type, theme, dictionaryEl, addFunc) {
         if (type === 'backgrounds') backgroundOpacitySlider.disabled = true;
         return;
     }
-    dictionaryEl.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">Loading...</div>`;
+    dictionaryEl.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">${t('message.loading')}</div>`;
     // Always use English locale for API calls
     fetch(`/api/${type}/images?theme=${theme}&locale=${currentLocale}`)
         .then(res => res.ok ? res.json() : Promise.reject())
@@ -2710,7 +2732,7 @@ function loadAssetImages(type, theme, dictionaryEl, addFunc) {
                 };
                 dictionaryEl.appendChild(item);
             });
-        }).catch(() => dictionaryEl.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">Error loading ${type}.</div>`);
+        }).catch(() => dictionaryEl.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">${formatTranslation(t('message.loadError'), { type: type })}</div>`);
 }
 
 // NEW: Functions to add border and background to worksheet (adapted for DOM)
@@ -3387,7 +3409,7 @@ function cropRowBlock() {
     const config = state.rowConfig;
 
     if (!state || config.mode === 'guided-copy') {
-        showMessage("Cropping is not supported for this row type.", "error");
+        showMessage(t("message.cropNotSupported"), "error");
         return;
     }
     
@@ -3395,7 +3417,7 @@ function cropRowBlock() {
     const contentContainer = block.querySelector(selector);
 
     if (!contentContainer) {
-        showMessage("This row has no content to crop.", "info");
+        showMessage(t("message.noContentToCrop"), "info");
         return;
     }
     
@@ -3417,7 +3439,7 @@ function cropRowBlock() {
     const numItemsToKeep = lastVisibleIndex + 1;
 
     if (numItemsToKeep === children.length) {
-        showMessage("No overflow to crop.", "info");
+        showMessage(t("message.noOverflow"), "info");
         return;
     }
 
@@ -3449,22 +3471,22 @@ function cropRowBlock() {
     }
 
     renderWorksheet();
-    showMessage("Row cropped successfully.", "success");
+    showMessage(t("message.rowCropped"), "success");
 }
 
 
 function clearAll() {
-    showMessage("Are you sure you want to clear the worksheet? This cannot be undone.", "info-confirm");
+    showMessage(t("message.confirmClear"), "info-confirm");
 }
 function confirmClearAll() {
     blocksState = [];
     selectedImage = null;
     backgroundThemeSelect.value = 'none';
-    backgroundDictionary.innerHTML = '<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">Select a theme for backgrounds.</div>';
+    backgroundDictionary.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">${t('message.selectBackgroundTheme')}</div>`;
     backgroundOpacitySlider.value = 1;
     backgroundOpacitySlider.disabled = true;
     borderThemeSelect.value = 'none';
-    borderDictionary.innerHTML = '<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">Select a theme to see borders.</div>';
+    borderDictionary.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">${t('message.selectBorderTheme')}</div>`;
     borderOpacitySlider.value = 1;
     borderOpacitySlider.disabled = true;
 
@@ -3478,7 +3500,7 @@ function confirmClearAll() {
 
     renderWorksheet();
     deselectAll();
-    showMessage("Worksheet cleared.", "success");
+    showMessage(t("message.worksheetCleared"), "success");
 }
 
 function showMessage(msg, type = 'info', duration = 3000) {
@@ -3489,7 +3511,7 @@ function showMessage(msg, type = 'info', duration = 3000) {
 
     if (type === 'info-confirm') {
         const confirmBtn = document.createElement('button');
-        confirmBtn.textContent = 'Yes, Clear All';
+        confirmBtn.textContent = t('button.clearAll');
         confirmBtn.style.cssText = 'background: var(--app-accent-danger); color: white; margin-left: 10px; padding: 4px 8px; font-size: 12px;';
         confirmBtn.onclick = confirmClearAll;
         messageEl.appendChild(confirmBtn);
@@ -3524,6 +3546,67 @@ function setupPopover(button, content) {
         }
     });
 }
+
+// --- Translation Helper Functions ---
+function t(key) {
+    if (typeof translations === 'undefined') {
+        console.warn('translations not loaded, returning key:', key);
+        return key;
+    }
+    const locale = window.currentLocale || 'en';
+    const translation = (translations[locale] && translations[locale][key]) ||
+                       (translations.en && translations.en[key]) ||
+                       key;
+    return translation;
+}
+
+function formatTranslation(text, params) {
+    let formatted = text;
+    for (const [key, value] of Object.entries(params)) {
+        formatted = formatted.replace(new RegExp(`\\{${key}\\}`, 'g'), value);
+    }
+    return formatted;
+}
+
+function applyTranslations() {
+    document.querySelectorAll('[data-translate]').forEach(element => {
+        const key = element.getAttribute('data-translate');
+        const translation = t(key);
+
+        // Handle special cases for row title with number
+        if (key === 'row.title') {
+            const rowNumber = element.textContent.match(/\d+/);
+            if (rowNumber) {
+                element.textContent = formatTranslation(translation, { number: rowNumber[0] });
+                return;
+            }
+        }
+
+        if (element.tagName === 'OPTION' || element.tagName === 'SPAN' || element.tagName === 'LABEL') {
+            element.textContent = translation;
+        } else if (element.tagName === 'INPUT' || element.tagName === 'BUTTON') {
+            if (element.type !== 'checkbox' && element.type !== 'radio' && element.type !== 'file') {
+                element.textContent = translation;
+            }
+        } else if (element.hasAttribute('title')) {
+            element.setAttribute('title', translation);
+        } else {
+            element.textContent = translation;
+        }
+    });
+
+    document.querySelectorAll('[data-translate-placeholder]').forEach(element => {
+        const key = element.getAttribute('data-translate-placeholder');
+        element.placeholder = t(key);
+    });
+
+    const titleElement = document.querySelector('title[data-translate]');
+    if (titleElement) {
+        const key = titleElement.getAttribute('data-translate');
+        titleElement.textContent = t(key);
+    }
+}
+
 // --- Final Initialization ---
 document.addEventListener('DOMContentLoaded', () => {
     const textToolsContainer = document.getElementById('textToolsContainer');
@@ -3620,12 +3703,39 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('menuToggleBtn').addEventListener('click', openMenu);
     document.getElementById('menuCloseBtn').addEventListener('click', closeMenu);
     document.getElementById('menuOverlay').addEventListener('click', closeMenu);
+
+    // --- Language Support ---
+    // Set current locale from URL parameter or default to 'en'
+    const urlParams = new URLSearchParams(window.location.search);
+    const localeParam = urlParams.get('locale');
+    if (localeParam) {
+        window.currentLocale = localeParam;
+    } else {
+        window.currentLocale = 'en';
+    }
+
+    // Set language selector to current locale
+    const languageSelect = document.getElementById('languageSelect');
+    if (languageSelect) {
+        languageSelect.value = window.currentLocale;
+
+        // Language change handler - reload page with new locale
+        languageSelect.addEventListener('change', function(e) {
+            const newLocale = e.target.value;
+            const url = new URL(window.location.href);
+            url.searchParams.set('locale', newLocale);
+            window.location.href = url.toString();
+        });
+    }
+
+    // Apply translations after DOM is ready
+    applyTranslations();
 });
 
 function renderUploadedImages() {
     uploadedImagesPreviewDiv.innerHTML = '';
     if (uploadedImages.length === 0) {
-        uploadedImagesPreviewDiv.innerHTML = '<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme); width:100%;">Your uploaded images will appear here.</div>';
+        uploadedImagesPreviewDiv.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme); width:100%;">${t('library.uploadedImages')}</div>`;
         return;
     }
     uploadedImages.forEach(imgData => {
@@ -3639,7 +3749,7 @@ function renderUploadedImages() {
                 d.style.backgroundColor = 'rgba(0,122,255,0.15)';
                 selectedCustomImage = imgData;
                 customImageThumbnailPreview.src = imgData.path;
-                customImageStatusText.textContent = `Selected: ${imgData.word}`;
+                customImageStatusText.textContent = formatTranslation(t('library.selectedStatus'), { word: imgData.word });
                 customImageSelectionPreview.style.display = 'block';
                 addSelectedCustomImageBtn.disabled = false;
              }
@@ -3659,8 +3769,8 @@ window.addEventListener('resize', renderWorksheet);
     // Add watermark to canvas before export
     function addWatermarkToCanvas(canvas) {
         if (!isFreeTier()) return;
-        
-        const watermarkText = new fabric.Text('FREE VERSION - LessonCraftStudio.com', {
+
+        const watermarkText = new fabric.Text(t('watermark.free'), {
             fontSize: 40,
             fill: 'rgba(0, 0, 0, 0.2)',
             angle: -45,
@@ -3679,7 +3789,7 @@ window.addEventListener('resize', renderWorksheet);
         const spacing = 250;
         for (let x = 0; x < canvas.width; x += spacing) {
             for (let y = 0; y < canvas.height; y += spacing) {
-                const wm = new fabric.Text('FREE VERSION', {
+                const wm = new fabric.Text(t('watermark.freeShort'), {
                     fontSize: 20,
                     fill: 'rgba(0, 0, 0, 0.15)',
                     angle: -45,
@@ -3719,9 +3829,9 @@ window.addEventListener('resize', renderWorksheet);
     if (originalDownloadPDF) {
         window.downloadPDF = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate content first.', 'error');
+                return showMessage(t('message.generateContent'), 'error');
             }
-            showMessage('Preparing PDF...', 'info', 0);
+            showMessage(t('message.preparingPdf'), 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -3744,9 +3854,9 @@ window.addEventListener('resize', renderWorksheet);
                 pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
                 
                 pdf.save(fileName);
-                showMessage('PDF downloaded!', 'success');
-            } catch(e) { 
-                showMessage('Error creating PDF.', 'error'); 
+                showMessage(t('message.pdfDownloaded'), 'success');
+            } catch(e) {
+                showMessage(t('message.pdfError'), 'error'); 
                 console.error(e); 
             } finally {
                 // Remove watermark after export
@@ -3760,9 +3870,9 @@ window.addEventListener('resize', renderWorksheet);
     if (originalDownloadJPEG) {
         window.downloadJPEG = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage('Please generate a worksheet first.', 'error');
+                return showMessage(t('message.generateWorksheet'), 'error');
             }
-            showMessage('Preparing JPEG...', 'info', 0);
+            showMessage(t('message.preparingJpeg'), 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -3778,9 +3888,9 @@ window.addEventListener('resize', renderWorksheet);
                 link.href = dataURL;
                 link.download = fileName;
                 link.click();
-                showMessage('JPEG download initiated!', 'success');
-            } catch(e) { 
-                showMessage('Error preparing JPEG.', 'error'); 
+                showMessage(t('message.jpegDownloaded'), 'success');
+            } catch(e) {
+                showMessage(t('message.jpegError'), 'error'); 
                 console.error(e); 
             } finally {
                 // Remove watermark after export

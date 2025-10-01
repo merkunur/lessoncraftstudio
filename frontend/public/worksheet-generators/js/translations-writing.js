@@ -44,6 +44,8 @@ const translations = {
     "decoration.backgroundOpacity": "Background Opacity:",
     "decoration.borderTheme": "Border Theme:",
     "decoration.borderOpacity": "Border Opacity:",
+    "decoration.background": "Background",
+    "decoration.border": "Border",
 
     // ===== 5. WRITING ROW CONFIGURATION (19 items) =====
     "row.title": "Row {number}",
@@ -84,38 +86,10 @@ const translations = {
     "imageMode.exercise": "Exercise Image",
     "imageMode.custom": "Custom Images",
     "library.pickExercise": "Pick an exercise image (optional):",
-    "library.allThemes": "Kaikki Teemat",
-    "library.allThemes": "Alle Temaer",
-    "library.allThemes": "Alle Temaer",
-    "library.allThemes": "Alla Teman",
-    "library.allThemes": "Alle Thema's",
-    "library.allThemes": "Todos os Temas",
-    "library.allThemes": "Tutti i Temi",
     "library.allThemes": "All Themes",
     "library.searchPlaceholder": "Search images...",
     "library.selectedStatus": "Selected: {word}",
     "library.selectUpload": "Select image(s) to upload:",
-    "library.chooseFiles": "Valitse tiedostot",
-    "library.noFileChosen": "Ei valittua tiedostoa",
-    "library.filesSelected": "{x} tiedosto(a) valittu",
-    "library.chooseFiles": "Velg filer",
-    "library.noFileChosen": "Ingen fil valgt",
-    "library.filesSelected": "{x} fil(er) valgt",
-    "library.chooseFiles": "Vælg filer",
-    "library.noFileChosen": "Ingen fil valgt",
-    "library.filesSelected": "{x} fil(er) valgt",
-    "library.chooseFiles": "Välj filer",
-    "library.noFileChosen": "Ingen fil vald",
-    "library.filesSelected": "{x} fil(er) valda",
-    "library.chooseFiles": "Bestanden kiezen",
-    "library.noFileChosen": "Geen bestand gekozen",
-    "library.filesSelected": "{x} bestand(en) geselecteerd",
-    "library.chooseFiles": "Escolher arquivos",
-    "library.noFileChosen": "Nenhum arquivo escolhido",
-    "library.filesSelected": "{x} arquivo(s) selecionado(s)",
-    "library.chooseFiles": "Scegli file",
-    "library.noFileChosen": "Nessun file scelto",
-    "library.filesSelected": "{x} file selezionato/i",
     "library.chooseFiles": "Choose Files",
     "library.noFileChosen": "No file chosen",
     "library.filesSelected": "{x} file(s) selected",
@@ -183,13 +157,6 @@ const translations = {
     "message.noImages": "No images found. Select a theme or try a different search.",
     "message.themeLoadError": "Error loading {type} themes:",
     "message.selectTheme": "Select a theme.",
-    "message.selectImageToInclude": "Valitse kuva sisällytettäväksi.",
-    "message.selectImageToInclude": "Vennligst velg et bilde å inkludere.",
-    "message.selectImageToInclude": "Vælg venligst et billede, der skal medtages.",
-    "message.selectImageToInclude": "Vänligen välj en bild att inkludera.",
-    "message.selectImageToInclude": "Selecteer een afbeelding om toe te voegen.",
-    "message.selectImageToInclude": "Por favor, selecione uma imagem para incluir.",
-    "message.selectImageToInclude": "Per favore, seleziona un'immagine da includere.",
     "message.selectImageToInclude": "Please select an image to include.",
     "message.loading": "Loading...",
     "message.loadError": "Error loading {type}.",
@@ -201,7 +168,7 @@ const translations = {
 
     // ===== 16. WATERMARKS (2 items) =====
     "watermark.free": "FREE VERSION - LessonCraftStudio.com",
-    "watermark.freeShort": "FREE VERSION"
+    "watermark.freeShort": "FREE VERSION",
   },
 
   de: {
@@ -243,6 +210,8 @@ const translations = {
     "decoration.backgroundOpacity": "Hintergrunddeckkraft:",
     "decoration.borderTheme": "Rahmenthema:",
     "decoration.borderOpacity": "Rahmendeckkraft:",
+    "decoration.background": "Hintergrund",
+    "decoration.border": "Rahmen",
 
     // ===== 5. WRITING ROW CONFIGURATION (19 items) =====
     "row.title": "Zeile {number}",
@@ -365,7 +334,7 @@ const translations = {
 
     // ===== 16. WATERMARKS (2 items) =====
     "watermark.free": "KOSTENLOSE VERSION - LessonCraftStudio.com",
-    "watermark.freeShort": "KOSTENLOSE VERSION"
+    "watermark.freeShort": "KOSTENLOSE VERSION",
   },
 
   fr: {
@@ -407,6 +376,8 @@ const translations = {
     "decoration.backgroundOpacity": "Opacité du Fond :",
     "decoration.borderTheme": "Thème de Bordure :",
     "decoration.borderOpacity": "Opacité de la Bordure :",
+    "decoration.background": "Arrière-plan",
+    "decoration.border": "Bordure",
 
     // ===== 5. WRITING ROW CONFIGURATION (19 items) =====
     "row.title": "Ligne {number}",
@@ -529,7 +500,7 @@ const translations = {
 
     // ===== 16. WATERMARKS (2 items) =====
     "watermark.free": "VERSION GRATUITE - LessonCraftStudio.com",
-    "watermark.freeShort": "VERSION GRATUITE"
+    "watermark.freeShort": "VERSION GRATUITE",
   },
 
   es: {
@@ -571,6 +542,8 @@ const translations = {
     "decoration.backgroundOpacity": "Opacidad del Fondo:",
     "decoration.borderTheme": "Tema del Marco:",
     "decoration.borderOpacity": "Opacidad del Marco:",
+    "decoration.background": "Fondo",
+    "decoration.border": "Borde",
 
     // ===== 5. WRITING ROW CONFIGURATION (19 items) =====
     "row.title": "Línea {number}",
@@ -693,7 +666,7 @@ const translations = {
 
     // ===== 16. WATERMARKS (2 items) =====
     "watermark.free": "VERSIÓN GRATUITA - LessonCraftStudio.com",
-    "watermark.freeShort": "VERSIÓN GRATUITA"
+    "watermark.freeShort": "VERSIÓN GRATUITA",
   },
 
   it: {
@@ -735,6 +708,8 @@ const translations = {
     "decoration.backgroundOpacity": "Opacità Sfondo:",
     "decoration.borderTheme": "Tema Cornice:",
     "decoration.borderOpacity": "Opacità Cornice:",
+    "decoration.background": "Sfondo",
+    "decoration.border": "Bordo",
 
     // ===== 5. WRITING ROW CONFIGURATION (19 items) =====
     "row.title": "Riga {number}",
@@ -852,7 +827,7 @@ const translations = {
 
     // ===== 16. WATERMARKS (2 items) =====
     "watermark.free": "VERSIONE GRATUITA - LessonCraftStudio.com",
-    "watermark.freeShort": "VERSIONE GRATUITA"
+    "watermark.freeShort": "VERSIONE GRATUITA",
   },
 
   pt: {
@@ -894,6 +869,8 @@ const translations = {
     "decoration.backgroundOpacity": "Opacidade do Fundo:",
     "decoration.borderTheme": "Tema de Moldura:",
     "decoration.borderOpacity": "Opacidade da Moldura:",
+    "decoration.background": "Fundo",
+    "decoration.border": "Borda",
 
     // ===== 5. WRITING ROW CONFIGURATION (19 items) =====
     "row.title": "Linha {number}",
@@ -1011,7 +988,12 @@ const translations = {
 
     // ===== 16. WATERMARKS (2 items) =====
     "watermark.free": "VERSÃO GRATUITA - LessonCraftStudio.com",
-    "watermark.freeShort": "VERSÃO GRATUITA"
+    "watermark.freeShort": "VERSÃO GRATUITA",
+    "library.allThemes": "Todos os Temas",
+    "library.chooseFiles": "Escolher arquivos",
+    "library.noFileChosen": "Nenhum arquivo escolhido",
+    "library.filesSelected": "{x} arquivo(s) selecionado(s)",
+    "message.selectImageToInclude": "Por favor, selecione uma imagem para incluir.",
   },
 
   nl: {
@@ -1053,6 +1035,8 @@ const translations = {
     "decoration.backgroundOpacity": "Achtergrond Transparantie:",
     "decoration.borderTheme": "Randthema:",
     "decoration.borderOpacity": "Rand Transparantie:",
+    "decoration.background": "Achtergrond",
+    "decoration.border": "Rand",
 
     // ===== 5. WRITING ROW CONFIGURATION (19 items) =====
     "row.title": "Regel {number}",
@@ -1170,7 +1154,12 @@ const translations = {
 
     // ===== 16. WATERMARKS (2 items) =====
     "watermark.free": "GRATIS VERSIE - LessonCraftStudio.com",
-    "watermark.freeShort": "GRATIS VERSIE"
+    "watermark.freeShort": "GRATIS VERSIE",
+    "library.allThemes": "Alle Thema\'s",
+    "library.chooseFiles": "Bestanden kiezen",
+    "library.noFileChosen": "Geen bestand gekozen",
+    "library.filesSelected": "{x} bestand(en) geselecteerd",
+    "message.selectImageToInclude": "Selecteer een afbeelding om toe te voegen.",
   },
 
   sv: {
@@ -1212,6 +1201,8 @@ const translations = {
     "decoration.backgroundOpacity": "Bakgrundens Genomskinlighet:",
     "decoration.borderTheme": "Ramtema:",
     "decoration.borderOpacity": "Ramens Genomskinlighet:",
+    "decoration.background": "Bakgrund",
+    "decoration.border": "Kant",
 
     // ===== 5. WRITING ROW CONFIGURATION (19 items) =====
     "row.title": "Rad {number}",
@@ -1329,7 +1320,12 @@ const translations = {
 
     // ===== 16. WATERMARKS (2 items) =====
     "watermark.free": "GRATISVERSION - LessonCraftStudio.com",
-    "watermark.freeShort": "GRATISVERSION"
+    "watermark.freeShort": "GRATISVERSION",
+    "library.allThemes": "Alla Teman",
+    "library.chooseFiles": "Välj filer",
+    "library.noFileChosen": "Ingen fil vald",
+    "library.filesSelected": "{x} fil(er) valda",
+    "message.selectImageToInclude": "Vänligen välj en bild att inkludera.",
   },
 
   da: {
@@ -1371,6 +1367,8 @@ const translations = {
     "decoration.backgroundOpacity": "Baggrunds Gennemsigtighed:",
     "decoration.borderTheme": "Rammetema:",
     "decoration.borderOpacity": "Rammens Gennemsigtighed:",
+    "decoration.background": "Baggrund",
+    "decoration.border": "Ramme",
 
     // ===== 5. WRITING ROW CONFIGURATION (19 items) =====
     "row.title": "Række {number}",
@@ -1488,7 +1486,12 @@ const translations = {
 
     // ===== 16. WATERMARKS (2 items) =====
     "watermark.free": "GRATIS VERSION - LessonCraftStudio.com",
-    "watermark.freeShort": "GRATIS VERSION"
+    "watermark.freeShort": "GRATIS VERSION",
+    "library.allThemes": "Alle Temaer",
+    "library.chooseFiles": "Vælg filer",
+    "library.noFileChosen": "Ingen fil valgt",
+    "library.filesSelected": "{x} fil(er) valgt",
+    "message.selectImageToInclude": "Vælg venligst et billede, der skal medtages.",
   },
 
   no: {
@@ -1530,6 +1533,8 @@ const translations = {
     "decoration.backgroundOpacity": "Bakgrunnens Gjennomsiktighet:",
     "decoration.borderTheme": "Rammetema:",
     "decoration.borderOpacity": "Rammens Gjennomsiktighet:",
+    "decoration.background": "Bakgrunn",
+    "decoration.border": "Ramme",
 
     // ===== 5. WRITING ROW CONFIGURATION (19 items) =====
     "row.title": "Linje {number}",
@@ -1647,7 +1652,12 @@ const translations = {
 
     // ===== 16. WATERMARKS (2 items) =====
     "watermark.free": "GRATIS VERSJON - LessonCraftStudio.com",
-    "watermark.freeShort": "GRATIS VERSJON"
+    "watermark.freeShort": "GRATIS VERSJON",
+    "library.allThemes": "Alle Temaer",
+    "library.chooseFiles": "Velg filer",
+    "library.noFileChosen": "Ingen fil valgt",
+    "library.filesSelected": "{x} fil(er) valgt",
+    "message.selectImageToInclude": "Vennligst velg et bilde å inkludere.",
   },
 
   fi: {
@@ -1689,6 +1699,8 @@ const translations = {
     "decoration.backgroundOpacity": "Taustan Läpinäkyvyys:",
     "decoration.borderTheme": "Reunusteema:",
     "decoration.borderOpacity": "Reunuksen Läpinäkyvyys:",
+    "decoration.background": "Tausta",
+    "decoration.border": "Reunus",
 
     // ===== 5. WRITING ROW CONFIGURATION (19 items) =====
     "row.title": "Rivi {number}",
@@ -1729,9 +1741,13 @@ const translations = {
     "imageMode.exercise": "Harjoituskuva",
     "imageMode.custom": "Omat Kuvat",
     "library.pickExercise": "Valitse harjoituskuva (valinnainen):",
+    "library.allThemes": "Kaikki Teemat",
     "library.searchPlaceholder": "Hae kuvia...",
     "library.selectedStatus": "Valittu: {word}",
     "library.selectUpload": "Valitse ladattava(t) kuva(t):",
+    "library.chooseFiles": "Valitse tiedostot",
+    "library.noFileChosen": "Ei valittua tiedostoa",
+    "library.filesSelected": "{x} tiedosto(a) valittu",
     "library.uploadedImages": "Ladatut Kuvat:",
     "button.unselectImage": "Poista Kuvan Valinta",
     "button.clearSelection": "Tyhjennä Valinta",
@@ -1790,9 +1806,10 @@ const translations = {
     "message.generateWorksheet": "Luo ensin tehtävä.",
     "message.jpegError": "Virhe JPEG:n valmistelussa.",
 
-    // ===== 14. INFO/LOADING MESSAGES (10 items) =====
+    // ===== 14. INFO/LOADING MESSAGES (11 items) =====
     "message.selectBackgroundTheme": "Valitse taustateema.",
     "message.selectBorderTheme": "Valitse reunusteema.",
+    "message.selectImageToInclude": "Valitse kuva sisällytettäväksi.",
     "message.noImages": "Kuvia ei löytynyt. Valitse teema tai kokeile toista hakua.",
     "message.themeLoadError": "Virhe ladattaessa {type}-teemoja:",
     "message.selectTheme": "Valitse teema.",
@@ -1806,9 +1823,8 @@ const translations = {
 
     // ===== 16. WATERMARKS (2 items) =====
     "watermark.free": "ILMAISVERSIO - LessonCraftStudio.com",
-    "watermark.freeShort": "ILMAISVERSIO"
-  },
-
+    "watermark.freeShort": "ILMAISVERSIO",
+  }
 };
 
 // Expose translations to window for BulletproofLoader compatibility

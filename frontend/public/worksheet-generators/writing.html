@@ -6,7 +6,6 @@
     <title data-translate="page.title">Writing Worksheet Generator</title>
     <script src="js/translations-writing.js"></script>
     <script src="js/bulletproof-loader.js"></script>
-    <script src="js/unified-language-manager.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
@@ -230,11 +229,18 @@
         background-color: var(--app-surface-light);
         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         border-radius: 8px;
-        overflow: hidden;
+        overflow: visible;
         margin: auto;
-        position: relative; /* Needed for absolute positioning of children */
-        transform-origin: top center;
-        /* Dynamic scaling will be applied via JavaScript */
+        display: inline-block;
+        /* Wrapper will size to fit the worksheet */
+      }
+
+      #worksheet {
+        position: relative;
+        background-color: white;
+        transform-origin: top left;
+        display: block;
+        /* Width, height, and transform scale set dynamically by JavaScript */
       }
 
       #object-context-toolbar {
@@ -1429,33 +1435,14 @@
     </style>
 </head>
 <body>
+<div id="menuOverlay" class="menu-overlay"></div>
 <div class="layout">
-    <div id="menuOverlay" class="menu-overlay"></div>
     <div class="panel">
         <div class="panel-header">
             <h2 data-translate="settings.title">Writing Worksheet</h2>
             <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
         </div>
         <div class="panel-content">
-            <div class="accordion-item">
-                <button class="accordion-button" data-translate="settings.languageLabel">Language</button>
-                <div class="accordion-content">
-                    <label for="languageSelect" data-translate="settings.languageLabel">Language:</label>
-                    <select id="languageSelect">
-                        <option value="en" data-translate="lang.en">English</option>
-                        <option value="de" data-translate="lang.de">Deutsch (German)</option>
-                        <option value="fr" data-translate="lang.fr">Français (French)</option>
-                        <option value="es" data-translate="lang.es">Español (Spanish)</option>
-                        <option value="pt" data-translate="lang.pt">Português (Portuguese)</option>
-                        <option value="it" data-translate="lang.it">Italiano (Italian)</option>
-                        <option value="nl" data-translate="lang.nl">Nederlands (Dutch)</option>
-                        <option value="sv" data-translate="lang.sv">Svenska (Swedish)</option>
-                        <option value="da" data-translate="lang.da">Dansk (Danish)</option>
-                        <option value="no" data-translate="lang.no">Norsk (Norwegian)</option>
-                        <option value="fi" data-translate="lang.fi">Suomi (Finnish)</option>
-                    </select>
-                </div>
-            </div>
             <div class="accordion-item">
                 <button class="accordion-button" data-translate="settings.pageSetup">Page Setup</button>
                 <div class="accordion-content">
@@ -1477,7 +1464,7 @@
                             <input type="number" id="customHeight" value="1056" min="100">
                         </div>
                     </div>
-                    <h4 style="margin-top:20px;">Background</h4>
+                    <h4 style="margin-top:20px;" data-translate="decoration.background">Background</h4>
                     <label for="backgroundThemeSelect" data-translate="decoration.backgroundTheme">Background Theme:</label>
                     <select id="backgroundThemeSelect">
                         <option value="none" data-translate="decoration.none">None</option>
@@ -1486,7 +1473,7 @@
                     <label for="backgroundOpacitySlider" data-translate="decoration.backgroundOpacity">Background Opacity:</label>
                     <input type="range" id="backgroundOpacitySlider" min="0" max="1" step="0.05" value="1" disabled>
 
-                    <h4 style="margin-top:20px;">Border</h4>
+                    <h4 style="margin-top:20px;" data-translate="decoration.border">Border</h4>
                     <label for="borderThemeSelect" data-translate="decoration.borderTheme">Border Theme:</label>
                     <select id="borderThemeSelect">
                         <option value="none" data-translate="decoration.none">None</option>
@@ -1612,7 +1599,9 @@
         </div>
 
         <div class="tab-content-wrapper">
-            <div class="canvas-container-wrapper" id="worksheet"></div>
+            <div class="canvas-container-wrapper">
+                <div id="worksheet"></div>
+            </div>
         </div>
     </div>
 </div>
@@ -1960,6 +1949,7 @@ const searchInput   = document.getElementById('searchInput');
 const dictDiv       = document.getElementById('dictionary');
 const thumbnailPreview = document.getElementById('thumbnailPreview');
 const worksheetEl   = document.getElementById('worksheet');
+console.log('[INIT] worksheetEl:', worksheetEl);
 const rowsContainer = document.getElementById('rowsContainer');
 const rowTpl        = document.getElementById('rowTpl').content;
 const addRowBtn     = document.getElementById('addRowBtn');
@@ -2590,10 +2580,16 @@ function renderRowControls() {
 }
 
 
-// Always use English locale for this writing practice app
-const currentLocale = 'en';
+// Get locale from URL parameter or default to 'en'
+const urlParams = new URLSearchParams(window.location.search);
+const currentLocale = urlParams.get('locale') || 'en';
+window.currentLocale = currentLocale;
 
-fetch(`/api/themes-translated?locale=${currentLocale}`)
+// IMPORTANT: Writing app image library should ALWAYS use English locale
+// This is an English writing practice app, so image file names should be in English
+const imageLibraryLocale = 'en';
+
+fetch(`/api/themes-translated?locale=${imageLibraryLocale}`)
     .then(r=>r.json())
     .then(themes => {
     themeSelect.innerHTML = '';
@@ -2606,6 +2602,10 @@ fetch(`/api/themes-translated?locale=${currentLocale}`)
         themeSelect.appendChild(opt);
     });
     loadDictionary();
+})
+.catch(err => {
+    console.error('Failed to load themes:', err);
+    // Continue anyway - worksheet should still work without themes
 });
 themeSelect.onchange = loadDictionary;
 searchInput.oninput = loadDictionary;
@@ -2649,11 +2649,11 @@ function loadDictionary(){
 
   let fetchPromise;
   if (q) {
-      // Always use English locale for API calls
-      fetchPromise = fetch(`/api/images?search=${q}&locale=${currentLocale}`).then(r => r.json()).then(data => data.images || data);
+      // Always use English locale for image library
+      fetchPromise = fetch(`/api/images?search=${q}&locale=${imageLibraryLocale}`).then(r => r.json()).then(data => data.images || data);
   } else if (theme !== 'all') {
-      // Always use English locale for API calls
-      fetchPromise = fetch(`/api/images?theme=${theme}&locale=${currentLocale}`).then(r => r.json()).then(data => data.images || data);
+      // Always use English locale for image library
+      fetchPromise = fetch(`/api/images?theme=${theme}&locale=${imageLibraryLocale}`).then(r => r.json()).then(data => data.images || data);
   } else {
       fetchPromise = Promise.resolve([]);
   }
@@ -2694,7 +2694,7 @@ function loadDictionary(){
 // NEW: Functions to load asset themes and images (copied from more less.html, adapted for writing.html)
 function loadAssetThemes(type, selectEl) {
     // Always use English locale for borders and backgrounds
-    fetch(`/api/${type}/themes?locale=${currentLocale}`)
+    fetch(`/api/${type}/themes?locale=${imageLibraryLocale}`)
         .then(response => response.json())
         .then(themes => {
             selectEl.innerHTML = '<option value="none">None</option>';
@@ -2724,8 +2724,8 @@ function loadAssetImages(type, theme, dictionaryEl, addFunc) {
         return;
     }
     dictionaryEl.innerHTML = `<div style="padding:10px; text-align:center; color:var(--app-text-secondary-dark-theme);">${t('message.loading')}</div>`;
-    // Always use English locale for API calls
-    fetch(`/api/${type}/images?theme=${theme}&locale=${currentLocale}`)
+    // Always use English locale for image library
+    fetch(`/api/${type}/images?theme=${theme}&locale=${imageLibraryLocale}`)
         .then(res => res.ok ? res.json() : Promise.reject())
         .then(data => {
             const images = data.images || data; // Handle both API response formats
@@ -2864,6 +2864,9 @@ function updateWorksheetPageSize() {
     worksheetEl.style.width = `${widthPx}px`;
     worksheetEl.style.height = `${heightPx}px`;
 
+    console.log('[Writing App] Worksheet size set to:', widthPx, 'x', heightPx);
+    console.log('[Writing App] worksheetEl actual computed size:', worksheetEl.offsetWidth, 'x', worksheetEl.offsetHeight);
+
     // Update display scaling to match standard from other apps
     updateWorksheetDisplayScaling(widthPx, heightPx);
 
@@ -2900,6 +2903,8 @@ function updateWorksheetDisplayScaling(width, height) {
     // Apply the final scale
     const finalScale = displayScale * scaleRatio;
     worksheetEl.style.transform = `scale(${finalScale})`;
+
+    console.log('[Writing App] Worksheet scaled to:', finalScale, 'Available space:', availableWidth, 'x', availableHeight);
 }
 
 function renderWorksheet(options = {}){
@@ -3711,8 +3716,10 @@ document.addEventListener('DOMContentLoaded', () => {
     borderThemeSelect.addEventListener("change", () => loadAssetImages('borders', borderThemeSelect.value, borderDictionary, addBorderToCanvas));
     borderOpacitySlider.addEventListener('input', () => applyOpacity(borderOpacitySlider, 'border'));
 
-    // NEW: Initialize BulletproofLoader for background and border theme dropdowns
-    BulletproofLoader.init();
+    // NOTE: BulletproofLoader.init() is NOT called here because:
+    // 1. The writing app doesn't require background/border themes to function
+    // 2. The API endpoints may not exist when testing locally (file:// protocol)
+    // 3. Border/background themes will load on-demand when user selects them
 
     updateUIMode();
     updateWorksheetPageSize();
@@ -3732,30 +3739,6 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('menuToggleBtn').addEventListener('click', openMenu);
     document.getElementById('menuCloseBtn').addEventListener('click', closeMenu);
     document.getElementById('menuOverlay').addEventListener('click', closeMenu);
-
-    // --- Language Support ---
-    // Set current locale from URL parameter or default to 'en'
-    const urlParams = new URLSearchParams(window.location.search);
-    const localeParam = urlParams.get('locale');
-    if (localeParam) {
-        window.currentLocale = localeParam;
-    } else {
-        window.currentLocale = 'en';
-    }
-
-    // Set language selector to current locale
-    const languageSelect = document.getElementById('languageSelect');
-    if (languageSelect) {
-        languageSelect.value = window.currentLocale;
-
-        // Language change handler - reload page with new locale
-        languageSelect.addEventListener('change', function(e) {
-            const newLocale = e.target.value;
-            const url = new URL(window.location.href);
-            url.searchParams.set('locale', newLocale);
-            window.location.href = url.toString();
-        });
-    }
 
     // Apply translations after DOM is ready
     applyTranslations();

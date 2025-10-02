@@ -1279,7 +1279,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // REPLACED BY BulletproofLoader - keeping as fallback only
     async function loadBorderThemes() {
         try {
-            borderThemeSelect.innerHTML = `<option value="none">None</option>`;
+            borderThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
             const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
             if (!response.ok) {
                 console.error('Failed to load border themes');

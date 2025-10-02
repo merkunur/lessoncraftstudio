@@ -108,6 +108,7 @@ const translations = {
     "backgroundTheme": "Background Theme:",
     "none": "None",
     "common.none": "None",
+    "none": "None",
     "selectBackgroundTheme": "Select a theme for backgrounds.",
     "backgroundOpacity": "Background Opacity:",
 
@@ -494,6 +495,7 @@ const translations = {
     "backgroundTheme": "Thème d'arrière-plan :",
     "none": "Aucun",
     "common.none": "Aucun",
+    "none": "Aucun",
     "selectBackgroundTheme": "Sélectionnez un thème pour l'arrière-plan.",
     "backgroundOpacity": "Opacité de l'arrière-plan :",
 
@@ -687,6 +689,7 @@ const translations = {
     "backgroundTheme": "Tema de fondo:",
     "none": "Ninguno",
     "common.none": "Ninguno",
+    "none": "Ninguno",
     "selectBackgroundTheme": "Seleccione un tema para el fondo.",
     "backgroundOpacity": "Opacidad del fondo:",
 
@@ -880,6 +883,7 @@ const translations = {
     "backgroundTheme": "Tema sfondo:",
     "none": "Nessuno",
     "common.none": "Nessuno",
+    "none": "Nessuno",
     "selectBackgroundTheme": "Seleziona un tema per lo sfondo.",
     "backgroundOpacity": "Opacità dello sfondo:",
 
@@ -1073,6 +1077,7 @@ const translations = {
     "backgroundTheme": "Tema de fundo:",
     "none": "Nenhum",
     "common.none": "Nenhum",
+    "none": "Nenhum",
     "selectBackgroundTheme": "Selecione um tema para o fundo.",
     "backgroundOpacity": "Opacidade do fundo:",
 
@@ -1266,6 +1271,7 @@ const translations = {
     "backgroundTheme": "Achtergrondthema:",
     "none": "Geen",
     "common.none": "Geen",
+    "none": "Geen",
     "selectBackgroundTheme": "Selecteer een thema voor de achtergrond.",
     "backgroundOpacity": "Transparantie achtergrond:",
 
@@ -1459,6 +1465,7 @@ const translations = {
     "backgroundTheme": "Bakgrundstema:",
     "none": "Ingen",
     "common.none": "Ingen",
+    "none": "Ingen",
     "selectBackgroundTheme": "Välj ett tema för bakgrunden.",
     "backgroundOpacity": "Bakgrundens genomskinlighet:",
 
@@ -1652,6 +1659,7 @@ const translations = {
     "backgroundTheme": "Baggrundstema:",
     "none": "Ingen",
     "common.none": "Ingen",
+    "none": "Ingen",
     "selectBackgroundTheme": "Vælg et tema til baggrunden.",
     "backgroundOpacity": "Baggrundens gennemsigtighed:",
 
@@ -1845,6 +1853,7 @@ const translations = {
     "backgroundTheme": "Bakgrunnstema:",
     "none": "Ingen",
     "common.none": "Ingen",
+    "none": "Ingen",
     "selectBackgroundTheme": "Velg et tema for bakgrunnen.",
     "backgroundOpacity": "Bakgrunnens gjennomsiktighet:",
 
@@ -2038,6 +2047,7 @@ const translations = {
     "backgroundTheme": "Taustateema:",
     "none": "Ei mitään",
     "common.none": "Ei mitään",
+    "none": "Ei mitään",
     "selectBackgroundTheme": "Valitse taustateema.",
     "backgroundOpacity": "Taustan läpinäkyvyys:",
 

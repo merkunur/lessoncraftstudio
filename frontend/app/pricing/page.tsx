@@ -11,6 +11,7 @@ export default function PricingPage() {
   const router = useRouter();
   const { user } = useAuth();
   const [loading, setLoading] = useState<string | null>(null);
+  const [billingInterval, setBillingInterval] = useState<'monthly' | 'yearly'>('monthly');
 
   const handleSubscribe = async (tier: 'CORE' | 'FULL') => {
     if (!user) {
@@ -23,7 +24,7 @@ export default function PricingPage() {
       const response = await fetch('/api/stripe/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ tier }),
+        body: JSON.stringify({ tier, billingInterval }),
       });
 
       if (!response.ok) {
@@ -39,6 +40,16 @@ export default function PricingPage() {
       setLoading(null);
     }
   };
+
+  const getPrice = (tier: typeof SUBSCRIPTION_TIERS.CORE | typeof SUBSCRIPTION_TIERS.FULL) => {
+    if (billingInterval === 'yearly') {
+      return { amount: tier.priceYearly, period: 'year', monthly: Math.floor(tier.priceYearly / 12) };
+    }
+    return { amount: tier.priceMonthly, period: 'month', monthly: tier.priceMonthly };
+  };
+
+  const corePricing = getPrice(SUBSCRIPTION_TIERS.CORE);
+  const fullPricing = getPrice(SUBSCRIPTION_TIERS.FULL);
 
   const tiers = [
     {
@@ -56,13 +67,15 @@ export default function PricingPage() {
       ],
       cta: 'Get Started',
       highlighted: false,
+      showMonthly: false,
     },
     {
       id: 'CORE',
       name: 'Core Bundle',
       icon: <Star className="h-8 w-8" />,
-      price: '$9.99',
-      period: 'per month',
+      price: `$${corePricing.amount}`,
+      period: `per ${corePricing.period}`,
+      monthlyEquiv: billingInterval === 'yearly' ? `$${corePricing.monthly}/mo` : null,
       description: 'Ideal for regular classroom use',
       features: SUBSCRIPTION_TIERS.CORE.features,
       notIncluded: [
@@ -70,21 +83,24 @@ export default function PricingPage() {
         'Custom branding',
         'API access',
       ],
-      cta: 'Start Free Trial',
+      cta: 'Subscribe Now',
       highlighted: true,
       popular: true,
+      showMonthly: true,
     },
     {
       id: 'FULL',
       name: 'Full Access',
       icon: <Rocket className="h-8 w-8" />,
-      price: '$19.99',
-      period: 'per month',
+      price: `$${fullPricing.amount}`,
+      period: `per ${fullPricing.period}`,
+      monthlyEquiv: billingInterval === 'yearly' ? `$${fullPricing.monthly}/mo` : null,
       description: 'Everything you need for professional use',
       features: SUBSCRIPTION_TIERS.FULL.features,
       notIncluded: [],
-      cta: 'Start Free Trial',
+      cta: 'Subscribe Now',
       highlighted: false,
+      showMonthly: true,
     },
   ];
 
@@ -94,14 +110,39 @@ export default function PricingPage() {
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-12">
+        <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
             Choose Your Perfect Plan
           </h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
             Unlock premium features and create unlimited educational worksheets
             for your classroom or homeschool.
           </p>
+
+          {/* Billing Toggle */}
+          <div className="flex items-center justify-center gap-4 mb-4">
+            <span className={`text-sm font-medium ${billingInterval === 'monthly' ? 'text-gray-900' : 'text-gray-500'}`}>
+              Monthly
+            </span>
+            <button
+              onClick={() => setBillingInterval(billingInterval === 'monthly' ? 'yearly' : 'monthly')}
+              className="relative inline-flex h-6 w-11 items-center rounded-full bg-blue-600 transition-colors focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            >
+              <span
+                className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${
+                  billingInterval === 'yearly' ? 'translate-x-6' : 'translate-x-1'
+                }`}
+              />
+            </button>
+            <span className={`text-sm font-medium ${billingInterval === 'yearly' ? 'text-gray-900' : 'text-gray-500'}`}>
+              Yearly
+            </span>
+            {billingInterval === 'yearly' && (
+              <span className="ml-2 inline-flex items-center rounded-full bg-green-100 px-3 py-1 text-xs font-semibold text-green-800">
+                Save 20%
+              </span>
+            )}
+          </div>
         </div>
 
         {/* Pricing Cards */}
@@ -146,10 +187,17 @@ export default function PricingPage() {
 
                 {/* Price */}
                 <div className="mb-6">
-                  <span className="text-4xl font-bold text-gray-900">
-                    {tier.price}
-                  </span>
-                  <span className="text-gray-500 ml-2">/{tier.period}</span>
+                  <div className="flex items-baseline">
+                    <span className="text-4xl font-bold text-gray-900">
+                      {tier.price}
+                    </span>
+                    <span className="text-gray-500 ml-2">/{tier.period}</span>
+                  </div>
+                  {tier.monthlyEquiv && (
+                    <p className="text-sm text-gray-600 mt-1">
+                      {tier.monthlyEquiv} billed annually
+                    </p>
+                  )}
                 </div>
 
                 {/* Description */}

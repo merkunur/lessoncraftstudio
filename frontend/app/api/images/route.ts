@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+import { prisma } from '@/lib/prisma';
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
@@ -11,28 +10,27 @@ export async function GET(request: Request) {
   const limit = parseInt(searchParams.get('limit') || '100');
 
   try {
-    // Read from local JSON file
-    const metadataPath = path.join(process.cwd(), 'public', 'data', 'images-metadata.json');
-
-    if (!fs.existsSync(metadataPath)) {
-      return NextResponse.json({ images: [], pagination: { total: 0, page: 1, limit } });
-    }
-
-    const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf-8'));
-    let allImages = [];
+    let allImages: any[] = [];
 
     // Get all images when no theme specified or theme is 'all'
     if (!theme || theme === 'all') {
-      // Collect all images from all active themes
-      for (const themeData of metadata.themes) {
-        if (!themeData.active) continue;
+      // Get all images from all themes of type 'images'
+      const themes = await prisma.imageTheme.findMany({
+        where: { type: 'images' },
+        include: {
+          images: {
+            orderBy: { sortOrder: 'asc' }
+          }
+        }
+      });
 
+      for (const themeData of themes) {
         for (const img of themeData.images) {
-          const displayName = img.translations?.[locale] || img.translations?.['en'] || img.displayName;
+          const displayName = img.translations?.[locale] || img.translations?.['en'] || img.filename;
 
           allImages.push({
-            path: img.path,
-            url: img.path,
+            path: img.filePath,
+            url: img.filePath,
             name: displayName,
             word: displayName,
             theme: themeData.name
@@ -40,15 +38,26 @@ export async function GET(request: Request) {
         }
       }
     } else {
-      // Get images from specific theme
-      const themeData = metadata.themes.find(t => t.id === theme || t.name === theme);
-      if (themeData && themeData.active) {
+      // Get images from specific theme by name
+      const themeData = await prisma.imageTheme.findFirst({
+        where: {
+          name: theme,
+          type: 'images'
+        },
+        include: {
+          images: {
+            orderBy: { sortOrder: 'asc' }
+          }
+        }
+      });
+
+      if (themeData) {
         for (const img of themeData.images) {
-          const displayName = img.translations?.[locale] || img.translations?.['en'] || img.displayName;
+          const displayName = img.translations?.[locale] || img.translations?.['en'] || img.filename;
 
           allImages.push({
-            path: img.path,
-            url: img.path,
+            path: img.filePath,
+            url: img.filePath,
             name: displayName,
             word: displayName
           });
@@ -57,7 +66,7 @@ export async function GET(request: Request) {
     }
 
     // Apply search filter if provided
-    if (search) {
+    if (search && search.trim()) {
       const searchLower = search.toLowerCase();
       allImages = allImages.filter(img =>
         img.name.toLowerCase().includes(searchLower) ||

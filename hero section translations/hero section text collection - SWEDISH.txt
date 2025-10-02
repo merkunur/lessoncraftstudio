@@ -1,0 +1,526 @@
+TEXTSAMLING FÖR HERO-SEKTION - SVENSK VERSION
+Professionell översättning för användargränssnitt
+Status: SLUTGILTIG - Redo för användning
+
+========================================
+KÄLLFILSINFORMATION
+========================================
+
+Data extraherad från: frontend/app/[locale]/apps/[slug]/page.tsx
+Rader: 424-521 (staticAppData objekt)
+
+Denna fil innehåller hero-sektionens data som visas när man tittar på individuella appar i Next.js-applikationen.
+Hero-sektionen inkluderar:
+- Appens namn/titel
+- Beskrivning
+- Kategorimärke
+- Nödvändig nivåmärke (GRATIS / BASPAKET / FULL ÅTKOMST)
+- Funktionspunkter (4 funktioner per app)
+
+========================================
+GEMENSAMMA ELEMENT
+========================================
+
+Nivåmärken:
+- GRATIS
+- BASPAKET
+- FULL ÅTKOMST
+
+Kategorier:
+- Konst & Kreativitet
+- Tidig Inlärning
+- Finmotorik
+- Spel
+- Språk & Läsning
+- Logik
+- Matchning
+- Matematik
+- Visuell Perception
+- Ordspel
+- Kreativ Skrivning
+- Dataanalys
+- Grammatik
+- Pedagogiska Spel
+- Minnesspel
+- Problemlösning
+- Pussel
+- Tid & Datum
+- Skrivförmåga
+
+UI-textelement:
+- "Appar" (brödsmula)
+- "Hur man använder" (sektionstitel)
+- "Perfekt för" (sektionstitel)
+- "Redo att skapa fantastiska arbetsblad?" (CTA-rubrik)
+- "Gå med tusentals lärare som skapar professionellt undervisningsmaterial" (CTA-beskrivning)
+- "Se priser" (knapp)
+- "Utforska gratis appar" (knapp)
+- "Se alla paket" (knapp)
+- "Starta gratis provperiod" (knapp)
+- "Denna app kräver Baspaketet" (åtkomstmeddelande)
+- "Denna app kräver Full Åtkomst" (åtkomstmeddelande)
+- "Uppgradera ditt abonnemang för att få tillgång till denna arbetsbladsgenererare och många andra professionella verktyg." (uppgraderingsmeddelande)
+
+========================================
+INDIVIDUELL APPDATA
+========================================
+
+APP: Addition (slug: image-addition)
+Titel: Addition med Bilder
+Beskrivning: Skapa visuella additionsarbetsblad med bilder för tidiga matematikstudier
+Kategori: Matematik
+Nödvändig Nivå: BASPAKET
+Funktioner:
+  - Visuella matteuppgifter
+  - Anpassningsbar svårighetsgrad
+  - Facit
+  - Utskriftsklar formatering
+
+----------------------------------------
+
+APP: Alphabet Train
+Titel: Alfabetståget
+Beskrivning: Hjälp barn att lära sig bokstäver med roliga tågtemade alfabetsarbetsblad
+Kategori: Språk & Läsning
+Nödvändig Nivå: BASPAKET
+Funktioner:
+  - Bokstavsigenkänning
+  - Alfabetisk ordning
+  - Roligt tågtema
+  - Flera svårighetsnivåer
+
+----------------------------------------
+
+APP: Big or Small (slug: big-small-app)
+Titel: Stor eller Liten
+Beskrivning: Skapa storleksjämförelsearbetsblad med visuella övningar för nybörjare
+Kategori: Tidig Inlärning
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Storleksjämförelser
+  - Visuella övningar
+  - Flervalsfrågor
+  - Sekvensuppgifter
+
+----------------------------------------
+
+APP: Chart Count (slug: chart-count-color)
+Titel: Räknediagram
+Beskrivning: Skapa färgglada räkne- och diagramarbetsblad för att lära sig siffror
+Kategori: Matematik
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Visuella räkneövningar
+  - Färgglada diagram
+  - Sifferinlärning
+  - Utskriftsklar formatering
+
+----------------------------------------
+
+APP: Code Addition
+Titel: Kodad Addition
+Beskrivning: Skapa additionsövningar med hemliga koder för att göra matte roligt
+Kategori: Matematik
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Addition med hemliga koder
+  - Lekfulla aktiviteter
+  - Justerbar svårighetsgrad
+  - Facit ingår
+
+----------------------------------------
+
+APP: Coloring
+Titel: Färgläggningssidor
+Beskrivning: Designa utskrivbara färgläggningssidor från vårt omfattande bildbibliotek
+Kategori: Konst & Kreativitet
+Nödvändig Nivå: BASPAKET
+Funktioner:
+  - Över 100 bilder
+  - Flera teman
+  - Varierande svårighetsnivåer
+  - Högkvalitativa utskrifter
+
+----------------------------------------
+
+APP: Crossword (slug: image-crossword)
+Titel: Bildkorsord
+Beskrivning: Generera illustrerade korsord för att berika ordförrådet
+Kategori: Ordspel
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Automatisk generering
+  - Anpassningsbara ledtrådar
+  - Olika rutnätsstorlekar
+  - Facit ingår
+
+----------------------------------------
+
+APP: Cryptogram (slug: image-cryptogram)
+Titel: Bildkryptogram
+Beskrivning: Skapa illustrerade kryptogram för att utveckla logik och ordförråd
+Kategori: Pussel
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Visuella kryptogram
+  - Anpassningsbara koder
+  - Olika nivåer
+  - Lösningar ingår
+
+----------------------------------------
+
+APP: Draw and Color
+Titel: Rita och Färglägg
+Beskrivning: Skapa arbetsblad som kombinerar ritande och färgläggning för att stimulera kreativitet
+Kategori: Konst & Kreativitet
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Utrymme för fri teckning
+  - Färgläggningsområden
+  - Varierade teman
+  - Stimulerar kreativitet
+
+----------------------------------------
+
+APP: Drawing Lines
+Titel: Rita Linjer
+Beskrivning: Utveckla finmotorik genom linjedragningsövningar
+Kategori: Finmotorik
+Nödvändig Nivå: BASPAKET
+Funktioner:
+  - Spårningsaktiviteter
+  - Pricka till pricka
+  - Följa stigar
+  - Förskrivningsträning
+
+----------------------------------------
+
+APP: Find and Count
+Titel: Hitta och Räkna
+Beskrivning: Visuella räkneövningar för att utveckla sifferigenkänning och räkneförmåga
+Kategori: Visuell Perception
+Nödvändig Nivå: BASPAKET
+Funktioner:
+  - Räkna föremål
+  - Visuell särskiljning
+  - Sifferträning
+  - Engagerande bilder
+
+----------------------------------------
+
+APP: Find Objects
+Titel: Hitta Föremål
+Beskrivning: Skapa sökarbetsblad för att förbättra visuell uppmärksamhet
+Kategori: Visuell Perception
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Visuella sökövningar
+  - Utvecklar uppmärksamhet
+  - Varierade teman
+  - Olika svårighetsnivåer
+
+----------------------------------------
+
+APP: Grid Match
+Titel: Rutnätsmatchning
+Beskrivning: Skapa rutnätsmatchningsövningar för att utveckla rumslig uppfattning
+Kategori: Matchning
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Mönstermatchning
+  - Rumslig orientering
+  - Visuell perception
+  - Progressiv svårighet
+
+----------------------------------------
+
+APP: MatchUp Maker (slug: matching-app)
+Titel: Matchningsskapare
+Beskrivning: Skapa matchningsaktiviteter för att förbättra minne och associationsförmåga
+Kategori: Matchning
+Nödvändig Nivå: BASPAKET
+Funktioner:
+  - Bild-till-bild-matchning
+  - Ord-till-bild-matchning
+  - Minnesspel
+  - Anpassningsbara par
+
+----------------------------------------
+
+APP: Math Puzzle
+Titel: Mattepussel
+Beskrivning: Skapa utmanande mattepussel för att utveckla logiskt tänkande
+Kategori: Matematik
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Räknepussel
+  - Matematisk logik
+  - Olika nivåer
+  - Lösningar ingår
+
+----------------------------------------
+
+APP: Math Worksheets (slug: math-worksheet)
+Titel: Mattearbetsblad
+Beskrivning: Generera anpassningsbara matteövningsblad för alla nivåer
+Kategori: Matematik
+Nödvändig Nivå: BASPAKET
+Funktioner:
+  - Addition och subtraktion
+  - Multiplikation och division
+  - Facit
+  - Justerbara svårighetsnivåer
+
+----------------------------------------
+
+APP: Missing Pieces
+Titel: Saknade Delar
+Beskrivning: Skapa visuella kompletteringsövningar för att utveckla logiskt tänkande
+Kategori: Logik
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Identifiera saknade element
+  - Logiskt resonemang
+  - Visuella övningar
+  - Progressiv svårighet
+
+----------------------------------------
+
+APP: More Less
+Titel: Mer eller Mindre
+Beskrivning: Skapa mängdjämförelseövningar för att lära matematiska begrepp
+Kategori: Matematik
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Jämföra mängder
+  - Grundläggande matematiska begrepp
+  - Visuella övningar
+  - Progressiv inlärning
+
+----------------------------------------
+
+APP: Odd One Out
+Titel: Vilken Passar Inte In
+Beskrivning: Skapa övningar för att identifiera det avvikande elementet och utveckla analys
+Kategori: Logik
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Identifiera skillnader
+  - Logiskt resonemang
+  - Kategorisering
+  - Varierade övningar
+
+----------------------------------------
+
+APP: Pattern Train
+Titel: Mönstertåget
+Beskrivning: Skapa sekvensarbetsblad med tågtema för att känna igen mönster
+Kategori: Logik
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Mönsterigenkänning
+  - Logiska sekvenser
+  - Tågtema
+  - Progressiv svårighet
+
+----------------------------------------
+
+APP: Pattern Worksheet
+Titel: Mönsterarbetsblad
+Beskrivning: Skapa arbetsblad för att lära sig sekvenser och upprepande mönster
+Kategori: Logik
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Mönster och sekvenser
+  - Visuell igenkänning
+  - Logiskt resonemang
+  - Flera nivåer
+
+----------------------------------------
+
+APP: Picture Bingo
+Titel: Bildbingo
+Beskrivning: Generera anpassade bingobrickor med bilder för klassrummet
+Kategori: Spel
+Nödvändig Nivå: BASPAKET
+Funktioner:
+  - Anpassade bingobrickor
+  - Tematiska bilder
+  - Flera brickstorlekar
+  - Dragningslistor ingår
+
+----------------------------------------
+
+APP: Picture Pathway (slug: picture-path)
+Titel: Bildstig
+Beskrivning: Skapa visuella stigar för att utveckla logik och instruktionsföljning
+Kategori: Logik
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Stigar att följa
+  - Sekventiell logik
+  - Visuella övningar
+  - Flera svårighetsnivåer
+
+----------------------------------------
+
+APP: Picture Sort
+Titel: Bildsortering
+Beskrivning: Skapa bildsorteringsaktiviteter för att utveckla kategorisering
+Kategori: Logik
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Sortering och ordning
+  - Kategorisering
+  - Logiskt resonemang
+  - Varierade teman
+
+----------------------------------------
+
+APP: Prepositions
+Titel: Prepositioner
+Beskrivning: Skapa visuella övningar för att lära sig prepositioner på ett lekfullt sätt
+Kategori: Grammatik
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Rumsliga prepositioner
+  - Illustrerade övningar
+  - Visuell inlärning
+  - Lätt att förstå
+
+----------------------------------------
+
+APP: Shadow Match
+Titel: Skuggmatchning
+Beskrivning: Skapa övningar för att matcha föremål med deras skuggor
+Kategori: Visuell Perception
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Form-skugga-matchning
+  - Visuell perception
+  - Visuell särskiljning
+  - Olika nivåer
+
+----------------------------------------
+
+APP: Subtraction
+Titel: Subtraktion
+Beskrivning: Skapa visuella subtraktionsarbetsblad för matematikstudier
+Kategori: Matematik
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Subtraktionsövningar
+  - Visuellt stöd
+  - Justerbar svårighetsgrad
+  - Facit ingår
+
+----------------------------------------
+
+APP: Sudoku for Kids (slug: sudoku)
+Titel: Sudoku för Barn
+Beskrivning: Roliga sudoku-pussel med bilder istället för siffror för barn
+Kategori: Logik
+Nödvändig Nivå: BASPAKET
+Funktioner:
+  - Sudoku med bilder
+  - 4x4 och 6x6 rutnät
+  - Progressiv svårighet
+  - Lösningar ingår
+
+----------------------------------------
+
+APP: Treasure Hunt
+Titel: Skattjakt
+Beskrivning: Skapa skattjaktsarbetsblad för lekfulla och pedagogiska aktiviteter
+Kategori: Pedagogiska Spel
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Sökstigar
+  - Lekfulla aktiviteter
+  - Anpassningsbara kartor
+  - Stimulerar resonemang
+
+----------------------------------------
+
+APP: Word Guess
+Titel: Gissa Ordet
+Beskrivning: Skapa arbetsblad för att gissa ord och berika ordförrådet
+Kategori: Ordspel
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Ordgåtor
+  - Visuella ledtrådar
+  - Berika ordförrådet
+  - Flera nivåer
+
+----------------------------------------
+
+APP: Word Scramble
+Titel: Ordblandning
+Beskrivning: Skapa ordblandningsarbetsblad för att förbättra ordförråd och stavning
+Kategori: Språk & Läsning
+Nödvändig Nivå: BASPAKET
+Funktioner:
+  - Anpassade ordlistor
+  - Tematiskt ordförråd
+  - Flera svårighetsnivåer
+  - Facit ingår
+
+----------------------------------------
+
+APP: Word Search (slug: word-search, file: wordsearch.html)
+Titel: Ordletare
+Beskrivning: Generera anpassningsbara ordletare med tematiskt ordförråd
+Kategori: Ordspel
+Nödvändig Nivå: GRATIS
+Funktioner:
+  - Flera rutnätsstorlekar
+  - Riktningsalternativ
+  - Tematiska ordlistor
+  - Facit ingår
+
+----------------------------------------
+
+APP: Writing (slug: writing-app)
+Titel: Skrivövningar
+Beskrivning: Skapa anpassade skrivarbetsblad för att utveckla skrivförmåga
+Kategori: Skrivförmåga
+Nödvändig Nivå: FULL ÅTKOMST
+Funktioner:
+  - Anpassningsbara skrivlinjer
+  - Varierade teman
+  - Visuellt stöd
+  - Utskriftsklar formatering
+
+========================================
+TILLÄMPADE ÖVERSÄTTNINGSPRINCIPER
+========================================
+
+1. NATURLIGHET: Texten låter som ursprunglig svenska, inte översatt
+2. MÅLINRIKTAD: Språk passande för svenska lärare och föräldrar
+3. KONSEKVENT: Enhetlig terminologi genom hela dokumentet
+4. KONCIS: Tydliga och meningsfulla beskrivningar
+5. ENGAGERANDE: Positiva och inbjudande formuleringar
+
+Exempel på översättningsval:
+
+- "Worksheets" → "Arbetsblad" (svensk pedagogisk standardterm)
+- "Print-ready" → "Utskriftsklar" (aktiv form, naturlig)
+- "Core Bundle" → "Baspaket" (tydlig och direkt)
+- "Full Access" → "Full Åtkomst" (tydlig och direkt)
+- "Word Search" → "Ordletare" (svensk standardterm, inte "ordsökning")
+- "Word Scramble" → "Ordblandning" (naturlig svensk term)
+- "Bingo" → "Bingo" (universell term, behållen)
+- "Answer keys" → "Facit" (svensk pedagogisk term, inte "svarsnycklar")
+- "Customizable" → "Anpassningsbar" (teknisk term)
+- "Match/Matching" → "Matchning" (naturlig svenska)
+- "Odd One Out" → "Vilken Passar Inte In" (naturligt svenskt uttryck)
+- "Treasure Hunt" → "Skattjakt" (svensk kulturell term)
+
+========================================
+STATUS
+========================================
+
+SLUTGILTIG - Redo för användning
+Professionell översättning komplett för alla 33 applikationer
+Granskning genomförd

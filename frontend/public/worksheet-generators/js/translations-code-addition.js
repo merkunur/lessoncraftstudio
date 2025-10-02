@@ -53,6 +53,7 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.msg.loading.borders": "Loading border theme...",
     "codeaddition.msg.no.borders": "No borders available in this theme.",
     "common.none": "None",
+    "none": "None",
     "common.grayscale": "Grayscale",  // CRITICAL - User mentioned
     "codeaddition.text.tools": "Text Tools",
     "codeaddition.text.add.new": "Add New Text",
@@ -190,6 +191,7 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.msg.loading.borders": "Rahmenthema wird geladen...",
     "codeaddition.msg.no.borders": "Keine Rahmen in diesem Thema verfügbar.",
     "common.none": "Ohne",
+    "none": "Ohne",
     "common.grayscale": "Graustufen",  // CRITICAL - User mentioned
     "codeaddition.text.tools": "Textwerkzeuge",
     "codeaddition.text.add.new": "Neuen Text hinzufügen",
@@ -327,6 +329,7 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.msg.loading.borders": "Chargement du thème de bordure...",
     "codeaddition.msg.no.borders": "Aucune bordure disponible dans ce thème.",
     "common.none": "Aucun",
+    "none": "Aucun",
     "common.grayscale": "Niveaux de gris",  // CRITICAL - User mentioned
     "codeaddition.text.tools": "Outils texte",
     "codeaddition.text.add.new": "Ajouter un nouveau texte",
@@ -464,6 +467,7 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.msg.loading.borders": "Cargando tema de borde...",
     "codeaddition.msg.no.borders": "No hay bordes disponibles en este tema.",
     "common.none": "Ninguno",
+    "none": "Ninguno",
     "common.grayscale": "Escala de grises",  // CRITICAL - User mentioned
     "codeaddition.text.tools": "Herramientas de texto",
     "codeaddition.text.add.new": "Añadir nuevo texto",
@@ -601,6 +605,7 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.msg.loading.borders": "Caricamento tema cornice...",
     "codeaddition.msg.no.borders": "Nessuna cornice disponibile in questo tema.",
     "common.none": "Nessuno",
+    "none": "Nessuno",
     "common.grayscale": "Scala di grigi",  // CRITICAL - User mentioned
     "codeaddition.text.tools": "Strumenti testo",
     "codeaddition.text.add.new": "Aggiungi nuovo testo",
@@ -738,6 +743,7 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.msg.loading.borders": "Carregando tema de moldura...",
     "codeaddition.msg.no.borders": "Não há molduras disponíveis neste tema.",
     "common.none": "Nenhum",
+    "none": "Nenhum",
     "common.grayscale": "Escala de cinza",  // CRITICAL - User mentioned
     "codeaddition.text.tools": "Ferramentas de texto",
     "codeaddition.text.add.new": "Adicionar novo texto",
@@ -875,6 +881,7 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.msg.loading.borders": "Randthema wordt geladen...",
     "codeaddition.msg.no.borders": "Geen randen beschikbaar in dit thema.",
     "common.none": "Geen",
+    "none": "Geen",
     "common.grayscale": "Grijstinten",  // CRITICAL - User mentioned
     "codeaddition.text.tools": "Tekstgereedschap",
     "codeaddition.text.add.new": "Nieuwe tekst toevoegen",
@@ -1012,6 +1019,7 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.msg.loading.borders": "Laddar ramtema...",
     "codeaddition.msg.no.borders": "Inga ramar tillgängliga i detta tema.",
     "common.none": "Ingen",
+    "none": "Ingen",
     "common.grayscale": "Gråskala",  // CRITICAL - User mentioned
     "codeaddition.text.tools": "Textverktyg",
     "codeaddition.text.add.new": "Lägg till ny text",
@@ -1149,6 +1157,7 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.msg.loading.borders": "Indlæser rammetema...",
     "codeaddition.msg.no.borders": "Ingen rammer tilgængelige i dette tema.",
     "common.none": "Ingen",
+    "none": "Ingen",
     "common.grayscale": "Gråtoner",  // CRITICAL - User mentioned
     "codeaddition.text.tools": "Tekstværktøjer",
     "codeaddition.text.add.new": "Tilføj ny tekst",
@@ -1286,6 +1295,7 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.msg.loading.borders": "Laster rammetema...",
     "codeaddition.msg.no.borders": "Ingen rammer tilgjengelig i dette temaet.",
     "common.none": "Ingen",
+    "none": "Ingen",
     "common.grayscale": "Gråtoner",  // CRITICAL - User mentioned
     "codeaddition.text.tools": "Tekstverktøy",
     "codeaddition.text.add.new": "Legg til ny tekst",
@@ -1417,6 +1427,7 @@ const CODE_ADDITION_TRANSLATIONS = {
     "codeaddition.border.theme": "Teema:",
     "codeaddition.border.opacity": "Läpinäkyvyys:",
     "common.none": "Ei mitään",
+    "none": "Ei mitään",
     "common.grayscale": "Harmaasävy",
     "codeaddition.text.tools": "Tekstityökalut",
     "codeaddition.text.add.new": "Lisää uusi teksti",

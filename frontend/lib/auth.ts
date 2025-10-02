@@ -87,3 +87,41 @@ export const authOptions = {
 export async function auth() {
   return null;
 }
+
+// JWT-based authentication (for custom API endpoints)
+import { NextRequest } from 'next/server';
+import jwt from 'jsonwebtoken';
+
+export async function getCurrentUser(request: NextRequest) {
+  try {
+    const authHeader = request.headers.get('Authorization');
+    if (!authHeader || !authHeader.startsWith('Bearer ')) {
+      return null;
+    }
+
+    const token = authHeader.substring(7);
+    const JWT_SECRET = process.env.JWT_SECRET || 'your-super-secret-jwt-key-min-32-characters-long';
+
+    const decoded = jwt.verify(token, JWT_SECRET) as any;
+
+    // Fetch full user data from database
+    const user = await prisma.user.findUnique({
+      where: { id: decoded.userId },
+      select: {
+        id: true,
+        email: true,
+        firstName: true,
+        lastName: true,
+        subscriptionTier: true,
+        stripeCustomerId: true,
+        emailVerified: true,
+        isAdmin: true,
+      }
+    });
+
+    return user;
+  } catch (error) {
+    console.error('Get current user error:', error);
+    return null;
+  }
+}

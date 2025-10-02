@@ -169,12 +169,12 @@ class BulletproofLoader {
         // Clear and add None option with translation
         // Get translated "None" text
         let noneText = 'None';
-        if (typeof window.getTranslation === 'function') {
-            noneText = window.getTranslation('decoration.none', this.state.locale);
+        if (typeof window.t === 'function') {
+            noneText = window.t('none');
         } else if (typeof window.translations !== 'undefined' && window.translations[this.state.locale]) {
-            noneText = window.translations[this.state.locale]['decoration.none'] || 'None';
+            noneText = window.translations[this.state.locale]['none'] || 'None';
         }
-        this.borderSelect.innerHTML = `<option value="none" data-translate="decoration.none">${noneText}</option>`;
+        this.borderSelect.innerHTML = `<option value="none" data-translate="none">${noneText}</option>`;
 
         try {
             // Fetch without aggressive timeout - let the API complete
@@ -231,12 +231,12 @@ class BulletproofLoader {
         // Clear and add None option with translation
         // Get translated "None" text
         let noneText = 'None';
-        if (typeof window.getTranslation === 'function') {
-            noneText = window.getTranslation('decoration.none', this.state.locale);
+        if (typeof window.t === 'function') {
+            noneText = window.t('none');
         } else if (typeof window.translations !== 'undefined' && window.translations[this.state.locale]) {
-            noneText = window.translations[this.state.locale]['decoration.none'] || 'None';
+            noneText = window.translations[this.state.locale]['none'] || 'None';
         }
-        this.backgroundSelect.innerHTML = `<option value="none" data-translate="decoration.none">${noneText}</option>`;
+        this.backgroundSelect.innerHTML = `<option value="none" data-translate="none">${noneText}</option>`;
 
         try {
             // Fetch without aggressive timeout - let the API complete
@@ -354,12 +354,12 @@ class BulletproofLoader {
         if (this.borderSelect) {
             // Get translated "None" text
             let noneText = 'None';
-            if (typeof window.getTranslation === 'function') {
-                noneText = window.getTranslation('common.none', this.state.locale);
+            if (typeof window.t === 'function') {
+                noneText = window.t('none');
             } else if (typeof window.translations !== 'undefined' && window.translations[this.state.locale]) {
-                noneText = window.translations[this.state.locale]['common.none'] || 'None';
+                noneText = window.translations[this.state.locale]['none'] || 'None';
             }
-            this.borderSelect.innerHTML = `<option value="none" data-translate="common.none">${noneText}</option>`;
+            this.borderSelect.innerHTML = `<option value="none" data-translate="none">${noneText}</option>`;
             fallbackBorders.forEach(theme => {
                 const option = document.createElement('option');
                 option.value = theme.value;
@@ -372,12 +372,12 @@ class BulletproofLoader {
         if (this.backgroundSelect) {
             // Get translated "None" text
             let noneText = 'None';
-            if (typeof window.getTranslation === 'function') {
-                noneText = window.getTranslation('common.none', this.state.locale);
+            if (typeof window.t === 'function') {
+                noneText = window.t('none');
             } else if (typeof window.translations !== 'undefined' && window.translations[this.state.locale]) {
-                noneText = window.translations[this.state.locale]['common.none'] || 'None';
+                noneText = window.translations[this.state.locale]['none'] || 'None';
             }
-            this.backgroundSelect.innerHTML = `<option value="none" data-translate="common.none">${noneText}</option>`;
+            this.backgroundSelect.innerHTML = `<option value="none" data-translate="none">${noneText}</option>`;
             fallbackBackgrounds.forEach(theme => {
                 const option = document.createElement('option');
                 option.value = theme.value;

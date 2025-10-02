@@ -547,14 +547,14 @@
                         <h4>Background</h4>
                         <label for="backgroundThemeSelect">Background Theme:</label>
                         <select id="backgroundThemeSelect">
-                            <option value="none">None</option>
+                            <option value="none" data-translate="none">None</option>
                         </select>
                         <div id="backgroundDictionary"><p class="dictionary-message">Select a theme for backgrounds.</p></div>
 
                         <h4>Border</h4>
                         <label for="borderThemeSelect">Border Theme:</label>
                         <select id="borderThemeSelect">
-                            <option value="none">None</option>
+                            <option value="none" data-translate="none">None</option>
                         </select>
                         <div id="borderDictionary"><p class="dictionary-message">Select a theme to see borders.</p></div>
                     </div>
@@ -1221,7 +1221,7 @@
             console.log('borderThemeSelect exists:', !!borderThemeSelect);
 
             try {
-                borderThemeSelect.innerHTML = '<option value="none">None</option>';
+                borderThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
                 const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
                 if (!response.ok) {
                     console.error('Failed to load border themes');
@@ -1250,7 +1250,7 @@
             const backgroundThemeSelect = document.getElementById('backgroundThemeSelect');
 
             try {
-                backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+                backgroundThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
                 const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
                 if (!response.ok) {
                     console.error('Failed to load background themes');

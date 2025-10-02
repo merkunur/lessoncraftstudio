@@ -1,0 +1,527 @@
+HERO SECTION TEXTSAMMLUNG - DEUTSCHE ÜBERSETZUNG
+Professionelle UI-Übersetzung für LessonCraftStudio
+
+========================================
+QUELLENDATEI-INFORMATIONEN
+========================================
+
+Extrahiert aus: frontend/app/[locale]/apps/[slug]/page.tsx
+Zeilen: 424-521 (staticAppData Objekt)
+
+Diese Datei enthält die Hero-Section-Daten, die beim Aufrufen einzelner Apps in der Next.js-Anwendung angezeigt werden.
+Die Hero-Section umfasst:
+- App-Name/Titel
+- Beschreibung
+- Kategorie-Badge
+- Erforderlicher Tarif-Badge (KOSTENLOS / BASIS-PAKET / VOLLZUGRIFF)
+- Funktions-Stichpunkte (4 Funktionen pro App)
+
+========================================
+GEMEINSAME ELEMENTE
+========================================
+
+Tarif-Bezeichnungen:
+- FREE TIER → KOSTENLOS
+- CORE BUNDLE → BASIS-PAKET
+- FULL ACCESS → VOLLZUGRIFF
+
+Kategorien:
+- Art & Creativity → Kunst & Kreativität
+- Early Learning → Frühförderung
+- Fine Motor Skills → Feinmotorik
+- Games → Spiele
+- Language Arts → Sprache & Lesen
+- Logic → Logik & Denken
+- Matching → Zuordnung
+- Math → Mathematik
+- Visual Perception → Visuelle Wahrnehmung
+- Word Games → Wortspiele
+- Creative Writing → Kreatives Schreiben
+- Data Analysis → Datenauswertung
+- Grammar → Grammatik
+- Learning Games → Lernspiele
+- Memory Games → Gedächtnisspiele
+- Problem Solving → Problemlösung
+- Puzzles → Rätsel
+- Time & Date → Zeit & Datum
+- Writing Skills → Schreibfertigkeiten
+
+UI-Text-Elemente:
+- "Apps" (Breadcrumb) → "Apps"
+- "How to Use" (Abschnittsüberschrift) → "So funktioniert's"
+- "Perfect For" (Abschnittsüberschrift) → "Ideal für"
+- "Ready to Create Amazing Worksheets?" (CTA-Überschrift) → "Bereit für professionelle Arbeitsblätter?"
+- "Join thousands of teachers creating professional educational materials" → "Schließen Sie sich Tausenden von Lehrkräften an, die professionelle Lernmaterialien erstellen"
+- "View Pricing Plans" (Button) → "Preise ansehen"
+- "Browse Free Apps" (Button) → "Kostenlose Apps entdecken"
+- "View All Plans" (Button) → "Alle Tarife ansehen"
+- "Start Free Trial" (Button) → "Kostenlos testen"
+- "This app requires Core Bundle" → "Diese App erfordert das BASIS-PAKET"
+- "This app requires Full Access" → "Diese App erfordert VOLLZUGRIFF"
+- "Upgrade your plan to access this worksheet generator and many more professional tools." → "Upgraden Sie Ihren Tarif, um auf diesen Arbeitsblatt-Generator und viele weitere professionelle Tools zuzugreifen."
+
+========================================
+EINZELNE APP-DATEN (Alphabetische Reihenfolge)
+========================================
+
+APP: Addition (slug: image-addition)
+Titel: Bilder-Addition
+Beschreibung: Erstellen Sie visuelle Additions-Arbeitsblätter mit Bildern für den Mathematik-Einstieg
+Kategorie: Mathematik
+Erforderlicher Tarif: BASIS-PAKET
+Funktionen:
+  - Anschauliche Rechenaufgaben
+  - Einstellbarer Schwierigkeitsgrad
+  - Lösungsblätter inklusive
+  - Druckfertige Formatierung
+
+----------------------------------------
+
+APP: Alphabet Train
+Titel: Alphabet-Zug
+Beschreibung: Spielerisches Buchstabenlernen mit liebevoll gestalteten Zug-Arbeitsblättern
+Kategorie: Sprache & Lesen
+Erforderlicher Tarif: BASIS-PAKET
+Funktionen:
+  - Buchstabenerkennung
+  - Alphabetische Reihenfolge
+  - Motivierendes Zug-Design
+  - Verschiedene Schwierigkeitsstufen
+
+----------------------------------------
+
+APP: Big or Small (slug: big-small-app)
+Titel: Groß oder Klein
+Beschreibung: Größenvergleiche kindgerecht vermitteln mit visuellen Übungen für die Frühförderung
+Kategorie: Frühförderung
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Größenvergleiche
+  - Anschauliche Übungen
+  - Multiple-Choice-Aufgaben
+  - Reihenfolge-Aufgaben
+
+----------------------------------------
+
+APP: Chart Count (slug: chart-count-color)
+Titel: Diagramm Zählen & Ausmalen
+Beschreibung: Zählen und Datenvisualisierung spielerisch kombinieren mit farbenfrohen Diagramm-Arbeitsblättern
+Kategorie: Datenauswertung
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Balkendiagramme erstellen
+  - Zählübungen
+  - Farbcodierung
+  - Dateninterpretation
+
+----------------------------------------
+
+APP: Code Addition
+Titel: Geheimcode-Addition
+Beschreibung: Rechenübungen spannend gestalten mit Geheimcode-Rätseln zur Addition
+Kategorie: Mathematik
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Verschlüsselte Rechenaufgaben
+  - Additions-Training
+  - Entschlüsselungs-Spaß
+  - Motivierende Rätsel
+
+----------------------------------------
+
+APP: Coloring
+Titel: Ausmalbilder
+Beschreibung: Individuelle Ausmalbilder aus unserer umfangreichen Motivbibliothek gestalten
+Kategorie: Kunst & Kreativität
+Erforderlicher Tarif: BASIS-PAKET
+Funktionen:
+  - Über 100 Motive
+  - Vielfältige Themenwelten
+  - Unterschiedliche Schwierigkeitsgrade
+  - Hochwertige Druckqualität
+
+----------------------------------------
+
+APP: Crossword (slug: image-crossword)
+Titel: Bilder-Kreuzworträtsel
+Beschreibung: Kreuzworträtsel mit Bildern als Hinweise für visuelles Vokabeltraining
+Kategorie: Wortspiele
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Bildbasierte Hinweise
+  - Automatische Rätsel-Generierung
+  - Flexible Rastergrößen
+  - Lösungsschlüssel enthalten
+
+----------------------------------------
+
+APP: Cryptogram (slug: image-cryptogram)
+Titel: Bilder-Kryptogramm
+Beschreibung: Knifflige Geheimschrift-Rätsel mit Bildern als Symbole erstellen
+Kategorie: Rätsel
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Bild-Symbole als Code
+  - Entschlüsselungs-Spaß
+  - Geheime Botschaften
+  - Logisches Denken fördern
+
+----------------------------------------
+
+APP: Draw and Color
+Titel: Zeichnen & Ausmalen
+Beschreibung: Kreativität fördern mit kombinierten Zeichen- und Ausmalvorlagen
+Kategorie: Kunst & Kreativität
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Schritt-für-Schritt-Anleitungen
+  - Ausmalvorlagen
+  - Zeichenübungen
+  - Kreative Aufgabenstellungen
+
+----------------------------------------
+
+APP: Drawing Lines
+Titel: Linien Nachzeichnen
+Beschreibung: Feinmotorik spielerisch trainieren durch abwechslungsreiche Schwungübungen
+Kategorie: Feinmotorik
+Erforderlicher Tarif: BASIS-PAKET
+Funktionen:
+  - Nachspurübungen
+  - Punkteverbinden
+  - Linienführung
+  - Schreibvorbereitung
+
+----------------------------------------
+
+APP: Find and Count
+Titel: Suchen & Zählen
+Beschreibung: Zahlenverständnis aufbauen mit motivierenden Zähl- und Suchübungen
+Kategorie: Visuelle Wahrnehmung
+Erforderlicher Tarif: BASIS-PAKET
+Funktionen:
+  - Objekte zählen
+  - Visuelle Unterscheidung
+  - Zahlenübungen
+  - Ansprechende Motive
+
+----------------------------------------
+
+APP: Find Objects
+Titel: Objekte Finden
+Beschreibung: Konzentration und visuelle Wahrnehmung mit Suchbild-Arbeitsblättern schulen
+Kategorie: Visuelle Wahrnehmung
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Versteckte Objekte suchen
+  - Wimmelbilder
+  - Verschiedene Szenen
+  - Aufmerksamkeit trainieren
+
+----------------------------------------
+
+APP: Grid Match
+Titel: Raster-Zuordnung
+Beschreibung: Räumliches Denken entwickeln mit rasterbasierte Zuordnungsübungen
+Kategorie: Logik & Denken
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Koordinatensystem-Übungen
+  - Mustererkennung
+  - Räumliche Orientierung
+  - Zuordnungsaufgaben
+
+----------------------------------------
+
+APP: MatchUp Maker (slug: matching-app)
+Titel: Zuordnungsspiel
+Beschreibung: Gedächtnis und Assoziationsfähigkeit trainieren mit vielseitigen Zuordnungsaufgaben
+Kategorie: Zuordnung
+Erforderlicher Tarif: BASIS-PAKET
+Funktionen:
+  - Bild-zu-Bild-Zuordnung
+  - Wort-zu-Bild-Zuordnung
+  - Memory-Spiele
+  - Individuelle Paare
+
+----------------------------------------
+
+APP: Math Puzzle
+Titel: Mathe-Rätsel
+Beschreibung: Mathematisches Denken fördern mit abwechslungsreichen Knobel-Aufgaben
+Kategorie: Mathematik
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Spannende Rechenrätsel
+  - Vielfältige Rätseltypen
+  - Lösungsschlüssel
+  - Anpassbare Schwierigkeit
+
+----------------------------------------
+
+APP: Math Worksheets (slug: math-worksheet)
+Titel: Mathe-Arbeitsblätter
+Beschreibung: Flexible Mathematik-Übungsblätter für alle Klassenstufen und Rechenoperationen erstellen
+Kategorie: Mathematik
+Erforderlicher Tarif: BASIS-PAKET
+Funktionen:
+  - Addition & Subtraktion
+  - Multiplikation & Division
+  - Lösungsblätter
+  - Einstellbare Schwierigkeit
+
+----------------------------------------
+
+APP: Missing Pieces
+Titel: Fehlende Teile
+Beschreibung: Logisches Denken schulen durch Vervollständigungs-Aufgaben mit Mustern und Bildern
+Kategorie: Visuelle Wahrnehmung
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Muster vervollständigen
+  - Bilder ergänzen
+  - Sequenz-Übungen
+  - Visuelle Analyse
+
+----------------------------------------
+
+APP: More Less
+Titel: Mehr oder Weniger
+Beschreibung: Mengenvergleiche und Zahlenverständnis mit anschaulichen Vergleichsübungen vermitteln
+Kategorie: Mathematik
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Mengenvergleiche
+  - Zahlenvergleiche
+  - Visuelle Darstellung
+  - Grundrechenarten
+
+----------------------------------------
+
+APP: Odd One Out
+Titel: Was passt nicht?
+Beschreibung: Kritisches Denken fördern mit Aufgaben zum Erkennen von Ausreißern und Unterschieden
+Kategorie: Logik & Denken
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Unterschiede erkennen
+  - Logikrätsel
+  - Verschiedene Themen
+  - Analytisches Denken
+
+----------------------------------------
+
+APP: Pattern Train
+Titel: Muster-Zug
+Beschreibung: Mustererkennung spielerisch üben mit motivierenden Zug-Arbeitsblättern
+Kategorie: Logik & Denken
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Mustersequenzen
+  - Liebevolles Zug-Design
+  - Fortsetzungsübungen
+  - Logisches Denken
+
+----------------------------------------
+
+APP: Pattern Worksheet
+Titel: Muster-Arbeitsblätter
+Beschreibung: Vielseitige Übungen zur Mustererkennung und -vervollständigung für verschiedene Altersstufen
+Kategorie: Logik & Denken
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Abwechslungsreiche Muster
+  - Sequenz-Übungen
+  - Steigende Schwierigkeit
+  - Visuelle Logik
+
+----------------------------------------
+
+APP: Picture Bingo
+Titel: Bilder-Bingo
+Beschreibung: Individuelle Bingo-Karten mit Bildern für kurzweiligen Lernspaß im Klassenzimmer
+Kategorie: Spiele
+Erforderlicher Tarif: BASIS-PAKET
+Funktionen:
+  - Individuelle Bingo-Karten
+  - Thematische Bilder
+  - Verschiedene Kartengrößen
+  - Ziehungs-Vorlagen inklusive
+
+----------------------------------------
+
+APP: Picture Pathway (slug: picture-path)
+Titel: Bilderpfad
+Beschreibung: Wegfindung und Reihenfolgen trainieren mit bilderreichen Pfad-Übungen
+Kategorie: Problemlösung
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Wegfindungs-Aufgaben
+  - Bildbasierte Pfade
+  - Reihenfolgen üben
+  - Richtungsübungen
+
+----------------------------------------
+
+APP: Picture Sort
+Titel: Bilder Sortieren
+Beschreibung: Kategorisierung und Klassifizierung mit anschaulichen Sortier-Aufgaben vermitteln
+Kategorie: Logik & Denken
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Kategorien bilden
+  - Sortieraufgaben
+  - Klassifizierung
+  - Gruppen zuordnen
+
+----------------------------------------
+
+APP: Prepositions
+Titel: Präpositionen
+Beschreibung: Räumliche Präpositionen anschaulich vermitteln mit bildhaften Übungsblättern
+Kategorie: Grammatik
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Anschauliche Beispiele
+  - Positionsübungen
+  - Vielfältige Präpositionen
+  - Praktische Anwendungen
+
+----------------------------------------
+
+APP: Shadow Match
+Titel: Schatten-Zuordnung
+Beschreibung: Visuelle Wahrnehmung schärfen durch Schatten-Zuordnungs-Rätsel
+Kategorie: Visuelle Wahrnehmung
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Schatten-Rätsel
+  - Verschiedene Themen
+  - Stufenweise Schwierigkeit
+  - Visuelles Lernen
+
+----------------------------------------
+
+APP: Subtraction
+Titel: Subtraktion
+Beschreibung: Subtraktionsaufgaben anschaulich üben mit visuellen Hilfsmitteln und Bildern
+Kategorie: Mathematik
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Visuelle Subtraktionsübungen
+  - Einstellbare Zahlenbereiche
+  - Bildunterstützung
+  - Lösungsschlüssel
+
+----------------------------------------
+
+APP: Sudoku for Kids (slug: sudoku)
+Titel: Kinder-Sudoku
+Beschreibung: Altersgerechte Sudoku-Rätsel mit Bildern statt Zahlen für logisches Denken
+Kategorie: Logik & Denken
+Erforderlicher Tarif: BASIS-PAKET
+Funktionen:
+  - Bild-Sudoku
+  - 4x4 und 6x6 Raster
+  - Steigende Schwierigkeit
+  - Lösung enthalten
+
+----------------------------------------
+
+APP: Treasure Hunt
+Titel: Schatzsuche
+Beschreibung: Spannende Schatzkarten und Such-Abenteuer für motivierenden Lernspaß gestalten
+Kategorie: Spiele
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Individuelle Karten
+  - Versteckte Objekte
+  - Hinweise und Rätsel
+  - Abenteuer-Thema
+
+----------------------------------------
+
+APP: Word Guess
+Titel: Wörter Raten
+Beschreibung: Wortschatz und Rechtschreibung mit bildergestützten Ratespiele fördern
+Kategorie: Wortspiele
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Bildhinweise
+  - Buchstabenlücken
+  - Thematische Wörter
+  - Verschiedene Schwierigkeitsgrade
+
+----------------------------------------
+
+APP: Word Scramble
+Titel: Buchstabensalat
+Beschreibung: Rechtschreibung und Wortschatz mit abwechslungsreichen Buchstabensalat-Rätseln trainieren
+Kategorie: Sprache & Lesen
+Erforderlicher Tarif: BASIS-PAKET
+Funktionen:
+  - Eigene Wortlisten
+  - Thematischer Wortschatz
+  - Verschiedene Schwierigkeitsgrade
+  - Lösungsschlüssel
+
+----------------------------------------
+
+APP: Word Search (slug: word-search, file: wordsearch.html)
+Titel: Wortsuche
+Beschreibung: Individuelle Wortsuchrätsel mit thematischem Vokabular zum Ausdrucken erstellen
+Kategorie: Wortspiele
+Erforderlicher Tarif: KOSTENLOS
+Funktionen:
+  - Flexible Rastergröße
+  - Suchrichtungen einstellen
+  - Thematische Wortlisten
+  - Lösungsblätter
+
+----------------------------------------
+
+APP: Writing (slug: writing-app)
+Titel: Schreibübungen
+Beschreibung: Strukturierte Schreibvorlagen und Schreibanlässe für alle Altersstufen erstellen
+Kategorie: Schreibfertigkeiten
+Erforderlicher Tarif: VOLLZUGRIFF
+Funktionen:
+  - Schreibanlässe
+  - Strukturierte Vorlagen
+  - Verschiedene Formate
+  - Altersgerechte Übungen
+
+========================================
+ÜBERSETZUNGSHINWEISE
+========================================
+
+Diese Übersetzung wurde mit folgenden Prinzipien erstellt:
+
+1. NATÜRLICHKEIT: Der Text klingt wie für deutschsprachige Nutzer geschrieben
+2. ZIELGRUPPENGERECHT: Sprache ist für Lehrkräfte und Eltern passend
+3. KONSISTENZ: Fachbegriffe werden einheitlich übersetzt
+4. PRÄGNANZ: Beschreibungen sind kurz und aussagekräftig
+5. MOTIVATION: Formulierungen sind positiv und einladend
+
+Wichtige Übersetzungsentscheidungen:
+- "Worksheets" → "Arbeitsblätter" (nicht "Arbeitsblätter")
+- "Skills" → "Fertigkeiten" oder kontextabhängig
+- "Visual" → "Anschaulich/Visuell" je nach Kontext
+- "Customizable" → "Einstellbar/Individuell" je nach Kontext
+- "Print-ready" → "Druckfertig"
+- "Solution/Answer keys" → "Lösungsblätter/Lösungsschlüssel"
+
+========================================
+STATUS: BEREIT FÜR IMPLEMENTATION
+========================================
+
+Diese Übersetzung ist vollständig und kann direkt in die Anwendung übernommen werden.
+Alle 33 Apps haben vollständige deutsche Texte für:
+- Titel
+- Beschreibung
+- Kategorie
+- Funktionen (4 pro App)
+
+Datum: 2025-10-01
+Übersetzer: Professionelle UI-Übersetzung
+Status: FINAL - Bereit zur Verwendung

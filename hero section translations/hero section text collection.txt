@@ -1,0 +1,640 @@
+HERO SECTION TEXT COLLECTION - ENGLISH SOURCE
+For Translation into: German, French, Spanish, Italian, Portuguese, Dutch, Swedish, Danish, Norwegian, Finnish
+
+========================================
+SOURCE FILE INFORMATION
+========================================
+
+Data extracted from: frontend/app/[locale]/apps/[slug]/page.tsx
+Lines: 424-521 (staticAppData object)
+
+This file contains the hero section data that appears when viewing individual apps in the Next.js application.
+The hero section includes:
+- App name/title
+- Description
+- Category badge
+- Required tier badge (FREE TIER / CORE BUNDLE / FULL ACCESS)
+- Feature bullets (4 features per app)
+
+========================================
+COMMON ELEMENTS
+========================================
+
+Tier Labels:
+- FREE TIER
+- CORE BUNDLE
+- FULL ACCESS
+
+Categories Found in staticAppData:
+- Art & Creativity
+- Early Learning
+- Fine Motor Skills
+- Games
+- Language Arts
+- Logic
+- Matching
+- Math
+- Visual Perception
+- Word Games
+
+Additional Categories (from German translations):
+- Creative Writing (Kreatives Schreiben)
+- Data Analysis (Datenanalyse)
+- Fine Motor Skills (Feinmotorik)
+- Grammar (Grammatik)
+- Learning Games (Lernspiele)
+- Memory Games (Gedächtnisspiele)
+- Problem Solving (Problemlösung)
+- Puzzles (Rätsel)
+- Time & Date (Zeit & Datum)
+- Writing Skills (Schreibfähigkeiten)
+
+UI Text Elements (from page.tsx):
+- "Apps" (breadcrumb)
+- "How to Use" (section heading)
+- "Perfect For" (section heading)
+- "Ready to Create Amazing Worksheets?" (CTA heading)
+- "Join thousands of teachers creating professional educational materials" (CTA description)
+- "View Pricing Plans" (button)
+- "Browse Free Apps" (button)
+- "View All Plans" (button)
+- "Start Free Trial" (button)
+- "This app requires Core Bundle" (access message)
+- "This app requires Full Access" (access message)
+- "Upgrade your plan to access this worksheet generator and many more professional tools." (upgrade message)
+
+========================================
+INDIVIDUAL APP DATA (Alphabetical Order)
+========================================
+
+APP: Addition (slug: image-addition)
+Title: Image Addition
+Description: Create visual addition worksheets with images for early math learners
+Category: Math
+Required Tier: CORE BUNDLE
+Features:
+  - Visual math problems
+  - Customizable difficulty
+  - Answer keys
+  - Print-ready format
+
+----------------------------------------
+
+APP: Alphabet Train
+Title: Alphabet Train
+Description: Help children learn letters with fun train-themed alphabet worksheets
+Category: Language Arts
+Required Tier: CORE BUNDLE
+Features:
+  - Letter recognition
+  - Alphabetical order
+  - Fun train theme
+  - Multiple difficulty levels
+
+----------------------------------------
+
+APP: Big or Small (slug: big-small-app)
+Title: Big or Small
+Description: Create size comparison worksheets with visual exercises for early learners
+Category: Early Learning
+Required Tier: FULL ACCESS
+Features:
+  - Size comparisons
+  - Visual exercises
+  - Multiple choice
+  - Sequencing tasks
+
+----------------------------------------
+
+APP: Chart Count (slug: chart-count-color)
+Title: Chart Count Color
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists with proper data. Consider back-translating or creating custom English version.
+
+----------------------------------------
+
+APP: Code Addition
+Title: Code Addition
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists with proper data. Consider back-translating or creating custom English version.
+
+----------------------------------------
+
+APP: Coloring
+Title: Coloring Pages
+Description: Design printable coloring pages from our extensive image library
+Category: Art & Creativity
+Required Tier: CORE BUNDLE
+Features:
+  - 100+ images
+  - Multiple themes
+  - Various difficulty levels
+  - High-quality prints
+
+----------------------------------------
+
+APP: Crossword (slug: image-crossword)
+Title: Image Crossword
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Kreuzworträtsel" with features: Automatische Generierung, Benutzerdefinierte Hinweise, Verschiedene Größen, Lösungsschlüssel
+
+----------------------------------------
+
+APP: Cryptogram (slug: image-cryptogram)
+Title: Image Cryptogram
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Bilder-Kryptogramm" with proper data.
+
+----------------------------------------
+
+APP: Draw and Color
+Title: Draw And Color
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Zeichnen und Ausmalen" with proper data.
+
+----------------------------------------
+
+APP: Drawing Lines
+Title: Drawing Lines
+Description: Fine motor skill development through line drawing exercises
+Category: Fine Motor Skills
+Required Tier: CORE BUNDLE
+Features:
+  - Tracing activities
+  - Connect-the-dots
+  - Path following
+  - Pre-writing practice
+
+----------------------------------------
+
+APP: Find and Count
+Title: Find and Count
+Description: Visual counting exercises to develop number recognition and counting skills
+Category: Visual Perception
+Required Tier: CORE BUNDLE
+Features:
+  - Object counting
+  - Visual discrimination
+  - Number practice
+  - Engaging images
+
+----------------------------------------
+
+APP: Find Objects
+Title: Find Objects
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Objekte Finden" with proper data.
+
+----------------------------------------
+
+APP: Grid Match
+Title: Grid Match
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Gitter-Zuordnung" with proper data.
+
+----------------------------------------
+
+APP: MatchUp Maker (slug: matching-app)
+Title: MatchUp Maker
+Description: Create matching activities to improve memory and association skills
+Category: Matching
+Required Tier: CORE BUNDLE
+Features:
+  - Image-to-image matching
+  - Word-to-image matching
+  - Memory games
+  - Custom pairs
+
+----------------------------------------
+
+APP: Math Puzzle
+Title: Math Puzzle
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Mathe-Rätsel" with proper data.
+
+----------------------------------------
+
+APP: Math Worksheets (slug: math-worksheet)
+Title: Math Worksheets
+Description: Generate customizable math practice worksheets for all skill levels
+Category: Math
+Required Tier: CORE BUNDLE
+Features:
+  - Addition & subtraction
+  - Multiplication & division
+  - Answer keys
+  - Difficulty settings
+
+----------------------------------------
+
+APP: Missing Pieces
+Title: Missing Pieces
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Fehlende Teile" with proper data.
+
+----------------------------------------
+
+APP: More Less
+Title: More Less
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Mehr oder Weniger" with proper data.
+
+----------------------------------------
+
+APP: Odd One Out
+Title: Odd One Out
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Was passt nicht?" with proper data.
+
+----------------------------------------
+
+APP: Pattern Train
+Title: Pattern Train
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Muster-Zug" with proper data.
+
+----------------------------------------
+
+APP: Pattern Worksheet
+Title: Pattern Worksheet
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Muster-Arbeitsblatt" with proper data.
+
+----------------------------------------
+
+APP: Picture Bingo
+Title: Picture Bingo
+Description: Generate custom bingo cards with images for classroom fun
+Category: Games
+Required Tier: CORE BUNDLE
+Features:
+  - Custom bingo cards
+  - Themed images
+  - Multiple card sizes
+  - Call sheets included
+
+----------------------------------------
+
+APP: Picture Pathway (slug: picture-path)
+Title: Picture Path
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Bilderpfad" with proper data.
+
+----------------------------------------
+
+APP: Picture Sort
+Title: Picture Sort
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Bilder Sortieren" with proper data.
+
+----------------------------------------
+
+APP: Prepositions
+Title: Prepositions
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Präpositionen" with proper data.
+
+----------------------------------------
+
+APP: Shadow Match
+Title: Shadow Match
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Schatten-Zuordnung" with proper data.
+
+----------------------------------------
+
+APP: Subtraction
+Title: Subtraction
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Subtraktion" with proper data.
+
+----------------------------------------
+
+APP: Sudoku for Kids (slug: sudoku)
+Title: Sudoku for Kids
+Description: Child-friendly sudoku puzzles with images instead of numbers
+Category: Logic
+Required Tier: CORE BUNDLE
+Features:
+  - Picture sudoku
+  - 4x4 and 6x6 grids
+  - Progressive difficulty
+  - Solution included
+
+----------------------------------------
+
+APP: Treasure Hunt
+Title: Treasure Hunt
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Schatzsuche" with proper data.
+
+----------------------------------------
+
+APP: Word Guess
+Title: Word Guess
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Wort raten" with proper data.
+
+----------------------------------------
+
+APP: Word Scramble
+Title: Word Scramble
+Description: Create word scramble puzzles to improve vocabulary and spelling
+Category: Language Arts
+Required Tier: CORE BUNDLE
+Features:
+  - Custom word lists
+  - Themed vocabulary
+  - Multiple difficulty levels
+  - Solution keys
+
+----------------------------------------
+
+APP: Word Search (slug: word-search, file: wordsearch.html)
+Title: Word Search
+Description: Generate customizable word search puzzles with themed vocabulary
+Category: Word Games
+Required Tier: FREE TIER
+Features:
+  - Multiple grid sizes
+  - Directional options
+  - Themed word lists
+  - Solution keys
+
+----------------------------------------
+
+APP: Writing (slug: writing-app)
+Title: Writing App
+Description: [NOT FULLY DEFINED IN STATICAPPDATA - Uses default fallback]
+Category: Educational Tools (default)
+Required Tier: FULL ACCESS
+Default Features:
+  - Easy to use
+  - Print ready
+  - Professional design
+  - Customizable
+Note: German translation exists as "Schreibübungen" with proper data.
+
+========================================
+SUMMARY
+========================================
+
+Total Apps Listed: 33
+Apps with Full English Data in staticAppData: 11
+Apps Using Default/Fallback Data: 22
+
+Apps with Complete Hero Section Data (Ready for Translation):
+1. Alphabet Train
+2. Big or Small
+3. Coloring Pages
+4. Drawing Lines
+5. Find and Count
+6. Image Addition
+7. MatchUp Maker
+8. Math Worksheets
+9. Picture Bingo
+10. Sudoku for Kids
+11. Word Scramble
+12. Word Search
+
+Apps Missing Complete Hero Section Data (Need Custom English Text):
+1. Chart Count (chart-count-color)
+2. Code Addition
+3. Crossword (image-crossword)
+4. Cryptogram (image-cryptogram)
+5. Draw and Color
+6. Find Objects
+7. Grid Match
+8. Math Puzzle
+9. Missing Pieces
+10. More Less
+11. Odd One Out
+12. Pattern Train
+13. Pattern Worksheet
+14. Picture Pathway (picture-path)
+15. Picture Sort
+16. Prepositions
+17. Shadow Match
+18. Subtraction
+19. Treasure Hunt
+20. Word Guess
+21. Writing (writing-app)
+
+Note: All 22 missing apps DO have complete German translations already defined in germanTranslations object.
+
+========================================
+TIER DISTRIBUTION
+========================================
+
+FREE TIER (1 app):
+- Word Search
+
+CORE BUNDLE (10 apps):
+- Alphabet Train
+- Coloring Pages
+- Drawing Lines
+- Find and Count
+- Image Addition
+- MatchUp Maker
+- Math Worksheets
+- Picture Bingo
+- Sudoku for Kids
+- Word Scramble
+
+FULL ACCESS (22 apps):
+- Big or Small
+- Chart Count
+- Code Addition
+- Crossword
+- Cryptogram
+- Draw and Color
+- Find Objects
+- Grid Match
+- Math Puzzle
+- Missing Pieces
+- More Less
+- Odd One Out
+- Pattern Train
+- Pattern Worksheet
+- Picture Pathway
+- Picture Sort
+- Prepositions
+- Shadow Match
+- Subtraction
+- Treasure Hunt
+- Word Guess
+- Writing
+
+========================================
+RECOMMENDATIONS FOR NEXT STEPS
+========================================
+
+Option 1: Back-translate from German
+- Extract the complete German translations for the 22 missing apps
+- Create proper English versions based on the German text
+- Update staticAppData in page.tsx with the new English text
+- Then translate to other 9 languages
+
+Option 2: Accept default text
+- Use auto-generated descriptions like "Create professional [app name] worksheets"
+- Only translate the 11 apps that have complete data
+- This provides minimal but functional text across all languages
+
+Option 3: Create fresh English content
+- Write new, engaging descriptions and features for the 22 missing apps
+- Update staticAppData in page.tsx
+- Then translate to all 10 languages
+
+RECOMMENDED: Option 1 (Back-translate from German)
+The German translations already exist and appear to be high-quality with specific, descriptive features. This would be the fastest path to having complete, consistent content across all 33 apps.
+
+========================================
+ADDITIONAL FILES FOUND
+========================================
+
+During investigation, these related files were discovered:
+1. compile-treasure-hunt-final.py (root directory)
+2. compile-treasure-hunt-translations.py (root directory)
+3. frontend/public/worksheet-generators/js/translations-treasure-hunt.js
+
+These suggest that at least the Treasure Hunt app has an existing translation system in place. Similar translation JavaScript files may exist or need to be created for the other 32 apps.

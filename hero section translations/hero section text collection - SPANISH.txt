@@ -1,0 +1,524 @@
+COLECCIÓN DE TEXTOS PARA SECCIÓN HERO - VERSIÓN ESPAÑOLA
+Traducción profesional para la interfaz de usuario
+Estado: FINAL - Listo para usar
+
+========================================
+INFORMACIÓN DEL ARCHIVO FUENTE
+========================================
+
+Datos extraídos de: frontend/app/[locale]/apps/[slug]/page.tsx
+Líneas: 424-521 (objeto staticAppData)
+
+Este archivo contiene los datos de la sección hero que aparece al visualizar las aplicaciones individuales en la aplicación Next.js.
+La sección hero incluye:
+- Nombre/título de la aplicación
+- Descripción
+- Insignia de categoría
+- Insignia de nivel requerido (GRATIS / PAQUETE BÁSICO / ACCESO COMPLETO)
+- Puntos de características (4 características por aplicación)
+
+========================================
+ELEMENTOS COMUNES
+========================================
+
+Insignias de Nivel:
+- GRATIS
+- PAQUETE BÁSICO
+- ACCESO COMPLETO
+
+Categorías:
+- Arte y Creatividad
+- Aprendizaje Temprano
+- Motricidad Fina
+- Juegos
+- Lengua y Lectura
+- Lógica
+- Asociación
+- Matemáticas
+- Percepción Visual
+- Juegos de Palabras
+- Escritura Creativa
+- Análisis de Datos
+- Gramática
+- Juegos Educativos
+- Juegos de Memoria
+- Resolución de Problemas
+- Acertijos
+- Hora y Fecha
+- Habilidades de Escritura
+
+Elementos de Texto UI:
+- "Aplicaciones" (ruta de navegación)
+- "Cómo usar" (título de sección)
+- "Ideal para" (título de sección)
+- "¿Listo para crear fichas increíbles?" (título CTA)
+- "Únete a miles de docentes que crean material educativo profesional" (descripción CTA)
+- "Ver planes de precios" (botón)
+- "Explorar apps gratuitas" (botón)
+- "Ver todos los planes" (botón)
+- "Comenzar prueba gratuita" (botón)
+- "Esta aplicación requiere el Paquete Básico" (mensaje de acceso)
+- "Esta aplicación requiere Acceso Completo" (mensaje de acceso)
+- "Mejora tu plan para acceder a este generador de fichas y muchas más herramientas profesionales." (mensaje de actualización)
+
+========================================
+DATOS DE APLICACIONES INDIVIDUALES
+========================================
+
+APP: Addition (slug: image-addition)
+Título: Suma con Imágenes
+Descripción: Crea fichas de sumas visuales con imágenes para el aprendizaje matemático inicial
+Categoría: Matemáticas
+Nivel Requerido: PAQUETE BÁSICO
+Características:
+  - Problemas matemáticos visuales
+  - Dificultad personalizable
+  - Hojas de respuestas
+  - Formato listo para imprimir
+
+----------------------------------------
+
+APP: Alphabet Train
+Título: Tren del Alfabeto
+Descripción: Ayuda a los niños a aprender las letras con fichas divertidas del tren del alfabeto
+Categoría: Lengua y Lectura
+Nivel Requerido: PAQUETE BÁSICO
+Características:
+  - Reconocimiento de letras
+  - Orden alfabético
+  - Temática divertida de trenes
+  - Múltiples niveles de dificultad
+
+----------------------------------------
+
+APP: Big or Small (slug: big-small-app)
+Título: Grande o Pequeño
+Descripción: Crea fichas de comparación de tamaños con ejercicios visuales para primeros aprendizajes
+Categoría: Aprendizaje Temprano
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Comparación de tamaños
+  - Ejercicios visuales
+  - Opción múltiple
+  - Actividades de secuenciación
+
+----------------------------------------
+
+APP: Chart Count (slug: chart-count-color)
+Título: Gráficos para Contar
+Descripción: Crea fichas de conteo y gráficos coloridos para el aprendizaje numérico
+Categoría: Matemáticas
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Ejercicios de conteo visual
+  - Gráficos a color
+  - Aprendizaje de números
+  - Formato listo para imprimir
+
+----------------------------------------
+
+APP: Code Addition
+Título: Suma con Códigos
+Descripción: Crea ejercicios de suma con códigos secretos para hacer las matemáticas más divertidas
+Categoría: Matemáticas
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Sumas con códigos secretos
+  - Actividades lúdicas
+  - Dificultad ajustable
+  - Hojas de respuestas incluidas
+
+----------------------------------------
+
+APP: Coloring
+Título: Páginas para Colorear
+Descripción: Diseña páginas para colorear imprimibles desde nuestra amplia biblioteca de imágenes
+Categoría: Arte y Creatividad
+Nivel Requerido: PAQUETE BÁSICO
+Características:
+  - Más de 100 imágenes
+  - Múltiples temáticas
+  - Varios niveles de dificultad
+  - Impresiones de alta calidad
+
+----------------------------------------
+
+APP: Crossword (slug: image-crossword)
+Título: Crucigrama con Imágenes
+Descripción: Genera crucigramas ilustrados para enriquecer el vocabulario
+Categoría: Juegos de Palabras
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Generación automática
+  - Pistas personalizables
+  - Diferentes tamaños de cuadrícula
+  - Hojas de respuestas incluidas
+
+----------------------------------------
+
+APP: Cryptogram (slug: image-cryptogram)
+Título: Criptograma con Imágenes
+Descripción: Crea criptogramas ilustrados para desarrollar la lógica y el vocabulario
+Categoría: Acertijos
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Criptogramas visuales
+  - Códigos personalizables
+  - Diferentes niveles
+  - Soluciones incluidas
+
+----------------------------------------
+
+APP: Draw and Color
+Título: Dibujar y Colorear
+Descripción: Crea fichas que combinan dibujo y coloreo para estimular la creatividad
+Categoría: Arte y Creatividad
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Espacios para dibujo libre
+  - Zonas para colorear
+  - Temáticas variadas
+  - Estimula la creatividad
+
+----------------------------------------
+
+APP: Drawing Lines
+Título: Trazar Líneas
+Descripción: Desarrolla la motricidad fina mediante ejercicios de trazado de líneas
+Categoría: Motricidad Fina
+Nivel Requerido: PAQUETE BÁSICO
+Características:
+  - Actividades de trazado
+  - Une los puntos
+  - Seguimiento de caminos
+  - Preparación para la escritura
+
+----------------------------------------
+
+APP: Find and Count
+Título: Buscar y Contar
+Descripción: Ejercicios de conteo visual para desarrollar el reconocimiento numérico
+Categoría: Percepción Visual
+Nivel Requerido: PAQUETE BÁSICO
+Características:
+  - Conteo de objetos
+  - Discriminación visual
+  - Práctica numérica
+  - Imágenes atractivas
+
+----------------------------------------
+
+APP: Find Objects
+Título: Buscar Objetos
+Descripción: Crea fichas de búsqueda de objetos para mejorar la atención visual
+Categoría: Percepción Visual
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Ejercicios de búsqueda visual
+  - Desarrolla la atención
+  - Temáticas variadas
+  - Diferentes niveles de dificultad
+
+----------------------------------------
+
+APP: Grid Match
+Título: Asociación en Cuadrícula
+Descripción: Crea ejercicios de asociación en cuadrícula para desarrollar la percepción espacial
+Categoría: Asociación
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Correspondencia de patrones
+  - Orientación espacial
+  - Percepción visual
+  - Dificultad progresiva
+
+----------------------------------------
+
+APP: MatchUp Maker (slug: matching-app)
+Título: Creador de Parejas
+Descripción: Crea actividades de asociación para mejorar la memoria y las habilidades de emparejamiento
+Categoría: Asociación
+Nivel Requerido: PAQUETE BÁSICO
+Características:
+  - Asociación imagen a imagen
+  - Asociación palabra a imagen
+  - Juegos de memoria
+  - Parejas personalizables
+
+----------------------------------------
+
+APP: Math Puzzle
+Título: Acertijos Matemáticos
+Descripción: Crea acertijos matemáticos desafiantes para desarrollar la lógica
+Categoría: Matemáticas
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Acertijos de cálculo
+  - Lógica matemática
+  - Diferentes niveles
+  - Soluciones incluidas
+
+----------------------------------------
+
+APP: Math Worksheets (slug: math-worksheet)
+Título: Fichas de Matemáticas
+Descripción: Genera fichas de práctica matemática personalizables para todos los niveles
+Categoría: Matemáticas
+Nivel Requerido: PAQUETE BÁSICO
+Características:
+  - Suma y resta
+  - Multiplicación y división
+  - Hojas de respuestas
+  - Niveles de dificultad ajustables
+
+----------------------------------------
+
+APP: Missing Pieces
+Título: Piezas Faltantes
+Descripción: Crea ejercicios de completar elementos visuales para desarrollar la lógica
+Categoría: Lógica
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Identificación de elementos faltantes
+  - Razonamiento lógico
+  - Ejercicios visuales
+  - Dificultad progresiva
+
+----------------------------------------
+
+APP: More Less
+Título: Más o Menos
+Descripción: Crea ejercicios de comparación de cantidades para aprender conceptos matemáticos
+Categoría: Matemáticas
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Comparación de cantidades
+  - Conceptos matemáticos básicos
+  - Ejercicios visuales
+  - Aprendizaje progresivo
+
+----------------------------------------
+
+APP: Odd One Out
+Título: El Diferente
+Descripción: Crea ejercicios para identificar el elemento diferente y desarrollar el análisis
+Categoría: Lógica
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Identificación de diferencias
+  - Razonamiento lógico
+  - Categorización
+  - Ejercicios variados
+
+----------------------------------------
+
+APP: Pattern Train
+Título: Tren de Patrones
+Descripción: Crea fichas de secuencias con temática de trenes para reconocer patrones
+Categoría: Lógica
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Reconocimiento de patrones
+  - Secuencias lógicas
+  - Temática de trenes
+  - Dificultad progresiva
+
+----------------------------------------
+
+APP: Pattern Worksheet
+Título: Fichas de Patrones
+Descripción: Crea fichas para aprender secuencias y patrones repetitivos
+Categoría: Lógica
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Patrones y secuencias
+  - Reconocimiento visual
+  - Razonamiento lógico
+  - Múltiples niveles
+
+----------------------------------------
+
+APP: Picture Bingo
+Título: Bingo de Imágenes
+Descripción: Genera cartones de bingo personalizados con imágenes para el aula
+Categoría: Juegos
+Nivel Requerido: PAQUETE BÁSICO
+Características:
+  - Cartones de bingo personalizados
+  - Imágenes temáticas
+  - Múltiples tamaños de cartones
+  - Hojas de llamado incluidas
+
+----------------------------------------
+
+APP: Picture Pathway (slug: picture-path)
+Título: Camino de Imágenes
+Descripción: Crea recorridos visuales para desarrollar la lógica y seguimiento de instrucciones
+Categoría: Lógica
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Recorridos a seguir
+  - Lógica secuencial
+  - Ejercicios visuales
+  - Múltiples niveles de dificultad
+
+----------------------------------------
+
+APP: Picture Sort
+Título: Clasificar Imágenes
+Descripción: Crea actividades de clasificación de imágenes para desarrollar la categorización
+Categoría: Lógica
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Clasificación y ordenamiento
+  - Categorización
+  - Razonamiento lógico
+  - Temáticas variadas
+
+----------------------------------------
+
+APP: Prepositions
+Título: Preposiciones
+Descripción: Crea ejercicios visuales para aprender las preposiciones de forma lúdica
+Categoría: Gramática
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Preposiciones espaciales
+  - Ejercicios ilustrados
+  - Aprendizaje visual
+  - Fácil de comprender
+
+----------------------------------------
+
+APP: Shadow Match
+Título: Asociación de Sombras
+Descripción: Crea ejercicios de asociación de objetos con sus sombras
+Categoría: Percepción Visual
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Asociación forma-sombra
+  - Percepción visual
+  - Discriminación visual
+  - Diferentes niveles
+
+----------------------------------------
+
+APP: Subtraction
+Título: Resta
+Descripción: Crea fichas de resta visuales para el aprendizaje matemático
+Categoría: Matemáticas
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Ejercicios de resta
+  - Apoyo visual
+  - Dificultad ajustable
+  - Hojas de respuestas incluidas
+
+----------------------------------------
+
+APP: Sudoku for Kids (slug: sudoku)
+Título: Sudoku para Niños
+Descripción: Sudokus lúdicos con imágenes en lugar de números para niños
+Categoría: Lógica
+Nivel Requerido: PAQUETE BÁSICO
+Características:
+  - Sudoku con imágenes
+  - Cuadrículas 4x4 y 6x6
+  - Dificultad progresiva
+  - Soluciones incluidas
+
+----------------------------------------
+
+APP: Treasure Hunt
+Título: Búsqueda del Tesoro
+Descripción: Crea fichas de búsqueda del tesoro para actividades lúdicas y educativas
+Categoría: Juegos Educativos
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Recorridos de búsqueda
+  - Actividades lúdicas
+  - Mapas personalizables
+  - Estimula el razonamiento
+
+----------------------------------------
+
+APP: Word Guess
+Título: Adivinar Palabras
+Descripción: Crea fichas para adivinar palabras y enriquecer el vocabulario
+Categoría: Juegos de Palabras
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Adivinanzas de palabras
+  - Pistas visuales
+  - Enriquecimiento del vocabulario
+  - Múltiples niveles
+
+----------------------------------------
+
+APP: Word Scramble
+Título: Palabras Revueltas
+Descripción: Crea fichas de palabras revueltas para mejorar el vocabulario y la ortografía
+Categoría: Lengua y Lectura
+Nivel Requerido: PAQUETE BÁSICO
+Características:
+  - Listas de palabras personalizadas
+  - Vocabulario temático
+  - Múltiples niveles de dificultad
+  - Hojas de respuestas incluidas
+
+----------------------------------------
+
+APP: Word Search (slug: word-search, file: wordsearch.html)
+Título: Sopa de Letras
+Descripción: Genera sopas de letras personalizables con vocabulario temático
+Categoría: Juegos de Palabras
+Nivel Requerido: GRATIS
+Características:
+  - Múltiples tamaños de cuadrícula
+  - Opciones direccionales
+  - Listas de palabras temáticas
+  - Hojas de respuestas incluidas
+
+----------------------------------------
+
+APP: Writing (slug: writing-app)
+Título: Ejercicios de Escritura
+Descripción: Crea fichas de escritura personalizadas para desarrollar las habilidades de redacción
+Categoría: Habilidades de Escritura
+Nivel Requerido: ACCESO COMPLETO
+Características:
+  - Líneas de escritura personalizables
+  - Temáticas variadas
+  - Apoyo visual
+  - Formato listo para imprimir
+
+========================================
+PRINCIPIOS DE TRADUCCIÓN APLICADOS
+========================================
+
+1. NATURAL: El texto suena nativo en español, no traducido
+2. DIRIGIDO: Lenguaje apropiado para docentes y padres hispanohablantes
+3. COHERENTE: Terminología uniforme en todo el documento
+4. CONCISO: Descripciones claras y significativas
+5. MOTIVADOR: Formulaciones positivas e invitadoras
+
+Ejemplos de decisiones de traducción:
+
+- "Worksheets" → "Fichas" (término educativo estándar en español)
+- "Print-ready" → "Listo para imprimir" (forma activa, natural)
+- "Core Bundle" → "Paquete Básico" (más claro que "Conjunto Principal")
+- "Full Access" → "Acceso Completo" (claro y directo)
+- "Word Search" → "Sopa de Letras" (término español estándar, no "búsqueda de palabras")
+- "Word Scramble" → "Palabras Revueltas" (término natural en español)
+- "Bingo" → "Bingo" (término universal, se mantiene)
+- "Answer keys" → "Hojas de respuestas" (más natural que "claves de respuesta")
+- "Customizable" → "Personalizable" (término técnico apropiado)
+- "Match" → "Asociación/Parejas" (según contexto, más natural que "emparejar")
+
+========================================
+ESTADO
+========================================
+
+FINAL - Listo para usar
+Traducción profesional completa para las 33 aplicaciones
+Revisión terminada

@@ -1,0 +1,526 @@
+TEKSTCOLLECTIE VOOR HERO SECTIE - NEDERLANDSE VERSIE
+Professionele vertaling voor gebruikersinterface
+Status: DEFINITIEF - Klaar voor gebruik
+
+========================================
+BRONBESTAND INFORMATIE
+========================================
+
+Data geëxtraheerd uit: frontend/app/[locale]/apps/[slug]/page.tsx
+Regels: 424-521 (staticAppData object)
+
+Dit bestand bevat de hero sectie data die verschijnt bij het bekijken van individuele apps in de Next.js applicatie.
+De hero sectie bevat:
+- App naam/titel
+- Beschrijving
+- Categorie badge
+- Vereist niveau badge (GRATIS / BASISPAKKET / VOLLEDIGE TOEGANG)
+- Functie opsommingen (4 functies per app)
+
+========================================
+GEMEENSCHAPPELIJKE ELEMENTEN
+========================================
+
+Niveau Badges:
+- GRATIS
+- BASISPAKKET
+- VOLLEDIGE TOEGANG
+
+Categorieën:
+- Kunst & Creativiteit
+- Vroeg Leren
+- Fijne Motoriek
+- Spelletjes
+- Taal & Lezen
+- Logica
+- Koppelen
+- Rekenen
+- Visuele Waarneming
+- Woordspelletjes
+- Creatief Schrijven
+- Data-analyse
+- Grammatica
+- Educatieve Spelletjes
+- Geheugenspelletjes
+- Probleemoplossing
+- Puzzels
+- Tijd & Datum
+- Schrijfvaardigheden
+
+UI Tekstelementen:
+- "Applicaties" (breadcrumb)
+- "Hoe te gebruiken" (sectie titel)
+- "Perfect voor" (sectie titel)
+- "Klaar om geweldige werkbladen te maken?" (CTA titel)
+- "Sluit je aan bij duizenden leerkrachten die professioneel lesmateriaal maken" (CTA beschrijving)
+- "Bekijk abonnementen" (knop)
+- "Ontdek gratis apps" (knop)
+- "Bekijk alle abonnementen" (knop)
+- "Start gratis proefperiode" (knop)
+- "Deze app vereist het Basispakket" (toegangsbericht)
+- "Deze app vereist Volledige Toegang" (toegangsbericht)
+- "Upgrade je abonnement om toegang te krijgen tot deze werkbladgenerator en vele andere professionele tools." (upgrade bericht)
+
+========================================
+INDIVIDUELE APP DATA
+========================================
+
+APP: Addition (slug: image-addition)
+Titel: Optellen met Afbeeldingen
+Beschrijving: Maak visuele optel-werkbladen met afbeeldingen voor beginnende rekenaars
+Categorie: Rekenen
+Vereist Niveau: BASISPAKKET
+Functies:
+  - Visuele rekensommen
+  - Aanpasbare moeilijkheid
+  - Antwoordbladen
+  - Print-klaar formaat
+
+----------------------------------------
+
+APP: Alphabet Train
+Titel: Alfabettrein
+Beschrijving: Help kinderen letters leren met leuke werkbladen met het thema trein
+Categorie: Taal & Lezen
+Vereist Niveau: BASISPAKKET
+Functies:
+  - Letterherkenning
+  - Alfabetische volgorde
+  - Leuk trein thema
+  - Meerdere moeilijkheidsniveaus
+
+----------------------------------------
+
+APP: Big or Small (slug: big-small-app)
+Titel: Groot of Klein
+Beschrijving: Maak werkbladen voor het vergelijken van groottes met visuele oefeningen voor beginners
+Categorie: Vroeg Leren
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Grootte vergelijkingen
+  - Visuele oefeningen
+  - Meerkeuzevragen
+  - Volgorde opdrachten
+
+----------------------------------------
+
+APP: Chart Count (slug: chart-count-color)
+Titel: Tellen met Grafieken
+Beschrijving: Maak kleurrijke tel- en grafiekwerkbladen voor het leren van getallen
+Categorie: Rekenen
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Visuele teloefeningen
+  - Kleurrijke grafieken
+  - Getallen leren
+  - Print-klaar formaat
+
+----------------------------------------
+
+APP: Code Addition
+Titel: Optellen met Codes
+Beschrijving: Maak opteloefeningen met geheime codes om rekenen leuk te maken
+Categorie: Rekenen
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Optellen met geheime codes
+  - Speelse activiteiten
+  - Aanpasbare moeilijkheid
+  - Antwoordbladen inbegrepen
+
+----------------------------------------
+
+APP: Coloring
+Titel: Kleurplaten
+Beschrijving: Ontwerp afdrukbare kleurplaten uit onze uitgebreide afbeeldingenbibliotheek
+Categorie: Kunst & Creativiteit
+Vereist Niveau: BASISPAKKET
+Functies:
+  - Meer dan 100 afbeeldingen
+  - Meerdere thema's
+  - Verschillende moeilijkheidsniveaus
+  - Hoogwaardige afdrukken
+
+----------------------------------------
+
+APP: Crossword (slug: image-crossword)
+Titel: Kruiswoordpuzzel met Afbeeldingen
+Beschrijving: Genereer geïllustreerde kruiswoordpuzzels om de woordenschat te verrijken
+Categorie: Woordspelletjes
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Automatische generatie
+  - Aanpasbare hints
+  - Verschillende roostergroottes
+  - Antwoordbladen inbegrepen
+
+----------------------------------------
+
+APP: Cryptogram (slug: image-cryptogram)
+Titel: Cryptogram met Afbeeldingen
+Beschrijving: Maak geïllustreerde cryptogrammen om logica en woordenschat te ontwikkelen
+Categorie: Puzzels
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Visuele cryptogrammen
+  - Aanpasbare codes
+  - Verschillende niveaus
+  - Oplossingen inbegrepen
+
+----------------------------------------
+
+APP: Draw and Color
+Titel: Tekenen en Kleuren
+Beschrijving: Maak werkbladen die tekenen en kleuren combineren om creativiteit te stimuleren
+Categorie: Kunst & Creativiteit
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Vrij tekenruimte
+  - Kleurvlakken
+  - Gevarieerde thema's
+  - Stimuleert creativiteit
+
+----------------------------------------
+
+APP: Drawing Lines
+Titel: Lijnen Trekken
+Beschrijving: Ontwikkel fijne motoriek door middel van lijnentrekoefeningen
+Categorie: Fijne Motoriek
+Vereist Niveau: BASISPAKKET
+Functies:
+  - Traceeroefeningen
+  - Stippen verbinden
+  - Paden volgen
+  - Schrijfvoorbereiding
+
+----------------------------------------
+
+APP: Find and Count
+Titel: Zoeken en Tellen
+Beschrijving: Visuele teloefeningen om getalherkenning en telvaardigheden te ontwikkelen
+Categorie: Visuele Waarneming
+Vereist Niveau: BASISPAKKET
+Functies:
+  - Objecten tellen
+  - Visuele discriminatie
+  - Getallen oefenen
+  - Aantrekkelijke afbeeldingen
+
+----------------------------------------
+
+APP: Find Objects
+Titel: Objecten Zoeken
+Beschrijving: Maak zoekwerkbladen om visuele aandacht te verbeteren
+Categorie: Visuele Waarneming
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Visuele zoekoefeningen
+  - Ontwikkelt aandacht
+  - Gevarieerde thema's
+  - Verschillende moeilijkheidsniveaus
+
+----------------------------------------
+
+APP: Grid Match
+Titel: Raster Koppelen
+Beschrijving: Maak raster-koppeloefeningen om ruimtelijk inzicht te ontwikkelen
+Categorie: Koppelen
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Patronen matchen
+  - Ruimtelijke oriëntatie
+  - Visuele waarneming
+  - Oplopende moeilijkheid
+
+----------------------------------------
+
+APP: MatchUp Maker (slug: matching-app)
+Titel: Koppelspel Maker
+Beschrijving: Maak koppelactiviteiten om geheugen en associatievaardigheden te verbeteren
+Categorie: Koppelen
+Vereist Niveau: BASISPAKKET
+Functies:
+  - Afbeelding-afbeelding koppelen
+  - Woord-afbeelding koppelen
+  - Geheugenspelletjes
+  - Aanpasbare paren
+
+----------------------------------------
+
+APP: Math Puzzle
+Titel: Rekenpuzzels
+Beschrijving: Maak uitdagende rekenpuzzels om logisch denken te ontwikkelen
+Categorie: Rekenen
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Rekenpuzzels
+  - Wiskundige logica
+  - Verschillende niveaus
+  - Oplossingen inbegrepen
+
+----------------------------------------
+
+APP: Math Worksheets (slug: math-worksheet)
+Titel: Rekenwerkbladen
+Beschrijving: Genereer aanpasbare rekenoefeningen voor alle niveaus
+Categorie: Rekenen
+Vereist Niveau: BASISPAKKET
+Functies:
+  - Optellen en aftrekken
+  - Vermenigvuldigen en delen
+  - Antwoordbladen
+  - Aanpasbare moeilijkheidsniveaus
+
+----------------------------------------
+
+APP: Missing Pieces
+Titel: Ontbrekende Delen
+Beschrijving: Maak visuele aanvuloefeningen om logisch denken te ontwikkelen
+Categorie: Logica
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Ontbrekende elementen identificeren
+  - Logisch redeneren
+  - Visuele oefeningen
+  - Oplopende moeilijkheid
+
+----------------------------------------
+
+APP: More Less
+Titel: Meer of Minder
+Beschrijving: Maak oefeningen voor het vergelijken van hoeveelheden om wiskundige concepten te leren
+Categorie: Rekenen
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Hoeveelheden vergelijken
+  - Basis wiskundige concepten
+  - Visuele oefeningen
+  - Geleidelijk leren
+
+----------------------------------------
+
+APP: Odd One Out
+Titel: Welke Hoort er Niet Bij
+Beschrijving: Maak oefeningen om het afwijkende element te identificeren en analyseren te ontwikkelen
+Categorie: Logica
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Verschillen identificeren
+  - Logisch redeneren
+  - Categoriseren
+  - Gevarieerde oefeningen
+
+----------------------------------------
+
+APP: Pattern Train
+Titel: Patroontreintje
+Beschrijving: Maak werkbladen met treinpatronen om patronen te herkennen
+Categorie: Logica
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Patroonherkenning
+  - Logische reeksen
+  - Trein thema
+  - Oplopende moeilijkheid
+
+----------------------------------------
+
+APP: Pattern Worksheet
+Titel: Patroonwerkbladen
+Beschrijving: Maak werkbladen om reeksen en herhalende patronen te leren
+Categorie: Logica
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Patronen en reeksen
+  - Visuele herkenning
+  - Logisch redeneren
+  - Meerdere niveaus
+
+----------------------------------------
+
+APP: Picture Bingo
+Titel: Plaatjes Bingo
+Beschrijving: Genereer aangepaste bingokaarten met afbeeldingen voor in de klas
+Categorie: Spelletjes
+Vereist Niveau: BASISPAKKET
+Functies:
+  - Aangepaste bingokaarten
+  - Thematische afbeeldingen
+  - Meerdere kaartgroottes
+  - Trekkingslijsten inbegrepen
+
+----------------------------------------
+
+APP: Picture Pathway (slug: picture-path)
+Titel: Afbeeldingenpad
+Beschrijving: Maak visuele routes om logica en het volgen van instructies te ontwikkelen
+Categorie: Logica
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Routes volgen
+  - Opeenvolgende logica
+  - Visuele oefeningen
+  - Meerdere moeilijkheidsniveaus
+
+----------------------------------------
+
+APP: Picture Sort
+Titel: Plaatjes Sorteren
+Beschrijving: Maak sorteeractiviteiten met afbeeldingen om categoriseren te ontwikkelen
+Categorie: Logica
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Sorteren en rangschikken
+  - Categoriseren
+  - Logisch redeneren
+  - Gevarieerde thema's
+
+----------------------------------------
+
+APP: Prepositions
+Titel: Voorzetsels
+Beschrijving: Maak visuele oefeningen om voorzetsels op een speelse manier te leren
+Categorie: Grammatica
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Ruimtelijke voorzetsels
+  - Geïllustreerde oefeningen
+  - Visueel leren
+  - Makkelijk te begrijpen
+
+----------------------------------------
+
+APP: Shadow Match
+Titel: Schaduw Koppelen
+Beschrijving: Maak oefeningen om objecten met hun schaduwen te koppelen
+Categorie: Visuele Waarneming
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Vorm-schaduw koppeling
+  - Visuele waarneming
+  - Visuele discriminatie
+  - Verschillende niveaus
+
+----------------------------------------
+
+APP: Subtraction
+Titel: Aftrekken
+Beschrijving: Maak visuele aftrekwerkbladen voor het leren van rekenen
+Categorie: Rekenen
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Aftrekoefeningen
+  - Visuele ondersteuning
+  - Aanpasbare moeilijkheid
+  - Antwoordbladen inbegrepen
+
+----------------------------------------
+
+APP: Sudoku for Kids (slug: sudoku)
+Titel: Sudoku voor Kinderen
+Beschrijving: Leuke sudoku puzzels met afbeeldingen in plaats van cijfers voor kinderen
+Categorie: Logica
+Vereist Niveau: BASISPAKKET
+Functies:
+  - Sudoku met afbeeldingen
+  - 4x4 en 6x6 roosters
+  - Oplopende moeilijkheid
+  - Oplossingen inbegrepen
+
+----------------------------------------
+
+APP: Treasure Hunt
+Titel: Speurtocht
+Beschrijving: Maak speurtochtwerkbladen voor speelse en educatieve activiteiten
+Categorie: Educatieve Spelletjes
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Zoekroutes
+  - Speelse activiteiten
+  - Aanpasbare kaarten
+  - Stimuleert redeneren
+
+----------------------------------------
+
+APP: Word Guess
+Titel: Woord Raden
+Beschrijving: Maak werkbladen voor het raden van woorden en het verrijken van de woordenschat
+Categorie: Woordspelletjes
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Woordraadsels
+  - Visuele hints
+  - Woordenschat verrijken
+  - Meerdere niveaus
+
+----------------------------------------
+
+APP: Word Scramble
+Titel: Letterwisseling
+Beschrijving: Maak letterwisselwerkbladen om woordenschat en spelling te verbeteren
+Categorie: Taal & Lezen
+Vereist Niveau: BASISPAKKET
+Functies:
+  - Aangepaste woordenlijsten
+  - Thematische woordenschat
+  - Meerdere moeilijkheidsniveaus
+  - Antwoordbladen inbegrepen
+
+----------------------------------------
+
+APP: Word Search (slug: word-search, file: wordsearch.html)
+Titel: Woordzoeker
+Beschrijving: Genereer aanpasbare woordzoekers met thematische woordenschat
+Categorie: Woordspelletjes
+Vereist Niveau: GRATIS
+Functies:
+  - Meerdere roostergroottes
+  - Richtingsopties
+  - Thematische woordenlijsten
+  - Antwoordbladen inbegrepen
+
+----------------------------------------
+
+APP: Writing (slug: writing-app)
+Titel: Schrijfoefeningen
+Beschrijving: Maak aangepaste schrijfwerkbladen om schrijfvaardigheden te ontwikkelen
+Categorie: Schrijfvaardigheden
+Vereist Niveau: VOLLEDIGE TOEGANG
+Functies:
+  - Aanpasbare schrijflijnen
+  - Gevarieerde thema's
+  - Visuele ondersteuning
+  - Print-klaar formaat
+
+========================================
+TOEGEPASTE VERTAALPRINCIPES
+========================================
+
+1. NATUURLIJKHEID: De tekst klinkt als oorspronkelijk Nederlands, niet vertaald
+2. DOELGERICHT: Taal passend voor Nederlandse leerkrachten en ouders
+3. CONSISTENT: Uniforme terminologie door het hele document
+4. BEKNOPT: Heldere en betekenisvolle beschrijvingen
+5. UITNODIGEND: Positieve en aansprekende formuleringen
+
+Voorbeelden van vertaalkeuzes:
+
+- "Worksheets" → "Werkbladen" (standaard Nederlandse educatieve term)
+- "Print-ready" → "Print-klaar" (actieve vorm, natuurlijk)
+- "Core Bundle" → "Basispakket" (helder en direct)
+- "Full Access" → "Volledige Toegang" (helder en direct)
+- "Word Search" → "Woordzoeker" (standaard Nederlandse term, niet "woordzoeken")
+- "Word Scramble" → "Letterwisseling" (natuurlijke Nederlandse term)
+- "Bingo" → "Bingo" (universele term, behouden)
+- "Answer keys" → "Antwoordbladen" (Nederlandse educatieve terminologie)
+- "Customizable" → "Aanpasbaar" (technische term)
+- "Match/Matching" → "Koppelen" (natuurlijk Nederlands)
+- "Odd One Out" → "Welke Hoort er Niet Bij" (natuurlijke Nederlandse uitdrukking)
+- "Treasure Hunt" → "Speurtocht" (Nederlandse culturele term)
+
+========================================
+STATUS
+========================================
+
+DEFINITIEF - Klaar voor gebruik
+Professionele vertaling compleet voor alle 33 applicaties
+Revisie afgerond

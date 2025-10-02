@@ -1,0 +1,270 @@
+TEKSTVERZAMELING VOOR DE APPS PAGINA - NEDERLANDSE VERSIE
+Professionele vertaling voor de gebruikersinterface
+Status: DEFINITIEF - Klaar voor implementatie
+
+========================================
+INFORMATIE OVER HET BRONBESTAND
+========================================
+
+Bronbestand: frontend/app/[locale]/apps/page.tsx
+Dit bestand bevat de hoofdpagina met de applicatielijst
+
+========================================
+SECTIE 1: PAGINA METADATA
+========================================
+
+Paginatitel: Alle werkbladgeneratoren - LessonCraftStudio
+Meta-beschrijving: Kies uit 33 professionele werkbladgeneratoren voor docenten en educatieve uitgevers
+Meta-trefwoorden: werkbladgeneratoren, educatieve tools, didactische hulpmiddelen, afdrukbare werkbladen
+
+========================================
+SECTIE 2: HERO SECTIE
+========================================
+
+Titel: 33 werkbladgeneratoren
+
+Ondertitel: Transformeer je lesmateriaal met ons complete pakket werkbladgeneratoren. Van woordzoekers tot rekenraadsels, wij hebben alles wat je nodig hebt.
+
+========================================
+SECTIE 3: ABONNEMENT UITLEGKAARTEN
+========================================
+
+KAART 1 - Gratis Abonnement:
+  Titel: Gratis Abonnement
+  Beschrijving: Probeer de woordzoekergenerator met watermerk
+
+KAART 2 - Basispakket:
+  Titel: Basispakket - $15/maand
+  Beschrijving: Toegang tot de 10 populairste apps met commerciële licentie
+
+KAART 3 - Volledige Toegang:
+  Titel: Volledige Toegang - $25/maand
+  Beschrijving: Alle 33 apps, prioritaire ondersteuning, vroege toegang
+
+========================================
+SECTIE 4: CATEGORIEFILTERS
+========================================
+
+Filterknop: Alle apps
+
+========================================
+SECTIE 5: TITELS VAN APP SECTIES
+========================================
+
+Titel Sectie 1: Gratis Abonnement
+Titel Sectie 2: Basispakket
+Titel Sectie 3: Apps met Volledige Toegang
+
+========================================
+SECTIE 6: NAMEN VAN APPLICATIES (33 APPS)
+========================================
+
+GRATIS ABONNEMENT (1 app):
+  1. Woordzoeker
+
+BASISPAKKET (10 apps):
+  2. Sommen met Plaatjes
+  3. Alfabettrein
+  4. Kleurplaten
+  5. Rekenwerkbladen
+  6. Letterkraker
+  7. Zoek en Tel
+  8. Koppelspel
+  9. Lijnen Trekken
+  10. Plaatjesbingo
+  11. Sudoku voor Kinderen
+
+VOLLEDIGE TOEGANG (23 apps):
+  12. Groot of Klein
+  13. Telgrafieken
+  14. Sommen in Code
+  15. Teken en Kleur
+  16. Zoek de Voorwerpen
+  17. Raster Koppelen
+  18. Kruiswoordpuzzel met Plaatjes
+  19. Cryptogram met Plaatjes
+  20. Rekenraadsels
+  21. Ontbrekende Stukjes
+  22. Meer of Minder
+  23. De Vreemde Eend
+  24. Patronentrein
+  25. Patrooonwerkbladen
+  26. Plaatjespad
+  27. Plaatjes Sorteren
+  28. Voorzetsels
+  29. Schaduwen Koppelen
+  30. Aftrekken
+  31. Schattenjacht
+  32. Woord Raden
+  33. Schrijfoefeningen
+
+========================================
+SECTIE 7: CATEGORIENAMEN
+========================================
+
+Categorieën gebruikt in de applicaties:
+  - Woordspellen
+  - Rekenen
+  - Taal
+  - Kunst & Creativiteit
+  - Visuele Waarneming
+  - Koppelen
+  - Fijne Motoriek
+  - Spelletjes
+  - Logica
+  - Begrippen
+  - Patronen
+  - Sorteren
+
+========================================
+SECTIE 8: ABONNEMENTSBADGES
+========================================
+
+Labels van badges (getoond op de app-kaarten):
+  - Gratis (voor het gratis abonnement)
+  - Basis (voor het basispakket)
+  - Volledig (voor volledige toegang)
+
+========================================
+SECTIE 9: POPULAIR BADGE
+========================================
+
+Badge tekst: Populair
+(Deze badge verschijnt op populaire applicaties)
+
+========================================
+SECTIE 10: CTA SECTIE (CALL TO ACTION)
+========================================
+
+CTA Titel: Klaar om geweldige werkbladen te maken?
+
+CTA Ondertitel: Begin met onze gratis woordzoekergenerator of ontgrendel vandaag nog alle apps
+
+Tekst Knop 1: Gratis Proberen
+Tekst Knop 2: Bekijk Prijzen
+
+========================================
+TOEGEPASTE VERTAALPRINCIPES
+========================================
+
+1. NATUURLIJKHEID: De tekst klinkt als origineel Nederlands, niet vertaald
+2. AANGEPAST AAN PUBLIEK: Taal passend voor Nederlandse docenten en pedagogen
+3. CONSISTENTIE: Uniforme terminologie door de hele tekst
+4. BEKNOPTHEID: Heldere en krachtige formuleringen
+5. MOTIVEREND: Motiverende en precieze CTA-knoppen
+
+Voorbeelden van vertaalbeslissingen:
+
+- "Word Search" → "Woordzoeker" (standaard Nederlandse term, niet "Woord zoeken")
+- "Worksheet" → "Werkblad" (Nederlandse educatieve term)
+- "Core Bundle" → "Basispakket" (duidelijk en aantrekkelijk)
+- "Full Access" → "Volledige Toegang" (helder en direct)
+- "MatchUp Maker" → "Koppelspel" (functioneel beschrijvend)
+- "Word Scramble" → "Letterkraker" (natuurlijke Nederlandse term)
+- "Coloring Pages" → "Kleurplaten" (gangbare Nederlandse uitdrukking)
+- "Bingo" → "Plaatjesbingo" (met specificatie voor context)
+- "Pattern" → "Patronen" (niet "Modellen" in deze context)
+- "Fine Motor Skills" → "Fijne Motoriek" (pedagogische Nederlandse term)
+- "Language Arts" → "Taal" (aangepast aan Nederlandse context)
+- "Odd One Out" → "De Vreemde Eend" (natuurlijke Nederlandse uitdrukking)
+- "Shadow Match" → "Schaduwen Koppelen" (beschrijvend en helder)
+- "English Writing Practice" → "Schrijfoefeningen" (gegeneraliseerd voor Nederlandse context)
+- "Free Tier" → "Gratis Abonnement" (natuurlijker dan "Gratis niveau")
+- "Chart Count & Color" → "Telgrafieken" (beknopt in het Nederlands)
+- "Alphabet Train" → "Alfabettrein" (Nederlands samengesteld woord)
+
+========================================
+NOTITIES VOOR IMPLEMENTATIE
+========================================
+
+GEBIED: Hero Section
+- heroTitle: "33 werkbladgeneratoren"
+- heroSubtitle: "Transformeer je lesmateriaal met ons complete pakket werkbladgeneratoren. Van woordzoekers tot rekenraadsels, wij hebben alles wat je nodig hebt."
+
+GEBIED: Tier Info
+- tierInfo.freeTitle: "Gratis Abonnement"
+- tierInfo.freeDescription: "Probeer de woordzoekergenerator met watermerk"
+- tierInfo.coreTitle: "Basispakket - $15/maand"
+- tierInfo.coreDescription: "Toegang tot de 10 populairste apps met commerciële licentie"
+- tierInfo.fullTitle: "Volledige Toegang - $25/maand"
+- tierInfo.fullDescription: "Alle 33 apps, prioritaire ondersteuning, vroege toegang"
+
+GEBIED: Filters
+- filters.allApps: "Alle apps"
+
+GEBIED: Section Headings
+- sections.freeTier: "Gratis Abonnement"
+- sections.coreBundle: "Basispakket"
+- sections.fullAccess: "Apps met Volledige Toegang"
+
+GEBIED: App Names
+- appNames.wordSearch: "Woordzoeker"
+- appNames.imageAddition: "Sommen met Plaatjes"
+- appNames.alphabetTrain: "Alfabettrein"
+- appNames.coloringPages: "Kleurplaten"
+- appNames.mathWorksheets: "Rekenwerkbladen"
+- appNames.wordScramble: "Letterkraker"
+- appNames.findAndCount: "Zoek en Tel"
+- appNames.matchUpMaker: "Koppelspel"
+- appNames.drawingLines: "Lijnen Trekken"
+- appNames.pictureBingo: "Plaatjesbingo"
+- appNames.sudokuForKids: "Sudoku voor Kinderen"
+- appNames.bigOrSmall: "Groot of Klein"
+- appNames.chartCountColor: "Telgrafieken"
+- appNames.codeAddition: "Sommen in Code"
+- appNames.drawAndColor: "Teken en Kleur"
+- appNames.findObjects: "Zoek de Voorwerpen"
+- appNames.gridMatch: "Raster Koppelen"
+- appNames.imageCrossword: "Kruiswoordpuzzel met Plaatjes"
+- appNames.imageCryptogram: "Cryptogram met Plaatjes"
+- appNames.mathPuzzle: "Rekenraadsels"
+- appNames.missingPieces: "Ontbrekende Stukjes"
+- appNames.moreOrLess: "Meer of Minder"
+- appNames.oddOneOut: "De Vreemde Eend"
+- appNames.patternTrain: "Patronentrein"
+- appNames.patternWorksheets: "Patrooonwerkbladen"
+- appNames.picturePathway: "Plaatjespad"
+- appNames.pictureSort: "Plaatjes Sorteren"
+- appNames.prepositions: "Voorzetsels"
+- appNames.shadowMatch: "Schaduwen Koppelen"
+- appNames.subtraction: "Aftrekken"
+- appNames.treasureHunt: "Schattenjacht"
+- appNames.wordGuess: "Woord Raden"
+- appNames.englishWritingPractice: "Schrijfoefeningen"
+
+GEBIED: Categories
+- categories.wordGames: "Woordspellen"
+- categories.math: "Rekenen"
+- categories.languageArts: "Taal"
+- categories.artCreativity: "Kunst & Creativiteit"
+- categories.visual: "Visuele Waarneming"
+- categories.matching: "Koppelen"
+- categories.fineMotorSkills: "Fijne Motoriek"
+- categories.games: "Spelletjes"
+- categories.logic: "Logica"
+- categories.concepts: "Begrippen"
+- categories.patterns: "Patronen"
+- categories.sorting: "Sorteren"
+
+GEBIED: Tier Badges
+- tierBadges.free: "Gratis"
+- tierBadges.core: "Basis"
+- tierBadges.full: "Volledig"
+
+GEBIED: Popular Badge
+- badges.popular: "Populair"
+
+GEBIED: CTA Section
+- cta.title: "Klaar om geweldige werkbladen te maken?"
+- cta.subtitle: "Begin met onze gratis woordzoekergenerator of ontgrendel vandaag nog alle apps"
+- cta.startFreeTrial: "Gratis Proberen"
+- cta.viewPricing: "Bekijk Prijzen"
+
+========================================
+STATUS
+========================================
+
+DEFINITIEF - Klaar voor implementatie
+Complete professionele vertaling voor alle tekstgebieden
+Kwaliteitscontrole uitgevoerd
+NIET GEÏMPLEMENTEERD - Alleen vertaling gemaakt

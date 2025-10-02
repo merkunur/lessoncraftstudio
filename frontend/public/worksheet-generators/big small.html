@@ -761,13 +761,13 @@
 
                 <h4 data-translate="bigsmall.background.title">Background</h4>
                 <label for="backgroundThemeSelect" data-translate="bigsmall.background.theme">Background Theme:</label>
-                <select id="backgroundThemeSelect"><option value="none" data-translate="common.none">None</option></select>
+                <select id="backgroundThemeSelect"><option value="none" data-translate="none">None</option></select>
                 <div id="backgroundDictionary"><p class="dictionary-message" data-translate="bigsmall.background.message">Select a theme to see backgrounds.</p></div>
                 <label for="backgroundOpacityInput" data-translate="bigsmall.background.opacity">Background Opacity:</label>
                 <input type="range" id="backgroundOpacityInput" min="0" max="1" value="1" step="0.05" disabled>
                 <h4 data-translate="bigsmall.border.title">Border</h4>
                 <label for="borderThemeSelect" data-translate="bigsmall.border.theme">Border Theme:</label>
-                <select id="borderThemeSelect"><option value="none" data-translate="common.none">None</option></select>
+                <select id="borderThemeSelect"><option value="none" data-translate="none">None</option></select>
                 <label for="borderOpacity" data-translate="bigsmall.border.opacity">Border Opacity:</label>
                 <input type="range" id="borderOpacity" min="0" max="1" value="1" step="0.05">
                 <div id="borderDictionary"><p class="dictionary-message" data-translate="bigsmall.border.message">Select a theme to see borders.</p></div>
@@ -1626,7 +1626,7 @@
       // --- BACKGROUNDS & BORDERS ---
       async function loadAssetThemes(type, selectEl) {
           try {
-              selectEl.innerHTML = `<option value="none">${t('common.none')}</option>`;
+              selectEl.innerHTML = `<option value="none">${t('none')}</option>`;
               const response = await fetch(`/api/${type}/themes?locale=${currentLocale}`);
               if (!response.ok) {
                   console.error(`Failed to load ${type} themes`);

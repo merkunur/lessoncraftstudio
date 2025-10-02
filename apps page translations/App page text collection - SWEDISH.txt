@@ -1,0 +1,271 @@
+TEXTSAMLING FÖR APPSIDAN - SVENSK VERSION
+Professionell översättning för användargränssnittet
+Status: SLUTGILTIG - Redo för implementering
+
+========================================
+INFORMATION OM KÄLLFILEN
+========================================
+
+Källfil: frontend/app/[locale]/apps/page.tsx
+Den här filen innehåller huvudsidan med applistan
+
+========================================
+AVSNITT 1: SIDMETADATA
+========================================
+
+Sidtitel: Alla arbetsbladsgeneratorer - LessonCraftStudio
+Meta-beskrivning: Välj bland 33 professionella arbetsbladsgeneratorer för lärare och pedagogiska förlag
+Meta-nyckelord: arbetsbladsgeneratorer, pedagogiska verktyg, undervisningsmaterial, utskrivbara arbetsblad
+
+========================================
+AVSNITT 2: HERO-SEKTION
+========================================
+
+Rubrik: 33 arbetsbladsgeneratorer
+
+Underrubrik: Förvandla ditt undervisningsmaterial med vårt kompletta utbud av pedagogiska arbetsbladsgeneratorer. Från korsord till matematiska pussel har vi allt du behöver.
+
+========================================
+AVSNITT 3: ABONNEMANGSKORT
+========================================
+
+KORT 1 - Gratisabonnemang:
+  Rubrik: Gratisabonnemang
+  Beskrivning: Prova ordletargeneratorn med vattenstämpel
+
+KORT 2 - Grundpaket:
+  Rubrik: Grundpaket - $15/månad
+  Beskrivning: Tillgång till de 10 populäraste apparna med kommersiell licens
+
+KORT 3 - Full Åtkomst:
+  Rubrik: Full Åtkomst - $25/månad
+  Beskrivning: Alla 33 appar, prioriterad support, tidig åtkomst
+
+========================================
+AVSNITT 4: KATEGORIFILTER
+========================================
+
+Filterknapp: Alla appar
+
+========================================
+AVSNITT 5: RUBRIKER FÖR APPSEKTIONER
+========================================
+
+Rubrik Sektion 1: Gratisabonnemang
+Rubrik Sektion 2: Grundpaket
+Rubrik Sektion 3: Appar med Full Åtkomst
+
+========================================
+AVSNITT 6: APPNAMN (33 APPAR)
+========================================
+
+GRATISABONNEMANG (1 app):
+  1. Ordletare
+
+GRUNDPAKET (10 appar):
+  2. Addition med Bilder
+  3. Alfabetståget
+  4. Målarbilder
+  5. Matteblad
+  6. Ordmix
+  7. Hitta och Räkna
+  8. Matchningsspel
+  9. Rita Linjer
+  10. Bildbingo
+  11. Sudoku för Barn
+
+FULL ÅTKOMST (23 appar):
+  12. Stor eller Liten
+  13. Räknediagram
+  14. Addition i Kod
+  15. Rita och Måla
+  16. Hitta Föremålen
+  17. Rutnätsmatchning
+  18. Bildkorsord
+  19. Bildkryptogram
+  20. Mattepussel
+  21. Saknade Bitar
+  22. Mer eller Mindre
+  23. Den Udda
+  24. Mönsterstöget
+  25. Mönsterblad
+  26. Bildväg
+  27. Sortera Bilder
+  28. Prepositioner
+  29. Skuggmatchning
+  30. Subtraktion
+  31. Skattjakt
+  32. Gissa Ordet
+  33. Skrivövningar
+
+========================================
+AVSNITT 7: KATEGORINAMN
+========================================
+
+Kategorier som används i apparna:
+  - Ordspel
+  - Matematik
+  - Svenska
+  - Konst & Kreativitet
+  - Visuell Uppfattning
+  - Matchning
+  - Finmotorik
+  - Spel
+  - Logik
+  - Begrepp
+  - Mönster
+  - Sortering
+
+========================================
+AVSNITT 8: ABONNEMANGSMÄRKEN
+========================================
+
+Märksetiketter (visas på appkorten):
+  - Gratis (för gratisabonnemanget)
+  - Grund (för grundpaketet)
+  - Full (för full åtkomst)
+
+========================================
+AVSNITT 9: POPULÄRMÄRKE
+========================================
+
+Märkestext: Populär
+(Det här märket visas på populära appar)
+
+========================================
+AVSNITT 10: CTA-SEKTION (CALL TO ACTION)
+========================================
+
+CTA-rubrik: Redo att skapa fantastiska arbetsblad?
+
+CTA-underrubrik: Börja med vår gratis ordletargenerator eller lås upp alla appar idag
+
+Text Knapp 1: Prova Gratis
+Text Knapp 2: Se Priser
+
+========================================
+TILLÄMPADE ÖVERSÄTTNINGSPRINCIPER
+========================================
+
+1. NATURLIGHET: Texten låter som original svenska, inte översatt
+2. ANPASSAD TILL PUBLIKEN: Språk lämpligt för svenska lärare och pedagoger
+3. KONSEKVENS: Enhetlig terminologi genom hela texten
+4. KORTFATTAT: Tydliga och kraftfulla formuleringar
+5. MOTIVERANDE: Motiverande och precisа CTA-knappar
+
+Exempel på översättningsbeslut:
+
+- "Word Search" → "Ordletare" (svensk standardterm, inte "Ordsökning")
+- "Worksheet" → "Arbetsblad" (svensk pedagogisk term)
+- "Core Bundle" → "Grundpaket" (tydligt och attraktivt)
+- "Full Access" → "Full Åtkomst" (klart och direkt)
+- "MatchUp Maker" → "Matchningsspel" (funktionellt beskrivande)
+- "Word Scramble" → "Ordmix" (naturlig svensk term)
+- "Coloring Pages" → "Målarbilder" (vanlig svensk uttryck)
+- "Bingo" → "Bildbingo" (med specificering för kontext)
+- "Pattern" → "Mönster" (inte "Modeller" i detta sammanhang)
+- "Fine Motor Skills" → "Finmotorik" (pedagogisk svensk term)
+- "Language Arts" → "Svenska" (anpassad till svensk kontext)
+- "Odd One Out" → "Den Udda" (naturlig svensk uttryck)
+- "Shadow Match" → "Skuggmatchning" (beskrivande och tydligt)
+- "English Writing Practice" → "Skrivövningar" (generaliserad för svensk kontext)
+- "Free Tier" → "Gratisabonnemang" (naturligare än "Gratisnivå")
+- "Chart Count & Color" → "Räknediagram" (kortfattat på svenska)
+- "Alphabet Train" → "Alfabetståget" (svenskt sammansatt ord)
+- "Treasure Hunt" → "Skattjakt" (svenskt sammansatt ord)
+
+========================================
+ANTECKNINGAR FÖR IMPLEMENTERING
+========================================
+
+OMRÅDE: Hero Section
+- heroTitle: "33 arbetsbladsgeneratorer"
+- heroSubtitle: "Förvandla ditt undervisningsmaterial med vårt kompletta utbud av pedagogiska arbetsbladsgeneratorer. Från korsord till matematiska pussel har vi allt du behöver."
+
+OMRÅDE: Tier Info
+- tierInfo.freeTitle: "Gratisabonnemang"
+- tierInfo.freeDescription: "Prova ordletargeneratorn med vattenstämpel"
+- tierInfo.coreTitle: "Grundpaket - $15/månad"
+- tierInfo.coreDescription: "Tillgång till de 10 populäraste apparna med kommersiell licens"
+- tierInfo.fullTitle: "Full Åtkomst - $25/månad"
+- tierInfo.fullDescription: "Alla 33 appar, prioriterad support, tidig åtkomst"
+
+OMRÅDE: Filters
+- filters.allApps: "Alla appar"
+
+OMRÅDE: Section Headings
+- sections.freeTier: "Gratisabonnemang"
+- sections.coreBundle: "Grundpaket"
+- sections.fullAccess: "Appar med Full Åtkomst"
+
+OMRÅDE: App Names
+- appNames.wordSearch: "Ordletare"
+- appNames.imageAddition: "Addition med Bilder"
+- appNames.alphabetTrain: "Alfabetståget"
+- appNames.coloringPages: "Målarbilder"
+- appNames.mathWorksheets: "Matteblad"
+- appNames.wordScramble: "Ordmix"
+- appNames.findAndCount: "Hitta och Räkna"
+- appNames.matchUpMaker: "Matchningsspel"
+- appNames.drawingLines: "Rita Linjer"
+- appNames.pictureBingo: "Bildbingo"
+- appNames.sudokuForKids: "Sudoku för Barn"
+- appNames.bigOrSmall: "Stor eller Liten"
+- appNames.chartCountColor: "Räknediagram"
+- appNames.codeAddition: "Addition i Kod"
+- appNames.drawAndColor: "Rita och Måla"
+- appNames.findObjects: "Hitta Föremålen"
+- appNames.gridMatch: "Rutnätsmatchning"
+- appNames.imageCrossword: "Bildkorsord"
+- appNames.imageCryptogram: "Bildkryptogram"
+- appNames.mathPuzzle: "Mattepussel"
+- appNames.missingPieces: "Saknade Bitar"
+- appNames.moreOrLess: "Mer eller Mindre"
+- appNames.oddOneOut: "Den Udda"
+- appNames.patternTrain: "Mönsterstöget"
+- appNames.patternWorksheets: "Mönsterblad"
+- appNames.picturePathway: "Bildväg"
+- appNames.pictureSort: "Sortera Bilder"
+- appNames.prepositions: "Prepositioner"
+- appNames.shadowMatch: "Skuggmatchning"
+- appNames.subtraction: "Subtraktion"
+- appNames.treasureHunt: "Skattjakt"
+- appNames.wordGuess: "Gissa Ordet"
+- appNames.englishWritingPractice: "Skrivövningar"
+
+OMRÅDE: Categories
+- categories.wordGames: "Ordspel"
+- categories.math: "Matematik"
+- categories.languageArts: "Svenska"
+- categories.artCreativity: "Konst & Kreativitet"
+- categories.visual: "Visuell Uppfattning"
+- categories.matching: "Matchning"
+- categories.fineMotorSkills: "Finmotorik"
+- categories.games: "Spel"
+- categories.logic: "Logik"
+- categories.concepts: "Begrepp"
+- categories.patterns: "Mönster"
+- categories.sorting: "Sortering"
+
+OMRÅDE: Tier Badges
+- tierBadges.free: "Gratis"
+- tierBadges.core: "Grund"
+- tierBadges.full: "Full"
+
+OMRÅDE: Popular Badge
+- badges.popular: "Populär"
+
+OMRÅDE: CTA Section
+- cta.title: "Redo att skapa fantastiska arbetsblad?"
+- cta.subtitle: "Börja med vår gratis ordletargenerator eller lås upp alla appar idag"
+- cta.startFreeTrial: "Prova Gratis"
+- cta.viewPricing: "Se Priser"
+
+========================================
+STATUS
+========================================
+
+SLUTGILTIG - Redo för implementering
+Komplett professionell översättning för alla textområden
+Kvalitetskontroll genomförd
+INTE IMPLEMENTERAD - Endast översättning skapad

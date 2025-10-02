@@ -1976,7 +1976,7 @@
         
         async function loadBackgroundThemes() {
             try {
-                ui.backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+                ui.backgroundThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
                 const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
                 if (!response.ok) {
                     console.error('Failed to load background themes');

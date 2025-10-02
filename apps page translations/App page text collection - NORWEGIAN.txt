@@ -1,0 +1,272 @@
+TEKSTSAMLING FOR APPS-SIDEN - NORSK VERSJON
+Profesjonell oversettelse for brukergrensesnittet
+Status: ENDELIG - Klar for implementering
+
+========================================
+INFORMASJON OM KILDEFILEN
+========================================
+
+Kildefil: frontend/app/[locale]/apps/page.tsx
+Denne filen inneholder hovedsiden med applisten
+
+========================================
+AVSNITT 1: SIDEMETADATA
+========================================
+
+Sidetittel: Alle oppgavearkgeneratorer - LessonCraftStudio
+Meta-beskrivelse: Velg mellom 33 profesjonelle oppgavearkgeneratorer for lærere og pedagogiske forlag
+Meta-nøkkelord: oppgavearkgeneratorer, pedagogiske verktøy, undervisningsmateriell, utskrivbare oppgavearker
+
+========================================
+AVSNITT 2: HERO-SEKSJON
+========================================
+
+Overskrift: 33 oppgavearkgeneratorer
+
+Underoverskrift: Forvandle undervisningsmaterialene dine med vårt komplette utvalg av pedagogiske oppgavearkgeneratorer. Fra ordsøking til matematiske gåter har vi alt du trenger.
+
+========================================
+AVSNITT 3: ABONNEMENTSKORT
+========================================
+
+KORT 1 - Gratis Abonnement:
+  Tittel: Gratis Abonnement
+  Beskrivelse: Prøv ordsøkgeneratoren med vannmerke
+
+KORT 2 - Grunnpakke:
+  Tittel: Grunnpakke - $15/måned
+  Beskrivelse: Tilgang til de 10 mest populære appene med kommersiell lisens
+
+KORT 3 - Full Tilgang:
+  Tittel: Full Tilgang - $25/måned
+  Beskrivelse: Alle 33 apper, prioritert support, tidlig tilgang
+
+========================================
+AVSNITT 4: KATEGORIFILTRE
+========================================
+
+Filterknapp: Alle apper
+
+========================================
+AVSNITT 5: OVERSKRIFTER FOR APPSEKSJONER
+========================================
+
+Overskrift Seksjon 1: Gratis Abonnement
+Overskrift Seksjon 2: Grunnpakke
+Overskrift Seksjon 3: Apper med Full Tilgang
+
+========================================
+AVSNITT 6: APPNAVN (33 APPER)
+========================================
+
+GRATIS ABONNEMENT (1 app):
+  1. Ordsøking
+
+GRUNNPAKKE (10 apper):
+  2. Addisjon med Bilder
+  3. Alfabettoget
+  4. Malesider
+  5. Matteark
+  6. Ordmiks
+  7. Finn og Tell
+  8. Parspill
+  9. Tegn Linjer
+  10. Bildebingo
+  11. Sudoku for Barn
+
+FULL TILGANG (23 apper):
+  12. Stor eller Liten
+  13. Tellediagrammer
+  14. Addisjon i Kode
+  15. Tegn og Mal
+  16. Finn Gjenstandene
+  17. Rutenettverk
+  18. Bildekryssord
+  19. Bildekryptogram
+  20. Mattegåter
+  21. Manglende Brikker
+  22. Mer eller Mindre
+  23. Den Rare Fuglen
+  24. Mønstertoget
+  25. Mønsterark
+  26. Bildesti
+  27. Sorter Bilder
+  28. Preposisjoner
+  29. Skyggematching
+  30. Subtraksjon
+  31. Skattejakt
+  32. Gjett Ordet
+  33. Skriveøvelser
+
+========================================
+AVSNITT 7: KATEGORINAVN
+========================================
+
+Kategorier brukt i appene:
+  - Ordspill
+  - Matematikk
+  - Norsk
+  - Kunst & Kreativitet
+  - Visuell Oppfatning
+  - Matching
+  - Finmotorikk
+  - Spill
+  - Logikk
+  - Begreper
+  - Mønstre
+  - Sortering
+
+========================================
+AVSNITT 8: ABONNEMENTSMERKER
+========================================
+
+Merkeetiketter (vist på appkortene):
+  - Gratis (for gratis abonnement)
+  - Grunn (for grunnpakken)
+  - Full (for full tilgang)
+
+========================================
+AVSNITT 9: POPULÆRT MERKE
+========================================
+
+Merketekst: Populær
+(Dette merket vises på populære apper)
+
+========================================
+AVSNITT 10: CTA-SEKSJON (CALL TO ACTION)
+========================================
+
+CTA-overskrift: Klar til å lage fantastiske oppgavearker?
+
+CTA-underoverskrift: Begynn med vår gratis ordsøkgenerator eller lås opp alle appene i dag
+
+Tekst Knapp 1: Prøv Gratis
+Tekst Knapp 2: Se Priser
+
+========================================
+ANVENDTE OVERSETTELSESPRINSIPPER
+========================================
+
+1. NATURLIGHET: Teksten høres ut som opprinnelig norsk, ikke oversatt
+2. TILPASSET TIL PUBLIKUM: Språk passende for norske lærere og pedagoger
+3. KONSISTENS: Ensartet terminologi gjennom hele teksten
+4. KORTFATTET: Klare og kraftfulle formuleringer
+5. MOTIVERENDE: Motiverende og presise CTA-knapper
+
+Eksempler på oversettelsesvalg:
+
+- "Word Search" → "Ordsøking" (norsk standardterm)
+- "Worksheet" → "Oppgaveark" (norsk pedagogisk term)
+- "Core Bundle" → "Grunnpakke" (tydelig og attraktiv)
+- "Full Access" → "Full Tilgang" (klar og direkte)
+- "MatchUp Maker" → "Parspill" (funksjonelt beskrivende)
+- "Word Scramble" → "Ordmiks" (naturlig norsk term)
+- "Coloring Pages" → "Malesider" (vanlig norsk uttrykk)
+- "Bingo" → "Bildebingo" (med spesifisering for kontekst)
+- "Pattern" → "Mønstre" (ikke "Modeller" i denne sammenhengen)
+- "Fine Motor Skills" → "Finmotorikk" (pedagogisk norsk term)
+- "Language Arts" → "Norsk" (tilpasset norsk kontekst)
+- "Odd One Out" → "Den Rare Fuglen" (naturlig norsk uttrykk)
+- "Shadow Match" → "Skyggematching" (beskrivende og tydelig)
+- "English Writing Practice" → "Skriveøvelser" (generalisert til norsk kontekst)
+- "Free Tier" → "Gratis Abonnement" (naturligere enn "Gratis nivå")
+- "Chart Count & Color" → "Tellediagrammer" (kortfattet på norsk)
+- "Alphabet Train" → "Alfabettoget" (norsk sammensatt ord)
+- "Treasure Hunt" → "Skattejakt" (norsk sammensatt ord)
+- "Grid Match" → "Rutenettverk" (beskrivende norsk term)
+
+========================================
+NOTATER FOR IMPLEMENTERING
+========================================
+
+OMRÅDE: Hero Section
+- heroTitle: "33 oppgavearkgeneratorer"
+- heroSubtitle: "Forvandle undervisningsmaterialene dine med vårt komplette utvalg av pedagogiske oppgavearkgeneratorer. Fra ordsøking til matematiske gåter har vi alt du trenger."
+
+OMRÅDE: Tier Info
+- tierInfo.freeTitle: "Gratis Abonnement"
+- tierInfo.freeDescription: "Prøv ordsøkgeneratoren med vannmerke"
+- tierInfo.coreTitle: "Grunnpakke - $15/måned"
+- tierInfo.coreDescription: "Tilgang til de 10 mest populære appene med kommersiell lisens"
+- tierInfo.fullTitle: "Full Tilgang - $25/måned"
+- tierInfo.fullDescription: "Alle 33 apper, prioritert support, tidlig tilgang"
+
+OMRÅDE: Filters
+- filters.allApps: "Alle apper"
+
+OMRÅDE: Section Headings
+- sections.freeTier: "Gratis Abonnement"
+- sections.coreBundle: "Grunnpakke"
+- sections.fullAccess: "Apper med Full Tilgang"
+
+OMRÅDE: App Names
+- appNames.wordSearch: "Ordsøking"
+- appNames.imageAddition: "Addisjon med Bilder"
+- appNames.alphabetTrain: "Alfabettoget"
+- appNames.coloringPages: "Malesider"
+- appNames.mathWorksheets: "Matteark"
+- appNames.wordScramble: "Ordmiks"
+- appNames.findAndCount: "Finn og Tell"
+- appNames.matchUpMaker: "Parspill"
+- appNames.drawingLines: "Tegn Linjer"
+- appNames.pictureBingo: "Bildebingo"
+- appNames.sudokuForKids: "Sudoku for Barn"
+- appNames.bigOrSmall: "Stor eller Liten"
+- appNames.chartCountColor: "Tellediagrammer"
+- appNames.codeAddition: "Addisjon i Kode"
+- appNames.drawAndColor: "Tegn og Mal"
+- appNames.findObjects: "Finn Gjenstandene"
+- appNames.gridMatch: "Rutenettverk"
+- appNames.imageCrossword: "Bildekryssord"
+- appNames.imageCryptogram: "Bildekryptogram"
+- appNames.mathPuzzle: "Mattegåter"
+- appNames.missingPieces: "Manglende Brikker"
+- appNames.moreOrLess: "Mer eller Mindre"
+- appNames.oddOneOut: "Den Rare Fuglen"
+- appNames.patternTrain: "Mønstertoget"
+- appNames.patternWorksheets: "Mønsterark"
+- appNames.picturePathway: "Bildesti"
+- appNames.pictureSort: "Sorter Bilder"
+- appNames.prepositions: "Preposisjoner"
+- appNames.shadowMatch: "Skyggematching"
+- appNames.subtraction: "Subtraksjon"
+- appNames.treasureHunt: "Skattejakt"
+- appNames.wordGuess: "Gjett Ordet"
+- appNames.englishWritingPractice: "Skriveøvelser"
+
+OMRÅDE: Categories
+- categories.wordGames: "Ordspill"
+- categories.math: "Matematikk"
+- categories.languageArts: "Norsk"
+- categories.artCreativity: "Kunst & Kreativitet"
+- categories.visual: "Visuell Oppfatning"
+- categories.matching: "Matching"
+- categories.fineMotorSkills: "Finmotorikk"
+- categories.games: "Spill"
+- categories.logic: "Logikk"
+- categories.concepts: "Begreper"
+- categories.patterns: "Mønstre"
+- categories.sorting: "Sortering"
+
+OMRÅDE: Tier Badges
+- tierBadges.free: "Gratis"
+- tierBadges.core: "Grunn"
+- tierBadges.full: "Full"
+
+OMRÅDE: Popular Badge
+- badges.popular: "Populær"
+
+OMRÅDE: CTA Section
+- cta.title: "Klar til å lage fantastiske oppgavearker?"
+- cta.subtitle: "Begynn med vår gratis ordsøkgenerator eller lås opp alle appene i dag"
+- cta.startFreeTrial: "Prøv Gratis"
+- cta.viewPricing: "Se Priser"
+
+========================================
+STATUS
+========================================
+
+ENDELIG - Klar for implementering
+Komplett profesjonell oversettelse for alle tekstområder
+Kvalitetskontroll gjennomført
+IKKE IMPLEMENTERT - Kun oversettelse opprettet

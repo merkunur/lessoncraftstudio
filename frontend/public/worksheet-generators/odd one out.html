@@ -822,7 +822,7 @@
                 <h4 data-translate="oddoneout.background.title">Background</h4>
                 <label for="backgroundThemeSelect" data-translate="oddoneout.background.theme">Background Theme:</label>
                 <select id="backgroundThemeSelect">
-                    <option value="none" data-translate="common.none">None</option>
+                    <option value="none" data-translate="none">None</option>
                 </select>
                 <div id="backgroundDictionary"><p class="dictionary-message" data-translate="oddoneout.background.message">Select a theme for backgrounds.</p></div>
                 <label for="backgroundOpacitySlider" data-translate="oddoneout.background.opacity">Background Opacity:</label>
@@ -831,7 +831,7 @@
                 <h4 data-translate="oddoneout.border.title">Border</h4>
                 <label for="borderThemeSelect" data-translate="oddoneout.border.theme">Border Theme:</label>
                 <select id="borderThemeSelect">
-                    <option value="none" data-translate="common.none">None</option>
+                    <option value="none" data-translate="none">None</option>
                 </select>
                 <div id="borderDictionary">
                     <p class="dictionary-message" data-translate="oddoneout.border.message">Select a theme to see borders.</p>
@@ -934,7 +934,7 @@
                     <button type="button" class="custom-file-button">
                         <span data-translate="oddoneout.upload.select">Select image(s) to upload</span>
                     </button>
-                    <span class="file-input-status" data-translate="common.none">None</span>
+                    <span class="file-input-status" data-translate="none">None</span>
                     <input type="file" id="imageUploadInput" multiple accept="image/*" style="opacity: 0;">
                 </div>
                 <label style="margin-top:10px;" data-translate="oddoneout.uploaded.images">Your Uploaded Images (This Session):</label>
@@ -1279,7 +1279,7 @@
       // --- BORDER AND BACKGROUND FUNCTIONS ---
       async function loadBorderThemes() {
           try {
-              ui.borderThemeSelect.innerHTML = `<option value="none">${t('common.none')}</option>`;
+              ui.borderThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
               const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
               if (!response.ok) {
                   console.error('Failed to load border themes');
@@ -1296,7 +1296,7 @@
 
       async function loadBackgroundThemes() {
           try {
-              ui.backgroundThemeSelect.innerHTML = `<option value="none">${t('common.none')}</option>`;
+              ui.backgroundThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
               const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
               if (!response.ok) {
                   console.error('Failed to load background themes');
@@ -1551,7 +1551,7 @@
             .then(res => res.ok ? res.json() : Promise.reject('Failed to load themes'))
             .then(themes => {
                 const selectEl = (type === 'borders') ? ui.borderThemeSelect : ui.backgroundThemeSelect;
-                selectEl.innerHTML = `<option value="none">${t('common.none')}</option>`;
+                selectEl.innerHTML = `<option value="none">${t('none')}</option>`;
                 themes.forEach(theme => {
                     const opt = document.createElement("option");
                     opt.value = theme;
@@ -1743,8 +1743,8 @@
             return `<img src="${img.path}" data-path="${img.path}" alt="${displayName}">`;
         };
         
-        ui.prevCommon.innerHTML = commonSelections[r].map(createImgTag).join('') || `<p class="dictionary-message">${t('common.none')}</p>`;
-        ui.prevOdd.innerHTML = oddSelections[r] ? createImgTag(oddSelections[r]) : `<p class="dictionary-message">${t('common.none')}</p>`;
+        ui.prevCommon.innerHTML = commonSelections[r].map(createImgTag).join('') || `<p class="dictionary-message">${t('none')}</p>`;
+        ui.prevOdd.innerHTML = oddSelections[r] ? createImgTag(oddSelections[r]) : `<p class="dictionary-message">${t('none')}</p>`;
         
         // Update exercise mode selector to show current exercise's mode
         if (ui.exerciseModeSelect) {
@@ -1785,7 +1785,7 @@
           // Update custom file input status
           const fileInputStatus = document.querySelector('.file-input-status');
           if (fileInputStatus) {
-              fileInputStatus.textContent = t('common.none');
+              fileInputStatus.textContent = t('none');
           }
       };
 

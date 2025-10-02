@@ -176,39 +176,39 @@
       "fullDescription": "Alla 33 appar, prioriterad support, tidig tillgång"
     },
     "appNames": {
-      "wordSearch": "Ordsökning",
-      "imageAddition": "Bildaddition",
-      "alphabetTrain": "Alfabetståg",
+      "wordSearch": "Ordletare",
+      "imageAddition": "Addition med Bilder",
+      "alphabetTrain": "Alfabetståget",
       "coloringPages": "Målarbilder",
-      "mathWorksheets": "Matteuppgifter",
-      "wordScramble": "Bokstavskrammel",
-      "findAndCount": "Hitta och räkna",
+      "mathWorksheets": "Matteblad",
+      "wordScramble": "Ordmix",
+      "findAndCount": "Hitta och Räkna",
       "matchUpMaker": "Matchningsspel",
-      "drawingLines": "Rita linjer",
+      "drawingLines": "Rita Linjer",
       "pictureBingo": "Bildbingo",
-      "sudokuForKids": "Barnsudoku",
-      "bigOrSmall": "Stor eller liten",
-      "chartCountColor": "Diagram att räkna och färglägga",
-      "codeAddition": "Code-Addition",
-      "drawAndColor": "Rita och färglägg",
-      "findObjects": "Hitta föremålen",
+      "sudokuForKids": "Sudoku för Barn",
+      "bigOrSmall": "Stor eller Liten",
+      "chartCountColor": "Räknediagram",
+      "codeAddition": "Addition i Kod",
+      "drawAndColor": "Rita och Måla",
+      "findObjects": "Hitta Föremålen",
       "gridMatch": "Rutnätsmatchning",
       "imageCrossword": "Bildkorsord",
       "imageCryptogram": "Bildkryptogram",
       "mathPuzzle": "Mattepussel",
-      "missingPieces": "Saknade bitar",
-      "moreOrLess": "Mer eller mindre",
-      "oddOneOut": "Vilket hör inte hemma",
-      "patternTrain": "Mönstertåg",
-      "patternWorksheets": "Mönsterövningar",
+      "missingPieces": "Saknade Bitar",
+      "moreOrLess": "Mer eller Mindre",
+      "oddOneOut": "Den Udda",
+      "patternTrain": "Mönsterstöget",
+      "patternWorksheets": "Mönsterblad",
       "picturePathway": "Bildväg",
-      "pictureSort": "Sortera bilder",
+      "pictureSort": "Sortera Bilder",
       "prepositions": "Prepositioner",
       "shadowMatch": "Skuggmatchning",
       "subtraction": "Subtraktion",
       "treasureHunt": "Skattjakt",
-      "wordGuess": "Gissa ordet",
-      "englishWritingPractice": "Engelska skrivövningar"
+      "wordGuess": "Gissa Ordet",
+      "englishWritingPractice": "Skrivövningar"
     },
     "cta": {
       "title": "Redo att skapa fantastiska arbetsblad?",
@@ -782,6 +782,267 @@
     "contact": {
       "title": "10. KONTAKT",
       "content": "För licensfrågor: license@lessoncraftstudio.com"
+    }
+  },
+  "faq": {
+    "metaTitle": "Vanliga frågor - LessonCraftStudio",
+    "metaDescription": "Svar på vanliga frågor om våra 33 arbetsbladsgeneratorer, prisplaner, kommersiella licenser och teknisk support",
+    "metaKeywords": "FAQ, hjälp med arbetsbladsgeneratorer, prisfrågor, kommersiell licens, teknisk support",
+    "hero": {
+      "title": "Vanliga frågor",
+      "subtitle": "Allt du behöver veta om LessonCraftStudios arbetsbladsgeneratorer"
+    },
+    "categories": {
+      "general": "Allmänna frågor",
+      "apps": "Om våra appar",
+      "pricing": "Priser & abonnemang",
+      "technical": "Teknisk support",
+      "commercial": "Kommersiellt bruk & licensiering"
+    },
+    "cta": {
+      "title": "Har du fler frågor?",
+      "subtitle": "Vårt supportteam hjälper dig gärna. Hör av dig så svarar vi inom 24-48 timmar.",
+      "button": "Kontakta support"
+    }
+  },
+  "dashboard": {
+    "header": {
+      "welcome": "Välkommen tillbaka, {name}!",
+      "welcomeFallback": "Välkommen tillbaka!",
+      "subtitle": "Låt oss skapa något fantastiskt idag",
+      "signOut": "Logga ut"
+    },
+    "stats": {
+      "worksheetsCreated": "Arbetsblad skapade",
+      "totalThisMonth": "Totalt denna månad",
+      "appsAvailable": "Tillgängliga appar",
+      "inYourPlan": "I ditt paket",
+      "currentPlan": "Nuvarande paket",
+      "yourMembership": "Ditt medlemskap"
+    },
+    "tierNames": {
+      "free": "Gratis",
+      "core": "Grund",
+      "full": "Pro"
+    },
+    "generators": {
+      "title": "Arbetsbladsgeneratorer",
+      "searchPlaceholder": "Sök generatorer...",
+      "filterLabel": "Alla kategorier",
+      "categoryAll": "Alla kategorier",
+      "open": "Öppna →",
+      "noResults": "Inga generatorer hittades",
+      "tryAdjusting": "Försök justera din sökning eller filter"
+    },
+    "subscription": {
+      "title": "Prenumeration",
+      "currentPlan": "Nuvarande paket",
+      "free": "Gratis",
+      "perMonth": "/månad",
+      "renewsOn": "Förnyas den",
+      "cancelsOn": "Avslutas den",
+      "whatsIncluded": "Vad som ingår:",
+      "upgradePlan": "Uppgradera paket",
+      "manageBilling": "Hantera fakturering",
+      "loading": "Laddar...",
+      "cancelWarning": "⚠️ Din prenumeration avslutas den {date}"
+    },
+    "activity": {
+      "title": "Din aktivitet",
+      "worksheetsCreated": "Arbetsblad skapade",
+      "downloads": "Nedladdningar",
+      "generatorsUsed": "Använda generatorer",
+      "thisWeek": "+3 denna vecka",
+      "thisMonth": "Denna månad",
+      "uniqueApps": "Unika appar",
+      "unlimited": "Obegränsad",
+      "trackingNote": "📊 Din aktivitet spåras för att hjälpa dig hålla dig inom dina paketgränser"
+    },
+    "paymentHistory": {
+      "title": "Betalningshistorik",
+      "noPayments": "Ingen betalningshistorik än",
+      "noPaymentsSubtext": "Dina betalningar kommer att visas här efter du prenumererar",
+      "viewAll": "Visa alla betalningar →",
+      "downloadInvoice": "Ladda ner faktura",
+      "succeeded": "lyckades",
+      "failed": "misslyckades",
+      "pending": "väntande"
+    },
+    "tiers": {
+      "free": {
+        "description": "Kom igång med ordletargeneratorn",
+        "features": [
+          "Endast ordletargenerator",
+          "Obegränsad arbetsbladsgenerering",
+          "Nedladdningar med vattenstämpel"
+        ]
+      },
+      "core": {
+        "description": "Perfekt för regelbunden klassrumsanvändning",
+        "features": [
+          "Tillgång till 10 populära arbetsbladsgeneratorer",
+          "Obegränsad arbetsbladsgenerering",
+          "Inga vattenstämplar"
+        ]
+      },
+      "full": {
+        "description": "Fullständig åtkomst för avancerade användare",
+        "features": [
+          "Tillgång till alla 33 arbetsbladsgeneratorer",
+          "Obegränsad arbetsbladsgenerering",
+          "Inga vattenstämplar"
+        ]
+      }
+    },
+    "categories": {
+      "Math": "Matematik",
+      "Language": "Språk",
+      "Logic": "Logik",
+      "Art": "Konst",
+      "Visual": "Visuellt",
+      "Game": "Spel"
+    },
+    "apps": {
+      "wordSearch": {
+        "name": "Ordletare",
+        "description": "Skapa engagerande ordletare"
+      },
+      "addition": {
+        "name": "Addition",
+        "description": "Öva additionsproblem"
+      },
+      "subtraction": {
+        "name": "Subtraktion",
+        "description": "Bemästra subtraktionsfärdigheter"
+      },
+      "multiplication": {
+        "name": "Multiplikation",
+        "description": "Bygg multiplikationsflyt"
+      },
+      "division": {
+        "name": "Division",
+        "description": "Lär dig divisionskoncept"
+      },
+      "alphabetTrain": {
+        "name": "Alfabetståg",
+        "description": "Roligt alfabetsinlärning"
+      },
+      "findAndCount": {
+        "name": "Hitta och räkna",
+        "description": "Visuella räkneövningar"
+      },
+      "matching": {
+        "name": "Matchning",
+        "description": "Koppla ihop matchande objekt"
+      },
+      "crossword": {
+        "name": "Korsord",
+        "description": "Anpassade korsord"
+      },
+      "sudoku": {
+        "name": "Sudoku",
+        "description": "Sifferpusselutmaningar"
+      },
+      "coloring": {
+        "name": "Färgläggning",
+        "description": "Kreativa färgläggningsblad"
+      },
+      "mathPuzzle": {
+        "name": "Mattepussel",
+        "description": "Avancerade matteutmaningar"
+      },
+      "wordScramble": {
+        "name": "Ordmix",
+        "description": "Ordmixspel"
+      },
+      "chartCount": {
+        "name": "Diagram och räkning",
+        "description": "Data och diagramövningar"
+      },
+      "drawingLines": {
+        "name": "Rita linjer",
+        "description": "Linjritningsövningar"
+      },
+      "bigSmall": {
+        "name": "Stor liten",
+        "description": "Storleksjämförelseaktiviteter"
+      },
+      "codeAddition": {
+        "name": "Kodad addition",
+        "description": "Dechiffrera additionsproblem"
+      },
+      "cryptogram": {
+        "name": "Kryptogram",
+        "description": "Krypterade ordpussel"
+      },
+      "drawAndColor": {
+        "name": "Rita och måla",
+        "description": "Kombination av ritning och färgläggning"
+      },
+      "findObjects": {
+        "name": "Hitta föremål",
+        "description": "Dolda föremålspel"
+      },
+      "gridMatch": {
+        "name": "Rutmatchning",
+        "description": "Mönstermatchningsrutnät"
+      },
+      "mathWorksheet": {
+        "name": "Matteblad",
+        "description": "Omfattande matteövning"
+      },
+      "moreLess": {
+        "name": "Mer mindre",
+        "description": "Jämför mängder"
+      },
+      "oddOneOut": {
+        "name": "Den udda",
+        "description": "Hitta den annorlunda saken"
+      },
+      "picturePath": {
+        "name": "Bildväg",
+        "description": "Följ visuella stigar"
+      },
+      "pictureSort": {
+        "name": "Bildsortering",
+        "description": "Kategorisera bilder"
+      },
+      "prepositions": {
+        "name": "Prepositioner",
+        "description": "Öva positionsord"
+      },
+      "treasureHunt": {
+        "name": "Skattjakt",
+        "description": "Äventyrsbaserat lärande"
+      },
+      "wordGuess": {
+        "name": "Gissa ordet",
+        "description": "Ordgissningsspel"
+      },
+      "writing": {
+        "name": "Skrivning",
+        "description": "Handskriftsövningsblad"
+      },
+      "bingo": {
+        "name": "Bingo",
+        "description": "Anpassade bingobrickor"
+      },
+      "shadowMatch": {
+        "name": "Skuggmatchning",
+        "description": "Matcha föremål med deras skuggor"
+      },
+      "patternTrain": {
+        "name": "Mönstertåg",
+        "description": "Mönsterigenkänningsövning"
+      },
+      "patternWorksheet": {
+        "name": "Mönsterblad",
+        "description": "Komplettera mönstersekvenser"
+      },
+      "missingPieces": {
+        "name": "Saknade bitar",
+        "description": "Hitta de saknade bitarna"
+      }
     }
   }
 }

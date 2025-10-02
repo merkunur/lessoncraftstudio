@@ -36,6 +36,7 @@ const translations = {
         "borderOpacity": "Border Opacity:",
         "none": "None",
         "common.none": "None",
+    "none": "None",
         "outlineColor": "Outline Color:",
         "outlineThickness": "Outline (0-10):",
 
@@ -378,6 +379,7 @@ const translations = {
         "borderOpacity": "Opacité de la Bordure:",
         "none": "Aucun",
         "common.none": "Aucun",
+    "none": "Aucun",
         "outlineColor": "Couleur du contour:",
         "outlineThickness": "Contour (0-10):",
 
@@ -552,6 +554,7 @@ const translations = {
         "borderOpacity": "Opacidad del Borde:",
         "none": "Ninguno",
         "common.none": "Ninguno",
+    "none": "Ninguno",
         "outlineColor": "Color del contorno:",
         "outlineThickness": "Contorno (0-10):",
 
@@ -720,6 +723,7 @@ const translations = {
         "borderOpacity": "Opacità Bordo:",
         "none": "Nessuno",
         "common.none": "Nessuno",
+    "none": "Nessuno",
         "outlineColor": "Colore contorno:",
         "outlineThickness": "Contorno (0-10):",
 
@@ -888,6 +892,7 @@ const translations = {
         "borderOpacity": "Opacidade da Borda:",
         "none": "Nenhum",
         "common.none": "Nenhum",
+    "none": "Nenhum",
         "outlineColor": "Cor do contorno:",
         "outlineThickness": "Contorno (0-10):",
 
@@ -1068,6 +1073,7 @@ const translations = {
         "borderOpacity": "Rand Dekking:",
         "none": "Geen",
         "common.none": "Geen",
+    "none": "Geen",
         "outlineColor": "Omtrekkleur:",
         "outlineThickness": "Omtrek (0-10):",
 
@@ -1230,6 +1236,7 @@ const translations = {
         "borderOpacity": "Kantopacitet:",
         "none": "Ingen",
         "common.none": "Ingen",
+    "none": "Ingen",
         "outlineColor": "Konturfärg:",
         "outlineThickness": "Kontur (0-10):",
 
@@ -1392,6 +1399,7 @@ const translations = {
         "borderOpacity": "Kant Uigennemsigtighed:",
         "none": "Ingen",
         "common.none": "Ingen",
+    "none": "Ingen",
         "outlineColor": "Konturfarve:",
         "outlineThickness": "Kontur (0-10):",
 
@@ -1554,6 +1562,7 @@ const translations = {
         "borderOpacity": "Kant Ugjennomsiktighet:",
         "none": "Ingen",
         "common.none": "Ingen",
+    "none": "Ingen",
         "outlineColor": "Konturfarge:",
         "outlineThickness": "Kontur (0-10):",
 
@@ -1716,6 +1725,7 @@ const translations = {
         "borderOpacity": "Reunuksen Peittävyys:",
         "none": "Ei mitään",
         "common.none": "Ei mitään",
+    "none": "Ei mitään",
         "outlineColor": "Ääriviivan väri:",
         "outlineThickness": "Ääriviiva (0-10):",
 

@@ -1,0 +1,267 @@
+APP-SEITE TEXTSAMMLUNG - DEUTSCHE VERSION
+Professionelle Übersetzung für die Benutzeroberfläche
+Status: ENDGÜLTIG - Bereit zur Implementierung
+
+========================================
+QUELLDATEI-INFORMATIONEN
+========================================
+
+Quelldatei: frontend/app/[locale]/apps/page.tsx
+Diese Datei enthält die Hauptseite mit der App-Übersicht
+
+========================================
+ABSCHNITT 1: SEITEN-METADATEN
+========================================
+
+Seitentitel: Alle Arbeitsblatt-Generator Apps - LessonCraftStudio
+Meta-Beschreibung: Wählen Sie aus 33 professionellen Arbeitsblatt-Generatoren für Lehrkräfte und Bildungsverlage
+Meta-Keywords: Arbeitsblatt-Generatoren, Bildungstools, Unterrichtsmaterialien, druckbare Arbeitsblätter
+
+========================================
+ABSCHNITT 2: HERO-BEREICH
+========================================
+
+Überschrift: 33 Arbeitsblatt-Generator Apps
+
+Untertitel: Verwandeln Sie Ihre Unterrichtsmaterialien mit unserer umfassenden Suite pädagogischer Arbeitsblatt-Generatoren. Von Worträtseln bis zu Mathe-Aufgaben – bei uns finden Sie alles, was Sie brauchen.
+
+========================================
+ABSCHNITT 3: STUFEN-ERKLÄRUNGSKARTEN
+========================================
+
+KARTE 1 - Kostenlose Version:
+  Titel: Kostenlose Version
+  Beschreibung: Testen Sie den Worträtsel-Generator mit Wasserzeichen
+
+KARTE 2 - Basis-Paket:
+  Titel: Basis-Paket - 15 $/Monat
+  Beschreibung: Zugriff auf die 10 beliebtesten Apps mit Gewerbelizenz
+
+KARTE 3 - Vollzugriff:
+  Titel: Vollzugriff - 25 $/Monat
+  Beschreibung: Alle 33 Apps, Prioritäts-Support, frühzeitiger Zugang
+
+========================================
+ABSCHNITT 4: KATEGORIE-FILTER
+========================================
+
+Filter-Button: Alle Apps
+
+========================================
+ABSCHNITT 5: APP-BEREICHS-ÜBERSCHRIFTEN
+========================================
+
+Überschrift Bereich 1: Kostenlose Version
+Überschrift Bereich 2: Basis-Paket
+Überschrift Bereich 3: Vollzugriff Apps
+
+========================================
+ABSCHNITT 6: APP-NAMEN (33 APPS)
+========================================
+
+KOSTENLOSE VERSION (1 App):
+  1. Wörtersuche
+
+BASIS-PAKET (10 Apps):
+  2. Bildaddition
+  3. Alphabet-Zug
+  4. Ausmalbilder
+  5. Mathe-Arbeitsblätter
+  6. Buchstabensalat
+  7. Suchen und Zählen
+  8. Zuordnungsspiel
+  9. Linien Zeichnen
+  10. Bilder-Bingo
+  11. Sudoku für Kinder
+
+VOLLZUGRIFF (23 Apps):
+  12. Groß oder Klein
+  13. Zähldiagramme
+  14. Code-Addition
+  15. Malen und Ausmalen
+  16. Gegenstände Finden
+  17. Raster-Zuordnung
+  18. Bilder-Kreuzworträtsel
+  19. Bilder-Kryptogramm
+  20. Mathe-Rätsel
+  21. Fehlende Teile
+  22. Mehr oder Weniger
+  23. Was Passt Nicht
+  24. Muster-Zug
+  25. Muster-Arbeitsblätter
+  26. Bilder-Pfad
+  27. Bilder Sortieren
+  28. Präpositionen
+  29. Schatten Zuordnen
+  30. Subtraktion
+  31. Schatzsuche
+  32. Wort Erraten
+  33. Schreibübungen
+
+========================================
+ABSCHNITT 7: KATEGORIENAMEN
+========================================
+
+In den Apps verwendete Kategorien:
+  - Wortspiele
+  - Mathematik
+  - Sprachunterricht
+  - Kunst & Kreativität
+  - Visuelle Wahrnehmung
+  - Zuordnung
+  - Feinmotorik
+  - Spiele
+  - Logik
+  - Konzepte
+  - Muster
+  - Sortieren
+
+========================================
+ABSCHNITT 8: STUFEN-BADGES
+========================================
+
+Stufen-Badge-Beschriftungen (auf App-Karten angezeigt):
+  - Kostenlos (für kostenlose Version)
+  - Basis (für Basis-Paket)
+  - Voll (für Vollzugriff)
+
+========================================
+ABSCHNITT 9: BELIEBT-BADGE
+========================================
+
+Badge-Text: Beliebt
+(Dieses Badge erscheint bei beliebten Apps)
+
+========================================
+ABSCHNITT 10: CTA (CALL-TO-ACTION) BEREICH
+========================================
+
+CTA-Überschrift: Bereit, großartige Arbeitsblätter zu erstellen?
+
+CTA-Untertitel: Beginnen Sie mit unserem kostenlosen Worträtsel-Generator oder schalten Sie noch heute alle Apps frei
+
+Button 1 Text: Kostenlos Testen
+Button 2 Text: Preise Ansehen
+
+========================================
+ÜBERSETZUNGSPRINZIPIEN ANGEWENDET
+========================================
+
+1. NATÜRLICHKEIT: Der Text klingt wie ursprüngliches Deutsch, nicht übersetzt
+2. ZIELGRUPPENGERECHT: Sprache passend für deutsche Lehrkräfte und Pädagogen
+3. KONSISTENZ: Einheitliche Terminologie durchgehend
+4. PRÄGNANZ: Klare und aussagekräftige Formulierungen
+5. HANDLUNGSORIENTIERT: CTA-Buttons motivierend und präzise
+
+Beispiele für Übersetzungsentscheidungen:
+
+- "Word Search" → "Wörtersuche" (deutscher Standardbegriff, nicht "Wortsuche")
+- "Worksheet" → "Arbeitsblatt" (pädagogischer Fachbegriff)
+- "Core Bundle" → "Basis-Paket" (klarer als "Kern-Paket")
+- "Full Access" → "Vollzugriff" (prägnant und klar)
+- "MatchUp Maker" → "Zuordnungsspiel" (funktional beschreibend)
+- "Word Scramble" → "Buchstabensalat" (deutscher Fachbegriff)
+- "Coloring Pages" → "Ausmalbilder" (gebräuchlicher deutscher Begriff)
+- "Chart Count & Color" → "Zähldiagramme" (prägnanter auf Deutsch)
+- "Pattern" → "Muster" (nicht "Muster-Pattern")
+- "Fine Motor Skills" → "Feinmotorik" (deutscher Fachbegriff)
+- "Language Arts" → "Sprachunterricht" (nicht wörtlich "Sprachkunst")
+- "Odd One Out" → "Was Passt Nicht" (natürlicher deutscher Ausdruck)
+- "Shadow Match" → "Schatten Zuordnen" (beschreibend und klar)
+- "English Writing Practice" → "Schreibübungen" (verallgemeinert für deutschen Kontext)
+
+========================================
+IMPLEMENTIERUNGSHINWEISE
+========================================
+
+BEREICH: Hero Section
+- heroTitle: "33 Arbeitsblatt-Generator Apps"
+- heroSubtitle: "Verwandeln Sie Ihre Unterrichtsmaterialien mit unserer umfassenden Suite pädagogischer Arbeitsblatt-Generatoren. Von Worträtseln bis zu Mathe-Aufgaben – bei uns finden Sie alles, was Sie brauchen."
+
+BEREICH: Tier Info
+- tierInfo.freeTitle: "Kostenlose Version"
+- tierInfo.freeDescription: "Testen Sie den Worträtsel-Generator mit Wasserzeichen"
+- tierInfo.coreTitle: "Basis-Paket - 15 $/Monat"
+- tierInfo.coreDescription: "Zugriff auf die 10 beliebtesten Apps mit Gewerbelizenz"
+- tierInfo.fullTitle: "Vollzugriff - 25 $/Monat"
+- tierInfo.fullDescription: "Alle 33 Apps, Prioritäts-Support, frühzeitiger Zugang"
+
+BEREICH: Filters
+- filters.allApps: "Alle Apps"
+
+BEREICH: Section Headings
+- sections.freeTier: "Kostenlose Version"
+- sections.coreBundle: "Basis-Paket"
+- sections.fullAccess: "Vollzugriff Apps"
+
+BEREICH: App Names
+- appNames.wordSearch: "Wörtersuche"
+- appNames.imageAddition: "Bildaddition"
+- appNames.alphabetTrain: "Alphabet-Zug"
+- appNames.coloringPages: "Ausmalbilder"
+- appNames.mathWorksheets: "Mathe-Arbeitsblätter"
+- appNames.wordScramble: "Buchstabensalat"
+- appNames.findAndCount: "Suchen und Zählen"
+- appNames.matchUpMaker: "Zuordnungsspiel"
+- appNames.drawingLines: "Linien Zeichnen"
+- appNames.pictureBingo: "Bilder-Bingo"
+- appNames.sudokuForKids: "Sudoku für Kinder"
+- appNames.bigOrSmall: "Groß oder Klein"
+- appNames.chartCountColor: "Zähldiagramme"
+- appNames.codeAddition: "Code-Addition"
+- appNames.drawAndColor: "Malen und Ausmalen"
+- appNames.findObjects: "Gegenstände Finden"
+- appNames.gridMatch: "Raster-Zuordnung"
+- appNames.imageCrossword: "Bilder-Kreuzworträtsel"
+- appNames.imageCryptogram: "Bilder-Kryptogramm"
+- appNames.mathPuzzle: "Mathe-Rätsel"
+- appNames.missingPieces: "Fehlende Teile"
+- appNames.moreOrLess: "Mehr oder Weniger"
+- appNames.oddOneOut: "Was Passt Nicht"
+- appNames.patternTrain: "Muster-Zug"
+- appNames.patternWorksheets: "Muster-Arbeitsblätter"
+- appNames.picturePathway: "Bilder-Pfad"
+- appNames.pictureSort: "Bilder Sortieren"
+- appNames.prepositions: "Präpositionen"
+- appNames.shadowMatch: "Schatten Zuordnen"
+- appNames.subtraction: "Subtraktion"
+- appNames.treasureHunt: "Schatzsuche"
+- appNames.wordGuess: "Wort Erraten"
+- appNames.englishWritingPractice: "Schreibübungen"
+
+BEREICH: Categories
+- categories.wordGames: "Wortspiele"
+- categories.math: "Mathematik"
+- categories.languageArts: "Sprachunterricht"
+- categories.artCreativity: "Kunst & Kreativität"
+- categories.visual: "Visuelle Wahrnehmung"
+- categories.matching: "Zuordnung"
+- categories.fineMotorSkills: "Feinmotorik"
+- categories.games: "Spiele"
+- categories.logic: "Logik"
+- categories.concepts: "Konzepte"
+- categories.patterns: "Muster"
+- categories.sorting: "Sortieren"
+
+BEREICH: Tier Badges
+- tierBadges.free: "Kostenlos"
+- tierBadges.core: "Basis"
+- tierBadges.full: "Voll"
+
+BEREICH: Popular Badge
+- badges.popular: "Beliebt"
+
+BEREICH: CTA Section
+- cta.title: "Bereit, großartige Arbeitsblätter zu erstellen?"
+- cta.subtitle: "Beginnen Sie mit unserem kostenlosen Worträtsel-Generator oder schalten Sie noch heute alle Apps frei"
+- cta.startFreeTrial: "Kostenlos Testen"
+- cta.viewPricing: "Preise Ansehen"
+
+========================================
+STATUS
+========================================
+
+ENDGÜLTIG - Bereit zur Implementierung
+Professionelle Übersetzung komplett für alle Textbereiche
+Qualitätsprüfung durchgeführt
+NICHT IMPLEMENTIERT - Nur Übersetzung erstellt

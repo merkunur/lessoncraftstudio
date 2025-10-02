@@ -74,14 +74,13 @@ export async function POST(request: NextRequest) {
         }
       });
 
-      // Create subscription record
+      // Create subscription record (all users start with free tier - no trials)
       await tx.subscription.create({
         data: {
           userId: newUser.id,
-          planName: plan,
-          status: plan === 'free' ? 'active' : 'trialing',
-          trialStart: plan !== 'free' ? new Date() : null,
-          trialEnd: plan !== 'free' ? new Date(Date.now() + 7 * 24 * 60 * 60 * 1000) : null,
+          planName: 'free',
+          status: 'active',
+          // No trial logic - users start with free tier
         }
       });
 

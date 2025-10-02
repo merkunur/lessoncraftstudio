@@ -37,10 +37,10 @@ export interface Subscription {
   stripeSubscriptionId: string;
   stripeCustomerId: string;
   planId: string;
-  status: 'active' | 'canceled' | 'past_due' | 'trialing' | 'paused';
+  status: 'active' | 'canceled' | 'past_due' | 'paused';
   currentPeriodStart: string;
   currentPeriodEnd: string;
-  trialEnd?: string;
+  // trialEnd removed - no trials offered
   cancelAtPeriodEnd: boolean;
   canceledAt?: string;
   pausedUntil?: string;

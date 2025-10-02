@@ -19,6 +19,7 @@ export async function POST(request: NextRequest) {
     // Validate request body
     const checkoutSchema = z.object({
       tier: z.enum(['CORE', 'FULL']),
+      billingInterval: z.enum(['monthly', 'yearly']).optional().default('monthly'),
       successUrl: z.string().url().optional(),
       cancelUrl: z.string().url().optional(),
     });
@@ -33,13 +34,17 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const { tier, successUrl, cancelUrl } = validationResult.data;
+    const { tier, billingInterval, successUrl, cancelUrl } = validationResult.data;
 
     // Get subscription tier details
     const tierInfo = SUBSCRIPTION_TIERS[tier];
-    if (!tierInfo.priceId) {
+
+    // Select correct price ID based on billing interval
+    const priceId = billingInterval === 'yearly' ? tierInfo.priceIdYearly : tierInfo.priceIdMonthly;
+
+    if (!priceId) {
       return NextResponse.json(
-        { error: 'Invalid subscription tier' },
+        { error: 'Invalid subscription tier or billing interval' },
         { status: 400 }
       );
     }
@@ -76,7 +81,7 @@ export async function POST(request: NextRequest) {
     const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000';
     const session = await createCheckoutSession(
       customerId,
-      tierInfo.priceId,
+      priceId,
       user.id,
       successUrl || `${baseUrl}/dashboard/billing?success=true`,
       cancelUrl || `${baseUrl}/dashboard/billing?cancelled=true`

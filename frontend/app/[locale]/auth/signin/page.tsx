@@ -19,7 +19,7 @@ export default function SignInPage() {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://localhost:3001/api/auth/login', {
+      const response = await fetch('/api/auth/signin', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -36,12 +36,12 @@ export default function SignInPage() {
       // Store tokens
       localStorage.setItem('accessToken', data.accessToken);
       localStorage.setItem('refreshToken', data.refreshToken);
-      
+
       // Store user info
       localStorage.setItem('user', JSON.stringify(data.user));
 
-      // Redirect to dashboard
-      router.push('/dashboard');
+      // Redirect to dashboard with locale
+      router.push('/en/dashboard');
     } catch (err: any) {
       setError(err.message || 'An error occurred during sign in');
     } finally {

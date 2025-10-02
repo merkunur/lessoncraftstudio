@@ -122,6 +122,7 @@ const translations = {
     "width": "Width (px):",
     "height": "Height (px):",
     "common.none": "None",
+    "none": "None",
     "showPlusSignBetweenGroups": "Show '+' Between Image Groups"
   },
   "de": {

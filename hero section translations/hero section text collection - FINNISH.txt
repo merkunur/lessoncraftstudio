@@ -1,0 +1,526 @@
+HERO-OSION TEKSTIKOKOELMA - SUOMENKIELINEN VERSIO
+Ammattimainen käännös käyttöliittymään
+Tila: LOPULLINEN - Valmis käyttöön
+
+========================================
+LÄHDETIEDOSTON TIEDOT
+========================================
+
+Tiedot poimittu: frontend/app/[locale]/apps/[slug]/page.tsx
+Rivit: 424-521 (staticAppData objekti)
+
+Tämä tiedosto sisältää hero-osion tiedot, jotka näkyvät yksittäisiä sovelluksia tarkasteltaessa Next.js-sovelluksessa.
+Hero-osio sisältää:
+- Sovelluksen nimi/otsikko
+- Kuvaus
+- Kategoriamerkki
+- Vaadittu tasomerkki (ILMAINEN / PERUSPAKETTI / TÄYSI KÄYTTÖOIKEUS)
+- Ominaisuuslista (4 ominaisuutta per sovellus)
+
+========================================
+YHTEISET ELEMENTIT
+========================================
+
+Tasomerkit:
+- ILMAINEN
+- PERUSPAKETTI
+- TÄYSI KÄYTTÖOIKEUS
+
+Kategoriat:
+- Taide & Luovuus
+- Varhaiskehitys
+- Hienomotoriikka
+- Pelit
+- Kieli & Lukeminen
+- Logiikka
+- Yhdistäminen
+- Matematiikka
+- Visuaalinen Hahmotus
+- Sanapelit
+- Luova Kirjoittaminen
+- Data-analyysi
+- Kielioppi
+- Opetuspelit
+- Muistipelit
+- Ongelmanratkaisu
+- Arvoitukset
+- Aika & Päivämäärä
+- Kirjoitustaidot
+
+Käyttöliittymän tekstielementit:
+- "Sovellukset" (navigointipolku)
+- "Käyttöohje" (osion otsikko)
+- "Täydellinen" (osion otsikko)
+- "Valmiina luomaan upeita tehtäviä?" (CTA-otsikko)
+- "Liity tuhansien opettajien joukkoon, jotka luovat ammattimaista oppimateriaaleja" (CTA-kuvaus)
+- "Katso hinnat" (painike)
+- "Tutustu ilmaisiin sovelluksiin" (painike)
+- "Näytä kaikki paketit" (painike)
+- "Aloita ilmainen kokeilu" (painike)
+- "Tämä sovellus vaatii Peruspaketin" (käyttöoikeusviesti)
+- "Tämä sovellus vaatii Täyden Käyttöoikeuden" (käyttöoikeusviesti)
+- "Päivitä tilauksesi saadaksesi käyttöoikeuden tähän tehtävägeneraattoriin ja moniin muihin ammattityökaluihin." (päivitysviesti)
+
+========================================
+YKSITTÄISTEN SOVELLUSTEN TIEDOT
+========================================
+
+APP: Addition (slug: image-addition)
+Otsikko: Yhteenlasku Kuvilla
+Kuvaus: Luo visuaalisia yhteenlaskutehtäviä kuvineen alkeiden matematiikkaan
+Kategoria: Matematiikka
+Vaadittu Taso: PERUSPAKETTI
+Ominaisuudet:
+  - Visuaaliset laskutehtävät
+  - Mukautettava vaikeustaso
+  - Vastausavaimet
+  - Tulostusvalmiit lomakkeet
+
+----------------------------------------
+
+APP: Alphabet Train
+Otsikko: Aakkosj una
+Kuvaus: Auta lapsia oppimaan kirjaimia hauskoilla junateemaisilla aakkostehtävillä
+Kategoria: Kieli & Lukeminen
+Vaadittu Taso: PERUSPAKETTI
+Ominaisuudet:
+  - Kirjainten tunnistaminen
+  - Aakkosjärjestys
+  - Hauska junateema
+  - Useita vaikeustasoja
+
+----------------------------------------
+
+APP: Big or Small (slug: big-small-app)
+Otsikko: Iso vai Pieni
+Kuvaus: Luo kokovertailutehtäviä visuaalisilla harjoituksilla aloittelijoille
+Kategoria: Varhaiskehitys
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Kokovertailut
+  - Visuaaliset harjoitukset
+  - Monivalintatehtävät
+  - Järjestysharjoitukset
+
+----------------------------------------
+
+APP: Chart Count (slug: chart-count-color)
+Otsikko: Laskukaaviot
+Kuvaus: Luo värikkäitä lasku- ja kaavioharjoituksia numeroiden oppimiseen
+Kategoria: Matematiikka
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Visuaaliset laskuharjoitukset
+  - Värikkäät kaaviot
+  - Numeroiden oppiminen
+  - Tulostusvalmiit lomakkeet
+
+----------------------------------------
+
+APP: Code Addition
+Otsikko: Koodiyhteenlasku
+Kuvaus: Luo yhteenlaskutehtäviä salaisilla koodeilla matematiikan tekemiseksi hauskaksi
+Kategoria: Matematiikka
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Yhteenlasku salaisilla koodeilla
+  - Leikkisät aktiviteetit
+  - Säädettävä vaikeustaso
+  - Vastausavaimet mukana
+
+----------------------------------------
+
+APP: Coloring
+Otsikko: Värityskuvat
+Kuvaus: Suunnittele tulostettavia värityskuvia laajasta kuvakirjastostamme
+Kategoria: Taide & Luovuus
+Vaadittu Taso: PERUSPAKETTI
+Ominaisuudet:
+  - Yli 100 kuvaa
+  - Useita teemoja
+  - Eri vaikeustasoja
+  - Korkealaatuiset tulosteet
+
+----------------------------------------
+
+APP: Crossword (slug: image-crossword)
+Otsikko: Kuvristikko
+Kuvaus: Luo kuvitettuja ristisanatehtäviä sanaston rikastamiseen
+Kategoria: Sanapelit
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Automaattinen luonti
+  - Mukautettavat vihjeet
+  - Eri ruudukkokoot
+  - Vastausavaimet mukana
+
+----------------------------------------
+
+APP: Cryptogram (slug: image-cryptogram)
+Otsikko: Kuvakryptogrammi
+Kuvaus: Luo kuvitettuja kryptogrammeja logiikan ja sanaston kehittämiseen
+Kategoria: Arvoitukset
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Visuaaliset kryptogrammit
+  - Mukautettavat koodit
+  - Eri tasoja
+  - Ratkaisut mukana
+
+----------------------------------------
+
+APP: Draw and Color
+Otsikko: Piirrä ja Väritä
+Kuvaus: Luo tehtäviä, jotka yhdistävät piirtämisen ja värityksen luovuuden stimuloimiseksi
+Kategoria: Taide & Luovuus
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Tilaa vapaalle piirtämiselle
+  - Väritysalueet
+  - Monipuoliset teemat
+  - Edistää luovuutta
+
+----------------------------------------
+
+APP: Drawing Lines
+Otsikko: Viivojen Piirtäminen
+Kuvaus: Kehitä hienomotoriikkaa viivanvetoharjoituksilla
+Kategoria: Hienomotoriikka
+Vaadittu Taso: PERUSPAKETTI
+Ominaisuudet:
+  - Jäljitysharjoitukset
+  - Yhdistä pisteet
+  - Polkujen seuraaminen
+  - Esikirjoitusvalmennusta
+
+----------------------------------------
+
+APP: Find and Count
+Otsikko: Etsi ja Laske
+Kuvaus: Visuaaliset laskuharjoitukset numeroiden tunnistamisen ja laskutaitojen kehittämiseen
+Kategoria: Visuaalinen Hahmotus
+Vaadittu Taso: PERUSPAKETTI
+Ominaisuudet:
+  - Esineiden laskeminen
+  - Visuaalinen erottelu
+  - Numeroharjoitukset
+  - Kiinnostavat kuvat
+
+----------------------------------------
+
+APP: Find Objects
+Otsikko: Etsi Esineitä
+Kuvaus: Luo etsintätehtäviä visuaalisen tarkkaavaisuuden parantamiseen
+Kategoria: Visuaalinen Hahmotus
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Visuaaliset etsintäharjoitukset
+  - Kehittää tarkkaavaisuutta
+  - Monipuoliset teemat
+  - Eri vaikeustasoja
+
+----------------------------------------
+
+APP: Grid Match
+Otsikko: Ruudukon Yhdistäminen
+Kuvaus: Luo ruudukko-yhdistämisharjoituksia tilallisen hahmotuksen kehittämiseen
+Kategoria: Yhdistäminen
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Kuvioiden yhdistäminen
+  - Tilallinen suuntautuminen
+  - Visuaalinen hahmotus
+  - Asteittainen vaikeus
+
+----------------------------------------
+
+APP: MatchUp Maker (slug: matching-app)
+Otsikko: Parinmuodostaja
+Kuvaus: Luo yhdistämistehtäviä muistin ja assosiaatiokyvyn parantamiseen
+Kategoria: Yhdistäminen
+Vaadittu Taso: PERUSPAKETTI
+Ominaisuudet:
+  - Kuva-kuvaan-yhdistäminen
+  - Sana-kuvaan-yhdistäminen
+  - Muistipelit
+  - Mukautettavat parit
+
+----------------------------------------
+
+APP: Math Puzzle
+Otsikko: Matematiikkapulmat
+Kuvaus: Luo haastavia matematiikkapulmia loogisen ajattelun kehittämiseen
+Kategoria: Matematiikka
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Laskupulmat
+  - Matemaattinen logiikka
+  - Eri tasoja
+  - Ratkaisut mukana
+
+----------------------------------------
+
+APP: Math Worksheets (slug: math-worksheet)
+Otsikko: Matematiikkatehtävät
+Kuvaus: Luo mukautettavia matematiikkaharjoituksia kaikille tasoille
+Kategoria: Matematiikka
+Vaadittu Taso: PERUSPAKETTI
+Ominaisuudet:
+  - Yhteen- ja vähennyslasku
+  - Kerto- ja jakolasku
+  - Vastausavaimet
+  - Säädettävät vaikeustasot
+
+----------------------------------------
+
+APP: Missing Pieces
+Otsikko: Puuttuvat Osat
+Kuvaus: Luo visuaalisia täydennysharjoituksia loogisen ajattelun kehittämiseen
+Kategoria: Logiikka
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Puuttuvien osien tunnistaminen
+  - Looginen päättely
+  - Visuaaliset harjoitukset
+  - Asteittainen vaikeus
+
+----------------------------------------
+
+APP: More Less
+Otsikko: Enemmän vai Vähemmän
+Kuvaus: Luo määrävertailuharjoituksia matemaattisten käsitteiden oppimiseen
+Kategoria: Matematiikka
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Määrien vertailu
+  - Perusmatematiikan käsitteet
+  - Visuaaliset harjoitukset
+  - Asteittainen oppiminen
+
+----------------------------------------
+
+APP: Odd One Out
+Otsikko: Mikä Ei Sovi Joukkoon
+Kuvaus: Luo harjoituksia poikkeavan elementin tunnistamiseen ja analyysikyvyn kehittämiseen
+Kategoria: Logiikka
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Erojen tunnistaminen
+  - Looginen päättely
+  - Luokittelu
+  - Monipuoliset harjoitukset
+
+----------------------------------------
+
+APP: Pattern Train
+Otsikko: Kuviojuna
+Kuvaus: Luo junatetemaisia sekvenssitehtäviä kuvioiden tunnistamiseen
+Kategoria: Logiikka
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Kuvioiden tunnistaminen
+  - Loogiset sekvenssit
+  - Junateema
+  - Asteittainen vaikeus
+
+----------------------------------------
+
+APP: Pattern Worksheet
+Otsikko: Kuviotehtävät
+Kuvaus: Luo tehtäviä sekvenssien ja toistuvien kuvioiden oppimiseen
+Kategoria: Logiikka
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Kuviot ja sekvenssit
+  - Visuaalinen tunnistaminen
+  - Looginen päättely
+  - Useita tasoja
+
+----------------------------------------
+
+APP: Picture Bingo
+Otsikko: Kuvabingo
+Kuvaus: Luo mukautettuja bingolappuja kuvilla luokkahuonekäyttöön
+Kategoria: Pelit
+Vaadittu Taso: PERUSPAKETTI
+Ominaisuudet:
+  - Mukautetut bingolaput
+  - Temaattiset kuvat
+  - Useita lappujen kokoja
+  - Arvontalistat mukana
+
+----------------------------------------
+
+APP: Picture Pathway (slug: picture-path)
+Otsikko: Kuvapolku
+Kuvaus: Luo visuaalisia polkuja logiikan ja ohjeiden seuraamisen kehittämiseen
+Kategoria: Logiikka
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Seurattavat polut
+  - Peräkkäinen logiikka
+  - Visuaaliset harjoitukset
+  - Useita vaikeustasoja
+
+----------------------------------------
+
+APP: Picture Sort
+Otsikko: Kuvien Lajittelu
+Kuvaus: Luo kuvien lajittelutehtäviä luokittelukyvyn kehittämiseen
+Kategoria: Logiikka
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Lajittelu ja järjestäminen
+  - Luokittelu
+  - Looginen päättely
+  - Monipuoliset teemat
+
+----------------------------------------
+
+APP: Prepositions
+Otsikko: Prepositiot
+Kuvaus: Luo visuaalisia harjoituksia prepositioiden oppimiseen leikkisästi
+Kategoria: Kielioppi
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Tilalliset prepositiot
+  - Kuvitetut harjoitukset
+  - Visuaalinen oppiminen
+  - Helppo ymmärtää
+
+----------------------------------------
+
+APP: Shadow Match
+Otsikko: Varjojen Yhdistäminen
+Kuvaus: Luo harjoituksia esineiden ja niiden varjojen yhdistämiseen
+Kategoria: Visuaalinen Hahmotus
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Muoto-varjo-yhdistäminen
+  - Visuaalinen hahmotus
+  - Visuaalinen erottelu
+  - Eri tasoja
+
+----------------------------------------
+
+APP: Subtraction
+Otsikko: Vähennyslasku
+Kuvaus: Luo visuaalisia vähennyslaskutehtäviä matematiikan opiskeluun
+Kategoria: Matematiikka
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Vähennyslaskuharjoitukset
+  - Visuaalinen tuki
+  - Säädettävä vaikeustaso
+  - Vastausavaimet mukana
+
+----------------------------------------
+
+APP: Sudoku for Kids (slug: sudoku)
+Otsikko: Sudoku Lapsille
+Kuvaus: Hauskoja sudoku-pulmia kuvilla numeroiden sijaan lapsille
+Kategoria: Logiikka
+Vaadittu Taso: PERUSPAKETTI
+Ominaisuudet:
+  - Sudoku kuvilla
+  - 4x4 ja 6x6 ruudukot
+  - Asteittainen vaikeus
+  - Ratkaisut mukana
+
+----------------------------------------
+
+APP: Treasure Hunt
+Otsikko: Aarteenetsintä
+Kuvaus: Luo aarteenetsintätehtäviä leikkisiin ja opettavaisiin aktiviteetteihin
+Kategoria: Opetuspelit
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Etsintäpolut
+  - Leikkisät aktiviteetit
+  - Mukautettavat kartat
+  - Edistää päättelykykyä
+
+----------------------------------------
+
+APP: Word Guess
+Otsikko: Arvaa Sana
+Kuvaus: Luo sanaa-arvaustehtäviä sanaston rikastamiseen
+Kategoria: Sanapelit
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Sana-arvoitukset
+  - Visuaaliset vihjeet
+  - Sanaston rikastaminen
+  - Useita tasoja
+
+----------------------------------------
+
+APP: Word Scramble
+Otsikko: Sekoitetut Sanat
+Kuvaus: Luo sanojen sekoitustehtäviä sanaston ja oikeinkirjoituksen parantamiseen
+Kategoria: Kieli & Lukeminen
+Vaadittu Taso: PERUSPAKETTI
+Ominaisuudet:
+  - Mukautetut sanalistat
+  - Temaattinen sanasto
+  - Useita vaikeustasoja
+  - Vastausavaimet mukana
+
+----------------------------------------
+
+APP: Word Search (slug: word-search, file: wordsearch.html)
+Otsikko: Sanaristikko
+Kuvaus: Luo mukautettavia sanaristikoita temaattisella sanastolla
+Kategoria: Sanapelit
+Vaadittu Taso: ILMAINEN
+Ominaisuudet:
+  - Useita ruudukkokokoja
+  - Suuntavalinnat
+  - Temaattiset sanalistat
+  - Vastausavaimet mukana
+
+----------------------------------------
+
+APP: Writing (slug: writing-app)
+Otsikko: Kirjoitusharjoitukset
+Kuvaus: Luo mukautettuja kirjoitustehtäviä kirjoitustaitojen kehittämiseen
+Kategoria: Kirjoitustaidot
+Vaadittu Taso: TÄYSI KÄYTTÖOIKEUS
+Ominaisuudet:
+  - Mukautettavat kirjoitusviivat
+  - Monipuoliset teemat
+  - Visuaalinen tuki
+  - Tulostusvalmiit lomakkeet
+
+========================================
+SOVELLETUT KÄÄNNÖSPERIAATTEET
+========================================
+
+1. LUONNOLLISUUS: Teksti kuulostaa alkuperäiseltä suomelta, ei käännökseltä
+2. KOHDENNETTU: Suomalaisille opettajille ja vanhemmille sopiva kieli
+3. JOHDONMUKAINEN: Yhtenäinen terminologia läpi asiakirjan
+4. YTIMEKÄS: Selkeät ja merkitykselliset kuvaukset
+5. INNOSTAVA: Positiiviset ja kutsuvat muotoilut
+
+Esimerkkejä käännösvalinnoista:
+
+- "Worksheets" → "Tehtävät/Tehtävämonisteet" (suomalainen opetustermi)
+- "Print-ready" → "Tulostusvalmiit" (aktiivinen muoto, luonnollinen)
+- "Core Bundle" → "Peruspaketti" (selkeä ja suora)
+- "Full Access" → "Täysi Käyttöoikeus" (selkeä ja suora)
+- "Word Search" → "Sanaristikko" (suomalainen standardi termi)
+- "Word Scramble" → "Sekoitetut Sanat" (luonnollinen suomenkielinen termi)
+- "Bingo" → "Bingo" (universaali termi, säilytetty)
+- "Answer keys" → "Vastausavaimet" (suomalainen opetustermi)
+- "Customizable" → "Mukautettava" (tekninen termi)
+- "Match/Matching" → "Yhdistäminen" (luonnollinen suomi)
+- "Odd One Out" → "Mikä Ei Sovi Joukkoon" (luonnollinen suomalainen ilmaisu)
+- "Treasure Hunt" → "Aarteenetsintä" (suomalainen kulttuurinen termi)
+
+========================================
+TILA
+========================================
+
+LOPULLINEN - Valmis käyttöön
+Ammattimainen käännös valmis kaikille 33 sovellukselle
+Tarkistus suoritettu

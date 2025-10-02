@@ -89,6 +89,8 @@ const translations = {
         "borderTheme": "Border Theme:",
         "none": "None",
         "common.none": "None",
+    "none": "None",
+    "none": "None",
         "selectThemeToSeeBorders": "Select a theme to see borders.",
         "borderOpacity": "Border Opacity:",
 
@@ -271,6 +273,7 @@ const translations = {
         "borderTheme": "Rahmenthema:",
         "none": "Kein Rahmen",
         "common.none": "Kein",
+        "none": "Kein",
         "selectThemeToSeeBorders": "Wählen Sie ein Thema für Rahmen aus.",
         "borderOpacity": "Rahmen-Transparenz:",
 
@@ -453,6 +456,8 @@ const translations = {
         "borderTheme": "Thème de bordure :",
         "none": "Aucune",
         "common.none": "Aucun",
+    "none": "Aucun",
+    "none": "Aucun",
         "selectThemeToSeeBorders": "Sélectionnez un thème pour voir les bordures.",
         "borderOpacity": "Opacité de la bordure :",
 
@@ -635,6 +640,8 @@ const translations = {
         "borderTheme": "Tema de borde:",
         "none": "Ninguno",
         "common.none": "Ninguno",
+    "none": "Ninguno",
+    "none": "Ninguno",
         "selectThemeToSeeBorders": "Seleccione un tema para ver los bordes.",
         "borderOpacity": "Opacidad del borde:",
 
@@ -817,6 +824,8 @@ const translations = {
         "borderTheme": "Tema bordo:",
         "none": "Nessuno",
         "common.none": "Nessuno",
+    "none": "Nessuno",
+    "none": "Nessuno",
         "selectThemeToSeeBorders": "Seleziona un tema per vedere i bordi.",
         "borderOpacity": "Opacità bordo:",
 
@@ -999,6 +1008,8 @@ const translations = {
         "borderTheme": "Tema de borda:",
         "none": "Nenhuma",
         "common.none": "Nenhum",
+    "none": "Nenhum",
+    "none": "Nenhum",
         "selectThemeToSeeBorders": "Selecione um tema para ver as bordas.",
         "borderOpacity": "Opacidade da borda:",
 
@@ -1181,6 +1192,8 @@ const translations = {
         "borderTheme": "Randthema:",
         "none": "Geen",
         "common.none": "Geen",
+    "none": "Geen",
+    "none": "Geen",
         "selectThemeToSeeBorders": "Selecteer een thema om randen te zien.",
         "borderOpacity": "Rand transparantie:",
 
@@ -1363,6 +1376,8 @@ const translations = {
         "borderTheme": "Ramtema:",
         "none": "Ingen",
         "common.none": "Ingen",
+    "none": "Ingen",
+    "none": "Ingen",
         "selectThemeToSeeBorders": "Välj ett tema för att se ramar.",
         "borderOpacity": "Ramopacitet:",
 
@@ -1545,6 +1560,8 @@ const translations = {
         "borderTheme": "Kanttema:",
         "none": "Ingen",
         "common.none": "Ingen",
+    "none": "Ingen",
+    "none": "Ingen",
         "selectThemeToSeeBorders": "Vælg et tema for at se kanter.",
         "borderOpacity": "Kantgennemsigtighed:",
 
@@ -1727,6 +1744,8 @@ const translations = {
         "borderTheme": "Rammetema:",
         "none": "Ingen",
         "common.none": "Ingen",
+    "none": "Ingen",
+    "none": "Ingen",
         "selectThemeToSeeBorders": "Velg et tema for å se rammer.",
         "borderOpacity": "Rammesynlighet:",
 
@@ -1909,6 +1928,8 @@ const translations = {
         "borderTheme": "Reunusteema:",
         "none": "Ei mitään",
         "common.none": "Ei mitään",
+    "none": "Ei mitään",
+    "none": "Ei mitään",
         "selectThemeToSeeBorders": "Valitse teema nähdäksesi reunukset.",
         "borderOpacity": "Reunuksen läpinäkyvyys:",
 

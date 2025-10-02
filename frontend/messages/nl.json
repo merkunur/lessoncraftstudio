@@ -56,7 +56,7 @@
         "cta": "Gratis beginnen"
       },
       "core": {
-        "name": "Basis Pakket",
+        "name": "Basispakket",
         "price": "$15",
         "priceYearly": "$144",
         "features": [
@@ -66,7 +66,7 @@
           "POD commerciële licentie",
           "Prioriteit ondersteuning"
         ],
-        "cta": "Kies Basis Pakket"
+        "cta": "Kies Basispakket"
       },
       "full": {
         "name": "Volledige Toegang",
@@ -141,80 +141,93 @@
     "title": "Werkbladgenerators",
     "subtitle": "Kies uit 33 professionele werkbladgenerators",
     "search": "Zoek generators...",
-    "heroTitle": "33 werkbladgenerators voor onderwijs",
-    "heroSubtitle": "Transformeer je lesmateriaal met onze complete collectie educatieve werkbladgenerators. Van woordzoekers tot rekenpuzzels, we hebben alles wat je nodig hebt.",
+    "heroTitle": "33 werkbladgeneratoren",
+    "heroSubtitle": "Transformeer je lesmateriaal met ons complete pakket werkbladgeneratoren. Van woordzoekers tot rekenraadsels, wij hebben alles wat je nodig hebt.",
     "categories": {
       "all": "Alle generators",
-      "math": "Wiskunde",
+      "math": "Rekenen",
       "language": "Taal en lezen",
       "puzzles": "Puzzels",
       "games": "Spelletjes",
-      "visual": "Visuele waarneming",
-      "motor": "Fijne motoriek",
-      "wordGames": "Woordspelletjes",
-      "languageArts": "Taal en schrijven",
-      "artCreativity": "Kunst en creativiteit",
+      "visual": "Visuele Waarneming",
+      "motor": "Fijne Motoriek",
+      "wordGames": "Woordspellen",
+      "languageArts": "Taal",
+      "artCreativity": "Kunst & Creativiteit",
       "matching": "Koppelen",
-      "fineMotorSkills": "Fijne motoriek",
+      "fineMotorSkills": "Fijne Motoriek",
       "logic": "Logica",
-      "concepts": "Basisconcepten",
+      "concepts": "Begrippen",
       "patterns": "Patronen",
       "sorting": "Sorteren"
     },
     "tier": {
       "free": "Gratis",
-      "core": "Basis Pakket",
-      "full": "Volledige Toegang",
+      "core": "Basis",
+      "full": "Volledig",
       "popular": "Populair"
     },
+    "tierBadges": {
+      "free": "Gratis",
+      "core": "Basis",
+      "full": "Volledig"
+    },
+    "badges": {
+      "popular": "Populair"
+    },
+    "sections": {
+      "freeTier": "Gratis Abonnement",
+      "coreBundle": "Basispakket",
+      "fullAccess": "Apps met Volledige Toegang"
+    },
     "tierInfo": {
-      "freeTitle": "Gratis versie",
-      "freeDescription": "Probeer de woordzoeker generator met watermerk",
-      "coreTitle": "Basis Pakket - $15/maand",
+      "freeTitle": "Gratis Abonnement",
+      "freeDescription": "Probeer de woordzoekergenerator met watermerk",
+      "coreTitle": "Basispakket - $15/maand",
       "coreDescription": "Toegang tot de 10 populairste apps met commerciële licentie",
       "fullTitle": "Volledige Toegang - $25/maand",
-      "fullDescription": "Alle 33 apps, prioriteitsondersteuning, vroege toegang"
+      "fullDescription": "Alle 33 apps, prioritaire ondersteuning, vroege toegang"
     },
     "appNames": {
       "wordSearch": "Woordzoeker",
-      "imageAddition": "Optellen met plaatjes",
+      "imageAddition": "Sommen met Plaatjes",
       "alphabetTrain": "Alfabettrein",
       "coloringPages": "Kleurplaten",
       "mathWorksheets": "Rekenwerkbladen",
-      "wordScramble": "Lettermix",
-      "findAndCount": "Zoek en tel",
-      "matchUpMaker": "Koppelspellen",
-      "drawingLines": "Lijnen trekken",
+      "wordScramble": "Letterkraker",
+      "findAndCount": "Zoek en Tel",
+      "matchUpMaker": "Koppelspel",
+      "drawingLines": "Lijnen Trekken",
       "pictureBingo": "Plaatjesbingo",
-      "sudokuForKids": "Kindersudoku",
-      "bigOrSmall": "Groot of klein",
-      "chartCountColor": "Grafieken tellen en kleuren",
-      "codeAddition": "Code-Addition",
-      "drawAndColor": "Tekenen en kleuren",
-      "findObjects": "Voorwerpen zoeken",
-      "gridMatch": "Rooster koppelen",
-      "imageCrossword": "Beeldkruiswoordpuzzel",
-      "imageCryptogram": "Beeldcryptogram",
-      "mathPuzzle": "Rekenpuzzel",
-      "missingPieces": "Ontbrekende stukjes",
-      "moreOrLess": "Meer of minder",
-      "oddOneOut": "Welke hoort er niet bij",
+      "sudokuForKids": "Sudoku voor Kinderen",
+      "bigOrSmall": "Groot of Klein",
+      "chartCountColor": "Telgrafieken",
+      "codeAddition": "Sommen in Code",
+      "drawAndColor": "Teken en Kleur",
+      "findObjects": "Zoek de Voorwerpen",
+      "gridMatch": "Raster Koppelen",
+      "imageCrossword": "Kruiswoordpuzzel met Plaatjes",
+      "imageCryptogram": "Cryptogram met Plaatjes",
+      "mathPuzzle": "Rekenraadsels",
+      "missingPieces": "Ontbrekende Stukjes",
+      "moreOrLess": "Meer of Minder",
+      "oddOneOut": "De Vreemde Eend",
       "patternTrain": "Patronentrein",
-      "patternWorksheets": "Patroonwerkbladen",
+      "patternWorksheets": "Patrooonwerkbladen",
       "picturePathway": "Plaatjespad",
-      "pictureSort": "Plaatjes sorteren",
+      "pictureSort": "Plaatjes Sorteren",
       "prepositions": "Voorzetsels",
-      "shadowMatch": "Schaduw koppelen",
+      "shadowMatch": "Schaduwen Koppelen",
       "subtraction": "Aftrekken",
-      "treasureHunt": "Schatzoeken",
-      "wordGuess": "Woord raden",
-      "englishWritingPractice": "Engelse schrijfoefeningen"
+      "treasureHunt": "Schattenjacht",
+      "wordGuess": "Woord Raden",
+      "englishWritingPractice": "Schrijfoefeningen"
     },
     "cta": {
       "title": "Klaar om geweldige werkbladen te maken?",
-      "subtitle": "Begin met onze gratis woordzoeker generator of ontgrendel vandaag alle apps",
-      "startFreeTrial": "Gratis proberen",
-      "viewPricing": "Bekijk prijzen"
+      "subtitle": "Begin met onze gratis woordzoekergenerator of ontgrendel vandaag nog alle apps",
+      "startFreeTrial": "Gratis Proberen",
+      "viewPricing": "Bekijk Prijzen"
     },
     "filters": {
       "allApps": "Alle apps"
@@ -305,16 +318,16 @@
         },
         "apps": {
           "0": "10 populairste generators:",
-          "1": "Optellen met plaatjes",
+          "1": "Sommen met Plaatjes",
           "2": "Alfabettrein",
           "3": "Kleurplaten",
           "4": "Rekenwerkbladen",
-          "5": "Lettermix",
-          "6": "Zoek en tel",
-          "7": "Koppelspellen",
-          "8": "Lijnen trekken",
+          "5": "Letterkraker",
+          "6": "Zoek en Tel",
+          "7": "Koppelspel",
+          "8": "Lijnen Trekken",
           "9": "Plaatjesbingo",
-          "10": "Kindersudoku"
+          "10": "Sudoku voor Kinderen"
         },
         "cta": "7 dagen gratis proberen"
       },
@@ -781,6 +794,267 @@
     "contact": {
       "title": "10. CONTACT",
       "content": "Voor licentievragen: license@lessoncraftstudio.com"
+    }
+  },
+  "faq": {
+    "metaTitle": "Veelgestelde Vragen - LessonCraftStudio",
+    "metaDescription": "Antwoorden op veelgestelde vragen over onze 33 werkbladgeneratoren, prijsplannen, commerciële licenties en technische ondersteuning",
+    "metaKeywords": "FAQ, hulp werkbladgeneratoren, prijsvragen, commerciële licentie, technische ondersteuning",
+    "hero": {
+      "title": "Veelgestelde Vragen",
+      "subtitle": "Alles wat je moet weten over de werkbladgeneratoren van LessonCraftStudio"
+    },
+    "categories": {
+      "general": "Algemene Vragen",
+      "apps": "Over Onze Apps",
+      "pricing": "Prijzen & Abonnementen",
+      "technical": "Technische Ondersteuning",
+      "commercial": "Commercieel Gebruik & Licenties"
+    },
+    "cta": {
+      "title": "Heb je nog vragen?",
+      "subtitle": "Ons supportteam staat klaar om je te helpen. Neem contact op en we reageren binnen 24-48 uur.",
+      "button": "Contact Opnemen"
+    }
+  },
+  "dashboard": {
+    "header": {
+      "welcome": "Welkom terug, {name}!",
+      "welcomeFallback": "Welkom terug!",
+      "subtitle": "Laten we vandaag iets geweldigs maken",
+      "signOut": "Uitloggen"
+    },
+    "stats": {
+      "worksheetsCreated": "Werkbladen gemaakt",
+      "totalThisMonth": "Totaal deze maand",
+      "appsAvailable": "Beschikbare apps",
+      "inYourPlan": "In jouw pakket",
+      "currentPlan": "Huidig pakket",
+      "yourMembership": "Jouw lidmaatschap"
+    },
+    "tierNames": {
+      "free": "Gratis",
+      "core": "Basis",
+      "full": "Pro"
+    },
+    "generators": {
+      "title": "Werkbladgenerators",
+      "searchPlaceholder": "Zoek generators...",
+      "filterLabel": "Alle categorieën",
+      "categoryAll": "Alle categorieën",
+      "open": "Openen →",
+      "noResults": "Geen generators gevonden",
+      "tryAdjusting": "Pas je zoekopdracht of filters aan"
+    },
+    "subscription": {
+      "title": "Abonnement",
+      "currentPlan": "Huidig pakket",
+      "free": "Gratis",
+      "perMonth": "/maand",
+      "renewsOn": "Verlengt op",
+      "cancelsOn": "Eindigt op",
+      "whatsIncluded": "Wat is inbegrepen:",
+      "upgradePlan": "Pakket upgraden",
+      "manageBilling": "Facturering beheren",
+      "loading": "Laden...",
+      "cancelWarning": "⚠️ Je abonnement eindigt op {date}"
+    },
+    "activity": {
+      "title": "Jouw activiteit",
+      "worksheetsCreated": "Werkbladen gemaakt",
+      "downloads": "Downloads",
+      "generatorsUsed": "Gebruikte generators",
+      "thisWeek": "+3 deze week",
+      "thisMonth": "Deze maand",
+      "uniqueApps": "Unieke apps",
+      "unlimited": "Onbeperkt",
+      "trackingNote": "📊 Je activiteit wordt bijgehouden om je te helpen binnen je pakketlimieten te blijven"
+    },
+    "paymentHistory": {
+      "title": "Betalingsgeschiedenis",
+      "noPayments": "Nog geen betalingsgeschiedenis",
+      "noPaymentsSubtext": "Je betalingen verschijnen hier na je abonnement",
+      "viewAll": "Bekijk alle betalingen →",
+      "downloadInvoice": "Factuur downloaden",
+      "succeeded": "geslaagd",
+      "failed": "mislukt",
+      "pending": "in behandeling"
+    },
+    "tiers": {
+      "free": {
+        "description": "Begin met de woordzoeker generator",
+        "features": [
+          "Alleen woordzoeker generator",
+          "Onbeperkte werkblad generatie",
+          "Downloads met watermerk"
+        ]
+      },
+      "core": {
+        "description": "Perfect voor regelmatig gebruik in de klas",
+        "features": [
+          "Toegang tot 10 populaire werkblad generators",
+          "Onbeperkte werkblad generatie",
+          "Geen watermerken"
+        ]
+      },
+      "full": {
+        "description": "Volledige toegang voor intensieve gebruikers",
+        "features": [
+          "Toegang tot alle 33 werkblad generators",
+          "Onbeperkte werkblad generatie",
+          "Geen watermerken"
+        ]
+      }
+    },
+    "categories": {
+      "Math": "Rekenen",
+      "Language": "Taal",
+      "Logic": "Logica",
+      "Art": "Kunst",
+      "Visual": "Visueel",
+      "Game": "Spel"
+    },
+    "apps": {
+      "wordSearch": {
+        "name": "Woordzoeker",
+        "description": "Maak boeiende woordzoekers"
+      },
+      "addition": {
+        "name": "Optellen",
+        "description": "Oefen optellingen"
+      },
+      "subtraction": {
+        "name": "Aftrekken",
+        "description": "Beheers aftrekvaardigheden"
+      },
+      "multiplication": {
+        "name": "Vermenigvuldigen",
+        "description": "Ontwikkel vloeiendheid in vermenigvuldigen"
+      },
+      "division": {
+        "name": "Delen",
+        "description": "Leer deelconcepten"
+      },
+      "alphabetTrain": {
+        "name": "Alfabettrein",
+        "description": "Leuk alfabet leren"
+      },
+      "findAndCount": {
+        "name": "Zoek en tel",
+        "description": "Visuele teloefeningen"
+      },
+      "matching": {
+        "name": "Koppelen",
+        "description": "Verbind overeenkomende items"
+      },
+      "crossword": {
+        "name": "Kruiswoordpuzzel",
+        "description": "Aangepaste kruiswoordpuzzels"
+      },
+      "sudoku": {
+        "name": "Sudoku",
+        "description": "Cijferpuzzel uitdagingen"
+      },
+      "coloring": {
+        "name": "Kleuren",
+        "description": "Creatieve kleurbladen"
+      },
+      "mathPuzzle": {
+        "name": "Rekenpuzzel",
+        "description": "Geavanceerde rekenuitdagingen"
+      },
+      "wordScramble": {
+        "name": "Letterkraker",
+        "description": "Woordpuzzelspellen"
+      },
+      "chartCount": {
+        "name": "Grafiek en tellen",
+        "description": "Data en grafiek oefeningen"
+      },
+      "drawingLines": {
+        "name": "Lijnen tekenen",
+        "description": "Lijntekenoefeningen"
+      },
+      "bigSmall": {
+        "name": "Groot Klein",
+        "description": "Groottes vergelijken activiteiten"
+      },
+      "codeAddition": {
+        "name": "Gecodeerde optelling",
+        "description": "Ontcijfer optellingen"
+      },
+      "cryptogram": {
+        "name": "Cryptogram",
+        "description": "Gecodeerde woordpuzzels"
+      },
+      "drawAndColor": {
+        "name": "Tekenen en kleuren",
+        "description": "Teken- en kleuren combinatie"
+      },
+      "findObjects": {
+        "name": "Voorwerpen zoeken",
+        "description": "Verborgen voorwerpen spellen"
+      },
+      "gridMatch": {
+        "name": "Raster koppelen",
+        "description": "Patroon koppelrasters"
+      },
+      "mathWorksheet": {
+        "name": "Rekenblad",
+        "description": "Uitgebreide rekenoefeningen"
+      },
+      "moreLess": {
+        "name": "Meer Minder",
+        "description": "Vergelijk hoeveelheden"
+      },
+      "oddOneOut": {
+        "name": "De vreemde eend",
+        "description": "Vind het verschillende item"
+      },
+      "picturePath": {
+        "name": "Plaatjespad",
+        "description": "Volg visuele paden"
+      },
+      "pictureSort": {
+        "name": "Plaatjes sorteren",
+        "description": "Categoriseer plaatjes"
+      },
+      "prepositions": {
+        "name": "Voorzetsels",
+        "description": "Oefen positiewoorden"
+      },
+      "treasureHunt": {
+        "name": "Schattenjacht",
+        "description": "Avontuurlijk leren"
+      },
+      "wordGuess": {
+        "name": "Woord raden",
+        "description": "Woordraadspellen"
+      },
+      "writing": {
+        "name": "Schrijven",
+        "description": "Schrijfoefeningsbladen"
+      },
+      "bingo": {
+        "name": "Bingo",
+        "description": "Aangepaste bingokaarten"
+      },
+      "shadowMatch": {
+        "name": "Schaduwen koppelen",
+        "description": "Koppel voorwerpen aan schaduwen"
+      },
+      "patternTrain": {
+        "name": "Patronentrein",
+        "description": "Patroonherkenning oefenen"
+      },
+      "patternWorksheet": {
+        "name": "Patroonblad",
+        "description": "Voltooi patroonreeksen"
+      },
+      "missingPieces": {
+        "name": "Ontbrekende stukken",
+        "description": "Vind de ontbrekende stukken"
+      }
     }
   }
 }

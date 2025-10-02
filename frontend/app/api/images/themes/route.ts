@@ -1,32 +1,27 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+import { prisma } from '@/lib/prisma';
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const locale = searchParams.get('locale') || 'en';
 
   try {
-    // Read from local JSON file
-    const metadataPath = path.join(process.cwd(), 'public', 'data', 'images-metadata.json');
+    // Get themes from database
+    const dbThemes = await prisma.imageTheme.findMany({
+      where: { type: 'images' },
+      include: {
+        _count: {
+          select: { images: true }
+        }
+      },
+      orderBy: { sortOrder: 'asc' }
+    });
 
-    let themes = [];
-
-    if (fs.existsSync(metadataPath)) {
-      const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf-8'));
-      themes = metadata.themes
-        .filter(theme => theme.active)
-        .map(theme => ({
-          value: theme.name,
-          displayName: theme.displayNames[locale] || theme.displayNames['en'] || theme.name,
-          imageCount: theme.images ? theme.images.length : 0
-        }))
-        .sort((a, b) => {
-          const themeA = metadata.themes.find(t => t.name === a.value);
-          const themeB = metadata.themes.find(t => t.name === b.value);
-          return (themeA?.sortOrder || 0) - (themeB?.sortOrder || 0);
-        });
-    }
+    const themes = dbThemes.map(theme => ({
+      value: theme.name,
+      displayName: theme.displayNames[locale] || theme.displayNames['en'] || theme.name,
+      imageCount: theme._count.images
+    }));
 
     return NextResponse.json(themes, {
       headers: {

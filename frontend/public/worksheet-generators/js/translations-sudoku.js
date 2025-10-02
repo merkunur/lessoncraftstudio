@@ -73,6 +73,7 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.border.title": "Border",  // CRITICAL - User mentioned
     "sudoku.border.theme.label": "Border Theme:",
     "common.none": "None",
+    "none": "None",
     "sudoku.border.select.message": "Select a theme to see borders.",
     "sudoku.border.opacity": "Border Opacity:",
 
@@ -256,6 +257,7 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.border.title": "Rahmen",  // CRITICAL - User mentioned
     "sudoku.border.theme.label": "Rahmenthema:",
     "common.none": "Kein",
+    "none": "Kein",
     "sudoku.border.select.message": "Wählen Sie ein Thema für Rahmen.",
     "sudoku.border.opacity": "Rahmen-Transparenz:",
 
@@ -460,6 +462,9 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.border.title": "Bordure",  // CRITICAL - User mentioned
     "sudoku.border.theme.label": "Thème de bordure :",
     "common.none": "Aucun",
+    "none": "Aucun",
+    "none": "Aucun",
+    "none": "Aucun",
     "sudoku.border.select.message": "Sélectionnez un thème pour les bordures.",
     "sudoku.border.opacity": "Opacité de la bordure :",
 
@@ -665,6 +670,9 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.border.title": "Borde",  // CRITICAL - User mentioned
     "sudoku.border.theme.label": "Tema de borde:",
     "common.none": "Ninguno",
+    "none": "Ninguno",
+    "none": "Ninguno",
+    "none": "Ninguno",
     "sudoku.border.select.message": "Seleccione un tema para bordes.",
     "sudoku.border.opacity": "Transparencia del borde:",
 
@@ -870,6 +878,9 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.border.title": "Bordo",  // CRITICAL - User mentioned
     "sudoku.border.theme.label": "Tema bordo:",
     "common.none": "Nessuno",
+    "none": "Nessuno",
+    "none": "Nessuno",
+    "none": "Nessuno",
     "sudoku.border.select.message": "Seleziona un tema per i bordi.",
     "sudoku.border.opacity": "Trasparenza bordo:",
 
@@ -1075,6 +1086,9 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.border.title": "Borda",  // CRITICAL - User mentioned
     "sudoku.border.theme.label": "Tema de borda:",
     "common.none": "Nenhum",
+    "none": "Nenhum",
+    "none": "Nenhum",
+    "none": "Nenhum",
     "sudoku.border.select.message": "Selecione um tema para bordas.",
     "sudoku.border.opacity": "Opacidade da borda:",
 
@@ -1280,6 +1294,9 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.border.title": "Rand",  // CRITICAL - User mentioned
     "sudoku.border.theme.label": "Randthema:",
     "common.none": "Geen",
+    "none": "Geen",
+    "none": "Geen",
+    "none": "Geen",
     "sudoku.border.select.message": "Selecteer een thema voor randen.",
     "sudoku.border.opacity": "Randtransparantie:",
 
@@ -1485,6 +1502,9 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.border.title": "Ram",  // CRITICAL - User mentioned
     "sudoku.border.theme.label": "Ramtema:",
     "common.none": "Ingen",
+    "none": "Ingen",
+    "none": "Ingen",
+    "none": "Ingen",
     "sudoku.border.select.message": "Välj ett tema för ramar.",
     "sudoku.border.opacity": "Ramens transparens:",
 
@@ -1690,6 +1710,9 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.border.title": "Ramme",  // CRITICAL - User mentioned
     "sudoku.border.theme.label": "Rammetema:",
     "common.none": "Ingen",
+    "none": "Ingen",
+    "none": "Ingen",
+    "none": "Ingen",
     "sudoku.border.select.message": "Vælg et tema for rammer.",
     "sudoku.border.opacity": "Ramme gennemsigtighed:",
 
@@ -1895,6 +1918,9 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.border.title": "Ramme",  // CRITICAL - User mentioned
     "sudoku.border.theme.label": "Rammetema:",
     "common.none": "Ingen",
+    "none": "Ingen",
+    "none": "Ingen",
+    "none": "Ingen",
     "sudoku.border.select.message": "Velg et tema for rammer.",
     "sudoku.border.opacity": "Rammens gjennomsiktighet:",
 
@@ -2100,6 +2126,9 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.border.title": "Reunus",  // CRITICAL - User mentioned
     "sudoku.border.theme.label": "Reunusteema:",
     "common.none": "Ei mitään",
+    "none": "Ei mitään",
+    "none": "Ei mitään",
+    "none": "Ei mitään",
     "sudoku.border.select.message": "Valitse teema reunuksille.",
     "sudoku.border.opacity": "Reunuksen läpinäkyvyys:",
 

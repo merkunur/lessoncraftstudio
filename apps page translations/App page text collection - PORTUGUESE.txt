@@ -1,0 +1,270 @@
+COLEÇÃO DE TEXTOS PARA A PÁGINA DE APPS - VERSÃO PORTUGUESA
+Tradução profissional para a interface do utilizador
+Estado: DEFINITIVO - Pronto para implementação
+
+========================================
+INFORMAÇÕES DO FICHEIRO FONTE
+========================================
+
+Ficheiro fonte: frontend/app/[locale]/apps/page.tsx
+Este ficheiro contém a página principal de listagem de aplicações
+
+========================================
+SECÇÃO 1: METADADOS DA PÁGINA
+========================================
+
+Título da página: Todos os geradores de fichas educativas - LessonCraftStudio
+Meta-descrição: Escolha entre 33 geradores profissionais de fichas para professores e editores educativos
+Meta-palavras-chave: geradores de fichas, ferramentas educativas, recursos pedagógicos, fichas imprimíveis
+
+========================================
+SECÇÃO 2: SECÇÃO HERO
+========================================
+
+Título: 33 geradores de fichas educativas
+
+Subtítulo: Transforme os seus materiais pedagógicos com a nossa suite completa de geradores de fichas educativas. Desde sopas de letras até enigmas matemáticos, temos tudo o que precisa.
+
+========================================
+SECÇÃO 3: CARTÕES DE EXPLICAÇÃO DOS PLANOS
+========================================
+
+CARTÃO 1 - Plano Gratuito:
+  Título: Plano Gratuito
+  Descrição: Experimente o gerador de sopas de letras com marca de água
+
+CARTÃO 2 - Pacote Essencial:
+  Título: Pacote Essencial - $15/mês
+  Descrição: Acesso às 10 aplicações mais populares com licença comercial
+
+CARTÃO 3 - Acesso Completo:
+  Título: Acesso Completo - $25/mês
+  Descrição: As 33 aplicações, suporte prioritário, acesso antecipado
+
+========================================
+SECÇÃO 4: FILTROS DE CATEGORIAS
+========================================
+
+Botão de filtro: Todas as aplicações
+
+========================================
+SECÇÃO 5: TÍTULOS DAS SECÇÕES DE APPS
+========================================
+
+Título Secção 1: Plano Gratuito
+Título Secção 2: Pacote Essencial
+Título Secção 3: Aplicações de Acesso Completo
+
+========================================
+SECÇÃO 6: NOMES DAS APLICAÇÕES (33 APPS)
+========================================
+
+PLANO GRATUITO (1 aplicação):
+  1. Sopa de Letras
+
+PACOTE ESSENCIAL (10 aplicações):
+  2. Adições com Imagens
+  3. Comboio do Alfabeto
+  4. Páginas para Colorir
+  5. Fichas de Matemática
+  6. Palavras Baralhadas
+  7. Procura e Conta
+  8. Jogo de Pares
+  9. Traçar Linhas
+  10. Bingo de Imagens
+  11. Sudoku para Crianças
+
+ACESSO COMPLETO (23 aplicações):
+  12. Grande ou Pequeno
+  13. Gráficos para Contar
+  14. Adições em Código
+  15. Desenha e Colore
+  16. Procura os Objetos
+  17. Correspondências em Grelha
+  18. Palavras Cruzadas com Imagens
+  19. Criptograma com Imagens
+  20. Enigmas Matemáticos
+  21. Peças em Falta
+  22. Mais ou Menos
+  23. O Intruso
+  24. Comboio de Padrões
+  25. Fichas de Padrões
+  26. Caminho de Imagens
+  27. Classificação de Imagens
+  28. Preposições
+  29. Combinar Sombras
+  30. Subtração
+  31. Caça ao Tesouro
+  32. Adivinhar a Palavra
+  33. Exercícios de Escrita
+
+========================================
+SECÇÃO 7: NOMES DAS CATEGORIAS
+========================================
+
+Categorias utilizadas nas aplicações:
+  - Jogos de Palavras
+  - Matemática
+  - Português
+  - Arte e Criatividade
+  - Perceção Visual
+  - Correspondências
+  - Motricidade Fina
+  - Jogos
+  - Lógica
+  - Conceitos
+  - Padrões
+  - Classificação
+
+========================================
+SECÇÃO 8: ETIQUETAS DOS PLANOS
+========================================
+
+Etiquetas dos planos (mostradas nos cartões das aplicações):
+  - Grátis (para o plano gratuito)
+  - Essencial (para o pacote essencial)
+  - Completo (para o acesso completo)
+
+========================================
+SECÇÃO 9: ETIQUETA DE POPULARIDADE
+========================================
+
+Texto da etiqueta: Popular
+(Esta etiqueta aparece nas aplicações populares)
+
+========================================
+SECÇÃO 10: SECÇÃO CTA (CHAMADA À AÇÃO)
+========================================
+
+Título CTA: Pronto para criar fichas incríveis?
+
+Subtítulo CTA: Comece com o nosso gerador gratuito de sopas de letras ou desbloqueie todas as aplicações hoje mesmo
+
+Texto Botão 1: Experimentar Grátis
+Texto Botão 2: Ver Preços
+
+========================================
+PRINCÍPIOS DE TRADUÇÃO APLICADOS
+========================================
+
+1. NATURALIDADE: O texto soa como português original, não traduzido
+2. ADAPTADO AO PÚBLICO: Linguagem apropriada para professores e pedagogos portugueses
+3. COERÊNCIA: Terminologia uniforme em todo o texto
+4. CONCISÃO: Formulações claras e significativas
+5. MOTIVADOR: Botões CTA motivadores e precisos
+
+Exemplos de decisões de tradução:
+
+- "Word Search" → "Sopa de Letras" (termo português padrão, não "Procura de palavras")
+- "Worksheet" → "Ficha educativa" / "Ficha" (termo pedagógico português)
+- "Core Bundle" → "Pacote Essencial" (mais atrativo que "Pacote básico")
+- "Full Access" → "Acesso Completo" (claro e direto)
+- "MatchUp Maker" → "Jogo de Pares" (descritivo funcional)
+- "Word Scramble" → "Palavras Baralhadas" (termo português natural)
+- "Coloring Pages" → "Páginas para Colorir" (expressão portuguesa comum)
+- "Bingo" → "Bingo de Imagens" (o termo "Bingo" mantém-se por ser universal)
+- "Pattern" → "Padrões" (termo apropriado para este contexto educativo)
+- "Fine Motor Skills" → "Motricidade Fina" (termo pedagógico português)
+- "Language Arts" → "Português" (adaptado ao contexto português)
+- "Odd One Out" → "O Intruso" (expressão portuguesa natural)
+- "Shadow Match" → "Combinar Sombras" (descritivo e claro)
+- "English Writing Practice" → "Exercícios de Escrita" (generalizado para o contexto português)
+- "Free Tier" → "Plano Gratuito" (mais natural que "Nível gratuito")
+- "Chart Count & Color" → "Gráficos para Contar" (conciso em português)
+- "Alphabet Train" → "Comboio do Alfabeto" (português europeu)
+
+========================================
+NOTAS PARA A IMPLEMENTAÇÃO
+========================================
+
+ÁREA: Hero Section
+- heroTitle: "33 geradores de fichas educativas"
+- heroSubtitle: "Transforme os seus materiais pedagógicos com a nossa suite completa de geradores de fichas educativas. Desde sopas de letras até enigmas matemáticos, temos tudo o que precisa."
+
+ÁREA: Tier Info
+- tierInfo.freeTitle: "Plano Gratuito"
+- tierInfo.freeDescription: "Experimente o gerador de sopas de letras com marca de água"
+- tierInfo.coreTitle: "Pacote Essencial - $15/mês"
+- tierInfo.coreDescription: "Acesso às 10 aplicações mais populares com licença comercial"
+- tierInfo.fullTitle: "Acesso Completo - $25/mês"
+- tierInfo.fullDescription: "As 33 aplicações, suporte prioritário, acesso antecipado"
+
+ÁREA: Filters
+- filters.allApps: "Todas as aplicações"
+
+ÁREA: Section Headings
+- sections.freeTier: "Plano Gratuito"
+- sections.coreBundle: "Pacote Essencial"
+- sections.fullAccess: "Aplicações de Acesso Completo"
+
+ÁREA: App Names
+- appNames.wordSearch: "Sopa de Letras"
+- appNames.imageAddition: "Adições com Imagens"
+- appNames.alphabetTrain: "Comboio do Alfabeto"
+- appNames.coloringPages: "Páginas para Colorir"
+- appNames.mathWorksheets: "Fichas de Matemática"
+- appNames.wordScramble: "Palavras Baralhadas"
+- appNames.findAndCount: "Procura e Conta"
+- appNames.matchUpMaker: "Jogo de Pares"
+- appNames.drawingLines: "Traçar Linhas"
+- appNames.pictureBingo: "Bingo de Imagens"
+- appNames.sudokuForKids: "Sudoku para Crianças"
+- appNames.bigOrSmall: "Grande ou Pequeno"
+- appNames.chartCountColor: "Gráficos para Contar"
+- appNames.codeAddition: "Adições em Código"
+- appNames.drawAndColor: "Desenha e Colore"
+- appNames.findObjects: "Procura os Objetos"
+- appNames.gridMatch: "Correspondências em Grelha"
+- appNames.imageCrossword: "Palavras Cruzadas com Imagens"
+- appNames.imageCryptogram: "Criptograma com Imagens"
+- appNames.mathPuzzle: "Enigmas Matemáticos"
+- appNames.missingPieces: "Peças em Falta"
+- appNames.moreOrLess: "Mais ou Menos"
+- appNames.oddOneOut: "O Intruso"
+- appNames.patternTrain: "Comboio de Padrões"
+- appNames.patternWorksheets: "Fichas de Padrões"
+- appNames.picturePathway: "Caminho de Imagens"
+- appNames.pictureSort: "Classificação de Imagens"
+- appNames.prepositions: "Preposições"
+- appNames.shadowMatch: "Combinar Sombras"
+- appNames.subtraction: "Subtração"
+- appNames.treasureHunt: "Caça ao Tesouro"
+- appNames.wordGuess: "Adivinhar a Palavra"
+- appNames.englishWritingPractice: "Exercícios de Escrita"
+
+ÁREA: Categories
+- categories.wordGames: "Jogos de Palavras"
+- categories.math: "Matemática"
+- categories.languageArts: "Português"
+- categories.artCreativity: "Arte e Criatividade"
+- categories.visual: "Perceção Visual"
+- categories.matching: "Correspondências"
+- categories.fineMotorSkills: "Motricidade Fina"
+- categories.games: "Jogos"
+- categories.logic: "Lógica"
+- categories.concepts: "Conceitos"
+- categories.patterns: "Padrões"
+- categories.sorting: "Classificação"
+
+ÁREA: Tier Badges
+- tierBadges.free: "Grátis"
+- tierBadges.core: "Essencial"
+- tierBadges.full: "Completo"
+
+ÁREA: Popular Badge
+- badges.popular: "Popular"
+
+ÁREA: CTA Section
+- cta.title: "Pronto para criar fichas incríveis?"
+- cta.subtitle: "Comece com o nosso gerador gratuito de sopas de letras ou desbloqueie todas as aplicações hoje mesmo"
+- cta.startFreeTrial: "Experimentar Grátis"
+- cta.viewPricing: "Ver Preços"
+
+========================================
+ESTADO
+========================================
+
+DEFINITIVO - Pronto para implementação
+Tradução profissional completa para todas as áreas de texto
+Controlo de qualidade realizado
+NÃO IMPLEMENTADO - Apenas tradução criada

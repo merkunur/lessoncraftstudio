@@ -2502,7 +2502,7 @@ async function downloadPDF(canvasToExport, fileName) {
     // --- Border & Background Logic ---
     async function loadAssetThemes(assetType, selectElement) {
         // Background and border themes are hardcoded since Directus has limited theme structure
-        selectElement.innerHTML = '<option value="none">None</option>';
+        selectElement.innerHTML = `<option value="none">${t('none')}</option>`;
         if (assetType === 'backgrounds') {
             selectElement.innerHTML += '<option value="all">All Backgrounds</option>';
         } else if (assetType === 'borders') {

@@ -52,6 +52,7 @@ const translations = {
         // Common keys often missing
         "none": "None",
         "common.none": "None",
+    "none": "None",
         "allThemes": "All Themes",
         "yourUploadedImagesWillAppearHere": "Your uploaded images will appear here.",
 
@@ -268,6 +269,7 @@ const translations = {
         // Common keys
         "none": "Aucun",
         "common.none": "Aucun",
+    "none": "Aucun",
         "allThemes": "Tous les thèmes",
         "yourUploadedImagesWillAppearHere": "Vos images téléversées apparaîtront ici.",
 
@@ -376,6 +378,7 @@ const translations = {
         // Common keys
         "none": "Ninguno",
         "common.none": "Ninguno",
+    "none": "Ninguno",
         "allThemes": "Todos los temas",
         "yourUploadedImagesWillAppearHere": "Tus imágenes cargadas aparecerán aquí.",
 
@@ -484,6 +487,7 @@ const translations = {
         // Common keys
         "none": "Nessuno",
         "common.none": "Nessuno",
+    "none": "Nessuno",
         "allThemes": "Tutti i temi",
         "yourUploadedImagesWillAppearHere": "Le tue immagini caricate appariranno qui.",
 
@@ -592,6 +596,7 @@ const translations = {
         // Common keys
         "none": "Nenhum",
         "common.none": "Nenhum",
+    "none": "Nenhum",
         "allThemes": "Todos os temas",
         "yourUploadedImagesWillAppearHere": "As suas imagens carregadas aparecerão aqui.",
 
@@ -700,6 +705,7 @@ const translations = {
         // Common keys
         "none": "Geen",
         "common.none": "Geen",
+    "none": "Geen",
         "allThemes": "Alle thema's",
         "yourUploadedImagesWillAppearHere": "Je geüploade afbeeldingen verschijnen hier.",
 
@@ -808,6 +814,7 @@ const translations = {
         // Common keys
         "none": "Ingen",
         "common.none": "Ingen",
+    "none": "Ingen",
         "allThemes": "Alla teman",
         "yourUploadedImagesWillAppearHere": "Dina uppladdade bilder visas här.",
 
@@ -916,6 +923,7 @@ const translations = {
         // Common keys
         "none": "Ingen",
         "common.none": "Ingen",
+    "none": "Ingen",
         "allThemes": "Alle temaer",
         "yourUploadedImagesWillAppearHere": "Dine uploadede billeder vises her.",
 
@@ -1024,6 +1032,7 @@ const translations = {
         // Common keys
         "none": "Ingen",
         "common.none": "Ingen",
+    "none": "Ingen",
         "allThemes": "Alle temaer",
         "yourUploadedImagesWillAppearHere": "Dine opplastede bilder vises her.",
 
@@ -1132,6 +1141,7 @@ const translations = {
         // Common keys
         "none": "Ei mitään",
         "common.none": "Ei mitään",
+    "none": "Ei mitään",
         "allThemes": "Kaikki teemat",
         "yourUploadedImagesWillAppearHere": "Lataamasi kuvat näkyvät täällä.",
 

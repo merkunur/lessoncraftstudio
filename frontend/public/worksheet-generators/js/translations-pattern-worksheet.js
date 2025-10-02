@@ -9,6 +9,7 @@ const translations = {
   "en": {
     "common.grayscale": "Grayscale",
     "common.none": "None",
+    "none": "None",
     "font.arial": "Arial",
     "font.baloo": "Baloo 2",
     "font.fredoka": "Fredoka",
@@ -175,6 +176,7 @@ const translations = {
   "de": {
     "common.grayscale": "Graustufen",
     "common.none": "Keine",
+    "none": "Keine",
     "font.arial": "Arial",
     "font.baloo": "Baloo 2",
     "font.fredoka": "Fredoka",
@@ -341,6 +343,8 @@ const translations = {
   "fr": {
     "common.grayscale": "Niveaux de gris",
     "common.none": "Aucun",
+    "none": "Aucun",
+    "none": "Aucun",
     "font.arial": "Arial",
     "font.baloo": "Baloo 2",
     "font.fredoka": "Fredoka",
@@ -507,6 +511,8 @@ const translations = {
   "es": {
     "common.grayscale": "Escala de grises",
     "common.none": "Ninguno",
+    "none": "Ninguno",
+    "none": "Ninguno",
     "font.arial": "Arial",
     "font.baloo": "Baloo 2",
     "font.fredoka": "Fredoka",
@@ -673,6 +679,8 @@ const translations = {
   "it": {
     "common.grayscale": "Scala di grigi",
     "common.none": "Nessuno",
+    "none": "Nessuno",
+    "none": "Nessuno",
     "font.arial": "Arial",
     "font.baloo": "Baloo 2",
     "font.fredoka": "Fredoka",
@@ -839,6 +847,8 @@ const translations = {
   "pt": {
     "common.grayscale": "Tons de cinza",
     "common.none": "Nenhum",
+    "none": "Nenhum",
+    "none": "Nenhum",
     "font.arial": "Arial",
     "font.baloo": "Baloo 2",
     "font.fredoka": "Fredoka",
@@ -1005,6 +1015,8 @@ const translations = {
   "nl": {
     "common.grayscale": "Grijstinten",
     "common.none": "Geen",
+    "none": "Geen",
+    "none": "Geen",
     "font.arial": "Arial",
     "font.baloo": "Baloo 2",
     "font.fredoka": "Fredoka",
@@ -1171,6 +1183,8 @@ const translations = {
   "sv": {
     "common.grayscale": "Gråskala",
     "common.none": "Ingen",
+    "none": "Ingen",
+    "none": "Ingen",
     "font.arial": "Arial",
     "font.baloo": "Baloo 2",
     "font.fredoka": "Fredoka",
@@ -1337,6 +1351,8 @@ const translations = {
   "da": {
     "common.grayscale": "Gråtoner",
     "common.none": "Ingen",
+    "none": "Ingen",
+    "none": "Ingen",
     "font.arial": "Arial",
     "font.baloo": "Baloo 2",
     "font.fredoka": "Fredoka",
@@ -1503,6 +1519,8 @@ const translations = {
   "no": {
     "common.grayscale": "Gråtoner",
     "common.none": "Ingen",
+    "none": "Ingen",
+    "none": "Ingen",
     "font.arial": "Arial",
     "font.baloo": "Baloo 2",
     "font.fredoka": "Fredoka",
@@ -1669,6 +1687,8 @@ const translations = {
   "fi": {
     "common.grayscale": "Harmaasävy",
     "common.none": "Ei mitään",
+    "none": "Ei mitään",
+    "none": "Ei mitään",
     "font.arial": "Arial",
     "font.baloo": "Baloo 2",
     "font.fredoka": "Fredoka",

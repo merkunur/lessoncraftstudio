@@ -2697,7 +2697,7 @@ function loadAssetThemes(type, selectEl) {
     fetch(`/api/${type}/themes?locale=${imageLibraryLocale}`)
         .then(response => response.json())
         .then(themes => {
-            selectEl.innerHTML = '<option value="none">None</option>';
+            selectEl.innerHTML = `<option value="none">${t('none')}</option>`;
             themes.forEach(theme => {
                 const option = document.createElement('option');
                 option.value = theme.value;
@@ -2707,7 +2707,7 @@ function loadAssetThemes(type, selectEl) {
         })
         .catch(err => {
             console.error(formatTranslation(t('message.themeLoadError'), { type: type }), err);
-            selectEl.innerHTML = `<option value="none">${t('decoration.none')}</option>`;
+            selectEl.innerHTML = `<option value="none">${t('none')}</option>`;
         });
 }
 

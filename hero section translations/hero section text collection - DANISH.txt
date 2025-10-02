@@ -1,0 +1,526 @@
+TEKSTSAMLING TIL HERO-SEKTION - DANSK VERSION
+Professionel oversættelse til brugergrænseflade
+Status: ENDELIG - Klar til brug
+
+========================================
+KILDEFILSINFORMATION
+========================================
+
+Data hentet fra: frontend/app/[locale]/apps/[slug]/page.tsx
+Linjer: 424-521 (staticAppData objekt)
+
+Denne fil indeholder hero-sektionens data, der vises når man ser individuelle apps i Next.js-applikationen.
+Hero-sektionen inkluderer:
+- Appens navn/titel
+- Beskrivelse
+- Kategorimærke
+- Påkrævet niveaumærke (GRATIS / BASISPAKKE / FULD ADGANG)
+- Funktionspunkter (4 funktioner pr. app)
+
+========================================
+FÆLLES ELEMENTER
+========================================
+
+Niveaumærker:
+- GRATIS
+- BASISPAKKE
+- FULD ADGANG
+
+Kategorier:
+- Kunst & Kreativitet
+- Tidlig Læring
+- Finmotorik
+- Spil
+- Sprog & Læsning
+- Logik
+- Matching
+- Matematik
+- Visuel Perception
+- Ordspil
+- Kreativ Skrivning
+- Dataanalyse
+- Grammatik
+- Pædagogiske Spil
+- Hukommelsesspil
+- Problemløsning
+- Gåder
+- Tid & Dato
+- Skrivefærdigheder
+
+UI-tekstelementer:
+- "Apps" (brødkrumme)
+- "Sådan bruges" (sektionstitel)
+- "Perfekt til" (sektionstitel)
+- "Klar til at lave fantastiske arbejdsark?" (CTA-overskrift)
+- "Slut dig til tusindvis af lærere, der skaber professionelt undervisningsmateriale" (CTA-beskrivelse)
+- "Se priser" (knap)
+- "Udforsk gratis apps" (knap)
+- "Se alle pakker" (knap)
+- "Start gratis prøveperiode" (knap)
+- "Denne app kræver Basispakken" (adgangsbesked)
+- "Denne app kræver Fuld Adgang" (adgangsbesked)
+- "Opgrader dit abonnement for at få adgang til denne arbejdsarksgenerator og mange andre professionelle værktøjer." (opgraderingsbesked)
+
+========================================
+INDIVIDUELLE APPDATA
+========================================
+
+APP: Addition (slug: image-addition)
+Titel: Addition med Billeder
+Beskrivelse: Lav visuelle additions-arbejdsark med billeder til tidlige matematikstuderende
+Kategori: Matematik
+Påkrævet Niveau: BASISPAKKE
+Funktioner:
+  - Visuelle matematikopgaver
+  - Tilpasbar sværhedsgrad
+  - Facitlister
+  - Printklar formatering
+
+----------------------------------------
+
+APP: Alphabet Train
+Titel: Alfabettoget
+Beskrivelse: Hjælp børn med at lære bogstaver med sjove togtema-alfabetsark
+Kategori: Sprog & Læsning
+Påkrævet Niveau: BASISPAKKE
+Funktioner:
+  - Bogstavgenkendelse
+  - Alfabetisk rækkefølge
+  - Sjovt togtema
+  - Flere sværhedsgrader
+
+----------------------------------------
+
+APP: Big or Small (slug: big-small-app)
+Titel: Stor eller Lille
+Beskrivelse: Lav størrelsessammenligningsark med visuelle øvelser for begyndere
+Kategori: Tidlig Læring
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Størrelsessammenligninger
+  - Visuelle øvelser
+  - Multiple choice
+  - Rækkefølgeopgaver
+
+----------------------------------------
+
+APP: Chart Count (slug: chart-count-color)
+Titel: Tællediagrammer
+Beskrivelse: Lav farverige tælle- og diagramark til at lære tal
+Kategori: Matematik
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Visuelle tælleøvelser
+  - Farverige diagrammer
+  - Tallæring
+  - Printklar formatering
+
+----------------------------------------
+
+APP: Code Addition
+Titel: Kodeaddition
+Beskrivelse: Lav additionsøvelser med hemmelige koder for at gøre matematik sjovt
+Kategori: Matematik
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Addition med hemmelige koder
+  - Legende aktiviteter
+  - Justerbar sværhedsgrad
+  - Facitlister inkluderet
+
+----------------------------------------
+
+APP: Coloring
+Titel: Farvelægningssider
+Beskrivning: Design udskrivbare farvelægningssider fra vores omfattende billedbibliotek
+Kategori: Kunst & Kreativitet
+Påkrævet Niveau: BASISPAKKE
+Funktioner:
+  - Over 100 billeder
+  - Flere temaer
+  - Forskellige sværhedsgrader
+  - Høj kvalitet udskrifter
+
+----------------------------------------
+
+APP: Crossword (slug: image-crossword)
+Titel: Billedkrydsord
+Beskrivelse: Generer illustrerede krydsord for at berige ordforråd
+Kategori: Ordspil
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Automatisk generering
+  - Tilpassede ledetråde
+  - Forskellige gitterstørrelser
+  - Facitlister inkluderet
+
+----------------------------------------
+
+APP: Cryptogram (slug: image-cryptogram)
+Titel: Billedkryptogram
+Beskrivelse: Lav illustrerede kryptogrammer for at udvikle logik og ordforråd
+Kategori: Gåder
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Visuelle kryptogrammer
+  - Tilpassede koder
+  - Forskellige niveauer
+  - Løsninger inkluderet
+
+----------------------------------------
+
+APP: Draw and Color
+Titel: Tegn og Farvelæg
+Beskrivelse: Lav ark, der kombinerer tegning og farvelægning for at stimulere kreativitet
+Kategori: Kunst & Kreativitet
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Plads til fri tegning
+  - Farvelægningsområder
+  - Varierede temaer
+  - Stimulerer kreativitet
+
+----------------------------------------
+
+APP: Drawing Lines
+Titel: Tegn Linjer
+Beskrivelse: Udvikl finmotorik gennem linjetegningsøvelser
+Kategori: Finmotorik
+Påkrævet Niveau: BASISPAKKE
+Funktioner:
+  - Sporingsaktiviteter
+  - Forbind prikkerne
+  - Følg stier
+  - Forskrivetræning
+
+----------------------------------------
+
+APP: Find and Count
+Titel: Find og Tæl
+Beskrivelse: Visuelle tælleøvelser for at udvikle talgenkendelse og tælleevner
+Kategori: Visuel Perception
+Påkrævet Niveau: BASISPAKKE
+Funktioner:
+  - Tæl objekter
+  - Visuel forskel
+  - Talletræning
+  - Engagerende billeder
+
+----------------------------------------
+
+APP: Find Objects
+Titel: Find Genstande
+Beskrivelse: Lav søgeark for at forbedre visuel opmærksomhed
+Kategori: Visuel Perception
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Visuelle søgeøvelser
+  - Udvikler opmærksomhed
+  - Varierede temaer
+  - Forskellige sværhedsgrader
+
+----------------------------------------
+
+APP: Grid Match
+Titel: Gittermatching
+Beskrivelse: Lav gittermatchingsøvelser for at udvikle rumlig opfattelse
+Kategori: Matching
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Mønstermatching
+  - Rumlig orientering
+  - Visuel perception
+  - Progressiv sværhedsgrad
+
+----------------------------------------
+
+APP: MatchUp Maker (slug: matching-app)
+Titel: Matchingskaber
+Beskrivelse: Lav matchingsaktiviteter for at forbedre hukommelse og associationsevner
+Kategori: Matching
+Påkrævet Niveau: BASISPAKKE
+Funktioner:
+  - Billede-til-billede-matching
+  - Ord-til-billede-matching
+  - Hukommelsesspil
+  - Tilpassede par
+
+----------------------------------------
+
+APP: Math Puzzle
+Titel: Matematikgåder
+Beskrivelse: Lav udfordrende matematikgåder for at udvikle logisk tænkning
+Kategori: Matematik
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Regngåder
+  - Matematisk logik
+  - Forskellige niveauer
+  - Løsninger inkluderet
+
+----------------------------------------
+
+APP: Math Worksheets (slug: math-worksheet)
+Titel: Matematikeark
+Beskrivelse: Generer tilpassede matematiktræningsark for alle niveauer
+Kategori: Matematik
+Påkrævet Niveau: BASISPAKKE
+Funktioner:
+  - Addition og subtraktion
+  - Multiplikation og division
+  - Facitlister
+  - Justerbare sværhedsgrader
+
+----------------------------------------
+
+APP: Missing Pieces
+Titel: Manglende Dele
+Beskrivelse: Lav visuelle fuldførelsesøvelser for at udvikle logisk tænkning
+Kategori: Logik
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Identificer manglende elementer
+  - Logisk ræsonnement
+  - Visuelle øvelser
+  - Progressiv sværhedsgrad
+
+----------------------------------------
+
+APP: More Less
+Titel: Mere eller Mindre
+Beskrivelse: Lav mængdesammenligningsøvelser for at lære matematiske begreber
+Kategori: Matematik
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Sammenlign mængder
+  - Grundlæggende matematiske begreber
+  - Visuelle øvelser
+  - Progressiv læring
+
+----------------------------------------
+
+APP: Odd One Out
+Titel: Hvilken Passer Ikke
+Beskrivelse: Lav øvelser til at identificere det afvigende element og udvikle analyse
+Kategori: Logik
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Identificer forskelle
+  - Logisk ræsonnement
+  - Kategorisering
+  - Varierede øvelser
+
+----------------------------------------
+
+APP: Pattern Train
+Titel: Mønstertoget
+Beskrivelse: Lav sekvensark med togtema for at genkende mønstre
+Kategori: Logik
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Mønstergenkendelse
+  - Logiske sekvenser
+  - Togtema
+  - Progressiv sværhedsgrad
+
+----------------------------------------
+
+APP: Pattern Worksheet
+Titel: Mønsterark
+Beskrivelse: Lav ark for at lære sekvenser og gentagne mønstre
+Kategori: Logik
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Mønstre og sekvenser
+  - Visuel genkendelse
+  - Logisk ræsonnement
+  - Flere niveauer
+
+----------------------------------------
+
+APP: Picture Bingo
+Titel: Billede-bingo
+Beskrivelse: Generer tilpassede bingoplader med billeder til klasseværelset
+Kategori: Spil
+Påkrævet Niveau: BASISPAKKE
+Funktioner:
+  - Tilpassede bingoplader
+  - Tematiske billeder
+  - Flere pladestørrelser
+  - Trækningslister inkluderet
+
+----------------------------------------
+
+APP: Picture Pathway (slug: picture-path)
+Titel: Billedsti
+Beskrivelse: Lav visuelle stier for at udvikle logik og instruktionsfølgning
+Kategori: Logik
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Stier at følge
+  - Sekventiel logik
+  - Visuelle øvelser
+  - Flere sværhedsgrader
+
+----------------------------------------
+
+APP: Picture Sort
+Titel: Billedsortering
+Beskrivelse: Lav billedsorteringsaktiviteter for at udvikle kategorisering
+Kategori: Logik
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Sortering og ordning
+  - Kategorisering
+  - Logisk ræsonnement
+  - Varierede temaer
+
+----------------------------------------
+
+APP: Prepositions
+Titel: Præpositioner
+Beskrivelse: Lav visuelle øvelser for at lære præpositioner på en legende måde
+Kategori: Grammatik
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Rumlige præpositioner
+  - Illustrerede øvelser
+  - Visuel læring
+  - Let at forstå
+
+----------------------------------------
+
+APP: Shadow Match
+Titel: Skyggematching
+Beskrivelse: Lav øvelser til at matche genstande med deres skygger
+Kategori: Visuel Perception
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Form-skygge-matching
+  - Visuel perception
+  - Visuel forskel
+  - Forskellige niveauer
+
+----------------------------------------
+
+APP: Subtraction
+Titel: Subtraktion
+Beskrivelse: Lav visuelle subtraktionsark til matematikstudier
+Kategori: Matematik
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Subtraktionsøvelser
+  - Visuel støtte
+  - Justerbar sværhedsgrad
+  - Facitlister inkluderet
+
+----------------------------------------
+
+APP: Sudoku for Kids (slug: sudoku)
+Titel: Sudoku for Børn
+Beskrivelse: Sjove sudoku-gåder med billeder i stedet for tal til børn
+Kategori: Logik
+Påkrævet Niveau: BASISPAKKE
+Funktioner:
+  - Sudoku med billeder
+  - 4x4 og 6x6 gitre
+  - Progressiv sværhedsgrad
+  - Løsninger inkluderet
+
+----------------------------------------
+
+APP: Treasure Hunt
+Titel: Skattejagt
+Beskrivelse: Lav skattejagtsark til legende og pædagogiske aktiviteter
+Kategori: Pædagogiske Spil
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Søgestier
+  - Legende aktiviteter
+  - Tilpassede kort
+  - Stimulerer ræsonnement
+
+----------------------------------------
+
+APP: Word Guess
+Titel: Gæt Ordet
+Beskrivelse: Lav ark til at gætte ord og berige ordforråd
+Kategori: Ordspil
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Ordgåder
+  - Visuelle ledetråde
+  - Berig ordforråd
+  - Flere niveauer
+
+----------------------------------------
+
+APP: Word Scramble
+Titel: Ordsammenblanding
+Beskrivelse: Lav ordsambleblandingsark for at forbedre ordforråd og stavning
+Kategori: Sprog & Læsning
+Påkrævet Niveau: BASISPAKKE
+Funktioner:
+  - Tilpassede ordlister
+  - Tematisk ordforråd
+  - Flere sværhedsgrader
+  - Facitlister inkluderet
+
+----------------------------------------
+
+APP: Word Search (slug: word-search, file: wordsearch.html)
+Titel: Ordsøgning
+Beskrivelse: Generer tilpassede ordsøgninger med tematisk ordforråd
+Kategori: Ordspil
+Påkrævet Niveau: GRATIS
+Funktioner:
+  - Flere gitterstørrelser
+  - Retningsvalg
+  - Tematiske ordlister
+  - Facitlister inkluderet
+
+----------------------------------------
+
+APP: Writing (slug: writing-app)
+Titel: Skriveøvelser
+Beskrivelse: Lav tilpassede skriveark for at udvikle skrivefærdigheder
+Kategori: Skrivefærdigheder
+Påkrævet Niveau: FULD ADGANG
+Funktioner:
+  - Tilpassede skrivelinjer
+  - Varierede temaer
+  - Visuel støtte
+  - Printklar formatering
+
+========================================
+ANVENDTE OVERSÆTTELSESPRINCIPPER
+========================================
+
+1. NATURLIGHED: Teksten lyder som oprindelig dansk, ikke oversat
+2. MÅLRETTET: Sprog passende for danske lærere og forældre
+3. KONSISTENT: Ensartet terminologi gennem hele dokumentet
+4. KORTFATTET: Klare og meningsfulde beskrivelser
+5. ENGAGERENDE: Positive og indbydende formuleringer
+
+Eksempler på oversættelsesvalg:
+
+- "Worksheets" → "Arbejdsark" (dansk pædagogisk standardterm)
+- "Print-ready" → "Printklar" (aktiv form, naturlig)
+- "Core Bundle" → "Basispakke" (klar og direkte)
+- "Full Access" → "Fuld Adgang" (klar og direkte)
+- "Word Search" → "Ordsøgning" (dansk standardterm)
+- "Word Scramble" → "Ordsammenblanding" (naturlig dansk term)
+- "Bingo" → "Bingo" (universal term, bevaret)
+- "Answer keys" → "Facitlister" (dansk pædagogisk term)
+- "Customizable" → "Tilpassede/Tilpasbar" (teknisk term)
+- "Match/Matching" → "Matching" (naturlig dansk)
+- "Odd One Out" → "Hvilken Passer Ikke" (naturligt dansk udtryk)
+- "Treasure Hunt" → "Skattejagt" (dansk kulturel term)
+
+========================================
+STATUS
+========================================
+
+ENDELIG - Klar til brug
+Professionel oversættelse komplet for alle 33 applikationer
+Gennemgang gennemført

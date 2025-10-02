@@ -2944,7 +2944,7 @@ async function downloadPDF(canvasToExport, fileName) {
     async function loadBackgroundThemes() {
         try {
             // First option is always None
-            backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+            backgroundThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
 
             // Fetch actual themes from the filesystem API with locale
             const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);

@@ -678,7 +678,7 @@
                             <h4 data-translate="sudoku.border.title">Border</h4>
                             <label for="borderThemeSelect" data-translate="sudoku.border.theme.label">Border Theme:</label>
                             <select id="borderThemeSelect">
-                                <option value="none" data-translate="common.none">None</option>
+                                <option value="none" data-translate="none">None</option>
                             </select>
                             <div id="borderDictionary">
                                 <p class="dictionary-message" data-translate="sudoku.border.select.message">Select a theme to see borders.</p>
@@ -2497,9 +2497,9 @@ document.addEventListener("DOMContentLoaded", function() {
             const noneText = (typeof SUDOKU_TRANSLATIONS !== 'undefined' &&
                              SUDOKU_TRANSLATIONS[currentLocale] &&
                              SUDOKU_TRANSLATIONS[currentLocale]['common.none']) ||
-                            t('common.none') || 'None';
+                            t('none') || 'None';
 
-            selectEl.innerHTML = `<option value="none" data-translate="common.none">${noneText}</option>`;
+            selectEl.innerHTML = `<option value="none" data-translate="none">${noneText}</option>`;
             const response = await fetch(`/api/${type}/themes?locale=${currentLocale}`);
             if (!response.ok) {
                 console.error(`Failed to load ${type} themes`);
@@ -2524,7 +2524,7 @@ document.addEventListener("DOMContentLoaded", function() {
                              SUDOKU_TRANSLATIONS[currentLocale] &&
                              SUDOKU_TRANSLATIONS[currentLocale]['common.none']) ||
                             'None';
-            selectEl.innerHTML = `<option value="none" data-translate="common.none">${noneText}</option>`;
+            selectEl.innerHTML = `<option value="none" data-translate="none">${noneText}</option>`;
         }
     }
         

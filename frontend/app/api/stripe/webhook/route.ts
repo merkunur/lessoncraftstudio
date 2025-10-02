@@ -253,22 +253,39 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
 async function updateUserSubscription(userId: string, subscription: Stripe.Subscription) {
   // Determine subscription tier from price ID
   let tier: 'free' | 'core' | 'full' = 'free';
+  let planName = 'free';
+  let billingInterval: 'monthly' | 'yearly' | null = null;
   const priceId = subscription.items.data[0]?.price.id;
 
-  if (priceId === process.env.STRIPE_CORE_PRICE_ID) {
+  // Match price ID to tier and plan
+  if (priceId === process.env.STRIPE_PRICE_CORE_MONTHLY) {
     tier = 'core';
-  } else if (priceId === process.env.STRIPE_FULL_PRICE_ID) {
+    planName = 'core_monthly';
+    billingInterval = 'monthly';
+  } else if (priceId === process.env.STRIPE_PRICE_CORE_YEARLY) {
+    tier = 'core';
+    planName = 'core_yearly';
+    billingInterval = 'yearly';
+  } else if (priceId === process.env.STRIPE_PRICE_FULL_MONTHLY) {
     tier = 'full';
+    planName = 'full_monthly';
+    billingInterval = 'monthly';
+  } else if (priceId === process.env.STRIPE_PRICE_FULL_YEARLY) {
+    tier = 'full';
+    planName = 'full_yearly';
+    billingInterval = 'yearly';
   }
 
-  // Map Stripe status to our status
-  let status: 'active' | 'cancelled' | 'past_due' | 'trial' = 'active';
+  // Map Stripe status to our status (no trial status - we don't offer trials)
+  let status: 'active' | 'canceled' | 'past_due' | 'incomplete' | 'unpaid' = 'active';
   if (subscription.status === 'canceled') {
-    status = 'cancelled';
+    status = 'canceled';
   } else if (subscription.status === 'past_due') {
     status = 'past_due';
-  } else if (subscription.status === 'trialing') {
-    status = 'trial';
+  } else if (subscription.status === 'incomplete') {
+    status = 'incomplete';
+  } else if (subscription.status === 'unpaid') {
+    status = 'unpaid';
   }
 
   // Update user
@@ -276,37 +293,34 @@ async function updateUserSubscription(userId: string, subscription: Stripe.Subsc
     where: { id: userId },
     data: {
       subscriptionTier: tier,
-      subscriptionStatus: status,
     },
   });
 
   // Create or update subscription record
   await prisma.subscription.upsert({
     where: {
-      userId_stripeSubscriptionId: {
-        userId,
-        stripeSubscriptionId: subscription.id,
-      },
+      userId,
     },
     update: {
-      tier,
+      planName,
       status,
+      billingInterval,
+      stripeSubscriptionId: subscription.id,
+      stripePriceId: priceId,
       currentPeriodStart: new Date(subscription.current_period_start * 1000),
       currentPeriodEnd: new Date(subscription.current_period_end * 1000),
       cancelAtPeriodEnd: subscription.cancel_at_period_end,
-      trialEnd: subscription.trial_end ? new Date(subscription.trial_end * 1000) : null,
     },
     create: {
       userId,
-      tier,
-      stripeSubscriptionId: subscription.id,
-      stripeCustomerId: subscription.customer as string,
-      stripePriceId: priceId,
+      planName,
       status,
+      billingInterval,
+      stripeSubscriptionId: subscription.id,
+      stripePriceId: priceId,
       currentPeriodStart: new Date(subscription.current_period_start * 1000),
       currentPeriodEnd: new Date(subscription.current_period_end * 1000),
       cancelAtPeriodEnd: subscription.cancel_at_period_end,
-      trialEnd: subscription.trial_end ? new Date(subscription.trial_end * 1000) : null,
     },
   });
 }

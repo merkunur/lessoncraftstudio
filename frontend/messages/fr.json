@@ -142,79 +142,92 @@
     "subtitle": "Choisissez parmi 33 générateurs professionnels",
     "search": "Rechercher des générateurs...",
     "heroTitle": "33 générateurs de fiches pédagogiques",
-    "heroSubtitle": "Transformez vos supports pédagogiques avec notre collection complète de générateurs de fiches éducatives. Des mots cachés aux puzzles mathématiques, nous avons tout ce qu'il vous faut.",
+    "heroSubtitle": "Transformez vos supports pédagogiques avec notre suite complète de générateurs de fiches éducatives. Des mots cachés aux énigmes mathématiques, tout ce dont vous avez besoin est ici.",
     "categories": {
       "all": "Tous les générateurs",
       "math": "Mathématiques",
       "language": "Langue et lecture",
       "puzzles": "Puzzles",
       "games": "Jeux",
-      "visual": "Perception visuelle",
-      "motor": "Motricité fine",
-      "wordGames": "Jeux de mots",
-      "languageArts": "Expression écrite",
-      "artCreativity": "Arts et créativité",
-      "matching": "Association",
-      "fineMotorSkills": "Motricité fine",
+      "visual": "Perception Visuelle",
+      "motor": "Motricité Fine",
+      "wordGames": "Jeux de Mots",
+      "languageArts": "Français",
+      "artCreativity": "Arts & Créativité",
+      "matching": "Associations",
+      "fineMotorSkills": "Motricité Fine",
       "logic": "Logique",
-      "concepts": "Concepts de base",
-      "patterns": "Séquences",
-      "sorting": "Tri et classement"
+      "concepts": "Notions",
+      "patterns": "Motifs",
+      "sorting": "Tri"
     },
     "tier": {
       "free": "Gratuit",
-      "core": "Pack Essentiel",
-      "full": "Accès Complet",
+      "core": "Essentiel",
+      "full": "Complet",
       "popular": "Populaire"
     },
+    "tierBadges": {
+      "free": "Gratuit",
+      "core": "Essentiel",
+      "full": "Complet"
+    },
+    "badges": {
+      "popular": "Populaire"
+    },
+    "sections": {
+      "freeTier": "Formule gratuite",
+      "coreBundle": "Pack Essentiel",
+      "fullAccess": "Applications Accès Complet"
+    },
     "tierInfo": {
-      "freeTitle": "Version gratuite",
+      "freeTitle": "Formule gratuite",
       "freeDescription": "Essayez le générateur de mots cachés avec filigrane",
-      "coreTitle": "Pack Essentiel - 15$/mois",
+      "coreTitle": "Pack Essentiel - 15 $/mois",
       "coreDescription": "Accès aux 10 applications les plus populaires avec licence commerciale",
-      "fullTitle": "Accès Complet - 25$/mois",
+      "fullTitle": "Accès Complet - 25 $/mois",
       "fullDescription": "Les 33 applications, support prioritaire, accès anticipé"
     },
     "appNames": {
-      "wordSearch": "Mots cachés",
-      "imageAddition": "Addition illustrée",
-      "alphabetTrain": "Train de l'alphabet",
-      "coloringPages": "Coloriages",
-      "mathWorksheets": "Fiches de maths",
-      "wordScramble": "Mots mélangés",
-      "findAndCount": "Chercher et compter",
-      "matchUpMaker": "Jeux d'association",
-      "drawingLines": "Tracer des lignes",
-      "pictureBingo": "Bingo illustré",
-      "sudokuForKids": "Sudoku pour enfants",
-      "bigOrSmall": "Grand ou petit",
-      "chartCountColor": "Graphiques à colorier",
-      "codeAddition": "Code-Addition",
-      "drawAndColor": "Dessiner et colorier",
-      "findObjects": "Trouver les objets",
-      "gridMatch": "Grille d'association",
-      "imageCrossword": "Mots croisés illustrés",
-      "imageCryptogram": "Cryptogramme illustré",
-      "mathPuzzle": "Casse-tête mathématique",
-      "missingPieces": "Pièces manquantes",
-      "moreOrLess": "Plus ou moins",
-      "oddOneOut": "L'intrus",
-      "patternTrain": "Train des séquences",
-      "patternWorksheets": "Fiches de séquences",
-      "picturePathway": "Chemin illustré",
-      "pictureSort": "Tri d'images",
+      "wordSearch": "Mots Cachés",
+      "imageAddition": "Addition avec Images",
+      "alphabetTrain": "Train de l'Alphabet",
+      "coloringPages": "Pages à Colorier",
+      "mathWorksheets": "Fiches de Mathématiques",
+      "wordScramble": "Mots Mêlés",
+      "findAndCount": "Cherche et Compte",
+      "matchUpMaker": "Jeu d'Associations",
+      "drawingLines": "Tracé de Lignes",
+      "pictureBingo": "Loto d'Images",
+      "sudokuForKids": "Sudoku pour Enfants",
+      "bigOrSmall": "Grand ou Petit",
+      "chartCountColor": "Graphiques à Compter",
+      "codeAddition": "Addition Codée",
+      "drawAndColor": "Dessine et Colorie",
+      "findObjects": "Cherche les Objets",
+      "gridMatch": "Grille d'Associations",
+      "imageCrossword": "Mots Croisés Imagés",
+      "imageCryptogram": "Cryptogramme Imagé",
+      "mathPuzzle": "Énigmes Mathématiques",
+      "missingPieces": "Pièces Manquantes",
+      "moreOrLess": "Plus ou Moins",
+      "oddOneOut": "L'Intrus",
+      "patternTrain": "Train des Motifs",
+      "patternWorksheets": "Fiches de Motifs",
+      "picturePathway": "Chemin d'Images",
+      "pictureSort": "Tri d'Images",
       "prepositions": "Prépositions",
-      "shadowMatch": "Association d'ombres",
+      "shadowMatch": "Ombres à Associer",
       "subtraction": "Soustraction",
-      "treasureHunt": "Chasse au trésor",
-      "wordGuess": "Deviner le mot",
-      "englishWritingPractice": "Exercices d'écriture anglaise"
+      "treasureHunt": "Chasse au Trésor",
+      "wordGuess": "Devine le Mot",
+      "englishWritingPractice": "Exercices d'Écriture"
     },
     "cta": {
-      "title": "Prêt à créer des fiches extraordinaires?",
+      "title": "Prêt à créer des fiches extraordinaires ?",
       "subtitle": "Commencez avec notre générateur gratuit de mots cachés ou débloquez toutes les applications dès aujourd'hui",
-      "startFreeTrial": "Essai gratuit",
-      "viewPricing": "Voir les tarifs"
+      "startFreeTrial": "Essai Gratuit",
+      "viewPricing": "Voir les Tarifs"
     },
     "filters": {
       "allApps": "Toutes les applications"
@@ -781,6 +794,267 @@
     "contact": {
       "title": "10. CONTACT",
       "content": "Pour les questions de licence : license@lessoncraftstudio.com"
+    }
+  },
+  "faq": {
+    "metaTitle": "Questions Fréquentes - LessonCraftStudio",
+    "metaDescription": "Réponses aux questions courantes sur nos 33 générateurs de fiches d'exercices, formules tarifaires, licences commerciales et assistance technique",
+    "metaKeywords": "FAQ, aide générateurs de fiches, questions tarifs, licence commerciale, support technique",
+    "hero": {
+      "title": "Questions Fréquentes",
+      "subtitle": "Tout ce que vous devez savoir sur les générateurs de fiches de LessonCraftStudio"
+    },
+    "categories": {
+      "general": "Questions Générales",
+      "apps": "À propos de nos applications",
+      "pricing": "Tarifs & Formules",
+      "technical": "Support Technique",
+      "commercial": "Usage Commercial & Licences"
+    },
+    "cta": {
+      "title": "Vous avez d'autres questions ?",
+      "subtitle": "Notre équipe d'assistance est là pour vous aider. Contactez-nous et nous vous répondrons sous 24-48 heures.",
+      "button": "Contacter l'assistance"
+    }
+  },
+  "dashboard": {
+    "header": {
+      "welcome": "Bon retour, {name} !",
+      "welcomeFallback": "Bon retour !",
+      "subtitle": "Créons quelque chose d'extraordinaire aujourd'hui",
+      "signOut": "Se déconnecter"
+    },
+    "stats": {
+      "worksheetsCreated": "Feuilles créées",
+      "totalThisMonth": "Total ce mois-ci",
+      "appsAvailable": "Applications disponibles",
+      "inYourPlan": "Dans votre forfait",
+      "currentPlan": "Forfait actuel",
+      "yourMembership": "Votre abonnement"
+    },
+    "tierNames": {
+      "free": "Gratuit",
+      "core": "Essentiel",
+      "full": "Pro"
+    },
+    "generators": {
+      "title": "Générateurs de fiches",
+      "searchPlaceholder": "Rechercher des générateurs...",
+      "filterLabel": "Toutes les catégories",
+      "categoryAll": "Toutes les catégories",
+      "open": "Ouvrir →",
+      "noResults": "Aucun générateur trouvé",
+      "tryAdjusting": "Essayez d'ajuster votre recherche ou vos filtres"
+    },
+    "subscription": {
+      "title": "Abonnement",
+      "currentPlan": "Forfait actuel",
+      "free": "Gratuit",
+      "perMonth": "/mois",
+      "renewsOn": "Se renouvelle le",
+      "cancelsOn": "Se termine le",
+      "whatsIncluded": "Ce qui est inclus :",
+      "upgradePlan": "Améliorer le forfait",
+      "manageBilling": "Gérer la facturation",
+      "loading": "Chargement...",
+      "cancelWarning": "⚠️ Votre abonnement se terminera le {date}"
+    },
+    "activity": {
+      "title": "Votre activité",
+      "worksheetsCreated": "Feuilles créées",
+      "downloads": "Téléchargements",
+      "generatorsUsed": "Générateurs utilisés",
+      "thisWeek": "+3 cette semaine",
+      "thisMonth": "Ce mois-ci",
+      "uniqueApps": "Applications uniques",
+      "unlimited": "Illimité",
+      "trackingNote": "📊 Votre activité est suivie pour vous aider à rester dans les limites de votre forfait"
+    },
+    "paymentHistory": {
+      "title": "Historique des paiements",
+      "noPayments": "Aucun historique de paiement pour le moment",
+      "noPaymentsSubtext": "Vos paiements apparaîtront ici après votre abonnement",
+      "viewAll": "Voir tous les paiements →",
+      "downloadInvoice": "Télécharger la facture",
+      "succeeded": "réussi",
+      "failed": "échoué",
+      "pending": "en attente"
+    },
+    "tiers": {
+      "free": {
+        "description": "Commencez avec le générateur de mots mêlés",
+        "features": [
+          "Générateur de mots mêlés uniquement",
+          "Création illimitée de fiches",
+          "Téléchargements avec filigrane"
+        ]
+      },
+      "core": {
+        "description": "Parfait pour une utilisation régulière en classe",
+        "features": [
+          "Accès à 10 générateurs populaires",
+          "Création illimitée de fiches",
+          "Sans filigrane"
+        ]
+      },
+      "full": {
+        "description": "Accès complet pour utilisateurs avancés",
+        "features": [
+          "Accès à tous les 33 générateurs",
+          "Création illimitée de fiches",
+          "Sans filigrane"
+        ]
+      }
+    },
+    "categories": {
+      "Math": "Mathématiques",
+      "Language": "Langue",
+      "Logic": "Logique",
+      "Art": "Art",
+      "Visual": "Visuel",
+      "Game": "Jeu"
+    },
+    "apps": {
+      "wordSearch": {
+        "name": "Mots mêlés",
+        "description": "Créez des grilles de mots mêlés captivantes"
+      },
+      "addition": {
+        "name": "Addition",
+        "description": "Pratiquer les additions"
+      },
+      "subtraction": {
+        "name": "Soustraction",
+        "description": "Maîtriser les soustractions"
+      },
+      "multiplication": {
+        "name": "Multiplication",
+        "description": "Développer l'aisance en multiplication"
+      },
+      "division": {
+        "name": "Division",
+        "description": "Apprendre les concepts de division"
+      },
+      "alphabetTrain": {
+        "name": "Train de l'alphabet",
+        "description": "Apprentissage ludique de l'alphabet"
+      },
+      "findAndCount": {
+        "name": "Trouver et compter",
+        "description": "Exercices de comptage visuel"
+      },
+      "matching": {
+        "name": "Association",
+        "description": "Associer les éléments correspondants"
+      },
+      "crossword": {
+        "name": "Mots croisés",
+        "description": "Mots croisés personnalisés"
+      },
+      "sudoku": {
+        "name": "Sudoku",
+        "description": "Défis de puzzle numérique"
+      },
+      "coloring": {
+        "name": "Coloriage",
+        "description": "Feuilles de coloriage créatives"
+      },
+      "mathPuzzle": {
+        "name": "Énigmes mathématiques",
+        "description": "Défis mathématiques avancés"
+      },
+      "wordScramble": {
+        "name": "Mélange de mots",
+        "description": "Jeux de mots mélangés"
+      },
+      "chartCount": {
+        "name": "Graphiques et comptage",
+        "description": "Pratique des données et graphiques"
+      },
+      "drawingLines": {
+        "name": "Tracer des lignes",
+        "description": "Exercices de tracé de lignes"
+      },
+      "bigSmall": {
+        "name": "Grand Petit",
+        "description": "Activités de comparaison de taille"
+      },
+      "codeAddition": {
+        "name": "Addition codée",
+        "description": "Décoder les problèmes d'addition"
+      },
+      "cryptogram": {
+        "name": "Cryptogramme",
+        "description": "Énigmes de mots chiffrés"
+      },
+      "drawAndColor": {
+        "name": "Dessiner et colorier",
+        "description": "Combinaison de dessin et coloriage"
+      },
+      "findObjects": {
+        "name": "Trouver les objets",
+        "description": "Jeux d'objets cachés"
+      },
+      "gridMatch": {
+        "name": "Grille de correspondance",
+        "description": "Grilles de correspondance de motifs"
+      },
+      "mathWorksheet": {
+        "name": "Fiche de mathématiques",
+        "description": "Pratique mathématique complète"
+      },
+      "moreLess": {
+        "name": "Plus Moins",
+        "description": "Comparer les quantités"
+      },
+      "oddOneOut": {
+        "name": "L'intrus",
+        "description": "Trouver l'élément différent"
+      },
+      "picturePath": {
+        "name": "Chemin d'images",
+        "description": "Suivre des chemins visuels"
+      },
+      "pictureSort": {
+        "name": "Tri d'images",
+        "description": "Catégoriser les images"
+      },
+      "prepositions": {
+        "name": "Prépositions",
+        "description": "Pratique des mots de position"
+      },
+      "treasureHunt": {
+        "name": "Chasse au trésor",
+        "description": "Apprentissage par l'aventure"
+      },
+      "wordGuess": {
+        "name": "Deviner le mot",
+        "description": "Jeux de devinettes de mots"
+      },
+      "writing": {
+        "name": "Écriture",
+        "description": "Feuilles d'exercices d'écriture"
+      },
+      "bingo": {
+        "name": "Bingo",
+        "description": "Cartes de bingo personnalisées"
+      },
+      "shadowMatch": {
+        "name": "Ombre correspondante",
+        "description": "Associer les objets à leurs ombres"
+      },
+      "patternTrain": {
+        "name": "Train des motifs",
+        "description": "Pratique de reconnaissance des motifs"
+      },
+      "patternWorksheet": {
+        "name": "Fiche de motifs",
+        "description": "Compléter les séquences de motifs"
+      },
+      "missingPieces": {
+        "name": "Pièces manquantes",
+        "description": "Trouvez les pièces manquantes"
+      }
     }
   }
 }

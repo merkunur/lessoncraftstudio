@@ -6,8 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="js/translations-cryptogram.js"></script>
-  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/translations-cryptogram.js?v=1759320100"></script>
+  <script src="js/bulletproof-loader.js?v=1759320100"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
@@ -699,7 +699,7 @@
                 <h4 data-translate="cryptogram.background.title">Background</h4>
                 <label for="backgroundThemeSelect" data-translate="cryptogram.background.theme">Background Theme:</label>
                 <select id="backgroundThemeSelect">
-                    <option value="none" data-translate="common.none">None</option>
+                    <option value="none" data-translate="none">None</option>
                 </select>
                 <div id="backgroundDictionary"><p class="dictionary-message" data-translate="cryptogram.background.message">Select a theme for backgrounds.</p></div>
                 <label for="backgroundOpacity" data-translate="cryptogram.background.opacity">Background Opacity:</label>
@@ -708,7 +708,7 @@
                 <h4 data-translate="cryptogram.border.title">Border</h4>
                 <label for="borderThemeSelect" data-translate="cryptogram.border.theme">Border Theme:</label>
                 <select id="borderThemeSelect">
-                    <option value="none" data-translate="common.none">None</option>
+                    <option value="none" data-translate="none">None</option>
                 </select>
                 <div id="borderDictionary">
                     <p class="dictionary-message" data-translate="cryptogram.border.message">Select a theme to see borders.</p>
@@ -2508,7 +2508,7 @@ async function downloadPDF(canvasToExport, fileName) {
         // --- BORDER AND BACKGROUND FUNCTIONS ---
         async function loadAssetThemes(type, selectEl) {
             try {
-                selectEl.innerHTML = `<option value="none">${getTranslation("common.none") || "None"}</option>`;
+                selectEl.innerHTML = `<option value="none">${getTranslation("none") || "None"}</option>`;
                 const response = await fetch(`/api/${type}/themes?locale=${currentLocale}`);
                 if (!response.ok) {
                     console.error(`Failed to load ${type} themes`);

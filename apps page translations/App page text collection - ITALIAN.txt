@@ -1,0 +1,269 @@
+RACCOLTA TESTI PER LA PAGINA APPS - VERSIONE ITALIANA
+Traduzione professionale per l'interfaccia utente
+Stato: DEFINITIVO - Pronto per l'implementazione
+
+========================================
+INFORMAZIONI SUL FILE SORGENTE
+========================================
+
+File sorgente: frontend/app/[locale]/apps/page.tsx
+Questo file contiene la pagina principale di elenco delle applicazioni
+
+========================================
+SEZIONE 1: METADATI DELLA PAGINA
+========================================
+
+Titolo della pagina: Tutti i generatori di schede didattiche - LessonCraftStudio
+Meta-descrizione: Scegli tra 33 generatori professionali di schede per insegnanti ed editori educativi
+Meta-parole chiave: generatori di schede, strumenti educativi, risorse didattiche, schede stampabili
+
+========================================
+SEZIONE 2: SEZIONE HERO
+========================================
+
+Titolo: 33 generatori di schede didattiche
+
+Sottotitolo: Trasforma i tuoi materiali didattici con la nostra suite completa di generatori di schede educative. Dal crucipuzzle agli enigmi matematici, abbiamo tutto ciò di cui hai bisogno.
+
+========================================
+SEZIONE 3: CARD DI SPIEGAZIONE DEI PIANI
+========================================
+
+CARD 1 - Piano Gratuito:
+  Titolo: Piano Gratuito
+  Descrizione: Prova il generatore di crucipuzzle con filigrana
+
+CARD 2 - Pacchetto Essenziale:
+  Titolo: Pacchetto Essenziale - $15/mese
+  Descrizione: Accesso alle 10 applicazioni più popolari con licenza commerciale
+
+CARD 3 - Accesso Completo:
+  Titolo: Accesso Completo - $25/mese
+  Descrizione: Tutte le 33 applicazioni, supporto prioritario, accesso anticipato
+
+========================================
+SEZIONE 4: FILTRI PER CATEGORIA
+========================================
+
+Pulsante filtro: Tutte le applicazioni
+
+========================================
+SEZIONE 5: TITOLI DELLE SEZIONI APP
+========================================
+
+Titolo Sezione 1: Piano Gratuito
+Titolo Sezione 2: Pacchetto Essenziale
+Titolo Sezione 3: Applicazioni Accesso Completo
+
+========================================
+SEZIONE 6: NOMI DELLE APPLICAZIONI (33 APP)
+========================================
+
+PIANO GRATUITO (1 applicazione):
+  1. Crucipuzzle
+
+PACCHETTO ESSENZIALE (10 applicazioni):
+  2. Addizioni con Immagini
+  3. Treno dell'Alfabeto
+  4. Pagine da Colorare
+  5. Schede di Matematica
+  6. Parole Mescolate
+  7. Trova e Conta
+  8. Gioco di Abbinamenti
+  9. Traccia le Linee
+  10. Tombola delle Immagini
+  11. Sudoku per Bambini
+
+ACCESSO COMPLETO (23 applicazioni):
+  12. Grande o Piccolo
+  13. Grafici da Contare
+  14. Addizioni in Codice
+  15. Disegna e Colora
+  16. Trova gli Oggetti
+  17. Abbinamenti su Griglia
+  18. Cruciverba con Immagini
+  19. Crittogramma con Immagini
+  20. Enigmi Matematici
+  21. Pezzi Mancanti
+  22. Di Più o Di Meno
+  23. L'Intruso
+  24. Treno dei Modelli
+  25. Schede di Modelli
+  26. Percorso di Immagini
+  27. Classifica le Immagini
+  28. Preposizioni
+  29. Abbina le Ombre
+  30. Sottrazione
+  31. Caccia al Tesoro
+  32. Indovina la Parola
+  33. Esercizi di Scrittura
+
+========================================
+SEZIONE 7: NOMI DELLE CATEGORIE
+========================================
+
+Categorie utilizzate nelle applicazioni:
+  - Giochi di Parole
+  - Matematica
+  - Italiano
+  - Arte e Creatività
+  - Percezione Visiva
+  - Abbinamenti
+  - Motricità Fine
+  - Giochi
+  - Logica
+  - Concetti
+  - Modelli
+  - Classificazione
+
+========================================
+SEZIONE 8: BADGE DEI PIANI
+========================================
+
+Etichette dei badge (mostrati sulle card delle applicazioni):
+  - Gratis (per il piano gratuito)
+  - Essenziale (per il pacchetto essenziale)
+  - Completo (per l'accesso completo)
+
+========================================
+SEZIONE 9: BADGE POPOLARE
+========================================
+
+Testo del badge: Popolare
+(Questo badge appare sulle applicazioni popolari)
+
+========================================
+SEZIONE 10: SEZIONE CTA (CALL TO ACTION)
+========================================
+
+Titolo CTA: Pronto a creare schede straordinarie?
+
+Sottotitolo CTA: Inizia con il nostro generatore gratuito di crucipuzzle o sblocca tutte le applicazioni oggi stesso
+
+Testo Pulsante 1: Prova Gratis
+Testo Pulsante 2: Vedi i Prezzi
+
+========================================
+PRINCIPI DI TRADUZIONE APPLICATI
+========================================
+
+1. NATURALEZZA: Il testo suona come italiano originale, non tradotto
+2. ADATTO AL PUBBLICO: Linguaggio appropriato per insegnanti e pedagogisti italiani
+3. COERENZA: Terminologia uniforme in tutto il testo
+4. CONCISIONE: Formulazioni chiare e incisive
+5. MOTIVANTE: Pulsanti CTA motivanti e precisi
+
+Esempi di decisioni di traduzione:
+
+- "Word Search" → "Crucipuzzle" (termine italiano standard, non "Ricerca di parole")
+- "Worksheet" → "Scheda didattica" / "Scheda" (termine educativo italiano)
+- "Core Bundle" → "Pacchetto Essenziale" (più attraente di "Pacchetto base")
+- "Full Access" → "Accesso Completo" (chiaro e diretto)
+- "MatchUp Maker" → "Gioco di Abbinamenti" (descrittivo funzionale)
+- "Word Scramble" → "Parole Mescolate" (termine italiano naturale)
+- "Coloring Pages" → "Pagine da Colorare" (espressione italiana comune)
+- "Bingo" → "Tombola" (equivalente culturale italiano per il gioco)
+- "Pattern" → "Modelli" (termine appropriato per questo contesto educativo)
+- "Fine Motor Skills" → "Motricità Fine" (termine pedagogico italiano)
+- "Language Arts" → "Italiano" (adattato al contesto italiano)
+- "Odd One Out" → "L'Intruso" (espressione italiana naturale)
+- "Shadow Match" → "Abbina le Ombre" (descrittivo e chiaro)
+- "English Writing Practice" → "Esercizi di Scrittura" (generalizzato per il contesto italiano)
+- "Free Tier" → "Piano Gratuito" (più naturale di "Livello gratuito")
+- "Chart Count & Color" → "Grafici da Contare" (conciso in italiano)
+
+========================================
+NOTE PER L'IMPLEMENTAZIONE
+========================================
+
+AREA: Hero Section
+- heroTitle: "33 generatori di schede didattiche"
+- heroSubtitle: "Trasforma i tuoi materiali didattici con la nostra suite completa di generatori di schede educative. Dal crucipuzzle agli enigmi matematici, abbiamo tutto ciò di cui hai bisogno."
+
+AREA: Tier Info
+- tierInfo.freeTitle: "Piano Gratuito"
+- tierInfo.freeDescription: "Prova il generatore di crucipuzzle con filigrana"
+- tierInfo.coreTitle: "Pacchetto Essenziale - $15/mese"
+- tierInfo.coreDescription: "Accesso alle 10 applicazioni più popolari con licenza commerciale"
+- tierInfo.fullTitle: "Accesso Completo - $25/mese"
+- tierInfo.fullDescription: "Tutte le 33 applicazioni, supporto prioritario, accesso anticipato"
+
+AREA: Filters
+- filters.allApps: "Tutte le applicazioni"
+
+AREA: Section Headings
+- sections.freeTier: "Piano Gratuito"
+- sections.coreBundle: "Pacchetto Essenziale"
+- sections.fullAccess: "Applicazioni Accesso Completo"
+
+AREA: App Names
+- appNames.wordSearch: "Crucipuzzle"
+- appNames.imageAddition: "Addizioni con Immagini"
+- appNames.alphabetTrain: "Treno dell'Alfabeto"
+- appNames.coloringPages: "Pagine da Colorare"
+- appNames.mathWorksheets: "Schede di Matematica"
+- appNames.wordScramble: "Parole Mescolate"
+- appNames.findAndCount: "Trova e Conta"
+- appNames.matchUpMaker: "Gioco di Abbinamenti"
+- appNames.drawingLines: "Traccia le Linee"
+- appNames.pictureBingo: "Tombola delle Immagini"
+- appNames.sudokuForKids: "Sudoku per Bambini"
+- appNames.bigOrSmall: "Grande o Piccolo"
+- appNames.chartCountColor: "Grafici da Contare"
+- appNames.codeAddition: "Addizioni in Codice"
+- appNames.drawAndColor: "Disegna e Colora"
+- appNames.findObjects: "Trova gli Oggetti"
+- appNames.gridMatch: "Abbinamenti su Griglia"
+- appNames.imageCrossword: "Cruciverba con Immagini"
+- appNames.imageCryptogram: "Crittogramma con Immagini"
+- appNames.mathPuzzle: "Enigmi Matematici"
+- appNames.missingPieces: "Pezzi Mancanti"
+- appNames.moreOrLess: "Di Più o Di Meno"
+- appNames.oddOneOut: "L'Intruso"
+- appNames.patternTrain: "Treno dei Modelli"
+- appNames.patternWorksheets: "Schede di Modelli"
+- appNames.picturePathway: "Percorso di Immagini"
+- appNames.pictureSort: "Classifica le Immagini"
+- appNames.prepositions: "Preposizioni"
+- appNames.shadowMatch: "Abbina le Ombre"
+- appNames.subtraction: "Sottrazione"
+- appNames.treasureHunt: "Caccia al Tesoro"
+- appNames.wordGuess: "Indovina la Parola"
+- appNames.englishWritingPractice: "Esercizi di Scrittura"
+
+AREA: Categories
+- categories.wordGames: "Giochi di Parole"
+- categories.math: "Matematica"
+- categories.languageArts: "Italiano"
+- categories.artCreativity: "Arte e Creatività"
+- categories.visual: "Percezione Visiva"
+- categories.matching: "Abbinamenti"
+- categories.fineMotorSkills: "Motricità Fine"
+- categories.games: "Giochi"
+- categories.logic: "Logica"
+- categories.concepts: "Concetti"
+- categories.patterns: "Modelli"
+- categories.sorting: "Classificazione"
+
+AREA: Tier Badges
+- tierBadges.free: "Gratis"
+- tierBadges.core: "Essenziale"
+- tierBadges.full: "Completo"
+
+AREA: Popular Badge
+- badges.popular: "Popolare"
+
+AREA: CTA Section
+- cta.title: "Pronto a creare schede straordinarie?"
+- cta.subtitle: "Inizia con il nostro generatore gratuito di crucipuzzle o sblocca tutte le applicazioni oggi stesso"
+- cta.startFreeTrial: "Prova Gratis"
+- cta.viewPricing: "Vedi i Prezzi"
+
+========================================
+STATO
+========================================
+
+DEFINITIVO - Pronto per l'implementazione
+Traduzione professionale completa per tutte le aree di testo
+Controllo qualità effettuato
+NON IMPLEMENTATO - Solo traduzione creata

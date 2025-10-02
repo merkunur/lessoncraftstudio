@@ -55,7 +55,7 @@ export default function SubscriptionStatus({
   const status = subscription?.status || 'inactive';
 
   const getStatusIcon = () => {
-    if (status === 'active' || status === 'trial') {
+    if (status === 'active') {
       return <CheckCircle className="h-4 w-4 text-green-500" />;
     }
     if (status === 'past_due') {

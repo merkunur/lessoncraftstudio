@@ -141,83 +141,96 @@
     "title": "Geradores de fichas de trabalho",
     "subtitle": "Escolha entre 33 geradores profissionais",
     "search": "Pesquisar geradores...",
-    "heroTitle": "33 geradores de atividades educativas",
-    "heroSubtitle": "Transforme seus materiais didáticos com nossa coleção completa de geradores de atividades educativas. De caça-palavras a desafios matemáticos, temos tudo o que você precisa.",
+    "heroTitle": "33 geradores de fichas educativas",
+    "heroSubtitle": "Transforme os seus materiais pedagógicos com a nossa suite completa de geradores de fichas educativas. Desde sopas de letras até enigmas matemáticos, temos tudo o que precisa.",
     "categories": {
       "all": "Todos os geradores",
       "math": "Matemática",
       "language": "Língua e leitura",
       "puzzles": "Quebra-cabeças",
       "games": "Jogos",
-      "visual": "Percepção visual",
-      "motor": "Motricidade fina",
-      "wordGames": "Jogos de palavras",
-      "languageArts": "Português e escrita",
-      "artCreativity": "Arte e criatividade",
-      "matching": "Associação",
-      "fineMotorSkills": "Coordenação motora",
+      "visual": "Perceção Visual",
+      "motor": "Motricidade Fina",
+      "wordGames": "Jogos de Palavras",
+      "languageArts": "Português",
+      "artCreativity": "Arte e Criatividade",
+      "matching": "Correspondências",
+      "fineMotorSkills": "Motricidade Fina",
       "logic": "Lógica",
-      "concepts": "Conceitos básicos",
+      "concepts": "Conceitos",
       "patterns": "Padrões",
       "sorting": "Classificação"
     },
     "tier": {
-      "free": "Gratuito",
-      "core": "Pacote Essencial",
-      "full": "Acesso Completo",
+      "free": "Grátis",
+      "core": "Essencial",
+      "full": "Completo",
       "popular": "Popular"
     },
+    "tierBadges": {
+      "free": "Grátis",
+      "core": "Essencial",
+      "full": "Completo"
+    },
+    "badges": {
+      "popular": "Popular"
+    },
+    "sections": {
+      "freeTier": "Plano Gratuito",
+      "coreBundle": "Pacote Essencial",
+      "fullAccess": "Aplicações de Acesso Completo"
+    },
     "tierInfo": {
-      "freeTitle": "Versão gratuita",
-      "freeDescription": "Experimente o gerador de caça-palavras com marca d'água",
+      "freeTitle": "Plano Gratuito",
+      "freeDescription": "Experimente o gerador de sopas de letras com marca de água",
       "coreTitle": "Pacote Essencial - $15/mês",
-      "coreDescription": "Acesso aos 10 aplicativos mais populares com licença comercial",
+      "coreDescription": "Acesso às 10 aplicações mais populares com licença comercial",
       "fullTitle": "Acesso Completo - $25/mês",
-      "fullDescription": "Todos os 33 aplicativos, suporte prioritário, acesso antecipado"
+      "fullDescription": "As 33 aplicações, suporte prioritário, acesso antecipado"
     },
     "appNames": {
-      "wordSearch": "Caça-palavras",
-      "imageAddition": "Adição ilustrada",
-      "alphabetTrain": "Trenzinho do alfabeto",
-      "coloringPages": "Páginas para colorir",
-      "mathWorksheets": "Atividades de matemática",
-      "wordScramble": "Palavras embaralhadas",
-      "findAndCount": "Procurar e contar",
-      "matchUpMaker": "Jogos de correspondência",
-      "drawingLines": "Traçar linhas",
-      "pictureBingo": "Bingo ilustrado",
-      "sudokuForKids": "Sudoku infantil",
-      "bigOrSmall": "Grande ou pequeno",
-      "chartCountColor": "Gráficos para contar e colorir",
-      "codeAddition": "Code-Addition",
-      "drawAndColor": "Desenhar e colorir",
-      "findObjects": "Encontre os objetos",
-      "gridMatch": "Grade de correspondência",
-      "imageCrossword": "Palavras cruzadas ilustradas",
-      "imageCryptogram": "Criptograma ilustrado",
-      "mathPuzzle": "Desafio matemático",
-      "missingPieces": "Peças faltando",
-      "moreOrLess": "Mais ou menos",
-      "oddOneOut": "Qual é o diferente",
-      "patternTrain": "Trenzinho de sequências",
-      "patternWorksheets": "Atividades de padrões",
-      "picturePathway": "Caminho ilustrado",
-      "pictureSort": "Classificar imagens",
+      "wordSearch": "Sopa de Letras",
+      "imageAddition": "Adições com Imagens",
+      "alphabetTrain": "Comboio do Alfabeto",
+      "coloringPages": "Páginas para Colorir",
+      "mathWorksheets": "Fichas de Matemática",
+      "wordScramble": "Palavras Baralhadas",
+      "findAndCount": "Procura e Conta",
+      "matchUpMaker": "Jogo de Pares",
+      "drawingLines": "Traçar Linhas",
+      "pictureBingo": "Bingo de Imagens",
+      "sudokuForKids": "Sudoku para Crianças",
+      "bigOrSmall": "Grande ou Pequeno",
+      "chartCountColor": "Gráficos para Contar",
+      "codeAddition": "Adições em Código",
+      "drawAndColor": "Desenha e Colore",
+      "findObjects": "Procura os Objetos",
+      "gridMatch": "Correspondências em Grelha",
+      "imageCrossword": "Palavras Cruzadas com Imagens",
+      "imageCryptogram": "Criptograma com Imagens",
+      "mathPuzzle": "Enigmas Matemáticos",
+      "missingPieces": "Peças em Falta",
+      "moreOrLess": "Mais ou Menos",
+      "oddOneOut": "O Intruso",
+      "patternTrain": "Comboio de Padrões",
+      "patternWorksheets": "Fichas de Padrões",
+      "picturePathway": "Caminho de Imagens",
+      "pictureSort": "Classificação de Imagens",
       "prepositions": "Preposições",
-      "shadowMatch": "Jogo das sombras",
+      "shadowMatch": "Combinar Sombras",
       "subtraction": "Subtração",
-      "treasureHunt": "Caça ao tesouro",
-      "wordGuess": "Adivinhe a palavra",
-      "englishWritingPractice": "Prática de escrita em inglês"
+      "treasureHunt": "Caça ao Tesouro",
+      "wordGuess": "Adivinhar a Palavra",
+      "englishWritingPractice": "Exercícios de Escrita"
     },
     "cta": {
-      "title": "Pronto para criar atividades incríveis?",
-      "subtitle": "Comece com nosso gerador gratuito de caça-palavras ou desbloqueie todos os aplicativos hoje",
-      "startFreeTrial": "Teste grátis",
-      "viewPricing": "Ver preços"
+      "title": "Pronto para criar fichas incríveis?",
+      "subtitle": "Comece com o nosso gerador gratuito de sopas de letras ou desbloqueie todas as aplicações hoje mesmo",
+      "startFreeTrial": "Experimentar Grátis",
+      "viewPricing": "Ver Preços"
     },
     "filters": {
-      "allApps": "Todos os aplicativos"
+      "allApps": "Todas as aplicações"
     }
   },
   "auth": {
@@ -781,6 +794,267 @@
     "contact": {
       "title": "10. CONTATO",
       "content": "Para consultas sobre licença: license@lessoncraftstudio.com"
+    }
+  },
+  "faq": {
+    "metaTitle": "Perguntas Frequentes - LessonCraftStudio",
+    "metaDescription": "Respostas para as perguntas mais comuns sobre nossos 33 geradores de fichas, planos de preços, licenças comerciais e suporte técnico",
+    "metaKeywords": "FAQ, ajuda geradores de fichas, dúvidas sobre preços, licença comercial, suporte técnico",
+    "hero": {
+      "title": "Perguntas Frequentes",
+      "subtitle": "Tudo o que você precisa saber sobre os geradores de fichas do LessonCraftStudio"
+    },
+    "categories": {
+      "general": "Perguntas Gerais",
+      "apps": "Sobre Nossos Aplicativos",
+      "pricing": "Preços e Planos",
+      "technical": "Suporte Técnico",
+      "commercial": "Uso Comercial e Licenças"
+    },
+    "cta": {
+      "title": "Ainda tem dúvidas?",
+      "subtitle": "Nossa equipe de suporte está aqui para ajudar. Entre em contato e responderemos em 24-48 horas.",
+      "button": "Contatar Suporte"
+    }
+  },
+  "dashboard": {
+    "header": {
+      "welcome": "Bem-vindo de volta, {name}!",
+      "welcomeFallback": "Bem-vindo de volta!",
+      "subtitle": "Vamos criar algo incrível hoje",
+      "signOut": "Sair"
+    },
+    "stats": {
+      "worksheetsCreated": "Folhas criadas",
+      "totalThisMonth": "Total este mês",
+      "appsAvailable": "Aplicativos disponíveis",
+      "inYourPlan": "No seu plano",
+      "currentPlan": "Plano atual",
+      "yourMembership": "Sua assinatura"
+    },
+    "tierNames": {
+      "free": "Grátis",
+      "core": "Básico",
+      "full": "Pro"
+    },
+    "generators": {
+      "title": "Geradores de folhas",
+      "searchPlaceholder": "Pesquisar geradores...",
+      "filterLabel": "Todas as categorias",
+      "categoryAll": "Todas as categorias",
+      "open": "Abrir →",
+      "noResults": "Nenhum gerador encontrado",
+      "tryAdjusting": "Tente ajustar sua pesquisa ou filtros"
+    },
+    "subscription": {
+      "title": "Assinatura",
+      "currentPlan": "Plano atual",
+      "free": "Gratuito",
+      "perMonth": "/mês",
+      "renewsOn": "Renovado em",
+      "cancelsOn": "Cancelado em",
+      "whatsIncluded": "O que está incluído:",
+      "upgradePlan": "Atualizar plano",
+      "manageBilling": "Gerenciar faturamento",
+      "loading": "Carregando...",
+      "cancelWarning": "⚠️ Sua assinatura terminará em {date}"
+    },
+    "activity": {
+      "title": "Sua atividade",
+      "worksheetsCreated": "Folhas criadas",
+      "downloads": "Downloads",
+      "generatorsUsed": "Geradores utilizados",
+      "thisWeek": "+3 esta semana",
+      "thisMonth": "Este mês",
+      "uniqueApps": "Aplicativos únicos",
+      "unlimited": "Ilimitado",
+      "trackingNote": "📊 Sua atividade é rastreada para ajudá-lo a permanecer dentro dos limites do seu plano"
+    },
+    "paymentHistory": {
+      "title": "Histórico de pagamentos",
+      "noPayments": "Ainda não há histórico de pagamentos",
+      "noPaymentsSubtext": "Seus pagamentos aparecerão aqui após a assinatura",
+      "viewAll": "Ver todos os pagamentos →",
+      "downloadInvoice": "Baixar fatura",
+      "succeeded": "bem-sucedido",
+      "failed": "falhou",
+      "pending": "pendente"
+    },
+    "tiers": {
+      "free": {
+        "description": "Comece com o gerador de caça-palavras",
+        "features": [
+          "Apenas gerador de caça-palavras",
+          "Geração ilimitada de fichas",
+          "Downloads com marca d'água"
+        ]
+      },
+      "core": {
+        "description": "Perfeito para uso regular em sala de aula",
+        "features": [
+          "Acesso a 10 geradores populares",
+          "Geração ilimitada de fichas",
+          "Sem marcas d'água"
+        ]
+      },
+      "full": {
+        "description": "Acesso completo para usuários avançados",
+        "features": [
+          "Acesso a todos os 33 geradores",
+          "Geração ilimitada de fichas",
+          "Sem marcas d'água"
+        ]
+      }
+    },
+    "categories": {
+      "Math": "Matemática",
+      "Language": "Idioma",
+      "Logic": "Lógica",
+      "Art": "Arte",
+      "Visual": "Visual",
+      "Game": "Jogo"
+    },
+    "apps": {
+      "wordSearch": {
+        "name": "Caça-palavras",
+        "description": "Crie caça-palavras envolventes"
+      },
+      "addition": {
+        "name": "Adição",
+        "description": "Pratique problemas de adição"
+      },
+      "subtraction": {
+        "name": "Subtração",
+        "description": "Domine habilidades de subtração"
+      },
+      "multiplication": {
+        "name": "Multiplicação",
+        "description": "Desenvolva fluência em multiplicação"
+      },
+      "division": {
+        "name": "Divisão",
+        "description": "Aprenda conceitos de divisão"
+      },
+      "alphabetTrain": {
+        "name": "Trem do alfabeto",
+        "description": "Aprendizado divertido do alfabeto"
+      },
+      "findAndCount": {
+        "name": "Encontrar e contar",
+        "description": "Exercícios de contagem visual"
+      },
+      "matching": {
+        "name": "Correspondência",
+        "description": "Conecte itens correspondentes"
+      },
+      "crossword": {
+        "name": "Palavras cruzadas",
+        "description": "Palavras cruzadas personalizadas"
+      },
+      "sudoku": {
+        "name": "Sudoku",
+        "description": "Desafios de quebra-cabeças numéricos"
+      },
+      "coloring": {
+        "name": "Colorir",
+        "description": "Folhas de colorir criativas"
+      },
+      "mathPuzzle": {
+        "name": "Quebra-cabeça matemático",
+        "description": "Desafios matemáticos avançados"
+      },
+      "wordScramble": {
+        "name": "Embaralhar palavras",
+        "description": "Jogos de desembaralhar palavras"
+      },
+      "chartCount": {
+        "name": "Gráfico e contagem",
+        "description": "Prática de dados e gráficos"
+      },
+      "drawingLines": {
+        "name": "Traçar linhas",
+        "description": "Exercícios de traçado de linhas"
+      },
+      "bigSmall": {
+        "name": "Grande Pequeno",
+        "description": "Atividades de comparação de tamanho"
+      },
+      "codeAddition": {
+        "name": "Adição codificada",
+        "description": "Decodifique problemas de adição"
+      },
+      "cryptogram": {
+        "name": "Criptograma",
+        "description": "Quebra-cabeças de palavras cifradas"
+      },
+      "drawAndColor": {
+        "name": "Desenhar e colorir",
+        "description": "Combinação de desenho e coloração"
+      },
+      "findObjects": {
+        "name": "Encontrar objetos",
+        "description": "Jogos de objetos escondidos"
+      },
+      "gridMatch": {
+        "name": "Grade de correspondência",
+        "description": "Grades de correspondência de padrões"
+      },
+      "mathWorksheet": {
+        "name": "Folha de matemática",
+        "description": "Prática matemática abrangente"
+      },
+      "moreLess": {
+        "name": "Mais Menos",
+        "description": "Compare quantidades"
+      },
+      "oddOneOut": {
+        "name": "O diferente",
+        "description": "Encontre o item diferente"
+      },
+      "picturePath": {
+        "name": "Caminho de imagens",
+        "description": "Siga caminhos visuais"
+      },
+      "pictureSort": {
+        "name": "Classificar imagens",
+        "description": "Categorize imagens"
+      },
+      "prepositions": {
+        "name": "Preposições",
+        "description": "Prática de palavras de posição"
+      },
+      "treasureHunt": {
+        "name": "Caça ao tesouro",
+        "description": "Aprendizado baseado em aventura"
+      },
+      "wordGuess": {
+        "name": "Adivinhar a palavra",
+        "description": "Jogos de adivinhação de palavras"
+      },
+      "writing": {
+        "name": "Escrita",
+        "description": "Folhas de prática de escrita"
+      },
+      "bingo": {
+        "name": "Bingo",
+        "description": "Cartelas de bingo personalizadas"
+      },
+      "shadowMatch": {
+        "name": "Combinar sombras",
+        "description": "Combine objetos com suas sombras"
+      },
+      "patternTrain": {
+        "name": "Trem de padrões",
+        "description": "Prática de reconhecimento de padrões"
+      },
+      "patternWorksheet": {
+        "name": "Folha de padrões",
+        "description": "Complete sequências de padrões"
+      },
+      "missingPieces": {
+        "name": "Peças ausentes",
+        "description": "Encontre as peças que faltam"
+      }
     }
   }
 }

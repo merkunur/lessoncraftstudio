@@ -1,0 +1,268 @@
+COLLECTION DE TEXTES POUR LA PAGE APPS - VERSION FRANÇAISE
+Traduction professionnelle pour l'interface utilisateur
+Statut : DÉFINITIF - Prêt à l'implémentation
+
+========================================
+INFORMATIONS SUR LE FICHIER SOURCE
+========================================
+
+Fichier source : frontend/app/[locale]/apps/page.tsx
+Ce fichier contient la page principale de liste des applications
+
+========================================
+SECTION 1 : MÉTADONNÉES DE LA PAGE
+========================================
+
+Titre de la page : Tous les générateurs de fiches pédagogiques - LessonCraftStudio
+Meta-description : Choisissez parmi 33 générateurs de fiches professionnels pour enseignants et éditeurs pédagogiques
+Meta-mots-clés : générateurs de fiches, outils pédagogiques, ressources d'enseignement, fiches imprimables
+
+========================================
+SECTION 2 : SECTION HERO
+========================================
+
+Titre : 33 générateurs de fiches pédagogiques
+
+Sous-titre : Transformez vos supports pédagogiques avec notre suite complète de générateurs de fiches éducatives. Des mots cachés aux énigmes mathématiques, tout ce dont vous avez besoin est ici.
+
+========================================
+SECTION 3 : CARTES D'EXPLICATION DES FORMULES
+========================================
+
+CARTE 1 - Formule gratuite :
+  Titre : Formule gratuite
+  Description : Essayez le générateur de mots cachés avec filigrane
+
+CARTE 2 - Pack Essentiel :
+  Titre : Pack Essentiel - 15 $/mois
+  Description : Accès aux 10 applications les plus populaires avec licence commerciale
+
+CARTE 3 - Accès Complet :
+  Titre : Accès Complet - 25 $/mois
+  Description : Les 33 applications, support prioritaire, accès anticipé
+
+========================================
+SECTION 4 : FILTRES PAR CATÉGORIE
+========================================
+
+Bouton de filtre : Toutes les applications
+
+========================================
+SECTION 5 : TITRES DES SECTIONS D'APPS
+========================================
+
+Titre Section 1 : Formule gratuite
+Titre Section 2 : Pack Essentiel
+Titre Section 3 : Applications Accès Complet
+
+========================================
+SECTION 6 : NOMS DES APPLICATIONS (33 APPS)
+========================================
+
+FORMULE GRATUITE (1 application) :
+  1. Mots Cachés
+
+PACK ESSENTIEL (10 applications) :
+  2. Addition avec Images
+  3. Train de l'Alphabet
+  4. Pages à Colorier
+  5. Fiches de Mathématiques
+  6. Mots Mêlés
+  7. Cherche et Compte
+  8. Jeu d'Associations
+  9. Tracé de Lignes
+  10. Loto d'Images
+  11. Sudoku pour Enfants
+
+ACCÈS COMPLET (23 applications) :
+  12. Grand ou Petit
+  13. Graphiques à Compter
+  14. Addition Codée
+  15. Dessine et Colorie
+  16. Cherche les Objets
+  17. Grille d'Associations
+  18. Mots Croisés Imagés
+  19. Cryptogramme Imagé
+  20. Énigmes Mathématiques
+  21. Pièces Manquantes
+  22. Plus ou Moins
+  23. L'Intrus
+  24. Train des Motifs
+  25. Fiches de Motifs
+  26. Chemin d'Images
+  27. Tri d'Images
+  28. Prépositions
+  29. Ombres à Associer
+  30. Soustraction
+  31. Chasse au Trésor
+  32. Devine le Mot
+  33. Exercices d'Écriture
+
+========================================
+SECTION 7 : NOMS DES CATÉGORIES
+========================================
+
+Catégories utilisées dans les applications :
+  - Jeux de Mots
+  - Mathématiques
+  - Français
+  - Arts & Créativité
+  - Perception Visuelle
+  - Associations
+  - Motricité Fine
+  - Jeux
+  - Logique
+  - Notions
+  - Motifs
+  - Tri
+
+========================================
+SECTION 8 : BADGES DE FORMULES
+========================================
+
+Étiquettes des badges de formules (affichées sur les cartes d'applications) :
+  - Gratuit (pour la formule gratuite)
+  - Essentiel (pour le pack essentiel)
+  - Complet (pour l'accès complet)
+
+========================================
+SECTION 9 : BADGE POPULAIRE
+========================================
+
+Texte du badge : Populaire
+(Ce badge apparaît sur les applications populaires)
+
+========================================
+SECTION 10 : SECTION CTA (APPEL À L'ACTION)
+========================================
+
+Titre CTA : Prêt à créer des fiches extraordinaires ?
+
+Sous-titre CTA : Commencez avec notre générateur gratuit de mots cachés ou débloquez toutes les applications dès aujourd'hui
+
+Texte Bouton 1 : Essai Gratuit
+Texte Bouton 2 : Voir les Tarifs
+
+========================================
+PRINCIPES DE TRADUCTION APPLIQUÉS
+========================================
+
+1. NATUREL : Le texte sonne comme du français d'origine, non traduit
+2. ADAPTÉ AU PUBLIC : Langage approprié pour les enseignants et pédagogues français
+3. COHÉRENCE : Terminologie uniforme tout au long
+4. CONCISION : Formulations claires et percutantes
+5. INCITATIF : Boutons CTA motivants et précis
+
+Exemples de décisions de traduction :
+
+- "Word Search" → "Mots Cachés" (terme français standard, pas "Recherche de mots")
+- "Worksheet" → "Fiche pédagogique" / "Fiche" (terme éducatif français)
+- "Core Bundle" → "Pack Essentiel" (plus attractif que "Pack de base")
+- "Full Access" → "Accès Complet" (clair et direct)
+- "MatchUp Maker" → "Jeu d'Associations" (descriptif fonctionnel)
+- "Word Scramble" → "Mots Mêlés" (terme français standard)
+- "Coloring Pages" → "Pages à Colorier" (expression française courante)
+- "Bingo" → "Loto" (équivalent culturel français pour le jeu)
+- "Pattern" → "Motifs" (pas "Modèles" dans ce contexte)
+- "Fine Motor Skills" → "Motricité Fine" (terme pédagogique français)
+- "Language Arts" → "Français" (adapté au contexte français)
+- "Odd One Out" → "L'Intrus" (expression française naturelle)
+- "Shadow Match" → "Ombres à Associer" (descriptif et clair)
+- "English Writing Practice" → "Exercices d'Écriture" (généralisé pour le contexte français)
+- "Free Tier" → "Formule gratuite" (plus naturel que "Niveau gratuit")
+
+========================================
+NOTES POUR L'IMPLÉMENTATION
+========================================
+
+ZONE : Hero Section
+- heroTitle : "33 générateurs de fiches pédagogiques"
+- heroSubtitle : "Transformez vos supports pédagogiques avec notre suite complète de générateurs de fiches éducatives. Des mots cachés aux énigmes mathématiques, tout ce dont vous avez besoin est ici."
+
+ZONE : Tier Info
+- tierInfo.freeTitle : "Formule gratuite"
+- tierInfo.freeDescription : "Essayez le générateur de mots cachés avec filigrane"
+- tierInfo.coreTitle : "Pack Essentiel - 15 $/mois"
+- tierInfo.coreDescription : "Accès aux 10 applications les plus populaires avec licence commerciale"
+- tierInfo.fullTitle : "Accès Complet - 25 $/mois"
+- tierInfo.fullDescription : "Les 33 applications, support prioritaire, accès anticipé"
+
+ZONE : Filters
+- filters.allApps : "Toutes les applications"
+
+ZONE : Section Headings
+- sections.freeTier : "Formule gratuite"
+- sections.coreBundle : "Pack Essentiel"
+- sections.fullAccess : "Applications Accès Complet"
+
+ZONE : App Names
+- appNames.wordSearch : "Mots Cachés"
+- appNames.imageAddition : "Addition avec Images"
+- appNames.alphabetTrain : "Train de l'Alphabet"
+- appNames.coloringPages : "Pages à Colorier"
+- appNames.mathWorksheets : "Fiches de Mathématiques"
+- appNames.wordScramble : "Mots Mêlés"
+- appNames.findAndCount : "Cherche et Compte"
+- appNames.matchUpMaker : "Jeu d'Associations"
+- appNames.drawingLines : "Tracé de Lignes"
+- appNames.pictureBingo : "Loto d'Images"
+- appNames.sudokuForKids : "Sudoku pour Enfants"
+- appNames.bigOrSmall : "Grand ou Petit"
+- appNames.chartCountColor : "Graphiques à Compter"
+- appNames.codeAddition : "Addition Codée"
+- appNames.drawAndColor : "Dessine et Colorie"
+- appNames.findObjects : "Cherche les Objets"
+- appNames.gridMatch : "Grille d'Associations"
+- appNames.imageCrossword : "Mots Croisés Imagés"
+- appNames.imageCryptogram : "Cryptogramme Imagé"
+- appNames.mathPuzzle : "Énigmes Mathématiques"
+- appNames.missingPieces : "Pièces Manquantes"
+- appNames.moreOrLess : "Plus ou Moins"
+- appNames.oddOneOut : "L'Intrus"
+- appNames.patternTrain : "Train des Motifs"
+- appNames.patternWorksheets : "Fiches de Motifs"
+- appNames.picturePathway : "Chemin d'Images"
+- appNames.pictureSort : "Tri d'Images"
+- appNames.prepositions : "Prépositions"
+- appNames.shadowMatch : "Ombres à Associer"
+- appNames.subtraction : "Soustraction"
+- appNames.treasureHunt : "Chasse au Trésor"
+- appNames.wordGuess : "Devine le Mot"
+- appNames.englishWritingPractice : "Exercices d'Écriture"
+
+ZONE : Categories
+- categories.wordGames : "Jeux de Mots"
+- categories.math : "Mathématiques"
+- categories.languageArts : "Français"
+- categories.artCreativity : "Arts & Créativité"
+- categories.visual : "Perception Visuelle"
+- categories.matching : "Associations"
+- categories.fineMotorSkills : "Motricité Fine"
+- categories.games : "Jeux"
+- categories.logic : "Logique"
+- categories.concepts : "Notions"
+- categories.patterns : "Motifs"
+- categories.sorting : "Tri"
+
+ZONE : Tier Badges
+- tierBadges.free : "Gratuit"
+- tierBadges.core : "Essentiel"
+- tierBadges.full : "Complet"
+
+ZONE : Popular Badge
+- badges.popular : "Populaire"
+
+ZONE : CTA Section
+- cta.title : "Prêt à créer des fiches extraordinaires ?"
+- cta.subtitle : "Commencez avec notre générateur gratuit de mots cachés ou débloquez toutes les applications dès aujourd'hui"
+- cta.startFreeTrial : "Essai Gratuit"
+- cta.viewPricing : "Voir les Tarifs"
+
+========================================
+STATUT
+========================================
+
+DÉFINITIF - Prêt à l'implémentation
+Traduction professionnelle complète pour toutes les zones de texte
+Contrôle qualité effectué
+NON IMPLÉMENTÉ - Traduction uniquement créée

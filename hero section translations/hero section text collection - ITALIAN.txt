@@ -1,0 +1,525 @@
+RACCOLTA TESTI PER SEZIONE HERO - VERSIONE ITALIANA
+Traduzione professionale per l'interfaccia utente
+Stato: FINALE - Pronto per l'uso
+
+========================================
+INFORMAZIONI FILE SORGENTE
+========================================
+
+Dati estratti da: frontend/app/[locale]/apps/[slug]/page.tsx
+Righe: 424-521 (oggetto staticAppData)
+
+Questo file contiene i dati della sezione hero che appare quando si visualizzano le singole applicazioni nell'applicazione Next.js.
+La sezione hero include:
+- Nome/titolo dell'applicazione
+- Descrizione
+- Badge di categoria
+- Badge del livello richiesto (GRATUITO / PACCHETTO BASE / ACCESSO COMPLETO)
+- Punti elenco delle funzionalità (4 funzionalità per app)
+
+========================================
+ELEMENTI COMUNI
+========================================
+
+Badge dei Livelli:
+- GRATUITO
+- PACCHETTO BASE
+- ACCESSO COMPLETO
+
+Categorie:
+- Arte e Creatività
+- Apprendimento Precoce
+- Motricità Fine
+- Giochi
+- Lingua e Lettura
+- Logica
+- Associazione
+- Matematica
+- Percezione Visiva
+- Giochi di Parole
+- Scrittura Creativa
+- Analisi dei Dati
+- Grammatica
+- Giochi Educativi
+- Giochi di Memoria
+- Risoluzione dei Problemi
+- Enigmi
+- Ora e Data
+- Abilità di Scrittura
+
+Elementi di Testo UI:
+- "Applicazioni" (breadcrumb)
+- "Come usare" (titolo sezione)
+- "Perfetto per" (titolo sezione)
+- "Pronto a creare schede fantastiche?" (titolo CTA)
+- "Unisciti a migliaia di insegnanti che creano materiali didattici professionali" (descrizione CTA)
+- "Vedi i piani" (pulsante)
+- "Esplora app gratuite" (pulsante)
+- "Vedi tutti i piani" (pulsante)
+- "Inizia prova gratuita" (pulsante)
+- "Questa app richiede il Pacchetto Base" (messaggio di accesso)
+- "Questa app richiede l'Accesso Completo" (messaggio di accesso)
+- "Aggiorna il tuo piano per accedere a questo generatore di schede e molti altri strumenti professionali." (messaggio di upgrade)
+
+========================================
+DATI DELLE APPLICAZIONI INDIVIDUALI
+========================================
+
+APP: Addition (slug: image-addition)
+Titolo: Addizioni con Immagini
+Descrizione: Crea schede di addizioni visuali con immagini per l'apprendimento matematico iniziale
+Categoria: Matematica
+Livello Richiesto: PACCHETTO BASE
+Funzionalità:
+  - Problemi matematici visuali
+  - Difficoltà personalizzabile
+  - Chiavi di risposta
+  - Formato pronto per la stampa
+
+----------------------------------------
+
+APP: Alphabet Train
+Titolo: Treno dell'Alfabeto
+Descrizione: Aiuta i bambini a imparare le lettere con divertenti schede sul tema del trenino
+Categoria: Lingua e Lettura
+Livello Richiesto: PACCHETTO BASE
+Funzionalità:
+  - Riconoscimento delle lettere
+  - Ordine alfabetico
+  - Tema divertente del trenino
+  - Diversi livelli di difficoltà
+
+----------------------------------------
+
+APP: Big or Small (slug: big-small-app)
+Titolo: Grande o Piccolo
+Descrizione: Crea schede di confronto dimensioni con esercizi visuali per i primi apprendimenti
+Categoria: Apprendimento Precoce
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Confronto di dimensioni
+  - Esercizi visuali
+  - Scelta multipla
+  - Attività di sequenza
+
+----------------------------------------
+
+APP: Chart Count (slug: chart-count-color)
+Titolo: Grafici per Contare
+Descrizione: Crea schede con grafici colorati per l'apprendimento dei numeri
+Categoria: Matematica
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Esercizi di conteggio visivo
+  - Grafici a colori
+  - Apprendimento dei numeri
+  - Formato pronto per la stampa
+
+----------------------------------------
+
+APP: Code Addition
+Titolo: Addizioni con Codici
+Descrizione: Crea esercizi di addizione con codici segreti per rendere la matematica divertente
+Categoria: Matematica
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Addizioni con codici segreti
+  - Attività ludiche
+  - Difficoltà regolabile
+  - Chiavi di risposta incluse
+
+----------------------------------------
+
+APP: Coloring
+Titolo: Pagine da Colorare
+Descrizione: Crea pagine da colorare stampabili dalla nostra ampia biblioteca di immagini
+Categoria: Arte e Creatività
+Livello Richiesto: PACCHETTO BASE
+Funzionalità:
+  - Oltre 100 immagini
+  - Temi multipli
+  - Vari livelli di difficoltà
+  - Stampe di alta qualità
+
+----------------------------------------
+
+APP: Crossword (slug: image-crossword)
+Titolo: Cruciverba con Immagini
+Descrizione: Genera cruciverba illustrati per arricchire il vocabolario
+Categoria: Giochi di Parole
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Generazione automatica
+  - Indizi personalizzabili
+  - Diverse dimensioni di griglia
+  - Chiavi di risposta incluse
+
+----------------------------------------
+
+APP: Cryptogram (slug: image-cryptogram)
+Titolo: Crittogramma con Immagini
+Descrizione: Crea crittogrammi illustrati per sviluppare logica e vocabolario
+Categoria: Enigmi
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Crittogrammi visuali
+  - Codici personalizzabili
+  - Diversi livelli
+  - Soluzioni incluse
+
+----------------------------------------
+
+APP: Draw and Color
+Titolo: Disegna e Colora
+Descrizione: Crea schede che combinano disegno e colorazione per stimolare la creatività
+Categoria: Arte e Creatività
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Spazi per disegno libero
+  - Zone da colorare
+  - Temi vari
+  - Stimola la creatività
+
+----------------------------------------
+
+APP: Drawing Lines
+Titolo: Tracciare Linee
+Descrizione: Sviluppa la motricità fine attraverso esercizi di tracciamento di linee
+Categoria: Motricità Fine
+Livello Richiesto: PACCHETTO BASE
+Funzionalità:
+  - Attività di tracciamento
+  - Unisci i puntini
+  - Seguire percorsi
+  - Preparazione alla scrittura
+
+----------------------------------------
+
+APP: Find and Count
+Titolo: Trova e Conta
+Descrizione: Esercizi di conteggio visivo per sviluppare il riconoscimento numerico
+Categoria: Percezione Visiva
+Livello Richiesto: PACCHETTO BASE
+Funzionalità:
+  - Conteggio di oggetti
+  - Discriminazione visiva
+  - Pratica numerica
+  - Immagini coinvolgenti
+
+----------------------------------------
+
+APP: Find Objects
+Titolo: Trova gli Oggetti
+Descrizione: Crea schede di ricerca oggetti per migliorare l'attenzione visiva
+Categoria: Percezione Visiva
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Esercizi di ricerca visiva
+  - Sviluppa l'attenzione
+  - Temi vari
+  - Diversi livelli di difficoltà
+
+----------------------------------------
+
+APP: Grid Match
+Titolo: Associazione su Griglia
+Descrizione: Crea esercizi di associazione su griglia per sviluppare la percezione spaziale
+Categoria: Associazione
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Corrispondenza di pattern
+  - Orientamento spaziale
+  - Percezione visiva
+  - Difficoltà progressiva
+
+----------------------------------------
+
+APP: MatchUp Maker (slug: matching-app)
+Titolo: Creatore di Abbinamenti
+Descrizione: Crea attività di abbinamento per migliorare memoria e capacità associative
+Categoria: Associazione
+Livello Richiesto: PACCHETTO BASE
+Funzionalità:
+  - Abbinamento immagine-immagine
+  - Abbinamento parola-immagine
+  - Giochi di memoria
+  - Coppie personalizzabili
+
+----------------------------------------
+
+APP: Math Puzzle
+Titolo: Enigmi Matematici
+Descrizione: Crea enigmi matematici stimolanti per sviluppare la logica
+Categoria: Matematica
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Enigmi di calcolo
+  - Logica matematica
+  - Diversi livelli
+  - Soluzioni incluse
+
+----------------------------------------
+
+APP: Math Worksheets (slug: math-worksheet)
+Titolo: Schede di Matematica
+Descrizione: Genera schede di esercizi matematici personalizzabili per tutti i livelli
+Categoria: Matematica
+Livello Richiesto: PACCHETTO BASE
+Funzionalità:
+  - Addizioni e sottrazioni
+  - Moltiplicazioni e divisioni
+  - Chiavi di risposta
+  - Livelli di difficoltà regolabili
+
+----------------------------------------
+
+APP: Missing Pieces
+Titolo: Pezzi Mancanti
+Descrizione: Crea esercizi di completamento visivo per sviluppare la logica
+Categoria: Logica
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Identificazione di elementi mancanti
+  - Ragionamento logico
+  - Esercizi visuali
+  - Difficoltà progressiva
+
+----------------------------------------
+
+APP: More Less
+Titolo: Più o Meno
+Descrizione: Crea esercizi di confronto quantità per apprendere concetti matematici
+Categoria: Matematica
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Confronto di quantità
+  - Concetti matematici di base
+  - Esercizi visuali
+  - Apprendimento progressivo
+
+----------------------------------------
+
+APP: Odd One Out
+Titolo: L'Intruso
+Descrizione: Crea esercizi per identificare l'elemento diverso e sviluppare l'analisi
+Categoria: Logica
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Identificazione di differenze
+  - Ragionamento logico
+  - Categorizzazione
+  - Esercizi vari
+
+----------------------------------------
+
+APP: Pattern Train
+Titolo: Treno dei Pattern
+Descrizione: Crea schede di sequenze sul tema del trenino per riconoscere i pattern
+Categoria: Logica
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Riconoscimento di pattern
+  - Sequenze logiche
+  - Tema del trenino
+  - Difficoltà progressiva
+
+----------------------------------------
+
+APP: Pattern Worksheet
+Titolo: Schede di Pattern
+Descrizione: Crea schede per imparare sequenze e pattern ripetitivi
+Categoria: Logica
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Pattern e sequenze
+  - Riconoscimento visivo
+  - Ragionamento logico
+  - Livelli multipli
+
+----------------------------------------
+
+APP: Picture Bingo
+Titolo: Tombola con Immagini
+Descrizione: Genera cartelle della tombola personalizzate con immagini per la classe
+Categoria: Giochi
+Livello Richiesto: PACCHETTO BASE
+Funzionalità:
+  - Cartelle personalizzate
+  - Immagini tematiche
+  - Dimensioni multiple delle cartelle
+  - Fogli di chiamata inclusi
+
+----------------------------------------
+
+APP: Picture Pathway (slug: picture-path)
+Titolo: Percorso delle Immagini
+Descrizione: Crea percorsi visuali per sviluppare logica e seguire istruzioni
+Categoria: Logica
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Percorsi da seguire
+  - Logica sequenziale
+  - Esercizi visuali
+  - Diversi livelli di difficoltà
+
+----------------------------------------
+
+APP: Picture Sort
+Titolo: Classifica le Immagini
+Descrizione: Crea attività di classificazione immagini per sviluppare la categorizzazione
+Categoria: Logica
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Classificazione e ordinamento
+  - Categorizzazione
+  - Ragionamento logico
+  - Temi vari
+
+----------------------------------------
+
+APP: Prepositions
+Titolo: Preposizioni
+Descrizione: Crea esercizi visuali per imparare le preposizioni in modo ludico
+Categoria: Grammatica
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Preposizioni spaziali
+  - Esercizi illustrati
+  - Apprendimento visivo
+  - Facile da comprendere
+
+----------------------------------------
+
+APP: Shadow Match
+Titolo: Abbina le Ombre
+Descrizione: Crea esercizi di abbinamento oggetti con le loro ombre
+Categoria: Percezione Visiva
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Abbinamento forma-ombra
+  - Percezione visiva
+  - Discriminazione visiva
+  - Diversi livelli
+
+----------------------------------------
+
+APP: Subtraction
+Titolo: Sottrazioni
+Descrizione: Crea schede di sottrazioni visuali per l'apprendimento matematico
+Categoria: Matematica
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Esercizi di sottrazione
+  - Supporto visivo
+  - Difficoltà regolabile
+  - Chiavi di risposta incluse
+
+----------------------------------------
+
+APP: Sudoku for Kids (slug: sudoku)
+Titolo: Sudoku per Bambini
+Descrizione: Sudoku ludici con immagini al posto dei numeri per bambini
+Categoria: Logica
+Livello Richiesto: PACCHETTO BASE
+Funzionalità:
+  - Sudoku con immagini
+  - Griglie 4x4 e 6x6
+  - Difficoltà progressiva
+  - Soluzioni incluse
+
+----------------------------------------
+
+APP: Treasure Hunt
+Titolo: Caccia al Tesoro
+Descrizione: Crea schede di caccia al tesoro per attività ludiche ed educative
+Categoria: Giochi Educativi
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Percorsi di ricerca
+  - Attività ludiche
+  - Mappe personalizzabili
+  - Stimola il ragionamento
+
+----------------------------------------
+
+APP: Word Guess
+Titolo: Indovina la Parola
+Descrizione: Crea schede per indovinare le parole e arricchire il vocabolario
+Categoria: Giochi di Parole
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Indovinelli di parole
+  - Indizi visuali
+  - Arricchimento del vocabolario
+  - Livelli multipli
+
+----------------------------------------
+
+APP: Word Scramble
+Titolo: Parole Mescolate
+Descrizione: Crea schede di parole mescolate per migliorare vocabolario e ortografia
+Categoria: Lingua e Lettura
+Livello Richiesto: PACCHETTO BASE
+Funzionalità:
+  - Liste di parole personalizzate
+  - Vocabolario tematico
+  - Diversi livelli di difficoltà
+  - Chiavi di risposta incluse
+
+----------------------------------------
+
+APP: Word Search (slug: word-search, file: wordsearch.html)
+Titolo: Crucipuzzle
+Descrizione: Genera crucipuzzle personalizzabili con vocabolario tematico
+Categoria: Giochi di Parole
+Livello Richiesto: GRATUITO
+Funzionalità:
+  - Dimensioni multiple della griglia
+  - Opzioni direzionali
+  - Liste di parole tematiche
+  - Chiavi di risposta incluse
+
+----------------------------------------
+
+APP: Writing (slug: writing-app)
+Titolo: Esercizi di Scrittura
+Descrizione: Crea schede di scrittura personalizzate per sviluppare le abilità di scrittura
+Categoria: Abilità di Scrittura
+Livello Richiesto: ACCESSO COMPLETO
+Funzionalità:
+  - Righe di scrittura personalizzabili
+  - Temi vari
+  - Supporto visivo
+  - Formato pronto per la stampa
+
+========================================
+PRINCIPI DI TRADUZIONE APPLICATI
+========================================
+
+1. NATURALEZZA: Il testo suona nativo italiano, non tradotto
+2. MIRATO: Linguaggio appropriato per insegnanti e genitori italiani
+3. COERENZA: Terminologia uniforme in tutto il documento
+4. CONCISIONE: Descrizioni chiare e significative
+5. COINVOLGIMENTO: Formulazioni positive e invitanti
+
+Esempi di scelte di traduzione:
+
+- "Worksheets" → "Schede" (termine educativo standard in italiano)
+- "Print-ready" → "Pronto per la stampa" (forma attiva, naturale)
+- "Core Bundle" → "Pacchetto Base" (chiaro e diretto)
+- "Full Access" → "Accesso Completo" (chiaro e diretto)
+- "Word Search" → "Crucipuzzle" (termine italiano specifico, non "cerca parole")
+- "Word Scramble" → "Parole Mescolate" (naturale in italiano)
+- "Bingo" → "Tombola" (equivalente culturale italiano)
+- "Answer keys" → "Chiavi di risposta" (terminologia educativa italiana)
+- "Customizable" → "Personalizzabile" (termine tecnico appropriato)
+- "Match/Matching" → "Abbinamento/Associazione" (secondo il contesto)
+- "Odd One Out" → "L'Intruso" (espressione naturale italiana)
+
+========================================
+STATO
+========================================
+
+FINALE - Pronto per l'uso
+Traduzione professionale completa per tutte le 33 applicazioni
+Revisione completata

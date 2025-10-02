@@ -583,7 +583,7 @@
                     <h4 data-translate="findobjects.border.title">Border</h4>
                     <label for="borderThemeSelect" data-translate="findobjects.border.theme">Border Theme:</label>
                     <select id="borderThemeSelect">
-                        <option value="none" data-translate="common.none">None</option>
+                        <option value="none" data-translate="none">None</option>
                     </select>
                     <div id="borderDictionary"><p class="dictionary-message" data-translate="findobjects.border.message">Select a theme for borders.</p></div>
                     <label for="borderOpacity" data-translate="findobjects.border.opacity">Border Opacity:</label>
@@ -2498,7 +2498,7 @@ function showMessage(msg, type = 'info', duration = 3000) {
 
         async function loadAssetThemes(type, selectEl) {
             try {
-                selectEl.innerHTML = `<option value="none" data-translate="common.none">${t('common.none')}</option>`;
+                selectEl.innerHTML = `<option value="none" data-translate="none">${t('none')}</option>`;
                 const response = await fetch(`/api/${type}/themes?locale=${currentLocale}`);
                 if (!response.ok) {
                     console.error(`Failed to load ${type} themes`);

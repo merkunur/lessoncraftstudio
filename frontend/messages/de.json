@@ -89,8 +89,8 @@
     "title": "Arbeitsblatt-Generatoren",
     "subtitle": "Wählen Sie aus 33 professionellen Arbeitsblatt-Generatoren",
     "search": "Generatoren suchen...",
-    "heroTitle": "33 Arbeitsblatt-Generatoren",
-    "heroSubtitle": "Verwandeln Sie Ihre Unterrichtsmaterialien mit unserer umfassenden Sammlung pädagogischer Arbeitsblatt-Generatoren. Von Worträtseln bis zu Mathe-Aufgaben – bei uns finden Sie alles, was Sie brauchen.",
+    "heroTitle": "33 Arbeitsblatt-Generator Apps",
+    "heroSubtitle": "Verwandeln Sie Ihre Unterrichtsmaterialien mit unserer umfassenden Suite pädagogischer Arbeitsblatt-Generatoren. Von Worträtseln bis zu Mathe-Aufgaben – bei uns finden Sie alles, was Sie brauchen.",
     "categories": {
       "all": "Alle Generatoren",
       "math": "Mathematik",
@@ -100,20 +100,33 @@
       "visual": "Visuelle Wahrnehmung",
       "motor": "Feinmotorik",
       "wordGames": "Wortspiele",
-      "languageArts": "Sprachförderung",
+      "languageArts": "Sprachunterricht",
       "artCreativity": "Kunst & Kreativität",
       "matching": "Zuordnung",
       "fineMotorSkills": "Feinmotorik",
       "logic": "Logik",
-      "concepts": "Grundkonzepte",
+      "concepts": "Konzepte",
       "patterns": "Muster",
       "sorting": "Sortieren"
     },
     "tier": {
       "free": "Kostenlos",
-      "core": "Basis-Paket",
-      "full": "Vollzugriff",
+      "core": "Basis",
+      "full": "Voll",
       "popular": "Beliebt"
+    },
+    "tierBadges": {
+      "free": "Kostenlos",
+      "core": "Basis",
+      "full": "Voll"
+    },
+    "badges": {
+      "popular": "Beliebt"
+    },
+    "sections": {
+      "freeTier": "Kostenlose Version",
+      "coreBundle": "Basis-Paket",
+      "fullAccess": "Vollzugriff Apps"
     },
     "wordSearch": {
       "name": "Wortsuche",
@@ -128,53 +141,53 @@
     },
     "tierInfo": {
       "freeTitle": "Kostenlose Version",
-      "freeDescription": "Testen Sie den Wortsuche-Generator mit Wasserzeichen",
-      "coreTitle": "Basis-Paket - $15/Monat",
-      "coreDescription": "Zugriff auf die 10 beliebtesten Apps mit kommerzieller Lizenz",
-      "fullTitle": "Vollzugriff - $25/Monat",
+      "freeDescription": "Testen Sie den Worträtsel-Generator mit Wasserzeichen",
+      "coreTitle": "Basis-Paket - 15 $/Monat",
+      "coreDescription": "Zugriff auf die 10 beliebtesten Apps mit Gewerbelizenz",
+      "fullTitle": "Vollzugriff - 25 $/Monat",
       "fullDescription": "Alle 33 Apps, Prioritäts-Support, frühzeitiger Zugang"
     },
     "appNames": {
-      "wordSearch": "Wortsuche",
-      "imageAddition": "Bilder-Addition",
-      "alphabetTrain": "Buchstaben-Zug",
+      "wordSearch": "Wörtersuche",
+      "imageAddition": "Bildaddition",
+      "alphabetTrain": "Alphabet-Zug",
       "coloringPages": "Ausmalbilder",
       "mathWorksheets": "Mathe-Arbeitsblätter",
       "wordScramble": "Buchstabensalat",
-      "findAndCount": "Finden und Zählen",
-      "matchUpMaker": "Zuordnungsspiele",
-      "drawingLines": "Linien zeichnen",
+      "findAndCount": "Suchen und Zählen",
+      "matchUpMaker": "Zuordnungsspiel",
+      "drawingLines": "Linien Zeichnen",
       "pictureBingo": "Bilder-Bingo",
-      "sudokuForKids": "Kinder-Sudoku",
+      "sudokuForKids": "Sudoku für Kinder",
       "bigOrSmall": "Groß oder Klein",
-      "chartCountColor": "Diagramme zählen & malen",
+      "chartCountColor": "Zähldiagramme",
       "codeAddition": "Code-Addition",
-      "drawAndColor": "Zeichnen und Ausmalen",
-      "findObjects": "Gegenstände finden",
-      "gridMatch": "Gitter-Zuordnung",
+      "drawAndColor": "Malen und Ausmalen",
+      "findObjects": "Gegenstände Finden",
+      "gridMatch": "Raster-Zuordnung",
       "imageCrossword": "Bilder-Kreuzworträtsel",
       "imageCryptogram": "Bilder-Kryptogramm",
       "mathPuzzle": "Mathe-Rätsel",
       "missingPieces": "Fehlende Teile",
       "moreOrLess": "Mehr oder Weniger",
-      "oddOneOut": "Was passt nicht?",
+      "oddOneOut": "Was Passt Nicht",
       "patternTrain": "Muster-Zug",
       "patternWorksheets": "Muster-Arbeitsblätter",
-      "picturePathway": "Bilderpfad",
-      "pictureSort": "Bilder sortieren",
+      "picturePathway": "Bilder-Pfad",
+      "pictureSort": "Bilder Sortieren",
       "prepositions": "Präpositionen",
-      "shadowMatch": "Schatten-Zuordnung",
+      "shadowMatch": "Schatten Zuordnen",
       "storyDice": "Geschichtenwürfel",
       "subtraction": "Subtraktion",
       "treasureHunt": "Schatzsuche",
-      "wordGuess": "Wörter raten",
-      "writingPractice": "Schreibübungen"
+      "wordGuess": "Wort Erraten",
+      "englishWritingPractice": "Schreibübungen"
     },
     "cta": {
-      "title": "Bereit für großartige Arbeitsblätter?",
-      "subtitle": "Beginnen Sie mit unserem kostenlosen Wortsuche-Generator oder schalten Sie heute alle Apps frei",
-      "startFreeTrial": "Kostenlos testen",
-      "viewPricing": "Preise ansehen"
+      "title": "Bereit, großartige Arbeitsblätter zu erstellen?",
+      "subtitle": "Beginnen Sie mit unserem kostenlosen Worträtsel-Generator oder schalten Sie noch heute alle Apps frei",
+      "startFreeTrial": "Kostenlos Testen",
+      "viewPricing": "Preise Ansehen"
     },
     "filters": {
       "allApps": "Alle Apps"
@@ -831,5 +844,266 @@
     "chooseFiles": "Dateien auswählen",
     "filesSelected": "Dateien ausgewählt",
     "noFileChosen": "Keine Datei ausgewählt"
+  },
+  "faq": {
+    "metaTitle": "Häufig gestellte Fragen - LessonCraftStudio",
+    "metaDescription": "Antworten auf häufige Fragen zu unseren 33 Arbeitsblatt-Generatoren, Preisplänen, Gewerbelizenzen und technischem Support",
+    "metaKeywords": "FAQ, Arbeitsblatt-Generatoren Hilfe, Preisfragen, Gewerbelizenz, technischer Support",
+    "hero": {
+      "title": "Häufig gestellte Fragen",
+      "subtitle": "Alles Wissenswerte über die Arbeitsblatt-Generatoren von LessonCraftStudio"
+    },
+    "categories": {
+      "general": "Allgemeine Fragen",
+      "apps": "Über unsere Apps",
+      "pricing": "Preise & Tarife",
+      "technical": "Technischer Support",
+      "commercial": "Gewerbliche Nutzung & Lizenzierung"
+    },
+    "cta": {
+      "title": "Haben Sie noch Fragen?",
+      "subtitle": "Unser Support-Team hilft Ihnen gerne weiter. Kontaktieren Sie uns – wir antworten innerhalb von 24-48 Stunden.",
+      "button": "Support kontaktieren"
+    }
+  },
+  "dashboard": {
+    "header": {
+      "welcome": "Willkommen zurück, {name}!",
+      "welcomeFallback": "Willkommen zurück!",
+      "subtitle": "Lassen Sie uns heute etwas Großartiges erstellen",
+      "signOut": "Abmelden"
+    },
+    "stats": {
+      "worksheetsCreated": "Erstellte Arbeitsblätter",
+      "totalThisMonth": "Insgesamt diesen Monat",
+      "appsAvailable": "Verfügbare Apps",
+      "inYourPlan": "In Ihrem Tarif",
+      "currentPlan": "Aktueller Tarif",
+      "yourMembership": "Ihre Mitgliedschaft"
+    },
+    "tierNames": {
+      "free": "Kostenlos",
+      "core": "Kern",
+      "full": "Pro"
+    },
+    "generators": {
+      "title": "Arbeitsblatt-Generatoren",
+      "searchPlaceholder": "Generatoren durchsuchen...",
+      "filterLabel": "Alle Kategorien",
+      "categoryAll": "Alle Kategorien",
+      "open": "Öffnen →",
+      "noResults": "Keine Generatoren gefunden",
+      "tryAdjusting": "Passen Sie Ihre Suche oder Filter an"
+    },
+    "subscription": {
+      "title": "Abonnement",
+      "currentPlan": "Aktueller Tarif",
+      "free": "Kostenlos",
+      "perMonth": "/Monat",
+      "renewsOn": "Verlängert am",
+      "cancelsOn": "Endet am",
+      "whatsIncluded": "Was ist enthalten:",
+      "upgradePlan": "Tarif upgraden",
+      "manageBilling": "Abrechnung verwalten",
+      "loading": "Lädt...",
+      "cancelWarning": "⚠️ Ihr Abonnement endet am {date}"
+    },
+    "activity": {
+      "title": "Ihre Aktivität",
+      "worksheetsCreated": "Erstellte Arbeitsblätter",
+      "downloads": "Downloads",
+      "generatorsUsed": "Genutzte Generatoren",
+      "thisWeek": "+3 diese Woche",
+      "thisMonth": "Diesen Monat",
+      "uniqueApps": "Einzigartige Apps",
+      "unlimited": "Unbegrenzt",
+      "trackingNote": "📊 Ihre Aktivität wird verfolgt, um Ihnen zu helfen, innerhalb Ihrer Tarif-Grenzen zu bleiben"
+    },
+    "paymentHistory": {
+      "title": "Zahlungshistorie",
+      "noPayments": "Noch keine Zahlungshistorie",
+      "noPaymentsSubtext": "Ihre Zahlungen werden hier angezeigt, nachdem Sie ein Abonnement abgeschlossen haben",
+      "viewAll": "Alle Zahlungen anzeigen →",
+      "downloadInvoice": "Rechnung herunterladen",
+      "succeeded": "erfolgreich",
+      "failed": "fehlgeschlagen",
+      "pending": "ausstehend"
+    },
+    "tiers": {
+      "free": {
+        "description": "Starten Sie mit dem Wortsuche-Generator",
+        "features": [
+          "Nur Wortsuche-Generator",
+          "Unbegrenzte Arbeitsblatt-Erstellung",
+          "Downloads mit Wasserzeichen"
+        ]
+      },
+      "core": {
+        "description": "Perfekt für den regelmäßigen Unterrichtseinsatz",
+        "features": [
+          "Zugriff auf 10 beliebte Arbeitsblatt-Generatoren",
+          "Unbegrenzte Arbeitsblatt-Erstellung",
+          "Ohne Wasserzeichen"
+        ]
+      },
+      "full": {
+        "description": "Vollständiger Zugriff für Vielnutzer",
+        "features": [
+          "Zugriff auf alle 33 Arbeitsblatt-Generatoren",
+          "Unbegrenzte Arbeitsblatt-Erstellung",
+          "Ohne Wasserzeichen"
+        ]
+      }
+    },
+    "categories": {
+      "Math": "Mathematik",
+      "Language": "Sprache",
+      "Logic": "Logik",
+      "Art": "Kunst",
+      "Visual": "Visuell",
+      "Game": "Spiel"
+    },
+    "apps": {
+      "wordSearch": {
+        "name": "Wortsuche",
+        "description": "Erstellen Sie ansprechende Wortsuchrätsel"
+      },
+      "addition": {
+        "name": "Addition",
+        "description": "Additionsaufgaben üben"
+      },
+      "subtraction": {
+        "name": "Subtraktion",
+        "description": "Subtraktionsfähigkeiten meistern"
+      },
+      "multiplication": {
+        "name": "Multiplikation",
+        "description": "Multiplikationsfertigkeit aufbauen"
+      },
+      "division": {
+        "name": "Division",
+        "description": "Divisionskonzepte lernen"
+      },
+      "alphabetTrain": {
+        "name": "Alphabetzug",
+        "description": "Spielerisches Alphabet-Lernen"
+      },
+      "findAndCount": {
+        "name": "Finden und Zählen",
+        "description": "Visuelle Zählübungen"
+      },
+      "matching": {
+        "name": "Zuordnung",
+        "description": "Passende Elemente verbinden"
+      },
+      "crossword": {
+        "name": "Kreuzworträtsel",
+        "description": "Individuelle Kreuzworträtsel"
+      },
+      "sudoku": {
+        "name": "Sudoku",
+        "description": "Zahlenrätsel-Herausforderungen"
+      },
+      "coloring": {
+        "name": "Ausmalen",
+        "description": "Kreative Ausmalblätter"
+      },
+      "mathPuzzle": {
+        "name": "Mathe-Rätsel",
+        "description": "Anspruchsvolle Mathe-Aufgaben"
+      },
+      "wordScramble": {
+        "name": "Buchstabensalat",
+        "description": "Buchstaben entschlüsseln"
+      },
+      "chartCount": {
+        "name": "Diagramm zählen",
+        "description": "Daten- und Diagramm-Übungen"
+      },
+      "drawingLines": {
+        "name": "Linien zeichnen",
+        "description": "Linienführung üben"
+      },
+      "bigSmall": {
+        "name": "Groß Klein",
+        "description": "Größenvergleichs-Aktivitäten"
+      },
+      "codeAddition": {
+        "name": "Code-Addition",
+        "description": "Additionsaufgaben entschlüsseln"
+      },
+      "cryptogram": {
+        "name": "Kryptogramm",
+        "description": "Verschlüsselte Worträtsel"
+      },
+      "drawAndColor": {
+        "name": "Zeichnen und Ausmalen",
+        "description": "Zeichen- und Ausmal-Kombination"
+      },
+      "findObjects": {
+        "name": "Objekte finden",
+        "description": "Versteckte Objekte suchen"
+      },
+      "gridMatch": {
+        "name": "Gitter-Zuordnung",
+        "description": "Muster-Zuordnungs-Gitter"
+      },
+      "mathWorksheet": {
+        "name": "Mathe-Arbeitsblatt",
+        "description": "Umfassende Mathe-Übungen"
+      },
+      "moreLess": {
+        "name": "Mehr Weniger",
+        "description": "Mengen vergleichen"
+      },
+      "oddOneOut": {
+        "name": "Welches passt nicht",
+        "description": "Das unterschiedliche Element finden"
+      },
+      "picturePath": {
+        "name": "Bilderpfad",
+        "description": "Visuellen Pfaden folgen"
+      },
+      "pictureSort": {
+        "name": "Bilder sortieren",
+        "description": "Bilder kategorisieren"
+      },
+      "prepositions": {
+        "name": "Präpositionen",
+        "description": "Positionswörter üben"
+      },
+      "treasureHunt": {
+        "name": "Schatzsuche",
+        "description": "Abenteuerbasiertes Lernen"
+      },
+      "wordGuess": {
+        "name": "Wort raten",
+        "description": "Wortratespiele"
+      },
+      "writing": {
+        "name": "Schreiben",
+        "description": "Handschrift-Übungsblätter"
+      },
+      "bingo": {
+        "name": "Bingo",
+        "description": "Individuelle Bingo-Karten"
+      },
+      "shadowMatch": {
+        "name": "Schatten zuordnen",
+        "description": "Objekte ihren Schatten zuordnen"
+      },
+      "patternTrain": {
+        "name": "Musterzug",
+        "description": "Mustererkennung üben"
+      },
+      "patternWorksheet": {
+        "name": "Muster-Arbeitsblatt",
+        "description": "Musterfolgen vervollständigen"
+      },
+      "missingPieces": {
+        "name": "Fehlende Teile",
+        "description": "Finde die fehlenden Teile"
+      }
+    }
   }
 }

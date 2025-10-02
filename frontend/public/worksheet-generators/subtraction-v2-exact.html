@@ -156,13 +156,13 @@
             <h4>Background</h4>
             <label for="backgroundThemeSelect">Background Theme:</label>
             <select id="backgroundThemeSelect">
-              <option value="none">None</option>
+              <option value="none" data-translate="none">None</option>
             </select>
 
             <h4>Border</h4>
             <label for="borderThemeSelect">Border Theme:</label>
             <select id="borderThemeSelect">
-              <option value="none">None</option>
+              <option value="none" data-translate="none">None</option>
             </select>
           </div>
         </div>
@@ -217,7 +217,7 @@
       async function loadBorderThemes() {
         try {
           // First option is always None
-          borderThemeSelect.innerHTML = '<option value="none">None</option>';
+          borderThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
 
           // Fetch actual themes from the filesystem API
           const response = await fetch('/api/borders/themes');
@@ -248,7 +248,7 @@
       async function loadBackgroundThemes() {
         try {
           // First option is always None
-          backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+          backgroundThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
 
           // Fetch actual themes from the filesystem API
           const response = await fetch('/api/backgrounds/themes');

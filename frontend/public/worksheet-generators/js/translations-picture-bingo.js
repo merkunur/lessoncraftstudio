@@ -1822,8 +1822,8 @@ const PICTURE_BINGO_TRANSLATIONS = {
  * @returns {string} Translated text
  */
 function getTranslation(key, locale = 'en', params = {}) {
-  const translation = PICTURE_BINGO_TRANSLATIONS[locale]?.[key] ||
-                     PICTURE_BINGO_TRANSLATIONS['en'][key] ||
+  const translation = (PICTURE_BINGO_TRANSLATIONS[locale] && PICTURE_BINGO_TRANSLATIONS[locale][key]) ||
+                     (PICTURE_BINGO_TRANSLATIONS['en'] && PICTURE_BINGO_TRANSLATIONS['en'][key]) ||
                      key;
 
   return formatTranslation(translation, params);
@@ -1916,7 +1916,8 @@ function validateAllTranslations() {
 const t = getTranslation;
 
 // Compatibility with existing code that expects a different structure
-const translations = PICTURE_BINGO_TRANSLATIONS;
+// Note: Not declaring as const/var to avoid conflicts with main translations.js
+// The translations object is assigned to window.translations below
 
 /**
  * EXPORT AND GLOBAL ASSIGNMENTS
@@ -1934,7 +1935,7 @@ if (typeof module !== 'undefined' && module.exports) {
     getSupportedLocales,
     isLocaleSupported,
     t,
-    translations
+    translations: PICTURE_BINGO_TRANSLATIONS
   };
 }
 

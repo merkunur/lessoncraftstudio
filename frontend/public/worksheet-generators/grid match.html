@@ -627,7 +627,7 @@
                         <h4 data-translate="border">Border</h4>
                         <label for="borderThemeSelect" data-translate="borderTheme">Border Theme:</label>
                         <select id="borderThemeSelect">
-                            <option value="" data-translate="common.none">None</option>
+                            <option value="" data-translate="none">None</option>
                         </select>
                         <label for="borderGallery" style="margin-top: 12px;" data-translate="gridmatch.available.borders">Available Borders:</label>
                         <div id="borderGallery">
@@ -686,7 +686,7 @@
                         <div id="dictionary"><p class='dictionary-message' data-translate="gridmatch.loading.images">Loading images...</p></div>
 
                         <label style="margin-top:12px;" data-translate="gridmatch.selected.image">Selected Image:</label>
-                        <div id="selectedPreview" class="selected-preview"><span data-translate="common.none">None</span></div>
+                        <div id="selectedPreview" class="selected-preview"><span data-translate="none">None</span></div>
                     </div>
                 </div>
 
@@ -1138,7 +1138,7 @@
             }
 
             try {
-                selectEl.innerHTML = `<option value="" data-translate="common.none">${getTranslation('common.none')}</option>`;
+                selectEl.innerHTML = `<option value="" data-translate="none">${getTranslation('common.none')}</option>`;
                 const response = await fetch(`/api/${type}/themes?locale=${currentLocale}`);
                 if (!response.ok) {
                     console.error(`Failed to load ${type} themes`);
@@ -1428,7 +1428,7 @@
                 selectedPreviewDiv.appendChild(img);
             } else {
                 selectedPreviewDiv.classList.remove('has-image');
-                selectedPreviewDiv.innerHTML = `<span data-translate="common.none">${getTranslation('common.none')}</span>`;
+                selectedPreviewDiv.innerHTML = `<span data-translate="none">${getTranslation('common.none')}</span>`;
             }
         }
         

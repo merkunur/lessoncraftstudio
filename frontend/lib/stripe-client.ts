@@ -58,7 +58,6 @@ export const getCardBrandIcon = (brand: string): string => {
 export const getSubscriptionStatusColor = (status: string): string => {
   const statusColors: Record<string, string> = {
     active: 'text-green-600 bg-green-100',
-    trialing: 'text-blue-600 bg-blue-100',
     past_due: 'text-yellow-600 bg-yellow-100',
     canceled: 'text-red-600 bg-red-100',
     paused: 'text-gray-600 bg-gray-100'

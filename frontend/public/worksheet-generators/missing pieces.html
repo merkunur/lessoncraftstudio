@@ -743,7 +743,7 @@
                 <h4 data-translate="missingpieces.background.title">Background</h4>
                 <label for="backgroundThemeSelect" data-translate="missingpieces.background.theme">Background Theme:</label>
                 <select id="backgroundThemeSelect">
-                    <option value="none" data-translate="common.none">None</option>
+                    <option value="none" data-translate="none">None</option>
                 </select>
                 <div id="backgroundDictionary"><p class="dictionary-message" data-translate="missingpieces.background.message">Select a theme for backgrounds.</p></div>
                 <label for="backgroundOpacitySlider" data-translate="missingpieces.background.opacity">Background Opacity:</label>
@@ -752,7 +752,7 @@
                 <h4 data-translate="missingpieces.border.title">Border</h4>
                 <label for="borderThemeSelect" data-translate="missingpieces.border.theme">Border Theme:</label>
                 <select id="borderThemeSelect">
-                    <option value="none" data-translate="common.none">None</option>
+                    <option value="none" data-translate="none">None</option>
                 </select>
                 <div id="borderDictionary">
                     <p class="dictionary-message" data-translate="missingpieces.border.message">Select a theme to see borders.</p>
@@ -1513,7 +1513,7 @@
         // --- Borders & Backgrounds (Standard) ---
         async function loadBorderThemes() {
             try {
-                borderThemeSelect.innerHTML = `<option value="none">${t('common.none')}</option>`;
+                borderThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
                 const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
                 if (!response.ok) {
                     console.error('Failed to load border themes');
@@ -1529,7 +1529,7 @@
         }
         async function loadBackgroundThemes() {
             try {
-                backgroundThemeSelect.innerHTML = `<option value="none">${t('common.none')}</option>`;
+                backgroundThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
                 const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
                 if (!response.ok) {
                     console.error('Failed to load background themes');

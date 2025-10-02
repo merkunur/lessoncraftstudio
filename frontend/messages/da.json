@@ -141,8 +141,8 @@
     "title": "Arbejdsarkgeneratorer",
     "subtitle": "Vælg blandt 33 professionelle arbejdsarkgeneratorer",
     "search": "Søg generatorer...",
-    "heroTitle": "33 pædagogiske arbejdsarkgeneratorer",
-    "heroSubtitle": "Forvandl dit undervisningsmateriale med vores komplette samling af pædagogiske arbejdsarkgeneratorer. Fra ordsøgning til matematikpuslespil, vi har alt du behøver.",
+    "heroTitle": "33 opgavearksgeneratorer",
+    "heroSubtitle": "Forvandle dine undervisningsmaterialer med vores komplette udvalg af pædagogiske opgavearksgeneratorer. Fra ordsøgning til matematiske gåder har vi alt, hvad du behøver.",
     "categories": {
       "all": "Alle generatorer",
       "math": "Matematik",
@@ -163,58 +163,58 @@
     },
     "tier": {
       "free": "Gratis",
-      "core": "Kernepakke",
-      "full": "Fuld Adgang",
+      "core": "Basis",
+      "full": "Fuld",
       "popular": "Populær"
     },
     "tierInfo": {
-      "freeTitle": "Gratis version",
+      "freeTitle": "Gratis Abonnement",
       "freeDescription": "Prøv ordsøgningsgeneratoren med vandmærke",
-      "coreTitle": "Kernepakke - $15/måned",
+      "coreTitle": "Basispakke - $15/måned",
       "coreDescription": "Adgang til de 10 mest populære apps med kommerciel licens",
       "fullTitle": "Fuld Adgang - $25/måned",
       "fullDescription": "Alle 33 apps, prioriteret support, tidlig adgang"
     },
     "appNames": {
       "wordSearch": "Ordsøgning",
-      "imageAddition": "Billedaddition",
-      "alphabetTrain": "Alfabettog",
-      "coloringPages": "Malebilleder",
-      "mathWorksheets": "Matematikopgaver",
-      "wordScramble": "Bogstavrod",
-      "findAndCount": "Find og tæl",
-      "matchUpMaker": "Matchspil",
-      "drawingLines": "Tegn streger",
+      "imageAddition": "Addition med Billeder",
+      "alphabetTrain": "Alfabettoget",
+      "coloringPages": "Malebøger",
+      "mathWorksheets": "Matematikark",
+      "wordScramble": "Ordforbytter",
+      "findAndCount": "Find og Tæl",
+      "matchUpMaker": "Parspil",
+      "drawingLines": "Tegn Linjer",
       "pictureBingo": "Billedbingo",
-      "sudokuForKids": "Børnesudoku",
-      "bigOrSmall": "Stor eller lille",
-      "chartCountColor": "Diagrammer at tælle og farvelægge",
-      "codeAddition": "Code-Addition",
-      "drawAndColor": "Tegn og farvelæg",
-      "findObjects": "Find objekterne",
-      "gridMatch": "Gittermatch",
+      "sudokuForKids": "Sudoku til Børn",
+      "bigOrSmall": "Stor eller Lille",
+      "chartCountColor": "Tællediagrammer",
+      "codeAddition": "Addition i Kode",
+      "drawAndColor": "Tegn og Mal",
+      "findObjects": "Find Genstandene",
+      "gridMatch": "Gittermatchning",
       "imageCrossword": "Billedkrydsord",
       "imageCryptogram": "Billedkryptogram",
-      "mathPuzzle": "Matematikpuslespil",
-      "missingPieces": "Manglende brikker",
-      "moreOrLess": "Mere eller mindre",
-      "oddOneOut": "Hvad passer ikke ind",
-      "patternTrain": "Mønstertog",
-      "patternWorksheets": "Mønsterøvelser",
+      "mathPuzzle": "Matematikgåder",
+      "missingPieces": "Manglende Brikker",
+      "moreOrLess": "Mere eller Mindre",
+      "oddOneOut": "Den Anderledes",
+      "patternTrain": "Mønstertoget",
+      "patternWorksheets": "Mønsterark",
       "picturePathway": "Billedsti",
-      "pictureSort": "Sorter billeder",
-      "prepositions": "Forholdsord",
-      "shadowMatch": "Skyggeparring",
+      "pictureSort": "Sortér Billeder",
+      "prepositions": "Præpositioner",
+      "shadowMatch": "Skyggematching",
       "subtraction": "Subtraktion",
       "treasureHunt": "Skattejagt",
-      "wordGuess": "Gæt ordet",
-      "englishWritingPractice": "Engelske skriveøvelser"
+      "wordGuess": "Gæt Ordet",
+      "englishWritingPractice": "Skriveøvelser"
     },
     "cta": {
-      "title": "Klar til at lave fantastiske arbejdsark?",
-      "subtitle": "Start med vores gratis ordsøgningsgenerator eller lås alle apps op i dag",
-      "startFreeTrial": "Prøv gratis",
-      "viewPricing": "Se priser"
+      "title": "Klar til at skabe fantastiske opgavearks?",
+      "subtitle": "Begynd med vores gratis ordsøgningsgenerator eller lås op for alle apps i dag",
+      "startFreeTrial": "Prøv Gratis",
+      "viewPricing": "Se Priser"
     },
     "filters": {
       "allApps": "Alle apps"
@@ -781,6 +781,267 @@
     "contact": {
       "title": "10. KONTAKT",
       "content": "For licensspørgsmål: license@lessoncraftstudio.com"
+    }
+  },
+  "faq": {
+    "metaTitle": "Ofte stillede spørgsmål - LessonCraftStudio",
+    "metaDescription": "Svar på almindelige spørgsmål om vores 33 opgavearks-generatorer, prisplaner, kommercielle licenser og teknisk support",
+    "metaKeywords": "FAQ, hjælp til opgavearks-generatorer, prisspørgsmål, kommerciel licens, teknisk support",
+    "hero": {
+      "title": "Ofte stillede spørgsmål",
+      "subtitle": "Alt du behøver at vide om LessonCraftStudios opgavearks-generatorer"
+    },
+    "categories": {
+      "general": "Generelle spørgsmål",
+      "apps": "Om vores apps",
+      "pricing": "Priser & abonnementer",
+      "technical": "Teknisk support",
+      "commercial": "Kommerciel brug & licensiering"
+    },
+    "cta": {
+      "title": "Har du flere spørgsmål?",
+      "subtitle": "Vores supportteam hjælper dig gerne. Kontakt os, så svarer vi inden for 24-48 timer.",
+      "button": "Kontakt support"
+    }
+  },
+  "dashboard": {
+    "header": {
+      "welcome": "Velkommen tilbage, {name}!",
+      "welcomeFallback": "Velkommen tilbage!",
+      "subtitle": "Lad os skabe noget fantastisk i dag",
+      "signOut": "Log ud"
+    },
+    "stats": {
+      "worksheetsCreated": "Opgavearks oprettet",
+      "totalThisMonth": "I alt denne måned",
+      "appsAvailable": "Tilgængelige apps",
+      "inYourPlan": "I din pakke",
+      "currentPlan": "Nuværende pakke",
+      "yourMembership": "Dit medlemskab"
+    },
+    "tierNames": {
+      "free": "Gratis",
+      "core": "Basis",
+      "full": "Pro"
+    },
+    "generators": {
+      "title": "Opgavearksgeneratorer",
+      "searchPlaceholder": "Søg generatorer...",
+      "filterLabel": "Alle kategorier",
+      "categoryAll": "Alle kategorier",
+      "open": "Åbn →",
+      "noResults": "Ingen generatorer fundet",
+      "tryAdjusting": "Prøv at justere din søgning eller filtre"
+    },
+    "subscription": {
+      "title": "Abonnement",
+      "currentPlan": "Nuværende pakke",
+      "free": "Gratis",
+      "perMonth": "/måned",
+      "renewsOn": "Fornyes den",
+      "cancelsOn": "Ophører den",
+      "whatsIncluded": "Hvad er inkluderet:",
+      "upgradePlan": "Opgrader pakke",
+      "manageBilling": "Administrer fakturering",
+      "loading": "Indlæser...",
+      "cancelWarning": "⚠️ Dit abonnement ophører den {date}"
+    },
+    "activity": {
+      "title": "Din aktivitet",
+      "worksheetsCreated": "Opgavearks oprettet",
+      "downloads": "Downloads",
+      "generatorsUsed": "Brugte generatorer",
+      "thisWeek": "+3 denne uge",
+      "thisMonth": "Denne måned",
+      "uniqueApps": "Unikke apps",
+      "unlimited": "Ubegrænset",
+      "trackingNote": "📊 Din aktivitet spores for at hjælpe dig med at holde dig inden for dine pakkegrænser"
+    },
+    "paymentHistory": {
+      "title": "Betalingshistorik",
+      "noPayments": "Ingen betalingshistorik endnu",
+      "noPaymentsSubtext": "Dine betalinger vil blive vist her efter du abonnerer",
+      "viewAll": "Se alle betalinger →",
+      "downloadInvoice": "Download faktura",
+      "succeeded": "lykkedes",
+      "failed": "mislykkedes",
+      "pending": "afventende"
+    },
+    "tiers": {
+      "free": {
+        "description": "Kom i gang med ordsøgsgeneratoren",
+        "features": [
+          "Kun ordsøgsgenerator",
+          "Ubegrænset arbejdsarkgenerering",
+          "Downloads med vandmærke"
+        ]
+      },
+      "core": {
+        "description": "Perfekt til regelmæssig klassebrug",
+        "features": [
+          "Adgang til 10 populære arbejdsarkgeneratorer",
+          "Ubegrænset arbejdsarkgenerering",
+          "Ingen vandmærker"
+        ]
+      },
+      "full": {
+        "description": "Fuld adgang til avancerede brugere",
+        "features": [
+          "Adgang til alle 33 arbejdsarkgeneratorer",
+          "Ubegrænset arbejdsarkgenerering",
+          "Ingen vandmærker"
+        ]
+      }
+    },
+    "categories": {
+      "Math": "Matematik",
+      "Language": "Sprog",
+      "Logic": "Logik",
+      "Art": "Kunst",
+      "Visual": "Visuelt",
+      "Game": "Spil"
+    },
+    "apps": {
+      "wordSearch": {
+        "name": "Ordsøgning",
+        "description": "Lav engagerende ordsøgninger"
+      },
+      "addition": {
+        "name": "Addition",
+        "description": "Øv additionsproblemer"
+      },
+      "subtraction": {
+        "name": "Subtraktion",
+        "description": "Mestre subtraktionsfærdigheder"
+      },
+      "multiplication": {
+        "name": "Multiplikation",
+        "description": "Byg multiplikationsfærdigheder"
+      },
+      "division": {
+        "name": "Division",
+        "description": "Lær divisionsbegreber"
+      },
+      "alphabetTrain": {
+        "name": "Alfabettog",
+        "description": "Sjov alfabetindlæring"
+      },
+      "findAndCount": {
+        "name": "Find og tæl",
+        "description": "Visuelle tælleøvelser"
+      },
+      "matching": {
+        "name": "Parring",
+        "description": "Forbind matchende elementer"
+      },
+      "crossword": {
+        "name": "Krydsord",
+        "description": "Tilpassede krydsord"
+      },
+      "sudoku": {
+        "name": "Sudoku",
+        "description": "Talpuslespil udfordringer"
+      },
+      "coloring": {
+        "name": "Farvning",
+        "description": "Kreative farvelægningsark"
+      },
+      "mathPuzzle": {
+        "name": "Matematikpuslespil",
+        "description": "Avancerede matematikvudfordringer"
+      },
+      "wordScramble": {
+        "name": "Ordblanding",
+        "description": "Ordkludrespil"
+      },
+      "chartCount": {
+        "name": "Diagram og tælling",
+        "description": "Data og diagram øvelser"
+      },
+      "drawingLines": {
+        "name": "Tegne linjer",
+        "description": "Linjetegningsøvelser"
+      },
+      "bigSmall": {
+        "name": "Stor lille",
+        "description": "Størrelsesammenligning aktiviteter"
+      },
+      "codeAddition": {
+        "name": "Kodet addition",
+        "description": "Afkod additionsproblemer"
+      },
+      "cryptogram": {
+        "name": "Kryptogram",
+        "description": "Krypterede ordpuslespil"
+      },
+      "drawAndColor": {
+        "name": "Tegn og farvelæg",
+        "description": "Kombination af tegning og farvning"
+      },
+      "findObjects": {
+        "name": "Find genstande",
+        "description": "Skjulte genstandsspil"
+      },
+      "gridMatch": {
+        "name": "Gitter matching",
+        "description": "Mønstermatchende gitre"
+      },
+      "mathWorksheet": {
+        "name": "Matematikark",
+        "description": "Omfattende matematikøvelse"
+      },
+      "moreLess": {
+        "name": "Mere mindre",
+        "description": "Sammenlign mængder"
+      },
+      "oddOneOut": {
+        "name": "Den anderledes",
+        "description": "Find den anderledes genstand"
+      },
+      "picturePath": {
+        "name": "Billedsti",
+        "description": "Følg visuelle stier"
+      },
+      "pictureSort": {
+        "name": "Billedsortering",
+        "description": "Kategoriser billeder"
+      },
+      "prepositions": {
+        "name": "Præpositioner",
+        "description": "Øv positionsord"
+      },
+      "treasureHunt": {
+        "name": "Skattejagt",
+        "description": "Eventyrsbaseret læring"
+      },
+      "wordGuess": {
+        "name": "Gæt ordet",
+        "description": "Ordgættespil"
+      },
+      "writing": {
+        "name": "Skrivning",
+        "description": "Håndskriftsøvelsesark"
+      },
+      "bingo": {
+        "name": "Bingo",
+        "description": "Tilpassede bingoplader"
+      },
+      "shadowMatch": {
+        "name": "Skyggematching",
+        "description": "Match genstande til deres skygger"
+      },
+      "patternTrain": {
+        "name": "Mønstertog",
+        "description": "Mønstergenkendelsesøvelse"
+      },
+      "patternWorksheet": {
+        "name": "Mønsterark",
+        "description": "Fuldfør mønstersekvenser"
+      },
+      "missingPieces": {
+        "name": "Manglende brikker",
+        "description": "Find de manglende brikker"
+      }
     }
   }
 }

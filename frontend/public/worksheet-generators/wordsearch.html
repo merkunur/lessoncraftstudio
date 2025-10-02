@@ -6,8 +6,8 @@
     <title data-translate="app.title">Word Search Generator</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="js/translations-wordsearch-complete.js"></script>
-    <script src="js/bulletproof-loader.js"></script>
+    <script src="js/translations-wordsearch-complete.js?v=2"></script>
+    <script src="js/bulletproof-loader.js?v=2"></script>
     <script src="js/unified-language-manager.js"></script>
     <script src="js/border-background-sizer.js"></script>
     <script src="js/auto-fix-system.js"></script>
@@ -732,7 +732,7 @@
                         <h4 data-translate="border">Border</h4>
                         <label for="borderThemeSelect" data-translate="borderTheme">Border Theme:</label>
                         <select id="borderThemeSelect">
-                            <option value="none" data-translate="common.none">None</option>
+                            <option value="none" data-translate="none">None</option>
                         </select>
                         <div id="borderDictionary">
                             <p class="dictionary-message" data-translate="selectThemeToSeeBorders">Select a theme to see borders.</p>
@@ -2353,7 +2353,7 @@ document.addEventListener("DOMContentLoaded", function() {
     async function loadAssetThemes(type, selectEl) {
         try {
             // First option is always None
-            selectEl.innerHTML = `<option value="none">${t('common.none')}</option>`;
+            selectEl.innerHTML = `<option value="none">${t('none')}</option>`;
 
             // Fetch actual themes from the filesystem API
             const response = await fetch(`/api/${type}/themes`);

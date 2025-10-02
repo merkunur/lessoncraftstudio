@@ -86,13 +86,15 @@ export async function getSubscriptionStatus(
 }> {
   const subscription = await stripe.subscriptions.retrieve(subscriptionId);
   
-  // Determine tier from price ID
+  // Determine tier from price ID (check both monthly and yearly)
   let tier: SubscriptionTier | null = null;
   const priceId = subscription.items.data[0]?.price.id;
-  
-  if (priceId === process.env.STRIPE_CORE_PRICE_ID) {
+
+  if (priceId === process.env.STRIPE_PRICE_CORE_MONTHLY ||
+      priceId === process.env.STRIPE_PRICE_CORE_YEARLY) {
     tier = 'CORE';
-  } else if (priceId === process.env.STRIPE_FULL_PRICE_ID) {
+  } else if (priceId === process.env.STRIPE_PRICE_FULL_MONTHLY ||
+             priceId === process.env.STRIPE_PRICE_FULL_YEARLY) {
     tier = 'FULL';
   }
   

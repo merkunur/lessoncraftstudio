@@ -714,7 +714,7 @@
                 <h4 data-translate="pattern.train.template.title">Template</h4>
                 <label for="templateSelect" data-translate="pattern.train.template.label">Train Template:</label>
                 <select id="templateSelect">
-                    <option value="/images/background/train.png" data-translate="common.none">Default Train</option>
+                    <option value="/images/background/train.png" data-translate="none">Default Train</option>
                 </select>
 
                 <label for="pageColor" data-translate="pattern.train.page.color">Page Color:</label>
@@ -723,7 +723,7 @@
                 <h4 data-translate="pattern.train.background.title">Background</h4>
                 <label for="backgroundThemeSelect" data-translate="pattern.train.background.theme">Background Theme:</label>
                 <select id="backgroundThemeSelect">
-                    <option value="none" data-translate="common.none">None</option>
+                    <option value="none" data-translate="none">None</option>
                 </select>
                 <label for="backgroundOpacity" data-translate="pattern.train.background.opacity">Background Opacity:</label>
                 <input type="range" id="backgroundOpacity" min="0" max="1" value="1" step="0.05">
@@ -734,7 +734,7 @@
                 <h4 data-translate="pattern.train.border.title">Border</h4>
                 <label for="borderThemeSelect" data-translate="pattern.train.border.theme">Border Theme:</label>
                 <select id="borderThemeSelect">
-                    <option value="none" data-translate="common.none">None</option>
+                    <option value="none" data-translate="none">None</option>
                 </select>
                 <label for="borderOpacity" data-translate="pattern.train.border.opacity">Border Opacity:</label>
                 <input type="range" id="borderOpacity" min="0" max="1" value="1" step="0.05">
@@ -2526,7 +2526,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
     async function loadBorderThemes() {
         try {
             // First option is always None
-            borderThemeSelect.innerHTML = `<option value="none">${t('common.none')}</option>`;
+            borderThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
 
             // Fetch actual themes from the API
             const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
@@ -2645,7 +2645,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
     async function loadBackgroundThemes() {
         try {
             // First option is always None
-            backgroundThemeSelect.innerHTML = `<option value="none">${t('common.none')}</option>`;
+            backgroundThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
 
             // Fetch actual themes from the API
             const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);

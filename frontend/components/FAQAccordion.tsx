@@ -23,8 +23,8 @@ export default function FAQAccordion({ items }: FAQAccordionProps) {
       answer: "We accept all major credit cards (Visa, MasterCard, American Express) and PayPal. All payments are processed securely through Stripe."
     },
     {
-      question: "Is there a free trial?",
-      answer: "Yes! Both Core Bundle and Full Access plans come with a 7-day free trial. No credit card required to start."
+      question: "Is there a free tier?",
+      answer: "Yes! All users start with free access to the Word Search generator. You can create unlimited worksheets with a watermark. Upgrade anytime to unlock more generators and remove watermarks."
     },
     {
       question: "What's the POD commercial license?",

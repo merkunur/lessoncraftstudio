@@ -265,16 +265,24 @@ export default function BlogPageClient({ locale, translations: t }: BlogPageClie
                   >
                     <Link href={`/${locale}/blog/${post.slug}`}>
                       <div className="aspect-w-16 aspect-h-9 bg-gray-200">
-                        <div className="w-full h-48 bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
-                          {post.hasSampleWorksheets ? (
-                            <div className="text-center">
-                              <span className="text-6xl opacity-50">📄</span>
-                              <p className="text-xs text-primary-600 mt-2 font-medium">{t.postCard.pdfSamples}</p>
-                            </div>
-                          ) : (
-                            <span className="text-6xl opacity-50">📝</span>
-                          )}
-                        </div>
+                        {post.featuredImage ? (
+                          <img
+                            src={post.featuredImage}
+                            alt={post.title}
+                            className="w-full h-48 object-cover"
+                          />
+                        ) : (
+                          <div className="w-full h-48 bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
+                            {post.hasSampleWorksheets ? (
+                              <div className="text-center">
+                                <span className="text-6xl opacity-50">📄</span>
+                                <p className="text-xs text-primary-600 mt-2 font-medium">{t.postCard.pdfSamples}</p>
+                              </div>
+                            ) : (
+                              <span className="text-6xl opacity-50">📝</span>
+                            )}
+                          </div>
+                        )}
                       </div>
 
                       <div className="p-6">

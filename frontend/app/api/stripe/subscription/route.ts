@@ -24,7 +24,7 @@ export async function GET(request: NextRequest) {
     const subscription = await prisma.subscription.findFirst({
       where: {
         userId: user.id,
-        status: { in: ['active', 'trial', 'past_due'] },
+        status: { in: ['active', 'past_due'] },
       },
       orderBy: {
         createdAt: 'desc',
@@ -55,13 +55,16 @@ export async function GET(request: NextRequest) {
           });
         }
 
+        // Convert planName to tier format (free/core_monthly/full_yearly -> FREE/CORE/FULL)
+        const tierFromPlan = subscription.planName.split('_')[0].toUpperCase();
+
         return NextResponse.json({
           id: subscription.id,
-          tier: stripeStatus.tier || subscription.tier.toUpperCase(),
+          tier: stripeStatus.tier || tierFromPlan,
           status: stripeStatus.status,
           currentPeriodEnd: stripeStatus.currentPeriodEnd,
           cancelAtPeriodEnd: stripeStatus.cancelAtPeriodEnd,
-          trialEnd: subscription.trialEnd,
+          // trialEnd removed - no trials offered
         });
       } catch (stripeError) {
         console.error('Error fetching from Stripe:', stripeError);
@@ -70,13 +73,16 @@ export async function GET(request: NextRequest) {
     }
 
     // Return database data if Stripe call fails
+    // Convert planName to tier format (free/core_monthly/full_yearly -> FREE/CORE/FULL)
+    const tierFromPlan = subscription.planName.split('_')[0].toUpperCase();
+
     return NextResponse.json({
       id: subscription.id,
-      tier: subscription.tier.toUpperCase(),
+      tier: tierFromPlan,
       status: subscription.status,
       currentPeriodEnd: subscription.currentPeriodEnd,
       cancelAtPeriodEnd: subscription.cancelAtPeriodEnd,
-      trialEnd: subscription.trialEnd,
+      // trialEnd removed - no trials offered
     });
   } catch (error) {
     console.error('Get subscription error:', error);
@@ -101,7 +107,7 @@ export async function DELETE(request: NextRequest) {
     const subscription = await prisma.subscription.findFirst({
       where: {
         userId: user.id,
-        status: { in: ['active', 'trial', 'past_due'] },
+        status: { in: ['active', 'past_due'] },
       },
     });
 
@@ -165,7 +171,7 @@ export async function PATCH(request: NextRequest) {
     const subscription = await prisma.subscription.findFirst({
       where: {
         userId: user.id,
-        status: { in: ['active', 'trial', 'past_due'] },
+        status: { in: ['active', 'past_due'] },
       },
     });
 
@@ -229,11 +235,15 @@ export async function PATCH(request: NextRequest) {
 
       await updateSubscription(subscription.stripeSubscriptionId, tierInfo.priceId);
 
+      // Determine new plan name based on tier and billing interval
+      const billingInterval = subscription.billingInterval || 'monthly';
+      const newPlanName = newTier.toLowerCase() + (newTier !== 'FREE' ? `_${billingInterval}` : '');
+
       // Update database
       await prisma.subscription.update({
         where: { id: subscription.id },
         data: {
-          tier: newTier.toLowerCase() as any,
+          planName: newPlanName,
           stripePriceId: tierInfo.priceId,
         },
       });
@@ -246,13 +256,14 @@ export async function PATCH(request: NextRequest) {
       });
 
       // Log activity
+      const fromTier = subscription.planName.split('_')[0];
       await prisma.activityLog.create({
         data: {
           userId: user.id,
           action: action === 'upgrade' ? 'subscription_upgraded' : 'subscription_downgraded',
           details: {
             subscriptionId: subscription.id,
-            fromTier: subscription.tier,
+            fromTier: fromTier,
             toTier: newTier.toLowerCase(),
           },
         },

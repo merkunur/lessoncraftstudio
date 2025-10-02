@@ -6,9 +6,9 @@
   <title data-translate="page.title">Image Clue Grid Worksheet</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-  <script src="js/translations-word-guess.js"></script>
-  <script src="js/translations.js"></script>
-  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/translations-word-guess.js?v=1759320100"></script>
+  <script src="js/translations.js?v=1759320100"></script>
+  <script src="js/bulletproof-loader.js?v=1759320100"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
@@ -1780,7 +1780,7 @@
         // Original loadBorderThemes function has been replaced by BulletproofLoader.init()
         /*
         function loadBorderThemes() {
-            ui.borderThemeSelect.innerHTML = '<option value="none">None</option>';
+            ui.borderThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
             ui.borderThemeSelect.innerHTML += '<option value="all">All Borders</option>';
         }
         */
@@ -1890,7 +1890,7 @@
         // Original loadBackgroundThemes function has been replaced by BulletproofLoader.init()
         /*
         function loadBackgroundThemes() {
-            ui.backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+            ui.backgroundThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
             ui.backgroundThemeSelect.innerHTML += '<option value="all">All Backgrounds</option>';
         }
         */

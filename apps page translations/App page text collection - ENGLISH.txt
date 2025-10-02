@@ -1,0 +1,200 @@
+APP PAGE TEXT COLLECTION - ENGLISH VERSION
+Ready for translation into all supported languages
+Status: COMPLETE - Ready for translation
+
+Target Languages: German, French, Spanish, Italian, Portuguese, Dutch, Swedish, Danish, Norwegian, Finnish
+
+========================================
+SOURCE FILE INFORMATION
+========================================
+
+Source file: frontend/app/[locale]/apps/page.tsx
+This file contains the main apps listing page
+
+========================================
+SECTION 1: PAGE METADATA
+========================================
+
+Page Title: All Worksheet Generator Apps - LessonCraftStudio
+Meta Description: Choose from 33 professional worksheet generators for Teachers Pay Teachers and educational publishers
+Meta Keywords: worksheet generators, educational tools, teaching resources, printable worksheets
+
+========================================
+SECTION 2: HERO SECTION
+========================================
+
+Heading: 33 Worksheet Generator Apps
+
+Subtitle: Transform your teaching materials with our comprehensive suite of educational worksheet generators. From word searches to math puzzles, we have everything you need.
+
+========================================
+SECTION 3: TIER EXPLANATION CARDS
+========================================
+
+CARD 1 - Free Tier:
+  Title: Free Tier
+  Description: Try Word Search generator with watermarked output
+
+CARD 2 - Core Bundle:
+  Title: Core Bundle - $15/mo
+  Description: Access 10 most popular apps with commercial license
+
+CARD 3 - Full Access:
+  Title: Full Access - $25/mo
+  Description: All 33 apps, priority support, early access
+
+========================================
+SECTION 4: CATEGORY FILTERS
+========================================
+
+Filter Button: All Apps
+
+========================================
+SECTION 5: APP SECTION HEADINGS
+========================================
+
+Section 1 Heading: Free Tier
+Section 2 Heading: Core Bundle
+Section 3 Heading: Full Access Apps
+
+========================================
+SECTION 6: APP NAMES (33 APPS)
+========================================
+
+FREE TIER (1 app):
+  1. Word Search
+
+CORE BUNDLE (10 apps):
+  2. Image Addition
+  3. Alphabet Train
+  4. Coloring Pages
+  5. Math Worksheets
+  6. Word Scramble
+  7. Find and Count
+  8. MatchUp Maker
+  9. Drawing Lines
+  10. Picture Bingo
+  11. Sudoku for Kids
+
+FULL ACCESS (23 apps):
+  12. Big or Small
+  13. Chart Count & Color
+  14. Code Addition
+  15. Draw and Color
+  16. Find Objects
+  17. Grid Match
+  18. Image Crossword
+  19. Image Cryptogram
+  20. Math Puzzle
+  21. Missing Pieces
+  22. More or Less
+  23. Odd One Out
+  24. Pattern Train
+  25. Pattern Worksheets
+  26. Picture Pathway
+  27. Picture Sort
+  28. Prepositions
+  29. Shadow Match
+  30. Subtraction
+  31. Treasure Hunt
+  32. Word Guess
+  33. English Writing Practice
+
+========================================
+SECTION 7: CATEGORY NAMES
+========================================
+
+Categories used across apps:
+  - Word Games
+  - Math
+  - Language Arts
+  - Art & Creativity
+  - Visual Perception
+  - Matching
+  - Fine Motor Skills
+  - Games
+  - Logic
+  - Concepts
+  - Patterns
+  - Sorting
+
+========================================
+SECTION 8: TIER BADGES
+========================================
+
+Tier Badge Labels (shown on app cards):
+  - Free (for free tier)
+  - Core (for core bundle)
+  - Full (for full access)
+
+========================================
+SECTION 9: POPULAR BADGE
+========================================
+
+Badge Text: Popular
+(This badge appears on popular apps)
+
+========================================
+SECTION 10: CTA (CALL-TO-ACTION) SECTION
+========================================
+
+CTA Heading: Ready to Create Amazing Worksheets?
+
+CTA Subtitle: Start with our free Word Search generator or unlock all apps today
+
+Button 1 Text: Start Free Trial
+Button 2 Text: View Pricing
+
+========================================
+TRANSLATION NOTES
+========================================
+
+1. CONSISTENCY: Maintain consistent terminology throughout
+2. NATURAL LANGUAGE: Translations should sound native, not literal
+3. TECHNICAL TERMS: Some terms like "Word Search" may have specific equivalents in each language
+4. PRICING: Keep dollar amounts ($15, $25) as-is unless currency localization is needed
+5. APP NAMES: Some app names may need cultural adaptation (e.g., "Bingo" has different names in different countries)
+6. CHARACTER LIMITS: Hero heading should be concise enough to fit on one line
+7. CALL-TO-ACTION: CTA buttons should be action-oriented and concise
+
+========================================
+SUGGESTED TRANSLATION ORDER
+========================================
+
+Priority 1 (Most visible):
+  - Hero Section (Heading + Subtitle)
+  - CTA Section (Heading + Subtitle + Buttons)
+  - Tier Explanation Cards
+
+Priority 2 (Navigation):
+  - Section Headings
+  - Filter Button
+  - Tier Badges
+
+Priority 3 (Content):
+  - App Names
+  - Category Names
+  - Popular Badge
+
+========================================
+REFERENCE FOR TRANSLATORS
+========================================
+
+App Categories Context:
+- "Word Games" = puzzle-type games involving words
+- "Language Arts" = reading, writing, grammar activities
+- "Art & Creativity" = drawing, coloring, creative activities
+- "Visual Perception" = activities requiring visual discrimination
+- "Fine Motor Skills" = activities developing hand coordination
+- "Matching" = pairing or association activities
+- "Logic" = reasoning and problem-solving activities
+- "Patterns" = sequence recognition activities
+
+Tier System Context:
+- "Free Tier" = Limited free version with watermark
+- "Core Bundle" = Mid-tier subscription with most popular apps
+- "Full Access" = Premium subscription with all features
+
+========================================
+END OF TEXT COLLECTION
+========================================

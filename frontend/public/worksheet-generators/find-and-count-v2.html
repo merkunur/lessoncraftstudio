@@ -547,7 +547,7 @@
                         <h4>Background</h4>
                         <label for="backgroundThemeSelect">Background Theme:</label>
                         <select id="backgroundThemeSelect">
-                            <option value="none">None</option>
+                            <option value="none" data-translate="none">None</option>
                         </select>
                         <button id="reloadBackgroundsBtn" style="margin-left: 10px; padding: 5px;">Reload Backgrounds</button>
                         <div id="backgroundDictionary"><p class="dictionary-message">Select a theme for backgrounds.</p></div>
@@ -555,7 +555,7 @@
                         <h4>Border</h4>
                         <label for="borderThemeSelect">Border Theme:</label>
                         <select id="borderThemeSelect">
-                            <option value="none">None</option>
+                            <option value="none" data-translate="none">None</option>
                         </select>
                         <button id="reloadBordersBtn" style="margin-left: 10px; padding: 5px;">Reload Borders</button>
                         <div id="borderDictionary"><p class="dictionary-message">Select a theme to see borders.</p></div>
@@ -1534,7 +1534,7 @@
                 if (!borderThemeSelect) return;
 
                 try {
-                    borderThemeSelect.innerHTML = '<option value="none">None</option>';
+                    borderThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
                     const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
                     const themes = await response.json();
 
@@ -1557,7 +1557,7 @@
                 if (!backgroundThemeSelect) return;
 
                 try {
-                    backgroundThemeSelect.innerHTML = '<option value="none">None</option>';
+                    backgroundThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
                     const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
                     const themes = await response.json();
 

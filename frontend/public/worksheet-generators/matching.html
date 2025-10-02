@@ -1230,7 +1230,7 @@
         // --- Border & Background Logic ---
         const loadAssetThemes = async (type, selectEl) => {
             try {
-                selectEl.innerHTML = `<option value="none">None</option>`;
+                selectEl.innerHTML = `<option value="none">${t('none')}</option>`;
                 const response = await fetch(`/api/${type}/themes?locale=${currentLocale}`);
                 if (!response.ok) {
                     console.error(`Failed to load ${type} themes`);

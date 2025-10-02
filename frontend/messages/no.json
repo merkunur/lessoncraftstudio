@@ -141,80 +141,80 @@
     "title": "Arbeidsarkgeneratorer",
     "subtitle": "Velg blant 33 profesjonelle arbeidsarkgeneratorer",
     "search": "Søk generatorer...",
-    "heroTitle": "33 pedagogiske arbeidsarkgeneratorer",
-    "heroSubtitle": "Forvandle undervisningsmaterialet ditt med vår komplette samling av pedagogiske arbeidsarkgeneratorer. Fra ordsøking til matteoppgaver, vi har alt du trenger.",
+    "heroTitle": "33 oppgavearkgeneratorer",
+    "heroSubtitle": "Forvandle undervisningsmaterialene dine med vårt komplette utvalg av pedagogiske oppgavearkgeneratorer. Fra ordsøking til matematiske gåter har vi alt du trenger.",
     "categories": {
       "all": "Alle generatorer",
       "math": "Matematikk",
       "language": "Språk og lesing",
       "puzzles": "Puslespill",
       "games": "Spill",
-      "visual": "Visuell persepsjon",
+      "visual": "Visuell Oppfatning",
       "motor": "Finmotorikk",
-      "wordGames": "Ordleker",
-      "languageArts": "Norsk og skriving",
-      "artCreativity": "Kunst og kreativitet",
-      "matching": "Kobling",
+      "wordGames": "Ordspill",
+      "languageArts": "Norsk",
+      "artCreativity": "Kunst & Kreativitet",
+      "matching": "Matching",
       "fineMotorSkills": "Finmotorikk",
       "logic": "Logikk",
-      "concepts": "Grunnleggende konsepter",
+      "concepts": "Begreper",
       "patterns": "Mønstre",
       "sorting": "Sortering"
     },
     "tier": {
       "free": "Gratis",
-      "core": "Kjernepakke",
-      "full": "Full Tilgang",
+      "core": "Grunn",
+      "full": "Full",
       "popular": "Populær"
     },
     "tierInfo": {
-      "freeTitle": "Gratisversjon",
-      "freeDescription": "Prøv ordsøkingsgeneratoren med vannmerke",
-      "coreTitle": "Kjernepakke - $15/måned",
+      "freeTitle": "Gratis Abonnement",
+      "freeDescription": "Prøv ordsøkgeneratoren med vannmerke",
+      "coreTitle": "Grunnpakke - $15/måned",
       "coreDescription": "Tilgang til de 10 mest populære appene med kommersiell lisens",
       "fullTitle": "Full Tilgang - $25/måned",
-      "fullDescription": "Alle 33 apper, prioritert støtte, tidlig tilgang"
+      "fullDescription": "Alle 33 apper, prioritert support, tidlig tilgang"
     },
     "appNames": {
       "wordSearch": "Ordsøking",
-      "imageAddition": "Bildeaddisjon",
-      "alphabetTrain": "Alfabettog",
-      "coloringPages": "Fargeleggingssider",
-      "mathWorksheets": "Matteoppgaver",
-      "wordScramble": "Bokstavrot",
-      "findAndCount": "Finn og tell",
-      "matchUpMaker": "Koblespill",
-      "drawingLines": "Tegn linjer",
+      "imageAddition": "Addisjon med Bilder",
+      "alphabetTrain": "Alfabettoget",
+      "coloringPages": "Malesider",
+      "mathWorksheets": "Matteark",
+      "wordScramble": "Ordmiks",
+      "findAndCount": "Finn og Tell",
+      "matchUpMaker": "Parspill",
+      "drawingLines": "Tegn Linjer",
       "pictureBingo": "Bildebingo",
-      "sudokuForKids": "Barnesudoku",
-      "bigOrSmall": "Stor eller liten",
-      "chartCountColor": "Diagrammer å telle og fargelegge",
-      "codeAddition": "Kodeaddisjon",
-      "drawAndColor": "Tegn og fargelegg",
-      "findObjects": "Finn objektene",
-      "gridMatch": "Rutenettkobling",
+      "sudokuForKids": "Sudoku for Barn",
+      "bigOrSmall": "Stor eller Liten",
+      "chartCountColor": "Tellediagrammer",
+      "codeAddition": "Addisjon i Kode",
+      "drawAndColor": "Tegn og Mal",
+      "findObjects": "Finn Gjenstandene",
+      "gridMatch": "Rutenettverk",
       "imageCrossword": "Bildekryssord",
       "imageCryptogram": "Bildekryptogram",
-      "mathPuzzle": "Mattepuslespill",
-      "missingPieces": "Manglende brikker",
-      "moreOrLess": "Mer eller mindre",
-      "oddOneOut": "Hvilket passer ikke inn",
-      "patternTrain": "Mønstertog",
-      "patternWorksheets": "Mønsterøvelser",
+      "mathPuzzle": "Mattegåter",
+      "missingPieces": "Manglende Brikker",
+      "moreOrLess": "Mer eller Mindre",
+      "oddOneOut": "Den Rare Fuglen",
+      "patternTrain": "Mønstertoget",
+      "patternWorksheets": "Mønsterark",
       "picturePathway": "Bildesti",
-      "pictureSort": "Sorter bilder",
+      "pictureSort": "Sorter Bilder",
       "prepositions": "Preposisjoner",
-      "shadowMatch": "Skyggekobling",
+      "shadowMatch": "Skyggematching",
       "subtraction": "Subtraksjon",
       "treasureHunt": "Skattejakt",
-      "wordGuess": "Gjett ordet",
-      "englishWritingPractice": "Engelske skriveøvelser"
+      "wordGuess": "Gjett Ordet",
+      "englishWritingPractice": "Skriveøvelser"
     },
     "cta": {
-      "title": "Klar til å lage fantastiske arbeidsark?",
-      "subtitle": "Start med vår gratis ordsøkingsgenerator eller lås opp alle apper i dag",
-      "startFreeTrial": "Prøv gratis",
-      "viewPricing": "Se priser"
+      "title": "Klar til å lage fantastiske oppgavearker?",
+      "subtitle": "Begynn med vår gratis ordsøkgenerator eller lås opp alle appene i dag",
+      "startFreeTrial": "Prøv Gratis",
+      "viewPricing": "Se Priser"
     },
     "filters": {
       "allApps": "Alle apper"
@@ -781,6 +781,267 @@
     "contact": {
       "title": "10. KONTAKT",
       "content": "For lisensspørsmål: license@lessoncraftstudio.com"
+    }
+  },
+  "faq": {
+    "metaTitle": "Ofte stilte spørsmål - LessonCraftStudio",
+    "metaDescription": "Svar på vanlige spørsmål om våre 33 oppgaveark-generatorer, prisplaner, kommersielle lisenser og teknisk support",
+    "metaKeywords": "FAQ, hjelp med oppgaveark-generatorer, prisspørsmål, kommersiell lisens, teknisk support",
+    "hero": {
+      "title": "Ofte stilte spørsmål",
+      "subtitle": "Alt du trenger å vite om LessonCraftStudios oppgaveark-generatorer"
+    },
+    "categories": {
+      "general": "Generelle spørsmål",
+      "apps": "Om våre apper",
+      "pricing": "Priser & abonnement",
+      "technical": "Teknisk support",
+      "commercial": "Kommersiell bruk & lisensiering"
+    },
+    "cta": {
+      "title": "Har du flere spørsmål?",
+      "subtitle": "Vårt supportteam hjelper deg gjerne. Kontakt oss, så svarer vi innen 24-48 timer.",
+      "button": "Kontakt support"
+    }
+  },
+  "dashboard": {
+    "header": {
+      "welcome": "Velkommen tilbake, {name}!",
+      "welcomeFallback": "Velkommen tilbake!",
+      "subtitle": "La oss lage noe fantastisk i dag",
+      "signOut": "Logg ut"
+    },
+    "stats": {
+      "worksheetsCreated": "Oppgaveark opprettet",
+      "totalThisMonth": "Totalt denne måneden",
+      "appsAvailable": "Tilgjengelige apper",
+      "inYourPlan": "I din pakke",
+      "currentPlan": "Nåværende pakke",
+      "yourMembership": "Ditt medlemskap"
+    },
+    "tierNames": {
+      "free": "Gratis",
+      "core": "Basis",
+      "full": "Pro"
+    },
+    "generators": {
+      "title": "Oppgavearkgeneratorer",
+      "searchPlaceholder": "Søk generatorer...",
+      "filterLabel": "Alle kategorier",
+      "categoryAll": "Alle kategorier",
+      "open": "Åpne →",
+      "noResults": "Ingen generatorer funnet",
+      "tryAdjusting": "Prøv å justere søket eller filtrene dine"
+    },
+    "subscription": {
+      "title": "Abonnement",
+      "currentPlan": "Nåværende pakke",
+      "free": "Gratis",
+      "perMonth": "/måned",
+      "renewsOn": "Fornyes den",
+      "cancelsOn": "Avsluttes den",
+      "whatsIncluded": "Hva er inkludert:",
+      "upgradePlan": "Oppgrader pakke",
+      "manageBilling": "Administrer fakturering",
+      "loading": "Laster...",
+      "cancelWarning": "⚠️ Ditt abonnement avsluttes den {date}"
+    },
+    "activity": {
+      "title": "Din aktivitet",
+      "worksheetsCreated": "Oppgaveark opprettet",
+      "downloads": "Nedlastinger",
+      "generatorsUsed": "Brukte generatorer",
+      "thisWeek": "+3 denne uken",
+      "thisMonth": "Denne måneden",
+      "uniqueApps": "Unike apper",
+      "unlimited": "Ubegrenset",
+      "trackingNote": "📊 Din aktivitet spores for å hjelpe deg holde deg innenfor pakkegrensene dine"
+    },
+    "paymentHistory": {
+      "title": "Betalingshistorikk",
+      "noPayments": "Ingen betalingshistorikk ennå",
+      "noPaymentsSubtext": "Dine betalinger vil vises her etter du abonnerer",
+      "viewAll": "Se alle betalinger →",
+      "downloadInvoice": "Last ned faktura",
+      "succeeded": "lyktes",
+      "failed": "mislyktes",
+      "pending": "venter"
+    },
+    "tiers": {
+      "free": {
+        "description": "Kom i gang med ordsøkgeneratoren",
+        "features": [
+          "Kun ordsøkgenerator",
+          "Ubegrenset arbeidsbladgenerering",
+          "Nedlastinger med vannmerke"
+        ]
+      },
+      "core": {
+        "description": "Perfekt for vanlig klasserombruk",
+        "features": [
+          "Tilgang til 10 populære arbeidsbladgeneratorer",
+          "Ubegrenset arbeidsbladgenerering",
+          "Ingen vannmerker"
+        ]
+      },
+      "full": {
+        "description": "Full tilgang for avanserte brukere",
+        "features": [
+          "Tilgang til alle 33 arbeidsbladgeneratorer",
+          "Ubegrenset arbeidsbladgenerering",
+          "Ingen vannmerker"
+        ]
+      }
+    },
+    "categories": {
+      "Math": "Matematikk",
+      "Language": "Språk",
+      "Logic": "Logikk",
+      "Art": "Kunst",
+      "Visual": "Visuelt",
+      "Game": "Spill"
+    },
+    "apps": {
+      "wordSearch": {
+        "name": "Ordsøking",
+        "description": "Lag engasjerende ordsøkinger"
+      },
+      "addition": {
+        "name": "Addisjon",
+        "description": "Øv addisjonsproblemer"
+      },
+      "subtraction": {
+        "name": "Subtraksjon",
+        "description": "Mestre subtraksjonsferdigheter"
+      },
+      "multiplication": {
+        "name": "Multiplikasjon",
+        "description": "Bygg multiplikasjonsflyt"
+      },
+      "division": {
+        "name": "Divisjon",
+        "description": "Lær divisjonskonsepter"
+      },
+      "alphabetTrain": {
+        "name": "Alfabettog",
+        "description": "Morsom alfabetlæring"
+      },
+      "findAndCount": {
+        "name": "Finn og tell",
+        "description": "Visuelle telleøvelser"
+      },
+      "matching": {
+        "name": "Matching",
+        "description": "Koble sammen matchende elementer"
+      },
+      "crossword": {
+        "name": "Kryssord",
+        "description": "Tilpassede kryssord"
+      },
+      "sudoku": {
+        "name": "Sudoku",
+        "description": "Tallpusselutfordringer"
+      },
+      "coloring": {
+        "name": "Farging",
+        "description": "Kreative fargeleggingsark"
+      },
+      "mathPuzzle": {
+        "name": "Mattepuslespill",
+        "description": "Avanserte matteutfordringer"
+      },
+      "wordScramble": {
+        "name": "Ordmiks",
+        "description": "Ordmiksingsspill"
+      },
+      "chartCount": {
+        "name": "Diagram og telling",
+        "description": "Data og diagram øvelser"
+      },
+      "drawingLines": {
+        "name": "Tegne linjer",
+        "description": "Linjetegningsøvelser"
+      },
+      "bigSmall": {
+        "name": "Stor liten",
+        "description": "Størrelsessammenligningsaktiviteter"
+      },
+      "codeAddition": {
+        "name": "Kodet addisjon",
+        "description": "Dekod addisjonsproblemer"
+      },
+      "cryptogram": {
+        "name": "Kryptogram",
+        "description": "Krypterte ordpuslespill"
+      },
+      "drawAndColor": {
+        "name": "Tegn og fargelegg",
+        "description": "Kombinasjon av tegning og farging"
+      },
+      "findObjects": {
+        "name": "Finn gjenstander",
+        "description": "Skjulte gjenstandsspill"
+      },
+      "gridMatch": {
+        "name": "Rutenettmatching",
+        "description": "Mønstermatchende rutenett"
+      },
+      "mathWorksheet": {
+        "name": "Matteark",
+        "description": "Omfattende matteøvelse"
+      },
+      "moreLess": {
+        "name": "Mer mindre",
+        "description": "Sammenlign mengder"
+      },
+      "oddOneOut": {
+        "name": "Den rare fuglen",
+        "description": "Finn den annerledes gjenstanden"
+      },
+      "picturePath": {
+        "name": "Bildesti",
+        "description": "Følg visuelle stier"
+      },
+      "pictureSort": {
+        "name": "Bildesortering",
+        "description": "Kategoriser bilder"
+      },
+      "prepositions": {
+        "name": "Preposisjoner",
+        "description": "Øv posisjonsord"
+      },
+      "treasureHunt": {
+        "name": "Skattejakt",
+        "description": "Eventyrsbasert læring"
+      },
+      "wordGuess": {
+        "name": "Gjett ordet",
+        "description": "Ordgjettingsspill"
+      },
+      "writing": {
+        "name": "Skriving",
+        "description": "Håndskriftsøvelsesark"
+      },
+      "bingo": {
+        "name": "Bingo",
+        "description": "Tilpassede bingobrett"
+      },
+      "shadowMatch": {
+        "name": "Skyggematching",
+        "description": "Match gjenstander til deres skygger"
+      },
+      "patternTrain": {
+        "name": "Mønstertog",
+        "description": "Mønstergjenkjenningsøvelse"
+      },
+      "patternWorksheet": {
+        "name": "Mønsterark",
+        "description": "Fullfør mønstersekvenser"
+      },
+      "missingPieces": {
+        "name": "Manglende brikker",
+        "description": "Finn de manglende brikkene"
+      }
     }
   }
 }

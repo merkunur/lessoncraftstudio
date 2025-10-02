@@ -1,0 +1,271 @@
+TEKSTIKOKOELMA SOVELLUSSIVULLE - SUOMENKIELINEN VERSIO
+Ammattimainen käännös käyttöliittymälle
+Tila: LOPULLINEN - Valmis toteutettavaksi
+
+========================================
+LÄHDETIEDOSTON TIEDOT
+========================================
+
+Lähdetiedosto: frontend/app/[locale]/apps/page.tsx
+Tämä tiedosto sisältää pääsivun sovellusluetteloineen
+
+========================================
+OSIO 1: SIVUN METADATA
+========================================
+
+Sivun otsikko: Kaikki tehtävämonistegeneraattorit - LessonCraftStudio
+Meta-kuvaus: Valitse 33 ammattimaisesta tehtävämonistegeneraattorista opettajille ja koulutuskustantajille
+Meta-avainsanat: tehtävämonistegeneraattorit, opetustyökalut, oppimateriaalit, tulostettavat tehtävämonisteet
+
+========================================
+OSIO 2: HERO-OSIO
+========================================
+
+Otsikko: 33 tehtävämonistegeneraattoria
+
+Alaotsikko: Muuta opetusmateriaalisi täydellisellä valikoimalla pedagogisia tehtävämonistegeneraattoreita. Sanaristikoista matemaattisiin pulmiin, meillä on kaikki mitä tarvitset.
+
+========================================
+OSIO 3: TILAUSKORTTIEN SELITYKSET
+========================================
+
+KORTTI 1 - Ilmaistilaus:
+  Otsikko: Ilmaistilaus
+  Kuvaus: Kokeile sanaristikoiden generaattoria vesileimalla
+
+KORTTI 2 - Peruspaketti:
+  Otsikko: Peruspaketti - $15/kk
+  Kuvaus: Pääsy 10 suosituimpaan sovellukseen kaupallisella lisenssillä
+
+KORTTI 3 - Täysi Pääsy:
+  Otsikko: Täysi Pääsy - $25/kk
+  Kuvaus: Kaikki 33 sovellusta, etusija-asiakaspalvelu, varhainen pääsy
+
+========================================
+OSIO 4: KATEGORIASUODATTIMET
+========================================
+
+Suodatinpainike: Kaikki sovellukset
+
+========================================
+OSIO 5: SOVELLUSOSIOIDEN OTSIKOT
+========================================
+
+Otsikko Osio 1: Ilmaistilaus
+Otsikko Osio 2: Peruspaketti
+Otsikko Osio 3: Täyden Pääsyn Sovellukset
+
+========================================
+OSIO 6: SOVELLUSTEN NIMET (33 SOVELLUSTA)
+========================================
+
+ILMAISTILAUS (1 sovellus):
+  1. Sanaristikko
+
+PERUSPAKETTI (10 sovellusta):
+  2. Yhteenlaskua Kuvin
+  3. Aakkosenjuna
+  4. Värityskuvat
+  5. Matematiikkatehtävät
+  6. Sekoitetut Sanat
+  7. Etsi ja Laske
+  8. Parikorttipeli
+  9. Viivan Veto
+  10. Kuvabingo
+  11. Sudoku Lapsille
+
+TÄYSI PÄÄSY (23 sovellusta):
+  12. Iso vai Pieni
+  13. Laskentakaaviot
+  14. Koodattu Yhteenlasku
+  15. Piirrä ja Väritä
+  16. Etsi Esineet
+  17. Ruudukon Vastaavuus
+  18. Kuvasanastot
+  19. Kuvakryptogrammi
+  20. Matematiikkapulmat
+  21. Puuttuvat Palat
+  22. Enemmän vai Vähemmän
+  23. Eri Tavalla
+  24. Kuviojuna
+  25. Kuviotehtävät
+  26. Kuvapolku
+  27. Lajittele Kuvia
+  28. Prepositiot
+  29. Varjojen Yhdistäminen
+  30. Vähennyslasku
+  31. Aarteenmetsästys
+  32. Arvaa Sana
+  33. Kirjoitusharjoitukset
+
+========================================
+OSIO 7: KATEGORIOIDEN NIMET
+========================================
+
+Sovelluksissa käytetyt kategoriat:
+  - Sanalelut
+  - Matematiikka
+  - Suomen Kieli
+  - Taide & Luovuus
+  - Visuaalinen Hahmottaminen
+  - Yhdistäminen
+  - Hienomotoriikka
+  - Pelit
+  - Logiikka
+  - Käsitteet
+  - Kuviot
+  - Lajittelu
+
+========================================
+OSIO 8: TILAUSMERKIT
+========================================
+
+Merkkien etiketit (näytetään sovelluskorteissa):
+  - Ilmainen (ilmaistilaukselle)
+  - Perus (peruspaketille)
+  - Täysi (täydelle pääsylle)
+
+========================================
+OSIO 9: SUOSITTU-MERKKI
+========================================
+
+Merkin teksti: Suosittu
+(Tämä merkki näkyy suosituissa sovelluksissa)
+
+========================================
+OSIO 10: CTA-OSIO (TOIMINTAKEHOTUS)
+========================================
+
+CTA-otsikko: Valmiina luomaan upeita tehtävämonistetta?
+
+CTA-alaotsikko: Aloita ilmaisella sanaristikoiden generaattorillamme tai avaa kaikki sovellukset jo tänään
+
+Painikkeen Teksti 1: Kokeile Ilmaiseksi
+Painikkeen Teksti 2: Katso Hinnat
+
+========================================
+SOVELLETUT KÄÄNNÖSPERIAATTEET
+========================================
+
+1. LUONNOLLISUUS: Teksti kuulostaa alkuperäiseltä suomelta, ei käännökseltä
+2. KOHDERYHMÄÄN SOPIVA: Kieli sopivaa suomalaisille opettajille ja pedagogeille
+3. JOHDONMUKAISUUS: Yhtenäinen terminologia koko tekstissä
+4. YTIMEKKYYS: Selkeät ja voimakkaat muotoilut
+5. MOTIVOIVA: Motivoivat ja tarkat CTA-painikkeet
+
+Esimerkkejä käännösvalinnoista:
+
+- "Word Search" → "Sanaristikko" (suomalainen standarditermi, ei "Sananhaku")
+- "Worksheet" → "Tehtävämoniste" (suomalainen pedagoginen termi)
+- "Core Bundle" → "Peruspaketti" (selkeä ja houkutteleva)
+- "Full Access" → "Täysi Pääsy" (selkeä ja suora)
+- "MatchUp Maker" → "Parikorttipeli" (toiminnallisesti kuvaava)
+- "Word Scramble" → "Sekoitetut Sanat" (luonnollinen suomalainen termi)
+- "Coloring Pages" → "Värityskuvat" (yleinen suomalainen ilmaisu)
+- "Bingo" → "Kuvabingo" (täsmennyksellä kontekstiin)
+- "Pattern" → "Kuviot" (ei "Mallit" tässä yhteydessä)
+- "Fine Motor Skills" → "Hienomotoriikka" (pedagoginen suomalainen termi)
+- "Language Arts" → "Suomen Kieli" (mukautettu suomalaiseen kontekstiin)
+- "Odd One Out" → "Eri Tavalla" (luonnollinen suomalainen ilmaisu)
+- "Shadow Match" → "Varjojen Yhdistäminen" (kuvaava ja selkeä)
+- "English Writing Practice" → "Kirjoitusharjoitukset" (yleistetty suomalaiseen kontekstiin)
+- "Free Tier" → "Ilmaistilaus" (luonnollisempi kuin "Ilmainen taso")
+- "Chart Count & Color" → "Laskentakaaviot" (ytimekäs suomeksi)
+- "Alphabet Train" → "Aakkosenjuna" (suomalainen yhdyssana)
+- "Treasure Hunt" → "Aarteenmetsästys" (suomalainen yhdyssana)
+
+========================================
+TOTEUTUSHUOMAUTUKSET
+========================================
+
+ALUE: Hero Section
+- heroTitle: "33 tehtävämonistegeneraattoria"
+- heroSubtitle: "Muuta opetusmateriaalisi täydellisellä valikoimalla pedagogisia tehtävämonistegeneraattoreita. Sanaristikoista matemaattisiin pulmiin, meillä on kaikki mitä tarvitset."
+
+ALUE: Tier Info
+- tierInfo.freeTitle: "Ilmaistilaus"
+- tierInfo.freeDescription: "Kokeile sanaristikoiden generaattoria vesileimalla"
+- tierInfo.coreTitle: "Peruspaketti - $15/kk"
+- tierInfo.coreDescription: "Pääsy 10 suosituimpaan sovellukseen kaupallisella lisenssillä"
+- tierInfo.fullTitle: "Täysi Pääsy - $25/kk"
+- tierInfo.fullDescription: "Kaikki 33 sovellusta, etusija-asiakaspalvelu, varhainen pääsy"
+
+ALUE: Filters
+- filters.allApps: "Kaikki sovellukset"
+
+ALUE: Section Headings
+- sections.freeTier: "Ilmaistilaus"
+- sections.coreBundle: "Peruspaketti"
+- sections.fullAccess: "Täyden Pääsyn Sovellukset"
+
+ALUE: App Names
+- appNames.wordSearch: "Sanaristikko"
+- appNames.imageAddition: "Yhteenlaskua Kuvin"
+- appNames.alphabetTrain: "Aakkosenjuna"
+- appNames.coloringPages: "Värityskuvat"
+- appNames.mathWorksheets: "Matematiikkatehtävät"
+- appNames.wordScramble: "Sekoitetut Sanat"
+- appNames.findAndCount: "Etsi ja Laske"
+- appNames.matchUpMaker: "Parikorttipeli"
+- appNames.drawingLines: "Viivan Veto"
+- appNames.pictureBingo: "Kuvabingo"
+- appNames.sudokuForKids: "Sudoku Lapsille"
+- appNames.bigOrSmall: "Iso vai Pieni"
+- appNames.chartCountColor: "Laskentakaaviot"
+- appNames.codeAddition: "Koodattu Yhteenlasku"
+- appNames.drawAndColor: "Piirrä ja Väritä"
+- appNames.findObjects: "Etsi Esineet"
+- appNames.gridMatch: "Ruudukon Vastaavuus"
+- appNames.imageCrossword: "Kuvasanastot"
+- appNames.imageCryptogram: "Kuvakryptogrammi"
+- appNames.mathPuzzle: "Matematiikkapulmat"
+- appNames.missingPieces: "Puuttuvat Palat"
+- appNames.moreOrLess: "Enemmän vai Vähemmän"
+- appNames.oddOneOut: "Eri Tavalla"
+- appNames.patternTrain: "Kuviojuna"
+- appNames.patternWorksheets: "Kuviotehtävät"
+- appNames.picturePathway: "Kuvapolku"
+- appNames.pictureSort: "Lajittele Kuvia"
+- appNames.prepositions: "Prepositiot"
+- appNames.shadowMatch: "Varjojen Yhdistäminen"
+- appNames.subtraction: "Vähennyslasku"
+- appNames.treasureHunt: "Aarteenmetsästys"
+- appNames.wordGuess: "Arvaa Sana"
+- appNames.englishWritingPractice: "Kirjoitusharjoitukset"
+
+ALUE: Categories
+- categories.wordGames: "Sanalelut"
+- categories.math: "Matematiikka"
+- categories.languageArts: "Suomen Kieli"
+- categories.artCreativity: "Taide & Luovuus"
+- categories.visual: "Visuaalinen Hahmottaminen"
+- categories.matching: "Yhdistäminen"
+- categories.fineMotorSkills: "Hienomotoriikka"
+- categories.games: "Pelit"
+- categories.logic: "Logiikka"
+- categories.concepts: "Käsitteet"
+- categories.patterns: "Kuviot"
+- categories.sorting: "Lajittelu"
+
+ALUE: Tier Badges
+- tierBadges.free: "Ilmainen"
+- tierBadges.core: "Perus"
+- tierBadges.full: "Täysi"
+
+ALUE: Popular Badge
+- badges.popular: "Suosittu"
+
+ALUE: CTA Section
+- cta.title: "Valmiina luomaan upeita tehtävämonistetta?"
+- cta.subtitle: "Aloita ilmaisella sanaristikoiden generaattorillamme tai avaa kaikki sovellukset jo tänään"
+- cta.startFreeTrial: "Kokeile Ilmaiseksi"
+- cta.viewPricing: "Katso Hinnat"
+
+========================================
+TILA
+========================================
+
+LOPULLINEN - Valmis toteutettavaksi
+Täydellinen ammattimainen käännös kaikille tekstialueille
+Laadunvalvonta suoritettu
+EI TOTEUTETTU - Vain käännös luotu

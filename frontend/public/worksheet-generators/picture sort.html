@@ -529,6 +529,9 @@
         <option value="no" data-translate="language.norwegian">Norsk</option>
         <option value="fi" data-translate="language.finnish">Suomi</option>
       </select>
+      <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="picture.sort.language.description">
+          Selects the language for image library content only. UI language is controlled by the main language selector in the header.
+      </p>
     </div>
     <div class="panel-content">
 
@@ -734,13 +737,17 @@
 
 <script>
 // MUST BE GLOBAL - Before DOMContentLoaded for proper enhancement script initialization
-let currentLocale = 'en';
+// Separate UI locale (from URL) and content locale (from sidebar selector)
+let uiLocale = 'en';  // UI language (for interface translations) - from URL parameter
+let currentLocale = 'en';  // Content language (for image library) - can be changed by sidebar selector
 const urlParams = new URLSearchParams(window.location.search);
 const localeParam = urlParams.get('locale');
 if (localeParam) {
-    currentLocale = localeParam;
+    uiLocale = localeParam;  // UI language comes from URL (parent app header)
+    currentLocale = localeParam;  // Initial content language matches UI language
 }
 // Set globally for all enhancement scripts
+window.uiLocale = uiLocale;
 window.currentLocale = currentLocale;
 
 // Translation function
@@ -749,7 +756,8 @@ function t(key, params = {}) {
         console.warn('Translations not loaded:', key);
         return key;
     }
-    const locale = window.currentLocale || 'en';
+    // Use uiLocale for UI translations, fallback to currentLocale, then to English
+    const locale = window.uiLocale || window.currentLocale || 'en';
     let translation = translations[locale]?.[key] || translations.en?.[key] || key;
 
     // Handle parameter substitution
@@ -763,6 +771,9 @@ function t(key, params = {}) {
 
 // Apply translations function
 function applyTranslations() {
+    console.log('[Picture Sort] Applying UI translations for locale:', window.uiLocale || window.currentLocale);
+    console.log('[Picture Sort] Content locale:', window.currentLocale);
+
     document.querySelectorAll('[data-translate]').forEach(el => {
         const key = el.getAttribute('data-translate');
         if (key) el.textContent = t(key);
@@ -1021,24 +1032,33 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.addEventListener('input', () => debounce(renderDictionary, 300));
         imageUploadInput.addEventListener('change', handleImageUpload);
         
-        // Language change handler - reload page to prevent duplicate theme loading
-        languageSelect.addEventListener('change', function() {
-            const newLocale = this.value;
-            currentLocale = newLocale;
-            window.currentLocale = newLocale;
+        // Initialize UnifiedLanguageManager for content language (image library)
+        if (typeof window.UnifiedLanguageManager !== 'undefined') {
+            window.languageManager = window.UnifiedLanguageManager;
 
-            const url = new URL(window.location);
-            url.searchParams.set('locale', newLocale);
-            window.location.href = url.toString();
+            // Register callback to reload image library when content language changes
+            window.languageManager.onLanguageChange(function(newLocale, oldLocale) {
+                console.log('[Picture Sort] Content language changed from', oldLocale, 'to', newLocale);
+                currentLocale = newLocale;
+                window.currentLocale = newLocale;
 
-            // Apply translations
-            if (typeof applyTranslations === 'function') {
-                applyTranslations();
-            }
+                // Clear image cache and reinitialize
+                imageCache = { themes: [], all: [] };
+                initializeImageLibrary();
+            });
+        } else {
+            // Fallback mode with direct event handler (backward compatibility)
+            console.warn('[Picture Sort] UnifiedLanguageManager not found, using fallback mode');
+            languageSelect.addEventListener('change', function() {
+                const newLocale = this.value;
+                currentLocale = newLocale;
+                window.currentLocale = newLocale;
 
-            // Reload themes and images with new locale
-            initializeImageLibrary();
-        });
+                // Clear image cache and reinitialize (do NOT reload UI translations)
+                imageCache = { themes: [], all: [] };
+                initializeImageLibrary();
+            });
+        }
         pageSizeSelect.addEventListener('change', () => {
             customPageSizeInputsDiv.style.display = pageSizeSelect.value === 'custom' ? 'block' : 'none';
             if (pageSizeSelect.value !== 'custom') {
@@ -2389,6 +2409,47 @@ async function downloadPDF(name, canvasToExport) {
         }
     }
 
+    async function generateInitialWorksheet() {
+        try {
+            console.log('Starting initial worksheet generation...');
+
+            // Wait for themes to load
+            let attempts = 0;
+            const maxAttempts = 50;
+            while (leftCategoryThemeSelect.options.length <= 1 && attempts < maxAttempts) {
+                await new Promise(resolve => setTimeout(resolve, 100));
+                attempts++;
+            }
+
+            // Set page size to Letter portrait (already default)
+            pageSizeSelect.value = '612x792';
+            const [width, height] = pageSizeSelect.value.split('x').map(Number);
+            currentCanvasConfig.width = width;
+            currentCanvasConfig.height = height;
+            worksheetCanvas.setDimensions({ width, height });
+            solutionCanvas.setDimensions({ width, height });
+            updateCanvasDisplayDimensions(width, height);
+
+            // Set theme selections
+            leftCategoryThemeSelect.value = 'animals';
+            rightCategoryThemeSelect.value = 'food';
+
+            // Trigger change events to update UI state
+            leftCategoryThemeSelect.dispatchEvent(new Event('change'));
+            rightCategoryThemeSelect.dispatchEvent(new Event('change'));
+
+            // Wait a bit for UI to update
+            await new Promise(resolve => setTimeout(resolve, 200));
+
+            // Generate worksheet
+            await handleGenerateWorksheet();
+
+            console.log('Initial worksheet generated successfully');
+        } catch (error) {
+            console.error('Error generating initial worksheet:', error);
+        }
+    }
+
     // --- START THE APP ---
     initializeApp();
 
@@ -2409,6 +2470,8 @@ async function downloadPDF(name, canvasToExport) {
     } else {
         console.warn('⚠️ BulletproofLoader not found');
     }
+
+    setTimeout(() => generateInitialWorksheet(), 1000);
 });
 </script>
 </body>

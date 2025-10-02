@@ -17,7 +17,7 @@ const translations = {
     "library.title": "Image Library",
     "library.uploadTitle": "Upload Custom Images",
 
-    // ===== 3. LANGUAGE SECTION (12 items) =====
+    // ===== 3. LANGUAGE SECTION (13 items) =====
     "settings.languageLabel": "Language:",
     "lang.en": "English",
     "lang.de": "Deutsch (German)",
@@ -30,6 +30,7 @@ const translations = {
     "lang.da": "Dansk (Danish)",
     "lang.no": "Norsk (Norwegian)",
     "lang.fi": "Suomi (Finnish)",
+    "word.guess.language.description": "Selects the content language. UI language is controlled by the main language selector in the header.",
 
     // ===== 4. PAGE SETUP (16 items) =====
     "settings.pageSize": "Page Size:",
@@ -185,7 +186,7 @@ const translations = {
     "library.title": "Bilderbibliothek",
     "library.uploadTitle": "Eigene Bilder Hochladen",
 
-    // ===== 3. LANGUAGE SECTION (12 items) =====
+    // ===== 3. LANGUAGE SECTION (13 items) =====
     "settings.languageLabel": "Sprache:",
     "lang.en": "English (Englisch)",
     "lang.de": "Deutsch",
@@ -198,6 +199,7 @@ const translations = {
     "lang.da": "Dansk (Dänisch)",
     "lang.no": "Norsk (Norwegisch)",
     "lang.fi": "Suomi (Finnisch)",
+    "word.guess.language.description": "Wählt die Inhaltssprache. Die UI-Sprache wird durch den Haupt-Sprachselektor in der Kopfzeile gesteuert.",
 
     // ===== 4. PAGE SETUP (16 items) =====
     "settings.pageSize": "Seitengröße:",
@@ -353,7 +355,7 @@ const translations = {
     "library.title": "Bibliothèque d'Images",
     "library.uploadTitle": "Téléverser vos Images",
 
-    // ===== 3. LANGUAGE SECTION (12 items) =====
+    // ===== 3. LANGUAGE SECTION (13 items) =====
     "settings.languageLabel": "Langue :",
     "lang.en": "English (Anglais)",
     "lang.de": "Deutsch (Allemand)",
@@ -366,6 +368,7 @@ const translations = {
     "lang.da": "Dansk (Danois)",
     "lang.no": "Norsk (Norvégien)",
     "lang.fi": "Suomi (Finnois)",
+    "word.guess.language.description": "Sélectionne la langue du contenu. La langue de l'interface est contrôlée par le sélecteur de langue principal dans l'en-tête.",
 
     // ===== 4. PAGE SETUP (16 items) =====
     "settings.pageSize": "Format de Page :",
@@ -521,7 +524,7 @@ const translations = {
     "library.title": "Biblioteca de Imágenes",
     "library.uploadTitle": "Subir Imágenes Propias",
 
-    // ===== 3. LANGUAGE SECTION (12 items) =====
+    // ===== 3. LANGUAGE SECTION (13 items) =====
     "settings.languageLabel": "Idioma:",
     "lang.en": "English (Inglés)",
     "lang.de": "Deutsch (Alemán)",
@@ -533,6 +536,7 @@ const translations = {
     "lang.sv": "Svenska (Sueco)",
     "lang.da": "Dansk (Danés)",
     "lang.no": "Norsk (Noruego)",
+    "word.guess.language.description": "Selecciona el idioma del contenido. El idioma de la interfaz se controla mediante el selector de idioma principal en el encabezado.",
     "lang.fi": "Suomi (Finés)",
 
     // ===== 4. PAGE SETUP (16 items) =====
@@ -689,7 +693,7 @@ const translations = {
     "library.title": "Raccolta Immagini",
     "library.uploadTitle": "Carica le Tue Immagini",
 
-    // ===== 3. LANGUAGE SECTION (12 items) =====
+    // ===== 3. LANGUAGE SECTION (13 items) =====
     "settings.languageLabel": "Lingua:",
     "lang.en": "English (Inglese)",
     "lang.de": "Deutsch (Tedesco)",
@@ -701,6 +705,7 @@ const translations = {
     "lang.sv": "Svenska (Svedese)",
     "lang.da": "Dansk (Danese)",
     "lang.no": "Norsk (Norvegese)",
+    "word.guess.language.description": "Seleziona la lingua dei contenuti. La lingua dell'interfaccia è controllata dal selettore della lingua principale nell'intestazione.",
     "lang.fi": "Suomi (Finlandese)",
 
     // ===== 4. PAGE SETUP (16 items) =====
@@ -857,7 +862,7 @@ const translations = {
     "library.title": "Biblioteca de Imagens",
     "library.uploadTitle": "Enviar Suas Imagens",
 
-    // ===== 3. LANGUAGE SECTION (12 items) =====
+    // ===== 3. LANGUAGE SECTION (13 items) =====
     "settings.languageLabel": "Idioma:",
     "lang.en": "English (Inglês)",
     "lang.de": "Deutsch (Alemão)",
@@ -869,6 +874,7 @@ const translations = {
     "lang.sv": "Svenska (Sueco)",
     "lang.da": "Dansk (Dinamarquês)",
     "lang.no": "Norsk (Norueguês)",
+    "word.guess.language.description": "Seleciona o idioma do conteúdo. O idioma da interface é controlado pelo seletor de idioma principal no cabeçalho.",
     "lang.fi": "Suomi (Finlandês)",
 
     // ===== 4. PAGE SETUP (16 items) =====
@@ -1025,7 +1031,7 @@ const translations = {
     "library.title": "Afbeeldingen Collectie",
     "library.uploadTitle": "Upload Je Eigen Afbeeldingen",
 
-    // ===== 3. LANGUAGE SECTION (12 items) =====
+    // ===== 3. LANGUAGE SECTION (13 items) =====
     "settings.languageLabel": "Taal:",
     "lang.en": "English (Engels)",
     "lang.de": "Deutsch (Duits)",
@@ -1037,6 +1043,7 @@ const translations = {
     "lang.sv": "Svenska (Zweeds)",
     "lang.da": "Dansk (Deens)",
     "lang.no": "Norsk (Noors)",
+    "word.guess.language.description": "Selecteert de inhoudstaal. De UI-taal wordt geregeld door de hoofdtaalselector in de header.",
     "lang.fi": "Suomi (Fins)",
 
     // ===== 4. PAGE SETUP (16 items) =====
@@ -1193,7 +1200,7 @@ const translations = {
     "library.title": "Bildsamling",
     "library.uploadTitle": "Ladda Upp Egna Bilder",
 
-    // ===== 3. LANGUAGE SECTION (12 items) =====
+    // ===== 3. LANGUAGE SECTION (13 items) =====
     "settings.languageLabel": "Språk:",
     "lang.en": "English (Engelska)",
     "lang.de": "Deutsch (Tyska)",
@@ -1205,6 +1212,7 @@ const translations = {
     "lang.sv": "Svenska",
     "lang.da": "Dansk (Danska)",
     "lang.no": "Norsk (Norska)",
+    "word.guess.language.description": "Väljer innehållsspråk. Gränssnittsspråket styrs av huvudspråkväljaren i sidhuvudet.",
     "lang.fi": "Suomi (Finska)",
 
     // ===== 4. PAGE SETUP (16 items) =====
@@ -1361,7 +1369,7 @@ const translations = {
     "library.title": "Billedsamling",
     "library.uploadTitle": "Upload Dine Egne Billeder",
 
-    // ===== 3. LANGUAGE SECTION (12 items) =====
+    // ===== 3. LANGUAGE SECTION (13 items) =====
     "settings.languageLabel": "Sprog:",
     "lang.en": "English (Engelsk)",
     "lang.de": "Deutsch (Tysk)",
@@ -1373,6 +1381,7 @@ const translations = {
     "lang.sv": "Svenska (Svensk)",
     "lang.da": "Dansk",
     "lang.no": "Norsk",
+    "word.guess.language.description": "Vælger indholdssprog. UI-sproget styres af hovedsprogvælgeren i overskriften.",
     "lang.fi": "Suomi (Finsk)",
 
     // ===== 4. PAGE SETUP (16 items) =====
@@ -1529,7 +1538,7 @@ const translations = {
     "library.title": "Bildesamling",
     "library.uploadTitle": "Last Opp Egne Bilder",
 
-    // ===== 3. LANGUAGE SECTION (12 items) =====
+    // ===== 3. LANGUAGE SECTION (13 items) =====
     "settings.languageLabel": "Språk:",
     "lang.en": "English (Engelsk)",
     "lang.de": "Deutsch (Tysk)",
@@ -1541,6 +1550,7 @@ const translations = {
     "lang.sv": "Svenska (Svensk)",
     "lang.da": "Dansk",
     "lang.no": "Norsk",
+    "word.guess.language.description": "Velger innholdsspråk. UI-språket styres av hovedspråkvelgeren i overskriften.",
     "lang.fi": "Suomi (Finsk)",
 
     // ===== 4. PAGE SETUP (16 items) =====
@@ -1697,7 +1707,7 @@ const translations = {
     "library.title": "Kuvakirjasto",
     "library.uploadTitle": "Lataa Omia Kuvia",
 
-    // ===== 3. LANGUAGE SECTION (12 items) =====
+    // ===== 3. LANGUAGE SECTION (13 items) =====
     "settings.languageLabel": "Kieli:",
     "lang.en": "English (Englanti)",
     "lang.de": "Deutsch (Saksa)",
@@ -1709,6 +1719,7 @@ const translations = {
     "lang.sv": "Svenska (Ruotsi)",
     "lang.da": "Dansk (Tanska)",
     "lang.no": "Norsk (Norja)",
+    "word.guess.language.description": "Valitsee sisällön kielen. Käyttöliittymän kieli ohjataan pääkielivalitsimella otsikossa.",
     "lang.fi": "Suomi",
 
     // ===== 4. PAGE SETUP (16 items) =====

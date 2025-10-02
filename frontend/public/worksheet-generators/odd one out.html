@@ -794,6 +794,9 @@
                     <option value="no" data-translate="language.norwegian">Norsk</option>
                     <option value="fi" data-translate="language.finnish">Suomi</option>
                 </select>
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="oddoneout.language.description">
+                    Selects the language for image library content only. UI language is controlled by the main language selector in the header.
+                </p>
             </div>
         </div>
         
@@ -1035,12 +1038,16 @@
   </div>
 
   <script>
-    // Set currentLocale globally BEFORE DOMContentLoaded (critical for enhancement scripts)
-    let currentLocale = 'en';
+    // Separate UI locale (from URL) and content locale (from sidebar selector)
+    let uiLocale = 'en';  // UI language (for interface translations) - from URL parameter
+    let currentLocale = 'en';  // Content language (for image library) - can be changed by sidebar selector
     const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get('locale')) {
-        currentLocale = urlParams.get('locale');
+    const localeParam = urlParams.get('locale');
+    if (localeParam) {
+        uiLocale = localeParam;  // UI language comes from URL (parent app header)
+        currentLocale = localeParam;  // Initial content language matches UI language
     }
+    window.uiLocale = uiLocale;
     window.currentLocale = currentLocale;
 
     // Translation function with fallback
@@ -1049,14 +1056,16 @@
         console.warn('Translations not loaded, returning key:', key);
         return key;
       }
-      const locale = window.currentLocale || 'en';
+      // Use uiLocale for UI translations, fallback to currentLocale, then to English
+      const locale = window.uiLocale || window.currentLocale || 'en';
       return translations[locale]?.[key] || translations.en?.[key] || key;
     }
     window.t = t;
 
     // Apply translations to elements with data-translate attributes
     function applyTranslations() {
-      const locale = window.currentLocale || 'en';
+      console.log('[Odd One Out] Applying UI translations for locale:', window.uiLocale || window.currentLocale);
+      console.log('[Odd One Out] Content locale:', window.currentLocale);
 
       // Translate elements with data-translate attribute
       document.querySelectorAll('[data-translate]').forEach(el => {
@@ -1160,31 +1169,108 @@
         languageSelect: document.getElementById('languageSelect')
       };
 
-      // --- INITIALIZE LOCALE FROM URL ---
-      const urlParams = new URLSearchParams(window.location.search);
-      const localeParam = urlParams.get('locale');
-      if (localeParam) {
-        currentLocale = localeParam;
-      }
-
-      // Set language selector value
-      if (ui.languageSelect && currentLocale) {
+      // --- INITIALIZE LOCALE ---
+      // Set language selector value to current content locale
+      if (ui.languageSelect) {
         ui.languageSelect.value = currentLocale;
       }
-      
-      // Add language change handler
-      if (ui.languageSelect) {
-        ui.languageSelect.addEventListener('change', (e) => {
-          const newLocale = e.target.value;
-          const url = new URL(window.location.href);
-          url.searchParams.set('locale', newLocale);
-          window.location.href = url.toString();
-        });
+
+      // Initialize UnifiedLanguageManager for content language (image library)
+      if (typeof window.UnifiedLanguageManager !== 'undefined') {
+          window.languageManager = window.UnifiedLanguageManager;
+
+          // Register callback to reload image library when content language changes
+          window.languageManager.onLanguageChange(function(newLocale, oldLocale) {
+              console.log('[Odd One Out] Content language changed from', oldLocale, 'to', newLocale);
+              currentLocale = newLocale;
+              window.currentLocale = newLocale;
+
+              // Clear cache and reload image themes and dictionary
+              imageCache = {};
+              fetchImageThemes().then(() => {
+                  loadDictionary();
+              });
+          });
+      } else {
+          // Fallback mode with direct event handler (backward compatibility)
+          console.warn('[Odd One Out] UnifiedLanguageManager not found, using fallback mode');
+          if (ui.languageSelect) {
+              ui.languageSelect.addEventListener('change', function() {
+                  const newLocale = this.value;
+                  currentLocale = newLocale;
+                  window.currentLocale = newLocale;
+
+                  // Clear cache and reload image themes and dictionary
+                  imageCache = {};
+                  fetchImageThemes().then(() => {
+                      loadDictionary();
+                  });
+              });
+          }
       }
 
       // Apply initial translations
       if (typeof applyTranslations === 'function') {
         applyTranslations();
+      }
+
+      // --- INITIAL WORKSHEET GENERATION ---
+      async function generateInitialWorksheet() {
+          try {
+              console.log('Starting initial worksheet generation...');
+
+              // Wait for themes to load with polling
+              let attempts = 0;
+              const maxAttempts = 50; // 5 seconds max wait time
+
+              while (ui.themeSelect.options.length <= 1 && attempts < maxAttempts) {
+                  await new Promise(resolve => setTimeout(resolve, 100));
+                  attempts++;
+              }
+
+              if (ui.themeSelect.options.length <= 1) {
+                  console.error('Themes failed to load in time');
+                  return;
+              }
+
+              // Set page size to Letter portrait (612x792)
+              ui.pageSizeSelect.value = '612x792';
+              const [width, height] = ui.pageSizeSelect.value.split('x').map(Number);
+              currentCanvasConfig.width = width;
+              currentCanvasConfig.height = height;
+
+              worksheetCanvas.setDimensions({ width, height });
+              answerKeyCanvas.setDimensions({ width, height });
+              updateCanvasDisplayDimensions(width, height, false);
+
+              // Set Number of Exercises to 6
+              ui.exerciseCountSelect.value = '6';
+
+              // Set Mode to Similar
+              ui.modeSelect.value = 'similar';
+
+              // Set Theme A to Animals
+              ui.themeSelect.value = 'animals';
+
+              // Set Theme B to Food
+              ui.themeBSelect.value = 'food';
+
+              // Include Exercise Numbers
+              ui.includeExerciseNumbers.checked = true;
+
+              // Load dictionary to populate images
+              await loadDictionary();
+
+              // Give a small delay before generating
+              await new Promise(resolve => setTimeout(resolve, 200));
+
+              // Generate the worksheet by calling renderWorksheet
+              await renderWorksheet();
+
+              console.log('Initial worksheet generated successfully');
+          } catch (error) {
+              console.error('Error generating initial worksheet:', error);
+          }
       }
 
       // --- STATE MANAGEMENT ---
@@ -2724,6 +2810,9 @@
         loadDictionary();
         renderPreviews();
         handleSelectionCleared(null, null);
+
+        // Generate initial worksheet after a delay to allow UI initialization
+        setTimeout(() => generateInitialWorksheet(), 1000);
       };
 
       init();

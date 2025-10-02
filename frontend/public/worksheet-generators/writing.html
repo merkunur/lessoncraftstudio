@@ -3716,10 +3716,9 @@ document.addEventListener('DOMContentLoaded', () => {
     borderThemeSelect.addEventListener("change", () => loadAssetImages('borders', borderThemeSelect.value, borderDictionary, addBorderToCanvas));
     borderOpacitySlider.addEventListener('input', () => applyOpacity(borderOpacitySlider, 'border'));
 
-    // NOTE: BulletproofLoader.init() is NOT called here because:
-    // 1. The writing app doesn't require background/border themes to function
-    // 2. The API endpoints may not exist when testing locally (file:// protocol)
-    // 3. Border/background themes will load on-demand when user selects them
+    // Load border and background themes on initialization
+    loadAssetThemes('backgrounds', backgroundThemeSelect);
+    loadAssetThemes('borders', borderThemeSelect);
 
     updateUIMode();
     updateWorksheetPageSize();
@@ -3910,6 +3909,132 @@ window.addEventListener('resize', renderWorksheet);
             }
         };
     }
+
+    async function generateInitialWorksheet() {
+        try {
+            console.log('Starting initial worksheet generation...');
+
+            // Set page size to Letter portrait (612x792) - already default
+            pageSizeSelect.value = '612x792';
+            updateWorksheetPageSize();
+
+            // Set theme to Animals and fetch images
+            themeSelect.value = 'animals';
+
+            // Fetch Animals theme images
+            const response = await fetch(`/api/images?theme=animals&locale=${imageLibraryLocale}`);
+            const data = await response.json();
+            const animalImages = data.images || data;
+
+            // Select a random animal image
+            if (animalImages && animalImages.length > 0) {
+                const randomIndex = Math.floor(Math.random() * animalImages.length);
+                selectedImage = {
+                    word: animalImages[randomIndex].word,
+                    path: animalImages[randomIndex].path
+                };
+                console.log('Selected image:', selectedImage);
+
+                // Add the image to the worksheet
+                showImageFeedback();
+            }
+
+            // Wait a bit for the image to load
+            await new Promise(resolve => setTimeout(resolve, 500));
+
+            // Calculate dimensions like addNewRowControl does
+            const defaultRowHeight = vhToPixels(4.48);
+            const worksheetWidth = worksheetEl.clientWidth;
+            const worksheetHeight = worksheetEl.clientHeight;
+            const rowWidth = worksheetWidth * 0.9;
+            const centerX = (worksheetWidth - rowWidth) / 2;
+
+            // Calculate Y positions for 3 rows, positioned below the image
+            // Image takes up approximately 29.575% of height + 20px top offset
+            const imageHeight = worksheetHeight * 0.29575;
+            const imageBottomY = 20 + imageHeight;
+            const availableHeight = worksheetHeight - imageBottomY - 40; // 40px bottom margin
+            const totalRowsHeight = defaultRowHeight * 3;
+            const spacing = (availableHeight - totalRowsHeight) / 4; // spacing between rows
+            const startY = imageBottomY + spacing;
+
+            // Add Row 1: Trace, Print Tracing Arrow, Beginning Letter, Lower Case
+            blocksState.push({
+                id: blockIdCounter++,
+                type: 'row',
+                x: centerX,
+                y: startY,
+                width: rowWidth,
+                height: defaultRowHeight,
+                zIndex: highestZ++,
+                locked: false,
+                rowConfig: {
+                    mode: 'trace',
+                    fontStyle: 'print/tracing arrow',
+                    content: 'beginning',
+                    case: 'lowercase',
+                    strokeType: 'vertical',
+                    customText: '',
+                    letterCount: null,
+                    strokeCount: null
+                }
+            });
+
+            // Add Row 2: Trace, Print Tracing, Beginning Letter, Lower Case
+            blocksState.push({
+                id: blockIdCounter++,
+                type: 'row',
+                x: centerX,
+                y: startY + defaultRowHeight + spacing,
+                width: rowWidth,
+                height: defaultRowHeight,
+                zIndex: highestZ++,
+                locked: false,
+                rowConfig: {
+                    mode: 'trace',
+                    fontStyle: 'print/tracing',
+                    content: 'beginning',
+                    case: 'lowercase',
+                    strokeType: 'vertical',
+                    customText: '',
+                    letterCount: null,
+                    strokeCount: null
+                }
+            });
+
+            // Add Row 3: Fading Trace, Print Tracing, Beginning Letter, Lower Case
+            blocksState.push({
+                id: blockIdCounter++,
+                type: 'row',
+                x: centerX,
+                y: startY + (defaultRowHeight + spacing) * 2,
+                width: rowWidth,
+                height: defaultRowHeight,
+                zIndex: highestZ++,
+                locked: false,
+                rowConfig: {
+                    mode: 'fading-trace',
+                    fontStyle: 'print/tracing',
+                    content: 'beginning',
+                    case: 'lowercase',
+                    strokeType: 'vertical',
+                    customText: '',
+                    letterCount: null,
+                    strokeCount: null
+                }
+            });
+
+            // Render the worksheet with all rows
+            renderWorksheet();
+            renderRowControls();
+
+            console.log('Initial worksheet generated successfully');
+        } catch (error) {
+            console.error('Error generating initial worksheet:', error);
+        }
+    }
+
+    setTimeout(() => generateInitialWorksheet(), 1000);
 
 </script>
 </body>

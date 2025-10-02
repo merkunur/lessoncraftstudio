@@ -1312,6 +1312,45 @@ document.addEventListener('DOMContentLoaded', function() {
         showMessage('success', t('chartcount.msg.answer.generated'));
     }
 
+    // --- Initial Worksheet Generation ---
+    async function generateInitialWorksheet() {
+        try {
+            // Wait for themes to be loaded
+            await new Promise(resolve => {
+                const checkThemes = () => {
+                    if (worksheetThemeSelect && worksheetThemeSelect.options.length > 1) {
+                        resolve();
+                    } else {
+                        setTimeout(checkThemes, 100);
+                    }
+                };
+                checkThemes();
+            });
+
+            // Add a small delay to ensure everything is fully initialized
+            await new Promise(resolve => setTimeout(resolve, 300));
+
+            // Set default values: Animals theme (random), Letter portrait
+            worksheetThemeSelect.value = 'animals'; // This will trigger random selection from animals theme
+            pageSizeSelect.value = '612x792'; // Letter portrait
+
+            // Apply page size
+            const [w, h] = pageSizeSelect.value.split('x').map(Number);
+            currentCanvasConfig.width = w;
+            currentCanvasConfig.height = h;
+            updateCanvasDisplayDimensions(w, h);
+
+            // Make sure selectedImages is empty so it uses random theme selection
+            selectedImages = [];
+
+            // Generate worksheet (will randomly pick 6 images from animals theme)
+            await handleGenerateWorksheet();
+
+        } catch (error) {
+            console.error('Error generating initial worksheet:', error);
+        }
+    }
+
     // START: Refactor Step 2 (Worksheet Generation)
     async function renderWorksheet(data) {
         // --- PRESERVE INDIVIDUAL LAYOUTS ---
@@ -2530,9 +2569,14 @@ document.addEventListener('DOMContentLoaded', function() {
             showMessage('error', t('chartcount.msg.pdf.error'));
         }
     }
-    
+
     // --- START THE APP ---
     initializeApp();
+
+    // Generate initial default worksheet after app is initialized
+    setTimeout(() => {
+        generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
+    }, 500);
 });
 </script>
 

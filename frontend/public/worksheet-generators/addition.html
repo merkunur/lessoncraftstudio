@@ -2085,6 +2085,53 @@
         }
     }
 
+    async function generateInitialWorksheet() {
+        try {
+            // Wait for themes to load first
+            await new Promise(resolve => {
+                const checkThemes = () => {
+                    if (themeSelect && themeSelect.options.length > 1) {
+                        resolve();
+                    } else {
+                        setTimeout(checkThemes, 100);
+                    }
+                };
+                checkThemes();
+            });
+
+            // Set default settings for initial worksheet
+            themeSelect.value = 'animals';
+            problemCountInput.value = 7;
+            minOperandInput.value = 1;
+            maxOperandInput.value = 5;
+            showPlusSignCheckbox.checked = true;
+            includeExerciseNumbersCheckbox.checked = true;
+            useFriendlyBoxCheckbox.checked = true;
+            includeNameDateCheckbox.checked = false;
+            pageSizeSelect.value = '612x792'; // Letter portrait
+
+            // Apply page size
+            const [width, height] = pageSizeSelect.value.split('x').map(Number);
+            currentCanvasConfig.width = width;
+            currentCanvasConfig.height = height;
+            updateCanvasDisplayDimensions(width, height);
+
+            // Load animals theme images
+            await loadDictionary();
+
+            // Wait a moment for settings to apply
+            await new Promise(resolve => setTimeout(resolve, 200));
+
+            // Generate the worksheet
+            await generateWorksheet();
+
+            console.log('✅ Initial default worksheet generated');
+        } catch (error) {
+            console.warn('Could not generate initial worksheet:', error);
+            // Fail silently - not critical
+        }
+    }
+
     async function generateWorksheet() {
         if (!worksheetCanvas) return;
         
@@ -3016,7 +3063,7 @@
               borderSelect: borderThemeSelect,
               backgroundSelect: backgroundThemeSelect,
               locale: currentLocale  // EXPLICITLY pass the locale
-          }).then(() => {
+          }).then(async () => {
               console.log('✅ BulletproofLoader initialized successfully');
               // Apply translations to the newly created option elements
               setTimeout(() => {
@@ -3025,11 +3072,16 @@
                       option.textContent = t('none');
                   });
               }, 100);
+
+              // Generate initial default worksheet after everything is loaded
+              await generateInitialWorksheet();
           }).catch(err => {
               console.error('❌ BulletproofLoader failed:', err);
           });
       } else {
           console.warn('⚠️ BulletproofLoader not found');
+          // If BulletproofLoader is not available, still try to generate initial worksheet
+          generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
       }
 
       renderSelectedImages();

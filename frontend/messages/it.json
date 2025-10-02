@@ -263,8 +263,8 @@
     }
   },
   "pricing": {
-    "heroTitle": "Prezzi chiari e senza sorprese",
-    "heroSubtitle": "Scegli il piano perfetto per creare materiale didattico di qualità professionale",
+    "heroTitle": "Semplice. Trasparente. Giusto.",
+    "heroSubtitle": "Scegli il piano che fa per te",
     "billingToggle": {
       "monthly": "Mensile",
       "yearly": "Annuale",
@@ -282,17 +282,17 @@
         "name": "Gratuito",
         "price": "$0",
         "period": "",
-        "description": "Perfetto per provare i nostri strumenti",
+        "description": "Perfetto per conoscere la piattaforma",
         "features": {
           "0": "Generatore di crucipuzzle (con filigrana)",
-          "1": "Filigrana discreta sui documenti",
-          "2": "Libreria immagini essenziale",
-          "3": "Modelli standard inclusi",
-          "4": "Forum della community per supporto",
-          "5": "Solo per uso personale"
+          "1": "Filigrana discreta sulle schede",
+          "2": "Libreria immagini base",
+          "3": "Modelli standard",
+          "4": "Supporto community",
+          "5": "Solo uso personale"
         },
         "limitations": {
-          "0": "Filigrana presente sui documenti",
+          "0": "Filigrana presente sulle schede",
           "1": "Nessuna licenza commerciale",
           "2": "Personalizzazione limitata"
         },
@@ -302,19 +302,19 @@
         "cta": "Inizia gratis"
       },
       "core": {
-        "name": "Pacchetto Essenziale",
+        "name": "Essenziale",
         "price": "$15",
         "period": "/mese",
         "yearlyPrice": "$144",
-        "description": "Gli strumenti indispensabili per insegnanti e educatori",
+        "description": "Tutto quello che ti serve per creare schede fantastiche",
         "features": {
-          "0": "I 10 generatori più richiesti",
-          "1": "Nessuna filigrana",
-          "2": "Libreria completa (100+ temi)",
+          "0": "I 10 generatori più usati",
+          "1": "Senza filigrana",
+          "2": "Libreria completa (oltre 100 temi)",
           "3": "Tutti i modelli premium",
           "4": "Licenza commerciale POD inclusa",
           "5": "Assistenza via email",
-          "6": "Esportazione in PDF e JPEG di alta qualità"
+          "6": "Esporta in PDF e JPEG ad alta qualità"
         },
         "apps": {
           "0": "I 10 generatori più popolari:",
@@ -329,27 +329,27 @@
           "9": "Tombola illustrata",
           "10": "Sudoku per bambini"
         },
-        "cta": "Prova gratis per 7 giorni"
+        "cta": "Inizia ora"
       },
       "full": {
-        "name": "Accesso Completo",
+        "name": "Premium",
         "price": "$25",
         "period": "/mese",
         "yearlyPrice": "$240",
-        "description": "Il pacchetto completo per i creatori di contenuti più esigenti",
+        "description": "Accesso completo a tutti i generatori e funzioni",
         "features": {
           "0": "Tutti i 33 generatori disponibili",
-          "1": "Include tutto del Pacchetto Essenziale",
+          "1": "Tutto il piano Essenziale incluso",
           "2": "Assistenza prioritaria via email",
-          "3": "Accesso anticipato alle novità",
+          "3": "Accesso in anteprima alle novità",
           "4": "Personalizzazione avanzata",
-          "5": "Aggiornamenti regolari e nuove funzionalità"
+          "5": "Aggiornamenti continui"
         },
         "apps": {
-          "0": "Tutti i generatori del Pacchetto Essenziale più:",
+          "0": "Tutti i generatori del piano Essenziale più:",
           "1": "Grande o piccolo",
           "2": "Grafici da contare e colorare",
-          "3": "Code-Addition",
+          "3": "Addizione in codice",
           "4": "Disegna e colora",
           "5": "Trova gli oggetti",
           "6": "Griglia di abbinamento",
@@ -370,21 +370,21 @@
           "21": "Indovina la parola",
           "22": "Esercizi di scrittura inglese"
         },
-        "cta": "Prova gratis per 7 giorni",
+        "cta": "Inizia ora",
         "popular": "PIÙ SCELTO"
       }
     },
     "comparison": {
-      "title": "Confronta i nostri piani nel dettaglio",
+      "title": "Confronta i piani nel dettaglio",
       "features": "Caratteristiche",
       "numberOfApps": "Numero di generatori",
       "watermark": "Senza filigrana",
       "commercialLicense": "Licenza commerciale",
-      "imageLibrarySize": "Dimensione libreria immagini",
+      "imageLibrarySize": "Libreria immagini",
       "imageLibrary": {
         "free": "Limitata (10 temi)",
-        "core": "Completa (100+ temi)",
-        "full": "Completa (100+ temi)"
+        "core": "Completa (oltre 100 temi)",
+        "full": "Completa (oltre 100 temi)"
       },
       "support": "Assistenza",
       "supportTypes": {
@@ -392,7 +392,7 @@
         "core": "Email",
         "full": "Email prioritaria"
       },
-      "earlyAccess": "Accesso anticipato"
+      "earlyAccess": "Accesso in anteprima"
     },
     "faq": {
       "title": "Domande frequenti",
@@ -403,11 +403,11 @@
         },
         "1": {
           "question": "Quali metodi di pagamento accettate?",
-          "answer": "Accettiamo tutte le principali carte di credito (Visa, Mastercard, American Express) e PayPal. Tutti i pagamenti sono gestiti in sicurezza tramite Stripe."
+          "answer": "Accettiamo tutte le principali carte di credito (Visa, Mastercard, American Express). Tutti i pagamenti sono gestiti in sicurezza tramite Stripe."
         },
         "2": {
-          "question": "C'è una prova gratuita?",
-          "answer": "Sì! Sia il Pacchetto Essenziale che l'Accesso Completo offrono 7 giorni di prova gratuita. Non serve la carta di credito per iniziare."
+          "question": "Posso provare prima di acquistare?",
+          "answer": "Certo! Il nostro piano Gratuito ti dà accesso al generatore di crucipuzzle per provare la piattaforma. È il modo migliore per vedere la qualità dei nostri strumenti prima di passare a un piano a pagamento."
         },
         "3": {
           "question": "Cos'è la licenza commerciale POD?",
@@ -424,9 +424,9 @@
       }
     },
     "cta": {
-      "title": "Pronto a creare schede didattiche straordinarie?",
+      "title": "Pronto a creare schede fantastiche?",
       "subtitle": "Unisciti a migliaia di insegnanti che risparmiano tempo e coinvolgono i loro studenti",
-      "button": "Inizia ora gratuitamente",
+      "button": "Inizia gratis",
       "disclaimer": "Nessuna carta di credito richiesta • Cancella quando vuoi"
     }
   },
@@ -821,88 +821,88 @@
     "header": {
       "welcome": "Bentornato, {name}!",
       "welcomeFallback": "Bentornato!",
-      "subtitle": "Creiamo qualcosa di straordinario oggi",
+      "subtitle": "Creiamo insieme qualcosa di straordinario",
       "signOut": "Esci"
     },
     "stats": {
       "worksheetsCreated": "Schede create",
-      "totalThisMonth": "Totale questo mese",
+      "totalThisMonth": "Totale del mese",
       "appsAvailable": "Applicazioni disponibili",
-      "inYourPlan": "Nel tuo piano",
-      "currentPlan": "Piano attuale",
-      "yourMembership": "La tua iscrizione"
+      "inYourPlan": "Incluse nel tuo piano",
+      "currentPlan": "Il tuo piano attuale",
+      "yourMembership": "Il tuo abbonamento"
     },
     "tierNames": {
       "free": "Gratuito",
-      "core": "Base",
-      "full": "Pro"
+      "core": "Essenziale",
+      "full": "Premium"
     },
     "generators": {
-      "title": "Generatori di schede",
-      "searchPlaceholder": "Cerca generatori...",
+      "title": "Generatori di schede didattiche",
+      "searchPlaceholder": "Cerca un generatore...",
       "filterLabel": "Tutte le categorie",
       "categoryAll": "Tutte le categorie",
       "open": "Apri →",
       "noResults": "Nessun generatore trovato",
-      "tryAdjusting": "Prova a regolare la tua ricerca o i filtri"
+      "tryAdjusting": "Prova con un'altra ricerca o modifica i filtri"
     },
     "subscription": {
-      "title": "Abbonamento",
+      "title": "Il mio abbonamento",
       "currentPlan": "Piano attuale",
       "free": "Gratuito",
       "perMonth": "/mese",
-      "renewsOn": "Si rinnova il",
-      "cancelsOn": "Si annulla il",
-      "whatsIncluded": "Cosa è incluso:",
-      "upgradePlan": "Aggiorna piano",
-      "manageBilling": "Gestisci fatturazione",
-      "loading": "Caricamento...",
-      "cancelWarning": "⚠️ Il tuo abbonamento terminerà il {date}"
+      "renewsOn": "Rinnovo il",
+      "cancelsOn": "Scadenza il",
+      "whatsIncluded": "Cosa include:",
+      "upgradePlan": "Cambia piano",
+      "manageBilling": "Gestisci pagamenti",
+      "loading": "Caricamento in corso...",
+      "cancelWarning": "⚠️ Il tuo abbonamento scadrà il {date}"
     },
     "activity": {
       "title": "La tua attività",
       "worksheetsCreated": "Schede create",
       "downloads": "Download",
-      "generatorsUsed": "Generatori utilizzati",
+      "generatorsUsed": "Generatori usati",
       "thisWeek": "+3 questa settimana",
       "thisMonth": "Questo mese",
-      "uniqueApps": "App uniche",
+      "uniqueApps": "Applicazioni diverse",
       "unlimited": "Illimitato",
-      "trackingNote": "📊 La tua attività viene monitorata per aiutarti a rimanere entro i limiti del tuo piano"
+      "trackingNote": "📊 Monitoriamo la tua attività per aiutarti a sfruttare al meglio il tuo piano"
     },
     "paymentHistory": {
-      "title": "Cronologia pagamenti",
-      "noPayments": "Nessuna cronologia dei pagamenti ancora",
-      "noPaymentsSubtext": "I tuoi pagamenti appariranno qui dopo l'abbonamento",
-      "viewAll": "Visualizza tutti i pagamenti →",
+      "title": "Storico pagamenti",
+      "noPayments": "Nessun pagamento registrato",
+      "noPaymentsSubtext": "I tuoi pagamenti compariranno qui dopo l'attivazione dell'abbonamento",
+      "viewAll": "Vedi tutti i pagamenti →",
       "downloadInvoice": "Scarica fattura",
-      "succeeded": "riuscito",
+      "succeeded": "completato",
       "failed": "fallito",
       "pending": "in attesa"
     },
     "tiers": {
       "free": {
-        "description": "Inizia con il generatore di ricerca di parole",
+        "description": "Perfetto per provare la piattaforma",
         "features": [
-          "Solo generatore di ricerca di parole",
-          "Generazione illimitata di schede",
-          "Download con filigrana"
+          "Generatore di crucipuzzle",
+          "Schede illimitate",
+          "Con watermark"
         ]
       },
       "core": {
-        "description": "Perfetto per l'uso regolare in classe",
+        "description": "Ideale per l'uso quotidiano in classe",
         "features": [
-          "Accesso a 10 generatori popolari",
-          "Generazione illimitata di schede",
-          "Senza filigrana"
+          "I 10 generatori più popolari",
+          "Schede illimitate",
+          "Senza watermark"
         ]
       },
       "full": {
-        "description": "Accesso completo per utenti esperti",
+        "description": "La soluzione completa per i professionisti",
         "features": [
-          "Accesso a tutti i 33 generatori",
-          "Generazione illimitata di schede",
-          "Senza filigrana"
+          "Tutti i 33 generatori",
+          "Schede illimitate",
+          "Senza watermark"
         ]
       }
     },

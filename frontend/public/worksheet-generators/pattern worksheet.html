@@ -399,6 +399,9 @@
                     <option value="no" data-translate="language.norwegian">Norsk</option>
                     <option value="fi" data-translate="language.finnish">Suomi</option>
                 </select>
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="pattern.worksheet.language.description">
+                    Selects the language for image library content only. UI language is controlled by the main language selector in the header.
+                </p>
             </div>
         </div>
         
@@ -640,16 +643,20 @@
 
   <script>
     // MUST BE GLOBAL - Before DOMContentLoaded for proper enhancement script initialization
-    let currentLocale = 'en';
+    // Separate UI locale (from URL) and content locale (from sidebar selector)
+    let uiLocale = 'en';  // UI language (for interface translations) - from URL parameter
+    let currentLocale = 'en';  // Content language (for image library) - can be changed by sidebar selector
     let currentCanvasConfig = { width: 612, height: 792 };
 
     // Initialize locale from URL if present
     const urlParams = new URLSearchParams(window.location.search);
     const localeParam = urlParams.get('locale');
     if (localeParam) {
-        currentLocale = localeParam;
+        uiLocale = localeParam;  // UI language comes from URL (parent app header)
+        currentLocale = localeParam;  // Initial content language matches UI language
     }
     // Set globally for all enhancement scripts
+    window.uiLocale = uiLocale;
     window.currentLocale = currentLocale;
 
     // Translation functions
@@ -658,13 +665,16 @@
         console.warn('Translations not loaded, returning key:', key);
         return key;
       }
-      const locale = window.currentLocale || 'en';
+      // Use uiLocale for UI translations, fallback to currentLocale, then to English
+      const locale = window.uiLocale || window.currentLocale || 'en';
       return translations[locale]?.[key] || translations.en?.[key] || key;
     }
     window.t = t;
 
     function applyTranslations() {
-      const locale = window.currentLocale || 'en';
+      console.log('[Pattern Worksheet] Applying UI translations for locale:', window.uiLocale || window.currentLocale);
+      console.log('[Pattern Worksheet] Content locale:', window.currentLocale);
+
       document.querySelectorAll('[data-translate]').forEach(el => {
         const key = el.getAttribute('data-translate');
         el.textContent = t(key);
@@ -931,20 +941,44 @@
         }
 
         function setupEventListeners() {
-            // Language selector
+            // Language selector - set to current content locale
             const languageSelect = document.getElementById('languageSelect');
             if (languageSelect) {
                 languageSelect.value = currentLocale;
-                languageSelect.addEventListener('change', function() {
-                    const newLocale = this.value;
-                    const url = new URL(window.location);
-                    url.searchParams.set('locale', newLocale);
-                    window.location.href = url.toString();
-                    // Reload current theme images if any
+            }
+
+            // Initialize UnifiedLanguageManager for content language (image library)
+            if (typeof window.UnifiedLanguageManager !== 'undefined') {
+                window.languageManager = window.UnifiedLanguageManager;
+
+                // Register callback to reload image library when content language changes
+                window.languageManager.onLanguageChange(function(newLocale, oldLocale) {
+                    console.log('[Pattern Worksheet] Content language changed from', oldLocale, 'to', newLocale);
+                    currentLocale = newLocale;
+                    window.currentLocale = newLocale;
+
+                    // Reload asset themes and dictionary
+                    loadAllAssetThemes();
                     if (puzzleConfigs.length > 0) {
                         loadDictionaryImages(false);
                     }
                 });
+            } else {
+                // Fallback mode with direct event handler (backward compatibility)
+                console.warn('[Pattern Worksheet] UnifiedLanguageManager not found, using fallback mode');
+                if (languageSelect) {
+                    languageSelect.addEventListener('change', function() {
+                        const newLocale = this.value;
+                        currentLocale = newLocale;
+                        window.currentLocale = newLocale;
+
+                        // Reload asset themes and dictionary
+                        loadAllAssetThemes();
+                        if (puzzleConfigs.length > 0) {
+                            loadDictionaryImages(false);
+                        }
+                    });
+                }
             }
             
             ui.menuToggleBtn.addEventListener('click', () => { ui.panel.classList.add('is-open'); ui.menuOverlay.classList.add('is-active'); });
@@ -1791,7 +1825,7 @@
             
             if (puzzleData.puzzleNumber) {
                 numberText = new fabric.Text(`${puzzleData.puzzleNumber}.`, {
-                    fontSize: 24, fontWeight: 'bold', fill: '#333'
+                    fontSize: 48, fontWeight: 'bold', fill: '#333'
                 });
             }
 
@@ -2762,6 +2796,68 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             closeAllPopovers();
         }
 
+        async function generateInitialWorksheet() {
+            try {
+                console.log('Starting initial worksheet generation...');
+
+                // Wait for themes to load
+                let attempts = 0;
+                const maxAttempts = 50;
+                while (ui.worksheetThemeSelect.options.length <= 1 && attempts < maxAttempts) {
+                    await new Promise(resolve => setTimeout(resolve, 100));
+                    attempts++;
+                }
+
+                // Set page size
+                ui.pageSizeSelect.value = '612x792';
+                const [width, height] = ui.pageSizeSelect.value.split('x').map(Number);
+                currentCanvasConfig.width = width;
+                currentCanvasConfig.height = height;
+
+                worksheetCanvas.setDimensions({ width, height });
+                answerKeyCanvas.setDimensions({ width, height });
+                updateCanvasDisplayDimensions(width, height, false);
+
+                // Set parameters
+                ui.exerciseCount.value = 6;
+                ui.exerciseCount.dispatchEvent(new Event('change'));
+
+                ui.useWorksheetThemeCheckbox.checked = true;
+                ui.useWorksheetThemeCheckbox.dispatchEvent(new Event('change'));
+
+                ui.worksheetThemeSelect.value = 'animals';
+                ui.worksheetThemeSelect.dispatchEvent(new Event('change'));
+
+                ui.includeNumbersCheckbox.checked = true;
+
+                // Set random pattern
+                const patternOptions = Array.from(ui.patternSelect.options).filter(opt => opt.value !== '');
+                if (patternOptions.length > 0) {
+                    const randomPattern = patternOptions[Math.floor(Math.random() * patternOptions.length)];
+                    ui.patternSelect.value = randomPattern.value;
+                    ui.patternSelect.dispatchEvent(new Event('change'));
+                }
+
+                // Set random question type
+                const questionTypeOptions = Array.from(ui.questionTypeSelect.options).filter(opt => opt.value !== '');
+                if (questionTypeOptions.length > 0) {
+                    const randomQuestionType = questionTypeOptions[Math.floor(Math.random() * questionTypeOptions.length)];
+                    ui.questionTypeSelect.value = randomQuestionType.value;
+                    ui.questionTypeSelect.dispatchEvent(new Event('change'));
+                }
+
+                await new Promise(resolve => setTimeout(resolve, 200));
+
+                if (!ui.generateWorksheetBtn.disabled) {
+                    ui.generateWorksheetBtn.click();
+                }
+
+                console.log('Initial worksheet generated successfully');
+            } catch (error) {
+                console.error('Error generating initial worksheet:', error);
+            }
+        }
+
         initializeApp();
 
         // Initialize BulletproofLoader to handle border/background themes
@@ -2781,6 +2877,8 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
         } else {
             console.warn('⚠️ BulletproofLoader not found');
         }
+
+        setTimeout(() => generateInitialWorksheet(), 1000);
     });
   </script>
 </body>

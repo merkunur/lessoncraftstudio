@@ -674,7 +674,7 @@
                     <option value="fi" data-translate="language.finnish.full">Suomi (Finnish)</option>
                 </select>
                 <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="mathpuzzle.language.description">
-                    Image names and themes will be displayed in the selected language.
+                    Selects the language for image library content only. UI language is controlled by the main language selector in the header.
                 </p>
             </div>
         </div>
@@ -876,17 +876,20 @@
 
 <script>
 // MUST BE FIRST - Before ANY DOM element references
-let currentLocale = 'en';
+let uiLocale = 'en';  // UI language (for interface translations) - from URL parameter
+let currentLocale = 'en';  // Content language (for image library) - can be changed by sidebar selector
 let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
 
 // Initialize locale from URL if present
 const urlParams = new URLSearchParams(window.location.search);
 const localeParam = urlParams.get('locale');
 if (localeParam) {
-    currentLocale = localeParam;
+    uiLocale = localeParam;  // UI language comes from URL (parent app header)
+    currentLocale = localeParam;  // Initial content language matches UI language
 }
 
-// Set currentLocale globally BEFORE DOMContentLoaded (critical for enhancement scripts)
+// Set both locales globally BEFORE DOMContentLoaded (critical for enhancement scripts)
+window.uiLocale = uiLocale;
 window.currentLocale = currentLocale;
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -1017,30 +1020,137 @@ document.addEventListener("DOMContentLoaded", function() {
     elements.allToolbarButtons = elements.objectContextToolbar.querySelectorAll('.context-btn');
 
 
+    // --- INITIAL WORKSHEET GENERATION ---
+    async function generateInitialWorksheet() {
+        try {
+            console.log('Starting initial worksheet generation...');
+
+            // Wait for themes to load with polling
+            let attempts = 0;
+            const maxAttempts = 50; // 5 seconds max wait time
+
+            while (elements.themeSelect.options.length <= 1 && attempts < maxAttempts) {
+                await new Promise(resolve => setTimeout(resolve, 100));
+                attempts++;
+            }
+
+            if (elements.themeSelect.options.length <= 1) {
+                console.error('Themes failed to load in time');
+                return;
+            }
+
+            // Set page size to Letter portrait (612x792)
+            elements.pageSizeSelect.value = '612x792';
+            const [width, height] = elements.pageSizeSelect.value.split('x').map(Number);
+            currentCanvasConfig.width = width;
+            currentCanvasConfig.height = height;
+
+            worksheetCanvas.setDimensions({ width, height });
+            answerKeyCanvas.setDimensions({ width, height });
+            updateCanvasDisplayDimensions(width, height, false);
+
+            // Set animals theme
+            elements.themeSelect.value = 'animals';
+
+            // Load theme images and dictionary - handleThemeChange does both
+            await handleThemeChange();
+
+            // Wait for images to render in DOM
+            attempts = 0;
+            while (elements.dictionaryDiv.querySelectorAll('.dictionary-item').length === 0 && attempts < maxAttempts) {
+                await new Promise(resolve => setTimeout(resolve, 100));
+                attempts++;
+            }
+
+            if (elements.dictionaryDiv.querySelectorAll('.dictionary-item').length === 0) {
+                console.error('Images failed to load in time');
+                return;
+            }
+
+            // Select a random image from the loaded images
+            const dictionaryItems = elements.dictionaryDiv.querySelectorAll('.dictionary-item');
+            const randomIndex = Math.floor(Math.random() * dictionaryItems.length);
+            const randomItem = dictionaryItems[randomIndex];
+            const imgElement = randomItem.querySelector('img');
+
+            if (imgElement) {
+                const imagePath = imgElement.src;
+                const imageName = randomItem.querySelector('.image-name')?.textContent || 'image';
+
+                // Use toggleImageSelection to select the image
+                toggleImageSelection({
+                    path: imagePath,
+                    word: imageName,
+                    name: imageName
+                });
+            }
+
+            // Set grid parameters: 3x3
+            elements.rowInput.value = 3;
+            elements.colInput.value = 3;
+
+            // Set operation to Addition & Subtraction (both)
+            elements.opSelect.value = 'both';
+
+            // Give a small delay before generating
+            await new Promise(resolve => setTimeout(resolve, 200));
+
+            // Generate the worksheet
+            await handleGenerate();
+
+            console.log('Initial worksheet generated successfully');
+        } catch (error) {
+            console.error('Error generating initial worksheet:', error);
+        }
+    }
+
     // --- INITIALIZATION ---
     function initializeApp() {
         setupEventListeners();
         worksheetCanvas = initializeCanvas(elements.worksheetCanvasElement);
         answerKeyCanvas = initializeCanvas(elements.answerKeyCanvasElement);
-        
+
         setupCanvasEventListeners(worksheetCanvas);
         setupCanvasEventListeners(answerKeyCanvas);
-        
-        // Set up language handler
-        if (elements.languageSelect) {
-            elements.languageSelect.value = currentLocale;
-            elements.languageSelect.addEventListener('change', function() {
-                const newLocale = this.value;
-                // Update URL and reload page (like Addition app does)
-                const url = new URL(window.location.href);
-                url.searchParams.set('locale', newLocale);
-                window.location.href = url.toString();
+
+        // Initialize UnifiedLanguageManager for content language (image library)
+        if (typeof window.UnifiedLanguageManager !== 'undefined') {
+            window.languageManager = window.UnifiedLanguageManager;
+
+            // Register callback to reload dictionary when content language changes
+            window.languageManager.onLanguageChange(function(newLocale, oldLocale) {
+                console.log('[Math Puzzle] Content language changed from', oldLocale, 'to', newLocale);
+                currentLocale = newLocale;
+                window.currentLocale = newLocale;
+
+                // Reload image themes and dictionary for the new content language
+                loadThemes().then(() => {
+                    loadDictionary();
+                });
             });
+        } else {
+            // Fallback: Set up language handler without UnifiedLanguageManager
+            // This maintains backward compatibility if the script isn't loaded
+            console.warn('[Math Puzzle] UnifiedLanguageManager not found, using fallback mode');
+            if (elements.languageSelect) {
+                elements.languageSelect.value = currentLocale;
+                elements.languageSelect.addEventListener('change', function() {
+                    const newLocale = this.value;
+                    currentLocale = newLocale;
+                    window.currentLocale = newLocale;
+
+                    // Reload image themes and dictionary for the new content language
+                    loadThemes().then(() => {
+                        loadDictionary();
+                    });
+                });
+            }
         }
         
         // Apply translations on load - wait for translations to fully merge
         setTimeout(function() {
-            console.log('[Math Puzzle] Applying translations for locale:', window.currentLocale);
+            console.log('[Math Puzzle] Applying UI translations for uiLocale:', window.uiLocale);
+            console.log('[Math Puzzle] Content language (currentLocale):', window.currentLocale);
             console.log('[Math Puzzle] Translation function available:', typeof t !== 'undefined');
             console.log('[Math Puzzle] Sample translation test - common.none:', typeof t !== 'undefined' ? t('none') : 'N/A');
 
@@ -1072,6 +1182,9 @@ document.addEventListener("DOMContentLoaded", function() {
             loadBackgroundThemes();
         }
         handleSelectionCleared(null, getActiveCanvas()); // Initialize text tools
+
+        // Generate initial worksheet after a delay to allow UI initialization
+        setTimeout(() => generateInitialWorksheet(), 1000);
     }
 
     function initializeCanvas(canvasEl) {

@@ -14,10 +14,10 @@
     console.log('Loading Code Addition translations...');
     console.log('- CODE_ADDITION_TRANSLATIONS exists?', typeof CODE_ADDITION_TRANSLATIONS !== 'undefined');
 
-    // Define global translation functions
+    // Define global translation functions (uses uiLocale for UI translations)
     if (typeof window.t === 'undefined') {
         window.t = function(key, params = {}) {
-            const locale = window.currentLocale || 'en';
+            const locale = window.uiLocale || 'en';  // Use uiLocale for UI translations
 
             // Get translation from CODE_ADDITION_TRANSLATIONS if available
             if (typeof CODE_ADDITION_TRANSLATIONS !== 'undefined') {
@@ -571,7 +571,7 @@
       </div>
       <div style="padding: 10px 25px; border-bottom: 1px solid var(--app-border-dark);">
         <div class="language-selector" style="margin-bottom: 10px;">
-          <label data-translate="language.label" style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Language:</label>
+          <label data-translate="imageLibraryLanguage" style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Image Library Language:</label>
           <select id="languageSelect" style="width: 100%; padding: 6px; background: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); border: 1px solid var(--app-border-dark); border-radius: 5px; font-size: 13px;">
             <option value="en" data-translate="lang_en">English</option>
             <option value="de" data-translate="lang_de">Deutsch</option>
@@ -810,15 +810,20 @@
   </div>
   
   <script>
-    // Set currentLocale globally BEFORE DOMContentLoaded (like addition.html does)
-    let currentLocale = 'en';
+    // Set locales globally BEFORE DOMContentLoaded
+    // uiLocale = Interface language (from main app's language selector in header)
+    // currentLocale = Content language for image library (from sidebar selector)
     const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get('locale')) {
-        currentLocale = urlParams.get('locale');
-    }
+
+    // UI locale comes from the main app (via URL parameter)
+    window.uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
+
+    // Content locale can be different (initially same as UI for simplicity)
+    let currentLocale = urlParams.get('content') || window.uiLocale;
     window.currentLocale = currentLocale; // Make it globally accessible
 
     // The t() function is defined in translations-code-addition.js
+    console.log('Global uiLocale set to:', window.uiLocale);
     console.log('Global currentLocale set to:', currentLocale);
 
     // Canvas config must be global for overlay function
@@ -1454,6 +1459,48 @@
             downloadWorksheetPdfBtn.disabled = false;
             generateAnswerKeyBtn.disabled = false;
             showMessage(t('codeaddition.msg.worksheet.generated'), 'success');
+        }
+
+        // --- Initial Worksheet Generation ---
+        async function generateInitialWorksheet() {
+            try {
+                // Wait for themes to be loaded
+                await new Promise(resolve => {
+                    const checkThemes = () => {
+                        const worksheetThemeSelect = document.getElementById('worksheetThemeSelect');
+                        if (worksheetThemeSelect && worksheetThemeSelect.options.length > 1) {
+                            resolve();
+                        } else {
+                            setTimeout(checkThemes, 100);
+                        }
+                    };
+                    checkThemes();
+                });
+
+                // Add a small delay to ensure everything is fully initialized
+                await new Promise(resolve => setTimeout(resolve, 300));
+
+                // Set default values: Animals theme (random), Letter portrait, 5 exercises
+                const worksheetThemeSelect = document.getElementById('worksheetThemeSelect');
+                const exerciseCountInput = document.getElementById('exerciseCount');
+                const pageSizeSelect = document.getElementById('pageSizeSelect');
+
+                worksheetThemeSelect.value = 'animals'; // This will trigger random generation from animals theme
+                pageSizeSelect.value = '612x792'; // Letter portrait
+                exerciseCountInput.value = 5;
+
+                // Apply page size
+                const [w, h] = pageSizeSelect.value.split('x').map(Number);
+                currentCanvasConfig.width = w;
+                currentCanvasConfig.height = h;
+                updateCanvasDisplayDimensions(w, h);
+
+                // Generate worksheet
+                await generateWorksheet();
+
+            } catch (error) {
+                console.error('Error generating initial worksheet:', error);
+            }
         }
 
         async function generateAnswerKey() {
@@ -2632,15 +2679,17 @@ async function downloadPDF(canvasInstance, baseFileName) {
             languageSelect.value = currentLocale;
         }
 
-        // Language change handler
+        // Language change handler (sidebar selector - ONLY changes image library language)
+        // This selector ONLY changes the image library language, NOT the UI language
         if (languageSelect) {
             languageSelect.addEventListener('change', function() {
-                currentLocale = this.value;
+                const newLocale = this.value;
+                currentLocale = newLocale;
                 window.currentLocale = currentLocale;  // Update global
+                console.log('Image library language changed to:', currentLocale);
 
-                // Apply translations
-                initializeTranslations();
-                
+                // DO NOT call initializeTranslations() - UI language is controlled by header selector
+
                 // Reload themes with new locale
                 initializeImageLibrary();
 
@@ -2678,29 +2727,39 @@ async function downloadPDF(canvasInstance, baseFileName) {
                 borderSelect: borderThemeSelect,
                 backgroundSelect: backgroundThemeSelect,
                 locale: currentLocale  // Pass the locale explicitly
-            }).then(() => {
+            }).then(async () => {
                 console.log('BulletproofLoader initialized successfully');
                 // BulletproofLoader handles theme loading, no need for manual loading
+
+                // Generate initial default worksheet after everything is loaded
+                await generateInitialWorksheet();
             }).catch(error => {
                 console.error('BulletproofLoader init failed:', error);
                 // Fallback to manual loading only on error
                 loadBorderThemes();
                 loadBackgroundThemes();
+
+                // Still try to generate initial worksheet
+                generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
             });
         } else {
             // Fallback if BulletproofLoader not available
             loadBorderThemes();
             loadBackgroundThemes();
+
+            // Still try to generate initial worksheet
+            generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
         }
 
-        // Initialize translations
+        // Initialize translations (uses uiLocale for UI translations)
         function initializeTranslations() {
             console.log('=== TRANSLATION INITIALIZATION ===');
-            console.log('1. currentLocale:', currentLocale);
-            console.log('2. window.currentLocale:', window.currentLocale);
-            console.log('3. CODE_ADDITION_TRANSLATIONS available?', typeof CODE_ADDITION_TRANSLATIONS !== 'undefined');
-            console.log('4. window.t available?', typeof window.t !== 'undefined');
-            console.log('5. t available?', typeof t !== 'undefined');
+            console.log('1. uiLocale:', window.uiLocale);
+            console.log('2. currentLocale:', currentLocale);
+            console.log('3. window.currentLocale:', window.currentLocale);
+            console.log('4. CODE_ADDITION_TRANSLATIONS available?', typeof CODE_ADDITION_TRANSLATIONS !== 'undefined');
+            console.log('5. window.t available?', typeof window.t !== 'undefined');
+            console.log('6. t available?', typeof t !== 'undefined');
 
             // Check if both translations and t function are available
             if (typeof CODE_ADDITION_TRANSLATIONS === 'undefined' || typeof window.t === 'undefined') {

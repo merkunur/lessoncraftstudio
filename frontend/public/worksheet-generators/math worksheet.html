@@ -844,7 +844,7 @@
             <button class="accordion-button active" data-translate="languageSettings">Language Settings</button>
             <div class="accordion-content active">
                 <h4 data-translate="selectLanguage">Select Language</h4>
-                <label for="languageSelect" data-translate="language">Language:</label>
+                <label for="languageSelect" data-translate="imageLibraryLanguage">Image Library Language:</label>
                 <select id="languageSelect">
                     <option value="en">English</option>
                     <option value="de">Deutsch (German)</option>
@@ -1005,6 +1005,19 @@
             </div>
         </div>
 
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="puzzleNumbering">Puzzle Numbering</button>
+            <div class="accordion-content">
+                <label for="puzzleLabel" data-translate="puzzleLabel">Puzzle Label:</label>
+                <input type="text" id="puzzleLabel" value="" placeholder="Puzzle" data-translate-placeholder="puzzle" style="margin-bottom: 10px;">
+
+                <label for="puzzleStartNumber" data-translate="startingNumber">Starting Number:</label>
+                <input type="number" id="puzzleStartNumber" value="1" min="0" max="99" style="width: 80px;">
+
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px; font-style: italic;" data-translate="puzzleNumberingExample">Example: "Puzzle 1", "Problem 1", "Aufgabe 1"</p>
+            </div>
+        </div>
+
       </div>
       <div class="panel-footer">
           <div id="message"></div>
@@ -1101,23 +1114,29 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
   <script>
-    // Set currentLocale globally BEFORE DOMContentLoaded
-    let currentLocale = 'en';
+    // Set locales globally BEFORE DOMContentLoaded
+    // uiLocale = Interface language (from main app's language selector in header)
+    // currentLocale = Content language for image library (from sidebar selector)
     const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get('locale')) {
-        currentLocale = urlParams.get('locale');
-    }
+
+    // UI locale comes from the main app (via URL parameter)
+    let uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
+
+    // Content locale can be different (initially same as UI for simplicity)
+    let currentLocale = urlParams.get('content') || uiLocale;
+
+    window.uiLocale = uiLocale;
     window.currentLocale = currentLocale; // Make it globally accessible for BulletproofLoader
+    console.log('Global uiLocale set to:', uiLocale);
     console.log('Global currentLocale set to:', currentLocale);
 
-    // Define global t() function for translations
+    // Define global t() function for translations (uses uiLocale for UI translations)
     window.t = function(key) {
         if (typeof translations === 'undefined') {
             console.warn('Translations not loaded, returning key:', key);
             return key;
         }
-        const locale = window.currentLocale || 'en';
-        const translation = (translations[locale] && translations[locale][key]) ||
+        const translation = (translations[uiLocale] && translations[uiLocale][key]) ||
                            (translations.en && translations.en[key]) ||
                            key;
         return translation;
@@ -1248,6 +1267,8 @@
       const minValueEl = $('minValue');
       const maxValueEl = $('maxValue');
       const showAnswersCheck = $('showAnswers');
+      const puzzleLabelInput = $('puzzleLabel');
+      const puzzleStartNumberInput = $('puzzleStartNumber');
       const imageModeRadios = document.querySelectorAll('input[name="imageMode"]');
       const worksheetImageThemeEl = $('worksheetImageTheme');
       const themeSelectionContainerEl = $('themeSelectionContainer');
@@ -2067,7 +2088,9 @@
             if (!selectedThemeName) {
                 showMessage(t('pleaseSelectTheme'), "error"); return false;
             }
-            if (!allThemeImages[selectedThemeName]) {
+            // Include locale in cache key to ensure correct language names
+            const cacheKey = `${selectedThemeName}-${currentLocale}`;
+            if (!allThemeImages[cacheKey]) {
                  showMessage(t('loadingImagesForTheme').replace('{theme}', selectedThemeName), "info", 0);
                  try {
                      // Use standard API for proper translations
@@ -2076,7 +2099,7 @@
                      const data = await response.json();
                      const themeImages = data.images || data;
                      if (!Array.isArray(themeImages)) throw new Error("Theme image data is not an array");
-                     allThemeImages[selectedThemeName] = themeImages;
+                     allThemeImages[cacheKey] = themeImages;
                      showMessage(t('themeImagesLoaded').replace('{theme}', selectedThemeName), "success");
                  } catch (error) {
                      showMessage(t('errorLoadingThemeImages') + ': ' + error.message, "error");
@@ -2084,7 +2107,7 @@
                      return false;
                  }
             }
-            imageSourcePool = allThemeImages[selectedThemeName] || [];
+            imageSourcePool = allThemeImages[cacheKey] || [];
 
             if (imageSourcePool.length < requiredSymbolCount) {
                 showMessage(t('notEnoughImagesInTheme').replace('{theme}', selectedThemeName).replace('{available}', imageSourcePool.length).replace('{required}', requiredSymbolCount), "error");
@@ -2360,9 +2383,15 @@
           const allPuzzleBlocks = await Promise.all(puzzlesData.map(async (puzzle, idx) => {
               const symbolSize = 40, textFontSize = 24, eqGap = 10, solutionRowGap = 8, innerPadding = 20;
 
-              const rowElements = []; 
+              const rowElements = [];
 
-              const titleText = new fabric.Text(`Puzzle ${idx + 1}`, { fontSize: 20, fontWeight: '600', fill: 'var(--app-accent-primary)', fontFamily: 'Fredoka' });
+              // Use custom puzzle label and starting number
+              // Get translated "Puzzle" based on content locale (currentLocale)
+              const defaultPuzzleLabel = translations[currentLocale]?.puzzle || translations.en?.puzzle || 'Puzzle';
+              const puzzleLabel = puzzleLabelInput.value.trim() || defaultPuzzleLabel;
+              const startNumber = parseInt(puzzleStartNumberInput.value, 10) || 1;
+              const puzzleNumber = startNumber + idx;
+              const titleText = new fabric.Text(`${puzzleLabel} ${puzzleNumber}`, { fontSize: 20, fontWeight: '600', fill: 'var(--app-accent-primary)', fontFamily: 'Fredoka' });
               rowElements.push(new fabric.Group([titleText], { isGeneratedItem: true, objectCaching: false }));
 
               for (const eq of puzzle.equations) {
@@ -2512,7 +2541,13 @@
               const symbolSize = 40, textFontSize = 24, eqGap = 10, solutionRowGap = 8, innerPadding = 20;
               const rowElements = [];
 
-              const titleText = new fabric.Text(`Puzzle ${idx + 1} - Answers`, { fontSize: 20, fontWeight: '600', fill: 'var(--app-accent-primary)', fontFamily: 'Fredoka' });
+              // Use custom puzzle label and starting number
+              // Get translated "Puzzle" based on content locale (currentLocale)
+              const defaultPuzzleLabel = translations[currentLocale]?.puzzle || translations.en?.puzzle || 'Puzzle';
+              const puzzleLabel = puzzleLabelInput.value.trim() || defaultPuzzleLabel;
+              const startNumber = parseInt(puzzleStartNumberInput.value, 10) || 1;
+              const puzzleNumber = startNumber + idx;
+              const titleText = new fabric.Text(`${puzzleLabel} ${puzzleNumber}`, { fontSize: 20, fontWeight: '600', fill: 'var(--app-accent-primary)', fontFamily: 'Fredoka' });
               rowElements.push(new fabric.Group([titleText], { isAnswerKeyItem: true, objectCaching: false }));
 
               for (const eq of puzzle.equations) {
@@ -3113,15 +3148,24 @@
           }
       }
       
-      // Language change handler
+      // Initialize image library language selector (sidebar)
+      // This selector ONLY changes the image library language, NOT the UI language
       if (languageSelect) {
+          languageSelect.value = currentLocale;
           languageSelect.addEventListener('change', async () => {
               const oldLocale = currentLocale;
               currentLocale = languageSelect.value;
               window.currentLocale = currentLocale; // Update global locale
+              console.log('Image library language changed to:', currentLocale);
 
-              // Re-initialize translations with new locale
-              initializeTranslations();
+              // DO NOT call initializeTranslations() - UI language is controlled by header selector
+
+              // Update puzzle label placeholder to match the new content language
+              const newPuzzleTranslation = translations[currentLocale]?.puzzle || translations.en?.puzzle || 'Puzzle';
+              if (puzzleLabelInput) {
+                  puzzleLabelInput.placeholder = newPuzzleTranslation;
+                  // If the input is empty, it will use the new translated default
+              }
 
               // Clear cached theme images to force reload with new translations
               allThemeImages = {};
@@ -3210,7 +3254,13 @@
       if (languageSelect) {
           languageSelect.value = currentLocale;
       }
-      
+
+      // Set initial puzzle label placeholder based on currentLocale
+      if (puzzleLabelInput) {
+          const initialPuzzleTranslation = translations[currentLocale]?.puzzle || translations.en?.puzzle || 'Puzzle';
+          puzzleLabelInput.placeholder = initialPuzzleTranslation;
+      }
+
       pageColorInput.value = '#FFFFFF'; 
       worksheetCanvas = initializeCanvas(worksheetCanvasElement);
       answerKeyCanvas = initializeCanvas(answerKeyCanvasElement);
@@ -3227,22 +3277,84 @@
 
       loadThemes();
 
+      // Generate initial default worksheet function
+      async function generateInitialWorksheet() {
+          try {
+              // Wait for themes to be loaded
+              await new Promise(resolve => {
+                  const checkThemes = () => {
+                      if (worksheetImageThemeEl && worksheetImageThemeEl.options.length > 1) {
+                          resolve();
+                      } else {
+                          setTimeout(checkThemes, 100);
+                      }
+                  };
+                  checkThemes();
+              });
+
+              // Add a small delay to ensure everything is fully initialized
+              await new Promise(resolve => setTimeout(resolve, 200));
+
+              // Set default values: Animals theme (random), Letter portrait, Medium (3 symbols), 2 exercises, Addition & Subtraction, Min 1, Max 9
+              worksheetImageThemeEl.value = 'animals';
+              pageSizeSelect.value = '612x792'; // Letter portrait
+              difficultySelect.value = 'medium';
+              numExercisesEl.value = 2;
+              operationsSelect.value = 'addsub';
+              minValueEl.value = 1;
+              maxValueEl.value = 9;
+
+              // Apply page size
+              const selectedOption = pageSizeSelect.options[pageSizeSelect.selectedIndex];
+              const [w, h] = selectedOption.value.split('x').map(Number);
+              currentCanvasConfig.width = w;
+              currentCanvasConfig.height = h;
+              updateCanvasDisplayDimensions(w, h);
+
+              // Set theme selection mode
+              const selectThemeRadio = $('selectTheme');
+              if (selectThemeRadio) {
+                  selectThemeRadio.checked = true;
+                  updateImageSelectionUI();
+              }
+
+              // Generate worksheet
+              await generatePuzzlesLogic();
+
+          } catch (error) {
+              console.error('Error generating initial worksheet:', error);
+          }
+      }
+
       // Initialize BulletproofLoader for border and background themes
       if (window.BulletproofLoader) {
-          await window.BulletproofLoader.init({
+          window.BulletproofLoader.init({
               borderSelect: document.getElementById('borderThemeSelect'),
               backgroundSelect: document.getElementById('backgroundThemeSelect')
+          }).then(async () => {
+              initializeAppUI();
+              renderPuzzleCanvases();
+
+              // Generate initial default worksheet after everything is loaded
+              await generateInitialWorksheet();
+          }).catch(err => {
+              console.error('BulletproofLoader failed:', err);
+              initializeAppUI();
+              renderPuzzleCanvases();
           });
       } else {
           // Fallback if BulletproofLoader not available
           loadBorderThemes();
           loadBackgroundThemes();
+          initializeAppUI();
+          renderPuzzleCanvases();
+
+          // Still try to generate initial worksheet
+          generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
       }
-      initializeAppUI(); 
-      renderPuzzleCanvases(); 
 
     });
-  
+
     // Check if user is on free tier
     function isFreeTier() {
         const urlParams = new URLSearchParams(window.location.search);

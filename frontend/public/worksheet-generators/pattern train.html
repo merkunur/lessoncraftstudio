@@ -693,7 +693,10 @@
                     <option value="no" data-translate="language.norwegian">Norsk</option>
                     <option value="fi" data-translate="language.finnish">Suomi</option>
                 </select>
-                
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="pattern.train.language.description">
+                    Selects the language for image library content only. UI language is controlled by the main language selector in the header.
+                </p>
+
                 <label for="pageSizeSelect" data-translate="pattern.train.page.size">Paper Size:</label>
                 <select id="pageSizeSelect">
                     <option value="612x792" data-translate="page.size.letter.portrait">Letter Portrait (8.5×11")</option>
@@ -919,12 +922,16 @@
     /********************************
      * Global State & Setup
      ********************************/
-    // Set currentLocale globally BEFORE anything else (critical for enhancement scripts)
-    let currentLocale = 'en'; // Current language setting
+    // Separate UI locale (from URL) and content locale (from sidebar selector)
+    let uiLocale = 'en';  // UI language (for interface translations) - from URL parameter
+    let currentLocale = 'en';  // Content language (for image library) - can be changed by sidebar selector
     const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get('locale')) {
-        currentLocale = urlParams.get('locale');
+    const localeParam = urlParams.get('locale');
+    if (localeParam) {
+        uiLocale = localeParam;  // UI language comes from URL (parent app header)
+        currentLocale = localeParam;  // Initial content language matches UI language
     }
+    window.uiLocale = uiLocale;
     window.currentLocale = currentLocale;
 
     /********************************
@@ -935,11 +942,15 @@
         console.warn('Translations not loaded:', key);
         return key;
       }
-      const locale = window.currentLocale || 'en';
+      // Use uiLocale for UI translations, fallback to currentLocale, then to English
+      const locale = window.uiLocale || window.currentLocale || 'en';
       return translations[locale]?.[key] || translations.en?.[key] || key;
     }
 
     function applyTranslations() {
+      console.log('[Pattern Train] Applying UI translations for locale:', window.uiLocale || window.currentLocale);
+      console.log('[Pattern Train] Content locale:', window.currentLocale);
+
       // Translate elements with data-translate
       document.querySelectorAll('[data-translate]').forEach(el => {
         const key = el.getAttribute('data-translate');
@@ -2810,6 +2821,65 @@ async function downloadPDF(canvasToExport, baseFilename) {
     }
     // END: Template Functions
 
+    // --- INITIAL WORKSHEET GENERATION ---
+    async function generateInitialWorksheet() {
+        try {
+            console.log('Starting initial worksheet generation...');
+
+            // Wait for themes to load with polling
+            let attempts = 0;
+            const maxAttempts = 50; // 5 seconds max wait time
+
+            while (worksheetThemeSelect.options.length <= 1 && attempts < maxAttempts) {
+                await new Promise(resolve => setTimeout(resolve, 100));
+                attempts++;
+            }
+
+            if (worksheetThemeSelect.options.length <= 1) {
+                console.error('Themes failed to load in time');
+                return;
+            }
+
+            // Set page size to Letter portrait (612x792)
+            pageSizeSelect.value = '612x792';
+            const [width, height] = pageSizeSelect.value.split('x').map(Number);
+            currentCanvasConfig.width = width;
+            currentCanvasConfig.height = height;
+
+            worksheetCanvas.setDimensions({ width, height });
+            answerKeyCanvas.setDimensions({ width, height });
+            updateCanvasDisplayDimensions(width, height, false);
+
+            // Set Animals theme for worksheet
+            worksheetThemeSelect.value = 'animals';
+            worksheetThemeSelect.dispatchEvent(new Event('change'));
+
+            // Set Pattern to random (assuming "random" is a valid option)
+            // Find a random pattern or use the first available non-none option
+            const patternOptions = Array.from(patternSelect.options).filter(opt => opt.value !== '');
+            if (patternOptions.length > 0) {
+                const randomPattern = patternOptions[Math.floor(Math.random() * patternOptions.length)];
+                patternSelect.value = randomPattern.value;
+                patternSelect.dispatchEvent(new Event('change'));
+            }
+
+            // Set Clues to Show to 5
+            document.getElementById('clueCount').value = 5;
+
+            // Give a small delay before generating
+            await new Promise(resolve => setTimeout(resolve, 200));
+
+            // Check if generate button is enabled and click it
+            if (!generateBtn.disabled) {
+                generateBtn.click();
+            }
+
+            console.log('Initial worksheet generated successfully');
+        } catch (error) {
+            console.error('Error generating initial worksheet:', error);
+        }
+    }
+
     async function initializeApp() {
         worksheetCanvas = initializeCanvas(document.getElementById('worksheetCanvasElement'));
         answerKeyCanvas = initializeCanvas(document.getElementById('answerKeyCanvasElement'));
@@ -2823,28 +2893,42 @@ async function downloadPDF(canvasToExport, baseFilename) {
         
         setupGlobalKeydownListener();
         
-        // Initialize language from URL or default
-        const urlParams = new URLSearchParams(window.location.search);
-        const localeParam = urlParams.get('locale');
-        if (localeParam && languageSelect) {
-            languageSelect.value = localeParam;
-            currentLocale = localeParam;
+        // Initialize language selector to current content locale
+        if (languageSelect) {
+            languageSelect.value = currentLocale;
         }
-        
+
         // Apply initial translations
         if (typeof applyTranslations === 'function') {
             applyTranslations();
         }
-        
-        // Language change handler
-        if (languageSelect) {
-            languageSelect.addEventListener('change', function() {
-                const newLocale = this.value;
-                // Update URL and reload page (like Addition app does)
-                const url = new URL(window.location.href);
-                url.searchParams.set('locale', newLocale);
-                window.location.href = url.toString();
+
+        // Initialize UnifiedLanguageManager for content language (image library)
+        if (typeof window.UnifiedLanguageManager !== 'undefined') {
+            window.languageManager = window.UnifiedLanguageManager;
+
+            // Register callback to reload image library when content language changes
+            window.languageManager.onLanguageChange(function(newLocale, oldLocale) {
+                console.log('[Pattern Train] Content language changed from', oldLocale, 'to', newLocale);
+                currentLocale = newLocale;
+                window.currentLocale = newLocale;
+
+                // Reload image themes and dictionary
+                initializeImageLibrary();
             });
+        } else {
+            // Fallback mode with direct event handler (backward compatibility)
+            console.warn('[Pattern Train] UnifiedLanguageManager not found, using fallback mode');
+            if (languageSelect) {
+                languageSelect.addEventListener('change', function() {
+                    const newLocale = this.value;
+                    currentLocale = newLocale;
+                    window.currentLocale = newLocale;
+
+                    // Reload image themes and dictionary
+                    initializeImageLibrary();
+                });
+            }
         }
         
         await initializeImageLibrary();
@@ -2871,6 +2955,9 @@ async function downloadPDF(canvasToExport, baseFilename) {
         borderOpacityInput.disabled = true;
         backgroundOpacityInput.disabled = true;
         document.querySelector('.tab-button[data-tab="worksheetTab"]').click();
+
+        // Generate initial worksheet after a delay to allow UI initialization
+        setTimeout(() => generateInitialWorksheet(), 1000);
     }
     initializeApp();
   </script>

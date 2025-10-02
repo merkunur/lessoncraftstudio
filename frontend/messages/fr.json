@@ -286,17 +286,17 @@
     "copyright": "© 2024 LessonCraftStudio. Tous droits réservés."
   },
   "pricing": {
-    "heroTitle": "Des tarifs simples et transparents",
-    "heroSubtitle": "Choisissez la formule idéale pour créer vos supports pédagogiques de qualité professionnelle",
+    "heroTitle": "Simple. Transparent. Sans surprise.",
+    "heroSubtitle": "Choisissez la formule adaptée à vos besoins pédagogiques",
     "billingToggle": {
       "monthly": "Mensuel",
       "yearly": "Annuel",
       "yearlyDiscount": "Économisez 20%"
     },
     "labels": {
-      "whatsIncluded": "Inclus dans l'offre :",
+      "whatsIncluded": "Inclus dans votre formule :",
       "limitations": "Limitations :",
-      "appsIncluded": "Générateurs inclus :",
+      "appsIncluded": "Générateurs disponibles :",
       "orYearly": "ou",
       "perYear": "/an"
     },
@@ -305,42 +305,42 @@
         "name": "Gratuit",
         "price": "$0",
         "period": "",
-        "description": "Parfait pour découvrir nos outils",
+        "description": "Parfait pour découvrir la plateforme",
         "features": {
-          "0": "Générateur de mots cachés (avec filigrane)",
-          "1": "Filigrane discret sur les documents",
-          "2": "Bibliothèque d'images limitée",
-          "3": "Modèles standards",
+          "0": "Générateur de mots mêlés",
+          "1": "Fiches illimitées",
+          "2": "Avec filigrane",
+          "3": "Sélection d'images de base",
           "4": "Support communautaire",
           "5": "Usage personnel uniquement"
         },
         "limitations": {
-          "0": "Filigrane sur tous les documents",
-          "1": "Pas de licence commerciale",
-          "2": "Personnalisation limitée"
+          "0": "Avec filigrane",
+          "1": "Usage personnel seulement",
+          "2": "Personnalisation basique"
         },
         "apps": {
-          "0": "Générateur de mots cachés (avec filigrane)"
+          "0": "Générateur de mots mêlés"
         },
         "cta": "Commencer gratuitement"
       },
       "core": {
-        "name": "Pack Essentiel",
+        "name": "Essentiel",
         "price": "$15",
         "period": "/mois",
         "yearlyPrice": "$144",
-        "description": "Les outils incontournables pour les enseignants professionnels",
+        "description": "Idéal pour un usage quotidien en classe",
         "features": {
-          "0": "10 générateurs les plus populaires",
+          "0": "Les 10 générateurs les plus utilisés",
           "1": "Sans filigrane",
           "2": "Bibliothèque complète (100+ thèmes)",
           "3": "Tous les modèles premium",
-          "4": "Licence commerciale POD incluse",
+          "4": "Licence commerciale incluse",
           "5": "Support par email",
-          "6": "Export en PDF et JPEG haute qualité"
+          "6": "Export PDF et JPEG haute qualité"
         },
         "apps": {
-          "0": "10 générateurs les plus populaires :",
+          "0": "Les 10 générateurs les plus utilisés :",
           "1": "Addition illustrée",
           "2": "Train de l'alphabet",
           "3": "Coloriages",
@@ -352,27 +352,27 @@
           "9": "Bingo illustré",
           "10": "Sudoku pour enfants"
         },
-        "cta": "Essai gratuit 7 jours"
+        "cta": "Commencer maintenant"
       },
       "full": {
-        "name": "Accès Complet",
+        "name": "Premium",
         "price": "$25",
         "period": "/mois",
         "yearlyPrice": "$240",
-        "description": "La solution complète pour les créateurs de contenus ambitieux",
+        "description": "La solution complète pour les professionnels",
         "features": {
-          "0": "Accès aux 33 générateurs",
-          "1": "Tout le Pack Essentiel inclus",
-          "2": "Support prioritaire par email",
-          "3": "Accès anticipé aux nouveautés",
-          "4": "Options de personnalisation avancées",
-          "5": "Mises à jour régulières et nouvelles fonctionnalités"
+          "0": "Les 33 générateurs",
+          "1": "Tout Essentiel + 23 générateurs",
+          "2": "Support prioritaire",
+          "3": "Nouveautés en avant-première",
+          "4": "Personnalisation avancée",
+          "5": "Mises à jour régulières"
         },
         "apps": {
-          "0": "Tous les générateurs du Pack Essentiel plus :",
+          "0": "Tous les générateurs Essentiel plus :",
           "1": "Grand ou petit",
           "2": "Graphiques à colorier",
-          "3": "Code-Addition",
+          "3": "Addition codée",
           "4": "Dessiner et colorier",
           "5": "Trouver les objets",
           "6": "Grille d'association",
@@ -393,8 +393,8 @@
           "21": "Deviner le mot",
           "22": "Exercices d'écriture anglaise"
         },
-        "cta": "Essai gratuit 7 jours",
-        "popular": "LE PLUS POPULAIRE"
+        "cta": "Commencer maintenant",
+        "popular": "CHOIX N°1"
       }
     },
     "comparison": {
@@ -433,12 +433,12 @@
           "answer": "Bien sûr ! Vous pouvez monter ou descendre de gamme à tout moment. Pour une montée de gamme, vous ne payez que la différence. Pour une descente, le changement prend effet au prochain cycle de facturation."
         },
         {
-          "question": "Y a-t-il une période d'essai gratuite ?",
-          "answer": "Oui ! Le Pack Essentiel et l'Accès Complet offrent 7 jours d'essai gratuit. Vous pouvez tester toutes les fonctionnalités sans engagement avant de vous décider."
+          "question": "Puis-je essayer avant d'acheter ?",
+          "answer": "Bien sûr ! Notre formule Gratuite vous donne accès au générateur de mots mêlés pour tester la plateforme. C'est un excellent moyen de découvrir la qualité de nos outils avant de passer à une formule payante."
         },
         {
           "question": "Quels moyens de paiement acceptez-vous ?",
-          "answer": "Nous acceptons toutes les cartes bancaires principales (Visa, Mastercard, American Express) ainsi que PayPal. Les paiements sont sécurisés par Stripe."
+          "answer": "Nous acceptons toutes les cartes bancaires principales (Visa, Mastercard, American Express). Les paiements sont sécurisés par Stripe."
         },
         {
           "question": "Puis-je créer des fiches dans d'autres langues ?",
@@ -819,89 +819,89 @@
   },
   "dashboard": {
     "header": {
-      "welcome": "Bon retour, {name} !",
-      "welcomeFallback": "Bon retour !",
-      "subtitle": "Créons quelque chose d'extraordinaire aujourd'hui",
+      "welcome": "Ravi de vous revoir, {name} !",
+      "welcomeFallback": "Ravi de vous revoir !",
+      "subtitle": "Créons ensemble quelque chose d'extraordinaire",
       "signOut": "Se déconnecter"
     },
     "stats": {
-      "worksheetsCreated": "Feuilles créées",
-      "totalThisMonth": "Total ce mois-ci",
+      "worksheetsCreated": "Fiches créées",
+      "totalThisMonth": "Ce mois-ci",
       "appsAvailable": "Applications disponibles",
-      "inYourPlan": "Dans votre forfait",
-      "currentPlan": "Forfait actuel",
+      "inYourPlan": "Inclus dans votre formule",
+      "currentPlan": "Votre formule actuelle",
       "yourMembership": "Votre abonnement"
     },
     "tierNames": {
       "free": "Gratuit",
       "core": "Essentiel",
-      "full": "Pro"
+      "full": "Premium"
     },
     "generators": {
-      "title": "Générateurs de fiches",
-      "searchPlaceholder": "Rechercher des générateurs...",
+      "title": "Générateurs de fiches pédagogiques",
+      "searchPlaceholder": "Rechercher un générateur...",
       "filterLabel": "Toutes les catégories",
       "categoryAll": "Toutes les catégories",
       "open": "Ouvrir →",
       "noResults": "Aucun générateur trouvé",
-      "tryAdjusting": "Essayez d'ajuster votre recherche ou vos filtres"
+      "tryAdjusting": "Affinez votre recherche ou modifiez les filtres"
     },
     "subscription": {
-      "title": "Abonnement",
-      "currentPlan": "Forfait actuel",
+      "title": "Mon abonnement",
+      "currentPlan": "Formule actuelle",
       "free": "Gratuit",
       "perMonth": "/mois",
-      "renewsOn": "Se renouvelle le",
-      "cancelsOn": "Se termine le",
-      "whatsIncluded": "Ce qui est inclus :",
-      "upgradePlan": "Améliorer le forfait",
-      "manageBilling": "Gérer la facturation",
-      "loading": "Chargement...",
-      "cancelWarning": "⚠️ Votre abonnement se terminera le {date}"
+      "renewsOn": "Renouvellement le",
+      "cancelsOn": "Fin de l'abonnement le",
+      "whatsIncluded": "Inclus dans votre formule :",
+      "upgradePlan": "Changer de formule",
+      "manageBilling": "Gérer mes paiements",
+      "loading": "Chargement en cours...",
+      "cancelWarning": "⚠️ Votre abonnement prendra fin le {date}"
     },
     "activity": {
-      "title": "Votre activité",
-      "worksheetsCreated": "Feuilles créées",
+      "title": "Mon activité",
+      "worksheetsCreated": "Fiches créées",
       "downloads": "Téléchargements",
       "generatorsUsed": "Générateurs utilisés",
       "thisWeek": "+3 cette semaine",
       "thisMonth": "Ce mois-ci",
-      "uniqueApps": "Applications uniques",
+      "uniqueApps": "Applications différentes",
       "unlimited": "Illimité",
-      "trackingNote": "📊 Votre activité est suivie pour vous aider à rester dans les limites de votre forfait"
+      "trackingNote": "📊 Nous suivons votre activité pour vous aider à optimiser votre formule"
     },
     "paymentHistory": {
-      "title": "Historique des paiements",
-      "noPayments": "Aucun historique de paiement pour le moment",
-      "noPaymentsSubtext": "Vos paiements apparaîtront ici après votre abonnement",
+      "title": "Historique de paiement",
+      "noPayments": "Aucun paiement enregistré",
+      "noPaymentsSubtext": "Vos paiements s'afficheront ici dès votre premier abonnement",
       "viewAll": "Voir tous les paiements →",
       "downloadInvoice": "Télécharger la facture",
-      "succeeded": "réussi",
+      "succeeded": "effectué",
       "failed": "échoué",
       "pending": "en attente"
     },
     "tiers": {
       "free": {
-        "description": "Commencez avec le générateur de mots mêlés",
+        "description": "Parfait pour découvrir la plateforme",
         "features": [
-          "Générateur de mots mêlés uniquement",
-          "Création illimitée de fiches",
-          "Téléchargements avec filigrane"
+          "Générateur de mots mêlés",
+          "Fiches illimitées",
+          "Avec filigrane"
         ]
       },
       "core": {
-        "description": "Parfait pour une utilisation régulière en classe",
+        "description": "Idéal pour un usage quotidien en classe",
         "features": [
-          "Accès à 10 générateurs populaires",
-          "Création illimitée de fiches",
+          "10 générateurs les plus utilisés",
+          "Fiches illimitées",
           "Sans filigrane"
         ]
       },
       "full": {
-        "description": "Accès complet pour utilisateurs avancés",
+        "description": "La solution complète pour les professionnels",
         "features": [
-          "Accès à tous les 33 générateurs",
-          "Création illimitée de fiches",
+          "Les 33 générateurs",
+          "Fiches illimitées",
           "Sans filigrane"
         ]
       }

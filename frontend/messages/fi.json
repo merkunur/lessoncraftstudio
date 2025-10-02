@@ -273,8 +273,8 @@
     "copyright": "© 2024 LessonCraftStudio. Kaikki oikeudet pidätetään."
   },
   "pricing": {
-    "heroTitle": "Selkeät hinnat jotka sopivat tarpeisiisi",
-    "heroSubtitle": "Valitse täydellinen paketti luoviin opetusmateriaaleihin - ilmaisesta kokeilusta ammattilaisratkaisuun",
+    "heroTitle": "Yksinkertainen. Läpinäkyvä. Reilu.",
+    "heroSubtitle": "Valitse sinulle sopiva paketti",
     "billingToggle": {
       "monthly": "Kuukausittain",
       "yearly": "Vuosittain",
@@ -292,14 +292,14 @@
         "name": "Ilmainen",
         "price": "$0",
         "period": "",
-        "description": "Täydellinen työkalujemme kokeiluun",
+        "description": "Täydellinen alustan tutustumiseen",
         "features": {
           "0": "Sanaristikkogeneraattori (vesileimalla)",
-          "1": "Huomaamaton vesileima dokumenteissa",
-          "2": "Rajoitettu kuvakirjasto",
+          "1": "Huomaamaton vesileima tehtävämonisteissa",
+          "2": "Perus kuvakirjasto",
           "3": "Vakiopohjat",
           "4": "Yhteisötuki",
-          "5": "Vain henkilökohtaiseen käyttöön"
+          "5": "Vain henkilökohtainen käyttö"
         },
         "limitations": {
           "0": "Vesileima kaikissa tehtävämonisteissa",
@@ -312,19 +312,19 @@
         "cta": "Aloita ilmaiseksi"
       },
       "core": {
-        "name": "Peruspaketti",
+        "name": "Perus",
         "price": "$15",
         "period": "/kuukausi",
         "yearlyPrice": "$144",
-        "description": "Suosituimmat työkalut ammattiopettajille",
+        "description": "Kaikki mitä tarvitset upeisiin tehtävämonisteisiin",
         "features": {
-          "0": "10 suosituinta generaattoria",
-          "1": "Ei vesileimoja",
-          "2": "Täydellinen kuvakirjasto (100+ teemaa)",
+          "0": "10 eniten käytettyä generaattoria",
+          "1": "Ilman vesileimaa",
+          "2": "Täysi kuvakirjasto (yli 100 teemaa)",
           "3": "Kaikki premium-pohjat",
           "4": "POD-kaupallinen lisenssi",
           "5": "Sähköpostituki",
-          "6": "Vienti PDF- ja JPEG-muotoon korkealaatuisena"
+          "6": "Vie PDF- ja JPEG-muodossa korkealaatuisena"
         },
         "apps": {
           "0": "10 suosituinta generaattoria:",
@@ -339,24 +339,24 @@
           "9": "Kuvabingo",
           "10": "Lasten sudoku"
         },
-        "cta": "7 päivän ilmainen kokeilu"
+        "cta": "Aloita nyt"
       },
       "full": {
-        "name": "Täysi Pääsy",
+        "name": "Premium",
         "price": "$25",
         "period": "/kuukausi",
         "yearlyPrice": "$240",
-        "description": "Kokonaisvaltainen ratkaisu vaativille opettajille",
+        "description": "Täysi pääsy kaikkiin generaattoreihin ja ominaisuuksiin",
         "features": {
-          "0": "Kaikki 33 tehtävämonistegeneraattoria",
-          "1": "Kaikki Peruspaketin sisältö sekä 23 lisää",
+          "0": "Kaikki 33 generaattoria käytettävissä",
+          "1": "Kaikki Perus-paketin sisältö mukana",
           "2": "Ensisijainen sähköpostituki",
           "3": "Varhainen pääsy uusiin ominaisuuksiin",
           "4": "Edistyneet mukautusmahdollisuudet",
-          "5": "Säännölliset päivitykset ja uudet toiminnot"
+          "5": "Jatkuvat päivitykset"
         },
         "apps": {
-          "0": "Kaikki Peruspaketin generaattorit sekä:",
+          "0": "Kaikki Perus-paketin generaattorit sekä:",
           "1": "Iso vai pieni",
           "2": "Kaaviot laske ja väritä",
           "3": "Koodiyhteenlasku",
@@ -380,21 +380,21 @@
           "21": "Arvaa sana",
           "22": "Kirjoitusharjoitukset"
         },
-        "cta": "7 päivän ilmainen kokeilu",
+        "cta": "Aloita nyt",
         "popular": "SUOSITUIN"
       }
     },
     "comparison": {
-      "title": "Vertaile pakettejamme yksityiskohtaisesti",
+      "title": "Vertaile paketteja yksityiskohtaisesti",
       "features": "Ominaisuudet",
       "numberOfApps": "Generaattorien määrä",
       "watermark": "Ilman vesileimaa",
       "commercialLicense": "Kaupallinen lisenssi",
-      "imageLibrarySize": "Kuvakirjaston koko",
+      "imageLibrarySize": "Kuvakirjasto",
       "imageLibrary": {
         "free": "Rajoitettu (10 teemaa)",
-        "core": "Täydellinen (100+ teemaa)",
-        "full": "Täydellinen (100+ teemaa)"
+        "core": "Täysi (yli 100 teemaa)",
+        "full": "Täysi (yli 100 teemaa)"
       },
       "support": "Tuki",
       "supportTypes": {
@@ -402,7 +402,7 @@
         "core": "Sähköposti",
         "full": "Ensisijainen sähköposti"
       },
-      "earlyAccess": "Varhainen pääsy uusiin ominaisuuksiin"
+      "earlyAccess": "Varhainen pääsy"
     },
     "faq": {
       "title": "Usein kysytyt kysymykset",
@@ -420,12 +420,12 @@
           "answer": "Kyllä, voit päivittää tai alentaa milloin tahansa. Päivityksessä maksat vain erotuksen. Alennuksessa muutos astuu voimaan seuraavan laskutusjakson alussa."
         },
         {
-          "question": "Onko tarjolla ilmainen kokeilujakso?",
-          "answer": "Kyllä! Sekä Peruspaketti että Täysi Pääsy tarjoavat 7 päivän ilmaisen kokeilujakson. Voit testata kaikkia ominaisuuksia ilman sitoutumista ennen päätöksentekoa."
+          "question": "Voinko kokeilla ennen ostamista?",
+          "answer": "Tottakai! Ilmainen-pakettimme antaa pääsyn sanaristikkogeneraattoriin, jotta voit tutustua alustaan. Se on paras tapa nähdä työkalujemme laatu ennen maksulliseen pakettiin siirtymistä."
         },
         {
           "question": "Mitä maksutapoja hyväksytte?",
-          "answer": "Hyväksymme kaikki suurimmat luottokortit (Visa, Mastercard, American Express) sekä PayPalin. Maksut suojataan Stripen kautta."
+          "answer": "Hyväksymme kaikki suurimmat luottokortit (Visa, Mastercard, American Express). Maksut suojataan Stripen kautta."
         },
         {
           "question": "Voinko luoda tehtävämonisteita muilla kielillä?",
@@ -434,7 +434,7 @@
       ]
     },
     "cta": {
-      "title": "Valmis luomaan upeita opetusmateriaaleja?",
+      "title": "Valmis luomaan upeita tehtävämonisteita?",
       "subtitle": "Liity tuhansien opettajien joukkoon, jotka säästävät aikaa ja innostavat oppilaitaan",
       "button": "Aloita ilmaiseksi",
       "disclaimer": "Ei luottokorttia tarvita • Peruuta milloin tahansa"
@@ -806,90 +806,90 @@
   },
   "dashboard": {
     "header": {
-      "welcome": "Tervetuloa takaisin, {name}!",
+      "welcome": "Mukavaa nähdä taas, {name}!",
       "welcomeFallback": "Tervetuloa takaisin!",
-      "subtitle": "Luodaan jotain mahtavaa tänään",
+      "subtitle": "Tehdään tänään jotain hienoa",
       "signOut": "Kirjaudu ulos"
     },
     "stats": {
-      "worksheetsCreated": "Luodut tehtäväarkit",
+      "worksheetsCreated": "Luotuja tehtävämoniste",
       "totalThisMonth": "Yhteensä tässä kuussa",
       "appsAvailable": "Saatavilla olevat sovellukset",
-      "inYourPlan": "Paketissasi",
-      "currentPlan": "Nykyinen paketti",
-      "yourMembership": "Jäsenyytesi"
+      "inYourPlan": "Sisältyy pakettiin",
+      "currentPlan": "Nykyinen pakettisi",
+      "yourMembership": "Tilauksesi"
     },
     "tierNames": {
       "free": "Ilmainen",
       "core": "Perus",
-      "full": "Pro"
+      "full": "Premium"
     },
     "generators": {
       "title": "Tehtävämonistegeneraattorit",
-      "searchPlaceholder": "Hae generaattoreita...",
+      "searchPlaceholder": "Hae generaattoria...",
       "filterLabel": "Kaikki kategoriat",
       "categoryAll": "Kaikki kategoriat",
       "open": "Avaa →",
-      "noResults": "Generaattoreita ei löytynyt",
-      "tryAdjusting": "Yritä säätää hakuasi tai suodattimia"
+      "noResults": "Ei löytynyt generaattoreita",
+      "tryAdjusting": "Kokeile muita hakusanoja tai muuta suodattimia"
     },
     "subscription": {
-      "title": "Tilaus",
+      "title": "Tilaukseni",
       "currentPlan": "Nykyinen paketti",
       "free": "Ilmainen",
-      "perMonth": "/kuukausi",
+      "perMonth": "/kk",
       "renewsOn": "Uusitaan",
       "cancelsOn": "Päättyy",
-      "whatsIncluded": "Mitä sisältyy:",
-      "upgradePlan": "Päivitä paketti",
-      "manageBilling": "Hallinnoi laskutusta",
+      "whatsIncluded": "Paketti sisältää:",
+      "upgradePlan": "Vaihda pakettia",
+      "manageBilling": "Hallinnoi maksuja",
       "loading": "Ladataan...",
       "cancelWarning": "⚠️ Tilauksesi päättyy {date}"
     },
     "activity": {
       "title": "Toimintasi",
-      "worksheetsCreated": "Luodut tehtäväarkit",
+      "worksheetsCreated": "Luotuja tehtävämoniste",
       "downloads": "Lataukset",
       "generatorsUsed": "Käytetyt generaattorit",
       "thisWeek": "+3 tällä viikolla",
       "thisMonth": "Tässä kuussa",
-      "uniqueApps": "Yksilölliset sovellukset",
+      "uniqueApps": "Eri sovellukset",
       "unlimited": "Rajoittamaton",
-      "trackingNote": "📊 Toimintaasi seurataan auttamaan sinua pysymään pakettisi rajoissa"
+      "trackingNote": "📊 Seuraamme toimintaasi, jotta saat paketin hyödynnettyä parhaiten"
     },
     "paymentHistory": {
       "title": "Maksuhistoria",
-      "noPayments": "Ei vielä maksuhistoriaa",
-      "noPaymentsSubtext": "Maksusi näkyvät täällä tilauksen jälkeen",
+      "noPayments": "Ei vielä maksuja",
+      "noPaymentsSubtext": "Maksusi näkyvät täällä, kun teet tilauksen",
       "viewAll": "Näytä kaikki maksut →",
       "downloadInvoice": "Lataa lasku",
-      "succeeded": "onnistui",
+      "succeeded": "suoritettu",
       "failed": "epäonnistui",
       "pending": "odottaa"
     },
     "tiers": {
       "free": {
-        "description": "Aloita sananhakugeneraattorilla",
+        "description": "Täydellinen tutustumiseen",
         "features": [
-          "Vain sananhakugeneraattori",
-          "Rajoittamaton tehtäväarkkien luominen",
-          "Lataukset vesileimalla"
+          "Sananhakugeneraattori",
+          "Rajaton määrä tehtävämonisteja",
+          "Vesileimalla"
         ]
       },
       "core": {
-        "description": "Täydellinen säännölliseen käyttöön luokkahuoneessa",
+        "description": "Ihanteellinen päivittäiseen käyttöön luokassa",
         "features": [
-          "Pääsy 10 suosittuun tehtäväarkkigeneraattoriin",
-          "Rajoittamaton tehtäväarkkien luominen",
-          "Ei vesileimoja"
+          "10 suosituinta generaattoria",
+          "Rajaton määrä tehtävämonisteja",
+          "Ilman vesileimaa"
         ]
       },
       "full": {
-        "description": "Täysi pääsy edistyneille käyttäjille",
+        "description": "Täysi ratkaisu ammattilaisille",
         "features": [
-          "Pääsy kaikkiin 33 tehtäväarkkigeneraattoriin",
-          "Rajoittamaton tehtäväarkkien luominen",
-          "Ei vesileimoja"
+          "Kaikki 33 generaattoria",
+          "Rajaton määrä tehtävämonisteja",
+          "Ilman vesileimaa"
         ]
       }
     },

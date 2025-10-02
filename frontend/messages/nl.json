@@ -263,8 +263,8 @@
     }
   },
   "pricing": {
-    "heroTitle": "Heldere prijzen zonder verrassingen",
-    "heroSubtitle": "Kies het perfecte pakket voor professioneel lesmateriaal",
+    "heroTitle": "Simpel. Transparant. Eerlijk.",
+    "heroSubtitle": "Kies het pakket dat bij jou past",
     "billingToggle": {
       "monthly": "Maandelijks",
       "yearly": "Jaarlijks",
@@ -282,17 +282,17 @@
         "name": "Gratis",
         "price": "$0",
         "period": "",
-        "description": "Perfect om onze tools uit te proberen",
+        "description": "Perfect om het platform te leren kennen",
         "features": {
           "0": "Woordzoeker generator (met watermerk)",
-          "1": "Subtiel watermerk op documenten",
-          "2": "Beperkte afbeeldingenbibliotheek",
-          "3": "Standaard sjablonen inbegrepen",
+          "1": "Subtiel watermerk op werkbladen",
+          "2": "Basis afbeeldingenbibliotheek",
+          "3": "Standaard sjablonen",
           "4": "Community ondersteuning",
-          "5": "Alleen voor persoonlijk gebruik"
+          "5": "Alleen persoonlijk gebruik"
         },
         "limitations": {
-          "0": "Watermerk op alle documenten",
+          "0": "Watermerk op alle werkbladen",
           "1": "Geen commerciële licentie",
           "2": "Beperkte aanpassingsmogelijkheden"
         },
@@ -302,22 +302,22 @@
         "cta": "Gratis starten"
       },
       "core": {
-        "name": "Basispakket",
+        "name": "Standaard",
         "price": "$15",
         "period": "/maand",
         "yearlyPrice": "$144",
-        "description": "De essentiële tools voor professionele leerkrachten",
+        "description": "Alles wat je nodig hebt voor geweldige werkbladen",
         "features": {
-          "0": "De 10 populairste generators",
-          "1": "Geen watermerk",
-          "2": "Complete bibliotheek (100+ thema's)",
+          "0": "De 10 meest gebruikte generators",
+          "1": "Zonder watermerk",
+          "2": "Volledige bibliotheek (meer dan 100 thema's)",
           "3": "Alle premium sjablonen",
           "4": "POD commerciële licentie inbegrepen",
-          "5": "Email ondersteuning",
-          "6": "Export naar PDF en JPEG hoge kwaliteit"
+          "5": "E-mail ondersteuning",
+          "6": "Exporteer naar PDF en JPEG in hoge kwaliteit"
         },
         "apps": {
-          "0": "10 populairste generators:",
+          "0": "De 10 populairste generators:",
           "1": "Sommen met Plaatjes",
           "2": "Alfabettrein",
           "3": "Kleurplaten",
@@ -329,27 +329,27 @@
           "9": "Plaatjesbingo",
           "10": "Sudoku voor Kinderen"
         },
-        "cta": "7 dagen gratis proberen"
+        "cta": "Nu beginnen"
       },
       "full": {
-        "name": "Volledige Toegang",
+        "name": "Premium",
         "price": "$25",
         "period": "/maand",
         "yearlyPrice": "$240",
-        "description": "Het complete pakket voor ambitieuze content creators",
+        "description": "Volledige toegang tot alle generators en functies",
         "features": {
           "0": "Alle 33 generators beschikbaar",
-          "1": "Alles uit het Basispakket inbegrepen",
-          "2": "Prioritaire email ondersteuning",
+          "1": "Alles van Standaard inbegrepen",
+          "2": "Prioritaire e-mail ondersteuning",
           "3": "Vroege toegang tot nieuwe functies",
           "4": "Geavanceerde aanpassingsopties",
-          "5": "Regelmatige updates en nieuwe functies"
+          "5": "Continue updates"
         },
         "apps": {
-          "0": "Alle generators van het Basispakket plus:",
+          "0": "Alle generators van Standaard plus:",
           "1": "Groot of klein",
           "2": "Grafieken tellen en kleuren",
-          "3": "Code-Addition",
+          "3": "Code-optellen",
           "4": "Tekenen en kleuren",
           "5": "Voorwerpen zoeken",
           "6": "Rooster koppelen",
@@ -370,27 +370,27 @@
           "21": "Woord raden",
           "22": "Engelse schrijfoefeningen"
         },
-        "cta": "7 dagen gratis proberen",
-        "popular": "MEEST GEKOZEN"
+        "cta": "Nu beginnen",
+        "popular": "MEEST POPULAIR"
       }
     },
     "comparison": {
-      "title": "Vergelijk onze pakketten in detail",
+      "title": "Vergelijk de pakketten in detail",
       "features": "Functies",
       "numberOfApps": "Aantal generators",
       "watermark": "Zonder watermerk",
       "commercialLicense": "Commerciële licentie",
-      "imageLibrarySize": "Grootte afbeeldingenbibliotheek",
+      "imageLibrarySize": "Afbeeldingenbibliotheek",
       "imageLibrary": {
         "free": "Beperkt (10 thema's)",
-        "core": "Compleet (100+ thema's)",
-        "full": "Compleet (100+ thema's)"
+        "core": "Compleet (meer dan 100 thema's)",
+        "full": "Compleet (meer dan 100 thema's)"
       },
       "support": "Ondersteuning",
       "supportTypes": {
         "free": "Community",
-        "core": "Email",
-        "full": "Prioritaire email"
+        "core": "E-mail",
+        "full": "Prioritaire e-mail"
       },
       "earlyAccess": "Vroege toegang"
     },
@@ -403,11 +403,11 @@
         },
         "1": {
           "question": "Welke betaalmethoden accepteren jullie?",
-          "answer": "We accepteren alle grote creditcards (Visa, Mastercard, American Express) en PayPal. Alle betalingen worden veilig verwerkt via Stripe."
+          "answer": "We accepteren alle grote creditcards (Visa, Mastercard, American Express). Alle betalingen worden veilig verwerkt via Stripe."
         },
         "2": {
-          "question": "Is er een gratis proefperiode?",
-          "answer": "Ja! Zowel het Basispakket als Volledige Toegang bieden 7 dagen gratis proefperiode. Je hebt geen creditcard nodig om te beginnen."
+          "question": "Kan ik eerst uitproberen voordat ik koop?",
+          "answer": "Jazeker! Ons Gratis pakket geeft je toegang tot de woordzoeker generator om het platform uit te proberen. Het is de beste manier om de kwaliteit van onze tools te zien voordat je overgaat naar een betaald pakket."
         },
         "3": {
           "question": "Wat is de POD commerciële licentie?",
@@ -426,8 +426,8 @@
     "cta": {
       "title": "Klaar om geweldige werkbladen te maken?",
       "subtitle": "Sluit je aan bij duizenden leerkrachten die tijd besparen en hun leerlingen motiveren",
-      "button": "Begin nu gratis",
-      "disclaimer": "Geen creditcard vereist • Opzeggen wanneer je wilt"
+      "button": "Gratis starten",
+      "disclaimer": "Geen creditcard nodig • Opzeggen wanneer je wilt"
     }
   },
   "footer": {
@@ -819,90 +819,90 @@
   },
   "dashboard": {
     "header": {
-      "welcome": "Welkom terug, {name}!",
+      "welcome": "Fijn dat je er weer bent, {name}!",
       "welcomeFallback": "Welkom terug!",
-      "subtitle": "Laten we vandaag iets geweldigs maken",
+      "subtitle": "Laten we vandaag iets moois maken",
       "signOut": "Uitloggen"
     },
     "stats": {
       "worksheetsCreated": "Werkbladen gemaakt",
       "totalThisMonth": "Totaal deze maand",
-      "appsAvailable": "Beschikbare apps",
-      "inYourPlan": "In jouw pakket",
-      "currentPlan": "Huidig pakket",
-      "yourMembership": "Jouw lidmaatschap"
+      "appsAvailable": "Beschikbare applicaties",
+      "inYourPlan": "Inbegrepen in jouw pakket",
+      "currentPlan": "Jouw huidige pakket",
+      "yourMembership": "Jouw abonnement"
     },
     "tierNames": {
       "free": "Gratis",
-      "core": "Basis",
-      "full": "Pro"
+      "core": "Standaard",
+      "full": "Premium"
     },
     "generators": {
-      "title": "Werkbladgenerators",
-      "searchPlaceholder": "Zoek generators...",
+      "title": "Werkbladgeneratoren",
+      "searchPlaceholder": "Zoek een generator...",
       "filterLabel": "Alle categorieën",
       "categoryAll": "Alle categorieën",
       "open": "Openen →",
-      "noResults": "Geen generators gevonden",
-      "tryAdjusting": "Pas je zoekopdracht of filters aan"
+      "noResults": "Geen generatoren gevonden",
+      "tryAdjusting": "Probeer andere zoektermen of pas de filters aan"
     },
     "subscription": {
-      "title": "Abonnement",
+      "title": "Mijn abonnement",
       "currentPlan": "Huidig pakket",
       "free": "Gratis",
       "perMonth": "/maand",
       "renewsOn": "Verlengt op",
-      "cancelsOn": "Eindigt op",
-      "whatsIncluded": "Wat is inbegrepen:",
-      "upgradePlan": "Pakket upgraden",
-      "manageBilling": "Facturering beheren",
-      "loading": "Laden...",
-      "cancelWarning": "⚠️ Je abonnement eindigt op {date}"
+      "cancelsOn": "Loopt af op",
+      "whatsIncluded": "Dit zit erin:",
+      "upgradePlan": "Pakket wijzigen",
+      "manageBilling": "Betalingen beheren",
+      "loading": "Bezig met laden...",
+      "cancelWarning": "⚠️ Je abonnement loopt af op {date}"
     },
     "activity": {
       "title": "Jouw activiteit",
       "worksheetsCreated": "Werkbladen gemaakt",
       "downloads": "Downloads",
-      "generatorsUsed": "Gebruikte generators",
+      "generatorsUsed": "Gebruikte generatoren",
       "thisWeek": "+3 deze week",
       "thisMonth": "Deze maand",
-      "uniqueApps": "Unieke apps",
+      "uniqueApps": "Verschillende apps",
       "unlimited": "Onbeperkt",
-      "trackingNote": "📊 Je activiteit wordt bijgehouden om je te helpen binnen je pakketlimieten te blijven"
+      "trackingNote": "📊 We houden je activiteit bij zodat je optimaal gebruik maakt van je pakket"
     },
     "paymentHistory": {
-      "title": "Betalingsgeschiedenis",
-      "noPayments": "Nog geen betalingsgeschiedenis",
-      "noPaymentsSubtext": "Je betalingen verschijnen hier na je abonnement",
-      "viewAll": "Bekijk alle betalingen →",
+      "title": "Betalingsoverzicht",
+      "noPayments": "Nog geen betalingen geregistreerd",
+      "noPaymentsSubtext": "Je betalingen verschijnen hier zodra je een abonnement afsluit",
+      "viewAll": "Alle betalingen bekijken →",
       "downloadInvoice": "Factuur downloaden",
-      "succeeded": "geslaagd",
+      "succeeded": "voltooid",
       "failed": "mislukt",
       "pending": "in behandeling"
     },
     "tiers": {
       "free": {
-        "description": "Begin met de woordzoeker generator",
+        "description": "Perfect om het platform te leren kennen",
         "features": [
-          "Alleen woordzoeker generator",
-          "Onbeperkte werkblad generatie",
-          "Downloads met watermerk"
+          "Woordzoekergenerator",
+          "Onbeperkt werkbladen maken",
+          "Met watermerk"
         ]
       },
       "core": {
-        "description": "Perfect voor regelmatig gebruik in de klas",
+        "description": "Ideaal voor dagelijks gebruik in de klas",
         "features": [
-          "Toegang tot 10 populaire werkblad generators",
-          "Onbeperkte werkblad generatie",
-          "Geen watermerken"
+          "De 10 meest populaire generatoren",
+          "Onbeperkt werkbladen maken",
+          "Zonder watermerk"
         ]
       },
       "full": {
-        "description": "Volledige toegang voor intensieve gebruikers",
+        "description": "De complete oplossing voor professionals",
         "features": [
-          "Toegang tot alle 33 werkblad generators",
-          "Onbeperkte werkblad generatie",
-          "Geen watermerken"
+          "Alle 33 generatoren",
+          "Onbeperkt werkbladen maken",
+          "Zonder watermerk"
         ]
       }
     },

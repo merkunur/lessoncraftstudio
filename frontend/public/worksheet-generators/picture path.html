@@ -817,6 +817,9 @@
                   <option value="no" data-translate="language.norwegian">Norsk</option>
                   <option value="fi" data-translate="language.finnish">Suomi</option>
               </select>
+              <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="picture.pathway.language.description">
+                  Selects the language for image library content only. UI language is controlled by the main language selector in the header.
+              </p>
           </div>
       </div>
       <div class="accordion-item">
@@ -1044,16 +1047,19 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script>
 // MUST BE GLOBAL - Before DOMContentLoaded
-let currentLocale = 'en';
-window.currentLocale = currentLocale;
+// Separate UI locale (from URL) and content locale (from sidebar selector)
+let uiLocale = 'en';  // UI language (for interface translations) - from URL parameter
+let currentLocale = 'en';  // Content language (for image library) - can be changed by sidebar selector
 
 // Initialize locale from URL if present
 const urlParams = new URLSearchParams(window.location.search);
 const localeParam = urlParams.get('locale');
 if (localeParam) {
-    currentLocale = localeParam;
-    window.currentLocale = currentLocale;
+    uiLocale = localeParam;  // UI language comes from URL (parent app header)
+    currentLocale = localeParam;  // Initial content language matches UI language
 }
+window.uiLocale = uiLocale;
+window.currentLocale = currentLocale;
 
 // Translation functions
 function t(key) {
@@ -1061,13 +1067,16 @@ function t(key) {
     console.warn('Translations not loaded, returning key:', key);
     return key;
   }
-  const locale = window.currentLocale || 'en';
+  // Use uiLocale for UI translations, fallback to currentLocale, then to English
+  const locale = window.uiLocale || window.currentLocale || 'en';
   return translations[locale]?.[key] || translations.en?.[key] || key;
 }
 window.t = t;
 
 function applyTranslations() {
-  const locale = window.currentLocale || 'en';
+  console.log('[Picture Path] Applying UI translations for locale:', window.uiLocale || window.currentLocale);
+  console.log('[Picture Path] Content locale:', window.currentLocale);
+
   document.querySelectorAll('[data-translate]').forEach(el => {
     const key = el.getAttribute('data-translate');
     el.textContent = t(key);
@@ -1131,27 +1140,48 @@ document.addEventListener("DOMContentLoaded", function() {
   const selectionTypeSelect = document.getElementById('selectionType');
   const searchInput = document.getElementById('searchInput');
   
-  // Language selector
+  // Language selector - set to current content locale
   const languageSelect = document.getElementById('languageSelect');
   if (languageSelect) {
       languageSelect.value = currentLocale;
       // Apply initial translations
       if (typeof applyTranslations !== 'undefined') {
-          applyTranslations(currentLocale);
+          applyTranslations();
       }
-      languageSelect.addEventListener('change', function() {
-          currentLocale = this.value;
-          window.currentLocale = currentLocale;
-          if (typeof applyTranslations !== 'undefined') {
-              applyTranslations();
-          }
-          // Reload themes with new locale
+  }
+
+  // Initialize UnifiedLanguageManager for content language (image library)
+  if (typeof window.UnifiedLanguageManager !== 'undefined') {
+      window.languageManager = window.UnifiedLanguageManager;
+
+      // Register callback to reload image library when content language changes
+      window.languageManager.onLanguageChange(function(newLocale, oldLocale) {
+          console.log('[Picture Path] Content language changed from', oldLocale, 'to', newLocale);
+          currentLocale = newLocale;
+          window.currentLocale = newLocale;
+
+          // Reload themes and dictionary with new locale
           loadThemes();
-          // Reload images if a theme is selected
           if (selectedTheme && selectedTheme !== 'all') {
               loadDictionary();
           }
       });
+  } else {
+      // Fallback mode with direct event handler (backward compatibility)
+      console.warn('[Picture Path] UnifiedLanguageManager not found, using fallback mode');
+      if (languageSelect) {
+          languageSelect.addEventListener('change', function() {
+              const newLocale = this.value;
+              currentLocale = newLocale;
+              window.currentLocale = newLocale;
+
+              // Reload themes and dictionary with new locale (do NOT reload UI translations)
+              loadThemes();
+              if (selectedTheme && selectedTheme !== 'all') {
+                  loadDictionary();
+              }
+          });
+      }
   }
   const themeSelect = document.getElementById('themeSelect');
   const dictionaryDiv = document.getElementById('dictionary');
@@ -2946,6 +2976,78 @@ async function downloadPDF(canvasToExport, fileName) {
       applyTranslations();
   }
 
+  async function generateInitialWorksheet() {
+    try {
+      console.log('Starting initial worksheet generation...');
+
+      // Wait for themes to load
+      let attempts = 0;
+      const maxAttempts = 50;
+      while (themeSelect.options.length <= 1 && attempts < maxAttempts) {
+        await new Promise(resolve => setTimeout(resolve, 100));
+        attempts++;
+      }
+
+      // Set page size to Letter portrait (already default)
+      pageSizeSelect.value = '612x792';
+      const [width, height] = pageSizeSelect.value.split('x').map(Number);
+      currentCanvasConfig.width = width;
+      currentCanvasConfig.height = height;
+      worksheetCanvas.setDimensions({ width, height });
+      answerKeyCanvas.setDimensions({ width, height });
+      updateCanvasDisplayDimensions(width, height, false);
+
+      // Helper function to fetch images from a theme
+      async function getThemeImages(themeName) {
+        const res = await fetch(`/api/images?theme=${encodeURIComponent(themeName)}&locale=${currentLocale}`);
+        if (!res.ok) throw new Error(`Failed to load ${themeName} theme`);
+        const data = await res.json();
+        return data.images || data;
+      }
+
+      // Load Animals theme for Start and End images
+      const animalsImages = await getThemeImages('animals');
+      if (animalsImages.length < 2) {
+        console.error('Not enough animals images');
+        return;
+      }
+
+      // Select random start and end images from animals
+      const shuffledAnimals = [...animalsImages].sort(() => Math.random() - 0.5);
+      selectedStartImage = shuffledAnimals[0];
+      selectedEndImage = shuffledAnimals[1];
+
+      // Load Food theme for Path images (4 images)
+      const foodImages = await getThemeImages('food');
+      if (foodImages.length < 4) {
+        console.error('Not enough food images');
+        return;
+      }
+      const shuffledFood = [...foodImages].sort(() => Math.random() - 0.5);
+      selectedPathImages = shuffledFood.slice(0, 4);
+
+      // Load Alphabet theme for Distractor images (6 images)
+      const alphabetImages = await getThemeImages('alphabet');
+      if (alphabetImages.length < 6) {
+        console.error('Not enough alphabet images');
+        return;
+      }
+      const shuffledAlphabet = [...alphabetImages].sort(() => Math.random() - 0.5);
+      selectedDistractorImages = shuffledAlphabet.slice(0, 6);
+
+      // Update UI
+      updateSelectionPreviews();
+
+      // Wait a bit and generate
+      await new Promise(resolve => setTimeout(resolve, 200));
+      await generatePathway();
+
+      console.log('Initial worksheet generated successfully');
+    } catch (error) {
+      console.error('Error generating initial worksheet:', error);
+    }
+  }
+
   // Initial loads
   loadThemes();
   updateSelectionPreviews();
@@ -2968,6 +3070,8 @@ async function downloadPDF(canvasToExport, fileName) {
   } else {
       console.warn('⚠️ BulletproofLoader not found');
   }
+
+  setTimeout(() => generateInitialWorksheet(), 1000);
 });
 </script>
 </body>

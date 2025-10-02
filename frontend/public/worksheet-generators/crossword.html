@@ -617,7 +617,7 @@
                     <button class="accordion-button active" data-translate="crossword">Image Crossword</button>
                     <div class="accordion-wrapper" style="display: block;">
                         <h4 data-translate="selectLanguage">Select Language</h4>
-                        <label for="languageSelect" data-translate="language">Language:</label>
+                        <label for="languageSelect" data-translate="imageLibraryLanguage">Image Library Language:</label>
                         <select id="languageSelect">
                             <option value="en" data-translate="language.english">English</option>
                             <option value="de" data-translate="language.german">Deutsch</option>
@@ -678,6 +678,24 @@
                         </div>
                         <label for="borderOpacity" data-translate="crossword.border.opacity">Border Opacity:</label>
                         <input type="range" id="borderOpacity" min="0" max="1" step="0.05" value="1" disabled>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button" data-translate="crossword.header">Header</button>
+                    <div class="accordion-wrapper">
+                        <h4 data-translate="crossword.header.settings">Header Settings</h4>
+                        <label>
+                            <input type="checkbox" id="showHeaderCheckbox" checked>
+                            <span data-translate="crossword.header.show">Show Header</span>
+                        </label>
+
+                        <label for="headerTitle" data-translate="crossword.header.title">Title:</label>
+                        <input type="text" id="headerTitle" placeholder="Picture Crossword">
+
+                        <label for="headerDescription" data-translate="crossword.header.description">Description:</label>
+                        <textarea id="headerDescription" rows="2" placeholder="Look at the pictures and fill in the crossword!"></textarea>
+
+                        <button id="applyHeaderBtn" data-translate="crossword.header.apply">Apply Header</button>
                     </div>
                 </div>
                 <div class="accordion-item">
@@ -829,19 +847,42 @@
     </div>
 
 <script>
-// Initialize locale BEFORE DOMContentLoaded
-let currentLocale = 'en';
+// Initialize locales BEFORE DOMContentLoaded
+// uiLocale = Interface language (from main app's language selector in header)
+// currentLocale = Content language for image library (from sidebar selector)
+const urlParams = new URLSearchParams(window.location.search);
+
+// UI locale comes from the main app (via URL parameter)
+window.uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
+
+// Content locale can be different (initially same as UI for simplicity)
+let currentLocale = urlParams.get('content') || window.uiLocale;
+window.currentLocale = currentLocale;
+
+console.log('Global uiLocale set to:', window.uiLocale);
+console.log('Global currentLocale set to:', currentLocale);
+
 let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
 
-// Initialize locale from URL if present
-const urlParams = new URLSearchParams(window.location.search);
-const localeParam = urlParams.get('locale');
-if (localeParam) {
-    currentLocale = localeParam;
+// Translation function (uses uiLocale for UI translations)
+function t(key, params = {}) {
+    if (typeof translations === 'undefined') return key;
+    const locale = window.uiLocale || 'en';  // Use uiLocale for UI translations
+    const translation = (translations[locale] && translations[locale][key]) ||
+                       (translations.en && translations.en[key]) ||
+                       key;
+    return formatTranslation(translation, params);
 }
+window.t = t;
 
-// Set currentLocale globally BEFORE DOMContentLoaded (critical for enhancement scripts)
-window.currentLocale = currentLocale;
+function formatTranslation(text, params) {
+    let formatted = text;
+    for (const [key, value] of Object.entries(params)) {
+        formatted = formatted.replace(new RegExp(`\\{${key}\\}`, 'g'), value);
+    }
+    return formatted;
+}
+window.formatTranslation = formatTranslation;
 
 document.addEventListener("DOMContentLoaded", function() {
     // --- CONSTANTS AND STATE ---
@@ -914,6 +955,11 @@ document.addEventListener("DOMContentLoaded", function() {
     const backgroundOpacitySlider = getEl('backgroundOpacity');
     const borderOpacitySlider = getEl('borderOpacity');
 
+    const showHeaderCheckbox = getEl('showHeaderCheckbox');
+    const headerTitleInput = getEl('headerTitle');
+    const headerDescriptionInput = getEl('headerDescription');
+    const applyHeaderBtn = getEl('applyHeaderBtn');
+
     const imageUploadInput = getEl('imageUploadInput');
     const uploadedImagesPreviewDiv = getEl('uploadedImagesPreview');
 
@@ -947,15 +993,29 @@ document.addEventListener("DOMContentLoaded", function() {
         setupCanvasEventListeners(answerKeyCanvas);
         updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
 
-        // Initialize language selector
+        // Initialize language selector (sidebar selector - ONLY changes image library language)
+        // This selector ONLY changes the image library language, NOT the UI language
         if (languageSelect) {
             languageSelect.value = currentLocale;
             languageSelect.addEventListener('change', function() {
                 const newLocale = this.value;
-                // Update URL and reload page (like Addition app does)
-                const url = new URL(window.location.href);
-                url.searchParams.set('locale', newLocale);
-                window.location.href = url.toString();
+                currentLocale = newLocale;
+                window.currentLocale = newLocale;
+                console.log('Image library language changed to:', currentLocale);
+
+                // DO NOT reload page - UI language is controlled by header selector
+                // Clear image cache and reload with new locale
+                allImagesCache = {};
+
+                // Reload themes with new locale
+                loadThemes().then(() => {
+                    console.log('Themes reloaded with new locale');
+                });
+
+                // Update URL with content parameter instead of locale
+                const url = new URL(window.location);
+                url.searchParams.set('content', newLocale);
+                window.history.replaceState({}, '', url);
             });
         }
         
@@ -969,6 +1029,48 @@ document.addEventListener("DOMContentLoaded", function() {
                 renderDictionary(); // Load images after themes are loaded
             });
 
+            // Generate initial worksheet with default settings
+            async function generateInitialWorksheet() {
+                try {
+                    console.log('Starting initial worksheet generation...');
+
+                    // Wait for themes to be loaded by polling
+                    let attempts = 0;
+                    const maxAttempts = 30;
+                    while (worksheetThemeSelect.options.length <= 1 && attempts < maxAttempts) {
+                        await new Promise(resolve => setTimeout(resolve, 100));
+                        attempts++;
+                    }
+
+                    if (worksheetThemeSelect.options.length <= 1) {
+                        console.error('Failed to load themes for initial worksheet generation');
+                        return;
+                    }
+
+                    console.log('Themes loaded, configuring worksheet...');
+
+                    // Set page size to Letter portrait
+                    pageSizeSelect.value = '612x792';
+                    const [w, h] = pageSizeSelect.value.split('x').map(Number);
+                    updateCanvasDisplayDimensions(w, h);
+
+                    // Set theme to animals
+                    worksheetThemeSelect.value = 'animals';
+
+                    console.log('Configuration complete, generating worksheet...');
+
+                    // Wait a bit for everything to settle
+                    await new Promise(resolve => setTimeout(resolve, 500));
+
+                    // Trigger worksheet generation
+                    await handleGenerateWorksheet();
+
+                    console.log('Initial worksheet generated successfully');
+                } catch (error) {
+                    console.error('Error generating initial worksheet:', error);
+                }
+            }
+
             // Initialize BulletproofLoader AFTER translations are applied
             if (window.BulletproofLoader) {
                 window.BulletproofLoader.init({
@@ -979,16 +1081,22 @@ document.addEventListener("DOMContentLoaded", function() {
                     console.log('BulletproofLoader initialized successfully');
                     // Re-apply translations after BulletproofLoader modifies dropdowns
                     setTimeout(() => applyTranslations(), 200);
+                    // Generate initial worksheet after BulletproofLoader initialization
+                    setTimeout(() => generateInitialWorksheet(), 1000);
                 }).catch(error => {
                     console.error('BulletproofLoader init failed:', error);
                     // Fallback to manual loading only on error
                     loadBorderThemes();
                     loadBackgroundThemes();
+                    // Still generate initial worksheet even if BulletproofLoader fails
+                    setTimeout(() => generateInitialWorksheet(), 1000);
                 });
             } else {
                 // Fallback if BulletproofLoader not available
                 loadBorderThemes();
                 loadBackgroundThemes();
+                // Generate initial worksheet in fallback scenario
+                setTimeout(() => generateInitialWorksheet(), 1000);
             }
         }, 100);
         renderUploadedImages();
@@ -1070,7 +1178,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
         generateWorksheetBtn.addEventListener('click', handleGenerateWorksheet);
         generateAnswerKeyBtn.addEventListener('click', handleGenerateAnswerKey);
-        
+
+        applyHeaderBtn.addEventListener('click', async () => {
+            await renderWorksheet();
+            await renderAnswerKey();
+            showMessage(getTranslation('crossword.header.applied', currentLocale) || 'Header updated!', 'success');
+        });
+
+        showHeaderCheckbox.addEventListener('change', async () => {
+            await renderWorksheet();
+            await renderAnswerKey();
+        });
+
         clearBtn.addEventListener('click', clearAll);
         
         downloadWorksheetJpegBtn.addEventListener("click", () => downloadImageFile(worksheetCanvas, "crossword_worksheet.jpeg"));
@@ -1262,14 +1381,16 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             
             if (selectedTheme !== 'all' || (selectedTheme === 'all' && !query)) {
-                if (!allImagesCache[selectedTheme]) {
+                // Include locale in cache key to ensure correct language names
+                const cacheKey = `${selectedTheme}-${currentLocale}`;
+                if (!allImagesCache[cacheKey]) {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">${getTranslation('crossword.msg.loading', currentLocale) || 'Loading...'}</p>`;
                     const response = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to load theme: ${selectedTheme}`);
                     const themeData = await response.json();
-                    allImagesCache[selectedTheme] = themeData.images || themeData; // Handle both new and old API formats
+                    allImagesCache[cacheKey] = themeData.images || themeData; // Handle both new and old API formats
                 }
-                const source = allImagesCache[selectedTheme] || [];
+                const source = allImagesCache[cacheKey] || [];
                 imagesToDisplay = query ? source.filter(img => {
                     const displayName = (img.name || img.word).toLowerCase();
                     return displayName.includes(query);
@@ -1370,7 +1491,9 @@ document.addEventListener("DOMContentLoaded", function() {
         let sourceImages = [];
         const selectedWorksheetTheme = worksheetThemeSelect.value;
         if (selectedWorksheetTheme) {
-            if (!allImagesCache[selectedWorksheetTheme]) {
+            // Include locale in cache key to ensure correct language names
+            const cacheKey = `${selectedWorksheetTheme}-${currentLocale}`;
+            if (!allImagesCache[cacheKey]) {
                 try {
                     // If "All Themes" is selected, load animals theme as default
                     const themeToLoad = selectedWorksheetTheme === 'all' ? 'animals' : selectedWorksheetTheme;
@@ -1378,13 +1501,13 @@ document.addEventListener("DOMContentLoaded", function() {
                     const response = await fetch(`/api/images?theme=${encodeURIComponent(themeToLoad)}&locale=${currentLocale}`);
                     if (!response.ok) throw new Error(`Failed to load theme: ${themeToLoad}`);
                     const data = await response.json();
-                    allImagesCache[selectedWorksheetTheme] = data.images || data;
+                    allImagesCache[cacheKey] = data.images || data;
                 } catch (error) {
                     showMessage(error.message, 'error');
                     return null;
                 }
             }
-            const themeImages = allImagesCache[selectedWorksheetTheme] || [];
+            const themeImages = allImagesCache[cacheKey] || [];
             if (themeImages.length < PUZZLE_IMAGE_COUNT) {
                 showMessage(formatTranslation('crossword.msg.theme.insufficient', {theme: selectedWorksheetTheme, count: PUZZLE_IMAGE_COUNT}, currentLocale), 'error');
                 return null;
@@ -1462,11 +1585,117 @@ document.addEventListener("DOMContentLoaded", function() {
         answerKeyCanvas.renderAll();
     }
 
+    function createHeaderGroup(canvas) {
+        if (!showHeaderCheckbox.checked) return null;
+
+        const title = headerTitleInput.value || 'Picture Crossword';
+        const description = headerDescriptionInput.value || 'Look at the pictures and fill in the crossword!';
+
+        const canvasWidth = canvas.width;
+        const headerHeight = 100;
+        const objects = [];
+
+        // Simple elegant rounded rectangle background
+        const bgRect = new fabric.Rect({
+            left: 20,
+            top: 10,
+            width: canvasWidth - 40,
+            height: 90,
+            fill: new fabric.Gradient({
+                type: 'linear',
+                coords: { x1: 0, y1: 0, x2: 0, y2: 90 },
+                colorStops: [
+                    { offset: 0, color: '#FFEEF8' },
+                    { offset: 1, color: '#FFE4F1' }
+                ]
+            }),
+            rx: 20,
+            ry: 20,
+            selectable: true,
+            hasControls: true,
+            isHeaderBg: true
+        });
+        objects.push(bgRect);
+
+        // Title text - beautiful, clean typography
+        const titleText = new fabric.IText(title, {
+            left: canvasWidth / 2,
+            top: 28,
+            fontSize: 36,
+            fontFamily: 'Fredoka, Baloo 2, sans-serif',
+            fontWeight: 'bold',
+            fill: '#FF1493',
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'top',
+            selectable: true,
+            editable: true,
+            hasControls: true,
+            hasBorders: true,
+            isHeaderTitle: true
+        });
+        objects.push(titleText);
+
+        // Description text
+        const descText = new fabric.IText(description, {
+            left: canvasWidth / 2,
+            top: 70,
+            fontSize: 15,
+            fontFamily: 'Quicksand, sans-serif',
+            fontWeight: '500',
+            fill: '#666',
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'top',
+            selectable: true,
+            editable: true,
+            hasControls: true,
+            hasBorders: true,
+            isHeaderDesc: true
+        });
+        objects.push(descText);
+
+        // Minimal star decorations
+        const star1 = new fabric.Text('⭐', {
+            left: canvasWidth / 2 - 200,
+            top: 30,
+            fontSize: 28,
+            selectable: true,
+            hasControls: true,
+            isHeaderDecor: true
+        });
+        objects.push(star1);
+
+        const star2 = new fabric.Text('⭐', {
+            left: canvasWidth / 2 + 200,
+            top: 30,
+            fontSize: 28,
+            selectable: true,
+            hasControls: true,
+            isHeaderDecor: true
+        });
+        objects.push(star2);
+
+        return objects;
+    }
+
     async function renderCanvasContent(canvas, showAnswers, oldTransforms = {}) {
         const isAnswerKey = showAnswers;
-        
+
+        // Add header first
+        const headerObjects = createHeaderGroup(canvas);
+        const headerHeight = headerObjects ? 100 : 0;
+
+        if (headerObjects) {
+            const itemTag = isAnswerKey ? 'isAnswerKeyItem' : 'isGeneratedItem';
+            headerObjects.forEach((obj, index) => {
+                obj.set({ [itemTag]: true, originalIndex: `header_${index}` });
+                canvas.add(obj);
+            });
+        }
+
         // Create grid first to get its dimensions
-        const gridGroup = await createGridGroup(showAnswers);
+        const gridGroup = await createGridGroup(showAnswers, headerHeight);
         if (gridGroup) {
             const itemTag = isAnswerKey ? 'isAnswerKeyItem' : 'isGeneratedItem';
             gridGroup.set({ [itemTag]: true, originalIndex: 'grid' });
@@ -1672,7 +1901,7 @@ document.addEventListener("DOMContentLoaded", function() {
         activeCanvas.renderAll();
     }
 
-    async function createGridGroup(showAnswers) {
+    async function createGridGroup(showAnswers, headerHeight = 0) {
         const N = 15;
         const canvasWidth = currentCanvasConfig.width;
         const canvasHeight = currentCanvasConfig.height;
@@ -1794,9 +2023,10 @@ document.addEventListener("DOMContentLoaded", function() {
             transparentCorners: false
         });
         
-        // Center the grid on canvas
+        // Center the grid on canvas (accounting for header)
         const gridX = (canvasWidth - actualGridWidth) / 2;
-        const gridY = (canvasHeight - actualGridHeight) / 2;
+        const availableHeight = canvasHeight - headerHeight;
+        const gridY = headerHeight + (availableHeight - actualGridHeight) / 2;
         group.set({ left: gridX, top: gridY });
         
         // Store grid dimensions for clue layout
@@ -1994,6 +2224,11 @@ document.addEventListener("DOMContentLoaded", function() {
         backgroundOpacitySlider.disabled = true;
         borderOpacitySlider.value = 1;
         borderOpacitySlider.disabled = true;
+
+        // Reset header to defaults
+        showHeaderCheckbox.checked = true;
+        headerTitleInput.value = 'Picture Crossword';
+        headerDescriptionInput.value = 'Look at the pictures and fill in the crossword!';
 
         renderSelectedImages(); renderDictionary(); renderUploadedImages();
         searchInput.value = "";

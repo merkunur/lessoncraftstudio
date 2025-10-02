@@ -367,7 +367,7 @@
         <div class="accordion-item">
             <button class="accordion-button active" data-translate="languageSettings">Language Settings</button>
             <div class="accordion-content active">
-                <label for="languageSelect" data-translate="language">Language:</label>
+                <label for="languageSelect" data-translate="imageLibraryLanguage">Image Library Language:</label>
                 <select id="languageSelect">
                     <option value="en">English</option>
                     <option value="de">Deutsch</option>
@@ -540,29 +540,31 @@
 </div>
 
 <script>
-// Set currentLocale globally BEFORE DOMContentLoaded
-let currentLocale = 'en';
+// Set locales globally BEFORE DOMContentLoaded
+// uiLocale = Interface language (from main app's language selector in header)
+// currentLocale = Content language for image library (from sidebar selector)
 const urlParams = new URLSearchParams(window.location.search);
-if (urlParams.get('locale')) {
-    currentLocale = urlParams.get('locale');
-}
-// CRITICAL: Set BOTH uiLocale and currentLocale like wordsearch.html does!
-window.uiLocale = currentLocale;      // UI locale for interface translations
-window.currentLocale = currentLocale;  // Content locale for BulletproofLoader
-console.log('Global uiLocale and currentLocale set to:', currentLocale);
+
+// UI locale comes from the main app (via URL parameter)
+let uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
+
+// Content locale can be different (initially same as UI for simplicity)
+let currentLocale = urlParams.get('content') || uiLocale;
+
+window.uiLocale = uiLocale;
+window.currentLocale = currentLocale;
 
         // ==========================================
         // TRANSLATION SYSTEM
         // ==========================================
 
-        // Global translation function
+        // Global translation function (uses uiLocale for UI translations)
         function t(key) {
             if (typeof translations === 'undefined') {
                 console.warn('Translations not loaded, returning key:', key);
                 return key;
             }
-            const locale = window.currentLocale || 'en';
-            const translation = (translations[locale] && translations[locale][key]) ||
+            const translation = (translations[uiLocale] && translations[uiLocale][key]) ||
                                (translations.en && translations.en[key]) ||
                                key;
             return translation;
@@ -749,26 +751,30 @@ document.addEventListener("DOMContentLoaded", function() {
 
         handleSelectionCleared();
 
-        // Set language selector value and add change handler
+        // Initialize image library language selector (sidebar)
+        // This selector ONLY changes the image library language, NOT the UI language
         if (languageSelect && currentLocale) {
             languageSelect.value = currentLocale;
         }
-        
+
         if (languageSelect) {
-            languageSelect.addEventListener('change', (e) => {
+            languageSelect.addEventListener('change', async (e) => {
                 const newLocale = e.target.value;
+                console.log('Image library language changed to:', newLocale);
+
+                // Update global content locale (for image library only)
                 currentLocale = newLocale;
                 window.currentLocale = newLocale;
 
-                // Re-apply translations to UI
-                if (typeof initializeTranslations !== 'undefined') {
-                    initializeTranslations();
-                }
+                // DO NOT call initializeTranslations() - UI language is controlled by header selector
 
-                // Then reload with new locale
-                const url = new URL(window.location.href);
+                // Update URL without reloading
+                const url = new URL(window.location);
                 url.searchParams.set('locale', newLocale);
-                window.location.href = url.toString();
+                window.history.replaceState({}, '', url);
+
+                // Reload themes and images with new locale
+                loadThemes();
             });
         }
         

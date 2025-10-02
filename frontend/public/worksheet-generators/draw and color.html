@@ -592,7 +592,7 @@
         </div>
         <div style="padding: 10px 25px; border-bottom: 1px solid var(--app-border-dark);">
             <div class="language-selector" style="margin-bottom: 10px;">
-                <label data-translate="language.label" style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Language:</label>
+                <label data-translate="imageLibraryLanguage" style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Image Library Language:</label>
                 <select id="languageSelect" style="width: 100%; padding: 6px; background: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); border: 1px solid var(--app-border-dark); border-radius: 5px; font-size: 13px;">
                     <option value="en" data-translate="language.english">English</option>
                     <option value="de" data-translate="language.german">Deutsch</option>
@@ -813,27 +813,32 @@
 
 <script>
 // MUST BE FIRST - Before ANY DOM element references
-let currentLocale = 'en';
-let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
-
-// Initialize locale from URL if present
+// Set locales globally BEFORE DOMContentLoaded (critical for enhancement scripts)
+// uiLocale = Interface language (from main app's language selector in header)
+// currentLocale = Content language for image library (from sidebar selector)
 const urlParams = new URLSearchParams(window.location.search);
-const localeParam = urlParams.get('locale');
-if (localeParam) {
-    currentLocale = localeParam;
-}
 
-// Set currentLocale globally BEFORE DOMContentLoaded (critical for enhancement scripts)
+// UI locale comes from the main app (via URL parameter)
+window.uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
+
+// Content locale can be different (initially same as UI for simplicity)
+let currentLocale = urlParams.get('content') || window.uiLocale;
 window.currentLocale = currentLocale;
 
-// Translation function
+console.log('Global uiLocale set to:', window.uiLocale);
+console.log('Global currentLocale set to:', currentLocale);
+
+let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
+
+// Translation function (uses uiLocale for UI translations)
 function t(key) {
     if (typeof translations === 'undefined' && typeof DRAW_COLOR_TRANSLATIONS === 'undefined') {
         console.warn('Translations not loaded, returning key:', key);
         return key;
     }
+    const locale = window.uiLocale || 'en';  // Use uiLocale for UI translations
     const translationSource = window.translations || window.DRAW_COLOR_TRANSLATIONS;
-    const translation = (translationSource[currentLocale] && translationSource[currentLocale][key]) ||
+    const translation = (translationSource[locale] && translationSource[locale][key]) ||
                        (translationSource.en && translationSource.en[key]) ||
                        key;
     return translation;
@@ -2398,18 +2403,20 @@ async function downloadPDF() {
         languageSelect.value = currentLocale;
     }
 
-    // Language change handler
+    // Language change handler (sidebar selector - ONLY changes image library language)
+    // This selector ONLY changes the image library language, NOT the UI language
     if (languageSelect) {
         languageSelect.addEventListener('change', function() {
-            currentLocale = this.value;
+            const newLocale = this.value;
+            currentLocale = newLocale;
             window.currentLocale = currentLocale;
+            console.log('Image library language changed to:', currentLocale);
 
-            // Update all translations
-            updateTranslations();
-            
+            // DO NOT call updateTranslations() - UI language is controlled by header selector
+
             // Reload themes with new locale
             loadThemes();
-            
+
             // Reload current theme images if a theme is selected
             if (themeSelect.value && themeSelect.value !== 'all') {
                 loadDictionary();
@@ -2428,6 +2435,76 @@ async function downloadPDF() {
         });
     }
 
+    // Generate initial worksheet with default settings
+    async function generateInitialWorksheet() {
+        try {
+            // Wait for themes to be loaded by polling
+            let attempts = 0;
+            const maxAttempts = 50;
+            while (themeSelect.options.length === 0 && attempts < maxAttempts) {
+                await new Promise(resolve => setTimeout(resolve, 100));
+                attempts++;
+            }
+
+            if (themeSelect.options.length === 0) {
+                console.error('Failed to load themes for initial worksheet generation');
+                return;
+            }
+
+            // Try to use 'coloring' theme, otherwise use a default theme
+            let themeToUse = 'coloring';
+            const themeExists = Array.from(themeSelect.options).some(opt => opt.value === themeToUse);
+
+            if (!themeExists) {
+                // Fallback to first non-'all' theme (usually 'animals')
+                const firstTheme = Array.from(themeSelect.options).find(opt => opt.value !== 'all');
+                if (firstTheme) {
+                    themeToUse = firstTheme.value;
+                }
+            }
+
+            // Set theme and load dictionary
+            themeSelect.value = themeToUse;
+            await loadDictionary();
+
+            // Wait for images to load
+            attempts = 0;
+            while (currentThemeImages.length === 0 && attempts < maxAttempts) {
+                await new Promise(resolve => setTimeout(resolve, 100));
+                attempts++;
+            }
+
+            if (currentThemeImages.length === 0) {
+                console.error('No images loaded for initial worksheet generation');
+                return;
+            }
+
+            // Select a random image from the theme
+            const randomIndex = Math.floor(Math.random() * currentThemeImages.length);
+            const randomImage = currentThemeImages[randomIndex];
+            selectedImage = { word: randomImage.name || randomImage.word, path: randomImage.path };
+            renderSelectedPreview();
+            renderDictionary(); // Re-render to show selected image
+
+            // Set page size to Letter portrait
+            pageSizeSelect.value = '612x792';
+            const [w, h] = pageSizeSelect.value.split('x').map(Number);
+            updateCanvasDisplayDimensions(w, h);
+
+            // Set grid parameters
+            rowsInput.value = 5;
+            colsInput.value = 5;
+            document.getElementById('cluePercent').value = 25;
+
+            // Trigger worksheet generation
+            generateBtn.click();
+
+            console.log('Initial worksheet generated successfully');
+        } catch (error) {
+            console.error('Error generating initial worksheet:', error);
+        }
+    }
+
     // Final initializations
     loadThemes();
 
@@ -2439,16 +2516,22 @@ async function downloadPDF() {
         }).then(() => {
             console.log('BulletproofLoader initialized successfully');
             // BulletproofLoader handles theme loading, no need for manual loading
+            // Generate initial worksheet after BulletproofLoader initialization
+            generateInitialWorksheet();
         }).catch(error => {
             console.error('BulletproofLoader init failed:', error);
             // Fallback to manual loading only on error
             loadBorderThemes();
             loadBackgroundThemes();
+            // Still generate initial worksheet even if BulletproofLoader fails
+            generateInitialWorksheet();
         });
     } else {
         // Fallback if BulletproofLoader not available
         loadBorderThemes();
         loadBackgroundThemes();
+        // Generate initial worksheet in fallback scenario
+        generateInitialWorksheet();
     }
 
     renderSelectedPreview();

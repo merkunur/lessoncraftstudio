@@ -775,6 +775,9 @@
                     <option value="no" data-translate="language.norwegian">Norsk</option>
                     <option value="fi" data-translate="language.finnish">Suomi</option>
                 </select>
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="moreless.language.description">
+                    Selects the language for image library content only. UI language is controlled by the main language selector in the header.
+                </p>
             </div>
         </div>
 
@@ -1016,12 +1019,16 @@
   <div id="exportArea"></div>
 
   <script>
-    // Set currentLocale globally BEFORE DOMContentLoaded (critical for enhancement scripts)
-    let currentLocale = 'en';
+    // Separate UI locale (from URL) and content locale (from sidebar selector)
+    let uiLocale = 'en';  // UI language (for interface translations) - from URL parameter
+    let currentLocale = 'en';  // Content language (for image library) - can be changed by sidebar selector
     const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get('locale')) {
-        currentLocale = urlParams.get('locale');
+    const localeParam = urlParams.get('locale');
+    if (localeParam) {
+        uiLocale = localeParam;  // UI language comes from URL (parent app header)
+        currentLocale = localeParam;  // Initial content language matches UI language
     }
+    window.uiLocale = uiLocale;
     window.currentLocale = currentLocale;
 
     document.addEventListener("DOMContentLoaded", function() {
@@ -1036,31 +1043,116 @@
       const DEFAULT_MAX_SELECTED_IMAGES = 5;
       const downloadMultiplier = 6;
       
-      // Language support (currentLocale already set globally)
+      // Language support (locales already set globally)
       const languageSelect = document.getElementById('languageSelect');
 
-      // Initialize locale from URL (urlParams already declared globally)
-      const localeParam = urlParams.get('locale');
-      if (localeParam && languageSelect) {
-        languageSelect.value = localeParam;
-        currentLocale = localeParam;
+      // Initialize sidebar selector from current content locale
+      if (languageSelect) {
+        languageSelect.value = currentLocale;
       }
-      
+
       // Store reference to functions that will be defined later
       let loadThemesFunc = null;
       let renderDictionaryFunc = null;
       let generateWorksheetFunc = null;
       let worksheetCanvasRef = null;
-      
-      // Language change handler
-      if (languageSelect) {
-        languageSelect.addEventListener('change', function() {
-          const newLocale = this.value;
-          // Update URL and reload page (like Addition app does)
-          const url = new URL(window.location.href);
-          url.searchParams.set('locale', newLocale);
-          window.location.href = url.toString();
-        });
+
+      // --- INITIAL WORKSHEET GENERATION ---
+      async function generateInitialWorksheet() {
+          try {
+              console.log('Starting initial worksheet generation...');
+
+              // Wait for themes to load with polling
+              let attempts = 0;
+              const maxAttempts = 50; // 5 seconds max wait time
+
+              while (themeWorksheetSelect.options.length <= 1 && attempts < maxAttempts) {
+                  await new Promise(resolve => setTimeout(resolve, 100));
+                  attempts++;
+              }
+
+              if (themeWorksheetSelect.options.length <= 1) {
+                  console.error('Themes failed to load in time');
+                  return;
+              }
+
+              // Set page size to Letter portrait (612x792)
+              pageSizeSelect.value = '612x792';
+              const [width, height] = pageSizeSelect.value.split('x').map(Number);
+              currentCanvasConfig.width = width;
+              currentCanvasConfig.height = height;
+
+              worksheetCanvas.setDimensions({ width, height });
+              answerKeyCanvas.setDimensions({ width, height });
+              updateCanvasDisplayDimensions(width, height, false);
+
+              // Set Number of Exercises to 8
+              problemCountInput.value = 8;
+
+              // Select "Theme for Worksheet" mode
+              imageSelectionModeRadios[1].checked = true; // theme mode
+              imageSelectionModeRadios[1].dispatchEvent(new Event('change'));
+
+              // Set animals theme
+              themeWorksheetSelect.value = 'animals';
+
+              // Set All Comparison Types (>, <, =) - all checkboxes checked
+              relationCheckboxes.forEach(cb => cb.checked = true);
+
+              // Set Show Exercise Numbers
+              includeExerciseNumbersCheckbox.checked = true;
+
+              // Set Illustrations (symbol_display_type = 'image')
+              symbolDisplayTypeRadios[0].checked = true; // 'image' mode
+
+              // Give a small delay before generating
+              await new Promise(resolve => setTimeout(resolve, 200));
+
+              // Generate the worksheet
+              await generateWorksheetFunc();
+
+              console.log('Initial worksheet generated successfully');
+          } catch (error) {
+              console.error('Error generating initial worksheet:', error);
+          }
+      }
+
+      // Initialize UnifiedLanguageManager for content language (image library)
+      if (typeof window.UnifiedLanguageManager !== 'undefined') {
+          window.languageManager = window.UnifiedLanguageManager;
+
+          // Register callback to reload image library when content language changes
+          window.languageManager.onLanguageChange(function(newLocale, oldLocale) {
+              console.log('[More Less] Content language changed from', oldLocale, 'to', newLocale);
+              currentLocale = newLocale;
+              window.currentLocale = newLocale;
+
+              // Reload image themes and library for the new content language
+              if (loadThemesFunc) {
+                  loadThemesFunc();
+              }
+              if (renderDictionaryFunc) {
+                  renderDictionaryFunc();
+              }
+          });
+      } else {
+          // Fallback mode with direct event handler (backward compatibility)
+          console.warn('[More Less] UnifiedLanguageManager not found, using fallback mode');
+          if (languageSelect) {
+              languageSelect.addEventListener('change', function() {
+                  const newLocale = this.value;
+                  currentLocale = newLocale;
+                  window.currentLocale = newLocale;
+
+                  // Reload image themes and library
+                  if (loadThemesFunc) {
+                      loadThemesFunc();
+                  }
+                  if (renderDictionaryFunc) {
+                      renderDictionaryFunc();
+                  }
+              });
+          }
       }
       
       // Translation function
@@ -1069,7 +1161,8 @@
           console.warn('[More Less] Translations not loaded, returning key:', key);
           return key;
         }
-        const locale = window.currentLocale || 'en';
+        // Use uiLocale for UI translations, fallback to currentLocale, then to English
+        const locale = window.uiLocale || window.currentLocale || 'en';
         const translation = (translations[locale] && translations[locale][key]) ||
                            (translations.en && translations.en[key]) ||
                            key;
@@ -1083,7 +1176,8 @@
           return;
         }
 
-        console.log('[More Less] Applying translations for locale:', window.currentLocale);
+        console.log('[More Less] Applying UI translations for locale:', window.uiLocale || window.currentLocale);
+        console.log('[More Less] Content locale:', window.currentLocale);
 
         // Translate elements with data-translate attribute
         document.querySelectorAll('[data-translate]').forEach(el => {
@@ -2852,6 +2946,9 @@ async function downloadPDF(canvasToExport, filename) {
         loadBorderThemes();
         loadBackgroundThemes();
     }
+
+    // Generate initial worksheet after a delay to allow UI initialization
+    setTimeout(() => generateInitialWorksheet(), 1000);
     });
   </script>
 </body>

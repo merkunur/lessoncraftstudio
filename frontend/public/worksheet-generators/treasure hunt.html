@@ -314,6 +314,9 @@
                     <option value="no" data-translate="lang.no">Norsk (Norwegian)</option>
                     <option value="fi" data-translate="lang.fi">Suomi (Finnish)</option>
                 </select>
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="treasure.hunt.language.description">
+                    Selects the language for image library content only. UI language is controlled by the main language selector in the header.
+                </p>
             </div>
         </div>
 
@@ -481,13 +484,19 @@
   <div id="exportArea"></div>
 
   <script>
-    // Set locale BEFORE DOMContentLoaded (critical for BulletproofLoader)
-    let currentLocale = 'en';
+    // Set locale variables BEFORE DOMContentLoaded (critical for BulletproofLoader)
+    let uiLocale = 'en';  // UI language (for interface translations) - from URL parameter
+    let currentLocale = 'en';  // Content language (for image library) - can be changed by sidebar selector
     const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get('locale')) {
-        currentLocale = urlParams.get('locale');
+    const localeParam = urlParams.get('locale');
+    if (localeParam) {
+        uiLocale = localeParam;  // UI language comes from URL (parent app header)
+        currentLocale = localeParam;  // Initial content language matches UI language
     }
+    window.uiLocale = uiLocale;
     window.currentLocale = currentLocale;
+    console.log('[Treasure Hunt] UI locale set to:', uiLocale);
+    console.log('[Treasure Hunt] Content locale set to:', currentLocale);
 
     // Translation helper functions
     function t(key) {
@@ -495,7 +504,8 @@
             console.warn('translations not loaded, returning key:', key);
             return key;
         }
-        const locale = window.currentLocale || 'en';
+        // Use uiLocale for UI translations, fallback to currentLocale, then to English
+        const locale = window.uiLocale || window.currentLocale || 'en';
         const translation = (translations[locale] && translations[locale][key]) ||
                            (translations.en && translations.en[key]) ||
                            key;
@@ -1904,24 +1914,46 @@
           }
       });
       
-      // Initialize language from URL if provided
-      const urlParams = new URLSearchParams(window.location.search);
-      const localeParam = urlParams.get('locale');
-      if (localeParam && languageSelect) {
-          languageSelect.value = localeParam;
-          currentLocale = localeParam;
-      } else if (languageSelect && languageSelect.value) {
-          currentLocale = languageSelect.value;
-      }
-      
-      // Language change handler - reload page with new locale
+      // Initialize language selector with current content locale
       if (languageSelect) {
-          languageSelect.addEventListener('change', function(e) {
-              const newLocale = e.target.value;
-              const url = new URL(window.location.href);
-              url.searchParams.set('locale', newLocale);
-              window.location.href = url.toString();
+          languageSelect.value = currentLocale;
+      }
+
+      // Language change handler - UnifiedLanguageManager integration
+      // Use UnifiedLanguageManager if available
+      if (typeof window.UnifiedLanguageManager !== 'undefined') {
+          window.languageManager = window.UnifiedLanguageManager;
+
+          window.languageManager.onLanguageChange(function(newLocale, oldLocale) {
+              console.log('[Treasure Hunt] Content language changed from', oldLocale, 'to', newLocale);
+              currentLocale = newLocale;
+              window.currentLocale = newLocale;
+
+              // Reload image library with new locale
+              loadThemes().then(() => {
+                  if (themeSelect.value && themeSelect.value !== 'all') {
+                      renderDictionary();
+                  }
+              });
           });
+      } else {
+          console.warn('[Treasure Hunt] UnifiedLanguageManager not found, using fallback mode');
+          // Fallback: direct event listener
+          if (languageSelect) {
+              languageSelect.addEventListener('change', function(e) {
+                  const newLocale = e.target.value;
+                  console.log('[Treasure Hunt] Content language changed to', newLocale);
+                  currentLocale = newLocale;
+                  window.currentLocale = newLocale;
+
+                  // Reload image library with new locale
+                  loadThemes().then(() => {
+                      if (themeSelect.value && themeSelect.value !== 'all') {
+                          renderDictionary();
+                      }
+                  });
+              });
+          }
       }
       
       loadThemes();
@@ -1946,8 +1978,56 @@
 
       renderSelectedImages();
       handleSelectionCleared(null, getActiveCanvas());
+
+      async function generateInitialWorksheet() {
+          try {
+              console.log('Starting initial worksheet generation...');
+
+              // Wait for themes to load
+              let attempts = 0;
+              const maxAttempts = 50;
+              while (worksheetThemeSelect.options.length <= 1 && attempts < maxAttempts) {
+                  await new Promise(resolve => setTimeout(resolve, 100));
+                  attempts++;
+              }
+
+              if (worksheetThemeSelect.options.length <= 1) {
+                  console.error('Themes failed to load');
+                  return;
+              }
+
+              // Set page size to Letter portrait (612x792)
+              pageSizeSelect.value = '612x792';
+              const [width, height] = pageSizeSelect.value.split('x').map(Number);
+              currentCanvasConfig.width = width;
+              currentCanvasConfig.height = height;
+              worksheetCanvas.setDimensions({ width, height });
+              answerKeyCanvas.setDimensions({ width, height });
+              updateCanvasDisplayDimensions(width, height, false);
+
+              // Set Animals theme
+              worksheetThemeSelect.value = 'animals';
+              worksheetThemeSelect.dispatchEvent(new Event('change'));
+
+              // Wait for setup to complete
+              await new Promise(resolve => setTimeout(resolve, 200));
+
+              // Generate puzzle data and render worksheet
+              lastGeneratedData = await generatePuzzleData();
+
+              if(lastGeneratedData) {
+                  await renderWorksheet();
+                  generateAnswerKeyBtn.disabled = false;
+                  console.log('Initial worksheet generated successfully');
+              }
+          } catch (error) {
+              console.error('Error generating initial worksheet:', error);
+          }
+      }
+
+      setTimeout(() => generateInitialWorksheet(), 1500);
     });
-  
+
     // Check if user is on free tier
     function isFreeTier() {
         const urlParams = new URLSearchParams(window.location.search);

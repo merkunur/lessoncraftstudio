@@ -873,10 +873,16 @@
                         borderSelect: ui.borderThemeSelect,
                         backgroundSelect: ui.backgroundThemeSelect
                     });
+
+                    // Generate initial default worksheet after everything is loaded
+                    await generateInitialWorksheet();
                 } else {
                     // Fallback if BulletproofLoader not available
                     loadBorderThemes();
                     loadBackgroundThemes();
+
+                    // Still try to generate initial worksheet
+                    generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
                 }
             })();
             updateSelectedImagesUI();
@@ -1873,6 +1879,55 @@
             newItems.forEach(item => canvas.add(item));
             userAddedObjects.forEach(obj => canvas.add(obj).bringToFront());
             canvas.renderAll();
+        }
+
+        // --- Initial Worksheet Generation ---
+        async function generateInitialWorksheet() {
+            try {
+                // Wait for themes to be loaded
+                await new Promise(resolve => {
+                    const checkThemes = () => {
+                        if (ui.themeSelect && ui.themeSelect.options.length > 1) {
+                            resolve();
+                        } else {
+                            setTimeout(checkThemes, 100);
+                        }
+                    };
+                    checkThemes();
+                });
+
+                // Add a small delay to ensure everything is fully initialized
+                await new Promise(resolve => setTimeout(resolve, 200));
+
+                // Set default values: Animals theme, Letter portrait, 6 puzzles, Easy (1/2), Uppercase, Color Coded, Include numbers
+                ui.themeSelect.value = 'animals';
+                ui.pageSizeSelect.value = '612x792'; // Letter portrait
+                ui.puzzleCount.value = 6;
+
+                // Set difficulty to Easy (1/2) - value="2"
+                document.querySelector('input[name="difficulty"][value="2"]').checked = true;
+
+                // Set letter case to Uppercase
+                document.querySelector('input[name="letterCase"][value="upper"]').checked = true;
+
+                // Set letter color to Color Coded (Vowel/Consonant)
+                document.querySelector('input[name="letterColor"][value="color"]').checked = true;
+
+                // Include exercise numbers
+                ui.includeExerciseNumbers.checked = true;
+
+                // Apply page size
+                handlePageSizeChange();
+
+                // Load theme images by calling loadDictionary
+                await loadDictionary();
+
+                // Generate worksheet
+                await generateWorksheet();
+
+            } catch (error) {
+                console.error('Error generating initial worksheet:', error);
+            }
         }
 
         // --- Asset Management (Borders/Backgrounds) ---

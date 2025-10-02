@@ -273,8 +273,8 @@
     "copyright": "© 2024 LessonCraftStudio. Alle rettigheder forbeholdes."
   },
   "pricing": {
-    "heroTitle": "Enkle priser der passer til dit behov",
-    "heroSubtitle": "Vælg den pakke der passer bedst til dine kreative undervisningsmaterialer - fra gratis start til professionel løsning",
+    "heroTitle": "Simpelt. Transparent. Retfærdigt.",
+    "heroSubtitle": "Vælg den pakke der passer til dig",
     "billingToggle": {
       "monthly": "Månedlig",
       "yearly": "Årlig",
@@ -292,14 +292,14 @@
         "name": "Gratis",
         "price": "$0",
         "period": "",
-        "description": "Perfekt til at prøve vores værktøjer",
+        "description": "Perfekt til at lære platformen at kende",
         "features": {
           "0": "Ordsøgningsgenerator (med vandmærke)",
-          "1": "Diskret vandmærke på dokumenter",
-          "2": "Begrænset billedbibliotek",
+          "1": "Diskret vandmærke på arbejdsark",
+          "2": "Basis billedbibliotek",
           "3": "Standard skabeloner",
           "4": "Community support",
-          "5": "Kun til personlig brug"
+          "5": "Kun personlig brug"
         },
         "limitations": {
           "0": "Vandmærke på alle arbejdsark",
@@ -312,22 +312,22 @@
         "cta": "Start gratis"
       },
       "core": {
-        "name": "Kernepakke",
+        "name": "Standard",
         "price": "$15",
         "period": "/måned",
         "yearlyPrice": "$144",
-        "description": "De mest populære værktøjer for professionelle lærere",
+        "description": "Alt du behøver for at lave fantastiske arbejdsark",
         "features": {
-          "0": "10 mest populære generatorer",
-          "1": "Ingen vandmærker",
-          "2": "Komplet billedbibliotek (100+ temaer)",
+          "0": "De 10 mest brugte generatorer",
+          "1": "Uden vandmærke",
+          "2": "Komplet billedbibliotek (over 100 temaer)",
           "3": "Alle premium skabeloner",
           "4": "POD kommerciel licens",
           "5": "Email support",
-          "6": "Eksport til PDF og JPEG i høj kvalitet"
+          "6": "Eksporter til PDF og JPEG i høj kvalitet"
         },
         "apps": {
-          "0": "10 mest populære generatorer:",
+          "0": "De 10 mest populære generatorer:",
           "1": "Billedaddition",
           "2": "Alfabettog",
           "3": "Malebøger",
@@ -339,24 +339,24 @@
           "9": "Billedbingo",
           "10": "Sudoku for børn"
         },
-        "cta": "7 dages gratis prøveperiode"
+        "cta": "Kom i gang nu"
       },
       "full": {
-        "name": "Fuld Adgang",
+        "name": "Premium",
         "price": "$25",
         "period": "/måned",
         "yearlyPrice": "$240",
-        "description": "Den komplette løsning for seriøse undervisere",
+        "description": "Fuld adgang til alle generatorer og funktioner",
         "features": {
-          "0": "Alle 33 arbejdsarkgeneratorer",
-          "1": "Alt fra Kernepakken plus 23 ekstra",
+          "0": "Alle 33 generatorer tilgængelige",
+          "1": "Alt fra Standard inkluderet",
           "2": "Prioriteret email support",
           "3": "Tidlig adgang til nye funktioner",
           "4": "Avancerede tilpasningsmuligheder",
-          "5": "Regelmæssige opdateringer og nye funktioner"
+          "5": "Løbende opdateringer"
         },
         "apps": {
-          "0": "Alle Kernepakke-generatorer plus:",
+          "0": "Alle Standard-generatorer plus:",
           "1": "Stor eller lille",
           "2": "Diagrammer tæl og farv",
           "3": "Kodeaddition",
@@ -380,21 +380,21 @@
           "21": "Gæt ordet",
           "22": "Skriveøvelser"
         },
-        "cta": "7 dages gratis prøveperiode",
+        "cta": "Kom i gang nu",
         "popular": "MEST POPULÆR"
       }
     },
     "comparison": {
-      "title": "Sammenlign vores pakker i detaljer",
+      "title": "Sammenlign pakkerne i detaljer",
       "features": "Funktioner",
       "numberOfApps": "Antal generatorer",
       "watermark": "Uden vandmærke",
       "commercialLicense": "Kommerciel licens",
-      "imageLibrarySize": "Billedbiblioteksstørrelse",
+      "imageLibrarySize": "Billedbibliotek",
       "imageLibrary": {
         "free": "Begrænset (10 temaer)",
-        "core": "Komplet (100+ temaer)",
-        "full": "Komplet (100+ temaer)"
+        "core": "Komplet (over 100 temaer)",
+        "full": "Komplet (over 100 temaer)"
       },
       "support": "Support",
       "supportTypes": {
@@ -402,7 +402,7 @@
         "core": "Email",
         "full": "Prioriteret email"
       },
-      "earlyAccess": "Tidlig adgang til nye funktioner"
+      "earlyAccess": "Tidlig adgang"
     },
     "faq": {
       "title": "Ofte stillede spørgsmål",
@@ -420,12 +420,12 @@
           "answer": "Ja, du kan opgradere eller nedgradere når som helst. Ved opgradering betaler du kun differencen. Ved nedgradering træder ændringen i kraft ved næste faktureringscyklus."
         },
         {
-          "question": "Er der en gratis prøveperiode?",
-          "answer": "Ja! Både Kernepakken og Fuld Adgang tilbyder 7 dages gratis prøveperiode. Du kan teste alle funktioner uden forpligtelse før du beslutter dig."
+          "question": "Kan jeg prøve før jeg køber?",
+          "answer": "Selvfølgelig! Vores Gratis-pakke giver dig adgang til ordsøgningsgeneratoren så du kan prøve platformen. Det er den bedste måde at se kvaliteten af vores værktøjer på, før du opgraderer til en betalt pakke."
         },
         {
           "question": "Hvilke betalingsmetoder accepterer I?",
-          "answer": "Vi accepterer alle større kreditkort (Visa, Mastercard, American Express) samt PayPal. Betalinger er sikret gennem Stripe."
+          "answer": "Vi accepterer alle større kreditkort (Visa, Mastercard, American Express). Betalinger er sikret gennem Stripe."
         },
         {
           "question": "Kan jeg lave arbejdsark på andre sprog?",
@@ -434,8 +434,8 @@
       ]
     },
     "cta": {
-      "title": "Klar til at skabe fantastiske undervisningsmaterialer?",
-      "subtitle": "Slut dig til tusindvis af lærere der sparer tid og engagerer deres elever",
+      "title": "Klar til at lave fantastiske arbejdsark?",
+      "subtitle": "Bliv en del af tusindvis af lærere der sparer tid og engagerer deres elever",
       "button": "Start gratis",
       "disclaimer": "Intet kreditkort påkrævet • Opsig når som helst"
     }
@@ -806,90 +806,90 @@
   },
   "dashboard": {
     "header": {
-      "welcome": "Velkommen tilbage, {name}!",
+      "welcome": "Dejligt at se dig igen, {name}!",
       "welcomeFallback": "Velkommen tilbage!",
       "subtitle": "Lad os skabe noget fantastisk i dag",
       "signOut": "Log ud"
     },
     "stats": {
-      "worksheetsCreated": "Opgavearks oprettet",
+      "worksheetsCreated": "Opgaveark oprettet",
       "totalThisMonth": "I alt denne måned",
       "appsAvailable": "Tilgængelige apps",
-      "inYourPlan": "I din pakke",
-      "currentPlan": "Nuværende pakke",
-      "yourMembership": "Dit medlemskab"
+      "inYourPlan": "Inkluderet i din pakke",
+      "currentPlan": "Din nuværende pakke",
+      "yourMembership": "Dit abonnement"
     },
     "tierNames": {
       "free": "Gratis",
-      "core": "Basis",
-      "full": "Pro"
+      "core": "Standard",
+      "full": "Premium"
     },
     "generators": {
       "title": "Opgavearksgeneratorer",
-      "searchPlaceholder": "Søg generatorer...",
+      "searchPlaceholder": "Søg efter generator...",
       "filterLabel": "Alle kategorier",
       "categoryAll": "Alle kategorier",
       "open": "Åbn →",
       "noResults": "Ingen generatorer fundet",
-      "tryAdjusting": "Prøv at justere din søgning eller filtre"
+      "tryAdjusting": "Prøv andre søgeord eller juster filtrene"
     },
     "subscription": {
-      "title": "Abonnement",
+      "title": "Mit abonnement",
       "currentPlan": "Nuværende pakke",
       "free": "Gratis",
       "perMonth": "/måned",
-      "renewsOn": "Fornyes den",
-      "cancelsOn": "Ophører den",
-      "whatsIncluded": "Hvad er inkluderet:",
-      "upgradePlan": "Opgrader pakke",
-      "manageBilling": "Administrer fakturering",
+      "renewsOn": "Fornyes",
+      "cancelsOn": "Udløber",
+      "whatsIncluded": "Dette er inkluderet:",
+      "upgradePlan": "Skift pakke",
+      "manageBilling": "Administrer betalinger",
       "loading": "Indlæser...",
-      "cancelWarning": "⚠️ Dit abonnement ophører den {date}"
+      "cancelWarning": "⚠️ Dit abonnement udløber den {date}"
     },
     "activity": {
       "title": "Din aktivitet",
-      "worksheetsCreated": "Opgavearks oprettet",
+      "worksheetsCreated": "Opgaveark oprettet",
       "downloads": "Downloads",
       "generatorsUsed": "Brugte generatorer",
       "thisWeek": "+3 denne uge",
       "thisMonth": "Denne måned",
-      "uniqueApps": "Unikke apps",
+      "uniqueApps": "Forskellige apps",
       "unlimited": "Ubegrænset",
-      "trackingNote": "📊 Din aktivitet spores for at hjælpe dig med at holde dig inden for dine pakkegrænser"
+      "trackingNote": "📊 Vi følger din aktivitet, så du får mest muligt ud af din pakke"
     },
     "paymentHistory": {
       "title": "Betalingshistorik",
-      "noPayments": "Ingen betalingshistorik endnu",
-      "noPaymentsSubtext": "Dine betalinger vil blive vist her efter du abonnerer",
+      "noPayments": "Ingen betalinger registreret endnu",
+      "noPaymentsSubtext": "Dine betalinger vises her, når du tegner et abonnement",
       "viewAll": "Se alle betalinger →",
       "downloadInvoice": "Download faktura",
-      "succeeded": "lykkedes",
+      "succeeded": "gennemført",
       "failed": "mislykkedes",
-      "pending": "afventende"
+      "pending": "afventer"
     },
     "tiers": {
       "free": {
-        "description": "Kom i gang med ordsøgsgeneratoren",
+        "description": "Perfekt til at afprøve platformen",
         "features": [
-          "Kun ordsøgsgenerator",
-          "Ubegrænset arbejdsarkgenerering",
-          "Downloads med vandmærke"
+          "Ordsøgsgenerator",
+          "Ubegrænset antal opgaveark",
+          "Med vandmærke"
         ]
       },
       "core": {
-        "description": "Perfekt til regelmæssig klassebrug",
+        "description": "Ideel til daglig brug i klasselokalet",
         "features": [
-          "Adgang til 10 populære arbejdsarkgeneratorer",
-          "Ubegrænset arbejdsarkgenerering",
-          "Ingen vandmærker"
+          "De 10 mest populære generatorer",
+          "Ubegrænset antal opgaveark",
+          "Uden vandmærke"
         ]
       },
       "full": {
-        "description": "Fuld adgang til avancerede brugere",
+        "description": "Den komplette løsning til professionelle",
         "features": [
-          "Adgang til alle 33 arbejdsarkgeneratorer",
-          "Ubegrænset arbejdsarkgenerering",
-          "Ingen vandmærker"
+          "Alle 33 generatorer",
+          "Ubegrænset antal opgaveark",
+          "Uden vandmærke"
         ]
       }
     },

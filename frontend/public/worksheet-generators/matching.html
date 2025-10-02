@@ -444,23 +444,30 @@
     }
     </style>
     <script>
-        // Set currentLocale globally BEFORE any scripts initialize
-        if (!window.currentLocale) {
-            let currentLocale = 'en';
+        // Set locales globally BEFORE any scripts initialize
+        // uiLocale = Interface language (from main app's language selector in header)
+        // currentLocale = Content language for image library (from sidebar selector)
+        if (!window.uiLocale || !window.currentLocale) {
             const urlParams = new URLSearchParams(window.location.search);
-            if (urlParams.get('locale')) {
-                currentLocale = urlParams.get('locale');
-            }
+
+            // UI locale comes from the main app (via URL parameter)
+            let uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
+
+            // Content locale can be different (initially same as UI for simplicity)
+            let currentLocale = urlParams.get('content') || uiLocale;
+
+            window.uiLocale = uiLocale;
             window.currentLocale = currentLocale;
+            console.log('Global uiLocale set to:', uiLocale);
+            console.log('Global currentLocale set to:', currentLocale);
         }
 
-        // Define t() function for translations
+        // Define t() function for translations (uses uiLocale for UI translations)
         function t(key) {
             if (typeof translations === 'undefined') {
                 return key;
             }
-            const locale = window.currentLocale || 'en';
-            return (translations[locale] && translations[locale][key]) ||
+            return (translations[window.uiLocale] && translations[window.uiLocale][key]) ||
                    (translations.en && translations.en[key]) ||
                    key;
         }
@@ -475,7 +482,7 @@
                 <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
             </div>
             <div class="language-selector" style="padding: 10px 25px; border-bottom: 1px solid var(--app-border-dark);">
-                <label data-translate="language" style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Language:</label>
+                <label data-translate="imageLibraryLanguage" style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Image Library Language:</label>
                 <select id="languageSelect" style="width: 100%; padding: 8px 10px; font-size: 13px; border-radius: 5px; border: 1px solid var(--app-border-dark); background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); margin-top: 6px;">
                     <option value="en">English</option>
                     <option value="de">Deutsch (German)</option>
@@ -1849,7 +1856,52 @@
             downloadAkPdfBtn.disabled = false;
             document.querySelector('.tab-button[data-tab="akTab"]').click();
         };
-        
+
+        // --- Initial Worksheet Generation ---
+        const generateInitialWorksheet = async () => {
+            try {
+                // Wait for themes to be loaded
+                await new Promise(resolve => {
+                    const checkThemes = () => {
+                        if (letterThemeEl && letterThemeEl.options.length > 1) {
+                            resolve();
+                        } else {
+                            setTimeout(checkThemes, 100);
+                        }
+                    };
+                    checkThemes();
+                });
+
+                // Add a small delay to ensure everything is fully initialized
+                await new Promise(resolve => setTimeout(resolve, 300));
+
+                // Set default values: Animals theme, Letter portrait, Include numbers, Show bullets, 6 pairs, Image-Letter mode, Random from theme
+                letterThemeEl.value = 'animals';
+                pageSizeSelect.value = '612x792'; // Letter portrait
+                includeExerciseNumbers.checked = true;
+                bulletsEl.checked = true;
+                countEl.value = '6';
+                modeEl.value = 'letter';
+
+                // Set letterType to randomTheme
+                letterType = 'randomTheme';
+                document.querySelector('input[name="letterType"][value="randomTheme"]').checked = true;
+
+                // Apply page size
+                const [w, h] = pageSizeSelect.value.split('x').map(Number);
+                updateCanvasDisplayDimensions(w, h);
+
+                // Update UI to reflect the mode
+                updateUI();
+
+                // Generate worksheet
+                await generateWorksheet();
+
+            } catch (error) {
+                console.error('Error generating initial worksheet:', error);
+            }
+        };
+
         const createFabricObject = async (item) => {
             let obj;
 
@@ -2191,7 +2243,8 @@
             }
         };
 
-        // Add language handler after DOM elements defined
+        // Initialize image library language selector (sidebar)
+        // This selector ONLY changes the image library language, NOT the UI language
         const languageSelect = document.getElementById('languageSelect');
         if (languageSelect) {
             languageSelect.value = currentLocale;
@@ -2204,12 +2257,11 @@
             languageSelect.addEventListener('change', async function() {
                 currentLocale = this.value;
                 window.currentLocale = this.value; // Update global locale
-                if (typeof applyTranslations === 'function') {
-                    applyTranslations();
-                }
-                if (typeof applyPlaceholderTranslations === 'function') {
-                    applyPlaceholderTranslations();
-                }
+                console.log('Image library language changed to:', currentLocale);
+
+                // DO NOT call applyTranslations() or applyPlaceholderTranslations()
+                // UI language is controlled by header selector
+
                 await loadThemes(); // Reload themes with translations
 
                 // Reload border and background themes with new locale
@@ -2222,7 +2274,7 @@
                     await loadBorderThemes();
                     await loadBackgroundThemes();
                 }
-                
+
                 // Reload current theme images with new locale
                 const selectedTheme = dictTheme.value;
                 if (selectedTheme && selectedTheme !== 'all') {
@@ -2233,7 +2285,7 @@
                     // Clear current theme images for "all" selection
                     currentThemeImages = [];
                 }
-                
+
                 // Always re-render dictionary to update displayed names
                 await renderDictionary();
             });
@@ -2294,11 +2346,17 @@
                 // Check what was actually loaded
                 console.log('Border options after BulletproofLoader:', borderThemeSelect.innerHTML);
                 console.log('Background options after BulletproofLoader:', backgroundThemeSelect.innerHTML);
+
+                // Generate initial default worksheet after everything is loaded
+                await generateInitialWorksheet();
             } else {
                 console.log('BulletproofLoader not available, using fallback');
                 // Fallback if BulletproofLoader not available
                 await loadBorderThemes();
                 await loadBackgroundThemes();
+
+                // Still try to generate initial worksheet
+                generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
             }
             
             modeEl.onchange = updateUI;

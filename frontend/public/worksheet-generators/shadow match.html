@@ -747,8 +747,8 @@
                     <option value="no" data-translate="language.norwegian.full">Norsk (Norwegian)</option>
                     <option value="fi" data-translate="language.finnish.full">Suomi (Finnish)</option>
                 </select>
-                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="shadow.match.language.info">
-                    Image names and themes will be displayed in the selected language.
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="shadow.match.language.description">
+                    Selects the language for image library content only. UI language is controlled by the main language selector in the header.
                 </p>
             </div>
         </div>
@@ -950,13 +950,18 @@
 
   <script>
     // MUST BE GLOBAL - Set before anything else
-    let currentLocale = 'en';
+    let uiLocale = 'en';  // UI language (for interface translations) - from URL parameter
+    let currentLocale = 'en';  // Content language (for image library) - can be changed by sidebar selector
     const urlParams = new URLSearchParams(window.location.search);
     const localeParam = urlParams.get('locale');
     if (localeParam) {
-        currentLocale = localeParam;
+        uiLocale = localeParam;  // UI language comes from URL (parent app header)
+        currentLocale = localeParam;  // Initial content language matches UI language
     }
+    window.uiLocale = uiLocale;
     window.currentLocale = currentLocale;
+    console.log('[Shadow Match] UI locale set to:', uiLocale);
+    console.log('[Shadow Match] Content locale set to:', currentLocale);
 
     // Translation function with parameter substitution
     function t(key, params = {}) {
@@ -964,7 +969,8 @@
         console.warn('Translations not loaded:', key);
         return key;
       }
-      const locale = window.currentLocale || 'en';
+      // Use uiLocale for UI translations, fallback to currentLocale, then to English
+      const locale = window.uiLocale || window.currentLocale || 'en';
       let text = translations[locale]?.[key] || translations.en?.[key] || key;
 
       // Replace parameters like {count}, {SELECT_COUNT}, etc.
@@ -2579,34 +2585,42 @@ async function downloadPDF(canvasToExport) {
       setupGlobalKeydownListener();
       updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
       
-      // CRITICAL: Initialize language FIRST before any API calls
-      const urlParams = new URLSearchParams(window.location.search);
-      const localeParam = urlParams.get('locale');
-      if (localeParam && languageSelect) {
-          languageSelect.value = localeParam;
-          currentLocale = localeParam;
-          console.log('Initialized locale from URL:', currentLocale);
-      } else if (languageSelect && languageSelect.value) {
-          // Use the selected value in the dropdown if no URL param
-          currentLocale = languageSelect.value;
-          console.log('Initialized locale from dropdown:', currentLocale);
-      }
-      
-      // Language change handler
+      // Initialize language selector with current content locale
       if (languageSelect) {
-          languageSelect.addEventListener('change', function(e) {
-              currentLocale = e.target.value;
-              window.currentLocale = currentLocale;
-              applyTranslations();
+          languageSelect.value = currentLocale;
+      }
+
+      // Language change handler - UnifiedLanguageManager integration
+      // Use UnifiedLanguageManager if available
+      if (typeof window.UnifiedLanguageManager !== 'undefined') {
+          window.languageManager = window.UnifiedLanguageManager;
+
+          window.languageManager.onLanguageChange(function(newLocale, oldLocale) {
+              console.log('[Shadow Match] Content language changed from', oldLocale, 'to', newLocale);
+              currentLocale = newLocale;
+              window.currentLocale = newLocale;
+
               // Reload themes and images with new language
               if (themeSelect.value && themeSelect.value !== 'all') {
                   loadImages(themeSelect.value);
               }
-              // Update URL to persist language selection
-              const url = new URL(window.location.href);
-              url.searchParams.set('locale', currentLocale);
-              window.history.replaceState({}, '', url.toString());
           });
+      } else {
+          console.warn('[Shadow Match] UnifiedLanguageManager not found, using fallback mode');
+          // Fallback: direct event listener
+          if (languageSelect) {
+              languageSelect.addEventListener('change', function(e) {
+                  const newLocale = e.target.value;
+                  console.log('[Shadow Match] Content language changed to', newLocale);
+                  currentLocale = newLocale;
+                  window.currentLocale = newLocale;
+
+                  // Reload themes and images with new language
+                  if (themeSelect.value && themeSelect.value !== 'all') {
+                      loadImages(themeSelect.value);
+                  }
+              });
+          }
       }
 
       // Initialize translations
@@ -2622,7 +2636,7 @@ async function downloadPDF(canvasToExport) {
 
       // Initialize BulletproofLoader after everything is set up
       if (window.BulletproofLoader) {
-          BulletproofLoader.init({
+          window.BulletproofLoader.init({
               borderSelect: borderThemeSelect,
               backgroundSelect: backgroundThemeSelect
           }).then(() => {
@@ -2631,6 +2645,60 @@ async function downloadPDF(canvasToExport) {
               console.error('Failed to initialize BulletproofLoader:', error);
           });
       }
+
+      async function generateInitialWorksheet() {
+          try {
+              console.log('Starting initial worksheet generation...');
+
+              // Wait for themes to load
+              let attempts = 0;
+              const maxAttempts = 50;
+              while (themeSelect.options.length <= 1 && attempts < maxAttempts) {
+                  await new Promise(resolve => setTimeout(resolve, 100));
+                  attempts++;
+              }
+
+              if (themeSelect.options.length <= 1) {
+                  console.error('Themes failed to load');
+                  return;
+              }
+
+              // Set page size to Letter landscape (792x612)
+              pageSizeSelect.value = '792x612';
+              const [width, height] = pageSizeSelect.value.split('x').map(Number);
+              currentCanvasConfig.width = width;
+              currentCanvasConfig.height = height;
+              worksheetCanvas.setDimensions({ width, height });
+              answerKeyCanvas.setDimensions({ width, height });
+              updateCanvasDisplayDimensions(width, height, false);
+
+              // Set Animals theme and wait for images to load
+              themeSelect.value = 'animals';
+              console.log('Loading animals theme...');
+              await loadDictionary(); // Wait for images to be loaded
+              console.log('Images loaded, allImages length:', allImages.length);
+
+              // Enable show labels checkbox
+              showLabelsCheckbox.checked = true;
+
+              // Check if we have images
+              if (allImages.length === 0) {
+                  console.error('No images loaded from animals theme');
+                  return;
+              }
+
+              // Generate worksheet
+              console.log('Generating worksheet...');
+              await generateWorksheet();
+
+              console.log('Initial worksheet generated successfully');
+          } catch (error) {
+              console.error('Error generating initial worksheet:', error);
+              console.error('Error stack:', error.stack);
+          }
+      }
+
+      setTimeout(() => generateInitialWorksheet(), 2000);
     });
   </script>
 </body>

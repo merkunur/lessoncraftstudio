@@ -415,6 +415,9 @@
                     <option value="no" data-translate="lang.no">Norsk (Norwegian)</option>
                     <option value="fi" data-translate="lang.fi">Suomi (Finnish)</option>
                 </select>
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="word.guess.language.description">
+                    Selects the content language. UI language is controlled by the main language selector in the header.
+                </p>
             </div>
         </div>
 
@@ -628,13 +631,19 @@
   </div>
 
   <script>
-    // Set locale BEFORE DOMContentLoaded (critical for BulletproofLoader)
-    let currentLocale = 'en';
+    // Set locale variables BEFORE DOMContentLoaded (critical for BulletproofLoader)
+    let uiLocale = 'en';  // UI language (for interface translations) - from URL parameter
+    let currentLocale = 'en';  // Content language - can be changed by sidebar selector
     const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get('locale')) {
-        currentLocale = urlParams.get('locale');
+    const localeParam = urlParams.get('locale');
+    if (localeParam) {
+        uiLocale = localeParam;  // UI language comes from URL (parent app header)
+        currentLocale = localeParam;  // Initial content language matches UI language
     }
+    window.uiLocale = uiLocale;
     window.currentLocale = currentLocale;
+    console.log('[Word Guess] UI locale set to:', uiLocale);
+    console.log('[Word Guess] Content locale set to:', currentLocale);
   </script>
 
   <script>
@@ -732,7 +741,8 @@
                 console.warn('translations not loaded, returning key:', key);
                 return key;
             }
-            const locale = window.currentLocale || 'en';
+            // Use uiLocale for UI translations, fallback to currentLocale, then to English
+            const locale = window.uiLocale || window.currentLocale || 'en';
             const translation = (translations[locale] && translations[locale][key]) ||
                                (translations.en && translations.en[key]) ||
                                key;
@@ -2249,28 +2259,96 @@ async function downloadPDF(canvasToExport, fileName = 'download') {
             }
         }
 
-        // --- Initialize language from URL if provided ---
-        const urlParams = new URLSearchParams(window.location.search);
-        const localeParam = urlParams.get('locale');
-        if (localeParam && ui.languageSelect) {
-            ui.languageSelect.value = localeParam;
-            currentLocale = localeParam;
-        } else if (ui.languageSelect && ui.languageSelect.value) {
-            currentLocale = ui.languageSelect.value;
-        }
-        
-        // Language change handler - reload page with new locale
+        // --- Initialize language selector with current content locale ---
         if (ui.languageSelect) {
-            ui.languageSelect.addEventListener('change', function(e) {
-                const newLocale = e.target.value;
-                const url = new URL(window.location.href);
-                url.searchParams.set('locale', newLocale);
-                window.location.href = url.toString();
+            ui.languageSelect.value = currentLocale;
+        }
+
+        // Language change handler - UnifiedLanguageManager integration
+        // Use UnifiedLanguageManager if available
+        if (typeof window.UnifiedLanguageManager !== 'undefined') {
+            window.languageManager = window.UnifiedLanguageManager;
+
+            window.languageManager.onLanguageChange(function(newLocale, oldLocale) {
+                console.log('[Word Guess] Content language changed from', oldLocale, 'to', newLocale);
+                currentLocale = newLocale;
+                window.currentLocale = newLocale;
+                // Note: Word Guess app has no image library to reload
+                // Content language change is stored for potential future use
             });
+        } else {
+            console.warn('[Word Guess] UnifiedLanguageManager not found, using fallback mode');
+            // Fallback: direct event listener
+            if (ui.languageSelect) {
+                ui.languageSelect.addEventListener('change', function(e) {
+                    const newLocale = e.target.value;
+                    console.log('[Word Guess] Content language changed to', newLocale);
+                    currentLocale = newLocale;
+                    window.currentLocale = newLocale;
+                    // Note: Word Guess app has no image library to reload
+                    // Content language change is stored for potential future use
+                });
+            }
         }
         
         // --- Start the App ---
         initializeApp();
+
+        async function generateInitialWorksheet() {
+            try {
+                console.log('Starting initial worksheet generation...');
+
+                // Wait for themes to load
+                let attempts = 0;
+                const maxAttempts = 50;
+                while (ui.themeSelect.options.length <= 1 && attempts < maxAttempts) {
+                    await new Promise(resolve => setTimeout(resolve, 100));
+                    attempts++;
+                }
+
+                if (ui.themeSelect.options.length <= 1) {
+                    console.error('Themes failed to load');
+                    return;
+                }
+
+                // Set page size to Letter portrait (612x792)
+                ui.pageSizeSelect.value = '612x792';
+                const [width, height] = ui.pageSizeSelect.value.split('x').map(Number);
+                currentCanvasConfig.width = width;
+                currentCanvasConfig.height = height;
+                worksheetCanvas.setDimensions({ width, height });
+                answerKeyCanvas.setDimensions({ width, height });
+                updateCanvasDisplayDimensions(width, height, false);
+
+                // Set Animals theme
+                ui.themeSelect.value = 'animals';
+                await loadDictionary();
+
+                // Set number of puzzles to 10
+                ui.puzzleCount.value = 10;
+
+                // Set difficulty to Easy (1/2)
+                document.querySelector('input[name="difficulty"][value="2"]').checked = true;
+
+                // Set letter case to Uppercase (already default, but ensure it)
+                document.querySelector('input[name="letterCase"][value="upper"]').checked = true;
+
+                // Enable Include Exercise Numbers
+                ui.includeExerciseNumbers.checked = true;
+
+                // Wait for setup to complete
+                await new Promise(resolve => setTimeout(resolve, 200));
+
+                // Generate worksheet
+                await generateWorksheet();
+
+                console.log('Initial worksheet generated successfully');
+            } catch (error) {
+                console.error('Error generating initial worksheet:', error);
+            }
+        }
+
+        setTimeout(() => generateInitialWorksheet(), 1500);
     });
   </script>
 </body>

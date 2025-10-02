@@ -154,12 +154,16 @@ export default function SubscriptionOverview() {
         <div className="pt-4 border-t">
           <p className="text-sm font-medium text-gray-900 mb-2">{t('whatsIncluded')}</p>
           <ul className="space-y-2">
-            {(tTiers.raw(`${tier.toLowerCase()}.features`) as string[]).slice(0, 3).map((feature, idx) => (
-              <li key={idx} className="flex items-start text-sm text-gray-600">
-                <CheckCircle className="h-4 w-4 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-                {feature}
-              </li>
-            ))}
+            {(() => {
+              const features = tTiers.raw(`${tier.toLowerCase()}.features`);
+              const featureArray = Array.isArray(features) ? features : [];
+              return featureArray.slice(0, 3).map((feature, idx) => (
+                <li key={idx} className="flex items-start text-sm text-gray-600">
+                  <CheckCircle className="h-4 w-4 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
+                  {feature}
+                </li>
+              ));
+            })()}
           </ul>
         </div>
 

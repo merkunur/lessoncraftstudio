@@ -9,14 +9,20 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 
-  <!-- Set global locale BEFORE loading enhancement scripts -->
+  <!-- Set global locales BEFORE loading enhancement scripts -->
+  <!-- uiLocale = Interface language (from main app's language selector in header) -->
+  <!-- currentLocale = Content language for image library (from sidebar selector) -->
   <script>
-      window.currentLocale = 'en';
       const urlParams = new URLSearchParams(window.location.search);
-      const localeParam = urlParams.get('locale');
-      if (localeParam) {
-          window.currentLocale = localeParam;
-      }
+
+      // UI locale comes from the main app (via URL parameter)
+      window.uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
+
+      // Content locale can be different (initially same as UI for simplicity)
+      window.currentLocale = urlParams.get('content') || window.uiLocale;
+
+      console.log('Global uiLocale set to:', window.uiLocale);
+      console.log('Global currentLocale set to:', window.currentLocale);
   </script>
 
   <!-- Enhancement Scripts -->
@@ -33,10 +39,10 @@
           }
       }, 100);
 
-      // Define the global translation function t()
+      // Define the global translation function t() (uses uiLocale for UI translations)
       function t(key) {
-          // Always use window.currentLocale, not a local variable
-          const locale = window.currentLocale || 'en';
+          // Use uiLocale for UI translations, not currentLocale
+          const locale = window.uiLocale || 'en';
 
           if (typeof window.PICTURE_BINGO_TRANSLATIONS === 'undefined') {
               console.warn('Translations not loaded yet for key:', key, 'locale:', locale);
@@ -217,7 +223,7 @@
         <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
       </div>
       <div class="language-selector" style="padding: 10px 25px; border-bottom: 1px solid var(--app-border-dark);">
-        <label style="color: var(--app-text-secondary-dark-theme); font-size: 13px;" data-translate="language">Language:</label>
+        <label style="color: var(--app-text-secondary-dark-theme); font-size: 13px;" data-translate="imageLibraryLanguage">Image Library Language:</label>
         <select id="languageSelect" style="width: 100%; padding: 8px 10px; font-size: 13px; border-radius: 5px; border: 1px solid var(--app-border-dark); background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); margin-top: 6px;">
             <option value="en" data-translate="lang_en">English</option>
             <option value="de" data-translate="lang_de">Deutsch (German)</option>
@@ -449,8 +455,9 @@
     // Don't redeclare it - use the existing window.currentLocale
 
     // Define updateTranslations in global scope BEFORE DOMContentLoaded
+    // Uses uiLocale for UI translations
     window.updateTranslations = function() {
-        console.log('updateTranslations called. Locale:', window.currentLocale);
+        console.log('updateTranslations called. UI Locale:', window.uiLocale, 'Content Locale:', window.currentLocale);
         console.log('window.PICTURE_BINGO_TRANSLATIONS available:', typeof window.PICTURE_BINGO_TRANSLATIONS !== 'undefined');
 
         if (typeof window.PICTURE_BINGO_TRANSLATIONS === 'undefined') {
@@ -462,7 +469,7 @@
         let updateCount = 0;
         document.querySelectorAll('[data-translate]').forEach(element => {
             const key = element.getAttribute('data-translate');
-            const locale = window.currentLocale || 'en';
+            const locale = window.uiLocale || 'en';  // Use uiLocale for UI translations
 
             // Get translation directly from PICTURE_BINGO_TRANSLATIONS
             const translation = (window.PICTURE_BINGO_TRANSLATIONS[locale] && window.PICTURE_BINGO_TRANSLATIONS[locale][key]) ||
@@ -542,15 +549,17 @@
           }
       }
 
+      // Initialize image library language selector (sidebar)
+      // This selector ONLY changes the image library language, NOT the UI language
       if (languageSelect) {
           languageSelect.value = window.currentLocale;
           languageSelect.addEventListener('change', async function() {
               window.currentLocale = this.value;
+              console.log('Image library language changed to:', window.currentLocale);
 
-              // Always update translations when language changes
-              window.updateTranslations();
+              // DO NOT call window.updateTranslations() - UI language is controlled by header selector
 
-              // Update dropdown translations
+              // Update dropdown translations (for border/background "None" options using content locale)
               updateDropdownTranslations();
 
               // Use UnifiedLanguageManager if available
@@ -564,13 +573,7 @@
                       loadDictionary(); // Reload images with new locale
                   }
               } else {
-                  // Fallback to traditional translation
-                  // Update translations with fallback method
-                  window.updateTranslations();
-
-                  if (typeof translatePage === 'function') {
-                      translatePage();
-                  }
+                  // Fallback: reload content only, not UI translations
                   loadThemes();
                   loadAssetThemes('borders', borderThemeSelect);
                   loadAssetThemes('backgrounds', backgroundThemeSelect);
@@ -1652,6 +1655,51 @@
       }
       // --- END: Main Bingo Generation Logic ---
 
+      // --- Initial Worksheet Generation ---
+      async function generateInitialWorksheet() {
+          try {
+              // Wait for themes to be loaded
+              await new Promise(resolve => {
+                  const checkThemes = () => {
+                      if (themeSelect && themeSelect.options.length > 1) {
+                          resolve();
+                      } else {
+                          setTimeout(checkThemes, 100);
+                      }
+                  };
+                  checkThemes();
+              });
+
+              // Add a small delay to ensure everything is fully initialized
+              await new Promise(resolve => setTimeout(resolve, 300));
+
+              // Set default values: Alphabet theme, Letter portrait, 4x4, 1 card, Image fill for both
+              themeSelect.value = 'alphabet';
+              pageSizeSelect.value = '612x792'; // Letter portrait
+              bingoRowsInput.value = 4;
+              bingoColsInput.value = 4;
+              bingoCardCountInput.value = 1;
+              cardFillSelect.value = 'image';
+              chipFillSelect.value = 'image';
+
+              // Apply page size
+              const [w, h] = pageSizeSelect.value.split('x').map(Number);
+              updateCanvasDisplayDimensions(w, h);
+
+              // Load theme images
+              await loadDictionary();
+
+              // Wait for images to load
+              await new Promise(resolve => setTimeout(resolve, 200));
+
+              // Generate worksheet
+              await generateWorksheet();
+
+          } catch (error) {
+              console.error('Error generating initial worksheet:', error);
+          }
+      }
+
       // --- START: Standard Download & Clear Functions ---
       function dataURLtoBlob(dataurl) {
         const arr = dataurl.split(','), mime = arr[0].match(/:(.*?);/)[1],
@@ -2053,10 +2101,16 @@
                   backgroundSelect: backgroundThemeSelect,
                   locale: window.currentLocale
               });
+
+              // Generate initial default worksheet after everything is loaded
+              await generateInitialWorksheet();
           } else {
               // Fallback to regular loading
               loadAssetThemes('borders', borderThemeSelect);
               loadAssetThemes('backgrounds', backgroundThemeSelect);
+
+              // Still try to generate initial worksheet
+              generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
           }
       })();
 

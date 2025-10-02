@@ -55,6 +55,11 @@ const translations = {
 
         // Puzzle Configuration
         "puzzleConfiguration": "Puzzle Configuration",
+        "puzzle": "Puzzle",
+        "puzzleNumbering": "Puzzle Numbering",
+        "puzzleLabel": "Puzzle Label:",
+        "startingNumber": "Starting Number:",
+        "puzzleNumberingExample": "Example: \"Puzzle 1\", \"Problem 1\", \"Exercise 1\"",
         "difficultyLevel": "Difficulty Level:",
         "veryEasy": "Very Easy (2 Symbols)",
         "easy": "Easy (2 Symbols)",
@@ -229,6 +234,11 @@ const translations = {
 
         // Puzzle Configuration
         "puzzleConfiguration": "Puzzle-Konfiguration",
+        "puzzle": "Aufgabe",
+        "puzzleNumbering": "Puzzle-Nummerierung",
+        "puzzleLabel": "Puzzle-Bezeichnung:",
+        "startingNumber": "Startnummer:",
+        "puzzleNumberingExample": "Beispiel: \"Aufgabe 1\", \"Rätsel 1\", \"Übung 1\"",
         "difficultyLevel": "Schwierigkeitsgrad:",
         "veryEasy": "Sehr Einfach (2 Symbole)",
         "easy": "Einfach (2 Symbole)",
@@ -398,6 +408,11 @@ const translations = {
 
         // Puzzle Configuration
         "puzzleConfiguration": "Configuration du Puzzle",
+        "puzzle": "Puzzle",
+        "puzzleNumbering": "Numérotation des Puzzles",
+        "puzzleLabel": "Étiquette du Puzzle:",
+        "startingNumber": "Numéro de Départ:",
+        "puzzleNumberingExample": "Exemple: \"Puzzle 1\", \"Problème 1\", \"Exercice 1\"",
         "difficultyLevel": "Niveau de Difficulté:",
         "veryEasy": "Très Facile (2 Symboles)",
         "easy": "Facile (2 Symboles)",
@@ -573,6 +588,11 @@ const translations = {
 
         // Puzzle Configuration
         "puzzleConfiguration": "Configuración del Puzzle",
+        "puzzle": "Puzzle",
+        "puzzleNumbering": "Numeración de Puzzles",
+        "puzzleLabel": "Etiqueta del Puzzle:",
+        "startingNumber": "Número Inicial:",
+        "puzzleNumberingExample": "Ejemplo: \"Puzzle 1\", \"Problema 1\", \"Ejercicio 1\"",
         "difficultyLevel": "Nivel de Dificultad:",
         "veryEasy": "Muy Fácil (2 Símbolos)",
         "easy": "Fácil (2 Símbolos)",
@@ -742,6 +762,11 @@ const translations = {
 
         // Puzzle Configuration
         "puzzleConfiguration": "Configurazione Puzzle",
+        "puzzle": "Puzzle",
+        "puzzleNumbering": "Numerazione Puzzle",
+        "puzzleLabel": "Etichetta Puzzle:",
+        "startingNumber": "Numero Iniziale:",
+        "puzzleNumberingExample": "Esempio: \"Puzzle 1\", \"Problema 1\", \"Esercizio 1\"",
         "difficultyLevel": "Livello di Difficoltà:",
         "veryEasy": "Molto Facile (2 Simboli)",
         "easy": "Facile (2 Simboli)",
@@ -911,6 +936,11 @@ const translations = {
 
         // Puzzle Configuration
         "puzzleConfiguration": "Configuração do Puzzle",
+        "puzzle": "Puzzle",
+        "puzzleNumbering": "Numeração de Puzzles",
+        "puzzleLabel": "Etiqueta do Puzzle:",
+        "startingNumber": "Número Inicial:",
+        "puzzleNumberingExample": "Exemplo: \"Puzzle 1\", \"Problema 1\", \"Exercício 1\"",
         "difficultyLevel": "Nível de Dificuldade:",
         "veryEasy": "Muito Fácil (2 Símbolos)",
         "easy": "Fácil (2 Símbolos)",
@@ -1092,6 +1122,11 @@ const translations = {
 
         // Puzzle Configuration
         "puzzleConfiguration": "Puzzel Configuratie",
+        "puzzle": "Puzzel",
+        "puzzleNumbering": "Puzzel Nummering",
+        "puzzleLabel": "Puzzel Label:",
+        "startingNumber": "Startnummer:",
+        "puzzleNumberingExample": "Voorbeeld: \"Puzzel 1\", \"Probleem 1\", \"Oefening 1\"",
         "difficultyLevel": "Moeilijkheidsgraad:",
         "veryEasy": "Zeer Eenvoudig (2 Symbolen)",
         "easy": "Eenvoudig (2 Symbolen)",
@@ -1255,6 +1290,11 @@ const translations = {
 
         // Puzzle Configuration
         "puzzleConfiguration": "Pussel Konfiguration",
+        "puzzle": "Pussel",
+        "puzzleNumbering": "Pussel Numrering",
+        "puzzleLabel": "Pussel Etikett:",
+        "startingNumber": "Startnummer:",
+        "puzzleNumberingExample": "Exempel: \"Pussel 1\", \"Problem 1\", \"Övning 1\"",
         "difficultyLevel": "Svårighetsgrad:",
         "veryEasy": "Mycket Lätt (2 Symboler)",
         "easy": "Lätt (2 Symboler)",
@@ -1418,6 +1458,11 @@ const translations = {
 
         // Puzzle Configuration
         "puzzleConfiguration": "Puslespil Konfiguration",
+        "puzzle": "Puslespil",
+        "puzzleNumbering": "Puslespil Nummerering",
+        "puzzleLabel": "Puslespil Etiket:",
+        "startingNumber": "Startnummer:",
+        "puzzleNumberingExample": "Eksempel: \"Puslespil 1\", \"Problem 1\", \"Øvelse 1\"",
         "difficultyLevel": "Sværhedsgrad:",
         "veryEasy": "Meget Let (2 Symboler)",
         "easy": "Let (2 Symboler)",
@@ -1581,6 +1626,11 @@ const translations = {
 
         // Puzzle Configuration
         "puzzleConfiguration": "Puslespill Konfigurasjon",
+        "puzzle": "Puslespill",
+        "puzzleNumbering": "Puslespill Nummerering",
+        "puzzleLabel": "Puslespill Etikett:",
+        "startingNumber": "Startnummer:",
+        "puzzleNumberingExample": "Eksempel: \"Puslespill 1\", \"Problem 1\", \"Øvelse 1\"",
         "difficultyLevel": "Vanskelighetsgrad:",
         "veryEasy": "Veldig Lett (2 Symboler)",
         "easy": "Lett (2 Symboler)",
@@ -1744,6 +1794,11 @@ const translations = {
 
         // Puzzle Configuration
         "puzzleConfiguration": "Palapeli Konfigurointi",
+        "puzzle": "Palapeli",
+        "puzzleNumbering": "Palapeli Numerointi",
+        "puzzleLabel": "Palapeli Nimike:",
+        "startingNumber": "Aloitusnumero:",
+        "puzzleNumberingExample": "Esimerkki: \"Palapeli 1\", \"Ongelma 1\", \"Harjoitus 1\"",
         "difficultyLevel": "Vaikeustaso:",
         "veryEasy": "Erittäin Helppo (2 Symbolia)",
         "easy": "Helppo (2 Symbolia)",

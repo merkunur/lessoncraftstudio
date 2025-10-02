@@ -274,15 +274,15 @@
     "copyright": "© 2024 LessonCraftStudio. Alle Rechte vorbehalten."
   },
   "pricing": {
-    "heroTitle": "Faire Preise für Ihren Erfolg",
-    "heroSubtitle": "Wählen Sie das perfekte Paket für Ihre kreativen Unterrichtsmaterialien – vom kostenlosen Start bis zur Profi-Ausstattung",
+    "heroTitle": "Einfach. Transparent. Fair.",
+    "heroSubtitle": "Wähle das passende Paket für deine Unterrichtsmaterialien – von kostenlos bis Premium",
     "billingToggle": {
       "monthly": "Monatlich",
       "yearly": "Jährlich",
       "yearlyDiscount": "20% sparen"
     },
     "labels": {
-      "whatsIncluded": "Was ist enthalten:",
+      "whatsIncluded": "Das ist drin:",
       "limitations": "Einschränkungen:",
       "appsIncluded": "Verfügbare Generatoren:",
       "orYearly": "oder",
@@ -293,42 +293,42 @@
         "name": "Kostenlos",
         "price": "$0",
         "period": "",
-        "description": "Perfekt zum Ausprobieren und Kennenlernen",
+        "description": "Ideal zum Ausprobieren",
         "features": {
-          "0": "Wortsuche-Generator (mit Wasserzeichen)",
-          "1": "Dezentes Wasserzeichen auf Ausgaben",
-          "2": "Zugriff auf Basis-Bildauswahl",
-          "3": "Standard-Vorlagen inklusive",
-          "4": "Community-Forum für Hilfe",
-          "5": "Für den persönlichen Gebrauch"
+          "0": "Wortsuche-Generator",
+          "1": "Unbegrenzt Arbeitsblätter erstellen",
+          "2": "Mit Wasserzeichen",
+          "3": "Basis-Bildauswahl",
+          "4": "Community-Support",
+          "5": "Nur für private Nutzung"
         },
         "limitations": {
-          "0": "Wasserzeichen auf Arbeitsblättern",
-          "1": "Nur für private Nutzung",
-          "2": "Basis-Anpassungen möglich"
+          "0": "Mit Wasserzeichen",
+          "1": "Nur private Nutzung",
+          "2": "Basis-Anpassungen"
         },
         "apps": {
-          "0": "Wortsuche-Generator (mit Wasserzeichen)"
+          "0": "Wortsuche-Generator"
         },
-        "cta": "Kostenlos beginnen"
+        "cta": "Kostenlos starten"
       },
       "core": {
-        "name": "Basis-Paket",
+        "name": "Basis",
         "price": "$15",
         "period": "/Monat",
         "yearlyPrice": "$144",
-        "description": "Die beliebtesten Tools für professionelle Arbeitsblätter",
+        "description": "Perfekt für den Alltag im Klassenzimmer",
         "features": {
-          "0": "10 Top-Generatoren für jeden Bedarf",
-          "1": "Komplett ohne Wasserzeichen",
-          "2": "Komplette Bildbibliothek (100+ Themen)",
-          "3": "Alle Premium-Vorlagen verfügbar",
-          "4": "Kommerzielle Nutzung erlaubt (POD)",
-          "5": "Persönlicher E-Mail-Support",
-          "6": "Export als PDF und JPEG in hoher Qualität"
+          "0": "Die 10 beliebtesten Generatoren",
+          "1": "Ohne Wasserzeichen",
+          "2": "Volle Bildbibliothek (100+ Themen)",
+          "3": "Alle Premium-Vorlagen",
+          "4": "Verkaufslizenz inklusive (POD)",
+          "5": "E-Mail-Support",
+          "6": "PDF & JPEG Export in Top-Qualität"
         },
         "apps": {
-          "0": "10 beliebteste Generatoren:",
+          "0": "Die 10 beliebtesten Generatoren:",
           "1": "Bilder-Addition",
           "2": "Alphabet-Zug",
           "3": "Ausmalbilder",
@@ -340,27 +340,27 @@
           "9": "Bilder-Bingo",
           "10": "Sudoku für Kinder"
         },
-        "cta": "7 Tage kostenlos testen"
+        "cta": "Jetzt starten"
       },
       "full": {
-        "name": "Vollzugriff",
+        "name": "Premium",
         "price": "$25",
         "period": "/Monat",
         "yearlyPrice": "$240",
-        "description": "Das Komplettpaket für Profis und Vielnutzer",
+        "description": "Die Komplettlösung für Profis",
         "features": {
-          "0": "Alle 33 Arbeitsblatt-Generatoren",
-          "1": "Alles aus dem Basis-Paket plus 23 weitere",
-          "2": "VIP-Support mit schneller Antwort",
-          "3": "Vorabzugang zu neuen Features",
-          "4": "Maximale Anpassungsfreiheit",
-          "5": "Regelmäßige Updates und neue Funktionen"
+          "0": "Alle 33 Generatoren",
+          "1": "Alles aus Basis plus 23 weitere",
+          "2": "Priority-Support",
+          "3": "Neue Features zuerst",
+          "4": "Maximale Anpassungsmöglichkeiten",
+          "5": "Regelmäßige Updates"
         },
         "apps": {
-          "0": "Alle Basis-Paket Generatoren plus:",
+          "0": "Alle Basis-Generatoren plus:",
           "1": "Groß oder Klein",
           "2": "Diagramme zählen & malen",
-          "3": "Code-Addition",
+          "3": "Code-Addition (Geheimschrift)",
           "4": "Zeichnen und Ausmalen",
           "5": "Gegenstände finden",
           "6": "Gitter-Zuordnung",
@@ -381,8 +381,8 @@
           "21": "Wörter raten",
           "22": "Schreibübungen"
         },
-        "cta": "7 Tage kostenlos testen",
-        "popular": "BESTSELLER"
+        "cta": "Jetzt starten",
+        "popular": "BELIEBTESTE WAHL"
       }
     },
     "comparison": {
@@ -409,36 +409,36 @@
       "title": "Häufig gestellte Fragen",
       "items": [
         {
-          "question": "Kann ich mein Abo jederzeit kündigen?",
-          "answer": "Ja, Sie können Ihr Abonnement jederzeit kündigen. Es läuft bis zum Ende des aktuellen Abrechnungszeitraums und wird dann automatisch beendet."
-        },
-        {
-          "question": "Was bedeutet POD-Kommerzlizenz?",
-          "answer": "POD steht für Print-on-Demand. Mit dieser Lizenz dürfen Sie die erstellten Arbeitsblätter kommerziell nutzen und auf Plattformen wie Teachers Pay Teachers oder Etsy verkaufen."
+          "question": "Kann ich vor dem Kauf testen?",
+          "answer": "Ja! Starte mit unserem kostenlosen Paket, das den Wortsuche-Generator mit Wasserzeichen enthält. Perfekt zum Kennenlernen der Plattform, bevor du auf ein bezahltes Paket upgradest."
         },
         {
           "question": "Kann ich zwischen den Paketen wechseln?",
-          "answer": "Natürlich! Sie können jederzeit upgraden oder downgraden. Beim Upgrade zahlen Sie nur die Differenz, beim Downgrade wird die Änderung zum nächsten Abrechnungszeitraum wirksam."
+          "answer": "Klar! Du kannst jederzeit upgraden oder downgraden. Beim Upgrade zahlst du nur die Differenz, beim Downgrade wird die Änderung zum nächsten Abrechnungszeitraum wirksam."
         },
         {
-          "question": "Gibt es eine kostenlose Testversion?",
-          "answer": "Ja, sowohl das Basis-Paket als auch der Vollzugriff bieten eine 7-tägige kostenlose Testphase. Sie können alle Funktionen uneingeschränkt testen, bevor Sie sich entscheiden."
+          "question": "Was bedeutet POD-Verkaufslizenz?",
+          "answer": "POD steht für Print-on-Demand. Mit dieser Lizenz darfst du die erstellten Arbeitsblätter kommerziell nutzen und auf Plattformen wie Teachers Pay Teachers oder Etsy verkaufen."
         },
         {
-          "question": "Welche Zahlungsmethoden werden akzeptiert?",
-          "answer": "Wir akzeptieren alle gängigen Kreditkarten (Visa, Mastercard, American Express) sowie PayPal. Die Zahlung erfolgt sicher über Stripe."
+          "question": "Welche Zahlungsmethoden akzeptiert ihr?",
+          "answer": "Wir akzeptieren alle gängigen Kreditkarten (Visa, Mastercard, American Express). Die Zahlung erfolgt sicher über Stripe."
         },
         {
-          "question": "Kann ich die Arbeitsblätter in anderen Sprachen erstellen?",
-          "answer": "Ja! Unsere Plattform unterstützt 11 Sprachen: Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch."
+          "question": "Kann ich mein Abo jederzeit kündigen?",
+          "answer": "Ja, du kannst dein Abonnement jederzeit kündigen. Es läuft bis zum Ende des aktuellen Abrechnungszeitraums und endet dann automatisch."
+        },
+        {
+          "question": "In welchen Sprachen kann ich Arbeitsblätter erstellen?",
+          "answer": "Unsere Plattform unterstützt 11 Sprachen: Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch."
         }
       ]
     },
     "cta": {
-      "title": "Bereit, großartige Arbeitsblätter zu erstellen?",
-      "subtitle": "Schließen Sie sich tausenden Lehrkräften an, die bereits Zeit sparen und ihre Schüler begeistern",
-      "button": "Jetzt kostenlos starten",
-      "disclaimer": "Keine Kreditkarte erforderlich • Jederzeit kündbar"
+      "title": "Bereit für tolle Arbeitsblätter?",
+      "subtitle": "Schließ dich tausenden Lehrkräften an, die bereits Zeit sparen und ihre Schüler begeistern",
+      "button": "Kostenlos starten",
+      "disclaimer": "Keine Kreditkarte nötig • Jederzeit kündbar"
     }
   },
   "worksheetSamples": {
@@ -868,61 +868,61 @@
   },
   "dashboard": {
     "header": {
-      "welcome": "Willkommen zurück, {name}!",
+      "welcome": "Schön, dass du wieder da bist, {name}!",
       "welcomeFallback": "Willkommen zurück!",
-      "subtitle": "Lassen Sie uns heute etwas Großartiges erstellen",
+      "subtitle": "Lass uns heute etwas Tolles erstellen",
       "signOut": "Abmelden"
     },
     "stats": {
       "worksheetsCreated": "Erstellte Arbeitsblätter",
-      "totalThisMonth": "Insgesamt diesen Monat",
-      "appsAvailable": "Verfügbare Apps",
-      "inYourPlan": "In Ihrem Tarif",
-      "currentPlan": "Aktueller Tarif",
-      "yourMembership": "Ihre Mitgliedschaft"
+      "totalThisMonth": "Gesamt in diesem Monat",
+      "appsAvailable": "Verfügbare Anwendungen",
+      "inYourPlan": "In deinem Paket enthalten",
+      "currentPlan": "Dein aktuelles Paket",
+      "yourMembership": "Deine Mitgliedschaft"
     },
     "tierNames": {
       "free": "Kostenlos",
-      "core": "Kern",
-      "full": "Pro"
+      "core": "Basis",
+      "full": "Premium"
     },
     "generators": {
       "title": "Arbeitsblatt-Generatoren",
-      "searchPlaceholder": "Generatoren durchsuchen...",
+      "searchPlaceholder": "Generator suchen...",
       "filterLabel": "Alle Kategorien",
       "categoryAll": "Alle Kategorien",
       "open": "Öffnen →",
       "noResults": "Keine Generatoren gefunden",
-      "tryAdjusting": "Passen Sie Ihre Suche oder Filter an"
+      "tryAdjusting": "Probiere eine andere Suche oder andere Filter aus"
     },
     "subscription": {
-      "title": "Abonnement",
-      "currentPlan": "Aktueller Tarif",
+      "title": "Dein Abonnement",
+      "currentPlan": "Aktuelles Paket",
       "free": "Kostenlos",
       "perMonth": "/Monat",
-      "renewsOn": "Verlängert am",
-      "cancelsOn": "Endet am",
-      "whatsIncluded": "Was ist enthalten:",
-      "upgradePlan": "Tarif upgraden",
-      "manageBilling": "Abrechnung verwalten",
-      "loading": "Lädt...",
-      "cancelWarning": "⚠️ Ihr Abonnement endet am {date}"
+      "renewsOn": "Verlängert sich am",
+      "cancelsOn": "Läuft aus am",
+      "whatsIncluded": "Das ist enthalten:",
+      "upgradePlan": "Paket erweitern",
+      "manageBilling": "Rechnungen verwalten",
+      "loading": "Wird geladen...",
+      "cancelWarning": "⚠️ Dein Abonnement endet am {date}"
     },
     "activity": {
-      "title": "Ihre Aktivität",
+      "title": "Deine Aktivität",
       "worksheetsCreated": "Erstellte Arbeitsblätter",
       "downloads": "Downloads",
-      "generatorsUsed": "Genutzte Generatoren",
+      "generatorsUsed": "Verwendete Generatoren",
       "thisWeek": "+3 diese Woche",
       "thisMonth": "Diesen Monat",
-      "uniqueApps": "Einzigartige Apps",
+      "uniqueApps": "Verschiedene Apps",
       "unlimited": "Unbegrenzt",
-      "trackingNote": "📊 Ihre Aktivität wird verfolgt, um Ihnen zu helfen, innerhalb Ihrer Tarif-Grenzen zu bleiben"
+      "trackingNote": "📊 Wir erfassen deine Aktivität, damit du den Überblick über dein Paket behältst"
     },
     "paymentHistory": {
-      "title": "Zahlungshistorie",
-      "noPayments": "Noch keine Zahlungshistorie",
-      "noPaymentsSubtext": "Ihre Zahlungen werden hier angezeigt, nachdem Sie ein Abonnement abgeschlossen haben",
+      "title": "Zahlungsverlauf",
+      "noPayments": "Noch keine Zahlungen vorhanden",
+      "noPaymentsSubtext": "Deine Zahlungen erscheinen hier, sobald du ein Abo abschließt",
       "viewAll": "Alle Zahlungen anzeigen →",
       "downloadInvoice": "Rechnung herunterladen",
       "succeeded": "erfolgreich",
@@ -931,26 +931,26 @@
     },
     "tiers": {
       "free": {
-        "description": "Starten Sie mit dem Wortsuche-Generator",
+        "description": "Ideal zum Ausprobieren",
         "features": [
-          "Nur Wortsuche-Generator",
-          "Unbegrenzte Arbeitsblatt-Erstellung",
-          "Downloads mit Wasserzeichen"
+          "Wortsuche-Generator",
+          "Unbegrenzt Arbeitsblätter erstellen",
+          "Mit Wasserzeichen"
         ]
       },
       "core": {
-        "description": "Perfekt für den regelmäßigen Unterrichtseinsatz",
+        "description": "Perfekt für den täglichen Unterricht",
         "features": [
-          "Zugriff auf 10 beliebte Arbeitsblatt-Generatoren",
-          "Unbegrenzte Arbeitsblatt-Erstellung",
+          "10 beliebte Generatoren",
+          "Unbegrenzt Arbeitsblätter erstellen",
           "Ohne Wasserzeichen"
         ]
       },
       "full": {
-        "description": "Vollständiger Zugriff für Vielnutzer",
+        "description": "Das Komplettpaket für Profis",
         "features": [
-          "Zugriff auf alle 33 Arbeitsblatt-Generatoren",
-          "Unbegrenzte Arbeitsblatt-Erstellung",
+          "Alle 33 Generatoren",
+          "Unbegrenzt Arbeitsblätter erstellen",
           "Ohne Wasserzeichen"
         ]
       }

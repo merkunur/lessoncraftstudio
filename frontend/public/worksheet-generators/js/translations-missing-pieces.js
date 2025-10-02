@@ -14,7 +14,9 @@ if (typeof t === 'undefined') {
             console.warn('Translations not loaded, returning key:', key);
             return key;
         }
-        const translation = (translations[window.currentLocale] && translations[window.currentLocale][key]) ||
+        // Use uiLocale for UI translations, fallback to currentLocale, then to English
+        const locale = window.uiLocale || window.currentLocale || 'en';
+        const translation = (translations[locale] && translations[locale][key]) ||
                            (translations.en && translations.en[key]) ||
                            key;
         return translation;

@@ -3,13 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <title data-translate="bigsmall.page.title">Big & Small Worksheet Generator</title>
-  <!-- Set locale BEFORE any scripts load -->
+  <!-- Set locales BEFORE any scripts load -->
+  <!-- uiLocale = Interface language (from main app's language selector in header) -->
+  <!-- currentLocale = Content language for image library (from sidebar selector) -->
   <script>
-    window.currentLocale = 'en';
     const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get('locale')) {
-      window.currentLocale = urlParams.get('locale');
-    }
+
+    // UI locale comes from the main app (via URL parameter)
+    window.uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
+
+    // Content locale can be different (initially same as UI for simplicity)
+    window.currentLocale = urlParams.get('content') || window.uiLocale;
+
+    console.log('Global uiLocale set to:', window.uiLocale);
+    console.log('Global currentLocale set to:', window.currentLocale);
   </script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
@@ -703,7 +710,7 @@
       </div>
       <div style="padding: 10px 25px; border-bottom: 1px solid var(--app-border-dark);">
         <div class="language-selector" style="margin-bottom: 10px;">
-          <label data-translate="language.label" style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Language:</label>
+          <label data-translate="imageLibraryLanguage" style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Image Library Language:</label>
           <select id="languageSelect" style="width: 100%; padding: 6px; background: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); border: 1px solid var(--app-border-dark); border-radius: 5px; font-size: 13px;">
             <option value="en" data-translate="lang_en">English</option>
             <option value="de" data-translate="lang_de">Deutsch</option>
@@ -947,13 +954,14 @@
     let currentLocale = window.currentLocale || 'en';
     let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
 
-    // Translation helper functions
+    // Translation helper functions (uses uiLocale for UI translations)
     function t(key) {
         if (typeof BIG_SMALL_TRANSLATIONS === 'undefined' || !BIG_SMALL_TRANSLATIONS) {
             console.warn('Big Small translations not loaded, returning key:', key);
             return key;
         }
-        const translation = (BIG_SMALL_TRANSLATIONS[currentLocale] && BIG_SMALL_TRANSLATIONS[currentLocale][key]) ||
+        const locale = window.uiLocale || 'en';  // Use uiLocale for UI translations
+        const translation = (BIG_SMALL_TRANSLATIONS[locale] && BIG_SMALL_TRANSLATIONS[locale][key]) ||
                            (BIG_SMALL_TRANSLATIONS.en && BIG_SMALL_TRANSLATIONS.en[key]) ||
                            key;
         return translation;
@@ -1222,13 +1230,15 @@
       
       // --- IMAGE LIBRARY & SELECTION FUNCTIONS ---
       async function getImagesForTheme(theme) {
-          if (allImagesCache[theme]) return allImagesCache[theme];
+          // Include locale in cache key to ensure correct language names
+          const cacheKey = `${theme}-${currentLocale}`;
+          if (allImagesCache[cacheKey]) return allImagesCache[cacheKey];
           try {
               const response = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
               if (!response.ok) throw new Error(`Network response was not ok for theme: ${theme}`);
               const data = await response.json();
               const images = data.images || data; // CRITICAL: Handle both response formats
-              allImagesCache[theme] = images;
+              allImagesCache[cacheKey] = images;
               return images;
           } catch (e) {
               showMessage(formatTranslation(t('bigsmall.msg.theme.error'), {theme: theme}), 'error');
@@ -2051,6 +2061,46 @@
           }
       }
 
+      // --- Initial Worksheet Generation ---
+      async function generateInitialWorksheet() {
+          try {
+              // Wait for themes to be loaded
+              await new Promise(resolve => {
+                  const checkThemes = () => {
+                      if (worksheetThemeSelect && worksheetThemeSelect.options.length > 1) {
+                          resolve();
+                      } else {
+                          setTimeout(checkThemes, 100);
+                      }
+                  };
+                  checkThemes();
+              });
+
+              // Add a small delay to ensure everything is fully initialized
+              await new Promise(resolve => setTimeout(resolve, 300));
+
+              // Set default values: Animals theme, Letter portrait, 8 exercises, 2 images, Different Images, Circle big, indicators, numbers
+              worksheetThemeSelect.value = 'animals';
+              pageSizeSelect.value = '612x792'; // Letter portrait
+              problemCountInput.value = 8;
+              imgCountSelect.value = '2';
+              modeSelect.value = 'different';
+              qTypeSelect.value = 'findBig';
+              addIndicatorsCheckbox.checked = true;
+              addExerciseNumbersCheckbox.checked = true;
+
+              // Apply page size
+              const [w, h] = pageSizeSelect.value.split('x').map(Number);
+              updateCanvasDisplayDimensions(w, h);
+
+              // Generate worksheet
+              await generateWorksheet();
+
+          } catch (error) {
+              console.error('Error generating initial worksheet:', error);
+          }
+      }
+
       async function generateAnswerKey() {
         if (lastGeneratedCells.length === 0) {
           showMessage(t('bigsmall.msg.generate.first'), 'error');
@@ -2715,13 +2765,19 @@ async function downloadPDF(canvasInstance, fileName) {
                 borderSelect: borderThemeSelect,
                 backgroundSelect: backgroundThemeSelect,
                 locale: currentLocale
-            }).then(() => {
+            }).then(async () => {
                 console.log('BulletproofLoader initialized');
+
+                // Generate initial default worksheet after everything is loaded
+                await generateInitialWorksheet();
             });
         } else {
             // Fallback if BulletproofLoader not available
             loadBorderThemes();
             loadBackgroundThemes();
+
+            // Still try to generate initial worksheet
+            generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
         }
 
         renderSelectedImagesPreview();
@@ -2766,23 +2822,29 @@ async function downloadPDF(canvasInstance, fileName) {
       updateTranslations();
 
       // --- LANGUAGE HANDLER (MUST BE AFTER all getElementById calls) ---
+      // Initialize image library language selector (sidebar)
+      // This selector ONLY changes the image library language, NOT the UI language
       const languageSelect = document.getElementById('languageSelect');
       if (languageSelect) {
           languageSelect.value = currentLocale;
           languageSelect.addEventListener('change', function() {
               const newLocale = this.value;
               currentLocale = newLocale;
+              console.log('Image library language changed to:', currentLocale);
+
+              // DO NOT call updateTranslations() - UI language is controlled by header selector
+
+              // Clear image cache to force reload with new locale
+              allImagesCache = {};
 
               if (window.UnifiedLanguageManager) {
                   window.UnifiedLanguageManager.changeLanguage(newLocale).then(() => {
                       console.log('Language changed to', newLocale);
                   });
                   // UnifiedLanguageManager handles theme reloading, so just reload app-specific content
-                  updateTranslations();
                   loadThemes();
               } else {
                   // Fallback if UnifiedLanguageManager not available
-                  updateTranslations();
                   loadThemes();
                   loadBorderThemes();
                   loadBackgroundThemes();

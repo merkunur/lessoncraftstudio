@@ -604,7 +604,7 @@
             <button class="accordion-button active" data-translate="imageCryptogram">Image Cryptogram</button>
             <div class="accordion-wrapper" style="display: block;">
                 <h4 data-translate="selectLanguage">Select Language</h4>
-                <label for="languageSelect" data-translate="language">Language:</label>
+                <label for="languageSelect" data-translate="imageLibraryLanguage">Image Library Language:</label>
                 <select id="languageSelect" class="control-select">
                     <option value="en" data-translate="language.english">English</option>
                     <option value="de" data-translate="language.german.full">Deutsch (German)</option>
@@ -830,23 +830,44 @@
 
   <script>
     // MUST BE FIRST - Before ANY DOM element references
-    let currentLocale = 'en';
     let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
 
-    // Initialize locale from URL if present
+    // Initialize locales from URL if present
     const urlParams = new URLSearchParams(window.location.search);
-    const localeParam = urlParams.get('locale');
-    if (localeParam) {
-        currentLocale = localeParam;
-    }
+
+    // UI locale (for interface language) - from 'locale' or 'ui' parameter
+    window.uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
+
+    // Content locale (for image library language) - from 'content' parameter, defaults to uiLocale
+    let currentLocale = urlParams.get('content') || window.uiLocale;
 
     // Set currentLocale globally BEFORE DOMContentLoaded (critical for enhancement scripts)
     window.currentLocale = currentLocale;
 
     document.addEventListener("DOMContentLoaded", function() {
         // --- LANGUAGE SUPPORT ---
-        
-        // Define translation functions
+
+        // Translation function for UI elements (uses uiLocale)
+        function t(key, params = {}) {
+            if (typeof translations === 'undefined') return key;
+            const locale = window.uiLocale || 'en';
+            const translation = (translations[locale] && translations[locale][key]) ||
+                               (translations.en && translations.en[key]) ||
+                               key;
+            return formatTranslation(translation, params);
+        }
+        window.t = t;
+
+        // Helper function to replace placeholders in translations
+        function formatTranslation(text, params) {
+            if (!params || typeof params !== 'object') return text;
+            Object.keys(params).forEach(param => {
+                text = text.replace(new RegExp(`\\{${param}\\}`, 'g'), params[param]);
+            });
+            return text;
+        }
+
+        // Define translation functions for content (uses currentLocale)
         function getTranslation(key, locale) {
             locale = locale || currentLocale || 'en';
             if (!translations || !translations[locale]) {
@@ -854,16 +875,6 @@
                 return key;
             }
             return translations[locale][key] || translations.en[key] || key;
-        }
-
-        function formatTranslation(key, params, locale) {
-            let text = getTranslation(key, locale);
-            if (params) {
-                Object.keys(params).forEach(param => {
-                    text = text.replace(new RegExp(`\\{${param}\\}`, 'g'), params[param]);
-                });
-            }
-            return text;
         }
 
         function applyTranslations() {
@@ -1020,6 +1031,65 @@
             loadThemes().then(() => {
                 loadDictionary(); // Load images after themes are loaded
             });
+            // Generate initial worksheet with default settings
+            async function generateInitialWorksheet() {
+                try {
+                    console.log('Starting initial worksheet generation...');
+
+                    // Wait for themes to be loaded by polling
+                    let attempts = 0;
+                    const maxAttempts = 30;
+                    while (themeSelect.options.length <= 1 && attempts < maxAttempts) {
+                        await new Promise(resolve => setTimeout(resolve, 100));
+                        attempts++;
+                    }
+
+                    if (themeSelect.options.length <= 1) {
+                        console.error('Failed to load themes for initial worksheet generation');
+                        return;
+                    }
+
+                    console.log('Themes loaded, configuring worksheet...');
+
+                    // Set page size to Letter portrait
+                    pageSizeSelect.value = '612x792';
+                    const [w, h] = pageSizeSelect.value.split('x').map(Number);
+                    updateCanvasDisplayDimensions(w, h);
+
+                    // Set theme to alphabet
+                    themeSelect.value = 'alphabet';
+                    await renderDictionary();
+
+                    // Set phrase using the localized placeholder text
+                    const phraseText = t("cryptogram.phrases.placeholder") || "The quick brown fox...";
+                    phrasesInput.value = phraseText;
+
+                    // Set letters to reveal to 3
+                    revealCountSelect.value = 3;
+
+                    // Enable auto-assign checkbox
+                    autoAssignCheckbox.checked = true;
+
+                    console.log('Configuration complete, auto-assigning images and generating worksheet...');
+
+                    // Wait a bit for everything to settle
+                    await new Promise(resolve => setTimeout(resolve, 500));
+
+                    // Auto-assign images first
+                    await autoAssignImages();
+
+                    // Wait a bit after auto-assign
+                    await new Promise(resolve => setTimeout(resolve, 300));
+
+                    // Trigger worksheet generation
+                    await handleGenerate();
+
+                    console.log('Initial worksheet generated successfully');
+                } catch (error) {
+                    console.error('Error generating initial worksheet:', error);
+                }
+            }
+
             // Initialize BulletproofLoader AFTER core functionality is set up
             if (window.BulletproofLoader) {
                 window.BulletproofLoader.init({
@@ -1029,22 +1099,28 @@
                 }).then(() => {
                     console.log('BulletproofLoader initialized successfully');
                     // BulletproofLoader handles theme loading, no need for manual loading
+                    // Generate initial worksheet after BulletproofLoader initialization
+                    setTimeout(() => generateInitialWorksheet(), 1000);
                 }).catch(error => {
                     console.error('BulletproofLoader init failed:', error);
                     // Fallback to manual loading only on error
                     loadBorderThemes();
                     loadBackgroundThemes();
+                    // Still generate initial worksheet even if BulletproofLoader fails
+                    setTimeout(() => generateInitialWorksheet(), 1000);
                 });
             } else {
                 // Fallback if BulletproofLoader not available
                 loadBorderThemes();
                 loadBackgroundThemes();
+                // Generate initial worksheet in fallback scenario
+                setTimeout(() => generateInitialWorksheet(), 1000);
             }
         }
 
         // --- UI SETUP FUNCTIONS ---
         function setupUI() {
-            for (let i = 0; i <= 10; i++) revealCountSelect.innerHTML += `<option value="${i}">${i === 0 ? getTranslation("common.none") || "None" : i}</option>`;
+            for (let i = 0; i <= 10; i++) revealCountSelect.innerHTML += `<option value="${i}">${i === 0 ? t("common.none") || "None" : i}</option>`;
             revealCountSelect.value = 3;
             for (let i = 1; i <= 8; i++) maxLinesSelect.innerHTML += `<option value="${i}">${i}</option`;
             maxLinesSelect.value = 4;
@@ -1065,7 +1141,7 @@
             // Reset selected letter if it's not in the new alphabet
             if (selectedLetter && !ALPHABET.includes(selectedLetter)) {
                 selectedLetter = null;
-                selectedLetterDisplay.textContent = getTranslation("common.none") || 'None';
+                selectedLetterDisplay.textContent = t("common.none") || 'None';
             }
         }
         
@@ -1115,22 +1191,26 @@
         }
 
         function setupEventListeners() {
-            // Language selector handler
+            // Language selector handler (for image library language only)
             if (languageSelect) {
                 languageSelect.value = currentLocale;
                 languageSelect.addEventListener('change', function() {
-                    currentLocale = this.value;
-                    window.currentLocale = currentLocale;
+                    const newLocale = this.value;
+                    currentLocale = newLocale;
+                    window.currentLocale = newLocale;
 
                     // Update alphabet for new language
                     ALPHABET = getAlphabetForLocale(currentLocale).split("");
 
-                    // Apply translations
-                    applyTranslations();
+                    // Update letter buttons to reflect new alphabet
+                    updateLetterButtons();
 
-                    // Update URL parameter
+                    // DO NOT apply translations to UI (UI language controlled by header selector)
+                    // applyTranslations(); // REMOVED
+
+                    // Update URL parameter for content locale
                     const url = new URL(window.location);
-                    url.searchParams.set('locale', currentLocale);
+                    url.searchParams.set('content', currentLocale);
                     window.history.replaceState({}, '', url);
 
                     // Reload themes with new locale
@@ -1199,11 +1279,11 @@
                 const fileCount = e.target.files.length;
                 if (fileCount > 0) {
                     const statusText = fileCount === 1
-                        ? formatTranslation("cryptogram.upload.file.selected", {count: fileCount}) || `${fileCount} file selected`
-                        : formatTranslation("cryptogram.upload.files.selected", {count: fileCount}) || `${fileCount} files selected`;
+                        ? t("cryptogram.upload.file.selected", {count: fileCount}) || `${fileCount} file selected`
+                        : t("cryptogram.upload.files.selected", {count: fileCount}) || `${fileCount} files selected`;
                     fileUploadStatus.textContent = statusText;
                 } else {
-                    fileUploadStatus.textContent = getTranslation("cryptogram.upload.no.file") || "No file chosen";
+                    fileUploadStatus.textContent = t("cryptogram.upload.no.file") || "No file chosen";
                 }
                 handleImageUpload(e);
             });
@@ -1374,7 +1454,7 @@
 
         // --- CORE LOGIC: DATA GENERATION ---
         async function handleGenerate() {
-            showMessage(getTranslation("cryptogram.msg.generating") || "Generating puzzle data...", 'info', 0);
+            showMessage(t("cryptogram.msg.generating") || "Generating puzzle data...", 'info', 0);
             try {
                 const puzzleData = await generatePuzzleData();
                 if (!puzzleData) return; 
@@ -1387,17 +1467,17 @@
                 downloadDropdownBtn.disabled = false;
                 document.getElementById('downloadWorksheetJpegBtn').disabled = false;
                 document.getElementById('downloadWorksheetPdfBtn').disabled = false;
-                showMessage(getTranslation("cryptogram.msg.generated") || "Worksheet generated successfully!", "success", 3000);
+                showMessage(t("cryptogram.msg.generated") || "Worksheet generated successfully!", "success", 3000);
             } catch (error) {
                 console.error("Generation failed:", error);
-                showMessage(formatTranslation("cryptogram.msg.error.details", {error: error.message}) || `Error: ${error.message}`, "error");
+                showMessage(t("cryptogram.msg.error.details", {error: error.message}) || `Error: ${error.message}`, "error");
             }
         }
 
         async function generatePuzzleData() {
             const phrases = phrasesInput.value.trim().split("\n").filter(p => p.trim() !== "");
             if (phrases.length === 0) {
-                showMessage(getTranslation("cryptogram.msg.enter.phrase") || "Please enter at least one phrase.", 'error');
+                showMessage(t("cryptogram.msg.enter.phrase") || "Please enter at least one phrase.", 'error');
                 return null;
             }
 
@@ -1410,7 +1490,7 @@
 
             const unassigned = uniqueLetters.filter(l => !assignedImages[l]);
             if (unassigned.length > 0) {
-                showMessage(formatTranslation("cryptogram.msg.missing.images", {letters: unassigned.join(", ")}) || `Missing images for letters: ${unassigned.join(", ")}. Please assign or auto-assign.`, 'error');
+                showMessage(t("cryptogram.msg.missing.images", {letters: unassigned.join(", ")}) || `Missing images for letters: ${unassigned.join(", ")}. Please assign or auto-assign.`, 'error');
                 return null;
             }
             
@@ -1852,7 +1932,7 @@
         function handleAddText() {
             const activeCanvas = getActiveCanvas();
             if (!activeCanvas) return;
-            const textContent = textInput.value.trim() || getTranslation("cryptogram.text.default") || 'New Text';
+            const textContent = textInput.value.trim() || t("cryptogram.text.default") || 'New Text';
             const textObject = new fabric.Textbox(textContent, {
                 left: (currentCanvasConfig.width - 250) / 2,
                 top: (currentCanvasConfig.height - 100) / 2,
@@ -2012,7 +2092,7 @@
                 
                 const themes = await response.json();
                 
-                themeSelect.innerHTML = `<option value="all" data-translate="cryptogram.themes.all">${getTranslation("cryptogram.themes.all") || "All Themes"}</option>`;
+                themeSelect.innerHTML = `<option value="all" data-translate="cryptogram.themes.all">${t("cryptogram.themes.all") || "All Themes"}</option>`;
                 
                 themes.forEach(theme => {
                     const option = document.createElement('option');
@@ -2024,7 +2104,7 @@
                 await handleThemeChange();
             } catch (err) {
                  console.error("Error loading themes:", err);
-                 showMessage(getTranslation("cryptogram.msg.themes.error") || "Could not load themes.", 'error');
+                 showMessage(t("cryptogram.msg.themes.error") || "Could not load themes.", 'error');
             }
         }
 
@@ -2033,7 +2113,7 @@
             if (theme === 'all') {
                 // Load animals theme by default when "All Themes" is selected with no search
                 if (!searchInput.value || searchInput.value.trim() === '') {
-                    dictionaryDiv.innerHTML = `<p class='dictionary-message'>${getTranslation("cryptogram.msg.loading.default") || "Loading default theme..."}</p>`;
+                    dictionaryDiv.innerHTML = `<p class='dictionary-message'>${t("cryptogram.msg.loading.default") || "Loading default theme..."}</p>`;
                     try {
                         const data = await fetch(`/api/images?theme=animals&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
                         currentThemeImages = data.images || data;
@@ -2045,13 +2125,13 @@
                 }
                 await renderDictionary();
             } else {
-                dictionaryDiv.innerHTML = `<p class='dictionary-message'>${formatTranslation("cryptogram.msg.loading.theme", {theme}) || `Loading ${theme}...`}</p>`;
+                dictionaryDiv.innerHTML = `<p class='dictionary-message'>${t("cryptogram.msg.loading.theme", {theme}) || `Loading ${theme}...`}</p>`;
                 try {
                     const data = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
                     currentThemeImages = data.images || data;
                 } catch (e) {
                     currentThemeImages = [];
-                    showMessage(formatTranslation("cryptogram.msg.theme.load.failed", {theme: theme}) || `Failed to load theme "${theme}"`, 'error');
+                    showMessage(t("cryptogram.msg.theme.load.failed", {theme: theme}) || `Failed to load theme "${theme}"`, 'error');
                 }
                 await renderDictionary();
             }
@@ -2065,7 +2145,7 @@
         }
 
         async function autoAssignImages() {
-            showMessage(getTranslation("cryptogram.msg.fetching.images") || "Fetching all images for auto-assign...", 'info', 0);
+            showMessage(t("cryptogram.msg.fetching.images") || "Fetching all images for auto-assign...", 'info', 0);
             let allImages = [];
             try {
                 const response = await fetch(`/api/themes-translated?locale=${currentLocale}`);
@@ -2085,13 +2165,13 @@
 
             } catch (e) {
                 console.error("Auto-assign failed:", e);
-                showMessage(getTranslation("cryptogram.msg.fetch.failed") || "Failed to fetch image list from server.", "error");
+                showMessage(t("cryptogram.msg.fetch.failed") || "Failed to fetch image list from server.", "error");
                 autoAssignCheckbox.checked = false;
                 return;
             }
 
             if (allImages.length === 0) {
-                 showMessage(getTranslation("cryptogram.msg.no.images.server") || "Cannot auto-assign. No images found on server.", 'error');
+                 showMessage(t("cryptogram.msg.no.images.server") || "Cannot auto-assign. No images found on server.", 'error');
                  autoAssignCheckbox.checked = false;
                  return;
             }
@@ -2110,11 +2190,11 @@
             });
 
             renderAssignedImagesPreview();
-            showMessage(getTranslation("cryptogram.msg.auto.assigned") || "Images have been auto-assigned.", 'success', 2000);
+            showMessage(t("cryptogram.msg.auto.assigned") || "Images have been auto-assigned.", 'success', 2000);
         }
 
         function handleImageAssignment(image) {
-            if (!selectedLetter) { showMessage(getTranslation("cryptogram.msg.select.letter") || "Please select a letter first.", "info"); return; }
+            if (!selectedLetter) { showMessage(t("cryptogram.msg.select.letter") || "Please select a letter first.", "info"); return; }
             assignedImages[selectedLetter] = image;
             renderAssignedImagesPreview();
         }
@@ -2132,14 +2212,14 @@
                     imagesToDisplay = currentThemeImages;
                 } else {
                     // Search across all themes
-                    dictionaryDiv.innerHTML = `<p class="dictionary-message">${getTranslation("cryptogram.msg.searching") || "Searching..."}</p>`;
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">${t("cryptogram.msg.searching") || "Searching..."}</p>`;
                     try {
                         const response = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
                         if (!response.ok) throw new Error(`Server error: ${response.status}`);
                         const searchData = await response.json();
                         imagesToDisplay = searchData.images || searchData;
                     } catch(e) {
-                        showMessage(formatTranslation("cryptogram.msg.search.failed", {query: query}) || `Failed to search for "${query}"`, 'error');
+                        showMessage(t("cryptogram.msg.search.failed", {query: query}) || `Failed to search for "${query}"`, 'error');
                         imagesToDisplay = [];
                     }
                 }
@@ -2154,8 +2234,8 @@
             dictionaryDiv.innerHTML = '';
             if (imagesToDisplay.length === 0) {
                 const msg = query
-                    ? formatTranslation("cryptogram.msg.search.failed", {query}) || `No images found matching "${query}".`
-                    : getTranslation("cryptogram.msg.no.images") || "No images found.";
+                    ? t("cryptogram.msg.search.failed", {query}) || `No images found matching "${query}".`
+                    : t("cryptogram.msg.no.images") || "No images found.";
                 dictionaryDiv.innerHTML = `<p class="dictionary-message">${msg}</p>`;
                 return;
             }
@@ -2192,7 +2272,7 @@
                     filesToLoad--;
                     if (filesToLoad === 0) {
                         renderUploadedImages();
-                        showMessage(formatTranslation("cryptogram.msg.images.uploaded", {count: uploadedImages.length}) || `${uploadedImages.length} custom image(s) available.`, 'success');
+                        showMessage(t("cryptogram.msg.images.uploaded", {count: uploadedImages.length}) || `${uploadedImages.length} custom image(s) available.`, 'success');
                     }
                 };
                 reader.readAsDataURL(file);
@@ -2203,7 +2283,7 @@
         function renderUploadedImages() {
             uploadedImagesPreview.innerHTML = "";
             if (uploadedImages.length === 0) {
-                uploadedImagesPreview.innerHTML = `<p class="dictionary-message">${getTranslation("cryptogram.uploaded.placeholder") || "Your uploaded images will appear here."}</p>`;
+                uploadedImagesPreview.innerHTML = `<p class="dictionary-message">${t("cryptogram.uploaded.placeholder") || "Your uploaded images will appear here."}</p>`;
                 return;
             }
             uploadedImages.forEach(img => {
@@ -2259,7 +2339,7 @@
             themeSelect.value = "all";
             pageSizeSelect.value = "612x792";
             document.querySelectorAll('.letter-buttons button.active').forEach(b => b.classList.remove('active'));
-            dictionaryDiv.innerHTML = `<p class='dictionary-message'>${getTranslation("cryptogram.msg.type.search") || "Type to search all images."}</p>`;
+            dictionaryDiv.innerHTML = `<p class='dictionary-message'>${t("cryptogram.msg.type.search") || "Type to search all images."}</p>`;
             renderAssignedImagesPreview();
             renderUploadedImages();
             [worksheetCanvas, answerKeyCanvas].forEach(c => {
@@ -2271,7 +2351,7 @@
             downloadDropdownContent.style.display = 'none';
             handleSelectionCleared(null, getActiveCanvas());
             loadThemes();
-            showMessage(getTranslation("cryptogram.msg.form.cleared") || "Form cleared.", "success", 2000);
+            showMessage(t("cryptogram.msg.form.cleared") || "Form cleared.", "success", 2000);
         }
 
         // --- DOWNLOAD FUNCTIONS ---
@@ -2333,16 +2413,16 @@
         }
         
         async function downloadImageFile(canvasToExport, fileName) {
-            if (!canvasToExport) { showMessage(getTranslation("cryptogram.msg.canvas.unavailable") || "Canvas not available.", "error"); return; }
-            showMessage(formatTranslation("cryptogram.msg.preparing.file", {fileName: fileName}) || `Preparing ${fileName}...`, 'info', 0);
+            if (!canvasToExport) { showMessage(t("cryptogram.msg.canvas.unavailable") || "Canvas not available.", "error"); return; }
+            showMessage(t("cryptogram.msg.preparing.file", {fileName: fileName}) || `Preparing ${fileName}...`, 'info', 0);
             try {
                 const exportOptions = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
                 const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
                 const a = document.createElement('a');
                 a.download = fileName; a.href = dataURL; a.click();
-                showMessage(getTranslation("cryptogram.msg.jpeg.initiated") || 'JPEG download initiated!', 'success');
+                showMessage(t("cryptogram.msg.jpeg.initiated") || 'JPEG download initiated!', 'success');
             } catch (error) {
-                showMessage(formatTranslation("cryptogram.msg.jpeg.error", {error: error.message}) || `Error preparing JPEG: ${error.message}`, 'error');
+                showMessage(t("cryptogram.msg.jpeg.error", {error: error.message}) || `Error preparing JPEG: ${error.message}`, 'error');
             }
         }
         
@@ -2416,9 +2496,9 @@
     if (originalDownloadPDF) {
         window.downloadPDF = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage(getTranslation("cryptogram.msg.generate.first") || 'Please generate content first.', 'error');
+                return showMessage(t("cryptogram.msg.generate.first") || 'Please generate content first.', 'error');
             }
-            showMessage(getTranslation("cryptogram.msg.preparing.pdf") || 'Preparing PDF...', 'info', 0);
+            showMessage(t("cryptogram.msg.preparing.pdf") || 'Preparing PDF...', 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -2441,9 +2521,9 @@
                 pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
 
                 pdf.save(fileName);
-                showMessage(getTranslation("cryptogram.msg.pdf.downloaded") || 'PDF downloaded!', 'success');
-            } catch(e) { 
-                showMessage(getTranslation("cryptogram.msg.pdf.error") || 'Error creating PDF.', 'error'); 
+                showMessage(t("cryptogram.msg.pdf.downloaded") || 'PDF downloaded!', 'success');
+            } catch(e) {
+                showMessage(t("cryptogram.msg.pdf.error") || 'Error creating PDF.', 'error'); 
                 console.error(e); 
             } finally {
                 // Remove watermark after export
@@ -2457,9 +2537,9 @@
     if (originalDownloadJPEG) {
         window.downloadJPEG = async function(canvasToExport, fileName) {
             if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage(getTranslation("cryptogram.msg.generate.worksheet.first") || 'Please generate a worksheet first.', 'error');
+                return showMessage(t("cryptogram.msg.generate.worksheet.first") || 'Please generate a worksheet first.', 'error');
             }
-            showMessage(getTranslation("cryptogram.msg.preparing.jpeg") || 'Preparing JPEG...', 'info', 0);
+            showMessage(t("cryptogram.msg.preparing.jpeg") || 'Preparing JPEG...', 'info', 0);
             
             // Add watermark if free tier
             const watermarkData = addWatermarkToCanvas(canvasToExport);
@@ -2475,9 +2555,9 @@
                 link.href = dataURL;
                 link.download = fileName;
                 link.click();
-                showMessage(getTranslation("cryptogram.msg.jpeg.initiated") || 'JPEG download initiated!', 'success');
-            } catch(e) { 
-                showMessage(getTranslation("cryptogram.msg.jpeg.error.simple") || 'Error preparing JPEG.', 'error'); 
+                showMessage(t("cryptogram.msg.jpeg.initiated") || 'JPEG download initiated!', 'success');
+            } catch(e) {
+                showMessage(t("cryptogram.msg.jpeg.error.simple") || 'Error preparing JPEG.', 'error'); 
                 console.error(e); 
             } finally {
                 // Remove watermark after export
@@ -2487,8 +2567,8 @@
     }
 
 async function downloadPDF(canvasToExport, fileName) {
-            if (!canvasToExport) { showMessage(getTranslation("cryptogram.msg.canvas.unavailable") || "Canvas not available.", "error"); return; }
-            showMessage(formatTranslation("cryptogram.msg.preparing.file", {fileName: fileName}) || `Preparing ${fileName}...`, 'info', 0);
+            if (!canvasToExport) { showMessage(t("cryptogram.msg.canvas.unavailable") || "Canvas not available.", "error"); return; }
+            showMessage(t("cryptogram.msg.preparing.file", {fileName: fileName}) || `Preparing ${fileName}...`, 'info', 0);
             try {
                 const { jsPDF } = window.jspdf;
                 const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
@@ -2499,16 +2579,16 @@ async function downloadPDF(canvasToExport, fileName) {
                 pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
 
                 pdf.save(fileName);
-                showMessage(getTranslation("cryptogram.msg.pdf.downloaded") || 'PDF downloaded!', 'success');
+                showMessage(t("cryptogram.msg.pdf.downloaded") || 'PDF downloaded!', 'success');
             } catch (error) {
-                showMessage(formatTranslation("cryptogram.msg.pdf.error.details", {error: error.message}) || `Error creating PDF: ${error.message}`, "error");
+                showMessage(t("cryptogram.msg.pdf.error.details", {error: error.message}) || `Error creating PDF: ${error.message}`, "error");
             }
         }
         
         // --- BORDER AND BACKGROUND FUNCTIONS ---
         async function loadAssetThemes(type, selectEl) {
             try {
-                selectEl.innerHTML = `<option value="none">${getTranslation("none") || "None"}</option>`;
+                selectEl.innerHTML = `<option value="none">${t("none") || "None"}</option>`;
                 const response = await fetch(`/api/${type}/themes?locale=${currentLocale}`);
                 if (!response.ok) {
                     console.error(`Failed to load ${type} themes`);
@@ -2531,7 +2611,7 @@ async function downloadPDF(canvasToExport, fileName) {
             const propName = `is${assetType.charAt(0).toUpperCase() + assetType.slice(1)}`;
 
             if (theme === 'none') {
-                dictionaryEl.innerHTML = `<p class="dictionary-message">${formatTranslation("cryptogram.asset.select", {type}) || `Select a theme to see ${type}.`}</p>`;
+                dictionaryEl.innerHTML = `<p class="dictionary-message">${t("cryptogram.asset.select", {type}) || `Select a theme to see ${type}.`}</p>`;
                 
                 if (propName === 'isBackground') {
                     [worksheetCanvas, answerKeyCanvas].forEach(canvas => {
@@ -2556,7 +2636,7 @@ async function downloadPDF(canvasToExport, fileName) {
                 }
                 return;
             }
-            dictionaryEl.innerHTML = `<p class="dictionary-message">${formatTranslation("cryptogram.asset.loading", {theme, type}) || `Loading ${theme} ${type}...`}</p>`;
+            dictionaryEl.innerHTML = `<p class="dictionary-message">${t("cryptogram.asset.loading", {theme, type}) || `Loading ${theme} ${type}...`}</p>`;
             // Use filesystem endpoints only
             const apiUrl = `/api/${type}/images?theme=${theme}&locale=${currentLocale}`;
             fetch(apiUrl)
@@ -2564,7 +2644,7 @@ async function downloadPDF(canvasToExport, fileName) {
                 .then(data => {
                     const images = data.images || data;
                     dictionaryEl.innerHTML = "";
-                    if (images.length === 0) { dictionaryEl.innerHTML = `<p class="dictionary-message">${formatTranslation("cryptogram.asset.none", {type}) || `No ${type} in this theme.`}</p>`; return; }
+                    if (images.length === 0) { dictionaryEl.innerHTML = `<p class="dictionary-message">${t("cryptogram.asset.none", {type}) || `No ${type} in this theme.`}</p>`; return; }
                     images.forEach(asset => {
                         const item = document.createElement("div"); item.className = "border-thumbnail-item";
                         item.innerHTML = `<img src="${asset.path}" alt="${asset.name}" loading="lazy" />`;
@@ -2576,7 +2656,7 @@ async function downloadPDF(canvasToExport, fileName) {
                         dictionaryEl.appendChild(item);
                     });
                 })
-                .catch(err => { console.error(`Error loading ${type} images:`, err); dictionaryEl.innerHTML = `<p class="dictionary-message">${formatTranslation("cryptogram.asset.error", {type}) || `Error loading ${type}.`}</p>`; });
+                .catch(err => { console.error(`Error loading ${type} images:`, err); dictionaryEl.innerHTML = `<p class="dictionary-message">${t("cryptogram.asset.error", {type}) || `Error loading ${type}.`}</p>`; });
         }
 
         function loadBorderThemes() { loadAssetThemes('borders', borderThemeSelect); }

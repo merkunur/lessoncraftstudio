@@ -928,12 +928,15 @@
   <div id="exportArea"></div>
 
   <script>
-    // Set currentLocale globally BEFORE DOMContentLoaded (critical for enhancement scripts)
-    let currentLocale = 'en';
+    // Set locales globally BEFORE DOMContentLoaded (critical for enhancement scripts)
+    let uiLocale = 'en';  // UI language (for interface translations) - from URL parameter
+    let currentLocale = 'en';  // Content language (for image library) - can be changed by sidebar selector
     const urlParams = new URLSearchParams(window.location.search);
     if (urlParams.get('locale')) {
-        currentLocale = urlParams.get('locale');
+        uiLocale = urlParams.get('locale');  // UI language comes from URL (parent app header)
+        currentLocale = urlParams.get('locale');  // Initial content language matches UI language
     }
+    window.uiLocale = uiLocale;
     window.currentLocale = currentLocale;
 
     document.addEventListener("DOMContentLoaded", function() {
@@ -1764,10 +1767,10 @@
             
             const mainImg = await new Promise(resolve => fabric.Image.fromURL(puzzleData.mainImage.path, resolve, { crossOrigin: 'anonymous' }));
             
-            // Scale to fit within available space (no arbitrary 1.3x scaling)
+            // Scale to fit within available space, then increase by 30%
             const scaleToFitWidth = availableWidth / mainImg.width;
             const scaleToFitHeight = mainImageMaxHeight / mainImg.height;
-            const finalScale = Math.min(scaleToFitWidth, scaleToFitHeight);
+            const finalScale = Math.min(scaleToFitWidth, scaleToFitHeight) * 1.3; // Increase by 30%
             mainImg.scale(finalScale);
 
             const puzzleElements = [mainImg];
@@ -1818,25 +1821,34 @@
             // Define spacing constants
             const optionSpacing = 15; // Horizontal spacing
             const rowSpacing = 10; // Vertical spacing between rows
-            const optionsStartY = topMargin + mainImageMaxHeight + 30;
-            
-            // First determine the optimal grid layout
+
+            // Calculate spacing to ensure equal top and bottom margins
+            const actualImageHeight = mainImg.getScaledHeight();
             const numOptions = puzzleData.optionPieces.length;
-            let bestGrid = { cols: 1, rows: numOptions, boxSize: 0 };
-            
-            // Try different column configurations to find best fit
-            for (let cols = 1; cols <= numOptions; cols++) {
-                const rows = Math.ceil(numOptions / cols);
-                
-                // Calculate max box size for this grid configuration
-                const maxWidthPerBox = (availableWidth - optionSpacing * (cols - 1)) / cols;
-                const maxHeightPerBox = (canvasHeight - optionsStartY - bottomMargin - rowSpacing * (rows - 1)) / rows;
-                const maxBoxSize = Math.min(maxWidthPerBox, maxHeightPerBox, 100); // Cap at 100 for reasonable size
-                
-                if (maxBoxSize > bestGrid.boxSize) {
-                    bestGrid = { cols, rows, boxSize: maxBoxSize };
-                }
-            }
+
+            // Force all options on same row (cols = numOptions, rows = 1)
+            const cols = numOptions;
+            const rows = 1;
+
+            // Calculate max box size for single row layout
+            const maxWidthPerBox = (availableWidth - optionSpacing * (cols - 1)) / cols;
+
+            // Calculate remaining vertical space and center everything vertically
+            const totalContentHeight = actualImageHeight; // Just the main image for now
+            const remainingVerticalSpace = canvasHeight - topMargin - bottomMargin - totalContentHeight;
+
+            // Split remaining space: gap between image and options, plus space for options
+            const estimatedOptionHeight = Math.min(100, maxWidthPerBox); // Estimate based on width
+            // Reduce the gap - use 40% of remaining space for gap, keeping options closer
+            const gapBetweenImageAndOptions = (remainingVerticalSpace - estimatedOptionHeight) * 0.4;
+
+            const optionsStartY = topMargin + actualImageHeight + gapBetweenImageAndOptions;
+
+            // Now calculate the actual max box size based on available height
+            const maxHeightPerBox = canvasHeight - optionsStartY - bottomMargin;
+            const maxBoxSize = Math.min(maxWidthPerBox, maxHeightPerBox, 100); // Cap at 100 for reasonable size
+
+            let bestGrid = { cols, rows, boxSize: maxBoxSize };
             
             const optionBoxSize = bestGrid.boxSize;
             
@@ -2413,7 +2425,90 @@ async function downloadPDF(canvasToExport, filename) {
         toolbarSendBackwardBtn.addEventListener('click', sendObjectBackward);
         toolbarDeleteBtn.addEventListener('click', deleteSelectedObjects);
         document.querySelectorAll('#alignDropdown button').forEach(b => b.addEventListener('click', (e) => alignObjects(e.currentTarget.id.replace('Btn', ''))));
-        
+
+        // --- INITIAL WORKSHEET GENERATION ---
+        async function generateInitialWorksheet() {
+            try {
+                console.log('Starting initial worksheet generation...');
+
+                // Wait for themes to load with polling
+                let attempts = 0;
+                const maxAttempts = 50; // 5 seconds max wait time
+
+                while (themeSelect.options.length <= 1 && attempts < maxAttempts) {
+                    await new Promise(resolve => setTimeout(resolve, 100));
+                    attempts++;
+                }
+
+                if (themeSelect.options.length <= 1) {
+                    console.error('Themes failed to load in time');
+                    return;
+                }
+
+                // Set page size to Letter portrait (612x792)
+                pageSizeSelect.value = '612x792';
+                const [width, height] = pageSizeSelect.value.split('x').map(Number);
+                currentCanvasConfig.width = width;
+                currentCanvasConfig.height = height;
+
+                worksheetCanvas.setDimensions({ width, height });
+                answerKeyCanvas.setDimensions({ width, height });
+                updateCanvasDisplayDimensions(width, height, false);
+
+                // Set animals theme
+                themeSelect.value = 'animals';
+
+                // Load dictionary for animals theme
+                await loadDictionary();
+
+                // Wait for images to render in DOM
+                attempts = 0;
+                while (dictionaryDiv.querySelectorAll('.dictionary-item').length === 0 && attempts < maxAttempts) {
+                    await new Promise(resolve => setTimeout(resolve, 100));
+                    attempts++;
+                }
+
+                if (dictionaryDiv.querySelectorAll('.dictionary-item').length === 0) {
+                    console.error('Images failed to load in time');
+                    return;
+                }
+
+                // Select a random image from the loaded images
+                const dictionaryItems = dictionaryDiv.querySelectorAll('.dictionary-item');
+                const randomIndex = Math.floor(Math.random() * dictionaryItems.length);
+                const randomItem = dictionaryItems[randomIndex];
+                const imgElement = randomItem.querySelector('img');
+
+                if (imgElement) {
+                    // Get image data and select it
+                    const imagePath = imgElement.src;
+                    const imageName = randomItem.querySelector('span')?.textContent || 'image';
+
+                    // Use toggleImageSelection to select the image
+                    toggleImageSelection({
+                        path: imagePath,
+                        word: imageName,
+                        name: imageName
+                    });
+                }
+
+                // Set parameters: Missing Pieces: 1, Solution Options: 3, Piece Shape: square
+                missingCountInput.value = 1;
+                solutionOptionsInput.value = 3;
+                pieceShapeSelect.value = 'square';
+
+                // Give a small delay before generating
+                await new Promise(resolve => setTimeout(resolve, 200));
+
+                // Generate the worksheet
+                await handleGenerateWorksheet();
+
+                console.log('Initial worksheet generated successfully');
+            } catch (error) {
+                console.error('Error generating initial worksheet:', error);
+            }
+        }
+
         // --- App Initialization ---
         worksheetCanvas = initializeCanvas(worksheetCanvasElement);
         answerKeyCanvas = initializeCanvas(answerKeyCanvasElement);
@@ -2429,28 +2524,45 @@ async function downloadPDF(canvasToExport, filename) {
                  deleteSelectedObjects();
             }
         });
-        // Initialize language selector
-        const languageSelect = document.getElementById('languageSelect');
-        const urlParams = new URLSearchParams(window.location.search);
-        const localeParam = urlParams.get('locale');
-        if (localeParam && languageSelect) {
-            languageSelect.value = localeParam;
-            currentLocale = localeParam;
-        }
-        
-        if (languageSelect) {
-            languageSelect.addEventListener('change', function() {
-                const newLocale = this.value;
-                // Update URL and reload page (like Addition app does)
-                const url = new URL(window.location.href);
-                url.searchParams.set('locale', newLocale);
-                window.location.href = url.toString();
+        // Initialize UnifiedLanguageManager for content language (image library)
+        if (typeof window.UnifiedLanguageManager !== 'undefined') {
+            window.languageManager = window.UnifiedLanguageManager;
+
+            // Register callback to reload image library when content language changes
+            window.languageManager.onLanguageChange(function(newLocale, oldLocale) {
+                console.log('[Missing Pieces] Content language changed from', oldLocale, 'to', newLocale);
+                currentLocale = newLocale;
+                window.currentLocale = newLocale;
+
+                // Reload image themes and library for the new content language
+                loadThemes();
+                loadBorderThemes();
+                loadBackgroundThemes();
             });
+        } else {
+            // Fallback: Set up language handler without UnifiedLanguageManager
+            // This maintains backward compatibility if the script isn't loaded
+            console.warn('[Missing Pieces] UnifiedLanguageManager not found, using fallback mode');
+            const languageSelect = document.getElementById('languageSelect');
+            if (languageSelect) {
+                languageSelect.value = currentLocale;
+                languageSelect.addEventListener('change', function() {
+                    const newLocale = this.value;
+                    currentLocale = newLocale;
+                    window.currentLocale = newLocale;
+
+                    // Reload image themes and library for the new content language
+                    loadThemes();
+                    loadBorderThemes();
+                    loadBackgroundThemes();
+                });
+            }
         }
         
         // Apply translations using the t() function from translations-missing-pieces.js
         function applyTranslations() {
-            console.log('[Missing Pieces] Applying translations for locale:', window.currentLocale);
+            console.log('[Missing Pieces] Applying UI translations for locale:', window.uiLocale || window.currentLocale);
+            console.log('[Missing Pieces] Content locale:', window.currentLocale);
             console.log('[Missing Pieces] Translation function available:', typeof t !== 'undefined');
             console.log('[Missing Pieces] Translations object available:', typeof translations !== 'undefined');
 
@@ -2529,8 +2641,11 @@ async function downloadPDF(canvasToExport, filename) {
                 loadDictionary();
             }
         }, 500);
-        handleSelectionCleared(null, getActiveCanvas()); 
+        handleSelectionCleared(null, getActiveCanvas());
         accordionButtons[0].click();
+
+        // Generate initial worksheet after a delay to allow UI initialization
+        setTimeout(() => generateInitialWorksheet(), 1000);
     });
   </script>
 </body>

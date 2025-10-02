@@ -39,6 +39,7 @@ const translations = {
         "languageSettings": "Language Settings",
         "selectLanguage": "Select Language",
         "language": "Language:",
+        "imageLibraryLanguage": "Image Library Language:",
         "pageSetup": "Page Setup",
         "pageSize": "Page Size:",
         "letterPortrait": "Letter Portrait (8.5×11\")",
@@ -117,6 +118,7 @@ const translations = {
         "languageSettings": "Spracheinstellungen",
         "selectLanguage": "Sprache auswählen",
         "language": "Sprache:",
+        "imageLibraryLanguage": "Bilderbibliothek-Sprache:",
         "pageSetup": "Seiteneinrichtung",
         "pageSize": "Seitengröße:",
         "letterPortrait": "Letter Hochformat (8,5×11\")",
@@ -195,6 +197,7 @@ const translations = {
         "languageSettings": "Paramètres de langue",
         "selectLanguage": "Sélectionner la langue",
         "language": "Langue :",
+        "imageLibraryLanguage": "Langue de la bibliothèque d'images :",
         "pageSetup": "Configuration de page",
         "pageSize": "Taille de page :",
         "letterPortrait": "Lettre Portrait (8,5×11\")",
@@ -274,6 +277,7 @@ const translations = {
         "languageSettings": "Configuración de idioma",
         "selectLanguage": "Seleccionar idioma",
         "language": "Idioma:",
+        "imageLibraryLanguage": "Idioma de la biblioteca de imágenes:",
         "pageSetup": "Configuración de página",
         "pageSize": "Tamaño de página:",
         "letterPortrait": "Carta Vertical (8.5×11\")",
@@ -353,6 +357,7 @@ const translations = {
         "languageSettings": "Impostazioni lingua",
         "selectLanguage": "Seleziona lingua",
         "language": "Lingua:",
+        "imageLibraryLanguage": "Lingua della biblioteca di immagini:",
         "pageSetup": "Impostazione pagina",
         "pageSize": "Dimensione pagina:",
         "letterPortrait": "Lettera Verticale (8.5×11\")",
@@ -432,6 +437,7 @@ const translations = {
         "languageSettings": "Configurações de idioma",
         "selectLanguage": "Selecionar idioma",
         "language": "Idioma:",
+        "imageLibraryLanguage": "Idioma da biblioteca de imagens:",
         "pageSetup": "Configuração de página",
         "pageSize": "Tamanho da página:",
         "letterPortrait": "Carta Vertical (8.5×11\")",
@@ -520,6 +526,7 @@ const translations = {
         "languageSettings": "Language Settings",
         "selectLanguage": "Select Language",
         "language": "Language:",
+        "imageLibraryLanguage": "Image Library Language:",
 
         // Page Setup
         "pageSetup": "Page Setup",
@@ -618,6 +625,7 @@ const translations = {
         "languageSettings": "Spracheinstellungen",
         "selectLanguage": "Sprache auswählen",
         "language": "Sprache:",
+        "imageLibraryLanguage": "Bilderbibliothek-Sprache:",
 
         // Page Setup
         "pageSetup": "Seiteneinrichtung",
@@ -716,6 +724,7 @@ const translations = {
         "languageSettings": "Paramètres de langue",
         "selectLanguage": "Sélectionner la langue",
         "language": "Langue :",
+        "imageLibraryLanguage": "Langue de la bibliothèque d'images :",
 
         // Page Setup
         "pageSetup": "Configuration de page",
@@ -815,6 +824,7 @@ const translations = {
         "languageSettings": "Configuración de idioma",
         "selectLanguage": "Seleccionar idioma",
         "language": "Idioma:",
+        "imageLibraryLanguage": "Idioma de la biblioteca de imágenes:",
 
         // Page Setup
         "pageSetup": "Configuración de página",
@@ -914,6 +924,7 @@ const translations = {
         "languageSettings": "Impostazioni lingua",
         "selectLanguage": "Seleziona lingua",
         "language": "Lingua:",
+        "imageLibraryLanguage": "Lingua della biblioteca di immagini:",
 
         // Page Setup
         "pageSetup": "Impostazione pagina",
@@ -1013,6 +1024,7 @@ const translations = {
         "languageSettings": "Configurações de idioma",
         "selectLanguage": "Selecionar idioma",
         "language": "Idioma:",
+        "imageLibraryLanguage": "Idioma da biblioteca de imagens:",
 
         // Page Setup
         "pageSetup": "Configuração de página",

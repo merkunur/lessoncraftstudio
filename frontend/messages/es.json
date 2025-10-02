@@ -286,8 +286,8 @@
     "copyright": "© 2024 LessonCraftStudio. Todos los derechos reservados."
   },
   "pricing": {
-    "heroTitle": "Precios claros y sin sorpresas",
-    "heroSubtitle": "Encuentra el plan perfecto para crear materiales educativos de calidad profesional",
+    "heroTitle": "Simple. Transparente. Justo.",
+    "heroSubtitle": "Elige el plan que mejor se adapte a tu forma de enseñar",
     "billingToggle": {
       "monthly": "Mensual",
       "yearly": "Anual",
@@ -305,14 +305,14 @@
         "name": "Gratis",
         "price": "$0",
         "period": "",
-        "description": "Ideal para probar nuestras herramientas",
+        "description": "Perfecto para conocer la plataforma",
         "features": {
           "0": "Generador de sopa de letras (con marca de agua)",
-          "1": "Marca de agua sutil en los documentos",
+          "1": "Marca de agua discreta en las fichas",
           "2": "Biblioteca de imágenes básica",
           "3": "Plantillas estándar",
           "4": "Soporte de la comunidad",
-          "5": "Solo para uso personal"
+          "5": "Solo uso personal"
         },
         "limitations": {
           "0": "Marca de agua en todas las fichas",
@@ -325,22 +325,22 @@
         "cta": "Empezar gratis"
       },
       "core": {
-        "name": "Paquete Esencial",
+        "name": "Esencial",
         "price": "$15",
         "period": "/mes",
         "yearlyPrice": "$144",
-        "description": "Las herramientas imprescindibles para educadores profesionales",
+        "description": "Todo lo que necesitas para crear fichas increíbles",
         "features": {
-          "0": "10 generadores más populares",
+          "0": "Los 10 generadores más usados",
           "1": "Sin marca de agua",
-          "2": "Biblioteca completa (100+ temas)",
+          "2": "Biblioteca completa (más de 100 temas)",
           "3": "Todas las plantillas premium",
           "4": "Licencia comercial POD incluida",
-          "5": "Soporte por correo",
-          "6": "Exportar en PDF y JPEG de alta calidad"
+          "5": "Soporte por email",
+          "6": "Exporta en PDF y JPEG de alta calidad"
         },
         "apps": {
-          "0": "10 generadores más populares:",
+          "0": "Los 10 generadores más populares:",
           "1": "Suma con imágenes",
           "2": "Tren del alfabeto",
           "3": "Páginas para colorear",
@@ -352,27 +352,27 @@
           "9": "Bingo de imágenes",
           "10": "Sudoku para niños"
         },
-        "cta": "Prueba gratis 7 días"
+        "cta": "Empieza ahora"
       },
       "full": {
-        "name": "Acceso Total",
+        "name": "Premium",
         "price": "$25",
         "period": "/mes",
         "yearlyPrice": "$240",
-        "description": "El paquete completo para creadores de contenido ambiciosos",
+        "description": "Acceso completo a todos los generadores y funciones",
         "features": {
           "0": "Los 33 generadores disponibles",
-          "1": "Todo el Paquete Esencial incluido",
-          "2": "Soporte prioritario por correo",
-          "3": "Acceso anticipado a novedades",
+          "1": "Todo lo del plan Esencial incluido",
+          "2": "Soporte prioritario por email",
+          "3": "Acceso anticipado a nuevas funciones",
           "4": "Opciones avanzadas de personalización",
-          "5": "Actualizaciones regulares y nuevas funciones"
+          "5": "Actualizaciones constantes"
         },
         "apps": {
-          "0": "Todos los generadores del Paquete Esencial más:",
+          "0": "Todos los generadores del plan Esencial más:",
           "1": "Grande o pequeño",
           "2": "Gráficos para contar y colorear",
-          "3": "Code-Addition",
+          "3": "Suma codificada",
           "4": "Dibujar y colorear",
           "5": "Encuentra los objetos",
           "6": "Cuadrícula de parejas",
@@ -393,27 +393,27 @@
           "21": "Adivina la palabra",
           "22": "Práctica de escritura en inglés"
         },
-        "cta": "Prueba gratis 7 días",
-        "popular": "MÁS POPULAR"
+        "cta": "Empieza ahora",
+        "popular": "MÁS ELEGIDO"
       }
     },
     "comparison": {
-      "title": "Compara nuestros planes en detalle",
+      "title": "Compara los planes en detalle",
       "features": "Características",
       "numberOfApps": "Número de generadores",
       "watermark": "Sin marca de agua",
       "commercialLicense": "Licencia comercial",
-      "imageLibrarySize": "Tamaño de la biblioteca de imágenes",
+      "imageLibrarySize": "Biblioteca de imágenes",
       "imageLibrary": {
         "free": "Limitada (10 temas)",
-        "core": "Completa (100+ temas)",
-        "full": "Completa (100+ temas)"
+        "core": "Completa (más de 100 temas)",
+        "full": "Completa (más de 100 temas)"
       },
       "support": "Soporte",
       "supportTypes": {
         "free": "Comunidad",
-        "core": "Correo",
-        "full": "Correo prioritario"
+        "core": "Email",
+        "full": "Email prioritario"
       },
       "earlyAccess": "Acceso anticipado a nuevas funciones"
     },
@@ -433,12 +433,12 @@
           "answer": "¡Claro que sí! Puedes cambiar a un plan superior o inferior cuando desees. Al subir de plan, solo pagas la diferencia. Al bajar, el cambio se aplica en el siguiente ciclo de facturación."
         },
         {
-          "question": "¿Hay periodo de prueba gratuito?",
-          "answer": "¡Sí! Tanto el Paquete Esencial como el Acceso Total incluyen 7 días de prueba gratuita. Puedes probar todas las funciones sin compromiso antes de decidirte."
+          "question": "¿Puedo probar antes de comprar?",
+          "answer": "¡Claro! Nuestro plan Gratis te da acceso al generador de sopa de letras para que pruebes la plataforma. Es la mejor forma de ver la calidad de nuestras herramientas antes de pasarte a un plan de pago."
         },
         {
           "question": "¿Qué métodos de pago aceptan?",
-          "answer": "Aceptamos todas las tarjetas principales (Visa, Mastercard, American Express) y también PayPal. Los pagos son procesados de forma segura a través de Stripe."
+          "answer": "Aceptamos todas las tarjetas principales (Visa, Mastercard, American Express). Los pagos son procesados de forma segura a través de Stripe."
         },
         {
           "question": "¿Puedo crear fichas en otros idiomas?",
@@ -447,9 +447,9 @@
       ]
     },
     "cta": {
-      "title": "¿Listo para crear fichas educativas increíbles?",
-      "subtitle": "Únete a miles de educadores que ahorran tiempo y cautivan a sus estudiantes",
-      "button": "Comenzar gratis",
+      "title": "¿Listo para crear fichas increíbles?",
+      "subtitle": "Únete a miles de docentes que ahorran tiempo y conectan con sus alumnos",
+      "button": "Empezar gratis",
       "disclaimer": "Sin tarjeta de crédito • Cancela cuando quieras"
     }
   },
@@ -819,90 +819,90 @@
   },
   "dashboard": {
     "header": {
-      "welcome": "¡Bienvenido de nuevo, {name}!",
+      "welcome": "¡Qué bueno verte de nuevo, {name}!",
       "welcomeFallback": "¡Bienvenido de nuevo!",
-      "subtitle": "Creemos algo increíble hoy",
+      "subtitle": "Vamos a crear algo increíble hoy",
       "signOut": "Cerrar sesión"
     },
     "stats": {
-      "worksheetsCreated": "Hojas creadas",
-      "totalThisMonth": "Total este mes",
+      "worksheetsCreated": "Fichas creadas",
+      "totalThisMonth": "Total del mes",
       "appsAvailable": "Aplicaciones disponibles",
-      "inYourPlan": "En su plan",
-      "currentPlan": "Plan actual",
-      "yourMembership": "Su membresía"
+      "inYourPlan": "Incluidas en tu plan",
+      "currentPlan": "Tu plan actual",
+      "yourMembership": "Tu suscripción"
     },
     "tierNames": {
-      "free": "Gratis",
-      "core": "Básico",
-      "full": "Pro"
+      "free": "Gratuito",
+      "core": "Esencial",
+      "full": "Premium"
     },
     "generators": {
-      "title": "Generadores de hojas",
-      "searchPlaceholder": "Buscar generadores...",
+      "title": "Generadores de fichas",
+      "searchPlaceholder": "Buscar generador...",
       "filterLabel": "Todas las categorías",
       "categoryAll": "Todas las categorías",
       "open": "Abrir →",
       "noResults": "No se encontraron generadores",
-      "tryAdjusting": "Intente ajustar su búsqueda o filtros"
+      "tryAdjusting": "Prueba con otra búsqueda o ajusta los filtros"
     },
     "subscription": {
-      "title": "Suscripción",
+      "title": "Mi suscripción",
       "currentPlan": "Plan actual",
-      "free": "Gratis",
+      "free": "Gratuito",
       "perMonth": "/mes",
       "renewsOn": "Se renueva el",
-      "cancelsOn": "Se cancela el",
+      "cancelsOn": "Finaliza el",
       "whatsIncluded": "Qué incluye:",
-      "upgradePlan": "Mejorar plan",
-      "manageBilling": "Gestionar facturación",
+      "upgradePlan": "Cambiar de plan",
+      "manageBilling": "Gestionar pagos",
       "loading": "Cargando...",
-      "cancelWarning": "⚠️ Su suscripción finalizará el {date}"
+      "cancelWarning": "⚠️ Tu suscripción finalizará el {date}"
     },
     "activity": {
-      "title": "Su actividad",
-      "worksheetsCreated": "Hojas creadas",
+      "title": "Tu actividad",
+      "worksheetsCreated": "Fichas creadas",
       "downloads": "Descargas",
-      "generatorsUsed": "Generadores utilizados",
+      "generatorsUsed": "Generadores usados",
       "thisWeek": "+3 esta semana",
       "thisMonth": "Este mes",
-      "uniqueApps": "Aplicaciones únicas",
+      "uniqueApps": "Aplicaciones distintas",
       "unlimited": "Ilimitado",
-      "trackingNote": "📊 Su actividad se rastrea para ayudarle a mantenerse dentro de los límites de su plan"
+      "trackingNote": "📊 Registramos tu actividad para ayudarte a aprovechar mejor tu plan"
     },
     "paymentHistory": {
       "title": "Historial de pagos",
-      "noPayments": "Aún no hay historial de pagos",
-      "noPaymentsSubtext": "Sus pagos aparecerán aquí después de suscribirse",
+      "noPayments": "Aún no hay pagos registrados",
+      "noPaymentsSubtext": "Tus pagos aparecerán aquí cuando te suscribas",
       "viewAll": "Ver todos los pagos →",
       "downloadInvoice": "Descargar factura",
-      "succeeded": "exitoso",
+      "succeeded": "completado",
       "failed": "fallido",
       "pending": "pendiente"
     },
     "tiers": {
       "free": {
-        "description": "Comience con el generador de sopa de letras",
+        "description": "Perfecto para probar la plataforma",
         "features": [
-          "Solo generador de sopa de letras",
-          "Generación ilimitada de fichas",
-          "Descargas con marca de agua"
+          "Generador de sopa de letras",
+          "Fichas ilimitadas",
+          "Con marca de agua"
         ]
       },
       "core": {
-        "description": "Perfecto para uso regular en el aula",
+        "description": "Ideal para el día a día en el aula",
         "features": [
-          "Acceso a 10 generadores populares",
-          "Generación ilimitada de fichas",
-          "Sin marcas de agua"
+          "Los 10 generadores más populares",
+          "Fichas ilimitadas",
+          "Sin marca de agua"
         ]
       },
       "full": {
-        "description": "Acceso completo para usuarios avanzados",
+        "description": "La solución completa para profesionales",
         "features": [
-          "Acceso a los 33 generadores",
-          "Generación ilimitada de fichas",
-          "Sin marcas de agua"
+          "Los 33 generadores",
+          "Fichas ilimitadas",
+          "Sin marca de agua"
         ]
       }
     },

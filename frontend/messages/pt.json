@@ -263,8 +263,8 @@
     }
   },
   "pricing": {
-    "heroTitle": "Preços simples e diretos",
-    "heroSubtitle": "Escolha o plano ideal para criar material educativo de qualidade profissional",
+    "heroTitle": "Simples. Transparente. Justo.",
+    "heroSubtitle": "Escolha o plano que combina com você",
     "billingToggle": {
       "monthly": "Mensal",
       "yearly": "Anual",
@@ -282,42 +282,42 @@
         "name": "Gratuito",
         "price": "$0",
         "period": "",
-        "description": "Ideal para conhecer nossas ferramentas",
+        "description": "Perfeito para conhecer a plataforma",
         "features": {
           "0": "Gerador de caça-palavras (com marca d'água)",
-          "1": "Marca d'água discreta nos documentos",
+          "1": "Marca d'água discreta nas atividades",
           "2": "Biblioteca de imagens básica",
-          "3": "Modelos padrão incluídos",
+          "3": "Modelos padrão",
           "4": "Suporte da comunidade",
-          "5": "Apenas para uso pessoal"
+          "5": "Apenas uso pessoal"
         },
         "limitations": {
-          "0": "Marca d'água em todos os documentos",
+          "0": "Marca d'água em todas as atividades",
           "1": "Sem licença comercial",
           "2": "Personalização limitada"
         },
         "apps": {
           "0": "Gerador de caça-palavras (com marca d'água)"
         },
-        "cta": "Começar gratuitamente"
+        "cta": "Começar grátis"
       },
       "core": {
-        "name": "Pacote Essencial",
+        "name": "Essencial",
         "price": "$15",
         "period": "/mês",
         "yearlyPrice": "$144",
-        "description": "As ferramentas fundamentais para educadores profissionais",
+        "description": "Tudo que você precisa para criar atividades incríveis",
         "features": {
-          "0": "Os 10 geradores mais procurados",
+          "0": "Os 10 geradores mais usados",
           "1": "Sem marca d'água",
-          "2": "Biblioteca completa (100+ temas)",
+          "2": "Biblioteca completa (mais de 100 temas)",
           "3": "Todos os modelos premium",
           "4": "Licença comercial POD incluída",
           "5": "Suporte por email",
-          "6": "Exportação em PDF e JPEG de alta qualidade"
+          "6": "Exporte em PDF e JPEG de alta qualidade"
         },
         "apps": {
-          "0": "10 geradores mais populares:",
+          "0": "Os 10 geradores mais populares:",
           "1": "Adição ilustrada",
           "2": "Trenzinho do alfabeto",
           "3": "Páginas para colorir",
@@ -329,27 +329,27 @@
           "9": "Bingo ilustrado",
           "10": "Sudoku infantil"
         },
-        "cta": "Teste grátis por 7 dias"
+        "cta": "Começar agora"
       },
       "full": {
-        "name": "Acesso Total",
+        "name": "Premium",
         "price": "$25",
         "period": "/mês",
         "yearlyPrice": "$240",
-        "description": "O pacote completo para criadores de conteúdo ambiciosos",
+        "description": "Acesso completo a todos os geradores e recursos",
         "features": {
           "0": "Todos os 33 geradores disponíveis",
-          "1": "Tudo do Pacote Essencial incluído",
+          "1": "Tudo do plano Essencial incluído",
           "2": "Suporte prioritário por email",
-          "3": "Acesso antecipado a novidades",
+          "3": "Acesso antecipado a novos recursos",
           "4": "Personalização avançada",
-          "5": "Atualizações regulares e novos recursos"
+          "5": "Atualizações constantes"
         },
         "apps": {
-          "0": "Todos os geradores do Pacote Essencial mais:",
+          "0": "Todos os geradores do plano Essencial mais:",
           "1": "Grande ou pequeno",
           "2": "Gráficos para contar e colorir",
-          "3": "Code-Addition",
+          "3": "Adição codificada",
           "4": "Desenhar e colorir",
           "5": "Encontre os objetos",
           "6": "Grade de correspondência",
@@ -370,21 +370,21 @@
           "21": "Adivinhe a palavra",
           "22": "Prática de escrita em inglês"
         },
-        "cta": "Teste grátis por 7 dias",
-        "popular": "MAIS ESCOLHIDO"
+        "cta": "Começar agora",
+        "popular": "MAIS POPULAR"
       }
     },
     "comparison": {
-      "title": "Compare nossos planos em detalhes",
+      "title": "Compare os planos em detalhes",
       "features": "Recursos",
       "numberOfApps": "Número de geradores",
       "watermark": "Sem marca d'água",
       "commercialLicense": "Licença comercial",
-      "imageLibrarySize": "Tamanho da biblioteca de imagens",
+      "imageLibrarySize": "Biblioteca de imagens",
       "imageLibrary": {
         "free": "Limitada (10 temas)",
-        "core": "Completa (100+ temas)",
-        "full": "Completa (100+ temas)"
+        "core": "Completa (mais de 100 temas)",
+        "full": "Completa (mais de 100 temas)"
       },
       "support": "Suporte",
       "supportTypes": {
@@ -403,11 +403,11 @@
         },
         "1": {
           "question": "Quais formas de pagamento vocês aceitam?",
-          "answer": "Aceitamos todos os principais cartões de crédito (Visa, Mastercard, American Express) e PayPal. Todos os pagamentos são processados com segurança através do Stripe."
+          "answer": "Aceitamos todos os principais cartões de crédito (Visa, Mastercard, American Express). Todos os pagamentos são processados com segurança através do Stripe."
         },
         "2": {
-          "question": "Existe período de teste gratuito?",
-          "answer": "Sim! Tanto o Pacote Essencial quanto o Acesso Total oferecem 7 dias de teste gratuito. Não é necessário cartão de crédito para começar."
+          "question": "Posso testar antes de comprar?",
+          "answer": "Claro! Nosso plano Gratuito dá acesso ao gerador de caça-palavras para você testar a plataforma. É a melhor forma de ver a qualidade das nossas ferramentas antes de assinar um plano pago."
         },
         "3": {
           "question": "O que é a licença comercial POD?",
@@ -424,10 +424,10 @@
       }
     },
     "cta": {
-      "title": "Pronto para criar fichas educativas incríveis?",
+      "title": "Pronto para criar atividades incríveis?",
       "subtitle": "Junte-se a milhares de professores que economizam tempo e engajam seus alunos",
-      "button": "Comece agora gratuitamente",
-      "disclaimer": "Sem necessidade de cartão de crédito • Cancele quando quiser"
+      "button": "Começar grátis",
+      "disclaimer": "Sem cartão de crédito • Cancele quando quiser"
     }
   },
   "footer": {
@@ -819,90 +819,90 @@
   },
   "dashboard": {
     "header": {
-      "welcome": "Bem-vindo de volta, {name}!",
+      "welcome": "Que bom ter você de volta, {name}!",
       "welcomeFallback": "Bem-vindo de volta!",
       "subtitle": "Vamos criar algo incrível hoje",
       "signOut": "Sair"
     },
     "stats": {
-      "worksheetsCreated": "Folhas criadas",
-      "totalThisMonth": "Total este mês",
+      "worksheetsCreated": "Atividades criadas",
+      "totalThisMonth": "Total do mês",
       "appsAvailable": "Aplicativos disponíveis",
-      "inYourPlan": "No seu plano",
-      "currentPlan": "Plano atual",
+      "inYourPlan": "Inclusos no seu plano",
+      "currentPlan": "Seu plano atual",
       "yourMembership": "Sua assinatura"
     },
     "tierNames": {
-      "free": "Grátis",
-      "core": "Básico",
-      "full": "Pro"
+      "free": "Gratuito",
+      "core": "Essencial",
+      "full": "Premium"
     },
     "generators": {
-      "title": "Geradores de folhas",
-      "searchPlaceholder": "Pesquisar geradores...",
+      "title": "Geradores de atividades",
+      "searchPlaceholder": "Buscar gerador...",
       "filterLabel": "Todas as categorias",
       "categoryAll": "Todas as categorias",
       "open": "Abrir →",
       "noResults": "Nenhum gerador encontrado",
-      "tryAdjusting": "Tente ajustar sua pesquisa ou filtros"
+      "tryAdjusting": "Tente usar outros termos ou ajustar os filtros"
     },
     "subscription": {
-      "title": "Assinatura",
+      "title": "Minha assinatura",
       "currentPlan": "Plano atual",
       "free": "Gratuito",
       "perMonth": "/mês",
-      "renewsOn": "Renovado em",
-      "cancelsOn": "Cancelado em",
-      "whatsIncluded": "O que está incluído:",
-      "upgradePlan": "Atualizar plano",
-      "manageBilling": "Gerenciar faturamento",
+      "renewsOn": "Renova em",
+      "cancelsOn": "Expira em",
+      "whatsIncluded": "O que está incluso:",
+      "upgradePlan": "Mudar de plano",
+      "manageBilling": "Gerenciar pagamentos",
       "loading": "Carregando...",
-      "cancelWarning": "⚠️ Sua assinatura terminará em {date}"
+      "cancelWarning": "⚠️ Sua assinatura expira em {date}"
     },
     "activity": {
       "title": "Sua atividade",
-      "worksheetsCreated": "Folhas criadas",
+      "worksheetsCreated": "Atividades criadas",
       "downloads": "Downloads",
-      "generatorsUsed": "Geradores utilizados",
-      "thisWeek": "+3 esta semana",
+      "generatorsUsed": "Geradores usados",
+      "thisWeek": "+3 nesta semana",
       "thisMonth": "Este mês",
-      "uniqueApps": "Aplicativos únicos",
+      "uniqueApps": "Aplicativos diferentes",
       "unlimited": "Ilimitado",
-      "trackingNote": "📊 Sua atividade é rastreada para ajudá-lo a permanecer dentro dos limites do seu plano"
+      "trackingNote": "📊 Acompanhamos sua atividade para ajudar você a aproveitar melhor seu plano"
     },
     "paymentHistory": {
       "title": "Histórico de pagamentos",
-      "noPayments": "Ainda não há histórico de pagamentos",
-      "noPaymentsSubtext": "Seus pagamentos aparecerão aqui após a assinatura",
+      "noPayments": "Nenhum pagamento registrado ainda",
+      "noPaymentsSubtext": "Seus pagamentos aparecerão aqui depois que você assinar",
       "viewAll": "Ver todos os pagamentos →",
-      "downloadInvoice": "Baixar fatura",
-      "succeeded": "bem-sucedido",
+      "downloadInvoice": "Baixar nota fiscal",
+      "succeeded": "concluído",
       "failed": "falhou",
       "pending": "pendente"
     },
     "tiers": {
       "free": {
-        "description": "Comece com o gerador de caça-palavras",
+        "description": "Perfeito para conhecer a plataforma",
         "features": [
-          "Apenas gerador de caça-palavras",
-          "Geração ilimitada de fichas",
-          "Downloads com marca d'água"
+          "Gerador de caça-palavras",
+          "Atividades ilimitadas",
+          "Com marca d'água"
         ]
       },
       "core": {
-        "description": "Perfeito para uso regular em sala de aula",
+        "description": "Ideal para o dia a dia em sala de aula",
         "features": [
-          "Acesso a 10 geradores populares",
-          "Geração ilimitada de fichas",
-          "Sem marcas d'água"
+          "Os 10 geradores mais populares",
+          "Atividades ilimitadas",
+          "Sem marca d'água"
         ]
       },
       "full": {
-        "description": "Acesso completo para usuários avançados",
+        "description": "A solução completa para profissionais",
         "features": [
-          "Acesso a todos os 33 geradores",
-          "Geração ilimitada de fichas",
-          "Sem marcas d'água"
+          "Todos os 33 geradores",
+          "Atividades ilimitadas",
+          "Sem marca d'água"
         ]
       }
     },

@@ -261,11 +261,8 @@ class UnifiedLanguageManager {
             promises.push(this.reloadImageThemes(themeSelect));
         }
 
-        // 3. Apply UI translations
-        if (typeof applyTranslations === 'function') {
-            console.log('[UnifiedLanguageManager] Applying UI translations...');
-            applyTranslations();
-        }
+        // 3. DO NOT apply UI translations - UnifiedLanguageManager manages content language only
+        // UI translations are controlled by the uiLocale parameter from the main app header
 
         // 4. Reload any cached content
         if (typeof window.allImagesCache !== 'undefined') {

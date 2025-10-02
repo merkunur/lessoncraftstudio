@@ -1051,11 +1051,17 @@ document.addEventListener("DOMContentLoaded", function() {
                     backgroundSelect: backgroundThemeSelect,
                     locale: currentLocale  // Pass the current locale explicitly
                 });
+
+                // Generate initial default worksheet after everything is loaded
+                await generateInitialWorksheet();
             } else {
                 // Fallback to regular loading - only if BulletproofLoader not available
                 console.warn('BulletproofLoader not available, using fallback');
                 loadBorderThemes();
                 loadBackgroundThemes();
+
+                // Still try to generate initial worksheet
+                generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
             }
         })();
 
@@ -1478,6 +1484,41 @@ document.addEventListener("DOMContentLoaded", function() {
         showMessage(t('sudoku.msg.answer.generated'), 'success');
         downloadAnswerKeyJpegBtn.disabled = false;
         downloadAnswerKeyPdfBtn.disabled = false;
+    }
+
+    // --- Initial Worksheet Generation ---
+    async function generateInitialWorksheet() {
+        try {
+            // Wait for themes to be loaded
+            await new Promise(resolve => {
+                const checkThemes = () => {
+                    if (worksheetThemeSelect && worksheetThemeSelect.options.length > 1) {
+                        resolve();
+                    } else {
+                        setTimeout(checkThemes, 100);
+                    }
+                };
+                checkThemes();
+            });
+
+            // Add a small delay to ensure everything is fully initialized
+            await new Promise(resolve => setTimeout(resolve, 300));
+
+            // Set default values: Animals theme, Letter portrait, Easy (4 blanks)
+            worksheetThemeSelect.value = 'animals';
+            pageSizeSelect.value = '612x792'; // Letter portrait
+            difficultySelect.value = '4'; // Easy (4 blanks)
+
+            // Apply page size
+            const [w, h] = pageSizeSelect.value.split('x').map(Number);
+            updateCanvasDisplayDimensions(w, h);
+
+            // Generate worksheet
+            await handleGenerateWorksheet();
+
+        } catch (error) {
+            console.error('Error generating initial worksheet:', error);
+        }
     }
 
     async function generateSudokuData() {

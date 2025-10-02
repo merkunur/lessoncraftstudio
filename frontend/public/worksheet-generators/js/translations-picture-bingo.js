@@ -44,9 +44,10 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "lang_no": "Norsk (Norwegian)",
     "lang_fi": "Suomi (Finnish)",
 
-    // ============= CORE UI (4 keys) =============
+    // ============= CORE UI (5 keys) =============
     "worksheetSettings": "Worksheet Settings",
     "language": "Language:",
+    "imageLibraryLanguage": "Image Library Language:",
     "cardsAndChips": "Cards + Chips",
     "callouts": "Call-outs",
 
@@ -206,9 +207,10 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "lang_no": "Norsk",
     "lang_fi": "Suomi",
 
-    // ============= CORE UI (4 keys) =============
+    // ============= CORE UI (5 keys) =============
     "worksheetSettings": "Arbeitsblatt-Einstellungen",
     "language": "Sprache:",
+    "imageLibraryLanguage": "Bilderbibliothek-Sprache:",
     "cardsAndChips": "Karten + Spielchips",
     "callouts": "Aufrufliste",
 
@@ -368,9 +370,10 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "lang_no": "Norsk",
     "lang_fi": "Suomi",
 
-    // ============= CORE UI (4 keys) =============
+    // ============= CORE UI (5 keys) =============
     "worksheetSettings": "Paramètres de la fiche",
     "language": "Langue :",
+    "imageLibraryLanguage": "Langue de la bibliothèque d'images :",
     "cardsAndChips": "Cartes + Jetons",
     "callouts": "Grille d'appel",
 
@@ -530,9 +533,10 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "lang_no": "Norsk",
     "lang_fi": "Suomi",
 
-    // ============= CORE UI (4 keys) =============
+    // ============= CORE UI (5 keys) =============
     "worksheetSettings": "Configuración de la hoja",
     "language": "Idioma:",
+    "imageLibraryLanguage": "Idioma de la biblioteca de imágenes:",
     "cardsAndChips": "Cartones + Fichas",
     "callouts": "Lista de llamada",
 
@@ -692,9 +696,10 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "lang_no": "Norsk",
     "lang_fi": "Suomi",
 
-    // ============= CORE UI (4 keys) =============
+    // ============= CORE UI (5 keys) =============
     "worksheetSettings": "Impostazioni della scheda",
     "language": "Lingua:",
+    "imageLibraryLanguage": "Lingua della biblioteca di immagini:",
     "cardsAndChips": "Cartelle + Segnaposto",
     "callouts": "Tabellone di chiamata",
 
@@ -854,9 +859,10 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "lang_no": "Norsk",
     "lang_fi": "Suomi",
 
-    // ============= CORE UI (4 keys) =============
+    // ============= CORE UI (5 keys) =============
     "worksheetSettings": "Configurações da atividade",
     "language": "Idioma:",
+    "imageLibraryLanguage": "Idioma da biblioteca de imagens:",
     "cardsAndChips": "Cartelas + Fichas",
     "callouts": "Lista de chamadas",
 
@@ -1016,9 +1022,10 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "lang_no": "Norsk",
     "lang_fi": "Suomi",
 
-    // ============= CORE UI (4 keys) =============
+    // ============= CORE UI (5 keys) =============
     "worksheetSettings": "Werkblad instellingen",
     "language": "Taal:",
+    "imageLibraryLanguage": "Afbeeldingsbibliotheek-taal:",
     "cardsAndChips": "Kaarten + Fiches",
     "callouts": "Oproeplijst",
 
@@ -1178,9 +1185,10 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "lang_no": "Norsk",
     "lang_fi": "Suomi",
 
-    // ============= CORE UI (4 keys) =============
+    // ============= CORE UI (5 keys) =============
     "worksheetSettings": "Arbetsblad inställningar",
     "language": "Språk:",
+    "imageLibraryLanguage": "Bildbiblioteksspråk:",
     "cardsAndChips": "Brickor + Marker",
     "callouts": "Uppropslista",
 
@@ -1340,9 +1348,10 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "lang_no": "Norsk",
     "lang_fi": "Suomi",
 
-    // ============= CORE UI (4 keys) =============
+    // ============= CORE UI (5 keys) =============
     "worksheetSettings": "Arbejdsark indstillinger",
     "language": "Sprog:",
+    "imageLibraryLanguage": "Billedbibliotekssprog:",
     "cardsAndChips": "Plader + Brikker",
     "callouts": "Opråbsliste",
 
@@ -1502,9 +1511,10 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "lang_no": "Norsk",
     "lang_fi": "Suomi",
 
-    // ============= CORE UI (4 keys) =============
+    // ============= CORE UI (5 keys) =============
     "worksheetSettings": "Arbeidsark innstillinger",
     "language": "Språk:",
+    "imageLibraryLanguage": "Bildebiblioteksspråk:",
     "cardsAndChips": "Brett + Brikker",
     "callouts": "Oppropsliste",
 
@@ -1664,9 +1674,10 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "lang_no": "Norsk",
     "lang_fi": "Suomi",
 
-    // ============= CORE UI (4 keys) =============
+    // ============= CORE UI (5 keys) =============
     "worksheetSettings": "Tehtäväarkin asetukset",
     "language": "Kieli:",
+    "imageLibraryLanguage": "Kuvakirjaston kieli:",
     "cardsAndChips": "Pelilaudat + Pelimerkit",
     "callouts": "Huutolista",
 

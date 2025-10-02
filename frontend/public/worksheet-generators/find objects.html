@@ -530,7 +530,7 @@
         </div>
         <div class="panel-content">
             <div class="language-selector" style="margin: 10px 15px; padding-bottom: 10px; border-bottom: 1px solid var(--app-border-dark);">
-                <label data-translate="language.label" style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Language:</label>
+                <label data-translate="imageLibraryLanguage" style="color: var(--app-text-secondary-dark-theme); font-size: 13px;">Image Library Language:</label>
                 <select id="languageSelect" style="width: 100%; padding: 6px; background: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); border: 1px solid var(--app-border-dark); border-radius: 5px; font-size: 13px;">
                     <option value="en" data-translate="language.english">English</option>
                     <option value="de" data-translate="language.german">Deutsch</option>
@@ -758,17 +758,20 @@
 
   <script>
     // MUST BE FIRST - Before ANY DOM element references
-    let currentLocale = 'en';
-
-    // Initialize locale from URL if present
+    // Set locales globally BEFORE DOMContentLoaded (critical for enhancement scripts)
+    // uiLocale = Interface language (from main app's language selector in header)
+    // currentLocale = Content language for image library (from sidebar selector)
     const urlParams = new URLSearchParams(window.location.search);
-    const localeParam = urlParams.get('locale');
-    if (localeParam) {
-        currentLocale = localeParam;
-    }
 
-    // Set currentLocale globally BEFORE DOMContentLoaded (critical for enhancement scripts)
+    // UI locale comes from the main app (via URL parameter)
+    window.uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
+
+    // Content locale can be different (initially same as UI for simplicity)
+    let currentLocale = urlParams.get('content') || window.uiLocale;
     window.currentLocale = currentLocale;
+
+    console.log('Global uiLocale set to:', window.uiLocale);
+    console.log('Global currentLocale set to:', currentLocale);
 
 
     // Function to update all elements with data-translate attribute
@@ -978,9 +981,63 @@ function updateTranslations() {
             if (worksheetCanvas) worksheetCanvas.backgroundColor = initialColor;
             if (answerKeyCanvas) answerKeyCanvas.backgroundColor = initialColor;
 
-            setupEventListeners(); 
+            setupEventListeners();
 
             loadAllThemes();
+
+            // Generate initial worksheet with default settings
+            async function generateInitialWorksheet() {
+                try {
+                    console.log('Starting initial worksheet generation...');
+
+                    // Wait for themes to be loaded by polling
+                    let attempts = 0;
+                    const maxAttempts = 30; // Reduced from 50
+                    while (distractorThemeSelect.options.length <= 1 && attempts < maxAttempts) {
+                        await new Promise(resolve => setTimeout(resolve, 100));
+                        attempts++;
+                    }
+
+                    if (distractorThemeSelect.options.length <= 1) {
+                        console.error('Failed to load themes for initial worksheet generation');
+                        return;
+                    }
+
+                    console.log('Themes loaded, configuring worksheet...');
+
+                    // Set page size to Letter portrait
+                    getEl('pageSizeSelect').value = '612x792';
+                    const [w, h] = getEl('pageSizeSelect').value.split('x').map(Number);
+                    updateCanvasDisplayDimensions(w, h);
+
+                    // Set distractor theme to animals
+                    distractorThemeSelect.value = 'animals';
+
+                    // Set hidden object theme to food
+                    hiddenObjectThemeSelect.value = 'food';
+
+                    // Update the generate button state
+                    updateGenerateButton();
+
+                    console.log('Configuration complete, generating worksheet...');
+
+                    // Wait a bit more for everything to settle
+                    await new Promise(resolve => setTimeout(resolve, 500));
+
+                    // Check if button is enabled before generating
+                    if (generateDropdownBtn.disabled) {
+                        console.error('Generate button still disabled, cannot generate initial worksheet');
+                        return;
+                    }
+
+                    // Trigger worksheet generation
+                    await generateWorksheet();
+
+                    console.log('Initial worksheet generated successfully');
+                } catch (error) {
+                    console.error('Error generating initial worksheet:', error);
+                }
+            }
 
             // Initialize BulletproofLoader AFTER core functionality is set up
             if (window.BulletproofLoader) {
@@ -990,60 +1047,22 @@ function updateTranslations() {
                 }).then(() => {
                     console.log('BulletproofLoader initialized successfully');
                     // BulletproofLoader handles theme loading, no need for manual loading
+                    // Generate initial worksheet after BulletproofLoader initialization
+                    setTimeout(() => generateInitialWorksheet(), 1000);
                 }).catch(error => {
                     console.error('BulletproofLoader init failed:', error);
                     // Fallback to manual loading only on error
                     loadBorderThemes();
                     loadBackgroundThemes();
-                
-    // Fix file input text
-    const fileInput = document.getElementById('uploadImages');
-    if (fileInput) {
-        // Create a custom file input wrapper
-        const wrapper = document.createElement('div');
-        wrapper.className = 'file-input-wrapper';
-        wrapper.style.position = 'relative';
-        wrapper.style.display = 'inline-block';
-
-        const button = document.createElement('button');
-        button.type = 'button';
-        button.textContent = t('findobjects.choose.files');
-        button.setAttribute('data-translate', 'findobjects.choose.files');
-        button.onclick = () => fileInput.click();
-
-        const label = document.createElement('span');
-        label.textContent = t('findobjects.no.file.chosen');
-        label.setAttribute('data-translate', 'findobjects.no.file.chosen');
-        label.style.marginLeft = '10px';
-
-        fileInput.style.display = 'none';
-        fileInput.parentNode.insertBefore(wrapper, fileInput);
-        wrapper.appendChild(fileInput);
-        wrapper.appendChild(button);
-        wrapper.appendChild(label);
-
-        fileInput.addEventListener('change', function() {
-            if (this.files.length > 0) {
-                label.textContent = this.files.length + ' file(s) selected';
-            } else {
-                label.textContent = t('findobjects.no.file.chosen');
-            }
-            // Setup file input translation
-    if (typeof setupFileInputTranslation === 'function') {
-        setTimeout(() => setupFileInputTranslation(), 100);
-    }
-    // Update custom file input
-    if (typeof updateCustomFileInput === 'function') {
-        updateCustomFileInput();
-    }
-});
-    }
-
-});
+                    // Still generate initial worksheet even if BulletproofLoader fails
+                    setTimeout(() => generateInitialWorksheet(), 1000);
+                });
             } else {
                 // Fallback if BulletproofLoader not available
                 loadBorderThemes();
                 loadBackgroundThemes();
+                // Generate initial worksheet in fallback scenario
+                setTimeout(() => generateInitialWorksheet(), 1000);
             }
 
             loadDictionary();
@@ -1104,14 +1123,15 @@ function updateTranslations() {
         }
         
         function setupEventListeners() {
-            // Language selector change handler
+            // Language selector change handler (sidebar selector - ONLY changes image library language)
+            // This selector ONLY changes the image library language, NOT the UI language
             languageSelect.addEventListener('change', function() {
                 const newLocale = this.value;
                 currentLocale = newLocale;
                 window.currentLocale = newLocale;
+                console.log('Image library language changed to:', currentLocale);
 
-                // Update all translations
-                updateTranslations();
+                // DO NOT call updateTranslations() - UI language is controlled by header selector
 
                 // Clear image cache to reload with new translations
                 imageCache = {};
@@ -1119,9 +1139,9 @@ function updateTranslations() {
                 loadDictionary(); // Reload current images
                 updateSelectedPanels(); // Update selected items display
 
-                // Optionally update URL without reload
+                // Update URL with content parameter instead of locale
                 const url = new URL(window.location);
-                url.searchParams.set('locale', newLocale);
+                url.searchParams.set('content', newLocale);
                 window.history.replaceState({}, '', url);
             });
 
@@ -1642,14 +1662,16 @@ function updateTranslations() {
                 }
             }
             
-            if (theme !== 'all' && !imagesToDisplay.length) { 
-                if (!imageCache[theme]) {
+            if (theme !== 'all' && !imagesToDisplay.length) {
+                // Include locale in cache key to ensure correct language names
+                const cacheKey = `${theme}-${currentLocale}`;
+                if (!imageCache[cacheKey]) {
                     dictionaryDiv.innerHTML = `<p class="dictionary-message">Loading theme: ${theme}...</p>`;
                     try {
                         const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
                         if (!res.ok) throw new Error(`Failed to load theme: ${theme}`);
                         const themeData = await res.json();
-                        imageCache[theme] = themeData.images || themeData; // Handle both new and old API formats
+                        imageCache[cacheKey] = themeData.images || themeData; // Handle both new and old API formats
                     } catch (err) {
                         showMessage(formatTranslation(t('findobjects.msg.theme.error'), {theme: theme}), 'error');
                         console.error(err);
@@ -1657,8 +1679,8 @@ function updateTranslations() {
                         return;
                     }
                 }
-                
-                const source = imageCache[theme] || [];
+
+                const source = imageCache[cacheKey] || [];
                 imagesToDisplay = query ? source.filter(img => {
                     const searchName = (img.name || img.word).toLowerCase();
                     return searchName.includes(query);
@@ -1881,14 +1903,19 @@ function updateTranslations() {
             const answerKeyLegend = await createLegendGroup(true, lastGeneratedLayout);
             if (answerKeyLegend) {
                 const uniqueId = 'ak-legend';
-                // Position at bottom with proper spacing
+                // Position legend so its bottom aligns with the bottom of the border
+                // Border bottom is at: canvasHeight - 36 (half-inch margin)
                 const canvasHeight = currentCanvasConfig.height;
-                const bottomMargin = 100;
+                const borderMargin = 36; // Half inch margin
+                const legendHeight = answerKeyLegend.getScaledHeight();
+                const legendTop = canvasHeight - borderMargin - legendHeight / 2;
+
                 answerKeyLegend.set({
                     left: currentCanvasConfig.width / 2,
-                    top: canvasHeight - bottomMargin,
+                    top: legendTop,
                     originX: 'center',
-                    isAnswerKeyItem: true, 
+                    originY: 'center',
+                    isAnswerKeyItem: true,
                     uniqueId: uniqueId
                 });
                 if (oldTransforms[uniqueId]) answerKeyLegend.set(oldTransforms[uniqueId]);
@@ -1996,15 +2023,16 @@ function updateTranslations() {
         
         // Create simple, stable border - with proper coordinate handling
         async function addDefaultBorder(canvas) {
-            // Calculate border position accounting for stroke width
+            // Calculate border position with half-inch margin (36 points = 0.5 inch)
+            const margin = 36; // Half inch margin on all sides
             const strokeWidth = 3;
-            const borderOffset = strokeWidth / 2;
-            
+            const borderOffset = margin + (strokeWidth / 2);
+
             const border = new fabric.Rect({
                 left: borderOffset,
                 top: borderOffset,
-                width: currentCanvasConfig.width - strokeWidth,
-                height: currentCanvasConfig.height - strokeWidth,
+                width: currentCanvasConfig.width - (2 * margin) - strokeWidth,
+                height: currentCanvasConfig.height - (2 * margin) - strokeWidth,
                 fill: 'transparent',
                 stroke: '#4A90E2',
                 strokeWidth: strokeWidth,
@@ -2021,17 +2049,17 @@ function updateTranslations() {
                 opacity: 0.9,
                 uniqueId: 'default-border'
             });
-            
+
             canvas.add(border);
             border.setCoords();  // Update coordinates after adding
-            
-            // Add decorative corners with proper positioning
+
+            // Add decorative corners with proper positioning (accounting for margin)
             const cornerSize = 20;
             const corners = [
-                { x: cornerSize, y: cornerSize },
-                { x: currentCanvasConfig.width - cornerSize, y: cornerSize },
-                { x: cornerSize, y: currentCanvasConfig.height - cornerSize },
-                { x: currentCanvasConfig.width - cornerSize, y: currentCanvasConfig.height - cornerSize }
+                { x: margin + cornerSize, y: margin + cornerSize },
+                { x: currentCanvasConfig.width - margin - cornerSize, y: margin + cornerSize },
+                { x: margin + cornerSize, y: currentCanvasConfig.height - margin - cornerSize },
+                { x: currentCanvasConfig.width - margin - cornerSize, y: currentCanvasConfig.height - margin - cornerSize }
             ];
             
             corners.forEach((pos, i) => {
@@ -2277,13 +2305,19 @@ function updateTranslations() {
             const legendGroup = await createLegendGroup(false, layoutData);
             if (legendGroup) {
                 const uniqueId = 'worksheet-legend';
-                // Position legend at bottom with proper margin
+                // Position legend so its bottom aligns with the bottom of the border
+                // Border bottom is at: canvasHeight - 36 (half-inch margin)
+                const borderMargin = 36; // Half inch margin
+                const legendHeight = legendGroup.getScaledHeight();
+                const legendTop = canvasHeight - borderMargin - legendHeight / 2;
+
                 legendGroup.set({
-                    left: canvasWidth / 2, 
-                    top: canvasHeight - bottomMargin + 20, 
+                    left: canvasWidth / 2,
+                    top: legendTop,
                     originX: 'center',
-                    isGenerated: true, 
-                    isLegend: true, 
+                    originY: 'center',
+                    isGenerated: true,
+                    isLegend: true,
                     uniqueId: uniqueId
                 });
                 if(oldTransforms[uniqueId]) legendGroup.set(oldTransforms[uniqueId]);
@@ -2466,12 +2500,12 @@ function updateTranslations() {
             showMessage(t('findobjects.msg.cleared'), 'success');
         }
 
-        
-// Translation function
+
+// Translation function (uses uiLocale for UI translations)
 function t(key, params = {}) {
     if (typeof translations === 'undefined') return key;
-    const currentLocale = window.currentLocale || 'en';
-    const translation = (translations[currentLocale] && translations[currentLocale][key]) ||
+    const locale = window.uiLocale || 'en';  // Use uiLocale for UI translations
+    const translation = (translations[locale] && translations[locale][key]) ||
                        (translations.en && translations.en[key]) ||
                        key;
     return formatTranslation(translation, params);

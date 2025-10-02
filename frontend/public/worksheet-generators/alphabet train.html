@@ -2098,6 +2098,56 @@
         return true;
     }
 
+    async function generateInitialWorksheet() {
+        try {
+            // Wait for themes to load first
+            await new Promise(resolve => {
+                const checkThemes = () => {
+                    if (themeSelectEl && themeSelectEl.options.length > 1) {
+                        resolve();
+                    } else {
+                        setTimeout(checkThemes, 100);
+                    }
+                };
+                checkThemes();
+            });
+
+            // Set default settings for initial worksheet
+            // Use auto-create mode with animals theme
+            autoCreateCheckbox.checked = true;
+            isAutoCreateMode = true;
+            themeSelectEl.value = 'animals';
+            document.getElementById('clueCount').value = 5; // Number of clues
+            pageSizeSelect.value = '612x792'; // Letter portrait
+
+            // Apply page size
+            const [width, height] = pageSizeSelect.value.split('x').map(Number);
+            currentCanvasConfig.width = width;
+            currentCanvasConfig.height = height;
+            updateCanvasDisplayDimensions(width, height);
+
+            // Update UI for auto-create mode
+            document.querySelector('.letter-selection').style.display = 'none';
+            searchInputEl.style.display = 'none';
+            dictionaryEl.style.display = 'none';
+            dictionaryPreviewEl.style.display = 'none';
+
+            // Enable generate button since we're in auto-create mode
+            updateGenerateButtonState();
+
+            // Wait a moment for settings to apply
+            await new Promise(resolve => setTimeout(resolve, 200));
+
+            // Generate the worksheet
+            await handleGenerateWorksheet();
+
+            console.log('✅ Initial default worksheet generated');
+        } catch (error) {
+            console.warn('Could not generate initial worksheet:', error);
+            // Fail silently - not critical
+        }
+    }
+
     async function handleGenerateWorksheet() {
         showMessage(t('preparingData'), "info", 0);
         const canProceed = await prepareGenerationData();
@@ -2105,11 +2155,11 @@
 
         showMessage(t('generatingWorksheet'), "info", 0);
         await buildWorksheetOnCanvas();
-        
+
         worksheetGenerated = true;
         generateAnswerKeyBtn.disabled = false;
         updateDownloadButtonsState({ dropdown: true, ws: true, ak: false });
-        
+
         document.querySelector('.tab-button[data-tab="worksheetTab"]').click();
         showMessage(t('worksheetGeneratedCanGenerateAnswerKey'), "success", 3000);
     }
@@ -3189,7 +3239,7 @@ async function downloadPDF(canvasToExport, fileName) {
         }
 
         await loadTemplates();
-        
+
         updateAssignedImagesPanel();
         renderUploadedImages();
         updateGenerateButtonState();
@@ -3197,13 +3247,16 @@ async function downloadPDF(canvasToExport, fileName) {
         borderOpacityInput.disabled = true;
         backgroundOpacityInput.disabled = true;
         document.querySelector('.tab-button[data-tab="worksheetTab"]').click();
-        
+
         // Initial UI state for auto-create mode
         const isAuto = autoCreateCheckbox.checked;
         document.querySelector('.letter-selection').style.display = isAuto ? 'none' : 'block';
         searchInputEl.style.display = isAuto ? 'none' : 'block';
         dictionaryEl.style.display = isAuto ? 'none' : 'block';
         dictionaryPreviewEl.style.display = isAuto ? 'none' : 'flex';
+
+        // Generate initial default worksheet after everything is loaded
+        await generateInitialWorksheet();
     }
     // Language selector handler
     if (languageSelect) {

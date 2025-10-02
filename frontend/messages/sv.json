@@ -250,8 +250,8 @@
     }
   },
   "pricing": {
-    "heroTitle": "Tydliga priser utan dolda kostnader",
-    "heroSubtitle": "Välj det perfekta paketet för att skapa professionellt undervisningsmaterial",
+    "heroTitle": "Enkelt. Transparent. Rättvist.",
+    "heroSubtitle": "Välj det paket som passar dig",
     "billingToggle": {
       "monthly": "Månadsvis",
       "yearly": "Årsvis",
@@ -269,17 +269,17 @@
         "name": "Gratis",
         "price": "$0",
         "period": "",
-        "description": "Perfekt för att testa våra verktyg",
+        "description": "Perfekt för att lära känna plattformen",
         "features": {
           "0": "Ordsökningsgenerator (med vattenstämpel)",
-          "1": "Diskret vattenstämpel på dokument",
-          "2": "Begränsat bildbibliotek",
-          "3": "Standardmallar inkluderade",
+          "1": "Diskret vattenstämpel på arbetsblad",
+          "2": "Grundläggande bildbibliotek",
+          "3": "Standardmallar",
           "4": "Community-support",
-          "5": "Endast för personligt bruk"
+          "5": "Endast personligt bruk"
         },
         "limitations": {
-          "0": "Vattenstämpel på alla dokument",
+          "0": "Vattenstämpel på alla arbetsblad",
           "1": "Ingen kommersiell licens",
           "2": "Begränsade anpassningsmöjligheter"
         },
@@ -289,22 +289,22 @@
         "cta": "Börja gratis"
       },
       "core": {
-        "name": "Baspaket",
+        "name": "Bas",
         "price": "$15",
         "period": "/månad",
         "yearlyPrice": "$144",
-        "description": "De viktigaste verktygen för professionella lärare",
+        "description": "Allt du behöver för att skapa fantastiska arbetsblad",
         "features": {
-          "0": "De 10 populäraste generatorerna",
+          "0": "De 10 mest använda generatorerna",
           "1": "Utan vattenstämpel",
-          "2": "Komplett bibliotek (100+ teman)",
+          "2": "Komplett bibliotek (över 100 teman)",
           "3": "Alla premiummallar",
           "4": "POD kommersiell licens inkluderad",
           "5": "E-postsupport",
-          "6": "Export till PDF och JPEG i hög kvalitet"
+          "6": "Exportera till PDF och JPEG i hög kvalitet"
         },
         "apps": {
-          "0": "10 populäraste generatorer:",
+          "0": "De 10 populäraste generatorerna:",
           "1": "Bildaddition",
           "2": "Alfabetståg",
           "3": "Målarbilder",
@@ -316,28 +316,27 @@
           "9": "Bildbingo",
           "10": "Barnsudoku"
         },
-        "cta": "Prova gratis i 7 dagar"
+        "cta": "Börja nu"
       },
       "full": {
-        "name": "Full Tillgång",
+        "name": "Premium",
         "price": "$25",
         "period": "/månad",
         "yearlyPrice": "$240",
-        "description": "Det kompletta paketet för ambitiösa innehållsskapare",
+        "description": "Full tillgång till alla generatorer och funktioner",
         "features": {
           "0": "Alla 33 generatorer tillgängliga",
-          "1": "Allt från Baspaketet inkluderat",
+          "1": "Allt från Bas inkluderat",
           "2": "Prioriterad e-postsupport",
           "3": "Tidig tillgång till nya funktioner",
           "4": "Avancerade anpassningsalternativ",
-          "5": "Obegränsad lagring av dina arbetsblad",
-          "6": "Regelbundna uppdateringar och nya funktioner"
+          "5": "Kontinuerliga uppdateringar"
         },
         "apps": {
-          "0": "Alla generatorer från Baspaketet plus:",
+          "0": "Alla generatorer från Bas plus:",
           "1": "Stor eller liten",
           "2": "Diagram att räkna och färglägga",
-          "3": "Code-Addition",
+          "3": "Kodaddition",
           "4": "Rita och färglägg",
           "5": "Hitta föremålen",
           "6": "Rutnätsmatchning",
@@ -358,21 +357,21 @@
           "21": "Gissa ordet",
           "22": "Engelska skrivövningar"
         },
-        "cta": "Prova gratis i 7 dagar",
+        "cta": "Börja nu",
         "popular": "POPULÄRAST"
       }
     },
     "comparison": {
-      "title": "Jämför våra paket i detalj",
+      "title": "Jämför paketen i detalj",
       "features": "Funktioner",
       "numberOfApps": "Antal generatorer",
       "watermark": "Utan vattenstämpel",
       "commercialLicense": "Kommersiell licens",
-      "imageLibrarySize": "Bildbiblioteksstorlek",
+      "imageLibrarySize": "Bildbibliotek",
       "imageLibrary": {
         "free": "Begränsad (10 teman)",
-        "core": "Komplett (100+ teman)",
-        "full": "Komplett (100+ teman)"
+        "core": "Komplett (över 100 teman)",
+        "full": "Komplett (över 100 teman)"
       },
       "support": "Support",
       "supportTypes": {
@@ -391,11 +390,11 @@
         },
         "1": {
           "question": "Vilka betalningsmetoder accepterar ni?",
-          "answer": "Vi accepterar alla stora kreditkort (Visa, Mastercard, American Express) och PayPal. Alla betalningar hanteras säkert via Stripe."
+          "answer": "Vi accepterar alla stora kreditkort (Visa, Mastercard, American Express). Alla betalningar hanteras säkert via Stripe."
         },
         "2": {
-          "question": "Finns det en gratis provperiod?",
-          "answer": "Ja! Både Baspaketet och Full Tillgång erbjuder 7 dagars gratis provperiod. Inget kreditkort behövs för att börja."
+          "question": "Kan jag testa innan jag köper?",
+          "answer": "Absolut! Vårt Gratis-paket ger dig tillgång till ordsökningsgeneratorn för att prova plattformen. Det är det bästa sättet att se kvaliteten på våra verktyg innan du går över till ett betalt paket."
         },
         "3": {
           "question": "Vad är POD kommersiell licens?",
@@ -414,7 +413,7 @@
     "cta": {
       "title": "Redo att skapa fantastiska arbetsblad?",
       "subtitle": "Gå med tusentals lärare som sparar tid och engagerar sina elever",
-      "button": "Börja gratis nu",
+      "button": "Börja gratis",
       "disclaimer": "Inget kreditkort krävs • Avsluta när du vill"
     }
   },
@@ -807,90 +806,90 @@
   },
   "dashboard": {
     "header": {
-      "welcome": "Välkommen tillbaka, {name}!",
+      "welcome": "Vad roligt att se dig igen, {name}!",
       "welcomeFallback": "Välkommen tillbaka!",
-      "subtitle": "Låt oss skapa något fantastiskt idag",
+      "subtitle": "Dags att skapa något fantastiskt",
       "signOut": "Logga ut"
     },
     "stats": {
-      "worksheetsCreated": "Arbetsblad skapade",
+      "worksheetsCreated": "Skapade arbetsblad",
       "totalThisMonth": "Totalt denna månad",
       "appsAvailable": "Tillgängliga appar",
-      "inYourPlan": "I ditt paket",
-      "currentPlan": "Nuvarande paket",
-      "yourMembership": "Ditt medlemskap"
+      "inYourPlan": "Ingår i ditt paket",
+      "currentPlan": "Ditt nuvarande paket",
+      "yourMembership": "Din prenumeration"
     },
     "tierNames": {
       "free": "Gratis",
-      "core": "Grund",
-      "full": "Pro"
+      "core": "Bas",
+      "full": "Premium"
     },
     "generators": {
       "title": "Arbetsbladsgeneratorer",
-      "searchPlaceholder": "Sök generatorer...",
+      "searchPlaceholder": "Sök generator...",
       "filterLabel": "Alla kategorier",
       "categoryAll": "Alla kategorier",
       "open": "Öppna →",
-      "noResults": "Inga generatorer hittades",
-      "tryAdjusting": "Försök justera din sökning eller filter"
+      "noResults": "Hittade inga generatorer",
+      "tryAdjusting": "Prova andra sökord eller justera filtren"
     },
     "subscription": {
-      "title": "Prenumeration",
+      "title": "Min prenumeration",
       "currentPlan": "Nuvarande paket",
       "free": "Gratis",
       "perMonth": "/månad",
-      "renewsOn": "Förnyas den",
-      "cancelsOn": "Avslutas den",
-      "whatsIncluded": "Vad som ingår:",
-      "upgradePlan": "Uppgradera paket",
-      "manageBilling": "Hantera fakturering",
+      "renewsOn": "Förnyas",
+      "cancelsOn": "Upphör",
+      "whatsIncluded": "Det här ingår:",
+      "upgradePlan": "Byt paket",
+      "manageBilling": "Hantera betalningar",
       "loading": "Laddar...",
-      "cancelWarning": "⚠️ Din prenumeration avslutas den {date}"
+      "cancelWarning": "⚠️ Din prenumeration upphör den {date}"
     },
     "activity": {
       "title": "Din aktivitet",
-      "worksheetsCreated": "Arbetsblad skapade",
+      "worksheetsCreated": "Skapade arbetsblad",
       "downloads": "Nedladdningar",
       "generatorsUsed": "Använda generatorer",
       "thisWeek": "+3 denna vecka",
       "thisMonth": "Denna månad",
-      "uniqueApps": "Unika appar",
-      "unlimited": "Obegränsad",
-      "trackingNote": "📊 Din aktivitet spåras för att hjälpa dig hålla dig inom dina paketgränser"
+      "uniqueApps": "Olika appar",
+      "unlimited": "Obegränsat",
+      "trackingNote": "📊 Vi följer din aktivitet så att du får ut det mesta av ditt paket"
     },
     "paymentHistory": {
       "title": "Betalningshistorik",
-      "noPayments": "Ingen betalningshistorik än",
-      "noPaymentsSubtext": "Dina betalningar kommer att visas här efter du prenumererar",
+      "noPayments": "Inga betalningar än",
+      "noPaymentsSubtext": "Dina betalningar visas här när du tecknar en prenumeration",
       "viewAll": "Visa alla betalningar →",
       "downloadInvoice": "Ladda ner faktura",
-      "succeeded": "lyckades",
-      "failed": "misslyckades",
-      "pending": "väntande"
+      "succeeded": "genomförd",
+      "failed": "misslyckad",
+      "pending": "pågående"
     },
     "tiers": {
       "free": {
-        "description": "Kom igång med ordletargeneratorn",
+        "description": "Perfekt för att testa plattformen",
         "features": [
-          "Endast ordletargenerator",
-          "Obegränsad arbetsbladsgenerering",
-          "Nedladdningar med vattenstämpel"
+          "Ordletargenerator",
+          "Obegränsat antal arbetsblad",
+          "Med vattenstämpel"
         ]
       },
       "core": {
-        "description": "Perfekt för regelbunden klassrumsanvändning",
+        "description": "Idealisk för daglig användning i klassrummet",
         "features": [
-          "Tillgång till 10 populära arbetsbladsgeneratorer",
-          "Obegränsad arbetsbladsgenerering",
-          "Inga vattenstämplar"
+          "De 10 mest populära generatorerna",
+          "Obegränsat antal arbetsblad",
+          "Utan vattenstämpel"
         ]
       },
       "full": {
-        "description": "Fullständig åtkomst för avancerade användare",
+        "description": "Den kompletta lösningen för proffs",
         "features": [
-          "Tillgång till alla 33 arbetsbladsgeneratorer",
-          "Obegränsad arbetsbladsgenerering",
-          "Inga vattenstämplar"
+          "Alla 33 generatorer",
+          "Obegränsat antal arbetsblad",
+          "Utan vattenstämpel"
         ]
       }
     },

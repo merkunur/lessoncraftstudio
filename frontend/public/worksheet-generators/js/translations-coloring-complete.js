@@ -59,6 +59,7 @@ const translations = {
         // Language Settings
         "languageSettings": "Language Settings",
         "language": "Language:",
+        "imageLibraryLanguage": "Image Library Language:",
 
         // Page Setup
         "pageSetup": "Page Setup",
@@ -167,6 +168,7 @@ const translations = {
         // Language Settings
         "languageSettings": "Spracheinstellungen",
         "language": "Sprache:",
+        "imageLibraryLanguage": "Bilderbibliothek-Sprache:",
 
         // Page Setup
         "pageSetup": "Seiteneinrichtung",
@@ -276,6 +278,7 @@ const translations = {
         // Language Settings
         "languageSettings": "Paramètres de langue",
         "language": "Langue :",
+        "imageLibraryLanguage": "Langue de la bibliothèque d'images :",
 
         // Page Setup
         "pageSetup": "Configuration de page",
@@ -385,6 +388,7 @@ const translations = {
         // Language Settings
         "languageSettings": "Configuración de idioma",
         "language": "Idioma:",
+        "imageLibraryLanguage": "Idioma de la biblioteca de imágenes:",
 
         // Page Setup
         "pageSetup": "Configuración de página",
@@ -494,6 +498,7 @@ const translations = {
         // Language Settings
         "languageSettings": "Impostazioni lingua",
         "language": "Lingua:",
+        "imageLibraryLanguage": "Lingua libreria immagini:",
 
         // Page Setup
         "pageSetup": "Impostazione pagina",
@@ -603,6 +608,7 @@ const translations = {
         // Language Settings
         "languageSettings": "Configurações de idioma",
         "language": "Idioma:",
+        "imageLibraryLanguage": "Idioma da biblioteca de imagens:",
 
         // Page Setup
         "pageSetup": "Configuração da página",
@@ -712,6 +718,7 @@ const translations = {
         // Language Settings
         "languageSettings": "Taalinstellingen",
         "language": "Taal:",
+        "imageLibraryLanguage": "Afbeeldingenbibliotheek taal:",
 
         // Page Setup
         "pageSetup": "Pagina-instelling",
@@ -821,6 +828,7 @@ const translations = {
         // Language Settings
         "languageSettings": "Språkinställningar",
         "language": "Språk:",
+        "imageLibraryLanguage": "Bildbiblioteksspråk:",
 
         // Page Setup
         "pageSetup": "Sidinställning",
@@ -930,6 +938,7 @@ const translations = {
         // Language Settings
         "languageSettings": "Sprogindstillinger",
         "language": "Sprog:",
+        "imageLibraryLanguage": "Billedbibliotekssprog:",
 
         // Page Setup
         "pageSetup": "Sideopsætning",
@@ -1039,6 +1048,7 @@ const translations = {
         // Language Settings
         "languageSettings": "Språkinnstillinger",
         "language": "Språk:",
+        "imageLibraryLanguage": "Bildbiblioteksspråk:",
 
         // Page Setup
         "pageSetup": "Sideoppsett",
@@ -1148,6 +1158,7 @@ const translations = {
         // Language Settings
         "languageSettings": "Kieliasetukset",
         "language": "Kieli:",
+        "imageLibraryLanguage": "Kuvakirjaston kieli:",
 
         // Page Setup
         "pageSetup": "Sivun asetukset",

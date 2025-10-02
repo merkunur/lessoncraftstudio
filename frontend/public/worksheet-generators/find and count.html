@@ -655,25 +655,30 @@
         /* END: Contextual Toolbar CSS */
     </style>
     <script>
-        // Set currentLocale globally BEFORE any scripts initialize
-        let currentLocale = 'en';
+        // Set locales globally BEFORE any scripts initialize
+        // uiLocale = Interface language (from main app's language selector in header)
+        // currentLocale = Content language for image library (from sidebar selector)
         const urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.get('locale')) {
-            currentLocale = urlParams.get('locale');
-        }
+
+        // UI locale comes from the main app (via URL parameter)
+        let uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
+
+        // Content locale can be different (initially same as UI for simplicity)
+        let currentLocale = urlParams.get('content') || uiLocale;
+
+        window.uiLocale = uiLocale;
         window.currentLocale = currentLocale;
+        console.log('Global uiLocale set to:', uiLocale);
+        console.log('Global currentLocale set to:', currentLocale);
 
         // Global translation function (MUST BE DEFINED BEFORE DOMContentLoaded)
+        // Uses uiLocale for UI translations
         function t(key) {
             if (typeof translations === 'undefined') {
                 console.warn('Translations not loaded, returning key:', key);
                 return key;
             }
-            // Use window.currentLocale to ensure we get the global value
-            const locale = window.currentLocale || 'en';
-
-
-            const translation = (translations[locale] && translations[locale][key]) ||
+            const translation = (translations[uiLocale] && translations[uiLocale][key]) ||
                                (translations.en && translations.en[key]) ||
                                key;
             return translation;
@@ -695,7 +700,7 @@
                     <button class="accordion-button active" data-translate="languageSettings">Language Settings</button>
                     <div class="accordion-content active">
                         <h4 data-translate="selectLanguage">Select Language</h4>
-                        <label for="languageSelect" data-translate="language">Language:</label>
+                        <label for="languageSelect" data-translate="imageLibraryLanguage">Image Library Language:</label>
                         <select id="languageSelect">
                             <option value="en" data-translate="lang_en">English</option>
                             <option value="de" data-translate="lang_de">Deutsch (German)</option>
@@ -1852,6 +1857,65 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     // END: REFACTORED CODE (Part C)
 
+    // --- Initial Worksheet Generation ---
+    async function generateInitialWorksheet() {
+        try {
+            // Wait for themes to be loaded
+            await new Promise(resolve => {
+                const checkThemes = () => {
+                    if (themeSelect && themeSelect.options.length > 1) {
+                        resolve();
+                    } else {
+                        setTimeout(checkThemes, 100);
+                    }
+                };
+                checkThemes();
+            });
+
+            // Add a small delay to ensure everything is fully initialized
+            await new Promise(resolve => setTimeout(resolve, 300));
+
+            // Set default values: Animals theme, Letter portrait, 4 hidden objects, all four tasks
+            themeSelect.value = 'animals';
+            pageSizeSelect.value = '612x792'; // Letter portrait
+
+            // Apply page size
+            const [w, h] = pageSizeSelect.value.split('x').map(Number);
+            updateCanvasDisplayDimensions(w, h);
+
+            // Load theme images
+            await loadThemeImages();
+
+            // Wait for images to load
+            await new Promise(resolve => setTimeout(resolve, 200));
+
+            // Select 4 random images from the theme
+            if (currentThemeImages.length >= 4) {
+                // Shuffle and pick 4 random images
+                const shuffled = [...currentThemeImages].sort(() => 0.5 - Math.random());
+                const selectedFour = shuffled.slice(0, 4);
+
+                // Assign all four task types randomly
+                const taskTypes = ['circle', 'square', 'cross', 'count'];
+                const shuffledTasks = [...taskTypes].sort(() => 0.5 - Math.random());
+
+                selectedFour.forEach((img, index) => {
+                    img.type = shuffledTasks[index];
+                    selectedImages.push(img);
+                });
+
+                // Update UI
+                renderSelectedObjectConfig();
+
+                // Generate worksheet
+                await generateWorksheet();
+            }
+
+        } catch (error) {
+            console.error('Error generating initial worksheet:', error);
+        }
+    }
+
     function buildGrid(rows, cols, imagePool, requiredImages) {
         const totalCells = rows * cols;
         const grid = new Array(totalCells).fill(null);
@@ -2125,7 +2189,11 @@ document.addEventListener("DOMContentLoaded", function() {
                     const y = r * (cellSize + cellGap);
                     let annotation;
                     if (type === 'circle') annotation = new fabric.Circle({ left: x, top: y, radius: cellSize/2 - 2, fill: 'transparent', stroke: 'red', strokeWidth: 3 });
-                    else if (type === 'square') annotation = new fabric.Rect({ left: x, top: y, width: cellSize, height: cellSize, fill: 'transparent', stroke: 'red', strokeWidth: 3 });
+                    else if (type === 'square') {
+                        const squareSize = cellSize * 0.9; // Reduce by 10%
+                        const offset = (cellSize - squareSize) / 2;
+                        annotation = new fabric.Rect({ left: x + offset, top: y + offset, width: squareSize, height: squareSize, fill: 'transparent', stroke: 'red', strokeWidth: 3 });
+                    }
                     else if (type === 'cross') annotation = new fabric.Text('X', { left: x + cellSize/2, top: y + cellSize/2, fontSize: cellSize * 0.8, fill: 'red', originX: 'center', originY: 'center', fontWeight: 'bold' });
                     
                     if(annotation) {
@@ -3014,10 +3082,16 @@ async function downloadPDF(canvasToExport, filename) {
             }
         }, 200);
 
+        // Initialize image library language selector (sidebar)
+        // This selector ONLY changes the image library language, NOT the UI language
+        languageSelect.value = currentLocale;
         languageSelect.addEventListener('change', async () => {
             currentLocale = languageSelect.value;
             window.currentLocale = currentLocale;
-            applyTranslations();  // Apply translations when language changes
+            console.log('Image library language changed to:', currentLocale);
+
+            // DO NOT call applyTranslations() - UI language is controlled by header selector
+
             await loadThemes();
             await loadThemeImages();
         });
@@ -3193,10 +3267,16 @@ async function downloadPDF(canvasToExport, filename) {
                     borderSelect: borderThemeSelect,
                     backgroundSelect: backgroundThemeSelect
                 });
+
+                // Generate initial default worksheet after everything is loaded
+                await generateInitialWorksheet();
             } else {
                 // Fallback if BulletproofLoader not available
                 loadBorderThemes();
                 loadBackgroundThemes();
+
+                // Still try to generate initial worksheet
+                generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
             }
         })();
     }, 100); 

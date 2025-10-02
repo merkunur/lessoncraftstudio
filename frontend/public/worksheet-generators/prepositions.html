@@ -295,6 +295,9 @@
                     <option value="no" data-translate="language.norwegian">Norsk</option>
                     <option value="fi" data-translate="language.finnish">Suomi</option>
                 </select>
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="prepositions.language.description">
+                    Selects the language for image library content only. UI language is controlled by the main language selector in the header.
+                </p>
             </div>
             <div class="panel-content">
                 <div class="accordion-item">
@@ -497,14 +500,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 
     <script>
-        // Set currentLocale globally BEFORE DOMContentLoaded
-        let currentLocale = 'en';
+        // Set locale variables globally BEFORE DOMContentLoaded
+        let uiLocale = 'en';  // UI language (for interface translations) - from URL parameter
+        let currentLocale = 'en';  // Content language (for image library) - can be changed by sidebar selector
         const urlParams = new URLSearchParams(window.location.search);
-        if (urlParams.get('locale')) {
-            currentLocale = urlParams.get('locale');
+        const localeParam = urlParams.get('locale');
+        if (localeParam) {
+            uiLocale = localeParam;  // UI language comes from URL (parent app header)
+            currentLocale = localeParam;  // Initial content language matches UI language
         }
-        window.currentLocale = currentLocale; // Make it globally accessible
-        console.log('Global currentLocale set to:', currentLocale);
+        window.uiLocale = uiLocale;
+        window.currentLocale = currentLocale;
+        console.log('[Prepositions] UI locale set to:', uiLocale);
+        console.log('[Prepositions] Content locale set to:', currentLocale);
 
         // Translation function with parameter substitution
         function t(key, params = {}) {
@@ -512,7 +520,8 @@
                 console.warn('Translations not loaded:', key);
                 return key;
             }
-            const locale = window.currentLocale || 'en';
+            // Use uiLocale for UI translations, fallback to currentLocale, then to English
+            const locale = window.uiLocale || window.currentLocale || 'en';
             let text = translations[locale]?.[key] || translations.en?.[key] || key;
 
             // Replace parameters like {count}, {theme}, {type}, etc.
@@ -586,6 +595,42 @@
             'the': {
                 'en': 'the', 'de': 'dem', 'fr': 'le/la', 'es': 'el/la', 'pt': 'o/a',
                 'it': 'il/la', 'nl': 'de', 'sv': 'den', 'da': 'den', 'no': 'den', 'fi': '-'  // Finnish doesn't use articles
+            }
+        };
+
+        // --- Shape name translations ---
+        const SHAPE_TRANSLATIONS = {
+            'circle': {
+                'en': 'circle', 'de': 'Kreis', 'fr': 'cercle', 'es': 'círculo', 'pt': 'círculo',
+                'it': 'cerchio', 'nl': 'cirkel', 'sv': 'cirkel', 'da': 'cirkel', 'no': 'sirkel', 'fi': 'ympyrä'
+            },
+            'cube': {
+                'en': 'cube', 'de': 'Würfel', 'fr': 'cube', 'es': 'cubo', 'pt': 'cubo',
+                'it': 'cubo', 'nl': 'kubus', 'sv': 'kub', 'da': 'terning', 'no': 'terning', 'fi': 'kuutio'
+            },
+            'cylinder': {
+                'en': 'cylinder', 'de': 'Zylinder', 'fr': 'cylindre', 'es': 'cilindro', 'pt': 'cilindro',
+                'it': 'cilindro', 'nl': 'cilinder', 'sv': 'cylinder', 'da': 'cylinder', 'no': 'sylinder', 'fi': 'sylinteri'
+            },
+            'heart': {
+                'en': 'heart', 'de': 'Herz', 'fr': 'cœur', 'es': 'corazón', 'pt': 'coração',
+                'it': 'cuore', 'nl': 'hart', 'sv': 'hjärta', 'da': 'hjerte', 'no': 'hjerte', 'fi': 'sydän'
+            },
+            'hexagon': {
+                'en': 'hexagon', 'de': 'Sechseck', 'fr': 'hexagone', 'es': 'hexágono', 'pt': 'hexágono',
+                'it': 'esagono', 'nl': 'zeshoek', 'sv': 'hexagon', 'da': 'sekskant', 'no': 'sekskant', 'fi': 'kuusikulmio'
+            },
+            'square': {
+                'en': 'square', 'de': 'Quadrat', 'fr': 'carré', 'es': 'cuadrado', 'pt': 'quadrado',
+                'it': 'quadrato', 'nl': 'vierkant', 'sv': 'kvadrat', 'da': 'kvadrat', 'no': 'kvadrat', 'fi': 'neliö'
+            },
+            'star': {
+                'en': 'star', 'de': 'Stern', 'fr': 'étoile', 'es': 'estrella', 'pt': 'estrela',
+                'it': 'stella', 'nl': 'ster', 'sv': 'stjärna', 'da': 'stjerne', 'no': 'stjerne', 'fi': 'tähti'
+            },
+            'triangle': {
+                'en': 'triangle', 'de': 'Dreieck', 'fr': 'triangle', 'es': 'triángulo', 'pt': 'triângulo',
+                'it': 'triangolo', 'nl': 'driehoek', 'sv': 'triangel', 'da': 'trekant', 'no': 'trekant', 'fi': 'kolmio'
             }
         };
 
@@ -698,13 +743,10 @@
                 toolbarDeleteBtn: document.getElementById('toolbarDeleteBtn'),
             };
             
-            // Initialize language from URL or saved preference
-            const urlParams = new URLSearchParams(window.location.search);
-            const localeParam = urlParams.get('locale');
+            // Initialize language selector with current content locale
             const languageSelect = document.getElementById('languageSelect');
-            if (localeParam && languageSelect) {
-                languageSelect.value = localeParam;
-                currentLocale = localeParam;
+            if (languageSelect) {
+                languageSelect.value = currentLocale;
             }
             
             // Apply translations
@@ -751,9 +793,9 @@
                 checkbox.value = prep;
                 checkbox.checked = true;
                 label.appendChild(checkbox);
-                
-                // Show translated preposition based on current language
-                const translatedPrep = PREPOSITION_TRANSLATIONS[prep][currentLocale] || prep;
+
+                // Show translated preposition based on UI language (not content language)
+                const translatedPrep = PREPOSITION_TRANSLATIONS[prep][uiLocale] || prep;
                 label.appendChild(document.createTextNode(` ${translatedPrep}`));
                 dom.prepositionsGrid.appendChild(label);
             });
@@ -770,14 +812,19 @@
 
         // --- Event Listener Setup ---
         function setupEventListeners() {
-            // Language selector event listener
+            // Language selector event listener - UnifiedLanguageManager integration
             const languageSelect = document.getElementById('languageSelect');
-            if (languageSelect) {
-                languageSelect.addEventListener('change', async function() {
-                    currentLocale = this.value;
-                    window.currentLocale = currentLocale;
-                    applyTranslations();
-                    // Rebuild prepositions checklist with new translations
+
+            // Use UnifiedLanguageManager if available
+            if (typeof window.UnifiedLanguageManager !== 'undefined') {
+                window.languageManager = window.UnifiedLanguageManager;
+
+                window.languageManager.onLanguageChange(async function(newLocale, oldLocale) {
+                    console.log('[Prepositions] Content language changed from', oldLocale, 'to', newLocale);
+                    currentLocale = newLocale;
+                    window.currentLocale = newLocale;
+
+                    // Rebuild prepositions checklist with new translations for preposition labels
                     buildPrepositionsChecklist();
                     // Reload themes with new locale
                     await initializeImageLibrary();
@@ -789,6 +836,29 @@
                         await handleManualShapeThemeChange();
                     }
                 });
+            } else {
+                console.warn('[Prepositions] UnifiedLanguageManager not found, using fallback mode');
+                // Fallback: direct event listener
+                if (languageSelect) {
+                    languageSelect.addEventListener('change', async function() {
+                        const newLocale = this.value;
+                        console.log('[Prepositions] Content language changed to', newLocale);
+                        currentLocale = newLocale;
+                        window.currentLocale = newLocale;
+
+                        // Rebuild prepositions checklist with new translations for preposition labels
+                        buildPrepositionsChecklist();
+                        // Reload themes with new locale
+                        await initializeImageLibrary();
+                        // Re-render dictionaries if needed
+                        if (dom.themeSelect.value && dom.themeSelect.value !== 'all') {
+                            await handleManualItemThemeChange();
+                        }
+                        if (dom.shapeImageThemeSelect.value && dom.shapeImageThemeSelect.value !== 'all') {
+                            await handleManualShapeThemeChange();
+                        }
+                    });
+                }
             }
             
             dom.menuToggleBtn.addEventListener('click', () => { dom.panel.classList.add('is-open'); dom.menuOverlay.classList.add('is-active'); });
@@ -1440,13 +1510,13 @@
             });
 
             if (Array.isArray(themePaths)) {
-                themePaths.forEach(theme => { 
+                themePaths.forEach(theme => {
                     const value = theme.value || theme;
                     const displayName = theme.displayName || theme.value || theme;
                     dom.themeSelect.add(new Option(displayName, value));
                     dom.shapeImageThemeSelect.add(new Option(displayName, value));
-                    dom.itemThemeSelect.add(new Option(`${displayName} (Random)`, value));
-                    dom.shapeThemeSelect.add(new Option(`${displayName} (Random)`, value));
+                    dom.itemThemeSelect.add(new Option(displayName, value));
+                    dom.shapeThemeSelect.add(new Option(displayName, value));
                  });
             }
             await renderDictionary('item');
@@ -1785,17 +1855,22 @@
             const qaTextParts = [];
             for(let i=0; i < lastGeneratedAssignments.length; i++){
                 const assignment = lastGeneratedAssignments[i];
-                const shapeName = assignment.shape.isDefault ? assignment.shape.name : assignment.shape.word;
-                
+                const shapeNameEnglish = assignment.shape.isDefault ? assignment.shape.name : assignment.shape.word;
+
+                // Translate shape name to current locale
+                const shapeName = assignment.shape.isDefault
+                    ? (SHAPE_TRANSLATIONS[shapeNameEnglish]?.[currentLocale] || shapeNameEnglish)
+                    : shapeNameEnglish;
+
                 // Get translations for current language
                 const isText = EXERCISE_TRANSLATIONS['is'][currentLocale] || 'is';
                 const theText = EXERCISE_TRANSLATIONS['the'][currentLocale] || 'the';
                 const prepositionText = PREPOSITION_TRANSLATIONS[assignment.preposition][currentLocale] || assignment.preposition;
-                
+
                 // For Finnish, skip article if it's "-"
                 const articlePart = theText === '-' ? '' : `${theText} `;
-                
-                const textTemplate = isAnswerKey 
+
+                const textTemplate = isAnswerKey
                     ? `{img} ${isText} ${prepositionText} ${articlePart}${assignment.preposition === 'between' ? pluralizeShape(shapeName) : shapeName}.`
                     : `{img} ${isText} __________ ${articlePart}${assignment.preposition === 'between' ? pluralizeShape(shapeName) : shapeName}.`;
                     
@@ -2175,6 +2250,47 @@
             updateDownloadButtonsState(false, false);
             showMessage(t("prepositions.msg.cleared"), "success");
         }
+
+        async function generateInitialWorksheet() {
+            try {
+                console.log('Starting initial worksheet generation...');
+
+                // Wait for themes to load
+                let attempts = 0;
+                const maxAttempts = 50;
+                while (dom.itemThemeSelect.options.length <= 2 && attempts < maxAttempts) {
+                    await new Promise(resolve => setTimeout(resolve, 100));
+                    attempts++;
+                }
+
+                // Set page size to Letter portrait (already default)
+                dom.pageSizeSelect.value = '612x792';
+                currentCanvasConfig.width = 612;
+                currentCanvasConfig.height = 792;
+                updateCanvasDisplayDimensions(612, 792);
+
+                // Set Animals theme
+                dom.itemThemeSelect.value = 'animals';
+                dom.itemThemeSelect.dispatchEvent(new Event('change'));
+
+                // All prepositions are already checked by default (line 758)
+                // Ensure all checkboxes are checked
+                dom.prepositionsGrid.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = true);
+
+                // Wait a bit for UI to update
+                await new Promise(resolve => setTimeout(resolve, 200));
+
+                // Generate worksheet
+                await generateWorksheet();
+
+                console.log('Initial worksheet generated successfully');
+            } catch (error) {
+                console.error('Error generating initial worksheet:', error);
+            }
+        }
+
+        // Call initial worksheet generation after a delay
+        setTimeout(() => generateInitialWorksheet(), 1000);
 
     </script>
 </body>

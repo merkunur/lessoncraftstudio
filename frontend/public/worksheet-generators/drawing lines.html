@@ -760,10 +760,16 @@ document.addEventListener("DOMContentLoaded", async function() {
                     borderSelect: borderThemeSelect,
                     backgroundSelect: backgroundThemeSelect
                 });
+
+                // Generate initial default worksheet after everything is loaded
+                await generateInitialWorksheet();
             } else {
                 // Fallback to regular loading
                 loadBorderThemes();
                 loadBackgroundThemes();
+
+                // Still try to generate initial worksheet
+                generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
             }
         })();
 
@@ -1383,6 +1389,47 @@ document.addEventListener("DOMContentLoaded", async function() {
         } catch (error) {
             console.error("Error during rendering:", error);
             showMessage(t('errorDuringGeneration'), 'error');
+        }
+    }
+
+    // --- Initial Worksheet Generation ---
+    async function generateInitialWorksheet() {
+        try {
+            // Wait for themes to be loaded
+            await new Promise(resolve => {
+                const checkThemes = () => {
+                    if (themeSelect && themeSelect.options.length > 1) {
+                        resolve();
+                    } else {
+                        setTimeout(checkThemes, 100);
+                    }
+                };
+                checkThemes();
+            });
+
+            // Add a small delay to ensure everything is fully initialized
+            await new Promise(resolve => setTimeout(resolve, 300));
+
+            // Set default values: Animals theme, Letter portrait, Curve 1 template, Auto-fill
+            themeSelect.value = 'animals';
+
+            // Load theme images
+            await loadDictionary();
+
+            // Wait a bit for images to load
+            await new Promise(resolve => setTimeout(resolve, 200));
+
+            // Select "curve 1" template (which will set portrait automatically since curve 1 is landscape)
+            selectTemplate('curve 1');
+
+            // Enable auto-fill
+            randomFillCheckbox.checked = true;
+
+            // Generate worksheet
+            await generateWorksheet();
+
+        } catch (error) {
+            console.error('Error generating initial worksheet:', error);
         }
     }
 

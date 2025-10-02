@@ -47,6 +47,7 @@ const translations = {
         "languageSettings": "Language Settings",
         "selectLanguage": "Select Language:",
         "worksheetContentLanguage": "Worksheet Content Language:",
+        "imageLibraryLanguage": "Image Library Language:",
         "contentLanguageNote": "Image names and themes will be displayed in the selected language.",
         "imageNamesAndThemesNote": "Image names and themes will be displayed in the selected language.",
 
@@ -116,6 +117,8 @@ const translations = {
         "allowDiagonal": "Allow Diagonal Words",
         "allowReverseWords": "Allow Reverse Words",
         "showWordList": "Show Word/Image List",
+        "showOnlyImages": "Show only images",
+        "showOnlyWords": "Show only words",
         "classicMode": "Classic Mode (Text Only)",
 
         // Image Library
@@ -231,6 +234,7 @@ const translations = {
         "languageSettings": "Spracheinstellungen",
         "selectLanguage": "Sprache auswählen:",
         "worksheetContentLanguage": "Arbeitsblatt-Inhaltssprache:",
+        "imageLibraryLanguage": "Bilderbibliothek-Sprache:",
         "contentLanguageNote": "Bildnamen und Themenbereiche werden in der gewählten Sprache angezeigt.",
         "imageNamesAndThemesNote": "Bildnamen und Themenbereiche werden in der gewählten Sprache angezeigt.",
 
@@ -299,6 +303,8 @@ const translations = {
         "allowDiagonal": "Diagonale Wörter erlauben",
         "allowReverseWords": "Rückwärts geschriebene Wörter erlauben",
         "showWordList": "Wort-/Bilderliste anzeigen",
+        "showOnlyImages": "Nur Bilder anzeigen",
+        "showOnlyWords": "Nur Wörter anzeigen",
         "classicMode": "Klassischer Modus (nur Text)",
 
         // Bilderbibliothek
@@ -414,6 +420,7 @@ const translations = {
         "languageSettings": "Paramètres de langue",
         "selectLanguage": "Sélectionner la langue :",
         "worksheetContentLanguage": "Langue du contenu de la fiche :",
+        "imageLibraryLanguage": "Langue de la bibliothèque d'images :",
         "contentLanguageNote": "Les noms d'images et les thèmes seront affichés dans la langue sélectionnée.",
         "imageNamesAndThemesNote": "Les noms d'images et les thèmes seront affichés dans la langue sélectionnée.",
 
@@ -483,6 +490,8 @@ const translations = {
         "allowDiagonal": "Autoriser les mots en diagonale",
         "allowReverseWords": "Autoriser les mots inversés",
         "showWordList": "Afficher la liste des mots/images",
+        "showOnlyImages": "Afficher uniquement les images",
+        "showOnlyWords": "Afficher uniquement les mots",
         "classicMode": "Mode classique (texte uniquement)",
 
         // Bibliothèque d'images
@@ -598,6 +607,7 @@ const translations = {
         "languageSettings": "Configuración de idioma",
         "selectLanguage": "Seleccionar idioma:",
         "worksheetContentLanguage": "Idioma del contenido de la hoja:",
+        "imageLibraryLanguage": "Idioma de la biblioteca de imágenes:",
         "contentLanguageNote": "Los nombres de imágenes y temas se mostrarán en el idioma seleccionado.",
         "imageNamesAndThemesNote": "Los nombres de imágenes y temas se mostrarán en el idioma seleccionado.",
 
@@ -667,6 +677,8 @@ const translations = {
         "allowDiagonal": "Permitir palabras en diagonal",
         "allowReverseWords": "Permitir palabras invertidas",
         "showWordList": "Mostrar lista de palabras/imágenes",
+        "showOnlyImages": "Mostrar solo imágenes",
+        "showOnlyWords": "Mostrar solo palabras",
         "classicMode": "Modo clásico (solo texto)",
 
         // Biblioteca de imágenes
@@ -782,6 +794,7 @@ const translations = {
         "languageSettings": "Impostazioni lingua",
         "selectLanguage": "Seleziona lingua:",
         "worksheetContentLanguage": "Lingua contenuto scheda:",
+        "imageLibraryLanguage": "Lingua libreria immagini:",
         "contentLanguageNote": "I nomi delle immagini e i temi verranno visualizzati nella lingua selezionata.",
         "imageNamesAndThemesNote": "I nomi delle immagini e i temi verranno visualizzati nella lingua selezionata.",
 
@@ -851,6 +864,8 @@ const translations = {
         "allowDiagonal": "Permetti parole diagonali",
         "allowReverseWords": "Permetti parole inverse",
         "showWordList": "Mostra lista parole/immagini",
+        "showOnlyImages": "Mostra solo immagini",
+        "showOnlyWords": "Mostra solo parole",
         "classicMode": "Modalità classica (solo testo)",
 
         // Libreria immagini
@@ -966,6 +981,7 @@ const translations = {
         "languageSettings": "Configurações de idioma",
         "selectLanguage": "Selecionar idioma:",
         "worksheetContentLanguage": "Idioma do conteúdo da ficha:",
+        "imageLibraryLanguage": "Idioma da biblioteca de imagens:",
         "contentLanguageNote": "Os nomes das imagens e temas serão exibidos no idioma selecionado.",
         "imageNamesAndThemesNote": "Os nomes das imagens e temas serão exibidos no idioma selecionado.",
 
@@ -1035,6 +1051,8 @@ const translations = {
         "allowDiagonal": "Permitir palavras diagonais",
         "allowReverseWords": "Permitir palavras invertidas",
         "showWordList": "Mostrar lista de palavras/imagens",
+        "showOnlyImages": "Mostrar apenas imagens",
+        "showOnlyWords": "Mostrar apenas palavras",
         "classicMode": "Modo clássico (apenas texto)",
 
         // Biblioteca de imagens
@@ -1150,6 +1168,7 @@ const translations = {
         "languageSettings": "Taalinstellingen",
         "selectLanguage": "Selecteer taal:",
         "worksheetContentLanguage": "Werkblad inhoudstaal:",
+        "imageLibraryLanguage": "Afbeeldingenbibliotheek taal:",
         "contentLanguageNote": "Afbeeldingsnamen en thema's worden weergegeven in de geselecteerde taal.",
         "imageNamesAndThemesNote": "Afbeeldingsnamen en thema's worden weergegeven in de geselecteerde taal.",
 
@@ -1219,6 +1238,8 @@ const translations = {
         "allowDiagonal": "Diagonale woorden toestaan",
         "allowReverseWords": "Omgekeerde woorden toestaan",
         "showWordList": "Woord-/afbeeldingslijst tonen",
+        "showOnlyImages": "Alleen afbeeldingen tonen",
+        "showOnlyWords": "Alleen woorden tonen",
         "classicMode": "Klassieke modus (alleen tekst)",
 
         // Afbeeldingsbibliotheek
@@ -1334,6 +1355,7 @@ const translations = {
         "languageSettings": "Språkinställningar",
         "selectLanguage": "Välj språk:",
         "worksheetContentLanguage": "Arbetsbladets innehållsspråk:",
+        "imageLibraryLanguage": "Bildbiblioteksspråk:",
         "contentLanguageNote": "Bildnamn och teman visas på det valda språket.",
         "imageNamesAndThemesNote": "Bildnamn och teman visas på det valda språket.",
 
@@ -1403,6 +1425,8 @@ const translations = {
         "allowDiagonal": "Tillåt diagonala ord",
         "allowReverseWords": "Tillåt omvända ord",
         "showWordList": "Visa ord-/bildlista",
+        "showOnlyImages": "Visa endast bilder",
+        "showOnlyWords": "Visa endast ord",
         "classicMode": "Klassiskt läge (endast text)",
 
         // Bildbibliotek
@@ -1518,6 +1542,7 @@ const translations = {
         "languageSettings": "Sprogindstillinger",
         "selectLanguage": "Vælg sprog:",
         "worksheetContentLanguage": "Arbejdsarkets indholdssprog:",
+        "imageLibraryLanguage": "Billedbibliotekssprog:",
         "contentLanguageNote": "Billednavne og temaer vises på det valgte sprog.",
         "imageNamesAndThemesNote": "Billednavne og temaer vises på det valgte sprog.",
 
@@ -1587,6 +1612,8 @@ const translations = {
         "allowDiagonal": "Tillad diagonale ord",
         "allowReverseWords": "Tillad omvendte ord",
         "showWordList": "Vis ord-/billedliste",
+        "showOnlyImages": "Vis kun billeder",
+        "showOnlyWords": "Vis kun ord",
         "classicMode": "Klassisk tilstand (kun tekst)",
 
         // Billedbibliotek
@@ -1702,6 +1729,7 @@ const translations = {
         "languageSettings": "Språkinnstillinger",
         "selectLanguage": "Velg språk:",
         "worksheetContentLanguage": "Arbeidsarkets innholdsspråk:",
+        "imageLibraryLanguage": "Bildbiblioteksspråk:",
         "contentLanguageNote": "Bildenavn og temaer vises på det valgte språket.",
         "imageNamesAndThemesNote": "Bildenavn og temaer vises på det valgte språket.",
 
@@ -1771,6 +1799,8 @@ const translations = {
         "allowDiagonal": "Tillat diagonale ord",
         "allowReverseWords": "Tillat baklengs ord",
         "showWordList": "Vis ord-/bildeliste",
+        "showOnlyImages": "Vis kun bilder",
+        "showOnlyWords": "Vis kun ord",
         "classicMode": "Klassisk modus (kun tekst)",
 
         // Bildebibliotek
@@ -1886,6 +1916,7 @@ const translations = {
         "languageSettings": "Kieliasetukset",
         "selectLanguage": "Valitse kieli:",
         "worksheetContentLanguage": "Tehtäväpaperin sisältökieli:",
+        "imageLibraryLanguage": "Kuvakirjaston kieli:",
         "contentLanguageNote": "Kuvien nimet ja teemat näytetään valitulla kielellä.",
         "imageNamesAndThemesNote": "Kuvien nimet ja teemat näytetään valitulla kielellä.",
 
@@ -1955,6 +1986,8 @@ const translations = {
         "allowDiagonal": "Salli vinosanat",
         "allowReverseWords": "Salli käänteissanat",
         "showWordList": "Näytä sana-/kuvalista",
+        "showOnlyImages": "Näytä vain kuvat",
+        "showOnlyWords": "Näytä vain sanat",
         "classicMode": "Klassinen tila (vain teksti)",
 
         // Kuvakirjasto

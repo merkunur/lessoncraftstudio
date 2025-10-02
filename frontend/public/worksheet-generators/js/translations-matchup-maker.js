@@ -81,6 +81,7 @@ const translations = {
 
     // ============= LANGUAGE SETTINGS =============
     "language": "Language:",
+    "imageLibraryLanguage": "Image Library Language:",
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Page Setup",
@@ -275,6 +276,7 @@ const translations = {
 
     // ============= LANGUAGE SETTINGS =============
     "language": "Sprache:",
+    "imageLibraryLanguage": "Bilderbibliothek-Sprache:",
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Seiteneinstellungen",
@@ -468,6 +470,7 @@ const translations = {
 
     // ============= LANGUAGE SETTINGS =============
     "language": "Langue :",
+    "imageLibraryLanguage": "Langue de la bibliothèque d'images :",
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Mise en page",
@@ -662,6 +665,7 @@ const translations = {
 
     // ============= LANGUAGE SETTINGS =============
     "language": "Idioma:",
+    "imageLibraryLanguage": "Idioma de la biblioteca de imágenes:",
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Configuración de página",
@@ -856,6 +860,7 @@ const translations = {
 
     // ============= LANGUAGE SETTINGS =============
     "language": "Lingua:",
+    "imageLibraryLanguage": "Lingua della biblioteca di immagini:",
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Impostazioni pagina",
@@ -1050,6 +1055,7 @@ const translations = {
 
     // ============= LANGUAGE SETTINGS =============
     "language": "Idioma:",
+    "imageLibraryLanguage": "Idioma da biblioteca de imagens:",
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Configuração da Página",
@@ -1244,6 +1250,7 @@ const translations = {
 
     // ============= LANGUAGE SETTINGS =============
     "language": "Taal:",
+    "imageLibraryLanguage": "Afbeeldingsbibliotheek-taal:",
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Pagina-instellingen",
@@ -1438,6 +1445,7 @@ const translations = {
 
     // ============= LANGUAGE SETTINGS =============
     "language": "Språk:",
+    "imageLibraryLanguage": "Bildbiblioteksspråk:",
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Sidinställningar",
@@ -1632,6 +1640,7 @@ const translations = {
 
     // ============= LANGUAGE SETTINGS =============
     "language": "Sprog:",
+    "imageLibraryLanguage": "Billedbibliotekssprog:",
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Sideopsætning",
@@ -1826,6 +1835,7 @@ const translations = {
 
     // ============= LANGUAGE SETTINGS =============
     "language": "Språk:",
+    "imageLibraryLanguage": "Bildebiblioteksspråk:",
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Sideoppsett",
@@ -2020,6 +2030,7 @@ const translations = {
 
     // ============= LANGUAGE SETTINGS =============
     "language": "Kieli:",
+    "imageLibraryLanguage": "Kuvakirjaston kieli:",
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Sivun asetukset",

@@ -582,7 +582,7 @@
                     <button class="accordion-button active" data-translate="pageSetup">Page Setup</button>
                     <div class="accordion-content active">
                         <h4 data-translate="language">Language</h4>
-                        <label for="languageSelect" data-translate="selectLanguage">Select Language:</label>
+                        <label for="languageSelect" data-translate="imageLibraryLanguage">Image Library Language:</label>
                         <select id="languageSelect">
                             <option value="en">English</option>
                             <option value="de">Deutsch</option>
@@ -798,18 +798,42 @@
 
     <script>
     // MUST BE FIRST - Before ANY DOM element references
-    let currentLocale = 'en';
+    // Set locales globally BEFORE DOMContentLoaded (critical for enhancement scripts)
+    // uiLocale = Interface language (from main app's language selector in header)
+    // currentLocale = Content language for image library (from sidebar selector)
+    const urlParams = new URLSearchParams(window.location.search);
+
+    // UI locale comes from the main app (via URL parameter)
+    window.uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
+
+    // Content locale can be different (initially same as UI for simplicity)
+    let currentLocale = urlParams.get('content') || window.uiLocale;
+    window.currentLocale = currentLocale;
+
+    console.log('Global uiLocale set to:', window.uiLocale);
+    console.log('Global currentLocale set to:', currentLocale);
+
     let currentCanvasConfig = { width: 612, height: 792 };
 
-    // Initialize locale from URL if present
-    const urlParams = new URLSearchParams(window.location.search);
-    const localeParam = urlParams.get('locale');
-    if (localeParam) {
-        currentLocale = localeParam;
+    // Translation function (uses uiLocale for UI translations)
+    function t(key, params = {}) {
+        if (typeof translations === 'undefined') return key;
+        const locale = window.uiLocale || 'en';  // Use uiLocale for UI translations
+        const translation = (translations[locale] && translations[locale][key]) ||
+                           (translations.en && translations.en[key]) ||
+                           key;
+        return formatTranslation(translation, params);
     }
+    window.t = t;
 
-    // Set currentLocale globally BEFORE DOMContentLoaded (critical for enhancement scripts)
-    window.currentLocale = currentLocale;
+    function formatTranslation(text, params) {
+        let formatted = text;
+        for (const [key, value] of Object.entries(params)) {
+            formatted = formatted.replace(new RegExp(`\\{${key}\\}`, 'g'), value);
+        }
+        return formatted;
+    }
+    window.formatTranslation = formatTranslation;
 
     document.addEventListener("DOMContentLoaded", function () {
         // --- Global Constants & State ---
@@ -2704,15 +2728,29 @@ async function downloadPDF(canvasToExport, filename) {
             // Apply initial translations
             applyTranslations();
             
-            // Language change handler
+            // Language change handler (sidebar selector - ONLY changes image library language)
+            // This selector ONLY changes the image library language, NOT the UI language
             if (languageSelect) {
                 languageSelect.addEventListener('change', function() {
                     const newLocale = this.value;
+                    currentLocale = newLocale;
+                    window.currentLocale = newLocale;
+                    console.log('Image library language changed to:', currentLocale);
 
-                    // Update URL and reload page (like Addition app does)
-                    const url = new URL(window.location.href);
-                    url.searchParams.set('locale', newLocale);
-                    window.location.href = url.toString();
+                    // DO NOT reload page - UI language is controlled by header selector
+                    // Clear image cache and reload with new locale
+                    appState.imageCache = [];
+
+                    // Reload image library with new locale
+                    const themeSelect = $('themeSelect');
+                    if (themeSelect && themeSelect.value) {
+                        loadImageLibrary(themeSelect.value);
+                    }
+
+                    // Update URL with content parameter instead of locale
+                    const url = new URL(window.location);
+                    url.searchParams.set('content', newLocale);
+                    window.history.replaceState({}, '', url);
                 });
             }
             
@@ -2728,6 +2766,76 @@ async function downloadPDF(canvasToExport, filename) {
             loadThemes().then(() => {
                 loadDictionary(); // Load images after themes are loaded
             });
+            // Generate initial worksheet with default settings
+            async function generateInitialWorksheet() {
+                try {
+                    console.log('Starting initial worksheet generation...');
+
+                    // Wait for themes to be loaded by polling
+                    let attempts = 0;
+                    const maxAttempts = 30;
+                    while (themeSelect.options.length <= 1 && attempts < maxAttempts) {
+                        await new Promise(resolve => setTimeout(resolve, 100));
+                        attempts++;
+                    }
+
+                    if (themeSelect.options.length <= 1) {
+                        console.error('Failed to load themes for initial worksheet generation');
+                        return;
+                    }
+
+                    console.log('Themes loaded, configuring worksheet...');
+
+                    // Set page size to Letter portrait
+                    pageSizeSelect.value = '612x792';
+                    const [w, h] = pageSizeSelect.value.split('x').map(Number);
+                    updateCanvasDisplayDimensions(w, h);
+
+                    // Set theme to animals
+                    themeSelect.value = 'animals';
+                    await loadDictionary();
+
+                    // Wait for images to load
+                    attempts = 0;
+                    while (appState.imageCache.length === 0 && attempts < maxAttempts) {
+                        await new Promise(resolve => setTimeout(resolve, 100));
+                        attempts++;
+                    }
+
+                    if (appState.imageCache.length === 0) {
+                        console.error('No images loaded for initial worksheet generation');
+                        return;
+                    }
+
+                    // Select a random image from the animals theme
+                    const randomIndex = Math.floor(Math.random() * appState.imageCache.length);
+                    const randomImage = appState.imageCache[randomIndex];
+                    appState.config.selectedImage = {
+                        word: randomImage.name || randomImage.word,
+                        path: randomImage.path
+                    };
+                    renderSelectedImagePreview();
+                    renderDictionary(); // Re-render to show selected image
+
+                    // Set grid parameters
+                    rowInput.value = 3;
+                    colInput.value = 3;
+                    clueCountInput.value = 1;
+
+                    console.log('Configuration complete, generating worksheet...');
+
+                    // Wait a bit for everything to settle
+                    await new Promise(resolve => setTimeout(resolve, 500));
+
+                    // Trigger worksheet generation
+                    await handleWorksheetGeneration(false); // false = don't show message
+
+                    console.log('Initial worksheet generated successfully');
+                } catch (error) {
+                    console.error('Error generating initial worksheet:', error);
+                }
+            }
+
             // Initialize BulletproofLoader AFTER core functionality is set up
             if (window.BulletproofLoader) {
                 window.BulletproofLoader.init({
@@ -2736,22 +2844,28 @@ async function downloadPDF(canvasToExport, filename) {
                 }).then(() => {
                     console.log('BulletproofLoader initialized successfully');
                     // BulletproofLoader handles theme loading, no need for manual loading
+                    // Generate initial worksheet after BulletproofLoader initialization
+                    setTimeout(() => generateInitialWorksheet(), 1000);
                 }).catch(error => {
                     console.error('BulletproofLoader init failed:', error);
                     // Fallback to manual loading only on error
                     loadBorderThemes();
                     loadBackgroundThemes();
+                    // Still generate initial worksheet even if BulletproofLoader fails
+                    setTimeout(() => generateInitialWorksheet(), 1000);
                 });
             } else {
                 // Fallback if BulletproofLoader not available
                 loadBorderThemes();
                 loadBackgroundThemes();
+                // Generate initial worksheet in fallback scenario
+                setTimeout(() => generateInitialWorksheet(), 1000);
             }
 
             renderSelectedImagePreview();
             renderUploadedImages();
             handleSelectionCleared(null, getActiveCanvas());
-            
+
             // Load default images
             renderDictionary();
         }

@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
-import { prisma } from '@/lib/prisma';
+import fs from 'fs';
+import path from 'path';
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
@@ -11,30 +12,22 @@ export async function GET(request: Request) {
   }
 
   try {
-    // Get borders from database
-    const themeData = await prisma.imageTheme.findFirst({
-      where: {
-        name: theme,
-        type: 'borders'
-      },
-      include: {
-        images: {
-          orderBy: { sortOrder: 'asc' }
-        }
-      }
-    });
+    // Use filesystem fallback directly for instant response
+    const themeDir = path.join(process.cwd(), 'public', 'images', 'borders', theme);
 
-    let borders = [];
-    if (themeData) {
-      borders = themeData.images.map(img => ({
-        name: img.translations?.[locale] || img.translations?.['en'] || img.filename,
-        path: img.filePath
-      }));
+    let images: any[] = [];
+
+    if (fs.existsSync(themeDir)) {
+      const files = fs.readdirSync(themeDir);
+      images = files
+        .filter(file => /\.(png|jpe?g|gif|svg)$/i.test(file))
+        .map(file => ({
+          name: path.basename(file, path.extname(file)).replace(/[-_]/g, ' '),
+          path: `/images/borders/${theme}/${file}`
+        }));
     }
 
-    return NextResponse.json({
-      images: borders
-    }, {
+    return NextResponse.json(images, {
       headers: {
         'Content-Type': 'application/json; charset=utf-8',
         'Cache-Control': 'public, max-age=60',
@@ -42,9 +35,10 @@ export async function GET(request: Request) {
     });
   } catch (err: any) {
     console.error('Error fetching border images:', err);
-    return NextResponse.json(
-      { error: 'Failed to fetch border images' },
-      { status: 500 }
-    );
+    return NextResponse.json([], {
+      headers: {
+        'Content-Type': 'application/json; charset=utf-8',
+      },
+    });
   }
 }

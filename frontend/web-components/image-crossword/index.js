@@ -167,7 +167,7 @@ class ImageCrosswordGenerator extends BaseWebComponent {
       tab.addEventListener('click', (e) => {
         this.shadowRoot.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
         this.shadowRoot.querySelectorAll('.tab-content').forEach(tc => tc.classList.add('hidden'));
-        
+
         e.target.classList.add('active');
         const tabId = e.target.dataset.tab === 'worksheet' ? 'worksheetTab' : 'answerTab';
         this.shadowRoot.getElementById(tabId).classList.remove('hidden');
@@ -184,6 +184,16 @@ class ImageCrosswordGenerator extends BaseWebComponent {
       link.href = this.worksheetCanvas.toDataURL();
       link.click();
     });
+
+    // Auto-generate initial worksheet
+    this.generateInitialWorksheet();
+  }
+
+  generateInitialWorksheet() {
+    // Generate worksheet automatically after a short delay
+    setTimeout(() => {
+      this.generateWorksheet();
+    }, 100);
   }
 
   cleanup() { this.fabricInstances.forEach(instance => instance?.dispose()); this.fabricInstances.clear(); }

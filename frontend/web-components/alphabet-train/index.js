@@ -429,6 +429,31 @@ class AlphabetTrainGenerator extends BaseWebComponent {
     clearBtn?.addEventListener('click', () => this.clearSelection());
     downloadBtn?.addEventListener('click', () => this.downloadWorksheet());
     printBtn?.addEventListener('click', () => this.printWorksheet());
+
+    // Auto-generate initial worksheet
+    this.generateInitialWorksheet();
+  }
+
+  generateInitialWorksheet() {
+    // Auto-select 5 random letters and generate train
+    const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+    const shuffled = letters.sort(() => Math.random() - 0.5);
+    const selected = shuffled.slice(0, 5);
+
+    selected.forEach(letter => {
+      this.selectedLetters.add(letter);
+      const button = this.shadowRoot.querySelector(`button[data-letter="${letter}"]`);
+      if (button) {
+        button.classList.add('selected');
+      }
+    });
+
+    this.updateSelectedCount();
+
+    // Generate train automatically after a short delay
+    setTimeout(() => {
+      this.generateTrain();
+    }, 100);
   }
 
   clearSelection() {

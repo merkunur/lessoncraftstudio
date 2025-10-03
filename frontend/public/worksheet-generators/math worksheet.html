@@ -903,6 +903,18 @@
                 </div>
                 <label for="borderOpacitySlider" data-translate="borderOpacity">Border Opacity:</label>
                 <input type="range" id="borderOpacitySlider" min="0" max="1" value="1" step="0.05" disabled>
+
+                <h4 data-translate="header">Header</h4>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="showHeaderCheckbox" checked>
+                    <span data-translate="showHeader">Show Header</span>
+                </label>
+                <div id="headerControls" style="display: block;">
+                    <label for="headerTitleInput" data-translate="headerTitle">Header Title:</label>
+                    <input type="text" id="headerTitleInput" placeholder="Math Puzzles" data-translate-placeholder="mathPuzzles">
+                    <label for="headerDescriptionInput" data-translate="headerDescription">Header Description:</label>
+                    <textarea id="headerDescriptionInput" rows="2" placeholder="Solve the picture puzzles below!" data-translate-placeholder="solvePicturePuzzles"></textarea>
+                </div>
             </div>
         </div>
 
@@ -1250,6 +1262,12 @@
       const borderDictionary = $('borderDictionary');
       const borderOpacitySlider = $('borderOpacitySlider');
 
+      // Header Elements
+      const showHeaderCheckbox = $('showHeaderCheckbox');
+      const headerControls = $('headerControls');
+      const headerTitleInput = $('headerTitleInput');
+      const headerDescriptionInput = $('headerDescriptionInput');
+
       // Text Tools Elements
       const textInput = $('textInput');
       const addTextBtn = $('addTextBtn');
@@ -1343,18 +1361,27 @@
       
       function enforceZOrder(canvas) {
           if (!canvas) return;
+
+          // Send background to back
           const background = canvas.getObjects().find(o => o.isBackground);
           if (background) canvas.sendToBack(background);
-      
+
+          // Send page borders to back (but above background)
+          const pageBorders = canvas.getObjects().filter(o => o.isPageBorder);
+          pageBorders.forEach(border => {
+              canvas.sendToBack(border);
+              if (background) canvas.bringForward(border);
+          });
+
           const border = canvas.getObjects().find(o => o.isBorder);
           if (border) {
               canvas.bringToFront(border); // Bring to top first
-              const userContent = canvas.getObjects().filter(o => !o.isGeneratedItem && !o.isAnswerKeyItem && !o.isBorder && !o.isBackground);
+              const userContent = canvas.getObjects().filter(o => !o.isGeneratedItem && !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
               const generatedContent = canvas.getObjects().filter(o => o.isGeneratedItem || o.isAnswerKeyItem);
-      
+
               // Send border back one level for each object that is not background or border itself
               [...userContent, ...generatedContent].forEach(() => canvas.sendBackwards(border));
-      
+
               if (background) canvas.sendToBack(background); // Ensure background is always last
           }
       }
@@ -1477,6 +1504,147 @@
           activeObj.setCoords();
           activeCanvas.renderAll();
           closeAllPopovers();
+      }
+
+      // ========================================
+      // Header & Border Functions
+      // ========================================
+
+      function createHeaderGroup(canvas) {
+          if (!showHeaderCheckbox.checked) return null;
+
+          const defaultHeaders = {
+              en: { title: 'Math Worksheet', description: 'Count, add, and subtract to solve fun math problems!' },
+              de: { title: 'Mathe-Übungsblatt', description: 'Zähle, addiere und subtrahiere, um Matheaufgaben zu lösen!' },
+              fr: { title: 'Feuille de Mathématiques', description: 'Compte, additionne et soustrais pour résoudre les problèmes!' },
+              es: { title: 'Hoja de Matemáticas', description: 'Cuenta, suma y resta para resolver problemas divertidos!' },
+              it: { title: 'Scheda di Matematica', description: 'Conta, somma e sottrai per risolvere i problemi!' },
+              pt: { title: 'Folha de Matemática', description: 'Conta, soma e subtrai para resolver problemas divertidos!' },
+              nl: { title: 'Wiskundeblad', description: 'Tel, tel op en trek af om leuke sommen op te lossen!' },
+              sv: { title: 'Mattetal', description: 'Räkna, addera och subtrahera för att lösa roliga matteproblem!' },
+              da: { title: 'Matematikopgave', description: 'Tæl, læg sammen og træk fra for at løse sjove opgaver!' },
+              no: { title: 'Matematikkoppgave', description: 'Tell, legg sammen og trekk fra for å løse morsomme oppgaver!' },
+              fi: { title: 'Matematiikkalehti', description: 'Laske, lisää ja vähennä ratkaisemaan hauskoja tehtäviä!' }
+          };
+
+          const locale = currentLocale || 'en';
+          const defaults = defaultHeaders[locale] || defaultHeaders.en;
+          const title = headerTitleInput.value || defaults.title;
+          const description = headerDescriptionInput.value || defaults.description;
+
+          const objects = [];
+
+          // Outer border - Bright energetic blue for math
+          const outerBorder = new fabric.Rect({
+              left: 34,
+              top: 34,
+              width: 544,
+              height: 724,
+              fill: 'transparent',
+              stroke: '#4A90E2',
+              strokeWidth: 8,
+              rx: 12,
+              ry: 12,
+              selectable: true,
+              hasControls: true,
+              isPageBorder: true
+          });
+          objects.push(outerBorder);
+
+          // Inner border - Cheerful orange accent
+          const innerBorder = new fabric.Rect({
+              left: 46.5,
+              top: 46.5,
+              width: 519,
+              height: 699,
+              fill: 'transparent',
+              stroke: '#FF9F43',
+              strokeWidth: 3,
+              rx: 8,
+              ry: 8,
+              selectable: true,
+              hasControls: true,
+              isPageBorder: true
+          });
+          objects.push(innerBorder);
+
+          // Header background - Vibrant purple for creativity
+          const bgRect = new fabric.Rect({
+              left: 70,
+              top: 70,
+              width: 472,
+              height: 100,
+              fill: '#9B59B6',
+              rx: 15,
+              ry: 15,
+              selectable: true,
+              isHeaderElement: true
+          });
+          objects.push(bgRect);
+
+          // White pill for title
+          const whitePill = new fabric.Rect({
+              left: 90,
+              top: 85,
+              width: 432,
+              height: 70,
+              fill: '#FFFFFF',
+              rx: 35,
+              ry: 35,
+              selectable: true,
+              isHeaderElement: true
+          });
+          objects.push(whitePill);
+
+          // Title - Dynamic size based on length
+          let titleFontSize = 48;
+          if (title.length > 12) titleFontSize = 40;
+          if (title.length > 15) titleFontSize = 36;
+          if (title.length > 18) titleFontSize = 32;
+          if (title.length > 22) titleFontSize = 28;
+
+          // Title text
+          const titleText = new fabric.IText(title, {
+              left: 306,
+              top: 120,
+              fontSize: titleFontSize,
+              fontFamily: 'Fredoka, sans-serif',
+              fontWeight: '700',
+              fill: '#2C3E50',
+              textAlign: 'center',
+              originX: 'center',
+              originY: 'center',
+              selectable: true,
+              editable: true,
+              isHeaderElement: true
+          });
+          objects.push(titleText);
+
+          // Description text
+          const descText = new fabric.Textbox(description, {
+              left: 306,
+              top: 190,
+              width: 450,
+              fontSize: 20,
+              fontFamily: 'Quicksand, sans-serif',
+              fontWeight: '500',
+              fill: '#4A4A4A',
+              textAlign: 'center',
+              originX: 'center',
+              originY: 'top',
+              selectable: true,
+              editable: true,
+              hasControls: true,
+              isHeaderDesc: true
+          });
+          objects.push(descText);
+
+          return objects;
+      }
+
+      function createPageBorder() {
+          // No page border for math worksheet app
+          return null;
       }
 
 
@@ -2298,12 +2466,14 @@
           const numPuzzles = puzzleBlocks.length;
           if (numPuzzles === 0) return;
 
+          // Account for header height if header is shown
+          const headerHeight = showHeaderCheckbox.checked ? 220 : 0;
           const vMargin = 40, hMargin = 40, puzzleGap = 25;
           // Use the actual page dimensions, not the zoomed canvas dimensions
           const pageWidth = currentCanvasConfig.width;
           const pageHeight = currentCanvasConfig.height;
           const availableWidth = pageWidth - (2 * hMargin);
-          const availableHeight = pageHeight - (2 * vMargin);
+          const availableHeight = pageHeight - (2 * vMargin) - headerHeight;
 
           let cols, rows;
           
@@ -2339,7 +2509,7 @@
                       block.scale(scale);
 
                       const cellLeft = hMargin + c * (cellWidth + puzzleGap);
-                      const cellTop = vMargin + r * (cellHeight + puzzleGap);
+                      const cellTop = vMargin + headerHeight + r * (cellHeight + puzzleGap);
                       
                       block.left = cellLeft + (cellWidth / 2);
                       block.top = cellTop + (cellHeight / 2);
@@ -2357,8 +2527,10 @@
       async function renderPuzzleCanvases() {
           // --- PRESERVATION STEP ---
           const oldTransforms = {};
+          let oldPuzzleCount = 0;
           worksheetCanvas.getObjects().forEach(obj => {
               if (obj.isGeneratedItem) {
+                  oldPuzzleCount++;
                   oldTransforms[obj.originalIndex] = {
                       left: obj.left, top: obj.top,
                       scaleX: obj.scaleX, scaleY: obj.scaleY,
@@ -2368,11 +2540,29 @@
                   };
               }
           });
-          const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground);
+
+          // Only preserve transforms if the number of puzzles hasn't changed
+          const shouldPreserveTransforms = (oldPuzzleCount === puzzlesData.length);
+
+          const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
 
           // --- PRECISE REMOVAL ---
           const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem);
           oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
+
+          // Remove old header/border objects if they exist
+          const oldHeaderObjects = worksheetCanvas.getObjects().filter(o =>
+              o.isPageBorder ||
+              o.isHeaderDesc ||
+              o.isHeaderElement
+          );
+          oldHeaderObjects.forEach(o => worksheetCanvas.remove(o));
+
+          // Create and add header (BEFORE the early return check)
+          const headerObjects = createHeaderGroup(worksheetCanvas);
+          if (headerObjects) {
+              headerObjects.forEach(obj => worksheetCanvas.add(obj));
+          }
 
           if (puzzlesData.length === 0) {
               worksheetCanvas.renderAll();
@@ -2478,8 +2668,8 @@
                   isGeneratedItem: true, objectCaching: false, originalIndex: idx
               });
 
-              // --- RE-APPLY TRANSFORMS ---
-              if (oldTransforms[idx]) {
+              // --- RE-APPLY TRANSFORMS (only if puzzle count unchanged) ---
+              if (shouldPreserveTransforms && oldTransforms[idx]) {
                   finalGroup.set(oldTransforms[idx]);
               }
 
@@ -2497,10 +2687,12 @@
 
       async function generateAnswerKeyFromCanvas() {
           if (puzzlesData.length === 0) { showMessage(t('pleaseGeneratePuzzlesFirst'), "error"); return; }
-          
+
           const oldTransforms = {};
+          let oldAnswerKeyCount = 0;
           answerKeyCanvas.getObjects().forEach(obj => {
               if (obj.isAnswerKeyItem) {
+                  oldAnswerKeyCount++;
                   oldTransforms[obj.originalIndex] = {
                       left: obj.left, top: obj.top,
                       scaleX: obj.scaleX, scaleY: obj.scaleY,
@@ -2510,11 +2702,15 @@
                   };
               }
           });
-          const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground);
 
-          const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground);
+          // Only preserve transforms if the number of puzzles hasn't changed
+          const shouldPreserveTransforms = (oldAnswerKeyCount === puzzlesData.length);
+
+          const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+
+          const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
           objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
-          
+
           // --- CLONE DECORATIVES ---
           const background = worksheetCanvas.getObjects().find(o => o.isBackground);
           if (background) {
@@ -2528,6 +2724,20 @@
           if (border) {
               await new Promise(resolve => border.clone(cloned => {
                   cloned.set({ isBorder: true }); // Explicitly set the tag
+                  answerKeyCanvas.add(cloned);
+                  resolve();
+              }));
+          }
+          // Clone all header objects (borders, background, title, description)
+          const headerObjects = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
+          for (const obj of headerObjects) {
+              await new Promise(resolve => obj.clone(cloned => {
+                  // Preserve all properties
+                  cloned.set({
+                      isPageBorder: obj.isPageBorder,
+                      isHeaderDesc: obj.isHeaderDesc,
+                      isHeaderElement: obj.isHeaderElement
+                  });
                   answerKeyCanvas.add(cloned);
                   resolve();
               }));
@@ -2654,7 +2864,8 @@
                   isAnswerKeyItem: true, objectCaching: false, originalIndex: content.idx
               });
 
-              if (oldTransforms[content.idx]) {
+              // Only apply old transforms if puzzle count unchanged
+              if (shouldPreserveTransforms && oldTransforms[content.idx]) {
                   finalGroup.set(oldTransforms[content.idx]);
               }
 
@@ -3248,6 +3459,14 @@
 
       backgroundThemeSelect.addEventListener("change", loadBackgroundImages);
       backgroundOpacitySlider.addEventListener('input', applyBackgroundOpacity);
+
+      // Header listeners
+      showHeaderCheckbox.addEventListener('change', () => {
+          headerControls.style.display = showHeaderCheckbox.checked ? 'block' : 'none';
+          renderPuzzleCanvases();
+      });
+      headerTitleInput.addEventListener('input', renderPuzzleCanvases);
+      headerDescriptionInput.addEventListener('input', renderPuzzleCanvases);
 
       // --- Initial Load ---
       // Set language if provided

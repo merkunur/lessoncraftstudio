@@ -928,10 +928,10 @@ document.addEventListener("DOMContentLoaded", function() {
         setupEventListeners();
         worksheetCanvas = initializeCanvas(elements.worksheetCanvasElement);
         answerKeyCanvas = initializeCanvas(elements.answerKeyCanvasElement);
-        
+
         setupCanvasEventListeners(worksheetCanvas);
         setupCanvasEventListeners(answerKeyCanvas);
-        
+
         updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height, true);
         loadThemes();
         loadBorderThemes();

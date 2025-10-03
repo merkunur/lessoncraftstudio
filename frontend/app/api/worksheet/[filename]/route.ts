@@ -10,22 +10,22 @@ export async function GET(
   const locale = searchParams.get('locale') || 'en';
   const tier = searchParams.get('tier') || 'free';
   const filename = decodeURIComponent(params.filename);
-  
+
   // Security check - prevent directory traversal
   if (filename.includes('..') || filename.includes('/') || filename.includes('\\')) {
     return NextResponse.json({ error: 'Invalid filename' }, { status: 400 });
   }
-  
+
   // Ensure it's an HTML file
   if (!filename.endsWith('.html')) {
     return NextResponse.json({ error: 'Only HTML files are allowed' }, { status: 400 });
   }
-  
+
   const filePath = path.join(process.cwd(), 'public', 'worksheet-generators', filename);
-  
+
   try {
     let htmlContent = await fs.promises.readFile(filePath, 'utf-8');
-    
+
     // Inject configuration script that connects to our Strapi image library
     const configScript = `
     <script>
@@ -37,7 +37,7 @@ export async function GET(
         strapiUrl: '${process.env.NEXT_PUBLIC_STRAPI_URL || 'http://localhost:1337'}',
         imageApiUrl: '/api/image-library'
       };
-      
+
       // Override image loading to use our Strapi-managed library
       (function() {
         // Wait for DOM to be ready
@@ -46,7 +46,7 @@ export async function GET(
         } else {
           initImageLibrary();
         }
-        
+
         function initImageLibrary() {
           // Override folder scanning to use our API
           const originalScanFolders = window.scanImageFolders;
@@ -55,12 +55,12 @@ export async function GET(
               try {
                 const response = await fetch(\`/api/themes?locale=\${window.LCS_CONFIG.locale}\`);
                 const data = await response.json();
-                
+
                 // Update theme selector if it exists
-                const themeSelect = document.getElementById('themeSelect') || 
+                const themeSelect = document.getElementById('themeSelect') ||
                                    document.getElementById('theme-select') ||
                                    document.querySelector('select[name="theme"]');
-                
+
                 if (themeSelect) {
                   themeSelect.innerHTML = '';
                   data.themes.forEach(theme => {
@@ -70,7 +70,7 @@ export async function GET(
                     themeSelect.appendChild(option);
                   });
                 }
-                
+
                 return data.themes;
               } catch (error) {
                 console.error('Failed to load themes:', error);
@@ -78,7 +78,7 @@ export async function GET(
               }
             };
           }
-          
+
           // Override image loading
           const originalLoadImages = window.loadImagesFromFolder;
           if (typeof originalLoadImages === 'function' || !window.loadImagesFromFolder) {
@@ -86,7 +86,7 @@ export async function GET(
               try {
                 const response = await fetch(\`/api/image-library?theme=\${theme}&locale=\${window.LCS_CONFIG.locale}\`);
                 const data = await response.json();
-                
+
                 // Transform to format expected by legacy apps
                 const images = data.images.map(img => ({
                   src: img.url,
@@ -95,15 +95,15 @@ export async function GET(
                   fileName: img.fileName,
                   alt: img.displayName
                 }));
-                
+
                 // Update image grid if function exists
                 if (window.displayImages) {
                   window.displayImages(images);
                 }
-                
+
                 // Store globally for other functions
                 window.currentImages = images;
-                
+
                 return images;
               } catch (error) {
                 console.error('Failed to load images:', error);
@@ -111,13 +111,13 @@ export async function GET(
               }
             };
           }
-          
+
           // Initialize on page load
           if (window.scanImageFolders) {
             window.scanImageFolders();
           }
         }
-        
+
         // Listen for parent frame messages
         window.addEventListener('message', function(event) {
           if (event.data.type === 'init') {
@@ -125,7 +125,7 @@ export async function GET(
             initImageLibrary();
           }
         });
-        
+
         // Notify parent that we're ready
         if (window.parent !== window) {
           window.parent.postMessage({ type: 'app-ready' }, '*');
@@ -133,10 +133,10 @@ export async function GET(
       })();
     </script>
     `;
-    
+
     // Inject the script before closing body tag
     htmlContent = htmlContent.replace('</body>', `${configScript}</body>`);
-    
+
     // Add watermark CSS for free tier
     if (tier === 'free') {
       const watermarkCSS = `
@@ -159,7 +159,7 @@ export async function GET(
       `;
       htmlContent = htmlContent.replace('</head>', `${watermarkCSS}</head>`);
     }
-    
+
     // Return the HTML content with proper headers
     return new NextResponse(htmlContent, {
       headers: {

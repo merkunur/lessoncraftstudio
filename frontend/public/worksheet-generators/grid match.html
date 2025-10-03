@@ -596,7 +596,19 @@
                             <option value="no">Norsk</option>
                             <option value="fi">Suomi</option>
                         </select>
-                        
+
+                        <h4 data-translate="header">Header</h4>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="showHeaderCheckbox" checked>
+                            <span data-translate="showHeader">Show Header</span>
+                        </label>
+                        <div id="headerControls" style="display: block;">
+                            <label for="headerTitleInput" data-translate="headerTitle">Header Title:</label>
+                            <input type="text" id="headerTitleInput" placeholder="Grid Match!" data-translate-placeholder="gridMatchTitle">
+                            <label for="headerDescriptionInput" data-translate="headerDescription">Header Description:</label>
+                            <textarea id="headerDescriptionInput" rows="2" placeholder="Match the pieces to complete the picture!" data-translate-placeholder="gridMatchDesc"></textarea>
+                        </div>
+
                         <h4 data-translate="page">Page</h4>
                         <label for="pageSizeSelect" data-translate="pageSize">Page Size:</label>
                         <select id="pageSizeSelect">
@@ -1601,6 +1613,15 @@
             customPageSizeInputsDiv.style.display = (this.value === 'custom') ? 'block' : 'none';
         });
 
+        // Header checkbox toggle
+        const showHeaderCheckbox = document.getElementById('showHeaderCheckbox');
+        const headerControls = document.getElementById('headerControls');
+        if (showHeaderCheckbox && headerControls) {
+            showHeaderCheckbox.addEventListener('change', () => {
+                headerControls.style.display = showHeaderCheckbox.checked ? 'block' : 'none';
+            });
+        }
+
         setPageSizeBtn.addEventListener('click', () => {
             let newWidth, newHeight;
             if (pageSizeSelect.value === 'custom') {
@@ -1739,16 +1760,159 @@
         });
 
 
+        // --- Header & Border Functions ---
+        function createHeaderGroup(canvas) {
+            const showHeaderCheckbox = document.getElementById('showHeaderCheckbox');
+            const headerTitleInput = document.getElementById('headerTitleInput');
+            const headerDescriptionInput = document.getElementById('headerDescriptionInput');
+
+            if (!showHeaderCheckbox || !showHeaderCheckbox.checked) return null;
+
+            const defaultHeaders = {
+                en: { title: 'Grid Match!', description: 'Match the pieces to complete the picture!' },
+                de: { title: 'Raster-Puzzle!', description: 'Setze die Teile zusammen und vervollständige das Bild!' },
+                fr: { title: 'Puzzle Grille!', description: 'Assemble les pièces pour compléter l\'image!' },
+                es: { title: '¡Puzzle de Cuadrícula!', description: '¡Junta las piezas para completar la imagen!' },
+                it: { title: 'Puzzle a Griglia!', description: 'Metti insieme i pezzi per completare l\'immagine!' },
+                pt: { title: 'Quebra-Cabeça de Grade!', description: 'Junte as peças para completar a imagem!' },
+                nl: { title: 'Rasterpuzzel!', description: 'Leg de stukjes om de afbeelding compleet te maken!' },
+                sv: { title: 'Rutnätspussel!', description: 'Matcha bitarna för att slutföra bilden!' },
+                da: { title: 'Gitterpuslespil!', description: 'Sæt brikkerne sammen for at fuldføre billedet!' },
+                no: { title: 'Rutenettspuslespill!', description: 'Sett sammen bitene for å fullføre bildet!' },
+                fi: { title: 'Ruudukkopalapeli!', description: 'Yhdistä palaset ja täydennä kuva!' }
+            };
+
+            const locale = currentLocale || 'en';
+            const defaults = defaultHeaders[locale] || defaultHeaders.en;
+            const title = headerTitleInput.value || defaults.title;
+            const description = headerDescriptionInput.value || defaults.description;
+
+            const objects = [];
+
+            // Outer border - Deep purple for intellectual puzzle-solving
+            const outerBorder = new fabric.Rect({
+                left: 34,
+                top: 34,
+                width: 544,
+                height: 724,
+                fill: 'transparent',
+                stroke: '#7B68EE',
+                strokeWidth: 8,
+                rx: 12,
+                ry: 12,
+                selectable: true,
+                hasControls: true,
+                isPageBorder: true
+            });
+            objects.push(outerBorder);
+
+            // Inner border - Light lavender for calm thinking
+            const innerBorder = new fabric.Rect({
+                left: 46.5,
+                top: 46.5,
+                width: 519,
+                height: 699,
+                fill: 'transparent',
+                stroke: '#B19CD9',
+                strokeWidth: 3,
+                rx: 8,
+                ry: 8,
+                selectable: true,
+                hasControls: true,
+                isPageBorder: true
+            });
+            objects.push(innerBorder);
+
+            // Header background - Vibrant teal for clarity and organization
+            const bgRect = new fabric.Rect({
+                left: 70,
+                top: 70,
+                width: 472,
+                height: 100,
+                fill: '#17A2B8',
+                rx: 15,
+                ry: 15,
+                selectable: true
+            });
+            objects.push(bgRect);
+
+            // White pill for title
+            const whitePill = new fabric.Rect({
+                left: 90,
+                top: 85,
+                width: 432,
+                height: 70,
+                fill: '#FFFFFF',
+                rx: 35,
+                ry: 35,
+                selectable: true
+            });
+            objects.push(whitePill);
+
+            // Title - Dynamic size based on length
+            let titleFontSize = 48;
+            if (title.length > 12) titleFontSize = 40;
+            if (title.length > 15) titleFontSize = 36;
+            if (title.length > 18) titleFontSize = 32;
+            if (title.length > 22) titleFontSize = 28;
+
+            // Title text
+            const titleText = new fabric.IText(title, {
+                left: 306,
+                top: 120,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#2C3E50',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true
+            });
+            objects.push(titleText);
+
+            // Description text
+            const descText = new fabric.Textbox(description, {
+                left: 306,
+                top: 190,
+                width: 450,
+                fontSize: 20,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#495057',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true
+            });
+            objects.push(descText);
+
+            return objects;
+        }
+
+        function createPageBorder(canvas) {
+            return null;
+        }
+
+
         // --- Core Generation Logic ---
         function generateWorksheetData(imgObj) {
             const { rows, cols } = appState.config;
             const { width, height } = currentCanvasConfig;
-            
+
             // Check if landscape or portrait
             const isLandscape = width > height;
-            
-            // Define margins
-            const topMargin = height * 0.1;
+
+            // Check if header is enabled
+            const showHeaderCheckbox = document.getElementById('showHeaderCheckbox');
+            const headerHeight = (showHeaderCheckbox && showHeaderCheckbox.checked) ? 220 : 0;
+
+            // Define margins - account for header
+            const topMargin = Math.max(height * 0.1, headerHeight + 30);
             const sideMargin = width * 0.08;
             const bottomMargin = height * 0.08;
             
@@ -1840,8 +2004,14 @@
         
         async function renderFabricContent(targetCanvas, isAnswerKey, oldTransforms = {}) {
             if (!appState.lastGeneratedData) return Promise.reject("No data");
-            
-            const { gridMetrics, imgObj, revealIndices, solutionLabels, cropData, 
+
+            // Add header and border
+            const headerObjects = createHeaderGroup(targetCanvas);
+            if (headerObjects) {
+                headerObjects.forEach(obj => targetCanvas.add(obj));
+            }
+
+            const { gridMetrics, imgObj, revealIndices, solutionLabels, cropData,
                     canvasWidth, canvasHeight, topMargin, sideMargin, availableWidth, availableHeight } = appState.lastGeneratedData;
             let { GRID_W, GRID_H, GRID_TOP, GRID_LEFT, cellW, cellH, renderScale } = gridMetrics;
             const cells = appState.lastGeneratedData.cells;

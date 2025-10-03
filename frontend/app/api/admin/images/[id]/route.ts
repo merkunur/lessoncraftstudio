@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { requireAdmin } from '@/lib/admin-auth';
-import { deleteFile } from '@/lib/upload';
 
 // GET /api/admin/images/:id - Get single image
 export async function GET(

@@ -259,6 +259,28 @@ class WordSearchGenerator extends BaseWebComponent {
     downloadBtn?.addEventListener('click', () => this.downloadPuzzle());
     printBtn?.addEventListener('click', () => this.printPuzzle());
     regenerateBtn?.addEventListener('click', () => this.generatePuzzle());
+
+    // Auto-generate initial worksheet
+    this.generateInitialWorksheet();
+  }
+
+  generateInitialWorksheet() {
+    // Auto-select 8 random images and generate puzzle
+    const images = this._images.length > 0 ? this._images : this.getSampleImages();
+    const shuffled = [...images].sort(() => Math.random() - 0.5);
+    const selected = shuffled.slice(0, 8);
+
+    selected.forEach(img => {
+      const imageId = img.id || img.displayName;
+      this.selectedImages.add(imageId);
+    });
+
+    this.updateImageLibrary();
+
+    // Generate puzzle automatically after a short delay
+    setTimeout(() => {
+      this.generatePuzzle();
+    }, 100);
   }
 
   clearSelection() {

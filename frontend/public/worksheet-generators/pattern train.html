@@ -1984,8 +1984,8 @@
         try {
             const trainBgImg = await loadImage(currentTemplatePath);
             trainBgImg.scaleToWidth(currentCanvasConfig.width);
-            trainBgImg.set({ left: currentCanvasConfig.width / 2, top: currentCanvasConfig.height / 2, originX: 'center', originY: 'center', selectable: true, evented: true, objectCaching: false, isTrainTemplate: true });
-            
+            trainBgImg.set({ left: currentCanvasConfig.width / 2 + 10, top: currentCanvasConfig.height / 2 + 20, originX: 'center', originY: 'center', selectable: true, evented: true, objectCaching: false, isTrainTemplate: true });
+
             const masterElements = [trainBgImg];
             const cutoutElements = [];
             let nameDateGroup = null;
@@ -2174,8 +2174,8 @@
             
             trainBgImg.set({
                 originX: 'left', originY: 'top',
-                left: trainCenterX, 
-                top: trainCenterY,
+                left: trainCenterX + 10,
+                top: trainCenterY + 20,
                 isTrainTemplate: true, selectable: false, evented: false
             });
             answerKeyObjects.push(trainBgImg);

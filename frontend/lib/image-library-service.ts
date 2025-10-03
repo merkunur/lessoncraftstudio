@@ -97,38 +97,38 @@ export class ImageLibraryService {
 
   // Get images for a theme with translations
   async getThemeImages(theme: string, locale: string = 'en'): Promise<any[]> {
-    // Try Directus first
+    // Use database instead of filesystem
+    return this.getImagesFromDatabase(theme, locale);
+  }
+
+  // Get images from database
+  private async getImagesFromDatabase(theme: string, locale: string = 'en'): Promise<any[]> {
     try {
-      const token = await this.authenticate();
-      if (token) {
-        const response = await fetch(
-          `${DIRECTUS_URL}/items/worksheet_images?filter[theme_id][folder_name][_eq]=${theme}&filter[status][_eq]=active&fields=*,image_file.*`,
-          { headers: { 'Authorization': `Bearer ${token}` } }
-        );
+      const { prisma } = await import('@/lib/prisma');
 
-        if (response.ok) {
-          const data = await response.json();
-          
-          // Ensure images exist in filesystem
-          await this.syncImagesToFilesystem(theme, data.data);
-          
-          return data.data.map((img: WorksheetImage) => {
-            const fileName = this.ensureFileExtension(img.file_name);
-            return {
-              path: `/images/${theme}/${fileName}`,
-              url: `/images/${theme}/${fileName}`,
-              name: img.name?.[locale] || img.name?.['en'] || this.formatImageName(fileName),
-              word: img.name?.[locale] || img.name?.['en'] || this.formatImageName(fileName)
-            };
-          });
+      // Find the theme
+      const themeRecord = await prisma.imageTheme.findFirst({
+        where: { name: theme },
+        include: {
+          images: {
+            orderBy: { sortOrder: 'asc' }
+          }
         }
-      }
-    } catch (error) {
-      console.log('Using filesystem fallback for images');
-    }
+      });
 
-    // Fallback to filesystem
-    return this.getImagesFromFilesystem(theme, locale);
+      if (!themeRecord) {
+        console.log(`Theme not found in database: ${theme}, falling back to filesystem`);
+        return this.getImagesFromFilesystem(theme, locale);
+      }
+
+      return themeRecord.images.map((img: any) => ({
+        name: img.translations?.[locale] || img.translations?.['en'] || img.filename,
+        path: img.filePath
+      }));
+    } catch (error) {
+      console.error('Database query failed, using filesystem:', error);
+      return this.getImagesFromFilesystem(theme, locale);
+    }
   }
 
   // Sync themes from Directus to filesystem

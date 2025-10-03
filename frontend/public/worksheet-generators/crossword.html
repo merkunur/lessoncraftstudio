@@ -993,6 +993,31 @@ document.addEventListener("DOMContentLoaded", function() {
         setupCanvasEventListeners(answerKeyCanvas);
         updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
 
+        // Initialize header with language-specific defaults
+        const defaultHeaders = {
+            en: { title: 'Picture Crossword', description: 'Look at the pictures and fill in the words!' },
+            de: { title: 'Bilderkreuzworträtsel', description: 'Schau die Bilder an und fülle die Wörter aus!' },
+            fr: { title: 'Mots Croisés en Images', description: 'Regarde les images et trouve les mots!' },
+            es: { title: 'Crucigrama con Dibujos', description: '¡Mira los dibujos y escribe las palabras!' },
+            it: { title: 'Cruciverba con Immagini', description: 'Guarda le immagini e scrivi le parole!' },
+            pt: { title: 'Palavras Cruzadas', description: 'Vê as imagens e escreve as palavras!' },
+            nl: { title: 'Plaatjes Kruiswoord', description: 'Kijk naar de plaatjes en vul de woorden in!' },
+            sv: { title: 'Bildkorsord', description: 'Titta på bilderna och skriv orden!' },
+            da: { title: 'Billedkrydsord', description: 'Se på billederne og skriv ordene!' },
+            no: { title: 'Bildekryssord', description: 'Se på bildene og skriv ordene!' },
+            fi: { title: 'Kuvaristikko', description: 'Katso kuvia ja kirjoita sanat!' }
+        };
+
+        const locale = currentLocale || 'en';
+        const defaults = defaultHeaders[locale] || defaultHeaders.en;
+
+        if (!headerTitleInput.value) {
+            headerTitleInput.value = defaults.title;
+        }
+        if (!headerDescriptionInput.value) {
+            headerDescriptionInput.value = defaults.description;
+        }
+
         // Initialize language selector (sidebar selector - ONLY changes image library language)
         // This selector ONLY changes the image library language, NOT the UI language
         if (languageSelect) {
@@ -1588,103 +1613,152 @@ document.addEventListener("DOMContentLoaded", function() {
     function createHeaderGroup(canvas) {
         if (!showHeaderCheckbox.checked) return null;
 
-        const title = headerTitleInput.value || 'Picture Crossword';
-        const description = headerDescriptionInput.value || 'Look at the pictures and fill in the crossword!';
+        const defaultHeaders = {
+            en: { title: 'Picture Crossword', description: 'Look at the pictures and fill in the words!' },
+            de: { title: 'Bilderkreuzworträtsel', description: 'Schau die Bilder an und fülle die Wörter aus!' },
+            fr: { title: 'Mots Croisés en Images', description: 'Regarde les images et trouve les mots!' },
+            es: { title: 'Crucigrama con Dibujos', description: '¡Mira los dibujos y escribe las palabras!' },
+            it: { title: 'Cruciverba con Immagini', description: 'Guarda le immagini e scrivi le parole!' },
+            pt: { title: 'Palavras Cruzadas', description: 'Vê as imagens e escreve as palavras!' },
+            nl: { title: 'Plaatjes Kruiswoord', description: 'Kijk naar de plaatjes en vul de woorden in!' },
+            sv: { title: 'Bildkorsord', description: 'Titta på bilderna och skriv orden!' },
+            da: { title: 'Billedkrydsord', description: 'Se på billederne og skriv ordene!' },
+            no: { title: 'Bildekryssord', description: 'Se på bildene og skriv ordene!' },
+            fi: { title: 'Kuvaristikko', description: 'Katso kuvia ja kirjoita sanat!' }
+        };
 
-        const canvasWidth = canvas.width;
-        const headerHeight = 100;
+        const locale = currentLocale || 'en';
+        const defaults = defaultHeaders[locale] || defaultHeaders.en;
+        const title = headerTitleInput.value || defaults.title;
+        const description = headerDescriptionInput.value || defaults.description;
+
         const objects = [];
 
-        // Simple elegant rounded rectangle background
-        const bgRect = new fabric.Rect({
-            left: 20,
-            top: 10,
-            width: canvasWidth - 40,
-            height: 90,
-            fill: new fabric.Gradient({
-                type: 'linear',
-                coords: { x1: 0, y1: 0, x2: 0, y2: 90 },
-                colorStops: [
-                    { offset: 0, color: '#FFEEF8' },
-                    { offset: 1, color: '#FFE4F1' }
-                ]
-            }),
-            rx: 20,
-            ry: 20,
+        // Outer border - fixed pixel values
+        const outerBorder = new fabric.Rect({
+            left: 34,
+            top: 34,
+            width: 544,
+            height: 724,
+            fill: 'transparent',
+            stroke: '#1E3A5F',
+            strokeWidth: 8,
+            rx: 12,
+            ry: 12,
             selectable: true,
             hasControls: true,
-            isHeaderBg: true
+            isPageBorder: true
+        });
+        objects.push(outerBorder);
+
+        // Inner border - fixed pixel values
+        const innerBorder = new fabric.Rect({
+            left: 46.5,
+            top: 46.5,
+            width: 519,
+            height: 699,
+            fill: 'transparent',
+            stroke: '#87CEEB',
+            strokeWidth: 3,
+            rx: 8,
+            ry: 8,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(innerBorder);
+
+        // Blue header background
+        const bgRect = new fabric.Rect({
+            left: 70,
+            top: 70,
+            width: 472,
+            height: 100,
+            fill: '#4A90E2',
+            rx: 15,
+            ry: 15,
+            selectable: true
         });
         objects.push(bgRect);
 
-        // Title text - beautiful, clean typography
+        // White pill for title
+        const whitePill = new fabric.Rect({
+            left: 90,
+            top: 85,
+            width: 432,
+            height: 70,
+            fill: '#FFFFFF',
+            rx: 35,
+            ry: 35,
+            selectable: true
+        });
+        objects.push(whitePill);
+
+        // Title - Dynamic size based on length
+        let titleFontSize = 48;
+        if (title.length > 12) titleFontSize = 40;
+        if (title.length > 15) titleFontSize = 36;
+        if (title.length > 18) titleFontSize = 32;
+        if (title.length > 22) titleFontSize = 28;
+
         const titleText = new fabric.IText(title, {
-            left: canvasWidth / 2,
-            top: 28,
-            fontSize: 36,
-            fontFamily: 'Fredoka, Baloo 2, sans-serif',
-            fontWeight: 'bold',
-            fill: '#FF1493',
+            left: 306,
+            top: 120,
+            fontSize: titleFontSize,
+            fontFamily: 'Fredoka, sans-serif',
+            fontWeight: '700',
+            fill: '#2C3E50',
             textAlign: 'center',
             originX: 'center',
-            originY: 'top',
+            originY: 'center',
             selectable: true,
-            editable: true,
-            hasControls: true,
-            hasBorders: true,
-            isHeaderTitle: true
+            editable: true
         });
         objects.push(titleText);
 
-        // Description text
-        const descText = new fabric.IText(description, {
-            left: canvasWidth / 2,
-            top: 70,
-            fontSize: 15,
+        // Description - smaller with wrapping
+        const descText = new fabric.Textbox(description, {
+            left: 306,
+            top: 190,
+            width: 450,
+            fontSize: 20,
             fontFamily: 'Quicksand, sans-serif',
             fontWeight: '500',
-            fill: '#666',
+            fill: '#4A4A4A',
             textAlign: 'center',
             originX: 'center',
             originY: 'top',
             selectable: true,
             editable: true,
             hasControls: true,
-            hasBorders: true,
             isHeaderDesc: true
         });
         objects.push(descText);
 
-        // Minimal star decorations
-        const star1 = new fabric.Text('⭐', {
-            left: canvasWidth / 2 - 200,
-            top: 30,
-            fontSize: 28,
-            selectable: true,
-            hasControls: true,
-            isHeaderDecor: true
-        });
-        objects.push(star1);
-
-        const star2 = new fabric.Text('⭐', {
-            left: canvasWidth / 2 + 200,
-            top: 30,
-            fontSize: 28,
-            selectable: true,
-            hasControls: true,
-            isHeaderDecor: true
-        });
-        objects.push(star2);
-
         return objects;
+    }
+
+    function createPageBorder(canvas) {
+        return null;
     }
 
     async function renderCanvasContent(canvas, showAnswers, oldTransforms = {}) {
         const isAnswerKey = showAnswers;
 
-        // Add header first
+        // Add page border first (bottom layer)
+        const borderObjects = createPageBorder(canvas);
+        if (borderObjects) {
+            const itemTag = isAnswerKey ? 'isAnswerKeyItem' : 'isGeneratedItem';
+            borderObjects.forEach((obj, index) => {
+                obj.set({ [itemTag]: true, originalIndex: `border_${index}` });
+                canvas.add(obj);
+                obj.sendToBack();
+            });
+        }
+
+        // Add header
         const headerObjects = createHeaderGroup(canvas);
-        const headerHeight = headerObjects ? 100 : 0;
+        const headerHeight = headerObjects ? 220 : 0;
 
         if (headerObjects) {
             const itemTag = isAnswerKey ? 'isAnswerKeyItem' : 'isGeneratedItem';
@@ -1717,13 +1791,14 @@ document.addEventListener("DOMContentLoaded", function() {
         // Create clue groups - this prepares them but doesn't position them yet
         const clueGroups = await createClueGroups();
         
-        // Now position the clue images based on grid dimensions
+        // Now position the clue images based on grid dimensions, accounting for header
         if (window.layoutClueImages && window.gridDimensions) {
             window.layoutClueImages(
                 window.gridDimensions.x,
                 window.gridDimensions.y,
                 window.gridDimensions.width,
-                window.gridDimensions.height
+                window.gridDimensions.height,
+                headerHeight
             );
         }
         
@@ -2066,28 +2141,28 @@ document.addEventListener("DOMContentLoaded", function() {
         if (validImages.length === 0) return [];
         
         // This function will be called after grid position is determined
-        window.layoutClueImages = function(gridX, gridY, gridWidth, gridHeight) {
+        window.layoutClueImages = function(gridX, gridY, gridWidth, gridHeight, headerHeight = 0) {
             const canvasWidth = currentCanvasConfig.width;
             const canvasHeight = currentCanvasConfig.height;
             const isLandscape = canvasWidth > canvasHeight;
-            
+
             // Smaller margins for more content coverage
             const pageMargin = 30;
             const imagePadding = 15;
             const clueSpacing = 12;
-            
-            // Calculate clue dimensions based on orientation
+
+            // Calculate clue dimensions based on orientation, accounting for header
             let clueWidth, maxCluesPerColumn, clueAreaWidth, clueAreaHeight;
-            
+
             if (isLandscape) {
                 // Landscape: images on left and right of grid
                 clueAreaWidth = (canvasWidth - gridWidth - imagePadding * 2) / 2 - pageMargin;
                 clueWidth = Math.min(100, clueAreaWidth * 0.9);  // Larger images
-                clueAreaHeight = canvasHeight - pageMargin * 2;
+                clueAreaHeight = canvasHeight - headerHeight - pageMargin * 2;
                 maxCluesPerColumn = Math.ceil(validImages.length / 2);
             } else {
-                // Portrait: images in single rows above and below grid
-                clueAreaHeight = (canvasHeight - gridHeight - imagePadding * 2) / 2 - pageMargin;
+                // Portrait: images in single rows above and below grid - account for header
+                clueAreaHeight = (canvasHeight - headerHeight - gridHeight - imagePadding * 2) / 2 - pageMargin;
                 clueAreaWidth = canvasWidth - pageMargin * 2;
                 // For portrait, we want horizontal rows, not columns
                 const imagesPerRow = Math.ceil(validImages.length / 2);
@@ -2132,9 +2207,10 @@ document.addEventListener("DOMContentLoaded", function() {
                         pageMargin : 
                         gridX + gridWidth + imagePadding;
                     
-                    // Vertically center the column of images
+                    // Vertically center the column of images (accounting for header)
                     const totalCluesHeight = maxCluesPerColumn * (totalHeight + clueSpacing) - clueSpacing;
-                    const startY = (canvasHeight - totalCluesHeight) / 2;
+                    const availableHeight = canvasHeight - headerHeight;
+                    const startY = headerHeight + (availableHeight - totalCluesHeight) / 2;
                     const y = startY + columnIndex * (totalHeight + clueSpacing);
                     
                     clueGroup.set({ left: x, top: y });
@@ -2153,12 +2229,13 @@ document.addEventListener("DOMContentLoaded", function() {
                     const startX = (canvasWidth - totalRowWidth) / 2;
                     const x = startX + rowIndex * (clueWidth + clueSpacing);
                     
-                    // Calculate y position
+                    // Calculate y position (accounting for header)
                     let y;
                     if (isTopRow) {
-                        // Top row - center between top margin and grid
-                        const availableSpace = gridY - pageMargin;
-                        y = pageMargin + (availableSpace - totalHeight) / 2;
+                        // Top row - center between header and grid
+                        const topBoundary = headerHeight + pageMargin;
+                        const availableSpace = gridY - topBoundary;
+                        y = topBoundary + (availableSpace - totalHeight) / 2;
                     } else {
                         // Bottom row - center between grid and bottom margin
                         const availableSpace = canvasHeight - (gridY + gridHeight) - pageMargin;
@@ -2225,10 +2302,27 @@ document.addEventListener("DOMContentLoaded", function() {
         borderOpacitySlider.value = 1;
         borderOpacitySlider.disabled = true;
 
-        // Reset header to defaults
+        // Reset header to language-specific defaults
+        const defaultHeaders = {
+            en: { title: 'Picture Crossword', description: 'Look at the pictures and fill in the words!' },
+            de: { title: 'Bilderkreuzworträtsel', description: 'Schau die Bilder an und fülle die Wörter aus!' },
+            fr: { title: 'Mots Croisés en Images', description: 'Regarde les images et trouve les mots!' },
+            es: { title: 'Crucigrama con Dibujos', description: '¡Mira los dibujos y escribe las palabras!' },
+            it: { title: 'Cruciverba con Immagini', description: 'Guarda le immagini e scrivi le parole!' },
+            pt: { title: 'Palavras Cruzadas', description: 'Vê as imagens e escreve as palavras!' },
+            nl: { title: 'Plaatjes Kruiswoord', description: 'Kijk naar de plaatjes en vul de woorden in!' },
+            sv: { title: 'Bildkorsord', description: 'Titta på bilderna och skriv orden!' },
+            da: { title: 'Billedkrydsord', description: 'Se på billederne og skriv ordene!' },
+            no: { title: 'Bildekryssord', description: 'Se på bildene og skriv ordene!' },
+            fi: { title: 'Kuvaristikko', description: 'Katso kuvia ja kirjoita sanat!' }
+        };
+
+        const locale = currentLocale || 'en';
+        const defaults = defaultHeaders[locale] || defaultHeaders.en;
+
         showHeaderCheckbox.checked = true;
-        headerTitleInput.value = 'Picture Crossword';
-        headerDescriptionInput.value = 'Look at the pictures and fill in the crossword!';
+        headerTitleInput.value = defaults.title;
+        headerDescriptionInput.value = defaults.description;
 
         renderSelectedImages(); renderDictionary(); renderUploadedImages();
         searchInput.value = "";

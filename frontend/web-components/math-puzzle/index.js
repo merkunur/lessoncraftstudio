@@ -442,16 +442,26 @@ class MathPuzzleGenerator extends BaseWebComponent {
     // Buttons
     this.shadowRoot.getElementById('generateBtn').addEventListener('click', () => this.generateWorksheet());
     this.shadowRoot.getElementById('downloadBtn').addEventListener('click', () => this.downloadPDF());
-    
+
     // Apply translations on load
     this.applyTranslations();
-    
+
     // Update on window resize for responsive behavior
     window.addEventListener('resize', () => {
       if (this.canvas) {
         this.updateCanvasDisplayDimensions(this.currentCanvasConfig.width, this.currentCanvasConfig.height);
       }
     });
+
+    // Auto-generate initial worksheet
+    this.generateInitialWorksheet();
+  }
+
+  generateInitialWorksheet() {
+    // Generate worksheet automatically after a short delay
+    setTimeout(() => {
+      this.generateWorksheet();
+    }, 100);
   }
   
   connectedCallback() {

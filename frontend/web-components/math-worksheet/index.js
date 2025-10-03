@@ -244,17 +244,10 @@ class MathWorksheetGenerator extends BaseWebComponent {
     this.worksheetCanvas.clear();
     this.currentProblems = [];
 
-    // Title
-    const title = new fabric.Text(`${operation.charAt(0).toUpperCase() + operation.slice(1)} Worksheet`, {
-      left: 306,
-      top: 40,
-      fontFamily: 'Arial',
-      fontSize: 24,
-      fontWeight: 'bold',
-      textAlign: 'center',
-      originX: 'center'
-    });
-    this.worksheetCanvas.add(title);
+    // Add header and border
+    this.addHeaderAndBorder(operation);
+
+    // Title moved into header
 
     // Generate problems
     const cols = 3;
@@ -264,7 +257,7 @@ class MathWorksheetGenerator extends BaseWebComponent {
     for (let row = 0; row < rows && currentProblem < problemCount; row++) {
       for (let col = 0; col < cols && currentProblem < problemCount; col++) {
         const x = 70 + col * 170;
-        const y = 120 + row * 80;
+        const y = 240 + row * 80; // Start below header
         
         const problem = this.generateProblem(operation, minNumber, maxNumber);
         this.currentProblems.push(problem);
@@ -276,6 +269,93 @@ class MathWorksheetGenerator extends BaseWebComponent {
 
     const actionButtons = this.shadowRoot.getElementById('actionButtons');
     actionButtons.style.display = 'flex';
+  }
+
+  addHeaderAndBorder(operation) {
+    // Outer border - Bright energetic blue for math
+    const outerBorder = new fabric.Rect({
+      left: 34,
+      top: 34,
+      width: 544,
+      height: 724,
+      fill: 'transparent',
+      stroke: '#4A90E2',
+      strokeWidth: 8,
+      rx: 12,
+      ry: 12,
+      selectable: false
+    });
+    this.worksheetCanvas.add(outerBorder);
+
+    // Inner border - Cheerful orange accent
+    const innerBorder = new fabric.Rect({
+      left: 46.5,
+      top: 46.5,
+      width: 519,
+      height: 699,
+      fill: 'transparent',
+      stroke: '#FF9F43',
+      strokeWidth: 3,
+      rx: 8,
+      ry: 8,
+      selectable: false
+    });
+    this.worksheetCanvas.add(innerBorder);
+
+    // Header background - Vibrant purple
+    const bgRect = new fabric.Rect({
+      left: 70,
+      top: 70,
+      width: 472,
+      height: 100,
+      fill: '#9B59B6',
+      rx: 15,
+      ry: 15,
+      selectable: false
+    });
+    this.worksheetCanvas.add(bgRect);
+
+    // White pill for title
+    const whitePill = new fabric.Rect({
+      left: 90,
+      top: 85,
+      width: 432,
+      height: 70,
+      fill: '#FFFFFF',
+      rx: 35,
+      ry: 35,
+      selectable: false
+    });
+    this.worksheetCanvas.add(whitePill);
+
+    // Title text
+    const title = new fabric.Text('Math Worksheet', {
+      left: 306,
+      top: 120,
+      fontSize: 48,
+      fontFamily: 'Arial, sans-serif',
+      fontWeight: 'bold',
+      fill: '#2C3E50',
+      textAlign: 'center',
+      originX: 'center',
+      originY: 'center',
+      selectable: false
+    });
+    this.worksheetCanvas.add(title);
+
+    // Description text
+    const description = new fabric.Text('Count, add, and subtract to solve fun math problems!', {
+      left: 306,
+      top: 190,
+      fontSize: 16,
+      fontFamily: 'Arial, sans-serif',
+      fill: '#4A4A4A',
+      textAlign: 'center',
+      originX: 'center',
+      originY: 'top',
+      selectable: false
+    });
+    this.worksheetCanvas.add(description);
   }
 
   generateProblem(operation, min, max) {

@@ -56,7 +56,7 @@ export const appsConfig: AppConfig[] = [
   {
     id: 'math-worksheet',
     name: 'Math Worksheet Generator',
-    filename: 'mathworksheet.html',
+    filename: 'math worksheet.html',
     description: 'Generate customizable math practice sheets',
     category: 'Math',
     tier: 'core',
@@ -76,7 +76,7 @@ export const appsConfig: AppConfig[] = [
   {
     id: 'find-and-count',
     name: 'Find and Count',
-    filename: 'findandcount.html',
+    filename: 'find and count.html',
     description: 'Visual counting exercises with themed images',
     category: 'Math',
     tier: 'core',
@@ -208,7 +208,7 @@ export const appsConfig: AppConfig[] = [
   {
     id: 'math-puzzle',
     name: 'Math Puzzle',
-    filename: 'mathpuzzle.html',
+    filename: 'math puzzle.html',
     description: 'Mathematical puzzles and brain teasers',
     category: 'Math',
     tier: 'full',

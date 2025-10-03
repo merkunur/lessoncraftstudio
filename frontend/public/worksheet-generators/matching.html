@@ -518,6 +518,18 @@
                         </div>
                         <button id="setPageSizeBtn" data-translate="applySize">Apply Size</button>
 
+                        <h4 data-translate="header">Header</h4>
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="showHeaderCheckbox" checked>
+                            <span data-translate="showHeader">Show Header</span>
+                        </label>
+                        <div id="headerControls" style="display: block;">
+                            <label for="headerTitleInput" data-translate="headerTitle">Header Title:</label>
+                            <input type="text" id="headerTitleInput" placeholder="Match Up!" data-translate-placeholder="matchUpTitle">
+                            <label for="headerDescriptionInput" data-translate="headerDescription">Header Description:</label>
+                            <textarea id="headerDescriptionInput" rows="2" placeholder="Draw lines to connect the matching pairs!" data-translate-placeholder="matchUpDesc"></textarea>
+                        </div>
+
                         <h4 data-translate="background">Background</h4>
                         <label for="pageColor" data-translate="fallbackColor">Fallback Color:</label>
                         <input type="color" id="pageColor" value="#FFFFFF">
@@ -990,6 +1002,16 @@
             }
         });
         setPageSizeBtn.addEventListener('click', updateCanvasDisplayDimensions);
+
+        // Header checkbox toggle
+        const showHeaderCheckbox = document.getElementById('showHeaderCheckbox');
+        const headerControls = document.getElementById('headerControls');
+        if (showHeaderCheckbox && headerControls) {
+            showHeaderCheckbox.addEventListener('change', () => {
+                headerControls.style.display = showHeaderCheckbox.checked ? 'block' : 'none';
+            });
+        }
+
         pageColorInput.addEventListener('input', () => {
              [worksheetCanvas, answerKeyCanvas].forEach(c => {
               if(c) c.setBackgroundColor(pageColorInput.value, c.renderAll.bind(c));
@@ -1931,16 +1953,165 @@
             return obj;
         };
 
+        // --- Header & Border Functions ---
+        function createHeaderGroup(canvas) {
+            const showHeaderCheckbox = document.getElementById('showHeaderCheckbox');
+            const headerTitleInput = document.getElementById('headerTitleInput');
+            const headerDescriptionInput = document.getElementById('headerDescriptionInput');
+
+            if (!showHeaderCheckbox || !showHeaderCheckbox.checked) return null;
+
+            const defaultHeaders = {
+                en: { title: 'Match Up!', description: 'Draw lines to connect the matching pairs!' },
+                de: { title: 'Paare Finden!', description: 'Verbinde die zusammenpassenden Paare mit Linien!' },
+                fr: { title: 'Trouve les Paires!', description: 'Relie les paires qui vont ensemble!' },
+                es: { title: '¡Encuentra Parejas!', description: '¡Conecta las parejas que coinciden!' },
+                it: { title: 'Trova le Coppie!', description: 'Collega le coppie che si abbinano!' },
+                pt: { title: 'Encontre os Pares!', description: 'Ligue os pares que combinam!' },
+                nl: { title: 'Zoek de Paren!', description: 'Verbind de passende paren met lijnen!' },
+                sv: { title: 'Matcha Paren!', description: 'Dra linjer för att koppla ihop paren!' },
+                da: { title: 'Find Parrene!', description: 'Forbind de matchende par med linjer!' },
+                no: { title: 'Finn Parene!', description: 'Koble sammen de riktige parene!' },
+                fi: { title: 'Yhdistä Parit!', description: 'Piirrä viivat yhdistääksesi parit!' }
+            };
+
+            const locale = currentLocale || 'en';
+            const defaults = defaultHeaders[locale] || defaultHeaders.en;
+            const title = headerTitleInput.value || defaults.title;
+            const description = headerDescriptionInput.value || defaults.description;
+
+            const objects = [];
+
+            // Outer border - Warm coral for friendly connections
+            const outerBorder = new fabric.Rect({
+                left: 34,
+                top: 34,
+                width: 544,
+                height: 724,
+                fill: 'transparent',
+                stroke: '#FF7F50',
+                strokeWidth: 8,
+                rx: 12,
+                ry: 12,
+                selectable: true,
+                hasControls: true,
+                isPageBorder: true
+            });
+            objects.push(outerBorder);
+
+            // Inner border - Fresh lime green for growth and connection
+            const innerBorder = new fabric.Rect({
+                left: 46.5,
+                top: 46.5,
+                width: 519,
+                height: 699,
+                fill: 'transparent',
+                stroke: '#90EE90',
+                strokeWidth: 3,
+                rx: 8,
+                ry: 8,
+                selectable: true,
+                hasControls: true,
+                isPageBorder: true
+            });
+            objects.push(innerBorder);
+
+            // Header background - Sunny yellow for cheerful learning
+            const bgRect = new fabric.Rect({
+                left: 70,
+                top: 70,
+                width: 472,
+                height: 100,
+                fill: '#FFD700',
+                rx: 15,
+                ry: 15,
+                selectable: true
+            });
+            objects.push(bgRect);
+
+            // White pill for title
+            const whitePill = new fabric.Rect({
+                left: 90,
+                top: 85,
+                width: 432,
+                height: 70,
+                fill: '#FFFFFF',
+                rx: 35,
+                ry: 35,
+                selectable: true
+            });
+            objects.push(whitePill);
+
+            // Title - Dynamic size based on length
+            let titleFontSize = 48;
+            if (title.length > 12) titleFontSize = 40;
+            if (title.length > 15) titleFontSize = 36;
+            if (title.length > 18) titleFontSize = 32;
+            if (title.length > 22) titleFontSize = 28;
+
+            // Title text
+            const titleText = new fabric.IText(title, {
+                left: 306,
+                top: 120,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#2C3E50',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true
+            });
+            objects.push(titleText);
+
+            // Description text
+            const descText = new fabric.Textbox(description, {
+                left: 306,
+                top: 190,
+                width: 450,
+                fontSize: 20,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#555555',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true
+            });
+            objects.push(descText);
+
+            return objects;
+        }
+
+        function createPageBorder(canvas) {
+            return null;
+        }
+
         const renderCanvas = async (canvas, pairs, isAnswerKey, transforms = {}, mode) => {
+            // Add header and border
+            const headerObjects = createHeaderGroup(canvas);
+            if (headerObjects) {
+                headerObjects.forEach(obj => canvas.add(obj));
+            }
+            const headerHeight = headerObjects ? 220 : 0;
+
             if (pairs.length === 0) {
                 canvas.renderAll(); return;
             }
             // Use actual page dimensions, not zoomed canvas dimensions
             const pageWidth = currentCanvasConfig.width;
             const pageHeight = currentCanvasConfig.height;
-            
+
             // Professional margins (7% of page dimensions)
-            const topMargin = pageHeight * 0.07;
+            let topMargin = pageHeight * 0.07;
+            // Adjust top margin to account for header
+            if (headerHeight > 0) {
+                topMargin = Math.max(topMargin, headerHeight + 20);
+            }
             const bottomMargin = pageHeight * 0.07;
             const leftMargin = pageWidth * 0.07;
             const rightMargin = pageWidth * 0.07;

@@ -34,6 +34,15 @@ const translations = {
         "border": "Border",
         "borderTheme": "Border Theme:",
         "borderOpacity": "Border Opacity:",
+
+        // Header
+        "header": "Header",
+        "showHeader": "Show Header",
+        "headerTitle": "Header Title:",
+        "headerDescription": "Header Description:",
+        "mathPuzzles": "Math Puzzles",
+        "solvePicturePuzzles": "Solve the picture puzzles below!",
+
         "none": "None",
         "common.none": "None",
     "none": "None",
@@ -149,7 +158,8 @@ const translations = {
         "uploadImage": "Upload Image",
         "undo": "Undo",
         "redo": "Redo",
-        "deleteSelected": "Delete Selected",
+        "deleteSelected": "Delete Selected"
+,
         "worksheetJPEG": "Worksheet (JPEG)",
         "answerKeyJPEG": "Answer Key (JPEG)",
         "worksheetPDF": "Worksheet (PDF)",
@@ -161,7 +171,8 @@ const translations = {
         "errorLoadingBorders": "Error loading borders.",
         "errorLoadingBackgrounds": "Error loading backgrounds.",
         "noBordersInTheme": "No borders in this theme.",
-        "noBackgroundsInTheme": "No backgrounds in this theme.",
+        "noBackgroundsInTheme": "No backgrounds in this theme."
+,
         "selectTheme": "-- Select Theme --",
         "loadingDefaultTheme": "Loading default theme...",
         "typeToSearchAllImages": "Type to search all images.",
@@ -214,6 +225,15 @@ const translations = {
         "border": "Rahmen",
         "borderTheme": "Rahmenthema:",
         "borderOpacity": "Rahmendeckkraft:",
+
+        // Kopfzeile
+        "header": "Kopfzeile",
+        "showHeader": "Kopfzeile Anzeigen",
+        "headerTitle": "Kopfzeilentitel:",
+        "headerDescription": "Kopfzeilenbeschreibung:",
+        "mathPuzzles": "Mathematische Rätsel",
+        "solvePicturePuzzles": "Löse die Bilderrätsel unten!",
+
         "none": "Keine",
         "common.none": "Keine",
         "outlineColor": "Konturfarbe:",
@@ -301,7 +321,8 @@ const translations = {
         "uploadImage": "Bild hochladen",
         "undo": "Rückgängig",
         "redo": "Wiederholen",
-        "deleteSelected": "Ausgewählte löschen",
+        "deleteSelected": "Ausgewählte löschen"
+,
         "worksheetJPEG": "Arbeitsblatt (JPEG)",
         "answerKeyJPEG": "Lösungsschlüssel (JPEG)",
         "worksheetPDF": "Arbeitsblatt (PDF)",
@@ -334,7 +355,8 @@ const translations = {
         "errorLoadingBorders": "Fehler beim Laden der Rahmen.",
         "errorLoadingBackgrounds": "Fehler beim Laden der Hintergründe.",
         "noBordersInTheme": "Keine Rahmen in diesem Thema.",
-        "noBackgroundsInTheme": "Keine Hintergründe in diesem Thema.",
+        "noBackgroundsInTheme": "Keine Hintergründe in diesem Thema."
+,
         "selectTheme": "-- Thema wählen --",
         "loadingDefaultTheme": "Lade Standardthema...",
         "typeToSearchAllImages": "Tippen Sie, um alle Bilder zu durchsuchen.",
@@ -387,6 +409,15 @@ const translations = {
         "border": "Bordure",
         "borderTheme": "Thème de Bordure:",
         "borderOpacity": "Opacité de la Bordure:",
+
+        // En-tête
+        "header": "En-tête",
+        "showHeader": "Afficher l'en-tête",
+        "headerTitle": "Titre de l'en-tête:",
+        "headerDescription": "Description de l'en-tête:",
+        "mathPuzzles": "Énigmes Mathématiques",
+        "solvePicturePuzzles": "Résolvez les énigmes ci-dessous!",
+
         "none": "Aucun",
         "common.none": "Aucun",
     "none": "Aucun",
@@ -481,7 +512,8 @@ const translations = {
         "uploadImage": "Télécharger une Image",
         "undo": "Annuler",
         "redo": "Refaire",
-        "deleteSelected": "Supprimer la Sélection",
+        "deleteSelected": "Supprimer la Sélection"
+,
         "worksheetJPEG": "Feuille de travail (JPEG)",
         "answerKeyJPEG": "Clé de réponse (JPEG)",
         "worksheetPDF": "Feuille de travail (PDF)",
@@ -514,7 +546,8 @@ const translations = {
         "errorLoadingBorders": "Erreur lors du chargement des bordures.",
         "errorLoadingBackgrounds": "Erreur lors du chargement des arrière-plans.",
         "noBordersInTheme": "Aucune bordure dans ce thème.",
-        "noBackgroundsInTheme": "Aucun arrière-plan dans ce thème.",
+        "noBackgroundsInTheme": "Aucun arrière-plan dans ce thème."
+,
         "selectTheme": "-- Sélectionner un thème --",
         "loadingDefaultTheme": "Chargement du thème par défaut...",
         "typeToSearchAllImages": "Tapez pour rechercher toutes les images.",
@@ -567,6 +600,15 @@ const translations = {
         "border": "Borde",
         "borderTheme": "Tema de Borde:",
         "borderOpacity": "Opacidad del Borde:",
+
+        // Encabezado
+        "header": "Encabezado",
+        "showHeader": "Mostrar Encabezado",
+        "headerTitle": "Título del Encabezado:",
+        "headerDescription": "Descripción del Encabezado:",
+        "mathPuzzles": "Rompecabezas Matemáticos",
+        "solvePicturePuzzles": "¡Resuelve los rompecabezas a continuación!",
+
         "none": "Ninguno",
         "common.none": "Ninguno",
     "none": "Ninguno",
@@ -655,7 +697,8 @@ const translations = {
         "uploadImage": "Cargar Imagen",
         "undo": "Deshacer",
         "redo": "Rehacer",
-        "deleteSelected": "Eliminar Seleccionado",
+        "deleteSelected": "Eliminar Seleccionado"
+,
         "worksheetJPEG": "Hoja de trabajo (JPEG)",
         "answerKeyJPEG": "Clave de respuestas (JPEG)",
         "worksheetPDF": "Hoja de trabajo (PDF)",
@@ -688,7 +731,8 @@ const translations = {
         "errorLoadingBorders": "Error al cargar bordes.",
         "errorLoadingBackgrounds": "Error al cargar fondos.",
         "noBordersInTheme": "No hay bordes en este tema.",
-        "noBackgroundsInTheme": "No hay fondos en este tema.",
+        "noBackgroundsInTheme": "No hay fondos en este tema."
+,
         "selectTheme": "-- Seleccionar tema --",
         "loadingDefaultTheme": "Cargando tema predeterminado...",
         "typeToSearchAllImages": "Escriba para buscar todas las imágenes.",
@@ -741,6 +785,15 @@ const translations = {
         "border": "Bordo",
         "borderTheme": "Tema Bordo:",
         "borderOpacity": "Opacità Bordo:",
+
+        // Intestazione
+        "header": "Intestazione",
+        "showHeader": "Mostra Intestazione",
+        "headerTitle": "Titolo Intestazione:",
+        "headerDescription": "Descrizione Intestazione:",
+        "mathPuzzles": "Enigmi Matematici",
+        "solvePicturePuzzles": "Risolvi gli enigmi qui sotto!",
+
         "none": "Nessuno",
         "common.none": "Nessuno",
     "none": "Nessuno",
@@ -829,7 +882,8 @@ const translations = {
         "uploadImage": "Carica Immagine",
         "undo": "Annulla",
         "redo": "Ripristina",
-        "deleteSelected": "Elimina Selezionato",
+        "deleteSelected": "Elimina Selezionato"
+,
         "worksheetJPEG": "Foglio di lavoro (JPEG)",
         "answerKeyJPEG": "Chiave risposte (JPEG)",
         "worksheetPDF": "Foglio di lavoro (PDF)",
@@ -862,7 +916,8 @@ const translations = {
         "errorLoadingBorders": "Errore nel caricamento dei bordi.",
         "errorLoadingBackgrounds": "Errore nel caricamento degli sfondi.",
         "noBordersInTheme": "Nessun bordo in questo tema.",
-        "noBackgroundsInTheme": "Nessuno sfondo in questo tema.",
+        "noBackgroundsInTheme": "Nessuno sfondo in questo tema."
+,
         "selectTheme": "-- Seleziona tema --",
         "loadingDefaultTheme": "Caricamento tema predefinito...",
         "typeToSearchAllImages": "Digita per cercare tutte le immagini.",
@@ -915,6 +970,15 @@ const translations = {
         "border": "Borda",
         "borderTheme": "Tema da Borda:",
         "borderOpacity": "Opacidade da Borda:",
+
+        // Cabeçalho
+        "header": "Cabeçalho",
+        "showHeader": "Mostrar Cabeçalho",
+        "headerTitle": "Título do Cabeçalho:",
+        "headerDescription": "Descrição do Cabeçalho:",
+        "mathPuzzles": "Quebra-Cabeças Matemáticos",
+        "solvePicturePuzzles": "Resolva os quebra-cabeças abaixo!",
+
         "none": "Nenhum",
         "common.none": "Nenhum",
     "none": "Nenhum",
@@ -1015,7 +1079,8 @@ const translations = {
         "uploadImage": "Carregar Imagem",
         "undo": "Desfazer",
         "redo": "Refazer",
-        "deleteSelected": "Excluir Selecionado",
+        "deleteSelected": "Excluir Selecionado"
+,
         "worksheetJPEG": "Folha de trabalho (JPEG)",
         "answerKeyJPEG": "Chave de respostas (JPEG)",
         "worksheetPDF": "Folha de trabalho (PDF)",
@@ -1048,7 +1113,8 @@ const translations = {
         "errorLoadingBorders": "Erro ao carregar bordas.",
         "errorLoadingBackgrounds": "Erro ao carregar fundos.",
         "noBordersInTheme": "Sem bordas neste tema.",
-        "noBackgroundsInTheme": "Sem fundos neste tema.",
+        "noBackgroundsInTheme": "Sem fundos neste tema."
+,
         "selectTheme": "-- Selecionar tema --",
         "loadingDefaultTheme": "Carregando tema padrão...",
         "typeToSearchAllImages": "Digite para pesquisar todas as imagens.",
@@ -1101,6 +1167,15 @@ const translations = {
         "border": "Rand",
         "borderTheme": "Randthema:",
         "borderOpacity": "Rand Dekking:",
+
+        // Koptekst
+        "header": "Koptekst",
+        "showHeader": "Koptekst Weergeven",
+        "headerTitle": "Koptekst Titel:",
+        "headerDescription": "Koptekst Beschrijving:",
+        "mathPuzzles": "Wiskundepuzzels",
+        "solvePicturePuzzles": "Los de puzzels hieronder op!",
+
         "none": "Geen",
         "common.none": "Geen",
     "none": "Geen",
@@ -1189,7 +1264,8 @@ const translations = {
         "uploadImage": "Afbeelding Uploaden",
         "undo": "Ongedaan Maken",
         "redo": "Opnieuw",
-        "deleteSelected": "Selectie Verwijderen",
+        "deleteSelected": "Selectie Verwijderen"
+,
         "worksheetJPEG": "Werkblad (JPEG)",
         "answerKeyJPEG": "Antwoordsleutel (JPEG)",
         "worksheetPDF": "Werkblad (PDF)",
@@ -1216,7 +1292,8 @@ const translations = {
         "errorDuringGeneration": "Fout tijdens genereren",
         "pleaseGenerateContentFirst": "Genereer eerst inhoud.",
         "errorCreatingPDF": "Fout bij het maken van PDF.",
-        "errorPreparingJPEG": "Fout bij het voorbereiden van JPEG.",
+        "errorPreparingJPEG": "Fout bij het voorbereiden van JPEG."
+,
         "selectTheme": "-- Selecteer thema --",
         "loadingDefaultTheme": "Standaardthema laden...",
         "typeToSearchAllImages": "Typ om alle afbeeldingen te doorzoeken.",
@@ -1269,6 +1346,15 @@ const translations = {
         "border": "Kant",
         "borderTheme": "Kanttema:",
         "borderOpacity": "Kantopacitet:",
+
+        // Rubrik
+        "header": "Rubrik",
+        "showHeader": "Visa Rubrik",
+        "headerTitle": "Rubrikstitel:",
+        "headerDescription": "Rubrikbeskrivning:",
+        "mathPuzzles": "Mattepussel",
+        "solvePicturePuzzles": "Lös pusslena nedan!",
+
         "none": "Ingen",
         "common.none": "Ingen",
     "none": "Ingen",
@@ -1357,7 +1443,8 @@ const translations = {
         "uploadImage": "Ladda upp Bild",
         "undo": "Ångra",
         "redo": "Gör om",
-        "deleteSelected": "Radera Markerat",
+        "deleteSelected": "Radera Markerat"
+,
         "worksheetJPEG": "Arbetsblad (JPEG)",
         "answerKeyJPEG": "Svarsnyckel (JPEG)",
         "worksheetPDF": "Arbetsblad (PDF)",
@@ -1384,7 +1471,8 @@ const translations = {
         "errorDuringGeneration": "Fel under generering",
         "pleaseGenerateContentFirst": "Generera innehåll först.",
         "errorCreatingPDF": "Fel vid skapande av PDF.",
-        "errorPreparingJPEG": "Fel vid förberedelse av JPEG.",
+        "errorPreparingJPEG": "Fel vid förberedelse av JPEG."
+,
         "selectTheme": "-- Välj tema --",
         "loadingDefaultTheme": "Laddar standardtema...",
         "typeToSearchAllImages": "Skriv för att söka bland alla bilder.",
@@ -1437,6 +1525,15 @@ const translations = {
         "border": "Kant",
         "borderTheme": "Kanttema:",
         "borderOpacity": "Kant Uigennemsigtighed:",
+
+        // Overskrift
+        "header": "Overskrift",
+        "showHeader": "Vis Overskrift",
+        "headerTitle": "Overskrift Titel:",
+        "headerDescription": "Overskrift Beskrivelse:",
+        "mathPuzzles": "Matematik Gåder",
+        "solvePicturePuzzles": "Løs billedgåderne nedenfor!",
+
         "none": "Ingen",
         "common.none": "Ingen",
     "none": "Ingen",
@@ -1525,7 +1622,8 @@ const translations = {
         "uploadImage": "Upload Billede",
         "undo": "Fortryd",
         "redo": "Gentag",
-        "deleteSelected": "Slet Valgte",
+        "deleteSelected": "Slet Valgte"
+,
         "worksheetJPEG": "Arbejdsark (JPEG)",
         "answerKeyJPEG": "Svarnøgle (JPEG)",
         "worksheetPDF": "Arbejdsark (PDF)",
@@ -1552,7 +1650,8 @@ const translations = {
         "errorDuringGeneration": "Fejl under generering",
         "pleaseGenerateContentFirst": "Generer indhold først.",
         "errorCreatingPDF": "Fejl ved oprettelse af PDF.",
-        "errorPreparingJPEG": "Fejl ved forberedelse af JPEG.",
+        "errorPreparingJPEG": "Fejl ved forberedelse af JPEG."
+,
         "selectTheme": "-- Vælg tema --",
         "loadingDefaultTheme": "Indlæser standardtema...",
         "typeToSearchAllImages": "Skriv for at søge i alle billeder.",
@@ -1605,6 +1704,15 @@ const translations = {
         "border": "Kant",
         "borderTheme": "Kanttema:",
         "borderOpacity": "Kant Ugjennomsiktighet:",
+
+        // Overskrift
+        "header": "Overskrift",
+        "showHeader": "Vis Overskrift",
+        "headerTitle": "Overskrift Tittel:",
+        "headerDescription": "Overskrift Beskrivelse:",
+        "mathPuzzles": "Mattegåter",
+        "solvePicturePuzzles": "Løs billedgåtene nedenfor!",
+
         "none": "Ingen",
         "common.none": "Ingen",
     "none": "Ingen",
@@ -1693,7 +1801,8 @@ const translations = {
         "uploadImage": "Last opp Bilde",
         "undo": "Angre",
         "redo": "Gjenta",
-        "deleteSelected": "Slett Valgte",
+        "deleteSelected": "Slett Valgte"
+,
         "worksheetJPEG": "Arbeidsark (JPEG)",
         "answerKeyJPEG": "Svarnøkkel (JPEG)",
         "worksheetPDF": "Arbeidsark (PDF)",
@@ -1720,7 +1829,8 @@ const translations = {
         "errorDuringGeneration": "Feil under generering",
         "pleaseGenerateContentFirst": "Vennligst generer innhold først.",
         "errorCreatingPDF": "Feil ved opprettelse av PDF.",
-        "errorPreparingJPEG": "Feil ved forberedelse av JPEG.",
+        "errorPreparingJPEG": "Feil ved forberedelse av JPEG."
+,
         "selectTheme": "-- Velg tema --",
         "loadingDefaultTheme": "Laster standardtema...",
         "typeToSearchAllImages": "Skriv for å søke i alle bilder.",
@@ -1773,6 +1883,15 @@ const translations = {
         "border": "Reunus",
         "borderTheme": "Reunusteema:",
         "borderOpacity": "Reunuksen Peittävyys:",
+
+        // Otsikko
+        "header": "Otsikko",
+        "showHeader": "Näytä Otsikko",
+        "headerTitle": "Otsikon Nimi:",
+        "headerDescription": "Otsikon Kuvaus:",
+        "mathPuzzles": "Matematiikkapulmat",
+        "solvePicturePuzzles": "Ratkaise kuvapulmat alla!",
+
         "none": "Ei mitään",
         "common.none": "Ei mitään",
     "none": "Ei mitään",

@@ -477,6 +477,18 @@
                 <div id="borderDictionary"><p class="dictionary-message" data-translate="selectThemeToSeeBorders">Select a theme to see borders.</p></div>
                 <label for="borderOpacitySlider" data-translate="borderOpacity">Border Opacity:</label>
                 <input type="range" id="borderOpacitySlider" min="0" max="1" step="0.05" value="1" disabled>
+
+                <h4 data-translate="header">Header</h4>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="showHeaderCheckbox" checked>
+                    <span data-translate="showHeader">Show Header</span>
+                </label>
+                <div id="headerControls" style="display: block;">
+                    <label for="headerTitleInput" data-translate="headerTitle">Header Title:</label>
+                    <input type="text" id="headerTitleInput" placeholder="Word Scramble" data-translate-placeholder="wordScramble">
+                    <label for="headerDescriptionInput" data-translate="headerDescription">Header Description:</label>
+                    <textarea id="headerDescriptionInput" rows="2" placeholder="Unscramble the letters to make words!" data-translate-placeholder="unscrambleLetters"></textarea>
+                </div>
             </div>
         </div>
 
@@ -743,6 +755,11 @@
             borderDictionary: document.getElementById('borderDictionary'),
             borderOpacitySlider: document.getElementById('borderOpacitySlider'),
 
+            showHeaderCheckbox: document.getElementById('showHeaderCheckbox'),
+            headerTitleInput: document.getElementById('headerTitleInput'),
+            headerDescriptionInput: document.getElementById('headerDescriptionInput'),
+            headerControls: document.getElementById('headerControls'),
+
             textInput: document.getElementById('textInput'),
             addTextBtn: document.getElementById('addTextBtn'),
             textColorInput: document.getElementById('textColor'),
@@ -798,6 +815,12 @@
             toolbarDeleteBtn: document.getElementById('toolbarDeleteBtn'),
         };
 
+        // Shorter references for header elements
+        const showHeaderCheckbox = ui.showHeaderCheckbox;
+        const headerTitleInput = ui.headerTitleInput;
+        const headerDescriptionInput = ui.headerDescriptionInput;
+        const headerControls = ui.headerControls;
+
         // --- Canvas & Config ---
         let worksheetCanvas, answerKeyCanvas;
         let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
@@ -821,6 +844,142 @@
         function getActiveCanvas() {
             const activeTab = document.querySelector('.tab.active');
             return activeTab && activeTab.id === 'answerKeyTab' ? answerKeyCanvas : worksheetCanvas;
+        }
+
+        function createHeaderGroup(canvas) {
+            if (!showHeaderCheckbox.checked) return null;
+
+            const defaultHeaders = {
+                en: { title: 'Word Scramble', description: 'Unscramble the letters to make words!' },
+                de: { title: 'Buchstabensalat', description: 'Ordne die Buchstaben und finde die Wörter!' },
+                fr: { title: 'Mots Mêlés', description: 'Remets les lettres dans le bon ordre pour faire des mots!' },
+                es: { title: 'Palabras Revueltas', description: '¡Ordena las letras para formar palabras!' },
+                it: { title: 'Lettere Mescolate', description: 'Riordina le lettere per formare le parole!' },
+                pt: { title: 'Letras Embaralhadas', description: 'Organize as letras para formar palavras!' },
+                nl: { title: 'Letterzaak', description: 'Zet de letters in de juiste volgorde om woorden te maken!' },
+                sv: { title: 'Bokstavspussel', description: 'Ordna bokstäverna för att bilda ord!' },
+                da: { title: 'Bogstavrod', description: 'Sæt bogstaverne i den rigtige rækkefølge!' },
+                no: { title: 'Bokstavblanding', description: 'Sett bokstavene i riktig rekkefølge for å lage ord!' },
+                fi: { title: 'Kirjainsekoitus', description: 'Järjestä kirjaimet muodostaaksesi sanoja!' }
+            };
+
+            const locale = currentLocale || 'en';
+            const defaults = defaultHeaders[locale] || defaultHeaders.en;
+            const title = headerTitleInput.value || defaults.title;
+            const description = headerDescriptionInput.value || defaults.description;
+
+            const objects = [];
+
+            // Outer border - Fresh green for word learning
+            const outerBorder = new fabric.Rect({
+                left: 34,
+                top: 34,
+                width: 544,
+                height: 724,
+                fill: 'transparent',
+                stroke: '#5CB85C',
+                strokeWidth: 8,
+                rx: 12,
+                ry: 12,
+                selectable: true,
+                hasControls: true,
+                isPageBorder: true
+            });
+            objects.push(outerBorder);
+
+            // Inner border - Cheerful yellow accent
+            const innerBorder = new fabric.Rect({
+                left: 46.5,
+                top: 46.5,
+                width: 519,
+                height: 699,
+                fill: 'transparent',
+                stroke: '#FFC107',
+                strokeWidth: 3,
+                rx: 8,
+                ry: 8,
+                selectable: true,
+                hasControls: true,
+                isPageBorder: true
+            });
+            objects.push(innerBorder);
+
+            // Header background - Vibrant orange for energy
+            const bgRect = new fabric.Rect({
+                left: 70,
+                top: 70,
+                width: 472,
+                height: 100,
+                fill: '#FF7043',
+                rx: 15,
+                ry: 15,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
+
+            // White pill for title
+            const whitePill = new fabric.Rect({
+                left: 90,
+                top: 85,
+                width: 432,
+                height: 70,
+                fill: '#FFFFFF',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
+
+            // Title - Dynamic size based on length
+            let titleFontSize = 48;
+            if (title.length > 12) titleFontSize = 40;
+            if (title.length > 15) titleFontSize = 36;
+            if (title.length > 18) titleFontSize = 32;
+            if (title.length > 22) titleFontSize = 28;
+
+            // Title text
+            const titleText = new fabric.IText(title, {
+                left: 306,
+                top: 120,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#2C3E50',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description text
+            const descText = new fabric.Textbox(description, {
+                left: 306,
+                top: 190,
+                width: 450,
+                fontSize: 20,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#555555',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true
+            });
+            objects.push(descText);
+
+            return objects;
+        }
+
+        function createPageBorder(canvas) {
+            return null;
         }
 
         function enforceZOrder(canvas) {
@@ -930,6 +1089,12 @@
                 [worksheetCanvas, answerKeyCanvas].forEach(c => {
                     if (c) { c.backgroundColor = newColor; c.renderAll(); }
                 });
+            });
+
+            // Header Event Listeners
+            showHeaderCheckbox.addEventListener('change', () => {
+                headerControls.style.display = showHeaderCheckbox.checked ? 'block' : 'none';
+                generateWorksheet();
             });
 
             // Text Tools Event Listeners
@@ -1684,17 +1849,32 @@
             const pageWidth = currentCanvasConfig.width;
             const pageHeight = currentCanvasConfig.height;
             const isLandscape = pageWidth > pageHeight;
-            
-            // Professional margins - slightly smaller for better space utilization
-            const topMargin = pageHeight * 0.07;
-            const bottomMargin = pageHeight * 0.07;
-            const leftMargin = pageWidth * 0.07;
-            const rightMargin = pageWidth * 0.07;
-            
-            let availableWidth = pageWidth - leftMargin - rightMargin;
 
-            const userAddedObjects = canvas.getObjects().filter(o => !o.isGeneratedItem && !o.isAnswerKeyItem && !o.isBorder && !o.isBackground);
+            const userAddedObjects = canvas.getObjects().filter(o => !o.isGeneratedItem && !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
             userAddedObjects.forEach(o => canvas.remove(o));
+
+            // Remove old header/border objects if they exist
+            const oldHeaderObjects = canvas.getObjects().filter(o =>
+                o.isPageBorder ||
+                o.isHeaderDesc ||
+                o.isHeaderElement
+            );
+            oldHeaderObjects.forEach(o => canvas.remove(o));
+
+            // Create and add header (BEFORE calculating layout)
+            const headerObjects = createHeaderGroup(canvas);
+            if (headerObjects) {
+                headerObjects.forEach(obj => canvas.add(obj));
+            }
+            const headerHeight = headerObjects ? 220 : 0;
+
+            // Professional margins - adjusted for header and borders
+            const topMargin = headerHeight + (pageHeight * 0.05);
+            const bottomMargin = pageHeight * 0.07;
+            const leftMargin = headerObjects ? 70 : (pageWidth * 0.07);
+            const rightMargin = headerObjects ? 70 : (pageWidth * 0.07);
+
+            let availableWidth = pageWidth - leftMargin - rightMargin;
             
             // Determine if we should use two columns (landscape with more than 5 exercises)
             const useColumns = isLandscape && puzzlesData.length > 5;

@@ -549,7 +549,6 @@
                         <select id="backgroundThemeSelect">
                             <option value="none" data-translate="none">None</option>
                         </select>
-                        <button id="reloadBackgroundsBtn" style="margin-left: 10px; padding: 5px;">Reload Backgrounds</button>
                         <div id="backgroundDictionary"><p class="dictionary-message">Select a theme for backgrounds.</p></div>
 
                         <h4>Border</h4>
@@ -557,7 +556,6 @@
                         <select id="borderThemeSelect">
                             <option value="none" data-translate="none">None</option>
                         </select>
-                        <button id="reloadBordersBtn" style="margin-left: 10px; padding: 5px;">Reload Borders</button>
                         <div id="borderDictionary"><p class="dictionary-message">Select a theme to see borders.</p></div>
                     </div>
                 </div>
@@ -609,10 +607,7 @@
         // });
 
         // App-specific variables
-        console.log('Setting currentLocale...');
-        console.log('typeof getCurrentLocale:', typeof getCurrentLocale);
         let currentLocale = typeof getCurrentLocale !== 'undefined' ? getCurrentLocale() : 'en';
-        console.log('currentLocale set to:', currentLocale);
         let worksheetCanvas, answerCanvas;
         let selectedImages = [];
         let targetImages = [];
@@ -1219,32 +1214,15 @@
         }
 
         // Border and background loading functions - MUST be defined before init()
-        // Make them global so they can be called from anywhere
-        window.populateBorderThemes = async function populateBorderThemes() {
+        async function populateBorderThemes() {
             console.log('populateBorderThemes called');
-            console.log('currentLocale value:', currentLocale);
-            console.log('typeof currentLocale:', typeof currentLocale);
-
             const borderThemeSelect = document.getElementById('borderThemeSelect');
             console.log('borderThemeSelect element:', borderThemeSelect);
             console.log('borderThemeSelect exists:', !!borderThemeSelect);
 
-            if (!borderThemeSelect) {
-                console.error('ERROR: borderThemeSelect element not found!');
-                return;
-            }
-
             try {
-                // Clear and add None option
-                borderThemeSelect.innerHTML = '';
-                const noneOption = document.createElement('option');
-                noneOption.value = 'none';
-                noneOption.textContent = 'None';
-                borderThemeSelect.appendChild(noneOption);
-
-                const url = `/api/borders/themes?locale=${currentLocale}`;
-                console.log('Fetching from URL:', url);
-                const response = await fetch(url);
+                borderThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
+                const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
                 if (!response.ok) {
                     console.error('Failed to load border themes');
                     return;
@@ -1254,38 +1232,25 @@
                 console.log('Border themes received:', themes);
 
                 themes.forEach(theme => {
-                    const option = document.createElement('option');
-                    option.value = typeof theme === 'object' ? theme.value : theme;
-                    option.textContent = typeof theme === 'object' ? theme.displayName : theme;
-                    borderThemeSelect.appendChild(option);
-                    console.log('Added border option:', option.value, option.textContent);
+                    const themeValue = typeof theme === 'object' ? theme.value : theme;
+                    const displayName = typeof theme === 'object'
+                        ? theme.displayName
+                        : theme.charAt(0).toUpperCase() + theme.slice(1);
+                    borderThemeSelect.innerHTML += `<option value="${themeValue}">${displayName}</option>`;
                 });
 
                 console.log('Border themes loaded, select has', borderThemeSelect.options.length, 'options');
-                console.log('Border select HTML:', borderThemeSelect.innerHTML);
             } catch (error) {
                 console.error('Error loading border themes:', error);
-                console.error('Stack:', error.stack);
             }
         }
 
-        window.populateBackgroundThemes = async function populateBackgroundThemes() {
+        async function populateBackgroundThemes() {
             console.log('populateBackgroundThemes called');
             const backgroundThemeSelect = document.getElementById('backgroundThemeSelect');
 
-            if (!backgroundThemeSelect) {
-                console.error('ERROR: backgroundThemeSelect element not found!');
-                return;
-            }
-
             try {
-                // Clear and add None option
-                backgroundThemeSelect.innerHTML = '';
-                const noneOption = document.createElement('option');
-                noneOption.value = 'none';
-                noneOption.textContent = 'None';
-                backgroundThemeSelect.appendChild(noneOption);
-
+                backgroundThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
                 const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
                 if (!response.ok) {
                     console.error('Failed to load background themes');
@@ -1296,18 +1261,16 @@
                 console.log('Background themes received:', themes);
 
                 themes.forEach(theme => {
-                    const option = document.createElement('option');
-                    option.value = typeof theme === 'object' ? theme.value : theme;
-                    option.textContent = typeof theme === 'object' ? theme.displayName : theme;
-                    backgroundThemeSelect.appendChild(option);
-                    console.log('Added background option:', option.value, option.textContent);
+                    const themeValue = typeof theme === 'object' ? theme.value : theme;
+                    const displayName = typeof theme === 'object'
+                        ? theme.displayName
+                        : theme.charAt(0).toUpperCase() + theme.slice(1);
+                    backgroundThemeSelect.innerHTML += `<option value="${themeValue}">${displayName}</option>`;
                 });
 
                 console.log('Background themes loaded, select has', backgroundThemeSelect.options.length, 'options');
-                console.log('Background select HTML:', backgroundThemeSelect.innerHTML);
             } catch (error) {
                 console.error('Error loading background themes:', error);
-                console.error('Stack:', error.stack);
             }
         }
 
@@ -1438,36 +1401,19 @@
             console.log('typeof populateBorderThemes:', typeof populateBorderThemes);
             console.log('typeof populateBackgroundThemes:', typeof populateBackgroundThemes);
 
-            // Call populate functions without await, like subtraction-v2.html does
             try {
                 console.log('About to call populateBorderThemes...');
-                populateBorderThemes().then(() => {
-                    console.log('populateBorderThemes completed');
-                    const select = document.getElementById('borderThemeSelect');
-                    console.log('After populate, border select has', select ? select.options.length : 0, 'options');
-                }).catch(error => {
-                    console.error('ERROR in populateBorderThemes:', error);
-                    console.error('Stack:', error.stack);
-                });
-            } catch (error) {
-                console.error('SYNC ERROR calling populateBorderThemes:', error);
-            }
+                await populateBorderThemes();
+                console.log('populateBorderThemes completed');
 
-            try {
                 console.log('About to call populateBackgroundThemes...');
-                populateBackgroundThemes().then(() => {
-                    console.log('populateBackgroundThemes completed');
-                    const select = document.getElementById('backgroundThemeSelect');
-                    console.log('After populate, background select has', select ? select.options.length : 0, 'options');
-                }).catch(error => {
-                    console.error('ERROR in populateBackgroundThemes:', error);
-                    console.error('Stack:', error.stack);
-                });
-            } catch (error) {
-                console.error('SYNC ERROR calling populateBackgroundThemes:', error);
-            }
+                await populateBackgroundThemes();
+                console.log('populateBackgroundThemes completed');
 
-            console.log('Border/background themes loading attempted');
+                console.log('Border/background themes loaded successfully');
+            } catch (error) {
+                console.error('Error loading border/background themes:', error);
+            }
 
             // Set up event listeners
             document.getElementById('themeSelect').addEventListener('change', loadImages);
@@ -1483,120 +1429,21 @@
             if (typeof applyTranslations === 'function') {
                 applyTranslations();
             }
-
-            console.log('===== INIT COMPLETED SUCCESSFULLY =====');
-            console.log('Border select final options:', document.getElementById('borderThemeSelect').options.length);
-            console.log('Background select final options:', document.getElementById('backgroundThemeSelect').options.length);
-
-            // Set a timer to check if selects get cleared later
-            setTimeout(() => {
-                console.log('===== 1 SECOND LATER CHECK =====');
-                console.log('Border select options now:', document.getElementById('borderThemeSelect').options.length);
-                console.log('Background select options now:', document.getElementById('backgroundThemeSelect').options.length);
-
-                // If they're empty, try to repopulate
-                if (document.getElementById('borderThemeSelect').options.length <= 1) {
-                    console.log('Border select was cleared! Repopulating...');
-                    populateBorderThemes();
-                }
-                if (document.getElementById('backgroundThemeSelect').options.length <= 1) {
-                    console.log('Background select was cleared! Repopulating...');
-                    populateBackgroundThemes();
-                }
-            }, 1000);
         }
 
-        // Wait for DOM to be REALLY ready, then start
-        setTimeout(function() {
-            console.log('Starting after delay to ensure DOM is ready');
-            console.log('DOMContentLoaded fired');
+        // Start app when DOM is ready
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOMContentLoaded fired - calling init()');
 
-            // Define currentLocale HERE, inside DOMContentLoaded
-            const currentLocale = typeof getCurrentLocale !== 'undefined' ? getCurrentLocale() : 'en';
-            console.log('currentLocale inside DOMContentLoaded:', currentLocale);
-
-            // Get DOM elements FIRST, just like subtraction-v2.html
-            const borderThemeSelect = document.getElementById('borderThemeSelect');
-            const backgroundThemeSelect = document.getElementById('backgroundThemeSelect');
-            const borderDictionary = document.getElementById('borderDictionary');
-            const backgroundDictionary = document.getElementById('backgroundDictionary');
-
-            console.log('Elements found:', {
-                borderThemeSelect: !!borderThemeSelect,
-                backgroundThemeSelect: !!backgroundThemeSelect,
-                borderDictionary: !!borderDictionary,
-                backgroundDictionary: !!backgroundDictionary
-            });
-
-            // Load border themes IMMEDIATELY, just like subtraction-v2.html
-            async function loadBorderThemes() {
-                console.log('loadBorderThemes called');
-                if (!borderThemeSelect) return;
-
-                try {
-                    borderThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
-                    const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
-                    const themes = await response.json();
-
-                    themes.forEach(theme => {
-                        const option = document.createElement('option');
-                        option.value = theme.value || theme;
-                        option.textContent = theme.displayName || theme;
-                        borderThemeSelect.appendChild(option);
-                    });
-
-                    console.log('Border themes loaded:', borderThemeSelect.options.length);
-                } catch (error) {
-                    console.error('Error loading border themes:', error);
-                }
-            }
-
-            // Load background themes IMMEDIATELY, just like subtraction-v2.html
-            async function loadBackgroundThemes() {
-                console.log('loadBackgroundThemes called');
-                if (!backgroundThemeSelect) return;
-
-                try {
-                    backgroundThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
-                    const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
-                    const themes = await response.json();
-
-                    themes.forEach(theme => {
-                        const option = document.createElement('option');
-                        option.value = theme.value || theme;
-                        option.textContent = theme.displayName || theme;
-                        backgroundThemeSelect.appendChild(option);
-                    });
-
-                    console.log('Background themes loaded:', backgroundThemeSelect.options.length);
-                } catch (error) {
-                    console.error('Error loading background themes:', error);
-                }
-            }
-
-            // Call them IMMEDIATELY, just like subtraction-v2.html
-            loadBorderThemes();
-            loadBackgroundThemes();
-
-            // Add event listeners for reload buttons
-            const reloadBordersBtn = document.getElementById('reloadBordersBtn');
-            const reloadBackgroundsBtn = document.getElementById('reloadBackgroundsBtn');
-
-            if (reloadBordersBtn) {
-                reloadBordersBtn.addEventListener('click', loadBorderThemes);
-            }
-            if (reloadBackgroundsBtn) {
-                reloadBackgroundsBtn.addEventListener('click', loadBackgroundThemes);
-            }
-
-            // Then call init for the rest
             try {
+                // Just call init() which does everything!
                 init();
             } catch (error) {
-                console.error('CRITICAL ERROR in init:', error);
+                console.error('CRITICAL ERROR in DOMContentLoaded:', error);
                 console.error('Stack trace:', error.stack);
+                alert('JavaScript Error: ' + error.message);
             }
-        }, 100); // 100ms delay to ensure DOM is ready
+        });
     </script>
 </body>
 </html>

@@ -865,7 +865,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         worksheetCanvas = initializeCanvas(worksheetCanvasElement);
         answerKeyCanvas = initializeCanvas(answerKeyCanvasElement);
-        
+
         const [initialW, initialH] = pageSizeSelect.value.split('x').map(Number);
         currentCanvasConfig.width = initialW;
         currentCanvasConfig.height = initialH;
@@ -880,7 +880,28 @@ document.addEventListener("DOMContentLoaded", function() {
         loadBorderThemes();
         loadBackgroundThemes();
         renderUploadedImages();
-        showMessage('Select images or a theme to begin.', 'info', 5000);
+
+        // Generate initial default worksheet
+        generateInitialWorksheet();
+    }
+
+    async function generateInitialWorksheet() {
+        try {
+            // Set a default theme
+            const defaultTheme = 'the_animals';
+            worksheetThemeSelect.value = defaultTheme;
+
+            showMessage('Generating initial worksheet...', 'info', 2000);
+
+            // Wait a bit for themes to load
+            await new Promise(resolve => setTimeout(resolve, 500));
+
+            // Generate the worksheet
+            await handleGenerateWorksheet();
+        } catch (error) {
+            console.error('Error generating initial worksheet:', error);
+            showMessage('Select images or a theme to begin.', 'info', 5000);
+        }
     }
 
     // --- SETUP FUNCTIONS ---
@@ -1342,7 +1363,18 @@ document.addEventListener("DOMContentLoaded", function() {
 
     async function renderCanvasContent(canvas, showAnswers, oldTransforms = {}) {
         const isAnswerKey = showAnswers;
-        
+
+        // Add the header at the top
+        const header = await createWorksheetHeader();
+        if (header) {
+            const itemTag = isAnswerKey ? 'isAnswerKeyItem' : 'isGeneratedItem';
+            header.set({ [itemTag]: true, originalIndex: 'header' });
+            if (oldTransforms['header']) {
+                header.set(oldTransforms['header']);
+            }
+            canvas.add(header);
+        }
+
         const gridGroup = await createGridGroup(showAnswers);
         if (gridGroup) {
             const itemTag = isAnswerKey ? 'isAnswerKeyItem' : 'isGeneratedItem';
@@ -1501,6 +1533,105 @@ document.addEventListener("DOMContentLoaded", function() {
         };
         activeObject.set(props);
         activeCanvas.renderAll();
+    }
+
+    async function createWorksheetHeader() {
+        const headerWidth = 550;
+        const headerHeight = 140;
+        const bannerPadding = 20;
+        const cornerRadius = 20;
+
+        // Create rounded rectangle background with coral/salmon gradient
+        const headerBg = new fabric.Rect({
+            width: headerWidth,
+            height: headerHeight,
+            rx: cornerRadius,
+            ry: cornerRadius,
+            fill: new fabric.Gradient({
+                type: 'linear',
+                coords: { x1: 0, y1: 0, x2: headerWidth, y2: 0 },
+                colorStops: [
+                    { offset: 0, color: '#e07856' },
+                    { offset: 1, color: '#e07856' }
+                ]
+            }),
+            stroke: '#a85a3f',
+            strokeWidth: 3,
+            selectable: false,
+            evented: false
+        });
+
+        // Create decorative label background (brown rectangle)
+        const labelBg = new fabric.Rect({
+            width: 130,
+            height: 60,
+            rx: 8,
+            ry: 8,
+            fill: '#6d4534',
+            left: -headerWidth / 2 + 30,
+            top: -headerHeight / 2 + 25,
+            selectable: false,
+            evented: false
+        });
+
+        // Label text "Word"
+        const labelText = new fabric.Textbox('Word', {
+            fontSize: 32,
+            fontFamily: 'Fredoka',
+            fontWeight: 'bold',
+            fill: '#ffffff',
+            left: -headerWidth / 2 + 95,
+            top: -headerHeight / 2 + 38,
+            width: 120,
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'center',
+            selectable: false,
+            evented: false
+        });
+
+        // Main title text "Crossword"
+        const titleText = new fabric.Textbox('Crossword', {
+            fontSize: 60,
+            fontFamily: 'Fredoka',
+            fontWeight: 'bold',
+            fill: '#ffffff',
+            left: 20,
+            top: -headerHeight / 2 + 40,
+            width: 380,
+            textAlign: 'left',
+            editable: true,
+            selectable: false,
+            evented: false
+        });
+
+        // Description text
+        const descriptionText = new fabric.Textbox('Look at the pictures and fill in the crossword puzzle with the correct words.', {
+            fontSize: 16,
+            fontFamily: 'Fredoka',
+            fill: '#6d4534',
+            left: -headerWidth / 2 + bannerPadding,
+            top: headerHeight / 2 - 35,
+            width: headerWidth - (bannerPadding * 2),
+            textAlign: 'center',
+            editable: true,
+            selectable: false,
+            evented: false
+        });
+
+        // Create the header group
+        const headerGroup = new fabric.Group([headerBg, labelBg, labelText, titleText, descriptionText], {
+            left: currentCanvasConfig.width / 2,
+            top: 100,
+            originX: 'center',
+            originY: 'center',
+            borderColor: 'var(--app-accent-primary)',
+            cornerColor: 'var(--app-accent-primary)',
+            cornerSize: 10,
+            transparentCorners: false
+        });
+
+        return headerGroup;
     }
 
     async function createGridGroup(showAnswers) {

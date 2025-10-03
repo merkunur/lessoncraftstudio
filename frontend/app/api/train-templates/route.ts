@@ -1,31 +1,28 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { prisma } from '@/lib/prisma';
+import fs from 'fs';
+import path from 'path';
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const locale = searchParams.get('locale') || 'en';
 
   try {
-    // Get all train template themes from database
-    const themes = await prisma.imageTheme.findMany({
-      where: { type: 'train' },
-      include: {
-        images: {
-          orderBy: { sortOrder: 'asc' }
-        }
-      },
-      orderBy: { sortOrder: 'asc' }
-    });
+    // Use filesystem fallback directly for instant response
+    const trainTemplateDir = path.join(process.cwd(), 'public', 'images', 'template', 'train');
 
-    // Flatten all images from all themes
-    const templates = themes.flatMap(theme =>
-      theme.images.map(img => ({
-        path: img.filePath,
-        url: img.filePath,
-        name: img.translations?.[locale] || img.translations?.['en'] || img.filename,
-        theme: theme.name
-      }))
-    );
+    let templates: any[] = [];
+
+    if (fs.existsSync(trainTemplateDir)) {
+      const files = fs.readdirSync(trainTemplateDir);
+      templates = files
+        .filter(file => /\.(png|jpe?g|gif|svg)$/i.test(file))
+        .map(file => ({
+          path: `/images/template/train/${file}`,
+          url: `/images/template/train/${file}`,
+          name: path.basename(file, path.extname(file)).replace(/[-_]/g, ' '),
+          theme: 'train'
+        }));
+    }
 
     return NextResponse.json(templates, {
       headers: {
@@ -35,9 +32,10 @@ export async function GET(request: NextRequest) {
     });
   } catch (error) {
     console.error('Error fetching train templates:', error);
-    return NextResponse.json(
-      { error: 'Failed to fetch train templates' },
-      { status: 500 }
-    );
+    return NextResponse.json([], {
+      headers: {
+        'Content-Type': 'application/json; charset=utf-8',
+      },
+    });
   }
 }

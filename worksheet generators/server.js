@@ -8,15 +8,15 @@ const path = require('path');
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Serve static files from "public" folder
-app.use(express.static(path.join(__dirname, 'public')));
+// Serve static files from current directory
+app.use(express.static(__dirname));
 
 // --- GENERAL IMAGE & THEME API ---
 
-// Endpoint for original apps: Lists only top-level subfolders in /public/images as "themes".
+// Endpoint for original apps: Lists only top-level subfolders in /images as "themes".
 // It EXCLUDES special-use folders like 'borders', 'backgrounds', 'drawing lines', and the new 'template' folder.
 app.get('/api/themes', (req, res) => {
-  const imagesDir = path.join(__dirname, 'public', 'images');
+  const imagesDir = path.join(__dirname, 'images');
   fs.readdir(imagesDir, { withFileTypes: true }, (err, files) => {
     if (err) return res.status(500).json({ error: 'Error reading images directory' });
     
@@ -32,7 +32,7 @@ app.get('/api/themes', (req, res) => {
 
 // NEW Endpoint for updated apps: Recursively finds all theme folders.
 app.get('/api/themes/nested', (req, res) => {
-    const imagesBaseDir = path.join(__dirname, 'public', 'images');
+    const imagesBaseDir = path.join(__dirname, 'images');
     const excludedFolders = new Set(['borders', 'backgrounds', 'drawing lines', 'template']);
     let themePaths = [];
 
@@ -81,7 +81,7 @@ app.get('/api/images', (req, res) => {
     const { theme, search } = req.query;
 
     if (search) {
-        const imagesBaseDir = path.join(__dirname, 'public', 'images');
+        const imagesBaseDir = path.join(__dirname, 'images');
         const excludedFolders = new Set(['borders', 'backgrounds', 'drawing lines', 'template']);
         const results = [];
         const searchQuery = search.toLowerCase();
@@ -122,7 +122,7 @@ app.get('/api/images', (req, res) => {
         return res.json([]);
     }
 
-    const folderPath = path.join(__dirname, 'public', 'images', theme);
+    const folderPath = path.join(__dirname, 'images', theme);
     fs.readdir(folderPath, (err, files) => {
         if (err) return res.status(500).json({ error: `Error reading images folder: ${theme}` });
 
@@ -139,7 +139,7 @@ app.get('/api/images', (req, res) => {
 // --- BORDERS API ---
 
 app.get('/api/borders/themes', (req, res) => {
-  const bordersDir = path.join(__dirname, 'public', 'images', 'borders');
+  const bordersDir = path.join(__dirname, 'images', 'borders');
   fs.readdir(bordersDir, { withFileTypes: true }, (err, files) => {
     if (err) {
       if (err.code === 'ENOENT') return res.json([]);
@@ -158,7 +158,7 @@ app.get('/api/borders/images', (req, res) => {
     return res.status(400).json({ error: 'A valid border theme is required' });
   }
 
-  const folderPath = path.join(__dirname, 'public', 'images', 'borders', theme);
+  const folderPath = path.join(__dirname, 'images', 'borders', theme);
   fs.readdir(folderPath, (err, files) => {
     if (err) {
       if (err.code === 'ENOENT') return res.status(404).json({ error: 'Border theme not found' });
@@ -177,7 +177,7 @@ app.get('/api/borders/images', (req, res) => {
 // --- BACKGROUNDS API ---
 
 app.get('/api/backgrounds/themes', (req, res) => {
-  const backgroundsDir = path.join(__dirname, 'public', 'images', 'backgrounds');
+  const backgroundsDir = path.join(__dirname, 'images', 'backgrounds');
   fs.readdir(backgroundsDir, { withFileTypes: true }, (err, files) => {
     if (err) {
       if (err.code === 'ENOENT') return res.json([]);
@@ -196,7 +196,7 @@ app.get('/api/backgrounds/images', (req, res) => {
     return res.status(400).json({ error: 'A valid background theme is required' });
   }
 
-  const folderPath = path.join(__dirname, 'public', 'images', 'backgrounds', theme);
+  const folderPath = path.join(__dirname, 'images', 'backgrounds', theme);
   fs.readdir(folderPath, (err, files) => {
     if (err) {
       if (err.code === 'ENOENT') return res.status(404).json({ error: 'Background theme not found' });
@@ -217,7 +217,7 @@ app.get('/api/backgrounds/images', (req, res) => {
 
 // Endpoint for the "Drawing Lines" app
 app.get('/api/templates', (req, res) => {
-  const templatesDir = path.join(__dirname, 'public', 'images', 'drawing lines');
+  const templatesDir = path.join(__dirname, 'images', 'drawing lines');
   fs.readdir(templatesDir, (err, files) => {
     if (err) {
         if (err.code === 'ENOENT') return res.json([]);
@@ -231,7 +231,7 @@ app.get('/api/templates', (req, res) => {
 
 // NEW endpoint for the "Pattern Train" app
 app.get('/api/train-templates', (req, res) => {
-  const templatesDir = path.join(__dirname, 'public', 'images', 'template');
+  const templatesDir = path.join(__dirname, 'images', 'template');
   fs.readdir(templatesDir, (err, files) => {
     if (err) {
         if (err.code === 'ENOENT') return res.json([]); // If folder doesn't exist, return empty array

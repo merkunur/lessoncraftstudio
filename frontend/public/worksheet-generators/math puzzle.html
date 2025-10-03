@@ -712,9 +712,21 @@
                 </div>
                 <label for="borderOpacity" data-translate="borderOpacity">Border Opacity:</label>
                 <input type="range" id="borderOpacity" min="0" max="1" step="0.05" value="1" disabled>
+
+                <h4 data-translate="header">Header</h4>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="showHeaderCheckbox">
+                    <span data-translate="showHeader">Show Header</span>
+                </label>
+                <div id="headerControls" style="display: none;">
+                    <label for="headerTitleInput" data-translate="headerTitle">Header Title:</label>
+                    <input type="text" id="headerTitleInput" placeholder="Math Puzzles" data-translate-placeholder="mathPuzzles">
+                    <label for="headerDescriptionInput" data-translate="headerDescription">Header Description:</label>
+                    <textarea id="headerDescriptionInput" rows="2" placeholder="Solve the picture puzzles below!" data-translate-placeholder="solvePicturePuzzles"></textarea>
+                </div>
             </div>
         </div>
-        
+
         <div class="accordion-item">
             <button class="accordion-button" data-translate="mathpuzzle.text.tools">Text Tools</button>
             <div class="accordion-wrapper">
@@ -962,6 +974,11 @@ document.addEventListener("DOMContentLoaded", function() {
         borderThemeSelect: $('borderThemeSelect'),
         borderDictionary: $('borderDictionary'),
         borderOpacity: $('borderOpacity'),
+        // Header
+        showHeaderCheckbox: $('showHeaderCheckbox'),
+        headerControls: $('headerControls'),
+        headerTitleInput: $('headerTitleInput'),
+        headerDescriptionInput: $('headerDescriptionInput'),
         // Text Tools
         textInput: $('textInput'),
         addTextBtn: $('addTextBtn'),
@@ -1287,6 +1304,33 @@ document.addEventListener("DOMContentLoaded", function() {
         elements.backgroundOpacity.addEventListener('input', handleBackgroundOpacityChange);
         elements.borderThemeSelect.addEventListener('change', loadBorderImages);
         elements.borderOpacity.addEventListener('input', handleBorderOpacityChange);
+
+        // Header listeners
+        elements.showHeaderCheckbox.addEventListener('change', () => {
+            elements.headerControls.style.display = elements.showHeaderCheckbox.checked ? 'block' : 'none';
+            if (lastGeneratedData) {
+                renderWorksheet();
+                if (answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem)) {
+                    renderAnswerKey();
+                }
+            }
+        });
+        elements.headerTitleInput.addEventListener('input', () => {
+            if (lastGeneratedData) {
+                renderWorksheet();
+                if (answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem)) {
+                    renderAnswerKey();
+                }
+            }
+        });
+        elements.headerDescriptionInput.addEventListener('input', () => {
+            if (lastGeneratedData) {
+                renderWorksheet();
+                if (answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem)) {
+                    renderAnswerKey();
+                }
+            }
+        });
 
         elements.textInput.addEventListener('input', updateActiveTextObjectProperties);
         elements.textColor.addEventListener('input', updateActiveTextObjectProperties);
@@ -2139,6 +2183,92 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // --- FABRIC.JS RENDERING ---
+    function createHeaderGroup() {
+        if (!elements.showHeaderCheckbox.checked) {
+            return null;
+        }
+
+        const headerPadding = 30;
+        const canvasWidth = currentCanvasConfig.width;
+
+        // Get header content from inputs (with translations as defaults)
+        const defaultTitle = translations[currentLocale]?.mathPuzzles || translations.en?.mathPuzzles || 'Math Puzzles';
+        const defaultDescription = translations[currentLocale]?.solvePicturePuzzles || translations.en?.solvePicturePuzzles || 'Solve the picture puzzles below!';
+
+        const headerTitle = elements.headerTitleInput.value.trim() || defaultTitle;
+        const headerDescription = elements.headerDescriptionInput.value.trim() || defaultDescription;
+
+        // Pink gradient color palette for math puzzle
+        const headerBgColor = '#FF69B4';      // Hot pink (fun, engaging)
+        const borderColor = '#FF1493';        // Deep pink (vibrant)
+        const titleColor = '#8B008B';         // Dark magenta (strong contrast, readable)
+        const descriptionColor = '#4B0082';   // Indigo (professional, calm)
+
+        // Create title text
+        const titleText = new fabric.Text(headerTitle, {
+            fontSize: 28,
+            fontWeight: '700',
+            fontFamily: 'Fredoka',
+            fill: titleColor,
+            originX: 'center',
+            originY: 'top'
+        });
+
+        // Create description text
+        const descriptionText = new fabric.Text(headerDescription, {
+            fontSize: 16,
+            fontWeight: '400',
+            fontFamily: 'Lexend Deca',
+            fill: descriptionColor,
+            originX: 'center',
+            originY: 'top'
+        });
+
+        // Calculate dimensions
+        const headerContentWidth = Math.max(titleText.width, descriptionText.width) + (headerPadding * 2);
+        const titleDescGap = 8;
+        const headerContentHeight = titleText.height + titleDescGap + descriptionText.height + (headerPadding * 2);
+
+        // Create background rectangle with border
+        const headerBg = new fabric.Rect({
+            width: canvasWidth - 40,
+            height: headerContentHeight,
+            fill: headerBgColor,
+            stroke: borderColor,
+            strokeWidth: 3,
+            rx: 12,
+            ry: 12,
+            originX: 'center',
+            originY: 'top'
+        });
+
+        // Position text elements relative to background
+        titleText.set({
+            left: 0,
+            top: headerPadding
+        });
+
+        descriptionText.set({
+            left: 0,
+            top: headerPadding + titleText.height + titleDescGap
+        });
+
+        // Create the header group
+        const headerGroup = new fabric.Group([headerBg, titleText, descriptionText], {
+            left: canvasWidth / 2,
+            top: 20,
+            originX: 'center',
+            originY: 'top',
+            selectable: true,
+            hasControls: true,
+            hasBorders: true,
+            lockRotation: false,
+            isHeader: true
+        });
+
+        return headerGroup;
+    }
+
     async function renderWorksheet() {
         if (!lastGeneratedData) {
             showMessage(t('mathpuzzle.error.no.data'), 'error');
@@ -2156,9 +2286,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 };
             }
         });
-        const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground);
+        const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isHeader);
 
-        const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem);
+        const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem || o.isHeader);
         oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
         
         worksheetCanvas.backgroundColor = elements.pageColorInput.value;
@@ -2272,7 +2402,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 worksheetCanvas.add(group);
             });
         }
-        
+
+        // Add header if enabled
+        const headerGroup = createHeaderGroup();
+        if (headerGroup) {
+            worksheetCanvas.add(headerGroup);
+        }
+
         enforceZOrder(worksheetCanvas);
         userAddedObjects.forEach(obj => worksheetCanvas.bringToFront(obj));
         worksheetCanvas.renderAll();
@@ -2299,9 +2435,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 oldTransforms[obj.originalIndex] = { left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle };
             }
         });
-        const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground);
-        
-        const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground);
+        const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isHeader);
+
+        const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isHeader);
         objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
         
         answerKeyCanvas.backgroundColor = elements.pageColorInput.value;
@@ -2353,6 +2489,13 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         
         answerKeyCanvas.add(keyGroup);
+
+        // Add header if enabled
+        const headerGroup = createHeaderGroup();
+        if (headerGroup) {
+            answerKeyCanvas.add(headerGroup);
+        }
+
         enforceZOrder(answerKeyCanvas);
         userAddedObjects.forEach(obj => answerKeyCanvas.bringToFront(obj));
         answerKeyCanvas.renderAll();

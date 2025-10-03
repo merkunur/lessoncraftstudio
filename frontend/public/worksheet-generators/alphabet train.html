@@ -790,6 +790,13 @@
                 <div id="borderDictionary">
                     <p class="dictionary-message" data-translate="selectThemeToSeeBorders">Select a theme to see borders.</p>
                 </div>
+
+                <h4>Header & Border</h4>
+                <label class="checkbox-label"><input type="checkbox" id="showHeaderCheckbox" checked /> Show Header & Border</label>
+                <label for="headerTitleInput">Custom Title:</label>
+                <input type="text" id="headerTitleInput" placeholder="Leave empty for default" />
+                <label for="headerDescriptionInput">Custom Description:</label>
+                <input type="text" id="headerDescriptionInput" placeholder="Leave empty for default" />
             </div>
         </div>
         
@@ -1110,6 +1117,9 @@
     const includeNameDateCheckbox = document.getElementById('includeNameDateCheckbox');
     const imageUploadInput = document.getElementById('imageUploadInput');
     const uploadedImagesPreviewDiv = document.getElementById('uploadedImagesPreview');
+    const showHeaderCheckbox = document.getElementById('showHeaderCheckbox');
+    const headerTitleInput = document.getElementById('headerTitleInput');
+    const headerDescriptionInput = document.getElementById('headerDescriptionInput');
     const panel = document.querySelector('.panel');
     const menuToggleBtn = document.getElementById('menuToggleBtn');
     const menuCloseBtn = document.getElementById('menuCloseBtn');
@@ -2216,6 +2226,125 @@
         }
     }
 
+    function createHeaderGroup(canvas) {
+        const headerCheckbox = document.getElementById('showHeaderCheckbox');
+        if (!headerCheckbox || !headerCheckbox.checked) return null;
+
+        const headerTitle = document.getElementById('headerTitleInput');
+        const headerDesc = document.getElementById('headerDescriptionInput');
+
+        const defaultHeaders = {
+            en: { title: 'Alphabet Train', description: 'Connect the letters to build your train!' },
+            de: { title: 'Alphabet-Zug', description: 'Verbinde die Buchstaben und baue deinen Zug!' },
+            fr: { title: 'Train de l\'Alphabet', description: 'Relie les lettres pour construire ton train!' },
+            es: { title: 'Tren del Alfabeto', description: '¡Conecta las letras para construir tu tren!' },
+            it: { title: 'Treno dell\'Alfabeto', description: 'Collega le lettere per costruire il tuo treno!' },
+            pt: { title: 'Comboio do Alfabeto', description: 'Liga as letras para construir o teu comboio!' },
+            nl: { title: 'Alfabettrein', description: 'Verbind de letters om je trein te bouwen!' },
+            sv: { title: 'Alfabetståg', description: 'Koppla ihop bokstäverna för att bygga ditt tåg!' },
+            da: { title: 'Alfabettog', description: 'Forbind bogstaverne for at bygge dit tog!' },
+            no: { title: 'Alfabettog', description: 'Koble sammen bokstavene for å bygge toget ditt!' },
+            fi: { title: 'Aakkostjuna', description: 'Yhdistä kirjaimet rakentaaksesi junasi!' }
+        };
+
+        const locale = currentLocale || 'en';
+        const defaults = defaultHeaders[locale] || defaultHeaders.en;
+        const title = (headerTitle && headerTitle.value) || defaults.title;
+        const description = (headerDesc && headerDesc.value) || defaults.description;
+
+        const objects = [];
+
+        // Outer border - Railway Blue (classic train blue)
+        const outerBorder = new fabric.Rect({
+            left: 34,
+            top: 34,
+            width: 544,
+            height: 724,
+            fill: 'transparent',
+            stroke: '#1E5F8C',
+            strokeWidth: 8,
+            rx: 12,
+            ry: 12,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(outerBorder);
+
+        // Bright Train Red header background (locomotive red)
+        const bgRect = new fabric.Rect({
+            left: 70,
+            top: 70,
+            width: 472,
+            height: 100,
+            fill: '#E63946',
+            rx: 15,
+            ry: 15,
+            selectable: true
+        });
+        objects.push(bgRect);
+
+        // White pill for title
+        const whitePill = new fabric.Rect({
+            left: 90,
+            top: 85,
+            width: 432,
+            height: 70,
+            fill: '#FFFFFF',
+            rx: 35,
+            ry: 35,
+            selectable: true
+        });
+        objects.push(whitePill);
+
+        // Title - Dynamic sizing with navy blue color
+        let titleFontSize = 48;
+        if (title.length > 12) titleFontSize = 40;
+        if (title.length > 15) titleFontSize = 36;
+        if (title.length > 18) titleFontSize = 32;
+        if (title.length > 22) titleFontSize = 28;
+
+        const titleText = new fabric.IText(title, {
+            left: 306,
+            top: 120,
+            fontSize: titleFontSize,
+            fontFamily: 'Fredoka, sans-serif',
+            fontWeight: '700',
+            fill: '#1D3557',
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'center',
+            selectable: true,
+            editable: true
+        });
+        objects.push(titleText);
+
+        // Description - forest green
+        const descText = new fabric.Textbox(description, {
+            left: 306,
+            top: 190,
+            width: 450,
+            fontSize: 20,
+            fontFamily: 'Quicksand, sans-serif',
+            fontWeight: '500',
+            fill: '#2A9D8F',
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'top',
+            selectable: true,
+            editable: true,
+            hasControls: true,
+            isHeaderDesc: true
+        });
+        objects.push(descText);
+
+        return objects;
+    }
+
+    function createPageBorder(canvas) {
+        return null;
+    }
+
     async function buildWorksheetOnCanvas() {
         if (!worksheetCanvas) return;
 
@@ -2255,8 +2384,8 @@
                 trainBgImg.scaleToHeight(maxTrainHeight);
             }
             
-            trainBgImg.set({ left: currentCanvasConfig.width / 2, top: currentCanvasConfig.height / 2, originX: 'center', originY: 'center', selectable: true, evented: true, objectCaching: false, isTrainTemplate: true, isTrainGeneratedItem: true, originalIndex: -1 });
-            
+            trainBgImg.set({ left: currentCanvasConfig.width / 2 + 10, top: currentCanvasConfig.height / 2 + 20, originX: 'center', originY: 'center', selectable: true, evented: true, objectCaching: false, isTrainTemplate: true, isTrainGeneratedItem: true, originalIndex: -1 });
+
             const canvasBgTopEdge = (currentCanvasConfig.height - trainBgImg.getScaledHeight()) / 2;
             const trainLeftEdge = (currentCanvasConfig.width - trainBgImg.getScaledWidth()) / 2;
             const S_SCALE = trainBgImg.getScaledWidth() / 940; // Scale based on actual train width
@@ -2326,7 +2455,7 @@
             
             // Calculate cutout position to ensure it fits within page
             const trainBottom = canvasBgTopEdge + trainBgImg.getScaledHeight();
-            const cutBoxTop_full = Math.min(trainBottom + 20, currentCanvasConfig.height - enlargedCutBoxSize - 40);
+            const cutBoxTop_full = Math.min(trainBottom + 70, currentCanvasConfig.height - enlargedCutBoxSize - 40);
             
             // Center the cutout boxes horizontally
             const totalCutoutWidth = remainingLettersForCutouts.length * enlargedCutBoxSize + (remainingLettersForCutouts.length - 1) * cutSpacing;
@@ -2365,7 +2494,16 @@
                 if (oldTransforms[2]) nameDateGroup.set(oldTransforms[2]);
                 newGeneratedObjects.push(nameDateGroup);
             }
-            
+
+            // Add header and border
+            const headerObjects = createHeaderGroup(worksheetCanvas);
+            if (headerObjects && headerObjects.length > 0) {
+                headerObjects.forEach(obj => {
+                    obj.isTrainGeneratedItem = true;
+                    worksheetCanvas.add(obj);
+                });
+            }
+
             // Part B, Step 4: Finalize
             newGeneratedObjects.forEach(obj => worksheetCanvas.add(obj));
             enforceZOrder(worksheetCanvas);
@@ -2434,7 +2572,7 @@
                 trainBgImg.scaleToHeight(maxTrainHeight);
             }
             
-            trainBgImg.set({ originX: 'center', originY: 'center', left: currentCanvasConfig.width / 2, top: currentCanvasConfig.height / 2, isTrainTemplate: true, isAnswerKeyItem: true });
+            trainBgImg.set({ originX: 'center', originY: 'center', left: currentCanvasConfig.width / 2 + 10, top: currentCanvasConfig.height / 2 + 20, isTrainTemplate: true, isAnswerKeyItem: true });
 
             const canvasBgTopEdge = (currentCanvasConfig.height - trainBgImg.getScaledHeight()) / 2;
             const trainLeftEdge = (currentCanvasConfig.width - trainBgImg.getScaledWidth()) / 2;
@@ -2510,7 +2648,16 @@
             });
             
             await Promise.all(imageLoadPromises);
-            
+
+            // Add header and border
+            const headerObjects = createHeaderGroup(answerKeyCanvas);
+            if (headerObjects && headerObjects.length > 0) {
+                headerObjects.forEach(obj => {
+                    obj.isAnswerKeyItem = true;
+                    answerKeyCanvas.add(obj);
+                });
+            }
+
             enforceZOrder(answerKeyCanvas);
             userAddedObjects.forEach(obj => answerKeyCanvas.bringToFront(obj));
 

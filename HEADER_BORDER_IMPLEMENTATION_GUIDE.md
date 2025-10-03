@@ -3,6 +3,19 @@
 ## Overview
 This guide provides the exact implementation pattern for adding professional headers and borders to worksheet generator apps. **CRITICAL**: Each app requires a UNIQUE, BEAUTIFUL design that matches its specific context and content.
 
+## ⚠️ CRITICAL: NO SIDEBAR ADDITIONS!
+
+**DO NOT ADD ANY HEADER CONTROLS TO THE SIDEBAR!**
+
+The header and border should:
+- ✅ Appear automatically with default translated text
+- ✅ Be fully editable by clicking directly on the canvas elements
+- ✅ Update when language changes
+- ❌ **NEVER** have controls in the sidebar (no checkbox, no inputs, no buttons)
+- ❌ **NEVER** require user action to show/hide
+
+The header is ALWAYS visible and users can edit the title and description by clicking on them directly on the canvas.
+
 ## 🎨 Design Philosophy - READ THIS FIRST!
 
 ### ⚠️ MANDATORY DESIGN PRINCIPLES
@@ -77,13 +90,14 @@ Your header and border design must be:
 ## Critical Rules to Avoid Past Mistakes
 
 ### ❌ NEVER DO THESE:
-1. **Never copy-paste the same color scheme** from one app to another without analyzing context
-2. **Never use generic designs** that don't reflect the app's educational purpose
-3. **Never use dynamic calculations** (margin percentages, canvasWidth/Height calculations)
-4. **Never create borders in multiple places** (caused double border lines)
-5. **Never use IText for descriptions** (causes overflow - use Textbox instead)
-6. **Never assume code is loading** (browser caching requires Ctrl+F5 hard refresh)
-7. **Never use literal translations** (write natural, child-friendly text for each language)
+1. **Never add header controls to the sidebar** (NO checkbox, NO inputs, NO buttons - header is always visible and editable on canvas)
+2. **Never copy-paste the same color scheme** from one app to another without analyzing context
+3. **Never use generic designs** that don't reflect the app's educational purpose
+4. **Never use dynamic calculations** (margin percentages, canvasWidth/Height calculations)
+5. **Never create borders in multiple places** (caused double border lines)
+6. **Never use IText for descriptions** (causes overflow - use Textbox instead)
+7. **Never assume code is loading** (browser caching requires Ctrl+F5 hard refresh)
+8. **Never use literal translations** (write natural, child-friendly text for each language)
 
 ### ✅ ALWAYS DO THESE:
 1. **Analyze the app's context FIRST** - understand what it teaches and who uses it
@@ -108,10 +122,10 @@ The code structure is the same for all apps, but the colors (`fill`, `stroke` va
 
 ### 1. Create the createHeaderGroup() function
 
+**IMPORTANT**: Do NOT add any sidebar controls (checkbox, inputs, buttons). The header always appears and is editable on canvas.
+
 ```javascript
 function createHeaderGroup(canvas) {
-    if (!showHeaderCheckbox.checked) return null;
-
     const defaultHeaders = {
         en: { title: '[APP TITLE]', description: '[CHILD-FRIENDLY DESCRIPTION]' },
         de: { title: '[GERMAN TITLE]', description: '[GERMAN DESCRIPTION]' },
@@ -128,8 +142,8 @@ function createHeaderGroup(canvas) {
 
     const locale = currentLocale || 'en';
     const defaults = defaultHeaders[locale] || defaultHeaders.en;
-    const title = headerTitleInput.value || defaults.title;
-    const description = headerDescriptionInput.value || defaults.description;
+    const title = defaults.title;
+    const description = defaults.description;
 
     const objects = [];
 
@@ -304,12 +318,15 @@ fr: { title: 'Mots Croisés en Images', description: 'Regarde les images et trou
 - [ ] Ensure title text fits (max 25 characters recommended for longest language)
 
 ### During Implementation:
+- [ ] **DO NOT ADD ANYTHING TO THE SIDEBAR** - No header controls, checkbox, inputs, or buttons
 - [ ] Copy the exact code pattern from this guide
 - [ ] **CUSTOMIZE ALL COLOR VALUES** - Change every `stroke` and `fill` color to match your app
 - [ ] Replace `[APP TITLE]` and `[CHILD-FRIENDLY DESCRIPTION]` placeholders
 - [ ] Verify your color palette is unique and context-appropriate
 - [ ] Verify createPageBorder() returns null (no duplicate borders)
 - [ ] Add headerHeight constant in renderCanvasContent()
+- [ ] Remove the `if (!showHeaderCheckbox.checked) return null;` check - header is ALWAYS shown
+- [ ] Use `defaults.title` and `defaults.description` directly (no input values)
 - [ ] Test with Ctrl+F5 hard refresh
 
 ### After Implementation:

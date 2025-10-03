@@ -1091,6 +1091,178 @@
       }
       // --- END: Standard Library/Upload/Asset Functions ---
 
+      // --- START: Header and Border Functions ---
+      function createPageBorder(canvas) {
+          const width = currentCanvasConfig.width;
+          const height = currentCanvasConfig.height;
+          const objects = [];
+
+          // Picture Bingo specific colors - playful, game-like, energetic
+          const outerBorderColor = '#E74C3C';  // vibrant red - exciting, game-like
+          const innerBorderColor = '#F39C12';  // bright orange - warm, friendly
+
+          const margin = 40;
+          const outerStroke = 8;
+          const innerStroke = 3;
+          const innerMargin = margin + 12;
+
+          // Outer border - vibrant red with rounded corners
+          const outerBorder = new fabric.Rect({
+              left: margin,
+              top: margin,
+              width: width - (margin * 2),
+              height: height - (margin * 2),
+              fill: 'transparent',
+              stroke: outerBorderColor,
+              strokeWidth: outerStroke,
+              rx: 12,
+              ry: 12,
+              selectable: true,
+              hasControls: true,
+              isPageBorder: true
+          });
+          objects.push(outerBorder);
+
+          // Inner border - bright orange
+          const innerBorder = new fabric.Rect({
+              left: innerMargin,
+              top: innerMargin,
+              width: width - (innerMargin * 2),
+              height: height - (innerMargin * 2),
+              fill: 'transparent',
+              stroke: innerBorderColor,
+              strokeWidth: innerStroke,
+              rx: 8,
+              ry: 8,
+              selectable: true,
+              hasControls: true,
+              isPageBorder: true
+          });
+          objects.push(innerBorder);
+
+          return objects;
+      }
+
+      function createHeaderGroup(canvas) {
+          const width = currentCanvasConfig.width;
+          const currentLang = currentLocale || 'en';
+
+          // Multilingual defaults for Picture Bingo
+          const defaultTitles = {
+              en: 'Picture Bingo',
+              de: 'Bilder-Bingo',
+              fr: 'Loto des Images',
+              es: 'Bingo de Imágenes',
+              it: 'Bingo delle Immagini',
+              pt: 'Bingo de Imagens',
+              nl: 'Plaatjes Bingo',
+              sv: 'Bild-Bingo',
+              da: 'Billede-Bingo',
+              no: 'Bilde-Bingo',
+              fi: 'Kuva-Bingo'
+          };
+
+          const defaultDescriptions = {
+              en: 'Match the pictures to win!',
+              de: 'Finde die passenden Bilder und gewinne!',
+              fr: 'Trouve les images correspondantes pour gagner!',
+              es: '¡Encuentra las imágenes coincidentes para ganar!',
+              it: 'Trova le immagini corrispondenti per vincere!',
+              pt: 'Encontre as imagens correspondentes para ganhar!',
+              nl: 'Vind de overeenkomende plaatjes en win!',
+              sv: 'Matcha bilderna för att vinna!',
+              da: 'Match billederne for at vinde!',
+              no: 'Match bildene for å vinne!',
+              fi: 'Yhdistä kuvat voittaaksesi!'
+          };
+
+          const title = defaultTitles[currentLang] || defaultTitles.en;
+          const description = defaultDescriptions[currentLang] || defaultDescriptions.en;
+
+          const objects = [];
+
+          // Picture Bingo specific colors - playful, energetic game theme
+          const headerBgColor = '#3498DB';     // bright blue - playful, cheerful
+          const titleColor = '#2C3E50';        // dark blue-gray - readable
+          const descColor = '#E67E22';         // warm orange - engaging
+
+          const margin = 40;
+          const innerMargin = margin + 12;
+          const headerPadding = 15;
+          const headerHeight = 80;
+
+          // Header background - positioned inside borders
+          const headerBg = new fabric.Rect({
+              left: innerMargin + headerPadding,
+              top: innerMargin + headerPadding,
+              width: width - ((innerMargin + headerPadding) * 2),
+              height: headerHeight,
+              fill: headerBgColor,
+              rx: 15,
+              ry: 15,
+              selectable: true,
+              hasControls: true,
+              isHeaderItem: true
+          });
+          objects.push(headerBg);
+
+          // White pill background for title
+          const titleBg = new fabric.Rect({
+              left: innerMargin + headerPadding + 20,
+              top: innerMargin + headerPadding + 15,
+              width: width - ((innerMargin + headerPadding + 20) * 2),
+              height: 50,
+              fill: '#FFFFFF',
+              rx: 25,
+              ry: 25,
+              selectable: true,
+              hasControls: true,
+              isHeaderItem: true
+          });
+          objects.push(titleBg);
+
+          // Title text
+          const titleText = new fabric.Textbox(title, {
+              left: width / 2,
+              top: innerMargin + headerPadding + 30,
+              width: width - ((innerMargin + headerPadding + 30) * 2),
+              fontSize: 28,
+              fontFamily: 'Fredoka, sans-serif',
+              fontWeight: '700',
+              fill: titleColor,
+              textAlign: 'center',
+              originX: 'center',
+              originY: 'center',
+              selectable: true,
+              editable: true,
+              hasControls: true,
+              isHeaderItem: true
+          });
+          objects.push(titleText);
+
+          // Description text
+          const descText = new fabric.Textbox(description, {
+              left: width / 2,
+              top: innerMargin + headerPadding + 53,
+              width: width - ((innerMargin + headerPadding + 30) * 2),
+              fontSize: 16,
+              fontFamily: 'Quicksand, sans-serif',
+              fontWeight: '500',
+              fill: descColor,
+              textAlign: 'center',
+              originX: 'center',
+              originY: 'center',
+              selectable: true,
+              editable: true,
+              hasControls: true,
+              isHeaderItem: true
+          });
+          objects.push(descText);
+
+          return objects;
+      }
+      // --- END: Header and Border Functions ---
+
       // --- START: Standard Toolbar and Text Tools Logic ---
       
       function bringObjectForward() {
@@ -1344,17 +1516,29 @@
           // Use actual canvas dimensions from currentCanvasConfig
           const canvasWidth = currentCanvasConfig.width;
           const canvasHeight = currentCanvasConfig.height;
-          
-          // Dynamic margins based on canvas size
-          const topMargin = Math.min(80, canvasHeight * 0.1);
-          const sideMargin = Math.min(40, canvasWidth * 0.05);
-          const bottomMargin = Math.min(40, canvasHeight * 0.05);
+
+          // Use margins that match the border layout
+          // Borders are at: margin(40) + innerMargin(12) = 52
+          // Content should be inside inner border with padding: 52 + 15 = 67
+          const contentMargin = 67; // Match inner border + padding
+          const defaultTopMargin = Math.min(80, canvasHeight * 0.1);
+          const actualTopMargin = topOffset > 0 ? topOffset : defaultTopMargin;
+          const bottomMargin = 67; // Match content margin
           const middleGap = 20; // Gap between grid and chips
-          
+
           // Calculate available space
-          const availableWidth = canvasWidth - (sideMargin * 2);
-          const availableHeight = canvasHeight - topMargin - bottomMargin - middleGap;
-          
+          const availableWidth = canvasWidth - (contentMargin * 2);
+          const availableHeight = canvasHeight - actualTopMargin - bottomMargin - middleGap;
+
+          console.log('Bingo Card Layout Debug:', {
+              canvasHeight,
+              actualTopMargin,
+              bottomMargin,
+              middleGap,
+              availableHeight,
+              topOffset
+          });
+
           // Split available height between grid (60%) and chips (40%)
           const gridHeight = Math.min(availableHeight * 0.6, 500); // Cap at 500px for very large pages
           const chipsAreaHeight = Math.min(availableHeight * 0.4, 300); // Cap at 300px for very large pages
@@ -1377,8 +1561,8 @@
               for(let c = 0; c < cols; c++) {
                   const idx = r * cols + c;
                   const item = cardItems[idx];
-                  const cellLeft = sideMargin + (c * cellWidth);
-                  const cellTop = topOffset + topMargin + (r * cellHeight);
+                  const cellLeft = contentMargin + (c * cellWidth);
+                  const cellTop = actualTopMargin + (r * cellHeight);
                   gridElements.push(new fabric.Rect({ left: cellLeft, top: cellTop, width: cellWidth, height: cellHeight, fill: '#fafafa', stroke: '#999', strokeWidth: 1 }));
                   if (cardFill === 'image') {
                       const img = await new Promise(resolve => fabric.Image.fromURL(item.path, resolve, { crossOrigin: 'anonymous' }));
@@ -1397,7 +1581,7 @@
           }
 
           // Position chips area below the grid
-          const chipsAreaTopAbsolute = topOffset + topMargin + finalGridHeight + middleGap;
+          const chipsAreaTopAbsolute = actualTopMargin + finalGridHeight + middleGap;
           
           // Use the calculated chips height
           const chipCellWidth = availableWidth / cols;
@@ -1454,7 +1638,7 @@
               const r = Math.floor(idx / cols);
               const c = idx % cols;
               chip.set({
-                left: sideMargin + (c * chipCellWidth) + (chipCellWidth / 2),
+                left: contentMargin + (c * chipCellWidth) + (chipCellWidth / 2),
                 top: chipsAreaTopAbsolute + (r * chipCellHeight) + (chipCellHeight / 2),
                 originX: 'center',
                 originY: 'center'
@@ -1467,13 +1651,9 @@
           };
           const gridGroup = new fabric.Group(gridElements, {...groupStyles, isBingoElement: true, originalIndex: `card_${index}`});
           const chipsGroup = new fabric.Group(chipObjects, {...groupStyles, isBingoElement: true, originalIndex: `chips_${index}`});
-          
-          // Center groups based on actual canvas dimensions
-          gridGroup.top = topOffset + topMargin;
-          gridGroup.left = (canvasWidth - gridGroup.width) / 2;
-          
-          chipsGroup.top = chipsAreaTopAbsolute;
-          chipsGroup.left = (canvasWidth - chipsGroup.width) / 2;
+
+          // Groups are already positioned correctly from individual element positions
+          // No need to reposition - elements were placed with actualTopMargin
           
           targetCanvas.add(gridGroup, chipsGroup);
 
@@ -1482,9 +1662,9 @@
       }
       
       async function renderCalloutCanvas(allItems) {
-        
+
         const oldTransforms = {};
-        const userAddedObjects = calloutsCanvas.getObjects().filter(o => !o.isCalloutElement && !o.isBorder && !o.isBackground);
+        const userAddedObjects = calloutsCanvas.getObjects().filter(o => !o.isCalloutElement && !o.isBorder && !o.isBackground && !o.isHeaderItem && !o.isPageBorder);
         calloutsCanvas.getObjects().forEach(o => {
             if (o.isCalloutElement && o.originalIndex !== undefined) {
                 oldTransforms[o.originalIndex] = {
@@ -1493,8 +1673,28 @@
             }
         });
 
-        const objectsToRemove = calloutsCanvas.getObjects().filter(o => o.isCalloutElement || o.isBorder || o.isBackground);
+        const objectsToRemove = calloutsCanvas.getObjects().filter(o => o.isCalloutElement || o.isBorder || o.isBackground || o.isHeaderItem || o.isPageBorder);
         objectsToRemove.forEach(o => calloutsCanvas.remove(o));
+
+        // Copy page borders from worksheet to callout canvas
+        const pageBorders = worksheetCanvas.getObjects().filter(o => o.isPageBorder);
+        for (const pageBorder of pageBorders) {
+            await new Promise(resolve => pageBorder.clone(cloned => {
+                cloned.set({ isPageBorder: true });
+                calloutsCanvas.add(cloned);
+                resolve();
+            }));
+        }
+
+        // Copy header items from worksheet to callout canvas
+        const headerItems = worksheetCanvas.getObjects().filter(o => o.isHeaderItem);
+        for (const headerItem of headerItems) {
+            await new Promise(resolve => headerItem.clone(cloned => {
+                cloned.set({ isHeaderItem: true });
+                calloutsCanvas.add(cloned);
+                resolve();
+            }));
+        }
 
         const background = worksheetCanvas.getObjects().find(o => o.isBackground);
         if (background) {
@@ -1515,18 +1715,19 @@
 
         const uniqueWords = [...new Set(allItems.map(item => item.word))];
         shuffle(uniqueWords);
-        
+
         // Use actual canvas dimensions with dynamic margins
         const canvasWidth = currentCanvasConfig.width;
         const canvasHeight = currentCanvasConfig.height;
-        
-        // Dynamic margins based on canvas size
-        const topMargin = Math.min(80, canvasHeight * 0.1);
-        const sideMargin = Math.min(40, canvasWidth * 0.05);
-        const bottomMargin = Math.min(40, canvasHeight * 0.05);
-        
+
+        // Account for header space
+        // margin(40) + innerMargin(12) + headerPadding(15) + headerHeight(80) + gap(20)
+        const headerTotalHeight = 40 + 12 + 15 + 80 + 20;
+        const sideMargin = 67; // Match the inner border margin (40 + 12 + 15)
+        const bottomMargin = 67;
+
         const availableWidth = canvasWidth - (sideMargin * 2);
-        const availableHeight = canvasHeight - topMargin - bottomMargin;
+        const availableHeight = canvasHeight - headerTotalHeight - bottomMargin;
         
         const numCalloutWords = uniqueWords.length;
         const calloutCols = Math.min(6, Math.ceil(Math.sqrt(numCalloutWords * 1.5)));
@@ -1546,11 +1747,11 @@
         const cellGap = 10;
         const gridElements = [];
 
-        // Calculate actual grid dimensions and center it
+        // Calculate actual grid dimensions and position below header
         const actualGridWidth = calloutCols * cellWidth;
         const actualGridHeight = calloutRows * cellHeight;
-        const gridStartX = (canvasWidth - actualGridWidth) / 2;
-        const gridStartY = (canvasHeight - actualGridHeight) / 2;
+        const gridStartX = sideMargin + (availableWidth - actualGridWidth) / 2;
+        const gridStartY = headerTotalHeight + (availableHeight - actualGridHeight) / 2;
         
         for(let i=0; i<uniqueWords.length; i++) {
             const r = Math.floor(i / calloutCols);
@@ -1577,13 +1778,9 @@
             borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
         };
         const calloutGroup = new fabric.Group(gridElements, {...groupStyles, isCalloutElement: true, originalIndex: 'callout_grid' });
-        
+
         if (oldTransforms['callout_grid']) {
             calloutGroup.set(oldTransforms['callout_grid']);
-        } else {
-            // Center based on actual canvas dimensions
-            calloutGroup.left = (canvasWidth - calloutGroup.width) / 2;
-            calloutGroup.top = (canvasHeight - calloutGroup.height) / 2;
         }
 
         calloutsCanvas.add(calloutGroup);
@@ -1607,14 +1804,16 @@
       }
 
       async function generateWorksheet() {
+          console.log('generateWorksheet called');
           const rows = parseInt(bingoRowsInput.value, 10);
           const cols = parseInt(bingoColsInput.value, 10);
           const cardCount = parseInt(bingoCardCountInput.value, 10);
           const itemsNeededPerCard = rows * cols;
           const calloutImageCount = itemsNeededPerCard * 2;
+          console.log('Bingo configuration:', { rows, cols, cardCount });
           
           const oldTransforms = {};
-          const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isBingoElement && !o.isBorder && !o.isBackground);
+          const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isBingoElement && !o.isBorder && !o.isBackground && !o.isHeaderItem && !o.isPageBorder);
           worksheetCanvas.getObjects().forEach(o => {
               if (o.isBingoElement && o.originalIndex !== undefined) {
                   oldTransforms[o.originalIndex] = {
@@ -1626,8 +1825,17 @@
           const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isBingoElement);
           oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
 
+          // Remove old header and border items
+          const oldHeaderBorderItems = worksheetCanvas.getObjects().filter(o => o.isHeaderItem || o.isPageBorder);
+          oldHeaderBorderItems.forEach(o => worksheetCanvas.remove(o));
+
+          console.log('Preparing callout image pool, need:', calloutImageCount, 'images');
           const calloutImagePool = await prepareCalloutImagePool(calloutImageCount);
-          if (!calloutImagePool) return;
+          console.log('Callout image pool result:', calloutImagePool ? calloutImagePool.length : 'null');
+          if (!calloutImagePool) {
+              console.error('Failed to prepare image pool - aborting worksheet generation');
+              return;
+          }
 
           const cardItemGroups = pickGroups(calloutImagePool, itemsNeededPerCard, cardCount);
           if (cardItemGroups.length < cardCount) {
@@ -1637,13 +1845,33 @@
           worksheetCanvas.bingoData = cardItemGroups;
           worksheetCanvas.calloutData = calloutImagePool;
           
-          await renderSingleBingoCard(worksheetCanvas, cardItemGroups[0], { index: 0 });
-          
+          // Add page borders first
+          const borderObjects = createPageBorder(worksheetCanvas);
+          if (borderObjects) {
+              borderObjects.forEach(obj => worksheetCanvas.add(obj));
+          }
+
+          // Add header
+          const headerObjects = createHeaderGroup(worksheetCanvas);
+          if (headerObjects) {
+              headerObjects.forEach(obj => worksheetCanvas.add(obj));
+          }
+
+          // Calculate header end position and content start
+          // Header components: margin(40) + innerMargin offset(12) + headerPadding(15) + headerHeight(80) = 147
+          // Add gap below header: 20px
+          // Content starts at: 147 + 20 = 167
+          const headerEndY = 40 + 12 + 15 + 80;
+          const contentStartY = headerEndY + 20;
+
+          // Render bingo card starting below header
+          await renderSingleBingoCard(worksheetCanvas, cardItemGroups[0], { index: 0, topOffset: contentStartY });
+
           const newCardGroup = worksheetCanvas.getObjects().find(o => o.originalIndex === 'card_0');
           if (newCardGroup && oldTransforms['card_0']) newCardGroup.set(oldTransforms['card_0']).setCoords();
           const newChipsGroup = worksheetCanvas.getObjects().find(o => o.originalIndex === 'chips_0');
           if (newChipsGroup && oldTransforms['chips_0']) newChipsGroup.set(oldTransforms['chips_0']).setCoords();
-          
+
           await renderCalloutCanvas(calloutImagePool);
           
           enforceZOrder(worksheetCanvas);

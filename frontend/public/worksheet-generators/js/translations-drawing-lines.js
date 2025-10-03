@@ -72,6 +72,9 @@ const DRAWING_LINES_TRANSLATIONS = {
     "applySize": "Apply Size",
     "options": "Options",
     "includeNameDateFields": "Include Name/Date Fields",
+    "showHeaderTitle": "Show Header/Title",
+    "titleText": "Title:",
+    "descriptionText": "Description:",
 
     // ============= BORDER SECTION =============
     "border": "Border",
@@ -272,6 +275,9 @@ const DRAWING_LINES_TRANSLATIONS = {
     "applySize": "Größe anwenden",
     "options": "Optionen",
     "includeNameDateFields": "Name-/Datumsfelder hinzufügen",
+    "showHeaderTitle": "Überschrift/Titel anzeigen",
+    "titleText": "Titel:",
+    "descriptionText": "Beschreibung:",
 
     // ============= BORDER SECTION =============
     "border": "Rahmen",
@@ -456,6 +462,9 @@ const DRAWING_LINES_TRANSLATIONS = {
     "applySize": "Appliquer le format",
     "options": "Options",
     "includeNameDateFields": "Inclure les champs nom/date",
+    "showHeaderTitle": "Afficher l'en-tête/titre",
+    "titleText": "Titre:",
+    "descriptionText": "Description:",
 
     // ============= BORDER SECTION =============
     "border": "Bordure",
@@ -641,6 +650,9 @@ const DRAWING_LINES_TRANSLATIONS = {
     "applySize": "Aplicar tamaño",
     "options": "Opciones",
     "includeNameDateFields": "Incluir campos de nombre/fecha",
+    "showHeaderTitle": "Mostrar encabezado/título",
+    "titleText": "Título:",
+    "descriptionText": "Descripción:",
 
     // ============= BORDER SECTION =============
     "border": "Borde",
@@ -826,6 +838,9 @@ const DRAWING_LINES_TRANSLATIONS = {
     "applySize": "Applica dimensioni",
     "options": "Opzioni",
     "includeNameDateFields": "Includi campi nome/data",
+    "showHeaderTitle": "Mostra intestazione/titolo",
+    "titleText": "Titolo:",
+    "descriptionText": "Descrizione:",
 
     // ============= BORDER SECTION =============
     "border": "Cornice",
@@ -1011,6 +1026,9 @@ const DRAWING_LINES_TRANSLATIONS = {
     "applySize": "Aplicar tamanho",
     "options": "Opções",
     "includeNameDateFields": "Incluir campos de nome/data",
+    "showHeaderTitle": "Mostrar cabeçalho/título",
+    "titleText": "Título:",
+    "descriptionText": "Descrição:",
 
     // ============= BORDER SECTION =============
     "border": "Moldura",
@@ -1196,6 +1214,9 @@ const DRAWING_LINES_TRANSLATIONS = {
     "applySize": "Formaat toepassen",
     "options": "Opties",
     "includeNameDateFields": "Naam-/datumvelden toevoegen",
+    "showHeaderTitle": "Kop/titel tonen",
+    "titleText": "Titel:",
+    "descriptionText": "Beschrijving:",
 
     // ============= BORDER SECTION =============
     "border": "Rand",
@@ -1381,6 +1402,9 @@ const DRAWING_LINES_TRANSLATIONS = {
     "applySize": "Tillämpa storlek",
     "options": "Alternativ",
     "includeNameDateFields": "Inkludera namn-/datumfält",
+    "showHeaderTitle": "Visa rubrik/titel",
+    "titleText": "Titel:",
+    "descriptionText": "Beskrivning:",
 
     // ============= BORDER SECTION =============
     "border": "Ram",
@@ -1566,6 +1590,9 @@ const DRAWING_LINES_TRANSLATIONS = {
     "applySize": "Anvend størrelse",
     "options": "Valgmuligheder",
     "includeNameDateFields": "Inkluder navn/dato-felter",
+    "showHeaderTitle": "Vis overskrift/titel",
+    "titleText": "Titel:",
+    "descriptionText": "Beskrivelse:",
 
     // ============= BORDER SECTION =============
     "border": "Ramme",
@@ -1751,6 +1778,9 @@ const DRAWING_LINES_TRANSLATIONS = {
     "applySize": "Bruk størrelse",
     "options": "Alternativer",
     "includeNameDateFields": "Inkluder navn/dato-felt",
+    "showHeaderTitle": "Vis overskrift/tittel",
+    "titleText": "Tittel:",
+    "descriptionText": "Beskrivelse:",
 
     // ============= BORDER SECTION =============
     "border": "Ramme",
@@ -1936,6 +1966,9 @@ const DRAWING_LINES_TRANSLATIONS = {
     "applySize": "Käytä kokoa",
     "options": "Vaihtoehdot",
     "includeNameDateFields": "Lisää nimi-/päivämääräkentät",
+    "showHeaderTitle": "Näytä otsikko/nimike",
+    "titleText": "Otsikko:",
+    "descriptionText": "Kuvaus:",
 
     // ============= BORDER SECTION =============
     "border": "Reunus",

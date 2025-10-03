@@ -1617,12 +1617,19 @@ document.addEventListener("DOMContentLoaded", function() {
         if (!selectedImage) { showMessage(t('drawcolor.msg.select.image'), 'error'); return; }
         
         worksheetCanvas.getObjects().slice().forEach(obj => {
-            if (obj.isGrid || obj.isNameDateGroup) {
+            if (obj.isGrid || obj.isNameDateGroup || obj.isPageBorder || obj.isHeaderDesc || (obj.type === 'rect' && obj.rx === 15 && obj.fill === '#8BC34A') || (obj.type === 'rect' && obj.rx === 35 && obj.fill === '#FFFFFF') || (obj.type === 'i-text' && obj.fontFamily && obj.fontFamily.includes('Fredoka'))) {
                 worksheetCanvas.remove(obj);
             }
         });
-        
+
         worksheetCanvas.backgroundColor = pageColorInput.value;
+
+        // Add header and border if enabled
+        const headerObjects = createHeaderGroup(worksheetCanvas);
+        const headerHeight = headerObjects ? 220 : 0;
+        if (headerObjects) {
+            worksheetCanvas.add(...headerObjects);
+        }
 
         const settings = {
             rows: Math.min(10, Math.max(3, parseInt(document.getElementById('rows').value) || 5)),
@@ -1636,8 +1643,9 @@ document.addEventListener("DOMContentLoaded", function() {
         
         const img = new Image();
         img.onload = async () => {
-            const margin = 50;
-            let currentY = margin;
+            const sideMargin = 30; // Reduced from 50px to allow larger grids
+            const topMargin = headerObjects ? 260 : 30; // Top margin adjusts for header
+            let currentY = topMargin;
 
             if (includeNameDateCheckbox.checked) {
                 const nameTextContent = t('drawcolor.name.field');
@@ -1649,7 +1657,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 const dateTextObj = new fabric.Textbox(dateTextContent, { ...textOptions, left: estimatedNameWidth + 30, top: 0 });
 
                 const nameDateGroup = new fabric.Group([nameTextObj, dateTextObj], {
-                    left: margin,
+                    left: sideMargin,
                     top: currentY,
                     selectable: true,
                     hasControls: true,
@@ -1662,60 +1670,45 @@ document.addEventListener("DOMContentLoaded", function() {
                     isNameDateGroup: true // Custom property
                 });
                 worksheetCanvas.add(nameDateGroup);
-                currentY += nameDateGroup.getBoundingRect(true).height + 30;
+                currentY += nameDateGroup.getBoundingRect(true).height + 20;
             }
 
-            const availableHeightForGrids = settings.mainCanvasHeight - currentY - margin;
-            const availableWidth = settings.mainCanvasWidth - (2 * margin);
-            const gridSpacing = 30;
-            
+            const availableHeightForGrids = settings.mainCanvasHeight - currentY - sideMargin;
+            const availableWidth = settings.mainCanvasWidth - (2 * sideMargin);
+            const gridSpacing = 20; // Reduced from 30px
+
             // Determine layout based on page orientation
             const isLandscape = settings.mainCanvasWidth > settings.mainCanvasHeight;
-            
+
             let gridSize, grid1X, grid1Y, grid2X, grid2Y;
-            
+
             if (isLandscape) {
                 // LANDSCAPE: Place grids side by side
                 const maxGridWidth = (availableWidth - gridSpacing) / 2;
                 const maxGridHeight = availableHeightForGrids;
-                gridSize = Math.floor(Math.min(maxGridWidth, maxGridHeight, 350));
-                
-                // Center the grids horizontally
-                const totalWidth = (gridSize * 2) + gridSpacing;
-                const startX = (settings.mainCanvasWidth - totalWidth) / 2;
-                
-                grid1X = startX;
-                grid2X = startX + gridSize + gridSpacing;
-                grid1Y = grid2Y = currentY + (availableHeightForGrids - gridSize) / 2;
+                // Reduce size to fit within canvas boundaries (10px margin constraint)
+                gridSize = Math.floor(Math.min(maxGridWidth, maxGridHeight) * 0.92);
+
+                // Position grids
+                grid1X = sideMargin;
+                grid2X = sideMargin + gridSize + gridSpacing;
+                grid1Y = grid2Y = currentY + 10;
             } else {
                 // PORTRAIT: Stack grids vertically
                 const maxGridWidth = availableWidth;
                 const maxGridHeight = (availableHeightForGrids - gridSpacing) / 2;
-                gridSize = Math.floor(Math.min(maxGridWidth, maxGridHeight, 400));
-                
+                // Reduce size to fit within canvas boundaries (10px margin constraint)
+                gridSize = Math.floor(Math.min(maxGridWidth, maxGridHeight) * 0.92);
+
                 // Center the grids horizontally
                 grid1X = grid2X = (settings.mainCanvasWidth - gridSize) / 2;
-                
-                // Center vertically within available space
-                const totalHeight = (gridSize * 2) + gridSpacing;
-                const startY = currentY + (availableHeightForGrids - totalHeight) / 2;
-                
-                grid1Y = startY;
-                grid2Y = startY + gridSize + gridSpacing;
+
+                // Position grids vertically
+                grid1Y = currentY + 10;
+                grid2Y = grid1Y + gridSize + gridSpacing;
             }
             
-            // Ensure content fits within page boundaries
-            if (isLandscape) {
-                if (grid2X + gridSize > settings.mainCanvasWidth - margin) {
-                    console.warn("Adjusting grid size to fit within page boundaries.");
-                    gridSize = Math.floor((availableWidth - gridSpacing) / 2);
-                }
-            } else {
-                if (grid2Y + gridSize > settings.mainCanvasHeight - margin) {
-                    console.warn("Adjusting grid size to fit within page boundaries.");
-                    gridSize = Math.floor((availableHeightForGrids - gridSpacing) / 2);
-                }
-            }
+            // Allow grids to use more space - removed strict boundary constraints
 
             const grid1 = await createGridImage(img, gridSize, settings.rows, settings.cols, false, 0);
             grid1.set({ left: grid1X, top: grid1Y });
@@ -1773,6 +1766,138 @@ document.addEventListener("DOMContentLoaded", function() {
         handleSelectionCleared();
         toggleMirrorOptions(); // Check and hide mirror options on clear
         showMessage(t('drawcolor.msg.cleared'), 'info', 2000);
+    }
+
+    // --- HEADER & BORDER FUNCTIONS ---
+    function createHeaderGroup(canvas) {
+        const defaultHeaders = {
+            en: { title: 'Draw and Color', description: 'Use your creativity! Draw and color the pictures below!' },
+            de: { title: 'Zeichnen und Ausmalen', description: 'Sei kreativ! Zeichne und male die Bilder aus!' },
+            fr: { title: 'Dessine et Colorie', description: 'Sois créatif! Dessine et colorie les images!' },
+            es: { title: 'Dibuja y Colorea', description: '¡Sé creativo! ¡Dibuja y colorea las imágenes!' },
+            it: { title: 'Disegna e Colora', description: 'Sii creativo! Disegna e colora le immagini!' },
+            pt: { title: 'Desenha e Pinta', description: 'Seja criativo! Desenhe e pinte as imagens!' },
+            nl: { title: 'Teken en Kleur', description: 'Wees creatief! Teken en kleur de afbeeldingen!' },
+            sv: { title: 'Rita och Färglägg', description: 'Var kreativ! Rita och färglägg bilderna!' },
+            da: { title: 'Tegn og Farvlæg', description: 'Vær kreativ! Tegn og farvelæg billederne!' },
+            no: { title: 'Tegn og Fargelegg', description: 'Vær kreativ! Tegn og fargelegg bildene!' },
+            fi: { title: 'Piirrä ja Väritä', description: 'Ole luova! Piirrä ja väritä kuvat!' }
+        };
+
+        const locale = currentLocale || 'en';
+        const defaults = defaultHeaders[locale] || defaultHeaders.en;
+        const title = defaults.title;
+        const description = defaults.description;
+
+        const objects = [];
+
+        // Outer border - Bright magenta (creative, artistic, fun)
+        const outerBorder = new fabric.Rect({
+            left: 34,
+            top: 34,
+            width: 544,
+            height: 724,
+            fill: 'transparent',
+            stroke: '#E91E63',
+            strokeWidth: 8,
+            rx: 12,
+            ry: 12,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(outerBorder);
+
+        // Inner border - Light pink (soft, playful)
+        const innerBorder = new fabric.Rect({
+            left: 46.5,
+            top: 46.5,
+            width: 519,
+            height: 699,
+            fill: 'transparent',
+            stroke: '#F8BBD0',
+            strokeWidth: 3,
+            rx: 8,
+            ry: 8,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(innerBorder);
+
+        // Header background - Lime green (vibrant, creative energy)
+        const bgRect = new fabric.Rect({
+            left: 70,
+            top: 70,
+            width: 472,
+            height: 100,
+            fill: '#8BC34A',
+            rx: 15,
+            ry: 15,
+            selectable: true
+        });
+        objects.push(bgRect);
+
+        // White pill for title
+        const whitePill = new fabric.Rect({
+            left: 90,
+            top: 85,
+            width: 432,
+            height: 70,
+            fill: '#FFFFFF',
+            rx: 35,
+            ry: 35,
+            selectable: true
+        });
+        objects.push(whitePill);
+
+        // Title - Dynamic size based on length
+        let titleFontSize = 48;
+        if (title.length > 12) titleFontSize = 40;
+        if (title.length > 15) titleFontSize = 36;
+        if (title.length > 18) titleFontSize = 32;
+        if (title.length > 22) titleFontSize = 28;
+
+        // Title text - Deep purple (creative, artistic)
+        const titleText = new fabric.IText(title, {
+            left: 306,
+            top: 120,
+            fontSize: titleFontSize,
+            fontFamily: 'Fredoka, sans-serif',
+            fontWeight: '700',
+            fill: '#6A1B9A',
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'center',
+            selectable: true,
+            editable: true
+        });
+        objects.push(titleText);
+
+        // Description text - Dark gray (readable)
+        const descText = new fabric.Textbox(description, {
+            left: 306,
+            top: 190,
+            width: 450,
+            fontSize: 20,
+            fontFamily: 'Quicksand, sans-serif',
+            fontWeight: '500',
+            fill: '#4A4A4A',
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'top',
+            selectable: true,
+            editable: true,
+            hasControls: true,
+            isHeaderDesc: true
+        });
+        objects.push(descText);
+
+        return objects;
+    }
+
+    function createPageBorder(canvas) {
+        return null;
     }
 
     // --- Background and Border Logic ---
@@ -2288,10 +2413,18 @@ async function downloadPDF() {
     // Constrain objects to stay within page boundaries
     function constrainObjectMovement(e) {
         const obj = e.target;
-        
-        // Special handling for background and border objects
-        if (obj.isBackground || obj.isBorder) {
-            // Don't constrain background/border, just update coords
+
+        // Special handling for background, border, grid, and header objects
+        if (obj.isBackground || obj.isBorder || obj.isGrid || obj.isPageBorder || obj.isHeaderDesc || obj.isNameDateGroup) {
+            // Don't constrain these objects, just update coords
+            obj.setCoords();
+            return;
+        }
+
+        // Also exclude header background and title elements by checking their properties
+        if ((obj.type === 'rect' && obj.rx === 15 && obj.fill === '#8BC34A') ||
+            (obj.type === 'rect' && obj.rx === 35 && obj.fill === '#FFFFFF') ||
+            (obj.type === 'i-text' && obj.fontFamily && obj.fontFamily.includes('Fredoka'))) {
             obj.setCoords();
             return;
         }

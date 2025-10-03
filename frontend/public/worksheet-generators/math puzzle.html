@@ -712,18 +712,6 @@
                 </div>
                 <label for="borderOpacity" data-translate="borderOpacity">Border Opacity:</label>
                 <input type="range" id="borderOpacity" min="0" max="1" step="0.05" value="1" disabled>
-
-                <h4 data-translate="header">Header</h4>
-                <label class="checkbox-label">
-                    <input type="checkbox" id="showHeaderCheckbox">
-                    <span data-translate="showHeader">Show Header</span>
-                </label>
-                <div id="headerControls" style="display: none;">
-                    <label for="headerTitleInput" data-translate="headerTitle">Header Title:</label>
-                    <input type="text" id="headerTitleInput" placeholder="Math Puzzles" data-translate-placeholder="mathPuzzles">
-                    <label for="headerDescriptionInput" data-translate="headerDescription">Header Description:</label>
-                    <textarea id="headerDescriptionInput" rows="2" placeholder="Solve the picture puzzles below!" data-translate-placeholder="solvePicturePuzzles"></textarea>
-                </div>
             </div>
         </div>
 
@@ -974,11 +962,6 @@ document.addEventListener("DOMContentLoaded", function() {
         borderThemeSelect: $('borderThemeSelect'),
         borderDictionary: $('borderDictionary'),
         borderOpacity: $('borderOpacity'),
-        // Header
-        showHeaderCheckbox: $('showHeaderCheckbox'),
-        headerControls: $('headerControls'),
-        headerTitleInput: $('headerTitleInput'),
-        headerDescriptionInput: $('headerDescriptionInput'),
         // Text Tools
         textInput: $('textInput'),
         addTextBtn: $('addTextBtn'),
@@ -1221,12 +1204,20 @@ document.addEventListener("DOMContentLoaded", function() {
         if (!canvas) return;
         const background = canvas.getObjects().find(o => o.isBackground);
         if (background) canvas.sendToBack(background);
-    
+
         const border = canvas.getObjects().find(o => o.isBorder);
         if (border) {
             canvas.sendToBack(border);
             if (background) canvas.bringForward(border); // Ensure border is on top of background
         }
+
+        // Send page borders (header borders) to back, behind all content
+        const pageBorders = canvas.getObjects().filter(o => o.isPageBorder);
+        pageBorders.forEach(pb => {
+            canvas.sendToBack(pb);
+            if (background) canvas.bringForward(pb);
+            if (border) canvas.bringForward(pb);
+        });
     }
 
     function setupEventListeners() {
@@ -1304,33 +1295,6 @@ document.addEventListener("DOMContentLoaded", function() {
         elements.backgroundOpacity.addEventListener('input', handleBackgroundOpacityChange);
         elements.borderThemeSelect.addEventListener('change', loadBorderImages);
         elements.borderOpacity.addEventListener('input', handleBorderOpacityChange);
-
-        // Header listeners
-        elements.showHeaderCheckbox.addEventListener('change', () => {
-            elements.headerControls.style.display = elements.showHeaderCheckbox.checked ? 'block' : 'none';
-            if (lastGeneratedData) {
-                renderWorksheet();
-                if (answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem)) {
-                    renderAnswerKey();
-                }
-            }
-        });
-        elements.headerTitleInput.addEventListener('input', () => {
-            if (lastGeneratedData) {
-                renderWorksheet();
-                if (answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem)) {
-                    renderAnswerKey();
-                }
-            }
-        });
-        elements.headerDescriptionInput.addEventListener('input', () => {
-            if (lastGeneratedData) {
-                renderWorksheet();
-                if (answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem)) {
-                    renderAnswerKey();
-                }
-            }
-        });
 
         elements.textInput.addEventListener('input', updateActiveTextObjectProperties);
         elements.textColor.addEventListener('input', updateActiveTextObjectProperties);
@@ -2142,9 +2106,9 @@ document.addEventListener("DOMContentLoaded", function() {
         const gridHeightRatio = 0.45 + (0.05 * Math.max(0, 3 - rows)); // More rows = less grid space
         const maxGridHeight = usableHeight * gridHeightRatio;
         const maxGridWidth = usableWidth * 0.9; // Leave some horizontal breathing room
-        
-        // Calculate grid size maintaining square cells
-        const puzzleGridSize = Math.min(maxGridWidth, maxGridHeight);
+
+        // Calculate grid size maintaining square cells (20% smaller than before)
+        const puzzleGridSize = Math.min(maxGridWidth, maxGridHeight) * 0.8;
         const cellSize = puzzleGridSize / Math.max(rows, cols);
         const cellWidth = cellSize;
         const cellHeight = cellSize;
@@ -2183,90 +2147,135 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // --- FABRIC.JS RENDERING ---
-    function createHeaderGroup() {
-        if (!elements.showHeaderCheckbox.checked) {
-            return null;
-        }
+    function createHeaderGroup(canvas) {
+        const defaultHeaders = {
+            en: { title: 'Math Puzzles', description: 'Solve the picture puzzles below!' },
+            de: { title: 'Mathe-Rätsel', description: 'Löse die Bilderrätsel!' },
+            fr: { title: 'Casse-Têtes Mathématiques', description: 'Résous les énigmes en images!' },
+            es: { title: 'Rompecabezas Matemáticos', description: '¡Resuelve los acertijos de imágenes!' },
+            it: { title: 'Rompicapi Matematici', description: 'Risolvi i rompicapi con le immagini!' },
+            pt: { title: 'Quebra-Cabeças Matemáticos', description: 'Resolve os quebra-cabeças das imagens!' },
+            nl: { title: 'Wiskundepuzzels', description: 'Los de plaatjespuzzels op!' },
+            sv: { title: 'Mattepussel', description: 'Lös bildpusslen!' },
+            da: { title: 'Mattepuslespil', description: 'Løs billedpuslespillene!' },
+            no: { title: 'Mattepuslespill', description: 'Løs bildepuslespillene!' },
+            fi: { title: 'Matematiikkapulmat', description: 'Ratkaise kuvapulmat!' }
+        };
 
-        const headerPadding = 30;
-        const canvasWidth = currentCanvasConfig.width;
+        const locale = currentLocale || 'en';
+        const defaults = defaultHeaders[locale] || defaultHeaders.en;
+        const title = defaults.title;
+        const description = defaults.description;
 
-        // Get header content from inputs (with translations as defaults)
-        const defaultTitle = translations[currentLocale]?.mathPuzzles || translations.en?.mathPuzzles || 'Math Puzzles';
-        const defaultDescription = translations[currentLocale]?.solvePicturePuzzles || translations.en?.solvePicturePuzzles || 'Solve the picture puzzles below!';
+        const objects = [];
 
-        const headerTitle = elements.headerTitleInput.value.trim() || defaultTitle;
-        const headerDescription = elements.headerDescriptionInput.value.trim() || defaultDescription;
-
-        // Pink gradient color palette for math puzzle
-        const headerBgColor = '#FF69B4';      // Hot pink (fun, engaging)
-        const borderColor = '#FF1493';        // Deep pink (vibrant)
-        const titleColor = '#8B008B';         // Dark magenta (strong contrast, readable)
-        const descriptionColor = '#4B0082';   // Indigo (professional, calm)
-
-        // Create title text
-        const titleText = new fabric.Text(headerTitle, {
-            fontSize: 28,
-            fontWeight: '700',
-            fontFamily: 'Fredoka',
-            fill: titleColor,
-            originX: 'center',
-            originY: 'top'
-        });
-
-        // Create description text
-        const descriptionText = new fabric.Text(headerDescription, {
-            fontSize: 16,
-            fontWeight: '400',
-            fontFamily: 'Lexend Deca',
-            fill: descriptionColor,
-            originX: 'center',
-            originY: 'top'
-        });
-
-        // Calculate dimensions
-        const headerContentWidth = Math.max(titleText.width, descriptionText.width) + (headerPadding * 2);
-        const titleDescGap = 8;
-        const headerContentHeight = titleText.height + titleDescGap + descriptionText.height + (headerPadding * 2);
-
-        // Create background rectangle with border
-        const headerBg = new fabric.Rect({
-            width: canvasWidth - 40,
-            height: headerContentHeight,
-            fill: headerBgColor,
-            stroke: borderColor,
-            strokeWidth: 3,
+        // Outer border - Bright orange
+        const outerBorder = new fabric.Rect({
+            left: 34,
+            top: 34,
+            width: 544,
+            height: 724,
+            fill: 'transparent',
+            stroke: '#FF8C00',
+            strokeWidth: 8,
             rx: 12,
             ry: 12,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(outerBorder);
+
+        // Inner border - Sky blue
+        const innerBorder = new fabric.Rect({
+            left: 46.5,
+            top: 46.5,
+            width: 519,
+            height: 699,
+            fill: 'transparent',
+            stroke: '#87CEEB',
+            strokeWidth: 3,
+            rx: 8,
+            ry: 8,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(innerBorder);
+
+        // Header background - Warm orange
+        const bgRect = new fabric.Rect({
+            left: 70,
+            top: 70,
+            width: 472,
+            height: 100,
+            fill: '#FF8C42',
+            rx: 15,
+            ry: 15,
+            selectable: true
+        });
+        objects.push(bgRect);
+
+        // White pill for title
+        const whitePill = new fabric.Rect({
+            left: 90,
+            top: 85,
+            width: 432,
+            height: 70,
+            fill: '#FFFFFF',
+            rx: 35,
+            ry: 35,
+            selectable: true
+        });
+        objects.push(whitePill);
+
+        // Title - Dynamic size based on length
+        let titleFontSize = 48;
+        if (title.length > 12) titleFontSize = 40;
+        if (title.length > 15) titleFontSize = 36;
+        if (title.length > 18) titleFontSize = 32;
+        if (title.length > 22) titleFontSize = 28;
+
+        // Title text - Deep blue
+        const titleText = new fabric.IText(title, {
+            left: 306,
+            top: 120,
+            fontSize: titleFontSize,
+            fontFamily: 'Fredoka, sans-serif',
+            fontWeight: '700',
+            fill: '#1E3A8A',
+            textAlign: 'center',
             originX: 'center',
-            originY: 'top'
+            originY: 'center',
+            selectable: true,
+            editable: true
         });
+        objects.push(titleText);
 
-        // Position text elements relative to background
-        titleText.set({
-            left: 0,
-            top: headerPadding
-        });
-
-        descriptionText.set({
-            left: 0,
-            top: headerPadding + titleText.height + titleDescGap
-        });
-
-        // Create the header group
-        const headerGroup = new fabric.Group([headerBg, titleText, descriptionText], {
-            left: canvasWidth / 2,
-            top: 20,
+        // Description text - Dark orange
+        const descText = new fabric.Textbox(description, {
+            left: 306,
+            top: 190,
+            width: 450,
+            fontSize: 20,
+            fontFamily: 'Quicksand, sans-serif',
+            fontWeight: '500',
+            fill: '#D97706',
+            textAlign: 'center',
             originX: 'center',
             originY: 'top',
             selectable: true,
+            editable: true,
             hasControls: true,
-            hasBorders: true,
-            lockRotation: false,
-            isHeader: true
+            isHeaderDesc: true
         });
+        objects.push(descText);
 
-        return headerGroup;
+        return objects;
+    }
+
+    function createPageBorder(canvas) {
+        return null;
     }
 
     async function renderWorksheet() {
@@ -2286,22 +2295,26 @@ document.addEventListener("DOMContentLoaded", function() {
                 };
             }
         });
-        const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isHeader);
+        const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder);
 
-        const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem || o.isHeader);
+        const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem || o.isPageBorder);
         oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
-        
+
+        // Generate header and border
+        const headerObjects = createHeaderGroup(worksheetCanvas);
+        const headerHeight = headerObjects ? 220 : 0;
+
         worksheetCanvas.backgroundColor = elements.pageColorInput.value;
-        
+
         // Professional layout with dynamic margins
         const canvasWidth = currentCanvasConfig.width;
         const canvasHeight = currentCanvasConfig.height;
         const MARGIN_X = canvasWidth * 0.1;
         const MARGIN_Y = canvasHeight * 0.08;
-        
+
         // Center the grid horizontally, position vertically with margin
         const gridLeft = (canvasWidth - puzzleGridSize) / 2;
-        const gridTop = MARGIN_Y;
+        const gridTop = Math.max(MARGIN_Y, headerHeight + 20);
         
         const gridElements = [];
         gridElements.push(new fabric.Rect({ left: 0, top: 0, width: puzzleGridSize, height: puzzleGridSize, fill: 'white', stroke: 'black', strokeWidth: 2 }));
@@ -2333,9 +2346,9 @@ document.addEventListener("DOMContentLoaded", function() {
         
         const piecePromises = scrambledPieces.map((p, index) => new Promise(resolve => {
             fabric.Image.fromURL(p.imgDataUrl, (img) => {
-                img.scaleToWidth(cellWidth);
-                const numberText = new fabric.Textbox(String(p.number), { top: -5, left: cellWidth / 2, originX: 'center', originY: 'bottom', fontSize: 18 });
-                const border = new fabric.Rect({ width: cellWidth, height: img.getScaledHeight(), fill: 'transparent', stroke: 'black', strokeWidth: 1, strokeDashArray: [5, 5] });
+                img.scaleToWidth(cellWidth * 1.2); // 20% bigger
+                const numberText = new fabric.Textbox(String(p.number), { top: -5, left: (cellWidth * 1.2) / 2, originX: 'center', originY: 'bottom', fontSize: 18 });
+                const border = new fabric.Rect({ width: cellWidth * 1.2, height: img.getScaledHeight(), fill: 'transparent', stroke: 'black', strokeWidth: 1, strokeDashArray: [5, 5] });
                 
                 // --- START: Z-ORDER FIX ---
                 const pieceGroup = new fabric.Group([img, border, numberText], {
@@ -2360,19 +2373,18 @@ document.addEventListener("DOMContentLoaded", function() {
             const paletteTop = gridTop + gridGroup.getScaledHeight() + (canvasHeight * 0.03);
             const paletteBottomMargin = MARGIN_Y;
             const availableHeight = canvasHeight - paletteTop - paletteBottomMargin;
-            
-            // Use full usable width for pieces
-            const paletteWidth = canvasWidth - (MARGIN_X * 2); 
-            const paletteStartX = MARGIN_X;
+
             let pieceWidth = pieceGroups[0].getScaledWidth();
             let pieceHeight = pieceGroups[0].getScaledHeight();
-            
+
             // Dynamic spacing based on canvas size
             const horizontalMargin = canvasWidth * 0.02; // 2% of canvas width
-            
+
+            // Use full usable width for calculating pieces per row
+            const paletteWidth = canvasWidth - (MARGIN_X * 2);
             const piecesPerRow = pieceWidth > 0 ? Math.floor((paletteWidth + horizontalMargin) / (pieceWidth + horizontalMargin)) : 1;
             const numRows = Math.ceil(pieceGroups.length / piecesPerRow);
-            
+
             // Adjust piece scale if they don't fit
             if (numRows * pieceHeight > availableHeight) {
                 const requiredScale = availableHeight / (numRows * pieceHeight);
@@ -2385,8 +2397,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const totalPieceStackHeight = numRows * pieceHeight;
             let verticalMargin = (numRows > 1) ? Math.min((availableHeight - totalPieceStackHeight) / (numRows - 1), canvasHeight * 0.02) : 0;
 
-            if (verticalMargin < 5) verticalMargin = 5; 
-            
+            if (verticalMargin < 5) verticalMargin = 5;
+
             pieceGroups.forEach((group) => {
                 const index = parseInt(group.originalIndex.split('_')[1]);
                 if (oldTransforms[group.originalIndex]) {
@@ -2394,8 +2406,20 @@ document.addEventListener("DOMContentLoaded", function() {
                 } else {
                     const rowIndex = Math.floor(index / piecesPerRow);
                     const colIndex = index % piecesPerRow;
+
+                    // Calculate pieces in this specific row (last row might have fewer)
+                    const piecesInThisRow = (rowIndex === numRows - 1)
+                        ? pieceGroups.length - (rowIndex * piecesPerRow)
+                        : piecesPerRow;
+
+                    // Calculate total width of pieces in this row
+                    const totalRowWidth = (piecesInThisRow * pieceWidth) + ((piecesInThisRow - 1) * horizontalMargin);
+
+                    // Center this row
+                    const rowStartX = (canvasWidth - totalRowWidth) / 2;
+
                     group.set({
-                        left: paletteStartX + colIndex * (pieceWidth + horizontalMargin),
+                        left: rowStartX + colIndex * (pieceWidth + horizontalMargin),
                         top: paletteTop + rowIndex * (pieceHeight + verticalMargin)
                     });
                 }
@@ -2403,10 +2427,9 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         }
 
-        // Add header if enabled
-        const headerGroup = createHeaderGroup();
-        if (headerGroup) {
-            worksheetCanvas.add(headerGroup);
+        // Add header objects first
+        if (headerObjects) {
+            headerObjects.forEach(obj => worksheetCanvas.add(obj));
         }
 
         enforceZOrder(worksheetCanvas);
@@ -2435,11 +2458,23 @@ document.addEventListener("DOMContentLoaded", function() {
                 oldTransforms[obj.originalIndex] = { left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle };
             }
         });
-        const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isHeader);
+        const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder);
 
-        const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isHeader);
+        const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder);
         objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
-        
+
+        // Copy header and borders from worksheet
+        const headerBorderObjects = worksheetCanvas.getObjects().filter(o => o.isPageBorder);
+        for (const obj of headerBorderObjects) {
+            await new Promise(resolve => obj.clone(cloned => {
+                cloned.set({ isPageBorder: true });
+                answerKeyCanvas.add(cloned);
+                resolve();
+            }));
+        }
+
+        const headerHeight = 220;
+
         answerKeyCanvas.backgroundColor = elements.pageColorInput.value;
 
         const background = worksheetCanvas.getObjects().find(o => o.isBackground);
@@ -2489,12 +2524,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         
         answerKeyCanvas.add(keyGroup);
-
-        // Add header if enabled
-        const headerGroup = createHeaderGroup();
-        if (headerGroup) {
-            answerKeyCanvas.add(headerGroup);
-        }
 
         enforceZOrder(answerKeyCanvas);
         userAddedObjects.forEach(obj => answerKeyCanvas.bringToFront(obj));

@@ -681,24 +681,6 @@
                     </div>
                 </div>
                 <div class="accordion-item">
-                    <button class="accordion-button" data-translate="crossword.header">Header</button>
-                    <div class="accordion-wrapper">
-                        <h4 data-translate="crossword.header.settings">Header Settings</h4>
-                        <label>
-                            <input type="checkbox" id="showHeaderCheckbox" checked>
-                            <span data-translate="crossword.header.show">Show Header</span>
-                        </label>
-
-                        <label for="headerTitle" data-translate="crossword.header.title">Title:</label>
-                        <input type="text" id="headerTitle" placeholder="Picture Crossword">
-
-                        <label for="headerDescription" data-translate="crossword.header.description">Description:</label>
-                        <textarea id="headerDescription" rows="2" placeholder="Look at the pictures and fill in the crossword!"></textarea>
-
-                        <button id="applyHeaderBtn" data-translate="crossword.header.apply">Apply Header</button>
-                    </div>
-                </div>
-                <div class="accordion-item">
                     <button class="accordion-button" data-translate="textTools">Text Tools</button>
                     <div class="accordion-wrapper">
                         <h4 data-translate="addNewText">Add New Text</h4>
@@ -955,11 +937,6 @@ document.addEventListener("DOMContentLoaded", function() {
     const backgroundOpacitySlider = getEl('backgroundOpacity');
     const borderOpacitySlider = getEl('borderOpacity');
 
-    const showHeaderCheckbox = getEl('showHeaderCheckbox');
-    const headerTitleInput = getEl('headerTitle');
-    const headerDescriptionInput = getEl('headerDescription');
-    const applyHeaderBtn = getEl('applyHeaderBtn');
-
     const imageUploadInput = getEl('imageUploadInput');
     const uploadedImagesPreviewDiv = getEl('uploadedImagesPreview');
 
@@ -992,31 +969,6 @@ document.addEventListener("DOMContentLoaded", function() {
         setupCanvasEventListeners(worksheetCanvas);
         setupCanvasEventListeners(answerKeyCanvas);
         updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
-
-        // Initialize header with language-specific defaults
-        const defaultHeaders = {
-            en: { title: 'Picture Crossword', description: 'Look at the pictures and fill in the words!' },
-            de: { title: 'Bilderkreuzworträtsel', description: 'Schau die Bilder an und fülle die Wörter aus!' },
-            fr: { title: 'Mots Croisés en Images', description: 'Regarde les images et trouve les mots!' },
-            es: { title: 'Crucigrama con Dibujos', description: '¡Mira los dibujos y escribe las palabras!' },
-            it: { title: 'Cruciverba con Immagini', description: 'Guarda le immagini e scrivi le parole!' },
-            pt: { title: 'Palavras Cruzadas', description: 'Vê as imagens e escreve as palavras!' },
-            nl: { title: 'Plaatjes Kruiswoord', description: 'Kijk naar de plaatjes en vul de woorden in!' },
-            sv: { title: 'Bildkorsord', description: 'Titta på bilderna och skriv orden!' },
-            da: { title: 'Billedkrydsord', description: 'Se på billederne og skriv ordene!' },
-            no: { title: 'Bildekryssord', description: 'Se på bildene og skriv ordene!' },
-            fi: { title: 'Kuvaristikko', description: 'Katso kuvia ja kirjoita sanat!' }
-        };
-
-        const locale = currentLocale || 'en';
-        const defaults = defaultHeaders[locale] || defaultHeaders.en;
-
-        if (!headerTitleInput.value) {
-            headerTitleInput.value = defaults.title;
-        }
-        if (!headerDescriptionInput.value) {
-            headerDescriptionInput.value = defaults.description;
-        }
 
         // Initialize language selector (sidebar selector - ONLY changes image library language)
         // This selector ONLY changes the image library language, NOT the UI language
@@ -1203,17 +1155,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
         generateWorksheetBtn.addEventListener('click', handleGenerateWorksheet);
         generateAnswerKeyBtn.addEventListener('click', handleGenerateAnswerKey);
-
-        applyHeaderBtn.addEventListener('click', async () => {
-            await renderWorksheet();
-            await renderAnswerKey();
-            showMessage(getTranslation('crossword.header.applied', currentLocale) || 'Header updated!', 'success');
-        });
-
-        showHeaderCheckbox.addEventListener('change', async () => {
-            await renderWorksheet();
-            await renderAnswerKey();
-        });
 
         clearBtn.addEventListener('click', clearAll);
         
@@ -1611,8 +1552,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function createHeaderGroup(canvas) {
-        if (!showHeaderCheckbox.checked) return null;
-
         const defaultHeaders = {
             en: { title: 'Picture Crossword', description: 'Look at the pictures and fill in the words!' },
             de: { title: 'Bilderkreuzworträtsel', description: 'Schau die Bilder an und fülle die Wörter aus!' },
@@ -1629,8 +1568,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const locale = currentLocale || 'en';
         const defaults = defaultHeaders[locale] || defaultHeaders.en;
-        const title = headerTitleInput.value || defaults.title;
-        const description = headerDescriptionInput.value || defaults.description;
+        const title = defaults.title;
+        const description = defaults.description;
 
         const objects = [];
 
@@ -1650,23 +1589,6 @@ document.addEventListener("DOMContentLoaded", function() {
             isPageBorder: true
         });
         objects.push(outerBorder);
-
-        // Inner border - fixed pixel values
-        const innerBorder = new fabric.Rect({
-            left: 46.5,
-            top: 46.5,
-            width: 519,
-            height: 699,
-            fill: 'transparent',
-            stroke: '#87CEEB',
-            strokeWidth: 3,
-            rx: 8,
-            ry: 8,
-            selectable: true,
-            hasControls: true,
-            isPageBorder: true
-        });
-        objects.push(innerBorder);
 
         // Blue header background
         const bgRect = new fabric.Rect({
@@ -2301,28 +2223,6 @@ document.addEventListener("DOMContentLoaded", function() {
         backgroundOpacitySlider.disabled = true;
         borderOpacitySlider.value = 1;
         borderOpacitySlider.disabled = true;
-
-        // Reset header to language-specific defaults
-        const defaultHeaders = {
-            en: { title: 'Picture Crossword', description: 'Look at the pictures and fill in the words!' },
-            de: { title: 'Bilderkreuzworträtsel', description: 'Schau die Bilder an und fülle die Wörter aus!' },
-            fr: { title: 'Mots Croisés en Images', description: 'Regarde les images et trouve les mots!' },
-            es: { title: 'Crucigrama con Dibujos', description: '¡Mira los dibujos y escribe las palabras!' },
-            it: { title: 'Cruciverba con Immagini', description: 'Guarda le immagini e scrivi le parole!' },
-            pt: { title: 'Palavras Cruzadas', description: 'Vê as imagens e escreve as palavras!' },
-            nl: { title: 'Plaatjes Kruiswoord', description: 'Kijk naar de plaatjes en vul de woorden in!' },
-            sv: { title: 'Bildkorsord', description: 'Titta på bilderna och skriv orden!' },
-            da: { title: 'Billedkrydsord', description: 'Se på billederne og skriv ordene!' },
-            no: { title: 'Bildekryssord', description: 'Se på bildene og skriv ordene!' },
-            fi: { title: 'Kuvaristikko', description: 'Katso kuvia ja kirjoita sanat!' }
-        };
-
-        const locale = currentLocale || 'en';
-        const defaults = defaultHeaders[locale] || defaultHeaders.en;
-
-        showHeaderCheckbox.checked = true;
-        headerTitleInput.value = defaults.title;
-        headerDescriptionInput.value = defaults.description;
 
         renderSelectedImages(); renderDictionary(); renderUploadedImages();
         searchInput.value = "";

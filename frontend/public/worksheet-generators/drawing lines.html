@@ -386,7 +386,7 @@
                         <label for="includeNameDate" class="checkbox-label">
                             <input type="checkbox" id="includeNameDate" /><span data-translate="includeNameDateFields">Include Name/Date Fields</span>
                         </label>
-                        
+
                         <h4 data-translate="border">Border</h4>
                         <label for="borderThemeSelect" data-translate="borderTheme">Border Theme:</label>
                         <select id="borderThemeSelect">
@@ -645,7 +645,7 @@ document.addEventListener("DOMContentLoaded", async function() {
     const setPageSizeBtn = document.getElementById('setPageSizeBtn');
     const pageColorInput = document.getElementById('pageColor');
     const includeNameDateCheckbox = document.getElementById('includeNameDate');
-    
+
     const borderThemeSelect = document.getElementById('borderThemeSelect');
     const borderOpacitySlider = document.getElementById('borderOpacity');
     const borderDictionary = document.getElementById('borderDictionary');
@@ -1433,12 +1433,195 @@ document.addEventListener("DOMContentLoaded", async function() {
         }
     }
 
+    function createPageBorder(canvas) {
+        const width = currentCanvasConfig.width;
+        const height = currentCanvasConfig.height;
+        const objects = [];
+
+        // Drawing Lines specific colors
+        const outerBorderColor = '#FF6B6B';  // bright coral
+        const innerBorderColor = '#FFD93D';  // sunny yellow
+
+        const margin = 40;
+        const outerStroke = 8;
+        const innerStroke = 3;
+        const innerMargin = margin + 12;
+
+        // Outer border - coral with rounded corners
+        const outerBorder = new fabric.Rect({
+            left: margin,
+            top: margin,
+            width: width - (margin * 2),
+            height: height - (margin * 2),
+            fill: 'transparent',
+            stroke: outerBorderColor,
+            strokeWidth: outerStroke,
+            rx: 12,
+            ry: 12,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(outerBorder);
+
+        // Inner border - sunny yellow
+        const innerBorder = new fabric.Rect({
+            left: innerMargin,
+            top: innerMargin,
+            width: width - (innerMargin * 2),
+            height: height - (innerMargin * 2),
+            fill: 'transparent',
+            stroke: innerBorderColor,
+            strokeWidth: innerStroke,
+            rx: 8,
+            ry: 8,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(innerBorder);
+
+        return objects;
+    }
+
+    function createHeaderGroup(canvas) {
+        const width = currentCanvasConfig.width;
+        const currentLang = currentLocale || 'en';
+
+        // Multilingual defaults
+        const defaultTitles = {
+            en: 'Line Drawing Practice',
+            de: 'Linien Zeichnen Üben',
+            fr: 'Pratique de Tracer des Lignes',
+            es: 'Practica de Dibujar Líneas',
+            it: 'Pratica del Disegno di Linee',
+            pt: 'Prática de Desenhar Linhas',
+            nl: 'Lijnen Tekenen Oefenen',
+            sv: 'Ritövning med Linjer',
+            da: 'Linjetegningsøvelse',
+            no: 'Linjetegningøvelse',
+            fi: 'Viivojen Piirtämisharjoitus'
+        };
+
+        const defaultDescriptions = {
+            en: 'Draw lines to connect the matching pictures!',
+            de: 'Zeichne Linien, um die passenden Bilder zu verbinden!',
+            fr: 'Trace des lignes pour relier les images qui vont ensemble!',
+            es: '¡Dibuja líneas para conectar las imágenes que coinciden!',
+            it: 'Disegna linee per collegare le immagini corrispondenti!',
+            pt: 'Desenhe linhas para conectar as imagens correspondentes!',
+            nl: 'Teken lijnen om de overeenkomende plaatjes te verbinden!',
+            sv: 'Rita linjer för att koppla samman matchande bilder!',
+            da: 'Tegn linjer for at forbinde de matchende billeder!',
+            no: 'Tegn linjer for å koble matchende bilder!',
+            fi: 'Piirrä viivoja yhdistääksesi yhteensopivat kuvat!'
+        };
+
+        const title = defaultTitles[currentLang] || defaultTitles.en;
+        const description = defaultDescriptions[currentLang] || defaultDescriptions.en;
+
+        const objects = [];
+
+        // Drawing Lines specific colors
+        const headerBgColor = '#51CF66';     // vibrant green
+        const titleColor = '#2D5016';        // deep forest green
+        const descColor = '#555555';         // warm gray
+
+        const margin = 40;
+        const innerMargin = margin + 12;
+        const headerPadding = 15;
+        const headerHeight = 110;
+
+        // Header background - positioned inside borders
+        const headerBg = new fabric.Rect({
+            left: innerMargin + headerPadding,
+            top: innerMargin + headerPadding,
+            width: width - ((innerMargin + headerPadding) * 2),
+            height: headerHeight,
+            fill: headerBgColor,
+            rx: 15,
+            ry: 15,
+            selectable: true,
+            hasControls: true,
+            isHeaderItem: true
+        });
+        objects.push(headerBg);
+
+        // White pill background for title
+        const titleBg = new fabric.Rect({
+            left: innerMargin + headerPadding + 20,
+            top: innerMargin + headerPadding + 15,
+            width: width - ((innerMargin + headerPadding + 20) * 2),
+            height: 50,
+            fill: '#FFFFFF',
+            rx: 25,
+            ry: 25,
+            selectable: true,
+            hasControls: true,
+            isHeaderItem: true
+        });
+        objects.push(titleBg);
+
+        // Title text
+        const titleText = new fabric.Textbox(title, {
+            left: width / 2,
+            top: innerMargin + headerPadding + 40,
+            width: width - ((innerMargin + headerPadding + 30) * 2),
+            fontSize: 32,
+            fontFamily: 'Fredoka, sans-serif',
+            fontWeight: '700',
+            fill: titleColor,
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'center',
+            selectable: true,
+            editable: true,
+            hasControls: true,
+            isHeaderItem: true
+        });
+        objects.push(titleText);
+
+        // Description text
+        const descText = new fabric.Textbox(description, {
+            left: width / 2,
+            top: innerMargin + headerPadding + 80,
+            width: width - ((innerMargin + headerPadding + 30) * 2),
+            fontSize: 18,
+            fontFamily: 'Quicksand, sans-serif',
+            fontWeight: '500',
+            fill: descColor,
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'center',
+            selectable: true,
+            editable: true,
+            hasControls: true,
+            isHeaderItem: true
+        });
+        objects.push(descText);
+
+        return objects;
+    }
+
     async function renderDataToCanvas(canvas, data) {
+        // Add page borders first
+        const borderObjects = createPageBorder(canvas);
+        if (borderObjects) {
+            borderObjects.forEach(obj => canvas.add(obj));
+        }
+
+        // Add header
+        const headerObjects = createHeaderGroup(canvas);
+        if (headerObjects) {
+            headerObjects.forEach(obj => canvas.add(obj));
+        }
+        const headerHeight = 110 + 40 + 15; // header height + top margin + padding
+
         // Use actual canvas dimensions from currentCanvasConfig
         const width = currentCanvasConfig.width;
         const height = currentCanvasConfig.height;
-        const margin = Math.min(50, width * 0.07); // Consistent margin capped at 50px
-        let currentY = margin;
+        const margin = 40 + 12 + 15; // border margin + inner margin + header padding
+        let currentY = margin + headerHeight;
 
         if (data.includeNameDate) {
             const nameDateText = t('nameDatePlaceholder');

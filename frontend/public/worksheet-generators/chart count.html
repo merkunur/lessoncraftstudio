@@ -500,7 +500,7 @@
           <label for="includeNameDate" class="checkbox-label" style="margin-top: 15px;">
               <input type="checkbox" id="includeNameDate" /><span data-translate="chartcount.include.name.date">Include Name/Date Fields</span>
           </label>
-          
+
           <h4 style="margin-top: 15px;" data-translate="chartcount.background.title">Background</h4>
           <label for="backgroundThemeSelect" data-translate="chartcount.background.theme">Background Theme:</label>
           <select id="backgroundThemeSelect">
@@ -881,6 +881,12 @@ document.addEventListener('DOMContentLoaded', function() {
             canvas.sendToBack(border);
             if (background) canvas.bringForward(border);
         }
+
+        // Send page borders to back (behind everything)
+        const pageBorders = canvas.getObjects().filter(o => o.isPageBorder);
+        pageBorders.forEach(pageBorder => {
+            canvas.sendToBack(pageBorder);
+        });
     }
     // END: Refactor Step 1 (Helper Function)
 
@@ -1373,6 +1379,20 @@ document.addEventListener('DOMContentLoaded', function() {
         const objectsToRemove = worksheetCanvas.getObjects().filter(o => o.isWorksheetExercise);
         objectsToRemove.forEach(o => worksheetCanvas.remove(o));
 
+        // --- ADD HEADER & BORDER ---
+        const existingHeaderObjects = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderDesc || (o.type === 'rect' && o.rx === 15 && o.fill === '#FFD93D') || (o.type === 'rect' && o.rx === 35 && o.fill === '#FFFFFF') || (o.type === 'i-text' && o.fontFamily && o.fontFamily.includes('Fredoka')) || (o.type === 'textbox' && o.isHeaderDesc));
+        existingHeaderObjects.forEach(o => worksheetCanvas.remove(o));
+
+        const headerObjects = createHeaderGroup(worksheetCanvas);
+        const headerHeight = headerObjects ? 220 : 0;
+        if (headerObjects) {
+            worksheetCanvas.add(...headerObjects);
+            // Send borders to back
+            headerObjects.filter(obj => obj.isPageBorder).forEach(border => {
+                worksheetCanvas.sendToBack(border);
+            });
+        }
+
         // --- GENERATE & ADD NEW CARDS ---
         const worksheetPromises = [
             createFabricImageGrid(data, 0),
@@ -1394,41 +1414,41 @@ document.addEventListener('DOMContentLoaded', function() {
         // Professional adaptive layout based on page orientation
         if (isFirstGeneration && exerciseGroups.length > 0) {
             // Define professional margins
-            const TOP_MARGIN = document.getElementById('includeNameDate').checked ? 100 : 80;
+            const TOP_MARGIN = (document.getElementById('includeNameDate').checked ? 100 : 80) + headerHeight;
             const BOTTOM_MARGIN = 80;
             const SIDE_MARGIN = 60;
             const ELEMENT_SPACING = 40; // Space between elements
-            
+
             // Calculate available space
             const availableWidth = currentCanvasConfig.width - (SIDE_MARGIN * 2);
             const availableHeight = currentCanvasConfig.height - TOP_MARGIN - BOTTOM_MARGIN;
-            
+
             // Determine if page is landscape or portrait
             const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
-            
+
             // Get original dimensions of both groups
             const imageGrid = exerciseGroups[0];
             const chartArea = exerciseGroups[1];
-            
+
             if (imageGrid && chartArea) {
                 const gridOriginalWidth = imageGrid.width;
                 const gridOriginalHeight = imageGrid.height;
                 const chartOriginalWidth = chartArea.width;
                 const chartOriginalHeight = chartArea.height;
-                
+
                 if (isLandscape) {
                     // LANDSCAPE: Side-by-side layout
                     // Calculate scale to fit both elements side by side
                     const totalOriginalWidth = gridOriginalWidth + chartOriginalWidth + ELEMENT_SPACING;
                     const maxHeight = Math.max(gridOriginalHeight, chartOriginalHeight);
-                    
+
                     // Calculate scale factors
                     let scaleX = availableWidth / totalOriginalWidth;
                     let scaleY = availableHeight / maxHeight;
-                    let finalScale = Math.min(scaleX, scaleY, 1); // Don't scale up beyond 100%
-                    
-                    // Apply professional scaling (slightly smaller for better appearance)
-                    finalScale = finalScale * 0.9;
+                    let finalScale = Math.min(scaleX, scaleY);
+
+                    // Allow elements to use available space
+                    finalScale = finalScale * 1.0;
                     
                     // Scale both groups
                     imageGrid.scale(finalScale);
@@ -1468,14 +1488,14 @@ document.addEventListener('DOMContentLoaded', function() {
                     // Calculate scale to fit both elements vertically
                     const maxWidth = Math.max(gridOriginalWidth, chartOriginalWidth);
                     const totalOriginalHeight = gridOriginalHeight + chartOriginalHeight + ELEMENT_SPACING;
-                    
+
                     // Calculate scale factors
                     let scaleX = availableWidth / maxWidth;
                     let scaleY = availableHeight / totalOriginalHeight;
-                    let finalScale = Math.min(scaleX, scaleY, 1); // Don't scale up beyond 100%
-                    
-                    // Apply professional scaling (slightly smaller for better appearance)
-                    finalScale = finalScale * 0.85;
+                    let finalScale = Math.min(scaleX, scaleY);
+
+                    // Allow elements to use available space
+                    finalScale = finalScale * 1.0;
                     
                     // Scale both groups
                     imageGrid.scale(finalScale);
@@ -1524,7 +1544,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // --- FINALIZE Z-ORDER ---
         enforceZOrder(worksheetCanvas);
-        const userObjects = worksheetCanvas.getObjects().filter(o => !o.isWorksheetExercise && !o.isBorder && !o.isBackground);
+        const userObjects = worksheetCanvas.getObjects().filter(o => !o.isWorksheetExercise && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc);
         userObjects.forEach(o => o.bringToFront());
         
         // CRITICAL: Update all object coordinates after positioning
@@ -1558,7 +1578,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const nameDateOnKey = solutionCanvas.getObjects().find(o => o.isNameDate);
 
         // 3. Precise removal of ALL old generated items and decoratives
-        const itemsToRemoveFromKey = solutionCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground);
+        const itemsToRemoveFromKey = solutionCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderDesc);
         itemsToRemoveFromKey.forEach(o => solutionCanvas.remove(o));
 
         // --- CLONE BORDER/BACKGROUND ---
@@ -1580,6 +1600,17 @@ document.addEventListener('DOMContentLoaded', function() {
             }));
         }
 
+        // --- ADD HEADER & BORDER ---
+        const headerObjects = createHeaderGroup(solutionCanvas);
+        const headerHeight = headerObjects ? 220 : 0;
+        if (headerObjects) {
+            solutionCanvas.add(...headerObjects);
+            // Send borders to back
+            headerObjects.filter(obj => obj.isPageBorder).forEach(border => {
+                solutionCanvas.sendToBack(border);
+            });
+        }
+
         // --- GENERATE & ADD NEW CARDS ---
         const solutionPromises = [
             createFabricImageGrid(data, 0, true), // isAnswerKeyItem = true
@@ -1599,41 +1630,41 @@ document.addEventListener('DOMContentLoaded', function() {
         // Professional adaptive layout for solution (same as worksheet)
         if (isFirstAnswerKeyGeneration && exerciseGroups.length > 0) {
             // Define professional margins
-            const TOP_MARGIN = document.getElementById('includeNameDate').checked ? 100 : 80;
+            const TOP_MARGIN = (document.getElementById('includeNameDate').checked ? 100 : 80) + headerHeight;
             const BOTTOM_MARGIN = 80;
             const SIDE_MARGIN = 60;
             const ELEMENT_SPACING = 40; // Space between elements
-            
+
             // Calculate available space
             const availableWidth = currentCanvasConfig.width - (SIDE_MARGIN * 2);
             const availableHeight = currentCanvasConfig.height - TOP_MARGIN - BOTTOM_MARGIN;
-            
+
             // Determine if page is landscape or portrait
             const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
-            
+
             // Get original dimensions of both groups
             const imageGrid = exerciseGroups[0];
             const chartArea = exerciseGroups[1];
-            
+
             if (imageGrid && chartArea) {
                 const gridOriginalWidth = imageGrid.width;
                 const gridOriginalHeight = imageGrid.height;
                 const chartOriginalWidth = chartArea.width;
                 const chartOriginalHeight = chartArea.height;
-                
+
                 if (isLandscape) {
                     // LANDSCAPE: Side-by-side layout
                     // Calculate scale to fit both elements side by side
                     const totalOriginalWidth = gridOriginalWidth + chartOriginalWidth + ELEMENT_SPACING;
                     const maxHeight = Math.max(gridOriginalHeight, chartOriginalHeight);
-                    
+
                     // Calculate scale factors
                     let scaleX = availableWidth / totalOriginalWidth;
                     let scaleY = availableHeight / maxHeight;
-                    let finalScale = Math.min(scaleX, scaleY, 1); // Don't scale up beyond 100%
-                    
-                    // Apply professional scaling (slightly smaller for better appearance)
-                    finalScale = finalScale * 0.9;
+                    let finalScale = Math.min(scaleX, scaleY);
+
+                    // Allow elements to use available space
+                    finalScale = finalScale * 1.0;
                     
                     // Scale both groups
                     imageGrid.scale(finalScale);
@@ -1673,14 +1704,14 @@ document.addEventListener('DOMContentLoaded', function() {
                     // Calculate scale to fit both elements vertically
                     const maxWidth = Math.max(gridOriginalWidth, chartOriginalWidth);
                     const totalOriginalHeight = gridOriginalHeight + chartOriginalHeight + ELEMENT_SPACING;
-                    
+
                     // Calculate scale factors
                     let scaleX = availableWidth / maxWidth;
                     let scaleY = availableHeight / totalOriginalHeight;
-                    let finalScale = Math.min(scaleX, scaleY, 1); // Don't scale up beyond 100%
-                    
-                    // Apply professional scaling (slightly smaller for better appearance)
-                    finalScale = finalScale * 0.85;
+                    let finalScale = Math.min(scaleX, scaleY);
+
+                    // Allow elements to use available space
+                    finalScale = finalScale * 1.0;
                     
                     // Scale both groups
                     imageGrid.scale(finalScale);
@@ -1732,7 +1763,7 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // --- FINALIZE Z-ORDER ---
         enforceZOrder(solutionCanvas);
-        const finalUserObjects = solutionCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground);
+        const finalUserObjects = solutionCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc);
         finalUserObjects.forEach(o => o.bringToFront());
 
         // CRITICAL: Update all object coordinates after positioning
@@ -1776,8 +1807,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     async function createFabricImageGrid({ icons }, index, isAnswerKeyItem = false) {
-        const gridCellSize = 70; const gridGap = 8; const cols = 4;
-        const padding = 15; const imageCellPadding = 10;
+        const gridCellSize = 192; const gridGap = 21; const cols = 4;
+        const padding = 41; const imageCellPadding = 28;
         const imagePromises = icons.map(iconData => new Promise((resolve) => {
              fabric.Image.fromURL(iconData.path, (img) => resolve(img), { crossOrigin: 'anonymous' });
         }));
@@ -1790,10 +1821,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 const col = i % cols;
                 const alignmentShift = (imageCellPadding / 2);
                 img.set({
-                    left: (padding + col * (gridCellSize + gridGap) + alignmentShift) - 25,
-                    top: padding + row * (gridCellSize + gridGap) + alignmentShift, 
-                    originX: 'left', 
-                    originY: 'top' 
+                    left: (padding + col * (gridCellSize + gridGap) + alignmentShift) - 49,
+                    top: padding + row * (gridCellSize + gridGap) + alignmentShift,
+                    originX: 'left',
+                    originY: 'top'
                 });
                 return img;
             }
@@ -1801,7 +1832,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }).filter(Boolean);
         const groupWidth = cols * (gridCellSize + gridGap) - gridGap;
         const groupHeight = Math.ceil(icons.length / cols) * (gridCellSize + gridGap) - gridGap;
-        const borderRect = new fabric.Rect({ width: groupWidth + padding * 2, height: groupHeight + padding * 2, fill: 'transparent', stroke: '#dce1e6', strokeWidth: 3, strokeDashArray: [8, 8], rx: 12, ry: 12, originX: 'left', originY: 'top', left: 0, top: 0 });
+        const borderRect = new fabric.Rect({ width: groupWidth + padding * 2, height: groupHeight + padding * 2, fill: 'transparent', stroke: '#666666', strokeWidth: 8, strokeDashArray: [15, 15], rx: 24, ry: 24, originX: 'left', originY: 'top', left: 0, top: 0 });
         
         const finalGroup = new fabric.Group([borderRect, ...imageElements], {
             left: 0,  // Position will be set in renderWorksheet
@@ -1820,12 +1851,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     async function createFabricChartArea({ chartImages, counts }, isSolution, index, isAnswerKeyItem = false) {
-        const scaleFactor = 0.7;
-        const originalCellSize = 70;
+        const scaleFactor = 0.98;
+        const originalCellSize = 137;
         const cellWidth = originalCellSize * scaleFactor;
         const cellHeight = originalCellSize * scaleFactor;
-        const labelWidth = 35;
-        const fontSize = 18 * scaleFactor;
+        const labelWidth = 69;
+        const fontSize = 35 * scaleFactor;
     
         const chartElements = [];
     
@@ -1840,7 +1871,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const rect = new fabric.Rect({
                     left: col * cellWidth, top: row * cellHeight,
                     width: cellWidth, height: cellHeight,
-                    fill: 'transparent', stroke: '#dce1e6', strokeWidth: 1
+                    fill: 'transparent', stroke: '#666666', strokeWidth: 3
                 });
                 const colImageName = chartImages[col].name || chartImages[col].word;
                 if (isSolution && counts[colImageName] >= (5 - row)) {
@@ -1855,7 +1886,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }));
         const fabricImages = await Promise.all(imagePromises);
     
-        const bottomImageWidth = originalCellSize - 10;
+        const bottomImageWidth = (originalCellSize - 14) * 2;
     
         fabricImages.forEach((img, i) => {
             if (img) {
@@ -1863,7 +1894,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 const scaledImageHeight = img.getScaledHeight();
                 img.set({
                     left: i * cellWidth + cellWidth / 2,
-                    top: (5 * cellHeight) + 10 + (scaledImageHeight / 2),
+                    top: (5 * cellHeight) + 25 + (scaledImageHeight / 2),
                     originX: 'center', originY: 'center'
                 });
                 chartElements.push(img);
@@ -1888,6 +1919,138 @@ document.addEventListener('DOMContentLoaded', function() {
         const dateText = new fabric.Textbox(t('chartcount.date.field'), { left: nameText.width + 30, top: 0, fontSize: 18, fontFamily: 'Fredoka', fill: '#333', width: 180 });
         const group = new fabric.Group([nameText, dateText], { left: 50, top: currentCanvasConfig.height - 50, isNameDate: true, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 8, transparentCorners: false, cornerStyle: 'circle' });
         return group;
+    }
+
+    // --- HEADER & BORDER FUNCTIONS ---
+    function createHeaderGroup(canvas) {
+        const defaultHeaders = {
+            en: { title: 'Picture Graph', description: 'Count the pictures and color the boxes to make a graph!' },
+            de: { title: 'Bilddiagramm', description: 'Zähle die Bilder und male die Kästchen aus!' },
+            fr: { title: 'Graphique en Images', description: 'Compte les images et colorie les cases pour faire un graphique!' },
+            es: { title: 'Gráfico de Dibujos', description: '¡Cuenta los dibujos y colorea las casillas para hacer un gráfico!' },
+            it: { title: 'Grafico con Immagini', description: 'Conta le immagini e colora i riquadri per fare un grafico!' },
+            pt: { title: 'Gráfico de Figuras', description: 'Conte as figuras e pinte os quadrados para fazer um gráfico!' },
+            nl: { title: 'Plaatjesgrafiek', description: 'Tel de plaatjes en kleur de vakjes om een grafiek te maken!' },
+            sv: { title: 'Bilddiagram', description: 'Räkna bilderna och färglägg rutorna för att göra ett diagram!' },
+            da: { title: 'Billediagram', description: 'Tæl billederne og farv felterne for at lave et diagram!' },
+            no: { title: 'Bildediagram', description: 'Tell bildene og fargelegg rutene for å lage et diagram!' },
+            fi: { title: 'Kuvakaavio', description: 'Laske kuvat ja väritä ruudut tehdäksesi kaavion!' }
+        };
+
+        const locale = currentLocale || 'en';
+        const defaults = defaultHeaders[locale] || defaultHeaders.en;
+        const title = defaults.title;
+        const description = defaults.description;
+
+        const objects = [];
+
+        // Outer border - Bright orange (energetic, positive for counting)
+        const outerBorder = new fabric.Rect({
+            left: 34,
+            top: 34,
+            width: 544,
+            height: 724,
+            fill: 'transparent',
+            stroke: '#FF8C42',
+            strokeWidth: 8,
+            rx: 12,
+            ry: 12,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(outerBorder);
+
+        // Inner border - Light peach (soft, complementary)
+        const innerBorder = new fabric.Rect({
+            left: 46.5,
+            top: 46.5,
+            width: 519,
+            height: 699,
+            fill: 'transparent',
+            stroke: '#FFD6A5',
+            strokeWidth: 3,
+            rx: 8,
+            ry: 8,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(innerBorder);
+
+        // Header background - Sunny yellow (cheerful, optimistic for math)
+        const bgRect = new fabric.Rect({
+            left: 70,
+            top: 70,
+            width: 472,
+            height: 100,
+            fill: '#FFD93D',
+            rx: 15,
+            ry: 15,
+            selectable: true
+        });
+        objects.push(bgRect);
+
+        // White pill for title
+        const whitePill = new fabric.Rect({
+            left: 90,
+            top: 85,
+            width: 432,
+            height: 70,
+            fill: '#FFFFFF',
+            rx: 35,
+            ry: 35,
+            selectable: true
+        });
+        objects.push(whitePill);
+
+        // Title - Dynamic size based on length
+        let titleFontSize = 48;
+        if (title.length > 12) titleFontSize = 40;
+        if (title.length > 15) titleFontSize = 36;
+        if (title.length > 18) titleFontSize = 32;
+        if (title.length > 22) titleFontSize = 28;
+
+        // Title text - Deep orange (readable, warm)
+        const titleText = new fabric.IText(title, {
+            left: 306,
+            top: 120,
+            fontSize: titleFontSize,
+            fontFamily: 'Fredoka, sans-serif',
+            fontWeight: '700',
+            fill: '#D65D0E',
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'center',
+            selectable: true,
+            editable: true
+        });
+        objects.push(titleText);
+
+        // Description text - Dark gray (professional, readable)
+        const descText = new fabric.Textbox(description, {
+            left: 306,
+            top: 190,
+            width: 450,
+            fontSize: 20,
+            fontFamily: 'Quicksand, sans-serif',
+            fontWeight: '500',
+            fill: '#4A4A4A',
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'top',
+            selectable: true,
+            editable: true,
+            hasControls: true,
+            isHeaderDesc: true
+        });
+        objects.push(descText);
+
+        return objects;
+    }
+
+    function createPageBorder(canvas) {
+        return null;
     }
 
     // --- TEXT TOOLS & CONTEXTUAL TOOLBAR LOGIC ---

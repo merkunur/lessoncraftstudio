@@ -1086,8 +1086,8 @@
               answerKeyCanvas.setDimensions({ width, height });
               updateCanvasDisplayDimensions(width, height, false);
 
-              // Set Number of Exercises to 8
-              problemCountInput.value = 8;
+              // Set Number of Exercises to 6
+              problemCountInput.value = 6;
 
               // Select "Theme for Worksheet" mode
               imageSelectionModeRadios[1].checked = true; // theme mode
@@ -1847,7 +1847,139 @@
             backgroundOpacitySlider.disabled = false;
         }, { crossOrigin: 'anonymous' });
     }
-    
+
+    // --- HEADER & BORDER FUNCTIONS ---
+    function createHeaderGroup(canvas) {
+        const defaultHeaders = {
+            en: { title: 'More Less', description: 'Compare numbers and choose the right symbol!' },
+            de: { title: 'Mehr Weniger', description: 'Vergleiche die Zahlen und wähle das richtige Symbol!' },
+            fr: { title: 'Plus Moins', description: 'Compare les nombres et choisis le bon symbole!' },
+            es: { title: 'Más Menos', description: '¡Compara los números y elige el símbolo correcto!' },
+            it: { title: 'Più Meno', description: 'Confronta i numeri e scegli il simbolo giusto!' },
+            pt: { title: 'Mais Menos', description: 'Compare os números e escolha o símbolo correto!' },
+            nl: { title: 'Meer Minder', description: 'Vergelijk de getallen en kies het juiste symbool!' },
+            sv: { title: 'Mer Mindre', description: 'Jämför talen och välj rätt symbol!' },
+            da: { title: 'Mere Mindre', description: 'Sammenlign tallene og vælg det rigtige symbol!' },
+            no: { title: 'Mer Mindre', description: 'Sammenlign tallene og velg riktig symbol!' },
+            fi: { title: 'Enemmän Vähemmän', description: 'Vertaa lukuja ja valitse oikea symboli!' }
+        };
+
+        const locale = currentLocale || 'en';
+        const defaults = defaultHeaders[locale] || defaultHeaders.en;
+        const title = defaults.title;
+        const description = defaults.description;
+
+        const objects = [];
+
+        // Outer border - Bright cyan
+        const outerBorder = new fabric.Rect({
+            left: 34,
+            top: 34,
+            width: 544,
+            height: 724,
+            fill: 'transparent',
+            stroke: '#00BCD4',
+            strokeWidth: 8,
+            rx: 12,
+            ry: 12,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(outerBorder);
+
+        // Inner border - Vibrant orange
+        const innerBorder = new fabric.Rect({
+            left: 46.5,
+            top: 46.5,
+            width: 519,
+            height: 699,
+            fill: 'transparent',
+            stroke: '#FF9800',
+            strokeWidth: 3,
+            rx: 8,
+            ry: 8,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(innerBorder);
+
+        // Header background - Sunny amber
+        const bgRect = new fabric.Rect({
+            left: 70,
+            top: 70,
+            width: 472,
+            height: 100,
+            fill: '#FFC107',
+            rx: 15,
+            ry: 15,
+            selectable: true
+        });
+        objects.push(bgRect);
+
+        // White pill for title
+        const whitePill = new fabric.Rect({
+            left: 90,
+            top: 85,
+            width: 432,
+            height: 70,
+            fill: '#FFFFFF',
+            rx: 35,
+            ry: 35,
+            selectable: true
+        });
+        objects.push(whitePill);
+
+        // Title - Dynamic size based on length
+        let titleFontSize = 48;
+        if (title.length > 12) titleFontSize = 40;
+        if (title.length > 15) titleFontSize = 36;
+        if (title.length > 18) titleFontSize = 32;
+        if (title.length > 22) titleFontSize = 28;
+
+        // Title text - Deep blue
+        const titleText = new fabric.IText(title, {
+            left: 306,
+            top: 120,
+            fontSize: titleFontSize,
+            fontFamily: 'Fredoka, sans-serif',
+            fontWeight: '700',
+            fill: '#01579B',
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'center',
+            selectable: true,
+            editable: true
+        });
+        objects.push(titleText);
+
+        // Description text - Dark orange
+        const descText = new fabric.Textbox(description, {
+            left: 306,
+            top: 190,
+            width: 450,
+            fontSize: 20,
+            fontFamily: 'Quicksand, sans-serif',
+            fontWeight: '500',
+            fill: '#F57C00',
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'top',
+            selectable: true,
+            editable: true,
+            hasControls: true,
+            isHeaderDesc: true
+        });
+        objects.push(descText);
+
+        return objects;
+    }
+
+    function createPageBorder(canvas) {
+        return null;
+    }
+
     function enforceZOrder(canvas) {
         if (!canvas) return;
         const background = canvas.getObjects().find(o => o.isBackground);
@@ -1858,6 +1990,14 @@
             canvas.sendToBack(border);
             if (background) canvas.bringForward(border);
         }
+
+        // Send page borders (header borders) to back, behind all content
+        const pageBorders = canvas.getObjects().filter(o => o.isPageBorder);
+        pageBorders.forEach(pb => {
+            canvas.sendToBack(pb);
+            if (background) canvas.bringForward(pb);
+            if (border) canvas.bringForward(pb);
+        });
     }
 
     function applyOpacity(slider, type) {
@@ -2060,9 +2200,18 @@
             // Clear all old cards - always apply fresh layout
             // This ensures consistent multi-column layout on each generation
 
-            const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isExerciseCard && !o.isNameDateGroup && !o.isBorder && !o.isBackground);
-            const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isExerciseCard || o.isNameDateGroup);
+            const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isExerciseCard && !o.isNameDateGroup && !o.isBorder && !o.isBackground && !o.isPageBorder);
+            const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isExerciseCard || o.isNameDateGroup || o.isPageBorder);
             oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
+
+            // Generate header and border
+            const headerObjects = createHeaderGroup(worksheetCanvas);
+            const headerHeight = headerObjects ? 220 : 0;
+
+            // Add header objects to canvas
+            if (headerObjects) {
+                headerObjects.forEach(obj => worksheetCanvas.add(obj));
+            }
 
             const imageSelectionMode = $('input[name="image_selection_mode"]:checked').value;
             let imagesForGeneration = [];
@@ -2271,12 +2420,14 @@
         const pageHeight = currentCanvasConfig.height;
         const isLandscape = pageWidth > pageHeight;
         
-        // Professional margins that scale with page size
+        // Professional margins that respect border boundaries
+        // Inner border is at left: 46.5, top: 46.5, width: 519, height: 699
+        // Content must stay inside with proper padding
         const margin = {
-            top: includeNameDateCheckbox.checked ? pageHeight * 0.12 : pageHeight * 0.08,
-            bottom: pageHeight * 0.06,
-            left: pageWidth * 0.06,
-            right: pageWidth * 0.06
+            top: 240,  // After header (ends ~220) + padding
+            bottom: 66.5, // Padding from inner border bottom (745.5) to page bottom (792)
+            left: 70,   // Aligned with header background left
+            right: 70   // Symmetric padding from right border
         };
         
         const availableWidth = pageWidth - margin.left - margin.right;
@@ -2355,35 +2506,31 @@
             const heightScale = totalHeightNeeded > availableHeight ? availableHeight / totalHeightNeeded : 1;
             
             // Use the more restrictive scale
-            const scale = Math.min(widthScale, heightScale, 0.85); // Cap at 85% for professional look
-            
+            const scale = Math.min(widthScale, heightScale, 0.9); // Cap at 90% to prevent overflow
+
             // Calculate actual dimensions with scale
             const scaledCardHeight = maxCardHeight * scale;
             const scaledCardWidth = maxCardWidth * scale;
-            
-            // Calculate positions for centering the grid
+
+            // Calculate positions for left-aligned grid
             const totalGridWidth = (scaledCardWidth * cols) + (horizontalSpacing * (cols - 1));
             const totalGridHeight = (scaledCardHeight * rows) + (verticalSpacing * (rows - 1));
-            
-            const gridStartX = (availableWidth - totalGridWidth) / 2;
-            const gridStartY = (availableHeight - totalGridHeight) / 2;
-            
+
+            const gridStartX = 0; // Left align
+            const gridStartY = 0; // Top align
+
             // Generate positions for each card
             const positions = [];
             cards.forEach((card, index) => {
                 const row = Math.floor(index / cols);
                 const col = index % cols;
-                
-                // Center each card within its cell
+
+                // Left align each card within its cell (no centering offset)
                 const cellX = gridStartX + (col * (scaledCardWidth + horizontalSpacing));
                 const cellY = gridStartY + (row * (scaledCardHeight + verticalSpacing));
-                
-                // Center the actual card within the cell space
-                const cardScaledWidth = card.width * scale;
-                const cardOffsetX = (scaledCardWidth - cardScaledWidth) / 2;
-                
+
                 positions.push({
-                    x: cellX + cardOffsetX,
+                    x: cellX,
                     y: cellY
                 });
             });
@@ -2397,8 +2544,8 @@
 
         // Clear all old answer cards - always apply fresh layout
         // This ensures consistent multi-column layout on each generation
-        const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerCard && !o.isBorder && !o.isBackground);
-        const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerCard || o.isBorder || o.isBackground);
+        const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerCard && !o.isBorder && !o.isBackground && !o.isPageBorder);
+        const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerCard || o.isBorder || o.isBackground || o.isPageBorder);
         objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
 
         answerKeyCanvas.backgroundColor = pageColorInput.value || '#FFFFFF';
@@ -2411,11 +2558,25 @@
                 resolve();
             }));
         }
-        
+
         const border = worksheetCanvas.getObjects().find(o => o.isBorder);
         if (border) {
             await new Promise(resolve => border.clone(cloned => {
                 cloned.set({ isBorder: true });
+                answerKeyCanvas.add(cloned);
+                resolve();
+            }));
+        }
+
+        // Copy ALL header objects from worksheet (including borders, background, pill, title, description)
+        const worksheetHeaderObjects = worksheetCanvas.getObjects().filter(o =>
+            !o.isExerciseCard && !o.isNameDateGroup && !o.isBorder && !o.isBackground
+        );
+        for (const headerObj of worksheetHeaderObjects) {
+            await new Promise(resolve => headerObj.clone(cloned => {
+                // Preserve all header object properties
+                if (headerObj.isPageBorder) cloned.set({ isPageBorder: true });
+                if (headerObj.isHeaderDesc) cloned.set({ isHeaderDesc: true });
                 answerKeyCanvas.add(cloned);
                 resolve();
             }));
@@ -2427,12 +2588,14 @@
         const pageWidth = currentCanvasConfig.width;
         const pageHeight = currentCanvasConfig.height;
         const isLandscape = pageWidth > pageHeight;
-        
+
+        // Professional margins that respect border boundaries
+        // Same as worksheet to ensure consistent layout
         const margin = {
-            top: pageHeight * 0.08,
-            bottom: pageHeight * 0.06,
-            left: pageWidth * 0.06,
-            right: pageWidth * 0.06
+            top: 240,  // After header (ends ~220) + padding
+            bottom: 66.5, // Padding from inner border bottom to page bottom
+            left: 70,   // Aligned with header background left
+            right: 70   // Symmetric padding from right border
         };
         
         const availableWidth = pageWidth - margin.left - margin.right;
@@ -2455,10 +2618,10 @@
         const rows = Math.ceil(lastGeneratedRows.length / columns);
         const horizontalSpacing = availableWidth * 0.03;
         const verticalSpacing = availableHeight * 0.025;
-        
+
         const cardWidth = (availableWidth - horizontalSpacing * (columns - 1)) / columns;
         const maxCardHeight = (availableHeight - verticalSpacing * (rows - 1)) / rows;
-        const cardHeight = Math.min(100, maxCardHeight); // Cap at 100 for readability
+        const cardHeight = Math.min(120, maxCardHeight * 0.9); // Cap at 120 and use 90% of calculated height
 
         const allAnswerCards = await Promise.all(lastGeneratedRows.map(async (r, i) => {
             // Scale font sizes based on card height
@@ -2489,13 +2652,11 @@
             contentGroup.set({ left: cardWidth / 2, top: cardHeight / 2, originX: 'center', originY: 'center' });
             cardElements.push(contentGroup);
             const row = Math.floor(i / columns), col = i % columns;
-            
-            // Calculate grid position with centering
-            const totalGridWidth = (cardWidth * columns) + (horizontalSpacing * (columns - 1));
-            const totalGridHeight = (cardHeight * rows) + (verticalSpacing * (rows - 1));
-            const gridStartX = margin.left + (availableWidth - totalGridWidth) / 2;
-            const gridStartY = margin.top + (availableHeight - totalGridHeight) / 2;
-            
+
+            // Calculate grid position with left alignment
+            const gridStartX = margin.left; // Left align
+            const gridStartY = margin.top; // Top align
+
             const cardX = gridStartX + col * (cardWidth + horizontalSpacing);
             const cardY = gridStartY + row * (cardHeight + verticalSpacing);
             

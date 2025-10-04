@@ -376,7 +376,7 @@
       <div id="object-context-toolbar" style="display:none;">
           <div class="toolbar-group">
               <div class="toolbar-item">
-                  <button class="context-btn" id="layersBtn" title="Layers" data-translate="layers"><i class="fas fa-layer-group"></i></button>
+                  <button class="context-btn" id="layersBtn" data-translate-title="layers" title="Layers"><i class="fas fa-layer-group"></i></button>
                   <div class="dropdown-content" id="layersDropdown">
                           <button id="toolbarBringForwardBtn" data-translate="bringForward">Bring Forward</button>
                           <button id="toolbarSendBackwardBtn" data-translate="sendBackward">Send Backward</button>
@@ -385,30 +385,30 @@
           </div>
           <div class="toolbar-group">
               <div class="toolbar-item">
-                  <button class="context-btn" id="alignBtn" title="Align" data-translate="align"><i class="fas fa-th"></i></button>
+                  <button class="context-btn" id="alignBtn" data-translate-title="align" title="Align"><i class="fas fa-th"></i></button>
                   <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
                           <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="alignSelected">Align Selected:</p>
                           <div>
-                                  <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
-                                  <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
-                                  <button class="context-btn" id="alignRightBtn" title="Align Right"><i class="fas fa-align-right"></i></button>
+                                  <button class="context-btn" id="alignLeftBtn" data-translate-title="alignLeft" title="Align Left"><i class="fas fa-align-left"></i></button>
+                                  <button class="context-btn" id="alignHCenterBtn" data-translate-title="centerHorizontally" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                                  <button class="context-btn" id="alignRightBtn" data-translate-title="alignRight" title="Align Right"><i class="fas fa-align-right"></i></button>
                           </div>
                           <div style="margin-top: 5px;">
-                                  <button class="context-btn" id="alignTopBtn" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
-                                  <button class="context-btn" id="alignVCenterBtn" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
-                                  <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                                  <button class="context-btn" id="alignTopBtn" data-translate-title="alignTop" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                                  <button class="context-btn" id="alignVCenterBtn" data-translate-title="centerVertically" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
+                                  <button class="context-btn" id="alignBottomBtn" data-translate-title="alignBottom" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
                           </div>
                           <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
                           <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="alignToPage">Align to Page:</p>
                           <div>
-                                  <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
-                                  <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                                  <button class="context-btn" id="centerHCanvasBtn" data-translate-title="centerPageHorizontally" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                                  <button class="context-btn" id="centerVCanvasBtn" data-translate-title="centerPageVertically" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
                           </div>
                   </div>
               </div>
           </div>
           <div class="toolbar-group">
-              <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected" data-translate="deleteSelected"><i class="fas fa-trash-alt"></i></button>
+              <button class="context-btn" id="toolbarDeleteBtn" data-translate-title="deleteSelected" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
           </div>
       </div>
       <div class="top-right-actions">
@@ -766,16 +766,20 @@
           
           // Apply zoom for display
           const finalZoom = displayWidth / width;
-          
+
           [worksheetCanvas, calloutsCanvas].forEach(c => {
-            if (c) { 
+            if (c) {
+                // CRITICAL: Set actual canvas dimensions FIRST
+                c.setWidth(width);
+                c.setHeight(height);
+
+                // Then set zoom and viewport
                 c.setZoom(finalZoom);
-                // CRITICAL: Set dimensions AFTER zoom
                 c.setDimensions({
                     width: displayWidth,
                     height: displayHeight
                 });
-                c.renderAll(); 
+                c.renderAll();
             }
           });
           [worksheetCanvasWrapper, calloutsCanvasWrapper].forEach(w => {
@@ -1144,7 +1148,9 @@
       }
 
       function createHeaderGroup(canvas) {
-          const width = currentCanvasConfig.width;
+          const pageWidth = currentCanvasConfig.width;
+          const pageHeight = currentCanvasConfig.height;
+          const isLandscape = pageWidth > pageHeight;
           const currentLang = currentLocale || 'en';
 
           // Multilingual defaults for Picture Bingo
@@ -1189,75 +1195,158 @@
           const margin = 40;
           const innerMargin = margin + 12;
           const headerPadding = 15;
-          const headerHeight = 80;
 
-          // Header background - positioned inside borders
-          const headerBg = new fabric.Rect({
-              left: innerMargin + headerPadding,
-              top: innerMargin + headerPadding,
-              width: width - ((innerMargin + headerPadding) * 2),
-              height: headerHeight,
-              fill: headerBgColor,
-              rx: 15,
-              ry: 15,
-              selectable: true,
-              hasControls: true,
-              isHeaderItem: true
-          });
-          objects.push(headerBg);
+          // LANDSCAPE MODE: Compact, centered header
+          if (isLandscape) {
+              const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+              const headerHeight = 70;
+              const centerX = pageWidth / 2;
+              const headerTop = 60;
 
-          // White pill background for title
-          const titleBg = new fabric.Rect({
-              left: innerMargin + headerPadding + 20,
-              top: innerMargin + headerPadding + 15,
-              width: width - ((innerMargin + headerPadding + 20) * 2),
-              height: 50,
-              fill: '#FFFFFF',
-              rx: 25,
-              ry: 25,
-              selectable: true,
-              hasControls: true,
-              isHeaderItem: true
-          });
-          objects.push(titleBg);
+              // Bright blue header background - compact size
+              const headerBg = new fabric.Rect({
+                  left: centerX - maxHeaderWidth / 2,
+                  top: headerTop,
+                  width: maxHeaderWidth,
+                  height: headerHeight,
+                  fill: headerBgColor,
+                  rx: 35,
+                  ry: 35,
+                  selectable: true,
+                  isHeaderElement: true
+              });
+              objects.push(headerBg);
 
-          // Title text
-          const titleText = new fabric.Textbox(title, {
-              left: width / 2,
-              top: innerMargin + headerPadding + 30,
-              width: width - ((innerMargin + headerPadding + 30) * 2),
-              fontSize: 28,
-              fontFamily: 'Fredoka, sans-serif',
-              fontWeight: '700',
-              fill: titleColor,
-              textAlign: 'center',
-              originX: 'center',
-              originY: 'center',
-              selectable: true,
-              editable: true,
-              hasControls: true,
-              isHeaderItem: true
-          });
-          objects.push(titleText);
+              // White rounded rectangle for title - compact
+              const titleBg = new fabric.Rect({
+                  left: centerX - (maxHeaderWidth - 40) / 2,
+                  top: headerTop + 10,
+                  width: maxHeaderWidth - 40,
+                  height: 50,
+                  fill: '#FFFFFF',
+                  rx: 25,
+                  ry: 25,
+                  selectable: true,
+                  isHeaderElement: true
+              });
+              objects.push(titleBg);
 
-          // Description text
-          const descText = new fabric.Textbox(description, {
-              left: width / 2,
-              top: innerMargin + headerPadding + 53,
-              width: width - ((innerMargin + headerPadding + 30) * 2),
-              fontSize: 16,
-              fontFamily: 'Quicksand, sans-serif',
-              fontWeight: '500',
-              fill: descColor,
-              textAlign: 'center',
-              originX: 'center',
-              originY: 'center',
-              selectable: true,
-              editable: true,
-              hasControls: true,
-              isHeaderItem: true
-          });
-          objects.push(descText);
+              // Title - Compact size for landscape
+              let titleFontSize = 32;
+              if (title.length > 12) titleFontSize = 28;
+              if (title.length > 15) titleFontSize = 24;
+
+              const titleText = new fabric.Textbox(title, {
+                  left: centerX,
+                  top: headerTop + 35,
+                  width: maxHeaderWidth - 60,
+                  fontSize: titleFontSize,
+                  fontFamily: 'Fredoka, sans-serif',
+                  fontWeight: '700',
+                  fill: titleColor,
+                  textAlign: 'center',
+                  originX: 'center',
+                  originY: 'center',
+                  selectable: true,
+                  editable: true,
+                  isHeaderElement: true
+              });
+              objects.push(titleText);
+
+              // Description - compact below header
+              const descText = new fabric.Textbox(description, {
+                  left: centerX,
+                  top: headerTop + headerHeight + 5,
+                  width: maxHeaderWidth - 20,
+                  fontSize: 14,
+                  fontFamily: 'Quicksand, sans-serif',
+                  fontWeight: '500',
+                  fill: descColor,
+                  textAlign: 'center',
+                  originX: 'center',
+                  originY: 'top',
+                  selectable: true,
+                  editable: true,
+                  hasControls: true,
+                  isHeaderDesc: true
+              });
+              objects.push(descText);
+
+          } else {
+              // PORTRAIT MODE: Full-width professional header
+              const headerHeight = 80;
+
+              // Header background - positioned inside borders
+              const headerBg = new fabric.Rect({
+                  left: innerMargin + headerPadding,
+                  top: innerMargin + headerPadding,
+                  width: pageWidth - ((innerMargin + headerPadding) * 2),
+                  height: headerHeight,
+                  fill: headerBgColor,
+                  rx: 15,
+                  ry: 15,
+                  selectable: true,
+                  hasControls: true,
+                  isHeaderElement: true
+              });
+              objects.push(headerBg);
+
+              // White pill background for title
+              const titleBg = new fabric.Rect({
+                  left: innerMargin + headerPadding + 20,
+                  top: innerMargin + headerPadding + 15,
+                  width: pageWidth - ((innerMargin + headerPadding + 20) * 2),
+                  height: 50,
+                  fill: '#FFFFFF',
+                  rx: 25,
+                  ry: 25,
+                  selectable: true,
+                  hasControls: true,
+                  isHeaderElement: true
+              });
+              objects.push(titleBg);
+
+              // Title text
+              let titleFontSize = 28;
+              if (title.length > 15) titleFontSize = 24;
+
+              const titleText = new fabric.Textbox(title, {
+                  left: pageWidth / 2,
+                  top: innerMargin + headerPadding + 30,
+                  width: pageWidth - ((innerMargin + headerPadding + 30) * 2),
+                  fontSize: titleFontSize,
+                  fontFamily: 'Fredoka, sans-serif',
+                  fontWeight: '700',
+                  fill: titleColor,
+                  textAlign: 'center',
+                  originX: 'center',
+                  originY: 'center',
+                  selectable: true,
+                  editable: true,
+                  hasControls: true,
+                  isHeaderElement: true
+              });
+              objects.push(titleText);
+
+              // Description text - inside green header
+              const descText = new fabric.Textbox(description, {
+                  left: pageWidth / 2,
+                  top: innerMargin + headerPadding + 53,
+                  width: pageWidth - ((innerMargin + headerPadding + 30) * 2),
+                  fontSize: 16,
+                  fontFamily: 'Quicksand, sans-serif',
+                  fontWeight: '500',
+                  fill: descColor,
+                  textAlign: 'center',
+                  originX: 'center',
+                  originY: 'center',
+                  selectable: true,
+                  editable: true,
+                  hasControls: true,
+                  isHeaderDesc: true
+              });
+              objects.push(descText);
+          }
 
           return objects;
       }
@@ -1528,7 +1617,7 @@
 
           // Calculate available space
           const availableWidth = canvasWidth - (contentMargin * 2);
-          const availableHeight = canvasHeight - actualTopMargin - bottomMargin - middleGap;
+          const availableHeight = canvasHeight - actualTopMargin - bottomMargin;
 
           console.log('Bingo Card Layout Debug:', {
               canvasHeight,
@@ -1539,20 +1628,10 @@
               topOffset
           });
 
-          // Split available height between grid (60%) and chips (40%)
-          const gridHeight = Math.min(availableHeight * 0.6, 500); // Cap at 500px for very large pages
-          const chipsAreaHeight = Math.min(availableHeight * 0.4, 300); // Cap at 300px for very large pages
-          
-          // Ensure we don't exceed available space
-          const totalNeededHeight = gridHeight + chipsAreaHeight + middleGap;
-          let finalGridHeight = gridHeight;
-          let finalChipsHeight = chipsAreaHeight;
-          
-          if (totalNeededHeight > availableHeight) {
-              const scale = availableHeight / totalNeededHeight;
-              finalGridHeight = gridHeight * scale;
-              finalChipsHeight = chipsAreaHeight * scale;
-          }
+          // Reserve space for the gap, then split remaining space between grid (60%) and chips (40%)
+          const spaceForContent = availableHeight - middleGap;
+          const finalGridHeight = Math.min(spaceForContent * 0.6, 500); // Cap at 500px for very large pages
+          const finalChipsHeight = Math.min(spaceForContent * 0.4, 300); // Cap at 300px for very large pages
           
           const cellWidth = availableWidth / cols;
           const cellHeight = finalGridHeight / rows;
@@ -1664,7 +1743,7 @@
       async function renderCalloutCanvas(allItems) {
 
         const oldTransforms = {};
-        const userAddedObjects = calloutsCanvas.getObjects().filter(o => !o.isCalloutElement && !o.isBorder && !o.isBackground && !o.isHeaderItem && !o.isPageBorder);
+        const userAddedObjects = calloutsCanvas.getObjects().filter(o => !o.isCalloutElement && !o.isBorder && !o.isBackground && !o.isHeaderItem && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
         calloutsCanvas.getObjects().forEach(o => {
             if (o.isCalloutElement && o.originalIndex !== undefined) {
                 oldTransforms[o.originalIndex] = {
@@ -1673,7 +1752,7 @@
             }
         });
 
-        const objectsToRemove = calloutsCanvas.getObjects().filter(o => o.isCalloutElement || o.isBorder || o.isBackground || o.isHeaderItem || o.isPageBorder);
+        const objectsToRemove = calloutsCanvas.getObjects().filter(o => o.isCalloutElement || o.isBorder || o.isBackground || o.isHeaderItem || o.isPageBorder || o.isHeaderElement || o.isHeaderDesc);
         objectsToRemove.forEach(o => calloutsCanvas.remove(o));
 
         // Copy page borders from worksheet to callout canvas
@@ -1686,11 +1765,21 @@
             }));
         }
 
-        // Copy header items from worksheet to callout canvas
-        const headerItems = worksheetCanvas.getObjects().filter(o => o.isHeaderItem);
-        for (const headerItem of headerItems) {
-            await new Promise(resolve => headerItem.clone(cloned => {
-                cloned.set({ isHeaderItem: true });
+        // Copy header elements from worksheet to callout canvas
+        const headerElements = worksheetCanvas.getObjects().filter(o => o.isHeaderElement);
+        for (const headerElement of headerElements) {
+            await new Promise(resolve => headerElement.clone(cloned => {
+                cloned.set({ isHeaderElement: true });
+                calloutsCanvas.add(cloned);
+                resolve();
+            }));
+        }
+
+        // Copy header description from worksheet to callout canvas
+        const headerDescs = worksheetCanvas.getObjects().filter(o => o.isHeaderDesc);
+        for (const headerDesc of headerDescs) {
+            await new Promise(resolve => headerDesc.clone(cloned => {
+                cloned.set({ isHeaderDesc: true });
                 calloutsCanvas.add(cloned);
                 resolve();
             }));
@@ -1811,22 +1900,40 @@
           const itemsNeededPerCard = rows * cols;
           const calloutImageCount = itemsNeededPerCard * 2;
           console.log('Bingo configuration:', { rows, cols, cardCount });
-          
+
+          // Check if canvas size has changed since last generation
+          const lastCanvasSize = worksheetCanvas.lastCanvasSize || { width: 0, height: 0 };
+          const canvasSizeChanged =
+              lastCanvasSize.width !== currentCanvasConfig.width ||
+              lastCanvasSize.height !== currentCanvasConfig.height;
+
           const oldTransforms = {};
-          const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isBingoElement && !o.isBorder && !o.isBackground && !o.isHeaderItem && !o.isPageBorder);
-          worksheetCanvas.getObjects().forEach(o => {
-              if (o.isBingoElement && o.originalIndex !== undefined) {
-                  oldTransforms[o.originalIndex] = {
-                      left: o.left, top: o.top, scaleX: o.scaleX, scaleY: o.scaleY, angle: o.angle
-                  };
-              }
-          });
+          const userAddedObjects = worksheetCanvas.getObjects().filter(o =>
+              !o.isBingoElement &&
+              !o.isBorder &&
+              !o.isBackground &&
+              !o.isHeaderItem &&
+              !o.isPageBorder &&
+              !o.isHeaderElement &&
+              !o.isHeaderDesc
+          );
+
+          // Only save transforms if canvas size hasn't changed
+          if (!canvasSizeChanged) {
+              worksheetCanvas.getObjects().forEach(o => {
+                  if (o.isBingoElement && o.originalIndex !== undefined) {
+                      oldTransforms[o.originalIndex] = {
+                          left: o.left, top: o.top, scaleX: o.scaleX, scaleY: o.scaleY, angle: o.angle
+                      };
+                  }
+              });
+          }
 
           const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isBingoElement);
           oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
 
           // Remove old header and border items
-          const oldHeaderBorderItems = worksheetCanvas.getObjects().filter(o => o.isHeaderItem || o.isPageBorder);
+          const oldHeaderBorderItems = worksheetCanvas.getObjects().filter(o => o.isHeaderItem || o.isPageBorder || o.isHeaderElement || o.isHeaderDesc);
           oldHeaderBorderItems.forEach(o => worksheetCanvas.remove(o));
 
           console.log('Preparing callout image pool, need:', calloutImageCount, 'images');
@@ -1858,10 +1965,9 @@
           }
 
           // Calculate header end position and content start
-          // Header components: margin(40) + innerMargin offset(12) + headerPadding(15) + headerHeight(80) = 147
-          // Add gap below header: 20px
-          // Content starts at: 147 + 20 = 167
-          const headerEndY = 40 + 12 + 15 + 80;
+          // Responsive header height based on orientation
+          const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+          const headerEndY = isLandscape ? 145 : 147; // Landscape: 60+70+15, Portrait: 67+80
           const contentStartY = headerEndY + 20;
 
           // Render bingo card starting below header
@@ -1873,11 +1979,17 @@
           if (newChipsGroup && oldTransforms['chips_0']) newChipsGroup.set(oldTransforms['chips_0']).setCoords();
 
           await renderCalloutCanvas(calloutImagePool);
-          
+
           enforceZOrder(worksheetCanvas);
           userAddedObjects.forEach(obj => worksheetCanvas.bringToFront(obj));
           worksheetCanvas.renderAll();
-          
+
+          // Store current canvas size for future comparisons
+          worksheetCanvas.lastCanvasSize = {
+              width: currentCanvasConfig.width,
+              height: currentCanvasConfig.height
+          };
+
           [downloadWorksheetJpegBtn, downloadWorksheetPdfBtn, downloadCalloutJpegBtn, downloadCalloutPdfBtn].forEach(b => b.disabled = false);
           showMessage('bingoWorksheetGenerated', 'success');
       }
@@ -2169,15 +2281,36 @@
       // --- END: Standard Download & Clear Functions ---
         
       // --- START: Event Listeners ---
+      async function regenerateWorksheet() {
+          // Only regenerate if worksheet exists
+          if (!worksheetCanvas.bingoData || worksheetCanvas.bingoData.length === 0) return;
+
+          // Regenerate the worksheet with new dimensions
+          await generateWorksheet();
+      }
+
       pageSizeSelect.addEventListener('change', function() {
-          if (this.value === 'custom') { customPageSizeInputsDiv.style.display = 'block'; } 
-          else { const [w, h] = this.value.split('x').map(Number); updateCanvasDisplayDimensions(w, h); }
+          if (this.value === 'custom') {
+              customPageSizeInputsDiv.style.display = 'block';
+          } else {
+              customPageSizeInputsDiv.style.display = 'none';
+              const [w, h] = this.value.split('x').map(Number);
+              updateCanvasDisplayDimensions(w, h);
+              // Regenerate worksheet when page size changes
+              regenerateWorksheet();
+          }
       });
       setPageSizeBtn.addEventListener('click', () => {
           let newWidth, newHeight;
-          if (pageSizeSelect.value === 'custom') { newWidth = parseInt(pageWidthInput.value, 10); newHeight = parseInt(pageHeightInput.value, 10); } 
-          else { [newWidth, newHeight] = pageSizeSelect.value.split('x').map(Number); }
+          if (pageSizeSelect.value === 'custom') {
+              newWidth = parseInt(pageWidthInput.value, 10);
+              newHeight = parseInt(pageHeightInput.value, 10);
+          } else {
+              [newWidth, newHeight] = pageSizeSelect.value.split('x').map(Number);
+          }
           updateCanvasDisplayDimensions(newWidth || 612, newHeight || 792);
+          // Regenerate worksheet when page size changes
+          regenerateWorksheet();
       });
       pageColorInput.addEventListener('input', () => { 
         const newColor = pageColorInput.value; 

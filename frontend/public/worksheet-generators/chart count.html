@@ -960,17 +960,41 @@ document.addEventListener('DOMContentLoaded', function() {
             applyTranslations();
         }
 
-        pageSizeSelect.addEventListener('change', () => {
+        pageSizeSelect.addEventListener('change', async () => {
             customPageSizeInputsDiv.style.display = pageSizeSelect.value === 'custom' ? 'block' : 'none';
             if (pageSizeSelect.value !== 'custom') {
                 const [w, h] = pageSizeSelect.value.split('x').map(Number);
                 updateCanvasDisplayDimensions(w, h);
+
+                // Auto-regenerate worksheet when paper size changes
+                const hasGeneratedWorksheet = worksheetCanvas.getObjects().some(o => o.isWorksheetExercise);
+                if (hasGeneratedWorksheet && lastGeneratedData) {
+                    await renderWorksheet(lastGeneratedData);
+                }
+
+                // Auto-regenerate solution when paper size changes
+                const hasGeneratedSolution = solutionCanvas.getObjects().some(o => o.isAnswerKeyItem);
+                if (hasGeneratedSolution && lastGeneratedData) {
+                    await renderSolution(lastGeneratedData);
+                }
             }
         });
-        setPageSizeBtn.addEventListener('click', () => {
+        setPageSizeBtn.addEventListener('click', async () => {
             const newWidth = parseInt(pageWidthInput.value, 10);
             const newHeight = parseInt(pageHeightInput.value, 10);
             updateCanvasDisplayDimensions(newWidth, newHeight);
+
+            // Auto-regenerate worksheet when custom page size is set
+            const hasGeneratedWorksheet = worksheetCanvas.getObjects().some(o => o.isWorksheetExercise);
+            if (hasGeneratedWorksheet && lastGeneratedData) {
+                await renderWorksheet(lastGeneratedData);
+            }
+
+            // Auto-regenerate solution when custom page size is set
+            const hasGeneratedSolution = solutionCanvas.getObjects().some(o => o.isAnswerKeyItem);
+            if (hasGeneratedSolution && lastGeneratedData) {
+                await renderSolution(lastGeneratedData);
+            }
         });
         pageColorInput.addEventListener('input', handlePageColorChange);
         
@@ -1336,9 +1360,9 @@ document.addEventListener('DOMContentLoaded', function() {
             // Add a small delay to ensure everything is fully initialized
             await new Promise(resolve => setTimeout(resolve, 300));
 
-            // Set default values: Animals theme (random), Letter portrait
+            // Set default values: Animals theme (random), Letter landscape
             worksheetThemeSelect.value = 'animals'; // This will trigger random selection from animals theme
-            pageSizeSelect.value = '612x792'; // Letter portrait
+            pageSizeSelect.value = '792x612'; // Letter landscape
 
             // Apply page size
             const [w, h] = pageSizeSelect.value.split('x').map(Number);
@@ -1362,8 +1386,15 @@ document.addEventListener('DOMContentLoaded', function() {
         // --- PRESERVE INDIVIDUAL LAYOUTS ---
         const isFirstGeneration = !worksheetCanvas.getObjects().some(o => o.isWorksheetExercise);
 
+        // Detect if canvas size changed (e.g., paper size changed)
+        const lastCanvasSize = worksheetCanvas.lastCanvasSize || { width: 0, height: 0 };
+        const canvasSizeChanged =
+            lastCanvasSize.width !== currentCanvasConfig.width ||
+            lastCanvasSize.height !== currentCanvasConfig.height;
+
         const oldCardTransforms = [];
-        if (!isFirstGeneration) {
+        // Only save transforms if canvas size hasn't changed
+        if (!isFirstGeneration && !canvasSizeChanged) {
             const oldCards = worksheetCanvas.getObjects().filter(o => o.isWorksheetExercise);
             oldCards.sort((a, b) => a.originalIndex - b.originalIndex);
             oldCards.forEach(card => {
@@ -1380,11 +1411,15 @@ document.addEventListener('DOMContentLoaded', function() {
         objectsToRemove.forEach(o => worksheetCanvas.remove(o));
 
         // --- ADD HEADER & BORDER ---
-        const existingHeaderObjects = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderDesc || (o.type === 'rect' && o.rx === 15 && o.fill === '#FFD93D') || (o.type === 'rect' && o.rx === 35 && o.fill === '#FFFFFF') || (o.type === 'i-text' && o.fontFamily && o.fontFamily.includes('Fredoka')) || (o.type === 'textbox' && o.isHeaderDesc));
+        const existingHeaderObjects = worksheetCanvas.getObjects().filter(o =>
+            o.isPageBorder || o.isHeaderDesc || o.isHeaderElement
+        );
         existingHeaderObjects.forEach(o => worksheetCanvas.remove(o));
 
         const headerObjects = createHeaderGroup(worksheetCanvas);
-        const headerHeight = headerObjects ? 220 : 0;
+        // Responsive header height: landscape=145px, portrait=220px
+        const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+        const headerHeight = headerObjects ? (isLandscape ? 145 : 220) : 0;
         if (headerObjects) {
             worksheetCanvas.add(...headerObjects);
             // Send borders to back
@@ -1412,7 +1447,8 @@ document.addEventListener('DOMContentLoaded', function() {
         worksheetCanvas.add(...exerciseGroups);
 
         // Professional adaptive layout based on page orientation
-        if (isFirstGeneration && exerciseGroups.length > 0) {
+        // Run positioning on first generation OR when canvas size changes
+        if ((isFirstGeneration || canvasSizeChanged) && exerciseGroups.length > 0) {
             // Define professional margins
             const TOP_MARGIN = (document.getElementById('includeNameDate').checked ? 100 : 80) + headerHeight;
             const BOTTOM_MARGIN = 80;
@@ -1544,14 +1580,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // --- FINALIZE Z-ORDER ---
         enforceZOrder(worksheetCanvas);
-        const userObjects = worksheetCanvas.getObjects().filter(o => !o.isWorksheetExercise && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc);
+        const userObjects = worksheetCanvas.getObjects().filter(o => !o.isWorksheetExercise && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
         userObjects.forEach(o => o.bringToFront());
-        
+
         // CRITICAL: Update all object coordinates after positioning
         worksheetCanvas.forEachObject(function(obj) {
             obj.setCoords();
         });
-        
+
+        // Store current canvas size for future size change detection
+        worksheetCanvas.lastCanvasSize = {
+            width: currentCanvasConfig.width,
+            height: currentCanvasConfig.height
+        };
+
         worksheetCanvas.renderAll();
     }
     // END: Refactor Step 2
@@ -1561,9 +1603,15 @@ document.addEventListener('DOMContentLoaded', function() {
         // --- PRESERVE & CLEAN ANSWER KEY CANVAS ---
         const isFirstAnswerKeyGeneration = !solutionCanvas.getObjects().some(o => o.isAnswerKeyItem);
 
-        // 1. Preserve old card transforms
+        // Detect if canvas size changed (e.g., paper size changed)
+        const lastCanvasSize = solutionCanvas.lastCanvasSize || { width: 0, height: 0 };
+        const canvasSizeChanged =
+            lastCanvasSize.width !== currentCanvasConfig.width ||
+            lastCanvasSize.height !== currentCanvasConfig.height;
+
+        // 1. Preserve old card transforms only if size hasn't changed
         const oldAnswerKeyCardTransforms = [];
-        if (!isFirstAnswerKeyGeneration) {
+        if (!isFirstAnswerKeyGeneration && !canvasSizeChanged) {
             const oldCards = solutionCanvas.getObjects().filter(o => o.isAnswerKeyItem);
             oldCards.sort((a, b) => a.originalIndex - b.originalIndex);
             oldCards.forEach(card => {
@@ -1574,11 +1622,16 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // 2. Preserve user-added objects
-        const userAddedObjectsOnKey = solutionCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isNameDate);
+        const userAddedObjectsOnKey = solutionCanvas.getObjects().filter(o =>
+            !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isNameDate &&
+            !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement
+        );
         const nameDateOnKey = solutionCanvas.getObjects().find(o => o.isNameDate);
 
         // 3. Precise removal of ALL old generated items and decoratives
-        const itemsToRemoveFromKey = solutionCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderDesc);
+        const itemsToRemoveFromKey = solutionCanvas.getObjects().filter(o =>
+            o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderDesc || o.isHeaderElement
+        );
         itemsToRemoveFromKey.forEach(o => solutionCanvas.remove(o));
 
         // --- CLONE BORDER/BACKGROUND ---
@@ -1602,7 +1655,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // --- ADD HEADER & BORDER ---
         const headerObjects = createHeaderGroup(solutionCanvas);
-        const headerHeight = headerObjects ? 220 : 0;
+        // Responsive header height: landscape=145px, portrait=220px
+        const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+        const headerHeight = headerObjects ? (isLandscape ? 145 : 220) : 0;
         if (headerObjects) {
             solutionCanvas.add(...headerObjects);
             // Send borders to back
@@ -1628,7 +1683,8 @@ document.addEventListener('DOMContentLoaded', function() {
         solutionCanvas.add(...exerciseGroups);
 
         // Professional adaptive layout for solution (same as worksheet)
-        if (isFirstAnswerKeyGeneration && exerciseGroups.length > 0) {
+        // Run positioning on first generation OR when canvas size changes
+        if ((isFirstAnswerKeyGeneration || canvasSizeChanged) && exerciseGroups.length > 0) {
             // Define professional margins
             const TOP_MARGIN = (document.getElementById('includeNameDate').checked ? 100 : 80) + headerHeight;
             const BOTTOM_MARGIN = 80;
@@ -1763,13 +1819,19 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // --- FINALIZE Z-ORDER ---
         enforceZOrder(solutionCanvas);
-        const finalUserObjects = solutionCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc);
+        const finalUserObjects = solutionCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
         finalUserObjects.forEach(o => o.bringToFront());
 
         // CRITICAL: Update all object coordinates after positioning
         solutionCanvas.forEachObject(function(obj) {
             obj.setCoords();
         });
+
+        // Store current canvas size for future size change detection
+        solutionCanvas.lastCanvasSize = {
+            width: currentCanvasConfig.width,
+            height: currentCanvasConfig.height
+        };
 
         solutionCanvas.renderAll();
     }
@@ -1942,17 +2004,27 @@ document.addEventListener('DOMContentLoaded', function() {
         const title = defaults.title;
         const description = defaults.description;
 
+        // Get current canvas dimensions for responsive design
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const isLandscape = pageWidth > pageHeight;
+
         const objects = [];
 
-        // Outer border - Bright orange (energetic, positive for counting)
+        // Responsive borders - Bright orange (energetic, positive for counting)
+        const margin = 34;
+        const strokeWidth = 8;
+        const borderWidth = pageWidth - (margin * 2);
+        const borderHeight = pageHeight - (margin * 2);
+
         const outerBorder = new fabric.Rect({
-            left: 34,
-            top: 34,
-            width: 544,
-            height: 724,
+            left: margin,
+            top: margin,
+            width: borderWidth,
+            height: borderHeight,
             fill: 'transparent',
             stroke: '#FF8C42',
-            strokeWidth: 8,
+            strokeWidth: strokeWidth,
             rx: 12,
             ry: 12,
             selectable: true,
@@ -1962,14 +2034,19 @@ document.addEventListener('DOMContentLoaded', function() {
         objects.push(outerBorder);
 
         // Inner border - Light peach (soft, complementary)
+        const innerMargin = margin + 12.5;
+        const innerStrokeWidth = 3;
+        const innerBorderWidth = pageWidth - (innerMargin * 2);
+        const innerBorderHeight = pageHeight - (innerMargin * 2);
+
         const innerBorder = new fabric.Rect({
-            left: 46.5,
-            top: 46.5,
-            width: 519,
-            height: 699,
+            left: innerMargin,
+            top: innerMargin,
+            width: innerBorderWidth,
+            height: innerBorderHeight,
             fill: 'transparent',
             stroke: '#FFD6A5',
-            strokeWidth: 3,
+            strokeWidth: innerStrokeWidth,
             rx: 8,
             ry: 8,
             selectable: true,
@@ -1978,73 +2055,158 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         objects.push(innerBorder);
 
-        // Header background - Sunny yellow (cheerful, optimistic for math)
-        const bgRect = new fabric.Rect({
-            left: 70,
-            top: 70,
-            width: 472,
-            height: 100,
-            fill: '#FFD93D',
-            rx: 15,
-            ry: 15,
-            selectable: true
-        });
-        objects.push(bgRect);
+        // LANDSCAPE MODE: Compact, centered header
+        if (isLandscape) {
+            const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+            const headerHeight = 70;
+            const centerX = pageWidth / 2;
+            const headerTop = 60;
 
-        // White pill for title
-        const whitePill = new fabric.Rect({
-            left: 90,
-            top: 85,
-            width: 432,
-            height: 70,
-            fill: '#FFFFFF',
-            rx: 35,
-            ry: 35,
-            selectable: true
-        });
-        objects.push(whitePill);
+            // Sunny yellow background - compact
+            const bgRect = new fabric.Rect({
+                left: centerX - maxHeaderWidth / 2,
+                top: headerTop,
+                width: maxHeaderWidth,
+                height: headerHeight,
+                fill: '#FFD93D',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
 
-        // Title - Dynamic size based on length
-        let titleFontSize = 48;
-        if (title.length > 12) titleFontSize = 40;
-        if (title.length > 15) titleFontSize = 36;
-        if (title.length > 18) titleFontSize = 32;
-        if (title.length > 22) titleFontSize = 28;
+            // White pill for title - compact
+            const whitePill = new fabric.Rect({
+                left: centerX - (maxHeaderWidth - 40) / 2,
+                top: headerTop + 10,
+                width: maxHeaderWidth - 40,
+                height: 50,
+                fill: '#FFFFFF',
+                rx: 25,
+                ry: 25,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
 
-        // Title text - Deep orange (readable, warm)
-        const titleText = new fabric.IText(title, {
-            left: 306,
-            top: 120,
-            fontSize: titleFontSize,
-            fontFamily: 'Fredoka, sans-serif',
-            fontWeight: '700',
-            fill: '#D65D0E',
-            textAlign: 'center',
-            originX: 'center',
-            originY: 'center',
-            selectable: true,
-            editable: true
-        });
-        objects.push(titleText);
+            // Title - Compact size for landscape
+            let titleFontSize = 32;
+            if (title.length > 12) titleFontSize = 28;
+            if (title.length > 15) titleFontSize = 24;
 
-        // Description text - Dark gray (professional, readable)
-        const descText = new fabric.Textbox(description, {
-            left: 306,
-            top: 190,
-            width: 450,
-            fontSize: 20,
-            fontFamily: 'Quicksand, sans-serif',
-            fontWeight: '500',
-            fill: '#4A4A4A',
-            textAlign: 'center',
-            originX: 'center',
-            originY: 'top',
-            selectable: true,
-            editable: true,
-            hasControls: true,
-            isHeaderDesc: true
-        });
-        objects.push(descText);
+            const titleText = new fabric.IText(title, {
+                left: centerX,
+                top: headerTop + 35,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#D65D0E',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description - compact
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: headerTop + headerHeight + 5,
+                width: maxHeaderWidth - 20,
+                fontSize: 14,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#4A4A4A',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true
+            });
+            objects.push(descText);
+
+        } else {
+            // PORTRAIT MODE: Full-width professional header
+            const headerMargin = 70;
+            const headerWidth = pageWidth - (headerMargin * 2);
+            const centerX = pageWidth / 2;
+
+            // Header background - Sunny yellow (cheerful, optimistic for math)
+            const bgRect = new fabric.Rect({
+                left: headerMargin,
+                top: 70,
+                width: headerWidth,
+                height: 100,
+                fill: '#FFD93D',
+                rx: 15,
+                ry: 15,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
+
+            // White pill for title
+            const whitePill = new fabric.Rect({
+                left: headerMargin + 20,
+                top: 85,
+                width: headerWidth - 40,
+                height: 70,
+                fill: '#FFFFFF',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
+
+            // Title - Dynamic size based on length
+            let titleFontSize = 48;
+            if (title.length > 12) titleFontSize = 40;
+            if (title.length > 15) titleFontSize = 36;
+            if (title.length > 18) titleFontSize = 32;
+            if (title.length > 22) titleFontSize = 28;
+
+            // Title text - Deep orange (readable, warm)
+            const titleText = new fabric.IText(title, {
+                left: centerX,
+                top: 120,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#D65D0E',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description text - Dark gray (professional, readable)
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: 190,
+                width: Math.min(450, pageWidth - 150),
+                fontSize: 20,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#4A4A4A',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true
+            });
+            objects.push(descText);
+        }
 
         return objects;
     }

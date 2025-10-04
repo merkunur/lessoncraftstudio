@@ -1243,8 +1243,9 @@
               answerKeyCanvas.setDimensions({ width, height });
               updateCanvasDisplayDimensions(width, height, false);
 
-              // Set Number of Exercises to 6
-              ui.exerciseCountSelect.value = '6';
+              // Set Number of Exercises to 5
+              ui.exerciseCountSelect.value = '5';
+              EXERCISE_COUNT = 5;
 
               // Set Mode to Similar
               ui.modeSelect.value = 'similar';
@@ -1303,16 +1304,175 @@
       // START OF CHANGES
       function enforceZOrder(canvas) {
         if (!canvas) return;
-        const background = canvas.getObjects().find(o => o.isBackground);
-        if (background) canvas.sendToBack(background);
-      
-        const border = canvas.getObjects().find(o => o.isBorder);
-        if (border) {
-            canvas.sendToBack(border);
-            if (background) canvas.bringForward(border);
-        }
+
+        const allObjects = canvas.getObjects();
+
+        // Categorize all objects by type
+        const backgrounds = allObjects.filter(o => o.isBackground);
+        const customBorders = allObjects.filter(o => o.isBorder);
+        const pageBorders = allObjects.filter(o => o.isPageBorder);
+        const headerElements = allObjects.filter(o => o.isHeaderElement && !o.isPageBorder);
+        const nameDateElements = allObjects.filter(o => o.isNameDate);
+        const worksheetItems = allObjects.filter(o => o.isWorksheetItem || o.isAnswerKeyItem);
+        const otherItems = allObjects.filter(o =>
+            !o.isBackground &&
+            !o.isBorder &&
+            !o.isPageBorder &&
+            !o.isHeaderElement &&
+            !o.isNameDate &&
+            !o.isWorksheetItem &&
+            !o.isAnswerKeyItem
+        );
+
+        // Use moveTo for precise z-order control
+        // Order from back to front: backgrounds, custom borders, page borders, header elements, name/date, worksheet items, other
+        let index = 0;
+
+        backgrounds.forEach(obj => { canvas.moveTo(obj, index++); });
+        customBorders.forEach(obj => { canvas.moveTo(obj, index++); });
+        pageBorders.forEach(obj => { canvas.moveTo(obj, index++); });
+        headerElements.forEach(obj => { canvas.moveTo(obj, index++); });
+        nameDateElements.forEach(obj => { canvas.moveTo(obj, index++); });
+        worksheetItems.forEach(obj => { canvas.moveTo(obj, index++); });
+        otherItems.forEach(obj => { canvas.moveTo(obj, index++); });
       }
       // END OF CHANGES
+
+      // --- HEADER AND BORDER FUNCTIONS ---
+      function createHeaderGroup(canvas) {
+          const defaultHeaders = {
+              en: { title: 'Find the Odd One Out', description: 'Circle the picture that is different in each row!' },
+              de: { title: 'Finde das Andere', description: 'Kreise das Bild ein, das anders ist!' },
+              fr: { title: 'Trouve l\'Intrus', description: 'Entoure l\'image différente dans chaque rangée!' },
+              es: { title: 'Encuentra el Diferente', description: '¡Rodea la imagen diferente en cada fila!' },
+              it: { title: 'Trova il Diverso', description: 'Cerchia l\'immagine diversa in ogni riga!' },
+              pt: { title: 'Encontra o Diferente', description: 'Circunda a imagem diferente em cada linha!' },
+              nl: { title: 'Vind de Vreemde Eend', description: 'Omcirkel de afbeelding die anders is!' },
+              sv: { title: 'Hitta Udda Fågeln', description: 'Ringa in bilden som är annorlunda!' },
+              da: { title: 'Find den Ulige', description: 'Sæt ring om billedet der er anderledes!' },
+              no: { title: 'Finn den Rare', description: 'Ring rundt bildet som er forskjellig!' },
+              fi: { title: 'Löydä Outo Lintu', description: 'Ympyröi kuva, joka on erilainen!' }
+          };
+
+          const locale = currentLocale || 'en';
+          const defaults = defaultHeaders[locale] || defaultHeaders.en;
+          const title = defaults.title;
+          const description = defaults.description;
+
+          const objects = [];
+
+          // Outer border - Bright coral (playful, friendly)
+          const outerBorder = new fabric.Rect({
+              left: 34,
+              top: 34,
+              width: 544,
+              height: 724,
+              fill: 'transparent',
+              stroke: '#FF6B6B',
+              strokeWidth: 8,
+              rx: 12,
+              ry: 12,
+              selectable: true,
+              hasControls: true,
+              isPageBorder: true
+          });
+          objects.push(outerBorder);
+
+          // Inner border - Sunny amber (cheerful, warm)
+          const innerBorder = new fabric.Rect({
+              left: 46.5,
+              top: 46.5,
+              width: 519,
+              height: 699,
+              fill: 'transparent',
+              stroke: '#FFB84D',
+              strokeWidth: 3,
+              rx: 8,
+              ry: 8,
+              selectable: true,
+              hasControls: true,
+              isPageBorder: true
+          });
+          objects.push(innerBorder);
+
+          // Header background - Vibrant turquoise (discovery theme)
+          const bgRect = new fabric.Rect({
+              left: 70,
+              top: 70,
+              width: 472,
+              height: 100,
+              fill: '#4ECDC4',
+              rx: 15,
+              ry: 15,
+              selectable: true,
+              isHeaderElement: true
+          });
+          objects.push(bgRect);
+
+          // White pill for title
+          const whitePill = new fabric.Rect({
+              left: 90,
+              top: 85,
+              width: 432,
+              height: 70,
+              fill: '#FFFFFF',
+              rx: 35,
+              ry: 35,
+              selectable: true,
+              isHeaderElement: true
+          });
+          objects.push(whitePill);
+
+          // Title - Dynamic size based on length
+          let titleFontSize = 48;
+          if (title.length > 12) titleFontSize = 40;
+          if (title.length > 15) titleFontSize = 36;
+          if (title.length > 18) titleFontSize = 32;
+          if (title.length > 22) titleFontSize = 28;
+
+          // Title text - Deep teal for readability
+          const titleText = new fabric.IText(title, {
+              left: 306,
+              top: 120,
+              fontSize: titleFontSize,
+              fontFamily: 'Fredoka, sans-serif',
+              fontWeight: '700',
+              fill: '#1A535C',
+              textAlign: 'center',
+              originX: 'center',
+              originY: 'center',
+              selectable: true,
+              editable: true,
+              isHeaderElement: true
+          });
+          objects.push(titleText);
+
+          // Description text - Warm coral (ties to border)
+          const descText = new fabric.Textbox(description, {
+              left: 306,
+              top: 190,
+              width: 450,
+              fontSize: 20,
+              fontFamily: 'Quicksand, sans-serif',
+              fontWeight: '500',
+              fill: '#E63946',
+              textAlign: 'center',
+              originX: 'center',
+              originY: 'top',
+              selectable: true,
+              editable: true,
+              hasControls: true,
+              isHeaderDesc: true,
+              isHeaderElement: true
+          });
+          objects.push(descText);
+
+          return objects;
+      }
+
+      function createPageBorder(canvas) {
+          return null;
+      }
 
       const setupDropdown = (button, content) => {
           if (!button || !content) return;
@@ -2010,12 +2170,22 @@
         // Reset answer key count to force fresh layout on next answer key generation
         lastAnswerKeyExerciseCount = null;
         
-        const userAddedObjects = worksheetCanvas.getObjects().filter(o => 
-            !o.isWorksheetItem && !o.isBorder && !o.isBackground && !o.isNameDate
+        const userAddedObjects = worksheetCanvas.getObjects().filter(o =>
+            !o.isWorksheetItem && !o.isBorder && !o.isBackground && !o.isNameDate && !o.isPageBorder && !o.isHeaderElement
         );
 
         const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isWorksheetItem);
         oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
+
+        // Remove old header objects before creating new ones
+        const oldHeaderObjects = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
+        oldHeaderObjects.forEach(o => worksheetCanvas.remove(o));
+
+        // Create and add header objects
+        const headerObjects = createHeaderGroup(worksheetCanvas);
+        if (headerObjects) {
+            headerObjects.forEach(obj => worksheetCanvas.add(obj));
+        }
 
         const rowsData = await buildRowsData();
         if (!rowsData) {
@@ -2063,8 +2233,11 @@
         }
         
         await renderCardsToCanvas(lastGeneratedRows, worksheetCanvas, false, oldTransforms);
-        
-        enforceZOrder(worksheetCanvas);
+
+        // Force page borders to the back
+        const pageBorders = worksheetCanvas.getObjects().filter(o => o.isPageBorder);
+        pageBorders.forEach(border => worksheetCanvas.sendToBack(border));
+
         userAddedObjects.forEach(o => worksheetCanvas.bringToFront(o));
         worksheetCanvas.renderAll();
         
@@ -2090,12 +2263,12 @@
           // Don't preserve old transforms since worksheet was regenerated
           const oldTransforms = {};
 
-          const userAddedObjects = answerKeyCanvas.getObjects().filter(o => 
-              !o.isAnswerKeyItem && !o.isBorder && !o.isBackground
+          const userAddedObjects = answerKeyCanvas.getObjects().filter(o =>
+              !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement
           );
 
-          const objectsToRemove = answerKeyCanvas.getObjects().filter(o => 
-              o.isAnswerKeyItem || o.isBorder || o.isBackground
+          const objectsToRemove = answerKeyCanvas.getObjects().filter(o =>
+              o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderElement
           );
           objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
 
@@ -2117,10 +2290,25 @@
                   resolve();
               }, ['isBackground', 'isBorder']));
           }
+
+          // Copy header elements from worksheet canvas
+          const headerElements = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
+          for (const headerEl of headerElements) {
+              await new Promise(resolve => headerEl.clone(cloned => {
+                  if (headerEl.isPageBorder) cloned.set({ isPageBorder: true });
+                  if (headerEl.isHeaderDesc) cloned.set({ isHeaderDesc: true });
+                  if (headerEl.isHeaderElement) cloned.set({ isHeaderElement: true });
+                  answerKeyCanvas.add(cloned);
+                  resolve();
+              }, ['isPageBorder', 'isHeaderDesc', 'isHeaderElement', 'isBackground', 'isBorder']));
+          }
           
           await renderCardsToCanvas(lastGeneratedRows, answerKeyCanvas, true, oldTransforms);
-          
-          enforceZOrder(answerKeyCanvas);
+
+          // Force ONLY page borders (outer frames) to the very back
+          const akPageBorders = answerKeyCanvas.getObjects().filter(o => o.isPageBorder);
+          akPageBorders.forEach(border => answerKeyCanvas.sendToBack(border));
+
           userAddedObjects.forEach(o => answerKeyCanvas.bringToFront(o));
           answerKeyCanvas.renderAll();
           
@@ -2148,13 +2336,17 @@
         // Professional margins - slightly larger for breathing room
         const PAGE_MARGIN_H = pageWidth * 0.1;  // 10% horizontal margins
         const PAGE_MARGIN_V = pageHeight * 0.08; // 8% vertical margins
-        
+
+        // Header height
+        const headerObjects = canvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
+        const headerHeight = headerObjects.length > 0 ? 200 : 0;
+
         // Name/Date spacing
         const NAME_DATE_HEIGHT = 35;
         const NAME_DATE_SPACING = 20;
-        const TOP_OFFSET = ui.includeNameDate.checked 
-          ? PAGE_MARGIN_V + NAME_DATE_HEIGHT + NAME_DATE_SPACING 
-          : PAGE_MARGIN_V;
+        const TOP_OFFSET = ui.includeNameDate.checked
+          ? headerHeight + NAME_DATE_HEIGHT + NAME_DATE_SPACING + 10
+          : headerHeight + 10;
         
         // FIXED positioning for exercise numbers
         const EXERCISE_NUMBER_WIDTH = 25; // Fixed width for number
@@ -2178,7 +2370,7 @@
         const CARD_HEIGHT = (contentHeight - (ROW_SPACING * (ROWS_PER_COLUMN - 1))) / ROWS_PER_COLUMN;
         
         // Card aspect ratio - wider cards for better content display
-        const CARD_ASPECT_RATIO = 3.2;
+        const CARD_ASPECT_RATIO = 3.8;
         
         // Calculate maximum card width available
         const SPACE_FOR_NUMBERS = ui.includeExerciseNumbers.checked 
@@ -2188,17 +2380,17 @@
         
         // Final card width - use smaller of ideal or max
         const IDEAL_CARD_WIDTH = CARD_HEIGHT * CARD_ASPECT_RATIO;
-        const FINAL_CARD_WIDTH = Math.min(IDEAL_CARD_WIDTH, MAX_CARD_WIDTH);
-        
+        const FINAL_CARD_WIDTH = Math.min(IDEAL_CARD_WIDTH, MAX_CARD_WIDTH) * 0.95;
+
         // If cards are too wide, reduce height to maintain aspect ratio
-        const FINAL_CARD_HEIGHT = Math.min(CARD_HEIGHT, FINAL_CARD_WIDTH / CARD_ASPECT_RATIO);
+        const FINAL_CARD_HEIGHT = Math.min(CARD_HEIGHT, FINAL_CARD_WIDTH / CARD_ASPECT_RATIO / 0.95) * 0.95;
         
         // Internal card padding
         const CARD_PADDING_H = FINAL_CARD_WIDTH * 0.05;
         const CARD_PADDING_V = FINAL_CARD_HEIGHT * 0.15;
         
-        // Image size proportional to card - increased by 80% from original 0.7 to 1.26
-        const IMAGE_CONTAINER_SIZE = (FINAL_CARD_HEIGHT - (CARD_PADDING_V * 2)) * 1.26;
+        // Image size proportional to card - increased for better visibility
+        const IMAGE_CONTAINER_SIZE = (FINAL_CARD_HEIGHT - (CARD_PADDING_V * 2)) * 1.4;
 
         for (let i = 0; i < rowsData.length; i++) {
             const rowData = rowsData[i];
@@ -2242,15 +2434,15 @@
             if (ui.includeExerciseNumbers.checked) {
                 const fontSize = Math.min(FINAL_CARD_HEIGHT * 0.35, 18);
                 const numText = new fabric.Text(`${i + 1}.`, {
-                    fontSize: fontSize, 
+                    fontSize: fontSize,
                     fill: '#444',
                     fontWeight: 'bold',
                     left: numberX,
                     top: numberY,
                     originX: 'left',
                     originY: 'center',
-                    selectable: false, 
-                    evented: false,
+                    selectable: true,
+                    evented: true,
                     isWorksheetItem: !isAnswerKey,
                     isAnswerKeyItem: isAnswerKey
                 });

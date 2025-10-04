@@ -791,12 +791,6 @@
                     <p class="dictionary-message" data-translate="selectThemeToSeeBorders">Select a theme to see borders.</p>
                 </div>
 
-                <h4>Header & Border</h4>
-                <label class="checkbox-label"><input type="checkbox" id="showHeaderCheckbox" checked /> Show Header & Border</label>
-                <label for="headerTitleInput">Custom Title:</label>
-                <input type="text" id="headerTitleInput" placeholder="Leave empty for default" />
-                <label for="headerDescriptionInput">Custom Description:</label>
-                <input type="text" id="headerDescriptionInput" placeholder="Leave empty for default" />
             </div>
         </div>
         
@@ -1083,6 +1077,7 @@
     let worksheetCanvas;
     let answerKeyCanvas;
     let currentCanvasConfig = { width: 612, height: 792 };
+    let isRegenerating = false; // Guard flag to prevent recursive regeneration
 
     const pageColorInput = document.getElementById('pageColor');
     const borderThemeSelect = document.getElementById('borderThemeSelect');
@@ -1117,9 +1112,6 @@
     const includeNameDateCheckbox = document.getElementById('includeNameDateCheckbox');
     const imageUploadInput = document.getElementById('imageUploadInput');
     const uploadedImagesPreviewDiv = document.getElementById('uploadedImagesPreview');
-    const showHeaderCheckbox = document.getElementById('showHeaderCheckbox');
-    const headerTitleInput = document.getElementById('headerTitleInput');
-    const headerDescriptionInput = document.getElementById('headerDescriptionInput');
     const panel = document.querySelector('.panel');
     const menuToggleBtn = document.getElementById('menuToggleBtn');
     const menuCloseBtn = document.getElementById('menuCloseBtn');
@@ -1223,7 +1215,7 @@
         });
         
         // Page Setup Listeners
-        pageSizeSelect.addEventListener('change', function() {
+        pageSizeSelect.addEventListener('change', async function() {
           const selectedValue = this.value;
           if (selectedValue === 'custom') {
               customPageSizeInputsDiv.style.display = 'block';
@@ -1232,11 +1224,23 @@
               // Immediately apply the selected page size
               const [newWidth, newHeight] = selectedValue.split('x').map(Number);
               updateCanvasDisplayDimensions(newWidth, newHeight);
-              showMessage(t('pageSizeUpdated'), "success", 1500);
+
+              // Auto-regenerate worksheet if one exists (with guard to prevent recursion)
+              const hasWorksheet = worksheetCanvas && worksheetCanvas.getObjects().some(o => o.isTrainGeneratedItem);
+              if (hasWorksheet && !isRegenerating) {
+                  isRegenerating = true;
+                  try {
+                      await handleGenerateWorksheet();
+                  } finally {
+                      isRegenerating = false;
+                  }
+              } else {
+                  showMessage(t('pageSizeUpdated'), "success", 1500);
+              }
           }
         });
 
-        setPageSizeBtn.addEventListener('click', () => {
+        setPageSizeBtn.addEventListener('click', async () => {
             let newWidth, newHeight;
             if (pageSizeSelect.value === 'custom') {
                 newWidth = parseInt(pageWidthInput.value, 10) || currentCanvasConfig.width;
@@ -1245,7 +1249,19 @@
                 [newWidth, newHeight] = pageSizeSelect.value.split('x').map(Number);
             }
             updateCanvasDisplayDimensions(newWidth, newHeight);
-            showMessage(t('pageSizeUpdated'), "success", 1500);
+
+            // Auto-regenerate worksheet if one exists (with guard to prevent recursion)
+            const hasWorksheet = worksheetCanvas && worksheetCanvas.getObjects().some(o => o.isTrainGeneratedItem);
+            if (hasWorksheet && !isRegenerating) {
+                isRegenerating = true;
+                try {
+                    await handleGenerateWorksheet();
+                } finally {
+                    isRegenerating = false;
+                }
+            } else {
+                showMessage(t('pageSizeUpdated'), "success", 1500);
+            }
         });
 
         pageColorInput.addEventListener('input', () => {
@@ -1278,23 +1294,23 @@
     function updateCanvasDisplayDimensions(width, height) {
         currentCanvasConfig.width = width;
         currentCanvasConfig.height = height;
-        
+
         // Get available space
         const mainStyle = document.querySelector('.tab-content-wrapper');
         const availableWidth = mainStyle ? mainStyle.clientWidth - 50 : window.innerWidth - 400;
         const availableHeight = mainStyle ? mainStyle.clientHeight - 50 : window.innerHeight - 200;
-        
+
         // Apply 25% scaling for better visibility
         // Extra 25% for landscape orientations
         const isLandscape = width > height;
         const baseScale = 1.25; // Base 25% larger for all
         const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
         const displayScale = baseScale * landscapeBonus;
-        
+
         // Calculate display dimensions with scaling
         const scaledWidth = width * displayScale;
         const scaledHeight = height * displayScale;
-        
+
         // Ensure it fits in available space
         const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
         const displayWidth = scaledWidth * scaleRatio;
@@ -1302,21 +1318,25 @@
 
         [worksheetCanvas, answerKeyCanvas].forEach(c => {
             if (c) {
+                // CRITICAL: Set actual canvas dimensions first (coordinate space)
+                c.setWidth(width);
+                c.setHeight(height);
+
                 // Apply zoom for display scaling
                 const finalZoom = (displayWidth / width);
                 c.setZoom(finalZoom);
-                
-                // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+
+                // Set viewport dimensions AFTER zoom to ensure viewport matches zoomed size
                 c.setDimensions({
                     width: displayWidth,
                     height: displayHeight
                 });
-                
-                c.calcOffset(); 
+
+                c.calcOffset();
                 c.renderAll();
             }
         });
-        
+
         [worksheetCanvasWrapper, answerKeyCanvasWrapper].forEach(w => {
             if(w) {
                 w.style.width = displayWidth + 'px';
@@ -2216,23 +2236,40 @@
 
     function enforceZOrder(canvas) {
         if (!canvas) return;
+
+        // Send background to very back
         const background = canvas.getObjects().find(o => o.isBackground);
         if (background) canvas.sendToBack(background);
 
+        // Send old-style border to back (above background)
         const border = canvas.getObjects().find(o => o.isBorder);
         if (border) {
             canvas.sendToBack(border);
             if (background) canvas.bringForward(border);
         }
+
+        // CRITICAL: Send page border to back (it's part of the header)
+        const pageBorder = canvas.getObjects().find(o => o.isPageBorder);
+        if (pageBorder) {
+            canvas.sendToBack(pageBorder);
+            if (background) canvas.bringForward(pageBorder);
+            if (border) canvas.bringForward(pageBorder);
+        }
+
+        // CRITICAL: Do NOT mess with the internal order of OTHER header elements!
+        // They are already added in correct order from createHeaderGroup:
+        // Order: page border → bgRect → whitePill → titleText → descText
+        //
+        // Since header objects are added BEFORE train content (see line ~2670-2680),
+        // and train content is added after (line ~2679),
+        // the natural stacking order is already correct:
+        // background → border → page border → header bg → header pill → header text → train → user objects
+        //
+        // DO NOT call sendToBack on isHeaderElement or isHeaderDesc!
+        // That would destroy the internal header order and make text invisible behind the pill!
     }
 
     function createHeaderGroup(canvas) {
-        const headerCheckbox = document.getElementById('showHeaderCheckbox');
-        if (!headerCheckbox || !headerCheckbox.checked) return null;
-
-        const headerTitle = document.getElementById('headerTitleInput');
-        const headerDesc = document.getElementById('headerDescriptionInput');
-
         const defaultHeaders = {
             en: { title: 'Alphabet Train', description: 'Connect the letters to build your train!' },
             de: { title: 'Alphabet-Zug', description: 'Verbinde die Buchstaben und baue deinen Zug!' },
@@ -2249,20 +2286,30 @@
 
         const locale = currentLocale || 'en';
         const defaults = defaultHeaders[locale] || defaultHeaders.en;
-        const title = (headerTitle && headerTitle.value) || defaults.title;
-        const description = (headerDesc && headerDesc.value) || defaults.description;
+        const title = defaults.title;
+        const description = defaults.description;
+
+        // Get current canvas dimensions for responsive design
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const isLandscape = pageWidth > pageHeight;
 
         const objects = [];
 
-        // Outer border - Railway Blue (classic train blue)
+        // Outer border - Railway Blue (classic train blue) - responsive to page size
+        const margin = 34;
+        const strokeWidth = 8;
+        const borderWidth = pageWidth - (margin * 2);
+        const borderHeight = pageHeight - (margin * 2);
+
         const outerBorder = new fabric.Rect({
-            left: 34,
-            top: 34,
-            width: 544,
-            height: 724,
+            left: margin,
+            top: margin,
+            width: borderWidth,
+            height: borderHeight,
             fill: 'transparent',
             stroke: '#1E5F8C',
-            strokeWidth: 8,
+            strokeWidth: strokeWidth,
             rx: 12,
             ry: 12,
             selectable: true,
@@ -2271,72 +2318,157 @@
         });
         objects.push(outerBorder);
 
-        // Bright Train Red header background (locomotive red)
-        const bgRect = new fabric.Rect({
-            left: 70,
-            top: 70,
-            width: 472,
-            height: 100,
-            fill: '#E63946',
-            rx: 15,
-            ry: 15,
-            selectable: true
-        });
-        objects.push(bgRect);
+        // LANDSCAPE MODE: Compact, centered header
+        if (isLandscape) {
+            const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+            const headerHeight = 70;
+            const centerX = pageWidth / 2;
+            const headerTop = 60;
 
-        // White pill for title
-        const whitePill = new fabric.Rect({
-            left: 90,
-            top: 85,
-            width: 432,
-            height: 70,
-            fill: '#FFFFFF',
-            rx: 35,
-            ry: 35,
-            selectable: true
-        });
-        objects.push(whitePill);
+            // Compact Train Red background
+            const bgRect = new fabric.Rect({
+                left: centerX - maxHeaderWidth / 2,
+                top: headerTop,
+                width: maxHeaderWidth,
+                height: headerHeight,
+                fill: '#E63946',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
 
-        // Title - Dynamic sizing with navy blue color
-        let titleFontSize = 48;
-        if (title.length > 12) titleFontSize = 40;
-        if (title.length > 15) titleFontSize = 36;
-        if (title.length > 18) titleFontSize = 32;
-        if (title.length > 22) titleFontSize = 28;
+            // White pill for title
+            const whitePill = new fabric.Rect({
+                left: centerX - (maxHeaderWidth - 40) / 2,
+                top: headerTop + 10,
+                width: maxHeaderWidth - 40,
+                height: 50,
+                fill: '#FFFFFF',
+                rx: 25,
+                ry: 25,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
 
-        const titleText = new fabric.IText(title, {
-            left: 306,
-            top: 120,
-            fontSize: titleFontSize,
-            fontFamily: 'Fredoka, sans-serif',
-            fontWeight: '700',
-            fill: '#1D3557',
-            textAlign: 'center',
-            originX: 'center',
-            originY: 'center',
-            selectable: true,
-            editable: true
-        });
-        objects.push(titleText);
+            // Title - compact size
+            let titleFontSize = 36;
+            if (title.length > 12) titleFontSize = 32;
+            if (title.length > 15) titleFontSize = 28;
 
-        // Description - forest green
-        const descText = new fabric.Textbox(description, {
-            left: 306,
-            top: 190,
-            width: 450,
-            fontSize: 20,
-            fontFamily: 'Quicksand, sans-serif',
-            fontWeight: '500',
-            fill: '#2A9D8F',
-            textAlign: 'center',
-            originX: 'center',
-            originY: 'top',
-            selectable: true,
-            editable: true,
-            hasControls: true,
-            isHeaderDesc: true
-        });
-        objects.push(descText);
+            const titleText = new fabric.IText(title, {
+                left: centerX,
+                top: headerTop + 35,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#1D3557',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description - compact
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: headerTop + headerHeight + 5,
+                width: maxHeaderWidth - 20,
+                fontSize: 14,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#2A9D8F',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true
+            });
+            objects.push(descText);
+
+        } else {
+            // PORTRAIT MODE: Full-width professional header
+            const headerMargin = 70;
+            const headerWidth = pageWidth - (headerMargin * 2);
+            const centerX = pageWidth / 2;
+
+            // Bright Train Red header background (locomotive red)
+            const bgRect = new fabric.Rect({
+                left: headerMargin,
+                top: 70,
+                width: headerWidth,
+                height: 100,
+                fill: '#E63946',
+                rx: 15,
+                ry: 15,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
+
+            // White pill for title
+            const whitePill = new fabric.Rect({
+                left: headerMargin + 20,
+                top: 85,
+                width: headerWidth - 40,
+                height: 70,
+                fill: '#FFFFFF',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
+
+            // Title - Dynamic sizing with navy blue color
+            let titleFontSize = 48;
+            if (title.length > 12) titleFontSize = 40;
+            if (title.length > 15) titleFontSize = 36;
+            if (title.length > 18) titleFontSize = 32;
+            if (title.length > 22) titleFontSize = 28;
+
+            const titleText = new fabric.IText(title, {
+                left: centerX,
+                top: 120,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#1D3557',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description - forest green
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: 190,
+                width: Math.min(450, pageWidth - 150),
+                fontSize: 20,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#2A9D8F',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true
+            });
+            objects.push(descText);
+        }
 
         return objects;
     }
@@ -2349,6 +2481,12 @@
         if (!worksheetCanvas) return;
 
         // Part B, Step 1: Preserve State
+        // Check if canvas dimensions changed - if so, don't restore transforms
+        const oldCanvasWidth = worksheetCanvas.getWidth();
+        const oldCanvasHeight = worksheetCanvas.getHeight();
+        const canvasDimensionsChanged = (oldCanvasWidth !== currentCanvasConfig.width || oldCanvasHeight !== currentCanvasConfig.height);
+        const shouldPreserveTransforms = !canvasDimensionsChanged;
+
         const oldTransforms = {};
         worksheetCanvas.getObjects().forEach(obj => {
             if (obj.isTrainGeneratedItem && obj.generationId) {
@@ -2360,34 +2498,72 @@
             }
         });
         const userAddedObjects = worksheetCanvas.getObjects().filter(o =>
-            !o.isTrainGeneratedItem && !o.isTrainTemplate && !o.isBorder && !o.isBackground
+            !o.isTrainGeneratedItem && !o.isTrainTemplate && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement
         );
 
         // Part B, Step 2: Precise Removal
         const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isTrainGeneratedItem || o.isTrainTemplate);
         oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
-        
+
+        // Remove old header and border objects explicitly
+        const oldHeaderBorderObjects = worksheetCanvas.getObjects().filter(o =>
+            o.isPageBorder || o.isHeaderDesc || o.isHeaderElement
+        );
+        oldHeaderBorderObjects.forEach(o => worksheetCanvas.remove(o));
+
         let newGeneratedObjects = [];
 
         try {
             // Part B, Step 3: Regenerate and Re-apply Transforms
             const trainBgImg = await loadImage(currentTemplatePath);
-            
+
+            // Calculate header height based on orientation
+            const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+            const headerHeight = isLandscape ? 150 : 220; // Compact vs full header
+
             // Calculate proper scaling to fit within page borders with margins
             const pageMargin = 40; // Margin from page edges
+            const topMargin = headerHeight + 20; // Space below header
+            const bottomMargin = 120; // Space for cutouts at bottom
+
             const maxTrainWidth = currentCanvasConfig.width - (pageMargin * 2);
-            const maxTrainHeight = currentCanvasConfig.height - (pageMargin * 2);
-            
+            const maxTrainHeight = currentCanvasConfig.height - topMargin - bottomMargin;
+
             // Scale to fit within the available space
             trainBgImg.scaleToWidth(maxTrainWidth);
             if (trainBgImg.getScaledHeight() > maxTrainHeight) {
                 trainBgImg.scaleToHeight(maxTrainHeight);
             }
-            
-            trainBgImg.set({ left: currentCanvasConfig.width / 2 + 10, top: currentCanvasConfig.height / 2 + 20, originX: 'center', originY: 'center', selectable: true, evented: true, objectCaching: false, isTrainTemplate: true, isTrainGeneratedItem: true, originalIndex: -1 });
 
-            const canvasBgTopEdge = (currentCanvasConfig.height - trainBgImg.getScaledHeight()) / 2;
-            const trainLeftEdge = (currentCanvasConfig.width - trainBgImg.getScaledWidth()) / 2;
+            // Landscape only: Decrease train size by 30%
+            if (isLandscape) {
+                trainBgImg.scale(trainBgImg.scaleX * 0.7);
+            }
+
+            // Center train in available space (horizontally centered, vertically centered in space below header)
+            let trainCenterX = currentCanvasConfig.width / 2;
+            let trainCenterY = topMargin + (currentCanvasConfig.height - topMargin - bottomMargin) / 2;
+
+            // Portrait only: Move 70px up
+            if (!isLandscape) {
+                trainCenterY -= 70;
+            }
+
+            trainBgImg.set({
+                left: trainCenterX,
+                top: trainCenterY,
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                evented: true,
+                objectCaching: false,
+                isTrainTemplate: true,
+                isTrainGeneratedItem: true,
+                originalIndex: -1
+            });
+
+            const canvasBgTopEdge = trainCenterY - trainBgImg.getScaledHeight() / 2;
+            const trainLeftEdge = trainCenterX - trainBgImg.getScaledWidth() / 2;
             const S_SCALE = trainBgImg.getScaledWidth() / 940; // Scale based on actual train width
             const conceptualBoxSizeForScaling = WAGON_BOX_SIZE_BASE * S_SCALE * 0.65 * 1.3 * 1.2;
             const currentClueCount = Math.max(3, Math.min(parseInt(document.getElementById('clueCount').value, 10), selectedLetters.length));
@@ -2402,16 +2578,35 @@
             for (let idx = 0; idx < selectedLetters.length; idx++) {
                 if (idx >= BASE_WAGON_POSITIONS.length) break;
                 const letter = selectedLetters[idx], basePos = BASE_WAGON_POSITIONS[idx], adj = EXTRA_ADJUSTMENTS[idx];
-                const finalTop = canvasBgTopEdge + ((basePos.top + adj.deltaTop) * S_SCALE);
-                const finalLeft = trainLeftEdge + ((basePos.left + adj.deltaLeft) * S_SCALE);
+                let finalTop = canvasBgTopEdge + ((basePos.top + adj.deltaTop) * S_SCALE);
+                let finalLeft = trainLeftEdge + ((basePos.left + adj.deltaLeft) * S_SCALE);
+
+                // Portrait only: Adjust wagon image positions
+                if (!isLandscape) {
+                    finalTop -= 20;  // 20px up
+                    finalLeft -= 8;  // 8px left
+                }
+
+                // Landscape only: Adjust wagon image positions
+                if (isLandscape) {
+                    finalTop -= 15;  // 15px up
+                    finalLeft -= 10;  // 10px left
+                }
+
                 if (clues.includes(letter) && letterToImage[letter]) {
                     const clueFabImg = await loadImage(letterToImage[letter].path);
-                    const scaleFactor = Math.min(conceptualBoxSizeForScaling / clueFabImg.width, conceptualBoxSizeForScaling / clueFabImg.height);
+                    let scaleFactor = Math.min(conceptualBoxSizeForScaling / clueFabImg.width, conceptualBoxSizeForScaling / clueFabImg.height);
+
+                    // Landscape only: Increase wagon image size by 30% from current size (0.7 * 1.3 = 0.91)
+                    if (isLandscape) {
+                        scaleFactor *= 0.91;
+                    }
+
                     clueFabImg.scale(scaleFactor).set({
                         left: finalLeft + ((WAGON_BOX_SIZE_BASE * S_SCALE - clueFabImg.getScaledWidth()) / 2),
                         top: finalTop + ((WAGON_BOX_SIZE_BASE * S_SCALE - clueFabImg.getScaledHeight()) / 2),
-                        originX: 'left', originY: 'top', 
-                        selectable: true, 
+                        originX: 'left', originY: 'top',
+                        selectable: true,
                         evented: true,
                         hasControls: true,
                         hasBorders: true,
@@ -2426,13 +2621,13 @@
             }
             // Add train background as a separate object
             trainBgImg.set({
-                isTrainGeneratedItem: true, 
+                isTrainGeneratedItem: true,
                 generationId: 'trainBackground',
                 selectable: true,
                 evented: true,
                 originalIndex: 0
             });
-            if (oldTransforms['trainBackground']) trainBgImg.set(oldTransforms['trainBackground']);
+            if (shouldPreserveTransforms && oldTransforms['trainBackground']) trainBgImg.set(oldTransforms['trainBackground']);
             newGeneratedObjects.push(trainBgImg);
             
             // Add wagon images as individual objects (skip first element which is trainBgImg)
@@ -2442,7 +2637,7 @@
                     generationId: `wagonImage_${i-1}`,
                     originalIndex: i
                 });
-                if (oldTransforms[`wagonImage_${i-1}`]) {
+                if (shouldPreserveTransforms && oldTransforms[`wagonImage_${i-1}`]) {
                     masterElements[i].set(oldTransforms[`wagonImage_${i-1}`]);
                 }
                 newGeneratedObjects.push(masterElements[i]);
@@ -2450,12 +2645,26 @@
 
 
             const cutoutElements = [];
-            const enlargedCutBoxSize = (WAGON_BOX_SIZE_BASE * 0.6156 * S_SCALE) * 1.2;
+            // Base cutout size
+            const cutoutSizeMultiplier = 1.2;
+            const enlargedCutBoxSize = (WAGON_BOX_SIZE_BASE * 0.6156 * S_SCALE) * cutoutSizeMultiplier;
             const cutSpacing = 10 * S_SCALE;
-            
-            // Calculate cutout position to ensure it fits within page
+
+            // Calculate cutout position to ensure it fits within page and doesn't overlap train
             const trainBottom = canvasBgTopEdge + trainBgImg.getScaledHeight();
-            const cutBoxTop_full = Math.min(trainBottom + 70, currentCanvasConfig.height - enlargedCutBoxSize - 40);
+            // Increased gap from 70 to 100 to prevent overlap with train wheels
+            const minGapFromTrain = 100;
+            let cutBoxTop_full = Math.min(trainBottom + minGapFromTrain, currentCanvasConfig.height - enlargedCutBoxSize - 40);
+
+            // Portrait: Move cutouts 25px down
+            if (!isLandscape) {
+                cutBoxTop_full += 25;
+            }
+
+            // Landscape: Move cutouts 20px up
+            if (isLandscape) {
+                cutBoxTop_full -= 20;
+            }
             
             // Center the cutout boxes horizontally
             const totalCutoutWidth = remainingLettersForCutouts.length * enlargedCutBoxSize + (remainingLettersForCutouts.length - 1) * cutSpacing;
@@ -2478,7 +2687,7 @@
             }
             if (cutoutElements.length > 0) {
                 const cutOutsBlockGroup = new fabric.Group(cutoutElements, { selectable: true, hasControls: true, hasBorders: true, borderColor: 'var(--app-accent-secondary)', cornerColor: 'var(--app-accent-secondary)', isTrainGeneratedItem: true, originalIndex: 1 });
-                if (oldTransforms[1]) cutOutsBlockGroup.set(oldTransforms[1]);
+                if (shouldPreserveTransforms && oldTransforms[1]) cutOutsBlockGroup.set(oldTransforms[1]);
                 newGeneratedObjects.push(cutOutsBlockGroup);
             }
             
@@ -2491,7 +2700,7 @@
                     cornerSize: 8, transparentCorners: false, cornerStyle: 'circle',
                     isTrainGeneratedItem: true, originalIndex: 2
                 });
-                if (oldTransforms[2]) nameDateGroup.set(oldTransforms[2]);
+                if (shouldPreserveTransforms && oldTransforms[2]) nameDateGroup.set(oldTransforms[2]);
                 newGeneratedObjects.push(nameDateGroup);
             }
 
@@ -2521,6 +2730,12 @@
         if (!answerKeyCanvas) return;
 
         // Part C, Step 1: Preserve State
+        // Check if canvas dimensions changed - if so, don't restore transforms
+        const oldCanvasWidth = answerKeyCanvas.getWidth();
+        const oldCanvasHeight = answerKeyCanvas.getHeight();
+        const canvasDimensionsChanged = (oldCanvasWidth !== currentCanvasConfig.width || oldCanvasHeight !== currentCanvasConfig.height);
+        const shouldPreserveTransforms = !canvasDimensionsChanged;
+
         const oldTransforms = {};
         answerKeyCanvas.getObjects().forEach(obj => {
             if (obj.isAnswerKeyItem && obj.generationId) {
@@ -2532,12 +2747,18 @@
             }
         });
         const userAddedObjects = answerKeyCanvas.getObjects().filter(o =>
-            !o.isAnswerKeyItem && !o.isBorder && !o.isBackground
+            !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement
         );
 
         // Part C, Step 2: Precise Removal (including border/background)
         const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isTrainTemplate);
         objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
+
+        // Remove old header and border objects explicitly
+        const oldHeaderBorderObjects = answerKeyCanvas.getObjects().filter(o =>
+            o.isPageBorder || o.isHeaderDesc || o.isHeaderElement
+        );
+        oldHeaderBorderObjects.forEach(o => answerKeyCanvas.remove(o));
 
         try {
             // Part C, Step 3: Clone Decoratives
@@ -2560,22 +2781,50 @@
             
             // Part C, Step 4: Regenerate, Re-apply, and Finalize
             const trainBgImg = await loadImage(currentTemplatePath);
-            
+
+            // Calculate header height based on orientation
+            const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+            const headerHeight = isLandscape ? 150 : 220; // Compact vs full header
+
             // Calculate proper scaling to fit within page borders with margins
             const pageMargin = 40; // Margin from page edges
+            const topMargin = headerHeight + 20; // Space below header
+            const bottomMargin = 60; // No cutouts in answer key, less space needed
+
             const maxTrainWidth = currentCanvasConfig.width - (pageMargin * 2);
-            const maxTrainHeight = currentCanvasConfig.height - (pageMargin * 2);
-            
+            const maxTrainHeight = currentCanvasConfig.height - topMargin - bottomMargin;
+
             // Scale to fit within the available space
             trainBgImg.scaleToWidth(maxTrainWidth);
             if (trainBgImg.getScaledHeight() > maxTrainHeight) {
                 trainBgImg.scaleToHeight(maxTrainHeight);
             }
-            
-            trainBgImg.set({ originX: 'center', originY: 'center', left: currentCanvasConfig.width / 2 + 10, top: currentCanvasConfig.height / 2 + 20, isTrainTemplate: true, isAnswerKeyItem: true });
 
-            const canvasBgTopEdge = (currentCanvasConfig.height - trainBgImg.getScaledHeight()) / 2;
-            const trainLeftEdge = (currentCanvasConfig.width - trainBgImg.getScaledWidth()) / 2;
+            // Landscape only: Decrease train size by 30%
+            if (isLandscape) {
+                trainBgImg.scale(trainBgImg.scaleX * 0.7);
+            }
+
+            // Center train in available space (horizontally centered, vertically centered in space below header)
+            const trainCenterX = currentCanvasConfig.width / 2;
+            let trainCenterY = topMargin + (currentCanvasConfig.height - topMargin - bottomMargin) / 2;
+
+            // Portrait only: Move 50px up
+            if (!isLandscape) {
+                trainCenterY -= 50;
+            }
+
+            trainBgImg.set({
+                originX: 'center',
+                originY: 'center',
+                left: trainCenterX,
+                top: trainCenterY,
+                isTrainTemplate: true,
+                isAnswerKeyItem: true
+            });
+
+            const canvasBgTopEdge = trainCenterY - trainBgImg.getScaledHeight() / 2;
+            const trainLeftEdge = trainCenterX - trainBgImg.getScaledWidth() / 2;
             const S_SCALE = trainBgImg.getScaledWidth() / 940; // Scale based on actual train width
             const conceptualBoxSizeForScaling = WAGON_BOX_SIZE_BASE * S_SCALE * 0.65 * 1.3 * 1.2;
             // Add train background first
@@ -2585,24 +2834,40 @@
                 selectable: true,
                 evented: true
             });
-            if (oldTransforms['answerKeyTrain']) {
+            if (shouldPreserveTransforms && oldTransforms['answerKeyTrain']) {
                 trainBgImg.set(oldTransforms['answerKeyTrain']);
-            } else {
-                trainBgImg.center();
             }
+            // Train is already positioned correctly above, no need to center()
             answerKeyCanvas.add(trainBgImg);
             
             // Create individual groups for each wagon image with its letter
             const imageLoadPromises = selectedLetters.map(async (letter, idx) => {
                 if (idx >= BASE_WAGON_POSITIONS.length || !letterToImage[letter]) return;
-                
+
                 const basePos = BASE_WAGON_POSITIONS[idx], adj = EXTRA_ADJUSTMENTS[idx];
-                const finalTop = canvasBgTopEdge + ((basePos.top + adj.deltaTop) * S_SCALE);
-                const finalLeft = trainLeftEdge + ((basePos.left + adj.deltaLeft) * S_SCALE);
+                let finalTop = canvasBgTopEdge + ((basePos.top + adj.deltaTop) * S_SCALE);
+                let finalLeft = trainLeftEdge + ((basePos.left + adj.deltaLeft) * S_SCALE);
+
+                // Portrait only: Adjust wagon image positions in answer key
+                if (!isLandscape) {
+                    finalTop -= 20;  // 20px up
+                    finalLeft -= 10;  // 10px left
+                }
+
+                // Landscape only: Adjust wagon image positions in answer key
+                if (isLandscape) {
+                    finalTop -= 20;  // 20px up
+                    finalLeft -= 12;  // 12px left
+                }
 
                 const img = await loadImage(letterToImage[letter].path);
-                const scaleFactor = Math.min(conceptualBoxSizeForScaling / img.width, conceptualBoxSizeForScaling / img.height);
-                
+                let scaleFactor = Math.min(conceptualBoxSizeForScaling / img.width, conceptualBoxSizeForScaling / img.height);
+
+                // Landscape only: Decrease wagon image size by 30%
+                if (isLandscape) {
+                    scaleFactor *= 0.7;
+                }
+
                 // Position relative to group origin (0,0)
                 img.scale(scaleFactor).set({
                     left: -img.getScaledWidth() / 2,
@@ -2640,7 +2905,7 @@
                     generationId: `answerKeyWagon_${idx}`
                 });
                 
-                if (oldTransforms[`answerKeyWagon_${idx}`]) {
+                if (shouldPreserveTransforms && oldTransforms[`answerKeyWagon_${idx}`]) {
                     wagonGroup.set(oldTransforms[`answerKeyWagon_${idx}`]);
                 }
                 

@@ -47,7 +47,15 @@
       "Bash(start http://localhost:3001/worksheet-generators/cryptogram.html)",
       "Bash(start \"http://localhost:3001/worksheet-generators/math%20puzzle.html\")",
       "Bash(start \"http://localhost:3001/worksheet-generators/missing%20pieces.html\")",
-      "Bash(start \"http://localhost:3001/worksheet-generators/more%20less.html\")"
+      "Bash(start \"http://localhost:3001/worksheet-generators/more%20less.html\")",
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd professional headers and borders to multiple worksheet generators\n\n- Implemented child-friendly headers with unique color palettes for:\n  * Cryptogram (mystery purple/gold theme)\n  * Math Puzzle (energetic orange/blue theme)\n  * Missing Pieces (discovery teal/pink theme)\n  * More Less (comparison cyan/amber theme)\n- Added full multi-language support (11 languages) for all headers\n- Updated HEADER_BORDER_IMPLEMENTATION_GUIDE with best practices\n- Fixed layout issues to ensure professional appearance\n- All headers are editable on canvas with no sidebar controls\n- Improved z-order management for proper border rendering\n- Enhanced API routes for better image handling\n- Fixed initial worksheet generation defaults\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(dir:*)",
+      "Bash(start \"http://localhost:3000/worksheet-generators/odd%20one%20out.html\")",
+      "Bash(start \"http://localhost:3000/worksheet-generators/pattern%20train.html\")",
+      "Bash(del:*)",
+      "Bash(start http://localhost:3000/worksheet-generators/subtraction.html)",
+      "Bash(start http://localhost:3001/worksheet-generators/subtraction.html)",
+      "Bash(start:*)"
     ],
     "deny": [],
     "ask": []

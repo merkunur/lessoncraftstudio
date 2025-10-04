@@ -900,8 +900,9 @@ function updateTranslations() {
         let selectedDistractors = [];
         let selectedHidden = [];
         let uploadedImages = []; // ADDED: For custom uploads
-        let imageCache = {}; 
-        let lastGeneratedLayout = null; 
+        let imageCache = {};
+        let lastGeneratedLayout = null;
+        let lastCanvasSize = { width: 612, height: 792 };
 
         let worksheetCanvas, answerKeyCanvas;
         let currentCanvasConfig = { width: 612, height: 792 };
@@ -1477,6 +1478,18 @@ function updateTranslations() {
                 getEl('pageWidth').value = w;
                 getEl('pageHeight').value = h;
                 updateCanvasDisplayDimensions(w, h);
+
+                // Auto-regenerate worksheet and answer key if they exist
+                if (lastGeneratedLayout) {
+                    const hasAnswerKey = answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem);
+                    setTimeout(async () => {
+                        await generateWorksheet();
+                        // Regenerate answer key if it existed
+                        if (hasAnswerKey) {
+                            await generateAnswerKey();
+                        }
+                    }, 100);
+                }
             }
         }
 
@@ -1484,6 +1497,18 @@ function updateTranslations() {
              const w = parseInt(getEl('pageWidth').value, 10) || currentCanvasConfig.width;
              const h = parseInt(getEl('pageHeight').value, 10) || currentCanvasConfig.height;
              updateCanvasDisplayDimensions(w, h);
+
+             // Auto-regenerate worksheet and answer key if they exist
+             if (lastGeneratedLayout) {
+                 const hasAnswerKey = answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem);
+                 setTimeout(async () => {
+                     await generateWorksheet();
+                     // Regenerate answer key if it existed
+                     if (hasAnswerKey) {
+                         await generateAnswerKey();
+                     }
+                 }, 100);
+             }
         }
 
         function applyPageColor() {
@@ -1845,20 +1870,25 @@ function updateTranslations() {
             }
             showMessage(t('findobjects.msg.generating.answer'), 'info');
 
+            // Canvas size change detection for answer key
+            const canvasSizeChanged = lastCanvasSize.width !== currentCanvasConfig.width ||
+                                     lastCanvasSize.height !== currentCanvasConfig.height;
+
             const oldTransforms = {};
             answerKeyCanvas.getObjects().forEach(obj => {
-                if (obj.isAnswerKeyItem) {
+                // Never save transforms for legend - it should always be repositioned based on canvas size
+                if (obj.isAnswerKeyItem && !obj.isLegend && !canvasSizeChanged) {
                     oldTransforms[obj.uniqueId] = {
                         left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle
                     };
                 }
             });
-            const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isGenerated);
+            const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isGenerated && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
 
             answerKeyCanvas.clear();
             answerKeyCanvas.backgroundColor = worksheetCanvas.backgroundColor;
 
-            const propertiesToPreserve = ['backgroundColor', 'isGenerated', 'isHidden', 'uniqueId', 'isLegend', 'isBorder', 'isNameDate', 'isBackground', 'opacity', 'selectable', 'evented'];
+            const propertiesToPreserve = ['backgroundColor', 'isGenerated', 'isHidden', 'uniqueId', 'isLegend', 'isBorder', 'isNameDate', 'isBackground', 'opacity', 'selectable', 'evented', 'isPageBorder', 'isHeaderElement', 'isHeaderDesc'];
             await new Promise(resolve => {
                 worksheetCanvas.clone(clonedCanvas => {
                     answerKeyCanvas.loadFromJSON(clonedCanvas.toJSON(propertiesToPreserve), () => {
@@ -1869,8 +1899,12 @@ function updateTranslations() {
             });
 
             // After cloning, remove any user-added text that was transferred from the worksheet.
+            // BUT keep header title and description
             const userTextFromWorksheet = answerKeyCanvas.getObjects().filter(obj =>
-                (obj.type === 'textbox' || obj.type === 'i-text' || obj.type === 'text') && !obj.isGenerated
+                (obj.type === 'textbox' || obj.type === 'i-text' || obj.type === 'text') &&
+                !obj.isGenerated &&
+                !obj.isHeaderElement &&
+                !obj.isHeaderDesc
             );
             userTextFromWorksheet.forEach(obj => answerKeyCanvas.remove(obj));
 
@@ -1903,22 +1937,30 @@ function updateTranslations() {
             const answerKeyLegend = await createLegendGroup(true, lastGeneratedLayout);
             if (answerKeyLegend) {
                 const uniqueId = 'ak-legend';
-                // Position legend so its bottom aligns with the bottom of the border
-                // Border bottom is at: canvasHeight - 36 (half-inch margin)
+                // Position legend at the bottom with proper spacing
+                const canvasWidth = currentCanvasConfig.width;
                 const canvasHeight = currentCanvasConfig.height;
-                const borderMargin = 36; // Half inch margin
+                const isLandscape = canvasWidth > canvasHeight;
+
+                // Use the header's border margin (34px from createHeaderGroup)
+                const borderMargin = 34;
                 const legendHeight = answerKeyLegend.getScaledHeight();
-                const legendTop = canvasHeight - borderMargin - legendHeight / 2;
+
+                // Position legend so it sits above the bottom border with adequate spacing
+                // Add extra spacing (15px) from the border edge for better visibility
+                const legendTop = canvasHeight - borderMargin - legendHeight / 2 - 15;
 
                 answerKeyLegend.set({
-                    left: currentCanvasConfig.width / 2,
+                    left: canvasWidth / 2,
                     top: legendTop,
                     originX: 'center',
                     originY: 'center',
                     isAnswerKeyItem: true,
-                    uniqueId: uniqueId
+                    uniqueId: uniqueId,
+                    isLegend: true
                 });
-                if (oldTransforms[uniqueId]) answerKeyLegend.set(oldTransforms[uniqueId]);
+                // NEVER restore old transforms for legend - always position it fresh
+                // The legend position is deterministic based on canvas size
                 answerKeyCanvas.add(answerKeyLegend);
                 answerKeyCanvas.bringToFront(answerKeyLegend); // Ensure legend is visible
             }
@@ -1997,28 +2039,68 @@ function updateTranslations() {
         
         // Create default child-friendly background - with proper coordinate handling
         async function addDefaultBackground(canvas) {
-            // Create at 0,0 with default origins to avoid coordinate confusion
-            const background = new fabric.Rect({
-                left: 0,
-                top: 0,
-                width: currentCanvasConfig.width,
-                height: currentCanvasConfig.height,
-                fill: '#FFF5E6',
-                originX: 'left',  // Use default left/top origins
-                originY: 'top',   // This avoids coordinate system issues
-                selectable: true,
-                evented: true,
-                hasControls: true,
-                hasBorders: true,
-                isBackground: true,
-                opacity: 0.3,
-                uniqueId: 'default-background'
+            // Load Alphabet.png from Summer background theme
+            return new Promise((resolve) => {
+                fabric.Image.fromURL('/images/backgrounds/summer/Alphabet.png', (img) => {
+                    if (!img) {
+                        // Fallback to solid color if image fails to load
+                        const background = new fabric.Rect({
+                            left: 0,
+                            top: 0,
+                            width: currentCanvasConfig.width,
+                            height: currentCanvasConfig.height,
+                            fill: '#FFF5E6',
+                            originX: 'left',
+                            originY: 'top',
+                            selectable: true,
+                            evented: true,
+                            hasControls: true,
+                            hasBorders: true,
+                            isBackground: true,
+                            opacity: 0.35,
+                            uniqueId: 'default-background'
+                        });
+                        canvas.add(background);
+                        background.setCoords();
+                        canvas.renderAll();
+                        resolve();
+                        return;
+                    }
+
+                    // Scale image to cover the entire canvas while maintaining aspect ratio
+                    const scaleX = currentCanvasConfig.width / img.width;
+                    const scaleY = currentCanvasConfig.height / img.height;
+                    // Use the larger scale to ensure full coverage
+                    const scale = Math.max(scaleX, scaleY);
+
+                    // Center the image
+                    const scaledWidth = img.width * scale;
+                    const scaledHeight = img.height * scale;
+                    const left = (currentCanvasConfig.width - scaledWidth) / 2;
+                    const top = (currentCanvasConfig.height - scaledHeight) / 2;
+
+                    img.set({
+                        left: left,
+                        top: top,
+                        scaleX: scale,
+                        scaleY: scale,
+                        originX: 'left',
+                        originY: 'top',
+                        selectable: true,
+                        evented: true,
+                        hasControls: true,
+                        hasBorders: true,
+                        isBackground: true,
+                        opacity: 0.35,
+                        uniqueId: 'default-background'
+                    });
+
+                    canvas.add(img);
+                    img.setCoords();
+                    canvas.renderAll();
+                    resolve();
+                }, { crossOrigin: 'anonymous' });
             });
-            
-            canvas.add(background);
-            background.setCoords();  // Critical: update coordinates after adding
-            canvas.renderAll();
-            return Promise.resolve();
         }
         
         // Create simple, stable border - with proper coordinate handling
@@ -2091,19 +2173,45 @@ function updateTranslations() {
         }
 
         async function generateScene(canvas, { allDistractors, finalHidden, uniqueHidden }) {
+            // Canvas size change detection
+            const canvasSizeChanged = lastCanvasSize.width !== currentCanvasConfig.width ||
+                                     lastCanvasSize.height !== currentCanvasConfig.height;
+
             const oldTransforms = {};
             canvas.getObjects().forEach(obj => {
-                if (obj.isGenerated || obj.isBorder || obj.isBackground || obj.isDecoration) {
-                    oldTransforms[obj.uniqueId] = {
-                        left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle
-                    };
+                if (obj.isGenerated || obj.isBorder || obj.isBackground || obj.isDecoration || obj.isPageBorder || obj.isHeaderElement) {
+                    // Only restore transforms if canvas size hasn't changed
+                    if (!canvasSizeChanged) {
+                        oldTransforms[obj.uniqueId] = {
+                            left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle
+                        };
+                    }
                 }
             });
-            const userAddedObjects = canvas.getObjects().filter(o => !o.isGenerated && !o.isBorder && !o.isBackground && !o.isDecoration);
+            const userAddedObjects = canvas.getObjects().filter(o => !o.isGenerated && !o.isBorder && !o.isBackground && !o.isDecoration && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
 
-            const oldGeneratedItems = canvas.getObjects().filter(o => o.isGenerated);
+            const oldGeneratedItems = canvas.getObjects().filter(o => o.isGenerated || o.isPageBorder || o.isHeaderElement || o.isHeaderDesc);
             oldGeneratedItems.forEach(o => canvas.remove(o));
-            
+
+            // Use actual canvas dimensions from currentCanvasConfig
+            const canvasWidth = currentCanvasConfig.width;
+            const canvasHeight = currentCanvasConfig.height;
+            const isLandscape = canvasWidth > canvasHeight;
+
+            // Update last canvas size
+            lastCanvasSize = { width: canvasWidth, height: canvasHeight };
+
+            // Add responsive header and border
+            const headerObjects = createHeaderGroup(canvas);
+            if (headerObjects && headerObjects.length > 0) {
+                headerObjects.forEach(obj => {
+                    canvas.add(obj);
+                    if (obj.isPageBorder) {
+                        canvas.sendToBack(obj);
+                    }
+                });
+            }
+
             // Add default child-friendly decorations if enabled and none exist
             const useDefaultDecorations = document.getElementById('useDefaultDecorations');
             if (useDefaultDecorations && useDefaultDecorations.checked) {
@@ -2111,22 +2219,19 @@ function updateTranslations() {
                 if (!canvas.getObjects().find(o => o.isBackground)) {
                     await addDefaultBackground(canvas);
                 }
-                
-                if (!canvas.getObjects().find(o => o.isBorder)) {
+
+                // Don't add default border if we have header borders
+                if (!canvas.getObjects().find(o => o.isBorder || o.isPageBorder)) {
                     await addDefaultBorder(canvas);
                 }
-                
+
                 // Enforce z-order after adding decorations
                 enforceZOrder(canvas);
             }
 
-            // Use actual canvas dimensions from currentCanvasConfig
-            const canvasWidth = currentCanvasConfig.width;
-            const canvasHeight = currentCanvasConfig.height;
-            const isLandscape = canvasWidth > canvasHeight;
-            
-            // Professional margins
-            const topMargin = includeNameDate.checked ? 80 : 60;
+            // Professional margins - account for header height
+            const headerHeight = isLandscape ? 145 : 220;
+            const topMargin = headerHeight + (includeNameDate.checked ? 20 : 10);
             const bottomMargin = 120; // Space for legend
             const sideMargin = isLandscape ? 60 : 50;
             
@@ -2140,123 +2245,119 @@ function updateTranslations() {
             
             const placedObjects = [];
             
-            // Natural educational layout system
+            // Natural scattered layout with better spacing
             const totalItems = allDistractors.length + finalHidden.length;
             const minDimension = Math.min(contentRect.width, contentRect.height);
-            
-            // Size calculation for good coverage
-            const avgItemsPerRow = isLandscape ? 6 : 5;
+
+            // Reduced density - fewer items per area
+            const avgItemsPerRow = isLandscape ? 5 : 4;
             const avgItemsPerCol = isLandscape ? 4 : 5;
             const baseSize = minDimension / Math.max(avgItemsPerRow, avgItemsPerCol);
-            
-            // Create three layers for natural depth
+
+            // Create layers for natural depth
             const layers = {
                 background: [],  // Large distractors
                 middle: [],      // Hidden objects and medium items
                 foreground: []   // Small distractors for fill
             };
-            
-            // Separate items by type and assign sizes with 4:1 max ratio constraint
-            // Define size bounds to ensure max 4:1 ratio
-            const minSize = baseSize * 0.6;  // Minimum size
-            const maxSize = minSize * 4;     // Maximum size (4 times minimum)
-            
+
+            // More controlled size variation - prevent huge objects
+            const minSize = baseSize * 0.7;  // Minimum size
+            const maxSize = minSize * 2.5;   // Maximum size (2.5x ratio instead of 4x)
+
             allDistractors.forEach((item, index) => {
                 if (index < allDistractors.length * 0.3) {
-                    // 30% large background items (2.5x to 4x of minimum)
-                    const size = minSize * (2.5 + Math.random() * 1.5);
+                    // 30% large background items (1.8x to 2.5x of minimum)
+                    const size = minSize * (1.8 + Math.random() * 0.7);
                     layers.background.push({ ...item, targetSize: Math.min(size, maxSize), isHidden: false });
                 } else if (index < allDistractors.length * 0.7) {
-                    // 40% medium items (1.5x to 2.5x of minimum)
-                    const size = minSize * (1.5 + Math.random() * 1);
+                    // 40% medium items (1.2x to 1.8x of minimum)
+                    const size = minSize * (1.2 + Math.random() * 0.6);
                     layers.middle.push({ ...item, targetSize: size, isHidden: false });
                 } else {
-                    // 30% small fill items (1x to 1.5x of minimum)
-                    const size = minSize * (1 + Math.random() * 0.5);
-                    layers.foreground.push({ ...item, targetSize: Math.max(size, minSize), isHidden: false });
+                    // 30% small fill items (0.9x to 1.3x of minimum)
+                    const size = minSize * (0.9 + Math.random() * 0.4);
+                    layers.foreground.push({ ...item, targetSize: Math.max(size, minSize * 0.9), isHidden: false });
                 }
             });
-            
-            // Hidden objects go in middle layer with medium sizes (1.8x to 2.8x of minimum)
+
+            // Hidden objects in middle layer with medium sizes
             finalHidden.forEach(item => {
-                const size = minSize * (1.8 + Math.random() * 1);
+                const size = minSize * (1.3 + Math.random() * 0.5);
                 layers.middle.push({ ...item, targetSize: size, isHidden: true });
             });
-            
+
             // Shuffle each layer
             Object.keys(layers).forEach(key => {
                 layers[key].sort(() => Math.random() - 0.5);
             });
-            
+
             let generatedItemCounter = 0;
             
-            // Professional scattered placement with minimal overlap
+            // Natural scattered placement with improved spacing
             const placeItem = (itemInfo, layerIndex) => {
                 return new Promise(resolve => {
                     fabric.Image.fromURL(itemInfo.path, (img) => {
                         if (!img) { resolve(); return; }
-                        
+
                         const uniqueId = `gen-item-${generatedItemCounter++}`;
                         img.scaleToWidth(itemInfo.targetSize);
-                        
+
                         const imgWidth = img.getScaledWidth();
                         const imgHeight = img.getScaledHeight();
-                        
-                        // Find position with minimal overlap
+
+                        // Find best position with minimal overlap
                         let bestPosition = null;
-                        let bestScore = -Infinity;
-                        
-                        // Try many positions to find the best placement
-                        for (let attempt = 0; attempt < 30; attempt++) {
+                        let bestOverlap = Infinity;
+
+                        // Try 80 positions to find one with least overlap
+                        for (let attempt = 0; attempt < 80; attempt++) {
                             const x = contentRect.x + Math.random() * Math.max(1, contentRect.width - imgWidth);
                             const y = contentRect.y + Math.random() * Math.max(1, contentRect.height - imgHeight);
-                            
-                            // Calculate spacing score (higher is better)
-                            let spacingScore = 1000; // Start with high score
-                            let hasOverlap = false;
-                            
+
+                            const centerX = x + imgWidth / 2;
+                            const centerY = y + imgHeight / 2;
+
+                            // Calculate total overlap penalty for this position
+                            let overlapPenalty = 0;
+
                             for (const existing of placedObjects) {
-                                const dx = Math.abs((x + imgWidth/2) - existing.left);
-                                const dy = Math.abs((y + imgHeight/2) - existing.top);
-                                
-                                // Check for direct overlap
-                                const reqSpacing = (imgWidth + existing.getScaledWidth()) / 2 + 10; // Add 10px minimum gap
-                                const actualDist = Math.sqrt(dx * dx + dy * dy);
-                                
-                                if (actualDist < reqSpacing * 0.8) {
-                                    // Too much overlap - penalize heavily
-                                    spacingScore -= 100;
-                                    hasOverlap = true;
-                                } else if (actualDist < reqSpacing) {
-                                    // Some overlap - penalize moderately
-                                    spacingScore -= 50;
-                                } else {
-                                    // Good spacing - reward based on distance
-                                    spacingScore += Math.min(actualDist / reqSpacing, 3) * 10;
+                                const dx = centerX - existing.left;
+                                const dy = centerY - existing.top;
+                                const distance = Math.sqrt(dx * dx + dy * dy);
+
+                                // Minimum desired distance between centers (with extra spacing)
+                                const minDistance = (imgWidth + existing.getScaledWidth()) / 2 + 25; // 25px buffer
+
+                                if (distance < minDistance) {
+                                    // Objects are overlapping - add penalty based on how much
+                                    const overlapAmount = minDistance - distance;
+                                    overlapPenalty += overlapAmount;
                                 }
                             }
-                            
-                            // Prefer positions without heavy overlap
-                            if (!hasOverlap || placedObjects.length < 3) {
-                                if (spacingScore > bestScore) {
-                                    bestScore = spacingScore;
-                                    bestPosition = { x, y };
-                                }
+
+                            // Track best position (least overlap)
+                            if (overlapPenalty < bestOverlap) {
+                                bestOverlap = overlapPenalty;
+                                bestPosition = { x: centerX, y: centerY };
+
+                                // If we found a position with no overlap, use it immediately
+                                if (overlapPenalty === 0) break;
                             }
                         }
-                        
-                        // Use best position found
-                        const position = bestPosition || { 
-                            x: contentRect.x + Math.random() * Math.max(1, contentRect.width - imgWidth),
-                            y: contentRect.y + Math.random() * Math.max(1, contentRect.height - imgHeight)
+
+                        // Use best position found (or random if none found)
+                        const finalPosition = bestPosition || {
+                            x: contentRect.x + Math.random() * Math.max(1, contentRect.width - imgWidth) + imgWidth / 2,
+                            y: contentRect.y + Math.random() * Math.max(1, contentRect.height - imgHeight) + imgHeight / 2
                         };
-                        
-                        // Subtle rotation for professional look
-                        const rotation = (Math.random() - 0.5) * 15; // Reduced from 25 to 15 degrees
-                        
+
+                        // Natural rotation for visual variety
+                        const rotation = (Math.random() - 0.5) * 20; // -10 to +10 degrees
+
                         img.set({
-                            left: position.x + imgWidth / 2,
-                            top: position.y + imgHeight / 2,
+                            left: finalPosition.x,
+                            top: finalPosition.y,
                             angle: rotation,
                             originX: 'center',
                             originY: 'center',
@@ -2268,9 +2369,9 @@ function updateTranslations() {
                             isHidden: itemInfo.isHidden,
                             uniqueId: uniqueId
                         });
-                        
+
                         if(oldTransforms[uniqueId]) img.set(oldTransforms[uniqueId]);
-                        
+
                         // Layer ordering - background items go to back
                         canvas.add(img);
                         if (layerIndex === 0) {
@@ -2278,7 +2379,7 @@ function updateTranslations() {
                         } else if (layerIndex === 2) {
                             canvas.bringForward(img);
                         }
-                        
+
                         placedObjects.push(img);
                         resolve();
                     }, { crossOrigin: 'anonymous' });
@@ -2394,7 +2495,215 @@ function updateTranslations() {
                 }, { crossOrigin: 'anonymous' });
             });
         }
-        
+
+        // --- HEADER & BORDER FUNCTIONS ---
+        function createHeaderGroup(canvas) {
+            const defaultHeaders = {
+                en: { title: 'Find the Hidden Objects', description: 'Look carefully and find all the hidden pictures!' },
+                de: { title: 'Finde die versteckten Objekte', description: 'Schau genau hin und finde alle versteckten Bilder!' },
+                fr: { title: 'Trouve les Objets Cachés', description: 'Regarde bien et trouve toutes les images cachées!' },
+                es: { title: 'Encuentra los Objetos Ocultos', description: '¡Mira con atención y encuentra todas las imágenes!' },
+                it: { title: 'Trova gli Oggetti Nascosti', description: 'Guarda bene e trova tutte le immagini nascoste!' },
+                pt: { title: 'Encontra os Objetos Escondidos', description: 'Olha bem e encontra todas as imagens escondidas!' },
+                nl: { title: 'Vind de Verborgen Voorwerpen', description: 'Kijk goed en vind alle verborgen plaatjes!' },
+                sv: { title: 'Hitta de Gömda Objekten', description: 'Titta noga och hitta alla gömda bilder!' },
+                da: { title: 'Find de Skjulte Objekter', description: 'Kig nøje og find alle de skjulte billeder!' },
+                no: { title: 'Finn de Skjulte Objektene', description: 'Se nøye og finn alle de skjulte bildene!' },
+                fi: { title: 'Löydä Piilotetut Esineet', description: 'Katso tarkkaan ja löydä kaikki piilotetut kuvat!' }
+            };
+
+            const locale = currentLocale || 'en';
+            const defaults = defaultHeaders[locale] || defaultHeaders.en;
+            const title = defaults.title;
+            const description = defaults.description;
+
+            // Get current canvas dimensions for responsive design
+            const pageWidth = currentCanvasConfig.width;
+            const pageHeight = currentCanvasConfig.height;
+            const isLandscape = pageWidth > pageHeight;
+
+            const objects = [];
+
+            // Responsive borders - Bright teal (discovery, exploration, search)
+            const margin = 34;
+            const strokeWidth = 8;
+            const borderWidth = pageWidth - (margin * 2);
+            const borderHeight = pageHeight - (margin * 2);
+
+            const outerBorder = new fabric.Rect({
+                left: margin,
+                top: margin,
+                width: borderWidth,
+                height: borderHeight,
+                fill: 'transparent',
+                stroke: '#14B8A6',
+                strokeWidth: strokeWidth,
+                rx: 12,
+                ry: 12,
+                selectable: true,
+                hasControls: true,
+                isPageBorder: true
+            });
+            objects.push(outerBorder);
+
+            // LANDSCAPE MODE: Compact, centered header (145px total height)
+            if (isLandscape) {
+                const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+                const headerHeight = 70;
+                const centerX = pageWidth / 2;
+                const headerTop = 60;
+
+                // Teal background - compact
+                const bgRect = new fabric.Rect({
+                    left: centerX - maxHeaderWidth / 2,
+                    top: headerTop,
+                    width: maxHeaderWidth,
+                    height: headerHeight,
+                    fill: '#14B8A6',
+                    rx: 35,
+                    ry: 35,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(bgRect);
+
+                // White pill for title - compact
+                const whitePill = new fabric.Rect({
+                    left: centerX - (maxHeaderWidth - 40) / 2,
+                    top: headerTop + 10,
+                    width: maxHeaderWidth - 40,
+                    height: 50,
+                    fill: '#FFFFFF',
+                    rx: 25,
+                    ry: 25,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(whitePill);
+
+                // Title - Compact size for landscape
+                let titleFontSize = 32;
+                if (title.length > 12) titleFontSize = 28;
+                if (title.length > 15) titleFontSize = 24;
+                if (title.length > 18) titleFontSize = 20;
+                if (title.length > 22) titleFontSize = 18;
+
+                const titleText = new fabric.IText(title, {
+                    left: centerX,
+                    top: headerTop + 35,
+                    fontSize: titleFontSize,
+                    fontFamily: 'Fredoka, sans-serif',
+                    fontWeight: '700',
+                    fill: '#0F766E',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'center',
+                    selectable: true,
+                    editable: true,
+                    isHeaderElement: true
+                });
+                objects.push(titleText);
+
+                // Description - compact
+                const descText = new fabric.Textbox(description, {
+                    left: centerX,
+                    top: headerTop + headerHeight + 5,
+                    width: maxHeaderWidth - 20,
+                    fontSize: 14,
+                    fontFamily: 'Quicksand, sans-serif',
+                    fontWeight: '500',
+                    fill: '#4A4A4A',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'top',
+                    selectable: true,
+                    editable: true,
+                    hasControls: true,
+                    isHeaderDesc: true
+                });
+                objects.push(descText);
+
+            } else {
+                // PORTRAIT MODE: Full-width professional header (220px total height)
+                const headerMargin = 70;
+                const headerWidth = pageWidth - (headerMargin * 2);
+                const centerX = pageWidth / 2;
+
+                // Header background - Bright teal (discovery, search)
+                const bgRect = new fabric.Rect({
+                    left: headerMargin,
+                    top: 70,
+                    width: headerWidth,
+                    height: 100,
+                    fill: '#14B8A6',
+                    rx: 15,
+                    ry: 15,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(bgRect);
+
+                // White pill for title
+                const whitePill = new fabric.Rect({
+                    left: headerMargin + 20,
+                    top: 85,
+                    width: headerWidth - 40,
+                    height: 70,
+                    fill: '#FFFFFF',
+                    rx: 35,
+                    ry: 35,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(whitePill);
+
+                // Title - Dynamic size based on length
+                let titleFontSize = 48;
+                if (title.length > 12) titleFontSize = 40;
+                if (title.length > 15) titleFontSize = 36;
+                if (title.length > 18) titleFontSize = 32;
+                if (title.length > 22) titleFontSize = 28;
+
+                // Title text - Deep teal (focus, attention)
+                const titleText = new fabric.IText(title, {
+                    left: centerX,
+                    top: 120,
+                    fontSize: titleFontSize,
+                    fontFamily: 'Fredoka, sans-serif',
+                    fontWeight: '700',
+                    fill: '#0F766E',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'center',
+                    selectable: true,
+                    editable: true,
+                    isHeaderElement: true
+                });
+                objects.push(titleText);
+
+                // Description text - Dark gray (readable)
+                const descText = new fabric.Textbox(description, {
+                    left: centerX,
+                    top: 190,
+                    width: Math.min(450, pageWidth - 150),
+                    fontSize: 20,
+                    fontFamily: 'Quicksand, sans-serif',
+                    fontWeight: '500',
+                    fill: '#4A4A4A',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'top',
+                    selectable: true,
+                    editable: true,
+                    hasControls: true,
+                    isHeaderDesc: true
+                });
+                objects.push(descText);
+            }
+
+            return objects;
+        }
+
         async function createLegendGroup(isAnswerKey, layoutData) {
             if (!layoutData || !layoutData.uniqueHidden || layoutData.uniqueHidden.length === 0) return null;
             

@@ -614,20 +614,251 @@
         let placedImages = [];
         let currentBorder = null;
         let currentBackground = null;
+        let currentCanvasConfig = { width: 816, height: 1056 }; // Letter Portrait (8.5x11 at 96 DPI)
 
         // Initialize canvases
         function initializeCanvases() {
             worksheetCanvas = new fabric.Canvas('worksheetCanvas', {
-                width: 816,
-                height: 1056,
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height,
                 backgroundColor: 'white'
             });
 
             answerCanvas = new fabric.Canvas('answerCanvas', {
-                width: 816,
-                height: 1056,
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height,
                 backgroundColor: 'white'
             });
+        }
+
+        // Create responsive header with borders
+        function createHeaderGroup(canvas) {
+            const defaultHeaders = {
+                en: { title: 'Find and Count', description: 'Count the objects and write the number!' },
+                de: { title: 'Finden und Zählen', description: 'Zähle die Objekte und schreibe die Zahl!' },
+                fr: { title: 'Trouve et Compte', description: 'Compte les objets et écris le nombre!' },
+                es: { title: 'Buscar y Contar', description: '¡Cuenta los objetos y escribe el número!' },
+                it: { title: 'Trova e Conta', description: 'Conta gli oggetti e scrivi il numero!' },
+                pt: { title: 'Encontrar e Contar', description: 'Conta os objetos e escreve o número!' },
+                nl: { title: 'Zoek en Tel', description: 'Tel de objecten en schrijf het getal!' },
+                sv: { title: 'Hitta och Räkna', description: 'Räkna objekten och skriv numret!' },
+                da: { title: 'Find og Tæl', description: 'Tæl objekterne og skriv tallet!' },
+                no: { title: 'Finn og Tell', description: 'Tell objektene og skriv tallet!' },
+                fi: { title: 'Etsi ja Laske', description: 'Laske esineet ja kirjoita numero!' }
+            };
+
+            const locale = currentLocale || 'en';
+            const defaults = defaultHeaders[locale] || defaultHeaders.en;
+            const title = defaults.title;
+            const description = defaults.description;
+
+            // Get current canvas dimensions for responsive design
+            const pageWidth = currentCanvasConfig.width;
+            const pageHeight = currentCanvasConfig.height;
+            const isLandscape = pageWidth > pageHeight;
+
+            const objects = [];
+
+            // Outer border - Bright blue for counting/focus (responsive)
+            const margin = 34;
+            const strokeWidth = 8;
+            const borderWidth = pageWidth - (margin * 2);
+            const borderHeight = pageHeight - (margin * 2);
+
+            const outerBorder = new fabric.Rect({
+                left: margin,
+                top: margin,
+                width: borderWidth,
+                height: borderHeight,
+                fill: 'transparent',
+                stroke: '#2196F3',
+                strokeWidth: strokeWidth,
+                rx: 12,
+                ry: 12,
+                selectable: true,
+                hasControls: true,
+                isPageBorder: true
+            });
+            objects.push(outerBorder);
+
+            // Inner border - Sunny yellow accent (responsive)
+            const innerMargin = margin + 12.5;
+            const innerBorder = new fabric.Rect({
+                left: innerMargin,
+                top: innerMargin,
+                width: pageWidth - (innerMargin * 2),
+                height: pageHeight - (innerMargin * 2),
+                fill: 'transparent',
+                stroke: '#FFC107',
+                strokeWidth: 3,
+                rx: 8,
+                ry: 8,
+                selectable: true,
+                hasControls: true,
+                isPageBorder: true
+            });
+            objects.push(innerBorder);
+
+            // RESPONSIVE HEADER - Landscape vs Portrait
+            if (isLandscape) {
+                // LANDSCAPE: Compact centered header
+                const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+                const headerLeft = (pageWidth - maxHeaderWidth) / 2;
+                const headerTop = 60;
+                const headerHeight = 90;
+
+                // Header background - Playful orange
+                const bgRect = new fabric.Rect({
+                    left: headerLeft,
+                    top: headerTop,
+                    width: maxHeaderWidth,
+                    height: headerHeight,
+                    fill: '#FF9800',
+                    rx: 15,
+                    ry: 15,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(bgRect);
+
+                // White pill for title
+                const pillMargin = 10;
+                const whitePill = new fabric.Rect({
+                    left: headerLeft + pillMargin,
+                    top: headerTop + pillMargin,
+                    width: maxHeaderWidth - (pillMargin * 2),
+                    height: headerHeight - (pillMargin * 2),
+                    fill: '#FFFFFF',
+                    rx: 35,
+                    ry: 35,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(whitePill);
+
+                // Title - Compact size for landscape
+                let titleFontSize = 32;
+                if (title.length > 15) titleFontSize = 28;
+                if (title.length > 20) titleFontSize = 24;
+
+                const titleText = new fabric.IText(title, {
+                    left: pageWidth / 2,
+                    top: headerTop + (headerHeight / 2),
+                    fontSize: titleFontSize,
+                    fontFamily: 'Fredoka, sans-serif',
+                    fontWeight: '700',
+                    fill: '#1565C0',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'center',
+                    selectable: true,
+                    editable: true,
+                    isHeaderElement: true
+                });
+                objects.push(titleText);
+
+                // Description - Compact for landscape
+                const descText = new fabric.Textbox(description, {
+                    left: pageWidth / 2,
+                    top: headerTop + headerHeight + 5,
+                    width: maxHeaderWidth - 20,
+                    fontSize: 14,
+                    fontFamily: 'Quicksand, sans-serif',
+                    fontWeight: '500',
+                    fill: '#555555',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'top',
+                    selectable: true,
+                    editable: true,
+                    hasControls: true,
+                    isHeaderDesc: true
+                });
+                objects.push(descText);
+
+            } else {
+                // PORTRAIT: Full-width professional header
+                const headerMargin = 70;
+                const headerWidth = pageWidth - (headerMargin * 2);
+                const headerTop = 70;
+
+                // Header background - Playful orange
+                const bgRect = new fabric.Rect({
+                    left: headerMargin,
+                    top: headerTop,
+                    width: headerWidth,
+                    height: 100,
+                    fill: '#FF9800',
+                    rx: 15,
+                    ry: 15,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(bgRect);
+
+                // White pill for title
+                const pillMargin = 20;
+                const whitePill = new fabric.Rect({
+                    left: headerMargin + pillMargin,
+                    top: headerTop + 15,
+                    width: headerWidth - (pillMargin * 2),
+                    height: 70,
+                    fill: '#FFFFFF',
+                    rx: 35,
+                    ry: 35,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(whitePill);
+
+                // Title - Dynamic size based on length
+                let titleFontSize = 48;
+                if (title.length > 12) titleFontSize = 40;
+                if (title.length > 15) titleFontSize = 36;
+                if (title.length > 18) titleFontSize = 32;
+                if (title.length > 22) titleFontSize = 28;
+
+                const titleText = new fabric.IText(title, {
+                    left: pageWidth / 2,
+                    top: headerTop + 50,
+                    fontSize: titleFontSize,
+                    fontFamily: 'Fredoka, sans-serif',
+                    fontWeight: '700',
+                    fill: '#1565C0',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'center',
+                    selectable: true,
+                    editable: true,
+                    isHeaderElement: true
+                });
+                objects.push(titleText);
+
+                // Description text
+                const descText = new fabric.Textbox(description, {
+                    left: pageWidth / 2,
+                    top: headerTop + 120,
+                    width: Math.min(450, pageWidth - 150),
+                    fontSize: 20,
+                    fontFamily: 'Quicksand, sans-serif',
+                    fontWeight: '500',
+                    fill: '#555555',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'top',
+                    selectable: true,
+                    editable: true,
+                    hasControls: true,
+                    isHeaderDesc: true
+                });
+                objects.push(descText);
+            }
+
+            return objects;
+        }
+
+        function createPageBorder(canvas) {
+            return null;
         }
 
         // Load themes into dropdown - SIMPLIFIED WITHOUT WorksheetBase
@@ -868,6 +1099,31 @@
             if (currentBackground) addBackgroundToCanvas(currentBackground);
             if (currentBorder) addBorderToCanvas(currentBorder);
 
+            // Add professional header with borders
+            const headerObjects = createHeaderGroup(worksheetCanvas);
+            if (headerObjects) {
+                headerObjects.forEach(obj => {
+                    worksheetCanvas.add(obj);
+                    // Send borders to back for proper z-ordering
+                    if (obj.isPageBorder) {
+                        worksheetCanvas.sendToBack(obj);
+                    }
+                    // Clone for answer canvas
+                    obj.clone(cloned => {
+                        answerCanvas.add(cloned);
+                        if (cloned.isPageBorder) {
+                            answerCanvas.sendToBack(cloned);
+                        }
+                    });
+                });
+            }
+
+            // Calculate header height for layout
+            const pageWidth = currentCanvasConfig.width;
+            const pageHeight = currentCanvasConfig.height;
+            const isLandscape = pageWidth > pageHeight;
+            const headerHeight = isLandscape ? 150 : 220;
+
             // Select random target images
             targetImages = [];
             const tempImages = [...selectedImages];
@@ -876,37 +1132,8 @@
                 targetImages.push(tempImages.splice(randomIndex, 1)[0]);
             }
 
-            // Draw title
-            const titleText = new fabric.Text(title, {
-                left: worksheetCanvas.width / 2,
-                top: 40,
-                fontSize: titleFontSize,
-                fontFamily: fontFamily,
-                fontWeight: 'bold',
-                fill: '#333',
-                originX: 'center',
-                originY: 'center',
-                selectable: false
-            });
-            worksheetCanvas.add(titleText);
-            answerCanvas.add(titleText.clone());
-
-            // Draw instruction
-            const instructionTextObj = new fabric.Text(instruction, {
-                left: worksheetCanvas.width / 2,
-                top: 80,
-                fontSize: 16,
-                fontFamily: fontFamily,
-                fill: '#555',
-                originX: 'center',
-                originY: 'center',
-                selectable: false
-            });
-            worksheetCanvas.add(instructionTextObj);
-            answerCanvas.add(instructionTextObj.clone());
-
-            // Draw target images to find
-            const targetY = 140;
+            // Draw target images to find - positioned below header
+            const targetY = headerHeight + 20;
             const targetSpacing = 100;
             const startX = (worksheetCanvas.width - (targetImages.length * targetSpacing)) / 2;
 
@@ -958,9 +1185,10 @@
                 });
             });
 
-            // Create grid for find and count area
-            const gridStartY = 250;
-            const gridHeight = 700;
+            // Create grid for find and count area - adjusted for header
+            const gridStartY = headerHeight + 100; // Header + target images + spacing
+            const availableHeight = pageHeight - gridStartY - 50; // 50px bottom margin
+            const gridHeight = Math.min(700, availableHeight);
             const cellSize = gridHeight / gridSize;
             const gridStartX = (worksheetCanvas.width - (gridSize * cellSize)) / 2;
 

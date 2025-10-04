@@ -908,7 +908,7 @@
             <button class="accordion-button" data-translate="exerciseConfiguration">Exercise Configuration</button>
             <div class="accordion-content">
                 <label for="problemCount" data-translate="numberOfExercises">Number of Exercises (1–10):</label>
-                <input type="number" id="problemCount" value="5" min="1" max="10" />
+                <input type="number" id="problemCount" value="6" min="1" max="10" />
                 <label for="minOperand" data-translate="minItemsPerGroup">Min items per group (1-10):</label>
                 <input type="number" id="minOperand" value="1" min="1" max="10">
                 <label for="maxOperand" data-translate="maxItemsPerGroup">Max items per group (1-10):</label>
@@ -1178,7 +1178,7 @@
       let allImages = [];
       let uploadedImages = [];
       let selectedImages = [];
-      const DEFAULT_EXERCISES = 5;
+      const DEFAULT_EXERCISES = 6;
       const DEFAULT_MIN_OPERAND = 1;
       const DEFAULT_MAX_OPERAND = 5;
       const DEFAULT_INCLUDE_NAME_DATE = false;
@@ -1234,6 +1234,7 @@
       let worksheetCanvas;
       let answerKeyCanvas;
       let currentCanvasConfig = { width: 612, height: 792 };
+      let isRegenerating = false; // Guard flag to prevent recursive regeneration
 
       const pageSizeSelect = document.getElementById('pageSizeSelect');
       const customPageSizeInputsDiv = document.getElementById('customPageSizeInputs');
@@ -1483,18 +1484,18 @@
           const mainContentAreaStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
           const availableWidth = parseFloat(mainContentAreaStyle.width) - parseFloat(mainContentAreaStyle.paddingLeft) - parseFloat(mainContentAreaStyle.paddingRight) - 10;
           const availableHeight = parseFloat(mainContentAreaStyle.height) - parseFloat(mainContentAreaStyle.paddingTop) - parseFloat(mainContentAreaStyle.paddingBottom) - 10;
-          
+
           // Apply 25% scaling for better visibility
           // Extra 25% for landscape orientations
           const isLandscape = width > height;
           const baseScale = 1.25; // Base 25% larger for all
           const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
           const displayScale = baseScale * landscapeBonus;
-          
+
           // Calculate display dimensions with scaling
           const scaledWidth = width * displayScale;
           const scaledHeight = height * displayScale;
-          
+
           // Ensure it fits in available space
           const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
           const displayWidth = scaledWidth * scaleRatio;
@@ -1502,23 +1503,27 @@
 
           [worksheetCanvas, answerKeyCanvas].forEach(c => {
               if (c) {
+                  // CRITICAL: Set actual canvas dimensions first (coordinate space)
+                  c.setWidth(width);
+                  c.setHeight(height);
+
                   // Apply zoom for display scaling
                   const finalZoom = (displayWidth / width);
                   c.setZoom(finalZoom);
-                  
-                  // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+
+                  // Set viewport dimensions AFTER zoom to ensure viewport matches zoomed size
                   c.setDimensions({
                       width: displayWidth,
                       height: displayHeight
                   });
-                  
-                  c.calcOffset(); 
+
+                  c.calcOffset();
                   c.renderAll();
               }
           });
           [worksheetCanvasWrapper, answerKeyCanvasWrapper].forEach(w => {
               if(w) {
-                  w.style.width = displayWidth + 'px'; 
+                  w.style.width = displayWidth + 'px';
                   w.style.height = displayHeight + 'px';
               }
           });
@@ -1529,7 +1534,7 @@
           }
       }
 
-      pageSizeSelect.addEventListener('change', function() {
+      pageSizeSelect.addEventListener('change', async function() {
           const selectedValue = this.value;
           if (selectedValue === 'custom') {
               customPageSizeInputsDiv.style.display = 'block';
@@ -1537,10 +1542,26 @@
               customPageSizeInputsDiv.style.display = 'none';
               const [w, h] = selectedValue.split('x').map(Number);
               updateCanvasDisplayDimensions(w, h);
+
+              // Auto-regenerate worksheet if one exists (with guard to prevent recursion)
+              if (worksheetCanvas && worksheetCanvas.problemsData && !isRegenerating) {
+                  isRegenerating = true;
+                  try {
+                      await generateWorksheet();
+
+                      // Also regenerate answer key if it exists
+                      const hasAnswerKey = answerKeyCanvas && answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem);
+                      if (hasAnswerKey) {
+                          await generateAnswerKeyFromCanvas();
+                      }
+                  } finally {
+                      isRegenerating = false;
+                  }
+              }
           }
       });
 
-      setPageSizeBtn.addEventListener('click', () => {
+      setPageSizeBtn.addEventListener('click', async () => {
           let newWidth, newHeight;
           if (pageSizeSelect.value === 'custom' || customPageSizeInputsDiv.style.display === 'block') {
               newWidth = parseInt(pageWidthInput.value, 10) || currentCanvasConfig.width;
@@ -1549,6 +1570,22 @@
               [newWidth, newHeight] = pageSizeSelect.value.split('x').map(Number);
           }
           updateCanvasDisplayDimensions(newWidth, newHeight);
+
+          // Auto-regenerate worksheet if one exists (with guard to prevent recursion)
+          if (worksheetCanvas && worksheetCanvas.problemsData && !isRegenerating) {
+              isRegenerating = true;
+              try {
+                  await generateWorksheet();
+
+                  // Also regenerate answer key if it exists
+                  const hasAnswerKey = answerKeyCanvas && answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem);
+                  if (hasAnswerKey) {
+                      await generateAnswerKeyFromCanvas();
+                  }
+              } finally {
+                  isRegenerating = false;
+              }
+          }
       });
 
       pageColorInput.addEventListener('input', () => {
@@ -2089,13 +2126,28 @@
         if (!canvas) return;
         const background = canvas.getObjects().find(o => o.isBackground);
         if (background) canvas.sendToBack(background);
-    
+
         const border = canvas.getObjects().find(o => o.isBorder);
         if (border) {
             canvas.sendToBack(border);
             if (background) canvas.bringForward(border);
         }
+
+        // Send page border (orange border) to back - it should be behind everything
+        const pageBorder = canvas.getObjects().find(o => o.isPageBorder);
+        if (pageBorder) {
+            canvas.sendToBack(pageBorder);
+            if (background) canvas.bringForward(pageBorder);
+            if (border) canvas.bringForward(pageBorder);
+        }
+
+        // Ensure header elements are in proper order (behind puzzle content but above borders)
+        const headerElements = canvas.getObjects().filter(o => o.isHeaderElement || o.isHeaderDesc);
+        headerElements.forEach(elem => {
+            if (pageBorder) canvas.bringForward(elem);
+        });
     }
+
 
     async function generateInitialWorksheet() {
         try {
@@ -2113,7 +2165,7 @@
 
             // Set default settings for initial worksheet
             themeSelect.value = 'animals';
-            problemCountInput.value = 7;
+            problemCountInput.value = 6;
             minOperandInput.value = 1;
             maxOperandInput.value = 5;
             showPlusSignCheckbox.checked = true;
@@ -2146,12 +2198,6 @@
 
     // Create header and border with unique Addition app colors
     function createHeaderGroup(canvas) {
-        const headerCheckbox = document.getElementById('showHeaderCheckbox');
-        if (!headerCheckbox || !headerCheckbox.checked) return null;
-
-        const headerTitle = document.getElementById('headerTitleInput');
-        const headerDesc = document.getElementById('headerDescriptionInput');
-
         const defaultHeaders = {
             en: { title: 'Addition Fun', description: 'Add the numbers and write your answers!' },
             de: { title: 'Additionsspaß', description: 'Addiere die Zahlen und schreibe deine Antworten!' },
@@ -2168,20 +2214,30 @@
 
         const locale = currentLocale || 'en';
         const defaults = defaultHeaders[locale] || defaultHeaders.en;
-        const title = (headerTitle && headerTitle.value) || defaults.title;
-        const description = (headerDesc && headerDesc.value) || defaults.description;
+        const title = defaults.title;
+        const description = defaults.description;
+
+        // Get current canvas dimensions for responsive design
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const isLandscape = pageWidth > pageHeight;
 
         const objects = [];
 
-        // Outer border - Bright Orange (energetic, mathematical)
+        // Outer border - responsive to page size (energetic orange)
+        const margin = 34;
+        const strokeWidth = 8;
+        const borderWidth = pageWidth - (margin * 2);
+        const borderHeight = pageHeight - (margin * 2);
+
         const outerBorder = new fabric.Rect({
-            left: 34,
-            top: 34,
-            width: 544,
-            height: 724,
+            left: margin,
+            top: margin,
+            width: borderWidth,
+            height: borderHeight,
             fill: 'transparent',
             stroke: '#FF8C42',
-            strokeWidth: 8,
+            strokeWidth: strokeWidth,
             rx: 12,
             ry: 12,
             selectable: true,
@@ -2190,72 +2246,166 @@
         });
         objects.push(outerBorder);
 
-        // Sunny Yellow header background (cheerful, optimistic)
-        const bgRect = new fabric.Rect({
-            left: 70,
-            top: 70,
-            width: 472,
-            height: 100,
-            fill: '#FFD93D',
-            rx: 15,
-            ry: 15,
-            selectable: true
-        });
-        objects.push(bgRect);
+        // LANDSCAPE MODE: Compact, professional header centered at top
+        if (isLandscape) {
+            // Compact header dimensions for landscape (60% of width maximum)
+            const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+            const headerHeight = 70;
+            const pillHeight = 50;
 
-        // White pill for title
-        const whitePill = new fabric.Rect({
-            left: 90,
-            top: 85,
-            width: 432,
-            height: 70,
-            fill: '#FFFFFF',
-            rx: 35,
-            ry: 35,
-            selectable: true
-        });
-        objects.push(whitePill);
+            const centerX = pageWidth / 2;
+            const headerTop = 60;
 
-        // Title - Dynamic sizing with warm red-orange color
-        let titleFontSize = 48;
-        if (title.length > 12) titleFontSize = 40;
-        if (title.length > 15) titleFontSize = 36;
-        if (title.length > 18) titleFontSize = 32;
-        if (title.length > 22) titleFontSize = 28;
+            // Sunny yellow header background - compact size
+            const bgRect = new fabric.Rect({
+                left: centerX - maxHeaderWidth / 2,
+                top: headerTop,
+                width: maxHeaderWidth,
+                height: headerHeight,
+                fill: '#FFD93D',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
 
-        const titleText = new fabric.IText(title, {
-            left: 306,
-            top: 120,
-            fontSize: titleFontSize,
-            fontFamily: 'Fredoka, sans-serif',
-            fontWeight: '700',
-            fill: '#D9534F',
-            textAlign: 'center',
-            originX: 'center',
-            originY: 'center',
-            selectable: true,
-            editable: true
-        });
-        objects.push(titleText);
+            // White pill for title - compact
+            const whitePill = new fabric.Rect({
+                left: centerX - (maxHeaderWidth - 40) / 2,
+                top: headerTop + 10,
+                width: maxHeaderWidth - 40,
+                height: pillHeight,
+                fill: '#FFFFFF',
+                rx: 25,
+                ry: 25,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
 
-        // Description - warm chocolate brown
-        const descText = new fabric.Textbox(description, {
-            left: 306,
-            top: 190,
-            width: 450,
-            fontSize: 20,
-            fontFamily: 'Quicksand, sans-serif',
-            fontWeight: '500',
-            fill: '#8B4513',
-            textAlign: 'center',
-            originX: 'center',
-            originY: 'top',
-            selectable: true,
-            editable: true,
-            hasControls: true,
-            isHeaderDesc: true
-        });
-        objects.push(descText);
+            // Title - Compact size for landscape
+            let titleFontSize = 36;
+            if (title.length > 12) titleFontSize = 32;
+            if (title.length > 15) titleFontSize = 28;
+            if (title.length > 18) titleFontSize = 24;
+
+            const titleText = new fabric.IText(title, {
+                left: centerX,
+                top: headerTop + 35,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#D9534F',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description - compact below header
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: headerTop + headerHeight + 5,
+                width: maxHeaderWidth - 20,
+                fontSize: 14,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#8B4513',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true
+            });
+            objects.push(descText);
+
+        } else {
+            // PORTRAIT MODE: Full-width professional header
+            const headerMargin = 70;
+            const headerWidth = pageWidth - (headerMargin * 2);
+            const headerHeight = 100;
+            const pillMargin = headerMargin + 20;
+            const pillWidth = pageWidth - (pillMargin * 2);
+            const pillHeight = 70;
+            const centerX = pageWidth / 2;
+
+            // Sunny Yellow header background (cheerful, optimistic)
+            const bgRect = new fabric.Rect({
+                left: headerMargin,
+                top: 70,
+                width: headerWidth,
+                height: headerHeight,
+                fill: '#FFD93D',
+                rx: 15,
+                ry: 15,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
+
+            // White pill for title
+            const whitePill = new fabric.Rect({
+                left: pillMargin,
+                top: 85,
+                width: pillWidth,
+                height: pillHeight,
+                fill: '#FFFFFF',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
+
+            // Title - Dynamic sizing with warm red-orange color
+            let titleFontSize = 48;
+            if (title.length > 12) titleFontSize = 40;
+            if (title.length > 15) titleFontSize = 36;
+            if (title.length > 18) titleFontSize = 32;
+            if (title.length > 22) titleFontSize = 28;
+
+            const titleText = new fabric.IText(title, {
+                left: centerX,
+                top: 120,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#D9534F',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description - warm chocolate brown
+            const descWidth = Math.min(450, pageWidth - 150);
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: 190,
+                width: descWidth,
+                fontSize: 20,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#8B4513',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true
+            });
+            objects.push(descText);
+        }
 
         return objects;
     }
@@ -2283,8 +2433,10 @@
         // Part B, Step 1: Preserve State of Existing Objects
         const oldTransforms = {};
         let oldExerciseCount = 0;
+        let oldCanvasWidth = worksheetCanvas.getWidth();
+        let oldCanvasHeight = worksheetCanvas.getHeight();
         const userAddedObjects = worksheetCanvas.getObjects().filter(o =>
-            !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc
+            !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement
         );
 
         worksheetCanvas.getObjects().forEach(o => {
@@ -2296,8 +2448,9 @@
             }
         });
 
-        // Only preserve transforms if the number of exercises hasn't changed
-        const shouldPreserveTransforms = (oldExerciseCount === currentProblemCount);
+        // Only preserve transforms if exercise count AND canvas dimensions haven't changed
+        const canvasDimensionsChanged = (oldCanvasWidth !== currentCanvasConfig.width || oldCanvasHeight !== currentCanvasConfig.height);
+        const shouldPreserveTransforms = (oldExerciseCount === currentProblemCount) && !canvasDimensionsChanged;
 
         // Part B, Step 2: Precise Removal of Old Content (including old header/border)
         const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem);
@@ -2305,7 +2458,7 @@
 
         // Remove old header and border objects
         const oldHeaderBorderObjects = worksheetCanvas.getObjects().filter(o =>
-            o.isPageBorder || o.isHeaderDesc || (o.fill === '#FFD93D') || (o.fill === '#FFFFFF' && o.rx === 35)
+            o.isPageBorder || o.isHeaderDesc || o.isHeaderElement
         );
         oldHeaderBorderObjects.forEach(o => worksheetCanvas.remove(o));
 
@@ -2328,7 +2481,9 @@
         // Adjust starting Y position based on whether header is shown
         let currentY = 20;
         if (headerObjects && headerObjects.length > 0) {
-            currentY = 220; // Start below the header
+            // Different header heights for landscape vs portrait
+            const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+            currentY = isLandscape ? 150 : 220; // Start below the header
         }
 
         if (includeNameDate) {
@@ -2413,7 +2568,7 @@
 
             const groupBData = await createImageSubGroup(B, problem.image, currentX, A + 1);
             groupBData.elements.forEach(el => exerciseRowElements.push(el));
-            currentX += groupBData.width + (B > 0 ? itemPadding : 0);
+            currentX += groupBData.width + (B > 0 ? itemPadding + 50 : 0);
 
             const expressionTextContent = `${A} + ${B} = `;
             let expressionObject;
@@ -2493,8 +2648,10 @@
         // Part C, Step 1: Preserve State of Existing Objects for Answer Key
         const oldTransforms = {};
         let oldAnswerKeyCount = 0;
+        let oldCanvasWidth = answerKeyCanvas.getWidth();
+        let oldCanvasHeight = answerKeyCanvas.getHeight();
         const userAddedObjects = answerKeyCanvas.getObjects().filter(o =>
-            !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc
+            !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement
         );
 
         answerKeyCanvas.getObjects().forEach(o => {
@@ -2514,7 +2671,7 @@
 
         // Remove old header and border objects from answer key
         const oldHeaderBorderObjects = answerKeyCanvas.getObjects().filter(o =>
-            o.isPageBorder || o.isHeaderDesc || (o.fill === '#FFD93D') || (o.fill === '#FFFFFF' && o.rx === 35)
+            o.isPageBorder || o.isHeaderDesc || o.isHeaderElement
         );
         oldHeaderBorderObjects.forEach(o => answerKeyCanvas.remove(o));
 
@@ -2547,8 +2704,9 @@
 
         const problemsData = worksheetCanvas.problemsData;
 
-        // Only preserve transforms if the number of exercises hasn't changed
-        const shouldPreserveTransforms = (oldAnswerKeyCount === problemsData.length);
+        // Only preserve transforms if exercise count AND canvas dimensions haven't changed
+        const canvasDimensionsChanged = (oldCanvasWidth !== currentCanvasConfig.width || oldCanvasHeight !== currentCanvasConfig.height);
+        const shouldPreserveTransforms = (oldAnswerKeyCount === problemsData.length) && !canvasDimensionsChanged;
 
         const includeNameDate = includeNameDateCheckbox.checked;
         const showPlusVisual = showPlusSignCheckbox.checked;
@@ -2557,7 +2715,9 @@
         // Adjust starting Y position based on whether header is shown
         let currentY = 20;
         if (headerObjects && headerObjects.length > 0) {
-            currentY = 220; // Start below the header
+            // Different header heights for landscape vs portrait
+            const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+            currentY = isLandscape ? 150 : 220; // Start below the header
         }
 
         if (includeNameDate) {
@@ -2642,7 +2802,7 @@
 
             const groupBData = await createImageSubGroup(B, problem.image, currentX, A + 1);
             groupBData.elements.forEach(el => exerciseRowElements.push(el));
-            currentX += groupBData.width + (B > 0 ? itemPadding : 0);
+            currentX += groupBData.width + (B > 0 ? itemPadding + 50 : 0);
 
             const answer = problem.operandA + problem.operandB;
             const expressionTextContent = `${A} + ${B} = ${answer}`;

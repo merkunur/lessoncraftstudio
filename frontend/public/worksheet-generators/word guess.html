@@ -484,7 +484,7 @@
             <button class="accordion-button" data-translate="settings.exerciseConfig">Exercise Configuration</button>
             <div class="accordion-content">
                 <label for="puzzleCount" data-translate="config.puzzleCount">Number of Puzzles (1–10):</label>
-                <input type="number" id="puzzleCount" value="10" min="1" max="10" />
+                <input type="number" id="puzzleCount" value="8" min="1" max="10" />
 
                 <div class="control-group">
                     <label class="group-label" data-translate="config.difficulty">Difficulty (Number of Clues)</label>
@@ -1549,10 +1549,10 @@
                     };
                 }
             });
-            const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground);
+            const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
 
             // Part C, Step 2: Precise Removal
-            const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground);
+            const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderElement || o.isHeaderDesc);
             objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
             
             // Clear old transforms if puzzle count changed to avoid overlaps
@@ -1578,7 +1578,21 @@
                     resolve();
                 }));
             }
-            
+
+            // Clone header objects from worksheet
+            const wsHeaderObjects = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
+            for (const headerObj of wsHeaderObjects) {
+                await new Promise(resolve => {
+                    headerObj.clone(cloned => {
+                        if (headerObj.isPageBorder) cloned.set({ isPageBorder: true });
+                        if (headerObj.isHeaderDesc) cloned.set({ isHeaderDesc: true });
+                        if (headerObj.isHeaderElement) cloned.set({ isHeaderElement: true });
+                        answerKeyCanvas.add(cloned);
+                        resolve();
+                    }, headerObj.isPageBorder ? ['isPageBorder'] : (headerObj.isHeaderDesc ? ['isHeaderDesc'] : ['isHeaderElement']));
+                });
+            }
+
             // Part C, Step 4: Regenerate, Re-apply, and Finalize
             await renderPuzzles(answerKeyCanvas, lastGeneratedPuzzles, true, oldTransforms);
             userAddedObjects.forEach(o => answerKeyCanvas.bringToFront(o));
@@ -1599,28 +1613,41 @@
             // Professional margins - slightly smaller for better space utilization
             const topMargin = pageHeight * 0.07;
             const bottomMargin = pageHeight * 0.07;
-            const leftMargin = pageWidth * 0.07;
+            const leftMargin = pageWidth * 0.07 + 20;
             const rightMargin = pageWidth * 0.07;
             
             let availableWidth = pageWidth - leftMargin - rightMargin;
-            
+
+            // Create and add header with borders
+            const existingHeaderObjects = canvas.getObjects().filter(o => o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
+            if (existingHeaderObjects.length === 0) {
+                const headerObjects = createHeaderGroup(canvas);
+                if (headerObjects && headerObjects.length > 0) {
+                    headerObjects.forEach(obj => canvas.add(obj));
+                }
+            }
+            const headerHeight = 220;
+
+            // Recalculate top margin to account for header
+            const adjustedTopMargin = Math.max(topMargin, 60) + headerHeight - 27;
+
             // Determine if we should use two columns (landscape with more than 5 exercises)
             const useColumns = isLandscape && puzzlesData.length > 5;
             const columnGap = useColumns ? pageWidth * 0.05 : 0;
             const columnWidth = useColumns ? (availableWidth - columnGap) / 2 : availableWidth;
-            
+
             // Add name/date if needed
             const nameDateHeight = (ui.includeNameDate.checked && !isAnswerKey) ? 50 : 0;
             if (ui.includeNameDate.checked && !isAnswerKey) {
                 const nameDateGroup = new fabric.Group([
                     new fabric.Textbox("Name: ________________", { left: 0, top: 0, fontSize: 18 }),
                     new fabric.Textbox("Date: ________", { left: 350, top: 0, fontSize: 18 })
-                ], { left: leftMargin, top: topMargin, selectable: true, hasControls: true, evented: true });
+                ], { left: leftMargin, top: adjustedTopMargin, selectable: true, hasControls: true, evented: true });
                 canvas.add(nameDateGroup);
             }
-            
+
             // Calculate puzzle area
-            const puzzleAreaTop = topMargin + nameDateHeight;
+            const puzzleAreaTop = adjustedTopMargin + nameDateHeight;
             const puzzleAreaHeight = pageHeight - puzzleAreaTop - bottomMargin;
             
             // Distribute items across columns
@@ -1777,12 +1804,159 @@
             if (!canvas) return;
             const background = canvas.getObjects().find(o => o.isBackground);
             if (background) canvas.sendToBack(background);
-        
+
+            // Handle page borders (multiple objects with isPageBorder flag)
+            const borders = canvas.getObjects().filter(o => o.isPageBorder);
+            borders.forEach(border => {
+                canvas.sendToBack(border);
+                if (background) canvas.bringForward(border);
+            });
+
+            // Legacy single border support
             const border = canvas.getObjects().find(o => o.isBorder);
             if (border) {
                 canvas.sendToBack(border);
                 if (background) canvas.bringForward(border);
             }
+        }
+
+        function createHeaderGroup(canvas) {
+            const defaultHeaders = {
+                en: { title: 'Word Guess Challenge', description: 'Look at the picture and guess the word!' },
+                de: { title: 'Wörter-Rätsel', description: 'Schau das Bild an und errate das Wort!' },
+                fr: { title: 'Devine le Mot', description: 'Regarde l\'image et trouve le mot!' },
+                es: { title: 'Adivina la Palabra', description: '¡Mira la imagen y adivina la palabra!' },
+                it: { title: 'Indovina la Parola', description: 'Guarda l\'immagine e indovina la parola!' },
+                pt: { title: 'Adivinha a Palavra', description: 'Olha a imagem e adivinha a palavra!' },
+                nl: { title: 'Raad het Woord', description: 'Kijk naar de plaatje en raad het woord!' },
+                sv: { title: 'Gissa Ordet', description: 'Titta på bilden och gissa ordet!' },
+                da: { title: 'Gæt Ordet', description: 'Se på billedet og gæt ordet!' },
+                no: { title: 'Gjett Ordet', description: 'Se på bildet og gjett ordet!' },
+                fi: { title: 'Arvaa Sana', description: 'Katso kuvaa ja arvaa sana!' }
+            };
+
+            const locale = currentLocale || 'en';
+            const defaults = defaultHeaders[locale] || defaultHeaders.en;
+            const title = defaults.title;
+            const description = defaults.description;
+
+            const objects = [];
+
+            // Get canvas dimensions for responsive layout
+            const canvasWidth = currentCanvasConfig.width;
+            const canvasHeight = currentCanvasConfig.height;
+            const centerX = canvasWidth / 2;
+
+            // Outer border - playful lavender for puzzle-solving
+            const outerBorder = new fabric.Rect({
+                left: 34,
+                top: 34,
+                width: canvasWidth - 68,
+                height: canvasHeight - 68,
+                fill: 'transparent',
+                stroke: '#9B7EBD',
+                strokeWidth: 8,
+                rx: 12,
+                ry: 12,
+                selectable: true,
+                hasControls: true,
+                isPageBorder: true
+            });
+            objects.push(outerBorder);
+
+            // Inner border - soft periwinkle for gentle support
+            const innerBorder = new fabric.Rect({
+                left: 46.5,
+                top: 46.5,
+                width: canvasWidth - 93,
+                height: canvasHeight - 93,
+                fill: 'transparent',
+                stroke: '#B4A7D6',
+                strokeWidth: 3,
+                rx: 8,
+                ry: 8,
+                selectable: true,
+                hasControls: true,
+                isPageBorder: true
+            });
+            objects.push(innerBorder);
+
+            // Header background - bright teal for engagement
+            const bgRect = new fabric.Rect({
+                left: 70,
+                top: 70,
+                width: canvasWidth - 140,
+                height: 100,
+                fill: '#5DADE2',
+                rx: 15,
+                ry: 15,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
+
+            // White pill for title
+            const whitePill = new fabric.Rect({
+                left: 90,
+                top: 85,
+                width: canvasWidth - 180,
+                height: 70,
+                fill: '#FFFFFF',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
+
+            // Title - Dynamic size based on length
+            let titleFontSize = 48;
+            if (title.length > 12) titleFontSize = 40;
+            if (title.length > 15) titleFontSize = 36;
+            if (title.length > 18) titleFontSize = 32;
+            if (title.length > 22) titleFontSize = 28;
+
+            // Title text - deep purple for strong readability
+            const titleText = new fabric.IText(title, {
+                left: centerX,
+                top: 120,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#5D3A9B',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description text - soft slate for clarity
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: 190,
+                width: canvasWidth - 140,
+                fontSize: 20,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#6C757D',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true
+            });
+            objects.push(descText);
+
+            return objects;
+        }
+
+        function createPageBorder(canvas) {
+            return null;
         }
 
         // --- Asset Management (Borders/Backgrounds) ---
@@ -1978,7 +2152,7 @@
             
             [ui.downloadWorksheetJpegBtn, ui.downloadWorksheetPdfBtn, ui.generateAnswerKeyBtn, ui.downloadAnswerKeyJpegBtn, ui.downloadAnswerKeyPdfBtn].forEach(b => b.disabled = true);
             
-            ui.puzzleCount.value = 10;
+            ui.puzzleCount.value = 8;
             document.querySelector('input[name="difficulty"][value="0"]').checked = true;
             ui.excludeLetters.value = '';
             document.querySelector('input[name="letterCase"][value="upper"]').checked = true;
@@ -2324,8 +2498,8 @@ async function downloadPDF(canvasToExport, fileName = 'download') {
                 ui.themeSelect.value = 'animals';
                 await loadDictionary();
 
-                // Set number of puzzles to 10
-                ui.puzzleCount.value = 10;
+                // Set number of puzzles to 8
+                ui.puzzleCount.value = 8;
 
                 // Set difficulty to Easy (1/2)
                 document.querySelector('input[name="difficulty"][value="2"]').checked = true;

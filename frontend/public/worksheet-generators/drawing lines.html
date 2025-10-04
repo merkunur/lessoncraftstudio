@@ -492,7 +492,7 @@
             <div id="object-context-toolbar" style="display:none;">
                 <div class="toolbar-group">
                     <div class="toolbar-item">
-                        <button class="context-btn" id="layersBtn" data-title-translate="layers" title="Layers" data-translate="layers"><i class="fas fa-layer-group"></i></button>
+                        <button class="context-btn" id="layersBtn" data-title-translate="layers" title="Layers"><i class="fas fa-layer-group"></i></button>
                         <div class="dropdown-content" id="layersDropdown">
                             <button id="toolbarBringForwardBtn" data-translate="bringForward">Bring Forward</button>
                             <button id="toolbarSendBackwardBtn" data-translate="sendBackward">Send Backward</button>
@@ -501,30 +501,30 @@
                 </div>
                 <div class="toolbar-group">
                     <div class="toolbar-item">
-                        <button class="context-btn" id="alignBtn" data-title-translate="align" title="Align" data-translate="align"><i class="fas fa-th"></i></button>
+                        <button class="context-btn" id="alignBtn" data-title-translate="align" title="Align"><i class="fas fa-th"></i></button>
                         <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
                             <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="alignSelected">Align Selected:</p>
                             <div>
-                                <button class="context-btn" id="alignLeftBtn" data-title-translate="alignLeft" title="Align Left" data-translate="alignLeft"><i class="fas fa-align-left"></i></button>
-                                <button class="context-btn" id="alignHCenterBtn" data-title-translate="centerHorizontally" title="Center Horizontally" data-translate="centerHorizontally"><i class="fas fa-align-center"></i></button>
-                                <button class="context-btn" id="alignRightBtn" data-title-translate="alignRight" title="Align Right" data-translate="alignRight"><i class="fas fa-align-right"></i></button>
+                                <button class="context-btn" id="alignLeftBtn" data-title-translate="alignLeft" title="Align Left"><i class="fas fa-align-left"></i></button>
+                                <button class="context-btn" id="alignHCenterBtn" data-title-translate="centerHorizontally" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                                <button class="context-btn" id="alignRightBtn" data-title-translate="alignRight" title="Align Right"><i class="fas fa-align-right"></i></button>
                             </div>
                             <div style="margin-top: 5px;">
-                                <button class="context-btn" id="alignTopBtn" data-title-translate="alignTop" title="Align Top" data-translate="alignTop"><i class="fas fa-long-arrow-alt-up"></i></button>
-                                <button class="context-btn" id="alignVCenterBtn" data-title-translate="centerVertically" title="Center Vertically" data-translate="centerVertically"><i class="fas fa-grip-lines"></i></button>
-                                <button class="context-btn" id="alignBottomBtn" data-title-translate="alignBottom" title="Align Bottom" data-translate="alignBottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                                <button class="context-btn" id="alignTopBtn" data-title-translate="alignTop" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                                <button class="context-btn" id="alignVCenterBtn" data-title-translate="centerVertically" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
+                                <button class="context-btn" id="alignBottomBtn" data-title-translate="alignBottom" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
                             </div>
                             <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
                             <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="alignToPage">Align to Page:</p>
                             <div>
-                                <button class="context-btn" id="centerHCanvasBtn" data-title-translate="centerOnPageHorizontally" title="Center on Page Horizontally" data-translate="centerOnPageHorizontally"><i class="fas fa-arrows-alt-h"></i></button>
-                                <button class="context-btn" id="centerVCanvasBtn" data-title-translate="centerOnPageVertically" title="Center on Page Vertically" data-translate="centerOnPageVertically"><i class="fas fa-arrows-alt-v"></i></button>
+                                <button class="context-btn" id="centerHCanvasBtn" data-title-translate="centerOnPageHorizontally" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                                <button class="context-btn" id="centerVCanvasBtn" data-title-translate="centerOnPageVertically" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="toolbar-group">
-                    <button class="context-btn" id="toolbarDeleteBtn" data-title-translate="deleteSelected" title="Delete Selected" data-translate="deleteSelected"><i class="fas fa-trash-alt"></i></button>
+                    <button class="context-btn" id="toolbarDeleteBtn" data-title-translate="deleteSelected" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
                 </div>
             </div>
             <div class="top-right-actions">
@@ -1205,7 +1205,12 @@ document.addEventListener("DOMContentLoaded", async function() {
 
         const targetPageValue = templateOrientation === 'landscape' ? '792x612' : '612x792';
         pageSizeSelect.value = targetPageValue;
-        handlePageSizeChange();
+
+        // Update canvas dimensions immediately (don't call handlePageSizeChange which tries to regenerate)
+        const [w, h] = targetPageValue.split('x').map(Number);
+        pageWidthInput.value = w;
+        pageHeightInput.value = h;
+        updateCanvasDisplayDimensions(w, h);
 
         templateInfo.textContent = t('templateInfo', {name: t('template_' + name.replace(' ', '')), pairs: requiredPairs, orientation: templateOrientation});
         generatePairTable(requiredPairs);
@@ -1368,8 +1373,14 @@ document.addEventListener("DOMContentLoaded", async function() {
         }
         
         // START OF MODIFICATION: Non-destructive regeneration
-        // Remove only previously generated items, preserving user-added content and modifications.
-        const objectsToRemove = worksheetCanvas.getObjects().filter(obj => obj.isGeneratedItem);
+        // Remove only previously generated items, headers, and borders, preserving user-added content and modifications.
+        const objectsToRemove = worksheetCanvas.getObjects().filter(obj =>
+            obj.isGeneratedItem ||
+            obj.isPageBorder ||
+            obj.isHeaderElement ||
+            obj.isHeaderDesc ||
+            obj.isHeaderItem
+        );
         objectsToRemove.forEach(obj => worksheetCanvas.remove(obj));
         // END OF MODIFICATION
         
@@ -1485,7 +1496,9 @@ document.addEventListener("DOMContentLoaded", async function() {
     }
 
     function createHeaderGroup(canvas) {
-        const width = currentCanvasConfig.width;
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const isLandscape = pageWidth > pageHeight;
         const currentLang = currentLocale || 'en';
 
         // Multilingual defaults
@@ -1522,7 +1535,7 @@ document.addEventListener("DOMContentLoaded", async function() {
 
         const objects = [];
 
-        // Drawing Lines specific colors
+        // Drawing Lines specific colors (calm, focused, encouraging)
         const headerBgColor = '#51CF66';     // vibrant green
         const titleColor = '#2D5016';        // deep forest green
         const descColor = '#555555';         // warm gray
@@ -1530,75 +1543,159 @@ document.addEventListener("DOMContentLoaded", async function() {
         const margin = 40;
         const innerMargin = margin + 12;
         const headerPadding = 15;
-        const headerHeight = 110;
 
-        // Header background - positioned inside borders
-        const headerBg = new fabric.Rect({
-            left: innerMargin + headerPadding,
-            top: innerMargin + headerPadding,
-            width: width - ((innerMargin + headerPadding) * 2),
-            height: headerHeight,
-            fill: headerBgColor,
-            rx: 15,
-            ry: 15,
-            selectable: true,
-            hasControls: true,
-            isHeaderItem: true
-        });
-        objects.push(headerBg);
+        // LANDSCAPE MODE: Compact, centered header
+        if (isLandscape) {
+            const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+            const headerHeight = 70;
+            const centerX = pageWidth / 2;
+            const headerTop = 60;
 
-        // White pill background for title
-        const titleBg = new fabric.Rect({
-            left: innerMargin + headerPadding + 20,
-            top: innerMargin + headerPadding + 15,
-            width: width - ((innerMargin + headerPadding + 20) * 2),
-            height: 50,
-            fill: '#FFFFFF',
-            rx: 25,
-            ry: 25,
-            selectable: true,
-            hasControls: true,
-            isHeaderItem: true
-        });
-        objects.push(titleBg);
+            // Vibrant green header background - compact size
+            const headerBg = new fabric.Rect({
+                left: centerX - maxHeaderWidth / 2,
+                top: headerTop,
+                width: maxHeaderWidth,
+                height: headerHeight,
+                fill: headerBgColor,
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(headerBg);
 
-        // Title text
-        const titleText = new fabric.Textbox(title, {
-            left: width / 2,
-            top: innerMargin + headerPadding + 40,
-            width: width - ((innerMargin + headerPadding + 30) * 2),
-            fontSize: 32,
-            fontFamily: 'Fredoka, sans-serif',
-            fontWeight: '700',
-            fill: titleColor,
-            textAlign: 'center',
-            originX: 'center',
-            originY: 'center',
-            selectable: true,
-            editable: true,
-            hasControls: true,
-            isHeaderItem: true
-        });
-        objects.push(titleText);
+            // White rounded rectangle for title - compact
+            const titleBg = new fabric.Rect({
+                left: centerX - (maxHeaderWidth - 40) / 2,
+                top: headerTop + 10,
+                width: maxHeaderWidth - 40,
+                height: 50,
+                fill: '#FFFFFF',
+                rx: 25,
+                ry: 25,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleBg);
 
-        // Description text
-        const descText = new fabric.Textbox(description, {
-            left: width / 2,
-            top: innerMargin + headerPadding + 80,
-            width: width - ((innerMargin + headerPadding + 30) * 2),
-            fontSize: 18,
-            fontFamily: 'Quicksand, sans-serif',
-            fontWeight: '500',
-            fill: descColor,
-            textAlign: 'center',
-            originX: 'center',
-            originY: 'center',
-            selectable: true,
-            editable: true,
-            hasControls: true,
-            isHeaderItem: true
-        });
-        objects.push(descText);
+            // Title - Compact size for landscape
+            let titleFontSize = 32;
+            if (title.length > 18) titleFontSize = 28;
+            if (title.length > 22) titleFontSize = 24;
+
+            const titleText = new fabric.Textbox(title, {
+                left: centerX,
+                top: headerTop + 35,
+                width: maxHeaderWidth - 60,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: titleColor,
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description - compact below header
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: headerTop + headerHeight + 5,
+                width: maxHeaderWidth - 20,
+                fontSize: 14,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: descColor,
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true
+            });
+            objects.push(descText);
+
+        } else {
+            // PORTRAIT MODE: Full-width professional header
+            const headerHeight = 110;
+
+            // Header background - positioned inside borders
+            const headerBg = new fabric.Rect({
+                left: innerMargin + headerPadding,
+                top: innerMargin + headerPadding,
+                width: pageWidth - ((innerMargin + headerPadding) * 2),
+                height: headerHeight,
+                fill: headerBgColor,
+                rx: 15,
+                ry: 15,
+                selectable: true,
+                hasControls: true,
+                isHeaderElement: true
+            });
+            objects.push(headerBg);
+
+            // White pill background for title
+            const titleBg = new fabric.Rect({
+                left: innerMargin + headerPadding + 20,
+                top: innerMargin + headerPadding + 15,
+                width: pageWidth - ((innerMargin + headerPadding + 20) * 2),
+                height: 50,
+                fill: '#FFFFFF',
+                rx: 25,
+                ry: 25,
+                selectable: true,
+                hasControls: true,
+                isHeaderElement: true
+            });
+            objects.push(titleBg);
+
+            // Title text
+            let titleFontSize = 32;
+            if (title.length > 18) titleFontSize = 28;
+            if (title.length > 22) titleFontSize = 24;
+
+            const titleText = new fabric.Textbox(title, {
+                left: pageWidth / 2,
+                top: innerMargin + headerPadding + 40,
+                width: pageWidth - ((innerMargin + headerPadding + 30) * 2),
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: titleColor,
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description text - positioned INSIDE the green header box, below the white pill
+            const descText = new fabric.Textbox(description, {
+                left: pageWidth / 2,
+                top: innerMargin + headerPadding + 75,
+                width: pageWidth - ((innerMargin + headerPadding + 30) * 2),
+                fontSize: 15,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: descColor,
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true
+            });
+            objects.push(descText);
+        }
 
         return objects;
     }
@@ -1615,7 +1712,9 @@ document.addEventListener("DOMContentLoaded", async function() {
         if (headerObjects) {
             headerObjects.forEach(obj => canvas.add(obj));
         }
-        const headerHeight = 110 + 40 + 15; // header height + top margin + padding
+        // Calculate responsive header height based on orientation
+        const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+        const headerHeight = isLandscape ? 145 : 165; // Header box + margins (landscape: 60+70+15, portrait: 67+110+15)
 
         // Use actual canvas dimensions from currentCanvasConfig
         const width = currentCanvasConfig.width;
@@ -2146,6 +2245,8 @@ document.addEventListener("DOMContentLoaded", async function() {
             pageWidthInput.value = w;
             pageHeightInput.value = h;
             updateCanvasDisplayDimensions(w, h);
+            // Regenerate worksheet when page size changes
+            regenerateWorksheet();
         }
     }
 
@@ -2153,6 +2254,35 @@ document.addEventListener("DOMContentLoaded", async function() {
         const newWidth = parseInt(pageWidthInput.value, 10) || currentCanvasConfig.width;
         const newHeight = parseInt(pageHeightInput.value, 10) || currentCanvasConfig.height;
         updateCanvasDisplayDimensions(newWidth, newHeight);
+        // Regenerate worksheet when page size changes
+        regenerateWorksheet();
+    }
+
+    async function regenerateWorksheet() {
+        // Only regenerate if worksheet exists
+        if (!lastGeneratedData) return;
+
+        // Don't regenerate if the template has changed (user is selecting a different template)
+        // Wait for them to click Generate with the new template
+        if (lastGeneratedData.template !== selectedTemplate) return;
+
+        // Remove all generated items (headers, borders, exercises)
+        const objectsToRemove = worksheetCanvas.getObjects().filter(obj =>
+            obj.isGeneratedItem ||
+            obj.isPageBorder ||
+            obj.isHeaderElement ||
+            obj.isHeaderDesc ||
+            obj.isHeaderItem
+        );
+        objectsToRemove.forEach(obj => worksheetCanvas.remove(obj));
+
+        // Re-render with current page dimensions
+        try {
+            await renderDataToCanvas(worksheetCanvas, lastGeneratedData);
+            worksheetCanvas.renderAll();
+        } catch (error) {
+            console.error('Error regenerating worksheet:', error);
+        }
     }
 
     function updateCanvasDisplayDimensions(width, height) {
@@ -2187,9 +2317,13 @@ document.addEventListener("DOMContentLoaded", async function() {
         
         // Apply zoom for display
         const finalZoom = displayWidth / width;
-        
+
+        // CRITICAL: Set actual canvas dimensions FIRST
+        worksheetCanvas.setWidth(width);
+        worksheetCanvas.setHeight(height);
+
+        // Then set zoom and viewport
         worksheetCanvas.setZoom(finalZoom);
-        // CRITICAL: Set dimensions AFTER zoom
         worksheetCanvas.setDimensions({
             width: displayWidth,
             height: displayHeight

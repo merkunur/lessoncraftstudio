@@ -871,39 +871,39 @@
       <div id="object-context-toolbar" style="display:none;">
           <div class="toolbar-group">
               <div class="toolbar-item">
-                  <button class="context-btn" id="layersBtn" data-translate="toolbar.layers" title="Layers"><i class="fas fa-layer-group"></i></button>
+                  <button class="context-btn" id="layersBtn" data-translate-title="layers" title="Layers"><i class="fas fa-layer-group"></i></button>
                   <div class="dropdown-content" id="layersDropdown">
-                          <button id="toolbarBringForwardBtn" data-translate="toolbar.bring.forward">Bring Forward</button>
-                          <button id="toolbarSendBackwardBtn" data-translate="toolbar.send.backward">Send Backward</button>
+                          <button id="toolbarBringForwardBtn" data-translate="bringForward">Bring Forward</button>
+                          <button id="toolbarSendBackwardBtn" data-translate="sendBackward">Send Backward</button>
                   </div>
               </div>
           </div>
           <div class="toolbar-group">
               <div class="toolbar-item">
-                  <button class="context-btn" id="alignBtn" data-translate="toolbar.align" title="Align"><i class="fas fa-th"></i></button>
+                  <button class="context-btn" id="alignBtn" data-translate-title="align" title="Align"><i class="fas fa-th"></i></button>
                   <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
-                          <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.selected">Align Selected:</p>
+                          <p style="font-size:11px; margin-bottom:5px; color:#555;">Align Selected:</p>
                           <div>
-                                  <button class="context-btn" id="alignLeftBtn" data-translate="toolbar.align.left" title="Align Left"><i class="fas fa-align-left"></i></button>
-                                  <button class="context-btn" id="alignHCenterBtn" data-translate="toolbar.center.h" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
-                                  <button class="context-btn" id="alignRightBtn" data-translate="toolbar.align.right" title="Align Right"><i class="fas fa-align-right"></i></button>
+                                  <button class="context-btn" id="alignLeftBtn" data-translate-title="alignLeft" title="Align Left"><i class="fas fa-align-left"></i></button>
+                                  <button class="context-btn" id="alignHCenterBtn" data-translate-title="centerHorizontally" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                                  <button class="context-btn" id="alignRightBtn" data-translate-title="alignRight" title="Align Right"><i class="fas fa-align-right"></i></button>
                           </div>
                           <div style="margin-top: 5px;">
-                                  <button class="context-btn" id="alignTopBtn" data-translate="toolbar.align.top" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
-                                  <button class="context-btn" id="alignVCenterBtn" data-translate="toolbar.center.v" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
-                                  <button class="context-btn" id="alignBottomBtn" data-translate="toolbar.align.bottom" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                                  <button class="context-btn" id="alignTopBtn" data-translate-title="alignTop" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                                  <button class="context-btn" id="alignVCenterBtn" data-translate-title="centerVertically" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
+                                  <button class="context-btn" id="alignBottomBtn" data-translate-title="alignBottom" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
                           </div>
                           <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
-                          <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.to.page">Align to Page:</p>
+                          <p style="font-size:11px; margin-bottom:5px; color:#555;">Align to Page:</p>
                           <div>
-                                  <button class="context-btn" id="centerHCanvasBtn" data-translate="toolbar.center.page.h" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
-                                  <button class="context-btn" id="centerVCanvasBtn" data-translate="toolbar.center.page.v" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                                  <button class="context-btn" id="centerHCanvasBtn" data-translate-title="centerPageHorizontally" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                                  <button class="context-btn" id="centerVCanvasBtn" data-translate-title="centerPageVertically" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
                           </div>
                   </div>
               </div>
           </div>
           <div class="toolbar-group">
-              <button class="context-btn" id="toolbarDeleteBtn" data-translate="toolbar.delete" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
+              <button class="context-btn" id="toolbarDeleteBtn" data-translate-title="deleteSelected" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
           </div>
       </div>
       <div class="top-right-actions">
@@ -1554,7 +1554,15 @@
                   };
               }
           });
-          const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground);
+          const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement);
+
+          // Remove existing header and borders
+          const oldHeadersAndBorders = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
+          oldHeadersAndBorders.forEach(o => worksheetCanvas.remove(o));
+
+          // Create and add header with borders
+          const headerObjects = createHeaderGroup(worksheetCanvas);
+          headerObjects.forEach(obj => worksheetCanvas.add(obj));
 
           // --- PART B, STEP 2: PRECISE REMOVAL ---
           const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem);
@@ -1614,10 +1622,10 @@
                   };
               }
           });
-          const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground);
+          const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement);
 
           // --- PART C, STEP 2: PRECISE REMOVAL (THE DUPLICATION FIX) ---
-          const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground);
+          const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderElement);
           objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
 
           // --- PART C, STEP 3: CLONE DECORATIVES ---
@@ -1638,6 +1646,18 @@
               }));
           }
 
+          // Clone header elements and page borders from worksheet
+          const headerAndBorderObjects = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
+          for (const obj of headerAndBorderObjects) {
+              await new Promise(resolve => obj.clone(cloned => {
+                  if (obj.isPageBorder) cloned.set({ isPageBorder: true });
+                  if (obj.isHeaderElement) cloned.set({ isHeaderElement: true });
+                  if (obj.isHeaderDesc) cloned.set({ isHeaderDesc: true });
+                  answerKeyCanvas.add(cloned);
+                  resolve();
+              }));
+          }
+
           // --- PART C, STEP 4: REGENERATE, RE-APPLY, FINALIZE ---
           await renderAnswerKeyFromData(answerKeyCanvas, worksheetCanvas.worksheetData, oldTransforms);
           enforceZOrder(answerKeyCanvas);
@@ -1652,14 +1672,17 @@
       }
 
       async function renderWorksheetFromData(canvas, data, oldTransforms = {}) {
-          const contentWidth = currentCanvasConfig.width * 0.9;
-          const contentHeight = currentCanvasConfig.height * 0.8;
+          const HEADER_HEIGHT = 120;
+          const SIDE_MARGIN = 60;
+          const contentWidth = currentCanvasConfig.width - (SIDE_MARGIN * 2);
+          const contentHeight = (currentCanvasConfig.height - HEADER_HEIGHT) * 0.88;
           const rowHeight = contentHeight / 2 * 0.8;
           const itemWidth = contentWidth / SELECT_COUNT;
           const imgSize = Math.min(itemWidth * 0.8, rowHeight);
-          const top = 0, left = 0;
-          
-          const yOffset = data.includeNameDate ? 70 : 30;
+          const top = HEADER_HEIGHT;
+          const left = SIDE_MARGIN;
+
+          const yOffset = data.includeNameDate ? 60 : 15;
 
           const generatedObjectProps = {
               isGeneratedItem: true, selectable: true, evented: true,
@@ -1730,12 +1753,13 @@
       }
       
       async function renderAnswerKeyFromData(canvas, data, oldTransforms = {}) {
-          const imgSize = Math.min(currentCanvasConfig.width / 5, currentCanvasConfig.height / 5);
+          const HEADER_HEIGHT = 120;
+          const imgSize = Math.min(currentCanvasConfig.width / 5, (currentCanvasConfig.height - HEADER_HEIGHT) / 5);
           const columns = Math.min(data.problems.length, 4);
           const rows = Math.ceil(data.problems.length / columns);
           const gridWidth = currentCanvasConfig.width * 0.9;
           const cellWidth = gridWidth / columns;
-          const cellHeight = (currentCanvasConfig.height * 0.8) / rows; 
+          const cellHeight = ((currentCanvasConfig.height - HEADER_HEIGHT) * 0.9) / rows; 
 
           const generatedObjectProps = {
               isAnswerKeyItem: true, selectable: true, evented: true,
@@ -1744,7 +1768,7 @@
           };
 
           const gridBlockHeight = rows * cellHeight;
-          const gridOffsetY = (currentCanvasConfig.height - gridBlockHeight) / 2;
+          const gridOffsetY = HEADER_HEIGHT - 5;
           const gridOffsetX = (currentCanvasConfig.width - gridWidth) / 2;
 
           for (let i = 0; i < data.problems.length; i++) {
@@ -1752,7 +1776,9 @@
               const col = i % columns;
               const row = Math.floor(i / columns);
               const cellCenterX = gridOffsetX + (col * cellWidth) + (cellWidth / 2);
-              const cellCenterY = gridOffsetY + (row * cellHeight) + (cellHeight / 2);
+              // Add extra 50px gap before second row
+              const rowOffset = row > 0 ? 50 : 0;
+              const cellCenterY = gridOffsetY + (row * cellHeight) + (cellHeight / 2) + rowOffset;
               const verticalSpacing = 15;
 
               // Create all elements first to get their dimensions
@@ -1847,11 +1873,135 @@
       
       // --- Z-ORDER & OBJECT EDITING ---
 
+      function createHeaderGroup(canvas) {
+          const defaultHeaders = {
+              en: { title: 'Shadow Match', description: 'Match each picture with its shadow!' },
+              de: { title: 'Schatten Zuordnen', description: 'Ordne jedes Bild seinem Schatten zu!' },
+              fr: { title: 'Trouve l\'Ombre', description: 'Associe chaque image à son ombre!' },
+              es: { title: 'Empareja las Sombras', description: '¡Empareja cada imagen con su sombra!' },
+              it: { title: 'Abbina le Ombre', description: 'Abbina ogni immagine alla sua ombra!' },
+              pt: { title: 'Combine as Sombras', description: 'Combine cada imagem com sua sombra!' },
+              nl: { title: 'Schaduw Koppelen', description: 'Koppel elke afbeelding aan zijn schaduw!' },
+              sv: { title: 'Matcha Skuggor', description: 'Matcha varje bild med sin skugga!' },
+              da: { title: 'Match Skygger', description: 'Match hvert billede med sin skygge!' },
+              no: { title: 'Match Skygger', description: 'Match hvert bilde med sin skygge!' },
+              fi: { title: 'Yhdistä Varjot', description: 'Yhdistä jokainen kuva sen varjoon!' }
+          };
+
+          const locale = currentLocale || 'en';
+          const defaults = defaultHeaders[locale] || defaultHeaders.en;
+          const title = defaults.title;
+          const description = defaults.description;
+
+          const objects = [];
+
+          // Outer border - deep indigo for night/shadow theme (landscape)
+          const outerBorder = new fabric.Rect({
+              left: 34,
+              top: 34,
+              width: 724,
+              height: 544,
+              fill: 'transparent',
+              stroke: '#3F51B5',
+              strokeWidth: 8,
+              rx: 12,
+              ry: 12,
+              selectable: true,
+              hasControls: true,
+              isPageBorder: true
+          });
+          objects.push(outerBorder);
+
+          // Header bar for title
+          const headerBar = new fabric.Rect({
+              left: 60,
+              top: 60,
+              width: 300,
+              height: 50,
+              fill: '#FFC107',
+              rx: 8,
+              ry: 8,
+              selectable: true,
+              isHeaderElement: true
+          });
+          objects.push(headerBar);
+
+          // Title - centered in header bar
+          let titleFontSize = 30;
+          if (title.length > 15) titleFontSize = 26;
+          if (title.length > 20) titleFontSize = 22;
+
+          const titleText = new fabric.IText(title, {
+              left: 210,
+              top: 85,
+              fontSize: titleFontSize,
+              fontFamily: 'Fredoka, sans-serif',
+              fontWeight: '700',
+              fill: '#283593',
+              textAlign: 'center',
+              originX: 'center',
+              originY: 'center',
+              selectable: true,
+              editable: true,
+              isHeaderElement: true
+          });
+          objects.push(titleText);
+
+          // Description box - child-friendly rounded box
+          const descBox = new fabric.Rect({
+              left: 380,
+              top: 60,
+              width: 352,
+              height: 50,
+              fill: '#FFFFFF',
+              stroke: '#FFC107',
+              strokeWidth: 3,
+              rx: 8,
+              ry: 8,
+              selectable: true,
+              isHeaderElement: true
+          });
+          objects.push(descBox);
+
+          // Description text - inside the box
+          const descText = new fabric.Textbox(description, {
+              left: 556,
+              top: 85,
+              width: 320,
+              fontSize: 16,
+              fontFamily: 'Quicksand, sans-serif',
+              fontWeight: '500',
+              fill: '#424242',
+              textAlign: 'center',
+              originX: 'center',
+              originY: 'center',
+              selectable: true,
+              editable: true,
+              hasControls: true,
+              isHeaderElement: true,
+              isHeaderDesc: true
+          });
+          objects.push(descText);
+
+          return objects;
+      }
+
+      function createPageBorder(canvas) {
+          return null;
+      }
+
       function enforceZOrder(canvas) {
         if (!canvas) return;
         const background = canvas.getObjects().find(o => o.isBackground);
         if (background) canvas.sendToBack(background);
-        
+
+        // Send all page borders to back
+        const pageBorders = canvas.getObjects().filter(o => o.isPageBorder);
+        pageBorders.forEach(border => {
+            canvas.sendToBack(border);
+            if (background) canvas.bringForward(border);
+        });
+
         const border = canvas.getObjects().find(o => o.isBorder);
         if (border) {
             canvas.sendToBack(border);

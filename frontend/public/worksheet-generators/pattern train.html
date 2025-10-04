@@ -1301,6 +1301,146 @@
             canvas.sendToBack(border);
             if (background) canvas.bringForward(border);
         }
+
+        // Ensure page borders stay at back
+        const pageBorders = canvas.getObjects().filter(o => o.isPageBorder);
+        pageBorders.forEach(pb => canvas.sendToBack(pb));
+    }
+
+    // --- HEADER AND BORDER FUNCTIONS ---
+    function createHeaderGroup(canvas) {
+        const defaultHeaders = {
+            en: { title: 'Pattern Train', description: 'Complete the pattern on each train wagon!' },
+            de: { title: 'Musterzug', description: 'Vervollständige das Muster in jedem Waggon!' },
+            fr: { title: 'Train à Motifs', description: 'Complète le motif sur chaque wagon!' },
+            es: { title: 'Tren de Patrones', description: '¡Completa el patrón en cada vagón!' },
+            it: { title: 'Treno dei Modelli', description: 'Completa il modello su ogni vagone!' },
+            pt: { title: 'Comboio de Padrões', description: 'Completa o padrão em cada vagão!' },
+            nl: { title: 'Patroontje', description: 'Maak het patroon in elke wagon compleet!' },
+            sv: { title: 'Mönstert​åget', description: 'Komplettera mönstret på varje vagn!' },
+            da: { title: 'Mønstertoget', description: 'Fuldend mønsteret på hver vogn!' },
+            no: { title: 'Mønstertoget', description: 'Fullfør mønsteret på hver vogn!' },
+            fi: { title: 'Kuviojuna', description: 'Täydennä kuvio jokaisessa vaunussa!' }
+        };
+
+        const locale = currentLocale || 'en';
+        const defaults = defaultHeaders[locale] || defaultHeaders.en;
+        const title = defaults.title;
+        const description = defaults.description;
+
+        const objects = [];
+
+        // Outer border - Bright red/orange (train engine theme)
+        const outerBorder = new fabric.Rect({
+            left: 34,
+            top: 34,
+            width: 544,
+            height: 724,
+            fill: 'transparent',
+            stroke: '#E74C3C',
+            strokeWidth: 8,
+            rx: 12,
+            ry: 12,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(outerBorder);
+
+        // Inner border - Sunny yellow (energetic, cheerful)
+        const innerBorder = new fabric.Rect({
+            left: 46.5,
+            top: 46.5,
+            width: 519,
+            height: 699,
+            fill: 'transparent',
+            stroke: '#F39C12',
+            strokeWidth: 3,
+            rx: 8,
+            ry: 8,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(innerBorder);
+
+        // Header background - Deep blue (railroad theme) - COMPACT
+        const bgRect = new fabric.Rect({
+            left: 70,
+            top: 70,
+            width: 472,
+            height: 85,
+            fill: '#3498DB',
+            rx: 15,
+            ry: 15,
+            selectable: true,
+            isHeaderElement: true
+        });
+        objects.push(bgRect);
+
+        // White pill for title - COMPACT
+        const whitePill = new fabric.Rect({
+            left: 90,
+            top: 80,
+            width: 432,
+            height: 60,
+            fill: '#FFFFFF',
+            rx: 30,
+            ry: 30,
+            selectable: true,
+            isHeaderElement: true
+        });
+        objects.push(whitePill);
+
+        // Title - Dynamic size based on length - COMPACT
+        let titleFontSize = 42;
+        if (title.length > 12) titleFontSize = 36;
+        if (title.length > 15) titleFontSize = 32;
+        if (title.length > 18) titleFontSize = 28;
+        if (title.length > 22) titleFontSize = 24;
+
+        // Title text - Deep navy blue for readability
+        const titleText = new fabric.IText(title, {
+            left: 306,
+            top: 110,
+            fontSize: titleFontSize,
+            fontFamily: 'Fredoka, sans-serif',
+            fontWeight: '700',
+            fill: '#2C3E50',
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'center',
+            selectable: true,
+            editable: true,
+            isHeaderElement: true
+        });
+        objects.push(titleText);
+
+        // Description text - Warm orange (ties to train theme) - COMPACT
+        const descText = new fabric.Textbox(description, {
+            left: 306,
+            top: 168,
+            width: 450,
+            fontSize: 18,
+            fontFamily: 'Quicksand, sans-serif',
+            fontWeight: '500',
+            fill: '#E67E22',
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'top',
+            selectable: true,
+            editable: true,
+            hasControls: true,
+            isHeaderDesc: true,
+            isHeaderElement: true
+        });
+        objects.push(descText);
+
+        return objects;
+    }
+
+    function createPageBorder(canvas) {
+        return null;
     }
 
     function setupCanvasEventListeners(canvas) {
@@ -1973,25 +2113,61 @@
                 };
             }
         });
-        const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isTrainGeneratedItem && !o.isBorder && !o.isBackground);
-        
+        const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isTrainGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement);
+
         // --- Part B, Step 2: Precise Removal ---
         const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isTrainGeneratedItem);
         oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
+
+        // Remove old header objects before creating new ones
+        const oldHeaderObjects = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
+        oldHeaderObjects.forEach(o => worksheetCanvas.remove(o));
+
+        // Create and add header objects
+        const headerObjects = createHeaderGroup(worksheetCanvas);
+        if (headerObjects) {
+            headerObjects.forEach(obj => worksheetCanvas.add(obj));
+        }
 
         // --- Part B, Step 3: Regenerate and Re-apply ---
         let newGeneratedItems = [];
         try {
             const trainBgImg = await loadImage(currentTemplatePath);
-            trainBgImg.scaleToWidth(currentCanvasConfig.width);
-            trainBgImg.set({ left: currentCanvasConfig.width / 2 + 10, top: currentCanvasConfig.height / 2 + 20, originX: 'center', originY: 'center', selectable: true, evented: true, objectCaching: false, isTrainTemplate: true });
+
+            // Calculate available space within borders
+            const HEADER_HEIGHT = 200;
+            const BORDER_PADDING = 70; // Padding from borders
+            const TOP_MARGIN = 20; // Smaller margin between header and train
+            const availableWidth = currentCanvasConfig.width - (BORDER_PADDING * 2);
+            const availableHeight = currentCanvasConfig.height - HEADER_HEIGHT - TOP_MARGIN - BORDER_PADDING;
+
+            // Scale train to fit within available space
+            const scaleToFitWidth = availableWidth / trainBgImg.width;
+            const scaleToFitHeight = availableHeight / trainBgImg.height;
+            const trainScale = Math.min(scaleToFitWidth, scaleToFitHeight);
+            trainBgImg.scale(trainScale);
+
+            // Position train closer to header with centered horizontal alignment
+            const trainTop = HEADER_HEIGHT + TOP_MARGIN + 50;
+            const trainLeft = BORDER_PADDING + (availableWidth - trainBgImg.getScaledWidth()) / 2;
+
+            trainBgImg.set({
+                left: trainLeft,
+                top: trainTop,
+                originX: 'left',
+                originY: 'top',
+                selectable: true,
+                evented: true,
+                objectCaching: false,
+                isTrainTemplate: true
+            });
 
             const masterElements = [trainBgImg];
             const cutoutElements = [];
             let nameDateGroup = null;
 
-            const canvasBgTopEdge = (currentCanvasConfig.height - trainBgImg.getScaledHeight()) / 2;
-            const trainLeftEdge = (currentCanvasConfig.width - trainBgImg.getScaledWidth()) / 2;
+            const canvasBgTopEdge = trainTop;
+            const trainLeftEdge = trainLeft;
             const dynamicScale = trainBgImg.getScaledWidth() / 940; // Scale based on actual train width
             
             const currentClueCount = Math.max(4, Math.min(10, parseInt(document.getElementById('clueCount').value, 10)));
@@ -2008,21 +2184,21 @@
 
             // Check if page is in portrait mode
             const isPortrait = currentCanvasConfig.height > currentCanvasConfig.width;
-            
+
             for (let i = 0; i < lastFullSeq.length; i++) {
                 const sym = lastFullSeq[i];
                 const idx = lastPosIndices[i];
                 const basePos = BASE_WAGON_POSITIONS[idx];
                 const adj = EXTRA_ADJUSTMENTS[idx];
-                
-                const finalTop = canvasBgTopEdge + ((basePos.top + adj.deltaTop) * dynamicScale); // Removed -10, will add +10 below
+
+                const finalTop = canvasBgTopEdge + ((basePos.top + adj.deltaTop) * dynamicScale);
                 const finalLeft = trainLeftEdge + ((basePos.left + adj.deltaLeft) * dynamicScale);
                 if (!elementToImage[sym] || !elementToImage[sym].path) continue;
                 const clueFabImg = await loadImage(elementToImage[sym].path);
                 const scaleFactor = Math.min(conceptualBoxSizeForScaling / clueFabImg.width, conceptualBoxSizeForScaling / clueFabImg.height);
                 clueFabImg.scale(scaleFactor).set({
-                    left: finalLeft + ((WAGON_BOX_SIZE_BASE * dynamicScale - clueFabImg.getScaledWidth()) / 2),
-                    top: finalTop + ((WAGON_BOX_SIZE_BASE * dynamicScale - clueFabImg.getScaledHeight()) / 2) + 5, // Move down 5px to center
+                    left: finalLeft + ((WAGON_BOX_SIZE_BASE * dynamicScale - clueFabImg.getScaledWidth()) / 2) - 8,
+                    top: finalTop + ((WAGON_BOX_SIZE_BASE * dynamicScale - clueFabImg.getScaledHeight()) / 2) - 20,
                     originX: 'left', originY: 'top', 
                     selectable: true, 
                     evented: true,
@@ -2040,9 +2216,13 @@
             const missing = seqArr.slice(currentClueCount);
             if (missing.length) {
                 const shuffledMissingSymbols = missing.map(sym => elementToImage[sym]).sort(() => Math.random() - 0.5);
-                const enlargedCutBoxSize = (WAGON_BOX_SIZE_BASE * 0.6156 * dynamicScale) * 1.2;
-                const startXCut = trainLeftEdge + (145 * dynamicScale), cutBoxTop_full = canvasBgTopEdge + (470 * dynamicScale);
-                const cutSpacing = 10 * dynamicScale;
+                const enlargedCutBoxSize = (WAGON_BOX_SIZE_BASE * 0.6156 * dynamicScale) * 1.2 * 1.2 * 1.1; // Increased by 10% more
+                const cutSpacing = 18 * dynamicScale; // Increased padding between cutouts
+
+                // Center cutouts horizontally
+                const totalCutoutsWidth = (shuffledMissingSymbols.length * enlargedCutBoxSize) + ((shuffledMissingSymbols.length - 1) * cutSpacing);
+                const startXCut = (currentCanvasConfig.width - totalCutoutsWidth) / 2;
+                const cutBoxTop_full = canvasBgTopEdge + (470 * dynamicScale) + 100;
 
                 for (let i = 0; i < shuffledMissingSymbols.length; i++) {
                     const imgObj = shuffledMissingSymbols[i];
@@ -2132,10 +2312,10 @@
                 };
             }
         });
-        const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground);
+        const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement);
 
         // --- Part C, Step 2: Precise Removal ---
-        const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground);
+        const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderElement);
         objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
 
         try {
@@ -2156,6 +2336,18 @@
                     resolve();
                 }));
             }
+
+            // Copy header elements from worksheet canvas
+            const headerElements = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
+            for (const headerEl of headerElements) {
+                await new Promise(resolve => headerEl.clone(cloned => {
+                    if (headerEl.isPageBorder) cloned.set({ isPageBorder: true });
+                    if (headerEl.isHeaderDesc) cloned.set({ isHeaderDesc: true });
+                    if (headerEl.isHeaderElement) cloned.set({ isHeaderElement: true });
+                    answerKeyCanvas.add(cloned);
+                    resolve();
+                }, ['isPageBorder', 'isHeaderDesc', 'isHeaderElement', 'isBackground', 'isBorder']));
+            }
             
             // --- Part C, Step 4: Regenerate, Re-apply, and Finalize ---
             const answerKeyObjects = [];
@@ -2166,16 +2358,28 @@
             fullPatternSequence = fullPatternSequence.slice(0, 11);
 
             const trainBgImg = await loadImage(currentTemplatePath);
-            trainBgImg.scaleToWidth(currentCanvasConfig.width);
-            
-            // Center the train on the page
-            const trainCenterX = (currentCanvasConfig.width - trainBgImg.getScaledWidth()) / 2;
-            const trainCenterY = (currentCanvasConfig.height - trainBgImg.getScaledHeight()) / 2;
+
+            // Calculate available space within borders (same as worksheet)
+            const HEADER_HEIGHT = 200;
+            const BORDER_PADDING = 70;
+            const TOP_MARGIN = 20;
+            const availableWidth = currentCanvasConfig.width - (BORDER_PADDING * 2);
+            const availableHeight = currentCanvasConfig.height - HEADER_HEIGHT - TOP_MARGIN - BORDER_PADDING;
+
+            // Scale train to fit within available space
+            const scaleToFitWidth = availableWidth / trainBgImg.width;
+            const scaleToFitHeight = availableHeight / trainBgImg.height;
+            const trainScale = Math.min(scaleToFitWidth, scaleToFitHeight);
+            trainBgImg.scale(trainScale);
+
+            // Position train closer to header with centered horizontal alignment
+            const trainCenterX = BORDER_PADDING + (availableWidth - trainBgImg.getScaledWidth()) / 2;
+            const trainCenterY = HEADER_HEIGHT + TOP_MARGIN + 50;
             
             trainBgImg.set({
                 originX: 'left', originY: 'top',
-                left: trainCenterX + 10,
-                top: trainCenterY + 20,
+                left: trainCenterX,
+                top: trainCenterY,
                 isTrainTemplate: true, selectable: false, evented: false
             });
             answerKeyObjects.push(trainBgImg);
@@ -2194,15 +2398,15 @@
                 const adj = EXTRA_ADJUSTMENTS[idx];
                 if (!basePos || !adj) return;
                 
-                const finalTop = canvasBgTopEdge + ((basePos.top + adj.deltaTop) * dynamicScale); // Removed -10, will add +10 below
+                const finalTop = canvasBgTopEdge + ((basePos.top + adj.deltaTop) * dynamicScale);
                 const finalLeft = trainLeftEdge + ((basePos.left + adj.deltaLeft) * dynamicScale);
                 if (!elementToImage[sym] || !elementToImage[sym].path) return;
 
                 const promise = loadImage(elementToImage[sym].path).then(img => {
                     const scaleFactor = Math.min(conceptualBoxSizeForScaling / img.width, conceptualBoxSizeForScaling / img.height);
                     img.scale(scaleFactor).set({
-                        left: finalLeft + ((WAGON_BOX_SIZE_BASE * dynamicScale - img.getScaledWidth()) / 2),
-                        top: finalTop + ((WAGON_BOX_SIZE_BASE * dynamicScale - img.getScaledHeight()) / 2) + 5, // Move down 5px to center
+                        left: finalLeft + ((WAGON_BOX_SIZE_BASE * dynamicScale - img.getScaledWidth()) / 2) - 8,
+                        top: finalTop + ((WAGON_BOX_SIZE_BASE * dynamicScale - img.getScaledHeight()) / 2) - 20,
                         originX: 'left', originY: 'top', 
                         selectable: true, 
                         evented: true,

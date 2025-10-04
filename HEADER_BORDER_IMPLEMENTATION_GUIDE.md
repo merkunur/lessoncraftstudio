@@ -112,6 +112,401 @@ Your header and border design must be:
 
 ---
 
+## 📐 CRITICAL: Portrait/Landscape Paper Type Switching
+
+**THIS IS MANDATORY FOR ALL APPS!** Every worksheet app must support seamless switching between portrait and landscape orientations with professional, responsive designs.
+
+### The Problem We're Solving
+
+When users switch from portrait (612×792) to landscape (792×612) or vice versa:
+- Headers must regenerate with appropriate layouts (compact for landscape, full-width for portrait)
+- Borders must resize to fit new dimensions
+- Worksheet content must reposition and reflow
+- Old headers/borders must be completely removed (no duplication!)
+- Transforms should NOT be preserved (content needs new layout)
+
+### ⚠️ CRITICAL BUG TO AVOID: Recursive Header Nesting
+
+**NEVER miss `!o.isHeaderElement` in the `userAddedObjects` filter!** This causes headers to be treated as user-added objects, leading to recursive nesting where headers contain headers infinitely.
+
+### Required Implementation Steps
+
+#### 1. Add Responsive Design to createHeaderGroup()
+
+Your `createHeaderGroup()` function MUST detect orientation and create appropriate layouts:
+
+```javascript
+function createHeaderGroup(canvas) {
+    const defaultHeaders = { /* ... translations ... */ };
+
+    const locale = currentLocale || 'en';
+    const defaults = defaultHeaders[locale] || defaultHeaders.en;
+    const title = defaults.title;
+    const description = defaults.description;
+
+    // Get current canvas dimensions for responsive design
+    const pageWidth = currentCanvasConfig.width;
+    const pageHeight = currentCanvasConfig.height;
+    const isLandscape = pageWidth > pageHeight;
+
+    const objects = [];
+
+    // Outer border - responsive to page size
+    const margin = 34;
+    const strokeWidth = 8;
+    const borderWidth = pageWidth - (margin * 2);
+    const borderHeight = pageHeight - (margin * 2);
+
+    const outerBorder = new fabric.Rect({
+        left: margin,
+        top: margin,
+        width: borderWidth,
+        height: borderHeight,
+        fill: 'transparent',
+        stroke: '#FF8C42', // Your app's color
+        strokeWidth: strokeWidth,
+        rx: 12,
+        ry: 12,
+        selectable: true,
+        hasControls: true,
+        isPageBorder: true
+    });
+    objects.push(outerBorder);
+
+    // LANDSCAPE MODE: Compact, centered header
+    if (isLandscape) {
+        const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+        const headerHeight = 70;
+        const centerX = pageWidth / 2;
+        const headerTop = 60;
+
+        // Compact yellow background
+        const bgRect = new fabric.Rect({
+            left: centerX - maxHeaderWidth / 2,
+            top: headerTop,
+            width: maxHeaderWidth,
+            height: headerHeight,
+            fill: '#FFD93D', // Your app's color
+            rx: 35,
+            ry: 35,
+            selectable: true,
+            isHeaderElement: true
+        });
+        objects.push(bgRect);
+
+        // White pill for title
+        const whitePill = new fabric.Rect({
+            left: centerX - (maxHeaderWidth - 40) / 2,
+            top: headerTop + 10,
+            width: maxHeaderWidth - 40,
+            height: 50,
+            fill: '#FFFFFF',
+            rx: 25,
+            ry: 25,
+            selectable: true,
+            isHeaderElement: true
+        });
+        objects.push(whitePill);
+
+        // Title - compact size
+        let titleFontSize = 36;
+        if (title.length > 12) titleFontSize = 32;
+        if (title.length > 15) titleFontSize = 28;
+
+        const titleText = new fabric.IText(title, {
+            left: centerX,
+            top: headerTop + 35,
+            fontSize: titleFontSize,
+            fontFamily: 'Fredoka, sans-serif',
+            fontWeight: '700',
+            fill: '#D9534F', // Your app's color
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'center',
+            selectable: true,
+            editable: true,
+            isHeaderElement: true
+        });
+        objects.push(titleText);
+
+        // Description - compact
+        const descText = new fabric.Textbox(description, {
+            left: centerX,
+            top: headerTop + headerHeight + 5,
+            width: maxHeaderWidth - 20,
+            fontSize: 14,
+            fontFamily: 'Quicksand, sans-serif',
+            fontWeight: '500',
+            fill: '#8B4513', // Your app's color
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'top',
+            selectable: true,
+            editable: true,
+            hasControls: true,
+            isHeaderDesc: true
+        });
+        objects.push(descText);
+
+    } else {
+        // PORTRAIT MODE: Full-width professional header
+        const headerMargin = 70;
+        const headerWidth = pageWidth - (headerMargin * 2);
+        const centerX = pageWidth / 2;
+
+        const bgRect = new fabric.Rect({
+            left: headerMargin,
+            top: 70,
+            width: headerWidth,
+            height: 100,
+            fill: '#FFD93D', // Your app's color
+            rx: 15,
+            ry: 15,
+            selectable: true,
+            isHeaderElement: true
+        });
+        objects.push(bgRect);
+
+        // White pill
+        const whitePill = new fabric.Rect({
+            left: headerMargin + 20,
+            top: 85,
+            width: headerWidth - 40,
+            height: 70,
+            fill: '#FFFFFF',
+            rx: 35,
+            ry: 35,
+            selectable: true,
+            isHeaderElement: true
+        });
+        objects.push(whitePill);
+
+        // Title - full size
+        let titleFontSize = 48;
+        if (title.length > 12) titleFontSize = 40;
+        if (title.length > 15) titleFontSize = 36;
+        if (title.length > 18) titleFontSize = 32;
+        if (title.length > 22) titleFontSize = 28;
+
+        const titleText = new fabric.IText(title, {
+            left: centerX,
+            top: 120,
+            fontSize: titleFontSize,
+            fontFamily: 'Fredoka, sans-serif',
+            fontWeight: '700',
+            fill: '#D9534F', // Your app's color
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'center',
+            selectable: true,
+            editable: true,
+            isHeaderElement: true
+        });
+        objects.push(titleText);
+
+        // Description
+        const descText = new fabric.Textbox(description, {
+            left: centerX,
+            top: 190,
+            width: Math.min(450, pageWidth - 150),
+            fontSize: 20,
+            fontFamily: 'Quicksand, sans-serif',
+            fontWeight: '500',
+            fill: '#8B4513', // Your app's color
+            textAlign: 'center',
+            originX: 'center',
+            originY: 'top',
+            selectable: true,
+            editable: true,
+            hasControls: true,
+            isHeaderDesc: true
+        });
+        objects.push(descText);
+    }
+
+    return objects;
+}
+```
+
+#### 2. Update Canvas Dimensions Properly
+
+In your `updateCanvasDisplayDimensions()` function, you MUST set both the actual canvas dimensions AND the viewport dimensions:
+
+```javascript
+function updateCanvasDisplayDimensions(width, height, fromLoad = false) {
+    currentCanvasConfig.width = width;
+    currentCanvasConfig.height = height;
+
+    // Calculate display scaling...
+    const isLandscape = width > height;
+    const baseScale = 1.25;
+    const landscapeBonus = isLandscape ? 1.25 : 1.0;
+    const displayScale = baseScale * landscapeBonus;
+
+    const scaledWidth = width * displayScale;
+    const scaledHeight = height * displayScale;
+
+    const availableWidth = /* calculate from container */;
+    const availableHeight = /* calculate from container */;
+    const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+    const displayWidth = scaledWidth * scaleRatio;
+    const displayHeight = scaledHeight * scaleRatio;
+
+    [worksheetCanvas, answerKeyCanvas].forEach(c => {
+        if (c) {
+            // CRITICAL: Set actual canvas dimensions FIRST
+            c.setWidth(width);
+            c.setHeight(height);
+
+            // Then set zoom and viewport
+            const finalZoom = (displayWidth / width);
+            c.setZoom(finalZoom);
+            c.setDimensions({
+                width: displayWidth,
+                height: displayHeight
+            });
+
+            c.calcOffset();
+            c.renderAll();
+        }
+    });
+
+    if (!fromLoad) {
+        pageWidthInput.value = width;
+        pageHeightInput.value = height;
+    }
+}
+```
+
+#### 3. Add Auto-Regeneration on Page Size Change
+
+Add a recursion guard and auto-regenerate both worksheet and answer key:
+
+```javascript
+let isRegenerating = false; // Global guard flag
+
+pageSizeSelect.addEventListener('change', async function() {
+    const selectedValue = this.value;
+    if (selectedValue === 'custom') {
+        customPageSizeInputsDiv.style.display = 'block';
+    } else {
+        customPageSizeInputsDiv.style.display = 'none';
+        const [w, h] = selectedValue.split('x').map(Number);
+        updateCanvasDisplayDimensions(w, h);
+
+        // Auto-regenerate with guard
+        if (worksheetCanvas && worksheetCanvas.problemsData && !isRegenerating) {
+            isRegenerating = true;
+            try {
+                await generateWorksheet();
+
+                // Also regenerate answer key if it exists
+                const hasAnswerKey = answerKeyCanvas && answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem);
+                if (hasAnswerKey) {
+                    await generateAnswerKeyFromCanvas();
+                }
+            } finally {
+                isRegenerating = false;
+            }
+        }
+    }
+});
+```
+
+#### 4. Fix shouldPreserveTransforms Logic
+
+**CRITICAL**: Check BOTH exercise count AND canvas dimensions:
+
+```javascript
+// In generateWorksheet()
+const oldTransforms = {};
+let oldExerciseCount = 0;
+let oldCanvasWidth = worksheetCanvas.getWidth();
+let oldCanvasHeight = worksheetCanvas.getHeight();
+
+const userAddedObjects = worksheetCanvas.getObjects().filter(o =>
+    !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement
+);
+
+worksheetCanvas.getObjects().forEach(o => {
+    if (o.isGeneratedItem && o.originalIndex !== undefined) {
+        oldExerciseCount++;
+        oldTransforms[o.originalIndex] = {
+            left: o.left, top: o.top, scaleX: o.scaleX, scaleY: o.scaleY, angle: o.angle
+        };
+    }
+});
+
+// Only preserve transforms if BOTH count AND dimensions haven't changed
+const canvasDimensionsChanged = (oldCanvasWidth !== currentCanvasConfig.width || oldCanvasHeight !== currentCanvasConfig.height);
+const shouldPreserveTransforms = (oldExerciseCount === currentProblemCount) && !canvasDimensionsChanged;
+```
+
+#### 5. CRITICAL: Correct userAddedObjects Filter
+
+**THIS IS THE #1 BUG!** The `userAddedObjects` filter MUST include `!o.isHeaderElement`:
+
+```javascript
+// ❌ WRONG - Causes recursive header nesting!
+const userAddedObjects = worksheetCanvas.getObjects().filter(o =>
+    !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc
+);
+
+// ✅ CORRECT - Prevents header duplication
+const userAddedObjects = worksheetCanvas.getObjects().filter(o =>
+    !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement
+);
+```
+
+**Apply this to BOTH worksheet and answer key generation functions!**
+
+#### 6. Adjust Starting Y Position
+
+Different header heights for landscape vs portrait:
+
+```javascript
+const headerObjects = createHeaderGroup(worksheetCanvas);
+if (headerObjects) {
+    worksheetCanvas.add(...headerObjects);
+}
+
+let currentY = 20;
+if (headerObjects && headerObjects.length > 0) {
+    const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+    currentY = isLandscape ? 150 : 220; // Compact vs full header
+}
+
+// Start rendering content from currentY
+```
+
+### Testing Protocol
+
+1. Generate worksheet in portrait mode (612×792)
+2. Generate answer key
+3. Switch to landscape (792×612) - worksheet and answer key should regenerate automatically
+4. Verify:
+   - ✅ Headers are compact and centered in landscape
+   - ✅ Headers are full-width in portrait
+   - ✅ No duplicate headers
+   - ✅ No recursive header nesting
+   - ✅ Borders fit page dimensions
+   - ✅ Content repositions correctly
+5. Switch back to portrait - verify again
+6. Hard refresh (Ctrl+F5) and repeat
+
+### Common Bugs and Solutions
+
+| Bug | Cause | Solution |
+|-----|-------|----------|
+| Duplicate headers | Missing `!o.isHeaderElement` in filter | Add to userAddedObjects filter |
+| Recursive header nesting | Header elements preserved as user objects | Fix userAddedObjects filter |
+| Exercises not repositioning | shouldPreserveTransforms only checks count | Check canvasDimensionsChanged too |
+| Canvas dimensions wrong | Only viewport updated, not actual size | Call c.setWidth() and c.setHeight() |
+| Headers not regenerating | No auto-regeneration on page change | Add event listener logic |
+| Infinite regeneration loop | No recursion guard | Add isRegenerating flag |
+
+---
+
 ## Implementation Code Pattern
 
 ### ⚠️ IMPORTANT: The colors shown below are EXAMPLES ONLY

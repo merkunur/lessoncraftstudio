@@ -472,7 +472,7 @@
             <div class="accordion-content">
                 <h4 data-translate="pattern.worksheet.global.settings">Global Settings</h4>
                 <label for="exerciseCount" data-translate="pattern.worksheet.exercises.count">Number of Exercises (1-8):</label>
-                <input type="number" id="exerciseCount" value="3" min="1" max="8">
+                <input type="number" id="exerciseCount" value="5" min="1" max="8">
                 <label for="worksheetThemeSelect" data-translate="pattern.worksheet.overall.theme">Overall Worksheet Theme:</label>
                 <select id="worksheetThemeSelect">
                     <option value="none" data-translate="pattern.worksheet.theme.none">None (Use individual settings)</option>
@@ -1188,7 +1188,7 @@
         }
 
         function clearAll() {
-            ui.exerciseCount.value = 3;
+            ui.exerciseCount.value = 5;
             updateExerciseCount();
             currentPuzzleSetupIndex = 0;
             ui.configurePuzzleSelect.value = "0";
@@ -1618,10 +1618,134 @@
             return results;
         }
 
+        function createHeaderGroup(canvas) {
+            const defaultHeaders = {
+                en: { title: 'Pattern Puzzles', description: 'Complete each pattern by finding what comes next!' },
+                de: { title: 'Musterrätsel', description: 'Vervollständige jedes Muster, indem du herausfindest, was als nächstes kommt!' },
+                fr: { title: 'Puzzles de Motifs', description: 'Complète chaque motif en trouvant ce qui vient ensuite!' },
+                es: { title: 'Rompecabezas de Patrones', description: '¡Completa cada patrón encontrando lo que sigue!' },
+                it: { title: 'Puzzle di Schemi', description: 'Completa ogni schema trovando cosa viene dopo!' },
+                pt: { title: 'Quebra-cabeças de Padrões', description: 'Complete cada padrão encontrando o que vem a seguir!' },
+                nl: { title: 'Patroonpuzzels', description: 'Voltooi elk patroon door te vinden wat er volgt!' },
+                sv: { title: 'Mönsterpussel', description: 'Slutför varje mönster genom att hitta vad som kommer härnäst!' },
+                da: { title: 'Mønstergåder', description: 'Fuldfør hvert mønster ved at finde, hvad der kommer næste!' },
+                no: { title: 'Mønstergåter', description: 'Fullfør hvert mønster ved å finne hva som kommer neste!' },
+                fi: { title: 'Kuviotehtävät', description: 'Täydennä jokainen kuvio löytämällä, mikä tulee seuraavaksi!' }
+            };
+
+            const locale = currentLocale || 'en';
+            const defaults = defaultHeaders[locale] || defaultHeaders.en;
+            const title = defaults.title;
+            const description = defaults.description;
+
+            const objects = [];
+
+            // Outer border - royal purple for logic/thinking
+            const outerBorder = new fabric.Rect({
+                left: 34,
+                top: 34,
+                width: 544,
+                height: 724,
+                fill: 'transparent',
+                stroke: '#9C27B0',
+                strokeWidth: 8,
+                rx: 12,
+                ry: 12,
+                selectable: true,
+                hasControls: true,
+                isPageBorder: true
+            });
+            objects.push(outerBorder);
+
+            // Header background - vibrant teal
+            const bgRect = new fabric.Rect({
+                left: 70,
+                top: 70,
+                width: 472,
+                height: 100,
+                fill: '#00ACC1',
+                rx: 15,
+                ry: 15,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
+
+            // White pill for title
+            const whitePill = new fabric.Rect({
+                left: 90,
+                top: 85,
+                width: 432,
+                height: 70,
+                fill: '#FFFFFF',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
+
+            // Title - Dynamic size based on length
+            let titleFontSize = 48;
+            if (title.length > 12) titleFontSize = 40;
+            if (title.length > 15) titleFontSize = 36;
+            if (title.length > 18) titleFontSize = 32;
+            if (title.length > 22) titleFontSize = 28;
+
+            const titleText = new fabric.IText(title, {
+                left: 306,
+                top: 120,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#4A148C',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description text
+            const descText = new fabric.Textbox(description, {
+                left: 306,
+                top: 190,
+                width: 450,
+                fontSize: 20,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#388E3C',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderElement: true,
+                isHeaderDesc: true
+            });
+            objects.push(descText);
+
+            return objects;
+        }
+
+        function createPageBorder(canvas) {
+            return null;
+        }
+
         function enforceZOrder(canvas) {
             if (!canvas) return;
             const background = canvas.getObjects().find(o => o.isBackground);
             if (background) canvas.sendToBack(background);
+
+            // Send all page borders to back
+            const pageBorders = canvas.getObjects().filter(o => o.isPageBorder);
+            pageBorders.forEach(border => {
+                canvas.sendToBack(border);
+                if (background) canvas.bringForward(border);
+            });
 
             const border = canvas.getObjects().find(o => o.isBorder);
             if (border) {
@@ -1633,7 +1757,15 @@
         async function renderWorksheetFromData(puzzlesToRender) {
             const canvas = worksheetCanvas;
             const oldTransforms = {};
-            const userAddedObjects = canvas.getObjects().filter(o => !o.isWorksheetItem && !o.isBorder && !o.isBackground);
+            const userAddedObjects = canvas.getObjects().filter(o => !o.isWorksheetItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement);
+
+            // Remove existing header and borders
+            const oldHeadersAndBorders = canvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
+            oldHeadersAndBorders.forEach(o => canvas.remove(o));
+
+            // Create and add header with borders
+            const headerObjects = createHeaderGroup(canvas);
+            headerObjects.forEach(obj => canvas.add(obj));
 
             // Step 1: Preserve state
             canvas.getObjects().forEach(obj => {
@@ -1644,7 +1776,7 @@
                     };
                 }
             });
-            
+
             // Step 2: Precise removal of old content
             const oldGeneratedItems = canvas.getObjects().filter(o => o.isWorksheetItem);
             oldGeneratedItems.forEach(o => canvas.remove(o));
@@ -1710,8 +1842,8 @@
         async function renderAnswerKeyFromData(puzzlesToRender) {
             const canvas = answerKeyCanvas;
             const oldTransforms = {};
-            const userAddedObjects = canvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground);
-            
+            const userAddedObjects = canvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement);
+
             // Step 1: Preserve state
             canvas.getObjects().forEach(obj => {
                 if (obj.isAnswerKeyItem) {
@@ -1723,14 +1855,14 @@
             });
 
             // Step 2: Precise Removal
-            const objectsToRemove = canvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground);
+            const objectsToRemove = canvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderElement);
             objectsToRemove.forEach(o => canvas.remove(o));
 
-            // Step 3: Clone Decoratives
+            // Step 3: Clone Decoratives (including header and borders)
             const background = worksheetCanvas.getObjects().find(o => o.isBackground);
             if (background) {
                 await new Promise(resolve => background.clone(cloned => {
-                    cloned.set({ isBackground: true }); 
+                    cloned.set({ isBackground: true });
                     canvas.add(cloned);
                     resolve();
                 }));
@@ -1739,6 +1871,18 @@
             if (border) {
                  await new Promise(resolve => border.clone(cloned => {
                     cloned.set({ isBorder: true });
+                    canvas.add(cloned);
+                    resolve();
+                }));
+            }
+
+            // Clone header elements and page borders from worksheet
+            const headerAndBorderObjects = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
+            for (const obj of headerAndBorderObjects) {
+                await new Promise(resolve => obj.clone(cloned => {
+                    if (obj.isPageBorder) cloned.set({ isPageBorder: true });
+                    if (obj.isHeaderElement) cloned.set({ isHeaderElement: true });
+                    if (obj.isHeaderDesc) cloned.set({ isHeaderDesc: true });
                     canvas.add(cloned);
                     resolve();
                 }));
@@ -1970,20 +2114,23 @@
 
         function layoutAndRenderPuzzleCards(canvas, cards) {
             if (!cards || cards.length === 0) return;
-            
+
             const pageWidth = currentCanvasConfig.width;
             const pageHeight = currentCanvasConfig.height;
             const isLandscape = pageWidth > pageHeight;
             const exerciseCount = cards.length;
-            
+
+            // Account for header height
+            const HEADER_HEIGHT = 220;
+
             // SIMPLE, CLEAR MARGINS - consistent for professional look
             const margin = {
-                top: Math.round(pageHeight * 0.08),
+                top: HEADER_HEIGHT + 22,
                 bottom: Math.round(pageHeight * 0.08),
                 left: Math.round(pageWidth * 0.08),
                 right: Math.round(pageWidth * 0.08)
             };
-            
+
             // Available space for content
             const availableWidth = pageWidth - margin.left - margin.right;
             const availableHeight = pageHeight - margin.top - margin.bottom;
@@ -2003,7 +2150,7 @@
             
             // EVENLY DISTRIBUTE exercises across the page
             // Calculate spacing to fill the entire available height
-            const horizontalSpacing = columns > 1 ? Math.round(availableWidth * 0.05) : 0;
+            const horizontalSpacing = columns > 1 ? Math.round(availableWidth * 0.05 * 0.95) : 0;
             
             // Calculate vertical spacing to distribute evenly
             let verticalSpacing;
@@ -2012,7 +2159,7 @@
                 const estimatedCardHeight = 100; // Estimate for initial calculation
                 const totalCardsHeight = estimatedCardHeight * rows;
                 const remainingSpace = availableHeight - totalCardsHeight;
-                verticalSpacing = Math.max(20, remainingSpace / (rows - 1));
+                verticalSpacing = Math.max(20, remainingSpace / (rows - 1)) * 0.95;
             } else {
                 verticalSpacing = 0;
             }
@@ -2055,8 +2202,8 @@
                 // Calculate exact spacing to fill entire height
                 const totalCardsHeight = actualCardHeight * rows;
                 const availableForSpacing = availableHeight - totalCardsHeight;
-                finalVerticalSpacing = availableForSpacing / (rows - 1);
-                
+                finalVerticalSpacing = (availableForSpacing / (rows - 1)) * 0.95;
+
                 // Ensure minimum spacing
                 if (finalVerticalSpacing < 10) {
                     finalVerticalSpacing = 10;
@@ -2819,7 +2966,7 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
                 updateCanvasDisplayDimensions(width, height, false);
 
                 // Set parameters
-                ui.exerciseCount.value = 6;
+                ui.exerciseCount.value = 5;
                 ui.exerciseCount.dispatchEvent(new Event('change'));
 
                 ui.useWorksheetThemeCheckbox.checked = true;

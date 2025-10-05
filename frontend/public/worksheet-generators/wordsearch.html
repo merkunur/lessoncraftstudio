@@ -1464,14 +1464,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
         const newObjects = await createPuzzleObjects(lastGeneratedData, false);
 
-        // Apply old transforms if they exist and we are not doing a fresh generation
-        if (Object.keys(oldTransforms).length > 0) {
-            newObjects.forEach(obj => {
-                if (obj.originalIndex !== undefined && oldTransforms[obj.originalIndex]) {
-                    obj.set(oldTransforms[obj.originalIndex]);
-                }
-            });
-        }
+        // Don't apply old transforms for wordsearch since each generation creates a new puzzle
+        // with different words - applying old positions causes overlaps
+        // Transform preservation is only needed for user-added objects (handled separately)
 
         worksheetCanvas.add(...newObjects);
 
@@ -2241,9 +2236,27 @@ document.addEventListener("DOMContentLoaded", function() {
                 img.onload = function() {
                     const fabricImg = new fabric.Image(img);
                     fabricImg.scaleToHeight(config.height);
+
+                    // Recalculate position using same logic as text elements
+                    const i = config.index;
+                    const row = Math.floor(i / itemsPerRow);
+                    const col = i % itemsPerRow;
+
+                    // Calculate proper image position
+                    const imageTopOffset = config.showText ? itemHeight * 0.28 : itemHeight * 0.5;
+                    let finalLeft, finalTop;
+
+                    if (isLandscape) {
+                        finalLeft = marginX + totalGridWidth + usableWidth * 0.05 + col * itemWidth + itemWidth/2;
+                        finalTop = marginY + row * itemHeight * 1.5 + imageTopOffset;
+                    } else {
+                        finalLeft = marginX + col * itemWidth + itemWidth/2;
+                        finalTop = marginY + totalGridHeight + usableHeight * 0.05 + row * itemHeight * 1.5 + imageTopOffset;
+                    }
+
                     fabricImg.set({
-                        left: marginX + config.baseLeft,
-                        top: marginY + config.baseTop,
+                        left: finalLeft,
+                        top: finalTop,
                         originX: 'center',
                         originY: 'center',
                         [tag]: true,
@@ -2255,10 +2268,28 @@ document.addEventListener("DOMContentLoaded", function() {
                 };
                 img.onerror = function() {
                     console.warn('Failed to load image:', config.path);
+
+                    // Recalculate position using same logic as text elements
+                    const i = config.index;
+                    const row = Math.floor(i / itemsPerRow);
+                    const col = i % itemsPerRow;
+
+                    // Calculate proper placeholder position
+                    const imageTopOffset = config.showText ? itemHeight * 0.28 : itemHeight * 0.5;
+                    let finalLeft, finalTop;
+
+                    if (isLandscape) {
+                        finalLeft = marginX + totalGridWidth + usableWidth * 0.05 + col * itemWidth + itemWidth/2;
+                        finalTop = marginY + row * itemHeight * 1.5 + imageTopOffset;
+                    } else {
+                        finalLeft = marginX + col * itemWidth + itemWidth/2;
+                        finalTop = marginY + totalGridHeight + usableHeight * 0.05 + row * itemHeight * 1.5 + imageTopOffset;
+                    }
+
                     // Add transparent placeholder on error
                     const placeholder = new fabric.Rect({
-                        left: marginX + config.baseLeft,
-                        top: marginY + config.baseTop,
+                        left: finalLeft,
+                        top: finalTop,
                         width: config.height * 0.8,
                         height: config.height,
                         fill: 'transparent',

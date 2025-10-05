@@ -1638,17 +1638,27 @@
             const title = defaults.title;
             const description = defaults.description;
 
+            // Get current canvas dimensions for responsive design
+            const pageWidth = currentCanvasConfig.width;
+            const pageHeight = currentCanvasConfig.height;
+            const isLandscape = pageWidth > pageHeight;
+
             const objects = [];
 
-            // Outer border - royal purple for logic/thinking
+            // Outer border - responsive to page size (royal purple for logic/thinking)
+            const margin = 34;
+            const strokeWidth = 8;
+            const borderWidth = pageWidth - (margin * 2);
+            const borderHeight = pageHeight - (margin * 2);
+
             const outerBorder = new fabric.Rect({
-                left: 34,
-                top: 34,
-                width: 544,
-                height: 724,
+                left: margin,
+                top: margin,
+                width: borderWidth,
+                height: borderHeight,
                 fill: 'transparent',
                 stroke: '#9C27B0',
-                strokeWidth: 8,
+                strokeWidth: strokeWidth,
                 rx: 12,
                 ry: 12,
                 selectable: true,
@@ -1657,76 +1667,158 @@
             });
             objects.push(outerBorder);
 
-            // Header background - vibrant teal
-            const bgRect = new fabric.Rect({
-                left: 70,
-                top: 70,
-                width: 472,
-                height: 100,
-                fill: '#00ACC1',
-                rx: 15,
-                ry: 15,
-                selectable: true,
-                isHeaderElement: true
-            });
-            objects.push(bgRect);
+            // LANDSCAPE MODE: Compact, centered header
+            if (isLandscape) {
+                const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+                const headerHeight = 70;
+                const centerX = pageWidth / 2;
+                const headerTop = 60;
 
-            // White pill for title
-            const whitePill = new fabric.Rect({
-                left: 90,
-                top: 85,
-                width: 432,
-                height: 70,
-                fill: '#FFFFFF',
-                rx: 35,
-                ry: 35,
-                selectable: true,
-                isHeaderElement: true
-            });
-            objects.push(whitePill);
+                // Vibrant teal header background - compact size
+                const bgRect = new fabric.Rect({
+                    left: centerX - maxHeaderWidth / 2,
+                    top: headerTop,
+                    width: maxHeaderWidth,
+                    height: headerHeight,
+                    fill: '#00ACC1',
+                    rx: 35,
+                    ry: 35,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(bgRect);
 
-            // Title - Dynamic size based on length
-            let titleFontSize = 48;
-            if (title.length > 12) titleFontSize = 40;
-            if (title.length > 15) titleFontSize = 36;
-            if (title.length > 18) titleFontSize = 32;
-            if (title.length > 22) titleFontSize = 28;
+                // White pill for title - compact
+                const whitePill = new fabric.Rect({
+                    left: centerX - (maxHeaderWidth - 40) / 2,
+                    top: headerTop + 10,
+                    width: maxHeaderWidth - 40,
+                    height: 50,
+                    fill: '#FFFFFF',
+                    rx: 25,
+                    ry: 25,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(whitePill);
 
-            const titleText = new fabric.IText(title, {
-                left: 306,
-                top: 120,
-                fontSize: titleFontSize,
-                fontFamily: 'Fredoka, sans-serif',
-                fontWeight: '700',
-                fill: '#4A148C',
-                textAlign: 'center',
-                originX: 'center',
-                originY: 'center',
-                selectable: true,
-                editable: true,
-                isHeaderElement: true
-            });
-            objects.push(titleText);
+                // Title - compact size for landscape
+                let titleFontSize = 36;
+                if (title.length > 12) titleFontSize = 32;
+                if (title.length > 15) titleFontSize = 28;
+                if (title.length > 18) titleFontSize = 24;
 
-            // Description text
-            const descText = new fabric.Textbox(description, {
-                left: 306,
-                top: 190,
-                width: 450,
-                fontSize: 20,
-                fontFamily: 'Quicksand, sans-serif',
-                fontWeight: '500',
-                fill: '#388E3C',
-                textAlign: 'center',
-                originX: 'center',
-                originY: 'top',
-                selectable: true,
-                editable: true,
-                hasControls: true,
-                isHeaderElement: true,
-                isHeaderDesc: true
-            });
-            objects.push(descText);
+                const titleText = new fabric.IText(title, {
+                    left: centerX,
+                    top: headerTop + 35,
+                    fontSize: titleFontSize,
+                    fontFamily: 'Fredoka, sans-serif',
+                    fontWeight: '700',
+                    fill: '#4A148C',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'center',
+                    selectable: true,
+                    editable: true,
+                    isHeaderElement: true
+                });
+                objects.push(titleText);
+
+                // Description - compact below header
+                const descText = new fabric.Textbox(description, {
+                    left: centerX,
+                    top: headerTop + headerHeight + 5,
+                    width: maxHeaderWidth - 20,
+                    fontSize: 14,
+                    fontFamily: 'Quicksand, sans-serif',
+                    fontWeight: '500',
+                    fill: '#388E3C',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'top',
+                    selectable: true,
+                    editable: true,
+                    hasControls: true,
+                    isHeaderDesc: true
+                });
+                objects.push(descText);
+
+            } else {
+                // PORTRAIT MODE: Full-width professional header
+                const headerMargin = 70;
+                const headerWidth = pageWidth - (headerMargin * 2);
+                const centerX = pageWidth / 2;
+
+                // Vibrant teal header background
+                const bgRect = new fabric.Rect({
+                    left: headerMargin,
+                    top: 70,
+                    width: headerWidth,
+                    height: 100,
+                    fill: '#00ACC1',
+                    rx: 15,
+                    ry: 15,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(bgRect);
+
+                // White pill for title
+                const whitePill = new fabric.Rect({
+                    left: headerMargin + 20,
+                    top: 85,
+                    width: headerWidth - 40,
+                    height: 70,
+                    fill: '#FFFFFF',
+                    rx: 35,
+                    ry: 35,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(whitePill);
+
+                // Title - Dynamic size based on length
+                let titleFontSize = 48;
+                if (title.length > 12) titleFontSize = 40;
+                if (title.length > 15) titleFontSize = 36;
+                if (title.length > 18) titleFontSize = 32;
+                if (title.length > 22) titleFontSize = 28;
+
+                const titleText = new fabric.IText(title, {
+                    left: centerX,
+                    top: 120,
+                    fontSize: titleFontSize,
+                    fontFamily: 'Fredoka, sans-serif',
+                    fontWeight: '700',
+                    fill: '#4A148C',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'center',
+                    selectable: true,
+                    editable: true,
+                    isHeaderElement: true
+                });
+                objects.push(titleText);
+
+                // Description text
+                const descText = new fabric.Textbox(description, {
+                    left: centerX,
+                    top: 190,
+                    width: Math.min(450, pageWidth - 150),
+                    fontSize: 20,
+                    fontFamily: 'Quicksand, sans-serif',
+                    fontWeight: '500',
+                    fill: '#388E3C',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'top',
+                    selectable: true,
+                    editable: true,
+                    hasControls: true,
+                    isHeaderDesc: true
+                });
+                objects.push(descText);
+            }
 
             return objects;
         }
@@ -1753,11 +1845,100 @@
                 if (background) canvas.bringForward(border);
             }
         }
-        
+
+        // CRITICAL: Regeneration functions for paper type switching (follows wordsearch pattern)
+        async function regenerateHeadersOnly() {
+            // Only regenerate if worksheet exists
+            if (!lastGeneratedPuzzles || lastGeneratedPuzzles.length === 0) return;
+
+            // Regenerate worksheet canvas
+            await regenerateCanvasLayout(worksheetCanvas, false);
+
+            // Regenerate answer key canvas if it exists
+            const hasAnswerKey = answerKeyCanvas && answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem);
+            if (hasAnswerKey) {
+                await regenerateCanvasLayout(answerKeyCanvas, true);
+            }
+        }
+
+        async function regenerateCanvasLayout(canvas, isAnswerKey) {
+            if (!canvas || !lastGeneratedPuzzles || lastGeneratedPuzzles.length === 0) return;
+
+            // Preserve user-added objects ONLY (NOT generated content)
+            const userAddedObjects = canvas.getObjects().filter(o =>
+                !o.isWorksheetItem &&
+                !o.isAnswerKeyItem &&
+                !o.isBorder &&
+                !o.isBackground &&
+                !o.isPageBorder &&
+                !o.isHeaderDesc &&
+                !o.isHeaderElement
+            );
+
+            // Remove ALL generated content (headers, borders, worksheet/answer key items)
+            const itemTag = isAnswerKey ? 'isAnswerKeyItem' : 'isWorksheetItem';
+            const oldItems = canvas.getObjects().filter(o =>
+                o[itemTag] ||
+                o.isPageBorder ||
+                o.isHeaderDesc ||
+                o.isHeaderElement ||
+                o.isBorder ||
+                o.isBackground
+            );
+            oldItems.forEach(o => canvas.remove(o));
+
+            // For answer key, clone background and border from worksheet
+            if (isAnswerKey) {
+                const background = worksheetCanvas.getObjects().find(o => o.isBackground);
+                if (background) {
+                    await new Promise(resolve => background.clone(cloned => {
+                        cloned.set({ isBackground: true });
+                        canvas.add(cloned);
+                        resolve();
+                    }));
+                }
+                const border = worksheetCanvas.getObjects().find(o => o.isBorder);
+                if (border) {
+                    await new Promise(resolve => border.clone(cloned => {
+                        cloned.set({ isBorder: true });
+                        canvas.add(cloned);
+                        resolve();
+                    }));
+                }
+            }
+
+            // Recreate header with current page dimensions
+            const headerObjects = createHeaderGroup(canvas);
+            if (headerObjects) {
+                headerObjects.forEach(obj => canvas.add(obj));
+            }
+
+            // Recreate puzzle content from stored data with current page dimensions
+            const puzzleCardGroups = await createPuzzleCardGroups(lastGeneratedPuzzles, isAnswerKey ? 'answerKey' : 'worksheet');
+
+            // Add all cards to canvas
+            puzzleCardGroups.forEach(card => {
+                canvas.add(card);
+            });
+
+            // Layout cards with current page dimensions (ALWAYS relayout for dimension changes)
+            layoutAndRenderPuzzleCards(canvas, puzzleCardGroups);
+
+            // Bring user objects back to front
+            enforceZOrder(canvas);
+            userAddedObjects.forEach(obj => canvas.bringToFront());
+            canvas.renderAll();
+        }
+
         async function renderWorksheetFromData(puzzlesToRender) {
             const canvas = worksheetCanvas;
             const oldTransforms = {};
-            const userAddedObjects = canvas.getObjects().filter(o => !o.isWorksheetItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement);
+
+            // CRITICAL: Store old canvas dimensions BEFORE any changes
+            let oldCanvasWidth = canvas.getWidth();
+            let oldCanvasHeight = canvas.getHeight();
+
+            const userAddedObjects = canvas.getObjects().filter(o => !o.isWorksheetItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
 
             // Remove existing header and borders
             const oldHeadersAndBorders = canvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
@@ -1784,9 +1965,12 @@
             // Step 3: Regenerate and Re-apply transforms
             const puzzleCardGroups = await createPuzzleCardGroups(puzzlesToRender, 'worksheet');
 
-            // Check if we need to relayout (when count changes or first generation)
-            const needsRelayout = puzzleCardGroups.length !== Object.keys(oldTransforms).length || 
-                                 Object.keys(oldTransforms).length === 0;
+            // Check if we need to relayout (when count changes, first generation, OR dimensions changed)
+            const canvasDimensionsChanged = (oldCanvasWidth !== currentCanvasConfig.width ||
+                                            oldCanvasHeight !== currentCanvasConfig.height);
+            const needsRelayout = puzzleCardGroups.length !== Object.keys(oldTransforms).length ||
+                                 Object.keys(oldTransforms).length === 0 ||
+                                 canvasDimensionsChanged;
             
             if (needsRelayout) {
                 // Add all cards first
@@ -1842,7 +2026,12 @@
         async function renderAnswerKeyFromData(puzzlesToRender) {
             const canvas = answerKeyCanvas;
             const oldTransforms = {};
-            const userAddedObjects = canvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement);
+
+            // CRITICAL: Store old canvas dimensions BEFORE any changes
+            let oldCanvasWidth = canvas.getWidth();
+            let oldCanvasHeight = canvas.getHeight();
+
+            const userAddedObjects = canvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
 
             // Step 1: Preserve state
             canvas.getObjects().forEach(obj => {
@@ -1890,10 +2079,13 @@
             
             // Step 4: Regenerate, Re-apply, and Finalize
             const puzzleCardGroups = await createPuzzleCardGroups(puzzlesToRender, 'answerKey');
-            
-            // Check if we need to relayout (when count changes or first generation)
-            const needsRelayout = puzzleCardGroups.length !== Object.keys(oldTransforms).length || 
-                                 Object.keys(oldTransforms).length === 0;
+
+            // Check if we need to relayout (when count changes, first generation, OR dimensions changed)
+            const canvasDimensionsChanged = (oldCanvasWidth !== currentCanvasConfig.width ||
+                                            oldCanvasHeight !== currentCanvasConfig.height);
+            const needsRelayout = puzzleCardGroups.length !== Object.keys(oldTransforms).length ||
+                                 Object.keys(oldTransforms).length === 0 ||
+                                 canvasDimensionsChanged;
             
             if (needsRelayout) {
                 // Add all cards first
@@ -2124,8 +2316,9 @@
             const HEADER_HEIGHT = 220;
 
             // SIMPLE, CLEAR MARGINS - consistent for professional look
+            // LANDSCAPE MODE: Move exercises 70 pixels up for better use of space
             const margin = {
-                top: HEADER_HEIGHT + 22,
+                top: isLandscape ? HEADER_HEIGHT + 22 - 70 : HEADER_HEIGHT + 22,
                 bottom: Math.round(pageHeight * 0.08),
                 left: Math.round(pageWidth * 0.08),
                 right: Math.round(pageWidth * 0.08)
@@ -2170,7 +2363,7 @@
             
             // MAXIMIZE SCALE - make cards as large as possible
             let optimalScale = 999; // Start with very high scale
-            
+
             // Find the maximum scale that fits all cards
             cards.forEach(card => {
                 const widthScale = maxCardWidth / card.width;
@@ -2178,12 +2371,19 @@
                 const cardScale = Math.min(widthScale, heightScale);
                 optimalScale = Math.min(optimalScale, cardScale);
             });
-            
+
             // Allow cards to be LARGER than original size if space permits
             const maxScale = 2.0; // Allow up to 2x original size
             const minScale = 0.3; // Minimum for readability
             optimalScale = Math.max(Math.min(optimalScale, maxScale), minScale);
-            
+
+            // LANDSCAPE MODE: Increase exercise size by 19% for better visibility (32.25% - 10%)
+            if (isLandscape) {
+                optimalScale *= 1.19025;
+                // Re-cap after increase
+                optimalScale = Math.min(optimalScale, maxScale);
+            }
+
             // Apply scaling to all cards
             cards.forEach(card => card.scale(optimalScale));
             
@@ -2541,50 +2741,58 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             
             [worksheetCanvas, answerKeyCanvas].forEach(c => {
                 if (c) {
+                    // CRITICAL: Update actual canvas dimensions FIRST
+                    c.setWidth(width);
+                    c.setHeight(height);
+
                     // Apply zoom for display scaling
                     const finalZoom = displayWidth / width;
                     c.setZoom(finalZoom);
-                    
+
                     // CRITICAL: Set dimensions AFTER zoom to ensure viewport matches zoomed size
                     c.setDimensions({
                         width: displayWidth,
                         height: displayHeight
                     });
-                    
+
                     c.calcOffset();
-                    
+
                     // Update hit detection areas for all objects after zoom
                     c.getObjects().forEach(obj => {
                         obj.setCoords();
                     });
-                    
+
                     c.renderAll();
                 }
             });
-            
-            [ui.worksheetCanvasWrapper, ui.answerKeyCanvasWrapper].forEach(w => { 
-                if(w) { 
-                    w.style.width = displayWidth + 'px'; 
-                    w.style.height = displayHeight + 'px'; 
+
+            [ui.worksheetCanvasWrapper, ui.answerKeyCanvasWrapper].forEach(w => {
+                if(w) {
+                    w.style.width = displayWidth + 'px';
+                    w.style.height = displayHeight + 'px';
                 }
             });
-            
+
             ui.pageWidth.value = width;
             ui.pageHeight.value = height;
         }
-        function handlePageSizeChange() {
+        async function handlePageSizeChange() {
             if (this.value === 'custom') {
                 ui.customPageSizeInputs.style.display = 'block';
             } else {
                 ui.customPageSizeInputs.style.display = 'none';
                 const [w, h] = this.value.split('x').map(Number);
                 updateCanvasDisplayDimensions(w, h);
+                // Regenerate header when page size changes
+                await regenerateHeadersOnly();
             }
         }
-        function applyCustomPageSize() {
+        async function applyCustomPageSize() {
             const newWidth = parseInt(ui.pageWidth.value, 10) || currentCanvasConfig.width;
             const newHeight = parseInt(ui.pageHeight.value, 10) || currentCanvasConfig.height;
             updateCanvasDisplayDimensions(newWidth, newHeight);
+            // Regenerate header when page size changes
+            await regenerateHeadersOnly();
         }
         function applyPageColor() {
             const newColor = ui.pageColor.value;

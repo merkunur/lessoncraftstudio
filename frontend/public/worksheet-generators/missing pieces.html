@@ -971,6 +971,7 @@
         let uploadedImages = [];
         let selectedImages = [];
         let lastGeneratedPuzzleData = null;
+        let isRegenerating = false; // Guard flag to prevent infinite regeneration loops
         const downloadMultiplier = 6;
 
         // --- DOM Element References ---
@@ -1134,16 +1135,21 @@
             // Apply to ALL canvases in the app
             [worksheetCanvas, answerKeyCanvas].forEach(c => {
                 if (c) {
+                    // CRITICAL: Set actual canvas dimensions FIRST
+                    c.setWidth(width);
+                    c.setHeight(height);
+
                     // Apply zoom for display scaling
                     const finalZoom = (displayWidth / width);
                     c.setZoom(finalZoom);
-                    
+
                     // Set dimensions AFTER zoom to ensure viewport matches zoomed size
                     c.setDimensions({
                         width: displayWidth,
                         height: displayHeight
                     });
-                    
+
+                    c.calcOffset();
                     c.renderAll();
                 }
             });
@@ -1159,13 +1165,82 @@
             pageWidthInput.value = width;
             pageHeightInput.value = height;
         }
-        pageSizeSelect.addEventListener('change', function() {
+        pageSizeSelect.addEventListener('change', async function() {
             if (this.value === 'custom') {
                 customPageSizeInputsDiv.style.display = 'block';
             } else {
                 customPageSizeInputsDiv.style.display = 'none';
                 const [w, h] = this.value.split('x').map(Number);
                 updateCanvasDisplayDimensions(w, h);
+
+                // Auto-regenerate worksheet and answer key when page size changes
+                if (lastGeneratedPuzzleData && !isRegenerating) {
+                    isRegenerating = true;
+                    try {
+                        const oldTransforms = {};
+                        worksheetCanvas.getObjects().forEach(obj => {
+                            if (obj.isGeneratedItem && !obj.originalIndex.startsWith('option_')) {
+                                oldTransforms[obj.originalIndex] = {
+                                    left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle
+                                };
+                            }
+                        });
+
+                        const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+                        const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem || o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
+                        oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
+
+                        await renderGeneratedContent(worksheetCanvas, lastGeneratedPuzzleData, false, oldTransforms);
+
+                        enforceZOrder(worksheetCanvas);
+                        userAddedObjects.forEach(obj => worksheetCanvas.bringToFront(obj));
+                        worksheetCanvas.renderAll();
+
+                        // Also regenerate answer key if it exists
+                        const hasAnswerKey = answerKeyCanvas && answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem);
+                        if (hasAnswerKey) {
+                            const akOldTransforms = {};
+                            answerKeyCanvas.getObjects().forEach(obj => {
+                                if (obj.isAnswerKeyItem && !obj.originalIndex.startsWith('option_')) {
+                                    akOldTransforms[obj.originalIndex] = {
+                                        left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle
+                                    };
+                                }
+                            });
+
+                            const akUserAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+                            const akObjectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
+                            akObjectsToRemove.forEach(o => answerKeyCanvas.remove(o));
+
+                            const background = worksheetCanvas.getObjects().find(o => o.isBackground);
+                            if (background) {
+                                await new Promise(resolve => background.clone(cloned => {
+                                    cloned.set({ isBackground: true });
+                                    answerKeyCanvas.add(cloned);
+                                    resolve();
+                                }));
+                            }
+                            const border = worksheetCanvas.getObjects().find(o => o.isBorder);
+                            if (border) {
+                                await new Promise(resolve => border.clone(cloned => {
+                                    cloned.set({ isBorder: true });
+                                    answerKeyCanvas.add(cloned);
+                                    resolve();
+                                }));
+                            }
+
+                            await renderGeneratedContent(answerKeyCanvas, lastGeneratedPuzzleData, true, akOldTransforms);
+
+                            enforceZOrder(answerKeyCanvas);
+                            akUserAddedObjects.forEach(obj => answerKeyCanvas.bringToFront(obj));
+                            answerKeyCanvas.renderAll();
+                        }
+                    } catch (error) {
+                        console.error('Error regenerating worksheet on page size change:', error);
+                    } finally {
+                        isRegenerating = false;
+                    }
+                }
             }
         });
         setPageSizeBtn.addEventListener('click', () => {
@@ -1769,17 +1844,27 @@
             const title = defaults.title;
             const description = defaults.description;
 
+            // Get current canvas dimensions for responsive design
+            const pageWidth = currentCanvasConfig.width;
+            const pageHeight = currentCanvasConfig.height;
+            const isLandscape = pageWidth > pageHeight;
+
             const objects = [];
 
-            // Outer border - Bright teal
+            // Outer border - responsive to page size (bright teal)
+            const margin = 34;
+            const strokeWidth = 8;
+            const borderWidth = pageWidth - (margin * 2);
+            const borderHeight = pageHeight - (margin * 2);
+
             const outerBorder = new fabric.Rect({
-                left: 34,
-                top: 34,
-                width: 544,
-                height: 724,
+                left: margin,
+                top: margin,
+                width: borderWidth,
+                height: borderHeight,
                 fill: 'transparent',
                 stroke: '#14B8A6',
-                strokeWidth: 8,
+                strokeWidth: strokeWidth,
                 rx: 12,
                 ry: 12,
                 selectable: true,
@@ -1788,15 +1873,20 @@
             });
             objects.push(outerBorder);
 
-            // Inner border - Hot pink
+            // Inner border - Hot pink (responsive)
+            const innerMargin = 46.5;
+            const innerStrokeWidth = 3;
+            const innerBorderWidth = pageWidth - (innerMargin * 2);
+            const innerBorderHeight = pageHeight - (innerMargin * 2);
+
             const innerBorder = new fabric.Rect({
-                left: 46.5,
-                top: 46.5,
-                width: 519,
-                height: 699,
+                left: innerMargin,
+                top: innerMargin,
+                width: innerBorderWidth,
+                height: innerBorderHeight,
                 fill: 'transparent',
                 stroke: '#EC4899',
-                strokeWidth: 3,
+                strokeWidth: innerStrokeWidth,
                 rx: 8,
                 ry: 8,
                 selectable: true,
@@ -1805,73 +1895,164 @@
             });
             objects.push(innerBorder);
 
-            // Header background - Turquoise
-            const bgRect = new fabric.Rect({
-                left: 70,
-                top: 70,
-                width: 472,
-                height: 100,
-                fill: '#06B6D4',
-                rx: 15,
-                ry: 15,
-                selectable: true
-            });
-            objects.push(bgRect);
+            // LANDSCAPE MODE: Compact, professional header centered at top
+            if (isLandscape) {
+                // Compact header dimensions for landscape (60% of width maximum)
+                const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+                const headerHeight = 70;
+                const pillHeight = 50;
 
-            // White pill for title
-            const whitePill = new fabric.Rect({
-                left: 90,
-                top: 85,
-                width: 432,
-                height: 70,
-                fill: '#FFFFFF',
-                rx: 35,
-                ry: 35,
-                selectable: true
-            });
-            objects.push(whitePill);
+                const centerX = pageWidth / 2;
+                const headerTop = 60;
 
-            // Title - Dynamic size based on length
-            let titleFontSize = 48;
-            if (title.length > 12) titleFontSize = 40;
-            if (title.length > 15) titleFontSize = 36;
-            if (title.length > 18) titleFontSize = 32;
-            if (title.length > 22) titleFontSize = 28;
+                // Turquoise header background - compact size
+                const bgRect = new fabric.Rect({
+                    left: centerX - maxHeaderWidth / 2,
+                    top: headerTop,
+                    width: maxHeaderWidth,
+                    height: headerHeight,
+                    fill: '#06B6D4',
+                    rx: 35,
+                    ry: 35,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(bgRect);
 
-            // Title text - Deep teal
-            const titleText = new fabric.IText(title, {
-                left: 306,
-                top: 120,
-                fontSize: titleFontSize,
-                fontFamily: 'Fredoka, sans-serif',
-                fontWeight: '700',
-                fill: '#0F766E',
-                textAlign: 'center',
-                originX: 'center',
-                originY: 'center',
-                selectable: true,
-                editable: true
-            });
-            objects.push(titleText);
+                // White rounded rectangle for title - compact
+                const whitePill = new fabric.Rect({
+                    left: centerX - (maxHeaderWidth - 40) / 2,
+                    top: headerTop + 10,
+                    width: maxHeaderWidth - 40,
+                    height: pillHeight,
+                    fill: '#FFFFFF',
+                    rx: 25,
+                    ry: 25,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(whitePill);
 
-            // Description text - Rose pink
-            const descText = new fabric.Textbox(description, {
-                left: 306,
-                top: 190,
-                width: 450,
-                fontSize: 20,
-                fontFamily: 'Quicksand, sans-serif',
-                fontWeight: '500',
-                fill: '#DB2777',
-                textAlign: 'center',
-                originX: 'center',
-                originY: 'top',
-                selectable: true,
-                editable: true,
-                hasControls: true,
-                isHeaderDesc: true
-            });
-            objects.push(descText);
+                // Title - Compact size for landscape
+                let titleFontSize = 36;
+                if (title.length > 12) titleFontSize = 32;
+                if (title.length > 15) titleFontSize = 28;
+                if (title.length > 18) titleFontSize = 24;
+
+                const titleText = new fabric.IText(title, {
+                    left: centerX,
+                    top: headerTop + 35,
+                    fontSize: titleFontSize,
+                    fontFamily: 'Fredoka, sans-serif',
+                    fontWeight: '700',
+                    fill: '#0F766E',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'center',
+                    selectable: true,
+                    editable: true,
+                    isHeaderElement: true
+                });
+                objects.push(titleText);
+
+                // Description - Compact for landscape
+                const descText = new fabric.Textbox(description, {
+                    left: centerX,
+                    top: headerTop + headerHeight + 5,
+                    width: maxHeaderWidth - 20,
+                    fontSize: 14,
+                    fontFamily: 'Quicksand, sans-serif',
+                    fontWeight: '500',
+                    fill: '#DB2777',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'top',
+                    selectable: true,
+                    editable: true,
+                    hasControls: true,
+                    isHeaderDesc: true,
+                    isHeaderElement: true
+                });
+                objects.push(descText);
+
+            } else {
+                // PORTRAIT MODE: Full-width professional header
+                const headerMargin = 70;
+                const headerWidth = pageWidth - (headerMargin * 2);
+                const centerX = pageWidth / 2;
+
+                // Header background - Turquoise
+                const bgRect = new fabric.Rect({
+                    left: headerMargin,
+                    top: 70,
+                    width: headerWidth,
+                    height: 100,
+                    fill: '#06B6D4',
+                    rx: 15,
+                    ry: 15,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(bgRect);
+
+                // White pill for title
+                const whitePill = new fabric.Rect({
+                    left: headerMargin + 20,
+                    top: 85,
+                    width: headerWidth - 40,
+                    height: 70,
+                    fill: '#FFFFFF',
+                    rx: 35,
+                    ry: 35,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(whitePill);
+
+                // Title - Dynamic size based on length
+                let titleFontSize = 48;
+                if (title.length > 12) titleFontSize = 40;
+                if (title.length > 15) titleFontSize = 36;
+                if (title.length > 18) titleFontSize = 32;
+                if (title.length > 22) titleFontSize = 28;
+
+                // Title text - Deep teal
+                const titleText = new fabric.IText(title, {
+                    left: centerX,
+                    top: 120,
+                    fontSize: titleFontSize,
+                    fontFamily: 'Fredoka, sans-serif',
+                    fontWeight: '700',
+                    fill: '#0F766E',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'center',
+                    selectable: true,
+                    editable: true,
+                    isHeaderElement: true
+                });
+                objects.push(titleText);
+
+                // Description text - Rose pink
+                const descText = new fabric.Textbox(description, {
+                    left: centerX,
+                    top: 190,
+                    width: Math.min(450, pageWidth - 150),
+                    fontSize: 20,
+                    fontFamily: 'Quicksand, sans-serif',
+                    fontWeight: '500',
+                    fill: '#DB2777',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'top',
+                    selectable: true,
+                    editable: true,
+                    hasControls: true,
+                    isHeaderDesc: true,
+                    isHeaderElement: true
+                });
+                objects.push(descText);
+            }
 
             return objects;
         }
@@ -1881,41 +2062,71 @@
         }
 
         async function renderGeneratedContent(targetCanvas, puzzleData, isAnswerKey, oldTransforms) {
+            // Store old canvas dimensions BEFORE removing objects
+            const oldCanvasWidth = targetCanvas.getWidth();
+            const oldCanvasHeight = targetCanvas.getHeight();
+
             // Clear existing generated items first to prevent overlapping
             const objectsToRemove = targetCanvas.getObjects().filter(obj => {
-                return isAnswerKey ? (obj.isAnswerKeyItem || obj.isPageBorder) : (obj.isGeneratedItem || obj.isPageBorder);
+                return isAnswerKey ? (obj.isAnswerKeyItem || obj.isPageBorder || obj.isHeaderDesc || obj.isHeaderElement) : (obj.isGeneratedItem || obj.isPageBorder || obj.isHeaderDesc || obj.isHeaderElement);
             });
             objectsToRemove.forEach(obj => targetCanvas.remove(obj));
-
-            // Generate header and border
-            const headerObjects = createHeaderGroup(targetCanvas);
-            const headerHeight = headerObjects ? 220 : 0;
 
             // CRITICAL: Use actual page dimensions, not display dimensions
             const canvasWidth = currentCanvasConfig.width;
             const canvasHeight = currentCanvasConfig.height;
 
-            // Professional margins (10% of page)
-            const marginRatio = 0.1;
+            // Check if canvas dimensions changed - if so, DON'T preserve transforms
+            const canvasDimensionsChanged = (oldCanvasWidth !== canvasWidth || oldCanvasHeight !== canvasHeight);
+            const shouldPreserveTransforms = !canvasDimensionsChanged;
+
+            // Generate header and border
+            const headerObjects = createHeaderGroup(targetCanvas);
+            const isLandscape = canvasWidth > canvasHeight;
+            const headerHeight = headerObjects ? (isLandscape ? 100 : 220) : 0;
+
+            // Professional margins - optimized for landscape/portrait
+            const marginRatio = isLandscape ? 0.06 : 0.1;
             const sideMargin = canvasWidth * marginRatio;
-            const topMargin = Math.max(canvasHeight * marginRatio, headerHeight + 20);
+            const topMargin = isLandscape ? headerHeight + 15 : Math.max(canvasHeight * marginRatio, headerHeight + 20);
             const bottomMargin = canvasHeight * marginRatio;
-            
+
             // Calculate available space for content
             const availableWidth = canvasWidth - (sideMargin * 2);
             const availableHeight = canvasHeight - topMargin - bottomMargin;
-            
-            // Reserve space for options at bottom (proportional to page size)
-            const optionsAreaHeight = Math.min(150, availableHeight * 0.25);
-            const mainImageMaxHeight = availableHeight - optionsAreaHeight - 20; // 20px gap
-            
+
             const mainImg = await new Promise(resolve => fabric.Image.fromURL(puzzleData.mainImage.path, resolve, { crossOrigin: 'anonymous' }));
-            
-            // Scale to fit within available space, then increase by 30%
-            const scaleToFitWidth = availableWidth / mainImg.width;
-            const scaleToFitHeight = mainImageMaxHeight / mainImg.height;
-            const finalScale = Math.min(scaleToFitWidth, scaleToFitHeight) * 1.3; // Increase by 30%
-            mainImg.scale(finalScale);
+
+            let mainImageMaxWidth, mainImageMaxHeight, puzzleLeft;
+
+            if (isLandscape) {
+                // LANDSCAPE: Professional side-by-side layout - puzzle on left (50%), options on right (50%)
+                mainImageMaxWidth = availableWidth * 0.50;
+                mainImageMaxHeight = availableHeight * 0.95;
+
+                // Scale to fit within left section, then increase by 43% (30% + 10%)
+                const scaleToFitWidth = mainImageMaxWidth / mainImg.width;
+                const scaleToFitHeight = mainImageMaxHeight / mainImg.height;
+                const finalScale = Math.min(scaleToFitWidth, scaleToFitHeight) * 1.43;
+                mainImg.scale(finalScale);
+
+                // Position in left section, centered horizontally
+                puzzleLeft = sideMargin + (mainImageMaxWidth - mainImg.getScaledWidth()) / 2;
+
+            } else {
+                // PORTRAIT: Vertical layout - puzzle on top, options below
+                const optionsAreaHeight = Math.min(150, availableHeight * 0.25);
+                mainImageMaxHeight = availableHeight - optionsAreaHeight - 20;
+
+                // Scale to fit, then increase by 30%
+                const scaleToFitWidth = availableWidth / mainImg.width;
+                const scaleToFitHeight = mainImageMaxHeight / mainImg.height;
+                const finalScale = Math.min(scaleToFitWidth, scaleToFitHeight) * 1.3;
+                mainImg.scale(finalScale);
+
+                // Center horizontally
+                puzzleLeft = sideMargin + (availableWidth - mainImg.getScaledWidth()) / 2;
+            }
 
             const puzzleElements = [mainImg];
             mainImg.set({ selectable: false, evented: false });
@@ -1925,7 +2136,7 @@
                 const scaledSize = puzzleData.pieceSize * scaleFactor;
                 const scaledX = pos.x * scaleFactor;
                 const scaledY = pos.y * scaleFactor;
-                
+
                 let hole;
                 const commonProps = { fill: 'white', stroke: 'rgba(0,0,0,0.5)', strokeWidth: 2, selectable: false, evented: false, originX: 'left', originY: 'top' };
                 switch(puzzleData.pieceShape) {
@@ -1949,9 +2160,21 @@
                 }
             });
 
+            // Calculate actual image height before using it
+            const actualImageHeight = mainImg.getScaledHeight();
+
+            // Calculate puzzle top position
+            let puzzleTop;
+            if (isLandscape) {
+                // Center puzzle vertically with slight upward bias for visual balance
+                puzzleTop = topMargin + (availableHeight - actualImageHeight) / 2.2;
+            } else {
+                puzzleTop = topMargin - 30; // Move up by 30 pixels in portrait (was 50, moved down 20)
+            }
+
             const mainPuzzleGroup = new fabric.Group(puzzleElements, {
-                left: sideMargin + (availableWidth - mainImg.getScaledWidth()) / 2, // Center horizontally
-                top: topMargin,
+                left: puzzleLeft,
+                top: puzzleTop,
                 selectable: true, evented: true,
                 cornerColor: 'var(--app-accent-primary)', borderColor: 'var(--app-accent-primary)',
                 cornerSize: 10, transparentCorners: false,
@@ -1959,42 +2182,66 @@
                 isAnswerKeyItem: isAnswerKey,
                 originalIndex: 'mainPuzzle'
             });
-            if (oldTransforms['mainPuzzle']) mainPuzzleGroup.set(oldTransforms['mainPuzzle']);
+            // Only preserve transforms if canvas dimensions haven't changed
+            if (shouldPreserveTransforms && oldTransforms['mainPuzzle']) {
+                mainPuzzleGroup.set(oldTransforms['mainPuzzle']);
+            }
             targetCanvas.add(mainPuzzleGroup);
 
             // Define spacing constants
-            const optionSpacing = 15; // Horizontal spacing
+            const optionSpacing = 15; // Spacing between options
             const rowSpacing = 10; // Vertical spacing between rows
 
-            // Calculate spacing to ensure equal top and bottom margins
-            const actualImageHeight = mainImg.getScaledHeight();
+            // Calculate spacing and layout based on orientation
             const numOptions = puzzleData.optionPieces.length;
 
-            // Force all options on same row (cols = numOptions, rows = 1)
-            const cols = numOptions;
-            const rows = 1;
+            let bestGrid, optionBoxSize, optionsStartY, optionsStartX;
 
-            // Calculate max box size for single row layout
-            const maxWidthPerBox = (availableWidth - optionSpacing * (cols - 1)) / cols;
+            if (isLandscape) {
+                // LANDSCAPE: Professional horizontal row layout in right section (50% of width)
+                const rightSectionWidth = availableWidth * 0.50;
+                const rightSectionLeft = sideMargin + availableWidth * 0.50;
 
-            // Calculate remaining vertical space and center everything vertically
-            const totalContentHeight = actualImageHeight; // Just the main image for now
-            const remainingVerticalSpace = canvasHeight - topMargin - bottomMargin - totalContentHeight;
+                // Calculate optimal box size for professional appearance, then decrease by 20%
+                const maxWidthPerBox = (rightSectionWidth - optionSpacing * (numOptions - 1)) / numOptions;
+                const maxHeightPerBox = availableHeight * 0.25; // Use 25% of available height for better proportions
+                const maxBoxSize = Math.min(maxHeightPerBox, maxWidthPerBox) * 0.8;
 
-            // Split remaining space: gap between image and options, plus space for options
-            const estimatedOptionHeight = Math.min(100, maxWidthPerBox); // Estimate based on width
-            // Reduce the gap - use 40% of remaining space for gap, keeping options closer
-            const gapBetweenImageAndOptions = (remainingVerticalSpace - estimatedOptionHeight) * 0.4;
+                optionBoxSize = maxBoxSize;
 
-            const optionsStartY = topMargin + actualImageHeight + gapBetweenImageAndOptions;
+                // Center options horizontally in right section, then move 30px left
+                const totalOptionsWidth = optionBoxSize * numOptions + optionSpacing * (numOptions - 1);
+                optionsStartX = rightSectionLeft + (rightSectionWidth - totalOptionsWidth) / 2 - 30;
 
-            // Now calculate the actual max box size based on available height
-            const maxHeightPerBox = canvasHeight - optionsStartY - bottomMargin;
-            const maxBoxSize = Math.min(maxWidthPerBox, maxHeightPerBox, 100); // Cap at 100 for reasonable size
+                // Position options in vertical center
+                optionsStartY = topMargin + (availableHeight - optionBoxSize) / 2;
 
-            let bestGrid = { cols, rows, boxSize: maxBoxSize };
+                bestGrid = { cols: numOptions, rows: 1, boxSize: maxBoxSize };
+            } else {
+                // PORTRAIT: Horizontal layout below puzzle
+                const cols = numOptions;
+                const rows = 1;
 
-            const optionBoxSize = bestGrid.boxSize * 0.75; // 25% smaller
+                // Calculate max box size for single row layout
+                const maxWidthPerBox = (availableWidth - optionSpacing * (cols - 1)) / cols;
+
+                // Calculate remaining vertical space
+                const totalContentHeight = actualImageHeight;
+                const remainingVerticalSpace = canvasHeight - topMargin - bottomMargin - totalContentHeight;
+
+                // Split remaining space: gap between image and options
+                const estimatedOptionHeight = Math.min(100, maxWidthPerBox);
+                const gapBetweenImageAndOptions = (remainingVerticalSpace - estimatedOptionHeight) * 0.4;
+
+                optionsStartY = topMargin + actualImageHeight + gapBetweenImageAndOptions;
+
+                // Calculate max box size based on available height
+                const maxHeightPerBox = canvasHeight - optionsStartY - bottomMargin;
+                const maxBoxSize = Math.min(maxWidthPerBox, maxHeightPerBox, 100); // Cap at 100
+
+                optionBoxSize = maxBoxSize * 0.75; // 25% smaller
+                bestGrid = { cols, rows, boxSize: maxBoxSize };
+            }
             
             const optionPromises = puzzleData.optionPieces.map((dataUrl, i) => (async () => {
                 const pieceImg = await new Promise(r => fabric.Image.fromURL(dataUrl, r, { crossOrigin: 'anonymous' }));
@@ -2006,12 +2253,12 @@
                 pieceImg.scale(scale);
                 
                 const numberText = new fabric.Text(String(i + 1), {
-                    fontSize: Math.min(24, optionBoxSize * 0.3), 
-                    fill: '#333', 
-                    top: -optionBoxSize * 0.75, 
+                    fontSize: Math.min(24, optionBoxSize * 0.3),
+                    fill: '#333',
+                    top: -optionBoxSize * 0.85,
                     left: -2,
-                    originX: 'center', 
-                    originY: 'center'
+                    originX: 'center',
+                    originY: 'bottom'
                 });
                 
                 let outline;
@@ -2039,42 +2286,54 @@
             })());
 
             const optionGroups = await Promise.all(optionPromises);
-            
-            // Use the pre-calculated optimal grid configuration
-            const optionsPerRow = bestGrid.cols;
-            const scaledOptionSize = optionBoxSize;
-            
-            // Create row groups
-            const rowGroups = [];
-            for (let i = 0; i < optionGroups.length; i += optionsPerRow) {
-                rowGroups.push(optionGroups.slice(i, i + optionsPerRow));
-            }
-            
-            // Position each row
-            let currentY = optionsStartY;
-            
-            rowGroups.forEach(rowOptions => {
-                // Calculate total width for this row (all options have same size now)
-                const rowWidth = scaledOptionSize * rowOptions.length + optionSpacing * (rowOptions.length - 1);
-                
-                // Center the row horizontally
-                let currentX = sideMargin + (availableWidth - rowWidth) / 2;
-                
-                // Position each option in the row
-                rowOptions.forEach((group) => {
-                    group.set({ 
-                        left: currentX, 
-                        top: currentY 
+
+            if (isLandscape) {
+                // LANDSCAPE: Position options horizontally in a row in right section
+                let currentX = optionsStartX;
+
+                optionGroups.forEach((group) => {
+                    group.set({
+                        left: currentX,
+                        top: optionsStartY
                     });
-                    // Don't apply old transforms to option pieces - they need fresh positioning
-                    // Only apply old transforms if user manually moved them (which won't happen for options)
                     targetCanvas.add(group);
-                    currentX += scaledOptionSize + optionSpacing;
+                    currentX += optionBoxSize + optionSpacing;
                 });
-                
-                // Move to next row using uniform size
-                currentY += scaledOptionSize + rowSpacing;
-            });
+            } else {
+                // PORTRAIT: Position options horizontally below puzzle
+                const optionsPerRow = bestGrid.cols;
+                const scaledOptionSize = optionBoxSize;
+
+                // Create row groups
+                const rowGroups = [];
+                for (let i = 0; i < optionGroups.length; i += optionsPerRow) {
+                    rowGroups.push(optionGroups.slice(i, i + optionsPerRow));
+                }
+
+                // Position each row
+                let currentY = optionsStartY;
+
+                rowGroups.forEach(rowOptions => {
+                    // Calculate total width for this row (all options have same size now)
+                    const rowWidth = scaledOptionSize * rowOptions.length + optionSpacing * (rowOptions.length - 1);
+
+                    // Center the row horizontally
+                    let currentX = sideMargin + (availableWidth - rowWidth) / 2;
+
+                    // Position each option in the row
+                    rowOptions.forEach((group) => {
+                        group.set({
+                            left: currentX,
+                            top: currentY
+                        });
+                        targetCanvas.add(group);
+                        currentX += scaledOptionSize + optionSpacing;
+                    });
+
+                    // Move to next row using uniform size
+                    currentY += scaledOptionSize + rowSpacing;
+                });
+            }
 
             // Add header objects
             if (headerObjects) {
@@ -2103,8 +2362,8 @@
                     }
                 });
                 
-                const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground);
-                const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem);
+                const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+                const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem || o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
                 oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
 
                 await renderGeneratedContent(worksheetCanvas, puzzleData, false, oldTransforms);
@@ -2138,8 +2397,8 @@
                     }
                 });
 
-                const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground);
-                const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground);
+                const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+                const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
                 objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
 
                 const background = worksheetCanvas.getObjects().find(o => o.isBackground);

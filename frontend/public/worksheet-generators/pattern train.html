@@ -1219,21 +1219,25 @@
 
         [worksheetCanvas, answerKeyCanvas].forEach(c => {
             if (c) {
+                // Update actual canvas dimensions first
+                c.setWidth(width);
+                c.setHeight(height);
+
                 // Apply zoom for display scaling
                 const finalZoom = (displayWidth / width);
                 c.setZoom(finalZoom);
-                
+
                 // Set dimensions AFTER zoom to ensure viewport matches zoomed size
                 c.setDimensions({
                     width: displayWidth,
                     height: displayHeight
                 });
-                
+
                 c.calcOffset();
                 c.renderAll();
             }
         });
-        
+
         [worksheetCanvasWrapper, answerKeyCanvasWrapper].forEach(w => {
             if(w) {
                 w.style.width = displayWidth + 'px';
@@ -1242,6 +1246,11 @@
         });
         pageWidthInput.value = width;
         pageHeightInput.value = height;
+
+        // Regenerate layout if this is a user-initiated change (not from loading)
+        if (!fromLoad) {
+            regenerateHeadersOnly();
+        }
     }
 
     function initializeCanvas(canvasEl) {
@@ -1328,17 +1337,27 @@
         const title = defaults.title;
         const description = defaults.description;
 
+        // Get current canvas dimensions for responsive design
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const isLandscape = pageWidth > pageHeight;
+
         const objects = [];
 
-        // Outer border - Bright red/orange (train engine theme)
+        // Outer border - responsive to page size (bright red/orange - train engine theme)
+        const margin = 34;
+        const strokeWidth = 8;
+        const borderWidth = pageWidth - (margin * 2);
+        const borderHeight = pageHeight - (margin * 2);
+
         const outerBorder = new fabric.Rect({
-            left: 34,
-            top: 34,
-            width: 544,
-            height: 724,
+            left: margin,
+            top: margin,
+            width: borderWidth,
+            height: borderHeight,
             fill: 'transparent',
             stroke: '#E74C3C',
-            strokeWidth: 8,
+            strokeWidth: strokeWidth,
             rx: 12,
             ry: 12,
             selectable: true,
@@ -1348,14 +1367,19 @@
         objects.push(outerBorder);
 
         // Inner border - Sunny yellow (energetic, cheerful)
+        const innerStrokeWidth = 3;
+        const innerMargin = margin + strokeWidth + 4.5;
+        const innerBorderWidth = pageWidth - (innerMargin * 2);
+        const innerBorderHeight = pageHeight - (innerMargin * 2);
+
         const innerBorder = new fabric.Rect({
-            left: 46.5,
-            top: 46.5,
-            width: 519,
-            height: 699,
+            left: innerMargin,
+            top: innerMargin,
+            width: innerBorderWidth,
+            height: innerBorderHeight,
             fill: 'transparent',
             stroke: '#F39C12',
-            strokeWidth: 3,
+            strokeWidth: innerStrokeWidth,
             rx: 8,
             ry: 8,
             selectable: true,
@@ -1364,83 +1388,224 @@
         });
         objects.push(innerBorder);
 
-        // Header background - Deep blue (railroad theme) - COMPACT
-        const bgRect = new fabric.Rect({
-            left: 70,
-            top: 70,
-            width: 472,
-            height: 85,
-            fill: '#3498DB',
-            rx: 15,
-            ry: 15,
-            selectable: true,
-            isHeaderElement: true
-        });
-        objects.push(bgRect);
+        // LANDSCAPE MODE: Compact, centered header
+        if (isLandscape) {
+            const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+            const headerHeight = 70;
+            const centerX = pageWidth / 2;
+            const headerTop = 60;
 
-        // White pill for title - COMPACT
-        const whitePill = new fabric.Rect({
-            left: 90,
-            top: 80,
-            width: 432,
-            height: 60,
-            fill: '#FFFFFF',
-            rx: 30,
-            ry: 30,
-            selectable: true,
-            isHeaderElement: true
-        });
-        objects.push(whitePill);
+            // Deep blue header background - compact size
+            const bgRect = new fabric.Rect({
+                left: centerX - maxHeaderWidth / 2,
+                top: headerTop,
+                width: maxHeaderWidth,
+                height: headerHeight,
+                fill: '#3498DB',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
 
-        // Title - Dynamic size based on length - COMPACT
-        let titleFontSize = 42;
-        if (title.length > 12) titleFontSize = 36;
-        if (title.length > 15) titleFontSize = 32;
-        if (title.length > 18) titleFontSize = 28;
-        if (title.length > 22) titleFontSize = 24;
+            // White pill for title - compact
+            const whitePill = new fabric.Rect({
+                left: centerX - (maxHeaderWidth - 40) / 2,
+                top: headerTop + 10,
+                width: maxHeaderWidth - 40,
+                height: 50,
+                fill: '#FFFFFF',
+                rx: 25,
+                ry: 25,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
 
-        // Title text - Deep navy blue for readability
-        const titleText = new fabric.IText(title, {
-            left: 306,
-            top: 110,
-            fontSize: titleFontSize,
-            fontFamily: 'Fredoka, sans-serif',
-            fontWeight: '700',
-            fill: '#2C3E50',
-            textAlign: 'center',
-            originX: 'center',
-            originY: 'center',
-            selectable: true,
-            editable: true,
-            isHeaderElement: true
-        });
-        objects.push(titleText);
+            // Title - Compact size for landscape
+            let titleFontSize = 36;
+            if (title.length > 12) titleFontSize = 32;
+            if (title.length > 15) titleFontSize = 28;
+            if (title.length > 18) titleFontSize = 24;
 
-        // Description text - Warm orange (ties to train theme) - COMPACT
-        const descText = new fabric.Textbox(description, {
-            left: 306,
-            top: 168,
-            width: 450,
-            fontSize: 18,
-            fontFamily: 'Quicksand, sans-serif',
-            fontWeight: '500',
-            fill: '#E67E22',
-            textAlign: 'center',
-            originX: 'center',
-            originY: 'top',
-            selectable: true,
-            editable: true,
-            hasControls: true,
-            isHeaderDesc: true,
-            isHeaderElement: true
-        });
-        objects.push(descText);
+            const titleText = new fabric.IText(title, {
+                left: centerX,
+                top: headerTop + 35,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#2C3E50',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description - compact below header
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: headerTop + headerHeight + 5,
+                width: maxHeaderWidth - 20,
+                fontSize: 14,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#E67E22',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true
+            });
+            objects.push(descText);
+
+        } else {
+            // PORTRAIT MODE: Full-width professional header
+            const headerMargin = 70;
+            const headerWidth = pageWidth - (headerMargin * 2);
+            const centerX = pageWidth / 2;
+
+            // Deep blue header background
+            const bgRect = new fabric.Rect({
+                left: headerMargin,
+                top: 70,
+                width: headerWidth,
+                height: 100,
+                fill: '#3498DB',
+                rx: 15,
+                ry: 15,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
+
+            // White pill for title
+            const whitePill = new fabric.Rect({
+                left: headerMargin + 20,
+                top: 85,
+                width: headerWidth - 40,
+                height: 70,
+                fill: '#FFFFFF',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
+
+            // Title - Dynamic size based on length
+            let titleFontSize = 48;
+            if (title.length > 12) titleFontSize = 40;
+            if (title.length > 15) titleFontSize = 36;
+            if (title.length > 18) titleFontSize = 32;
+            if (title.length > 22) titleFontSize = 28;
+
+            const titleText = new fabric.IText(title, {
+                left: centerX,
+                top: 120,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#2C3E50',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description text
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: 190,
+                width: Math.min(450, pageWidth - 150),
+                fontSize: 20,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#E67E22',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true,
+                isHeaderElement: true
+            });
+            objects.push(descText);
+        }
 
         return objects;
     }
 
     function createPageBorder(canvas) {
         return null;
+    }
+
+    // Regeneration functions for paper switching
+    async function regenerateHeadersOnly() {
+        // Only regenerate if we have previously generated content
+        if (!lastFullSeq || lastFullSeq.length === 0) return;
+
+        // Regenerate worksheet canvas layout
+        await regenerateCanvasLayout(worksheetCanvas, false);
+
+        // Regenerate answer key canvas layout if it exists
+        const hasAnswerKey = answerKeyCanvas && answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem);
+        if (hasAnswerKey) {
+            await regenerateCanvasLayout(answerKeyCanvas, true);
+        }
+    }
+
+    async function regenerateCanvasLayout(canvas, isAnswerKey) {
+        if (!canvas) return;
+
+        // Preserve user-added objects (not generated content, borders, backgrounds, or headers)
+        const userAddedObjects = canvas.getObjects().filter(o =>
+            !o.isWorksheetItem &&
+            !o.isTrainGeneratedItem &&
+            !o.isAnswerKeyItem &&
+            !o.isNameDate &&
+            !o.isBorder &&
+            !o.isBackground &&
+            !o.isPageBorder &&
+            !o.isHeaderDesc &&
+            !o.isHeaderElement
+        );
+
+        // Remove all generated content but preserve user-added objects
+        const objectsToRemove = canvas.getObjects().filter(o =>
+            o.isWorksheetItem ||
+            o.isTrainGeneratedItem ||
+            o.isAnswerKeyItem ||
+            o.isBorder ||
+            o.isBackground ||
+            o.isPageBorder ||
+            o.isHeaderElement ||
+            o.isHeaderDesc
+        );
+        objectsToRemove.forEach(o => canvas.remove(o));
+
+        // Recreate header with current page dimensions
+        createHeaderGroup(canvas);
+
+        // Rebuild the content based on canvas type
+        if (isAnswerKey) {
+            await buildAnswerKeyOnCanvas();
+        } else {
+            await buildWorksheetOnCanvas();
+        }
+
+        // Bring user-added objects back to front
+        userAddedObjects.forEach(obj => canvas.bringToFront(obj));
+        canvas.renderAll();
     }
 
     function setupCanvasEventListeners(canvas) {
@@ -2134,12 +2299,17 @@
         try {
             const trainBgImg = await loadImage(currentTemplatePath);
 
-            // Calculate available space within borders
-            const HEADER_HEIGHT = 200;
-            const BORDER_PADDING = 70; // Padding from borders
-            const TOP_MARGIN = 20; // Smaller margin between header and train
-            const availableWidth = currentCanvasConfig.width - (BORDER_PADDING * 2);
-            const availableHeight = currentCanvasConfig.height - HEADER_HEIGHT - TOP_MARGIN - BORDER_PADDING;
+            // Calculate header height based on orientation - IDENTICAL TO ALPHABET TRAIN
+            const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+            const headerHeight = isLandscape ? 150 : 220; // Compact vs full header
+
+            // Calculate proper scaling to fit within page borders with margins - IDENTICAL TO ALPHABET TRAIN
+            const pageMargin = 40; // Margin from page edges
+            const topMargin = headerHeight + 20; // Space below header
+            const bottomMargin = 120; // Space for cutouts at bottom
+            // Calculate available space using Alphabet Train pattern
+            const availableWidth = currentCanvasConfig.width - (pageMargin * 2);
+            const availableHeight = currentCanvasConfig.height - topMargin - bottomMargin;
 
             // Scale train to fit within available space
             const scaleToFitWidth = availableWidth / trainBgImg.width;
@@ -2147,9 +2317,9 @@
             const trainScale = Math.min(scaleToFitWidth, scaleToFitHeight);
             trainBgImg.scale(trainScale);
 
-            // Position train closer to header with centered horizontal alignment
-            const trainTop = HEADER_HEIGHT + TOP_MARGIN + 50;
-            const trainLeft = BORDER_PADDING + (availableWidth - trainBgImg.getScaledWidth()) / 2;
+            // Position train using Alphabet Train pattern
+            const trainTop = topMargin;
+            const trainLeft = pageMargin + (availableWidth - trainBgImg.getScaledWidth()) / 2;
 
             trainBgImg.set({
                 left: trainLeft,
@@ -2359,12 +2529,14 @@
 
             const trainBgImg = await loadImage(currentTemplatePath);
 
-            // Calculate available space within borders (same as worksheet)
-            const HEADER_HEIGHT = 200;
-            const BORDER_PADDING = 70;
-            const TOP_MARGIN = 20;
-            const availableWidth = currentCanvasConfig.width - (BORDER_PADDING * 2);
-            const availableHeight = currentCanvasConfig.height - HEADER_HEIGHT - TOP_MARGIN - BORDER_PADDING;
+            // Calculate available space using Alphabet Train pattern
+            const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+            const headerHeight = isLandscape ? 150 : 220; // Compact vs full header
+            const pageMargin = 40; // Margin from page edges
+            const topMargin = headerHeight + 20; // Space below header
+            const bottomMargin = 120; // Space for cutouts at bottom
+            const availableWidth = currentCanvasConfig.width - (pageMargin * 2);
+            const availableHeight = currentCanvasConfig.height - topMargin - bottomMargin;
 
             // Scale train to fit within available space
             const scaleToFitWidth = availableWidth / trainBgImg.width;
@@ -2372,9 +2544,9 @@
             const trainScale = Math.min(scaleToFitWidth, scaleToFitHeight);
             trainBgImg.scale(trainScale);
 
-            // Position train closer to header with centered horizontal alignment
-            const trainCenterX = BORDER_PADDING + (availableWidth - trainBgImg.getScaledWidth()) / 2;
-            const trainCenterY = HEADER_HEIGHT + TOP_MARGIN + 50;
+            // Position train using Alphabet Train pattern
+            const trainCenterX = pageMargin + (availableWidth - trainBgImg.getScaledWidth()) / 2;
+            const trainCenterY = topMargin;
             
             trainBgImg.set({
                 originX: 'left', originY: 'top',

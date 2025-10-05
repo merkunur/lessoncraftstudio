@@ -1568,18 +1568,19 @@
           
           // Apply to ALL canvases in the app
           [worksheetCanvas, answerKeyCanvas].forEach(c => {
-              if (c) { 
+              if (c) {
                   // Apply zoom for display scaling
                   const finalZoom = (displayWidth / width);
                   c.setZoom(finalZoom);
-                  
+
                   // Set dimensions AFTER zoom to ensure viewport matches zoomed size
                   c.setDimensions({
                       width: displayWidth,
                       height: displayHeight
                   });
-                  
-                  c.renderAll(); 
+
+                  c.calcOffset();
+                  c.renderAll();
               }
           });
           
@@ -1869,17 +1870,27 @@
         const title = defaults.title;
         const description = defaults.description;
 
+        // Get current canvas dimensions for responsive design
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const isLandscape = pageWidth > pageHeight;
+
         const objects = [];
 
-        // Outer border - Bright cyan
+        // Outer border - responsive to page size (bright cyan for comparison theme)
+        const margin = 34;
+        const strokeWidth = 8;
+        const borderWidth = pageWidth - (margin * 2);
+        const borderHeight = pageHeight - (margin * 2);
+
         const outerBorder = new fabric.Rect({
-            left: 34,
-            top: 34,
-            width: 544,
-            height: 724,
+            left: margin,
+            top: margin,
+            width: borderWidth,
+            height: borderHeight,
             fill: 'transparent',
             stroke: '#00BCD4',
-            strokeWidth: 8,
+            strokeWidth: strokeWidth,
             rx: 12,
             ry: 12,
             selectable: true,
@@ -1888,15 +1899,20 @@
         });
         objects.push(outerBorder);
 
-        // Inner border - Vibrant orange
+        // Inner border - Vibrant orange (contrasting pair for comparison)
+        const innerStrokeWidth = 3;
+        const innerMargin = margin + strokeWidth + 4.5;
+        const innerBorderWidth = pageWidth - (innerMargin * 2);
+        const innerBorderHeight = pageHeight - (innerMargin * 2);
+
         const innerBorder = new fabric.Rect({
-            left: 46.5,
-            top: 46.5,
-            width: 519,
-            height: 699,
+            left: innerMargin,
+            top: innerMargin,
+            width: innerBorderWidth,
+            height: innerBorderHeight,
             fill: 'transparent',
             stroke: '#FF9800',
-            strokeWidth: 3,
+            strokeWidth: innerStrokeWidth,
             rx: 8,
             ry: 8,
             selectable: true,
@@ -1905,73 +1921,158 @@
         });
         objects.push(innerBorder);
 
-        // Header background - Sunny amber
-        const bgRect = new fabric.Rect({
-            left: 70,
-            top: 70,
-            width: 472,
-            height: 100,
-            fill: '#FFC107',
-            rx: 15,
-            ry: 15,
-            selectable: true
-        });
-        objects.push(bgRect);
+        // LANDSCAPE MODE: Compact, centered header
+        if (isLandscape) {
+            const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+            const headerHeight = 70;
+            const centerX = pageWidth / 2;
+            const headerTop = 60;
 
-        // White pill for title
-        const whitePill = new fabric.Rect({
-            left: 90,
-            top: 85,
-            width: 432,
-            height: 70,
-            fill: '#FFFFFF',
-            rx: 35,
-            ry: 35,
-            selectable: true
-        });
-        objects.push(whitePill);
+            // Sunny amber header background - compact size
+            const bgRect = new fabric.Rect({
+                left: centerX - maxHeaderWidth / 2,
+                top: headerTop,
+                width: maxHeaderWidth,
+                height: headerHeight,
+                fill: '#FFC107',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
 
-        // Title - Dynamic size based on length
-        let titleFontSize = 48;
-        if (title.length > 12) titleFontSize = 40;
-        if (title.length > 15) titleFontSize = 36;
-        if (title.length > 18) titleFontSize = 32;
-        if (title.length > 22) titleFontSize = 28;
+            // White pill for title - compact
+            const whitePill = new fabric.Rect({
+                left: centerX - (maxHeaderWidth - 40) / 2,
+                top: headerTop + 10,
+                width: maxHeaderWidth - 40,
+                height: 50,
+                fill: '#FFFFFF',
+                rx: 25,
+                ry: 25,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
 
-        // Title text - Deep blue
-        const titleText = new fabric.IText(title, {
-            left: 306,
-            top: 120,
-            fontSize: titleFontSize,
-            fontFamily: 'Fredoka, sans-serif',
-            fontWeight: '700',
-            fill: '#01579B',
-            textAlign: 'center',
-            originX: 'center',
-            originY: 'center',
-            selectable: true,
-            editable: true
-        });
-        objects.push(titleText);
+            // Title - Compact size for landscape
+            let titleFontSize = 36;
+            if (title.length > 12) titleFontSize = 32;
+            if (title.length > 15) titleFontSize = 28;
+            if (title.length > 18) titleFontSize = 24;
 
-        // Description text - Dark orange
-        const descText = new fabric.Textbox(description, {
-            left: 306,
-            top: 190,
-            width: 450,
-            fontSize: 20,
-            fontFamily: 'Quicksand, sans-serif',
-            fontWeight: '500',
-            fill: '#F57C00',
-            textAlign: 'center',
-            originX: 'center',
-            originY: 'top',
-            selectable: true,
-            editable: true,
-            hasControls: true,
-            isHeaderDesc: true
-        });
-        objects.push(descText);
+            const titleText = new fabric.IText(title, {
+                left: centerX,
+                top: headerTop + 35,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#01579B',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description - compact below header
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: headerTop + headerHeight + 5,
+                width: maxHeaderWidth - 20,
+                fontSize: 14,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#F57C00',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true
+            });
+            objects.push(descText);
+
+        } else {
+            // PORTRAIT MODE: Full-width professional header
+            const headerMargin = 70;
+            const headerWidth = pageWidth - (headerMargin * 2);
+            const centerX = pageWidth / 2;
+
+            // Sunny amber header background
+            const bgRect = new fabric.Rect({
+                left: headerMargin,
+                top: 70,
+                width: headerWidth,
+                height: 100,
+                fill: '#FFC107',
+                rx: 15,
+                ry: 15,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
+
+            // White pill for title
+            const whitePill = new fabric.Rect({
+                left: headerMargin + 20,
+                top: 85,
+                width: headerWidth - 40,
+                height: 70,
+                fill: '#FFFFFF',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
+
+            // Title - Dynamic size based on length
+            let titleFontSize = 48;
+            if (title.length > 12) titleFontSize = 40;
+            if (title.length > 15) titleFontSize = 36;
+            if (title.length > 18) titleFontSize = 32;
+            if (title.length > 22) titleFontSize = 28;
+
+            const titleText = new fabric.IText(title, {
+                left: centerX,
+                top: 120,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#01579B',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description text
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: 190,
+                width: Math.min(450, pageWidth - 150),
+                fontSize: 20,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#F57C00',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true
+            });
+            objects.push(descText);
+        }
 
         return objects;
     }
@@ -1997,6 +2098,241 @@
             canvas.sendToBack(pb);
             if (background) canvas.bringForward(pb);
             if (border) canvas.bringForward(pb);
+        });
+
+        // Ensure header elements are in proper order (behind exercise cards but above borders)
+        const headerElements = canvas.getObjects().filter(o => o.isHeaderElement || o.isHeaderDesc);
+        headerElements.forEach(elem => {
+            pageBorders.forEach(pb => canvas.bringForward(elem));
+        });
+    }
+
+    function handlePageSizeChange() {
+        const selectedValue = pageSizeSelect.value;
+        if (selectedValue === 'custom') {
+            customPageSizeInputsDiv.style.display = 'block';
+        } else {
+            customPageSizeInputsDiv.style.display = 'none';
+            const [w, h] = selectedValue.split('x').map(Number);
+            updateCanvasDisplayDimensions(w, h);
+            // Regenerate layout when page size changes
+            regenerateHeadersOnly();
+        }
+    }
+
+    function applyCustomPageSize() {
+        let newWidth = parseInt(pageWidthInput.value, 10) || currentCanvasConfig.width;
+        let newHeight = parseInt(pageHeightInput.value, 10) || currentCanvasConfig.height;
+        updateCanvasDisplayDimensions(newWidth, newHeight);
+        // Regenerate layout when page size changes
+        regenerateHeadersOnly();
+    }
+
+    async function regenerateHeadersOnly() {
+        // Only regenerate if worksheet exists
+        if (!lastGeneratedRows || lastGeneratedRows.length === 0) return;
+
+        // Regenerate worksheet canvas
+        await regenerateCanvasLayout(worksheetCanvas, false);
+
+        // Regenerate answer key canvas if it exists
+        const hasAnswerKey = answerKeyCanvas && answerKeyCanvas.getObjects().some(o => o.isAnswerCard);
+        if (hasAnswerKey) {
+            await regenerateCanvasLayout(answerKeyCanvas, true);
+        }
+    }
+
+    async function regenerateCanvasLayout(canvas, isAnswerKey) {
+        if (!canvas || !lastGeneratedRows || lastGeneratedRows.length === 0) return;
+
+        // Preserve user-added objects
+        const userAddedObjects = canvas.getObjects().filter(o =>
+            !o.isExerciseCard &&
+            !o.isAnswerCard &&
+            !o.isNameDateGroup &&
+            !o.isBorder &&
+            !o.isBackground &&
+            !o.isPageBorder &&
+            !o.isHeaderDesc &&
+            !o.isHeaderElement
+        );
+
+        // Remove all generated content (headers, borders, exercise cards)
+        const oldItems = canvas.getObjects().filter(o =>
+            o.isExerciseCard ||
+            o.isAnswerCard ||
+            o.isNameDateGroup ||
+            o.isPageBorder ||
+            o.isHeaderDesc ||
+            o.isHeaderElement ||
+            o.isBorder ||
+            o.isBackground
+        );
+        oldItems.forEach(o => canvas.remove(o));
+
+        // Set background color
+        canvas.backgroundColor = pageColorInput.value || '#FFFFFF';
+
+        // Recreate background and border from original canvas if needed
+        if (isAnswerKey) {
+            const worksheetBackground = worksheetCanvas.getObjects().find(o => o.isBackground);
+            if (worksheetBackground) {
+                await new Promise(resolve => worksheetBackground.clone(cloned => {
+                    cloned.set({ isBackground: true });
+                    canvas.add(cloned);
+                    resolve();
+                }));
+            }
+
+            const worksheetBorder = worksheetCanvas.getObjects().find(o => o.isBorder);
+            if (worksheetBorder) {
+                await new Promise(resolve => worksheetBorder.clone(cloned => {
+                    cloned.set({ isBorder: true });
+                    canvas.add(cloned);
+                    resolve();
+                }));
+            }
+        }
+
+        // Recreate header with current page dimensions
+        const headerObjects = createHeaderGroup(canvas);
+        if (headerObjects) {
+            canvas.add(...headerObjects);
+        }
+
+        // Recreate exercise/answer cards
+        if (isAnswerKey) {
+            // Regenerate answer key cards
+            await regenerateAnswerKeyCards(canvas);
+        } else {
+            // Regenerate worksheet cards
+            await regenerateWorksheetCards(canvas);
+        }
+
+        enforceZOrder(canvas);
+        userAddedObjects.forEach(obj => obj.bringToFront());
+        canvas.renderAll();
+    }
+
+    async function regenerateWorksheetCards(canvas) {
+        // Add name/date if needed
+        if (includeNameDateCheckbox.checked) {
+            const pageWidth = currentCanvasConfig.width;
+            const pageHeight = currentCanvasConfig.height;
+            const marginRatio = pageWidth > pageHeight ? 0.08 : 0.06;
+            const leftMargin = pageWidth * marginRatio;
+            const topMargin = pageHeight * 0.05;
+
+            const nameText = new fabric.Text('Name: ____________________', {
+                left: leftMargin,
+                top: topMargin,
+                fontSize: 18,
+                fontFamily: 'Arial'
+            });
+            const dateText = new fabric.Text('Date: ____________________', {
+                left: pageWidth - leftMargin - 250,
+                top: topMargin,
+                fontSize: 18,
+                fontFamily: 'Arial'
+            });
+            const nameDateGroup = new fabric.Group([nameText, dateText], {
+                isNameDateGroup: true,
+                selectable: true,
+                evented: true
+            });
+            canvas.add(nameDateGroup);
+        }
+
+        // Recreate exercise cards
+        const cardPromises = lastGeneratedRows.map((row, index) => createCompareCard(row, index, lastGeneratedRows.length));
+        const exerciseCards = (await Promise.all(cardPromises)).filter(Boolean);
+
+        layoutCardsOnCanvas(canvas, exerciseCards, true);
+    }
+
+    async function regenerateAnswerKeyCards(canvas) {
+        const selectedSymbolType = $('input[name="symbol_display_type"]:checked').value;
+
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const isLandscape = pageWidth > pageHeight;
+
+        const margin = {
+            top: isLandscape ? 200 : 270, // Landscape: 200px (150 + 50), Portrait: 270px (240 + 30)
+            bottom: isLandscape ? 50 : 66.5, // Less bottom padding in landscape for more vertical space
+            left: 70,
+            right: 70
+        };
+
+        const availableWidth = pageWidth - margin.left - margin.right;
+        const availableHeight = pageHeight - margin.top - margin.bottom;
+
+        let columns = 1;
+        if (isLandscape) {
+            if (lastGeneratedRows.length >= 6) {
+                columns = 3;
+            } else if (lastGeneratedRows.length >= 3) {
+                columns = 2;
+            }
+        } else {
+            if (lastGeneratedRows.length >= 5) {
+                columns = 2;
+            }
+        }
+
+        const rows = Math.ceil(lastGeneratedRows.length / columns);
+        const horizontalSpacing = isLandscape ? availableWidth * 0.04 : availableWidth * 0.03; // Better spacing in landscape
+        const verticalSpacing = isLandscape ? availableHeight * 0.08 : availableHeight * 0.04; // More professional vertical spacing in landscape
+
+        const cardWidth = (availableWidth - horizontalSpacing * (columns - 1)) / columns;
+        const maxCardHeight = (availableHeight - verticalSpacing * (rows - 1)) / rows;
+        // In landscape, reduce by 40% total (115px cap); in portrait, cap at 120px
+        const heightCap = isLandscape ? 115 : 120; // 115 = 144 * 0.8 (additional 20% reduction)
+        const cardHeight = Math.min(heightCap, maxCardHeight * 0.95); // Use 95% of available height
+
+        const allAnswerCards = await Promise.all(lastGeneratedRows.map(async (r, i) => {
+            const baseFontSize = Math.min(54, cardHeight * 0.5);
+            const numberFontSize = Math.min(20, cardHeight * 0.2);
+            const symbolHeight = Math.min(40, cardHeight * 0.4);
+
+            const cardElements = [];
+            cardElements.push(new fabric.Rect({ left: 0, top: 0, width: cardWidth, height: cardHeight, fill: '#f0f9ff', stroke: '#a3d9ff', rx: 10, ry: 10, selectable: false, evented: false }));
+            cardElements.push(new fabric.Text(`${i + 1}.`, { left: 12, top: 8, fontSize: numberFontSize, fontWeight: '800', fill: '#c13f2f', fontFamily: 'Nunito' }));
+
+            const numL = new fabric.Text(String(r.nL), { fontSize: baseFontSize, fontWeight: '800', fill: '#4ba4e0', fontFamily: 'Nunito' });
+            const numR = new fabric.Text(String(r.nR), { fontSize: baseFontSize, fontWeight: '800', fill: '#4ba4e0', fontFamily: 'Nunito' });
+
+            let symbolElement;
+            if (selectedSymbolType === 'image') {
+                symbolElement = await new Promise(res => fabric.Image.fromURL(GL[r.rel], img => res(img), { crossOrigin: 'anonymous' }));
+                if (symbolElement) symbolElement.scaleToHeight(symbolHeight);
+            } else {
+                symbolElement = new fabric.Text(TXT_SYM[r.rel], { fontSize: baseFontSize, fontWeight: 'bold', fill: '#4ba4e0', fontFamily: 'Nunito' });
+            }
+
+            const contentElements = [numL, numR];
+            if (symbolElement) contentElements.splice(1, 0, symbolElement);
+
+            let currentX = 0;
+            contentElements.forEach(el => {
+                el.set({ left: currentX, top: 0, originY: 'center' });
+                currentX += el.width + 15;
+            });
+
+            const contentGroup = new fabric.Group(contentElements, { left: 0, top: 0 });
+            contentGroup.set({ left: (cardWidth - contentGroup.width) / 2, top: (cardHeight - contentGroup.height) / 2 + 15 });
+            cardElements.push(contentGroup);
+
+            return new fabric.Group(cardElements, { selectable: true, hasControls: true, isAnswerCard: true });
+        }));
+
+        allAnswerCards.forEach((card, i) => {
+            const col = i % columns;
+            const rowIdx = Math.floor(i / columns);
+            const cardLeft = margin.left + col * (cardWidth + horizontalSpacing);
+            const cardTop = margin.top + rowIdx * (cardHeight + verticalSpacing);
+            card.set({ left: cardLeft, top: cardTop });
+            canvas.add(card);
         });
     }
 
@@ -2200,13 +2536,16 @@
             // Clear all old cards - always apply fresh layout
             // This ensures consistent multi-column layout on each generation
 
-            const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isExerciseCard && !o.isNameDateGroup && !o.isBorder && !o.isBackground && !o.isPageBorder);
-            const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isExerciseCard || o.isNameDateGroup || o.isPageBorder);
+            const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isExerciseCard && !o.isNameDateGroup && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+            const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isExerciseCard || o.isNameDateGroup || o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
             oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
 
             // Generate header and border
             const headerObjects = createHeaderGroup(worksheetCanvas);
-            const headerHeight = headerObjects ? 220 : 0;
+            const pageWidth = currentCanvasConfig.width;
+            const pageHeight = currentCanvasConfig.height;
+            const isLandscape = pageWidth > pageHeight;
+            const headerHeight = headerObjects ? (isLandscape ? 150 : 220) : 0;
 
             // Add header objects to canvas
             if (headerObjects) {
@@ -2414,18 +2753,17 @@
 
     function layoutCardsOnCanvas(canvas, cards, forceRelayout = true) {
         if (!cards || cards.length === 0) return;
-        
+
         // CRITICAL: Use actual page dimensions, not display dimensions!
         const pageWidth = currentCanvasConfig.width;
         const pageHeight = currentCanvasConfig.height;
         const isLandscape = pageWidth > pageHeight;
-        
+
         // Professional margins that respect border boundaries
-        // Inner border is at left: 46.5, top: 46.5, width: 519, height: 699
-        // Content must stay inside with proper padding
+        // Responsive to orientation - compact header in landscape, full header in portrait
         const margin = {
-            top: 240,  // After header (ends ~220) + padding
-            bottom: 66.5, // Padding from inner border bottom (745.5) to page bottom (792)
+            top: isLandscape ? 210 : 240,  // Landscape: 210px (150 + 60 total), Portrait: full header (240)
+            bottom: isLandscape ? 50 : 66.5, // Slightly less bottom padding in landscape for more vertical space
             left: 70,   // Aligned with header background left
             right: 70   // Symmetric padding from right border
         };
@@ -2484,12 +2822,16 @@
         });
         
         function calculateLayout(cards, cols, availableWidth, availableHeight) {
-            const horizontalSpacing = availableWidth * 0.03; // 3% of width between columns
-            const verticalSpacing = availableHeight * 0.025; // 2.5% of height between rows
-            
             const rows = Math.ceil(cards.length / cols);
+
+            // Better spacing for landscape vs portrait
+            const horizontalSpacing = isLandscape ? availableWidth * 0.04 : availableWidth * 0.03; // 4% in landscape, 3% in portrait
+            // Add 40px extra vertical spacing in landscape mode (20px + 20px more)
+            const baseVerticalSpacing = isLandscape ? availableHeight * 0.06 : availableHeight * 0.04;
+            const verticalSpacing = isLandscape ? baseVerticalSpacing + 40 : baseVerticalSpacing;
+
             const columnWidth = (availableWidth - (horizontalSpacing * (cols - 1))) / cols;
-            
+
             // Find max dimensions needed
             let maxCardWidth = 0;
             let maxCardHeight = 0;
@@ -2497,16 +2839,16 @@
                 if (card.width > maxCardWidth) maxCardWidth = card.width;
                 if (card.height > maxCardHeight) maxCardHeight = card.height;
             });
-            
+
             // Calculate scale to fit width
             const widthScale = maxCardWidth > columnWidth ? columnWidth / maxCardWidth : 1;
-            
-            // Calculate scale to fit height
+
+            // Calculate scale to fit height - distribute cards evenly in available vertical space
             const totalHeightNeeded = (maxCardHeight * rows) + (verticalSpacing * (rows - 1));
             const heightScale = totalHeightNeeded > availableHeight ? availableHeight / totalHeightNeeded : 1;
-            
-            // Use the more restrictive scale
-            const scale = Math.min(widthScale, heightScale, 0.9); // Cap at 90% to prevent overflow
+
+            // Use the more restrictive scale, with higher cap for better space utilization
+            const scale = Math.min(widthScale, heightScale, 1.0); // Allow up to 100% scale
 
             // Calculate actual dimensions with scale
             const scaledCardHeight = maxCardHeight * scale;
@@ -2544,8 +2886,8 @@
 
         // Clear all old answer cards - always apply fresh layout
         // This ensures consistent multi-column layout on each generation
-        const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerCard && !o.isBorder && !o.isBackground && !o.isPageBorder);
-        const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerCard || o.isBorder || o.isBackground || o.isPageBorder);
+        const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerCard && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+        const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerCard || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
         objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
 
         answerKeyCanvas.backgroundColor = pageColorInput.value || '#FFFFFF';
@@ -2577,6 +2919,7 @@
                 // Preserve all header object properties
                 if (headerObj.isPageBorder) cloned.set({ isPageBorder: true });
                 if (headerObj.isHeaderDesc) cloned.set({ isHeaderDesc: true });
+                if (headerObj.isHeaderElement) cloned.set({ isHeaderElement: true });
                 answerKeyCanvas.add(cloned);
                 resolve();
             }));
@@ -2590,17 +2933,17 @@
         const isLandscape = pageWidth > pageHeight;
 
         // Professional margins that respect border boundaries
-        // Same as worksheet to ensure consistent layout
+        // Responsive to landscape/portrait orientation
         const margin = {
-            top: 240,  // After header (ends ~220) + padding
-            bottom: 66.5, // Padding from inner border bottom to page bottom
+            top: isLandscape ? 200 : 270,  // Landscape: 200px (150 + 50), Portrait: 270px (240 + 30)
+            bottom: isLandscape ? 50 : 66.5, // Less bottom padding in landscape for more vertical space
             left: 70,   // Aligned with header background left
             right: 70   // Symmetric padding from right border
         };
-        
+
         const availableWidth = pageWidth - margin.left - margin.right;
         const availableHeight = pageHeight - margin.top - margin.bottom;
-        
+
         // Determine optimal columns for answer key
         let columns = 1;
         if (isLandscape) {
@@ -2614,14 +2957,16 @@
                 columns = 2;
             }
         }
-        
+
         const rows = Math.ceil(lastGeneratedRows.length / columns);
-        const horizontalSpacing = availableWidth * 0.03;
-        const verticalSpacing = availableHeight * 0.025;
+        const horizontalSpacing = isLandscape ? availableWidth * 0.04 : availableWidth * 0.03; // Better spacing in landscape
+        const verticalSpacing = isLandscape ? availableHeight * 0.08 : availableHeight * 0.04; // More professional vertical spacing in landscape
 
         const cardWidth = (availableWidth - horizontalSpacing * (columns - 1)) / columns;
         const maxCardHeight = (availableHeight - verticalSpacing * (rows - 1)) / rows;
-        const cardHeight = Math.min(120, maxCardHeight * 0.9); // Cap at 120 and use 90% of calculated height
+        // In landscape, reduce by 40% total (115px cap); in portrait, cap at 120px
+        const heightCap = isLandscape ? 115 : 120; // 115 = 144 * 0.8 (additional 20% reduction)
+        const cardHeight = Math.min(heightCap, maxCardHeight * 0.95); // Use 95% of available height
 
         const allAnswerCards = await Promise.all(lastGeneratedRows.map(async (r, i) => {
             // Scale font sizes based on card height
@@ -2903,14 +3248,8 @@ async function downloadPDF(canvasToExport, filename) {
             if (downloadDropdown.content.style.display === 'block' && !downloadDropdown.button.contains(event.target) && !downloadDropdown.content.contains(event.target)) downloadDropdown.content.style.display = 'none';
         });
 
-        pageSizeSelect.addEventListener('change', function() {
-            customPageSizeInputsDiv.style.display = this.value === 'custom' ? 'block' : 'none';
-            if (this.value !== 'custom') updateCanvasDisplayDimensions(...this.value.split('x').map(Number));
-        });
-        setPageSizeBtn.addEventListener('click', () => {
-            const [w, h] = pageSizeSelect.value === 'custom' ? [parseInt(pageWidthInput.value, 10), parseInt(pageHeightInput.value, 10)] : pageSizeSelect.value.split('x').map(Number);
-            updateCanvasDisplayDimensions(w || currentCanvasConfig.width, h || currentCanvasConfig.height);
-        });
+        pageSizeSelect.addEventListener('change', handlePageSizeChange);
+        setPageSizeBtn.addEventListener('click', applyCustomPageSize);
         pageColorInput.addEventListener('input', () => {
           const newColor = pageColorInput.value;
           if (worksheetCanvas) { worksheetCanvas.backgroundColor = newColor; worksheetCanvas.renderAll(); }

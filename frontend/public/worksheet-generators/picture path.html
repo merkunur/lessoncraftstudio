@@ -1479,17 +1479,27 @@ document.addEventListener("DOMContentLoaded", function() {
       const title = defaults.title;
       const description = defaults.description;
 
+      // Get current canvas dimensions for responsive design
+      const pageWidth = currentCanvasConfig.width;
+      const pageHeight = currentCanvasConfig.height;
+      const isLandscape = pageWidth > pageHeight;
+
       const objects = [];
 
-      // Outer border - bright orange for adventure
+      // Outer border - responsive to page size (bright orange for adventure/pathway)
+      const margin = 34;
+      const strokeWidth = 8;
+      const borderWidth = pageWidth - (margin * 2);
+      const borderHeight = pageHeight - (margin * 2);
+
       const outerBorder = new fabric.Rect({
-          left: 34,
-          top: 34,
-          width: 544,
-          height: 724,
+          left: margin,
+          top: margin,
+          width: borderWidth,
+          height: borderHeight,
           fill: 'transparent',
           stroke: '#FF8C42',
-          strokeWidth: 8,
+          strokeWidth: strokeWidth,
           rx: 12,
           ry: 12,
           selectable: true,
@@ -1498,76 +1508,158 @@ document.addEventListener("DOMContentLoaded", function() {
       });
       objects.push(outerBorder);
 
-      // Header background - sunny blue
-      const bgRect = new fabric.Rect({
-          left: 70,
-          top: 70,
-          width: 472,
-          height: 100,
-          fill: '#52B2CF',
-          rx: 15,
-          ry: 15,
-          selectable: true,
-          isHeaderElement: true
-      });
-      objects.push(bgRect);
+      // LANDSCAPE MODE: Compact, centered header
+      if (isLandscape) {
+          const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+          const headerHeight = 70;
+          const centerX = pageWidth / 2;
+          const headerTop = 60;
 
-      // White pill for title
-      const whitePill = new fabric.Rect({
-          left: 90,
-          top: 85,
-          width: 432,
-          height: 70,
-          fill: '#FFFFFF',
-          rx: 35,
-          ry: 35,
-          selectable: true,
-          isHeaderElement: true
-      });
-      objects.push(whitePill);
+          // Sunny blue header background - compact size
+          const bgRect = new fabric.Rect({
+              left: centerX - maxHeaderWidth / 2,
+              top: headerTop,
+              width: maxHeaderWidth,
+              height: headerHeight,
+              fill: '#52B2CF',
+              rx: 35,
+              ry: 35,
+              selectable: true,
+              isHeaderElement: true
+          });
+          objects.push(bgRect);
 
-      // Title - Dynamic size based on length
-      let titleFontSize = 48;
-      if (title.length > 12) titleFontSize = 40;
-      if (title.length > 15) titleFontSize = 36;
-      if (title.length > 18) titleFontSize = 32;
-      if (title.length > 22) titleFontSize = 28;
+          // White pill for title - compact
+          const whitePill = new fabric.Rect({
+              left: centerX - (maxHeaderWidth - 40) / 2,
+              top: headerTop + 10,
+              width: maxHeaderWidth - 40,
+              height: 50,
+              fill: '#FFFFFF',
+              rx: 25,
+              ry: 25,
+              selectable: true,
+              isHeaderElement: true
+          });
+          objects.push(whitePill);
 
-      const titleText = new fabric.IText(title, {
-          left: 306,
-          top: 120,
-          fontSize: titleFontSize,
-          fontFamily: 'Fredoka, sans-serif',
-          fontWeight: '700',
-          fill: '#1E3D59',
-          textAlign: 'center',
-          originX: 'center',
-          originY: 'center',
-          selectable: true,
-          editable: true,
-          isHeaderElement: true
-      });
-      objects.push(titleText);
+          // Title - compact size for landscape
+          let titleFontSize = 36;
+          if (title.length > 12) titleFontSize = 32;
+          if (title.length > 15) titleFontSize = 28;
+          if (title.length > 18) titleFontSize = 24;
 
-      // Description text
-      const descText = new fabric.Textbox(description, {
-          left: 306,
-          top: 190,
-          width: 450,
-          fontSize: 20,
-          fontFamily: 'Quicksand, sans-serif',
-          fontWeight: '500',
-          fill: '#E67E22',
-          textAlign: 'center',
-          originX: 'center',
-          originY: 'top',
-          selectable: true,
-          editable: true,
-          hasControls: true,
-          isHeaderElement: true,
-          isHeaderDesc: true
-      });
-      objects.push(descText);
+          const titleText = new fabric.IText(title, {
+              left: centerX,
+              top: headerTop + 35,
+              fontSize: titleFontSize,
+              fontFamily: 'Fredoka, sans-serif',
+              fontWeight: '700',
+              fill: '#1E3D59',
+              textAlign: 'center',
+              originX: 'center',
+              originY: 'center',
+              selectable: true,
+              editable: true,
+              isHeaderElement: true
+          });
+          objects.push(titleText);
+
+          // Description - compact below header
+          const descText = new fabric.Textbox(description, {
+              left: centerX,
+              top: headerTop + headerHeight + 5,
+              width: maxHeaderWidth - 20,
+              fontSize: 14,
+              fontFamily: 'Quicksand, sans-serif',
+              fontWeight: '500',
+              fill: '#E67E22',
+              textAlign: 'center',
+              originX: 'center',
+              originY: 'top',
+              selectable: true,
+              editable: true,
+              hasControls: true,
+              isHeaderDesc: true
+          });
+          objects.push(descText);
+
+      } else {
+          // PORTRAIT MODE: Full-width professional header
+          const headerMargin = 70;
+          const headerWidth = pageWidth - (headerMargin * 2);
+          const centerX = pageWidth / 2;
+
+          // Sunny blue header background
+          const bgRect = new fabric.Rect({
+              left: headerMargin,
+              top: 70,
+              width: headerWidth,
+              height: 100,
+              fill: '#52B2CF',
+              rx: 15,
+              ry: 15,
+              selectable: true,
+              isHeaderElement: true
+          });
+          objects.push(bgRect);
+
+          // White pill for title
+          const whitePill = new fabric.Rect({
+              left: headerMargin + 20,
+              top: 85,
+              width: headerWidth - 40,
+              height: 70,
+              fill: '#FFFFFF',
+              rx: 35,
+              ry: 35,
+              selectable: true,
+              isHeaderElement: true
+          });
+          objects.push(whitePill);
+
+          // Title - Dynamic size based on length
+          let titleFontSize = 48;
+          if (title.length > 12) titleFontSize = 40;
+          if (title.length > 15) titleFontSize = 36;
+          if (title.length > 18) titleFontSize = 32;
+          if (title.length > 22) titleFontSize = 28;
+
+          const titleText = new fabric.IText(title, {
+              left: centerX,
+              top: 120,
+              fontSize: titleFontSize,
+              fontFamily: 'Fredoka, sans-serif',
+              fontWeight: '700',
+              fill: '#1E3D59',
+              textAlign: 'center',
+              originX: 'center',
+              originY: 'center',
+              selectable: true,
+              editable: true,
+              isHeaderElement: true
+          });
+          objects.push(titleText);
+
+          // Description text
+          const descText = new fabric.Textbox(description, {
+              left: centerX,
+              top: 190,
+              width: Math.min(450, pageWidth - 150),
+              fontSize: 20,
+              fontFamily: 'Quicksand, sans-serif',
+              fontWeight: '500',
+              fill: '#E67E22',
+              textAlign: 'center',
+              originX: 'center',
+              originY: 'top',
+              selectable: true,
+              editable: true,
+              hasControls: true,
+              isHeaderDesc: true
+          });
+          objects.push(descText);
+      }
 
       return objects;
   }
@@ -1593,6 +1685,133 @@ document.addEventListener("DOMContentLoaded", function() {
           canvas.sendToBack(border);
           if (background) canvas.bringForward(border);
       }
+  }
+
+  // CRITICAL: Regeneration functions for paper type switching (follows wordsearch pattern)
+  async function regenerateHeadersOnly() {
+      // Only regenerate if worksheet exists
+      if (!worksheetCanvas || !worksheetCanvas.solutionPath) return;
+
+      // Regenerate worksheet canvas
+      await regenerateCanvasLayout(worksheetCanvas, false);
+
+      // Regenerate answer key canvas if it exists
+      const hasAnswerKey = answerKeyCanvas && answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem);
+      if (hasAnswerKey) {
+          await regenerateCanvasLayout(answerKeyCanvas, true);
+      }
+  }
+
+  async function regenerateCanvasLayout(canvas, isAnswerKey) {
+      if (!canvas) return;
+
+      // For worksheet, check if we have the required data
+      if (!isAnswerKey && !worksheetCanvas.solutionPath) return;
+
+      // Preserve user-added objects ONLY (NOT generated content)
+      const userAddedObjects = canvas.getObjects().filter(o =>
+          !o.isGeneratedItem &&
+          !o.isAnswerKeyItem &&
+          !o.isBorder &&
+          !o.isBackground &&
+          !o.isPageBorder &&
+          !o.isHeaderDesc &&
+          !o.isHeaderElement
+      );
+
+      // Find the grid group BEFORE removing items
+      const gridGroup = canvas.getObjects().find(o =>
+          (o.isGeneratedItem || o.isAnswerKeyItem) && o.originalIndex === 0
+      );
+
+      // Remove ONLY headers, borders, and backgrounds (keep grid and name/date)
+      const itemsToRemove = canvas.getObjects().filter(o =>
+          o.isPageBorder ||
+          o.isHeaderDesc ||
+          o.isHeaderElement ||
+          o.isBorder ||
+          o.isBackground
+      );
+      itemsToRemove.forEach(o => canvas.remove(o));
+
+      // For answer key, clone background and border from worksheet
+      if (isAnswerKey) {
+          const background = worksheetCanvas.getObjects().find(o => o.isBackground);
+          if (background) {
+              await new Promise(resolve => background.clone(cloned => {
+                  cloned.set({ isBackground: true });
+                  canvas.add(cloned);
+                  resolve();
+              }));
+          }
+          const border = worksheetCanvas.getObjects().find(o => o.isBorder);
+          if (border) {
+              await new Promise(resolve => border.clone(cloned => {
+                  cloned.set({ isBorder: true });
+                  canvas.add(cloned);
+                  resolve();
+              }));
+          }
+      }
+
+      // Recreate header with current page dimensions
+      const headerObjects = createHeaderGroup(canvas);
+      if (headerObjects) {
+          headerObjects.forEach(obj => canvas.add(obj));
+      }
+
+      // Recalculate grid position and size based on new canvas dimensions
+      if (gridGroup) {
+          const HEADER_HEIGHT = 220;
+          const pageMargin = 50;
+          const nameDateHeight = 60;
+
+          const availableWidth = currentCanvasConfig.width - (2 * pageMargin);
+          const availableHeight = currentCanvasConfig.height - HEADER_HEIGHT - pageMargin - nameDateHeight;
+
+          const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+
+          // Store original scale if not already stored
+          if (!gridGroup.originalScaleX) {
+              gridGroup.originalScaleX = gridGroup.scaleX;
+              gridGroup.originalScaleY = gridGroup.scaleY;
+          }
+
+          // WORKSHEET ONLY: Scale grid down by 25% in landscape mode
+          if (!isAnswerKey && isLandscape) {
+              gridGroup.scaleX = gridGroup.originalScaleX * 0.75;
+              gridGroup.scaleY = gridGroup.originalScaleY * 0.75;
+          } else if (!isAnswerKey && !isLandscape) {
+              // Restore to original size in portrait
+              gridGroup.scaleX = gridGroup.originalScaleX;
+              gridGroup.scaleY = gridGroup.originalScaleY;
+          }
+
+          const gridWidth = gridGroup.getScaledWidth();
+          const gridHeight = gridGroup.getScaledHeight();
+
+          // Vertical positioning:
+          // - Worksheet landscape: 60px up
+          // - Worksheet portrait: centered (0px offset)
+          // - Answer key landscape: centered + 30px down (negative offset)
+          // - Answer key portrait: 30px up
+          const verticalOffset = isAnswerKey ? (isLandscape ? -30 : 30) : (isLandscape ? 60 : 0);
+          // Horizontal positioning: Answer key landscape moves 100px to the right
+          const horizontalOffset = isAnswerKey && isLandscape ? 100 : 0;
+
+          const newGridTop = HEADER_HEIGHT + nameDateHeight + (availableHeight - gridHeight) / 2 - verticalOffset;
+          const newGridLeft = pageMargin + (availableWidth - gridWidth) / 2 + horizontalOffset;
+
+          gridGroup.set({
+              left: newGridLeft,
+              top: newGridTop
+          });
+          gridGroup.setCoords();
+      }
+
+      enforceZOrder(canvas);
+      userAddedObjects.forEach(obj => canvas.bringToFront());
+      canvas.renderAll();
   }
 
 
@@ -1634,23 +1853,27 @@ document.addEventListener("DOMContentLoaded", function() {
       
       [worksheetCanvas, answerKeyCanvas].forEach(c => {
           if (c) {
+              // CRITICAL: Update actual canvas dimensions FIRST
+              c.setWidth(width);
+              c.setHeight(height);
+
               // Apply zoom for display scaling
               const finalZoom = displayWidth / width;
               c.setZoom(finalZoom);
-              
+
               // Set dimensions AFTER zoom to ensure viewport matches zoomed size
               c.setDimensions({
                   width: displayWidth,
                   height: displayHeight
               });
-              
+
               c.calcOffset();
-              
+
               // Update hit detection areas for all objects after zoom
               c.getObjects().forEach(obj => {
                   obj.setCoords();
               });
-              
+
               c.renderAll();
           }
       });
@@ -1663,10 +1886,12 @@ document.addEventListener("DOMContentLoaded", function() {
       if (!fromLoad) {
           pageWidthInput.value = width;
           pageHeightInput.value = height;
+          // Regenerate layout when page size changes (repositions existing content)
+          regenerateHeadersOnly();
       }
   }
 
-  pageSizeSelect.addEventListener('change', function() {
+  pageSizeSelect.addEventListener('change', async function() {
       const selectedValue = this.value;
       if (selectedValue === 'custom') {
           customPageSizeInputsDiv.style.display = 'block';
@@ -1674,10 +1899,12 @@ document.addEventListener("DOMContentLoaded", function() {
           customPageSizeInputsDiv.style.display = 'none';
           const [w, h] = selectedValue.split('x').map(Number);
           updateCanvasDisplayDimensions(w, h);
+          // Regenerate header when page size changes
+          await regenerateHeadersOnly();
       }
   });
 
-  setPageSizeBtn.addEventListener('click', () => {
+  setPageSizeBtn.addEventListener('click', async () => {
       let newWidth, newHeight;
       if (pageSizeSelect.value === 'custom' || customPageSizeInputsDiv.style.display === 'block') {
           newWidth = parseInt(pageWidthInput.value, 10) || currentCanvasConfig.width;
@@ -1686,6 +1913,8 @@ document.addEventListener("DOMContentLoaded", function() {
           [newWidth, newHeight] = pageSizeSelect.value.split('x').map(Number);
       }
       updateCanvasDisplayDimensions(newWidth, newHeight);
+      // Regenerate header when page size changes
+      await regenerateHeadersOnly();
   });
 
   pageColorInput.addEventListener('input', () => {
@@ -2311,7 +2540,7 @@ document.addEventListener("DOMContentLoaded", function() {
             };
         }
     });
-    const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement);
+    const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
 
     // Remove existing header and borders
     const oldHeadersAndBorders = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
@@ -2345,13 +2574,15 @@ document.addEventListener("DOMContentLoaded", function() {
     const maxCellWidth = (availableWidth - 2 * gridInnerPadding - (cols - 1) * cellSpacing) / cols;
     const maxCellHeight = (availableHeight - 2 * gridInnerPadding - (rows - 1) * cellSpacing) / rows;
     const imageSize = Math.min(maxCellWidth, maxCellHeight, 90); // Cap at 90 for reasonable size
-    
+
     const totalCellDim = imageSize + cellSpacing;
     const gridWidth = cols * imageSize + (cols - 1) * cellSpacing + 2 * gridInnerPadding;
     const gridHeight = rows * imageSize + (rows - 1) * cellSpacing + 2 * gridInnerPadding;
 
     // Center the grid within the available space
-    const gridTopOffset = HEADER_HEIGHT + nameDateHeight + (availableHeight - gridHeight) / 2;
+    // LANDSCAPE MODE: Move grid 60 pixels up for better positioning
+    const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+    const gridTopOffset = HEADER_HEIGHT + nameDateHeight + (availableHeight - gridHeight) / 2 - (isLandscape ? 60 : 0);
     const gridLeftOffset = pageMargin + (availableWidth - gridWidth) / 2;
 
     const gridBorder = new fabric.Rect({
@@ -2473,10 +2704,10 @@ document.addEventListener("DOMContentLoaded", function() {
             };
         }
     });
-    const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement);
+    const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
 
     // Part C, Step 2: Precise Removal
-    const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderElement);
+    const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderElement || o.isHeaderDesc);
     objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
 
     // Part C, Step 3: Clone Decoratives (including header and borders)
@@ -2533,8 +2764,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const gridHeight = rows * imageSize + (rows - 1) * cellSpacing + 2 * gridInnerPadding;
 
     // Center the grid within the available space
-    const gridTopOffset = HEADER_HEIGHT + nameDateHeight + (availableHeight - gridHeight) / 2 - 30;
-    const gridLeftOffset = pageMargin + (availableWidth - gridWidth) / 2;
+    // LANDSCAPE MODE: Centered + 30px down + 100px right, PORTRAIT MODE: Move grid 30 pixels up
+    const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+    const gridTopOffset = HEADER_HEIGHT + nameDateHeight + (availableHeight - gridHeight) / 2 - (isLandscape ? -30 : 30);
+    const gridLeftOffset = pageMargin + (availableWidth - gridWidth) / 2 + (isLandscape ? 100 : 0);
 
     const answerKeyGridBorder = new fabric.Rect({
         left: 0, top: 0, width: gridWidth, height: gridHeight, fill: 'transparent',

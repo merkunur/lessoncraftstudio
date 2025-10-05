@@ -762,7 +762,7 @@
             
             dom.pageSizeSelect.value = "612x792"; // Letter Portrait default
             [currentCanvasConfig.width, currentCanvasConfig.height] = [612, 792];
-            updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+            updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height, true);
             
             applyPageColor();
 
@@ -1009,36 +1009,33 @@
             
             // Update existing template (whiteboard) size based on new orientation
             const isPortrait = currentCanvasConfig.width < currentCanvasConfig.height;
+            const HEADER_END = isPortrait ? 175 : 155; // Landscape: moved up 20px
+            const BORDER_MARGIN = 34;
+            const SIDE_PADDING = 40;
             [worksheetCanvas, answerKeyCanvas].forEach(canvas => {
                 const template = canvas.getObjects().find(o => o.isTemplate);
                 if (template) {
-                    // Calculate new scale based on orientation
-                    const targetWidth = isPortrait 
-                        ? currentCanvasConfig.width * 1.0  // Full width in portrait (increased from 85% to 100%)
-                        : currentCanvasConfig.width;  // Full width in landscape
-                    
-                    // Apply the new scale
-                    const scaleFactor = targetWidth / (template.width * template.scaleX);
-                    template.scaleX = template.scaleX * scaleFactor;
-                    
-                    if (isPortrait) {
-                        // Increase height by 25% in portrait
-                        template.scaleY = template.scaleX * 1.25;
-                        // Position at top with 30px margin in portrait mode
-                        const topMargin = 30;
-                        template.set({
-                            left: currentCanvasConfig.width / 2,
-                            top: topMargin + (template.height * template.scaleY) / 2,
-                            originX: 'center',
-                            originY: 'center'
-                        });
-                    } else {
-                        // In landscape, keep aspect ratio
-                        template.scaleY = template.scaleX;
-                        // Center in landscape mode
-                        template.center();
-                    }
-                    
+                    const availableWidth = (currentCanvasConfig.width - (BORDER_MARGIN + SIDE_PADDING) * 2) * 1.05;
+
+                    // Scale to width
+                    const scaleFactorX = availableWidth / (template.width * template.scaleX);
+                    template.scaleX = template.scaleX * scaleFactorX;
+
+                    // Scale height - portrait reduced by 10%, landscape increased by 30%
+                    const BOTTOM_RESERVE = isPortrait ? 180 : 221;
+                    const heightMultiplier = isPortrait ? 0.9 : 1.3;
+                    const availableHeight = (currentCanvasConfig.height - HEADER_END - BOTTOM_RESERVE) * heightMultiplier;
+                    template.scaleY = availableHeight / template.height;
+
+                    // Position whiteboard
+                    const whiteboardHeight = template.height * template.scaleY;
+                    template.set({
+                        left: currentCanvasConfig.width / 2,
+                        top: HEADER_END + whiteboardHeight / 2,
+                        originX: 'center',
+                        originY: 'center'
+                    });
+
                     canvas.renderAll();
                 }
             });
@@ -1046,24 +1043,25 @@
             showMessage(t("prepositions.msg.page.updated"), "success", 1500);
         }
 
-        function updateCanvasDisplayDimensions(width, height) {
+        async function updateCanvasDisplayDimensions(width, height, fromLoad = false) {
+            if (!width || !height) return;
             currentCanvasConfig.width = width;
             currentCanvasConfig.height = height;
 
             const mainContentAreaStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
             const availableWidth = parseFloat(mainContentAreaStyle.width) - parseFloat(mainContentAreaStyle.paddingLeft) - parseFloat(mainContentAreaStyle.paddingRight) - 10;
             const availableHeight = parseFloat(mainContentAreaStyle.height) - parseFloat(mainContentAreaStyle.paddingTop) - parseFloat(mainContentAreaStyle.paddingBottom) - 10;
-            
+
             // Apply 25% scaling for better visibility
             const isLandscape = width > height;
             const baseScale = 1.25; // Base 25% larger for all
             const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
             const displayScale = baseScale * landscapeBonus;
-            
+
             // Calculate display dimensions with scaling
             const scaledWidth = width * displayScale;
             const scaledHeight = height * displayScale;
-            
+
             // Ensure it fits in available space
             const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
             const displayWidth = scaledWidth * scaleRatio;
@@ -1071,43 +1069,190 @@
 
             [worksheetCanvas, answerKeyCanvas].forEach(c => {
                 if (c) {
+                    // CRITICAL: Update actual canvas dimensions FIRST
+                    c.setWidth(width);
+                    c.setHeight(height);
+
                     // Apply zoom for display scaling
                     const finalZoom = (displayWidth / width);
                     c.setZoom(finalZoom);
-                    
-                    // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+
+                    // CRITICAL: Set dimensions AFTER zoom to ensure viewport matches zoomed size
                     c.setDimensions({
                         width: displayWidth,
                         height: displayHeight
                     });
-                    
+
                     c.calcOffset();
+
+                    // Update hit detection areas for all objects after zoom
+                    c.getObjects().forEach(obj => {
+                        obj.setCoords();
+                    });
+
                     c.renderAll();
                 }
             });
-            
+
             // Update wrapper dimensions to match display size
-            [dom.worksheetCanvasWrapper, dom.answerKeyCanvasWrapper].forEach(w => { 
+            [dom.worksheetCanvasWrapper, dom.answerKeyCanvasWrapper].forEach(w => {
                 if (w) {
-                    w.style.width = `${displayWidth}px`; 
-                    w.style.height = `${displayHeight}px`; 
+                    w.style.width = `${displayWidth}px`;
+                    w.style.height = `${displayHeight}px`;
                 }
             });
-            
+
             dom.pageWidth.value = width;
             dom.pageHeight.value = height;
+
+            if (!fromLoad) {
+                // Regenerate headers when page size changes
+                await regenerateHeadersOnly();
+            }
         }
 
         function applyPageColor() {
             const color = dom.pageColor.value;
             [worksheetCanvas, answerKeyCanvas].forEach(c => { if(c) { c.backgroundColor = color; c.renderAll(); } });
         }
-        
+
+        function createHeaderGroup(canvas) {
+            const defaultHeaders = {
+                en: { title: 'Prepositions', description: 'Complete each sentence with the correct preposition!' },
+                de: { title: 'Präpositionen', description: 'Vervollständige jeden Satz mit der richtigen Präposition!' },
+                fr: { title: 'Prépositions', description: 'Complétez chaque phrase avec la bonne préposition!' },
+                es: { title: 'Preposiciones', description: '¡Completa cada frase con la preposición correcta!' },
+                it: { title: 'Preposizioni', description: 'Completa ogni frase con la preposizione corretta!' },
+                pt: { title: 'Preposições', description: 'Complete cada frase com a preposição correta!' },
+                nl: { title: 'Voorzetsels', description: 'Voltooi elke zin met het juiste voorzetsel!' },
+                sv: { title: 'Prepositioner', description: 'Fyll i varje mening med rätt preposition!' },
+                da: { title: 'Præpositioner', description: 'Fuldfør hver sætning med den rigtige præposition!' },
+                no: { title: 'Preposisjoner', description: 'Fullfør hver setning med riktig preposisjon!' },
+                fi: { title: 'Prepositiot', description: 'Täydennä jokainen lause oikealla prepositiolla!' }
+            };
+
+            const locale = currentLocale || 'en';
+            const defaults = defaultHeaders[locale] || defaultHeaders.en;
+            const title = defaults.title;
+            const description = defaults.description;
+
+            // Get current canvas dimensions for responsive design
+            const pageWidth = currentCanvasConfig.width;
+            const pageHeight = currentCanvasConfig.height;
+            const isLandscape = pageWidth > pageHeight;
+
+            const objects = [];
+
+            // Outer border - responsive to page size (purple for spatial/position theme)
+            const margin = 34;
+            const strokeWidth = 8;
+            const borderWidth = pageWidth - (margin * 2);
+            const borderHeight = pageHeight - (margin * 2);
+
+            const outerBorder = new fabric.Rect({
+                left: margin,
+                top: margin,
+                width: borderWidth,
+                height: borderHeight,
+                fill: 'transparent',
+                stroke: '#7B1FA2',
+                strokeWidth: strokeWidth,
+                rx: 12,
+                ry: 12,
+                selectable: true,
+                hasControls: true,
+                isPageBorder: true
+            });
+            objects.push(outerBorder);
+
+            // COMPACT HEADER for both orientations - stays above whiteboard
+            const centerX = pageWidth / 2;
+            const headerTop = isLandscape ? 65 : 85; // Landscape: moved up 20px, Portrait: original position
+            const headerHeight = 45;
+            const maxHeaderWidth = Math.min(400, pageWidth * 0.65);
+
+            // Lavender header background - very compact
+            const bgRect = new fabric.Rect({
+                left: centerX - maxHeaderWidth / 2,
+                top: headerTop,
+                width: maxHeaderWidth,
+                height: headerHeight,
+                fill: '#BA68C8',
+                rx: 22,
+                ry: 22,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
+
+            // White pill for title - very compact
+            const whitePill = new fabric.Rect({
+                left: centerX - (maxHeaderWidth - 30) / 2,
+                top: headerTop + 8,
+                width: maxHeaderWidth - 30,
+                height: 29,
+                fill: '#FFFFFF',
+                rx: 14,
+                ry: 14,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
+
+            // Title - compact size
+            let titleFontSize = 20;
+            if (title.length > 12) titleFontSize = 18;
+            if (title.length > 15) titleFontSize = 16;
+
+            const titleText = new fabric.IText(title, {
+                left: centerX,
+                top: headerTop + 22,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#6A1B9A',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description text below header
+            const descTop = headerTop + headerHeight + 8;
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: descTop,
+                width: Math.min(500, pageWidth * 0.8),
+                fontSize: 16,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#E91E63',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true,
+                isHeaderElement: true
+            });
+            objects.push(descText);
+
+            return objects;
+        }
+
         function enforceLayerOrder(canvas) {
             if (!canvas) return;
             const background = canvas.getObjects().find(o => o.isBackground);
             const template = canvas.getObjects().find(o => o.isTemplate);
             const border = canvas.getObjects().find(o => o.isBorder);
+
+            // Handle page borders (should be behind everything)
+            const pageBorders = canvas.getObjects().filter(o => o.isPageBorder);
+            pageBorders.forEach(pb => canvas.sendToBack(pb));
 
             if(background) canvas.sendToBack(background);
             if(template) canvas.sendToBack(template);
@@ -1116,6 +1261,11 @@
             if(template && background) canvas.bringForward(template);
             if(border && template) canvas.bringForward(border);
             else if (border && background) canvas.bringForward(border);
+
+            // Bring page borders above background but behind everything else
+            pageBorders.forEach(pb => {
+                if (background) canvas.bringForward(pb);
+            });
 
             canvas.renderAll();
         }
@@ -1197,24 +1347,45 @@
                             objectCaching: false 
                         });
                         
+                        // Header + description ends at ~170px in portrait, ~150px in landscape
+                        const HEADER_END = isPortrait ? 175 : 155; // Landscape: moved up 20px
+                        const BORDER_MARGIN = 34;
+                        const SIDE_PADDING = 40;
+
+                        // Calculate available space (increased by 5% for visual exercises)
+                        const availableWidth = (actualWidth - (BORDER_MARGIN + SIDE_PADDING) * 2) * 1.05;
+
                         if (isPortrait) {
-                            // In portrait mode, make whiteboard full width
-                            cloned.scaleToWidth(actualWidth * 1.0);
-                            // Increase height by 25%
-                            const currentScaleY = cloned.scaleY;
-                            cloned.scaleY = currentScaleY * 1.25;
-                            // Position at top with 30px margin
-                            const topMargin = 30;
+                            // Portrait: Increased whiteboard to fill gap above Q&A text, then reduced by 10%
+                            const BOTTOM_RESERVE = 180;
+                            const availableHeight = (currentCanvasConfig.height - HEADER_END - BOTTOM_RESERVE) * 0.9;
+
+                            cloned.scaleToWidth(availableWidth);
+                            // Scale height to fill available vertical space
+                            const targetHeight = availableHeight;
+                            cloned.scaleY = targetHeight / cloned.height;
+
                             cloned.set({
                                 left: actualWidth / 2,
-                                top: topMargin + (cloned.height * cloned.scaleY) / 2,
+                                top: HEADER_END + (cloned.height * cloned.scaleY) / 2,
                                 originX: 'center',
                                 originY: 'center'
                             });
                         } else {
-                            // In landscape mode, scale normally and center
-                            cloned.scaleToWidth(actualWidth);
-                            cloned.center();
+                            // Landscape: Whiteboard increased by 30%
+                            const BOTTOM_RESERVE = 221;
+                            const availableHeight = (currentCanvasConfig.height - HEADER_END - BOTTOM_RESERVE) * 1.3;
+
+                            cloned.scaleToWidth(availableWidth);
+                            const targetHeight = availableHeight;
+                            cloned.scaleY = targetHeight / cloned.height;
+
+                            cloned.set({
+                                left: actualWidth / 2,
+                                top: HEADER_END + (cloned.height * cloned.scaleY) / 2,
+                                originX: 'center',
+                                originY: 'center'
+                            });
                         }
                         canvas.add(cloned);
                         enforceLayerOrder(canvas);
@@ -1653,25 +1824,31 @@
         function renderUploadedImages() { dom.uploadedImagesPreview.innerHTML = ""; if (uploadedImages.length === 0) { dom.uploadedImagesPreview.innerHTML = `<p class="dictionary-message">Your uploaded images appear here.</p>`; return; } uploadedImages.forEach(imgData => { const displayName = imgData.name || imgData.word; const item = document.createElement('div'); item.className = 'dictionary-item'; item.innerHTML = `<img src="${imgData.path}" alt="${displayName}"/><span>${displayName}</span>`; item.onclick = () => handleDictionaryItemClick(imgData, item, 'item'); dom.uploadedImagesPreview.appendChild(item); }); }
 
         // --- Core Generation Logic ---
-        async function generateWorksheet() {
+        async function generateWorksheet(preserveTransforms = true) {
             showMessage(t("prepositions.msg.generating"), "info", 0);
 
             // --- Part B, Step 1: Preserve State ---
             const oldTransforms = {};
-            worksheetCanvas.getObjects().forEach(obj => {
-                if (obj.isGeneratedItem && obj.originalIndex != null) {
-                    oldTransforms[obj.originalIndex] = {
-                        left: obj.left, top: obj.top,
-                        scaleX: obj.scaleX, scaleY: obj.scaleY,
-                        angle: obj.angle
-                    };
-                }
-            });
-            const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isTemplate);
+            if (preserveTransforms) {
+                worksheetCanvas.getObjects().forEach(obj => {
+                    if (obj.isGeneratedItem && obj.originalIndex != null) {
+                        oldTransforms[obj.originalIndex] = {
+                            left: obj.left, top: obj.top,
+                            scaleX: obj.scaleX, scaleY: obj.scaleY,
+                            angle: obj.angle
+                        };
+                    }
+                });
+            }
+            const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isTemplate && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
 
             // --- Part B, Step 2: Precise Removal ---
             const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem);
             oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
+
+            // Remove old headers and borders
+            const oldHeaders = worksheetCanvas.getObjects().filter(o => o.isHeaderElement || o.isPageBorder || o.isHeaderDesc);
+            oldHeaders.forEach(o => worksheetCanvas.remove(o));
             
             const exerciseCount = parseInt(dom.exerciseCount.value, 10);
             const selectedPreps = Array.from(dom.prepositionsGrid.querySelectorAll('input:checked')).map(cb => cb.value);
@@ -1719,14 +1896,18 @@
 
             // --- Part B, Step 3 & 4: Re-apply and Finalize ---
             newItems.forEach(item => {
-                if (oldTransforms[item.originalIndex]) {
+                if (preserveTransforms && oldTransforms[item.originalIndex]) {
                     item.set(oldTransforms[item.originalIndex]);
                 }
                 worksheetCanvas.add(item);
             });
-            
-            if (dom.includeNameDateCheckbox.checked && !worksheetCanvas.getObjects().find(o=>o.isNameDate)) { 
-                addNameDateGroup(worksheetCanvas); 
+
+            // Add header and border elements
+            const headerElements = createHeaderGroup(worksheetCanvas);
+            headerElements.forEach(el => worksheetCanvas.add(el));
+
+            if (dom.includeNameDateCheckbox.checked && !worksheetCanvas.getObjects().find(o=>o.isNameDate)) {
+                addNameDateGroup(worksheetCanvas);
             }
 
             enforceLayerOrder(worksheetCanvas);
@@ -1738,7 +1919,7 @@
             showMessage(t("prepositions.msg.worksheet.generated"), "success");
         }
         
-        async function generateAnswerKey() {
+        async function generateAnswerKey(preserveTransforms = true) {
             if (!lastGeneratedAssignments) {
                 showMessage(t("prepositions.msg.generate.first"), "error");
                 return;
@@ -1747,19 +1928,21 @@
 
             // --- Part C, Step 1: Preserve State ---
             const oldTransforms = {};
-            answerKeyCanvas.getObjects().forEach(obj => {
-                if (obj.isAnswerKeyItem && obj.originalIndex != null) {
-                    oldTransforms[obj.originalIndex] = {
-                        left: obj.left, top: obj.top,
-                        scaleX: obj.scaleX, scaleY: obj.scaleY,
-                        angle: obj.angle
-                    };
-                }
-            });
-            const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isTemplate);
+            if (preserveTransforms) {
+                answerKeyCanvas.getObjects().forEach(obj => {
+                    if (obj.isAnswerKeyItem && obj.originalIndex != null) {
+                        oldTransforms[obj.originalIndex] = {
+                            left: obj.left, top: obj.top,
+                            scaleX: obj.scaleX, scaleY: obj.scaleY,
+                            angle: obj.angle
+                        };
+                    }
+                });
+            }
+            const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isTemplate && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
 
             // --- Part C, Step 2: Precise Removal ---
-            const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isTemplate);
+            const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isTemplate || o.isPageBorder || o.isHeaderElement || o.isHeaderDesc);
             objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
             
             answerKeyCanvas.backgroundColor = worksheetCanvas.backgroundColor;
@@ -1790,11 +1973,25 @@
                 }));
             }
 
+            // Clone header and border elements from worksheet
+            const headerElements = worksheetCanvas.getObjects().filter(o => o.isHeaderElement || o.isPageBorder || o.isHeaderDesc);
+            for (const headerEl of headerElements) {
+                await new Promise(resolve => headerEl.clone(cloned => {
+                    cloned.set({
+                        isHeaderElement: headerEl.isHeaderElement,
+                        isPageBorder: headerEl.isPageBorder,
+                        isHeaderDesc: headerEl.isHeaderDesc
+                    });
+                    answerKeyCanvas.add(cloned);
+                    resolve();
+                }));
+            }
+
             const newItems = await createExerciseItems(true);
 
             // --- Part C, Step 4: Re-apply and Finalize ---
             newItems.forEach(item => {
-                if (oldTransforms[item.originalIndex]) {
+                if (preserveTransforms && oldTransforms[item.originalIndex]) {
                     item.set(oldTransforms[item.originalIndex]);
                 }
                 answerKeyCanvas.add(item);
@@ -1809,44 +2006,69 @@
             document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
         }
 
+        // CRITICAL: Paper switching regeneration system (follows wordsearch pattern EXACTLY)
+        async function regenerateHeadersOnly() {
+            // Only regenerate if worksheet exists
+            if (!lastGeneratedAssignments) return;
+
+            // Regenerate ENTIRE worksheet (not just headers!)
+            // CRITICAL: Pass false to NOT preserve transforms during paper size change
+            await generateWorksheet(false);
+
+            // Regenerate answer key if it exists
+            const hasAnswerKey = answerKeyCanvas && answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem);
+            if (hasAnswerKey) {
+                // CRITICAL: Pass false to NOT preserve transforms during paper size change
+                await generateAnswerKey(false);
+            }
+        }
+
         async function createExerciseItems(isAnswerKey) {
             const exerciseItems = [];
-            const isPortrait = currentCanvasConfig.width < currentCanvasConfig.height;
+            const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+            const isPortrait = !isLandscape;
+
+            // Constants matching whiteboard positioning
+            const HEADER_END = isPortrait ? 175 : 155; // Landscape: moved up 20px
+            const BORDER_MARGIN = 34;
+            const SIDE_PADDING = 40;
+            const BOTTOM_RESERVE = isPortrait ? 180 : 221;
+
+            // Calculate whiteboard dimensions (matches addTemplateToCanvases, +5% width, portrait -10% height, landscape +30% height)
+            const availableWidth = (currentCanvasConfig.width - (BORDER_MARGIN + SIDE_PADDING) * 2) * 1.05;
+            const heightMultiplier = isPortrait ? 0.9 : 1.3;
+            const whiteboardHeight = (currentCanvasConfig.height - HEADER_END - BOTTOM_RESERVE) * heightMultiplier;
+
             const gridCols = 4;
             const gridRows = Math.ceil(lastGeneratedAssignments.length / gridCols);
-            const horizontalPadding = 50;
-            const verticalPadding = 50;
-            
-            // Increase bottom margin for portrait mode
-            const bottomMargin = isPortrait ? 150 : 50;
-            
-            const availableGridWidth = currentCanvasConfig.width - (horizontalPadding * 2);
-            const availableGridHeight = currentCanvasConfig.height - verticalPadding - bottomMargin;
-            const cellWidth = availableGridWidth / gridCols;
-            const cellHeight = availableGridHeight / gridRows;
+
+            // Visual grid positioning - spread across full whiteboard with margins (reduced by 10%)
+            const whiteboardTop = HEADER_END;
+            const gridTopMargin = 27;
+            const gridBottomMargin = 27;
+            const gridSideMargin = 40;
+
+            const gridStartY = whiteboardTop + gridTopMargin;
+            const gridWidth = availableWidth - (gridSideMargin * 2);
+            const gridHeight = whiteboardHeight - gridTopMargin - gridBottomMargin;
+
+            const cellWidth = gridWidth / gridCols;
+            const cellHeight = gridHeight / gridRows;
 
             const itemPromises = lastGeneratedAssignments.map((assignment, i) => {
                 const col = i % gridCols;
                 const row = Math.floor(i / gridCols);
-                let cellY = verticalPadding + row * cellHeight;
-                
-                // In portrait mode, reduce the vertical spacing between rows
-                if (isPortrait) {
-                    if (row === 0) { 
-                        cellY -= 55;  // Move first row 25px more up (was -30, now -55)
-                    } else if (row === 1) { 
-                        cellY -= 180;  // Move second row 100px more up (was -80, now -180)
-                    }
-                } else {
-                    // Keep original spacing for landscape
-                    if (row === 0) { 
-                        cellY -= 50; 
-                    } else if (row === 1) { 
-                        cellY -= 120; 
-                    }
+
+                // Position cells in grid centered within whiteboard
+                const gridStartX = BORDER_MARGIN + SIDE_PADDING + gridSideMargin;
+                let cellY = gridStartY + row * cellHeight;
+
+                // Move bottom row up 20px in portrait mode
+                if (isPortrait && row === gridRows - 1) {
+                    cellY -= 20;
                 }
-                
-                const cellX = horizontalPadding + col * cellWidth;
+
+                const cellX = gridStartX + col * cellWidth;
                 return createCellGroup(assignment, cellX, cellY, cellWidth, cellHeight, i, isAnswerKey);
             });
             const createdGroups = await Promise.all(itemPromises);
@@ -1878,12 +2100,22 @@
             }
 
             const qaElements = await buildQuestionBlock(qaTextParts, isAnswerKey);
-            
-            // Adjust Q&A block position based on orientation
-            const qaBlockY = isPortrait 
-                ? verticalPadding + (gridRows * cellHeight) - 60  // Higher position in portrait
-                : verticalPadding + (gridRows * cellHeight) + 20 - 100;  // Original for landscape
-                
+
+            // Position Q&A block BELOW the whiteboard with appropriate gap
+            const whiteboardEnd = HEADER_END + whiteboardHeight;
+
+            let qaBlockY;
+            if (isLandscape) {
+                // Landscape: Position QA to be 20px from bottom border
+                // Estimate QA block height (8 items in 2 columns = 4 rows, ~22px per row including spacing)
+                const estimatedQAHeight = Math.ceil(lastGeneratedAssignments.length / 2) * 22;
+                qaBlockY = currentCanvasConfig.height - BORDER_MARGIN - 20 - estimatedQAHeight;
+            } else {
+                // Portrait: Add comfortable gap between whiteboard and Q&A text
+                const gapAfterWhiteboard = 25;
+                qaBlockY = whiteboardEnd + gapAfterWhiteboard;
+            }
+
             // Adjust Y position for all Q&A elements
             qaElements.forEach(element => {
                 element.set({ top: element.top + qaBlockY });
@@ -1902,34 +2134,77 @@
 
             shapeImg.set({ originX: 'center', originY: 'center' });
             itemImg.set({ originX: 'center', originY: 'center' });
-            
-            const baseObjectSizeForCellFit = Math.min(cellW, cellH) * 0.4; 
+
+            const baseObjectSizeForCellFit = Math.min(cellW, cellH) * 0.5; 
             
             itemImg.scaleToHeight(baseObjectSizeForCellFit);
             shapeImg.scaleToHeight(baseObjectSizeForCellFit);
 
             const itemsToGroup = [];
-            let bypassFinalScaling = false; 
+            let bypassFinalScaling = false;
 
             switch (prep) {
                 case 'in': shapeImg.scaleToHeight(cellH * 0.7); itemImg.scaleToHeight(shapeImg.getScaledHeight() * 0.4); itemsToGroup.push(shapeImg, itemImg); break;
                 case 'on top of': const g1 = -10, cH1 = itemImg.getScaledHeight() + shapeImg.getScaledHeight() + g1; itemImg.set({ top: -(cH1 / 2 - itemImg.getScaledHeight() / 2) }); shapeImg.set({ top: (cH1 / 2 - shapeImg.getScaledHeight() / 2) }); itemsToGroup.push(shapeImg, itemImg); break;
                 case 'under': const g2 = 20, cH2 = itemImg.getScaledHeight() + shapeImg.getScaledHeight() + g2; shapeImg.set({ top: -(cH2 / 2 - shapeImg.getScaledHeight() / 2) }); itemImg.set({ top: (cH2 / 2 - itemImg.getScaledHeight() / 2) }); itemsToGroup.push(itemImg, shapeImg); break;
-                case 'next to': bypassFinalScaling = true; itemImg.scaleToHeight(baseObjectSizeForCellFit); shapeImg.scaleToHeight(baseObjectSizeForCellFit); const g3 = -30; itemImg.set({ left: -(itemImg.getScaledWidth() / 2) - (g3 / 2) }); shapeImg.set({ left: (shapeImg.getScaledWidth() / 2) + (g3 / 2) }); itemsToGroup.push(itemImg, shapeImg); break;
-                case 'behind': itemImg.scaleToHeight(baseObjectSizeForCellFit); shapeImg.scaleToHeight(itemImg.getScaledHeight() * 0.7); shapeImg.set({ top: (itemImg.getScaledHeight() - shapeImg.getScaledHeight()) / 2 }); itemImg.set({ left: 10 }); shapeImg.set({ left: -10 }); itemsToGroup.push(itemImg, shapeImg); break;
+                case 'next to':
+                    bypassFinalScaling = true;
+                    itemImg.scaleToHeight(baseObjectSizeForCellFit);
+                    shapeImg.scaleToHeight(baseObjectSizeForCellFit);
+                    // Position with 30% overlap for closer appearance
+                    const widthI_nextto = itemImg.getScaledWidth();
+                    const widthS_nextto = shapeImg.getScaledWidth();
+                    const overlap_nextto = Math.min(widthI_nextto, widthS_nextto) * 0.3;
+                    const totalWidth_nextto = widthI_nextto + widthS_nextto - overlap_nextto;
+                    // Item on left, shape on right with 30% overlap
+                    itemImg.set({ left: -totalWidth_nextto/2 + widthI_nextto/2 });
+                    shapeImg.set({ left: -totalWidth_nextto/2 + widthI_nextto - overlap_nextto + widthS_nextto/2 });
+                    itemsToGroup.push(itemImg, shapeImg);
+                    break;
+                case 'behind':
+                    itemImg.scaleToHeight(baseObjectSizeForCellFit);
+                    shapeImg.scaleToHeight(itemImg.getScaledHeight() * 0.7);
+                    // Position for 100% overlap - centers aligned with slight offset
+                    const widthI_behind = itemImg.getScaledWidth();
+                    const widthS_behind = shapeImg.getScaledWidth();
+                    // Slight horizontal offset to show depth
+                    const offsetBehind = Math.min(widthS_behind * 0.15, 15);
+                    shapeImg.set({
+                        top: (itemImg.getScaledHeight() - shapeImg.getScaledHeight()) / 2,
+                        left: offsetBehind
+                    });
+                    itemImg.set({ left: -offsetBehind });
+                    // Z-order: item BEHIND shape (item rendered first)
+                    itemsToGroup.push(itemImg, shapeImg);
+                    break;
                 case 'between': bypassFinalScaling = true; itemImg.scaleToHeight(baseObjectSizeForCellFit); shapeImg.scaleToHeight(baseObjectSizeForCellFit); const shape2 = await loadImage(shapePath); shape2.set({ originX: 'center', originY: 'center' }).scaleToHeight(baseObjectSizeForCellFit); const g4 = -30, iW = itemImg.getScaledWidth(), sW = shapeImg.getScaledWidth(); shapeImg.set({ left: -(iW / 2 + g4 + sW / 2) }); itemImg.set({ left: 0 }); shape2.set({ left: iW / 2 + g4 + sW / 2 }); itemsToGroup.push(shapeImg, itemImg, shape2); break;
                 case 'above': const g5 = 20, cH5 = itemImg.getScaledHeight() + shapeImg.getScaledHeight() + g5; itemImg.set({ top: -(cH5 / 2 - itemImg.getScaledHeight() / 2) }); shapeImg.set({ top: (cH5 / 2 - itemImg.getScaledHeight() / 2) }); itemsToGroup.push(itemImg, shapeImg); break;
-                case 'in front of': itemImg.scaleToHeight(baseObjectSizeForCellFit); shapeImg.scaleToHeight(itemImg.getScaledHeight() * 0.6); shapeImg.set({ top: (itemImg.getScaledHeight() - shapeImg.getScaledHeight()) / 2 }); itemImg.set({ left: 10 }); shapeImg.set({ left: -10 }); itemsToGroup.push(shapeImg, itemImg); break;
+                case 'in front of':
+                    itemImg.scaleToHeight(baseObjectSizeForCellFit);
+                    shapeImg.scaleToHeight(itemImg.getScaledHeight() * 0.6);
+                    // Position for 100% overlap - centers aligned with slight offset
+                    const widthI_front = itemImg.getScaledWidth();
+                    const widthS_front = shapeImg.getScaledWidth();
+                    // Slight horizontal offset to show depth
+                    const offsetFront = Math.min(widthS_front * 0.15, 15);
+                    shapeImg.set({
+                        top: (itemImg.getScaledHeight() - shapeImg.getScaledHeight()) / 2,
+                        left: -offsetFront
+                    });
+                    itemImg.set({ left: offsetFront });
+                    // Z-order: item IN FRONT of shape (shape rendered first)
+                    itemsToGroup.push(shapeImg, itemImg);
+                    break;
                 default: itemsToGroup.push(itemImg, shapeImg); break;
             }
             
             let finalGroupObjects = itemsToGroup;
-            if (!bypassFinalScaling) {
-                const tempGroup = new fabric.Group(itemsToGroup, { objectCaching: false });
-                const scaleFactor = Math.min((cellW * 0.9) / tempGroup.width, (cellH * 0.9) / tempGroup.height);
-                tempGroup.scale(scaleFactor);
-                finalGroupObjects = tempGroup.destroy().getObjects();
-            }
+            // ALWAYS apply final scaling to ensure exercises fit within cells
+            const tempGroup = new fabric.Group(itemsToGroup, { objectCaching: false });
+            // Use 0.85 for more safety margin to prevent overlap
+            const scaleFactor = Math.min((cellW * 0.85) / tempGroup.width, (cellH * 0.85) / tempGroup.height);
+            tempGroup.scale(scaleFactor);
+            finalGroupObjects = tempGroup.destroy().getObjects();
 
             return new fabric.Group(finalGroupObjects, {
                 left: x + cellW / 2, top: y + cellH / 2, originX: 'center', originY: 'center',
@@ -1942,14 +2217,14 @@
 
         async function buildQuestionBlock(qaItems, isAnswerKey) {
             const allElements = [];
-            const lineSpacing = 8;
+            const lineSpacing = 13;
             const qaGridCols = 2;
             const textBlockMaxWidth = currentCanvasConfig.width * 0.9; 
             const qaColumnWidth = textBlockMaxWidth / qaGridCols;
             let currentYs = Array(qaGridCols).fill(0);
             
-            // Calculate base position for Q&A block
-            const baseLeft = currentCanvasConfig.width * 0.05; // 5% margin
+            // Calculate base position for Q&A block - ensure it doesn't overlap border
+            const baseLeft = Math.max(50, currentCanvasConfig.width * 0.08); // At least 50px from left edge
             
             for (let i = 0; i < qaItems.length; i++) {
                 const item = qaItems[i];
@@ -2239,7 +2514,7 @@
             dom.borderThemeSelect.value = 'none'; dom.borderDictionary.innerHTML = `<p class="dictionary-message">${t('prepositions.border.message')}</p>`;
             dom.backgroundThemeSelect.value = 'none'; dom.backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('prepositions.background.message')}</p>`;
             dom.includeNameDateCheckbox.checked = false; dom.grayscaleToggle.checked = false;
-            dom.pageSizeSelect.value = "612x792"; updateCanvasDisplayDimensions(612,792); // Letter Portrait default
+            dom.pageSizeSelect.value = "612x792"; updateCanvasDisplayDimensions(612,792, true); // Letter Portrait default
             dom.exerciseCount.value = 8;
             dom.prepositionsGrid.querySelectorAll('input').forEach(cb => cb.checked = true);
 
@@ -2267,7 +2542,7 @@
                 dom.pageSizeSelect.value = '612x792';
                 currentCanvasConfig.width = 612;
                 currentCanvasConfig.height = 792;
-                updateCanvasDisplayDimensions(612, 792);
+                updateCanvasDisplayDimensions(612, 792, true);
 
                 // Set Animals theme
                 dom.itemThemeSelect.value = 'animals';

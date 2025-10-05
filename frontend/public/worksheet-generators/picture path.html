@@ -1134,6 +1134,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let selectedDistractorImages = [];
   let selectedTheme = 'all';
   let messageTimeout = null;
+  let lastGeneratedData = null; // Stores complete puzzle data for regeneration
   const downloadMultiplier = 6; // For high-res printing
 
   const includeNameDateCheckbox = document.getElementById('includeNameDate');
@@ -1690,7 +1691,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // CRITICAL: Regeneration functions for paper type switching (follows wordsearch pattern)
   async function regenerateHeadersOnly() {
       // Only regenerate if worksheet exists
-      if (!worksheetCanvas || !worksheetCanvas.solutionPath) return;
+      if (!lastGeneratedData) return;
 
       // Regenerate worksheet canvas
       await regenerateCanvasLayout(worksheetCanvas, false);
@@ -1703,10 +1704,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   async function regenerateCanvasLayout(canvas, isAnswerKey) {
-      if (!canvas) return;
-
-      // For worksheet, check if we have the required data
-      if (!isAnswerKey && !worksheetCanvas.solutionPath) return;
+      if (!canvas || !lastGeneratedData) return;
 
       // Preserve user-added objects ONLY (NOT generated content)
       const userAddedObjects = canvas.getObjects().filter(o =>
@@ -1719,99 +1717,159 @@ document.addEventListener("DOMContentLoaded", function() {
           !o.isHeaderElement
       );
 
-      // Find the grid group BEFORE removing items
-      const gridGroup = canvas.getObjects().find(o =>
-          (o.isGeneratedItem || o.isAnswerKeyItem) && o.originalIndex === 0
-      );
-
-      // Remove ONLY headers, borders, and backgrounds (keep grid and name/date)
-      const itemsToRemove = canvas.getObjects().filter(o =>
+      // Remove ALL generated content (following wordsearch pattern)
+      const itemTag = isAnswerKey ? 'isAnswerKeyItem' : 'isGeneratedItem';
+      const oldItems = canvas.getObjects().filter(o =>
+          o[itemTag] ||
           o.isPageBorder ||
           o.isHeaderDesc ||
-          o.isHeaderElement ||
-          o.isBorder ||
-          o.isBackground
+          o.isHeaderElement
       );
-      itemsToRemove.forEach(o => canvas.remove(o));
-
-      // For answer key, clone background and border from worksheet
-      if (isAnswerKey) {
-          const background = worksheetCanvas.getObjects().find(o => o.isBackground);
-          if (background) {
-              await new Promise(resolve => background.clone(cloned => {
-                  cloned.set({ isBackground: true });
-                  canvas.add(cloned);
-                  resolve();
-              }));
-          }
-          const border = worksheetCanvas.getObjects().find(o => o.isBorder);
-          if (border) {
-              await new Promise(resolve => border.clone(cloned => {
-                  cloned.set({ isBorder: true });
-                  canvas.add(cloned);
-                  resolve();
-              }));
-          }
-      }
+      oldItems.forEach(o => canvas.remove(o));
 
       // Recreate header with current page dimensions
       const headerObjects = createHeaderGroup(canvas);
       if (headerObjects) {
-          headerObjects.forEach(obj => canvas.add(obj));
+          canvas.add(...headerObjects);
       }
 
-      // Recalculate grid position and size based on new canvas dimensions
-      if (gridGroup) {
-          const HEADER_HEIGHT = 220;
-          const pageMargin = 50;
-          const nameDateHeight = 60;
-
-          const availableWidth = currentCanvasConfig.width - (2 * pageMargin);
-          const availableHeight = currentCanvasConfig.height - HEADER_HEIGHT - pageMargin - nameDateHeight;
-
-          const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
-
-          // Store original scale if not already stored
-          if (!gridGroup.originalScaleX) {
-              gridGroup.originalScaleX = gridGroup.scaleX;
-              gridGroup.originalScaleY = gridGroup.scaleY;
-          }
-
-          // WORKSHEET ONLY: Scale grid down by 25% in landscape mode
-          if (!isAnswerKey && isLandscape) {
-              gridGroup.scaleX = gridGroup.originalScaleX * 0.75;
-              gridGroup.scaleY = gridGroup.originalScaleY * 0.75;
-          } else if (!isAnswerKey && !isLandscape) {
-              // Restore to original size in portrait
-              gridGroup.scaleX = gridGroup.originalScaleX;
-              gridGroup.scaleY = gridGroup.originalScaleY;
-          }
-
-          const gridWidth = gridGroup.getScaledWidth();
-          const gridHeight = gridGroup.getScaledHeight();
-
-          // Vertical positioning:
-          // - Worksheet landscape: 60px up
-          // - Worksheet portrait: centered (0px offset)
-          // - Answer key landscape: centered + 30px down (negative offset)
-          // - Answer key portrait: 30px up
-          const verticalOffset = isAnswerKey ? (isLandscape ? -30 : 30) : (isLandscape ? 60 : 0);
-          // Horizontal positioning: Answer key landscape moves 100px to the right
-          const horizontalOffset = isAnswerKey && isLandscape ? 100 : 0;
-
-          const newGridTop = HEADER_HEIGHT + nameDateHeight + (availableHeight - gridHeight) / 2 - verticalOffset;
-          const newGridLeft = pageMargin + (availableWidth - gridWidth) / 2 + horizontalOffset;
-
-          gridGroup.set({
-              left: newGridLeft,
-              top: newGridTop
-          });
-          gridGroup.setCoords();
-      }
+      // Recreate puzzle grid from stored data with current canvas dimensions
+      const puzzleObjects = await createPuzzleGrid(lastGeneratedData, isAnswerKey);
+      canvas.add(...puzzleObjects);
 
       enforceZOrder(canvas);
-      userAddedObjects.forEach(obj => canvas.bringToFront());
+      userAddedObjects.forEach(obj => obj.bringToFront());
       canvas.renderAll();
+  }
+
+  // Creates puzzle grid from stored data (follows wordsearch pattern)
+  async function createPuzzleGrid(data, isAnswerKey) {
+      if (!data) return [];
+
+      const { solutionPath, gridData, rows, cols } = data;
+      const itemTag = isAnswerKey ? 'isAnswerKeyItem' : 'isGeneratedItem';
+
+      // Get current page dimensions
+      const pageWidth = currentCanvasConfig.width;
+      const pageHeight = currentCanvasConfig.height;
+      const isLandscape = pageWidth > pageHeight;
+
+      // Responsive header height (CRITICAL: must account for description bottom!)
+      // Landscape: desc at top=135, fontSize=14 → desc bottom ~165px (add 30px buffer)
+      // Portrait: desc at top=190, fontSize=20 → desc bottom ~230px (add 40px buffer)
+      const HEADER_HEIGHT = isLandscape ? 165 : 240;
+      const pageMargin = 50;
+      const nameDateHeight = includeNameDateCheckbox.checked ? 60 : 0;
+
+      // Calculate available space within margins
+      const availableWidth = pageWidth - (2 * pageMargin);
+      const availableHeight = pageHeight - HEADER_HEIGHT - pageMargin - nameDateHeight;
+
+      // Grid configuration
+      const gridInnerPadding = 10;
+      const cellSpacing = 8;
+
+      // Calculate optimal image size to fit within available space
+      const maxCellWidth = (availableWidth - 2 * gridInnerPadding - (cols - 1) * cellSpacing) / cols;
+      const maxCellHeight = (availableHeight - 2 * gridInnerPadding - (rows - 1) * cellSpacing) / rows;
+      const imageSize = Math.min(maxCellWidth, maxCellHeight, 90);
+
+      const totalCellDim = imageSize + cellSpacing;
+      const gridWidth = cols * imageSize + (cols - 1) * cellSpacing + 2 * gridInnerPadding;
+      const gridHeight = rows * imageSize + (rows - 1) * cellSpacing + 2 * gridInnerPadding;
+
+      // Positioning logic:
+      // Worksheet landscape: 10px up (moved 50px down from original 60px up)
+      // Worksheet portrait: centered (0px offset)
+      // Answer key landscape: centered (moved 20px right from previous -20px left)
+      // Answer key portrait: 20px up (moved 10px down from original 30px up)
+      const verticalOffset = isAnswerKey ? (isLandscape ? 0 : 20) : (isLandscape ? 10 : 0);
+      const horizontalOffset = isAnswerKey && isLandscape ? 0 : 0;
+
+      const gridTopOffset = HEADER_HEIGHT + nameDateHeight + (availableHeight - gridHeight) / 2 - verticalOffset;
+      const gridLeftOffset = pageMargin + (availableWidth - gridWidth) / 2 + horizontalOffset;
+
+      const gridBorder = new fabric.Rect({
+          left: 0, top: 0, width: gridWidth, height: gridHeight,
+          fill: 'transparent', stroke: '#89CFF0', strokeWidth: 5,
+          rx: 15, ry: 15, shadow: 'rgba(0,0,0,0.15) 3px 3px 7px',
+      });
+
+      const problemImages = [];
+      for (let r = 0; r < rows; r++) {
+          for (let c = 0; c < cols; c++) {
+              const left = c * (imageSize + cellSpacing) + gridInnerPadding;
+              const top = r * (imageSize + cellSpacing) + gridInnerPadding;
+              const imgData = gridData[r][c];
+
+              const imgInstance = await new Promise(resolve => {
+                  fabric.Image.fromURL(imgData.path, function(img) {
+                      if (!img) { resolve(null); return; }
+                      img.scaleToWidth(imageSize * 0.95);
+
+                      let finalObject;
+                      if (imgData === data.selectedStartImage || imgData === data.selectedEndImage) {
+                          const borderColor = (imgData === data.selectedStartImage) ? '#34C759' : '#FF3B30';
+                          const highlightRect = new fabric.Rect({
+                              width: img.getScaledWidth() + 8, height: img.getScaledHeight() + 8,
+                              fill: 'transparent', stroke: borderColor, strokeWidth: 3,
+                              rx: 8, ry: 8, originX: 'center', originY: 'center'
+                          });
+                          img.set({ originX: 'center', originY: 'center' });
+                          finalObject = new fabric.Group([highlightRect, img]);
+                      } else {
+                          finalObject = img;
+                      }
+
+                      finalObject.set({
+                          left: left + (imageSize / 2), top: top + (imageSize / 2),
+                          originX: 'center', originY: 'center',
+                          selectable: false, evented: false, crossOrigin: 'anonymous', objectCaching: false
+                      });
+                      resolve(finalObject);
+                  }, { crossOrigin: 'anonymous' });
+              });
+              if (imgInstance) problemImages.push(imgInstance);
+          }
+      }
+
+      // For answer key, add solution path
+      if (isAnswerKey) {
+          const solutionPoints = solutionPath.map(({r, c}) => ({
+              x: c * (imageSize + cellSpacing) + gridInnerPadding + imageSize / 2,
+              y: r * (imageSize + cellSpacing) + gridInnerPadding + imageSize / 2
+          }));
+          const pathLine = new fabric.Polyline(solutionPoints, {
+              stroke: 'red', strokeWidth: 5, fill: '', strokeDashArray: [10, 5],
+              selectable: false, evented: false, objectCaching: false
+          });
+          problemImages.push(pathLine);
+      }
+
+      const gridGroup = new fabric.Group([gridBorder, ...problemImages], {
+          left: gridLeftOffset, top: gridTopOffset,
+          selectable: true, evented: true, [itemTag]: true, originalIndex: 0,
+          objectCaching: false, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
+          cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
+      });
+
+      const objects = [gridGroup];
+
+      // Add name/date field if needed (only for worksheet)
+      if (!isAnswerKey && includeNameDateCheckbox.checked) {
+          const nameDateGroup = new fabric.Group([
+              new fabric.Textbox(t('picture.pathway.name.field'), { fontSize: 18, fontFamily: fontFamilySelect.options[0].value, fill: '#333', left: 0, top: 0 }),
+              new fabric.Textbox(t('picture.pathway.date.field'), { fontSize: 18, fontFamily: fontFamilySelect.options[0].value, fill: '#333', left: 300, top: 0 })
+          ], {
+              left: pageMargin, top: pageMargin, isGeneratedItem: true, originalIndex: 1,
+              selectable: true, hasControls: true, hasBorders: true,
+              borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
+              cornerSize: 8, transparentCorners: false, cornerStyle: 'circle'
+          });
+          objects.push(nameDateGroup);
+      }
+
+      return objects;
   }
 
 
@@ -1828,7 +1886,7 @@ document.addEventListener("DOMContentLoaded", function() {
       });
   }
 
-  function updateCanvasDisplayDimensions(width, height, fromLoad = false) {
+  async function updateCanvasDisplayDimensions(width, height, fromLoad = false) {
       currentCanvasConfig.width = width;
       currentCanvasConfig.height = height;
 
@@ -1887,7 +1945,8 @@ document.addEventListener("DOMContentLoaded", function() {
           pageWidthInput.value = width;
           pageHeightInput.value = height;
           // Regenerate layout when page size changes (repositions existing content)
-          regenerateHeadersOnly();
+          // CRITICAL: await to prevent race condition with generatePathway()
+          await regenerateHeadersOnly();
       }
   }
 
@@ -1898,9 +1957,7 @@ document.addEventListener("DOMContentLoaded", function() {
       } else {
           customPageSizeInputsDiv.style.display = 'none';
           const [w, h] = selectedValue.split('x').map(Number);
-          updateCanvasDisplayDimensions(w, h);
-          // Regenerate header when page size changes
-          await regenerateHeadersOnly();
+          await updateCanvasDisplayDimensions(w, h);
       }
   });
 
@@ -1912,9 +1969,7 @@ document.addEventListener("DOMContentLoaded", function() {
       } else {
           [newWidth, newHeight] = pageSizeSelect.value.split('x').map(Number);
       }
-      updateCanvasDisplayDimensions(newWidth, newHeight);
-      // Regenerate header when page size changes
-      await regenerateHeadersOnly();
+      await updateCanvasDisplayDimensions(newWidth, newHeight);
   });
 
   pageColorInput.addEventListener('input', () => {
@@ -2528,75 +2583,18 @@ document.addEventListener("DOMContentLoaded", function() {
       downloadAnswerKeyPdfBtn.disabled = true;
       return;
     }
-    
-    // Part B, Step 1: Preserve State
-    const oldTransforms = {};
-    worksheetCanvas.getObjects().forEach(obj => {
-        if (obj.isGeneratedItem) {
-            oldTransforms[obj.originalIndex] = {
-                left: obj.left, top: obj.top,
-                scaleX: obj.scaleX, scaleY: obj.scaleY,
-                angle: obj.angle
-            };
-        }
-    });
-    const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
 
-    // Remove existing header and borders
-    const oldHeadersAndBorders = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
-    oldHeadersAndBorders.forEach(o => worksheetCanvas.remove(o));
-
-    // Create and add header with borders
-    const headerObjects = createHeaderGroup(worksheetCanvas);
-    headerObjects.forEach(obj => worksheetCanvas.add(obj));
-
-    // Part B, Step 2: Precise Removal
-    const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem);
-    oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
-
-    const includeNameDate = includeNameDateCheckbox.checked;
-
-    // Define proper margins (72 points = 1 inch)
-    const HEADER_HEIGHT = 220;
-    const pageMargin = 50; // Reasonable margin on all sides
-    const nameDateHeight = includeNameDate ? 60 : 0; // Space for name/date if included
-
-    // Calculate available space within margins
-    const availableWidth = currentCanvasConfig.width - (2 * pageMargin);
-    const availableHeight = currentCanvasConfig.height - HEADER_HEIGHT - pageMargin - nameDateHeight;
-    
     // Grid configuration
     const rows = 6, cols = 6;
-    const gridInnerPadding = 10;
-    const cellSpacing = 8;
-    
-    // Calculate optimal image size to fit within available space
-    const maxCellWidth = (availableWidth - 2 * gridInnerPadding - (cols - 1) * cellSpacing) / cols;
-    const maxCellHeight = (availableHeight - 2 * gridInnerPadding - (rows - 1) * cellSpacing) / rows;
-    const imageSize = Math.min(maxCellWidth, maxCellHeight, 90); // Cap at 90 for reasonable size
 
-    const totalCellDim = imageSize + cellSpacing;
-    const gridWidth = cols * imageSize + (cols - 1) * cellSpacing + 2 * gridInnerPadding;
-    const gridHeight = rows * imageSize + (rows - 1) * cellSpacing + 2 * gridInnerPadding;
-
-    // Center the grid within the available space
-    // LANDSCAPE MODE: Move grid 60 pixels up for better positioning
-    const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
-    const gridTopOffset = HEADER_HEIGHT + nameDateHeight + (availableHeight - gridHeight) / 2 - (isLandscape ? 60 : 0);
-    const gridLeftOffset = pageMargin + (availableWidth - gridWidth) / 2;
-
-    const gridBorder = new fabric.Rect({
-        left: 0, top: 0, width: gridWidth, height: gridHeight,
-        fill: 'transparent', stroke: '#89CFF0', strokeWidth: 5,
-        rx: 15, ry: 15, shadow: 'rgba(0,0,0,0.15) 3px 3px 7px',
-    });
-
+    // Generate solution path
     const solutionPath = generatePath(8, 12, rows, cols);
     if (!solutionPath) {
       displayMessage(t('picture.pathway.msg.path.generation.failed'), 'error');
       return;
     }
 
+    // Create grid data with images
     let gridData = Array.from({ length: rows }, () => Array(cols).fill(null));
     for (let i = 1; i < solutionPath.length - 1; i++) {
         const cell = solutionPath[i];
@@ -2605,82 +2603,77 @@ document.addEventListener("DOMContentLoaded", function() {
     gridData[solutionPath[0].r][solutionPath[0].c] = selectedStartImage;
     gridData[solutionPath[solutionPath.length - 1].r][solutionPath[solutionPath.length - 1].c] = selectedEndImage;
 
+    // Fill empty cells with distractors
     let distractorPool = [...selectedDistractorImages];
     if (distractorPool.length === 0) {
         const allAvailableImages = [...allImages, ...uploadedImages];
         if (allAvailableImages.length > 0) {
             while(distractorPool.length < 10) distractorPool.push(allAvailableImages[getRandomInt(0, allAvailableImages.length - 1)]);
         } else {
-             displayMessage(t('picture.pathway.msg.no.distractors'), 'error'); return;
+             displayMessage(t('picture.pathway.msg.no.distractors'), 'error');
+             return;
         }
     }
 
-    const problemImages = [];
     for (let r = 0; r < rows; r++) {
         for (let c = 0; c < cols; c++) {
-            const left = c * (imageSize + cellSpacing) + gridInnerPadding;
-            const top = r * (imageSize + cellSpacing) + gridInnerPadding;
             if (!gridData[r][c]) {
                 gridData[r][c] = distractorPool[getRandomInt(0, distractorPool.length - 1)];
             }
-            const imgData = gridData[r][c];
-            const imgInstance = await new Promise(resolve => {
-                fabric.Image.fromURL(imgData.path, function(img) {
-                    if (!img) { resolve(null); return; }
-                    img.scaleToWidth(imageSize * 0.95);
-                    let finalObject;
-                    if (imgData === selectedStartImage || imgData === selectedEndImage) {
-                        const borderColor = (imgData === selectedStartImage) ? '#34C759' : '#FF3B30';
-                        const highlightRect = new fabric.Rect({
-                            width: img.getScaledWidth() + 8, height: img.getScaledHeight() + 8,
-                            fill: 'transparent', stroke: borderColor, strokeWidth: 3,
-                            rx: 8, ry: 8, originX: 'center', originY: 'center'
-                        });
-                        img.set({ originX: 'center', originY: 'center' });
-                        finalObject = new fabric.Group([highlightRect, img]);
-                    } else { finalObject = img; }
-                    finalObject.set({
-                        left: left + (imageSize / 2), top: top + (imageSize / 2),
-                        originX: 'center', originY: 'center',
-                        selectable: false, evented: false, crossOrigin: 'anonymous', objectCaching: false
-                    });
-                    resolve(finalObject);
-                }, { crossOrigin: 'anonymous' });
-            });
-            if (imgInstance) problemImages.push(imgInstance);
         }
     }
-    
-    // Part B, Step 3: Regenerate and Re-apply
-    const problemGridGroup = new fabric.Group([gridBorder, ...problemImages], {
-        left: gridLeftOffset, top: gridTopOffset,
-        selectable: true, evented: true, isGeneratedItem: true, originalIndex: 0,
-        objectCaching: false, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
-        cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
-    });
-    if (oldTransforms[0]) problemGridGroup.set(oldTransforms[0]);
-    worksheetCanvas.add(problemGridGroup);
 
-    if (includeNameDate) {
-        const nameDateGroup = new fabric.Group([
-            new fabric.Textbox(t('picture.pathway.name.field'), { fontSize: 18, fontFamily: fontFamilySelect.options[0].value, fill: '#333', left: 0, top: 0 }),
-            new fabric.Textbox(t('picture.pathway.date.field'), { fontSize: 18, fontFamily: fontFamilySelect.options[0].value, fill: '#333', left: 300, top: 0 })
-        ], {
-            left: pageMargin, top: pageMargin, isGeneratedItem: true, originalIndex: 1,
-            selectable: true, hasControls: true, hasBorders: true,
-            borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
-            cornerSize: 8, transparentCorners: false, cornerStyle: 'circle'
-        });
-        if (oldTransforms[1]) nameDateGroup.set(oldTransforms[1]);
-        worksheetCanvas.add(nameDateGroup);
-    }
-    
-    // Part B, Step 4: Finalize Canvas
-    enforceZOrder(worksheetCanvas);
-    userAddedObjects.forEach(obj => worksheetCanvas.bringToFront(obj));
-    
+    // Store worksheet data for canvas persistence
     worksheetCanvas.solutionPath = solutionPath;
     worksheetCanvas.gridData = gridData;
+
+    // Store complete puzzle data for regeneration (CRITICAL: follows wordsearch pattern EXACTLY)
+    lastGeneratedData = {
+        solutionPath: solutionPath,
+        gridData: gridData,
+        rows: rows,
+        cols: cols,
+        selectedStartImage: selectedStartImage,
+        selectedEndImage: selectedEndImage,
+        selectedPathImages: [...selectedPathImages],
+        selectedDistractorImages: [...selectedDistractorImages]
+    };
+
+    // CRITICAL: Follow wordsearch pattern EXACTLY
+    // - Preserve user-added objects
+    // - Remove old generated items
+    // - Create header
+    // - Create puzzle objects directly (NOT via regenerateCanvasLayout)
+    // - Add new objects
+    // - Apply z-order
+
+    const userAddedObjects = worksheetCanvas.getObjects().filter(o =>
+        !o.isGeneratedItem && !o.isBorder && !o.isBackground &&
+        !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement
+    );
+
+    // Remove ALL puzzle elements
+    const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem);
+    oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
+
+    // Remove old header/border objects
+    const oldHeaderItems = worksheetCanvas.getObjects().filter(o =>
+        o.isPageBorder || o.isHeaderDesc || o.isHeaderElement
+    );
+    oldHeaderItems.forEach(o => worksheetCanvas.remove(o));
+
+    // Add header and border
+    const headerObjects = createHeaderGroup(worksheetCanvas);
+    if (headerObjects) {
+        worksheetCanvas.add(...headerObjects);
+    }
+
+    // Create puzzle objects directly
+    const newObjects = await createPuzzleGrid(lastGeneratedData, false);
+    worksheetCanvas.add(...newObjects);
+
+    enforceZOrder(worksheetCanvas);
+    userAddedObjects.forEach(obj => obj.bringToFront());
     worksheetCanvas.renderAll();
 
     generateAnswerKeyBtn.disabled = false;
@@ -2688,128 +2681,13 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   async function generateAnswerKeyFromCanvas() {
-    if (!worksheetCanvas || !worksheetCanvas.solutionPath || !worksheetCanvas.gridData) {
+    if (!lastGeneratedData) {
         displayMessage(t('picture.pathway.msg.generate.first'), "error");
         return;
     }
-    
-    // Part C, Step 1: Preserve State
-    const oldTransforms = {};
-    answerKeyCanvas.getObjects().forEach(obj => {
-        if (obj.isAnswerKeyItem) {
-            oldTransforms[obj.originalIndex] = {
-                left: obj.left, top: obj.top,
-                scaleX: obj.scaleX, scaleY: obj.scaleY,
-                angle: obj.angle
-            };
-        }
-    });
-    const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
 
-    // Part C, Step 2: Precise Removal
-    const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderElement || o.isHeaderDesc);
-    objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
-
-    // Part C, Step 3: Clone Decoratives (including header and borders)
-    const background = worksheetCanvas.getObjects().find(o => o.isBackground);
-    if (background) {
-        await new Promise(resolve => background.clone(cloned => {
-            cloned.set({ isBackground: true });
-            answerKeyCanvas.add(cloned);
-            resolve();
-        }));
-    }
-    const border = worksheetCanvas.getObjects().find(o => o.isBorder);
-    if (border) {
-        await new Promise(resolve => border.clone(cloned => {
-            cloned.set({ isBorder: true });
-            answerKeyCanvas.add(cloned);
-            resolve();
-        }));
-    }
-
-    // Clone header elements and page borders from worksheet
-    const headerAndBorderObjects = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
-    for (const obj of headerAndBorderObjects) {
-        await new Promise(resolve => obj.clone(cloned => {
-            if (obj.isPageBorder) cloned.set({ isPageBorder: true });
-            if (obj.isHeaderElement) cloned.set({ isHeaderElement: true });
-            if (obj.isHeaderDesc) cloned.set({ isHeaderDesc: true });
-            answerKeyCanvas.add(cloned);
-            resolve();
-        }));
-    }
-
-    // Part C, Step 4: Regenerate, Re-apply, and Finalize
-    // Define proper margins (matching worksheet)
-    const HEADER_HEIGHT = 220;
-    const pageMargin = 50;
-    const nameDateHeight = 60; // Space typically used for name/date on worksheet
-
-    // Calculate available space within margins
-    const availableWidth = currentCanvasConfig.width - (2 * pageMargin);
-    const availableHeight = currentCanvasConfig.height - HEADER_HEIGHT - pageMargin - nameDateHeight;
-    
-    // Grid configuration (matching worksheet)
-    const rows = 6, cols = 6;
-    const gridInnerPadding = 10;
-    const cellSpacing = 8;
-    
-    // Calculate optimal image size (matching worksheet calculation)
-    const maxCellWidth = (availableWidth - 2 * gridInnerPadding - (cols - 1) * cellSpacing) / cols;
-    const maxCellHeight = (availableHeight - 2 * gridInnerPadding - (rows - 1) * cellSpacing) / rows;
-    const imageSize = Math.min(maxCellWidth, maxCellHeight, 90);
-    
-    const gridWidth = cols * imageSize + (cols - 1) * cellSpacing + 2 * gridInnerPadding;
-    const gridHeight = rows * imageSize + (rows - 1) * cellSpacing + 2 * gridInnerPadding;
-
-    // Center the grid within the available space
-    // LANDSCAPE MODE: Centered + 30px down + 100px right, PORTRAIT MODE: Move grid 30 pixels up
-    const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
-    const gridTopOffset = HEADER_HEIGHT + nameDateHeight + (availableHeight - gridHeight) / 2 - (isLandscape ? -30 : 30);
-    const gridLeftOffset = pageMargin + (availableWidth - gridWidth) / 2 + (isLandscape ? 100 : 0);
-
-    const answerKeyGridBorder = new fabric.Rect({
-        left: 0, top: 0, width: gridWidth, height: gridHeight, fill: 'transparent',
-        stroke: '#89CFF0', strokeWidth: 5, rx: 15, ry: 15, shadow: 'rgba(0,0,0,0.15) 3px 3px 7px'
-    });
-
-    const problemImages = [];
-    for (let r = 0; r < rows; r++) {
-        for (let c = 0; c < cols; c++) {
-            const left = c * (imageSize + cellSpacing) + gridInnerPadding;
-            const top = r * (imageSize + cellSpacing) + gridInnerPadding;
-            const imgData = worksheetCanvas.gridData[r][c];
-            const imgInstance = await new Promise(resolve => {
-                fabric.Image.fromURL(imgData.path, function(img) {
-                    if (!img) { resolve(null); return; }
-                    img.scaleToWidth(imageSize * 0.95);
-                    img.set({ left: left + (imageSize - img.getScaledWidth()) / 2, top: top + (imageSize - img.getScaledHeight()) / 2, selectable: false, evented: false, objectCaching: false });
-                    resolve(img);
-                }, { crossOrigin: 'anonymous' });
-            });
-            if (imgInstance) problemImages.push(imgInstance);
-        }
-    }
-
-    const solutionPoints = worksheetCanvas.solutionPath.map(({r, c}) => ({ 
-        x: c * (imageSize + cellSpacing) + gridInnerPadding + imageSize / 2, 
-        y: r * (imageSize + cellSpacing) + gridInnerPadding + imageSize / 2 
-    }));
-    const pathLine = new fabric.Polyline(solutionPoints, { stroke: 'red', strokeWidth: 5, fill: '', strokeDashArray: [10, 5], selectable: false, evented: false, objectCaching: false });
-    
-    const answerKeyGroup = new fabric.Group([answerKeyGridBorder, ...problemImages, pathLine], {
-        left: gridLeftOffset, top: gridTopOffset,
-        selectable: true, evented: true, isAnswerKeyItem: true, originalIndex: 0,
-        objectCaching: false, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
-        cornerSize: 10, transparentCorners: false, cornerStyle: 'circle'
-    });
-    if(oldTransforms[0]) answerKeyGroup.set(oldTransforms[0]);
-    answerKeyCanvas.add(answerKeyGroup);
-    
-    enforceZOrder(answerKeyCanvas);
-    userAddedObjects.forEach(obj => answerKeyCanvas.bringToFront(obj));
-    answerKeyCanvas.renderAll();
+    // Regenerate answer key canvas using stored data (follows wordsearch pattern)
+    await regenerateCanvasLayout(answerKeyCanvas, true);
 
     document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
     downloadAnswerKeyJpegBtn.disabled = false;
@@ -3239,6 +3117,7 @@ async function downloadPDF(canvasToExport, fileName) {
         worksheetCanvas.renderAll();
         worksheetCanvas.solutionPath = null;
         worksheetCanvas.gridData = null;
+        lastGeneratedData = null;
     }
     if(answerKeyCanvas) {
         answerKeyCanvas.clear();
@@ -3266,7 +3145,7 @@ async function downloadPDF(canvasToExport, fileName) {
     searchInput.value = "";
     themeSelect.value = "all";
     pageSizeSelect.value = "612x792"; customPageSizeInputsDiv.style.display = 'none';
-    updateCanvasDisplayDimensions(612,792);
+    updateCanvasDisplayDimensions(612, 792, true); // fromLoad=true to skip regeneration
     handleSelectionCleared(null, getActiveCanvas());
     displayMessage(t('picture.pathway.msg.form.cleared'), "success", 2000); 
     loadDictionary();
@@ -3296,7 +3175,7 @@ async function downloadPDF(canvasToExport, fileName) {
   setupCanvasEventListeners(answerKeyCanvas);
   
   setupGlobalKeydownListener();
-  updateCanvasDisplayDimensions(612,792);
+  updateCanvasDisplayDimensions(612, 792, true); // fromLoad=true for initial setup
 
 
   clearBtn.addEventListener("click", clearAll);
@@ -3374,7 +3253,7 @@ async function downloadPDF(canvasToExport, fileName) {
       currentCanvasConfig.height = height;
       worksheetCanvas.setDimensions({ width, height });
       answerKeyCanvas.setDimensions({ width, height });
-      updateCanvasDisplayDimensions(width, height, false);
+      await updateCanvasDisplayDimensions(width, height, true); // fromLoad=true for initial setup
 
       // Helper function to fetch images from a theme
       async function getThemeImages(themeName) {

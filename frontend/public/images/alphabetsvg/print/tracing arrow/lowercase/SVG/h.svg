@@ -3,39 +3,39 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #2c2929;
+        fill: #000000;
       }
 
       .cls-2 {
-        fill: #2a2727;
+        fill: #000000;
       }
 
       .cls-3 {
-        fill: #2a2627;
+        fill: #000000;
       }
 
       .cls-4 {
-        fill: #2c292a;
+        fill: #000000;
       }
 
       .cls-5 {
-        fill: #2b2829;
+        fill: #000000;
       }
 
       .cls-6 {
-        fill: #2d292a;
+        fill: #000000;
       }
 
       .cls-7 {
-        fill: #2c2829;
+        fill: #000000;
       }
 
       .cls-8 {
-        fill: #282526;
+        fill: #000000;
       }
 
       .cls-9 {
-        fill: #2a2728;
+        fill: #000000;
       }
     </style>
   </defs>

@@ -3,31 +3,31 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #272425;
+        fill: #000000;
       }
 
       .cls-2 {
-        fill: #919396;
+        fill: #000000;
       }
 
       .cls-3 {
-        fill: #939598;
+        fill: #000000;
       }
 
       .cls-4 {
-        fill: #262324;
+        fill: #000000;
       }
 
       .cls-5 {
-        fill: #626365;
+        fill: #000000;
       }
 
       .cls-6 {
-        fill: #cccdcf;
+        fill: #000000;
       }
 
       .cls-7 {
-        fill: #282526;
+        fill: #000000;
       }
     </style>
   </defs>

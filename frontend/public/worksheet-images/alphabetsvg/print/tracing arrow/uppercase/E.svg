@@ -3,7 +3,7 @@
   <defs>
     <style>
       .cls-1, .cls-2 {
-        fill: #231f20;
+        fill: #000000;
       }
 
       .cls-2 {
@@ -16,15 +16,15 @@
       }
 
       .cls-4 {
-        fill: #020202;
+        fill: #000000;
       }
 
       .cls-5 {
-        fill: #030303;
+        fill: #000000;
       }
 
       .cls-6 {
-        fill: #060606;
+        fill: #000000;
       }
 
       .cls-7 {
@@ -32,17 +32,17 @@
       }
 
       .cls-7, .cls-8 {
-        fill: #262324;
+        fill: #000000;
         stroke: #231f20;
         stroke-miterlimit: 10;
       }
 
       .cls-9 {
-        fill: #070707;
+        fill: #000000;
       }
 
       .cls-10 {
-        fill: #010101;
+        fill: #000000;
       }
 
       .cls-8 {

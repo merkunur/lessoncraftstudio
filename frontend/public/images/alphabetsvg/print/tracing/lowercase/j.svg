@@ -3,55 +3,55 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #221e1f;
+        fill: #000000;
       }
 
       .cls-2 {
-        fill: #2d2b2c;
+        fill: #000000;
       }
 
       .cls-3 {
-        fill: #605f60;
+        fill: #000000;
       }
 
       .cls-4 {
-        fill: #fefefe;
+        fill: #000000;
       }
 
       .cls-5 {
-        fill: #e2e3e4;
+        fill: #000000;
       }
 
       .cls-6 {
-        fill: #2f2d2e;
+        fill: #000000;
       }
 
       .cls-7 {
-        fill: #2c2a2b;
+        fill: #000000;
       }
 
       .cls-8 {
-        fill: #302e2f;
+        fill: #000000;
       }
 
       .cls-9 {
-        fill: #2e2c2d;
+        fill: #000000;
       }
 
       .cls-10 {
-        fill: #2c292b;
+        fill: #000000;
       }
 
       .cls-11 {
-        fill: #c4c4c5;
+        fill: #000000;
       }
 
       .cls-12 {
-        fill: #2f2c2d;
+        fill: #000000;
       }
 
       .cls-13 {
-        fill: #2e2b2c;
+        fill: #000000;
       }
     </style>
   </defs>

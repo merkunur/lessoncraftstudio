@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 147.09 243.15">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 11 147.09 243.15">
   <defs>
     <style>
       .cls-1 {
-        fill: #c7c8c9;
+        fill: #000000;
       }
 
       .cls-2, .cls-3 {
-        fill: #231f20;
+        fill: #000000;
       }
 
       .cls-4 {
-        fill: #272425;
+        fill: #000000;
       }
 
       .cls-5 {
-        fill: #272424;
+        fill: #000000;
       }
 
       .cls-3 {

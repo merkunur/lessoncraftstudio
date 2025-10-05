@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 277.6 213.24">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 277.6 192.17">
   <defs>
     <style>
       .cls-1, .cls-2 {
-        fill: #231f20;
+        fill: #000000;
       }
 
       .cls-3 {
-        fill: #2a2627;
+        fill: #000000;
       }
 
       .cls-4 {
-        fill: #282726;
+        fill: #000000;
       }
 
       .cls-5 {
@@ -19,7 +19,7 @@
       }
 
       .cls-5, .cls-6 {
-        fill: #262324;
+        fill: #000000;
         stroke: #231f20;
         stroke-miterlimit: 10;
       }

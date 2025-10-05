@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 183.77 241.09">
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 -15 183.77 256.09">
   <defs>
     <style>
       .cls-1 {
-        fill: #231f20;
+        fill: #000000;
       }
 
       .cls-2 {
@@ -11,11 +11,11 @@
       }
 
       .cls-3 {
-        fill: #020202;
+        fill: #000000;
       }
 
       .cls-4 {
-        fill: #010101;
+        fill: #000000;
       }
     </style>
   </defs>

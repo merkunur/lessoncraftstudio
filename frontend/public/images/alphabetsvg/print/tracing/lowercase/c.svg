@@ -3,19 +3,19 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #272425;
+        fill: #000000;
       }
 
       .cls-2 {
-        fill: #939598;
+        fill: #000000;
       }
 
       .cls-3 {
-        fill: #616264;
+        fill: #000000;
       }
 
       .cls-4 {
-        fill: #c1c3c5;
+        fill: #000000;
       }
     </style>
   </defs>

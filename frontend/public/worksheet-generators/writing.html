@@ -458,12 +458,12 @@
       justify-content: flex-start;
       overflow: visible;
     }
-    .row .guide { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+    .row .guide { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; }
     .row .guide .line-top,
     .row .guide .line-bottom { position: absolute; left: 0; width: 100%; height: 2px; background: #aaa; }
     .row .guide .line-bottom { bottom: 0; }
     .row .guide .line-middle { position: absolute; top: 50%; left: 0; width: 100%; height: 2px; transform: translateY(-50%); border-top: 2px dashed #aaa; background: none; }
-    .row.trace .letters, .row.fading-trace .letters, .row.guided-copy .letters { display: flex; justify-content: flex-start; align-items: center; height: 100%; gap: 0; padding-left: 8px; }
+    .row.trace .letters, .row.fading-trace .letters, .row.guided-copy .letters { display: flex; justify-content: flex-start; align-items: center; height: 100%; gap: 0; padding-left: 8px; position: relative; z-index: 2; }
     .row.trace .letters img:not(.lowercase), .row.fading-trace .letters img:not(.lowercase), .row.guided-copy .letters img:not(.lowercase),
     .row.trace .letters canvas:not(.lowercase), .row.fading-trace .letters canvas:not(.lowercase), .row.guided-copy .letters canvas:not(.lowercase) {
         position: relative;
@@ -502,6 +502,18 @@
     }
     .row.guided-copy .letters.cursive-font span:not(:first-child) {
         opacity: 0.4;
+    }
+    /* Optimize cursive beginning letters size */
+    .row.trace[data-content="beginning"] .letters.cursive-font,
+    .row.fading-trace[data-content="beginning"] .letters.cursive-font,
+    .row.guided-copy[data-content="beginning"] .letters.cursive-font {
+        font-size: calc(var(--row-height-px, 40.32px) * 1.05 + 3px) !important;
+    }
+    /* Lowercase cursive letters need additional height */
+    .row.trace[data-content="beginning"][data-casing="lowercase"] .letters.cursive-font,
+    .row.fading-trace[data-content="beginning"][data-casing="lowercase"] .letters.cursive-font,
+    .row.guided-copy[data-content="beginning"][data-casing="lowercase"] .letters.cursive-font {
+        font-size: calc(var(--row-height-px, 40.32px) * 1.05 + 6px) !important;
     }
     /* Ensure Lexend Deca font is used for general print text rows */
     .row.trace .letters.lexend-deca-font,
@@ -552,8 +564,63 @@
         padding-bottom: calc(var(--row-height-px, 40.32px) * 0.078);
     }
     .row.trace[data-content="filename"] .letters, .row.fading-trace[data-content="filename"] .letters, .row.guided-copy[data-content="filename"] .letters { display: flex !important; gap: 8.5px !important; align-items: center !important; }
-    .row.trace[data-content="beginning"] .letters, .row.fading-trace[data-content="beginning"] .letters, .row.guided-copy[data-content="beginning"] .letters { display: flex !important; gap: 110px !important; align-items: center !important; }
-    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters, .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters, .guided-copy[data-content="beginning"][data-casing="uppercase"] .letters { display: flex !important; gap: 95px !important; align-items: center !important; }
+    /* Beginning letters distributed across full width of writing block */
+    .row.trace[data-content="beginning"] .letters,
+    .row.fading-trace[data-content="beginning"] .letters,
+    .row.guided-copy[data-content="beginning"] .letters {
+        display: flex !important;
+        justify-content: space-between !important;
+        align-items: center !important;
+        gap: 0 !important;
+        padding-left: 12px !important;
+        padding-right: 12px !important;
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    /* Letter sizing - space-between handles all spacing */
+    .row.trace[data-content="beginning"] .letters img, .row.fading-trace[data-content="beginning"] .letters img, .row.guided-copy[data-content="beginning"] .letters img,
+    .row.trace[data-content="beginning"] .letters canvas, .row.fading-trace[data-content="beginning"] .letters canvas, .row.guided-copy[data-content="beginning"] .letters canvas {
+        max-width: 90px !important;
+        flex-shrink: 0 !important;
+    }
+
+    /* Uppercase letters */
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img, .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img, .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img,
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas, .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas, .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas {
+        max-width: 80px !important;
+        flex-shrink: 0 !important;
+        align-self: flex-end !important;
+        margin-bottom: 2px !important;
+    }
+
+    /* Override top positioning for uppercase print-arrow fonts in beginning letters to align to bottom */
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow,
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow,
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow,
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow,
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow,
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow {
+        top: -3% !important;
+    }
     .row.trace .letters img.larger, .row.fading-trace .letters img.larger, .row.guided-copy .letters img.larger { height: 65% !important; align-self: flex-end !important; }
     .row.fill[data-content="filename"] .text-line span,
     .row.fill[data-content="custom"] .text-line span { font-family: 'Quicksand', sans-serif; color: #555; }
@@ -1065,6 +1132,206 @@
     .guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="Z"],
     .guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Z"] {
         height: 112.7% !important;
+    }
+
+    /* Increase height for filename uppercase arrow letters to match custom mode */
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow,
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow,
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow {
+        height: 115% !important;
+        transform: translateY(-4px) !important;
+    }
+
+    /* Specific adjustments for individual letters in filename uppercase arrow mode */
+    /* I - 6 pixels taller */
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="I"] {
+        height: calc(115% + 6px) !important;
+        transform: translateY(3px) !important;
+    }
+
+    /* A - 3 pixels shorter, 4 pixels down */
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="A"] {
+        height: calc(115% - 3px) !important;
+        transform: translateY(4px) !important;
+    }
+
+    /* Y - 3 pixels shorter, 3 pixels down */
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Y"] {
+        height: calc(115% - 3px) !important;
+        transform: translateY(3px) !important;
+    }
+
+    /* S - 3 pixels shorter */
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="S"] {
+        height: calc(115% - 3px) !important;
+        transform: translateY(3px) !important;
+    }
+
+    /* W - 4 pixels shorter */
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="W"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="W"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="W"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="W"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="W"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="W"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="W"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="W"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="W"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="W"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="W"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="W"] {
+        height: calc(115% - 4px) !important;
+        transform: translateY(3px) !important;
+    }
+
+    /* C - 3 pixels shorter */
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="C"] {
+        height: calc(115% - 3px) !important;
+    }
+
+    /* G - 2 pixels shorter */
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="G"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="G"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="G"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="G"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="G"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="G"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="G"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="G"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="G"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="G"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="G"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="G"] {
+        height: calc(115% - 2px) !important;
+    }
+
+    /* V - 4 pixels shorter */
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="V"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="V"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="V"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="V"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="V"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="V"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="V"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="V"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="V"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="V"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="V"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="V"] {
+        height: calc(115% - 4px) !important;
+    }
+
+    /* X - 4 pixels shorter */
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="X"] {
+        height: calc(115% - 4px) !important;
+        transform: translateY(3px) !important;
+    }
+
+    /* L - 3 pixels shorter */
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="L"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="L"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="L"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="L"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="L"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="L"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="L"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="L"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="L"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="L"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="L"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="L"] {
+        height: calc(115% - 3px) !important;
+    }
+
+    /* H - 2 pixels shorter */
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="H"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="H"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="H"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="H"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="H"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="H"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="H"],
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="H"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="H"],
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="H"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="H"],
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="H"] {
+        height: calc(115% - 2px) !important;
     }
 
     /* Original rule for specified UPPERCASE arrow fonts to move them up by 15% */
@@ -3113,7 +3380,7 @@ function createRowFromState(state) {
         }
         
         const img = document.createElement('img');
-        img.src = `/images/alphabetsvg/${currentFontStyle}/${svgCase}/${safeChar}.svg`;
+        img.src = `/images/alphabetsvg/${currentFontStyle}/${svgCase}/${safeChar}.svg?v=${Date.now()}`;
         img.alt = ch;
         img.classList.add(fontClass);
 
@@ -3162,6 +3429,13 @@ function createRowFromState(state) {
                  secondPart.textContent = base;
                  secondPart.style.opacity = '0.4';
                  lettersDiv.append(firstPart, secondPart);
+            } else if (content === 'beginning') {
+                 // Wrap each character in a span for flex distribution
+                 for (let char of textToRender) {
+                     const charSpan = document.createElement('span');
+                     charSpan.textContent = char;
+                     lettersDiv.appendChild(charSpan);
+                 }
             } else {
                  lettersDiv.textContent = textToRender;
             }

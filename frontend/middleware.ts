@@ -17,7 +17,29 @@ const intlMiddleware = createMiddleware({
 export default function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
-  // Skip middleware for static HTML files and public assets
+  // Protect content manager - require authentication
+  if (pathname.includes('/worksheet-generators/content-manager') ||
+      pathname.includes('/worksheet-generators/blog-content-manager')) {
+    // Check for admin session token
+    const adminToken = request.cookies.get('admin_token')?.value;
+    const authHeader = request.headers.get('authorization');
+
+    // Allow dev bypass
+    if (authHeader === 'Bearer dev-bypass' || process.env.NODE_ENV === 'development') {
+      return NextResponse.next();
+    }
+
+    // If no admin token, redirect to login
+    if (!adminToken) {
+      const loginUrl = new URL('/admin/login', request.url);
+      loginUrl.searchParams.set('redirect', pathname);
+      return NextResponse.redirect(loginUrl);
+    }
+
+    return NextResponse.next();
+  }
+
+  // Skip middleware for other static HTML files and public assets
   if (pathname.endsWith('.html') || pathname.includes('/worksheet-generators/')) {
     return NextResponse.next();
   }
@@ -67,6 +89,6 @@ export default function middleware(request: NextRequest) {
 export const config = {
   // Match all paths except api routes, _next, static files, worksheet resources, blog assets, and app routes
   matcher: [
-    '/((?!api|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml|worksheet-generators|worksheet-images|worksheet-samples|homepage-content-manager.*\\.html|images|test-.*\\.html|js|uploads|upload|static-page-manager\\.html|page-manager\\.html|easy-page-manager\\.html|simple-upload\\.html|simple-upload|admin|dashboard|settings|notifications|collaboration|testing|search|blog/pdfs|blog/thumbnails).*)',
+    '/((?!api|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml|worksheet-generators|worksheet-images|worksheet-samples|homepage-content-manager.*\\.html|images|test-.*\\.html|js|uploads|upload|static-page-manager\\.html|page-manager\\.html|easy-page-manager\\.html|simple-upload\\.html|simple-upload|admin|dashboard|settings|notifications|collaboration|testing|search|blog/pdfs|blog/thumbnails|blog/images).*)',
   ]
 };

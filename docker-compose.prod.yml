@@ -45,10 +45,17 @@ services:
       NODE_ENV: production
       NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL}
       NEXT_PUBLIC_STRAPI_URL: ${NEXT_PUBLIC_STRAPI_URL}
+      NEXT_PUBLIC_MAX_FILE_SIZE: ${NEXT_PUBLIC_MAX_FILE_SIZE:-5242880}
+      DATABASE_URL: ${DATABASE_URL}
+    volumes:
+      - frontend_uploads:/app/public/images
+      - frontend_data:/app/public/data
+      - frontend_blog:/app/public/blog
     ports:
       - "3000:3000"
     depends_on:
       - api
+      - postgres
     networks:
       - lcs-network
     restart: unless-stopped
@@ -112,3 +119,6 @@ networks:
 
 volumes:
   postgres_data:
+  frontend_uploads:
+  frontend_data:
+  frontend_blog:

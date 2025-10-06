@@ -17,16 +17,19 @@ export async function GET(request: Request) {
       orderBy: { sortOrder: 'asc' }
     });
 
-    const themes = dbThemes.map(theme => ({
-      value: theme.name,
-      displayName: theme.displayNames[locale] || theme.displayNames['en'] || theme.name,
-      imageCount: theme._count.images
-    }));
+    const themes = dbThemes.map(theme => {
+      const displayNames = theme.displayNames as Record<string, string>;
+      return {
+        value: theme.name,
+        displayName: displayNames?.[locale] || displayNames?.['en'] || theme.name,
+        imageCount: theme._count.images
+      };
+    });
 
     return NextResponse.json(themes, {
       headers: {
         'Content-Type': 'application/json; charset=utf-8',
-        'Cache-Control': 'public, max-age=60', // Cache for 1 minute
+        'Cache-Control': 'no-cache, no-store, must-revalidate', // No cache during development
       },
     });
   } catch (error) {

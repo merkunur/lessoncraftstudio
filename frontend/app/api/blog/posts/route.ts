@@ -29,26 +29,33 @@ async function getBlogPostsForLocale(locale: string): Promise<BlogMetadata[]> {
       orderBy: { createdAt: 'desc' }
     });
 
-    // Transform to BlogMetadata format
-    const posts: BlogMetadata[] = dbPosts.map(post => {
-      const translations = post.translations as any;
-      const translation = translations[locale] || translations['en'] || {};
+    // Transform to BlogMetadata format, only including posts with translation for requested locale
+    const posts: BlogMetadata[] = dbPosts
+      .filter(post => {
+        const translations = post.translations as any;
+        const translation = translations[locale];
+        // Only include if translation exists with both title and content
+        return translation && translation.title && translation.content;
+      })
+      .map(post => {
+        const translations = post.translations as any;
+        const translation = translations[locale];
 
-      return {
-        slug: post.slug,
-        title: translation.title || post.slug,
-        excerpt: translation.excerpt || '',
-        author: translation.author || 'LessonCraftStudio Team',
-        date: post.createdAt.toISOString().split('T')[0],
-        category: post.category || 'Teaching Resources',
-        readTime: `${Math.ceil((translation.content?.length || 0) / 1000)} min read`,
-        metaTitle: translation.metaTitle,
-        metaDescription: translation.metaDescription,
-        keywords: post.keywords,
-        hasSampleWorksheets: post._count.pdfs > 0,
-        featuredImage: post.featuredImage
-      };
-    });
+        return {
+          slug: post.slug,
+          title: translation.title || post.slug,
+          excerpt: translation.excerpt || '',
+          author: translation.author || 'LessonCraftStudio Team',
+          date: post.createdAt.toISOString().split('T')[0],
+          category: post.category || 'Teaching Resources',
+          readTime: `${Math.ceil((translation.content?.length || 0) / 1000)} min read`,
+          metaTitle: translation.metaTitle,
+          metaDescription: translation.metaDescription,
+          keywords: post.keywords,
+          hasSampleWorksheets: post._count.pdfs > 0,
+          featuredImage: post.featuredImage
+        };
+      });
 
     return posts;
   } catch (error) {

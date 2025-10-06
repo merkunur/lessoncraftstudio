@@ -578,6 +578,11 @@
         <div id="editor-tab" class="tab-content">
             <h2>Edit Blog Post Content</h2>
 
+            <div id="currentPostIndicator" style="display: none; background: linear-gradient(135deg, #10b981, #059669); color: white; padding: 15px; border-radius: 10px; margin-bottom: 20px; box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);">
+                <div style="font-size: 14px; font-weight: 600; margin-bottom: 5px;">✅ Currently Editing:</div>
+                <div id="currentPostSlug" style="font-size: 16px; font-weight: 700;"></div>
+            </div>
+
             <div class="form-grid">
                 <div class="form-group">
                     <label class="form-label">Blog Post</label>
@@ -603,22 +608,95 @@
                 </div>
             </div>
 
+            <!-- SEO Optimization Section -->
+            <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 8px; margin-bottom: 20px;">
+                <h3 style="color: white; margin: 0 0 10px 0; display: flex; align-items: center; gap: 10px;">
+                    🎯 SEO Optimization
+                    <span id="seoScoreBadge" style="margin-left: auto; background: white; color: #667eea; padding: 5px 15px; border-radius: 20px; font-size: 14px; font-weight: bold;">
+                        Score: <span id="seoScoreValue">0</span>/100
+                    </span>
+                </h3>
+                <p style="color: rgba(255,255,255,0.9); margin: 0; font-size: 14px;">Optimize your content for search engines in <strong id="currentLanguageName">English</strong></p>
+            </div>
+
             <div class="form-grid">
                 <div class="form-group">
-                    <label class="form-label">Title</label>
-                    <input type="text" id="postTitle" class="form-control" placeholder="Enter post title">
+                    <label class="form-label">📝 Post Title</label>
+                    <input type="text" id="postTitle" class="form-control" placeholder="Enter post title" oninput="updateSEOAnalysis()">
+                    <small style="color: var(--gray-500); display: block; margin-top: 5px;">
+                        <span id="titleLength">0</span> characters (Recommended: 50-60)
+                    </small>
                 </div>
                 <div class="form-group">
-                    <label class="form-label">URL Slug</label>
+                    <label class="form-label">🔗 URL Slug</label>
                     <input type="text" id="postSlug" class="form-control" placeholder="url-slug">
+                    <small style="color: var(--gray-500); display: block; margin-top: 5px;">SEO-friendly URL (lowercase, hyphens only)</small>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">🎯 Focus Keyword / Keyphrase</label>
+                <input type="text" id="postFocusKeyword" class="form-control" placeholder="e.g., math worksheets for kids" oninput="updateSEOAnalysis()">
+                <small style="color: var(--gray-500); display: block; margin-top: 5px;">
+                    Main keyword you want to rank for in this language
+                </small>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">📄 SEO Title (Meta Title)</label>
+                <input type="text" id="postMetaTitle" class="form-control" placeholder="Optimized title for search results" oninput="updateSEOAnalysis()">
+                <small style="display: block; margin-top: 5px;">
+                    <span id="metaTitleLength" style="color: var(--gray-500);">0</span> characters
+                    <span id="metaTitleStatus" style="margin-left: 10px;"></span>
+                </small>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">📝 Meta Description</label>
+                <textarea id="postMetaDescription" class="form-control" rows="3" placeholder="Compelling description for search results (150-160 characters recommended)" oninput="updateSEOAnalysis()"></textarea>
+                <small style="display: block; margin-top: 5px;">
+                    <span id="metaDescLength" style="color: var(--gray-500);">0</span> characters
+                    <span id="metaDescStatus" style="margin-left: 10px;"></span>
+                </small>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">🏷️ Additional Keywords</label>
+                <input type="text" id="postKeywords" class="form-control" placeholder="keyword1, keyword2, keyword3">
+                <small style="color: var(--gray-500); display: block; margin-top: 5px;">
+                    Comma-separated related keywords (5-10 recommended)
+                </small>
+            </div>
+
+            <div class="form-grid">
+                <div class="form-group">
+                    <label class="form-label">Featured Image</label>
+                    <div id="featuredImageDropzone" style="border: 2px dashed var(--gray-300); border-radius: 8px; padding: 30px; text-align: center; cursor: pointer; transition: all 0.3s; background: var(--gray-50);">
+                        <div id="featuredImagePlaceholder">
+                            <div style="font-size: 48px; margin-bottom: 10px;">🖼️</div>
+                            <div style="font-weight: 600; color: var(--gray-700); margin-bottom: 5px;">Drop image here or click to browse</div>
+                            <div style="font-size: 13px; color: var(--gray-500);">PNG, JPG, or WEBP (Max 5MB)</div>
+                        </div>
+                        <div id="featuredImagePreview" style="display: none;">
+                            <img id="featuredImagePreviewImg" style="max-width: 100%; max-height: 200px; border-radius: 8px; margin-bottom: 10px;" />
+                            <div id="featuredImageName" style="font-size: 14px; color: var(--gray-700); margin-bottom: 10px;"></div>
+                            <button type="button" class="btn btn-sm btn-danger" onclick="removeFeaturedImage(event)">Remove Image</button>
+                        </div>
+                    </div>
+                    <input type="file" id="postFeaturedImageFile" accept="image/*" style="display: none;">
+                    <input type="hidden" id="postFeaturedImage">
+                    <small style="color: var(--gray-500); display: block; margin-top: 5px;">Optional: Thumbnail image for blog post listing</small>
                 </div>
                 <div class="form-group">
-                    <label class="form-label">Meta Description</label>
-                    <input type="text" id="postMetaDescription" class="form-control" placeholder="SEO description">
-                </div>
-                <div class="form-group">
-                    <label class="form-label">Keywords</label>
-                    <input type="text" id="postKeywords" class="form-control" placeholder="keyword1, keyword2">
+                    <label class="form-label">Category</label>
+                    <div style="display: flex; gap: 10px; align-items: flex-start;">
+                        <select id="postCategory" class="form-control" style="flex: 1;">
+                            <!-- Categories will be loaded dynamically -->
+                        </select>
+                        <button type="button" class="btn btn-secondary" onclick="openCategoryManager()" style="white-space: nowrap;">
+                            ⚙️ Manage
+                        </button>
+                    </div>
                 </div>
             </div>
 
@@ -644,14 +722,157 @@
                 </div>
             </div>
 
+            <!-- SEO Analysis & Previews -->
+            <div style="margin: 30px 0;">
+                <h3 style="margin-bottom: 20px;">📊 SEO Analysis & Previews</h3>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 30px;">
+                    <!-- SEO Checklist -->
+                    <div style="background: white; border: 2px solid var(--gray-200); border-radius: 8px; padding: 20px;">
+                        <h4 style="margin: 0 0 15px 0; color: var(--gray-900); display: flex; align-items: center; gap: 10px;">
+                            ✅ SEO Checklist
+                        </h4>
+                        <div id="seoChecklist" style="font-size: 14px;">
+                            <!-- Checklist items will appear here -->
+                        </div>
+                    </div>
+
+                    <!-- Content Analysis -->
+                    <div style="background: white; border: 2px solid var(--gray-200); border-radius: 8px; padding: 20px;">
+                        <h4 style="margin: 0 0 15px 0; color: var(--gray-900); display: flex; align-items: center; gap: 10px;">
+                            📈 Content Analysis
+                        </h4>
+                        <div id="contentAnalysis" style="font-size: 14px;">
+                            <!-- Analysis will appear here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Preview Cards -->
+                <div style="background: white; border: 2px solid var(--gray-200); border-radius: 8px; padding: 20px; margin-bottom: 20px;">
+                    <h4 style="margin: 0 0 15px 0; color: var(--gray-900);">🔍 Search Engine Preview</h4>
+                    <div id="googlePreview" style="max-width: 600px; padding: 15px; background: #f8f9fa; border-radius: 8px; font-family: Arial, sans-serif;">
+                        <div style="font-size: 20px; color: #1a0dab; margin-bottom: 5px; cursor: pointer;" id="googlePreviewTitle">Your SEO Title Will Appear Here</div>
+                        <div style="font-size: 14px; color: #006621; margin-bottom: 5px;" id="googlePreviewUrl">https://yoursite.com/blog/your-slug</div>
+                        <div style="font-size: 14px; color: #545454; line-height: 1.5;" id="googlePreviewDesc">Your meta description will appear here. Make it compelling to improve click-through rates!</div>
+                    </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                    <!-- Facebook Preview -->
+                    <div style="background: white; border: 2px solid var(--gray-200); border-radius: 8px; padding: 20px;">
+                        <h4 style="margin: 0 0 15px 0; color: var(--gray-900);">📘 Facebook Preview</h4>
+                        <div id="facebookPreview" style="border: 1px solid #ddd; border-radius: 8px; overflow: hidden; font-family: Arial, sans-serif;">
+                            <div id="fbPreviewImage" style="width: 100%; height: 250px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 48px;">
+                                🖼️
+                            </div>
+                            <div style="padding: 12px; background: #f2f3f5;">
+                                <div style="font-size: 12px; color: #606770; text-transform: uppercase; margin-bottom: 4px;">YOURSITE.COM</div>
+                                <div id="fbPreviewTitle" style="font-size: 16px; color: #1c1e21; font-weight: 600; margin-bottom: 4px;">Your Post Title</div>
+                                <div id="fbPreviewDesc" style="font-size: 14px; color: #606770;">Your meta description...</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Twitter Preview -->
+                    <div style="background: white; border: 2px solid var(--gray-200); border-radius: 8px; padding: 20px;">
+                        <h4 style="margin: 0 0 15px 0; color: var(--gray-900);">🐦 Twitter Preview</h4>
+                        <div id="twitterPreview" style="border: 1px solid #cfd9de; border-radius: 16px; overflow: hidden; font-family: Arial, sans-serif;">
+                            <div id="twitterPreviewImage" style="width: 100%; height: 250px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 48px;">
+                                🖼️
+                            </div>
+                            <div style="padding: 12px;">
+                                <div id="twitterPreviewTitle" style="font-size: 15px; color: #0f1419; font-weight: 700; margin-bottom: 4px; line-height: 1.3;">Your Post Title</div>
+                                <div id="twitterPreviewDesc" style="font-size: 15px; color: #536471; margin-bottom: 8px; line-height: 1.3;">Your meta description...</div>
+                                <div style="font-size: 13px; color: #536471;">🔗 yoursite.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Advanced SEO Analysis Panels -->
+            <div style="margin: 30px 0;">
+                <h3 style="margin-bottom: 20px;">🔬 Advanced SEO Analysis</h3>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+                    <!-- Readability Score -->
+                    <div style="background: white; border: 2px solid var(--gray-200); border-radius: 8px; padding: 20px;">
+                        <h4 style="margin: 0 0 15px 0; color: var(--gray-900); display: flex; align-items: center; gap: 10px;">
+                            📖 Readability
+                        </h4>
+                        <div id="readabilityScore" style="font-size: 14px;">
+                            <!-- Readability analysis will appear here -->
+                        </div>
+                    </div>
+
+                    <!-- Content Quality Score -->
+                    <div style="background: white; border: 2px solid var(--gray-200); border-radius: 8px; padding: 20px;">
+                        <h4 style="margin: 0 0 15px 0; color: var(--gray-900); display: flex; align-items: center; gap: 10px;">
+                            ⭐ Quality Score
+                        </h4>
+                        <div id="qualityScore" style="font-size: 14px;">
+                            <!-- Quality score will appear here -->
+                        </div>
+                    </div>
+
+                    <!-- LSI Keywords -->
+                    <div style="background: white; border: 2px solid var(--gray-200); border-radius: 8px; padding: 20px;">
+                        <h4 style="margin: 0 0 15px 0; color: var(--gray-900); display: flex; align-items: center; gap: 10px;">
+                            🔑 Related Keywords
+                        </h4>
+                        <div id="lsiKeywords" style="font-size: 14px;">
+                            <!-- LSI keywords will appear here -->
+                        </div>
+                    </div>
+                </div>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px;">
+                    <!-- Heading Hierarchy -->
+                    <div style="background: white; border: 2px solid var(--gray-200); border-radius: 8px; padding: 20px;">
+                        <h4 style="margin: 0 0 15px 0; color: var(--gray-900); display: flex; align-items: center; gap: 10px;">
+                            📋 Heading Structure
+                        </h4>
+                        <div id="headingHierarchy" style="font-size: 14px;">
+                            <!-- Heading hierarchy will appear here -->
+                        </div>
+                    </div>
+
+                    <!-- Image Alt Text Analysis -->
+                    <div style="background: white; border: 2px solid var(--gray-200); border-radius: 8px; padding: 20px;">
+                        <h4 style="margin: 0 0 15px 0; color: var(--gray-900); display: flex; align-items: center; gap: 10px;">
+                            🖼️ Image Optimization
+                        </h4>
+                        <div id="imageAnalysis" style="font-size: 14px;">
+                            <!-- Image analysis will appear here -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Schema Markup Preview -->
+                <div style="background: white; border: 2px solid var(--gray-200); border-radius: 8px; padding: 20px; margin-bottom: 20px;">
+                    <h4 style="margin: 0 0 15px 0; color: var(--gray-900); display: flex; align-items: center; gap: 10px;">
+                        🏗️ Schema Markup (JSON-LD)
+                        <button onclick="copySchemaToClipboard()" style="margin-left: auto; padding: 5px 10px; background: var(--primary-color); color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 12px;">
+                            📋 Copy to Clipboard
+                        </button>
+                    </h4>
+                    <div style="background: var(--gray-50); border-radius: 4px; padding: 15px; max-height: 300px; overflow-y: auto;">
+                        <pre id="schemaMarkup" style="margin: 0; font-family: 'Courier New', monospace; font-size: 12px; white-space: pre-wrap; word-break: break-all;">
+<!-- Schema markup will appear here -->
+                        </pre>
+                    </div>
+                    <small style="display: block; margin-top: 10px; color: var(--gray-600);">
+                        ℹ️ Add this JSON-LD schema to your blog post's <code>&lt;head&gt;</code> section for rich snippets in search results
+                    </small>
+                </div>
+            </div>
+
             <!-- PDF Downloads Section -->
             <div class="pdf-section">
                 <div class="pdf-header">
                     <h3 class="pdf-title">
                         📄 PDF Worksheets
-                        <span style="font-size: 14px; color: var(--gray-600); font-weight: normal;">
-                            (This section will appear above the footer)
-                        </span>
                     </h3>
                     <button class="btn btn-primary" onclick="openPDFModal()">
                         ➕ Add PDF
@@ -671,21 +892,38 @@
         </div>
 
         <div id="pdfs-tab" class="tab-content">
-            <h2>PDF Worksheet Library</h2>
+            <h2>PDF Worksheet Manager</h2>
 
-            <div class="upload-area" ondrop="handleDrop(event)" ondragover="handleDragOver(event)" ondragleave="handleDragLeave(event)">
-                <div class="upload-icon">📤</div>
-                <h3>Drop PDF files here or click to browse</h3>
-                <p style="color: var(--gray-600); margin: 10px 0;">Supported: PDF files up to 10MB</p>
-                <input type="file" id="pdfUpload" accept=".pdf" multiple style="display: none;" onchange="handleFileSelect(event)">
-                <button class="btn btn-primary" onclick="document.getElementById('pdfUpload').click()">
-                    Choose Files
-                </button>
+            <div class="form-group" style="max-width: 400px; margin-bottom: 30px;">
+                <label class="form-label">Select Blog Post</label>
+                <select id="pdfManagerPostSelect" class="form-control" onchange="loadPDFsForPost()">
+                    <option value="">-- Select a post --</option>
+                </select>
             </div>
 
-            <h3 style="margin: 30px 0 15px;">Uploaded PDFs</h3>
-            <div id="pdfLibrary" class="pdf-grid">
-                <!-- PDF library will be shown here -->
+            <div id="pdfManagerContent" style="display: none;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+                    <h3 style="margin: 0;">Sample PDFs for this Post</h3>
+                    <button class="btn btn-primary" onclick="openPDFModal()">
+                        ➕ Add PDF
+                    </button>
+                </div>
+
+                <div id="pdfsList" class="pdf-grid">
+                    <!-- PDFs will be shown here -->
+                </div>
+
+                <div id="noPDFsMessage" style="display: none; padding: 40px; text-align: center; color: var(--gray-500);">
+                    <div style="font-size: 48px; margin-bottom: 15px;">📄</div>
+                    <p>No PDF worksheets attached to this post yet.</p>
+                    <button class="btn btn-primary" onclick="openPDFModal()">Add Your First PDF</button>
+                </div>
+            </div>
+
+            <div id="pdfManagerPlaceholder" style="padding: 60px 20px; text-align: center; color: var(--gray-500);">
+                <div style="font-size: 64px; margin-bottom: 20px;">📚</div>
+                <h3>Select a Blog Post</h3>
+                <p>Choose a blog post from the dropdown above to manage its PDF worksheets.</p>
             </div>
         </div>
 
@@ -754,6 +992,165 @@
         </div>
     </div>
 
+    <!-- Edit PDF Modal -->
+    <div id="editPDFModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">✏️ Edit PDF Worksheet</h3>
+                <button class="modal-close" onclick="closeEditPDFModal()">✕</button>
+            </div>
+            <div class="modal-body">
+                <input type="hidden" id="editPDFId">
+
+                <div class="form-group">
+                    <label class="form-label">Title</label>
+                    <input type="text" id="editPDFTitle" class="form-control" placeholder="e.g., 1 Minute Math Addition">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Description</label>
+                    <textarea id="editPDFDescription" class="form-control" rows="3" placeholder="Premium educational worksheet designed to enhance learning..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Update Thumbnail (optional)</label>
+                    <div id="currentThumbnailPreview" style="margin-bottom: 10px; display: none;">
+                        <p style="font-size: 12px; color: var(--gray-600); margin-bottom: 5px;">Current thumbnail:</p>
+                        <img id="currentThumbnailImg" src="" alt="Current thumbnail"
+                             style="max-width: 200px; max-height: 150px; border-radius: 6px; border: 2px solid var(--gray-200);">
+                    </div>
+                    <input type="file" id="editPDFThumbnail" accept="image/*" class="form-control">
+                    <small style="color: var(--gray-500); display: block; margin-top: 5px;">
+                        Leave empty to keep current thumbnail
+                    </small>
+                </div>
+
+                <div class="form-grid">
+                    <div class="form-group">
+                        <label class="form-label">Current File</label>
+                        <div id="editPDFFileName" style="padding: 10px; background: var(--gray-50); border-radius: 6px; font-size: 14px; color: var(--gray-700);">
+                            <!-- Filename will be shown here -->
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Price</label>
+                        <select id="editPDFPrice" class="form-control">
+                            <option value="Free">Free</option>
+                            <option value="Premium">Premium</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeEditPDFModal()">Cancel</button>
+                <button class="btn btn-primary" onclick="saveEditedPDF()">Save Changes</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Category Manager Modal -->
+    <div id="categoryModal" class="modal">
+        <div class="modal-content" style="max-width: 600px;">
+            <div class="modal-header">
+                <h2 class="modal-title">📁 Manage Blog Categories</h2>
+                <button class="modal-close" onclick="closeCategoryManager()">×</button>
+            </div>
+
+            <div class="modal-body">
+                <div style="margin-bottom: 20px;">
+                    <h3 style="margin-bottom: 10px;">Add New Category</h3>
+                    <div style="display: flex; gap: 10px;">
+                        <input type="text" id="newCategoryId" class="form-control" placeholder="category-id" style="flex: 1;">
+                        <input type="text" id="newCategoryLabel" class="form-control" placeholder="Category Label" style="flex: 1;">
+                        <button class="btn btn-primary" onclick="addCategory()">Add</button>
+                    </div>
+                    <small style="color: var(--gray-500); display: block; margin-top: 5px;">
+                        Category ID should be lowercase with hyphens (e.g., "my-category")
+                    </small>
+                </div>
+
+                <h3 style="margin-bottom: 10px;">Existing Categories</h3>
+                <div id="categoriesList" style="max-height: 400px; overflow-y: auto;">
+                    <!-- Categories will be loaded here -->
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeCategoryManager()">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Category Translations Modal -->
+    <div id="editCategoryModal" class="modal">
+        <div class="modal-content" style="max-width: 700px;">
+            <div class="modal-header">
+                <h2 class="modal-title">🌐 Edit Category Translations</h2>
+                <button class="modal-close" onclick="closeEditCategoryModal()">×</button>
+            </div>
+
+            <div class="modal-body">
+                <div style="margin-bottom: 15px;">
+                    <label style="font-weight: 600; color: var(--gray-700); display: block; margin-bottom: 5px;">Category ID</label>
+                    <input type="text" id="editCategoryId" class="form-control" readonly style="background: var(--gray-100);">
+                </div>
+
+                <h3 style="margin-bottom: 15px; color: var(--gray-700);">Translations</h3>
+                <div style="display: grid; gap: 15px;">
+                    <div>
+                        <label style="font-weight: 600; color: var(--gray-700); display: block; margin-bottom: 5px;">🇬🇧 English (en)</label>
+                        <input type="text" id="editCategoryEn" class="form-control" placeholder="English">
+                    </div>
+                    <div>
+                        <label style="font-weight: 600; color: var(--gray-700); display: block; margin-bottom: 5px;">🇩🇪 German (de)</label>
+                        <input type="text" id="editCategoryDe" class="form-control" placeholder="German">
+                    </div>
+                    <div>
+                        <label style="font-weight: 600; color: var(--gray-700); display: block; margin-bottom: 5px;">🇫🇷 French (fr)</label>
+                        <input type="text" id="editCategoryFr" class="form-control" placeholder="French">
+                    </div>
+                    <div>
+                        <label style="font-weight: 600; color: var(--gray-700); display: block; margin-bottom: 5px;">🇪🇸 Spanish (es)</label>
+                        <input type="text" id="editCategoryEs" class="form-control" placeholder="Spanish">
+                    </div>
+                    <div>
+                        <label style="font-weight: 600; color: var(--gray-700); display: block; margin-bottom: 5px;">🇵🇹 Portuguese (pt)</label>
+                        <input type="text" id="editCategoryPt" class="form-control" placeholder="Portuguese">
+                    </div>
+                    <div>
+                        <label style="font-weight: 600; color: var(--gray-700); display: block; margin-bottom: 5px;">🇮🇹 Italian (it)</label>
+                        <input type="text" id="editCategoryIt" class="form-control" placeholder="Italian">
+                    </div>
+                    <div>
+                        <label style="font-weight: 600; color: var(--gray-700); display: block; margin-bottom: 5px;">🇳🇱 Dutch (nl)</label>
+                        <input type="text" id="editCategoryNl" class="form-control" placeholder="Dutch">
+                    </div>
+                    <div>
+                        <label style="font-weight: 600; color: var(--gray-700); display: block; margin-bottom: 5px;">🇸🇪 Swedish (sv)</label>
+                        <input type="text" id="editCategorySv" class="form-control" placeholder="Swedish">
+                    </div>
+                    <div>
+                        <label style="font-weight: 600; color: var(--gray-700); display: block; margin-bottom: 5px;">🇩🇰 Danish (da)</label>
+                        <input type="text" id="editCategoryDa" class="form-control" placeholder="Danish">
+                    </div>
+                    <div>
+                        <label style="font-weight: 600; color: var(--gray-700); display: block; margin-bottom: 5px;">🇳🇴 Norwegian (no)</label>
+                        <input type="text" id="editCategoryNo" class="form-control" placeholder="Norwegian">
+                    </div>
+                    <div>
+                        <label style="font-weight: 600; color: var(--gray-700); display: block; margin-bottom: 5px;">🇫🇮 Finnish (fi)</label>
+                        <input type="text" id="editCategoryFi" class="form-control" placeholder="Finnish">
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeEditCategoryModal()">Cancel</button>
+                <button class="btn btn-primary" onclick="saveCategoryTranslations()">Save Translations</button>
+            </div>
+        </div>
+    </div>
+
     <script>
         // Global variables
         let currentPost = null;
@@ -761,11 +1158,380 @@
         let posts = [];
         let pdfLibrary = [];
         let currentPDFs = [];
+        let blogCategories = [
+            { id: 'teaching-resources', label: 'Teaching Resources' },
+            { id: 'worksheet-tips', label: 'Worksheet Tips' },
+            { id: 'educational-activities', label: 'Educational Activities' },
+            { id: 'learning-strategies', label: 'Learning Strategies' },
+            { id: 'curriculum-guides', label: 'Curriculum Guides' },
+            { id: 'parent-resources', label: 'Parent Resources' },
+            { id: 'seasonal-content', label: 'Seasonal Content' }
+        ];
+
+        // Featured Image Upload Functions
+        function initFeaturedImageUpload() {
+            const dropzone = document.getElementById('featuredImageDropzone');
+            const fileInput = document.getElementById('postFeaturedImageFile');
+
+            // Click to browse
+            dropzone.addEventListener('click', (e) => {
+                if (!e.target.classList.contains('btn')) {
+                    fileInput.click();
+                }
+            });
+
+            // File input change
+            fileInput.addEventListener('change', async (e) => {
+                const file = e.target.files[0];
+                if (file) {
+                    await handleFeaturedImageUpload(file);
+                }
+            });
+
+            // Drag and drop
+            dropzone.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                dropzone.style.borderColor = 'var(--primary-500)';
+                dropzone.style.background = 'var(--primary-50)';
+            });
+
+            dropzone.addEventListener('dragleave', (e) => {
+                e.preventDefault();
+                dropzone.style.borderColor = 'var(--gray-300)';
+                dropzone.style.background = 'var(--gray-50)';
+            });
+
+            dropzone.addEventListener('drop', async (e) => {
+                e.preventDefault();
+                dropzone.style.borderColor = 'var(--gray-300)';
+                dropzone.style.background = 'var(--gray-50)';
+
+                const file = e.dataTransfer.files[0];
+                if (file && file.type.startsWith('image/')) {
+                    await handleFeaturedImageUpload(file);
+                } else {
+                    showMessage('Please drop an image file', 'error');
+                }
+            });
+        }
+
+        async function handleFeaturedImageUpload(file) {
+            // Validate file size (5MB max)
+            if (file.size > 5 * 1024 * 1024) {
+                showMessage('Image size must be less than 5MB', 'error');
+                return;
+            }
+
+            // Validate file type
+            if (!file.type.match(/^image\/(png|jpe?g|webp)$/)) {
+                showMessage('Only PNG, JPG, and WEBP images are allowed', 'error');
+                return;
+            }
+
+            try {
+                // Show loading state
+                showMessage('Uploading image...', 'info');
+
+                // Upload to server
+                const formData = new FormData();
+                formData.append('image', file);
+                formData.append('type', 'featured');
+
+                const response = await fetch('/api/admin/blog/upload-image', {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': 'Bearer dev-bypass'
+                    },
+                    body: formData
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    const imagePath = data.path;
+
+                    // Update hidden input
+                    document.getElementById('postFeaturedImage').value = imagePath;
+
+                    // Show preview
+                    document.getElementById('featuredImagePlaceholder').style.display = 'none';
+                    document.getElementById('featuredImagePreview').style.display = 'block';
+                    document.getElementById('featuredImagePreviewImg').src = imagePath;
+                    document.getElementById('featuredImageName').textContent = file.name;
+
+                    console.log('✅ Featured image uploaded:', imagePath);
+                    showMessage('Image uploaded! Remember to click "Save Changes" to save the post with this image.', 'success');
+                } else {
+                    const error = await response.json();
+                    throw new Error(error.error || 'Upload failed');
+                }
+            } catch (error) {
+                console.error('Upload error:', error);
+                showMessage(`Upload failed: ${error.message}`, 'error');
+            }
+        }
+
+        function removeFeaturedImage(event) {
+            event.stopPropagation();
+
+            document.getElementById('postFeaturedImage').value = '';
+            document.getElementById('postFeaturedImageFile').value = '';
+            document.getElementById('featuredImagePlaceholder').style.display = 'block';
+            document.getElementById('featuredImagePreview').style.display = 'none';
+            document.getElementById('featuredImagePreviewImg').src = '';
+            document.getElementById('featuredImageName').textContent = '';
+
+            showMessage('Featured image removed', 'info');
+        }
+
+        // Category Management Functions
+        async function loadCategories() {
+            const select = document.getElementById('postCategory');
+            await loadCategoriesFromAPI();
+            select.innerHTML = blogCategories.map(cat =>
+                `<option value="${cat.id}">${cat.label}</option>`
+            ).join('');
+        }
+
+        async function loadCategoriesFromAPI() {
+            try {
+                const response = await fetch('/api/admin/blog/categories', {
+                    headers: {
+                        'Authorization': 'Bearer dev-bypass'
+                    }
+                });
+                if (response.ok) {
+                    const data = await response.json();
+                    // Transform to simple format for dropdown (using English labels)
+                    blogCategories = data.categories.map(cat => ({
+                        id: cat.id,
+                        label: cat.translations.en
+                    }));
+                } else {
+                    console.error('Failed to load categories from API');
+                }
+            } catch (error) {
+                console.error('Error loading categories from API:', error);
+            }
+        }
+
+        function displayCategoriesList() {
+            const list = document.getElementById('categoriesList');
+            list.innerHTML = blogCategories.map(cat => `
+                <div style="border: 1px solid var(--gray-200); border-radius: 8px; padding: 15px; margin-bottom: 10px; display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <div style="font-weight: 600; color: var(--gray-900);">${cat.label}</div>
+                        <div style="font-size: 13px; color: var(--gray-500); font-family: monospace;">${cat.id}</div>
+                    </div>
+                    <div style="display: flex; gap: 10px;">
+                        <button class="btn btn-sm btn-secondary" onclick="editCategory('${cat.id}')" title="Edit">✏️</button>
+                        <button class="btn btn-sm btn-danger" onclick="deleteCategory('${cat.id}')" title="Delete">🗑️</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function openCategoryManager() {
+            displayCategoriesList();
+            document.getElementById('categoryModal').classList.add('active');
+        }
+
+        function closeCategoryManager() {
+            document.getElementById('categoryModal').classList.remove('active');
+            document.getElementById('newCategoryId').value = '';
+            document.getElementById('newCategoryLabel').value = '';
+        }
+
+        async function addCategory() {
+            const id = document.getElementById('newCategoryId').value.trim();
+            const label = document.getElementById('newCategoryLabel').value.trim();
+
+            if (!id || !label) {
+                showMessage('Please provide both category ID and label (English)', 'error');
+                return;
+            }
+
+            // Validate ID format (lowercase, hyphens only)
+            if (!/^[a-z0-9-]+$/.test(id)) {
+                showMessage('Category ID must be lowercase letters, numbers, and hyphens only', 'error');
+                return;
+            }
+
+            // Check if ID already exists
+            if (blogCategories.find(cat => cat.id === id)) {
+                showMessage('Category ID already exists', 'error');
+                return;
+            }
+
+            // Create translations object (using English label for all languages as placeholder)
+            const translations = {
+                en: label,
+                de: label,  // Placeholder - can be translated later
+                fr: label,
+                es: label,
+                pt: label,
+                it: label,
+                nl: label,
+                sv: label,
+                da: label,
+                no: label,
+                fi: label
+            };
+
+            try {
+                const response = await fetch('/api/admin/blog/categories', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer dev-bypass'
+                    },
+                    body: JSON.stringify({ id, translations })
+                });
+
+                if (response.ok) {
+                    await loadCategories();
+                    displayCategoriesList();
+
+                    document.getElementById('newCategoryId').value = '';
+                    document.getElementById('newCategoryLabel').value = '';
+
+                    showMessage('Category added successfully! You can edit translations later.', 'success');
+                } else {
+                    const error = await response.json();
+                    throw new Error(error.error || 'Failed to add category');
+                }
+            } catch (error) {
+                console.error('Error adding category:', error);
+                showMessage(`Failed to add category: ${error.message}`, 'error');
+            }
+        }
+
+        async function editCategory(id) {
+            try {
+                // Fetch category with all translations from API
+                const response = await fetch('/api/admin/blog/categories', {
+                    headers: {
+                        'Authorization': 'Bearer dev-bypass'
+                    }
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to fetch categories');
+                }
+
+                const data = await response.json();
+                const category = data.categories.find(cat => cat.id === id);
+
+                if (!category) {
+                    showMessage('Category not found', 'error');
+                    return;
+                }
+
+                // Populate edit form with current translations
+                document.getElementById('editCategoryId').value = category.id;
+                document.getElementById('editCategoryEn').value = category.translations.en || '';
+                document.getElementById('editCategoryDe').value = category.translations.de || '';
+                document.getElementById('editCategoryFr').value = category.translations.fr || '';
+                document.getElementById('editCategoryEs').value = category.translations.es || '';
+                document.getElementById('editCategoryPt').value = category.translations.pt || '';
+                document.getElementById('editCategoryIt').value = category.translations.it || '';
+                document.getElementById('editCategoryNl').value = category.translations.nl || '';
+                document.getElementById('editCategorySv').value = category.translations.sv || '';
+                document.getElementById('editCategoryDa').value = category.translations.da || '';
+                document.getElementById('editCategoryNo').value = category.translations.no || '';
+                document.getElementById('editCategoryFi').value = category.translations.fi || '';
+
+                // Show modal
+                document.getElementById('editCategoryModal').classList.add('active');
+            } catch (error) {
+                console.error('Error loading category for edit:', error);
+                showMessage(`Failed to load category: ${error.message}`, 'error');
+            }
+        }
+
+        function closeEditCategoryModal() {
+            document.getElementById('editCategoryModal').classList.remove('active');
+        }
+
+        async function saveCategoryTranslations() {
+            const id = document.getElementById('editCategoryId').value;
+            const translations = {
+                en: document.getElementById('editCategoryEn').value.trim(),
+                de: document.getElementById('editCategoryDe').value.trim(),
+                fr: document.getElementById('editCategoryFr').value.trim(),
+                es: document.getElementById('editCategoryEs').value.trim(),
+                pt: document.getElementById('editCategoryPt').value.trim(),
+                it: document.getElementById('editCategoryIt').value.trim(),
+                nl: document.getElementById('editCategoryNl').value.trim(),
+                sv: document.getElementById('editCategorySv').value.trim(),
+                da: document.getElementById('editCategoryDa').value.trim(),
+                no: document.getElementById('editCategoryNo').value.trim(),
+                fi: document.getElementById('editCategoryFi').value.trim()
+            };
+
+            // Validate that at least English translation is provided
+            if (!translations.en) {
+                showMessage('English translation is required', 'error');
+                return;
+            }
+
+            try {
+                const response = await fetch('/api/admin/blog/categories', {
+                    method: 'PUT',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer dev-bypass'
+                    },
+                    body: JSON.stringify({ id, translations })
+                });
+
+                if (response.ok) {
+                    await loadCategories();
+                    displayCategoriesList();
+                    closeEditCategoryModal();
+                    showMessage('Category translations updated successfully!', 'success');
+                } else {
+                    const error = await response.json();
+                    throw new Error(error.error || 'Failed to update category');
+                }
+            } catch (error) {
+                console.error('Error updating category:', error);
+                showMessage(`Failed to update category: ${error.message}`, 'error');
+            }
+        }
+
+        async function deleteCategory(id) {
+            if (!confirm('Delete this category? This action cannot be undone.')) {
+                return;
+            }
+
+            try {
+                const response = await fetch(`/api/admin/blog/categories?id=${id}`, {
+                    method: 'DELETE',
+                    headers: {
+                        'Authorization': 'Bearer dev-bypass'
+                    }
+                });
+
+                if (response.ok) {
+                    await loadCategories();
+                    displayCategoriesList();
+                    showMessage('Category deleted', 'success');
+                } else {
+                    const error = await response.json();
+                    throw new Error(error.error || 'Failed to delete category');
+                }
+            } catch (error) {
+                console.error('Error deleting category:', error);
+                showMessage(`Failed to delete category: ${error.message}`, 'error');
+            }
+        }
 
         // Initialize
         document.addEventListener('DOMContentLoaded', function() {
+            loadCategories();
             loadPosts();
             setupEventListeners();
+            initFeaturedImageUpload();
         });
 
         // Tab switching
@@ -789,6 +1555,11 @@
                 loadPDFLibrary();
             } else if (tabName === 'translations') {
                 populatePostSelect('translationPostSelect');
+                // Reload translations if a post is already selected
+                const selectedSlug = document.getElementById('translationPostSelect').value;
+                if (selectedSlug) {
+                    loadTranslations();
+                }
             }
         }
 
@@ -827,17 +1598,24 @@
                      onmouseover="this.style.boxShadow='0 4px 12px rgba(0,0,0,0.1)'"
                      onmouseout="this.style.boxShadow='none'"
                      onclick="editPost('${post.slug}')">
-                    <div style="display: flex; justify-content: space-between; align-items: start;">
-                        <div>
+                    <div style="display: flex; gap: 20px; justify-content: space-between; align-items: start;">
+                        ${post.featuredImage ? `
+                            <div style="flex-shrink: 0;">
+                                <img src="${post.featuredImage}" alt="${post.title}"
+                                     style="width: 120px; height: 80px; object-fit: cover; border-radius: 6px; border: 2px solid var(--gray-200);" />
+                            </div>
+                        ` : ''}
+                        <div style="flex: 1;">
                             <h3 style="color: var(--gray-900); margin-bottom: 10px;">${post.title}</h3>
                             <p style="color: var(--gray-600); margin-bottom: 10px;">${post.excerpt || ''}</p>
                             <div style="display: flex; gap: 15px; font-size: 13px; color: var(--gray-500);">
                                 <span>📅 ${post.date}</span>
                                 <span>👤 ${post.author}</span>
                                 <span>📁 ${post.category}</span>
+                                ${post.featuredImage ? '<span>🖼️ Has image</span>' : ''}
                             </div>
                         </div>
-                        <div style="display: flex; gap: 10px;">
+                        <div style="display: flex; gap: 10px; flex-shrink: 0;">
                             <button class="btn btn-sm btn-primary" onclick="event.stopPropagation(); editPost('${post.slug}')">Edit</button>
                             <button class="btn btn-sm btn-danger" onclick="event.stopPropagation(); deletePost('${post.slug}')">Delete</button>
                         </div>
@@ -876,26 +1654,57 @@
             currentPost = posts.find(p => p.slug === slug);
             currentLanguage = language;
 
-            // Populate metadata
-            document.getElementById('postTitle').value = currentPost.title || '';
-            document.getElementById('postSlug').value = currentPost.slug || '';
-            document.getElementById('postMetaDescription').value = currentPost.metaDescription || currentPost.excerpt || '';
-            document.getElementById('postKeywords').value = (currentPost.keywords || []).join(', ');
-
-            // Load HTML content
+            // Load post from admin API
             try {
-                const response = await fetch(`/blog/${language}/${slug}.html`);
-                if (response.ok) {
-                    const html = await response.text();
-                    // Extract body content
-                    const bodyMatch = html.match(/<body[^>]*>([\s\S]*)<\/body>/i);
-                    if (bodyMatch) {
-                        document.getElementById('htmlEditor').value = bodyMatch[1].trim();
-                    } else {
-                        document.getElementById('htmlEditor').value = html;
+                const response = await fetch(`/api/admin/blog/posts/${slug}`, {
+                    headers: {
+                        'Authorization': 'Bearer dev-bypass'
                     }
+                });
+                if (response.ok) {
+                    const data = await response.json();
+                    const post = data.post;
+                    currentPost = post; // Set currentPost when loading for editing
+                    updateCurrentPostIndicator();
+
+                    const translation = post.translations[language] || post.translations['en'] || {};
+
+                    // Populate metadata
+                    document.getElementById('postTitle').value = translation.title || '';
+                    document.getElementById('postSlug').value = post.slug || '';
+                    document.getElementById('postMetaTitle').value = translation.metaTitle || translation.title || '';
+                    document.getElementById('postMetaDescription').value = translation.metaDescription || translation.excerpt || '';
+                    document.getElementById('postFocusKeyword').value = translation.focusKeyword || '';
+                    document.getElementById('postKeywords').value = (post.keywords || []).join(', ');
+                    document.getElementById('postFeaturedImage').value = post.featuredImage || '';
+                    document.getElementById('postCategory').value = post.category || 'teaching-resources';
+
+                    // Show featured image preview if exists
+                    if (post.featuredImage) {
+                        document.getElementById('featuredImagePlaceholder').style.display = 'none';
+                        document.getElementById('featuredImagePreview').style.display = 'block';
+                        document.getElementById('featuredImagePreviewImg').src = post.featuredImage;
+                        document.getElementById('featuredImageName').textContent = post.featuredImage.split('/').pop();
+                    } else {
+                        document.getElementById('featuredImagePlaceholder').style.display = 'block';
+                        document.getElementById('featuredImagePreview').style.display = 'none';
+                    }
+
+                    // Load HTML content
+                    document.getElementById('htmlEditor').value = translation.content || '';
                     refreshPreview();
+
+                    // Trigger SEO analysis after loading
+                    updateSEOAnalysis();
                 } else {
+                    // Clear form for new translation
+                    document.getElementById('postTitle').value = '';
+                    document.getElementById('postMetaTitle').value = '';
+                    document.getElementById('postMetaDescription').value = '';
+                    document.getElementById('postFocusKeyword').value = '';
+                    document.getElementById('postKeywords').value = '';
+                    document.getElementById('postFeaturedImage').value = '';
+                    document.getElementById('postCategory').value = 'teaching-resources';
                     document.getElementById('htmlEditor').value = '';
                     if (language !== 'en') {
                         showMessage('No translation found for this language. Add content to create it.', 'info');
@@ -903,6 +1712,7 @@
                 }
             } catch (error) {
                 console.error('Error loading content:', error);
+                showMessage('Error loading post content', 'error');
             }
 
             // Load PDFs for this post
@@ -910,19 +1720,31 @@
         }
 
         // Load PDFs for current post
-        function loadPostPDFs(slug) {
-            // Mock data - in production, this would load from server
-            currentPDFs = [
-                {
-                    id: '1',
-                    title: '1 Minute Math Addition',
-                    description: 'Premium educational worksheet designed to enhance learning through engaging exercises and activities',
-                    filename: '1-minute-math-addition.pdf',
-                    size: '145.2 KB',
-                    price: 'Free',
-                    thumbnail: '/blog/thumbnails/worksheet-generator/1-minute-math-addition.png'
+        async function loadPostPDFs(slug) {
+            try {
+                const response = await fetch(`/api/admin/blog/posts/${slug}/pdfs`, {
+                    headers: {
+                        'Authorization': 'Bearer dev-bypass'
+                    }
+                });
+                if (response.ok) {
+                    const data = await response.json();
+                    currentPDFs = data.pdfs.map(pdf => ({
+                        id: pdf.id,
+                        title: pdf.title,
+                        description: pdf.description,
+                        filename: pdf.filename,
+                        size: formatFileSize(pdf.fileSize),
+                        price: pdf.price || 'Free',
+                        thumbnail: pdf.thumbnail
+                    }));
+                } else {
+                    currentPDFs = [];
                 }
-            ];
+            } catch (error) {
+                console.error('Error loading PDFs:', error);
+                currentPDFs = [];
+            }
 
             displayPostPDFs();
         }
@@ -964,12 +1786,45 @@
         function clearEditorForm() {
             document.getElementById('postTitle').value = '';
             document.getElementById('postSlug').value = '';
+            document.getElementById('postMetaTitle').value = '';
             document.getElementById('postMetaDescription').value = '';
+            document.getElementById('postFocusKeyword').value = '';
             document.getElementById('postKeywords').value = '';
+            document.getElementById('postFeaturedImage').value = '';
+            document.getElementById('postFeaturedImageFile').value = '';
+            document.getElementById('postCategory').value = 'teaching-resources';
             document.getElementById('htmlEditor').value = '';
             document.getElementById('previewFrame').srcdoc = '';
+
+            // Reset featured image preview
+            document.getElementById('featuredImagePlaceholder').style.display = 'block';
+            document.getElementById('featuredImagePreview').style.display = 'none';
+            document.getElementById('featuredImagePreviewImg').src = '';
+            document.getElementById('featuredImageName').textContent = '';
+
             currentPDFs = [];
             displayPostPDFs();
+            currentPost = null;
+
+            // Reset SEO analysis
+            updateSEOAnalysis();
+            updateCurrentPostIndicator();
+        }
+
+        // Update current post indicator
+        function updateCurrentPostIndicator() {
+            const indicator = document.getElementById('currentPostIndicator');
+            const slugDisplay = document.getElementById('currentPostSlug');
+
+            if (currentPost) {
+                indicator.style.display = 'block';
+                slugDisplay.textContent = currentPost.slug;
+                console.log('📊 Indicator updated. Current post:', currentPost.slug);
+            } else {
+                indicator.style.display = 'none';
+                slugDisplay.textContent = '';
+                console.log('📊 Indicator hidden. No current post.');
+            }
         }
 
         // Refresh preview
@@ -1046,26 +1901,106 @@
             const metaDescription = document.getElementById('postMetaDescription').value;
             const keywords = document.getElementById('postKeywords').value;
             const htmlContent = document.getElementById('htmlEditor').value;
+            const featuredImage = document.getElementById('postFeaturedImage').value || null;
+            const category = document.getElementById('postCategory').value;
+
+            console.log('📝 Saving blog post with featuredImage:', featuredImage);
 
             if (!title || !htmlContent) {
                 showMessage('Please provide a title and HTML content', 'error');
                 return;
             }
 
-            // Generate complete HTML file
-            const fullHTML = generateFullHTML({
+            // Build translations object
+            const translationData = {
                 title,
-                slug,
-                metaDescription,
-                keywords,
+                excerpt: metaDescription || title,
                 content: htmlContent,
-                pdfs: currentPDFs
-            });
+                author: 'LessonCraftStudio Team',
+                metaTitle: document.getElementById('postMetaTitle').value || title,
+                metaDescription,
+                focusKeyword: document.getElementById('postFocusKeyword').value || ''
+            };
 
-            // Download HTML file for manual upload
-            downloadHTML(fullHTML, `${slug}-${currentLanguage}.html`);
+            const translations = {
+                [currentLanguage]: translationData
+            };
 
-            showMessage(`Blog post saved! HTML file downloaded for language: ${currentLanguage.toUpperCase()}`, 'success');
+            // Always ensure English translation exists (required by API)
+            if (currentLanguage !== 'en') {
+                translations.en = translationData; // Use same content as placeholder for English
+            }
+
+            // If editing existing post, load other language translations
+            if (currentPost) {
+                try {
+                    const response = await fetch(`/api/admin/blog/posts/${currentPost.slug}`, {
+                        headers: {
+                            'Authorization': 'Bearer dev-bypass'
+                        }
+                    });
+                    if (response.ok) {
+                        const data = await response.json();
+                        const existingTranslations = data.post.translations;
+                        // Merge existing translations with current language update
+                        Object.keys(existingTranslations).forEach(lang => {
+                            if (lang !== currentLanguage && lang !== 'en') {
+                                translations[lang] = existingTranslations[lang];
+                            }
+                            // Preserve existing English if we're editing in another language
+                            if (lang === 'en' && currentLanguage !== 'en') {
+                                translations.en = existingTranslations.en;
+                            }
+                        });
+                    }
+                } catch (error) {
+                    console.error('Error loading existing translations:', error);
+                }
+            }
+
+            const formData = {
+                slug,
+                translations,
+                category,
+                keywords: keywords ? keywords.split(',').map(k => k.trim()).filter(k => k) : [],
+                featuredImage,
+                status: 'published'
+            };
+
+            try {
+                const url = currentPost
+                    ? `/api/admin/blog/posts/${currentPost.slug}`
+                    : '/api/admin/blog/posts';
+
+                const method = currentPost ? 'PUT' : 'POST';
+
+                const response = await fetch(url, {
+                    method: method,
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer dev-bypass'
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    currentPost = result.post; // Update currentPost with saved post
+                    console.log('✅ Blog post saved! currentPost:', currentPost);
+                    console.log('✅ Post ID:', currentPost.id, 'Slug:', currentPost.slug);
+                    console.log('✅ Featured Image saved:', currentPost.featuredImage);
+                    updateCurrentPostIndicator();
+                    showMessage(`Blog post saved successfully for language: ${currentLanguage.toUpperCase()}!`, 'success');
+                    // Reload posts list
+                    await loadPosts();
+                } else {
+                    const errorData = await response.json();
+                    throw new Error(errorData.error || 'Failed to save post');
+                }
+            } catch (error) {
+                console.error('Error saving post:', error);
+                showMessage(`Failed to save blog post: ${error.message}`, 'error');
+            }
         }
 
         // Generate full HTML document
@@ -1140,7 +2075,7 @@ ${generatePDFSectionHTML()}
         }
 
         // Load translations
-        function loadTranslations() {
+        async function loadTranslations() {
             const slug = document.getElementById('translationPostSelect').value;
             if (!slug) {
                 document.getElementById('languageGrid').innerHTML = '';
@@ -1161,18 +2096,40 @@ ${generatePDFSectionHTML()}
                 { code: 'fi', name: 'Suomi', flag: '🇫🇮' }
             ];
 
-            document.getElementById('languageGrid').innerHTML = languages.map(lang => `
-                <div class="language-card ${lang.code === 'en' ? 'complete' : ''}"
-                     onclick="editTranslation('${slug}', '${lang.code}')"
-                     style="cursor: pointer;">
-                    <div class="language-flag">${lang.flag}</div>
-                    <div class="language-name">${lang.name}</div>
-                    <div class="language-status">${lang.code === 'en' ? '✅ Complete' : '⚠️ Missing'}</div>
-                    <button class="btn btn-sm btn-primary" style="width: 100%;">
-                        ${lang.code === 'en' ? 'Edit' : 'Add Translation'}
-                    </button>
-                </div>
-            `).join('');
+            // Fetch post data to check which translations exist
+            let existingTranslations = {};
+            try {
+                const response = await fetch(`/api/admin/blog/posts/${slug}`, {
+                    headers: {
+                        'Authorization': 'Bearer dev-bypass'
+                    }
+                });
+                if (response.ok) {
+                    const data = await response.json();
+                    existingTranslations = data.post.translations || {};
+                }
+            } catch (error) {
+                console.error('Error loading post translations:', error);
+            }
+
+            document.getElementById('languageGrid').innerHTML = languages.map(lang => {
+                const hasTranslation = existingTranslations[lang.code] &&
+                                     existingTranslations[lang.code].title &&
+                                     existingTranslations[lang.code].content;
+
+                return `
+                    <div class="language-card ${hasTranslation ? 'complete' : ''}"
+                         onclick="editTranslation('${slug}', '${lang.code}')"
+                         style="cursor: pointer;">
+                        <div class="language-flag">${lang.flag}</div>
+                        <div class="language-name">${lang.name}</div>
+                        <div class="language-status">${hasTranslation ? '✅ Complete' : '⚠️ Missing'}</div>
+                        <button class="btn btn-sm btn-primary" style="width: 100%;">
+                            ${hasTranslation ? 'Edit' : 'Add Translation'}
+                        </button>
+                    </div>
+                `;
+            }).join('');
         }
 
         // Edit translation
@@ -1199,38 +2156,220 @@ ${generatePDFSectionHTML()}
             document.getElementById('modalPDFPrice').value = 'free';
         }
 
-        function savePDF() {
+        async function savePDF() {
             const title = document.getElementById('modalPDFTitle').value;
             const description = document.getElementById('modalPDFDescription').value;
             const fileInput = document.getElementById('modalPDFFile');
+            const thumbnailInput = document.getElementById('modalPDFThumbnail');
+            const price = document.getElementById('modalPDFPrice').value === 'free' ? 'Free' : 'Premium';
 
             if (!title || !fileInput.files[0]) {
                 showMessage('Please provide a title and select a PDF file', 'error');
                 return;
             }
 
-            // Add to current PDFs
-            const newPDF = {
-                id: Date.now().toString(),
-                title: title,
-                description: description,
-                filename: fileInput.files[0].name,
-                size: formatFileSize(fileInput.files[0].size),
-                price: document.getElementById('modalPDFPrice').value === 'free' ? 'Free' : 'Premium',
-                thumbnail: null // Would be handled by file upload in production
-            };
+            // Get slug from current context (editor or PDF manager)
+            let slug = currentPost ? currentPost.slug : null;
+            if (!slug) {
+                slug = document.getElementById('editorPostSelect').value || document.getElementById('pdfManagerPostSelect').value;
+            }
 
-            currentPDFs.push(newPDF);
-            displayPostPDFs();
-            closePDFModal();
-            showMessage('PDF added successfully!', 'success');
+            if (!slug) {
+                showMessage('Please select a blog post first', 'error');
+                return;
+            }
+
+            try {
+                const formData = new FormData();
+                formData.append('pdf', fileInput.files[0]);
+                formData.append('title', title);
+                formData.append('description', description);
+                formData.append('price', price);
+
+                if (thumbnailInput && thumbnailInput.files[0]) {
+                    formData.append('thumbnail', thumbnailInput.files[0]);
+                }
+
+                const response = await fetch(`/api/admin/blog/posts/${slug}/pdfs`, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': 'Bearer dev-bypass'
+                    },
+                    body: formData
+                });
+
+                if (response.ok) {
+                    showMessage('PDF uploaded successfully!', 'success');
+                    closePDFModal();
+                    // Reload PDFs for both editor and PDF manager
+                    await loadPostPDFs(slug);
+                    // If on PDF Manager tab, refresh the list
+                    const pdfManagerSlug = document.getElementById('pdfManagerPostSelect').value;
+                    if (pdfManagerSlug === slug) {
+                        await loadPDFsForPost();
+                    }
+                } else {
+                    const error = await response.json();
+                    throw new Error(error.error || 'Failed to upload PDF');
+                }
+            } catch (error) {
+                console.error('Error uploading PDF:', error);
+                showMessage(`Failed to upload PDF: ${error.message}`, 'error');
+            }
         }
 
-        function removePDF(id) {
-            if (confirm('Are you sure you want to remove this PDF?')) {
-                currentPDFs = currentPDFs.filter(pdf => pdf.id !== id);
-                displayPostPDFs();
-                showMessage('PDF removed', 'info');
+        async function removePDF(id) {
+            if (!confirm('Are you sure you want to remove this PDF? This will permanently delete the file.')) {
+                return;
+            }
+
+            // Get slug from current context (editor or PDF manager)
+            const slug = document.getElementById('editorPostSelect').value || document.getElementById('pdfManagerPostSelect').value;
+            if (!slug) {
+                showMessage('Error: No post selected', 'error');
+                return;
+            }
+
+            try {
+                const response = await fetch(`/api/admin/blog/posts/${slug}/pdfs/${id}`, {
+                    method: 'DELETE',
+                    headers: {
+                        'Authorization': 'Bearer dev-bypass'
+                    }
+                });
+
+                if (response.ok) {
+                    showMessage('PDF deleted successfully', 'success');
+                    // Reload PDFs for both editor and PDF manager
+                    await loadPostPDFs(slug);
+                    // If on PDF Manager tab, refresh the list
+                    const pdfManagerSlug = document.getElementById('pdfManagerPostSelect').value;
+                    if (pdfManagerSlug === slug) {
+                        await loadPDFsForPost();
+                    }
+                } else {
+                    const error = await response.json();
+                    throw new Error(error.error || 'Failed to delete PDF');
+                }
+            } catch (error) {
+                console.error('Error deleting PDF:', error);
+                showMessage(`Failed to delete PDF: ${error.message}`, 'error');
+            }
+        }
+
+        async function editPDF(id) {
+            // Get slug from current context (editor or PDF manager)
+            const slug = document.getElementById('editorPostSelect').value || document.getElementById('pdfManagerPostSelect').value;
+            if (!slug) {
+                showMessage('Error: No post selected', 'error');
+                return;
+            }
+
+            // Fetch PDF details from API
+            let pdf = currentPDFs.find(p => p.id === id);
+            if (!pdf) {
+                // Try fetching from API if not in currentPDFs
+                try {
+                    const response = await fetch(`/api/admin/blog/posts/${slug}/pdfs`, {
+                        headers: {
+                            'Authorization': 'Bearer dev-bypass'
+                        }
+                    });
+                    if (response.ok) {
+                        const data = await response.json();
+                        pdf = data.pdfs.find(p => p.id === id);
+                    }
+                } catch (error) {
+                    console.error('Error fetching PDF:', error);
+                }
+            }
+
+            if (!pdf) {
+                showMessage('PDF not found', 'error');
+                return;
+            }
+
+            // Populate edit modal with PDF data
+            document.getElementById('editPDFId').value = pdf.id;
+            document.getElementById('editPDFTitle').value = pdf.title || '';
+            document.getElementById('editPDFDescription').value = pdf.description || '';
+            document.getElementById('editPDFPrice').value = pdf.price || 'Free';
+            document.getElementById('editPDFFileName').textContent = pdf.filename || 'N/A';
+
+            // Show current thumbnail if exists
+            if (pdf.thumbnail) {
+                document.getElementById('currentThumbnailPreview').style.display = 'block';
+                document.getElementById('currentThumbnailImg').src = pdf.thumbnail;
+            } else {
+                document.getElementById('currentThumbnailPreview').style.display = 'none';
+            }
+
+            // Clear thumbnail file input
+            document.getElementById('editPDFThumbnail').value = '';
+
+            // Show modal
+            document.getElementById('editPDFModal').classList.add('active');
+        }
+
+        function closeEditPDFModal() {
+            document.getElementById('editPDFModal').classList.remove('active');
+        }
+
+        async function saveEditedPDF() {
+            const id = document.getElementById('editPDFId').value;
+            const title = document.getElementById('editPDFTitle').value.trim();
+            const description = document.getElementById('editPDFDescription').value.trim();
+            const price = document.getElementById('editPDFPrice').value;
+            const thumbnailInput = document.getElementById('editPDFThumbnail');
+
+            if (!title) {
+                showMessage('Title is required', 'error');
+                return;
+            }
+
+            // Get slug from current context
+            const slug = document.getElementById('editorPostSelect').value || document.getElementById('pdfManagerPostSelect').value;
+            if (!slug) {
+                showMessage('Error: No post selected', 'error');
+                return;
+            }
+
+            try {
+                const formData = new FormData();
+                formData.append('title', title);
+                formData.append('description', description);
+                formData.append('price', price);
+
+                // Add thumbnail if a new one was selected
+                if (thumbnailInput.files && thumbnailInput.files[0]) {
+                    formData.append('thumbnail', thumbnailInput.files[0]);
+                }
+
+                const response = await fetch(`/api/admin/blog/posts/${slug}/pdfs/${id}`, {
+                    method: 'PUT',
+                    headers: {
+                        'Authorization': 'Bearer dev-bypass'
+                    },
+                    body: formData
+                });
+
+                if (response.ok) {
+                    showMessage('PDF updated successfully!', 'success');
+                    closeEditPDFModal();
+                    // Reload PDFs for both editor and PDF manager
+                    await loadPostPDFs(slug);
+                    // If on PDF Manager tab, refresh the list
+                    const pdfManagerSlug = document.getElementById('pdfManagerPostSelect').value;
+                    if (pdfManagerSlug === slug) {
+                        await loadPDFsForPost();
+                    }
+                } else {
+                    const error = await response.json();
+                    throw new Error(error.error || 'Failed to update PDF');
+                }
+            } catch (error) {
+                console.error('Error updating PDF:', error);
+                showMessage(`Failed to update PDF: ${error.message}`, 'error');
             }
         }
 
@@ -1347,37 +2486,985 @@ ${generatePDFSectionHTML()}
             win.document.close();
         }
 
-        function deletePost(slug) {
-            if (confirm('Are you sure you want to delete this post?')) {
-                posts = posts.filter(p => p.slug !== slug);
-                displayPosts();
-                showMessage('Post deleted', 'info');
+        async function deletePost(slug) {
+            if (!confirm('Are you sure you want to delete this post? This action cannot be undone.')) {
+                return;
+            }
+
+            try {
+                const response = await fetch(`/api/admin/blog/posts/${slug}`, {
+                    method: 'DELETE',
+                    headers: {
+                        'Authorization': 'Bearer dev-bypass'
+                    }
+                });
+
+                if (response.ok) {
+                    showMessage('Post deleted successfully!', 'success');
+                    // Reload posts from database
+                    await loadPosts();
+                } else {
+                    const error = await response.json();
+                    throw new Error(error.error || 'Failed to delete post');
+                }
+            } catch (error) {
+                console.error('Error deleting post:', error);
+                showMessage(`Failed to delete post: ${error.message}`, 'error');
             }
         }
 
         function loadPDFLibrary() {
-            // Mock PDF library
-            const library = [
-                { name: '1-minute-math-addition.pdf', size: '145.2 KB', date: '2025-09-19' },
-                { name: 'alphabet-tracing.pdf', size: '230.5 KB', date: '2025-09-18' },
-                { name: 'word-search-animals.pdf', size: '89.3 KB', date: '2025-09-17' }
-            ];
+            // Populate post selector
+            populatePostSelect('pdfManagerPostSelect');
+            // Show placeholder
+            document.getElementById('pdfManagerPlaceholder').style.display = 'block';
+            document.getElementById('pdfManagerContent').style.display = 'none';
+        }
 
-            document.getElementById('pdfLibrary').innerHTML = library.map(pdf => `
-                <div class="pdf-card">
-                    <div class="pdf-thumbnail">
-                        <div style="color: white; font-size: 48px;">📄</div>
-                    </div>
-                    <div class="pdf-info">
-                        <div class="pdf-name">${pdf.name}</div>
-                        <div class="pdf-meta">
-                            <span class="pdf-size">📁 ${pdf.size}</span>
-                            <span style="color: var(--gray-500); font-size: 12px;">📅 ${pdf.date}</span>
+        async function loadPDFsForPost() {
+            const slug = document.getElementById('pdfManagerPostSelect').value;
+
+            if (!slug) {
+                document.getElementById('pdfManagerPlaceholder').style.display = 'block';
+                document.getElementById('pdfManagerContent').style.display = 'none';
+                return;
+            }
+
+            document.getElementById('pdfManagerPlaceholder').style.display = 'none';
+            document.getElementById('pdfManagerContent').style.display = 'block';
+
+            try {
+                const response = await fetch(`/api/admin/blog/posts/${slug}/pdfs`, {
+                    headers: {
+                        'Authorization': 'Bearer dev-bypass'
+                    }
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+                    displayPDFsList(data.pdfs || []);
+                } else {
+                    displayPDFsList([]);
+                }
+            } catch (error) {
+                console.error('Error loading PDFs:', error);
+                displayPDFsList([]);
+            }
+        }
+
+        function displayPDFsList(pdfs) {
+            const pdfsList = document.getElementById('pdfsList');
+            const noPDFsMessage = document.getElementById('noPDFsMessage');
+
+            if (pdfs.length === 0) {
+                pdfsList.style.display = 'none';
+                noPDFsMessage.style.display = 'block';
+                return;
+            }
+
+            pdfsList.style.display = 'grid';
+            noPDFsMessage.style.display = 'none';
+
+            pdfsList.innerHTML = pdfs.map(pdf => `
+                <div class="pdf-card" style="border: 2px solid var(--gray-200); border-radius: 8px; padding: 20px; background: white;">
+                    <div style="display: flex; align-items: start; justify-content: space-between; margin-bottom: 15px;">
+                        <div style="font-size: 48px;">📄</div>
+                        <div style="display: flex; gap: 8px;">
+                            <button class="btn btn-sm btn-primary" onclick="editPDF('${pdf.id}')" title="Edit">✏️</button>
+                            <button class="btn btn-sm btn-danger" onclick="removePDF('${pdf.id}')" title="Delete">🗑️</button>
                         </div>
                     </div>
+
+                    ${pdf.thumbnail ? `
+                        <div style="margin-bottom: 15px;">
+                            <img src="${pdf.thumbnail}" alt="${pdf.title}"
+                                 style="width: 100%; height: 150px; object-fit: cover; border-radius: 6px; border: 1px solid var(--gray-200);" />
+                        </div>
+                    ` : ''}
+
+                    <h4 style="margin-bottom: 8px; color: var(--gray-900);">${pdf.title}</h4>
+                    <p style="font-size: 14px; color: var(--gray-600); margin-bottom: 12px;">${pdf.description || 'No description'}</p>
+
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding-top: 12px; border-top: 1px solid var(--gray-200);">
+                        <span style="font-size: 12px; color: var(--gray-500);">
+                            📦 ${formatFileSize(pdf.fileSize)}
+                        </span>
+                        <span style="font-size: 14px; font-weight: 600; color: ${pdf.price === 'Free' ? 'var(--success)' : 'var(--primary)'};">
+                            ${pdf.price || 'Free'}
+                        </span>
+                    </div>
+
+                    <a href="${pdf.filePath}" target="_blank" class="btn btn-sm btn-secondary" style="width: 100%; margin-top: 12px;">
+                        👁️ Preview PDF
+                    </a>
                 </div>
             `).join('');
         }
+
+        // ==================== SEO OPTIMIZATION SYSTEM ====================
+
+        let seoAnalysisTimeout;
+
+        function updateSEOAnalysis() {
+            // Debounce for performance
+            clearTimeout(seoAnalysisTimeout);
+            seoAnalysisTimeout = setTimeout(() => {
+                performSEOAnalysis();
+            }, 300);
+        }
+
+        function performSEOAnalysis() {
+            const title = document.getElementById('postTitle').value;
+            const metaTitle = document.getElementById('postMetaTitle').value || title;
+            const metaDesc = document.getElementById('postMetaDescription').value;
+            const focusKeyword = document.getElementById('postFocusKeyword').value.toLowerCase();
+            const htmlContent = document.getElementById('htmlEditor').value;
+            const slug = document.getElementById('postSlug').value;
+
+            // Extract text content from HTML
+            const textContent = extractTextFromHTML(htmlContent).toLowerCase();
+            const wordCount = textContent.split(/\s+/).filter(w => w.length > 0).length;
+
+            // Calculate SEO Score
+            const seoScore = calculateSEOScore({
+                title, metaTitle, metaDesc, focusKeyword,
+                textContent, htmlContent, wordCount, slug
+            });
+
+            // Update Score Display
+            updateSEOScore(seoScore);
+
+            // Update Field Lengths
+            updateFieldLengths(title, metaTitle, metaDesc);
+
+            // Update SEO Checklist
+            updateSEOChecklist({
+                title, metaTitle, metaDesc, focusKeyword,
+                textContent, htmlContent, wordCount, slug
+            });
+
+            // Update Content Analysis
+            updateContentAnalysis({
+                textContent, wordCount, focusKeyword, htmlContent
+            });
+
+            // Update Previews
+            updatePreviews(metaTitle || title, metaDesc, slug);
+
+            // Update Advanced SEO Panels
+            updateAdvancedSEOPanels({
+                title, metaTitle, metaDesc, focusKeyword,
+                textContent, htmlContent, wordCount, slug
+            });
+
+            // Update language name
+            const langSelect = document.getElementById('editorLanguage');
+            const langNames = {
+                en: 'English', de: 'Deutsch', fr: 'Français', es: 'Español',
+                pt: 'Português', it: 'Italiano', nl: 'Nederlands', sv: 'Svenska',
+                da: 'Dansk', no: 'Norsk', fi: 'Suomi'
+            };
+            document.getElementById('currentLanguageName').textContent = langNames[langSelect.value] || 'English';
+        }
+
+        function extractTextFromHTML(html) {
+            const div = document.createElement('div');
+            div.innerHTML = html;
+            return div.textContent || div.innerText || '';
+        }
+
+        function calculateSEOScore(data) {
+            let score = 0;
+            const checks = [];
+
+            // Title optimization (15 points)
+            if (data.title.length >= 30 && data.title.length <= 60) {
+                score += 15;
+            } else if (data.title.length > 0) {
+                score += 7;
+            }
+
+            // Meta title optimization (10 points)
+            if (data.metaTitle.length >= 50 && data.metaTitle.length <= 60) {
+                score += 10;
+            } else if (data.metaTitle.length > 0) {
+                score += 5;
+            }
+
+            // Meta description (15 points)
+            if (data.metaDesc.length >= 150 && data.metaDesc.length <= 160) {
+                score += 15;
+            } else if (data.metaDesc.length >= 120 && data.metaDesc.length <= 170) {
+                score += 10;
+            } else if (data.metaDesc.length > 0) {
+                score += 5;
+            }
+
+            // Focus keyword in title (15 points)
+            if (data.focusKeyword && data.title.toLowerCase().includes(data.focusKeyword)) {
+                score += 15;
+            }
+
+            // Focus keyword in meta description (10 points)
+            if (data.focusKeyword && data.metaDesc.toLowerCase().includes(data.focusKeyword)) {
+                score += 10;
+            }
+
+            // Focus keyword in content (15 points)
+            if (data.focusKeyword && data.textContent.includes(data.focusKeyword)) {
+                const density = calculateKeywordDensity(data.textContent, data.focusKeyword);
+                if (density >= 0.5 && density <= 2.5) {
+                    score += 15;
+                } else if (density > 0) {
+                    score += 7;
+                }
+            }
+
+            // Content length (10 points)
+            if (data.wordCount >= 300) {
+                score += 10;
+            } else if (data.wordCount >= 150) {
+                score += 5;
+            }
+
+            // URL slug optimization (5 points)
+            if (data.slug && data.slug.match(/^[a-z0-9-]+$/)) {
+                score += 5;
+            }
+
+            // Headings structure (5 points)
+            const hasH1 = /<h1[^>]*>/.test(data.htmlContent);
+            const hasH2 = /<h2[^>]*>/.test(data.htmlContent);
+            if (hasH1 && hasH2) {
+                score += 5;
+            } else if (hasH1 || hasH2) {
+                score += 2;
+            }
+
+            return Math.min(100, score);
+        }
+
+        function calculateKeywordDensity(text, keyword) {
+            if (!keyword || !text) return 0;
+            const words = text.split(/\s+/).filter(w => w.length > 0);
+            const keywordCount = (text.match(new RegExp(keyword, 'gi')) || []).length;
+            return (keywordCount / words.length) * 100;
+        }
+
+        function updateSEOScore(score) {
+            const scoreElement = document.getElementById('seoScoreValue');
+            const badgeElement = document.getElementById('seoScoreBadge');
+
+            scoreElement.textContent = score;
+
+            // Color coding
+            if (score >= 80) {
+                badgeElement.style.background = '#10b981';
+                badgeElement.style.color = 'white';
+            } else if (score >= 60) {
+                badgeElement.style.background = '#f59e0b';
+                badgeElement.style.color = 'white';
+            } else {
+                badgeElement.style.background = '#ef4444';
+                badgeElement.style.color = 'white';
+            }
+        }
+
+        function updateFieldLengths(title, metaTitle, metaDesc) {
+            // Title length
+            const titleLen = title.length;
+            document.getElementById('titleLength').textContent = titleLen;
+
+            // Meta title length
+            const metaTitleLen = metaTitle.length;
+            document.getElementById('metaTitleLength').textContent = metaTitleLen;
+            const metaTitleStatus = document.getElementById('metaTitleStatus');
+            if (metaTitleLen >= 50 && metaTitleLen <= 60) {
+                metaTitleStatus.innerHTML = '✅ <span style="color: #10b981;">Optimal</span>';
+            } else if (metaTitleLen > 60) {
+                metaTitleStatus.innerHTML = '⚠️ <span style="color: #f59e0b;">Too long (may be truncated)</span>';
+            } else if (metaTitleLen > 0) {
+                metaTitleStatus.innerHTML = '⚠️ <span style="color: #f59e0b;">Too short</span>';
+            } else {
+                metaTitleStatus.textContent = '';
+            }
+
+            // Meta description length
+            const metaDescLen = metaDesc.length;
+            document.getElementById('metaDescLength').textContent = metaDescLen;
+            const metaDescStatus = document.getElementById('metaDescStatus');
+            if (metaDescLen >= 150 && metaDescLen <= 160) {
+                metaDescStatus.innerHTML = '✅ <span style="color: #10b981;">Optimal</span>';
+            } else if (metaDescLen > 160) {
+                metaDescStatus.innerHTML = '⚠️ <span style="color: #f59e0b;">Too long (may be truncated)</span>';
+            } else if (metaDescLen >= 120) {
+                metaDescStatus.innerHTML = '✅ <span style="color: #10b981;">Good</span>';
+            } else if (metaDescLen > 0) {
+                metaDescStatus.innerHTML = '⚠️ <span style="color: #f59e0b;">Too short</span>';
+            } else {
+                metaDescStatus.textContent = '';
+            }
+        }
+
+        function updateSEOChecklist(data) {
+            const checks = [
+                {
+                    label: 'Focus keyword defined',
+                    passed: data.focusKeyword && data.focusKeyword.length > 0,
+                    tip: 'Define your main target keyword'
+                },
+                {
+                    label: 'Keyword in title',
+                    passed: data.focusKeyword && data.title.toLowerCase().includes(data.focusKeyword),
+                    tip: 'Include your focus keyword in the title'
+                },
+                {
+                    label: 'Keyword in meta description',
+                    passed: data.focusKeyword && data.metaDesc.toLowerCase().includes(data.focusKeyword),
+                    tip: 'Include your focus keyword in the meta description'
+                },
+                {
+                    label: 'Keyword in content',
+                    passed: data.focusKeyword && data.textContent.includes(data.focusKeyword),
+                    tip: 'Use your focus keyword naturally in the content'
+                },
+                {
+                    label: 'Meta description length optimal',
+                    passed: data.metaDesc.length >= 150 && data.metaDesc.length <= 160,
+                    tip: 'Keep meta description between 150-160 characters'
+                },
+                {
+                    label: 'Content length sufficient',
+                    passed: data.wordCount >= 300,
+                    tip: 'Aim for at least 300 words for better SEO'
+                },
+                {
+                    label: 'URL slug optimized',
+                    passed: data.slug && data.slug.match(/^[a-z0-9-]+$/),
+                    tip: 'Use lowercase letters and hyphens only'
+                },
+                {
+                    label: 'Heading structure present',
+                    passed: /<h1[^>]*>/.test(data.htmlContent) && /<h2[^>]*>/.test(data.htmlContent),
+                    tip: 'Include H1 and H2 headings in your content'
+                }
+            ];
+
+            const checklistHTML = checks.map(check => `
+                <div style="display: flex; align-items: flex-start; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--gray-100);">
+                    <span style="font-size: 18px;">${check.passed ? '✅' : '❌'}</span>
+                    <div style="flex: 1;">
+                        <div style="font-weight: ${check.passed ? '600' : '400'}; color: ${check.passed ? '#10b981' : '#6b7280'};">
+                            ${check.label}
+                        </div>
+                        ${!check.passed ? `<div style="font-size: 12px; color: #6b7280; margin-top: 2px;">${check.tip}</div>` : ''}
+                    </div>
+                </div>
+            `).join('');
+
+            document.getElementById('seoChecklist').innerHTML = checklistHTML;
+        }
+
+        function updateContentAnalysis(data) {
+            const keywordDensity = data.focusKeyword ?
+                calculateKeywordDensity(data.textContent, data.focusKeyword).toFixed(2) : '0.00';
+
+            const readingTime = Math.max(1, Math.ceil(data.wordCount / 200));
+
+            const analysisHTML = `
+                <div style="display: grid; gap: 15px;">
+                    <div style="padding: 12px; background: var(--gray-50); border-radius: 6px;">
+                        <div style="font-size: 12px; color: var(--gray-600); margin-bottom: 4px;">Word Count</div>
+                        <div style="font-size: 24px; font-weight: 700; color: var(--gray-900);">
+                            ${data.wordCount}
+                            <span style="font-size: 14px; color: ${data.wordCount >= 300 ? '#10b981' : '#f59e0b'}; font-weight: 400;">
+                                ${data.wordCount >= 300 ? '✓ Good' : '⚠ Short'}
+                            </span>
+                        </div>
+                    </div>
+
+                    <div style="padding: 12px; background: var(--gray-50); border-radius: 6px;">
+                        <div style="font-size: 12px; color: var(--gray-600); margin-bottom: 4px;">Keyword Density</div>
+                        <div style="font-size: 24px; font-weight: 700; color: var(--gray-900);">
+                            ${keywordDensity}%
+                            <span style="font-size: 14px; color: ${keywordDensity >= 0.5 && keywordDensity <= 2.5 ? '#10b981' : '#f59e0b'}; font-weight: 400;">
+                                ${keywordDensity >= 0.5 && keywordDensity <= 2.5 ? '✓ Optimal' : keywordDensity > 2.5 ? '⚠ High' : '⚠ Low'}
+                            </span>
+                        </div>
+                        <div style="font-size: 12px; color: var(--gray-600); margin-top: 4px;">Target: 0.5-2.5%</div>
+                    </div>
+
+                    <div style="padding: 12px; background: var(--gray-50); border-radius: 6px;">
+                        <div style="font-size: 12px; color: var(--gray-600); margin-bottom: 4px;">Reading Time</div>
+                        <div style="font-size: 24px; font-weight: 700; color: var(--gray-900);">
+                            ${readingTime} min
+                        </div>
+                    </div>
+                </div>
+            `;
+
+            document.getElementById('contentAnalysis').innerHTML = analysisHTML;
+        }
+
+        function updatePreviews(title, description, slug) {
+            const siteUrl = 'https://yoursite.com';
+            const fullUrl = `${siteUrl}/blog/${slug || 'your-slug'}`;
+
+            // Google Preview
+            document.getElementById('googlePreviewTitle').textContent = title || 'Your SEO Title Will Appear Here';
+            document.getElementById('googlePreviewUrl').textContent = fullUrl;
+            document.getElementById('googlePreviewDesc').textContent = description || 'Your meta description will appear here. Make it compelling to improve click-through rates!';
+
+            // Facebook Preview
+            document.getElementById('fbPreviewTitle').textContent = title || 'Your Post Title';
+            document.getElementById('fbPreviewDesc').textContent = description || 'Your meta description...';
+
+            // Twitter Preview
+            document.getElementById('twitterPreviewTitle').textContent = title || 'Your Post Title';
+            document.getElementById('twitterPreviewDesc').textContent = description || 'Your meta description...';
+
+            // Update images in previews if featured image exists
+            const featuredImage = document.getElementById('postFeaturedImage').value;
+            if (featuredImage) {
+                document.getElementById('fbPreviewImage').style.backgroundImage = `url(${featuredImage})`;
+                document.getElementById('fbPreviewImage').style.backgroundSize = 'cover';
+                document.getElementById('fbPreviewImage').style.backgroundPosition = 'center';
+                document.getElementById('fbPreviewImage').textContent = '';
+
+                document.getElementById('twitterPreviewImage').style.backgroundImage = `url(${featuredImage})`;
+                document.getElementById('twitterPreviewImage').style.backgroundSize = 'cover';
+                document.getElementById('twitterPreviewImage').style.backgroundPosition = 'center';
+                document.getElementById('twitterPreviewImage').textContent = '';
+            }
+        }
+
+        // ==================== ADVANCED SEO ANALYSIS ====================
+
+        // Readability Analysis using Flesch Reading Ease
+        function calculateReadability(text) {
+            if (!text || text.length < 100) {
+                return { score: 0, level: 'Insufficient content', gradeLevel: 0 };
+            }
+
+            const sentences = text.split(/[.!?]+/).filter(s => s.trim().length > 0).length;
+            const words = text.split(/\s+/).filter(w => w.length > 0);
+            const wordCount = words.length;
+
+            // Count syllables
+            const syllableCount = words.reduce((total, word) => {
+                return total + countSyllables(word);
+            }, 0);
+
+            if (sentences === 0 || wordCount === 0) {
+                return { score: 0, level: 'Invalid content', gradeLevel: 0 };
+            }
+
+            // Flesch Reading Ease = 206.835 - 1.015 × (total words / total sentences) - 84.6 × (total syllables / total words)
+            const avgWordsPerSentence = wordCount / sentences;
+            const avgSyllablesPerWord = syllableCount / wordCount;
+
+            const fleschScore = 206.835 - (1.015 * avgWordsPerSentence) - (84.6 * avgSyllablesPerWord);
+            const clampedScore = Math.max(0, Math.min(100, fleschScore));
+
+            // Flesch-Kincaid Grade Level = 0.39 × (total words / total sentences) + 11.8 × (total syllables / total words) - 15.59
+            const gradeLevel = (0.39 * avgWordsPerSentence) + (11.8 * avgSyllablesPerWord) - 15.59;
+
+            let level;
+            if (clampedScore >= 90) level = 'Very Easy (5th grade)';
+            else if (clampedScore >= 80) level = 'Easy (6th grade)';
+            else if (clampedScore >= 70) level = 'Fairly Easy (7th grade)';
+            else if (clampedScore >= 60) level = 'Standard (8th-9th grade)';
+            else if (clampedScore >= 50) level = 'Fairly Difficult (10th-12th grade)';
+            else if (clampedScore >= 30) level = 'Difficult (College)';
+            else level = 'Very Difficult (College graduate)';
+
+            return {
+                score: Math.round(clampedScore),
+                level,
+                gradeLevel: Math.max(0, Math.round(gradeLevel * 10) / 10),
+                avgWordsPerSentence: Math.round(avgWordsPerSentence * 10) / 10,
+                avgSyllablesPerWord: Math.round(avgSyllablesPerWord * 100) / 100
+            };
+        }
+
+        function countSyllables(word) {
+            word = word.toLowerCase().replace(/[^a-z]/g, '');
+            if (word.length <= 3) return 1;
+
+            word = word.replace(/(?:[^laeiouy]es|ed|[^laeiouy]e)$/, '');
+            word = word.replace(/^y/, '');
+            const syllables = word.match(/[aeiouy]{1,2}/g);
+
+            return syllables ? syllables.length : 1;
+        }
+
+        // LSI (Latent Semantic Indexing) Keyword Extraction
+        function extractLSIKeywords(text, focusKeyword) {
+            const commonWords = new Set(['the', 'be', 'to', 'of', 'and', 'a', 'in', 'that', 'have', 'i', 'it', 'for', 'not', 'on', 'with', 'he', 'as', 'you', 'do', 'at', 'this', 'but', 'his', 'by', 'from', 'they', 'we', 'say', 'her', 'she', 'or', 'an', 'will', 'my', 'one', 'all', 'would', 'there', 'their', 'what', 'so', 'up', 'out', 'if', 'about', 'who', 'get', 'which', 'go', 'me', 'when', 'make', 'can', 'like', 'time', 'no', 'just', 'him', 'know', 'take', 'people', 'into', 'year', 'your', 'good', 'some', 'could', 'them', 'see', 'other', 'than', 'then', 'now', 'look', 'only', 'come', 'its', 'over', 'think', 'also', 'back', 'after', 'use', 'two', 'how', 'our', 'work', 'first', 'well', 'way', 'even', 'new', 'want', 'because', 'any', 'these', 'give', 'day', 'most', 'us', 'is', 'was', 'are', 'been', 'has', 'had', 'were', 'said', 'did', 'having', 'may', 'should', 'each', 'many', 'more', 'very', 'such', 'much']);
+
+            const words = text.toLowerCase()
+                .replace(/<[^>]*>/g, ' ')
+                .replace(/[^a-z\s]/g, ' ')
+                .split(/\s+/)
+                .filter(word => word.length > 3 && !commonWords.has(word));
+
+            const wordFreq = {};
+            words.forEach(word => {
+                wordFreq[word] = (wordFreq[word] || 0) + 1;
+            });
+
+            // Get top keywords excluding focus keyword
+            const focusWords = focusKeyword.toLowerCase().split(/\s+/);
+            const lsiKeywords = Object.entries(wordFreq)
+                .filter(([word]) => !focusWords.includes(word))
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 10)
+                .map(([word, freq]) => ({ word, frequency: freq }));
+
+            return lsiKeywords;
+        }
+
+        // Schema Markup Generator
+        function generateSchemaMarkup(post, locale) {
+            const baseUrl = 'https://yoursite.com'; // TODO: Replace with actual domain
+            const schemas = [];
+
+            // Article Schema
+            const articleSchema = {
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "headline": post.metaTitle || post.title,
+                "description": post.metaDescription,
+                "image": post.featuredImage ? `${baseUrl}${post.featuredImage}` : undefined,
+                "author": {
+                    "@type": "Organization",
+                    "name": "LessonCraftStudio"
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "LessonCraftStudio",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": `${baseUrl}/logo-lcs.png`
+                    }
+                },
+                "datePublished": new Date().toISOString(),
+                "dateModified": new Date().toISOString(),
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": `${baseUrl}/${locale}/blog/${post.slug}`
+                },
+                "keywords": post.focusKeyword,
+                "inLanguage": locale
+            };
+            schemas.push(articleSchema);
+
+            // Breadcrumb Schema
+            const breadcrumbSchema = {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": `${baseUrl}/${locale}`
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Blog",
+                        "item": `${baseUrl}/${locale}/blog`
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": post.title,
+                        "item": `${baseUrl}/${locale}/blog/${post.slug}`
+                    }
+                ]
+            };
+            schemas.push(breadcrumbSchema);
+
+            // Educational Content Schema
+            const educationalSchema = {
+                "@context": "https://schema.org",
+                "@type": "LearningResource",
+                "name": post.title,
+                "description": post.metaDescription,
+                "educationalLevel": "Elementary School",
+                "learningResourceType": "Educational Worksheet",
+                "inLanguage": locale,
+                "provider": {
+                    "@type": "Organization",
+                    "name": "LessonCraftStudio"
+                }
+            };
+            schemas.push(educationalSchema);
+
+            return schemas;
+        }
+
+        // Heading Hierarchy Validator
+        function validateHeadingHierarchy(htmlContent) {
+            const headings = [];
+            const headingRegex = /<h([1-6])[^>]*>(.*?)<\/h\1>/gi;
+            let match;
+
+            while ((match = headingRegex.exec(htmlContent)) !== null) {
+                headings.push({
+                    level: parseInt(match[1]),
+                    text: match[2].replace(/<[^>]*>/g, '').trim()
+                });
+            }
+
+            const issues = [];
+            const recommendations = [];
+
+            // Check for H1
+            const h1Count = headings.filter(h => h.level === 1).length;
+            if (h1Count === 0) {
+                issues.push('Missing H1 heading - Every article needs exactly one H1');
+            } else if (h1Count > 1) {
+                issues.push(`Multiple H1 headings detected (${h1Count}) - Use only one H1 per page`);
+            }
+
+            // Check hierarchy
+            let previousLevel = 0;
+            headings.forEach((heading, index) => {
+                if (heading.level > previousLevel + 1 && previousLevel !== 0) {
+                    issues.push(`Heading hierarchy skip: H${previousLevel} → H${heading.level} (line ${index + 1})`);
+                }
+                previousLevel = heading.level;
+            });
+
+            // Check for keywords in headings
+            recommendations.push('Consider including focus keyword in at least one H2 heading');
+
+            // Check heading distribution
+            const h2Count = headings.filter(h => h.level === 2).length;
+            if (h2Count < 2) {
+                recommendations.push('Add more H2 headings to improve content structure (recommended: 3-5)');
+            }
+
+            return {
+                headings,
+                h1Count,
+                h2Count,
+                totalHeadings: headings.length,
+                issues,
+                recommendations,
+                isValid: issues.length === 0
+            };
+        }
+
+        // Image Alt Text Analyzer
+        function analyzeImages(htmlContent) {
+            const images = [];
+            const imgRegex = /<img[^>]*>/gi;
+            let match;
+
+            while ((match = imgRegex.exec(htmlContent)) !== null) {
+                const imgTag = match[0];
+                const srcMatch = imgTag.match(/src=["']([^"']*)["']/);
+                const altMatch = imgTag.match(/alt=["']([^"']*)["']/);
+
+                images.push({
+                    src: srcMatch ? srcMatch[1] : '',
+                    alt: altMatch ? altMatch[1] : '',
+                    hasAlt: !!altMatch && altMatch[1].length > 0
+                });
+            }
+
+            const missingAlt = images.filter(img => !img.hasAlt).length;
+            const score = images.length === 0 ? 100 : Math.round(((images.length - missingAlt) / images.length) * 100);
+
+            return {
+                totalImages: images.length,
+                imagesWithAlt: images.length - missingAlt,
+                missingAlt,
+                score,
+                images,
+                issues: missingAlt > 0 ? [`${missingAlt} images missing alt text`] : []
+            };
+        }
+
+        // Content Quality Scorer
+        function calculateContentQuality(data) {
+            let score = 0;
+            const maxScore = 100;
+            const details = [];
+
+            // 1. Word count (20 points)
+            if (data.wordCount >= 1500) {
+                score += 20;
+                details.push({ category: 'Length', score: 20, max: 20, status: 'excellent' });
+            } else if (data.wordCount >= 1000) {
+                score += 15;
+                details.push({ category: 'Length', score: 15, max: 20, status: 'good' });
+            } else if (data.wordCount >= 500) {
+                score += 10;
+                details.push({ category: 'Length', score: 10, max: 20, status: 'fair' });
+            } else {
+                score += 5;
+                details.push({ category: 'Length', score: 5, max: 20, status: 'poor' });
+            }
+
+            // 2. Readability (15 points)
+            const readability = calculateReadability(data.textContent);
+            if (readability.score >= 60 && readability.score <= 80) {
+                score += 15;
+                details.push({ category: 'Readability', score: 15, max: 15, status: 'excellent' });
+            } else if (readability.score >= 50 || readability.score >= 80) {
+                score += 10;
+                details.push({ category: 'Readability', score: 10, max: 15, status: 'good' });
+            } else {
+                score += 5;
+                details.push({ category: 'Readability', score: 5, max: 15, status: 'fair' });
+            }
+
+            // 3. Heading structure (15 points)
+            const headingAnalysis = validateHeadingHierarchy(data.htmlContent);
+            if (headingAnalysis.isValid && headingAnalysis.h2Count >= 3) {
+                score += 15;
+                details.push({ category: 'Structure', score: 15, max: 15, status: 'excellent' });
+            } else if (headingAnalysis.h1Count === 1) {
+                score += 10;
+                details.push({ category: 'Structure', score: 10, max: 15, status: 'good' });
+            } else {
+                score += 5;
+                details.push({ category: 'Structure', score: 5, max: 15, status: 'fair' });
+            }
+
+            // 4. Image optimization (10 points)
+            const imageAnalysis = analyzeImages(data.htmlContent);
+            if (imageAnalysis.score === 100) {
+                score += 10;
+                details.push({ category: 'Images', score: 10, max: 10, status: 'excellent' });
+            } else if (imageAnalysis.score >= 75) {
+                score += 7;
+                details.push({ category: 'Images', score: 7, max: 10, status: 'good' });
+            } else if (imageAnalysis.score >= 50) {
+                score += 5;
+                details.push({ category: 'Images', score: 5, max: 10, status: 'fair' });
+            } else {
+                score += 2;
+                details.push({ category: 'Images', score: 2, max: 10, status: 'poor' });
+            }
+
+            // 5. Keyword optimization (15 points)
+            const keywordDensity = calculateKeywordDensity(data.textContent, data.focusKeyword);
+            if (keywordDensity >= 0.5 && keywordDensity <= 2.5 && data.title.toLowerCase().includes(data.focusKeyword)) {
+                score += 15;
+                details.push({ category: 'Keywords', score: 15, max: 15, status: 'excellent' });
+            } else if (data.focusKeyword && data.textContent.includes(data.focusKeyword)) {
+                score += 10;
+                details.push({ category: 'Keywords', score: 10, max: 15, status: 'good' });
+            } else {
+                score += 5;
+                details.push({ category: 'Keywords', score: 5, max: 15, status: 'fair' });
+            }
+
+            // 6. Sentence structure (10 points)
+            const sentences = data.textContent.split(/[.!?]+/).filter(s => s.trim().length > 0);
+            const avgSentenceLength = data.wordCount / sentences.length;
+            if (avgSentenceLength >= 15 && avgSentenceLength <= 25) {
+                score += 10;
+                details.push({ category: 'Sentences', score: 10, max: 10, status: 'excellent' });
+            } else if (avgSentenceLength >= 10 && avgSentenceLength <= 30) {
+                score += 7;
+                details.push({ category: 'Sentences', score: 7, max: 10, status: 'good' });
+            } else {
+                score += 4;
+                details.push({ category: 'Sentences', score: 4, max: 10, status: 'fair' });
+            }
+
+            // 7. Meta optimization (15 points)
+            if (data.metaTitle.length >= 50 && data.metaTitle.length <= 60 &&
+                data.metaDesc.length >= 150 && data.metaDesc.length <= 160) {
+                score += 15;
+                details.push({ category: 'Meta Tags', score: 15, max: 15, status: 'excellent' });
+            } else if (data.metaTitle && data.metaDesc) {
+                score += 10;
+                details.push({ category: 'Meta Tags', score: 10, max: 15, status: 'good' });
+            } else {
+                score += 5;
+                details.push({ category: 'Meta Tags', score: 5, max: 15, status: 'fair' });
+            }
+
+            return {
+                score: Math.min(maxScore, score),
+                grade: score >= 90 ? 'A' : score >= 80 ? 'B' : score >= 70 ? 'C' : score >= 60 ? 'D' : 'F',
+                details
+            };
+        }
+
+        // Update Advanced SEO Panels
+        function updateAdvancedSEOPanels(data) {
+            // Update Readability Score
+            const readability = calculateReadability(data.textContent);
+            const readabilityHTML = `
+                <div style="text-align: center; margin-bottom: 15px;">
+                    <div style="font-size: 36px; font-weight: 700; color: ${readability.score >= 60 ? '#10b981' : '#f59e0b'};">
+                        ${readability.score}
+                    </div>
+                    <div style="font-size: 12px; color: var(--gray-600); margin-top: 5px;">Flesch Reading Ease</div>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <strong>Level:</strong> ${readability.level}
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <strong>Grade Level:</strong> ${readability.gradeLevel}
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <strong>Avg Words/Sentence:</strong> ${readability.avgWordsPerSentence || 0}
+                </div>
+                <small style="color: var(--gray-600);">
+                    ${readability.score >= 60 ? '✅ Easy to read' : '⚠️ Consider simplifying sentences'}
+                </small>
+            `;
+            document.getElementById('readabilityScore').innerHTML = readabilityHTML;
+
+            // Update Content Quality Score
+            const quality = calculateContentQuality(data);
+            const qualityHTML = `
+                <div style="text-align: center; margin-bottom: 15px;">
+                    <div style="font-size: 36px; font-weight: 700; color: ${quality.grade === 'A' ? '#10b981' : quality.grade === 'B' ? '#3b82f6' : quality.grade === 'C' ? '#f59e0b' : '#ef4444'};">
+                        ${quality.score}/100
+                    </div>
+                    <div style="font-size: 24px; font-weight: 600; color: var(--gray-700); margin-top: 5px;">
+                        Grade: ${quality.grade}
+                    </div>
+                </div>
+                <div style="font-size: 12px;">
+                    ${quality.details.map(detail => `
+                        <div style="display: flex; justify-content: space-between; margin-bottom: 8px; padding-bottom: 8px; border-bottom: 1px solid var(--gray-200);">
+                            <span>${detail.category}</span>
+                            <span style="font-weight: 600; color: ${detail.status === 'excellent' ? '#10b981' : detail.status === 'good' ? '#3b82f6' : '#f59e0b'};">
+                                ${detail.score}/${detail.max}
+                            </span>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+            document.getElementById('qualityScore').innerHTML = qualityHTML;
+
+            // Update LSI Keywords
+            const lsiKeywords = extractLSIKeywords(data.textContent, data.focusKeyword);
+            const lsiHTML = lsiKeywords.length > 0 ? `
+                <div style="font-size: 13px;">
+                    ${lsiKeywords.slice(0, 8).map(keyword => `
+                        <div style="display: flex; justify-content: space-between; padding: 6px 0; border-bottom: 1px solid var(--gray-100);">
+                            <span style="color: var(--gray-700);">${keyword.word}</span>
+                            <span style="background: var(--gray-100); padding: 2px 8px; border-radius: 12px; font-size: 11px;">
+                                ${keyword.frequency}×
+                            </span>
+                        </div>
+                    `).join('')}
+                </div>
+                <small style="display: block; margin-top: 10px; color: var(--gray-600);">
+                    💡 Consider using these related terms naturally
+                </small>
+            ` : '<div style="color: var(--gray-500);">Add more content to see keyword suggestions</div>';
+            document.getElementById('lsiKeywords').innerHTML = lsiHTML;
+
+            // Update Heading Hierarchy
+            const headingAnalysis = validateHeadingHierarchy(data.htmlContent);
+            const headingHTML = `
+                <div style="margin-bottom: 15px;">
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <span>H1 Headings:</span>
+                        <span style="font-weight: 600; color: ${headingAnalysis.h1Count === 1 ? '#10b981' : '#ef4444'};">
+                            ${headingAnalysis.h1Count} ${headingAnalysis.h1Count === 1 ? '✅' : '❌'}
+                        </span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+                        <span>H2 Headings:</span>
+                        <span style="font-weight: 600; color: ${headingAnalysis.h2Count >= 2 ? '#10b981' : '#f59e0b'};">
+                            ${headingAnalysis.h2Count} ${headingAnalysis.h2Count >= 2 ? '✅' : '⚠️'}
+                        </span>
+                    </div>
+                    <div style="display: flex; justify-content: space-between;">
+                        <span>Total Headings:</span>
+                        <span style="font-weight: 600;">${headingAnalysis.totalHeadings}</span>
+                    </div>
+                </div>
+                ${headingAnalysis.issues.length > 0 ? `
+                    <div style="background: #fef2f2; border-left: 3px solid #ef4444; padding: 10px; margin: 10px 0; border-radius: 4px;">
+                        <strong style="color: #991b1b; display: block; margin-bottom: 5px;">Issues:</strong>
+                        ${headingAnalysis.issues.map(issue => `<div style="color: #991b1b; font-size: 12px;">• ${issue}</div>`).join('')}
+                    </div>
+                ` : ''}
+                ${headingAnalysis.recommendations.length > 0 ? `
+                    <div style="font-size: 12px; color: var(--gray-600); margin-top: 10px;">
+                        ${headingAnalysis.recommendations.map(rec => `<div>💡 ${rec}</div>`).join('')}
+                    </div>
+                ` : ''}
+            `;
+            document.getElementById('headingHierarchy').innerHTML = headingHTML;
+
+            // Update Image Analysis
+            const imageAnalysis = analyzeImages(data.htmlContent);
+            const imageHTML = `
+                <div style="text-align: center; margin-bottom: 15px;">
+                    <div style="font-size: 36px; font-weight: 700; color: ${imageAnalysis.score === 100 ? '#10b981' : imageAnalysis.score >= 75 ? '#3b82f6' : '#f59e0b'};">
+                        ${imageAnalysis.score}%
+                    </div>
+                    <div style="font-size: 12px; color: var(--gray-600); margin-top: 5px;">Images Optimized</div>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <strong>Total Images:</strong> ${imageAnalysis.totalImages}
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <strong>With Alt Text:</strong> <span style="color: #10b981;">${imageAnalysis.imagesWithAlt}</span>
+                </div>
+                <div style="margin-bottom: 10px;">
+                    <strong>Missing Alt:</strong> <span style="color: ${imageAnalysis.missingAlt > 0 ? '#ef4444' : '#10b981'};">${imageAnalysis.missingAlt}</span>
+                </div>
+                ${imageAnalysis.missingAlt > 0 ? `
+                    <div style="background: #fef2f2; border-left: 3px solid #ef4444; padding: 10px; margin-top: 10px; border-radius: 4px; font-size: 12px; color: #991b1b;">
+                        ⚠️ Add alt text to all images for accessibility and SEO
+                    </div>
+                ` : imageAnalysis.totalImages > 0 ? `
+                    <div style="background: #f0fdf4; border-left: 3px solid #10b981; padding: 10px; margin-top: 10px; border-radius: 4px; font-size: 12px; color: #166534;">
+                        ✅ All images have alt text!
+                    </div>
+                ` : `
+                    <div style="color: var(--gray-500); font-size: 12px; margin-top: 10px;">
+                        No images detected in content
+                    </div>
+                `}
+            `;
+            document.getElementById('imageAnalysis').innerHTML = imageHTML;
+
+            // Update Schema Markup
+            const postData = {
+                title: data.title,
+                metaTitle: data.metaTitle,
+                metaDescription: data.metaDesc,
+                focusKeyword: data.focusKeyword,
+                slug: data.slug,
+                featuredImage: document.getElementById('postFeaturedImage').value
+            };
+            const schemas = generateSchemaMarkup(postData, currentLanguage);
+            const schemaJSON = JSON.stringify(schemas, null, 2);
+            document.getElementById('schemaMarkup').textContent = schemaJSON;
+        }
+
+        // Copy Schema to Clipboard
+        function copySchemaToClipboard() {
+            const schemaText = document.getElementById('schemaMarkup').textContent;
+            navigator.clipboard.writeText(schemaText).then(() => {
+                showMessage('Schema markup copied to clipboard!', 'success');
+            }).catch(err => {
+                console.error('Failed to copy:', err);
+                showMessage('Failed to copy schema markup', 'error');
+            });
+        }
+
+        // ==================== END ADVANCED SEO ANALYSIS ====================
+
+        // ==================== END SEO OPTIMIZATION SYSTEM ====================
 
         // Setup event listeners
         function setupEventListeners() {
@@ -1395,6 +3482,9 @@ ${generatePDFSectionHTML()}
                     document.getElementById('modalPDFSize').value = formatFileSize(e.target.files[0].size);
                 }
             });
+
+            // Trigger SEO analysis on HTML editor changes
+            document.getElementById('htmlEditor').addEventListener('input', updateSEOAnalysis);
         }
 
         // Add CSS animation

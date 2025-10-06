@@ -90,9 +90,11 @@
             padding: 15px;
             margin-bottom: 10px;
             border-radius: 10px;
-            cursor: pointer;
             transition: all 0.3s;
             border: 2px solid transparent;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
 
         .theme-item:hover {
@@ -526,11 +528,11 @@
                 <h3 class="modal-title" id="modalTitle">Add New Image</h3>
             </div>
             <div class="modal-body">
-                <div class="form-group">
+                <div class="form-group" id="fileUploadGroup">
                     <label class="form-label">Image File</label>
                     <div class="file-upload-area" id="fileUploadArea">
                         <input type="file" id="imageFileInput" accept="image/*" style="display: none;">
-                        <div>🖼️ Click to upload or drag & drop</div>
+                        <div id="fileUploadText">🖼️ Click to upload or drag & drop</div>
                         <div id="fileName" style="margin-top: 10px; font-weight: 500;"></div>
                     </div>
                 </div>
@@ -584,7 +586,8 @@
     <div class="toast" id="toast"></div>
 
     <script>
-        const API_URL = 'http://localhost:3000';
+        // Use dynamic URL that works in all environments
+        const API_URL = window.location.origin;
         const languages = [
             { code: 'de', name: 'German', flag: '🇩🇪' },
             { code: 'fr', name: 'French', flag: '🇫🇷' },
@@ -603,6 +606,8 @@
         let currentData = {};
         let selectedItems = new Set();
         let pendingChanges = {};
+        let editingImage = null; // Track if we're editing an existing image
+        let editingTheme = null; // Track if we're editing an existing theme
 
         // Initialize
         document.addEventListener('DOMContentLoaded', function() {
@@ -674,7 +679,7 @@
             container.innerHTML = html;
         }
 
-        async function loadContent(type) {
+        async function loadContent(type, retryCount = 0) {
             currentType = type;
             currentTheme = null;
             selectedItems.clear();
@@ -684,12 +689,42 @@
             showLoading();
 
             try {
-                const response = await fetch(`${API_URL}${endpoint}`);
+                const response = await fetch(`${API_URL}${endpoint}?type=${type}`, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    credentials: 'include',
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
                 currentData = await response.json();
                 displayThemes();
+                hideError();
             } catch (error) {
-                showToast('Error loading content', 'error');
-                console.error('Error:', error);
+                console.error('Error loading content:', error);
+
+                // Check if offline
+                if (!navigator.onLine) {
+                    showError('You are offline. Please check your internet connection.', true);
+                    return;
+                }
+
+                // Retry logic (max 3 attempts)
+                if (retryCount < 2) {
+                    showToast(`Loading failed, retrying... (${retryCount + 1}/2)`, 'error');
+                    setTimeout(() => loadContent(type, retryCount + 1), 2000);
+                    return;
+                }
+
+                // Show persistent error after retries
+                showError(
+                    `Failed to load ${type}. ${error.message || 'Please try refreshing the page.'}`,
+                    true
+                );
             }
         }
 
@@ -713,9 +748,21 @@
             themes.forEach(theme => {
                 const imageCount = theme.images ? theme.images.length : 0;
                 html += `
-                    <div class="theme-item" data-theme="${theme.id}" onclick="selectTheme('${theme.id}')">
-                        <div class="theme-name">${theme.displayNames?.en || theme.name}</div>
-                        <div class="theme-count">${imageCount} images</div>
+                    <div class="theme-item" data-theme="${theme.id}">
+                        <div onclick="selectTheme('${theme.id}')" style="flex: 1; cursor: pointer;">
+                            <div class="theme-name">${theme.displayNames?.en || theme.name}</div>
+                            <div class="theme-count">${imageCount} images</div>
+                        </div>
+                        <div style="display: flex; gap: 5px; margin-left: 10px;">
+                            <button class="action-btn" onclick="event.stopPropagation(); editTheme('${theme.id}')"
+                                    style="padding: 5px 8px; font-size: 12px;" title="Edit theme">
+                                ✏️
+                            </button>
+                            <button class="action-btn btn-danger" onclick="event.stopPropagation(); deleteTheme('${theme.id}')"
+                                    style="padding: 5px 8px; font-size: 12px;" title="Delete theme">
+                                🗑️
+                            </button>
+                        </div>
                     </div>
                 `;
             });
@@ -887,10 +934,22 @@
                 const response = await fetch(`${API_URL}${endpoint}`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(currentData)
+                    body: JSON.stringify({ ...currentData, type: currentType })
                 });
 
                 if (response.ok) {
+                    const result = await response.json();
+
+                    // Update themes with database IDs if returned
+                    if (result.themes && Array.isArray(result.themes)) {
+                        result.themes.forEach(savedTheme => {
+                            const localTheme = currentData.themes.find(t => t.name === savedTheme.name || t.id === savedTheme.name);
+                            if (localTheme && savedTheme.dbId) {
+                                localTheme.dbId = savedTheme.dbId;
+                            }
+                        });
+                    }
+
                     pendingChanges = {};
                     showToast('All changes saved successfully!', 'success');
                     loadContent(currentType);
@@ -908,19 +967,155 @@
                 showToast('Please select a theme first', 'error');
                 return;
             }
+
+            // Clear editing state
+            editingImage = null;
+
+            // Clear form
+            document.getElementById('imageDisplayName').value = '';
+            document.getElementById('fileName').textContent = '';
+            document.getElementById('imageFileInput').value = '';
+            languages.forEach(lang => {
+                const input = document.getElementById(`trans_${lang.code}`);
+                if (input) input.value = '';
+            });
+
+            // Show file upload section
+            document.getElementById('fileUploadGroup').style.display = 'block';
+            document.getElementById('fileUploadText').textContent = '🖼️ Click to upload or drag & drop';
+
             document.getElementById('modalTitle').textContent = 'Add New Image';
             document.getElementById('imageModal').classList.add('active');
         }
 
         function addNewTheme() {
+            // Clear editing state
+            editingTheme = null;
+
+            // Clear form
+            document.getElementById('themeId').value = '';
+            document.getElementById('themeId').disabled = false; // Enable ID field for new themes
+            document.getElementById('themeDisplayName').value = '';
+            languages.forEach(lang => {
+                const input = document.getElementById(`theme_trans_${lang.code}`);
+                if (input) input.value = '';
+            });
+
+            // Update modal title and button
+            document.getElementById('themeModal').querySelector('.modal-title').textContent = 'Add New Theme';
+            document.getElementById('themeModal').querySelector('.btn-primary').textContent = 'Create Theme';
+
             document.getElementById('themeModal').classList.add('active');
+        }
+
+        function editTheme(themeId) {
+            const theme = currentData.themes.find(t => t.id === themeId);
+            if (!theme) {
+                showToast('Theme not found', 'error');
+                return;
+            }
+
+            // Set editing state
+            editingTheme = themeId;
+
+            // Fill form with existing data
+            document.getElementById('themeId').value = theme.name || theme.id;
+            document.getElementById('themeId').disabled = true; // Disable ID editing
+            document.getElementById('themeDisplayName').value = theme.displayNames?.en || theme.name || '';
+
+            // Fill translations
+            languages.forEach(lang => {
+                const input = document.getElementById(`theme_trans_${lang.code}`);
+                if (input) input.value = theme.displayNames?.[lang.code] || '';
+            });
+
+            // Update modal title and button
+            document.getElementById('themeModal').querySelector('.modal-title').textContent = 'Edit Theme';
+            document.getElementById('themeModal').querySelector('.btn-primary').textContent = 'Save Changes';
+
+            document.getElementById('themeModal').classList.add('active');
+        }
+
+        async function deleteTheme(themeId) {
+            const theme = currentData.themes.find(t => t.id === themeId);
+            if (!theme) {
+                showToast('Theme not found', 'error');
+                return;
+            }
+
+            const imageCount = theme?.images?.length || 0;
+
+            const confirmMessage = imageCount > 0
+                ? `Are you sure you want to delete theme "${theme.displayNames?.en || theme.name}" and all ${imageCount} images?`
+                : `Are you sure you want to delete theme "${theme.displayNames?.en || theme.name}"?`;
+
+            if (!confirm(confirmMessage)) {
+                return;
+            }
+
+            try {
+                showToast('Deleting theme...', 'success');
+
+                // Check if theme has database ID (UUID format)
+                const hasDbId = theme.dbId && theme.dbId.length > 20;
+
+                if (hasDbId) {
+                    // Theme exists in database - delete via API
+                    const endpoint = getEndpoint(currentType);
+                    const response = await fetch(`${API_URL}${endpoint}?themeId=${encodeURIComponent(theme.dbId)}`, {
+                        method: 'DELETE',
+                        headers: { 'Content-Type': 'application/json' },
+                        credentials: 'include',
+                    });
+
+                    if (!response.ok) {
+                        const error = await response.json();
+                        showToast(error.error || 'Failed to delete theme', 'error');
+                        return;
+                    }
+
+                    showToast('Theme deleted successfully!', 'success');
+                    // Reload content to reflect changes
+                    await loadContent(currentType);
+                } else {
+                    // Theme not yet saved to database - just remove from local data
+                    currentData.themes = currentData.themes.filter(t => t.id !== themeId);
+                    displayThemes();
+                    showToast('Theme removed (was not saved to database)', 'success');
+
+                    // If this was the current theme, clear selection
+                    if (currentTheme === themeId) {
+                        currentTheme = null;
+                        document.getElementById('contentGrid').innerHTML = `
+                            <div class="empty-state">
+                                <div style="font-size: 64px; margin-bottom: 20px;">📁</div>
+                                <h2 style="color: #2d3748; margin-bottom: 10px;">Select a Theme</h2>
+                                <p style="color: #718096;">Choose a theme from the left sidebar to manage its images</p>
+                            </div>
+                        `;
+                    }
+                }
+            } catch (error) {
+                console.error('Error deleting theme:', error);
+                showToast('Error deleting theme', 'error');
+            }
         }
 
         function editImage(themeId, index) {
             const theme = currentData.themes.find(t => t.id === themeId);
             const image = theme.images[index];
 
-            document.getElementById('modalTitle').textContent = 'Edit Image';
+            // Set editing state
+            editingImage = {
+                themeId: themeId,
+                index: index,
+                filename: image.filename
+            };
+
+            // Hide file upload section (not needed for editing translations)
+            document.getElementById('fileUploadGroup').style.display = 'none';
+
+            document.getElementById('modalTitle').textContent = 'Edit Image Translations';
             document.getElementById('imageDisplayName').value = image.displayName || '';
 
             // Fill translations
@@ -942,36 +1137,255 @@
         }
 
         function deleteSelected() {
-            if (confirm(`Are you sure you want to delete ${selectedItems.size} items?`)) {
-                // Implementation for batch delete
-                selectedItems.clear();
-                updateBatchActions();
-                showToast('Items deleted - click Save to apply', 'success');
+            if (!confirm(`Are you sure you want to delete ${selectedItems.size} image(s)?`)) {
+                return;
             }
+
+            // Group selections by theme for batch deletion
+            const deletionsByTheme = {};
+
+            // Parse selected IDs (format: "themeid_index")
+            selectedItems.forEach(imgId => {
+                const parts = imgId.split('_');
+                const themeId = parts.slice(0, -1).join('_'); // Handle theme IDs with underscores
+                const index = parseInt(parts[parts.length - 1]);
+
+                if (!deletionsByTheme[themeId]) {
+                    deletionsByTheme[themeId] = [];
+                }
+                deletionsByTheme[themeId].push(index);
+            });
+
+            // Delete images from each theme (in reverse order to avoid index shifts)
+            Object.keys(deletionsByTheme).forEach(themeId => {
+                const theme = currentData.themes.find(t => t.id === themeId);
+                if (theme && theme.images) {
+                    // Sort indices in descending order
+                    const indicesToDelete = deletionsByTheme[themeId].sort((a, b) => b - a);
+
+                    // Delete in reverse order
+                    indicesToDelete.forEach(index => {
+                        theme.images.splice(index, 1);
+                    });
+                }
+            });
+
+            // Clear selection
+            selectedItems.clear();
+            updateBatchActions();
+
+            // Refresh display
+            if (currentTheme) {
+                const theme = currentData.themes.find(t => t.id === currentTheme);
+                if (theme) {
+                    displayThemeContent(theme);
+                }
+            }
+
+            showToast(`${Object.values(deletionsByTheme).reduce((a, b) => a + b.length, 0)} image(s) deleted - click Save All to apply`, 'success');
         }
 
         function handleFileSelect(e) {
             const file = e.dataTransfer ? e.dataTransfer.files[0] : e.target.files[0];
-            if (file) {
-                document.getElementById('fileName').textContent = file.name;
+            if (!file) return;
+
+            // Validate file size (5MB max)
+            const maxSize = 5 * 1024 * 1024; // 5MB
+            if (file.size > maxSize) {
+                showToast(`File too large! Max size: 5MB. Your file: ${(file.size / 1024 / 1024).toFixed(2)}MB`, 'error');
+                document.getElementById('imageFileInput').value = '';
+                return;
             }
+
+            // Validate file type
+            const validTypes = ['image/jpeg', 'image/jpg', 'image/png', 'image/svg+xml', 'image/webp'];
+            if (!validTypes.includes(file.type)) {
+                showToast('Invalid file type! Allowed: JPG, PNG, SVG, WebP', 'error');
+                document.getElementById('imageFileInput').value = '';
+                return;
+            }
+
+            // Show file name
+            document.getElementById('fileName').textContent = `✓ ${file.name} (${(file.size / 1024).toFixed(1)}KB)`;
+            document.getElementById('fileName').style.color = '#48bb78';
         }
 
         function closeModal() {
             document.getElementById('imageModal').classList.remove('active');
+            editingImage = null; // Clear editing state
         }
 
         function closeThemeModal() {
             document.getElementById('themeModal').classList.remove('active');
+            editingTheme = null; // Clear editing state
         }
 
-        function saveImage() {
-            // Implementation for saving image
-            closeModal();
-            showToast('Image saved - click Save All to apply', 'success');
+        async function updateImageTranslations() {
+            const displayName = document.getElementById('imageDisplayName').value;
+
+            if (!displayName) {
+                showToast('Please enter a display name', 'error');
+                return;
+            }
+
+            // Collect translations
+            const translations = { en: displayName };
+            languages.forEach(lang => {
+                const input = document.getElementById(`trans_${lang.code}`);
+                if (input && input.value) {
+                    translations[lang.code] = input.value;
+                }
+            });
+
+            // Update the image in currentData
+            const theme = currentData.themes.find(t => t.id === editingImage.themeId);
+            if (theme && theme.images[editingImage.index]) {
+                theme.images[editingImage.index].displayName = displayName;
+                theme.images[editingImage.index].translations = translations;
+
+                // Save changes via API
+                try {
+                    showToast('Saving changes...', 'success');
+
+                    const endpoint = getEndpoint(currentType);
+                    const response = await fetch(`${API_URL}${endpoint}`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        credentials: 'include',
+                        body: JSON.stringify({
+                            type: currentType,
+                            themes: currentData.themes
+                        })
+                    });
+
+                    if (response.ok) {
+                        showToast('Translations updated successfully!', 'success');
+                        closeModal();
+
+                        // Reload to show updated data
+                        await loadContent(currentType);
+                        if (currentTheme) {
+                            selectTheme(currentTheme);
+                        }
+                    } else {
+                        const error = await response.json();
+                        showToast(error.error || 'Failed to update', 'error');
+                    }
+                } catch (error) {
+                    console.error('Update error:', error);
+                    showToast('Failed to update translations', 'error');
+                }
+            }
         }
 
-        function saveTheme() {
+        async function saveImage() {
+            const fileInput = document.getElementById('imageFileInput');
+            const file = fileInput.files[0];
+            const displayName = document.getElementById('imageDisplayName').value;
+
+            // If editing existing image (no file upload needed)
+            if (editingImage) {
+                await updateImageTranslations();
+                return;
+            }
+
+            // For new images, file is required
+            if (!file) {
+                showToast('Please select a file', 'error');
+                return;
+            }
+
+            if (!currentTheme) {
+                showToast('Please select a theme first', 'error');
+                return;
+            }
+
+            if (!displayName) {
+                showToast('Please enter a display name', 'error');
+                return;
+            }
+
+            // Collect translations
+            const translations = { en: displayName };
+            languages.forEach(lang => {
+                const input = document.getElementById(`trans_${lang.code}`);
+                if (input && input.value) {
+                    translations[lang.code] = input.value;
+                }
+            });
+
+            // Prepare form data for upload
+            const formData = new FormData();
+            formData.append('files', file);
+
+            // Get the theme database ID from currentTheme
+            const theme = currentData.themes.find(t => t.id === currentTheme);
+            if (!theme) {
+                showToast('Theme not found', 'error');
+                return;
+            }
+
+            // Use theme name as themeId for the upload endpoint
+            formData.append('themeId', currentTheme);
+            formData.append('translations', JSON.stringify({ [file.name]: translations }));
+
+            try {
+                // Show uploading state
+                showToast('Uploading image...', 'success');
+
+                // Get upload endpoint based on current type
+                const uploadEndpoints = {
+                    'images': '/api/admin/images/upload',
+                    'borders': '/api/admin/borders/upload',
+                    'backgrounds': '/api/admin/backgrounds/upload',
+                    'train': '/api/admin/train-templates/upload',
+                    'worksheet': '/api/admin/worksheet-templates/upload'
+                };
+                const uploadEndpoint = uploadEndpoints[currentType] || '/api/admin/images/upload';
+
+                const response = await fetch(`${API_URL}${uploadEndpoint}`, {
+                    method: 'POST',
+                    body: formData,
+                    credentials: 'include',
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    showToast(`Successfully uploaded ${result.images?.length || 1} image(s)!`, 'success');
+
+                    // Clear form
+                    fileInput.value = '';
+                    document.getElementById('imageDisplayName').value = '';
+                    document.getElementById('fileName').textContent = '';
+                    languages.forEach(lang => {
+                        const input = document.getElementById(`trans_${lang.code}`);
+                        if (input) input.value = '';
+                    });
+
+                    // Close modal
+                    closeModal();
+
+                    // Reload content to show new image
+                    await loadContent(currentType);
+
+                    // Re-select the current theme
+                    if (currentTheme) {
+                        selectTheme(currentTheme);
+                    }
+                } else {
+                    const error = await response.json();
+                    showToast(error.error || 'Upload failed', 'error');
+                    console.error('Upload error:', error);
+                }
+            } catch (error) {
+                console.error('Upload error:', error);
+                showToast('Upload failed. Check console for details.', 'error');
+            }
+        }
+
+        async function saveTheme() {
             const themeId = document.getElementById('themeId').value;
             const displayName = document.getElementById('themeDisplayName').value;
 
@@ -980,27 +1394,123 @@
                 return;
             }
 
-            const newTheme = {
-                id: themeId,
-                name: themeId,
-                displayNames: { en: displayName },
-                active: true,
-                sortOrder: currentData.themes.length + 1,
-                images: []
-            };
+            if (editingTheme) {
+                // EDITING existing theme - save immediately to database
+                const theme = currentData.themes.find(t => t.id === editingTheme);
+                if (theme) {
+                    // Update display names
+                    theme.displayNames = { en: displayName };
 
-            // Add translations
-            languages.forEach(lang => {
-                const input = document.getElementById(`theme_trans_${lang.code}`);
-                if (input && input.value) {
-                    newTheme.displayNames[lang.code] = input.value;
+                    // Update translations
+                    languages.forEach(lang => {
+                        const input = document.getElementById(`theme_trans_${lang.code}`);
+                        if (input && input.value) {
+                            theme.displayNames[lang.code] = input.value;
+                        }
+                    });
+
+                    // Save immediately to database
+                    const endpoint = getEndpoint(currentType);
+
+                    try {
+                        showToast('Saving theme changes...', 'success');
+
+                        const response = await fetch(`${API_URL}${endpoint}`, {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            credentials: 'include',
+                            body: JSON.stringify({ ...currentData, type: currentType })
+                        });
+
+                        if (response.ok) {
+                            showToast('Theme updated successfully!', 'success');
+                            closeThemeModal();
+
+                            // Reload to reflect changes
+                            await loadContent(currentType);
+
+                            // Re-select the edited theme
+                            if (currentTheme === editingTheme) {
+                                selectTheme(editingTheme);
+                            }
+
+                            editingTheme = null;
+                        } else {
+                            const error = await response.json();
+                            showToast(error.error || 'Failed to update theme', 'error');
+                        }
+                    } catch (error) {
+                        console.error('Error updating theme:', error);
+                        showToast('Error updating theme', 'error');
+                    }
                 }
-            });
+            } else {
+                // CREATING new theme - save immediately to database
+                const newTheme = {
+                    id: themeId,
+                    name: themeId,
+                    displayNames: { en: displayName },
+                    active: true,
+                    sortOrder: currentData.themes.length + 1,
+                    images: []
+                };
 
-            currentData.themes.push(newTheme);
-            displayThemes();
-            closeThemeModal();
-            showToast('Theme created - click Save to apply', 'success');
+                // Add translations
+                languages.forEach(lang => {
+                    const input = document.getElementById(`theme_trans_${lang.code}`);
+                    if (input && input.value) {
+                        newTheme.displayNames[lang.code] = input.value;
+                    }
+                });
+
+                // Add to local data first
+                currentData.themes.push(newTheme);
+
+                // Save immediately to database
+                const endpoint = getEndpoint(currentType);
+
+                try {
+                    showToast('Creating theme...', 'success');
+
+                    const response = await fetch(`${API_URL}${endpoint}`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        credentials: 'include',
+                        body: JSON.stringify({ ...currentData, type: currentType })
+                    });
+
+                    if (response.ok) {
+                        const result = await response.json();
+
+                        // Update theme with database ID if returned
+                        if (result.themes && Array.isArray(result.themes)) {
+                            const savedTheme = result.themes.find(t => t.name === themeId);
+                            if (savedTheme && savedTheme.dbId) {
+                                newTheme.dbId = savedTheme.dbId;
+                            }
+                        }
+
+                        showToast('Theme created successfully!', 'success');
+                        closeThemeModal();
+
+                        // Reload to reflect changes
+                        await loadContent(currentType);
+
+                        // Auto-select the new theme
+                        selectTheme(themeId);
+                    } else {
+                        // Remove from local data if save failed
+                        currentData.themes = currentData.themes.filter(t => t.id !== themeId);
+                        const error = await response.json();
+                        showToast(error.error || 'Failed to create theme', 'error');
+                    }
+                } catch (error) {
+                    // Remove from local data if save failed
+                    currentData.themes = currentData.themes.filter(t => t.id !== themeId);
+                    console.error('Error creating theme:', error);
+                    showToast('Error creating theme', 'error');
+                }
+            }
         }
 
         function showToast(message, type = 'success') {
@@ -1014,8 +1524,54 @@
         }
 
         function showLoading() {
-            document.getElementById('contentGrid').innerHTML = '<div class="loading">Wird geladen...</div>';
+            document.getElementById('contentGrid').innerHTML = `
+                <div class="loading">
+                    <div style="font-size: 48px; margin-bottom: 20px;">⏳</div>
+                    <div style="font-size: 18px;">Loading content...</div>
+                </div>
+            `;
         }
+
+        function showError(message, persistent = false) {
+            const grid = document.getElementById('contentGrid');
+            grid.innerHTML = `
+                <div class="empty-state">
+                    <div style="font-size: 64px; margin-bottom: 20px; color: #f56565;">⚠️</div>
+                    <h2 style="color: #2d3748; margin-bottom: 10px;">Error</h2>
+                    <p style="color: #718096; margin-bottom: 20px;">${message}</p>
+                    ${persistent ? `
+                        <button class="action-btn btn-primary" onclick="location.reload()" style="margin-right: 10px;">
+                            🔄 Refresh Page
+                        </button>
+                        <button class="action-btn" onclick="loadContent(currentType)">
+                            🔁 Retry
+                        </button>
+                    ` : ''}
+                </div>
+            `;
+        }
+
+        function hideError() {
+            // Error is hidden when content loads successfully
+        }
+
+        // Online/Offline detection
+        window.addEventListener('online', () => {
+            showToast('✓ Back online', 'success');
+            if (currentType) {
+                loadContent(currentType);
+            }
+        });
+
+        window.addEventListener('offline', () => {
+            showToast('⚠ You are offline', 'error');
+        });
+
+        // Global error handler
+        window.addEventListener('unhandledrejection', (event) => {
+            console.error('Unhandled promise rejection:', event.reason);
+            showToast('An unexpected error occurred', 'error');
+        });
     </script>
 </body>
 </html>

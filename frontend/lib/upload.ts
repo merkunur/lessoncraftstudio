@@ -9,6 +9,7 @@ export const STORAGE_PATHS = {
   backgrounds: path.join(process.cwd(), 'public', 'images', 'backgrounds'),
   trainTemplates: path.join(process.cwd(), 'public', 'images', 'train-templates'),
   worksheetTemplates: path.join(process.cwd(), 'public', 'images', 'worksheet-templates'),
+  blog: path.join(process.cwd(), 'public', 'blog', 'images'),
   blogPdfs: path.join(process.cwd(), 'public', 'blog', 'pdfs'),
   blogThumbnails: path.join(process.cwd(), 'public', 'blog', 'thumbnails'),
 };

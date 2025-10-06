@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { prisma } from '@/lib/prisma';
+import { generateBlogSchemas } from '@/lib/schema-generator';
 
 interface BlogPostPageProps {
   params: {
@@ -112,9 +113,32 @@ export default async function BlogPostPage({
     bodyContent = bodyContent.replace(headerContent, '');
   }
 
+  // Generate SEO Schema Markup (AUTOMATED)
+  const schemas = generateBlogSchemas({
+    slug: post.slug,
+    title: translation.title || '',
+    metaTitle: translation.metaTitle,
+    metaDescription: translation.metaDescription,
+    excerpt: translation.excerpt,
+    content: htmlContent,
+    featuredImage: post.featuredImage,
+    focusKeyword: translation.focusKeyword,
+    keywords: post.keywords,
+    category: post.category,
+    author: translation.author,
+    createdAt: post.createdAt,
+    updatedAt: post.updatedAt
+  }, locale);
+
   // Render the extracted content with inline styles, PDFs after header, and related posts before footer
   return (
     <>
+      {/* AUTOMATED: Schema Markup Injection for Rich Snippets */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
+      />
+
       <div dangerouslySetInnerHTML={{ __html: styles }} />
 
       {/* Header/Navigation */}
@@ -346,9 +370,10 @@ export default async function BlogPostPage({
   );
 }
 
-// Metadata generation
+// Metadata generation (ENHANCED WITH AUTOMATED SEO)
 export async function generateMetadata({ params }: BlogPostPageProps) {
   const { locale, slug } = params;
+  const baseUrl = 'https://lessoncraftstudio.com';
 
   try {
     const post = await getBlogPost(slug);
@@ -365,39 +390,77 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     const title = translation.metaTitle || translation.title || slug.replace(/-/g, ' ');
     const description = translation.metaDescription || translation.excerpt || '';
     const keywords = post.keywords?.join(', ') || '';
+    const canonicalUrl = `${baseUrl}/${locale}/blog/${slug}`;
 
     return {
       title,
       description,
       keywords,
+      // AUTOMATED: Canonical URL (prevents duplicate content penalties)
+      alternates: {
+        canonical: canonicalUrl,
+        languages: {
+          'en': `${baseUrl}/en/blog/${slug}`,
+          'de': `${baseUrl}/de/blog/${slug}`,
+          'fr': `${baseUrl}/fr/blog/${slug}`,
+          'es': `${baseUrl}/es/blog/${slug}`,
+          'pt': `${baseUrl}/pt/blog/${slug}`,
+          'it': `${baseUrl}/it/blog/${slug}`,
+          'nl': `${baseUrl}/nl/blog/${slug}`,
+          'sv': `${baseUrl}/sv/blog/${slug}`,
+          'da': `${baseUrl}/da/blog/${slug}`,
+          'no': `${baseUrl}/no/blog/${slug}`,
+          'fi': `${baseUrl}/fi/blog/${slug}`,
+        }
+      },
+      // AUTOMATED: Open Graph tags (Facebook, LinkedIn, etc.)
       openGraph: {
         title,
         description,
         type: 'article',
-        url: `https://lessoncraftstudio.com/${locale}/blog/${slug}`,
+        url: canonicalUrl,
         siteName: 'LessonCraftStudio',
         locale,
-        images: post.featuredImage ? [post.featuredImage] : [],
+        // AUTOMATED: Article dates (content freshness signal)
+        publishedTime: post.createdAt.toISOString(),
+        modifiedTime: post.updatedAt.toISOString(),
+        authors: [translation.author || 'LessonCraftStudio'],
+        section: post.category || 'Education',
+        tags: post.keywords || [],
+        images: post.featuredImage ? [{
+          url: `${baseUrl}${post.featuredImage}`,
+          width: 1200,
+          height: 630,
+          alt: title
+        }] : [],
       },
+      // AUTOMATED: Twitter Card tags
       twitter: {
         card: 'summary_large_image',
         title,
         description,
+        images: post.featuredImage ? [`${baseUrl}${post.featuredImage}`] : [],
+        creator: '@LessonCraftStudio', // TODO: Replace with actual Twitter handle
       },
-      alternates: {
-        languages: {
-          'en': `/en/blog/${slug}`,
-          'de': `/de/blog/${slug}`,
-          'fr': `/fr/blog/${slug}`,
-          'es': `/es/blog/${slug}`,
-          'pt': `/pt/blog/${slug}`,
-          'it': `/it/blog/${slug}`,
-          'nl': `/nl/blog/${slug}`,
-          'sv': `/sv/blog/${slug}`,
-          'da': `/da/blog/${slug}`,
-          'no': `/no/blog/${slug}`,
-          'fi': `/fi/blog/${slug}`,
-        }
+      // AUTOMATED: Robots directives
+      robots: {
+        index: true,
+        follow: true,
+        googleBot: {
+          index: true,
+          follow: true,
+          'max-video-preview': -1,
+          'max-image-preview': 'large',
+          'max-snippet': -1,
+        },
+      },
+      // AUTOMATED: Additional meta tags
+      other: {
+        'article:author': translation.author || 'LessonCraftStudio',
+        'article:published_time': post.createdAt.toISOString(),
+        'article:modified_time': post.updatedAt.toISOString(),
+        'article:section': post.category || 'Education',
+        'article:tag': post.keywords?.join(',') || '',
       }
     };
   } catch (error) {

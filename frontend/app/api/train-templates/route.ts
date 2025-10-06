@@ -7,21 +7,30 @@ export async function GET(request: NextRequest) {
   const locale = searchParams.get('locale') || 'en';
 
   try {
-    // Use filesystem fallback directly for instant response
-    const trainTemplateDir = path.join(process.cwd(), 'public', 'images', 'template', 'train');
+    // Read metadata file
+    const metadataPath = path.join(process.cwd(), 'public', 'data', 'train-templates-metadata.json');
 
     let templates: any[] = [];
 
-    if (fs.existsSync(trainTemplateDir)) {
-      const files = fs.readdirSync(trainTemplateDir);
-      templates = files
-        .filter(file => /\.(png|jpe?g|gif|svg)$/i.test(file))
-        .map(file => ({
-          path: `/images/template/train/${file}`,
-          url: `/images/template/train/${file}`,
-          name: path.basename(file, path.extname(file)).replace(/[-_]/g, ' '),
-          theme: 'train'
-        }));
+    if (fs.existsSync(metadataPath)) {
+      const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf-8'));
+
+      // Extract all images from all themes
+      if (metadata.themes && Array.isArray(metadata.themes)) {
+        templates = metadata.themes.flatMap((theme: any) => {
+          if (!theme.images || !Array.isArray(theme.images)) {
+            return [];
+          }
+
+          return theme.images.map((img: any) => ({
+            path: img.path,
+            url: img.path,
+            name: img.translations?.[locale] || img.displayName || img.filename,
+            theme: theme.name,
+            themeName: theme.displayNames?.[locale] || theme.name
+          }));
+        });
+      }
     }
 
     return NextResponse.json(templates, {

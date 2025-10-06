@@ -72,25 +72,80 @@ export default function BlogPageClient({ locale, translations: t }: BlogPageClie
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const [loading, setLoading] = useState(true);
+  const [categories, setCategories] = useState<Array<{id: string; label: string}>>([]);
+  const [categoryMap, setCategoryMap] = useState<Record<string, string>>({});
+  const [categoryIdToLabel, setCategoryIdToLabel] = useState<Record<string, string>>({});
 
-  // Get translated categories
-  const categories = [
-    t.categories.all,
-    t.categories.worksheetTips,
-    t.categories.teachingResources,
-    t.categories.educationalActivities,
-    t.categories.learningStrategies,
-    t.categories.curriculumGuides,
-    t.categories.parentResources,
-    t.categories.seasonalContent
-  ];
-
-  // Set default category after translations load
+  // Fetch categories from API
   useEffect(() => {
-    if (!selectedCategory && categories.length > 0) {
-      setSelectedCategory(categories[0]);
-    }
-  }, [categories]);
+    const fetchCategories = async () => {
+      try {
+        const response = await fetch(`/api/blog/categories?locale=${locale}`);
+        if (response.ok) {
+          const data = await response.json();
+          // Add "All" category at the beginning
+          const allCategories = [
+            { id: 'all', label: t.categories.all },
+            ...data.categories
+          ];
+          setCategories(allCategories);
+
+          // Build category map: label -> id
+          const map: Record<string, string> = {};
+          allCategories.forEach(cat => {
+            map[cat.label] = cat.id;
+          });
+          setCategoryMap(map);
+
+          // Build reverse map: id -> label (for displaying category names)
+          const idToLabelMap: Record<string, string> = {};
+          allCategories.forEach(cat => {
+            idToLabelMap[cat.id] = cat.label;
+          });
+          setCategoryIdToLabel(idToLabelMap);
+
+          // Set default selected category
+          if (!selectedCategory && allCategories.length > 0) {
+            setSelectedCategory(allCategories[0].label);
+          }
+        }
+      } catch (error) {
+        console.error('Error fetching categories:', error);
+        // Fallback to hardcoded categories if API fails
+        const fallbackCategories = [
+          { id: 'all', label: t.categories.all },
+          { id: 'worksheet-tips', label: t.categories.worksheetTips },
+          { id: 'teaching-resources', label: t.categories.teachingResources },
+          { id: 'educational-activities', label: t.categories.educationalActivities },
+          { id: 'learning-strategies', label: t.categories.learningStrategies },
+          { id: 'curriculum-guides', label: t.categories.curriculumGuides },
+          { id: 'parent-resources', label: t.categories.parentResources },
+          { id: 'seasonal-content', label: t.categories.seasonalContent }
+        ];
+        setCategories(fallbackCategories);
+
+        const map: Record<string, string> = {};
+        fallbackCategories.forEach(cat => {
+          map[cat.label] = cat.id;
+        });
+        setCategoryMap(map);
+
+        // Build reverse map: id -> label (for displaying category names)
+        const idToLabelMap: Record<string, string> = {};
+        fallbackCategories.forEach(cat => {
+          idToLabelMap[cat.id] = cat.label;
+        });
+        setCategoryIdToLabel(idToLabelMap);
+
+        if (!selectedCategory && fallbackCategories.length > 0) {
+          setSelectedCategory(fallbackCategories[0].label);
+        }
+      }
+    };
+
+    fetchCategories();
+  }, [locale]);
+
 
   // Fetch blog posts from API
   useEffect(() => {
@@ -119,16 +174,18 @@ export default function BlogPageClient({ locale, translations: t }: BlogPageClie
 
   // Filter by category
   useEffect(() => {
-    if (selectedCategory === t.categories.all) {
+    const categoryId = categoryMap[selectedCategory];
+
+    if (categoryId === 'all' || selectedCategory === t.categories.all) {
       setFilteredPosts(blogPosts);
     } else {
       const filtered = blogPosts.filter(
-        post => post.category === selectedCategory
+        post => post.category === categoryId
       );
       setFilteredPosts(filtered);
     }
     setCurrentPage(1); // Reset to first page when category changes
-  }, [selectedCategory, blogPosts, t.categories.all]);
+  }, [selectedCategory, blogPosts, categoryMap, t.categories.all]);
 
   // Calculate pagination
   useEffect(() => {
@@ -201,15 +258,15 @@ export default function BlogPageClient({ locale, translations: t }: BlogPageClie
           <div className="flex items-center gap-4 py-4 overflow-x-auto">
             {categories.map((category) => (
               <button
-                key={category}
-                onClick={() => setSelectedCategory(category)}
+                key={category.id}
+                onClick={() => setSelectedCategory(category.label)}
                 className={`px-4 py-2 rounded-full text-sm font-medium whitespace-nowrap transition-colors ${
-                  category === selectedCategory
+                  category.label === selectedCategory
                     ? 'bg-primary text-white'
                     : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                 }`}
               >
-                {category}
+                {category.label}
               </button>
             ))}
           </div>
@@ -288,7 +345,7 @@ export default function BlogPageClient({ locale, translations: t }: BlogPageClie
                       <div className="p-6">
                         <div className="flex items-center gap-4 text-sm text-gray-500 mb-3">
                           <span className="bg-primary-50 text-primary-700 px-2 py-1 rounded-full text-xs font-medium">
-                            {post.category}
+                            {categoryIdToLabel[post.category] || post.category}
                           </span>
                           <span>{post.readTime}</span>
                         </div>

@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 import { getTranslatedThemeName } from '../multilingual-images/translations';
+import { prisma } from '@/lib/prisma';
 
 // Use Docker service name when running in container, localhost for local dev
 const DIRECTUS_URL = process.env.DIRECTUS_URL || 'http://lcs-directus:8055';
@@ -114,8 +115,36 @@ const themeTranslations: Record<string, Record<string, string>> = {
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const locale = searchParams.get('locale') || 'en';
-  
-  // ALWAYS try Directus first for dynamic updates
+
+  // ALWAYS try PostgreSQL database first (primary source - managed by content manager)
+  try {
+    const dbThemes = await prisma.imageTheme.findMany({
+      where: { type: 'images' },
+      orderBy: { sortOrder: 'asc' }
+    });
+
+    if (dbThemes && dbThemes.length > 0) {
+      const themes = dbThemes.map(theme => {
+        const displayNames = theme.displayNames as Record<string, string>;
+        return {
+          value: theme.name,
+          displayName: displayNames?.[locale] || displayNames?.['en'] || theme.name
+        };
+      });
+
+      themes.sort((a: any, b: any) => a.displayName.localeCompare(b.displayName, locale));
+      return NextResponse.json(themes, {
+        headers: {
+          'Content-Type': 'application/json; charset=utf-8',
+          'Cache-Control': 'no-cache, no-store, must-revalidate', // No cache for fresh data
+        }
+      });
+    }
+  } catch (error) {
+    console.log('PostgreSQL database not available, trying Directus...');
+  }
+
+  // Try Directus as secondary source
   try {
     const response = await fetch(
       `${DIRECTUS_URL}/items/image_themes?` + new URLSearchParams({

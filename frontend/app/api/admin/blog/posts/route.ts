@@ -82,15 +82,15 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Validate translations has all required languages
-    const requiredLanguages = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'no', 'da'];
-    const missingLanguages = requiredLanguages.filter(lang => !translations[lang]);
-    if (missingLanguages.length > 0) {
+    // Validate translations - only English is required
+    if (!translations.en) {
       return NextResponse.json(
-        { error: `Missing translations for: ${missingLanguages.join(', ')}` },
+        { error: 'English translation is required' },
         { status: 400 }
       );
     }
+
+    // Do NOT auto-fill missing translations - only save what the user provides
 
     const post = await prisma.blogPost.create({
       data: {
@@ -109,10 +109,15 @@ export async function POST(request: NextRequest) {
     });
 
     return NextResponse.json({ post }, { status: 201 });
-  } catch (error) {
-    console.error('Failed to create blog post:', error);
+  } catch (error: any) {
+    console.error('===== BLOG POST CREATION ERROR =====');
+    console.error('Error message:', error.message);
+    console.error('Error stack:', error.stack);
+    console.error('Error code:', error.code);
+    console.error('Full error:', JSON.stringify(error, null, 2));
+    console.error('====================================');
     return NextResponse.json(
-      { error: 'Failed to create blog post' },
+      { error: 'Failed to create blog post', details: error.message },
       { status: 500 }
     );
   }

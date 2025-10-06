@@ -18,11 +18,18 @@ export async function GET(request: NextRequest) {
       }
 
       const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf-8'));
-      const templates = metadata.templates.map(template => ({
-        path: template.path,
-        url: template.path,
-        name: template.translations?.[locale] || template.translations?.['en'] || template.displayName || template.name
-      }));
+
+      // Extract all images from all themes
+      const templates = metadata.themes?.flatMap((theme: any) => {
+        if (!theme.images || !Array.isArray(theme.images)) {
+          return [];
+        }
+        return theme.images.map((img: any) => ({
+          path: img.path,
+          url: img.path,
+          name: img.translations?.[locale] || img.translations?.['en'] || img.displayName || img.filename
+        }));
+      }) || [];
 
       console.log(`Train templates for ${appType}, locale=${locale}:`, templates.length);
       return NextResponse.json(templates);
@@ -36,12 +43,19 @@ export async function GET(request: NextRequest) {
       }
 
       const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf-8'));
-      const templates = metadata.templates.map(template => ({
-        path: template.path,
-        url: template.path,
-        name: template.translations?.[locale] || template.translations?.['en'] || template.displayName || template.name,
-        displayName: template.translations?.[locale] || template.translations?.['en'] || template.displayName || template.name
-      }));
+
+      // Extract all images from all themes
+      const templates = metadata.themes?.flatMap((theme: any) => {
+        if (!theme.images || !Array.isArray(theme.images)) {
+          return [];
+        }
+        return theme.images.map((img: any) => ({
+          path: img.path,
+          url: img.path,
+          name: img.translations?.[locale] || img.translations?.['en'] || img.displayName || img.filename,
+          displayName: img.translations?.[locale] || img.translations?.['en'] || img.displayName || img.filename
+        }));
+      }) || [];
 
       console.log(`Worksheet templates for ${appType}, locale=${locale}:`, templates.length);
       return NextResponse.json({ templates });

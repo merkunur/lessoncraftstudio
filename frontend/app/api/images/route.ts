@@ -1,22 +1,22 @@
 import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { PrismaClient } from '@prisma/client';
+
+const prisma = new PrismaClient();
 
 /**
- * Image Library API Route - Filesystem-Based
+ * Image Library API Route - Database-First with Filesystem Fallback
  *
- * This route serves images from the filesystem (/public/images/).
+ * This route serves images with translations from:
+ * 1. PRIMARY: PostgreSQL database (managed via content manager)
+ * 2. FALLBACK: Filesystem translations.json files (legacy)
+ *
  * It supports:
  * - Theme-based filtering (?theme=animals)
  * - Search functionality (?search=cat)
  * - Multi-language translations (?locale=sv)
  * - Pagination
- *
- * Architecture Decision: Using filesystem as primary source because:
- * 1. All image data exists in /public/images/
- * 2. No database running in development
- * 3. Consistent with /api/borders and /api/backgrounds routes
- * 4. Fast and reliable
  */
 
 // Folders to exclude from image themes
@@ -128,6 +128,50 @@ function getAllThemes(): string[] {
     .map(file => file.name);
 }
 
+/**
+ * Load images from database (primary source)
+ */
+async function getImagesFromDatabase(themeName: string | null, locale: string): Promise<any[]> {
+  try {
+    const whereClause: any = { type: 'images' };
+    if (themeName && themeName !== 'all') {
+      whereClause.name = themeName;
+    }
+
+    const themes = await prisma.imageTheme.findMany({
+      where: whereClause,
+      include: {
+        images: {
+          orderBy: { sortOrder: 'asc' }
+        }
+      },
+      orderBy: { sortOrder: 'asc' }
+    });
+
+    const allImages: any[] = [];
+
+    for (const theme of themes) {
+      for (const image of theme.images) {
+        const translations = image.translations as Record<string, string> || {};
+        const imageName = translations[locale] || translations['en'] || image.filename.replace(/\.(png|jpg|jpeg|gif|svg)$/i, '');
+
+        allImages.push({
+          path: image.filePath,
+          url: image.filePath,
+          name: imageName,
+          word: imageName,
+          theme: theme.name
+        });
+      }
+    }
+
+    return allImages;
+  } catch (error) {
+    console.warn('Database unavailable, falling back to filesystem:', error);
+    return [];
+  }
+}
+
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const theme = searchParams.get('theme');
@@ -139,17 +183,23 @@ export async function GET(request: Request) {
   try {
     let allImages: any[] = [];
 
-    if (!theme || theme === 'all') {
-      // Get images from ALL themes
-      const themes = getAllThemes();
+    // Try database first (primary source)
+    allImages = await getImagesFromDatabase(theme, locale);
 
-      for (const themeName of themes) {
-        const themeImages = getImagesFromTheme(themeName, locale);
-        allImages.push(...themeImages);
+    // If database returned no images, fall back to filesystem
+    if (allImages.length === 0) {
+      if (!theme || theme === 'all') {
+        // Get images from ALL themes
+        const themes = getAllThemes();
+
+        for (const themeName of themes) {
+          const themeImages = getImagesFromTheme(themeName, locale);
+          allImages.push(...themeImages);
+        }
+      } else {
+        // Get images from specific theme
+        allImages = getImagesFromTheme(theme, locale);
       }
-    } else {
-      // Get images from specific theme
-      allImages = getImagesFromTheme(theme, locale);
     }
 
     // Apply search filter if provided

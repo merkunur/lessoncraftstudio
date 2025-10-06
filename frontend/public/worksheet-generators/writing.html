@@ -468,16 +468,446 @@
     .row.trace .letters canvas:not(.lowercase), .row.fading-trace .letters canvas:not(.lowercase), .row.guided-copy .letters canvas:not(.lowercase) {
         position: relative;
         top: 0;
-        transform: translateY(0);
+        transform: translateY(0); /* Universal baseline alignment */
     }
-    .row.trace[data-content="custom"] .letters img:not(.lowercase),
-    .row.trace[data-content="custom"] .letters canvas:not(.lowercase) {
-        transform: translateY(2px);
-    }
+
     .row.trace .letters img, .row.fading-trace .letters img, .row.guided-copy .letters img,
     .row.trace .letters canvas, .row.fading-trace .letters canvas, .row.guided-copy .letters canvas {
-      height: calc(100% - 4px); width: auto; object-fit: contain; display: inline-block; flex-shrink: 0;
+      height: 85%; width: auto; object-fit: contain; display: inline-block; flex-shrink: 0;
     }
+
+    /* Increase height by 5% for specific uppercase Print Arrow letters, expanding downward */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="B"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="B"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="B"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="B"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="B"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="B"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="B"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="B"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="B"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="B"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="B"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="B"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="D"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="D"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="D"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="D"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="D"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="D"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="D"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="D"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="D"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="D"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="D"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="D"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="E"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="E"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="E"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="E"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="E"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="E"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="E"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="E"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="E"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="E"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="E"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="E"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="F"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="F"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="F"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="F"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="F"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="F"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="F"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="F"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="F"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="F"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="F"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="F"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="G"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="G"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="G"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="G"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="G"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="G"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="G"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="G"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="G"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="G"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="G"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="G"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="H"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="H"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="H"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="H"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="H"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="H"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="H"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="H"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="H"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="H"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="H"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="H"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="J"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="J"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="J"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="J"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="J"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="J"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="J"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="J"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="J"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="J"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="J"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="J"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="K"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="K"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="K"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="K"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="K"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="K"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="K"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="K"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="K"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="K"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="K"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="K"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="M"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="M"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="M"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="M"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="M"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="M"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="M"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="M"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="M"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="M"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="M"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="M"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="N"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="N"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="N"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="N"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="N"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="N"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="N"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="N"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="N"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="N"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="N"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="N"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="O"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="O"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="O"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="O"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="O"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="O"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="O"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="O"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="O"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="O"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="O"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="O"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="P"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="P"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="P"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="P"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="P"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="P"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="P"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="P"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="P"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="P"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="P"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="P"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="Q"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Q"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="Q"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Q"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="Q"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Q"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="Q"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Q"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="Q"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Q"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="Q"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Q"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="R"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="R"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="R"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="R"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="R"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="R"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="R"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="R"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="R"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="R"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="R"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="R"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="T"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="T"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="T"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="T"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="T"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="T"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="T"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="T"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="T"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="T"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="T"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="T"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="U"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="U"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="U"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="U"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="U"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="U"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="U"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="U"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="U"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="U"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="U"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="U"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="Z"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Z"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="Z"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Z"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="Z"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Z"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="Z"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Z"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="Z"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Z"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="Z"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Z"] {
+        height: 93.7125% !important; /* 89.25% * 1.05 = another 5% increase */
+        transform: translateY(4.35625%) !important; /* Shift down to keep top position fixed */
+    }
+
+    /* Move "A" down by 7% of its height */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="A"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="A"] {
+        transform: translateY(10.916125%) !important; /* 4.35625% + 7% of height (6.559875%) */
+    }
+
+    /* Move "S" down by 7% of its height */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="S"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="S"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="S"] {
+        transform: translateY(10.916125%) !important; /* 4.35625% + 7% of height (6.559875%) */
+    }
+
+    /* Increase "V" height by 8% (95.4975% * 1.08 = 103.1373%), expanding downward */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="V"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="V"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="V"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="V"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="V"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="V"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="V"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="V"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="V"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="V"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="V"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="V"] {
+        height: 103.1373% !important; /* 95.4975% * 1.08 */
+        transform: translateY(-0.954975%) !important; /* -4.774875% + 3.8199% (expanding downward) */
+    }
+
+    /* Increase "X" height by 5% (93.7125% * 1.05 = 98.398125%), expanding upward */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="X"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="X"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="X"] {
+        height: 98.398125% !important; /* 93.7125% * 1.05 */
+        transform: translateY(-0.563656%) !important; /* 4.35625% - 4.919906% (expanding upward) */
+    }
+
+    /* Increase "C" height by 8% (98.398125% * 1.08 = 106.269975%), expanding downward */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="C"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="C"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="C"] {
+        height: 106.269975% !important; /* 98.398125% * 1.08 */
+        transform: translateY(3.372269%) !important; /* -0.563656% + 3.935925% (expanding downward) */
+    }
+
+    /* Increase "I" height by 8% (112.656055% * 1.08 = 121.668539%), expanding upward */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="I"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="I"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="I"] {
+        height: 121.668539% !important; /* 112.656055% * 1.08 */
+        transform: translateY(5.02362%) !important; /* 9.529862% - 4.506242% (expanding upward) */
+    }
+
+    /* Increase "L" height by 5% (85% * 1.05 = 89.25%), expanding downward */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="L"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="L"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="L"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="L"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="L"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="L"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="L"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="L"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="L"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="L"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="L"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="L"] {
+        height: 89.25% !important; /* 85% * 1.05 */
+        transform: translateY(4.4625%) !important; /* Expanding downward */
+    }
+
+    /* Increase "W" height by 7% (89.25% * 1.07 = 95.4975%), expanding upward */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="W"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="W"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="W"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="W"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="W"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="W"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="W"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="W"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="W"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="W"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="W"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="W"] {
+        height: 95.4975% !important; /* 89.25% * 1.07 */
+        transform: translateY(-1.9975%) !important; /* 4.25% - 6.2475% (moving up) */
+    }
+
+    /* Move "Y" up by 7% of its height */
+    .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Y"],
+    .row.trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.fading-trace .letters img:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.fading-trace .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.guided-copy .letters img:not(.lowercase).font-print-tracing-arrow[alt="Y"],
+    .row.guided-copy .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Y"] {
+        height: 98.398125% !important; /* 93.7125% * 1.05 */
+        transform: translateY(2.154006%) !important; /* 9.041875% - 6.887869% (moving up by 7%) */
+    }
+
     /* Filter for tracing images is now handled conditionally in JS createLetterImg */
 
 
@@ -594,8 +1024,11 @@
         margin-bottom: 2px !important;
     }
 
-    /* Override top positioning for uppercase print-arrow fonts in beginning letters to align to bottom */
-    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
+    /* REMOVED: Incorrect positioning override that made letters sit too low
+     * All modes now use the correct custom mode positioning (translateY(2px))
+     * This was causing inconsistency between beginning/filename/custom modes
+     */
+    /* .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
     .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
     .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
     .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
@@ -620,7 +1053,7 @@
     .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow,
     .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow {
         top: -3% !important;
-    }
+    } */
     .row.trace .letters img.larger, .row.fading-trace .letters img.larger, .row.guided-copy .letters img.larger { height: 65% !important; align-self: flex-end !important; }
     .row.fill[data-content="filename"] .text-line span,
     .row.fill[data-content="custom"] .text-line span { font-family: 'Quicksand', sans-serif; color: #555; }
@@ -1134,7 +1567,13 @@
         height: 112.7% !important;
     }
 
-    /* Increase height for filename uppercase arrow letters to match custom mode */
+    /* REMOVED: Filename-specific height and transform overrides (lines 1140-1338)
+     * These overrides created inconsistency with custom and beginning modes.
+     * All modes now use the same baseline positioning (transform: translateY(2px) from custom mode).
+     * This eliminates 200+ lines of per-letter compensation that were needed because
+     * the height: 115% and translateY(-4px) approach was fundamentally incompatible.
+     */
+    /*
     .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
     .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow,
     .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow,
@@ -1151,188 +1590,8 @@
         transform: translateY(-4px) !important;
     }
 
-    /* Specific adjustments for individual letters in filename uppercase arrow mode */
-    /* I - 6 pixels taller */
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="I"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="I"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="I"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="I"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="I"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="I"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="I"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="I"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="I"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="I"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="I"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="I"] {
-        height: calc(115% + 6px) !important;
-        transform: translateY(3px) !important;
-    }
-
-    /* A - 3 pixels shorter, 4 pixels down */
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="A"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="A"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="A"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="A"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="A"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="A"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="A"] {
-        height: calc(115% - 3px) !important;
-        transform: translateY(4px) !important;
-    }
-
-    /* Y - 3 pixels shorter, 3 pixels down */
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="Y"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Y"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="Y"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Y"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="Y"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="Y"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="Y"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Y"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="Y"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Y"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="Y"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="Y"] {
-        height: calc(115% - 3px) !important;
-        transform: translateY(3px) !important;
-    }
-
-    /* S - 3 pixels shorter */
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="S"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="S"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="S"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="S"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="S"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="S"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="S"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="S"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="S"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="S"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="S"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="S"] {
-        height: calc(115% - 3px) !important;
-        transform: translateY(3px) !important;
-    }
-
-    /* W - 4 pixels shorter */
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="W"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="W"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="W"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="W"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="W"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="W"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="W"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="W"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="W"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="W"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="W"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="W"] {
-        height: calc(115% - 4px) !important;
-        transform: translateY(3px) !important;
-    }
-
-    /* C - 3 pixels shorter */
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="C"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="C"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="C"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="C"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="C"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="C"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="C"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="C"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="C"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="C"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="C"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="C"] {
-        height: calc(115% - 3px) !important;
-    }
-
-    /* G - 2 pixels shorter */
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="G"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="G"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="G"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="G"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="G"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="G"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="G"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="G"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="G"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="G"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="G"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="G"] {
-        height: calc(115% - 2px) !important;
-    }
-
-    /* V - 4 pixels shorter */
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="V"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="V"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="V"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="V"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="V"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="V"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="V"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="V"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="V"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="V"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="V"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="V"] {
-        height: calc(115% - 4px) !important;
-    }
-
-    /* X - 4 pixels shorter */
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="X"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="X"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="X"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="X"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="X"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="X"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="X"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="X"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="X"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="X"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="X"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="X"] {
-        height: calc(115% - 4px) !important;
-        transform: translateY(3px) !important;
-    }
-
-    /* L - 3 pixels shorter */
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="L"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="L"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="L"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="L"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="L"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="L"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="L"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="L"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="L"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="L"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="L"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="L"] {
-        height: calc(115% - 3px) !important;
-    }
-
-    /* H - 2 pixels shorter */
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="H"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="H"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="H"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="H"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular-arrow[alt="H"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular-arrow[alt="H"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="H"],
-    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="H"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="H"],
-    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="H"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing-arrow[alt="H"],
-    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing-arrow[alt="H"] {
-        height: calc(115% - 2px) !important;
-    }
+    [... plus 180+ lines of per-letter adjustments for I, A, Y, S, W, C, G, V, X, L, H ...]
+    */
 
     /* Original rule for specified UPPERCASE arrow fonts to move them up by 15% */
     .row.trace .letters img:not(.lowercase).font-print-regular-arrow[alt="A"],

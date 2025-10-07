@@ -3,21 +3,106 @@ import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
 import WorksheetSamples from '@/components/WorksheetSamples';
 import { getTranslations } from 'next-intl/server';
+import { homepageContentManager } from '@/lib/homepage-content-manager';
 
 async function getHomepageContent(locale: string) {
-  // For now, just return null to use default content
-  // This avoids API fetch issues during development
-  return null;
+  try {
+    // Call content manager directly - no HTTP fetch to avoid SSR deadlock
+    const rawContent = await homepageContentManager.getHomepageContent(locale);
+
+    if (!rawContent || !rawContent.hero) {
+      return null; // Fallback to static content
+    }
+
+    // Transform multilingual data to locale-specific data
+    return {
+      seo: {
+        title: rawContent.seo?.title?.[locale] || rawContent.seo?.title?.en,
+        description: rawContent.seo?.description?.[locale] || rawContent.seo?.description?.en,
+        keywords: rawContent.seo?.keywords?.[locale] || rawContent.seo?.keywords?.en
+      },
+      hero: {
+        title: rawContent.hero.title[locale] || rawContent.hero.title.en,
+        subtitle: rawContent.hero.subtitle[locale] || rawContent.hero.subtitle.en,
+        ctaButtons: {
+          tryFree: rawContent.hero.cta_primary_text[locale] || rawContent.hero.cta_primary_text.en,
+          viewApps: rawContent.hero.cta_secondary_text[locale] || rawContent.hero.cta_secondary_text.en
+        }
+      },
+      features: {
+        title: rawContent.featuresSection?.title[locale] || rawContent.featuresSection?.title.en,
+        items: rawContent.features?.map((f: any) => ({
+          icon: f.icon,
+          title: f.title[locale] || f.title.en,
+          description: f.description[locale] || f.description.en
+        }))
+      },
+      pricing: rawContent.pricing ? {
+        title: rawContent.pricingSection?.title[locale] || rawContent.pricingSection?.title.en,
+        free: {
+          name: rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier')?.name[locale],
+          price: rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier')?.price,
+          features: rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier')?.features[locale] || []
+        },
+        core: {
+          name: rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle')?.name[locale],
+          price: rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle')?.price,
+          features: rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle')?.features[locale] || []
+        },
+        full: {
+          name: rawContent.pricing.find((p: any) => p.name.en === 'Full Access')?.name[locale],
+          price: rawContent.pricing.find((p: any) => p.name.en === 'Full Access')?.price,
+          features: rawContent.pricing.find((p: any) => p.name.en === 'Full Access')?.features[locale] || []
+        }
+      } : null,
+      samplesSection: rawContent.worksheetSamples && rawContent.samplesSection ? {
+        samples: rawContent.worksheetSamples.map((sample: any, index: number) => ({
+          id: sample.id || `sample-${index}`,
+          name: sample.name || 'Untitled',
+          category: sample.category || 'general',
+          image: sample.image || sample.image_url || '/worksheet-samples/placeholder.png',
+          description: sample.description || 'No description available',
+          difficulty: sample.difficulty || 'Easy',
+          ageRange: sample.ageRange || sample.age_range || '5-7 years'
+        })),
+        sectionTitle: rawContent.samplesSection.title[locale] || rawContent.samplesSection.title.en,
+        sectionSubtitle: rawContent.samplesSection.subtitle[locale] || rawContent.samplesSection.subtitle.en,
+        ctaText: rawContent.samplesSection.cta[locale] || rawContent.samplesSection.cta.en,
+        ctaUrl: `/${locale}/apps`,
+        categories: rawContent.samplesSection.categories
+          ? Object.keys(rawContent.samplesSection.categories).reduce((acc: Record<string, string>, key: string) => {
+              acc[key] = rawContent.samplesSection.categories[key][locale] || rawContent.samplesSection.categories[key].en;
+              return acc;
+            }, {})
+          : {},
+        difficulties: rawContent.samplesSection.difficulties
+          ? Object.keys(rawContent.samplesSection.difficulties).reduce((acc: Record<string, string>, key: string) => {
+              acc[key] = rawContent.samplesSection.difficulties[key][locale] || rawContent.samplesSection.difficulties[key].en;
+              return acc;
+            }, {})
+          : {},
+        modalLabels: {
+          ageRange: rawContent.samplesSection.modalLabels?.ageRange?.[locale] || rawContent.samplesSection.modalLabels?.ageRange?.en || 'Age Range',
+          difficulty: rawContent.samplesSection.modalLabels?.difficulty?.[locale] || rawContent.samplesSection.modalLabels?.difficulty?.en || 'Difficulty',
+          category: rawContent.samplesSection.modalLabels?.category?.[locale] || rawContent.samplesSection.modalLabels?.category?.en || 'Category'
+        }
+      } : null
+    };
+  } catch (error) {
+    console.error('Failed to load homepage content from database:', error);
+    return null; // Fallback to static translations
+  }
 }
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
   const content = await getHomepageContent(locale);
 
-  const seo = content?.seo || {
-    title: 'LessonCraftStudio - Professional Worksheet Generator',
-    description: '33 powerful worksheet generators with 100+ themed images',
-    keywords: 'worksheet generator, educational resources, printable worksheets'
+  // Use API content for SEO, with fallback defaults
+  const seo = {
+    title: content?.seo?.title || 'LessonCraftStudio - Professional Worksheet Generator',
+    description: content?.seo?.description || '33 powerful worksheet generators with 100+ themed images',
+    keywords: content?.seo?.keywords || 'worksheet generator, educational resources, printable worksheets'
   };
 
   return {
@@ -32,19 +117,20 @@ export default async function HomePage({ params }: { params: { locale: string } 
   const t = await getTranslations({ locale, namespace: 'homepage' });
   const content = await getHomepageContent(locale);
 
-  // Use translations from messages files
+  // Use API content first, fallback to static translations
   const hero = {
-    title: t('hero.title'),
-    subtitle: t('hero.subtitle'),
+    title: content?.hero?.title || t('hero.title'),
+    subtitle: content?.hero?.subtitle || t('hero.subtitle'),
     ctaButtons: {
-      tryFree: t('hero.cta.tryFree'),
-      viewApps: t('hero.cta.viewApps')
+      tryFree: content?.hero?.ctaButtons?.tryFree || t('hero.cta.tryFree'),
+      viewApps: content?.hero?.ctaButtons?.viewApps || t('hero.cta.viewApps')
     }
   };
 
+  // Use API content for features, fallback to static translations
   const features = {
-    title: t('features.title'),
-    items: [
+    title: content?.features?.title || t('features.title'),
+    items: content?.features?.items || [
       {
         icon: 'apps',
         title: t('features.items.apps.title'),
@@ -68,7 +154,8 @@ export default async function HomePage({ params }: { params: { locale: string } 
     ]
   };
 
-  const pricing = {
+  // Use API content for pricing, fallback to static translations
+  const pricing = content?.pricing || {
     title: t('pricing.title'),
     free: {
       name: t('pricing.free.name'),
@@ -168,7 +255,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
       </section>
 
       {/* Worksheet Samples Gallery */}
-      <WorksheetSamples locale={locale} />
+      <WorksheetSamples locale={locale} initialContent={content?.samplesSection} />
 
       {/* Features Section */}
       <section className="py-20">

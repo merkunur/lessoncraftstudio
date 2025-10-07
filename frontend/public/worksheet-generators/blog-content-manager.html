@@ -700,6 +700,24 @@
                 </div>
             </div>
 
+            <h3 style="margin: 30px 0 15px;">📥 PDF Section Content (Appears at bottom of blog)</h3>
+            <div class="form-grid">
+                <div class="form-group">
+                    <label class="form-label">PDF Section Title</label>
+                    <input type="text" id="postPdfSectionTitle" class="form-control" placeholder="e.g., Free Sample Worksheets">
+                    <small style="color: var(--gray-500); display: block; margin-top: 5px;">
+                        Title shown above the downloadable worksheets (translatable per language)
+                    </small>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">PDF Section Description</label>
+                    <input type="text" id="postPdfSectionDescription" class="form-control" placeholder="e.g., Premium educational resources designed by experts">
+                    <small style="color: var(--gray-500); display: block; margin-top: 5px;">
+                        Description text below the title (translatable per language)
+                    </small>
+                </div>
+            </div>
+
             <h3 style="margin: 30px 0 15px;">HTML Content</h3>
             <div class="editor-container">
                 <div class="editor-panel">
@@ -886,8 +904,12 @@
 
             <div style="display: flex; gap: 15px; margin-top: 30px;">
                 <button class="btn btn-success" onclick="savePost()">💾 Save Changes</button>
+                <button class="btn btn-primary" onclick="publishPost()">🚀 Publish to Static HTML</button>
                 <button class="btn btn-primary" onclick="previewFullPage()">👁 Preview Full Page</button>
                 <button class="btn btn-secondary" onclick="exportHTML()">⬇ Export HTML</button>
+            </div>
+            <div style="margin-top: 10px; font-size: 13px; color: var(--gray-600);">
+                💡 <strong>Tip:</strong> Click "Save Changes" first to save your content to the database, then click "Publish to Static HTML" to generate static files for all languages.
             </div>
         </div>
 
@@ -1678,6 +1700,8 @@
                     document.getElementById('postKeywords').value = (post.keywords || []).join(', ');
                     document.getElementById('postFeaturedImage').value = post.featuredImage || '';
                     document.getElementById('postCategory').value = post.category || 'teaching-resources';
+                    document.getElementById('postPdfSectionTitle').value = translation.pdfSectionTitle || 'Free Sample Worksheets';
+                    document.getElementById('postPdfSectionDescription').value = translation.pdfSectionDescription || 'Premium educational resources designed by experts to accelerate learning and inspire students';
 
                     // Show featured image preview if exists
                     if (post.featuredImage) {
@@ -1705,6 +1729,8 @@
                     document.getElementById('postKeywords').value = '';
                     document.getElementById('postFeaturedImage').value = '';
                     document.getElementById('postCategory').value = 'teaching-resources';
+                    document.getElementById('postPdfSectionTitle').value = 'Free Sample Worksheets';
+                    document.getElementById('postPdfSectionDescription').value = 'Premium educational resources designed by experts to accelerate learning and inspire students';
                     document.getElementById('htmlEditor').value = '';
                     if (language !== 'en') {
                         showMessage('No translation found for this language. Add content to create it.', 'info');
@@ -1793,6 +1819,8 @@
             document.getElementById('postFeaturedImage').value = '';
             document.getElementById('postFeaturedImageFile').value = '';
             document.getElementById('postCategory').value = 'teaching-resources';
+            document.getElementById('postPdfSectionTitle').value = 'Free Sample Worksheets';
+            document.getElementById('postPdfSectionDescription').value = 'Premium educational resources designed by experts to accelerate learning and inspire students';
             document.getElementById('htmlEditor').value = '';
             document.getElementById('previewFrame').srcdoc = '';
 
@@ -1854,11 +1882,15 @@
         function generatePDFSectionHTML() {
             if (currentPDFs.length === 0) return '';
 
+            // Get translated title and description from form, or use defaults
+            const pdfTitle = document.getElementById('postPdfSectionTitle').value || 'Free Sample Worksheets';
+            const pdfDescription = document.getElementById('postPdfSectionDescription').value || 'Premium educational resources designed by experts to accelerate learning and inspire students';
+
             return `
                 <section style="background: #F3F4F6; padding: 60px 20px; margin-top: 60px; text-align: center;">
-                    <h2 style="color: #7C3AED; font-size: 36px; margin-bottom: 20px;">Free Sample Worksheets</h2>
+                    <h2 style="color: #7C3AED; font-size: 36px; margin-bottom: 20px;">${pdfTitle}</h2>
                     <p style="color: #6B7280; font-size: 18px; margin-bottom: 40px;">
-                        Premium educational resources designed by experts to accelerate learning and inspire students
+                        ${pdfDescription}
                     </p>
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 30px; max-width: 1200px; margin: 0 auto;">
                         ${currentPDFs.map(pdf => `
@@ -1919,7 +1951,9 @@
                 author: 'LessonCraftStudio Team',
                 metaTitle: document.getElementById('postMetaTitle').value || title,
                 metaDescription,
-                focusKeyword: document.getElementById('postFocusKeyword').value || ''
+                focusKeyword: document.getElementById('postFocusKeyword').value || '',
+                pdfSectionTitle: document.getElementById('postPdfSectionTitle').value || 'Free Sample Worksheets',
+                pdfSectionDescription: document.getElementById('postPdfSectionDescription').value || 'Premium educational resources designed by experts to accelerate learning and inspire students'
             };
 
             const translations = {
@@ -2000,6 +2034,98 @@
             } catch (error) {
                 console.error('Error saving post:', error);
                 showMessage(`Failed to save blog post: ${error.message}`, 'error');
+            }
+        }
+
+        // Publish post to static HTML files
+        async function publishPost() {
+            if (!currentPost || !currentPost.slug) {
+                showMessage('Please select and save a blog post first before publishing!', 'error');
+                return;
+            }
+
+            const slug = currentPost.slug;
+
+            // Confirm before publishing
+            if (!confirm(`This will generate static HTML files for all languages of the blog post "${slug}".\n\nMake sure you've saved all your changes first!\n\nContinue with publishing?`)) {
+                return;
+            }
+
+            try {
+                showMessage('📡 Fetching blog post data from database...', 'info');
+
+                // Fetch the complete post with all translations from the database
+                const response = await fetch(`/api/admin/blog/posts/${slug}`, {
+                    headers: {
+                        'Authorization': 'Bearer dev-bypass'
+                    }
+                });
+
+                if (!response.ok) {
+                    throw new Error('Failed to fetch blog post data');
+                }
+
+                const data = await response.json();
+                const post = data.post;
+
+                console.log('📄 Publishing post:', post);
+
+                // Prepare the languages data for the publish API
+                const languages = {};
+                for (const [locale, translation] of Object.entries(post.translations)) {
+                    languages[locale] = {
+                        title: translation.title,
+                        content: translation.content,
+                        metaTitle: translation.metaTitle || translation.title,
+                        metaDescription: translation.metaDescription || translation.excerpt || '',
+                        keywords: post.keywords ? post.keywords.join(', ') : '',
+                        category: post.category || 'teaching-resources',
+                        author: translation.author || 'LessonCraftStudio Team',
+                        date: new Date(post.createdAt).toLocaleDateString(),
+                        readTime: '5 min read',
+                        pdfSectionTitle: translation.pdfSectionTitle || '',
+                        pdfSectionDescription: translation.pdfSectionDescription || ''
+                    };
+                }
+
+                showMessage('🚀 Publishing to static HTML files...', 'info');
+
+                // Call the publish API
+                const publishResponse = await fetch('/api/blog/publish', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': 'Bearer dev-bypass'
+                    },
+                    body: JSON.stringify({
+                        slug: slug,
+                        languages: languages
+                    })
+                });
+
+                if (publishResponse.ok) {
+                    const result = await publishResponse.json();
+                    console.log('✅ Publish result:', result);
+
+                    const urls = result.publishedUrls || result.urls || [];
+                    const count = urls.length || 0;
+
+                    showMessage(`✅ Successfully published to ${count} language(s)! Static HTML files generated.`, 'success');
+
+                    // Show the URLs
+                    if (urls.length > 0) {
+                        setTimeout(() => {
+                            showMessage(`📁 Published URLs: ${urls.join(', ')}`, 'info');
+                        }, 2000);
+                    }
+                } else {
+                    const error = await publishResponse.json();
+                    console.error('Publish error:', error);
+                    throw new Error(error.error || 'Failed to publish');
+                }
+            } catch (error) {
+                console.error('Error publishing post:', error);
+                showMessage(`❌ Failed to publish: ${error.message}`, 'error');
             }
         }
 

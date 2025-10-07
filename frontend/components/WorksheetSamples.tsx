@@ -29,281 +29,10 @@ interface SamplesContent {
 
 interface WorksheetSamplesProps {
   locale?: string;
+  initialContent?: SamplesContent;
 }
 
-export default function WorksheetSamples({ locale = 'en' }: WorksheetSamplesProps) {
-  // Helper function to translate difficulty
-  const translateDifficulty = (difficulty: string): string => {
-    if (locale === 'de') {
-      switch(difficulty) {
-        case 'Easy':
-          return 'Einfach';
-        case 'Medium':
-          return 'Mittel';
-        case 'Hard':
-          return 'Schwer';
-        default:
-          return difficulty;
-      }
-    } else if (locale === 'fr') {
-      switch(difficulty) {
-        case 'Easy':
-          return 'Facile';
-        case 'Medium':
-          return 'Moyen';
-        case 'Hard':
-          return 'Difficile';
-        default:
-          return difficulty;
-      }
-    } else if (locale === 'es') {
-      switch(difficulty) {
-        case 'Easy':
-          return 'Fácil';
-        case 'Medium':
-          return 'Medio';
-        case 'Hard':
-          return 'Difícil';
-        default:
-          return difficulty;
-      }
-    } else if (locale === 'it') {
-      switch(difficulty) {
-        case 'Easy':
-          return 'Facile';
-        case 'Medium':
-          return 'Medio';
-        case 'Hard':
-          return 'Difficile';
-        default:
-          return difficulty;
-      }
-    } else if (locale === 'pt') {
-      switch(difficulty) {
-        case 'Easy':
-          return 'Fácil';
-        case 'Medium':
-          return 'Médio';
-        case 'Hard':
-          return 'Difícil';
-        default:
-          return difficulty;
-      }
-    } else if (locale === 'nl') {
-      switch(difficulty) {
-        case 'Easy':
-          return 'Makkelijk';
-        case 'Medium':
-          return 'Gemiddeld';
-        case 'Hard':
-          return 'Moeilijk';
-        default:
-          return difficulty;
-      }
-    } else if (locale === 'sv') {
-      switch(difficulty) {
-        case 'Easy':
-          return 'Lätt';
-        case 'Medium':
-          return 'Medel';
-        case 'Hard':
-          return 'Svår';
-        default:
-          return difficulty;
-      }
-    } else if (locale === 'da') {
-      switch(difficulty) {
-        case 'Easy':
-          return 'Let';
-        case 'Medium':
-          return 'Mellem';
-        case 'Hard':
-          return 'Svær';
-        default:
-          return difficulty;
-      }
-    } else if (locale === 'no') {
-      switch(difficulty) {
-        case 'Easy':
-          return 'Lett';
-        case 'Medium':
-          return 'Middels';
-        case 'Hard':
-          return 'Vanskelig';
-        default:
-          return difficulty;
-      }
-    } else if (locale === 'fi') {
-      switch(difficulty) {
-        case 'Easy':
-          return 'Helppo';
-        case 'Medium':
-          return 'Keskitaso';
-        case 'Hard':
-          return 'Vaikea';
-        default:
-          return difficulty;
-      }
-    }
-    return difficulty;
-  };
-
-  // Helper function to translate age range
-  const translateAgeRange = (ageRange: string): string => {
-    if (locale === 'de') {
-      switch(ageRange) {
-        case '3-5 years':
-          return '3-5 Jahre';
-        case '4-7 years':
-          return '4-7 Jahre';
-        case '5-8 years':
-          return '5-8 Jahre';
-        case '6-8 years':
-          return '6-8 Jahre';
-        case '7-10 years':
-          return '7-10 Jahre';
-        default:
-          return ageRange;
-      }
-    } else if (locale === 'fr') {
-      switch(ageRange) {
-        case '3-5 years':
-          return '3-5 ans';
-        case '4-7 years':
-          return '4-7 ans';
-        case '5-8 years':
-          return '5-8 ans';
-        case '6-8 years':
-          return '6-8 ans';
-        case '7-10 years':
-          return '7-10 ans';
-        default:
-          return ageRange;
-      }
-    } else if (locale === 'es') {
-      switch(ageRange) {
-        case '3-5 years':
-          return '3-5 años';
-        case '4-7 years':
-          return '4-7 años';
-        case '5-8 years':
-          return '5-8 años';
-        case '6-8 years':
-          return '6-8 años';
-        case '7-10 years':
-          return '7-10 años';
-        default:
-          return ageRange;
-      }
-    } else if (locale === 'it') {
-      switch(ageRange) {
-        case '3-5 years':
-          return '3-5 anni';
-        case '4-7 years':
-          return '4-7 anni';
-        case '5-8 years':
-          return '5-8 anni';
-        case '6-8 years':
-          return '6-8 anni';
-        case '7-10 years':
-          return '7-10 anni';
-        default:
-          return ageRange;
-      }
-    } else if (locale === 'pt') {
-      switch(ageRange) {
-        case '3-5 years':
-          return '3-5 anos';
-        case '4-7 years':
-          return '4-7 anos';
-        case '5-8 years':
-          return '5-8 anos';
-        case '6-8 years':
-          return '6-8 anos';
-        case '7-10 years':
-          return '7-10 anos';
-        default:
-          return ageRange;
-      }
-    } else if (locale === 'nl') {
-      switch(ageRange) {
-        case '3-5 years':
-          return '3-5 jaar';
-        case '4-7 years':
-          return '4-7 jaar';
-        case '5-8 years':
-          return '5-8 jaar';
-        case '6-8 years':
-          return '6-8 jaar';
-        case '7-10 years':
-          return '7-10 jaar';
-        default:
-          return ageRange;
-      }
-    } else if (locale === 'sv') {
-      switch(ageRange) {
-        case '3-5 years':
-          return '3-5 år';
-        case '4-7 years':
-          return '4-7 år';
-        case '5-8 years':
-          return '5-8 år';
-        case '6-8 years':
-          return '6-8 år';
-        case '7-10 years':
-          return '7-10 år';
-        default:
-          return ageRange;
-      }
-    } else if (locale === 'da') {
-      switch(ageRange) {
-        case '3-5 years':
-          return '3-5 år';
-        case '4-7 years':
-          return '4-7 år';
-        case '5-8 years':
-          return '5-8 år';
-        case '6-8 years':
-          return '6-8 år';
-        case '7-10 years':
-          return '7-10 år';
-        default:
-          return ageRange;
-      }
-    } else if (locale === 'no') {
-      switch(ageRange) {
-        case '3-5 years':
-          return '3-5 år';
-        case '4-7 years':
-          return '4-7 år';
-        case '5-8 years':
-          return '5-8 år';
-        case '6-8 years':
-          return '6-8 år';
-        case '7-10 years':
-          return '7-10 år';
-        default:
-          return ageRange;
-      }
-    } else if (locale === 'fi') {
-      switch(ageRange) {
-        case '3-5 years':
-          return '3-5 vuotta';
-        case '4-7 years':
-          return '4-7 vuotta';
-        case '5-8 years':
-          return '5-8 vuotta';
-        case '6-8 years':
-          return '6-8 vuotta';
-        case '7-10 years':
-          return '7-10 vuotta';
-        default:
-          return ageRange;
-      }
-    }
-    return ageRange;
-  };
-
+export default function WorksheetSamples({ locale = 'en', initialContent }: WorksheetSamplesProps) {
   const getLocalizedContent = () => {
     if (locale === 'de') {
       return {
@@ -430,22 +159,32 @@ export default function WorksheetSamples({ locale = 'en' }: WorksheetSamplesProp
 
   const localizedContent = getLocalizedContent();
 
-  const [content, setContent] = useState<SamplesContent>({
-    samples: [],
-    sectionTitle: localizedContent.sectionTitle,
-    sectionSubtitle: localizedContent.sectionSubtitle,
-    ctaText: localizedContent.ctaText,
-    ctaUrl: `/${locale}/apps`,
-    categories: {},
-    difficulties: {},
-    modalLabels: localizedContent.modalLabels
+  const [content, setContent] = useState<SamplesContent>(() => {
+    // Use initialContent if provided (from server-side props)
+    if (initialContent) {
+      return initialContent;
+    }
+    // Otherwise use default localized content
+    return {
+      samples: [],
+      sectionTitle: localizedContent.sectionTitle,
+      sectionSubtitle: localizedContent.sectionSubtitle,
+      ctaText: localizedContent.ctaText,
+      ctaUrl: `/${locale}/apps`,
+      categories: {},
+      difficulties: {},
+      modalLabels: localizedContent.modalLabels
+    };
   });
   const [selectedSample, setSelectedSample] = useState<WorksheetSample | null>(null);
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(!initialContent); // Not loading if we have initial content
 
   useEffect(() => {
-    fetchSamples();
-  }, [locale]);
+    // Only fetch if we don't have initial content from props
+    if (!initialContent) {
+      fetchSamples();
+    }
+  }, [locale, initialContent]);
 
   const fetchSamples = async () => {
     try {
@@ -723,12 +462,12 @@ export default function WorksheetSamples({ locale = 'en' }: WorksheetSamplesProp
                   </p>
                   <div className="flex items-center justify-between text-xs">
                     <span className="px-2 py-1 bg-blue-100 text-blue-700 rounded-full">
-                      {translateAgeRange(sample.ageRange)}
+                      {sample.ageRange}
                     </span>
                     <span className={`px-2 py-1 rounded-full ${
                       getDifficultyColor(sample.difficulty)
                     }`}>
-                      {translateDifficulty(sample.difficulty)}
+                      {content.difficulties?.[sample.difficulty.toLowerCase()] || sample.difficulty}
                     </span>
                   </div>
                 </div>
@@ -781,10 +520,10 @@ export default function WorksheetSamples({ locale = 'en' }: WorksheetSamplesProp
                 <p className="text-gray-600 mb-2">{selectedSample.description}</p>
                 <div className="flex gap-4 text-sm">
                   <span>
-                    <strong>{content.modalLabels?.ageRange || 'Age Range'}:</strong> {translateAgeRange(selectedSample.ageRange)}
+                    <strong>{content.modalLabels?.ageRange || 'Age Range'}:</strong> {selectedSample.ageRange}
                   </span>
                   <span>
-                    <strong>{content.modalLabels?.difficulty || 'Difficulty'}:</strong> {translateDifficulty(selectedSample.difficulty)}
+                    <strong>{content.modalLabels?.difficulty || 'Difficulty'}:</strong> {content.difficulties?.[selectedSample.difficulty.toLowerCase()] || selectedSample.difficulty}
                   </span>
                   {selectedSample.category && (
                     <span>

@@ -51,13 +51,30 @@ export async function GET(request: NextRequest) {
         description: s.description[locale] || s.description.en,
         category: s.category,
         difficulty: s.difficulty,
-        ageRange: s.age_range,
+        ageRange: typeof s.age_range === 'object' ? (s.age_range[locale] || s.age_range.en) : s.age_range,
         image: s.image_url
       })),
       samplesSection: {
         title: rawContent.samplesSection?.title[locale] || rawContent.samplesSection?.title.en || 'Worksheet Samples Gallery',
         subtitle: rawContent.samplesSection?.subtitle[locale] || rawContent.samplesSection?.subtitle.en || 'Click on any worksheet to see a larger preview',
-        cta: rawContent.samplesSection?.cta[locale] || rawContent.samplesSection?.cta.en || 'Explore All 33 Worksheet Generators →'
+        cta: rawContent.samplesSection?.cta[locale] || rawContent.samplesSection?.cta.en || 'Explore All 33 Worksheet Generators →',
+        categories: rawContent.samplesSection?.categories
+          ? Object.keys(rawContent.samplesSection.categories).reduce((acc, key) => {
+              acc[key] = rawContent.samplesSection.categories[key][locale] || rawContent.samplesSection.categories[key].en;
+              return acc;
+            }, {} as Record<string, string>)
+          : {},
+        difficulties: rawContent.samplesSection?.difficulties
+          ? Object.keys(rawContent.samplesSection.difficulties).reduce((acc, key) => {
+              acc[key] = rawContent.samplesSection.difficulties[key][locale] || rawContent.samplesSection.difficulties[key].en;
+              return acc;
+            }, {} as Record<string, string>)
+          : {},
+        modalLabels: {
+          ageRange: rawContent.samplesSection?.modalLabels?.ageRange?.[locale] || rawContent.samplesSection?.modalLabels?.ageRange?.en || 'Age Range',
+          difficulty: rawContent.samplesSection?.modalLabels?.difficulty?.[locale] || rawContent.samplesSection?.modalLabels?.difficulty?.en || 'Difficulty',
+          category: rawContent.samplesSection?.modalLabels?.category?.[locale] || rawContent.samplesSection?.modalLabels?.category?.en || 'Category'
+        }
       },
       pricing: {
         title: rawContent.pricingSection?.title[locale] || rawContent.pricingSection?.title.en || 'Simple, Transparent Pricing',
@@ -137,6 +154,8 @@ export async function POST(request: NextRequest) {
     const data = await request.json();
     const { section, content } = data;
 
+    console.log('[Homepage Content API] POST request received:', { section, contentKeys: Object.keys(content || {}) });
+
     let success = false;
 
     switch (section) {
@@ -165,7 +184,9 @@ export async function POST(request: NextRequest) {
         success = await homepageContentManager.saveSEOSection(content);
         break;
       case 'all':
+        console.log('[Homepage Content API] Saving all content...');
         success = await homepageContentManager.saveAllContent(content);
+        console.log('[Homepage Content API] Save all content result:', success);
         break;
       case 'feature':
         success = await homepageContentManager.saveFeature(content);
@@ -177,6 +198,7 @@ export async function POST(request: NextRequest) {
         success = await homepageContentManager.savePricingTier(content);
         break;
       default:
+        console.error('[Homepage Content API] Invalid section type:', section);
         return NextResponse.json(
           { error: 'Invalid section type' },
           { status: 400 }
@@ -184,17 +206,19 @@ export async function POST(request: NextRequest) {
     }
 
     if (success) {
+      console.log('[Homepage Content API] Save successful');
       return NextResponse.json({ success: true });
     } else {
+      console.error('[Homepage Content API] Save failed - success=false');
       return NextResponse.json(
         { error: 'Failed to save content' },
         { status: 500 }
       );
     }
   } catch (error) {
-    console.error('Error saving homepage content:', error);
+    console.error('[Homepage Content API] Exception during save:', error);
     return NextResponse.json(
-      { error: 'Failed to save homepage content' },
+      { error: `Failed to save homepage content: ${error instanceof Error ? error.message : String(error)}` },
       { status: 500 }
     );
   }

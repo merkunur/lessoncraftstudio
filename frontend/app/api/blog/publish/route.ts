@@ -166,7 +166,9 @@ async function generateStaticHTML(data: any, locale: string): Promise<string> {
   // Use pdfMetadata if available, otherwise use sharedPDFs
   const pdfsToShow = pdfMetadata.length > 0 ? pdfMetadata : sharedPDFs;
 
-  // Get translations for the current locale
+  // Get PDF section translations from post data or fall back to defaults
+  const pdfTitle = data.pdfSectionTitle || (WORKSHEET_TRANSLATIONS[locale] || WORKSHEET_TRANSLATIONS['en']).title;
+  const pdfSubtitle = data.pdfSectionDescription || (WORKSHEET_TRANSLATIONS[locale] || WORKSHEET_TRANSLATIONS['en']).subtitle;
   const translations = WORKSHEET_TRANSLATIONS[locale] || WORKSHEET_TRANSLATIONS['en'];
 
   // Generate sample worksheet download section if PDFs exist
@@ -174,8 +176,8 @@ async function generateStaticHTML(data: any, locale: string): Promise<string> {
     <section class="sample-worksheets" id="sample-worksheets">
       <div class="worksheets-container">
         <div class="section-header">
-          <h2 class="section-title">${translations.title}</h2>
-          <p class="section-subtitle">${translations.subtitle}</p>
+          <h2 class="section-title">${pdfTitle}</h2>
+          <p class="section-subtitle">${pdfSubtitle}</p>
         </div>
 
         <div class="worksheet-grid">

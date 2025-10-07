@@ -160,8 +160,18 @@ export default async function BlogPostPage({
             textAlign: 'center',
             color: '#480005'
           }}>
-            Sample Worksheets
+            {translation.pdfSectionTitle || 'Sample Worksheets'}
           </h2>
+          {translation.pdfSectionDescription && (
+            <p style={{
+              fontSize: '18px',
+              color: '#6B7280',
+              textAlign: 'center',
+              marginBottom: '32px'
+            }}>
+              {translation.pdfSectionDescription}
+            </p>
+          )}
           <div style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',

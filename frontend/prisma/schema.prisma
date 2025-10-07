@@ -679,3 +679,24 @@ model FeatureRequest {
   @@index([votes])
   @@map("feature_requests")
 }
+
+// ==========================================
+// HOMEPAGE CONTENT MANAGEMENT
+// ==========================================
+
+model HomepageContent {
+  id String @id @default("homepage") // Single row for homepage content
+
+  // Store all homepage content as JSON
+  // This includes hero, features, samples, pricing, footer, SEO, etc. for all 11 languages
+  content Json @db.JsonB
+
+  // Metadata
+  updatedBy String? @map("updated_by") // User ID or "admin"
+  version   Int     @default(1) // For tracking content versions
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("homepage_content")
+}

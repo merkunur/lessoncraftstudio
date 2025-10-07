@@ -1,5 +1,7 @@
 // Homepage Content Manager
-// Manages all homepage content through Directus CMS
+// Manages all homepage content through PostgreSQL database via Prisma
+
+import { prisma } from './prisma';
 
 const DIRECTUS_URL = process.env.DIRECTUS_URL || 'http://lcs-directus:8055';
 const API_TOKEN = 'static-api-token-for-sync';
@@ -155,36 +157,21 @@ class HomepageContentManager {
   // Fetch all homepage content
   async getHomepageContent(locale: string = 'en'): Promise<HomepageContent> {
     try {
-      // Check for cached content first (for development)
-      if (this.cachedContent) {
-        return this.cachedContent;
+      // Try to load from database first
+      const dbContent = await this.loadFromDatabase();
+      if (dbContent) {
+        this.cachedContent = dbContent;
+        return dbContent;
       }
 
-      // Check global cache (server-side)
-      if (typeof window === 'undefined' && (global as any).__homepageContent) {
-        return (global as any).__homepageContent;
-      }
-      const [hero, features, samples, pricing, seo] = await Promise.all([
-        this.getHeroSection(locale),
-        this.getFeatures(locale),
-        this.getSamples(locale),
-        this.getPricingTiers(locale),
-        this.getSEOContent(locale)
-      ]);
+      // If no database content, return default content
+      const defaultContent = this.getDefaultContent(locale);
 
-      return {
-        hero,
-        navigation: this.getNavigationContent(),
-        featuresSection: this.getFeaturesSectionHeader(),
-        features,
-        samplesSection: this.getSamplesSectionContent(),
-        samples,
-        pricingSection: this.getPricingSectionContent(),
-        pricing,
-        footer: this.getFooterContent(),
-        commonUI: this.getCommonUIContent(),
-        seo
-      };
+      // Save default content to database for future use
+      await this.saveToDatabase(defaultContent);
+
+      this.cachedContent = defaultContent;
+      return defaultContent;
     } catch (error) {
       console.error('Error fetching homepage content:', error);
       return this.getDefaultContent(locale);
@@ -286,6 +273,20 @@ class HomepageContentManager {
         hard: {
           en: 'Hard', de: 'Schwer', fr: 'Difficile', es: 'Difícil', it: 'Difficile',
           pt: 'Difícil', nl: 'Moeilijk', sv: 'Svår', da: 'Svær', no: 'Vanskelig', fi: 'Vaikea'
+        }
+      },
+      modalLabels: {
+        ageRange: {
+          en: 'Age Range', de: 'Altersgruppe', fr: 'Tranche d\'âge', es: 'Rango de edad', it: 'Fascia d\'età',
+          pt: 'Faixa etária', nl: 'Leeftijdsgroep', sv: 'Åldersgrupp', da: 'Aldersgruppe', no: 'Aldersgruppe', fi: 'Ikäryhmä'
+        },
+        difficulty: {
+          en: 'Difficulty', de: 'Schwierigkeit', fr: 'Difficulté', es: 'Dificultad', it: 'Difficoltà',
+          pt: 'Dificuldade', nl: 'Moeilijkheidsgraad', sv: 'Svårighetsgrad', da: 'Sværhedsgrad', no: 'Vanskelighetsgrad', fi: 'Vaikeustaso'
+        },
+        category: {
+          en: 'Category', de: 'Kategorie', fr: 'Catégorie', es: 'Categoría', it: 'Categoria',
+          pt: 'Categoria', nl: 'Categorie', sv: 'Kategori', da: 'Kategori', no: 'Kategori', fi: 'Kategoria'
         }
       }
     };
@@ -995,15 +996,44 @@ class HomepageContentManager {
     }
   }
 
-  // Helper method to save content to file (for development - in production would use database)
-  private async saveToFile(content: HomepageContent): Promise<void> {
-    // In development, we'll store in memory and update the default
-    // In production, this would save to database
-    this.cachedContent = content;
-    // Also update the next API response
-    if (typeof window === 'undefined') {
-      // Server-side: store in memory
-      (global as any).__homepageContent = content;
+  // Load content from database
+  private async loadFromDatabase(): Promise<HomepageContent | null> {
+    try {
+      const record = await prisma.homepageContent.findUnique({
+        where: { id: 'homepage' }
+      });
+
+      if (record && record.content) {
+        return record.content as HomepageContent;
+      }
+
+      return null;
+    } catch (error) {
+      console.error('Error loading from database:', error);
+      return null;
+    }
+  }
+
+  // Save content to database
+  private async saveToDatabase(content: HomepageContent): Promise<void> {
+    try {
+      await prisma.homepageContent.upsert({
+        where: { id: 'homepage' },
+        update: {
+          content: content as any,
+          updatedAt: new Date()
+        },
+        create: {
+          id: 'homepage',
+          content: content as any
+        }
+      });
+
+      // Update cache
+      this.cachedContent = content;
+    } catch (error) {
+      console.error('Error saving to database:', error);
+      throw error;
     }
   }
 
@@ -1012,7 +1042,7 @@ class HomepageContentManager {
     try {
       const content = await this.getHomepageContent('en');
       content.navigation = navigation;
-      await this.saveToFile(content);
+      await this.saveToDatabase(content);
       return true;
     } catch (error) {
       console.error('Error saving navigation:', error);
@@ -1029,7 +1059,7 @@ class HomepageContentManager {
       if (featuresData.features) {
         content.features = featuresData.features;
       }
-      await this.saveToFile(content);
+      await this.saveToDatabase(content);
       return true;
     } catch (error) {
       console.error('Error saving features section:', error);
@@ -1046,7 +1076,7 @@ class HomepageContentManager {
       if (samplesData.samples) {
         content.samples = samplesData.samples;
       }
-      await this.saveToFile(content);
+      await this.saveToDatabase(content);
       return true;
     } catch (error) {
       console.error('Error saving samples section:', error);
@@ -1063,7 +1093,7 @@ class HomepageContentManager {
       if (pricingData.pricing) {
         content.pricing = pricingData.pricing;
       }
-      await this.saveToFile(content);
+      await this.saveToDatabase(content);
       return true;
     } catch (error) {
       console.error('Error saving pricing section:', error);
@@ -1075,7 +1105,7 @@ class HomepageContentManager {
     try {
       const content = await this.getHomepageContent('en');
       content.footer = footer;
-      await this.saveToFile(content);
+      await this.saveToDatabase(content);
       return true;
     } catch (error) {
       console.error('Error saving footer:', error);
@@ -1087,7 +1117,7 @@ class HomepageContentManager {
     try {
       const content = await this.getHomepageContent('en');
       content.commonUI = commonUI;
-      await this.saveToFile(content);
+      await this.saveToDatabase(content);
       return true;
     } catch (error) {
       console.error('Error saving translations:', error);
@@ -1099,7 +1129,7 @@ class HomepageContentManager {
     try {
       const content = await this.getHomepageContent('en');
       content.seo = seo;
-      await this.saveToFile(content);
+      await this.saveToDatabase(content);
       return true;
     } catch (error) {
       console.error('Error saving SEO:', error);
@@ -1109,7 +1139,7 @@ class HomepageContentManager {
 
   async saveAllContent(fullContent: HomepageContent): Promise<boolean> {
     try {
-      await this.saveToFile(fullContent);
+      await this.saveToDatabase(fullContent);
       return true;
     } catch (error) {
       console.error('Error saving all content:', error);
@@ -1117,16 +1147,76 @@ class HomepageContentManager {
     }
   }
 
+  async saveHeroSection(hero: any): Promise<boolean> {
+    try {
+      const content = await this.getHomepageContent('en');
+      content.hero = hero;
+      await this.saveToDatabase(content);
+      return true;
+    } catch (error) {
+      console.error('Error saving hero:', error);
+      return false;
+    }
+  }
+
+  async saveFeature(feature: any): Promise<boolean> {
+    try {
+      const content = await this.getHomepageContent('en');
+      const index = content.features.findIndex(f => f.id === feature.id);
+      if (index >= 0) {
+        content.features[index] = feature;
+      } else {
+        content.features.push(feature);
+      }
+      await this.saveToDatabase(content);
+      return true;
+    } catch (error) {
+      console.error('Error saving feature:', error);
+      return false;
+    }
+  }
+
+  async saveSample(sample: any): Promise<boolean> {
+    try {
+      const content = await this.getHomepageContent('en');
+      const index = content.samples.findIndex(s => s.id === sample.id);
+      if (index >= 0) {
+        content.samples[index] = sample;
+      } else {
+        content.samples.push(sample);
+      }
+      await this.saveToDatabase(content);
+      return true;
+    } catch (error) {
+      console.error('Error saving sample:', error);
+      return false;
+    }
+  }
+
+  async savePricingTier(tier: any): Promise<boolean> {
+    try {
+      const content = await this.getHomepageContent('en');
+      const index = content.pricing.findIndex(p => p.id === tier.id);
+      if (index >= 0) {
+        content.pricing[index] = tier;
+      } else {
+        content.pricing.push(tier);
+      }
+      await this.saveToDatabase(content);
+      return true;
+    } catch (error) {
+      console.error('Error saving pricing tier:', error);
+      return false;
+    }
+  }
+
   // Delete methods
   async deleteFeature(id: string): Promise<boolean> {
     try {
-      const response = await fetch(`${this.directusUrl}/items/homepage_features/${id}`, {
-        method: 'DELETE',
-        headers: {
-          'Authorization': `Bearer ${this.apiToken}`
-        }
-      });
-      return response.ok;
+      const content = await this.getHomepageContent('en');
+      content.features = content.features.filter(f => f.id !== id);
+      await this.saveToDatabase(content);
+      return true;
     } catch (error) {
       console.error('Error deleting feature:', error);
       return false;
@@ -1135,13 +1225,10 @@ class HomepageContentManager {
 
   async deleteSample(id: string): Promise<boolean> {
     try {
-      const response = await fetch(`${this.directusUrl}/items/homepage_samples/${id}`, {
-        method: 'DELETE',
-        headers: {
-          'Authorization': `Bearer ${this.apiToken}`
-        }
-      });
-      return response.ok;
+      const content = await this.getHomepageContent('en');
+      content.samples = content.samples.filter(s => s.id !== id);
+      await this.saveToDatabase(content);
+      return true;
     } catch (error) {
       console.error('Error deleting sample:', error);
       return false;
@@ -1150,13 +1237,10 @@ class HomepageContentManager {
 
   async deletePricingTier(id: string): Promise<boolean> {
     try {
-      const response = await fetch(`${this.directusUrl}/items/homepage_pricing/${id}`, {
-        method: 'DELETE',
-        headers: {
-          'Authorization': `Bearer ${this.apiToken}`
-        }
-      });
-      return response.ok;
+      const content = await this.getHomepageContent('en');
+      content.pricing = content.pricing.filter(p => p.id !== id);
+      await this.saveToDatabase(content);
+      return true;
     } catch (error) {
       console.error('Error deleting pricing tier:', error);
       return false;
@@ -1182,26 +1266,1936 @@ class HomepageContentManager {
 
   private getDefaultHero(): HeroSection {
     return {
-      title: { en: 'Create Professional Worksheets in Minutes' },
-      subtitle: { en: '33 powerful worksheet generators with 100+ themed images' },
-      cta_primary_text: { en: 'Try Word Search Free' },
+      title: {
+        en: 'Create Professional Worksheets in Minutes',
+        de: 'Erstellen Sie professionelle Arbeitsblätter in Minuten',
+        fr: 'Créez des feuilles de travail professionnelles en quelques minutes',
+        es: 'Cree hojas de trabajo profesionales en minutos',
+        it: 'Crea fogli di lavoro professionali in pochi minuti',
+        pt: 'Crie planilhas profissionais em minutos',
+        nl: 'Maak professionele werkbladen in enkele minuten',
+        sv: 'Skapa professionella arbetsblad på några minuter',
+        da: 'Opret professionelle arbejdsark på få minutter',
+        no: 'Lag profesjonelle arbeidsark på minutter',
+        fi: 'Luo ammattimaisia työarkkeja minuuteissa'
+      },
+      subtitle: {
+        en: '33 powerful worksheet generators with 100+ themed images',
+        de: '33 leistungsstarke Arbeitsblatt-Generatoren mit über 100 thematischen Bildern',
+        fr: '33 générateurs de feuilles de travail puissants avec plus de 100 images thématiques',
+        es: '33 potentes generadores de hojas de trabajo con más de 100 imágenes temáticas',
+        it: '33 potenti generatori di fogli di lavoro con oltre 100 immagini a tema',
+        pt: '33 geradores de planilhas poderosos com mais de 100 imagens temáticas',
+        nl: '33 krachtige werkbladgeneratoren met 100+ thematische afbeeldingen',
+        sv: '33 kraftfulla arbetsbladsgeneratorer med 100+ tematiska bilder',
+        da: '33 kraftfulde arbejdsark-generatorer med 100+ tematiske billeder',
+        no: '33 kraftige arbeidsarkgeneratorer med 100+ tematiske bilder',
+        fi: '33 tehokasta työarkkigeneraattoria yli 100 teemakuvalla'
+      },
+      cta_primary_text: {
+        en: 'Try Word Search Free',
+        de: 'Wortsuche kostenlos testen',
+        fr: 'Essayez la recherche de mots gratuitement',
+        es: 'Prueba la búsqueda de palabras gratis',
+        it: 'Prova la ricerca di parole gratuitamente',
+        pt: 'Experimente a busca de palavras grátis',
+        nl: 'Probeer woordzoeker gratis',
+        sv: 'Prova ordsökning gratis',
+        da: 'Prøv ordsøgning gratis',
+        no: 'Prøv ordsøk gratis',
+        fi: 'Kokeile sanahakua ilmaiseksi'
+      },
       cta_primary_link: '/apps/word-search',
-      cta_secondary_text: { en: 'View All Apps' },
+      cta_secondary_text: {
+        en: 'View All Apps',
+        de: 'Alle Apps anzeigen',
+        fr: 'Voir toutes les applications',
+        es: 'Ver todas las aplicaciones',
+        it: 'Visualizza tutte le applicazioni',
+        pt: 'Ver todos os aplicativos',
+        nl: 'Bekijk alle apps',
+        sv: 'Visa alla appar',
+        da: 'Se alle apps',
+        no: 'Se alle apper',
+        fi: 'Näytä kaikki sovellukset'
+      },
       cta_secondary_link: '/apps',
       background_gradient: 'from-primary-50 to-white'
     };
   }
 
   private getDefaultFeatures(): FeatureItem[] {
-    return [];
+    return [
+      {
+        id: 'feature-1',
+        icon: 'apps',
+        title: {
+          en: '33 Worksheet Generators',
+          de: '33 Arbeitsblatt-Generatoren',
+          fr: '33 Générateurs de feuilles',
+          es: '33 Generadores de hojas',
+          it: '33 Generatori di fogli',
+          pt: '33 Geradores de planilhas',
+          nl: '33 Werkbladgeneratoren',
+          sv: '33 Arbetsbladsgeneratorer',
+          da: '33 Arbejdsark-generatorer',
+          no: '33 Arbeidsarkgeneratorer',
+          fi: '33 Työarkkigeneraattoria'
+        },
+        description: {
+          en: 'Access our complete suite of professional worksheet generators',
+          de: 'Zugriff auf unsere komplette Suite professioneller Arbeitsblatt-Generatoren',
+          fr: 'Accédez à notre suite complète de générateurs de feuilles professionnels',
+          es: 'Acceda a nuestro completo conjunto de generadores de hojas profesionales',
+          it: 'Accedi alla nostra suite completa di generatori di fogli professionali',
+          pt: 'Acesse nosso conjunto completo de geradores de planilhas profissionais',
+          nl: 'Toegang tot onze complete suite van professionele werkbladgeneratoren',
+          sv: 'Få tillgång till vår kompletta svit av professionella arbetsbladsgeneratorer',
+          da: 'Få adgang til vores komplette suite af professionelle arbejdsark-generatorer',
+          no: 'Få tilgang til vår komplette suite av profesjonelle arbeidsarkgeneratorer',
+          fi: 'Pääsy koko ammattimaiseen työarkkigeneraattoriimme'
+        },
+        color_scheme: 'blue',
+        sort_order: 0
+      },
+      {
+        id: 'feature-2',
+        icon: 'images',
+        title: {
+          en: '100+ Themed Images',
+          de: '100+ Themenbilder',
+          fr: '100+ Images thématiques',
+          es: '100+ Imágenes temáticas',
+          it: '100+ Immagini tematiche',
+          pt: '100+ Imagens temáticas',
+          nl: '100+ Thematische afbeeldingen',
+          sv: '100+ Tematiska bilder',
+          da: '100+ Tematiske billeder',
+          no: '100+ Tematiske bilder',
+          fi: '100+ Teemallista kuvaa'
+        },
+        description: {
+          en: 'Beautifully designed images across multiple themes and categories',
+          de: 'Wunderschön gestaltete Bilder über mehrere Themen und Kategorien',
+          fr: 'Images magnifiquement conçues dans plusieurs thèmes et catégories',
+          es: 'Imágenes bellamente diseñadas en múltiples temas y categorías',
+          it: 'Immagini magnificamente progettate in più temi e categorie',
+          pt: 'Imagens lindamente projetadas em vários temas e categorias',
+          nl: 'Prachtig ontworpen afbeeldingen in meerdere thema\'s en categorieën',
+          sv: 'Vackert designade bilder över flera teman och kategorier',
+          da: 'Smukt designede billeder på tværs af flere temaer og kategorier',
+          no: 'Vakkert designede bilder på tvers av flere temaer og kategorier',
+          fi: 'Kauniisti suunniteltuja kuvia useissa teemoissa ja luokissa'
+        },
+        color_scheme: 'purple',
+        sort_order: 1
+      },
+      {
+        id: 'feature-3',
+        icon: 'languages',
+        title: {
+          en: '11 Languages',
+          de: '11 Sprachen',
+          fr: '11 Langues',
+          es: '11 Idiomas',
+          it: '11 Lingue',
+          pt: '11 Idiomas',
+          nl: '11 Talen',
+          sv: '11 Språk',
+          da: '11 Sprog',
+          no: '11 Språk',
+          fi: '11 Kieltä'
+        },
+        description: {
+          en: 'Create worksheets in English, German, French, Spanish, and 7 more languages',
+          de: 'Erstellen Sie Arbeitsblätter in Englisch, Deutsch, Französisch, Spanisch und 7 weiteren Sprachen',
+          fr: 'Créez des feuilles de travail en anglais, allemand, français, espagnol et 7 autres langues',
+          es: 'Cree hojas de trabajo en inglés, alemán, francés, español y 7 idiomas más',
+          it: 'Crea fogli di lavoro in inglese, tedesco, francese, spagnolo e altre 7 lingue',
+          pt: 'Crie planilhas em inglês, alemão, francês, espanhol e mais 7 idiomas',
+          nl: 'Maak werkbladen in Engels, Duits, Frans, Spaans en nog 7 talen',
+          sv: 'Skapa arbetsblad på engelska, tyska, franska, spanska och 7 fler språk',
+          da: 'Opret arbejdsark på engelsk, tysk, fransk, spansk og 7 flere sprog',
+          no: 'Opprett arbeidsark på engelsk, tysk, fransk, spansk og 7 flere språk',
+          fi: 'Luo työarkkeja englanniksi, saksaksi, ranskaksi, espanjaksi ja 7 muulla kielellä'
+        },
+        color_scheme: 'green',
+        sort_order: 2
+      },
+      {
+        id: 'feature-4',
+        icon: 'pod',
+        title: {
+          en: 'Print-on-Demand Ready',
+          de: 'Print-on-Demand bereit',
+          fr: 'Prêt pour l\'impression à la demande',
+          es: 'Listo para impresión bajo demanda',
+          it: 'Pronto per la stampa su richiesta',
+          pt: 'Pronto para impressão sob demanda',
+          nl: 'Klaar voor print-on-demand',
+          sv: 'Redo för tryck-på-begäran',
+          da: 'Klar til print-on-demand',
+          no: 'Klar for print-on-demand',
+          fi: 'Valmis tilaustulosteisiin'
+        },
+        description: {
+          en: 'High-quality PDFs optimized for professional printing and publishing',
+          de: 'Hochwertige PDFs optimiert für professionellen Druck und Veröffentlichung',
+          fr: 'PDF de haute qualité optimisés pour l\'impression et la publication professionnelles',
+          es: 'PDF de alta calidad optimizados para impresión y publicación profesional',
+          it: 'PDF di alta qualità ottimizzati per stampa e pubblicazione professionali',
+          pt: 'PDFs de alta qualidade otimizados para impressão e publicação profissional',
+          nl: 'Hoogwaardige PDF\'s geoptimaliseerd voor professioneel drukken en publiceren',
+          sv: 'Högkvalitativa PDF:er optimerade för professionell utskrift och publicering',
+          da: 'Høj kvalitets PDF\'er optimeret til professionel udskrivning og udgivelse',
+          no: 'Høykvalitets PDF-er optimalisert for profesjonell utskrift og publisering',
+          fi: 'Korkealaatuiset PDF-tiedostot optimoitu ammattimaiseen tulostukseen ja julkaisuun'
+        },
+        color_scheme: 'orange',
+        sort_order: 3
+      }
+    ];
   }
 
   private getDefaultSamples(): WorksheetSample[] {
-    return [];
+    return [
+      {
+        id: 'sample-1',
+        name: {
+          en: 'Alphabet Train',
+          de: 'Alphabet-Zug',
+          fr: 'Train de l\'alphabet',
+          es: 'Tren del alfabeto',
+          it: 'Trenino dell\'alfabeto',
+          pt: 'Comboio do alfabeto',
+          nl: 'Alfabettrein',
+          sv: 'Alfabetståg',
+          da: 'Alfabettog',
+          no: 'Alfabettog',
+          fi: 'Aakkosjuna'
+        },
+        description: {
+          en: 'Fun alphabet learning with colorful train cars',
+          de: 'Spaßiges Alphabet-Lernen mit bunten Zugwaggons',
+          fr: 'Apprentissage ludique de l\'alphabet avec des wagons colorés',
+          es: 'Aprendizaje divertido del alfabeto con vagones coloridos',
+          it: 'Apprendimento divertente dell\'alfabeto con vagoni colorati',
+          pt: 'Aprendizagem divertida do alfabeto com vagões coloridos',
+          nl: 'Leuk alfabetleren met kleurrijke treinwagons',
+          sv: 'Rolig alfabetsinlärning med färgglada tågvagnar',
+          da: 'Sjov alfabetlæring med farverige togvogne',
+          no: 'Morsom alfabetlæring med fargerike togvogner',
+          fi: 'Hauska aakkosten oppiminen värikkäillä junavaunuilla'
+        },
+        category: 'literacy',
+        difficulty: 'Easy',
+        age_range: {
+          en: '3-5 years',
+          de: '3-5 Jahre',
+          fr: '3-5 ans',
+          es: '3-5 años',
+          it: '3-5 anni',
+          pt: '3-5 anos',
+          nl: '3-5 jaar',
+          sv: '3-5 år',
+          da: '3-5 år',
+          no: '3-5 år',
+          fi: '3-5 vuotta'
+        },
+        image_url: '/worksheet-samples/alphabet.png',
+        featured: true,
+        sort_order: 0
+      },
+      {
+        id: 'sample-2',
+        name: {
+          en: 'Code Addition',
+          de: 'Code-Addition',
+          fr: 'Code-Addition',
+          es: 'Code-Addition',
+          it: 'Code-Addition',
+          pt: 'Code-Addition',
+          nl: 'Code-Addition',
+          sv: 'Code-Addition',
+          da: 'Code-Addition',
+          no: 'Code-Addition',
+          fi: 'Code-Addition'
+        },
+        description: {
+          en: 'Crack the code with addition puzzles',
+          de: 'Knacke den Code mit Additionsrätseln',
+          fr: 'Déchiffrez le code avec des énigmes d\'addition',
+          es: 'Descifra el código con acertijos de suma',
+          it: 'Decifra il codice con enigmi di addizione',
+          pt: 'Decifre o código com enigmas de adição',
+          nl: 'Kraak de code met optelraadsels',
+          sv: 'Knäck koden med additionsgåtor',
+          da: 'Knæk koden med additionsgåder',
+          no: 'Knekk koden med addisjonsoppgaver',
+          fi: 'Murra koodi yhteenlaskutehtävillä'
+        },
+        category: 'math',
+        difficulty: 'Medium',
+        age_range: {
+          en: '6-8 years',
+          de: '6-8 Jahre',
+          fr: '6-8 ans',
+          es: '6-8 años',
+          it: '6-8 anni',
+          pt: '6-8 anos',
+          nl: '6-8 jaar',
+          sv: '6-8 år',
+          da: '6-8 år',
+          no: '6-8 år',
+          fi: '6-8 vuotta'
+        },
+        image_url: '/worksheet-samples/code-addition.png',
+        featured: true,
+        sort_order: 1
+      },
+      {
+        id: 'sample-3',
+        name: {
+          en: 'I Spy Game',
+          de: 'Ich Sehe Was',
+          fr: 'Cherche et trouve',
+          es: 'Veo Veo',
+          it: 'Aguzza la vista',
+          pt: 'Eu Espio',
+          nl: 'Ik zie ik zie',
+          sv: 'Jag ser',
+          da: 'Jeg ser',
+          no: 'Jeg ser',
+          fi: 'Minä näen'
+        },
+        description: {
+          en: 'Classic I Spy searching game',
+          de: 'Klassisches Ich-sehe-was Suchspiel',
+          fr: 'Le jeu classique de recherche visuelle',
+          es: 'El clásico juego de búsqueda visual',
+          it: 'Il classico gioco di ricerca visiva',
+          pt: 'O clássico jogo de busca visual',
+          nl: 'Het klassieke zoekspel',
+          sv: 'Det klassiska sökspelet',
+          da: 'Det klassiske søgespil',
+          no: 'Det klassiske søkespillet',
+          fi: 'Klassinen hakupeli'
+        },
+        category: 'puzzle',
+        difficulty: 'Easy',
+        age_range: {
+          en: '4-7 years',
+          de: '4-7 Jahre',
+          fr: '4-7 ans',
+          es: '4-7 años',
+          it: '4-7 anni',
+          pt: '4-7 anos',
+          nl: '4-7 jaar',
+          sv: '4-7 år',
+          da: '4-7 år',
+          no: '4-7 år',
+          fi: '4-7 vuotta'
+        },
+        image_url: '/worksheet-samples/i-spy.png',
+        featured: true,
+        sort_order: 2
+      },
+      {
+        id: 'sample-4',
+        name: {
+          en: 'Word Search',
+          de: 'Wortsuche',
+          fr: 'Mots Mêlés',
+          es: 'Sopa de Letras',
+          it: 'Ricerca di Parole',
+          pt: 'Caça-Palavras',
+          nl: 'Woordzoeker',
+          sv: 'Ordletning',
+          da: 'Ordsøgning',
+          no: 'Ordsøk',
+          fi: 'Sanahaku'
+        },
+        description: {
+          en: 'Find hidden words in the grid',
+          de: 'Finde versteckte Wörter im Gitter',
+          fr: 'Trouvez les mots cachés dans la grille',
+          es: 'Encuentra palabras ocultas en la cuadrícula',
+          it: 'Trova le parole nascoste nella griglia',
+          pt: 'Encontre palavras ocultas na grade',
+          nl: 'Vind verborgen woorden in het raster',
+          sv: 'Hitta dolda ord i rutnätet',
+          da: 'Find skjulte ord i gitteret',
+          no: 'Finn skjulte ord i rutenettet',
+          fi: 'Etsi piilotettuja sanoja ruudukosta'
+        },
+        category: 'literacy',
+        difficulty: 'Medium',
+        age_range: {
+          en: '7-10 years',
+          de: '7-10 Jahre',
+          fr: '7-10 ans',
+          es: '7-10 años',
+          it: '7-10 anni',
+          pt: '7-10 anos',
+          nl: '7-10 jaar',
+          sv: '7-10 år',
+          da: '7-10 år',
+          no: '7-10 år',
+          fi: '7-10 vuotta'
+        },
+        image_url: '/worksheet-samples/word-search.png',
+        featured: false,
+        sort_order: 3
+      },
+      {
+        id: 'sample-5',
+        name: {
+          en: 'Multiplication Tables',
+          de: 'Einmaleins',
+          fr: 'Tables de Multiplication',
+          es: 'Tablas de Multiplicar',
+          it: 'Tabelline',
+          pt: 'Tabuadas',
+          nl: 'Tafels',
+          sv: 'Multiplikationstabeller',
+          da: 'Gangetabeller',
+          no: 'Gangetabeller',
+          fi: 'Kertotaulut'
+        },
+        description: {
+          en: 'Practice multiplication facts',
+          de: 'Übe Multiplikationsfakten',
+          fr: 'Pratiquez les faits de multiplication',
+          es: 'Practica los hechos de multiplicación',
+          it: 'Pratica i fatti di moltiplicazione',
+          pt: 'Pratique fatos de multiplicação',
+          nl: 'Oefen vermenigvuldigingsfakten',
+          sv: 'Öva multiplikationsfakta',
+          da: 'Øv multiplikationsfakta',
+          no: 'Øv multiplikasjonsfakta',
+          fi: 'Harjoittele kertotauluja'
+        },
+        category: 'math',
+        difficulty: 'Medium',
+        age_range: {
+          en: '7-9 years',
+          de: '7-9 Jahre',
+          fr: '7-9 ans',
+          es: '7-9 años',
+          it: '7-9 anni',
+          pt: '7-9 anos',
+          nl: '7-9 jaar',
+          sv: '7-9 år',
+          da: '7-9 år',
+          no: '7-9 år',
+          fi: '7-9 vuotta'
+        },
+        image_url: '/worksheet-samples/multiplication.png',
+        featured: false,
+        sort_order: 4
+      },
+      {
+        id: 'sample-6',
+        name: {
+          en: 'Maze Challenge',
+          de: 'Labyrinth-Herausforderung',
+          fr: 'Défi Labyrinthe',
+          es: 'Desafío de Laberinto',
+          it: 'Sfida del Labirinto',
+          pt: 'Desafio de Labirinto',
+          nl: 'Doolhof Uitdaging',
+          sv: 'Labyrintutmaning',
+          da: 'Labyrintudfordring',
+          no: 'Labyrintutfordring',
+          fi: 'Labyrinttihaaste'
+        },
+        description: {
+          en: 'Navigate through complex mazes',
+          de: 'Navigiere durch komplexe Labyrinthe',
+          fr: 'Naviguez à travers des labyrinthes complexes',
+          es: 'Navega por laberintos complejos',
+          it: 'Naviga attraverso labirinti complessi',
+          pt: 'Navegue por labirintos complexos',
+          nl: 'Navigeer door complexe doolhoven',
+          sv: 'Navigera genom komplexa labyrinter',
+          da: 'Naviger gennem komplekse labyrinter',
+          no: 'Naviger gjennom komplekse labyrinter',
+          fi: 'Navigoi monimutkaisissa labyrinteissa'
+        },
+        category: 'puzzle',
+        difficulty: 'Medium',
+        age_range: {
+          en: '5-8 years',
+          de: '5-8 Jahre',
+          fr: '5-8 ans',
+          es: '5-8 años',
+          it: '5-8 anni',
+          pt: '5-8 anos',
+          nl: '5-8 jaar',
+          sv: '5-8 år',
+          da: '5-8 år',
+          no: '5-8 år',
+          fi: '5-8 vuotta'
+        },
+        image_url: '/worksheet-samples/maze.png',
+        featured: false,
+        sort_order: 5
+      },
+      {
+        id: 'sample-7',
+        name: {
+          en: 'Fraction Pizza',
+          de: 'Bruch-Pizza',
+          fr: 'Pizza Fractionnée',
+          es: 'Pizza de Fracciones',
+          it: 'Pizza delle Frazioni',
+          pt: 'Pizza de Frações',
+          nl: 'Breuk Pizza',
+          sv: 'Bråkpizza',
+          da: 'Brøk Pizza',
+          no: 'Brøk Pizza',
+          fi: 'Murtolukupizza'
+        },
+        description: {
+          en: 'Learn fractions with pizza slices',
+          de: 'Lerne Brüche mit Pizzastücken',
+          fr: 'Apprenez les fractions avec des parts de pizza',
+          es: 'Aprende fracciones con porciones de pizza',
+          it: 'Impara le frazioni con fette di pizza',
+          pt: 'Aprenda frações com fatias de pizza',
+          nl: 'Leer breuken met pizzapunten',
+          sv: 'Lär dig bråk med pizzabitar',
+          da: 'Lær brøker med pizzastykker',
+          no: 'Lær brøker med pizzabiter',
+          fi: 'Opi murtoluvut pizzapaloilla'
+        },
+        category: 'math',
+        difficulty: 'Medium',
+        age_range: {
+          en: '8-10 years',
+          de: '8-10 Jahre',
+          fr: '8-10 ans',
+          es: '8-10 años',
+          it: '8-10 anni',
+          pt: '8-10 anos',
+          nl: '8-10 jaar',
+          sv: '8-10 år',
+          da: '8-10 år',
+          no: '8-10 år',
+          fi: '8-10 vuotta'
+        },
+        image_url: '/worksheet-samples/fractions.png',
+        featured: false,
+        sort_order: 6
+      },
+      {
+        id: 'sample-8',
+        name: {
+          en: 'Handwriting Practice',
+          de: 'Handschrift-Übung',
+          fr: 'Pratique de l\'Écriture',
+          es: 'Práctica de Escritura',
+          it: 'Pratica di Scrittura',
+          pt: 'Prática de Caligrafia',
+          nl: 'Handschrift Oefening',
+          sv: 'Handstilsövning',
+          da: 'Håndskriftøvelse',
+          no: 'Håndskriftsøvelse',
+          fi: 'Käsialan harjoitus'
+        },
+        description: {
+          en: 'Improve handwriting skills',
+          de: 'Verbessere Handschriftfähigkeiten',
+          fr: 'Améliorez vos compétences en écriture',
+          es: 'Mejora las habilidades de escritura',
+          it: 'Migliora le capacità di scrittura',
+          pt: 'Melhore as habilidades de caligrafia',
+          nl: 'Verbeter handschriftvaardigheden',
+          sv: 'Förbättra handstilsfärdigheter',
+          da: 'Forbedre håndskriftsfærdigheder',
+          no: 'Forbedre håndskriftsferdigheter',
+          fi: 'Paranna käsialan taitoja'
+        },
+        category: 'literacy',
+        difficulty: 'Easy',
+        age_range: {
+          en: '4-7 years',
+          de: '4-7 Jahre',
+          fr: '4-7 ans',
+          es: '4-7 años',
+          it: '4-7 anni',
+          pt: '4-7 anos',
+          nl: '4-7 jaar',
+          sv: '4-7 år',
+          da: '4-7 år',
+          no: '4-7 år',
+          fi: '4-7 vuotta'
+        },
+        image_url: '/worksheet-samples/handwriting.png',
+        featured: false,
+        sort_order: 7
+      },
+      {
+        id: 'sample-9',
+        name: {
+          en: 'Sudoku Kids',
+          de: 'Sudoku für Kinder',
+          fr: 'Sudoku Enfants',
+          es: 'Sudoku Niños',
+          it: 'Sudoku Bambini',
+          pt: 'Sudoku Crianças',
+          nl: 'Sudoku Kinderen',
+          sv: 'Sudoku Barn',
+          da: 'Sudoku Børn',
+          no: 'Sudoku Barn',
+          fi: 'Sudoku Lapset'
+        },
+        description: {
+          en: 'Easy sudoku puzzles for kids',
+          de: 'Einfache Sudoku-Rätsel für Kinder',
+          fr: 'Puzzles sudoku faciles pour enfants',
+          es: 'Puzzles sudoku fáciles para niños',
+          it: 'Puzzle sudoku facili per bambini',
+          pt: 'Puzzles sudoku fáceis para crianças',
+          nl: 'Gemakkelijke sudoku puzzels voor kinderen',
+          sv: 'Enkla sudoku pussel för barn',
+          da: 'Nemme sudoku gåder for børn',
+          no: 'Enkle sudoku oppgaver for barn',
+          fi: 'Helppoja sudoku-pulmia lapsille'
+        },
+        category: 'logic',
+        difficulty: 'Medium',
+        age_range: {
+          en: '7-10 years',
+          de: '7-10 Jahre',
+          fr: '7-10 ans',
+          es: '7-10 años',
+          it: '7-10 anni',
+          pt: '7-10 anos',
+          nl: '7-10 jaar',
+          sv: '7-10 år',
+          da: '7-10 år',
+          no: '7-10 år',
+          fi: '7-10 vuotta'
+        },
+        image_url: '/worksheet-samples/sudoku.png',
+        featured: false,
+        sort_order: 8
+      },
+      {
+        id: 'sample-10',
+        name: {
+          en: 'Coloring Pages',
+          de: 'Ausmalbilder',
+          fr: 'Pages à Colorier',
+          es: 'Páginas para Colorear',
+          it: 'Pagine da Colorare',
+          pt: 'Páginas para Colorir',
+          nl: 'Kleurplaten',
+          sv: 'Målarbilder',
+          da: 'Farvelægningssider',
+          no: 'Fargesider',
+          fi: 'Värityskuvat'
+        },
+        description: {
+          en: 'Creative coloring activities',
+          de: 'Kreative Malaktivitäten',
+          fr: 'Activités de coloriage créatives',
+          es: 'Actividades de coloreo creativo',
+          it: 'Attività creative di colorazione',
+          pt: 'Atividades criativas de colorir',
+          nl: 'Creatieve kleuractiviteiten',
+          sv: 'Kreativa målaraktiviteter',
+          da: 'Kreative farvelægningsaktiviteter',
+          no: 'Kreative fargeaktiviteter',
+          fi: 'Luovia väritystehtäviä'
+        },
+        category: 'creative',
+        difficulty: 'Easy',
+        age_range: {
+          en: '3-8 years',
+          de: '3-8 Jahre',
+          fr: '3-8 ans',
+          es: '3-8 años',
+          it: '3-8 anni',
+          pt: '3-8 anos',
+          nl: '3-8 jaar',
+          sv: '3-8 år',
+          da: '3-8 år',
+          no: '3-8 år',
+          fi: '3-8 vuotta'
+        },
+        image_url: '/worksheet-samples/coloring.png',
+        featured: false,
+        sort_order: 9
+      },
+      {
+        id: 'sample-11',
+        name: {
+          en: 'Sight Words',
+          de: 'Sichtwörter',
+          fr: 'Mots à Vue',
+          es: 'Palabras de Vista',
+          it: 'Parole Visive',
+          pt: 'Palavras Visuais',
+          nl: 'Zichtwoorden',
+          sv: 'Synord',
+          da: 'Synord',
+          no: 'Synord',
+          fi: 'Näköisanat'
+        },
+        description: {
+          en: 'Learn common sight words',
+          de: 'Lerne häufige Sichtwörter',
+          fr: 'Apprenez les mots courants',
+          es: 'Aprende palabras comunes',
+          it: 'Impara parole comuni',
+          pt: 'Aprenda palavras comuns',
+          nl: 'Leer veelvoorkomende woorden',
+          sv: 'Lär dig vanliga ord',
+          da: 'Lær almindelige ord',
+          no: 'Lær vanlige ord',
+          fi: 'Opi yleisiä sanoja'
+        },
+        category: 'literacy',
+        difficulty: 'Easy',
+        age_range: {
+          en: '4-6 years',
+          de: '4-6 Jahre',
+          fr: '4-6 ans',
+          es: '4-6 años',
+          it: '4-6 anni',
+          pt: '4-6 anos',
+          nl: '4-6 jaar',
+          sv: '4-6 år',
+          da: '4-6 år',
+          no: '4-6 år',
+          fi: '4-6 vuotta'
+        },
+        image_url: '/worksheet-samples/sight-words.png',
+        featured: false,
+        sort_order: 10
+      },
+      {
+        id: 'sample-12',
+        name: {
+          en: 'Telling Time',
+          de: 'Uhrzeit Lernen',
+          fr: 'Lire l\'Heure',
+          es: 'Decir la Hora',
+          it: 'Dire l\'Ora',
+          pt: 'Dizer as Horas',
+          nl: 'Klokkijken',
+          sv: 'Säga Klockan',
+          da: 'Fortælle Tiden',
+          no: 'Si Klokka',
+          fi: 'Kellonajan lukeminen'
+        },
+        description: {
+          en: 'Practice reading clock faces',
+          de: 'Übe das Lesen von Uhren',
+          fr: 'Pratiquez la lecture de l\'heure',
+          es: 'Practica leer relojes',
+          it: 'Pratica la lettura dell\'orologio',
+          pt: 'Pratique ler relógios',
+          nl: 'Oefen het klokkijken',
+          sv: 'Öva att läsa klockan',
+          da: 'Øv at læse ur',
+          no: 'Øv å lese klokka',
+          fi: 'Harjoittele kellonajan lukemista'
+        },
+        category: 'math',
+        difficulty: 'Medium',
+        age_range: {
+          en: '6-8 years',
+          de: '6-8 Jahre',
+          fr: '6-8 ans',
+          es: '6-8 años',
+          it: '6-8 anni',
+          pt: '6-8 anos',
+          nl: '6-8 jaar',
+          sv: '6-8 år',
+          da: '6-8 år',
+          no: '6-8 år',
+          fi: '6-8 vuotta'
+        },
+        image_url: '/worksheet-samples/telling-time.png',
+        featured: false,
+        sort_order: 11
+      },
+      {
+        id: 'sample-13',
+        name: {
+          en: 'Shape Patterns',
+          de: 'Form-Muster',
+          fr: 'Motifs de Formes',
+          es: 'Patrones de Formas',
+          it: 'Modelli di Forme',
+          pt: 'Padrões de Formas',
+          nl: 'Vormpatronen',
+          sv: 'Formmönster',
+          da: 'Formmønstre',
+          no: 'Formmønstre',
+          fi: 'Muotokuviot'
+        },
+        description: {
+          en: 'Identify and complete patterns',
+          de: 'Identifiziere und vervollständige Muster',
+          fr: 'Identifiez et complétez les motifs',
+          es: 'Identifica y completa patrones',
+          it: 'Identifica e completa i modelli',
+          pt: 'Identifique e complete padrões',
+          nl: 'Identificeer en voltooi patronen',
+          sv: 'Identifiera och slutför mönster',
+          da: 'Identificer og fuldend mønstre',
+          no: 'Identifiser og fullfør mønstre',
+          fi: 'Tunnista ja täydennä kuvioita'
+        },
+        category: 'logic',
+        difficulty: 'Easy',
+        age_range: {
+          en: '4-7 years',
+          de: '4-7 Jahre',
+          fr: '4-7 ans',
+          es: '4-7 años',
+          it: '4-7 anni',
+          pt: '4-7 anos',
+          nl: '4-7 jaar',
+          sv: '4-7 år',
+          da: '4-7 år',
+          no: '4-7 år',
+          fi: '4-7 vuotta'
+        },
+        image_url: '/worksheet-samples/patterns.png',
+        featured: false,
+        sort_order: 12
+      },
+      {
+        id: 'sample-14',
+        name: {
+          en: 'Crossword Puzzle',
+          de: 'Kreuzworträtsel',
+          fr: 'Mots Croisés',
+          es: 'Crucigrama',
+          it: 'Cruciverba',
+          pt: 'Palavras Cruzadas',
+          nl: 'Kruiswoordpuzzel',
+          sv: 'Korsord',
+          da: 'Krydsord',
+          no: 'Kryssord',
+          fi: 'Ristisanatehtävä'
+        },
+        description: {
+          en: 'Educational crossword puzzles',
+          de: 'Lehrreiche Kreuzworträtsel',
+          fr: 'Mots croisés éducatifs',
+          es: 'Crucigramas educativos',
+          it: 'Cruciverba educativi',
+          pt: 'Palavras cruzadas educativas',
+          nl: 'Educatieve kruiswoordpuzzels',
+          sv: 'Pedagogiska korsord',
+          da: 'Pædagogiske krydsord',
+          no: 'Pedagogiske kryssord',
+          fi: 'Opetuksellisia ristisanoja'
+        },
+        category: 'literacy',
+        difficulty: 'Hard',
+        age_range: {
+          en: '9-12 years',
+          de: '9-12 Jahre',
+          fr: '9-12 ans',
+          es: '9-12 años',
+          it: '9-12 anni',
+          pt: '9-12 anos',
+          nl: '9-12 jaar',
+          sv: '9-12 år',
+          da: '9-12 år',
+          no: '9-12 år',
+          fi: '9-12 vuotta'
+        },
+        image_url: '/worksheet-samples/crossword.png',
+        featured: false,
+        sort_order: 13
+      },
+      {
+        id: 'sample-15',
+        name: {
+          en: 'Money Math',
+          de: 'Geld-Mathematik',
+          fr: 'Mathématiques d\'Argent',
+          es: 'Matemáticas de Dinero',
+          it: 'Matematica del Denaro',
+          pt: 'Matemática do Dinheiro',
+          nl: 'Geld Rekenen',
+          sv: 'Pengamatte',
+          da: 'Pengematematik',
+          no: 'Pengematematikk',
+          fi: 'Raha-matematiikka'
+        },
+        description: {
+          en: 'Count coins and make change',
+          de: 'Zähle Münzen und gib Wechselgeld',
+          fr: 'Comptez les pièces et rendez la monnaie',
+          es: 'Cuenta monedas y da cambio',
+          it: 'Conta le monete e dai il resto',
+          pt: 'Conte moedas e dê troco',
+          nl: 'Tel munten en geef wisselgeld',
+          sv: 'Räkna mynt och växla',
+          da: 'Tæl mønter og giv byttepenge',
+          no: 'Tell mynter og gi vekslepenger',
+          fi: 'Laske kolikoita ja anna vaihtorahaa'
+        },
+        category: 'math',
+        difficulty: 'Medium',
+        age_range: {
+          en: '7-9 years',
+          de: '7-9 Jahre',
+          fr: '7-9 ans',
+          es: '7-9 años',
+          it: '7-9 anni',
+          pt: '7-9 anos',
+          nl: '7-9 jaar',
+          sv: '7-9 år',
+          da: '7-9 år',
+          no: '7-9 år',
+          fi: '7-9 vuotta'
+        },
+        image_url: '/worksheet-samples/money.png',
+        featured: false,
+        sort_order: 14
+      },
+      {
+        id: 'sample-16',
+        name: {
+          en: 'Connect the Dots',
+          de: 'Punkte Verbinden',
+          fr: 'Relier les Points',
+          es: 'Conecta los Puntos',
+          it: 'Unisci i Puntini',
+          pt: 'Ligue os Pontos',
+          nl: 'Stip naar Stip',
+          sv: 'Förbind Prickarna',
+          da: 'Forbind Prikkerne',
+          no: 'Koble Prikkene',
+          fi: 'Yhdistä Pisteet'
+        },
+        description: {
+          en: 'Connect dots to reveal pictures',
+          de: 'Verbinde Punkte um Bilder zu enthüllen',
+          fr: 'Reliez les points pour révéler des images',
+          es: 'Conecta puntos para revelar imágenes',
+          it: 'Unisci i puntini per rivelare immagini',
+          pt: 'Ligue pontos para revelar imagens',
+          nl: 'Verbind stippen om plaatjes te onthullen',
+          sv: 'Förbind prickar för att avslöja bilder',
+          da: 'Forbind prikker for at afsløre billeder',
+          no: 'Koble prikker for å avsløre bilder',
+          fi: 'Yhdistä pisteet paljastaaksesi kuvat'
+        },
+        category: 'puzzle',
+        difficulty: 'Easy',
+        age_range: {
+          en: '4-6 years',
+          de: '4-6 Jahre',
+          fr: '4-6 ans',
+          es: '4-6 años',
+          it: '4-6 anni',
+          pt: '4-6 anos',
+          nl: '4-6 jaar',
+          sv: '4-6 år',
+          da: '4-6 år',
+          no: '4-6 år',
+          fi: '4-6 vuotta'
+        },
+        image_url: '/worksheet-samples/connect-dots.png',
+        featured: false,
+        sort_order: 15
+      },
+      {
+        id: 'sample-17',
+        name: {
+          en: 'Phonics Practice',
+          de: 'Phonetik-Übung',
+          fr: 'Pratique Phonétique',
+          es: 'Práctica de Fonética',
+          it: 'Pratica di Fonetica',
+          pt: 'Prática de Fonética',
+          nl: 'Klankleer Oefening',
+          sv: 'Fonetikövning',
+          da: 'Fonetikøvelse',
+          no: 'Fonetikkøvelse',
+          fi: 'Foniikkaharjoitus'
+        },
+        description: {
+          en: 'Practice letter sounds and blends',
+          de: 'Übe Buchstabentöne und Mischungen',
+          fr: 'Pratiquez les sons de lettres',
+          es: 'Practica sonidos de letras',
+          it: 'Pratica i suoni delle lettere',
+          pt: 'Pratique sons de letras',
+          nl: 'Oefen letterklanken',
+          sv: 'Öva bokstavsljud',
+          da: 'Øv bogstavlyde',
+          no: 'Øv bokstavlyder',
+          fi: 'Harjoittele kirjainääniä'
+        },
+        category: 'literacy',
+        difficulty: 'Easy',
+        age_range: {
+          en: '4-6 years',
+          de: '4-6 Jahre',
+          fr: '4-6 ans',
+          es: '4-6 años',
+          it: '4-6 anni',
+          pt: '4-6 anos',
+          nl: '4-6 jaar',
+          sv: '4-6 år',
+          da: '4-6 år',
+          no: '4-6 år',
+          fi: '4-6 vuotta'
+        },
+        image_url: '/worksheet-samples/phonics.png',
+        featured: false,
+        sort_order: 16
+      },
+      {
+        id: 'sample-18',
+        name: {
+          en: 'Geometry Shapes',
+          de: 'Geometrische Formen',
+          fr: 'Formes Géométriques',
+          es: 'Formas Geométricas',
+          it: 'Forme Geometriche',
+          pt: 'Formas Geométricas',
+          nl: 'Geometrische Vormen',
+          sv: 'Geometriska Former',
+          da: 'Geometriske Former',
+          no: 'Geometriske Former',
+          fi: 'Geometriset Muodot'
+        },
+        description: {
+          en: 'Learn about 2D and 3D shapes',
+          de: 'Lerne über 2D- und 3D-Formen',
+          fr: 'Apprenez les formes 2D et 3D',
+          es: 'Aprende sobre formas 2D y 3D',
+          it: 'Impara le forme 2D e 3D',
+          pt: 'Aprenda sobre formas 2D e 3D',
+          nl: 'Leer over 2D en 3D vormen',
+          sv: 'Lär dig om 2D och 3D former',
+          da: 'Lær om 2D og 3D former',
+          no: 'Lær om 2D og 3D former',
+          fi: 'Opi 2D ja 3D muodoista'
+        },
+        category: 'math',
+        difficulty: 'Easy',
+        age_range: {
+          en: '5-8 years',
+          de: '5-8 Jahre',
+          fr: '5-8 ans',
+          es: '5-8 años',
+          it: '5-8 anni',
+          pt: '5-8 anos',
+          nl: '5-8 jaar',
+          sv: '5-8 år',
+          da: '5-8 år',
+          no: '5-8 år',
+          fi: '5-8 vuotta'
+        },
+        image_url: '/worksheet-samples/geometry.png',
+        featured: false,
+        sort_order: 17
+      },
+      {
+        id: 'sample-19',
+        name: {
+          en: 'Science Experiment',
+          de: 'Wissenschaftsexperiment',
+          fr: 'Expérience Scientifique',
+          es: 'Experimento Científico',
+          it: 'Esperimento Scientifico',
+          pt: 'Experimento Científico',
+          nl: 'Wetenschappelijk Experiment',
+          sv: 'Vetenskapsexperiment',
+          da: 'Videnskabseksperiment',
+          no: 'Vitenskapseksperiment',
+          fi: 'Tiedekoe'
+        },
+        description: {
+          en: 'Record scientific observations',
+          de: 'Zeichne wissenschaftliche Beobachtungen auf',
+          fr: 'Enregistrez des observations scientifiques',
+          es: 'Registra observaciones científicas',
+          it: 'Registra osservazioni scientifiche',
+          pt: 'Registre observações científicas',
+          nl: 'Noteer wetenschappelijke observaties',
+          sv: 'Anteckna vetenskapliga observationer',
+          da: 'Optag videnskabelige observationer',
+          no: 'Registrer vitenskapelige observasjoner',
+          fi: 'Kirjaa tieteellisiä havaintoja'
+        },
+        category: 'science',
+        difficulty: 'Medium',
+        age_range: {
+          en: '8-11 years',
+          de: '8-11 Jahre',
+          fr: '8-11 ans',
+          es: '8-11 años',
+          it: '8-11 anni',
+          pt: '8-11 anos',
+          nl: '8-11 jaar',
+          sv: '8-11 år',
+          da: '8-11 år',
+          no: '8-11 år',
+          fi: '8-11 vuotta'
+        },
+        image_url: '/worksheet-samples/science.png',
+        featured: false,
+        sort_order: 18
+      },
+      {
+        id: 'sample-20',
+        name: {
+          en: 'Reading Comprehension',
+          de: 'Leseverständnis',
+          fr: 'Compréhension de Lecture',
+          es: 'Comprensión Lectora',
+          it: 'Comprensione della Lettura',
+          pt: 'Compreensão de Leitura',
+          nl: 'Leesbegrip',
+          sv: 'Läsförståelse',
+          da: 'Læseforståelse',
+          no: 'Leseforståelse',
+          fi: 'Luetun ymmärtäminen'
+        },
+        description: {
+          en: 'Answer questions about passages',
+          de: 'Beantworte Fragen zu Texten',
+          fr: 'Répondez aux questions sur les passages',
+          es: 'Responde preguntas sobre pasajes',
+          it: 'Rispondi alle domande sui brani',
+          pt: 'Responda perguntas sobre passagens',
+          nl: 'Beantwoord vragen over teksten',
+          sv: 'Svara på frågor om texter',
+          da: 'Besvar spørgsmål om tekster',
+          no: 'Svar på spørsmål om tekster',
+          fi: 'Vastaa kysymyksiin tekstistä'
+        },
+        category: 'literacy',
+        difficulty: 'Medium',
+        age_range: {
+          en: '7-10 years',
+          de: '7-10 Jahre',
+          fr: '7-10 ans',
+          es: '7-10 años',
+          it: '7-10 anni',
+          pt: '7-10 anos',
+          nl: '7-10 jaar',
+          sv: '7-10 år',
+          da: '7-10 år',
+          no: '7-10 år',
+          fi: '7-10 vuotta'
+        },
+        image_url: '/worksheet-samples/reading.png',
+        featured: false,
+        sort_order: 19
+      },
+      {
+        id: 'sample-21',
+        name: {
+          en: 'Number Bonds',
+          de: 'Zahlenbindungen',
+          fr: 'Liaisons Numériques',
+          es: 'Lazos Numéricos',
+          it: 'Legami Numerici',
+          pt: 'Ligações Numéricas',
+          nl: 'Getalbanden',
+          sv: 'Talband',
+          da: 'Talbind',
+          no: 'Tallbånd',
+          fi: 'Lukusidokset'
+        },
+        description: {
+          en: 'Practice number relationships',
+          de: 'Übe Zahlenbeziehungen',
+          fr: 'Pratiquez les relations numériques',
+          es: 'Practica relaciones numéricas',
+          it: 'Pratica le relazioni numeriche',
+          pt: 'Pratique relações numéricas',
+          nl: 'Oefen getalrelaties',
+          sv: 'Öva talsamband',
+          da: 'Øv talforhold',
+          no: 'Øv tallforhold',
+          fi: 'Harjoittele lukujen välisiä suhteita'
+        },
+        category: 'math',
+        difficulty: 'Easy',
+        age_range: {
+          en: '5-7 years',
+          de: '5-7 Jahre',
+          fr: '5-7 ans',
+          es: '5-7 años',
+          it: '5-7 anni',
+          pt: '5-7 anos',
+          nl: '5-7 jaar',
+          sv: '5-7 år',
+          da: '5-7 år',
+          no: '5-7 år',
+          fi: '5-7 vuotta'
+        },
+        image_url: '/worksheet-samples/number-bonds.png',
+        featured: false,
+        sort_order: 20
+      },
+      {
+        id: 'sample-22',
+        name: {
+          en: 'Map Skills',
+          de: 'Kartenfähigkeiten',
+          fr: 'Compétences Cartographiques',
+          es: 'Habilidades de Mapas',
+          it: 'Abilità Cartografiche',
+          pt: 'Habilidades de Mapa',
+          nl: 'Kaartvaardigheden',
+          sv: 'Kartkunskap',
+          da: 'Kortfærdigheder',
+          no: 'Kartferdigheter',
+          fi: 'Karttotaidot'
+        },
+        description: {
+          en: 'Learn to read and use maps',
+          de: 'Lerne Karten zu lesen und zu verwenden',
+          fr: 'Apprenez à lire et utiliser des cartes',
+          es: 'Aprende a leer y usar mapas',
+          it: 'Impara a leggere e usare le mappe',
+          pt: 'Aprenda a ler e usar mapas',
+          nl: 'Leer kaarten lezen en gebruiken',
+          sv: 'Lär dig läsa och använda kartor',
+          da: 'Lær at læse og bruge kort',
+          no: 'Lær å lese og bruke kart',
+          fi: 'Opi lukemaan ja käyttämään karttoja'
+        },
+        category: 'geography',
+        difficulty: 'Medium',
+        age_range: {
+          en: '8-11 years',
+          de: '8-11 Jahre',
+          fr: '8-11 ans',
+          es: '8-11 años',
+          it: '8-11 anni',
+          pt: '8-11 anos',
+          nl: '8-11 jaar',
+          sv: '8-11 år',
+          da: '8-11 år',
+          no: '8-11 år',
+          fi: '8-11 vuotta'
+        },
+        image_url: '/worksheet-samples/maps.png',
+        featured: false,
+        sort_order: 21
+      },
+      {
+        id: 'sample-23',
+        name: {
+          en: 'Skip Counting',
+          de: 'Überspringzählen',
+          fr: 'Comptage par Sauts',
+          es: 'Conteo Salteado',
+          it: 'Conteggio a Salti',
+          pt: 'Contagem Pulada',
+          nl: 'Sprongtellen',
+          sv: 'Hoppa-räkning',
+          da: 'Spring-tælling',
+          no: 'Hopp-telling',
+          fi: 'Hyppylaskenta'
+        },
+        description: {
+          en: 'Count by 2s, 5s, and 10s',
+          de: 'Zähle in 2er-, 5er- und 10er-Schritten',
+          fr: 'Comptez par 2, 5 et 10',
+          es: 'Cuenta de 2 en 2, 5 en 5 y 10 en 10',
+          it: 'Conta per 2, 5 e 10',
+          pt: 'Conte de 2 em 2, 5 em 5 e 10 em 10',
+          nl: 'Tel met sprongen van 2, 5 en 10',
+          sv: 'Räkna med 2, 5 och 10',
+          da: 'Tæl med 2, 5 og 10',
+          no: 'Tell med 2, 5 og 10',
+          fi: 'Laske 2:lla, 5:llä ja 10:llä'
+        },
+        category: 'math',
+        difficulty: 'Easy',
+        age_range: {
+          en: '5-7 years',
+          de: '5-7 Jahre',
+          fr: '5-7 ans',
+          es: '5-7 años',
+          it: '5-7 anni',
+          pt: '5-7 anos',
+          nl: '5-7 jaar',
+          sv: '5-7 år',
+          da: '5-7 år',
+          no: '5-7 år',
+          fi: '5-7 vuotta'
+        },
+        image_url: '/worksheet-samples/skip-counting.png',
+        featured: false,
+        sort_order: 22
+      },
+      {
+        id: 'sample-24',
+        name: {
+          en: 'Rhyming Words',
+          de: 'Reimwörter',
+          fr: 'Mots qui Riment',
+          es: 'Palabras que Riman',
+          it: 'Parole in Rima',
+          pt: 'Palavras que Rimam',
+          nl: 'Rijmwoorden',
+          sv: 'Rimord',
+          da: 'Rimord',
+          no: 'Rimord',
+          fi: 'Riimisanat'
+        },
+        description: {
+          en: 'Match and create rhyming words',
+          de: 'Finde und erstelle Reimwörter',
+          fr: 'Associez et créez des mots qui riment',
+          es: 'Empareja y crea palabras que riman',
+          it: 'Abbina e crea parole in rima',
+          pt: 'Combine e crie palavras que rimam',
+          nl: 'Zoek en maak rijmwoorden',
+          sv: 'Matcha och skapa rimord',
+          da: 'Match og skab rimord',
+          no: 'Match og lag rimord',
+          fi: 'Yhdistä ja luo riimisanoja'
+        },
+        category: 'literacy',
+        difficulty: 'Easy',
+        age_range: {
+          en: '4-6 years',
+          de: '4-6 Jahre',
+          fr: '4-6 ans',
+          es: '4-6 años',
+          it: '4-6 anni',
+          pt: '4-6 anos',
+          nl: '4-6 jaar',
+          sv: '4-6 år',
+          da: '4-6 år',
+          no: '4-6 år',
+          fi: '4-6 vuotta'
+        },
+        image_url: '/worksheet-samples/rhyming.png',
+        featured: false,
+        sort_order: 23
+      },
+      {
+        id: 'sample-25',
+        name: {
+          en: 'Symmetry Drawing',
+          de: 'Symmetrie Zeichnen',
+          fr: 'Dessin de Symétrie',
+          es: 'Dibujo de Simetría',
+          it: 'Disegno di Simmetria',
+          pt: 'Desenho de Simetria',
+          nl: 'Symmetrie Tekenen',
+          sv: 'Symmetriritning',
+          da: 'Symmetritegning',
+          no: 'Symmetritegning',
+          fi: 'Symmetriapiirros'
+        },
+        description: {
+          en: 'Complete symmetrical pictures',
+          de: 'Vervollständige symmetrische Bilder',
+          fr: 'Complétez des images symétriques',
+          es: 'Completa imágenes simétricas',
+          it: 'Completa immagini simmetriche',
+          pt: 'Complete imagens simétricas',
+          nl: 'Voltooi symmetrische plaatjes',
+          sv: 'Slutför symmetriska bilder',
+          da: 'Fuldend symmetriske billeder',
+          no: 'Fullfør symmetriske bilder',
+          fi: 'Täydennä symmetriset kuvat'
+        },
+        category: 'creative',
+        difficulty: 'Medium',
+        age_range: {
+          en: '6-9 years',
+          de: '6-9 Jahre',
+          fr: '6-9 ans',
+          es: '6-9 años',
+          it: '6-9 anni',
+          pt: '6-9 anos',
+          nl: '6-9 jaar',
+          sv: '6-9 år',
+          da: '6-9 år',
+          no: '6-9 år',
+          fi: '6-9 vuotta'
+        },
+        image_url: '/worksheet-samples/symmetry.png',
+        featured: false,
+        sort_order: 24
+      },
+      {
+        id: 'sample-26',
+        name: {
+          en: 'Sentence Building',
+          de: 'Satzbau',
+          fr: 'Construction de Phrases',
+          es: 'Construcción de Oraciones',
+          it: 'Costruzione di Frasi',
+          pt: 'Construção de Frases',
+          nl: 'Zinsbouw',
+          sv: 'Meningsbyggande',
+          da: 'Sætningskonstruktion',
+          no: 'Setningsbygging',
+          fi: 'Lauseiden rakentaminen'
+        },
+        description: {
+          en: 'Create complete sentences',
+          de: 'Erstelle vollständige Sätze',
+          fr: 'Créez des phrases complètes',
+          es: 'Crea oraciones completas',
+          it: 'Crea frasi complete',
+          pt: 'Crie frases completas',
+          nl: 'Maak volledige zinnen',
+          sv: 'Skapa fullständiga meningar',
+          da: 'Skab fuldstændige sætninger',
+          no: 'Lag fullstendige setninger',
+          fi: 'Luo täydellisiä lauseita'
+        },
+        category: 'literacy',
+        difficulty: 'Medium',
+        age_range: {
+          en: '6-8 years',
+          de: '6-8 Jahre',
+          fr: '6-8 ans',
+          es: '6-8 años',
+          it: '6-8 anni',
+          pt: '6-8 anos',
+          nl: '6-8 jaar',
+          sv: '6-8 år',
+          da: '6-8 år',
+          no: '6-8 år',
+          fi: '6-8 vuotta'
+        },
+        image_url: '/worksheet-samples/sentences.png',
+        featured: false,
+        sort_order: 25
+      },
+      {
+        id: 'sample-27',
+        name: {
+          en: 'Division Facts',
+          de: 'Divisionsfakten',
+          fr: 'Faits de Division',
+          es: 'Hechos de División',
+          it: 'Fatti di Divisione',
+          pt: 'Fatos de Divisão',
+          nl: 'Deelingsfakten',
+          sv: 'Divisionsfakta',
+          da: 'Divisionsfakta',
+          no: 'Divisjonsfakta',
+          fi: 'Jakolaskut'
+        },
+        description: {
+          en: 'Practice division problems',
+          de: 'Übe Divisionsaufgaben',
+          fr: 'Pratiquez les problèmes de division',
+          es: 'Practica problemas de división',
+          it: 'Pratica i problemi di divisione',
+          pt: 'Pratique problemas de divisão',
+          nl: 'Oefen delingssommen',
+          sv: 'Öva divisionsproblem',
+          da: 'Øv divisionsproblemer',
+          no: 'Øv divisjonsoppgaver',
+          fi: 'Harjoittele jakolaskuja'
+        },
+        category: 'math',
+        difficulty: 'Hard',
+        age_range: {
+          en: '8-10 years',
+          de: '8-10 Jahre',
+          fr: '8-10 ans',
+          es: '8-10 años',
+          it: '8-10 anni',
+          pt: '8-10 anos',
+          nl: '8-10 jaar',
+          sv: '8-10 år',
+          da: '8-10 år',
+          no: '8-10 år',
+          fi: '8-10 vuotta'
+        },
+        image_url: '/worksheet-samples/division.png',
+        featured: false,
+        sort_order: 26
+      },
+      {
+        id: 'sample-28',
+        name: {
+          en: 'Adjective Adventure',
+          de: 'Adjektiv-Abenteuer',
+          fr: 'Aventure des Adjectifs',
+          es: 'Aventura de Adjetivos',
+          it: 'Avventura degli Aggettivi',
+          pt: 'Aventura de Adjetivos',
+          nl: 'Bijvoeglijke Naamwoorden Avontuur',
+          sv: 'Adjektiväventyr',
+          da: 'Adjektiveventyr',
+          no: 'Adjektiveventyr',
+          fi: 'Adjektiiviseikkailu'
+        },
+        description: {
+          en: 'Learn and use descriptive words',
+          de: 'Lerne und verwende beschreibende Wörter',
+          fr: 'Apprenez et utilisez des mots descriptifs',
+          es: 'Aprende y usa palabras descriptivas',
+          it: 'Impara e usa parole descrittive',
+          pt: 'Aprenda e use palavras descritivas',
+          nl: 'Leer en gebruik beschrijvende woorden',
+          sv: 'Lär dig och använd beskrivande ord',
+          da: 'Lær og brug beskrivende ord',
+          no: 'Lær og bruk beskrivende ord',
+          fi: 'Opi ja käytä kuvailevia sanoja'
+        },
+        category: 'literacy',
+        difficulty: 'Medium',
+        age_range: {
+          en: '7-9 years',
+          de: '7-9 Jahre',
+          fr: '7-9 ans',
+          es: '7-9 años',
+          it: '7-9 anni',
+          pt: '7-9 anos',
+          nl: '7-9 jaar',
+          sv: '7-9 år',
+          da: '7-9 år',
+          no: '7-9 år',
+          fi: '7-9 vuotta'
+        },
+        image_url: '/worksheet-samples/adjectives.png',
+        featured: false,
+        sort_order: 27
+      },
+      {
+        id: 'sample-29',
+        name: {
+          en: 'Bar Graph Analysis',
+          de: 'Balkendiagramm-Analyse',
+          fr: 'Analyse de Graphique à Barres',
+          es: 'Análisis de Gráfico de Barras',
+          it: 'Analisi del Grafico a Barre',
+          pt: 'Análise de Gráfico de Barras',
+          nl: 'Staafdiagram Analyse',
+          sv: 'Stapeldiagramanalys',
+          da: 'Søjlediagramanalyse',
+          no: 'Søylediagramanalyse',
+          fi: 'Pylväsdiagrammin analyysi'
+        },
+        description: {
+          en: 'Read and interpret bar graphs',
+          de: 'Lese und interpretiere Balkendiagramme',
+          fr: 'Lisez et interprétez des graphiques à barres',
+          es: 'Lee e interpreta gráficos de barras',
+          it: 'Leggi e interpreta i grafici a barre',
+          pt: 'Leia e interprete gráficos de barras',
+          nl: 'Lees en interpreteer staafdiagrammen',
+          sv: 'Läs och tolka stapeldiagram',
+          da: 'Læs og fortolk søjlediagrammer',
+          no: 'Les og tolke søylediagrammer',
+          fi: 'Lue ja tulkitse pylväsdiagrammeja'
+        },
+        category: 'math',
+        difficulty: 'Medium',
+        age_range: {
+          en: '7-10 years',
+          de: '7-10 Jahre',
+          fr: '7-10 ans',
+          es: '7-10 años',
+          it: '7-10 anni',
+          pt: '7-10 anos',
+          nl: '7-10 jaar',
+          sv: '7-10 år',
+          da: '7-10 år',
+          no: '7-10 år',
+          fi: '7-10 vuotta'
+        },
+        image_url: '/worksheet-samples/bar-graph.png',
+        featured: false,
+        sort_order: 28
+      },
+      {
+        id: 'sample-30',
+        name: {
+          en: 'Spelling Practice',
+          de: 'Rechtschreibübung',
+          fr: 'Pratique Orthographique',
+          es: 'Práctica de Ortografía',
+          it: 'Pratica di Ortografia',
+          pt: 'Prática de Ortografia',
+          nl: 'Spellingsoefening',
+          sv: 'Stavningsövning',
+          da: 'Stavningsøvelse',
+          no: 'Stavingsøvelse',
+          fi: 'Oikeinkirjoitusharjoitus'
+        },
+        description: {
+          en: 'Practice spelling words',
+          de: 'Übe Rechtschreibwörter',
+          fr: 'Pratiquez les mots d\'orthographe',
+          es: 'Practica palabras de ortografía',
+          it: 'Pratica le parole di ortografia',
+          pt: 'Pratique palavras de ortografia',
+          nl: 'Oefen spellingwoorden',
+          sv: 'Öva stavningsord',
+          da: 'Øv stavningsord',
+          no: 'Øv stavingsord',
+          fi: 'Harjoittele oikeinkirjoitusta'
+        },
+        category: 'literacy',
+        difficulty: 'Medium',
+        age_range: {
+          en: '6-9 years',
+          de: '6-9 Jahre',
+          fr: '6-9 ans',
+          es: '6-9 años',
+          it: '6-9 anni',
+          pt: '6-9 anos',
+          nl: '6-9 jaar',
+          sv: '6-9 år',
+          da: '6-9 år',
+          no: '6-9 år',
+          fi: '6-9 vuotta'
+        },
+        image_url: '/worksheet-samples/spelling.png',
+        featured: false,
+        sort_order: 29
+      },
+      {
+        id: 'sample-31',
+        name: {
+          en: 'Tangram Puzzles',
+          de: 'Tangram-Rätsel',
+          fr: 'Puzzles Tangram',
+          es: 'Rompecabezas Tangram',
+          it: 'Puzzle Tangram',
+          pt: 'Quebra-cabeças Tangram',
+          nl: 'Tangram Puzzels',
+          sv: 'Tangram Pussel',
+          da: 'Tangram Gåder',
+          no: 'Tangram Oppgaver',
+          fi: 'Tangram-palapelit'
+        },
+        description: {
+          en: 'Arrange shapes to form pictures',
+          de: 'Ordne Formen an um Bilder zu bilden',
+          fr: 'Disposez les formes pour former des images',
+          es: 'Organiza formas para formar imágenes',
+          it: 'Disponi le forme per formare immagini',
+          pt: 'Organize formas para formar imagens',
+          nl: 'Rangschik vormen om plaatjes te vormen',
+          sv: 'Arrangera former för att bilda bilder',
+          da: 'Arranger former for at danne billeder',
+          no: 'Arranger former for å lage bilder',
+          fi: 'Järjestä muotoja kuvan muodostamiseksi'
+        },
+        category: 'puzzle',
+        difficulty: 'Hard',
+        age_range: {
+          en: '7-12 years',
+          de: '7-12 Jahre',
+          fr: '7-12 ans',
+          es: '7-12 años',
+          it: '7-12 anni',
+          pt: '7-12 anos',
+          nl: '7-12 jaar',
+          sv: '7-12 år',
+          da: '7-12 år',
+          no: '7-12 år',
+          fi: '7-12 vuotta'
+        },
+        image_url: '/worksheet-samples/tangram.png',
+        featured: false,
+        sort_order: 30
+      },
+      {
+        id: 'sample-32',
+        name: {
+          en: 'Calendar Skills',
+          de: 'Kalenderfähigkeiten',
+          fr: 'Compétences de Calendrier',
+          es: 'Habilidades de Calendario',
+          it: 'Abilità del Calendario',
+          pt: 'Habilidades de Calendário',
+          nl: 'Kalendervaardigheden',
+          sv: 'Kalenderkunskap',
+          da: 'Kalenderfærdigheder',
+          no: 'Kalenderferdigheter',
+          fi: 'Kalenteritaidot'
+        },
+        description: {
+          en: 'Learn days, months, and dates',
+          de: 'Lerne Tage, Monate und Daten',
+          fr: 'Apprenez les jours, mois et dates',
+          es: 'Aprende días, meses y fechas',
+          it: 'Impara giorni, mesi e date',
+          pt: 'Aprenda dias, meses e datas',
+          nl: 'Leer dagen, maanden en data',
+          sv: 'Lär dig dagar, månader och datum',
+          da: 'Lær dage, måneder og datoer',
+          no: 'Lær dager, måneder og datoer',
+          fi: 'Opi päivät, kuukaudet ja päivämäärät'
+        },
+        category: 'math',
+        difficulty: 'Easy',
+        age_range: {
+          en: '5-8 years',
+          de: '5-8 Jahre',
+          fr: '5-8 ans',
+          es: '5-8 años',
+          it: '5-8 anni',
+          pt: '5-8 anos',
+          nl: '5-8 jaar',
+          sv: '5-8 år',
+          da: '5-8 år',
+          no: '5-8 år',
+          fi: '5-8 vuotta'
+        },
+        image_url: '/worksheet-samples/calendar.png',
+        featured: false,
+        sort_order: 31
+      },
+      {
+        id: 'sample-33',
+        name: {
+          en: 'Weather Observation',
+          de: 'Wetterbeobachtung',
+          fr: 'Observation Météorologique',
+          es: 'Observación del Clima',
+          it: 'Osservazione Meteorologica',
+          pt: 'Observação do Tempo',
+          nl: 'Weerobservatie',
+          sv: 'Väderobservation',
+          da: 'Vejrobservation',
+          no: 'Værobservasjon',
+          fi: 'Säähavainto'
+        },
+        description: {
+          en: 'Track and record weather patterns',
+          de: 'Verfolge und notiere Wettermuster',
+          fr: 'Suivez et enregistrez les modèles météorologiques',
+          es: 'Rastrea y registra patrones climáticos',
+          it: 'Traccia e registra i modelli meteorologici',
+          pt: 'Rastreie e registre padrões climáticos',
+          nl: 'Volg en noteer weerpatronen',
+          sv: 'Spåra och registrera vädermönster',
+          da: 'Spor og optag vejrmønstre',
+          no: 'Spor og registrer værmønstre',
+          fi: 'Seuraa ja kirjaa säämalleja'
+        },
+        category: 'science',
+        difficulty: 'Easy',
+        age_range: {
+          en: '5-8 years',
+          de: '5-8 Jahre',
+          fr: '5-8 ans',
+          es: '5-8 años',
+          it: '5-8 anni',
+          pt: '5-8 anos',
+          nl: '5-8 jaar',
+          sv: '5-8 år',
+          da: '5-8 år',
+          no: '5-8 år',
+          fi: '5-8 vuotta'
+        },
+        image_url: '/worksheet-samples/weather.png',
+        featured: false,
+        sort_order: 32
+      }
+    ];
   }
 
   private getDefaultPricing(): PricingTier[] {
-    return [];
+    return [
+      {
+        id: 'pricing-1',
+        name: {
+          en: 'Free Tier',
+          de: 'Kostenlos',
+          fr: 'Gratuit',
+          es: 'Gratis',
+          it: 'Gratuito',
+          pt: 'Grátis',
+          nl: 'Gratis',
+          sv: 'Gratis',
+          da: 'Gratis',
+          no: 'Gratis',
+          fi: 'Ilmainen'
+        },
+        price: '$0',
+        price_period: '',
+        features: {
+          en: ['3 worksheet generators', 'Basic image library', 'Watermarked PDFs', 'Community support'],
+          de: ['3 Arbeitsblatt-Generatoren', 'Basis-Bildbibliothek', 'PDFs mit Wasserzeichen', 'Community-Support'],
+          fr: ['3 générateurs de feuilles', 'Bibliothèque d\'images de base', 'PDF avec filigrane', 'Support communautaire'],
+          es: ['3 generadores de hojas', 'Biblioteca de imágenes básica', 'PDF con marca de agua', 'Soporte comunitario'],
+          it: ['3 generatori di fogli', 'Libreria immagini di base', 'PDF con filigrana', 'Supporto della comunità'],
+          pt: ['3 geradores de planilhas', 'Biblioteca de imagens básica', 'PDFs com marca d\'água', 'Suporte da comunidade'],
+          nl: ['3 werkbladgeneratoren', 'Basis afbeeldingenbibliotheek', 'PDF\'s met watermerk', 'Community-ondersteuning'],
+          sv: ['3 arbetsbladsgeneratorer', 'Grundläggande bildbibliotek', 'PDF med vattenstämpel', 'Community-stöd'],
+          da: ['3 arbejdsark-generatorer', 'Basis billedbibliotek', 'PDF\'er med vandmærke', 'Community-support'],
+          no: ['3 arbeidsarkgeneratorer', 'Grunnleggende bildebibliotek', 'PDF-er med vannmerke', 'Community-støtte'],
+          fi: ['3 työarkkigeneraattoria', 'Peruskirjasto', 'PDF vesileimalla', 'Yhteisötuki']
+        },
+        cta_text: {
+          en: 'Start Free',
+          de: 'Kostenlos starten',
+          fr: 'Commencer gratuitement',
+          es: 'Comenzar gratis',
+          it: 'Inizia gratis',
+          pt: 'Começar grátis',
+          nl: 'Start gratis',
+          sv: 'Börja gratis',
+          da: 'Start gratis',
+          no: 'Start gratis',
+          fi: 'Aloita ilmaiseksi'
+        },
+        cta_link: '/auth/signup',
+        highlighted: false,
+        badge_text: {
+          en: '',
+          de: '',
+          fr: '',
+          es: '',
+          it: '',
+          pt: '',
+          nl: '',
+          sv: '',
+          da: '',
+          no: '',
+          fi: ''
+        },
+        sort_order: 0
+      },
+      {
+        id: 'pricing-2',
+        name: {
+          en: 'Core Bundle',
+          de: 'Kern-Paket',
+          fr: 'Pack de base',
+          es: 'Paquete básico',
+          it: 'Pacchetto base',
+          pt: 'Pacote básico',
+          nl: 'Basispakket',
+          sv: 'Baspaket',
+          da: 'Basispakke',
+          no: 'Basispakke',
+          fi: 'Peruspaketti'
+        },
+        price: '$15',
+        price_period: '/month',
+        features: {
+          en: ['15 worksheet generators', 'Full image library', 'Unlimited downloads', 'Priority support'],
+          de: ['15 Arbeitsblatt-Generatoren', 'Vollständige Bildbibliothek', 'Unbegrenzte Downloads', 'Prioritäts-Support'],
+          fr: ['15 générateurs de feuilles', 'Bibliothèque d\'images complète', 'Téléchargements illimités', 'Support prioritaire'],
+          es: ['15 generadores de hojas', 'Biblioteca de imágenes completa', 'Descargas ilimitadas', 'Soporte prioritario'],
+          it: ['15 generatori di fogli', 'Libreria immagini completa', 'Download illimitati', 'Supporto prioritario'],
+          pt: ['15 geradores de planilhas', 'Biblioteca de imagens completa', 'Downloads ilimitados', 'Suporte prioritário'],
+          nl: ['15 werkbladgeneratoren', 'Volledige afbeeldingenbibliotheek', 'Onbeperkte downloads', 'Prioriteitsondersteuning'],
+          sv: ['15 arbetsbladsgeneratorer', 'Fullständigt bildbibliotek', 'Obegränsade nedladdningar', 'Prioritetsstöd'],
+          da: ['15 arbejdsark-generatorer', 'Fuldt billedbibliotek', 'Ubegrænsede downloads', 'Prioritetssupport'],
+          no: ['15 arbeidsarkgeneratorer', 'Fullstendig bildebibliotek', 'Ubegrensede nedlastninger', 'Prioritetsstøtte'],
+          fi: ['15 työarkkigeneraattoria', 'Täydellinen kuvakirjasto', 'Rajoittamattomat lataukset', 'Prioriteettituki']
+        },
+        cta_text: {
+          en: 'Choose Core',
+          de: 'Kern wählen',
+          fr: 'Choisir de base',
+          es: 'Elegir básico',
+          it: 'Scegli base',
+          pt: 'Escolher básico',
+          nl: 'Kies basis',
+          sv: 'Välj bas',
+          da: 'Vælg basis',
+          no: 'Velg basis',
+          fi: 'Valitse perus'
+        },
+        cta_link: '/pricing',
+        highlighted: false,
+        badge_text: {
+          en: '',
+          de: '',
+          fr: '',
+          es: '',
+          it: '',
+          pt: '',
+          nl: '',
+          sv: '',
+          da: '',
+          no: '',
+          fi: ''
+        },
+        sort_order: 1
+      },
+      {
+        id: 'pricing-3',
+        name: {
+          en: 'Full Access',
+          de: 'Vollzugriff',
+          fr: 'Accès complet',
+          es: 'Acceso completo',
+          it: 'Accesso completo',
+          pt: 'Acesso completo',
+          nl: 'Volledige toegang',
+          sv: 'Full åtkomst',
+          da: 'Fuld adgang',
+          no: 'Full tilgang',
+          fi: 'Täysi pääsy'
+        },
+        price: '$25',
+        price_period: '/month',
+        features: {
+          en: ['All 33 generators', 'Premium images', 'Unlimited downloads', 'Priority support', 'Early access to new features'],
+          de: ['Alle 33 Generatoren', 'Premium-Bilder', 'Unbegrenzte Downloads', 'Prioritäts-Support', 'Frühzugriff auf neue Funktionen'],
+          fr: ['Tous les 33 générateurs', 'Images premium', 'Téléchargements illimités', 'Support prioritaire', 'Accès anticipé aux nouvelles fonctionnalités'],
+          es: ['Todos los 33 generadores', 'Imágenes premium', 'Descargas ilimitadas', 'Soporte prioritario', 'Acceso anticipado a nuevas funciones'],
+          it: ['Tutti i 33 generatori', 'Immagini premium', 'Download illimitati', 'Supporto prioritario', 'Accesso anticipato alle nuove funzionalità'],
+          pt: ['Todos os 33 geradores', 'Imagens premium', 'Downloads ilimitados', 'Suporte prioritário', 'Acesso antecipado a novos recursos'],
+          nl: ['Alle 33 generatoren', 'Premium-afbeeldingen', 'Onbeperkte downloads', 'Prioriteitsondersteuning', 'Vroege toegang tot nieuwe functies'],
+          sv: ['Alla 33 generatorer', 'Premiumbilder', 'Obegränsade nedladdningar', 'Prioritetsstöd', 'Tidig tillgång till nya funktioner'],
+          da: ['Alle 33 generatorer', 'Premium-billeder', 'Ubegrænsede downloads', 'Prioritetssupport', 'Tidlig adgang til nye funktioner'],
+          no: ['Alle 33 generatorer', 'Premiumbilder', 'Ubegrensede nedlastninger', 'Prioritetsstøtte', 'Tidlig tilgang til nye funksjoner'],
+          fi: ['Kaikki 33 generaattoria', 'Premium-kuvat', 'Rajoittamattomat lataukset', 'Prioriteettituki', 'Varhainen pääsy uusiin ominaisuuksiin']
+        },
+        cta_text: {
+          en: 'Get Full Access',
+          de: 'Vollzugriff erhalten',
+          fr: 'Obtenir un accès complet',
+          es: 'Obtener acceso completo',
+          it: 'Ottieni accesso completo',
+          pt: 'Obter acesso completo',
+          nl: 'Krijg volledige toegang',
+          sv: 'Få full åtkomst',
+          da: 'Få fuld adgang',
+          no: 'Få full tilgang',
+          fi: 'Hanki täysi pääsy'
+        },
+        cta_link: '/pricing',
+        highlighted: true,
+        badge_text: {
+          en: 'Most Popular',
+          de: 'Am beliebtesten',
+          fr: 'Le plus populaire',
+          es: 'Más popular',
+          it: 'Più popolare',
+          pt: 'Mais popular',
+          nl: 'Populairst',
+          sv: 'Populärast',
+          da: 'Mest populære',
+          no: 'Mest populær',
+          fi: 'Suosituin'
+        },
+        sort_order: 2
+      }
+    ];
   }
 
   private getDefaultSEO(): HomepageContent['seo'] {

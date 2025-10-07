@@ -23,6 +23,7 @@ import {
   Layers,
   Bell,
   Search,
+  UserCog,
 } from 'lucide-react';
 import { useAuth } from '@/contexts/auth-context';
 import { toast } from 'react-hot-toast';
@@ -56,13 +57,18 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
       current: pathname === '/admin',
     },
     {
+      name: 'User Control',
+      href: '/admin/user-control',
+      icon: UserCog,
+      current: pathname.startsWith('/admin/user-control'),
+    },
+    {
       name: 'Users',
       icon: Users,
       current: pathname.startsWith('/admin/users'),
       children: [
         { name: 'All Users', href: '/admin/users' },
         { name: 'Subscribers', href: '/admin/users/subscribers' },
-        { name: 'User Activity', href: '/admin/users/activity' },
         { name: 'Permissions', href: '/admin/users/permissions' },
       ],
     },
@@ -96,19 +102,7 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
       children: [
         { name: 'Generators', href: '/admin/worksheets/generators' },
         { name: 'Templates', href: '/admin/worksheets/templates' },
-        { name: 'Usage Stats', href: '/admin/worksheets/usage' },
         { name: 'Samples', href: '/admin/worksheets/samples' },
-      ],
-    },
-    {
-      name: 'Analytics',
-      icon: BarChart3,
-      current: pathname.startsWith('/admin/analytics'),
-      children: [
-        { name: 'Overview', href: '/admin/analytics' },
-        { name: 'Revenue', href: '/admin/analytics/revenue' },
-        { name: 'Usage', href: '/admin/analytics/usage' },
-        { name: 'Conversion', href: '/admin/analytics/conversion' },
       ],
     },
     {
@@ -332,14 +326,6 @@ export default function AdminLayout({ children }: AdminLayoutProps) {
 
           {/* Actions */}
           <div className="flex items-center gap-x-4 lg:gap-x-6">
-            {/* Activity indicator */}
-            <Link
-              href="/admin/activity"
-              className="relative p-2 text-gray-400 hover:text-gray-500"
-            >
-              <Activity className="h-6 w-6" />
-            </Link>
-
             {/* Notifications */}
             <button className="relative p-2 text-gray-400 hover:text-gray-500">
               <Bell className="h-6 w-6" />

@@ -14,7 +14,7 @@ const prisma = new PrismaClient();
 export class AuthController {
   async register(req: Request, res: Response, next: NextFunction) {
     try {
-      const { email, password, firstName, lastName, preferredLocale } = req.body;
+      const { email, password, firstName, lastName, language } = req.body;
 
       // Validate input
       if (!email || !password) {
@@ -47,7 +47,7 @@ export class AuthController {
           passwordHash,
           firstName,
           lastName,
-          preferredLocale: preferredLocale || 'en',
+          language: language || 'en',
           verificationToken,
           subscriptionTier: 'free'
         }

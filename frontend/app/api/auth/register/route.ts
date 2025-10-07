@@ -44,7 +44,7 @@ export async function POST(request: NextRequest) {
         passwordHash,
         firstName: validatedData.firstName,
         lastName: validatedData.lastName,
-        preferredLocale: validatedData.locale,
+        language: validatedData.locale,
         verificationToken,
         subscriptionTier: 'free',
         emailVerified: false, // For development, set to true to skip email verification

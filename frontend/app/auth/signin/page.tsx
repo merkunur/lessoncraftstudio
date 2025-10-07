@@ -8,14 +8,14 @@ import { Eye, EyeOff, Loader2, Mail, Lock } from 'lucide-react';
 
 export default function SignInPage() {
   const router = useRouter();
-  const { login, loading } = useAuth();
-  
+  const { login } = useAuth();
+
   const [formData, setFormData] = useState({
     email: '',
     password: '',
     rememberMe: false,
   });
-  
+
   const [showPassword, setShowPassword] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -39,7 +39,7 @@ export default function SignInPage() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!validateForm()) {
       return;
     }
@@ -49,10 +49,9 @@ export default function SignInPage() {
 
     try {
       await login(formData.email, formData.password, formData.rememberMe);
-      // Redirect handled by auth context
     } catch (error) {
-      // Error handled by auth context
       console.error('Login error:', error);
+      setErrors({ password: error instanceof Error ? error.message : 'Invalid email or password' });
     } finally {
       setIsSubmitting(false);
     }

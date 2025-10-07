@@ -67,23 +67,10 @@ export async function GET(request: NextRequest) {
       },
     });
 
-    // Get usage statistics for the current month
-    const startOfMonth = new Date();
-    startOfMonth.setDate(1);
-    startOfMonth.setHours(0, 0, 0, 0);
-
-    const monthlyUsage = await prisma.usageTracking.aggregate({
+    // Get usage statistics (generations count)
+    const monthlyUsage = await prisma.worksheetUsage.count({
       where: {
         userId: user.id,
-        createdAt: {
-          gte: startOfMonth,
-        },
-      },
-      _sum: {
-        count: true,
-      },
-      _count: {
-        _all: true,
       },
     });
 
@@ -139,7 +126,7 @@ export async function GET(request: NextRequest) {
         limits: userLimits,
       } : null,
       usage: {
-        monthlyExports: monthlyUsage._sum.count || 0,
+        totalGenerations: monthlyUsage,
         activeSessions: user._count.sessions,
         totalActivities: user._count.activityLogs,
       },

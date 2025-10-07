@@ -5,6 +5,13 @@ import { STRIPE_WEBHOOK_EVENTS } from '@/lib/stripe-config';
 import { prisma } from '@/lib/prisma';
 import Stripe from 'stripe';
 
+// CRITICAL: Disable body parser to get raw body for signature verification
+export const config = {
+  api: {
+    bodyParser: false,
+  },
+};
+
 // Stripe webhook endpoint
 export async function POST(request: NextRequest) {
   try {
@@ -175,9 +182,16 @@ async function handleInvoicePaid(invoice: Stripe.Invoice) {
     return;
   }
 
-  // Record payment
-  await prisma.payment.create({
-    data: {
+  // Record payment (upsert for idempotency - prevents duplicates if webhook is retried)
+  await prisma.payment.upsert({
+    where: {
+      stripePaymentIntentId: invoice.payment_intent as string,
+    },
+    update: {
+      status: 'succeeded',
+      amount: invoice.amount_paid / 100,
+    },
+    create: {
       userId: user.id,
       stripePaymentIntentId: invoice.payment_intent as string,
       amount: invoice.amount_paid / 100, // Convert from cents
@@ -212,9 +226,16 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
     return;
   }
 
-  // Record failed payment
-  await prisma.payment.create({
-    data: {
+  // Record failed payment (upsert for idempotency)
+  await prisma.payment.upsert({
+    where: {
+      stripePaymentIntentId: invoice.payment_intent as string,
+    },
+    update: {
+      status: 'failed',
+      amount: invoice.amount_due / 100,
+    },
+    create: {
       userId: user.id,
       stripePaymentIntentId: invoice.payment_intent as string,
       amount: invoice.amount_due / 100,

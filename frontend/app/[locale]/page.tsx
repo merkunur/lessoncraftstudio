@@ -55,15 +55,15 @@ async function getHomepageContent(locale: string) {
           features: rawContent.pricing.find((p: any) => p.name.en === 'Full Access')?.features[locale] || []
         }
       } : null,
-      samplesSection: rawContent.worksheetSamples && rawContent.samplesSection ? {
-        samples: rawContent.worksheetSamples.map((sample: any, index: number) => ({
+      samplesSection: rawContent.samples && rawContent.samplesSection ? {
+        samples: rawContent.samples.map((sample: any, index: number) => ({
           id: sample.id || `sample-${index}`,
-          name: sample.name || 'Untitled',
+          name: (typeof sample.name === 'object' ? (sample.name[locale] || sample.name.en) : sample.name) || 'Untitled',
           category: sample.category || 'general',
           image: sample.image || sample.image_url || '/worksheet-samples/placeholder.png',
-          description: sample.description || 'No description available',
+          description: (typeof sample.description === 'object' ? (sample.description[locale] || sample.description.en) : sample.description) || 'No description available',
           difficulty: sample.difficulty || 'Easy',
-          ageRange: sample.ageRange || sample.age_range || '5-7 years'
+          ageRange: (typeof sample.age_range === 'object' ? (sample.age_range[locale] || sample.age_range.en) : sample.age_range) || '5-7 years'
         })),
         sectionTitle: rawContent.samplesSection.title[locale] || rawContent.samplesSection.title.en,
         sectionSubtitle: rawContent.samplesSection.subtitle[locale] || rawContent.samplesSection.subtitle.en,

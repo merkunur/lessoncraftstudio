@@ -1,127 +1,84 @@
-// NextAuth v5 config
-import CredentialsProvider from 'next-auth/providers/credentials';
-import bcrypt from 'bcryptjs';
-import { prisma } from '@/lib/prisma';
-
-export const authOptions = {
-  providers: [
-    CredentialsProvider({
-      name: 'credentials',
-      credentials: {
-        email: { label: "Email", type: "email" },
-        password: { label: "Password", type: "password" }
-      },
-      async authorize(credentials: Partial<Record<"email" | "password", unknown>>) {
-        if (!credentials?.email || !credentials?.password) {
-          return null;
-        }
-
-        try {
-          // Check if user exists
-          const user = await prisma.user.findUnique({
-            where: { email: credentials.email as string }
-          });
-
-          if (!user) {
-            return null;
-          }
-
-          // Verify password
-          const isValid = await bcrypt.compare(
-            credentials.password as string,
-            user.passwordHash
-          );
-
-          if (!isValid) {
-            return null;
-          }
-
-          // Check if email is verified
-          if (!user.emailVerified) {
-            throw new Error('Please verify your email before logging in');
-          }
-
-          return {
-            id: user.id.toString(),
-            email: user.email,
-            name: `${user.firstName} ${user.lastName}`,
-            subscriptionTier: user.subscriptionTier,
-            image: null
-          };
-        } catch (error) {
-          console.error('Auth error:', error);
-          return null;
-        }
-      }
-    })
-  ],
-  callbacks: {
-    async jwt({ token, user }: any) {
-      if (user) {
-        token.id = user.id;
-        token.subscriptionTier = user.subscriptionTier;
-      }
-      return token;
-    },
-    async session({ session, token }: any) {
-      if (session?.user) {
-        session.user.id = token.id as string;
-        session.user.subscriptionTier = token.subscriptionTier as string;
-      }
-      return session;
-    }
-  },
-  session: {
-    strategy: 'jwt',
-    maxAge: 24 * 60 * 60, // 24 hours
-  },
-  pages: {
-    signIn: '/auth/signin',
-    signUp: '/auth/signup',
-    error: '/auth/error',
-  },
-  secret: process.env.NEXTAUTH_SECRET,
-};
-
-// For Next-Auth v5 (beta) compatibility
-export async function auth() {
-  return null;
-}
-
-// JWT-based authentication (for custom API endpoints)
 import { NextRequest } from 'next/server';
-import jwt from 'jsonwebtoken';
+import { verifyAccessToken, extractBearerToken } from './auth-utils';
+import { prisma } from './prisma';
 
+/**
+ * Get current authenticated user from JWT token in Authorization header
+ * Used in API routes to authenticate requests
+ */
 export async function getCurrentUser(request: NextRequest) {
   try {
-    const authHeader = request.headers.get('Authorization');
-    if (!authHeader || !authHeader.startsWith('Bearer ')) {
+    // Extract Authorization header
+    const authHeader = request.headers.get('authorization');
+    const token = extractBearerToken(authHeader);
+
+    if (!token) {
       return null;
     }
 
-    const token = authHeader.substring(7);
-    const JWT_SECRET = process.env.JWT_SECRET || 'your-super-secret-jwt-key-min-32-characters-long';
+    // Verify token
+    const payload = verifyAccessToken(token);
+    if (!payload) {
+      return null;
+    }
 
-    const decoded = jwt.verify(token, JWT_SECRET) as any;
-
-    // Fetch full user data from database
+    // Get user from database with subscription
     const user = await prisma.user.findUnique({
-      where: { id: decoded.userId },
-      select: {
-        id: true,
-        email: true,
-        firstName: true,
-        lastName: true,
-        subscriptionTier: true,
-        stripeCustomerId: true,
-        emailVerified: true,
-        isAdmin: true,
-      }
+      where: { id: payload.userId },
+      include: {
+        subscription: true,
+      },
     });
 
-    return user;
+    if (!user) {
+      return null;
+    }
+
+    // Check if suspended
+    if (user.isSuspended) {
+      return null;
+    }
+
+    return {
+      id: user.id,
+      email: user.email,
+      firstName: user.firstName,
+      lastName: user.lastName,
+      subscriptionTier: user.subscriptionTier,
+      subscriptionStatus: user.subscription?.status || 'inactive',
+      stripeCustomerId: user.stripeCustomerId,
+      isAdmin: user.isAdmin,
+      emailVerified: user.emailVerified,
+      language: user.language,
+    };
   } catch (error) {
-    console.error('Get current user error:', error);
+    console.error('getCurrentUser error:', error);
     return null;
   }
+}
+
+/**
+ * Require authentication - returns user or throws 401 error
+ */
+export async function requireAuth(request: NextRequest) {
+  const user = await getCurrentUser(request);
+
+  if (!user) {
+    throw new Error('Unauthorized');
+  }
+
+  return user;
+}
+
+/**
+ * Require admin access - returns user or throws 403 error
+ */
+export async function requireAdmin(request: NextRequest) {
+  const user = await requireAuth(request);
+
+  if (!user.isAdmin) {
+    throw new Error('Forbidden - Admin access required');
+  }
+
+  return user;
 }

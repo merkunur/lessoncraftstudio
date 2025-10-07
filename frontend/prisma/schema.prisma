@@ -44,19 +44,20 @@ model User {
   updatedAt   DateTime  @updatedAt @map("updated_at")
 
   // Relations
-  subscription    Subscription?
-  sessions        Session[]
-  passwordResets  PasswordReset[]
-  blogPosts       BlogPost[]
-  blogComments    BlogComment[]
-  blogLikes       BlogLike[]
-  analyticsEvents AnalyticsEvent[]
-  payments        Payment[]
-  worksheetUsage  WorksheetUsage[]
-  usageQuotas     UsageQuota[]
-  notifications   Notification[]
-  activityLogs    ActivityLog[]
-  supportTickets  SupportTicket[]
+  subscription        Subscription?
+  sessions            Session[]
+  passwordResets      PasswordReset[]
+  accountSharingLogs  AccountSharingLog[]
+  blogPosts           BlogPost[]
+  blogComments        BlogComment[]
+  blogLikes           BlogLike[]
+  analyticsEvents     AnalyticsEvent[]
+  payments            Payment[]
+  worksheetUsage      WorksheetUsage[]
+  usageQuotas         UsageQuota[]
+  notifications       Notification[]
+  activityLogs        ActivityLog[]
+  supportTickets      SupportTicket[]
 
   @@index([email])
   @@index([stripeCustomerId])
@@ -78,10 +79,22 @@ model Session {
   expiresAt    DateTime @map("expires_at")
   createdAt    DateTime @default(now()) @map("created_at")
 
+  // Device Tracking Fields (for account sharing prevention)
+  deviceId       String?  @map("device_id") // Fingerprint from FingerprintJS
+  deviceName     String?  @map("device_name") // "Chrome on MacOS"
+  deviceType     String?  @map("device_type") // "desktop", "mobile", "tablet"
+  browser        String?
+  os             String?
+  country        String?
+  city           String?
+  lastActivityAt DateTime @default(now()) @map("last_activity_at")
+
   user User @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@index([userId])
   @@index([token])
+  @@index([deviceId])
+  @@index([expiresAt])
   @@map("sessions")
 }
 
@@ -98,6 +111,25 @@ model PasswordReset {
   @@index([userId])
   @@index([token])
   @@map("password_resets")
+}
+
+model AccountSharingLog {
+  id        String  @id @default(cuid())
+  userId    String  @map("user_id")
+  eventType String  @map("event_type") // "device_limit_exceeded", "impossible_travel", "rapid_login"
+  deviceId  String? @map("device_id")
+  ipAddress String? @map("ip_address")
+  location  String? // "City, Country" format
+  metadata  Json? // Additional context
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([eventType])
+  @@index([createdAt])
+  @@map("account_sharing_logs")
 }
 
 // ==========================================

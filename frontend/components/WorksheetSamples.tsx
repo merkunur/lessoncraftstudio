@@ -196,7 +196,7 @@ export default function WorksheetSamples({ locale = 'en', initialContent }: Work
         const apiContent = data.content;
 
         if (apiContent?.samples && apiContent.samples.length > 0) {
-          // Transform the samples data
+          // Transform the samples data (API already returns locale-extracted strings)
           const transformedSamples = apiContent.samples.map((sample: any, index: number) => ({
             id: sample.id || `sample-${index}`,
             name: sample.name || 'Untitled',

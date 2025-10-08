@@ -25,8 +25,9 @@ model User {
   verificationToken String?   @unique @map("verification_token")
 
   // Subscription info
-  subscriptionTier String  @default("free") @map("subscription_tier") // "free", "core", "full"
-  stripeCustomerId String? @unique @map("stripe_customer_id")
+  subscriptionTier   String  @default("free") @map("subscription_tier") // "free", "core", "full"
+  subscriptionStatus String? @map("subscription_status") // Stripe subscription status: "active", "past_due", "canceled", etc.
+  stripeCustomerId   String? @unique @map("stripe_customer_id")
 
   // User settings
   language   String  @default("en")
@@ -34,9 +35,10 @@ model User {
   newsletter Boolean @default(true)
 
   // Admin and status
-  isAdmin         Boolean @default(false) @map("is_admin")
-  isSuspended     Boolean @default(false) @map("is_suspended")
-  suspendedReason String? @map("suspended_reason")
+  isAdmin         Boolean   @default(false) @map("is_admin")
+  isSuspended     Boolean   @default(false) @map("is_suspended")
+  suspendedAt     DateTime? @map("suspended_at")
+  suspendedReason String?   @map("suspended_reason")
 
   // Timestamps
   lastLoginAt DateTime? @map("last_login_at")
@@ -53,16 +55,48 @@ model User {
   blogLikes           BlogLike[]
   analyticsEvents     AnalyticsEvent[]
   payments            Payment[]
-  worksheetUsage      WorksheetUsage[]
-  usageQuotas         UsageQuota[]
   notifications       Notification[]
   activityLogs        ActivityLog[]
   supportTickets      SupportTicket[]
+  userRoles           UserRole[]
 
   @@index([email])
   @@index([stripeCustomerId])
   @@index([subscriptionTier])
   @@map("users")
+}
+
+model Role {
+  id          String   @id @default(cuid())
+  name        String   @unique // "Admin", "Editor", "Support", "Viewer"
+  slug        String   @unique // "admin", "editor", "support", "viewer"
+  description String?
+  permissions Json     // Array of permission strings: ["users:read", "users:write", "content:read", ...]
+  isSystem    Boolean  @default(false) @map("is_system") // Prevent deletion of system roles
+
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  userRoles   UserRole[]
+
+  @@index([slug])
+  @@map("roles")
+}
+
+model UserRole {
+  id        String   @id @default(cuid())
+  userId    String   @map("user_id")
+  roleId    String   @map("role_id")
+
+  createdAt DateTime @default(now()) @map("created_at")
+
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  role      Role     @relation(fields: [roleId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, roleId])
+  @@index([userId])
+  @@index([roleId])
+  @@map("user_roles")
 }
 
 // ==========================================
@@ -174,15 +208,17 @@ model Subscription {
 }
 
 model Payment {
-  id              String  @id @default(cuid())
-  userId          String  @map("user_id")
-  stripePaymentId String? @unique @map("stripe_payment_id")
-  stripeInvoiceId String? @map("stripe_invoice_id")
+  id                     String  @id @default(cuid())
+  userId                 String  @map("user_id")
+  stripePaymentId        String? @unique @map("stripe_payment_id")
+  stripePaymentIntentId  String? @unique @map("stripe_payment_intent_id")
+  stripeInvoiceId        String? @map("stripe_invoice_id")
 
-  amount      Float
-  currency    String  @default("usd")
-  status      String // "pending", "processing", "succeeded", "failed", "refunded"
-  description String?
+  amount         Float
+  currency       String  @default("usd")
+  status         String // "pending", "processing", "succeeded", "failed", "refunded", "partially_refunded"
+  description    String?
+  refundedAmount Float   @default(0) @map("refunded_amount")
 
   // Invoice details
   invoiceUrl String? @map("invoice_url")
@@ -199,83 +235,14 @@ model Payment {
 
   @@index([userId])
   @@index([stripePaymentId])
+  @@index([stripePaymentIntentId])
   @@index([status])
   @@map("payments")
 }
 
 // ==========================================
-// WORKSHEET & APP USAGE
+// WORKSHEET SAMPLES
 // ==========================================
-
-model WorksheetUsage {
-  id     String @id @default(cuid())
-  userId String @map("user_id")
-
-  appName     String  @map("app_name") // e.g., "word-search", "addition", etc.
-  worksheetId String? @map("worksheet_id") // Optional ID for saved worksheets
-
-  // Action type
-  action String @default("generate") // "generate", "download", "view", "share"
-
-  // Configuration used
-  configuration Json // Stores the settings used to generate
-
-  // Output details
-  outputFormat String  @map("output_format") // "pdf", "png", "jpg"
-  watermarked  Boolean @default(true)
-
-  // Quota tracking
-  countedInQuota Boolean @default(true) @map("counted_in_quota")
-
-  // Session info
-  sessionId String? @map("session_id")
-  ipAddress String? @map("ip_address")
-  userAgent String? @map("user_agent")
-
-  createdAt DateTime @default(now()) @map("created_at")
-
-  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
-
-  @@index([userId])
-  @@index([appName])
-  @@index([action])
-  @@index([createdAt])
-  @@index([userId, createdAt])
-  @@map("worksheet_usage")
-}
-
-model UsageQuota {
-  id     String @id @default(cuid())
-  userId String @map("user_id")
-
-  // Period tracking
-  year  Int
-  month Int // 1-12
-
-  // Download tracking
-  downloadsUsed  Int @default(0) @map("downloads_used")
-  downloadsLimit Int @map("downloads_limit") // -1 for unlimited
-
-  // Generator tracking
-  generatorsUsed  String[] @default([]) @map("generators_used") // Array of app names accessed
-  generatorsLimit Int      @map("generators_limit") // -1 for unlimited
-
-  // Worksheet generation tracking
-  worksheetsGenerated Int @default(0) @map("worksheets_generated")
-
-  // Subscription tier at time of record
-  subscriptionTier String @map("subscription_tier")
-
-  createdAt DateTime @default(now()) @map("created_at")
-  updatedAt DateTime @updatedAt @map("updated_at")
-
-  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
-
-  @@unique([userId, year, month])
-  @@index([userId])
-  @@index([year, month])
-  @@map("usage_quotas")
-}
 
 model SampleWorksheet {
   id String @id @default(cuid())
@@ -578,9 +545,10 @@ model Notification {
   id     String @id @default(cuid())
   userId String @map("user_id")
 
-  type    String // "welcome", "trial_ending", "payment_failed", etc.
-  title   String
-  message String
+  type     String // "welcome", "trial_ending", "payment_failed", etc.
+  title    String
+  message  String
+  priority String @default("normal") // "low", "normal", "high", "critical"
 
   // Action
   actionUrl   String? @map("action_url")
@@ -601,6 +569,7 @@ model Notification {
 
   @@index([userId])
   @@index([type])
+  @@index([priority])
   @@index([read])
   @@index([createdAt])
   @@map("notifications")
@@ -621,6 +590,60 @@ model SystemSetting {
 
   @@index([key])
   @@map("system_settings")
+}
+
+model SecuritySetting {
+  id String @id @default("security") // Single row for security settings
+
+  // Password Policy
+  passwordMinLength        Int     @default(8) @map("password_min_length")
+  passwordRequireUppercase Boolean @default(true) @map("password_require_uppercase")
+  passwordRequireLowercase Boolean @default(true) @map("password_require_lowercase")
+  passwordRequireNumbers   Boolean @default(true) @map("password_require_numbers")
+  passwordRequireSpecial   Boolean @default(false) @map("password_require_special")
+
+  // Session Management (Single Device Policy)
+  maxSessionsPerUser    Int @default(1) @map("max_sessions_per_user")
+  sessionTimeoutMinutes Int @default(60) @map("session_timeout_minutes")
+  sessionIdleMinutes    Int @default(30) @map("session_idle_minutes")
+
+  // Login Security
+  maxLoginAttempts         Int     @default(5) @map("max_login_attempts")
+  lockoutDurationMinutes   Int     @default(15) @map("lockout_duration_minutes")
+  require2FA               Boolean @default(false) @map("require_2fa")
+  require2FAForAdmins      Boolean @default(false) @map("require_2fa_for_admins")
+  enableEmailVerification  Boolean @default(true) @map("enable_email_verification")
+
+  // Account Sharing Detection (Single Device Policy)
+  enableAccountSharingDetection Boolean @default(true) @map("enable_account_sharing_detection")
+  maxConcurrentDevices          Int     @default(1) @map("max_concurrent_devices")
+  suspiciousActivityThreshold   Int     @default(5) @map("suspicious_activity_threshold")
+
+  // IP Security
+  enableIpWhitelist Boolean  @default(false) @map("enable_ip_whitelist")
+  ipWhitelist       String[] @default([]) @map("ip_whitelist")
+  enableIpBlacklist Boolean  @default(false) @map("enable_ip_blacklist")
+  ipBlacklist       String[] @default([]) @map("ip_blacklist")
+
+  // Security Features
+  enableCsrfProtection   Boolean @default(true) @map("enable_csrf_protection")
+  enableRateLimiting     Boolean @default(true) @map("enable_rate_limiting")
+  rateLimitRequestsPerMin Int    @default(100) @map("rate_limit_requests_per_min")
+
+  // Audit Logging
+  logAllAuthEvents      Boolean @default(true) @map("log_all_auth_events")
+  logFailedLogins       Boolean @default(true) @map("log_failed_logins")
+  logPasswordChanges    Boolean @default(true) @map("log_password_changes")
+  logRoleChanges        Boolean @default(true) @map("log_role_changes")
+  retainAuditLogDays    Int     @default(90) @map("retain_audit_log_days")
+
+  // Metadata
+  updatedBy String? @map("updated_by")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  @@map("security_settings")
 }
 
 model EmailTemplate {

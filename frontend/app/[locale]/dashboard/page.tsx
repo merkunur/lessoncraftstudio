@@ -1,12 +1,11 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, useParams } from 'next/navigation';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import { Sparkles, Crown, Zap, LogOut, Search, Filter } from 'lucide-react';
+import { Sparkles, Crown, Zap, LogOut, Search, Filter, MessageSquare } from 'lucide-react';
 import SubscriptionOverview from '@/components/dashboard/SubscriptionOverview';
-import UsageStats from '@/components/dashboard/UsageStats';
 import PaymentHistory from '@/components/dashboard/PaymentHistory';
 
 interface User {
@@ -83,6 +82,8 @@ export default function DashboardPage() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
   const router = useRouter();
+  const params = useParams();
+  const locale = params.locale as string;
   const t = useTranslations('dashboard');
   const tCats = useTranslations('dashboard.categories');
   const tApps = useTranslations('dashboard.apps');
@@ -180,13 +181,22 @@ export default function DashboardPage() {
                 <p className="text-sm text-gray-600">{t('header.subtitle')}</p>
               </div>
             </div>
-            <button
-              onClick={handleLogout}
-              className="flex items-center space-x-2 px-4 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-all duration-200"
-            >
-              <LogOut className="h-4 w-4" />
-              <span className="font-medium">{t('header.signOut')}</span>
-            </button>
+            <div className="flex items-center space-x-2">
+              <Link
+                href={`/${locale}/dashboard/support`}
+                className="flex items-center space-x-2 px-4 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-all duration-200"
+              >
+                <MessageSquare className="h-4 w-4" />
+                <span className="font-medium">Support</span>
+              </Link>
+              <button
+                onClick={handleLogout}
+                className="flex items-center space-x-2 px-4 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-all duration-200"
+              >
+                <LogOut className="h-4 w-4" />
+                <span className="font-medium">{t('header.signOut')}</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -196,20 +206,7 @@ export default function DashboardPage() {
           {/* Main Content - 3 columns */}
           <div className="lg:col-span-3 space-y-8">
             {/* Quick Stats */}
-            <div className="grid md:grid-cols-3 gap-6">
-              <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100">
-                <div className="flex items-center justify-between mb-3">
-                  <div className="bg-blue-100 rounded-xl p-3">
-                    <Sparkles className="h-6 w-6 text-blue-600" />
-                  </div>
-                  <span className="text-3xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                    {recentGenerations.length}
-                  </span>
-                </div>
-                <h3 className="text-gray-900 font-semibold">{t('stats.worksheetsCreated')}</h3>
-                <p className="text-sm text-gray-500 mt-1">{t('stats.totalThisMonth')}</p>
-              </div>
-
+            <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-100">
                 <div className="flex items-center justify-between mb-3">
                   <div className="bg-purple-100 rounded-xl p-3">
@@ -284,7 +281,7 @@ export default function DashboardPage() {
                             ? 'border-gray-200 hover:border-indigo-400 hover:shadow-2xl cursor-pointer transform hover:-translate-y-1'
                             : 'border-gray-200 opacity-60'
                         }`}
-                        onClick={() => hasAccess && window.open(app.url, '_blank')}
+                        onClick={() => hasAccess && window.open(`${app.url}?tier=${user?.subscriptionTier || 'free'}`, '_blank')}
                       >
                         {/* Tier Badge */}
                         <div className={`absolute -top-3 -right-3 ${badge.color} rounded-xl px-3 py-1 shadow-lg flex items-center space-x-1`}>
@@ -344,7 +341,6 @@ export default function DashboardPage() {
           {/* Sidebar - 1 column */}
           <div className="space-y-6">
             <SubscriptionOverview />
-            <UsageStats />
             <PaymentHistory />
           </div>
         </div>

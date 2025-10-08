@@ -40,7 +40,6 @@ export const GET = withAdminAuth(async (request: NextRequest) => {
         },
         _count: {
           select: {
-            worksheetUsage: true,
             payments: true,
           },
         },
@@ -63,7 +62,6 @@ export const GET = withAdminAuth(async (request: NextRequest) => {
         'Is Admin',
         'Created At',
         'Last Login',
-        'Total Worksheets',
         'Total Payments',
       ];
 
@@ -78,7 +76,6 @@ export const GET = withAdminAuth(async (request: NextRequest) => {
         user.isAdmin ? 'Yes' : 'No',
         user.createdAt.toISOString(),
         user.lastLoginAt?.toISOString() || '',
-        user._count.worksheetUsage.toString(),
         user._count.payments.toString(),
       ]);
 
@@ -121,7 +118,6 @@ export const GET = withAdminAuth(async (request: NextRequest) => {
         isAdmin: user.isAdmin,
         createdAt: user.createdAt,
         lastLoginAt: user.lastLoginAt,
-        worksheetCount: user._count.worksheetUsage,
         paymentCount: user._count.payments,
       }));
 

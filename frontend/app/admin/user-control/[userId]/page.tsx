@@ -23,11 +23,14 @@ import {
   AlertCircle,
   CheckCircle,
   XCircle,
+  MessageSquare,
+  Send,
+  Trash2,
 } from 'lucide-react';
 import Link from 'next/link';
 import { toast } from 'react-hot-toast';
 
-type Tab = 'overview' | 'payments' | 'activity' | 'sessions';
+type Tab = 'overview' | 'payments' | 'activity' | 'sessions' | 'support';
 
 interface UserProfile {
   user: any;
@@ -36,6 +39,7 @@ interface UserProfile {
   payments: any[];
   activityLogs: any[];
   sessions: any[];
+  supportTickets: any[];
   usageStats: any;
 }
 
@@ -47,6 +51,9 @@ export default function UserDetailPage() {
   const [activeTab, setActiveTab] = useState<Tab>('overview');
   const [profile, setProfile] = useState<UserProfile | null>(null);
   const [loading, setLoading] = useState(true);
+  const [selectedTicket, setSelectedTicket] = useState<string | null>(null);
+  const [ticketResponse, setTicketResponse] = useState('');
+  const [ticketStatus, setTicketStatus] = useState('');
 
   useEffect(() => {
     if (userId) {
@@ -141,6 +148,34 @@ export default function UserDetailPage() {
     }
   };
 
+  const handleDeleteTicket = async (ticketId: string, ticketSubject: string) => {
+    if (!confirm(`Are you sure you want to delete the ticket "${ticketSubject}"? This action cannot be undone.`)) {
+      return;
+    }
+
+    try {
+      const response = await fetch(`/api/admin/support-tickets/${ticketId}`, {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${localStorage.getItem('accessToken')}`,
+        },
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        toast.success(data.message || 'Ticket deleted successfully');
+        fetchUserProfile();
+      } else {
+        toast.error(data.error || 'Failed to delete ticket');
+      }
+    } catch (error) {
+      console.error('Delete ticket error:', error);
+      toast.error('Failed to delete ticket');
+    }
+  };
+
   const formatDate = (dateString: string) => {
     return new Date(dateString).toLocaleDateString('en-US', {
       year: 'numeric',
@@ -204,7 +239,7 @@ export default function UserDetailPage() {
     );
   }
 
-  const { user, subscription, subscriptionMetrics, payments, activityLogs, sessions, usageStats } = profile;
+  const { user, subscription, subscriptionMetrics, payments, activityLogs, sessions, supportTickets, usageStats } = profile;
 
   return (
     <AdminLayout>
@@ -367,6 +402,7 @@ export default function UserDetailPage() {
                 { id: 'payments', label: 'Payments', icon: CreditCard },
                 { id: 'activity', label: 'Activity', icon: Activity },
                 { id: 'sessions', label: 'Sessions', icon: Monitor },
+                { id: 'support', label: 'Support', icon: MessageSquare },
               ].map((tab) => (
                 <button
                   key={tab.id}
@@ -628,6 +664,194 @@ export default function UserDetailPage() {
                             {session.deviceType || 'desktop'}
                           </span>
                         </div>
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {/* Support Tab */}
+            {activeTab === 'support' && (
+              <div>
+                <div className="flex items-center justify-between mb-4">
+                  <h3 className="text-lg font-medium text-gray-900">Support Tickets</h3>
+                  <div className="flex items-center space-x-2">
+                    <span className="text-sm text-gray-500">
+                      {supportTickets.length} total tickets
+                    </span>
+                  </div>
+                </div>
+
+                {supportTickets.length === 0 ? (
+                  <p className="text-gray-500 text-center py-8">No support tickets</p>
+                ) : (
+                  <div className="space-y-4">
+                    {supportTickets.map((ticket) => (
+                      <div
+                        key={ticket.id}
+                        className="border border-gray-200 rounded-lg p-4 hover:bg-gray-50 transition-colors"
+                      >
+                        <div className="flex items-start justify-between mb-3">
+                          <div className="flex-1">
+                            <div className="flex items-center space-x-2 mb-2">
+                              <h4 className="text-sm font-semibold text-gray-900">
+                                {ticket.subject}
+                              </h4>
+                              <span className={`px-2 py-1 text-xs font-semibold rounded-full ${
+                                ticket.status === 'open' ? 'bg-green-100 text-green-800' :
+                                ticket.status === 'in_progress' ? 'bg-blue-100 text-blue-800' :
+                                ticket.status === 'waiting' ? 'bg-yellow-100 text-yellow-800' :
+                                ticket.status === 'resolved' ? 'bg-gray-100 text-gray-800' :
+                                'bg-gray-100 text-gray-600'
+                              }`}>
+                                {ticket.status}
+                              </span>
+                              <span className={`px-2 py-1 text-xs font-semibold rounded-full ${
+                                ticket.priority === 'urgent' ? 'bg-red-100 text-red-800' :
+                                ticket.priority === 'high' ? 'bg-orange-100 text-orange-800' :
+                                ticket.priority === 'medium' ? 'bg-yellow-100 text-yellow-800' :
+                                'bg-gray-100 text-gray-800'
+                              }`}>
+                                {ticket.priority}
+                              </span>
+                              {ticket.category && (
+                                <span className="px-2 py-1 text-xs bg-purple-100 text-purple-800 rounded-full">
+                                  {ticket.category}
+                                </span>
+                              )}
+                            </div>
+                            <p className="text-sm text-gray-600 mb-2">{ticket.message}</p>
+                            <div className="flex items-center space-x-4 text-xs text-gray-500">
+                              <span className="flex items-center">
+                                <Calendar className="h-3 w-3 mr-1" />
+                                {formatDate(ticket.createdAt)}
+                              </span>
+                              {ticket.respondedAt && (
+                                <span className="flex items-center text-green-600">
+                                  <CheckCircle className="h-3 w-3 mr-1" />
+                                  Responded {formatDate(ticket.respondedAt)}
+                                </span>
+                              )}
+                            </div>
+                          </div>
+                        </div>
+
+                        {ticket.response && (
+                          <div className="mt-3 bg-blue-50 border-l-4 border-blue-500 p-3">
+                            <p className="text-sm font-medium text-blue-900 mb-1">Admin Response:</p>
+                            <p className="text-sm text-blue-800">{ticket.response}</p>
+                          </div>
+                        )}
+
+                        {selectedTicket === ticket.id ? (
+                          <div className="mt-4 space-y-3">
+                            <div>
+                              <label className="block text-sm font-medium text-gray-700 mb-1">
+                                Update Status
+                              </label>
+                              <select
+                                value={ticketStatus}
+                                onChange={(e) => setTicketStatus(e.target.value)}
+                                className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                              >
+                                <option value="">Select Status</option>
+                                <option value="open">Open</option>
+                                <option value="in_progress">In Progress</option>
+                                <option value="waiting">Waiting</option>
+                                <option value="resolved">Resolved</option>
+                                <option value="closed">Closed</option>
+                              </select>
+                            </div>
+                            <div>
+                              <label className="block text-sm font-medium text-gray-700 mb-1">
+                                Response
+                              </label>
+                              <textarea
+                                value={ticketResponse}
+                                onChange={(e) => setTicketResponse(e.target.value)}
+                                rows={4}
+                                placeholder="Type your response..."
+                                className="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
+                              />
+                            </div>
+                            <div className="flex space-x-2">
+                              <button
+                                onClick={async () => {
+                                  try {
+                                    const response = await fetch(`/api/admin/support-tickets/${ticket.id}`, {
+                                      method: 'PATCH',
+                                      headers: {
+                                        'Content-Type': 'application/json',
+                                        'Authorization': `Bearer ${localStorage.getItem('accessToken')}`,
+                                      },
+                                      body: JSON.stringify({
+                                        status: ticketStatus || ticket.status,
+                                        response: ticketResponse || undefined,
+                                      }),
+                                    });
+
+                                    if (response.ok) {
+                                      toast.success('Ticket updated successfully');
+                                      setSelectedTicket(null);
+                                      setTicketResponse('');
+                                      setTicketStatus('');
+                                      fetchUserProfile();
+                                    } else {
+                                      const data = await response.json();
+                                      toast.error(data.error || 'Failed to update ticket');
+                                    }
+                                  } catch (error) {
+                                    console.error('Update ticket error:', error);
+                                    toast.error('Failed to update ticket');
+                                  }
+                                }}
+                                className="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700"
+                              >
+                                <Send className="h-4 w-4 mr-2" />
+                                Send Response
+                              </button>
+                              <button
+                                onClick={() => {
+                                  setSelectedTicket(null);
+                                  setTicketResponse('');
+                                  setTicketStatus('');
+                                }}
+                                className="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50"
+                              >
+                                Cancel
+                              </button>
+                              <button
+                                onClick={() => handleDeleteTicket(ticket.id, ticket.subject)}
+                                className="inline-flex items-center px-4 py-2 border border-red-300 rounded-md shadow-sm text-sm font-medium text-red-700 bg-white hover:bg-red-50"
+                              >
+                                <Trash2 className="h-4 w-4 mr-2" />
+                                Delete
+                              </button>
+                            </div>
+                          </div>
+                        ) : (
+                          <div className="mt-3 flex gap-2">
+                            <button
+                              onClick={() => {
+                                setSelectedTicket(ticket.id);
+                                setTicketResponse(ticket.response || '');
+                                setTicketStatus(ticket.status);
+                              }}
+                              className="inline-flex items-center px-3 py-1.5 border border-gray-300 rounded-md text-xs font-medium text-gray-700 bg-white hover:bg-gray-50"
+                            >
+                              <MessageSquare className="h-3 w-3 mr-1" />
+                              Respond to Ticket
+                            </button>
+                            <button
+                              onClick={() => handleDeleteTicket(ticket.id, ticket.subject)}
+                              className="inline-flex items-center px-3 py-1.5 border border-red-300 rounded-md text-xs font-medium text-red-700 bg-white hover:bg-red-50"
+                            >
+                              <Trash2 className="h-3 w-3 mr-1" />
+                              Delete
+                            </button>
+                          </div>
+                        )}
                       </div>
                     ))}
                   </div>

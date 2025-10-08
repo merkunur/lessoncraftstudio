@@ -1,6 +1,13 @@
-import UAParser from 'ua-parser-js';
-import geoip from 'geoip-lite';
+import { UAParser } from 'ua-parser-js';
 import type { DeviceInfo } from './device-fingerprint-client';
+
+// Try to import geoip-lite, but don't fail if it's not available
+let geoip: any = null;
+try {
+  geoip = require('geoip-lite');
+} catch (error) {
+  console.warn('geoip-lite not available, location detection disabled');
+}
 
 /**
  * Parse device information from user agent and IP
@@ -26,10 +33,10 @@ export function parseDeviceInfo(
   const osName = os.name || 'Unknown OS';
   const deviceName = `${browserName}${browserVersion ? ` ${browserVersion}` : ''} on ${osName}`;
 
-  // Get location from IP
+  // Get location from IP (optional - gracefully fail if geoip not available)
   let country: string | undefined;
   let city: string | undefined;
-  if (ipAddress) {
+  if (ipAddress && geoip) {
     try {
       const geo = geoip.lookup(ipAddress);
       if (geo) {
@@ -37,7 +44,7 @@ export function parseDeviceInfo(
         city = geo.city;
       }
     } catch (error) {
-      console.error('Geolocation lookup failed:', error);
+      console.warn('Geolocation lookup failed:', error);
     }
   }
 

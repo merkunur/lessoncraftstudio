@@ -61,7 +61,6 @@ export const GET = withAdminAuth(async (request: NextRequest) => {
         },
         _count: {
           select: {
-            worksheetUsage: true,
             payments: true,
           },
         },
@@ -99,7 +98,6 @@ export const GET = withAdminAuth(async (request: NextRequest) => {
       isAdmin: user.isAdmin,
       createdAt: user.createdAt,
       lastLoginAt: user.lastLoginAt,
-      worksheetCount: user._count.worksheetUsage,
       paymentCount: user._count.payments,
       avatarUrl: user.avatarUrl,
     }));
@@ -181,7 +179,7 @@ export const POST = withAdminAuth(async (request: NextRequest) => {
         email: data.email,
         firstName: data.firstName,
         lastName: data.lastName,
-        password: hashedPassword,
+        passwordHash: hashedPassword,
         subscriptionTier: data.subscriptionTier || 'free',
         isAdmin: data.isAdmin || false,
         emailVerified: data.emailVerified || false,
@@ -193,9 +191,11 @@ export const POST = withAdminAuth(async (request: NextRequest) => {
       data: {
         userId: user.id,
         action: 'user_created_by_admin',
-        details: {
+        details: `User created by admin: ${user.email}`,
+        metadata: {
           createdBy: 'admin',
           email: user.email,
+          tier: user.subscriptionTier,
         },
       },
     });
@@ -297,9 +297,10 @@ export const PATCH = withAdminAuth(async (request: NextRequest) => {
     // Log bulk action
     await prisma.activityLog.create({
       data: {
-        userId: null, // System action
+        userId: userIds[0] || null, // First user or null
         action: `bulk_${action}`,
-        details: {
+        details: `Bulk ${action} performed on ${userIds.length} user(s)`,
+        metadata: {
           userCount: userIds.length,
           userIds,
           data,

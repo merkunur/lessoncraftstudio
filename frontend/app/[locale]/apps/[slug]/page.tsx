@@ -3179,10 +3179,11 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
       <section className="flex-1 bg-white">
         {hasAccess ? (
           <div className="h-full">
-            <AppContent 
+            <AppContent
               appSlug={slug}
               locale={locale}
               appName={appName}
+              requiredTier={appTier}
             />
           </div>
         ) : (

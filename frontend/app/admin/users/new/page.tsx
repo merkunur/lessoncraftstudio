@@ -1,8 +1,9 @@
 'use client';
 
-import { useState } from 'react';
-import { useRouter } from 'next/navigation';
-// import AdminLayout from '@/components/admin/admin-layout';
+import { useState, useEffect } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
+import AdminLayout from '@/components/admin/admin-layout';
+import { useAuth } from '@/contexts/auth-context';
 import {
   ArrowLeft,
   User,
@@ -19,6 +20,9 @@ import { toast } from 'react-hot-toast';
 
 export default function NewUserPage() {
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const returnTo = searchParams.get('returnTo') || '/admin/users';
+  const { user: currentUser } = useAuth();
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({
     email: '',
@@ -65,9 +69,21 @@ export default function NewUserPage() {
 
     setLoading(true);
     try {
+      // Get access token from localStorage
+      const accessToken = typeof window !== 'undefined' ? localStorage.getItem('accessToken') : null;
+
+      if (!accessToken) {
+        toast.error('Authentication required. Please sign in again.');
+        router.push('/en/auth/signin');
+        return;
+      }
+
       const response = await fetch('/api/admin/users', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${accessToken}`,
+        },
         body: JSON.stringify({
           email: formData.email,
           firstName: formData.firstName,
@@ -101,7 +117,13 @@ export default function NewUserPage() {
       }
 
       toast.success('User created successfully');
-      router.push(`/admin/users/${newUser.id}`);
+
+      // Redirect based on returnTo parameter
+      if (returnTo === '/admin/user-control') {
+        router.push(`/admin/user-control/${newUser.id}`);
+      } else {
+        router.push(`/admin/users/${newUser.id}`);
+      }
     } catch (error) {
       console.error('Error creating user:', error);
       toast.error(error instanceof Error ? error.message : 'Failed to create user');
@@ -111,16 +133,16 @@ export default function NewUserPage() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <AdminLayout>
+      <div className="max-w-3xl mx-auto">
         {/* Header */}
         <div className="mb-8">
           <Link
-            href="/admin/users"
+            href={returnTo}
             className="inline-flex items-center text-sm text-gray-500 hover:text-gray-700 mb-4"
           >
             <ArrowLeft className="h-4 w-4 mr-1" />
-            Back to users
+            Back to {returnTo === '/admin/user-control' ? 'user control' : 'users'}
           </Link>
 
           <h1 className="text-2xl font-bold text-gray-900">Create New User</h1>
@@ -366,7 +388,7 @@ export default function NewUserPage() {
           {/* Form Actions */}
           <div className="flex justify-end gap-3">
             <Link
-              href="/admin/users"
+              href={returnTo}
               className="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50"
             >
               <X className="h-4 w-4 mr-2" />
@@ -396,6 +418,6 @@ export default function NewUserPage() {
           </div>
         </form>
       </div>
-    </div>
+    </AdminLayout>
   );
 }

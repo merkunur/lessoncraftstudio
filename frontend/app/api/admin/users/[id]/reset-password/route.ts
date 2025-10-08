@@ -5,9 +5,9 @@ import crypto from 'crypto';
 import { sendEmail } from '@/lib/email';
 
 // POST /api/admin/users/[id]/reset-password - Send password reset email
-export const POST = withAdminAuth(async (request: NextRequest, { params }: { params: { id: string } }) => {
+export const POST = withAdminAuth(async (request: NextRequest, adminUser: any, context: { params: Promise<{ id: string }> }) => {
   try {
-    const userId = params.id;
+    const { id: userId } = await context.params;
 
     const user = await prisma.user.findUnique({
       where: { id: userId },

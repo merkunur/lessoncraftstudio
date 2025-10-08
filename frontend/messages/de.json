@@ -248,6 +248,17 @@
         "agreeToTerms": "Sie müssen den Nutzungsbedingungen zustimmen",
         "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
       }
+    },
+    "deviceConflict": {
+      "title": "Bereits angemeldet",
+      "subtitle": "Nur ein Gerät gleichzeitig",
+      "message": "Zu Ihrer Sicherheit können Sie nur auf einem Gerät gleichzeitig angemeldet sein.",
+      "lastActive": "Zuletzt aktiv",
+      "infoTitle": "So funktioniert es",
+      "infoMessage": "Um auf diesem Gerät fortzufahren, werden Sie automatisch von Ihrem anderen Gerät abgemeldet. Dies dient Ihrer Kontosicherheit.",
+      "continueButton": "Anderes Gerät abmelden & Fortfahren",
+      "continuingButton": "Melde an...",
+      "cancelButton": "Abbrechen"
     }
   },
   "footer": {

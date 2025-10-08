@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { parseDeviceInfo, getClientIP, detectSuspiciousActivity } from '@/lib/device-fingerprint-server';
 
-const MAX_CONCURRENT_SESSIONS = 2;
+const MAX_CONCURRENT_SESSIONS = 1;
 
 /**
  * POST /api/auth/session-check
@@ -92,7 +92,13 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({
         allowed: false,
         action: 'device_limit_exceeded',
-        message: `You are signed in on the maximum number of devices (${MAX_CONCURRENT_SESSIONS}). Please sign out from one of your other devices first.`,
+        message: `You're already signed in on another device. To continue here, you'll need to sign out from your other device first.`,
+        currentDevice: {
+          deviceName: deviceInfo.deviceName,
+          location: deviceInfo.city && deviceInfo.country
+            ? `${deviceInfo.city}, ${deviceInfo.country}`
+            : deviceInfo.country || 'Unknown',
+        },
         activeSessions: activeSessions.map(s => ({
           id: s.id,
           deviceName: s.deviceName || 'Unknown Device',
@@ -169,15 +175,10 @@ export async function POST(request: NextRequest) {
       });
     }
 
-    // Determine response based on session count
-    const isSecondDevice = activeSessions.length === 1;
-
+    // With MAX=1, there should be no other active sessions at this point
     return NextResponse.json({
       allowed: true,
-      action: isSecondDevice ? 'second_device_warning' : 'new_session',
-      warning: isSecondDevice
-        ? `This is your second device. You can only be signed in on ${MAX_CONCURRENT_SESSIONS} devices at once.`
-        : undefined,
+      action: 'new_session',
       suspiciousActivity: impossibleTravel || rapidLogins,
       suspiciousActivityDetails: {
         impossibleTravel,

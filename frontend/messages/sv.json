@@ -247,6 +247,17 @@
       "submit": "Skapa konto",
       "hasAccount": "Har du redan ett konto?",
       "signIn": "Logga in"
+    },
+    "deviceConflict": {
+      "title": "Redan inloggad",
+      "subtitle": "En enhet åt gången",
+      "message": "För din kontos säkerhet kan du bara vara inloggad på en enhet åt gången.",
+      "lastActive": "Senast aktiv",
+      "infoTitle": "Så fungerar det",
+      "infoMessage": "För att fortsätta på den här enheten kommer du automatiskt att loggas ut från din andra enhet. Detta hjälper till att hålla ditt konto säkert.",
+      "continueButton": "Logga ut från annan enhet & fortsätt",
+      "continuingButton": "Loggar in...",
+      "cancelButton": "Avbryt"
     }
   },
   "pricing": {

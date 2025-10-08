@@ -4,9 +4,10 @@ import path from 'path';
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { path: string[] } }
+  { params }: { params: Promise<{ path: string[] }> }
 ) {
-  const componentPath = params.path.join('/');
+  const { path: pathSegments } = await params;
+  const componentPath = pathSegments.join('/');
   
   // Security check - prevent directory traversal
   if (componentPath.includes('..')) {

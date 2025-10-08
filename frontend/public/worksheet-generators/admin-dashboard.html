@@ -112,6 +112,16 @@
             color: white;
         }
 
+        .tool-card.admin {
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: white;
+        }
+
+        .tool-card.admin .tool-title,
+        .tool-card.admin .tool-description {
+            color: white;
+        }
+
         .footer {
             text-align: center;
             margin-top: 30px;
@@ -134,6 +144,15 @@
         </div>
 
         <div class="tools-grid">
+            <a href="/admin/user-control" class="tool-card admin">
+                <div class="tool-icon">👥</div>
+                <div class="tool-title">User Control & Subscriptions</div>
+                <div class="tool-description">
+                    Manage all users, subscriptions, and payments. Search users, upgrade/downgrade tiers, grant lifetime access,
+                    process refunds, monitor active sessions, and view complete payment history. Full subscription control center.
+                </div>
+            </a>
+
             <a href="/worksheet-generators/content-manager-v2.html" class="tool-card primary">
                 <div class="tool-icon">🖼️</div>
                 <div class="tool-title">Images & Assets Manager</div>

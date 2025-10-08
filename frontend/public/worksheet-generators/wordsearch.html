@@ -3064,7 +3064,10 @@ document.addEventListener("DOMContentLoaded", function() {
     // Check if user is on free tier
     function isFreeTier() {
         const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get('tier') === 'free';
+        const tier = urlParams.get('tier');
+        const isFree = tier === 'free';
+        console.log('🔍 Watermark check:', { tier, isFree, fullUrl: window.location.href });
+        return isFree;
     }
 
     // Add watermark to canvas before export

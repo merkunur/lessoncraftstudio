@@ -5,18 +5,14 @@ import { z } from 'zod';
 import bcrypt from 'bcryptjs';
 
 // GET /api/admin/users/[id] - Get user details
-export const GET = withAdminAuth(async (request: NextRequest, { params }: { params: { id: string } }) => {
+export const GET = withAdminAuth(async (request: NextRequest, adminUser: any, context: { params: Promise<{ id: string }> }) => {
   try {
-    const userId = params.id;
+    const { id: userId } = await context.params;
 
     const user = await prisma.user.findUnique({
       where: { id: userId },
       include: {
         subscription: true,
-        worksheetUsage: {
-          orderBy: { createdAt: 'desc' },
-          take: 10,
-        },
         payments: {
           orderBy: { createdAt: 'desc' },
           take: 10,
@@ -24,13 +20,6 @@ export const GET = withAdminAuth(async (request: NextRequest, { params }: { para
         activityLogs: {
           orderBy: { createdAt: 'desc' },
           take: 20,
-        },
-        usageQuotas: {
-          where: {
-            year: new Date().getFullYear(),
-            month: new Date().getMonth() + 1,
-          },
-          take: 1,
         },
       },
     });
@@ -43,35 +32,10 @@ export const GET = withAdminAuth(async (request: NextRequest, { params }: { para
     }
 
     // Calculate statistics
-    const stats = await prisma.worksheetUsage.aggregate({
-      where: { userId },
-      _count: { id: true },
-      _sum: { downloads: true },
-    });
-
     const totalPayments = await prisma.payment.aggregate({
       where: { userId },
       _count: { id: true },
       _sum: { amount: true },
-    });
-
-    // Get favorite generators (most used)
-    const generatorUsage = await prisma.worksheetUsage.groupBy({
-      by: ['generatorId'],
-      where: { userId },
-      _count: { generatorId: true },
-      orderBy: {
-        _count: {
-          generatorId: 'desc',
-        },
-      },
-      take: 5,
-    });
-
-    const lastWorksheet = await prisma.worksheetUsage.findFirst({
-      where: { userId },
-      orderBy: { createdAt: 'desc' },
-      select: { createdAt: true },
     });
 
     // Format response
@@ -93,22 +57,8 @@ export const GET = withAdminAuth(async (request: NextRequest, { params }: { para
         cancelAtPeriodEnd: user.subscription.cancelAtPeriodEnd,
       } : null,
       stats: {
-        totalWorksheets: stats._count.id,
-        totalDownloads: stats._sum.downloads || 0,
         totalPayments: totalPayments._count.id,
         totalRevenue: totalPayments._sum.amount || 0,
-        lastWorksheetDate: lastWorksheet?.createdAt || null,
-        favoriteGenerators: generatorUsage.map(g => g.generatorId),
-      },
-      usage: {
-        currentMonth: {
-          downloads: user.usageQuotas[0]?.downloadsUsed || 0,
-          limit: user.usageQuotas[0]?.downloadsLimit ||
-            (user.subscriptionTier === 'full' ? -1 : user.subscriptionTier === 'core' ? 200 : 20),
-          generators: user.usageQuotas[0]?.generatorsUsed || [],
-          generatorLimit: user.usageQuotas[0]?.generatorsLimit ||
-            (user.subscriptionTier === 'full' ? -1 : user.subscriptionTier === 'core' ? 20 : 5),
-        },
       },
       recentActivity: user.activityLogs.map(log => ({
         id: log.id,
@@ -135,9 +85,9 @@ export const GET = withAdminAuth(async (request: NextRequest, { params }: { para
 });
 
 // PATCH /api/admin/users/[id] - Update user
-export const PATCH = withAdminAuth(async (request: NextRequest, { params }: { params: { id: string } }) => {
+export const PATCH = withAdminAuth(async (request: NextRequest, adminUser: any, context: { params: Promise<{ id: string }> }) => {
   try {
-    const userId = params.id;
+    const { id: userId } = await context.params;
     const body = await request.json();
 
     const updateSchema = z.object({
@@ -186,13 +136,6 @@ export const PATCH = withAdminAuth(async (request: NextRequest, { params }: { pa
       data: updateData,
       include: {
         subscription: true,
-        usageQuotas: {
-          where: {
-            year: new Date().getFullYear(),
-            month: new Date().getMonth() + 1,
-          },
-          take: 1,
-        },
       },
     });
 
@@ -209,34 +152,10 @@ export const PATCH = withAdminAuth(async (request: NextRequest, { params }: { pa
     });
 
     // Return full user details (same format as GET)
-    const stats = await prisma.worksheetUsage.aggregate({
-      where: { userId },
-      _count: { id: true },
-      _sum: { downloads: true },
-    });
-
     const totalPayments = await prisma.payment.aggregate({
       where: { userId },
       _count: { id: true },
       _sum: { amount: true },
-    });
-
-    const generatorUsage = await prisma.worksheetUsage.groupBy({
-      by: ['generatorId'],
-      where: { userId },
-      _count: { generatorId: true },
-      orderBy: {
-        _count: {
-          generatorId: 'desc',
-        },
-      },
-      take: 5,
-    });
-
-    const lastWorksheet = await prisma.worksheetUsage.findFirst({
-      where: { userId },
-      orderBy: { createdAt: 'desc' },
-      select: { createdAt: true },
     });
 
     const recentActivity = await prisma.activityLog.findMany({
@@ -269,22 +188,8 @@ export const PATCH = withAdminAuth(async (request: NextRequest, { params }: { pa
         cancelAtPeriodEnd: updatedUser.subscription.cancelAtPeriodEnd,
       } : null,
       stats: {
-        totalWorksheets: stats._count.id,
-        totalDownloads: stats._sum.downloads || 0,
         totalPayments: totalPayments._count.id,
         totalRevenue: totalPayments._sum.amount || 0,
-        lastWorksheetDate: lastWorksheet?.createdAt || null,
-        favoriteGenerators: generatorUsage.map(g => g.generatorId),
-      },
-      usage: {
-        currentMonth: {
-          downloads: updatedUser.usageQuotas[0]?.downloadsUsed || 0,
-          limit: updatedUser.usageQuotas[0]?.downloadsLimit ||
-            (updatedUser.subscriptionTier === 'full' ? -1 : updatedUser.subscriptionTier === 'core' ? 200 : 20),
-          generators: updatedUser.usageQuotas[0]?.generatorsUsed || [],
-          generatorLimit: updatedUser.usageQuotas[0]?.generatorsLimit ||
-            (updatedUser.subscriptionTier === 'full' ? -1 : updatedUser.subscriptionTier === 'core' ? 20 : 5),
-        },
       },
       recentActivity: recentActivity.map(log => ({
         id: log.id,
@@ -309,9 +214,9 @@ export const PATCH = withAdminAuth(async (request: NextRequest, { params }: { pa
 });
 
 // DELETE /api/admin/users/[id] - Delete user (soft delete)
-export const DELETE = withAdminAuth(async (request: NextRequest, { params }: { params: { id: string } }) => {
+export const DELETE = withAdminAuth(async (request: NextRequest, adminUser: any, context: { params: Promise<{ id: string }> }) => {
   try {
-    const userId = params.id;
+    const { id: userId } = await context.params;
 
     // Check if user exists
     const user = await prisma.user.findUnique({

@@ -63,30 +63,6 @@ export const GET = withAdminAuth(async (request: NextRequest, user: any) => {
       });
     }
 
-    // Check for low quota users (for monitoring)
-    const now = new Date();
-    const lowQuotaUsers = await prisma.usageQuota.count({
-      where: {
-        year: now.getFullYear(),
-        month: now.getMonth() + 1,
-        downloadsLimit: { not: -1 },
-        downloadsUsed: {
-          gte: prisma.usageQuota.fields.downloadsLimit,
-        },
-      },
-    });
-
-    if (lowQuotaUsers > 5) {
-      systemAlerts.push({
-        id: 'quota-limits',
-        type: 'info',
-        title: 'Usage Limits',
-        message: `${lowQuotaUsers} users have reached their download limits`,
-        priority: 'low',
-        link: '/admin/analytics/usage',
-      });
-    }
-
     return NextResponse.json({
       notifications,
       systemAlerts,

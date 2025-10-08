@@ -260,6 +260,17 @@
       "submit": "Criar conta",
       "hasAccount": "Já tem uma conta?",
       "signIn": "Entrar"
+    },
+    "deviceConflict": {
+      "title": "Já está conectado",
+      "subtitle": "Apenas um dispositivo por vez",
+      "message": "Para a segurança da sua conta, você só pode estar conectado em um dispositivo por vez.",
+      "lastActive": "Última atividade",
+      "infoTitle": "Como funciona",
+      "infoMessage": "Para continuar neste dispositivo, você será automaticamente desconectado do outro dispositivo. Isso ajuda a manter sua conta segura.",
+      "continueButton": "Desconectar outro dispositivo e continuar",
+      "continuingButton": "Entrando...",
+      "cancelButton": "Cancelar"
     }
   },
   "pricing": {

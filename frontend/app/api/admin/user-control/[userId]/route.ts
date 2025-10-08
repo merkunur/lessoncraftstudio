@@ -11,10 +11,10 @@ import { handleApiError } from '@/lib/api-error';
  */
 export async function GET(
   request: NextRequest,
-  { params }: { params: { userId: string } }
+  { params }: { params: Promise<{ userId: string }> }
 ) {
   try {
-    const userId = params.userId;
+    const { userId } = await params;
 
     // Fetch complete user profile
     const user = await prisma.user.findUnique({
@@ -79,6 +79,23 @@ export async function GET(
             createdAt: true,
           },
         },
+        supportTickets: {
+          orderBy: { createdAt: 'desc' },
+          select: {
+            id: true,
+            subject: true,
+            message: true,
+            category: true,
+            priority: true,
+            status: true,
+            response: true,
+            respondedAt: true,
+            resolved: true,
+            resolvedAt: true,
+            createdAt: true,
+            updatedAt: true,
+          },
+        },
       },
     });
 
@@ -141,6 +158,7 @@ export async function GET(
       payments: user.payments,
       activityLogs: user.activityLogs,
       sessions: user.sessions,
+      supportTickets: user.supportTickets,
       usageStats,
     });
 

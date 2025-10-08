@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clear Device & Test Conflict</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .info-box {
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #4F46E5;
+        }
+        .info-box.success {
+            background: #d4edda;
+            border-color: #28a745;
+        }
+        .info-box.warning {
+            background: #fff3cd;
+            border-color: #ffc107;
+        }
+        button {
+            background: #4F46E5;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            margin: 10px 5px;
+            transition: all 0.2s;
+        }
+        button:hover {
+            background: #4338CA;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+        }
+        button.danger {
+            background: #dc3545;
+        }
+        button.danger:hover {
+            background: #c82333;
+        }
+        .steps {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        .steps ol {
+            margin: 10px 0;
+            padding-left: 25px;
+        }
+        .steps li {
+            margin: 10px 0;
+            line-height: 1.8;
+        }
+        .code {
+            background: #1e293b;
+            color: #e2e8f0;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: monospace;
+            margin: 10px 0;
+            overflow-x: auto;
+        }
+        .current-value {
+            font-family: monospace;
+            background: #f8f9fa;
+            padding: 8px 12px;
+            border-radius: 4px;
+            display: inline-block;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧪 Device Conflict Test Helper</h1>
+        <p>This tool will help you test the device conflict modal by simulating a "different device".</p>
+
+        <div class="info-box warning">
+            <h3>⚠️ Current Situation</h3>
+            <p>Your browser has deviceId: <span class="current-value" id="currentDeviceId"></span></p>
+            <p>There are 2 sessions in the database:</p>
+            <ul>
+                <li>Session 1: deviceId <code>w1ew33</code> (your current browser)</li>
+                <li>Session 2: deviceId <code>test-device-different-12345</code> (fake iPhone)</li>
+            </ul>
+            <p><strong>Problem:</strong> When you sign in, the system sees your deviceId matches Session 1, so it just refreshes that session instead of showing a conflict.</p>
+        </div>
+
+        <div class="steps">
+            <h3>📝 Solution: Clear Your Device ID</h3>
+            <ol>
+                <li>Click the <strong>"Clear Device ID & Sign Out"</strong> button below</li>
+                <li>This will:
+                    <ul>
+                        <li>Delete your deviceFingerprint from localStorage</li>
+                        <li>Clear all auth tokens</li>
+                        <li>Force your browser to generate a NEW device ID</li>
+                    </ul>
+                </li>
+                <li>Then go to the sign in page</li>
+                <li>Sign in again</li>
+                <li><strong>Now you'll see the device conflict modal!</strong> 🎉</li>
+            </ol>
+        </div>
+
+        <div style="text-align: center; margin: 30px 0;">
+            <button class="danger" onclick="clearDeviceAndSignOut()">
+                🗑️ Clear Device ID & Sign Out
+            </button>
+        </div>
+
+        <div id="result" style="display:none;"></div>
+
+        <div class="info-box" style="margin-top: 30px;">
+            <h3>🎯 What Will Happen:</h3>
+            <ol>
+                <li>After clearing, your browser will have NO deviceId</li>
+                <li>When you visit sign in page, it will generate a NEW random deviceId (e.g., "xyz789")</li>
+                <li>When you sign in with the NEW deviceId, the system will find:
+                    <ul>
+                        <li>Session 1: deviceId <code>w1ew33</code> ❌ (doesn't match)</li>
+                        <li>Session 2: deviceId <code>test-device-different-12345</code> ❌ (doesn't match)</li>
+                    </ul>
+                </li>
+                <li>Since there are existing sessions but none match your NEW deviceId → <strong>CONFLICT DETECTED!</strong></li>
+                <li>The modal will show: "You're already signed in on another device"</li>
+                <li>It will display info about Session 1 (the most recent one)</li>
+            </ol>
+        </div>
+    </div>
+
+    <script>
+        // Display current device ID
+        const currentDeviceId = localStorage.getItem('deviceFingerprint');
+        document.getElementById('currentDeviceId').textContent = currentDeviceId || '(none - will be generated on next page load)';
+
+        function clearDeviceAndSignOut() {
+            const result = document.getElementById('result');
+            result.style.display = 'block';
+            result.className = 'info-box success';
+
+            // Clear everything related to auth and device
+            localStorage.removeItem('deviceFingerprint');
+            localStorage.removeItem('accessToken');
+            localStorage.removeItem('refreshToken');
+            localStorage.removeItem('user');
+
+            // Also clear session storage
+            sessionStorage.clear();
+
+            result.innerHTML = `
+                <h3>✅ Success!</h3>
+                <p>Your device ID and all auth data have been cleared.</p>
+                <p><strong>Current deviceId:</strong> <span class="current-value">(none)</span></p>
+                <p>A new device ID will be generated when you visit the sign in page.</p>
+                <div style="margin-top: 20px;">
+                    <button onclick="window.location.href='/en/auth/signin'">
+                        🔐 Go to Sign In Page
+                    </button>
+                </div>
+            `;
+        }
+    </script>
+</body>
+</html>

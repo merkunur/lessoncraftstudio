@@ -1,8 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getServerSession } from 'next-auth';
-import { authOptions } from '@/lib/auth';
+import { getCurrentUser } from '@/lib/auth';
 import { prisma } from '@/lib/prisma';
-import { formatLastActivity } from '@/lib/device-fingerprint-client';
 
 /**
  * GET /api/auth/active-sessions
@@ -13,27 +11,27 @@ import { formatLastActivity } from '@/lib/device-fingerprint-client';
  * - total: number of active sessions
  * - limit: maximum allowed sessions
  *
- * Auth: Requires authenticated user
+ * Auth: Requires authenticated user via JWT
  */
 export async function GET(request: NextRequest) {
   try {
-    // Check if user is authenticated
-    const session = await getServerSession(authOptions);
-    if (!session?.user?.id) {
+    // Check if user is authenticated using JWT
+    const user = await getCurrentUser(request);
+    if (!user) {
       return NextResponse.json(
         { error: 'Unauthorized - Please sign in' },
         { status: 401 }
       );
     }
 
-    // Get current session token to identify which session is current
-    const currentToken = request.cookies.get('next-auth.session-token')?.value
-      || request.cookies.get('__Secure-next-auth.session-token')?.value;
+    // Get current session token from Authorization header
+    const authHeader = request.headers.get('authorization');
+    const currentToken = authHeader?.replace('Bearer ', '');
 
     // Get all active sessions for this user
     const activeSessions = await prisma.session.findMany({
       where: {
-        userId: session.user.id,
+        userId: user.id,
         expiresAt: { gt: new Date() },
       },
       orderBy: { lastActivityAt: 'desc' },
@@ -54,7 +52,7 @@ export async function GET(request: NextRequest) {
     });
 
     // Format sessions for response
-    const formattedSessions = activeSessions.map((s, index) => {
+    const formattedSessions = activeSessions.map((s) => {
       const isCurrent = s.token === currentToken;
 
       return {
@@ -66,8 +64,7 @@ export async function GET(request: NextRequest) {
         os: s.os || 'Unknown OS',
         ipAddress: s.ipAddress ? maskIP(s.ipAddress) : 'Unknown',
         location: formatLocation(s.city, s.country),
-        lastActivity: s.lastActivityAt,
-        lastActivityFormatted: formatLastActivity(s.lastActivityAt),
+        lastActive: s.lastActivityAt,
         createdAt: s.createdAt,
         isCurrent,
         canRevoke: !isCurrent, // Can't revoke current session from API
@@ -77,8 +74,8 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({
       sessions: formattedSessions,
       total: formattedSessions.length,
-      limit: 2, // MAX_CONCURRENT_SESSIONS
-      hasReachedLimit: formattedSessions.length >= 2,
+      limit: 1, // MAX_CONCURRENT_SESSIONS (single device policy)
+      hasReachedLimit: formattedSessions.length >= 1,
     });
 
   } catch (error) {

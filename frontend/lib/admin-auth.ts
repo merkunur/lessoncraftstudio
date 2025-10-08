@@ -34,15 +34,15 @@ export async function requireAdmin(request: NextRequest) {
 }
 
 export function withAdminAuth(
-  handler: (request: NextRequest, user: any) => Promise<NextResponse>
+  handler: (request: NextRequest, user: any, context?: any) => Promise<NextResponse>
 ) {
-  return async (request: NextRequest) => {
+  return async (request: NextRequest, context?: any) => {
     const adminCheck = await requireAdmin(request);
-    
+
     if (adminCheck instanceof NextResponse) {
       return adminCheck; // Return error response
     }
-    
-    return handler(request, adminCheck); // Call handler with admin user
+
+    return handler(request, adminCheck, context); // Call handler with admin user and context
   };
 }

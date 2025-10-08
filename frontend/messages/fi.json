@@ -247,6 +247,17 @@
       "submit": "Luo tili",
       "hasAccount": "Onko sinulla jo tili?",
       "signIn": "Kirjaudu sisään"
+    },
+    "deviceConflict": {
+      "title": "Olet jo kirjautunut",
+      "subtitle": "Yksi laite kerrallaan",
+      "message": "Turvallisuussyistä voit olla kirjautuneena vain yhdellä laitteella kerrallaan.",
+      "lastActive": "Viimeksi aktiivinen",
+      "infoTitle": "Näin se toimii",
+      "infoMessage": "Jatkaaksesi tällä laitteella sinut kirjataan automaattisesti ulos toiselta laitteeltasi. Tämä auttaa pitämään tilisi turvassa.",
+      "continueButton": "Kirjaa ulos toiselta laitteelta & jatka",
+      "continuingButton": "Kirjaudutaan...",
+      "cancelButton": "Peruuta"
     }
   },
   "footer": {

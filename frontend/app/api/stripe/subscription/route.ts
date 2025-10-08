@@ -32,10 +32,15 @@ export async function GET(request: NextRequest) {
     });
 
     if (!subscription) {
+      // No Stripe subscription, but user might have a manual subscription tier
+      // Fallback to user's subscriptionTier field
+      const manualTier = (user.subscriptionTier || 'free').toUpperCase();
+
+      // Return 'manual' status for non-free tiers, 'inactive' for free
       return NextResponse.json({
-        status: 'inactive',
-        tier: 'FREE',
-        message: 'No active subscription',
+        status: manualTier !== 'FREE' ? 'manual' : 'inactive',
+        tier: manualTier,
+        message: manualTier !== 'FREE' ? 'Manual subscription (no billing)' : 'No active subscription',
       });
     }
 
@@ -134,7 +139,8 @@ export async function DELETE(request: NextRequest) {
       data: {
         userId: user.id,
         action: 'subscription_cancel_requested',
-        details: {
+        details: `Subscription cancellation requested, ends at ${new Date(cancelledSubscription.current_period_end * 1000).toISOString()}`,
+        metadata: {
           subscriptionId: subscription.id,
           cancelAtPeriodEnd: cancelledSubscription.current_period_end,
         },
@@ -206,7 +212,8 @@ export async function PATCH(request: NextRequest) {
         data: {
           userId: user.id,
           action: 'subscription_reactivated',
-          details: {
+          details: `Subscription reactivated: ${subscription.planName}`,
+          metadata: {
             subscriptionId: subscription.id,
           },
         },
@@ -261,7 +268,8 @@ export async function PATCH(request: NextRequest) {
         data: {
           userId: user.id,
           action: action === 'upgrade' ? 'subscription_upgraded' : 'subscription_downgraded',
-          details: {
+          details: `Subscription ${action}d from ${fromTier} to ${newTier.toLowerCase()}`,
+          metadata: {
             subscriptionId: subscription.id,
             fromTier: fromTier,
             toTier: newTier.toLowerCase(),

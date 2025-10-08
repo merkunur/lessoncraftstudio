@@ -260,6 +260,17 @@
       "submit": "Crea account",
       "hasAccount": "Hai già un account?",
       "signIn": "Accedi"
+    },
+    "deviceConflict": {
+      "title": "Hai già effettuato l'accesso",
+      "subtitle": "Un solo dispositivo alla volta",
+      "message": "Per la sicurezza del tuo account, puoi accedere solo da un dispositivo alla volta.",
+      "lastActive": "Ultima attività",
+      "infoTitle": "Come funziona",
+      "infoMessage": "Per continuare su questo dispositivo, verrai automaticamente disconnesso dall'altro dispositivo. Questo aiuta a mantenere il tuo account sicuro.",
+      "continueButton": "Disconnetti altro dispositivo e continua",
+      "continuingButton": "Accesso in corso...",
+      "cancelButton": "Annulla"
     }
   },
   "pricing": {

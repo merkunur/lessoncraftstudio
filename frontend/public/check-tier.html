@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tier Check</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .result {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 10px 0;
+        }
+        .success { color: #00aa00; font-weight: bold; }
+        .error { color: #ff0000; font-weight: bold; }
+        pre { background: #f0f0f0; padding: 10px; border-radius: 5px; overflow-x: auto; }
+    </style>
+</head>
+<body>
+    <h1>🔍 Tier Parameter Diagnostic</h1>
+
+    <div class="result">
+        <h2>Current URL Analysis</h2>
+        <pre id="urlInfo"></pre>
+    </div>
+
+    <div class="result">
+        <h2>LocalStorage User Data</h2>
+        <pre id="userInfo"></pre>
+    </div>
+
+    <div class="result">
+        <h2>Watermark Status</h2>
+        <div id="watermarkStatus"></div>
+    </div>
+
+    <div class="result">
+        <h2>Test Links</h2>
+        <p><a href="/worksheet-generators/wordsearch.html?tier=free" target="_blank">Open Word Search as FREE (should have watermarks)</a></p>
+        <p><a href="/worksheet-generators/wordsearch.html?tier=core" target="_blank">Open Word Search as CORE (NO watermarks)</a></p>
+        <p><a href="/worksheet-generators/wordsearch.html?tier=full" target="_blank">Open Word Search as FULL (NO watermarks)</a></p>
+        <p><a href="/worksheet-generators/wordsearch.html" target="_blank">Open Word Search WITHOUT tier param (NO watermarks)</a></p>
+        <p><a href="/en/apps/word-search" target="_blank">Open via /apps page (tier from user context)</a></p>
+    </div>
+
+    <script>
+        // Check URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        const tier = urlParams.get('tier');
+        const fullUrl = window.location.href;
+
+        document.getElementById('urlInfo').textContent =
+            `Full URL: ${fullUrl}\n` +
+            `Tier parameter: ${tier || '(not set)'}\n` +
+            `All parameters: ${JSON.stringify(Object.fromEntries(urlParams), null, 2)}`;
+
+        // Check localStorage
+        const userStr = localStorage.getItem('user');
+        let userInfo = 'No user data in localStorage';
+        let userTier = null;
+
+        if (userStr) {
+            try {
+                const user = JSON.parse(userStr);
+                userTier = user.subscriptionTier;
+                userInfo = JSON.stringify(user, null, 2);
+            } catch (e) {
+                userInfo = 'Error parsing user data: ' + e.message;
+            }
+        }
+
+        document.getElementById('userInfo').textContent = userInfo;
+
+        // Determine watermark status
+        const isFreeTier = tier === 'free';
+        let status = '';
+
+        if (!tier) {
+            status = '<p class="error">❌ NO TIER PARAMETER - Watermarks will NOT appear</p>';
+            status += '<p>This happens when accessing the HTML file directly without going through the app router.</p>';
+        } else if (isFreeTier) {
+            status = '<p class="success">✅ FREE TIER DETECTED - Watermarks SHOULD appear</p>';
+        } else {
+            status = `<p class="error">⚠️ TIER = "${tier}" (not free) - Watermarks will NOT appear</p>`;
+            status += '<p>This is correct behavior for paid tiers.</p>';
+        }
+
+        if (userTier && userTier !== tier) {
+            status += `<p class="error">⚠️ MISMATCH: URL tier="${tier}" but localStorage user tier="${userTier}"</p>`;
+        }
+
+        document.getElementById('watermarkStatus').innerHTML = status;
+    </script>
+</body>
+</html>

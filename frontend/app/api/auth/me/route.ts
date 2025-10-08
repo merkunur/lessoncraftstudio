@@ -67,13 +67,6 @@ export async function GET(request: NextRequest) {
       },
     });
 
-    // Get usage statistics (generations count)
-    const monthlyUsage = await prisma.worksheetUsage.count({
-      where: {
-        userId: user.id,
-      },
-    });
-
     // Calculate subscription limits
     const subscriptionLimits = {
       free: {
@@ -126,7 +119,6 @@ export async function GET(request: NextRequest) {
         limits: userLimits,
       } : null,
       usage: {
-        totalGenerations: monthlyUsage,
         activeSessions: user._count.sessions,
         totalActivities: user._count.activityLogs,
       },

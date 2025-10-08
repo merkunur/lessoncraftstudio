@@ -85,6 +85,148 @@ async function main() {
   });
   console.log('✅ Created free tier user:', freeUser.email);
 
+  // Create Default Roles
+  console.log('\n👥 Creating default roles...');
+
+  const adminRole = await prisma.role.upsert({
+    where: { slug: 'admin' },
+    update: {},
+    create: {
+      name: 'Admin',
+      slug: 'admin',
+      description: 'Full system access with all permissions',
+      isSystem: true,
+      permissions: [
+        'users:read', 'users:write', 'users:delete', 'users:impersonate',
+        'roles:read', 'roles:write', 'roles:delete', 'roles:assign',
+        'content:read', 'content:write', 'content:delete', 'content:publish',
+        'subscriptions:read', 'subscriptions:write', 'subscriptions:cancel', 'subscriptions:refund',
+        'support:read', 'support:write', 'support:close',
+        'settings:read', 'settings:write',
+        'analytics:read', 'analytics:export',
+      ],
+    },
+  });
+  console.log('✅ Created role:', adminRole.name);
+
+  const editorRole = await prisma.role.upsert({
+    where: { slug: 'editor' },
+    update: {},
+    create: {
+      name: 'Editor',
+      slug: 'editor',
+      description: 'Can manage content and view analytics',
+      isSystem: true,
+      permissions: [
+        'users:read',
+        'content:read', 'content:write', 'content:publish',
+        'analytics:read',
+      ],
+    },
+  });
+  console.log('✅ Created role:', editorRole.name);
+
+  const supportRole = await prisma.role.upsert({
+    where: { slug: 'support' },
+    update: {},
+    create: {
+      name: 'Support',
+      slug: 'support',
+      description: 'Can handle support tickets and view user info',
+      isSystem: true,
+      permissions: [
+        'users:read',
+        'subscriptions:read',
+        'support:read', 'support:write', 'support:close',
+      ],
+    },
+  });
+  console.log('✅ Created role:', supportRole.name);
+
+  const viewerRole = await prisma.role.upsert({
+    where: { slug: 'viewer' },
+    update: {},
+    create: {
+      name: 'Viewer',
+      slug: 'viewer',
+      description: 'Read-only access to analytics and reports',
+      isSystem: true,
+      permissions: [
+        'analytics:read',
+        'content:read',
+        'users:read',
+      ],
+    },
+  });
+  console.log('✅ Created role:', viewerRole.name);
+
+  // Assign Admin role to admin user
+  const existingAdminRole = await prisma.userRole.findUnique({
+    where: {
+      userId_roleId: {
+        userId: admin.id,
+        roleId: adminRole.id,
+      },
+    },
+  });
+
+  if (!existingAdminRole) {
+    await prisma.userRole.create({
+      data: {
+        userId: admin.id,
+        roleId: adminRole.id,
+      },
+    });
+    console.log('✅ Assigned Admin role to admin user');
+  }
+
+  // Create Default Security Settings
+  console.log('\n🔒 Creating default security settings...');
+  const securitySettings = await prisma.securitySetting.upsert({
+    where: { id: 'security' },
+    update: {},
+    create: {
+      id: 'security',
+      // Password Policy
+      passwordMinLength: 8,
+      passwordRequireUppercase: true,
+      passwordRequireLowercase: true,
+      passwordRequireNumbers: true,
+      passwordRequireSpecial: false,
+      // Session Management
+      maxSessionsPerUser: 5,
+      sessionTimeoutMinutes: 10080, // 7 days
+      sessionIdleMinutes: 60, // 1 hour
+      // Login Security
+      maxLoginAttempts: 5,
+      lockoutDurationMinutes: 15,
+      require2FA: false,
+      require2FAForAdmins: false,
+      enableEmailVerification: true,
+      // Account Sharing Detection
+      enableAccountSharingDetection: false,
+      maxConcurrentDevices: 3,
+      suspiciousActivityThreshold: 5,
+      // IP Security
+      enableIpWhitelist: false,
+      ipWhitelist: [],
+      enableIpBlacklist: false,
+      ipBlacklist: [],
+      // Security Features
+      enableCsrfProtection: true,
+      enableRateLimiting: true,
+      rateLimitRequestsPerMin: 100,
+      // Audit Logging
+      logAllAuthEvents: true,
+      logFailedLogins: true,
+      logPasswordChanges: true,
+      logRoleChanges: true,
+      retainAuditLogDays: 90,
+      updatedBy: 'system',
+    },
+  });
+  console.log('✅ Created default security settings');
+
   console.log('\n🎉 Seeding completed!');
   console.log('\n📝 Test Users Created:');
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');

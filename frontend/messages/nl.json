@@ -260,6 +260,17 @@
       "submit": "Account aanmaken",
       "hasAccount": "Heb je al een account?",
       "signIn": "Inloggen"
+    },
+    "deviceConflict": {
+      "title": "Al ingelogd",
+      "subtitle": "Eén apparaat tegelijk",
+      "message": "Voor de beveiliging van je account kun je maar op één apparaat tegelijk ingelogd zijn.",
+      "lastActive": "Laatst actief",
+      "infoTitle": "Hoe het werkt",
+      "infoMessage": "Om verder te gaan op dit apparaat, word je automatisch uitgelogd op je andere apparaat. Dit helpt je account veilig te houden.",
+      "continueButton": "Uitloggen op ander apparaat en doorgaan",
+      "continuingButton": "Inloggen...",
+      "cancelButton": "Annuleren"
     }
   },
   "pricing": {

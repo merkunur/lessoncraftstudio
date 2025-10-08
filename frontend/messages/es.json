@@ -260,6 +260,17 @@
       "submit": "Crear cuenta",
       "hasAccount": "¿Ya tienes una cuenta?",
       "signIn": "Inicia sesión"
+    },
+    "deviceConflict": {
+      "title": "Ya has iniciado sesión",
+      "subtitle": "Solo un dispositivo a la vez",
+      "message": "Por seguridad de tu cuenta, solo puedes tener sesión iniciada en un dispositivo a la vez.",
+      "lastActive": "Última actividad",
+      "infoTitle": "Cómo funciona",
+      "infoMessage": "Para continuar en este dispositivo, cerraremos automáticamente tu sesión en el otro dispositivo. Esto ayuda a mantener tu cuenta segura.",
+      "continueButton": "Cerrar sesión en otro dispositivo y continuar",
+      "continuingButton": "Iniciando sesión...",
+      "cancelButton": "Cancelar"
     }
   },
   "footer": {

@@ -247,6 +247,17 @@
       "submit": "Opret konto",
       "hasAccount": "Har du allerede en konto?",
       "signIn": "Log ind"
+    },
+    "deviceConflict": {
+      "title": "Allerede logget ind",
+      "subtitle": "Én enhed ad gangen",
+      "message": "Af sikkerhedsmæssige årsager kan du kun være logget ind på én enhed ad gangen.",
+      "lastActive": "Sidst aktiv",
+      "infoTitle": "Sådan fungerer det",
+      "infoMessage": "For at fortsætte på denne enhed bliver du automatisk logget ud fra din anden enhed. Dette hjælper med at holde din konto sikker.",
+      "continueButton": "Log ud fra anden enhed & fortsæt",
+      "continuingButton": "Logger ind...",
+      "cancelButton": "Annuller"
     }
   },
   "footer": {

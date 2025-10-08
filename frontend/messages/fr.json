@@ -260,6 +260,17 @@
       "submit": "Créer un compte",
       "hasAccount": "Déjà un compte?",
       "signIn": "Se connecter"
+    },
+    "deviceConflict": {
+      "title": "Déjà connecté",
+      "subtitle": "Un seul appareil à la fois",
+      "message": "Pour la sécurité de votre compte, vous ne pouvez être connecté que sur un seul appareil à la fois.",
+      "lastActive": "Dernière activité",
+      "infoTitle": "Comment ça marche",
+      "infoMessage": "Pour continuer sur cet appareil, vous serez automatiquement déconnecté de votre autre appareil. Cela permet de sécuriser votre compte.",
+      "continueButton": "Déconnecter l'autre appareil & Continuer",
+      "continuingButton": "Connexion en cours...",
+      "cancelButton": "Annuler"
     }
   },
   "footer": {

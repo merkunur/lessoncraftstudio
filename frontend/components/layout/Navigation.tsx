@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/Button';
 import { usePathname } from 'next/navigation';
 import { LanguageSelector } from '@/components/LanguageSelector';
 import { useEffect, useState } from 'react';
+import { useAuth } from '@/contexts/auth-context';
 
 interface NavigationContent {
   logo?: {
@@ -20,6 +21,7 @@ export function Navigation() {
   const t = useTranslations('navigation');
   const pathname = usePathname();
   const locale = pathname.split('/')[1] || 'en';
+  const { user } = useAuth();
   const [navContent, setNavContent] = useState<NavigationContent>({});
   const [customLogo, setCustomLogo] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(true);
@@ -104,10 +106,10 @@ export function Navigation() {
 
             {/* Always show LessonCraftStudio text next to logo */}
             <div className="flex flex-col justify-center">
-              <span className="font-display font-bold text-4xl text-gray-900 tracking-tight leading-none">
+              <span className="font-display font-bold text-2xl text-gray-900 tracking-tight leading-none">
                 LessonCraftStudio
               </span>
-              <span className="text-base text-gray-600 tracking-wider mt-1">
+              <span className="text-xs text-gray-500 tracking-wide mt-0.5">
                 {locale === 'de' ? 'Pädagogischer Arbeitsblatt-Generator' :
                  locale === 'fr' ? 'Générateur de Fiches Pédagogiques' :
                  locale === 'es' ? 'Generador de Hojas de Trabajo Educativas' :
@@ -134,18 +136,33 @@ export function Navigation() {
             <Link href={`/${locale}/blog`} className="text-gray-600 hover:text-primary transition-colors">
               {navContent?.menuItems?.blog?.[locale] || t('blog')}
             </Link>
+            <Link href={`/${locale}/dashboard`} className="text-gray-600 hover:text-primary transition-colors font-medium">
+              {navContent?.menuItems?.dashboard?.[locale] || t('dashboard')}
+            </Link>
           </div>
 
           {/* Actions */}
           <div className="flex items-center space-x-4">
             <LanguageSelector />
             <div className="h-6 w-px bg-gray-300" />
-            <Button variant="ghost" size="sm" href={`/${locale}/auth/signin`}>
-              {navContent?.buttons?.signIn?.[locale] || t('signIn')}
-            </Button>
-            <Button variant="primary" size="sm" href={`/${locale}/auth/signup`}>
-              {navContent?.buttons?.startFree?.[locale] || t('startFree')}
-            </Button>
+            {user ? (
+              <Button variant="ghost" size="sm" onClick={() => {
+                localStorage.removeItem('accessToken');
+                localStorage.removeItem('refreshToken');
+                window.location.href = `/${locale}`;
+              }}>
+                {t('signOut')}
+              </Button>
+            ) : (
+              <>
+                <Button variant="ghost" size="sm" href={`/${locale}/auth/signin`}>
+                  {navContent?.buttons?.signIn?.[locale] || t('signIn')}
+                </Button>
+                <Button variant="primary" size="sm" href={`/${locale}/auth/signup`}>
+                  {navContent?.buttons?.startFree?.[locale] || t('startFree')}
+                </Button>
+              </>
+            )}
           </div>
         </div>
       </div>

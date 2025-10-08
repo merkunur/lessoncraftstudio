@@ -1105,5 +1105,72 @@
         "description": "Finde die fehlenden Teile"
       }
     }
+  },
+  "support": {
+    "pageTitle": "Support-Anfragen",
+    "pageSubtitle": "Haben Sie Fragen oder benötigen Sie Hilfe? Unser Support-Team steht Ihnen gerne zur Verfügung.",
+    "myTickets": "Meine Anfragen",
+    "newTicket": "Neue Anfrage",
+    "status": {
+      "open": "Offen",
+      "in_progress": "In Bearbeitung",
+      "waiting": "Warten auf Antwort",
+      "resolved": "Gelöst",
+      "closed": "Geschlossen"
+    },
+    "priority": {
+      "low": "Niedrig",
+      "medium": "Mittel",
+      "high": "Hoch",
+      "urgent": "Dringend"
+    },
+    "categories": {
+      "bug": "Fehler melden",
+      "feature_request": "Funktionswunsch",
+      "billing": "Abrechnung & Zahlung",
+      "technical": "Technische Frage",
+      "other": "Sonstiges"
+    },
+    "noTicketsTitle": "Keine Support-Anfragen vorhanden",
+    "noTicketsMessage": "Sie haben derzeit keine offenen oder bearbeiteten Support-Anfragen. Wenn Sie Hilfe benötigen, erstellen Sie einfach eine neue Anfrage.",
+    "loadingTickets": "Anfragen werden geladen...",
+    "ticketId": "Anfrage-Nr.",
+    "created": "Erstellt",
+    "lastUpdated": "Aktualisiert",
+    "yourMessage": "Ihre Nachricht",
+    "adminResponse": "Antwort vom Support-Team",
+    "noResponseYet": "Noch keine Antwort vorhanden. Wir bearbeiten Ihre Anfrage schnellstmöglich.",
+    "deleteTicket": "Anfrage löschen",
+    "deleteConfirm": "Möchten Sie diese Anfrage wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "formTitle": "Neue Support-Anfrage erstellen",
+    "formDescription": "Beschreiben Sie Ihr Anliegen so detailliert wie möglich, damit wir Ihnen optimal helfen können.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Ihr Name",
+    "emailLabel": "E-Mail-Adresse",
+    "emailPlaceholder": "ihre@email.de",
+    "subjectLabel": "Betreff",
+    "subjectPlaceholder": "Kurze Zusammenfassung Ihres Anliegens",
+    "categoryLabel": "Kategorie",
+    "categoryPlaceholder": "Wählen Sie eine Kategorie",
+    "priorityLabel": "Priorität",
+    "priorityPlaceholder": "Wählen Sie die Dringlichkeit",
+    "messageLabel": "Nachricht",
+    "messagePlaceholder": "Beschreiben Sie Ihr Anliegen ausführlich...",
+    "submitButton": "Anfrage absenden",
+    "submitting": "Wird gesendet...",
+    "cancel": "Abbrechen",
+    "helpTitle": "Schnelle Hilfe",
+    "helpDescription": "Bevor Sie eine Anfrage erstellen, schauen Sie sich unsere häufig gestellten Fragen an oder durchsuchen Sie die Dokumentation.",
+    "viewFaq": "FAQ ansehen",
+    "viewDocs": "Dokumentation",
+    "responseTime": "Antwortzeit",
+    "responseTimeInfo": "Wir antworten in der Regel innerhalb von 24-48 Stunden auf Support-Anfragen.",
+    "requiredField": "Dieses Feld ist erforderlich",
+    "invalidEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "successMessage": "Ihre Support-Anfrage wurde erfolgreich übermittelt. Wir melden uns schnellstmöglich bei Ihnen.",
+    "errorMessage": "Beim Absenden Ihrer Anfrage ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+    "deleteSuccess": "Anfrage wurde erfolgreich gelöscht.",
+    "deleteError": "Beim Löschen der Anfrage ist ein Fehler aufgetreten.",
+    "loadError": "Beim Laden der Anfragen ist ein Fehler aufgetreten. Bitte laden Sie die Seite neu."
   }
 }

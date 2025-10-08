@@ -1056,5 +1056,72 @@
         "description": "Trouvez les pièces manquantes"
       }
     }
+  },
+  "support": {
+    "pageTitle": "Service d'assistance",
+    "pageSubtitle": "Consultez vos demandes d'assistance ou créez-en une nouvelle",
+    "myTickets": "Mes demandes",
+    "newTicket": "Nouvelle demande",
+    "status": {
+      "open": "EN ATTENTE",
+      "in_progress": "EN COURS",
+      "waiting": "EN ATTENTE DE RÉPONSE",
+      "resolved": "RÉSOLU",
+      "closed": "CLÔTURÉ"
+    },
+    "priority": {
+      "low": "FAIBLE",
+      "medium": "MOYENNE",
+      "high": "ÉLEVÉE",
+      "urgent": "URGENTE"
+    },
+    "categories": {
+      "bug": "Signaler un bug",
+      "feature_request": "Suggestion de fonctionnalité",
+      "billing": "Facturation et paiement",
+      "technical": "Question technique",
+      "other": "Autre"
+    },
+    "noTicketsTitle": "Aucune demande d'assistance",
+    "noTicketsMessage": "Vous n'avez aucune demande d'assistance pour le moment. Si vous avez besoin d'aide, créez une nouvelle demande.",
+    "loadingTickets": "Chargement de vos demandes...",
+    "ticketId": "N° de demande",
+    "created": "Créée le",
+    "lastUpdated": "Mise à jour",
+    "yourMessage": "Votre message",
+    "adminResponse": "Réponse de notre équipe",
+    "noResponseYet": "Nous n'avons pas encore répondu. Votre demande est en cours de traitement.",
+    "deleteTicket": "Supprimer la demande",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cette demande ? Cette action est irréversible.",
+    "formTitle": "Créer une nouvelle demande d'assistance",
+    "formDescription": "Décrivez votre problème de manière aussi détaillée que possible afin que nous puissions vous aider au mieux.",
+    "nameLabel": "Nom",
+    "namePlaceholder": "Votre nom",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "votre@email.fr",
+    "subjectLabel": "Objet",
+    "subjectPlaceholder": "Résumé de votre demande",
+    "categoryLabel": "Catégorie",
+    "categoryPlaceholder": "Choisissez une catégorie",
+    "priorityLabel": "Priorité",
+    "priorityPlaceholder": "Sélectionnez la priorité",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Décrivez votre problème en détail...",
+    "submitButton": "Envoyer la demande",
+    "submitting": "Envoi en cours...",
+    "cancel": "Annuler",
+    "helpTitle": "Besoin d'aide rapidement ?",
+    "helpDescription": "Avant de créer une demande, consultez notre FAQ ou parcourez la documentation pour trouver des réponses rapides.",
+    "viewFaq": "Consulter la FAQ",
+    "viewDocs": "Documentation",
+    "responseTime": "Délai de réponse",
+    "responseTimeInfo": "Nous répondons généralement sous 24 à 48 heures aux demandes d'assistance.",
+    "requiredField": "Ce champ est obligatoire",
+    "invalidEmail": "Veuillez saisir une adresse e-mail valide",
+    "successMessage": "Votre demande d'assistance a été envoyée avec succès. Nous vous répondrons dans les plus brefs délais.",
+    "errorMessage": "Une erreur s'est produite lors de l'envoi de votre demande. Veuillez réessayer.",
+    "deleteSuccess": "La demande a été supprimée avec succès.",
+    "deleteError": "Une erreur s'est produite lors de la suppression de la demande.",
+    "loadError": "Impossible de charger vos demandes. Veuillez actualiser la page."
   }
 }

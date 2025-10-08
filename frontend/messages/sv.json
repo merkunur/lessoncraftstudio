@@ -1043,5 +1043,59 @@
         "description": "Hitta de saknade bitarna"
       }
     }
+  },
+  "support": {
+    "pageTitle": "Kundservice",
+    "pageSubtitle": "Se dina supportärenden eller skapa ett nytt",
+    "myTickets": "Mina Ärenden",
+    "newTicket": "Nytt Ärende",
+    "loadError": "Kunde inte ladda ärenden. Prova att uppdatera sidan.",
+    "deleteConfirm": "Är du säker på att du vill ta bort detta supportärende?",
+    "deleteSuccess": "Supportärendet har tagits bort",
+    "deleteError": "Kunde inte ta bort ärendet. Försök igen.",
+    "errorMessage": "Något gick fel. Försök igen om en stund.",
+    "successMessage": "Perfekt! Ditt ärende är mottaget. Vi återkommer så snart vi kan.",
+    "loadingTickets": "Laddar...",
+    "noTicketsTitle": "Inga supportärenden än",
+    "noTicketsMessage": "Behöver du hjälp med något? Tveka inte att höra av dig - vi finns här för dig!",
+    "adminResponse": "Svar från Supporten",
+    "yourMessage": "Ditt Meddelande",
+    "noResponseYet": "Vi tittar på ditt ärende och hör av oss så fort vi kan.",
+    "deleteTicket": "Ta Bort Ärende",
+    "ticketId": "Ärende-ID",
+    "subjectLabel": "Ämne",
+    "created": "Skapades",
+    "responseTimeInfo": "Vi svarar normalt inom 24-48 timmar på alla supportärenden.",
+    "subjectPlaceholder": "Vad kan vi hjälpa dig med?",
+    "categoryLabel": "Kategori",
+    "priorityLabel": "Prioritet",
+    "messageLabel": "Meddelande",
+    "messagePlaceholder": "Beskriv ditt problem eller din fråga så detaljerat som möjligt. Ju mer information du ger oss, desto bättre kan vi hjälpa dig!",
+    "emailLabel": "E-postadress",
+    "submitting": "Skickar...",
+    "submitButton": "Skicka Ärende",
+    "responseTime": "Svarstid",
+    "helpTitle": "Vanliga Frågor",
+    "helpDescription": "Kanske finns ditt svar redan i våra vanliga frågor? Kika där för snabba svar!",
+    "status": {
+      "open": "ÖPPEN",
+      "in_progress": "PÅGÅENDE",
+      "waiting": "VÄNTAR",
+      "resolved": "LÖST",
+      "closed": "STÄNGD"
+    },
+    "priority": {
+      "low": "LÅG",
+      "medium": "NORMAL",
+      "high": "HÖG",
+      "urgent": "BRÅDSKANDE"
+    },
+    "categories": {
+      "bug": "Rapportera problem",
+      "feature_request": "Föreslå ny funktion",
+      "billing": "Fakturering & Betalning",
+      "technical": "Teknisk fråga",
+      "other": "Övrigt"
+    }
   }
 }

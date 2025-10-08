@@ -1056,5 +1056,72 @@
         "description": "Encuentra las piezas que faltan"
       }
     }
+  },
+  "support": {
+    "pageTitle": "Centro de Asistencia",
+    "pageSubtitle": "Consulta tus solicitudes de soporte o crea una nueva",
+    "myTickets": "Mis Solicitudes",
+    "newTicket": "Nueva Solicitud",
+    "status": {
+      "open": "ABIERTA",
+      "in_progress": "EN PROCESO",
+      "waiting": "ESPERANDO RESPUESTA",
+      "resolved": "RESUELTA",
+      "closed": "CERRADA"
+    },
+    "priority": {
+      "low": "BAJA",
+      "medium": "MEDIA",
+      "high": "ALTA",
+      "urgent": "URGENTE"
+    },
+    "categories": {
+      "bug": "Reportar error",
+      "feature_request": "Sugerencia de función",
+      "billing": "Facturación y pagos",
+      "technical": "Consulta técnica",
+      "other": "Otro"
+    },
+    "noTicketsTitle": "No hay solicitudes de soporte",
+    "noTicketsMessage": "No tienes ninguna solicitud de soporte en este momento. Si necesitas ayuda, crea una nueva solicitud.",
+    "loadingTickets": "Cargando tus solicitudes...",
+    "ticketId": "N.º de solicitud",
+    "created": "Creada el",
+    "lastUpdated": "Actualizada",
+    "yourMessage": "Tu mensaje",
+    "adminResponse": "Respuesta de nuestro equipo",
+    "noResponseYet": "Aún no hemos respondido. Tu solicitud está siendo procesada.",
+    "deleteTicket": "Eliminar solicitud",
+    "deleteConfirm": "¿Estás seguro de que deseas eliminar esta solicitud? Esta acción no se puede deshacer.",
+    "formTitle": "Crear nueva solicitud de soporte",
+    "formDescription": "Describe tu problema con el mayor detalle posible para que podamos ayudarte de la mejor manera.",
+    "nameLabel": "Nombre",
+    "namePlaceholder": "Tu nombre",
+    "emailLabel": "Correo electrónico",
+    "emailPlaceholder": "tu@email.com",
+    "subjectLabel": "Asunto",
+    "subjectPlaceholder": "Resumen de tu consulta",
+    "categoryLabel": "Categoría",
+    "categoryPlaceholder": "Selecciona una categoría",
+    "priorityLabel": "Prioridad",
+    "priorityPlaceholder": "Selecciona la prioridad",
+    "messageLabel": "Mensaje",
+    "messagePlaceholder": "Describe tu problema en detalle...",
+    "submitButton": "Enviar solicitud",
+    "submitting": "Enviando...",
+    "cancel": "Cancelar",
+    "helpTitle": "¿Necesitas ayuda rápida?",
+    "helpDescription": "Antes de crear una solicitud, consulta nuestras preguntas frecuentes o revisa la documentación para encontrar respuestas rápidas.",
+    "viewFaq": "Ver preguntas frecuentes",
+    "viewDocs": "Documentación",
+    "responseTime": "Tiempo de respuesta",
+    "responseTimeInfo": "Generalmente respondemos en un plazo de 24 a 48 horas a las solicitudes de soporte.",
+    "requiredField": "Este campo es obligatorio",
+    "invalidEmail": "Por favor, ingresa un correo electrónico válido",
+    "successMessage": "Tu solicitud de soporte se ha enviado correctamente. Te responderemos lo antes posible.",
+    "errorMessage": "Ocurrió un error al enviar tu solicitud. Por favor, inténtalo de nuevo.",
+    "deleteSuccess": "La solicitud se eliminó correctamente.",
+    "deleteError": "Ocurrió un error al eliminar la solicitud.",
+    "loadError": "No se pudieron cargar tus solicitudes. Por favor, actualiza la página."
   }
 }

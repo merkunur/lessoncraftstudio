@@ -1056,5 +1056,59 @@
         "description": "Vind de ontbrekende stukken"
       }
     }
+  },
+  "support": {
+    "pageTitle": "Klantenservice",
+    "pageSubtitle": "Bekijk je supportaanvragen of maak een nieuwe aan",
+    "myTickets": "Mijn Aanvragen",
+    "newTicket": "Nieuwe Aanvraag",
+    "loadError": "Kan aanvragen niet laden. Probeer de pagina te vernieuwen.",
+    "deleteConfirm": "Weet je zeker dat je deze supportaanvraag wilt verwijderen?",
+    "deleteSuccess": "Supportaanvraag succesvol verwijderd",
+    "deleteError": "Kan supportaanvraag niet verwijderen. Probeer het opnieuw.",
+    "errorMessage": "Er ging iets mis. Probeer het later opnieuw.",
+    "successMessage": "Gelukt! Je aanvraag is ontvangen. We nemen zo snel mogelijk contact met je op.",
+    "loadingTickets": "Bezig met laden...",
+    "noTicketsTitle": "Nog geen supportaanvragen",
+    "noTicketsMessage": "Hulp nodig? Aarzel niet om contact op te nemen - we helpen je graag!",
+    "adminResponse": "Reactie van Support",
+    "yourMessage": "Jouw Bericht",
+    "noResponseYet": "We bekijken je aanvraag en komen zo snel mogelijk bij je terug.",
+    "deleteTicket": "Aanvraag Verwijderen",
+    "ticketId": "Aanvraag-ID",
+    "subjectLabel": "Onderwerp",
+    "created": "Aangemaakt op",
+    "responseTimeInfo": "We reageren meestal binnen 24-48 uur op supportaanvragen.",
+    "subjectPlaceholder": "Waar kunnen we je mee helpen?",
+    "categoryLabel": "Categorie",
+    "priorityLabel": "Prioriteit",
+    "messageLabel": "Bericht",
+    "messagePlaceholder": "Beschrijf je vraag of probleem zo gedetailleerd mogelijk. Hoe meer informatie je geeft, hoe beter we je kunnen helpen!",
+    "emailLabel": "E-mailadres",
+    "submitting": "Even geduld...",
+    "submitButton": "Aanvraag Versturen",
+    "responseTime": "Reactietijd",
+    "helpTitle": "Veelgestelde Vragen",
+    "helpDescription": "Misschien staat je vraag al tussen onze veelgestelde vragen. Neem gerust een kijkje voor snelle antwoorden!",
+    "status": {
+      "open": "OPEN",
+      "in_progress": "IN BEHANDELING",
+      "waiting": "WACHTEN",
+      "resolved": "OPGELOST",
+      "closed": "GESLOTEN"
+    },
+    "priority": {
+      "low": "LAAG",
+      "medium": "NORMAAL",
+      "high": "HOOG",
+      "urgent": "URGENT"
+    },
+    "categories": {
+      "bug": "Probleem melden",
+      "feature_request": "Nieuwe functie voorstellen",
+      "billing": "Facturering & Betaling",
+      "technical": "Technische vraag",
+      "other": "Iets anders"
+    }
   }
 }

@@ -1056,5 +1056,72 @@
         "description": "Trova i pezzi mancanti"
       }
     }
+  },
+  "support": {
+    "pageTitle": "Centro Assistenza",
+    "pageSubtitle": "Consulta le tue richieste di supporto o creane una nuova",
+    "myTickets": "Le Mie Richieste",
+    "newTicket": "Nuova Richiesta",
+    "status": {
+      "open": "APERTA",
+      "in_progress": "IN LAVORAZIONE",
+      "waiting": "IN ATTESA DI RISPOSTA",
+      "resolved": "RISOLTA",
+      "closed": "CHIUSA"
+    },
+    "priority": {
+      "low": "BASSA",
+      "medium": "MEDIA",
+      "high": "ALTA",
+      "urgent": "URGENTE"
+    },
+    "categories": {
+      "bug": "Segnalare un problema",
+      "feature_request": "Richiesta di funzionalità",
+      "billing": "Fatturazione e pagamenti",
+      "technical": "Domanda tecnica",
+      "other": "Altro"
+    },
+    "noTicketsTitle": "Nessuna richiesta di supporto",
+    "noTicketsMessage": "Al momento non hai nessuna richiesta di supporto. Se hai bisogno di aiuto, crea una nuova richiesta.",
+    "loadingTickets": "Caricamento delle tue richieste...",
+    "ticketId": "N. richiesta",
+    "created": "Creata il",
+    "lastUpdated": "Aggiornata",
+    "yourMessage": "Il tuo messaggio",
+    "adminResponse": "Risposta del nostro team",
+    "noResponseYet": "Non abbiamo ancora risposto. La tua richiesta è in fase di elaborazione.",
+    "deleteTicket": "Elimina richiesta",
+    "deleteConfirm": "Sei sicuro di voler eliminare questa richiesta? Questa azione non può essere annullata.",
+    "formTitle": "Crea una nuova richiesta di supporto",
+    "formDescription": "Descrivi il tuo problema nel modo più dettagliato possibile per permetterci di aiutarti al meglio.",
+    "nameLabel": "Nome",
+    "namePlaceholder": "Il tuo nome",
+    "emailLabel": "Indirizzo email",
+    "emailPlaceholder": "tuo@email.it",
+    "subjectLabel": "Oggetto",
+    "subjectPlaceholder": "Riepilogo della tua richiesta",
+    "categoryLabel": "Categoria",
+    "categoryPlaceholder": "Seleziona una categoria",
+    "priorityLabel": "Priorità",
+    "priorityPlaceholder": "Seleziona la priorità",
+    "messageLabel": "Messaggio",
+    "messagePlaceholder": "Descrivi il tuo problema in dettaglio...",
+    "submitButton": "Invia richiesta",
+    "submitting": "Invio in corso...",
+    "cancel": "Annulla",
+    "helpTitle": "Hai bisogno di aiuto veloce?",
+    "helpDescription": "Prima di creare una richiesta, consulta le nostre domande frequenti o leggi la documentazione per trovare risposte immediate.",
+    "viewFaq": "Consulta le FAQ",
+    "viewDocs": "Documentazione",
+    "responseTime": "Tempo di risposta",
+    "responseTimeInfo": "Generalmente rispondiamo entro 24-48 ore alle richieste di supporto.",
+    "requiredField": "Questo campo è obbligatorio",
+    "invalidEmail": "Inserisci un indirizzo email valido",
+    "successMessage": "La tua richiesta di supporto è stata inviata con successo. Ti risponderemo il prima possibile.",
+    "errorMessage": "Si è verificato un errore durante l'invio della richiesta. Riprova.",
+    "deleteSuccess": "La richiesta è stata eliminata con successo.",
+    "deleteError": "Si è verificato un errore durante l'eliminazione della richiesta.",
+    "loadError": "Impossibile caricare le tue richieste. Aggiorna la pagina."
   }
 }

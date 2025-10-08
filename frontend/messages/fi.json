@@ -1035,5 +1035,59 @@
         "description": "Etsi puuttuvat palaset"
       }
     }
+  },
+  "support": {
+    "pageTitle": "Asiakaspalvelu",
+    "pageSubtitle": "Katso yhteydenottosi tai lähetä uusi viesti",
+    "myTickets": "Omat Viestit",
+    "newTicket": "Uusi Viesti",
+    "loadError": "Viestien lataus epäonnistui. Yritä päivittää sivu.",
+    "deleteConfirm": "Haluatko varmasti poistaa tämän viestin?",
+    "deleteSuccess": "Viesti poistettu onnistuneesti",
+    "deleteError": "Viestin poisto epäonnistui. Yritä uudelleen.",
+    "errorMessage": "Jokin meni pieleen. Yritä hetken kuluttua uudelleen.",
+    "successMessage": "Mahtavaa! Viestisi on vastaanotettu. Palaamme asiaan mahdollisimman pian.",
+    "loadingTickets": "Ladataan...",
+    "noTicketsTitle": "Ei yhteydenottoja vielä",
+    "noTicketsMessage": "Tarvitsetko apua? Ota rohkeasti yhteyttä - autamme mielellämme!",
+    "adminResponse": "Asiakaspalvelun Vastaus",
+    "yourMessage": "Sinun Viestisi",
+    "noResponseYet": "Käsittelemme viestiäsi ja palaamme asiaan pian.",
+    "deleteTicket": "Poista Viesti",
+    "ticketId": "Viesti-ID",
+    "subjectLabel": "Aihe",
+    "created": "Luotu",
+    "responseTimeInfo": "Vastaamme yleensä kaikkiin viesteihin 24-48 tunnin kuluessa.",
+    "subjectPlaceholder": "Missä voimme auttaa?",
+    "categoryLabel": "Aihe",
+    "priorityLabel": "Kiireellisyys",
+    "messageLabel": "Viesti",
+    "messagePlaceholder": "Kerro ongelmastasi tai kysymyksestäsi mahdollisimman tarkasti. Mitä enemmän tietoa annat, sitä paremmin voimme auttaa!",
+    "emailLabel": "Sähköpostiosoite",
+    "submitting": "Lähetetään...",
+    "submitButton": "Lähetä Viesti",
+    "responseTime": "Vastausaika",
+    "helpTitle": "Usein Kysytyt Kysymykset",
+    "helpDescription": "Löydät ehkä vastauksen jo UKK:sta? Käy kurkkaamassa sieltä!",
+    "status": {
+      "open": "AVOINNA",
+      "in_progress": "KÄSITTELYSSÄ",
+      "waiting": "ODOTTAA",
+      "resolved": "RATKAISTU",
+      "closed": "SULJETTU"
+    },
+    "priority": {
+      "low": "EI KIIRE",
+      "medium": "NORMAALI",
+      "high": "KIIREELLINEN",
+      "urgent": "ERITTÄIN KIIRE"
+    },
+    "categories": {
+      "bug": "Ilmoita ongelmasta",
+      "feature_request": "Ehdota ominaisuutta",
+      "billing": "Laskutus & Maksu",
+      "technical": "Tekninen kysymys",
+      "other": "Muu asia"
+    }
   }
 }

@@ -1043,5 +1043,59 @@
         "description": "Find de manglende brikker"
       }
     }
+  },
+  "support": {
+    "pageTitle": "Kundeservice",
+    "pageSubtitle": "Se dine henvendelser eller opret en ny",
+    "myTickets": "Mine Henvendelser",
+    "newTicket": "Ny Henvendelse",
+    "loadError": "Kan ikke indlæse henvendelser. Prøv at opdatere siden.",
+    "deleteConfirm": "Er du sikker på, at du vil slette denne henvendelse?",
+    "deleteSuccess": "Henvendelsen er slettet",
+    "deleteError": "Kunne ikke slette henvendelsen. Prøv igen.",
+    "errorMessage": "Noget gik galt. Prøv igen om lidt.",
+    "successMessage": "Perfekt! Vi har modtaget din henvendelse. Vi vender tilbage hurtigst muligt.",
+    "loadingTickets": "Indlæser...",
+    "noTicketsTitle": "Ingen henvendelser endnu",
+    "noTicketsMessage": "Har du brug for hjælp? Bare skriv til os - vi er her for at hjælpe!",
+    "adminResponse": "Svar fra Supporten",
+    "yourMessage": "Din Besked",
+    "noResponseYet": "Vi arbejder på din henvendelse og vender tilbage så hurtigt vi kan.",
+    "deleteTicket": "Slet Henvendelse",
+    "ticketId": "Henvendelses-ID",
+    "subjectLabel": "Emne",
+    "created": "Oprettet",
+    "responseTimeInfo": "Vi svarer normalt på alle henvendelser inden for 24-48 timer.",
+    "subjectPlaceholder": "Hvad kan vi hjælpe med?",
+    "categoryLabel": "Kategori",
+    "priorityLabel": "Prioritet",
+    "messageLabel": "Besked",
+    "messagePlaceholder": "Beskriv dit problem eller spørgsmål så detaljeret som muligt. Jo mere info du giver os, jo bedre kan vi hjælpe!",
+    "emailLabel": "E-mailadresse",
+    "submitting": "Sender...",
+    "submitButton": "Send Henvendelse",
+    "responseTime": "Svartid",
+    "helpTitle": "Ofte Stillede Spørgsmål",
+    "helpDescription": "Måske finder du svaret i vores FAQ? Tag et kig der for hurtige svar!",
+    "status": {
+      "open": "ÅBEN",
+      "in_progress": "I GANG",
+      "waiting": "AFVENTER",
+      "resolved": "LØST",
+      "closed": "LUKKET"
+    },
+    "priority": {
+      "low": "LAV",
+      "medium": "NORMAL",
+      "high": "HØJ",
+      "urgent": "HASTER"
+    },
+    "categories": {
+      "bug": "Rapportér problem",
+      "feature_request": "Foreslå funktion",
+      "billing": "Fakturering & Betaling",
+      "technical": "Teknisk spørgsmål",
+      "other": "Andet"
+    }
   }
 }

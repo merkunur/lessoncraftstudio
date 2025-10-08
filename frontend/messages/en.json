@@ -869,5 +869,86 @@
         "description": "Complete pattern sequences"
       }
     }
+  },
+  "support": {
+    "pageTitle": "Support Center",
+    "pageSubtitle": "View your support tickets or submit a new one",
+    "myTickets": "My Tickets",
+    "newTicket": "New Ticket",
+    "status": {
+      "open": "OPEN",
+      "in_progress": "IN PROGRESS",
+      "waiting": "WAITING",
+      "resolved": "RESOLVED",
+      "closed": "CLOSED"
+    },
+    "priority": {
+      "low": "LOW",
+      "medium": "MEDIUM",
+      "high": "HIGH",
+      "urgent": "URGENT"
+    },
+    "categories": {
+      "bug": "Bug Report",
+      "feature_request": "Feature Request",
+      "billing": "Billing & Subscription",
+      "technical": "Technical Issue",
+      "other": "Other"
+    },
+    "loadingTickets": "Loading your tickets...",
+    "noTicketsTitle": "No tickets yet",
+    "noTicketsMessage": "You haven't submitted any support tickets yet.",
+    "submitFirstTicket": "Submit Your First Ticket",
+    "yourSupportTickets": "Your Support Tickets",
+    "refresh": "Refresh",
+    "responseAvailable": "Response Available",
+    "yourMessage": "Your Message",
+    "supportTeamResponse": "Support Team Response",
+    "waitingForResponse": "Waiting for Response",
+    "supportWillRespond": "Our support team will respond to your ticket soon.",
+    "resolvedOn": "Resolved on",
+    "deleteTicket": "Delete Ticket",
+    "confirmDelete": "Are you sure you want to delete the ticket",
+    "cannotUndo": "This action cannot be undone.",
+    "ticketSubmittedTitle": "Ticket Submitted Successfully!",
+    "ticketSubmittedMessage": "Thank you for contacting us. Your support ticket has been received and our team will review it shortly.",
+    "ticketId": "Ticket ID",
+    "subject": "Subject",
+    "status": "Status",
+    "submitted": "Submitted",
+    "whatHappensNext": "What happens next?",
+    "nextSteps": {
+      "step1": "Our support team will review your ticket within 24 hours",
+      "step2": "You'll receive email updates when we respond",
+      "step3": "You can check your ticket status anytime in your dashboard"
+    },
+    "submitAnotherTicket": "Submit Another Ticket",
+    "subjectLabel": "Subject *",
+    "subjectPlaceholder": "Brief description of your issue",
+    "categoryLabel": "Category",
+    "priorityLabel": "Priority",
+    "priorityOptions": {
+      "low": "Low - General inquiry",
+      "medium": "Medium - Issue affecting usage",
+      "high": "High - Critical issue",
+      "urgent": "Urgent - Service down"
+    },
+    "messageLabel": "Message * (minimum 20 characters)",
+    "messagePlaceholder": "Please describe your issue in detail...",
+    "email": "Email:",
+    "accountType": "Account Type:",
+    "submitButton": "Submit Support Ticket",
+    "submitting": "Submitting...",
+    "quickResponseTitle": "Quick Response",
+    "quickResponseText": "We typically respond within 24 hours for standard issues and faster for urgent matters.",
+    "trackTicketTitle": "Track Your Ticket",
+    "trackTicketText": "You'll receive email updates on your ticket status and can check progress in your dashboard.",
+    "errorLoadTickets": "Failed to load tickets",
+    "successDelete": "Ticket deleted successfully",
+    "errorDelete": "Failed to delete ticket",
+    "errorSignIn": "Please sign in to submit a support ticket",
+    "successSubmit": "Support ticket submitted successfully!",
+    "errorSubmit": "Failed to submit ticket",
+    "errorSubmitRetry": "Failed to submit support ticket. Please try again."
   }
 }

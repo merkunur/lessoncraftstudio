@@ -461,7 +461,7 @@ export default function ImageLibraryPage() {
               alert('Theme created successfully!');
             } catch (error) {
               console.error('Create theme error:', error);
-              alert(`Failed to create theme: ${error.message}`);
+              alert(`Failed to create theme: ${error instanceof Error ? error.message : 'Unknown error'}`);
             }
           }}
         />

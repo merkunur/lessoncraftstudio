@@ -319,8 +319,8 @@ export default async function HomePage({ params }: { params: { locale: string } 
                 <h3 className="text-h2 mb-2">{pricing.core.name}</h3>
                 <p className="text-display mb-6">
                   {pricing.core.price}
-                  {pricing.core.period && (
-                    <span className="text-body text-gray-600">{pricing.core.period}</span>
+                  {(pricing.core as any).period && (
+                    <span className="text-body text-gray-600">{(pricing.core as any).period}</span>
                   )}
                 </p>
                 <ul className="space-y-3 mb-8 text-left">
@@ -352,8 +352,8 @@ export default async function HomePage({ params }: { params: { locale: string } 
                 <h3 className="text-h2 mb-2">{pricing.full.name}</h3>
                 <p className="text-display mb-6">
                   {pricing.full.price}
-                  {pricing.full.period && (
-                    <span className="text-body text-gray-600">{pricing.full.period}</span>
+                  {(pricing.full as any).period && (
+                    <span className="text-body text-gray-600">{(pricing.full as any).period}</span>
                   )}
                 </p>
                 <ul className="space-y-3 mb-8 text-left">

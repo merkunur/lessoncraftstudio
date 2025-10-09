@@ -75,7 +75,7 @@ export default async function FAQPage({ params: { locale } }: PageProps) {
                 </Button>
               </Link>
               <Link href={`/${locale}/contact`}>
-                <Button size="lg" variant="outline" className="bg-white/10 border-white/30 hover:bg-white/20">
+                <Button size="lg" variant="ghost" className="bg-white/10 border-white/30 hover:bg-white/20">
                   {nav('contact')}
                 </Button>
               </Link>

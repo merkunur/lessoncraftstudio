@@ -71,13 +71,15 @@ async function getHomepageContent(locale: string) {
         ctaUrl: `/${locale}/apps`,
         categories: rawContent.samplesSection.categories
           ? Object.keys(rawContent.samplesSection.categories).reduce((acc: Record<string, string>, key: string) => {
-              acc[key] = rawContent.samplesSection.categories[key][locale] || rawContent.samplesSection.categories[key].en;
+              const categoryKey = key as keyof typeof rawContent.samplesSection.categories;
+              acc[key] = rawContent.samplesSection.categories[categoryKey][locale] || rawContent.samplesSection.categories[categoryKey].en;
               return acc;
             }, {})
           : {},
         difficulties: rawContent.samplesSection.difficulties
           ? Object.keys(rawContent.samplesSection.difficulties).reduce((acc: Record<string, string>, key: string) => {
-              acc[key] = rawContent.samplesSection.difficulties[key][locale] || rawContent.samplesSection.difficulties[key].en;
+              const difficultyKey = key as keyof typeof rawContent.samplesSection.difficulties;
+              acc[key] = rawContent.samplesSection.difficulties[difficultyKey][locale] || rawContent.samplesSection.difficulties[difficultyKey].en;
               return acc;
             }, {})
           : {},

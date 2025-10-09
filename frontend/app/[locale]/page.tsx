@@ -84,9 +84,9 @@ async function getHomepageContent(locale: string) {
             }, {})
           : {},
         modalLabels: {
-          ageRange: rawContent.samplesSection.modalLabels?.ageRange?.[locale] || rawContent.samplesSection.modalLabels?.ageRange?.en || 'Age Range',
-          difficulty: rawContent.samplesSection.modalLabels?.difficulty?.[locale] || rawContent.samplesSection.modalLabels?.difficulty?.en || 'Difficulty',
-          category: rawContent.samplesSection.modalLabels?.category?.[locale] || rawContent.samplesSection.modalLabels?.category?.en || 'Category'
+          ageRange: (rawContent.samplesSection as any).modalLabels?.ageRange?.[locale] || (rawContent.samplesSection as any).modalLabels?.ageRange?.en || 'Age Range',
+          difficulty: (rawContent.samplesSection as any).modalLabels?.difficulty?.[locale] || (rawContent.samplesSection as any).modalLabels?.difficulty?.en || 'Difficulty',
+          category: (rawContent.samplesSection as any).modalLabels?.category?.[locale] || (rawContent.samplesSection as any).modalLabels?.category?.en || 'Category'
         }
       } : null
     };

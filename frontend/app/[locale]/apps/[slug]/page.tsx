@@ -3195,7 +3195,7 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
               <div className="text-6xl mb-4">🔒</div>
               <h2 className="text-2xl font-semibold mb-4">
                 {locale === 'de'
-                  ? uiTranslations.de.accessRequired[appTier] || `Diese App erfordert ${getLocalizedTierLabel()}`
+                  ? uiTranslations.de.accessRequired[appTier as keyof typeof uiTranslations.de.accessRequired] || `Diese App erfordert ${getLocalizedTierLabel()}`
                   : `This app requires ${appTier === 'core' ? 'Core Bundle' : 'Full Access'}`}
               </h2>
               <p className="text-gray-600 mb-8">

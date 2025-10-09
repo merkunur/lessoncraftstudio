@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getServerSession } from 'next-auth/next';
+import { getAuthUser } from '@/lib/server-auth';
 
 interface SearchLog {
   id: string;
@@ -324,7 +324,7 @@ const analyticsService = new AnalyticsService();
 // GET /api/admin/search/analytics
 export async function GET(request: NextRequest) {
   try {
-    const session = await getServerSession();
+    const session = await getAuthUser(request);
     if (!session?.user || session.user.role !== 'admin') {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
@@ -347,7 +347,7 @@ export async function GET(request: NextRequest) {
 // POST /api/admin/search/analytics/log
 export async function POST(request: NextRequest) {
   try {
-    const session = await getServerSession();
+    const session = await getAuthUser(request);
     if (!session?.user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }

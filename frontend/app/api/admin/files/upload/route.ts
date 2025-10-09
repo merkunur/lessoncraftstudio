@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getServerSession } from 'next-auth/next';
+import { getAuthUser } from '@/lib/server-auth';
 import path from 'path';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -173,7 +173,7 @@ const storageService = new StorageService();
 // POST /api/admin/files/upload
 export async function POST(request: NextRequest) {
   try {
-    const session = await getServerSession();
+    const session = await getAuthUser(request);
     if (!session?.user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
@@ -239,7 +239,7 @@ export async function POST(request: NextRequest) {
 // GET /api/admin/files/upload/progress
 export async function GET(request: NextRequest) {
   try {
-    const session = await getServerSession();
+    const session = await getAuthUser(request);
     if (!session?.user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }

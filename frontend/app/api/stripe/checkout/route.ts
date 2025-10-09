@@ -4,6 +4,7 @@ import { getCurrentUser } from '@/lib/auth';
 import { getOrCreateStripeCustomer, createCheckoutSession } from '@/lib/stripe-server';
 import { SUBSCRIPTION_TIERS } from '@/lib/stripe-config';
 import { MOCK_MODE_ENABLED, createMockCheckoutSession, getMockCustomerId } from '@/lib/stripe-mock';
+import { mapToStripeLocale } from '@/lib/locale-utils';
 
 // POST /api/stripe/checkout - Create a checkout session
 export async function POST(request: NextRequest) {
@@ -117,12 +118,17 @@ export async function POST(request: NextRequest) {
 
     // Create checkout session
     const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000';
+
+    // Map user's language to Stripe locale for multilingual checkout
+    const stripeLocale = mapToStripeLocale(user.language || 'en');
+
     const session = await createCheckoutSession(
       customerId,
       priceId,
       user.id,
       successUrl || `${baseUrl}/en/dashboard/billing?success=true`,
-      cancelUrl || `${baseUrl}/en/dashboard/billing?cancelled=true`
+      cancelUrl || `${baseUrl}/en/dashboard/billing?cancelled=true`,
+      stripeLocale
     );
 
     // Log activity

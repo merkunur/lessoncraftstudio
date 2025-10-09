@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { verifyEmailConnection, getEmailProviderInfo } from '@/lib/email/config';
 import { sendEmail } from '@/lib/email';
-import { withAdmin } from '@/lib/admin-auth';
+import { withAdmin } from '@/lib/server-auth';
 
 /**
  * Test email configuration

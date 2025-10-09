@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getServerSession } from 'next-auth/next';
+import { getAuthUser } from '@/lib/server-auth';
 
 interface SharedResource {
   id: string;
@@ -466,7 +466,7 @@ const resourceService = new ResourceService();
 // GET /api/admin/teams/resources
 export async function GET(request: NextRequest) {
   try {
-    const session = await getServerSession();
+    const session = await getAuthUser(request);
     if (!session?.user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
@@ -531,7 +531,7 @@ export async function GET(request: NextRequest) {
 // POST /api/admin/teams/resources
 export async function POST(request: NextRequest) {
   try {
-    const session = await getServerSession();
+    const session = await getAuthUser(request);
     if (!session?.user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
@@ -585,7 +585,7 @@ export async function POST(request: NextRequest) {
 // PUT /api/admin/teams/resources/[id]
 export async function PUT(request: NextRequest) {
   try {
-    const session = await getServerSession();
+    const session = await getAuthUser(request);
     if (!session?.user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
@@ -638,7 +638,7 @@ export async function PUT(request: NextRequest) {
 // DELETE /api/admin/teams/resources/[id]
 export async function DELETE(request: NextRequest) {
   try {
-    const session = await getServerSession();
+    const session = await getAuthUser(request);
     if (!session?.user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }

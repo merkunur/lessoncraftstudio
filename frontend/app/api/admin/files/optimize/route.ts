@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getServerSession } from 'next-auth/next';
+import { getAuthUser } from '@/lib/server-auth';
 
 interface OptimizationOptions {
   quality?: number;
@@ -160,7 +160,7 @@ const optimizer = new ImageOptimizer();
 // POST /api/admin/files/optimize
 export async function POST(request: NextRequest) {
   try {
-    const session = await getServerSession();
+    const session = await getAuthUser(request);
     if (!session?.user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
@@ -195,7 +195,7 @@ export async function POST(request: NextRequest) {
 // POST /api/admin/files/optimize/batch
 export async function PUT(request: NextRequest) {
   try {
-    const session = await getServerSession();
+    const session = await getAuthUser(request);
     if (!session?.user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
@@ -248,7 +248,7 @@ export async function PUT(request: NextRequest) {
 // GET /api/admin/files/optimize/status
 export async function GET(request: NextRequest) {
   try {
-    const session = await getServerSession();
+    const session = await getAuthUser(request);
     if (!session?.user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }

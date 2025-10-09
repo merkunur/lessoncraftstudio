@@ -43,6 +43,12 @@ export const POST = withAdmin(async (request: NextRequest, user) => {
       );
     }
 
+    // Delete any existing subscription records (manual upgrades don't have Stripe subscriptions)
+    // This ensures the billing page will fall back to user.subscriptionTier
+    await prisma.subscription.deleteMany({
+      where: { userId },
+    });
+
     // Update user tier
     await prisma.user.update({
       where: { id: userId },

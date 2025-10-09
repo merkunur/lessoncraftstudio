@@ -89,7 +89,7 @@ export default function ImageLibraryPage() {
 
       // Update selected theme if it exists in new data, or select first
       if (selectedTheme) {
-        const updatedTheme = data.themes.find(t => t.id === selectedTheme.id);
+        const updatedTheme = data.themes.find((t: Theme) => t.id === selectedTheme.id);
         setSelectedTheme(updatedTheme || (data.themes.length > 0 ? data.themes[0] : null));
       } else if (data.themes.length > 0) {
         setSelectedTheme(data.themes[0]);
@@ -169,7 +169,7 @@ export default function ImageLibraryPage() {
   };
 
   const handleDeleteTheme = async (themeId: string) => {
-    const theme = themes.find(t => t.id === themeId);
+    const theme = themes.find((t: Theme) => t.id === themeId);
     if (!theme) return;
 
     if (theme.images.length > 0) {

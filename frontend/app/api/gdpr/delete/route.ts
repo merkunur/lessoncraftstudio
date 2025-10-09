@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getCurrentUser } from '@/lib/auth-server';
+import { getAuthUser } from '@/lib/server-auth';
 import { prisma } from '@/lib/prisma';
 import Stripe from 'stripe';
 
@@ -18,7 +18,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
 export async function POST(req: NextRequest) {
   try {
     // Verify authenticated user
-    const currentUser = await getCurrentUser(req);
+    const currentUser = await getAuthUser(req);
     if (!currentUser) {
       return NextResponse.json(
         { success: false, error: 'Unauthorized' },

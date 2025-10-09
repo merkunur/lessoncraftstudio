@@ -43,6 +43,13 @@ export async function GET(request: NextRequest) {
     // Generate planName in the format: "core_monthly", "core_yearly", "full_monthly", "full_yearly"
     const planName = `${tier.toLowerCase()}_${interval || 'monthly'}`;
 
+    // Delete any existing subscription records first (to handle re-purchases)
+    await prisma.subscription.deleteMany({
+      where: { userId: userId }
+    });
+    console.log('[MOCK CHECKOUT] Deleted any existing subscription records');
+
+    // Now create the new subscription record
     try {
       const subscription = await prisma.subscription.create({
         data: {
@@ -51,13 +58,14 @@ export async function GET(request: NextRequest) {
           status: 'active',
           billingInterval: interval || 'monthly',
           stripeSubscriptionId: `sub_mock_${Date.now()}`,
+          currentPeriodStart: new Date(),
           currentPeriodEnd: currentPeriodEnd,
         }
       });
       console.log('[MOCK CHECKOUT] ✅ Mock subscription created:', subscription.id);
     } catch (subError) {
-      console.log('[MOCK CHECKOUT] Note: Could not create subscription record (may already exist)');
-      console.error('[MOCK CHECKOUT] Subscription error:', subError);
+      console.error('[MOCK CHECKOUT] ❌ Failed to create subscription:', subError);
+      throw subError; // Don't silently ignore this error!
     }
 
     // Create activity log
@@ -95,7 +103,7 @@ export async function GET(request: NextRequest) {
       'FULL': { monthly: 25.00, yearly: 240.00 }
     };
 
-    const planName = planNames[tier.toUpperCase()] || 'Core Plan';
+    const displayPlanName = planNames[tier.toUpperCase()] || 'Core Plan';
     const price = planPrices[tier.toUpperCase()]?.[interval === 'yearly' ? 'yearly' : 'monthly'] || 15.00;
     // Note: In production, Stripe automatically calculates and adds tax based on customer location
     const billingPeriod = interval === 'yearly' ? 'year' : 'month';
@@ -274,13 +282,13 @@ export async function GET(request: NextRequest) {
         </div>
 
         <div class="plan-details">
-          <div class="plan-name">${planName}</div>
+          <div class="plan-name">${displayPlanName}</div>
           <div class="plan-description">Billed ${billingPeriod}ly • ${today}</div>
         </div>
 
         <div class="price-breakdown">
           <div class="price-row">
-            <span>${planName} (${interval === 'yearly' ? 'Yearly' : 'Monthly'})</span>
+            <span>${displayPlanName} (${interval === 'yearly' ? 'Yearly' : 'Monthly'})</span>
             <span>$${price.toFixed(2)}</span>
           </div>
           <div class="price-row total">

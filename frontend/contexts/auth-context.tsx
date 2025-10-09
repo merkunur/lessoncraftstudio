@@ -11,6 +11,7 @@ interface User {
   lastName?: string;
   emailVerified: boolean;
   subscriptionTier: string;
+  stripeCustomerId?: string;
   isAdmin: boolean;
   language: string;
   avatar?: string;

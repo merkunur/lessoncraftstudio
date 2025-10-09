@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getServerSession } from 'next-auth/next';
+import { getAuthUser } from '@/lib/server-auth';
 import { WebSocketServer } from 'ws';
 import { Server } from 'http';
 
@@ -292,8 +292,8 @@ const realtimeService = new RealtimeService();
 // GET /api/websocket - Get connection info
 export async function GET(request: NextRequest) {
   try {
-    const session = await getServerSession();
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -330,14 +330,14 @@ export async function GET(request: NextRequest) {
 // POST /api/websocket - Send message via WebSocket
 export async function POST(request: NextRequest) {
   try {
-    const session = await getServerSession();
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
     const data = await request.json();
-    const userId = session.user.id || 'user_1';
-    const userName = session.user.name || 'User';
+    const userId = user.id;
+    const userName = user.name || 'User';
 
     switch (data.type) {
       case 'notification':

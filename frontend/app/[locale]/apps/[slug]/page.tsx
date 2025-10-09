@@ -3115,9 +3115,12 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     }
   };
 
-  const t = (key: string, defaultValue: string) => {
-    if (locale === 'de' && uiTranslations.de[key as keyof typeof uiTranslations.de]) {
-      return uiTranslations.de[key as keyof typeof uiTranslations.de];
+  const t = (key: string, defaultValue: string): string => {
+    if (locale === 'de') {
+      const value = uiTranslations.de[key as keyof typeof uiTranslations.de];
+      if (typeof value === 'string') {
+        return value;
+      }
     }
     return defaultValue;
   };

@@ -257,7 +257,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
       </section>
 
       {/* Worksheet Samples Gallery */}
-      <WorksheetSamples locale={locale} initialContent={content?.samplesSection} />
+      <WorksheetSamples locale={locale} initialContent={content?.samplesSection || undefined} />
 
       {/* Features Section */}
       <section className="py-20">

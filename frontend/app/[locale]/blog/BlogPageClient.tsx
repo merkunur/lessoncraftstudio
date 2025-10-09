@@ -12,6 +12,7 @@ interface BlogPost {
   date: string;
   category: string;
   readTime: string;
+  featuredImage?: string;
   metaTitle?: string;
   metaDescription?: string;
   keywords?: string[];

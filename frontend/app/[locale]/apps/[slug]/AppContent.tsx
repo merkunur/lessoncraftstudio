@@ -81,7 +81,7 @@ export default function AppContent({ appSlug, locale, appName, requiredTier }: A
   const userTier = user?.subscriptionTier || 'free';
   const canAccess = () => {
     if (requiredTier === 'free') return true;
-    if (userTier === 'core') return requiredTier === 'free' || requiredTier === 'core';
+    if (userTier === 'core') return requiredTier === 'core';
     if (userTier === 'full') return true;
     return false;
   };

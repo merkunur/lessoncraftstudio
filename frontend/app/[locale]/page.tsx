@@ -43,19 +43,19 @@ async function getHomepageContent(locale: string) {
           name: rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier')?.name[locale],
           price: rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier')?.price,
           features: rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier')?.features[locale] || [],
-          cta: rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier')?.cta?.[locale] || rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier')?.cta?.en || 'Get Started Free'
+          cta: (rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier') as any)?.cta?.[locale] || (rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier') as any)?.cta?.en || 'Get Started Free'
         },
         core: {
           name: rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle')?.name[locale],
           price: rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle')?.price,
           features: rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle')?.features[locale] || [],
-          cta: rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle')?.cta?.[locale] || rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle')?.cta?.en || 'Upgrade to Core'
+          cta: (rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle') as any)?.cta?.[locale] || (rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle') as any)?.cta?.en || 'Upgrade to Core'
         },
         full: {
           name: rawContent.pricing.find((p: any) => p.name.en === 'Full Access')?.name[locale],
           price: rawContent.pricing.find((p: any) => p.name.en === 'Full Access')?.price,
           features: rawContent.pricing.find((p: any) => p.name.en === 'Full Access')?.features[locale] || [],
-          cta: rawContent.pricing.find((p: any) => p.name.en === 'Full Access')?.cta?.[locale] || rawContent.pricing.find((p: any) => p.name.en === 'Full Access')?.cta?.en || 'Get Full Access'
+          cta: (rawContent.pricing.find((p: any) => p.name.en === 'Full Access') as any)?.cta?.[locale] || (rawContent.pricing.find((p: any) => p.name.en === 'Full Access') as any)?.cta?.en || 'Get Full Access'
         }
       } : null,
       samplesSection: rawContent.samples && rawContent.samplesSection ? {

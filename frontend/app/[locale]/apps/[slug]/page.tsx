@@ -3123,8 +3123,8 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
   };
 
   const getLocalizedTierLabel = () => {
-    if (locale === 'de' && uiTranslations.de.tierLabels[appTier]) {
-      return uiTranslations.de.tierLabels[appTier];
+    if (locale === 'de' && uiTranslations.de.tierLabels[appTier as keyof typeof uiTranslations.de.tierLabels]) {
+      return uiTranslations.de.tierLabels[appTier as keyof typeof uiTranslations.de.tierLabels];
     }
     return tierLabel;
   };

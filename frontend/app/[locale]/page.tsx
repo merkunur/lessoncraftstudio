@@ -341,10 +341,10 @@ export default async function HomePage({ params }: { params: { locale: string } 
 
             {/* Full Access */}
             <Card padding="large" className="relative">
-              {pricing.full.popular && (
+              {(pricing.full as any).popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                   <span className="bg-primary text-white px-4 py-1 rounded-full text-sm">
-                    {pricing.full.popular}
+                    {(pricing.full as any).popular}
                   </span>
                 </div>
               )}

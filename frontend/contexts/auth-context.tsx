@@ -18,6 +18,7 @@ interface User {
 
 interface AuthContextType {
   user: User | null;
+  isAuthenticated: boolean;
   loading: boolean;
   error: string | null;
   login: (email: string, password: string, rememberMe?: boolean) => Promise<void>;
@@ -430,8 +431,11 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     return () => clearInterval(interval);
   }, [accessToken]);
 
+  const isAuthenticated = !!user && !loading;
+
   const value = {
     user,
+    isAuthenticated,
     loading,
     error,
     login,

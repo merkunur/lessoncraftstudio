@@ -3,6 +3,7 @@ import { z } from 'zod';
 import { getCurrentUser } from '@/lib/auth';
 import { getOrCreateStripeCustomer, createCheckoutSession } from '@/lib/stripe-server';
 import { SUBSCRIPTION_TIERS } from '@/lib/stripe-config';
+import { MOCK_MODE_ENABLED, createMockCheckoutSession, getMockCustomerId } from '@/lib/stripe-mock';
 
 // POST /api/stripe/checkout - Create a checkout session
 export async function POST(request: NextRequest) {
@@ -60,6 +61,43 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    // Check if mock mode is enabled (invalid/missing Stripe keys)
+    if (MOCK_MODE_ENABLED) {
+      console.log('⚠️  MOCK MODE ENABLED - Using simulated Stripe checkout');
+      console.log('💡 To use real Stripe, set valid STRIPE_SECRET_KEY in .env.local');
+
+      // Use mock customer ID
+      let customerId = user.stripeCustomerId || getMockCustomerId(user.id);
+
+      // Save mock customer ID if not exists
+      if (!user.stripeCustomerId) {
+        const { prisma } = await import('@/lib/prisma');
+        await prisma.user.update({
+          where: { id: user.id },
+          data: { stripeCustomerId: customerId },
+        });
+      }
+
+      // Create mock checkout session
+      const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000';
+      const session = await createMockCheckoutSession(
+        customerId,
+        priceId,
+        user.id,
+        tier,
+        billingInterval,
+        successUrl || `${baseUrl}/en/dashboard/billing?success=true`,
+        cancelUrl || `${baseUrl}/en/dashboard/billing?cancelled=true`
+      );
+
+      return NextResponse.json({
+        sessionId: session.id,
+        url: session.url,
+        mockMode: true,
+      });
+    }
+
+    // Real Stripe mode
     // Get or create Stripe customer
     let customerId = user.stripeCustomerId;
     if (!customerId) {
@@ -83,8 +121,8 @@ export async function POST(request: NextRequest) {
       customerId,
       priceId,
       user.id,
-      successUrl || `${baseUrl}/dashboard/billing?success=true`,
-      cancelUrl || `${baseUrl}/dashboard/billing?cancelled=true`
+      successUrl || `${baseUrl}/en/dashboard/billing?success=true`,
+      cancelUrl || `${baseUrl}/en/dashboard/billing?cancelled=true`
     );
 
     // Log activity
@@ -93,10 +131,10 @@ export async function POST(request: NextRequest) {
       data: {
         userId: user.id,
         action: 'checkout_initiated',
-        details: {
+        details: JSON.stringify({
           tier,
           sessionId: session.id,
-        },
+        }),
       },
     });
 
@@ -135,8 +173,10 @@ export async function GET(request: NextRequest) {
       );
     }
 
-    const { stripe } = await import('@/lib/stripe-server');
-    const session = await stripe.checkout.sessions.retrieve(sessionId);
+    const { stripe, getCheckoutSessionTax } = await import('@/lib/stripe-server');
+    const session = await stripe.checkout.sessions.retrieve(sessionId, {
+      expand: ['total_details'],
+    });
 
     // Verify this session belongs to the user
     if (session.metadata?.userId !== user.id) {
@@ -146,11 +186,16 @@ export async function GET(request: NextRequest) {
       );
     }
 
+    // Get tax information if available
+    const taxInfo = await getCheckoutSessionTax(sessionId);
+
     return NextResponse.json({
       status: session.payment_status,
       customerEmail: session.customer_email,
       amountTotal: session.amount_total ? session.amount_total / 100 : null,
+      amountSubtotal: session.amount_subtotal ? session.amount_subtotal / 100 : null,
       currency: session.currency,
+      tax: taxInfo,
     });
   } catch (error) {
     console.error('Get checkout session error:', error);

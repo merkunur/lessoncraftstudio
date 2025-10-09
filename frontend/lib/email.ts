@@ -1,45 +1,92 @@
-import nodemailer from 'nodemailer';
-import { render } from '@react-email/render';
+/**
+ * Professional Email System
+ * Uses queue for reliability, supports multiple providers
+ */
 
-// Email transporter configuration
-const transporter = nodemailer.createTransport({
-  host: process.env.SMTP_HOST,
-  port: parseInt(process.env.SMTP_PORT || '587'),
-  secure: process.env.SMTP_SECURE === 'true',
-  auth: {
-    user: process.env.SMTP_USER,
-    pass: process.env.SMTP_PASSWORD,
-  },
-});
+import { render } from '@react-email/render';
+import { queueEmail, sendEmailImmediate, type EmailJob } from './email/queue';
+import { getEmailConfig, verifyEmailConnection } from './email/config';
+import {
+  VerificationEmail,
+  PasswordResetEmail,
+  WelcomeEmail,
+  SubscriptionUpgradeEmail,
+  PaymentReceiptEmail,
+  FailedPaymentEmail,
+  RefundConfirmationEmail,
+} from './email/templates';
+import PaymentFailedEmail from './email/templates/payment-failed-email';
+import PaymentReminderEmail from './email/templates/payment-reminder-email';
+import ServiceSuspendedEmail from './email/templates/service-suspended-email';
 
 interface EmailOptions {
-  to: string;
+  to: string | string[];
   subject: string;
   html: string;
   text?: string;
+  replyTo?: string;
+  attachments?: Array<{
+    filename: string;
+    content: string | Buffer;
+    contentType?: string;
+  }>;
+  metadata?: Record<string, any>;
+}
+
+interface SendOptions {
+  priority?: 'low' | 'normal' | 'high' | 'critical';
+  immediate?: boolean; // Skip queue for critical emails
+  retries?: number;
+  sendAt?: Date;
 }
 
 /**
- * Send an email
+ * Send an email (queued by default for reliability)
  */
-export async function sendEmail(options: EmailOptions): Promise<void> {
-  const { to, subject, html, text } = options;
+export async function sendEmail(
+  options: EmailOptions,
+  sendOptions: SendOptions = {}
+): Promise<void> {
+  const config = getEmailConfig();
 
-  try {
-    await transporter.sendMail({
-      from: `${process.env.SMTP_FROM_NAME} <${process.env.SMTP_FROM_EMAIL}>`,
-      to,
-      subject,
-      html,
-      text: text || html.replace(/<[^>]*>/g, ''), // Strip HTML tags for text version
+  // If in console mode (development), just log
+  if (config.provider === 'console') {
+    console.log('[Email] Console mode - Email would be sent:', {
+      to: options.to,
+      subject: options.subject,
+      preview: options.html.substring(0, 100) + '...',
     });
-
-    console.log(`Email sent successfully to ${to}`);
-  } catch (error) {
-    console.error('Failed to send email:', error);
-    throw new Error('Failed to send email');
+    return;
   }
+
+  const emailJob: EmailJob = {
+    to: options.to,
+    subject: options.subject,
+    html: options.html,
+    text: options.text,
+    replyTo: options.replyTo,
+    attachments: options.attachments,
+    metadata: options.metadata,
+  };
+
+  // Send immediately for critical emails
+  if (sendOptions.immediate) {
+    await sendEmailImmediate(emailJob);
+    return;
+  }
+
+  // Queue for reliability
+  await queueEmail(emailJob, {
+    priority: sendOptions.priority,
+    maxRetries: sendOptions.retries,
+    sendAt: sendOptions.sendAt,
+  });
 }
+
+/**
+ * Verify email configuration is working
+ */
+export { verifyEmailConnection };
 
 /**
  * Send verification email
@@ -51,9 +98,9 @@ export async function sendVerificationEmail(params: {
   language: string;
 }): Promise<void> {
   const { email, firstName, token, language } = params;
-  
+
   const verificationUrl = `${process.env.NEXT_PUBLIC_APP_URL}/auth/verify-email?token=${token}`;
-  
+
   // Language-specific subjects
   const subjects: Record<string, string> = {
     en: 'Verify Your Email - LessonCraftStudio',
@@ -61,39 +108,23 @@ export async function sendVerificationEmail(params: {
     fr: 'Vérifiez votre email - LessonCraftStudio',
     es: 'Verifica tu correo - LessonCraftStudio',
     sv: 'Verifiera din e-post - LessonCraftStudio',
+    it: 'Verifica la tua email - LessonCraftStudio',
+    pt: 'Verifique seu e-mail - LessonCraftStudio',
+    nl: 'Verifieer uw e-mail - LessonCraftStudio',
+    da: 'Bekræft din e-mail - LessonCraftStudio',
+    no: 'Bekreft e-posten din - LessonCraftStudio',
+    fi: 'Vahvista sähköpostisi - LessonCraftStudio',
   };
 
   const subject = subjects[language] || subjects.en;
 
-  const html = `
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <meta charset="utf-8">
-        <style>
-          body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
-          .container { max-width: 600px; margin: 0 auto; padding: 20px; }
-          .button { display: inline-block; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; margin: 20px 0; }
-          .footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; font-size: 12px; color: #666; }
-        </style>
-      </head>
-      <body>
-        <div class="container">
-          <h1>Welcome to LessonCraftStudio!</h1>
-          <p>Hi ${firstName || 'there'},</p>
-          <p>Thanks for signing up! Please verify your email address by clicking the button below:</p>
-          <a href="${verificationUrl}" class="button">Verify Email</a>
-          <p>Or copy and paste this link into your browser:</p>
-          <p style="word-break: break-all;">${verificationUrl}</p>
-          <p>This link will expire in 24 hours.</p>
-          <div class="footer">
-            <p>If you didn't create an account with LessonCraftStudio, you can safely ignore this email.</p>
-            <p>&copy; ${new Date().getFullYear()} LessonCraftStudio. All rights reserved.</p>
-          </div>
-        </div>
-      </body>
-    </html>
-  `;
+  const html = render(
+    VerificationEmail({
+      firstName: firstName || 'there',
+      verificationUrl,
+      language,
+    })
+  );
 
   await sendEmail({
     to: email,
@@ -112,9 +143,9 @@ export async function sendPasswordResetEmail(params: {
   language: string;
 }): Promise<void> {
   const { email, firstName, token, language } = params;
-  
+
   const resetUrl = `${process.env.NEXT_PUBLIC_APP_URL}/auth/reset-password?token=${token}`;
-  
+
   // Language-specific subjects
   const subjects: Record<string, string> = {
     en: 'Password Reset Request - LessonCraftStudio',
@@ -122,42 +153,23 @@ export async function sendPasswordResetEmail(params: {
     fr: 'Réinitialisation du mot de passe - LessonCraftStudio',
     es: 'Restablecer contraseña - LessonCraftStudio',
     sv: 'Återställ lösenord - LessonCraftStudio',
+    it: 'Reimposta password - LessonCraftStudio',
+    pt: 'Redefinir senha - LessonCraftStudio',
+    nl: 'Wachtwoord opnieuw instellen - LessonCraftStudio',
+    da: 'Nulstil adgangskode - LessonCraftStudio',
+    no: 'Tilbakestill passord - LessonCraftStudio',
+    fi: 'Palauta salasana - LessonCraftStudio',
   };
 
   const subject = subjects[language] || subjects.en;
 
-  const html = `
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <meta charset="utf-8">
-        <style>
-          body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
-          .container { max-width: 600px; margin: 0 auto; padding: 20px; }
-          .button { display: inline-block; padding: 12px 24px; background-color: #dc3545; color: white; text-decoration: none; border-radius: 5px; margin: 20px 0; }
-          .warning { background-color: #fff3cd; border: 1px solid #ffc107; padding: 10px; border-radius: 5px; margin: 20px 0; }
-          .footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; font-size: 12px; color: #666; }
-        </style>
-      </head>
-      <body>
-        <div class="container">
-          <h1>Password Reset Request</h1>
-          <p>Hi ${firstName || 'there'},</p>
-          <p>We received a request to reset your password. Click the button below to create a new password:</p>
-          <a href="${resetUrl}" class="button">Reset Password</a>
-          <p>Or copy and paste this link into your browser:</p>
-          <p style="word-break: break-all;">${resetUrl}</p>
-          <div class="warning">
-            <strong>Important:</strong> This link will expire in 1 hour for security reasons.
-          </div>
-          <p>If you didn't request this password reset, you can safely ignore this email. Your password won't be changed.</p>
-          <div class="footer">
-            <p>&copy; ${new Date().getFullYear()} LessonCraftStudio. All rights reserved.</p>
-          </div>
-        </div>
-      </body>
-    </html>
-  `;
+  const html = render(
+    PasswordResetEmail({
+      firstName: firstName || 'there',
+      resetUrl,
+      language,
+    })
+  );
 
   await sendEmail({
     to: email,
@@ -176,9 +188,9 @@ export async function sendWelcomeEmail(params: {
   subscriptionTier: string;
 }): Promise<void> {
   const { email, firstName, language, subscriptionTier } = params;
-  
+
   const dashboardUrl = `${process.env.NEXT_PUBLIC_APP_URL}/dashboard`;
-  
+
   // Language-specific subjects
   const subjects: Record<string, string> = {
     en: 'Welcome to LessonCraftStudio!',
@@ -186,58 +198,24 @@ export async function sendWelcomeEmail(params: {
     fr: 'Bienvenue chez LessonCraftStudio!',
     es: '¡Bienvenido a LessonCraftStudio!',
     sv: 'Välkommen till LessonCraftStudio!',
+    it: 'Benvenuto su LessonCraftStudio!',
+    pt: 'Bem-vindo ao LessonCraftStudio!',
+    nl: 'Welkom bij LessonCraftStudio!',
+    da: 'Velkommen til LessonCraftStudio!',
+    no: 'Velkommen til LessonCraftStudio!',
+    fi: 'Tervetuloa LessonCraftStudioon!',
   };
 
   const subject = subjects[language] || subjects.en;
 
-  const planDetails = {
-    free: '5 worksheet generators',
-    core: '15 worksheet generators',
-    full: 'All 33 worksheet generators',
-  };
-
-  const html = `
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <meta charset="utf-8">
-        <style>
-          body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
-          .container { max-width: 600px; margin: 0 auto; padding: 20px; }
-          .button { display: inline-block; padding: 12px 24px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px; margin: 20px 0; }
-          .feature { margin: 10px 0; padding-left: 20px; }
-          .footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; font-size: 12px; color: #666; }
-        </style>
-      </head>
-      <body>
-        <div class="container">
-          <h1>Welcome to LessonCraftStudio!</h1>
-          <p>Hi ${firstName},</p>
-          <p>Your email has been verified and your account is now active!</p>
-          
-          <h2>Your ${subscriptionTier} Plan Includes:</h2>
-          <ul>
-            <li class="feature">${planDetails[subscriptionTier as keyof typeof planDetails]}</li>
-            <li class="feature">Multi-language support (11 languages)</li>
-            <li class="feature">Professional PDF and image exports</li>
-            <li class="feature">Dynamic image library</li>
-            ${subscriptionTier !== 'free' ? '<li class="feature">Priority support</li>' : ''}
-          </ul>
-          
-          <p>Get started creating amazing worksheets:</p>
-          <a href="${dashboardUrl}" class="button">Go to Dashboard</a>
-          
-          <h3>Need Help?</h3>
-          <p>Check out our help center or contact our support team if you have any questions.</p>
-          
-          <div class="footer">
-            <p>Happy teaching!</p>
-            <p>&copy; ${new Date().getFullYear()} LessonCraftStudio. All rights reserved.</p>
-          </div>
-        </div>
-      </body>
-    </html>
-  `;
+  const html = render(
+    WelcomeEmail({
+      firstName,
+      subscriptionTier,
+      dashboardUrl,
+      language,
+    })
+  );
 
   await sendEmail({
     to: email,
@@ -257,9 +235,9 @@ export async function sendSubscriptionUpgradeEmail(params: {
   newPlan: string;
 }): Promise<void> {
   const { email, firstName, language, oldPlan, newPlan } = params;
-  
+
   const dashboardUrl = `${process.env.NEXT_PUBLIC_APP_URL}/dashboard`;
-  
+
   // Language-specific subjects
   const subjects: Record<string, string> = {
     en: 'Subscription Upgraded - LessonCraftStudio',
@@ -267,45 +245,25 @@ export async function sendSubscriptionUpgradeEmail(params: {
     fr: 'Abonnement mis à niveau - LessonCraftStudio',
     es: 'Suscripción actualizada - LessonCraftStudio',
     sv: 'Prenumeration uppgraderad - LessonCraftStudio',
+    it: 'Abbonamento aggiornato - LessonCraftStudio',
+    pt: 'Assinatura atualizada - LessonCraftStudio',
+    nl: 'Abonnement bijgewerkt - LessonCraftStudio',
+    da: 'Abonnement opgraderet - LessonCraftStudio',
+    no: 'Abonnement oppgradert - LessonCraftStudio',
+    fi: 'Tilaus päivitetty - LessonCraftStudio',
   };
 
   const subject = subjects[language] || subjects.en;
 
-  const html = `
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <meta charset="utf-8">
-        <style>
-          body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
-          .container { max-width: 600px; margin: 0 auto; padding: 20px; }
-          .button { display: inline-block; padding: 12px 24px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; margin: 20px 0; }
-          .upgrade-box { background-color: #d4edda; border: 1px solid #28a745; padding: 15px; border-radius: 5px; margin: 20px 0; }
-          .footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; font-size: 12px; color: #666; }
-        </style>
-      </head>
-      <body>
-        <div class="container">
-          <h1>Subscription Upgraded!</h1>
-          <p>Hi ${firstName},</p>
-          
-          <div class="upgrade-box">
-            <h3>🎉 Congratulations!</h3>
-            <p>Your subscription has been upgraded from <strong>${oldPlan}</strong> to <strong>${newPlan}</strong>.</p>
-          </div>
-          
-          <p>You now have access to more amazing features. Start exploring your new capabilities:</p>
-          <a href="${dashboardUrl}" class="button">Go to Dashboard</a>
-          
-          <p>Thank you for choosing LessonCraftStudio!</p>
-          
-          <div class="footer">
-            <p>&copy; ${new Date().getFullYear()} LessonCraftStudio. All rights reserved.</p>
-          </div>
-        </div>
-      </body>
-    </html>
-  `;
+  const html = render(
+    SubscriptionUpgradeEmail({
+      firstName,
+      oldPlan,
+      newPlan,
+      dashboardUrl,
+      language,
+    })
+  );
 
   await sendEmail({
     to: email,
@@ -313,3 +271,364 @@ export async function sendSubscriptionUpgradeEmail(params: {
     html,
   });
 }
+
+/**
+ * Send payment receipt email
+ */
+export async function sendPaymentReceiptEmail(params: {
+  email: string;
+  firstName: string;
+  invoiceNumber: string;
+  amount: number;
+  currency: string;
+  date: string;
+  plan: string;
+  billingPeriod: string;
+  paymentMethod: string;
+  invoiceUrl?: string;
+  language?: string;
+  taxAmount?: number;
+  subtotal?: number;
+}): Promise<void> {
+  const {
+    email,
+    firstName,
+    invoiceNumber,
+    amount,
+    currency,
+    date,
+    plan,
+    billingPeriod,
+    paymentMethod,
+    invoiceUrl,
+    language = 'en',
+  } = params;
+
+  // Language-specific subjects
+  const subjects: Record<string, string> = {
+    en: `Payment Receipt - Invoice ${invoiceNumber}`,
+    de: `Zahlungsbestätigung - Rechnung ${invoiceNumber}`,
+    fr: `Reçu de paiement - Facture ${invoiceNumber}`,
+    es: `Recibo de pago - Factura ${invoiceNumber}`,
+    sv: `Betalningskvitto - Faktura ${invoiceNumber}`,
+    it: `Ricevuta di pagamento - Fattura ${invoiceNumber}`,
+    pt: `Recibo de pagamento - Fatura ${invoiceNumber}`,
+    nl: `Betalingsbewijs - Factuur ${invoiceNumber}`,
+    da: `Betalingskvittering - Faktura ${invoiceNumber}`,
+    no: `Betalingskvittering - Faktura ${invoiceNumber}`,
+    fi: `Maksukuitti - Lasku ${invoiceNumber}`,
+  };
+
+  const subject = subjects[language] || subjects.en;
+
+  const html = render(
+    PaymentReceiptEmail({
+      firstName,
+      invoiceNumber,
+      amount,
+      currency,
+      date,
+      plan,
+      billingPeriod,
+      paymentMethod,
+      invoiceUrl,
+      language,
+    })
+  );
+
+  await sendEmail(
+    {
+      to: email,
+      subject,
+      html,
+    },
+    { priority: 'high' }
+  );
+}
+
+/**
+ * Send failed payment notification
+ */
+export async function sendFailedPaymentEmail(params: {
+  email: string;
+  firstName: string;
+  amount: number;
+  currency: string;
+  plan: string;
+  failureReason?: string;
+  retryDate?: string;
+  updatePaymentUrl: string;
+  language?: string;
+}): Promise<void> {
+  const {
+    email,
+    firstName,
+    amount,
+    currency,
+    plan,
+    failureReason,
+    retryDate,
+    updatePaymentUrl,
+    language = 'en',
+  } = params;
+
+  // Language-specific subjects
+  const subjects: Record<string, string> = {
+    en: 'Payment Failed - Action Required',
+    de: 'Zahlung fehlgeschlagen - Aktion erforderlich',
+    fr: 'Échec du paiement - Action requise',
+    es: 'Pago fallido - Acción requerida',
+    sv: 'Betalning misslyckades - Åtgärd krävs',
+    it: 'Pagamento fallito - Azione richiesta',
+    pt: 'Pagamento falhou - Ação necessária',
+    nl: 'Betaling mislukt - Actie vereist',
+    da: 'Betaling mislykkedes - Handling påkrævet',
+    no: 'Betaling mislyktes - Handling påkrevd',
+    fi: 'Maksu epäonnistui - Toimenpiteitä vaaditaan',
+  };
+
+  const subject = subjects[language] || subjects.en;
+
+  const html = render(
+    FailedPaymentEmail({
+      firstName,
+      amount,
+      currency,
+      plan,
+      failureReason,
+      retryDate,
+      updatePaymentUrl,
+      language,
+    })
+  );
+
+  await sendEmail(
+    {
+      to: email,
+      subject,
+      html,
+    },
+    { priority: 'critical', immediate: true }
+  );
+}
+
+/**
+ * Send refund confirmation email
+ */
+export async function sendRefundConfirmationEmail(params: {
+  email: string;
+  firstName: string;
+  refundAmount: number;
+  currency: string;
+  originalAmount: number;
+  invoiceNumber: string;
+  refundReason?: string;
+  processingDays?: number;
+  language?: string;
+}): Promise<void> {
+  const {
+    email,
+    firstName,
+    refundAmount,
+    currency,
+    originalAmount,
+    invoiceNumber,
+    refundReason,
+    processingDays = 7,
+    language = 'en',
+  } = params;
+
+  // Language-specific subjects
+  const subjects: Record<string, string> = {
+    en: `Refund Processed - ${invoiceNumber}`,
+    de: `Rückerstattung bearbeitet - ${invoiceNumber}`,
+    fr: `Remboursement traité - ${invoiceNumber}`,
+    es: `Reembolso procesado - ${invoiceNumber}`,
+    sv: `Återbetalning behandlad - ${invoiceNumber}`,
+    it: `Rimborso elaborato - ${invoiceNumber}`,
+    pt: `Reembolso processado - ${invoiceNumber}`,
+    nl: `Terugbetaling verwerkt - ${invoiceNumber}`,
+    da: `Refusion behandlet - ${invoiceNumber}`,
+    no: `Refusjon behandlet - ${invoiceNumber}`,
+    fi: `Palautus käsitelty - ${invoiceNumber}`,
+  };
+
+  const subject = subjects[language] || subjects.en;
+
+  const html = render(
+    RefundConfirmationEmail({
+      firstName,
+      refundAmount,
+      currency,
+      originalAmount,
+      invoiceNumber,
+      refundReason,
+      processingDays,
+      language,
+    })
+  );
+
+  await sendEmail(
+    {
+      to: email,
+      subject,
+      html,
+    },
+    { priority: 'high' }
+  );
+}
+/**
+ * Send payment failed email (dunning - first notification)
+ */
+export async function sendPaymentFailedEmail(params: {
+  email: string;
+  firstName: string;
+  amount: number;
+  currency: string;
+  failureReason: string;
+  updatePaymentUrl: string;
+  nextRetryDate: string;
+  language?: string;
+}): Promise<void> {
+  const {
+    email,
+    firstName,
+    amount,
+    currency,
+    failureReason,
+    updatePaymentUrl,
+    nextRetryDate,
+    language = "en",
+  } = params;
+
+  const subjects: Record<string, string> = {
+    en: "Payment Failed - Action Required",
+    de: "Zahlung fehlgeschlagen - Handlung erforderlich",
+    fr: "Échec du paiement - Action requise",
+    es: "Pago fallido - Acción requerida",
+  };
+
+  const subject = subjects[language] || subjects.en;
+
+  const html = render(
+    PaymentFailedEmail({
+      firstName,
+      amount,
+      currency,
+      failureReason,
+      updatePaymentUrl,
+      nextRetryDate,
+      language,
+    })
+  );
+
+  await sendEmail(
+    {
+      to: email,
+      subject,
+      html,
+    },
+    { priority: "critical", immediate: true }
+  );
+}
+
+/**
+ * Send payment reminder email (dunning - follow-up)
+ */
+export async function sendPaymentReminderEmail(params: {
+  email: string;
+  firstName: string;
+  amount: number;
+  currency: string;
+  failureReason: string;
+  updatePaymentUrl: string;
+  daysUntilSuspension: number;
+  language?: string;
+}): Promise<void> {
+  const {
+    email,
+    firstName,
+    amount,
+    currency,
+    failureReason,
+    updatePaymentUrl,
+    daysUntilSuspension,
+    language = "en",
+  } = params;
+
+  const subjects: Record<string, string> = {
+    en: "Urgent: Payment Still Failed - Subscription at Risk",
+    de: "Dringend: Zahlung immer noch fehlgeschlagen - Abonnement gefährdet",
+  };
+
+  const subject = subjects[language] || subjects.en;
+
+  const html = render(
+    PaymentReminderEmail({
+      firstName,
+      amount,
+      currency,
+      failureReason,
+      updatePaymentUrl,
+      daysUntilSuspension,
+      language,
+    })
+  );
+
+  await sendEmail(
+    {
+      to: email,
+      subject,
+      html,
+    },
+    { priority: "critical", immediate: true }
+  );
+}
+
+/**
+ * Send service suspended email
+ */
+export async function sendServiceSuspendedEmail(params: {
+  email: string;
+  firstName: string;
+  suspensionDate: string;
+  dataRetentionDays: number;
+  updatePaymentUrl: string;
+  language?: string;
+}): Promise<void> {
+  const {
+    email,
+    firstName,
+    suspensionDate,
+    dataRetentionDays,
+    updatePaymentUrl,
+    language = "en",
+  } = params;
+
+  const subjects: Record<string, string> = {
+    en: "Service Suspended - Update Payment to Restore Access",
+    de: "Service ausgesetzt - Zahlung aktualisieren",
+  };
+
+  const subject = subjects[language] || subjects.en;
+
+  const html = render(
+    ServiceSuspendedEmail({
+      firstName,
+      suspensionDate,
+      dataRetentionDays,
+      updatePaymentUrl,
+      language,
+    })
+  );
+
+  await sendEmail(
+    {
+      to: email,
+      subject,
+      html,
+    },
+    { priority: "critical", immediate: true }
+  );
+}
+

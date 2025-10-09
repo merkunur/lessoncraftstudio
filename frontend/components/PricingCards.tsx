@@ -2,6 +2,9 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
+import { useAuth } from '@/contexts/auth-context';
+import { toast } from 'react-hot-toast';
 import BillingToggle from './BillingToggle';
 
 interface Plan {
@@ -42,6 +45,9 @@ export default function PricingCards({
   labels
 }: PricingCardsProps) {
   const [isYearly, setIsYearly] = useState(false);
+  const [isLoading, setIsLoading] = useState<string | null>(null);
+  const router = useRouter();
+  const { user, isAuthenticated } = useAuth();
 
   const getDisplayPrice = (plan: Plan) => {
     if (isYearly && plan.yearlyPrice) {
@@ -55,6 +61,73 @@ export default function PricingCards({
       return labels.perYear;
     }
     return plan.period;
+  };
+
+  const handlePlanClick = async (plan: Plan, e: React.MouseEvent) => {
+    console.log('[PricingCards] ===== Button clicked =====');
+    console.log('[PricingCards] Plan:', plan.variant);
+    console.log('[PricingCards] isAuthenticated:', isAuthenticated);
+    console.log('[PricingCards] User:', user ? { id: user.id, email: user.email, tier: user.subscriptionTier } : null);
+
+    // Free plan always goes to signup
+    if (plan.variant === 'free') {
+      console.log('[PricingCards] Free plan, letting Link handle navigation');
+      return; // Let the Link handle it
+    }
+
+    // Paid plans
+    e.preventDefault();
+    console.log('[PricingCards] Prevented default link behavior for paid plan');
+
+    // If not authenticated, redirect to signup with plan parameter
+    if (!isAuthenticated) {
+      const locale = window.location.pathname.split('/')[1] || 'en';
+      const signupUrl = `/${locale}/auth/signup?plan=${plan.variant}`;
+      console.log('[PricingCards] User NOT authenticated, redirecting to signup:', signupUrl);
+      router.push(signupUrl);
+      return;
+    }
+
+    // If authenticated, create checkout session
+    console.log('[PricingCards] Authenticated, creating checkout session...');
+    setIsLoading(plan.variant);
+    try {
+      const token = localStorage.getItem('accessToken');
+      console.log('[PricingCards] Access token:', token ? 'Found' : 'Not found');
+
+      const response = await fetch('/api/stripe/checkout', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': token ? `Bearer ${token}` : '',
+        },
+        body: JSON.stringify({
+          tier: plan.variant.toUpperCase(),
+          billingInterval: isYearly ? 'yearly' : 'monthly',
+        }),
+      });
+
+      console.log('[PricingCards] Checkout response status:', response.status);
+      const data = await response.json();
+      console.log('[PricingCards] Checkout response data:', data);
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Failed to create checkout session');
+      }
+
+      // Redirect to Stripe Checkout
+      if (data.url) {
+        console.log('[PricingCards] Redirecting to Stripe:', data.url);
+        window.location.href = data.url;
+      } else {
+        console.error('[PricingCards] No URL in response');
+        throw new Error('No checkout URL received');
+      }
+    } catch (error: any) {
+      console.error('[PricingCards] Checkout error:', error);
+      toast.error(error.message || 'Failed to start checkout');
+      setIsLoading(null);
+    }
   };
 
   return (
@@ -103,13 +176,25 @@ export default function PricingCards({
                   )}
                 </div>
 
-                <Link href={plan.ctaLink}>
-                  <button className={`w-full py-3 px-6 rounded-lg font-semibold transition-colors ${
-                    plan.popular
-                      ? 'bg-primary text-white hover:bg-primary-dark'
-                      : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
-                  }`}>
-                    {plan.cta}
+                <Link href={plan.ctaLink} onClick={(e) => handlePlanClick(plan, e)}>
+                  <button
+                    disabled={isLoading === plan.variant}
+                    className={`w-full py-3 px-6 rounded-lg font-semibold transition-colors disabled:opacity-50 disabled:cursor-not-allowed ${
+                      plan.popular
+                        ? 'bg-primary text-white hover:bg-primary-dark'
+                        : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
+                    }`}>
+                    {isLoading === plan.variant ? (
+                      <span className="flex items-center justify-center">
+                        <svg className="animate-spin h-5 w-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                        Loading...
+                      </span>
+                    ) : (
+                      plan.cta
+                    )}
                   </button>
                 </Link>
 

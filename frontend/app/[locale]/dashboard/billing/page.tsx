@@ -9,7 +9,6 @@ import {
   AlertCircle,
   CheckCircle,
   XCircle,
-  Download,
   TrendingUp,
   Shield,
   RefreshCw,
@@ -18,6 +17,9 @@ import {
 import { useAuth } from '@/contexts/auth-context';
 import { SUBSCRIPTION_TIERS, SubscriptionTier } from '@/lib/stripe-config';
 import { toast } from 'react-hot-toast';
+import { PaymentMethodManager } from '@/components/billing/PaymentMethodManager';
+import { InvoiceList } from '@/components/billing/InvoiceList';
+import { PlanUpgradeModal } from '@/components/billing/PlanUpgradeModal';
 
 interface SubscriptionDetails {
   id: string;
@@ -28,38 +30,29 @@ interface SubscriptionDetails {
   // trialEnd removed - no trials offered
 }
 
-interface UsageStats {
-  worksheetsGenerated: number;
-  worksheetsLimit: number;
-  downloadsThisMonth: number;
-  downloadsLimit: number;
-  generatorsAccessed: number;
-  generatorsLimit: number;
-}
 
 export default function BillingDashboard() {
   const router = useRouter();
   const searchParams = useSearchParams();
-  const { user, refreshUser } = useAuth();
+  const { user, checkAuth } = useAuth();
   const [subscription, setSubscription] = useState<SubscriptionDetails | null>(null);
-  const [usage, setUsage] = useState<UsageStats | null>(null);
   const [loading, setLoading] = useState(true);
   const [portalLoading, setPortalLoading] = useState(false);
+  const [showUpgradeModal, setShowUpgradeModal] = useState(false);
 
   useEffect(() => {
     // Check for success/cancel params
     if (searchParams.get('success') === 'true') {
       toast.success('Payment successful! Your subscription is now active.');
-      refreshUser();
+      checkAuth();
       // Remove query params
-      router.replace('/dashboard/billing');
+      router.replace('/en/dashboard/billing');
     } else if (searchParams.get('cancelled') === 'true') {
       toast.error('Payment cancelled. You can try again anytime.');
-      router.replace('/dashboard/billing');
+      router.replace('/en/dashboard/billing');
     }
 
     fetchSubscriptionDetails();
-    fetchUsageStats();
   }, [searchParams]);
 
   const fetchSubscriptionDetails = async () => {
@@ -76,22 +69,6 @@ export default function BillingDashboard() {
     } finally {
       setLoading(false);
     }
-  };
-
-  const fetchUsageStats = async () => {
-    // In a real app, this would fetch from your API
-    // For now, we'll use mock data
-    const tier = user?.subscriptionTier?.toUpperCase() as SubscriptionTier || 'FREE';
-    const limits = SUBSCRIPTION_TIERS[tier].limits;
-    
-    setUsage({
-      worksheetsGenerated: 7,
-      worksheetsLimit: -1, // Unlimited for all tiers
-      downloadsThisMonth: tier === 'FREE' ? 3 : 45,
-      downloadsLimit: limits.monthlyDownloads,
-      generatorsAccessed: tier === 'FREE' ? 5 : tier === 'CORE' ? 20 : 33,
-      generatorsLimit: limits.generators,
-    });
   };
 
   const handlePortalAccess = async () => {
@@ -133,7 +110,7 @@ export default function BillingDashboard() {
       const data = await response.json();
       toast.success(data.message);
       fetchSubscriptionDetails();
-      refreshUser();
+      checkAuth();
     } catch (error) {
       console.error('Cancel error:', error);
       toast.error('Failed to cancel subscription');
@@ -154,11 +131,26 @@ export default function BillingDashboard() {
 
       toast.success('Subscription reactivated successfully!');
       fetchSubscriptionDetails();
-      refreshUser();
+      checkAuth();
     } catch (error) {
       console.error('Reactivate error:', error);
       toast.error('Failed to reactivate subscription');
     }
+  };
+
+  const handleUpgradeClick = () => {
+    if (currentTier === 'FREE') {
+      // Free users go to pricing page
+      router.push('/en/pricing');
+    } else {
+      // Paid users see upgrade modal
+      setShowUpgradeModal(true);
+    }
+  };
+
+  const handleUpgradeSuccess = () => {
+    fetchSubscriptionDetails();
+    checkAuth();
   };
 
   const currentTier = subscription?.tier || user?.subscriptionTier?.toUpperCase() || 'FREE';
@@ -256,15 +248,20 @@ export default function BillingDashboard() {
           <div className="border rounded-lg p-4">
             <div className="flex items-center text-gray-600 mb-2">
               <CreditCard className="h-5 w-5 mr-2" />
-              <span className="text-sm font-medium">Payment Method</span>
+              <span className="text-sm font-medium">Status</span>
             </div>
-            {user?.stripeCustomerId ? (
+            {subscription ? (
               <>
-                <p className="text-lg font-semibold text-gray-900">•••• •••• •••• 4242</p>
-                <p className="text-sm text-gray-600">Expires 12/24</p>
+                <p className="text-lg font-semibold text-gray-900">Active</p>
+                <p className="text-sm text-gray-600">
+                  {subscription.cancelAtPeriodEnd ? 'Ends' : 'Renews'} {formatDate(subscription.currentPeriodEnd)}
+                </p>
               </>
             ) : (
-              <p className="text-lg font-semibold text-gray-900">No payment method</p>
+              <>
+                <p className="text-lg font-semibold text-gray-900">Inactive</p>
+                <p className="text-sm text-gray-600">No active subscription</p>
+              </>
             )}
           </div>
         </div>
@@ -273,7 +270,7 @@ export default function BillingDashboard() {
         <div className="flex flex-wrap gap-4">
           {currentTier === 'FREE' ? (
             <button
-              onClick={() => router.push('/pricing')}
+              onClick={handleUpgradeClick}
               className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
             >
               <TrendingUp className="h-4 w-4 inline mr-2" />
@@ -281,21 +278,6 @@ export default function BillingDashboard() {
             </button>
           ) : (
             <>
-              {user?.stripeCustomerId && (
-                <button
-                  onClick={handlePortalAccess}
-                  disabled={portalLoading}
-                  className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50"
-                >
-                  {portalLoading ? (
-                    <RefreshCw className="h-4 w-4 inline mr-2 animate-spin" />
-                  ) : (
-                    <ExternalLink className="h-4 w-4 inline mr-2" />
-                  )}
-                  Manage Billing
-                </button>
-              )}
-              
               {subscription?.cancelAtPeriodEnd ? (
                 <button
                   onClick={handleReactivate}
@@ -307,21 +289,36 @@ export default function BillingDashboard() {
               ) : (
                 currentTier !== 'FULL' && (
                   <button
-                    onClick={() => router.push('/pricing')}
+                    onClick={handleUpgradeClick}
                     className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
                   >
                     <TrendingUp className="h-4 w-4 inline mr-2" />
-                    Upgrade Plan
+                    Change Plan
                   </button>
                 )
               )}
-              
+
               {subscription && !subscription.cancelAtPeriodEnd && (
                 <button
                   onClick={handleCancelSubscription}
                   className="px-4 py-2 border border-red-600 text-red-600 rounded-lg hover:bg-red-50 transition-colors"
                 >
                   Cancel Subscription
+                </button>
+              )}
+
+              {user?.stripeCustomerId && (
+                <button
+                  onClick={handlePortalAccess}
+                  disabled={portalLoading}
+                  className="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors disabled:opacity-50"
+                >
+                  {portalLoading ? (
+                    <RefreshCw className="h-4 w-4 inline mr-2 animate-spin" />
+                  ) : (
+                    <ExternalLink className="h-4 w-4 inline mr-2" />
+                  )}
+                  Stripe Portal
                 </button>
               )}
             </>
@@ -343,73 +340,18 @@ export default function BillingDashboard() {
         )}
       </div>
 
-      {/* Usage Statistics */}
-      {usage && (
-        <div className="bg-white rounded-lg shadow-sm p-6 mb-8">
-          <h2 className="text-xl font-semibold text-gray-900 mb-6">Usage This Month</h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div>
-              <div className="flex justify-between items-center mb-2">
-                <span className="text-sm font-medium text-gray-600">Downloads</span>
-                <span className="text-sm text-gray-500">
-                  {usage.downloadsLimit === -1 
-                    ? 'Unlimited' 
-                    : `${usage.downloadsThisMonth} / ${usage.downloadsLimit}`
-                  }
-                </span>
-              </div>
-              <div className="w-full bg-gray-200 rounded-full h-2">
-                <div
-                  className="bg-blue-600 h-2 rounded-full"
-                  style={{
-                    width: usage.downloadsLimit === -1 
-                      ? '100%' 
-                      : `${Math.min(100, (usage.downloadsThisMonth / usage.downloadsLimit) * 100)}%`
-                  }}
-                />
-              </div>
-            </div>
+      {/* Payment Methods */}
+      {user?.stripeCustomerId && <PaymentMethodManager />}
 
-            <div>
-              <div className="flex justify-between items-center mb-2">
-                <span className="text-sm font-medium text-gray-600">Generators Access</span>
-                <span className="text-sm text-gray-500">
-                  {usage.generatorsLimit === -1 
-                    ? 'All 33+' 
-                    : `${usage.generatorsAccessed} / ${usage.generatorsLimit}`
-                  }
-                </span>
-              </div>
-              <div className="w-full bg-gray-200 rounded-full h-2">
-                <div
-                  className="bg-green-600 h-2 rounded-full"
-                  style={{
-                    width: usage.generatorsLimit === -1 
-                      ? '100%' 
-                      : `${Math.min(100, (usage.generatorsAccessed / usage.generatorsLimit) * 100)}%`
-                  }}
-                />
-              </div>
-            </div>
-
-            <div>
-              <div className="flex justify-between items-center mb-2">
-                <span className="text-sm font-medium text-gray-600">Worksheets Generated</span>
-                <span className="text-sm text-gray-500">
-                  {usage.worksheetsGenerated}
-                </span>
-              </div>
-              <div className="w-full bg-gray-200 rounded-full h-2">
-                <div className="bg-purple-600 h-2 rounded-full w-full" />
-              </div>
-            </div>
-          </div>
+      {/* Invoice History */}
+      {user?.stripeCustomerId && (
+        <div className="mt-8">
+          <InvoiceList />
         </div>
       )}
 
       {/* Plan Features */}
-      <div className="bg-white rounded-lg shadow-sm p-6">
+      <div className="bg-white rounded-lg shadow-sm p-6 mt-8">
         <h2 className="text-xl font-semibold text-gray-900 mb-6">Your Plan Features</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {tierInfo.features.map((feature, idx) => (
@@ -432,7 +374,7 @@ export default function BillingDashboard() {
                   <span className="text-gray-600">{feature}</span>
                 </div>
               ))}
-              {(currentTier === 'FREE' || currentTier === 'CORE') && 
+              {(currentTier === 'FREE' || currentTier === 'CORE') &&
                 SUBSCRIPTION_TIERS.FULL.features.slice(0, 3).map((feature, idx) => (
                 <div key={idx} className="flex items-start opacity-60">
                   <TrendingUp className="h-5 w-5 text-purple-500 mr-3 flex-shrink-0 mt-0.5" />
@@ -443,6 +385,16 @@ export default function BillingDashboard() {
           </div>
         )}
       </div>
+
+      {/* Upgrade Modal */}
+      {showUpgradeModal && subscription && (
+        <PlanUpgradeModal
+          currentTier={currentTier as SubscriptionTier}
+          currentBillingInterval={subscription.tier === 'FREE' ? 'monthly' : (subscription as any).billingInterval || 'monthly'}
+          onClose={() => setShowUpgradeModal(false)}
+          onSuccess={handleUpgradeSuccess}
+        />
+      )}
     </div>
   );
 }

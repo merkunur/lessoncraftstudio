@@ -1,9 +1,10 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import { toast } from 'react-hot-toast';
 import DeviceConflictModal from '@/components/auth/DeviceConflictModal';
 
 // Simple device fingerprinting
@@ -54,6 +55,8 @@ export default function SignInPage() {
   const [conflictSession, setConflictSession] = useState<any>(null);
 
   const router = useRouter();
+  const searchParams = useSearchParams();
+  const plan = searchParams.get('plan'); // Get plan from URL parameter
   const t = useTranslations('auth.signIn');
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -103,6 +106,54 @@ export default function SignInPage() {
       // Store user info
       localStorage.setItem('user', JSON.stringify(data.user));
 
+      // If there's a plan parameter, create checkout session
+      if (plan && (plan === 'core' || plan === 'full')) {
+        console.log('=== PLAN PARAMETER DETECTED ===');
+        console.log('Plan:', plan);
+        console.log('User email:', data.user.email);
+        console.log('User subscription tier:', data.user.subscriptionTier);
+        console.log('Creating checkout session...');
+
+        try {
+          const checkoutResponse = await fetch('/api/stripe/checkout', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': `Bearer ${data.accessToken}`,
+            },
+            body: JSON.stringify({
+              tier: plan.toUpperCase(),
+              billingInterval: 'monthly',
+            }),
+          });
+
+          console.log('Checkout response status:', checkoutResponse.status);
+          const checkoutData = await checkoutResponse.json();
+          console.log('Checkout response data:', checkoutData);
+
+          if (checkoutResponse.ok && checkoutData.url) {
+            console.log('✅ SUCCESS! Redirecting to Stripe Checkout:', checkoutData.url);
+            // Redirect to Stripe Checkout
+            window.location.href = checkoutData.url;
+            return;
+          } else {
+            console.error('❌ CHECKOUT FAILED:', checkoutData);
+            const errorMsg = checkoutData.error || 'Failed to create checkout session';
+            toast.error(errorMsg, { duration: 5000 });
+            // Don't redirect to dashboard, stay on signin page so user can see error
+            setIsLoading(false);
+            return;
+          }
+        } catch (checkoutError) {
+          console.error('❌ CHECKOUT ERROR:', checkoutError);
+          toast.error('Network error while creating checkout session', { duration: 5000 });
+          setIsLoading(false);
+          return;
+        }
+      } else {
+        console.log('No plan parameter detected (plan =', plan, '), redirecting to dashboard');
+      }
+
       // Redirect to dashboard with locale
       router.push('/en/dashboard');
     } catch (err: any) {
@@ -139,8 +190,55 @@ export default function SignInPage() {
       // Store user info
       localStorage.setItem('user', JSON.stringify(data.user));
 
-      // Close modal and redirect
+      // Close modal
       setShowConflictModal(false);
+
+      // If there's a plan parameter, create checkout session
+      if (plan && (plan === 'core' || plan === 'full')) {
+        console.log('[Force Signin] === PLAN PARAMETER DETECTED ===');
+        console.log('[Force Signin] Plan:', plan);
+        console.log('[Force Signin] User email:', data.user.email);
+        console.log('[Force Signin] User subscription tier:', data.user.subscriptionTier);
+        console.log('[Force Signin] Creating checkout session...');
+
+        try {
+          const checkoutResponse = await fetch('/api/stripe/checkout', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': `Bearer ${data.accessToken}`,
+            },
+            body: JSON.stringify({
+              tier: plan.toUpperCase(),
+              billingInterval: 'monthly',
+            }),
+          });
+
+          console.log('[Force Signin] Checkout response status:', checkoutResponse.status);
+          const checkoutData = await checkoutResponse.json();
+          console.log('[Force Signin] Checkout response data:', checkoutData);
+
+          if (checkoutResponse.ok && checkoutData.url) {
+            console.log('[Force Signin] ✅ SUCCESS! Redirecting to Stripe Checkout:', checkoutData.url);
+            // Redirect to Stripe Checkout
+            window.location.href = checkoutData.url;
+            return;
+          } else {
+            console.error('[Force Signin] ❌ CHECKOUT FAILED:', checkoutData);
+            const errorMsg = checkoutData.error || 'Failed to create checkout session';
+            toast.error(errorMsg, { duration: 5000 });
+            return;
+          }
+        } catch (checkoutError) {
+          console.error('[Force Signin] ❌ CHECKOUT ERROR:', checkoutError);
+          toast.error('Network error while creating checkout session', { duration: 5000 });
+          return;
+        }
+      } else {
+        console.log('[Force Signin] No plan parameter detected (plan =', plan, '), redirecting to dashboard');
+      }
+
+      // Redirect to dashboard
       router.push('/en/dashboard');
     } catch (err: any) {
       setError(err.message || 'An error occurred during force sign in');

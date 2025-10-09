@@ -56,7 +56,19 @@
       "Bash(then rmdir \"C:\\Users\\rkgen\\lessoncraftstudio\\frontend\\app\\api\\usage\")",
       "Bash(else echo \"Directory already deleted\")",
       "Bash(for port in 3000 3001)",
-      "Bash(npx geoip-lite-update:*)"
+      "Bash(npx geoip-lite-update:*)",
+      "Bash(for port in 3000 3001 3002)",
+      "Bash(where psql)",
+      "Bash(for port in 3000 3001 5432)",
+      "Bash(do echo \"=== Port $port ===\")",
+      "Bash(if exist .next rmdir /s /q .next)",
+      "Bash(for port in 3000 3001 3002 3003 3004)",
+      "Bash(move:*)",
+      "Bash(for port in 3000 3001 3002 3003 3004 3005)",
+      "Bash(echo \"UPDATE \"\"User\"\" SET \"\"stripeCustomerId\"\" = NULL WHERE email = ''''oliviaprincess@gmail.com'''';\")",
+      "Bash(npx prisma db execute:*)",
+      "Bash(del C:Usersrkgenlessoncraftstudiofrontendclear-stripe-customer.js)",
+      "Bash(if exist frontend.next rmdir /s /q frontend.next)"
     ],
     "deny": [],
     "ask": []

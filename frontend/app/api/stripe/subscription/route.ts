@@ -172,7 +172,7 @@ export async function PATCH(request: NextRequest) {
     }
 
     const body = await request.json();
-    const action = body.action; // 'reactivate' or 'upgrade' or 'downgrade'
+    const action = body.action; // 'reactivate' or 'change_plan'
 
     const subscription = await prisma.subscription.findFirst({
       where: {
@@ -222,9 +222,11 @@ export async function PATCH(request: NextRequest) {
       return NextResponse.json({
         message: 'Subscription reactivated successfully',
       });
-    } else if (action === 'upgrade' || action === 'downgrade') {
-      // Change subscription tier
+    } else if (action === 'change_plan') {
+      // Change subscription tier and/or billing interval
       const newTier = body.tier as 'CORE' | 'FULL';
+      const newBillingInterval = body.billingInterval as 'monthly' | 'yearly' | undefined;
+
       if (!newTier) {
         return NextResponse.json(
           { error: 'New tier required' },
@@ -232,26 +234,49 @@ export async function PATCH(request: NextRequest) {
         );
       }
 
-      const tierInfo = SUBSCRIPTION_TIERS[newTier];
-      if (!tierInfo.priceId) {
+      // Determine current tier and billing interval
+      const currentTier = subscription.planName.split('_')[0].toUpperCase();
+      const currentBillingInterval = subscription.billingInterval || 'monthly';
+      const targetBillingInterval = newBillingInterval || currentBillingInterval;
+
+      // Check if this is actually a change
+      if (currentTier === newTier && currentBillingInterval === targetBillingInterval) {
         return NextResponse.json(
-          { error: 'Invalid tier' },
+          { error: 'This is your current plan' },
           { status: 400 }
         );
       }
 
-      await updateSubscription(subscription.stripeSubscriptionId, tierInfo.priceId);
+      // Get new price ID based on tier and billing interval
+      const tierInfo = SUBSCRIPTION_TIERS[newTier];
+      const newPriceId = targetBillingInterval === 'yearly'
+        ? tierInfo.priceIdYearly
+        : tierInfo.priceIdMonthly;
 
-      // Determine new plan name based on tier and billing interval
-      const billingInterval = subscription.billingInterval || 'monthly';
-      const newPlanName = newTier.toLowerCase() + (newTier !== 'FREE' ? `_${billingInterval}` : '');
+      if (!newPriceId) {
+        return NextResponse.json(
+          { error: 'Invalid subscription tier or billing interval' },
+          { status: 400 }
+        );
+      }
+
+      // Determine if this is an upgrade or downgrade
+      const isUpgrade = (currentTier === 'CORE' && newTier === 'FULL') ||
+        (currentTier === newTier && currentBillingInterval === 'monthly' && targetBillingInterval === 'yearly');
+
+      // Update subscription with proration
+      await updateSubscription(subscription.stripeSubscriptionId, newPriceId);
+
+      // Update plan name
+      const newPlanName = `${newTier.toLowerCase()}_${targetBillingInterval}`;
 
       // Update database
       await prisma.subscription.update({
         where: { id: subscription.id },
         data: {
           planName: newPlanName,
-          stripePriceId: tierInfo.priceId,
+          stripePriceId: newPriceId,
+          billingInterval: targetBillingInterval,
         },
       });
 
@@ -262,24 +287,51 @@ export async function PATCH(request: NextRequest) {
         },
       });
 
+      // Determine change type for logging
+      let changeType: string;
+      if (currentTier === newTier && currentBillingInterval !== targetBillingInterval) {
+        changeType = `billing_interval_changed_to_${targetBillingInterval}`;
+      } else {
+        changeType = isUpgrade ? 'subscription_upgraded' : 'subscription_downgraded';
+      }
+
       // Log activity
-      const fromTier = subscription.planName.split('_')[0];
       await prisma.activityLog.create({
         data: {
           userId: user.id,
-          action: action === 'upgrade' ? 'subscription_upgraded' : 'subscription_downgraded',
-          details: `Subscription ${action}d from ${fromTier} to ${newTier.toLowerCase()}`,
+          action: changeType,
+          details: `Subscription changed from ${subscription.planName} to ${newPlanName}`,
           metadata: {
             subscriptionId: subscription.id,
-            fromTier: fromTier,
+            fromTier: currentTier.toLowerCase(),
             toTier: newTier.toLowerCase(),
+            fromInterval: currentBillingInterval,
+            toInterval: targetBillingInterval,
           },
         },
       });
 
+      // Send upgrade/downgrade email notification
+      const { sendSubscriptionUpgradeEmail } = await import('@/lib/email');
+
+      try {
+        await sendSubscriptionUpgradeEmail({
+          email: user.email,
+          firstName: user.firstName || 'there',
+          language: user.language || 'en',
+          oldPlan: `${currentTier} (${currentBillingInterval})`,
+          newPlan: `${newTier} (${targetBillingInterval})`,
+        });
+      } catch (emailError) {
+        console.error('Failed to send upgrade email:', emailError);
+        // Don't fail the request if email fails
+      }
+
       return NextResponse.json({
-        message: `Subscription ${action}d successfully`,
+        message: 'Subscription updated successfully',
         newTier,
+        newBillingInterval: targetBillingInterval,
+        changeType: isUpgrade ? 'upgrade' : 'downgrade',
       });
     } else {
       return NextResponse.json(

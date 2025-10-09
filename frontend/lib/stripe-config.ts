@@ -52,8 +52,8 @@ export const SUBSCRIPTION_TIERS = {
       'Access to 10 popular worksheet generators',
       'Unlimited worksheet generation',
       'No watermarks',
+      'High-quality PDF downloads',
       'Premium templates',
-      'Save and organize worksheets',
       'Email support',
     ],
     limits: {
@@ -75,13 +75,12 @@ export const SUBSCRIPTION_TIERS = {
     priceIdMonthly: process.env.STRIPE_PRICE_FULL_MONTHLY,
     priceIdYearly: process.env.STRIPE_PRICE_FULL_YEARLY,
     features: [
-      'Access to all 33 worksheet generators',
+      'Access to all 33+ worksheet generators',
       'Unlimited worksheet generation',
       'No watermarks',
+      'High-quality PDF downloads',
       'All premium templates',
-      'Save and organize worksheets',
       'Priority email support',
-      'Early access to new generators',
       'Commercial license included',
     ],
     limits: {

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams, useParams } from 'next/navigation';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
@@ -17,6 +17,10 @@ export default function SignUpPage() {
   const [error, setError] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const router = useRouter();
+  const params = useParams();
+  const locale = params.locale as string || 'en';
+  const searchParams = useSearchParams();
+  const plan = searchParams.get('plan'); // Get plan from URL parameter
   const t = useTranslations('auth.signUp');
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -79,7 +83,7 @@ export default function SignUpPage() {
           password: formData.password,
           firstName: formData.firstName,
           lastName: formData.lastName,
-          locale: 'en' // Get from current locale context
+          locale: locale
         }),
       });
 
@@ -89,8 +93,12 @@ export default function SignUpPage() {
         throw new Error(data.error || 'Failed to create account');
       }
 
-      // Show success message and redirect to sign in
-      router.push('/auth/signin?registered=true');
+      // Redirect to sign in with plan parameter if provided
+      const signInUrl = plan
+        ? `/${locale}/auth/signin?registered=true&plan=${plan}`
+        : `/${locale}/auth/signin?registered=true`;
+      console.log('[Signup] Redirecting to:', signInUrl);
+      router.push(signInUrl);
     } catch (err: any) {
       setError(err.message || 'An error occurred during sign up');
     } finally {
@@ -107,7 +115,10 @@ export default function SignUpPage() {
           </h2>
           <p className="mt-2 text-center text-sm text-gray-600">
             {t('hasAccount')}{' '}
-            <Link href="/auth/signin" className="font-medium text-blue-600 hover:text-blue-500">
+            <Link
+              href={plan ? `/${locale}/auth/signin?plan=${plan}` : `/${locale}/auth/signin`}
+              className="font-medium text-blue-600 hover:text-blue-500"
+            >
               {t('signIn')}
             </Link>
           </p>

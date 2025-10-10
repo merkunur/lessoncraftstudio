@@ -112,8 +112,8 @@ export async function getSubscriptionStatus(
   cancelAtPeriodEnd: boolean;
   tier: SubscriptionTier | null;
 }> {
-  const subscription = await stripe.subscriptions.retrieve(subscriptionId);
-  
+  const subscription = await stripe.subscriptions.retrieve(subscriptionId) as any;
+
   // Determine tier from price ID (check both monthly and yearly)
   let tier: SubscriptionTier | null = null;
   const priceId = subscription.items.data[0]?.price.id;
@@ -125,7 +125,7 @@ export async function getSubscriptionStatus(
              priceId === process.env.STRIPE_PRICE_FULL_YEARLY) {
     tier = 'FULL';
   }
-  
+
   return {
     status: subscription.status,
     currentPeriodEnd: new Date(subscription.current_period_end * 1000),
@@ -170,7 +170,7 @@ export async function updateSubscription(
   subscriptionId: string,
   newPriceId: string
 ): Promise<Stripe.Subscription> {
-  const subscription = await stripe.subscriptions.retrieve(subscriptionId);
+  const subscription = await stripe.subscriptions.retrieve(subscriptionId) as any;
   const taxEnabled = process.env.STRIPE_TAX_ENABLED === 'true';
 
   const updatedSubscription = await stripe.subscriptions.update(subscriptionId, {
@@ -187,7 +187,7 @@ export async function updateSubscription(
         enabled: true,
       },
     }),
-  });
+  }) as any;
 
   return updatedSubscription;
 }

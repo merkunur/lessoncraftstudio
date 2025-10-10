@@ -48,11 +48,11 @@ export async function GET(request: NextRequest) {
       description: invoice.description,
       invoiceUrl: invoice.hosted_invoice_url,
       invoicePdf: invoice.invoice_pdf,
-      receiptUrl: invoice.charge && typeof invoice.charge !== 'string'
-        ? invoice.charge.receipt_url
+      receiptUrl: (invoice as any).charge && typeof (invoice as any).charge !== 'string'
+        ? (invoice as any).charge.receipt_url
         : null,
       subtotal: invoice.subtotal / 100,
-      tax: invoice.tax ? invoice.tax / 100 : 0,
+      tax: (invoice.total - invoice.subtotal) / 100,
       total: invoice.total / 100,
       lines: invoice.lines.data.map((line) => ({
         description: line.description,

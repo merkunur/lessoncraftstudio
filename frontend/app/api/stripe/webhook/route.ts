@@ -155,7 +155,7 @@ async function handleSubscriptionDeleted(subscription: Stripe.Subscription) {
     },
     data: {
       status: 'cancelled',
-      cancelledAt: new Date(),
+      canceledAt: new Date(),
     },
   });
 
@@ -164,7 +164,8 @@ async function handleSubscriptionDeleted(subscription: Stripe.Subscription) {
     data: {
       userId: user.id,
       action: 'subscription_cancelled',
-      details: {
+      details: 'Subscription cancelled',
+      metadata: {
         subscriptionId: subscription.id,
       },
     },
@@ -206,7 +207,8 @@ async function handleInvoicePaid(invoice: Stripe.Invoice) {
     data: {
       userId: user.id,
       action: 'payment_succeeded',
-      details: {
+      details: `Payment succeeded: ${invoice.currency.toUpperCase()} ${(invoice.amount_paid / 100).toFixed(2)}`,
+      metadata: {
         amount: invoice.amount_paid / 100,
         currency: invoice.currency,
         invoiceId: invoice.id,
@@ -261,7 +263,8 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
     data: {
       userId: user.id,
       action: 'payment_failed',
-      details: {
+      details: `Payment failed: ${invoice.currency.toUpperCase()} ${(invoice.amount_due / 100).toFixed(2)}`,
+      metadata: {
         amount: invoice.amount_due / 100,
         currency: invoice.currency,
         invoiceId: invoice.id,

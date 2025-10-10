@@ -98,7 +98,7 @@ export async function POST(request: NextRequest) {
     });
 
     // Calculate proration details
-    const currentPrice = tierInfo.priceIdMonthly === newPriceId
+    const newPrice = tierInfo.priceIdMonthly === newPriceId
       ? tierInfo.priceMonthly
       : tierInfo.priceYearly / 12;
 
@@ -107,7 +107,7 @@ export async function POST(request: NextRequest) {
       ? oldTierInfo.priceYearly / 12
       : oldTierInfo.priceMonthly;
 
-    const isUpgrade = currentPrice < newPriceId ? true : false;
+    const isUpgrade = oldPrice < newPrice;
     const proratedAmount = upcomingInvoice.amount_due / 100; // Convert from cents
     const taxAmount = (upcomingInvoice.tax || 0) / 100;
     const subtotal = (upcomingInvoice.subtotal || 0) / 100;

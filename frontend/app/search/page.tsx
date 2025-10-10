@@ -568,7 +568,7 @@ export default function SearchPage() {
                   key={saved.id}
                   onClick={() => {
                     setQuery(saved.query.query);
-                    setSearchType(saved.query.type || 'all');
+                    setSearchType((saved.query.type || 'all') as any);
                     setFilters(saved.query.filters || []);
                     handleSearch(saved.query.query);
                   }}

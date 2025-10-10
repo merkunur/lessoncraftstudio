@@ -344,7 +344,7 @@ export async function POST(request: NextRequest) {
     }
 
     const userId = user.id || 'user_1';
-    const userName = user.name || 'Current User';
+    const userName = `${user.firstName || ''} ${user.lastName || ''}`.trim() || 'Current User';
 
     // Check if batch invitation
     if (data.invitations && Array.isArray(data.invitations)) {

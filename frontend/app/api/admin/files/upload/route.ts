@@ -99,6 +99,7 @@ class StorageService {
       parentId?: string;
       tags?: string[];
       optimize?: boolean;
+      generateThumbnail?: boolean;
     } = {}
   ): Promise<UploadedFile[]> {
     const uploadPromises = files.map(file =>

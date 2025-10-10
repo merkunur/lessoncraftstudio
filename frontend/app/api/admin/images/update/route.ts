@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient, Prisma } from '@prisma/client';
 import { withCors } from '@/lib/cors';
 
 const prisma = new PrismaClient();
@@ -14,7 +14,10 @@ async function getHandler(request: NextRequest) {
     const { searchParams } = new URL(request.url);
     const type = searchParams.get('type') || 'images';
 
-    let themes: Awaited<ReturnType<typeof prisma.imageTheme.findMany>>;
+    type ThemeWithImages = Prisma.ImageThemeGetPayload<{
+      include: { images: true }
+    }>;
+    let themes: ThemeWithImages[];
 
     try {
       // Try to fetch themes with their images from database

@@ -263,7 +263,6 @@ export default function RichTextEditor({ content, onChange, placeholder }: RichT
         className="min-h-[400px] p-4 focus:outline-none"
         onInput={(e) => onChange(e.currentTarget.innerHTML)}
         onPaste={handlePaste}
-        placeholder={placeholder}
         suppressContentEditableWarning
         style={{ minHeight: '400px' }}
       />

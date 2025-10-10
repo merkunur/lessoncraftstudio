@@ -717,12 +717,11 @@
             showLoading();
 
             try {
-                const response = await fetch(`${API_URL}${endpoint}?type=${type}`, {
+                const response = await authenticatedFetch(`${API_URL}${endpoint}?type=${type}`, {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
                     },
-                    credentials: 'include',
                 });
 
                 if (!response.ok) {
@@ -959,7 +958,7 @@
             const endpoint = getEndpoint(currentType);
 
             try {
-                const response = await fetch(`${API_URL}${endpoint}`, {
+                const response = await authenticatedFetch(`${API_URL}${endpoint}`, {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
                     body: JSON.stringify({ ...currentData, type: currentType })
@@ -1090,10 +1089,9 @@
                 if (hasDbId) {
                     // Theme exists in database - delete via API
                     const endpoint = getEndpoint(currentType);
-                    const response = await fetch(`${API_URL}${endpoint}?themeId=${encodeURIComponent(theme.dbId)}`, {
+                    const response = await authenticatedFetch(`${API_URL}${endpoint}?themeId=${encodeURIComponent(theme.dbId)}`, {
                         method: 'DELETE',
                         headers: { 'Content-Type': 'application/json' },
-                        credentials: 'include',
                     });
 
                     if (!response.ok) {
@@ -1276,12 +1274,11 @@
                     showToast('Saving changes...', 'success');
 
                     const endpoint = getEndpoint(currentType);
-                    const response = await fetch(`${API_URL}${endpoint}`, {
+                    const response = await authenticatedFetch(`${API_URL}${endpoint}`, {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
                         },
-                        credentials: 'include',
                         body: JSON.stringify({
                             type: currentType,
                             themes: currentData.themes
@@ -1442,10 +1439,9 @@
                     try {
                         showToast('Saving theme changes...', 'success');
 
-                        const response = await fetch(`${API_URL}${endpoint}`, {
+                        const response = await authenticatedFetch(`${API_URL}${endpoint}`, {
                             method: 'POST',
                             headers: { 'Content-Type': 'application/json' },
-                            credentials: 'include',
                             body: JSON.stringify({ ...currentData, type: currentType })
                         });
 
@@ -1499,10 +1495,9 @@
                 try {
                     showToast('Creating theme...', 'success');
 
-                    const response = await fetch(`${API_URL}${endpoint}`, {
+                    const response = await authenticatedFetch(`${API_URL}${endpoint}`, {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
-                        credentials: 'include',
                         body: JSON.stringify({ ...currentData, type: currentType })
                     });
 

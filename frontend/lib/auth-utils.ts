@@ -2,8 +2,8 @@ import jwt from 'jsonwebtoken';
 import crypto from 'crypto';
 import { User } from '@prisma/client';
 
-const JWT_SECRET = process.env.JWT_SECRET!;
-const JWT_REFRESH_SECRET = process.env.JWT_REFRESH_SECRET!;
+const JWT_SECRET = process.env.JWT_SECRET || 'fallback-secret-key-for-development';
+const JWT_REFRESH_SECRET = process.env.JWT_REFRESH_SECRET || 'fallback-refresh-secret-key-for-development';
 
 interface TokenPayload {
   userId: string;
@@ -23,13 +23,13 @@ export function generateTokens(user: User) {
     isAdmin: user.isAdmin,
   };
 
-  const accessToken = jwt.sign(payload, JWT_SECRET as string, {
+  const accessToken = jwt.sign(payload, JWT_SECRET, {
     expiresIn: process.env.SESSION_EXPIRY || '7d',
   });
 
   const refreshToken = jwt.sign(
     { userId: user.id },
-    JWT_REFRESH_SECRET as string,
+    JWT_REFRESH_SECRET,
     { expiresIn: process.env.REFRESH_TOKEN_EXPIRY || '30d' }
   );
 
@@ -41,7 +41,7 @@ export function generateTokens(user: User) {
  */
 export function verifyAccessToken(token: string): TokenPayload | null {
   try {
-    return jwt.verify(token, JWT_SECRET as string) as TokenPayload;
+    return jwt.verify(token, JWT_SECRET) as TokenPayload;
   } catch (error) {
     return null;
   }
@@ -52,7 +52,7 @@ export function verifyAccessToken(token: string): TokenPayload | null {
  */
 export function verifyRefreshToken(token: string): { userId: string } | null {
   try {
-    return jwt.verify(token, JWT_REFRESH_SECRET as string) as { userId: string };
+    return jwt.verify(token, JWT_REFRESH_SECRET) as { userId: string };
   } catch (error) {
     return null;
   }

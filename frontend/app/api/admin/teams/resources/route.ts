@@ -83,7 +83,7 @@ teamResources.set('team_1', [
     name: 'Addition Practice - Grade 2',
     description: 'Basic addition problems for second graders',
     worksheetId: 'ws_123',
-    parentId: null,
+    parentId: undefined,
     path: '/worksheets',
     thumbnailUrl: 'https://example.com/thumb1.png',
     sharedBy: 'user_1',

@@ -60,13 +60,15 @@ export async function GET(request: NextRequest) {
         cta: rawContent.samplesSection?.cta[locale] || rawContent.samplesSection?.cta.en || 'Explore All 33 Worksheet Generators →',
         categories: rawContent.samplesSection?.categories
           ? Object.keys(rawContent.samplesSection.categories).reduce((acc, key) => {
-              acc[key] = rawContent.samplesSection.categories[key][locale] || rawContent.samplesSection.categories[key].en;
+              const categoryObj = (rawContent.samplesSection.categories as any)[key];
+              acc[key] = categoryObj[locale] || categoryObj.en;
               return acc;
             }, {} as Record<string, string>)
           : {},
         difficulties: rawContent.samplesSection?.difficulties
           ? Object.keys(rawContent.samplesSection.difficulties).reduce((acc, key) => {
-              acc[key] = rawContent.samplesSection.difficulties[key][locale] || rawContent.samplesSection.difficulties[key].en;
+              const difficultyObj = (rawContent.samplesSection.difficulties as any)[key];
+              acc[key] = difficultyObj[locale] || difficultyObj.en;
               return acc;
             }, {} as Record<string, string>)
           : {},

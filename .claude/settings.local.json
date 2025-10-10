@@ -76,7 +76,8 @@
       "Bash(for file in \"frontend/app/api/admin/worksheet-templates/upload/route.ts\" \"frontend/app/api/admin/train-templates/upload/route.ts\" \"frontend/app/api/admin/images/upload/route.ts\" \"frontend/app/api/admin/borders/upload/route.ts\")",
       "Bash(do sed -i '/^\\/\\/ Increase body size limit/,/^};$/d' \"$file\")",
       "Bash(del add-dynamic-export.js)",
-      "Bash(del fix-dynamic-placement.js)"
+      "Bash(del fix-dynamic-placement.js)",
+      "Bash(sshpass -p 'JfmiPF_QW4_Nhm' ssh -o StrictHostKeyChecking=no root@65.108.5.250 \"cd /opt/lessoncraftstudio/frontend && PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c \"\"SELECT t.name as theme, COUNT(i.id) as image_count FROM image_themes t LEFT JOIN image_library_items i ON t.id = i.theme_id WHERE t.type = ''images'' GROUP BY t.name ORDER BY t.name;\"\"\")"
     ],
     "deny": [],
     "ask": []

@@ -324,8 +324,8 @@ async function updateUserSubscription(userId: string, subscription: Stripe.Subsc
       billingInterval,
       stripeSubscriptionId: subscription.id,
       stripePriceId: priceId,
-      currentPeriodStart: new Date(subscription.current_period_start * 1000),
-      currentPeriodEnd: new Date(subscription.current_period_end * 1000),
+      currentPeriodStart: new Date((subscription as any).current_period_start * 1000),
+      currentPeriodEnd: new Date((subscription as any).current_period_end * 1000),
       cancelAtPeriodEnd: subscription.cancel_at_period_end,
     },
     create: {
@@ -335,8 +335,8 @@ async function updateUserSubscription(userId: string, subscription: Stripe.Subsc
       billingInterval,
       stripeSubscriptionId: subscription.id,
       stripePriceId: priceId,
-      currentPeriodStart: new Date(subscription.current_period_start * 1000),
-      currentPeriodEnd: new Date(subscription.current_period_end * 1000),
+      currentPeriodStart: new Date((subscription as any).current_period_start * 1000),
+      currentPeriodEnd: new Date((subscription as any).current_period_end * 1000),
       cancelAtPeriodEnd: subscription.cancel_at_period_end,
     },
   });

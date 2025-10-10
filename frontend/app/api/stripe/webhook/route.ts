@@ -179,7 +179,7 @@ async function handleInvoicePaid(invoice: Stripe.Invoice) {
   // Record payment (upsert for idempotency - prevents duplicates if webhook is retried)
   await prisma.payment.upsert({
     where: {
-      stripePaymentIntentId: invoice.payment_intent as string,
+      stripePaymentIntentId: (invoice as any).payment_intent as string,
     },
     update: {
       status: 'succeeded',
@@ -187,7 +187,7 @@ async function handleInvoicePaid(invoice: Stripe.Invoice) {
     },
     create: {
       userId: user.id,
-      stripePaymentIntentId: invoice.payment_intent as string,
+      stripePaymentIntentId: (invoice as any).payment_intent as string,
       amount: invoice.amount_paid / 100, // Convert from cents
       currency: invoice.currency,
       status: 'succeeded',
@@ -224,7 +224,7 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
   // Record failed payment (upsert for idempotency)
   await prisma.payment.upsert({
     where: {
-      stripePaymentIntentId: invoice.payment_intent as string,
+      stripePaymentIntentId: (invoice as any).payment_intent as string,
     },
     update: {
       status: 'failed',
@@ -232,7 +232,7 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
     },
     create: {
       userId: user.id,
-      stripePaymentIntentId: invoice.payment_intent as string,
+      stripePaymentIntentId: (invoice as any).payment_intent as string,
       amount: invoice.amount_due / 100,
       currency: invoice.currency,
       status: 'failed',

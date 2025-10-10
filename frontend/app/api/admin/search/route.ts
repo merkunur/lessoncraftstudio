@@ -525,7 +525,7 @@ export async function POST(request: NextRequest) {
     if (searchRequest.query) {
       await searchService.trackSearch(
         searchRequest.query,
-        session.user.id || 'anonymous',
+        user.id || 'anonymous',
         results.total
       );
     }

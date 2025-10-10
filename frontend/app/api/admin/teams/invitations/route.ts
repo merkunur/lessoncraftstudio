@@ -309,7 +309,7 @@ export async function GET(request: NextRequest) {
     }
 
     // Get user's invitations
-    const userEmail = session.user.email || 'john.doe@example.com';
+    const userEmail = user.email || 'john.doe@example.com';
     const userInvitations = await invitationService.getUserInvitations(userEmail);
 
     return NextResponse.json({
@@ -343,8 +343,8 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const userId = session.user.id || 'user_1';
-    const userName = session.user.name || 'Current User';
+    const userId = user.id || 'user_1';
+    const userName = user.name || 'Current User';
 
     // Check if batch invitation
     if (data.invitations && Array.isArray(data.invitations)) {
@@ -433,7 +433,7 @@ export async function PUT(request: NextRequest) {
       );
     }
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
     let success = false;
     let message = '';
 

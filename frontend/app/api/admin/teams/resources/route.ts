@@ -545,8 +545,8 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const userId = session.user.id || 'user_1';
-    const userName = session.user.name || 'Current User';
+    const userId = user.id || 'user_1';
+    const userName = user.name || 'Current User';
 
     // Create folder
     if (data.type === 'folder') {
@@ -600,7 +600,7 @@ export async function PUT(request: NextRequest) {
       );
     }
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
     const updatedResource = await resourceService.updateResource(
       resourceId,
       userId,
@@ -653,7 +653,7 @@ export async function DELETE(request: NextRequest) {
       );
     }
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
     const success = await resourceService.deleteResource(resourceId, userId);
 
     if (!success) {

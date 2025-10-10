@@ -145,7 +145,7 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
     const settings = securitySettings.get(userId);
 
     if (!settings) {
@@ -202,7 +202,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
     const settings = securitySettings.get(userId) || {
       twoFactorEnabled: false,
       twoFactorMethod: 'authenticator',
@@ -251,7 +251,7 @@ export async function DELETE(request: NextRequest) {
     const action = searchParams.get('action');
 
     if (action === '2fa') {
-      const userId = session.user.id || 'user_1';
+      const userId = user.id || 'user_1';
       const settings = securitySettings.get(userId);
 
       if (!settings) {
@@ -293,7 +293,7 @@ export async function PUT(request: NextRequest) {
     }
 
     const { sessionId, revokeAll } = await request.json();
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
     const settings = securitySettings.get(userId);
 
     if (!settings) {
@@ -377,7 +377,7 @@ export async function PATCH(request: NextRequest) {
       );
     }
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
     const settings = securitySettings.get(userId);
 
     if (settings) {

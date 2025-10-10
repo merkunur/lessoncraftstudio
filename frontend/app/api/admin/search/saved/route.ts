@@ -94,7 +94,7 @@ export async function GET(request: NextRequest) {
 
     // Get user's saved searches
     let userSearches = savedSearches.filter(
-      s => s.userId === session.user.id || (includePublic && s.isPublic)
+      s => s.userId === user.id || (includePublic && s.isPublic)
     );
 
     // Sort searches
@@ -153,7 +153,7 @@ export async function POST(request: NextRequest) {
     // Create new saved search
     const newSearch: SavedSearch = {
       id: String(savedSearches.length + 1),
-      userId: session.user.id || 'user_1',
+      userId: user.id || 'user_1',
       name: data.name,
       query: data.query,
       filters: data.filters || [],
@@ -199,7 +199,7 @@ export async function PUT(request: NextRequest) {
 
     // Find and update search
     const searchIndex = savedSearches.findIndex(
-      s => s.id === id && s.userId === session.user.id
+      s => s.id === id && s.userId === user.id
     );
 
     if (searchIndex === -1) {
@@ -252,7 +252,7 @@ export async function DELETE(request: NextRequest) {
 
     // Find search index
     const searchIndex = savedSearches.findIndex(
-      s => s.id === id && s.userId === session.user.id
+      s => s.id === id && s.userId === user.id
     );
 
     if (searchIndex === -1) {

@@ -367,7 +367,7 @@ export async function POST(request: NextRequest) {
     }
 
     // Check permissions to create roles
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
     if (!permissionService.hasPermission(data.teamId, userId, 'members', 'roles')) {
       return NextResponse.json(
         { error: 'Insufficient permissions to create roles' },
@@ -414,7 +414,7 @@ export async function PUT(request: NextRequest) {
     }
 
     // Check permissions to assign roles
-    const assignerId = session.user.id || 'user_1';
+    const assignerId = user.id || 'user_1';
     if (!permissionService.hasPermission(data.teamId, assignerId, 'members', 'roles')) {
       return NextResponse.json(
         { error: 'Insufficient permissions to assign roles' },
@@ -463,7 +463,7 @@ export async function DELETE(request: NextRequest) {
     }
 
     // Check permissions to delete roles
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
     if (!permissionService.hasPermission(teamId, userId, 'members', 'roles')) {
       return NextResponse.json(
         { error: 'Insufficient permissions to delete roles' },

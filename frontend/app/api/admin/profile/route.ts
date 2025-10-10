@@ -116,7 +116,7 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
     const profile = profiles.get(userId);
 
     if (!profile) {
@@ -141,7 +141,7 @@ export async function PUT(request: NextRequest) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
     const profile = profiles.get(userId);
 
     if (!profile) {
@@ -211,7 +211,7 @@ export async function DELETE(request: NextRequest) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
     const profile = profiles.get(userId);
 
     if (!profile) {

@@ -370,7 +370,7 @@ export async function GET(request: NextRequest) {
     const teamId = searchParams.get('teamId');
     const includeStats = searchParams.get('includeStats') === 'true';
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
 
     if (teamId) {
       const team = await teamService.getTeam(teamId, userId);
@@ -441,7 +441,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
     const newTeam = await teamService.createTeam(userId, data);
 
     return NextResponse.json({
@@ -475,7 +475,7 @@ export async function PUT(request: NextRequest) {
       );
     }
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
     const updatedTeam = await teamService.updateTeam(teamId, userId, updates);
 
     if (!updatedTeam) {
@@ -524,7 +524,7 @@ export async function DELETE(request: NextRequest) {
       );
     }
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
     const success = await teamService.deleteTeam(teamId, userId);
 
     if (!success) {

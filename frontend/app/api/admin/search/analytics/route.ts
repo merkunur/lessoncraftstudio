@@ -357,7 +357,7 @@ export async function POST(request: NextRequest) {
     if (data.action === 'search') {
       analyticsService.logSearch(
         data.query,
-        session.user.id || 'anonymous',
+        user.id || 'anonymous',
         data.resultCount,
         data.searchTime || 0,
         data.filters,

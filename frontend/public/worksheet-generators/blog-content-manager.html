@@ -1184,10 +1184,9 @@
             const token = getAuthToken();
 
             if (!token) {
-                alert('Please log in to use this manager');
-                // Redirect to login if no token
-                window.location.href = '/auth/signin?redirect=' + encodeURIComponent(window.location.pathname);
-                throw new Error('No auth token');
+                console.error('❌ No auth token - cannot make authenticated request to:', url);
+                showMessage('⚠️ Please log in to access this feature. Go to: /en/auth/signin', 'error');
+                throw new Error('No auth token - please log in');
             }
 
             return fetch(url, {
@@ -1570,16 +1569,17 @@
             // Check authentication state
             const token = getAuthToken();
             console.log('🔑 Auth token present:', !!token);
+
             if (!token) {
                 console.error('❌ No auth token found in localStorage');
-                showMessage('⚠️ You are not logged in. Redirecting to login page...', 'error');
-                setTimeout(() => {
-                    window.location.href = '/en/auth/signin?redirect=' + encodeURIComponent(window.location.pathname);
-                }, 2000);
-                return;
+                console.error('Please log in at: /en/auth/signin');
+                // Don't block page load - let it show the UI so user can see error messages
+                // The API calls will fail with proper error messages
+            } else {
+                console.log('✅ Auth token found');
             }
 
-            console.log('✅ Auth token found, loading data...');
+            // Always initialize - errors will be shown via showMessage()
             loadCategories();
             loadPosts();
             setupEventListeners();

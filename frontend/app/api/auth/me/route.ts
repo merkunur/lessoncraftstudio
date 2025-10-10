@@ -49,7 +49,7 @@ export async function GET(request: NextRequest) {
       return NextResponse.json(
         {
           error: 'Account suspended',
-          reason: user.suspendedReason || 'Please contact support for more information',
+          reason: 'Please contact support for more information',
         },
         { status: 403 }
       );
@@ -106,7 +106,6 @@ export async function GET(request: NextRequest) {
         isAdmin: user.isAdmin,
         createdAt: user.createdAt,
         lastLoginAt: user.lastLoginAt,
-        avatar: user.avatar,
       },
       subscription: user.subscription ? {
         id: user.subscription.id,
@@ -159,7 +158,7 @@ export async function PATCH(request: NextRequest) {
     const body = await request.json();
 
     // Only allow updating certain fields
-    const allowedFields = ['firstName', 'lastName', 'language', 'newsletter', 'avatar'];
+    const allowedFields = ['firstName', 'lastName', 'language', 'newsletter'];
     const updateData: any = {};
 
     for (const field of allowedFields) {
@@ -208,7 +207,6 @@ export async function PATCH(request: NextRequest) {
         newsletter: updatedUser.newsletter,
         subscriptionTier: updatedUser.subscriptionTier,
         isAdmin: updatedUser.isAdmin,
-        avatar: updatedUser.avatar,
       },
     });
 

@@ -586,6 +586,32 @@
     <script>
         // Use current origin so it works on both local and production
         const API_URL = window.location.origin;
+
+        // Get authentication token from localStorage
+        function getAuthToken() {
+            return localStorage.getItem('accessToken') || '';
+        }
+
+        // Helper function to make authenticated requests
+        async function authenticatedFetch(url, options = {}) {
+            const token = getAuthToken();
+
+            if (!token) {
+                showToast('Please log in to use this manager', 'error');
+                // Redirect to login if no token
+                window.location.href = '/auth/signin?redirect=' + encodeURIComponent(window.location.pathname);
+                throw new Error('No auth token');
+            }
+
+            return fetch(url, {
+                ...options,
+                headers: {
+                    ...options.headers,
+                    'Authorization': `Bearer ${token}`,
+                },
+            });
+        }
+
         const languages = [
             { code: 'de', name: 'German', flag: '🇩🇪' },
             { code: 'fr', name: 'French', flag: '🇫🇷' },
@@ -966,10 +992,78 @@
             document.getElementById('themeModal').classList.remove('active');
         }
 
-        function saveImage() {
-            // Implementation for saving image
-            closeModal();
-            showToast('Image saved - click Save All to apply', 'success');
+        async function saveImage() {
+            const fileInput = document.getElementById('imageFileInput');
+            const file = fileInput.files[0];
+
+            if (!file) {
+                showToast('Please select an image file', 'error');
+                return;
+            }
+
+            if (!currentTheme) {
+                showToast('Please select a theme first', 'error');
+                return;
+            }
+
+            // Get display name and translations
+            const displayName = document.getElementById('imageDisplayName').value;
+            const translations = {};
+
+            languages.forEach(lang => {
+                const input = document.getElementById(`trans_${lang.code}`);
+                if (input && input.value) {
+                    translations[lang.code] = input.value;
+                }
+            });
+
+            // If no English translation, use display name
+            if (!translations.en && displayName) {
+                translations.en = displayName;
+            }
+
+            // Create FormData
+            const formData = new FormData();
+            formData.append('themeId', currentTheme);
+            formData.append('files', file);
+
+            // Add translations as JSON
+            const translationsObj = {};
+            translationsObj[file.name] = translations;
+            formData.append('translations', JSON.stringify(translationsObj));
+
+            try {
+                showToast('Uploading...', 'success');
+
+                const response = await authenticatedFetch(`${API_URL}/api/admin/images/upload`, {
+                    method: 'POST',
+                    body: formData,
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    showToast('Image uploaded successfully!', 'success');
+                    closeModal();
+
+                    // Reset form
+                    fileInput.value = '';
+                    document.getElementById('fileName').textContent = '';
+                    document.getElementById('imageDisplayName').value = '';
+                    languages.forEach(lang => {
+                        const input = document.getElementById(`trans_${lang.code}`);
+                        if (input) input.value = '';
+                    });
+
+                    // Reload content to show new image
+                    loadContent(currentType);
+                } else {
+                    showToast(data.error || 'Error uploading image', 'error');
+                }
+            } catch (error) {
+                console.error('Upload error:', error);
+                showToast('Error uploading image', 'error');
+            }
         }
 
         function saveTheme() {

@@ -42,6 +42,7 @@
     "next-auth": "^5.0.0-beta.29",
     "next-intl": "^4.3.6",
     "nodemailer": "^6.10.1",
+    "pg": "^8.13.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hot-toast": "^2.6.0",

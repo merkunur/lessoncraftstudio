@@ -5,7 +5,7 @@ export const dynamic = 'force-dynamic';
 import { useState, useEffect, useRef } from 'react';
 import { useParams, useRouter } from 'next/navigation';
 import AdminLayout from '@/components/admin/admin-layout';
-import dynamic from 'next/dynamic';
+import dynamicImport from 'next/dynamic';
 import {
   ArrowLeft,
   Save,
@@ -34,7 +34,7 @@ import Link from 'next/link';
 import { toast } from 'react-hot-toast';
 
 // Dynamic import for rich text editor to avoid SSR issues
-const RichTextEditor = dynamic(
+const RichTextEditor = dynamicImport(
   () => import('@/components/admin/rich-text-editor'),
   { ssr: false }
 );

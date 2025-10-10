@@ -26,10 +26,10 @@ import {
 } from 'lucide-react';
 import Link from 'next/link';
 import { toast } from 'react-hot-toast';
-import dynamic from 'next/dynamic';
+import dynamicImport from 'next/dynamic';
 
 // Dynamic import for chart components to avoid SSR issues
-// const Chart = dynamic(() => import('@/components/admin/chart'), { ssr: false });
+// const Chart = dynamicImport(() => import('@/components/admin/chart'), { ssr: false });
 
 interface AnalyticsOverview {
   revenue: {

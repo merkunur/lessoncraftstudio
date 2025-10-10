@@ -1,8 +1,8 @@
+export const dynamic = 'force-dynamic';
+
 import { NextRequest, NextResponse } from 'next/server';
 import { requireAdmin } from '@/lib/admin-auth';
 import {
-
-export const dynamic = 'force-dynamic';
   validateImageFile,
   generateUniqueFilename,
   saveFile,

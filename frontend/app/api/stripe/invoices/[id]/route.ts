@@ -79,19 +79,19 @@ export async function GET(
         : null,
 
       // Subscription info
-      subscription: invoice.subscription && typeof invoice.subscription !== 'string'
+      subscription: (invoice as any).subscription && typeof (invoice as any).subscription !== 'string'
         ? {
-            id: invoice.subscription.id,
-            status: invoice.subscription.status,
+            id: (invoice as any).subscription.id,
+            status: (invoice as any).subscription.status,
           }
         : null,
 
       // Payment method
-      paymentIntent: invoice.payment_intent && typeof invoice.payment_intent !== 'string'
+      paymentIntent: (invoice as any).payment_intent && typeof (invoice as any).payment_intent !== 'string'
         ? {
-            id: invoice.payment_intent.id,
-            status: invoice.payment_intent.status,
-            paymentMethod: invoice.payment_intent.payment_method,
+            id: (invoice as any).payment_intent.id,
+            status: (invoice as any).payment_intent.status,
+            paymentMethod: (invoice as any).payment_intent.payment_method,
           }
         : null,
 

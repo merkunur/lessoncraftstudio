@@ -143,7 +143,7 @@ export async function POST(request: NextRequest) {
         tax: taxAmount,
         subtotal,
         currency: upcomingInvoice.currency,
-        nextBillingDate: new Date(stripeSubscription.current_period_end * 1000),
+        nextBillingDate: new Date((stripeSubscription as any).current_period_end * 1000),
         prorationDate: new Date(),
       },
       description: getChangeDescription(changeType, currentTier, newTier, currentBillingInterval, targetBillingInterval),

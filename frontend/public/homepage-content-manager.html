@@ -6,6 +6,8 @@
     <title>Homepage Content Manager v3 - Fixed</title>
     <!-- Sortable.js for drag-and-drop -->
     <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+    <!-- Dashboard Apps Data - for initializing samples -->
+    <script src="/dashboard-apps-data.js"></script>
     <style>
         * {
             margin: 0;
@@ -827,6 +829,30 @@
                     console.log('Has samplesSection?', homepageContent.samplesSection ? 'YES' : 'NO');
                     console.log('Hero title.en:', homepageContent.hero?.title?.en);
                     console.log('Full hero:', homepageContent.hero);
+
+                    // INITIALIZE SAMPLES WITH DASHBOARD APPS IF EMPTY
+                    if (!homepageContent.samples || homepageContent.samples.length === 0) {
+                        console.log('📝 Samples is empty, initializing with dashboard apps data...');
+                        if (window.DASHBOARD_APPS_DATA) {
+                            homepageContent.samples = window.DASHBOARD_APPS_DATA.map((app, index) => ({
+                                id: app.id,
+                                sort_order: index,
+                                category: app.category.toLowerCase(),
+                                difficulty: app.difficulty,
+                                featured: app.tier === 'free' || index < 6,
+                                image_url: app.url.replace('.html', '.png'),
+                                name: app.name,
+                                description: app.description,
+                                age_range: app.age_range
+                            }));
+                            console.log('✅ Initialized samples with', homepageContent.samples.length, 'dashboard apps');
+                        } else {
+                            console.warn('⚠️ DASHBOARD_APPS_DATA not found!');
+                        }
+                    } else {
+                        console.log('✅ Samples already has', homepageContent.samples.length, 'items');
+                    }
+
                     renderAllSections();
                     showMessage('Content loaded successfully', 'success');
                 } else {

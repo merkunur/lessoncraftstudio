@@ -24,13 +24,13 @@ export function generateTokens(user: User) {
   };
 
   const accessToken = jwt.sign(payload, JWT_SECRET, {
-    expiresIn: process.env.SESSION_EXPIRY || '7d',
+    expiresIn: (process.env.SESSION_EXPIRY || '7d') as string,
   });
 
   const refreshToken = jwt.sign(
     { userId: user.id },
     JWT_REFRESH_SECRET,
-    { expiresIn: process.env.REFRESH_TOKEN_EXPIRY || '30d' }
+    { expiresIn: (process.env.REFRESH_TOKEN_EXPIRY || '30d') as string }
   );
 
   return { accessToken, refreshToken };

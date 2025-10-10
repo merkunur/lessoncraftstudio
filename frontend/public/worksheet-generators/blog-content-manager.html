@@ -1284,11 +1284,8 @@
                 formData.append('image', file);
                 formData.append('type', 'featured');
 
-                const response = await fetch('/api/admin/blog/upload-image', {
+                const response = await authenticatedFetch('/api/admin/blog/upload-image', {
                     method: 'POST',
-                    headers: {
-                        'Authorization': 'Bearer dev-bypass'
-                    },
                     body: formData
                 });
 

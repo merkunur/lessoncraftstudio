@@ -23,15 +23,16 @@ export function generateTokens(user: User) {
     isAdmin: user.isAdmin,
   };
 
-  const accessToken = jwt.sign(payload, JWT_SECRET, {
-    expiresIn: (process.env.SESSION_EXPIRY || '7d') as string,
-  });
+  const accessTokenOptions: jwt.SignOptions = {
+    expiresIn: process.env.SESSION_EXPIRY || '7d',
+  };
 
-  const refreshToken = jwt.sign(
-    { userId: user.id },
-    JWT_REFRESH_SECRET,
-    { expiresIn: (process.env.REFRESH_TOKEN_EXPIRY || '30d') as string }
-  );
+  const refreshTokenOptions: jwt.SignOptions = {
+    expiresIn: process.env.REFRESH_TOKEN_EXPIRY || '30d',
+  };
+
+  const accessToken = jwt.sign(payload, JWT_SECRET, accessTokenOptions);
+  const refreshToken = jwt.sign({ userId: user.id }, JWT_REFRESH_SECRET, refreshTokenOptions);
 
   return { accessToken, refreshToken };
 }

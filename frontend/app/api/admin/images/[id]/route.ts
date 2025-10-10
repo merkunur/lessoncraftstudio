@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { requireAdmin } from '@/lib/admin-auth';
+import { unlink } from 'fs/promises';
 
 // GET /api/admin/images/:id - Get single image
 export async function GET(
@@ -95,7 +96,7 @@ export async function DELETE(
 
     // Delete file from disk
     try {
-      await deleteFile(image.filePath);
+      await unlink(image.filePath);
     } catch (error) {
       console.warn('Failed to delete file from disk:', error);
       // Continue with database deletion even if file deletion fails

@@ -1,12 +1,12 @@
+export const dynamic = 'force-dynamic';
+
 import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
-import { 
-
-export const dynamic = 'force-dynamic';
-  getSubscriptionStatus, 
-  cancelSubscription, 
+import {
+  getSubscriptionStatus,
+  cancelSubscription,
   reactivateSubscription,
-  updateSubscription 
+  updateSubscription
 } from '@/lib/stripe-server';
 import { SUBSCRIPTION_TIERS } from '@/lib/stripe-config';
 import { prisma } from '@/lib/prisma';

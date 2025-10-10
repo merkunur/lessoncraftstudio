@@ -139,17 +139,17 @@ export async function DELETE(request: NextRequest) {
       data: {
         userId: user.id,
         action: 'subscription_cancel_requested',
-        details: `Subscription cancellation requested, ends at ${new Date(cancelledSubscription.current_period_end * 1000).toISOString()}`,
+        details: `Subscription cancellation requested, ends at ${new Date((cancelledSubscription as any).current_period_end * 1000).toISOString()}`,
         metadata: {
           subscriptionId: subscription.id,
-          cancelAtPeriodEnd: cancelledSubscription.current_period_end,
+          cancelAtPeriodEnd: (cancelledSubscription as any).current_period_end,
         },
       },
     });
 
     return NextResponse.json({
       message: 'Subscription will be cancelled at the end of the billing period',
-      cancelAt: new Date(cancelledSubscription.current_period_end * 1000),
+      cancelAt: new Date((cancelledSubscription as any).current_period_end * 1000),
     });
   } catch (error) {
     console.error('Cancel subscription error:', error);

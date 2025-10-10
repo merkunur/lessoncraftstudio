@@ -3,7 +3,7 @@ import { withAdminAuth } from '@/lib/admin-auth';
 import { prisma } from '@/lib/prisma';
 
 // GET /api/admin/users/export - Export users to CSV
-export const GET = withAdminAuth(async (request: NextRequest) => {
+export const GET = withAdminAuth(async (request: NextRequest, adminUser: any) => {
   try {
     const searchParams = request.nextUrl.searchParams;
     const format = searchParams.get('format') || 'csv';
@@ -20,12 +20,10 @@ export const GET = withAdminAuth(async (request: NextRequest) => {
     if (status) {
       if (status === 'active') {
         where.emailVerified = true;
-        where.deletedAt = null;
       } else if (status === 'unverified') {
         where.emailVerified = false;
-      } else if (status === 'deleted') {
-        where.deletedAt = { not: null };
       }
+      // Note: 'deleted' status not supported - User model has no deletedAt field
     }
 
     // Get all users
@@ -88,9 +86,10 @@ export const GET = withAdminAuth(async (request: NextRequest) => {
       // Log export action
       await prisma.activityLog.create({
         data: {
-          userId: null, // System action
+          userId: adminUser.id,
           action: 'users_exported',
-          details: {
+          details: `Exported ${users.length} users as ${format}`,
+          metadata: {
             format,
             count: users.length,
             filters: { tier, status },

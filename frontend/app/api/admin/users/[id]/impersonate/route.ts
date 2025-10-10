@@ -57,7 +57,8 @@ export const POST = withAdminAuth(async (request: NextRequest, adminUser: any, c
       data: {
         userId: adminUser.id,
         action: 'user_impersonation_started',
-        details: {
+        details: `Impersonated user ${user.email}`,
+        metadata: {
           impersonatedUserId: user.id,
           impersonatedEmail: user.email,
           adminId: adminUser.id,
@@ -71,7 +72,8 @@ export const POST = withAdminAuth(async (request: NextRequest, adminUser: any, c
       data: {
         userId: user.id,
         action: 'account_impersonated',
-        details: {
+        details: `Account impersonated by admin ${adminUser.email}`,
+        metadata: {
           impersonatedBy: adminUser.email,
           adminId: adminUser.id,
         },

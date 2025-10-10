@@ -214,7 +214,7 @@ export async function GET(request: NextRequest) {
       ],
       budgetStatus: [
         {
-          budget: 'Page Weight Budget',
+          name: 'Page Weight Budget',
           metric: 'Total Page Size',
           current: 2345678,
           budget: 2000000,
@@ -223,7 +223,7 @@ export async function GET(request: NextRequest) {
           percentageUsed: 117.3
         },
         {
-          budget: 'JavaScript Budget',
+          name: 'JavaScript Budget',
           metric: 'JS Bundle Size',
           current: 456789,
           budget: 500000,
@@ -232,7 +232,7 @@ export async function GET(request: NextRequest) {
           percentageUsed: 91.4
         },
         {
-          budget: 'LCP Budget',
+          name: 'LCP Budget',
           metric: 'LCP',
           current: 2400,
           budget: 2500,
@@ -241,7 +241,7 @@ export async function GET(request: NextRequest) {
           percentageUsed: 96
         },
         {
-          budget: 'FID Budget',
+          name: 'FID Budget',
           metric: 'FID',
           current: 45,
           budget: 100,

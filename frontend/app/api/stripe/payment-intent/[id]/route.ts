@@ -35,8 +35,8 @@ export async function GET(
     // Get invoice if available
     let invoiceUrl;
     let receiptUrl;
-    if (paymentIntent.invoice) {
-      const invoice = await stripe.invoices.retrieve(paymentIntent.invoice as string);
+    if ((paymentIntent as any).invoice) {
+      const invoice = await stripe.invoices.retrieve((paymentIntent as any).invoice as string);
       invoiceUrl = invoice.hosted_invoice_url;
       receiptUrl = invoice.invoice_pdf;
     }

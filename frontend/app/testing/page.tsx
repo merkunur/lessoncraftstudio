@@ -590,7 +590,7 @@ export default function TestingDashboard() {
                     <div className="p-4">
                       <div className="flex items-center justify-between mb-2">
                         <p className="font-medium">{test.name}</p>
-                        {getStatusIcon(test.status)}
+                        {getStatusIcon(test.status as TestStatus)}
                       </div>
                       <p className="text-sm text-gray-500">
                         Difference: {test.difference?.toFixed(2)}%

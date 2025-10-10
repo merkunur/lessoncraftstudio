@@ -1296,6 +1296,12 @@
                     // Update hidden input
                     document.getElementById('postFeaturedImage').value = imagePath;
 
+                    // 🔄 SYNC FIX: Update currentPost object immediately
+                    if (currentPost) {
+                        currentPost.featuredImage = imagePath;
+                        console.log('✅ currentPost.featuredImage synced:', imagePath);
+                    }
+
                     // Show preview
                     document.getElementById('featuredImagePlaceholder').style.display = 'none';
                     document.getElementById('featuredImagePreview').style.display = 'block';
@@ -1338,11 +1344,7 @@
 
         async function loadCategoriesFromAPI() {
             try {
-                const response = await fetch('/api/admin/blog/categories', {
-                    headers: {
-                        'Authorization': 'Bearer dev-bypass'
-                    }
-                });
+                const response = await authenticatedFetch('/api/admin/blog/categories', {});
                 if (response.ok) {
                     const data = await response.json();
                     // Transform to simple format for dropdown (using English labels)
@@ -1422,11 +1424,10 @@
             };
 
             try {
-                const response = await fetch('/api/admin/blog/categories', {
+                const response = await authenticatedFetch('/api/admin/blog/categories', {
                     method: 'POST',
                     headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer dev-bypass'
+                        'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({ id, translations })
                 });
@@ -1452,11 +1453,7 @@
         async function editCategory(id) {
             try {
                 // Fetch category with all translations from API
-                const response = await fetch('/api/admin/blog/categories', {
-                    headers: {
-                        'Authorization': 'Bearer dev-bypass'
-                    }
-                });
+                const response = await authenticatedFetch('/api/admin/blog/categories', {});
 
                 if (!response.ok) {
                     throw new Error('Failed to fetch categories');
@@ -1519,11 +1516,10 @@
             }
 
             try {
-                const response = await fetch('/api/admin/blog/categories', {
+                const response = await authenticatedFetch('/api/admin/blog/categories', {
                     method: 'PUT',
                     headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer dev-bypass'
+                        'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({ id, translations })
                 });
@@ -1549,11 +1545,8 @@
             }
 
             try {
-                const response = await fetch(`/api/admin/blog/categories?id=${id}`, {
-                    method: 'DELETE',
-                    headers: {
-                        'Authorization': 'Bearer dev-bypass'
-                    }
+                const response = await authenticatedFetch(`/api/admin/blog/categories?id=${id}`, {
+                    method: 'DELETE'
                 });
 
                 if (response.ok) {
@@ -1685,6 +1678,56 @@
             loadPostForEditing();
         }
 
+        // 🔄 SYNC FIX: Reload current post from database (used after saving)
+        async function reloadCurrentPost() {
+            if (!currentPost || !currentPost.slug) {
+                console.warn('⚠️ Cannot reload: no currentPost');
+                return;
+            }
+
+            try {
+                const response = await authenticatedFetch(`/api/admin/blog/posts/${currentPost.slug}`, {});
+                if (response.ok) {
+                    const data = await response.json();
+                    const post = data.post;
+                    const oldSlug = currentPost.slug;
+                    currentPost = post; // Update currentPost with fresh data from database
+                    console.log('✅ Current post reloaded from database:', currentPost.slug);
+
+                    // Update form fields with fresh database values for current language
+                    const translation = post.translations[currentLanguage] || post.translations['en'] || {};
+
+                    document.getElementById('postTitle').value = translation.title || '';
+                    document.getElementById('postSlug').value = post.slug || '';
+                    document.getElementById('postMetaTitle').value = translation.metaTitle || translation.title || '';
+                    document.getElementById('postMetaDescription').value = translation.metaDescription || translation.excerpt || '';
+                    document.getElementById('postFocusKeyword').value = translation.focusKeyword || '';
+                    document.getElementById('postKeywords').value = (post.keywords || []).join(', ');
+                    document.getElementById('postFeaturedImage').value = post.featuredImage || '';
+                    document.getElementById('postCategory').value = post.category || 'teaching-resources';
+                    document.getElementById('postPdfSectionTitle').value = translation.pdfSectionTitle || 'Free Sample Worksheets';
+                    document.getElementById('postPdfSectionDescription').value = translation.pdfSectionDescription || 'Premium educational resources designed by experts to accelerate learning and inspire students';
+
+                    // Update featured image preview
+                    if (post.featuredImage) {
+                        document.getElementById('featuredImagePlaceholder').style.display = 'none';
+                        document.getElementById('featuredImagePreview').style.display = 'block';
+                        document.getElementById('featuredImagePreviewImg').src = post.featuredImage;
+                        document.getElementById('featuredImageName').textContent = post.featuredImage.split('/').pop();
+                    } else {
+                        document.getElementById('featuredImagePlaceholder').style.display = 'block';
+                        document.getElementById('featuredImagePreview').style.display = 'none';
+                    }
+
+                    updateCurrentPostIndicator();
+                } else {
+                    console.error('❌ Failed to reload post from database');
+                }
+            } catch (error) {
+                console.error('❌ Error reloading current post:', error);
+            }
+        }
+
         // Load post for editing
         async function loadPostForEditing() {
             const slug = document.getElementById('editorPostSelect').value;
@@ -1700,11 +1743,7 @@
 
             // Load post from admin API
             try {
-                const response = await fetch(`/api/admin/blog/posts/${slug}`, {
-                    headers: {
-                        'Authorization': 'Bearer dev-bypass'
-                    }
-                });
+                const response = await authenticatedFetch(`/api/admin/blog/posts/${slug}`, {});
                 if (response.ok) {
                     const data = await response.json();
                     const post = data.post;
@@ -1770,11 +1809,7 @@
         // Load PDFs for current post
         async function loadPostPDFs(slug) {
             try {
-                const response = await fetch(`/api/admin/blog/posts/${slug}/pdfs`, {
-                    headers: {
-                        'Authorization': 'Bearer dev-bypass'
-                    }
-                });
+                const response = await authenticatedFetch(`/api/admin/blog/posts/${slug}/pdfs`, {});
                 if (response.ok) {
                     const data = await response.json();
                     currentPDFs = data.pdfs.map(pdf => ({
@@ -2030,11 +2065,10 @@
 
                 const method = currentPost ? 'PUT' : 'POST';
 
-                const response = await fetch(url, {
+                const response = await authenticatedFetch(url, {
                     method: method,
                     headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer dev-bypass'
+                        'Content-Type': 'application/json'
                     },
                     body: JSON.stringify(formData)
                 });
@@ -2047,8 +2081,10 @@
                     console.log('✅ Featured Image saved:', currentPost.featuredImage);
                     updateCurrentPostIndicator();
                     showMessage(`Blog post saved successfully for language: ${currentLanguage.toUpperCase()}!`, 'success');
-                    // Reload posts list
+
+                    // 🔄 SYNC FIX: Reload both list AND current post to ensure UI matches database
                     await loadPosts();
+                    await reloadCurrentPost();
                 } else {
                     const errorData = await response.json();
                     throw new Error(errorData.error || 'Failed to save post');
@@ -2077,11 +2113,7 @@
                 showMessage('📡 Fetching blog post data from database...', 'info');
 
                 // Fetch the complete post with all translations from the database
-                const response = await fetch(`/api/admin/blog/posts/${slug}`, {
-                    headers: {
-                        'Authorization': 'Bearer dev-bypass'
-                    }
-                });
+                const response = await authenticatedFetch(`/api/admin/blog/posts/${slug}`, {});
 
                 if (!response.ok) {
                     throw new Error('Failed to fetch blog post data');
@@ -2113,11 +2145,10 @@
                 showMessage('🚀 Publishing to static HTML files...', 'info');
 
                 // Call the publish API
-                const publishResponse = await fetch('/api/blog/publish', {
+                const publishResponse = await authenticatedFetch('/api/blog/publish', {
                     method: 'POST',
                     headers: {
-                        'Content-Type': 'application/json',
-                        'Authorization': 'Bearer dev-bypass'
+                        'Content-Type': 'application/json'
                     },
                     body: JSON.stringify({
                         slug: slug,

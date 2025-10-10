@@ -1,5 +1,7 @@
-import {
+import type {
   Notification,
+} from '@/types/notifications';
+import {
   NotificationType,
   NotificationCategory,
   NotificationPriority,

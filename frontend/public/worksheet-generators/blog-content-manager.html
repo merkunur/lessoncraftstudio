@@ -1565,6 +1565,21 @@
 
         // Initialize
         document.addEventListener('DOMContentLoaded', function() {
+            console.log('🔧 Blog Manager Initializing...');
+
+            // Check authentication state
+            const token = getAuthToken();
+            console.log('🔑 Auth token present:', !!token);
+            if (!token) {
+                console.error('❌ No auth token found in localStorage');
+                showMessage('⚠️ You are not logged in. Redirecting to login page...', 'error');
+                setTimeout(() => {
+                    window.location.href = '/en/auth/signin?redirect=' + encodeURIComponent(window.location.pathname);
+                }, 2000);
+                return;
+            }
+
+            console.log('✅ Auth token found, loading data...');
             loadCategories();
             loadPosts();
             setupEventListeners();
@@ -1603,21 +1618,28 @@
         // Load blog posts
         async function loadPosts() {
             try {
+                console.log('📥 Loading posts from admin API...');
                 // 🔧 FIX: Use ADMIN API with authentication to load all posts (including drafts)
                 const response = await authenticatedFetch('/api/admin/blog/posts', {});
+                console.log('📡 API Response status:', response.status);
+
                 if (response.ok) {
                     const data = await response.json();
                     posts = data.posts || [];
                     console.log('✅ Loaded posts from admin API:', posts.length);
+                    console.log('Posts data:', posts);
                     displayPosts();
                 } else {
-                    throw new Error(`Failed to load posts: ${response.status}`);
+                    const errorData = await response.json().catch(() => ({ error: 'Unknown error' }));
+                    console.error('❌ API returned error:', response.status, errorData);
+                    throw new Error(`Failed to load posts: ${response.status} - ${errorData.error || 'Unknown error'}`);
                 }
             } catch (error) {
-                console.error('Error loading posts:', error);
+                console.error('❌ Error loading posts:', error);
+                console.error('Error details:', error.message);
                 posts = [];
                 displayPosts();
-                showMessage('Failed to load blog posts. Make sure you are logged in as admin.', 'error');
+                showMessage(`Failed to load blog posts: ${error.message}`, 'error');
             }
         }
 

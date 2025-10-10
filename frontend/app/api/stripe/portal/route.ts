@@ -47,7 +47,8 @@ export async function POST(request: NextRequest) {
       data: {
         userId: user.id,
         action: 'billing_portal_accessed',
-        details: {
+        details: 'User accessed billing portal',
+        metadata: {
           sessionId: session.id,
         },
       },

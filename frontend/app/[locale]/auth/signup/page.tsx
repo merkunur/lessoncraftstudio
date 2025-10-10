@@ -2,12 +2,12 @@
 
 export const dynamic = 'force-dynamic';
 
-import { useState } from 'react';
+import { useState , Suspense} from 'react';
 import { useRouter, useSearchParams, useParams } from 'next/navigation';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 
-export default function SignUpPage() {
+function SignUpPageContent() {
   const [formData, setFormData] = useState({
     email: '',
     password: '',
@@ -298,5 +298,17 @@ export default function SignUpPage() {
         </form>
       </div>
     </div>
+  );
+}
+
+export default function SignUpPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900"></div>
+      </div>
+    }>
+      <SignUpPageContent />
+    </Suspense>
   );
 }

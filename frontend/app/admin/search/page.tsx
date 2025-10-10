@@ -2,7 +2,7 @@
 
 export const dynamic = 'force-dynamic';
 
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback , Suspense} from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import {
   Search,
@@ -87,7 +87,7 @@ const contentTypes = [
   { id: 'file', name: 'Files', icon: Image, color: 'text-indigo-600' }
 ];
 
-export default function GlobalSearchPage() {
+function GlobalSearchPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [query, setQuery] = useState(searchParams.get('q') || '');
@@ -905,5 +905,17 @@ export default function GlobalSearchPage() {
         <BarChart3 className="h-5 w-5" />
       </button>
     </div>
+  );
+}
+
+export default function GlobalSearchPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900"></div>
+      </div>
+    }>
+      <GlobalSearchPageContent />
+    </Suspense>
   );
 }

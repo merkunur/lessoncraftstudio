@@ -2,13 +2,13 @@
 
 export const dynamic = 'force-dynamic';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect , Suspense} from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { useAuth } from '@/contexts/auth-context';
 import { Lock, Eye, EyeOff, Loader2, Check, AlertCircle } from 'lucide-react';
 
-export default function ResetPasswordPage() {
+function ResetPasswordPageContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const { resetPassword } = useAuth();
@@ -289,5 +289,17 @@ export default function ResetPasswordPage() {
         </form>
       </div>
     </div>
+  );
+}
+
+export default function ResetPasswordPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900"></div>
+      </div>
+    }>
+      <ResetPasswordPageContent />
+    </Suspense>
   );
 }

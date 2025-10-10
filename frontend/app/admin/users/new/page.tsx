@@ -2,7 +2,7 @@
 
 export const dynamic = 'force-dynamic';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect , Suspense} from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import AdminLayout from '@/components/admin/admin-layout';
 import { useAuth } from '@/contexts/auth-context';
@@ -20,7 +20,7 @@ import {
 import Link from 'next/link';
 import { toast } from 'react-hot-toast';
 
-export default function NewUserPage() {
+function NewUserPageContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const returnTo = searchParams.get('returnTo') || '/admin/users';
@@ -421,5 +421,17 @@ export default function NewUserPage() {
         </form>
       </div>
     </AdminLayout>
+  );
+}
+
+export default function NewUserPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900"></div>
+      </div>
+    }>
+      <NewUserPageContent />
+    </Suspense>
   );
 }

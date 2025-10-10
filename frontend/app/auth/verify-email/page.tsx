@@ -2,13 +2,13 @@
 
 export const dynamic = 'force-dynamic';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState , Suspense} from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { useAuth } from '@/contexts/auth-context';
 import { CheckCircle, XCircle, Loader2, Mail } from 'lucide-react';
 import Link from 'next/link';
 
-export default function VerifyEmailPage() {
+function VerifyEmailPageContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const { verifyEmail } = useAuth();
@@ -111,5 +111,17 @@ export default function VerifyEmailPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function VerifyEmailPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900"></div>
+      </div>
+    }>
+      <VerifyEmailPageContent />
+    </Suspense>
   );
 }

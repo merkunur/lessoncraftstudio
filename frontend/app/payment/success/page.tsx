@@ -2,7 +2,7 @@
 
 export const dynamic = 'force-dynamic';
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState , Suspense} from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import { CheckCircle, Download, Loader2, Home, FileText } from 'lucide-react';
 import Link from 'next/link';
@@ -18,7 +18,7 @@ interface PaymentDetails {
   subscriptionTier?: string;
 }
 
-export default function PaymentSuccessPage() {
+function PaymentSuccessPageContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const [loading, setLoading] = useState(true);
@@ -298,5 +298,17 @@ export default function PaymentSuccessPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function PaymentSuccessPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900"></div>
+      </div>
+    }>
+      <PaymentSuccessPageContent />
+    </Suspense>
   );
 }

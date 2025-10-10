@@ -2,7 +2,7 @@
 
 export const dynamic = 'force-dynamic';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect , Suspense} from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Link from 'next/link';
 import {
@@ -38,7 +38,7 @@ interface Translation {
   exists: boolean;
 }
 
-export default function BlogEditor() {
+function BlogEditorContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const slug = searchParams.get('slug') || 'untitled';
@@ -507,5 +507,17 @@ export default function BlogEditor() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function BlogEditor() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900"></div>
+      </div>
+    }>
+      <BlogEditorContent />
+    </Suspense>
   );
 }

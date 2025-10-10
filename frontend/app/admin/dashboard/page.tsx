@@ -2,7 +2,7 @@
 
 export const dynamic = 'force-dynamic';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect , Suspense} from 'react';
 import {
   Activity,
   AlertTriangle,
@@ -52,7 +52,7 @@ import {
   generateDashboardStats
 } from '@/lib/admin-utils';
 
-export default function AdminDashboard() {
+function AdminDashboardContent() {
   const [activeTab, setActiveTab] = useState<'overview' | 'metrics' | 'users' | 'content' | 'security' | 'logs'>('overview');
   const [systemMetrics, setSystemMetrics] = useState<SystemMetrics | null>(null);
   const [notifications, setNotifications] = useState<AdminNotification[]>([]);
@@ -800,5 +800,17 @@ export default function AdminDashboard() {
         )}
       </div>
     </div>
+  );
+}
+
+export default function AdminDashboard() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900"></div>
+      </div>
+    }>
+      <AdminDashboardContent />
+    </Suspense>
   );
 }

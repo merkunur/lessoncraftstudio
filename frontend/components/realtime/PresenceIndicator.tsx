@@ -198,9 +198,9 @@ export default function PresenceIndicator({
           Active Users ({onlineUsers.length})
         </h3>
         {isConnected ? (
-          <Wifi className="w-4 h-4 text-green-500" title="Connected" />
+          <Wifi className="w-4 h-4 text-green-500" />
         ) : (
-          <WifiOff className="w-4 h-4 text-red-500" title="Disconnected" />
+          <WifiOff className="w-4 h-4 text-red-500" />
         )}
       </div>
 

@@ -24,11 +24,11 @@ export function generateTokens(user: User) {
   };
 
   const accessTokenOptions: jwt.SignOptions = {
-    expiresIn: process.env.SESSION_EXPIRY || '7d',
+    expiresIn: (process.env.SESSION_EXPIRY || '7d') as jwt.SignOptions['expiresIn'],
   };
 
   const refreshTokenOptions: jwt.SignOptions = {
-    expiresIn: process.env.REFRESH_TOKEN_EXPIRY || '30d',
+    expiresIn: (process.env.REFRESH_TOKEN_EXPIRY || '30d') as jwt.SignOptions['expiresIn'],
   };
 
   const accessToken = jwt.sign(payload, JWT_SECRET, accessTokenOptions);

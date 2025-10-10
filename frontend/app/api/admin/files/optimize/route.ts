@@ -271,7 +271,7 @@ export async function GET(request: NextRequest) {
       filesProcessed: Math.floor(Math.random() * 20),
       totalFiles: 20,
       errors: [],
-      completedAt: null
+      completedAt: null as string | null
     };
 
     if (status.status === 'completed') {

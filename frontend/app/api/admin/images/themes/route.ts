@@ -101,11 +101,12 @@ export async function POST(request: NextRequest) {
 
     return NextResponse.json({ theme }, { status: 201 });
   } catch (error) {
+    const err = error as Error;
     console.error('Failed to create theme - FULL ERROR:', error);
-    console.error('Error message:', error.message);
-    console.error('Error stack:', error.stack);
+    console.error('Error message:', err.message);
+    console.error('Error stack:', err.stack);
     return NextResponse.json(
-      { error: `Failed to create theme: ${error.message}` },
+      { error: `Failed to create theme: ${err.message}` },
       { status: 500 }
     );
   }

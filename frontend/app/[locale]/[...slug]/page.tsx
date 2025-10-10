@@ -79,8 +79,8 @@ export default async function StaticPage({ params }: PageProps) {
 export async function generateStaticParams() {
   const staticParams: { locale: string; slug: string[] }[] = [];
 
-  // Common pages
-  const commonPages = ['homepage', 'apps', 'pricing', 'contact', 'about', 'terms', 'privacy'];
+  // Common pages (exclude 'apps' - it has its own dedicated route)
+  const commonPages = ['homepage', 'pricing', 'contact', 'about', 'terms', 'privacy'];
 
   supportedLocales.forEach(locale => {
     commonPages.forEach(page => {

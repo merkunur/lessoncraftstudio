@@ -58,7 +58,6 @@ export async function logAuthEvent(
   await logAuditEvent({
     userId,
     action: `AUTH_${action}`,
-    resource: 'authentication',
     metadata,
   });
 }
@@ -74,7 +73,6 @@ export async function logPaymentEvent(
   await logAuditEvent({
     userId,
     action: `PAYMENT_${action}`,
-    resource: 'payment',
     metadata,
   });
 }

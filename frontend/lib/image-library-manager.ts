@@ -72,11 +72,25 @@ class ImageLibraryManager {
     // Load cached translations immediately for instant availability
     this.loadCachedTranslations();
 
-    // Start automatic sync - this will resolve initPromise when first sync completes
-    this.startAutoSync();
+    // Only start automatic sync in runtime (not during build)
+    // During build, Next.js pre-renders pages and we don't need live Directus sync
+    const isBuildTime = process.env.NEXT_PHASE === 'phase-production-build';
 
-    // Monitor performance
-    this.logSystemStatus();
+    if (!isBuildTime) {
+      // Start automatic sync - this will resolve initPromise when first sync completes
+      this.startAutoSync();
+
+      // Monitor performance
+      this.logSystemStatus();
+    } else {
+      // During build, immediately resolve initPromise without syncing
+      if (this.initResolver) {
+        this.isInitialized = true;
+        this.initResolver();
+        this.initResolver = null;
+        console.log('✅ ImageLibraryManager skipped sync (build mode)');
+      }
+    }
   }
   
   static getInstance(): ImageLibraryManager {

@@ -26,7 +26,7 @@ interface BaseLayoutProps {
 export const BaseLayout = ({ preview, children, language = 'en' }: BaseLayoutProps) => {
   const currentYear = new Date().getFullYear();
 
-  const footerText = {
+  const translations = {
     en: {
       copyright: `© ${currentYear} LessonCraftStudio. All rights reserved.`,
       unsubscribe: 'Unsubscribe from these emails',
@@ -95,7 +95,7 @@ export const BaseLayout = ({ preview, children, language = 'en' }: BaseLayoutPro
     },
   };
 
-  const text = footerText[language as keyof typeof footerText] || footerText.en;
+  const text = translations[language as keyof typeof translations] || translations.en;
 
   return (
     <Html>

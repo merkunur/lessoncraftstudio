@@ -37,12 +37,10 @@ export const GET = withAdminAuth(async (request: NextRequest) => {
     if (status) {
       if (status === 'active') {
         where.emailVerified = true;
-        where.deletedAt = null;
       } else if (status === 'unverified') {
         where.emailVerified = false;
-      } else if (status === 'deleted') {
-        where.deletedAt = { not: null };
       }
+      // Note: 'deleted' status not supported - User model has no deletedAt field
     }
 
     // Get total count
@@ -99,7 +97,6 @@ export const GET = withAdminAuth(async (request: NextRequest) => {
       createdAt: user.createdAt,
       lastLoginAt: user.lastLoginAt,
       paymentCount: user._count.payments,
-      avatarUrl: user.avatarUrl,
     }));
 
     return NextResponse.json({
@@ -113,13 +110,12 @@ export const GET = withAdminAuth(async (request: NextRequest) => {
       stats: {
         total: totalCount,
         byTier: tierCounts,
-        active: await prisma.user.count({ 
-          where: { 
+        active: await prisma.user.count({
+          where: {
             emailVerified: true,
-            deletedAt: null,
           },
         }),
-        unverified: await prisma.user.count({ 
+        unverified: await prisma.user.count({
           where: { emailVerified: false },
         }),
       },
@@ -218,7 +214,7 @@ export const POST = withAdminAuth(async (request: NextRequest) => {
 });
 
 // PATCH /api/admin/users - Bulk operations
-export const PATCH = withAdminAuth(async (request: NextRequest) => {
+export const PATCH = withAdminAuth(async (request: NextRequest, adminUser: any) => {
   try {
     const body = await request.json();
     const { userIds, action, data } = body;
@@ -234,20 +230,18 @@ export const PATCH = withAdminAuth(async (request: NextRequest) => {
 
     switch (action) {
       case 'delete':
-        // Soft delete users
-        result = await prisma.user.updateMany({
+        // Hard delete users (User model has no deletedAt field)
+        result = await prisma.user.deleteMany({
           where: { id: { in: userIds } },
-          data: { deletedAt: new Date() },
         });
         break;
 
       case 'restore':
-        // Restore deleted users
-        result = await prisma.user.updateMany({
-          where: { id: { in: userIds } },
-          data: { deletedAt: null },
-        });
-        break;
+        // Restore not supported (no soft delete)
+        return NextResponse.json(
+          { error: 'Restore not supported - User model has no deletedAt field' },
+          { status: 400 }
+        );
 
       case 'verify':
         // Verify emails
@@ -297,12 +291,13 @@ export const PATCH = withAdminAuth(async (request: NextRequest) => {
     // Log bulk action
     await prisma.activityLog.create({
       data: {
-        userId: userIds[0] || null, // First user or null
+        userId: adminUser.id,
         action: `bulk_${action}`,
         details: `Bulk ${action} performed on ${userIds.length} user(s)`,
         metadata: {
           userCount: userIds.length,
           userIds,
+          performedBy: adminUser.email,
           data,
         },
       },

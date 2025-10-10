@@ -288,7 +288,7 @@ export interface PerformanceRecommendation {
 }
 
 export interface BudgetStatus {
-  budget: string;
+  name: string;
   metric: string;
   current: number;
   budget: number;

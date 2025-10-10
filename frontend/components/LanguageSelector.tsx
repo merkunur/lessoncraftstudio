@@ -72,7 +72,7 @@ export function LanguageSelector() {
 
       {isOpen && (
         <div className="absolute right-0 mt-2 w-48 bg-white rounded-lg shadow-lg border border-gray-200 py-2 z-50">
-          {locales
+          {[...locales]
             .sort((a, b) => languageNames[a].localeCompare(languageNames[b]))
             .map((locale) => (
             <button

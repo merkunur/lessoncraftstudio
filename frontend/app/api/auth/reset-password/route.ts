@@ -53,7 +53,7 @@ export async function POST(request: NextRequest) {
         expiresAt: {
           gt: new Date(),
         },
-        used: false,
+        usedAt: null,
       },
       include: {
         user: true,
@@ -96,7 +96,6 @@ export async function POST(request: NextRequest) {
       await tx.passwordReset.update({
         where: { id: passwordReset.id },
         data: {
-          used: true,
           usedAt: new Date(),
         },
       });

@@ -53,7 +53,6 @@ export const POST = withAdmin(async (request: NextRequest, user) => {
       data: {
         isSuspended: true,
         suspendedAt: new Date(),
-        suspensionReason: reason || 'Suspended by admin',
       },
     });
 

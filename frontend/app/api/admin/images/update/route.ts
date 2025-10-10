@@ -14,7 +14,7 @@ async function getHandler(request: NextRequest) {
     const { searchParams } = new URL(request.url);
     const type = searchParams.get('type') || 'images';
 
-    let themes;
+    let themes: Awaited<ReturnType<typeof prisma.imageTheme.findMany>>;
 
     try {
       // Try to fetch themes with their images from database

@@ -325,7 +325,7 @@ const analyticsService = new AnalyticsService();
 export async function GET(request: NextRequest) {
   try {
     const user = await getAuthUser(request);
-    if (!session?.user || user.role !== 'admin') {
+    if (!user || !user.isAdmin) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 

@@ -15,6 +15,9 @@ interface User {
   isAdmin: boolean;
   language: string;
   avatar?: string;
+  newsletter?: boolean;
+  createdAt?: string;
+  lastLoginAt?: string;
 }
 
 interface AuthContextType {

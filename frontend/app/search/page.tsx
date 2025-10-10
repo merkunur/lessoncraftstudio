@@ -362,8 +362,11 @@ export default function SearchPage() {
               Did you mean:{' '}
               <button
                 onClick={() => {
-                  setQuery(results.spellcheck.suggestion);
-                  handleSearch(results.spellcheck.suggestion);
+                  const suggestion = results.spellcheck?.suggestion;
+                  if (suggestion) {
+                    setQuery(suggestion);
+                    handleSearch(suggestion);
+                  }
                 }}
                 className="text-blue-500 hover:underline"
               >

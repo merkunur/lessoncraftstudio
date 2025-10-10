@@ -127,7 +127,11 @@ export async function POST(request: NextRequest) {
     });
 
     const { impossibleTravel, rapidLogins } = detectSuspiciousActivity([
-      ...recentSessions,
+      ...recentSessions.map(s => ({
+        ipAddress: s.ipAddress || undefined,
+        country: s.country || undefined,
+        createdAt: s.createdAt
+      })),
       {
         ipAddress,
         country: deviceInfo.country,

@@ -221,7 +221,7 @@ export const getRelatedResources = (
     .filter(r => r.id !== currentResource.id)
     .map(resource => {
       const resourceTags = resource.tags || [];
-      const commonTags = currentTags.filter(tag => resourceTags.includes(tag));
+      const commonTags = currentTags.filter((tag: any) => resourceTags.includes(tag));
       return {
         resource,
         score: commonTags.length

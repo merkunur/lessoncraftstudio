@@ -148,7 +148,7 @@ export interface AnalyticsDashboard {
 
 export interface DashboardWidget {
   id: string;
-  type: 'metric' | 'chart' | 'table' | 'map' | 'list' | 'custom';
+  type: 'metric' | 'chart' | 'bar' | 'pie' | 'table' | 'map' | 'list' | 'custom';
   title: string;
   dataSource: string;
   config: {

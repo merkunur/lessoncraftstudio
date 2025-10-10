@@ -588,6 +588,34 @@
     <script>
         // Use dynamic URL that works in all environments
         const API_URL = window.location.origin;
+
+        // Get authentication token from localStorage
+        function getAuthToken() {
+            return localStorage.getItem('accessToken') || '';
+        }
+
+        // Helper function to make authenticated requests
+        async function authenticatedFetch(url, options = {}) {
+            const token = getAuthToken();
+
+            if (!token) {
+                showToast('Please log in to use this manager', 'error');
+                // Redirect to login if no token
+                setTimeout(() => {
+                    window.location.href = '/auth/signin?redirect=' + encodeURIComponent(window.location.pathname);
+                }, 1500);
+                throw new Error('No auth token');
+            }
+
+            return fetch(url, {
+                ...options,
+                headers: {
+                    ...options.headers,
+                    'Authorization': `Bearer ${token}`,
+                },
+            });
+        }
+
         const languages = [
             { code: 'de', name: 'German', flag: '🇩🇪' },
             { code: 'fr', name: 'French', flag: '🇫🇷' },
@@ -1345,10 +1373,9 @@
                 };
                 const uploadEndpoint = uploadEndpoints[currentType] || '/api/admin/images/upload';
 
-                const response = await fetch(`${API_URL}${uploadEndpoint}`, {
+                const response = await authenticatedFetch(`${API_URL}${uploadEndpoint}`, {
                     method: 'POST',
                     body: formData,
-                    credentials: 'include',
                 });
 
                 if (response.ok) {

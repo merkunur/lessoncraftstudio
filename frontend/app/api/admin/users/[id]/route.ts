@@ -229,12 +229,9 @@ export const DELETE = withAdminAuth(async (request: NextRequest, adminUser: any,
       );
     }
 
-    // Soft delete the user
-    await prisma.user.update({
+    // Delete the user (hard delete since no deletedAt field exists)
+    await prisma.user.delete({
       where: { id: userId },
-      data: {
-        deletedAt: new Date(),
-      },
     });
 
     // Cancel any active subscriptions

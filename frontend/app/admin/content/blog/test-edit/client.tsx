@@ -302,5 +302,4 @@ function EditBlogPostContent() {
     </div>
   );
 }
-export default function EditBlogPost() {
-export default EditBlogPost;
+export default function EditBlogPostContent() {

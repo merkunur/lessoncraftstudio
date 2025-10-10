@@ -801,5 +801,4 @@ function AdminDashboardContent() {
     </div>
   );
 }
-export default function AdminDashboard() {
-export default AdminDashboard;
+export default function AdminDashboardContent() {

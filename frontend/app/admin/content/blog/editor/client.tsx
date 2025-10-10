@@ -36,5 +36,4 @@ interface Translation {
   excerpt: string;
   exists: boolean;
 }
-export default function BlogEditor() {
-export default BlogEditor;
+export default function BlogEditorContent() {

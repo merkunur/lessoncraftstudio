@@ -584,7 +584,8 @@
     <div class="toast" id="toast"></div>
 
     <script>
-        const API_URL = 'http://localhost:3000';
+        // Use current origin so it works on both local and production
+        const API_URL = window.location.origin;
         const languages = [
             { code: 'de', name: 'German', flag: '🇩🇪' },
             { code: 'fr', name: 'French', flag: '🇫🇷' },

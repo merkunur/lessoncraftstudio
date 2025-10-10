@@ -101,9 +101,9 @@ export async function POST(request: NextRequest) {
     // Send verification email (async, don't wait)
     sendVerificationEmail({
       email: user.email,
-      firstName: user.firstName,
+      firstName: user.firstName || '',
       token: verificationToken,
-      language: user.language,
+      language: user.language || 'en',
     }).catch(console.error);
 
     // Generate tokens

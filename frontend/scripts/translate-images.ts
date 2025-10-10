@@ -231,7 +231,7 @@ const commonTranslations: Record<string, Record<string, string>> = {
   'rice': { de: 'Reis', fr: 'Riz', es: 'Arroz', it: 'Riso', pt: 'Arroz', nl: 'Rijst', sv: 'Ris', da: 'Ris', no: 'Ris', fi: 'Riisi' },
   'pasta': { de: 'Nudeln', fr: 'Pâtes', es: 'Pasta', it: 'Pasta', pt: 'Massa', nl: 'Pasta', sv: 'Pasta', da: 'Pasta', no: 'Pasta', fi: 'Pasta' },
   'meat': { de: 'Fleisch', fr: 'Viande', es: 'Carne', it: 'Carne', pt: 'Carne', nl: 'Vlees', sv: 'Kött', da: 'Kød', no: 'Kjøtt', fi: 'Liha' },
-  'chicken': { de: 'Hähnchen', fr: 'Poulet', es: 'Pollo', it: 'Pollo', pt: 'Frango', nl: 'Kip', sv: 'Kyckling', da: 'Kylling', no: 'Kylling', fi: 'Kana' },
+  'chicken meat': { de: 'Hähnchen', fr: 'Poulet', es: 'Pollo', it: 'Pollo', pt: 'Frango', nl: 'Kip', sv: 'Kyckling', da: 'Kylling', no: 'Kylling', fi: 'Kana' },
   'bacon': { de: 'Speck', fr: 'Bacon', es: 'Tocino', it: 'Pancetta', pt: 'Bacon', nl: 'Spek', sv: 'Bacon', da: 'Bacon', no: 'Bacon', fi: 'Pekoni' },
   'sausage': { de: 'Wurst', fr: 'Saucisse', es: 'Salchicha', it: 'Salsiccia', pt: 'Salsicha', nl: 'Worst', sv: 'Korv', da: 'Pølse', no: 'Pølse', fi: 'Makkara' },
   'ham': { de: 'Schinken', fr: 'Jambon', es: 'Jamón', it: 'Prosciutto', pt: 'Presunto', nl: 'Ham', sv: 'Skinka', da: 'Skinke', no: 'Skinke', fi: 'Kinkku' },

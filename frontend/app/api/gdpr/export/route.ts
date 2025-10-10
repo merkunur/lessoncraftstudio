@@ -101,7 +101,7 @@ export async function GET(req: NextRequest) {
           select: {
             id: true,
             action: true,
-            resource: true,
+            details: true,
             metadata: true,
             createdAt: true,
           },

@@ -50,7 +50,6 @@ export const GET = withAdminAuth(async (request: NextRequest, adminUser: any, co
       createdAt: user.createdAt,
       updatedAt: user.updatedAt,
       lastLoginAt: user.lastLoginAt,
-      avatarUrl: user.avatarUrl,
       subscription: user.subscription ? {
         status: user.subscription.status,
         currentPeriodEnd: user.subscription.currentPeriodEnd,
@@ -144,9 +143,10 @@ export const PATCH = withAdminAuth(async (request: NextRequest, adminUser: any, 
       data: {
         userId,
         action: 'user_updated_by_admin',
-        details: {
+        details: `User updated by admin: ${Object.keys(data).join(', ')}`,
+        metadata: {
           updatedFields: Object.keys(data),
-          updatedBy: 'admin',
+          updatedBy: adminUser.email,
         },
       },
     });
@@ -181,7 +181,6 @@ export const PATCH = withAdminAuth(async (request: NextRequest, adminUser: any, 
       createdAt: updatedUser.createdAt,
       updatedAt: updatedUser.updatedAt,
       lastLoginAt: updatedUser.lastLoginAt,
-      avatarUrl: updatedUser.avatarUrl,
       subscription: updatedUser.subscription ? {
         status: updatedUser.subscription.status,
         currentPeriodEnd: updatedUser.subscription.currentPeriodEnd,
@@ -246,11 +245,13 @@ export const DELETE = withAdminAuth(async (request: NextRequest, adminUser: any,
     // Log the deletion
     await prisma.activityLog.create({
       data: {
-        userId: null, // System action
+        userId: adminUser.id,
         action: 'user_deleted_by_admin',
-        details: {
+        details: `User ${user.email} deleted by admin`,
+        metadata: {
           deletedUserId: userId,
           deletedEmail: user.email,
+          deletedBy: adminUser.email,
         },
       },
     });

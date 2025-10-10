@@ -921,7 +921,7 @@ class HomepageContentManager {
       });
 
       if (record && record.content) {
-        return record.content as HomepageContent;
+        return record.content as unknown as HomepageContent;
       }
 
       return null;

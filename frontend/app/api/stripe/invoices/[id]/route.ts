@@ -48,7 +48,7 @@ export async function GET(
 
       // Amounts
       subtotal: invoice.subtotal / 100,
-      tax: taxInfo?.taxAmount || (invoice.tax ? invoice.tax / 100 : 0),
+      tax: taxInfo?.taxAmount || ((invoice.total - invoice.subtotal) / 100),
       taxRate: taxInfo?.taxRate || null,
       total: invoice.total / 100,
       amountPaid: invoice.amount_paid / 100,

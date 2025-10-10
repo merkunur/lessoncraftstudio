@@ -1174,6 +1174,31 @@
     </div>
 
     <script>
+        // Get authentication token from localStorage
+        function getAuthToken() {
+            return localStorage.getItem('accessToken') || '';
+        }
+
+        // Helper function to make authenticated requests
+        async function authenticatedFetch(url, options = {}) {
+            const token = getAuthToken();
+
+            if (!token) {
+                alert('Please log in to use this manager');
+                // Redirect to login if no token
+                window.location.href = '/auth/signin?redirect=' + encodeURIComponent(window.location.pathname);
+                throw new Error('No auth token');
+            }
+
+            return fetch(url, {
+                ...options,
+                headers: {
+                    ...options.headers,
+                    'Authorization': `Bearer ${token}`,
+                },
+            });
+        }
+
         // Global variables
         let currentPost = null;
         let currentLanguage = 'en';

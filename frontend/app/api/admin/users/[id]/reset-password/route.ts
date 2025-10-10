@@ -31,11 +31,11 @@ export const POST = withAdminAuth(async (request: NextRequest, adminUser: any, c
     expiresAt.setHours(expiresAt.getHours() + 1); // Token expires in 1 hour
 
     // Save reset token
-    await prisma.user.update({
-      where: { id: userId },
+    await prisma.passwordReset.create({
       data: {
-        passwordResetToken: hashedToken,
-        passwordResetExpires: expiresAt,
+        userId,
+        token: hashedToken,
+        expiresAt,
       },
     });
 
@@ -62,8 +62,10 @@ export const POST = withAdminAuth(async (request: NextRequest, adminUser: any, c
       data: {
         userId,
         action: 'password_reset_sent_by_admin',
-        details: {
+        details: `Password reset email sent to ${user.email}`,
+        metadata: {
           sentTo: user.email,
+          sentBy: adminUser.email,
         },
       },
     });

@@ -162,7 +162,7 @@ async function postHandler(request: NextRequest) {
         });
 
         // Create a Set of filenames that should remain
-        const incomingFilenames = new Set(themeData.images.map(img => img.filename));
+        const incomingFilenames = new Set(themeData.images.map((img: any) => img.filename));
 
         // Delete images that are no longer in the incoming array
         for (const existingImage of existingImages) {

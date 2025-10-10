@@ -22,7 +22,7 @@ export const createCheckoutSchema = z.object({
 export const upgradeUserSchema = z.object({
   userId: z.string().cuid('Invalid user ID format'),
   tier: z.enum(['free', 'core', 'full'], {
-    errorMap: () => ({ message: 'Tier must be one of: free, core, full' }),
+    message: 'Tier must be one of: free, core, full',
   }),
 });
 

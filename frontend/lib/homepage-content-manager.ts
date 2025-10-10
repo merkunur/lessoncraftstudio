@@ -32,7 +32,7 @@ export interface WorksheetSample {
   description: Record<string, string>;
   category: string;
   difficulty: 'Easy' | 'Medium' | 'Hard';
-  age_range: string;
+  age_range: Record<string, string>;
   image_url: string;
   featured: boolean;
   sort_order: number;

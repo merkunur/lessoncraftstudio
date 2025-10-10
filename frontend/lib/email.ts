@@ -118,7 +118,7 @@ export async function sendVerificationEmail(params: {
 
   const subject = subjects[language] || subjects.en;
 
-  const html = render(
+  const html = await render(
     VerificationEmail({
       firstName: firstName || 'there',
       verificationUrl,
@@ -163,7 +163,7 @@ export async function sendPasswordResetEmail(params: {
 
   const subject = subjects[language] || subjects.en;
 
-  const html = render(
+  const html = await render(
     PasswordResetEmail({
       firstName: firstName || 'there',
       resetUrl,
@@ -208,7 +208,7 @@ export async function sendWelcomeEmail(params: {
 
   const subject = subjects[language] || subjects.en;
 
-  const html = render(
+  const html = await render(
     WelcomeEmail({
       firstName,
       subscriptionTier,
@@ -255,7 +255,7 @@ export async function sendSubscriptionUpgradeEmail(params: {
 
   const subject = subjects[language] || subjects.en;
 
-  const html = render(
+  const html = await render(
     SubscriptionUpgradeEmail({
       firstName,
       oldPlan,
@@ -321,7 +321,7 @@ export async function sendPaymentReceiptEmail(params: {
 
   const subject = subjects[language] || subjects.en;
 
-  const html = render(
+  const html = await render(
     PaymentReceiptEmail({
       firstName,
       invoiceNumber,
@@ -389,7 +389,7 @@ export async function sendFailedPaymentEmail(params: {
 
   const subject = subjects[language] || subjects.en;
 
-  const html = render(
+  const html = await render(
     FailedPaymentEmail({
       firstName,
       amount,
@@ -455,7 +455,7 @@ export async function sendRefundConfirmationEmail(params: {
 
   const subject = subjects[language] || subjects.en;
 
-  const html = render(
+  const html = await render(
     RefundConfirmationEmail({
       firstName,
       refundAmount,
@@ -510,7 +510,7 @@ export async function sendPaymentFailedEmail(params: {
 
   const subject = subjects[language] || subjects.en;
 
-  const html = render(
+  const html = await render(
     PaymentFailedEmail({
       firstName,
       amount,
@@ -563,7 +563,7 @@ export async function sendPaymentReminderEmail(params: {
 
   const subject = subjects[language] || subjects.en;
 
-  const html = render(
+  const html = await render(
     PaymentReminderEmail({
       firstName,
       amount,
@@ -612,7 +612,7 @@ export async function sendServiceSuspendedEmail(params: {
 
   const subject = subjects[language] || subjects.en;
 
-  const html = render(
+  const html = await render(
     ServiceSuspendedEmail({
       firstName,
       suspensionDate,

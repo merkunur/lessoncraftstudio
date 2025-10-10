@@ -113,7 +113,7 @@ export function ServiceSuspendedEmail({
             <Heading style={h2}>{t.whatNext}</Heading>
             <Section style={timelineBox}>
               <Text style={timelineText}>✓ {t.timeline1(dataRetentionDays)}</Text>
-              <Text style={timelineText}>⚠️ {t.timeline2}</Text>
+              <Text style={timelineText}>⚠️ {t.timeline2(dataRetentionDays)}</Text>
               <Text style={timelineText}>🗑️ {t.timeline3}</Text>
             </Section>
           </Section>

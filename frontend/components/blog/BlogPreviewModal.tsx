@@ -397,7 +397,7 @@ function generatePreviewHTML(data: any): string {
     <section class="sample-worksheets">
       <h2>Download Free Sample Worksheets</h2>
       <div class="worksheet-grid">
-        ${sampleWorksheets.map(worksheet => {
+        ${sampleWorksheets.map((worksheet: any) => {
           const wsTitle = typeof worksheet.title === 'object' ?
             (worksheet.title[locale] || worksheet.title.en || 'Sample Worksheet') :
             (worksheet.title || 'Sample Worksheet');

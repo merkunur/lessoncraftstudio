@@ -72,7 +72,7 @@ export function getEmailTransporter(): Transporter {
   // Console mode for development
   if (config.provider === 'console') {
     console.log('[Email] Using console mode (development)');
-    transporter = nodemailer.createTransporter({
+    transporter = nodemailer.createTransport({
       streamTransport: true,
       newline: 'unix',
       buffer: true,
@@ -86,7 +86,7 @@ export function getEmailTransporter(): Transporter {
   }
 
   console.log(`[Email] Configuring ${config.provider} transporter`);
-  transporter = nodemailer.createTransporter({
+  transporter = nodemailer.createTransport({
     host: config.smtp.host,
     port: config.smtp.port,
     secure: config.smtp.secure,

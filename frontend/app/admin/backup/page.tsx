@@ -189,7 +189,7 @@ export default function BackupPage() {
                 {healthStatus === 'healthy' ? <CheckCircle className="w-4 h-4" /> :
                  healthStatus === 'warning' ? <AlertCircle className="w-4 h-4" /> :
                  <AlertTriangle className="w-4 h-4" />}
-                <span className="font-medium capitalize">{healthStatus || 'Unknown'}</span>
+                <span className="font-medium capitalize">{String(healthStatus) || 'Unknown'}</span>
               </div>
               
               <div className="flex items-center gap-4 text-sm">

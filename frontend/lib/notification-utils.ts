@@ -71,7 +71,7 @@ function urlBase64ToUint8Array(base64String: string): Uint8Array {
 export function showBrowserNotification(
   title: string,
   options?: NotificationOptions
-): Notification | null {
+): globalThis.Notification | null {
   if (!supportsNotifications() || Notification.permission !== 'granted') {
     return null;
   }

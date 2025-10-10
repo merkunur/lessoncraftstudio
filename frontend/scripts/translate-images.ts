@@ -87,7 +87,7 @@ const commonTranslations: Record<string, Record<string, string>> = {
   // Fruits
   'apple': { de: 'Apfel', fr: 'Pomme', es: 'Manzana', it: 'Mela', pt: 'Maçã', nl: 'Appel', sv: 'Äpple', da: 'Æble', no: 'Eple', fi: 'Omena' },
   'banana': { de: 'Banane', fr: 'Banane', es: 'Plátano', it: 'Banana', pt: 'Banana', nl: 'Banaan', sv: 'Banan', da: 'Banan', no: 'Banan', fi: 'Banaani' },
-  'orange': { de: 'Orange', fr: 'Orange', es: 'Naranja', it: 'Arancia', pt: 'Laranja', nl: 'Sinaasappel', sv: 'Apelsin', da: 'Appelsin', no: 'Appelsin', fi: 'Appelsiini' },
+  'orange fruit': { de: 'Orange', fr: 'Orange', es: 'Naranja', it: 'Arancia', pt: 'Laranja', nl: 'Sinaasappel', sv: 'Apelsin', da: 'Appelsin', no: 'Appelsin', fi: 'Appelsiini' },
   'grape': { de: 'Traube', fr: 'Raisin', es: 'Uva', it: 'Uva', pt: 'Uva', nl: 'Druif', sv: 'Druva', da: 'Drue', no: 'Drue', fi: 'Rypäle' },
   'strawberry': { de: 'Erdbeere', fr: 'Fraise', es: 'Fresa', it: 'Fragola', pt: 'Morango', nl: 'Aardbei', sv: 'Jordgubbe', da: 'Jordbær', no: 'Jordbær', fi: 'Mansikka' },
   'watermelon': { de: 'Wassermelone', fr: 'Pastèque', es: 'Sandía', it: 'Anguria', pt: 'Melancia', nl: 'Watermeloen', sv: 'Vattenmelon', da: 'Vandmelon', no: 'Vannmelon', fi: 'Vesimeloni' },

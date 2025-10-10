@@ -717,11 +717,11 @@ export default function AdminToolsPage() {
                               <div>Conversion: {((variant.conversions / variant.participants) * 100).toFixed(2)}%</div>
                               {test.results?.variantResults[variant.id]?.improvement !== undefined && (
                                 <div className={`font-medium ${
-                                  test.results.variantResults[variant.id].improvement > 0 
+                                  (test.results.variantResults[variant.id]?.improvement ?? 0) > 0
                                     ? 'text-green-600' : 'text-red-600'
                                 }`}>
-                                  {test.results.variantResults[variant.id].improvement > 0 ? '+' : ''}
-                                  {test.results.variantResults[variant.id].improvement}%
+                                  {(test.results.variantResults[variant.id]?.improvement ?? 0) > 0 ? '+' : ''}
+                                  {test.results.variantResults[variant.id]?.improvement}%
                                 </div>
                               )}
                             </div>

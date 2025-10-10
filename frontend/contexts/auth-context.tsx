@@ -18,6 +18,14 @@ interface User {
   newsletter?: boolean;
   createdAt?: string;
   lastLoginAt?: string;
+  subscription?: {
+    id: string;
+    planName: string;
+    status: string;
+    currentPeriodEnd: string;
+    currentPeriodStart: string;
+    cancelAtPeriodEnd: boolean;
+  };
 }
 
 interface AuthContextType {

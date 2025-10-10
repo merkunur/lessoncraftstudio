@@ -309,7 +309,7 @@ export default function SamplesPage() {
                     <button
                       onClick={() => {
                         // Edit functionality
-                        toast.info('Edit functionality coming soon');
+                        toast('Edit functionality coming soon');
                       }}
                       className="p-2 bg-blue-100 text-blue-700 rounded text-sm hover:bg-blue-200"
                     >

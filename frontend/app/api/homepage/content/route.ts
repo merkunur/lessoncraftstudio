@@ -51,7 +51,7 @@ export async function GET(request: NextRequest) {
         description: s.description[locale] || s.description.en,
         category: s.category,
         difficulty: s.difficulty,
-        ageRange: typeof s.age_range === 'object' ? (s.age_range[locale] || s.age_range.en) : s.age_range,
+        ageRange: typeof s.age_range === 'object' ? ((s.age_range as any)[locale] || (s.age_range as any).en) : s.age_range,
         image: s.image_url
       })),
       samplesSection: {

@@ -362,7 +362,7 @@ export default function AnalyticsDashboard() {
                   xAxisKey="date"
                   formatter={formatCurrency}
                   color="#10b981"
-                /> */} */}
+                /> */}
               </div>
 
               {/* User Growth Chart */}
@@ -381,7 +381,7 @@ export default function AnalyticsDashboard() {
                   dataKey="count"
                   xAxisKey="date"
                   color="#3b82f6"
-                /> */} */}
+                /> */}
               </div>
             </div>
 
@@ -457,7 +457,7 @@ export default function AnalyticsDashboard() {
                       <div
                         className="bg-blue-600 h-2 rounded-full"
                         style={{ width: `${(analytics.users.new / analytics.traffic.sessions) * 100}%` }}
-                      /> */} */}
+                      />
                     </div>
                   </div>
                   <div>
@@ -471,7 +471,7 @@ export default function AnalyticsDashboard() {
                       <div
                         className="bg-blue-600 h-2 rounded-full"
                         style={{ width: `${(analytics.conversions.trials / analytics.users.new) * 100}%` }}
-                      /> */} */}
+                      />
                     </div>
                   </div>
                   <div>
@@ -483,7 +483,7 @@ export default function AnalyticsDashboard() {
                       <div
                         className="bg-green-600 h-2 rounded-full"
                         style={{ width: `${analytics.conversions.rate}%` }}
-                      /> */} */}
+                      />
                     </div>
                   </div>
                 </div>
@@ -563,7 +563,7 @@ export default function AnalyticsDashboard() {
                   ]}
                   dataKey="value"
                   nameKey="name"
-                /> */} */}
+                /> */}
               </div>
 
               <div className="bg-white shadow rounded-lg p-6">
@@ -833,7 +833,7 @@ export default function AnalyticsDashboard() {
                   ]}
                   dataKey="value"
                   nameKey="name"
-                /> */} */}
+                /> */}
               </div>
 
               <div className="bg-white shadow rounded-lg p-6">
@@ -944,7 +944,7 @@ export default function AnalyticsDashboard() {
                   ]}
                   dataKey="value"
                   nameKey="name"
-                /> */} */}
+                /> */}
               </div>
 
               <div className="bg-white shadow rounded-lg p-6">

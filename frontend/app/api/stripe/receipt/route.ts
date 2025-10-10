@@ -167,7 +167,7 @@ export async function POST(request: NextRequest) {
     yPosition += 15;
 
     // Payment status
-    const statusColor = receiptData.status === 'succeeded' ? [0, 128, 0] : [255, 0, 0];
+    const statusColor = receiptData.status === 'succeeded' ? [0, 128, 0] as const : [255, 0, 0] as const;
     pdf.setTextColor(...statusColor);
     addText(`Payment Status: ${receiptData.status.toUpperCase()}`, 11);
     pdf.setTextColor(0, 0, 0);

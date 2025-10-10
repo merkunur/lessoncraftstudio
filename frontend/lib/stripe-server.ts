@@ -205,7 +205,7 @@ export async function getCheckoutSessionTax(
   try {
     const session = await stripe.checkout.sessions.retrieve(sessionId, {
       expand: ['total_details'],
-    });
+    }) as any;
 
     if (!session.amount_total) {
       return null;
@@ -243,7 +243,7 @@ export async function getInvoiceTax(
   try {
     const invoice = await stripe.invoices.retrieve(invoiceId, {
       expand: ['total_tax_amounts', 'customer_tax_ids'],
-    });
+    }) as any;
 
     const taxAmount = invoice.tax || 0;
     const totalAmount = invoice.total;
@@ -342,13 +342,13 @@ export async function createSetupIntent(
 export async function getDefaultPaymentMethod(
   customerId: string
 ): Promise<string | null> {
-  const customer = await stripe.customers.retrieve(customerId);
+  const customer = await stripe.customers.retrieve(customerId) as any;
 
   if (customer.deleted) {
     return null;
   }
 
-  return customer.invoice_settings.default_payment_method as string || null;
+  return customer.invoice_settings?.default_payment_method as string || null;
 }
 
 // Refund Management

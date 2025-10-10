@@ -44,7 +44,7 @@ export async function subscribeToPushNotifications(
 ): Promise<PushSubscription> {
   const subscription = await serviceWorkerRegistration.pushManager.subscribe({
     userVisibleOnly: true,
-    applicationServerKey: urlBase64ToUint8Array(publicVapidKey)
+    applicationServerKey: urlBase64ToUint8Array(publicVapidKey) as BufferSource
   });
 
   return subscription.toJSON() as PushSubscription;

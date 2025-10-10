@@ -1603,21 +1603,21 @@
         // Load blog posts
         async function loadPosts() {
             try {
-                const response = await fetch('/api/blog/posts');
-                const data = await response.json();
-                posts = data.posts || [];
-                displayPosts();
+                // 🔧 FIX: Use ADMIN API with authentication to load all posts (including drafts)
+                const response = await authenticatedFetch('/api/admin/blog/posts', {});
+                if (response.ok) {
+                    const data = await response.json();
+                    posts = data.posts || [];
+                    console.log('✅ Loaded posts from admin API:', posts.length);
+                    displayPosts();
+                } else {
+                    throw new Error(`Failed to load posts: ${response.status}`);
+                }
             } catch (error) {
                 console.error('Error loading posts:', error);
-                posts = [{
-                    slug: 'worksheet-generator',
-                    title: 'Math worksheet generator for kindergarten',
-                    excerpt: 'Generate fun and interesting math worksheets for kindergarten.',
-                    author: 'LessonCraftStudio Team',
-                    date: '2025-09-19',
-                    category: 'worksheet-tips'
-                }];
+                posts = [];
                 displayPosts();
+                showMessage('Failed to load blog posts. Make sure you are logged in as admin.', 'error');
             }
         }
 

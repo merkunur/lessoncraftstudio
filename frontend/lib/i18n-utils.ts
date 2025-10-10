@@ -195,14 +195,15 @@ export const formatDate = (
   format: 'full' | 'long' | 'medium' | 'short' = 'medium'
 ): string => {
   const d = typeof date === 'string' ? new Date(date) : date;
-  
-  const options: Intl.DateTimeFormatOptions = {
+
+  const formatOptions: Record<string, Intl.DateTimeFormatOptions> = {
     full: { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' },
     long: { year: 'numeric', month: 'long', day: 'numeric' },
     medium: { year: 'numeric', month: 'short', day: 'numeric' },
     short: { year: '2-digit', month: 'numeric', day: 'numeric' }
-  }[format];
-  
+  };
+  const options = formatOptions[format];
+
   return new Intl.DateTimeFormat(locale, options).format(d);
 };
 
@@ -213,14 +214,15 @@ export const formatTime = (
   format: 'full' | 'long' | 'medium' | 'short' = 'medium'
 ): string => {
   const d = typeof date === 'string' ? new Date(date) : date;
-  
-  const options: Intl.DateTimeFormatOptions = {
+
+  const formatOptions: Record<string, Intl.DateTimeFormatOptions> = {
     full: { hour: 'numeric', minute: 'numeric', second: 'numeric', timeZoneName: 'long' },
     long: { hour: 'numeric', minute: 'numeric', second: 'numeric', timeZoneName: 'short' },
     medium: { hour: 'numeric', minute: 'numeric', second: 'numeric' },
     short: { hour: 'numeric', minute: 'numeric' }
-  }[format];
-  
+  };
+  const options = formatOptions[format];
+
   return new Intl.DateTimeFormat(locale, options).format(d);
 };
 

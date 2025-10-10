@@ -276,7 +276,9 @@ export default function UserDetailPage() {
                     </span>
                   )}
                   {user.emailVerified && (
-                    <CheckCircle className="h-4 w-4 text-green-500" title="Email verified" />
+                    <span title="Email verified">
+                      <CheckCircle className="h-4 w-4 text-green-500" />
+                    </span>
                   )}
                 </div>
                 <div className="mt-2">

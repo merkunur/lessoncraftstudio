@@ -337,7 +337,7 @@ export async function POST(request: NextRequest) {
 
     const data = await request.json();
     const userId = user.id;
-    const userName = user.name || 'User';
+    const userName = `${user.firstName || ''} ${user.lastName || ''}`.trim() || 'User';
 
     switch (data.type) {
       case 'notification':

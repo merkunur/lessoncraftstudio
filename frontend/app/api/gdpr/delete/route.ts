@@ -44,7 +44,7 @@ export async function POST(req: NextRequest) {
     const user = await prisma.user.findUnique({
       where: { id: currentUser.id },
       include: {
-        subscriptions: true,
+        subscription: true,
       },
     });
 
@@ -74,21 +74,17 @@ export async function POST(req: NextRequest) {
       console.log('Could not log deletion request:', err);
     }
 
-    // Step 1: Cancel all active Stripe subscriptions
-    if (user.stripeCustomerId) {
+    // Step 1: Cancel active Stripe subscription
+    if (user.stripeCustomerId && user.subscription) {
       try {
-        const activeSubscriptions = user.subscriptions.filter(
-          sub => sub.status === 'active' || sub.status === 'past_due'
-        );
+        const isActive = user.subscription.status === 'active' || user.subscription.status === 'past_due';
 
-        for (const subscription of activeSubscriptions) {
-          if (subscription.stripeSubscriptionId) {
-            await stripe.subscriptions.cancel(subscription.stripeSubscriptionId);
-            console.log(`Canceled subscription: ${subscription.stripeSubscriptionId}`);
-          }
+        if (isActive && user.subscription.stripeSubscriptionId) {
+          await stripe.subscriptions.cancel(user.subscription.stripeSubscriptionId);
+          console.log(`Canceled subscription: ${user.subscription.stripeSubscriptionId}`);
         }
       } catch (error) {
-        console.error('Error canceling Stripe subscriptions:', error);
+        console.error('Error canceling Stripe subscription:', error);
         // Continue with deletion even if Stripe cancellation fails
       }
     }

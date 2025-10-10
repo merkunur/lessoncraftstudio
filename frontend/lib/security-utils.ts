@@ -61,14 +61,14 @@ export const calculateCVSSScore = (vector: string): number => {
   const i = { N: 0, L: 0.22, H: 0.56 };
   const a = { N: 0, L: 0.22, H: 0.56 };
 
-  const attackVector = av[metrics.AV] || 0.85;
-  const attackComplexity = ac[metrics.AC] || 0.77;
-  const privilegesRequired = pr[metrics.PR] || 0.85;
-  const userInteraction = ui[metrics.UI] || 0.85;
-  const scope = s[metrics.S] || 0;
-  const confidentiality = c[metrics.C] || 0;
-  const integrity = i[metrics.I] || 0;
-  const availability = a[metrics.A] || 0;
+  const attackVector = av[metrics.AV as keyof typeof av] || 0.85;
+  const attackComplexity = ac[metrics.AC as keyof typeof ac] || 0.77;
+  const privilegesRequired = pr[metrics.PR as keyof typeof pr] || 0.85;
+  const userInteraction = ui[metrics.UI as keyof typeof ui] || 0.85;
+  const scope = s[metrics.S as keyof typeof s] || 0;
+  const confidentiality = c[metrics.C as keyof typeof c] || 0;
+  const integrity = i[metrics.I as keyof typeof i] || 0;
+  const availability = a[metrics.A as keyof typeof a] || 0;
 
   const impact = 1 - ((1 - confidentiality) * (1 - integrity) * (1 - availability));
   const exploitability = 8.22 * attackVector * attackComplexity * privilegesRequired * userInteraction;

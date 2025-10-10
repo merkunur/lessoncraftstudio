@@ -68,7 +68,15 @@
       "Bash(echo \"UPDATE \"\"User\"\" SET \"\"stripeCustomerId\"\" = NULL WHERE email = ''''oliviaprincess@gmail.com'''';\")",
       "Bash(npx prisma db execute:*)",
       "Bash(del C:Usersrkgenlessoncraftstudiofrontendclear-stripe-customer.js)",
-      "Bash(if exist frontend.next rmdir /s /q frontend.next)"
+      "Bash(if exist frontend.next rmdir /s /q frontend.next)",
+      "Bash(del C:Usersrkgenlessoncraftstudiofrontendcheck-user-sub.js)",
+      "Bash(ssh:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run build:*)",
+      "Bash(for file in \"frontend/app/api/admin/worksheet-templates/upload/route.ts\" \"frontend/app/api/admin/train-templates/upload/route.ts\" \"frontend/app/api/admin/images/upload/route.ts\" \"frontend/app/api/admin/borders/upload/route.ts\")",
+      "Bash(do sed -i '/^\\/\\/ Increase body size limit/,/^};$/d' \"$file\")",
+      "Bash(del add-dynamic-export.js)",
+      "Bash(del fix-dynamic-placement.js)"
     ],
     "deny": [],
     "ask": []

@@ -1,0 +1,2699 @@
+root@lessoncraftstudio /opt/lessoncraftstudio/frontend # npm run build
+
+> frontend@0.1.0 build
+> npm run sync && next build
+
+
+> frontend@0.1.0 sync
+> node scripts/sync-directus-simple.js
+
+🔄 Preparing image library folders...
+
+✅ Image library ready!
+
+Note: Full Directus sync will happen when Directus is available.
+  ▲ Next.js 14.2.18
+  - Environments: .env.production, .env
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+ ✓ Linting and checking validity of types
+   Collecting page data  .geoip-lite not available, location detection disabled
+🔄 Starting automatic image library sync...
+🔄 Starting automatic image library sync...
+geoip-lite not available, location detection disabled
+🔄 Starting automatic image library sync...
+🔄 Starting automatic image library sync...
+🔄 Starting automatic image library sync...
+🔄 Starting automatic image library sync...
+🔄 Starting automatic image library sync...
+🔄 Starting automatic image library sync...
+⚠️ Sync attempt failed: fetch failed
+🔄 Retrying sync in 5 seconds... (attempt 1/3)
+⚠️ Sync attempt failed: fetch failed
+🔄 Retrying sync in 5 seconds... (attempt 1/3)
+⚠️ Sync attempt failed: fetch failed
+🔄 Retrying sync in 5 seconds... (attempt 1/3)
+⚠️ Sync attempt failed: fetch failed
+🔄 Retrying sync in 5 seconds... (attempt 1/3)
+🔄 Starting automatic image library sync...
+🔄 Starting automatic image library sync...
+🔄 Starting automatic image library sync...
+🔄 Starting automatic image library sync...
+🔄 Starting automatic image library sync...
+🔄 Starting automatic image library sync...
+⚠️ Sync attempt failed: fetch failed
+🔄 Retrying sync in 5 seconds... (attempt 1/3)
+⚠️ Sync attempt failed: fetch failed
+🔄 Retrying sync in 5 seconds... (attempt 1/3)
+   Collecting page data  ..⚠️ Sync attempt failed: fetch failed
+🔄 Retrying sync in 5 seconds... (attempt 1/3)
+ ✓ Collecting page data
+   Generating static pages (32/709)  [=== ] ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signin". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at g (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signin/page.js:1:6128)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/en/auth/signin". Read more: https://nextjs.org/docs/messages/prerender-error
+
+   Generating static pages (52/709)  [ ===] ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signin". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at g (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signin/page.js:1:6128)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/no/auth/signin". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signin". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at g (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signin/page.js:1:6128)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/fr/auth/signin". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signin". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at g (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signin/page.js:1:6128)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/it/auth/signin". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signin". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at g (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signin/page.js:1:6128)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/es/auth/signin". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signin". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at g (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signin/page.js:1:6128)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/da/auth/signin". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signin". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at g (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signin/page.js:1:6128)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/sv/auth/signin". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signin". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at g (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signin/page.js:1:6128)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/pt/auth/signin". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signin". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at g (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signin/page.js:1:6128)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/fi/auth/signin". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signin". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at g (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signin/page.js:1:6128)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/de/auth/signin". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signin". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at g (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signin/page.js:1:6128)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/nl/auth/signin". Read more: https://nextjs.org/docs/messages/prerender-error
+
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (en)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (en)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (de)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (de)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (fr)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (fr)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (es)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (es)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (es)'
+}
+   Generating static pages (84/709)  [  ==]eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (it)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (it)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (pt)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (pt)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (nl)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (nl)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (sv)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (sv)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (sv)'
+}
+   Generating static pages (111/709)  [   =]eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528)
+    at runNextTicks (node:internal/process/task_queues:60:5)
+    at listOnTimeout (node:internal/timers:538:9)
+    at process.processTimers (node:internal/timers:512:7) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (da)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (da)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (no)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (no)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.features.6 (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12084) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.features.6 (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.limitations.3 (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12183
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12267) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.limitations.3 (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.free.apps.1 (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12281) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.free.apps.1 (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.features.7 (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12533) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.features.7 (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.core.apps.11 (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12548) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.core.apps.11 (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.features.6 (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at t (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11708)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12810) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.features.6 (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.apps.23 (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:11863)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12825) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.apps.23 (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.plans.full.newApps.0 (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12915
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:12999) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.plans.full.newApps.0 (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.question (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18358
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.question (fi)'
+}
+eE [Error]: MISSING_MESSAGE: pricing.faq.items.6.answer (fi)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:134839)
+    at u (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:135003)
+    at f (/opt/lessoncraftstudio/frontend/.next/server/chunks/7894.js:1:136154)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18389
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/pricing/page.js:1:18528) {
+  code: 'MISSING_MESSAGE',
+  originalMessage: 'pricing.faq.items.6.answer (fi)'
+}
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signup". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signup/page.js:1:2590)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/pt/auth/signup". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signup". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signup/page.js:1:2590)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/es/auth/signup". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signup". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signup/page.js:1:2590)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/de/auth/signup". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signup". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signup/page.js:1:2590)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/en/auth/signup". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signup". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signup/page.js:1:2590)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/fr/auth/signup". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signup". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signup/page.js:1:2590)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/da/auth/signup". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signup". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signup/page.js:1:2590)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/it/auth/signup". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signup". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signup/page.js:1:2590)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/nl/auth/signup". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signup". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signup/page.js:1:2590)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/sv/auth/signup". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signup". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signup/page.js:1:2590)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/fi/auth/signup". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/[locale]/auth/signup". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at d (/opt/lessoncraftstudio/frontend/.next/server/app/[locale]/auth/signup/page.js:1:2590)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/no/auth/signup". Read more: https://nextjs.org/docs/messages/prerender-error
+
+   Generating static pages (235/709)  [ ===]🔄 Starting automatic image library sync...
+⚠️ Sync attempt failed: fetch failed
+🔄 Retrying sync in 15 seconds... (attempt 2/3)
+🔄 Starting automatic image library sync...
+⚠️ Sync attempt failed: fetch failed
+🔄 Retrying sync in 15 seconds... (attempt 2/3)
+🔄 Starting automatic image library sync...
+⚠️ Sync attempt failed: fetch failed
+🔄 Retrying sync in 15 seconds... (attempt 2/3)
+🔄 Starting automatic image library sync...
+⚠️ Sync attempt failed: fetch failed
+🔄 Retrying sync in 15 seconds... (attempt 2/3)
+🔄 Starting automatic image library sync...
+⚠️ Sync attempt failed: fetch failed
+🔄 Retrying sync in 15 seconds... (attempt 2/3)
+🔄 Starting automatic image library sync...
+⚠️ Sync attempt failed: fetch failed
+🔄 Retrying sync in 15 seconds... (attempt 2/3)
+🔄 Starting automatic image library sync...
+⚠️ Sync attempt failed: fetch failed
+🔄 Retrying sync in 15 seconds... (attempt 2/3)
+   Generating static pages (257/709)  [====] ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/admin/content/blog/editor". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/app/admin/content/blog/editor/page.js:1:3044)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/admin/content/blog/editor". Read more: https://nextjs.org/docs/messages/prerender-error
+
+TypeError: Cannot read properties of null (reading 'cpu')
+    at k (/opt/lessoncraftstudio/frontend/.next/server/app/admin/dashboard/page.js:1:3053)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/admin/dashboard/page.js:1:5005
+    at P (/opt/lessoncraftstudio/frontend/.next/server/app/admin/dashboard/page.js:1:5193)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546) {
+  digest: '1546949654'
+}
+
+Error occurred prerendering page "/admin/dashboard". Read more: https://nextjs.org/docs/messages/prerender-error
+
+TypeError: Cannot read properties of null (reading 'cpu')
+    at k (/opt/lessoncraftstudio/frontend/.next/server/app/admin/dashboard/page.js:1:3053)
+    at /opt/lessoncraftstudio/frontend/.next/server/app/admin/dashboard/page.js:1:5005
+    at P (/opt/lessoncraftstudio/frontend/.next/server/app/admin/dashboard/page.js:1:5193)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/admin/content/blog/test-edit". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at l (/opt/lessoncraftstudio/frontend/.next/server/app/admin/content/blog/test-edit/page.js:1:2665)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/admin/content/blog/test-edit". Read more: https://nextjs.org/docs/messages/prerender-error
+
+   Generating static pages (287/709)  [=== ] ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/admin/search". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at P (/opt/lessoncraftstudio/frontend/.next/server/app/admin/search/page.js:1:3266)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/admin/search". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/auth/reset-password". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/app/auth/reset-password/page.js:1:2307)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/auth/reset-password". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/admin/users/new". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at b (/opt/lessoncraftstudio/frontend/.next/server/app/admin/users/new/page.js:1:2363)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/admin/users/new". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/auth/verify-email". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at h (/opt/lessoncraftstudio/frontend/.next/server/app/auth/verify-email/page.js:1:2607)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/auth/verify-email". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ⨯ useSearchParams() should be wrapped in a suspense boundary at page "/payment/success". Read more: https://nextjs.org/docs/messages/missing-suspense-with-csr-bailout
+    at l (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:11253)
+    at c (/opt/lessoncraftstudio/frontend/.next/server/chunks/1819.js:1:22236)
+    at p (/opt/lessoncraftstudio/frontend/.next/server/app/payment/success/page.js:1:2617)
+    at nj (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:46251)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47571)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+    at nI (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47010)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:47717)
+    at nM (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:61546)
+    at nN (/opt/lessoncraftstudio/frontend/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:64546)
+
+Error occurred prerendering page "/payment/success". Read more: https://nextjs.org/docs/messages/prerender-error
+
+ ✓ Generating static pages (709/709)
+
+> Export encountered errors on following paths:
+        /[locale]/auth/signin/page: /da/auth/signin
+        /[locale]/auth/signin/page: /de/auth/signin
+        /[locale]/auth/signin/page: /en/auth/signin
+        /[locale]/auth/signin/page: /es/auth/signin
+        /[locale]/auth/signin/page: /fi/auth/signin
+        /[locale]/auth/signin/page: /fr/auth/signin
+        /[locale]/auth/signin/page: /it/auth/signin
+        /[locale]/auth/signin/page: /nl/auth/signin
+        /[locale]/auth/signin/page: /no/auth/signin
+        /[locale]/auth/signin/page: /pt/auth/signin
+        /[locale]/auth/signin/page: /sv/auth/signin
+        /[locale]/auth/signup/page: /da/auth/signup
+        /[locale]/auth/signup/page: /de/auth/signup
+        /[locale]/auth/signup/page: /en/auth/signup
+        /[locale]/auth/signup/page: /es/auth/signup
+        /[locale]/auth/signup/page: /fi/auth/signup
+        /[locale]/auth/signup/page: /fr/auth/signup
+        /[locale]/auth/signup/page: /it/auth/signup
+        /[locale]/auth/signup/page: /nl/auth/signup
+        /[locale]/auth/signup/page: /no/auth/signup
+        /[locale]/auth/signup/page: /pt/auth/signup
+        /[locale]/auth/signup/page: /sv/auth/signup
+        /admin/content/blog/editor/page: /admin/content/blog/editor
+        /admin/content/blog/test-edit/page: /admin/content/blog/test-edit
+        /admin/dashboard/page: /admin/dashboard
+        /admin/search/page: /admin/search
+        /admin/users/new/page: /admin/users/new
+        /auth/reset-password/page: /auth/reset-password
+        /auth/verify-email/page: /auth/verify-email
+        /payment/success/page: /payment/success
+root@lessoncraftstudio /opt/lessoncraftstudio/frontend #

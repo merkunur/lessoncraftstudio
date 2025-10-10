@@ -95,7 +95,7 @@ export async function POST(request: NextRequest) {
       const refund = await stripe.refunds.create({
         payment_intent: payment.stripePaymentIntentId,
         amount: Math.round(refundAmount * 100), // Convert to cents
-        reason,
+        reason: reason as any,
         metadata: {
           paymentId: payment.id,
           userId: payment.userId,
@@ -109,7 +109,7 @@ export async function POST(request: NextRequest) {
       const refund = await stripe.refunds.create({
         charge: payment.stripePaymentId,
         amount: Math.round(refundAmount * 100),
-        reason,
+        reason: reason as any,
         metadata: {
           paymentId: payment.id,
           userId: payment.userId,

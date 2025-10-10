@@ -148,7 +148,6 @@ export async function GET(
         stripeCustomerId: user.stripeCustomerId,
         isSuspended: user.isSuspended,
         suspendedAt: user.suspendedAt,
-        suspensionReason: user.suspensionReason,
         emailVerified: user.emailVerified,
         createdAt: user.createdAt,
         updatedAt: user.updatedAt,

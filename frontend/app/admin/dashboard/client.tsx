@@ -1,7 +1,7 @@
 'use client';
 
 
-import { useState, useEffect  } from 'react';
+import { useState, useEffect } from 'react';
 import {
   Activity,
   AlertTriangle,
@@ -801,4 +801,6 @@ function AdminDashboardContent() {
     </div>
   );
 }
-export default function AdminDashboardContent() {
+
+
+export default AdminDashboardContent;

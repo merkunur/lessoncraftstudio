@@ -88,7 +88,7 @@ export default function GeneratorsPage() {
   const isGeneratorAvailable = (generator: any) => {
     const tierHierarchy = { free: 0, core: 1, full: 2 };
     const userTierLevel = tierHierarchy[user?.subscriptionTier as keyof typeof tierHierarchy] || 0;
-    const requiredLevel = tierHierarchy[generator.minTier];
+    const requiredLevel = tierHierarchy[generator.minTier as keyof typeof tierHierarchy];
     return userTierLevel >= requiredLevel;
   };
 

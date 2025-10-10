@@ -6,6 +6,7 @@ declare module 'next-auth' {
     email: string;
     name: string;
     subscriptionTier: string;
+    isAdmin?: boolean;
   }
 
   interface Session {
@@ -15,6 +16,7 @@ declare module 'next-auth' {
       name?: string | null;
       image?: string | null;
       subscriptionTier: string;
+      isAdmin?: boolean;
     };
   }
 }
@@ -23,5 +25,6 @@ declare module 'next-auth/jwt' {
   interface JWT {
     id: string;
     subscriptionTier: string;
+    isAdmin?: boolean;
   }
 }

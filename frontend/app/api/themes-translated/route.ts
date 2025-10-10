@@ -143,7 +143,7 @@ export async function GET(request: NextRequest) {
       });
     }
   } catch (error) {
-    console.log('PostgreSQL database not available, trying Directus...');
+    // Silently try Directus fallback
   }
 
   // Try Directus as secondary source
@@ -194,7 +194,7 @@ export async function GET(request: NextRequest) {
     }
     // If Directus returned empty data, fall through to filesystem
   } catch (error) {
-    console.log('Directus not available, falling back to file system');
+    // Silently fall back to file system
   }
   
   // Also try Strapi as secondary fallback
@@ -222,7 +222,7 @@ export async function GET(request: NextRequest) {
         return NextResponse.json(themes);
     }
   } catch (error) {
-    console.log('Strapi not available either, falling back to file system');
+    // Silently fall back to file system
   }
   
   // Fallback to local JSON metadata

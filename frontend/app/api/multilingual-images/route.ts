@@ -203,7 +203,7 @@ export async function GET(request: NextRequest) {
         }
       }
     } catch (strapiError) {
-      console.log('Strapi not available, using local translations');
+      // Silently fall back to local translations
     }
     
     // Build the path to the images

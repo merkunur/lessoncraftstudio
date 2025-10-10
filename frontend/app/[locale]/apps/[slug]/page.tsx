@@ -2940,7 +2940,6 @@ async function getAppData(slug: string, locale: string) {
     }
   } catch (error) {
     // Silently fall back to default data
-    console.log('Strapi not available, using default data for:', slug);
   }
   
   // Return default data so the page always works

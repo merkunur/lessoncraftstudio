@@ -5,13 +5,6 @@ import { STRIPE_WEBHOOK_EVENTS } from '@/lib/stripe-config';
 import { prisma } from '@/lib/prisma';
 import Stripe from 'stripe';
 
-// CRITICAL: Disable body parser to get raw body for signature verification
-export const config = {
-  api: {
-    bodyParser: false,
-  },
-};
-
 // Stripe webhook endpoint
 export async function POST(request: NextRequest) {
   try {

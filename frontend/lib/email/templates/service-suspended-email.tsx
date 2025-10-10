@@ -34,7 +34,7 @@ const translations = {
     button: 'Restore My Access',
     whatNext: 'What happens next?',
     timeline1: (days: number) => `Next ${days} days: Your data is safe and waiting for you`,
-    timeline2: `After ${dataRetentionDays} days: Your subscription will be permanently canceled`,
+    timeline2: (days: number) => `After ${days} days: Your subscription will be permanently canceled`,
     timeline3: 'After 90 days: Your data will be permanently deleted (GDPR compliance)',
     support: 'Need help? Our support team is here to assist you with any payment issues.',
     footer: 'We hope to see you back soon!',

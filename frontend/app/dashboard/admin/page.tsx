@@ -1,5 +1,7 @@
 'use client';
 
+export const dynamic = 'force-dynamic';
+
 import { useState } from 'react';
 import { useAuth } from '@/lib/client-auth';
 import { Shield, Users, TrendingUp, Ban, Loader2, CheckCircle, XCircle } from 'lucide-react';

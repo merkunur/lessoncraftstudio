@@ -1,5 +1,7 @@
 'use client';
 
+export const dynamic = 'force-dynamic';
+
 import { useEffect, useState } from 'react';
 import { useAuth } from '@/lib/client-auth';
 import { Monitor, Smartphone, Tablet, Loader2, X, MapPin, Calendar } from 'lucide-react';

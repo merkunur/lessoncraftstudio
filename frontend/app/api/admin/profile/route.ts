@@ -111,8 +111,8 @@ const profiles = new Map([
 // GET /api/admin/profile
 export async function GET(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -136,8 +136,8 @@ export async function GET(request: NextRequest) {
 // PUT /api/admin/profile
 export async function PUT(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -206,8 +206,8 @@ export async function PUT(request: NextRequest) {
 // DELETE /api/admin/profile/avatar
 export async function DELETE(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 

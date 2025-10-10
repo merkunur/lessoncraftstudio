@@ -232,8 +232,8 @@ const apiKeyService = new ApiKeyService();
 // GET /api/admin/profile/api-keys
 export async function GET(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -241,7 +241,7 @@ export async function GET(request: NextRequest) {
     const includeRevoked = searchParams.get('includeRevoked') === 'true';
     const keyId = searchParams.get('keyId');
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
 
     // Get usage for specific key
     if (keyId) {
@@ -279,8 +279,8 @@ export async function GET(request: NextRequest) {
 // POST /api/admin/profile/api-keys
 export async function POST(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -319,7 +319,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
 
     // Check key limit
     const existingKeys = await apiKeyService.getApiKeys(userId);
@@ -359,8 +359,8 @@ export async function POST(request: NextRequest) {
 // PUT /api/admin/profile/api-keys/[id]
 export async function PUT(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -373,7 +373,7 @@ export async function PUT(request: NextRequest) {
       );
     }
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
 
     if (action === 'revoke') {
       const success = await apiKeyService.revokeApiKey(userId, keyId);
@@ -422,8 +422,8 @@ export async function PUT(request: NextRequest) {
 // DELETE /api/admin/profile/api-keys/[id]
 export async function DELETE(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -437,7 +437,7 @@ export async function DELETE(request: NextRequest) {
       );
     }
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
     const userKeys = apiKeys.get(userId);
 
     if (!userKeys) {

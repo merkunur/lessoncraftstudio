@@ -34,7 +34,8 @@ export async function createCheckoutSession(
   priceId: string,
   userId: string,
   successUrl: string,
-  cancelUrl: string
+  cancelUrl: string,
+  locale?: string
 ): Promise<Stripe.Checkout.Session> {
   // Check if Stripe Tax is enabled
   const taxEnabled = process.env.STRIPE_TAX_ENABLED === 'true';
@@ -61,6 +62,9 @@ export async function createCheckoutSession(
     },
     allow_promotion_codes: true,
 
+    // Set checkout language based on user's locale
+    ...(locale && { locale: locale as Stripe.Checkout.SessionCreateParams.Locale }),
+
     // Enable automatic tax calculation
     ...(taxEnabled && {
       automatic_tax: {
@@ -86,13 +90,16 @@ export async function createCheckoutSession(
 // Create a portal session for managing subscription
 export async function createPortalSession(
   customerId: string,
-  returnUrl: string
+  returnUrl: string,
+  locale?: string
 ): Promise<Stripe.BillingPortal.Session> {
   const session = await stripe.billingPortal.sessions.create({
     customer: customerId,
     return_url: returnUrl,
+    // Set portal language based on user's locale
+    ...(locale && { locale: locale as Stripe.BillingPortal.SessionCreateParams.Locale }),
   });
-  
+
   return session;
 }
 

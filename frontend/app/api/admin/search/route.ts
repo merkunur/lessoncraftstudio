@@ -511,8 +511,8 @@ const searchService = new SearchService();
 // POST /api/admin/search
 export async function POST(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -543,8 +543,8 @@ export async function POST(request: NextRequest) {
 // GET /api/admin/search/suggest?q=query
 export async function GET(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 

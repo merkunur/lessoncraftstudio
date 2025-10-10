@@ -350,8 +350,8 @@ const activityService = new ActivityService();
 // GET /api/admin/profile/activity
 export async function GET(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -365,7 +365,7 @@ export async function GET(request: NextRequest) {
     const search = searchParams.get('search') || undefined;
     const stats = searchParams.get('stats') === 'true';
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
 
     if (stats) {
       const activityStats = activityService.getActivityStats(userId);
@@ -395,8 +395,8 @@ export async function GET(request: NextRequest) {
 // POST /api/admin/profile/activity/export
 export async function POST(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -409,7 +409,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const userId = session.user.id || 'user_1';
+    const userId = user.id || 'user_1';
     const data = await activityService.exportActivities(userId, format);
 
     const contentType = format === 'csv' ? 'text/csv' : 'application/json';

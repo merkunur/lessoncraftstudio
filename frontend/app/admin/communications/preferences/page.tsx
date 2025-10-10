@@ -5,6 +5,7 @@ import {
   Settings,
   Mail,
   Bell,
+  Users,
   UserCheck,
   UserX,
   Shield,

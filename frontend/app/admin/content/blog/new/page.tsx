@@ -273,7 +273,7 @@ export default function NewBlogPost() {
     <h1>${content.title}</h1>
     <div class="content">${content.content}</div>
 
-    ${sampleWorksheets.length > 0 ? `
+    ${sharedPDFs.length > 0 ? `
     <!-- Sample worksheets section -->
     <section class="sample-worksheets" data-category="${content.category}">
       <h2>${lang === 'en' ? 'Download Free Sample Worksheets' :
@@ -282,10 +282,9 @@ export default function NewBlogPost() {
         lang === 'es' ? 'Descargar hojas de trabajo gratuitas' :
         lang === 'sv' ? 'Ladda ner gratis arbetsblad' :
         'Download Free Sample Worksheets'}</h2>
-      ${sampleWorksheets.filter(w => w.languages.includes(lang)).map(w => `
+      ${sharedPDFs.map((w: any) => `
         <div class="worksheet-download">
-          <h3>${w.name}</h3>
-          <p>${w.description}</p>
+          <h3>${w.fileName}</h3>
           <a href="/blog/samples/${content.slug}/${w.fileName}" download class="download-btn" data-worksheet="${w.fileName}">
             <span>Download PDF</span>
             <span class="file-size">(${w.fileSize})</span>
@@ -324,13 +323,12 @@ export default function NewBlogPost() {
       formData.append('category', category);
 
       // Add PDF files
-      sampleWorksheets.forEach((worksheet, index) => {
+      sharedPDFs.forEach((worksheet: any, index: number) => {
         if (worksheet.file) {
           formData.append(`worksheet_${index}`, worksheet.file);
           formData.append(`worksheet_${index}_meta`, JSON.stringify({
-            name: worksheet.name,
-            description: worksheet.description,
-            languages: worksheet.languages
+            fileName: worksheet.fileName,
+            fileSize: worksheet.fileSize
           }));
         }
       });
@@ -389,13 +387,12 @@ export default function NewBlogPost() {
     <span>SEO Score: ${getSEOScore()}%</span>
   </div>
   <div class="content">${currentContent.content}</div>
-  ${sampleWorksheets.length > 0 ? `
+  ${sharedPDFs.length > 0 ? `
   <div class="samples">
     <h2>Sample Worksheets</h2>
-    ${sampleWorksheets.map(w => `
+    ${sharedPDFs.map((w: any) => `
       <div>
-        <strong>${w.title[currentLang] || w.title.en || 'Untitled'}</strong>
-        <p>${w.description[currentLang] || w.description.en || ''}</p>
+        <strong>${w.fileName}</strong>
         ${w.fileName ? `<span>File: ${w.fileName} (${w.fileSize})</span>` : '<span>No file uploaded</span>'}
       </div>
     `).join('')}

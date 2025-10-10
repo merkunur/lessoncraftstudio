@@ -52,12 +52,19 @@ export default function BillingDashboard() {
       router.replace('/en/dashboard/billing');
     }
 
+    // Refresh user context and fetch subscription details
+    checkAuth();
     fetchSubscriptionDetails();
   }, [searchParams]);
 
   const fetchSubscriptionDetails = async () => {
     try {
-      const response = await fetch('/api/stripe/subscription');
+      const token = localStorage.getItem('accessToken');
+      const response = await fetch('/api/stripe/subscription', {
+        headers: token ? {
+          'Authorization': `Bearer ${token}`,
+        } : {},
+      });
       if (response.ok) {
         const data = await response.json();
         if (data.status !== 'inactive') {

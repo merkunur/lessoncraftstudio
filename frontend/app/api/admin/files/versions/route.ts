@@ -270,8 +270,8 @@ const versioningService = new VersioningService();
 // GET /api/admin/files/versions?fileId=xxx
 export async function GET(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -317,8 +317,8 @@ export async function GET(request: NextRequest) {
 // POST /api/admin/files/versions
 export async function POST(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -361,8 +361,8 @@ export async function POST(request: NextRequest) {
 // PUT /api/admin/files/versions/promote
 export async function PUT(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -415,8 +415,8 @@ export async function PUT(request: NextRequest) {
 // DELETE /api/admin/files/versions
 export async function DELETE(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 

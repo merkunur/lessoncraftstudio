@@ -140,8 +140,8 @@ const securitySettings = new Map<string, SecuritySettings>([
 // GET /api/admin/profile/security
 export async function GET(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -180,8 +180,8 @@ export async function GET(request: NextRequest) {
 // POST /api/admin/profile/security/2fa/enable
 export async function POST(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -242,8 +242,8 @@ export async function POST(request: NextRequest) {
 // DELETE /api/admin/profile/security/2fa/disable
 export async function DELETE(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -287,8 +287,8 @@ export async function DELETE(request: NextRequest) {
 // POST /api/admin/profile/security/sessions/revoke
 export async function PUT(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -339,8 +339,8 @@ export async function PUT(request: NextRequest) {
 // POST /api/admin/profile/security/password
 export async function PATCH(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 

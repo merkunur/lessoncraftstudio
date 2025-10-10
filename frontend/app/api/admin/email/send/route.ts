@@ -91,8 +91,8 @@ const emailService = new EmailService();
 // POST /api/admin/email/send
 export async function POST(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -172,8 +172,8 @@ export async function POST(request: NextRequest) {
 // POST /api/admin/email/send/bulk
 export async function PUT(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user || session.user.role !== 'admin') {
+    const user = await getAuthUser(request);
+    if (!user || !user.isAdmin) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 

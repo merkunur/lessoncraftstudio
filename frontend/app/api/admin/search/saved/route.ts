@@ -83,8 +83,8 @@ const savedSearches: SavedSearch[] = [
 // GET /api/admin/search/saved - Get user's saved searches
 export async function GET(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -135,8 +135,8 @@ export async function GET(request: NextRequest) {
 // POST /api/admin/search/saved - Create a new saved search
 export async function POST(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -182,8 +182,8 @@ export async function POST(request: NextRequest) {
 // PUT /api/admin/search/saved/[id] - Update a saved search
 export async function PUT(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 
@@ -235,8 +235,8 @@ export async function PUT(request: NextRequest) {
 // DELETE /api/admin/search/saved/[id] - Delete a saved search
 export async function DELETE(request: NextRequest) {
   try {
-    const session = await getAuthUser(request);
-    if (!session?.user) {
+    const user = await getAuthUser(request);
+    if (!user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }
 

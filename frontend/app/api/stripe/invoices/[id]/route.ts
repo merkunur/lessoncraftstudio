@@ -74,8 +74,8 @@ export async function GET(
       // URLs
       invoiceUrl: invoice.hosted_invoice_url,
       invoicePdf: invoice.invoice_pdf,
-      receiptUrl: invoice.charge && typeof invoice.charge !== 'string'
-        ? invoice.charge.receipt_url
+      receiptUrl: (invoice as any).charge && typeof (invoice as any).charge !== 'string'
+        ? (invoice as any).charge.receipt_url
         : null,
 
       // Subscription info

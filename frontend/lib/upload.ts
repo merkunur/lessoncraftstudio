@@ -4,7 +4,7 @@ import sharp from 'sharp';
 
 // Storage paths
 export const STORAGE_PATHS = {
-  images: path.join(process.cwd(), 'public', 'images', 'library'),
+  images: path.join(process.cwd(), 'public', 'images'),
   borders: path.join(process.cwd(), 'public', 'images', 'borders'),
   backgrounds: path.join(process.cwd(), 'public', 'images', 'backgrounds'),
   trainTemplates: path.join(process.cwd(), 'public', 'images', 'train-templates'),

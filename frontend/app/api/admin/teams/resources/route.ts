@@ -509,10 +509,10 @@ export async function GET(request: NextRequest) {
 
     const tags = searchParams.getAll('tags');
     const result = await resourceService.getTeamResources(teamId, {
-      type,
-      parentId,
+      type: type || undefined,
+      parentId: parentId || undefined,
       tags,
-      search,
+      search: search || undefined,
       sortBy,
       limit,
       offset

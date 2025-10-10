@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { UserAnalytics } from '@/types/analytics';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/analytics/users - Get user analytics
 export async function GET(request: NextRequest) {
   try {

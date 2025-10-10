@@ -3,6 +3,8 @@ import { getCurrentUser } from '@/lib/auth';
 import { stripe } from '@/lib/stripe-server';
 import { prisma } from '@/lib/prisma';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/stripe/invoices - List all invoices for the authenticated user
 export async function GET(request: NextRequest) {
   try {

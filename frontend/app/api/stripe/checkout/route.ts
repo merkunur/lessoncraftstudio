@@ -6,6 +6,8 @@ import { SUBSCRIPTION_TIERS } from '@/lib/stripe-config';
 import { MOCK_MODE_ENABLED, createMockCheckoutSession, getMockCustomerId } from '@/lib/stripe-mock';
 import { mapToStripeLocale } from '@/lib/locale-utils';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/stripe/checkout - Create a checkout session
 export async function POST(request: NextRequest) {
   try {

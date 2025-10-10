@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { PricingPlan } from '@/types/stripe';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/billing/plans - Get available plans
 export async function GET(request: NextRequest) {
   try {

@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { SyntheticMonitor, MonitorRun } from '@/types/performance';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/performance/synthetic - Get synthetic monitors
 export async function GET(request: NextRequest) {
   try {

@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { PageSEO } from '@/types/seo';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/seo/pages - Get all pages with SEO data
 export async function GET(request: NextRequest) {
   try {

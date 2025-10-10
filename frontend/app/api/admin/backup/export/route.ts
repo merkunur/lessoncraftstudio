@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { DataExport } from '@/types/backup';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/admin/backup/export - Export data
 export async function POST(request: NextRequest) {
   try {

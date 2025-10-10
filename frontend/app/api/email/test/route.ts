@@ -3,6 +3,8 @@ import { verifyEmailConnection, getEmailProviderInfo } from '@/lib/email/config'
 import { sendEmail } from '@/lib/email';
 import { withAdmin } from '@/lib/server-auth';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * Test email configuration
  * Admin only - tests SMTP connection and optionally sends test email

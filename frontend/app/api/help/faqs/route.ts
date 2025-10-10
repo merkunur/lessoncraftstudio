@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { FAQItem } from '@/types/help';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/help/faqs - Get all FAQs
 export async function GET(request: NextRequest) {
   try {

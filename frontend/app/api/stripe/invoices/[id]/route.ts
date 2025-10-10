@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
 import { stripe, getInvoiceTax } from '@/lib/stripe-server';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/stripe/invoices/[id] - Get a specific invoice
 export async function GET(
   request: NextRequest,

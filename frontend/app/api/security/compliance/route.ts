@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { ComplianceReport, ComplianceRequirement } from '@/types/security';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/security/compliance - Get compliance reports
 export async function GET(request: NextRequest) {
   try {

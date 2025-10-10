@@ -2,6 +2,8 @@ import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
 
+export const dynamic = 'force-dynamic';
+
 export async function POST(request: Request) {
   try {
     const metadata = await request.json();

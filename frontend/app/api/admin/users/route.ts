@@ -4,6 +4,8 @@ import { prisma } from '@/lib/prisma';
 import { z } from 'zod';
 import bcrypt from 'bcryptjs';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/users - Get all users with filters
 export const GET = withAdminAuth(async (request: NextRequest) => {
   try {

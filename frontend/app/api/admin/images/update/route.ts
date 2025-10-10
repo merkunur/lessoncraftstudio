@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { PrismaClient, Prisma } from '@prisma/client';
 import { withCors } from '@/lib/cors';
 
+export const dynamic = 'force-dynamic';
+
 const prisma = new PrismaClient();
 
 /**

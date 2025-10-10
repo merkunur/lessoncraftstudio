@@ -3,6 +3,8 @@ import { prisma } from '@/lib/prisma';
 import { requireAdmin } from '@/lib/admin-auth';
 import { deleteFile } from '@/lib/upload';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/admin/images/batch - Batch operations
 export async function POST(request: NextRequest) {
   const adminCheck = await requireAdmin(request);

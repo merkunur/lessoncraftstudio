@@ -3,6 +3,8 @@ import { getCurrentUser } from '@/lib/auth';
 import { createPortalSession } from '@/lib/stripe-server';
 import { mapToStripeLocale } from '@/lib/locale-utils';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/stripe/portal - Create a billing portal session
 export async function POST(request: NextRequest) {
   try {

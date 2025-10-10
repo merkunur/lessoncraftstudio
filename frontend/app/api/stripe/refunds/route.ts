@@ -5,6 +5,8 @@ import { stripe } from '@/lib/stripe-server';
 import { prisma } from '@/lib/prisma';
 import { sendRefundConfirmationEmail } from '@/lib/email';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/stripe/refunds - Create a refund (Admin only)
 export async function POST(request: NextRequest) {
   try {

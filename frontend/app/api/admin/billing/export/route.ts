@@ -5,6 +5,8 @@ import { calculateChurnRate } from '@/lib/analytics/churn';
 import { getPaymentAnalytics } from '@/lib/analytics/payments';
 import { prisma } from '@/lib/prisma';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * GET /api/admin/billing/export?format=csv&type=subscriptions
  *

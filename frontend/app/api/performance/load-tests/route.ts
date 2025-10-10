@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { LoadTestResult } from '@/types/performance';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/performance/load-tests - Get load test results
 export async function GET(request: NextRequest) {
   try {

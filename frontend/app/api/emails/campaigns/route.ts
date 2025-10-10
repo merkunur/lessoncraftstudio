@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { EmailCampaign } from '@/types/email';
 
+export const dynamic = 'force-dynamic';
+
 // Mock campaign data
 const mockCampaigns: EmailCampaign[] = [
   {

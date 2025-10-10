@@ -3,6 +3,8 @@ import bcrypt from 'bcryptjs';
 import { prisma } from '@/lib/prisma';
 import { z } from 'zod';
 
+export const dynamic = 'force-dynamic';
+
 // Validation schema
 const registerSchema = z.object({
   email: z.string().email('Invalid email address'),

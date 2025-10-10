@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import imageLibraryManager from '@/lib/image-library-manager';
 
+export const dynamic = 'force-dynamic';
+
 export async function POST(request: NextRequest) {
   try {
     // Clear the image library manager cache

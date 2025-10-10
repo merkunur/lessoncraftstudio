@@ -5,6 +5,8 @@ import { prisma } from '@/lib/prisma';
 import { generateTokens } from '@/lib/auth-utils';
 import { parseDeviceInfo, getClientIP } from '@/lib/device-fingerprint-server';
 
+export const dynamic = 'force-dynamic';
+
 // Validation schema
 const forceSigninSchema = z.object({
   email: z.string().email('Invalid email address'),

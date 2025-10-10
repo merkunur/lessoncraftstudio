@@ -3,6 +3,8 @@ import { prisma } from '@/lib/prisma';
 import { requireAdmin } from '@/lib/admin-auth';
 import { unlink } from 'fs/promises';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/images/:id - Get single image
 export async function GET(
   request: NextRequest,

@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getAuthUser } from '@/lib/server-auth';
 import crypto from 'crypto';
 
+export const dynamic = 'force-dynamic';
+
 interface SecuritySettings {
   twoFactorEnabled: boolean;
   twoFactorMethod: 'authenticator' | 'sms' | 'email';

@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { ConfigurationItem } from '@/types/admin-tools';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/tools/configurations - Get all configurations
 export async function GET(request: NextRequest) {
   try {

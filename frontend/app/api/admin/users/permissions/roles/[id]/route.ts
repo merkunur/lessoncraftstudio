@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { withAdmin } from '@/lib/server-auth';
 
+export const dynamic = 'force-dynamic';
+
 // PATCH /api/admin/users/permissions/roles/[id] - Update role
 export const PATCH = withAdmin(async (
   request: NextRequest,

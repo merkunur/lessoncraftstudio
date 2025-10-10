@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { withAdmin } from '@/lib/server-auth';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/users/permissions/roles - List all roles
 export const GET = withAdmin(async (request: NextRequest) => {
   try {

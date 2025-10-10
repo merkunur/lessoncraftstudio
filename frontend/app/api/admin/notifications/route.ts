@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { withAdminAuth } from '@/lib/admin-auth';
 import { prisma } from '@/lib/prisma';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/notifications - Get admin notifications
 export const GET = withAdminAuth(async (request: NextRequest, user: any) => {
   try {

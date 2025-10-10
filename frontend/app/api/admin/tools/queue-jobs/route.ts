@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { QueueJob } from '@/types/admin-tools';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/tools/queue-jobs - Get queue jobs
 export async function GET(request: NextRequest) {
   try {

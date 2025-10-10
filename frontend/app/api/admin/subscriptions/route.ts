@@ -3,6 +3,8 @@ import { withAdminAuth } from '@/lib/admin-auth';
 import { prisma } from '@/lib/prisma';
 import Stripe from 'stripe';
 
+export const dynamic = 'force-dynamic';
+
 const stripe = new Stripe(process.env.STRIPE_SECRET_KEY!, {
   apiVersion: '2025-08-27.basil',
 });

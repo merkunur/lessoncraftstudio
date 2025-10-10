@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { SocialMediaPost } from '@/types/seo';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/marketing/social - Get social media posts
 export async function GET(request: NextRequest) {
   try {

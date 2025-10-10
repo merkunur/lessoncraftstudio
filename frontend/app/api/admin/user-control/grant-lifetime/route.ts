@@ -3,6 +3,8 @@ import { withAdmin } from '@/lib/server-auth';
 import { prisma } from '@/lib/prisma';
 import { handleApiError } from '@/lib/api-error';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * POST /api/admin/user-control/grant-lifetime
  * Grant lifetime access to a user (sets Full Access tier with no expiration)

@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Announcement } from '@/types/help';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/help/announcements - Get active announcements
 export async function GET(request: NextRequest) {
   try {

@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Backup } from '@/types/backup';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/backup/list - Get all backups
 export async function GET(request: NextRequest) {
   try {

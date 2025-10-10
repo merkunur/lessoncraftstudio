@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { EngagementMetrics } from '@/types/analytics';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/analytics/engagement - Get engagement metrics
 export async function GET(request: NextRequest) {
   try {

@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { SystemDiagnostics } from '@/types/admin-tools';
 import os from 'os';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/tools/diagnostics - Get system diagnostics
 export async function GET(request: NextRequest) {
   try {

@@ -3,6 +3,8 @@ import { prisma } from '@/lib/prisma';
 import { extractBearerToken, verifyAccessToken } from '@/lib/auth-utils';
 import jwt from 'jsonwebtoken';
 
+export const dynamic = 'force-dynamic';
+
 export async function POST(request: NextRequest) {
   try {
     const authHeader = request.headers.get('authorization');

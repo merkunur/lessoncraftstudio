@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getAuthUser } from '@/lib/server-auth';
 
+export const dynamic = 'force-dynamic';
+
 interface SearchLog {
   id: string;
   query: string;

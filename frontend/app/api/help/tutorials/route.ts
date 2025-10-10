@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Tutorial } from '@/types/help';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/help/tutorials - Get all tutorials
 export async function GET(request: NextRequest) {
   try {

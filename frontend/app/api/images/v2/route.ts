@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic';
+
 const DIRECTUS_URL = process.env.DIRECTUS_URL || 'http://lcs-directus:8055';
 const API_TOKEN = 'static-api-token-for-sync';
 

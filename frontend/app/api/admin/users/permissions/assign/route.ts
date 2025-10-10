@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { withAdmin } from '@/lib/server-auth';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/admin/users/permissions/assign - Assign role to user
 export const POST = withAdmin(async (request: NextRequest) => {
   try {

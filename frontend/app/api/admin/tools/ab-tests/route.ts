@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { ABTest } from '@/types/admin-tools';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/tools/ab-tests - Get all A/B tests
 export async function GET(request: NextRequest) {
   try {

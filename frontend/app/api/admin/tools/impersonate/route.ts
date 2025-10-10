@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { UserImpersonation } from '@/types/admin-tools';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/admin/tools/impersonate - Start user impersonation
 export async function POST(request: NextRequest) {
   try {

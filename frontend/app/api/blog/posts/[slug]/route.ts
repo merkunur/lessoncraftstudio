@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { z } from 'zod';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/blog/posts/[slug] - Get a single blog post
 export async function GET(
   request: NextRequest,

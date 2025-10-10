@@ -4,6 +4,8 @@ import { prisma } from '@/lib/prisma';
 import { generateTokens } from '@/lib/auth-utils';
 import { sendWelcomeEmail } from '@/lib/email';
 
+export const dynamic = 'force-dynamic';
+
 const verifyEmailSchema = z.object({
   token: z.string().min(1, 'Verification token is required'),
 });

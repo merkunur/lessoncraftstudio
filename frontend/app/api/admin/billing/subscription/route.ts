@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Subscription } from '@/types/stripe';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/billing/subscription - Get current subscription
 export async function GET(request: NextRequest) {
   try {

@@ -3,6 +3,8 @@ import { getCurrentUser } from '@/lib/auth';
 import { prisma } from '@/lib/prisma';
 import { handleApiError } from '@/lib/api-error';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * DELETE /api/support/tickets/[ticketId]
  * Delete a support ticket (user can only delete their own tickets)

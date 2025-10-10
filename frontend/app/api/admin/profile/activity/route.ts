@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getAuthUser } from '@/lib/server-auth';
 
+export const dynamic = 'force-dynamic';
+
 interface ActivityEvent {
   id: string;
   type: 'login' | 'logout' | 'create' | 'update' | 'delete' | 'share' | 'download' | 'view' | 'settings' | 'payment';

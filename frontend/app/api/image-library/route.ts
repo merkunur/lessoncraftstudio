@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
 
+export const dynamic = 'force-dynamic';
+
 // When running in Docker, use host.docker.internal to access host machine
 const STRAPI_URL = 'http://host.docker.internal:1337';
 

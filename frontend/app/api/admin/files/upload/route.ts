@@ -3,6 +3,8 @@ import { getAuthUser } from '@/lib/server-auth';
 import path from 'path';
 import { v4 as uuidv4 } from 'uuid';
 
+export const dynamic = 'force-dynamic';
+
 interface UploadedFile {
   id: string;
   name: string;

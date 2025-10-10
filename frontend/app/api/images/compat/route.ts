@@ -4,6 +4,8 @@
 import { NextResponse } from 'next/server';
 import imageLibraryManager from '@/lib/image-library-manager';
 
+export const dynamic = 'force-dynamic';
+
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const theme = searchParams.get('theme');

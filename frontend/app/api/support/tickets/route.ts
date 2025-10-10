@@ -4,6 +4,8 @@ import { prisma } from '@/lib/prisma';
 import { handleApiError } from '@/lib/api-error';
 import { z } from 'zod';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * POST /api/support/tickets
  * Create a new support ticket

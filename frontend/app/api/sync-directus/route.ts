@@ -3,6 +3,8 @@ import fs from 'fs';
 import path from 'path';
 import imageLibraryManager from '@/lib/image-library-manager';
 
+export const dynamic = 'force-dynamic';
+
 const DIRECTUS_URL = process.env.DIRECTUS_INTERNAL_URL || 'http://lcs-directus:8055';
 const ADMIN_EMAIL = 'admin@lessoncraftstudio.com';
 const ADMIN_PASSWORD = 'admin123!';

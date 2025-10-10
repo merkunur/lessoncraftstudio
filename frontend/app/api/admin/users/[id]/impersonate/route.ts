@@ -4,6 +4,8 @@ import { prisma } from '@/lib/prisma';
 import jwt from 'jsonwebtoken';
 import { cookies } from 'next/headers';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/admin/users/[id]/impersonate - Impersonate a user
 export const POST = withAdminAuth(async (request: NextRequest, adminUser: any, context: { params: Promise<{ id: string }> }) => {
   try {

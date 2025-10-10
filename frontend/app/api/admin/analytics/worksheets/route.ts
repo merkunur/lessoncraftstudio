@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { WorksheetAnalytics } from '@/types/analytics';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/analytics/worksheets - Get worksheet analytics
 export async function GET(request: NextRequest) {
   try {

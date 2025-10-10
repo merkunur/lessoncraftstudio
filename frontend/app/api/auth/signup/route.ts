@@ -6,6 +6,8 @@ import { prisma } from '@/lib/prisma';
 import { generateVerificationToken, generateTokens } from '@/lib/auth-utils';
 import { sendVerificationEmail } from '@/lib/email';
 
+export const dynamic = 'force-dynamic';
+
 // Validation schema
 const signupSchema = z.object({
   email: z.string().email('Invalid email address'),

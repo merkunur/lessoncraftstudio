@@ -3,6 +3,8 @@ import { prisma } from '@/lib/prisma';
 import { requireAdmin } from '@/lib/admin-auth';
 import { deleteFile } from '@/lib/upload';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/blog/pdfs/:id - Get single PDF
 export async function GET(
   request: NextRequest,

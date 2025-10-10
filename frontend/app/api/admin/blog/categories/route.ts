@@ -3,6 +3,8 @@ import { requireAdmin } from '@/lib/admin-auth';
 import fs from 'fs/promises';
 import path from 'path';
 
+export const dynamic = 'force-dynamic';
+
 const CATEGORIES_FILE_PATH = path.join(
   process.cwd(),
   'public',

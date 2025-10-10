@@ -4,6 +4,8 @@ import { prisma } from '@/lib/prisma';
 import { stripe } from '@/lib/stripe-server';
 import { handleApiError } from '@/lib/api-error';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * POST /api/admin/user-control/refund
  * Refund a payment for a user

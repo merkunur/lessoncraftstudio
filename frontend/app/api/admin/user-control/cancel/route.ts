@@ -5,6 +5,8 @@ import { stripe } from '@/lib/stripe-server';
 import { cancelSubscriptionSchema } from '@/lib/validations/subscription';
 import { handleApiError } from '@/lib/api-error';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * POST /api/admin/user-control/cancel
  * Cancel a user's subscription

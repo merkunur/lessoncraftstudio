@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import imageLibraryManager from '@/lib/image-library-manager';
 
+export const dynamic = 'force-dynamic';
+
 // Translation dictionary for theme names (kept for backward compatibility)
 const themeTranslations: Record<string, Record<string, string>> = {
   'alphabet': {

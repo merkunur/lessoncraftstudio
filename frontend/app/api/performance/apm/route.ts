@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { ApplicationPerformance, ServiceMetric } from '@/types/performance';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/performance/apm - Get Application Performance data
 export async function GET(request: NextRequest) {
   try {

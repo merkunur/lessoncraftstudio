@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { withAdmin } from '@/lib/server-auth';
 import { prisma } from '@/lib/prisma';
 
+export const dynamic = 'force-dynamic';
+
 export const GET = withAdmin(async (request: NextRequest) => {
   try {
     const categories = await prisma.blogCategory.findMany({

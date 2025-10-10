@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { UsageRecord } from '@/types/stripe';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/billing/usage - Get usage statistics
 export async function GET(request: NextRequest) {
   try {

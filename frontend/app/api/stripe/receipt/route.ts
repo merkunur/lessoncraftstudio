@@ -4,6 +4,8 @@ import { stripe } from '@/lib/stripe-server';
 import { prisma } from '@/lib/prisma';
 import { jsPDF } from 'jspdf';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/stripe/receipt - Generate receipt PDF
 export async function POST(request: NextRequest) {
   try {

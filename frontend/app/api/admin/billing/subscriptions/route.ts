@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { withAdmin } from '@/lib/server-auth';
 import { prisma } from '@/lib/prisma';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * GET /api/admin/billing/subscriptions
  *

@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { generateSitemapXML } from '@/lib/seo-utils';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/admin/seo/sitemap - Generate sitemap
 export async function POST(request: NextRequest) {
   try {

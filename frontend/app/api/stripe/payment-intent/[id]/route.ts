@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getCurrentUser } from '@/lib/auth';
 import { stripe } from '@/lib/stripe-server';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/stripe/payment-intent/[id] - Get payment intent details
 export async function GET(
   request: NextRequest,

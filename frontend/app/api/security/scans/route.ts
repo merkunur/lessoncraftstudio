@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { SecurityScan, SecurityFinding } from '@/types/security';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/security/scans - Get security scans and findings
 export async function GET(request: NextRequest) {
   try {

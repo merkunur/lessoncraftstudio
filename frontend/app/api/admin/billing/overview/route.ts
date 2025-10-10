@@ -6,6 +6,8 @@ import { getPaymentAnalytics } from '@/lib/analytics/payments';
 import { calculateLTV } from '@/lib/analytics/ltv';
 import { prisma } from '@/lib/prisma';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * GET /api/admin/billing/overview
  *

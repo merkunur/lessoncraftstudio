@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { requireAdmin } from '@/lib/admin-auth';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/blog/posts - List all blog posts
 export async function GET(request: NextRequest) {
   const adminCheck = await requireAdmin(request);

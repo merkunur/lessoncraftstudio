@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { ConversionFunnel } from '@/types/analytics';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/analytics/funnels - Get conversion funnels
 export async function GET(request: NextRequest) {
   try {

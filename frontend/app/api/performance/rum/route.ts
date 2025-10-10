@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { RealUserMonitoring, WebVital } from '@/types/performance';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/performance/rum - Get Real User Monitoring data
 export async function GET(request: NextRequest) {
   try {

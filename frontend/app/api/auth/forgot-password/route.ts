@@ -4,6 +4,8 @@ import { prisma } from '@/lib/prisma';
 import { generatePasswordResetToken, hashToken } from '@/lib/auth-utils';
 import { sendPasswordResetEmail } from '@/lib/email';
 
+export const dynamic = 'force-dynamic';
+
 const forgotPasswordSchema = z.object({
   email: z.string().email('Invalid email address'),
   language: z.string().optional().default('en'),

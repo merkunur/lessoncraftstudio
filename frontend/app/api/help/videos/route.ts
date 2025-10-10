@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { VideoGuide } from '@/types/help';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/help/videos - Get all video guides
 export async function GET(request: NextRequest) {
   try {

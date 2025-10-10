@@ -3,6 +3,8 @@ import { getAuthUser } from '@/lib/server-auth';
 import { WebSocketServer } from 'ws';
 import { Server } from 'http';
 
+export const dynamic = 'force-dynamic';
+
 // WebSocket connection types
 interface WSClient {
   id: string;

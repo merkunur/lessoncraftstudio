@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
 
+export const dynamic = 'force-dynamic';
+
 export async function DELETE(
   request: NextRequest,
   { params }: { params: { slug: string; fileName: string } }

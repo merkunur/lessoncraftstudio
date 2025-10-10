@@ -3,6 +3,8 @@ import { withAdmin } from '@/lib/server-auth';
 import { getPaymentFailureBreakdown, getDunningRecoveryStats } from '@/lib/analytics/payments';
 import { prisma } from '@/lib/prisma';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * GET /api/admin/billing/failures
  *

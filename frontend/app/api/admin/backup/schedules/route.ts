@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { BackupSchedule } from '@/types/backup';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/backup/schedules - Get backup schedules
 export async function GET(request: NextRequest) {
   try {

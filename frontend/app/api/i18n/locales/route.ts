@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Locale } from '@/types/i18n';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/i18n/locales - Get available locales
 export async function GET(request: NextRequest) {
   try {

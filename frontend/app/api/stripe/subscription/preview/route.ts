@@ -5,6 +5,8 @@ import { stripe } from '@/lib/stripe-server';
 import { SUBSCRIPTION_TIERS } from '@/lib/stripe-config';
 import { prisma } from '@/lib/prisma';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/stripe/subscription/preview - Preview subscription change with proration
 export async function POST(request: NextRequest) {
   try {

@@ -4,6 +4,8 @@ import { getMRRTrend } from '@/lib/analytics/revenue';
 import { getChurnTrend } from '@/lib/analytics/churn';
 import { prisma } from '@/lib/prisma';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * GET /api/admin/billing/revenue
  *

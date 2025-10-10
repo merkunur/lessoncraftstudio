@@ -4,6 +4,8 @@ import { prisma } from '@/lib/prisma';
 import { z } from 'zod';
 import bcrypt from 'bcryptjs';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/users/[id] - Get user details
 export const GET = withAdminAuth(async (request: NextRequest, adminUser: any, context: { params: Promise<{ id: string }> }) => {
   try {

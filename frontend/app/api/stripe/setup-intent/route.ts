@@ -3,6 +3,8 @@ import { getCurrentUser } from '@/lib/auth';
 import { stripe } from '@/lib/stripe-server';
 import { prisma } from '@/lib/prisma';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/stripe/setup-intent - Create a SetupIntent for adding payment methods
 export async function POST(request: NextRequest) {
   try {

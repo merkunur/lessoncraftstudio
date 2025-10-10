@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { AuditLog } from '@/types/security';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/security/audit - Get audit logs
 export async function GET(request: NextRequest) {
   try {

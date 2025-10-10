@@ -4,6 +4,8 @@ import { getCurrentUser } from '@/lib/auth';
 import { stripe } from '@/lib/stripe-server';
 import { prisma } from '@/lib/prisma';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/stripe/payment-methods - List all payment methods for the customer
 export async function GET(request: NextRequest) {
   try {

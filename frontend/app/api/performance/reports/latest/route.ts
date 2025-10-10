@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { PerformanceReport } from '@/types/performance';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/performance/reports/latest - Get latest performance report
 export async function GET(request: NextRequest) {
   try {

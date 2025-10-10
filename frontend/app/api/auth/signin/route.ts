@@ -4,6 +4,8 @@ import { z } from 'zod';
 import { prisma } from '@/lib/prisma';
 import { generateTokens } from '@/lib/auth-utils';
 
+export const dynamic = 'force-dynamic';
+
 // Validation schema
 const signinSchema = z.object({
   email: z.string().email('Invalid email address'),

@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { parseDeviceInfo, getClientIP, detectSuspiciousActivity } from '@/lib/device-fingerprint-server';
 
+export const dynamic = 'force-dynamic';
+
 const MAX_CONCURRENT_SESSIONS = 1;
 
 /**

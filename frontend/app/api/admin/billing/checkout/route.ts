@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { CheckoutSession } from '@/types/stripe';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/admin/billing/checkout - Create checkout session
 export async function POST(request: NextRequest) {
   try {

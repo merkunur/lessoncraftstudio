@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { PaymentMethod } from '@/types/stripe';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/billing/payment-methods - Get payment methods
 export async function GET(request: NextRequest) {
   try {

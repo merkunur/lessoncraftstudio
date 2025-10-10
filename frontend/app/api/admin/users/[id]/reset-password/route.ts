@@ -4,6 +4,8 @@ import { prisma } from '@/lib/prisma';
 import crypto from 'crypto';
 import { sendEmail } from '@/lib/email';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/admin/users/[id]/reset-password - Send password reset email
 export const POST = withAdminAuth(async (request: NextRequest, adminUser: any, context: { params: Promise<{ id: string }> }) => {
   try {

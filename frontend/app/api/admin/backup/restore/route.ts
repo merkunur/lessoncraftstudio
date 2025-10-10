@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { RestoreOperation } from '@/types/backup';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/admin/backup/restore - Initiate restore operation
 export async function POST(request: NextRequest) {
   try {

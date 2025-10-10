@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import imageLibraryManager from '@/lib/image-library-manager';
 
+export const dynamic = 'force-dynamic';
+
 // Webhook secret for security (should be in env vars)
 const WEBHOOK_SECRET = process.env.DIRECTUS_WEBHOOK_SECRET || 'your-webhook-secret-here';
 

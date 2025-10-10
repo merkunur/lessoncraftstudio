@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { BackupHealth } from '@/types/backup';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/backup/health - Get backup system health
 export async function GET(request: NextRequest) {
   try {

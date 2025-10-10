@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { EmailTemplate } from '@/types/email';
 import { validateEmailTemplate } from '@/lib/email-utils';
 
+export const dynamic = 'force-dynamic';
+
 // Mock data for development
 const mockTemplates: EmailTemplate[] = [
   {

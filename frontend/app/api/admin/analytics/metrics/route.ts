@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { AnalyticsMetric } from '@/types/analytics';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/analytics/metrics - Get key metrics
 export async function GET(request: NextRequest) {
   try {

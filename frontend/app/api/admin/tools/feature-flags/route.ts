@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { FeatureFlag } from '@/types/admin-tools';
 
+export const dynamic = 'force-dynamic';
+
 // GET /api/admin/tools/feature-flags - Get all feature flags
 export async function GET(request: NextRequest) {
   try {

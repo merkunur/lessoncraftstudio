@@ -3,6 +3,8 @@ import { withAdmin } from '@/lib/server-auth';
 import { prisma } from '@/lib/prisma';
 import { handleApiError } from '@/lib/api-error';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * PATCH /api/admin/support-tickets/[ticketId]
  * Update a support ticket (status, response, etc.)

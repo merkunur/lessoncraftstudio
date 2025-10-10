@@ -1,5 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/admin/tools/feature-flags/[id]/toggle - Toggle feature flag
 export async function POST(
   request: NextRequest,

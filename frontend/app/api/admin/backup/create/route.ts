@@ -2,6 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import { Backup } from '@/types/backup';
 import { generateBackupName } from '@/lib/backup-utils';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/admin/backup/create - Create manual backup
 export async function POST(request: NextRequest) {
   try {

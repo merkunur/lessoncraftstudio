@@ -4,6 +4,8 @@ import path from 'path';
 import { getTranslatedThemeName } from '../multilingual-images/translations';
 import { prisma } from '@/lib/prisma';
 
+export const dynamic = 'force-dynamic';
+
 // Use Docker service name when running in container, localhost for local dev
 const DIRECTUS_URL = process.env.DIRECTUS_URL || 'http://lcs-directus:8055';
 const API_TOKEN = 'static-api-token-for-sync';

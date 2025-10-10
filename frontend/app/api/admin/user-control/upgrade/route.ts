@@ -4,6 +4,8 @@ import { prisma } from '@/lib/prisma';
 import { upgradeUserSchema } from '@/lib/validations/subscription';
 import { handleApiError } from '@/lib/api-error';
 
+export const dynamic = 'force-dynamic';
+
 /**
  * POST /api/admin/user-control/upgrade
  * Upgrade a user's subscription tier

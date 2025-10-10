@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { generateRobotsTxt } from '@/lib/seo-utils';
 
+export const dynamic = 'force-dynamic';
+
 // POST /api/admin/seo/robots - Generate robots.txt
 export async function POST(request: NextRequest) {
   try {

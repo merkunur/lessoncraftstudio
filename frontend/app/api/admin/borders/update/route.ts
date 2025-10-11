@@ -1,10 +1,11 @@
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { withAdmin } from '@/lib/auth-middleware';
 
 export const dynamic = 'force-dynamic';
 
-export async function POST(request: Request) {
+async function postHandler(request: NextRequest, userId: string) {
   try {
     const metadata = await request.json();
 
@@ -44,7 +45,7 @@ export async function POST(request: Request) {
   }
 }
 
-export async function GET() {
+async function getHandler(request: NextRequest, userId: string) {
   try {
     const metadataPath = path.join(process.cwd(), 'public', 'data', 'borders-metadata.json');
 
@@ -67,7 +68,7 @@ export async function GET() {
   }
 }
 
-export async function DELETE(request: Request) {
+async function deleteHandler(request: NextRequest, userId: string) {
   try {
     const { searchParams } = new URL(request.url);
     const themeId = searchParams.get('themeId');
@@ -120,3 +121,8 @@ export async function DELETE(request: Request) {
     );
   }
 }
+
+// Export handlers with admin authentication
+export const GET = async (request: NextRequest) => withAdmin(request, getHandler);
+export const POST = async (request: NextRequest) => withAdmin(request, postHandler);
+export const DELETE = async (request: NextRequest) => withAdmin(request, deleteHandler);

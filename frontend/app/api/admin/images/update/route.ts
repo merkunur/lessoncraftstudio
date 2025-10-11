@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { PrismaClient, Prisma } from '@prisma/client';
 import { withCors } from '@/lib/cors';
+import { withAdmin } from '@/lib/auth-middleware';
 
 export const dynamic = 'force-dynamic';
 
@@ -10,7 +11,7 @@ const prisma = new PrismaClient();
  * GET /api/admin/images/update
  * Retrieves all image themes and their associated images from database
  */
-async function getHandler(request: NextRequest) {
+async function getHandler(request: NextRequest, userId: string) {
   try {
     // Get type from query params (images, borders, backgrounds, train, worksheet)
     const { searchParams } = new URL(request.url);
@@ -83,7 +84,7 @@ async function getHandler(request: NextRequest) {
  * Updates image metadata (translations, display names) in database
  * This does NOT handle file uploads - use /api/admin/images/upload for that
  */
-async function postHandler(request: NextRequest) {
+async function postHandler(request: NextRequest, userId: string) {
   try {
     const body = await request.json();
 
@@ -219,7 +220,7 @@ async function postHandler(request: NextRequest) {
  * DELETE /api/admin/images/update
  * Deletes a theme or specific images
  */
-async function deleteHandler(request: NextRequest) {
+async function deleteHandler(request: NextRequest, userId: string) {
   try {
     const { searchParams } = new URL(request.url);
     const themeId = searchParams.get('themeId');
@@ -260,10 +261,10 @@ async function deleteHandler(request: NextRequest) {
   }
 }
 
-// Export wrapped handlers with CORS support
-export const GET = withCors(getHandler);
-export const POST = withCors(postHandler);
-export const DELETE = withCors(deleteHandler);
+// Export wrapped handlers with CORS and Admin authentication
+export const GET = withCors(async (request: NextRequest) => withAdmin(request, getHandler));
+export const POST = withCors(async (request: NextRequest) => withAdmin(request, postHandler));
+export const DELETE = withCors(async (request: NextRequest) => withAdmin(request, deleteHandler));
 
 // Handle OPTIONS preflight requests
 export async function OPTIONS(request: NextRequest) {

@@ -1,7 +1,7 @@
 export const dynamic = 'force-dynamic';
 
 import { NextRequest, NextResponse } from 'next/server';
-import { requireAdmin } from '@/lib/admin-auth';
+import { withAdmin } from '@/lib/auth-middleware';
 import {
   validateImageFile,
   generateUniqueFilename,
@@ -16,24 +16,7 @@ import path from 'path';
 initializeStorage();
 
 // POST /api/admin/backgrounds/upload - Upload new background image(s)
-export async function POST(request: NextRequest) {
-  // Allow development mode without authentication
-  let adminUser;
-  if (process.env.NODE_ENV === 'development') {
-    adminUser = {
-      id: 'dev-admin',
-      email: 'dev@localhost',
-      isAdmin: true,
-      firstName: 'Dev',
-      lastName: 'Admin'
-    };
-  } else {
-    const adminCheck = await requireAdmin(request);
-    if (adminCheck instanceof NextResponse) {
-      return adminCheck;
-    }
-    adminUser = adminCheck;
-  }
+async function postHandler(request: NextRequest, userId: string) {
 
   try {
     const formData = await request.formData();
@@ -172,3 +155,6 @@ export async function POST(request: NextRequest) {
     );
   }
 }
+
+// Export handler with admin authentication
+export const POST = async (request: NextRequest) => withAdmin(request, postHandler);

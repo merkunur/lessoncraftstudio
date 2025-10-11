@@ -459,6 +459,102 @@
             font-weight: 500;
             color: #4a5568;
         }
+
+        /* Login overlay styles */
+        .login-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            z-index: 3000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login-overlay.active {
+            display: flex;
+        }
+
+        .login-box {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 400px;
+            width: 90%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .login-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .login-header h2 {
+            font-size: 28px;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .login-header p {
+            color: #718096;
+            font-size: 14px;
+        }
+
+        .login-input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            font-size: 14px;
+            margin-bottom: 15px;
+            transition: all 0.3s;
+        }
+
+        .login-input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .login-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .login-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .login-error {
+            background: #fee;
+            color: #c33;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 14px;
+            display: none;
+        }
+
+        .login-error.show {
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -580,6 +676,37 @@
         </div>
     </div>
 
+    <!-- Login Overlay -->
+    <div class="login-overlay" id="loginOverlay">
+        <div class="login-box">
+            <div class="login-header">
+                <h2>🔒 Admin Login</h2>
+                <p>Please sign in to manage content</p>
+            </div>
+            <div class="login-error" id="loginError"></div>
+            <form id="loginForm" onsubmit="handleLogin(event)">
+                <input
+                    type="email"
+                    class="login-input"
+                    id="loginEmail"
+                    placeholder="Email address"
+                    value="admin@lessoncraftstudio.com"
+                    required
+                >
+                <input
+                    type="password"
+                    class="login-input"
+                    id="loginPassword"
+                    placeholder="Password"
+                    required
+                >
+                <button type="submit" class="login-btn" id="loginBtn">
+                    Sign In
+                </button>
+            </form>
+        </div>
+    </div>
+
     <div class="toast" id="toast"></div>
 
     <script>
@@ -596,21 +723,97 @@
             const token = getAuthToken();
 
             if (!token) {
-                showToast('Please log in to use this manager', 'error');
-                // Redirect to login if no token
-                setTimeout(() => {
-                    window.location.href = '/auth/signin?redirect=' + encodeURIComponent(window.location.pathname);
-                }, 1500);
+                showLoginOverlay();
                 throw new Error('No auth token');
             }
 
-            return fetch(url, {
+            const response = await fetch(url, {
                 ...options,
                 headers: {
                     ...options.headers,
                     'Authorization': `Bearer ${token}`,
                 },
             });
+
+            // If we get 401, token might be expired - show login again
+            if (response.status === 401) {
+                showLoginOverlay();
+                throw new Error('Authentication required');
+            }
+
+            return response;
+        }
+
+        // Show login overlay
+        function showLoginOverlay() {
+            document.getElementById('loginOverlay').classList.add('active');
+            document.getElementById('loginPassword').value = ''; // Clear password
+            document.getElementById('loginEmail').focus();
+        }
+
+        // Hide login overlay
+        function hideLoginOverlay() {
+            document.getElementById('loginOverlay').classList.remove('active');
+        }
+
+        // Handle login form submission
+        async function handleLogin(event) {
+            event.preventDefault();
+
+            const email = document.getElementById('loginEmail').value;
+            const password = document.getElementById('loginPassword').value;
+            const loginBtn = document.getElementById('loginBtn');
+            const loginError = document.getElementById('loginError');
+
+            // Clear previous errors
+            loginError.classList.remove('show');
+            loginError.textContent = '';
+
+            // Disable button during login
+            loginBtn.disabled = true;
+            loginBtn.textContent = 'Signing in...';
+
+            try {
+                const response = await fetch(`${API_URL}/api/auth/signin`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ email, password }),
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+
+                    // Store token
+                    if (data.accessToken) {
+                        localStorage.setItem('accessToken', data.accessToken);
+
+                        // Hide login overlay
+                        hideLoginOverlay();
+
+                        // Show success message
+                        showToast('Successfully logged in!', 'success');
+
+                        // Load content
+                        loadContent(currentType || 'images');
+                    } else {
+                        throw new Error('No access token received');
+                    }
+                } else {
+                    const error = await response.json();
+                    loginError.textContent = error.error || 'Invalid email or password';
+                    loginError.classList.add('show');
+                }
+            } catch (error) {
+                console.error('Login error:', error);
+                loginError.textContent = 'Login failed. Please try again.';
+                loginError.classList.add('show');
+            } finally {
+                // Re-enable button
+                loginBtn.disabled = false;
+                loginBtn.textContent = 'Sign In';
+            }
         }
 
         const languages = [
@@ -637,9 +840,18 @@
         // Initialize
         document.addEventListener('DOMContentLoaded', function() {
             initializeEventListeners();
-            loadContent('images');
             setupTranslationFields();
             setupThemeTranslationFields();
+
+            // Check if user is authenticated
+            const token = getAuthToken();
+            if (!token) {
+                // Show login overlay immediately
+                showLoginOverlay();
+            } else {
+                // Load content if already authenticated
+                loadContent('images');
+            }
         });
 
         function initializeEventListeners() {

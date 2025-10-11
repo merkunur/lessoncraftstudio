@@ -1940,8 +1940,8 @@
 
             const userAddedObjects = canvas.getObjects().filter(o => !o.isWorksheetItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
 
-            // Remove existing header and borders
-            const oldHeadersAndBorders = canvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
+            // Remove existing header and borders (including subtitle to prevent duplication)
+            const oldHeadersAndBorders = canvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement || o.isHeaderDesc);
             oldHeadersAndBorders.forEach(o => canvas.remove(o));
 
             // Create and add header with borders

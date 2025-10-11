@@ -707,6 +707,7 @@
             <button class="tab active" onclick="switchTab('navigation')">Navigation</button>
             <button class="tab" onclick="switchTab('hero')">Hero Section</button>
             <button class="tab" onclick="switchTab('features')">Features</button>
+            <button class="tab" onclick="switchTab('apps')">Apps</button>
             <button class="tab" onclick="switchTab('samples')">Samples</button>
             <button class="tab" onclick="switchTab('pricing')">Pricing</button>
             <button class="tab" onclick="switchTab('footer')">Footer</button>
@@ -792,10 +793,59 @@
         </div>
     </div>
 
+    <!-- App Edit Modal -->
+    <div id="app-modal" class="modal">
+        <div class="modal-content" style="max-width: 1000px;">
+            <div class="modal-header">
+                <h3>Edit App</h3>
+                <button class="modal-close" onclick="closeAppModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="grid-2">
+                    <div class="form-group">
+                        <label>Icon (Emoji)</label>
+                        <input type="text" id="app-icon" placeholder="➕" maxlength="2">
+                    </div>
+                    <div class="form-group">
+                        <label>URL</label>
+                        <input type="text" id="app-url" placeholder="/worksheet-generators/app.html">
+                    </div>
+                </div>
+                <div class="grid-2">
+                    <div class="form-group">
+                        <label>Category</label>
+                        <select id="app-category">
+                            <option value="Math">Math</option>
+                            <option value="Language">Language</option>
+                            <option value="Logic">Logic</option>
+                            <option value="Art">Art</option>
+                            <option value="Visual">Visual</option>
+                            <option value="Game">Game</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Tier</label>
+                        <select id="app-tier">
+                            <option value="free">Free</option>
+                            <option value="core">Core</option>
+                            <option value="full">Full</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="app-translations"></div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeAppModal()">Cancel</button>
+                <button class="btn btn-success" onclick="saveApp()">Save App</button>
+            </div>
+        </div>
+    </div>
+
     <script>
         let homepageContent = {};
         let currentFeatureIndex = -1;
         let currentPricingIndex = -1;
+        let currentAppIndex = -1;
         const languages = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
         const languageNames = {
             en: 'English',
@@ -811,6 +861,210 @@
             fi: 'Finnish'
         };
 
+        // Default apps data from dashboard with all translations
+        function getDefaultAppsData() {
+            return {
+                appsSection: {
+                    title: {
+                        en: 'Our Apps', de: 'Unsere Apps', fr: 'Nos applications', es: 'Nuestras aplicaciones',
+                        it: 'Le nostre app', pt: 'Nossos aplicativos', nl: 'Onze apps', sv: 'Våra appar',
+                        da: 'Vores apps', no: 'Våre apper', fi: 'Sovelluksemme'
+                    },
+                    subtitle: {
+                        en: 'Explore our collection of worksheet generators', de: 'Erkunden Sie unsere Sammlung von Arbeitsblatt-Generatoren',
+                        fr: 'Explorez notre collection de générateurs de feuilles de travail', es: 'Explora nuestra colección de generadores de hojas de trabajo',
+                        it: 'Esplora la nostra collezione di generatori di fogli di lavoro', pt: 'Explore nossa coleção de geradores de planilhas',
+                        nl: 'Verken onze collectie werkbladgeneratoren', sv: 'Utforska vår samling av arbetsbladsgeneratorer',
+                        da: 'Udforsk vores samling af regnearksgeneratorer', no: 'Utforsk vår samling av regnearkgeneratorer',
+                        fi: 'Tutustu työarkkien luontiohjelmien kokoelmaamme'
+                    },
+                    categories: {
+                        Math: { en: 'Math', de: 'Mathematik', fr: 'Mathématiques', es: 'Matemáticas', it: 'Matematica', pt: 'Matemática', nl: 'Wiskunde', sv: 'Matematik', da: 'Matematik', no: 'Matematikk', fi: 'Matematiikka' },
+                        Language: { en: 'Language', de: 'Sprache', fr: 'Langue', es: 'Idioma', it: 'Lingua', pt: 'Idioma', nl: 'Taal', sv: 'Språk', da: 'Sprog', no: 'Språk', fi: 'Kieli' },
+                        Logic: { en: 'Logic', de: 'Logik', fr: 'Logique', es: 'Lógica', it: 'Logica', pt: 'Lógica', nl: 'Logica', sv: 'Logik', da: 'Logik', no: 'Logikk', fi: 'Logiikka' },
+                        Art: { en: 'Art', de: 'Kunst', fr: 'Art', es: 'Arte', it: 'Arte', pt: 'Arte', nl: 'Kunst', sv: 'Konst', da: 'Kunst', no: 'Kunst', fi: 'Taide' },
+                        Visual: { en: 'Visual', de: 'Visuell', fr: 'Visuel', es: 'Visual', it: 'Visivo', pt: 'Visual', nl: 'Visueel', sv: 'Visuell', da: 'Visuel', no: 'Visuell', fi: 'Visuaalinen' },
+                        Game: { en: 'Game', de: 'Spiel', fr: 'Jeu', es: 'Juego', it: 'Gioco', pt: 'Jogo', nl: 'Spel', sv: 'Spel', da: 'Spil', no: 'Spill', fi: 'Peli' }
+                    },
+                    tierNames: {
+                        free: { en: 'Free', de: 'Kostenlos', fr: 'Gratuit', es: 'Gratis', it: 'Gratis', pt: 'Grátis', nl: 'Gratis', sv: 'Gratis', da: 'Gratis', no: 'Gratis', fi: 'Ilmainen' },
+                        core: { en: 'Core', de: 'Kern', fr: 'Noyau', es: 'Núcleo', it: 'Nucleo', pt: 'Núcleo', nl: 'Kern', sv: 'Kärna', da: 'Kerne', no: 'Kjerne', fi: 'Ydin' },
+                        full: { en: 'Pro', de: 'Pro', fr: 'Pro', es: 'Pro', it: 'Pro', pt: 'Pro', nl: 'Pro', sv: 'Pro', da: 'Pro', no: 'Pro', fi: 'Pro' }
+                    }
+                },
+                apps: [
+                    // Free tier
+                    {
+                        name: { en: 'Word Search', de: 'Wortsuche', fr: 'Recherche de mots', es: 'Sopa de letras', it: 'Ricerca di parole', pt: 'Caça-palavras', nl: 'Woordzoeker', sv: 'Ordletare', da: 'Ordsøgning', no: 'Ordsøk', fi: 'Sanaristikko' },
+                        description: { en: 'Create engaging word search puzzles', de: 'Erstellen Sie ansprechende Wortsuchrätsel', fr: 'Créez des grilles de mots mêlés attrayantes', es: 'Crea sopas de letras atractivas', it: 'Crea puzzle di ricerca di parole coinvolgenti', pt: 'Crie caça-palavras envolventes', nl: 'Maak boeiende woordzoekopdrachten', sv: 'Skapa engagerande ordletare', da: 'Opret engagerende ordsøgninger', no: 'Lag engasjerende ordsøk', fi: 'Luo mukaansatempaavia sanaristikkoja' },
+                        url: '/worksheet-generators/wordsearch.html', icon: '🔍', tier: 'free', category: 'Language'
+                    },
+                    // Core tier
+                    {
+                        name: { en: 'Addition', de: 'Addition', fr: 'Addition', es: 'Suma', it: 'Addizione', pt: 'Adição', nl: 'Optellen', sv: 'Yhteenlasku', da: 'Addition', no: 'Addisjon', fi: 'Yhteenlasku' },
+                        description: { en: 'Practice addition problems', de: 'Üben Sie Additionsaufgaben', fr: 'Pratiquez les problèmes d addition', es: 'Practica problemas de suma', it: 'Esercitati con i problemi di addizione', pt: 'Pratique problemas de adição', nl: 'Oefen optellingen', sv: 'Öva additionsproblem', da: 'Øv additionsopgaver', no: 'Øv på addisjon', fi: 'Harjoittele yhteenlaskuja' },
+                        url: '/worksheet-generators/addition.html', icon: '➕', tier: 'core', category: 'Math'
+                    },
+                    {
+                        name: { en: 'Subtraction', de: 'Subtraktion', fr: 'Soustraction', es: 'Resta', it: 'Sottrazione', pt: 'Subtração', nl: 'Aftrekken', sv: 'Subtraktion', da: 'Subtraktion', no: 'Subtraksjon', fi: 'Vähennyslasku' },
+                        description: { en: 'Master subtraction skills', de: 'Meistern Sie Subtraktionsfähigkeiten', fr: 'Maîtrisez les compétences de soustraction', es: 'Domina las habilidades de resta', it: 'Padroneggia le abilità di sottrazione', pt: 'Domine habilidades de subtração', nl: 'Beheers aftrektechnieken', sv: 'Bemästra subtraktionsfärdigheter', da: 'Mestre subtraktionsfærdigheder', no: 'Mestre subtraksjonsferdigheter', fi: 'Hallitse vähennyslaskutaidot' },
+                        url: '/worksheet-generators/subtraction.html', icon: '➖', tier: 'core', category: 'Math'
+                    },
+                    {
+                        name: { en: 'Alphabet Train', de: 'Alphabet-Zug', fr: 'Train de l alphabet', es: 'Tren del alfabeto', it: 'Treno dell alfabeto', pt: 'Trem do alfabeto', nl: 'Alfabettrein', sv: 'Alfabetstå', da: 'Alfabettog', no: 'Alfabettog', fi: 'Aakkos juna' },
+                        description: { en: 'Learn letters with train cars', de: 'Lernen Sie Buchstaben mit Zugwagen', fr: 'Apprenez les lettres avec des wagons', es: 'Aprende letras con vagones de tren', it: 'Impara le lettere con i vagoni del treno', pt: 'Aprenda letras com vagões de trem', nl: 'Leer letters met treinwagons', sv: 'Lär dig bokstäver med tågvagnar', da: 'Lær bogstaver med togvogne', no: 'Lær bokstaver med togvogner', fi: 'Opi kirjaimia junalla' },
+                        url: '/worksheet-generators/alphabet-train.html', icon: '🚂', tier: 'core', category: 'Language'
+                    },
+                    {
+                        name: { en: 'Find and Count', de: 'Finden und Zählen', fr: 'Trouver et compter', es: 'Buscar y contar', it: 'Trova e conta', pt: 'Encontrar e contar', nl: 'Zoeken en tellen', sv: 'Hitta och räkna', da: 'Find og tæl', no: 'Finn og tell', fi: 'Etsi ja laske' },
+                        description: { en: 'Count objects in pictures', de: 'Zählen Sie Objekte in Bildern', fr: 'Comptez les objets dans les images', es: 'Cuenta objetos en imágenes', it: 'Conta gli oggetti nelle immagini', pt: 'Conte objetos em imagens', nl: 'Tel objecten in afbeeldingen', sv: 'Räkna objekt i bilder', da: 'Tæl objekter i billeder', no: 'Tell objekter i bilder', fi: 'Laske esineitä kuvissa' },
+                        url: '/worksheet-generators/find-and-count.html', icon: '🔢', tier: 'core', category: 'Math'
+                    },
+                    {
+                        name: { en: 'Matching', de: 'Zuordnung', fr: 'Correspondance', es: 'Coincidencia', it: 'Abbinamento', pt: 'Correspondência', nl: 'Matchen', sv: 'Matchning', da: 'Matchning', no: 'Matching', fi: 'Yhteensopivuus' },
+                        description: { en: 'Match related items', de: 'Ordnen Sie verwandte Elemente zu', fr: 'Associez des éléments liés', es: 'Empareja elementos relacionados', it: 'Abbina elementi correlati', pt: 'Combine itens relacionados', nl: 'Koppel gerelateerde items', sv: 'Matcha relaterade objekt', da: 'Match relaterede elementer', no: 'Match relaterte elementer', fi: 'Yhdistä toisiinsa liittyvät kohteet' },
+                        url: '/worksheet-generators/matching.html', icon: '🔗', tier: 'core', category: 'Logic'
+                    },
+                    {
+                        name: { en: 'Crossword', de: 'Kreuzworträtsel', fr: 'Mots croisés', es: 'Crucigrama', it: 'Cruciverba', pt: 'Palavras cruzadas', nl: 'Kruiswoordpuzzel', sv: 'Korsord', da: 'Krydsord', no: 'Kryssord', fi: 'Ristisanatehtävä' },
+                        description: { en: 'Create custom crossword puzzles', de: 'Erstellen Sie benutzerdefinierte Kreuzworträtsel', fr: 'Créez des mots croisés personnalisés', es: 'Crea crucigramas personalizados', it: 'Crea cruciverba personalizzati', pt: 'Crie palavras cruzadas personalizadas', nl: 'Maak aangepaste kruiswoordpuzzels', sv: 'Skapa anpassade korsord', da: 'Opret tilpassede krydsord', no: 'Lag tilpassede kryssord', fi: 'Luo mukautettuja ristisanatehtäviä' },
+                        url: '/worksheet-generators/crossword.html', icon: '✖️', tier: 'core', category: 'Language'
+                    },
+                    {
+                        name: { en: 'Sudoku', de: 'Sudoku', fr: 'Sudoku', es: 'Sudoku', it: 'Sudoku', pt: 'Sudoku', nl: 'Sudoku', sv: 'Sudoku', da: 'Sudoku', no: 'Sudoku', fi: 'Sudoku' },
+                        description: { en: 'Generate Sudoku puzzles', de: 'Erstellen Sie Sudoku-Rätsel', fr: 'Générez des grilles de Sudoku', es: 'Genera rompecabezas de Sudoku', it: 'Genera puzzle Sudoku', pt: 'Gere quebra-cabeças de Sudoku', nl: 'Genereer Sudoku-puzzels', sv: 'Generera Sudoku-pussel', da: 'Generer Sudoku-opgaver', no: 'Generer Sudoku-oppgaver', fi: 'Luo Sudoku-tehtäviä' },
+                        url: '/worksheet-generators/sudoku.html', icon: '🔳', tier: 'core', category: 'Logic'
+                    },
+                    {
+                        name: { en: 'Coloring', de: 'Ausmalen', fr: 'Coloriage', es: 'Colorear', it: 'Colorare', pt: 'Colorir', nl: 'Kleuren', sv: 'Färgläggning', da: 'Farvning', no: 'Farging', fi: 'Värittäminen' },
+                        description: { en: 'Create coloring pages', de: 'Erstellen Sie Ausmalbilder', fr: 'Créez des pages de coloriage', es: 'Crea páginas para colorear', it: 'Crea pagine da colorare', pt: 'Crie páginas para colorir', nl: 'Maak kleurplaten', sv: 'Skapa färgläggningssidor', da: 'Opret farvelægningssider', no: 'Lag fargeleggingssider', fi: 'Luo värityskuvia' },
+                        url: '/worksheet-generators/coloring.html', icon: '🎨', tier: 'core', category: 'Art'
+                    },
+                    {
+                        name: { en: 'Math Worksheet', de: 'Mathe-Arbeitsblatt', fr: 'Feuille de mathématiques', es: 'Hoja de matemáticas', it: 'Foglio di matematica', pt: 'Folha de matemática', nl: 'Wiskundig werkblad', sv: 'Mattarbetsblad', da: 'Matematikark', no: 'Matematikkark', fi: 'Matematiikan tehtävälehti' },
+                        description: { en: 'Generate practice math sheets', de: 'Erstellen Sie Übungsblätter für Mathematik', fr: 'Générez des feuilles de pratique mathématique', es: 'Genera hojas de práctica de matemáticas', it: 'Genera fogli di esercizi di matematica', pt: 'Gere folhas de prática matemática', nl: 'Genereer wiskundeoefenbladen', sv: 'Generera övningsblad i matematik', da: 'Generer matematikøvelsesark', no: 'Generer matematikkøvelsesark', fi: 'Luo harjoitusmatikkatehtäviä' },
+                        url: '/worksheet-generators/math-worksheet.html', icon: '📐', tier: 'core', category: 'Math'
+                    },
+                    // Full tier (23 apps)
+                    {
+                        name: { en: 'Math Puzzle', de: 'Mathe-Rätsel', fr: 'Puzzle mathématique', es: 'Rompecabezas matemático', it: 'Puzzle matematico', pt: 'Quebra-cabeça matemático', nl: 'Wiskundepuzzel', sv: 'Mattepussel', da: 'Matematikpuslespil', no: 'Mattepuslespill', fi: 'Matematiikkapalapeli' },
+                        description: { en: 'Solve mathematical puzzles', de: 'Lösen Sie mathematische Rätsel', fr: 'Résolvez des énigmes mathématiques', es: 'Resuelve acertijos matemáticos', it: 'Risolvi enigmi matematici', pt: 'Resolva quebra-cabeças matemáticos', nl: 'Los wiskundige puzzels op', sv: 'Lös matematiska pussel', da: 'Løs matematiske gåder', no: 'Løs matematiske gåter', fi: 'Ratkaise matemaattisia pulmia' },
+                        url: '/worksheet-generators/math-puzzle.html', icon: '🧩', tier: 'full', category: 'Math'
+                    },
+                    {
+                        name: { en: 'Word Scramble', de: 'Buchstabensalat', fr: 'Mots mélangés', es: 'Palabras revueltas', it: 'Parole scramble', pt: 'Palavras embaralhadas', nl: 'Woordmix', sv: 'Ordmix', da: 'Ordmiks', no: 'Ordmiks', fi: 'Sanapulmapeli' },
+                        description: { en: 'Unscramble mixed-up words', de: 'Entschlüsseln Sie gemischte Wörter', fr: 'Démêlez les mots mélangés', es: 'Desenreda palabras mezcladas', it: 'Scomponi parole mescolate', pt: 'Desarranje palavras misturadas', nl: 'Ontwar gemengde woorden', sv: 'Reda ut blandade ord', da: 'Udred blandede ord', no: 'Red ut blandede ord', fi: 'Selvitä sekoitetut sanat' },
+                        url: '/worksheet-generators/word-scramble.html', icon: '🔤', tier: 'full', category: 'Language'
+                    },
+                    {
+                        name: { en: 'Chart Count', de: 'Diagrammzählung', fr: 'Comptage de graphiques', es: 'Conteo de gráficos', it: 'Conteggio grafico', pt: 'Contagem de gráficos', nl: 'Grafiek tellen', sv: 'Diagramräkning', da: 'Diagramtælling', no: 'Diagramtelling', fi: 'Kaavion laskenta' },
+                        description: { en: 'Practice reading charts', de: 'Üben Sie das Lesen von Diagrammen', fr: 'Pratiquez la lecture de graphiques', es: 'Practica la lectura de gráficos', it: 'Esercitati nella lettura di grafici', pt: 'Pratique a leitura de gráficos', nl: 'Oefen het lezen van grafieken', sv: 'Öva att läsa diagram', da: 'Øv at læse diagrammer', no: 'Øv på å lese diagrammer', fi: 'Harjoittele kaavioiden lukemista' },
+                        url: '/worksheet-generators/chart-count.html', icon: '📊', tier: 'full', category: 'Math'
+                    },
+                    {
+                        name: { en: 'Drawing Lines', de: 'Linien zeichnen', fr: 'Tracer des lignes', es: 'Dibujar líneas', it: 'Disegnare linee', pt: 'Desenhar linhas', nl: 'Lijnen tekenen', sv: 'Rita linjer', da: 'Tegn linjer', no: 'Tegn linjer', fi: 'Piirrä viivoja' },
+                        description: { en: 'Practice line drawing', de: 'Üben Sie das Zeichnen von Linien', fr: 'Pratiquez le tracé de lignes', es: 'Practica el dibujo de líneas', it: 'Esercitati nel disegno di linee', pt: 'Pratique o desenho de linhas', nl: 'Oefen het tekenen van lijnen', sv: 'Öva linjeteckning', da: 'Øv linetegning', no: 'Øv på linjetegning', fi: 'Harjoittele viivojen piirtämistä' },
+                        url: '/worksheet-generators/drawing-lines.html', icon: '✏️', tier: 'full', category: 'Art'
+                    },
+                    {
+                        name: { en: 'Big Small', de: 'Groß Klein', fr: 'Grand Petit', es: 'Grande Pequeño', it: 'Grande Piccolo', pt: 'Grande Pequeno', nl: 'Groot Klein', sv: 'Stor Liten', da: 'Stor Lille', no: 'Stor Liten', fi: 'Iso Pieni' },
+                        description: { en: 'Compare sizes', de: 'Vergleichen Sie Größen', fr: 'Comparez les tailles', es: 'Compara tamaños', it: 'Confronta le dimensioni', pt: 'Compare tamanhos', nl: 'Vergelijk maten', sv: 'Jämför storlekar', da: 'Sammenlign størrelser', no: 'Sammenlign størrelser', fi: 'Vertaile kokoja' },
+                        url: '/worksheet-generators/big-small.html', icon: '⚖️', tier: 'full', category: 'Visual'
+                    },
+                    {
+                        name: { en: 'Code Addition', de: 'Code-Addition', fr: 'Addition codée', es: 'Suma codificada', it: 'Addizione codificata', pt: 'Adição codificada', nl: 'Code-optelling', sv: 'Kodad addition', da: 'Kodeaddition', no: 'Kodeaddisjon', fi: 'Koodattu yhteenlasku' },
+                        description: { en: 'Solve coded math problems', de: 'Lösen Sie codierte Matheaufgaben', fr: 'Résolvez des problèmes mathématiques codés', es: 'Resuelve problemas matemáticos codificados', it: 'Risolvi problemi matematici codificati', pt: 'Resolva problemas matemáticos codificados', nl: 'Los gecodeerde wiskundeproblemen op', sv: 'Lös kodade matteproblem', da: 'Løs kodede matematikopgaver', no: 'Løs kodede matteproblemer', fi: 'Ratkaise koodattuja matemaattisia ongelmia' },
+                        url: '/worksheet-generators/code-addition.html', icon: '🔐', tier: 'full', category: 'Math'
+                    },
+                    {
+                        name: { en: 'Cryptogram', de: 'Kryptogramm', fr: 'Cryptogramme', es: 'Criptograma', it: 'Crittogramma', pt: 'Criptograma', nl: 'Cryptogram', sv: 'Kryptogram', da: 'Kryptogram', no: 'Kryptogram', fi: 'Kryptogrammi' },
+                        description: { en: 'Decode secret messages', de: 'Entschlüsseln Sie geheime Nachrichten', fr: 'Décodez des messages secrets', es: 'Decodifica mensajes secretos', it: 'Decodifica messaggi segreti', pt: 'Decodifique mensagens secretas', nl: 'Decodeer geheime berichten', sv: 'Avkoda hemliga meddelanden', da: 'Afkod hemmelige beskeder', no: 'Dekod hemmelige meldinger', fi: 'Pura salattuja viestejä' },
+                        url: '/worksheet-generators/cryptogram.html', icon: '🔓', tier: 'full', category: 'Logic'
+                    },
+                    {
+                        name: { en: 'Draw and Color', de: 'Zeichnen und Ausmalen', fr: 'Dessiner et colorier', es: 'Dibujar y colorear', it: 'Disegna e colora', pt: 'Desenhar e colorir', nl: 'Tekenen en kleuren', sv: 'Rita och färglägg', da: 'Tegn og farv', no: 'Tegn og farg', fi: 'Piirrä ja väritä' },
+                        description: { en: 'Creative drawing activities', de: 'Kreative Zeichenaktivitäten', fr: 'Activités de dessin créatif', es: 'Actividades de dibujo creativo', it: 'Attività di disegno creativo', pt: 'Atividades de desenho criativo', nl: 'Creatieve tekenactiviteiten', sv: 'Kreativa ritaktiviteter', da: 'Kreative tegneaktiviteter', no: 'Kreative tegneaktiviteter', fi: 'Luovia piirustustoimintoja' },
+                        url: '/worksheet-generators/draw-and-color.html', icon: '🖍️', tier: 'full', category: 'Art'
+                    },
+                    {
+                        name: { en: 'Find Objects', de: 'Objekte finden', fr: 'Trouver des objets', es: 'Encontrar objetos', it: 'Trova oggetti', pt: 'Encontrar objetos', nl: 'Objecten vinden', sv: 'Hitta objekt', da: 'Find objekter', no: 'Finn objekter', fi: 'Etsi esineitä' },
+                        description: { en: 'Spot hidden objects', de: 'Entdecken Sie versteckte Objekte', fr: 'Repérez les objets cachés', es: 'Encuentra objetos ocultos', it: 'Trova oggetti nascosti', pt: 'Encontre objetos escondidos', nl: 'Vind verborgen objecten', sv: 'Hitta dolda objekt', da: 'Find skjulte objekter', no: 'Finn skjulte objekter', fi: 'Löydä piilotettuja esineitä' },
+                        url: '/worksheet-generators/find-objects.html', icon: '🔎', tier: 'full', category: 'Visual'
+                    },
+                    {
+                        name: { en: 'Grid Match', de: 'Raster-Match', fr: 'Correspondance de grille', es: 'Coincidencia de cuadrícula', it: 'Corrispondenza griglia', pt: 'Correspondência de grade', nl: 'Rastermatch', sv: 'Rutnätsmatchning', da: 'Gittermatch', no: 'Rutenettmatch', fi: 'Ruudukkovastaavuus' },
+                        description: { en: 'Match items on a grid', de: 'Ordnen Sie Elemente in einem Raster zu', fr: 'Faites correspondre des éléments sur une grille', es: 'Empareja elementos en una cuadrícula', it: 'Abbina elementi su una griglia', pt: 'Combine itens em uma grade', nl: 'Koppel items in een raster', sv: 'Matcha objekt i ett rutnät', da: 'Match elementer på et gitter', no: 'Match elementer på et rutenett', fi: 'Yhdistä kohteet ruudukossa' },
+                        url: '/worksheet-generators/grid-match.html', icon: '⬜', tier: 'full', category: 'Logic'
+                    },
+                    {
+                        name: { en: 'More Less', de: 'Mehr Weniger', fr: 'Plus Moins', es: 'Más Menos', it: 'Più Meno', pt: 'Mais Menos', nl: 'Meer Minder', sv: 'Mer Mindre', da: 'Mere Mindre', no: 'Mer Mindre', fi: 'Enemmän Vähemmän' },
+                        description: { en: 'Compare quantities', de: 'Vergleichen Sie Mengen', fr: 'Comparez les quantités', es: 'Compara cantidades', it: 'Confronta le quantità', pt: 'Compare quantidades', nl: 'Vergelijk hoeveelheden', sv: 'Jämför kvantiteter', da: 'Sammenlign mængder', no: 'Sammenlign mengder', fi: 'Vertaile määriä' },
+                        url: '/worksheet-generators/more-less.html', icon: '🔢', tier: 'full', category: 'Math'
+                    },
+                    {
+                        name: { en: 'Odd One Out', de: 'Odd One Out', fr: 'Intrus', es: 'El diferente', it: 'Il diverso', pt: 'O diferente', nl: 'Vreemde eend', sv: 'Udda en ut', da: 'Ulige en ud', no: 'Odd en ut', fi: 'Erottuja' },
+                        description: { en: 'Find the different item', de: 'Finden Sie das unterschiedliche Element', fr: 'Trouvez l élément différent', es: 'Encuentra el elemento diferente', it: 'Trova l elemento diverso', pt: 'Encontre o item diferente', nl: 'Vind het andere item', sv: 'Hitta det olika objektet', da: 'Find det forskellige element', no: 'Finn det forskjellige elementet', fi: 'Löydä erilainen kohde' },
+                        url: '/worksheet-generators/odd-one-out.html', icon: '❓', tier: 'full', category: 'Logic'
+                    },
+                    {
+                        name: { en: 'Picture Path', de: 'Bildpfad', fr: 'Chemin d images', es: 'Camino de imágenes', it: 'Percorso immagini', pt: 'Caminho de imagens', nl: 'Afbeeldingspad', sv: 'Bildväg', da: 'Billedsti', no: 'Bildesti', fi: 'Kuvapolku' },
+                        description: { en: 'Follow picture paths', de: 'Folgen Sie Bildpfaden', fr: 'Suivez les chemins d images', es: 'Sigue caminos de imágenes', it: 'Segui percorsi di immagini', pt: 'Siga caminhos de imagens', nl: 'Volg afbeeldingspaden', sv: 'Följ bildvägar', da: 'Følg billedstier', no: 'Følg bildestier', fi: 'Seuraa kuvapolkuja' },
+                        url: '/worksheet-generators/picture-path.html', icon: '🛤️', tier: 'full', category: 'Visual'
+                    },
+                    {
+                        name: { en: 'Picture Sort', de: 'Bildsortierung', fr: 'Tri d images', es: 'Ordenar imágenes', it: 'Ordinamento immagini', pt: 'Classificação de imagens', nl: 'Afbeeldingen sorteren', sv: 'Bildsortering', da: 'Billedsortering', no: 'Bildesortering', fi: 'Kuvien lajittelu' },
+                        description: { en: 'Sort and categorize pictures', de: 'Sortieren und kategorisieren Sie Bilder', fr: 'Triez et catégorisez les images', es: 'Ordena y categoriza imágenes', it: 'Ordina e categorizza le immagini', pt: 'Classifique e categorize imagens', nl: 'Sorteer en categoriseer afbeeldingen', sv: 'Sortera och kategorisera bilder', da: 'Sorter og kategoriser billeder', no: 'Sorter og kategoriser bilder', fi: 'Lajittele ja luokittele kuvia' },
+                        url: '/worksheet-generators/picture-sort.html', icon: '🖼️', tier: 'full', category: 'Logic'
+                    },
+                    {
+                        name: { en: 'Prepositions', de: 'Präpositionen', fr: 'Prépositions', es: 'Preposiciones', it: 'Preposizioni', pt: 'Preposições', nl: 'Voorzetsels', sv: 'Prepositioner', da: 'Præpositioner', no: 'Preposisjoner', fi: 'Prepositiot' },
+                        description: { en: 'Learn positional words', de: 'Lernen Sie Positionswörter', fr: 'Apprenez les mots de position', es: 'Aprende palabras de posición', it: 'Impara le parole di posizione', pt: 'Aprenda palavras de posição', nl: 'Leer positiewoorden', sv: 'Lär dig positionsord', da: 'Lær positionsord', no: 'Lær posisjonsord', fi: 'Opi paikkasanoja' },
+                        url: '/worksheet-generators/prepositions.html', icon: '📍', tier: 'full', category: 'Language'
+                    },
+                    {
+                        name: { en: 'Treasure Hunt', de: 'Schatzsuche', fr: 'Chasse au trésor', es: 'Búsqueda del tesoro', it: 'Caccia al tesoro', pt: 'Caça ao tesouro', nl: 'Schattenjacht', sv: 'Skattjakt', da: 'Skattejagt', no: 'Skattejakt', fi: 'Aarteenetsintä' },
+                        description: { en: 'Follow clues to find treasure', de: 'Folgen Sie Hinweisen, um Schätze zu finden', fr: 'Suivez les indices pour trouver le trésor', es: 'Sigue pistas para encontrar tesoro', it: 'Segui gli indizi per trovare il tesoro', pt: 'Siga pistas para encontrar tesouro', nl: 'Volg aanwijzingen om schat te vinden', sv: 'Följ ledtrådar för att hitta skatten', da: 'Følg spor for at finde skat', no: 'Følg ledetråder for å finne skatten', fi: 'Seuraa vihjeitä löytääksesi aarteen' },
+                        url: '/worksheet-generators/treasure-hunt.html', icon: '🏴‍☠️', tier: 'full', category: 'Game'
+                    },
+                    {
+                        name: { en: 'Word Guess', de: 'Wort-Raten', fr: 'Deviner le mot', es: 'Adivinar palabra', it: 'Indovina la parola', pt: 'Adivinhar palavra', nl: 'Woord raden', sv: 'Gissa ordet', da: 'Gæt ordet', no: 'Gjett ordet', fi: 'Arvaa sana' },
+                        description: { en: 'Guess words from clues', de: 'Erraten Sie Wörter aus Hinweisen', fr: 'Devinez des mots à partir d indices', es: 'Adivina palabras a partir de pistas', it: 'Indovina parole dagli indizi', pt: 'Adivinhe palavras a partir de pistas', nl: 'Raad woorden uit hints', sv: 'Gissa ord från ledtrådar', da: 'Gæt ord fra spor', no: 'Gjett ord fra ledetråder', fi: 'Arvaa sanat vihjeistä' },
+                        url: '/worksheet-generators/word-guess.html', icon: '💭', tier: 'full', category: 'Language'
+                    },
+                    {
+                        name: { en: 'Writing', de: 'Schreiben', fr: 'Écriture', es: 'Escritura', it: 'Scrittura', pt: 'Escrita', nl: 'Schrijven', sv: 'Skrivning', da: 'Skrivning', no: 'Skriving', fi: 'Kirjoitus' },
+                        description: { en: 'Practice handwriting', de: 'Üben Sie Handschrift', fr: 'Pratiquez l écriture manuscrite', es: 'Practica la escritura a mano', it: 'Esercitati nella scrittura a mano', pt: 'Pratique a escrita à mão', nl: 'Oefen handschrift', sv: 'Öva handstil', da: 'Øv håndskrift', no: 'Øv håndskrift', fi: 'Harjoittele käsinkirjoitusta' },
+                        url: '/worksheet-generators/writing.html', icon: '✍️', tier: 'full', category: 'Language'
+                    },
+                    {
+                        name: { en: 'Bingo', de: 'Bingo', fr: 'Bingo', es: 'Bingo', it: 'Bingo', pt: 'Bingo', nl: 'Bingo', sv: 'Bingo', da: 'Bingo', no: 'Bingo', fi: 'Bingo' },
+                        description: { en: 'Create custom bingo cards', de: 'Erstellen Sie benutzerdefinierte Bingokarten', fr: 'Créez des cartes de bingo personnalisées', es: 'Crea tarjetas de bingo personalizadas', it: 'Crea cartelle bingo personalizzate', pt: 'Crie cartões de bingo personalizados', nl: 'Maak aangepaste bingokaarten', sv: 'Skapa anpassade bingokort', da: 'Opret tilpassede bingokort', no: 'Lag tilpassede bingokort', fi: 'Luo mukautettuja bingokorteja' },
+                        url: '/worksheet-generators/bingo.html', icon: '🎲', tier: 'full', category: 'Game'
+                    },
+                    {
+                        name: { en: 'Shadow Match', de: 'Schatten-Match', fr: 'Correspondance d ombres', es: 'Coincidencia de sombras', it: 'Corrispondenza ombre', pt: 'Correspondência de sombras', nl: 'Schaduwmatch', sv: 'Skuggmatchning', da: 'Skyggematch', no: 'Skyggematch', fi: 'Varjon vastaavuus' },
+                        description: { en: 'Match objects with shadows', de: 'Ordnen Sie Objekte mit Schatten zu', fr: 'Associez des objets avec des ombres', es: 'Empareja objetos con sombras', it: 'Abbina oggetti con ombre', pt: 'Combine objetos com sombras', nl: 'Koppel objecten aan schaduwen', sv: 'Matcha objekt med skuggor', da: 'Match objekter med skygger', no: 'Match objekter med skygger', fi: 'Yhdistä esineet varjoihin' },
+                        url: '/worksheet-generators/shadow-match.html', icon: '👤', tier: 'full', category: 'Visual'
+                    },
+                    {
+                        name: { en: 'Pattern Train', de: 'Muster-Zug', fr: 'Train de motifs', es: 'Tren de patrones', it: 'Treno di modelli', pt: 'Trem de padrões', nl: 'Patroontrein', sv: 'Mönstartåg', da: 'Mønsterttog', no: 'Mønstertog', fi: 'Kuviojuna' },
+                        description: { en: 'Complete pattern sequences', de: 'Vervollständigen Sie Musterfolgen', fr: 'Complétez des séquences de motifs', es: 'Completa secuencias de patrones', it: 'Completa sequenze di modelli', pt: 'Complete sequências de padrões', nl: 'Voltooi patroonreeksen', sv: 'Slutför mönstersekvenser', da: 'Fuldfør mønstersekvenser', no: 'Fullfør mønstersekvenser', fi: 'Täydennä kuviojonoja' },
+                        url: '/worksheet-generators/pattern-train.html', icon: '🚃', tier: 'full', category: 'Logic'
+                    },
+                    {
+                        name: { en: 'Pattern Worksheet', de: 'Muster-Arbeitsblatt', fr: 'Feuille de motifs', es: 'Hoja de patrones', it: 'Foglio di modelli', pt: 'Folha de padrões', nl: 'Patroonwerkblad', sv: 'Mönsterarbetsblad', da: 'Mønsterark', no: 'Mønsterark', fi: 'Kuviotehtävälehti' },
+                        description: { en: 'Practice pattern recognition', de: 'Üben Sie Mustererkennung', fr: 'Pratiquez la reconnaissance de motifs', es: 'Practica el reconocimiento de patrones', it: 'Esercitati nel riconoscimento dei modelli', pt: 'Pratique o reconhecimento de padrões', nl: 'Oefen patroonherkenning', sv: 'Öva mönsterigenkänning', da: 'Øv mønstergenkendelse', no: 'Øv på mønstergjenkjenning', fi: 'Harjoittele kuvioiden tunnistamista' },
+                        url: '/worksheet-generators/pattern-worksheet.html', icon: '🔲', tier: 'full', category: 'Logic'
+                    },
+                    {
+                        name: { en: 'Missing Pieces', de: 'Fehlende Teile', fr: 'Pièces manquantes', es: 'Piezas faltantes', it: 'Pezzi mancanti', pt: 'Peças faltantes', nl: 'Ontbrekende stukken', sv: 'Saknade bitar', da: 'Manglende dele', no: 'Manglende deler', fi: 'Puuttuvat palaset' },
+                        description: { en: 'Find missing puzzle pieces', de: 'Finden Sie fehlende Puzzleteile', fr: 'Trouvez les pièces de puzzle manquantes', es: 'Encuentra piezas de rompecabezas faltantes', it: 'Trova i pezzi mancanti del puzzle', pt: 'Encontre peças de quebra-cabeça faltantes', nl: 'Vind ontbrekende puzzelstukken', sv: 'Hitta saknade pusselbitar', da: 'Find manglende puslespilsbrikker', no: 'Finn manglende puslespillbiter', fi: 'Löydä puuttuvat palapelinpalat' },
+                        url: '/worksheet-generators/missing-pieces.html', icon: '🧩', tier: 'full', category: 'Logic'
+                    }
+                ]
+            };
+        }
+
         // Initialize on load
         document.addEventListener('DOMContentLoaded', function() {
             loadContent();
@@ -822,9 +1076,19 @@
                 const response = await fetch('/api/homepage/content?raw=true');
                 if (response.ok) {
                     homepageContent = await response.json();
+
+                    // Initialize apps data with defaults if not present
+                    if (!homepageContent.apps || homepageContent.apps.length === 0) {
+                        const defaultData = getDefaultAppsData();
+                        homepageContent.apps = defaultData.apps;
+                        homepageContent.appsSection = defaultData.appsSection;
+                        console.log('Initialized default apps data');
+                    }
+
                     console.log('=== Homepage Content Loaded ===');
                     console.log('Has hero?', homepageContent.hero ? 'YES' : 'NO');
                     console.log('Has samplesSection?', homepageContent.samplesSection ? 'YES' : 'NO');
+                    console.log('Has apps?', homepageContent.apps ? `YES (${homepageContent.apps.length})` : 'NO');
                     console.log('Hero title.en:', homepageContent.hero?.title?.en);
                     console.log('Full hero:', homepageContent.hero);
                     renderAllSections();
@@ -932,6 +1196,72 @@
                         </div>
                         <h3>Feature Items</h3>
                         <div class="features-list" id="features-list"></div>
+                    </div>
+                </div>
+
+                <!-- Apps Section -->
+                <div id="apps-section" class="content-section">
+                    <div class="section-header">
+                        <h2>Apps</h2>
+                        <button class="btn btn-small btn-primary" onclick="addApp()">+ Add App</button>
+                    </div>
+                    <div id="apps-content">
+                        <div class="card">
+                            <h3>Section Headers</h3>
+                            <div class="grid-2">
+                                ${languages.map(lang => `
+                                    <div class="form-group">
+                                        <label>${languageNames[lang]} - Title</label>
+                                        <input type="text" id="apps-title-${lang}" placeholder="Apps section title">
+                                    </div>
+                                `).join('')}
+                            </div>
+                            <div class="grid-2">
+                                ${languages.map(lang => `
+                                    <div class="form-group">
+                                        <label>${languageNames[lang]} - Subtitle</label>
+                                        <input type="text" id="apps-subtitle-${lang}" placeholder="Apps section subtitle">
+                                    </div>
+                                `).join('')}
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <h3>Categories</h3>
+                            ${['Math', 'Language', 'Logic', 'Art', 'Visual', 'Game'].map(cat => `
+                                <div style="margin-bottom: 20px;">
+                                    <h4 style="color: #667eea; margin-bottom: 10px;">${cat}</h4>
+                                    <div class="grid-3">
+                                        ${languages.map(lang => `
+                                            <div class="form-group">
+                                                <label>${languageNames[lang]}</label>
+                                                <input type="text" id="app-category-${cat}-${lang}" placeholder="Translation for ${cat}">
+                                            </div>
+                                        `).join('')}
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+
+                        <div class="card">
+                            <h3>Tier Names</h3>
+                            ${['free', 'core', 'full'].map(tier => `
+                                <div style="margin-bottom: 20px;">
+                                    <h4 style="color: #667eea; margin-bottom: 10px;">${tier.charAt(0).toUpperCase() + tier.slice(1)}</h4>
+                                    <div class="grid-3">
+                                        ${languages.map(lang => `
+                                            <div class="form-group">
+                                                <label>${languageNames[lang]}</label>
+                                                <input type="text" id="app-tier-${tier}-${lang}" placeholder="Translation for ${tier}">
+                                            </div>
+                                        `).join('')}
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+
+                        <h3>App Items</h3>
+                        <div class="apps-list" id="apps-list"></div>
                     </div>
                 </div>
 
@@ -1134,6 +1464,7 @@
             renderNavigationSection();
             renderHeroSection();
             renderFeaturesSection();
+            renderAppsSection();
             renderSamplesSection();
             renderPricingSection();
             renderFooterSection();
@@ -1187,6 +1518,61 @@
             });
             html += '</div>';
             container.innerHTML = html;
+        }
+
+        function renderAppsSection() {
+            // Update section headers
+            if (homepageContent.appsSection) {
+                languages.forEach(lang => {
+                    const titleEl = document.getElementById(`apps-title-${lang}`);
+                    const subtitleEl = document.getElementById(`apps-subtitle-${lang}`);
+
+                    if (titleEl) titleEl.value = homepageContent.appsSection.title?.[lang] || '';
+                    if (subtitleEl) subtitleEl.value = homepageContent.appsSection.subtitle?.[lang] || '';
+                });
+            }
+
+            // Update categories
+            if (homepageContent.appsSection?.categories) {
+                ['Math', 'Language', 'Logic', 'Art', 'Visual', 'Game'].forEach(cat => {
+                    languages.forEach(lang => {
+                        const catEl = document.getElementById(`app-category-${cat}-${lang}`);
+                        if (catEl) catEl.value = homepageContent.appsSection.categories[cat]?.[lang] || '';
+                    });
+                });
+            }
+
+            // Update tier names
+            if (homepageContent.appsSection?.tierNames) {
+                ['free', 'core', 'full'].forEach(tier => {
+                    languages.forEach(lang => {
+                        const tierEl = document.getElementById(`app-tier-${tier}-${lang}`);
+                        if (tierEl) tierEl.value = homepageContent.appsSection.tierNames[tier]?.[lang] || '';
+                    });
+                });
+            }
+
+            // Render apps list
+            const appsList = document.getElementById('apps-list');
+            if (appsList && homepageContent.apps) {
+                appsList.innerHTML = '';
+                homepageContent.apps.forEach((app, index) => {
+                    const appItem = document.createElement('div');
+                    appItem.className = 'feature-item';
+                    appItem.innerHTML = `
+                        <div class="item-header">
+                            <h4>${app.icon || '📝'} ${app.name?.en || 'App ' + (index + 1)}</h4>
+                            <div class="item-actions">
+                                <button class="btn btn-small btn-primary" onclick="editApp(${index})">Edit</button>
+                                <button class="btn btn-small btn-danger" onclick="deleteApp(${index})">Delete</button>
+                            </div>
+                        </div>
+                        <p>${app.description?.en || 'No description'}</p>
+                        <small>Category: ${app.category || 'None'} | Tier: ${app.tier || 'core'} | URL: ${app.url || 'N/A'}</small>
+                    `;
+                    appsList.appendChild(appItem);
+                });
+            }
         }
 
         function renderFooterSection() {
@@ -1490,6 +1876,96 @@
                 homepageContent.pricing.splice(index, 1);
                 renderPricingSection();
                 showMessage('Pricing tier deleted', 'success');
+            }
+        }
+
+        // App Modal Functions
+        function editApp(index) {
+            currentAppIndex = index;
+            const app = homepageContent.apps[index];
+
+            document.getElementById('app-icon').value = app.icon || '';
+            document.getElementById('app-url').value = app.url || '';
+            document.getElementById('app-category').value = app.category || 'Math';
+            document.getElementById('app-tier').value = app.tier || 'core';
+
+            const translationsDiv = document.getElementById('app-translations');
+            translationsDiv.innerHTML = `
+                <h4>Name Translations</h4>
+                <div class="grid-2">
+                    ${languages.map(lang => `
+                        <div class="form-group">
+                            <label>${languageNames[lang]}</label>
+                            <input type="text" id="app-name-${lang}"
+                                   value="${app.name?.[lang] || ''}"
+                                   placeholder="App name">
+                        </div>
+                    `).join('')}
+                </div>
+
+                <h4>Description Translations</h4>
+                <div class="grid-2">
+                    ${languages.map(lang => `
+                        <div class="form-group">
+                            <label>${languageNames[lang]}</label>
+                            <textarea id="app-desc-${lang}"
+                                      placeholder="App description">${app.description?.[lang] || ''}</textarea>
+                        </div>
+                    `).join('')}
+                </div>
+            `;
+
+            document.getElementById('app-modal').classList.add('active');
+        }
+
+        function saveApp() {
+            if (currentAppIndex === -1) return;
+
+            const app = homepageContent.apps[currentAppIndex];
+            app.icon = document.getElementById('app-icon').value;
+            app.url = document.getElementById('app-url').value;
+            app.category = document.getElementById('app-category').value;
+            app.tier = document.getElementById('app-tier').value;
+
+            if (!app.name) app.name = {};
+            if (!app.description) app.description = {};
+
+            languages.forEach(lang => {
+                app.name[lang] = document.getElementById(`app-name-${lang}`).value;
+                app.description[lang] = document.getElementById(`app-desc-${lang}`).value;
+            });
+
+            renderAppsSection();
+            closeAppModal();
+            showMessage('App updated', 'success');
+        }
+
+        function closeAppModal() {
+            document.getElementById('app-modal').classList.remove('active');
+            currentAppIndex = -1;
+        }
+
+        function addApp() {
+            const newApp = {
+                icon: '📝',
+                name: { en: 'New App' },
+                description: { en: 'App description' },
+                url: '/worksheet-generators/new-app.html',
+                category: 'Math',
+                tier: 'core',
+                sort_order: homepageContent.apps ? homepageContent.apps.length + 1 : 1
+            };
+            if (!homepageContent.apps) homepageContent.apps = [];
+            homepageContent.apps.push(newApp);
+            renderAppsSection();
+            editApp(homepageContent.apps.length - 1);
+        }
+
+        function deleteApp(index) {
+            if (confirm('Delete this app?')) {
+                homepageContent.apps.splice(index, 1);
+                renderAppsSection();
+                showMessage('App deleted', 'success');
             }
         }
 
@@ -2164,6 +2640,37 @@
 
                 if (titleEl) homepageContent.featuresSection.title[lang] = titleEl.value;
                 if (subtitleEl) homepageContent.featuresSection.subtitle[lang] = subtitleEl.value;
+            });
+
+            // Collect Apps section
+            if (!homepageContent.appsSection) homepageContent.appsSection = { categories: {}, tierNames: {} };
+            languages.forEach(lang => {
+                const titleEl = document.getElementById(`apps-title-${lang}`);
+                const subtitleEl = document.getElementById(`apps-subtitle-${lang}`);
+
+                if (!homepageContent.appsSection.title) homepageContent.appsSection.title = {};
+                if (!homepageContent.appsSection.subtitle) homepageContent.appsSection.subtitle = {};
+
+                if (titleEl) homepageContent.appsSection.title[lang] = titleEl.value;
+                if (subtitleEl) homepageContent.appsSection.subtitle[lang] = subtitleEl.value;
+
+                // Collect categories
+                ['Math', 'Language', 'Logic', 'Art', 'Visual', 'Game'].forEach(cat => {
+                    const catEl = document.getElementById(`app-category-${cat}-${lang}`);
+                    if (catEl) {
+                        if (!homepageContent.appsSection.categories[cat]) homepageContent.appsSection.categories[cat] = {};
+                        homepageContent.appsSection.categories[cat][lang] = catEl.value;
+                    }
+                });
+
+                // Collect tier names
+                ['free', 'core', 'full'].forEach(tier => {
+                    const tierEl = document.getElementById(`app-tier-${tier}-${lang}`);
+                    if (tierEl) {
+                        if (!homepageContent.appsSection.tierNames[tier]) homepageContent.appsSection.tierNames[tier] = {};
+                        homepageContent.appsSection.tierNames[tier][lang] = tierEl.value;
+                    }
+                });
             });
 
             // Collect Samples section

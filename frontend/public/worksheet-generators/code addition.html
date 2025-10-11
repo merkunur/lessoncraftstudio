@@ -1998,23 +1998,30 @@
             currentCanvasConfig.width = width;
             currentCanvasConfig.height = height;
 
-            // Get available space correctly
-            const tabElement = document.getElementById('worksheetTab');
-            const parentElement = tabElement ? tabElement.parentElement : document.querySelector('.tab-content-wrapper');
-            const availableWidth = parentElement ? parentElement.clientWidth - 50 : window.innerWidth * 0.8;
-            const availableHeight = window.innerHeight * 0.7;
-            
+            // Get available space correctly (matching Addition/Subtraction apps)
+            const mainContentAreaStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
+            let availableWidth = parseFloat(mainContentAreaStyle.width) - parseFloat(mainContentAreaStyle.paddingLeft) - parseFloat(mainContentAreaStyle.paddingRight) - 10;
+            let availableHeight = parseFloat(mainContentAreaStyle.height) - parseFloat(mainContentAreaStyle.paddingTop) - parseFloat(mainContentAreaStyle.paddingBottom) - 10;
+
+            // Safety check: if dimensions aren't available yet (during early init), use fallback
+            if (!availableWidth || availableWidth <= 0 || isNaN(availableWidth)) {
+                availableWidth = window.innerWidth * 0.6;
+            }
+            if (!availableHeight || availableHeight <= 0 || isNaN(availableHeight)) {
+                availableHeight = window.innerHeight * 0.7;
+            }
+
             // Apply 25% scaling for better visibility (matching Word Search)
             // Extra 25% for landscape orientations
             const isLandscape = width > height;
             const baseScale = 1.25; // Base 25% larger for all
             const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
             const displayScale = baseScale * landscapeBonus;
-            
+
             // Calculate display dimensions with scaling
             const scaledWidth = width * displayScale;
             const scaledHeight = height * displayScale;
-            
+
             // Ensure it fits in available space
             const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
             const displayWidth = Math.round(scaledWidth * scaleRatio);

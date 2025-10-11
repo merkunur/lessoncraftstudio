@@ -1779,7 +1779,7 @@
                 }
             });
 
-            const itemsToRemove = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem);
+            const itemsToRemove = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem || o.isHeaderElement || o.isHeaderDesc || o.isPageBorder);
             itemsToRemove.forEach(o => worksheetCanvas.remove(o));
 
             const m = modeEl.value;

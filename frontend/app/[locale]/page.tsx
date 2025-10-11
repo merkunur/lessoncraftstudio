@@ -60,9 +60,9 @@ async function getHomepageContent(locale: string) {
       } : null,
       samplesSection: rawContent.samples && rawContent.samplesSection ? {
         samples: rawContent.samples.map((sample: any, index: number) => ({
-          id: sample.id || `sample-${index}`,
+          id: sample.id || sample.image_url || `sample-${index}`,
           name: (typeof sample.name === 'object' ? (sample.name[locale] || sample.name.en) : sample.name) || 'Untitled',
-          category: sample.category || 'general',
+          category: (typeof sample.category === 'string' ? sample.category.toLowerCase() : sample.category) || 'general',
           image: sample.image || sample.image_url || '/worksheet-samples/placeholder.png',
           description: (typeof sample.description === 'object' ? (sample.description[locale] || sample.description.en) : sample.description) || 'No description available',
           difficulty: sample.difficulty || 'Easy',
@@ -70,26 +70,28 @@ async function getHomepageContent(locale: string) {
         })),
         sectionTitle: rawContent.samplesSection.title[locale] || rawContent.samplesSection.title.en,
         sectionSubtitle: rawContent.samplesSection.subtitle[locale] || rawContent.samplesSection.subtitle.en,
-        ctaText: rawContent.samplesSection.cta[locale] || rawContent.samplesSection.cta.en,
-        ctaUrl: `/${locale}/apps`,
+        ctaText: rawContent.samplesSection.cta?.[locale] || rawContent.samplesSection.cta?.en || 'Explore All Generators →',
+        ctaUrl: `/${locale}/dashboard`,
         categories: rawContent.samplesSection.categories
           ? Object.keys(rawContent.samplesSection.categories).reduce((acc: Record<string, string>, key: string) => {
               const categoryKey = key as keyof typeof rawContent.samplesSection.categories;
-              acc[key] = rawContent.samplesSection.categories[categoryKey][locale] || rawContent.samplesSection.categories[categoryKey].en;
+              const value = rawContent.samplesSection.categories[categoryKey];
+              acc[key.toLowerCase()] = (typeof value === 'object' ? (value[locale] || value.en) : value) || key;
               return acc;
             }, {})
           : {},
         difficulties: rawContent.samplesSection.difficulties
           ? Object.keys(rawContent.samplesSection.difficulties).reduce((acc: Record<string, string>, key: string) => {
               const difficultyKey = key as keyof typeof rawContent.samplesSection.difficulties;
-              acc[key] = rawContent.samplesSection.difficulties[difficultyKey][locale] || rawContent.samplesSection.difficulties[difficultyKey].en;
+              const value = rawContent.samplesSection.difficulties[difficultyKey];
+              acc[key] = (typeof value === 'object' ? (value[locale] || value.en) : value) || key;
               return acc;
             }, {})
           : {},
         modalLabels: {
-          ageRange: (rawContent.samplesSection as any).modalLabels?.ageRange?.[locale] || (rawContent.samplesSection as any).modalLabels?.ageRange?.en || 'Age Range',
-          difficulty: (rawContent.samplesSection as any).modalLabels?.difficulty?.[locale] || (rawContent.samplesSection as any).modalLabels?.difficulty?.en || 'Difficulty',
-          category: (rawContent.samplesSection as any).modalLabels?.category?.[locale] || (rawContent.samplesSection as any).modalLabels?.category?.en || 'Category'
+          ageRange: (typeof rawContent.samplesSection.modalLabels?.ageRange === 'object' ? (rawContent.samplesSection.modalLabels.ageRange[locale] || rawContent.samplesSection.modalLabels.ageRange.en) : rawContent.samplesSection.modalLabels?.ageRange) || 'Age Range',
+          difficulty: (typeof rawContent.samplesSection.modalLabels?.difficulty === 'object' ? (rawContent.samplesSection.modalLabels.difficulty[locale] || rawContent.samplesSection.modalLabels.difficulty.en) : rawContent.samplesSection.modalLabels?.difficulty) || 'Difficulty',
+          category: (typeof rawContent.samplesSection.modalLabels?.category === 'object' ? (rawContent.samplesSection.modalLabels.category[locale] || rawContent.samplesSection.modalLabels.category.en) : rawContent.samplesSection.modalLabels?.category) || 'Category'
         }
       } : null
     };

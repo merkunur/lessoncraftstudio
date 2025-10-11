@@ -3163,6 +3163,56 @@ async function downloadPDF(canvasToExport, fileName) {
       answerKeyCanvas = initializeCanvas(answerKeyCanvasElement);
       updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height, true);
       
+      // Function to update worksheet title and subtitle when language changes
+      function updateWorksheetHeaderLanguage(newLocale) {
+          const defaultHeaders = {
+              en: { title: 'Subtraction Fun', description: 'Cross out pictures and find the answer!' },
+              de: { title: 'Subtraktion Spaß', description: 'Streiche Bilder durch und finde die Antwort!' },
+              fr: { title: 'Soustractions Amusantes', description: 'Barre les images et trouve la réponse!' },
+              es: { title: 'Restas Divertidas', description: '¡Tacha las imágenes y encuentra la respuesta!' },
+              it: { title: 'Sottrazioni Divertenti', description: 'Cancella le immagini e trova la risposta!' },
+              pt: { title: 'Subtrações Divertidas', description: 'Risca as imagens e encontra a resposta!' },
+              nl: { title: 'Aftrekken is Leuk', description: 'Streep de plaatjes door en vind het antwoord!' },
+              sv: { title: 'Rolig Subtraktion', description: 'Stryk över bilderna och hitta svaret!' },
+              da: { title: 'Sjov Subtraktion', description: 'Streg billeder ud og find svaret!' },
+              no: { title: 'Moro med Subtraksjon', description: 'Stryk ut bildene og finn svaret!' },
+              fi: { title: 'Hauskaa Vähennyslaskua', description: 'Yliviivaa kuvat ja etsi vastaus!' }
+          };
+
+          const defaults = defaultHeaders[newLocale] || defaultHeaders.en;
+
+          // Update both worksheet and answer key canvases
+          [worksheetCanvas, answerKeyCanvas].forEach(canvas => {
+              if (!canvas) return;
+
+              const objects = canvas.getObjects();
+
+              // Find and update title (IText with isHeaderElement)
+              const titleObj = objects.find(obj =>
+                  obj.type === 'i-text' &&
+                  obj.isHeaderElement === true
+              );
+
+              if (titleObj) {
+                  titleObj.set('text', defaults.title);
+              }
+
+              // Find and update description (Textbox with isHeaderElement)
+              const descObj = objects.find(obj =>
+                  obj.type === 'textbox' &&
+                  obj.isHeaderElement === true
+              );
+
+              if (descObj) {
+                  descObj.set('text', defaults.description);
+              }
+
+              canvas.renderAll();
+          });
+
+          console.log('[Subtraction] Updated worksheet header to locale:', newLocale);
+      }
+
       // Initialize language selector with current content locale
       if (languageSelect) {
           languageSelect.value = currentLocale;
@@ -3177,6 +3227,9 @@ async function downloadPDF(canvasToExport, fileName) {
               console.log('[Subtraction] Content language changed from', oldLocale, 'to', newLocale);
               currentLocale = newLocale;
               window.currentLocale = newLocale;
+
+              // Update title and subtitle on existing worksheet
+              updateWorksheetHeaderLanguage(newLocale);
 
               // Reload image library with new locale
               loadThemes().then(() => {
@@ -3194,6 +3247,9 @@ async function downloadPDF(canvasToExport, fileName) {
                   console.log('[Subtraction] Content language changed to', newLocale);
                   currentLocale = newLocale;
                   window.currentLocale = newLocale;
+
+                  // Update title and subtitle on existing worksheet
+                  updateWorksheetHeaderLanguage(newLocale);
 
                   // Reload image library with new locale
                   loadThemes().then(() => {

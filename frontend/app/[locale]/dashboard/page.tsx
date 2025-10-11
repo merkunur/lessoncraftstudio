@@ -283,7 +283,7 @@ export default function DashboardPage() {
                             ? 'border-gray-200 hover:border-indigo-400 hover:shadow-2xl cursor-pointer transform hover:-translate-y-1'
                             : 'border-gray-200 opacity-60'
                         }`}
-                        onClick={() => hasAccess && window.open(`${app.url}?tier=${user?.subscriptionTier || 'free'}`, '_blank')}
+                        onClick={() => hasAccess && window.open(`${app.url}?tier=${user?.subscriptionTier || 'free'}&locale=${locale}`, '_blank')}
                       >
                         {/* Tier Badge */}
                         <div className={`absolute -top-3 -right-3 ${badge.color} rounded-xl px-3 py-1 shadow-lg flex items-center space-x-1`}>

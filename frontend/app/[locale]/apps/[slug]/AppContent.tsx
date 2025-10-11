@@ -211,9 +211,9 @@ export default function AppContent({ appSlug, locale, appName, requiredTier }: A
       return true;
     }
 
-    // Core tier users can access free and core apps
+    // Core tier users can access core apps (free apps already handled above)
     if (userTier === 'core') {
-      const hasAccess = requiredTier === 'free' || requiredTier === 'core';
+      const hasAccess = requiredTier === 'core';
       console.log('[AppContent] Access Result:', hasAccess, '(core user)');
       return hasAccess;
     }

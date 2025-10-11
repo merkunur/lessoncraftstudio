@@ -1,41 +1,69 @@
 import { NextRequest, NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+import { PrismaClient, Prisma } from '@prisma/client';
 
 export const dynamic = 'force-dynamic';
 
+const prisma = new PrismaClient();
+
+/**
+ * Public API for train templates - reads from database
+ * Used by frontend worksheet generator apps (Alphabet Train, Pattern Train)
+ */
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const locale = searchParams.get('locale') || 'en';
 
   try {
-    // Read metadata file
-    const metadataPath = path.join(process.cwd(), 'public', 'data', 'train-templates-metadata.json');
+    // Query database for train templates
+    type ThemeWithImages = Prisma.ImageThemeGetPayload<{
+      include: { images: true }
+    }>;
+    let themes: ThemeWithImages[];
 
-    let templates: any[] = [];
+    try {
+      themes = await prisma.imageTheme.findMany({
+        where: {
+          type: 'train',
+        },
+        include: {
+          images: {
+            orderBy: {
+              sortOrder: 'asc',
+            },
+          },
+        },
+        orderBy: {
+          sortOrder: 'asc',
+        },
+      });
+    } catch (dbError) {
+      console.warn('Database not available for train templates, returning empty array:', dbError);
+      themes = [];
+    }
 
-    if (fs.existsSync(metadataPath)) {
-      const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf-8'));
+    // Transform to frontend format
+    const allTemplates: any[] = [];
 
-      // Extract all images from all themes
-      if (metadata.themes && Array.isArray(metadata.themes)) {
-        templates = metadata.themes.flatMap((theme: any) => {
-          if (!theme.images || !Array.isArray(theme.images)) {
-            return [];
-          }
+    for (const themeRecord of themes) {
+      const themeTranslations = themeRecord.displayNames as Record<string, string> || {};
+      const themeName = themeTranslations[locale] || themeTranslations['en'] || themeRecord.name;
 
-          return theme.images.map((img: any) => ({
-            path: img.path,
-            url: img.path,
-            name: img.translations?.[locale] || img.displayName || img.filename,
-            theme: theme.name,
-            themeName: theme.displayNames?.[locale] || theme.name
-          }));
+      for (const image of themeRecord.images) {
+        const translations = image.translations as Record<string, string> || {};
+        const displayName = translations[locale] || translations['en'] || image.filename.replace(/\.(png|jpg|jpeg|gif|svg|webp)$/i, '');
+
+        allTemplates.push({
+          path: image.filePath,
+          url: image.filePath,
+          name: displayName,
+          theme: themeRecord.name,
+          themeName: themeName,
+          translations: translations,
         });
       }
     }
 
-    return NextResponse.json(templates, {
+    return NextResponse.json(allTemplates, {
       headers: {
         'Content-Type': 'application/json; charset=utf-8',
         'Cache-Control': 'public, max-age=60',

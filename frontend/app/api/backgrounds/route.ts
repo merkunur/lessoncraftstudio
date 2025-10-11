@@ -1,71 +1,76 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { PrismaClient, Prisma } from '@prisma/client';
 
 export const dynamic = 'force-dynamic';
 
-const DIRECTUS_URL = process.env.DIRECTUS_URL || 'http://lcs-directus:8055';
-const DIRECTUS_TOKEN = process.env.DIRECTUS_TOKEN || 'static-api-token-for-sync';
+const prisma = new PrismaClient();
 
+/**
+ * Public API for backgrounds - reads from database
+ * Used by frontend worksheet generator apps
+ */
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const theme = searchParams.get('theme');
   const locale = searchParams.get('locale') || 'en';
 
   try {
-    // Fetch backgrounds from Directus
-    const response = await fetch(`${DIRECTUS_URL}/items/background_images?fields=*,image_file.*,theme_id.*`, {
-      headers: {
-        'Authorization': `Bearer ${DIRECTUS_TOKEN}`,
-        'Content-Type': 'application/json',
-      },
-      cache: 'no-store'
-    });
+    // Query database for backgrounds
+    type ThemeWithImages = Prisma.ImageThemeGetPayload<{
+      include: { images: true }
+    }>;
+    let themes: ThemeWithImages[];
 
-    if (!response.ok) {
-      throw new Error(`Failed to fetch from Directus: ${response.statusText}`);
-    }
-
-    const data = await response.json();
-    const backgrounds = data.data || [];
-
-    // Transform Directus data to match expected format
-    const transformedBackgrounds = backgrounds.map((bg: any) => {
-      const fileName = bg.file_name || bg.image_file?.filename_download || 'background';
-      const fileId = bg.image_file?.id || bg.image_file;
-
-      // Create the image URL
-      const imageUrl = fileId ? `/api/directus-image?id=${fileId}` : null;
-
-      // Get localized name
-      let displayName = fileName;
-      if (bg.translations) {
-        const translations = typeof bg.translations === 'string'
-          ? JSON.parse(bg.translations)
-          : bg.translations;
-
-        if (translations[locale]) {
-          displayName = translations[locale];
-        } else if (translations['en']) {
-          displayName = translations['en'];
-        }
+    try {
+      const whereClause: any = { type: 'backgrounds' };
+      if (theme) {
+        whereClause.name = theme;
       }
 
-      return {
-        id: bg.id,
-        name: displayName,
-        path: imageUrl,
-        url: imageUrl,
-        theme: bg.theme_id?.name || 'general',
-        translations: bg.translations || {},
-        originalName: fileName
-      };
-    }).filter((bg: any) => bg.url); // Only include backgrounds with valid URLs
+      themes = await prisma.imageTheme.findMany({
+        where: whereClause,
+        include: {
+          images: {
+            orderBy: {
+              sortOrder: 'asc',
+            },
+          },
+        },
+        orderBy: {
+          sortOrder: 'asc',
+        },
+      });
+    } catch (dbError) {
+      console.warn('Database not available for backgrounds, returning empty array:', dbError);
+      themes = [];
+    }
 
-    // Filter by theme if specified
-    const filteredBackgrounds = theme
-      ? transformedBackgrounds.filter((bg: any) => bg.theme === theme)
-      : transformedBackgrounds;
+    // Transform to frontend format
+    const allBackgrounds: any[] = [];
 
-    return NextResponse.json(filteredBackgrounds);
+    for (const themeRecord of themes) {
+      for (const image of themeRecord.images) {
+        const translations = image.translations as Record<string, string> || {};
+        const displayName = translations[locale] || translations['en'] || image.filename.replace(/\.(png|jpg|jpeg|gif|svg|webp)$/i, '');
+
+        allBackgrounds.push({
+          id: image.id,
+          path: image.filePath,
+          url: image.filePath,
+          name: displayName,
+          originalName: image.filename,
+          translations: translations,
+          theme: themeRecord.name,
+        });
+      }
+    }
+
+    return NextResponse.json(allBackgrounds, {
+      headers: {
+        'Content-Type': 'application/json; charset=utf-8',
+        'Cache-Control': 'public, max-age=60',
+      },
+    });
   } catch (error) {
     console.error('Error fetching backgrounds:', error);
     return NextResponse.json(

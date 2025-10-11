@@ -2,48 +2,39 @@ import path from 'path';
 import fs from 'fs';
 import sharp from 'sharp';
 
-// Storage paths
-export const STORAGE_PATHS = {
-  images: path.join(process.cwd(), 'public', 'images'),
-  borders: path.join(process.cwd(), 'public', 'images', 'borders'),
-  backgrounds: path.join(process.cwd(), 'public', 'images', 'backgrounds'),
-  trainTemplates: path.join(process.cwd(), 'public', 'images', 'train-templates'),
-  worksheetTemplates: path.join(process.cwd(), 'public', 'images', 'worksheet-templates'),
-  blog: path.join(process.cwd(), 'public', 'blog', 'images'),
-  blogPdfs: path.join(process.cwd(), 'public', 'blog', 'pdfs'),
-  blogThumbnails: path.join(process.cwd(), 'public', 'blog', 'thumbnails'),
-};
+// Get the true source directory (not standalone)
+// In standalone mode, process.cwd() is .next/standalone, so we need to go up two levels
+function getSourceRoot(): string {
+  const cwd = process.cwd();
 
-// Get standalone path for a given source path (for production builds)
-function getStandalonePath(sourcePath: string): string | null {
-  const standalonePath = path.join(process.cwd(), '.next', 'standalone', 'public');
-
-  // Check if standalone directory exists
-  if (!fs.existsSync(standalonePath)) {
-    return null;
+  // If we're in standalone mode, go up to the actual source root
+  if (cwd.endsWith('.next/standalone') || cwd.includes('.next/standalone')) {
+    return path.resolve(cwd, '../..');
   }
 
-  // Replace the source public path with standalone public path
-  return sourcePath.replace(
-    path.join(process.cwd(), 'public'),
-    standalonePath
-  );
+  return cwd;
 }
+
+const SOURCE_ROOT = getSourceRoot();
+
+// Storage paths - always use source directory
+export const STORAGE_PATHS = {
+  images: path.join(SOURCE_ROOT, 'public', 'images'),
+  borders: path.join(SOURCE_ROOT, 'public', 'images', 'borders'),
+  backgrounds: path.join(SOURCE_ROOT, 'public', 'images', 'backgrounds'),
+  trainTemplates: path.join(SOURCE_ROOT, 'public', 'images', 'train-templates'),
+  worksheetTemplates: path.join(SOURCE_ROOT, 'public', 'images', 'worksheet-templates'),
+  blog: path.join(SOURCE_ROOT, 'public', 'blog', 'images'),
+  blogPdfs: path.join(SOURCE_ROOT, 'public', 'blog', 'pdfs'),
+  blogThumbnails: path.join(SOURCE_ROOT, 'public', 'blog', 'thumbnails'),
+};
 
 // Ensure all storage directories exist
 export function initializeStorage() {
   Object.values(STORAGE_PATHS).forEach(dir => {
-    // Create source directory
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir, { recursive: true });
-      console.log(`[STORAGE INIT] Created source directory: ${dir}`);
-    }
-
-    // Create standalone directory if standalone build exists
-    const standalonePath = getStandalonePath(dir);
-    if (standalonePath && !fs.existsSync(standalonePath)) {
-      fs.mkdirSync(standalonePath, { recursive: true });
-      console.log(`[STORAGE INIT] Created standalone directory: ${standalonePath}`);
+      console.log(`[STORAGE INIT] Created directory: ${dir}`);
     }
   });
 }
@@ -143,48 +134,27 @@ export async function saveFile(
   const baseDir = STORAGE_PATHS[storageType];
   const dir = subdir ? path.join(baseDir, subdir) : baseDir;
 
-  // Ensure source directory exists
+  // Ensure directory exists
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir, { recursive: true });
   }
 
-  // Save to source directory
+  // Save file
   const filePath = path.join(dir, filename);
   await fs.promises.writeFile(filePath, buffer);
-  console.log(`[FILE SAVE] Saved to source: ${filePath}`);
+  console.log(`[FILE SAVE] Saved to: ${filePath}`);
 
-  // Also save to standalone directory if it exists
-  const standaloneDir = getStandalonePath(dir);
-  if (standaloneDir) {
-    // Ensure standalone directory exists
-    if (!fs.existsSync(standaloneDir)) {
-      fs.mkdirSync(standaloneDir, { recursive: true });
-    }
-
-    const standaloneFilePath = path.join(standaloneDir, filename);
-    await fs.promises.writeFile(standaloneFilePath, buffer);
-    console.log(`[FILE SAVE] Saved to standalone: ${standaloneFilePath}`);
-  }
-
-  // Return public URL path
-  const publicPath = filePath.replace(path.join(process.cwd(), 'public'), '').replace(/\\/g, '/');
+  // Return public URL path (relative to public directory)
+  const publicPath = filePath.replace(path.join(SOURCE_ROOT, 'public'), '').replace(/\\/g, '/');
   return publicPath;
 }
 
 // Delete file from disk
 export async function deleteFile(publicPath: string): Promise<void> {
-  // Delete from source directory
-  const filePath = path.join(process.cwd(), 'public', publicPath);
+  const filePath = path.join(SOURCE_ROOT, 'public', publicPath);
   if (fs.existsSync(filePath)) {
     await fs.promises.unlink(filePath);
-    console.log(`[FILE DELETE] Deleted from source: ${filePath}`);
-  }
-
-  // Also delete from standalone directory if it exists
-  const standalonePath = getStandalonePath(filePath);
-  if (standalonePath && fs.existsSync(standalonePath)) {
-    await fs.promises.unlink(standalonePath);
-    console.log(`[FILE DELETE] Deleted from standalone: ${standalonePath}`);
+    console.log(`[FILE DELETE] Deleted: ${filePath}`);
   }
 }
 

@@ -3027,12 +3027,11 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     notFound();
   }
   
-  // Check if user is logged in via cookies or headers
-  // For development, check if coming from Strapi admin or if there's any auth
-  // This is a simple check - in production you'd use proper auth
-  const isAdmin = true; // For now, treat all users as admin for testing
-  const userTier = isAdmin ? 'full' : (slug === 'word-search' ? 'free' : 'free');
-  const hasAccess = isAdmin || checkAccess(userTier, appData.requiredTier || 'core');
+  // SERVER-SIDE: This check is redundant because AppContent (client component)
+  // handles the actual access control with useAuth hook. This page should always
+  // render AppContent and let it handle tier checking on the client side.
+  // Setting hasAccess to true so AppContent is always rendered.
+  const hasAccess = true;
   
   // Extract data with fallbacks
   const appName = appData.name || slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());

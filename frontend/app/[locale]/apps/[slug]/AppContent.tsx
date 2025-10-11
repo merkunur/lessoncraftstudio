@@ -26,6 +26,102 @@ const languages = [
   { code: 'fi', name: 'Suomi' }
 ];
 
+// Natural, native-sounding translations for upgrade messages
+const upgradeMessages = {
+  en: {
+    title: 'Upgrade Required',
+    description: 'This app requires a {tier} subscription or higher.',
+    currentPlan: 'Your current plan:',
+    upgradeButton: 'Upgrade Now',
+    dashboardButton: 'Go to Dashboard'
+  },
+  de: {
+    title: 'Upgrade erforderlich',
+    description: 'Für diese App benötigen Sie ein {tier}-Abonnement oder höher.',
+    currentPlan: 'Ihr aktueller Plan:',
+    upgradeButton: 'Jetzt upgraden',
+    dashboardButton: 'Zum Dashboard'
+  },
+  fr: {
+    title: 'Mise à niveau requise',
+    description: 'Cette application nécessite un abonnement {tier} ou supérieur.',
+    currentPlan: 'Votre formule actuelle :',
+    upgradeButton: 'Passer à la version supérieure',
+    dashboardButton: 'Accéder au tableau de bord'
+  },
+  es: {
+    title: 'Actualización necesaria',
+    description: 'Esta aplicación requiere una suscripción {tier} o superior.',
+    currentPlan: 'Tu plan actual:',
+    upgradeButton: 'Actualizar ahora',
+    dashboardButton: 'Ir al panel'
+  },
+  it: {
+    title: 'Aggiornamento necessario',
+    description: 'Questa app richiede un abbonamento {tier} o superiore.',
+    currentPlan: 'Il tuo piano attuale:',
+    upgradeButton: 'Aggiorna ora',
+    dashboardButton: 'Vai alla dashboard'
+  },
+  pt: {
+    title: 'Atualização necessária',
+    description: 'Esta aplicação requer uma subscrição {tier} ou superior.',
+    currentPlan: 'O seu plano atual:',
+    upgradeButton: 'Atualizar agora',
+    dashboardButton: 'Ir para o painel'
+  },
+  nl: {
+    title: 'Upgrade vereist',
+    description: 'Voor deze app heb je een {tier}-abonnement of hoger nodig.',
+    currentPlan: 'Je huidige abonnement:',
+    upgradeButton: 'Nu upgraden',
+    dashboardButton: 'Naar dashboard'
+  },
+  sv: {
+    title: 'Uppgradering krävs',
+    description: 'Den här appen kräver en {tier}-prenumeration eller högre.',
+    currentPlan: 'Din nuvarande plan:',
+    upgradeButton: 'Uppgradera nu',
+    dashboardButton: 'Gå till instrumentpanelen'
+  },
+  da: {
+    title: 'Opgradering påkrævet',
+    description: 'Denne app kræver et {tier}-abonnement eller højere.',
+    currentPlan: 'Din nuværende plan:',
+    upgradeButton: 'Opgrader nu',
+    dashboardButton: 'Gå til kontrolpanel'
+  },
+  no: {
+    title: 'Oppgradering kreves',
+    description: 'Denne appen krever et {tier}-abonnement eller høyere.',
+    currentPlan: 'Din nåværende plan:',
+    upgradeButton: 'Oppgrader nå',
+    dashboardButton: 'Gå til dashbordet'
+  },
+  fi: {
+    title: 'Päivitys vaaditaan',
+    description: 'Tämä sovellus vaatii {tier}-tilauksen tai korkeamman.',
+    currentPlan: 'Nykyinen tilauksesi:',
+    upgradeButton: 'Päivitä nyt',
+    dashboardButton: 'Siirry hallintapaneeliin'
+  }
+};
+
+// Tier name translations - natural and localized
+const tierNames = {
+  en: { free: 'Free', core: 'Core', full: 'Full' },
+  de: { free: 'Kostenlos', core: 'Core', full: 'Vollversion' },
+  fr: { free: 'Gratuite', core: 'Core', full: 'Complète' },
+  es: { free: 'Gratuito', core: 'Core', full: 'Completo' },
+  it: { free: 'Gratuito', core: 'Core', full: 'Completo' },
+  pt: { free: 'Gratuito', core: 'Core', full: 'Completo' },
+  nl: { free: 'Gratis', core: 'Core', full: 'Volledig' },
+  sv: { free: 'Gratis', core: 'Core', full: 'Fullständig' },
+  da: { free: 'Gratis', core: 'Core', full: 'Fuld' },
+  no: { free: 'Gratis', core: 'Core', full: 'Full' },
+  fi: { free: 'Ilmainen', core: 'Core', full: 'Täysi' }
+};
+
 export default function AppContent({ appSlug, locale, appName, requiredTier }: AppContentProps) {
   const [selectedLocale, setSelectedLocale] = useState(locale);
   const [iframeKey, setIframeKey] = useState(0);
@@ -77,12 +173,59 @@ export default function AppContent({ appSlug, locale, appName, requiredTier }: A
     setIframeKey(prev => prev + 1);
   };
 
+  // Normalize tier values to handle variations (pro, premium, paid -> full)
+  const normalizeTier = (tier: string | undefined): 'free' | 'core' | 'full' => {
+    const normalized = (tier || 'free').toLowerCase().trim();
+
+    // Map common variations to standard tiers
+    if (normalized === 'full' || normalized === 'pro' || normalized === 'premium' || normalized === 'paid') {
+      return 'full';
+    }
+    if (normalized === 'core' || normalized === 'plus') {
+      return 'core';
+    }
+    return 'free';
+  };
+
   // Check if user has access to this tier
-  const userTier = user?.subscriptionTier || 'free';
+  const userTier = normalizeTier(user?.subscriptionTier);
   const canAccess = () => {
-    if (requiredTier === 'free') return true;
-    if (userTier === 'core') return requiredTier === 'core';
-    if (userTier === 'full') return true;
+    console.log('[AppContent] Access Check:', {
+      appSlug,
+      userTierRaw: user?.subscriptionTier,
+      userTierNormalized: userTier,
+      requiredTier,
+      isAdmin: user?.isAdmin,
+      user: user ? { email: user.email, tier: user.subscriptionTier } : 'no user'
+    });
+
+    // Admins always have full access
+    if (user?.isAdmin) {
+      console.log('[AppContent] Access Result: true (admin)');
+      return true;
+    }
+
+    // Free tier apps are accessible to everyone
+    if (requiredTier === 'free') {
+      console.log('[AppContent] Access Result: true (free app)');
+      return true;
+    }
+
+    // Core tier users can access free and core apps
+    if (userTier === 'core') {
+      const hasAccess = requiredTier === 'free' || requiredTier === 'core';
+      console.log('[AppContent] Access Result:', hasAccess, '(core user)');
+      return hasAccess;
+    }
+
+    // Full tier users can access all apps
+    if (userTier === 'full') {
+      console.log('[AppContent] Access Result: true (full user)');
+      return true;
+    }
+
+    // Free tier users can only access free apps
+    console.log('[AppContent] Access Result: false (insufficient tier)');
     return false;
   };
 
@@ -97,6 +240,14 @@ export default function AppContent({ appSlug, locale, appName, requiredTier }: A
 
   // If user doesn't have access, show upgrade message
   if (!canAccess()) {
+    // Get translations for current locale, fallback to English
+    const messages = upgradeMessages[locale as keyof typeof upgradeMessages] || upgradeMessages.en;
+    const tiers = tierNames[locale as keyof typeof tierNames] || tierNames.en;
+
+    // Get localized tier names
+    const localizedRequiredTier = tiers[requiredTier as keyof typeof tiers];
+    const localizedUserTier = tiers[userTier as keyof typeof tiers];
+
     return (
       <div className="app-content-container">
         <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
@@ -107,14 +258,14 @@ export default function AppContent({ appSlug, locale, appName, requiredTier }: A
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                 </svg>
               </div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-2">Upgrade Required</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-2">{messages.title}</h2>
               <p className="text-gray-600">
-                This app requires a <span className="font-semibold text-blue-600">{requiredTier.charAt(0).toUpperCase() + requiredTier.slice(1)}</span> subscription or higher.
+                {messages.description.replace('{tier}', localizedRequiredTier)}
               </p>
             </div>
 
             <div className="space-y-3 mb-6">
-              <p className="text-sm text-gray-500">Your current plan: <strong>{userTier.charAt(0).toUpperCase() + userTier.slice(1)}</strong></p>
+              <p className="text-sm text-gray-500">{messages.currentPlan} <strong>{localizedUserTier}</strong></p>
             </div>
 
             <div className="flex gap-3">
@@ -122,13 +273,13 @@ export default function AppContent({ appSlug, locale, appName, requiredTier }: A
                 href={`/${locale}/pricing`}
                 className="flex-1 inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-200"
               >
-                Upgrade Now
+                {messages.upgradeButton}
               </Link>
               <Link
                 href={`/${locale}/dashboard`}
                 className="flex-1 inline-flex items-center justify-center px-6 py-3 border-2 border-gray-300 text-gray-700 font-semibold rounded-lg hover:bg-gray-50 transition-all duration-200"
               >
-                Go to Dashboard
+                {messages.dashboardButton}
               </Link>
             </div>
           </div>

@@ -2452,7 +2452,9 @@
             
             newGeneratedItems.forEach(group => {
                 if(oldTransforms[group.generationId]) {
-                    group.set(oldTransforms[group.generationId]);
+                    // Only restore position and angle, NOT scale (images may have changed after shuffle)
+                    const { left, top, angle } = oldTransforms[group.generationId];
+                    group.set({ left, top, angle });
                 }
                 worksheetCanvas.add(group);
             });
@@ -2613,7 +2615,9 @@
                 });
                 
                 if(oldTransforms[item.generationId]){
-                    item.set(oldTransforms[item.generationId]);
+                    // Only restore position and angle, NOT scale (images may have changed after shuffle)
+                    const { left, top, angle } = oldTransforms[item.generationId];
+                    item.set({ left, top, angle });
                 }
                 
                 answerKeyCanvas.add(item);

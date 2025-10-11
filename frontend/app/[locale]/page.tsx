@@ -5,6 +5,10 @@ import WorksheetSamples from '@/components/WorksheetSamples';
 import { getTranslations } from 'next-intl/server';
 import { homepageContentManager } from '@/lib/homepage-content-manager';
 
+// Force dynamic rendering - never cache this page
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 async function getHomepageContent(locale: string) {
   try {
     // Call content manager directly - no HTTP fetch to avoid SSR deadlock

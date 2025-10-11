@@ -89,9 +89,9 @@ async function getHomepageContent(locale: string) {
             }, {})
           : {},
         modalLabels: {
-          ageRange: (typeof rawContent.samplesSection.modalLabels?.ageRange === 'object' ? (rawContent.samplesSection.modalLabels.ageRange[locale] || rawContent.samplesSection.modalLabels.ageRange.en) : rawContent.samplesSection.modalLabels?.ageRange) || 'Age Range',
-          difficulty: (typeof rawContent.samplesSection.modalLabels?.difficulty === 'object' ? (rawContent.samplesSection.modalLabels.difficulty[locale] || rawContent.samplesSection.modalLabels.difficulty.en) : rawContent.samplesSection.modalLabels?.difficulty) || 'Difficulty',
-          category: (typeof rawContent.samplesSection.modalLabels?.category === 'object' ? (rawContent.samplesSection.modalLabels.category[locale] || rawContent.samplesSection.modalLabels.category.en) : rawContent.samplesSection.modalLabels?.category) || 'Category'
+          ageRange: (typeof (rawContent.samplesSection as any).modalLabels?.ageRange === 'object' ? ((rawContent.samplesSection as any).modalLabels.ageRange[locale] || (rawContent.samplesSection as any).modalLabels.ageRange.en) : (rawContent.samplesSection as any).modalLabels?.ageRange) || 'Age Range',
+          difficulty: (typeof (rawContent.samplesSection as any).modalLabels?.difficulty === 'object' ? ((rawContent.samplesSection as any).modalLabels.difficulty[locale] || (rawContent.samplesSection as any).modalLabels.difficulty.en) : (rawContent.samplesSection as any).modalLabels?.difficulty) || 'Difficulty',
+          category: (typeof (rawContent.samplesSection as any).modalLabels?.category === 'object' ? ((rawContent.samplesSection as any).modalLabels.category[locale] || (rawContent.samplesSection as any).modalLabels.category.en) : (rawContent.samplesSection as any).modalLabels?.category) || 'Category'
         }
       } : null
     };

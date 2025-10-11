@@ -358,6 +358,7 @@ model ImageLibraryItem {
 
   @@index([themeId])
   @@index([filename])
+  @@index([themeId, sortOrder]) // Compound index for paginated queries
   @@map("image_library_items")
 }
 

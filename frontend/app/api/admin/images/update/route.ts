@@ -9,67 +9,119 @@ const prisma = new PrismaClient();
 
 /**
  * GET /api/admin/images/update
- * Retrieves all image themes and their associated images from database
+ * Retrieves image themes with pagination support
+ * Query params:
+ *   - type: images|borders|backgrounds|train|worksheet (default: images)
+ *   - themeId: Load images only for this theme (optional, returns theme list if not specified)
+ *   - page: Page number for images (default: 1)
+ *   - limit: Images per page (default: 100, max: 500)
  */
 async function getHandler(request: NextRequest, userId: string) {
   try {
-    // Get type from query params (images, borders, backgrounds, train, worksheet)
     const { searchParams } = new URL(request.url);
     const type = searchParams.get('type') || 'images';
-
-    type ThemeWithImages = Prisma.ImageThemeGetPayload<{
-      include: { images: true }
-    }>;
-    let themes: ThemeWithImages[];
+    const themeId = searchParams.get('themeId');
+    const page = parseInt(searchParams.get('page') || '1');
+    const limit = Math.min(parseInt(searchParams.get('limit') || '100'), 500); // Max 500 per page
 
     try {
-      // Try to fetch themes with their images from database
-      themes = await prisma.imageTheme.findMany({
-        where: {
-          type: type,
-        },
-        include: {
-          images: {
-            orderBy: {
-              sortOrder: 'asc',
-            },
+      // If themeId is provided, return paginated images for that theme only
+      if (themeId) {
+        const theme = await prisma.imageTheme.findFirst({
+          where: {
+            name: themeId,
+            type: type,
           },
-        },
-        orderBy: {
-          sortOrder: 'asc',
-        },
+        });
+
+        if (!theme) {
+          return NextResponse.json(
+            { error: 'Theme not found' },
+            { status: 404 }
+          );
+        }
+
+        // Get total count for pagination
+        const totalImages = await prisma.imageLibraryItem.count({
+          where: { themeId: theme.id },
+        });
+
+        // Get paginated images
+        const images = await prisma.imageLibraryItem.findMany({
+          where: { themeId: theme.id },
+          orderBy: { sortOrder: 'asc' },
+          skip: (page - 1) * limit,
+          take: limit,
+        });
+
+        return NextResponse.json({
+          theme: {
+            id: theme.name,
+            name: theme.name,
+            dbId: theme.id,
+            displayNames: theme.displayNames as Record<string, string>,
+            active: true,
+            sortOrder: theme.sortOrder,
+          },
+          images: images.map(img => ({
+            filename: img.filename,
+            path: img.filePath,
+            displayName: (img.translations as any)?.en || img.filename,
+            translations: img.translations as Record<string, string>,
+            fileSize: img.fileSize,
+            mimeType: img.mimeType,
+            width: img.width,
+            height: img.height,
+          })),
+          pagination: {
+            page,
+            limit,
+            total: totalImages,
+            totalPages: Math.ceil(totalImages / limit),
+            hasMore: page * limit < totalImages,
+          },
+        });
+      }
+
+      // Otherwise, return theme list with image counts only (no image data)
+      const themes = await prisma.imageTheme.findMany({
+        where: { type: type },
+        orderBy: { sortOrder: 'asc' },
+      });
+
+      // Get image counts for each theme efficiently
+      const themesWithCounts = await Promise.all(
+        themes.map(async (theme) => {
+          const imageCount = await prisma.imageLibraryItem.count({
+            where: { themeId: theme.id },
+          });
+
+          return {
+            id: theme.name,
+            name: theme.name,
+            dbId: theme.id,
+            displayNames: theme.displayNames as Record<string, string>,
+            active: true,
+            sortOrder: theme.sortOrder,
+            imageCount: imageCount, // Return count instead of full image array
+            images: [], // Empty array - images loaded on-demand via themeId param
+          };
+        })
+      );
+
+      return NextResponse.json({
+        themes: themesWithCounts,
+        lastUpdated: new Date().toISOString(),
+        version: '3.0.0', // Version bump for pagination support
       });
     } catch (dbError) {
-      // If database is not available, return empty data structure
       console.warn('Database not available, using empty data:', dbError);
-      themes = [];
+      return NextResponse.json({
+        themes: [],
+        lastUpdated: new Date().toISOString(),
+        version: '3.0.0',
+      });
     }
-
-    // Transform database format to content manager format
-    const metadata = {
-      themes: themes.map(theme => ({
-        id: theme.name,
-        name: theme.name,
-        dbId: theme.id, // Include database UUID for delete/edit operations
-        displayNames: theme.displayNames as Record<string, string>,
-        active: true,
-        sortOrder: theme.sortOrder,
-        images: theme.images.map(img => ({
-          filename: img.filename,
-          path: img.filePath,
-          displayName: (img.translations as any)?.en || img.filename,
-          translations: img.translations as Record<string, string>,
-          fileSize: img.fileSize,
-          mimeType: img.mimeType,
-          width: img.width,
-          height: img.height,
-        })),
-      })),
-      lastUpdated: new Date().toISOString(),
-      version: '2.0.0',
-    };
-
-    return NextResponse.json(metadata);
   } catch (error) {
     console.error('Error reading images metadata:', error);
     return NextResponse.json(

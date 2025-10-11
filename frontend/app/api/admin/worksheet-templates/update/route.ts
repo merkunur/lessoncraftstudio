@@ -9,63 +9,114 @@ const prisma = new PrismaClient();
 
 /**
  * GET /api/admin/worksheet-templates/update
- * Retrieves all worksheet template themes and their associated images from database
+ * Retrieves worksheet template themes with pagination support
+ * Query params:
+ *   - themeId: Load images only for this theme (optional, returns theme list if not specified)
+ *   - page: Page number for images (default: 1)
+ *   - limit: Images per page (default: 100, max: 500)
  */
 async function getHandler(request: NextRequest, userId: string) {
   try {
+    const { searchParams } = new URL(request.url);
     const type = 'worksheet';
-
-    type ThemeWithImages = Prisma.ImageThemeGetPayload<{
-      include: { images: true }
-    }>;
-    let themes: ThemeWithImages[];
+    const themeId = searchParams.get('themeId');
+    const page = parseInt(searchParams.get('page') || '1');
+    const limit = Math.min(parseInt(searchParams.get('limit') || '100'), 500);
 
     try {
-      themes = await prisma.imageTheme.findMany({
-        where: {
-          type: type,
-        },
-        include: {
-          images: {
-            orderBy: {
-              sortOrder: 'asc',
-            },
+      if (themeId) {
+        const theme = await prisma.imageTheme.findFirst({
+          where: {
+            name: themeId,
+            type: type,
           },
-        },
-        orderBy: {
-          sortOrder: 'asc',
-        },
+        });
+
+        if (!theme) {
+          return NextResponse.json(
+            { error: 'Theme not found' },
+            { status: 404 }
+          );
+        }
+
+        const totalImages = await prisma.imageLibraryItem.count({
+          where: { themeId: theme.id },
+        });
+
+        const images = await prisma.imageLibraryItem.findMany({
+          where: { themeId: theme.id },
+          orderBy: { sortOrder: 'asc' },
+          skip: (page - 1) * limit,
+          take: limit,
+        });
+
+        return NextResponse.json({
+          theme: {
+            id: theme.name,
+            name: theme.name,
+            dbId: theme.id,
+            displayNames: theme.displayNames as Record<string, string>,
+            active: true,
+            sortOrder: theme.sortOrder,
+          },
+          images: images.map(img => ({
+            filename: img.filename,
+            path: img.filePath,
+            displayName: (img.translations as any)?.en || img.filename,
+            translations: img.translations as Record<string, string>,
+            fileSize: img.fileSize,
+            mimeType: img.mimeType,
+            width: img.width,
+            height: img.height,
+            sortOrder: img.sortOrder,
+          })),
+          pagination: {
+            page,
+            limit,
+            total: totalImages,
+            totalPages: Math.ceil(totalImages / limit),
+            hasMore: page * limit < totalImages,
+          },
+        });
+      }
+
+      const themes = await prisma.imageTheme.findMany({
+        where: { type: type },
+        orderBy: { sortOrder: 'asc' },
+      });
+
+      const themesWithCounts = await Promise.all(
+        themes.map(async (theme) => {
+          const imageCount = await prisma.imageLibraryItem.count({
+            where: { themeId: theme.id },
+          });
+
+          return {
+            id: theme.name,
+            name: theme.name,
+            dbId: theme.id,
+            displayNames: theme.displayNames as Record<string, string>,
+            active: true,
+            sortOrder: theme.sortOrder,
+            imageCount: imageCount,
+            images: [],
+          };
+        })
+      );
+
+      return NextResponse.json({
+        themes: themesWithCounts,
+        lastUpdated: new Date().toISOString(),
+        version: '3.0.0',
       });
     } catch (dbError) {
       console.warn('Database not available, using empty data:', dbError);
-      themes = [];
+      return NextResponse.json({
+        themes: [],
+        lastUpdated: new Date().toISOString(),
+        version: '3.0.0',
+      });
     }
-
-    const metadata = {
-      themes: themes.map(theme => ({
-        id: theme.name,
-        name: theme.name,
-        dbId: theme.id,
-        displayNames: theme.displayNames as Record<string, string>,
-        active: true,
-        sortOrder: theme.sortOrder,
-        images: theme.images.map(img => ({
-          filename: img.filename,
-          path: img.filePath,
-          displayName: (img.translations as any)?.en || img.filename,
-          translations: img.translations as Record<string, string>,
-          fileSize: img.fileSize,
-          mimeType: img.mimeType,
-          width: img.width,
-          height: img.height,
-          sortOrder: img.sortOrder,
-        })),
-      })),
-      lastUpdated: new Date().toISOString(),
-      version: '2.0.0',
-    };
-
-    return NextResponse.json(metadata);
   } catch (error) {
     console.error('Error reading worksheet templates metadata:', error);
     return NextResponse.json(

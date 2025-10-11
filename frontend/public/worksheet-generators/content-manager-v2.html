@@ -914,6 +914,10 @@
         let currentType = 'images';
         let currentTheme = null;
         let currentData = {};
+        let currentThemeData = null; // Current theme's full data with images
+        let currentPage = 1;
+        let totalPages = 1;
+        let hasMoreImages = false;
         let selectedItems = new Set();
         let pendingChanges = {};
         let editingImage = null; // Track if we're editing an existing image
@@ -1064,7 +1068,8 @@
             let html = '<h3 style="margin-bottom: 15px; color: #2d3748;">Themes</h3>';
 
             themes.forEach(theme => {
-                const imageCount = theme.images ? theme.images.length : 0;
+                // Use imageCount from API (v3.0.0) or fall back to images.length (v2.0.0)
+                const imageCount = theme.imageCount !== undefined ? theme.imageCount : (theme.images ? theme.images.length : 0);
                 html += `
                     <div class="theme-item" data-theme="${theme.id}">
                         <div onclick="selectTheme('${theme.id}')" style="flex: 1; cursor: pointer;">
@@ -1099,8 +1104,9 @@
             }
         }
 
-        function selectTheme(themeId) {
+        async function selectTheme(themeId) {
             currentTheme = themeId;
+            currentPage = 1; // Reset to first page
 
             // Update sidebar selection
             document.querySelectorAll('.theme-item').forEach(item => {
@@ -1110,12 +1116,67 @@
                 }
             });
 
-            // Display theme content
+            // Load images for this theme with pagination
             const theme = currentData.themes.find(t => t.id === themeId);
             if (theme) {
                 document.getElementById('contentTitle').textContent = theme.displayNames?.en || theme.name;
-                displayThemeContent(theme);
+                showLoading();
+                await loadThemeImages(themeId, 1);
             }
+        }
+
+        async function loadThemeImages(themeId, page = 1, append = false) {
+            try {
+                const endpoint = getEndpoint(currentType);
+                const response = await authenticatedFetch(
+                    `${API_URL}${endpoint}?type=${currentType}&themeId=${themeId}&page=${page}&limit=100`,
+                    {
+                        method: 'GET',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                    }
+                );
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+
+                const data = await response.json();
+
+                // Store pagination info
+                if (data.pagination) {
+                    currentPage = data.pagination.page;
+                    totalPages = data.pagination.totalPages;
+                    hasMoreImages = data.pagination.hasMore;
+                }
+
+                // Build theme data structure
+                const themeData = {
+                    ...data.theme,
+                    images: data.images || []
+                };
+
+                if (append && currentThemeData) {
+                    // Append images to existing data
+                    currentThemeData.images = [...currentThemeData.images, ...themeData.images];
+                } else {
+                    // Replace with new data
+                    currentThemeData = themeData;
+                }
+
+                displayThemeContent(currentThemeData);
+            } catch (error) {
+                console.error('Error loading theme images:', error);
+                showToast('Failed to load images', 'error');
+            }
+        }
+
+        async function loadMoreImages() {
+            if (!hasMoreImages || !currentTheme) return;
+
+            const nextPage = currentPage + 1;
+            await loadThemeImages(currentTheme, nextPage, true); // append=true
         }
 
         function displayThemeContent(theme) {
@@ -1189,6 +1250,27 @@
             `;
 
             html += '</div>';
+
+            // Add pagination info and "Load More" button if there are more images
+            if (hasMoreImages) {
+                html += `
+                    <div style="text-align: center; margin-top: 30px;">
+                        <div style="margin-bottom: 15px; color: #718096;">
+                            Showing ${images.length} images (Page ${currentPage} of ${totalPages})
+                        </div>
+                        <button class="action-btn btn-primary" onclick="loadMoreImages()" style="padding: 12px 24px;">
+                            ⬇️ Load More Images (${(totalPages - currentPage) * 100} remaining)
+                        </button>
+                    </div>
+                `;
+            } else if (images.length > 100) {
+                html += `
+                    <div style="text-align: center; margin-top: 30px; color: #718096;">
+                        All ${images.length} images loaded
+                    </div>
+                `;
+            }
+
             grid.innerHTML = html;
         }
 

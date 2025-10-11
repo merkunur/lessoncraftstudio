@@ -718,6 +718,39 @@
             return localStorage.getItem('accessToken') || '';
         }
 
+        // Generate or retrieve device ID
+        function getDeviceId() {
+            // Check if we already have a device ID stored
+            let deviceId = localStorage.getItem('deviceId');
+
+            if (!deviceId) {
+                // Generate a unique device ID based on browser characteristics
+                const canvas = document.createElement('canvas');
+                const gl = canvas.getContext('webgl');
+                const debugInfo = gl ? gl.getExtension('WEBGL_debug_renderer_info') : null;
+                const renderer = debugInfo ? gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL) : '';
+
+                const fingerprint = [
+                    navigator.userAgent,
+                    navigator.language,
+                    screen.width + 'x' + screen.height,
+                    screen.colorDepth,
+                    new Date().getTimezoneOffset(),
+                    renderer,
+                    navigator.hardwareConcurrency || '',
+                    navigator.deviceMemory || ''
+                ].join('|');
+
+                // Create hash of fingerprint
+                deviceId = 'device_' + btoa(fingerprint).replace(/[^a-zA-Z0-9]/g, '').substring(0, 32);
+
+                // Store for future use
+                localStorage.setItem('deviceId', deviceId);
+            }
+
+            return deviceId;
+        }
+
         // Helper function to make authenticated requests
         async function authenticatedFetch(url, options = {}) {
             const token = getAuthToken();
@@ -774,12 +807,20 @@
             loginBtn.textContent = 'Signing in...';
 
             try {
+                // Get device ID for authentication
+                const deviceId = getDeviceId();
+
                 const response = await fetch(`${API_URL}/api/auth/signin`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
                     },
-                    body: JSON.stringify({ email, password }),
+                    body: JSON.stringify({
+                        email,
+                        password,
+                        deviceId,
+                        rememberMe: false
+                    }),
                 });
 
                 if (response.ok) {
@@ -799,6 +840,47 @@
                         loadContent(currentType || 'images');
                     } else {
                         throw new Error('No access token received');
+                    }
+                } else if (response.status === 409) {
+                    // Device conflict - user is signed in on another device
+                    const conflictData = await response.json();
+
+                    if (confirm(
+                        `You're already signed in on another device:\n\n` +
+                        `Device: ${conflictData.currentSession?.deviceName || 'Unknown'}\n` +
+                        `Last active: ${conflictData.currentSession?.lastActive ? new Date(conflictData.currentSession.lastActive).toLocaleString() : 'Unknown'}\n\n` +
+                        `Do you want to sign out from that device and sign in here?`
+                    )) {
+                        // User wants to force sign-in - call force-signin endpoint
+                        const forceResponse = await fetch(`${API_URL}/api/auth/force-signin`, {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify({
+                                email,
+                                password,
+                                deviceId,
+                                rememberMe: false
+                            }),
+                        });
+
+                        if (forceResponse.ok) {
+                            const data = await forceResponse.json();
+                            localStorage.setItem('accessToken', data.accessToken);
+                            hideLoginOverlay();
+                            showToast('Successfully logged in!', 'success');
+                            loadContent(currentType || 'images');
+                        } else {
+                            const error = await forceResponse.json();
+                            loginError.textContent = error.error || 'Failed to sign in';
+                            loginError.classList.add('show');
+                        }
+                    } else {
+                        // User cancelled
+                        loginBtn.disabled = false;
+                        loginBtn.textContent = 'Sign In';
+                        return;
                     }
                 } else {
                     const error = await response.json();

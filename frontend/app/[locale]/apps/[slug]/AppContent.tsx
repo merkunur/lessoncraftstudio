@@ -127,7 +127,7 @@ export default function AppContent({ appSlug, locale, appName, requiredTier }: A
   const [iframeKey, setIframeKey] = useState(0);
   const router = useRouter();
   const pathname = usePathname();
-  const { user } = useAuth();
+  const { user, loading } = useAuth();
 
   // Map app slugs to HTML files
   const appFileMap: { [key: string]: string } = {
@@ -237,6 +237,20 @@ export default function AppContent({ appSlug, locale, appName, requiredTier }: A
 
   // Check if this is the writing app (English only)
   const isWritingApp = appSlug === 'writing-app';
+
+  // Show loading state while auth is being verified
+  if (loading) {
+    return (
+      <div className="app-content-container">
+        <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+          <div className="text-center">
+            <div className="inline-block animate-spin rounded-full h-16 w-16 border-b-2 border-blue-600 mb-4"></div>
+            <p className="text-gray-600 text-lg">Loading...</p>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   // If user doesn't have access, show upgrade message
   if (!canAccess()) {

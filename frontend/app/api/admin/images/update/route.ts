@@ -216,20 +216,8 @@ async function postHandler(request: NextRequest, userId: string) {
           },
         });
 
-        // Create a Set of filenames that should remain
-        const incomingFilenames = new Set(themeData.images.map((img: any) => img.filename));
-
-        // Delete images that are no longer in the incoming array
-        for (const existingImage of existingImages) {
-          if (!incomingFilenames.has(existingImage.filename)) {
-            await prisma.imageLibraryItem.delete({
-              where: { id: existingImage.id },
-            });
-            console.log(`Deleted image: ${existingImage.filename} from theme ${theme.name}`);
-          }
-        }
-
-        // Update remaining images
+        // Update images (translations only - DO NOT delete images from database)
+        // Images should only be deleted via explicit DELETE endpoint calls
         for (const imgData of themeData.images) {
           // Find image by filename in this theme
           const existingImage = await prisma.imageLibraryItem.findFirst({

@@ -22,7 +22,7 @@ export async function GET(request: Request) {
     if (fs.existsSync(themeDir)) {
       const files = fs.readdirSync(themeDir);
       images = files
-        .filter(file => /\.(png|jpe?g|gif|svg)$/i.test(file))
+        .filter(file => /\.(png|jpe?g|gif|svg|webp)$/i.test(file))
         .map(file => ({
           name: path.basename(file, path.extname(file)).replace(/[-_]/g, ' '),
           path: `/images/borders/${theme}/${file}`

@@ -147,7 +147,7 @@ async function deployHomepageUpdates() {
   console.log('\n📤 Sending data to API...');
 
   try {
-    const response = await fetch('http://localhost:3001/api/homepage/content', {
+    const response = await fetch('http://localhost:3000/api/homepage/content', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -166,7 +166,7 @@ async function deployHomepageUpdates() {
 
       // Verify
       console.log('\n🔍 Verifying deployment...');
-      const verifyResponse = await fetch('http://localhost:3001/api/homepage/content?raw=true');
+      const verifyResponse = await fetch('http://localhost:3000/api/homepage/content?raw=true');
       const data = await verifyResponse.json();
 
       console.log('✅ Samples count:', data.samples?.length || 0);

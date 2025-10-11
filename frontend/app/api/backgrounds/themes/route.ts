@@ -4,13 +4,22 @@ import path from 'path';
 
 export const dynamic = 'force-dynamic';
 
+// Get the true source directory (not standalone)
+function getSourceRoot(): string {
+  const cwd = process.cwd();
+  if (cwd.endsWith('.next/standalone') || cwd.includes('.next/standalone')) {
+    return path.resolve(cwd, '../..');
+  }
+  return cwd;
+}
+
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const locale = searchParams.get('locale') || 'en';
 
   try {
     // Use filesystem fallback directly for instant response
-    const backgroundsDir = path.join(process.cwd(), 'public', 'images', 'backgrounds');
+    const backgroundsDir = path.join(getSourceRoot(), 'public', 'images', 'backgrounds');
 
     let themes: any[] = [];
 

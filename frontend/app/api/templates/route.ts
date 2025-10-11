@@ -4,6 +4,15 @@ import path from 'path';
 
 export const dynamic = 'force-dynamic';
 
+// Get the true source directory (not standalone)
+function getSourceRoot(): string {
+  const cwd = process.cwd();
+  if (cwd.endsWith('.next/standalone') || cwd.includes('.next/standalone')) {
+    return path.resolve(cwd, '../..');
+  }
+  return cwd;
+}
+
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url);
   const appType = searchParams.get('appType');
@@ -13,7 +22,7 @@ export async function GET(request: NextRequest) {
     // Determine which templates to fetch based on app type
     if (appType === 'alphabet-train' || appType === 'pattern-train') {
       // Get train templates from local JSON
-      const metadataPath = path.join(process.cwd(), 'public', 'data', 'train-templates-metadata.json');
+      const metadataPath = path.join(getSourceRoot(), 'public', 'data', 'train-templates-metadata.json');
 
       if (!fs.existsSync(metadataPath)) {
         return NextResponse.json([]);
@@ -38,7 +47,7 @@ export async function GET(request: NextRequest) {
 
     } else if (appType === 'prepositions') {
       // Get worksheet templates from local JSON
-      const metadataPath = path.join(process.cwd(), 'public', 'data', 'worksheet-templates-metadata.json');
+      const metadataPath = path.join(getSourceRoot(), 'public', 'data', 'worksheet-templates-metadata.json');
 
       if (!fs.existsSync(metadataPath)) {
         return NextResponse.json([]);

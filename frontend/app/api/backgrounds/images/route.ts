@@ -4,6 +4,15 @@ import path from 'path';
 
 export const dynamic = 'force-dynamic';
 
+// Get the true source directory (not standalone)
+function getSourceRoot(): string {
+  const cwd = process.cwd();
+  if (cwd.endsWith('.next/standalone') || cwd.includes('.next/standalone')) {
+    return path.resolve(cwd, '../..');
+  }
+  return cwd;
+}
+
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const theme = searchParams.get('theme');
@@ -15,7 +24,7 @@ export async function GET(request: Request) {
 
   try {
     // Use filesystem fallback directly for instant response
-    const themeDir = path.join(process.cwd(), 'public', 'images', 'backgrounds', theme);
+    const themeDir = path.join(getSourceRoot(), 'public', 'images', 'backgrounds', theme);
 
     let images: any[] = [];
 

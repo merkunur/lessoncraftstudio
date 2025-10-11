@@ -46,29 +46,49 @@ export async function GET(request: NextRequest) {
       return NextResponse.json(templates);
 
     } else if (appType === 'prepositions') {
-      // Get worksheet templates from local JSON
-      const metadataPath = path.join(getSourceRoot(), 'public', 'data', 'worksheet-templates-metadata.json');
+      // Get worksheet templates directly from filesystem
+      const templatesDir = path.join(getSourceRoot(), 'public', 'images', 'worksheet-templates');
 
-      if (!fs.existsSync(metadataPath)) {
-        return NextResponse.json([]);
+      if (!fs.existsSync(templatesDir)) {
+        console.log(`Worksheet templates directory not found: ${templatesDir}`);
+        return NextResponse.json({ templates: [] });
       }
 
-      const metadata = JSON.parse(fs.readFileSync(metadataPath, 'utf-8'));
+      // Read all theme directories
+      const themeDirs = fs.readdirSync(templatesDir, { withFileTypes: true })
+        .filter(dirent => dirent.isDirectory())
+        .map(dirent => dirent.name);
 
-      // Extract all images from all themes
-      const templates = metadata.themes?.flatMap((theme: any) => {
-        if (!theme.images || !Array.isArray(theme.images)) {
-          return [];
+      // Collect all templates from all themes
+      const templates: any[] = [];
+
+      for (const themeName of themeDirs) {
+        const themeDir = path.join(templatesDir, themeName);
+
+        try {
+          const files = fs.readdirSync(themeDir);
+          const imageFiles = files.filter(file => /\.(png|jpe?g|gif|svg|webp)$/i.test(file));
+
+          imageFiles.forEach(file => {
+            const fileName = path.basename(file, path.extname(file));
+            // Clean up the filename by removing timestamp-random suffix pattern
+            const cleanName = fileName.replace(/-\d{13}-[a-z0-9]{6}$/i, '');
+            const displayName = cleanName.charAt(0).toUpperCase() + cleanName.slice(1).replace(/[-_]/g, ' ');
+
+            templates.push({
+              path: `/images/worksheet-templates/${themeName}/${file}`,
+              url: `/images/worksheet-templates/${themeName}/${file}`,
+              name: displayName,
+              displayName: displayName,
+              theme: themeName
+            });
+          });
+        } catch (err) {
+          console.error(`Error reading worksheet template theme ${themeName}:`, err);
         }
-        return theme.images.map((img: any) => ({
-          path: img.path,
-          url: img.path,
-          name: img.translations?.[locale] || img.translations?.['en'] || img.displayName || img.filename,
-          displayName: img.translations?.[locale] || img.translations?.['en'] || img.displayName || img.filename
-        }));
-      }) || [];
+      }
 
-      console.log(`Worksheet templates for ${appType}, locale=${locale}:`, templates.length);
+      console.log(`Worksheet templates for ${appType}, locale=${locale}: ${templates.length} templates from ${themeDirs.length} themes`);
       return NextResponse.json({ templates });
     }
 

@@ -2396,13 +2396,37 @@
             const index = currentEditingSample.index;
             console.log('Saving sample at index:', index);
 
+            // Get the image URL and check if it's Base64
+            let imageUrl = document.getElementById('edit-sample-image').value;
+
+            // If image URL is Base64, upload it to the server first
+            if (imageUrl && imageUrl.startsWith('data:')) {
+                console.log('Detected Base64 image, uploading to server...');
+                try {
+                    showLoading(true);
+                    const imageFile = base64ToFile(imageUrl, `sample-${index + 1}.png`);
+                    imageUrl = await uploadImageToServer(imageFile);
+                    console.log('Base64 image uploaded successfully:', imageUrl);
+
+                    // Update the input field with the new path
+                    document.getElementById('edit-sample-image').value = imageUrl;
+
+                    showLoading(false);
+                } catch (error) {
+                    showLoading(false);
+                    console.error('Failed to upload Base64 image:', error);
+                    showMessage(`Failed to upload image: ${error.message}`, 'error');
+                    return;
+                }
+            }
+
             const updatedSample = {
                 id: currentEditingSample.id || `sample-${index + 1}`,
                 sort_order: currentEditingSample.sort_order !== undefined ? currentEditingSample.sort_order : index,
                 category: document.getElementById('edit-sample-category').value,
                 difficulty: document.getElementById('edit-sample-difficulty').value,
                 featured: document.getElementById('edit-sample-featured').checked,
-                image_url: document.getElementById('edit-sample-image').value,
+                image_url: imageUrl,
                 name: {},
                 description: {},
                 age_range: {}
@@ -2473,6 +2497,27 @@
             if (homepageContent.navigation?.logo) {
                 homepageContent.navigation.logo.image = '';
             }
+        }
+
+        // Helper function to convert Base64 data URL to File object
+        function base64ToFile(base64String, filename = 'image.png') {
+            // Check if it's a Base64 data URL
+            if (!base64String.startsWith('data:')) {
+                return null;
+            }
+
+            // Extract MIME type and Base64 data
+            const arr = base64String.split(',');
+            const mime = arr[0].match(/:(.*?);/)[1];
+            const bstr = atob(arr[1]);
+            let n = bstr.length;
+            const u8arr = new Uint8Array(n);
+
+            while(n--){
+                u8arr[n] = bstr.charCodeAt(n);
+            }
+
+            return new File([u8arr], filename, {type: mime});
         }
 
         // Helper function to upload image to server and get file path

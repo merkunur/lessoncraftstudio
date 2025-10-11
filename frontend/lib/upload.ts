@@ -14,11 +14,36 @@ export const STORAGE_PATHS = {
   blogThumbnails: path.join(process.cwd(), 'public', 'blog', 'thumbnails'),
 };
 
+// Get standalone path for a given source path (for production builds)
+function getStandalonePath(sourcePath: string): string | null {
+  const standalonePath = path.join(process.cwd(), '.next', 'standalone', 'public');
+
+  // Check if standalone directory exists
+  if (!fs.existsSync(standalonePath)) {
+    return null;
+  }
+
+  // Replace the source public path with standalone public path
+  return sourcePath.replace(
+    path.join(process.cwd(), 'public'),
+    standalonePath
+  );
+}
+
 // Ensure all storage directories exist
 export function initializeStorage() {
   Object.values(STORAGE_PATHS).forEach(dir => {
+    // Create source directory
     if (!fs.existsSync(dir)) {
       fs.mkdirSync(dir, { recursive: true });
+      console.log(`[STORAGE INIT] Created source directory: ${dir}`);
+    }
+
+    // Create standalone directory if standalone build exists
+    const standalonePath = getStandalonePath(dir);
+    if (standalonePath && !fs.existsSync(standalonePath)) {
+      fs.mkdirSync(standalonePath, { recursive: true });
+      console.log(`[STORAGE INIT] Created standalone directory: ${standalonePath}`);
     }
   });
 }
@@ -118,13 +143,28 @@ export async function saveFile(
   const baseDir = STORAGE_PATHS[storageType];
   const dir = subdir ? path.join(baseDir, subdir) : baseDir;
 
-  // Ensure directory exists
+  // Ensure source directory exists
   if (!fs.existsSync(dir)) {
     fs.mkdirSync(dir, { recursive: true });
   }
 
+  // Save to source directory
   const filePath = path.join(dir, filename);
   await fs.promises.writeFile(filePath, buffer);
+  console.log(`[FILE SAVE] Saved to source: ${filePath}`);
+
+  // Also save to standalone directory if it exists
+  const standaloneDir = getStandalonePath(dir);
+  if (standaloneDir) {
+    // Ensure standalone directory exists
+    if (!fs.existsSync(standaloneDir)) {
+      fs.mkdirSync(standaloneDir, { recursive: true });
+    }
+
+    const standaloneFilePath = path.join(standaloneDir, filename);
+    await fs.promises.writeFile(standaloneFilePath, buffer);
+    console.log(`[FILE SAVE] Saved to standalone: ${standaloneFilePath}`);
+  }
 
   // Return public URL path
   const publicPath = filePath.replace(path.join(process.cwd(), 'public'), '').replace(/\\/g, '/');
@@ -133,9 +173,18 @@ export async function saveFile(
 
 // Delete file from disk
 export async function deleteFile(publicPath: string): Promise<void> {
+  // Delete from source directory
   const filePath = path.join(process.cwd(), 'public', publicPath);
   if (fs.existsSync(filePath)) {
     await fs.promises.unlink(filePath);
+    console.log(`[FILE DELETE] Deleted from source: ${filePath}`);
+  }
+
+  // Also delete from standalone directory if it exists
+  const standalonePath = getStandalonePath(filePath);
+  if (standalonePath && fs.existsSync(standalonePath)) {
+    await fs.promises.unlink(standalonePath);
+    console.log(`[FILE DELETE] Deleted from standalone: ${standalonePath}`);
   }
 }
 

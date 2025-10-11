@@ -1,6 +1,7 @@
 export const dynamic = 'force-dynamic';
 
 import { NextRequest, NextResponse } from 'next/server';
+import path from 'path';
 import { prisma } from '@/lib/prisma';
 import { withAdmin } from '@/lib/auth-middleware';
 import {
@@ -16,6 +17,7 @@ initializeStorage();
 
 // POST /api/admin/images/upload - Upload new image(s)
 async function postHandler(request: NextRequest, userId: string) {
+  console.log(`[UPLOAD] Upload request received from user: ${userId}`);
 
   try {
     const formData = await request.formData();
@@ -23,7 +25,10 @@ async function postHandler(request: NextRequest, userId: string) {
     const files = formData.getAll('files') as File[];
     const translationsJson = formData.get('translations') as string;
 
+    console.log(`[UPLOAD] Request parameters - themeId: ${themeId}, files count: ${files.length}`);
+
     if (!themeId) {
+      console.warn('[UPLOAD] Missing themeId parameter');
       return NextResponse.json(
         { error: 'themeId is required' },
         { status: 400 }
@@ -31,13 +36,20 @@ async function postHandler(request: NextRequest, userId: string) {
     }
 
     if (!files || files.length === 0) {
+      console.warn('[UPLOAD] No files provided');
       return NextResponse.json(
         { error: 'At least one file is required' },
         { status: 400 }
       );
     }
 
+    // Log file details
+    files.forEach((file, index) => {
+      console.log(`[UPLOAD] File ${index + 1}: ${file.name} (${file.size} bytes, ${file.type})`);
+    });
+
     // Verify theme exists (themeId is actually the theme name)
+    console.log(`[UPLOAD] Looking up theme with name: ${themeId}, type: images`);
     const theme = await prisma.imageTheme.findFirst({
       where: {
         name: themeId,
@@ -46,11 +58,15 @@ async function postHandler(request: NextRequest, userId: string) {
     });
 
     if (!theme) {
+      console.error(`[UPLOAD] Theme '${themeId}' not found in database`);
       return NextResponse.json(
         { error: `Theme '${themeId}' not found. Please create the theme first before adding images.` },
         { status: 404 }
       );
     }
+
+    console.log(`[UPLOAD] Found theme: ${theme.name} (ID: ${theme.id}, type: ${theme.type})`);
+
 
     // Parse translations (if provided)
     let translations: any = {};
@@ -79,22 +95,34 @@ async function postHandler(request: NextRequest, userId: string) {
 
     for (const file of files) {
       try {
+        console.log(`[UPLOAD] Starting upload for file: ${file.name} (size: ${file.size}, type: ${file.type})`);
+
         // Validate file
         const validation = validateImageFile(file);
         if (!validation.valid) {
+          console.warn(`[UPLOAD] Validation failed for ${file.name}: ${validation.error}`);
           errors.push({ filename: file.name, error: validation.error });
           continue;
         }
+        console.log(`[UPLOAD] Validation passed for ${file.name}`);
 
         // Convert File to Buffer
         const arrayBuffer = await file.arrayBuffer();
         const buffer = Buffer.from(arrayBuffer);
+        console.log(`[UPLOAD] Converted ${file.name} to buffer (${buffer.length} bytes)`);
 
         // Optimize image (resize, convert to WebP if needed)
         const optimized = await optimizeImage(buffer, file.type);
+        console.log(`[UPLOAD] Optimized ${file.name}: ${optimized.width}x${optimized.height}, type: ${optimized.mimeType}, size: ${optimized.buffer.length}`);
 
-        // Generate unique filename
-        const uniqueFilename = generateUniqueFilename(file.name);
+        // Generate unique filename with correct extension based on optimized mime type
+        const originalExt = path.extname(file.name);
+        const nameWithoutExt = path.basename(file.name, originalExt);
+        const newExt = optimized.mimeType === 'image/webp' ? '.webp' : originalExt;
+        const timestamp = Date.now();
+        const random = Math.random().toString(36).substring(2, 8);
+        const uniqueFilename = `${nameWithoutExt}-${timestamp}-${random}${newExt}`;
+        console.log(`[UPLOAD] Generated unique filename: ${uniqueFilename}`);
 
         // Determine storage type based on theme type
         const storageType = theme.type === 'borders' ? 'borders'
@@ -102,6 +130,7 @@ async function postHandler(request: NextRequest, userId: string) {
                           : theme.type === 'train' ? 'trainTemplates'
                           : theme.type === 'worksheet' ? 'worksheetTemplates'
                           : 'images';
+        console.log(`[UPLOAD] Storage type: ${storageType}, theme name: ${theme.name}`);
 
         // Save file to disk
         const publicPath = await saveFile(
@@ -110,9 +139,11 @@ async function postHandler(request: NextRequest, userId: string) {
           storageType,
           theme.name
         );
+        console.log(`[UPLOAD] Saved file to: ${publicPath}`);
 
         // Get file-specific translations or use empty object
         const fileTranslations = translations[file.name] || {};
+        console.log(`[UPLOAD] File translations:`, fileTranslations);
 
         // Create database record (using database ID, not name)
         const image = await prisma.imageLibraryItem.create({
@@ -128,10 +159,12 @@ async function postHandler(request: NextRequest, userId: string) {
             sortOrder: currentSortOrder++,
           },
         });
+        console.log(`[UPLOAD] Created database record for ${file.name} with ID: ${image.id}`);
 
         uploadedImages.push(image);
       } catch (error) {
-        console.error(`Failed to upload ${file.name}:`, error);
+        console.error(`[UPLOAD ERROR] Failed to upload ${file.name}:`, error);
+        console.error(`[UPLOAD ERROR] Error stack:`, error instanceof Error ? error.stack : 'No stack trace');
         errors.push({
           filename: file.name,
           error: error instanceof Error ? error.message : 'Unknown error'
@@ -139,15 +172,21 @@ async function postHandler(request: NextRequest, userId: string) {
       }
     }
 
+    console.log(`[UPLOAD] Upload complete - Success: ${uploadedImages.length}/${files.length}, Errors: ${errors.length}`);
+
     return NextResponse.json({
       message: `Successfully uploaded ${uploadedImages.length} of ${files.length} files`,
       images: uploadedImages,
       errors: errors.length > 0 ? errors : undefined,
     }, { status: 201 });
   } catch (error) {
-    console.error('Upload error:', error);
+    console.error('[UPLOAD ERROR] Top-level upload error:', error);
+    console.error('[UPLOAD ERROR] Error stack:', error instanceof Error ? error.stack : 'No stack trace');
     return NextResponse.json(
-      { error: 'Failed to upload images' },
+      {
+        error: 'Failed to upload images',
+        details: error instanceof Error ? error.message : 'Unknown error',
+      },
       { status: 500 }
     );
   }

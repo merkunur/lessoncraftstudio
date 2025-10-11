@@ -2475,44 +2475,84 @@
             }
         }
 
+        // Helper function to upload image to server and get file path
+        async function uploadImageToServer(file) {
+            const formData = new FormData();
+            formData.append('file', file);
+
+            try {
+                showLoading(true);
+                const response = await fetch('/api/homepage/samples/upload', {
+                    method: 'POST',
+                    body: formData,
+                    credentials: 'include' // Include cookies for authentication
+                });
+
+                showLoading(false);
+
+                if (!response.ok) {
+                    const error = await response.json();
+                    throw new Error(error.error || 'Upload failed');
+                }
+
+                const result = await response.json();
+                console.log('Image uploaded successfully:', result);
+                return result.path; // Returns path like "/worksheet-samples/image-123456.webp"
+            } catch (error) {
+                showLoading(false);
+                console.error('Upload error:', error);
+                throw error;
+            }
+        }
+
         function handleLogoUpload(event) {
             const file = event.target.files[0];
             if (!file) return;
 
-            const reader = new FileReader();
-            reader.onload = function(e) {
-                const logoPreview = document.getElementById('logo-preview');
-                if (logoPreview) {
-                    logoPreview.innerHTML = `
-                        <div class="image-preview-container">
-                            <img src="${e.target.result}" alt="Logo" class="image-preview">
-                            <button class="image-remove" onclick="removeLogo()">&times;</button>
-                        </div>
-                    `;
-                    uploadedImages.logo = e.target.result;
-                }
-            };
-            reader.readAsDataURL(file);
+            // Upload to server and get file path (no more Base64!)
+            uploadImageToServer(file)
+                .then(imagePath => {
+                    const logoPreview = document.getElementById('logo-preview');
+                    if (logoPreview) {
+                        logoPreview.innerHTML = `
+                            <div class="image-preview-container">
+                                <img src="${imagePath}" alt="Logo" class="image-preview">
+                                <button class="image-remove" onclick="removeLogo()">&times;</button>
+                            </div>
+                        `;
+                        uploadedImages.logo = imagePath; // Store file path, not Base64
+                    }
+                    showMessage('Logo uploaded successfully', 'success');
+                })
+                .catch(error => {
+                    console.error('Logo upload failed:', error);
+                    showMessage('Failed to upload logo: ' + error.message, 'error');
+                });
         }
 
         function handleSampleImageUpload(event, sampleIndex) {
             const file = event.target.files[0];
             if (!file) return;
 
-            const reader = new FileReader();
-            reader.onload = function(e) {
-                // Update the image URL input
-                document.getElementById('edit-sample-image').value = e.target.result;
+            // Upload to server and get file path (no more Base64!)
+            uploadImageToServer(file)
+                .then(imagePath => {
+                    // Update the image URL input with file path
+                    document.getElementById('edit-sample-image').value = imagePath;
 
-                // Update the preview
-                const previewDiv = document.getElementById('edit-sample-image-preview');
-                if (previewDiv) {
-                    previewDiv.innerHTML = `
-                        <img src="${e.target.result}" alt="Preview" style="max-width: 200px; max-height: 200px; border: 1px solid #ddd; border-radius: 4px;">
-                    `;
-                }
-            };
-            reader.readAsDataURL(file);
+                    // Update the preview
+                    const previewDiv = document.getElementById('edit-sample-image-preview');
+                    if (previewDiv) {
+                        previewDiv.innerHTML = `
+                            <img src="${imagePath}" alt="Preview" style="max-width: 200px; max-height: 200px; border: 1px solid #ddd; border-radius: 4px;">
+                        `;
+                    }
+                    showMessage('Sample image uploaded successfully', 'success');
+                })
+                .catch(error => {
+                    console.error('Sample image upload failed:', error);
+                    showMessage('Failed to upload sample image: ' + error.message, 'error');
+                });
         }
 
         function switchLanguage(section, lang) {

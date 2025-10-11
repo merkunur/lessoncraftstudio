@@ -24,6 +24,7 @@ export const STORAGE_PATHS = {
   backgrounds: path.join(SOURCE_ROOT, 'public', 'images', 'backgrounds'),
   trainTemplates: path.join(SOURCE_ROOT, 'public', 'images', 'train-templates'),
   worksheetTemplates: path.join(SOURCE_ROOT, 'public', 'images', 'worksheet-templates'),
+  worksheetSamples: path.join(SOURCE_ROOT, 'public', 'worksheet-samples'),
   blog: path.join(SOURCE_ROOT, 'public', 'blog', 'images'),
   blogPdfs: path.join(SOURCE_ROOT, 'public', 'blog', 'pdfs'),
   blogThumbnails: path.join(SOURCE_ROOT, 'public', 'blog', 'thumbnails'),

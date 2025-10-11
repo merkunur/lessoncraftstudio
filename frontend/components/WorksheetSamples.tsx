@@ -440,11 +440,11 @@ export default function WorksheetSamples({ locale = 'en', initialContent }: Work
                 className="bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer transform transition-transform duration-300 hover:scale-105 hover:shadow-xl"
               >
                 {/* Image */}
-                <div className="aspect-w-4 aspect-h-3 bg-gray-100">
+                <div className="aspect-[4/3] bg-gray-100 overflow-hidden">
                   <img
                     src={sample.image}
                     alt={sample.name}
-                    className="w-full h-64 object-cover"
+                    className="w-full h-full object-cover"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
                       target.src = 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300"%3E%3Crect width="400" height="300" fill="%23f3f4f6"/%3E%3Ctext x="50%25" y="50%25" text-anchor="middle" dy=".3em" fill="%239ca3af" font-family="system-ui" font-size="20"%3EImage Not Found%3C/text%3E%3C/svg%3E';

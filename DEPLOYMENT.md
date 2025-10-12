@@ -1,5 +1,49 @@
 # Production Deployment Guide
 
+## ⚠️ CRITICAL: Next.js Standalone Mode - Static Files Issue
+
+**READ THIS FIRST** - Failure to follow this will result in website having NO CSS/JavaScript!
+
+### The Problem
+
+Next.js standalone mode (`output: 'standalone'`) does NOT automatically copy static files after building.
+
+When you run `npm run build`, Next.js creates `.next/standalone/` but:
+- ❌ Does NOT copy `.next/static` → `.next/standalone/.next/static` (CSS, JS, fonts)
+- ❌ Does NOT copy `public` → `.next/standalone/public` (images, HTML files)
+
+PM2 runs from `.next/standalone/server.js`, so if these files aren't copied, **the website will have no styling or JavaScript!**
+
+### The Solution
+
+**ALWAYS use the complete deployment command:**
+
+```bash
+# CORRECT - Full deployment with static files
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && cp -r public .next/standalone/public && pm2 restart lessoncraftstudio"
+
+# WRONG - Missing static file copies - WILL BREAK WEBSITE!
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build"
+```
+
+### Quick Fix If Website is Broken
+
+If you forgot to copy the static files and the website has no CSS/JS:
+
+```bash
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp -r .next/static .next/standalone/.next/static && cp -r public .next/standalone/public && pm2 restart lessoncraftstudio"
+```
+
+### Use the Deployment Script (Recommended)
+
+A deployment script has been created at `/opt/lessoncraftstudio/deploy.sh` that handles all this automatically:
+
+```bash
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "bash /opt/lessoncraftstudio/deploy.sh"
+```
+
+---
+
 ## Server Information
 
 **Server Address**: 65.108.5.250
@@ -75,7 +119,7 @@ git push
 - New dependencies added
 
 **When NOT to rebuild**:
-- Only public static files changed (HTML, images)
+- Only public static files changed (HTML, images) - BUT you must still copy to standalone and restart!
 - Database-only changes
 - Environment variable changes (restart only)
 
@@ -344,10 +388,13 @@ git push
 "C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && fuser -k 3000/tcp && pm2 restart lessoncraftstudio"
 ```
 
-### Public Files Only (No Build/Restart Needed)
+### Public Files Only (No Build Required - STANDALONE MODE)
 ```bash
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull"
+# IMPORTANT: For standalone mode, public files must be copied to .next/standalone/public/
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && cp -r public .next/standalone/public && pm2 restart lessoncraftstudio"
 ```
+
+**Why this is needed**: The production server runs in standalone mode (`output: 'standalone'` in next.config.js), which means PM2 executes `node .next/standalone/server.js`. This server serves files from `.next/standalone/public/`, NOT from `frontend/public/`. Therefore, after updating files in `frontend/public/`, you MUST copy them to `.next/standalone/public/` and restart PM2.
 
 ## Important Notes
 
@@ -355,10 +402,11 @@ git push
 2. **Production port is 3000** - Local development uses 3001, production uses 3000
 3. **PM2 auto-restarts** - If the app crashes, PM2 will automatically restart it
 4. **Check logs after deployment** - Always verify no errors in PM2 logs
-5. **Build when needed** - Only rebuild if code changes; skip for static file updates
-6. **Database scripts** - Remember to update port numbers in database scripts (3001 → 3000)
-7. **Git conflicts** - Use `git stash && git pull` if local changes conflict
-8. **Keep credentials secure** - This file contains sensitive information; do not commit to public repos
+5. **CRITICAL: Standalone mode** - Production runs in standalone mode. Public files MUST be copied to `.next/standalone/public/` after updates!
+6. **Build when needed** - Only rebuild if code changes; for public files, just copy to standalone and restart
+7. **Database scripts** - Remember to update port numbers in database scripts (3001 → 3000)
+8. **Git conflicts** - Use `git stash && git pull` if local changes conflict
+9. **Keep credentials secure** - This file contains sensitive information; do not commit to public repos
 
 ## Server File Structure
 

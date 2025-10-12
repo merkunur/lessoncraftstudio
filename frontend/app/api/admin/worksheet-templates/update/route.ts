@@ -202,44 +202,10 @@ async function postHandler(request: NextRequest, userId: string) {
         dbId: theme.id,
       });
 
-      // Sync images for this theme
-      if (themeData.images && Array.isArray(themeData.images)) {
-        // Get all current images from database
-        const currentImages = await prisma.imageLibraryItem.findMany({
-          where: { themeId: theme.id },
-        });
-
-        // Build a set of filenames from the request
-        const requestFilenames = new Set(themeData.images.map((img: any) => img.filename));
-
-        // Delete images that are in database but NOT in request
-        const imagesToDelete = currentImages.filter(img => !requestFilenames.has(img.filename));
-        const sourceRoot = getSourceRoot();
-
-        for (const imgToDelete of imagesToDelete) {
-          // Delete physical files from both source and standalone
-          const filePaths = [
-            path.join(sourceRoot, 'public', imgToDelete.filePath),
-            path.join(sourceRoot, '.next', 'standalone', 'public', imgToDelete.filePath),
-          ];
-
-          for (const filePath of filePaths) {
-            try {
-              await fs.unlink(filePath);
-              console.log(`Deleted file: ${filePath}`);
-            } catch (error) {
-              console.warn(`Could not delete file ${filePath}:`, error);
-            }
-          }
-
-          // Delete from database
-          await prisma.imageLibraryItem.delete({
-            where: { id: imgToDelete.id },
-          });
-          console.log(`Deleted worksheet template image from database: ${imgToDelete.filename}`);
-        }
-
-        // Update images that are in the request
+      // Update image translations for this theme
+      if (themeData.images && Array.isArray(themeData.images) && themeData.images.length > 0) {
+        // Only update translations for images that are in the request
+        // DO NOT delete images here - deletions must be done via the DELETE endpoint
         for (const imgData of themeData.images) {
           const existingImage = await prisma.imageLibraryItem.findFirst({
             where: {

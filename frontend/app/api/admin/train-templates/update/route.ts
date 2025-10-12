@@ -1,11 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { PrismaClient, Prisma } from '@prisma/client';
+import { Prisma } from '@prisma/client';
+import { prisma } from '@/lib/prisma';
 import { withCors } from '@/lib/cors';
 import { withAdmin } from '@/lib/auth-middleware';
 
 export const dynamic = 'force-dynamic';
-
-const prisma = new PrismaClient();
 
 /**
  * GET /api/admin/train-templates/update

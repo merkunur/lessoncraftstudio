@@ -64,6 +64,7 @@ async function getHandler(request: NextRequest, userId: string) {
             sortOrder: theme.sortOrder,
           },
           images: images.map(img => ({
+            id: img.id, // Add ID for delete functionality
             filename: img.filename,
             path: img.filePath,
             displayName: (img.translations as any)?.en || img.filename,

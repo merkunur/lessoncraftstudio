@@ -49,6 +49,10 @@ export async function GET(request: NextRequest) {
     const allBackgrounds: any[] = [];
 
     for (const themeRecord of themes) {
+      // Get translated theme display name
+      const themeTranslations = themeRecord.displayNames as Record<string, string> || {};
+      const themeName = themeTranslations[locale] || themeTranslations['en'] || themeRecord.name;
+
       for (const image of themeRecord.images) {
         const translations = image.translations as Record<string, string> || {};
         const displayName = translations[locale] || translations['en'] || image.filename.replace(/\.(png|jpg|jpeg|gif|svg|webp)$/i, '');
@@ -61,6 +65,7 @@ export async function GET(request: NextRequest) {
           originalName: image.filename,
           translations: translations,
           theme: themeRecord.name,
+          themeName: themeName, // Translated theme display name
         });
       }
     }

@@ -2,10 +2,21 @@ import { NextRequest, NextResponse } from 'next/server';
 import { PrismaClient, Prisma } from '@prisma/client';
 import { withCors } from '@/lib/cors';
 import { withAdmin } from '@/lib/auth-middleware';
+import fs from 'fs/promises';
+import path from 'path';
 
 export const dynamic = 'force-dynamic';
 
 const prisma = new PrismaClient();
+
+// Get the true source directory (not standalone)
+function getSourceRoot(): string {
+  const cwd = process.cwd();
+  if (cwd.endsWith('.next/standalone') || cwd.includes('.next/standalone')) {
+    return path.resolve(cwd, '../..');
+  }
+  return cwd;
+}
 
 /**
  * GET /api/admin/worksheet-templates/update
@@ -191,12 +202,45 @@ async function postHandler(request: NextRequest, userId: string) {
         dbId: theme.id,
       });
 
-      // Update images for this theme (translations only - not files)
+      // Sync images for this theme
       if (themeData.images && Array.isArray(themeData.images)) {
-        // Update images (translations only - DO NOT delete images from database)
-        // Images should only be deleted via explicit DELETE endpoint calls
+        // Get all current images from database
+        const currentImages = await prisma.imageLibraryItem.findMany({
+          where: { themeId: theme.id },
+        });
+
+        // Build a set of filenames from the request
+        const requestFilenames = new Set(themeData.images.map((img: any) => img.filename));
+
+        // Delete images that are in database but NOT in request
+        const imagesToDelete = currentImages.filter(img => !requestFilenames.has(img.filename));
+        const sourceRoot = getSourceRoot();
+
+        for (const imgToDelete of imagesToDelete) {
+          // Delete physical files from both source and standalone
+          const filePaths = [
+            path.join(sourceRoot, 'public', imgToDelete.filePath),
+            path.join(sourceRoot, '.next', 'standalone', 'public', imgToDelete.filePath),
+          ];
+
+          for (const filePath of filePaths) {
+            try {
+              await fs.unlink(filePath);
+              console.log(`Deleted file: ${filePath}`);
+            } catch (error) {
+              console.warn(`Could not delete file ${filePath}:`, error);
+            }
+          }
+
+          // Delete from database
+          await prisma.imageLibraryItem.delete({
+            where: { id: imgToDelete.id },
+          });
+          console.log(`Deleted worksheet template image from database: ${imgToDelete.filename}`);
+        }
+
+        // Update images that are in the request
         for (const imgData of themeData.images) {
-          // Find image by filename in this theme
           const existingImage = await prisma.imageLibraryItem.findFirst({
             where: {
               themeId: theme.id,
@@ -205,7 +249,7 @@ async function postHandler(request: NextRequest, userId: string) {
           });
 
           if (existingImage) {
-            // Update translations and display name
+            // Update translations
             const translations = imgData.translations || existingImage.translations;
             await prisma.imageLibraryItem.update({
               where: { id: existingImage.id },

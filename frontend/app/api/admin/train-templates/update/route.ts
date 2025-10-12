@@ -190,24 +190,12 @@ async function postHandler(request: NextRequest, userId: string) {
         dbId: theme.id,
       });
 
+      // Update images for this theme (translations only - not files)
       if (themeData.images && Array.isArray(themeData.images)) {
-        const existingImages = await prisma.imageLibraryItem.findMany({
-          where: {
-            themeId: theme.id,
-          },
-        });
-
-        const incomingFilenames = new Set(themeData.images.map((img: any) => img.filename));
-
-        for (const existingImage of existingImages) {
-          if (!incomingFilenames.has(existingImage.filename)) {
-            await prisma.imageLibraryItem.delete({
-              where: { id: existingImage.id },
-            });
-          }
-        }
-
+        // Update images (translations only - DO NOT delete images from database)
+        // Images should only be deleted via explicit DELETE endpoint calls
         for (const imgData of themeData.images) {
+          // Find image by filename in this theme
           const existingImage = await prisma.imageLibraryItem.findFirst({
             where: {
               themeId: theme.id,
@@ -216,6 +204,7 @@ async function postHandler(request: NextRequest, userId: string) {
           });
 
           if (existingImage) {
+            // Update translations and display name
             const translations = imgData.translations || existingImage.translations;
             await prisma.imageLibraryItem.update({
               where: { id: existingImage.id },

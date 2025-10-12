@@ -10,7 +10,7 @@ export async function GET(request: Request) {
   try {
     // Get themes from database
     const dbThemes = await prisma.imageTheme.findMany({
-      where: { type: 'borders' },
+      where: { type: 'train' },
       include: {
         _count: {
           select: { images: true }
@@ -35,9 +35,9 @@ export async function GET(request: Request) {
       },
     });
   } catch (error) {
-    console.error('Error fetching border themes:', error);
+    console.error('Error fetching train template themes:', error);
     return NextResponse.json(
-      { error: 'Failed to fetch border themes' },
+      { error: 'Failed to fetch train template themes' },
       { status: 500 }
     );
   }

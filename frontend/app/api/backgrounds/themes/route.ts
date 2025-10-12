@@ -1,50 +1,44 @@
 import { NextResponse } from 'next/server';
-import fs from 'fs';
-import path from 'path';
+import { prisma } from '@/lib/prisma';
 
 export const dynamic = 'force-dynamic';
-
-// Get the true source directory (not standalone)
-function getSourceRoot(): string {
-  const cwd = process.cwd();
-  if (cwd.endsWith('.next/standalone') || cwd.includes('.next/standalone')) {
-    return path.resolve(cwd, '../..');
-  }
-  return cwd;
-}
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   const locale = searchParams.get('locale') || 'en';
 
   try {
-    // Use filesystem fallback directly for instant response
-    const backgroundsDir = path.join(getSourceRoot(), 'public', 'images', 'backgrounds');
+    // Get themes from database
+    const dbThemes = await prisma.imageTheme.findMany({
+      where: { type: 'backgrounds' },
+      include: {
+        _count: {
+          select: { images: true }
+        }
+      },
+      orderBy: { sortOrder: 'asc' }
+    });
 
-    let themes: any[] = [];
-
-    if (fs.existsSync(backgroundsDir)) {
-      const files = fs.readdirSync(backgroundsDir, { withFileTypes: true });
-      themes = files
-        .filter(file => file.isDirectory())
-        .map(file => ({
-          value: file.name,
-          displayName: file.name.charAt(0).toUpperCase() + file.name.slice(1)
-        }));
-    }
+    const themes = dbThemes.map(theme => {
+      const displayNames = theme.displayNames as Record<string, string>;
+      return {
+        value: theme.name,
+        displayName: displayNames?.[locale] || displayNames?.['en'] || theme.name,
+        imageCount: theme._count.images
+      };
+    });
 
     return NextResponse.json(themes, {
       headers: {
         'Content-Type': 'application/json; charset=utf-8',
-        'Cache-Control': 'public, max-age=60',
+        'Cache-Control': 'no-cache, no-store, must-revalidate', // No cache during development
       },
     });
   } catch (error) {
     console.error('Error fetching background themes:', error);
-    return NextResponse.json([], {
-      headers: {
-        'Content-Type': 'application/json; charset=utf-8',
-      },
-    });
+    return NextResponse.json(
+      { error: 'Failed to fetch background themes' },
+      { status: 500 }
+    );
   }
 }

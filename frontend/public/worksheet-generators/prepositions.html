@@ -1297,6 +1297,11 @@
                     if (whiteboardOption) {
                         dom.templateSelect.value = whiteboardOption.value;
                         currentTemplatePath = whiteboardOption.value;
+                    } else {
+                        // If no whiteboard found in API response, add hardcoded whiteboard
+                        dom.templateSelect.add(new Option('Whiteboard', '/images/prepositions/whiteboard.png'));
+                        dom.templateSelect.value = '/images/prepositions/whiteboard.png';
+                        currentTemplatePath = '/images/prepositions/whiteboard.png';
                     }
                 } else {
                     console.warn('Failed to load worksheet templates from API');

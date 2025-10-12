@@ -1959,7 +1959,18 @@ document.addEventListener("DOMContentLoaded", function() {
         const grid = new Array(totalCells).fill(null);
         let availableIndices = Array.from({ length: totalCells }, (_, i) => i);
 
-        requiredImages.forEach(requiredImg => {
+        // IMPROVED RANDOMIZATION: Shuffle available indices multiple times for better entropy
+        for (let pass = 0; pass < 3; pass++) {
+            for (let i = availableIndices.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [availableIndices[i], availableIndices[j]] = [availableIndices[j], availableIndices[i]];
+            }
+        }
+
+        // Shuffle requiredImages order for varied placement patterns
+        const shuffledRequired = [...requiredImages].sort(() => Math.random() - 0.5);
+
+        shuffledRequired.forEach(requiredImg => {
             for (let i = 0; i < 2; i++) {
                 if (availableIndices.length === 0) break;
                 const randIndexInAvailable = Math.floor(Math.random() * availableIndices.length);
@@ -1968,9 +1979,14 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
-        availableIndices.forEach(gridIndex => {
-            const randImageFromPool = imagePool[Math.floor(Math.random() * imagePool.length)];
-            grid[gridIndex] = { word: randImageFromPool.word, path: randImageFromPool.path };
+        // Shuffle imagePool for variety
+        const shuffledPool = [...imagePool].sort(() => Math.random() - 0.5);
+
+        availableIndices.forEach((gridIndex, idx) => {
+            // Use modulo to cycle through shuffled pool for better distribution
+            const poolIndex = idx % shuffledPool.length;
+            const chosenImage = shuffledPool[poolIndex];
+            grid[gridIndex] = { word: chosenImage.word, path: chosenImage.path };
         });
 
         const data = [];
@@ -2329,7 +2345,7 @@ document.addEventListener("DOMContentLoaded", function() {
             originX: 'center',
             textAlign: 'center',
             width: maxTextWidth,
-            splitByGrapheme: true, // Better text wrapping
+            splitByGrapheme: false, // FIX: Prevent mid-word splits for professional appearance
             selectable: true,  // Make editable
             evented: true,
             editable: true,  // Explicitly enable editing
@@ -3345,8 +3361,26 @@ async function downloadPDF(canvasToExport, filename) {
 
             // DO NOT call applyTranslations() - UI language is controlled by header selector
 
+            // CRITICAL FIX: Store IDs of currently selected images
+            const selectedIds = selectedImages.map(img => img.id);
+            console.log('Preserving selected image IDs:', selectedIds);
+
             await loadThemes();
             await loadThemeImages();
+
+            // CRITICAL FIX: Update selectedImages with new language data
+            if (selectedIds.length > 0 && currentThemeImages.length > 0) {
+                // Update selectedImages with fresh data from currentThemeImages
+                selectedImages = selectedIds
+                    .map(id => currentThemeImages.find(img => img.id === id))
+                    .filter(img => img !== undefined);
+
+                console.log('Updated selectedImages with new language:', selectedImages);
+
+                // Re-render dictionary to update selection highlights
+                renderDictionary();
+                renderSelectedImages();
+            }
         });
     }
 

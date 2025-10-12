@@ -494,6 +494,21 @@
                 <div class="accordion-item">
                     <button class="accordion-button active" data-translate="image_library">Image Library</button>
                     <div class="accordion-content active">
+                        <label data-translate="imageLibraryLanguage">Image Library Language:</label>
+                        <select id="languageSelect">
+                            <option value="en" data-translate="lang_en">English</option>
+                            <option value="de" data-translate="lang_de">Deutsch</option>
+                            <option value="fr" data-translate="lang_fr">Français</option>
+                            <option value="es" data-translate="lang_es">Español</option>
+                            <option value="pt" data-translate="lang_pt">Português</option>
+                            <option value="it" data-translate="lang_it">Italiano</option>
+                            <option value="nl" data-translate="lang_nl">Nederlands</option>
+                            <option value="sv" data-translate="lang_sv">Svenska</option>
+                            <option value="da" data-translate="lang_da">Dansk</option>
+                            <option value="no" data-translate="lang_no">Norsk</option>
+                            <option value="fi" data-translate="lang_fi">Suomi</option>
+                        </select>
+
                         <label data-translate="select_theme">Select Theme:</label>
                         <select id="themeSelect">
                             <option value="all" data-translate="all_themes">All Themes</option>
@@ -606,8 +621,18 @@
         //     defaultTheme: 'animals'
         // });
 
-        // App-specific variables
-        let currentLocale = typeof getCurrentLocale !== 'undefined' ? getCurrentLocale() : 'en';
+        // LOCALE SEPARATION - TWO different locales for UI and content
+        // Get URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+
+        // UI locale = Interface language (buttons, labels, etc.) - from main app's language selector
+        let uiLocale = urlParams.get('locale') || urlParams.get('ui') || (typeof getCurrentLocale !== 'undefined' ? getCurrentLocale() : 'en');
+
+        // Current locale = Image library language (image names/labels) - from sidebar selector
+        let currentLocale = urlParams.get('content') || uiLocale;
+
+        console.log('UI Locale (interface):', uiLocale);
+        console.log('Current Locale (image library):', currentLocale);
         let worksheetCanvas, answerCanvas;
         let selectedImages = [];
         let targetImages = [];
@@ -757,12 +782,20 @@
                 });
                 objects.push(titleText);
 
-                // Description - Compact for landscape
+                // Description - Compact for landscape with improved word wrapping
+                let landscapeDescFontSize = 14;
+                let landscapeDescWidth = Math.min(maxHeaderWidth + 60, pageWidth * 0.7); // Wider for better flow
+
+                if (description.length > 60) {
+                    landscapeDescFontSize = 13;
+                    landscapeDescWidth = Math.min(maxHeaderWidth + 80, pageWidth * 0.75);
+                }
+
                 const descText = new fabric.Textbox(description, {
                     left: pageWidth / 2,
                     top: headerTop + headerHeight + 5,
-                    width: maxHeaderWidth - 20,
-                    fontSize: 14,
+                    width: landscapeDescWidth,
+                    fontSize: landscapeDescFontSize,
                     fontFamily: 'Quicksand, sans-serif',
                     fontWeight: '500',
                     fill: '#555555',
@@ -772,6 +805,7 @@
                     selectable: true,
                     editable: true,
                     hasControls: true,
+                    splitByGrapheme: false, // Prevent mid-word splits
                     isHeaderDesc: true
                 });
                 objects.push(descText);
@@ -834,12 +868,25 @@
                 });
                 objects.push(titleText);
 
-                // Description text
+                // Description text - improved word wrapping
+                // Adjust width and font size based on description length
+                let descFontSize = 20;
+                let descWidth = Math.min(520, pageWidth - 120); // Wider width for better text flow
+
+                if (description.length > 60) {
+                    descFontSize = 18;
+                    descWidth = Math.min(560, pageWidth - 100);
+                }
+                if (description.length > 80) {
+                    descFontSize = 16;
+                    descWidth = Math.min(600, pageWidth - 80);
+                }
+
                 const descText = new fabric.Textbox(description, {
                     left: pageWidth / 2,
                     top: headerTop + 120,
-                    width: Math.min(450, pageWidth - 150),
-                    fontSize: 20,
+                    width: descWidth,
+                    fontSize: descFontSize,
                     fontFamily: 'Quicksand, sans-serif',
                     fontWeight: '500',
                     fill: '#555555',
@@ -849,6 +896,7 @@
                     selectable: true,
                     editable: true,
                     hasControls: true,
+                    splitByGrapheme: false, // Prevent mid-word splits
                     isHeaderDesc: true
                 });
                 objects.push(descText);
@@ -1652,6 +1700,34 @@
             document.getElementById('clearBtn').addEventListener('click', clearWorksheet);
             document.getElementById('downloadPdfBtn').addEventListener('click', downloadPDF);
             document.getElementById('printBtn').addEventListener('click', printWorksheet);
+
+            // Image Library Language selector event listener
+            const languageSelect = document.getElementById('languageSelect');
+            if (languageSelect) {
+                // Set initial value to current locale
+                languageSelect.value = currentLocale;
+
+                // Handle language change
+                languageSelect.addEventListener('change', function() {
+                    const newLocale = this.value;
+                    currentLocale = newLocale;
+                    console.log('Image library language changed to:', currentLocale);
+
+                    // DO NOT call applyTranslations() - UI language is controlled by main header selector
+                    // This only changes the image library content language
+
+                    // Reload themes and images with new locale
+                    loadThemes().then(() => {
+                        // After themes loaded, reload images if a theme is selected
+                        const themeSelect = document.getElementById('themeSelect');
+                        if (themeSelect && themeSelect.value) {
+                            loadImages();
+                        }
+                    });
+
+                    showMessage(`Image library language changed to ${newLocale}`, 'info');
+                });
+            }
 
             // Apply translations if available
             if (typeof applyTranslations === 'function') {

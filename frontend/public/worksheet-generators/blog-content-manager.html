@@ -541,6 +541,102 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+
+        /* Login overlay styles */
+        .login-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            z-index: 10000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login-overlay.active {
+            display: flex;
+        }
+
+        .login-box {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 400px;
+            width: 90%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .login-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .login-header h2 {
+            font-size: 28px;
+            color: var(--gray-800);
+            margin-bottom: 10px;
+        }
+
+        .login-header p {
+            color: var(--gray-600);
+            font-size: 14px;
+        }
+
+        .login-input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid var(--gray-200);
+            border-radius: 10px;
+            font-size: 14px;
+            margin-bottom: 15px;
+            transition: all 0.3s;
+        }
+
+        .login-input:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .login-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .login-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .login-error {
+            background: #fee;
+            color: #c33;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 14px;
+            display: none;
+        }
+
+        .login-error.show {
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -1173,10 +1269,206 @@
         </div>
     </div>
 
+    <!-- Login Overlay -->
+    <div class="login-overlay" id="loginOverlay">
+        <div class="login-box">
+            <div class="login-header">
+                <h2>🔒 Admin Login</h2>
+                <p>Please sign in to manage blog content</p>
+            </div>
+            <div class="login-error" id="loginError"></div>
+            <form id="loginForm" onsubmit="handleLogin(event)">
+                <input
+                    type="email"
+                    class="login-input"
+                    id="loginEmail"
+                    placeholder="Email address"
+                    value="admin@lessoncraftstudio.com"
+                    required
+                >
+                <input
+                    type="password"
+                    class="login-input"
+                    id="loginPassword"
+                    placeholder="Password"
+                    required
+                >
+                <button type="submit" class="login-btn" id="loginBtn">
+                    Sign In
+                </button>
+            </form>
+        </div>
+    </div>
+
     <script>
+        // Use dynamic URL that works in all environments
+        const API_URL = window.location.origin;
+
         // Get authentication token from localStorage
         function getAuthToken() {
             return localStorage.getItem('accessToken') || '';
+        }
+
+        // Generate or retrieve device ID
+        function getDeviceId() {
+            // Check if we already have a device ID stored
+            let deviceId = localStorage.getItem('deviceId');
+
+            if (!deviceId) {
+                // Generate a unique device ID based on browser characteristics
+                const canvas = document.createElement('canvas');
+                const gl = canvas.getContext('webgl');
+                const debugInfo = gl ? gl.getExtension('WEBGL_debug_renderer_info') : null;
+                const renderer = debugInfo ? gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL) : '';
+
+                const fingerprint = [
+                    navigator.userAgent,
+                    navigator.language,
+                    screen.width + 'x' + screen.height,
+                    screen.colorDepth,
+                    new Date().getTimezoneOffset(),
+                    renderer,
+                    navigator.hardwareConcurrency || '',
+                    navigator.deviceMemory || ''
+                ].join('|');
+
+                // Create hash of fingerprint
+                deviceId = 'device_' + btoa(fingerprint).replace(/[^a-zA-Z0-9]/g, '').substring(0, 32);
+
+                // Store for future use
+                localStorage.setItem('deviceId', deviceId);
+            }
+
+            return deviceId;
+        }
+
+        // Show login overlay
+        function showLoginOverlay() {
+            document.getElementById('loginOverlay').classList.add('active');
+            document.getElementById('loginPassword').value = ''; // Clear password
+            document.getElementById('loginEmail').focus();
+        }
+
+        // Hide login overlay
+        function hideLoginOverlay() {
+            document.getElementById('loginOverlay').classList.remove('active');
+        }
+
+        // Handle login form submission
+        async function handleLogin(event) {
+            event.preventDefault();
+
+            const email = document.getElementById('loginEmail').value;
+            const password = document.getElementById('loginPassword').value;
+            const loginBtn = document.getElementById('loginBtn');
+            const loginError = document.getElementById('loginError');
+
+            // Clear previous errors
+            loginError.classList.remove('show');
+            loginError.textContent = '';
+
+            // Disable button during login
+            loginBtn.disabled = true;
+            loginBtn.textContent = 'Signing in...';
+
+            try {
+                // Get device ID for authentication
+                const deviceId = getDeviceId();
+
+                const response = await fetch(`${API_URL}/api/auth/signin`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        email,
+                        password,
+                        deviceId,
+                        rememberMe: false
+                    }),
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+
+                    // Store token
+                    if (data.accessToken) {
+                        localStorage.setItem('accessToken', data.accessToken);
+
+                        // Hide login overlay
+                        hideLoginOverlay();
+
+                        // Show success message
+                        showMessage('Successfully logged in!', 'success');
+
+                        // Reload the current tab content
+                        const activeTab = document.querySelector('.nav-tab.active');
+                        if (activeTab) {
+                            activeTab.click();
+                        }
+                    } else {
+                        throw new Error('No access token received');
+                    }
+                } else if (response.status === 409) {
+                    // Device conflict - user is signed in on another device
+                    const conflictData = await response.json();
+
+                    if (confirm(
+                        `You're already signed in on another device:\n\n` +
+                        `Device: ${conflictData.currentSession?.deviceName || 'Unknown'}\n` +
+                        `Last active: ${conflictData.currentSession?.lastActive ? new Date(conflictData.currentSession.lastActive).toLocaleString() : 'Unknown'}\n\n` +
+                        `Do you want to sign out from that device and sign in here?`
+                    )) {
+                        // User wants to force sign-in - call force-signin endpoint
+                        const forceResponse = await fetch(`${API_URL}/api/auth/force-signin`, {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify({
+                                email,
+                                password,
+                                deviceId,
+                                rememberMe: false
+                            }),
+                        });
+
+                        if (forceResponse.ok) {
+                            const data = await forceResponse.json();
+                            localStorage.setItem('accessToken', data.accessToken);
+                            hideLoginOverlay();
+                            showMessage('Successfully logged in!', 'success');
+
+                            // Reload the current tab content
+                            const activeTab = document.querySelector('.nav-tab.active');
+                            if (activeTab) {
+                                activeTab.click();
+                            }
+                        } else {
+                            const error = await forceResponse.json();
+                            loginError.textContent = error.error || 'Failed to sign in';
+                            loginError.classList.add('show');
+                        }
+                    } else {
+                        // User cancelled
+                        loginBtn.disabled = false;
+                        loginBtn.textContent = 'Sign In';
+                        return;
+                    }
+                } else {
+                    const error = await response.json();
+                    loginError.textContent = error.error || 'Invalid email or password';
+                    loginError.classList.add('show');
+                }
+            } catch (error) {
+                console.error('Login error:', error);
+                loginError.textContent = 'Login failed. Please try again.';
+                loginError.classList.add('show');
+            } finally {
+                // Re-enable button
+                loginBtn.disabled = false;
+                loginBtn.textContent = 'Sign In';
+            }
         }
 
         // Helper function to make authenticated requests
@@ -1184,18 +1476,25 @@
             const token = getAuthToken();
 
             if (!token) {
-                console.error('❌ No auth token - cannot make authenticated request to:', url);
-                showMessage('⚠️ Please log in to access this feature. Go to: /en/auth/signin', 'error');
-                throw new Error('No auth token - please log in');
+                showLoginOverlay();
+                throw new Error('No auth token');
             }
 
-            return fetch(url, {
+            const response = await fetch(url, {
                 ...options,
                 headers: {
                     ...options.headers,
                     'Authorization': `Bearer ${token}`,
                 },
             });
+
+            // If we get 401, token might be expired - show login again
+            if (response.status === 401) {
+                showLoginOverlay();
+                throw new Error('Authentication required');
+            }
+
+            return response;
         }
 
         // Global variables
@@ -1571,17 +1870,16 @@
             console.log('🔑 Auth token present:', !!token);
 
             if (!token) {
-                console.error('❌ No auth token found in localStorage');
-                console.error('Please log in at: /en/auth/signin');
-                // Don't block page load - let it show the UI so user can see error messages
-                // The API calls will fail with proper error messages
+                // Show login overlay immediately
+                showLoginOverlay();
             } else {
-                console.log('✅ Auth token found');
+                console.log('✅ Auth token found - loading content');
+                // Load content if already authenticated
+                loadCategories();
+                loadPosts();
             }
 
-            // Always initialize - errors will be shown via showMessage()
-            loadCategories();
-            loadPosts();
+            // Always setup event listeners and initialize UI
             setupEventListeners();
             initFeaturedImageUpload();
         });
@@ -2047,11 +2345,7 @@
             // If editing existing post, load other language translations
             if (currentPost) {
                 try {
-                    const response = await fetch(`/api/admin/blog/posts/${currentPost.slug}`, {
-                        headers: {
-                            'Authorization': 'Bearer dev-bypass'
-                        }
-                    });
+                    const response = await authenticatedFetch(`/api/admin/blog/posts/${currentPost.slug}`, {});
                     if (response.ok) {
                         const data = await response.json();
                         const existingTranslations = data.post.translations;
@@ -2300,11 +2594,7 @@ ${generatePDFSectionHTML()}
             // Fetch post data to check which translations exist
             let existingTranslations = {};
             try {
-                const response = await fetch(`/api/admin/blog/posts/${slug}`, {
-                    headers: {
-                        'Authorization': 'Bearer dev-bypass'
-                    }
-                });
+                const response = await authenticatedFetch(`/api/admin/blog/posts/${slug}`, {});
                 if (response.ok) {
                     const data = await response.json();
                     existingTranslations = data.post.translations || {};
@@ -2391,11 +2681,8 @@ ${generatePDFSectionHTML()}
                     formData.append('thumbnail', thumbnailInput.files[0]);
                 }
 
-                const response = await fetch(`/api/admin/blog/posts/${slug}/pdfs`, {
+                const response = await authenticatedFetch(`/api/admin/blog/posts/${slug}/pdfs`, {
                     method: 'POST',
-                    headers: {
-                        'Authorization': 'Bearer dev-bypass'
-                    },
                     body: formData
                 });
 
@@ -2432,11 +2719,8 @@ ${generatePDFSectionHTML()}
             }
 
             try {
-                const response = await fetch(`/api/admin/blog/posts/${slug}/pdfs/${id}`, {
-                    method: 'DELETE',
-                    headers: {
-                        'Authorization': 'Bearer dev-bypass'
-                    }
+                const response = await authenticatedFetch(`/api/admin/blog/posts/${slug}/pdfs/${id}`, {
+                    method: 'DELETE'
                 });
 
                 if (response.ok) {
@@ -2471,11 +2755,7 @@ ${generatePDFSectionHTML()}
             if (!pdf) {
                 // Try fetching from API if not in currentPDFs
                 try {
-                    const response = await fetch(`/api/admin/blog/posts/${slug}/pdfs`, {
-                        headers: {
-                            'Authorization': 'Bearer dev-bypass'
-                        }
-                    });
+                    const response = await authenticatedFetch(`/api/admin/blog/posts/${slug}/pdfs`, {});
                     if (response.ok) {
                         const data = await response.json();
                         pdf = data.pdfs.find(p => p.id === id);
@@ -2546,11 +2826,8 @@ ${generatePDFSectionHTML()}
                     formData.append('thumbnail', thumbnailInput.files[0]);
                 }
 
-                const response = await fetch(`/api/admin/blog/posts/${slug}/pdfs/${id}`, {
+                const response = await authenticatedFetch(`/api/admin/blog/posts/${slug}/pdfs/${id}`, {
                     method: 'PUT',
-                    headers: {
-                        'Authorization': 'Bearer dev-bypass'
-                    },
                     body: formData
                 });
 
@@ -2693,11 +2970,8 @@ ${generatePDFSectionHTML()}
             }
 
             try {
-                const response = await fetch(`/api/admin/blog/posts/${slug}`, {
-                    method: 'DELETE',
-                    headers: {
-                        'Authorization': 'Bearer dev-bypass'
-                    }
+                const response = await authenticatedFetch(`/api/admin/blog/posts/${slug}`, {
+                    method: 'DELETE'
                 });
 
                 if (response.ok) {
@@ -2735,11 +3009,7 @@ ${generatePDFSectionHTML()}
             document.getElementById('pdfManagerContent').style.display = 'block';
 
             try {
-                const response = await fetch(`/api/admin/blog/posts/${slug}/pdfs`, {
-                    headers: {
-                        'Authorization': 'Bearer dev-bypass'
-                    }
-                });
+                const response = await authenticatedFetch(`/api/admin/blog/posts/${slug}/pdfs`, {});
 
                 if (response.ok) {
                     const data = await response.json();

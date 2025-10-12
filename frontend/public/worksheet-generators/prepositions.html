@@ -634,6 +634,43 @@
             }
         };
 
+        // --- Plural shape translations ---
+        // Language-specific plural forms for shapes used in "between" exercises
+        const PLURAL_SHAPE_TRANSLATIONS = {
+            'circle': {
+                'en': 'circles', 'de': 'Kreise', 'fr': 'cercles', 'es': 'círculos', 'pt': 'círculos',
+                'it': 'cerchi', 'nl': 'cirkels', 'sv': 'cirklar', 'da': 'cirkler', 'no': 'sirkler', 'fi': 'ympyrät'
+            },
+            'cube': {
+                'en': 'cubes', 'de': 'Würfel', 'fr': 'cubes', 'es': 'cubos', 'pt': 'cubos',
+                'it': 'cubi', 'nl': 'kubussen', 'sv': 'kuber', 'da': 'terninger', 'no': 'terninger', 'fi': 'kuutiot'
+            },
+            'cylinder': {
+                'en': 'cylinders', 'de': 'Zylinder', 'fr': 'cylindres', 'es': 'cilindros', 'pt': 'cilindros',
+                'it': 'cilindri', 'nl': 'cilinders', 'sv': 'cylindrar', 'da': 'cylindre', 'no': 'sylindere', 'fi': 'sylinterit'
+            },
+            'heart': {
+                'en': 'hearts', 'de': 'Herzen', 'fr': 'cœurs', 'es': 'corazones', 'pt': 'corações',
+                'it': 'cuori', 'nl': 'harten', 'sv': 'hjärtan', 'da': 'hjerter', 'no': 'hjerter', 'fi': 'sydämet'
+            },
+            'hexagon': {
+                'en': 'hexagons', 'de': 'Sechsecke', 'fr': 'hexagones', 'es': 'hexágonos', 'pt': 'hexágonos',
+                'it': 'esagoni', 'nl': 'zeshoeken', 'sv': 'hexagoner', 'da': 'sekskanter', 'no': 'sekskanter', 'fi': 'kuusikulmiot'
+            },
+            'square': {
+                'en': 'squares', 'de': 'Quadrate', 'fr': 'carrés', 'es': 'cuadrados', 'pt': 'quadrados',
+                'it': 'quadrati', 'nl': 'vierkanten', 'sv': 'kvadrater', 'da': 'kvadrater', 'no': 'kvadrater', 'fi': 'neliöt'
+            },
+            'star': {
+                'en': 'stars', 'de': 'Sterne', 'fr': 'étoiles', 'es': 'estrellas', 'pt': 'estrelas',
+                'it': 'stelle', 'nl': 'sterren', 'sv': 'stjärnor', 'da': 'stjerner', 'no': 'stjerner', 'fi': 'tähdet'
+            },
+            'triangle': {
+                'en': 'triangles', 'de': 'Dreiecke', 'fr': 'triangles', 'es': 'triángulos', 'pt': 'triângulos',
+                'it': 'triangoli', 'nl': 'driehoeken', 'sv': 'trianglar', 'da': 'trekanter', 'no': 'trekanter', 'fi': 'kolmiot'
+            }
+        };
+
         // --- Global State ---
         // currentLocale already set globally before this script
         let worksheetCanvas, answerKeyCanvas;
@@ -662,7 +699,17 @@
 
         // --- Utility Functions ---
         const shuffleArray = (arr) => [...arr].sort(() => 0.5 - Math.random());
-        const pluralizeShape = (shape) => shape ? `${shape}s` : '';
+
+        // Language-aware pluralization function for shapes
+        const pluralizeShape = (shapeKeyEnglish, locale) => {
+            if (!shapeKeyEnglish) return '';
+
+            // Look up the plural form in the translations
+            const pluralForm = PLURAL_SHAPE_TRANSLATIONS[shapeKeyEnglish]?.[locale];
+
+            // If found, return it; otherwise fallback to English plural
+            return pluralForm || PLURAL_SHAPE_TRANSLATIONS[shapeKeyEnglish]?.['en'] || `${shapeKeyEnglish}s`;
+        };
         
         function getActiveCanvas() {
             const activeTab = document.querySelector('.tab.active');
@@ -2098,8 +2145,8 @@
                 const articlePart = theText === '-' ? '' : `${theText} `;
 
                 const textTemplate = isAnswerKey
-                    ? `{img} ${isText} ${prepositionText} ${articlePart}${assignment.preposition === 'between' ? pluralizeShape(shapeName) : shapeName}.`
-                    : `{img} ${isText} __________ ${articlePart}${assignment.preposition === 'between' ? pluralizeShape(shapeName) : shapeName}.`;
+                    ? `{img} ${isText} ${prepositionText} ${articlePart}${assignment.preposition === 'between' ? pluralizeShape(shapeNameEnglish, currentLocale) : shapeName}.`
+                    : `{img} ${isText} __________ ${articlePart}${assignment.preposition === 'between' ? pluralizeShape(shapeNameEnglish, currentLocale) : shapeName}.`;
                     
                 qaTextParts.push({image: assignment.item, template: textTemplate});
             }

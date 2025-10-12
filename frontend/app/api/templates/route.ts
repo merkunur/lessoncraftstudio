@@ -46,50 +46,55 @@ export async function GET(request: NextRequest) {
       return NextResponse.json(templates);
 
     } else if (appType === 'prepositions') {
-      // Get worksheet templates directly from filesystem
-      const templatesDir = path.join(getSourceRoot(), 'public', 'images', 'worksheet-templates');
+      // Get worksheet templates from database
+      const { PrismaClient, Prisma } = await import('@prisma/client');
+      const prisma = new PrismaClient();
 
-      if (!fs.existsSync(templatesDir)) {
-        console.log(`Worksheet templates directory not found: ${templatesDir}`);
-        return NextResponse.json({ templates: [] });
-      }
+      try {
+        type ThemeWithImages = Prisma.ImageThemeGetPayload<{
+          include: { images: true }
+        }>;
 
-      // Read all theme directories
-      const themeDirs = fs.readdirSync(templatesDir, { withFileTypes: true })
-        .filter(dirent => dirent.isDirectory())
-        .map(dirent => dirent.name);
+        const themes: ThemeWithImages[] = await prisma.imageTheme.findMany({
+          where: { type: 'worksheet' },
+          include: {
+            images: {
+              orderBy: { sortOrder: 'asc' },
+            },
+          },
+          orderBy: { sortOrder: 'asc' },
+        });
 
-      // Collect all templates from all themes
-      const templates: any[] = [];
+        const templates: any[] = [];
 
-      for (const themeName of themeDirs) {
-        const themeDir = path.join(templatesDir, themeName);
+        for (const themeRecord of themes) {
+          const themeTranslations = themeRecord.displayNames as Record<string, string> || {};
+          const themeName = themeTranslations[locale] || themeTranslations['en'] || themeRecord.name;
 
-        try {
-          const files = fs.readdirSync(themeDir);
-          const imageFiles = files.filter(file => /\.(png|jpe?g|gif|svg|webp)$/i.test(file));
-
-          imageFiles.forEach(file => {
-            const fileName = path.basename(file, path.extname(file));
-            // Clean up the filename by removing timestamp-random suffix pattern
-            const cleanName = fileName.replace(/-\d{13}-[a-z0-9]{6}$/i, '');
-            const displayName = cleanName.charAt(0).toUpperCase() + cleanName.slice(1).replace(/[-_]/g, ' ');
+          for (const image of themeRecord.images) {
+            const translations = image.translations as Record<string, string> || {};
+            const displayName = translations[locale] || translations['en'] || image.filename.replace(/\.(png|jpg|jpeg|gif|svg|webp)$/i, '');
 
             templates.push({
-              path: `/images/worksheet-templates/${themeName}/${file}`,
-              url: `/images/worksheet-templates/${themeName}/${file}`,
+              path: image.filePath,
+              url: image.filePath,
               name: displayName,
               displayName: displayName,
-              theme: themeName
+              theme: themeRecord.name,
+              themeName: themeName,
             });
-          });
-        } catch (err) {
-          console.error(`Error reading worksheet template theme ${themeName}:`, err);
+          }
         }
-      }
 
-      console.log(`Worksheet templates for ${appType}, locale=${locale}: ${templates.length} templates from ${themeDirs.length} themes`);
-      return NextResponse.json({ templates });
+        console.log(`Worksheet templates for ${appType}, locale=${locale}: ${templates.length} templates from ${themes.length} themes`);
+        await prisma.$disconnect();
+        return NextResponse.json({ templates });
+
+      } catch (dbError) {
+        console.warn('Database not available for worksheet templates:', dbError);
+        await prisma.$disconnect();
+        return NextResponse.json({ templates: [] });
+      }
     }
 
     // If no specific app type, return empty array

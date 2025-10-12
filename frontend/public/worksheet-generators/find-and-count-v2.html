@@ -1172,13 +1172,20 @@
             const isLandscape = pageWidth > pageHeight;
             const headerHeight = isLandscape ? 150 : 220;
 
-            // Select random target images
+            // IMPROVED RANDOMIZATION: Shuffle selected images first for more variety
+            const shuffledSelected = [...selectedImages].sort(() => Math.random() - 0.5);
+
+            // Select random target images from shuffled array
             targetImages = [];
-            const tempImages = [...selectedImages];
+            const tempImages = [...shuffledSelected];
             for (let i = 0; i < targetCount && tempImages.length > 0; i++) {
-                const randomIndex = Math.floor(Math.random() * tempImages.length);
+                // Use timestamp-based seed for better randomization
+                const seed = Date.now() + i;
+                const randomIndex = Math.floor((Math.random() * seed) % tempImages.length);
                 targetImages.push(tempImages.splice(randomIndex, 1)[0]);
             }
+
+            console.log('Selected target images:', targetImages.map(img => img.name));
 
             // Draw target images to find - positioned below header
             const targetY = headerHeight + 20;
@@ -1270,9 +1277,11 @@
                 }
             }
 
-            // Shuffle positions
+            // IMPROVED RANDOMIZATION: Better position shuffle with timestamp seed
             for (let i = positions.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
+                // Use timestamp to add more entropy
+                const seed = Date.now() * Math.random();
+                const j = Math.floor((seed % (i + 1)));
                 [positions[i], positions[j]] = [positions[j], positions[i]];
             }
 
@@ -1282,26 +1291,41 @@
                 imageCounts[img.id] = 0;
             });
 
+            // IMPROVED RANDOMIZATION: Create shuffled pools for variety
+            const shuffledTargets = [...targetImages].sort(() => Math.random() - 0.5);
+            const shuffledAll = [...shuffledSelected].sort(() => Math.random() - 0.5);
+
+            // Vary the target image probability based on position for more natural distribution
+            const baseProbability = 0.6;
+            const probabilityVariation = 0.15; // Varies between 45% and 75%
+
             // Place images
             for (let i = 0; i < Math.min(totalImages, positions.length); i++) {
                 const pos = positions[i];
                 const x = gridStartX + pos.col * cellSize + cellSize / 2;
                 const y = gridStartY + pos.row * cellSize + cellSize / 2;
 
-                // Choose random image (favoring target images)
+                // IMPROVED: Vary probability based on position for more natural distribution
+                const positionFactor = Math.sin(i * 0.5) * probabilityVariation;
+                const adjustedProbability = baseProbability + positionFactor;
+
+                // Choose random image with varied probability
                 let chosenImage;
-                if (Math.random() < 0.6 && targetImages.length > 0) {
-                    // 60% chance to place a target image
-                    chosenImage = targetImages[Math.floor(Math.random() * targetImages.length)];
+                if (Math.random() < adjustedProbability && targetImages.length > 0) {
+                    // Place a target image (use shuffled array for variety)
+                    const targetIndex = Math.floor(Math.random() * shuffledTargets.length);
+                    chosenImage = shuffledTargets[targetIndex];
                     if (imageCounts[chosenImage.id] !== undefined) {
                         imageCounts[chosenImage.id]++;
                     }
                 } else {
-                    // Place a random image from selected pool
-                    chosenImage = selectedImages[Math.floor(Math.random() * selectedImages.length)];
+                    // Place a random image from all selected (use shuffled array)
+                    const allIndex = Math.floor(Math.random() * shuffledAll.length);
+                    chosenImage = shuffledAll[allIndex];
                 }
 
-                const rotation = randomRotation ? (Math.random() - 0.5) * 60 : 0;
+                // IMPROVED: More varied rotation angles
+                const rotation = randomRotation ? (Math.random() - 0.5) * 90 : 0; // Increased from 60 to 90 degrees
 
                 // Place on worksheet
                 fabric.Image.fromURL(chosenImage.path, function(fabricImg) {
@@ -1708,7 +1732,7 @@
                 languageSelect.value = currentLocale;
 
                 // Handle language change
-                languageSelect.addEventListener('change', function() {
+                languageSelect.addEventListener('change', async function() {
                     const newLocale = this.value;
                     currentLocale = newLocale;
                     console.log('Image library language changed to:', currentLocale);
@@ -1716,14 +1740,51 @@
                     // DO NOT call applyTranslations() - UI language is controlled by main header selector
                     // This only changes the image library content language
 
+                    // CRITICAL FIX: Store IDs of currently selected images
+                    const selectedIds = selectedImages.map(img => img.id);
+                    console.log('Preserving selected image IDs:', selectedIds);
+
                     // Reload themes and images with new locale
-                    loadThemes().then(() => {
-                        // After themes loaded, reload images if a theme is selected
-                        const themeSelect = document.getElementById('themeSelect');
-                        if (themeSelect && themeSelect.value) {
-                            loadImages();
+                    await loadThemes();
+
+                    // After themes loaded, reload images if a theme is selected
+                    const themeSelect = document.getElementById('themeSelect');
+                    if (themeSelect && themeSelect.value) {
+                        await loadImages();
+                    }
+
+                    // CRITICAL FIX: Update selectedImages with new language data
+                    if (selectedIds.length > 0) {
+                        // Fetch fresh image data for selected IDs
+                        const theme = themeSelect ? themeSelect.value : 'animals';
+                        const url = `/api/images?locale=${currentLocale}&theme=${theme === 'all' ? 'animals' : theme}`;
+
+                        try {
+                            const response = await fetch(url);
+                            if (response.ok) {
+                                const data = await response.json();
+                                const freshImages = data.images || data;
+
+                                // Update selectedImages with fresh data matching the IDs
+                                selectedImages = selectedIds
+                                    .map(id => freshImages.find(img => img.id === id))
+                                    .filter(img => img !== undefined);
+
+                                console.log('Updated selectedImages with new language:', selectedImages);
+                                updateSelectedPreview();
+
+                                // Re-highlight selected items in dictionary
+                                setTimeout(() => {
+                                    selectedImages.forEach(img => {
+                                        const item = document.querySelector(`[data-image-id="${img.id}"]`);
+                                        if (item) item.classList.add('selected');
+                                    });
+                                }, 100);
+                            }
+                        } catch (error) {
+                            console.error('Error updating selected images:', error);
                         }
-                    });
+                    }
 
                     showMessage(`Image library language changed to ${newLocale}`, 'info');
                 });

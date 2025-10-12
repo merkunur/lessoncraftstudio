@@ -1172,20 +1172,25 @@
             const isLandscape = pageWidth > pageHeight;
             const headerHeight = isLandscape ? 150 : 220;
 
-            // IMPROVED RANDOMIZATION: Shuffle selected images first for more variety
-            const shuffledSelected = [...selectedImages].sort(() => Math.random() - 0.5);
+            // IMPROVED RANDOMIZATION: Multiple shuffle passes for true randomness
+            // First, create a working copy and shuffle it thoroughly (3 passes for entropy)
+            let shuffledSelected = [...selectedImages];
+            for (let pass = 0; pass < 3; pass++) {
+                shuffledSelected = shuffledSelected.sort(() => Math.random() - 0.5);
+            }
 
-            // Select random target images from shuffled array
+            // Select random target images using Fisher-Yates shuffle (proven algorithm)
             targetImages = [];
             const tempImages = [...shuffledSelected];
+
+            // Fisher-Yates shuffle to pick random targets
             for (let i = 0; i < targetCount && tempImages.length > 0; i++) {
-                // Use timestamp-based seed for better randomization
-                const seed = Date.now() + i;
-                const randomIndex = Math.floor((Math.random() * seed) % tempImages.length);
+                // Pure Math.random() - no timestamp seed (that was causing determinism!)
+                const randomIndex = Math.floor(Math.random() * tempImages.length);
                 targetImages.push(tempImages.splice(randomIndex, 1)[0]);
             }
 
-            console.log('Selected target images:', targetImages.map(img => img.name));
+            console.log('🎯 Selected target images:', targetImages.map(img => img.name));
 
             // Draw target images to find - positioned below header
             const targetY = headerHeight + 20;
@@ -1277,11 +1282,10 @@
                 }
             }
 
-            // IMPROVED RANDOMIZATION: Better position shuffle with timestamp seed
+            // IMPROVED RANDOMIZATION: Fisher-Yates shuffle for position randomness
+            // Pure Math.random() is sufficient - no timestamp needed
             for (let i = positions.length - 1; i > 0; i--) {
-                // Use timestamp to add more entropy
-                const seed = Date.now() * Math.random();
-                const j = Math.floor((seed % (i + 1)));
+                const j = Math.floor(Math.random() * (i + 1));
                 [positions[i], positions[j]] = [positions[j], positions[i]];
             }
 

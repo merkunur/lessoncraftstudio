@@ -3291,6 +3291,44 @@ async function downloadPDF(canvasToExport, filename) {
 
     generateWorksheetBtn.addEventListener('click', async () => {
         if (generateDropdown.content) generateDropdown.content.style.display = 'none';
+
+        // AUTO-SELECT FEATURE: Pick 4 random images and assign random tasks
+        if (currentThemeImages.length >= 4) {
+            // Clear previous selection
+            selectedImages = [];
+
+            // Shuffle and pick 4 random images
+            const shuffled = [...currentThemeImages].sort(() => Math.random() - 0.5);
+            const selectedFour = shuffled.slice(0, 4);
+
+            // Assign all four task types randomly
+            const taskTypes = ['circle', 'square', 'cross', 'count'];
+            const shuffledTasks = [...taskTypes].sort(() => Math.random() - 0.5);
+
+            selectedFour.forEach((img, index) => {
+                img.type = shuffledTasks[index];
+                selectedImages.push(img);
+            });
+
+            // Update UI to show selected images with tasks
+            renderSelectedObjectConfig();
+
+            console.log('Auto-selected 4 images with random tasks:', selectedImages.map(i => `${i.word}(${i.type})`));
+        } else if (currentThemeImages.length > 0) {
+            // If less than 4 images available, select all and assign random tasks
+            selectedImages = [];
+            const available = [...currentThemeImages];
+            const taskTypes = ['circle', 'square', 'cross', 'count'];
+
+            available.forEach((img, index) => {
+                img.type = taskTypes[index % taskTypes.length];
+                selectedImages.push(img);
+            });
+
+            renderSelectedObjectConfig();
+            console.log('Auto-selected', selectedImages.length, 'images (less than 4 available)');
+        }
+
         await generateWorksheet();
     });
     generateAnswerKeyBtn.addEventListener('click', async () => {
@@ -3368,18 +3406,33 @@ async function downloadPDF(canvasToExport, filename) {
             await loadThemes();
             await loadThemeImages();
 
-            // CRITICAL FIX: Update selectedImages with new language data
+            // CRITICAL FIX: Update selectedImages with new language data while preserving task assignments
             if (selectedIds.length > 0 && currentThemeImages.length > 0) {
+                // Store the old task assignments (type property)
+                const taskAssignments = {};
+                selectedImages.forEach(img => {
+                    if (img.id && img.type) {
+                        taskAssignments[img.id] = img.type;
+                    }
+                });
+
                 // Update selectedImages with fresh data from currentThemeImages
                 selectedImages = selectedIds
-                    .map(id => currentThemeImages.find(img => img.id === id))
+                    .map(id => {
+                        const freshImg = currentThemeImages.find(img => img.id === id);
+                        if (freshImg && taskAssignments[id]) {
+                            // Restore the task assignment
+                            freshImg.type = taskAssignments[id];
+                        }
+                        return freshImg;
+                    })
                     .filter(img => img !== undefined);
 
-                console.log('Updated selectedImages with new language:', selectedImages);
+                console.log('Updated selectedImages with new language and preserved tasks:', selectedImages);
 
-                // Re-render dictionary to update selection highlights
+                // Re-render dictionary and selected images display
                 renderDictionary();
-                renderSelectedImages();
+                renderSelectedObjectConfig();
             }
         });
     }

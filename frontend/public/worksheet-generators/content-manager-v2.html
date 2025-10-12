@@ -1501,8 +1501,17 @@
         }
 
         function editImage(themeId, index) {
-            const theme = currentData.themes.find(t => t.id === themeId);
-            const image = theme.images[index];
+            // Use currentThemeData (which has images loaded via pagination) instead of currentData
+            if (!currentThemeData || currentThemeData.id !== themeId) {
+                showToast('Please select a theme first', 'error');
+                return;
+            }
+
+            const image = currentThemeData.images[index];
+            if (!image) {
+                showToast('Image not found', 'error');
+                return;
+            }
 
             // Set editing state
             editingImage = {
@@ -1528,9 +1537,14 @@
 
         function removeImage(themeId, index) {
             if (confirm('Are you sure you want to remove this image?')) {
-                const theme = currentData.themes.find(t => t.id === themeId);
-                theme.images.splice(index, 1);
-                displayThemeContent(theme);
+                // Use currentThemeData (which has images loaded via pagination) instead of currentData
+                if (!currentThemeData || currentThemeData.id !== themeId) {
+                    showToast('Please select a theme first', 'error');
+                    return;
+                }
+
+                currentThemeData.images.splice(index, 1);
+                displayThemeContent(currentThemeData);
                 showToast('Image removed - click Save to apply', 'success');
             }
         }

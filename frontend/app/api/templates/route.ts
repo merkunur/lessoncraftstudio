@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { PrismaClient, Prisma } from '@prisma/client';
 import fs from 'fs';
 import path from 'path';
 
@@ -47,7 +48,6 @@ export async function GET(request: NextRequest) {
 
     } else if (appType === 'prepositions') {
       // Get worksheet templates from database
-      const { PrismaClient, Prisma } = await import('@prisma/client');
       const prisma = new PrismaClient();
 
       try {

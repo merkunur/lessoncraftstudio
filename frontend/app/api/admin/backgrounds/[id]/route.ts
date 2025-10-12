@@ -15,7 +15,7 @@ function getSourceRoot(): string {
   return cwd;
 }
 
-// GET /api/admin/images/:id - Get single image
+// GET /api/admin/backgrounds/:id - Get single background
 export async function GET(
   request: NextRequest,
   { params }: { params: { id: string } }
@@ -40,15 +40,15 @@ export async function GET(
 
     return NextResponse.json({ image });
   } catch (error) {
-    console.error('Failed to fetch image:', error);
+    console.error('Failed to fetch background:', error);
     return NextResponse.json(
-      { error: 'Failed to fetch image' },
+      { error: 'Failed to fetch background' },
       { status: 500 }
     );
   }
 }
 
-// PUT /api/admin/images/:id - Update image metadata
+// PUT /api/admin/backgrounds/:id - Update background metadata
 export async function PUT(
   request: NextRequest,
   { params }: { params: { id: string } }
@@ -76,15 +76,15 @@ export async function PUT(
 
     return NextResponse.json({ image });
   } catch (error) {
-    console.error('Failed to update image:', error);
+    console.error('Failed to update background:', error);
     return NextResponse.json(
-      { error: 'Failed to update image' },
+      { error: 'Failed to update background' },
       { status: 500 }
     );
   }
 }
 
-// DELETE /api/admin/images/:id - Delete image
+// DELETE /api/admin/backgrounds/:id - Delete background
 export async function DELETE(
   request: NextRequest,
   { params }: { params: { id: string } }
@@ -128,11 +128,11 @@ export async function DELETE(
       where: { id: params.id },
     });
 
-    return NextResponse.json({ message: 'Image deleted successfully' });
+    return NextResponse.json({ message: 'Background deleted successfully' });
   } catch (error) {
-    console.error('Failed to delete image:', error);
+    console.error('Failed to delete background:', error);
     return NextResponse.json(
-      { error: 'Failed to delete image' },
+      { error: 'Failed to delete background' },
       { status: 500 }
     );
   }

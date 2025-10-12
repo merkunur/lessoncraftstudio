@@ -15,7 +15,7 @@ function getSourceRoot(): string {
   return cwd;
 }
 
-// GET /api/admin/images/:id - Get single image
+// GET /api/admin/train-templates/:id - Get single train template
 export async function GET(
   request: NextRequest,
   { params }: { params: { id: string } }
@@ -40,15 +40,15 @@ export async function GET(
 
     return NextResponse.json({ image });
   } catch (error) {
-    console.error('Failed to fetch image:', error);
+    console.error('Failed to fetch train template:', error);
     return NextResponse.json(
-      { error: 'Failed to fetch image' },
+      { error: 'Failed to fetch train template' },
       { status: 500 }
     );
   }
 }
 
-// PUT /api/admin/images/:id - Update image metadata
+// PUT /api/admin/train-templates/:id - Update train template metadata
 export async function PUT(
   request: NextRequest,
   { params }: { params: { id: string } }
@@ -76,15 +76,15 @@ export async function PUT(
 
     return NextResponse.json({ image });
   } catch (error) {
-    console.error('Failed to update image:', error);
+    console.error('Failed to update train template:', error);
     return NextResponse.json(
-      { error: 'Failed to update image' },
+      { error: 'Failed to update train template' },
       { status: 500 }
     );
   }
 }
 
-// DELETE /api/admin/images/:id - Delete image
+// DELETE /api/admin/train-templates/:id - Delete train template
 export async function DELETE(
   request: NextRequest,
   { params }: { params: { id: string } }
@@ -128,11 +128,11 @@ export async function DELETE(
       where: { id: params.id },
     });
 
-    return NextResponse.json({ message: 'Image deleted successfully' });
+    return NextResponse.json({ message: 'Train template deleted successfully' });
   } catch (error) {
-    console.error('Failed to delete image:', error);
+    console.error('Failed to delete train template:', error);
     return NextResponse.json(
-      { error: 'Failed to delete image' },
+      { error: 'Failed to delete train template' },
       { status: 500 }
     );
   }

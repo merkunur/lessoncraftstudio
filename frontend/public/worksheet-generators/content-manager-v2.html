@@ -1650,45 +1650,60 @@
                 }
             });
 
-            // Update the image in currentData
-            const theme = currentData.themes.find(t => t.id === editingImage.themeId);
-            if (theme && theme.images[editingImage.index]) {
-                theme.images[editingImage.index].displayName = displayName;
-                theme.images[editingImage.index].translations = translations;
+            // Use currentThemeData (which has images loaded via pagination) instead of currentData
+            if (!currentThemeData || !editingImage) {
+                showToast('Image data not found', 'error');
+                return;
+            }
 
-                // Save changes via API
-                try {
-                    showToast('Saving changes...', 'success');
+            const image = currentThemeData.images[editingImage.index];
+            if (!image) {
+                showToast('Image not found', 'error');
+                return;
+            }
 
-                    const endpoint = getEndpoint(currentType);
-                    const response = await authenticatedFetch(`${API_URL}${endpoint}`, {
-                        method: 'POST',
-                        headers: {
-                            'Content-Type': 'application/json',
-                        },
-                        body: JSON.stringify({
-                            type: currentType,
-                            themes: currentData.themes
+            // Update the image in currentThemeData
+            image.displayName = displayName;
+            image.translations = translations;
+
+            // Save changes via API
+            try {
+                showToast('Saving changes...', 'success');
+
+                const endpoint = getEndpoint(currentType);
+                const response = await authenticatedFetch(`${API_URL}${endpoint}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        type: currentType,
+                        themes: currentData.themes.map(t => {
+                            // For the current theme, use the updated images from currentThemeData
+                            if (t.id === currentThemeData.id) {
+                                return { ...t, images: currentThemeData.images };
+                            }
+                            return t;
                         })
-                    });
+                    })
+                });
 
-                    if (response.ok) {
-                        showToast('Translations updated successfully!', 'success');
-                        closeModal();
+                if (response.ok) {
+                    showToast('Translations updated successfully!', 'success');
+                    closeModal();
 
-                        // Reload to show updated data
-                        await loadContent(currentType);
-                        if (currentTheme) {
-                            selectTheme(currentTheme);
-                        }
-                    } else {
-                        const error = await response.json();
-                        showToast(error.error || 'Failed to update', 'error');
+                    // Reload to show updated data
+                    await loadContent(currentType);
+                    if (currentTheme) {
+                        selectTheme(currentTheme);
                     }
-                } catch (error) {
-                    console.error('Update error:', error);
-                    showToast('Failed to update translations', 'error');
+                } else {
+                    const error = await response.json();
+                    showToast(error.error || 'Failed to update', 'error');
                 }
+            } catch (error) {
+                console.error('Update error:', error);
+                showToast('Failed to update translations', 'error');
             }
         }
 

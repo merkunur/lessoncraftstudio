@@ -1234,7 +1234,7 @@
                                 <button class="action-btn" style="padding: 5px 10px; font-size: 12px;"
                                         onclick="editImage('${theme.id}', ${index})">✏️ Edit</button>
                                 <button class="action-btn btn-danger" style="padding: 5px 10px; font-size: 12px;"
-                                        onclick="removeImage('${theme.id}', ${index})">🗑️</button>
+                                        onclick="removeImage('${img.id}')">🗑️</button>
                             </div>
                         </div>
                     </div>
@@ -1535,17 +1535,43 @@
             document.getElementById('imageModal').classList.add('active');
         }
 
-        function removeImage(themeId, index) {
-            if (confirm('Are you sure you want to remove this image?')) {
-                // Use currentThemeData (which has images loaded via pagination) instead of currentData
-                if (!currentThemeData || currentThemeData.id !== themeId) {
-                    showToast('Please select a theme first', 'error');
-                    return;
-                }
+        async function removeImage(imageId) {
+            if (!confirm('Are you sure you want to delete this image? This action cannot be undone.')) {
+                return;
+            }
 
-                currentThemeData.images.splice(index, 1);
-                displayThemeContent(currentThemeData);
-                showToast('Image removed - click Save to apply', 'success');
+            try {
+                showToast('Deleting image...', 'success');
+
+                // Determine the correct DELETE endpoint based on content type
+                const deleteEndpoints = {
+                    'images': `/api/admin/images/${imageId}`,
+                    'borders': `/api/admin/borders/${imageId}`,
+                    'backgrounds': `/api/admin/backgrounds/${imageId}`,
+                    'train': `/api/admin/train-templates/${imageId}`,
+                    'worksheet': `/api/admin/worksheet-templates/${imageId}`
+                };
+                const deleteEndpoint = deleteEndpoints[currentType] || `/api/admin/images/${imageId}`;
+
+                const response = await authenticatedFetch(`${API_URL}${deleteEndpoint}`, {
+                    method: 'DELETE',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+
+                if (response.ok) {
+                    showToast('Image deleted successfully!', 'success');
+
+                    // Reload the current theme to show updated data
+                    if (currentTheme) {
+                        await loadThemeImages(currentTheme, 1);
+                    }
+                } else {
+                    const error = await response.json();
+                    showToast(error.error || 'Failed to delete image', 'error');
+                }
+            } catch (error) {
+                console.error('Delete error:', error);
+                showToast('Failed to delete image', 'error');
             }
         }
 

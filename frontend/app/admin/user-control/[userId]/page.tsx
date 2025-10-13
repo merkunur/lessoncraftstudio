@@ -101,6 +101,9 @@ export default function UserDetailPage() {
         case 'suspend':
           endpoint = '/api/admin/user-control/suspend';
           break;
+        case 'reactivate':
+          endpoint = '/api/admin/user-control/reactivate';
+          break;
         case 'grant-lifetime':
           endpoint = '/api/admin/user-control/grant-lifetime';
           break;
@@ -329,6 +332,15 @@ export default function UserDetailPage() {
                 >
                   <Ban className="h-4 w-4 mr-2" />
                   Suspend Account
+                </button>
+              )}
+              {user.isSuspended && (
+                <button
+                  onClick={() => handleQuickAction('reactivate')}
+                  className="inline-flex items-center px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-green-700 bg-white hover:bg-green-50"
+                >
+                  <CheckCircle className="h-4 w-4 mr-2" />
+                  Reactivate Account
                 </button>
               )}
             </div>

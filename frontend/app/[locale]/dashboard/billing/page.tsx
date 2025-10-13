@@ -23,6 +23,7 @@ import { toast } from 'react-hot-toast';
 import { PaymentMethodManager } from '@/components/billing/PaymentMethodManager';
 import { InvoiceList } from '@/components/billing/InvoiceList';
 import { PlanUpgradeModal } from '@/components/billing/PlanUpgradeModal';
+import { CancelSubscriptionModal } from '@/components/billing/CancelSubscriptionModal';
 import PaymentHistory from '@/components/dashboard/PaymentHistory';
 
 interface SubscriptionDetails {
@@ -44,6 +45,7 @@ export default function BillingDashboard() {
   const [loading, setLoading] = useState(true);
   const [portalLoading, setPortalLoading] = useState(false);
   const [showUpgradeModal, setShowUpgradeModal] = useState(false);
+  const [showCancelModal, setShowCancelModal] = useState(false);
 
   // Get current locale from URL
   const locale = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] || 'en' : 'en';
@@ -109,14 +111,7 @@ export default function BillingDashboard() {
   };
 
   const handleCancelSubscription = async () => {
-    console.log('🔴 Cancel subscription button clicked');
-
-    if (!confirm(t('messages.cancelConfirm'))) {
-      console.log('❌ User cancelled the confirmation dialog');
-      return;
-    }
-
-    console.log('✅ User confirmed cancellation, sending request...');
+    console.log('🔴 Processing subscription cancellation...');
 
     try {
       const response = await fetch('/api/stripe/subscription', {
@@ -139,6 +134,7 @@ export default function BillingDashboard() {
     } catch (error) {
       console.error('❌ Cancel error:', error);
       toast.error(t('messages.cancelFailed'));
+      throw error; // Re-throw to let modal handle error state
     }
   };
 
@@ -331,7 +327,7 @@ export default function BillingDashboard() {
               {/* Only show cancel button for real Stripe subscriptions, not manual ones */}
               {subscription && !subscription.cancelAtPeriodEnd && subscription.status !== 'manual' && (
                 <button
-                  onClick={handleCancelSubscription}
+                  onClick={() => setShowCancelModal(true)}
                   className="px-4 py-2 border border-red-600 text-red-600 rounded-lg hover:bg-red-50 transition-colors"
                 >
                   {t('actions.cancelSubscription')}
@@ -432,6 +428,15 @@ export default function BillingDashboard() {
           currentBillingInterval={subscription.tier === 'FREE' ? 'monthly' : (subscription as any).billingInterval || 'monthly'}
           onClose={() => setShowUpgradeModal(false)}
           onSuccess={handleUpgradeSuccess}
+        />
+      )}
+
+      {/* Cancel Subscription Modal */}
+      {showCancelModal && subscription && (
+        <CancelSubscriptionModal
+          onConfirm={handleCancelSubscription}
+          onClose={() => setShowCancelModal(false)}
+          currentPeriodEnd={subscription.currentPeriodEnd}
         />
       )}
     </div>

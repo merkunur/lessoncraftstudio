@@ -57,6 +57,39 @@ interface SignupData {
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
+// Helper function to generate device ID (same as content-manager-v2.html)
+function getDeviceId(): string {
+  // Check if we already have a device ID stored
+  let deviceId = localStorage.getItem('deviceId');
+
+  if (!deviceId) {
+    // Generate a unique device ID based on browser characteristics
+    const canvas = document.createElement('canvas');
+    const gl = canvas.getContext('webgl') || canvas.getContext('experimental-webgl') as WebGLRenderingContext | null;
+    const debugInfo = gl ? gl.getExtension('WEBGL_debug_renderer_info') : null;
+    const renderer = debugInfo ? gl!.getParameter((debugInfo as any).UNMASKED_RENDERER_WEBGL) : '';
+
+    const fingerprint = [
+      navigator.userAgent,
+      navigator.language,
+      screen.width + 'x' + screen.height,
+      screen.colorDepth,
+      new Date().getTimezoneOffset(),
+      renderer,
+      (navigator as any).hardwareConcurrency || '',
+      (navigator as any).deviceMemory || ''
+    ].join('|');
+
+    // Create hash of fingerprint
+    deviceId = 'device_' + btoa(fingerprint).replace(/[^a-zA-Z0-9]/g, '').substring(0, 32);
+
+    // Store for future use
+    localStorage.setItem('deviceId', deviceId);
+  }
+
+  return deviceId;
+}
+
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
@@ -128,60 +161,112 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     }
   }, []);
 
-  // Login function
+  // Login function with device fingerprinting and conflict handling
   const login = async (email: string, password: string, rememberMe = false) => {
     try {
       setError(null);
       setLoading(true);
 
+      // Get device ID for authentication
+      const deviceId = getDeviceId();
+
       const response = await fetch('/api/auth/signin', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ email, password, rememberMe }),
+        body: JSON.stringify({ email, password, deviceId, rememberMe }),
       });
 
       const data = await response.json();
 
-      if (!response.ok) {
-        throw new Error(data.error || 'Login failed');
-      }
+      if (response.ok) {
+        // Success - store tokens and user
+        setAccessToken(data.accessToken);
+        localStorage.setItem('accessToken', data.accessToken);
 
-      setAccessToken(data.accessToken);
-      localStorage.setItem('accessToken', data.accessToken);
-      
-      if (data.refreshToken) {
-        localStorage.setItem('refreshToken', data.refreshToken);
-      }
+        if (data.refreshToken) {
+          localStorage.setItem('refreshToken', data.refreshToken);
+        }
 
-      setUser(data.user);
-      toast.success('Welcome back!');
-      
-      // Redirect based on user role
-      if (data.user.isAdmin) {
-        router.push('/admin');
+        setUser(data.user);
+        toast.success('Welcome back!');
+
+        // Redirect based on user role
+        if (data.user.isAdmin) {
+          router.push('/admin');
+        } else {
+          router.push('/dashboard');
+        }
+      } else if (response.status === 409) {
+        // Device conflict - user is signed in on another device
+        const confirmMessage =
+          `You're already signed in on another device:\n\n` +
+          `Device: ${data.currentSession?.deviceName || 'Unknown'}\n` +
+          `Last active: ${data.currentSession?.lastActive ? new Date(data.currentSession.lastActive).toLocaleString() : 'Unknown'}\n\n` +
+          `Do you want to sign out from that device and sign in here?`;
+
+        if (confirm(confirmMessage)) {
+          // User wants to force sign-in - call force-signin endpoint
+          const forceResponse = await fetch('/api/auth/force-signin', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ email, password, deviceId, rememberMe }),
+          });
+
+          const forceData = await forceResponse.json();
+
+          if (forceResponse.ok) {
+            setAccessToken(forceData.accessToken);
+            localStorage.setItem('accessToken', forceData.accessToken);
+
+            if (forceData.refreshToken) {
+              localStorage.setItem('refreshToken', forceData.refreshToken);
+            }
+
+            setUser(forceData.user);
+            toast.success('Welcome back!');
+
+            // Redirect based on user role
+            if (forceData.user.isAdmin) {
+              router.push('/admin');
+            } else {
+              router.push('/dashboard');
+            }
+          } else {
+            throw new Error(forceData.error || 'Force sign-in failed');
+          }
+        } else {
+          // User cancelled - don't proceed with login
+          throw new Error('Login cancelled');
+        }
       } else {
-        router.push('/dashboard');
+        // Other error
+        throw new Error(data.error || 'Login failed');
       }
     } catch (err) {
       const message = err instanceof Error ? err.message : 'Login failed';
       setError(message);
-      toast.error(message);
+      if (message !== 'Login cancelled') {
+        toast.error(message);
+      }
       throw err;
     } finally {
       setLoading(false);
     }
   };
 
-  // Signup function
+  // Signup function with device fingerprinting
   const signup = async (signupData: SignupData) => {
     try {
       setError(null);
       setLoading(true);
 
+      // Get device ID for authentication
+      const deviceId = getDeviceId();
+
       const response = await fetch('/api/auth/signup', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(signupData),
+        body: JSON.stringify({ ...signupData, deviceId }),
       });
 
       const data = await response.json();
@@ -192,14 +277,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
       setAccessToken(data.accessToken);
       localStorage.setItem('accessToken', data.accessToken);
-      
+
       if (data.refreshToken) {
         localStorage.setItem('refreshToken', data.refreshToken);
       }
 
       setUser(data.user);
       toast.success('Account created successfully! Please check your email to verify your account.');
-      
+
       // Redirect to dashboard
       router.push('/dashboard');
     } catch (err) {

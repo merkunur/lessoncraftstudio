@@ -17,6 +17,14 @@ const intlMiddleware = createMiddleware({
 export default function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
+  // Redirect common pages without locale to default locale
+  const pagesNeedingLocale = ['/contact', '/pricing', '/privacy', '/terms', '/about'];
+  if (pagesNeedingLocale.includes(pathname)) {
+    const preferredLang = request.cookies.get('preferredLanguage')?.value || defaultLocale;
+    const newUrl = new URL(`/${preferredLang}${pathname}`, request.url);
+    return NextResponse.redirect(newUrl);
+  }
+
   // Protect content manager - require authentication
   if (pathname.includes('/worksheet-generators/content-manager') ||
       pathname.includes('/worksheet-generators/blog-content-manager')) {

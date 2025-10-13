@@ -4,6 +4,7 @@ export const dynamic = 'force-dynamic';
 
 import { useState, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import { useTranslations } from 'next-intl';
 import {
   CreditCard,
   Package,
@@ -37,6 +38,7 @@ export default function BillingDashboard() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const { user, checkAuth } = useAuth();
+  const t = useTranslations('billing');
   const [subscription, setSubscription] = useState<SubscriptionDetails | null>(null);
   const [loading, setLoading] = useState(true);
   const [portalLoading, setPortalLoading] = useState(false);
@@ -48,12 +50,12 @@ export default function BillingDashboard() {
   useEffect(() => {
     // Check for success/cancel params
     if (searchParams.get('success') === 'true') {
-      toast.success('Payment successful! Your subscription is now active.');
+      toast.success(t('messages.paymentSuccess'));
       checkAuth();
       // Remove query params
       router.replace(`/${locale}/dashboard/billing`);
     } else if (searchParams.get('cancelled') === 'true') {
-      toast.error('Payment cancelled. You can try again anytime.');
+      toast.error(t('messages.paymentCancelled'));
       router.replace(`/${locale}/dashboard/billing`);
     }
 
@@ -93,20 +95,20 @@ export default function BillingDashboard() {
 
       if (!response.ok) {
         const error = await response.json();
-        throw new Error(error.error || 'Failed to access billing portal');
+        throw new Error(error.error || t('messages.portalAccessFailed'));
       }
 
       const { url } = await response.json();
       window.location.href = url;
     } catch (error: any) {
       console.error('Portal error:', error);
-      toast.error(error.message || 'Failed to access billing portal');
+      toast.error(error.message || t('messages.portalAccessFailed'));
       setPortalLoading(false);
     }
   };
 
   const handleCancelSubscription = async () => {
-    if (!confirm('Are you sure you want to cancel your subscription? You will retain access until the end of your billing period.')) {
+    if (!confirm(t('messages.cancelConfirm'))) {
       return;
     }
 
@@ -116,7 +118,7 @@ export default function BillingDashboard() {
       });
 
       if (!response.ok) {
-        throw new Error('Failed to cancel subscription');
+        throw new Error(t('messages.cancelFailed'));
       }
 
       const data = await response.json();
@@ -125,7 +127,7 @@ export default function BillingDashboard() {
       checkAuth();
     } catch (error) {
       console.error('Cancel error:', error);
-      toast.error('Failed to cancel subscription');
+      toast.error(t('messages.cancelFailed'));
     }
   };
 
@@ -138,15 +140,15 @@ export default function BillingDashboard() {
       });
 
       if (!response.ok) {
-        throw new Error('Failed to reactivate subscription');
+        throw new Error(t('messages.reactivateFailed'));
       }
 
-      toast.success('Subscription reactivated successfully!');
+      toast.success(t('messages.reactivateSuccess'));
       fetchSubscriptionDetails();
       checkAuth();
     } catch (error) {
       console.error('Reactivate error:', error);
-      toast.error('Failed to reactivate subscription');
+      toast.error(t('messages.reactivateFailed'));
     }
   };
 
@@ -212,14 +214,14 @@ export default function BillingDashboard() {
 
   return (
     <div className="max-w-6xl mx-auto p-8">
-      <h1 className="text-3xl font-bold text-gray-900 mb-8">Billing & Subscription</h1>
+      <h1 className="text-3xl font-bold text-gray-900 mb-8">{t('pageTitle')}</h1>
 
       {/* Current Plan */}
       <div className="bg-white rounded-lg shadow-sm p-6 mb-8">
         <div className="flex items-center justify-between mb-6">
           <div>
             <h2 className="text-xl font-semibold text-gray-900 mb-2">
-              Current Plan: {tierInfo.name}
+              {t('currentPlanTitle', { plan: tierInfo.name })}
             </h2>
             <p className="text-gray-600">{tierInfo.description}</p>
           </div>
@@ -230,18 +232,18 @@ export default function BillingDashboard() {
           <div className="border rounded-lg p-4">
             <div className="flex items-center text-gray-600 mb-2">
               <Package className="h-5 w-5 mr-2" />
-              <span className="text-sm font-medium">Plan</span>
+              <span className="text-sm font-medium">{t('planCard.title')}</span>
             </div>
             <p className="text-2xl font-bold text-gray-900">{tierInfo.name}</p>
             <p className="text-sm text-gray-600">
-              ${tierInfo.price}{tierInfo.price > 0 ? '/month' : ''}
+              ${tierInfo.price}{tierInfo.price > 0 ? t('planCard.perMonth') : ''}
             </p>
           </div>
 
           <div className="border rounded-lg p-4">
             <div className="flex items-center text-gray-600 mb-2">
               <Calendar className="h-5 w-5 mr-2" />
-              <span className="text-sm font-medium">Billing Period</span>
+              <span className="text-sm font-medium">{t('billingPeriodCard.title')}</span>
             </div>
             {subscription ? (
               <>
@@ -249,30 +251,30 @@ export default function BillingDashboard() {
                   {formatDate(subscription.currentPeriodEnd)}
                 </p>
                 <p className="text-sm text-gray-600">
-                  {subscription.cancelAtPeriodEnd ? 'Cancels on' : 'Renews on'}
+                  {subscription.cancelAtPeriodEnd ? t('billingPeriodCard.cancelsOn') : t('billingPeriodCard.renewsOn')}
                 </p>
               </>
             ) : (
-              <p className="text-lg font-semibold text-gray-900">No active subscription</p>
+              <p className="text-lg font-semibold text-gray-900">{t('billingPeriodCard.noActiveSubscription')}</p>
             )}
           </div>
 
           <div className="border rounded-lg p-4">
             <div className="flex items-center text-gray-600 mb-2">
               <CreditCard className="h-5 w-5 mr-2" />
-              <span className="text-sm font-medium">Status</span>
+              <span className="text-sm font-medium">{t('statusCard.title')}</span>
             </div>
             {subscription ? (
               <>
-                <p className="text-lg font-semibold text-gray-900">Active</p>
+                <p className="text-lg font-semibold text-gray-900">{t('statusCard.active')}</p>
                 <p className="text-sm text-gray-600">
-                  {subscription.cancelAtPeriodEnd ? 'Ends' : 'Renews'} {formatDate(subscription.currentPeriodEnd)}
+                  {subscription.cancelAtPeriodEnd ? t('statusCard.ends') : t('statusCard.renews')} {formatDate(subscription.currentPeriodEnd)}
                 </p>
               </>
             ) : (
               <>
-                <p className="text-lg font-semibold text-gray-900">Inactive</p>
-                <p className="text-sm text-gray-600">No active subscription</p>
+                <p className="text-lg font-semibold text-gray-900">{t('statusCard.inactive')}</p>
+                <p className="text-sm text-gray-600">{t('statusCard.noSubscription')}</p>
               </>
             )}
           </div>
@@ -286,7 +288,7 @@ export default function BillingDashboard() {
               className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
             >
               <TrendingUp className="h-4 w-4 inline mr-2" />
-              Upgrade Plan
+              {t('actions.upgradePlan')}
             </button>
           ) : (
             <>
@@ -296,7 +298,7 @@ export default function BillingDashboard() {
                   className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors"
                 >
                   <RefreshCw className="h-4 w-4 inline mr-2" />
-                  Reactivate Subscription
+                  {t('actions.reactivateSubscription')}
                 </button>
               ) : (
                 currentTier !== 'FULL' && (
@@ -305,7 +307,7 @@ export default function BillingDashboard() {
                     className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
                   >
                     <TrendingUp className="h-4 w-4 inline mr-2" />
-                    Change Plan
+                    {t('actions.changePlan')}
                   </button>
                 )
               )}
@@ -315,7 +317,7 @@ export default function BillingDashboard() {
                   onClick={handleCancelSubscription}
                   className="px-4 py-2 border border-red-600 text-red-600 rounded-lg hover:bg-red-50 transition-colors"
                 >
-                  Cancel Subscription
+                  {t('actions.cancelSubscription')}
                 </button>
               )}
 
@@ -330,7 +332,7 @@ export default function BillingDashboard() {
                   ) : (
                     <ExternalLink className="h-4 w-4 inline mr-2" />
                   )}
-                  Stripe Portal
+                  {t('actions.stripePortal')}
                 </button>
               )}
             </>
@@ -343,8 +345,7 @@ export default function BillingDashboard() {
               <AlertCircle className="h-5 w-5 text-yellow-600 mr-2 flex-shrink-0" />
               <div>
                 <p className="text-sm text-yellow-800">
-                  Your subscription is scheduled to cancel on {formatDate(subscription.currentPeriodEnd)}.
-                  You'll retain access to all features until then.
+                  {t('messages.cancelWarning', { date: formatDate(subscription.currentPeriodEnd) })}
                 </p>
               </div>
             </div>
@@ -364,7 +365,7 @@ export default function BillingDashboard() {
 
       {/* Plan Features */}
       <div className="bg-white rounded-lg shadow-sm p-6 mt-8">
-        <h2 className="text-xl font-semibold text-gray-900 mb-6">Your Plan Features</h2>
+        <h2 className="text-xl font-semibold text-gray-900 mb-6">{t('features.title')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {tierInfo.features.map((feature, idx) => (
             <div key={idx} className="flex items-start">
@@ -377,7 +378,7 @@ export default function BillingDashboard() {
         {currentTier !== 'FULL' && (
           <div className="mt-6 pt-6 border-t">
             <p className="text-sm text-gray-600 mb-4">
-              Upgrade to unlock more features:
+              {t('features.upgradePrompt')}
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {currentTier === 'FREE' && SUBSCRIPTION_TIERS.CORE.features.slice(0, 3).map((feature, idx) => (

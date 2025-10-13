@@ -133,6 +133,7 @@ export default function SignInClient() {
             body: JSON.stringify({
               tier: plan.toUpperCase(),
               billingInterval: billingInterval,
+              locale: locale,
               successUrl,
               cancelUrl,
             }),
@@ -229,6 +230,7 @@ export default function SignInClient() {
             body: JSON.stringify({
               tier: plan.toUpperCase(),
               billingInterval: billingInterval,
+              locale: locale,
               successUrl,
               cancelUrl,
             }),

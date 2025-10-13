@@ -26,6 +26,7 @@ export async function POST(request: NextRequest) {
       billingInterval: z.enum(['monthly', 'yearly']).optional().default('monthly'),
       successUrl: z.string().url().optional(),
       cancelUrl: z.string().url().optional(),
+      locale: z.string().optional().default('en'),
     });
 
     const body = await request.json();
@@ -38,7 +39,7 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const { tier, billingInterval, successUrl, cancelUrl } = validationResult.data;
+    const { tier, billingInterval, successUrl, cancelUrl, locale } = validationResult.data;
 
     // Get subscription tier details
     const tierInfo = SUBSCRIPTION_TIERS[tier];
@@ -89,8 +90,8 @@ export async function POST(request: NextRequest) {
         user.id,
         tier,
         billingInterval,
-        successUrl || `${baseUrl}/en/dashboard/billing?success=true`,
-        cancelUrl || `${baseUrl}/en/dashboard/billing?cancelled=true`
+        successUrl || `${baseUrl}/${locale}/dashboard/billing?success=true`,
+        cancelUrl || `${baseUrl}/${locale}/dashboard/billing?cancelled=true`
       );
 
       return NextResponse.json({
@@ -128,8 +129,8 @@ export async function POST(request: NextRequest) {
       customerId,
       priceId,
       user.id,
-      successUrl || `${baseUrl}/en/dashboard/billing?success=true`,
-      cancelUrl || `${baseUrl}/en/dashboard/billing?cancelled=true`,
+      successUrl || `${baseUrl}/${locale}/dashboard/billing?success=true`,
+      cancelUrl || `${baseUrl}/${locale}/dashboard/billing?cancelled=true`,
       stripeLocale
     );
 

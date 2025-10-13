@@ -104,6 +104,7 @@ export default function PricingCards({
         body: JSON.stringify({
           tier: plan.variant.toUpperCase(),
           billingInterval: isYearly ? 'yearly' : 'monthly',
+          locale: locale,
           successUrl,
           cancelUrl,
         }),

@@ -23,6 +23,7 @@ import { toast } from 'react-hot-toast';
 import { PaymentMethodManager } from '@/components/billing/PaymentMethodManager';
 import { InvoiceList } from '@/components/billing/InvoiceList';
 import { PlanUpgradeModal } from '@/components/billing/PlanUpgradeModal';
+import PaymentHistory from '@/components/dashboard/PaymentHistory';
 
 interface SubscriptionDetails {
   id: string;
@@ -375,6 +376,13 @@ export default function BillingDashboard() {
       {user?.stripeCustomerId && (
         <div className="mt-8">
           <InvoiceList />
+        </div>
+      )}
+
+      {/* Payment History */}
+      {user?.stripeCustomerId && (
+        <div className="mt-8">
+          <PaymentHistory />
         </div>
       )}
 

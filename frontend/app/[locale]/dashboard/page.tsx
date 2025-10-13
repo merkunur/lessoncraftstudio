@@ -8,7 +8,6 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { Sparkles, Crown, Zap, LogOut, Search, Filter, MessageSquare, CreditCard } from 'lucide-react';
 import SubscriptionOverview from '@/components/dashboard/SubscriptionOverview';
-import PaymentHistory from '@/components/dashboard/PaymentHistory';
 
 interface User {
   id: string;
@@ -350,7 +349,6 @@ export default function DashboardPage() {
           {/* Sidebar - 1 column */}
           <div className="space-y-6">
             <SubscriptionOverview />
-            <PaymentHistory />
           </div>
         </div>
       </div>

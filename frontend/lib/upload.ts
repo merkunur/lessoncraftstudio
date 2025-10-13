@@ -18,6 +18,7 @@ function getSourceRoot(): string {
 const SOURCE_ROOT = getSourceRoot();
 
 // Storage paths - always use source directory
+// Pattern: Main images use /images/{theme}, special types use /images/{type}/{theme}
 export const STORAGE_PATHS = {
   images: path.join(SOURCE_ROOT, 'public', 'images'),
   borders: path.join(SOURCE_ROOT, 'public', 'images', 'borders'),

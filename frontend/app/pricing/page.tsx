@@ -17,7 +17,9 @@ export default function PricingPage() {
 
   const handleSubscribe = async (tier: 'CORE' | 'FULL') => {
     if (!user) {
-      router.push('/auth/signin?redirect=/pricing');
+      // Get current pathname to preserve locale in redirect
+      const currentPath = typeof window !== 'undefined' ? window.location.pathname : '/pricing';
+      router.push(`/auth/signin?redirect=${encodeURIComponent(currentPath)}`);
       return;
     }
 

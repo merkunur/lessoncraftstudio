@@ -57,6 +57,7 @@ export default function SignInClient() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const plan = searchParams.get('plan'); // Get plan from URL parameter
+  const redirect = searchParams.get('redirect'); // Get redirect URL from parameter
   const t = useTranslations('auth.signIn');
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -151,11 +152,11 @@ export default function SignInClient() {
           return;
         }
       } else {
-        console.log('No plan parameter detected (plan =', plan, '), redirecting to dashboard');
+        console.log('No plan parameter detected (plan =', plan, '), redirecting to', redirect || 'dashboard');
       }
 
-      // Redirect to dashboard with locale
-      router.push('/en/dashboard');
+      // Redirect to specified URL or default to dashboard
+      router.push(redirect || '/en/dashboard');
     } catch (err: any) {
       setError(err.message || 'An error occurred during sign in');
       setIsLoading(false);
@@ -235,11 +236,11 @@ export default function SignInClient() {
           return;
         }
       } else {
-        console.log('[Force Signin] No plan parameter detected (plan =', plan, '), redirecting to dashboard');
+        console.log('[Force Signin] No plan parameter detected (plan =', plan, '), redirecting to', redirect || 'dashboard');
       }
 
-      // Redirect to dashboard
-      router.push('/en/dashboard');
+      // Redirect to specified URL or default to dashboard
+      router.push(redirect || '/en/dashboard');
     } catch (err: any) {
       setError(err.message || 'An error occurred during force sign in');
       setShowConflictModal(false);

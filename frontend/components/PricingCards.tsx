@@ -79,12 +79,13 @@ export default function PricingCards({
     e.preventDefault();
     console.log('[PricingCards] Prevented default link behavior for paid plan');
 
-    // If not authenticated, redirect to signup with plan parameter
+    // If not authenticated, redirect to signin with redirect parameter to come back to pricing
     if (!isAuthenticated) {
       const locale = window.location.pathname.split('/')[1] || 'en';
-      const signupUrl = `/${locale}/auth/signup?plan=${plan.variant}`;
-      console.log('[PricingCards] User NOT authenticated, redirecting to signup:', signupUrl);
-      router.push(signupUrl);
+      const currentPath = window.location.pathname; // Preserve current pricing page path
+      const signinUrl = `/${locale}/auth/signin?redirect=${encodeURIComponent(currentPath)}`;
+      console.log('[PricingCards] User NOT authenticated, redirecting to signin with redirect:', signinUrl);
+      router.push(signinUrl);
       return;
     }
 
@@ -93,7 +94,13 @@ export default function PricingCards({
     setIsLoading(plan.variant);
     try {
       const token = localStorage.getItem('accessToken');
+      const locale = window.location.pathname.split('/')[1] || 'en';
+      const baseUrl = window.location.origin;
       console.log('[PricingCards] Access token:', token ? 'Found' : 'Not found');
+
+      // Construct locale-aware redirect URLs
+      const successUrl = `${baseUrl}/${locale}/dashboard/billing?success=true`;
+      const cancelUrl = `${baseUrl}/${locale}/pricing?cancelled=true`;
 
       const response = await fetch('/api/stripe/checkout', {
         method: 'POST',
@@ -104,6 +111,8 @@ export default function PricingCards({
         body: JSON.stringify({
           tier: plan.variant.toUpperCase(),
           billingInterval: isYearly ? 'yearly' : 'monthly',
+          successUrl,
+          cancelUrl,
         }),
       });
 

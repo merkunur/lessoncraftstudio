@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 import { useRouter, useParams } from 'next/navigation';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
-import { Sparkles, Crown, Zap, LogOut, Search, Filter, MessageSquare } from 'lucide-react';
+import { Sparkles, Crown, Zap, LogOut, Search, Filter, MessageSquare, CreditCard } from 'lucide-react';
 import SubscriptionOverview from '@/components/dashboard/SubscriptionOverview';
 import PaymentHistory from '@/components/dashboard/PaymentHistory';
 

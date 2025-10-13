@@ -707,8 +707,116 @@ model EmailTemplate {
   createdAt DateTime @default(now()) @map("created_at")
   updatedAt DateTime @updatedAt @map("updated_at")
 
+  // Relations
+  campaigns EmailCampaign[]
+
   @@index([name])
   @@map("email_templates")
+}
+
+model EmailCampaign {
+  id String @id @default(cuid())
+
+  // Campaign details
+  name              String
+  description       String?  @db.Text
+  subject           String
+  htmlContent       String   @map("html_content") @db.Text
+  textContent       String?  @map("text_content") @db.Text
+
+  // Template reference (optional - can use template or custom content)
+  templateId        String?  @map("template_id")
+
+  // Target audience
+  targetAudience    String   @map("target_audience") // "all", "free", "core", "full", "custom"
+  customUserIds     String[] @default([]) @map("custom_user_ids") // For custom targeting
+
+  // Filters
+  subscriptionTier  String?  @map("subscription_tier") // "free", "core", "full"
+  subscriptionStatus String? @map("subscription_status") // "active", "canceled", etc.
+
+  // Scheduling
+  status            String   @default("draft") // "draft", "scheduled", "sending", "sent", "failed"
+  scheduledAt       DateTime? @map("scheduled_at")
+  sentAt            DateTime? @map("sent_at")
+
+  // Statistics
+  totalRecipients   Int      @default(0) @map("total_recipients")
+  sentCount         Int      @default(0) @map("sent_count")
+  deliveredCount    Int      @default(0) @map("delivered_count")
+  openedCount       Int      @default(0) @map("opened_count")
+  clickedCount      Int      @default(0) @map("clicked_count")
+  bouncedCount      Int      @default(0) @map("bounced_count")
+  failedCount       Int      @default(0) @map("failed_count")
+
+  // Settings
+  sendTestEmail     Boolean  @default(false) @map("send_test_email")
+  testEmailAddress  String?  @map("test_email_address")
+
+  // Metadata
+  createdBy         String?  @map("created_by") // User ID of admin who created
+  errorMessage      String?  @map("error_message") @db.Text
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  template EmailTemplate? @relation(fields: [templateId], references: [id], onDelete: SetNull)
+  logs     EmailLog[]
+
+  @@index([status])
+  @@index([scheduledAt])
+  @@index([sentAt])
+  @@index([templateId])
+  @@index([subscriptionTier])
+  @@map("email_campaigns")
+}
+
+model EmailLog {
+  id String @id @default(cuid())
+
+  // Campaign reference (optional - can be sent outside of campaigns)
+  campaignId String? @map("campaign_id")
+
+  // Recipient
+  userId    String? @map("user_id")
+  email     String
+
+  // Email details
+  subject   String
+  type      String  // "transactional", "marketing", "notification", "campaign"
+
+  // Status
+  status    String  @default("pending") // "pending", "sent", "delivered", "opened", "clicked", "bounced", "failed", "spam"
+
+  // Provider details (e.g., Resend, SendGrid)
+  provider  String? // "resend", "sendgrid", etc.
+  providerId String? @map("provider_id") // External email ID from provider
+
+  // Metadata
+  metadata  Json?   // Additional tracking data
+  errorMessage String? @map("error_message") @db.Text
+
+  // Timestamps
+  sentAt      DateTime? @map("sent_at")
+  deliveredAt DateTime? @map("delivered_at")
+  openedAt    DateTime? @map("opened_at")
+  clickedAt   DateTime? @map("clicked_at")
+  bouncedAt   DateTime? @map("bounced_at")
+
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  // Relations
+  campaign EmailCampaign? @relation(fields: [campaignId], references: [id], onDelete: SetNull)
+
+  @@index([campaignId])
+  @@index([userId])
+  @@index([email])
+  @@index([status])
+  @@index([type])
+  @@index([createdAt])
+  @@map("email_logs")
 }
 
 // ==========================================

@@ -676,6 +676,7 @@
       "welcome": "Welcome back, {name}!",
       "welcomeFallback": "Welcome back, Creator!",
       "subtitle": "Let's create something amazing today",
+      "billing": "Billing",
       "signOut": "Sign Out"
     },
     "stats": {

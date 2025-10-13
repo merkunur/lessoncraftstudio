@@ -21,7 +21,9 @@ export default function SubscriptionOverview() {
   const tTierNames = useTranslations('dashboard.tierNames');
   const [subscription, setSubscription] = useState<SubscriptionData | null>(null);
   const [loading, setLoading] = useState(true);
-  const [portalLoading, setPortalLoading] = useState(false);
+
+  // Get current locale from URL
+  const locale = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] || 'en' : 'en';
 
   useEffect(() => {
     fetchSubscription();
@@ -50,29 +52,8 @@ export default function SubscriptionOverview() {
     }
   };
 
-  const handleManageBilling = async () => {
-    setPortalLoading(true);
-    try {
-      const token = localStorage.getItem('accessToken');
-      const response = await fetch('/api/stripe/portal', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${token}`
-        },
-      });
-
-      if (!response.ok) {
-        throw new Error('Failed to open billing portal');
-      }
-
-      const { url } = await response.json();
-      window.location.href = url;
-    } catch (error) {
-      console.error('Portal error:', error);
-      alert('Failed to open billing portal');
-      setPortalLoading(false);
-    }
+  const handleManageBilling = () => {
+    router.push(`/${locale}/dashboard/billing`);
   };
 
   if (loading) {
@@ -171,7 +152,7 @@ export default function SubscriptionOverview() {
         <div className="pt-4 border-t space-y-3">
           {tier !== 'FULL' && (
             <button
-              onClick={() => router.push('/pricing')}
+              onClick={() => router.push(`/${locale}/pricing`)}
               className="w-full flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
             >
               <TrendingUp className="h-4 w-4 mr-2" />
@@ -182,10 +163,9 @@ export default function SubscriptionOverview() {
           {subscription && (
             <button
               onClick={handleManageBilling}
-              disabled={portalLoading}
-              className="w-full px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors disabled:opacity-50"
+              className="w-full px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors"
             >
-              {portalLoading ? t('loading') : t('manageBilling')}
+              {t('manageBilling')}
             </button>
           )}
         </div>

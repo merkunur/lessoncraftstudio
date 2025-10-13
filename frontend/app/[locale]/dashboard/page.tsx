@@ -185,6 +185,13 @@ export default function DashboardPage() {
             </div>
             <div className="flex items-center space-x-2">
               <Link
+                href={`/${locale}/dashboard/billing`}
+                className="flex items-center space-x-2 px-4 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-all duration-200"
+              >
+                <CreditCard className="h-4 w-4" />
+                <span className="font-medium">{t('header.billing')}</span>
+              </Link>
+              <Link
                 href={`/${locale}/dashboard/support`}
                 className="flex items-center space-x-2 px-4 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-all duration-200"
               >

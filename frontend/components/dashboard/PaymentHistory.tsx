@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { Receipt, Download, CheckCircle, XCircle, Clock } from 'lucide-react';
 
@@ -15,9 +16,13 @@ interface Payment {
 }
 
 export default function PaymentHistory() {
+  const router = useRouter();
   const t = useTranslations('dashboard.paymentHistory');
   const [payments, setPayments] = useState<Payment[]>([]);
   const [loading, setLoading] = useState(true);
+
+  // Get current locale from URL
+  const locale = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] || 'en' : 'en';
 
   useEffect(() => {
     fetchPayments();
@@ -153,7 +158,10 @@ export default function PaymentHistory() {
 
         {payments.length > 0 && (
           <div className="mt-6 text-center">
-            <button className="text-sm text-blue-600 hover:text-blue-700">
+            <button
+              onClick={() => router.push(`/${locale}/dashboard/billing`)}
+              className="text-sm text-blue-600 hover:text-blue-700"
+            >
               {t('viewAll')}
             </button>
           </div>

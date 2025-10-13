@@ -105,6 +105,7 @@ export async function GET(request: NextRequest) {
         language: user.language,
         newsletter: user.newsletter,
         subscriptionTier: user.subscriptionTier,
+        stripeCustomerId: user.stripeCustomerId,
         isAdmin: user.isAdmin,
         createdAt: user.createdAt,
         lastLoginAt: user.lastLoginAt,
@@ -208,6 +209,7 @@ export async function PATCH(request: NextRequest) {
         language: updatedUser.language,
         newsletter: updatedUser.newsletter,
         subscriptionTier: updatedUser.subscriptionTier,
+        stripeCustomerId: updatedUser.stripeCustomerId,
         isAdmin: updatedUser.isAdmin,
       },
     });

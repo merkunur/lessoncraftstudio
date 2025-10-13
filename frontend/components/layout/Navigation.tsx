@@ -72,27 +72,22 @@ export function Navigation() {
           <Link href={`/${locale}`} className="flex items-center space-x-4 h-full">
             {/* Display LCS logo - scaled to show complete logo */}
             <div
-              className="flex items-center justify-center relative"
+              className="flex items-center justify-center"
               style={{
-                height: '110px',   // Taller container
-                width: '130px',    // Wider container
-                overflow: 'visible'  // Allow slight overflow if needed
+                height: '70px',
+                width: 'auto',
+                maxWidth: '100px'
               }}
             >
               <img
                 src={logoImage}
                 alt={logoText}
                 style={{
-                  position: 'absolute',
-                  width: '240%',     // Further reduced scale
-                  height: '240%',    // Further reduced scale
-                  maxWidth: 'none',  // Override default max-width
-                  top: '50%',
-                  left: '50%',
-                  transform: 'translate(-50%, -50%)',
-                  objectFit: 'contain',
-                  mixBlendMode: 'multiply',  // Blend white background with gray
-                  filter: 'contrast(1.1)'     // Slight contrast adjustment
+                  maxHeight: '70px',
+                  maxWidth: '100px',
+                  width: 'auto',
+                  height: 'auto',
+                  objectFit: 'contain'
                 }}
                 onError={(e) => {
                   // Fallback if image fails to load

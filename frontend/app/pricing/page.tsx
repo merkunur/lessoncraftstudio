@@ -23,10 +23,23 @@ export default function PricingPage() {
 
     setLoading(tier);
     try {
+      // Get user's current locale (default to 'en' if not found)
+      const locale = user.language || 'en';
+      const baseUrl = window.location.origin;
+
+      // Construct locale-aware redirect URLs
+      const successUrl = `${baseUrl}/${locale}/dashboard/billing?success=true`;
+      const cancelUrl = `${baseUrl}/${locale}/dashboard/billing?cancelled=true`;
+
       const response = await fetch('/api/stripe/checkout', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ tier, billingInterval }),
+        body: JSON.stringify({
+          tier,
+          billingInterval,
+          successUrl,
+          cancelUrl
+        }),
       });
 
       if (!response.ok) {

@@ -311,6 +311,8 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
 // Helper function to update user subscription
 async function updateUserSubscription(userId: string, subscription: Stripe.Subscription) {
   console.log('🔧 updateUserSubscription started');
+  console.log(`📦 Full subscription object keys: ${Object.keys(subscription).join(', ')}`);
+  console.log(`📅 Raw subscription dates - current_period_start: ${(subscription as any).current_period_start}, current_period_end: ${(subscription as any).current_period_end}`);
 
   // Determine subscription tier from price ID
   let tier: 'free' | 'core' | 'full' = 'free';

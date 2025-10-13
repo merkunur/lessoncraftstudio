@@ -833,6 +833,7 @@
       "welcome": "Ravi de vous revoir, {name} !",
       "welcomeFallback": "Ravi de vous revoir !",
       "subtitle": "Créons ensemble quelque chose d'extraordinaire",
+      "billing": "Facturation",
       "signOut": "Se déconnecter"
     },
     "stats": {

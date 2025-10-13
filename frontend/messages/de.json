@@ -882,6 +882,7 @@
       "welcome": "Schön, dass du wieder da bist, {name}!",
       "welcomeFallback": "Willkommen zurück!",
       "subtitle": "Lass uns heute etwas Tolles erstellen",
+      "billing": "Abrechnung",
       "signOut": "Abmelden"
     },
     "stats": {

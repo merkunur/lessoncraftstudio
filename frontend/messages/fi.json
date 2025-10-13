@@ -820,6 +820,7 @@
       "welcome": "Mukavaa nähdä taas, {name}!",
       "welcomeFallback": "Tervetuloa takaisin!",
       "subtitle": "Tehdään tänään jotain hienoa",
+      "billing": "Laskutus",
       "signOut": "Kirjaudu ulos"
     },
     "stats": {

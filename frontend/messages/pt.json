@@ -833,6 +833,7 @@
       "welcome": "Que bom ter você de volta, {name}!",
       "welcomeFallback": "Bem-vindo de volta!",
       "subtitle": "Vamos criar algo incrível hoje",
+      "billing": "Faturamento",
       "signOut": "Sair"
     },
     "stats": {

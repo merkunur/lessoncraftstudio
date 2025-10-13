@@ -820,6 +820,7 @@
       "welcome": "Dejligt at se dig igen, {name}!",
       "welcomeFallback": "Velkommen tilbage!",
       "subtitle": "Lad os skabe noget fantastisk i dag",
+      "billing": "Fakturering",
       "signOut": "Log ud"
     },
     "stats": {

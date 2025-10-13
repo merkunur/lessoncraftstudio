@@ -833,6 +833,7 @@
       "welcome": "Fijn dat je er weer bent, {name}!",
       "welcomeFallback": "Welkom terug!",
       "subtitle": "Laten we vandaag iets moois maken",
+      "billing": "Facturering",
       "signOut": "Uitloggen"
     },
     "stats": {

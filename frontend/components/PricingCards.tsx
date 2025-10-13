@@ -75,16 +75,6 @@ export default function PricingCards({
     // DEBUG: Show alert to confirm handler is executing
     alert(`Subscribe clicked! Plan: ${plan.variant}, Authenticated: ${isAuthenticated}`);
 
-    // Free plan always goes to signup
-    if (plan.variant === 'free') {
-      console.log('[PricingCards] Free plan, letting Link handle navigation');
-      return; // Let the Link handle it
-    }
-
-    // Paid plans
-    e.preventDefault();
-    console.log('[PricingCards] Prevented default link behavior for paid plan');
-
     // If not authenticated, redirect to signin with plan and billing interval parameters
     // This allows automatic checkout creation after signin without requiring user to click Subscribe again
     if (!isAuthenticated) {
@@ -194,8 +184,16 @@ export default function PricingCards({
                   )}
                 </div>
 
-                <Link href={plan.ctaLink} onClick={(e) => handlePlanClick(plan, e)}>
+                {plan.variant === 'free' ? (
+                  <Link href={plan.ctaLink}>
+                    <button
+                      className="w-full py-3 px-6 rounded-lg font-semibold transition-colors bg-gray-100 text-gray-900 hover:bg-gray-200">
+                      {plan.cta}
+                    </button>
+                  </Link>
+                ) : (
                   <button
+                    onClick={(e) => handlePlanClick(plan, e)}
                     disabled={isLoading === plan.variant}
                     className={`w-full py-3 px-6 rounded-lg font-semibold transition-colors disabled:opacity-50 disabled:cursor-not-allowed ${
                       plan.popular
@@ -214,7 +212,7 @@ export default function PricingCards({
                       plan.cta
                     )}
                   </button>
-                </Link>
+                )}
 
                 {/* Features */}
                 {plan.features && plan.features.length > 0 && (

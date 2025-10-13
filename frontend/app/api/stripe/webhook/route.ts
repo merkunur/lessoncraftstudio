@@ -104,6 +104,11 @@ async function handleCheckoutCompleted(session: Stripe.Checkout.Session) {
     return;
   }
 
+  if (!customerId) {
+    console.error('❌ No customerId in checkout session');
+    return;
+  }
+
   try {
     // Update user with Stripe customer ID
     console.log(`💾 Updating user ${userId} with customer ID ${customerId}`);
@@ -115,13 +120,18 @@ async function handleCheckoutCompleted(session: Stripe.Checkout.Session) {
     });
     console.log('✅ User updated with customer ID');
 
-    // Get subscription details
-    console.log(`🔍 Retrieving subscription ${subscriptionId} from Stripe`);
-    const subscription = await stripe.subscriptions.retrieve(subscriptionId);
-    console.log(`📦 Subscription retrieved: ${subscription.id}, status: ${subscription.status}`);
+    // Only process subscription if it exists
+    if (subscriptionId) {
+      // Get subscription details
+      console.log(`🔍 Retrieving subscription ${subscriptionId} from Stripe`);
+      const subscription = await stripe.subscriptions.retrieve(subscriptionId);
+      console.log(`📦 Subscription retrieved: ${subscription.id}, status: ${subscription.status}`);
 
-    await updateUserSubscription(userId, subscription);
-    console.log('✅ User subscription updated successfully');
+      await updateUserSubscription(userId, subscription);
+      console.log('✅ User subscription updated successfully');
+    } else {
+      console.log('ℹ️  No subscription ID in checkout session - subscription will be processed by subscription.created event');
+    }
   } catch (error) {
     console.error('❌ Error in handleCheckoutCompleted:', error);
     throw error;
@@ -351,6 +361,17 @@ async function updateUserSubscription(userId: string, subscription: Stripe.Subsc
 
   console.log(`📊 Updating user ${userId} with tier: ${tier}, plan: ${planName}, status: ${status}`);
 
+  // Get period dates with proper type handling
+  const subAny = subscription as any;
+  const currentPeriodStart = subAny.current_period_start
+    ? new Date(subAny.current_period_start * 1000)
+    : new Date();
+  const currentPeriodEnd = subAny.current_period_end
+    ? new Date(subAny.current_period_end * 1000)
+    : new Date();
+
+  console.log(`📅 Period: ${currentPeriodStart.toISOString()} to ${currentPeriodEnd.toISOString()}`);
+
   try {
     // Update user
     await prisma.user.update({
@@ -372,8 +393,8 @@ async function updateUserSubscription(userId: string, subscription: Stripe.Subsc
         billingInterval,
         stripeSubscriptionId: subscription.id,
         stripePriceId: priceId,
-        currentPeriodStart: new Date((subscription as any).current_period_start * 1000),
-        currentPeriodEnd: new Date((subscription as any).current_period_end * 1000),
+        currentPeriodStart,
+        currentPeriodEnd,
         cancelAtPeriodEnd: subscription.cancel_at_period_end,
       },
       create: {
@@ -383,8 +404,8 @@ async function updateUserSubscription(userId: string, subscription: Stripe.Subsc
         billingInterval,
         stripeSubscriptionId: subscription.id,
         stripePriceId: priceId,
-        currentPeriodStart: new Date((subscription as any).current_period_start * 1000),
-        currentPeriodEnd: new Date((subscription as any).current_period_end * 1000),
+        currentPeriodStart,
+        currentPeriodEnd,
         cancelAtPeriodEnd: subscription.cancel_at_period_end,
       },
     });

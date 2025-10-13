@@ -30,6 +30,7 @@ export async function POST(request: NextRequest) {
 
     try {
       event = verifyWebhookSignature(body, signature, webhookSecret);
+      console.log('✅ Webhook signature verified successfully');
     } catch (err) {
       console.error('Webhook signature verification failed:', err);
       return NextResponse.json(
@@ -38,11 +39,15 @@ export async function POST(request: NextRequest) {
       );
     }
 
+    console.log(`📨 Processing webhook event: ${event.type}`);
+
     // Handle the event
     switch (event.type) {
       case STRIPE_WEBHOOK_EVENTS.CHECKOUT_COMPLETED: {
+        console.log('🛒 Handling checkout.session.completed');
         const session = event.data.object as Stripe.Checkout.Session;
         await handleCheckoutCompleted(session);
+        console.log('✅ Checkout completed handler finished');
         break;
       }
 
@@ -87,26 +92,40 @@ export async function POST(request: NextRequest) {
 
 // Handle successful checkout
 async function handleCheckoutCompleted(session: Stripe.Checkout.Session) {
+  console.log('🔍 handleCheckoutCompleted started');
   const userId = session.metadata?.userId;
   const customerId = session.customer as string;
   const subscriptionId = session.subscription as string;
 
+  console.log(`📝 Checkout data - userId: ${userId}, customerId: ${customerId}, subscriptionId: ${subscriptionId}`);
+
   if (!userId) {
-    console.error('No userId in checkout session metadata');
+    console.error('❌ No userId in checkout session metadata');
     return;
   }
 
-  // Update user with Stripe customer ID
-  await prisma.user.update({
-    where: { id: userId },
-    data: {
-      stripeCustomerId: customerId,
-    },
-  });
+  try {
+    // Update user with Stripe customer ID
+    console.log(`💾 Updating user ${userId} with customer ID ${customerId}`);
+    await prisma.user.update({
+      where: { id: userId },
+      data: {
+        stripeCustomerId: customerId,
+      },
+    });
+    console.log('✅ User updated with customer ID');
 
-  // Get subscription details
-  const subscription = await stripe.subscriptions.retrieve(subscriptionId);
-  await updateUserSubscription(userId, subscription);
+    // Get subscription details
+    console.log(`🔍 Retrieving subscription ${subscriptionId} from Stripe`);
+    const subscription = await stripe.subscriptions.retrieve(subscriptionId);
+    console.log(`📦 Subscription retrieved: ${subscription.id}, status: ${subscription.status}`);
+
+    await updateUserSubscription(userId, subscription);
+    console.log('✅ User subscription updated successfully');
+  } catch (error) {
+    console.error('❌ Error in handleCheckoutCompleted:', error);
+    throw error;
+  }
 }
 
 // Handle subscription updates
@@ -275,29 +294,41 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
 
 // Helper function to update user subscription
 async function updateUserSubscription(userId: string, subscription: Stripe.Subscription) {
+  console.log('🔧 updateUserSubscription started');
+
   // Determine subscription tier from price ID
   let tier: 'free' | 'core' | 'full' = 'free';
   let planName = 'free';
   let billingInterval: 'monthly' | 'yearly' | null = null;
   const priceId = subscription.items.data[0]?.price.id;
 
+  console.log(`💰 Price ID from subscription: ${priceId}`);
+  console.log(`🔑 Environment price IDs - CORE_MONTHLY: ${process.env.STRIPE_PRICE_CORE_MONTHLY}, CORE_YEARLY: ${process.env.STRIPE_PRICE_CORE_YEARLY}`);
+  console.log(`🔑 Environment price IDs - FULL_MONTHLY: ${process.env.STRIPE_PRICE_FULL_MONTHLY}, FULL_YEARLY: ${process.env.STRIPE_PRICE_FULL_YEARLY}`);
+
   // Match price ID to tier and plan
   if (priceId === process.env.STRIPE_PRICE_CORE_MONTHLY) {
     tier = 'core';
     planName = 'core_monthly';
     billingInterval = 'monthly';
+    console.log('✅ Matched CORE_MONTHLY plan');
   } else if (priceId === process.env.STRIPE_PRICE_CORE_YEARLY) {
     tier = 'core';
     planName = 'core_yearly';
     billingInterval = 'yearly';
+    console.log('✅ Matched CORE_YEARLY plan');
   } else if (priceId === process.env.STRIPE_PRICE_FULL_MONTHLY) {
     tier = 'full';
     planName = 'full_monthly';
     billingInterval = 'monthly';
+    console.log('✅ Matched FULL_MONTHLY plan');
   } else if (priceId === process.env.STRIPE_PRICE_FULL_YEARLY) {
     tier = 'full';
     planName = 'full_yearly';
     billingInterval = 'yearly';
+    console.log('✅ Matched FULL_YEARLY plan');
+  } else {
+    console.warn(`⚠️ Price ID ${priceId} did not match any configured price - defaulting to free tier`);
   }
 
   // Map Stripe status to our status (no trial status - we don't offer trials)
@@ -312,39 +343,48 @@ async function updateUserSubscription(userId: string, subscription: Stripe.Subsc
     status = 'unpaid';
   }
 
-  // Update user
-  await prisma.user.update({
-    where: { id: userId },
-    data: {
-      subscriptionTier: tier,
-    },
-  });
+  console.log(`📊 Updating user ${userId} with tier: ${tier}, plan: ${planName}, status: ${status}`);
 
-  // Create or update subscription record
-  await prisma.subscription.upsert({
-    where: {
-      userId,
-    },
-    update: {
-      planName,
-      status,
-      billingInterval,
-      stripeSubscriptionId: subscription.id,
-      stripePriceId: priceId,
-      currentPeriodStart: new Date((subscription as any).current_period_start * 1000),
-      currentPeriodEnd: new Date((subscription as any).current_period_end * 1000),
-      cancelAtPeriodEnd: subscription.cancel_at_period_end,
-    },
-    create: {
-      userId,
-      planName,
-      status,
-      billingInterval,
-      stripeSubscriptionId: subscription.id,
-      stripePriceId: priceId,
-      currentPeriodStart: new Date((subscription as any).current_period_start * 1000),
-      currentPeriodEnd: new Date((subscription as any).current_period_end * 1000),
-      cancelAtPeriodEnd: subscription.cancel_at_period_end,
-    },
-  });
+  try {
+    // Update user
+    await prisma.user.update({
+      where: { id: userId },
+      data: {
+        subscriptionTier: tier,
+      },
+    });
+    console.log('✅ User tier updated in database');
+
+    // Create or update subscription record
+    const subscriptionRecord = await prisma.subscription.upsert({
+      where: {
+        userId,
+      },
+      update: {
+        planName,
+        status,
+        billingInterval,
+        stripeSubscriptionId: subscription.id,
+        stripePriceId: priceId,
+        currentPeriodStart: new Date((subscription as any).current_period_start * 1000),
+        currentPeriodEnd: new Date((subscription as any).current_period_end * 1000),
+        cancelAtPeriodEnd: subscription.cancel_at_period_end,
+      },
+      create: {
+        userId,
+        planName,
+        status,
+        billingInterval,
+        stripeSubscriptionId: subscription.id,
+        stripePriceId: priceId,
+        currentPeriodStart: new Date((subscription as any).current_period_start * 1000),
+        currentPeriodEnd: new Date((subscription as any).current_period_end * 1000),
+        cancelAtPeriodEnd: subscription.cancel_at_period_end,
+      },
+    });
+    console.log(`✅ Subscription record upserted in database with ID: ${subscriptionRecord.id}`);
+  } catch (error) {
+    console.error('❌ Error updating database:', error);
+    throw error;
+  }
 }

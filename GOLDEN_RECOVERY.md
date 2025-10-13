@@ -1,12 +1,14 @@
-# GOLDEN BACKUP v1.0.3 - DISASTER RECOVERY GUIDE
+# GOLDEN BACKUP v1.0.4 - DISASTER RECOVERY GUIDE
 
 ## 🔒 CRITICAL INFORMATION - ENGRAVE THIS INTO MEMORY
 
-**Golden Backup Location:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.3/`
+**Golden Backup Location:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.4/`
 
-**Git Tag:** `v1.0.3-GOLDEN`
+**Git Commit:** `d7dc9efe8fa861c9dec7decac2410bef896d2386`
 
-**Date Created:** October 12, 2025
+**Git Tag:** `v1.0.4-GOLDEN`
+
+**Date Created:** October 13, 2025
 
 **This is a STABLE, FULLY FUNCTIONAL version** with:
 - ✅ All CSS and JavaScript working correctly
@@ -18,24 +20,29 @@
 - ✅ Deployment script and documentation in place
 - ✅ All worksheet generators working
 - ✅ Content manager v2 fully operational
+- ✅ Admin user control with refund functionality (Credit Notes API)
+- ✅ Account reactivation for suspended users
+- ✅ Apps tier-based access control properly working
+- ✅ Auth context properly merging subscription data
 
 ---
 
 ## 📦 Backup Contents
 
-### 1. Git Tag: `v1.0.3-GOLDEN`
+### 1. Git Tag: `v1.0.4-GOLDEN`
 - **Purpose:** Marks the exact code state in git history
+- **Commit Hash:** `d7dc9efe8fa861c9dec7decac2410bef896d2386`
 - **Location:** Local git repository at `/opt/lessoncraftstudio/.git`
-- **Verification:** `cd /opt/lessoncraftstudio && git tag | grep v1.0.3-GOLDEN`
+- **Verification:** `cd /opt/lessoncraftstudio && git tag | grep v1.0.4-GOLDEN`
 
 ### 2. Database Backup
-- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.3/database_GOLDEN_2025-10-12.backup`
+- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.4/database_GOLDEN_2025-10-13.backup`
 - **Format:** PostgreSQL custom format (compressed, complete)
 - **Database:** `lessoncraftstudio_prod`
-- **Includes:** All tables, blog posts, sequences, constraints, indexes
+- **Includes:** All tables, users, subscriptions, payments, blog posts, sequences, constraints, indexes
 
 ### 3. Public Files Backup
-- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.3/public_files_GOLDEN_2025-10-12.tar.gz`
+- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.4/public_files_GOLDEN_2025-10-13.tar.gz`
 - **Contents:**
   - `public/uploads/` - User uploaded files
   - `public/worksheet-samples/` - Worksheet sample PDFs
@@ -56,6 +63,9 @@ Use the golden backup when:
 4. Need to rollback to a known-good state
 5. Deployment goes wrong and website is broken
 6. Blog system stops working
+7. Payment/refund system breaks
+8. User authentication issues occur
+9. Apps access control fails
 
 **DO NOT** use this backup for minor issues - try fixing first!
 
@@ -92,11 +102,14 @@ cd /opt/lessoncraftstudio
 git branch backup-before-recovery-$(date +%Y%m%d-%H%M%S)
 
 # Checkout the golden tag
-git checkout v1.0.3-GOLDEN
+git checkout v1.0.4-GOLDEN
 
 # Verify we're on the right version
 git describe --tags
-# Should output: v1.0.3-GOLDEN
+# Should output: v1.0.4-GOLDEN
+
+# If tag doesn't exist, checkout by commit hash
+git checkout d7dc9efe8fa861c9dec7decac2410bef896d2386
 ```
 
 ### Step 4: Restore Database (if needed)
@@ -109,11 +122,13 @@ PGPASSWORD=LcS2025SecureDBPass dropdb -U lcs_user lessoncraftstudio_prod
 PGPASSWORD=LcS2025SecureDBPass createdb -U lcs_user lessoncraftstudio_prod
 
 # 2. Restore from backup
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.3/database_GOLDEN_2025-10-12.backup
+PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.4/database_GOLDEN_2025-10-13.backup
 
 # 3. Verify restoration
 PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM image_library_items;"
 PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM blog_posts;"
+PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM payments;"
+PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM subscriptions;"
 ```
 
 ### Step 5: Restore Public Files (if needed)
@@ -127,7 +142,7 @@ cd /opt/lessoncraftstudio/frontend
 mv public public.backup-$(date +%Y%m%d-%H%M%S)
 
 # 2. Extract golden backup
-tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.3/public_files_GOLDEN_2025-10-12.tar.gz
+tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.4/public_files_GOLDEN_2025-10-13.tar.gz
 
 # 3. Verify extraction
 ls -lh public/images/
@@ -170,6 +185,9 @@ PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SE
 
 # 6. Check blog categories API
 curl -s http://localhost:3000/api/blog/categories?locale=en | head -100
+
+# 7. Check payments and subscriptions
+PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT status, COUNT(*) FROM payments GROUP BY status;"
 ```
 
 ### Step 8: Verify Website Functionality
@@ -186,6 +204,10 @@ Open the website and test:
 9. ✅ Can create/edit blog posts
 10. ✅ SEO metadata appears on blog posts
 11. ✅ Translations display correctly
+12. ✅ Admin user control panel works
+13. ✅ Payment refund functionality works
+14. ✅ Account reactivation works for suspended users
+15. ✅ Apps page respects tier-based access control
 
 ---
 
@@ -199,17 +221,17 @@ pm2 stop lessoncraftstudio
 
 # Restore code
 cd /opt/lessoncraftstudio
-git checkout v1.0.3-GOLDEN
+git checkout v1.0.4-GOLDEN
 
 # Restore database
 PGPASSWORD=LcS2025SecureDBPass dropdb -U lcs_user lessoncraftstudio_prod
 PGPASSWORD=LcS2025SecureDBPass createdb -U lcs_user lessoncraftstudio_prod
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.3/database_GOLDEN_2025-10-12.backup
+PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.4/database_GOLDEN_2025-10-13.backup
 
 # Restore files
 cd /opt/lessoncraftstudio/frontend
 mv public public.backup-$(date +%Y%m%d-%H%M%S)
-tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.3/public_files_GOLDEN_2025-10-12.tar.gz
+tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.4/public_files_GOLDEN_2025-10-13.tar.gz
 
 # Rebuild and restart
 cd /opt/lessoncraftstudio
@@ -221,7 +243,7 @@ bash deploy.sh
 ```bash
 cd /opt/lessoncraftstudio
 pm2 stop lessoncraftstudio
-git checkout v1.0.3-GOLDEN
+git checkout v1.0.4-GOLDEN
 bash deploy.sh
 ```
 
@@ -230,7 +252,7 @@ bash deploy.sh
 ```bash
 PGPASSWORD=LcS2025SecureDBPass dropdb -U lcs_user lessoncraftstudio_prod
 PGPASSWORD=LcS2025SecureDBPass createdb -U lcs_user lessoncraftstudio_prod
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.3/database_GOLDEN_2025-10-12.backup
+PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.4/database_GOLDEN_2025-10-13.backup
 pm2 restart lessoncraftstudio
 ```
 
@@ -239,7 +261,7 @@ pm2 restart lessoncraftstudio
 ```bash
 cd /opt/lessoncraftstudio/frontend
 mv public public.backup-$(date +%Y%m%d-%H%M%S)
-tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.3/public_files_GOLDEN_2025-10-12.tar.gz
+tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.4/public_files_GOLDEN_2025-10-13.tar.gz
 cd /opt/lessoncraftstudio
 bash deploy.sh
 ```
@@ -265,6 +287,11 @@ After recovery, verify:
 - [ ] SEO metadata appears on blog posts (meta tags, Open Graph, Schema.org)
 - [ ] Translations work correctly
 - [ ] Worksheet generators load
+- [ ] Admin user control panel accessible
+- [ ] Payment refund functionality works (including Credit Notes)
+- [ ] Account reactivation button appears for suspended users
+- [ ] Apps page shows correct tier-based access
+- [ ] User subscription tier displayed correctly after admin upgrade
 - [ ] Database queries work: `PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM image_library_items;"`
 
 ---
@@ -273,16 +300,21 @@ After recovery, verify:
 
 **Primary Backup Directory:**
 ```
-/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.3/
+/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.4/
 ```
 
 **Backup Files:**
-1. `database_GOLDEN_2025-10-12.backup` (PostgreSQL dump with blog posts)
-2. `public_files_GOLDEN_2025-10-12.tar.gz` (Compressed public files including blog data)
+1. `database_GOLDEN_2025-10-13.backup` (PostgreSQL dump with all data)
+2. `public_files_GOLDEN_2025-10-13.tar.gz` (Compressed public files)
 
 **Git Tag:**
 ```bash
-cd /opt/lessoncraftstudio && git show v1.0.3-GOLDEN
+cd /opt/lessoncraftstudio && git show v1.0.4-GOLDEN
+```
+
+**Git Commit:**
+```bash
+cd /opt/lessoncraftstudio && git show d7dc9efe8fa861c9dec7decac2410bef896d2386
 ```
 
 **Recovery Documentation:**
@@ -298,23 +330,26 @@ To prevent accidentally overwriting this backup:
 
 ```bash
 # Make backup directory read-only
-chmod -R 555 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.3/
+chmod -R 555 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.4/
 
 # To restore write access (if needed for deletion):
-# chmod -R 755 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.3/
+# chmod -R 755 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.4/
 ```
 
 ---
 
 ## 💡 IMPORTANT NOTES
 
-1. **Git Tag is Immutable:** The `v1.0.3-GOLDEN` tag will always point to this exact code state
+1. **Git Tag is Immutable:** The `v1.0.4-GOLDEN` tag will always point to this exact code state
 2. **Backup is Complete:** Includes EVERYTHING needed to restore to this exact state
 3. **Database Password:** Always in environment or use `PGPASSWORD=LcS2025SecureDBPass`
 4. **Standalone Mode:** Remember to copy static files after build (handled by deploy.sh)
 5. **Multiple Backups:** Keep this backup, create new ones for future stable versions
 6. **Blog Categories:** The blog-categories.json file is essential for blog page to work
 7. **Authentication:** Blog content manager requires proper authentication with accessToken
+8. **Payment System:** Stripe Credit Notes API is used for refunding invoices without charges
+9. **Subscription Data:** Auth context properly merges subscription data into user object
+10. **Messages Directory:** Must be copied to standalone directory for i18n to work
 
 ---
 
@@ -322,11 +357,11 @@ chmod -R 555 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.3/
 
 When creating new golden backups:
 
-1. Choose a new version number (e.g., v1.0.4-GOLDEN, v1.1.0-GOLDEN)
-2. Create new directory: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.4/`
+1. Choose a new version number (e.g., v1.0.5-GOLDEN, v1.1.0-GOLDEN)
+2. Create new directory: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/`
 3. Follow same backup procedure
 4. Update this document for the new location
-5. **Keep old backups!** Don't delete previous golden backups (v1.0.2, v1.0.3, etc.)
+5. **Keep old backups!** Don't delete previous golden backups (v1.0.3, v1.0.4, etc.)
 
 ---
 
@@ -339,23 +374,51 @@ If recovery fails or you need help:
 3. Check application logs: `cd /opt/lessoncraftstudio/frontend && tail -100 .next/standalone/output.log`
 4. Check database connection: `PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod`
 5. Check blog categories file: `cat /opt/lessoncraftstudio/frontend/.next/standalone/public/data/blog-categories.json`
+6. Check messages directory: `ls -lh /opt/lessoncraftstudio/frontend/.next/standalone/messages/`
 
 ---
 
-## 🆕 CHANGES IN v1.0.3 (from v1.0.2)
+## 🆕 CHANGES IN v1.0.4 (from v1.0.3)
 
 **New Features:**
-- ✅ Blog content manager now has full authentication system (login overlay, device ID, token management)
-- ✅ All hardcoded 'Bearer dev-bypass' tokens removed from blog-content-manager
-- ✅ Blog categories API fixed (blog-categories.json with proper format)
-- ✅ Blog listing page now displays posts correctly
-- ✅ SEO automation verified and working (real-time scoring, previews, Schema.org generation)
+- ✅ **Payment Refund System**: Complete refund functionality in admin user control
+  - Handles payment intents (pi_*), charges (ch_*), and invoices (in_*)
+  - Stripe Credit Notes API for invoices without charges
+  - Support for full and partial refunds
+  - Activity logging and user notifications
+  - Payment history display with refund tracking
+
+- ✅ **Account Reactivation**: Admins can reactivate suspended user accounts
+  - New `/api/admin/user-control/reactivate` endpoint
+  - "Reactivate Account" button in admin UI for suspended users
+  - Activity logging and user notification system
+  - Complementary to existing suspend functionality
+
+- ✅ **Apps Tier-Based Access Control Fix**: Users now properly see their tier on apps page
+  - Auth context properly merges subscription data into user object
+  - Fixed localStorage caching of incomplete user data
+  - All auth functions (login, signup, checkAuth, refreshToken, verifyEmail) updated
+  - Apps page correctly grants access based on actual user tier
+
+**Bug Fixes:**
+- ✅ Fixed auth context not merging subscription data from API responses
+- ✅ Fixed apps page showing "upgrade required" for paid tier users
+- ✅ Fixed localStorage caching stale user tier information
+- ✅ Added proper cleanup of localStorage on logout and errors
+
+**Technical Improvements:**
+- Enhanced webhook handlers to store all payment identifier types
+- Improved payment record structure with separate invoice and charge IDs
+- Better error handling for edge cases in payment processing
+- Comprehensive logging for debugging payment issues
 
 **Previous Golden Backups:**
+- **v1.0.3-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.3/` (October 12, 2025)
 - **v1.0.2-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.2/` (October 12, 2025)
 
 ---
 
-**Last Updated:** October 12, 2025 (Evening)
-**Version:** 1.0.3-GOLDEN
-**Status:** STABLE - PRODUCTION READY - INCLUDES BLOG SYSTEM
+**Last Updated:** October 13, 2025
+**Version:** 1.0.4-GOLDEN
+**Commit:** d7dc9efe8fa861c9dec7decac2410bef896d2386
+**Status:** STABLE - PRODUCTION READY - INCLUDES COMPLETE ADMIN & PAYMENT SYSTEM

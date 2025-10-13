@@ -382,6 +382,7 @@ export default function BillingDashboard() {
       {/* Payment History */}
       {user?.stripeCustomerId && (
         <div className="mt-8">
+          <h2 className="text-xl font-semibold text-gray-900 mb-6">{t('paymentHistory.title')}</h2>
           <PaymentHistory />
         </div>
       )}

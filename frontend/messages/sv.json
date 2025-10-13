@@ -820,6 +820,7 @@
       "welcome": "Vad roligt att se dig igen, {name}!",
       "welcomeFallback": "Välkommen tillbaka!",
       "subtitle": "Dags att skapa något fantastiskt",
+      "billing": "Betalningar",
       "signOut": "Logga ut"
     },
     "stats": {
@@ -1155,6 +1156,9 @@
           "Kommersiell licens inkluderad"
         ]
       }
+    },
+    "paymentHistory": {
+      "title": "Betalningshistorik"
     }
   },
   "support": {

@@ -692,6 +692,40 @@
       "core": "Core",
       "full": "Pro"
     },
+    "tiers": {
+      "free": {
+        "description": "Perfect for trying out our platform",
+        "features": [
+          "Word Search generator only",
+          "Unlimited worksheet generation",
+          "Watermarked downloads",
+          "Community support"
+        ]
+      },
+      "core": {
+        "description": "Most popular apps for professional teachers",
+        "features": [
+          "Access to 10 popular worksheet generators",
+          "Unlimited worksheet generation",
+          "No watermarks",
+          "High-quality PDF downloads",
+          "Premium templates",
+          "Email support"
+        ]
+      },
+      "full": {
+        "description": "Complete toolkit for serious educators",
+        "features": [
+          "Access to all 33+ worksheet generators",
+          "Unlimited worksheet generation",
+          "No watermarks",
+          "High-quality PDF downloads",
+          "All premium templates",
+          "Priority email support",
+          "Commercial license included"
+        ]
+      }
+    },
     "generators": {
       "title": "Worksheet Generators",
       "searchPlaceholder": "Search generators...",
@@ -998,6 +1032,9 @@
           "Commercial license included"
         ]
       }
+    },
+    "paymentHistory": {
+      "title": "Payment History"
     }
   },
   "support": {

@@ -159,15 +159,21 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
       if (response.ok) {
         const data = await response.json();
-        setUser(data.user);
+        // Merge subscription into user object
+        const updatedUser = {
+          ...data.user,
+          subscription: data.subscription
+        };
+        setUser(updatedUser);
         // Update localStorage with fresh data
-        localStorage.setItem('user', JSON.stringify(data.user));
+        localStorage.setItem('user', JSON.stringify(updatedUser));
       } else if (response.status === 401) {
         // Token expired, try to refresh
         await refreshToken();
       } else {
         // Clear invalid token
         localStorage.removeItem('accessToken');
+        localStorage.removeItem('refreshToken');
         localStorage.removeItem('user');
         setAccessToken(null);
         setUser(null);
@@ -205,7 +211,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
           localStorage.setItem('refreshToken', data.refreshToken);
         }
 
-        setUser(data.user);
+        // Merge subscription into user object
+        const userWithSubscription = {
+          ...data.user,
+          subscription: data.subscription
+        };
+        setUser(userWithSubscription);
+        localStorage.setItem('user', JSON.stringify(userWithSubscription));
         toast.success('Welcome back!');
 
         // Redirect based on user role
@@ -240,7 +252,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
               localStorage.setItem('refreshToken', forceData.refreshToken);
             }
 
-            setUser(forceData.user);
+            // Merge subscription into user object
+            const userWithSubscription = {
+              ...forceData.user,
+              subscription: forceData.subscription
+            };
+            setUser(userWithSubscription);
+            localStorage.setItem('user', JSON.stringify(userWithSubscription));
             toast.success('Welcome back!');
 
             // Redirect based on user role
@@ -300,7 +318,13 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         localStorage.setItem('refreshToken', data.refreshToken);
       }
 
-      setUser(data.user);
+      // Merge subscription into user object
+      const userWithSubscription = {
+        ...data.user,
+        subscription: data.subscription
+      };
+      setUser(userWithSubscription);
+      localStorage.setItem('user', JSON.stringify(userWithSubscription));
       toast.success('Account created successfully! Please check your email to verify your account.');
 
       // Redirect to dashboard
@@ -333,6 +357,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       setAccessToken(null);
       localStorage.removeItem('accessToken');
       localStorage.removeItem('refreshToken');
+      localStorage.removeItem('user'); // Clear cached user data
       setLoading(false);
       router.push('/');
       toast.success('Logged out successfully');
@@ -361,18 +386,25 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
       setAccessToken(data.accessToken);
       localStorage.setItem('accessToken', data.accessToken);
-      
+
       if (data.refreshToken) {
         localStorage.setItem('refreshToken', data.refreshToken);
       }
 
-      setUser(data.user);
+      // Merge subscription into user object
+      const userWithSubscription = {
+        ...data.user,
+        subscription: data.subscription
+      };
+      setUser(userWithSubscription);
+      localStorage.setItem('user', JSON.stringify(userWithSubscription));
     } catch (err) {
       // Clear tokens on refresh failure
       setUser(null);
       setAccessToken(null);
       localStorage.removeItem('accessToken');
       localStorage.removeItem('refreshToken');
+      localStorage.removeItem('user');
       throw err;
     }
   };
@@ -485,12 +517,18 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
       setAccessToken(data.accessToken);
       localStorage.setItem('accessToken', data.accessToken);
-      
+
       if (data.refreshToken) {
         localStorage.setItem('refreshToken', data.refreshToken);
       }
 
-      setUser(data.user);
+      // Merge subscription into user object
+      const userWithSubscription = {
+        ...data.user,
+        subscription: data.subscription
+      };
+      setUser(userWithSubscription);
+      localStorage.setItem('user', JSON.stringify(userWithSubscription));
       toast.success('Email verified successfully! Welcome to LessonCraftStudio.');
       router.push('/dashboard');
     } catch (err) {

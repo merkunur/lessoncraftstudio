@@ -1097,6 +1097,28 @@
       "title": "Funktioner i ditt paket",
       "upgradePrompt": "Uppgradera för att få tillgång till fler funktioner"
     },
+    "upgradeModal": {
+      "title": "Byt paket",
+      "currentPlan": "Nuvarande paket",
+      "selectTier": "Välj paket",
+      "billingInterval": "Faktureringsintervall",
+      "monthly": "Månadsvis",
+      "yearly": "Årsvis",
+      "payMonthly": "Betala månadsvis",
+      "savePercent": "Spara 17%",
+      "perMonth": "/månad",
+      "calculating": "Beräknar...",
+      "upgradePreview": "Uppgraderingsöversikt",
+      "changePreview": "Ändringsöversikt",
+      "subtotal": "Delsumma:",
+      "tax": "Moms:",
+      "dueToday": "Att betala idag:",
+      "creditApplied": "Krediten tillämpas:",
+      "cancel": "Avbryt",
+      "processing": "Behandlar...",
+      "confirmChange": "Bekräfta ändring",
+      "selectDifferentPlan": "Välj ett annat paket"
+    },
     "tiers": {
       "FREE": {
         "name": "Gratis",

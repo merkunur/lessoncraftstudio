@@ -66,7 +66,12 @@ export default function UserDetailPage() {
   const fetchUserProfile = async () => {
     setLoading(true);
     try {
-      const response = await fetch(`/api/admin/user-control/${userId}`);
+      const token = localStorage.getItem('accessToken');
+      const response = await fetch(`/api/admin/user-control/${userId}`, {
+        headers: token ? {
+          'Authorization': `Bearer ${token}`,
+        } : {},
+      });
       if (!response.ok) throw new Error('Failed to fetch user profile');
 
       const data = await response.json();
@@ -106,9 +111,13 @@ export default function UserDetailPage() {
           return;
       }
 
+      const token = localStorage.getItem('accessToken');
       const response = await fetch(endpoint, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          ...(token ? { 'Authorization': `Bearer ${token}` } : {}),
+        },
         body: JSON.stringify(body),
       });
 
@@ -130,9 +139,13 @@ export default function UserDetailPage() {
     const reason = prompt('Enter refund reason (optional):');
 
     try {
+      const token = localStorage.getItem('accessToken');
       const response = await fetch('/api/admin/user-control/refund', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          ...(token ? { 'Authorization': `Bearer ${token}` } : {}),
+        },
         body: JSON.stringify({ paymentId, reason }),
       });
 

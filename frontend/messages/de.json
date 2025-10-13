@@ -1218,6 +1218,16 @@
           "Kommerzielle Lizenz inklusive"
         ]
       }
+    },
+    "paymentHistory": {
+      "title": "Zahlungsverlauf",
+      "noPayments": "Noch keine Zahlungen vorhanden",
+      "noPaymentsSubtext": "Deine Zahlungen erscheinen hier, sobald du ein Abo abschließt",
+      "viewAll": "Alle Zahlungen anzeigen →",
+      "downloadInvoice": "Rechnung herunterladen",
+      "succeeded": "erfolgreich",
+      "failed": "fehlgeschlagen",
+      "pending": "ausstehend"
     }
   },
   "support": {

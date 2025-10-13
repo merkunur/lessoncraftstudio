@@ -1169,6 +1169,16 @@
           "Licence commerciale incluse"
         ]
       }
+    },
+    "paymentHistory": {
+      "title": "Historique de paiement",
+      "noPayments": "Aucun paiement enregistré",
+      "noPaymentsSubtext": "Vos paiements s'afficheront ici dès votre premier abonnement",
+      "viewAll": "Voir tous les paiements →",
+      "downloadInvoice": "Télécharger la facture",
+      "succeeded": "effectué",
+      "failed": "échoué",
+      "pending": "en attente"
     }
   },
   "support": {

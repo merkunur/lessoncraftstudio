@@ -42,16 +42,19 @@ export default function BillingDashboard() {
   const [portalLoading, setPortalLoading] = useState(false);
   const [showUpgradeModal, setShowUpgradeModal] = useState(false);
 
+  // Get current locale from URL
+  const locale = typeof window !== 'undefined' ? window.location.pathname.split('/')[1] || 'en' : 'en';
+
   useEffect(() => {
     // Check for success/cancel params
     if (searchParams.get('success') === 'true') {
       toast.success('Payment successful! Your subscription is now active.');
       checkAuth();
       // Remove query params
-      router.replace('/en/dashboard/billing');
+      router.replace(`/${locale}/dashboard/billing`);
     } else if (searchParams.get('cancelled') === 'true') {
       toast.error('Payment cancelled. You can try again anytime.');
-      router.replace('/en/dashboard/billing');
+      router.replace(`/${locale}/dashboard/billing`);
     }
 
     // Refresh user context and fetch subscription details
@@ -150,7 +153,7 @@ export default function BillingDashboard() {
   const handleUpgradeClick = () => {
     if (currentTier === 'FREE') {
       // Free users go to pricing page
-      router.push('/en/pricing');
+      router.push(`/${locale}/pricing`);
     } else {
       // Paid users see upgrade modal
       setShowUpgradeModal(true);

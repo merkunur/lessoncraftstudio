@@ -67,13 +67,7 @@ export default function PricingCards({
   };
 
   const handlePlanClick = async (plan: Plan, e: React.MouseEvent) => {
-    console.log('[PricingCards] ===== Button clicked =====');
-    console.log('[PricingCards] Plan:', plan.variant);
-    console.log('[PricingCards] isAuthenticated:', isAuthenticated);
-    console.log('[PricingCards] User:', user ? { id: user.id, email: user.email, tier: user.subscriptionTier } : null);
-
-    // DEBUG: Show alert to confirm handler is executing
-    alert(`Subscribe clicked! Plan: ${plan.variant}, Authenticated: ${isAuthenticated}`);
+    console.log('[PricingCards] Button clicked - Plan:', plan.variant, 'Authenticated:', isAuthenticated);
 
     // If not authenticated, redirect to signin with plan and billing interval parameters
     // This allows automatic checkout creation after signin without requiring user to click Subscribe again

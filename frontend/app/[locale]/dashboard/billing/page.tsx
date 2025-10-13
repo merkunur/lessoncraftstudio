@@ -157,16 +157,11 @@ export default function BillingDashboard() {
   };
 
   const handleUpgradeClick = () => {
-    console.log('🔵 Change plan button clicked');
-    console.log('Current tier:', currentTier);
-
     if (currentTier === 'FREE') {
       // Free users go to pricing page
-      console.log('➡️ Redirecting to pricing page...');
       router.push(`/${locale}/pricing`);
     } else {
       // Paid users see upgrade modal
-      console.log('🎯 Opening upgrade modal...');
       setShowUpgradeModal(true);
     }
   };

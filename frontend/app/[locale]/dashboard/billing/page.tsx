@@ -112,14 +112,16 @@ export default function BillingDashboard() {
 
   const handleCancelSubscription = async () => {
     try {
+      const token = localStorage.getItem('accessToken');
       const response = await fetch('/api/stripe/subscription', {
         method: 'DELETE',
+        headers: token ? {
+          'Authorization': `Bearer ${token}`,
+        } : {},
       });
 
       if (!response.ok) {
         const errorData = await response.json();
-        // Show error details in alert for debugging
-        alert(`API Error:\nStatus: ${response.status}\nError: ${JSON.stringify(errorData, null, 2)}\n\nSubscription status: ${subscription?.status}\nUser has stripeCustomerId: ${!!user?.stripeCustomerId}`);
         throw new Error(t('messages.cancelFailed'));
       }
 
@@ -322,14 +324,7 @@ export default function BillingDashboard() {
               {/* Only show cancel button for real Stripe subscriptions, not manual ones */}
               {subscription && !subscription.cancelAtPeriodEnd && subscription.status !== 'manual' && (
                 <button
-                  onClick={() => {
-                    console.log('🟢 Cancel button clicked!');
-                    console.log('🟢 showCancelModal before:', showCancelModal);
-                    console.log('🟢 subscription:', subscription);
-                    alert('Cancel button clicked! Check console for details.');
-                    setShowCancelModal(true);
-                    console.log('🟢 showCancelModal after:', true);
-                  }}
+                  onClick={() => setShowCancelModal(true)}
                   className="px-4 py-2 border border-red-600 text-red-600 rounded-lg hover:bg-red-50 transition-colors"
                 >
                   {t('actions.cancelSubscription')}

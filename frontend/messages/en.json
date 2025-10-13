@@ -713,49 +713,6 @@
       "loading": "Loading...",
       "cancelWarning": "⚠️ Your subscription will end on {date}"
     },
-    "billing": {
-      "pageTitle": "Billing & Subscription",
-      "currentPlanTitle": "Current Plan: {plan}",
-      "planCard": {
-        "title": "Plan",
-        "perMonth": "/month"
-      },
-      "billingPeriodCard": {
-        "title": "Billing Period",
-        "noActiveSubscription": "No active subscription",
-        "cancelsOn": "Cancels on",
-        "renewsOn": "Renews on"
-      },
-      "statusCard": {
-        "title": "Status",
-        "active": "Active",
-        "inactive": "Inactive",
-        "ends": "Ends",
-        "renews": "Renews",
-        "noSubscription": "No active subscription"
-      },
-      "actions": {
-        "upgradePlan": "Upgrade Plan",
-        "reactivateSubscription": "Reactivate Subscription",
-        "changePlan": "Change Plan",
-        "cancelSubscription": "Cancel Subscription",
-        "stripePortal": "Stripe Portal"
-      },
-      "messages": {
-        "cancelWarning": "Your subscription is scheduled to cancel on {date}. You'll retain access to all features until then.",
-        "paymentSuccess": "Payment successful! Your subscription is now active.",
-        "paymentCancelled": "Payment cancelled. You can try again anytime.",
-        "cancelConfirm": "Are you sure you want to cancel your subscription? You will retain access until the end of your billing period.",
-        "reactivateSuccess": "Subscription reactivated successfully!",
-        "portalAccessFailed": "Failed to access billing portal",
-        "cancelFailed": "Failed to cancel subscription",
-        "reactivateFailed": "Failed to reactivate subscription"
-      },
-      "features": {
-        "title": "Your Plan Features",
-        "upgradePrompt": "Upgrade to unlock more features:"
-      }
-    },
     "activity": {
       "title": "Your Activity",
       "worksheetsCreated": "Worksheets Created",
@@ -938,6 +895,49 @@
         "name": "Missing Pieces",
         "description": "Find the missing pieces"
       }
+    }
+  },
+  "billing": {
+    "pageTitle": "Billing & Subscription",
+    "currentPlanTitle": "Current Plan: {plan}",
+    "planCard": {
+      "title": "Plan",
+      "perMonth": "/month"
+    },
+    "billingPeriodCard": {
+      "title": "Billing Period",
+      "noActiveSubscription": "No active subscription",
+      "cancelsOn": "Cancels on",
+      "renewsOn": "Renews on"
+    },
+    "statusCard": {
+      "title": "Status",
+      "active": "Active",
+      "inactive": "Inactive",
+      "ends": "Ends",
+      "renews": "Renews",
+      "noSubscription": "No active subscription"
+    },
+    "actions": {
+      "upgradePlan": "Upgrade Plan",
+      "reactivateSubscription": "Reactivate Subscription",
+      "changePlan": "Change Plan",
+      "cancelSubscription": "Cancel Subscription",
+      "stripePortal": "Stripe Portal"
+    },
+    "messages": {
+      "cancelWarning": "Your subscription is scheduled to cancel on {date}. You'll retain access to all features until then.",
+      "paymentSuccess": "Payment successful! Your subscription is now active.",
+      "paymentCancelled": "Payment cancelled. You can try again anytime.",
+      "cancelConfirm": "Are you sure you want to cancel your subscription? You will retain access until the end of your billing period.",
+      "reactivateSuccess": "Subscription reactivated successfully!",
+      "portalAccessFailed": "Failed to access billing portal",
+      "cancelFailed": "Failed to cancel subscription",
+      "reactivateFailed": "Failed to reactivate subscription"
+    },
+    "features": {
+      "title": "Your Plan Features",
+      "upgradePrompt": "Upgrade to unlock more features:"
     }
   },
   "support": {

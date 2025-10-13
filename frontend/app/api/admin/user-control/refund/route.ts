@@ -120,26 +120,84 @@ export const POST = withAdmin(async (request: NextRequest, user) => {
           );
         }
 
-        // Check if invoice was paid via account balance/credits
-        if ((invoice as any).collection_method === 'charge_automatically' && !invoiceCharge && !invoicePaymentIntent) {
+        // Invoice has no charge - use Credit Note API instead
+        console.log(`💳 Invoice has no charge. Creating credit note for refund...`);
+
+        try {
+          // Create a credit note for the invoice (this is how you "refund" an invoice without a charge)
+          const creditNote = await stripe.creditNotes.create({
+            invoice: invoice.id,
+            amount: refundAmount,
+            reason: 'duplicate', // Stripe allows: 'duplicate', 'fraudulent', 'order_change', 'product_unsatisfactory'
+            metadata: {
+              refundedBy: user.email,
+              refundedById: user.id,
+              adminReason: reason || 'Admin refund',
+              originalPaymentId: payment.id,
+            },
+          });
+
+          console.log(`✅ Credit note created: ${creditNote.id}`);
+
+          // Update payment record
+          await prisma.payment.update({
+            where: { id: paymentId },
+            data: {
+              status: refundAmount === Math.round(payment.amount * 100) ? 'refunded' : 'partially_refunded',
+              refundedAmount: (payment.refundedAmount || 0) + (refundAmount / 100),
+            },
+          });
+
+          // Log activity
+          await prisma.activityLog.create({
+            data: {
+              userId: payment.userId,
+              action: 'payment_refunded',
+              details: `Payment refunded via credit note by ${user.email}: ${reason || 'No reason provided'}`,
+              metadata: {
+                paymentId: payment.id,
+                creditNoteId: creditNote.id,
+                amount: refundAmount / 100,
+                refundedBy: user.email,
+                refundedById: user.id,
+                reason,
+              },
+            },
+          });
+
+          // Create notification for user
+          await prisma.notification.create({
+            data: {
+              userId: payment.userId,
+              type: 'payment_refunded',
+              title: 'Payment Refunded',
+              message: `A refund of $${(refundAmount / 100).toFixed(2)} has been processed via credit note.`,
+              priority: 'high',
+            },
+          });
+
+          return NextResponse.json({
+            success: true,
+            message: `Refund of $${(refundAmount / 100).toFixed(2)} processed successfully for ${payment.user.email} via credit note`,
+            refund: {
+              id: creditNote.id,
+              amount: refundAmount / 100,
+              status: creditNote.status,
+              type: 'credit_note',
+            },
+          });
+
+        } catch (creditNoteError: any) {
+          console.error('❌ Error creating credit note:', creditNoteError.message);
+
           return NextResponse.json(
-            { error: 'This invoice was paid using account credits or has no charge record. Manual refund required via Stripe dashboard.' },
+            {
+              error: `Failed to create credit note: ${creditNoteError.message}`,
+              suggestion: 'This invoice may need to be refunded manually via the Stripe dashboard.'
+            },
             { status: 400 }
           );
         }
-
-        return NextResponse.json(
-          {
-            error: 'Invoice does not have an associated payment intent or charge. Cannot process refund automatically.',
-            debug: {
-              invoiceId: invoice.id,
-              status: invoice.status,
-              amountPaid: invoice.amount_paid,
-              collectionMethod: (invoice as any).collection_method,
-            }
-          },
-          { status: 400 }
-        );
       }
     } else if (payment.stripePaymentIntentId.startsWith('pi_')) {
       // This is a payment intent ID

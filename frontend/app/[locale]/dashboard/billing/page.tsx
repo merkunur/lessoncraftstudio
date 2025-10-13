@@ -333,7 +333,14 @@ export default function BillingDashboard() {
               {/* Only show cancel button for real Stripe subscriptions, not manual ones */}
               {subscription && !subscription.cancelAtPeriodEnd && subscription.status !== 'manual' && (
                 <button
-                  onClick={() => setShowCancelModal(true)}
+                  onClick={() => {
+                    console.log('🟢 Cancel button clicked!');
+                    console.log('🟢 showCancelModal before:', showCancelModal);
+                    console.log('🟢 subscription:', subscription);
+                    alert('Cancel button clicked! Check console for details.');
+                    setShowCancelModal(true);
+                    console.log('🟢 showCancelModal after:', true);
+                  }}
                   className="px-4 py-2 border border-red-600 text-red-600 rounded-lg hover:bg-red-50 transition-colors"
                 >
                   {t('actions.cancelSubscription')}

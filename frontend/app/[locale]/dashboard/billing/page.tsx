@@ -221,9 +221,9 @@ export default function BillingDashboard() {
         <div className="flex items-center justify-between mb-6">
           <div>
             <h2 className="text-xl font-semibold text-gray-900 mb-2">
-              {t('currentPlanTitle', { plan: tierInfo.name })}
+              {t('currentPlanTitle', { plan: t(`tiers.${currentTier}.name`) })}
             </h2>
-            <p className="text-gray-600">{tierInfo.description}</p>
+            <p className="text-gray-600">{t(`tiers.${currentTier}.description`)}</p>
           </div>
           {subscription && getStatusBadge(subscription.status)}
         </div>
@@ -234,7 +234,7 @@ export default function BillingDashboard() {
               <Package className="h-5 w-5 mr-2" />
               <span className="text-sm font-medium">{t('planCard.title')}</span>
             </div>
-            <p className="text-2xl font-bold text-gray-900">{tierInfo.name}</p>
+            <p className="text-2xl font-bold text-gray-900">{t(`tiers.${currentTier}.name`)}</p>
             <p className="text-sm text-gray-600">
               ${tierInfo.price}{tierInfo.price > 0 ? t('planCard.perMonth') : ''}
             </p>

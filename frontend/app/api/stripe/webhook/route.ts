@@ -363,19 +363,52 @@ async function updateUserSubscription(userId: string, subscription: Stripe.Subsc
 
   console.log(`📊 Updating user ${userId} with tier: ${tier}, plan: ${planName}, status: ${status}`);
 
-  // Get period dates - Stripe Subscription has these as required number properties (Unix timestamps)
-  // Access via type assertion to handle TypeScript types
+  // Get period dates from the subscription
   const subAny = subscription as any;
 
-  // Validate that we have actual timestamps (not undefined, null, or 0)
-  if (!subAny.current_period_start || !subAny.current_period_end) {
-    console.error(`❌ Missing period dates in subscription! current_period_start: ${subAny.current_period_start}, current_period_end: ${subAny.current_period_end}`);
-    console.error(`❌ Subscription status: ${subscription.status}, ID: ${subscription.id}`);
-    throw new Error('Subscription is missing required period dates');
-  }
+  // Stripe API returns period dates in different properties depending on the version
+  // Try multiple sources to find the period dates
+  let currentPeriodStart: Date;
+  let currentPeriodEnd: Date;
 
-  const currentPeriodStart = new Date(subAny.current_period_start * 1000);
-  const currentPeriodEnd = new Date(subAny.current_period_end * 1000);
+  // Try to get from standard properties first
+  if (subAny.current_period_start && subAny.current_period_end) {
+    currentPeriodStart = new Date(subAny.current_period_start * 1000);
+    currentPeriodEnd = new Date(subAny.current_period_end * 1000);
+    console.log(`✅ Using current_period_start and current_period_end from subscription`);
+  } else if (subAny.billing_cycle_anchor) {
+    // Fallback: Use billing_cycle_anchor and calculate end date based on interval
+    console.log(`⚠️ Using billing_cycle_anchor fallback (current_period_start/end not available)`);
+    currentPeriodStart = new Date(subAny.billing_cycle_anchor * 1000);
+
+    // Calculate end date based on billing interval
+    currentPeriodEnd = new Date(currentPeriodStart);
+    if (billingInterval === 'yearly') {
+      currentPeriodEnd.setFullYear(currentPeriodEnd.getFullYear() + 1);
+    } else {
+      // monthly or null defaults to monthly
+      currentPeriodEnd.setMonth(currentPeriodEnd.getMonth() + 1);
+    }
+    console.log(`📅 Calculated period end from billing_cycle_anchor + interval`);
+  } else if (subAny.start_date) {
+    // Last fallback: Use start_date
+    console.log(`⚠️ Using start_date fallback (no billing_cycle_anchor available)`);
+    currentPeriodStart = new Date(subAny.start_date * 1000);
+
+    // Calculate end date based on billing interval
+    currentPeriodEnd = new Date(currentPeriodStart);
+    if (billingInterval === 'yearly') {
+      currentPeriodEnd.setFullYear(currentPeriodEnd.getFullYear() + 1);
+    } else {
+      currentPeriodEnd.setMonth(currentPeriodEnd.getMonth() + 1);
+    }
+    console.log(`📅 Calculated period end from start_date + interval`);
+  } else {
+    console.error(`❌ No valid date properties found in subscription!`);
+    console.error(`❌ Available properties: ${Object.keys(subscription).join(', ')}`);
+    console.error(`❌ Subscription status: ${subscription.status}, ID: ${subscription.id}`);
+    throw new Error('Subscription is missing all date properties (current_period_start, billing_cycle_anchor, start_date)');
+  }
 
   console.log(`📅 Period: ${currentPeriodStart.toISOString()} to ${currentPeriodEnd.toISOString()}`);
 

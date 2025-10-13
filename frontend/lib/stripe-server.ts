@@ -129,37 +129,33 @@ export async function getSubscriptionStatus(
     billingInterval = priceId === process.env.STRIPE_PRICE_FULL_YEARLY ? 'yearly' : 'monthly';
   }
 
-  // Get period end date using same fallback logic as webhook
+  // Get period end date with fallback logic (same as webhook handler)
   let currentPeriodEnd: Date;
 
   if (subscription.current_period_end) {
     currentPeriodEnd = new Date(subscription.current_period_end * 1000);
   } else if (subscription.billing_cycle_anchor) {
-    // Fallback: Calculate end date from billing_cycle_anchor
-    const start = new Date(subscription.billing_cycle_anchor * 1000);
-    currentPeriodEnd = new Date(start);
+    // Fallback: Calculate from billing_cycle_anchor
+    const anchorDate = new Date(subscription.billing_cycle_anchor * 1000);
+    currentPeriodEnd = new Date(anchorDate);
     if (billingInterval === 'yearly') {
       currentPeriodEnd.setFullYear(currentPeriodEnd.getFullYear() + 1);
     } else {
       currentPeriodEnd.setMonth(currentPeriodEnd.getMonth() + 1);
     }
   } else if (subscription.start_date) {
-    // Last fallback: Use start_date
-    const start = new Date(subscription.start_date * 1000);
-    currentPeriodEnd = new Date(start);
+    // Last fallback: Calculate from start_date
+    const startDate = new Date(subscription.start_date * 1000);
+    currentPeriodEnd = new Date(startDate);
     if (billingInterval === 'yearly') {
       currentPeriodEnd.setFullYear(currentPeriodEnd.getFullYear() + 1);
     } else {
       currentPeriodEnd.setMonth(currentPeriodEnd.getMonth() + 1);
     }
   } else {
-    // If all else fails, use current date + interval (should never happen)
+    // Ultimate fallback if no dates available
     currentPeriodEnd = new Date();
-    if (billingInterval === 'yearly') {
-      currentPeriodEnd.setFullYear(currentPeriodEnd.getFullYear() + 1);
-    } else {
-      currentPeriodEnd.setMonth(currentPeriodEnd.getMonth() + 1);
-    }
+    currentPeriodEnd.setMonth(currentPeriodEnd.getMonth() + 1);
   }
 
   return {

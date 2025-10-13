@@ -91,9 +91,13 @@ export default function BillingDashboard() {
   const handlePortalAccess = async () => {
     setPortalLoading(true);
     try {
+      const token = localStorage.getItem('accessToken');
       const response = await fetch('/api/stripe/portal', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          ...(token ? { 'Authorization': `Bearer ${token}` } : {}),
+        },
       });
 
       if (!response.ok) {
@@ -137,9 +141,13 @@ export default function BillingDashboard() {
 
   const handleReactivate = async () => {
     try {
+      const token = localStorage.getItem('accessToken');
       const response = await fetch('/api/stripe/subscription', {
         method: 'PATCH',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          ...(token ? { 'Authorization': `Bearer ${token}` } : {}),
+        },
         body: JSON.stringify({ action: 'reactivate' }),
       });
 

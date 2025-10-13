@@ -111,34 +111,23 @@ export default function BillingDashboard() {
   };
 
   const handleCancelSubscription = async () => {
-    console.log('🔴 handleCancelSubscription: Starting cancellation process');
-    console.log('🔴 Current subscription data:', JSON.stringify(subscription, null, 2));
-    console.log('🔴 Current user stripeCustomerId:', user?.stripeCustomerId);
-
     try {
-      console.log('🔴 Making DELETE request to /api/stripe/subscription...');
       const response = await fetch('/api/stripe/subscription', {
         method: 'DELETE',
       });
 
-      console.log('📡 Response received - Status:', response.status);
-      console.log('📡 Response ok?:', response.ok);
-
       if (!response.ok) {
         const errorData = await response.json();
-        console.error('❌ Cancel failed - Error response:', errorData);
+        // Show error details in alert for debugging
+        alert(`API Error:\nStatus: ${response.status}\nError: ${JSON.stringify(errorData, null, 2)}\n\nSubscription status: ${subscription?.status}\nUser has stripeCustomerId: ${!!user?.stripeCustomerId}`);
         throw new Error(t('messages.cancelFailed'));
       }
 
       const data = await response.json();
-      console.log('✅ Subscription cancelled successfully:', data);
       toast.success(data.message);
       fetchSubscriptionDetails();
       checkAuth();
     } catch (error) {
-      console.error('❌ Cancel error - Full error object:', error);
-      console.error('❌ Cancel error - Error message:', (error as Error).message);
-      console.error('❌ Cancel error - Error stack:', (error as Error).stack);
       toast.error(t('messages.cancelFailed'));
       throw error; // Re-throw to let modal handle error state
     }

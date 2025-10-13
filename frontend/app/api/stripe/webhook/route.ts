@@ -276,7 +276,7 @@ async function handleInvoicePaid(invoice: Stripe.Invoice) {
     sendPaymentReceiptEmail({
       email: user.email,
       firstName: user.firstName || '',
-      invoiceNumber: invoice.number ?? invoice.id,
+      invoiceNumber: invoice.number || invoice.id || `INV-${Date.now()}`,
       amount: invoice.amount_paid / 100,
       currency: invoice.currency,
       date: new Date().toLocaleDateString(),

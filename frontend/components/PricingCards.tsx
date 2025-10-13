@@ -49,6 +49,9 @@ export default function PricingCards({
   const router = useRouter();
   const { user, isAuthenticated } = useAuth();
 
+  // Debug: Log when component mounts
+  console.log('[PricingCards] Component mounted. isAuthenticated:', isAuthenticated, 'user:', user?.email || 'none');
+
   const getDisplayPrice = (plan: Plan) => {
     if (isYearly && plan.yearlyPrice) {
       return plan.yearlyPrice;
@@ -68,6 +71,9 @@ export default function PricingCards({
     console.log('[PricingCards] Plan:', plan.variant);
     console.log('[PricingCards] isAuthenticated:', isAuthenticated);
     console.log('[PricingCards] User:', user ? { id: user.id, email: user.email, tier: user.subscriptionTier } : null);
+
+    // DEBUG: Show alert to confirm handler is executing
+    alert(`Subscribe clicked! Plan: ${plan.variant}, Authenticated: ${isAuthenticated}`);
 
     // Free plan always goes to signup
     if (plan.variant === 'free') {

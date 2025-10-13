@@ -363,14 +363,19 @@ async function updateUserSubscription(userId: string, subscription: Stripe.Subsc
 
   console.log(`📊 Updating user ${userId} with tier: ${tier}, plan: ${planName}, status: ${status}`);
 
-  // Get period dates with proper type handling
+  // Get period dates - Stripe Subscription has these as required number properties (Unix timestamps)
+  // Access via type assertion to handle TypeScript types
   const subAny = subscription as any;
-  const currentPeriodStart = subAny.current_period_start
-    ? new Date(subAny.current_period_start * 1000)
-    : new Date();
-  const currentPeriodEnd = subAny.current_period_end
-    ? new Date(subAny.current_period_end * 1000)
-    : new Date();
+
+  // Validate that we have actual timestamps (not undefined, null, or 0)
+  if (!subAny.current_period_start || !subAny.current_period_end) {
+    console.error(`❌ Missing period dates in subscription! current_period_start: ${subAny.current_period_start}, current_period_end: ${subAny.current_period_end}`);
+    console.error(`❌ Subscription status: ${subscription.status}, ID: ${subscription.id}`);
+    throw new Error('Subscription is missing required period dates');
+  }
+
+  const currentPeriodStart = new Date(subAny.current_period_start * 1000);
+  const currentPeriodEnd = new Date(subAny.current_period_end * 1000);
 
   console.log(`📅 Period: ${currentPeriodStart.toISOString()} to ${currentPeriodEnd.toISOString()}`);
 

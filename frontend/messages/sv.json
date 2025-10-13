@@ -1065,15 +1065,15 @@
     "billingPeriodCard": {
       "title": "Faktureringsperiod",
       "noActiveSubscription": "Ingen aktiv prenumeration",
-      "cancelsOn": "Upphör {date}",
-      "renewsOn": "Förnyas {date}"
+      "cancelsOn": "Upphör",
+      "renewsOn": "Förnyas"
     },
     "statusCard": {
       "title": "Status",
       "active": "Aktiv",
       "inactive": "Inaktiv",
-      "ends": "Upphör {date}",
-      "renews": "Förnyas {date}",
+      "ends": "Upphör",
+      "renews": "Förnyas",
       "noSubscription": "Ingen aktiv prenumeration"
     },
     "actions": {
@@ -1109,7 +1109,7 @@
         ]
       },
       "CORE": {
-        "name": "Core Bundle",
+        "name": "Bas",
         "description": "Perfekt för vanlig klassrumsanvändning",
         "features": [
           "Tillgång till 10 populära arbetsbladsgeneratorer",
@@ -1121,7 +1121,7 @@
         ]
       },
       "FULL": {
-        "name": "Full Tillgång",
+        "name": "Premium",
         "description": "Komplett tillgång för avancerade användare",
         "features": [
           "Tillgång till alla 33+ arbetsbladsgeneratorer",

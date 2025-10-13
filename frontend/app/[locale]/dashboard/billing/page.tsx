@@ -108,25 +108,35 @@ export default function BillingDashboard() {
   };
 
   const handleCancelSubscription = async () => {
+    console.log('🔴 Cancel subscription button clicked');
+
     if (!confirm(t('messages.cancelConfirm'))) {
+      console.log('❌ User cancelled the confirmation dialog');
       return;
     }
+
+    console.log('✅ User confirmed cancellation, sending request...');
 
     try {
       const response = await fetch('/api/stripe/subscription', {
         method: 'DELETE',
       });
 
+      console.log('📡 Response status:', response.status);
+
       if (!response.ok) {
+        const errorData = await response.json();
+        console.error('❌ Cancel failed:', errorData);
         throw new Error(t('messages.cancelFailed'));
       }
 
       const data = await response.json();
+      console.log('✅ Subscription cancelled:', data);
       toast.success(data.message);
       fetchSubscriptionDetails();
       checkAuth();
     } catch (error) {
-      console.error('Cancel error:', error);
+      console.error('❌ Cancel error:', error);
       toast.error(t('messages.cancelFailed'));
     }
   };
@@ -153,11 +163,16 @@ export default function BillingDashboard() {
   };
 
   const handleUpgradeClick = () => {
+    console.log('🔵 Change plan button clicked');
+    console.log('Current tier:', currentTier);
+
     if (currentTier === 'FREE') {
       // Free users go to pricing page
+      console.log('➡️ Redirecting to pricing page...');
       router.push(`/${locale}/pricing`);
     } else {
       // Paid users see upgrade modal
+      console.log('🎯 Opening upgrade modal...');
       setShowUpgradeModal(true);
     }
   };

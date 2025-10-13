@@ -7,10 +7,15 @@ import Stripe from 'stripe';
 
 export const dynamic = 'force-dynamic';
 
+// Disable body parsing - Stripe needs the raw body
+export const runtime = 'nodejs';
+
 // Stripe webhook endpoint
 export async function POST(request: NextRequest) {
   try {
-    const body = await request.text();
+    // Get raw body as buffer for signature verification
+    const buf = await request.arrayBuffer();
+    const body = Buffer.from(buf).toString('utf8');
     const signature = headers().get('stripe-signature');
 
     if (!signature) {

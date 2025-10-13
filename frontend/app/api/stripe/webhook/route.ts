@@ -203,7 +203,7 @@ async function handleInvoicePaid(invoice: Stripe.Invoice) {
   }
 
   // Get payment intent ID (use invoice ID as fallback if payment_intent is null)
-  const paymentIntentId = (invoice.payment_intent as string) || invoice.id;
+  const paymentIntentId = (typeof invoice.payment_intent === 'string' ? invoice.payment_intent : invoice.id);
 
   // Record payment (upsert for idempotency - prevents duplicates if webhook is retried)
   await prisma.payment.upsert({
@@ -251,7 +251,7 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
   }
 
   // Get payment intent ID (use invoice ID as fallback if payment_intent is null)
-  const paymentIntentId = (invoice.payment_intent as string) || invoice.id;
+  const paymentIntentId = (typeof invoice.payment_intent === 'string' ? invoice.payment_intent : invoice.id);
 
   // Record failed payment (upsert for idempotency)
   await prisma.payment.upsert({

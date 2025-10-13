@@ -317,7 +317,7 @@ export default function BillingDashboard() {
                   {t('actions.reactivateSubscription')}
                 </button>
               ) : (
-                currentTier !== 'FULL' && (
+                currentTier !== 'FULL' && subscription?.status !== 'manual' && (
                   <button
                     onClick={handleUpgradeClick}
                     className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors"
@@ -328,7 +328,8 @@ export default function BillingDashboard() {
                 )
               )}
 
-              {subscription && !subscription.cancelAtPeriodEnd && (
+              {/* Only show cancel button for real Stripe subscriptions, not manual ones */}
+              {subscription && !subscription.cancelAtPeriodEnd && subscription.status !== 'manual' && (
                 <button
                   onClick={handleCancelSubscription}
                   className="px-4 py-2 border border-red-600 text-red-600 rounded-lg hover:bg-red-50 transition-colors"
@@ -337,7 +338,8 @@ export default function BillingDashboard() {
                 </button>
               )}
 
-              {user?.stripeCustomerId && (
+              {/* Only show Stripe Portal for real Stripe customers, not mock ones */}
+              {user?.stripeCustomerId && !user.stripeCustomerId.startsWith('cus_mock_') && subscription?.status !== 'manual' && (
                 <button
                   onClick={handlePortalAccess}
                   disabled={portalLoading}
@@ -369,18 +371,18 @@ export default function BillingDashboard() {
         )}
       </div>
 
-      {/* Payment Methods */}
-      {user?.stripeCustomerId && <PaymentMethodManager />}
+      {/* Payment Methods - only for real Stripe customers */}
+      {user?.stripeCustomerId && !user.stripeCustomerId.startsWith('cus_mock_') && <PaymentMethodManager />}
 
-      {/* Invoice History */}
-      {user?.stripeCustomerId && (
+      {/* Invoice History - only for real Stripe customers */}
+      {user?.stripeCustomerId && !user.stripeCustomerId.startsWith('cus_mock_') && (
         <div className="mt-8">
           <InvoiceList />
         </div>
       )}
 
-      {/* Payment History */}
-      {user?.stripeCustomerId && (
+      {/* Payment History - only for real Stripe customers */}
+      {user?.stripeCustomerId && !user.stripeCustomerId.startsWith('cus_mock_') && (
         <div className="mt-8">
           <h2 className="text-xl font-semibold text-gray-900 mb-6">{t('paymentHistory.title')}</h2>
           <PaymentHistory />

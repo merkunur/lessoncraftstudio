@@ -82,21 +82,20 @@ export const POST = withAdmin(async (request: NextRequest, user) => {
 
     if (payment.stripePaymentIntentId.startsWith('in_')) {
       // This is an invoice ID, we need to retrieve the invoice to get the payment intent or charge
-      console.log(`Retrieving invoice ${payment.stripePaymentIntentId} to get payment details`);
+      console.log(`🔍 Retrieving invoice ${payment.stripePaymentIntentId} to get payment details`);
       const invoice = await stripe.invoices.retrieve(payment.stripePaymentIntentId);
 
-      // Log full invoice structure for debugging
-      console.log(`Invoice details:`, JSON.stringify({
-        id: invoice.id,
-        status: invoice.status,
-        amount_paid: invoice.amount_paid,
-        payment_intent: (invoice as any).payment_intent,
-        charge: (invoice as any).charge,
-        collection_method: (invoice as any).collection_method,
-        total: invoice.total,
-        amount_due: invoice.amount_due,
-        amount_remaining: (invoice as any).amount_remaining,
-      }, null, 2));
+      // Log invoice details line by line (simpler for PM2 logs)
+      console.log('📋 INVOICE DETAILS:');
+      console.log(`   ID: ${invoice.id}`);
+      console.log(`   Status: ${invoice.status}`);
+      console.log(`   Amount Paid: ${invoice.amount_paid}`);
+      console.log(`   Amount Due: ${invoice.amount_due}`);
+      console.log(`   Currency: ${invoice.currency}`);
+      console.log(`   Collection Method: ${(invoice as any).collection_method}`);
+      console.log(`   Payment Intent: ${(invoice as any).payment_intent || 'NULL'}`);
+      console.log(`   Charge: ${(invoice as any).charge || 'NULL'}`);
+      console.log(`   All Keys: ${Object.keys(invoice).sort().join(', ')}`);
 
       // Try payment_intent first, then charge
       const invoicePaymentIntent = (invoice as any).payment_intent as string | null;
@@ -104,13 +103,14 @@ export const POST = withAdmin(async (request: NextRequest, user) => {
 
       if (invoicePaymentIntent) {
         refundParams.payment_intent = invoicePaymentIntent;
-        console.log(`Found payment intent ${invoicePaymentIntent} from invoice`);
+        console.log(`✅ Found payment intent ${invoicePaymentIntent} from invoice`);
       } else if (invoiceCharge) {
         refundParams.charge = invoiceCharge;
-        console.log(`Found charge ${invoiceCharge} from invoice (no payment intent)`);
+        console.log(`✅ Found charge ${invoiceCharge} from invoice (no payment intent)`);
       } else {
         // Log detailed error for debugging
-        console.error(`Invoice ${invoice.id} has no payment_intent or charge. Full invoice keys:`, Object.keys(invoice).sort());
+        console.error(`❌ Invoice ${invoice.id} has no payment_intent or charge!`);
+        console.error(`❌ Full invoice keys: ${Object.keys(invoice).sort().join(', ')}`);
 
         // Check if this is a zero-dollar invoice or already refunded
         if (invoice.amount_paid === 0) {

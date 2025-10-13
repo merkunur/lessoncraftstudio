@@ -77,13 +77,13 @@ export default function PricingCards({
 
     // Free plan always goes to signup
     if (plan.variant === 'free') {
-      console.log('[PricingCards] Free plan, navigating to signup');
-      router.push(plan.ctaLink);
-      return;
+      console.log('[PricingCards] Free plan, letting Link handle navigation');
+      return; // Let the Link handle it
     }
 
     // Paid plans
-    console.log('[PricingCards] Paid plan selected');
+    e.preventDefault();
+    console.log('[PricingCards] Prevented default link behavior for paid plan');
 
     // If not authenticated, redirect to signin with plan and billing interval parameters
     // This allows automatic checkout creation after signin without requiring user to click Subscribe again
@@ -194,26 +194,27 @@ export default function PricingCards({
                   )}
                 </div>
 
-                <button
-                  onClick={(e) => handlePlanClick(plan, e)}
-                  disabled={isLoading === plan.variant}
-                  className={`w-full py-3 px-6 rounded-lg font-semibold transition-colors disabled:opacity-50 disabled:cursor-not-allowed ${
-                    plan.popular
-                      ? 'bg-primary text-white hover:bg-primary-dark'
-                      : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
-                  }`}>
-                  {isLoading === plan.variant ? (
-                    <span className="flex items-center justify-center">
-                      <svg className="animate-spin h-5 w-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
-                        <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
-                        <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
-                      </svg>
-                      Loading...
-                    </span>
-                  ) : (
-                    plan.cta
-                  )}
-                </button>
+                <Link href={plan.ctaLink} onClick={(e) => handlePlanClick(plan, e)}>
+                  <button
+                    disabled={isLoading === plan.variant}
+                    className={`w-full py-3 px-6 rounded-lg font-semibold transition-colors disabled:opacity-50 disabled:cursor-not-allowed ${
+                      plan.popular
+                        ? 'bg-primary text-white hover:bg-primary-dark'
+                        : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
+                    }`}>
+                    {isLoading === plan.variant ? (
+                      <span className="flex items-center justify-center">
+                        <svg className="animate-spin h-5 w-5 mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                        Loading...
+                      </span>
+                    ) : (
+                      plan.cta
+                    )}
+                  </button>
+                </Link>
 
                 {/* Features */}
                 {plan.features && plan.features.length > 0 && (

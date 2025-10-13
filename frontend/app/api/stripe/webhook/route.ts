@@ -4,6 +4,11 @@ import { stripe, verifyWebhookSignature } from '@/lib/stripe-server';
 import { STRIPE_WEBHOOK_EVENTS } from '@/lib/stripe-config';
 import { prisma } from '@/lib/prisma';
 import Stripe from 'stripe';
+import {
+  sendSubscriptionUpgradeEmail,
+  sendPaymentReceiptEmail,
+  sendFailedPaymentEmail
+} from '@/lib/email';
 
 export const dynamic = 'force-dynamic';
 
@@ -260,6 +265,30 @@ async function handleInvoicePaid(invoice: Stripe.Invoice) {
       },
     },
   });
+
+  // Send payment receipt email
+  const subscription = await prisma.subscription.findUnique({
+    where: { userId: user.id },
+  });
+
+  if (subscription) {
+    console.log(`📧 Sending payment receipt email to ${user.email}`);
+    sendPaymentReceiptEmail({
+      email: user.email,
+      firstName: user.firstName || '',
+      invoiceNumber: invoice.number || invoice.id,
+      amount: invoice.amount_paid / 100,
+      currency: invoice.currency,
+      date: new Date().toLocaleDateString(),
+      plan: subscription.planName,
+      billingPeriod: subscription.billingInterval || 'monthly',
+      paymentMethod: 'Card',
+      invoiceUrl: invoice.hosted_invoice_url || undefined,
+      language: user.language || 'en',
+    }).catch(error => {
+      console.error('❌ Failed to send payment receipt email:', error);
+    });
+  }
 }
 
 // Handle failed invoice payment
@@ -328,6 +357,29 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
       },
     },
   });
+
+  // Send failed payment notification email
+  const subscription = await prisma.subscription.findUnique({
+    where: { userId: user.id },
+  });
+
+  if (subscription) {
+    console.log(`📧 Sending failed payment notification email to ${user.email}`);
+    const updatePaymentUrl = `${process.env.NEXT_PUBLIC_APP_URL}/dashboard/billing`;
+
+    sendFailedPaymentEmail({
+      email: user.email,
+      firstName: user.firstName || '',
+      amount: invoice.amount_due / 100,
+      currency: invoice.currency,
+      plan: subscription.planName,
+      failureReason: (invoice as any).last_payment_error?.message || 'Payment declined',
+      updatePaymentUrl,
+      language: user.language || 'en',
+    }).catch(error => {
+      console.error('❌ Failed to send payment failed email:', error);
+    });
+  }
 }
 
 // Helper function to update user subscription
@@ -435,6 +487,20 @@ async function updateUserSubscription(userId: string, subscription: Stripe.Subsc
   console.log(`📅 Period: ${currentPeriodStart.toISOString()} to ${currentPeriodEnd.toISOString()}`);
 
   try {
+    // Get user's current subscription tier before updating (to detect upgrades)
+    const currentUser = await prisma.user.findUnique({
+      where: { id: userId },
+      select: {
+        subscriptionTier: true,
+        email: true,
+        firstName: true,
+        language: true,
+      },
+    });
+
+    const oldTier = currentUser?.subscriptionTier || 'free';
+    const isUpgrade = oldTier !== tier && tier !== 'free';
+
     // Update user
     await prisma.user.update({
       where: { id: userId },
@@ -472,6 +538,20 @@ async function updateUserSubscription(userId: string, subscription: Stripe.Subsc
       },
     });
     console.log(`✅ Subscription record upserted in database with ID: ${subscriptionRecord.id}`);
+
+    // Send upgrade confirmation email if this is an upgrade
+    if (isUpgrade && currentUser && status === 'active') {
+      console.log(`📧 Sending upgrade confirmation email: ${oldTier} → ${tier}`);
+      sendSubscriptionUpgradeEmail({
+        email: currentUser.email,
+        firstName: currentUser.firstName || '',
+        language: currentUser.language || 'en',
+        oldPlan: oldTier,
+        newPlan: tier,
+      }).catch(error => {
+        console.error('❌ Failed to send upgrade confirmation email:', error);
+      });
+    }
   } catch (error) {
     console.error('❌ Error updating database:', error);
     throw error;

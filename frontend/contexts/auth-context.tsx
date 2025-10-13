@@ -127,7 +127,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const checkAuth = useCallback(async () => {
     try {
       setLoading(true);
-      
+
       // Try to get user from stored token
       const storedToken = localStorage.getItem('accessToken');
       if (!storedToken) {
@@ -136,7 +136,21 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       }
 
       setAccessToken(storedToken);
-      
+
+      // IMPORTANT: Set user from localStorage immediately to avoid loading state
+      // This makes isAuthenticated true immediately after redirect from signin
+      const storedUser = localStorage.getItem('user');
+      if (storedUser) {
+        try {
+          const parsedUser = JSON.parse(storedUser);
+          setUser(parsedUser);
+          setLoading(false); // Set loading to false immediately
+        } catch (e) {
+          console.error('Failed to parse stored user:', e);
+        }
+      }
+
+      // Then verify with API in background and update if needed
       const response = await fetch('/api/auth/me', {
         headers: {
           'Authorization': `Bearer ${storedToken}`,
@@ -146,13 +160,17 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       if (response.ok) {
         const data = await response.json();
         setUser(data.user);
+        // Update localStorage with fresh data
+        localStorage.setItem('user', JSON.stringify(data.user));
       } else if (response.status === 401) {
         // Token expired, try to refresh
         await refreshToken();
       } else {
         // Clear invalid token
         localStorage.removeItem('accessToken');
+        localStorage.removeItem('user');
         setAccessToken(null);
+        setUser(null);
       }
     } catch (err) {
       console.error('Auth check error:', err);

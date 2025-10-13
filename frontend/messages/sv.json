@@ -857,6 +857,49 @@
       "loading": "Laddar...",
       "cancelWarning": "⚠️ Din prenumeration upphör den {date}"
     },
+    "billing": {
+      "pageTitle": "Betalningar & Prenumeration",
+      "currentPlanTitle": "Ditt nuvarande paket: {plan}",
+      "planCard": {
+        "title": "Paket",
+        "perMonth": "/månad"
+      },
+      "billingPeriodCard": {
+        "title": "Faktureringsperiod",
+        "noActiveSubscription": "Ingen aktiv prenumeration",
+        "cancelsOn": "Upphör",
+        "renewsOn": "Förnyas"
+      },
+      "statusCard": {
+        "title": "Status",
+        "active": "Aktiv",
+        "inactive": "Inaktiv",
+        "ends": "Upphör",
+        "renews": "Förnyas",
+        "noSubscription": "Ingen aktiv prenumeration"
+      },
+      "actions": {
+        "upgradePlan": "Uppgradera paket",
+        "reactivateSubscription": "Återaktivera prenumeration",
+        "changePlan": "Byt paket",
+        "cancelSubscription": "Avsluta prenumeration",
+        "stripePortal": "Stripe Portal"
+      },
+      "messages": {
+        "cancelWarning": "Din prenumeration är inställd att upphöra {date}. Du behåller tillgång till alla funktioner fram till dess.",
+        "paymentSuccess": "Betalningen lyckades! Din prenumeration är nu aktiv.",
+        "paymentCancelled": "Betalningen avbröts. Du kan försöka igen när som helst.",
+        "cancelConfirm": "Är du säker på att du vill avsluta din prenumeration? Du behåller tillgång till slutet av din betalningsperiod.",
+        "reactivateSuccess": "Prenumerationen återaktiverades!",
+        "portalAccessFailed": "Kunde inte öppna betalportalen",
+        "cancelFailed": "Kunde inte avsluta prenumerationen",
+        "reactivateFailed": "Kunde inte återaktivera prenumerationen"
+      },
+      "features": {
+        "title": "Funktioner i ditt paket",
+        "upgradePrompt": "Uppgradera för att få tillgång till fler funktioner:"
+      }
+    },
     "activity": {
       "title": "Din aktivitet",
       "worksheetsCreated": "Skapade arbetsblad",

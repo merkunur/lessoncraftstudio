@@ -117,18 +117,54 @@ export async function getSubscriptionStatus(
   // Determine tier from price ID (check both monthly and yearly)
   let tier: SubscriptionTier | null = null;
   const priceId = subscription.items.data[0]?.price.id;
+  let billingInterval: 'monthly' | 'yearly' = 'monthly';
 
   if (priceId === process.env.STRIPE_PRICE_CORE_MONTHLY ||
       priceId === process.env.STRIPE_PRICE_CORE_YEARLY) {
     tier = 'CORE';
+    billingInterval = priceId === process.env.STRIPE_PRICE_CORE_YEARLY ? 'yearly' : 'monthly';
   } else if (priceId === process.env.STRIPE_PRICE_FULL_MONTHLY ||
              priceId === process.env.STRIPE_PRICE_FULL_YEARLY) {
     tier = 'FULL';
+    billingInterval = priceId === process.env.STRIPE_PRICE_FULL_YEARLY ? 'yearly' : 'monthly';
+  }
+
+  // Get period end date using same fallback logic as webhook
+  let currentPeriodEnd: Date;
+
+  if (subscription.current_period_end) {
+    currentPeriodEnd = new Date(subscription.current_period_end * 1000);
+  } else if (subscription.billing_cycle_anchor) {
+    // Fallback: Calculate end date from billing_cycle_anchor
+    const start = new Date(subscription.billing_cycle_anchor * 1000);
+    currentPeriodEnd = new Date(start);
+    if (billingInterval === 'yearly') {
+      currentPeriodEnd.setFullYear(currentPeriodEnd.getFullYear() + 1);
+    } else {
+      currentPeriodEnd.setMonth(currentPeriodEnd.getMonth() + 1);
+    }
+  } else if (subscription.start_date) {
+    // Last fallback: Use start_date
+    const start = new Date(subscription.start_date * 1000);
+    currentPeriodEnd = new Date(start);
+    if (billingInterval === 'yearly') {
+      currentPeriodEnd.setFullYear(currentPeriodEnd.getFullYear() + 1);
+    } else {
+      currentPeriodEnd.setMonth(currentPeriodEnd.getMonth() + 1);
+    }
+  } else {
+    // If all else fails, use current date + interval (should never happen)
+    currentPeriodEnd = new Date();
+    if (billingInterval === 'yearly') {
+      currentPeriodEnd.setFullYear(currentPeriodEnd.getFullYear() + 1);
+    } else {
+      currentPeriodEnd.setMonth(currentPeriodEnd.getMonth() + 1);
+    }
   }
 
   return {
     status: subscription.status,
-    currentPeriodEnd: new Date(subscription.current_period_end * 1000),
+    currentPeriodEnd,
     cancelAtPeriodEnd: subscription.cancel_at_period_end,
     tier,
   };

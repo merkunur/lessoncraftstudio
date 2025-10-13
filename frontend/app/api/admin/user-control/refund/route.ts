@@ -125,9 +125,10 @@ export const POST = withAdmin(async (request: NextRequest, user) => {
 
         try {
           // Create a credit note for the invoice (this is how you "refund" an invoice without a charge)
+          // Since there's no charge, use out_of_band_amount to indicate refund handled outside Stripe
           const creditNote = await stripe.creditNotes.create({
             invoice: invoice.id as string, // Type assertion - invoice.id is always present when retrieved
-            amount: refundAmount,
+            out_of_band_amount: refundAmount, // Use out_of_band_amount for invoices paid via credits/manually
             reason: 'duplicate', // Stripe allows: 'duplicate', 'fraudulent', 'order_change', 'product_unsatisfactory'
             metadata: {
               refundedBy: user.email,

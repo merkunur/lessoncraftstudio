@@ -212,32 +212,39 @@ async function handleInvoicePaid(invoice: Stripe.Invoice) {
     return;
   }
 
-  // Get payment intent ID (use invoice ID as fallback if payment_intent is null)
-  const paymentIntentId = ((invoice as any).payment_intent as string | null) || invoice.id;
+  // Get payment identifiers - prefer payment_intent, then charge, then invoice as fallback
+  const invoicePaymentIntent = ((invoice as any).payment_intent as string | null);
+  const invoiceCharge = ((invoice as any).charge as string | null);
+  const paymentId = invoicePaymentIntent || invoiceCharge || invoice.id;
+
+  // Prepare payment data
+  const paymentData = {
+    userId: user.id,
+    stripePaymentIntentId: paymentId,
+    stripeInvoiceId: invoice.id,
+    stripePaymentId: invoiceCharge || undefined, // Store charge ID separately if available
+    amount: invoice.amount_paid / 100, // Convert from cents
+    currency: invoice.currency,
+    status: 'succeeded',
+    description: `Subscription payment for ${invoice.period_start ? new Date(invoice.period_start * 1000).toLocaleDateString() : 'N/A'}`,
+    invoiceUrl: invoice.hosted_invoice_url || undefined,
+    invoicePdf: invoice.invoice_pdf || undefined,
+  };
 
   // Record payment (upsert for idempotency - prevents duplicates if webhook is retried)
   await prisma.payment.upsert({
     where: {
-      stripePaymentIntentId: paymentIntentId,
+      stripePaymentIntentId: paymentId,
     },
     update: {
-      status: 'succeeded',
-      amount: invoice.amount_paid / 100,
-      stripeInvoiceId: invoice.id,
-      invoiceUrl: invoice.hosted_invoice_url || undefined,
-      invoicePdf: invoice.invoice_pdf || undefined,
+      status: paymentData.status,
+      amount: paymentData.amount,
+      stripeInvoiceId: paymentData.stripeInvoiceId,
+      stripePaymentId: paymentData.stripePaymentId,
+      invoiceUrl: paymentData.invoiceUrl,
+      invoicePdf: paymentData.invoicePdf,
     },
-    create: {
-      userId: user.id,
-      stripePaymentIntentId: paymentIntentId,
-      stripeInvoiceId: invoice.id,
-      amount: invoice.amount_paid / 100, // Convert from cents
-      currency: invoice.currency,
-      status: 'succeeded',
-      description: `Subscription payment for ${invoice.period_start ? new Date(invoice.period_start * 1000).toLocaleDateString() : 'N/A'}`,
-      invoiceUrl: invoice.hosted_invoice_url || undefined,
-      invoicePdf: invoice.invoice_pdf || undefined,
-    },
+    create: paymentData,
   });
 
   // Create activity log
@@ -266,28 +273,35 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
     return;
   }
 
-  // Get payment intent ID (use invoice ID as fallback if payment_intent is null)
-  const paymentIntentId = ((invoice as any).payment_intent as string | null) || invoice.id;
+  // Get payment identifiers - prefer payment_intent, then charge, then invoice as fallback
+  const invoicePaymentIntent = ((invoice as any).payment_intent as string | null);
+  const invoiceCharge = ((invoice as any).charge as string | null);
+  const paymentId = invoicePaymentIntent || invoiceCharge || invoice.id;
+
+  // Prepare payment data
+  const paymentData = {
+    userId: user.id,
+    stripePaymentIntentId: paymentId,
+    stripeInvoiceId: invoice.id,
+    stripePaymentId: invoiceCharge || undefined, // Store charge ID separately if available
+    amount: invoice.amount_due / 100,
+    currency: invoice.currency,
+    status: 'failed',
+    description: 'Subscription payment failed',
+  };
 
   // Record failed payment (upsert for idempotency)
   await prisma.payment.upsert({
     where: {
-      stripePaymentIntentId: paymentIntentId,
+      stripePaymentIntentId: paymentId,
     },
     update: {
-      status: 'failed',
-      amount: invoice.amount_due / 100,
-      stripeInvoiceId: invoice.id,
+      status: paymentData.status,
+      amount: paymentData.amount,
+      stripeInvoiceId: paymentData.stripeInvoiceId,
+      stripePaymentId: paymentData.stripePaymentId,
     },
-    create: {
-      userId: user.id,
-      stripePaymentIntentId: paymentIntentId,
-      stripeInvoiceId: invoice.id,
-      amount: invoice.amount_due / 100,
-      currency: invoice.currency,
-      status: 'failed',
-      description: 'Subscription payment failed',
-    },
+    create: paymentData,
   });
 
   // Create notification

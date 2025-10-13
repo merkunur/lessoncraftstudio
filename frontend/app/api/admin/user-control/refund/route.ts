@@ -69,27 +69,8 @@ export const POST = withAdmin(async (request: NextRequest, user) => {
     // - An invoice ID (starts with 'in_') as fallback
     let actualPaymentIntentId = payment.stripePaymentIntentId;
 
-    if (payment.stripePaymentIntentId.startsWith('in_')) {
-      // This is an invoice ID, we need to retrieve the invoice to get the payment intent
-      console.log(`Retrieving invoice ${payment.stripePaymentIntentId} to get payment intent`);
-      const invoice = await stripe.invoices.retrieve(payment.stripePaymentIntentId);
-
-      // Type assertion - payment_intent exists but isn't in the type definition
-      const invoicePaymentIntent = (invoice as any).payment_intent as string | null;
-
-      if (!invoicePaymentIntent) {
-        return NextResponse.json(
-          { error: 'Invoice does not have an associated payment intent. Cannot process refund.' },
-          { status: 400 }
-        );
-      }
-
-      actualPaymentIntentId = invoicePaymentIntent;
-      console.log(`Found payment intent ${actualPaymentIntentId} from invoice`);
-    }
-
-    const refund = await stripe.refunds.create({
-      payment_intent: actualPaymentIntentId,
+    // Determine what we're refunding (payment intent, invoice charge, or direct charge)
+    let refundParams: any = {
       amount: refundAmount,
       reason: reason === 'requested_by_customer' ? 'requested_by_customer' : 'duplicate',
       metadata: {
@@ -97,7 +78,43 @@ export const POST = withAdmin(async (request: NextRequest, user) => {
         refundedById: user.id,
         adminReason: reason || 'Admin refund',
       },
-    });
+    };
+
+    if (payment.stripePaymentIntentId.startsWith('in_')) {
+      // This is an invoice ID, we need to retrieve the invoice to get the payment intent or charge
+      console.log(`Retrieving invoice ${payment.stripePaymentIntentId} to get payment details`);
+      const invoice = await stripe.invoices.retrieve(payment.stripePaymentIntentId);
+
+      // Try payment_intent first, then charge
+      const invoicePaymentIntent = (invoice as any).payment_intent as string | null;
+      const invoiceCharge = (invoice as any).charge as string | null;
+
+      if (invoicePaymentIntent) {
+        refundParams.payment_intent = invoicePaymentIntent;
+        console.log(`Found payment intent ${invoicePaymentIntent} from invoice`);
+      } else if (invoiceCharge) {
+        refundParams.charge = invoiceCharge;
+        console.log(`Found charge ${invoiceCharge} from invoice (no payment intent)`);
+      } else {
+        return NextResponse.json(
+          { error: 'Invoice does not have an associated payment intent or charge. Cannot process refund.' },
+          { status: 400 }
+        );
+      }
+    } else if (payment.stripePaymentIntentId.startsWith('pi_')) {
+      // This is a payment intent ID
+      refundParams.payment_intent = payment.stripePaymentIntentId;
+    } else if (payment.stripePaymentIntentId.startsWith('ch_')) {
+      // This is a charge ID
+      refundParams.charge = payment.stripePaymentIntentId;
+    } else {
+      return NextResponse.json(
+        { error: 'Unknown payment identifier format. Cannot process refund.' },
+        { status: 400 }
+      );
+    }
+
+    const refund = await stripe.refunds.create(refundParams);
 
     // Update payment record
     await prisma.payment.update({

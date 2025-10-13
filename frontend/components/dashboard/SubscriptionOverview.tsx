@@ -70,6 +70,9 @@ export default function SubscriptionOverview() {
   const tier = subscription?.tier || 'FREE';
   const tierInfo = SUBSCRIPTION_TIERS[tier as keyof typeof SUBSCRIPTION_TIERS];
 
+  // Determine if user can upgrade (FREE or CORE can upgrade to higher tiers)
+  const canUpgrade = tier === 'FREE' || tier === 'CORE';
+
   const getStatusIcon = () => {
     if (subscription?.status === 'active') {
       return <CheckCircle className="h-5 w-5 text-green-500" />;
@@ -150,7 +153,7 @@ export default function SubscriptionOverview() {
 
         {/* Actions */}
         <div className="pt-4 border-t space-y-3">
-          {tier !== 'FULL' && (
+          {canUpgrade && (
             <button
               onClick={() => router.push(`/${locale}/pricing`)}
               className="w-full flex items-center justify-center px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"

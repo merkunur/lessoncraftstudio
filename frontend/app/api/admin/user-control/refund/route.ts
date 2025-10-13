@@ -74,14 +74,17 @@ export const POST = withAdmin(async (request: NextRequest, user) => {
       console.log(`Retrieving invoice ${payment.stripePaymentIntentId} to get payment intent`);
       const invoice = await stripe.invoices.retrieve(payment.stripePaymentIntentId);
 
-      if (!invoice.payment_intent) {
+      // Type assertion - payment_intent exists but isn't in the type definition
+      const invoicePaymentIntent = (invoice as any).payment_intent as string | null;
+
+      if (!invoicePaymentIntent) {
         return NextResponse.json(
           { error: 'Invoice does not have an associated payment intent. Cannot process refund.' },
           { status: 400 }
         );
       }
 
-      actualPaymentIntentId = invoice.payment_intent as string;
+      actualPaymentIntentId = invoicePaymentIntent;
       console.log(`Found payment intent ${actualPaymentIntentId} from invoice`);
     }
 

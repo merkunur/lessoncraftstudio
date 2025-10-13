@@ -56,7 +56,6 @@ export async function POST(request: NextRequest) {
 
     // Check if user already has an active subscription
     if (user.subscriptionStatus === 'active' && user.subscriptionTier !== 'free') {
-      // Check if they're trying to upgrade/change to a different plan
       const currentTier = user.subscriptionTier?.toUpperCase();
       const requestedTier = tier;
 
@@ -71,16 +70,9 @@ export async function POST(request: NextRequest) {
         );
       }
 
-      // If they're requesting a DIFFERENT tier, redirect them to use the subscription update flow
-      console.log(`🔄 User ${user.email} has ${currentTier} subscription, wants to change to ${requestedTier}`);
-      return NextResponse.json(
-        {
-          error: 'Please use your billing page to change your subscription plan',
-          redirectTo: `/${locale}/dashboard/billing`,
-          isUpgrade: true
-        },
-        { status: 400 }
-      );
+      // They're trying to upgrade/downgrade - this is allowed!
+      // Checkout will handle the subscription change with proration
+      console.log(`✅ User ${user.email} upgrading from ${currentTier} to ${requestedTier}`);
     }
 
     // Check if mock mode is enabled (invalid/missing Stripe keys)

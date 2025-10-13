@@ -115,15 +115,6 @@ export default function PricingCards({
       console.log('[PricingCards] Checkout response data:', data);
 
       if (!response.ok) {
-        // Check if this is an upgrade redirect
-        if (data.isUpgrade && data.redirectTo) {
-          console.log('[PricingCards] User needs to upgrade via billing page, redirecting...');
-          toast.error(data.error);
-          setTimeout(() => {
-            router.push(data.redirectTo);
-          }, 1500);
-          return;
-        }
         throw new Error(data.error || 'Failed to create checkout session');
       }
 

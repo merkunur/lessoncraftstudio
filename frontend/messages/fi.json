@@ -1047,6 +1047,86 @@
       }
     }
   },
+  "billing": {
+    "pageTitle": "Laskutus ja Tilaus",
+    "currentPlanTitle": "Nykyinen pakettisi: {plan}",
+    "planCard": {
+      "title": "Paketti",
+      "perMonth": "/kk"
+    },
+    "billingPeriodCard": {
+      "title": "Laskutusjakso",
+      "noActiveSubscription": "Ei aktiivista tilausta",
+      "cancelsOn": "Päättyy {date}",
+      "renewsOn": "Uusitaan {date}"
+    },
+    "statusCard": {
+      "title": "Tilauksen tila",
+      "active": "Aktiivinen",
+      "inactive": "Ei aktiivinen",
+      "ends": "Päättyy {date}",
+      "renews": "Uusitaan {date}",
+      "noSubscription": "Ei aktiivista tilausta"
+    },
+    "actions": {
+      "upgradePlan": "Päivitä paketti",
+      "reactivateSubscription": "Aktivoi tilaus uudelleen",
+      "changePlan": "Vaihda paketti",
+      "cancelSubscription": "Peruuta tilaus",
+      "stripePortal": "Hallinnoi Stripen kautta"
+    },
+    "messages": {
+      "cancelWarning": "⚠️ Tilauksesi päättyy jakson lopussa. Säilytät pääsyn siihen asti.",
+      "paymentSuccess": "Maksu suoritettu! Tilauksesi on nyt aktiivinen.",
+      "paymentCancelled": "Maksu peruutettu. Tilausta ei luotu.",
+      "cancelConfirm": "Haluatko varmasti peruuttaa tilauksesi? Säilytät pääsyn jakson loppuun asti.",
+      "reactivateSuccess": "Tilaus aktivoitu uudelleen! Automaattinen uusiminen on jatkettu.",
+      "portalAccessFailed": "Asiakasportaalin avaaminen epäonnistui. Yritä uudelleen.",
+      "cancelFailed": "Tilauksen peruutus epäonnistui. Ota yhteyttä tukeen.",
+      "reactivateFailed": "Tilauksen uudelleenaktivointi epäonnistui. Ota yhteyttä tukeen."
+    },
+    "features": {
+      "title": "Paketin ominaisuudet",
+      "upgradePrompt": "Päivitä saadaksesi lisää ominaisuuksia"
+    },
+    "tiers": {
+      "FREE": {
+        "name": "Ilmainen",
+        "description": "Täydellinen tutustumiseen",
+        "features": [
+          "Vain sananhakugeneraattori",
+          "Rajaton määrä tehtävämonisteja",
+          "Vesileimalla",
+          "Yhteisötuki"
+        ]
+      },
+      "CORE": {
+        "name": "Perus",
+        "description": "Ihanteellinen päivittäiseen käyttöön luokassa",
+        "features": [
+          "Pääsy 10 suosituimpaan generaattoriin",
+          "Rajaton määrä tehtävämonisteja",
+          "Ilman vesileimaa",
+          "PDF-lataukset korkealaatuisina",
+          "Premium-pohjat",
+          "Sähköpostituki"
+        ]
+      },
+      "FULL": {
+        "name": "Premium",
+        "description": "Täysi ratkaisu ammattilaisille",
+        "features": [
+          "Pääsy kaikkiin 33+ generaattoriin",
+          "Rajaton määrä tehtävämonisteja",
+          "Ilman vesileimaa",
+          "PDF-lataukset korkealaatuisina",
+          "Kaikki premium-pohjat",
+          "Ensisijainen sähköpostituki",
+          "Kaupallinen lisenssi sisältyy"
+        ]
+      }
+    }
+  },
   "support": {
     "pageTitle": "Asiakaspalvelu",
     "pageSubtitle": "Katso yhteydenottosi tai lähetä uusi viesti",

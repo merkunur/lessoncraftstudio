@@ -1055,6 +1055,86 @@
       }
     }
   },
+  "billing": {
+    "pageTitle": "Fakturering og Abonnement",
+    "currentPlanTitle": "Din nuværende pakke: {plan}",
+    "planCard": {
+      "title": "Pakke",
+      "perMonth": "/måned"
+    },
+    "billingPeriodCard": {
+      "title": "Faktureringscyklus",
+      "noActiveSubscription": "Intet aktivt abonnement",
+      "cancelsOn": "Udløber den {date}",
+      "renewsOn": "Fornyes den {date}"
+    },
+    "statusCard": {
+      "title": "Abonnementsstatus",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "ends": "Slutter {date}",
+      "renews": "Fornyes {date}",
+      "noSubscription": "Intet aktivt abonnement"
+    },
+    "actions": {
+      "upgradePlan": "Opgrader pakke",
+      "reactivateSubscription": "Genaktiver abonnement",
+      "changePlan": "Skift pakke",
+      "cancelSubscription": "Opsig abonnement",
+      "stripePortal": "Administrer via Stripe"
+    },
+    "messages": {
+      "cancelWarning": "⚠️ Dit abonnement opsiges ved periodeafslutning. Du beholder adgang indtil da.",
+      "paymentSuccess": "Betaling gennemført! Dit abonnement er nu aktivt.",
+      "paymentCancelled": "Betaling annulleret. Intet abonnement oprettet.",
+      "cancelConfirm": "Er du sikker på, at du vil opsige dit abonnement? Du beholder adgang indtil periodeafslutning.",
+      "reactivateSuccess": "Abonnement genaktiveret! Automatisk fornyelse er genoptaget.",
+      "portalAccessFailed": "Kunne ikke åbne kundeportalen. Prøv igen.",
+      "cancelFailed": "Kunne ikke opsige abonnement. Kontakt support.",
+      "reactivateFailed": "Kunne ikke genaktivere abonnement. Kontakt support."
+    },
+    "features": {
+      "title": "Pakkefunktioner",
+      "upgradePrompt": "Opgrader for at få adgang til flere funktioner"
+    },
+    "tiers": {
+      "FREE": {
+        "name": "Gratis",
+        "description": "Perfekt til at afprøve platformen",
+        "features": [
+          "Kun ordsøgningsgenerator",
+          "Ubegrænset antal opgaveark",
+          "Med vandmærke",
+          "Community-support"
+        ]
+      },
+      "CORE": {
+        "name": "Standard",
+        "description": "Ideel til daglig brug i klasselokalet",
+        "features": [
+          "Adgang til 10 populære generatorer",
+          "Ubegrænset antal opgaveark",
+          "Uden vandmærke",
+          "PDF-downloads i høj kvalitet",
+          "Premium-skabeloner",
+          "E-mail support"
+        ]
+      },
+      "FULL": {
+        "name": "Premium",
+        "description": "Den komplette løsning til professionelle",
+        "features": [
+          "Adgang til alle 33+ generatorer",
+          "Ubegrænset antal opgaveark",
+          "Uden vandmærke",
+          "PDF-downloads i høj kvalitet",
+          "Alle premium-skabeloner",
+          "Prioriteret e-mail support",
+          "Kommerciel licens inkluderet"
+        ]
+      }
+    }
+  },
   "support": {
     "pageTitle": "Kundeservice",
     "pageSubtitle": "Se dine henvendelser eller opret en ny",

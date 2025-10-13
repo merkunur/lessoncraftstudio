@@ -1068,6 +1068,86 @@
       }
     }
   },
+  "billing": {
+    "pageTitle": "Fatturazione e Abbonamento",
+    "currentPlanTitle": "Il tuo piano attuale: {plan}",
+    "planCard": {
+      "title": "Piano",
+      "perMonth": "/mese"
+    },
+    "billingPeriodCard": {
+      "title": "Periodo di fatturazione",
+      "noActiveSubscription": "Nessun abbonamento attivo",
+      "cancelsOn": "Scade il",
+      "renewsOn": "Si rinnova il"
+    },
+    "statusCard": {
+      "title": "Stato",
+      "active": "Attivo",
+      "inactive": "Inattivo",
+      "ends": "Termina",
+      "renews": "Si rinnova",
+      "noSubscription": "Nessun abbonamento attivo"
+    },
+    "actions": {
+      "upgradePlan": "Passa a un piano superiore",
+      "reactivateSubscription": "Riattiva abbonamento",
+      "changePlan": "Cambia piano",
+      "cancelSubscription": "Annulla abbonamento",
+      "stripePortal": "Portale pagamenti"
+    },
+    "messages": {
+      "cancelWarning": "Il tuo abbonamento terminerà il {date}. Manterrai l'accesso a tutte le funzioni fino a quella data.",
+      "paymentSuccess": "Pagamento completato! Il tuo abbonamento è ora attivo.",
+      "paymentCancelled": "Pagamento annullato. Puoi riprovare in qualsiasi momento.",
+      "cancelConfirm": "Sei sicuro di voler annullare il tuo abbonamento? Manterrai l'accesso fino alla fine del periodo corrente.",
+      "reactivateSuccess": "Abbonamento riattivato con successo!",
+      "portalAccessFailed": "Impossibile accedere al portale pagamenti",
+      "cancelFailed": "Impossibile annullare l'abbonamento",
+      "reactivateFailed": "Impossibile riattivare l'abbonamento"
+    },
+    "features": {
+      "title": "Funzioni del tuo piano",
+      "upgradePrompt": "Passa a un piano superiore per sbloccare più funzioni:"
+    },
+    "tiers": {
+      "FREE": {
+        "name": "Gratuito",
+        "description": "Perfetto per provare la piattaforma",
+        "features": [
+          "Solo generatore di crucipuzzle",
+          "Schede illimitate",
+          "Con filigrana",
+          "Supporto community"
+        ]
+      },
+      "CORE": {
+        "name": "Pacchetto Essenziale",
+        "description": "Ideale per l'uso quotidiano in classe",
+        "features": [
+          "Accesso a 10 generatori popolari",
+          "Schede illimitate",
+          "Senza filigrana",
+          "Download PDF di alta qualità",
+          "Modelli premium",
+          "Assistenza via email"
+        ]
+      },
+      "FULL": {
+        "name": "Accesso Completo",
+        "description": "La soluzione completa per i professionisti",
+        "features": [
+          "Accesso a tutti i 33+ generatori",
+          "Schede illimitate",
+          "Senza filigrana",
+          "Download PDF di alta qualità",
+          "Tutti i modelli premium",
+          "Assistenza prioritaria via email",
+          "Licenza commerciale inclusa"
+        ]
+      }
+    }
+  },
   "support": {
     "pageTitle": "Centro Assistenza",
     "pageSubtitle": "Consulta le tue richieste di supporto o creane una nuova",

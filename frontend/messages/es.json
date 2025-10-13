@@ -1068,6 +1068,86 @@
       }
     }
   },
+  "billing": {
+    "pageTitle": "Facturación y suscripción",
+    "currentPlanTitle": "Tu plan actual: {plan}",
+    "planCard": {
+      "title": "Plan",
+      "perMonth": "/mes"
+    },
+    "billingPeriodCard": {
+      "title": "Período de facturación",
+      "noActiveSubscription": "Sin suscripción activa",
+      "cancelsOn": "Finaliza el",
+      "renewsOn": "Se renueva el"
+    },
+    "statusCard": {
+      "title": "Estado",
+      "active": "Activo",
+      "inactive": "Inactivo",
+      "ends": "Finaliza",
+      "renews": "Se renueva",
+      "noSubscription": "Sin suscripción activa"
+    },
+    "actions": {
+      "upgradePlan": "Mejorar plan",
+      "reactivateSubscription": "Reactivar suscripción",
+      "changePlan": "Cambiar de plan",
+      "cancelSubscription": "Cancelar suscripción",
+      "stripePortal": "Portal de facturación"
+    },
+    "messages": {
+      "cancelWarning": "Tu suscripción finalizará el {date}. Mantendrás acceso a todas las funciones hasta entonces.",
+      "paymentSuccess": "¡Pago exitoso! Tu suscripción está ahora activa.",
+      "paymentCancelled": "Pago cancelado. Puedes intentarlo de nuevo cuando quieras.",
+      "cancelConfirm": "¿Estás seguro de que quieres cancelar tu suscripción? Mantendrás el acceso hasta el final de tu período de facturación actual.",
+      "reactivateSuccess": "¡Suscripción reactivada exitosamente!",
+      "portalAccessFailed": "No se pudo acceder al portal de facturación",
+      "cancelFailed": "Error al cancelar la suscripción",
+      "reactivateFailed": "Error al reactivar la suscripción"
+    },
+    "features": {
+      "title": "Funciones de tu plan",
+      "upgradePrompt": "Mejora tu plan para desbloquear más funciones:"
+    },
+    "tiers": {
+      "FREE": {
+        "name": "Gratis",
+        "description": "Perfecto para probar la plataforma",
+        "features": [
+          "Solo generador de sopa de letras",
+          "Fichas ilimitadas",
+          "Con marca de agua",
+          "Soporte de la comunidad"
+        ]
+      },
+      "CORE": {
+        "name": "Paquete Esencial",
+        "description": "Ideal para el día a día en el aula",
+        "features": [
+          "Acceso a 10 generadores populares",
+          "Fichas ilimitadas",
+          "Sin marca de agua",
+          "Descargas PDF de alta calidad",
+          "Plantillas premium",
+          "Soporte por correo electrónico"
+        ]
+      },
+      "FULL": {
+        "name": "Acceso Completo",
+        "description": "La solución completa para profesionales",
+        "features": [
+          "Acceso a todos los 33+ generadores",
+          "Fichas ilimitadas",
+          "Sin marca de agua",
+          "Descargas PDF de alta calidad",
+          "Todas las plantillas premium",
+          "Soporte prioritario por correo",
+          "Licencia comercial incluida"
+        ]
+      }
+    }
+  },
   "support": {
     "pageTitle": "Centro de Asistencia",
     "pageSubtitle": "Consulta tus solicitudes de soporte o crea una nueva",

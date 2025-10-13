@@ -1068,6 +1068,86 @@
       }
     }
   },
+  "billing": {
+    "pageTitle": "Facturation et abonnement",
+    "currentPlanTitle": "Votre formule actuelle : {plan}",
+    "planCard": {
+      "title": "Formule",
+      "perMonth": "/mois"
+    },
+    "billingPeriodCard": {
+      "title": "Période de facturation",
+      "noActiveSubscription": "Aucun abonnement actif",
+      "cancelsOn": "Prend fin le",
+      "renewsOn": "Se renouvelle le"
+    },
+    "statusCard": {
+      "title": "Statut",
+      "active": "Actif",
+      "inactive": "Inactif",
+      "ends": "Prend fin",
+      "renews": "Se renouvelle",
+      "noSubscription": "Aucun abonnement actif"
+    },
+    "actions": {
+      "upgradePlan": "Changer de formule",
+      "reactivateSubscription": "Réactiver l'abonnement",
+      "changePlan": "Modifier la formule",
+      "cancelSubscription": "Annuler l'abonnement",
+      "stripePortal": "Portail de facturation"
+    },
+    "messages": {
+      "cancelWarning": "Votre abonnement prendra fin le {date}. Vous garderez l'accès à toutes les fonctionnalités jusqu'à cette date.",
+      "paymentSuccess": "Paiement réussi ! Votre abonnement est maintenant actif.",
+      "paymentCancelled": "Paiement annulé. Vous pouvez réessayer à tout moment.",
+      "cancelConfirm": "Êtes-vous sûr de vouloir annuler votre abonnement ? Vous conserverez l'accès jusqu'à la fin de votre période de facturation actuelle.",
+      "reactivateSuccess": "Abonnement réactivé avec succès !",
+      "portalAccessFailed": "Échec de l'accès au portail de facturation",
+      "cancelFailed": "Échec de l'annulation",
+      "reactivateFailed": "Échec de la réactivation"
+    },
+    "features": {
+      "title": "Les fonctionnalités de votre formule",
+      "upgradePrompt": "Passez à une formule supérieure pour débloquer plus de fonctionnalités :"
+    },
+    "tiers": {
+      "FREE": {
+        "name": "Gratuit",
+        "description": "Parfait pour découvrir la plateforme",
+        "features": [
+          "Générateur de mots mêlés uniquement",
+          "Fiches illimitées",
+          "Avec filigrane",
+          "Support communautaire"
+        ]
+      },
+      "CORE": {
+        "name": "Pack Essentiel",
+        "description": "Idéal pour un usage quotidien en classe",
+        "features": [
+          "Accès à 10 générateurs populaires",
+          "Fiches illimitées",
+          "Sans filigrane",
+          "Téléchargements PDF haute qualité",
+          "Modèles premium",
+          "Support par e-mail"
+        ]
+      },
+      "FULL": {
+        "name": "Accès Complet",
+        "description": "La solution complète pour les professionnels",
+        "features": [
+          "Accès aux 33+ générateurs",
+          "Fiches illimitées",
+          "Sans filigrane",
+          "Téléchargements PDF haute qualité",
+          "Tous les modèles premium",
+          "Support prioritaire par e-mail",
+          "Licence commerciale incluse"
+        ]
+      }
+    }
+  },
   "support": {
     "pageTitle": "Service d'assistance",
     "pageSubtitle": "Consultez vos demandes d'assistance ou créez-en une nouvelle",

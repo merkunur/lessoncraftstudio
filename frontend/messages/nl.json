@@ -1068,6 +1068,86 @@
       }
     }
   },
+  "billing": {
+    "pageTitle": "Facturering en Abonnement",
+    "currentPlanTitle": "Jouw huidige pakket: {plan}",
+    "planCard": {
+      "title": "Pakket",
+      "perMonth": "/maand"
+    },
+    "billingPeriodCard": {
+      "title": "Factureringsperiode",
+      "noActiveSubscription": "Geen actief abonnement",
+      "cancelsOn": "Loopt af op",
+      "renewsOn": "Verlengt op"
+    },
+    "statusCard": {
+      "title": "Status",
+      "active": "Actief",
+      "inactive": "Inactief",
+      "ends": "Eindigt",
+      "renews": "Verlengt",
+      "noSubscription": "Geen actief abonnement"
+    },
+    "actions": {
+      "upgradePlan": "Pakket upgraden",
+      "reactivateSubscription": "Abonnement reactiveren",
+      "changePlan": "Pakket wijzigen",
+      "cancelSubscription": "Abonnement opzeggen",
+      "stripePortal": "Betaalportaal"
+    },
+    "messages": {
+      "cancelWarning": "Je abonnement eindigt op {date}. Je behoudt tot dan volledige toegang tot alle functionaliteiten.",
+      "paymentSuccess": "Betaling geslaagd! Je abonnement is nu actief.",
+      "paymentCancelled": "Betaling geannuleerd. Je kunt het op elk moment opnieuw proberen.",
+      "cancelConfirm": "Weet je zeker dat je je abonnement wilt opzeggen? Je behoudt toegang tot het einde van de huidige periode.",
+      "reactivateSuccess": "Abonnement succesvol gereactiveerd!",
+      "portalAccessFailed": "Kan betaalportaal niet openen",
+      "cancelFailed": "Kan abonnement niet opzeggen",
+      "reactivateFailed": "Kan abonnement niet reactiveren"
+    },
+    "features": {
+      "title": "Functionaliteiten van jouw pakket",
+      "upgradePrompt": "Upgrade je pakket voor meer mogelijkheden:"
+    },
+    "tiers": {
+      "FREE": {
+        "name": "Gratis",
+        "description": "Perfect om het platform te leren kennen",
+        "features": [
+          "Alleen woordzoeker generator",
+          "Onbeperkt werkbladen maken",
+          "Met watermerk",
+          "Community ondersteuning"
+        ]
+      },
+      "CORE": {
+        "name": "Basispakket",
+        "description": "Ideaal voor dagelijks gebruik in de klas",
+        "features": [
+          "Toegang tot 10 populaire werkbladgeneratoren",
+          "Onbeperkt werkbladen maken",
+          "Zonder watermerk",
+          "Hoogwaardige PDF-downloads",
+          "Premium sjablonen",
+          "E-mail ondersteuning"
+        ]
+      },
+      "FULL": {
+        "name": "Volledige Toegang",
+        "description": "De complete oplossing voor professionals",
+        "features": [
+          "Toegang tot alle 33+ werkbladgeneratoren",
+          "Onbeperkt werkbladen maken",
+          "Zonder watermerk",
+          "Hoogwaardige PDF-downloads",
+          "Alle premium sjablonen",
+          "Prioritaire e-mail ondersteuning",
+          "Commerciële licentie inbegrepen"
+        ]
+      }
+    }
+  },
   "support": {
     "pageTitle": "Klantenservice",
     "pageSubtitle": "Bekijk je supportaanvragen of maak een nieuwe aan",

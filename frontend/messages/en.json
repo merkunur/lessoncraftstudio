@@ -938,6 +938,43 @@
     "features": {
       "title": "Your Plan Features",
       "upgradePrompt": "Upgrade to unlock more features:"
+    },
+    "tiers": {
+      "FREE": {
+        "name": "Free",
+        "description": "Get started with Word Search generator",
+        "features": [
+          "Word Search generator only",
+          "Unlimited worksheet generation",
+          "Watermarked downloads",
+          "Community support"
+        ]
+      },
+      "CORE": {
+        "name": "Core Bundle",
+        "description": "Perfect for regular classroom use",
+        "features": [
+          "Access to 10 popular worksheet generators",
+          "Unlimited worksheet generation",
+          "No watermarks",
+          "High-quality PDF downloads",
+          "Premium templates",
+          "Email support"
+        ]
+      },
+      "FULL": {
+        "name": "Full Access",
+        "description": "Complete access for power users",
+        "features": [
+          "Access to all 33+ worksheet generators",
+          "Unlimited worksheet generation",
+          "No watermarks",
+          "High-quality PDF downloads",
+          "All premium templates",
+          "Priority email support",
+          "Commercial license included"
+        ]
+      }
     }
   },
   "support": {

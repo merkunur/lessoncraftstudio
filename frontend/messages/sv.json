@@ -1096,6 +1096,43 @@
     "features": {
       "title": "Funktioner i ditt paket",
       "upgradePrompt": "Uppgradera för att få tillgång till fler funktioner"
+    },
+    "tiers": {
+      "FREE": {
+        "name": "Gratis",
+        "description": "Kom igång med vår ordsökningsgenerator",
+        "features": [
+          "Endast ordsökningsgenerator",
+          "Obegränsad arbetsbladsgenerering",
+          "Nedladdningar med vattenstämpel",
+          "Community-support"
+        ]
+      },
+      "CORE": {
+        "name": "Core Bundle",
+        "description": "Perfekt för vanlig klassrumsanvändning",
+        "features": [
+          "Tillgång till 10 populära arbetsbladsgeneratorer",
+          "Obegränsad arbetsbladsgenerering",
+          "Utan vattenstämpel",
+          "Högkvalitativa PDF-nedladdningar",
+          "Premium-mallar",
+          "E-postsupport"
+        ]
+      },
+      "FULL": {
+        "name": "Full Tillgång",
+        "description": "Komplett tillgång för avancerade användare",
+        "features": [
+          "Tillgång till alla 33+ arbetsbladsgeneratorer",
+          "Obegränsad arbetsbladsgenerering",
+          "Utan vattenstämpel",
+          "Högkvalitativa PDF-nedladdningar",
+          "Alla premium-mallar",
+          "Prioriterad e-postsupport",
+          "Kommersiell licens inkluderad"
+        ]
+      }
     }
   },
   "support": {

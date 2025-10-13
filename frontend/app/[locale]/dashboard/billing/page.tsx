@@ -367,7 +367,7 @@ export default function BillingDashboard() {
       <div className="bg-white rounded-lg shadow-sm p-6 mt-8">
         <h2 className="text-xl font-semibold text-gray-900 mb-6">{t('features.title')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          {tierInfo.features.map((feature, idx) => (
+          {t.raw(`tiers.${currentTier}.features`) && (t.raw(`tiers.${currentTier}.features`) as string[]).map((feature: string, idx: number) => (
             <div key={idx} className="flex items-start">
               <Shield className="h-5 w-5 text-green-500 mr-3 flex-shrink-0 mt-0.5" />
               <span className="text-gray-700">{feature}</span>
@@ -381,14 +381,14 @@ export default function BillingDashboard() {
               {t('features.upgradePrompt')}
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {currentTier === 'FREE' && SUBSCRIPTION_TIERS.CORE.features.slice(0, 3).map((feature, idx) => (
+              {currentTier === 'FREE' && t.raw('tiers.CORE.features') && (t.raw('tiers.CORE.features') as string[]).slice(0, 3).map((feature: string, idx: number) => (
                 <div key={idx} className="flex items-start opacity-60">
                   <TrendingUp className="h-5 w-5 text-blue-500 mr-3 flex-shrink-0 mt-0.5" />
                   <span className="text-gray-600">{feature}</span>
                 </div>
               ))}
               {(currentTier === 'FREE' || currentTier === 'CORE') &&
-                SUBSCRIPTION_TIERS.FULL.features.slice(0, 3).map((feature, idx) => (
+                t.raw('tiers.FULL.features') && (t.raw('tiers.FULL.features') as string[]).slice(0, 3).map((feature: string, idx: number) => (
                 <div key={idx} className="flex items-start opacity-60">
                   <TrendingUp className="h-5 w-5 text-purple-500 mr-3 flex-shrink-0 mt-0.5" />
                   <span className="text-gray-600">{feature}</span>

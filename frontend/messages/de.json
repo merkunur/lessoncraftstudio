@@ -1117,6 +1117,86 @@
       }
     }
   },
+  "billing": {
+    "pageTitle": "Abrechnung & Abonnement",
+    "currentPlanTitle": "Dein aktuelles Paket: {plan}",
+    "planCard": {
+      "title": "Paket",
+      "perMonth": "/Monat"
+    },
+    "billingPeriodCard": {
+      "title": "Abrechnungszeitraum",
+      "noActiveSubscription": "Kein aktives Abonnement",
+      "cancelsOn": "Endet am",
+      "renewsOn": "Verlängert sich am"
+    },
+    "statusCard": {
+      "title": "Status",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "ends": "Endet",
+      "renews": "Verlängert sich",
+      "noSubscription": "Kein aktives Abonnement"
+    },
+    "actions": {
+      "upgradePlan": "Paket erweitern",
+      "reactivateSubscription": "Abonnement reaktivieren",
+      "changePlan": "Paket wechseln",
+      "cancelSubscription": "Abonnement kündigen",
+      "stripePortal": "Abrechnungsportal"
+    },
+    "messages": {
+      "cancelWarning": "Dein Abonnement endet am {date}. Bis dahin behältst du vollen Zugriff auf alle Funktionen.",
+      "paymentSuccess": "Zahlung erfolgreich! Dein Abonnement ist jetzt aktiv.",
+      "paymentCancelled": "Zahlung abgebrochen. Du kannst es jederzeit erneut versuchen.",
+      "cancelConfirm": "Möchtest du dein Abonnement wirklich kündigen? Du behältst den Zugriff bis zum Ende des aktuellen Abrechnungszeitraums.",
+      "reactivateSuccess": "Abonnement erfolgreich reaktiviert!",
+      "portalAccessFailed": "Zugriff auf Abrechnungsportal fehlgeschlagen",
+      "cancelFailed": "Kündigung fehlgeschlagen",
+      "reactivateFailed": "Reaktivierung fehlgeschlagen"
+    },
+    "features": {
+      "title": "Deine Paketfunktionen",
+      "upgradePrompt": "Erweitere dein Paket für mehr Möglichkeiten:"
+    },
+    "tiers": {
+      "FREE": {
+        "name": "Kostenlos",
+        "description": "Ideal zum Ausprobieren",
+        "features": [
+          "Nur Wortsuche-Generator",
+          "Unbegrenzte Arbeitsblattgenerierung",
+          "Mit Wasserzeichen",
+          "Community-Support"
+        ]
+      },
+      "CORE": {
+        "name": "Basis-Paket",
+        "description": "Perfekt für den Alltag im Klassenzimmer",
+        "features": [
+          "Zugriff auf 10 beliebte Arbeitsblattgeneratoren",
+          "Unbegrenzte Arbeitsblattgenerierung",
+          "Ohne Wasserzeichen",
+          "Hochwertige PDF-Downloads",
+          "Premium-Vorlagen",
+          "E-Mail-Support"
+        ]
+      },
+      "FULL": {
+        "name": "Vollzugriff",
+        "description": "Die Komplettlösung für Profis",
+        "features": [
+          "Zugriff auf alle 33+ Arbeitsblattgeneratoren",
+          "Unbegrenzte Arbeitsblattgenerierung",
+          "Ohne Wasserzeichen",
+          "Hochwertige PDF-Downloads",
+          "Alle Premium-Vorlagen",
+          "Prioritäts-E-Mail-Support",
+          "Kommerzielle Lizenz inklusive"
+        ]
+      }
+    }
+  },
   "support": {
     "pageTitle": "Support-Anfragen",
     "pageSubtitle": "Haben Sie Fragen oder benötigen Sie Hilfe? Unser Support-Team steht Ihnen gerne zur Verfügung.",

@@ -1055,6 +1055,86 @@
       }
     }
   },
+  "billing": {
+    "pageTitle": "Fakturering og Abonnement",
+    "currentPlanTitle": "Din nåværende pakke: {plan}",
+    "planCard": {
+      "title": "Pakke",
+      "perMonth": "/måned"
+    },
+    "billingPeriodCard": {
+      "title": "Faktureringssyklus",
+      "noActiveSubscription": "Intet aktivt abonnement",
+      "cancelsOn": "Utløper den {date}",
+      "renewsOn": "Fornyes den {date}"
+    },
+    "statusCard": {
+      "title": "Abonnementsstatus",
+      "active": "Aktiv",
+      "inactive": "Inaktiv",
+      "ends": "Slutter {date}",
+      "renews": "Fornyes {date}",
+      "noSubscription": "Intet aktivt abonnement"
+    },
+    "actions": {
+      "upgradePlan": "Oppgrader pakke",
+      "reactivateSubscription": "Reaktiver abonnement",
+      "changePlan": "Bytt pakke",
+      "cancelSubscription": "Si opp abonnement",
+      "stripePortal": "Administrer via Stripe"
+    },
+    "messages": {
+      "cancelWarning": "⚠️ Abonnementet ditt avsluttes ved periodens slutt. Du beholder tilgang til da.",
+      "paymentSuccess": "Betaling fullført! Abonnementet ditt er nå aktivt.",
+      "paymentCancelled": "Betaling avbrutt. Intet abonnement opprettet.",
+      "cancelConfirm": "Er du sikker på at du vil si opp abonnementet? Du beholder tilgang til periodens slutt.",
+      "reactivateSuccess": "Abonnement reaktivert! Automatisk fornyelse er gjenopptatt.",
+      "portalAccessFailed": "Kunne ikke åpne kundeportalen. Prøv igjen.",
+      "cancelFailed": "Kunne ikke si opp abonnement. Kontakt support.",
+      "reactivateFailed": "Kunne ikke reaktivere abonnement. Kontakt support."
+    },
+    "features": {
+      "title": "Pakkefunksjoner",
+      "upgradePrompt": "Oppgrader for å få tilgang til flere funksjoner"
+    },
+    "tiers": {
+      "FREE": {
+        "name": "Gratis",
+        "description": "Perfekt for å prøve plattformen",
+        "features": [
+          "Kun ordsøkingsgenerator",
+          "Ubegrenset antall oppgaveark",
+          "Med vannmerke",
+          "Forum-støtte"
+        ]
+      },
+      "CORE": {
+        "name": "Standard",
+        "description": "Ideell for daglig bruk i klasserommet",
+        "features": [
+          "Tilgang til 10 populære generatorer",
+          "Ubegrenset antall oppgaveark",
+          "Uten vannmerke",
+          "PDF-nedlastinger i høy kvalitet",
+          "Premium-maler",
+          "E-post støtte"
+        ]
+      },
+      "FULL": {
+        "name": "Premium",
+        "description": "Den komplette løsningen for profesjonelle",
+        "features": [
+          "Tilgang til alle 33+ generatorer",
+          "Ubegrenset antall oppgaveark",
+          "Uten vannmerke",
+          "PDF-nedlastinger i høy kvalitet",
+          "Alle premium-maler",
+          "Prioritert e-post støtte",
+          "Kommersiell lisens inkludert"
+        ]
+      }
+    }
+  },
   "support": {
     "pageTitle": "Kundestøtte",
     "pageSubtitle": "Se dine henvendelser eller opprett en ny",

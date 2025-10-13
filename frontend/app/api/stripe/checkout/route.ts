@@ -122,8 +122,9 @@ export async function POST(request: NextRequest) {
     // Create checkout session
     const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'http://localhost:3000';
 
-    // Map user's language to Stripe locale for multilingual checkout
-    const stripeLocale = mapToStripeLocale(user.language || 'en');
+    // Map current locale to Stripe locale for multilingual checkout
+    // Use the locale parameter from the request (selected language) instead of user.language (stored preference)
+    const stripeLocale = mapToStripeLocale(locale);
 
     const session = await createCheckoutSession(
       customerId,

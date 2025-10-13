@@ -126,7 +126,7 @@ export const POST = withAdmin(async (request: NextRequest, user) => {
         try {
           // Create a credit note for the invoice (this is how you "refund" an invoice without a charge)
           const creditNote = await stripe.creditNotes.create({
-            invoice: invoice.id,
+            invoice: invoice.id as string, // Type assertion - invoice.id is always present when retrieved
             amount: refundAmount,
             reason: 'duplicate', // Stripe allows: 'duplicate', 'fraudulent', 'order_change', 'product_unsatisfactory'
             metadata: {

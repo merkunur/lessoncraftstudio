@@ -56,10 +56,28 @@ export async function POST(request: NextRequest) {
 
     // Check if user already has an active subscription
     if (user.subscriptionStatus === 'active' && user.subscriptionTier !== 'free') {
+      // Check if they're trying to upgrade/change to a different plan
+      const currentTier = user.subscriptionTier?.toUpperCase();
+      const requestedTier = tier;
+
+      // If they're requesting the SAME tier, block it
+      if (currentTier === requestedTier) {
+        return NextResponse.json(
+          {
+            error: 'You already have an active subscription to this plan',
+            suggestion: 'Please use the billing portal to manage your subscription'
+          },
+          { status: 400 }
+        );
+      }
+
+      // If they're requesting a DIFFERENT tier, redirect them to use the subscription update flow
+      console.log(`🔄 User ${user.email} has ${currentTier} subscription, wants to change to ${requestedTier}`);
       return NextResponse.json(
-        { 
-          error: 'You already have an active subscription', 
-          suggestion: 'Please use the billing portal to manage your subscription' 
+        {
+          error: 'Please use your billing page to change your subscription plan',
+          redirectTo: `/${locale}/dashboard/billing`,
+          isUpgrade: true
         },
         { status: 400 }
       );

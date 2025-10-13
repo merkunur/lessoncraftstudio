@@ -45,7 +45,15 @@
       "Bash(for file in de.json fr.json es.json pt.json it.json nl.json sv.json da.json no.json fi.json)",
       "Bash(\"C:\\Program Files\\PuTTY\\plink.exe\" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 \"cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && cp -r public .next/standalone/public && pm2 restart lessoncraftstudio && echo ''✅ Subscription date fixes deployed!''\")",
       "Read(//c/Users/rkgen/Pictures/Screenshots/**)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(\"C:\\Program Files\\PuTTY\\plink.exe\" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 \"cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && cp -r public .next/standalone/public && pm2 restart lessoncraftstudio && echo ''✅ Billing page translation and button debug fixes deployed!''\")",
+      "Bash(\"C:\\Program Files\\PuTTY\\plink.exe\" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 \"cd /opt/lessoncraftstudio/frontend && grep -A 5 ''CORE.*name'' messages/sv.json\")",
+      "Bash(git push:*)",
+      "Bash(\"C:\\Program Files\\PuTTY\\plink.exe\" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 \"cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && cp -r public .next/standalone/public && pm2 restart lessoncraftstudio && echo ''✅ REAL billing page fixes deployed!''\")",
+      "Bash(\"C:\\Program Files\\PuTTY\\plink.exe\" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 \"cd /opt/lessoncraftstudio/frontend && grep -A 8 ''\"\"CORE\"\"'' messages/sv.json | grep -A 5 ''name''\")",
+      "Bash(\"C:\\Program Files\\PuTTY\\plink.exe\" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 \"cd /opt/lessoncraftstudio/frontend && grep -A 8 ''\"\"FULL\"\"'' messages/sv.json | grep -A 5 ''name''\")",
+      "Bash(\"C:\\Program Files\\PuTTY\\plink.exe\" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 \"cd /opt/lessoncraftstudio/frontend && grep -A 5 ''billingPeriodCard'' messages/sv.json\")"
     ],
     "deny": [],
     "ask": []

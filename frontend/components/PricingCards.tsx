@@ -79,12 +79,15 @@ export default function PricingCards({
     e.preventDefault();
     console.log('[PricingCards] Prevented default link behavior for paid plan');
 
-    // If not authenticated, redirect to signin with redirect parameter to come back to pricing
+    // If not authenticated, redirect to signin with plan and billing interval parameters
+    // This allows automatic checkout creation after signin without requiring user to click Subscribe again
     if (!isAuthenticated) {
       const locale = window.location.pathname.split('/')[1] || 'en';
-      const currentPath = window.location.pathname; // Preserve current pricing page path
-      const signinUrl = `/${locale}/auth/signin?redirect=${encodeURIComponent(currentPath)}`;
-      console.log('[PricingCards] User NOT authenticated, redirecting to signin with redirect:', signinUrl);
+      const currentPath = window.location.pathname;
+      const planParam = plan.variant.toLowerCase(); // 'core' or 'full'
+      const billingParam = isYearly ? 'yearly' : 'monthly';
+      const signinUrl = `/${locale}/auth/signin?redirect=${encodeURIComponent(currentPath)}&plan=${planParam}&billing=${billingParam}`;
+      console.log('[PricingCards] User NOT authenticated, redirecting to signin with plan:', planParam, 'billing:', billingParam);
       router.push(signinUrl);
       return;
     }

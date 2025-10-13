@@ -56,7 +56,8 @@ export default function SignInClient() {
 
   const router = useRouter();
   const searchParams = useSearchParams();
-  const plan = searchParams.get('plan'); // Get plan from URL parameter
+  const plan = searchParams.get('plan'); // Get plan from URL parameter (core or full)
+  const billing = searchParams.get('billing'); // Get billing interval from URL parameter (monthly or yearly)
   const redirect = searchParams.get('redirect'); // Get redirect URL from parameter
   const t = useTranslations('auth.signIn');
 
@@ -109,8 +110,15 @@ export default function SignInClient() {
 
       // If there's a plan parameter, create checkout session
       if (plan && (plan === 'core' || plan === 'full')) {
+        const billingInterval = billing === 'yearly' ? 'yearly' : 'monthly'; // Default to monthly if not specified
+        const locale = window.location.pathname.split('/')[1] || 'en';
+        const baseUrl = window.location.origin;
+        const successUrl = `${baseUrl}/${locale}/dashboard/billing?success=true`;
+        const cancelUrl = `${baseUrl}/${locale}/pricing?cancelled=true`;
+
         console.log('=== PLAN PARAMETER DETECTED ===');
         console.log('Plan:', plan);
+        console.log('Billing interval:', billingInterval);
         console.log('User email:', data.user.email);
         console.log('User subscription tier:', data.user.subscriptionTier);
         console.log('Creating checkout session...');
@@ -124,7 +132,9 @@ export default function SignInClient() {
             },
             body: JSON.stringify({
               tier: plan.toUpperCase(),
-              billingInterval: 'monthly',
+              billingInterval: billingInterval,
+              successUrl,
+              cancelUrl,
             }),
           });
 
@@ -196,8 +206,15 @@ export default function SignInClient() {
 
       // If there's a plan parameter, create checkout session
       if (plan && (plan === 'core' || plan === 'full')) {
+        const billingInterval = billing === 'yearly' ? 'yearly' : 'monthly'; // Default to monthly if not specified
+        const locale = window.location.pathname.split('/')[1] || 'en';
+        const baseUrl = window.location.origin;
+        const successUrl = `${baseUrl}/${locale}/dashboard/billing?success=true`;
+        const cancelUrl = `${baseUrl}/${locale}/pricing?cancelled=true`;
+
         console.log('[Force Signin] === PLAN PARAMETER DETECTED ===');
         console.log('[Force Signin] Plan:', plan);
+        console.log('[Force Signin] Billing interval:', billingInterval);
         console.log('[Force Signin] User email:', data.user.email);
         console.log('[Force Signin] User subscription tier:', data.user.subscriptionTier);
         console.log('[Force Signin] Creating checkout session...');
@@ -211,7 +228,9 @@ export default function SignInClient() {
             },
             body: JSON.stringify({
               tier: plan.toUpperCase(),
-              billingInterval: 'monthly',
+              billingInterval: billingInterval,
+              successUrl,
+              cancelUrl,
             }),
           });
 

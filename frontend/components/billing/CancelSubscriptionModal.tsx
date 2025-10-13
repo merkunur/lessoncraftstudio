@@ -18,14 +18,26 @@ export function CancelSubscriptionModal({
   const t = useTranslations('billing.cancelModal');
   const [isProcessing, setIsProcessing] = useState(false);
 
+  // Log when modal is mounted
+  console.log('🟡 CancelSubscriptionModal: Modal mounted');
+  console.log('🟡 CancelSubscriptionModal: currentPeriodEnd:', currentPeriodEnd);
+  console.log('🟡 CancelSubscriptionModal: onConfirm type:', typeof onConfirm);
+  console.log('🟡 CancelSubscriptionModal: onClose type:', typeof onClose);
+
   const handleConfirm = async () => {
+    console.log('🟡 CancelSubscriptionModal: Confirm button clicked');
     setIsProcessing(true);
+    console.log('🟡 CancelSubscriptionModal: Processing state set to true');
     try {
+      console.log('🟡 CancelSubscriptionModal: Calling onConfirm handler...');
       await onConfirm();
+      console.log('🟡 CancelSubscriptionModal: onConfirm completed successfully, closing modal');
       onClose();
     } catch (error) {
+      console.error('🟡 CancelSubscriptionModal: onConfirm failed with error:', error);
       // Error handling is done in the parent component
       setIsProcessing(false);
+      console.log('🟡 CancelSubscriptionModal: Processing state set to false after error');
     }
   };
 

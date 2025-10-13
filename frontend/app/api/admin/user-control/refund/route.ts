@@ -63,8 +63,30 @@ export const POST = withAdmin(async (request: NextRequest, user) => {
       ? Math.round(amount * 100) // Convert to cents
       : Math.round(payment.amount * 100); // Refund full amount
 
+    // Get the actual payment intent ID
+    // The stripePaymentIntentId field might contain either:
+    // - A payment intent ID (starts with 'pi_')
+    // - An invoice ID (starts with 'in_') as fallback
+    let actualPaymentIntentId = payment.stripePaymentIntentId;
+
+    if (payment.stripePaymentIntentId.startsWith('in_')) {
+      // This is an invoice ID, we need to retrieve the invoice to get the payment intent
+      console.log(`Retrieving invoice ${payment.stripePaymentIntentId} to get payment intent`);
+      const invoice = await stripe.invoices.retrieve(payment.stripePaymentIntentId);
+
+      if (!invoice.payment_intent) {
+        return NextResponse.json(
+          { error: 'Invoice does not have an associated payment intent. Cannot process refund.' },
+          { status: 400 }
+        );
+      }
+
+      actualPaymentIntentId = invoice.payment_intent as string;
+      console.log(`Found payment intent ${actualPaymentIntentId} from invoice`);
+    }
+
     const refund = await stripe.refunds.create({
-      payment_intent: payment.stripePaymentIntentId,
+      payment_intent: actualPaymentIntentId,
       amount: refundAmount,
       reason: reason === 'requested_by_customer' ? 'requested_by_customer' : 'duplicate',
       metadata: {

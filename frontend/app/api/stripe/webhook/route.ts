@@ -223,14 +223,20 @@ async function handleInvoicePaid(invoice: Stripe.Invoice) {
     update: {
       status: 'succeeded',
       amount: invoice.amount_paid / 100,
+      stripeInvoiceId: invoice.id,
+      invoiceUrl: invoice.hosted_invoice_url || undefined,
+      invoicePdf: invoice.invoice_pdf || undefined,
     },
     create: {
       userId: user.id,
       stripePaymentIntentId: paymentIntentId,
+      stripeInvoiceId: invoice.id,
       amount: invoice.amount_paid / 100, // Convert from cents
       currency: invoice.currency,
       status: 'succeeded',
       description: `Subscription payment for ${invoice.period_start ? new Date(invoice.period_start * 1000).toLocaleDateString() : 'N/A'}`,
+      invoiceUrl: invoice.hosted_invoice_url || undefined,
+      invoicePdf: invoice.invoice_pdf || undefined,
     },
   });
 
@@ -271,10 +277,12 @@ async function handleInvoicePaymentFailed(invoice: Stripe.Invoice) {
     update: {
       status: 'failed',
       amount: invoice.amount_due / 100,
+      stripeInvoiceId: invoice.id,
     },
     create: {
       userId: user.id,
       stripePaymentIntentId: paymentIntentId,
+      stripeInvoiceId: invoice.id,
       amount: invoice.amount_due / 100,
       currency: invoice.currency,
       status: 'failed',

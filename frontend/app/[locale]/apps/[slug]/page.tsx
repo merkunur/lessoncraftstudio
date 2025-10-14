@@ -3131,9 +3131,9 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="h-screen flex flex-col bg-gray-50 overflow-hidden">
       {/* Header */}
-      <section className={`bg-gradient-to-r ${tierColor} text-white py-12`}>
+      <section className={`bg-gradient-to-r ${tierColor} text-white py-12 flex-shrink-0`}>
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             {/* Breadcrumb */}
@@ -3146,7 +3146,7 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
               <span>/</span>
               <span>{appName}</span>
             </div>
-            
+
             {/* Title and Description */}
             <div className="flex items-start gap-4 mb-6">
               <div className="text-5xl">{icon}</div>
@@ -3157,7 +3157,7 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
                 </p>
               </div>
             </div>
-            
+
             {/* Features Pills */}
             <div className="flex flex-wrap gap-3">
               <span className="px-4 py-2 bg-white/20 backdrop-blur rounded-full text-sm font-semibold">
@@ -3176,8 +3176,8 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
         </div>
       </section>
 
-      {/* App Container - Full Screen */}
-      <section className="flex-1 bg-white">
+      {/* App Container - Fills Remaining Space */}
+      <section className="flex-1 bg-white overflow-hidden">
         {hasAccess ? (
           <div className="h-full">
             <AppContent

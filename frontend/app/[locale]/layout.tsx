@@ -1,36 +1,74 @@
+'use client';
+
 import { Inter, Poppins } from 'next/font/google';
-import { notFound } from 'next/navigation';
+import { notFound, usePathname } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { useEffect, useState } from 'react';
 import { locales } from '@/i18n/request';
 import { Navigation } from '@/components/layout/Navigation';
 import { Footer } from '@/components/layout/Footer';
 
-const inter = Inter({ 
+const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter'
 });
 
-const poppins = Poppins({ 
+const poppins = Poppins({
   weight: ['400', '500', '600', '700'],
   subsets: ['latin'],
   variable: '--font-poppins'
 });
 
-export default async function LocaleLayout({
+export default function LocaleLayout({
   children,
   params: { locale }
 }: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
+  const pathname = usePathname();
+  const [messages, setMessages] = useState<any>(null);
+
+  // Check if we're on an apps route
+  const isAppsRoute = pathname?.includes('/apps/');
+
+  useEffect(() => {
+    async function loadMessages() {
+      try {
+        const msgs = await import(`@/messages/${locale}.json`);
+        setMessages(msgs.default);
+      } catch (error) {
+        console.error('Failed to load messages:', error);
+      }
+    }
+    loadMessages();
+  }, [locale]);
 
   if (!locales.includes(locale as any)) {
     notFound();
   }
 
-  const messages = await getMessages({ locale });
+  if (!messages) {
+    return null; // or a loading spinner
+  }
 
+  // Apps routes: Full viewport with flexbox, no Footer
+  if (isAppsRoute) {
+    return (
+      <html lang={locale} className={`${inter.variable} ${poppins.variable}`}>
+        <body className="h-screen flex flex-col bg-gray-50 font-sans overflow-hidden">
+          <NextIntlClientProvider locale={locale} messages={messages}>
+            <Navigation />
+            <main className="flex-1 overflow-hidden">
+              {children}
+            </main>
+          </NextIntlClientProvider>
+        </body>
+      </html>
+    );
+  }
+
+  // Other routes: Normal document flow with Footer
   return (
     <html lang={locale} className={`${inter.variable} ${poppins.variable}`}>
       <body className="min-h-screen bg-gray-50 font-sans">
@@ -44,8 +82,4 @@ export default async function LocaleLayout({
       </body>
     </html>
   );
-}
-
-export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
 }

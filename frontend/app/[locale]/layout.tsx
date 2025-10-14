@@ -52,14 +52,14 @@ export default function LocaleLayout({
     return null; // or a loading spinner
   }
 
-  // Apps routes: Full viewport with flexbox, no Footer
+  // Apps routes: Scrollable page, no Footer
   if (isAppsRoute) {
     return (
       <html lang={locale} className={`${inter.variable} ${poppins.variable}`}>
-        <body className="h-screen flex flex-col bg-gray-50 font-sans overflow-hidden">
+        <body className="min-h-screen bg-gray-50 font-sans">
           <NextIntlClientProvider locale={locale} messages={messages}>
             <Navigation />
-            <main className="flex-1 overflow-hidden">
+            <main>
               {children}
             </main>
           </NextIntlClientProvider>

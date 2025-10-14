@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import WebComponentWrapper from '@/components/WebComponentWrapper';
-import AppContent from './AppContent';
+import LaunchAppButton from './LaunchAppButton';
 import { Button } from '@/components/ui/Button';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -3026,13 +3026,7 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
   if (!appData) {
     notFound();
   }
-  
-  // SERVER-SIDE: This check is redundant because AppContent (client component)
-  // handles the actual access control with useAuth hook. This page should always
-  // render AppContent and let it handle tier checking on the client side.
-  // Setting hasAccess to true so AppContent is always rendered.
-  const hasAccess = true;
-  
+
   // Extract data with fallbacks
   const appName = appData.name || slug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
   const appDescription = appData.description || `Create professional ${appName} worksheets`;
@@ -3176,44 +3170,18 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
         </div>
       </section>
 
-      {/* App Container - Fills Remaining Space with minimum height guarantee */}
-      <section className="flex-1 bg-white overflow-hidden min-h-[400px]">
-        {hasAccess ? (
-          <div className="h-full">
-            <AppContent
-              appSlug={slug}
-              locale={locale}
-              appName={appName}
-              requiredTier={appTier}
-            />
-          </div>
-        ) : (
-          <div className="flex items-center justify-center h-screen bg-gray-50">
-            <div className="bg-white rounded-lg shadow-lg p-12 text-center max-w-md">
-              <div className="text-6xl mb-4">🔒</div>
-              <h2 className="text-2xl font-semibold mb-4">
-                {locale === 'de'
-                  ? uiTranslations.de.accessRequired[appTier as keyof typeof uiTranslations.de.accessRequired] || `Diese App erfordert ${getLocalizedTierLabel()}`
-                  : `This app requires ${appTier === 'core' ? 'Core Bundle' : 'Full Access'}`}
-              </h2>
-              <p className="text-gray-600 mb-8">
-                {t('upgradeMessage', 'Upgrade your plan to access this worksheet generator and many more professional tools.')}
-              </p>
-              <div className="space-y-4">
-                <Button href={`/${locale}/pricing`} variant="primary" size="lg" fullWidth>
-                  {t('viewPricing', 'View Pricing Plans')}
-                </Button>
-                <Button href={`/${locale}/apps`} variant="ghost" size="lg" fullWidth>
-                  {t('browseFreeApps', 'Browse Free Apps')}
-                </Button>
-              </div>
-            </div>
-          </div>
-        )}
-      </section>
+      {/* Launch App Section */}
+      <LaunchAppButton
+        appSlug={slug}
+        sourceFile={sourceFile}
+        locale={locale}
+        appName={appName}
+        appTier={appTier}
+        tierColor={tierColor}
+      />
 
       {/* Instructions Section */}
-      {appData.instructions && hasAccess && (
+      {appData.instructions && (
         <section className="py-12 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
@@ -3237,34 +3205,6 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
                     <p className="text-sm text-gray-600">{useCase.description}</p>
                   </div>
                 ))}
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* CTA Section */}
-      {!hasAccess && (
-        <section className="py-12 bg-gradient-to-r from-primary to-primary-dark text-white">
-          <div className="container mx-auto px-4">
-            <div className="max-w-2xl mx-auto text-center">
-              <h2 className="text-3xl font-bold mb-4">
-                {locale === 'de'
-                  ? 'Bereit, erstaunliche Arbeitsblätter zu erstellen?'
-                  : 'Ready to Create Amazing Worksheets?'}
-              </h2>
-              <p className="text-xl mb-8 text-white/90">
-                {locale === 'de'
-                  ? 'Schließen Sie sich Tausenden von Lehrern an, die professionelle Unterrichtsmaterialien erstellen'
-                  : 'Join thousands of teachers creating professional educational materials'}
-              </p>
-              <div className="flex gap-4 justify-center">
-                <Button href={`/${locale}/pricing`} variant="secondary" size="lg">
-                  {t('viewAllPlans', 'View All Plans')}
-                </Button>
-                <Button href={`/${locale}/auth/signup`} variant="ghost" size="lg">
-                  {t('startFreeTrial', 'Sign Up Free')}
-                </Button>
               </div>
             </div>
           </div>

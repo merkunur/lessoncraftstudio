@@ -1,143 +1,118 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getCurrentUser } from '@/lib/auth';
 import { prisma } from '@/lib/prisma';
-import { handleApiError } from '@/lib/api-error';
-import { z } from 'zod';
+import { requireAdmin } from '@/lib/auth';
 
-export const dynamic = 'force-dynamic';
-
-/**
- * POST /api/support/tickets
- * Create a new support ticket
- *
- * Auth: Optional (can be submitted without account)
- */
-export async function POST(request: NextRequest) {
+export async function GET(request: NextRequest) {
   try {
-    const body = await request.json();
+    // Verify admin authentication
+    await requireAdmin(request);
 
-    // Validation schema
-    const ticketSchema = z.object({
-      subject: z.string().min(5, 'Subject must be at least 5 characters'),
-      message: z.string().min(20, 'Message must be at least 20 characters'),
-      category: z.enum(['bug', 'feature_request', 'billing', 'technical', 'other']).optional(),
-      priority: z.enum(['low', 'medium', 'high', 'urgent']).optional(),
-      email: z.string().email('Invalid email address'),
-      name: z.string().optional(),
-      userId: z.string().optional(),
-    });
+    // Parse query parameters
+    const { searchParams } = new URL(request.url);
+    const page = parseInt(searchParams.get('page') || '1');
+    const limit = parseInt(searchParams.get('limit') || '20');
+    const status = searchParams.get('status') || undefined;
+    const priority = searchParams.get('priority') || undefined;
+    const category = searchParams.get('category') || undefined;
+    const search = searchParams.get('search') || undefined;
 
-    const validationResult = ticketSchema.safeParse(body);
-
-    if (!validationResult.success) {
+    // Validate pagination
+    if (page < 1 || limit < 1 || limit > 100) {
       return NextResponse.json(
-        { error: 'Validation failed', details: validationResult.error.flatten() },
+        { error: 'Invalid pagination parameters' },
         { status: 400 }
       );
     }
 
-    const data = validationResult.data;
+    // Build where clause for filtering
+    const where: any = {};
 
-    // Try to get current user (optional)
-    let user = null;
-    try {
-      user = await getCurrentUser(request);
-    } catch (error) {
-      // User not authenticated, that's okay for support tickets
+    if (status) {
+      where.status = status;
     }
 
-    // Create the support ticket
-    const ticket = await prisma.supportTicket.create({
-      data: {
-        userId: user?.id || data.userId || null,
-        email: data.email,
-        name: data.name || null,
-        subject: data.subject,
-        message: data.message,
-        category: data.category || 'other',
-        priority: data.priority || 'medium',
-        status: 'open',
-      },
-    });
+    if (priority) {
+      where.priority = priority;
+    }
 
-    // Log activity if user is authenticated
-    if (user) {
-      await prisma.activityLog.create({
-        data: {
-          userId: user.id,
-          action: 'support_ticket_created',
-          details: `Support ticket created: "${data.subject}". Category: ${ticket.category}, Priority: ${ticket.priority}`,
-          metadata: {
-            ticketId: ticket.id,
-            category: ticket.category,
-            priority: ticket.priority,
+    if (category) {
+      where.category = category;
+    }
+
+    // Search across email, name, subject, and message
+    if (search) {
+      where.OR = [
+        { email: { contains: search, mode: 'insensitive' } },
+        { name: { contains: search, mode: 'insensitive' } },
+        { subject: { contains: search, mode: 'insensitive' } },
+        { message: { contains: search, mode: 'insensitive' } },
+      ];
+    }
+
+    // Get total count for pagination
+    const totalCount = await prisma.supportTicket.count({ where });
+
+    // Get paginated tickets
+    const tickets = await prisma.supportTicket.findMany({
+      where,
+      orderBy: {
+        createdAt: 'desc', // Newest first
+      },
+      skip: (page - 1) * limit,
+      take: limit,
+      include: {
+        user: {
+          select: {
+            id: true,
+            firstName: true,
+            lastName: true,
+            email: true,
+            subscriptionTier: true,
           },
         },
-      });
-    }
-
-    return NextResponse.json({
-      message: 'Support ticket submitted successfully',
-      ticket: {
-        id: ticket.id,
-        subject: ticket.subject,
-        status: ticket.status,
-        createdAt: ticket.createdAt,
-      },
-    }, { status: 201 });
-
-  } catch (error) {
-    return handleApiError(error);
-  }
-}
-
-/**
- * GET /api/support/tickets
- * Get user's support tickets
- *
- * Auth: Required
- */
-export async function GET(request: NextRequest) {
-  try {
-    const user = await getCurrentUser(request);
-
-    if (!user) {
-      return NextResponse.json(
-        { error: 'Unauthorized' },
-        { status: 401 }
-      );
-    }
-
-    // Get user's tickets
-    const tickets = await prisma.supportTicket.findMany({
-      where: {
-        userId: user.id,
-      },
-      orderBy: {
-        createdAt: 'desc',
-      },
-      select: {
-        id: true,
-        subject: true,
-        message: true,
-        category: true,
-        priority: true,
-        status: true,
-        response: true,
-        respondedAt: true,
-        resolved: true,
-        resolvedAt: true,
-        createdAt: true,
-        updatedAt: true,
       },
     });
 
-    return NextResponse.json({
-      tickets,
-      total: tickets.length,
-    });
+    // Calculate pagination metadata
+    const totalPages = Math.ceil(totalCount / limit);
+    const hasNextPage = page < totalPages;
+    const hasPrevPage = page > 1;
 
+    return NextResponse.json({
+      success: true,
+      data: {
+        tickets,
+        pagination: {
+          page,
+          limit,
+          totalCount,
+          totalPages,
+          hasNextPage,
+          hasPrevPage,
+        },
+      },
+    });
   } catch (error) {
-    return handleApiError(error);
+    console.error('Error fetching support tickets:', error);
+
+    if (error instanceof Error) {
+      if (error.message === 'Unauthorized') {
+        return NextResponse.json(
+          { error: 'Unauthorized' },
+          { status: 401 }
+        );
+      }
+      if (error.message.includes('Forbidden')) {
+        return NextResponse.json(
+          { error: 'Forbidden - Admin access required' },
+          { status: 403 }
+        );
+      }
+    }
+
+    return NextResponse.json(
+      { error: 'Failed to fetch support tickets' },
+      { status: 500 }
+    );
   }
 }

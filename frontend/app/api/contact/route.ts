@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { sendEmail } from '@/lib/email';
+import { prisma } from '@/lib/prisma';
 
 interface ContactFormData {
   name: string;
@@ -38,6 +39,21 @@ export async function POST(request: NextRequest) {
     };
 
     const subjectText = subjectMap[body.subject] || body.subject;
+
+    // Save to database as SupportTicket
+    const ticket = await prisma.supportTicket.create({
+      data: {
+        email: body.email,
+        name: body.name,
+        subject: subjectText,
+        message: body.message,
+        category: body.subject, // general, support, feedback, partnership
+        priority: 'medium',
+        status: 'open',
+      }
+    });
+
+    console.log(`✅ Contact message saved to database - Ticket ID: ${ticket.id}`);
 
     // Create HTML email for support team
     const supportEmailHtml = `

@@ -6,16 +6,19 @@ const { createId } = require('@paralleldrive/cuid2');
 const prisma = new PrismaClient();
 
 // Directories to exclude from scanning (not image libraries)
+// These are either app-specific resources or have their own content types
 const EXCLUDED_DIRS = [
-  'template',
-  'train-templates',
-  'train_templates',
-  'worksheet-templates',
-  'worksheet_templates',
-  'backgrounds',  // Has its own type
-  'borders',      // Has its own type (handled separately)
-  '.next',
-  'node_modules'
+  'alphabetsvg',           // ❌ Letter SVG files used by writing.html app
+  'template',              // Template files
+  'train-templates',       // Train template type
+  'train_templates',       // Train template type
+  'worksheet-templates',   // Worksheet template type
+  'worksheet_templates',   // Worksheet template type
+  'backgrounds',           // Has its own content type (backgrounds)
+  'borders',               // Has its own content type (borders)
+  'icons',                 // UI icons, not worksheet images
+  '.next',                 // Build artifacts
+  'node_modules'           // Dependencies
 ];
 
 // Type mapping for special directories

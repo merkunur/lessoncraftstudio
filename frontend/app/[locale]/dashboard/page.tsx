@@ -35,6 +35,43 @@ interface WorksheetApp {
   translationKey: string;
 }
 
+// Map from HTML filename to app slug for info page navigation
+const urlToSlugMap: { [key: string]: string } = {
+  'wordsearch.html': 'word-search',
+  'addition.html': 'image-addition',
+  'subtraction.html': 'subtraction',
+  'alphabet train.html': 'alphabet-train',
+  'find and count.html': 'find-and-count',
+  'matching.html': 'matching-app',
+  'crossword.html': 'image-crossword',
+  'sudoku.html': 'sudoku',
+  'coloring.html': 'coloring',
+  'math worksheet.html': 'math-worksheet',
+  'math puzzle.html': 'math-puzzle',
+  'word scramble.html': 'word-scramble',
+  'chart count.html': 'chart-count-color',
+  'drawing lines.html': 'drawing-lines',
+  'big small.html': 'big-small-app',
+  'code addition.html': 'code-addition',
+  'cryptogram.html': 'image-cryptogram',
+  'draw and color.html': 'draw-and-color',
+  'find objects.html': 'find-objects',
+  'grid match.html': 'grid-match',
+  'more less.html': 'more-less',
+  'odd one out.html': 'odd-one-out',
+  'picture path.html': 'picture-path',
+  'picture sort.html': 'picture-sort',
+  'prepositions.html': 'prepositions',
+  'treasure hunt.html': 'treasure-hunt',
+  'word guess.html': 'word-guess',
+  'writing.html': 'writing-app',
+  'bingo.html': 'picture-bingo',
+  'shadow match.html': 'shadow-match',
+  'pattern train.html': 'pattern-train',
+  'pattern worksheet.html': 'pattern-worksheet',
+  'missing pieces.html': 'missing-pieces'
+};
+
 const allApps: WorksheetApp[] = [
   // Free Tier (1 app with watermark)
   { name: 'Word Search', url: '/worksheet-generators/wordsearch.html', icon: '🔍', tier: 'free', category: 'Language', description: 'Create engaging word search puzzles', translationKey: 'wordSearch' },
@@ -289,7 +326,23 @@ export default function DashboardPage() {
                             ? 'border-gray-200 hover:border-indigo-400 hover:shadow-2xl cursor-pointer transform hover:-translate-y-1'
                             : 'border-gray-200 opacity-60'
                         }`}
-                        onClick={() => hasAccess && window.open(`${app.url}?tier=${user?.subscriptionTier || 'free'}&locale=${locale}`, '_blank')}
+                        onClick={() => {
+                          if (hasAccess) {
+                            // Extract HTML filename from URL and map to app slug
+                            const htmlFile = app.url.split('/').pop() || '';
+                            const decodedFile = decodeURIComponent(htmlFile);
+                            const slug = urlToSlugMap[decodedFile];
+
+                            if (slug) {
+                              // Open apps info page (same experience as browsing apps)
+                              window.open(`/${locale}/apps/${slug}`, '_blank');
+                            } else {
+                              // Fallback to direct generator URL if mapping not found
+                              console.warn(`No slug mapping found for ${decodedFile}, using direct URL`);
+                              window.open(`${app.url}?tier=${user?.subscriptionTier || 'free'}&locale=${locale}`, '_blank');
+                            }
+                          }
+                        }}
                       >
                         {/* Tier Badge */}
                         <div className={`absolute -top-3 -right-3 ${badge.color} rounded-xl px-3 py-1 shadow-lg flex items-center space-x-1`}>

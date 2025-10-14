@@ -11,6 +11,7 @@ const EXCLUDED_DIRS = [
   'alphabetsvg',           // ❌ Letter SVG files used by writing.html app
   'drawing lines',         // ❌ Drawing line templates for drawing lines.html app
   'coloring',              // ❌ Coloring page templates for coloring.html app
+  'prepositions',          // ❌ Preposition images used by prepositions.html app
   'template',              // Template files
   'train-templates',       // Train template type
   'train_templates',       // Train template type

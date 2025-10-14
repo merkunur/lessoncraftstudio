@@ -1,8 +1,5 @@
 import { Metadata } from 'next';
-import WebComponentWrapper from '@/components/WebComponentWrapper';
-import LaunchAppButton from './LaunchAppButton';
-import { Button } from '@/components/ui/Button';
-import Link from 'next/link';
+import AutoLaunchApp from './AutoLaunchApp';
 import { notFound } from 'next/navigation';
 
 interface PageProps {
@@ -3125,92 +3122,13 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Header - Hero Section */}
-      <section className={`bg-gradient-to-r ${tierColor} text-white py-12 md:py-8 sm:py-6`}>
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            {/* Breadcrumb */}
-            <div className="flex items-center gap-2 text-white/80 mb-4 text-sm">
-              <Link href={`/${locale}/apps`} className="hover:text-white transition-colors">
-                {t('apps', 'Apps')}
-              </Link>
-              <span>/</span>
-              <span>{category}</span>
-              <span>/</span>
-              <span>{appName}</span>
-            </div>
-
-            {/* Title and Description - Responsive text sizes */}
-            <div className="flex items-start gap-4 mb-4 md:mb-3">
-              <div className="text-5xl md:text-4xl sm:text-3xl">{icon}</div>
-              <div className="flex-1">
-                <h1 className="text-4xl md:text-3xl sm:text-2xl font-bold mb-4 md:mb-3 sm:mb-2">{appName}</h1>
-                <p className="text-xl md:text-lg sm:text-base text-white/90">
-                  {appDescription}
-                </p>
-              </div>
-            </div>
-
-            {/* Features Pills - Limited height on small screens */}
-            <div className="flex flex-wrap gap-3 max-h-20 sm:max-h-16 overflow-hidden">
-              <span className="px-4 py-2 bg-white/20 backdrop-blur rounded-full text-sm font-semibold">
-                {getLocalizedTierLabel()}
-              </span>
-              {features.map((feature: any, index: number) => {
-                const featureText = typeof feature === 'string' ? feature : feature.text || feature.title || '';
-                return (
-                  <span key={index} className="px-4 py-2 bg-black/20 backdrop-blur rounded-full text-sm">
-                    ✓ {featureText}
-                  </span>
-                );
-              })}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Launch App Section */}
-      <LaunchAppButton
-        appSlug={slug}
-        sourceFile={sourceFile}
-        locale={locale}
-        appName={appName}
-        appTier={appTier}
-        tierColor={tierColor}
-      />
-
-      {/* Instructions Section */}
-      {appData.instructions && (
-        <section className="py-12 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-2xl font-bold mb-6">{t('howToUse', 'How to Use')}</h2>
-              <div className="prose prose-lg max-w-none" dangerouslySetInnerHTML={{ __html: appData.instructions }} />
-            </div>
-          </div>
-        </section>
-      )}
-
-      {/* Use Cases Section */}
-      {appData.useCases && appData.useCases.length > 0 && (
-        <section className="py-12 bg-gray-50">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <h2 className="text-2xl font-bold mb-8 text-center">Perfect For</h2>
-              <div className="grid md:grid-cols-3 gap-6">
-                {appData.useCases.map((useCase: any, index: number) => (
-                  <div key={index} className="bg-white rounded-lg p-6 shadow-sm">
-                    <h3 className="font-semibold mb-2">{useCase.title}</h3>
-                    <p className="text-sm text-gray-600">{useCase.description}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-      )}
-    </div>
+    <AutoLaunchApp
+      appSlug={slug}
+      sourceFile={sourceFile}
+      locale={locale}
+      appName={appName}
+      appTier={appTier}
+    />
   );
 }
 

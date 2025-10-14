@@ -419,28 +419,49 @@ export default function AppContent({ appSlug, locale, appName, requiredTier }: A
           key={iframeKey}
           src={iframeUrl}
           className="w-full h-full border-0"
-          style={{ minHeight: 'calc(100vh - 120px)' }}
           title={appName}
         />
       </div>
 
       <style jsx>{`
         .app-content-container {
+          /* Use dvh (dynamic viewport height) for better mobile support */
+          /* Falls back to 100vh for older browsers */
+          min-height: 100dvh;
           min-height: 100vh;
           background-color: #f5f5f5;
+          display: flex;
+          flex-direction: column;
         }
 
         .app-iframe-container {
           width: 100%;
-          height: calc(100vh - 60px);
+          /* Account for navigation (120px) - use flexible height that adapts to viewport */
+          /* dvh adjusts for mobile browser UI, vh is fallback for older browsers */
+          height: calc(100dvh - 120px);
+          height: calc(100vh - 120px);
           background-color: white;
+          flex: 1;
+          overflow: auto;
         }
 
+        /* Writing app gets full height without navigation offset */
         ${isWritingApp ? `
           .app-iframe-container {
+            height: 100dvh;
             height: 100vh;
           }
         ` : ''}
+
+        /* Responsive adjustments for smaller screens */
+        @media (max-width: 768px) {
+          .app-iframe-container {
+            /* Use dvh for mobile - adjusts when address bar shows/hides */
+            height: calc(100dvh - 120px);
+            /* Ensure no scrollbars on the container itself */
+            overflow: hidden;
+          }
+        }
       `}</style>
     </div>
   );

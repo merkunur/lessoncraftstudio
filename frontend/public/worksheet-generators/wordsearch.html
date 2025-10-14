@@ -126,8 +126,6 @@
             overflow-y: auto;
             flex-grow: 1;
             padding: 10px 15px;
-            display: flex;
-            flex-direction: column;
         }
 
         /* --- Accordion Styles --- */
@@ -158,16 +156,16 @@
             transition: transform 0.2s ease-in-out;
         }
         .accordion-button.active::after { transform: rotate(-180deg); }
-        .accordion-wrapper {
+        .accordion-content {
             padding: 10px 10px 20px 10px;
             display: none;
         }
-        .accordion-button.active + .accordion-wrapper { 
+        .accordion-button.active + .accordion-content { 
             display: block; 
         }
 
         /* --- Form Controls Styling --- */
-        .accordion-wrapper h4 {
+        .accordion-content h4 {
             font-size: 13px;
             color: var(--app-text-secondary-dark-theme);
             margin-top: 15px;
@@ -176,8 +174,8 @@
             padding-bottom: 6px;
             font-weight: 500;
         }
-        .accordion-wrapper h4:first-child { margin-top: 0; }
-        .accordion-wrapper label, .checkbox-label {
+        .accordion-content h4:first-child { margin-top: 0; }
+        .accordion-content label, .checkbox-label {
             display: block;
             font-size: 13px;
             color: var(--app-text-secondary-dark-theme);
@@ -193,10 +191,10 @@
             margin-right: 8px;
             accent-color: var(--app-accent-primary);
         }
-        .accordion-wrapper input[type="text"],
-        .accordion-wrapper input[type="number"],
-        .accordion-wrapper textarea,
-        .accordion-wrapper select {
+        .accordion-content input[type="text"],
+        .accordion-content input[type="number"],
+        .accordion-content textarea,
+        .accordion-content select {
             width: 100%;
             padding: 8px 10px;
             font-size: 13px;
@@ -207,14 +205,14 @@
             box-sizing: border-box;
             margin-bottom: 12px;
         }
-        .accordion-wrapper .grid-inputs {
+        .accordion-content .grid-inputs {
             display: flex; gap: 10px;
         }
-        .accordion-wrapper input[type="color"] {
+        .accordion-content input[type="color"] {
             width: 100%; padding: 2px; height: 38px; margin-bottom: 12px; border-radius: 5px; border-color: var(--app-border-dark);
         }
-        .accordion-wrapper input[type="range"] { width:100%; padding: 0; margin-bottom: 12px;}
-        .accordion-wrapper input[type="file"] {
+        .accordion-content input[type="range"] { width:100%; padding: 0; margin-bottom: 12px;}
+        .accordion-content input[type="file"] {
           color: var(--app-text-secondary-dark-theme);
           background-color: var(--app-surface-dark);
           border: 1px solid var(--app-border-dark);
@@ -224,7 +222,7 @@
           margin-bottom: 12px;
           width: 100%;
         }
-        .accordion-wrapper input[type="file"]::file-selector-button {
+        .accordion-content input[type="file"]::file-selector-button {
             margin-right: 10px;
             border: 1px solid var(--app-border-dark);
             background: var(--app-bg-dark);
@@ -233,7 +231,7 @@
             color: var(--app-text-primary-dark-theme);
             cursor: pointer;
         }
-        .accordion-wrapper button {
+        .accordion-content button {
             background-color: var(--app-surface-dark);
             color: var(--app-text-primary-dark-theme);
             border: 1px solid var(--app-border-dark);
@@ -245,7 +243,7 @@
             margin-top: 10px;
             cursor: pointer;
         }
-        .accordion-wrapper button:hover { background-color: #4a4a4e; }
+        .accordion-content button:hover { background-color: #4a4a4e; }
         #message {
             padding: 10px 15px;
             border-radius: 5px;
@@ -678,7 +676,7 @@
                 <!-- Language Selection -->
                 <div class="accordion-item">
                     <button class="accordion-button active" data-translate="languageSettings">Language Settings</button>
-                    <div class="accordion-wrapper" style="display: block;">
+                    <div class="accordion-content" style="display: block;">
                         <h4 data-translate="languageSettings">Language Settings</h4>
                         <label for="languageSelect" data-translate="imageLibraryLanguage">Image Library Language:</label>
                         <select id="languageSelect">
@@ -701,7 +699,7 @@
                 </div>
                 <div class="accordion-item">
                     <button class="accordion-button" data-translate="pageAndScene">Page & Scene</button>
-                    <div class="accordion-wrapper">
+                    <div class="accordion-content">
                         <h4 data-translate="pageSetup">Page Setup</h4>
                         <label for="pageSizeSelect" data-translate="pageSize">Page Size:</label>
                         <select id="pageSizeSelect">
@@ -744,7 +742,7 @@
                 </div>
                 <div class="accordion-item">
                     <button class="accordion-button" data-translate="textTools">Text Tools</button>
-                    <div class="accordion-wrapper">
+                    <div class="accordion-content">
                         <h4 data-translate="addNewText">Add New Text</h4>
                         <label for="textInput" data-translate="content">Content:</label><input type="text" id="textInput" placeholder="Hello!" data-translate-placeholder="helloPlaceholder">
                         <button id="addTextBtn" data-translate="addText">Add Text</button>
@@ -767,7 +765,7 @@
                 </div>
                 <div class="accordion-item">
                     <button class="accordion-button" data-translate="puzzleSettings">Puzzle Settings</button>
-                    <div class="accordion-wrapper">
+                    <div class="accordion-content">
                         <h4 data-translate="gridSize">Grid Size</h4>
                         <div class="grid-inputs">
                             <div>
@@ -792,7 +790,7 @@
 
                 <div class="accordion-item">
                     <button class="accordion-button" data-translate="imageLibrary">Image Library</button>
-                    <div class="accordion-wrapper">
+                    <div class="accordion-content">
                         <h4 data-translate="imageSourceForPuzzle">Image Source for Puzzle</h4>
                         <label for="worksheetThemeSelect" data-translate="theme">Theme:</label>
                         <select id="worksheetThemeSelect">
@@ -814,7 +812,7 @@
                 </div>
                 <div class="accordion-item">
                     <button class="accordion-button" data-translate="uploadCustomImages">Upload Custom Images</button>
-                    <div class="accordion-wrapper">
+                    <div class="accordion-content">
                         <label data-translate="selectImagesToUpload">Select image(s) to upload:</label>
                         <div style="position: relative; margin: 10px 0;">
                             <button type="button" id="customFileButton" class="action-button" style="padding: 8px 16px; font-size: 14px;" data-translate="chooseFiles">Choose Files</button>

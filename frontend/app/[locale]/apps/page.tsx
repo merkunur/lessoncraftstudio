@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
-import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { getTranslations } from 'next-intl/server';
+import AppCard from '@/components/apps/AppCard';
 
 export const metadata: Metadata = {
   title: 'All Worksheet Generator Apps - LessonCraftStudio',
@@ -613,52 +613,6 @@ const getCategory = (category: string, locale: string, translations: any) => {
   return category;
 };
 
-function AppCard({ app, locale, translations }: { app: App, locale: string, translations: any }) {
-  const tierColors: Record<AppTier, string> = {
-    free: 'border-green-500 bg-green-50',
-    core: 'border-blue-500 bg-blue-50',
-    full: 'border-purple-500 bg-purple-50'
-  };
-
-  const tierBadgeColors: Record<AppTier, string> = {
-    free: 'bg-green-500 text-white',
-    core: 'bg-blue-500 text-white',
-    full: 'bg-purple-500 text-white'
-  };
-
-  return (
-    <Link href={`/${locale}/apps/${app.id}`}>
-      <div className={`relative p-6 rounded-lg border-2 ${tierColors[app.tier]} hover:shadow-lg transition-all duration-200 cursor-pointer h-full`}>
-        {app.popular && (
-          <div className="absolute -top-2 -right-2 bg-orange-500 text-white text-xs px-2 py-1 rounded-full">
-            {locale === 'de' ? 'Beliebt' : locale === 'fr' ? 'Populaire' : locale === 'es' ? 'Popular' : locale === 'it' ? 'Popolare' : locale === 'pt' ? 'Popular' : locale === 'nl' ? 'Populair' : locale === 'sv' ? 'Populär' : locale === 'da' ? 'Populær' : locale === 'no' ? 'Populær' : locale === 'fi' ? 'Suosittu' : 'Popular'}
-          </div>
-        )}
-        
-        <div className="flex items-start justify-between mb-4">
-          <div className="text-4xl">{app.icon}</div>
-          <span className={`text-xs px-2 py-1 rounded ${tierBadgeColors[app.tier]} uppercase font-semibold`}>
-            {locale === 'de' ? (app.tier === 'free' ? 'Kostenlos' : app.tier === 'core' ? 'Basis' : 'Voll') :
-             locale === 'fr' ? (app.tier === 'free' ? 'Gratuit' : app.tier === 'core' ? 'Essentiel' : 'Complet') :
-             locale === 'es' ? (app.tier === 'free' ? 'Gratis' : app.tier === 'core' ? 'Esencial' : 'Completo') :
-             locale === 'it' ? (app.tier === 'free' ? 'Gratuito' : app.tier === 'core' ? 'Essenziale' : 'Completo') :
-             locale === 'pt' ? (app.tier === 'free' ? 'Gratuito' : app.tier === 'core' ? 'Essencial' : 'Completo') :
-             locale === 'nl' ? (app.tier === 'free' ? 'Gratis' : app.tier === 'core' ? 'Basis' : 'Volledig') :
-             locale === 'sv' ? (app.tier === 'free' ? 'Gratis' : app.tier === 'core' ? 'Bas' : 'Full') :
-             locale === 'da' ? (app.tier === 'free' ? 'Gratis' : app.tier === 'core' ? 'Kerne' : 'Fuld') :
-             locale === 'no' ? (app.tier === 'free' ? 'Gratis' : app.tier === 'core' ? 'Kjerne' : 'Full') :
-             locale === 'fi' ? (app.tier === 'free' ? 'Ilmainen' : app.tier === 'core' ? 'Perus' : 'Täysi') :
-             app.tier}
-          </span>
-        </div>
-        
-        <h3 className="font-semibold text-gray-900 mb-2">{getAppName(app.id, app.name, locale, translations)}</h3>
-        <p className="text-sm text-gray-600">{getCategory(app.category, locale, translations)}</p>
-      </div>
-    </Link>
-  );
-}
-
 export default async function AppsPage({ params: { locale } }: PageProps) {
   // Load translations
   let translations: any = {};
@@ -844,7 +798,13 @@ export default async function AppsPage({ params: { locale } }: PageProps) {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {apps.filter(app => app.tier === 'free').map(app => (
-                <AppCard key={app.id} app={app} locale={locale} translations={translations} />
+                <AppCard
+                  key={app.id}
+                  app={app}
+                  locale={locale}
+                  appName={getAppName(app.id, app.name, locale, translations)}
+                  categoryName={getCategory(app.category, locale, translations)}
+                />
               ))}
             </div>
           </div>
@@ -867,7 +827,13 @@ export default async function AppsPage({ params: { locale } }: PageProps) {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {apps.filter(app => app.tier === 'core').map(app => (
-                <AppCard key={app.id} app={app} locale={locale} translations={translations} />
+                <AppCard
+                  key={app.id}
+                  app={app}
+                  locale={locale}
+                  appName={getAppName(app.id, app.name, locale, translations)}
+                  categoryName={getCategory(app.category, locale, translations)}
+                />
               ))}
             </div>
           </div>
@@ -890,7 +856,13 @@ export default async function AppsPage({ params: { locale } }: PageProps) {
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
               {apps.filter(app => app.tier === 'full').map(app => (
-                <AppCard key={app.id} app={app} locale={locale} translations={translations} />
+                <AppCard
+                  key={app.id}
+                  app={app}
+                  locale={locale}
+                  appName={getAppName(app.id, app.name, locale, translations)}
+                  categoryName={getCategory(app.category, locale, translations)}
+                />
               ))}
             </div>
           </div>

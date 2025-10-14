@@ -328,19 +328,8 @@ export default function DashboardPage() {
                         }`}
                         onClick={() => {
                           if (hasAccess) {
-                            // Extract HTML filename from URL and map to app slug
-                            const htmlFile = app.url.split('/').pop() || '';
-                            const decodedFile = decodeURIComponent(htmlFile);
-                            const slug = urlToSlugMap[decodedFile];
-
-                            if (slug) {
-                              // Open apps info page (same experience as browsing apps)
-                              window.open(`/${locale}/apps/${slug}`, '_blank');
-                            } else {
-                              // Fallback to direct generator URL if mapping not found
-                              console.warn(`No slug mapping found for ${decodedFile}, using direct URL`);
-                              window.open(`${app.url}?tier=${user?.subscriptionTier || 'free'}&locale=${locale}`, '_blank');
-                            }
+                            // Open worksheet generator directly in new window
+                            window.open(`${app.url}?tier=${user?.subscriptionTier || 'free'}&locale=${locale}`, '_blank');
                           }
                         }}
                       >

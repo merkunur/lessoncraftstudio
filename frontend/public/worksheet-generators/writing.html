@@ -1034,6 +1034,22 @@
         height: 101% !important;
     }
 
+    /* Additional 5% height increase for Print Regular and Print Tracing (non-arrow variants) */
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular:not(.font-print-regular-arrow),
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular:not(.font-print-regular-arrow),
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-regular:not(.font-print-regular-arrow),
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular:not(.font-print-regular-arrow),
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular:not(.font-print-regular-arrow),
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-regular:not(.font-print-regular-arrow),
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing:not(.font-print-tracing-arrow),
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing:not(.font-print-tracing-arrow),
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters img.font-print-tracing:not(.font-print-tracing-arrow),
+    .row.trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing:not(.font-print-tracing-arrow),
+    .row.fading-trace[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing:not(.font-print-tracing-arrow),
+    .row.guided-copy[data-content="beginning"][data-casing="uppercase"] .letters canvas.font-print-tracing:not(.font-print-tracing-arrow) {
+        height: 106% !important;
+    }
+
     /* REMOVED: Incorrect positioning override that made letters sit too low
      * All modes now use the correct custom mode positioning (translateY(2px))
      * This was causing inconsistency between beginning/filename/custom modes

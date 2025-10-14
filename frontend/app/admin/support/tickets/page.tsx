@@ -15,6 +15,9 @@ import {
   Clock,
   AlertCircle,
   MessageSquare,
+  X,
+  Send,
+  User,
 } from 'lucide-react';
 import { toast } from 'react-hot-toast';
 
@@ -56,6 +59,14 @@ export default function SupportTicketsPage() {
   const [totalPages, setTotalPages] = useState(1);
   const [total, setTotal] = useState(0);
 
+  // Modal states
+  const [selectedTicket, setSelectedTicket] = useState<SupportTicket | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [responseText, setResponseText] = useState('');
+  const [updatingStatus, setUpdatingStatus] = useState('');
+  const [updatingPriority, setUpdatingPriority] = useState('');
+  const [submitting, setSubmitting] = useState(false);
+
   useEffect(() => {
     fetchTickets();
   }, [currentPage, searchQuery, statusFilter, priorityFilter, categoryFilter]);
@@ -94,6 +105,112 @@ export default function SupportTicketsPage() {
       toast.error('Failed to load support tickets');
     } finally {
       setLoading(false);
+    }
+  };
+
+  const openTicketModal = (ticket: SupportTicket) => {
+    setSelectedTicket(ticket);
+    setResponseText(ticket.response || '');
+    setUpdatingStatus(ticket.status);
+    setUpdatingPriority(ticket.priority);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedTicket(null);
+    setResponseText('');
+    setUpdatingStatus('');
+    setUpdatingPriority('');
+  };
+
+  const handleSubmitResponse = async () => {
+    if (!selectedTicket || !responseText.trim()) {
+      toast.error('Please enter a response');
+      return;
+    }
+
+    setSubmitting(true);
+    try {
+      const token = localStorage.getItem('accessToken');
+      const headers: HeadersInit = {
+        'Content-Type': 'application/json',
+      };
+
+      if (token) {
+        headers['Authorization'] = `Bearer ${token}`;
+      }
+
+      const updateData: any = {
+        response: responseText,
+        status: updatingStatus,
+        priority: updatingPriority,
+      };
+
+      const response = await fetch(`/api/support/tickets/${selectedTicket.id}`, {
+        method: 'PATCH',
+        headers,
+        body: JSON.stringify(updateData),
+      });
+
+      if (!response.ok) throw new Error('Failed to update ticket');
+
+      const result = await response.json();
+
+      // Update the ticket in the list
+      setTickets(tickets.map(t => t.id === selectedTicket.id ? result.data : t));
+
+      toast.success('Response sent successfully!');
+      closeModal();
+      fetchTickets(); // Refresh the list
+    } catch (error) {
+      console.error('Error updating ticket:', error);
+      toast.error('Failed to send response');
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
+  const handleMarkResolved = async () => {
+    if (!selectedTicket) return;
+
+    setSubmitting(true);
+    try {
+      const token = localStorage.getItem('accessToken');
+      const headers: HeadersInit = {
+        'Content-Type': 'application/json',
+      };
+
+      if (token) {
+        headers['Authorization'] = `Bearer ${token}`;
+      }
+
+      const updateData = {
+        resolved: true,
+        status: 'resolved',
+      };
+
+      const response = await fetch(`/api/support/tickets/${selectedTicket.id}`, {
+        method: 'PATCH',
+        headers,
+        body: JSON.stringify(updateData),
+      });
+
+      if (!response.ok) throw new Error('Failed to mark ticket as resolved');
+
+      const result = await response.json();
+
+      // Update the ticket in the list
+      setTickets(tickets.map(t => t.id === selectedTicket.id ? result.data : t));
+
+      toast.success('Ticket marked as resolved!');
+      closeModal();
+      fetchTickets(); // Refresh the list
+    } catch (error) {
+      console.error('Error resolving ticket:', error);
+      toast.error('Failed to mark ticket as resolved');
+    } finally {
+      setSubmitting(false);
     }
   };
 
@@ -348,7 +465,11 @@ export default function SupportTicketsPage() {
                 </thead>
                 <tbody className="bg-white divide-y divide-gray-200">
                   {tickets.map((ticket) => (
-                    <tr key={ticket.id} className="hover:bg-gray-50 cursor-pointer">
+                    <tr
+                      key={ticket.id}
+                      className="hover:bg-gray-50 cursor-pointer"
+                      onClick={() => openTicketModal(ticket)}
+                    >
                       <td className="px-6 py-4 whitespace-nowrap">
                         <div className="text-sm font-medium text-gray-900">{ticket.name || 'Anonymous'}</div>
                         <div className="text-sm text-gray-500">{ticket.email}</div>
@@ -424,6 +545,168 @@ export default function SupportTicketsPage() {
             </div>
           )}
         </div>
+
+        {/* Ticket Detail Modal */}
+        {isModalOpen && selectedTicket && (
+          <div className="fixed inset-0 z-50 overflow-y-auto">
+            <div className="flex items-center justify-center min-h-screen px-4 pt-4 pb-20 text-center sm:block sm:p-0">
+              {/* Background overlay */}
+              <div className="fixed inset-0 transition-opacity bg-gray-500 bg-opacity-75" onClick={closeModal}></div>
+
+              {/* Modal panel */}
+              <div className="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-4xl sm:w-full">
+                {/* Header */}
+                <div className="bg-white px-6 py-4 border-b border-gray-200">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center space-x-3">
+                      <User className="h-6 w-6 text-gray-400" />
+                      <div>
+                        <h3 className="text-lg font-medium text-gray-900">{selectedTicket.subject}</h3>
+                        <p className="text-sm text-gray-500">
+                          From: {selectedTicket.name} ({selectedTicket.email})
+                        </p>
+                      </div>
+                    </div>
+                    <button
+                      onClick={closeModal}
+                      className="text-gray-400 hover:text-gray-500"
+                    >
+                      <X className="h-6 w-6" />
+                    </button>
+                  </div>
+                </div>
+
+                {/* Content */}
+                <div className="bg-gray-50 px-6 py-4 max-h-[60vh] overflow-y-auto">
+                  {/* Ticket Details */}
+                  <div className="bg-white rounded-lg shadow p-4 mb-4">
+                    <div className="grid grid-cols-2 gap-4 mb-4">
+                      <div>
+                        <label className="text-xs font-medium text-gray-500">Category</label>
+                        <div className="mt-1">{getCategoryBadge(selectedTicket.category)}</div>
+                      </div>
+                      <div>
+                        <label className="text-xs font-medium text-gray-500">Created</label>
+                        <p className="text-sm text-gray-900 mt-1">{formatDate(selectedTicket.createdAt)}</p>
+                      </div>
+                    </div>
+
+                    <div className="mb-4">
+                      <label className="text-xs font-medium text-gray-500">Message</label>
+                      <p className="text-sm text-gray-900 mt-1 whitespace-pre-wrap">{selectedTicket.message}</p>
+                    </div>
+
+                    {selectedTicket.user && (
+                      <div className="border-t pt-4">
+                        <label className="text-xs font-medium text-gray-500">User Info</label>
+                        <div className="mt-1 text-sm text-gray-900">
+                          <p>{selectedTicket.user.firstName} {selectedTicket.user.lastName}</p>
+                          <p className="text-gray-500">Subscription: {selectedTicket.user.subscriptionTier}</p>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Previous Response (if exists) */}
+                  {selectedTicket.response && (
+                    <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-4">
+                      <div className="flex items-center justify-between mb-2">
+                        <label className="text-xs font-medium text-blue-900">Previous Response</label>
+                        <span className="text-xs text-blue-600">{formatDate(selectedTicket.respondedAt)}</span>
+                      </div>
+                      <p className="text-sm text-blue-900 whitespace-pre-wrap">{selectedTicket.response}</p>
+                    </div>
+                  )}
+
+                  {/* Status and Priority Controls */}
+                  <div className="bg-white rounded-lg shadow p-4 mb-4">
+                    <div className="grid grid-cols-2 gap-4">
+                      <div>
+                        <label className="block text-sm font-medium text-gray-700 mb-2">Status</label>
+                        <select
+                          value={updatingStatus}
+                          onChange={(e) => setUpdatingStatus(e.target.value)}
+                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        >
+                          <option value="open">Open</option>
+                          <option value="in_progress">In Progress</option>
+                          <option value="waiting">Waiting</option>
+                          <option value="resolved">Resolved</option>
+                          <option value="closed">Closed</option>
+                        </select>
+                      </div>
+                      <div>
+                        <label className="block text-sm font-medium text-gray-700 mb-2">Priority</label>
+                        <select
+                          value={updatingPriority}
+                          onChange={(e) => setUpdatingPriority(e.target.value)}
+                          className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                        >
+                          <option value="low">Low</option>
+                          <option value="medium">Medium</option>
+                          <option value="high">High</option>
+                          <option value="urgent">Urgent</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Response Form */}
+                  <div className="bg-white rounded-lg shadow p-4">
+                    <label className="block text-sm font-medium text-gray-700 mb-2">
+                      Your Response
+                    </label>
+                    <textarea
+                      value={responseText}
+                      onChange={(e) => setResponseText(e.target.value)}
+                      rows={6}
+                      placeholder="Type your response here..."
+                      className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    />
+                  </div>
+                </div>
+
+                {/* Footer */}
+                <div className="bg-gray-50 px-6 py-4 border-t border-gray-200 flex items-center justify-between">
+                  <button
+                    onClick={handleMarkResolved}
+                    disabled={submitting || selectedTicket.resolved}
+                    className="inline-flex items-center px-4 py-2 border border-green-300 rounded-md shadow-sm text-sm font-medium text-green-700 bg-white hover:bg-green-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    <CheckCircle className="h-4 w-4 mr-2" />
+                    {selectedTicket.resolved ? 'Already Resolved' : 'Mark as Resolved'}
+                  </button>
+                  <div className="flex space-x-3">
+                    <button
+                      onClick={closeModal}
+                      disabled={submitting}
+                      className="px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50"
+                    >
+                      Cancel
+                    </button>
+                    <button
+                      onClick={handleSubmitResponse}
+                      disabled={submitting || !responseText.trim()}
+                      className="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      {submitting ? (
+                        <>
+                          <RefreshCw className="h-4 w-4 mr-2 animate-spin" />
+                          Sending...
+                        </>
+                      ) : (
+                        <>
+                          <Send className="h-4 w-4 mr-2" />
+                          Send Response
+                        </>
+                      )}
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
     </AdminLayout>
   );

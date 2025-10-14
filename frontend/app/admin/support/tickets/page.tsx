@@ -18,6 +18,7 @@ import {
   X,
   Send,
   User,
+  Trash2,
 } from 'lucide-react';
 import { toast } from 'react-hot-toast';
 
@@ -66,6 +67,7 @@ export default function SupportTicketsPage() {
   const [updatingStatus, setUpdatingStatus] = useState('');
   const [updatingPriority, setUpdatingPriority] = useState('');
   const [submitting, setSubmitting] = useState(false);
+  const [deleting, setDeleting] = useState(false);
 
   useEffect(() => {
     fetchTickets();
@@ -211,6 +213,48 @@ export default function SupportTicketsPage() {
       toast.error('Failed to mark ticket as resolved');
     } finally {
       setSubmitting(false);
+    }
+  };
+
+  const handleDeleteTicket = async () => {
+    if (!selectedTicket) return;
+
+    const confirmDelete = window.confirm(
+      `Are you sure you want to delete this ticket from "${selectedTicket.name}" with subject "${selectedTicket.subject}"? This action cannot be undone.`
+    );
+
+    if (!confirmDelete) return;
+
+    setDeleting(true);
+    try {
+      const token = localStorage.getItem('accessToken');
+      const headers: HeadersInit = {
+        'Content-Type': 'application/json',
+      };
+
+      if (token) {
+        headers['Authorization'] = `Bearer ${token}`;
+      }
+
+      const response = await fetch(`/api/support/tickets/${selectedTicket.id}`, {
+        method: 'DELETE',
+        headers,
+      });
+
+      if (!response.ok) throw new Error('Failed to delete ticket');
+
+      // Remove the ticket from the list
+      setTickets(tickets.filter(t => t.id !== selectedTicket.id));
+      setTotal(total - 1);
+
+      toast.success('Ticket deleted successfully!');
+      closeModal();
+      fetchTickets(); // Refresh the list to update pagination
+    } catch (error) {
+      console.error('Error deleting ticket:', error);
+      toast.error('Failed to delete ticket');
+    } finally {
+      setDeleting(false);
     }
   };
 
@@ -668,25 +712,44 @@ export default function SupportTicketsPage() {
 
                 {/* Footer */}
                 <div className="bg-gray-50 px-6 py-4 border-t border-gray-200 flex items-center justify-between">
-                  <button
-                    onClick={handleMarkResolved}
-                    disabled={submitting || selectedTicket.resolved}
-                    className="inline-flex items-center px-4 py-2 border border-green-300 rounded-md shadow-sm text-sm font-medium text-green-700 bg-white hover:bg-green-50 disabled:opacity-50 disabled:cursor-not-allowed"
-                  >
-                    <CheckCircle className="h-4 w-4 mr-2" />
-                    {selectedTicket.resolved ? 'Already Resolved' : 'Mark as Resolved'}
-                  </button>
+                  <div className="flex space-x-3">
+                    <button
+                      onClick={handleMarkResolved}
+                      disabled={submitting || deleting || selectedTicket.resolved}
+                      className="inline-flex items-center px-4 py-2 border border-green-300 rounded-md shadow-sm text-sm font-medium text-green-700 bg-white hover:bg-green-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      <CheckCircle className="h-4 w-4 mr-2" />
+                      {selectedTicket.resolved ? 'Already Resolved' : 'Mark as Resolved'}
+                    </button>
+                    <button
+                      onClick={handleDeleteTicket}
+                      disabled={submitting || deleting}
+                      className="inline-flex items-center px-4 py-2 border border-red-300 rounded-md shadow-sm text-sm font-medium text-red-700 bg-white hover:bg-red-50 disabled:opacity-50 disabled:cursor-not-allowed"
+                    >
+                      {deleting ? (
+                        <>
+                          <RefreshCw className="h-4 w-4 mr-2 animate-spin" />
+                          Deleting...
+                        </>
+                      ) : (
+                        <>
+                          <Trash2 className="h-4 w-4 mr-2" />
+                          Delete Ticket
+                        </>
+                      )}
+                    </button>
+                  </div>
                   <div className="flex space-x-3">
                     <button
                       onClick={closeModal}
-                      disabled={submitting}
+                      disabled={submitting || deleting}
                       className="px-4 py-2 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 bg-white hover:bg-gray-50"
                     >
                       Cancel
                     </button>
                     <button
                       onClick={handleSubmitResponse}
-                      disabled={submitting || !responseText.trim()}
+                      disabled={submitting || deleting || !responseText.trim()}
                       className="inline-flex items-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed"
                     >
                       {submitting ? (

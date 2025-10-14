@@ -107,6 +107,76 @@ const upgradeMessages = {
   }
 };
 
+// Translations for unauthenticated users
+const signInMessages = {
+  en: {
+    title: 'Sign In Required',
+    description: 'Please sign in to access this app.',
+    signInButton: 'Sign In',
+    createAccountButton: 'Create Account'
+  },
+  de: {
+    title: 'Anmeldung erforderlich',
+    description: 'Bitte melden Sie sich an, um auf diese App zuzugreifen.',
+    signInButton: 'Anmelden',
+    createAccountButton: 'Konto erstellen'
+  },
+  fr: {
+    title: 'Connexion requise',
+    description: 'Veuillez vous connecter pour accéder à cette application.',
+    signInButton: 'Se connecter',
+    createAccountButton: 'Créer un compte'
+  },
+  es: {
+    title: 'Inicio de sesión requerido',
+    description: 'Por favor, inicia sesión para acceder a esta aplicación.',
+    signInButton: 'Iniciar sesión',
+    createAccountButton: 'Crear cuenta'
+  },
+  it: {
+    title: 'Accesso richiesto',
+    description: 'Effettua l\'accesso per utilizzare questa app.',
+    signInButton: 'Accedi',
+    createAccountButton: 'Crea account'
+  },
+  pt: {
+    title: 'Início de sessão necessário',
+    description: 'Por favor, inicie sessão para aceder a esta aplicação.',
+    signInButton: 'Iniciar sessão',
+    createAccountButton: 'Criar conta'
+  },
+  nl: {
+    title: 'Inloggen vereist',
+    description: 'Log in om toegang te krijgen tot deze app.',
+    signInButton: 'Inloggen',
+    createAccountButton: 'Account aanmaken'
+  },
+  sv: {
+    title: 'Inloggning krävs',
+    description: 'Vänligen logga in för att använda denna app.',
+    signInButton: 'Logga in',
+    createAccountButton: 'Skapa konto'
+  },
+  da: {
+    title: 'Login påkrævet',
+    description: 'Log ind for at få adgang til denne app.',
+    signInButton: 'Log ind',
+    createAccountButton: 'Opret konto'
+  },
+  no: {
+    title: 'Pålogging kreves',
+    description: 'Vennligst logg inn for å få tilgang til denne appen.',
+    signInButton: 'Logg inn',
+    createAccountButton: 'Opprett konto'
+  },
+  fi: {
+    title: 'Kirjautuminen vaaditaan',
+    description: 'Kirjaudu sisään käyttääksesi tätä sovellusta.',
+    signInButton: 'Kirjaudu sisään',
+    createAccountButton: 'Luo tili'
+  }
+};
+
 // Tier name translations - natural and localized
 const tierNames = {
   en: { free: 'Free', core: 'Core', full: 'Full' },
@@ -252,9 +322,48 @@ export default function AppContent({ appSlug, locale, appName, requiredTier }: A
     );
   }
 
-  // If user doesn't have access, show upgrade message
+  // If user doesn't have access, show appropriate message
   if (!canAccess()) {
-    // Get translations for current locale, fallback to English
+    // Check if user is authenticated
+    if (!user) {
+      // User is not logged in - show sign in message
+      const messages = signInMessages[locale as keyof typeof signInMessages] || signInMessages.en;
+
+      return (
+        <div className="app-content-container">
+          <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+            <div className="max-w-md bg-white rounded-2xl shadow-xl p-8 text-center">
+              <div className="mb-6">
+                <div className="inline-flex items-center justify-center w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full mb-4">
+                  <svg className="w-10 h-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                  </svg>
+                </div>
+                <h2 className="text-2xl font-bold text-gray-900 mb-2">{messages.title}</h2>
+                <p className="text-gray-600">{messages.description}</p>
+              </div>
+
+              <div className="flex gap-3">
+                <Link
+                  href={`/${locale}/auth/signin`}
+                  className="flex-1 inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-200"
+                >
+                  {messages.signInButton}
+                </Link>
+                <Link
+                  href={`/${locale}/auth/signup`}
+                  className="flex-1 inline-flex items-center justify-center px-6 py-3 border-2 border-gray-300 text-gray-700 font-semibold rounded-lg hover:bg-gray-50 transition-all duration-200"
+                >
+                  {messages.createAccountButton}
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      );
+    }
+
+    // User is logged in but has insufficient tier - show upgrade message
     const messages = upgradeMessages[locale as keyof typeof upgradeMessages] || upgradeMessages.en;
     const tiers = tierNames[locale as keyof typeof tierNames] || tierNames.en;
 

@@ -3131,13 +3131,13 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
   };
 
   return (
-    <div className="flex flex-col bg-gray-50 overflow-hidden" style={{ height: 'calc(100vh - 120px)' }}>
-      {/* Header */}
-      <section className={`bg-gradient-to-r ${tierColor} text-white py-12 flex-shrink-0`}>
+    <div className="h-full flex flex-col bg-gray-50 overflow-hidden">
+      {/* Header - Responsive with max-height constraint */}
+      <section className={`bg-gradient-to-r ${tierColor} text-white py-12 md:py-8 sm:py-6 flex-shrink-0 max-h-[40vh] overflow-auto`}>
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             {/* Breadcrumb */}
-            <div className="flex items-center gap-2 text-white/80 mb-4">
+            <div className="flex items-center gap-2 text-white/80 mb-4 text-sm">
               <Link href={`/${locale}/apps`} className="hover:text-white transition-colors">
                 {t('apps', 'Apps')}
               </Link>
@@ -3147,19 +3147,19 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
               <span>{appName}</span>
             </div>
 
-            {/* Title and Description */}
-            <div className="flex items-start gap-4 mb-6">
-              <div className="text-5xl">{icon}</div>
+            {/* Title and Description - Responsive text sizes */}
+            <div className="flex items-start gap-4 mb-4 md:mb-3">
+              <div className="text-5xl md:text-4xl sm:text-3xl">{icon}</div>
               <div className="flex-1">
-                <h1 className="text-4xl font-bold mb-4">{appName}</h1>
-                <p className="text-xl text-white/90">
+                <h1 className="text-4xl md:text-3xl sm:text-2xl font-bold mb-4 md:mb-3 sm:mb-2">{appName}</h1>
+                <p className="text-xl md:text-lg sm:text-base text-white/90">
                   {appDescription}
                 </p>
               </div>
             </div>
 
-            {/* Features Pills */}
-            <div className="flex flex-wrap gap-3">
+            {/* Features Pills - Limited height on small screens */}
+            <div className="flex flex-wrap gap-3 max-h-20 sm:max-h-16 overflow-hidden">
               <span className="px-4 py-2 bg-white/20 backdrop-blur rounded-full text-sm font-semibold">
                 {getLocalizedTierLabel()}
               </span>
@@ -3176,8 +3176,8 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
         </div>
       </section>
 
-      {/* App Container - Fills Remaining Space */}
-      <section className="flex-1 bg-white overflow-hidden">
+      {/* App Container - Fills Remaining Space with minimum height guarantee */}
+      <section className="flex-1 bg-white overflow-hidden min-h-[400px]">
         {hasAccess ? (
           <div className="h-full">
             <AppContent

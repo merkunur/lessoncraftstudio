@@ -426,6 +426,7 @@ export default function AppContent({ appSlug, locale, appName, requiredTier }: A
       <style jsx>{`
         .app-content-container {
           height: 100%;
+          min-height: 400px;
           width: 100%;
           background-color: #f5f5f5;
           overflow: hidden;
@@ -435,6 +436,12 @@ export default function AppContent({ appSlug, locale, appName, requiredTier }: A
           width: 100%;
           height: 100%;
           background-color: white;
+        }
+
+        @media (max-width: 640px) {
+          .app-content-container {
+            min-height: 300px;
+          }
         }
       `}</style>
     </div>

@@ -9,6 +9,8 @@ const prisma = new PrismaClient();
 // These are either app-specific resources or have their own content types
 const EXCLUDED_DIRS = [
   'alphabetsvg',           // ❌ Letter SVG files used by writing.html app
+  'drawing lines',         // ❌ Drawing line templates for drawing lines.html app
+  'coloring',              // ❌ Coloring page templates for coloring.html app
   'template',              // Template files
   'train-templates',       // Train template type
   'train_templates',       // Train template type

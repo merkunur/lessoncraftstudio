@@ -110,21 +110,21 @@ async function syncImagesToDatabase() {
       const contentType = TYPE_MAPPING[dirName] || 'images';
 
       // Check if theme exists in database
-      let theme = await prisma.image_themes.findFirst({
+      let theme = await prisma.imageTheme.findFirst({
         where: { name: dirName }
       });
 
       // Create theme if it doesn't exist
       if (!theme) {
         try {
-          theme = await prisma.image_themes.create({
+          theme = await prisma.imageTheme.create({
             data: {
               id: generateId(),
               name: dirName,
               displayNames: { en: dirName },
               type: contentType,
-              sort_order: 0,
-              updated_at: new Date()
+              sortOrder: 0,
+              updatedAt: new Date()
             }
           });
           console.log(`✅ Created theme: ${dirName} (type: ${contentType})`);
@@ -153,8 +153,8 @@ async function syncImagesToDatabase() {
           const filePath = `/images/${dirName}/${file.relativePath}`.replace(/\\/g, '/');
 
           // Check if image already exists in database
-          const exists = await prisma.image_library_items.findFirst({
-            where: { file_path: filePath }
+          const exists = await prisma.imageLibraryItem.findFirst({
+            where: { filePath: filePath }
           });
 
           if (exists) {
@@ -173,17 +173,17 @@ async function syncImagesToDatabase() {
             .trim();
 
           // Create image record
-          await prisma.image_library_items.create({
+          await prisma.imageLibraryItem.create({
             data: {
               id: generateId(),
-              theme_id: theme.id,
+              themeId: theme.id,
               filename: file.filename,
-              file_path: filePath,
-              file_size: stats.size,
-              mime_type: getMimeType(file.filename),
+              filePath: filePath,
+              fileSize: stats.size,
+              mimeType: getMimeType(file.filename),
               translations: { en: displayName },
-              sort_order: 0,
-              updated_at: new Date()
+              sortOrder: 0,
+              updatedAt: new Date()
             }
           });
 
@@ -216,8 +216,8 @@ async function syncImagesToDatabase() {
     console.log('═'.repeat(60));
 
     // Show final database stats
-    const themeCount = await prisma.image_themes.count();
-    const imageCount = await prisma.image_library_items.count();
+    const themeCount = await prisma.imageTheme.count();
+    const imageCount = await prisma.imageLibraryItem.count();
 
     console.log('\n📈 FINAL DATABASE STATISTICS');
     console.log('─'.repeat(60));

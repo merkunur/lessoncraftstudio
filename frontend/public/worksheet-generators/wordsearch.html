@@ -408,6 +408,43 @@
             cursor: not-allowed;
             opacity: 0.7;
         }
+
+        /* --- Zoom Controls --- */
+        .zoom-controls {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background-color: var(--app-surface-light);
+            border: 1px solid var(--app-border-light);
+            border-radius: 6px;
+            padding: 4px 8px;
+        }
+        .zoom-btn {
+            background: transparent;
+            border: 1px solid var(--app-border-light);
+            border-radius: 4px;
+            padding: 5px 9px;
+            font-size: 14px;
+            cursor: pointer;
+            color: var(--app-text-primary-light-theme);
+            transition: background-color 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .zoom-btn:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+        .zoom-btn:active {
+            background-color: rgba(0, 0, 0, 0.1);
+        }
+        .zoom-percentage {
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--app-text-primary-light-theme);
+            min-width: 50px;
+            text-align: center;
+        }
         .dropdown-container { position: relative; display: inline-block; }
         .dropdown-content {
             display: none;
@@ -874,6 +911,12 @@
                 </div>
             </div>
             <div class="top-right-actions">
+                 <div class="zoom-controls">
+                    <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                    <span id="zoomPercentage" class="zoom-percentage">100%</span>
+                    <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+                    <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                </div>
                  <div class="dropdown-container">
                     <button id="generateDropdownBtn" class="action-button accent"><span data-translate="generate">Generate</span> <i class="fas fa-caret-down"></i></button>
                     <div id="generateDropdownContent" class="dropdown-content">
@@ -1000,6 +1043,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     let worksheetCanvas, answerKeyCanvas;
     let currentCanvasConfig = { width: 612, height: 792 };
+    let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
 
     // --- UI ELEMENT SELECTORS ---
     const getEl = (id) => document.getElementById(id);
@@ -1009,6 +1053,10 @@ document.addEventListener("DOMContentLoaded", function() {
     const menuOverlay = getEl('menuOverlay');
     
     // Top right actions
+    const zoomInBtn = getEl('zoomInBtn');
+    const zoomOutBtn = getEl('zoomOutBtn');
+    const zoomResetBtn = getEl('zoomResetBtn');
+    const zoomPercentage = getEl('zoomPercentage');
     const generateDropdownBtn = getEl('generateDropdownBtn');
     const generateDropdownContent = getEl('generateDropdownContent');
     const generateWorksheetBtn = getEl("generateWorksheetBtn");
@@ -1246,6 +1294,11 @@ document.addEventListener("DOMContentLoaded", function() {
         backgroundOpacitySlider.addEventListener('input', applyBackgroundOpacity);
         borderOpacitySlider.addEventListener('input', applyBorderOpacity);
 
+        // Zoom Controls
+        zoomInBtn.addEventListener('click', zoomIn);
+        zoomOutBtn.addEventListener('click', zoomOut);
+        zoomResetBtn.addEventListener('click', zoomReset);
+
         // Actions
         generateWorksheetBtn.addEventListener('click', handleGenerateWorksheet);
         generateAnswerKeyBtn.addEventListener('click', handleGenerateAnswerKey);
@@ -1364,35 +1417,37 @@ document.addEventListener("DOMContentLoaded", function() {
         currentCanvasConfig.height = height;
 
         const mainStyle = getEl('worksheetTab').parentElement;
-        const availableWidth = mainStyle.clientWidth - 50; 
+        const availableWidth = mainStyle.clientWidth - 50;
         const availableHeight = mainStyle.clientHeight - 50;
-        
+
         // Apply 25% scaling for better visibility
         // Extra 25% for landscape orientations
         const isLandscape = width > height;
         const baseScale = 1.25; // Base 25% larger for all
         const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
         const displayScale = baseScale * landscapeBonus;
-        
+
         // Calculate display dimensions with scaling
         const scaledWidth = width * displayScale;
         const scaledHeight = height * displayScale;
-        
+
         // Ensure it fits in available space
         const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
-        const displayWidth = scaledWidth * scaleRatio;
-        const displayHeight = scaledHeight * scaleRatio;
+
+        // Apply user zoom level to the display dimensions
+        const displayWidth = scaledWidth * scaleRatio * userZoomLevel;
+        const displayHeight = scaledHeight * scaleRatio * userZoomLevel;
 
         // Only update initialized canvases
         const canvases = [worksheetCanvas];
         if (answerKeyCanvas) canvases.push(answerKeyCanvas);
-        
+
         canvases.forEach(c => {
             if (c) {
-                // Apply zoom for display scaling
+                // Apply zoom for display scaling (includes user zoom)
                 const finalZoom = (displayWidth / width);
                 c.setZoom(finalZoom);
-                
+
                 // Set dimensions AFTER zoom to ensure viewport matches zoomed size
                 c.setDimensions({
                     width: displayWidth,
@@ -1422,9 +1477,36 @@ document.addEventListener("DOMContentLoaded", function() {
                 w.style.height = displayHeight + 'px';
             }
         });
-        
+
         pageWidthInput.value = width;
         pageHeightInput.value = height;
+    }
+
+    // --- ZOOM FUNCTIONS ---
+    function updateZoomDisplay() {
+        const percentage = Math.round(userZoomLevel * 100);
+        zoomPercentage.textContent = `${percentage}%`;
+    }
+
+    function zoomIn() {
+        // Increase zoom by 25%, max 300%
+        userZoomLevel = Math.min(userZoomLevel + 0.25, 3.0);
+        updateZoomDisplay();
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+    }
+
+    function zoomOut() {
+        // Decrease zoom by 25%, min 25%
+        userZoomLevel = Math.max(userZoomLevel - 0.25, 0.25);
+        updateZoomDisplay();
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+    }
+
+    function zoomReset() {
+        // Reset to 100%
+        userZoomLevel = 1.0;
+        updateZoomDisplay();
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
     }
 
     // --- DATA & LOGIC FUNCTIONS ---

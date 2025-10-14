@@ -1,14 +1,14 @@
-# GOLDEN BACKUP v1.0.7 - DISASTER RECOVERY GUIDE
+# GOLDEN BACKUP v1.0.8 - DISASTER RECOVERY GUIDE
 
 ## 🔒 CRITICAL INFORMATION - ENGRAVE THIS INTO MEMORY
 
-**Golden Backup Location:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.7/`
+**Golden Backup Location:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/`
 
-**Git Commit:** `f80263839d7f3e2a050193297156a679a9647617`
+**Git Commit:** `d9e4340b416fcb96b021b354428d3d47ce8a3b78`
 
-**Git Tag:** `v1.0.7-GOLDEN`
+**Git Tag:** `v1.0.8-GOLDEN`
 
-**Date Created:** October 14, 2025
+**Date Created:** October 15, 2025
 
 **This is a STABLE, FULLY FUNCTIONAL version** with:
 - ✅ All CSS and JavaScript working correctly
@@ -33,33 +33,35 @@
 - ✅ Cursive lowercase beginning letters height increased by 12%
 - ✅ Cursive custom text moved downward by 12%
 - ✅ All cursive uppercase letters height decreased by 7%
-- ✅ **NEW:** Working email notification system with Resend SMTP
-- ✅ **NEW:** Support ticket response emails sent to users
-- ✅ **NEW:** Email configuration with verified domain (onboarding@resend.dev)
-- ✅ **NEW:** Support ticket delete functionality (UI + Database)
-- ✅ **NEW:** Confirmation dialog for ticket deletion
-- ✅ **NEW:** Toast notifications for delete operations
+- ✅ Email notification system with Resend SMTP
+- ✅ Support ticket response emails sent to users
+- ✅ Email configuration with verified domain (onboarding@resend.dev)
+- ✅ Support ticket delete functionality (UI + Database)
+- ✅ Confirmation dialog for ticket deletion
+- ✅ Toast notifications for delete operations
+- ✅ **NEW:** Wordsearch app scrollbar fix - no page scrollbar or movement when opening accordions
+- ✅ **NEW:** Wordsearch app zoom in/out feature with controls (25%-300% zoom range)
 
 ---
 
 ## 📦 Backup Contents
 
-### 1. Git Tag: `v1.0.7-GOLDEN`
+### 1. Git Tag: `v1.0.8-GOLDEN`
 - **Purpose:** Marks the exact code state in git history
-- **Commit Hash:** `f80263839d7f3e2a050193297156a679a9647617`
+- **Commit Hash:** `d9e4340b416fcb96b021b354428d3d47ce8a3b78`
 - **Location:** Local git repository at `/opt/lessoncraftstudio/.git`
-- **Verification:** `cd /opt/lessoncraftstudio && git tag | grep v1.0.7-GOLDEN`
+- **Verification:** `cd /opt/lessoncraftstudio && git tag | grep v1.0.8-GOLDEN`
 
 ### 2. Database Backup
-- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.7/database_GOLDEN_2025-10-14.backup`
-- **Size:** 955 KB
+- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/database_GOLDEN_2025-10-15.backup`
+- **Size:** 954 KB
 - **Format:** PostgreSQL custom format (compressed, complete)
 - **Database:** `lessoncraftstudio_prod`
 - **Includes:** All tables, users, subscriptions, payments, blog posts, support tickets, sequences, constraints, indexes
 
 ### 3. Public Files Backup
-- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.7/public_files_GOLDEN_2025-10-14.tar.gz`
-- **Size:** 151 MB
+- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/public_files_GOLDEN_2025-10-15.tar.gz`
+- **Size:** 145 MB
 - **Contents:**
   - `public/uploads/` - User uploaded files
   - `public/worksheet-samples/` - Worksheet sample PDFs
@@ -67,7 +69,7 @@
   - `public/images/alphabetsvg/print/regular/lowercase/` - Fixed SVG letters with transparent backgrounds and proper counters
   - `public/worksheet-images/` - Worksheet-specific images
   - `public/blog/` - Blog images, PDFs, and thumbnails
-  - `public/worksheet-generators/` - HTML worksheet generator files (including updated writing.html with cursive adjustments)
+  - `public/worksheet-generators/` - HTML worksheet generator files (including updated wordsearch.html with scrollbar fix and zoom feature)
   - `public/data/` - Blog categories JSON file
 
 ---
@@ -89,6 +91,8 @@ Use the golden backup when:
 12. SVG letters display incorrectly
 13. Email notification system fails
 14. Support ticket system stops working
+15. Wordsearch app has scrollbar or layout issues
+16. Wordsearch app zoom feature stops working
 
 **DO NOT** use this backup for minor issues - try fixing first!
 
@@ -109,6 +113,7 @@ PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SE
 ls -lh /opt/lessoncraftstudio/frontend/public/images/
 ls -lh /opt/lessoncraftstudio/frontend/public/blog/
 ls -lh /opt/lessoncraftstudio/frontend/public/images/alphabetsvg/print/regular/lowercase/
+ls -lh /opt/lessoncraftstudio/frontend/public/worksheet-generators/wordsearch.html
 
 # Check email configuration
 cd /opt/lessoncraftstudio/frontend && grep -E '^(EMAIL_|SMTP_)' .env.production | grep -v PASSWORD
@@ -129,14 +134,14 @@ cd /opt/lessoncraftstudio
 git branch backup-before-recovery-$(date +%Y%m%d-%H%M%S)
 
 # Checkout the golden tag
-git checkout v1.0.7-GOLDEN
+git checkout v1.0.8-GOLDEN
 
 # Verify we're on the right version
 git describe --tags
-# Should output: v1.0.7-GOLDEN
+# Should output: v1.0.8-GOLDEN
 
 # If tag doesn't exist, checkout by commit hash
-git checkout f80263839d7f3e2a050193297156a679a9647617
+git checkout d9e4340b416fcb96b021b354428d3d47ce8a3b78
 ```
 
 ### Step 4: Restore Database (if needed)
@@ -149,7 +154,7 @@ PGPASSWORD=LcS2025SecureDBPass dropdb -U lcs_user lessoncraftstudio_prod
 PGPASSWORD=LcS2025SecureDBPass createdb -U lcs_user lessoncraftstudio_prod
 
 # 2. Restore from backup
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.7/database_GOLDEN_2025-10-14.backup
+PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/database_GOLDEN_2025-10-15.backup
 
 # 3. Verify restoration
 PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM image_library_items;"
@@ -170,7 +175,7 @@ cd /opt/lessoncraftstudio/frontend
 mv public public.backup-$(date +%Y%m%d-%H%M%S)
 
 # 2. Extract golden backup
-tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.7/public_files_GOLDEN_2025-10-14.tar.gz
+tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/public_files_GOLDEN_2025-10-15.tar.gz
 
 # 3. Verify extraction
 ls -lh public/images/
@@ -178,6 +183,7 @@ ls -lh public/blog/
 ls -lh public/worksheet-generators/
 ls -lh public/images/alphabetsvg/print/regular/lowercase/
 ls -lh public/data/blog-categories.json
+ls -lh public/worksheet-generators/wordsearch.html
 ```
 
 ### Step 6: Restore Environment Variables (if needed)
@@ -246,6 +252,9 @@ PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SE
 
 # 9. Check email configuration
 pm2 logs lessoncraftstudio --lines 30 | grep -i "email\|smtp"
+
+# 10. Check wordsearch generator
+curl -I http://localhost:3000/worksheet-generators/wordsearch.html
 ```
 
 ### Step 9: Verify Website Functionality
@@ -274,6 +283,10 @@ Open the website and test:
 21. ✅ Support tickets can be created, viewed, responded to, and deleted
 22. ✅ Email notifications are sent when tickets are responded to
 23. ✅ Admin can delete support tickets from dashboard
+24. ✅ Wordsearch app has no scrollbar on right side
+25. ✅ Wordsearch app accordions don't cause page movement
+26. ✅ Wordsearch app zoom controls work (zoom in, zoom out, reset)
+27. ✅ Wordsearch app zoom percentage displays correctly
 
 ---
 
@@ -287,17 +300,17 @@ pm2 stop lessoncraftstudio
 
 # Restore code
 cd /opt/lessoncraftstudio
-git checkout v1.0.7-GOLDEN
+git checkout v1.0.8-GOLDEN
 
 # Restore database
 PGPASSWORD=LcS2025SecureDBPass dropdb -U lcs_user lessoncraftstudio_prod
 PGPASSWORD=LcS2025SecureDBPass createdb -U lcs_user lessoncraftstudio_prod
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.7/database_GOLDEN_2025-10-14.backup
+PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/database_GOLDEN_2025-10-15.backup
 
 # Restore files
 cd /opt/lessoncraftstudio/frontend
 mv public public.backup-$(date +%Y%m%d-%H%M%S)
-tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.7/public_files_GOLDEN_2025-10-14.tar.gz
+tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/public_files_GOLDEN_2025-10-15.tar.gz
 
 # Rebuild and restart
 cd /opt/lessoncraftstudio
@@ -309,7 +322,7 @@ bash deploy.sh
 ```bash
 cd /opt/lessoncraftstudio
 pm2 stop lessoncraftstudio
-git checkout v1.0.7-GOLDEN
+git checkout v1.0.8-GOLDEN
 bash deploy.sh
 ```
 
@@ -318,7 +331,7 @@ bash deploy.sh
 ```bash
 PGPASSWORD=LcS2025SecureDBPass dropdb -U lcs_user lessoncraftstudio_prod
 PGPASSWORD=LcS2025SecureDBPass createdb -U lcs_user lessoncraftstudio_prod
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.7/database_GOLDEN_2025-10-14.backup
+PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/database_GOLDEN_2025-10-15.backup
 pm2 restart lessoncraftstudio
 ```
 
@@ -327,7 +340,7 @@ pm2 restart lessoncraftstudio
 ```bash
 cd /opt/lessoncraftstudio/frontend
 mv public public.backup-$(date +%Y%m%d-%H%M%S)
-tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.7/public_files_GOLDEN_2025-10-14.tar.gz
+tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/public_files_GOLDEN_2025-10-15.tar.gz
 cd /opt/lessoncraftstudio
 bash deploy.sh
 ```
@@ -370,6 +383,13 @@ After recovery, verify:
 - [ ] Can view, respond to, and delete support tickets
 - [ ] Email notifications are sent for ticket responses (check logs)
 - [ ] Email configuration shows "smtp" mode (not "console")
+- [ ] Wordsearch app opens without scrollbar on right side
+- [ ] Wordsearch app accordion menus don't cause page to shift
+- [ ] Wordsearch zoom controls appear in top-right corner
+- [ ] Wordsearch zoom in button increases canvas size
+- [ ] Wordsearch zoom out button decreases canvas size
+- [ ] Wordsearch zoom reset button returns to 100%
+- [ ] Wordsearch zoom percentage displays current zoom level
 - [ ] Database queries work: `PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM image_library_items;"`
 
 ---
@@ -378,21 +398,21 @@ After recovery, verify:
 
 **Primary Backup Directory:**
 ```
-/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.7/
+/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/
 ```
 
 **Backup Files:**
-1. `database_GOLDEN_2025-10-14.backup` (PostgreSQL dump - 955 KB)
-2. `public_files_GOLDEN_2025-10-14.tar.gz` (Compressed public files - 151 MB)
+1. `database_GOLDEN_2025-10-15.backup` (PostgreSQL dump - 954 KB)
+2. `public_files_GOLDEN_2025-10-15.tar.gz` (Compressed public files - 145 MB)
 
 **Git Tag:**
 ```bash
-cd /opt/lessoncraftstudio && git show v1.0.7-GOLDEN
+cd /opt/lessoncraftstudio && git show v1.0.8-GOLDEN
 ```
 
 **Git Commit:**
 ```bash
-cd /opt/lessoncraftstudio && git show f80263839d7f3e2a050193297156a679a9647617
+cd /opt/lessoncraftstudio && git show d9e4340b416fcb96b021b354428d3d47ce8a3b78
 ```
 
 **Recovery Documentation:**
@@ -408,17 +428,17 @@ To prevent accidentally overwriting this backup:
 
 ```bash
 # Make backup directory read-only
-chmod -R 555 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.7/
+chmod -R 555 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/
 
 # To restore write access (if needed for deletion):
-# chmod -R 755 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.7/
+# chmod -R 755 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/
 ```
 
 ---
 
 ## 💡 IMPORTANT NOTES
 
-1. **Git Tag is Immutable:** The `v1.0.7-GOLDEN` tag will always point to this exact code state
+1. **Git Tag is Immutable:** The `v1.0.8-GOLDEN` tag will always point to this exact code state
 2. **Backup is Complete:** Includes EVERYTHING needed to restore to this exact state
 3. **Database Password:** Always in environment or use `PGPASSWORD=LcS2025SecureDBPass`
 4. **Standalone Mode:** Remember to copy static files after build (handled by deploy.sh)
@@ -436,6 +456,8 @@ chmod -R 555 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.7/
 16. **Email Environment:** EMAIL_PROVIDER must be "smtp" in .env.production (not "console")
 17. **Next.js Standalone:** Environment variables are baked at build time - rebuild after changes
 18. **Support Tickets:** Includes complete CRUD functionality with email notifications
+19. **Wordsearch HTML Tag:** Added `html { overflow: hidden; height: 100%; }` to prevent scrollbar
+20. **Wordsearch Zoom:** User zoom level multiplies display dimensions, range 25%-300% in 25% steps
 
 ---
 
@@ -443,11 +465,11 @@ chmod -R 555 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.7/
 
 When creating new golden backups:
 
-1. Choose a new version number (e.g., v1.0.8-GOLDEN, v1.1.0-GOLDEN)
-2. Create new directory: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/`
+1. Choose a new version number (e.g., v1.0.9-GOLDEN, v1.1.0-GOLDEN)
+2. Create new directory: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/`
 3. Follow same backup procedure
 4. Update this document for the new location
-5. **Keep old backups!** Don't delete previous golden backups (v1.0.3, v1.0.4, v1.0.5, v1.0.6, v1.0.7, etc.)
+5. **Keep old backups!** Don't delete previous golden backups (v1.0.3, v1.0.4, v1.0.5, v1.0.6, v1.0.7, v1.0.8, etc.)
 
 ---
 
@@ -464,48 +486,47 @@ If recovery fails or you need help:
 7. Check SVG files: `ls -lh /opt/lessoncraftstudio/frontend/.next/standalone/public/images/alphabetsvg/print/regular/lowercase/`
 8. Check email configuration: `grep -E '^(EMAIL_|SMTP_)' /opt/lessoncraftstudio/frontend/.env.production`
 9. Check PM2 environment: `pm2 show lessoncraftstudio`
+10. Check wordsearch HTML: `grep -A 3 'html {' /opt/lessoncraftstudio/frontend/public/worksheet-generators/wordsearch.html`
 
 ---
 
-## 🆕 CHANGES IN v1.0.7 (from v1.0.6)
+## 🆕 CHANGES IN v1.0.8 (from v1.0.7)
 
 **New Features:**
-- ✅ **Email Notification System with Resend SMTP**:
-  - Configured EMAIL_PROVIDER to use "smtp" instead of "console"
-  - Fixed duplicate EMAIL_PROVIDER entries in .env files
-  - Updated .env.production to take precedence with correct values
-  - Changed SMTP_FROM_EMAIL to verified domain (onboarding@resend.dev)
-  - Email system now sends actual emails via Resend SMTP transporter
-  - Support ticket responses trigger automatic email notifications
-  - Beautiful HTML email templates with inline CSS styling
-  - Plain text fallback for email clients that don't support HTML
+- ✅ **Wordsearch App Scrollbar Fix**:
+  - Added `html { overflow: hidden; height: 100%; }` to wordsearch.html
+  - Prevents page scrollbar from appearing on right side
+  - Stops page from shifting when accordion menus expand/collapse
+  - Ensures stable viewport without unwanted scrolling
+  - Fixed in frontend/public/worksheet-generators/wordsearch.html:83-86
 
-- ✅ **Support Ticket Delete Functionality**:
-  - Added "Delete Ticket" button to admin support tickets dashboard
-  - Confirmation dialog to prevent accidental deletions
-  - DELETE API endpoint removes tickets from PostgreSQL database
-  - UI updates immediately after successful deletion
-  - Toast notifications for user feedback
-  - Loading states during delete operation
-  - Proper error handling with user-friendly messages
+- ✅ **Wordsearch App Zoom In/Out Feature**:
+  - Added zoom controls to top-right corner with +/- buttons
+  - Live zoom percentage display shows current zoom level (e.g., "100%")
+  - Zoom in button increases zoom by 25% (max 300%)
+  - Zoom out button decreases zoom by 25% (min 25%)
+  - Zoom reset button returns to 100% default zoom
+  - User zoom level persists across canvas updates and tab switches
+  - Integrates seamlessly with existing auto-scaling system
+  - CSS styling matches app design system (light theme, hover effects)
+  - Technical: Added userZoomLevel state variable (default: 1.0)
+  - Modified updateCanvasDisplayDimensions() to incorporate user zoom
+  - Zoom functions: zoomIn(), zoomOut(), zoomReset(), updateZoomDisplay()
+  - Works on both worksheet and answer key tabs
 
 **Technical Improvements:**
-- Fixed Next.js standalone build environment variable handling
-- Proper .env.production configuration for production deployments
-- Email configuration debugging with console logging
-- PM2 process restart with environment variable updates
-- Database table name case sensitivity handling (support_tickets vs SupportTicket)
-- Support ticket API includes user relationship data
-- Email HTML templates with responsive design and branding
+- Clean CSS implementation for zoom controls (.zoom-controls, .zoom-btn, .zoom-percentage)
+- Zoom controls integrate with existing top-right-actions layout
+- Zoom state management with proper bounds checking (0.25 to 3.0)
+- Canvas zoom calculations properly multiply display dimensions
+- Event listeners wired up for all three zoom buttons
 
 **Bug Fixes:**
-- Fixed EMAIL_PROVIDER defaulting to 'console' mode in production
-- Fixed domain verification error by using Resend verified domain
-- Fixed multiple duplicate EMAIL_PROVIDER entries in .env
-- Fixed .env.production overriding .env with incorrect values
-- Fixed Next.js not picking up environment variable changes (required rebuild)
+- Fixed wordsearch app showing page scrollbar when accordions expanded
+- Fixed page content shifting when sidebar accordion menus opened
 
 **Previous Golden Backups:**
+- **v1.0.7-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.7/` (October 14, 2025)
 - **v1.0.6-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.6/` (October 14, 2025)
 - **v1.0.5-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/` (October 14, 2025)
 - **v1.0.4-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.4/` (October 13, 2025)
@@ -514,7 +535,7 @@ If recovery fails or you need help:
 
 ---
 
-**Last Updated:** October 14, 2025
-**Version:** 1.0.7-GOLDEN
-**Commit:** f80263839d7f3e2a050193297156a679a9647617
-**Status:** STABLE - PRODUCTION READY - INCLUDES EMAIL SYSTEM AND SUPPORT TICKET MANAGEMENT
+**Last Updated:** October 15, 2025
+**Version:** 1.0.8-GOLDEN
+**Commit:** d9e4340b416fcb96b021b354428d3d47ce8a3b78
+**Status:** STABLE - PRODUCTION READY - INCLUDES WORDSEARCH SCROLLBAR FIX AND ZOOM FEATURE

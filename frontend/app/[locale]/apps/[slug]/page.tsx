@@ -3131,7 +3131,7 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
   };
 
   return (
-    <div className="h-screen flex flex-col bg-gray-50 overflow-hidden">
+    <div className="flex flex-col bg-gray-50 overflow-hidden" style={{ height: 'calc(100vh - 120px)' }}>
       {/* Header */}
       <section className={`bg-gradient-to-r ${tierColor} text-white py-12 flex-shrink-0`}>
         <div className="container mx-auto px-4">

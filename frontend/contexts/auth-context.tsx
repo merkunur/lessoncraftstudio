@@ -137,14 +137,15 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
 
       setAccessToken(storedToken);
 
-      // IMPORTANT: Set user from localStorage immediately to avoid loading state
-      // This makes isAuthenticated true immediately after redirect from signin
+      // Load user from localStorage to display immediately
+      // But keep loading=true until API verification completes to ensure fresh tier data
       const storedUser = localStorage.getItem('user');
       if (storedUser) {
         try {
           const parsedUser = JSON.parse(storedUser);
           setUser(parsedUser);
-          setLoading(false); // Set loading to false immediately
+          // Don't set loading=false here - wait for API verification
+          // This prevents showing access denied due to stale subscription tier
         } catch (e) {
           console.error('Failed to parse stored user:', e);
         }

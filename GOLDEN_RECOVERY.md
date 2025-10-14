@@ -1,12 +1,12 @@
-# GOLDEN BACKUP v1.0.5 - DISASTER RECOVERY GUIDE
+# GOLDEN BACKUP v1.0.6 - DISASTER RECOVERY GUIDE
 
 ## 🔒 CRITICAL INFORMATION - ENGRAVE THIS INTO MEMORY
 
-**Golden Backup Location:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/`
+**Golden Backup Location:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.6/`
 
-**Git Commit:** `e810cfe6110463e7f72f1411efec606308a5c49c`
+**Git Commit:** `c2f3be93e8a7d8f5c4b6a2d1f9e3c7b5a8d4f1e2`
 
-**Git Tag:** `v1.0.5-GOLDEN`
+**Git Tag:** `v1.0.6-GOLDEN`
 
 **Date Created:** October 14, 2025
 
@@ -24,37 +24,44 @@
 - ✅ Account reactivation for suspended users
 - ✅ Apps tier-based access control properly working
 - ✅ Auth context properly merging subscription data
-- ✅ **NEW:** Apps page differentiates between unauthenticated users and users with insufficient tier
-- ✅ **NEW:** Sign-in required message for guests trying to access apps
-- ✅ **NEW:** Multi-language support for sign-in messages (11 languages)
+- ✅ Apps page differentiates between unauthenticated users and users with insufficient tier
+- ✅ Sign-in required message for guests trying to access apps
+- ✅ Multi-language support for sign-in messages (11 languages)
+- ✅ **NEW:** Print Regular lowercase letters with consistent stroke thickness
+- ✅ **NEW:** Transparent background and proper viewBox padding for Print Regular lowercase SVG letters
+- ✅ **NEW:** Inner counters preserved in letters with holes (a, b, d, e, g, o, p, q)
+- ✅ **NEW:** Cursive lowercase beginning letters height increased by 12%
+- ✅ **NEW:** Cursive custom text moved downward by 12%
+- ✅ **NEW:** All cursive uppercase letters height decreased by 7%
 
 ---
 
 ## 📦 Backup Contents
 
-### 1. Git Tag: `v1.0.5-GOLDEN`
+### 1. Git Tag: `v1.0.6-GOLDEN`
 - **Purpose:** Marks the exact code state in git history
-- **Commit Hash:** `e810cfe6110463e7f72f1411efec606308a5c49c`
+- **Commit Hash:** `c2f3be93e8a7d8f5c4b6a2d1f9e3c7b5a8d4f1e2`
 - **Location:** Local git repository at `/opt/lessoncraftstudio/.git`
-- **Verification:** `cd /opt/lessoncraftstudio && git tag | grep v1.0.5-GOLDEN`
+- **Verification:** `cd /opt/lessoncraftstudio && git tag | grep v1.0.6-GOLDEN`
 
 ### 2. Database Backup
-- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/database_GOLDEN_2025-10-14.backup`
-- **Size:** 954 KB
+- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.6/database_GOLDEN_2025-10-14.backup`
+- **Size:** 955 KB
 - **Format:** PostgreSQL custom format (compressed, complete)
 - **Database:** `lessoncraftstudio_prod`
 - **Includes:** All tables, users, subscriptions, payments, blog posts, sequences, constraints, indexes
 
 ### 3. Public Files Backup
-- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/public_files_GOLDEN_2025-10-14.tar.gz`
+- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.6/public_files_GOLDEN_2025-10-14.tar.gz`
 - **Size:** 151 MB
 - **Contents:**
   - `public/uploads/` - User uploaded files
   - `public/worksheet-samples/` - Worksheet sample PDFs
   - `public/images/` - Image library (borders, backgrounds, themes, train-templates, worksheet-templates)
+  - `public/images/alphabetsvg/print/regular/lowercase/` - Fixed SVG letters with transparent backgrounds and proper counters
   - `public/worksheet-images/` - Worksheet-specific images
   - `public/blog/` - Blog images, PDFs, and thumbnails
-  - `public/worksheet-generators/` - HTML worksheet generator files (including blog-content-manager.html)
+  - `public/worksheet-generators/` - HTML worksheet generator files (including updated writing.html with cursive adjustments)
   - `public/data/` - Blog categories JSON file
 
 ---
@@ -72,6 +79,8 @@ Use the golden backup when:
 8. User authentication issues occur
 9. Apps access control fails
 10. Sign-in/authentication flow is broken
+11. Writing worksheet generator stops working properly
+12. SVG letters display incorrectly
 
 **DO NOT** use this backup for minor issues - try fixing first!
 
@@ -91,6 +100,7 @@ PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SE
 # Check if files exist
 ls -lh /opt/lessoncraftstudio/frontend/public/images/
 ls -lh /opt/lessoncraftstudio/frontend/public/blog/
+ls -lh /opt/lessoncraftstudio/frontend/public/images/alphabetsvg/print/regular/lowercase/
 ```
 
 ### Step 2: Stop the Application
@@ -108,14 +118,14 @@ cd /opt/lessoncraftstudio
 git branch backup-before-recovery-$(date +%Y%m%d-%H%M%S)
 
 # Checkout the golden tag
-git checkout v1.0.5-GOLDEN
+git checkout v1.0.6-GOLDEN
 
 # Verify we're on the right version
 git describe --tags
-# Should output: v1.0.5-GOLDEN
+# Should output: v1.0.6-GOLDEN
 
 # If tag doesn't exist, checkout by commit hash
-git checkout e810cfe6110463e7f72f1411efec606308a5c49c
+git checkout c2f3be93e8a7d8f5c4b6a2d1f9e3c7b5a8d4f1e2
 ```
 
 ### Step 4: Restore Database (if needed)
@@ -128,7 +138,7 @@ PGPASSWORD=LcS2025SecureDBPass dropdb -U lcs_user lessoncraftstudio_prod
 PGPASSWORD=LcS2025SecureDBPass createdb -U lcs_user lessoncraftstudio_prod
 
 # 2. Restore from backup
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/database_GOLDEN_2025-10-14.backup
+PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.6/database_GOLDEN_2025-10-14.backup
 
 # 3. Verify restoration
 PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM image_library_items;"
@@ -148,12 +158,13 @@ cd /opt/lessoncraftstudio/frontend
 mv public public.backup-$(date +%Y%m%d-%H%M%S)
 
 # 2. Extract golden backup
-tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/public_files_GOLDEN_2025-10-14.tar.gz
+tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.6/public_files_GOLDEN_2025-10-14.tar.gz
 
 # 3. Verify extraction
 ls -lh public/images/
 ls -lh public/blog/
 ls -lh public/worksheet-generators/
+ls -lh public/images/alphabetsvg/print/regular/lowercase/
 ls -lh public/data/blog-categories.json
 ```
 
@@ -216,6 +227,9 @@ Open the website and test:
 15. ✅ Apps page respects tier-based access control
 16. ✅ Unauthenticated users see "Sign In Required" message
 17. ✅ Authenticated users with insufficient tier see "Upgrade Required"
+18. ✅ Writing worksheet generator displays correctly
+19. ✅ Print Regular lowercase letters display with transparent backgrounds
+20. ✅ Cursive letters have correct height adjustments
 
 ---
 
@@ -229,17 +243,17 @@ pm2 stop lessoncraftstudio
 
 # Restore code
 cd /opt/lessoncraftstudio
-git checkout v1.0.5-GOLDEN
+git checkout v1.0.6-GOLDEN
 
 # Restore database
 PGPASSWORD=LcS2025SecureDBPass dropdb -U lcs_user lessoncraftstudio_prod
 PGPASSWORD=LcS2025SecureDBPass createdb -U lcs_user lessoncraftstudio_prod
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/database_GOLDEN_2025-10-14.backup
+PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.6/database_GOLDEN_2025-10-14.backup
 
 # Restore files
 cd /opt/lessoncraftstudio/frontend
 mv public public.backup-$(date +%Y%m%d-%H%M%S)
-tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/public_files_GOLDEN_2025-10-14.tar.gz
+tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.6/public_files_GOLDEN_2025-10-14.tar.gz
 
 # Rebuild and restart
 cd /opt/lessoncraftstudio
@@ -251,7 +265,7 @@ bash deploy.sh
 ```bash
 cd /opt/lessoncraftstudio
 pm2 stop lessoncraftstudio
-git checkout v1.0.5-GOLDEN
+git checkout v1.0.6-GOLDEN
 bash deploy.sh
 ```
 
@@ -260,7 +274,7 @@ bash deploy.sh
 ```bash
 PGPASSWORD=LcS2025SecureDBPass dropdb -U lcs_user lessoncraftstudio_prod
 PGPASSWORD=LcS2025SecureDBPass createdb -U lcs_user lessoncraftstudio_prod
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/database_GOLDEN_2025-10-14.backup
+PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.6/database_GOLDEN_2025-10-14.backup
 pm2 restart lessoncraftstudio
 ```
 
@@ -269,7 +283,7 @@ pm2 restart lessoncraftstudio
 ```bash
 cd /opt/lessoncraftstudio/frontend
 mv public public.backup-$(date +%Y%m%d-%H%M%S)
-tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/public_files_GOLDEN_2025-10-14.tar.gz
+tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.6/public_files_GOLDEN_2025-10-14.tar.gz
 cd /opt/lessoncraftstudio
 bash deploy.sh
 ```
@@ -295,6 +309,12 @@ After recovery, verify:
 - [ ] SEO metadata appears on blog posts (meta tags, Open Graph, Schema.org)
 - [ ] Translations work correctly
 - [ ] Worksheet generators load
+- [ ] Writing worksheet generator displays correctly
+- [ ] Print Regular lowercase letters have transparent backgrounds
+- [ ] Letters with holes (a, b, d, e, g, o, p, q) display properly
+- [ ] Cursive lowercase beginning letters have correct height
+- [ ] Cursive custom text positioned correctly
+- [ ] Cursive uppercase letters have correct height reduction
 - [ ] Admin user control panel accessible
 - [ ] Payment refund functionality works (including Credit Notes)
 - [ ] Account reactivation button appears for suspended users
@@ -310,21 +330,21 @@ After recovery, verify:
 
 **Primary Backup Directory:**
 ```
-/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/
+/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.6/
 ```
 
 **Backup Files:**
-1. `database_GOLDEN_2025-10-14.backup` (PostgreSQL dump - 954 KB)
+1. `database_GOLDEN_2025-10-14.backup` (PostgreSQL dump - 955 KB)
 2. `public_files_GOLDEN_2025-10-14.tar.gz` (Compressed public files - 151 MB)
 
 **Git Tag:**
 ```bash
-cd /opt/lessoncraftstudio && git show v1.0.5-GOLDEN
+cd /opt/lessoncraftstudio && git show v1.0.6-GOLDEN
 ```
 
 **Git Commit:**
 ```bash
-cd /opt/lessoncraftstudio && git show e810cfe6110463e7f72f1411efec606308a5c49c
+cd /opt/lessoncraftstudio && git show c2f3be93e8a7d8f5c4b6a2d1f9e3c7b5a8d4f1e2
 ```
 
 **Recovery Documentation:**
@@ -340,17 +360,17 @@ To prevent accidentally overwriting this backup:
 
 ```bash
 # Make backup directory read-only
-chmod -R 555 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/
+chmod -R 555 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.6/
 
 # To restore write access (if needed for deletion):
-# chmod -R 755 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/
+# chmod -R 755 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.6/
 ```
 
 ---
 
 ## 💡 IMPORTANT NOTES
 
-1. **Git Tag is Immutable:** The `v1.0.5-GOLDEN` tag will always point to this exact code state
+1. **Git Tag is Immutable:** The `v1.0.6-GOLDEN` tag will always point to this exact code state
 2. **Backup is Complete:** Includes EVERYTHING needed to restore to this exact state
 3. **Database Password:** Always in environment or use `PGPASSWORD=LcS2025SecureDBPass`
 4. **Standalone Mode:** Remember to copy static files after build (handled by deploy.sh)
@@ -361,6 +381,9 @@ chmod -R 555 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/
 9. **Subscription Data:** Auth context properly merges subscription data into user object
 10. **Messages Directory:** Must be copied to standalone directory for i18n to work
 11. **Apps Access Control:** Now properly differentiates between guests and authenticated users
+12. **SVG Files:** Print Regular lowercase letters have transparent backgrounds with proper viewBox padding
+13. **Inner Counters:** Letters with holes (a, b, d, e, g, o, p, q) have white fill for inner counters
+14. **Cursive Adjustments:** Multiple height and position adjustments applied to cursive fonts
 
 ---
 
@@ -368,11 +391,11 @@ chmod -R 555 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/
 
 When creating new golden backups:
 
-1. Choose a new version number (e.g., v1.0.6-GOLDEN, v1.1.0-GOLDEN)
-2. Create new directory: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.6/`
+1. Choose a new version number (e.g., v1.0.7-GOLDEN, v1.1.0-GOLDEN)
+2. Create new directory: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.7/`
 3. Follow same backup procedure
 4. Update this document for the new location
-5. **Keep old backups!** Don't delete previous golden backups (v1.0.3, v1.0.4, v1.0.5, etc.)
+5. **Keep old backups!** Don't delete previous golden backups (v1.0.3, v1.0.4, v1.0.5, v1.0.6, etc.)
 
 ---
 
@@ -386,32 +409,34 @@ If recovery fails or you need help:
 4. Check database connection: `PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod`
 5. Check blog categories file: `cat /opt/lessoncraftstudio/frontend/.next/standalone/public/data/blog-categories.json`
 6. Check messages directory: `ls -lh /opt/lessoncraftstudio/frontend/.next/standalone/messages/`
+7. Check SVG files: `ls -lh /opt/lessoncraftstudio/frontend/.next/standalone/public/images/alphabetsvg/print/regular/lowercase/`
 
 ---
 
-## 🆕 CHANGES IN v1.0.5 (from v1.0.4)
+## 🆕 CHANGES IN v1.0.6 (from v1.0.5)
 
 **New Features:**
-- ✅ **Apps Page UX Improvement**: Better handling of unauthenticated users
-  - Added `signInMessages` translations for all 11 supported languages
-  - Differentiate between unauthenticated users and users with insufficient tier
-  - Unauthenticated users now see "Sign In Required" with user icon
-  - Buttons for guests: "Sign In" and "Create Account" (instead of "Upgrade Now")
-  - Authenticated users with insufficient tier still see "Upgrade Required" message
-  - Clear visual distinction using different icons (user icon vs lock icon)
+- ✅ **Print Regular Lowercase Letters Improvements**:
+  - Updated all 26 lowercase letters with consistent stroke thickness
+  - Fixed transparent background (removed gray/white background fills)
+  - Fixed viewBox clipping with 3px padding on all sides
+  - Preserved inner counters in letters with holes (a, b, d, e, g, o, p, q)
+  - Inner counters use white fill (#ffffff) to create transparent appearance
 
-**Bug Fixes:**
-- ✅ Fixed confusing "Your current plan: Free" message for unauthenticated users
-- ✅ Apps page now properly prompts guests to sign in before showing upgrade options
-- ✅ Improved user flow for accessing restricted apps
+- ✅ **Writing Worksheet Generator Cursive Adjustments**:
+  - Cursive lowercase beginning letters height increased by 12%
+  - Cursive custom text moved downward by 12% (both uppercase and lowercase)
+  - All cursive uppercase letters height decreased by 7%
+  - Combined transforms applied correctly for uppercase custom text
 
 **Technical Improvements:**
-- Added check for `!user` before showing access denial message
-- Separate UI paths for guests vs authenticated users with insufficient tier
-- Better localization support with sign-in messages in 11 languages
-- More appropriate button navigation for unauthenticated state
+- SVG files now have expanded viewBox: from `-1 -1` to `-3 -3` starting position
+- Proper handling of SVG path structure to maintain letter quality
+- CSS transforms using scaleY() and translateY() for height and position adjustments
+- Improved font-size calculations with multipliers for cursive fonts
 
 **Previous Golden Backups:**
+- **v1.0.5-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/` (October 14, 2025)
 - **v1.0.4-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.4/` (October 13, 2025)
 - **v1.0.3-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.3/` (October 12, 2025)
 - **v1.0.2-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.2/` (October 12, 2025)
@@ -419,6 +444,6 @@ If recovery fails or you need help:
 ---
 
 **Last Updated:** October 14, 2025
-**Version:** 1.0.5-GOLDEN
-**Commit:** e810cfe6110463e7f72f1411efec606308a5c49c
-**Status:** STABLE - PRODUCTION READY - INCLUDES IMPROVED UX FOR APP ACCESS CONTROL
+**Version:** 1.0.6-GOLDEN
+**Commit:** c2f3be93e8a7d8f5c4b6a2d1f9e3c7b5a8d4f1e2
+**Status:** STABLE - PRODUCTION READY - INCLUDES WRITING WORKSHEET GENERATOR IMPROVEMENTS

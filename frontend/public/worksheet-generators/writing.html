@@ -939,11 +939,11 @@
     .row.guided-copy[data-content="beginning"] .letters.cursive-font {
         font-size: calc(var(--row-height-px, 40.32px) * 1.05 + 3px) !important;
     }
-    /* Lowercase cursive letters need additional height */
+    /* Lowercase cursive letters need additional height - increased by 12% */
     .row.trace[data-content="beginning"][data-casing="lowercase"] .letters.cursive-font,
     .row.fading-trace[data-content="beginning"][data-casing="lowercase"] .letters.cursive-font,
     .row.guided-copy[data-content="beginning"][data-casing="lowercase"] .letters.cursive-font {
-        font-size: calc(var(--row-height-px, 40.32px) * 1.05 + 6px) !important;
+        font-size: calc((var(--row-height-px, 40.32px) * 1.05 + 6px) * 1.12) !important;
     }
     /* Ensure Lexend Deca font is used for general print text rows */
     .row.trace .letters.lexend-deca-font,

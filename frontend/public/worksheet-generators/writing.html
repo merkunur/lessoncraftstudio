@@ -1073,6 +1073,23 @@
         transform: translateY(12%) !important;
     }
 
+    /* Adjusted height for specific lowercase 'b' and 'h' letters in Print Regular Arrow beginning letters */
+    .row.trace[data-content="beginning"][data-casing="lowercase"] .letters img.lowercase.font-print-regular-arrow[alt="b"],
+    .row.trace[data-content="beginning"][data-casing="lowercase"] .letters img.lowercase.font-print-regular-arrow[alt="h"],
+    .row.fading-trace[data-content="beginning"][data-casing="lowercase"] .letters img.lowercase.font-print-regular-arrow[alt="b"],
+    .row.fading-trace[data-content="beginning"][data-casing="lowercase"] .letters img.lowercase.font-print-regular-arrow[alt="h"],
+    .row.guided-copy[data-content="beginning"][data-casing="lowercase"] .letters img.lowercase.font-print-regular-arrow[alt="b"],
+    .row.guided-copy[data-content="beginning"][data-casing="lowercase"] .letters img.lowercase.font-print-regular-arrow[alt="h"],
+    .row.trace[data-content="beginning"][data-casing="lowercase"] .letters canvas.lowercase.font-print-regular-arrow[alt="b"],
+    .row.trace[data-content="beginning"][data-casing="lowercase"] .letters canvas.lowercase.font-print-regular-arrow[alt="h"],
+    .row.fading-trace[data-content="beginning"][data-casing="lowercase"] .letters canvas.lowercase.font-print-regular-arrow[alt="b"],
+    .row.fading-trace[data-content="beginning"][data-casing="lowercase"] .letters canvas.lowercase.font-print-regular-arrow[alt="h"],
+    .row.guided-copy[data-content="beginning"][data-casing="lowercase"] .letters canvas.lowercase.font-print-regular-arrow[alt="b"],
+    .row.guided-copy[data-content="beginning"][data-casing="lowercase"] .letters canvas.lowercase.font-print-regular-arrow[alt="h"] {
+        height: 105% !important;
+        align-self: flex-end !important;
+    }
+
     /* REMOVED: Incorrect positioning override that made letters sit too low
      * All modes now use the correct custom mode positioning (translateY(2px))
      * This was causing inconsistency between beginning/filename/custom modes

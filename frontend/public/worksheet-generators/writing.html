@@ -951,6 +951,18 @@
     .row.guided-copy[data-content="custom"] .letters.cursive-font {
         transform: translateY(12%) !important;
     }
+    /* Decrease all cursive uppercase letters height by 7% */
+    .row.trace[data-casing="uppercase"] .letters.cursive-font,
+    .row.fading-trace[data-casing="uppercase"] .letters.cursive-font,
+    .row.guided-copy[data-casing="uppercase"] .letters.cursive-font {
+        transform: scaleY(0.93) !important;
+    }
+    /* Combine transforms for cursive uppercase custom text (both downward movement and height reduction) */
+    .row.trace[data-content="custom"][data-casing="uppercase"] .letters.cursive-font,
+    .row.fading-trace[data-content="custom"][data-casing="uppercase"] .letters.cursive-font,
+    .row.guided-copy[data-content="custom"][data-casing="uppercase"] .letters.cursive-font {
+        transform: translateY(12%) scaleY(0.93) !important;
+    }
     /* Ensure Lexend Deca font is used for general print text rows */
     .row.trace .letters.lexend-deca-font,
     .row.fading-trace .letters.lexend-deca-font,

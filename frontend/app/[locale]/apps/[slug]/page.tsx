@@ -3125,9 +3125,9 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
   };
 
   return (
-    <div className="h-full flex flex-col bg-gray-50 overflow-hidden">
-      {/* Header - Responsive with max-height constraint */}
-      <section className={`bg-gradient-to-r ${tierColor} text-white py-12 md:py-8 sm:py-6 flex-shrink-0 max-h-[40vh] overflow-auto`}>
+    <div className="min-h-screen bg-gray-50">
+      {/* Header - Hero Section */}
+      <section className={`bg-gradient-to-r ${tierColor} text-white py-12 md:py-8 sm:py-6`}>
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             {/* Breadcrumb */}

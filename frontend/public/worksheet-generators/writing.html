@@ -1107,6 +1107,23 @@
         align-self: flex-end !important;
     }
 
+    /* Adjusted height for Print Regular and Print Tracing uppercase letters in whole file name content */
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular:not(.font-print-regular-arrow),
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular:not(.font-print-regular-arrow),
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-regular:not(.font-print-regular-arrow),
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular:not(.font-print-regular-arrow),
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular:not(.font-print-regular-arrow),
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-regular:not(.font-print-regular-arrow),
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing:not(.font-print-tracing-arrow),
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing:not(.font-print-tracing-arrow),
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters img:not(.lowercase).font-print-tracing:not(.font-print-tracing-arrow),
+    .row.trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing:not(.font-print-tracing-arrow),
+    .row.fading-trace[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing:not(.font-print-tracing-arrow),
+    .row.guided-copy[data-content="filename"][data-casing="uppercase"] .letters canvas:not(.lowercase).font-print-tracing:not(.font-print-tracing-arrow) {
+        height: 105% !important;
+        align-self: flex-end !important;
+    }
+
     /* REMOVED: Incorrect positioning override that made letters sit too low
      * All modes now use the correct custom mode positioning (translateY(2px))
      * This was causing inconsistency between beginning/filename/custom modes

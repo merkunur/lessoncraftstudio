@@ -1632,44 +1632,17 @@ document.addEventListener("DOMContentLoaded", function() {
     async function downloadImageFile() {
         showMessage(t('preparingJPEG'), 'info', 0);
         try {
-            // Add watermark if free tier
-            const watermarkData = addWatermarkToCanvas(canvas);
             
             const dataURL = await getCanvasDataURL(canvas, downloadMultiplier);
             const link = document.createElement('a');
             link.download = 'coloring_page.jpeg'; link.href = dataURL;
             link.click();
             
-            // Remove watermark after export
-            removeWatermarkFromCanvas(canvas, watermarkData);
-            
             showMessage(t('jpegDownloadInitiated'), 'success', 3000);
         } catch (error) { showMessage(t('errorPreparingJPEG') + ': ' + error.message, 'error'); }
     }
     
-    // Check if user is on free tier
-    function isFreeTier() {
-        const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get('tier') === 'free';
-    }
-
-    // Add watermark to canvas before export
-    function addWatermarkToCanvas(canvas) {
-        if (!isFreeTier()) return;
-        
-        const watermarkText = new fabric.Text('FREE VERSION - LessonCraftStudio.com', {
-            fontSize: 40,
-            fill: 'rgba(0, 0, 0, 0.2)',
-            angle: -45,
-            left: currentCanvasConfig.width / 2,
-            top: currentCanvasConfig.height / 2,
-            originX: 'center',
-            originY: 'center',
-            selectable: false,
-            evented: false,
-            fontFamily: 'Arial, sans-serif',
-            fontWeight: 'bold'
-        });
+    // Check if user is on free tier);
         
         // Add multiple watermarks across the canvas
         const watermarks = [];
@@ -1697,14 +1670,6 @@ document.addEventListener("DOMContentLoaded", function() {
         
         return { mainWatermark: watermarkText, watermarks };
     }
-
-    // Remove watermark after export
-    function removeWatermarkFromCanvas(canvas, watermarkData) {
-        if (!watermarkData) return;
-        
-        if (watermarkData.mainWatermark) {
-            canvas.remove(watermarkData.mainWatermark);
-        }
         if (watermarkData.watermarks) {
             watermarkData.watermarks.forEach(wm => canvas.remove(wm));
         }
@@ -1719,9 +1684,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 return showMessage(t('pleaseGenerateContentFirst'), 'error');
             }
             showMessage(t('preparingPDF'), 'info', 0);
-            
-            // Add watermark if free tier
-            const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
                 const { jsPDF } = window.jspdf;
@@ -1746,8 +1708,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 showMessage(t('errorCreatingPDF'), 'error'); 
                 console.error(e); 
             } finally {
-                // Remove watermark after export
-                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         };
     }
@@ -1760,9 +1720,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 return showMessage(t('pleaseGenerateWorksheetFirst'), 'error');
             }
             showMessage(t('preparingJPEG'), 'info', 0);
-            
-            // Add watermark if free tier
-            const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
                 const exportOptions = { 
@@ -1780,8 +1737,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 showMessage(t('errorPreparingJPEG'), 'error'); 
                 console.error(e); 
             } finally {
-                // Remove watermark after export
-                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         };
     }
@@ -1789,8 +1744,6 @@ document.addEventListener("DOMContentLoaded", function() {
 async function downloadPDF() {
         showMessage(t('preparingPDF'), 'info', 0);
         try {
-            // Add watermark if free tier
-            const watermarkData = addWatermarkToCanvas(canvas);
             
             const { jsPDF } = window.jspdf;
             const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
@@ -1798,9 +1751,6 @@ async function downloadPDF() {
             const imgData = await getCanvasDataURL(canvas, downloadMultiplier);
             pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
             pdf.save("coloring_page.pdf");
-            
-            // Remove watermark after export
-            removeWatermarkFromCanvas(canvas, watermarkData);
             
             showMessage(t('pdfDownloaded'), 'success', 3000);
         } catch (error) { showMessage(t('errorCreatingPDF') + ': ' + error.message, "error"); }

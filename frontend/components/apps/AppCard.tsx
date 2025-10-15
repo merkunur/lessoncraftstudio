@@ -1,6 +1,8 @@
 'use client';
 
 import { useRouter } from 'next/navigation';
+import { useAuth } from '@/contexts/auth-context';
+import { useEffect, useState } from 'react';
 
 type AppTier = 'free' | 'core' | 'full';
 
@@ -59,6 +61,18 @@ const slugToHtmlMap: { [key: string]: string } = {
 
 export default function AppCard({ app, locale, appName, categoryName }: AppCardProps) {
   const router = useRouter();
+  const { user, loading } = useAuth();
+  const [hasAccess, setHasAccess] = useState(false);
+
+  // Check if user has access to this app
+  useEffect(() => {
+    if (!loading) {
+      const tierHierarchy = { free: 0, core: 1, full: 2 };
+      const userTierLevel = tierHierarchy[user?.subscriptionTier as keyof typeof tierHierarchy] || 0;
+      const requiredTierLevel = tierHierarchy[app.tier as keyof typeof tierHierarchy] || 0;
+      setHasAccess(userTierLevel >= requiredTierLevel);
+    }
+  }, [user, loading, app.tier]);
 
   const tierColors: Record<AppTier, string> = {
     free: 'border-green-500 bg-green-50',
@@ -101,21 +115,35 @@ export default function AppCard({ app, locale, appName, categoryName }: AppCardP
   };
 
   const handleClick = () => {
+    // If loading, do nothing
+    if (loading) return;
+
     const htmlFile = slugToHtmlMap[app.id];
-    if (htmlFile) {
-      // Open generator directly in new window
-      window.open(`/worksheet-generators/${encodeURIComponent(htmlFile)}?locale=${locale}`, '_blank');
+
+    if (hasAccess && htmlFile) {
+      // User has access - open worksheet generator with tier parameter
+      const userTier = user?.subscriptionTier || 'free';
+      window.open(`/worksheet-generators/${encodeURIComponent(htmlFile)}?tier=${userTier}&locale=${locale}`, '_blank');
+    } else {
+      // User doesn't have access - navigate to app page to show paywall
+      router.push(`/${locale}/apps/${app.id}`);
     }
   };
 
   return (
     <div
       onClick={handleClick}
-      className={`relative p-6 rounded-lg border-2 ${tierColors[app.tier]} hover:shadow-lg transition-all duration-200 cursor-pointer h-full`}
+      className={`relative p-6 rounded-lg border-2 ${tierColors[app.tier]} hover:shadow-lg transition-all duration-200 cursor-pointer h-full ${!hasAccess && !loading ? 'opacity-75' : ''}`}
     >
       {app.popular && (
         <div className="absolute -top-2 -right-2 bg-orange-500 text-white text-xs px-2 py-1 rounded-full">
           {getPopularLabel()}
+        </div>
+      )}
+
+      {!hasAccess && !loading && (
+        <div className="absolute -top-2 -left-2 bg-gray-700 text-white text-xs px-2 py-1 rounded-full flex items-center gap-1">
+          🔒 {locale === 'de' ? 'Upgrade' : locale === 'fr' ? 'Améliorez' : locale === 'es' ? 'Actualizar' : 'Upgrade'}
         </div>
       )}
 

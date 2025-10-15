@@ -393,26 +393,34 @@
     }
   </style>
   <script>
-    // Set currentLocale globally BEFORE any scripts initialize
-    let currentLocale = 'en';
+    // Set locales globally BEFORE any scripts initialize
+    // uiLocale = Interface language (from main app's language selector)
+    // currentLocale = Content language for worksheets (from internal selector)
+
     const urlParams = new URLSearchParams(window.location.search);
-    if (urlParams.get('locale')) {
-        currentLocale = urlParams.get('locale');
-    }
+
+    // UI locale comes from the main app (via URL parameter)
+    let uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
+
+    // Content locale can be different (initially same as UI for simplicity)
+    let currentLocale = urlParams.get('content') || uiLocale;
+
+    window.uiLocale = uiLocale;
     window.currentLocale = currentLocale;
 
-    // Define t() function GLOBALLY (not inside DOMContentLoaded!)
-    window.t = function(key) {
+    // ==========================================
+    // Global translation function (uses uiLocale for UI translations)
+    function t(key) {
         if (typeof translations === 'undefined') {
             console.warn('Translations not loaded, returning key:', key);
             return key;
         }
-        const locale = window.currentLocale || 'en';
-        const translation = (translations[locale] && translations[locale][key]) ||
+        const translation = (translations[uiLocale] && translations[uiLocale][key]) ||
                            (translations.en && translations.en[key]) ||
                            key;
         return translation;
-    };
+    }
+    window.t = t;
   </script>
 </head>
 <body>

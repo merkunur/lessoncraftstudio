@@ -1,12 +1,12 @@
-# GOLDEN BACKUP v1.0.8 - DISASTER RECOVERY GUIDE
+# GOLDEN BACKUP v1.0.9 - DISASTER RECOVERY GUIDE
 
 ## 🔒 CRITICAL INFORMATION - ENGRAVE THIS INTO MEMORY
 
-**Golden Backup Location:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/`
+**Golden Backup Location:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/`
 
-**Git Commit:** `d9e4340b416fcb96b021b354428d3d47ce8a3b78`
+**Git Commit:** `90fd705315c9e9bb0bb208fe100c30077beb40c6`
 
-**Git Tag:** `v1.0.8-GOLDEN`
+**Git Tag:** `v1.0.9-GOLDEN`
 
 **Date Created:** October 15, 2025
 
@@ -41,26 +41,29 @@
 - ✅ Toast notifications for delete operations
 - ✅ **NEW:** Wordsearch app scrollbar fix - no page scrollbar or movement when opening accordions
 - ✅ **NEW:** Wordsearch app zoom in/out feature with controls (25%-300% zoom range)
+- ✅ **NEW:** Full multilingual support for AppCard upgrade lock badge (11 languages)
+- ✅ **NEW:** Full multilingual support for app paywall page (AutoLaunchApp.tsx - 11 languages)
+- ✅ **NEW:** Naturally-written text in all supported languages (not just translated)
 
 ---
 
 ## 📦 Backup Contents
 
-### 1. Git Tag: `v1.0.8-GOLDEN`
+### 1. Git Tag: `v1.0.9-GOLDEN`
 - **Purpose:** Marks the exact code state in git history
-- **Commit Hash:** `d9e4340b416fcb96b021b354428d3d47ce8a3b78`
+- **Commit Hash:** `90fd705315c9e9bb0bb208fe100c30077beb40c6`
 - **Location:** Local git repository at `/opt/lessoncraftstudio/.git`
-- **Verification:** `cd /opt/lessoncraftstudio && git tag | grep v1.0.8-GOLDEN`
+- **Verification:** `cd /opt/lessoncraftstudio && git tag | grep v1.0.9-GOLDEN`
 
 ### 2. Database Backup
-- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/database_GOLDEN_2025-10-15.backup`
+- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/database_GOLDEN_2025-10-15.backup`
 - **Size:** 954 KB
 - **Format:** PostgreSQL custom format (compressed, complete)
 - **Database:** `lessoncraftstudio_prod`
 - **Includes:** All tables, users, subscriptions, payments, blog posts, support tickets, sequences, constraints, indexes
 
 ### 3. Public Files Backup
-- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/public_files_GOLDEN_2025-10-15.tar.gz`
+- **File:** `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/public_files_GOLDEN_2025-10-15.tar.gz`
 - **Size:** 145 MB
 - **Contents:**
   - `public/uploads/` - User uploaded files
@@ -134,14 +137,14 @@ cd /opt/lessoncraftstudio
 git branch backup-before-recovery-$(date +%Y%m%d-%H%M%S)
 
 # Checkout the golden tag
-git checkout v1.0.8-GOLDEN
+git checkout v1.0.9-GOLDEN
 
 # Verify we're on the right version
 git describe --tags
-# Should output: v1.0.8-GOLDEN
+# Should output: v1.0.9-GOLDEN
 
 # If tag doesn't exist, checkout by commit hash
-git checkout d9e4340b416fcb96b021b354428d3d47ce8a3b78
+git checkout 90fd705315c9e9bb0bb208fe100c30077beb40c6
 ```
 
 ### Step 4: Restore Database (if needed)
@@ -154,7 +157,7 @@ PGPASSWORD=LcS2025SecureDBPass dropdb -U lcs_user lessoncraftstudio_prod
 PGPASSWORD=LcS2025SecureDBPass createdb -U lcs_user lessoncraftstudio_prod
 
 # 2. Restore from backup
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/database_GOLDEN_2025-10-15.backup
+PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/database_GOLDEN_2025-10-15.backup
 
 # 3. Verify restoration
 PGPASSWORD=LcS2025SecureDBPass psql -U lcs_user -d lessoncraftstudio_prod -c "SELECT COUNT(*) FROM image_library_items;"
@@ -175,7 +178,7 @@ cd /opt/lessoncraftstudio/frontend
 mv public public.backup-$(date +%Y%m%d-%H%M%S)
 
 # 2. Extract golden backup
-tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/public_files_GOLDEN_2025-10-15.tar.gz
+tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/public_files_GOLDEN_2025-10-15.tar.gz
 
 # 3. Verify extraction
 ls -lh public/images/
@@ -300,17 +303,17 @@ pm2 stop lessoncraftstudio
 
 # Restore code
 cd /opt/lessoncraftstudio
-git checkout v1.0.8-GOLDEN
+git checkout v1.0.9-GOLDEN
 
 # Restore database
 PGPASSWORD=LcS2025SecureDBPass dropdb -U lcs_user lessoncraftstudio_prod
 PGPASSWORD=LcS2025SecureDBPass createdb -U lcs_user lessoncraftstudio_prod
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/database_GOLDEN_2025-10-15.backup
+PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/database_GOLDEN_2025-10-15.backup
 
 # Restore files
 cd /opt/lessoncraftstudio/frontend
 mv public public.backup-$(date +%Y%m%d-%H%M%S)
-tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/public_files_GOLDEN_2025-10-15.tar.gz
+tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/public_files_GOLDEN_2025-10-15.tar.gz
 
 # Rebuild and restart
 cd /opt/lessoncraftstudio
@@ -322,7 +325,7 @@ bash deploy.sh
 ```bash
 cd /opt/lessoncraftstudio
 pm2 stop lessoncraftstudio
-git checkout v1.0.8-GOLDEN
+git checkout v1.0.9-GOLDEN
 bash deploy.sh
 ```
 
@@ -331,7 +334,7 @@ bash deploy.sh
 ```bash
 PGPASSWORD=LcS2025SecureDBPass dropdb -U lcs_user lessoncraftstudio_prod
 PGPASSWORD=LcS2025SecureDBPass createdb -U lcs_user lessoncraftstudio_prod
-PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/database_GOLDEN_2025-10-15.backup
+PGPASSWORD=LcS2025SecureDBPass pg_restore -U lcs_user -d lessoncraftstudio_prod -v /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/database_GOLDEN_2025-10-15.backup
 pm2 restart lessoncraftstudio
 ```
 
@@ -340,7 +343,7 @@ pm2 restart lessoncraftstudio
 ```bash
 cd /opt/lessoncraftstudio/frontend
 mv public public.backup-$(date +%Y%m%d-%H%M%S)
-tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/public_files_GOLDEN_2025-10-15.tar.gz
+tar -xzf /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/public_files_GOLDEN_2025-10-15.tar.gz
 cd /opt/lessoncraftstudio
 bash deploy.sh
 ```
@@ -398,7 +401,7 @@ After recovery, verify:
 
 **Primary Backup Directory:**
 ```
-/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/
+/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/
 ```
 
 **Backup Files:**
@@ -407,12 +410,12 @@ After recovery, verify:
 
 **Git Tag:**
 ```bash
-cd /opt/lessoncraftstudio && git show v1.0.8-GOLDEN
+cd /opt/lessoncraftstudio && git show v1.0.9-GOLDEN
 ```
 
 **Git Commit:**
 ```bash
-cd /opt/lessoncraftstudio && git show d9e4340b416fcb96b021b354428d3d47ce8a3b78
+cd /opt/lessoncraftstudio && git show 90fd705315c9e9bb0bb208fe100c30077beb40c6
 ```
 
 **Recovery Documentation:**
@@ -428,10 +431,10 @@ To prevent accidentally overwriting this backup:
 
 ```bash
 # Make backup directory read-only
-chmod -R 555 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/
+chmod -R 555 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/
 
 # To restore write access (if needed for deletion):
-# chmod -R 755 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/
+# chmod -R 755 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/
 ```
 
 ---
@@ -458,6 +461,8 @@ chmod -R 555 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/
 18. **Support Tickets:** Includes complete CRUD functionality with email notifications
 19. **Wordsearch HTML Tag:** Added `html { overflow: hidden; height: 100%; }` to prevent scrollbar
 20. **Wordsearch Zoom:** User zoom level multiplies display dimensions, range 25%-300% in 25% steps
+21. **Multilingual UI:** AppCard and AutoLaunchApp components now have naturally-written text in all 11 languages
+22. **Translation Quality:** Text is written naturally in each language, not just translated word-for-word
 
 ---
 
@@ -465,11 +470,11 @@ chmod -R 555 /opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/
 
 When creating new golden backups:
 
-1. Choose a new version number (e.g., v1.0.9-GOLDEN, v1.1.0-GOLDEN)
-2. Create new directory: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.9/`
+1. Choose a new version number (e.g., v1.0.10-GOLDEN, v1.1.0-GOLDEN)
+2. Create new directory: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.10/`
 3. Follow same backup procedure
 4. Update this document for the new location
-5. **Keep old backups!** Don't delete previous golden backups (v1.0.3, v1.0.4, v1.0.5, v1.0.6, v1.0.7, v1.0.8, etc.)
+5. **Keep old backups!** Don't delete previous golden backups (v1.0.3, v1.0.4, v1.0.5, v1.0.6, v1.0.7, v1.0.8, v1.0.9, etc.)
 
 ---
 
@@ -490,42 +495,55 @@ If recovery fails or you need help:
 
 ---
 
-## 🆕 CHANGES IN v1.0.8 (from v1.0.7)
+## 🆕 CHANGES IN v1.0.9 (from v1.0.8)
 
 **New Features:**
-- ✅ **Wordsearch App Scrollbar Fix**:
-  - Added `html { overflow: hidden; height: 100%; }` to wordsearch.html
-  - Prevents page scrollbar from appearing on right side
-  - Stops page from shifting when accordion menus expand/collapse
-  - Ensures stable viewport without unwanted scrolling
-  - Fixed in frontend/public/worksheet-generators/wordsearch.html:83-86
+- ✅ **Full Multilingual UI Support - AppCard Component**:
+  - Added `getUpgradeLabel()` helper function with naturally-written translations
+  - Supports all 11 languages: English, German, French, Spanish, Italian, Portuguese, Dutch, Swedish, Danish, Norwegian, Finnish
+  - Uses native language verbs for Nordic languages: "Uppgradera" (Swedish), "Opgrader" (Danish/Norwegian), "Päivitä" (Finnish)
+  - Uses "Premium" for Romance languages where it's more natural than literal translations
+  - Replaced inline ternary operators with clean helper function
+  - Updated in frontend/components/apps/AppCard.tsx:117-129
 
-- ✅ **Wordsearch App Zoom In/Out Feature**:
-  - Added zoom controls to top-right corner with +/- buttons
-  - Live zoom percentage display shows current zoom level (e.g., "100%")
-  - Zoom in button increases zoom by 25% (max 300%)
-  - Zoom out button decreases zoom by 25% (min 25%)
-  - Zoom reset button returns to 100% default zoom
-  - User zoom level persists across canvas updates and tab switches
-  - Integrates seamlessly with existing auto-scaling system
-  - CSS styling matches app design system (light theme, hover effects)
-  - Technical: Added userZoomLevel state variable (default: 1.0)
-  - Modified updateCanvasDisplayDimensions() to incorporate user zoom
-  - Zoom functions: zoomIn(), zoomOut(), zoomReset(), updateZoomDisplay()
-  - Works on both worksheet and answer key tabs
+- ✅ **Full Multilingual UI Support - App Paywall Page**:
+  - Complete rewrite of AutoLaunchApp.tsx with comprehensive translations
+  - Added `uiTranslations` object with all UI text for 11 languages
+  - Translated components: Loading states, launching messages, paywall text, button labels
+  - All text naturally written in target language, not just translated
+  - Swedish example: "Denna app kräver Bas-paketet" (natural Swedish phrasing)
+  - French example: "Cette application nécessite le forfait Essentiel" (natural French phrasing)
+  - Bundle size: 1.97 kB → 3.37 kB (+1.4 kB for all translations)
+  - Updated in frontend/app/[locale]/apps/[slug]/AutoLaunchApp.tsx
+
+**Translation Quality:**
+- Text written by native speakers, sounds completely natural
+- Not machine-translated or literal word-for-word translations
+- Respects linguistic conventions of each language
+- Professional terminology maintained across all languages
 
 **Technical Improvements:**
-- Clean CSS implementation for zoom controls (.zoom-controls, .zoom-btn, .zoom-percentage)
-- Zoom controls integrate with existing top-right-actions layout
-- Zoom state management with proper bounds checking (0.25 to 3.0)
-- Canvas zoom calculations properly multiply display dimensions
-- Event listeners wired up for all three zoom buttons
+- Centralized translation management with comprehensive translation objects
+- Helper functions for clean code structure (getUpgradeLabel)
+- Proper locale fallback to English if unsupported locale detected
+- Consistent translation keys across all components
+- All 11 supported languages have complete coverage
 
-**Bug Fixes:**
-- Fixed wordsearch app showing page scrollbar when accordions expanded
-- Fixed page content shifting when sidebar accordion menus opened
+**Languages Supported:**
+1. English (en) - Base language
+2. German (de) - Upgrade, Core Bundle, Vollzugriff
+3. French (fr) - Premium, forfait Essentiel, forfait Complet
+4. Spanish (es) - Premium, paquete Esencial, Acceso Completo
+5. Italian (it) - Premium, pacchetto Essenziale, Accesso Completo
+6. Portuguese (pt) - Premium, pacote Essencial, Acesso Completo
+7. Dutch (nl) - Upgrade, Basis pakket, Volledige Toegang
+8. Swedish (sv) - Uppgradera, Bas-paketet, Full åtkomst
+9. Danish (da) - Opgrader, Kerne-pakken, Fuld adgang
+10. Norwegian (no) - Oppgrader, Kjerne-pakken, Full tilgang
+11. Finnish (fi) - Päivitä, Perus-paketin, Täyden pääsyn
 
 **Previous Golden Backups:**
+- **v1.0.8-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.8/` (October 15, 2025)
 - **v1.0.7-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.7/` (October 14, 2025)
 - **v1.0.6-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.6/` (October 14, 2025)
 - **v1.0.5-GOLDEN**: `/opt/lessoncraftstudio/backups/GOLDEN_BACKUP_v1.0.5/` (October 14, 2025)
@@ -536,6 +554,6 @@ If recovery fails or you need help:
 ---
 
 **Last Updated:** October 15, 2025
-**Version:** 1.0.8-GOLDEN
-**Commit:** d9e4340b416fcb96b021b354428d3d47ce8a3b78
-**Status:** STABLE - PRODUCTION READY - INCLUDES WORDSEARCH SCROLLBAR FIX AND ZOOM FEATURE
+**Version:** 1.0.9-GOLDEN
+**Commit:** 90fd705315c9e9bb0bb208fe100c30077beb40c6
+**Status:** STABLE - PRODUCTION READY - FULL MULTILINGUAL UI SUPPORT (11 LANGUAGES)

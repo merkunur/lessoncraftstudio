@@ -1102,10 +1102,16 @@
             if (ui.languageSelect) {
                 ui.languageSelect.value = currentLocale;
                 ui.languageSelect.addEventListener('change', async function() {
-                    currentLocale = this.value;
-                    if (typeof translatePage === 'function') {
-                        translatePage();
-                    }
+                    const newLocale = this.value;
+                    console.log('[Word Scramble] Content language changed to:', newLocale);
+
+                    // Update global content locale (for worksheet content only)
+                    currentLocale = newLocale;
+                    window.currentLocale = newLocale;
+
+                    // DO NOT call translatePage() - UI language is controlled by uiLocale from main app
+                    // Only reload content (themes, images, borders, backgrounds)
+
                     await loadThemes(); // Reload themes with translations
                     // No need to call loadDictionary separately as loadThemes already does it
                 });

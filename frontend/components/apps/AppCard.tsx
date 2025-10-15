@@ -114,6 +114,20 @@ export default function AppCard({ app, locale, appName, categoryName }: AppCardP
     return 'Popular';
   };
 
+  const getUpgradeLabel = () => {
+    if (locale === 'de') return 'Upgrade';
+    if (locale === 'fr') return 'Premium';
+    if (locale === 'es') return 'Premium';
+    if (locale === 'it') return 'Premium';
+    if (locale === 'pt') return 'Premium';
+    if (locale === 'nl') return 'Upgrade';
+    if (locale === 'sv') return 'Uppgradera';
+    if (locale === 'da') return 'Opgrader';
+    if (locale === 'no') return 'Oppgrader';
+    if (locale === 'fi') return 'Päivitä';
+    return 'Upgrade';
+  };
+
   const handleClick = () => {
     // If loading, do nothing
     if (loading) return;
@@ -143,7 +157,7 @@ export default function AppCard({ app, locale, appName, categoryName }: AppCardP
 
       {!hasAccess && !loading && (
         <div className="absolute -top-2 -left-2 bg-gray-700 text-white text-xs px-2 py-1 rounded-full flex items-center gap-1">
-          🔒 {locale === 'de' ? 'Upgrade' : locale === 'fr' ? 'Améliorez' : locale === 'es' ? 'Actualizar' : 'Upgrade'}
+          🔒 {getUpgradeLabel()}
         </div>
       )}
 

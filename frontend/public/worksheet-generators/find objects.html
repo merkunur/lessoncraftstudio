@@ -3027,6 +3027,10 @@ function showMessage(msg, type = 'info', duration = 3000) {
 
         
     // Check if user is on free tier
+    function isFreeTier() {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get('tier') === 'free';
+    }
 
     // Create custom file input UI
     function createCustomFileInput() {
@@ -3093,7 +3097,27 @@ function showMessage(msg, type = 'info', duration = 3000) {
                 label.textContent = fileInput.files.length + ' ' + t('findobjects.files.selected');
             }
         }
-    });
+    }
+
+
+
+    // Add watermark to canvas before export
+    function addWatermarkToCanvas(canvas) {
+        if (!isFreeTier()) return;
+        
+        const watermarkText = new fabric.Text('FREE VERSION - LessonCraftStudio.com', {
+            fontSize: 40,
+            fill: 'rgba(0, 0, 0, 0.2)',
+            angle: -45,
+            left: canvas.width / 2,
+            top: canvas.height / 2,
+            originX: 'center',
+            originY: 'center',
+            selectable: false,
+            evented: false,
+            fontFamily: 'Arial, sans-serif',
+            fontWeight: 'bold'
+        });
         
         // Add multiple watermarks across the canvas
         const watermarks = [];
@@ -3121,6 +3145,14 @@ function showMessage(msg, type = 'info', duration = 3000) {
         
         return { mainWatermark: watermarkText, watermarks };
     }
+
+    // Remove watermark after export
+    function removeWatermarkFromCanvas(canvas, watermarkData) {
+        if (!watermarkData) return;
+        
+        if (watermarkData.mainWatermark) {
+            canvas.remove(watermarkData.mainWatermark);
+        }
         if (watermarkData.watermarks) {
             watermarkData.watermarks.forEach(wm => canvas.remove(wm));
         }
@@ -3135,6 +3167,9 @@ function showMessage(msg, type = 'info', duration = 3000) {
                 return showMessage(t('findobjects.msg.generate.first'), 'error');
             }
             showMessage(t('findobjects.msg.preparing.pdf'), 'info', 0);
+            
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
                 const { jsPDF } = window.jspdf;
@@ -3159,6 +3194,8 @@ function showMessage(msg, type = 'info', duration = 3000) {
                 showMessage(t('findobjects.msg.pdf.error'), 'error'); 
                 console.error(e); 
             } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         };
     }
@@ -3171,6 +3208,9 @@ function showMessage(msg, type = 'info', duration = 3000) {
                 return showMessage(t('findobjects.msg.generate.first'), 'error');
             }
             showMessage('Preparing JPEG...', 'info', 0);
+            
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
             
             try {
                 const exportOptions = { 
@@ -3188,6 +3228,8 @@ function showMessage(msg, type = 'info', duration = 3000) {
                 showMessage(t('findobjects.msg.jpeg.error'), 'error'); 
                 console.error(e); 
             } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         };
     }

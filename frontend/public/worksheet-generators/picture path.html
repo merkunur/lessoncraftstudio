@@ -2720,7 +2720,29 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   
-    // Check if user is on free tier);
+    // Check if user is on free tier
+    function isFreeTier() {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get('tier') === 'free';
+    }
+
+    // Add watermark to canvas before export
+    function addWatermarkToCanvas(canvas) {
+        if (!isFreeTier()) return;
+        
+        const watermarkText = new fabric.Text(t('picture.pathway.watermark.main'), {
+            fontSize: 40,
+            fill: 'rgba(0, 0, 0, 0.2)',
+            angle: -45,
+            left: canvas.width / 2,
+            top: canvas.height / 2,
+            originX: 'center',
+            originY: 'center',
+            selectable: false,
+            evented: false,
+            fontFamily: 'Arial, sans-serif',
+            fontWeight: 'bold'
+        });
         
         // Add multiple watermarks across the canvas
         const watermarks = [];
@@ -2748,6 +2770,14 @@ document.addEventListener("DOMContentLoaded", function() {
         
         return { mainWatermark: watermarkText, watermarks };
     }
+
+    // Remove watermark after export
+    function removeWatermarkFromCanvas(canvas, watermarkData) {
+        if (!watermarkData) return;
+        
+        if (watermarkData.mainWatermark) {
+            canvas.remove(watermarkData.mainWatermark);
+        }
         if (watermarkData.watermarks) {
             watermarkData.watermarks.forEach(wm => canvas.remove(wm));
         }
@@ -2762,6 +2792,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 return showMessage(t('picture.pathway.msg.generate.content.first'), 'error');
             }
             showMessage(t('picture.pathway.msg.preparing.pdf'), 'info', 0);
+
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
 
             try {
                 const { jsPDF } = window.jspdf;
@@ -2786,6 +2819,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 showMessage(t('picture.pathway.msg.pdf.error'), 'error');
                 console.error(e);
             } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         };
     }
@@ -2798,6 +2833,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 return showMessage(t('picture.pathway.msg.generate.worksheet.first'), 'error');
             }
             showMessage(t('picture.pathway.msg.preparing.jpeg'), 'info', 0);
+
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
 
             try {
                 const exportOptions = {
@@ -2815,6 +2853,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 showMessage(t('picture.pathway.msg.jpeg.error.simple'), 'error');
                 console.error(e);
             } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
             }
         };
     }

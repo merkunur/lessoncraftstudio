@@ -2467,7 +2467,13 @@
 
             // --- Part B, Step 3 & 4: Re-apply and Finalize ---
             newItems.forEach(item => {
+                const beforePos = { left: item.left, top: item.top };
                 if (preserveTransforms && oldTransforms[item.originalIndex]) {
+                    console.log('OVERRIDING POSITION:', {
+                        originalIndex: item.originalIndex,
+                        before: beforePos,
+                        override: oldTransforms[item.originalIndex]
+                    });
                     item.set(oldTransforms[item.originalIndex]);
                 }
                 worksheetCanvas.add(item);
@@ -2974,6 +2980,12 @@
                     const circleX = visualsX + (j * optionWidth) + (optionWidth / 2);
                     const circleY = optionY;
 
+                    console.log(`Exercise ${i}, Option ${j}:`, {
+                        circle: { x: circleX, y: circleY },
+                        group: { x: option.group.left, y: option.group.top },
+                        diff: { x: circleX - option.group.left, y: circleY - option.group.top }
+                    });
+
                     // Add circle overlay for "circle the correct answer" concept
                     if (!isAnswerKey || (isAnswerKey && option.isCorrect)) {
                         const circleRadius = Math.min(optionWidth, rowHeight * 0.8) * 0.6;
@@ -3124,6 +3136,13 @@
                 cornerSize: 8,
                 transparentCorners: false,
                 cornerStyle: 'circle'
+            });
+
+            console.log('createCellVisual:', {
+                input: { x, y, cellW, cellH },
+                calculated: { left: x + cellW / 2, top: y + cellH / 2 },
+                actual: { left: visualGroup.left, top: visualGroup.top },
+                originalIndex
             });
 
             return { group: visualGroup, isCorrect: isCorrect };

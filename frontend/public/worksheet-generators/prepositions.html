@@ -2976,6 +2976,7 @@
                         left: groupX,
                         top: groupY
                     });
+                    option.group.setCoords(); // Update coordinates after position change
 
                     // Add circle overlay for "circle the correct answer" concept (no offset - original position)
                     if (!isAnswerKey || (isAnswerKey && option.isCorrect)) {

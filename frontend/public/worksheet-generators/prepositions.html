@@ -2966,7 +2966,18 @@
                     { assignment: distractor2Assignment, isCorrect: false }
                 ];
 
-                const shuffledAssignments = isAnswerKey ? assignmentsToCreate : shuffleArray(assignmentsToCreate);
+                let shuffledAssignments;
+                if (isAnswerKey) {
+                    // Answer key: use the same shuffle order as worksheet
+                    shuffledAssignments = assignment.multipleChoiceOrder.map(index => assignmentsToCreate[index]);
+                } else {
+                    // Worksheet: shuffle and save the order for answer key
+                    shuffledAssignments = shuffleArray(assignmentsToCreate);
+                    // Save shuffle order (indices 0,1,2 in shuffled order)
+                    assignment.multipleChoiceOrder = shuffledAssignments.map(item =>
+                        item.isCorrect ? 0 : (item.assignment.preposition === shuffledDistractors[0] ? 1 : 2)
+                    );
+                }
 
                 // NOW create groups at SEQUENTIAL positions (after shuffling)
                 const optionWidth = visualsWidth / 3;

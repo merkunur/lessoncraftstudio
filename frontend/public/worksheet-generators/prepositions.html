@@ -3034,6 +3034,7 @@
 
         // Helper function to create a single visual representation
         async function createCellVisual(assignment, x, y, cellW, cellH, originalIndex, isCorrect, isAnswerKey, isMultipleChoice = false) {
+            console.log('createCellVisual called:', { prep: assignment.preposition, isMultipleChoice, originalIndex });
             const shapePath = assignment.shape.isDefault ? `/images/prepositions/${assignment.shape.name}.png` : assignment.shape.path;
             const shapeImg = await loadImage(shapePath);
             const itemImg = await loadImage(assignment.item.path);
@@ -3076,6 +3077,7 @@
                     const widthS_nextto = shapeImg.getScaledWidth();
                     // Multiple choice mode: 50% less overlap (0.15 instead of 0.3)
                     const overlap_nextto = Math.min(widthI_nextto, widthS_nextto) * (isMultipleChoice ? 0.15 : 0.3);
+                    console.log('NEXT TO spacing:', { isMultipleChoice, overlap_nextto, originalIndex });
                     const totalWidth_nextto = widthI_nextto + widthS_nextto - overlap_nextto;
                     itemImg.set({ left: -totalWidth_nextto/2 + widthI_nextto/2 });
                     shapeImg.set({ left: -totalWidth_nextto/2 + widthI_nextto - overlap_nextto + widthS_nextto/2 });
@@ -3101,6 +3103,7 @@
                     shape2.set({ originX: 'center', originY: 'center' }).scaleToHeight(baseObjectSizeForCellFit);
                     // Multiple choice mode: 50% less gap (5 instead of 10)
                     const g4 = isMultipleChoice ? 5 : 10;
+                    console.log('BETWEEN spacing:', { isMultipleChoice, g4, originalIndex });
                     const iW = itemImg.getScaledWidth();
                     const sW = shapeImg.getScaledWidth();
                     shapeImg.set({ left: -(iW / 2 + g4 + sW / 2) });

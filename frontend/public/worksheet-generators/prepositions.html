@@ -2938,17 +2938,6 @@
                 });
                 exerciseItems.push(prepText);
 
-                // Position the 3 options horizontally
-                const optionWidth = visualsWidth / 3;
-
-                // Create visual options with positions
-                const option0X = visualsX + (0 * optionWidth) + (optionWidth / 2);
-                const option1X = visualsX + (1 * optionWidth) + (optionWidth / 2);
-                const option2X = visualsX + (2 * optionWidth) + (optionWidth / 2);
-                const optionY = currentY + (rowHeight / 2);
-
-                const correctOption = await createCellVisual(assignment, option0X, optionY, visualsWidth / 3, rowHeight * 0.8, i * 10 + 0, true, isAnswerKey);
-
                 // Generate 2 distractor options with different prepositions
                 const allPreps = [...PREPOSITIONS];
                 const distractorPreps = allPreps.filter(p => p !== assignment.preposition);
@@ -2957,24 +2946,36 @@
                 const distractor1Assignment = { ...assignment, preposition: shuffledDistractors[0] };
                 const distractor2Assignment = { ...assignment, preposition: shuffledDistractors[1] };
 
-                const distractor1 = await createCellVisual(distractor1Assignment, option1X, optionY, visualsWidth / 3, rowHeight * 0.8, i * 10 + 1, false, isAnswerKey);
-                const distractor2 = await createCellVisual(distractor2Assignment, option2X, optionY, visualsWidth / 3, rowHeight * 0.8, i * 10 + 2, false, isAnswerKey);
+                // Create visual options WITHOUT positions (using 0,0 as placeholder)
+                const correctOption = await createCellVisual(assignment, 0, 0, visualsWidth / 3, rowHeight * 0.8, i * 10 + 0, true, isAnswerKey);
+                const distractor1 = await createCellVisual(distractor1Assignment, 0, 0, visualsWidth / 3, rowHeight * 0.8, i * 10 + 1, false, isAnswerKey);
+                const distractor2 = await createCellVisual(distractor2Assignment, 0, 0, visualsWidth / 3, rowHeight * 0.8, i * 10 + 2, false, isAnswerKey);
 
                 // Randomize option positions if not answer key
                 const options = isAnswerKey
                     ? [correctOption, distractor1, distractor2]
                     : shuffleArray([correctOption, distractor1, distractor2]);
 
-                // Add circles and visual groups
+                // Position the 3 options horizontally AFTER shuffling
+                const optionWidth = visualsWidth / 3;
+                const optionY = currentY + (rowHeight / 2);
+
                 for (let j = 0; j < options.length; j++) {
                     const option = options[j];
+                    const optionX = visualsX + (j * optionWidth) + (optionWidth / 2);
+
+                    // Set the correct position
+                    option.group.set({
+                        left: optionX,
+                        top: optionY
+                    });
 
                     // Add circle overlay for "circle the correct answer" concept
                     if (!isAnswerKey || (isAnswerKey && option.isCorrect)) {
                         const circleRadius = Math.min(optionWidth, rowHeight * 0.8) * 0.6;
                         const circle = new fabric.Circle({
-                            left: option.group.left,
-                            top: option.group.top,
+                            left: optionX,
+                            top: optionY,
                             radius: circleRadius,
                             fill: 'transparent',
                             stroke: isAnswerKey && option.isCorrect ? '#00ff00' : '#cccccc',

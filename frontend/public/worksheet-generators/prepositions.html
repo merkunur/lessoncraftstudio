@@ -2962,8 +2962,9 @@
                 const options = [];
                 for (let j = 0; j < shuffledAssignments.length; j++) {
                     const { assignment: assignmentData, isCorrect } = shuffledAssignments[j];
-                    const optionX = visualsX + (j * optionWidth) + (optionWidth / 2);
-                    const visual = await createCellVisual(assignmentData, optionX, optionY, visualsWidth / 3, rowHeight * 0.8, i * 10 + j, isCorrect, isAnswerKey);
+                    // Pass TOP-LEFT corner (like createCellGroup), not center
+                    const optionX = visualsX + (j * optionWidth);
+                    const visual = await createCellVisual(assignmentData, optionX, optionY - (rowHeight * 0.8 / 2), visualsWidth / 3, rowHeight * 0.8, i * 10 + j, isCorrect, isAnswerKey);
                     options.push(visual);
                 }
 
@@ -3108,8 +3109,8 @@
             const finalGroupObjects = tempGroup.destroy().getObjects();
 
             const visualGroup = new fabric.Group(finalGroupObjects, {
-                left: x,
-                top: y,
+                left: x + cellW / 2,  // Convert TOP-LEFT to CENTER (like createCellGroup)
+                top: y + cellH / 2,
                 originX: 'center',
                 originY: 'center',
                 selectable: true,

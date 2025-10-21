@@ -1232,6 +1232,7 @@
             });
             dom.setPageSizeBtn.addEventListener('click', applyPageSize);
             dom.templateSelect.addEventListener("change", handleTemplateChange);
+            dom.exerciseModeSelect.addEventListener("change", handleExerciseModeChange);
             dom.pageColor.addEventListener('input', applyPageColor);
             dom.borderThemeSelect.addEventListener("change", loadBorderImages);
             dom.borderOpacity.addEventListener("input", updateOpacityForObjectType('isBorder'));
@@ -1691,6 +1692,36 @@
             });
             if (currentTemplatePath) {
                 await addTemplateToCanvases(currentTemplatePath);
+            }
+        }
+
+        async function handleExerciseModeChange(event) {
+            const mode = event.target.value;
+            const templateSection = document.querySelector('h4[data-translate="template"]');
+            const templateLabel = templateSection ? templateSection.nextElementSibling : null;
+            const templateSelect = templateLabel ? templateLabel.nextElementSibling : null;
+
+            if (mode === 'multiplechoice') {
+                // Hide template controls
+                if (templateSection) templateSection.style.display = 'none';
+                if (templateLabel) templateLabel.style.display = 'none';
+                if (templateSelect) templateSelect.style.display = 'none';
+
+                // Remove templates from both canvases
+                [worksheetCanvas, answerKeyCanvas].forEach(canvas => {
+                    canvas.getObjects().filter(o => o.isTemplate).forEach(o => canvas.remove(o));
+                    canvas.renderAll();
+                });
+            } else {
+                // Show template controls
+                if (templateSection) templateSection.style.display = '';
+                if (templateLabel) templateLabel.style.display = '';
+                if (templateSelect) templateSelect.style.display = '';
+
+                // Restore template if one was selected
+                if (currentTemplatePath) {
+                    await addTemplateToCanvases(currentTemplatePath);
+                }
             }
         }
 
@@ -2493,13 +2524,16 @@
             answerKeyCanvas.backgroundColor = worksheetCanvas.backgroundColor;
 
             // --- Part C, Step 3: Clone Decoratives ---
-            const template = worksheetCanvas.getObjects().find(o => o.isTemplate);
-            if (template) {
-                await new Promise(resolve => template.clone(cloned => {
-                    cloned.set({ isTemplate: true });
-                    answerKeyCanvas.add(cloned);
-                    resolve();
-                }));
+            // Only clone template if not in multiple choice mode
+            if (exerciseMode !== 'multiplechoice') {
+                const template = worksheetCanvas.getObjects().find(o => o.isTemplate);
+                if (template) {
+                    await new Promise(resolve => template.clone(cloned => {
+                        cloned.set({ isTemplate: true });
+                        answerKeyCanvas.add(cloned);
+                        resolve();
+                    }));
+                }
             }
             const background = worksheetCanvas.getObjects().find(o => o.isBackground);
             if (background) {

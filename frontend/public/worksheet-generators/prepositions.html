@@ -224,7 +224,7 @@
         .tab-button { padding: 12px 18px; background: transparent; border: none; border-bottom: 2px solid transparent; color: var(--app-text-secondary-light-theme); font-size: 14px; font-weight: 500; cursor: pointer; transition: color 0.2s ease, border-color 0.2s ease; margin-bottom: -1px; }
         .tab-button:hover { color: var(--app-text-primary-light-theme); }
         .tab-button.active { color: var(--app-accent-primary); border-bottom: 2px solid var(--app-accent-primary); }
-        .tab-content-wrapper { flex-grow: 1; display: flex; align-items: flex-start; justify-content: center; padding: 25px; overflow-y: auto; }
+        .tab-content-wrapper { flex-grow: 1; display: flex; align-items: flex-start; justify-content: center; padding: 70px 25px 25px 25px; overflow-y: auto; }
         .tab { display: none; width: 100%; margin: 0 auto; }
         .tab.active { display: flex; flex-direction: column; align-items: center; }
         .canvas-container-wrapper { border: 1px solid var(--app-border-light); background-color: var(--app-surface-light); box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-radius: 8px; overflow: visible; margin: auto; position: relative; }
@@ -238,7 +238,7 @@
             .menu-close-btn { display: block; }
             .tab-row { padding-left: 70px; }
         }
-        #object-context-toolbar { position: absolute; top: 12px; left: 50%; transform: translateX(-50%); background-color: var(--app-surface-light); border-radius: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.15); padding: 5px; display: flex; gap: 4px; z-index: 100; align-items: center; border: 1px solid var(--app-border-light); }
+        #object-context-toolbar { position: absolute; top: 72px; left: 50%; transform: translateX(-50%); background-color: var(--app-surface-light); border-radius: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.15); padding: 5px; display: flex; gap: 4px; z-index: 100; align-items: center; border: 1px solid var(--app-border-light); }
         .toolbar-group { display: flex; gap: 2px; align-items: center; padding: 0 4px; }
         .toolbar-group + .toolbar-group { border-left: 1px solid var(--app-border-light); }
         .toolbar-item { position: relative; }
@@ -265,10 +265,249 @@
         .tab-content-wrapper,
         .canvas-container-wrapper,
         .dictionary-grid,
-        #borderDictionary, 
+        #borderDictionary,
         #backgroundDictionary {
             -ms-overflow-style: none;  /* IE and Edge */
             scrollbar-width: none;  /* Firefox */
+        }
+
+        /* ============================================
+           MODERN UNIFIED HEADER STYLES
+           Exact implementation from wordsearch.html lines 251-450
+           ============================================ */
+
+        .tab-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+            position: relative;
+            z-index: 15;
+            border-radius: 0;
+            margin: 0;
+            gap: 16px;
+        }
+
+        .tab-buttons-container {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .tab-button {
+            padding: 10px 24px;
+            font-size: 14px;
+            font-weight: 600;
+            border: none;
+            background: rgba(255, 255, 255, 0.15);
+            color: rgba(255, 255, 255, 0.8);
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+            backdrop-filter: blur(10px);
+            position: relative;
+        }
+
+        .tab-button:hover {
+            background: rgba(255, 255, 255, 0.25);
+            color: white;
+            transform: translateY(-1px);
+        }
+
+        .tab-button.active {
+            background: rgba(255, 255, 255, 0.95);
+            color: #667eea;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header Actions Container */
+        .header-actions {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        /* --- Zoom Controls --- */
+        .zoom-controls {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background-color: rgba(255, 255, 255, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 6px;
+            padding: 5px 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        .zoom-btn {
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+            padding: 6px 10px;
+            font-size: 14px;
+            cursor: pointer;
+            color: white;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .zoom-btn:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .zoom-btn:active {
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .zoom-percentage {
+            min-width: 45px;
+            text-align: center;
+            font-size: 13px;
+            font-weight: 600;
+            color: white;
+            user-select: none;
+        }
+
+        /* --- Undo/Redo Controls --- */
+        .history-controls {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background-color: rgba(255, 255, 255, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 6px;
+            padding: 5px 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        .history-btn {
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+            padding: 6px 10px;
+            font-size: 14px;
+            cursor: pointer;
+            color: white;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .history-btn:hover:not(:disabled) {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .history-btn:active:not(:disabled) {
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .history-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        /* --- Dropdown Containers --- */
+        .dropdown-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: white;
+            min-width: 200px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            border-radius: 8px;
+            z-index: 1000;
+            margin-top: 8px;
+            padding: 8px 0;
+        }
+
+        .dropdown-content.show {
+            display: block;
+        }
+
+        .dropdown-content button {
+            display: block;
+            width: 100%;
+            padding: 10px 16px;
+            border: none;
+            background: none;
+            text-align: left;
+            cursor: pointer;
+            font-size: 14px;
+            color: #333;
+            transition: background-color 0.2s;
+        }
+
+        .dropdown-content button:hover:not(:disabled) {
+            background-color: #f5f5f5;
+        }
+
+        .dropdown-content button:disabled {
+            color: #ccc;
+            cursor: not-allowed;
+        }
+
+        /* --- Action Buttons --- */
+        .action-button {
+            padding: 8px 16px;
+            font-size: 13px;
+            font-weight: 500;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .action-button.accent {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .action-button.accent:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .action-button.download-btn {
+            background: rgba(255, 255, 255, 0.95);
+            color: #667eea;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .action-button.download-btn:hover {
+            background: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .action-button.danger {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .action-button.danger:hover {
+            background: rgba(255, 59, 48, 0.9);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(255, 59, 48, 0.3);
         }
     </style>
 </head>
@@ -447,8 +686,10 @@
                     <div class="toolbar-item">
                         <button class="context-btn" id="layersBtn" data-translate-title="toolbar.layers" title="Layers"><i class="fas fa-layer-group"></i></button>
                         <div class="dropdown-content" id="layersDropdown">
-                            <button id="toolbarBringForwardBtn" data-translate="toolbar.bring.forward">Bring Forward</button>
-                            <button id="toolbarSendBackwardBtn" data-translate="toolbar.send.backward">Send Backward</button>
+                            <button id="toolbarBringToFrontBtn" data-translate="bringToFront">Bring to Front</button>
+                            <button id="toolbarBringForwardBtn" data-translate="bringForward">Bring Forward</button>
+                            <button id="toolbarSendBackwardBtn" data-translate="sendBackward">Send Backward</button>
+                            <button id="toolbarSendToBackBtn" data-translate="sendToBack">Send to Back</button>
                         </div>
                     </div>
                 </div>
@@ -470,29 +711,45 @@
                 </div>
             </div>
 
-            <div class="top-right-actions">
-                <div class="dropdown-container">
-                    <button id="generateDropdownBtn" class="action-button accent" disabled><span data-translate="generate">Generate</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
-                    <div id="generateDropdownContent" class="dropdown-content">
-                        <button id="generateWorksheetBtn" data-translate="generate_worksheet">Generate Worksheet</button>
-                        <button id="generateAnswerKeyBtn" disabled data-translate="generate_answer_key">Generate Answer Key</button>
-                    </div>
-                </div>
-                <div class="dropdown-container">
-                    <button id="downloadDropdownBtn" class="action-button secondary" disabled><span data-translate="prepositions.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
-                    <div id="downloadDropdownContent" class="dropdown-content">
-                        <button id="downloadWsJpegBtn" disabled data-translate="prepositions.download.worksheet.jpeg">Worksheet (JPEG)</button>
-                        <button id="downloadAkJpegBtn" disabled data-translate="prepositions.download.answer.jpeg">Answer Key (JPEG)</button>
-                        <button id="downloadWsPdfBtn" disabled data-translate="prepositions.download.worksheet.pdf">Worksheet (PDF)</button>
-                        <button id="downloadAkPdfBtn" disabled data-translate="prepositions.download.answer.pdf">Answer Key (PDF)</button>
-                        <label class="checkbox-label"><input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span></label>
-                    </div>
-                </div>
-                <button id="clearBtn" class="action-button danger" data-translate="prepositions.clear.all">Clear All</button>
-            </div>
             <div class="tab-row">
-                <button class="tab-button active" data-tab="worksheetTab" data-translate="prepositions.tab.worksheet">Worksheet</button>
-                <button class="tab-button" data-tab="answerKeyTab" data-translate="prepositions.tab.answer">Answer Key</button>
+                <div class="tab-buttons-container">
+                    <button class="tab-button active" data-tab="worksheetTab" data-translate="prepositions.tab.worksheet">Worksheet</button>
+                    <button class="tab-button" data-tab="answerKeyTab" data-translate="prepositions.tab.answer">Answer Key</button>
+                </div>
+                <div class="header-actions">
+                    <div class="zoom-controls">
+                        <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                        <span id="zoomPercentage" class="zoom-percentage">100%</span>
+                        <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+                        <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                    </div>
+                    <div class="history-controls">
+                        <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+                        <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+                    </div>
+                    <div class="dropdown-container">
+                        <button id="generateDropdownBtn" class="action-button accent"><span data-translate="generate">Generate</span> <i class="fas fa-caret-down"></i></button>
+                        <div id="generateDropdownContent" class="dropdown-content">
+                            <button id="generateWorksheetBtn" data-translate="generate_worksheet">New Worksheet</button>
+                            <button id="generateAnswerKeyBtn" disabled data-translate="generate_answer_key">Answer Key</button>
+                        </div>
+                    </div>
+                    <div class="dropdown-container">
+                        <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="prepositions.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                        <div id="downloadDropdownContent" class="dropdown-content">
+                            <button id="downloadWsJpegBtn" disabled data-translate="prepositions.download.worksheet.jpeg">Worksheet (JPEG)</button>
+                            <button id="downloadAkJpegBtn" disabled data-translate="prepositions.download.answer.jpeg">Answer Key (JPEG)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadWsPdfBtn" disabled data-translate="prepositions.download.worksheet.pdf">Worksheet (PDF)</button>
+                            <button id="downloadAkPdfBtn" disabled data-translate="prepositions.download.answer.pdf">Answer Key (PDF)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
+                            <label class="checkbox-label" id="grayscaleLabel">
+                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                            </label>
+                        </div>
+                    </div>
+                    <button id="clearBtn" class="action-button danger" data-translate="prepositions.clear.all">Clear All</button>
+                </div>
             </div>
             <div class="tab-content-wrapper">
                 <div class="tab active" id="worksheetTab"><div class="canvas-container-wrapper" id="worksheetCanvasWrapper"><canvas id="worksheetCanvasElement"></canvas></div></div>
@@ -694,9 +951,17 @@
         let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
         let downloadMultiplier = 6;
         let activePopover = null;
+        let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
         let currentTemplatePath = '';
         let currentBorderImagePath = ''; // Global to store path for re-adding
         let currentBackgroundImagePath = ''; // Global to store path for re-adding
+
+        // --- Undo/Redo State ---
+        let undoStack = [];
+        let redoStack = [];
+        const MAX_UNDO_STEPS = 50;
+        let isGenerating = false;  // Flag to prevent saveState during generation
+        let isRestoringState = false;  // Flag to prevent saveState during undo/redo
 
         // --- DOM Element Caching ---
         // Will be initialized after DOM is ready
@@ -789,11 +1054,21 @@
                 objectContextToolbar: document.getElementById('object-context-toolbar'),
                 layersBtn: document.getElementById('layersBtn'),
                 layersDropdown: document.getElementById('layersDropdown'),
+                toolbarBringToFrontBtn: document.getElementById('toolbarBringToFrontBtn'),
                 toolbarBringForwardBtn: document.getElementById('toolbarBringForwardBtn'),
                 toolbarSendBackwardBtn: document.getElementById('toolbarSendBackwardBtn'),
+                toolbarSendToBackBtn: document.getElementById('toolbarSendToBackBtn'),
                 alignBtn: document.getElementById('alignBtn'),
                 alignDropdown: document.getElementById('alignDropdown'),
                 toolbarDeleteBtn: document.getElementById('toolbarDeleteBtn'),
+                // Zoom controls
+                zoomInBtn: document.getElementById('zoomInBtn'),
+                zoomOutBtn: document.getElementById('zoomOutBtn'),
+                zoomResetBtn: document.getElementById('zoomResetBtn'),
+                zoomPercentage: document.getElementById('zoomPercentage'),
+                // Undo/Redo controls
+                undoBtn: document.getElementById('undoBtn'),
+                redoBtn: document.getElementById('redoBtn'),
             };
             
             // Initialize language selector with current content locale
@@ -820,6 +1095,7 @@
             applyPageColor();
 
             setupEventListeners();
+            updateZoomDisplay(); // Initialize zoom display to 100%
             buildPrepositionsChecklist();
             updateGenerateButtonState();
             updateDownloadButtonsState(false, false);
@@ -831,7 +1107,10 @@
             
             dom.borderOpacity.disabled = true;
             dom.backgroundOpacity.disabled = true;
-            
+
+            // Initialize undo/redo button states
+            updateUndoRedoButtons();
+
             document.querySelector('.tab-button[data-tab="worksheetTab"]').click();
             handleSelectionCleared(null, getActiveCanvas());
         }
@@ -859,7 +1138,25 @@
                 'selection:created': function(e) { handleObjectSelection(e, this); },
                 'selection:updated': function(e) { handleObjectSelection(e, this); },
                 'selection:cleared': function(e) { handleSelectionCleared(e, this); },
-                'object:modified': function(e) { handleObjectModification(e, this); }
+                'object:modified': function(e) {
+                    handleObjectModification(e, this);
+                    // Only save state for user modifications, not during generation or restore
+                    if (!isGenerating && !isRestoringState) {
+                        saveState();
+                    }
+                },
+                'object:added': function(e) {
+                    // Only save state for user-added objects, not during generation or restore
+                    if (!isGenerating && !isRestoringState) {
+                        saveState();
+                    }
+                },
+                'object:removed': function(e) {
+                    // Only save state for user deletions, not during generation or restore
+                    if (!isGenerating && !isRestoringState) {
+                        saveState();
+                    }
+                }
             });
         }
 
@@ -974,9 +1271,21 @@
 
             dom.clearBtn.addEventListener('click', clearAll);
 
+            // Zoom Controls (from wordsearch lines 1520-1522)
+            dom.zoomInBtn.addEventListener('click', zoomIn);
+            dom.zoomOutBtn.addEventListener('click', zoomOut);
+            dom.zoomResetBtn.addEventListener('click', zoomReset);
+
+            // Undo/Redo Controls
+            dom.undoBtn.addEventListener('click', undo);
+            dom.redoBtn.addEventListener('click', redo);
+
             setupGlobalKeydownListener();
+            // Enhanced Layer Controls (4-button z-order system)
+            dom.toolbarBringToFrontBtn.addEventListener('click', bringToFront);
             dom.toolbarBringForwardBtn.addEventListener('click', bringObjectForward);
             dom.toolbarSendBackwardBtn.addEventListener('click', sendObjectBackward);
+            dom.toolbarSendToBackBtn.addEventListener('click', sendToBack);
             dom.toolbarDeleteBtn.addEventListener('click', deleteSelectedObjects);
             document.querySelectorAll('#alignDropdown button').forEach(button => button.addEventListener('click', (e) => alignObjects(e.currentTarget.id.replace('Btn', ''))));
             
@@ -1117,20 +1426,18 @@
 
             // Ensure it fits in available space
             const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
-            const displayWidth = scaledWidth * scaleRatio;
-            const displayHeight = scaledHeight * scaleRatio;
+
+            // Apply user zoom level to the display dimensions (EXACT wordsearch implementation)
+            const displayWidth = scaledWidth * scaleRatio * userZoomLevel;
+            const displayHeight = scaledHeight * scaleRatio * userZoomLevel;
 
             [worksheetCanvas, answerKeyCanvas].forEach(c => {
                 if (c) {
-                    // CRITICAL: Update actual canvas dimensions FIRST
-                    c.setWidth(width);
-                    c.setHeight(height);
-
-                    // Apply zoom for display scaling
+                    // Apply zoom for display scaling (includes user zoom)
                     const finalZoom = (displayWidth / width);
                     c.setZoom(finalZoom);
 
-                    // CRITICAL: Set dimensions AFTER zoom to ensure viewport matches zoomed size
+                    // Set dimensions AFTER zoom to ensure viewport matches zoomed size
                     c.setDimensions({
                         width: displayWidth,
                         height: displayHeight
@@ -1542,12 +1849,10 @@
                 });
 
                 activeCanvas.add(img);
+                img.bringToFront(); // Bring to front so user can select it immediately
 
-                // Ensure proper z-order (EXACTLY like Addition app)
-                const background = activeCanvas.getObjects().find(o => o.isBackground);
-                if (background) activeCanvas.sendToBack(background);
-                const border = activeCanvas.getObjects().find(o => o.isBorder);
-                if (border && background) activeCanvas.bringToFront(border);
+                // REMOVED: Automatic z-order enforcement for backgrounds and borders
+                // Users should have full control over these elements via layer controls
 
                 activeCanvas.renderAll();
                 opacityInput.disabled = false;
@@ -1635,28 +1940,152 @@
             dom.textInput.disabled = false; 
         }
         
-        function bringObjectForward() { 
+        function bringObjectForward() {
             const activeCanvas = getActiveCanvas();
             if (!activeCanvas) return;
-            const activeObject = activeCanvas.getActiveObject(); 
-            if (activeObject) { 
-                activeCanvas.bringForward(activeObject); 
-                enforceLayerOrder(activeCanvas); 
-            } 
-            closeAllPopovers(); 
+            const activeObject = activeCanvas.getActiveObject();
+            if (activeObject) {
+                activeCanvas.bringForward(activeObject);
+                activeCanvas.renderAll();
+            }
+            closeAllPopovers();
         }
-        
-        function sendObjectBackward() { 
+
+        function sendObjectBackward() {
             const activeCanvas = getActiveCanvas();
             if (!activeCanvas) return;
-            const activeObject = activeCanvas.getActiveObject(); 
-            if (activeObject) { 
-                activeCanvas.sendBackwards(activeObject); 
-                enforceLayerOrder(activeCanvas); 
-            } 
-            closeAllPopovers(); 
+            const activeObject = activeCanvas.getActiveObject();
+            if (activeObject) {
+                activeCanvas.sendBackwards(activeObject);
+                activeCanvas.renderAll();
+            }
+            closeAllPopovers();
         }
-        
+
+        // ============================================
+        // ENHANCED LAYER CONTROLS
+        // Exact implementation from wordsearch.html lines 1807-1828
+        // ============================================
+
+        function bringToFront() {
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+            const activeObject = activeCanvas.getActiveObject();
+            if (activeObject) {
+                activeCanvas.bringToFront(activeObject);
+                activeCanvas.renderAll();
+            }
+            closeAllPopovers();
+        }
+
+        function sendToBack() {
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+            const activeObject = activeCanvas.getActiveObject();
+            if (activeObject) {
+                activeCanvas.sendToBack(activeObject);
+                activeCanvas.renderAll();
+            }
+            closeAllPopovers();
+        }
+
+        // ============================================
+        // UNDO/REDO FUNCTIONALITY
+        // Exact implementation from wordsearch.html lines 1830-1933
+        // ============================================
+
+        function saveState() {
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+
+            const json = activeCanvas.toJSON([
+                'selectable', 'evented', 'isGeneratedItem', 'isAnswerKeyItem',
+                'isBorder', 'isBackground', 'isTemplate', 'isPageBorder',
+                'isHeaderElement', 'isHeaderDesc', 'itemId', 'shapeId',
+                'originX', 'originY', 'crossOrigin'
+            ]);
+
+            undoStack.push({
+                canvasState: JSON.stringify(json),
+                backgroundColor: activeCanvas.backgroundColor
+            });
+
+            if (undoStack.length > MAX_UNDO_STEPS) {
+                undoStack.shift();
+            }
+
+            redoStack = [];
+            updateUndoRedoButtons();
+        }
+
+        function restoreState(state) {
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas || !state) return;
+
+            isRestoringState = true;  // Prevent saveState during restoration
+
+            return new Promise((resolve) => {
+                activeCanvas.loadFromJSON(state.canvasState, () => {
+                    activeCanvas.backgroundColor = state.backgroundColor;
+                    activeCanvas.renderAll();
+                    updateUndoRedoButtons();
+                    isRestoringState = false;  // Re-enable saveState
+                    resolve();
+                });
+            });
+        }
+
+        function undo() {
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas || undoStack.length === 0) return;
+
+            const currentState = {
+                canvasState: JSON.stringify(activeCanvas.toJSON([
+                    'selectable', 'evented', 'isGeneratedItem', 'isAnswerKeyItem',
+                    'isBorder', 'isBackground', 'isTemplate', 'isPageBorder',
+                    'isHeaderElement', 'isHeaderDesc', 'itemId', 'shapeId',
+                    'originX', 'originY', 'crossOrigin'
+                ])),
+                backgroundColor: activeCanvas.backgroundColor
+            };
+
+            redoStack.push(currentState);
+            const previousState = undoStack.pop();
+            restoreState(previousState).then(() => {
+                showMessage('Undo', 'info', 1000);
+            });
+        }
+
+        function redo() {
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas || redoStack.length === 0) return;
+
+            const currentState = {
+                canvasState: JSON.stringify(activeCanvas.toJSON([
+                    'selectable', 'evented', 'isGeneratedItem', 'isAnswerKeyItem',
+                    'isBorder', 'isBackground', 'isTemplate', 'isPageBorder',
+                    'isHeaderElement', 'isHeaderDesc', 'itemId', 'shapeId',
+                    'originX', 'originY', 'crossOrigin'
+                ])),
+                backgroundColor: activeCanvas.backgroundColor
+            };
+
+            undoStack.push(currentState);
+            const nextState = redoStack.pop();
+            restoreState(nextState).then(() => {
+                showMessage('Redo', 'info', 1000);
+            });
+        }
+
+        function updateUndoRedoButtons() {
+            if (dom.undoBtn) {
+                dom.undoBtn.disabled = undoStack.length === 0;
+            }
+            if (dom.redoBtn) {
+                dom.redoBtn.disabled = redoStack.length === 0;
+            }
+        }
+
         function deleteSelectedObjects() { 
             const activeCanvas = getActiveCanvas();
             if (!activeCanvas) return;
@@ -1708,24 +2137,71 @@
             activeCanvas.renderAll(); 
             closeAllPopovers(); 
         }
-        
+
+        // ============================================
+        // ZOOM FUNCTIONALITY
+        // Exact implementation from wordsearch.html lines 1745-1767
+        // ============================================
+
+        function zoomIn() {
+            // Increase zoom by 25%, max 300%
+            userZoomLevel = Math.min(userZoomLevel + 0.25, 3.0);
+            updateZoomDisplay();
+            updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+        }
+
+        function zoomOut() {
+            // Decrease zoom by 25%, min 25%
+            userZoomLevel = Math.max(userZoomLevel - 0.25, 0.25);
+            updateZoomDisplay();
+            updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+        }
+
+        function zoomReset() {
+            // Reset to 100%
+            userZoomLevel = 1.0;
+            updateZoomDisplay();
+            updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+        }
+
+        function updateZoomDisplay() {
+            if (dom.zoomPercentage) {
+                dom.zoomPercentage.textContent = Math.round(userZoomLevel * 100) + '%';
+            }
+        }
+
         function closeAllPopovers() { if (activePopover) { activePopover.style.display = 'none'; activePopover = null; } }
         
-        function setupGlobalKeydownListener() { 
-            window.addEventListener('keydown', function(e) { 
-                const activeEl = document.activeElement; 
-                if (activeEl && (activeEl.tagName === 'INPUT' || activeEl.tagName === 'TEXTAREA' || activeEl.tagName === 'SELECT')) { 
-                    if (activeEl.closest('.panel') || activeEl.closest('.dropdown-content')) return; 
+        function setupGlobalKeydownListener() {
+            window.addEventListener('keydown', function(e) {
+                const activeEl = document.activeElement;
+                if (activeEl && (activeEl.tagName === 'INPUT' || activeEl.tagName === 'TEXTAREA' || activeEl.tagName === 'SELECT')) {
+                    if (activeEl.closest('.panel') || activeEl.closest('.dropdown-content')) return;
                 }
+
+                // Undo/Redo keyboard shortcuts (Ctrl+Z / Ctrl+Y)
+                if (e.ctrlKey || e.metaKey) {
+                    if (e.key === 'z' || e.key === 'Z') {
+                        e.preventDefault();
+                        undo();
+                        return;
+                    }
+                    if (e.key === 'y' || e.key === 'Y') {
+                        e.preventDefault();
+                        redo();
+                        return;
+                    }
+                }
+
                 const activeCanvas = getActiveCanvas();
                 if (!activeCanvas) return;
-                const activeObject = activeCanvas.getActiveObject(); 
-                if (activeObject && (e.key === 'Delete' || e.key === 'Backspace')) { 
-                    if (activeObject.isEditing) return; 
-                    e.preventDefault(); 
-                    deleteSelectedObjects(); 
-                } 
-            }); 
+                const activeObject = activeCanvas.getActiveObject();
+                if (activeObject && (e.key === 'Delete' || e.key === 'Backspace')) {
+                    if (activeObject.isEditing) return;
+                    e.preventDefault();
+                    deleteSelectedObjects();
+                }
+            });
         }
         
         async function fetchFromApi(url, errorMessage) { try { const res = await fetch(url); if (!res.ok) throw new Error(`${errorMessage}. Status: ${res.status}`); return await res.json(); } catch (err) { showMessage(err.message, 'error'); return []; } }
@@ -1883,6 +2359,7 @@
 
         // --- Core Generation Logic ---
         async function generateWorksheet(preserveTransforms = true) {
+            isGenerating = true;  // Prevent saveState during generation
             showMessage(t("prepositions.msg.generating"), "info", 0);
 
             // --- Part B, Step 1: Preserve State ---
@@ -1898,7 +2375,8 @@
                     }
                 });
             }
-            const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isTemplate && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
+            const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isAnswerKeyItem && !o.isTemplate && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
+            // NOTE: isBorder and isBackground are NOT excluded - users can now fully control these elements
 
             // --- Part B, Step 2: Precise Removal ---
             const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem);
@@ -1979,13 +2457,18 @@
             updateDownloadButtonsState(true, !!(answerKeyCanvas.getObjects().find(o => o.isAnswerKeyItem)));
             updateGenerateButtonState();
             showMessage(t("prepositions.msg.worksheet.generated"), "success");
+
+            // Re-enable saveState and save current state for undo/redo
+            isGenerating = false;
+            saveState();
         }
-        
+
         async function generateAnswerKey(preserveTransforms = true) {
             if (!lastGeneratedAssignments) {
                 showMessage(t("prepositions.msg.generate.first"), "error");
                 return;
             }
+            isGenerating = true;  // Prevent saveState during generation
             showMessage(t("prepositions.msg.generating.answer"), "info", 0);
 
             // --- Part C, Step 1: Preserve State ---
@@ -2070,6 +2553,10 @@
             updateDownloadButtonsState(true, true);
             showMessage(t("prepositions.msg.answer.ready"), "success");
             document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
+
+            // Re-enable saveState and save current state for undo/redo
+            isGenerating = false;
+            saveState();
         }
 
         // CRITICAL: Paper switching regeneration system (follows wordsearch pattern EXACTLY)

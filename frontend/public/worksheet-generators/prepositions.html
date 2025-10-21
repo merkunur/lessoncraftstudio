@@ -3062,7 +3062,7 @@
                     shapeImg.scaleToHeight(baseObjectSizeForCellFit);
                     const shape2 = await loadImage(shapePath);
                     shape2.set({ originX: 'center', originY: 'center' }).scaleToHeight(baseObjectSizeForCellFit);
-                    const g4 = -30;
+                    const g4 = 10; // Positive gap for proper spacing
                     const iW = itemImg.getScaledWidth();
                     const sW = shapeImg.getScaledWidth();
                     shapeImg.set({ left: -(iW / 2 + g4 + sW / 2) });

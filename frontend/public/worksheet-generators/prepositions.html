@@ -1536,7 +1536,8 @@
                 }
             };
 
-            const locale = currentLocale || 'en';
+            // Use UI locale for header text (UI element), not content locale
+            const locale = window.uiLocale || currentLocale || 'en';
             const defaults = defaultHeaders[locale] || defaultHeaders.en;
             const title = defaults.title;
             const description = exerciseMode === 'multiplechoice'

@@ -3065,7 +3065,10 @@
                     itemsToGroup.push(shapeImg, itemImg);
                     break;
                 case 'under':
-                    const g2 = 20;
+                    // Increase size by 40% and reduce gap by 50%
+                    itemImg.scaleToHeight(baseObjectSizeForCellFit * 1.4);
+                    shapeImg.scaleToHeight(baseObjectSizeForCellFit * 1.4);
+                    const g2 = 10;
                     const cH2 = itemImg.getScaledHeight() + shapeImg.getScaledHeight() + g2;
                     shapeImg.set({ top: -(cH2 / 2 - shapeImg.getScaledHeight() / 2) });
                     itemImg.set({ top: (cH2 / 2 - itemImg.getScaledHeight() / 2) });
@@ -3115,7 +3118,10 @@
                     itemsToGroup.push(shapeImg, itemImg, shape2);
                     break;
                 case 'above':
-                    const g5 = 20;
+                    // Increase size by 40% and reduce gap by 50%
+                    itemImg.scaleToHeight(baseObjectSizeForCellFit * 1.4);
+                    shapeImg.scaleToHeight(baseObjectSizeForCellFit * 1.4);
+                    const g5 = 10;
                     const cH5 = itemImg.getScaledHeight() + shapeImg.getScaledHeight() + g5;
                     itemImg.set({ top: -(cH5 / 2 - itemImg.getScaledHeight() / 2) });
                     shapeImg.set({ top: (cH5 / 2 - itemImg.getScaledHeight() / 2) });

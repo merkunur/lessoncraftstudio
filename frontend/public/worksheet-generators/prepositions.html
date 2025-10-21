@@ -1477,25 +1477,71 @@
             [worksheetCanvas, answerKeyCanvas].forEach(c => { if(c) { c.backgroundColor = color; c.renderAll(); } });
         }
 
-        function createHeaderGroup(canvas) {
+        function createHeaderGroup(canvas, exerciseMode = 'fillin') {
             const defaultHeaders = {
-                en: { title: 'Prepositions', description: 'Complete each sentence with the correct preposition!' },
-                de: { title: 'Präpositionen', description: 'Vervollständige jeden Satz mit der richtigen Präposition!' },
-                fr: { title: 'Prépositions', description: 'Complétez chaque phrase avec la bonne préposition!' },
-                es: { title: 'Preposiciones', description: '¡Completa cada frase con la preposición correcta!' },
-                it: { title: 'Preposizioni', description: 'Completa ogni frase con la preposizione corretta!' },
-                pt: { title: 'Preposições', description: 'Complete cada frase com a preposição correta!' },
-                nl: { title: 'Voorzetsels', description: 'Voltooi elke zin met het juiste voorzetsel!' },
-                sv: { title: 'Prepositioner', description: 'Fyll i varje mening med rätt preposition!' },
-                da: { title: 'Præpositioner', description: 'Fuldfør hver sætning med den rigtige præposition!' },
-                no: { title: 'Preposisjoner', description: 'Fullfør hver setning med riktig preposisjon!' },
-                fi: { title: 'Prepositiot', description: 'Täydennä jokainen lause oikealla prepositiolla!' }
+                en: {
+                    title: 'Prepositions',
+                    description: 'Complete each sentence with the correct preposition!',
+                    descriptionMultipleChoice: 'Circle the picture that shows the correct preposition!'
+                },
+                de: {
+                    title: 'Präpositionen',
+                    description: 'Vervollständige jeden Satz mit der richtigen Präposition!',
+                    descriptionMultipleChoice: 'Kreise das Bild ein, das die richtige Präposition zeigt!'
+                },
+                fr: {
+                    title: 'Prépositions',
+                    description: 'Complétez chaque phrase avec la bonne préposition!',
+                    descriptionMultipleChoice: 'Entoure l\'image qui montre la bonne préposition!'
+                },
+                es: {
+                    title: 'Preposiciones',
+                    description: '¡Completa cada frase con la preposición correcta!',
+                    descriptionMultipleChoice: '¡Encierra en un círculo la imagen que muestra la preposición correcta!'
+                },
+                it: {
+                    title: 'Preposizioni',
+                    description: 'Completa ogni frase con la preposizione corretta!',
+                    descriptionMultipleChoice: 'Cerchia l\'immagine che mostra la preposizione corretta!'
+                },
+                pt: {
+                    title: 'Preposições',
+                    description: 'Complete cada frase com a preposição correta!',
+                    descriptionMultipleChoice: 'Circule a imagem que mostra a preposição correta!'
+                },
+                nl: {
+                    title: 'Voorzetsels',
+                    description: 'Voltooi elke zin met het juiste voorzetsel!',
+                    descriptionMultipleChoice: 'Cirkel de afbeelding die het juiste voorzetsel laat zien!'
+                },
+                sv: {
+                    title: 'Prepositioner',
+                    description: 'Fyll i varje mening med rätt preposition!',
+                    descriptionMultipleChoice: 'Ringa in bilden som visar rätt preposition!'
+                },
+                da: {
+                    title: 'Præpositioner',
+                    description: 'Fuldfør hver sætning med den rigtige præposition!',
+                    descriptionMultipleChoice: 'Sæt ring om billedet, der viser den rigtige præposition!'
+                },
+                no: {
+                    title: 'Preposisjoner',
+                    description: 'Fullfør hver setning med riktig preposisjon!',
+                    descriptionMultipleChoice: 'Ring inn bildet som viser riktig preposisjon!'
+                },
+                fi: {
+                    title: 'Prepositiot',
+                    description: 'Täydennä jokainen lause oikealla prepositiolla!',
+                    descriptionMultipleChoice: 'Ympyröi kuva, joka näyttää oikean preposition!'
+                }
             };
 
             const locale = currentLocale || 'en';
             const defaults = defaultHeaders[locale] || defaultHeaders.en;
             const title = defaults.title;
-            const description = defaults.description;
+            const description = exerciseMode === 'multiplechoice'
+                ? defaults.descriptionMultipleChoice
+                : defaults.description;
 
             // Get current canvas dimensions for responsive design
             const pageWidth = currentCanvasConfig.width;
@@ -2484,7 +2530,7 @@
             });
 
             // Add header and border elements
-            const headerElements = createHeaderGroup(worksheetCanvas);
+            const headerElements = createHeaderGroup(worksheetCanvas, exerciseMode);
             headerElements.forEach(el => worksheetCanvas.add(el));
 
             if (dom.includeNameDateCheckbox.checked && !worksheetCanvas.getObjects().find(o=>o.isNameDate)) {

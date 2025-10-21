@@ -2938,8 +2938,16 @@
                 });
                 exerciseItems.push(prepText);
 
-                // Create 3 visual options
-                const correctOption = await createCellVisual(assignment, visualsWidth / 3, rowHeight * 0.8, 0, isAnswerKey);
+                // Position the 3 options horizontally
+                const optionWidth = visualsWidth / 3;
+
+                // Create visual options with positions
+                const option0X = visualsX + (0 * optionWidth) + (optionWidth / 2);
+                const option1X = visualsX + (1 * optionWidth) + (optionWidth / 2);
+                const option2X = visualsX + (2 * optionWidth) + (optionWidth / 2);
+                const optionY = currentY + (rowHeight / 2);
+
+                const correctOption = await createCellVisual(assignment, option0X, optionY, visualsWidth / 3, rowHeight * 0.8, i * 10 + 0, true, isAnswerKey);
 
                 // Generate 2 distractor options with different prepositions
                 const allPreps = [...PREPOSITIONS];
@@ -2949,30 +2957,24 @@
                 const distractor1Assignment = { ...assignment, preposition: shuffledDistractors[0] };
                 const distractor2Assignment = { ...assignment, preposition: shuffledDistractors[1] };
 
-                const distractor1 = await createCellVisual(distractor1Assignment, visualsWidth / 3, rowHeight * 0.8, 1, isAnswerKey);
-                const distractor2 = await createCellVisual(distractor2Assignment, visualsWidth / 3, rowHeight * 0.8, 2, isAnswerKey);
+                const distractor1 = await createCellVisual(distractor1Assignment, option1X, optionY, visualsWidth / 3, rowHeight * 0.8, i * 10 + 1, false, isAnswerKey);
+                const distractor2 = await createCellVisual(distractor2Assignment, option2X, optionY, visualsWidth / 3, rowHeight * 0.8, i * 10 + 2, false, isAnswerKey);
 
                 // Randomize option positions if not answer key
                 const options = isAnswerKey
                     ? [correctOption, distractor1, distractor2]
                     : shuffleArray([correctOption, distractor1, distractor2]);
 
-                // Position the 3 options horizontally
-                const optionWidth = visualsWidth / 3;
+                // Add circles and visual groups
                 for (let j = 0; j < options.length; j++) {
                     const option = options[j];
-                    option.group.set({
-                        left: visualsX + (j * optionWidth) + (optionWidth / 2),
-                        top: currentY + (rowHeight / 2),
-                        originalIndex: i * 10 + j // Unique index for each option
-                    });
 
                     // Add circle overlay for "circle the correct answer" concept
                     if (!isAnswerKey || (isAnswerKey && option.isCorrect)) {
                         const circleRadius = Math.min(optionWidth, rowHeight * 0.8) * 0.6;
                         const circle = new fabric.Circle({
-                            left: visualsX + (j * optionWidth) + (optionWidth / 2),
-                            top: currentY + (rowHeight / 2),
+                            left: option.group.left,
+                            top: option.group.top,
                             radius: circleRadius,
                             fill: 'transparent',
                             stroke: isAnswerKey && option.isCorrect ? '#00ff00' : '#cccccc',
@@ -2997,7 +2999,7 @@
         }
 
         // Helper function to create a single visual representation
-        async function createCellVisual(assignment, cellW, cellH, optionIndex, isAnswerKey) {
+        async function createCellVisual(assignment, x, y, cellW, cellH, originalIndex, isCorrect, isAnswerKey) {
             const shapePath = assignment.shape.isDefault ? `/images/prepositions/${assignment.shape.name}.png` : assignment.shape.path;
             const shapeImg = await loadImage(shapePath);
             const itemImg = await loadImage(assignment.item.path);
@@ -3102,6 +3104,8 @@
             const finalGroupObjects = tempGroup.destroy().getObjects();
 
             const visualGroup = new fabric.Group(finalGroupObjects, {
+                left: x,
+                top: y,
                 originX: 'center',
                 originY: 'center',
                 selectable: true,
@@ -3109,6 +3113,7 @@
                 objectCaching: false,
                 isGeneratedItem: !isAnswerKey,
                 isAnswerKeyItem: isAnswerKey,
+                originalIndex: originalIndex,
                 borderColor: 'var(--app-accent-primary)',
                 cornerColor: 'var(--app-accent-primary)',
                 cornerSize: 8,
@@ -3116,7 +3121,7 @@
                 cornerStyle: 'circle'
             });
 
-            return { group: visualGroup, isCorrect: optionIndex === 0 };
+            return { group: visualGroup, isCorrect: isCorrect };
         }
 
         function addNameDateGroup(canvasInstance) { const nameText = new fabric.Textbox(t("prepositions.name.field"), { fontSize: 16, fontFamily: 'Arial' }); const dateText = new fabric.Textbox(t("prepositions.date.field"), { left: nameText.width + 30, fontSize: 16, fontFamily: 'Arial' }); const group = new fabric.Group([nameText, dateText], { left: 50, top: 20, isNameDate: true, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 8, transparentCorners: false, cornerStyle: 'circle' }); canvasInstance.add(group); }

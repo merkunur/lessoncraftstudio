@@ -3136,9 +3136,12 @@
                     break;
             }
 
-            // Apply final scaling to fit in cell (matching fill-in mode approach)
+            // Apply final scaling to fit in cell
+            // Multiple choice mode: use larger scale factor since spacing is tighter
             const tempGroup = new fabric.Group(itemsToGroup, { objectCaching: false });
-            const scaleFactor = Math.min((cellW * 0.75) / tempGroup.width, (cellH * 0.75) / tempGroup.height);
+            const scaleMultiplier = isMultipleChoice ? 0.85 : 0.75;  // 10% larger for multiple choice
+            const scaleFactor = Math.min((cellW * scaleMultiplier) / tempGroup.width, (cellH * scaleMultiplier) / tempGroup.height);
+            console.log('Scaling:', { isMultipleChoice, scaleMultiplier, scaleFactor, prep });
             tempGroup.scale(scaleFactor);
             const finalGroupObjects = tempGroup.destroy().getObjects();
 

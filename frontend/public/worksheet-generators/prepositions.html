@@ -2393,9 +2393,14 @@
             isGenerating = true;  // Prevent saveState during generation
             showMessage(t("prepositions.msg.generating"), "info", 0);
 
+            // Check exercise mode - DON'T preserve transforms in multiple choice mode
+            // because the layout is completely different from fill-in mode
+            const exerciseMode = dom.exerciseModeSelect.value;
+            const shouldPreserve = preserveTransforms && exerciseMode !== 'multiplechoice';
+
             // --- Part B, Step 1: Preserve State ---
             const oldTransforms = {};
-            if (preserveTransforms) {
+            if (shouldPreserve) {
                 worksheetCanvas.getObjects().forEach(obj => {
                     if (obj.isGeneratedItem && obj.originalIndex != null) {
                         oldTransforms[obj.originalIndex] = {
@@ -2459,8 +2464,7 @@
                 }
             }
 
-            // Check exercise mode
-            const exerciseMode = dom.exerciseModeSelect.value;
+            // Generate items based on exercise mode
             const newItems = (exerciseMode === 'multiplechoice')
                 ? await createMultipleChoiceExercises(false)
                 : await createExerciseItems(false);
@@ -2468,7 +2472,7 @@
             // --- Part B, Step 3 & 4: Re-apply and Finalize ---
             newItems.forEach(item => {
                 const beforePos = { left: item.left, top: item.top };
-                if (preserveTransforms && oldTransforms[item.originalIndex]) {
+                if (shouldPreserve && oldTransforms[item.originalIndex]) {
                     console.log('OVERRIDING POSITION:', {
                         originalIndex: item.originalIndex,
                         before: beforePos,
@@ -2508,9 +2512,13 @@
             isGenerating = true;  // Prevent saveState during generation
             showMessage(t("prepositions.msg.generating.answer"), "info", 0);
 
+            // Check exercise mode - DON'T preserve transforms in multiple choice mode
+            const exerciseMode = dom.exerciseModeSelect.value;
+            const shouldPreserve = preserveTransforms && exerciseMode !== 'multiplechoice';
+
             // --- Part C, Step 1: Preserve State ---
             const oldTransforms = {};
-            if (preserveTransforms) {
+            if (shouldPreserve) {
                 answerKeyCanvas.getObjects().forEach(obj => {
                     if (obj.isAnswerKeyItem && obj.originalIndex != null) {
                         oldTransforms[obj.originalIndex] = {
@@ -2580,7 +2588,7 @@
 
             // --- Part C, Step 4: Re-apply and Finalize ---
             newItems.forEach(item => {
-                if (preserveTransforms && oldTransforms[item.originalIndex]) {
+                if (shouldPreserve && oldTransforms[item.originalIndex]) {
                     item.set(oldTransforms[item.originalIndex]);
                 }
                 answerKeyCanvas.add(item);

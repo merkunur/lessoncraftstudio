@@ -2965,6 +2965,13 @@
                     const optionX = visualsX + (j * optionWidth) + (optionWidth / 2);
                     const visual = await createCellVisual(assignmentData, optionX, optionY, visualsWidth / 3, rowHeight * 0.8, i * 10 + j, isCorrect, isAnswerKey);
                     options.push(visual);
+
+                    // DEBUG: Log calculated vs actual positions
+                    console.log(`Exercise ${i}, Option ${j}:`, {
+                        calculated: { x: optionX, y: optionY },
+                        actual: { x: visual.group.left, y: visual.group.top },
+                        visualsX, optionWidth, j
+                    });
                 }
 
                 // Create circles at sequential positions (WITHOUT offset)
@@ -2972,6 +2979,8 @@
                     const option = options[j];
                     const circleX = visualsX + (j * optionWidth) + (optionWidth / 2);
                     const circleY = optionY;
+
+                    console.log(`Circle ${i}-${j}:`, { circleX, circleY, groupX: option.group.left, groupY: option.group.top });
 
                     // Add circle overlay for "circle the correct answer" concept
                     if (!isAnswerKey || (isAnswerKey && option.isCorrect)) {

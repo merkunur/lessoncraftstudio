@@ -2960,27 +2960,29 @@
                 const optionWidth = visualsWidth / 3;
                 const optionY = currentY + (rowHeight / 2);
 
-                // Fix for first exercise: move 20px up and 80px to the right
+                // Fix for first exercise: move visual groups 20px up and 80px to the right (circles stay in place)
                 const offsetX = (i === 0) ? 80 : 0;
                 const offsetY = (i === 0) ? -20 : 0;
 
                 for (let j = 0; j < options.length; j++) {
                     const option = options[j];
-                    const optionX = visualsX + (j * optionWidth) + (optionWidth / 2) + offsetX;
-                    const finalY = optionY + offsetY;
+                    const circleX = visualsX + (j * optionWidth) + (optionWidth / 2);
+                    const circleY = optionY;
+                    const groupX = circleX + offsetX;
+                    const groupY = circleY + offsetY;
 
-                    // Set the correct position
+                    // Set the correct position for visual group (with offset for first exercise)
                     option.group.set({
-                        left: optionX,
-                        top: finalY
+                        left: groupX,
+                        top: groupY
                     });
 
-                    // Add circle overlay for "circle the correct answer" concept
+                    // Add circle overlay for "circle the correct answer" concept (no offset - original position)
                     if (!isAnswerKey || (isAnswerKey && option.isCorrect)) {
                         const circleRadius = Math.min(optionWidth, rowHeight * 0.8) * 0.6;
                         const circle = new fabric.Circle({
-                            left: optionX,
-                            top: finalY,
+                            left: circleX,
+                            top: circleY,
                             radius: circleRadius,
                             fill: 'transparent',
                             stroke: isAnswerKey && option.isCorrect ? '#00ff00' : '#cccccc',

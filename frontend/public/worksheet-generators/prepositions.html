@@ -2950,15 +2950,11 @@
                 const optionWidth = visualsWidth / 3;
                 const optionY = currentY + (rowHeight / 2);
 
-                // Fix for first exercise: offset visual groups 20px up and 80px right
-                const offsetX = (i === 0) ? 80 : 0;
-                const offsetY = (i === 0) ? -20 : 0;
-
-                // Calculate the 3 final positions for visual groups
+                // Calculate the 3 final positions for visual groups (same as circles - no offset!)
                 const positions = [
-                    { x: visualsX + (0 * optionWidth) + (optionWidth / 2) + offsetX, y: optionY + offsetY },
-                    { x: visualsX + (1 * optionWidth) + (optionWidth / 2) + offsetX, y: optionY + offsetY },
-                    { x: visualsX + (2 * optionWidth) + (optionWidth / 2) + offsetX, y: optionY + offsetY }
+                    { x: visualsX + (0 * optionWidth) + (optionWidth / 2), y: optionY },
+                    { x: visualsX + (1 * optionWidth) + (optionWidth / 2), y: optionY },
+                    { x: visualsX + (2 * optionWidth) + (optionWidth / 2), y: optionY }
                 ];
 
                 // Create visual options at their FINAL positions (no .set() needed!)

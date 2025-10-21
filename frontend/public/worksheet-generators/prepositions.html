@@ -3104,8 +3104,8 @@
                     shapeImg.scaleToHeight(baseObjectSizeForCellFit);
                     const shape2 = await loadImage(shapePath);
                     shape2.set({ originX: 'center', originY: 'center' }).scaleToHeight(baseObjectSizeForCellFit);
-                    // Multiple choice mode: 50% less gap (5 instead of 10)
-                    const g4 = isMultipleChoice ? 5 : 10;
+                    // Multiple choice mode: 50% less overlap (-15 instead of -30)
+                    const g4 = isMultipleChoice ? -15 : -30;
                     console.log('BETWEEN spacing:', { isMultipleChoice, g4, originalIndex, bypassFinalScaling });
                     const iW = itemImg.getScaledWidth();
                     const sW = shapeImg.getScaledWidth();

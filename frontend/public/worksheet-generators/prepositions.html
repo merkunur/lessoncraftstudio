@@ -2946,39 +2946,38 @@
                 const distractor1Assignment = { ...assignment, preposition: shuffledDistractors[0] };
                 const distractor2Assignment = { ...assignment, preposition: shuffledDistractors[1] };
 
-                // Create visual options WITHOUT positions (using 0,0 as placeholder)
-                const correctOption = await createCellVisual(assignment, 0, 0, visualsWidth / 3, rowHeight * 0.8, i * 10 + 0, true, isAnswerKey);
-                const distractor1 = await createCellVisual(distractor1Assignment, 0, 0, visualsWidth / 3, rowHeight * 0.8, i * 10 + 1, false, isAnswerKey);
-                const distractor2 = await createCellVisual(distractor2Assignment, 0, 0, visualsWidth / 3, rowHeight * 0.8, i * 10 + 2, false, isAnswerKey);
+                // CALCULATE ALL 3 POSITIONS FIRST (before creating any groups)
+                const optionWidth = visualsWidth / 3;
+                const optionY = currentY + (rowHeight / 2);
 
-                // Randomize option positions if not answer key
+                // Fix for first exercise: offset visual groups 20px up and 80px right
+                const offsetX = (i === 0) ? 80 : 0;
+                const offsetY = (i === 0) ? -20 : 0;
+
+                // Calculate the 3 final positions for visual groups
+                const positions = [
+                    { x: visualsX + (0 * optionWidth) + (optionWidth / 2) + offsetX, y: optionY + offsetY },
+                    { x: visualsX + (1 * optionWidth) + (optionWidth / 2) + offsetX, y: optionY + offsetY },
+                    { x: visualsX + (2 * optionWidth) + (optionWidth / 2) + offsetX, y: optionY + offsetY }
+                ];
+
+                // Create visual options at their FINAL positions (no .set() needed!)
+                const correctOption = await createCellVisual(assignment, positions[0].x, positions[0].y, visualsWidth / 3, rowHeight * 0.8, i * 10 + 0, true, isAnswerKey);
+                const distractor1 = await createCellVisual(distractor1Assignment, positions[1].x, positions[1].y, visualsWidth / 3, rowHeight * 0.8, i * 10 + 1, false, isAnswerKey);
+                const distractor2 = await createCellVisual(distractor2Assignment, positions[2].x, positions[2].y, visualsWidth / 3, rowHeight * 0.8, i * 10 + 2, false, isAnswerKey);
+
+                // NOW shuffle the already-positioned groups
                 const options = isAnswerKey
                     ? [correctOption, distractor1, distractor2]
                     : shuffleArray([correctOption, distractor1, distractor2]);
 
-                // Position the 3 options horizontally AFTER shuffling
-                const optionWidth = visualsWidth / 3;
-                const optionY = currentY + (rowHeight / 2);
-
-                // Fix for first exercise: move visual groups 20px up and 80px to the right (circles stay in place)
-                const offsetX = (i === 0) ? 80 : 0;
-                const offsetY = (i === 0) ? -20 : 0;
-
+                // Create circles at sequential positions (WITHOUT offset)
                 for (let j = 0; j < options.length; j++) {
                     const option = options[j];
                     const circleX = visualsX + (j * optionWidth) + (optionWidth / 2);
                     const circleY = optionY;
-                    const groupX = circleX + offsetX;
-                    const groupY = circleY + offsetY;
 
-                    // Set the correct position for visual group (with offset for first exercise)
-                    option.group.set({
-                        left: groupX,
-                        top: groupY
-                    });
-                    option.group.setCoords(); // Update coordinates after position change
-
-                    // Add circle overlay for "circle the correct answer" concept (no offset - original position)
+                    // Add circle overlay for "circle the correct answer" concept
                     if (!isAnswerKey || (isAnswerKey && option.isCorrect)) {
                         const circleRadius = Math.min(optionWidth, rowHeight * 0.8) * 0.6;
                         const circle = new fabric.Circle({

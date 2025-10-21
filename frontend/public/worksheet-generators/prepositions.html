@@ -2993,25 +2993,24 @@
                         diff: { x: circleX - option.group.left, y: circleY - option.group.top }
                     });
 
-                    // Add circle overlay for "circle the correct answer" concept
-                    if (!isAnswerKey || (isAnswerKey && option.isCorrect)) {
-                        const circleRadius = Math.min(optionWidth, rowHeight * 0.8) * 0.6;
-                        const circle = new fabric.Circle({
-                            left: circleX,
-                            top: circleY,
-                            radius: circleRadius,
-                            fill: 'transparent',
-                            stroke: isAnswerKey && option.isCorrect ? '#00ff00' : '#cccccc',
-                            strokeWidth: isAnswerKey && option.isCorrect ? 3 : 1,
-                            originX: 'center',
-                            originY: 'center',
-                            selectable: false,
-                            evented: false,
-                            isGeneratedItem: !isAnswerKey,
-                            isAnswerKeyItem: isAnswerKey
-                        });
-                        exerciseItems.push(circle);
-                    }
+                    // Add circle overlay - all circles shown on both worksheet and answer key
+                    // Answer key: correct option has green circle, incorrect options have gray circles
+                    const circleRadius = Math.min(optionWidth, rowHeight * 0.8) * 0.6;
+                    const circle = new fabric.Circle({
+                        left: circleX,
+                        top: circleY,
+                        radius: circleRadius,
+                        fill: 'transparent',
+                        stroke: isAnswerKey && option.isCorrect ? '#00ff00' : '#cccccc',
+                        strokeWidth: isAnswerKey && option.isCorrect ? 3 : 1,
+                        originX: 'center',
+                        originY: 'center',
+                        selectable: false,
+                        evented: false,
+                        isGeneratedItem: !isAnswerKey,
+                        isAnswerKeyItem: isAnswerKey
+                    });
+                    exerciseItems.push(circle);
 
                     exerciseItems.push(option.group);
                 }

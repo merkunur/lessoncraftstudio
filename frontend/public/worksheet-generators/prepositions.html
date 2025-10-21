@@ -3049,6 +3049,7 @@
             shapeImg.scaleToHeight(baseObjectSizeForCellFit);
 
             const itemsToGroup = [];
+            let bypassFinalScaling = false;
 
             switch (prep) {
                 case 'in':
@@ -3071,13 +3072,14 @@
                     itemsToGroup.push(itemImg, shapeImg);
                     break;
                 case 'next to':
+                    bypassFinalScaling = true;  // Skip proportional scaling to preserve spacing
                     itemImg.scaleToHeight(baseObjectSizeForCellFit);
                     shapeImg.scaleToHeight(baseObjectSizeForCellFit);
                     const widthI_nextto = itemImg.getScaledWidth();
                     const widthS_nextto = shapeImg.getScaledWidth();
                     // Multiple choice mode: 50% less overlap (0.15 instead of 0.3)
                     const overlap_nextto = Math.min(widthI_nextto, widthS_nextto) * (isMultipleChoice ? 0.15 : 0.3);
-                    console.log('NEXT TO spacing:', { isMultipleChoice, overlap_nextto, originalIndex });
+                    console.log('NEXT TO spacing:', { isMultipleChoice, overlap_nextto, originalIndex, bypassFinalScaling });
                     const totalWidth_nextto = widthI_nextto + widthS_nextto - overlap_nextto;
                     itemImg.set({ left: -totalWidth_nextto/2 + widthI_nextto/2 });
                     shapeImg.set({ left: -totalWidth_nextto/2 + widthI_nextto - overlap_nextto + widthS_nextto/2 });
@@ -3097,13 +3099,14 @@
                     itemsToGroup.push(itemImg, shapeImg);
                     break;
                 case 'between':
+                    bypassFinalScaling = true;  // Skip proportional scaling to preserve spacing
                     itemImg.scaleToHeight(baseObjectSizeForCellFit);
                     shapeImg.scaleToHeight(baseObjectSizeForCellFit);
                     const shape2 = await loadImage(shapePath);
                     shape2.set({ originX: 'center', originY: 'center' }).scaleToHeight(baseObjectSizeForCellFit);
                     // Multiple choice mode: 50% less gap (5 instead of 10)
                     const g4 = isMultipleChoice ? 5 : 10;
-                    console.log('BETWEEN spacing:', { isMultipleChoice, g4, originalIndex });
+                    console.log('BETWEEN spacing:', { isMultipleChoice, g4, originalIndex, bypassFinalScaling });
                     const iW = itemImg.getScaledWidth();
                     const sW = shapeImg.getScaledWidth();
                     shapeImg.set({ left: -(iW / 2 + g4 + sW / 2) });
@@ -3136,14 +3139,18 @@
                     break;
             }
 
-            // Apply final scaling to fit in cell
-            // Multiple choice mode: use larger scale factor since spacing is tighter
-            const tempGroup = new fabric.Group(itemsToGroup, { objectCaching: false });
-            const scaleMultiplier = isMultipleChoice ? 0.85 : 0.75;  // 10% larger for multiple choice
-            const scaleFactor = Math.min((cellW * scaleMultiplier) / tempGroup.width, (cellH * scaleMultiplier) / tempGroup.height);
-            console.log('Scaling:', { isMultipleChoice, scaleMultiplier, scaleFactor, prep });
-            tempGroup.scale(scaleFactor);
-            const finalGroupObjects = tempGroup.destroy().getObjects();
+            // Apply final scaling to fit in cell (unless bypassed for spacing-sensitive prepositions)
+            let finalGroupObjects = itemsToGroup;
+            if (!bypassFinalScaling) {
+                const tempGroup = new fabric.Group(itemsToGroup, { objectCaching: false });
+                const scaleMultiplier = isMultipleChoice ? 0.85 : 0.75;
+                const scaleFactor = Math.min((cellW * scaleMultiplier) / tempGroup.width, (cellH * scaleMultiplier) / tempGroup.height);
+                console.log('Scaling:', { prep, isMultipleChoice, scaleMultiplier, scaleFactor, bypassFinalScaling });
+                tempGroup.scale(scaleFactor);
+                finalGroupObjects = tempGroup.destroy().getObjects();
+            } else {
+                console.log('Scaling BYPASSED:', { prep, isMultipleChoice, bypassFinalScaling });
+            }
 
             const visualGroup = new fabric.Group(finalGroupObjects, {
                 left: x + cellW / 2,  // Convert TOP-LEFT to CENTER (like createCellGroup)

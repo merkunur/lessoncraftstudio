@@ -2988,7 +2988,7 @@
                     const { assignment: assignmentData, isCorrect } = shuffledAssignments[j];
                     // Pass TOP-LEFT corner (like createCellGroup), not center
                     const optionX = visualsX + (j * optionWidth);
-                    const visual = await createCellVisual(assignmentData, optionX, optionY - (rowHeight * 0.8 / 2), visualsWidth / 3, rowHeight * 0.8, i * 10 + j, isCorrect, isAnswerKey);
+                    const visual = await createCellVisual(assignmentData, optionX, optionY - (rowHeight * 0.8 / 2), visualsWidth / 3, rowHeight * 0.8, i * 10 + j, isCorrect, isAnswerKey, true);
                     options.push(visual);
                 }
 
@@ -3033,7 +3033,7 @@
         }
 
         // Helper function to create a single visual representation
-        async function createCellVisual(assignment, x, y, cellW, cellH, originalIndex, isCorrect, isAnswerKey) {
+        async function createCellVisual(assignment, x, y, cellW, cellH, originalIndex, isCorrect, isAnswerKey, isMultipleChoice = false) {
             const shapePath = assignment.shape.isDefault ? `/images/prepositions/${assignment.shape.name}.png` : assignment.shape.path;
             const shapeImg = await loadImage(shapePath);
             const itemImg = await loadImage(assignment.item.path);
@@ -3074,7 +3074,8 @@
                     shapeImg.scaleToHeight(baseObjectSizeForCellFit);
                     const widthI_nextto = itemImg.getScaledWidth();
                     const widthS_nextto = shapeImg.getScaledWidth();
-                    const overlap_nextto = Math.min(widthI_nextto, widthS_nextto) * 0.3;
+                    // Multiple choice mode: 50% less overlap (0.15 instead of 0.3)
+                    const overlap_nextto = Math.min(widthI_nextto, widthS_nextto) * (isMultipleChoice ? 0.15 : 0.3);
                     const totalWidth_nextto = widthI_nextto + widthS_nextto - overlap_nextto;
                     itemImg.set({ left: -totalWidth_nextto/2 + widthI_nextto/2 });
                     shapeImg.set({ left: -totalWidth_nextto/2 + widthI_nextto - overlap_nextto + widthS_nextto/2 });
@@ -3098,7 +3099,8 @@
                     shapeImg.scaleToHeight(baseObjectSizeForCellFit);
                     const shape2 = await loadImage(shapePath);
                     shape2.set({ originX: 'center', originY: 'center' }).scaleToHeight(baseObjectSizeForCellFit);
-                    const g4 = 10; // Positive gap for proper spacing
+                    // Multiple choice mode: 50% less gap (5 instead of 10)
+                    const g4 = isMultipleChoice ? 5 : 10;
                     const iW = itemImg.getScaledWidth();
                     const sW = shapeImg.getScaledWidth();
                     shapeImg.set({ left: -(iW / 2 + g4 + sW / 2) });

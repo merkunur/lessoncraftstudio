@@ -369,6 +369,11 @@
                  <div class="accordion-item">
                     <button class="accordion-button" data-translate="configuration">Configuration</button>
                     <div class="accordion-content">
+                        <label for="exerciseModeSelect" data-translate="prepositions.exercise.mode">Exercise Mode:</label>
+                        <select id="exerciseModeSelect">
+                            <option value="fillin" data-translate="prepositions.mode.fillin">Fill-in-the-Blank</option>
+                            <option value="multiplechoice" data-translate="prepositions.mode.multiplechoice">Multiple Choice</option>
+                        </select>
                         <label for="exerciseCount" data-translate="prepositions.exercises.count">Number of Exercises (1-8):</label>
                         <input type="number" id="exerciseCount" value="8" min="1" max="8">
                         <h4 data-translate="prepositions.select.prepositions">Select Prepositions</h4>
@@ -764,6 +769,7 @@
                 customFileButton: document.getElementById('customFileButton'),
                 customFileStatus: document.getElementById('customFileStatus'),
                 includeNameDateCheckbox: document.getElementById('includeNameDateCheckbox'),
+                exerciseModeSelect: document.getElementById('exerciseModeSelect'),
                 exerciseCount: document.getElementById('exerciseCount'),
                 prepositionsGrid: document.getElementById('prepositionsGrid'),
                 generateDropdownBtn: document.getElementById('generateDropdownBtn'),
@@ -1943,8 +1949,12 @@
                     lastGeneratedAssignments.push({ item: itemsToUse[i], shape: shapesToUse[i], preposition: selectedPreps[i % selectedPreps.length] });
                 }
             }
-            
-            const newItems = await createExerciseItems(false);
+
+            // Check exercise mode
+            const exerciseMode = dom.exerciseModeSelect.value;
+            const newItems = (exerciseMode === 'multiplechoice')
+                ? await createMultipleChoiceExercises(false)
+                : await createExerciseItems(false);
 
             // --- Part B, Step 3 & 4: Re-apply and Finalize ---
             newItems.forEach(item => {
@@ -2039,7 +2049,11 @@
                 }));
             }
 
-            const newItems = await createExerciseItems(true);
+            // Check exercise mode
+            const exerciseMode = dom.exerciseModeSelect.value;
+            const newItems = (exerciseMode === 'multiplechoice')
+                ? await createMultipleChoiceExercises(true)
+                : await createExerciseItems(true);
 
             // --- Part C, Step 4: Re-apply and Finalize ---
             newItems.forEach(item => {
@@ -2354,6 +2368,234 @@
 
             // Return elements array instead of group to maintain text editability
             return allElements;
+        }
+
+        // Multiple Choice Exercise Generation Function
+        async function createMultipleChoiceExercises(isAnswerKey) {
+            const exerciseItems = [];
+            const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
+            const isPortrait = !isLandscape;
+
+            // Constants matching whiteboard positioning
+            const HEADER_END = isPortrait ? 175 : 155;
+            const BORDER_MARGIN = 34;
+            const SIDE_PADDING = 40;
+
+            // Calculate available space
+            const leftMargin = BORDER_MARGIN + SIDE_PADDING;
+            const rightMargin = BORDER_MARGIN + SIDE_PADDING;
+            const availableWidth = currentCanvasConfig.width - leftMargin - rightMargin;
+
+            // Layout: Left 30% for prepositions, Right 70% for visual options
+            const prepTextWidth = availableWidth * 0.3;
+            const visualsWidth = availableWidth * 0.7;
+            const prepTextX = leftMargin;
+            const visualsX = leftMargin + prepTextWidth + 20; // 20px gap
+
+            // Calculate vertical spacing
+            const totalHeight = currentCanvasConfig.height - HEADER_END - BORDER_MARGIN - 60;
+            const rowHeight = totalHeight / lastGeneratedAssignments.length;
+
+            let currentY = HEADER_END + 30;
+
+            for (let i = 0; i < lastGeneratedAssignments.length; i++) {
+                const assignment = lastGeneratedAssignments[i];
+                const prepositionText = PREPOSITION_TRANSLATIONS[assignment.preposition][currentLocale] || assignment.preposition;
+
+                // Create preposition text on the left
+                const prepText = new fabric.Text(`${i + 1}. ${prepositionText}`, {
+                    left: prepTextX,
+                    top: currentY + (rowHeight / 2) - 10,
+                    fontSize: 16,
+                    fontFamily: 'Arial',
+                    fill: '#000000',
+                    fontWeight: 'bold',
+                    selectable: true,
+                    evented: true,
+                    isGeneratedItem: !isAnswerKey,
+                    isAnswerKeyItem: isAnswerKey
+                });
+                exerciseItems.push(prepText);
+
+                // Create 3 visual options
+                const correctOption = await createCellVisual(assignment, visualsWidth / 3, rowHeight * 0.8, 0, isAnswerKey);
+
+                // Generate 2 distractor options with different prepositions
+                const allPreps = [...PREPOSITIONS];
+                const distractorPreps = allPreps.filter(p => p !== assignment.preposition);
+                const shuffledDistractors = shuffleArray(distractorPreps).slice(0, 2);
+
+                const distractor1Assignment = { ...assignment, preposition: shuffledDistractors[0] };
+                const distractor2Assignment = { ...assignment, preposition: shuffledDistractors[1] };
+
+                const distractor1 = await createCellVisual(distractor1Assignment, visualsWidth / 3, rowHeight * 0.8, 1, isAnswerKey);
+                const distractor2 = await createCellVisual(distractor2Assignment, visualsWidth / 3, rowHeight * 0.8, 2, isAnswerKey);
+
+                // Randomize option positions if not answer key
+                const options = isAnswerKey
+                    ? [correctOption, distractor1, distractor2]
+                    : shuffleArray([correctOption, distractor1, distractor2]);
+
+                // Position the 3 options horizontally
+                const optionWidth = visualsWidth / 3;
+                for (let j = 0; j < options.length; j++) {
+                    const option = options[j];
+                    option.group.set({
+                        left: visualsX + (j * optionWidth) + (optionWidth / 2),
+                        top: currentY + (rowHeight / 2),
+                        originalIndex: i * 10 + j // Unique index for each option
+                    });
+
+                    // Add circle overlay for "circle the correct answer" concept
+                    if (!isAnswerKey || (isAnswerKey && option.isCorrect)) {
+                        const circleRadius = Math.min(optionWidth, rowHeight * 0.8) * 0.6;
+                        const circle = new fabric.Circle({
+                            left: visualsX + (j * optionWidth) + (optionWidth / 2),
+                            top: currentY + (rowHeight / 2),
+                            radius: circleRadius,
+                            fill: 'transparent',
+                            stroke: isAnswerKey && option.isCorrect ? '#00ff00' : '#cccccc',
+                            strokeWidth: isAnswerKey && option.isCorrect ? 3 : 1,
+                            originX: 'center',
+                            originY: 'center',
+                            selectable: false,
+                            evented: false,
+                            isGeneratedItem: !isAnswerKey,
+                            isAnswerKeyItem: isAnswerKey
+                        });
+                        exerciseItems.push(circle);
+                    }
+
+                    exerciseItems.push(option.group);
+                }
+
+                currentY += rowHeight;
+            }
+
+            return exerciseItems;
+        }
+
+        // Helper function to create a single visual representation
+        async function createCellVisual(assignment, cellW, cellH, optionIndex, isAnswerKey) {
+            const shapePath = assignment.shape.isDefault ? `/images/prepositions/${assignment.shape.name}.png` : assignment.shape.path;
+            const shapeImg = await loadImage(shapePath);
+            const itemImg = await loadImage(assignment.item.path);
+            const prep = assignment.preposition;
+
+            shapeImg.set({ originX: 'center', originY: 'center' });
+            itemImg.set({ originX: 'center', originY: 'center' });
+
+            const baseObjectSizeForCellFit = Math.min(cellW, cellH) * 0.4;
+
+            itemImg.scaleToHeight(baseObjectSizeForCellFit);
+            shapeImg.scaleToHeight(baseObjectSizeForCellFit);
+
+            const itemsToGroup = [];
+
+            switch (prep) {
+                case 'in':
+                    shapeImg.scaleToHeight(cellH * 0.5);
+                    itemImg.scaleToHeight(shapeImg.getScaledHeight() * 0.4);
+                    itemsToGroup.push(shapeImg, itemImg);
+                    break;
+                case 'on top of':
+                    const g1 = -10;
+                    const cH1 = itemImg.getScaledHeight() + shapeImg.getScaledHeight() + g1;
+                    itemImg.set({ top: -(cH1 / 2 - itemImg.getScaledHeight() / 2) });
+                    shapeImg.set({ top: (cH1 / 2 - shapeImg.getScaledHeight() / 2) });
+                    itemsToGroup.push(shapeImg, itemImg);
+                    break;
+                case 'under':
+                    const g2 = 20;
+                    const cH2 = itemImg.getScaledHeight() + shapeImg.getScaledHeight() + g2;
+                    shapeImg.set({ top: -(cH2 / 2 - shapeImg.getScaledHeight() / 2) });
+                    itemImg.set({ top: (cH2 / 2 - itemImg.getScaledHeight() / 2) });
+                    itemsToGroup.push(itemImg, shapeImg);
+                    break;
+                case 'next to':
+                    itemImg.scaleToHeight(baseObjectSizeForCellFit);
+                    shapeImg.scaleToHeight(baseObjectSizeForCellFit);
+                    const widthI_nextto = itemImg.getScaledWidth();
+                    const widthS_nextto = shapeImg.getScaledWidth();
+                    const overlap_nextto = Math.min(widthI_nextto, widthS_nextto) * 0.3;
+                    const totalWidth_nextto = widthI_nextto + widthS_nextto - overlap_nextto;
+                    itemImg.set({ left: -totalWidth_nextto/2 + widthI_nextto/2 });
+                    shapeImg.set({ left: -totalWidth_nextto/2 + widthI_nextto - overlap_nextto + widthS_nextto/2 });
+                    itemsToGroup.push(itemImg, shapeImg);
+                    break;
+                case 'behind':
+                    itemImg.scaleToHeight(baseObjectSizeForCellFit);
+                    shapeImg.scaleToHeight(itemImg.getScaledHeight() * 0.7);
+                    const widthI_behind = itemImg.getScaledWidth();
+                    const widthS_behind = shapeImg.getScaledWidth();
+                    const offsetBehind = Math.min(widthS_behind * 0.15, 15);
+                    shapeImg.set({
+                        top: (itemImg.getScaledHeight() - shapeImg.getScaledHeight()) / 2,
+                        left: offsetBehind
+                    });
+                    itemImg.set({ left: -offsetBehind });
+                    itemsToGroup.push(itemImg, shapeImg);
+                    break;
+                case 'between':
+                    itemImg.scaleToHeight(baseObjectSizeForCellFit);
+                    shapeImg.scaleToHeight(baseObjectSizeForCellFit);
+                    const shape2 = await loadImage(shapePath);
+                    shape2.set({ originX: 'center', originY: 'center' }).scaleToHeight(baseObjectSizeForCellFit);
+                    const g4 = -30;
+                    const iW = itemImg.getScaledWidth();
+                    const sW = shapeImg.getScaledWidth();
+                    shapeImg.set({ left: -(iW / 2 + g4 + sW / 2) });
+                    itemImg.set({ left: 0 });
+                    shape2.set({ left: iW / 2 + g4 + sW / 2 });
+                    itemsToGroup.push(shapeImg, itemImg, shape2);
+                    break;
+                case 'above':
+                    const g5 = 20;
+                    const cH5 = itemImg.getScaledHeight() + shapeImg.getScaledHeight() + g5;
+                    itemImg.set({ top: -(cH5 / 2 - itemImg.getScaledHeight() / 2) });
+                    shapeImg.set({ top: (cH5 / 2 - itemImg.getScaledHeight() / 2) });
+                    itemsToGroup.push(itemImg, shapeImg);
+                    break;
+                case 'in front of':
+                    itemImg.scaleToHeight(baseObjectSizeForCellFit);
+                    shapeImg.scaleToHeight(itemImg.getScaledHeight() * 0.6);
+                    const widthI_front = itemImg.getScaledWidth();
+                    const widthS_front = shapeImg.getScaledWidth();
+                    const offsetFront = Math.min(widthS_front * 0.15, 15);
+                    shapeImg.set({
+                        top: (itemImg.getScaledHeight() - shapeImg.getScaledHeight()) / 2,
+                        left: -offsetFront
+                    });
+                    itemImg.set({ left: offsetFront });
+                    itemsToGroup.push(shapeImg, itemImg);
+                    break;
+                default:
+                    itemsToGroup.push(itemImg, shapeImg);
+                    break;
+            }
+
+            // Apply final scaling to fit in cell
+            const tempGroup = new fabric.Group(itemsToGroup, { objectCaching: false });
+            const scaleFactor = Math.min((cellW * 0.75) / tempGroup.width, (cellH * 0.75) / tempGroup.height);
+            tempGroup.scale(scaleFactor);
+            const finalGroupObjects = tempGroup.destroy().getObjects();
+
+            const visualGroup = new fabric.Group(finalGroupObjects, {
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                evented: true,
+                objectCaching: false,
+                isGeneratedItem: !isAnswerKey,
+                isAnswerKeyItem: isAnswerKey,
+                borderColor: 'var(--app-accent-primary)',
+                cornerColor: 'var(--app-accent-primary)',
+                cornerSize: 8,
+                transparentCorners: false,
+                cornerStyle: 'circle'
+            });
+
+            return { group: visualGroup, isCorrect: optionIndex === 0 };
         }
 
         function addNameDateGroup(canvasInstance) { const nameText = new fabric.Textbox(t("prepositions.name.field"), { fontSize: 16, fontFamily: 'Arial' }); const dateText = new fabric.Textbox(t("prepositions.date.field"), { left: nameText.width + 30, fontSize: 16, fontFamily: 'Arial' }); const group = new fabric.Group([nameText, dateText], { left: 50, top: 20, isNameDate: true, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 8, transparentCorners: false, cornerStyle: 'circle' }); canvasInstance.add(group); }

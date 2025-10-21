@@ -3101,13 +3101,8 @@
                     break;
             }
 
-            // Apply final scaling to fit in cell
-            // IMPORTANT: tempGroup must have same origin as final group to prevent position drift!
-            const tempGroup = new fabric.Group(itemsToGroup, {
-                objectCaching: false,
-                originX: 'center',
-                originY: 'center'
-            });
+            // Apply final scaling to fit in cell (matching fill-in mode approach)
+            const tempGroup = new fabric.Group(itemsToGroup, { objectCaching: false });
             const scaleFactor = Math.min((cellW * 0.75) / tempGroup.width, (cellH * 0.75) / tempGroup.height);
             tempGroup.scale(scaleFactor);
             const finalGroupObjects = tempGroup.destroy().getObjects();

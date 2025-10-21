@@ -2580,8 +2580,7 @@
                 }));
             }
 
-            // Check exercise mode
-            const exerciseMode = dom.exerciseModeSelect.value;
+            // Generate items based on exercise mode (already declared at top of function)
             const newItems = (exerciseMode === 'multiplechoice')
                 ? await createMultipleChoiceExercises(true)
                 : await createExerciseItems(true);

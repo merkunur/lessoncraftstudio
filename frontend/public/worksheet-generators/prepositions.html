@@ -2965,22 +2965,13 @@
                     const optionX = visualsX + (j * optionWidth) + (optionWidth / 2);
                     const visual = await createCellVisual(assignmentData, optionX, optionY, visualsWidth / 3, rowHeight * 0.8, i * 10 + j, isCorrect, isAnswerKey);
                     options.push(visual);
-
-                    // DEBUG: Log calculated vs actual positions
-                    console.log(`Exercise ${i}, Option ${j}:`, {
-                        calculated: { x: optionX, y: optionY },
-                        actual: { x: visual.group.left, y: visual.group.top },
-                        visualsX, optionWidth, j
-                    });
                 }
 
-                // Create circles at sequential positions (WITHOUT offset)
+                // Create circles at sequential positions
                 for (let j = 0; j < options.length; j++) {
                     const option = options[j];
                     const circleX = visualsX + (j * optionWidth) + (optionWidth / 2);
                     const circleY = optionY;
-
-                    console.log(`Circle ${i}-${j}:`, { circleX, circleY, groupX: option.group.left, groupY: option.group.top });
 
                     // Add circle overlay for "circle the correct answer" concept
                     if (!isAnswerKey || (isAnswerKey && option.isCorrect)) {
@@ -3111,7 +3102,12 @@
             }
 
             // Apply final scaling to fit in cell
-            const tempGroup = new fabric.Group(itemsToGroup, { objectCaching: false });
+            // IMPORTANT: tempGroup must have same origin as final group to prevent position drift!
+            const tempGroup = new fabric.Group(itemsToGroup, {
+                objectCaching: false,
+                originX: 'center',
+                originY: 'center'
+            });
             const scaleFactor = Math.min((cellW * 0.75) / tempGroup.width, (cellH * 0.75) / tempGroup.height);
             tempGroup.scale(scaleFactor);
             const finalGroupObjects = tempGroup.destroy().getObjects();

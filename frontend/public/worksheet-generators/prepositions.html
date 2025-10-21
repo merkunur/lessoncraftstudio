@@ -2960,14 +2960,19 @@
                 const optionWidth = visualsWidth / 3;
                 const optionY = currentY + (rowHeight / 2);
 
+                // Fix for first exercise: move 20px up and 80px to the right
+                const offsetX = (i === 0) ? 80 : 0;
+                const offsetY = (i === 0) ? -20 : 0;
+
                 for (let j = 0; j < options.length; j++) {
                     const option = options[j];
-                    const optionX = visualsX + (j * optionWidth) + (optionWidth / 2);
+                    const optionX = visualsX + (j * optionWidth) + (optionWidth / 2) + offsetX;
+                    const finalY = optionY + offsetY;
 
                     // Set the correct position
                     option.group.set({
                         left: optionX,
-                        top: optionY
+                        top: finalY
                     });
 
                     // Add circle overlay for "circle the correct answer" concept
@@ -2975,7 +2980,7 @@
                         const circleRadius = Math.min(optionWidth, rowHeight * 0.8) * 0.6;
                         const circle = new fabric.Circle({
                             left: optionX,
-                            top: optionY,
+                            top: finalY,
                             radius: circleRadius,
                             fill: 'transparent',
                             stroke: isAnswerKey && option.isCorrect ? '#00ff00' : '#cccccc',

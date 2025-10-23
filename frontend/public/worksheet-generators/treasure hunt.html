@@ -271,7 +271,7 @@
         #object-context-toolbar { top: 72px; }
     }
     #object-context-toolbar {
-        position: absolute; top: 12px; left: 50%; transform: translateX(-50%); background-color: var(--app-surface-light); border-radius: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.15); padding: 5px; display: flex; flex-direction: row; gap: 4px; z-index: 100; align-items: center; border: 1px solid var(--app-border-light);
+        position: absolute; top: 72px; left: 50%; transform: translateX(-50%); background-color: var(--app-surface-light); border-radius: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.15); padding: 5px; display: flex; flex-direction: row; gap: 4px; z-index: 100; align-items: center; border: 1px solid var(--app-border-light);
     }
     .toolbar-group { display: flex; gap: 2px; align-items: center; padding: 0 4px; }
     .toolbar-group + .toolbar-group { border-left: 1px solid var(--app-border-light); }
@@ -284,6 +284,245 @@
     #object-context-toolbar .dropdown-content button { width: 100%; padding: 8px 12px; font-size: 13px; border-radius: 4px; box-sizing: border-box; margin-bottom: 6px; background-color: transparent; color: var(--app-text-primary-light-theme); border: none; cursor: pointer; text-align: left; font-weight: 400; transition: background-color 0.15s ease; }
     #object-context-toolbar .dropdown-content button:last-of-type { margin-bottom: 0; }
     #object-context-toolbar .dropdown-content button:hover { background-color: rgba(0,0,0,0.05); }
+
+    /* ============================================
+       MODERN UNIFIED HEADER STYLES
+       Exact implementation from wordsearch.html lines 251-450
+       ============================================ */
+
+    .tab-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 24px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+        position: relative;
+        z-index: 15;
+        border-radius: 0;
+        margin: 0;
+        gap: 16px;
+    }
+
+    .tab-buttons-container {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .tab-button {
+        padding: 10px 24px;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        background: rgba(255, 255, 255, 0.15);
+        color: rgba(255, 255, 255, 0.8);
+        cursor: pointer;
+        border-radius: 8px;
+        transition: all 0.2s ease;
+        backdrop-filter: blur(10px);
+        position: relative;
+    }
+
+    .tab-button:hover {
+        background: rgba(255, 255, 255, 0.25);
+        color: white;
+        transform: translateY(-1px);
+    }
+
+    .tab-button.active {
+        background: rgba(255, 255, 255, 0.95);
+        color: #667eea;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Header Actions Container */
+    .header-actions {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    /* --- Zoom Controls --- */
+    .zoom-controls {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background-color: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 6px;
+        padding: 5px 10px;
+        backdrop-filter: blur(10px);
+    }
+
+    .zoom-btn {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+        padding: 6px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        color: white;
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .zoom-btn:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .zoom-btn:active {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .zoom-percentage {
+        min-width: 45px;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 600;
+        color: white;
+        user-select: none;
+    }
+
+    /* --- Undo/Redo Controls --- */
+    .history-controls {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background-color: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 6px;
+        padding: 5px 10px;
+        backdrop-filter: blur(10px);
+    }
+
+    .history-btn {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+        padding: 6px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        color: white;
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .history-btn:hover:not(:disabled) {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .history-btn:active:not(:disabled) {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .history-btn:disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+    }
+
+    /* --- Dropdown Containers --- */
+    .dropdown-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: white;
+        min-width: 200px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        border-radius: 8px;
+        z-index: 1000;
+        margin-top: 8px;
+        padding: 8px 0;
+    }
+
+    .dropdown-content.show {
+        display: block;
+    }
+
+    .dropdown-content button {
+        display: block;
+        width: 100%;
+        padding: 10px 16px;
+        border: none;
+        background: none;
+        text-align: left;
+        cursor: pointer;
+        font-size: 14px;
+        color: #333;
+        transition: background-color 0.2s;
+    }
+
+    .dropdown-content button:hover:not(:disabled) {
+        background-color: #f5f5f5;
+    }
+
+    .dropdown-content button:disabled {
+        color: #ccc;
+        cursor: not-allowed;
+    }
+
+    /* --- Action Buttons --- */
+    .action-button {
+        padding: 8px 16px;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .action-button.accent {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .action-button.accent:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    .action-button.download-btn {
+        background-color: rgba(44, 44, 46, 0.95);
+        color: white;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .action-button.download-btn:hover {
+        background-color: rgba(58, 58, 62, 0.95);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .action-button.danger {
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .action-button.danger:hover {
+        background: rgba(255, 59, 48, 0.9);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(255, 59, 48, 0.3);
+    }
   </style>
 </head>
 <body>
@@ -387,6 +626,16 @@
                 <h4 style="margin-top:20px;" data-translate="puzzle.manualSelection">Or, Select 6 Images Manually:</h4>
                 <div id="selectedImagesPreview"></div>
                  <p class="selected-count" id="selectedCountMsg">Selected: 0 / 6</p>
+
+                <h4 style="margin-top:20px;" data-translate="puzzle.directionType">Direction Type:</h4>
+                <label for="directionTypeSelect" data-translate="puzzle.directionTypeLabel">Choose direction vocabulary:</label>
+                <select id="directionTypeSelect">
+                    <option value="basic" data-translate="puzzle.basicDirections">Up/Down/Left/Right (Pre-K to 1st Grade)</option>
+                    <option value="cardinal" data-translate="puzzle.cardinalDirections">North/South/East/West (2nd Grade+)</option>
+                </select>
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="puzzle.directionTypeDescription">
+                    Basic directions are age-appropriate for pre-schoolers and 1st graders. Cardinal directions are typically introduced in 2nd grade.
+                </p>
             </div>
         </div>
 
@@ -429,10 +678,37 @@
       <div id="object-context-toolbar" style="display:none;">
           <div class="toolbar-group">
               <div class="toolbar-item">
-                  <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
+                  <button class="context-btn" id="layersBtn" data-translate-title="layers" title="Layers"><i class="fas fa-layer-group"></i></button>
                   <div class="dropdown-content" id="layersDropdown">
-                      <button id="toolbarBringForwardBtn">Bring Forward</button>
-                      <button id="toolbarSendBackwardBtn">Send Backward</button>
+                      <button id="toolbarBringToFrontBtn" data-translate="bringToFront">Bring to Front</button>
+                      <button id="toolbarBringForwardBtn" data-translate="bringForward">Bring Forward</button>
+                      <button id="toolbarSendBackwardBtn" data-translate="sendBackward">Send Backward</button>
+                      <button id="toolbarSendToBackBtn" data-translate="sendToBack">Send to Back</button>
+                  </div>
+              </div>
+          </div>
+          <div class="toolbar-group">
+              <div class="toolbar-item">
+                  <button class="context-btn" id="alignBtn" data-translate-title="align" title="Align"><i class="fas fa-th"></i></button>
+                  <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
+                      <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="alignSelected">Align Selected:</p>
+                      <div>
+                          <button class="context-btn" id="alignLeftBtn" data-translate-title="alignLeft" title="Align Left"><i class="fas fa-align-left"></i></button>
+                          <button class="context-btn" id="alignHCenterBtn" data-translate-title="centerHorizontally" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                          <button class="context-btn" id="alignRightBtn" data-translate-title="alignRight" title="Align Right"><i class="fas fa-align-right"></i></button>
+                      </div>
+                      <div style="margin-top: 5px;">
+                          <button class="context-btn" id="alignTopBtn" data-translate-title="alignTop" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                          <button class="context-btn" id="alignVCenterBtn" data-translate-title="centerVertically" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
+                          <button class="context-btn" id="alignBottomBtn" data-translate-title="alignBottom" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                      </div>
+                      <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
+                      <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="alignToPage">Align to Page:</p>
+                      <div>
+                          <button class="context-btn" id="centerHCanvasBtn" data-translate-title="centerOnPageHorizontally" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                          <button class="context-btn" id="centerVCanvasBtn" data-translate-title="centerOnPageVertically" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                          <button class="context-btn" id="centerCanvasBtn" data-translate-title="centerOnPage" title="Center on Page"><i class="fas fa-expand-arrows-alt"></i></button>
+                      </div>
                   </div>
               </div>
           </div>
@@ -441,30 +717,45 @@
           </div>
       </div>
 
-      <div class="top-right-actions">
-          <div class="dropdown-container">
-            <button id="generateDropdownBtn" class="action-button accent" data-translate="button.generate">Generate <i class="fas fa-caret-down"></i></button>
-            <div id="generateDropdownContent" class="dropdown-content">
-                <button id="generateWorksheetBtn" data-translate="button.generateWorksheet">Generate Worksheet</button>
-                <button id="generateAnswerKeyBtn" disabled data-translate="button.generateAnswer">Generate Answer Key</button>
-            </div>
-          </div>
-          <div class="dropdown-container">
-            <button id="downloadDropdownBtn" class="action-button secondary" data-translate="button.download">Download <i class="fas fa-caret-down"></i></button>
-            <div id="downloadDropdownContent" class="dropdown-content">
-                <button id="downloadWorksheetJpegBtn" data-translate="button.worksheetJpeg">Worksheet (JPEG)</button>
-                <button id="downloadAnswerKeyJpegBtn" disabled data-translate="button.answerJpeg">Answer Key (JPEG)</button>
-                <button id="downloadWorksheetPdfBtn" data-translate="button.worksheetPdf">Worksheet (PDF)</button>
-                <button id="downloadAnswerKeyPdfBtn" disabled data-translate="button.answerPdf">Answer Key (PDF)</button>
-                <label class="checkbox-label"><input type="checkbox" id="grayscaleToggle" /><span data-translate="settings.grayscale">Grayscale</span></label>
-            </div>
-          </div>
-          <button id="clearBtn" class="action-button danger" data-translate="button.clearAll">Clear All</button>
-      </div>
-
       <div class="tab-row">
-        <button class="tab-button active" data-tab="worksheetTab" data-translate="tab.worksheet">Worksheet</button>
-        <button class="tab-button" data-tab="answerKeyTab" data-translate="tab.answerKey">Answer Key</button>
+        <div class="tab-buttons-container">
+          <button class="tab-button active" data-tab="worksheetTab" data-translate="worksheet">Worksheet</button>
+          <button class="tab-button" data-tab="answerKeyTab" data-translate="answerKey">Answer Key</button>
+        </div>
+        <div class="header-actions">
+          <div class="zoom-controls">
+            <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+            <span id="zoomPercentage" class="zoom-percentage">100%</span>
+            <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+            <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+          </div>
+          <div class="history-controls">
+            <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+            <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+          </div>
+          <div class="dropdown-container">
+            <button id="generateDropdownBtn" class="action-button accent"><span data-translate="generate">Generate</span> <i class="fas fa-caret-down"></i></button>
+            <div id="generateDropdownContent" class="dropdown-content">
+              <button id="generateWorksheetBtn" data-translate="newWorksheet">New Worksheet</button>
+              <button id="generateAnswerKeyBtn" disabled data-translate="answerKey">Answer Key</button>
+            </div>
+          </div>
+          <div class="dropdown-container">
+            <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+            <div id="downloadDropdownContent" class="dropdown-content">
+              <button id="downloadWorksheetJpegBtn" data-translate="worksheetJpeg">Worksheet (JPEG)</button>
+              <button id="downloadAnswerKeyJpegBtn" disabled data-translate="answerKeyJpeg">Answer Key (JPEG)</button>
+              <hr style="margin: 6px 0; border-color: #eee;">
+              <button id="downloadWorksheetPdfBtn" data-translate="worksheetPdf">Worksheet (PDF)</button>
+              <button id="downloadAnswerKeyPdfBtn" disabled data-translate="answerKeyPdf">Answer Key (PDF)</button>
+              <hr style="margin: 6px 0; border-color: #eee;">
+              <label class="checkbox-label" id="grayscaleLabel">
+                <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
+              </label>
+            </div>
+          </div>
+          <button id="clearBtn" class="action-button danger" data-translate="clearAll">Clear All</button>
+        </div>
       </div>
       <div class="tab-content-wrapper">
         <div class="tab active" id="worksheetTab">
@@ -669,6 +960,58 @@
               no: "vestover",
               fi: "länteen"
           },
+          up: {
+              en: "up",
+              de: "nach oben",
+              fr: "vers le haut",
+              es: "arriba",
+              pt: "para cima",
+              it: "su",
+              nl: "omhoog",
+              sv: "uppåt",
+              da: "op",
+              no: "opp",
+              fi: "ylös"
+          },
+          down: {
+              en: "down",
+              de: "nach unten",
+              fr: "vers le bas",
+              es: "abajo",
+              pt: "para baixo",
+              it: "giù",
+              nl: "omlaag",
+              sv: "nedåt",
+              da: "ned",
+              no: "ned",
+              fi: "alas"
+          },
+          left: {
+              en: "left",
+              de: "nach links",
+              fr: "vers la gauche",
+              es: "a la izquierda",
+              pt: "para a esquerda",
+              it: "a sinistra",
+              nl: "naar links",
+              sv: "åt vänster",
+              da: "til venstre",
+              no: "til venstre",
+              fi: "vasemmalle"
+          },
+          right: {
+              en: "right",
+              de: "nach rechts",
+              fr: "vers la droite",
+              es: "a la derecha",
+              pt: "para a direita",
+              it: "a destra",
+              nl: "naar rechts",
+              sv: "åt höger",
+              da: "til højre",
+              no: "til høyre",
+              fi: "oikealle"
+          },
           square: {
               en: "square",
               de: "Feld",
@@ -745,6 +1088,17 @@
       let worksheetCanvas;
       let answerKeyCanvas;
       let currentCanvasConfig = { width: 612, height: 792 };
+      let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
+
+      // ============================================
+      // UNDO/REDO STATE MANAGEMENT
+      // Exact implementation from wordsearch.html
+      // ============================================
+      let historyStack = [];
+      let redoStack = [];
+      const MAX_HISTORY = 20;
+      let isRestoringState = false; // Flag to prevent saving state during restoration
+      let isGenerating = false; // Flag to prevent saving state during bulk generation
 
       // Initialize the selected count message with translation
       selectedCountMsg.textContent = formatTranslation(t('library.selectedCount'), { x: 0 });
@@ -788,10 +1142,35 @@
       const objectContextToolbar = document.getElementById('object-context-toolbar');
       const layersBtn = document.getElementById('layersBtn');
       const layersDropdown = document.getElementById('layersDropdown');
+      const alignBtn = document.getElementById('alignBtn');
+      const alignDropdown = document.getElementById('alignDropdown');
+      const toolbarBringToFrontBtn = document.getElementById('toolbarBringToFrontBtn');
       const toolbarBringForwardBtn = document.getElementById('toolbarBringForwardBtn');
       const toolbarSendBackwardBtn = document.getElementById('toolbarSendBackwardBtn');
+      const toolbarSendToBackBtn = document.getElementById('toolbarSendToBackBtn');
       const toolbarDeleteBtn = document.getElementById('toolbarDeleteBtn');
-      
+
+      // Alignment button references
+      const alignLeftBtn = document.getElementById('alignLeftBtn');
+      const alignHCenterBtn = document.getElementById('alignHCenterBtn');
+      const alignRightBtn = document.getElementById('alignRightBtn');
+      const alignTopBtn = document.getElementById('alignTopBtn');
+      const alignVCenterBtn = document.getElementById('alignVCenterBtn');
+      const alignBottomBtn = document.getElementById('alignBottomBtn');
+      const centerHCanvasBtn = document.getElementById('centerHCanvasBtn');
+      const centerVCanvasBtn = document.getElementById('centerVCanvasBtn');
+      const centerCanvasBtn = document.getElementById('centerCanvasBtn');
+
+      // Zoom controls
+      const zoomInBtn = document.getElementById('zoomInBtn');
+      const zoomOutBtn = document.getElementById('zoomOutBtn');
+      const zoomResetBtn = document.getElementById('zoomResetBtn');
+      const zoomPercentage = document.getElementById('zoomPercentage');
+
+      // Undo/Redo controls
+      const undoBtn = document.getElementById('undoBtn');
+      const redoBtn = document.getElementById('redoBtn');
+
       function getActiveCanvas() {
         const activeTab = document.querySelector('.tab.active');
         return activeTab && activeTab.id === 'answerKeyTab' ? answerKeyCanvas : worksheetCanvas;
@@ -799,22 +1178,26 @@
       
       function enforceZOrder(canvas) {
         if (!canvas) return;
-        const background = canvas.getObjects().find(o => o.isBackground);
-        if (background) canvas.sendToBack(background);
 
-        // Handle page borders (multiple objects with isPageBorder flag)
-        const borders = canvas.getObjects().filter(o => o.isPageBorder);
-        borders.forEach(border => {
-            canvas.sendToBack(border);
-            if (background) canvas.bringForward(border);
-        });
+        // REMOVED: Automatic z-order enforcement for backgrounds and borders
+        // Users should have full control over these elements
+        // const background = canvas.getObjects().find(o => o.isBackground);
+        // if (background) canvas.sendToBack(background);
+        //
+        // const border = canvas.getObjects().find(o => o.isBorder);
+        // if (border) {
+        //     canvas.sendToBack(border);
+        //     if (background) canvas.bringForward(border);
+        // }
 
-        // Legacy single border support
-        const border = canvas.getObjects().find(o => o.isBorder);
-        if (border) {
-            canvas.sendToBack(border);
-            if (background) canvas.bringForward(border);
+        // Send page border (purple border) to back - it should be behind everything
+        const pageBorder = canvas.getObjects().find(o => o.isPageBorder);
+        if (pageBorder) {
+            canvas.sendToBack(pageBorder);
         }
+
+        // Note: Header elements no longer forced to specific z-order
+        // Users can now control all element positions freely
       }
 
       function createHeaderGroup(canvas) {
@@ -1107,6 +1490,167 @@
           closeAllPopovers();
       }
 
+      // ============================================
+      // ENHANCED LAYER & ALIGNMENT FUNCTIONS
+      // Exact implementation from wordsearch.html
+      // ============================================
+
+      function bringObjectToFront() {
+          const canvas = getActiveCanvas();
+          const activeObject = canvas.getActiveObject();
+          if (activeObject) {
+              canvas.bringToFront(activeObject);
+              canvas.renderAll();
+          }
+          closeAllPopovers();
+      }
+
+      function sendObjectToBack() {
+          const canvas = getActiveCanvas();
+          const activeObject = canvas.getActiveObject();
+          if (activeObject) {
+              canvas.sendToBack(activeObject);
+              canvas.renderAll();
+          }
+          closeAllPopovers();
+      }
+
+      function alignObjects(type) {
+          const canvas = getActiveCanvas();
+          const activeObj = canvas.getActiveObject();
+          if (!activeObj) { closeAllPopovers(); return; }
+
+          if (type.includes('Canvas')) {
+              // Use actual canvas dimensions, not display dimensions
+              const actualCenterX = currentCanvasConfig.width / 2;
+              const actualCenterY = currentCanvasConfig.height / 2;
+
+              if (type === 'centerHCanvas') {
+                  activeObj.set('left', actualCenterX);
+                  if (activeObj.originX !== 'center') {
+                      activeObj.set('left', actualCenterX - (activeObj.width * activeObj.scaleX) / 2);
+                  }
+              }
+              if (type === 'centerVCanvas') {
+                  activeObj.set('top', actualCenterY);
+                  if (activeObj.originY !== 'center') {
+                      activeObj.set('top', actualCenterY - (activeObj.height * activeObj.scaleY) / 2);
+                  }
+              }
+              activeObj.setCoords();
+          } else if (activeObj.type === 'activeSelection') {
+              const group = activeObj;
+              group.forEachObject(function(obj) {
+                  switch (type) {
+                      case 'alignLeft': obj.set('left', -group.width / 2); break;
+                      case 'alignHCenter': obj.set('left', 0 - obj.getScaledWidth() / 2); break;
+                      case 'alignRight': obj.set('left', group.width / 2 - obj.getScaledWidth()); break;
+                      case 'alignTop': obj.set('top', -group.height / 2); break;
+                      case 'alignVCenter': obj.set('top', 0 - obj.getScaledHeight() / 2); break;
+                      case 'alignBottom': obj.set('top', group.height / 2 - obj.getScaledHeight()); break;
+                  }
+              });
+          }
+          canvas.renderAll();
+          closeAllPopovers();
+      }
+
+      // ============================================
+      // UNDO/REDO CORE FUNCTIONS
+      // Exact implementation from wordsearch.html
+      // ============================================
+
+      function saveCanvasState() {
+          if (isRestoringState || isGenerating) return; // Don't save during undo/redo or generation
+
+          const activeCanvas = getActiveCanvas();
+          if (!activeCanvas) return;
+
+          const state = {
+              canvasJSON: activeCanvas.toJSON(['isGeneratedItem', 'isAnswerKeyItem', 'isPageBorder', 'isHeaderDesc', 'isHeaderElement', 'isBorder', 'isBackground', 'originalIndex']),
+              canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+              timestamp: Date.now()
+          };
+
+          historyStack.push(state);
+          if (historyStack.length > MAX_HISTORY) {
+              historyStack.shift(); // Remove oldest state
+          }
+
+          redoStack = []; // Clear redo stack on new action
+          updateHistoryButtons();
+      }
+
+      function undo() {
+          if (historyStack.length === 0) return;
+
+          const activeCanvas = getActiveCanvas();
+          if (!activeCanvas) return;
+
+          // Save current state to redo stack before undoing
+          const currentState = {
+              canvasJSON: activeCanvas.toJSON(['isGeneratedItem', 'isAnswerKeyItem', 'isPageBorder', 'isHeaderDesc', 'isHeaderElement', 'isBorder', 'isBackground', 'originalIndex']),
+              canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+              timestamp: Date.now()
+          };
+          redoStack.push(currentState);
+
+          // Restore previous state
+          const previousState = historyStack.pop();
+          restoreCanvasState(previousState);
+
+          updateHistoryButtons();
+          showMessage(t('undoAction') || 'Undo', 'info');
+      }
+
+      function redo() {
+          if (redoStack.length === 0) return;
+
+          const activeCanvas = getActiveCanvas();
+          if (!activeCanvas) return;
+
+          // Save current state to history stack
+          const currentState = {
+              canvasJSON: activeCanvas.toJSON(['isGeneratedItem', 'isAnswerKeyItem', 'isPageBorder', 'isHeaderDesc', 'isHeaderElement', 'isBorder', 'isBackground', 'originalIndex']),
+              canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+              timestamp: Date.now()
+          };
+          historyStack.push(currentState);
+
+          // Restore next state
+          const nextState = redoStack.pop();
+          restoreCanvasState(nextState);
+
+          updateHistoryButtons();
+          showMessage(t('redoAction') || 'Redo', 'info');
+      }
+
+      function restoreCanvasState(state) {
+          if (!state) return;
+
+          isRestoringState = true; // Prevent saving during restoration
+
+          const targetCanvas = state.canvasType === 'worksheet' ? worksheetCanvas : answerKeyCanvas;
+          if (!targetCanvas) {
+              isRestoringState = false;
+              return;
+          }
+
+          targetCanvas.loadFromJSON(state.canvasJSON, function() {
+              targetCanvas.renderAll();
+              isRestoringState = false;
+          });
+      }
+
+      function updateHistoryButtons() {
+          if (undoBtn) {
+              undoBtn.disabled = historyStack.length === 0;
+          }
+          if (redoBtn) {
+              redoBtn.disabled = redoStack.length === 0;
+          }
+      }
+
       function initializeCanvas(canvasEl) {
           return new fabric.Canvas(canvasEl, {
               backgroundColor: '#fff',
@@ -1136,8 +1680,10 @@
           
           // Ensure it fits in available space
           const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
-          const displayWidth = scaledWidth * scaleRatio;
-          const displayHeight = scaledHeight * scaleRatio;
+
+          // Apply user zoom level to the display dimensions
+          const displayWidth = scaledWidth * scaleRatio * userZoomLevel;
+          const displayHeight = scaledHeight * scaleRatio * userZoomLevel;
           
           [worksheetCanvas, answerKeyCanvas].forEach(c => {
               if (c) {
@@ -1161,7 +1707,39 @@
           pageWidthInput.value = width;
           pageHeightInput.value = height;
       }
-      
+
+      // ============================================
+      // ZOOM FUNCTIONALITY
+      // Exact implementation from wordsearch.html lines 1745-1767
+      // ============================================
+
+      function zoomIn() {
+          // Increase zoom by 25%, max 300%
+          userZoomLevel = Math.min(userZoomLevel + 0.25, 3.0);
+          updateZoomDisplay();
+          updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+      }
+
+      function zoomOut() {
+          // Decrease zoom by 25%, min 25%
+          userZoomLevel = Math.max(userZoomLevel - 0.25, 0.25);
+          updateZoomDisplay();
+          updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+      }
+
+      function zoomReset() {
+          // Reset to 100%
+          userZoomLevel = 1.0;
+          updateZoomDisplay();
+          updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+      }
+
+      function updateZoomDisplay() {
+          if (zoomPercentage) {
+              zoomPercentage.textContent = Math.round(userZoomLevel * 100) + '%';
+          }
+      }
+
       pageSizeSelect.addEventListener('change', async function() {
           if (this.value === 'custom') {
               customPageSizeInputsDiv.style.display = 'block';
@@ -1260,11 +1838,14 @@
 
       function handleObjectSelection(e, canvas) {
           const activeObject = e.target || canvas.getActiveObject();
+
+          // Always show contextual toolbar when an object is selected (matches wordsearch behavior)
+          objectContextToolbar.style.display = 'flex';
+
+          if (!activeObject) return;
+
           const isEditableText = activeObject && activeObject.type === 'textbox' && !activeObject.isGeneratedItem && !activeObject.isAnswerKeyItem && !activeObject.isBorder && !activeObject.isBackground;
-          const isMovable = activeObject && !activeObject.isBorder && !activeObject.isBackground;
-          
-          objectContextToolbar.style.display = isMovable ? 'flex' : 'none';
-          
+
           textColorInput.disabled = !isEditableText;
           fontSizeInput.disabled = !isEditableText;
           fontFamilySelect.disabled = !isEditableText;
@@ -1275,8 +1856,6 @@
               textColorInput.value = activeObject.fill || '#333333';
               fontSizeInput.value = activeObject.fontSize || 48;
               fontFamilySelect.value = activeObject.fontFamily || 'Fredoka';
-          } else {
-              handleSelectionCleared(null, canvas);
           }
       }
 
@@ -1291,6 +1870,21 @@
       
       function setupCanvasEventListeners(canvas) {
         canvas.on({
+            'mouse:down': function(e) {
+                // Save state before any modification
+                if (e.target) saveCanvasState();
+            },
+            'object:added': function(e) {
+                // Only save state for user-added objects, not during bulk operations
+                if (!isRestoringState && !isGenerating) {
+                    setTimeout(() => saveCanvasState(), 100);
+                }
+            },
+            'object:removed': function(e) {
+                if (!isRestoringState && !isGenerating) {
+                    setTimeout(() => saveCanvasState(), 100);
+                }
+            },
             'selection:created': function(e) { handleObjectSelection(e, this); },
             'selection:updated': function(e) { handleObjectSelection(e, this); },
             'selection:cleared': function(e) { handleSelectionCleared(e, this); }
@@ -1501,12 +2095,36 @@
         }
         if (imagesForPuzzle.length === 0) return null;
         
+        // Improved scattering algorithm - avoid adjacent duplicates
         const gridMap = [];
         for (let r = 0; r < 5; r++) {
             gridMap[r] = [];
             for (let c = 0; c < 5; c++) {
-                const randIndex = Math.floor(Math.random() * imagesForPuzzle.length);
-                gridMap[r][c] = imagesForPuzzle[randIndex];
+                let selectedImage;
+                let attempts = 0;
+                const maxAttempts = 50; // Prevent infinite loops
+
+                do {
+                    const randIndex = Math.floor(Math.random() * imagesForPuzzle.length);
+                    selectedImage = imagesForPuzzle[randIndex];
+                    attempts++;
+
+                    // Check if different from left neighbor
+                    const leftOk = (c === 0 || gridMap[r][c - 1] !== selectedImage);
+                    // Check if different from top neighbor
+                    const topOk = (r === 0 || gridMap[r - 1][c] !== selectedImage);
+
+                    if (leftOk && topOk) {
+                        break; // Found a good image
+                    }
+
+                    // If we've tried many times and have enough variety, accept it
+                    if (attempts >= maxAttempts) {
+                        break;
+                    }
+                } while (attempts < maxAttempts);
+
+                gridMap[r][c] = selectedImage;
             }
         }
 
@@ -1542,39 +2160,25 @@
         // Check if dimensions changed
         const dimensionsChanged = canvas._dimensionsChanged || false;
 
-        // Only preserve transforms if dimensions haven't changed (same layout)
-        const oldTransforms = {};
-        if (!dimensionsChanged) {
-            canvas.getObjects().forEach(o => {
-                if (o.isGeneratedItem && o.originalIndex !== undefined) {
-                    oldTransforms[o.originalIndex] = { left: o.left, top: o.top, scaleX: o.scaleX, scaleY: o.scaleY, angle: o.angle };
-                }
-            });
-        }
-
+        // No transform preservation - each generation should be completely fresh
         const userAddedObjects = canvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
 
         const oldGeneratedItems = canvas.getObjects().filter(o => o.isGeneratedItem);
         oldGeneratedItems.forEach(o => canvas.remove(o));
 
-        // When dimensions change, remove old headers/borders so they can be recreated with new dimensions
-        if (dimensionsChanged) {
-            const oldHeadersAndBorders = canvas.getObjects().filter(o =>
-                o.isPageBorder || o.isHeaderDesc || o.isHeaderElement
-            );
-            oldHeadersAndBorders.forEach(o => canvas.remove(o));
-        }
+        // Always remove old headers/borders so they can be recreated with default z-order
+        const oldHeadersAndBorders = canvas.getObjects().filter(o =>
+            o.isPageBorder || o.isHeaderDesc || o.isHeaderElement
+        );
+        oldHeadersAndBorders.forEach(o => canvas.remove(o));
 
         // Clear the flag after checking
         canvas._dimensionsChanged = false;
 
-        // Create and add header with borders (always recreate if they were removed)
-        const existingHeaderObjects = canvas.getObjects().filter(o => o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
-        if (existingHeaderObjects.length === 0) {
-            const headerObjects = createHeaderGroup(canvas);
-            if (headerObjects && headerObjects.length > 0) {
-                headerObjects.forEach(obj => canvas.add(obj));
-            }
+        // Always recreate headers with default z-order
+        const headerObjects = createHeaderGroup(canvas);
+        if (headerObjects && headerObjects.length > 0) {
+            headerObjects.forEach(obj => canvas.add(obj));
         }
 
         // Responsive header height
@@ -1610,9 +2214,7 @@
 
             // Scale grid to fit right side
             const gridScale = Math.min(gridWidth / puzzleGroup.getScaledWidth(), adjustedContentHeight / puzzleGroup.getScaledHeight(), 1);
-            if (!oldTransforms[0]) {
-                puzzleGroup.scale(gridScale);
-            }
+            puzzleGroup.scale(gridScale);
 
             // Position clues on left
             const cluesLeft = marginLeft + 20; // Move 20px to the right
@@ -1654,12 +2256,12 @@
             const totalHeight = puzzleGroup.getScaledHeight() + instructionsText.getScaledHeight() + 20;
             const scaleToFit = Math.min(contentWidth / totalWidth, adjustedContentHeight / totalHeight);
 
-            if (!oldTransforms[0] && scaleToFit < 1) {
+            if (scaleToFit < 1) {
                 generatedItems.forEach(item => item.scale(scaleToFit));
             }
 
             // Position elements vertically centered
-            const padding = 20 * (scaleToFit < 1 && !oldTransforms[0] ? scaleToFit : 1);
+            const padding = 20 * (scaleToFit < 1 ? scaleToFit : 1);
             const totalContentHeight = puzzleGroup.getScaledHeight() + instructionsText.getScaledHeight() + padding;
             const startY = adjustedMarginTop + (adjustedContentHeight - totalContentHeight) / 2 - 50;
 
@@ -1678,10 +2280,15 @@
             });
         }
         
+        // Sort items by originalIndex to ensure consistent default z-order
+        generatedItems.sort((a, b) => {
+            const aIdx = typeof a.originalIndex === 'number' ? a.originalIndex : 999;
+            const bIdx = typeof b.originalIndex === 'number' ? b.originalIndex : 999;
+            return aIdx - bIdx;
+        });
+
+        // Add items in default z-order - no transform restoration
         generatedItems.forEach(item => {
-            if (oldTransforms[item.originalIndex]) {
-                item.set(oldTransforms[item.originalIndex]);
-            }
             canvas.add(item);
         });
 
@@ -1700,17 +2307,7 @@
         // Check if dimensions changed
         const dimensionsChanged = canvas._dimensionsChanged || false;
 
-        // Only preserve transforms if dimensions haven't changed (same layout)
-        const oldTransforms = {};
-        if (!dimensionsChanged) {
-            canvas.getObjects().forEach(o => {
-                if (o.isAnswerKeyItem) {
-                    oldTransforms[o.originalIndex] = { left: o.left, top: o.top, scaleX: o.scaleX, scaleY: o.scaleY, angle: o.angle };
-                }
-            });
-        }
-
-        // Clear the flag after checking
+        // No transform preservation - each generation should be completely fresh
         canvas._dimensionsChanged = false;
         const userAddedObjects = canvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc);
 
@@ -1769,30 +2366,25 @@
         const puzzleGroup = await createPuzzleGridGroup(gridMap, finalPos);
         puzzleGroup.set({ isAnswerKeyItem: true, originX: 'center', originY: 'center', originalIndex: 0 });
 
-        if (!oldTransforms[0]) { // Only auto-scale if not previously positioned
-             const scaleToFit = Math.min(contentWidth / puzzleGroup.getScaledWidth(), adjustedContentHeight / puzzleGroup.getScaledHeight());
-             if (scaleToFit < 1) puzzleGroup.scale(scaleToFit);
-        }
+        // Auto-scale to fit content area
+        const scaleToFit = Math.min(contentWidth / puzzleGroup.getScaledWidth(), adjustedContentHeight / puzzleGroup.getScaledHeight());
+        if (scaleToFit < 1) puzzleGroup.scale(scaleToFit);
 
         canvas.add(puzzleGroup);
 
-        if (oldTransforms[0]) {
-            puzzleGroup.set(oldTransforms[0]);
+        // Center within content area accounting for header
+        if (isLandscape) {
+            // Landscape answer key: 20px right - 20px left = 0px (centered), 55px up + 15px down = 40px up
+            puzzleGroup.set({
+                left: pageWidth / 2,
+                top: adjustedMarginTop + (adjustedContentHeight / 2) - 40
+            });
         } else {
-            // Center within content area accounting for header
-            if (isLandscape) {
-                // Landscape answer key: 20px right - 20px left = 0px (centered), 55px up + 15px down = 40px up
-                puzzleGroup.set({
-                    left: pageWidth / 2,
-                    top: adjustedMarginTop + (adjustedContentHeight / 2) - 40
-                });
-            } else {
-                // Portrait answer key: move 20px up
-                puzzleGroup.set({
-                    left: pageWidth / 2,
-                    top: adjustedMarginTop + (adjustedContentHeight / 2) - 20
-                });
-            }
+            // Portrait answer key: move 20px up
+            puzzleGroup.set({
+                left: pageWidth / 2,
+                top: adjustedMarginTop + (adjustedContentHeight / 2) - 20
+            });
         }
         puzzleGroup.setCoords();
 
@@ -1881,7 +2473,11 @@
       return [...arr].sort(() => 0.5 - Math.random()).slice(0, num);
     }
     function generateValidMoves(n, start) {
-      const dirs = ['north','south','east','west']; let pos = { ...start }; const moves = [];
+      // Get direction type from dropdown (cardinal = north/south/east/west, basic = up/down/left/right)
+      const directionType = document.getElementById('directionTypeSelect').value || 'basic';
+      const dirs = directionType === 'cardinal' ? ['north','south','east','west'] : ['up','down','left','right'];
+
+      let pos = { ...start }; const moves = [];
       for (let i = 0; i < n; i++) {
         for (let j = 0; j < 20; j++) {
           const dir = dirs[Math.floor(Math.random()*4)]; const steps = Math.floor(Math.random()*3)+1;
@@ -1915,7 +2511,14 @@
       while(lines.length<5) lines.push('...'); 
       return lines.slice(0,5);
     }
-    function applyMove(p, d, s) { if(d==='north')p.row-=s; if(d==='south')p.row+=s; if(d==='west')p.col-=s; if(d==='east')p.col+=s; return p; }
+    function applyMove(p, d, s) {
+      // Handle cardinal directions (north/south/east/west)
+      if(d==='north' || d==='up')p.row-=s;
+      if(d==='south' || d==='down')p.row+=s;
+      if(d==='west' || d==='left')p.col-=s;
+      if(d==='east' || d==='right')p.col+=s;
+      return p;
+    }
     function applyMoves(p, m) { m.forEach(move => p = applyMove(p, move.dir, move.steps)); return p; }
 
     async function getCanvasDataURL(canvasInstance, forPDF = false) {
@@ -2010,7 +2613,13 @@
         showMessage(t('message.preparingJpeg'), 'info', 0);
         try {
             const pngDataURL = await getCanvasDataURL(canvasInstance);
-            const jpegDataURL = await convertToJPEG(pngDataURL);
+            let jpegDataURL = await convertToJPEG(pngDataURL);
+
+            // Apply grayscale if checkbox is checked
+            if (grayscaleToggle && grayscaleToggle.checked) {
+                jpegDataURL = await applyGrayscaleToDataURL(jpegDataURL, 'image/jpeg', 1.0);
+            }
+
             const link = document.createElement('a');
             link.download = fileName;
             link.href = jpegDataURL;
@@ -2031,18 +2640,23 @@
         try {
             const { jsPDF } = window.jspdf;
             const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
-            const pdf = new jsPDF({ 
-                orientation, 
-                unit: 'pt', 
+            const pdf = new jsPDF({
+                orientation,
+                unit: 'pt',
                 format: [currentCanvasConfig.width, currentCanvasConfig.height],
                 compress: true // Enable PDF compression
             });
-            
+
             // Get optimized data for PDF (3x multiplier instead of 6x)
             const pngDataURL = await getCanvasDataURL(canvasInstance, true);
             // Convert to JPEG for smaller PDF size
-            const jpegDataURL = await convertToJPEG(pngDataURL);
-            
+            let jpegDataURL = await convertToJPEG(pngDataURL);
+
+            // Apply grayscale if checkbox is checked
+            if (grayscaleToggle && grayscaleToggle.checked) {
+                jpegDataURL = await applyGrayscaleToDataURL(jpegDataURL, 'image/jpeg', 1.0);
+            }
+
             // Add as JPEG which is much smaller in PDFs than PNG
             pdf.addImage(jpegDataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
             pdf.save(fileName);
@@ -2227,9 +2841,12 @@
       generateWorksheetBtn.addEventListener("click", async () => {
         // Always generate new puzzle data on every click to ensure a new worksheet.
         lastGeneratedData = await generatePuzzleData();
-        
+
         if(lastGeneratedData) {
+            isGenerating = true; // Prevent undo/redo from saving during generation
             await renderWorksheet();
+            isGenerating = false;
+            setTimeout(() => saveCanvasState(), 100); // Save state after generation
             generateAnswerKeyBtn.disabled = false;
             showMessage(t('message.worksheetGenerated'), 'success');
         }
@@ -2237,7 +2854,10 @@
       });
       
       generateAnswerKeyBtn.addEventListener("click", async () => {
+        isGenerating = true; // Prevent undo/redo from saving during generation
         await renderAnswerKey();
+        isGenerating = false;
+        setTimeout(() => saveCanvasState(), 100); // Save state after generation
         downloadAnswerKeyJpegBtn.disabled = false;
         downloadAnswerKeyPdfBtn.disabled = false;
         document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
@@ -2245,10 +2865,50 @@
         if (generateDropdownContent) generateDropdownContent.style.display = 'none';
       });
       
+      // Contextual toolbar event listeners
       layersBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(layersDropdown); });
+      alignBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(alignDropdown); });
+
+      // Layer control event listeners
+      toolbarBringToFrontBtn.addEventListener('click', bringObjectToFront);
       toolbarBringForwardBtn.addEventListener('click', bringObjectForward);
       toolbarSendBackwardBtn.addEventListener('click', sendObjectBackward);
+      toolbarSendToBackBtn.addEventListener('click', sendObjectToBack);
       toolbarDeleteBtn.addEventListener('click', deleteSelectedObjects);
+
+      // Alignment event listeners
+      alignLeftBtn.addEventListener('click', () => alignObjects('alignLeft'));
+      alignHCenterBtn.addEventListener('click', () => alignObjects('alignHCenter'));
+      alignRightBtn.addEventListener('click', () => alignObjects('alignRight'));
+      alignTopBtn.addEventListener('click', () => alignObjects('alignTop'));
+      alignVCenterBtn.addEventListener('click', () => alignObjects('alignVCenter'));
+      alignBottomBtn.addEventListener('click', () => alignObjects('alignBottom'));
+      centerHCanvasBtn.addEventListener('click', () => alignObjects('centerHCanvas'));
+      centerVCanvasBtn.addEventListener('click', () => alignObjects('centerVCanvas'));
+      centerCanvasBtn.addEventListener('click', () => { alignObjects('centerHCanvas'); alignObjects('centerVCanvas'); });
+
+      // Zoom event listeners
+      zoomInBtn.addEventListener('click', zoomIn);
+      zoomOutBtn.addEventListener('click', zoomOut);
+      zoomResetBtn.addEventListener('click', zoomReset);
+
+      // Undo/Redo event listeners
+      if (undoBtn) undoBtn.addEventListener('click', undo);
+      if (redoBtn) redoBtn.addEventListener('click', redo);
+
+      // Keyboard shortcuts for undo/redo
+      document.addEventListener('keydown', function(e) {
+          // Undo: Ctrl+Z (Windows/Linux) or Cmd+Z (Mac)
+          if ((e.ctrlKey || e.metaKey) && e.key === 'z' && !e.shiftKey) {
+              e.preventDefault();
+              undo();
+          }
+          // Redo: Ctrl+Y (Windows/Linux) or Cmd+Shift+Z (Mac)
+          if ((e.ctrlKey || e.metaKey) && (e.key === 'y' || (e.key === 'z' && e.shiftKey))) {
+              e.preventDefault();
+              redo();
+          }
+      });
 
       downloadWorksheetJpegBtn.addEventListener("click", () => downloadCanvasAsJpeg(worksheetCanvas, 'worksheet.jpeg'));
       downloadAnswerKeyJpegBtn.addEventListener("click", () => downloadCanvasAsJpeg(answerKeyCanvas, 'answer_key.jpeg'));

@@ -67,27 +67,29 @@ export function Navigation() {
   return (
     <nav className="bg-gray-50 border-b border-gray-200">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between" style={{ height: '120px' }}>
+        <div className="flex items-center justify-between" style={{ height: '160px' }}>
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center space-x-4 h-full">
             {/* Display LCS logo - scaled to show complete logo */}
             <div
               className="flex items-center justify-center"
               style={{
-                height: '70px',
+                height: '140px',
                 width: 'auto',
-                maxWidth: '100px'
+                maxWidth: '200px'
               }}
             >
               <img
                 src={logoImage}
                 alt={logoText}
                 style={{
-                  maxHeight: '70px',
-                  maxWidth: '100px',
+                  maxHeight: '140px',
+                  maxWidth: '200px',
                   width: 'auto',
                   height: 'auto',
-                  objectFit: 'contain'
+                  objectFit: 'contain',
+                  mixBlendMode: 'multiply',
+                  backgroundColor: 'transparent'
                 }}
                 onError={(e) => {
                   // Fallback if image fails to load

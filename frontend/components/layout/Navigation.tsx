@@ -67,7 +67,7 @@ export function Navigation() {
   const logoText = navContent?.logo?.text || 'LessonCraftStudio';
 
   return (
-    <nav className="bg-gray-50 border-b border-gray-200">
+    <nav className="bg-white border-b border-gray-200">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-[60px] md:h-[140px]">
           {/* Logo */}
@@ -79,7 +79,7 @@ export function Navigation() {
                 alt={logoText}
                 className="max-h-[84px] md:max-h-[189px] max-w-[135px] md:max-w-[303px] w-auto h-auto object-contain relative -z-10"
                 style={{
-                  backgroundColor: '#f9fafb',
+                  backgroundColor: '#ffffff',
                   clipPath: 'inset(20% 20% 20% 20%)'
                 }}
                 onError={(e) => {

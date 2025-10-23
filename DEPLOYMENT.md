@@ -8,41 +8,59 @@
 
 ### 🔴 THE GOLDEN RULE - ABSOLUTELY NO EXCEPTIONS 🔴
 
-**WHEN DEPLOYING OR MODIFYING ANY WORKSHEET GENERATOR APP:**
+**WHEN DEPLOYING OR MODIFYING ANY WORKSHEET GENERATOR OR CONTENT MANAGER:**
 
 ```
-╔═══════════════════════════════════════════════════════════════╗
-║                                                               ║
-║   ✋ STOP! BEFORE YOU DEPLOY ANY APP, READ THIS! ✋           ║
-║                                                               ║
-║   ✅ ALWAYS USE: REFERENCE APPS folder                        ║
-║      Location: C:\Users\rkgen\lessoncraftstudio\REFERENCE APPS\  ║
-║                                                               ║
-║   ❌ NEVER USE: Random local files like:                      ║
-║      • pattern-train-current.html                            ║
-║      • addition-production.html                              ║
-║      • wordsearch-deployed.html                              ║
-║      • sudoku-current.html                                   ║
-║      • ANY file NOT in REFERENCE APPS folder                 ║
-║                                                               ║
-║   ⚠️  WARNING: Using wrong files WILL BREAK PRODUCTION!      ║
-║                                                               ║
-╚═══════════════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║   ✋ STOP! BEFORE YOU DEPLOY ANY APP, READ THIS! ✋              ║
+║                                                                  ║
+║   ✅ WORKSHEET GENERATORS - Use REFERENCE APPS folder:           ║
+║      C:\Users\rkgen\lessoncraftstudio\REFERENCE APPS\           ║
+║                                                                  ║
+║   ✅ CONTENT MANAGERS - Use REFERENCE CONTENT MANAGERS folder:   ║
+║      C:\Users\rkgen\lessoncraftstudio\REFERENCE CONTENT MANAGERS\║
+║                                                                  ║
+║   ❌ NEVER USE: Random local files like:                         ║
+║      • pattern-train-current.html                               ║
+║      • addition-production.html                                 ║
+║      • homepage-content-manager-v2.html                         ║
+║      • blog-content-manager-old.html                            ║
+║      • ANY file NOT in REFERENCE folders                        ║
+║                                                                  ║
+║   ⚠️  WARNING: Using wrong files WILL BREAK PRODUCTION!         ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
 ```
 
 ### 📋 WHY THIS MATTERS
 
-The project directory contains **HUNDREDS** of old, broken, test, and outdated versions of apps with names like:
+The project directory contains **HUNDREDS** of old, broken, test, and outdated versions with names like:
+
+**Worksheet Generators:**
 - `pattern-train-current.html` ❌ (could be 3 months old)
 - `addition-production.html` ❌ (might be a broken test version)
 - `wordsearch-deployed.html` ❌ (could be from last year)
 - `sudoku-fix-attempt-v5.html` ❌ (experimental, broken)
 
+**Content Managers:**
+- `homepage-content-manager-v2.html` ❌ (old version)
+- `blog-content-manager-old.html` ❌ (outdated)
+- `content-manager-v2.html` ❌ (broken test version)
+
 **THESE ARE NOT THE PRODUCTION VERSIONS!**
 
-The **REFERENCE APPS** folder contains the ACTUAL, LIVE, PRODUCTION versions downloaded directly from:
+The **REFERENCE APPS** folder contains worksheet generators downloaded from:
 ```
 https://www.lessoncraftstudio.com/worksheet-generators/
+```
+
+The **REFERENCE CONTENT MANAGERS** folder contains content managers downloaded from:
+```
+https://www.lessoncraftstudio.com/admin/user-control
+https://www.lessoncraftstudio.com/worksheet-generators/content-manager-v2.html
+https://www.lessoncraftstudio.com/homepage-content-manager.html
+https://www.lessoncraftstudio.com/worksheet-generators/blog-content-manager.html
 ```
 
 These are the GOLDEN, AUTHORITATIVE, CURRENT versions that users see on the live website.
@@ -171,6 +189,100 @@ cd "C:\Users\rkgen\lessoncraftstudio\REFERENCE APPS"
 curl -s -o "wordsearch.html" "https://www.lessoncraftstudio.com/worksheet-generators/wordsearch.html?tier=full&locale=en"
 ```
 
+---
+
+## 🔴🔴🔴 MANDATORY: UPDATING REFERENCE APPS AFTER MODIFICATIONS 🔴🔴🔴
+
+### ⛔ OBLIGATORY WORKFLOW - THIS IS NOT OPTIONAL ⛔
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║   🚨 CRITICAL: AFTER EVERY WORKSHEET/CONTENT MANAGER             ║
+║      MODIFICATION, YOU **MUST** UPDATE REFERENCE FOLDERS! 🚨     ║
+║                                                                  ║
+║   THIS IS AN OBLIGATORY PART OF THE DEPLOYMENT TASK!            ║
+║   IT IS NOT AN OPTIONAL FINAL STEP!                             ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+### 📋 THE COMPLETE MANDATORY WORKFLOW
+
+**EVERY time you modify a worksheet generator or content manager, follow this COMPLETE workflow:**
+
+```
+1. Start with REFERENCE folder file
+   ↓
+2. Make modifications
+   ↓
+3. Upload to production
+   ↓
+4. Copy to standalone & restart
+   ↓
+5. ✅ **IMMEDIATELY** update REFERENCE folder with modified version
+   ↓
+6. Deployment is NOW complete (not before step 5!)
+```
+
+### 🔴 WHY THIS IS MANDATORY
+
+**If you skip step 5 (updating REFERENCE folders), you will:**
+- ❌ Lose your modifications on next deployment
+- ❌ Have outdated files in REFERENCE folders
+- ❌ Deploy old versions and break production
+- ❌ Create confusion about which version is current
+- ❌ Waste hours re-doing work that was lost
+
+**REFERENCE folders must ALWAYS contain the most current production versions.**
+
+### ✅ HOW TO UPDATE REFERENCE APPS (Step 5 - MANDATORY!)
+
+**After deploying a worksheet generator modification:**
+
+```bash
+# Copy the modified file to REFERENCE APPS folder
+copy "C:\Users\rkgen\lessoncraftstudio\wordsearch-MODIFIED.html" "C:\Users\rkgen\lessoncraftstudio\REFERENCE APPS\wordsearch.html"
+```
+
+**After deploying a content manager modification:**
+
+```bash
+# Copy the modified file to REFERENCE CONTENT MANAGERS folder
+copy "C:\Users\rkgen\lessoncraftstudio\homepage-content-manager-MODIFIED.html" "C:\Users\rkgen\lessoncraftstudio\REFERENCE CONTENT MANAGERS\homepage-content-manager.html"
+```
+
+### 📝 DEPLOYMENT CHECKLIST - ALL STEPS REQUIRED
+
+When modifying worksheet generators or content managers, you MUST complete ALL these steps:
+
+- [ ] 1. Start with file from REFERENCE folder
+- [ ] 2. Make modifications to a working copy
+- [ ] 3. Upload to production server
+- [ ] 4. Copy to standalone and restart PM2
+- [ ] 5. **MANDATORY: Update REFERENCE folder with modified version**
+- [ ] 6. Verify REFERENCE folder now has the updated file
+
+**Steps 1-6 are ALL REQUIRED. The task is NOT complete until step 6 is done.**
+
+### 🚨 CRITICAL REMINDER
+
+```
+╔══════════════════════════════════════════════════════════════════╗
+║                                                                  ║
+║   When you see "DEPLOYMENT.md" referenced:                      ║
+║                                                                  ║
+║   ✅ Updating REFERENCE folders is OBLIGATORY                    ║
+║   ✅ It is a MANDATORY part of every modification task          ║
+║   ✅ The deployment is NOT complete without it                  ║
+║   ✅ This is NOT an "optional final step"                       ║
+║   ✅ This IS a "required step in the workflow"                  ║
+║                                                                  ║
+╚══════════════════════════════════════════════════════════════════╝
+```
+
+---
+
 ### ⚠️ FINAL WARNING
 
 **DEPLOYING THE WRONG VERSION CAUSES:**
@@ -189,31 +301,83 @@ curl -s -o "wordsearch.html" "https://www.lessoncraftstudio.com/worksheet-genera
 
 ---
 
-## ⚠️ CRITICAL: Next.js Standalone Mode - Static Files Issue
+## ⚠️ CRITICAL: Deployment Workflows
 
-**READ THIS SECOND** - Failure to follow this will result in website having NO CSS/JavaScript!
+**READ THIS SECOND** - Different types of changes require different deployment commands!
 
-### The Problem
+### IMPORTANT: Worksheet Generators Are No Longer in Git
 
-Next.js standalone mode (`output: 'standalone'`) does NOT automatically copy static files after building.
+**As of commit f9e10bb (2025-10-23)**, worksheet generators (*.html files in public/worksheet-generators/) are **NO LONGER TRACKED BY GIT**. They are treated as static assets/content, not source code.
 
-When you run `npm run build`, Next.js creates `.next/standalone/` but:
-- ❌ Does NOT copy `.next/static` → `.next/standalone/.next/static` (CSS, JS, fonts)
-- ❌ Does NOT copy `public` → `.next/standalone/public` (images, HTML files)
+**Why?** Worksheet generators are large files (150-280KB) that change independently of code releases. Having them in git caused repeated production overwrites. See ROOT_CAUSE_ANALYSIS.md for details.
 
-PM2 runs from `.next/standalone/server.js`, so if these files aren't copied, **the website will have no styling or JavaScript!**
+---
 
-### The Solution
+## Deployment Scenarios
 
-**ALWAYS use the complete deployment command:**
+### Scenario 1: Next.js Code Changes (Components, Pages, Navigation, etc.)
+
+**Use this when:** Changing TypeScript/JavaScript code in `frontend/components/`, `frontend/app/`, etc.
 
 ```bash
-# CORRECT - Full deployment with static files
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && cp -r public .next/standalone/public && pm2 restart lessoncraftstudio"
-
-# WRONG - Missing static file copies - WILL BREAK WEBSITE!
-"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build"
+# CORRECT - Deploy code changes only (DO NOT copy worksheet-generators!)
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
 ```
+
+**Note:** We do NOT copy `public/worksheet-generators/` because:
+- Worksheet generators are not in git (added to .gitignore)
+- Production versions live in REFERENCE APPS folder
+- Copying them would use old/missing versions from git
+
+### Scenario 2: Worksheet Generator Updates
+
+**Use this when:** Updating any worksheet generator app (addition.html, wordsearch.html, etc.)
+
+**ALWAYS use REFERENCE APPS folder as source:**
+
+```bash
+# Upload specific worksheet generator from REFERENCE APPS
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE APPS\addition.html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/addition.html"
+
+# Copy to standalone and restart
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/addition.html' '.next/standalone/public/worksheet-generators/addition.html' && pm2 restart lessoncraftstudio"
+```
+
+### Scenario 3: Content Manager Updates
+
+**Use this when:** Updating any content manager (homepage-content-manager.html, blog-content-manager.html, etc.)
+
+**ALWAYS use REFERENCE CONTENT MANAGERS folder as source:**
+
+```bash
+# Upload specific content manager from REFERENCE CONTENT MANAGERS
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE CONTENT MANAGERS\homepage-content-manager.html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/homepage-content-manager.html"
+
+# Copy to standalone and restart
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/homepage-content-manager.html' '.next/standalone/public/homepage-content-manager.html' && pm2 restart lessoncraftstudio"
+```
+
+**For worksheet-generators content managers:**
+```bash
+# Upload blog-content-manager.html
+"C:\Program Files\PuTTY\pscp.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU "C:\Users\rkgen\lessoncraftstudio\REFERENCE CONTENT MANAGERS\blog-content-manager.html" root@65.108.5.250:"/opt/lessoncraftstudio/frontend/public/worksheet-generators/blog-content-manager.html"
+
+# Copy to standalone and restart
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio/frontend && cp 'public/worksheet-generators/blog-content-manager.html' '.next/standalone/public/worksheet-generators/blog-content-manager.html' && pm2 restart lessoncraftstudio"
+```
+
+**Note:** Content managers are NOT in git (added to .gitignore). Production versions live in REFERENCE CONTENT MANAGERS folder.
+
+### Scenario 4: Static Assets (Images, Uploads, Fonts, etc.)
+
+**Use this when:** Updating images, fonts, or other static assets in `public/images/`, `public/uploads/`, etc.
+
+```bash
+# Copy specific public subdirectories (NOT worksheet-generators!)
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && cp -r public/images .next/standalone/public/images && cp -r public/uploads .next/standalone/public/uploads && pm2 restart lessoncraftstudio"
+```
+
+**Note:** Copy specific subdirectories, NEVER `cp -r public` which would copy missing worksheet generators!
 
 ### Quick Fix If Website is Broken
 
@@ -259,16 +423,21 @@ ssh root@65.108.5.250
 
 ## Important Notes
 
-1. **🚨 ALWAYS USE REFERENCE APPS FOLDER** - Never use random local files for deployment!
-2. **Always commit and push first** - Use git-based deployment rather than direct file uploads
-3. **Production port is 3000** - Local development uses 3001, production uses 3000
-4. **PM2 auto-restarts** - If the app crashes, PM2 will automatically restart it
-5. **Check logs after deployment** - Always verify no errors in PM2 logs
-6. **CRITICAL: Standalone mode** - Production runs in standalone mode. Public files MUST be copied to `.next/standalone/public/` after updates!
-7. **Build when needed** - Only rebuild if code changes; for public files, just copy to standalone and restart
-8. **Database scripts** - Remember to update port numbers in database scripts (3001 → 3000)
-9. **Git conflicts** - Use `git stash && git pull` if local changes conflict
-10. **Keep credentials secure** - This file contains sensitive information; do not commit to public repos
+1. **🚨 MANDATORY: UPDATE REFERENCE FOLDERS AFTER EVERY MODIFICATION** - This is OBLIGATORY, not optional. See "MANDATORY: UPDATING REFERENCE APPS AFTER MODIFICATIONS" section above. The deployment task is NOT complete until REFERENCE folders are updated!
+2. **🚨 WORKSHEET GENERATORS NOT IN GIT** - As of commit f9e10bb, worksheet generators are NO LONGER tracked by git. Use REFERENCE APPS folder!
+3. **🚨 CONTENT MANAGERS NOT IN GIT** - As of commit [next], content managers are NO LONGER tracked by git. Use REFERENCE CONTENT MANAGERS folder!
+4. **🚨 NEVER `cp -r public` IN DEPLOYMENTS** - This will copy MISSING files from git! Use scenario-based commands above.
+4. **For code changes** - Use Scenario 1 command (git pull + build, NO public copy)
+5. **For worksheet updates** - Use Scenario 2 command (REFERENCE APPS upload + copy to standalone)
+6. **For content manager updates** - Use Scenario 3 command (REFERENCE CONTENT MANAGERS upload + copy to standalone)
+7. **Production port is 3000** - Local development uses 3001, production uses 3000
+8. **PM2 auto-restarts** - If the app crashes, PM2 will automatically restart it
+9. **Check logs after deployment** - Always verify no errors in PM2 logs
+10. **CRITICAL: Standalone mode** - Production runs in standalone mode. Static files must be copied to `.next/standalone/.next/static/`
+11. **Database scripts** - Remember to update port numbers in database scripts (3001 → 3000)
+12. **Git conflicts** - Use `git stash && git pull` if local changes conflict
+13. **Keep credentials secure** - This file contains sensitive information; do not commit to public repos
+14. **Architecture change** - Worksheet generators and content managers are now treated as content/assets, not source code (see ROOT_CAUSE_ANALYSIS.md)
 
 ---
 

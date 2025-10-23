@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Find and Count Worksheet Generator</title>
+    <title>I Spy Worksheet Generator</title>
     <script src="js/translations-find-and-count.js"></script>
     <script src="js/bulletproof-loader.js"></script>
     <script src="js/unified-language-manager.js"></script>
@@ -653,6 +653,245 @@
             background-color: rgba(0,0,0,0.05);
         }
         /* END: Contextual Toolbar CSS */
+
+        /* ============================================
+           MODERN UNIFIED HEADER STYLES
+           Exact implementation from wordsearch.html lines 251-450
+           ============================================ */
+
+        .tab-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 24px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+            position: relative;
+            z-index: 15;
+            border-radius: 0;
+            margin: 0;
+            gap: 16px;
+        }
+
+        .tab-buttons-container {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .tab-button {
+            padding: 10px 24px;
+            font-size: 14px;
+            font-weight: 600;
+            border: none;
+            background: rgba(255, 255, 255, 0.15);
+            color: rgba(255, 255, 255, 0.8);
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+            backdrop-filter: blur(10px);
+            position: relative;
+        }
+
+        .tab-button:hover {
+            background: rgba(255, 255, 255, 0.25);
+            color: white;
+            transform: translateY(-1px);
+        }
+
+        .tab-button.active {
+            background: rgba(255, 255, 255, 0.95);
+            color: #667eea;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header Actions Container */
+        .header-actions {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-shrink: 0;
+        }
+
+        /* --- Zoom Controls --- */
+        .zoom-controls {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background-color: rgba(255, 255, 255, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 6px;
+            padding: 5px 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        .zoom-btn {
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+            padding: 6px 10px;
+            font-size: 14px;
+            cursor: pointer;
+            color: white;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .zoom-btn:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .zoom-btn:active {
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .zoom-percentage {
+            min-width: 45px;
+            text-align: center;
+            font-size: 13px;
+            font-weight: 600;
+            color: white;
+            user-select: none;
+        }
+
+        /* --- Undo/Redo Controls --- */
+        .history-controls {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background-color: rgba(255, 255, 255, 0.15);
+            border: 1px solid rgba(255, 255, 255, 0.25);
+            border-radius: 6px;
+            padding: 5px 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        .history-btn {
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+            padding: 6px 10px;
+            font-size: 14px;
+            cursor: pointer;
+            color: white;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .history-btn:hover:not(:disabled) {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+
+        .history-btn:active:not(:disabled) {
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+
+        .history-btn:disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+        }
+
+        /* --- Dropdown Containers --- */
+        .dropdown-container {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: white;
+            min-width: 200px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            border-radius: 8px;
+            z-index: 1000;
+            margin-top: 8px;
+            padding: 8px 0;
+        }
+
+        .dropdown-content.show {
+            display: block;
+        }
+
+        .dropdown-content button {
+            display: block;
+            width: 100%;
+            padding: 10px 16px;
+            border: none;
+            background: none;
+            text-align: left;
+            cursor: pointer;
+            font-size: 14px;
+            color: #333;
+            transition: background-color 0.2s;
+        }
+
+        .dropdown-content button:hover:not(:disabled) {
+            background-color: #f5f5f5;
+        }
+
+        .dropdown-content button:disabled {
+            color: #ccc;
+            cursor: not-allowed;
+        }
+
+        /* --- Action Buttons --- */
+        .action-button {
+            padding: 8px 16px;
+            font-size: 13px;
+            font-weight: 500;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .action-button.accent {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .action-button.accent:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .action-button.download-btn {
+            background: rgba(255, 255, 255, 0.95);
+            color: #667eea;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+        }
+
+        .action-button.download-btn:hover {
+            background: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .action-button.danger {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+        }
+
+        .action-button.danger:hover {
+            background: rgba(255, 59, 48, 0.9);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(255, 59, 48, 0.3);
+        }
     </style>
     <script>
         // Set locales globally BEFORE any scripts initialize
@@ -849,8 +1088,10 @@
                     <div class="toolbar-item">
                         <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
                         <div class="dropdown-content" id="layersDropdown">
+                            <button id="toolbarBringToFrontBtn" data-translate="bringToFront">Bring to Front</button>
                             <button id="toolbarBringForwardBtn" data-translate="bringForward">Bring Forward</button>
                             <button id="toolbarSendBackwardBtn" data-translate="sendBackward">Send Backward</button>
+                            <button id="toolbarSendToBackBtn" data-translate="sendToBack">Send to Back</button>
                         </div>
                     </div>
                 </div>
@@ -883,32 +1124,46 @@
                 </div>
             </div>
             <button id="menuToggleBtn" class="menu-toggle-btn"><i class="fas fa-bars"></i></button>
-            <div class="top-right-actions">
-                <div class="dropdown-container">
-                    <button id="generateDropdownBtn" class="action-button accent" data-translate="generate">Generate <i class="fas fa-caret-down"></i></button>
-                    <div id="generateDropdownContent" class="dropdown-content">
-                        <button id="generateWorksheetBtn" data-translate="generateWorksheet">Generate Worksheet</button>
-                        <button id="generateAnswerKeyBtn" disabled data-translate="generateAnswerKey">Generate Answer Key</button>
-                    </div>
-                </div>
-                <div class="dropdown-container">
-                    <button id="downloadDropdownBtn" class="action-button secondary" data-translate="download">Download <i class="fas fa-caret-down"></i></button>
-                    <div id="downloadDropdownContent" class="dropdown-content">
-                        <button id="downloadWorksheetJpegBtn" disabled data-translate="worksheetJpeg">Worksheet (JPEG)</button>
-                        <button id="downloadAnswerKeyJpegBtn" disabled data-translate="answerKeyJpeg">Answer Key (JPEG)</button>
-                        <button id="downloadWorksheetPdfBtn" disabled data-translate="worksheetPdf">Worksheet (PDF)</button>
-                        <button id="downloadAnswerKeyPdfBtn" disabled data-translate="answerKeyPdf">Answer Key (PDF)</button>
-                        <label class="checkbox-label">
-                            <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
-                        </label>
-                    </div>
-                    </div>
-                <button id="clearBtn" class="action-button danger" data-translate="clearAll">Clear All</button>
-            </div>
 
             <div class="tab-row">
-                <button class="tab-button active" data-tab="worksheetTab" data-translate="worksheet">Worksheet</button>
-                <button class="tab-button" data-tab="answerKeyTab" data-translate="answerKey">Answer Key</button>
+                <div class="tab-buttons-container">
+                    <button class="tab-button active" data-tab="worksheetTab" data-translate="worksheet">Worksheet</button>
+                    <button class="tab-button" data-tab="answerKeyTab" data-translate="answerKey">Answer Key</button>
+                </div>
+                <div class="header-actions">
+                    <div class="zoom-controls">
+                        <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                        <span id="zoomPercentage" class="zoom-percentage">100%</span>
+                        <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+                        <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                    </div>
+                    <div class="history-controls">
+                        <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+                        <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+                    </div>
+                    <div class="dropdown-container">
+                        <button id="generateDropdownBtn" class="action-button accent"><span data-translate="generate">Generate</span> <i class="fas fa-caret-down"></i></button>
+                        <div id="generateDropdownContent" class="dropdown-content">
+                            <button id="generateWorksheetBtn" data-translate="newWorksheet">New Worksheet</button>
+                            <button id="generateAnswerKeyBtn" disabled data-translate="answerKey">Answer Key</button>
+                        </div>
+                    </div>
+                    <div class="dropdown-container">
+                        <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                        <div id="downloadDropdownContent" class="dropdown-content">
+                            <button id="downloadWorksheetJpegBtn" disabled data-translate="worksheetJpeg">Worksheet (JPEG)</button>
+                            <button id="downloadAnswerKeyJpegBtn" disabled data-translate="answerKeyJpeg">Answer Key (JPEG)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadWorksheetPdfBtn" disabled data-translate="worksheetPdf">Worksheet (PDF)</button>
+                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="answerKeyPdf">Answer Key (PDF)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
+                            <label class="checkbox-label" id="grayscaleLabel">
+                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
+                            </label>
+                        </div>
+                    </div>
+                    <button id="clearBtn" class="action-button danger" data-translate="clearAll">Clear All</button>
+                </div>
             </div>
             <div class="tab-content-wrapper">
                 <div class="tab active" id="worksheetTab">
@@ -1096,15 +1351,36 @@ document.addEventListener("DOMContentLoaded", function() {
     const objectContextToolbar = document.getElementById('object-context-toolbar');
     const layersBtn = document.getElementById('layersBtn');
     const layersDropdown = document.getElementById('layersDropdown');
+    const toolbarBringToFrontBtn = document.getElementById('toolbarBringToFrontBtn');
     const toolbarBringForwardBtn = document.getElementById('toolbarBringForwardBtn');
     const toolbarSendBackwardBtn = document.getElementById('toolbarSendBackwardBtn');
+    const toolbarSendToBackBtn = document.getElementById('toolbarSendToBackBtn');
     const alignBtn = document.getElementById('alignBtn');
     const alignDropdown = document.getElementById('alignDropdown');
     const toolbarDeleteBtn = document.getElementById('toolbarDeleteBtn');
     const allToolbarButtons = objectContextToolbar.querySelectorAll('.context-btn');
 
+    // Zoom Controls
+    const zoomInBtn = document.getElementById('zoomInBtn');
+    const zoomOutBtn = document.getElementById('zoomOutBtn');
+    const zoomResetBtn = document.getElementById('zoomResetBtn');
+    const zoomPercentage = document.getElementById('zoomPercentage');
+
+    // Undo/Redo Controls
+    const undoBtn = document.getElementById('undoBtn');
+    const redoBtn = document.getElementById('redoBtn');
+
     let worksheetCanvas, answerKeyCanvas;
     let currentCanvasConfig = { width: 612, height: 792 }; // Default to Letter Portrait
+    let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
+
+    // --- UNDO/REDO STATE MANAGEMENT ---
+    let historyStack = [];
+    let redoStack = [];
+    const MAX_HISTORY = 20;
+    let isRestoringState = false; // Flag to prevent saving state during restoration
+    let isGenerating = false; // Flag to prevent saving state during bulk generation
+
     let selectedImages = [];
     let uploadedImages = [];
     let currentThemeImages = [];
@@ -1131,14 +1407,13 @@ document.addEventListener("DOMContentLoaded", function() {
     // START: REFACTORED CODE (Part B, Step 4)
     function enforceZOrder(canvas) {
         if (!canvas) return;
-        const background = canvas.getObjects().find(o => o.isBackground);
-        if (background) canvas.sendToBack(background);
 
-        const border = canvas.getObjects().find(o => o.isBorder);
-        if (border) {
-            canvas.sendToBack(border);
-            if (background) canvas.bringForward(border);
-        }
+        // REMOVED: Automatic z-order enforcement for backgrounds and borders
+        // Users should have full control over these elements via layer controls
+        // Backgrounds and borders are now fully editable and movable in z-order
+
+        // Note: If you need to enforce specific z-ordering in the future,
+        // add it here, but currently users have full control
     }
     // END: REFACTORED CODE (Part B, Step 4)
 
@@ -1178,16 +1453,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
         [worksheetCanvas, answerKeyCanvas].forEach(c => {
             if (c) {
-                // Apply zoom for display scaling
-                const finalZoom = (displayWidth / width);
+                // Apply zoom for display scaling with user zoom level
+                const finalZoom = (displayWidth / width) * userZoomLevel;
                 c.setZoom(finalZoom);
-                
+
                 // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+                // Apply userZoomLevel to container dimensions so canvas grows/shrinks
                 c.setDimensions({
-                    width: displayWidth,
-                    height: displayHeight
+                    width: displayWidth * userZoomLevel,
+                    height: displayHeight * userZoomLevel
                 });
-                
+
                 c.calcOffset();
                 c.renderAll();
             }
@@ -1196,6 +1472,39 @@ document.addEventListener("DOMContentLoaded", function() {
         pageWidthInput.value = width;
         pageHeightInput.value = height;
     }
+
+    // ============================================
+    // ZOOM FUNCTIONALITY
+    // Exact implementation from wordsearch.html lines 1745-1767
+    // ============================================
+
+    function zoomIn() {
+        // Increase zoom by 25%, max 300%
+        userZoomLevel = Math.min(userZoomLevel + 0.25, 3.0);
+        updateZoomDisplay();
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+    }
+
+    function zoomOut() {
+        // Decrease zoom by 25%, min 25%
+        userZoomLevel = Math.max(userZoomLevel - 0.25, 0.25);
+        updateZoomDisplay();
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+    }
+
+    function zoomReset() {
+        // Reset to 100%
+        userZoomLevel = 1.0;
+        updateZoomDisplay();
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+    }
+
+    function updateZoomDisplay() {
+        if (zoomPercentage) {
+            zoomPercentage.textContent = Math.round(userZoomLevel * 100) + '%';
+        }
+    }
+
     pageSizeSelect.addEventListener('change', async function() {
         if (this.value === 'custom') {
             customPageSizeInputsDiv.style.display = 'block';
@@ -1330,20 +1639,17 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function handleObjectSelection(e, canvas) {
         const activeObject = e.target || canvas.getActiveObject();
-        
-        if (!activeObject || activeObject.isBorder || activeObject.isBackground) {
+
+        if (!activeObject) {
             handleSelectionCleared(null, canvas);
-            if (activeObject && (activeObject.isBorder || activeObject.isBackground)) {
-                 objectContextToolbar.style.display = 'flex';
-                 allToolbarButtons.forEach(btn => btn.disabled = true);
-                 toolbarDeleteBtn.disabled = false;
-            }
             return;
         }
 
+        // Step 5: Backgrounds and borders are now fully editable and controllable
+        // Treat them like regular objects with full toolbar access
         objectContextToolbar.style.display = 'flex';
         const isGroup = activeObject.type === 'activeSelection';
-        
+
         allToolbarButtons.forEach(btn => btn.disabled = false);
         document.querySelectorAll('#alignDropdown button').forEach(btn => {
             if (btn.id.includes('Canvas')) {
@@ -1417,15 +1723,38 @@ document.addEventListener("DOMContentLoaded", function() {
         if(document.getElementById('alignBtn')) document.getElementById('alignBtn').classList.remove('active-dropdown');
     }
 
+    // ============================================
+    // Z-ORDER FUNCTIONS
+    // Enhanced 4-button layer control system
+    // ============================================
+
+    function bringObjectToFront() {
+        const canvas = getActiveCanvas();
+        const activeObject = canvas.getActiveObject();
+        if (activeObject) {
+            const beforeIndex = canvas.getObjects().indexOf(activeObject);
+            console.log('[Z-ORDER] Bring to Front - Before index:', beforeIndex);
+
+            canvas.bringToFront(activeObject);
+
+            const afterIndex = canvas.getObjects().indexOf(activeObject);
+            console.log('[Z-ORDER] After index:', afterIndex);
+            canvas.renderAll();
+        }
+        closeAllPopovers();
+    }
+
     function bringObjectForward() {
         const canvas = getActiveCanvas();
         const activeObject = canvas.getActiveObject();
         if (activeObject) {
+            const beforeIndex = canvas.getObjects().indexOf(activeObject);
+            console.log('[Z-ORDER] Bring Forward - Before index:', beforeIndex);
+
             canvas.bringForward(activeObject);
-            const border = canvas.getObjects().find(obj => obj.isBorder);
-            if (border) canvas.bringToFront(border);
-            const bg = canvas.getObjects().find(obj => obj.isBackground);
-            if (bg) bg.sendToBack();
+
+            const afterIndex = canvas.getObjects().indexOf(activeObject);
+            console.log('[Z-ORDER] After index:', afterIndex);
             canvas.renderAll();
         }
         closeAllPopovers();
@@ -1435,9 +1764,29 @@ document.addEventListener("DOMContentLoaded", function() {
         const canvas = getActiveCanvas();
         const activeObject = canvas.getActiveObject();
         if (activeObject) {
+            const beforeIndex = canvas.getObjects().indexOf(activeObject);
+            console.log('[Z-ORDER] Send Backward - Before index:', beforeIndex);
+
             canvas.sendBackwards(activeObject);
-            const bg = canvas.getObjects().find(o => o.isBackground);
-            if (bg) bg.sendToBack();
+
+            const afterIndex = canvas.getObjects().indexOf(activeObject);
+            console.log('[Z-ORDER] After index:', afterIndex);
+            canvas.renderAll();
+        }
+        closeAllPopovers();
+    }
+
+    function sendObjectToBack() {
+        const canvas = getActiveCanvas();
+        const activeObject = canvas.getActiveObject();
+        if (activeObject) {
+            const beforeIndex = canvas.getObjects().indexOf(activeObject);
+            console.log('[Z-ORDER] Send to Back - Before index:', beforeIndex);
+
+            canvas.sendToBack(activeObject);
+
+            const afterIndex = canvas.getObjects().indexOf(activeObject);
+            console.log('[Z-ORDER] After index:', afterIndex);
             canvas.renderAll();
         }
         closeAllPopovers();
@@ -1542,6 +1891,110 @@ document.addEventListener("DOMContentLoaded", function() {
         messageDiv.style.display = 'block';
         if (duration > 0) {
             setTimeout(() => { messageDiv.style.display = 'none'; }, duration);
+        }
+    }
+
+    // ============================================
+    // UNDO/REDO FUNCTIONS
+    // Exact implementation from wordsearch.html lines 1407-1505
+    // ============================================
+
+    function saveCanvasState() {
+        if (isRestoringState || isGenerating) return; // Don't save during undo/redo or generation
+        console.log("[UNDO DEBUG] saveCanvasState called, isRestoringState:", isRestoringState, "isGenerating:", isGenerating);
+
+        const activeCanvas = getActiveCanvas();
+        console.log("[UNDO DEBUG] saveCanvasState guard passed, activeCanvas:", activeCanvas);
+        if (!activeCanvas) return;
+
+        const state = {
+            canvasJSON: activeCanvas.toJSON(['isPuzzleElement', 'isAnswerKeyItem', 'isPageBorder', 'isHeaderDesc', 'isHeaderElement', 'isBorder', 'isBackground', 'originalIndex', 'isGeneratedItem', 'position']),
+            canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+            timestamp: Date.now()
+        };
+
+        historyStack.push(state);
+        if (historyStack.length > MAX_HISTORY) {
+            console.log("[UNDO DEBUG] State pushed to historyStack, new length:", historyStack.length);
+            historyStack.shift(); // Remove oldest state
+        }
+
+        redoStack = []; // Clear redo stack on new action
+        updateHistoryButtons();
+    }
+
+    function undo() {
+        if (historyStack.length === 0) return;
+
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+
+        // Save current state to redo stack before undoing
+        const currentState = {
+            canvasJSON: activeCanvas.toJSON(['isPuzzleElement', 'isAnswerKeyItem', 'isPageBorder', 'isHeaderDesc', 'isHeaderElement', 'isBorder', 'isBackground', 'originalIndex', 'isGeneratedItem', 'position']),
+            canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+            timestamp: Date.now()
+        };
+        redoStack.push(currentState);
+
+        // Restore previous state
+        const previousState = historyStack.pop();
+        restoreCanvasState(previousState);
+
+        updateHistoryButtons();
+        showMessage(t('undoAction') || 'Undo', 'info');
+    }
+
+    function redo() {
+        if (redoStack.length === 0) return;
+
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+
+        // Save current state to history stack
+        const currentState = {
+            canvasJSON: activeCanvas.toJSON(['isPuzzleElement', 'isAnswerKeyItem', 'isPageBorder', 'isHeaderDesc', 'isHeaderElement', 'isBorder', 'isBackground', 'originalIndex', 'isGeneratedItem', 'position']),
+            canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+            timestamp: Date.now()
+        };
+        historyStack.push(currentState);
+
+        // Restore next state
+        const nextState = redoStack.pop();
+        restoreCanvasState(nextState);
+
+        updateHistoryButtons();
+        showMessage(t('redoAction') || 'Redo', 'info');
+    }
+
+    function restoreCanvasState(state) {
+        if (!state) return;
+
+        isRestoringState = true; // Prevent saving during restoration
+
+        const targetCanvas = state.canvasType === 'worksheet' ? worksheetCanvas : answerKeyCanvas;
+        if (!targetCanvas) {
+            isRestoringState = false;
+            return;
+        }
+
+        targetCanvas.loadFromJSON(state.canvasJSON, function() {
+            targetCanvas.renderAll();
+            isRestoringState = false;
+        });
+    }
+
+    function updateHistoryButtons() {
+        const undoBtn = document.getElementById('undoBtn');
+        console.log("[UNDO DEBUG] updateHistoryButtons called, historyStack.length:", historyStack.length, "redoStack.length:", redoStack.length);
+        const redoBtn = document.getElementById('redoBtn');
+
+        if (undoBtn) {
+            undoBtn.disabled = historyStack.length === 0;
+        }
+        console.log("[UNDO DEBUG] undoBtn.disabled set to:", undoBtn ? undoBtn.disabled : 'N/A', "redoBtn.disabled set to:", redoBtn ? redoBtn.disabled : 'N/A');
+        if (redoBtn) {
+            redoBtn.disabled = redoStack.length === 0;
         }
     }
 
@@ -1743,6 +2196,9 @@ document.addEventListener("DOMContentLoaded", function() {
     async function generateWorksheet() {
         showMessage(t('generatingPleaseWait'), 'info', 0);
 
+        // Undo/Redo: Set flag to prevent saving during generation
+        isGenerating = true;
+
         // --- Validation ---
         if (selectedImages.length < 1 || selectedImages.length > 4) {
             showMessage(t('selectHiddenObjectsRange'), 'error'); return;
@@ -1822,6 +2278,11 @@ document.addEventListener("DOMContentLoaded", function() {
         generateAnswerKeyBtn.disabled = false;
         downloadWorksheetJpegBtn.disabled = false;
         downloadWorksheetPdfBtn.disabled = false;
+
+        // Undo/Redo: Reset flag and save state after generation
+        isGenerating = false;
+        saveCanvasState();
+
         showMessage(t('worksheetRegeneratedSuccessfully'), 'success');
     }
     // END: REFACTORED CODE (Part B)
@@ -1832,6 +2293,9 @@ document.addEventListener("DOMContentLoaded", function() {
             showMessage(t('pleaseGenerateWorksheetFirst'), 'error'); return;
         }
         showMessage(t('generatingAnswerKey'), 'info', 0);
+
+        // Undo/Redo: Set flag to prevent saving during generation
+        isGenerating = true;
 
         // Check if canvas dimensions changed
         const oldCanvasWidth = answerKeyCanvas.getWidth();
@@ -1891,6 +2355,11 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
         downloadAnswerKeyJpegBtn.disabled = false;
         downloadAnswerKeyPdfBtn.disabled = false;
+
+        // Undo/Redo: Reset flag and save state after generation
+        isGenerating = false;
+        saveCanvasState();
+
         showMessage(t('answerKeyGenerated'), 'success');
     }
     // END: REFACTORED CODE (Part C)
@@ -1999,17 +2468,17 @@ document.addEventListener("DOMContentLoaded", function() {
     // Create responsive header with borders
     function createHeaderGroup(canvas) {
         const defaultHeaders = {
-            en: { title: 'Find and Count', description: 'Count the objects and write the number!' },
-            de: { title: 'Finden und Zählen', description: 'Zähle die Objekte und schreibe die Zahl!' },
-            fr: { title: 'Trouve et Compte', description: 'Compte les objets et écris le nombre!' },
-            es: { title: 'Buscar y Contar', description: '¡Cuenta los objetos y escribe el número!' },
-            it: { title: 'Trova e Conta', description: 'Conta gli oggetti e scrivi il numero!' },
-            pt: { title: 'Encontrar e Contar', description: 'Conta os objetos e escreve o número!' },
-            nl: { title: 'Zoek en Tel', description: 'Tel de objecten en schrijf het getal!' },
-            sv: { title: 'Hitta och Räkna', description: 'Räkna objekten och skriv numret!' },
-            da: { title: 'Find og Tæl', description: 'Tæl objekterne og skriv tallet!' },
-            no: { title: 'Finn og Tell', description: 'Tell objektene og skriv tallet!' },
-            fi: { title: 'Etsi ja Laske', description: 'Laske esineet ja kirjoita numero!' }
+            en: { title: 'I Spy', description: 'Count the objects and write the number!' },
+            de: { title: 'Ich sehe was', description: 'Zähle die Objekte und schreibe die Zahl!' },
+            fr: { title: 'Je vois', description: 'Compte les objets et écris le nombre!' },
+            es: { title: 'Veo veo', description: '¡Cuenta los objetos y escribe el número!' },
+            it: { title: 'Vedo vedo', description: 'Conta gli oggetti e scrivi il numero!' },
+            pt: { title: 'Eu vejo', description: 'Conta os objetos e escreve o número!' },
+            nl: { title: 'Ik zie', description: 'Tel de objecten en schrijf het getal!' },
+            sv: { title: 'Jag ser', description: 'Räkna objekten och skriv numret!' },
+            da: { title: 'Jeg ser', description: 'Tæl objekterne og skriv tallet!' },
+            no: { title: 'Jeg ser', description: 'Tell objektene og skriv tallet!' },
+            fi: { title: 'Näen', description: 'Laske esineet ja kirjoita numero!' }
         };
 
         const locale = currentLocale || 'en';
@@ -2683,6 +3152,26 @@ document.addEventListener("DOMContentLoaded", function() {
         showMessage(t('formCleared'), 'success');
     }
     clearBtn.addEventListener("click", clearAll);
+
+    // Zoom Controls Event Listeners
+    zoomInBtn.addEventListener('click', zoomIn);
+    zoomOutBtn.addEventListener('click', zoomOut);
+    zoomResetBtn.addEventListener('click', zoomReset);
+
+    // Undo/Redo Controls Event Listeners
+    if (undoBtn) undoBtn.addEventListener('click', undo);
+    if (redoBtn) redoBtn.addEventListener('click', redo);
+
+    // Keyboard shortcuts for undo/redo
+    document.addEventListener('keydown', function(e) {
+        if ((e.ctrlKey || e.metaKey) && e.key === 'z' && !e.shiftKey) {
+            e.preventDefault();
+            undo();
+        } else if ((e.ctrlKey || e.metaKey) && (e.key === 'y' || (e.key === 'z' && e.shiftKey))) {
+            e.preventDefault();
+            redo();
+        }
+    });
 
     async function getCanvasDataURLWithOptions(canvasInstance, exportOptions) {
         // Save current state
@@ -3500,8 +3989,13 @@ async function downloadPDF(canvasToExport, filename) {
     // Toolbar Listeners
     layersBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(layersDropdown); });
     alignBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(alignDropdown); });
+
+    // Layer Controls - 4-button system
+    toolbarBringToFrontBtn.addEventListener('click', bringObjectToFront);
     toolbarBringForwardBtn.addEventListener('click', bringObjectForward);
     toolbarSendBackwardBtn.addEventListener('click', sendObjectBackward);
+    toolbarSendToBackBtn.addEventListener('click', sendObjectToBack);
+
     toolbarDeleteBtn.addEventListener('click', deleteSelectedObjects);
     document.querySelectorAll('#alignDropdown button').forEach(button => {
         button.addEventListener('click', (e) => {
@@ -3575,18 +4069,35 @@ async function downloadPDF(canvasToExport, filename) {
     // --- INITIALIZATION CALLS ---
     worksheetCanvas = initializeCanvas(worksheetCanvasElement);
     answerKeyCanvas = initializeCanvas(answerKeyCanvasElement);
-    
-    function setupCanvasEventListeners(canvas) {
-        const keepBackgroundAndBorderInBack = () => {
-            enforceZOrder(canvas);
-        };
 
+    // Initialize zoom display
+    updateZoomDisplay();
+
+    function setupCanvasEventListeners(canvas) {
         canvas.on({
             'selection:created': function(e) { handleObjectSelection(e, this); },
             'selection:updated': function(e) { handleObjectSelection(e, this); },
             'selection:cleared': function(e) { handleSelectionCleared(e, this); },
-            'object:added': keepBackgroundAndBorderInBack,
-            'object:modified': keepBackgroundAndBorderInBack
+            'object:added': function(e) {
+                enforceZOrder(canvas);
+                // Undo/Redo: Save state after object added
+                if (!isRestoringState && !isGenerating) {
+                    setTimeout(() => saveCanvasState(), 100);
+                }
+            },
+            'object:modified': function(e) {
+                enforceZOrder(canvas);
+            },
+            'object:removed': function(e) {
+                // Undo/Redo: Save state after object removed
+                if (!isRestoringState && !isGenerating) {
+                    setTimeout(() => saveCanvasState(), 100);
+                }
+            },
+            // Undo/Redo: Save state when user clicks object (before modifications)
+            'mouse:down': function(e) {
+                if (e.target) saveCanvasState();
+            }
         });
     }
 

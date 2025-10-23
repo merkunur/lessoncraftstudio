@@ -746,6 +746,253 @@
         background-color: rgba(0,0,0,0.05);
     }
     /* END: Contextual Toolbar CSS */
+
+    /* ============================================
+       MODERN UNIFIED HEADER STYLES
+       Exact implementation from wordsearch.html lines 251-450
+       ============================================ */
+
+    .tab-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 24px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+        position: relative;
+        z-index: 15;
+        border-radius: 0;
+        margin: 0;
+        gap: 16px;
+    }
+
+    .tab-buttons-container {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .tab-button {
+        padding: 10px 24px;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        background: rgba(255, 255, 255, 0.15);
+        color: rgba(255, 255, 255, 0.8);
+        cursor: pointer;
+        border-radius: 8px;
+        transition: all 0.2s ease;
+        backdrop-filter: blur(10px);
+        position: relative;
+    }
+
+    .tab-button:hover {
+        background: rgba(255, 255, 255, 0.25);
+        color: white;
+        transform: translateY(-1px);
+    }
+
+    .tab-button.active {
+        background: rgba(255, 255, 255, 0.95);
+        color: #667eea;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Header Actions Container */
+    .header-actions {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    /* --- Zoom Controls --- */
+    .zoom-controls {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background-color: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 6px;
+        padding: 5px 10px;
+        backdrop-filter: blur(10px);
+    }
+
+    .zoom-btn {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+        padding: 6px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        color: white;
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .zoom-btn:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .zoom-btn:active {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .zoom-percentage {
+        min-width: 45px;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 600;
+        color: white;
+        user-select: none;
+    }
+
+    /* --- Undo/Redo Controls --- */
+    .history-controls {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background-color: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 6px;
+        padding: 5px 10px;
+        backdrop-filter: blur(10px);
+    }
+
+    .history-btn {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+        padding: 6px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        color: white;
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .history-btn:hover:not(:disabled) {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .history-btn:active:not(:disabled) {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .history-btn:disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+    }
+
+    /* --- Dropdown Containers --- */
+    .dropdown-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: white;
+        min-width: 200px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        border-radius: 8px;
+        z-index: 1000;
+        margin-top: 8px;
+        padding: 8px 0;
+    }
+
+    .dropdown-content.show {
+        display: block;
+    }
+
+    .dropdown-content button {
+        display: block;
+        width: 100%;
+        padding: 10px 16px;
+        border: none;
+        background: none;
+        text-align: left;
+        cursor: pointer;
+        font-size: 14px;
+        color: #333;
+        transition: background-color 0.2s;
+    }
+
+    .dropdown-content button:hover:not(:disabled) {
+        background-color: #f5f5f5;
+    }
+
+    .dropdown-content button:disabled {
+        color: #ccc;
+        cursor: not-allowed;
+    }
+
+    /* --- Action Buttons --- */
+    .action-button {
+        padding: 8px 16px;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .action-button.accent {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .action-button.accent:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    .action-button.download-btn {
+        background: rgba(255, 255, 255, 0.95);
+        color: #667eea;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .action-button.download-btn:hover {
+        background: white;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .action-button.danger {
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .action-button.danger:hover {
+        background: rgba(255, 59, 48, 0.9);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(255, 59, 48, 0.3);
+    }
+
+    /* Undo/Redo Toast Animation */
+    @keyframes fadeInOut {
+        0% { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+        15% { opacity: 1; transform: translateX(-50%) translateY(0); }
+        85% { opacity: 1; transform: translateX(-50%) translateY(0); }
+        100% { opacity: 0; transform: translateX(-50%) translateY(-10px); }
+    }
   </style>
 </head>
 <body>
@@ -855,14 +1102,11 @@
                 <label for="problemCountInput" data-translate="moreless.exercises.count">Number of Exercises (1–8):</label>
                 <input type="number" id="problemCountInput" value="5" min="1" max="8" />
 
-                <label class="checkbox-label" style="margin-top: 15px;">
-                    <input type="radio" name="image_selection_mode" value="individual" checked>
-                    <span data-translate="moreless.mode.individual">Individual Images</span>
-                </label>
-                <label class="checkbox-label">
-                    <input type="radio" name="image_selection_mode" value="theme">
-                    <span data-translate="moreless.mode.theme">Theme for Worksheet</span>
-                </label>
+                <label for="imageSelectionModeSelect" style="margin-top: 15px;" data-translate="moreless.image.selection">Image Selection:</label>
+                <select id="imageSelectionModeSelect">
+                    <option value="individual" data-translate="moreless.mode.individual">Individual Images</option>
+                    <option value="theme" data-translate="moreless.mode.theme">Theme for Worksheet</option>
+                </select>
 
                 <div id="individualImageSelectionSection">
                     <label><span data-translate="moreless.theme.dictionary">Theme for Dictionary</span> <select id="themeDict"></select></label>
@@ -876,31 +1120,43 @@
                     <small data-translate="moreless.theme.random">Images will be randomly selected from this theme.</small>
                 </div>
 
-                <h4 data-translate="moreless.relations">Relations</h4>
-                <label class="checkbox-label">
-                    <span>&gt;</span>
-                    <input type="checkbox" value="gt" checked>
-                </label>
-                <label class="checkbox-label">
-                    <span>&lt;</span>
-                    <input type="checkbox" value="lt" checked>
-                </label>
-                <label class="checkbox-label">
-                    <span>=</span>
-                    <input type="checkbox" value="eq" checked>
-                </label>
-                <h4 data-translate="moreless.symbol.display">Symbol Display</h4>
-                <label class="checkbox-label">
-                    <input type="radio" name="symbol_display_type" value="image" checked>
-                    <span data-translate="moreless.display.illustrations">Illustrations</span>
-                </label>
-                <label class="checkbox-label">
-                    <input type="radio" name="symbol_display_type" value="text">
-                    <span data-translate="moreless.display.normal">Normal Symbols (&gt;, &lt;, =)</span>
-                </label>
-                <label class="checkbox-label">
+                <label for="relationsSelect" style="margin-top: 15px;" data-translate="moreless.relations">Relations:</label>
+                <div style="display: flex; gap: 15px; margin-bottom: 15px;">
+                    <label class="checkbox-label" style="margin: 0;">
+                        <input type="checkbox" class="relation-checkbox" value="gt" checked>
+                        <span>&gt;</span>
+                    </label>
+                    <label class="checkbox-label" style="margin: 0;">
+                        <input type="checkbox" class="relation-checkbox" value="lt" checked>
+                        <span>&lt;</span>
+                    </label>
+                    <label class="checkbox-label" style="margin: 0;">
+                        <input type="checkbox" class="relation-checkbox" value="eq" checked>
+                        <span>=</span>
+                    </label>
+                </div>
+
+                <label for="symbolDisplaySelect" data-translate="moreless.symbol.display">Symbol Display:</label>
+                <select id="symbolDisplaySelect">
+                    <option value="image" data-translate="moreless.display.illustrations">Illustrations</option>
+                    <option value="text" data-translate="moreless.display.normal">Normal Symbols (&gt;, &lt;, =)</option>
+                </select>
+
+                <label for="comparisonModeSelect" style="margin-top: 15px;" data-translate="moreless.comparison.mode">Comparison Mode:</label>
+                <select id="comparisonModeSelect">
+                    <option value="image-to-image" data-translate="moreless.mode.imagetoimage">Image to Image</option>
+                    <option value="image-to-number" data-translate="moreless.mode.imagetonumber">Image to Number</option>
+                </select>
+
+                <label for="imageVarietySelect" data-translate="moreless.image.variety">Image Variety:</label>
+                <select id="imageVarietySelect">
+                    <option value="same" data-translate="moreless.variety.same">Same Images (e.g., 5 cats vs 7 cats)</option>
+                    <option value="different" data-translate="moreless.variety.different">Different Images (e.g., 5 cats vs 7 dogs)</option>
+                </select>
+
+                <label for="showSym" class="checkbox-label" style="margin-top: 15px;">
                     <input type="checkbox" id="showSym">
-                    <span data-translate="moreless.symbol.mode.circling">show symbols for circling</span>
+                    <span data-translate="moreless.symbol.mode.circling">Show symbols for circling</span>
                 </label>
                 <label for="includeNameDate" class="checkbox-label">
                     <input type="checkbox" id="includeNameDate" /><span data-translate="moreless.include.name.date">Include Name/Date Fields</span>
@@ -941,8 +1197,10 @@
               <div class="toolbar-item">
                   <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
                   <div class="dropdown-content" id="layersDropdown">
-                          <button id="toolbarBringForwardBtn">Bring Forward</button>
-                          <button id="toolbarSendBackwardBtn">Send Backward</button>
+                          <button id="toolbarBringToFrontBtn" data-translate="bringToFront">Bring to Front</button>
+                          <button id="toolbarBringForwardBtn" data-translate="bringForward">Bring Forward</button>
+                          <button id="toolbarSendBackwardBtn" data-translate="sendBackward">Send Backward</button>
+                          <button id="toolbarSendToBackBtn" data-translate="sendToBack">Send to Back</button>
                   </div>
               </div>
           </div>
@@ -974,33 +1232,46 @@
               <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
           </div>
       </div>
-      <div class="top-right-actions">
-          <div class="dropdown-container">
-            <button id="generateDropdownBtn" class="action-button accent"><span data-translate="moreless.generate">Generate</span> <i class="fas fa-caret-down"></i></button>
-            <div id="generateDropdownContent" class="dropdown-content">
-                <button id="generateWorksheetBtn" data-translate="moreless.generate.worksheet">Generate Worksheet</button>
-                <button id="generateAnswerKeyBtn" disabled data-translate="moreless.generate.answer">Generate Answer Key</button>
-            </div>
-          </div>
-        <div class="dropdown-container">
-            <button id="downloadDropdownBtn" class="action-button secondary"><span data-translate="moreless.download">Download</span> <i class="fas fa-caret-down"></i></button>
-            <div id="downloadDropdownContent" class="dropdown-content">
-                <button id="downloadWorksheetJpegBtn" data-translate="moreless.download.worksheet.jpeg">Worksheet (JPEG)</button>
-                <button id="downloadAnswerKeyJpegBtn" disabled data-translate="moreless.download.answer.jpeg">Answer Key (JPEG)</button>
-                <button id="downloadWorksheetPdfBtn" data-translate="moreless.download.worksheet.pdf">Worksheet (PDF)</button>
-                <button id="downloadAnswerKeyPdfBtn" disabled data-translate="moreless.download.answer.pdf">Answer Key (PDF)</button>
-                <label class="checkbox-label" id="grayscaleLabel">
-                    <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
-                </label>
-            </div>
-        </div>
-        <button id="clearBtn" class="action-button danger" data-translate="moreless.clear.all">Clear All</button>
-      </div>
-
       <div class="tab-row">
-        <button class="tab-button active" data-tab="worksheetTab" data-translate="moreless.tab.worksheet">Worksheet</button>
-        <button class="tab-button" data-tab="answerKeyTab" data-translate="moreless.tab.answer">Answer Key</button>
-      </div>
+                <div class="tab-buttons-container">
+                    <button class="tab-button active" data-tab="worksheetTab" data-translate="moreless.tab.worksheet">Worksheet</button>
+                    <button class="tab-button" data-tab="answerKeyTab" data-translate="moreless.tab.answer">Answer Key</button>
+                </div>
+                <div class="header-actions">
+                    <div class="zoom-controls">
+                        <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                        <span id="zoomPercentage" class="zoom-percentage">100%</span>
+                        <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+                        <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                    </div>
+                    <div class="history-controls">
+                        <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+                        <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+                    </div>
+                    <div class="dropdown-container">
+                        <button id="generateDropdownBtn" class="action-button accent"><span data-translate="moreless.generate">Generate</span> <i class="fas fa-caret-down"></i></button>
+                        <div id="generateDropdownContent" class="dropdown-content">
+                            <button id="generateWorksheetBtn" data-translate="moreless.generate.worksheet">Generate Worksheet</button>
+                            <button id="generateAnswerKeyBtn" disabled data-translate="moreless.generate.answer">Generate Answer Key</button>
+                        </div>
+                    </div>
+                    <div class="dropdown-container">
+                        <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="moreless.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                        <div id="downloadDropdownContent" class="dropdown-content">
+                            <button id="downloadWorksheetJpegBtn" disabled data-translate="moreless.download.worksheet.jpeg">Worksheet (JPEG)</button>
+                            <button id="downloadAnswerKeyJpegBtn" disabled data-translate="moreless.download.answer.jpeg">Answer Key (JPEG)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadWorksheetPdfBtn" disabled data-translate="moreless.download.worksheet.pdf">Worksheet (PDF)</button>
+                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="moreless.download.answer.pdf">Answer Key (PDF)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
+                            <label class="checkbox-label" id="grayscaleLabel">
+                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                            </label>
+                        </div>
+                    </div>
+                    <button id="clearBtn" class="action-button danger" data-translate="moreless.clear.all">Clear All</button>
+                </div>
+            </div>
       <div class="tab-content-wrapper">
         <div class="tab active" id="worksheetTab">
             <div class="canvas-container-wrapper" id="worksheetCanvasWrapper">
@@ -1090,8 +1361,8 @@
               problemCountInput.value = 6;
 
               // Select "Theme for Worksheet" mode
-              imageSelectionModeRadios[1].checked = true; // theme mode
-              imageSelectionModeRadios[1].dispatchEvent(new Event('change'));
+              imageSelectionModeSelect.value = 'theme';
+              imageSelectionModeSelect.dispatchEvent(new Event('change'));
 
               // Set animals theme
               themeWorksheetSelect.value = 'animals';
@@ -1102,8 +1373,8 @@
               // Set Show Exercise Numbers
               includeExerciseNumbersCheckbox.checked = true;
 
-              // Set Illustrations (symbol_display_type = 'image')
-              symbolDisplayTypeRadios[0].checked = true; // 'image' mode
+              // Set Illustrations
+              symbolDisplaySelect.value = 'image';
 
               // Give a small delay before generating
               await new Promise(resolve => setTimeout(resolve, 200));
@@ -1112,6 +1383,10 @@
               await generateWorksheetFunc();
 
               console.log('Initial worksheet generated successfully');
+
+              // Save initial state for undo/redo
+              saveCanvasState();
+              updateHistoryButtons();
           } catch (error) {
               console.error('Error generating initial worksheet:', error);
           }
@@ -1235,7 +1510,7 @@
       const textStrokeColorInput = $('#textStrokeColor');
       const textStrokeWidthInput = $('#textStrokeWidth');
       const problemCountInput = $('#problemCountInput');
-      const imageSelectionModeRadios = $$('input[name="image_selection_mode"]');
+      const imageSelectionModeSelect = $('#imageSelectionModeSelect');
       const individualImageSelectionSection = $('#individualImageSelectionSection');
       const worksheetThemeSelectionSection = $('#worksheetThemeSelectionSection');
       const themeDictSelect = $('#themeDict');
@@ -1244,8 +1519,10 @@
       const selCountSpan = $('#selCount');
       const imageUploadInput = $('#imageUploadInput');
       const uploadedImagesPreviewDiv = $('#uploadedImagesPreview');
-      const relationCheckboxes = $$('.accordion-content input[type="checkbox"][value="gt"], .accordion-content input[type="checkbox"][value="lt"], .accordion-content input[type="checkbox"][value="eq"]');
-      const symbolDisplayTypeRadios = $$('input[name="symbol_display_type"]');
+      const relationCheckboxes = $$('.relation-checkbox');
+      const symbolDisplaySelect = $('#symbolDisplaySelect');
+      const comparisonModeSelect = $('#comparisonModeSelect');
+      const imageVarietySelect = $('#imageVarietySelect');
       const showSymCheckbox = $('#showSym');
       const includeNameDateCheckbox = $('#includeNameDate');
       const includeExerciseNumbersCheckbox = $('#includeExerciseNumbers');
@@ -1262,20 +1539,37 @@
       const grayscaleToggle = $('#grayscaleToggle');
       const grayscaleLabel = $('#grayscaleLabel');
       const clearBtn = $('#clearBtn');
+      const undoBtn = $('#undoBtn');
+      const redoBtn = $('#redoBtn');
+      const zoomInBtn = $('#zoomInBtn');
+      const zoomOutBtn = $('#zoomOutBtn');
+      const zoomResetBtn = $('#zoomResetBtn');
+      const zoomPercentage = $('#zoomPercentage');
       const worksheetCanvasWrapper = $('#worksheetCanvasWrapper');
       const worksheetCanvasElement = $('#worksheetCanvasElement');
       const answerKeyCanvasWrapper = $('#answerKeyCanvasWrapper');
       const answerKeyCanvasElement = $('#answerKeyCanvasElement');
       const objectContextToolbar = $('#object-context-toolbar');
       const layersBtn = $('#layersBtn');
+      const toolbarBringToFrontBtn = $('#toolbarBringToFrontBtn');
       const toolbarBringForwardBtn = $('#toolbarBringForwardBtn');
       const toolbarSendBackwardBtn = $('#toolbarSendBackwardBtn');
+      const toolbarSendToBackBtn = $('#toolbarSendToBackBtn');
       const alignBtn = $('#alignBtn');
       const toolbarDeleteBtn = $('#toolbarDeleteBtn');
 
       let worksheetCanvas;
       let answerKeyCanvas;
       let currentCanvasConfig = { width: 612, height: 792 };
+      let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
+
+      // --- UNDO/REDO STATE MANAGEMENT ---
+      let historyStack = [];
+      let redoStack = [];
+      const MAX_HISTORY = 20;
+      let isRestoringState = false; // Flag to prevent saving state during restoration
+      let isGenerating = false; // Flag to prevent saving state during bulk generation
+
       let selectedImages = new Set();
       let uploadedImages = [];
       let lastGeneratedRows = [];
@@ -1289,9 +1583,9 @@
       }
 
       function showSidebarMessage(message, type = 'error', duration = 3000) {
-          if (messageTimeout) clearTimeout(messageTimeout); 
+          if (messageTimeout) clearTimeout(messageTimeout);
           sidebarMessageArea.textContent = message;
-          sidebarMessageArea.className = `message ${type}`; 
+          sidebarMessageArea.className = `message ${type}`;
           sidebarMessageArea.style.display = 'block';
           if (duration > 0) messageTimeout = setTimeout(clearSidebarMessage, duration);
       }
@@ -1299,6 +1593,34 @@
       function clearSidebarMessage() {
           if (messageTimeout) clearTimeout(messageTimeout);
           sidebarMessageArea.style.display = 'none';
+      }
+
+      // Undo/Redo toast message function
+      function showMessage(msg) {
+          const existingToast = document.getElementById('undo-redo-toast');
+          if (existingToast) existingToast.remove();
+
+          const toast = document.createElement('div');
+          toast.id = 'undo-redo-toast';
+          toast.textContent = msg;
+          toast.style.cssText = `
+              position: fixed;
+              top: 80px;
+              left: 50%;
+              transform: translateX(-50%);
+              background: rgba(0, 0, 0, 0.85);
+              color: white;
+              padding: 12px 24px;
+              border-radius: 8px;
+              font-size: 14px;
+              font-weight: 500;
+              z-index: 10000;
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+              pointer-events: none;
+              animation: fadeInOut 2s ease-in-out;
+          `;
+          document.body.appendChild(toast);
+          setTimeout(() => toast.remove(), 2000);
       }
       
       function updateSelCount() {
@@ -1325,12 +1647,21 @@
           }
       }
 
+      // ============================================
+      // Z-ORDER FUNCTIONS
+      // ============================================
+
       function bringObjectForward() {
           const activeCanvas = getActiveCanvas();
           const activeObject = activeCanvas.getActiveObject();
           if (activeObject) {
+              const beforeIndex = activeCanvas.getObjects().indexOf(activeObject);
+              console.log('[Z-ORDER] Bring Forward - Before index:', beforeIndex);
+
               activeCanvas.bringForward(activeObject);
-              enforceZOrder(activeCanvas);
+
+              const afterIndex = activeCanvas.getObjects().indexOf(activeObject);
+              console.log('[Z-ORDER] After index:', afterIndex);
               activeCanvas.renderAll();
           }
           if (activePopover) activePopover.style.display = 'none';
@@ -1340,8 +1671,45 @@
           const activeCanvas = getActiveCanvas();
           const activeObject = activeCanvas.getActiveObject();
           if (activeObject) {
+              const beforeIndex = activeCanvas.getObjects().indexOf(activeObject);
+              console.log('[Z-ORDER] Send Backward - Before index:', beforeIndex);
+
               activeCanvas.sendBackwards(activeObject);
-              enforceZOrder(activeCanvas);
+
+              const afterIndex = activeCanvas.getObjects().indexOf(activeObject);
+              console.log('[Z-ORDER] After index:', afterIndex);
+              activeCanvas.renderAll();
+          }
+          if (activePopover) activePopover.style.display = 'none';
+      }
+
+      function bringObjectToFront() {
+          const activeCanvas = getActiveCanvas();
+          const activeObject = activeCanvas.getActiveObject();
+          if (activeObject) {
+              const beforeIndex = activeCanvas.getObjects().indexOf(activeObject);
+              console.log('[Z-ORDER] Bring to Front - Before index:', beforeIndex);
+
+              activeCanvas.bringToFront(activeObject);
+
+              const afterIndex = activeCanvas.getObjects().indexOf(activeObject);
+              console.log('[Z-ORDER] After index:', afterIndex);
+              activeCanvas.renderAll();
+          }
+          if (activePopover) activePopover.style.display = 'none';
+      }
+
+      function sendObjectToBack() {
+          const activeCanvas = getActiveCanvas();
+          const activeObject = activeCanvas.getActiveObject();
+          if (activeObject) {
+              const beforeIndex = activeCanvas.getObjects().indexOf(activeObject);
+              console.log('[Z-ORDER] Send to Back - Before index:', beforeIndex);
+
+              activeCanvas.sendToBack(activeObject);
+
+              const afterIndex = activeCanvas.getObjects().indexOf(activeObject);
+              console.log('[Z-ORDER] After index:', afterIndex);
               activeCanvas.renderAll();
           }
           if (activePopover) activePopover.style.display = 'none';
@@ -1422,10 +1790,11 @@
 
       function handleObjectSelection(e, canvas) {
           const activeObject = e.target || canvas.getActiveObject();
-          if (!activeObject || activeObject.isBorder || activeObject.isBackground) {
+          if (!activeObject) {
               handleSelectionCleared(null, canvas);
               return;
           }
+          // REMOVED: Blocking borders/backgrounds - they should activate toolbar like any other object
           objectContextToolbar.style.display = 'flex';
           const isGroup = activeObject.type === 'activeSelection';
           objectContextToolbar.querySelectorAll('.context-btn').forEach(btn => btn.disabled = false);
@@ -1458,6 +1827,19 @@
         window.addEventListener('keydown', (e) => {
             const activeElement = document.activeElement;
             if (activeElement && (activeElement.tagName === 'INPUT' || activeElement.tagName === 'TEXTAREA')) return;
+
+            // Undo/Redo keyboard shortcuts
+            if ((e.ctrlKey || e.metaKey) && e.key === 'z' && !e.shiftKey) {
+                e.preventDefault();
+                undo();
+                return;
+            }
+            if ((e.ctrlKey || e.metaKey) && (e.key === 'y' || (e.key === 'z' && e.shiftKey))) {
+                e.preventDefault();
+                redo();
+                return;
+            }
+
             if (e.key === 'Delete' || e.key === 'Backspace') {
                 const activeCanvas = getActiveCanvas();
                 const activeObject = activeCanvas.getActiveObject();
@@ -1569,26 +1951,193 @@
           // Apply to ALL canvases in the app
           [worksheetCanvas, answerKeyCanvas].forEach(c => {
               if (c) {
-                  // Apply zoom for display scaling
-                  const finalZoom = (displayWidth / width);
+                  // Apply zoom for display scaling combined with user zoom level
+                  const finalZoom = (displayWidth / width) * userZoomLevel;
                   c.setZoom(finalZoom);
 
                   // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+                  const finalDisplayWidth = displayWidth * userZoomLevel;
+                  const finalDisplayHeight = displayHeight * userZoomLevel;
                   c.setDimensions({
-                      width: displayWidth,
-                      height: displayHeight
+                      width: finalDisplayWidth,
+                      height: finalDisplayHeight
                   });
 
                   c.calcOffset();
                   c.renderAll();
               }
           });
-          
+
           [worksheetCanvasWrapper, answerKeyCanvasWrapper].forEach(w => {
-              if(w) { w.style.width = `${displayWidth}px`; w.style.height = `${displayHeight}px`; }
+              if(w) {
+                  const finalDisplayWidth = displayWidth * userZoomLevel;
+                  const finalDisplayHeight = displayHeight * userZoomLevel;
+                  w.style.width = `${finalDisplayWidth}px`;
+                  w.style.height = `${finalDisplayHeight}px`;
+              }
           });
           
           if (!fromLoad) { pageWidthInput.value = width; pageHeightInput.value = height; }
+      }
+
+      // ============================================
+      // ZOOM FUNCTIONALITY
+      // Exact implementation from wordsearch.html lines 1745-1767
+      // ============================================
+
+      function zoomIn() {
+          // Increase zoom by 25%, max 300%
+          userZoomLevel = Math.min(userZoomLevel + 0.25, 3.0);
+          updateZoomDisplay();
+          updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+      }
+
+      function zoomOut() {
+          // Decrease zoom by 25%, min 25%
+          userZoomLevel = Math.max(userZoomLevel - 0.25, 0.25);
+          updateZoomDisplay();
+          updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+      }
+
+      function zoomReset() {
+          // Reset to 100%
+          userZoomLevel = 1.0;
+          updateZoomDisplay();
+          updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+      }
+
+      function updateZoomDisplay() {
+          if (zoomPercentage) {
+              zoomPercentage.textContent = Math.round(userZoomLevel * 100) + '%';
+          }
+      }
+
+      // ============================================
+      // UNDO/REDO FUNCTIONALITY
+      // Rebuilt from scratch to match wordsearch.html pattern exactly
+      // Includes ALL custom properties to prevent duplication bugs
+      // ============================================
+
+      function saveCanvasState() {
+          if (isRestoringState || isGenerating) return; // Don't save during undo/redo or generation
+          console.log("[UNDO DEBUG] saveCanvasState called, isRestoringState:", isRestoringState, "isGenerating:", isGenerating);
+
+          const activeCanvas = getActiveCanvas();
+          console.log("[UNDO DEBUG] saveCanvasState guard passed, activeCanvas:", activeCanvas);
+          if (!activeCanvas) return;
+
+          // 🚨 CRITICAL: Include ALL custom properties to prevent duplication bugs
+          // Properties identified from filter operations in this app:
+          // - isExerciseCard (line 3039, 3040) - worksheet exercise cards
+          // - isNameDateGroup (line 3039, 3040) - name/date group
+          // - isAnswerCard (line 3389, 3390) - answer key cards
+          // - isBorder, isBackground, isPageBorder, isHeaderDesc, isHeaderElement - common properties
+          // - originalIndex (line 3212) - preserves object order
+          const state = {
+              canvasJSON: activeCanvas.toJSON([
+                  'isExerciseCard',    // ✓ CRITICAL - worksheet exercise cards
+                  'isNameDateGroup',   // ✓ CRITICAL - name/date group
+                  'isAnswerCard',      // ✓ Answer key cards
+                  'isPageBorder',      // ✓ Page border
+                  'isHeaderDesc',      // ✓ Header description
+                  'isHeaderElement',   // ✓ Header elements
+                  'isBorder',          // ✓ User-added borders
+                  'isBackground',      // ✓ User-added backgrounds
+                  'originalIndex'      // ✓ Preserves object order
+              ]),
+              canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+              timestamp: Date.now()
+          };
+
+          historyStack.push(state);
+          if (historyStack.length > MAX_HISTORY) {
+              console.log("[UNDO DEBUG] State pushed to historyStack, new length:", historyStack.length);
+              historyStack.shift(); // Remove oldest state
+          }
+
+          redoStack = []; // Clear redo stack on new action
+          updateHistoryButtons();
+      }
+
+      function undo() {
+          if (historyStack.length === 0) return;
+
+          const activeCanvas = getActiveCanvas();
+          if (!activeCanvas) return;
+
+          // Save current state to redo stack before undoing
+          // 🚨 CRITICAL: Use SAME property list as saveCanvasState()
+          const currentState = {
+              canvasJSON: activeCanvas.toJSON([
+                  'isExerciseCard', 'isNameDateGroup', 'isAnswerCard',
+                  'isPageBorder', 'isHeaderDesc', 'isHeaderElement',
+                  'isBorder', 'isBackground', 'originalIndex'
+              ]),
+              canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+              timestamp: Date.now()
+          };
+          redoStack.push(currentState);
+
+          // Restore previous state
+          const previousState = historyStack.pop();
+          restoreCanvasState(previousState);
+
+          updateHistoryButtons();
+      }
+
+      function redo() {
+          if (redoStack.length === 0) return;
+
+          const activeCanvas = getActiveCanvas();
+          if (!activeCanvas) return;
+
+          // Save current state to history stack
+          // 🚨 CRITICAL: Use SAME property list as saveCanvasState()
+          const currentState = {
+              canvasJSON: activeCanvas.toJSON([
+                  'isExerciseCard', 'isNameDateGroup', 'isAnswerCard',
+                  'isPageBorder', 'isHeaderDesc', 'isHeaderElement',
+                  'isBorder', 'isBackground', 'originalIndex'
+              ]),
+              canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+              timestamp: Date.now()
+          };
+          historyStack.push(currentState);
+
+          // Restore next state
+          const nextState = redoStack.pop();
+          restoreCanvasState(nextState);
+
+          updateHistoryButtons();
+      }
+
+      function restoreCanvasState(state) {
+          if (!state) return;
+
+          isRestoringState = true; // Prevent saving during restoration
+
+          const targetCanvas = state.canvasType === 'worksheet' ? worksheetCanvas : answerKeyCanvas;
+          if (!targetCanvas) {
+              isRestoringState = false;
+              return;
+          }
+
+          targetCanvas.loadFromJSON(state.canvasJSON, function() {
+              targetCanvas.renderAll();
+              isRestoringState = false;
+          });
+      }
+
+      function updateHistoryButtons() {
+          console.log("[UNDO DEBUG] updateHistoryButtons called, historyStack.length:", historyStack.length, "redoStack.length:", redoStack.length);
+
+          if (undoBtn) {
+              undoBtn.disabled = historyStack.length === 0;
+          }
+          if (redoBtn) {
+              redoBtn.disabled = redoStack.length === 0;
+          }
+          console.log("[UNDO DEBUG] undoBtn.disabled set to:", undoBtn ? undoBtn.disabled : 'N/A', "redoBtn.disabled set to:", redoBtn ? redoBtn.disabled : 'N/A');
       }
 
       // Expose loadThemes to outer scope for language change handler
@@ -1826,7 +2375,8 @@
             img.scaleToWidth(activeCanvas.width);
             img.set({ left: activeCanvas.width / 2, top: activeCanvas.height / 2, originX: 'center', originY: 'center', selectable: true, evented: true, isBorder: true, opacity: parseFloat(borderOpacitySlider.value) });
             activeCanvas.add(img);
-            enforceZOrder(activeCanvas);
+            img.bringToFront(); // Bring to top so user can select it immediately
+            activeCanvas.setActiveObject(img); // Auto-select to show contextual toolbar
             activeCanvas.renderAll();
             borderOpacitySlider.disabled = false;
         }, { crossOrigin: 'anonymous' });
@@ -1842,7 +2392,8 @@
                 const clonedImg = fabric.util.object.clone(img);
                 clonedImg.set(config).scaleToWidth(c.width);
                 c.add(clonedImg);
-                enforceZOrder(c);
+                clonedImg.bringToFront(); // Bring to top so user can select it immediately
+                c.setActiveObject(clonedImg); // Auto-select to show contextual toolbar
                 c.renderAll();
             });
             backgroundOpacitySlider.disabled = false;
@@ -1852,17 +2403,17 @@
     // --- HEADER & BORDER FUNCTIONS ---
     function createHeaderGroup(canvas) {
         const defaultHeaders = {
-            en: { title: 'More Less', description: 'Compare numbers and choose the right symbol!' },
-            de: { title: 'Mehr Weniger', description: 'Vergleiche die Zahlen und wähle das richtige Symbol!' },
-            fr: { title: 'Plus Moins', description: 'Compare les nombres et choisis le bon symbole!' },
-            es: { title: 'Más Menos', description: '¡Compara los números y elige el símbolo correcto!' },
-            it: { title: 'Più Meno', description: 'Confronta i numeri e scegli il simbolo giusto!' },
-            pt: { title: 'Mais Menos', description: 'Compare os números e escolha o símbolo correto!' },
-            nl: { title: 'Meer Minder', description: 'Vergelijk de getallen en kies het juiste symbool!' },
-            sv: { title: 'Mer Mindre', description: 'Jämför talen och välj rätt symbol!' },
-            da: { title: 'Mere Mindre', description: 'Sammenlign tallene og vælg det rigtige symbol!' },
-            no: { title: 'Mer Mindre', description: 'Sammenlign tallene og velg riktig symbol!' },
-            fi: { title: 'Enemmän Vähemmän', description: 'Vertaa lukuja ja valitse oikea symboli!' }
+            en: { title: 'More Less', description: 'Compare and choose the right symbol!' },
+            de: { title: 'Mehr Weniger', description: 'Vergleiche und wähle das richtige Symbol!' },
+            fr: { title: 'Plus Moins', description: 'Compare et choisis le bon symbole!' },
+            es: { title: 'Más Menos', description: '¡Compara y elige el símbolo correcto!' },
+            it: { title: 'Più Meno', description: 'Confronta e scegli il simbolo giusto!' },
+            pt: { title: 'Mais Menos', description: 'Compare e escolha o símbolo correto!' },
+            nl: { title: 'Meer Minder', description: 'Vergelijk en kies het juiste symbool!' },
+            sv: { title: 'Mer Mindre', description: 'Jämför och välj rätt symbol!' },
+            da: { title: 'Mere Mindre', description: 'Sammenlign og vælg det rigtige symbol!' },
+            no: { title: 'Mer Mindre', description: 'Sammenlign og velg riktig symbol!' },
+            fi: { title: 'Enemmän Vähemmän', description: 'Vertaa ja valitse oikea symboli!' }
         };
 
         const locale = currentLocale || 'en';
@@ -2083,24 +2634,17 @@
 
     function enforceZOrder(canvas) {
         if (!canvas) return;
-        const background = canvas.getObjects().find(o => o.isBackground);
-        if (background) canvas.sendToBack(background);
 
-        const border = canvas.getObjects().find(o => o.isBorder);
-        if (border) {
-            canvas.sendToBack(border);
-            if (background) canvas.bringForward(border);
-        }
+        // REMOVED: Automatic z-order enforcement for backgrounds and borders
+        // Users should have full control over these elements via layer controls
 
-        // Send page borders (header borders) to back, behind all content
+        // Send page borders (purple border around page) to back, behind all content
         const pageBorders = canvas.getObjects().filter(o => o.isPageBorder);
         pageBorders.forEach(pb => {
             canvas.sendToBack(pb);
-            if (background) canvas.bringForward(pb);
-            if (border) canvas.bringForward(pb);
         });
 
-        // Ensure header elements are in proper order (behind exercise cards but above borders)
+        // Ensure header elements are in proper order (behind exercise cards but above page borders)
         const headerElements = canvas.getObjects().filter(o => o.isHeaderElement || o.isHeaderDesc);
         headerElements.forEach(elem => {
             pageBorders.forEach(pb => canvas.bringForward(elem));
@@ -2251,7 +2795,7 @@
     }
 
     async function regenerateAnswerKeyCards(canvas) {
-        const selectedSymbolType = $('input[name="symbol_display_type"]:checked').value;
+        const selectedSymbolType = symbolDisplaySelect.value;
 
         const pageWidth = currentCanvasConfig.width;
         const pageHeight = currentCanvasConfig.height;
@@ -2344,6 +2888,11 @@
     function buildRows(imgs, rels, problemCount) {
         const rows = [];
         if (!imgs?.length || !rels.length) return rows;
+
+        // Get user preferences for new features
+        const comparisonMode = comparisonModeSelect.value || 'image-to-image';
+        const imageVariety = imageVarietySelect.value || 'same';
+
         const pickCounts = rel => {
           let nL, nR;
           if (rel === 'eq') nL = nR = rand(1, DEFAULT_MAX_ITEMS_PER_GROUP);
@@ -2351,11 +2900,30 @@
           else { nL = rand(1, DEFAULT_MAX_ITEMS_PER_GROUP - 1); nR = rand(nL + 1, DEFAULT_MAX_ITEMS_PER_GROUP); }
           return [nL, nR];
         };
+
         for (let i = 0; i < problemCount; i++) {
-            const pic = imgs[i % imgs.length];
-            const rel = rels[rand(0, rels.length - 1)]; 
-            const [nL, nR] = pickCounts(rel); 
-            rows.push({ L: pic, R: pic, rel, nL, nR });
+            const picL = imgs[i % imgs.length];
+            let picR = picL; // Default: same image
+
+            // If different variety is selected, pick a different image for right side
+            if (imageVariety === 'different' && imgs.length > 1) {
+                let attempts = 0;
+                do {
+                    picR = imgs[rand(0, imgs.length - 1)];
+                    attempts++;
+                } while (picR === picL && attempts < 10);
+            }
+
+            const rel = rels[rand(0, rels.length - 1)];
+            const [nL, nR] = pickCounts(rel);
+            rows.push({
+                L: picL,
+                R: picR,
+                rel,
+                nL,
+                nR,
+                comparisonMode // Store the comparison mode for this exercise
+            });
         }
         return rows;
     }
@@ -2486,7 +3054,8 @@
                 opacity: parseFloat(borderOpacitySlider.value)
             });
             activeCanvas.add(img);
-            enforceZOrder(activeCanvas);
+            img.bringToFront(); // Bring to top so user can select it immediately
+            activeCanvas.setActiveObject(img); // Auto-select to show contextual toolbar
             activeCanvas.renderAll();
             borderOpacitySlider.disabled = false;
         }, { crossOrigin: 'anonymous' });
@@ -2513,7 +3082,8 @@
                 opacity: parseFloat(backgroundOpacitySlider.value)
             });
             activeCanvas.add(img);
-            enforceZOrder(activeCanvas);
+            img.bringToFront(); // Bring to top so user can select it immediately
+            activeCanvas.setActiveObject(img); // Auto-select to show contextual toolbar
             activeCanvas.renderAll();
             backgroundOpacitySlider.disabled = false;
         }, { crossOrigin: 'anonymous' });
@@ -2532,6 +3102,9 @@
         try {
             clearSidebarMessage();
             if (!worksheetCanvas) return;
+
+            // Set isGenerating flag to prevent saving state during bulk generation
+            isGenerating = true;
 
             // Clear all old cards - always apply fresh layout
             // This ensures consistent multi-column layout on each generation
@@ -2552,7 +3125,7 @@
                 headerObjects.forEach(obj => worksheetCanvas.add(obj));
             }
 
-            const imageSelectionMode = $('input[name="image_selection_mode"]:checked').value;
+            const imageSelectionMode = imageSelectionModeSelect.value;
             let imagesForGeneration = [];
             if (imageSelectionMode === 'theme') {
                 const selectedTheme = themeWorksheetSelect.value;
@@ -2616,8 +3189,14 @@
             userAddedObjects.forEach(o => worksheetCanvas.bringToFront(o));
             worksheetCanvas.renderAll();
 
-            [generateAnswerKeyBtn, downloadAnswerKeyJpegBtn, downloadAnswerKeyPdfBtn].forEach(b => b.disabled = false);
+            [generateAnswerKeyBtn, downloadWorksheetJpegBtn, downloadWorksheetPdfBtn, downloadAnswerKeyJpegBtn, downloadAnswerKeyPdfBtn].forEach(b => b.disabled = false);
             showSidebarMessage(t('moreless.msg.worksheet.success'), "success");
+
+            // Reset isGenerating flag
+            isGenerating = false;
+
+            // Save state AFTER generation completes
+            saveCanvasState();
 
         } catch(e) { 
             console.error(e); 
@@ -2636,7 +3215,7 @@
         const spacing = itemHeight * 0.2; // Scale spacing with item size
         const includeNumbers = includeExerciseNumbersCheckbox.checked;
         const showSym = showSymCheckbox.checked;
-        const selectedSymbolType = $('input[name="symbol_display_type"]:checked').value;
+        const selectedSymbolType = symbolDisplaySelect.value;
 
         const contentElements = [];
 
@@ -2681,8 +3260,21 @@
         symbolGroup.scaleToHeight(itemHeight);
         contentElements.push(symbolGroup);
 
-        const rightGroup = await createImageCluster(problemData.nR, problemData.R, itemHeight);
-        if(rightGroup) contentElements.push(rightGroup);
+        // Check comparison mode: image-to-image or image-to-number
+        if (problemData.comparisonMode === 'image-to-number') {
+            // Display right side as a number instead of images
+            const numberText = new fabric.Text(String(problemData.nR), {
+                fontSize: itemHeight * 0.8,
+                fontWeight: 'bold',
+                fontFamily: 'Fredoka',
+                fill: '#333'
+            });
+            contentElements.push(numberText);
+        } else {
+            // Default: display right side as images
+            const rightGroup = await createImageCluster(problemData.nR, problemData.R, itemHeight);
+            if(rightGroup) contentElements.push(rightGroup);
+        }
         
         let maxContentHeight = 0;
         contentElements.forEach(el => {
@@ -2925,8 +3517,8 @@
             }));
         }
 
-        const selectedSymbolType = $('input[name="symbol_display_type"]:checked').value;
-        
+        const selectedSymbolType = symbolDisplaySelect.value;
+
         // Use actual page dimensions for proper layout
         const pageWidth = currentCanvasConfig.width;
         const pageHeight = currentCanvasConfig.height;
@@ -3210,7 +3802,22 @@ async function downloadPDF(canvasToExport, filename) {
         canvas.on({
             'selection:created': function(e) { handleObjectSelection(e, this); },
             'selection:updated': function(e) { handleObjectSelection(e, this); },
-            'selection:cleared': function(e) { handleSelectionCleared(e, this); }
+            'selection:cleared': function(e) { handleSelectionCleared(e, this); },
+            'object:modified': function(e) {
+                if (!isRestoringState && !isGenerating) {
+                    saveCanvasState();
+                }
+            },
+            'object:added': function(e) {
+                if (!isRestoringState && !isGenerating) {
+                    saveCanvasState();
+                }
+            },
+            'object:removed': function(e) {
+                if (!isRestoringState && !isGenerating) {
+                    saveCanvasState();
+                }
+            }
         });
     }
 
@@ -3281,9 +3888,9 @@ async function downloadPDF(canvasToExport, filename) {
         });
 
         [textInput, textColorInput, fontSizeInput, fontFamilySelect, textStrokeColorInput, textStrokeWidthInput].forEach(el => el.addEventListener('input', updateActiveTextObjectProperties));
-        imageSelectionModeRadios.forEach(radio => radio.onchange = () => {
-            individualImageSelectionSection.style.display = radio.value === 'individual' ? 'block' : 'none';
-            worksheetThemeSelectionSection.style.display = radio.value === 'theme' ? 'block' : 'none';
+        imageSelectionModeSelect.addEventListener('change', () => {
+            individualImageSelectionSection.style.display = imageSelectionModeSelect.value === 'individual' ? 'block' : 'none';
+            worksheetThemeSelectionSection.style.display = imageSelectionModeSelect.value === 'theme' ? 'block' : 'none';
         });
         themeDictSelect.addEventListener("change", renderDictionaryFunc);
         const searchInput = document.createElement('input'); 
@@ -3352,15 +3959,25 @@ async function downloadPDF(canvasToExport, filename) {
         downloadAnswerKeyJpegBtn.addEventListener("click", () => downloadImageFile(answerKeyCanvas, 'answer_key.jpeg'));
         downloadWorksheetPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
         downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, 'answer_key.pdf'));
-        
+
+        // Zoom Controls (from wordsearch lines 1520-1522)
+        zoomInBtn.addEventListener('click', zoomIn);
+        zoomOutBtn.addEventListener('click', zoomOut);
+        zoomResetBtn.addEventListener('click', zoomReset);
+
+        // Undo/Redo Controls
+        undoBtn.addEventListener('click', undo);
+        redoBtn.addEventListener('click', redo);
+
         clearBtn.addEventListener("click", () => {
             selectedImages.clear(); uploadedImages = []; lastGeneratedRows = [];
-            problemCountInput.value = 5; imageSelectionModeRadios[0].checked = true;
+            problemCountInput.value = 5; imageSelectionModeSelect.value = 'individual';
             individualImageSelectionSection.style.display = 'block'; worksheetThemeSelectionSection.style.display = 'none';
             themeDictSelect.value = "all"; themeWorksheetSelect.value = "";
             $('#searchInput').value = "";
             relationCheckboxes.forEach(cb => cb.checked = true);
-            symbolDisplayTypeRadios[0].checked = true; showSymCheckbox.checked = false;
+            symbolDisplaySelect.value = 'image'; showSymCheckbox.checked = false;
+            comparisonModeSelect.value = 'image-to-image'; imageVarietySelect.value = 'same';
             includeNameDateCheckbox.checked = false; includeExerciseNumbersCheckbox.checked = true;
             pageColorInput.value = '#FFFFFF';
             [borderThemeSelect, backgroundThemeSelect].forEach(s => s.value = 'none');
@@ -3384,8 +4001,13 @@ async function downloadPDF(canvasToExport, filename) {
         }));
 
         [layersBtn, alignBtn].forEach(b => b.addEventListener('click', e => { e.stopPropagation(); togglePopover(b.nextElementSibling); }));
+
+        // Layer Controls
+        toolbarBringToFrontBtn.addEventListener('click', bringObjectToFront);
         toolbarBringForwardBtn.addEventListener('click', bringObjectForward);
         toolbarSendBackwardBtn.addEventListener('click', sendObjectBackward);
+        toolbarSendToBackBtn.addEventListener('click', sendObjectToBack);
+
         toolbarDeleteBtn.addEventListener('click', deleteSelectedObjects);
         document.querySelectorAll('#alignDropdown button').forEach(button => button.addEventListener('click', e => alignObjects(e.currentTarget.id.replace('Btn', ''))));
 
@@ -3397,10 +4019,16 @@ async function downloadPDF(canvasToExport, filename) {
         worksheetCanvas = initializeCanvas(worksheetCanvasElement);
         worksheetCanvasRef = worksheetCanvas; // Expose to outer scope
         answerKeyCanvas = initializeCanvas(answerKeyCanvasElement);
-        
+
         // CRITICAL: Set display dimensions AFTER canvas creation
         updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height, true);
-        
+
+        // Initialize zoom display
+        updateZoomDisplay();
+
+        // Initialize undo/redo button states
+        updateHistoryButtons();
+
         // Update on window resize for responsive behavior
         window.addEventListener('resize', () => {
             updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height, true);

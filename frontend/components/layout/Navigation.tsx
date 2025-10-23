@@ -72,14 +72,14 @@ export function Navigation() {
         <div className="flex items-center justify-between h-[60px] md:h-[140px]">
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center space-x-2 md:space-x-4 h-full">
-            {/* Display LCS logo - responsive sizing (increased 60%) */}
-            <div className="flex items-center justify-center h-[80px] md:h-[180px] w-auto max-w-[128px] md:max-w-[288px]">
+            {/* Display LCS logo - optimized sizing (30% reduction) */}
+            <div className="flex items-center justify-center h-[56px] md:h-[126px] w-auto max-w-[90px] md:max-w-[202px]">
               <img
                 src={logoImage}
                 alt={logoText}
-                className="max-h-[80px] md:max-h-[180px] max-w-[128px] md:max-w-[288px] w-auto h-auto object-contain"
+                className="max-h-[56px] md:max-h-[126px] max-w-[90px] md:max-w-[202px] w-auto h-auto object-contain"
                 style={{
-                  backgroundColor: 'white'
+                  backgroundColor: '#f9fafb'
                 }}
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;

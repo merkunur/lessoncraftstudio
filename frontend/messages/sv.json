@@ -182,7 +182,7 @@
       "coloringPages": "Målarbilder",
       "mathWorksheets": "Matteblad",
       "wordScramble": "Ordmix",
-      "findAndCount": "Hitta och Räkna",
+      "findAndCount": "Jag ser, jag ser",
       "matchUpMaker": "Matchningsspel",
       "drawingLines": "Rita Linjer",
       "pictureBingo": "Bildbingo",
@@ -939,7 +939,7 @@
         "description": "Roligt alfabetsinlärning"
       },
       "findAndCount": {
-        "name": "Hitta och räkna",
+        "name": "Jag ser, jag ser",
         "description": "Visuella räkneövningar"
       },
       "matching": {

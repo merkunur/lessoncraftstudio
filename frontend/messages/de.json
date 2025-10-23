@@ -154,7 +154,7 @@
       "coloringPages": "Ausmalbilder",
       "mathWorksheets": "Mathe-Arbeitsblätter",
       "wordScramble": "Buchstabensalat",
-      "findAndCount": "Suchen und Zählen",
+      "findAndCount": "Ich sehe was",
       "matchUpMaker": "Zuordnungsspiel",
       "drawingLines": "Linien Zeichnen",
       "pictureBingo": "Bilder-Bingo",
@@ -1001,7 +1001,7 @@
         "description": "Spielerisches Alphabet-Lernen"
       },
       "findAndCount": {
-        "name": "Finden und Zählen",
+        "name": "Ich sehe was",
         "description": "Visuelle Zählübungen"
       },
       "matching": {

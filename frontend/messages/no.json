@@ -182,7 +182,7 @@
       "coloringPages": "Malesider",
       "mathWorksheets": "Matteark",
       "wordScramble": "Ordmiks",
-      "findAndCount": "Finn og Tell",
+      "findAndCount": "Jeg ser, jeg ser",
       "matchUpMaker": "Parspill",
       "drawingLines": "Tegn Linjer",
       "pictureBingo": "Bildebingo",
@@ -939,7 +939,7 @@
         "description": "Morsom alfabetlæring"
       },
       "findAndCount": {
-        "name": "Finn og tell",
+        "name": "Jeg ser, jeg ser",
         "description": "Visuelle telleøvelser"
       },
       "matching": {

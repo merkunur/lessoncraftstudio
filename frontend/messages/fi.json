@@ -182,7 +182,7 @@
       "coloringPages": "Värityskuvat",
       "mathWorksheets": "Matematiikkatehtävät",
       "wordScramble": "Sekoitetut Sanat",
-      "findAndCount": "Etsi ja Laske",
+      "findAndCount": "Minä näen",
       "matchUpMaker": "Parikorttipeli",
       "drawingLines": "Viivan Veto",
       "pictureBingo": "Kuvabingo",
@@ -931,7 +931,7 @@
         "description": "Hauska aakkosten oppiminen"
       },
       "findAndCount": {
-        "name": "Etsi ja laske",
+        "name": "Minä näen",
         "description": "Visuaaliset laskuharjoitukset"
       },
       "matching": {

@@ -195,7 +195,7 @@
       "coloringPages": "Páginas para Colorir",
       "mathWorksheets": "Fichas de Matemática",
       "wordScramble": "Palavras Baralhadas",
-      "findAndCount": "Procura e Conta",
+      "findAndCount": "Vejo, Vejo",
       "matchUpMaker": "Jogo de Pares",
       "drawingLines": "Traçar Linhas",
       "pictureBingo": "Bingo de Imagens",
@@ -952,7 +952,7 @@
         "description": "Aprendizado divertido do alfabeto"
       },
       "findAndCount": {
-        "name": "Encontrar e contar",
+        "name": "Vejo, Vejo",
         "description": "Exercícios de contagem visual"
       },
       "matching": {

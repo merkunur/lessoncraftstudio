@@ -195,7 +195,7 @@
       "coloringPages": "Kleurplaten",
       "mathWorksheets": "Rekenwerkbladen",
       "wordScramble": "Letterkraker",
-      "findAndCount": "Zoek en Tel",
+      "findAndCount": "Ik zie, ik zie",
       "matchUpMaker": "Koppelspel",
       "drawingLines": "Lijnen Trekken",
       "pictureBingo": "Plaatjesbingo",
@@ -952,7 +952,7 @@
         "description": "Leuk alfabet leren"
       },
       "findAndCount": {
-        "name": "Zoek en tel",
+        "name": "Ik zie, ik zie",
         "description": "Visuele teloefeningen"
       },
       "matching": {

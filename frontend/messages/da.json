@@ -182,7 +182,7 @@
       "coloringPages": "Malebøger",
       "mathWorksheets": "Matematikark",
       "wordScramble": "Ordforbytter",
-      "findAndCount": "Find og Tæl",
+      "findAndCount": "Jeg ser, jeg ser",
       "matchUpMaker": "Parspil",
       "drawingLines": "Tegn Linjer",
       "pictureBingo": "Billedbingo",
@@ -939,7 +939,7 @@
         "description": "Sjov alfabetindlæring"
       },
       "findAndCount": {
-        "name": "Find og tæl",
+        "name": "Jeg ser, jeg ser",
         "description": "Visuelle tælleøvelser"
       },
       "matching": {

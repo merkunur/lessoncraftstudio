@@ -195,7 +195,7 @@
       "coloringPages": "Pages à Colorier",
       "mathWorksheets": "Fiches de Mathématiques",
       "wordScramble": "Mots Mêlés",
-      "findAndCount": "Cherche et Compte",
+      "findAndCount": "Je vois, je vois",
       "matchUpMaker": "Jeu d'Associations",
       "drawingLines": "Tracé de Lignes",
       "pictureBingo": "Loto d'Images",
@@ -952,7 +952,7 @@
         "description": "Apprentissage ludique de l'alphabet"
       },
       "findAndCount": {
-        "name": "Trouver et compter",
+        "name": "Je vois, je vois",
         "description": "Exercices de comptage visuel"
       },
       "matching": {

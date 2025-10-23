@@ -78,9 +78,6 @@ export function Navigation() {
                 src={logoImage}
                 alt={logoText}
                 className="max-h-[80px] md:max-h-[180px] max-w-[128px] md:max-w-[288px] w-auto h-auto object-contain"
-                style={{
-                  backgroundColor: 'white'
-                }}
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
                   target.style.display = 'none';

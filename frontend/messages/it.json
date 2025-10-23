@@ -195,7 +195,7 @@
       "coloringPages": "Pagine da Colorare",
       "mathWorksheets": "Schede di Matematica",
       "wordScramble": "Parole Mescolate",
-      "findAndCount": "Trova e Conta",
+      "findAndCount": "Vedo Vedo",
       "matchUpMaker": "Gioco di Abbinamenti",
       "drawingLines": "Traccia le Linee",
       "pictureBingo": "Tombola delle Immagini",
@@ -952,7 +952,7 @@
         "description": "Apprendimento divertente dell'alfabeto"
       },
       "findAndCount": {
-        "name": "Trova e conta",
+        "name": "Vedo Vedo",
         "description": "Esercizi di conteggio visivo"
       },
       "matching": {

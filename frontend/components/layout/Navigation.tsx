@@ -69,7 +69,7 @@ export function Navigation() {
   return (
     <nav className="bg-gray-50 border-b border-gray-200">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-[85px] md:h-[190px]">
+        <div className="flex items-center justify-between h-[60px] md:h-[140px]">
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center space-x-2 md:space-x-4 h-full">
             {/* Display LCS logo - responsive sizing (increased 60%) */}
@@ -78,6 +78,9 @@ export function Navigation() {
                 src={logoImage}
                 alt={logoText}
                 className="max-h-[80px] md:max-h-[180px] max-w-[128px] md:max-w-[288px] w-auto h-auto object-contain"
+                style={{
+                  backgroundColor: 'white'
+                }}
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
                   target.style.display = 'none';

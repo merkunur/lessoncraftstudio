@@ -112,7 +112,7 @@ async function getAppData(slug: string, locale: string) {
       features: ['Activités de traçage', 'Reliez les points', 'Suivre un chemin', 'Préparation à l\'écriture']
     },
     'find-and-count': {
-      name: 'Chercher et Compter',
+      name: 'Je vois, je vois',
       appId: 'find-and-count',
       description: 'Exercices de comptage visuel pour développer la reconnaissance des nombres',
       category: 'Perception Visuelle',
@@ -380,7 +380,7 @@ async function getAppData(slug: string, locale: string) {
       features: ['Actividades de trazado', 'Une los puntos', 'Seguimiento de caminos', 'Preparación para la escritura']
     },
     'find-and-count': {
-      name: 'Buscar y Contar',
+      name: 'Veo Veo',
       appId: 'find-and-count',
       description: 'Ejercicios de conteo visual para desarrollar el reconocimiento numérico',
       category: 'Percepción Visual',
@@ -648,7 +648,7 @@ async function getAppData(slug: string, locale: string) {
       features: ['Nachspurübungen', 'Punkteverbinden', 'Linienführung', 'Schreibvorbereitung']
     },
     'find-and-count': {
-      name: 'Suchen & Zählen',
+      name: 'Ich sehe was',
       appId: 'find-and-count',
       description: 'Zahlenverständnis aufbauen mit motivierenden Zähl- und Suchübungen',
       category: 'Visuelle Wahrnehmung',
@@ -916,7 +916,7 @@ async function getAppData(slug: string, locale: string) {
       features: ['Attività di tracciamento', 'Unisci i puntini', 'Seguire percorsi', 'Preparazione alla scrittura']
     },
     'find-and-count': {
-      name: 'Trova e Conta',
+      name: 'Vedo Vedo',
       appId: 'find-and-count',
       description: 'Esercizi di conteggio visivo per sviluppare il riconoscimento numerico',
       category: 'Percezione Visiva',
@@ -1184,7 +1184,7 @@ async function getAppData(slug: string, locale: string) {
       features: ['Atividades de traçado', 'Ligue os pontos', 'Seguir caminhos', 'Preparação para a escrita']
     },
     'find-and-count': {
-      name: 'Encontrar e Contar',
+      name: 'Vejo, Vejo',
       appId: 'find-and-count',
       description: 'Exercícios de contagem visual para desenvolver o reconhecimento numérico',
       category: 'Percepção Visual',
@@ -1452,7 +1452,7 @@ async function getAppData(slug: string, locale: string) {
       features: ['Traceeroefeningen', 'Stippen verbinden', 'Paden volgen', 'Schrijfvoorbereiding']
     },
     'find-and-count': {
-      name: 'Zoek en Tel',
+      name: 'Ik zie, ik zie',
       appId: 'find-and-count',
       description: 'Visuele teloefeningen om getalherkenning en telvaardigheden te ontwikkelen',
       category: 'Visuele Waarneming',
@@ -1720,7 +1720,7 @@ async function getAppData(slug: string, locale: string) {
       features: ['Spårningsaktiviteter', 'Pricka till pricka', 'Följa stigar', 'Förskrivningsträning']
     },
     'find-and-count': {
-      name: 'Hitta och Räkna',
+      name: 'Jag ser, jag ser',
       appId: 'find-and-count',
       description: 'Visuella räkneövningar för att utveckla sifferigenkänning och räkneförmåga',
       category: 'Visuell Uppfattning',
@@ -1988,7 +1988,7 @@ async function getAppData(slug: string, locale: string) {
       features: ['Sporingsaktiviteter', 'Forbind prikkerne', 'Følg stier', 'Forskrivetræning']
     },
     'find-and-count': {
-      name: 'Find og Tæl',
+      name: 'Jeg ser, jeg ser',
       appId: 'find-and-count',
       description: 'Visuelle tælleøvelser for at udvikle talgenkendelse og tælleevner',
       category: 'Visuel Opfattelse',
@@ -2256,7 +2256,7 @@ async function getAppData(slug: string, locale: string) {
       features: ['Sporingsaktiviteter', 'Forbind prikkene', 'Følge stier', 'Forskriving']
     },
     'find-and-count': {
-      name: 'Finn og Tell',
+      name: 'Jeg ser, jeg ser',
       appId: 'find-and-count',
       description: 'Visuelle telleøvelser for å utvikle tallgjenkjenning og telleferdigheter',
       category: 'Visuell Persepsjon',
@@ -2524,7 +2524,7 @@ async function getAppData(slug: string, locale: string) {
       features: ['Jäljitysharjoitukset', 'Yhdistä pisteet', 'Polkujen seuraaminen', 'Esikirjoitusvalmennusta']
     },
     'find-and-count': {
-      name: 'Etsi ja Laske',
+      name: 'Minä näen',
       appId: 'find-and-count',
       description: 'Visuaaliset laskuharjoitukset numeroiden tunnistamisen ja laskutaitojen kehittämiseen',
       category: 'Visuaalinen Hahmotus',

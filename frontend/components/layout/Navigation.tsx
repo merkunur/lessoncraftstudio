@@ -79,7 +79,7 @@ export function Navigation() {
                 alt={logoText}
                 className="max-h-[105px] md:max-h-[240px] max-w-[169px] md:max-w-[384px] w-auto h-auto object-contain relative -z-10"
                 style={{
-                  backgroundColor: '#fafafa',
+                  backgroundColor: '#fcfcfc',
                   clipPath: 'inset(20% 20% 20% 20%)'
                 }}
                 onError={(e) => {

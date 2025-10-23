@@ -2939,8 +2939,9 @@
                     // Pick one symbol to use
                     const chosenSymbol = activeSymbolsForPuzzle[Math.floor(Math.random() * activeSymbolsForPuzzle.length)];
 
-                    // Randomly choose method: 60% chance doubled (A+A), 40% chance single with number (A+3)
-                    const useDoubledMethod = Math.random() < 0.6;
+                    // Randomly choose method: 30% chance doubled (A+A), 70% chance single with number (A+3)
+                    // Prefer single+numbers to create more variety
+                    const useDoubledMethod = Math.random() < 0.3;
 
                     if (useDoubledMethod) {
                         // Method 1: Doubled symbol (A + A = X or A + A + number = X)
@@ -2979,8 +2980,8 @@
                   const shouldAddNumber = (isVeryEasy || isEasy) && !hasNumber && (terms.length > 0 && Math.random() < 0.5);
 
                   // Allow reusing symbols from earlier in the SAME equation to create A+A patterns
-                  // Moderate probability (0.7) to naturally create directly solvable equations
-                  const canReuseSymbol = encourageDirectlySolvable && equationSymbolsUsed.size > 0 && i > 0 && !shouldAddNumber && Math.random() < 0.7;
+                  // LOW probability (0.2 = 20%) to avoid creating too many doubled equations
+                  const canReuseSymbol = encourageDirectlySolvable && equationSymbolsUsed.size > 0 && i > 0 && !shouldAddNumber && Math.random() < 0.2;
 
                   if (canReuseSymbol) {
                     // Reuse a symbol from this equation (e.g., if term 0 was 'A', term 1 can also be 'A')
@@ -3041,13 +3042,19 @@
                    const hasDoubled = Object.values(symbolCounts).some(count => count > 1);
                    const uniqueSymbolsInEquation = Object.keys(symbolCounts).length;
 
-                   // CRITICAL: A directly solvable equation can be:
+                   // CRITICAL FIX: A directly solvable equation can be:
                    // Method 1 (Doubled): One symbol repeated (A + A = 10 or A + A + 2 = 12)
-                   // Method 2 (Single with numbers): One symbol with only numbers (A + 3 = 8 or A - 2 = 5)
+                   //   - hasDoubled = true AND uniqueSymbolsInEquation = 1
+                   // Method 2 (Single with numbers): One symbol appears ONCE with only numbers (A + 3 = 8 or A - 2 = 5)
+                   //   - hasDoubled = false AND uniqueSymbolsInEquation = 1
                    const isDoubledMethod = hasDoubled && uniqueSymbolsInEquation === 1;
-                   const isSingleWithNumbers = uniqueSymbolsInEquation === 1; // One unique symbol, rest are numbers
+                   const isSingleWithNumbers = !hasDoubled && uniqueSymbolsInEquation === 1; // NOT doubled AND one unique symbol
                    const isDirectlySolvable = isDoubledMethod || isSingleWithNumbers;
-                   if (isDirectlySolvable) hasDirectlySolvableEquation = true;
+
+                   // Only mark as having directly solvable equation if we don't already have one
+                   if (isDirectlySolvable && !hasDirectlySolvableEquation) {
+                       hasDirectlySolvableEquation = true;
+                   }
 
                    usedEquations.add(equationKey); // Mark this equation as used
                    equations.push({ expr: exprStringForDisplay, result });

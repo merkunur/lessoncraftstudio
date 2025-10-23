@@ -73,11 +73,11 @@ export function Navigation() {
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center space-x-2 md:space-x-4 h-full relative z-10">
             {/* Display LCS logo - cropped 20% from all edges using clip-path */}
-            <div className="flex items-center justify-center h-[105px] md:h-[240px] w-auto max-w-[169px] md:max-w-[384px]">
+            <div className="flex items-center justify-center h-[84px] md:h-[189px] w-auto max-w-[135px] md:max-w-[303px]">
               <img
                 src={logoImage}
                 alt={logoText}
-                className="max-h-[105px] md:max-h-[240px] max-w-[169px] md:max-w-[384px] w-auto h-auto object-contain relative -z-10"
+                className="max-h-[84px] md:max-h-[189px] max-w-[135px] md:max-w-[303px] w-auto h-auto object-contain relative -z-10"
                 style={{
                   backgroundColor: '#fcfcfc',
                   clipPath: 'inset(20% 20% 20% 20%)'

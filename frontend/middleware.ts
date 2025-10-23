@@ -95,8 +95,8 @@ export default function middleware(request: NextRequest) {
 }
 
 export const config = {
-  // Match all paths except api routes, _next, static files, worksheet resources, blog assets, and app routes
+  // Match all paths except api routes, _next, static files, worksheet resources, blog assets, image files, and app routes
   matcher: [
-    '/((?!api|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml|worksheet-generators|worksheet-images|worksheet-samples|homepage-content-manager.*\\.html|images|test-.*\\.html|js|uploads|upload|static-page-manager\\.html|page-manager\\.html|easy-page-manager\\.html|simple-upload\\.html|simple-upload|admin|dashboard|settings|notifications|collaboration|testing|search|blog/pdfs|blog/thumbnails|blog/images).*)',
+    '/((?!api|_next/static|_next/image|favicon.ico|robots.txt|sitemap.xml|.*\\.(?:png|jpg|jpeg|svg|ico|webp|gif)$|worksheet-generators|worksheet-images|worksheet-samples|homepage-content-manager.*\\.html|images|test-.*\\.html|js|uploads|upload|static-page-manager\\.html|page-manager\\.html|easy-page-manager\\.html|simple-upload\\.html|simple-upload|admin|dashboard|settings|notifications|collaboration|testing|search|blog/pdfs|blog/thumbnails|blog/images).*)',
   ]
 };

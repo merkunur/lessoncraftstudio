@@ -1065,12 +1065,8 @@
                     <option value="image-image">Image + Image</option>
                     <option value="image-number">Image + Number</option>
                     <option value="find-addend">Find Addend (A + ? = C)</option>
+                    <option value="mixed">Mixed (Image-Number + Find Addend)</option>
                 </select>
-                <p style="font-size: 11px; color: var(--app-text-secondary-dark-theme); margin-top: 5px;">
-                    <strong>Image + Image:</strong> Both operands shown as images<br>
-                    <strong>Image + Number:</strong> First operand as images, second as number<br>
-                    <strong>Find Addend:</strong> Student finds missing second addend (A + ? = C)
-                </p>
 
                 <label for="problemCount" data-translate="numberOfExercises">Number of Exercises (1–10):</label>
                 <input type="number" id="problemCount" value="6" min="1" max="10" />
@@ -1094,12 +1090,15 @@
                     <input type="checkbox" id="showWrittenExpression" /><span>Show written expression (e.g., "3 + 2 = __")</span>
                 </label>
 
-                <h4 style="margin-top: 20px;">Header & Border</h4>
-                <label class="checkbox-label"><input type="checkbox" id="showHeaderCheckbox" checked /> Show Header & Border</label>
-                <label for="headerTitleInput">Custom Title:</label>
-                <input type="text" id="headerTitleInput" placeholder="Leave empty for default" />
-                <label for="headerDescriptionInput">Custom Description:</label>
-                <input type="text" id="headerDescriptionInput" placeholder="Leave empty for default" />
+                <!-- Header & Border section hidden -->
+                <div style="display: none;">
+                    <h4 style="margin-top: 20px;">Header & Border</h4>
+                    <label class="checkbox-label"><input type="checkbox" id="showHeaderCheckbox" checked /> Show Header & Border</label>
+                    <label for="headerTitleInput">Custom Title:</label>
+                    <input type="text" id="headerTitleInput" placeholder="Leave empty for default" />
+                    <label for="headerDescriptionInput">Custom Description:</label>
+                    <input type="text" id="headerDescriptionInput" placeholder="Leave empty for default" />
+                </div>
             </div>
         </div>
 
@@ -2602,67 +2601,78 @@
                 title: 'Addition Fun',
                 descriptionImageImage: 'Add the numbers and write your answers!',
                 descriptionImageNumber: 'Count the images, add the number, and write your answer!',
-                descriptionFindAddend: 'Find the missing number to make the addition correct!'
+                descriptionFindAddend: 'Find the missing number to make the addition correct!',
+                descriptionMixed: 'Practice addition with mixed exercise types!'
             },
             de: {
                 title: 'Additionsspaß',
                 descriptionImageImage: 'Addiere die Zahlen und schreibe deine Antworten!',
                 descriptionImageNumber: 'Zähle die Bilder, addiere die Zahl und schreibe deine Antwort!',
-                descriptionFindAddend: 'Finde die fehlende Zahl, um die Addition zu vervollständigen!'
+                descriptionFindAddend: 'Finde die fehlende Zahl, um die Addition zu vervollständigen!',
+                descriptionMixed: 'Übe Addition mit gemischten Aufgabentypen!'
             },
             fr: {
                 title: 'Addition Amusante',
                 descriptionImageImage: 'Additionne les nombres et écris tes réponses!',
                 descriptionImageNumber: 'Compte les images, ajoute le nombre et écris ta réponse!',
-                descriptionFindAddend: 'Trouve le nombre manquant pour compléter l\'addition!'
+                descriptionFindAddend: 'Trouve le nombre manquant pour compléter l\'addition!',
+                descriptionMixed: 'Pratique l\'addition avec des types d\'exercices mixtes!'
             },
             es: {
                 title: 'Suma Divertida',
                 descriptionImageImage: '¡Suma los números y escribe tus respuestas!',
                 descriptionImageNumber: '¡Cuenta las imágenes, suma el número y escribe tu respuesta!',
-                descriptionFindAddend: '¡Encuentra el número que falta para completar la suma!'
+                descriptionFindAddend: '¡Encuentra el número que falta para completar la suma!',
+                descriptionMixed: '¡Practica la suma con tipos de ejercicios mixtos!'
             },
             it: {
                 title: 'Addizione Divertente',
                 descriptionImageImage: 'Addiziona i numeri e scrivi le tue risposte!',
                 descriptionImageNumber: 'Conta le immagini, aggiungi il numero e scrivi la tua risposta!',
-                descriptionFindAddend: 'Trova il numero mancante per completare l\'addizione!'
+                descriptionFindAddend: 'Trova il numero mancante per completare l\'addizione!',
+                descriptionMixed: 'Pratica l\'addizione con tipi di esercizi misti!'
             },
             pt: {
                 title: 'Adição Divertida',
                 descriptionImageImage: 'Some os números e escreve as tuas respostas!',
                 descriptionImageNumber: 'Conta as imagens, soma o número e escreve a tua resposta!',
-                descriptionFindAddend: 'Encontra o número em falta para completar a adição!'
+                descriptionFindAddend: 'Encontra o número em falta para completar a adição!',
+                descriptionMixed: 'Pratica a adição com tipos de exercícios mistos!'
             },
             nl: {
                 title: 'Optellen is Leuk',
                 descriptionImageImage: 'Tel de getallen op en schrijf je antwoorden!',
                 descriptionImageNumber: 'Tel de afbeeldingen, tel het getal erbij op en schrijf je antwoord!',
-                descriptionFindAddend: 'Vind het ontbrekende getal om de optelling te voltooien!'
+                descriptionFindAddend: 'Vind het ontbrekende getal om de optelling te voltooien!',
+                descriptionMixed: 'Oefen optellen met gemengde oefeningstypes!'
             },
             sv: {
                 title: 'Rolig Addition',
                 descriptionImageImage: 'Addera talen och skriv dina svar!',
                 descriptionImageNumber: 'Räkna bilderna, lägg till talet och skriv ditt svar!',
-                descriptionFindAddend: 'Hitta det saknade talet för att slutföra additionen!'
+                descriptionFindAddend: 'Hitta det saknade talet för att slutföra additionen!',
+                descriptionMixed: 'Öva addition med blandade övningstyper!'
             },
             da: {
                 title: 'Sjov Addition',
                 descriptionImageImage: 'Læg tallene sammen og skriv dine svar!',
                 descriptionImageNumber: 'Tæl billederne, læg tallet til og skriv dit svar!',
-                descriptionFindAddend: 'Find det manglende tal for at fuldføre additionen!'
+                descriptionFindAddend: 'Find det manglende tal for at fuldføre additionen!',
+                descriptionMixed: 'Øv addition med blandede øvelsestyper!'
             },
             no: {
                 title: 'Gøy Addisjon',
                 descriptionImageImage: 'Legg sammen tallene og skriv svarene dine!',
                 descriptionImageNumber: 'Tell bildene, legg til tallet og skriv svaret ditt!',
-                descriptionFindAddend: 'Finn det manglende tallet for å fullføre addisjonen!'
+                descriptionFindAddend: 'Finn det manglende tallet for å fullføre addisjonen!',
+                descriptionMixed: 'Øv på addisjon med blandede øvelsestyper!'
             },
             fi: {
                 title: 'Hauska Yhteenlasku',
                 descriptionImageImage: 'Laske luvut yhteen ja kirjoita vastauksesi!',
                 descriptionImageNumber: 'Laske kuvat, lisää luku ja kirjoita vastauksesi!',
-                descriptionFindAddend: 'Löydä puuttuva luku yhteenlaskun täydentämiseksi!'
+                descriptionFindAddend: 'Löydä puuttuva luku yhteenlaskun täydentämiseksi!',
+                descriptionMixed: 'Harjoittele yhteenlaskua sekatyyppisillä tehtävillä!'
             }
         };
 
@@ -2677,6 +2687,8 @@
             description = defaults.descriptionFindAddend;
         } else if (exerciseMode === 'image-number') {
             description = defaults.descriptionImageNumber;
+        } else if (exerciseMode === 'mixed') {
+            description = defaults.descriptionMixed;
         } else {
             description = defaults.descriptionImageImage;
         }
@@ -3056,7 +3068,12 @@
             }
 
             // Handle second operand based on exercise mode
-            const exerciseMode = exerciseModeSelect ? exerciseModeSelect.value : 'image-image';
+            let exerciseMode = exerciseModeSelect ? exerciseModeSelect.value : 'image-image';
+
+            // For mixed mode, randomly select between image-number and find-addend for each exercise
+            if (exerciseMode === 'mixed') {
+                exerciseMode = Math.random() < 0.5 ? 'image-number' : 'find-addend';
+            }
 
             if (exerciseMode === 'find-addend') {
                 // Find addend mode: Show ? for second operand
@@ -3156,9 +3173,37 @@
                 currentX += expressionObject.getScaledWidth() + itemPadding;
             }
 
-            // Always show answer line in worksheet
-            const answerLine = new fabric.Line([currentX, imageSize/2 + textFontSize/2 + 2 , currentX + 50, imageSize/2 + textFontSize/2 + 2 ], { stroke: '#333', strokeWidth: 2, isAnswerLine: true });
-            exerciseRowElements.push(answerLine);
+            // Add equals sign and answer line for image-image and image-number modes
+            // For find-addend mode, the equation is already complete (A + ? = result), so no answer line needed
+            if (exerciseMode !== 'find-addend') {
+                // Show child-friendly equals sign with circular background
+                const equalsCircleSize = textFontSize * 1.8;
+                const equalsCircle = new fabric.Circle({
+                    radius: equalsCircleSize / 2,
+                    fill: '#E3F2FD',  // Light blue background
+                    originX: 'center',
+                    originY: 'center'
+                });
+                const equalsText = new fabric.Text("=", {
+                    fontSize: textFontSize * 1.4,
+                    fontFamily: 'Fredoka',
+                    fill: '#1976D2',  // Blue color
+                    fontWeight: 'bold',
+                    originX: 'center',
+                    originY: 'center'
+                });
+                const equalsSign = new fabric.Group([equalsCircle, equalsText], {
+                    left: currentX,
+                    top: imageSize / 2,
+                    originY: 'center'
+                });
+                exerciseRowElements.push(equalsSign);
+                currentX += equalsCircleSize + itemPadding * 2;
+
+                // Now add the answer line (writing line)
+                const answerLine = new fabric.Line([currentX, imageSize/2 + textFontSize/2 + 2 , currentX + 50, imageSize/2 + textFontSize/2 + 2 ], { stroke: '#333', strokeWidth: 2, isAnswerLine: true });
+                exerciseRowElements.push(answerLine);
+            }
 
             if (exerciseRowElements.length > 0) {
                 // Calculate the actual Y position using the spacing
@@ -3396,7 +3441,12 @@
             }
 
             // Handle second operand based on exercise mode
-            const exerciseMode = exerciseModeSelect ? exerciseModeSelect.value : 'image-image';
+            let exerciseMode = exerciseModeSelect ? exerciseModeSelect.value : 'image-image';
+
+            // For mixed mode, randomly select between image-number and find-addend for each exercise
+            if (exerciseMode === 'mixed') {
+                exerciseMode = Math.random() < 0.5 ? 'image-number' : 'find-addend';
+            }
 
             if (exerciseMode === 'find-addend') {
                 // Find addend mode: Show B (the answer!) as number with emphasis

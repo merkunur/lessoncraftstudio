@@ -80,7 +80,7 @@ const allApps: WorksheetApp[] = [
   { name: 'Addition', url: '/worksheet-generators/addition.html', icon: '➕', tier: 'core', category: 'Math', description: 'Practice addition problems', translationKey: 'addition' },
   { name: 'Subtraction', url: '/worksheet-generators/subtraction.html', icon: '➖', tier: 'core', category: 'Math', description: 'Master subtraction skills', translationKey: 'subtraction' },
   { name: 'Alphabet Train', url: '/worksheet-generators/alphabet%20train.html', icon: '🚂', tier: 'core', category: 'Language', description: 'Fun alphabet learning', translationKey: 'alphabetTrain' },
-  { name: 'Find and Count', url: '/worksheet-generators/find%20and%20count.html', icon: '🔢', tier: 'core', category: 'Math', description: 'Visual counting exercises', translationKey: 'findAndCount' },
+  { name: 'I Spy', url: '/worksheet-generators/find%20and%20count.html', icon: '🔢', tier: 'core', category: 'Math', description: 'Visual counting exercises', translationKey: 'findAndCount' },
   { name: 'Matching', url: '/worksheet-generators/matching.html', icon: '🎯', tier: 'core', category: 'Logic', description: 'Connect matching items', translationKey: 'matching' },
   { name: 'Crossword', url: '/worksheet-generators/crossword.html', icon: '📝', tier: 'core', category: 'Language', description: 'Custom crossword puzzles', translationKey: 'crossword' },
   { name: 'Sudoku', url: '/worksheet-generators/sudoku.html', icon: '🎲', tier: 'core', category: 'Logic', description: 'Number puzzle challenges', translationKey: 'sudoku' },

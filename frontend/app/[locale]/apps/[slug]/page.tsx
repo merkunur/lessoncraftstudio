@@ -2760,7 +2760,7 @@ async function getAppData(slug: string, locale: string) {
       features: ['Custom word lists', 'Themed vocabulary', 'Multiple difficulty levels', 'Solution keys']
     },
     'find-and-count': {
-      name: 'Find and Count',
+      name: 'I Spy',
       appId: 'find-and-count',
       description: 'Visual counting exercises to develop number recognition and counting skills',
       category: 'Visual Perception',

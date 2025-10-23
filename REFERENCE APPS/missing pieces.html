@@ -1,0 +1,3588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Missing Pieces Worksheet Generator</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="js/translations-missing-pieces.js?v=5"></script>
+  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/unified-language-manager.js"></script>
+  <script src="js/border-background-sizer.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    :root {
+        /* New Theme Colors */
+        --app-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        --app-bg-dark: #2c2c2e; /* Sidebar background */
+        --app-surface-dark: #3a3a3e; /* Sidebar input backgrounds */
+        --app-border-dark: #4a4a4a; /* Sidebar borders */
+        --app-text-primary-dark-theme: #e0e0e0; /* Primary text on dark */
+        --app-text-secondary-dark-theme: #a0a0a0; /* Secondary text/labels on dark */
+
+        --app-bg-light: #f0f2f5; /* Main content area background */
+        --app-surface-light: #ffffff; /* Canvas, cards on light bg */
+        --app-border-light: #dce1e6; /* Borders on light bg */
+        --app-text-primary-light-theme: #1c1c1e; /* Primary text on light */
+        --app-text-secondary-light-theme: #545458; /* Secondary text on light */
+
+        --app-accent-primary: #007aff; /* New primary accent (blue) */
+        --app-accent-primary-hover: #005ecb;
+        --app-accent-secondary: #5856d6; /* Example for a different accent if needed */
+        --app-accent-danger: #ff3b30;
+        --app-accent-danger-hover: #d92c23;
+
+        --sidebar-width: 340px;
+    }
+
+    /* Global Reset & Layout */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--app-font-stack);
+      display: flex;
+      margin: 0;
+      height: 100vh;
+      background-color: var(--app-bg-light);
+      overflow: hidden;
+      color: var(--app-text-primary-light-theme);
+      position: relative;
+    }
+    .layout {
+        display: flex;
+        flex: 1;
+        overflow: hidden;
+        height: 100vh;
+        position: relative;
+    }
+
+    /* Sidebar Panel */
+    .panel {
+      width: var(--sidebar-width);
+      min-width: var(--sidebar-width);
+      background-color: var(--app-bg-dark);
+      color: var(--app-text-primary-dark-theme);
+      box-shadow: 2px 0 8px rgba(0,0,0,0.15);
+      display: flex;
+      flex-direction: column;
+      overflow-y: hidden;
+      z-index: 10;
+      padding: 0;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .panel-header {
+        padding: 20px 25px;
+        text-align: left;
+        border-bottom: 1px solid var(--app-border-dark);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .panel-header h2 {
+        font-size: 22px;
+        font-weight: 600;
+        color: var(--app-text-primary-dark-theme);
+        margin: 0;
+    }
+
+    .panel-content {
+        overflow-y: auto;
+        flex-grow: 1;
+        padding: 10px 15px;
+    }
+
+    /* Accordion Styles */
+    .accordion-item {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid var(--app-border-dark);
+        margin-bottom: 0;
+        border-radius: 0;
+        overflow: hidden;
+    }
+    .accordion-item:last-child {
+        border-bottom: none;
+    }
+    .accordion-button {
+        background-color: transparent;
+        color: var(--app-text-primary-dark-theme);
+        width: 100%;
+        border: none;
+        text-align: left;
+        padding: 18px 10px;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: background-color 0.15s ease;
+    }
+    .accordion-button:hover {
+        color: var(--app-text-primary-dark-theme);
+        background-color: rgba(255,255,255,0.05);
+    }
+    .accordion-button::after {
+        content: '\f078'; /* FontAwesome chevron-down */
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        font-size: 12px;
+        transition: transform 0.2s ease-in-out;
+    }
+    .accordion-button.active::after {
+        transform: rotate(-180deg);
+    }
+    .accordion-content {
+        padding: 10px 10px 20px 10px;
+        display: none;
+        background-color: transparent;
+        border-top: none;
+    }
+    .accordion-content.active {
+        display: block;
+    }
+     .accordion-content h4 {
+        font-size: 13px;
+        color: var(--app-text-secondary-dark-theme);
+        margin-top: 15px;
+        margin-bottom: 8px;
+        border-bottom: 1px solid var(--app-border-dark);
+        padding-bottom: 6px;
+        font-weight: 500;
+    }
+     .accordion-content h4:first-child {
+        margin-top: 0;
+     }
+    .accordion-content label {
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        color: var(--app-text-secondary-dark-theme);
+        margin-bottom: 6px;
+    }
+    .accordion-content input[type="text"],
+    .accordion-content input[type="number"],
+    .accordion-content textarea,
+    .accordion-content select {
+        width: 100%;
+        padding: 8px 10px;
+        font-size: 13px;
+        border-radius: 5px;
+        border: 1px solid var(--app-border-dark);
+        background-color: var(--app-surface-dark);
+        color: var(--app-text-primary-dark-theme);
+        box-sizing: border-box;
+        margin-bottom: 12px;
+    }
+     .accordion-content input[type="file"] {
+      color: var(--app-text-secondary-dark-theme);
+      background-color: var(--app-surface-dark);
+      border: 1px solid var(--app-border-dark);
+      border-radius: 5px;
+      padding: 8px;
+      font-size: 13px;
+      margin-bottom: 12px;
+      width: 100%;
+    }
+     .accordion-content input[type="file"]::file-selector-button {
+        margin-right: 10px;
+        border: 1px solid var(--app-border-dark);
+        background: var(--app-bg-dark);
+        padding: 4px 8px;
+        border-radius: 3px;
+        color: var(--app-text-primary-dark-theme);
+        cursor: pointer;
+     }
+    .accordion-content input[type="color"] {
+         width: 100%; padding: 2px; height: 38px; margin-bottom: 12px; border-radius: 5px; border-color: var(--app-border-dark);
+    }
+    .accordion-content input[type="range"] { width:100%; padding: 0; margin-bottom: 12px;}
+
+    /* Buttons within accordion (sidebar) */
+    .accordion-content button {
+        background-color: var(--app-surface-dark);
+        color: var(--app-text-primary-dark-theme);
+        border: 1px solid var(--app-border-dark);
+        font-weight: 500;
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 13px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .accordion-content button:hover {
+        filter: brightness(1.2);
+    }
+
+    #dictionary, #selectedImagesPreview, #uploadedImagesPreview {
+        border: 1px solid var(--app-border-dark);
+        padding:10px;
+        max-height: 180px;
+        overflow-y:auto;
+        background-color: var(--app-surface-dark);
+        border-radius:5px;
+        margin-bottom:10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+     #selectedImagesPreview {
+        min-height: 70px;
+        border-style: dashed;
+        border-color: var(--app-accent-primary);
+     }
+
+    #dictionary p.dictionary-message, #uploadedImagesPreview p.dictionary-message, #borderDictionary p.dictionary-message, #backgroundDictionary p.dictionary-message {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        font-size:12px;
+        color: var(--app-text-secondary-dark-theme);
+        margin: 0;
+        align-self: center;
+    }
+    .dictionary-item {
+        padding:8px;
+        cursor:pointer;
+        border: 1px solid transparent;
+        font-size:13px;
+        transition: background-color .15s ease, border-color .15s ease;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,0.05);
+    }
+    .dictionary-item:hover {
+        background-color: rgba(255,255,255,0.1);
+        border-color: var(--app-accent-primary);
+        color: var(--app-text-primary-dark-theme);
+    }
+    .dictionary-item.selected {
+        border-color: var(--app-accent-primary);
+        background-color: rgba(0, 122, 255, 0.15);
+    }
+    .dictionary-item img {
+        width: 50px; height: 50px;
+        object-fit: contain;
+        border:1px solid var(--app-border-dark);
+        border-radius:3px;
+        background-color: var(--app-surface-light);
+        margin-bottom: 5px;
+    }
+    .dictionary-item span {
+        font-size: 10px; text-align: center; word-break: break-word; max-width: 50px;
+        color: var(--app-text-secondary-dark-theme);
+    }
+    .dictionary-item:hover span, .dictionary-item.selected span {
+        color: var(--app-text-primary-dark-theme);
+    }
+    
+    #borderDictionary, #backgroundDictionary {
+        border: 1px solid var(--app-border-dark);
+        padding: 8px;
+        max-height: 140px;
+        overflow-y: auto;
+        background-color: var(--app-surface-dark);
+        border-radius: 5px;
+        margin-top: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-content: flex-start;
+    }
+    .border-thumbnail-item {
+        cursor: pointer;
+        border: 2px solid transparent;
+        border-radius: 4px;
+        padding: 2px;
+        transition: border-color .15s ease;
+        width: 60px;
+        height: 60px;
+    }
+    .border-thumbnail-item:hover, .border-thumbnail-item.selected {
+        border-color: var(--app-accent-primary);
+    }
+    .border-thumbnail-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        background-color: var(--app-surface-light);
+        border-radius: 2px;
+    }
+
+    .selected-preview img {
+      width:50px; height:50px; object-fit:contain;
+      border:1px solid var(--app-accent-primary); border-radius:3px; cursor:pointer;
+    }
+
+    .panel-footer {
+        padding: 15px 25px;
+        border-top: 1px solid var(--app-border-dark);
+        margin-top: auto;
+        background-color: var(--app-bg-dark);
+    }
+    #message {
+        padding:10px 15px;
+        border-radius:5px;
+        font-size:13px;
+        text-align:center;
+        min-height:20px;
+        font-weight:500;
+        display:none;
+        margin-bottom: 0;
+        border-width: 1px;
+        border-style: solid;
+    }
+    #message.error {background-color:rgba(255, 59, 48, 0.2); color: var(--app-accent-danger); border-color: var(--app-accent-danger);}
+    #message.success {background-color:rgba(52, 199, 89, 0.2); color: #34c759; border-color: #34c759;}
+    #message.info {background-color:rgba(0, 122, 255, 0.15); color:var(--app-accent-primary); border-color: var(--app-accent-primary);}
+
+    /* Main Content Area */
+    .main {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+      padding: 0;
+      background-color: var(--app-bg-light);
+    }
+    
+    /* --- Responsive Controls --- */
+    .menu-toggle-btn {
+        display: none;
+        position: absolute;
+        top: 12px;
+        left: 20px;
+        z-index: 20;
+        background-color: var(--app-surface-light);
+        color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light);
+        border-radius: 6px;
+        width: 38px;
+        height: 38px;
+        font-size: 18px;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+    }
+     .menu-toggle-btn:hover {
+        background-color: #e8e8ed;
+    }
+    .menu-close-btn {
+        display: none;
+        background: none;
+        border: none;
+        color: var(--app-text-secondary-dark-theme);
+        font-size: 28px;
+        line-height: 1;
+        cursor: pointer;
+        padding: 0 5px;
+    }
+    .menu-close-btn:hover {
+        color: var(--app-text-primary-dark-theme);
+    }
+    .menu-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.4);
+        z-index: 998;
+    }
+    .menu-overlay.is-active {
+        display: block;
+    }
+
+    /* --- Top Right Actions Area --- */
+    .top-right-actions {
+        position: absolute;
+        top: 12px;
+        right: 20px;
+        z-index: 20;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .top-right-actions .action-button {
+        padding: 7px 14px;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 6px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.2s ease, transform 0.1s ease;
+    }
+    .top-right-actions .action-button:active { transform: scale(0.98); }
+    .top-right-actions .action-button.accent { background-color: var(--app-accent-primary); }
+    .top-right-actions .action-button.accent:hover { background-color: var(--app-accent-primary-hover); }
+    .top-right-actions .action-button.danger {
+        background-color: var(--app-surface-light);
+        color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light);
+    }
+    .top-right-actions .action-button.danger:hover {
+        background-color: #e8e8ed;
+    }
+    .top-right-actions .action-button.secondary {
+        background-color: var(--app-surface-light);
+        color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light);
+    }
+    .top-right-actions .action-button.secondary:hover { background-color: #e8e8ed; }
+    .top-right-actions .action-button:disabled {
+        background-color: #cccccc !important;
+        color: #888888 !important;
+        border-color: #cccccc !important;
+        cursor: not-allowed;
+        transform: none;
+    }
+
+    .dropdown-container {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        right: 0;
+        top: calc(100% + 5px);
+        background-color: var(--app-surface-light);
+        min-width: 200px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+        border: 1px solid var(--app-border-light);
+        border-radius: 6px;
+        padding: 8px;
+        z-index: 25;
+    }
+    .dropdown-content button {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 13px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 6px;
+        background-color: transparent;
+        color: var(--app-text-primary-light-theme);
+        border: none;
+        cursor: pointer;
+        text-align: left;
+        font-weight: 400;
+        transition: background-color 0.15s ease;
+    }
+    .dropdown-content button:last-of-type { margin-bottom: 0; }
+    .dropdown-content button:hover { background-color: rgba(0,0,0,0.05); }
+    .dropdown-content button:disabled {
+        background-color: transparent !important;
+        color: var(--app-text-secondary-light-theme) !important;
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+    .dropdown-content .checkbox-label {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        font-weight: 400;
+        padding: 6px 12px;
+        margin-top: 4px;
+        margin-bottom: 0;
+        cursor: pointer;
+        color: var(--app-text-primary-light-theme);
+        border-radius: 4px;
+    }
+     .dropdown-content .checkbox-label:hover { background-color: rgba(0,0,0,0.05); }
+    .dropdown-content .checkbox-label input[type="checkbox"] {
+        width: auto;
+        margin-right: 8px;
+        vertical-align: middle;
+        accent-color: var(--app-accent-primary);
+    }
+
+    .tab-row {
+      display: flex;
+      gap: 0;
+      justify-content: flex-start;
+      padding: 0 20px;
+      border-bottom: 1px solid var(--app-border-light);
+      background-color: var(--app-surface-light);
+      margin-top: 60px;
+    }
+    .tab-button {
+      padding: 12px 18px;
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: var(--app-text-secondary-light-theme);
+      font-size: 14px;
+      font-weight: 500;
+      border-radius: 0;
+      cursor: pointer;
+      transition: color 0.2s ease, border-color 0.2s ease;
+      margin-right: 10px;
+      margin-bottom: -1px;
+    }
+    .tab-button:hover {
+        color: var(--app-text-primary-light-theme);
+    }
+    .tab-button.active {
+        color: var(--app-accent-primary);
+        border-bottom: 2px solid var(--app-accent-primary);
+    }
+
+    .tab-content-wrapper {
+        flex-grow: 1;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 25px;
+        overflow-y: auto;
+    }
+
+    .tab {
+      display: none;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+    }
+    .tab.active { display: flex; flex-direction: column; }
+    
+    .canvas-container-wrapper {
+        border: none;
+        background-color: var(--app-surface-light);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        overflow: visible !important; /* Critical for zoom - changed from auto */
+        margin: auto;
+        flex-shrink: 0;
+        position: relative;
+    }
+    
+    /* Fix Fabric.js canvas container clipping */
+    .canvas-container {
+        overflow: visible !important;
+        position: relative !important;
+    }
+    canvas { display: block; }
+    
+    #exportArea { position: absolute; left: -9999px; top: 0; }
+    
+    /* --- Responsive & Toolbar Styles --- */
+    @media (max-width: 1024px) {
+        :root { --sidebar-width: 300px; }
+        .panel {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            z-index: 1000;
+            transform: translateX(-100%);
+        }
+        .panel.is-open { transform: translateX(0); }
+        .menu-toggle-btn { display: flex; }
+        .menu-close-btn { display: block; }
+        .tab-row { padding: 0 15px 0 70px; }
+    }
+    
+    /* START: Contextual Toolbar CSS */
+    #object-context-toolbar {
+        position: absolute;
+        top: 72px; /* Adjusted to be below the tabs */
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--app-surface-light);
+        border-radius: 6px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        z-index: 100;
+        align-items: center;
+        border: 1px solid var(--app-border-light);
+    }
+    .toolbar-group {
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        padding: 0 4px;
+    }
+    .toolbar-group + .toolbar-group {
+        border-left: 1px solid var(--app-border-light);
+    }
+    .toolbar-item {
+        position: relative;
+    }
+    .context-btn {
+        background: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        padding: 5px 7px;
+        cursor: pointer;
+        font-size: 15px; 
+        color: var(--app-text-secondary-light-theme);
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 32px;
+        transition: background-color 0.2s, color 0.2s;
+    }
+    .context-btn:disabled {
+        color: #c5c5c7;
+        cursor: not-allowed;
+    }
+    .context-btn:not(:disabled):hover {
+        background-color: #e8e8ed;
+        color: var(--app-text-primary-light-theme);
+    }
+    .context-btn.active-dropdown {
+        background-color: #ddeeff;
+        color: var(--app-accent-primary);
+    }
+    #toolbarDeleteBtn:not(:disabled) {
+        color: var(--app-accent-danger);
+    }
+    #object-context-toolbar .dropdown-content {
+        display: none;
+        position: absolute;
+        top: calc(100% + 5px);
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--app-surface-light);
+        min-width: 150px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+        border: 1px solid var(--app-border-light);
+        border-radius: 6px;
+        padding: 8px;
+        z-index: 101;
+    }
+    #object-context-toolbar .dropdown-content button {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 13px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 6px;
+        background-color: transparent;
+        color: var(--app-text-primary-light-theme);
+        border: none;
+        cursor: pointer;
+        text-align: left;
+        font-weight: 400;
+        transition: background-color 0.15s ease;
+    }
+    #object-context-toolbar .dropdown-content button:last-of-type {
+        margin-bottom: 0;
+    }
+    #object-context-toolbar .dropdown-content button:hover {
+        background-color: rgba(0,0,0,0.05);
+    }
+    /* END: Contextual Toolbar CSS */
+
+/* ============================================
+   MODERN UNIFIED HEADER STYLES
+   Exact implementation from wordsearch.html lines 251-450
+   ============================================ */
+
+.tab-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 24px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 15;
+    border-radius: 0;
+    margin: 0;
+    gap: 16px;
+}
+
+.tab-buttons-container {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.tab-button {
+    padding: 10px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    background: rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    backdrop-filter: blur(10px);
+    position: relative;
+}
+
+.tab-button:hover {
+    background: rgba(255, 255, 255, 0.25);
+    color: white;
+    transform: translateY(-1px);
+}
+
+.tab-button.active {
+    background: rgba(255, 255, 255, 0.95);
+    color: #667eea;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Actions Container */
+.header-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+/* --- Zoom Controls --- */
+.zoom-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 6px;
+    padding: 5px 10px;
+    backdrop-filter: blur(10px);
+}
+
+.zoom-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zoom-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.zoom-btn:active {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.zoom-percentage {
+    min-width: 45px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    user-select: none;
+}
+
+/* --- Undo/Redo Controls --- */
+.history-controls {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 6px;
+    padding: 5px 10px;
+    backdrop-filter: blur(10px);
+}
+
+.history-btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.history-btn:hover:not(:disabled) {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.history-btn:active:not(:disabled) {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.history-btn:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+/* --- Dropdown Containers --- */
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    z-index: 1000;
+    margin-top: 8px;
+    padding: 8px 0;
+}
+
+.dropdown-content.show {
+    display: block;
+}
+
+.dropdown-content button {
+    display: block;
+    width: 100%;
+    padding: 10px 16px;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+    transition: background-color 0.2s;
+}
+
+.dropdown-content button:hover:not(:disabled) {
+    background-color: #f5f5f5;
+}
+
+.dropdown-content button:disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+/* --- Action Buttons --- */
+.action-button {
+    padding: 8px 16px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.action-button.accent {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.action-button.accent:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+}
+
+.action-button.download-btn {
+    background: rgba(255, 255, 255, 0.95);
+    color: #667eea;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.action-button.download-btn:hover {
+    background: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.action-button.danger {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.action-button.danger:hover {
+    background: rgba(255, 59, 48, 0.9);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 59, 48, 0.3);
+}
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <div id="menuOverlay" class="menu-overlay"></div>
+    <div class="panel">
+      <div class="panel-header">
+        <h2 data-translate="missingpieces.title">Missing Pieces</h2>
+        <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
+      </div>
+      <div class="panel-content">
+        
+        <!-- Language Selection (First, for consistency) -->
+        <div class="accordion-item">
+            <button class="accordion-button active" data-translate="missingpieces.language.settings">Language Settings</button>
+            <div class="accordion-content active">
+                <h4 data-translate="missingpieces.select.language">Select Language</h4>
+                <label for="languageSelect" data-translate="missingpieces.language.label">Language:</label>
+                <select id="languageSelect">
+                    <option value="en" data-translate="language.english">English</option>
+                    <option value="de" data-translate="language.german.full">Deutsch (German)</option>
+                    <option value="fr" data-translate="language.french.full">Français (French)</option>
+                    <option value="es" data-translate="language.spanish.full">Español (Spanish)</option>
+                    <option value="pt" data-translate="language.portuguese.full">Português (Portuguese)</option>
+                    <option value="it" data-translate="language.italian.full">Italiano (Italian)</option>
+                    <option value="nl" data-translate="language.dutch.full">Nederlands (Dutch)</option>
+                    <option value="sv" data-translate="language.swedish.full">Svenska (Swedish)</option>
+                    <option value="da" data-translate="language.danish.full">Dansk (Danish)</option>
+                    <option value="no" data-translate="language.norwegian.full">Norsk (Norwegian)</option>
+                    <option value="fi" data-translate="language.finnish.full">Suomi (Finnish)</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="missingpieces.page.setup">Page Setup</button>
+            <div class="accordion-content">
+                <label for="pageSizeSelect" data-translate="missingpieces.page.size">Page Size:</label>
+                <select id="pageSizeSelect">
+                    <option value="612x792">Letter Portrait (8.5×11")</option>
+                    <option value="800x1000">Default Worksheet (800x1000)</option>
+                    <option value="595x842">A4 Portrait (210×297mm)</option>
+                    <option value="842x595">A4 Landscape (297×210mm)</option>
+                    <option value="792x612">Letter Landscape (11×8.5")</option>
+                    <option value="1200x1200">Square (1200x1200)</option>
+                    <option value="custom">Custom</option>
+                </select>
+                <div id="customPageSizeInputs" style="display:none;">
+                    <label for="pageWidth" data-translate="missingpieces.width.label">Width (px):</label>
+                    <input type="number" id="pageWidth" value="612">
+                    <label for="pageHeight" data-translate="missingpieces.height.label">Height (px):</label>
+                    <input type="number" id="pageHeight" value="792">
+                </div>
+                <label for="pageColor" data-translate="missingpieces.page.color">Page Color:</label>
+                <input type="color" id="pageColor" value="#FFFFFF">
+                <button id="setPageSizeBtn" data-translate="missingpieces.apply.size">Apply Size</button>
+
+                <h4 data-translate="missingpieces.background.title">Background</h4>
+                <label for="backgroundThemeSelect" data-translate="missingpieces.background.theme">Background Theme:</label>
+                <select id="backgroundThemeSelect">
+                    <option value="none" data-translate="none">None</option>
+                </select>
+                <div id="backgroundDictionary"><p class="dictionary-message" data-translate="missingpieces.background.message">Select a theme for backgrounds.</p></div>
+                <label for="backgroundOpacitySlider" data-translate="missingpieces.background.opacity">Background Opacity:</label>
+                <input type="range" id="backgroundOpacitySlider" min="0" max="1" step="0.05" value="1" disabled>
+
+                <h4 data-translate="missingpieces.border.title">Border</h4>
+                <label for="borderThemeSelect" data-translate="missingpieces.border.theme">Border Theme:</label>
+                <select id="borderThemeSelect">
+                    <option value="none" data-translate="none">None</option>
+                </select>
+                <div id="borderDictionary">
+                    <p class="dictionary-message" data-translate="missingpieces.border.message">Select a theme to see borders.</p>
+                </div>
+                <label for="borderOpacitySlider" data-translate="missingpieces.border.opacity">Border Opacity:</label>
+                <input type="range" id="borderOpacitySlider" min="0" max="1" step="0.05" value="1" disabled>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="missingpieces.text.tools">Text Tools</button>
+            <div class="accordion-content">
+                <h4 data-translate="missingpieces.text.add.new">Add New Text</h4>
+                <label for="textInput" data-translate="missingpieces.text.content">Content:</label><input type="text" id="textInput" data-translate-placeholder="missingpieces.text.placeholder" placeholder="Hello!">
+                <button id="addTextBtn" data-translate="missingpieces.text.add.button">Add Text</button>
+                <h4 data-translate="missingpieces.text.properties">Selected Text Properties</h4>
+                <label for="textColor" data-translate="missingpieces.text.color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                <label for="fontSize" data-translate="missingpieces.text.size">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+                <label for="fontFamily" data-translate="missingpieces.text.font">Font:</label>
+                <select id="fontFamily" disabled>
+                    <option value="Lexend Deca" data-translate="font.lexend">Lexend Deca</option>
+                    <option value="Baloo 2" data-translate="font.baloo">Baloo 2</option>
+                    <option value="Nunito" data-translate="font.nunito">Nunito</option>
+                    <option value="Quicksand" data-translate="font.quicksand">Quicksand</option>
+                    <option value="Fredoka" data-translate="font.fredoka">Fredoka</option>
+                    <option value="Arial" data-translate="font.arial">Arial</option>
+                    <option value="Verdana" data-translate="font.verdana">Verdana</option>
+                </select>
+                <label for="textStrokeColor" data-translate="missingpieces.text.outline.color">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                <label for="textStrokeWidth" data-translate="missingpieces.text.outline.width">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="missingpieces.puzzle.config">Puzzle Configuration</button>
+            <div class="accordion-content">
+                <label for="missingCountInput" data-translate="missingpieces.missing.count">Missing Pieces (1–5):</label>
+                <input type="number" id="missingCountInput" value="1" min="1" max="5">
+                <label for="solutionOptionsInput" data-translate="missingpieces.solution.options">Solution Options (2–6):</label>
+                <input type="number" id="solutionOptionsInput" value="3" min="2" max="6">
+                <label for="pieceShapeSelect" data-translate="missingpieces.piece.shape">Piece Shape:</label>
+                <select id="pieceShapeSelect">
+                    <option value="square" data-translate="shape.square">Square</option>
+                    <option value="circle" data-translate="shape.circle">Circle</option>
+                    <option value="rectPortrait" data-translate="shape.rect.portrait">Rectangle (Portrait)</option>
+                    <option value="rectLandscape" data-translate="shape.rect.landscape">Rectangle (Landscape)</option>
+                    <option value="ellipsePortrait" data-translate="shape.ellipse.portrait">Ellipse (Portrait)</option>
+                    <option value="ellipseLandscape" data-translate="shape.ellipse.landscape">Ellipse (Landscape)</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="missingpieces.image.library">Image Library</button>
+            <div class="accordion-content">
+                <label for="themeSelect" data-translate="missingpieces.select.theme">Select Theme:</label>
+                <select id="themeSelect"></select>
+                <label for="searchInput" data-translate="missingpieces.search.images">Search Images:</label>
+                <input type="text" id="searchInput" data-translate-placeholder="missingpieces.search.placeholder" placeholder="e.g., apple, car" />
+                <label data-translate="missingpieces.available.images">Available Images:</label>
+                <div id="dictionary"><p class='dictionary-message' data-translate="missingpieces.loading.images">Loading images...</p></div>
+                <label style="margin-top:10px;" data-translate="missingpieces.selected.image">Selected Image for Puzzle:</label>
+                <div id="selectedImagesPreview" class="selected-preview"></div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="missingpieces.upload.custom">Upload Custom Images</button>
+            <div class="accordion-content">
+                <label data-translate="missingpieces.upload.select">Select image(s) to upload:</label>
+                <div style="position: relative; margin: 10px 0;">
+                    <button type="button" id="customFileButton" class="action-button" style="padding: 8px 16px; font-size: 14px;" data-translate="chooseFiles">Choose Files</button>
+                    <span id="fileSelectionText" style="margin-left: 10px; color: var(--app-text-secondary-dark-theme);" data-translate="noFileChosen">No file chosen</span>
+                    <input type="file" id="imageUploadInput" multiple accept="image/*" style="position: absolute; left: -9999px;">
+                </div>
+                <label style="margin-top:10px;" data-translate="missingpieces.uploaded.images">Your Uploaded Images (This Session):</label>
+                <div id="uploadedImagesPreview">
+                    <p class="dictionary-message" data-translate="missingpieces.uploaded.placeholder">Your uploaded images will appear here.</p>
+                </div>
+            </div>
+        </div>
+
+      </div>
+      <div class="panel-footer">
+          <div id="message"></div>
+      </div>
+    </div>
+
+    <div class="main">
+      <button id="menuToggleBtn" class="menu-toggle-btn"><i class="fas fa-bars"></i></button>
+      
+      <div id="object-context-toolbar" style="display:none;">
+          <div class="toolbar-group">
+              <div class="toolbar-item">
+                  <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
+                  <div class="dropdown-content" id="layersDropdown">
+                      <button id="toolbarBringToFrontBtn" data-translate="bringToFront">Bring to Front</button>
+                      <button id="toolbarBringForwardBtn" data-translate="bringForward">Bring Forward</button>
+                      <button id="toolbarSendBackwardBtn" data-translate="sendBackward">Send Backward</button>
+                      <button id="toolbarSendToBackBtn" data-translate="sendToBack">Send to Back</button>
+                  </div>
+              </div>
+          </div>
+          <div class="toolbar-group">
+              <div class="toolbar-item">
+                  <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
+                  <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
+                      <p style="font-size:11px; margin-bottom:5px; color:#555;">Align Selected:</p>
+                      <div>
+                          <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
+                          <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                          <button class="context-btn" id="alignRightBtn" title="Align Right"><i class="fas fa-align-right"></i></button>
+                      </div>
+                      <div style="margin-top: 5px;">
+                          <button class="context-btn" id="alignTopBtn" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                          <button class="context-btn" id="alignVCenterBtn" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
+                          <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                      </div>
+                      <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
+                      <p style="font-size:11px; margin-bottom:5px; color:#555;">Align to Page:</p>
+                      <div>
+                          <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                          <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="toolbar-group">
+              <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
+          </div>
+      </div>
+
+      <div class="tab-row">
+                <div class="tab-buttons-container">
+                    <button class="tab-button active" data-tab="worksheetTab" data-translate="missingpieces.tab.worksheet">Worksheet</button>
+                    <button class="tab-button" data-tab="answerKeyTab" data-translate="missingpieces.tab.answer">Answer Key</button>
+                </div>
+                <div class="header-actions">
+                    <div class="zoom-controls">
+                        <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                        <span id="zoomPercentage" class="zoom-percentage">100%</span>
+                        <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+                        <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                    </div>
+                    <div class="history-controls">
+                        <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+                        <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+                    </div>
+                    <div class="dropdown-container">
+                        <button id="generateDropdownBtn" class="action-button accent"><span data-translate="missingpieces.generate">Generate</span> <i class="fas fa-caret-down"></i></button>
+                        <div id="generateDropdownContent" class="dropdown-content">
+                            <button id="generateWorksheetBtn" data-translate="missingpieces.generate.worksheet">Generate Worksheet</button>
+                            <button id="generateAnswerKeyBtn" disabled data-translate="missingpieces.generate.answer">Generate Answer Key</button>
+                        </div>
+                    </div>
+                    <div class="dropdown-container">
+                        <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="missingpieces.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                        <div id="downloadDropdownContent" class="dropdown-content">
+                            <button id="downloadWorksheetJpegBtn" disabled data-translate="missingpieces.download.worksheet.jpeg">Worksheet (JPEG)</button>
+                            <button id="downloadAnswerKeyJpegBtn" disabled data-translate="missingpieces.download.answer.jpeg">Answer Key (JPEG)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadWorksheetPdfBtn" disabled data-translate="missingpieces.download.worksheet.pdf">Worksheet (PDF)</button>
+                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="missingpieces.download.answer.pdf">Answer Key (PDF)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
+                            <label class="checkbox-label" id="grayscaleLabel">
+                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                            </label>
+                        </div>
+                    </div>
+                    <button id="clearBtn" class="action-button danger" data-translate="missingpieces.clear.all">Clear All</button>
+                </div>
+            </div>
+      <div class="tab-content-wrapper">
+        <div class="tab active" id="worksheetTab">
+            <div class="canvas-container-wrapper" id="worksheetCanvasWrapper">
+                <canvas id="worksheetCanvasElement"></canvas>
+            </div>
+        </div>
+        <div class="tab" id="answerKeyTab">
+             <div class="canvas-container-wrapper" id="answerKeyCanvasWrapper">
+                <canvas id="answerKeyCanvasElement"></canvas>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="exportArea"></div>
+
+  <script>
+    // Set locales globally BEFORE DOMContentLoaded (critical for enhancement scripts)
+    let uiLocale = 'en';  // UI language (for interface translations) - from URL parameter
+    let currentLocale = 'en';  // Content language (for image library) - can be changed by sidebar selector
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('locale')) {
+        uiLocale = urlParams.get('locale');  // UI language comes from URL (parent app header)
+        currentLocale = urlParams.get('locale');  // Initial content language matches UI language
+    }
+    window.uiLocale = uiLocale;
+    window.currentLocale = currentLocale;
+
+    document.addEventListener("DOMContentLoaded", function() {
+        // Accordion & Responsive Sidebar Logic (Standard)
+        const accordionButtons = document.querySelectorAll('.accordion-button');
+        accordionButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const isActive = button.classList.contains('active');
+                accordionButtons.forEach(btn => {
+                    btn.classList.remove('active');
+                    btn.nextElementSibling.classList.remove('active');
+                });
+                if (!isActive) {
+                    button.classList.add('active');
+                    button.nextElementSibling.classList.add('active');
+                }
+            });
+        });
+
+        const panel = document.querySelector('.panel');
+        const menuToggleBtn = document.getElementById('menuToggleBtn');
+        const menuCloseBtn = document.getElementById('menuCloseBtn');
+        const menuOverlay = document.getElementById('menuOverlay');
+        const openMenu = () => { panel.classList.add('is-open'); menuOverlay.classList.add('is-active'); };
+        const closeMenu = () => { panel.classList.remove('is-open'); menuOverlay.classList.remove('is-active'); };
+        menuToggleBtn.addEventListener('click', openMenu);
+        menuCloseBtn.addEventListener('click', closeMenu);
+        menuOverlay.addEventListener('click', closeMenu);
+
+        // --- Global App State & Constants ---
+        // currentLocale already set globally
+        let uploadedImages = [];
+        let selectedImages = [];
+        let availableImages = []; // Store currently loaded images for random selection
+        let isManualSelection = false; // Track if user manually selected an image
+        let lastGeneratedPuzzleData = null;
+        let isRegenerating = false; // Guard flag to prevent infinite regeneration loops
+        const downloadMultiplier = 6;
+
+        // --- DOM Element References ---
+        const messageDiv = document.getElementById("message");
+        const pageSizeSelect = document.getElementById('pageSizeSelect');
+        const customPageSizeInputsDiv = document.getElementById('customPageSizeInputs');
+        const pageWidthInput = document.getElementById('pageWidth');
+        const pageHeightInput = document.getElementById('pageHeight');
+        const setPageSizeBtn = document.getElementById('setPageSizeBtn');
+        const pageColorInput = document.getElementById('pageColor');
+        const backgroundThemeSelect = document.getElementById('backgroundThemeSelect');
+        const backgroundDictionary = document.getElementById('backgroundDictionary');
+        const backgroundOpacitySlider = document.getElementById('backgroundOpacitySlider');
+        const borderThemeSelect = document.getElementById('borderThemeSelect');
+        const borderDictionary = document.getElementById('borderDictionary');
+        const borderOpacitySlider = document.getElementById('borderOpacitySlider');
+        const textInput = document.getElementById('textInput');
+        const addTextBtn = document.getElementById('addTextBtn');
+        const textColorInput = document.getElementById('textColor');
+        const fontSizeInput = document.getElementById('fontSize');
+        const fontFamilySelect = document.getElementById('fontFamily');
+        const textStrokeColorInput = document.getElementById('textStrokeColor');
+        const textStrokeWidthInput = document.getElementById('textStrokeWidth');
+        const missingCountInput = document.getElementById("missingCountInput");
+        const solutionOptionsInput = document.getElementById("solutionOptionsInput");
+        const pieceShapeSelect = document.getElementById("pieceShapeSelect");
+        const themeSelect = document.getElementById("themeSelect");
+        const searchInput = document.getElementById("searchInput");
+        const dictionaryDiv = document.getElementById("dictionary");
+        const selectedImagesPreviewDiv = document.getElementById("selectedImagesPreview");
+        const imageUploadInput = document.getElementById("imageUploadInput");
+        const uploadedImagesPreviewDiv = document.getElementById("uploadedImagesPreview");
+        const generateDropdownBtn = document.getElementById("generateDropdownBtn");
+        const generateDropdownContent = document.getElementById("generateDropdownContent");
+        const generateWorksheetBtn = document.getElementById("generateWorksheetBtn");
+        const generateAnswerKeyBtn = document.getElementById("generateAnswerKeyBtn");
+        const downloadDropdownBtn = document.getElementById("downloadDropdownBtn");
+        const downloadDropdownContent = document.getElementById("downloadDropdownContent");
+        const downloadWorksheetJpegBtn = document.getElementById("downloadWorksheetJpegBtn");
+        const downloadAnswerKeyJpegBtn = document.getElementById("downloadAnswerKeyJpegBtn");
+        const downloadWorksheetPdfBtn = document.getElementById("downloadWorksheetPdfBtn");
+        const downloadAnswerKeyPdfBtn = document.getElementById("downloadAnswerKeyPdfBtn");
+        const clearBtn = document.getElementById("clearBtn");
+        const grayscaleToggle = document.getElementById('grayscaleToggle');
+        const zoomInBtn = document.getElementById('zoomInBtn');
+        const zoomOutBtn = document.getElementById('zoomOutBtn');
+        const zoomResetBtn = document.getElementById('zoomResetBtn');
+        const zoomPercentage = document.getElementById('zoomPercentage');
+        const undoBtn = document.getElementById('undoBtn');
+        const redoBtn = document.getElementById('redoBtn');
+        const worksheetCanvasWrapper = document.getElementById('worksheetCanvasWrapper');
+        const worksheetCanvasElement = document.getElementById('worksheetCanvasElement');
+        const answerKeyCanvasWrapper = document.getElementById('answerKeyCanvasWrapper');
+        const answerKeyCanvasElement = document.getElementById('answerKeyCanvasElement');
+        const objectContextToolbar = document.getElementById('object-context-toolbar');
+        const layersBtn = document.getElementById('layersBtn');
+        const layersDropdown = document.getElementById('layersDropdown');
+        const toolbarBringToFrontBtn = document.getElementById('toolbarBringToFrontBtn');
+        const toolbarBringForwardBtn = document.getElementById('toolbarBringForwardBtn');
+        const toolbarSendBackwardBtn = document.getElementById('toolbarSendBackwardBtn');
+        const toolbarSendToBackBtn = document.getElementById('toolbarSendToBackBtn');
+        const alignBtn = document.getElementById('alignBtn');
+        const alignDropdown = document.getElementById('alignDropdown');
+        const toolbarDeleteBtn = document.getElementById('toolbarDeleteBtn');
+        const allToolbarButtons = objectContextToolbar.querySelectorAll('.context-btn');
+
+        // --- Canvas & Config State ---
+        let worksheetCanvas, answerKeyCanvas;
+        let currentCanvasConfig = { width: 612, height: 792 };
+        let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
+
+        // --- Undo/Redo State ---
+        let undoStack = [];
+        let redoStack = [];
+        const MAX_HISTORY = 50; // Maximum number of undo states to keep
+        let isRestoring = false; // Flag to prevent saveState during undo/redo
+
+        // --- Utility & Helper Functions ---
+        function showMessage(msg, type = 'error', duration = 3000) {
+            messageDiv.textContent = msg;
+            messageDiv.className = `message ${type}`;
+            messageDiv.style.display = 'block';
+            if (duration > 0) {
+                setTimeout(() => { messageDiv.style.display = 'none'; messageDiv.textContent = ""; }, duration);
+            }
+        }
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+        function setupDropdown(button, content) {
+            if (!button || !content) return;
+            button.addEventListener('click', (event) => {
+                event.stopPropagation();
+                const isActive = content.style.display === 'block';
+                document.querySelectorAll('.dropdown-content').forEach(d => d.style.display = 'none');
+                if (!isActive) content.style.display = 'block';
+            });
+        }
+        function getActiveCanvas() {
+            const activeTab = document.querySelector('.tab.active');
+            return activeTab && activeTab.id === 'answerKeyTab' ? answerKeyCanvas : worksheetCanvas;
+        }
+        function enforceZOrder(canvas) {
+            if (!canvas) return;
+
+            // REMOVED: Automatic z-order enforcement for backgrounds and borders
+            // Users should have full control over these elements
+
+            // Only enforce for page border (purple border around page)
+            const pageBorder = canvas.getObjects().find(o => o.isPageBorder);
+            if (pageBorder) {
+                canvas.sendToBack(pageBorder);
+            }
+        }
+        // Initialize dropdowns
+        setupDropdown(generateDropdownBtn, generateDropdownContent);
+        setupDropdown(downloadDropdownBtn, downloadDropdownContent);
+
+        window.addEventListener('click', (event) => {
+            if (activePopover && activePopover.style.display === 'block' && !activePopover.parentElement.contains(event.target) && !event.target.closest('.toolbar-item')) {
+                closeAllPopovers();
+            }
+             // This logic ensures dropdowns close when clicking outside of them
+            document.querySelectorAll('.dropdown-container').forEach(container => {
+                const btn = container.querySelector('.action-button');
+                const content = container.querySelector('.dropdown-content');
+                if (content && content.style.display === 'block') {
+                    if (!container.contains(event.target)) {
+                        content.style.display = 'none';
+                    }
+                }
+            });
+        });
+
+        // --- Canvas Initialization & Management ---
+        function initializeCanvas(canvasEl) {
+            return new fabric.Canvas(canvasEl, {
+                // DO NOT set width/height here!
+                backgroundColor: '#fff',
+                preserveObjectStacking: true,
+                enableRetinaScaling: true
+            });
+        }
+        function updateCanvasDisplayDimensions(width, height) {
+            currentCanvasConfig.width = width;
+            currentCanvasConfig.height = height;
+            
+            // CRITICAL: Use tab's parent element, NOT window dimensions
+            const mainStyle = document.getElementById('worksheetTab').parentElement;
+            const availableWidth = mainStyle.clientWidth - 50; 
+            const availableHeight = mainStyle.clientHeight - 50;
+            
+            // Apply 25% scaling for better visibility
+            // Extra 25% for landscape orientations
+            const isLandscape = width > height;
+            const baseScale = 1.25; // Base 25% larger for all
+            const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+            const displayScale = baseScale * landscapeBonus;
+            
+            // Calculate display dimensions with scaling
+            const scaledWidth = width * displayScale;
+            const scaledHeight = height * displayScale;
+            
+            // Ensure it fits in available space
+            const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+
+            // Apply user zoom level to the display dimensions (like wordsearch)
+            const displayWidth = scaledWidth * scaleRatio * userZoomLevel;
+            const displayHeight = scaledHeight * scaleRatio * userZoomLevel;
+
+            // Apply to ALL canvases in the app
+            [worksheetCanvas, answerKeyCanvas].forEach(c => {
+                if (c) {
+                    // Apply zoom for display scaling (includes user zoom level)
+                    const finalZoom = (displayWidth / width);
+                    c.setZoom(finalZoom);
+
+                    // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+                    c.setDimensions({
+                        width: displayWidth,
+                        height: displayHeight
+                    });
+
+                    c.calcOffset();
+                    c.renderAll();
+                }
+            });
+            
+            // Update wrapper dimensions (displayWidth/Height already include user zoom)
+            [worksheetCanvasWrapper, answerKeyCanvasWrapper].forEach(w => {
+                if(w) {
+                    w.style.width = displayWidth + 'px';
+                    w.style.height = displayHeight + 'px';
+                }
+            });
+            
+            pageWidthInput.value = width;
+            pageHeightInput.value = height;
+        }
+
+        // ============================================
+        // ZOOM FUNCTIONALITY
+        // Exact implementation from wordsearch.html lines 1745-1767
+        // ============================================
+
+        function zoomIn() {
+            // Increase zoom by 25%, max 300%
+            userZoomLevel = Math.min(userZoomLevel + 0.25, 3.0);
+            updateZoomDisplay();
+            updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+        }
+
+        function zoomOut() {
+            // Decrease zoom by 25%, min 25%
+            userZoomLevel = Math.max(userZoomLevel - 0.25, 0.25);
+            updateZoomDisplay();
+            updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+        }
+
+        function zoomReset() {
+            // Reset to 100%
+            userZoomLevel = 1.0;
+            updateZoomDisplay();
+            updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+        }
+
+        function updateZoomDisplay() {
+            if (zoomPercentage) {
+                zoomPercentage.textContent = Math.round(userZoomLevel * 100) + '%';
+            }
+        }
+
+        // ============================================
+        // UNDO/REDO FUNCTIONALITY
+        // Exact implementation from wordsearch.html lines 1769-1846
+        // ============================================
+
+        function saveState() {
+            if (isRestoring) return; // Don't save state during undo/redo operations
+
+            const canvas = getActiveCanvas();
+            if (!canvas) return;
+
+            const state = JSON.stringify(canvas.toJSON(['originalIndex', 'isGeneratedItem', 'isAnswerKeyItem', 'isBorder', 'isBackground', 'isPageBorder', 'isHeaderElement', 'isHeaderDesc']));
+            undoStack.push(state);
+
+            // Limit stack size
+            if (undoStack.length > MAX_HISTORY) {
+                undoStack.shift();
+            }
+
+            // Clear redo stack when new action is performed
+            redoStack = [];
+
+            updateUndoRedoButtons();
+            console.log('[SAVE STATE] Undo stack size:', undoStack.length);
+        }
+
+        function undo() {
+            if (undoStack.length === 0) {
+                showMessage('Nothing to undo', 'info', 1500);
+                return;
+            }
+
+            const canvas = getActiveCanvas();
+            if (!canvas) return;
+
+            // Save current state to redo stack
+            const currentState = JSON.stringify(canvas.toJSON(['originalIndex', 'isGeneratedItem', 'isAnswerKeyItem', 'isBorder', 'isBackground', 'isPageBorder', 'isHeaderElement', 'isHeaderDesc']));
+            redoStack.push(currentState);
+
+            // Pop from undo stack and restore
+            const previousState = undoStack.pop();
+            isRestoring = true; // Set flag to prevent saveState from being called
+            canvas.loadFromJSON(previousState, () => {
+                canvas.renderAll();
+                isRestoring = false; // Clear flag after restoration
+                updateUndoRedoButtons();
+                console.log('[UNDO] State restored, undo stack:', undoStack.length, 'redo stack:', redoStack.length);
+            });
+        }
+
+        function redo() {
+            if (redoStack.length === 0) {
+                showMessage('Nothing to redo', 'info', 1500);
+                return;
+            }
+
+            const canvas = getActiveCanvas();
+            if (!canvas) return;
+
+            // Save current state to undo stack
+            const currentState = JSON.stringify(canvas.toJSON(['originalIndex', 'isGeneratedItem', 'isAnswerKeyItem', 'isBorder', 'isBackground', 'isPageBorder', 'isHeaderElement', 'isHeaderDesc']));
+            undoStack.push(currentState);
+
+            // Pop from redo stack and restore
+            const nextState = redoStack.pop();
+            isRestoring = true; // Set flag to prevent saveState from being called
+            canvas.loadFromJSON(nextState, () => {
+                canvas.renderAll();
+                isRestoring = false; // Clear flag after restoration
+                updateUndoRedoButtons();
+                console.log('[REDO] State restored, undo stack:', undoStack.length, 'redo stack:', redoStack.length);
+            });
+        }
+
+        function updateUndoRedoButtons() {
+            if (undoBtn) {
+                undoBtn.disabled = undoStack.length === 0;
+            }
+            if (redoBtn) {
+                redoBtn.disabled = redoStack.length === 0;
+            }
+        }
+
+        // ============================================
+        // Z-ORDER FUNCTIONS
+        // ============================================
+
+        function bringObjectForward() {
+            const canvas = getActiveCanvas();
+            const activeObject = canvas.getActiveObject();
+            if (activeObject) {
+                const beforeIndex = canvas.getObjects().indexOf(activeObject);
+                console.log('[Z-ORDER] Bring Forward - Before index:', beforeIndex);
+
+                canvas.bringForward(activeObject);
+
+                const afterIndex = canvas.getObjects().indexOf(activeObject);
+                console.log('[Z-ORDER] After index:', afterIndex);
+                canvas.renderAll();
+            }
+            closeAllPopovers();
+        }
+
+        function sendObjectBackward() {
+            const canvas = getActiveCanvas();
+            const activeObject = canvas.getActiveObject();
+            if (activeObject) {
+                const beforeIndex = canvas.getObjects().indexOf(activeObject);
+                console.log('[Z-ORDER] Send Backward - Before index:', beforeIndex);
+
+                canvas.sendBackwards(activeObject);
+
+                const afterIndex = canvas.getObjects().indexOf(activeObject);
+                console.log('[Z-ORDER] After index:', afterIndex);
+                canvas.renderAll();
+            }
+            closeAllPopovers();
+        }
+
+        function bringObjectToFront() {
+            const canvas = getActiveCanvas();
+            const activeObject = canvas.getActiveObject();
+            if (activeObject) {
+                const beforeIndex = canvas.getObjects().indexOf(activeObject);
+                console.log('[Z-ORDER] Bring to Front - Before index:', beforeIndex);
+
+                canvas.bringToFront(activeObject);
+
+                const afterIndex = canvas.getObjects().indexOf(activeObject);
+                console.log('[Z-ORDER] After index:', afterIndex);
+                canvas.renderAll();
+            }
+            closeAllPopovers();
+        }
+
+        function sendObjectToBack() {
+            const canvas = getActiveCanvas();
+            const activeObject = canvas.getActiveObject();
+            if (activeObject) {
+                const beforeIndex = canvas.getObjects().indexOf(activeObject);
+                console.log('[Z-ORDER] Send to Back - Before index:', beforeIndex);
+
+                canvas.sendToBack(activeObject);
+
+                const afterIndex = canvas.getObjects().indexOf(activeObject);
+                console.log('[Z-ORDER] After index:', afterIndex);
+                canvas.renderAll();
+            }
+            closeAllPopovers();
+        }
+
+        pageSizeSelect.addEventListener('change', async function() {
+            if (this.value === 'custom') {
+                customPageSizeInputsDiv.style.display = 'block';
+            } else {
+                customPageSizeInputsDiv.style.display = 'none';
+                const [w, h] = this.value.split('x').map(Number);
+                updateCanvasDisplayDimensions(w, h);
+
+                // Auto-regenerate worksheet and answer key when page size changes
+                if (lastGeneratedPuzzleData && !isRegenerating) {
+                    isRegenerating = true;
+                    try {
+                        const oldTransforms = {};
+                        worksheetCanvas.getObjects().forEach(obj => {
+                            if (obj.isGeneratedItem && !obj.originalIndex.startsWith('option_')) {
+                                oldTransforms[obj.originalIndex] = {
+                                    left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle
+                                };
+                            }
+                        });
+
+                        const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+                        const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem || o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
+                        oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
+
+                        await renderGeneratedContent(worksheetCanvas, lastGeneratedPuzzleData, false, oldTransforms);
+
+                        enforceZOrder(worksheetCanvas);
+                        userAddedObjects.forEach(obj => worksheetCanvas.bringToFront(obj));
+                        worksheetCanvas.renderAll();
+
+                        // Also regenerate answer key if it exists
+                        const hasAnswerKey = answerKeyCanvas && answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem);
+                        if (hasAnswerKey) {
+                            const akOldTransforms = {};
+                            answerKeyCanvas.getObjects().forEach(obj => {
+                                if (obj.isAnswerKeyItem && !obj.originalIndex.startsWith('option_')) {
+                                    akOldTransforms[obj.originalIndex] = {
+                                        left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle
+                                    };
+                                }
+                            });
+
+                            const akUserAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+                            const akObjectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
+                            akObjectsToRemove.forEach(o => answerKeyCanvas.remove(o));
+
+                            const background = worksheetCanvas.getObjects().find(o => o.isBackground);
+                            if (background) {
+                                await new Promise(resolve => background.clone(cloned => {
+                                    cloned.set({ isBackground: true });
+                                    answerKeyCanvas.add(cloned);
+                                    resolve();
+                                }));
+                            }
+                            const border = worksheetCanvas.getObjects().find(o => o.isBorder);
+                            if (border) {
+                                await new Promise(resolve => border.clone(cloned => {
+                                    cloned.set({ isBorder: true });
+                                    answerKeyCanvas.add(cloned);
+                                    resolve();
+                                }));
+                            }
+
+                            await renderGeneratedContent(answerKeyCanvas, lastGeneratedPuzzleData, true, akOldTransforms);
+
+                            enforceZOrder(answerKeyCanvas);
+                            akUserAddedObjects.forEach(obj => answerKeyCanvas.bringToFront(obj));
+                            answerKeyCanvas.renderAll();
+                        }
+                    } catch (error) {
+                        console.error('Error regenerating worksheet on page size change:', error);
+                    } finally {
+                        isRegenerating = false;
+                    }
+                }
+            }
+        });
+        setPageSizeBtn.addEventListener('click', () => {
+            let newWidth, newHeight;
+            if (pageSizeSelect.value === 'custom') {
+                newWidth = parseInt(pageWidthInput.value, 10);
+                newHeight = parseInt(pageHeightInput.value, 10);
+            } else {
+                [newWidth, newHeight] = pageSizeSelect.value.split('x').map(Number);
+            }
+            updateCanvasDisplayDimensions(newWidth || currentCanvasConfig.width, newHeight || currentCanvasConfig.height);
+        });
+        pageColorInput.addEventListener('input', () => {
+            const newColor = pageColorInput.value;
+            if (worksheetCanvas) { worksheetCanvas.backgroundColor = newColor; worksheetCanvas.renderAll(); }
+            if (answerKeyCanvas) { answerKeyCanvas.backgroundColor = newColor; answerKeyCanvas.renderAll(); }
+        });
+
+        // --- Contextual Toolbar Functions (Standard) ---
+        let activePopover = null;
+        function togglePopover(popover) {
+            const isOpening = popover.style.display !== 'block';
+            closeAllPopovers();
+            if (isOpening) { popover.style.display = 'block'; activePopover = popover; }
+        }
+        function closeAllPopovers() {
+            if (activePopover) { activePopover.style.display = 'none'; activePopover = null; }
+        }
+        function bringObjectForward() {
+            const activeCanvas = getActiveCanvas();
+            const activeObject = activeCanvas.getActiveObject();
+            if (activeObject) {
+                activeCanvas.bringForward(activeObject);
+                enforceZOrder(activeCanvas);
+                activeCanvas.renderAll();
+            }
+            closeAllPopovers();
+        }
+        function sendObjectBackward() {
+            const activeCanvas = getActiveCanvas();
+            const activeObject = activeCanvas.getActiveObject();
+            if (activeObject) {
+                activeCanvas.sendBackwards(activeObject);
+                enforceZOrder(activeCanvas);
+                activeCanvas.renderAll();
+            }
+            closeAllPopovers();
+        }
+        function deleteSelectedObjects() {
+            const activeCanvas = getActiveCanvas();
+            const activeObjects = activeCanvas.getActiveObjects();
+            if (activeObjects.length > 0) {
+                activeObjects.forEach(obj => {
+                    if (!obj.isGeneratedItem && !obj.isAnswerKeyItem) {
+                        activeCanvas.remove(obj);
+                    }
+                });
+                activeCanvas.discardActiveObject().renderAll();
+            }
+            closeAllPopovers();
+        }
+        function alignObjects(type) {
+            const activeCanvas = getActiveCanvas();
+            const activeObj = activeCanvas.getActiveObject();
+            if (!activeObj) return;
+            if (type.includes('Canvas')) {
+                // CRITICAL: Use currentCanvasConfig, NOT canvas dimensions!
+                const canvasWidth = currentCanvasConfig.width;
+                const canvasHeight = currentCanvasConfig.height;
+                
+                if (type === 'centerHCanvas') {
+                    const objWidth = activeObj.getScaledWidth();
+                    const currentOriginX = activeObj.originX;
+                    
+                    let centerLeft;
+                    if (currentOriginX === 'center') {
+                        centerLeft = canvasWidth / 2;
+                    } else if (currentOriginX === 'right') {
+                        centerLeft = (canvasWidth / 2) + (objWidth / 2);
+                    } else { // left or default
+                        centerLeft = (canvasWidth / 2) - (objWidth / 2);
+                    }
+                    
+                    activeObj.set('left', centerLeft);
+                }
+                
+                if (type === 'centerVCanvas') {
+                    const objHeight = activeObj.getScaledHeight();
+                    const currentOriginY = activeObj.originY;
+                    
+                    let centerTop;
+                    if (currentOriginY === 'center') {
+                        centerTop = canvasHeight / 2;
+                    } else if (currentOriginY === 'bottom') {
+                        centerTop = (canvasHeight / 2) + (objHeight / 2);
+                    } else { // top or default
+                        centerTop = (canvasHeight / 2) - (objHeight / 2);
+                    }
+                    
+                    activeObj.set('top', centerTop);
+                }
+            } else if (activeObj.type === 'activeSelection') {
+                const group = activeObj;
+                group.forEachObject(function(obj) {
+                    switch (type) {
+                        case 'alignLeft': obj.left = -group.width / 2; break;
+                        case 'alignHCenter': obj.left = 0 - (obj.getScaledWidth() / 2); break;
+                        case 'alignRight': obj.left = group.width / 2 - obj.getScaledWidth(); break;
+                        case 'alignTop': obj.top = -group.height / 2; break;
+                        case 'alignVCenter': obj.top = 0 - (obj.getScaledHeight() / 2); break;
+                        case 'alignBottom': obj.top = group.height / 2 - obj.getScaledHeight(); break;
+                    }
+                });
+            }
+            activeObj.setCoords();
+            activeCanvas.renderAll();
+            closeAllPopovers();
+        }
+
+        // --- Text Tools Functions (Standard) ---
+        function addText() {
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+            const textContent = textInput.value.trim() || 'New Text';
+            const textObject = new fabric.Textbox(textContent, {
+                left: (currentCanvasConfig.width - 250) / 2,
+                top: (currentCanvasConfig.height - 100) / 2,
+                fontSize: 48,
+                fill: '#333333',
+                fontFamily: 'Arial',
+                width: 250,
+                padding: 8,
+                borderColor: 'var(--app-accent-primary)',
+                cornerColor: 'var(--app-accent-primary)',
+                cornerSize: 10,
+                transparentCorners: false,
+                cornerStyle: 'circle',
+                stroke: '#000000',
+                strokeWidth: 0
+            });
+            activeCanvas.add(textObject);
+            activeCanvas.setActiveObject(textObject);
+            activeCanvas.renderAll();
+            textInput.value = '';
+            showMessage(t('missingpieces.msg.text.added'), 'success', 1500);
+        }
+        function updateActiveTextObjectProperties() {
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+            const activeObject = activeCanvas.getActiveObject();
+            if (activeObject && activeObject.type === 'textbox' && !activeObject.isGeneratedItem && !activeObject.isAnswerKeyItem) {
+                const newProps = {}; let propsChanged = false;
+                if (textColorInput.value !== activeObject.fill) { newProps.fill = textColorInput.value; propsChanged = true; }
+                const newFontSize = parseInt(fontSizeInput.value, 10);
+                if (newFontSize > 0 && newFontSize !== activeObject.fontSize) { newProps.fontSize = newFontSize; propsChanged = true; }
+                if (fontFamilySelect.value !== activeObject.fontFamily) { newProps.fontFamily = fontFamilySelect.value; propsChanged = true; }
+                if (textStrokeColorInput.value !== activeObject.stroke) { newProps.stroke = textStrokeColorInput.value; propsChanged = true; }
+                const newStrokeWidth = parseFloat(textStrokeWidthInput.value);
+                if (newStrokeWidth >= 0 && newStrokeWidth !== activeObject.strokeWidth) { newProps.strokeWidth = newStrokeWidth; propsChanged = true; }
+                if (document.activeElement === textInput && textInput.value !== activeObject.text) { newProps.text = textInput.value; propsChanged = true; }
+                if (propsChanged) { activeObject.set(newProps); activeCanvas.renderAll(); }
+            }
+        }
+        
+        // --- Object Selection Handlers (Standard) ---
+        function handleObjectSelection(e, canvas) {
+            const activeObject = e.target || canvas.getActiveObject();
+            if (!activeObject) {
+                handleSelectionCleared(null, canvas);
+                return;
+            }
+            objectContextToolbar.style.display = 'flex';
+            const isGroup = activeObject.type === 'activeSelection';
+            allToolbarButtons.forEach(btn => btn.disabled = false);
+            document.querySelectorAll('#alignDropdown button').forEach(btn => {
+                btn.disabled = btn.id.includes('Canvas') ? isGroup : !isGroup;
+            });
+            const isSingleTextObject = !isGroup && activeObject.type === 'textbox' && !activeObject.isGeneratedItem && !activeObject.isAnswerKeyItem;
+            [textColorInput, fontSizeInput, fontFamilySelect, textStrokeColorInput, textStrokeWidthInput, textInput].forEach(el => el.disabled = !isSingleTextObject);
+            if (isSingleTextObject) {
+                textInput.value = activeObject.text || "";
+                textColorInput.value = activeObject.fill || '#333333';
+                fontSizeInput.value = activeObject.fontSize || 48;
+                fontFamilySelect.value = activeObject.fontFamily || fontFamilySelect.options[0].value;
+                textStrokeColorInput.value = activeObject.stroke || '#000000';
+                textStrokeWidthInput.value = activeObject.strokeWidth || 0;
+            } else {
+                handleSelectionCleared(null, canvas);
+                objectContextToolbar.style.display = 'flex';
+            }
+        }
+        function handleSelectionCleared(e, canvas) {
+            objectContextToolbar.style.display = 'none';
+            closeAllPopovers();
+            [textColorInput, fontSizeInput, fontFamilySelect, textStrokeColorInput, textStrokeWidthInput].forEach(el => el.disabled = true);
+            textColorInput.value = '#333333'; fontSizeInput.value = 48; fontFamilySelect.value = fontFamilySelect.options[0].value;
+            textStrokeColorInput.value = '#000000'; textStrokeWidthInput.value = 0;
+            if (document.activeElement !== textInput) textInput.value = "";
+            textInput.disabled = false;
+        }
+
+        // --- Image Library & Uploads (Standard) ---
+        async function loadThemes() {
+            try {
+                const response = await fetch(`/api/themes-translated?locale=${currentLocale}`);
+                if (!response.ok) throw new Error('Failed to load themes');
+                const themeData = await response.json();
+                themeSelect.innerHTML = `<option value="all">${t('missingpieces.themes.all')}</option>`;
+                themeData.forEach(theme => {
+                    const opt = document.createElement("option");
+                    opt.value = theme.value;
+                    opt.textContent = theme.displayName;
+                    themeSelect.appendChild(opt);
+                });
+                loadDictionary();
+            } catch(err) {
+                console.error("Error loading themes:", err);
+                showMessage(t('missingpieces.msg.themes.error'), 'error');
+            }
+        }
+        async function loadDictionary() {
+            const theme = themeSelect.value;
+            const query = searchInput.value.trim().toLowerCase();
+            let imagesToRender = [];
+            if (theme === 'all') {
+                if (!query) {
+                    // Default to animals theme when "All Themes" is selected with no search
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('missingpieces.msg.loading.default')}</p>`;
+                    try {
+                        const res = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                        if (!res.ok) throw new Error('Theme load failed');
+                        const data = await res.json();
+                    imagesToRender = data.images || data; // Handle both old and new API formats
+                    } catch (err) { dictionaryDiv.innerHTML = `<p class='dictionary-message'>${t('missingpieces.msg.search.error')}</p>`; return; }
+                } else {
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('missingpieces.msg.searching')}</p>`;
+                    try {
+                        const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                        if (!res.ok) throw new Error('Search failed');
+                        const data = await res.json();
+                    imagesToRender = data.images || data; // Handle both old and new API formats
+                    } catch (err) { dictionaryDiv.innerHTML = `<p class='dictionary-message'>${t('missingpieces.msg.search.error')}</p>`; return; }
+                }
+            } else {
+                dictionaryDiv.innerHTML = `<p class='dictionary-message'>${t('missingpieces.msg.loading.theme')}</p>`;
+                try {
+                    const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
+                    if (!res.ok) throw new Error('Theme load failed');
+                    const data = await res.json();
+                const themeImages = data.images || data; // Handle both old and new API formats
+                    imagesToRender = query ? themeImages.filter(img => {
+                        const displayName = (img.name || img.word).toLowerCase();
+                        return displayName.includes(query);
+                    }) : themeImages;
+                } catch (err) { dictionaryDiv.innerHTML = `<p class='dictionary-message'>${t('missingpieces.msg.search.error')}</p>`; return; }
+            }
+            renderDictionaryItems(imagesToRender);
+        }
+        function renderDictionaryItems(images) {
+            dictionaryDiv.innerHTML = "";
+            availableImages = images; // Store for random selection
+            if (images.length === 0) { dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('missingpieces.msg.no.images').replace('{query}', '')}</p>`; return; }
+            images.sort((a, b) => {
+                const nameA = a.name || a.word;
+                const nameB = b.name || b.word;
+                return nameA.localeCompare(nameB);
+            }).forEach(img => {
+                const item = document.createElement("div");
+                item.className = "dictionary-item";
+                if (selectedImages.some(sel => sel.path === img.path)) item.classList.add('selected');
+                const displayName = img.name || img.word;
+                item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
+                item.onclick = () => toggleImageSelection(img);
+                dictionaryDiv.appendChild(item);
+            });
+        }
+        function renderUploadedImages() {
+            uploadedImagesPreviewDiv.innerHTML = "";
+            if (uploadedImages.length === 0) { uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">${t('missingpieces.uploaded.placeholder')}</p>`; return; }
+            uploadedImages.forEach(img => {
+                const item = document.createElement("div");
+                item.className = "dictionary-item";
+                if (selectedImages.some(sel => sel.path === img.path)) item.classList.add('selected');
+                const displayName = img.name || img.word;
+                item.innerHTML = `<img src="${img.path}" alt="${displayName}"/><span>${displayName}</span>`;
+                item.onclick = () => toggleImageSelection(img);
+                uploadedImagesPreviewDiv.appendChild(item);
+            });
+        }
+        function toggleImageSelection(image) {
+            const isSelected = selectedImages.some(img => img.path === image.path);
+            selectedImages = isSelected ? [] : [image];
+            isManualSelection = !isSelected; // Set flag when user manually selects/deselects
+            renderSelectedImages();
+            loadDictionary();
+            renderUploadedImages();
+        }
+        function renderSelectedImages() {
+            selectedImagesPreviewDiv.innerHTML = "";
+            selectedImages.forEach(img => {
+                const imgEl = document.createElement("img");
+                imgEl.src = img.path; imgEl.alt = img.word;
+                imgEl.onclick = () => toggleImageSelection(img);
+                selectedImagesPreviewDiv.appendChild(imgEl);
+            });
+        }
+        // Custom file button handler
+        const customFileButton = document.getElementById('customFileButton');
+        const fileSelectionText = document.getElementById('fileSelectionText');
+
+        if (customFileButton) {
+            customFileButton.addEventListener('click', () => {
+                imageUploadInput.click();
+            });
+        }
+
+        // Manually translate the file button elements after they're created
+        setTimeout(() => {
+            if (customFileButton && typeof t !== 'undefined') {
+                customFileButton.textContent = t('chooseFiles');
+            }
+            if (fileSelectionText && typeof t !== 'undefined') {
+                fileSelectionText.textContent = t('noFileChosen');
+            }
+        }, 150);
+
+        imageUploadInput.addEventListener('change', (e) => {
+            const imageFiles = Array.from(e.target.files).filter(f => f.type.startsWith('image/'));
+
+            // Update file selection text
+            if (fileSelectionText) {
+                const fileCount = imageFiles.length;
+                if (fileCount > 0) {
+                    fileSelectionText.textContent = t('filesSelected').replace('{count}', fileCount);
+                } else {
+                    fileSelectionText.textContent = t('noFileChosen');
+                }
+            }
+
+            if (imageFiles.length === 0) return;
+            let loadedCount = 0;
+            imageFiles.forEach(file => {
+                const reader = new FileReader();
+                reader.onload = (event) => {
+                    if (!uploadedImages.some(img => img.path === event.target.result)) {
+                        uploadedImages.push({ word: file.name, path: event.target.result });
+                    }
+                    if (++loadedCount === imageFiles.length) {
+                         renderUploadedImages();
+                         showMessage(t('missingpieces.msg.images.loaded').replace('{count}', imageFiles.length), 'success');
+                    }
+                };
+                reader.readAsDataURL(file);
+            });
+            imageUploadInput.value = '';
+        });
+
+        // --- Borders & Backgrounds (Standard) ---
+        async function loadBorderThemes() {
+            try {
+                borderThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
+                const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
+                if (!response.ok) {
+                    console.error('Failed to load border themes');
+                    return;
+                }
+                const themes = await response.json();
+                themes.forEach(theme => {
+                    borderThemeSelect.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
+                });
+            } catch (error) {
+                console.error('Error loading border themes:', error);
+            }
+        }
+        async function loadBackgroundThemes() {
+            try {
+                backgroundThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
+                const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
+                if (!response.ok) {
+                    console.error('Failed to load background themes');
+                    return;
+                }
+                const themes = await response.json();
+                themes.forEach(theme => {
+                    backgroundThemeSelect.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
+                });
+            } catch (error) {
+                console.error('Error loading background themes:', error);
+            }
+        }
+        function loadBorderImages() {
+            const theme = borderThemeSelect.value;
+            const activeCanvas = getActiveCanvas();
+            if (theme === 'none') {
+                borderDictionary.innerHTML = `<p class="dictionary-message">${t('missingpieces.border.message')}</p>`;
+                const existing = activeCanvas.getObjects().find(o => o.isBorder); if (existing) activeCanvas.remove(existing); activeCanvas.renderAll(); borderOpacitySlider.disabled = true; return;
+            }
+            fetch(`/api/borders/images?theme=${theme}`).then(res => res.json()).then(data => {
+                const images = data.images || data;
+                borderDictionary.innerHTML = "";
+                images.forEach(img => {
+                    const item = document.createElement("div"); item.className = "border-thumbnail-item";
+                    item.innerHTML = `<img src="${img.path}" alt="${img.name}" loading="lazy" />`;
+                    item.onclick = () => { addBorderToCanvas(img.path); document.querySelectorAll('#borderDictionary .selected').forEach(el => el.classList.remove('selected')); item.classList.add('selected'); };
+                    borderDictionary.appendChild(item);
+                });
+            });
+        }
+        function loadBackgroundImages() {
+            const theme = backgroundThemeSelect.value;
+            const activeCanvas = getActiveCanvas();
+            if (theme === 'none') {
+                backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('missingpieces.background.message')}</p>`;
+                const existing = activeCanvas.getObjects().find(o => o.isBackground); if (existing) activeCanvas.remove(existing); activeCanvas.renderAll(); backgroundOpacitySlider.disabled = true; return;
+            }
+            fetch(`/api/backgrounds/images?theme=${theme}`).then(res => res.json()).then(data => {
+                const images = data.images || data;
+                backgroundDictionary.innerHTML = "";
+                images.forEach(img => {
+                    const item = document.createElement("div"); item.className = "border-thumbnail-item";
+                    item.innerHTML = `<img src="${img.path}" alt="${img.name}" loading="lazy" />`;
+                    item.onclick = () => { addBackgroundToCanvas(img.path); document.querySelectorAll('#backgroundDictionary .selected').forEach(el => el.classList.remove('selected')); item.classList.add('selected'); };
+                    backgroundDictionary.appendChild(item);
+                });
+            });
+        }
+        function addBorderToCanvas(path) {
+            const activeCanvas = getActiveCanvas();
+            const existing = activeCanvas.getObjects().find(o => o.isBorder);
+            if (existing) activeCanvas.remove(existing);
+
+            fabric.Image.fromURL(path, (img) => {
+                // Use ACTUAL canvas dimensions, not display dimensions
+                const actualWidth = currentCanvasConfig.width;
+                const actualHeight = currentCanvasConfig.height;
+
+                // Scale to 70% of ACTUAL canvas height while preserving aspect ratio
+                const targetHeight = actualHeight * 0.7;
+                const scaleFactor = targetHeight / img.height;
+
+                img.set({
+                    isBorder: true,
+                    selectable: true,
+                    evented: true,
+                    originX: 'center',
+                    originY: 'center',
+                    left: actualWidth / 2,  // Use actual dimensions for correct centering
+                    top: actualHeight / 2,  // Use actual dimensions for correct centering
+                    scaleX: scaleFactor,
+                    scaleY: scaleFactor,
+                    opacity: parseFloat(borderOpacitySlider.value)
+                });
+                activeCanvas.add(img);
+                img.bringToFront(); // Bring to top so user can select it immediately
+                enforceZOrder(activeCanvas);
+                activeCanvas.renderAll();
+                borderOpacitySlider.disabled = false;
+            }, { crossOrigin: 'anonymous' });
+        }
+        function addBackgroundToCanvas(path) {
+            const activeCanvas = getActiveCanvas();
+            const existing = activeCanvas.getObjects().find(o => o.isBackground);
+            if (existing) activeCanvas.remove(existing);
+
+            fabric.Image.fromURL(path, (img) => {
+                // Use ACTUAL canvas dimensions, not display dimensions
+                const actualWidth = currentCanvasConfig.width;
+                const actualHeight = currentCanvasConfig.height;
+
+                // Scale to 70% of ACTUAL canvas height while preserving aspect ratio
+                const targetHeight = actualHeight * 0.7;
+                const scaleFactor = targetHeight / img.height;
+
+                img.set({
+                    isBackground: true,
+                    selectable: true,
+                    evented: true,
+                    originX: 'center',
+                    originY: 'center',
+                    left: actualWidth / 2,  // Use actual dimensions for correct centering
+                    top: actualHeight / 2,  // Use actual dimensions for correct centering
+                    scaleX: scaleFactor,
+                    scaleY: scaleFactor,
+                    opacity: parseFloat(backgroundOpacitySlider.value)
+                });
+                activeCanvas.add(img);
+                img.bringToFront(); // Bring to top so user can select it immediately
+                enforceZOrder(activeCanvas);
+                activeCanvas.renderAll();
+                backgroundOpacitySlider.disabled = false;
+            }, { crossOrigin: 'anonymous' });
+        }
+        backgroundOpacitySlider.addEventListener('input', () => {
+            const bg = getActiveCanvas().getObjects().find(o => o.isBackground);
+            if (bg) { bg.set('opacity', parseFloat(backgroundOpacitySlider.value)); getActiveCanvas().renderAll(); }
+        });
+        borderOpacitySlider.addEventListener('input', () => {
+            const border = getActiveCanvas().getObjects().find(o => o.isBorder);
+            if (border) { border.set('opacity', parseFloat(borderOpacitySlider.value)); getActiveCanvas().renderAll(); }
+        });
+
+        // --- Core Application Logic: Missing Pieces ---
+        function extractPieceDataURL(img, sx, sy, sCutWidth, sCutHeight, shape, threshold = 15) {
+            const RENDER_SIZE = 180;
+            const offCanvas = document.createElement('canvas');
+            offCanvas.width = RENDER_SIZE; offCanvas.height = RENDER_SIZE;
+            const offCtx = offCanvas.getContext('2d');
+            offCtx.imageSmoothingEnabled = true; offCtx.imageSmoothingQuality = "high";
+            
+            offCtx.beginPath();
+            let w = RENDER_SIZE, h = RENDER_SIZE;
+            switch(shape) {
+                case "square": offCtx.rect(0, 0, w, h); break;
+                case "rectPortrait": w *= 0.8; offCtx.rect(0, 0, w, h); break;
+                case "rectLandscape": h *= 0.8; offCtx.rect(0, 0, w, h); break;
+                case "circle": offCtx.arc(w/2, h/2, w/2, 0, Math.PI * 2); break;
+                case "ellipsePortrait": w *= 0.8; offCtx.ellipse(w/2, h/2, w/2, h/2, 0, 0, Math.PI*2); break;
+                case "ellipseLandscape": h *= 0.8; offCtx.ellipse(w/2, h/2, w/2, h/2, 0, 0, Math.PI*2); break;
+            }
+            offCtx.closePath(); offCtx.save(); offCtx.clip();
+            offCtx.drawImage(img, sx, sy, sCutWidth, sCutHeight, 0, 0, RENDER_SIZE, RENDER_SIZE);
+            offCtx.restore();
+
+            const imageData = offCtx.getImageData(0, 0, w, h);
+            let total = 0, count = 0;
+            for (let i = 0; i < imageData.data.length; i += 4) {
+                if (imageData.data[i+3] > 128) {
+                    total += (imageData.data[i] + imageData.data[i+1] + imageData.data[i+2]) / 3; count++;
+                }
+            }
+            if(count === 0) return null;
+            const avg = total / count; let variance = 0;
+            for (let i = 0; i < imageData.data.length; i += 4) {
+                if (imageData.data[i+3] > 128) {
+                    const brightness = (imageData.data[i] + imageData.data[i+1] + imageData.data[i+2]) / 3;
+                    variance += Math.pow(brightness - avg, 2);
+                }
+            }
+            return Math.sqrt(variance / count) >= threshold ? offCanvas.toDataURL() : null;
+        }
+
+        function generatePuzzleData() {
+            let mainImage = selectedImages[0];
+
+            // If user manually selected an image, use it
+            if (isManualSelection && mainImage) {
+                console.log('[User Selection] Using user-selected image:', mainImage.name || mainImage.word);
+            } else {
+                // No manual selection - pick a random image each time
+                if (availableImages.length === 0) {
+                    showMessage(t('missingpieces.msg.select.image'));
+                    return null;
+                }
+                // Randomly select a new image each time Generate is clicked
+                const randomIndex = Math.floor(Math.random() * availableImages.length);
+                mainImage = availableImages[randomIndex];
+                console.log('[Random Selection] Auto-selected:', mainImage.name || mainImage.word);
+            }
+            const missingCount = parseInt(missingCountInput.value, 10);
+            const solOptions = parseInt(solutionOptionsInput.value, 10);
+            const pieceShape = pieceShapeSelect.value;
+            if (missingCount < 1 || missingCount > 5) { showMessage(t('missingpieces.msg.pieces.range')); return null; }
+            if (solOptions < 2 || solOptions > 6) { showMessage(t('missingpieces.msg.options.range')); return null; }
+            if (missingCount >= solOptions) { showMessage(t('missingpieces.msg.pieces.less')); return null; }
+
+            return new Promise((resolve) => {
+                const img = new Image();
+                img.crossOrigin = "anonymous";
+                img.src = mainImage.path;
+                img.onload = () => {
+                    const pieceCutSize = Math.max(50, img.width * 0.12);
+                    const positions = [];
+                    let attempts = 0;
+                    while (positions.length < missingCount && attempts < 150) {
+                        const randX = Math.random() * (img.width - pieceCutSize);
+                        const randY = Math.random() * (img.height - pieceCutSize);
+                        if (!positions.some(p => Math.abs(p.x - randX) < pieceCutSize && Math.abs(p.y - randY) < pieceCutSize)) {
+                            const pieceData = extractPieceDataURL(img, randX, randY, pieceCutSize, pieceCutSize, pieceShape);
+                            if (pieceData) positions.push({ x: randX, y: randY, data: pieceData });
+                        }
+                        attempts++;
+                    }
+                    if (positions.length < missingCount) { showMessage(t('missingpieces.msg.distinct.pieces')); resolve(null); return; }
+
+                    const correctPieces = positions.map(p => p.data);
+                    let correctIndices = [];
+                    while(correctIndices.length < correctPieces.length) {
+                        let idx = getRandomInt(0, solOptions - 1); if (!correctIndices.includes(idx)) correctIndices.push(idx);
+                    }
+                    const optionArray = new Array(solOptions).fill(null);
+                    correctIndices.forEach((optIdx, i) => { optionArray[optIdx] = correctPieces[i]; });
+                    const distractorPieces = [];
+                    let distractorAttempts = 0;
+                    while (distractorPieces.length < (solOptions - correctPieces.length) && distractorAttempts < 200) {
+                        const x = Math.random() * (img.width - pieceCutSize);
+                        const y = Math.random() * (img.height - pieceCutSize);
+                        if (!positions.some(p => Math.abs(p.x - x) < pieceCutSize && Math.abs(p.y - y) < pieceCutSize)) {
+                            const candidate = extractPieceDataURL(img, x, y, pieceCutSize, pieceCutSize, pieceShape);
+                            if (candidate) distractorPieces.push(candidate);
+                        }
+                        distractorAttempts++;
+                    }
+                    let distractorIndex = 0;
+                    for (let i = 0; i < solOptions; i++) {
+                        if (!optionArray[i]) optionArray[i] = (distractorIndex < distractorPieces.length) ? distractorPieces[distractorIndex++] : "https://via.placeholder.com/180x180.png?text=Option";
+                    }
+                    resolve({ mainImage, pieceShape, pieceSize: pieceCutSize, positions, optionPieces: optionArray, correctIndices });
+                };
+                img.onerror = () => { showMessage(t('missingpieces.msg.image.failed')); resolve(null); };
+            });
+        }
+
+        // --- HEADER & BORDER FUNCTIONS ---
+        function createHeaderGroup(canvas) {
+            const defaultHeaders = {
+                en: { title: 'Missing Pieces', description: 'Find and place the missing pieces!' },
+                de: { title: 'Fehlende Teile', description: 'Finde und platziere die fehlenden Teile!' },
+                fr: { title: 'Pièces Manquantes', description: 'Trouve et place les pièces manquantes!' },
+                es: { title: 'Piezas Perdidas', description: '¡Encuentra y coloca las piezas!' },
+                it: { title: 'Pezzi Mancanti', description: 'Trova e posiziona i pezzi mancanti!' },
+                pt: { title: 'Peças em Falta', description: 'Encontra e coloca as peças!' },
+                nl: { title: 'Ontbrekende Stukjes', description: 'Vind en plaats de ontbrekende stukjes!' },
+                sv: { title: 'Saknade Bitar', description: 'Hitta och placera de saknade bitarna!' },
+                da: { title: 'Manglende Dele', description: 'Find og placer de manglende dele!' },
+                no: { title: 'Manglende Deler', description: 'Finn og plasser de manglende delene!' },
+                fi: { title: 'Puuttuvat Palat', description: 'Löydä ja aseta puuttuvat palat!' }
+            };
+
+            const locale = currentLocale || 'en';
+            const defaults = defaultHeaders[locale] || defaultHeaders.en;
+            const title = defaults.title;
+            const description = defaults.description;
+
+            // Get current canvas dimensions for responsive design
+            const pageWidth = currentCanvasConfig.width;
+            const pageHeight = currentCanvasConfig.height;
+            const isLandscape = pageWidth > pageHeight;
+
+            const objects = [];
+
+            // Outer border - responsive to page size (bright teal)
+            const margin = 34;
+            const strokeWidth = 8;
+            const borderWidth = pageWidth - (margin * 2);
+            const borderHeight = pageHeight - (margin * 2);
+
+            const outerBorder = new fabric.Rect({
+                left: margin,
+                top: margin,
+                width: borderWidth,
+                height: borderHeight,
+                fill: 'transparent',
+                stroke: '#14B8A6',
+                strokeWidth: strokeWidth,
+                rx: 12,
+                ry: 12,
+                selectable: true,
+                hasControls: true,
+                isPageBorder: true
+            });
+            objects.push(outerBorder);
+
+            // Inner border - Hot pink (responsive)
+            const innerMargin = 46.5;
+            const innerStrokeWidth = 3;
+            const innerBorderWidth = pageWidth - (innerMargin * 2);
+            const innerBorderHeight = pageHeight - (innerMargin * 2);
+
+            const innerBorder = new fabric.Rect({
+                left: innerMargin,
+                top: innerMargin,
+                width: innerBorderWidth,
+                height: innerBorderHeight,
+                fill: 'transparent',
+                stroke: '#EC4899',
+                strokeWidth: innerStrokeWidth,
+                rx: 8,
+                ry: 8,
+                selectable: true,
+                hasControls: true,
+                isPageBorder: true
+            });
+            objects.push(innerBorder);
+
+            // LANDSCAPE MODE: Compact, professional header centered at top
+            if (isLandscape) {
+                // Compact header dimensions for landscape (60% of width maximum)
+                const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+                const headerHeight = 70;
+                const pillHeight = 50;
+
+                const centerX = pageWidth / 2;
+                const headerTop = 60;
+
+                // Turquoise header background - compact size
+                const bgRect = new fabric.Rect({
+                    left: centerX - maxHeaderWidth / 2,
+                    top: headerTop,
+                    width: maxHeaderWidth,
+                    height: headerHeight,
+                    fill: '#06B6D4',
+                    rx: 35,
+                    ry: 35,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(bgRect);
+
+                // White rounded rectangle for title - compact
+                const whitePill = new fabric.Rect({
+                    left: centerX - (maxHeaderWidth - 40) / 2,
+                    top: headerTop + 10,
+                    width: maxHeaderWidth - 40,
+                    height: pillHeight,
+                    fill: '#FFFFFF',
+                    rx: 25,
+                    ry: 25,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(whitePill);
+
+                // Title - Compact size for landscape
+                let titleFontSize = 36;
+                if (title.length > 12) titleFontSize = 32;
+                if (title.length > 15) titleFontSize = 28;
+                if (title.length > 18) titleFontSize = 24;
+
+                const titleText = new fabric.IText(title, {
+                    left: centerX,
+                    top: headerTop + 35,
+                    fontSize: titleFontSize,
+                    fontFamily: 'Fredoka, sans-serif',
+                    fontWeight: '700',
+                    fill: '#0F766E',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'center',
+                    selectable: true,
+                    editable: true,
+                    isHeaderElement: true
+                });
+                objects.push(titleText);
+
+                // Description - Compact for landscape
+                const descText = new fabric.Textbox(description, {
+                    left: centerX,
+                    top: headerTop + headerHeight + 5,
+                    width: maxHeaderWidth - 20,
+                    fontSize: 14,
+                    fontFamily: 'Quicksand, sans-serif',
+                    fontWeight: '500',
+                    fill: '#DB2777',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'top',
+                    selectable: true,
+                    editable: true,
+                    hasControls: true,
+                    isHeaderDesc: true,
+                    isHeaderElement: true
+                });
+                objects.push(descText);
+
+            } else {
+                // PORTRAIT MODE: Full-width professional header
+                const headerMargin = 70;
+                const headerWidth = pageWidth - (headerMargin * 2);
+                const centerX = pageWidth / 2;
+
+                // Header background - Turquoise
+                const bgRect = new fabric.Rect({
+                    left: headerMargin,
+                    top: 70,
+                    width: headerWidth,
+                    height: 100,
+                    fill: '#06B6D4',
+                    rx: 15,
+                    ry: 15,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(bgRect);
+
+                // White pill for title
+                const whitePill = new fabric.Rect({
+                    left: headerMargin + 20,
+                    top: 85,
+                    width: headerWidth - 40,
+                    height: 70,
+                    fill: '#FFFFFF',
+                    rx: 35,
+                    ry: 35,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(whitePill);
+
+                // Title - Dynamic size based on length
+                let titleFontSize = 48;
+                if (title.length > 12) titleFontSize = 40;
+                if (title.length > 15) titleFontSize = 36;
+                if (title.length > 18) titleFontSize = 32;
+                if (title.length > 22) titleFontSize = 28;
+
+                // Title text - Deep teal
+                const titleText = new fabric.IText(title, {
+                    left: centerX,
+                    top: 120,
+                    fontSize: titleFontSize,
+                    fontFamily: 'Fredoka, sans-serif',
+                    fontWeight: '700',
+                    fill: '#0F766E',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'center',
+                    selectable: true,
+                    editable: true,
+                    isHeaderElement: true
+                });
+                objects.push(titleText);
+
+                // Description text - Rose pink
+                const descText = new fabric.Textbox(description, {
+                    left: centerX,
+                    top: 190,
+                    width: Math.min(450, pageWidth - 150),
+                    fontSize: 20,
+                    fontFamily: 'Quicksand, sans-serif',
+                    fontWeight: '500',
+                    fill: '#DB2777',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'top',
+                    selectable: true,
+                    editable: true,
+                    hasControls: true,
+                    isHeaderDesc: true,
+                    isHeaderElement: true
+                });
+                objects.push(descText);
+            }
+
+            return objects;
+        }
+
+        function createPageBorder(canvas) {
+            return null;
+        }
+
+        async function renderGeneratedContent(targetCanvas, puzzleData, isAnswerKey, oldTransforms) {
+            // Store old canvas dimensions BEFORE removing objects
+            const oldCanvasWidth = targetCanvas.getWidth();
+            const oldCanvasHeight = targetCanvas.getHeight();
+
+            // Clear existing generated items first to prevent overlapping
+            const objectsToRemove = targetCanvas.getObjects().filter(obj => {
+                return isAnswerKey ? (obj.isAnswerKeyItem || obj.isPageBorder || obj.isHeaderDesc || obj.isHeaderElement) : (obj.isGeneratedItem || obj.isPageBorder || obj.isHeaderDesc || obj.isHeaderElement);
+            });
+            objectsToRemove.forEach(obj => targetCanvas.remove(obj));
+
+            // CRITICAL: Use actual page dimensions, not display dimensions
+            const canvasWidth = currentCanvasConfig.width;
+            const canvasHeight = currentCanvasConfig.height;
+
+            // Check if canvas dimensions changed - if so, DON'T preserve transforms
+            const canvasDimensionsChanged = (oldCanvasWidth !== canvasWidth || oldCanvasHeight !== canvasHeight);
+            const shouldPreserveTransforms = !canvasDimensionsChanged;
+
+            // Generate header and border
+            const headerObjects = createHeaderGroup(targetCanvas);
+            const isLandscape = canvasWidth > canvasHeight;
+            const headerHeight = headerObjects ? (isLandscape ? 100 : 220) : 0;
+
+            // Professional margins - optimized for landscape/portrait
+            const marginRatio = isLandscape ? 0.06 : 0.1;
+            const sideMargin = canvasWidth * marginRatio;
+            const topMargin = isLandscape ? headerHeight + 15 : Math.max(canvasHeight * marginRatio, headerHeight + 20);
+            const bottomMargin = canvasHeight * marginRatio;
+
+            // Calculate available space for content
+            const availableWidth = canvasWidth - (sideMargin * 2);
+            const availableHeight = canvasHeight - topMargin - bottomMargin;
+
+            const mainImg = await new Promise(resolve => fabric.Image.fromURL(puzzleData.mainImage.path, resolve, { crossOrigin: 'anonymous' }));
+
+            let mainImageMaxWidth, mainImageMaxHeight, puzzleLeft;
+
+            if (isLandscape) {
+                // LANDSCAPE: Professional side-by-side layout - puzzle on left (50%), options on right (50%)
+                mainImageMaxWidth = availableWidth * 0.50;
+                mainImageMaxHeight = availableHeight * 0.95;
+
+                // Scale to fit within left section, then increase by 43% (30% + 10%)
+                const scaleToFitWidth = mainImageMaxWidth / mainImg.width;
+                const scaleToFitHeight = mainImageMaxHeight / mainImg.height;
+                const finalScale = Math.min(scaleToFitWidth, scaleToFitHeight) * 1.43;
+                mainImg.scale(finalScale);
+
+                // Position in left section, centered horizontally
+                puzzleLeft = sideMargin + (mainImageMaxWidth - mainImg.getScaledWidth()) / 2;
+
+            } else {
+                // PORTRAIT: Vertical layout - puzzle on top, options below
+                const optionsAreaHeight = Math.min(150, availableHeight * 0.25);
+                mainImageMaxHeight = availableHeight - optionsAreaHeight - 20;
+
+                // Scale to fit, then increase by 30%
+                const scaleToFitWidth = availableWidth / mainImg.width;
+                const scaleToFitHeight = mainImageMaxHeight / mainImg.height;
+                const finalScale = Math.min(scaleToFitWidth, scaleToFitHeight) * 1.3;
+                mainImg.scale(finalScale);
+
+                // Center horizontally
+                puzzleLeft = sideMargin + (availableWidth - mainImg.getScaledWidth()) / 2;
+            }
+
+            const puzzleElements = [mainImg];
+            mainImg.set({ selectable: false, evented: false });
+
+            puzzleData.positions.forEach((pos, i) => {
+                const scaleFactor = mainImg.getScaledWidth() / mainImg.width;
+                const scaledSize = puzzleData.pieceSize * scaleFactor;
+                const scaledX = pos.x * scaleFactor;
+                const scaledY = pos.y * scaleFactor;
+
+                let hole;
+                const commonProps = { fill: 'white', stroke: 'rgba(0,0,0,0.5)', strokeWidth: 2, selectable: false, evented: false, originX: 'left', originY: 'top' };
+                switch(puzzleData.pieceShape) {
+                    case 'circle': hole = new fabric.Circle({ ...commonProps, radius: scaledSize / 2 }); break;
+                    case 'rectPortrait': hole = new fabric.Rect({ ...commonProps, width: scaledSize*0.8, height: scaledSize }); break;
+                    case 'rectLandscape': hole = new fabric.Rect({ ...commonProps, width: scaledSize, height: scaledSize*0.8 }); break;
+                    case 'ellipsePortrait': hole = new fabric.Ellipse({ ...commonProps, rx: (scaledSize*0.8)/2, ry: scaledSize/2 }); break;
+                    case 'ellipseLandscape': hole = new fabric.Ellipse({ ...commonProps, rx: scaledSize/2, ry: (scaledSize*0.8)/2 }); break;
+                    default: hole = new fabric.Rect({ ...commonProps, width: scaledSize, height: scaledSize });
+                }
+                hole.set({ left: scaledX, top: scaledY });
+                puzzleElements.push(hole);
+
+                if (isAnswerKey) {
+                    const numberText = new fabric.Text(String(puzzleData.correctIndices[i] + 1), {
+                        fontSize: scaledSize * 0.6, fill: 'black', backgroundColor: 'rgba(255, 255, 0, 0.7)',
+                        left: scaledX + hole.width / 2, top: scaledY + hole.height / 2,
+                        originX: 'center', originY: 'center', selectable: false, evented: false
+                    });
+                    puzzleElements.push(numberText);
+                }
+            });
+
+            // Calculate actual image height before using it
+            const actualImageHeight = mainImg.getScaledHeight();
+
+            // Calculate puzzle top position
+            let puzzleTop;
+            if (isLandscape) {
+                // Center puzzle vertically with slight upward bias for visual balance
+                puzzleTop = topMargin + (availableHeight - actualImageHeight) / 2.2;
+            } else {
+                puzzleTop = topMargin - 30; // Move up by 30 pixels in portrait (was 50, moved down 20)
+            }
+
+            const mainPuzzleGroup = new fabric.Group(puzzleElements, {
+                left: puzzleLeft,
+                top: puzzleTop,
+                selectable: true, evented: true,
+                cornerColor: 'var(--app-accent-primary)', borderColor: 'var(--app-accent-primary)',
+                cornerSize: 10, transparentCorners: false,
+                isGeneratedItem: !isAnswerKey,
+                isAnswerKeyItem: isAnswerKey,
+                originalIndex: 'mainPuzzle'
+            });
+            // Only preserve transforms if canvas dimensions haven't changed
+            if (shouldPreserveTransforms && oldTransforms['mainPuzzle']) {
+                mainPuzzleGroup.set(oldTransforms['mainPuzzle']);
+            }
+            targetCanvas.add(mainPuzzleGroup);
+
+            // Define spacing constants
+            const optionSpacing = 15; // Spacing between options
+            const rowSpacing = 10; // Vertical spacing between rows
+
+            // Calculate spacing and layout based on orientation
+            const numOptions = puzzleData.optionPieces.length;
+
+            let bestGrid, optionBoxSize, optionsStartY, optionsStartX;
+
+            if (isLandscape) {
+                // LANDSCAPE: Professional horizontal row layout in right section (50% of width)
+                const rightSectionWidth = availableWidth * 0.50;
+                const rightSectionLeft = sideMargin + availableWidth * 0.50;
+
+                // Calculate optimal box size for professional appearance, then decrease by 20%
+                const maxWidthPerBox = (rightSectionWidth - optionSpacing * (numOptions - 1)) / numOptions;
+                const maxHeightPerBox = availableHeight * 0.25; // Use 25% of available height for better proportions
+                const maxBoxSize = Math.min(maxHeightPerBox, maxWidthPerBox) * 0.8;
+
+                optionBoxSize = maxBoxSize;
+
+                // Center options horizontally in right section, then move 30px left
+                const totalOptionsWidth = optionBoxSize * numOptions + optionSpacing * (numOptions - 1);
+                optionsStartX = rightSectionLeft + (rightSectionWidth - totalOptionsWidth) / 2 - 30;
+
+                // Position options in vertical center
+                optionsStartY = topMargin + (availableHeight - optionBoxSize) / 2;
+
+                bestGrid = { cols: numOptions, rows: 1, boxSize: maxBoxSize };
+            } else {
+                // PORTRAIT: Horizontal layout below puzzle
+                const cols = numOptions;
+                const rows = 1;
+
+                // Calculate max box size for single row layout
+                const maxWidthPerBox = (availableWidth - optionSpacing * (cols - 1)) / cols;
+
+                // Calculate remaining vertical space
+                const totalContentHeight = actualImageHeight;
+                const remainingVerticalSpace = canvasHeight - topMargin - bottomMargin - totalContentHeight;
+
+                // Split remaining space: gap between image and options
+                const estimatedOptionHeight = Math.min(100, maxWidthPerBox);
+                const gapBetweenImageAndOptions = (remainingVerticalSpace - estimatedOptionHeight) * 0.4;
+
+                optionsStartY = topMargin + actualImageHeight + gapBetweenImageAndOptions;
+
+                // Calculate max box size based on available height
+                const maxHeightPerBox = canvasHeight - optionsStartY - bottomMargin;
+                const maxBoxSize = Math.min(maxWidthPerBox, maxHeightPerBox, 100); // Cap at 100
+
+                optionBoxSize = maxBoxSize * 0.75; // 25% smaller
+                bestGrid = { cols, rows, boxSize: maxBoxSize };
+            }
+            
+            const optionPromises = puzzleData.optionPieces.map((dataUrl, i) => (async () => {
+                const pieceImg = await new Promise(r => fabric.Image.fromURL(dataUrl, r, { crossOrigin: 'anonymous' }));
+                
+                // Scale to fit within box while maintaining aspect ratio
+                const scaleX = optionBoxSize / pieceImg.width;
+                const scaleY = optionBoxSize / pieceImg.height;
+                const scale = Math.min(scaleX, scaleY);
+                pieceImg.scale(scale);
+                
+                const numberText = new fabric.Text(String(i + 1), {
+                    fontSize: Math.min(24, optionBoxSize * 0.3),
+                    fill: '#333',
+                    top: -optionBoxSize * 0.675,
+                    left: -2,
+                    originX: 'center',
+                    originY: 'bottom'
+                });
+                
+                let outline;
+                const commonOutlineProps = { fill: 'transparent', stroke: 'black', strokeWidth: 2, selectable: false, evented: false };
+                switch (puzzleData.pieceShape) {
+                    case 'circle': outline = new fabric.Circle({...commonOutlineProps, radius: optionBoxSize/2}); break;
+                    case 'rectPortrait': outline = new fabric.Rect({...commonOutlineProps, width: optionBoxSize*0.8, height: optionBoxSize }); break;
+                    case 'rectLandscape': outline = new fabric.Rect({...commonOutlineProps, width: optionBoxSize, height: optionBoxSize*0.8 }); break;
+                    case 'ellipsePortrait': outline = new fabric.Ellipse({...commonOutlineProps, rx: (optionBoxSize*0.8)/2, ry: optionBoxSize/2}); break;
+                    case 'ellipseLandscape': outline = new fabric.Ellipse({...commonOutlineProps, rx: optionBoxSize/2, ry: (optionBoxSize*0.8)/2 }); break;
+                    default: outline = new fabric.Rect({ ...commonOutlineProps, width: optionBoxSize, height: optionBoxSize });
+                }
+                outline.set({left: -outline.width/2, top: -outline.height/2});
+                pieceImg.set({left: -pieceImg.getScaledWidth()/2, top: -pieceImg.getScaledHeight()/2});
+
+                const optionGroup = new fabric.Group([pieceImg, outline, numberText], {
+                    selectable: true, evented: true, hasControls: true,
+                    cornerColor: 'var(--app-accent-primary)', borderColor: 'var(--app-accent-primary)',
+                    cornerSize: 8, transparentCorners: false,
+                    isGeneratedItem: !isAnswerKey,
+                    isAnswerKeyItem: isAnswerKey,
+                    originalIndex: `option_${i}`
+                });
+                return optionGroup;
+            })());
+
+            const optionGroups = await Promise.all(optionPromises);
+
+            if (isLandscape) {
+                // LANDSCAPE: Position options horizontally in a row in right section
+                let currentX = optionsStartX;
+
+                optionGroups.forEach((group) => {
+                    group.set({
+                        left: currentX,
+                        top: optionsStartY
+                    });
+                    targetCanvas.add(group);
+                    currentX += optionBoxSize + optionSpacing;
+                });
+            } else {
+                // PORTRAIT: Position options horizontally below puzzle
+                const optionsPerRow = bestGrid.cols;
+                const scaledOptionSize = optionBoxSize;
+
+                // Create row groups
+                const rowGroups = [];
+                for (let i = 0; i < optionGroups.length; i += optionsPerRow) {
+                    rowGroups.push(optionGroups.slice(i, i + optionsPerRow));
+                }
+
+                // Position each row
+                let currentY = optionsStartY;
+
+                rowGroups.forEach(rowOptions => {
+                    // Calculate total width for this row (all options have same size now)
+                    const rowWidth = scaledOptionSize * rowOptions.length + optionSpacing * (rowOptions.length - 1);
+
+                    // Center the row horizontally
+                    let currentX = sideMargin + (availableWidth - rowWidth) / 2;
+
+                    // Position each option in the row
+                    rowOptions.forEach((group) => {
+                        group.set({
+                            left: currentX,
+                            top: currentY
+                        });
+                        targetCanvas.add(group);
+                        currentX += scaledOptionSize + optionSpacing;
+                    });
+
+                    // Move to next row using uniform size
+                    currentY += scaledOptionSize + rowSpacing;
+                });
+            }
+
+            // Add header objects
+            if (headerObjects) {
+                headerObjects.forEach(obj => targetCanvas.add(obj));
+            }
+        }
+
+        // --- Main Action Handlers ---
+        async function handleGenerateWorksheet() {
+            if (generateDropdownContent) generateDropdownContent.style.display = 'none';
+            showMessage(t('missingpieces.msg.generating'), 'info', 0);
+            try {
+                const puzzleData = await generatePuzzleData();
+                if (!puzzleData) {
+                    showMessage(t('missingpieces.msg.generation.failed'), 'error'); return;
+                }
+                lastGeneratedPuzzleData = puzzleData;
+
+                const oldTransforms = {};
+                worksheetCanvas.getObjects().forEach(obj => {
+                    // Only preserve transforms for the main puzzle, not options (which start with 'option_')
+                    if (obj.isGeneratedItem && !obj.originalIndex.startsWith('option_')) {
+                        oldTransforms[obj.originalIndex] = {
+                            left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle
+                        };
+                    }
+                });
+                
+                const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+                const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem || o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
+
+                // Suppress undo/redo during generation
+                isRestoring = true;
+                oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
+
+                await renderGeneratedContent(worksheetCanvas, puzzleData, false, oldTransforms);
+
+                enforceZOrder(worksheetCanvas);
+                userAddedObjects.forEach(obj => worksheetCanvas.bringToFront(obj));
+                worksheetCanvas.renderAll();
+                isRestoring = false;
+
+                generateAnswerKeyBtn.disabled = false;
+                [downloadWorksheetJpegBtn, downloadWorksheetPdfBtn].forEach(b => b.disabled = false);
+                showMessage(t('missingpieces.msg.worksheet.success'), "success");
+
+                // Save state for undo/redo after generation
+                saveState();
+            } catch (error) {
+                console.error("Error during worksheet generation:", error);
+                showMessage(t('missingpieces.msg.unexpected.error'), 'error');
+            }
+        }
+
+        async function handleGenerateAnswerKey() {
+            if (generateDropdownContent) generateDropdownContent.style.display = 'none';
+            if (!lastGeneratedPuzzleData) { showMessage(t('missingpieces.msg.generate.first'), 'error'); return; }
+            showMessage(t('missingpieces.msg.generating.answer'), 'info', 0);
+
+            try {
+                const oldTransforms = {};
+                answerKeyCanvas.getObjects().forEach(obj => {
+                    // Only preserve transforms for the main puzzle, not options (which start with 'option_')
+                    if (obj.isAnswerKeyItem && !obj.originalIndex.startsWith('option_')) {
+                        oldTransforms[obj.originalIndex] = {
+                            left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle
+                        };
+                    }
+                });
+
+                const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+                const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderDesc || o.isHeaderElement);
+
+                // Suppress undo/redo during generation
+                isRestoring = true;
+                objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
+
+                const background = worksheetCanvas.getObjects().find(o => o.isBackground);
+                if (background) {
+                    await new Promise(resolve => background.clone(cloned => {
+                        cloned.set({ isBackground: true });
+                        answerKeyCanvas.add(cloned);
+                        resolve();
+                    }));
+                }
+                const border = worksheetCanvas.getObjects().find(o => o.isBorder);
+                if (border) {
+                    await new Promise(resolve => border.clone(cloned => {
+                        cloned.set({ isBorder: true });
+                        answerKeyCanvas.add(cloned);
+                        resolve();
+                    }));
+                }
+
+                await renderGeneratedContent(answerKeyCanvas, lastGeneratedPuzzleData, true, oldTransforms);
+
+                enforceZOrder(answerKeyCanvas);
+                userAddedObjects.forEach(obj => answerKeyCanvas.bringToFront(obj));
+                answerKeyCanvas.renderAll();
+                isRestoring = false;
+
+                [downloadAnswerKeyJpegBtn, downloadAnswerKeyPdfBtn].forEach(b => b.disabled = false);
+                document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
+                showMessage(t('missingpieces.msg.answer.generated'), 'success');
+
+                // Save state for undo/redo after generation
+                saveState();
+            } catch(error) {
+                console.error("Error generating answer key:", error);
+                showMessage(t('missingpieces.msg.answer.error'), "error");
+            }
+        }
+        
+        // --- Download Functions (Standard) ---
+        async function getCanvasDataURL(canvasInstance, exportOpts) {
+            // Save current state
+            const currentZoom = canvasInstance.getZoom();
+            const currentWidth = canvasInstance.getWidth();
+            const currentHeight = canvasInstance.getHeight();
+            
+            // Reset zoom to 1 for export
+            canvasInstance.setZoom(1);
+            
+            // CRITICAL: Set canvas width/height to actual document dimensions
+            canvasInstance.setWidth(currentCanvasConfig.width);
+            canvasInstance.setHeight(currentCanvasConfig.height);
+            canvasInstance.calcOffset();
+            canvasInstance.renderAll();
+            
+            // Export at high quality with multiplier
+            const format = exportOpts.format || 'jpeg';
+            const multiplier = exportOpts.multiplier || 6;
+            
+            let dataURL = canvasInstance.toDataURL({ 
+                format: 'png',  // Use PNG for better quality first
+                quality: 1.0, 
+                multiplier: multiplier
+            });
+            
+            // Convert to JPEG if needed
+            if (format === 'jpeg') {
+                dataURL = await convertToJPEG(dataURL);
+            }
+            
+            // Restore the display state
+            canvasInstance.setZoom(currentZoom);
+            canvasInstance.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
+            canvasInstance.calcOffset();
+            canvasInstance.renderAll();
+            
+            if (grayscaleToggle.checked) {
+                try { dataURL = await applyGrayscaleToDataURL(dataURL, `image/${format}`); }
+                catch (error) { console.error("Grayscale failed:", error); }
+            }
+            return dataURL;
+        }
+        
+        async function convertToJPEG(pngDataURL) {
+            return new Promise((resolve) => {
+                const img = new Image();
+                img.onload = () => {
+                    const canvas = document.createElement('canvas');
+                    canvas.width = img.width;
+                    canvas.height = img.height;
+                    const ctx = canvas.getContext('2d');
+                    
+                    // White background for JPEG
+                    ctx.fillStyle = '#FFFFFF';
+                    ctx.fillRect(0, 0, canvas.width, canvas.height);
+                    
+                    ctx.drawImage(img, 0, 0);
+                    resolve(canvas.toDataURL('image/jpeg', 0.95));
+                };
+                img.src = pngDataURL;
+            });
+        }
+        
+        // Higher quality export function for PDFs
+        async function getCanvasDataURLWithOptions(canvasInstance, exportOpts) {
+            // Save current state
+            const currentZoom = canvasInstance.getZoom();
+            const currentWidth = canvasInstance.getWidth();
+            const currentHeight = canvasInstance.getHeight();
+            
+            // Reset zoom to 1 for export
+            canvasInstance.setZoom(1);
+            
+            // Set canvas to actual document dimensions
+            canvasInstance.setWidth(currentCanvasConfig.width);
+            canvasInstance.setHeight(currentCanvasConfig.height);
+            canvasInstance.calcOffset();
+            canvasInstance.renderAll();
+            
+            // Export at high quality
+            const multiplier = exportOpts.multiplier || 6;
+            let dataURL = canvasInstance.toDataURL({ 
+                format: 'png',
+                quality: 1.0, 
+                multiplier: multiplier
+            });
+            
+            // Convert to JPEG
+            dataURL = await convertToJPEG(dataURL);
+            
+            // Restore the display state
+            canvasInstance.setZoom(currentZoom);
+            canvasInstance.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
+            canvasInstance.calcOffset();
+            canvasInstance.renderAll();
+            
+            if (exportOpts.applyGrayscale) {
+                try { 
+                    dataURL = await applyGrayscaleToDataURL(dataURL, 'image/jpeg'); 
+                } catch (error) { 
+                    console.error("Grayscale failed:", error); 
+                }
+            }
+            
+            return dataURL;
+        }
+        
+        function applyGrayscaleToDataURL(dataURL, outputFormat = 'image/jpeg') {
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                img.onload = () => {
+                    const tempCanvas = document.createElement('canvas');
+                    tempCanvas.width = img.width; tempCanvas.height = img.height;
+                    const ctx = tempCanvas.getContext('2d');
+                    ctx.drawImage(img, 0, 0);
+                    const imageData = ctx.getImageData(0, 0, tempCanvas.width, tempCanvas.height);
+                    const data = imageData.data;
+                    for (let i = 0; i < data.length; i += 4) {
+                        const gray = 0.2126 * data[i] + 0.7152 * data[i + 1] + 0.0722 * data[i + 2];
+                        data[i] = data[i + 1] = data[i + 2] = gray;
+                    }
+                    ctx.putImageData(imageData, 0, 0);
+                    resolve(tempCanvas.toDataURL(outputFormat, 1.0));
+                };
+                img.onerror = reject; img.src = dataURL;
+            });
+        }
+        async function downloadImageFile(canvasToExport, filename) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                showMessage(t('missingpieces.msg.canvas.empty'), 'error');
+                return;
+            }
+            showMessage(t('missingpieces.msg.preparing.jpeg'), 'info', 0);
+            
+            // Use high multiplier for better quality
+            const exportOptions = { 
+                multiplier: downloadMultiplier || 6, 
+                format: 'jpeg' 
+            };
+            
+            try {
+                const dataURL = await getCanvasDataURL(canvasToExport, exportOptions);
+                const link = document.createElement('a');
+                link.download = filename;
+                link.href = dataURL;
+                link.click();
+                showMessage(t('missingpieces.msg.jpeg.success'), 'success', 3000);
+            } catch (error) {
+                showMessage(t('missingpieces.msg.jpeg.error').replace('{error}', error.message), 'error');
+            }
+        }
+        
+    // Check if user is on free tier
+    function isFreeTier() {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get('tier') === 'free';
+    }
+
+    // Add watermark to canvas before export
+    function addWatermarkToCanvas(canvas) {
+        if (!isFreeTier()) return;
+        
+        const watermarkText = new fabric.Text('FREE VERSION - LessonCraftStudio.com', {
+            fontSize: 40,
+            fill: 'rgba(0, 0, 0, 0.2)',
+            angle: -45,
+            left: canvas.width / 2,
+            top: canvas.height / 2,
+            originX: 'center',
+            originY: 'center',
+            selectable: false,
+            evented: false,
+            fontFamily: 'Arial, sans-serif',
+            fontWeight: 'bold'
+        });
+        
+        // Add multiple watermarks across the canvas
+        const watermarks = [];
+        const spacing = 250;
+        for (let x = 0; x < canvas.width; x += spacing) {
+            for (let y = 0; y < canvas.height; y += spacing) {
+                const wm = new fabric.Text('FREE VERSION', {
+                    fontSize: 20,
+                    fill: 'rgba(0, 0, 0, 0.15)',
+                    angle: -45,
+                    left: x,
+                    top: y,
+                    selectable: false,
+                    evented: false,
+                    fontFamily: 'Arial, sans-serif'
+                });
+                watermarks.push(wm);
+                canvas.add(wm);
+            }
+        }
+        
+        // Add main watermark
+        canvas.add(watermarkText);
+        canvas.renderAll();
+        
+        return { mainWatermark: watermarkText, watermarks };
+    }
+
+    // Remove watermark after export
+    function removeWatermarkFromCanvas(canvas, watermarkData) {
+        if (!watermarkData) return;
+        
+        if (watermarkData.mainWatermark) {
+            canvas.remove(watermarkData.mainWatermark);
+        }
+        if (watermarkData.watermarks) {
+            watermarkData.watermarks.forEach(wm => canvas.remove(wm));
+        }
+        canvas.renderAll();
+    }
+
+    // Override the original downloadPDF function
+    const originalDownloadPDF = typeof downloadPDF !== 'undefined' ? downloadPDF : null;
+    if (originalDownloadPDF) {
+        window.downloadPDF = async function(canvasToExport, fileName) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                return showMessage(t('missingpieces.msg.generate.first'), 'error');
+            }
+            showMessage(t('missingpieces.msg.preparing.pdf'), 'info', 0);
+            
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+            
+            try {
+                const { jsPDF } = window.jspdf;
+                const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
+                const pdf = new jsPDF({ 
+                    orientation, 
+                    unit: 'pt', 
+                    format: [canvasToExport.width, canvasToExport.height] 
+                });
+
+                const exportOptions = { 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
+                };
+                
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+
+                pdf.save(fileName);
+                showMessage(t('missingpieces.msg.pdf.downloaded'), 'success');
+            } catch(e) {
+                showMessage(t('missingpieces.msg.pdf.error'), 'error');
+                console.error(e); 
+            } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
+        };
+    }
+
+    // Override the original downloadJPEG function if it exists
+    const originalDownloadJPEG = typeof downloadJPEG !== 'undefined' ? downloadJPEG : null;
+    if (originalDownloadJPEG) {
+        window.downloadJPEG = async function(canvasToExport, fileName) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                return showMessage(t('missingpieces.msg.generate.first'), 'error');
+            }
+            showMessage(t('missingpieces.msg.preparing.jpeg.simple'), 'info', 0);
+            
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+            
+            try {
+                const exportOptions = { 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
+                };
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                
+                const link = document.createElement('a');
+                link.href = dataURL;
+                link.download = fileName;
+                link.click();
+                showMessage(t('missingpieces.msg.jpeg.success'), 'success');
+            } catch(e) {
+                showMessage(t('missingpieces.msg.jpeg.simple'), 'error');
+                console.error(e); 
+            } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
+        };
+    }
+
+async function downloadPDF(canvasToExport, filename) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                showMessage(t('missingpieces.msg.canvas.empty'), 'error');
+                return;
+            }
+            showMessage(t('missingpieces.msg.preparing.pdf.quality'), 'info', 0);
+
+            const { jsPDF } = window.jspdf;
+            
+            // Determine orientation
+            const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'landscape' : 'portrait';
+            
+            // Create PDF with user-selected dimensions
+            const pdf = new jsPDF({
+                orientation: orientation,
+                unit: 'pt',
+                format: [currentCanvasConfig.width, currentCanvasConfig.height]
+            });
+
+            try {
+                // Use high-quality export function with multiplier
+                const exportOptions = { 
+                    multiplier: 6,  // High resolution for PDF
+                    applyGrayscale: grayscaleToggle.checked 
+                };
+                
+                const imgData = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
+
+                pdf.save(filename);
+                showMessage(t('missingpieces.msg.pdf.quality.success'), 'success');
+            } catch (error) {
+                showMessage(t('missingpieces.msg.pdf.error.detailed').replace('{error}', error.message), "error");
+            }
+        }
+
+        // --- Clear & Initial State ---
+        function clearAll() {
+            lastGeneratedPuzzleData = null;
+            selectedImages = []; uploadedImages = [];
+            [worksheetCanvas, answerKeyCanvas].forEach(c => c ? c.clear().renderAll() : null);
+            renderSelectedImages(); renderUploadedImages();
+            pageColorInput.value = '#FFFFFF';
+            if(worksheetCanvas) worksheetCanvas.backgroundColor = '#FFFFFF';
+            if(answerKeyCanvas) answerKeyCanvas.backgroundColor = '#FFFFFF';
+            [generateAnswerKeyBtn, downloadWorksheetJpegBtn, downloadAnswerKeyJpegBtn, downloadWorksheetPdfBtn, downloadAnswerKeyPdfBtn].forEach(b => b.disabled = true);
+            if (generateDropdownContent) generateDropdownContent.style.display = 'none';
+            if (downloadDropdownContent) downloadDropdownContent.style.display = 'none';
+            pageSizeSelect.value = "612x792";
+            customPageSizeInputsDiv.style.display = 'none';
+            updateCanvasDisplayDimensions(612, 792);
+            showMessage(t('missingpieces.msg.form.cleared'), "success", 2000);
+        }
+
+        // --- Event Listener Setup ---
+        function setupCanvasEventListeners(canvas) {
+            canvas.on({
+                'selection:created': function(e) { handleObjectSelection(e, this); },
+                'selection:updated': function(e) { handleObjectSelection(e, this); },
+                'selection:cleared': function(e) { handleSelectionCleared(e, this); }
+            });
+
+            // Undo/Redo canvas hooks
+            canvas.on('object:added', () => saveState());
+            canvas.on('object:removed', () => saveState());
+            canvas.on('object:modified', () => saveState());
+        }
+        
+        clearBtn.addEventListener("click", clearAll);
+        generateWorksheetBtn.addEventListener("click", handleGenerateWorksheet);
+        generateAnswerKeyBtn.addEventListener("click", handleGenerateAnswerKey);
+
+        // Zoom Controls (from wordsearch lines 1520-1522)
+        zoomInBtn.addEventListener('click', zoomIn);
+        zoomOutBtn.addEventListener('click', zoomOut);
+        zoomResetBtn.addEventListener('click', zoomReset);
+
+        // Undo/Redo Controls
+        undoBtn.addEventListener('click', undo);
+        redoBtn.addEventListener('click', redo);
+
+        // Keyboard shortcuts for undo/redo
+        document.addEventListener('keydown', (e) => {
+            // Ctrl+Z for undo
+            if ((e.ctrlKey || e.metaKey) && e.key === 'z' && !e.shiftKey) {
+                e.preventDefault();
+                undo();
+            }
+            // Ctrl+Y or Ctrl+Shift+Z for redo
+            if ((e.ctrlKey || e.metaKey) && (e.key === 'y' || (e.key === 'z' && e.shiftKey))) {
+                e.preventDefault();
+                redo();
+            }
+        });
+
+        downloadWorksheetJpegBtn.addEventListener("click", () => downloadImageFile(worksheetCanvas, "worksheet.jpeg"));
+        downloadAnswerKeyJpegBtn.addEventListener("click", () => downloadImageFile(answerKeyCanvas, "answer_key.jpeg"));
+        downloadWorksheetPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas, "worksheet.pdf"));
+        downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas, "answer_key.pdf"));
+
+        themeSelect.addEventListener("change", loadDictionary);
+        searchInput.addEventListener("input", () => { if (this.searchTimeout) clearTimeout(this.searchTimeout); this.searchTimeout = setTimeout(loadDictionary, 300); });
+        borderThemeSelect.addEventListener("change", loadBorderImages);
+        backgroundThemeSelect.addEventListener("change", loadBackgroundImages);
+        
+        document.querySelectorAll(".tab-button").forEach(btn => {
+            btn.addEventListener("click", () => {
+                const currentActiveCanvas = getActiveCanvas();
+                if (currentActiveCanvas) {
+                    currentActiveCanvas.discardActiveObject().renderAll();
+                }
+
+                document.querySelectorAll(".tab-button.active, .tab.active").forEach(el => el.classList.remove("active"));
+                btn.classList.add("active");
+                document.getElementById(btn.getAttribute("data-tab")).classList.add("active");
+                
+                handleSelectionCleared(null, getActiveCanvas());
+            });
+        });
+
+        addTextBtn.addEventListener('click', addText);
+        [textInput, textColorInput, fontSizeInput, textStrokeColorInput, textStrokeWidthInput].forEach(el => el.addEventListener('input', updateActiveTextObjectProperties));
+        fontFamilySelect.addEventListener('change', updateActiveTextObjectProperties);
+        layersBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(layersDropdown); });
+        alignBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(alignDropdown); });
+
+        // Layer Controls
+        toolbarBringToFrontBtn.addEventListener('click', bringObjectToFront);
+        toolbarBringForwardBtn.addEventListener('click', bringObjectForward);
+        toolbarSendBackwardBtn.addEventListener('click', sendObjectBackward);
+        toolbarSendToBackBtn.addEventListener('click', sendObjectToBack);
+
+        toolbarDeleteBtn.addEventListener('click', deleteSelectedObjects);
+        document.querySelectorAll('#alignDropdown button').forEach(b => b.addEventListener('click', (e) => alignObjects(e.currentTarget.id.replace('Btn', ''))));
+
+        // --- INITIAL WORKSHEET GENERATION ---
+        async function generateInitialWorksheet() {
+            try {
+                console.log('Starting initial worksheet generation...');
+
+                // Wait for themes to load with polling
+                let attempts = 0;
+                const maxAttempts = 50; // 5 seconds max wait time
+
+                while (themeSelect.options.length <= 1 && attempts < maxAttempts) {
+                    await new Promise(resolve => setTimeout(resolve, 100));
+                    attempts++;
+                }
+
+                if (themeSelect.options.length <= 1) {
+                    console.error('Themes failed to load in time');
+                    return;
+                }
+
+                // Set page size to Letter portrait (612x792)
+                pageSizeSelect.value = '612x792';
+                const [width, height] = pageSizeSelect.value.split('x').map(Number);
+                currentCanvasConfig.width = width;
+                currentCanvasConfig.height = height;
+
+                updateCanvasDisplayDimensions(width, height);
+
+                // Set animals theme
+                themeSelect.value = 'animals';
+
+                // Load dictionary for animals theme
+                await loadDictionary();
+
+                // Wait for images to render in DOM
+                attempts = 0;
+                while (dictionaryDiv.querySelectorAll('.dictionary-item').length === 0 && attempts < maxAttempts) {
+                    await new Promise(resolve => setTimeout(resolve, 100));
+                    attempts++;
+                }
+
+                if (dictionaryDiv.querySelectorAll('.dictionary-item').length === 0) {
+                    console.error('Images failed to load in time');
+                    return;
+                }
+
+                // Select a random image from the loaded images
+                const dictionaryItems = dictionaryDiv.querySelectorAll('.dictionary-item');
+                const randomIndex = Math.floor(Math.random() * dictionaryItems.length);
+                const randomItem = dictionaryItems[randomIndex];
+                const imgElement = randomItem.querySelector('img');
+
+                if (imgElement) {
+                    // Get image data and select it
+                    const imagePath = imgElement.src;
+                    const imageName = randomItem.querySelector('span')?.textContent || 'image';
+
+                    // Select the image for initial generation (but don't mark as manual)
+                    selectedImages = [{
+                        path: imagePath,
+                        word: imageName,
+                        name: imageName
+                    }];
+                    renderSelectedImages();
+                    isManualSelection = false; // CRITICAL: Mark as auto-selection so future generations randomize
+                }
+
+                // Set parameters: Missing Pieces: 1, Solution Options: 3, Piece Shape: square
+                missingCountInput.value = 1;
+                solutionOptionsInput.value = 3;
+                pieceShapeSelect.value = 'square';
+
+                // Give a small delay before generating
+                await new Promise(resolve => setTimeout(resolve, 200));
+
+                // Generate the worksheet
+                await handleGenerateWorksheet();
+
+                console.log('Initial worksheet generated successfully (auto-selection mode active)');
+            } catch (error) {
+                console.error('Error generating initial worksheet:', error);
+            }
+        }
+
+        // --- App Initialization ---
+        worksheetCanvas = initializeCanvas(worksheetCanvasElement);
+        answerKeyCanvas = initializeCanvas(answerKeyCanvasElement);
+        
+        setupCanvasEventListeners(worksheetCanvas);
+        setupCanvasEventListeners(answerKeyCanvas);
+
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+
+        // Initialize zoom display
+        updateZoomDisplay();
+
+        // Initialize undo/redo buttons (should be disabled on load)
+        updateUndoRedoButtons();
+
+        window.addEventListener('keydown', function(e) {
+            if (e.key === 'Delete' || e.key === 'Backspace') {
+                 if (document.activeElement.tagName === 'INPUT' || document.activeElement.tagName === 'TEXTAREA') return;
+                 deleteSelectedObjects();
+            }
+        });
+        // Initialize UnifiedLanguageManager for content language (image library)
+        if (typeof window.UnifiedLanguageManager !== 'undefined') {
+            window.languageManager = window.UnifiedLanguageManager;
+
+            // Register callback to reload image library when content language changes
+            window.languageManager.onLanguageChange(function(newLocale, oldLocale) {
+                console.log('[Missing Pieces] Content language changed from', oldLocale, 'to', newLocale);
+                currentLocale = newLocale;
+                window.currentLocale = newLocale;
+
+                // Reload image themes and library for the new content language
+                loadThemes();
+                loadBorderThemes();
+                loadBackgroundThemes();
+            });
+        } else {
+            // Fallback: Set up language handler without UnifiedLanguageManager
+            // This maintains backward compatibility if the script isn't loaded
+            console.warn('[Missing Pieces] UnifiedLanguageManager not found, using fallback mode');
+            const languageSelect = document.getElementById('languageSelect');
+            if (languageSelect) {
+                languageSelect.value = currentLocale;
+                languageSelect.addEventListener('change', function() {
+                    const newLocale = this.value;
+                    currentLocale = newLocale;
+                    window.currentLocale = newLocale;
+
+                    // Reload image themes and library for the new content language
+                    loadThemes();
+                    loadBorderThemes();
+                    loadBackgroundThemes();
+                });
+            }
+        }
+        
+        // Apply translations using the t() function from translations-missing-pieces.js
+        function applyTranslations() {
+            console.log('[Missing Pieces] Applying UI translations for locale:', window.uiLocale || window.currentLocale);
+            console.log('[Missing Pieces] Content locale:', window.currentLocale);
+            console.log('[Missing Pieces] Translation function available:', typeof t !== 'undefined');
+            console.log('[Missing Pieces] Translations object available:', typeof translations !== 'undefined');
+
+            if (typeof t === 'undefined') {
+                console.warn('[Missing Pieces] t() function not available');
+                return;
+            }
+
+            // Translate elements with data-translate attribute
+            document.querySelectorAll('[data-translate]').forEach(element => {
+                const key = element.getAttribute('data-translate');
+                if (key && typeof t !== 'undefined') {
+                    const translation = t(key);
+                    if (translation && translation !== key) {
+                        if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                            if (element.type === 'button' || element.type === 'submit') {
+                                element.value = translation;
+                            }
+                        } else if (element.tagName === 'OPTION') {
+                            element.textContent = translation;
+                        } else {
+                            element.textContent = translation;
+                        }
+                    }
+                }
+            });
+
+            // Translate placeholders
+            document.querySelectorAll('[data-translate-placeholder]').forEach(element => {
+                const key = element.getAttribute('data-translate-placeholder');
+                if (key && typeof t !== 'undefined') {
+                    element.placeholder = t(key);
+                }
+            });
+
+            // Translate titles/tooltips
+            document.querySelectorAll('[data-translate-title]').forEach(element => {
+                const key = element.getAttribute('data-translate-title');
+                if (key && typeof t !== 'undefined') {
+                    element.title = t(key);
+                }
+            });
+
+            console.log('[Missing Pieces] Translations applied successfully');
+        }
+
+        // Apply translations after a short delay to ensure translations are loaded
+        setTimeout(function() {
+            applyTranslations();
+
+            // Also apply unified translations if available
+            if (typeof translatePage !== 'undefined') {
+                translatePage();
+            }
+        }, 100);
+        loadThemes();
+
+        // Initialize BulletproofLoader for borders and backgrounds
+        if (window.BulletproofLoader) {
+            window.BulletproofLoader.init({
+                borderSelect: borderThemeSelect,
+                backgroundSelect: backgroundThemeSelect
+            }).then(() => {
+                console.log('BulletproofLoader initialized');
+            });
+        } else {
+            // Fallback if BulletproofLoader not available
+            loadBorderThemes();
+            loadBackgroundThemes();
+        }
+
+        // Load dictionary after themes are loaded
+        setTimeout(() => {
+            if (themeSelect && themeSelect.value === 'all') {
+                // Load animals theme by default
+                loadDictionary();
+            }
+        }, 500);
+        handleSelectionCleared(null, getActiveCanvas());
+        accordionButtons[0].click();
+
+        // Generate initial worksheet after a delay to allow UI initialization
+        setTimeout(() => generateInitialWorksheet(), 1000);
+    });
+  </script>
+</body>
+</html>

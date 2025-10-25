@@ -173,6 +173,11 @@ async function generateStaticHTML(data: any, locale: string): Promise<string> {
   const pdfSubtitle = data.pdfSectionDescription || (WORKSHEET_TRANSLATIONS[locale] || WORKSHEET_TRANSLATIONS['en']).subtitle;
   const translations = WORKSHEET_TRANSLATIONS[locale] || WORKSHEET_TRANSLATIONS['en'];
 
+  // Get custom PDF label translations (new fields from blog content manager)
+  const pdfFreeLabel = data.pdfFreeLabel || translations.freeText;
+  const pdfPremiumLabel = data.pdfPremiumLabel || 'Premium';
+  const pdfDownloadButton = data.pdfDownloadButton || translations.downloadText;
+
   // Generate sample worksheet download section if PDFs exist
   const worksheetSection = pdfsToShow.length > 0 ? `
     <section class="sample-worksheets" id="sample-worksheets">
@@ -247,7 +252,7 @@ async function generateStaticHTML(data: any, locale: string): Promise<string> {
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                     <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
                   </svg>
-                  ${translations.freeText}
+                  ${pdfFreeLabel}
                 </span>
               </div>
             </div>
@@ -259,7 +264,7 @@ async function generateStaticHTML(data: any, locale: string): Promise<string> {
                 <path d="M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2h-2"/>
                 <path d="M5 19a2 2 0 01-2-2v-5a2 2 0 012-2h2"/>
               </svg>
-              <span>${translations.downloadText}</span>
+              <span>${pdfDownloadButton}</span>
               <svg class="arrow-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                 <path d="M5 12h14m-7-7l7 7-7 7"/>
               </svg>

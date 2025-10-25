@@ -150,15 +150,16 @@ export default async function BlogPostPage({
       {post.pdfs && post.pdfs.length > 0 && (
         <div style={{
           maxWidth: '1200px',
-          margin: '32px auto 64px',
+          margin: '48px auto 80px',
           padding: '0 24px'
         }}>
           <h2 style={{
-            fontSize: '32px',
+            fontSize: '36px',
             fontWeight: '700',
-            marginBottom: '32px',
+            marginBottom: '12px',
             textAlign: 'center',
-            color: '#480005'
+            color: '#1a1a1a',
+            letterSpacing: '-0.5px'
           }}>
             {translation.pdfSectionTitle || 'Sample Worksheets'}
           </h2>
@@ -167,37 +168,41 @@ export default async function BlogPostPage({
               fontSize: '18px',
               color: '#6B7280',
               textAlign: 'center',
-              marginBottom: '32px'
+              marginBottom: '48px',
+              maxWidth: '600px',
+              margin: '0 auto 48px'
             }}>
               {translation.pdfSectionDescription}
             </p>
           )}
           <div style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
-            gap: '24px'
+            gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))',
+            gap: '32px'
           }}>
             {post.pdfs.map((pdf) => (
               <div key={pdf.id} style={{
-                border: '2px solid #480005',
-                borderRadius: '12px',
-                padding: '24px',
+                border: '1px solid #E5E7EB',
+                borderRadius: '16px',
+                padding: '0',
                 backgroundColor: '#FFFFFF',
-                transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)',
+                transition: 'all 0.3s ease',
                 display: 'flex',
-                flexDirection: 'column'
+                flexDirection: 'column',
+                overflow: 'hidden',
+                cursor: 'pointer'
               }}>
-                {pdf.thumbnail && (
+                {pdf.thumbnail ? (
                   <div style={{
                     width: '100%',
-                    height: '350px',
+                    height: '280px',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    backgroundColor: '#f5f5f5',
-                    borderRadius: '8px',
-                    marginBottom: '16px',
-                    overflow: 'hidden'
+                    backgroundColor: '#F9FAFB',
+                    overflow: 'hidden',
+                    position: 'relative'
                   }}>
                     <img
                       src={pdf.thumbnail}
@@ -211,53 +216,87 @@ export default async function BlogPostPage({
                       }}
                     />
                   </div>
-                )}
-                <h3 style={{
-                  fontSize: '18px',
-                  fontWeight: '600',
-                  marginBottom: '8px',
-                  color: '#480005'
-                }}>
-                  {pdf.title}
-                </h3>
-                <p style={{
-                  fontSize: '14px',
-                  marginBottom: '16px',
-                  color: '#480005',
-                  opacity: 0.8,
-                  flex: 1
-                }}>
-                  {pdf.description}
-                </p>
-                <div style={{
-                  display: 'flex',
-                  justifyContent: 'space-between',
-                  alignItems: 'center',
-                  marginTop: 'auto'
-                }}>
-                  <span style={{
-                    fontSize: '16px',
-                    fontWeight: '600',
-                    color: '#D6AC47'
+                ) : (
+                  <div style={{
+                    width: '100%',
+                    height: '280px',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    backgroundColor: '#F9FAFB',
+                    position: 'relative'
                   }}>
-                    {pdf.price === 'Free'
-                      ? (translation.pdfFreeLabel || 'Free')
-                      : (translation.pdfPremiumLabel || 'Premium')}
-                  </span>
+                    <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M7 18h10v2H7v-2zm3-5h4v-3h3l-5-5-5 5h3v3z" fill="#D1D5DB"/>
+                    </svg>
+                  </div>
+                )}
+                <div style={{
+                  padding: '24px'
+                }}>
+                  <div style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    marginBottom: '12px'
+                  }}>
+                    <h3 style={{
+                      fontSize: '20px',
+                      fontWeight: '700',
+                      color: '#1a1a1a',
+                      margin: '0',
+                      flex: 1
+                    }}>
+                      {pdf.title}
+                    </h3>
+                    <span style={{
+                      fontSize: '14px',
+                      fontWeight: '700',
+                      color: '#FFFFFF',
+                      backgroundColor: pdf.price === 'Free' ? '#10B981' : '#F59E0B',
+                      padding: '6px 14px',
+                      borderRadius: '20px',
+                      textTransform: 'uppercase',
+                      letterSpacing: '0.5px',
+                      whiteSpace: 'nowrap',
+                      marginLeft: '12px'
+                    }}>
+                      {pdf.price === 'Free'
+                        ? (translation.pdfFreeLabel || 'Free')
+                        : (translation.pdfPremiumLabel || 'Premium')}
+                    </span>
+                  </div>
+                  <p style={{
+                    fontSize: '15px',
+                    lineHeight: '1.6',
+                    color: '#6B7280',
+                    margin: '0 0 24px 0'
+                  }}>
+                    {pdf.description}
+                  </p>
                   <a
                     href={pdf.filePath}
                     download={pdf.filename}
                     style={{
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      gap: '8px',
                       backgroundColor: '#480005',
                       color: '#FFFFFF',
-                      padding: '10px 20px',
-                      borderRadius: '8px',
+                      padding: '14px 28px',
+                      borderRadius: '10px',
                       textDecoration: 'none',
                       fontWeight: '600',
-                      fontSize: '14px',
-                      transition: 'background-color 0.3s ease'
+                      fontSize: '15px',
+                      transition: 'all 0.2s ease',
+                      width: '100%',
+                      boxShadow: '0 2px 4px rgba(72, 0, 5, 0.2)'
                     }}
                   >
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
                     {translation.pdfDownloadButton || 'Download'}
                   </a>
                 </div>

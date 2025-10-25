@@ -188,6 +188,19 @@ export default async function BlogPostPage({
         }
       ` }} />
 
+      {/* CSS for hover effects */}
+      <style jsx>{`
+        .pdf-card-hover:hover {
+          transform: scale(1.05);
+          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .pdf-download-button-hover:hover {
+          background-color: #1d4ed8;
+          transform: translateY(-1px);
+          box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+      `}</style>
+
       {/* Header/Navigation */}
       {headerContent && (
         <div dangerouslySetInnerHTML={{ __html: headerContent }} />
@@ -236,7 +249,7 @@ export default async function BlogPostPage({
             const pdfDescription = pdfTranslations?.description || pdf.description;
 
             return (
-              <div key={pdf.id} className="pdf-card" style={{
+              <div key={pdf.id} className="pdf-card-hover" style={{
                 borderRadius: '8px',
                 padding: '0',
                 backgroundColor: '#FFFFFF',
@@ -247,16 +260,7 @@ export default async function BlogPostPage({
                 border: 'none',
                 transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                 cursor: 'pointer'
-              } as React.CSSProperties}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'scale(1.05)';
-                e.currentTarget.style.boxShadow = '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = 'scale(1)';
-                e.currentTarget.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)';
-              }}
-              >
+              } as React.CSSProperties}>
                 {pdf.thumbnail ? (
                   <div style={{
                     position: 'relative',
@@ -342,7 +346,7 @@ export default async function BlogPostPage({
                   <a
                     href={pdf.filePath}
                     download={pdf.filename}
-                    className="pdf-download-button"
+                    className="pdf-download-button-hover"
                     style={{
                       display: 'inline-flex',
                       alignItems: 'center',
@@ -360,16 +364,6 @@ export default async function BlogPostPage({
                       border: 'none',
                       cursor: 'pointer',
                       boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)'
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.backgroundColor = '#1d4ed8';
-                      e.currentTarget.style.transform = 'translateY(-1px)';
-                      e.currentTarget.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)';
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.backgroundColor = '#2563eb';
-                      e.currentTarget.style.transform = 'translateY(0)';
-                      e.currentTarget.style.boxShadow = '0 1px 2px 0 rgba(0, 0, 0, 0.05)';
                     }}
                   >
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

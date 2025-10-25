@@ -141,22 +141,50 @@ export default async function BlogPostPage({
 
       <div dangerouslySetInnerHTML={{ __html: styles }} />
 
-      {/* PDF Card and Download Button Styling */}
+      {/* PDF Section Styling - Uses ID selector for maximum specificity to override blog CSS */}
       <style dangerouslySetInnerHTML={{ __html: `
-        .pdf-download-button:hover {
-          background-color: #3a3a3e !important;
+        /* PDF Card Container */
+        #pdf-downloads-section {
+          max-width: 1200px !important;
+          margin: 48px auto 80px !important;
+          padding: 0 24px !important;
         }
-        .pdf-card {
-          cursor: pointer;
-          transform: scale(1);
-          transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        /* PDF Cards - Override any blog CSS */
+        #pdf-downloads-section .pdf-card {
+          cursor: pointer !important;
+          transform: scale(1) !important;
+          transition: transform 0.3s ease, box-shadow 0.3s ease !important;
           border: none !important;
           box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
           border-radius: 8px !important;
+          background-color: #FFFFFF !important;
         }
-        .pdf-card:hover {
-          transform: scale(1.05);
+
+        #pdf-downloads-section .pdf-card:hover {
+          transform: scale(1.05) !important;
           box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
+        }
+
+        /* PDF Price Badges - Force green for Free, orange for Premium */
+        #pdf-downloads-section .pdf-card .pdf-price-badge-free {
+          background-color: #10B981 !important;
+          color: #FFFFFF !important;
+        }
+
+        #pdf-downloads-section .pdf-card .pdf-price-badge-premium {
+          background-color: #F59E0B !important;
+          color: #FFFFFF !important;
+        }
+
+        /* PDF Download Buttons - Force dark grey */
+        #pdf-downloads-section .pdf-download-button {
+          background-color: #2c2c2e !important;
+          color: #ffffff !important;
+        }
+
+        #pdf-downloads-section .pdf-download-button:hover {
+          background-color: #3a3a3e !important;
         }
       ` }} />
 
@@ -167,7 +195,7 @@ export default async function BlogPostPage({
 
       {/* Sample Worksheets - Right after header */}
       {post.pdfs && post.pdfs.length > 0 && (
-        <div style={{
+        <div id="pdf-downloads-section" style={{
           maxWidth: '1200px',
           margin: '48px auto 80px',
           padding: '0 24px'
@@ -265,18 +293,20 @@ export default async function BlogPostPage({
                   }}>
                     {pdfTitle}
                   </h3>
-                  <span style={{
-                    display: 'inline-block',
-                    fontSize: '13px',
-                    fontWeight: '700',
-                    color: '#FFFFFF',
-                    backgroundColor: pdf.price === 'Free' ? '#10B981' : '#F59E0B',
-                    padding: '4px 12px',
-                    borderRadius: '12px',
-                    textTransform: 'uppercase',
-                    letterSpacing: '0.5px',
-                    marginBottom: '12px'
-                  }}>
+                  <span
+                    className={pdf.price === 'Free' ? 'pdf-price-badge-free' : 'pdf-price-badge-premium'}
+                    style={{
+                      display: 'inline-block',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#FFFFFF',
+                      backgroundColor: pdf.price === 'Free' ? '#10B981' : '#F59E0B',
+                      padding: '4px 12px',
+                      borderRadius: '12px',
+                      textTransform: 'uppercase',
+                      letterSpacing: '0.5px',
+                      marginBottom: '12px'
+                    }}>
                     {pdf.price === 'Free'
                       ? (translation.pdfFreeLabel || 'Free')
                       : (translation.pdfPremiumLabel || 'Premium')}

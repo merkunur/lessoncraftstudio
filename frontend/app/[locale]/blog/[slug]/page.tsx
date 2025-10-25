@@ -141,6 +141,13 @@ export default async function BlogPostPage({
 
       <div dangerouslySetInnerHTML={{ __html: styles }} />
 
+      {/* PDF Download Button Styling */}
+      <style dangerouslySetInnerHTML={{ __html: `
+        .pdf-download-button:hover {
+          background-color: #3a3a3e !important;
+        }
+      ` }} />
+
       {/* Header/Navigation */}
       {headerContent && (
         <div dangerouslySetInnerHTML={{ __html: headerContent }} />
@@ -268,27 +275,29 @@ export default async function BlogPostPage({
                   <a
                     href={pdf.filePath}
                     download={pdf.filename}
+                    className="pdf-download-button"
                     style={{
                       display: 'inline-flex',
                       alignItems: 'center',
                       justifyContent: 'center',
                       gap: '8px',
                       backgroundColor: '#2c2c2e',
-                      color: '#e0e0e0',
-                      padding: '10px 20px',
+                      color: '#ffffff',
+                      padding: '7px 14px',
                       borderRadius: '6px',
                       textDecoration: 'none',
-                      fontWeight: '600',
-                      fontSize: '14px',
-                      transition: 'all 0.2s ease',
+                      fontWeight: '500',
+                      fontSize: '13px',
+                      transition: 'background-color 0.2s ease',
                       width: '100%',
-                      border: '1px solid #4a4a4a'
+                      border: '1px solid #4a4a4a',
+                      cursor: 'pointer'
                     }}
                   >
-                    {translation.pdfDownloadButton || 'Download'}
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginRight: '4px' }}>
                       <path d="M7 10l5 5 5-5M12 15V3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
+                    {translation.pdfDownloadButton || 'Download'}
                   </a>
                 </div>
               </div>

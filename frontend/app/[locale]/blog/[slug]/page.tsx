@@ -240,7 +240,9 @@ export default async function BlogPostPage({
                     fontWeight: '600',
                     color: '#D6AC47'
                   }}>
-                    {pdf.price}
+                    {pdf.price === 'Free'
+                      ? (translation.pdfFreeLabel || 'Free')
+                      : (translation.pdfPremiumLabel || 'Premium')}
                   </span>
                   <a
                     href={pdf.filePath}
@@ -256,7 +258,7 @@ export default async function BlogPostPage({
                       transition: 'background-color 0.3s ease'
                     }}
                   >
-                    Download
+                    {translation.pdfDownloadButton || 'Download'}
                   </a>
                 </div>
               </div>

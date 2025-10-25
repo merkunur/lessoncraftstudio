@@ -150,6 +150,9 @@ export default async function BlogPostPage({
           cursor: pointer;
           transform: scale(1);
           transition: transform 0.3s ease, box-shadow 0.3s ease;
+          border: none !important;
+          box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+          border-radius: 8px !important;
         }
         .pdf-card:hover {
           transform: scale(1.05);
@@ -212,8 +215,9 @@ export default async function BlogPostPage({
                 boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
                 display: 'flex',
                 flexDirection: 'column',
-                overflow: 'hidden'
-              }}>
+                overflow: 'hidden',
+                border: 'none'
+              } as React.CSSProperties}>
                 {pdf.thumbnail ? (
                   <div style={{
                     width: '100%',

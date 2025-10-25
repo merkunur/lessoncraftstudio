@@ -141,10 +141,19 @@ export default async function BlogPostPage({
 
       <div dangerouslySetInnerHTML={{ __html: styles }} />
 
-      {/* PDF Download Button Styling */}
+      {/* PDF Card and Download Button Styling */}
       <style dangerouslySetInnerHTML={{ __html: `
         .pdf-download-button:hover {
           background-color: #3a3a3e !important;
+        }
+        .pdf-card {
+          cursor: pointer;
+          transform: scale(1);
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .pdf-card:hover {
+          transform: scale(1.05);
+          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
         }
       ` }} />
 
@@ -195,14 +204,12 @@ export default async function BlogPostPage({
             const pdfDescription = pdfTranslations?.description || pdf.description;
 
             return (
-              <div key={pdf.id} style={{
+              <div key={pdf.id} className="pdf-card" style={{
                 width: '280px',
-                border: '1px solid #E5E7EB',
-                borderRadius: '12px',
+                borderRadius: '8px',
                 padding: '0',
                 backgroundColor: '#FFFFFF',
-                boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)',
-                transition: 'all 0.3s ease',
+                boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
                 display: 'flex',
                 flexDirection: 'column',
                 overflow: 'hidden'
@@ -244,13 +251,13 @@ export default async function BlogPostPage({
                   </div>
                 )}
                 <div style={{
-                  padding: '20px'
+                  padding: '16px'
                 }}>
                   <h3 style={{
                     fontSize: '18px',
-                    fontWeight: '700',
+                    fontWeight: '600',
                     color: '#1a1a1a',
-                    margin: '0 0 8px 0'
+                    margin: '0 0 4px 0'
                   }}>
                     {pdfTitle}
                   </h3>
@@ -274,7 +281,7 @@ export default async function BlogPostPage({
                     fontSize: '14px',
                     lineHeight: '1.5',
                     color: '#6B7280',
-                    margin: '0 0 20px 0'
+                    margin: '0 0 12px 0'
                   }}>
                     {pdfDescription}
                   </p>

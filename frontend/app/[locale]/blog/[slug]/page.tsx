@@ -223,10 +223,11 @@ export default async function BlogPostPage({
             </p>
           )}
           <div style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            gap: '32px',
-            justifyContent: 'center'
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))',
+            gap: '24px',
+            maxWidth: '1152px',
+            margin: '0 auto'
           }}>
             {post.pdfs.map((pdf) => {
             // Get language-specific PDF title/description from translations if available
@@ -236,7 +237,6 @@ export default async function BlogPostPage({
 
             return (
               <div key={pdf.id} className="pdf-card" style={{
-                width: '280px',
                 borderRadius: '8px',
                 padding: '0',
                 backgroundColor: '#FFFFFF',
@@ -244,42 +244,62 @@ export default async function BlogPostPage({
                 display: 'flex',
                 flexDirection: 'column',
                 overflow: 'hidden',
-                border: 'none'
-              } as React.CSSProperties}>
+                border: 'none',
+                transition: 'transform 0.3s ease, box-shadow 0.3s ease',
+                cursor: 'pointer'
+              } as React.CSSProperties}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = 'scale(1.05)';
+                e.currentTarget.style.boxShadow = '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = 'scale(1)';
+                e.currentTarget.style.boxShadow = '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)';
+              }}
+              >
                 {pdf.thumbnail ? (
                   <div style={{
+                    position: 'relative',
                     width: '100%',
-                    height: '350px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    backgroundColor: '#F9FAFB',
+                    paddingBottom: '75%',
+                    backgroundColor: '#F3F4F6',
                     overflow: 'hidden'
                   }}>
                     <img
                       src={pdf.thumbnail}
                       alt={pdfTitle}
                       style={{
-                        maxWidth: '100%',
-                        maxHeight: '100%',
-                        width: 'auto',
-                        height: 'auto',
-                        objectFit: 'contain'
+                        position: 'absolute',
+                        top: '0',
+                        left: '0',
+                        width: '100%',
+                        height: '100%',
+                        objectFit: 'cover'
                       }}
                     />
                   </div>
                 ) : (
                   <div style={{
+                    position: 'relative',
                     width: '100%',
-                    height: '350px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    backgroundColor: '#F9FAFB'
+                    paddingBottom: '75%',
+                    backgroundColor: '#F3F4F6',
+                    overflow: 'hidden'
                   }}>
-                    <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" stroke="#D1D5DB" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
+                    <div style={{
+                      position: 'absolute',
+                      top: '0',
+                      left: '0',
+                      width: '100%',
+                      height: '100%',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center'
+                    }}>
+                      <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6" stroke="#D1D5DB" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                      </svg>
+                    </div>
                   </div>
                 )}
                 <div style={{
@@ -328,23 +348,37 @@ export default async function BlogPostPage({
                       alignItems: 'center',
                       justifyContent: 'center',
                       gap: '8px',
-                      backgroundColor: '#2c2c2e',
+                      backgroundColor: '#2563eb',
                       color: '#ffffff',
-                      padding: '7px 14px',
-                      borderRadius: '6px',
+                      padding: '12px 24px',
+                      borderRadius: '8px',
                       textDecoration: 'none',
-                      fontWeight: '500',
-                      fontSize: '13px',
-                      transition: 'background-color 0.2s ease',
+                      fontWeight: '600',
+                      fontSize: '14px',
+                      transition: 'all 0.2s ease',
                       width: '100%',
-                      border: '1px solid #4a4a4a',
-                      cursor: 'pointer'
+                      border: 'none',
+                      cursor: 'pointer',
+                      boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.backgroundColor = '#1d4ed8';
+                      e.currentTarget.style.transform = 'translateY(-1px)';
+                      e.currentTarget.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.backgroundColor = '#2563eb';
+                      e.currentTarget.style.transform = 'translateY(0)';
+                      e.currentTarget.style.boxShadow = '0 1px 2px 0 rgba(0, 0, 0, 0.05)';
                     }}
                   >
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginRight: '4px' }}>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M7 10l5 5 5-5M12 15V3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>
-                    {translation.pdfDownloadButton || 'Download'}
+                    <span>{translation.pdfDownloadButton || 'Download'}</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginLeft: 'auto' }}>
+                      <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    </svg>
                   </a>
                 </div>
               </div>

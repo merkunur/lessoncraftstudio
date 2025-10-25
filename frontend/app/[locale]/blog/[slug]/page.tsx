@@ -188,7 +188,13 @@ export default async function BlogPostPage({
             gap: '32px',
             justifyContent: 'center'
           }}>
-            {post.pdfs.map((pdf) => (
+            {post.pdfs.map((pdf) => {
+            // Get language-specific PDF title/description from translations if available
+            const pdfTranslations = translation.pdfs?.[pdf.id];
+            const pdfTitle = pdfTranslations?.title || pdf.title;
+            const pdfDescription = pdfTranslations?.description || pdf.description;
+
+            return (
               <div key={pdf.id} style={{
                 width: '280px',
                 border: '1px solid #E5E7EB',
@@ -213,7 +219,7 @@ export default async function BlogPostPage({
                   }}>
                     <img
                       src={pdf.thumbnail}
-                      alt={pdf.title}
+                      alt={pdfTitle}
                       style={{
                         maxWidth: '100%',
                         maxHeight: '100%',
@@ -246,7 +252,7 @@ export default async function BlogPostPage({
                     color: '#1a1a1a',
                     margin: '0 0 8px 0'
                   }}>
-                    {pdf.title}
+                    {pdfTitle}
                   </h3>
                   <span style={{
                     display: 'inline-block',
@@ -270,7 +276,7 @@ export default async function BlogPostPage({
                     color: '#6B7280',
                     margin: '0 0 20px 0'
                   }}>
-                    {pdf.description}
+                    {pdfDescription}
                   </p>
                   <a
                     href={pdf.filePath}
@@ -301,7 +307,8 @@ export default async function BlogPostPage({
                   </a>
                 </div>
               </div>
-            ))}
+            );
+          })}
           </div>
         </div>
       )}

@@ -2754,7 +2754,50 @@ ${generatePDFSectionHTML()}
                 });
 
                 if (response.ok) {
-                    showMessage('PDF uploaded successfully!', 'success');
+                    const result = await response.json();
+                    const pdfId = result.pdf.id;
+
+                    // Also save PDF title/description to BlogPost translations for current language
+                    try {
+                        const postResponse = await authenticatedFetch(`/api/admin/blog/posts/${slug}`, {});
+                        if (postResponse.ok) {
+                            const postData = await postResponse.json();
+                            const post = postData.post;
+
+                            // Initialize pdfs object for current language if it doesn't exist
+                            if (!post.translations[currentLanguage]) {
+                                post.translations[currentLanguage] = {};
+                            }
+                            if (!post.translations[currentLanguage].pdfs) {
+                                post.translations[currentLanguage].pdfs = {};
+                            }
+
+                            // Save PDF title/description for current language
+                            post.translations[currentLanguage].pdfs[pdfId] = {
+                                title: title,
+                                description: description
+                            };
+
+                            // Update the blog post with new translations
+                            await authenticatedFetch(`/api/admin/blog/posts/${slug}`, {
+                                method: 'PUT',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify({
+                                    translations: post.translations,
+                                    slug: post.slug,
+                                    category: post.category,
+                                    keywords: post.keywords,
+                                    featuredImage: post.featuredImage,
+                                    status: post.status
+                                })
+                            });
+                        }
+                    } catch (translationError) {
+                        console.error('Error saving PDF translation:', translationError);
+                        // Don't fail the whole operation if translation save fails
+                    }
+
+                    showMessage('PDF uploaded successfully with language-specific text!', 'success');
                     closePDFModal();
                     // Reload PDFs for both editor and PDF manager
                     await loadPostPDFs(slug);
@@ -2899,7 +2942,47 @@ ${generatePDFSectionHTML()}
                 });
 
                 if (response.ok) {
-                    showMessage('PDF updated successfully!', 'success');
+                    // Also save PDF title/description to BlogPost translations for current language
+                    try {
+                        const postResponse = await authenticatedFetch(`/api/admin/blog/posts/${slug}`, {});
+                        if (postResponse.ok) {
+                            const postData = await postResponse.json();
+                            const post = postData.post;
+
+                            // Initialize pdfs object for current language if it doesn't exist
+                            if (!post.translations[currentLanguage]) {
+                                post.translations[currentLanguage] = {};
+                            }
+                            if (!post.translations[currentLanguage].pdfs) {
+                                post.translations[currentLanguage].pdfs = {};
+                            }
+
+                            // Save PDF title/description for current language
+                            post.translations[currentLanguage].pdfs[id] = {
+                                title: title,
+                                description: description
+                            };
+
+                            // Update the blog post with new translations
+                            await authenticatedFetch(`/api/admin/blog/posts/${slug}`, {
+                                method: 'PUT',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify({
+                                    translations: post.translations,
+                                    slug: post.slug,
+                                    category: post.category,
+                                    keywords: post.keywords,
+                                    featuredImage: post.featuredImage,
+                                    status: post.status
+                                })
+                            });
+                        }
+                    } catch (translationError) {
+                        console.error('Error saving PDF translation:', translationError);
+                        // Don't fail the whole operation if translation save fails
+                    }
+
+                    showMessage('PDF updated successfully with language-specific text!', 'success');
                     closeEditPDFModal();
                     // Reload PDFs for both editor and PDF manager
                     await loadPostPDFs(slug);

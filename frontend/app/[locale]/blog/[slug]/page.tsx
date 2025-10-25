@@ -189,17 +189,17 @@ export default async function BlogPostPage({
       ` }} />
 
       {/* CSS for hover effects */}
-      <style jsx>{`
+      <style dangerouslySetInnerHTML={{ __html: `
         .pdf-card-hover:hover {
-          transform: scale(1.05);
-          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+          transform: scale(1.05) !important;
+          box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04) !important;
         }
         .pdf-download-button-hover:hover {
-          background-color: #1d4ed8;
-          transform: translateY(-1px);
-          box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+          background-color: #1d4ed8 !important;
+          transform: translateY(-1px) !important;
+          box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
         }
-      `}</style>
+      ` }} />
 
       {/* Header/Navigation */}
       {headerContent && (

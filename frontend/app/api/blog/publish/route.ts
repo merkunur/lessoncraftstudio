@@ -822,12 +822,16 @@ export async function POST(request: NextRequest) {
       // No need to create separate samples directories
     }
 
-    // Invalidate cache
-    await fetch(`${request.nextUrl.origin}/api/blog/posts`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ action: 'invalidate-cache' })
-    });
+    // Invalidate cache (use localhost for internal call to avoid SSL issues)
+    try {
+      await fetch(`http://localhost:3000/api/blog/posts`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: 'invalidate-cache' })
+      });
+    } catch (error) {
+      console.log('Cache invalidation failed (non-critical):', error);
+    }
 
     return NextResponse.json({
       success: true,

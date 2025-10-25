@@ -178,6 +178,15 @@ async function generateStaticHTML(data: any, locale: string): Promise<string> {
   const pdfPremiumLabel = data.pdfPremiumLabel || 'Premium';
   const pdfDownloadButton = data.pdfDownloadButton || translations.downloadText;
 
+  console.log(`[${locale}] PDF Labels:`, {
+    received: {
+      pdfFreeLabel: data.pdfFreeLabel,
+      pdfPremiumLabel: data.pdfPremiumLabel,
+      pdfDownloadButton: data.pdfDownloadButton
+    },
+    final: { pdfFreeLabel, pdfPremiumLabel, pdfDownloadButton }
+  });
+
   // Generate sample worksheet download section if PDFs exist
   const worksheetSection = pdfsToShow.length > 0 ? `
     <section class="sample-worksheets" id="sample-worksheets">

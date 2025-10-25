@@ -1155,16 +1155,19 @@
                 <label for="borderOpacitySlider" data-translate="borderOpacity">Border Opacity:</label>
                 <input type="range" id="borderOpacitySlider" min="0" max="1" value="1" step="0.05" disabled>
 
-                <h4 data-translate="header">Header</h4>
-                <label class="checkbox-label">
-                    <input type="checkbox" id="showHeaderCheckbox" checked>
-                    <span data-translate="showHeader">Show Header</span>
-                </label>
-                <div id="headerControls" style="display: block;">
-                    <label for="headerTitleInput" data-translate="headerTitle">Header Title:</label>
-                    <input type="text" id="headerTitleInput" placeholder="Math Puzzles" data-translate-placeholder="mathPuzzles">
-                    <label for="headerDescriptionInput" data-translate="headerDescription">Header Description:</label>
-                    <textarea id="headerDescriptionInput" rows="2" placeholder="Solve the picture puzzles below!" data-translate-placeholder="solvePicturePuzzles"></textarea>
+                <!-- Header section hidden -->
+                <div style="display: none;">
+                    <h4 data-translate="header">Header</h4>
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="showHeaderCheckbox" checked>
+                        <span data-translate="showHeader">Show Header</span>
+                    </label>
+                    <div id="headerControls" style="display: block;">
+                        <label for="headerTitleInput" data-translate="headerTitle">Header Title:</label>
+                        <input type="text" id="headerTitleInput" placeholder="Math Puzzles" data-translate-placeholder="mathPuzzles">
+                        <label for="headerDescriptionInput" data-translate="headerDescription">Header Description:</label>
+                        <textarea id="headerDescriptionInput" rows="2" placeholder="Solve the picture puzzles below!" data-translate-placeholder="solvePicturePuzzles"></textarea>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1299,15 +1302,15 @@
         <div class="header-actions">
             <!-- Zoom Controls -->
             <div class="zoom-controls">
-                <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out" data-translate-title="zoomOut"><i class="fas fa-search-minus"></i></button>
                 <span id="zoomPercentage" class="zoom-percentage">100%</span>
-                <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
-                <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                <button id="zoomInBtn" class="zoom-btn" title="Zoom In" data-translate-title="zoomIn"><i class="fas fa-search-plus"></i></button>
+                <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom" data-translate-title="resetZoom"><i class="fas fa-compress-arrows-alt"></i></button>
             </div>
             <!-- History Controls -->
             <div class="history-controls">
-                <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
-                <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+                <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" data-translate-title="undo" disabled><i class="fas fa-undo"></i></button>
+                <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" data-translate-title="redo" disabled><i class="fas fa-redo"></i></button>
             </div>
             <!-- Generate Dropdown -->
             <div class="dropdown-container">
@@ -2857,6 +2860,157 @@
       }
       // --- End Symbol Preparation ---
 
+      // --- Algebraic Solver for Unique Solvability Validation ---
+      /**
+       * Validates that a system of equations has EXACTLY ONE unique solution
+       * This ensures kids never have to guess - every symbol has only one possible value
+       *
+       * @param {Array} equations - Array of {expr: string, result: number} objects
+       * @param {Array} symbolsUsed - Array of symbol strings (e.g., ['A', 'B', 'C'])
+       * @param {Object} knownValues - Object mapping symbols to their intended values
+       * @returns {boolean} - true if puzzle is uniquely solvable, false otherwise
+       */
+      function isPuzzleUniquelySolvable(equations, symbolsUsed, knownValues) {
+        if (!equations || equations.length === 0 || !symbolsUsed || symbolsUsed.length === 0) {
+          return false;
+        }
+
+        // Step 1: Parse equations into a structured format
+        // Each equation becomes: {terms: [{symbol: 'A', coefficient: 1}, ...], constant: 0, result: number}
+        const parsedEquations = [];
+
+        for (const eq of equations) {
+          const { expr, result } = eq;
+          const terms = [];
+          let constant = 0;
+
+          // Parse expression like "A + A + 2" or "B - 3 + C"
+          const parts = expr.split(/\s+/); // Split by whitespace
+          let currentOp = '+';
+
+          for (const part of parts) {
+            if (part === '+' || part === '-') {
+              currentOp = part;
+            } else {
+              // Check if it's a symbol (letter) or number
+              if (/^[A-Z]$/.test(part)) {
+                // It's a symbol
+                const symbolIndex = terms.findIndex(t => t.symbol === part);
+                const coefficient = (currentOp === '+' ? 1 : -1);
+
+                if (symbolIndex >= 0) {
+                  // Symbol already exists, add to its coefficient
+                  terms[symbolIndex].coefficient += coefficient;
+                } else {
+                  // New symbol
+                  terms.push({ symbol: part, coefficient });
+                }
+              } else {
+                // It's a number (constant)
+                const numValue = parseInt(part, 10);
+                if (!isNaN(numValue)) {
+                  constant += (currentOp === '+' ? numValue : -numValue);
+                }
+              }
+              currentOp = '+'; // Reset to default after processing
+            }
+          }
+
+          parsedEquations.push({ terms, constant, result });
+        }
+
+        // Step 2: Iterative substitution solver
+        // Try to solve for each symbol step by step
+        const solvedValues = {}; // Will store solved symbol values
+        const maxIterations = symbolsUsed.length * 2; // Prevent infinite loops
+        let iteration = 0;
+        let progressMade = true;
+
+        while (progressMade && Object.keys(solvedValues).length < symbolsUsed.length && iteration < maxIterations) {
+          progressMade = false;
+          iteration++;
+
+          for (const eq of parsedEquations) {
+            const { terms, constant, result } = eq;
+
+            // Substitute known values
+            let unknownTerms = [];
+            let knownSum = constant;
+
+            for (const term of terms) {
+              if (solvedValues.hasOwnProperty(term.symbol)) {
+                // Symbol is known, add to known sum
+                knownSum += term.coefficient * solvedValues[term.symbol];
+              } else {
+                // Symbol is unknown
+                unknownTerms.push(term);
+              }
+            }
+
+            // Check if we can solve for a single unknown
+            if (unknownTerms.length === 1) {
+              const unknownTerm = unknownTerms[0];
+              const { symbol, coefficient } = unknownTerm;
+
+              // Solve: coefficient * symbol + knownSum = result
+              // symbol = (result - knownSum) / coefficient
+              if (coefficient !== 0) {
+                const solvedValue = (result - knownSum) / coefficient;
+
+                // Check if solution is an integer (must be for valid puzzle values)
+                if (Number.isInteger(solvedValue)) {
+                  // Check for consistency: if we already solved this symbol differently, puzzle is inconsistent
+                  if (solvedValues.hasOwnProperty(symbol) && solvedValues[symbol] !== solvedValue) {
+                    return false; // Inconsistent system
+                  }
+
+                  solvedValues[symbol] = solvedValue;
+                  progressMade = true;
+                }
+              }
+            } else if (unknownTerms.length === 0) {
+              // All terms are known - verify equation is satisfied
+              if (Math.abs(knownSum - result) > 0.001) {
+                return false; // Equation not satisfied - inconsistent system
+              }
+            }
+          }
+        }
+
+        // Step 3: Verify we solved ALL symbols
+        if (Object.keys(solvedValues).length !== symbolsUsed.length) {
+          return false; // Underdetermined system - some symbols can't be uniquely determined
+        }
+
+        // Step 4: Verify solved values match the intended values (final consistency check)
+        for (const symbol of symbolsUsed) {
+          if (!solvedValues.hasOwnProperty(symbol)) {
+            return false; // Symbol not solved
+          }
+          if (solvedValues[symbol] !== knownValues[symbol]) {
+            return false; // Solved value doesn't match intended value
+          }
+        }
+
+        // Step 5: Final verification - substitute all solved values into ALL equations
+        for (const eq of parsedEquations) {
+          const { terms, constant, result } = eq;
+          let sum = constant;
+
+          for (const term of terms) {
+            sum += term.coefficient * solvedValues[term.symbol];
+          }
+
+          if (Math.abs(sum - result) > 0.001) {
+            return false; // Equation not satisfied
+          }
+        }
+
+        // SUCCESS: Puzzle is uniquely solvable!
+        return true;
+      }
+      // --- End Algebraic Solver ---
+
       // --- Puzzle Generation Logic ---
       async function generatePuzzlesLogic() {
         isGenerating = true;
@@ -2887,6 +3041,10 @@
         const ops = operationsSelect.value === "addsub" ? ["+", "-"] : ["+"];
         const puzzleCount = parseInt(numExercisesEl.value, 10) || 2;
 
+        // CRITICAL FIX: Dynamic equation count based on symbol count for unique solvability
+        // For N symbols, we need N equations to guarantee a unique solution
+        const targetEquationCount = numSymbols; // 2 symbols → 2 equations, 3 → 3, 4 → 4
+
         puzzlesData = [];
         let generationAttempts = 0;
         const maxGenerationAttempts = puzzleCount * 300;
@@ -2910,10 +3068,12 @@
             if (!assignmentSuccessful) { continue; } // Try a new puzzle block if value assignment failed
 
             const equations = [];
+            const usedEquations = new Set(); // Track unique equations to prevent duplicates
+            let hasDirectlySolvableEquation = false; // Track if we have at least one directly solvable equation
             let puzzleBlockAttempts = 0;
             const maxPuzzleBlockAttempts = 300;
 
-            while (equations.length < 3 && puzzleBlockAttempts < maxPuzzleBlockAttempts) {
+            while (equations.length < targetEquationCount && puzzleBlockAttempts < maxPuzzleBlockAttempts) {
                 puzzleBlockAttempts++;
                 let numTerms;
 
@@ -2922,36 +3082,100 @@
                 else numTerms = randInt(2, 3);
 
                 const terms = [];
-                let currentSymbolsInEquationPool = [...activeSymbolsForPuzzle];
                 let equationSymbolsUsed = new Set();
                 let hasNumber = false;
+                const symbolsAvailableForReuse = [...activeSymbolsForPuzzle];
 
-                for (let i = 0; i < numTerms; i++) {
+                // CRITICAL FIX: If we're on the last equation and still no directly solvable equation, FORCE one
+                const mustForceSolvableEquation = equations.length === (targetEquationCount - 1) && !hasDirectlySolvableEquation;
+
+                // Encourage directly solvable equations ONLY for first equations to get exactly ONE per puzzle
+                const encourageDirectlySolvable = !hasDirectlySolvableEquation && equations.length < (targetEquationCount - 1);
+
+                // If we MUST have a directly solvable equation, generate one explicitly
+                if (mustForceSolvableEquation && activeSymbolsForPuzzle.length > 0) {
+                    // Pick one symbol to use
+                    const chosenSymbol = activeSymbolsForPuzzle[Math.floor(Math.random() * activeSymbolsForPuzzle.length)];
+
+                    // Randomly choose method: 30% chance doubled (A+A), 70% chance single with number (A+3)
+                    // Prefer single+numbers to create more variety
+                    const useDoubledMethod = Math.random() < 0.3;
+
+                    if (useDoubledMethod) {
+                        // Method 1: Doubled symbol (A + A = X or A + A + number = X)
+                        const symbolCount = Math.random() < 0.5 ? 2 : (numTerms >= 3 ? 2 : 2);
+                        for (let i = 0; i < symbolCount; i++) {
+                            const op = i === 0 ? '' : '+';
+                            terms.push({value: chosenSymbol, op: op});
+                        }
+                        equationSymbolsUsed.add(chosenSymbol);
+
+                        // Optionally add a number
+                        if (numTerms > symbolCount && Math.random() < 0.5) {
+                            const addNumber = randInt(1, (isVeryEasy || isEasy ? 5 : 10));
+                            terms.push({value: addNumber, op: '+'});
+                            hasNumber = true;
+                        }
+                    } else {
+                        // Method 2: Single symbol with number (A + 3 = X or A - 2 = X)
+                        terms.push({value: chosenSymbol, op: ''});
+                        equationSymbolsUsed.add(chosenSymbol);
+
+                        // Add one or two numbers
+                        const numberCount = Math.min(numTerms - 1, randInt(1, 2));
+                        for (let i = 0; i < numberCount; i++) {
+                            const numOp = Math.random() < 0.7 ? '+' : '-';
+                            const numValue = randInt(1, (isVeryEasy || isEasy ? 9 : 15));
+                            terms.push({value: numValue, op: numOp});
+                            hasNumber = true;
+                        }
+                    }
+                } else {
+                    // Normal generation logic
+                    for (let i = 0; i < numTerms; i++) {
                   const op = i === 0 ? '' : ops[Math.floor(Math.random() * ops.length)];
                   let termContent;
-                  const canAddSymbol = currentSymbolsInEquationPool.length > 0;
                   const shouldAddNumber = (isVeryEasy || isEasy) && !hasNumber && (terms.length > 0 && Math.random() < 0.5);
 
-                  if (canAddSymbol && !shouldAddNumber) {
-                    const symIndex = Math.floor(Math.random() * currentSymbolsInEquationPool.length);
-                    termContent = currentSymbolsInEquationPool.splice(symIndex, 1)[0];
+                  // Allow reusing symbols from earlier in the SAME equation to create A+A patterns
+                  // LOW probability (0.2 = 20%) to avoid creating too many doubled equations
+                  const canReuseSymbol = encourageDirectlySolvable && equationSymbolsUsed.size > 0 && i > 0 && !shouldAddNumber && Math.random() < 0.2;
+
+                  if (canReuseSymbol) {
+                    // Reuse a symbol from this equation (e.g., if term 0 was 'A', term 1 can also be 'A')
+                    const usedSymbols = Array.from(equationSymbolsUsed);
+                    termContent = usedSymbols[Math.floor(Math.random() * usedSymbols.length)];
+                  } else if (symbolsAvailableForReuse.length > 0 && !shouldAddNumber) {
+                    const symIndex = Math.floor(Math.random() * symbolsAvailableForReuse.length);
+                    termContent = symbolsAvailableForReuse[symIndex];
                     equationSymbolsUsed.add(termContent);
-                  } else if (shouldAddNumber || (terms.length > 0 && !canAddSymbol && Math.random() < 0.8)) { // Encourage numbers if no symbols left
+                    // Remove to prefer variety, but keep in symbolsAvailableForReuse for potential reuse
+                    symbolsAvailableForReuse.splice(symIndex, 1);
+                  } else if (shouldAddNumber || (terms.length > 0 && symbolsAvailableForReuse.length === 0 && Math.random() < 0.8)) {
                     termContent = randInt(1, (isVeryEasy || isEasy ? 9 : (isHard ? 19 : 15)));
                     hasNumber = true;
-                  } else if (i === 0 && canAddSymbol) {
-                    const symIndex = Math.floor(Math.random() * currentSymbolsInEquationPool.length);
-                    termContent = currentSymbolsInEquationPool.splice(symIndex, 1)[0];
+                  } else if (i === 0 && activeSymbolsForPuzzle.length > 0) {
+                    termContent = activeSymbolsForPuzzle[0];
                     equationSymbolsUsed.add(termContent);
-                  } else { break; } // Fail this equation attempt
+                  } else { break; }
                   terms.push({value: termContent, op: op});
-                }
+                    }
+                } // End of else block for normal generation
 
                 if (terms.length !== numTerms) continue;
                 if (equationSymbolsUsed.size === 0 && terms.length > 0) continue;
 
                 const exprStringForEval = terms.map(t => (t.op ? t.op + " " : "") + (typeof t.value === 'string' ? values[t.value] : t.value)).join(" ");
                 const exprStringForDisplay = terms.map(t => (t.op ? t.op + " " : "") + t.value).join(" ");
+
+                // Create a normalized version for duplicate detection (sort terms to detect A+B = B+A as duplicate)
+                const normalizedExpr = exprStringForDisplay.split(' ').sort().join(' ');
+                const equationKey = `${normalizedExpr} = ${eval(exprStringForEval)}`;
+
+                // Check if this equation already exists (prevents duplicates)
+                if (usedEquations.has(equationKey)) {
+                    continue; // Skip duplicate equations
+                }
 
                 let result;
                 try { result = eval(exprStringForEval); } catch (e) { result = null; }
@@ -2963,15 +3187,87 @@
                     else { isValidResult = result >= minThreshold && result < (isVeryEasy || isEasy ? 20 : 40); }
                 }
 
+                // PEDAGOGICAL FIX: When negative numbers are not allowed,
+                // validate ALL intermediate results to prevent equations like "2 - 6 + 10"
+                // which requires computing "2 - 6 = -4" as an intermediate step
+                if (isValidResult && !allowNegativeEl.checked) {
+                    // Evaluate left-to-right checking each intermediate result
+                    let runningTotal = null;
+                    for (let i = 0; i < terms.length; i++) {
+                        const term = terms[i];
+                        const termValue = typeof term.value === 'string' ? values[term.value] : term.value;
+
+                        if (i === 0) {
+                            runningTotal = termValue;
+                        } else {
+                            if (term.op === '+') {
+                                runningTotal += termValue;
+                            } else if (term.op === '-') {
+                                runningTotal -= termValue;
+                            }
+                        }
+
+                        // Check if any intermediate result is negative
+                        if (runningTotal < 0) {
+                            isValidResult = false;
+                            break;
+                        }
+                    }
+                }
+
                 if (isValidResult) {
                    if ((currentDifficultyValue === "medium" || isHard) && activeSymbolsForPuzzle.length > 1 && equationSymbolsUsed.size < Math.min(2, activeSymbolsForPuzzle.length) && puzzleBlockAttempts < maxPuzzleBlockAttempts - 50) continue;
+
+                   // Check if this equation is directly solvable (gives unique value for one symbol)
+                   const symbolCounts = {};
+                   terms.forEach(t => {
+                       if (typeof t.value === 'string') {
+                           symbolCounts[t.value] = (symbolCounts[t.value] || 0) + 1;
+                       }
+                   });
+                   const hasDoubled = Object.values(symbolCounts).some(count => count > 1);
+                   const uniqueSymbolsInEquation = Object.keys(symbolCounts).length;
+
+                   // CRITICAL FIX: A directly solvable equation can be:
+                   // Method 1 (Doubled): One symbol repeated (A + A = 10 or A + A + 2 = 12)
+                   //   - hasDoubled = true AND uniqueSymbolsInEquation = 1
+                   // Method 2 (Single with numbers): One symbol appears ONCE with only numbers (A + 3 = 8 or A - 2 = 5)
+                   //   - hasDoubled = false AND uniqueSymbolsInEquation = 1
+                   const isDoubledMethod = hasDoubled && uniqueSymbolsInEquation === 1;
+                   const isSingleWithNumbers = !hasDoubled && uniqueSymbolsInEquation === 1; // NOT doubled AND one unique symbol
+                   const isDirectlySolvable = isDoubledMethod || isSingleWithNumbers;
+
+                   // Only mark as having directly solvable equation if we don't already have one
+                   if (isDirectlySolvable && !hasDirectlySolvableEquation) {
+                       hasDirectlySolvableEquation = true;
+                   }
+
+                   usedEquations.add(equationKey); // Mark this equation as used
                    equations.push({ expr: exprStringForDisplay, result });
                 }
             }
 
-            if (equations.length === 3) {
+            if (equations.length === targetEquationCount) {
                 let puzzleBlockIsValid = true;
-                if (isVeryEasy || isEasy) {
+
+                // CRITICAL: Ensure at least one directly solvable equation for unique solution
+                // This prevents cases like "pig + dog = 12" which has multiple solutions
+                // We need either: "pig + pig = 10" (doubled) OR "pig + 3 = 8" (single with numbers)
+                if (!hasDirectlySolvableEquation) {
+                    puzzleBlockIsValid = false;
+                }
+
+                // NEW VALIDATION: Use algebraic solver to verify UNIQUE solvability
+                // This ensures ALL symbols can be uniquely determined - kids never have to guess!
+                if (puzzleBlockIsValid) {
+                    const isUniquelySolvable = isPuzzleUniquelySolvable(equations, activeSymbolsForPuzzle, values);
+                    if (!isUniquelySolvable) {
+                        puzzleBlockIsValid = false; // Reject puzzle - system is underdetermined or inconsistent
+                    }
+                }
+
+                // Additional difficulty-specific checks
+                if (puzzleBlockIsValid && (isVeryEasy || isEasy)) {
                     const symbolsInBlock = new Set();
                      equations.forEach(eq => {
                         const eqSymbols = eq.expr.match(/[A-Z]/g) || [];
@@ -2980,7 +3276,7 @@
                     if (activeSymbolsForPuzzle.some(sym => !symbolsInBlock.has(sym))) {
                         puzzleBlockIsValid = false;
                     }
-                } else if (isHard && activeSymbolsForPuzzle.length === 4) {
+                } else if (puzzleBlockIsValid && isHard && activeSymbolsForPuzzle.length === 4) {
                      const symbolsInBlock = new Set();
                       equations.forEach(eq => {
                          const eqSymbols = eq.expr.match(/[A-Z]/g) || [];
@@ -3211,10 +3507,13 @@
                       originX: 'left', originY: 'top'
                   });
                   positionedElements.push(el);
-                  const spacing = (i === 0) ? 20 : (i < rowElements.length - 2 ? 15 : 25);
+                  // ADJUSTED: Tighter spacing for 4-equation puzzles (Hard mode)
+                  const numEquations = puzzle.equations.length;
+                  const baseSpacing = numEquations === 4 ? 12 : 15; // Reduce spacing for 4 equations
+                  const spacing = (i === 0) ? 18 : (i < rowElements.length - 2 ? baseSpacing : 22);
                   currentYInCard += el.height + spacing;
               });
-              const cardContentHeight = currentYInCard - 25 + innerPadding;
+              const cardContentHeight = currentYInCard - 22 + innerPadding;
 
               const backgroundRect = new fabric.Rect({
                   width: maxRowWidth + (2 * innerPadding), height: cardContentHeight,
@@ -3392,11 +3691,14 @@
                       originX: 'left', originY: 'top'
                   });
                   positionedElements.push(el);
-                  const spacing = (i === 0) ? 20 : (i < rowElements.length - 2 ? 15 : 25);
+                  // ADJUSTED: Tighter spacing for 4-equation puzzles (Hard mode) - matches worksheet canvas
+                  const numEquations = puzzle.equations.length;
+                  const baseSpacing = numEquations === 4 ? 12 : 15; // Reduce spacing for 4 equations
+                  const spacing = (i === 0) ? 18 : (i < rowElements.length - 2 ? baseSpacing : 22);
                   currentYInCard += el.height + spacing;
               });
-              const cardContentHeight = currentYInCard - 25 + innerPadding;
-              
+              const cardContentHeight = currentYInCard - 22 + innerPadding;
+
               // Store content data for later creation with uniform size
               return {
                   rowElements,

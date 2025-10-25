@@ -1040,8 +1040,8 @@
       
       <!-- Language Settings Accordion -->
       <div class="accordion-item">
-          <button class="accordion-button active" data-translate="picture.pathway.language.settings">Language Settings</button>
-          <div class="accordion-content active">
+          <button class="accordion-button" data-translate="picture.pathway.language.settings">Language Settings</button>
+          <div class="accordion-content">
               <label for="languageSelect" data-translate="picture.pathway.language.label">Language:</label>
               <select id="languageSelect">
                   <option value="en" data-translate="language.english">English</option>
@@ -1062,8 +1062,8 @@
           </div>
       </div>
       <div class="accordion-item">
-        <button class="accordion-button active" data-translate="picture.pathway.page.setup">Page Setup</button>
-        <div class="accordion-content active">
+        <button class="accordion-button" data-translate="picture.pathway.page.setup">Page Setup</button>
+        <div class="accordion-content">
           <label for="pageSizeSelect" data-translate="picture.pathway.page.size">Page Size:</label>
           <select id="pageSizeSelect">
             <option value="612x792" data-translate="page.size.letter.portrait">Letter Portrait (8.5×11")</option>
@@ -1145,16 +1145,6 @@
         </div>
       </div>
 
-      <!-- Picture Pathway Settings (Original Mode) -->
-      <div class="accordion-item" id="pathwaySettingsAccordion">
-        <button class="accordion-button" data-translate="picture.pathway.settings.pathway">Picture Pathway Settings</button>
-        <div class="accordion-content">
-          <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-bottom: 12px;" data-translate="picture.pathway.settings.pathway.description">
-            Create a path from start to end through intermediate images.
-          </p>
-          <!-- Original Picture Pathway has no additional settings - uses existing grid generation -->
-        </div>
-      </div>
 
       <!-- Classic Maze Settings -->
       <div class="accordion-item" id="classicMazeSettingsAccordion" style="display:none;">
@@ -1163,20 +1153,20 @@
           <h4 data-translate="picture.pathway.maze.settings">Maze Settings</h4>
           <label for="mazeGridSize" data-translate="picture.pathway.grid.size">Grid Size:</label>
           <select id="mazeGridSize">
-            <option value="12" selected>12×12 (Recommended)</option>
-            <option value="13">13×13</option>
-            <option value="14">14×14</option>
-            <option value="15">15×15</option>
+            <option value="12" selected data-translate="picture.pathway.option.grid.12">12×12 (Recommended)</option>
+            <option value="13" data-translate="picture.pathway.option.grid.13">13×13</option>
+            <option value="14" data-translate="picture.pathway.option.grid.14">14×14</option>
+            <option value="15" data-translate="picture.pathway.option.grid.15">15×15</option>
           </select>
 
           <h4 style="margin-top:20px;" data-translate="picture.pathway.collectible.settings">Collectible Settings</h4>
 
           <label for="numCollectibleImages" data-translate="picture.pathway.num.images">Number of Collectible Images:</label>
           <select id="numCollectibleImages">
-            <option value="1">1 Image</option>
-            <option value="2">2 Images</option>
-            <option value="3">3 Images</option>
-            <option value="4" selected>4 Images</option>
+            <option value="1" data-translate="picture.pathway.option.images.1">1 Image</option>
+            <option value="2" data-translate="picture.pathway.option.images.2">2 Images</option>
+            <option value="3" data-translate="picture.pathway.option.images.3">3 Images</option>
+            <option value="4" selected data-translate="picture.pathway.option.images.4">4 Images</option>
           </select>
 
           <label for="copiesPerImageMin" style="margin-top:10px;" data-translate="picture.pathway.copies.min">Minimum Copies per Image:</label>
@@ -1236,18 +1226,18 @@
         <div class="accordion-content">
           <label for="mazeDirection" data-translate="picture.pathway.maze.direction">Maze Direction:</label>
           <select id="mazeDirection">
-            <option value="bottom-top" selected>Bottom to Top ↑</option>
-            <option value="top-bottom">Top to Bottom ↓</option>
-            <option value="left-right">Left to Right →</option>
-            <option value="right-left">Right to Left ←</option>
+            <option value="bottom-top" selected data-translate="picture.pathway.option.direction.bottom.top">Bottom to Top ↑</option>
+            <option value="top-bottom" data-translate="picture.pathway.option.direction.top.bottom">Top to Bottom ↓</option>
+            <option value="left-right" data-translate="picture.pathway.option.direction.left.right">Left to Right →</option>
+            <option value="right-left" data-translate="picture.pathway.option.direction.right.left">Right to Left ←</option>
           </select>
 
           <label for="choosePathGridSize" style="margin-top:15px;" data-translate="picture.pathway.grid.size">Grid Size:</label>
           <select id="choosePathGridSize">
-            <option value="12" selected>12×12 (Recommended)</option>
-            <option value="13">13×13</option>
-            <option value="14">14×14</option>
-            <option value="15">15×15</option>
+            <option value="12" selected data-translate="picture.pathway.option.grid.12">12×12 (Recommended)</option>
+            <option value="13" data-translate="picture.pathway.option.grid.13">13×13</option>
+            <option value="14" data-translate="picture.pathway.option.grid.14">14×14</option>
+            <option value="15" data-translate="picture.pathway.option.grid.15">15×15</option>
           </select>
 
           <h4 style="margin-top:20px;" data-translate="picture.pathway.wall.appearance">Wall Appearance</h4>
@@ -1380,14 +1370,14 @@
                 </div>
                 <div class="header-actions">
                     <div class="zoom-controls">
-                        <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                        <button id="zoomOutBtn" class="zoom-btn" data-translate-title="zoomOut" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
                         <span id="zoomPercentage" class="zoom-percentage">100%</span>
-                        <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
-                        <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                        <button id="zoomInBtn" class="zoom-btn" data-translate-title="zoomIn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+                        <button id="zoomResetBtn" class="zoom-btn" data-translate-title="zoomReset" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
                     </div>
                     <div class="history-controls">
-                        <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
-                        <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+                        <button id="undoBtn" class="history-btn" data-translate-title="undo" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+                        <button id="redoBtn" class="history-btn" data-translate-title="redo" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
                     </div>
                     <div class="dropdown-container">
                         <button id="generateDropdownBtn" class="action-button accent"><span data-translate="picture.pathway.generate">Generate</span> <i class="fas fa-caret-down"></i></button>
@@ -1471,6 +1461,10 @@ function applyTranslations() {
     const key = el.getAttribute('data-translate-placeholder');
     el.placeholder = t(key);
   });
+  document.querySelectorAll('[data-translate-title]').forEach(el => {
+    const key = el.getAttribute('data-translate-title');
+    el.title = t(key);
+  });
 }
 window.applyTranslations = applyTranslations;
 
@@ -1483,12 +1477,7 @@ document.addEventListener("DOMContentLoaded", function() {
           content.classList.toggle('active');
       });
   });
-  if (accordionButtons.length > 0 && !document.querySelector('.accordion-button.active')) {
-      accordionButtons[0].classList.add('active');
-      if(accordionButtons[0].nextElementSibling) {
-        accordionButtons[0].nextElementSibling.classList.add('active');
-      }
-  }
+  // Accordions start closed - removed auto-open code
 
   /* --- Responsive Sidebar Logic --- */
   const panel = document.querySelector('.panel');
@@ -6626,7 +6615,6 @@ async function downloadPDF(canvasToExport, fileName) {
     const gameMode = this.value;
 
     // Hide all mode-specific accordions first
-    document.getElementById('pathwaySettingsAccordion').style.display = 'none';
     document.getElementById('classicMazeSettingsAccordion').style.display = 'none';
     document.getElementById('choosePathSettingsAccordion').style.display = 'none';
 
@@ -6648,9 +6636,7 @@ async function downloadPDF(canvasToExport, fileName) {
     }
 
     // Show appropriate sections based on mode
-    if (gameMode === 'pathway') {
-      document.getElementById('pathwaySettingsAccordion').style.display = '';
-    } else if (gameMode === 'classic-maze') {
+    if (gameMode === 'classic-maze') {
       document.getElementById('classicMazeSettingsAccordion').style.display = '';
       // Auto-populate with default images for Classic Maze
       await autoPopulateClassicMazeImages();

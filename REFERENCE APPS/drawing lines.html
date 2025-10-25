@@ -601,8 +601,8 @@
             <div class="panel-content">
 
                 <div class="accordion-item">
-                    <button class="accordion-button active" data-translate="pageSetup">Page Setup</button>
-                    <div class="accordion-content active">
+                    <button class="accordion-button" data-translate="pageSetup">Page Setup</button>
+                    <div class="accordion-content">
                         <label for="pageSizeSelect" data-translate="pageSize">Page Size:</label>
                         <select id="pageSizeSelect">
                             <option value="612x792" data-translate="letterPortrait">Letter Portrait (8.5×11")</option>
@@ -774,14 +774,14 @@
                 </div>
                 <div class="header-actions">
                     <div class="zoom-controls">
-                        <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                        <button id="zoomOutBtn" class="zoom-btn" data-title-translate="zoomOut" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
                         <span id="zoomPercentage" class="zoom-percentage">100%</span>
-                        <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
-                        <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                        <button id="zoomInBtn" class="zoom-btn" data-title-translate="zoomIn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+                        <button id="zoomResetBtn" class="zoom-btn" data-title-translate="resetZoom" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
                     </div>
                     <div class="history-controls">
-                        <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
-                        <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+                        <button id="undoBtn" class="history-btn" data-title-translate="undo" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+                        <button id="redoBtn" class="history-btn" data-title-translate="redo" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
                     </div>
                     <button id="generateBtn" class="action-button accent" data-translate="generate">Generate</button>
                     <div class="dropdown-container">
@@ -1077,11 +1077,7 @@ document.addEventListener("DOMContentLoaded", async function() {
                 }
             });
         });
-        // Open first accordion by default
-        if (accordionButtons.length > 0) {
-            accordionButtons[0].classList.add('active');
-            accordionButtons[0].nextElementSibling.style.display = 'block';
-        }
+        // Accordions start closed - removed auto-open code
     }
 
     function setupDropdowns() {

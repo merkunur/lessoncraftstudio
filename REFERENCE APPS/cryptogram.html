@@ -1039,14 +1039,14 @@
         </div>
         <div class="header-actions">
           <div class="zoom-controls">
-            <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+            <button id="zoomOutBtn" class="zoom-btn" data-translate-title="title.zoom.out" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
             <span id="zoomPercentage" class="zoom-percentage">100%</span>
-            <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
-            <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+            <button id="zoomInBtn" class="zoom-btn" data-translate-title="title.zoom.in" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+            <button id="zoomResetBtn" class="zoom-btn" data-translate-title="title.zoom.reset" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
           </div>
           <div class="history-controls">
-            <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
-            <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+            <button id="undoBtn" class="history-btn" data-translate-title="title.undo" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+            <button id="redoBtn" class="history-btn" data-translate-title="title.redo" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
           </div>
           <button id="generateBtn" class="action-button accent" data-translate="cryptogram.generate">Generate</button>
           <div class="dropdown-container">
@@ -1154,6 +1154,14 @@
                     } else {
                         element.textContent = t[key];
                     }
+                }
+            });
+
+            // Update all elements with data-translate-title attribute
+            document.querySelectorAll('[data-translate-title]').forEach(element => {
+                const key = element.getAttribute('data-translate-title');
+                if (t[key]) {
+                    element.title = t[key];
                 }
             });
         }

@@ -642,8 +642,8 @@
                           <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
                           <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="alignToPage">Align to Page:</p>
                           <div>
-                                  <button class="context-btn" id="centerHCanvasBtn" data-translate-title="centerPageHorizontally" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
-                                  <button class="context-btn" id="centerVCanvasBtn" data-translate-title="centerPageVertically" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                                  <button class="context-btn" id="centerHCanvasBtn" data-translate-title="centerOnPageHorizontally" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                                  <button class="context-btn" id="centerVCanvasBtn" data-translate-title="centerOnPageVertically" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
                           </div>
                   </div>
               </div>
@@ -659,14 +659,14 @@
         </div>
         <div class="header-actions">
             <div class="zoom-controls">
-                <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                <button id="zoomOutBtn" class="zoom-btn" data-translate-title="zoomOut" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
                 <span id="zoomPercentage" class="zoom-percentage">100%</span>
-                <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
-                <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                <button id="zoomInBtn" class="zoom-btn" data-translate-title="zoomIn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+                <button id="zoomResetBtn" class="zoom-btn" data-translate-title="resetZoom" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
             </div>
             <div class="history-controls">
-                <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
-                <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+                <button id="undoBtn" class="history-btn" data-translate-title="undo" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+                <button id="redoBtn" class="history-btn" data-translate-title="redo" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
             </div>
             <button id="generateWorksheetBtn" class="action-button accent" data-translate="generate">Generate</button>
             <div class="dropdown-container">
@@ -756,6 +756,16 @@
                               (window.PICTURE_BINGO_TRANSLATIONS.en && window.PICTURE_BINGO_TRANSLATIONS.en[key]) ||
                               key;
             element.placeholder = translation;
+        });
+
+        // Handle title attribute translations
+        document.querySelectorAll('[data-translate-title]').forEach(element => {
+            const key = element.getAttribute('data-translate-title');
+            const locale = window.uiLocale || 'en';  // Use uiLocale for UI translations
+            const translation = (window.PICTURE_BINGO_TRANSLATIONS[locale] && window.PICTURE_BINGO_TRANSLATIONS[locale][key]) ||
+                              (window.PICTURE_BINGO_TRANSLATIONS.en && window.PICTURE_BINGO_TRANSLATIONS.en[key]) ||
+                              key;
+            element.title = translation;
         });
 
         console.log(`Updated ${updateCount} elements with translations`);

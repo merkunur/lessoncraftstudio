@@ -827,8 +827,8 @@
         </div>
         <div class="panel-content">
             <div class="accordion-item">
-                <button class="accordion-button active" data-translate="drawcolor.worksheet.setup">Worksheet Setup</button>
-                <div class="accordion-content active">
+                <button class="accordion-button" data-translate="drawcolor.worksheet.setup">Worksheet Setup</button>
+                <div class="accordion-content">
                     <label for="rows" data-translate="drawcolor.rows.label">Rows (3-10)</label>
                     <input id="rows" type="number" min="3" max="10" value="5" />
                     <label for="cols" data-translate="drawcolor.columns.label">Columns (3-10)</label>
@@ -997,8 +997,8 @@
                       <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
                       <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.to.page">Align to Page:</p>
                       <div>
-                          <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
-                          <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                          <button class="context-btn" id="centerHCanvasBtn" data-title-translate="toolbar.center.page.h" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                          <button class="context-btn" id="centerVCanvasBtn" data-title-translate="toolbar.center.page.v" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
                       </div>
                   </div>
               </div>
@@ -1010,14 +1010,14 @@
       <div class="tab-row">
           <div class="header-actions">
               <div class="zoom-controls">
-                  <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                  <button id="zoomOutBtn" class="zoom-btn" data-title-translate="zoom.out" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
                   <span id="zoomPercentage" class="zoom-percentage">100%</span>
-                  <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
-                  <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                  <button id="zoomInBtn" class="zoom-btn" data-title-translate="zoom.in" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+                  <button id="zoomResetBtn" class="zoom-btn" data-title-translate="zoom.reset" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
               </div>
               <div class="history-controls">
-                  <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
-                  <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+                  <button id="undoBtn" class="history-btn" data-title-translate="undo" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+                  <button id="redoBtn" class="history-btn" data-title-translate="redo" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
               </div>
               <button id="generateBtn" class="action-button accent" data-translate="drawcolor.generate">Generate</button>
               <div class="dropdown-container">
@@ -1226,10 +1226,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 content.classList.toggle('active');
             });
         });
-        if (accordionButtons.length > 0) {
-            accordionButtons[0].classList.add('active');
-            accordionButtons[0].nextElementSibling.classList.add('active');
-        }
+        // Accordions start closed - removed auto-open code
     }
 
     function setupDropdown(button, content) {

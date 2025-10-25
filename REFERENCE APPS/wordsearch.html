@@ -256,8 +256,7 @@
             min-height: 20px;
             font-weight: 500;
             display: none;
-            margin-top: auto; /* Pushes message to the bottom */
-            margin-bottom: 10px;
+            margin: 10px 10px 0;
             border-width: 1px;
             border-style: solid;
         }
@@ -999,14 +998,14 @@
                 </div>
                 <div class="header-actions">
                     <div class="zoom-controls">
-                        <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                        <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out" data-translate-title="zoomOut"><i class="fas fa-search-minus"></i></button>
                         <span id="zoomPercentage" class="zoom-percentage">100%</span>
-                        <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
-                        <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                        <button id="zoomInBtn" class="zoom-btn" title="Zoom In" data-translate-title="zoomIn"><i class="fas fa-search-plus"></i></button>
+                        <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom" data-translate-title="resetZoom"><i class="fas fa-compress-arrows-alt"></i></button>
                     </div>
                     <div class="history-controls">
-                        <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
-                        <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+                        <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" data-translate-title="undo" disabled><i class="fas fa-undo"></i></button>
+                        <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" data-translate-title="redo" disabled><i class="fas fa-redo"></i></button>
                     </div>
                     <div class="dropdown-container">
                         <button id="generateDropdownBtn" class="action-button accent"><span data-translate="generate">Generate</span> <i class="fas fa-caret-down"></i></button>
@@ -1379,27 +1378,14 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-    // --- TOAST NOTIFICATION FUNCTION ---
-    // --- TOAST NOTIFICATION FUNCTION ---
+    // --- SIDEBAR MESSAGE FUNCTION ---
     function showMessage(message, type = 'info', duration = 3000) {
-        const existingToast = document.querySelector('.toast-notification');
-        if (existingToast) existingToast.remove();
-        
-        const toast = document.createElement('div');
-        toast.className = 'toast-notification toast-' + type;
-        toast.textContent = message;
-        toast.style.cssText = 'position: fixed; top: 20px; right: 20px; padding: 12px 20px; border-radius: 8px; font-size: 14px; font-weight: 500; color: white; z-index: 10000; box-shadow: 0 4px 12px rgba(0,0,0,0.15);';
-        
-        const colors = { success: '#4caf50', error: '#f44336', warning: '#ff9800', info: '#2196f3' };
-        toast.style.backgroundColor = colors[type] || colors.info;
-        
-        document.body.appendChild(toast);
-        
+        messageDiv.textContent = message;
+        messageDiv.className = type;
+        messageDiv.style.display = 'block';
         if (duration > 0) {
-            setTimeout(() => { toast.style.opacity = '0'; setTimeout(() => toast.remove(), 300); }, duration);
+            setTimeout(() => { messageDiv.style.display = 'none'; }, duration);
         }
-        
-        return toast;
     }
 
 
@@ -2713,13 +2699,6 @@ document.addEventListener("DOMContentLoaded", function() {
         downloadAnswerKeyPdfBtn.disabled = true;
         generateAnswerKeyBtn.disabled = true;
         showMessage(t('allSettingsCleared'), 'success');
-    
-        messageDiv.textContent = msg;
-        messageDiv.className = `message ${type}`;
-        messageDiv.style.display = 'block';
-        if (duration > 0) {
-            setTimeout(() => { messageDiv.style.display = 'none'; }, duration);
-        }
     }
     
     // --- Lazy Loading Setup ---

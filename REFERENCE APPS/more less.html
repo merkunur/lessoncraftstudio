@@ -1102,14 +1102,11 @@
                 <label for="problemCountInput" data-translate="moreless.exercises.count">Number of Exercises (1–8):</label>
                 <input type="number" id="problemCountInput" value="5" min="1" max="8" />
 
-                <label class="checkbox-label" style="margin-top: 15px;">
-                    <input type="radio" name="image_selection_mode" value="individual" checked>
-                    <span data-translate="moreless.mode.individual">Individual Images</span>
-                </label>
-                <label class="checkbox-label">
-                    <input type="radio" name="image_selection_mode" value="theme">
-                    <span data-translate="moreless.mode.theme">Theme for Worksheet</span>
-                </label>
+                <label for="imageSelectionModeSelect" style="margin-top: 15px;" data-translate="moreless.image.selection">Image Selection:</label>
+                <select id="imageSelectionModeSelect">
+                    <option value="individual" data-translate="moreless.mode.individual">Individual Images</option>
+                    <option value="theme" data-translate="moreless.mode.theme">Theme for Worksheet</option>
+                </select>
 
                 <div id="individualImageSelectionSection">
                     <label><span data-translate="moreless.theme.dictionary">Theme for Dictionary</span> <select id="themeDict"></select></label>
@@ -1123,31 +1120,43 @@
                     <small data-translate="moreless.theme.random">Images will be randomly selected from this theme.</small>
                 </div>
 
-                <h4 data-translate="moreless.relations">Relations</h4>
-                <label class="checkbox-label">
-                    <span>&gt;</span>
-                    <input type="checkbox" value="gt" checked>
-                </label>
-                <label class="checkbox-label">
-                    <span>&lt;</span>
-                    <input type="checkbox" value="lt" checked>
-                </label>
-                <label class="checkbox-label">
-                    <span>=</span>
-                    <input type="checkbox" value="eq" checked>
-                </label>
-                <h4 data-translate="moreless.symbol.display">Symbol Display</h4>
-                <label class="checkbox-label">
-                    <input type="radio" name="symbol_display_type" value="image" checked>
-                    <span data-translate="moreless.display.illustrations">Illustrations</span>
-                </label>
-                <label class="checkbox-label">
-                    <input type="radio" name="symbol_display_type" value="text">
-                    <span data-translate="moreless.display.normal">Normal Symbols (&gt;, &lt;, =)</span>
-                </label>
-                <label class="checkbox-label">
+                <label for="relationsSelect" style="margin-top: 15px;" data-translate="moreless.relations">Relations:</label>
+                <div style="display: flex; gap: 15px; margin-bottom: 15px;">
+                    <label class="checkbox-label" style="margin: 0;">
+                        <input type="checkbox" class="relation-checkbox" value="gt" checked>
+                        <span>&gt;</span>
+                    </label>
+                    <label class="checkbox-label" style="margin: 0;">
+                        <input type="checkbox" class="relation-checkbox" value="lt" checked>
+                        <span>&lt;</span>
+                    </label>
+                    <label class="checkbox-label" style="margin: 0;">
+                        <input type="checkbox" class="relation-checkbox" value="eq" checked>
+                        <span>=</span>
+                    </label>
+                </div>
+
+                <label for="symbolDisplaySelect" data-translate="moreless.symbol.display">Symbol Display:</label>
+                <select id="symbolDisplaySelect">
+                    <option value="image" data-translate="moreless.display.illustrations">Illustrations</option>
+                    <option value="text" data-translate="moreless.display.normal">Normal Symbols (&gt;, &lt;, =)</option>
+                </select>
+
+                <label for="comparisonModeSelect" style="margin-top: 15px;" data-translate="moreless.comparison.mode">Comparison Mode:</label>
+                <select id="comparisonModeSelect">
+                    <option value="image-to-image" data-translate="moreless.mode.imagetoimage">Image to Image</option>
+                    <option value="image-to-number" data-translate="moreless.mode.imagetonumber">Image to Number</option>
+                </select>
+
+                <label for="imageVarietySelect" data-translate="moreless.image.variety">Image Variety:</label>
+                <select id="imageVarietySelect">
+                    <option value="same" data-translate="moreless.variety.same">Same Images (e.g., 5 cats vs 7 cats)</option>
+                    <option value="different" data-translate="moreless.variety.different">Different Images (e.g., 5 cats vs 7 dogs)</option>
+                </select>
+
+                <label for="showSym" class="checkbox-label" style="margin-top: 15px;">
                     <input type="checkbox" id="showSym">
-                    <span data-translate="moreless.symbol.mode.circling">show symbols for circling</span>
+                    <span data-translate="moreless.symbol.mode.circling">Show symbols for circling</span>
                 </label>
                 <label for="includeNameDate" class="checkbox-label">
                     <input type="checkbox" id="includeNameDate" /><span data-translate="moreless.include.name.date">Include Name/Date Fields</span>
@@ -1186,7 +1195,7 @@
       <div id="object-context-toolbar" style="display:none;">
           <div class="toolbar-group">
               <div class="toolbar-item">
-                  <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
+                  <button class="context-btn" id="layersBtn" data-translate-title="toolbar.layers" title="Layers"><i class="fas fa-layer-group"></i></button>
                   <div class="dropdown-content" id="layersDropdown">
                           <button id="toolbarBringToFrontBtn" data-translate="bringToFront">Bring to Front</button>
                           <button id="toolbarBringForwardBtn" data-translate="bringForward">Bring Forward</button>
@@ -1197,30 +1206,30 @@
           </div>
           <div class="toolbar-group">
               <div class="toolbar-item">
-                  <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
+                  <button class="context-btn" id="alignBtn" data-translate-title="toolbar.align" title="Align"><i class="fas fa-th"></i></button>
                   <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
-                          <p style="font-size:11px; margin-bottom:5px; color:#555;">Align Selected:</p>
+                          <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.selected">Align Selected:</p>
                           <div>
-                                  <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
-                                  <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
-                                  <button class="context-btn" id="alignRightBtn" title="Align Right"><i class="fas fa-align-right"></i></button>
+                                  <button class="context-btn" id="alignLeftBtn" data-translate-title="toolbar.align.left" title="Align Left"><i class="fas fa-align-left"></i></button>
+                                  <button class="context-btn" id="alignHCenterBtn" data-translate-title="toolbar.center.h" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                                  <button class="context-btn" id="alignRightBtn" data-translate-title="toolbar.align.right" title="Align Right"><i class="fas fa-align-right"></i></button>
                           </div>
                           <div style="margin-top: 5px;">
-                                  <button class="context-btn" id="alignTopBtn" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
-                                  <button class="context-btn" id="alignVCenterBtn" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
-                                  <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                                  <button class="context-btn" id="alignTopBtn" data-translate-title="toolbar.align.top" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                                  <button class="context-btn" id="alignVCenterBtn" data-translate-title="toolbar.center.v" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
+                                  <button class="context-btn" id="alignBottomBtn" data-translate-title="toolbar.align.bottom" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
                           </div>
                           <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
-                          <p style="font-size:11px; margin-bottom:5px; color:#555;">Align to Page:</p>
+                          <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.to.page">Align to Page:</p>
                           <div>
-                                  <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
-                                  <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                                  <button class="context-btn" id="centerHCanvasBtn" data-translate-title="toolbar.center.page.h" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                                  <button class="context-btn" id="centerVCanvasBtn" data-translate-title="toolbar.center.page.v" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
                           </div>
                   </div>
               </div>
           </div>
           <div class="toolbar-group">
-              <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
+              <button class="context-btn" id="toolbarDeleteBtn" data-translate-title="toolbar.delete" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
           </div>
       </div>
       <div class="tab-row">
@@ -1230,14 +1239,14 @@
                 </div>
                 <div class="header-actions">
                     <div class="zoom-controls">
-                        <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                        <button id="zoomOutBtn" class="zoom-btn" data-translate-title="zoomOut" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
                         <span id="zoomPercentage" class="zoom-percentage">100%</span>
-                        <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
-                        <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                        <button id="zoomInBtn" class="zoom-btn" data-translate-title="zoomIn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+                        <button id="zoomResetBtn" class="zoom-btn" data-translate-title="zoomReset" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
                     </div>
                     <div class="history-controls">
-                        <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
-                        <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+                        <button id="undoBtn" class="history-btn" data-translate-title="undo" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+                        <button id="redoBtn" class="history-btn" data-translate-title="redo" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
                     </div>
                     <div class="dropdown-container">
                         <button id="generateDropdownBtn" class="action-button accent"><span data-translate="moreless.generate">Generate</span> <i class="fas fa-caret-down"></i></button>
@@ -1352,8 +1361,8 @@
               problemCountInput.value = 6;
 
               // Select "Theme for Worksheet" mode
-              imageSelectionModeRadios[1].checked = true; // theme mode
-              imageSelectionModeRadios[1].dispatchEvent(new Event('change'));
+              imageSelectionModeSelect.value = 'theme';
+              imageSelectionModeSelect.dispatchEvent(new Event('change'));
 
               // Set animals theme
               themeWorksheetSelect.value = 'animals';
@@ -1364,8 +1373,8 @@
               // Set Show Exercise Numbers
               includeExerciseNumbersCheckbox.checked = true;
 
-              // Set Illustrations (symbol_display_type = 'image')
-              symbolDisplayTypeRadios[0].checked = true; // 'image' mode
+              // Set Illustrations
+              symbolDisplaySelect.value = 'image';
 
               // Give a small delay before generating
               await new Promise(resolve => setTimeout(resolve, 200));
@@ -1501,7 +1510,7 @@
       const textStrokeColorInput = $('#textStrokeColor');
       const textStrokeWidthInput = $('#textStrokeWidth');
       const problemCountInput = $('#problemCountInput');
-      const imageSelectionModeRadios = $$('input[name="image_selection_mode"]');
+      const imageSelectionModeSelect = $('#imageSelectionModeSelect');
       const individualImageSelectionSection = $('#individualImageSelectionSection');
       const worksheetThemeSelectionSection = $('#worksheetThemeSelectionSection');
       const themeDictSelect = $('#themeDict');
@@ -1510,8 +1519,10 @@
       const selCountSpan = $('#selCount');
       const imageUploadInput = $('#imageUploadInput');
       const uploadedImagesPreviewDiv = $('#uploadedImagesPreview');
-      const relationCheckboxes = $$('.accordion-content input[type="checkbox"][value="gt"], .accordion-content input[type="checkbox"][value="lt"], .accordion-content input[type="checkbox"][value="eq"]');
-      const symbolDisplayTypeRadios = $$('input[name="symbol_display_type"]');
+      const relationCheckboxes = $$('.relation-checkbox');
+      const symbolDisplaySelect = $('#symbolDisplaySelect');
+      const comparisonModeSelect = $('#comparisonModeSelect');
+      const imageVarietySelect = $('#imageVarietySelect');
       const showSymCheckbox = $('#showSym');
       const includeNameDateCheckbox = $('#includeNameDate');
       const includeExerciseNumbersCheckbox = $('#includeExerciseNumbers');
@@ -2392,17 +2403,17 @@
     // --- HEADER & BORDER FUNCTIONS ---
     function createHeaderGroup(canvas) {
         const defaultHeaders = {
-            en: { title: 'More Less', description: 'Compare numbers and choose the right symbol!' },
-            de: { title: 'Mehr Weniger', description: 'Vergleiche die Zahlen und wähle das richtige Symbol!' },
-            fr: { title: 'Plus Moins', description: 'Compare les nombres et choisis le bon symbole!' },
-            es: { title: 'Más Menos', description: '¡Compara los números y elige el símbolo correcto!' },
-            it: { title: 'Più Meno', description: 'Confronta i numeri e scegli il simbolo giusto!' },
-            pt: { title: 'Mais Menos', description: 'Compare os números e escolha o símbolo correto!' },
-            nl: { title: 'Meer Minder', description: 'Vergelijk de getallen en kies het juiste symbool!' },
-            sv: { title: 'Mer Mindre', description: 'Jämför talen och välj rätt symbol!' },
-            da: { title: 'Mere Mindre', description: 'Sammenlign tallene og vælg det rigtige symbol!' },
-            no: { title: 'Mer Mindre', description: 'Sammenlign tallene og velg riktig symbol!' },
-            fi: { title: 'Enemmän Vähemmän', description: 'Vertaa lukuja ja valitse oikea symboli!' }
+            en: { title: 'More Less', description: 'Compare and choose the right symbol!' },
+            de: { title: 'Mehr Weniger', description: 'Vergleiche und wähle das richtige Symbol!' },
+            fr: { title: 'Plus Moins', description: 'Compare et choisis le bon symbole!' },
+            es: { title: 'Más Menos', description: '¡Compara y elige el símbolo correcto!' },
+            it: { title: 'Più Meno', description: 'Confronta e scegli il simbolo giusto!' },
+            pt: { title: 'Mais Menos', description: 'Compare e escolha o símbolo correto!' },
+            nl: { title: 'Meer Minder', description: 'Vergelijk en kies het juiste symbool!' },
+            sv: { title: 'Mer Mindre', description: 'Jämför och välj rätt symbol!' },
+            da: { title: 'Mere Mindre', description: 'Sammenlign og vælg det rigtige symbol!' },
+            no: { title: 'Mer Mindre', description: 'Sammenlign og velg riktig symbol!' },
+            fi: { title: 'Enemmän Vähemmän', description: 'Vertaa ja valitse oikea symboli!' }
         };
 
         const locale = currentLocale || 'en';
@@ -2784,7 +2795,7 @@
     }
 
     async function regenerateAnswerKeyCards(canvas) {
-        const selectedSymbolType = $('input[name="symbol_display_type"]:checked').value;
+        const selectedSymbolType = symbolDisplaySelect.value;
 
         const pageWidth = currentCanvasConfig.width;
         const pageHeight = currentCanvasConfig.height;
@@ -2877,6 +2888,11 @@
     function buildRows(imgs, rels, problemCount) {
         const rows = [];
         if (!imgs?.length || !rels.length) return rows;
+
+        // Get user preferences for new features
+        const comparisonMode = comparisonModeSelect.value || 'image-to-image';
+        const imageVariety = imageVarietySelect.value || 'same';
+
         const pickCounts = rel => {
           let nL, nR;
           if (rel === 'eq') nL = nR = rand(1, DEFAULT_MAX_ITEMS_PER_GROUP);
@@ -2884,11 +2900,30 @@
           else { nL = rand(1, DEFAULT_MAX_ITEMS_PER_GROUP - 1); nR = rand(nL + 1, DEFAULT_MAX_ITEMS_PER_GROUP); }
           return [nL, nR];
         };
+
         for (let i = 0; i < problemCount; i++) {
-            const pic = imgs[i % imgs.length];
-            const rel = rels[rand(0, rels.length - 1)]; 
-            const [nL, nR] = pickCounts(rel); 
-            rows.push({ L: pic, R: pic, rel, nL, nR });
+            const picL = imgs[i % imgs.length];
+            let picR = picL; // Default: same image
+
+            // If different variety is selected, pick a different image for right side
+            if (imageVariety === 'different' && imgs.length > 1) {
+                let attempts = 0;
+                do {
+                    picR = imgs[rand(0, imgs.length - 1)];
+                    attempts++;
+                } while (picR === picL && attempts < 10);
+            }
+
+            const rel = rels[rand(0, rels.length - 1)];
+            const [nL, nR] = pickCounts(rel);
+            rows.push({
+                L: picL,
+                R: picR,
+                rel,
+                nL,
+                nR,
+                comparisonMode // Store the comparison mode for this exercise
+            });
         }
         return rows;
     }
@@ -3090,7 +3125,7 @@
                 headerObjects.forEach(obj => worksheetCanvas.add(obj));
             }
 
-            const imageSelectionMode = $('input[name="image_selection_mode"]:checked').value;
+            const imageSelectionMode = imageSelectionModeSelect.value;
             let imagesForGeneration = [];
             if (imageSelectionMode === 'theme') {
                 const selectedTheme = themeWorksheetSelect.value;
@@ -3180,7 +3215,7 @@
         const spacing = itemHeight * 0.2; // Scale spacing with item size
         const includeNumbers = includeExerciseNumbersCheckbox.checked;
         const showSym = showSymCheckbox.checked;
-        const selectedSymbolType = $('input[name="symbol_display_type"]:checked').value;
+        const selectedSymbolType = symbolDisplaySelect.value;
 
         const contentElements = [];
 
@@ -3225,8 +3260,21 @@
         symbolGroup.scaleToHeight(itemHeight);
         contentElements.push(symbolGroup);
 
-        const rightGroup = await createImageCluster(problemData.nR, problemData.R, itemHeight);
-        if(rightGroup) contentElements.push(rightGroup);
+        // Check comparison mode: image-to-image or image-to-number
+        if (problemData.comparisonMode === 'image-to-number') {
+            // Display right side as a number instead of images
+            const numberText = new fabric.Text(String(problemData.nR), {
+                fontSize: itemHeight * 0.8,
+                fontWeight: 'bold',
+                fontFamily: 'Fredoka',
+                fill: '#333'
+            });
+            contentElements.push(numberText);
+        } else {
+            // Default: display right side as images
+            const rightGroup = await createImageCluster(problemData.nR, problemData.R, itemHeight);
+            if(rightGroup) contentElements.push(rightGroup);
+        }
         
         let maxContentHeight = 0;
         contentElements.forEach(el => {
@@ -3469,8 +3517,8 @@
             }));
         }
 
-        const selectedSymbolType = $('input[name="symbol_display_type"]:checked').value;
-        
+        const selectedSymbolType = symbolDisplaySelect.value;
+
         // Use actual page dimensions for proper layout
         const pageWidth = currentCanvasConfig.width;
         const pageHeight = currentCanvasConfig.height;
@@ -3840,9 +3888,9 @@ async function downloadPDF(canvasToExport, filename) {
         });
 
         [textInput, textColorInput, fontSizeInput, fontFamilySelect, textStrokeColorInput, textStrokeWidthInput].forEach(el => el.addEventListener('input', updateActiveTextObjectProperties));
-        imageSelectionModeRadios.forEach(radio => radio.onchange = () => {
-            individualImageSelectionSection.style.display = radio.value === 'individual' ? 'block' : 'none';
-            worksheetThemeSelectionSection.style.display = radio.value === 'theme' ? 'block' : 'none';
+        imageSelectionModeSelect.addEventListener('change', () => {
+            individualImageSelectionSection.style.display = imageSelectionModeSelect.value === 'individual' ? 'block' : 'none';
+            worksheetThemeSelectionSection.style.display = imageSelectionModeSelect.value === 'theme' ? 'block' : 'none';
         });
         themeDictSelect.addEventListener("change", renderDictionaryFunc);
         const searchInput = document.createElement('input'); 
@@ -3923,12 +3971,13 @@ async function downloadPDF(canvasToExport, filename) {
 
         clearBtn.addEventListener("click", () => {
             selectedImages.clear(); uploadedImages = []; lastGeneratedRows = [];
-            problemCountInput.value = 5; imageSelectionModeRadios[0].checked = true;
+            problemCountInput.value = 5; imageSelectionModeSelect.value = 'individual';
             individualImageSelectionSection.style.display = 'block'; worksheetThemeSelectionSection.style.display = 'none';
             themeDictSelect.value = "all"; themeWorksheetSelect.value = "";
             $('#searchInput').value = "";
             relationCheckboxes.forEach(cb => cb.checked = true);
-            symbolDisplayTypeRadios[0].checked = true; showSymCheckbox.checked = false;
+            symbolDisplaySelect.value = 'image'; showSymCheckbox.checked = false;
+            comparisonModeSelect.value = 'image-to-image'; imageVarietySelect.value = 'same';
             includeNameDateCheckbox.checked = false; includeExerciseNumbersCheckbox.checked = true;
             pageColorInput.value = '#FFFFFF';
             [borderThemeSelect, backgroundThemeSelect].forEach(s => s.value = 'none');

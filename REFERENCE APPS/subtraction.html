@@ -1110,13 +1110,13 @@
         <div class="accordion-item">
             <button class="accordion-button" data-translate="settings.exerciseConfig">Exercise Configuration</button>
             <div class="accordion-content">
-                <h4 style="margin-top: 0;">Exercise Mode</h4>
-                <label for="exerciseMode">Select Mode:</label>
+                <h4 style="margin-top: 0;" data-translate="subtraction.exercise.mode">Exercise Mode</h4>
+                <label for="exerciseMode" data-translate="subtraction.select.mode">Select Mode:</label>
                 <select id="exerciseMode">
-                    <option value="cross-out">Cross Out (traditional)</option>
-                    <option value="image-number">Image - Number</option>
-                    <option value="find-subtrahend">Find Subtrahend (images - ? = result)</option>
-                    <option value="mixed">Mixed (Image-Number + Find Subtrahend)</option>
+                    <option value="cross-out" data-translate="subtraction.mode.cross.out">Cross Out (traditional)</option>
+                    <option value="image-number" data-translate="subtraction.mode.image.number">Image - Number</option>
+                    <option value="find-subtrahend" data-translate="subtraction.mode.find.subtrahend">Find Subtrahend (images - ? = result)</option>
+                    <option value="mixed" data-translate="subtraction.mode.mixed">Mixed (Image-Number + Find Subtrahend)</option>
                 </select>
 
                 <label for="problemCount" data-translate="config.exerciseCount">Number of Exercises (1–10):</label>
@@ -1223,14 +1223,14 @@
                 </div>
                 <div class="header-actions">
                     <div class="zoom-controls">
-                        <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                        <button id="zoomOutBtn" class="zoom-btn" data-translate-title="zoomOut" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
                         <span id="zoomPercentage" class="zoom-percentage">100%</span>
-                        <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
-                        <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                        <button id="zoomInBtn" class="zoom-btn" data-translate-title="zoomIn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+                        <button id="zoomResetBtn" class="zoom-btn" data-translate-title="zoomReset" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
                     </div>
                     <div class="history-controls">
-                        <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
-                        <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+                        <button id="undoBtn" class="history-btn" data-translate-title="undo" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+                        <button id="redoBtn" class="history-btn" data-translate-title="redo" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
                     </div>
                     <div class="dropdown-container">
                         <button id="generateDropdownBtn" class="action-button accent"><span data-translate="generate">Generate</span> <i class="fas fa-caret-down"></i></button>
@@ -1324,6 +1324,12 @@
       document.querySelectorAll('[data-translate-placeholder]').forEach(el => {
         const key = el.getAttribute('data-translate-placeholder');
         if (key) el.placeholder = t(key);
+      });
+
+      // Translate title attributes
+      document.querySelectorAll('[data-translate-title]').forEach(el => {
+        const key = el.getAttribute('data-translate-title');
+        if (key) el.title = t(key);
       });
     }
 

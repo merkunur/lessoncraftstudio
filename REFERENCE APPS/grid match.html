@@ -820,8 +820,8 @@
             </div>
             <div class="panel-content">
                 <div class="accordion-item">
-                    <button class="accordion-button active" data-translate="pageSetup">Page Setup</button>
-                    <div class="accordion-content active">
+                    <button class="accordion-button" data-translate="pageSetup">Page Setup</button>
+                    <div class="accordion-content">
                         <h4 data-translate="language">Language</h4>
                         <label for="languageSelect" data-translate="imageLibraryLanguage">Image Library Language:</label>
                         <select id="languageSelect">
@@ -838,16 +838,19 @@
                             <option value="fi">Suomi</option>
                         </select>
 
-                        <h4 data-translate="header">Header</h4>
-                        <label class="checkbox-label">
-                            <input type="checkbox" id="showHeaderCheckbox" checked>
-                            <span data-translate="showHeader">Show Header</span>
-                        </label>
-                        <div id="headerControls" style="display: block;">
-                            <label for="headerTitleInput" data-translate="headerTitle">Header Title:</label>
-                            <input type="text" id="headerTitleInput" placeholder="Grid Match!" data-translate-placeholder="gridMatchTitle">
-                            <label for="headerDescriptionInput" data-translate="headerDescription">Header Description:</label>
-                            <textarea id="headerDescriptionInput" rows="2" placeholder="Match the pieces to complete the picture!" data-translate-placeholder="gridMatchDesc"></textarea>
+                        <!-- Header section hidden - not needed in sidebar -->
+                        <div style="display: none;">
+                            <h4 data-translate="header">Header</h4>
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="showHeaderCheckbox" checked>
+                                <span data-translate="showHeader">Show Header</span>
+                            </label>
+                            <div id="headerControls" style="display: block;">
+                                <label for="headerTitleInput" data-translate="headerTitle">Header Title:</label>
+                                <input type="text" id="headerTitleInput" placeholder="Grid Match!" data-translate-placeholder="gridMatchTitle">
+                                <label for="headerDescriptionInput" data-translate="headerDescription">Header Description:</label>
+                                <textarea id="headerDescriptionInput" rows="2" placeholder="Match the pieces to complete the picture!" data-translate-placeholder="gridMatchDesc"></textarea>
+                            </div>
                         </div>
 
                         <h4 data-translate="page">Page</h4>
@@ -969,7 +972,7 @@
             <div id="object-context-toolbar" style="display:none;">
                 <div class="toolbar-group">
                     <div class="toolbar-item">
-                        <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
+                        <button class="context-btn" id="layersBtn" data-title-translate="toolbar.layers" title="Layers"><i class="fas fa-layer-group"></i></button>
                         <div class="dropdown-content" id="layersDropdown">
                             <button id="toolbarBringToFrontBtn" data-translate="toolbar.bring.to.front">Bring to Front</button>
                             <button id="toolbarBringForwardBtn" data-translate="toolbar.bring.forward">Bring Forward</button>
@@ -980,30 +983,30 @@
                 </div>
                 <div class="toolbar-group">
                     <div class="toolbar-item">
-                        <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
+                        <button class="context-btn" id="alignBtn" data-title-translate="toolbar.align" title="Align"><i class="fas fa-th"></i></button>
                         <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
                             <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.selected">Align Selected:</p>
                             <div>
-                                <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
-                                <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
-                                <button class="context-btn" id="alignRightBtn" title="Align Right"><i class="fas fa-align-right"></i></button>
+                                <button class="context-btn" id="alignLeftBtn" data-title-translate="toolbar.align.left" title="Align Left"><i class="fas fa-align-left"></i></button>
+                                <button class="context-btn" id="alignHCenterBtn" data-title-translate="toolbar.center.h" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                                <button class="context-btn" id="alignRightBtn" data-title-translate="toolbar.align.right" title="Align Right"><i class="fas fa-align-right"></i></button>
                             </div>
                             <div style="margin-top: 5px;">
-                                <button class="context-btn" id="alignTopBtn" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
-                                <button class="context-btn" id="alignVCenterBtn" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
-                                <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                                <button class="context-btn" id="alignTopBtn" data-title-translate="toolbar.align.top" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                                <button class="context-btn" id="alignVCenterBtn" data-title-translate="toolbar.center.v" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
+                                <button class="context-btn" id="alignBottomBtn" data-title-translate="toolbar.align.bottom" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
                             </div>
                             <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
                             <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.to.page">Align to Page:</p>
                             <div>
-                                <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
-                                <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                                <button class="context-btn" id="centerHCanvasBtn" data-title-translate="toolbar.center.page.h" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                                <button class="context-btn" id="centerVCanvasBtn" data-title-translate="toolbar.center.page.v" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="toolbar-group">
-                    <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
+                    <button class="context-btn" id="toolbarDeleteBtn" data-title-translate="toolbar.delete" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
                 </div>
             </div>
 
@@ -1014,14 +1017,14 @@
                 </div>
                 <div class="header-actions">
                     <div class="zoom-controls">
-                        <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                        <button id="zoomOutBtn" class="zoom-btn" data-title-translate="zoom.out" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
                         <span id="zoomPercentage" class="zoom-percentage">100%</span>
-                        <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
-                        <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                        <button id="zoomInBtn" class="zoom-btn" data-title-translate="zoom.in" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+                        <button id="zoomResetBtn" class="zoom-btn" data-title-translate="zoom.reset" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
                     </div>
                     <div class="history-controls">
-                        <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
-                        <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+                        <button id="undoBtn" class="history-btn" data-title-translate="undo" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+                        <button id="redoBtn" class="history-btn" data-title-translate="redo" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
                     </div>
                     <div class="dropdown-container">
                         <button id="generateDropdownBtn" class="action-button accent"><span data-translate="gridmatch.generate">Generate</span> <i class="fas fa-caret-down"></i></button>
@@ -3488,6 +3491,14 @@ async function downloadPDF(canvasToExport, filename) {
                         // For all other elements, update text content
                         element.textContent = t[key];
                     }
+                }
+            });
+
+            // Translate title attributes (tooltips)
+            document.querySelectorAll('[data-title-translate]').forEach(element => {
+                const key = element.getAttribute('data-title-translate');
+                if (key && t[key]) {
+                    element.title = t[key];
                 }
             });
         }

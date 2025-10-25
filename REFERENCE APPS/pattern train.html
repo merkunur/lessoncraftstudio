@@ -898,8 +898,8 @@
       </div>
       <div class="panel-content">
         <div class="accordion-item">
-            <button class="accordion-button active" data-translate="pattern.train.page.setup">Page Setup</button>
-            <div class="accordion-content active">
+            <button class="accordion-button" data-translate="pattern.train.page.setup">Page Setup</button>
+            <div class="accordion-content">
                 <label for="languageSelect" data-translate="pattern.train.language.label">Language:</label>
                 <select id="languageSelect">
                     <option value="en" data-translate="language.english">English</option>
@@ -1063,41 +1063,41 @@
         <div id="object-context-toolbar" style="display:none;">
             <div class="toolbar-group">
                 <div class="toolbar-item">
-                    <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
+                    <button class="context-btn" id="layersBtn" data-translate-title="toolbar.layers" title="Layers"><i class="fas fa-layer-group"></i></button>
                     <div class="dropdown-content" id="layersDropdown">
-                        <button id="toolbarBringToFrontBtn" data-translate="bringToFront">Bring to Front</button>
-                        <button id="toolbarBringForwardBtn" data-translate="bringForward">Bring Forward</button>
-                        <button id="toolbarSendBackwardBtn" data-translate="sendBackward">Send Backward</button>
-                        <button id="toolbarSendToBackBtn" data-translate="sendToBack">Send to Back</button>
+                        <button id="toolbarBringToFrontBtn" data-translate="toolbar.bring.to.front">Bring to Front</button>
+                        <button id="toolbarBringForwardBtn" data-translate="toolbar.bring.forward">Bring Forward</button>
+                        <button id="toolbarSendBackwardBtn" data-translate="toolbar.send.backward">Send Backward</button>
+                        <button id="toolbarSendToBackBtn" data-translate="toolbar.send.to.back">Send to Back</button>
                     </div>
                 </div>
             </div>
             <div class="toolbar-group">
                 <div class="toolbar-item">
-                    <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
+                    <button class="context-btn" id="alignBtn" data-translate-title="toolbar.align" title="Align"><i class="fas fa-th"></i></button>
                     <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
                         <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.selected">Align Selected:</p>
                         <div>
-                            <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
-                            <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
-                            <button class="context-btn" id="alignRightBtn" title="Align Right"><i class="fas fa-align-right"></i></button>
+                            <button class="context-btn" id="alignLeftBtn" data-translate-title="toolbar.align.left" title="Align Left"><i class="fas fa-align-left"></i></button>
+                            <button class="context-btn" id="alignHCenterBtn" data-translate-title="toolbar.center.h" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                            <button class="context-btn" id="alignRightBtn" data-translate-title="toolbar.align.right" title="Align Right"><i class="fas fa-align-right"></i></button>
                         </div>
                         <div style="margin-top: 5px;">
-                            <button class="context-btn" id="alignTopBtn" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
-                            <button class="context-btn" id="alignVCenterBtn" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
-                            <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                            <button class="context-btn" id="alignTopBtn" data-translate-title="toolbar.align.top" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                            <button class="context-btn" id="alignVCenterBtn" data-translate-title="toolbar.center.v" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
+                            <button class="context-btn" id="alignBottomBtn" data-translate-title="toolbar.align.bottom" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
                         </div>
                         <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
                         <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.to.page">Align to Page:</p>
                         <div>
-                            <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
-                            <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                            <button class="context-btn" id="centerHCanvasBtn" data-translate-title="toolbar.center.page.h" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                            <button class="context-btn" id="centerVCanvasBtn" data-translate-title="toolbar.center.page.v" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="toolbar-group">
-                <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
+                <button class="context-btn" id="toolbarDeleteBtn" data-translate-title="toolbar.delete" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
             </div>
         </div>
 
@@ -1108,14 +1108,14 @@
             </div>
             <div class="header-actions">
                 <div class="zoom-controls">
-                    <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                    <button id="zoomOutBtn" class="zoom-btn" data-translate-title="zoomOut" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
                     <span id="zoomPercentage" class="zoom-percentage">100%</span>
-                    <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
-                    <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                    <button id="zoomInBtn" class="zoom-btn" data-translate-title="zoomIn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+                    <button id="zoomResetBtn" class="zoom-btn" data-translate-title="zoomReset" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
                 </div>
                 <div class="history-controls">
-                    <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
-                    <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+                    <button id="undoBtn" class="history-btn" data-translate-title="undo" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+                    <button id="redoBtn" class="history-btn" data-translate-title="redo" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
                 </div>
                 <div class="dropdown-container">
                     <button id="generateDropdownBtn" class="action-button accent"><span data-translate="pattern.train.generate">Generate</span> <i class="fas fa-caret-down"></i></button>
@@ -1204,6 +1204,12 @@
       document.querySelectorAll('[data-translate-placeholder]').forEach(el => {
         const key = el.getAttribute('data-translate-placeholder');
         if (key) el.placeholder = t(key);
+      });
+
+      // Translate title attributes
+      document.querySelectorAll('[data-translate-title]').forEach(el => {
+        const key = el.getAttribute('data-translate-title');
+        if (key) el.title = t(key);
       });
     }
 
@@ -1321,11 +1327,7 @@
             content.classList.toggle('active');
         });
     });
-    const pageSetupAccordionButton = document.querySelector('.accordion-item .accordion-button');
-    if (pageSetupAccordionButton && !pageSetupAccordionButton.classList.contains('active')) {
-         pageSetupAccordionButton.classList.add('active');
-         pageSetupAccordionButton.nextElementSibling.classList.add('active');
-    }
+    // Accordions start closed - removed auto-open code
 
     function showMessage(msg, type = 'info', duration = 3000) {
         messageEl.textContent = msg;

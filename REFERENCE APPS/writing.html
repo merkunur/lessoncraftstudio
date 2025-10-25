@@ -194,6 +194,43 @@
         background-color: #cccccc !important; color: #888888 !important;
         border-color: #cccccc !important; cursor: not-allowed;
       }
+      /* Zoom Controls */
+      .zoom-controls {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background-color: var(--app-surface-light);
+        border: 1px solid var(--app-border-light);
+        border-radius: 6px;
+        padding: 5px 10px;
+      }
+      .zoom-btn {
+        background: transparent;
+        border: 1px solid var(--app-border-light);
+        border-radius: 4px;
+        padding: 6px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        color: var(--app-text-primary-light-theme);
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .zoom-btn:hover {
+        background-color: #e8e8ed;
+        border-color: var(--app-border-light);
+      }
+      .zoom-btn:active {
+        background-color: #d8d8dd;
+      }
+      .zoom-percentage {
+        font-size: 13px;
+        font-weight: 600;
+        min-width: 50px;
+        text-align: center;
+        color: var(--app-text-primary-light-theme);
+      }
       /* New Dropdown Styles */
       .dropdown-container { position: relative; display: inline-block; }
       .dropdown-content {
@@ -229,7 +266,7 @@
         background-color: var(--app-surface-light);
         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         border-radius: 8px;
-        overflow: visible;
+        overflow: hidden;
         margin: auto;
         display: inline-block;
         /* Wrapper will size to fit the worksheet */
@@ -238,7 +275,7 @@
       #worksheet {
         position: relative;
         background-color: white;
-        transform-origin: center center;
+        transform-origin: top left;
         display: block;
         /* Width, height, and transform scale set dynamically by JavaScript */
       }
@@ -2320,6 +2357,12 @@
         </div>
 
         <div class="top-right-actions">
+            <div class="zoom-controls">
+                <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out" data-translate-title="toolbar.zoomOut"><i class="fas fa-search-minus"></i></button>
+                <span id="zoomPercentage" class="zoom-percentage">100%</span>
+                <button id="zoomInBtn" class="zoom-btn" title="Zoom In" data-translate-title="toolbar.zoomIn"><i class="fas fa-search-plus"></i></button>
+                <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom" data-translate-title="toolbar.resetZoom"><i class="fas fa-compress-arrows-alt"></i></button>
+            </div>
             <button id="addRowBtn" class="action-button accent" data-translate="button.addRow"><i class="fas fa-pen-square"></i> Add Row</button>
             <div class="dropdown-container">
                 <button id="downloadDropdownBtn" class="action-button secondary" data-translate="button.download">Download <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
@@ -2754,6 +2797,11 @@ console.log('[INIT] worksheetEl:', worksheetEl);
 const rowsContainer = document.getElementById('rowsContainer');
 const rowTpl        = document.getElementById('rowTpl').content;
 const addRowBtn     = document.getElementById('addRowBtn');
+const zoomInBtn     = document.getElementById('zoomInBtn');
+const zoomOutBtn    = document.getElementById('zoomOutBtn');
+const zoomResetBtn  = document.getElementById('zoomResetBtn');
+const zoomPercentage = document.getElementById('zoomPercentage');
+let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
 const exerciseImageMode = document.getElementById('exerciseImageMode');
 const customImageMode = document.getElementById('customImageMode');
 const exerciseImageSection = document.getElementById('exerciseImageSection');
@@ -3235,9 +3283,9 @@ function addSelectedCustomImageToWorksheet() {
 }
 
 function addNewRowControl() {
-    const defaultRowHeight = vhToPixels(4.48);
     const worksheetWidth = worksheetEl.clientWidth;
     const worksheetHeight = worksheetEl.clientHeight;
+    const defaultRowHeight = worksheetHeight * 0.0448; // 4.48% of worksheet height (maintains aspect ratio across all screen sizes)
     const rowWidth = worksheetWidth * 0.9;
 
     // Calculate center position for the new row
@@ -3754,9 +3802,70 @@ function updateWorksheetDisplayScaling(width, height) {
 
     // Apply the final scale
     const finalScale = displayScale * scaleRatio;
-    worksheetEl.style.transform = `scale(${finalScale})`;
 
-    console.log('[Writing App] Worksheet scaled to:', finalScale, 'Available space:', availableWidth, 'x', availableHeight);
+    // Apply user zoom level
+    const finalScaleWithZoom = finalScale * userZoomLevel;
+
+    // Calculate the visual dimensions after scaling and zoom
+    const visualWidth = width * finalScaleWithZoom;
+    const visualHeight = height * finalScaleWithZoom;
+
+    // Keep worksheet at original dimensions (preserves font alignment)
+    worksheetEl.style.width = `${width}px`;
+    worksheetEl.style.height = `${height}px`;
+
+    // Apply scale transform with zoom and top-left origin (prevents overflow)
+    worksheetEl.style.transformOrigin = 'top left';
+    worksheetEl.style.transform = `scale(${finalScaleWithZoom})`;
+
+    // Size the wrapper to match visual dimensions
+    const wrapper = document.querySelector('.canvas-container-wrapper');
+    if (wrapper) {
+        wrapper.style.width = `${visualWidth}px`;
+        wrapper.style.height = `${visualHeight}px`;
+        wrapper.style.overflow = 'hidden'; // Ensure no overflow
+    }
+
+    console.log('[Writing App] Worksheet scaled to:', finalScaleWithZoom, '(base:', finalScale, 'zoom:', userZoomLevel + 'x)', 'Visual size:', visualWidth, 'x', visualHeight, 'Available space:', availableWidth, 'x', availableHeight);
+}
+
+// --- ZOOM FUNCTIONS ---
+function updateZoomDisplay() {
+    const percentage = Math.round(userZoomLevel * 100);
+    zoomPercentage.textContent = `${percentage}%`;
+}
+
+function zoomIn() {
+    // Increase zoom by 25%, max 300%
+    userZoomLevel = Math.min(userZoomLevel + 0.25, 3.0);
+    updateZoomDisplay();
+    const widthPx = parseFloat(worksheetEl.style.width);
+    const heightPx = parseFloat(worksheetEl.style.height);
+    if (widthPx && heightPx) {
+        updateWorksheetDisplayScaling(widthPx, heightPx);
+    }
+}
+
+function zoomOut() {
+    // Decrease zoom by 25%, min 25%
+    userZoomLevel = Math.max(userZoomLevel - 0.25, 0.25);
+    updateZoomDisplay();
+    const widthPx = parseFloat(worksheetEl.style.width);
+    const heightPx = parseFloat(worksheetEl.style.height);
+    if (widthPx && heightPx) {
+        updateWorksheetDisplayScaling(widthPx, heightPx);
+    }
+}
+
+function zoomReset() {
+    // Reset to 100%
+    userZoomLevel = 1.0;
+    updateZoomDisplay();
+    const widthPx = parseFloat(worksheetEl.style.width);
+    const heightPx = parseFloat(worksheetEl.style.height);
+    if (widthPx && heightPx) {
+        updateWorksheetDisplayScaling(widthPx, heightPx);
+    }
 }
 
 function renderWorksheet(options = {}){
@@ -3970,7 +4079,7 @@ function createRowFromState(state) {
         img.classList.add(fontClass);
 
         if (currentFontStyle.includes('tracing')) {
-            img.style.filter = 'grayscale(100%) brightness(0) contrast(100%) drop-shadow(0 0 0.1px black)';
+            img.style.filter = 'grayscale(100%) brightness(0.2) contrast(100%) drop-shadow(0 0 0.8px rgba(0,0,0,0.6)) drop-shadow(0 0 0.4px rgba(0,0,0,0.4))';
         }
 
         if (svgCase === 'lowercase') {
@@ -4143,7 +4252,7 @@ function updateContextualToolbar() {
 
         const lockIconEl = document.getElementById('lockIcon');
         lockIconEl.className = `fas ${isLocked ? 'fa-lock' : 'fa-lock-open'}`;
-        lockBtn.title = isLocked ? 'Unlock' : 'Lock';
+        lockBtn.title = isLocked ? t('toolbar.unlock') : t('toolbar.lock');
 
         document.querySelectorAll('#object-context-toolbar .context-btn:not(#lockBtn)').forEach(btn => {
             btn.disabled = isLocked;
@@ -4473,6 +4582,11 @@ function applyTranslations() {
         element.placeholder = t(key);
     });
 
+    document.querySelectorAll('[data-translate-title]').forEach(element => {
+        const key = element.getAttribute('data-translate-title');
+        element.setAttribute('title', t(key));
+    });
+
     const titleElement = document.querySelector('title[data-translate]');
     if (titleElement) {
         const key = titleElement.getAttribute('data-translate');
@@ -4519,6 +4633,12 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     document.getElementById('downloadPdfBtn').addEventListener('click', () => downloadFile('pdf'));
     document.getElementById('downloadJpegBtn').addEventListener('click', () => downloadFile('jpeg'));
+
+    // Zoom Controls
+    zoomInBtn.addEventListener('click', zoomIn);
+    zoomOutBtn.addEventListener('click', zoomOut);
+    zoomResetBtn.addEventListener('click', zoomReset);
+
     document.addEventListener('click', (e) => {
         if (downloadDropdownBtn && !downloadDropdownBtn.contains(e.target)) {
             downloadDropdownContent.style.display = 'none';
@@ -4802,9 +4922,9 @@ window.addEventListener('resize', renderWorksheet);
             await new Promise(resolve => setTimeout(resolve, 500));
 
             // Calculate dimensions like addNewRowControl does
-            const defaultRowHeight = vhToPixels(4.48);
             const worksheetWidth = worksheetEl.clientWidth;
             const worksheetHeight = worksheetEl.clientHeight;
+            const defaultRowHeight = worksheetHeight * 0.0448; // 4.48% of worksheet height (maintains aspect ratio across all screen sizes)
             const rowWidth = worksheetWidth * 0.9;
             const centerX = (worksheetWidth - rowWidth) / 2;
 
@@ -4817,7 +4937,7 @@ window.addEventListener('resize', renderWorksheet);
             const spacing = (availableHeight - totalRowsHeight) / 4; // spacing between rows
             const startY = imageBottomY + spacing;
 
-            // Add Row 1: Trace, Print Tracing Arrow, Beginning Letter, Lower Case
+            // Add Row 1: Trace, Print Regular, Beginning Letter, Lower Case
             blocksState.push({
                 id: blockIdCounter++,
                 type: 'row',
@@ -4829,7 +4949,7 @@ window.addEventListener('resize', renderWorksheet);
                 locked: false,
                 rowConfig: {
                     mode: 'trace',
-                    fontStyle: 'print/tracing arrow',
+                    fontStyle: 'print/regular',
                     content: 'beginning',
                     case: 'lowercase',
                     strokeType: 'vertical',
@@ -4839,7 +4959,7 @@ window.addEventListener('resize', renderWorksheet);
                 }
             });
 
-            // Add Row 2: Trace, Print Tracing, Beginning Letter, Lower Case
+            // Add Row 2: Trace, Print Tracing, Beginning Letter, Uppercase
             blocksState.push({
                 id: blockIdCounter++,
                 type: 'row',
@@ -4853,7 +4973,7 @@ window.addEventListener('resize', renderWorksheet);
                     mode: 'trace',
                     fontStyle: 'print/tracing',
                     content: 'beginning',
-                    case: 'lowercase',
+                    case: 'uppercase',
                     strokeType: 'vertical',
                     customText: '',
                     letterCount: null,
@@ -4861,7 +4981,7 @@ window.addEventListener('resize', renderWorksheet);
                 }
             });
 
-            // Add Row 3: Fading Trace, Print Tracing, Beginning Letter, Lower Case
+            // Add Row 3: Trace, Print Tracing, Whole File Name, Lower Case
             blocksState.push({
                 id: blockIdCounter++,
                 type: 'row',
@@ -4872,9 +4992,9 @@ window.addEventListener('resize', renderWorksheet);
                 zIndex: highestZ++,
                 locked: false,
                 rowConfig: {
-                    mode: 'fading-trace',
+                    mode: 'trace',
                     fontStyle: 'print/tracing',
-                    content: 'beginning',
+                    content: 'filename',
                     case: 'lowercase',
                     strokeType: 'vertical',
                     customText: '',

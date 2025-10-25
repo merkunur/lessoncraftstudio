@@ -891,10 +891,10 @@
                 <button class="accordion-button" data-translate="findobjects.object.selection">Object Selection</button>
                 <div class="accordion-content">
                     <!-- Activity Mode Selector -->
-                    <label for="activityModeSelect">Activity Mode:</label>
+                    <label for="activityModeSelect" data-translate="activityMode.label">Activity Mode:</label>
                     <select id="activityModeSelect">
-                        <option value="ispy" selected>I Spy - Find Hidden Objects</option>
-                        <option value="oddoneout">Odd One Out - Find Unpaired Images</option>
+                        <option value="ispy" selected data-translate="activityMode.ispy">I Spy - Find Hidden Objects</option>
+                        <option value="oddoneout" data-translate="activityMode.oddoneout">Odd One Out - Find Unpaired Images</option>
                     </select>
 
                     <!-- I Spy Mode Controls -->
@@ -917,33 +917,33 @@
 
                     <!-- Odd One Out Mode Controls -->
                     <div id="oddOneOutModeControls" style="display: none;">
-                        <h4>Pairs</h4>
-                        <label for="pairsCountSelect">Number of Pairs:</label>
+                        <h4 data-translate="oddoneout.pairs.heading">Pairs</h4>
+                        <label for="pairsCountSelect" data-translate="oddoneout.pairs.count.label">Number of Pairs:</label>
                         <select id="pairsCountSelect">
-                            <option value="8">8 pairs (16 images)</option>
-                            <option value="9">9 pairs (18 images)</option>
-                            <option value="10" selected>10 pairs (20 images)</option>
-                            <option value="11">11 pairs (22 images)</option>
-                            <option value="12">12 pairs (24 images)</option>
+                            <option value="8" data-translate="oddoneout.pairs.count.8">8 pairs (16 images)</option>
+                            <option value="9" data-translate="oddoneout.pairs.count.9">9 pairs (18 images)</option>
+                            <option value="10" selected data-translate="oddoneout.pairs.count.10">10 pairs (20 images)</option>
+                            <option value="11" data-translate="oddoneout.pairs.count.11">11 pairs (22 images)</option>
+                            <option value="12" data-translate="oddoneout.pairs.count.12">12 pairs (24 images)</option>
                         </select>
 
-                        <label for="pairsThemeSelect">Or Select Theme for Pairs:</label>
+                        <label for="pairsThemeSelect" data-translate="oddoneout.pairs.theme.label">Or Select Theme for Pairs:</label>
                         <select id="pairsThemeSelect">
-                            <option value="" selected>-- No Theme (Use Manual Selection) --</option>
+                            <option value="" selected data-translate="oddoneout.theme.manual">-- No Theme (Use Manual Selection) --</option>
                         </select>
                         <div class="selected-items" id="pairsItems"></div>
 
-                        <h4 style="margin-top: 20px;">Odd Images (Unpaired)</h4>
-                        <label for="oddImagesCountSelect">Number of Odd Images:</label>
+                        <h4 style="margin-top: 20px;" data-translate="oddoneout.odd.images.heading">Odd Images (Unpaired)</h4>
+                        <label for="oddImagesCountSelect" data-translate="oddoneout.odd.images.count.label">Number of Odd Images:</label>
                         <select id="oddImagesCountSelect">
-                            <option value="1">1 odd image</option>
-                            <option value="2" selected>2 odd images</option>
-                            <option value="3">3 odd images</option>
+                            <option value="1" data-translate="oddoneout.odd.count.1">1 odd image</option>
+                            <option value="2" selected data-translate="oddoneout.odd.count.2">2 odd images</option>
+                            <option value="3" data-translate="oddoneout.odd.count.3">3 odd images</option>
                         </select>
 
-                        <label for="oddImagesThemeSelect">Or Select Theme for Odd Images:</label>
+                        <label for="oddImagesThemeSelect" data-translate="oddoneout.odd.images.theme.label">Or Select Theme for Odd Images:</label>
                         <select id="oddImagesThemeSelect">
-                            <option value="" selected>-- No Theme (Use Manual Selection) --</option>
+                            <option value="" selected data-translate="oddoneout.theme.manual">-- No Theme (Use Manual Selection) --</option>
                         </select>
                         <div class="selected-items" id="oddImagesItems"></div>
                     </div>
@@ -961,7 +961,7 @@
       <div id="object-context-toolbar" style="display:none;">
           <div class="toolbar-group">
               <div class="toolbar-item">
-                  <button class="context-btn" id="layersBtn" title="Layers"><i class="fas fa-layer-group"></i></button>
+                  <button class="context-btn" id="layersBtn" data-title-translate="toolbar.layers" title="Layers"><i class="fas fa-layer-group"></i></button>
                   <div class="dropdown-content" id="layersDropdown">
                        <button id="toolbarBringToFrontBtn" data-translate="bringToFront">Bring to Front</button>
                        <button id="toolbarBringForwardBtn" data-translate="bringForward">Bring Forward</button>
@@ -972,30 +972,30 @@
           </div>
           <div class="toolbar-group">
               <div class="toolbar-item">
-                  <button class="context-btn" id="alignBtn" title="Align"><i class="fas fa-th"></i></button>
+                  <button class="context-btn" id="alignBtn" data-title-translate="toolbar.align" title="Align"><i class="fas fa-th"></i></button>
                   <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
-                       <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="findobjects.align.selected">Align Selected:</p>
+                       <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.selected">Align Selected:</p>
                        <div>
-                           <button class="context-btn" id="alignLeftBtn" title="Align Left"><i class="fas fa-align-left"></i></button>
-                           <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
-                           <button class="context-btn" id="alignRightBtn" title="Align Right"><i class="fas fa-align-right"></i></button>
+                           <button class="context-btn" id="alignLeftBtn" data-title-translate="toolbar.alignLeft" title="Align Left"><i class="fas fa-align-left"></i></button>
+                           <button class="context-btn" id="alignHCenterBtn" data-title-translate="toolbar.centerH" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                           <button class="context-btn" id="alignRightBtn" data-title-translate="toolbar.alignRight" title="Align Right"><i class="fas fa-align-right"></i></button>
                        </div>
                        <div style="margin-top: 5px;">
-                           <button class="context-btn" id="alignTopBtn" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
-                           <button class="context-btn" id="alignVCenterBtn" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
-                           <button class="context-btn" id="alignBottomBtn" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                           <button class="context-btn" id="alignTopBtn" data-title-translate="toolbar.alignTop" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                           <button class="context-btn" id="alignVCenterBtn" data-title-translate="toolbar.centerV" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
+                           <button class="context-btn" id="alignBottomBtn" data-title-translate="toolbar.alignBottom" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
                        </div>
                        <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
-                       <p style="font-size:11px; margin-bottom:5px; color:#555;">Align to Page:</p>
+                       <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.alignToPage">Align to Page:</p>
                        <div>
-                           <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
-                           <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                           <button class="context-btn" id="centerHCanvasBtn" data-title-translate="toolbar.centerPageH" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                           <button class="context-btn" id="centerVCanvasBtn" data-title-translate="toolbar.centerPageV" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
                        </div>
                   </div>
               </div>
           </div>
           <div class="toolbar-group">
-              <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
+              <button class="context-btn" id="toolbarDeleteBtn" data-title-translate="toolbar.delete" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
           </div>
       </div>
       <!-- Modern Unified Header -->
@@ -1006,14 +1006,14 @@
         </div>
         <div class="header-actions">
           <div class="zoom-controls">
-            <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+            <button id="zoomOutBtn" class="zoom-btn" data-title-translate="zoom.out" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
             <span id="zoomPercentage" class="zoom-percentage">100%</span>
-            <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
-            <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+            <button id="zoomInBtn" class="zoom-btn" data-title-translate="zoom.in" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+            <button id="zoomResetBtn" class="zoom-btn" data-title-translate="zoom.reset" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
           </div>
           <div class="history-controls">
-            <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
-            <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+            <button id="undoBtn" class="history-btn" data-title-translate="undo" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+            <button id="redoBtn" class="history-btn" data-title-translate="redo" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
           </div>
           <div class="dropdown-container">
             <button id="generateDropdownBtn" class="action-button accent"><span data-translate="findobjects.generate">Generate</span> <i class="fas fa-caret-down"></i></button>
@@ -1122,6 +1122,24 @@ function updateTranslations() {
                 element.placeholder = t(key);
             }
         });
+
+        // Translate title attributes (tooltips)
+        document.querySelectorAll('[data-title-translate]').forEach(element => {
+            const key = element.getAttribute('data-title-translate');
+            if (key && typeof t !== 'undefined') {
+                const translation = t(key);
+                if (translation && translation !== key) {
+                    element.title = translation;
+                }
+            }
+        });
+    }
+
+    // Wrapper function for unified-language-manager.js compatibility
+    // The unified-language-manager calls applyTranslations() when language changes
+    function applyTranslations() {
+        updateTranslations();
+        updateThemeOptions();
     }
 
     // Handle file input translation
@@ -1414,11 +1432,7 @@ function updateTranslations() {
         // --- Setup Functions ---
         function setupAccordions() {
             document.querySelectorAll('.accordion-button').forEach(button => {
-                // Initialize first few accordions as open
-                if (['Page & Scene', 'Text & Content', 'Image Library'].includes(button.textContent)) {
-                    button.classList.add('active');
-                    button.nextElementSibling.style.display = 'block';
-                }
+                // Accordions start closed - removed auto-open code
                 button.addEventListener('click', () => {
                     const content = button.nextElementSibling;
                     const isActive = button.classList.toggle('active');
@@ -2233,8 +2247,8 @@ function updateTranslations() {
                     {el: themeSelect, staticHtml: `<option value="all" data-translate="findobjects.themes.all">${t('findobjects.themes.all')}</option>`},
                     {el: distractorThemeSelect, staticHtml: `<option value="" data-translate="findobjects.no.theme.manual">${t('findobjects.no.theme.manual')}</option>`},
                     {el: hiddenObjectThemeSelect, staticHtml: `<option value="" data-translate="findobjects.no.theme.manual">${t('findobjects.no.theme.manual')}</option>`},
-                    {el: pairsThemeSelect, staticHtml: `<option value="">-- No Theme (Use Manual Selection) --</option>`},
-                    {el: oddImagesThemeSelect, staticHtml: `<option value="">-- No Theme (Use Manual Selection) --</option>`}
+                    {el: pairsThemeSelect, staticHtml: `<option value="" data-translate="oddoneout.theme.manual">${t('oddoneout.theme.manual')}</option>`},
+                    {el: oddImagesThemeSelect, staticHtml: `<option value="" data-translate="oddoneout.theme.manual">${t('oddoneout.theme.manual')}</option>`}
                 ];
                 
                 themeDropdowns.forEach(dd => {

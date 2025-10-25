@@ -626,6 +626,16 @@
                 <h4 style="margin-top:20px;" data-translate="puzzle.manualSelection">Or, Select 6 Images Manually:</h4>
                 <div id="selectedImagesPreview"></div>
                  <p class="selected-count" id="selectedCountMsg">Selected: 0 / 6</p>
+
+                <h4 style="margin-top:20px;" data-translate="puzzle.directionType">Direction Type:</h4>
+                <label for="directionTypeSelect" data-translate="puzzle.directionTypeLabel">Choose direction vocabulary:</label>
+                <select id="directionTypeSelect">
+                    <option value="basic" data-translate="puzzle.basicDirections">Up/Down/Left/Right (Pre-K to 1st Grade)</option>
+                    <option value="cardinal" data-translate="puzzle.cardinalDirections">North/South/East/West (2nd Grade+)</option>
+                </select>
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="puzzle.directionTypeDescription">
+                    Basic directions are age-appropriate for pre-schoolers and 1st graders. Cardinal directions are typically introduced in 2nd grade.
+                </p>
             </div>
         </div>
 
@@ -671,8 +681,8 @@
                   <button class="context-btn" id="layersBtn" data-translate-title="layers" title="Layers"><i class="fas fa-layer-group"></i></button>
                   <div class="dropdown-content" id="layersDropdown">
                       <button id="toolbarBringToFrontBtn" data-translate="bringToFront">Bring to Front</button>
-                      <button id="toolbarBringForwardBtn" data-translate="bringForward">Bring Forward</button>
-                      <button id="toolbarSendBackwardBtn" data-translate="sendBackward">Send Backward</button>
+                      <button id="toolbarBringForwardBtn" data-translate="toolbar.bringForward">Bring Forward</button>
+                      <button id="toolbarSendBackwardBtn" data-translate="toolbar.sendBackward">Send Backward</button>
                       <button id="toolbarSendToBackBtn" data-translate="sendToBack">Send to Back</button>
                   </div>
               </div>
@@ -703,7 +713,7 @@
               </div>
           </div>
           <div class="toolbar-group">
-              <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
+              <button class="context-btn" id="toolbarDeleteBtn" data-translate-title="toolbar.delete" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
           </div>
       </div>
 
@@ -714,14 +724,14 @@
         </div>
         <div class="header-actions">
           <div class="zoom-controls">
-            <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+            <button id="zoomOutBtn" class="zoom-btn" data-translate-title="zoomOut" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
             <span id="zoomPercentage" class="zoom-percentage">100%</span>
-            <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
-            <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+            <button id="zoomInBtn" class="zoom-btn" data-translate-title="zoomIn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+            <button id="zoomResetBtn" class="zoom-btn" data-translate-title="zoomReset" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
           </div>
           <div class="history-controls">
-            <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
-            <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+            <button id="undoBtn" class="history-btn" data-translate-title="undo" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+            <button id="redoBtn" class="history-btn" data-translate-title="redo" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
           </div>
           <div class="dropdown-container">
             <button id="generateDropdownBtn" class="action-button accent"><span data-translate="generate">Generate</span> <i class="fas fa-caret-down"></i></button>
@@ -949,6 +959,58 @@
               da: "vestpå",
               no: "vestover",
               fi: "länteen"
+          },
+          up: {
+              en: "up",
+              de: "nach oben",
+              fr: "vers le haut",
+              es: "arriba",
+              pt: "para cima",
+              it: "su",
+              nl: "omhoog",
+              sv: "uppåt",
+              da: "op",
+              no: "opp",
+              fi: "ylös"
+          },
+          down: {
+              en: "down",
+              de: "nach unten",
+              fr: "vers le bas",
+              es: "abajo",
+              pt: "para baixo",
+              it: "giù",
+              nl: "omlaag",
+              sv: "nedåt",
+              da: "ned",
+              no: "ned",
+              fi: "alas"
+          },
+          left: {
+              en: "left",
+              de: "nach links",
+              fr: "vers la gauche",
+              es: "a la izquierda",
+              pt: "para a esquerda",
+              it: "a sinistra",
+              nl: "naar links",
+              sv: "åt vänster",
+              da: "til venstre",
+              no: "til venstre",
+              fi: "vasemmalle"
+          },
+          right: {
+              en: "right",
+              de: "nach rechts",
+              fr: "vers la droite",
+              es: "a la derecha",
+              pt: "para a direita",
+              it: "a destra",
+              nl: "naar rechts",
+              sv: "åt höger",
+              da: "til højre",
+              no: "til høyre",
+              fi: "oikealle"
           },
           square: {
               en: "square",
@@ -2411,7 +2473,11 @@
       return [...arr].sort(() => 0.5 - Math.random()).slice(0, num);
     }
     function generateValidMoves(n, start) {
-      const dirs = ['north','south','east','west']; let pos = { ...start }; const moves = [];
+      // Get direction type from dropdown (cardinal = north/south/east/west, basic = up/down/left/right)
+      const directionType = document.getElementById('directionTypeSelect').value || 'basic';
+      const dirs = directionType === 'cardinal' ? ['north','south','east','west'] : ['up','down','left','right'];
+
+      let pos = { ...start }; const moves = [];
       for (let i = 0; i < n; i++) {
         for (let j = 0; j < 20; j++) {
           const dir = dirs[Math.floor(Math.random()*4)]; const steps = Math.floor(Math.random()*3)+1;
@@ -2445,7 +2511,14 @@
       while(lines.length<5) lines.push('...'); 
       return lines.slice(0,5);
     }
-    function applyMove(p, d, s) { if(d==='north')p.row-=s; if(d==='south')p.row+=s; if(d==='west')p.col-=s; if(d==='east')p.col+=s; return p; }
+    function applyMove(p, d, s) {
+      // Handle cardinal directions (north/south/east/west)
+      if(d==='north' || d==='up')p.row-=s;
+      if(d==='south' || d==='down')p.row+=s;
+      if(d==='west' || d==='left')p.col-=s;
+      if(d==='east' || d==='right')p.col+=s;
+      return p;
+    }
     function applyMoves(p, m) { m.forEach(move => p = applyMove(p, move.dir, move.steps)); return p; }
 
     async function getCanvasDataURL(canvasInstance, forPDF = false) {

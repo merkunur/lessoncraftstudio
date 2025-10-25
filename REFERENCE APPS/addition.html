@@ -968,8 +968,8 @@
       <div class="panel-content">
 
         <div class="accordion-item">
-            <button class="accordion-button active" data-translate="worksheetContentSettings">Worksheet Content Settings</button>
-            <div class="accordion-content active">
+            <button class="accordion-button" data-translate="worksheetContentSettings">Worksheet Content Settings</button>
+            <div class="accordion-content">
                 <label for="languageSelect" data-translate="worksheetContentLanguage">Worksheet Content Language:</label>
                 <select id="languageSelect">
                     <option value="en">English</option>
@@ -989,7 +989,7 @@
 
         <div class="accordion-item">
             <button class="accordion-button" data-translate="pageSetup">Page Setup</button>
-            <div class="accordion-content active">
+            <div class="accordion-content">
                 <label for="pageSizeSelect" data-translate="pageSize">Page Size:</label>
                 <select id="pageSizeSelect">
                     <option value="612x792" data-translate="letterPortrait">Letter Portrait (612×792)</option>
@@ -1059,13 +1059,13 @@
         <div class="accordion-item">
             <button class="accordion-button" data-translate="exerciseConfiguration">Exercise Configuration</button>
             <div class="accordion-content">
-                <h4 style="margin-top: 0;">Exercise Mode</h4>
-                <label for="exerciseMode">Select Mode:</label>
+                <h4 style="margin-top: 0;" data-translate="exerciseMode">Exercise Mode</h4>
+                <label for="exerciseMode" data-translate="selectMode">Select Mode:</label>
                 <select id="exerciseMode">
-                    <option value="image-image">Image + Image</option>
-                    <option value="image-number">Image + Number</option>
-                    <option value="find-addend">Find Addend (A + ? = C)</option>
-                    <option value="mixed">Mixed (Image-Number + Find Addend)</option>
+                    <option value="image-image" data-translate="modeImageImage">Image + Image</option>
+                    <option value="image-number" data-translate="modeImageNumber">Image + Number</option>
+                    <option value="find-addend" data-translate="modeFindAddend">Find Addend</option>
+                    <option value="mixed" data-translate="modeMixed">Mixed Mode</option>
                 </select>
 
                 <label for="problemCount" data-translate="numberOfExercises">Number of Exercises (1–10):</label>
@@ -1194,16 +1194,16 @@
         <div class="header-actions">
           <!-- Zoom Controls -->
           <div class="zoom-controls">
-            <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+            <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out" data-translate-title="zoomOut"><i class="fas fa-search-minus"></i></button>
             <span id="zoomPercentage" class="zoom-percentage">100%</span>
-            <button id="zoomInBtn" class="zoom-btn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
-            <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+            <button id="zoomInBtn" class="zoom-btn" title="Zoom In" data-translate-title="zoomIn"><i class="fas fa-search-plus"></i></button>
+            <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom" data-translate-title="resetZoom"><i class="fas fa-compress-arrows-alt"></i></button>
           </div>
 
           <!-- History Controls -->
           <div class="history-controls">
-            <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
-            <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+            <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" data-translate-title="undo" disabled><i class="fas fa-undo"></i></button>
+            <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" data-translate-title="redo" disabled><i class="fas fa-redo"></i></button>
           </div>
 
           <!-- Generate Dropdown -->
@@ -3076,18 +3076,15 @@
             }
 
             if (exerciseMode === 'find-addend') {
-                // Find addend mode: Show ? for second operand
-                const questionMark = new fabric.Text("?", {
-                    left: currentX,
-                    top: imageSize / 2,
-                    originY: 'center',
-                    fontSize: textFontSize * 2,  // Make question mark larger
-                    fontFamily: 'Fredoka',
-                    fill: '#FF6B6B',  // Use red/pink color for emphasis
-                    fontWeight: 'bold'
+                // Find addend mode: Show writing line for second operand
+                const writingLineWidth = 50;  // Width of the writing line
+                const writingLine = new fabric.Line([currentX, imageSize/2 + textFontSize/2 + 2, currentX + writingLineWidth, imageSize/2 + textFontSize/2 + 2], {
+                    stroke: '#333',
+                    strokeWidth: 2,
+                    isAnswerLine: true
                 });
-                exerciseRowElements.push(questionMark);
-                currentX += (questionMark.width || 30) + itemPadding * 2;
+                exerciseRowElements.push(writingLine);
+                currentX += writingLineWidth + itemPadding * 2;
 
                 // Show child-friendly equals sign with circular background
                 const equalsCircleSize = textFontSize * 1.8;

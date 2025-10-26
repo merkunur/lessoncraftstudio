@@ -314,23 +314,24 @@ export default function BlogPageClient({ locale, translations: t }: BlogPageClie
                 {Math.min(currentPage * POSTS_PER_PAGE, filteredPosts.length)} {t.pagination.of} {filteredPosts.length} {t.pagination.posts}
               </div>
 
-              {/* Posts grid */}
-              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {/* Posts grid - matching homepage worksheet sample card styling */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
                 {getPaginatedPosts().map((post) => (
                   <article
                     key={post.slug}
-                    className="bg-white rounded-lg shadow-sm hover:shadow-lg transition-shadow overflow-hidden"
+                    className="bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer transform transition-transform duration-300 hover:scale-105 hover:shadow-xl"
                   >
                     <Link href={`/${locale}/blog/${post.slug}`}>
-                      <div className="aspect-w-16 aspect-h-9 bg-gray-200">
+                      {/* Image - matching 4:3 aspect ratio from worksheet samples */}
+                      <div className="aspect-[4/3] bg-gray-100 overflow-hidden">
                         {post.featuredImage ? (
                           <img
                             src={post.featuredImage}
                             alt={post.title}
-                            className="w-full h-48 object-cover"
+                            className="w-full h-full object-cover"
                           />
                         ) : (
-                          <div className="w-full h-48 bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
+                          <div className="w-full h-full bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
                             {post.hasSampleWorksheets ? (
                               <div className="text-center">
                                 <span className="text-6xl opacity-50">📄</span>
@@ -343,28 +344,24 @@ export default function BlogPageClient({ locale, translations: t }: BlogPageClie
                         )}
                       </div>
 
-                      <div className="p-6">
-                        <div className="flex items-center gap-4 text-sm text-gray-500 mb-3">
-                          <span className="bg-primary-50 text-primary-700 px-2 py-1 rounded-full text-xs font-medium">
-                            {categoryIdToLabel[post.category] || post.category}
-                          </span>
-                          <span>{post.readTime}</span>
-                        </div>
-
-                        <h2 className="text-xl font-bold text-gray-900 mb-2 hover:text-primary transition-colors">
+                      {/* Content - matching p-4 padding and text sizes from worksheet samples */}
+                      <div className="p-4">
+                        <h3 className="text-lg font-semibold text-gray-900 mb-1">
                           {post.title}
-                        </h2>
+                        </h3>
 
-                        <p className="text-gray-600 mb-4 line-clamp-3">
+                        <p className="text-sm text-gray-600 mb-3">
                           {post.excerpt}
                         </p>
 
-                        <div className="flex items-center justify-between text-sm">
-                          <div className="flex items-center gap-2">
-                            <div className="w-8 h-8 rounded-full bg-gray-300"></div>
-                            <span className="text-gray-700">{post.author}</span>
-                          </div>
-                          <span className="text-gray-500">{post.date}</span>
+                        {/* Bottom badges - matching worksheet sample layout */}
+                        <div className="flex items-center justify-between text-xs">
+                          <span className="px-2 py-1 bg-blue-100 text-blue-700 rounded-full">
+                            {categoryIdToLabel[post.category] || post.category}
+                          </span>
+                          <span className="px-2 py-1 bg-gray-100 text-gray-700 rounded-full">
+                            {post.readTime}
+                          </span>
                         </div>
                       </div>
                     </Link>

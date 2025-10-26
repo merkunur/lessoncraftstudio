@@ -140,9 +140,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       // Load user from localStorage to display immediately
       // But keep loading=true until API verification completes to ensure fresh tier data
       const storedUser = localStorage.getItem('user');
+      console.log('[AuthContext] checkAuth - stored user:', storedUser ? 'exists' : 'null');
       if (storedUser) {
         try {
           const parsedUser = JSON.parse(storedUser);
+          console.log('[AuthContext] Setting user from localStorage:', {
+            email: parsedUser.email,
+            tier: parsedUser.subscriptionTier
+          });
           setUser(parsedUser);
           // Don't set loading=false here - wait for API verification
           // This prevents showing access denied due to stale subscription tier
@@ -603,6 +608,15 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     resendVerificationEmail,
     checkAuth,
   };
+
+  // Debug logging
+  useEffect(() => {
+    console.log('[AuthContext] State changed:', {
+      user: user ? { email: user.email, tier: user.subscriptionTier } : null,
+      loading,
+      isAuthenticated
+    });
+  }, [user, loading, isAuthenticated]);
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 }

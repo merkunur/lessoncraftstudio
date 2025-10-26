@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { toast } from 'react-hot-toast';
 import DeviceConflictModal from '@/components/auth/DeviceConflictModal';
+import { useAuth } from '@/contexts/auth-context';
 
 // Simple device fingerprinting
 function getDeviceFingerprint() {
@@ -60,6 +61,7 @@ export default function SignInClient() {
   const billing = searchParams.get('billing'); // Get billing interval from URL parameter (monthly or yearly)
   const redirect = searchParams.get('redirect'); // Get redirect URL from parameter
   const t = useTranslations('auth.signIn');
+  const { checkAuth } = useAuth(); // Get checkAuth from auth context
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -107,6 +109,9 @@ export default function SignInClient() {
 
       // Store user info
       localStorage.setItem('user', JSON.stringify(data.user));
+
+      // Update auth context to reflect signin state
+      await checkAuth();
 
       // If there's a plan parameter, create checkout session
       if (plan && (plan === 'core' || plan === 'full')) {
@@ -201,6 +206,9 @@ export default function SignInClient() {
 
       // Store user info
       localStorage.setItem('user', JSON.stringify(data.user));
+
+      // Update auth context to reflect signin state
+      await checkAuth();
 
       // Close modal
       setShowConflictModal(false);

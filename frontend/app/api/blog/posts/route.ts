@@ -55,7 +55,8 @@ async function getBlogPostsForLocale(locale: string): Promise<BlogMetadata[]> {
           metaDescription: translation.metaDescription,
           keywords: post.keywords,
           hasSampleWorksheets: post._count.pdfs > 0,
-          featuredImage: post.featuredImage
+          // Use language-specific featured image if available, otherwise fall back to global
+          featuredImage: translation.featuredImage || post.featuredImage
         };
       });
 

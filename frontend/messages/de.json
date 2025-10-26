@@ -258,7 +258,16 @@
       "infoMessage": "Um auf diesem Gerät fortzufahren, werden Sie automatisch von Ihrem anderen Gerät abgemeldet. Dies dient Ihrer Kontosicherheit.",
       "continueButton": "Anderes Gerät abmelden & Fortfahren",
       "continuingButton": "Melde an...",
-      "cancelButton": "Abbrechen"
+      "cancelButton": "Abbrechen",
+      "timeAgo": {
+        "justNow": "Gerade eben",
+        "minutesAgo_one": "vor {count} Minute",
+        "minutesAgo_other": "vor {count} Minuten",
+        "hoursAgo_one": "vor {count} Stunde",
+        "hoursAgo_other": "vor {count} Stunden",
+        "daysAgo_one": "vor {count} Tag",
+        "daysAgo_other": "vor {count} Tagen"
+      }
     }
   },
   "footer": {

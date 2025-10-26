@@ -270,7 +270,16 @@
       "infoMessage": "Pour continuer sur cet appareil, vous serez automatiquement déconnecté de votre autre appareil. Cela permet de sécuriser votre compte.",
       "continueButton": "Déconnecter l'autre appareil & Continuer",
       "continuingButton": "Connexion en cours...",
-      "cancelButton": "Annuler"
+      "cancelButton": "Annuler",
+      "timeAgo": {
+        "justNow": "À l'instant",
+        "minutesAgo_one": "Il y a {count} minute",
+        "minutesAgo_other": "Il y a {count} minutes",
+        "hoursAgo_one": "Il y a {count} heure",
+        "hoursAgo_other": "Il y a {count} heures",
+        "daysAgo_one": "Il y a {count} jour",
+        "daysAgo_other": "Il y a {count} jours"
+      }
     }
   },
   "footer": {

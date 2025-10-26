@@ -257,7 +257,16 @@
       "infoMessage": "För att fortsätta på den här enheten kommer du automatiskt att loggas ut från din andra enhet. Detta hjälper till att hålla ditt konto säkert.",
       "continueButton": "Logga ut från annan enhet & fortsätt",
       "continuingButton": "Loggar in...",
-      "cancelButton": "Avbryt"
+      "cancelButton": "Avbryt",
+      "timeAgo": {
+        "justNow": "Just nu",
+        "minutesAgo_one": "För {count} minut sedan",
+        "minutesAgo_other": "För {count} minuter sedan",
+        "hoursAgo_one": "För {count} timme sedan",
+        "hoursAgo_other": "För {count} timmar sedan",
+        "daysAgo_one": "För {count} dag sedan",
+        "daysAgo_other": "För {count} dagar sedan"
+      }
     }
   },
   "pricing": {

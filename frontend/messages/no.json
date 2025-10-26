@@ -257,7 +257,16 @@
       "infoMessage": "For å fortsette på denne enheten blir du automatisk logget ut fra den andre enheten. Dette bidrar til å holde kontoen din sikker.",
       "continueButton": "Logg ut fra annen enhet & fortsett",
       "continuingButton": "Logger inn...",
-      "cancelButton": "Avbryt"
+      "cancelButton": "Avbryt",
+      "timeAgo": {
+        "justNow": "Akkurat nå",
+        "minutesAgo_one": "For {count} minutt siden",
+        "minutesAgo_other": "For {count} minutter siden",
+        "hoursAgo_one": "For {count} time siden",
+        "hoursAgo_other": "For {count} timer siden",
+        "daysAgo_one": "For {count} dag siden",
+        "daysAgo_other": "For {count} dager siden"
+      }
     }
   },
   "footer": {

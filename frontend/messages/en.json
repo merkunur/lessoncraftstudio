@@ -351,7 +351,16 @@
       "infoMessage": "To continue on this device, you'll be automatically signed out from your other device. This helps keep your account secure.",
       "continueButton": "Sign Out Other Device & Continue",
       "continuingButton": "Signing in...",
-      "cancelButton": "Cancel"
+      "cancelButton": "Cancel",
+      "timeAgo": {
+        "justNow": "Just now",
+        "minutesAgo_one": "{count} minute ago",
+        "minutesAgo_other": "{count} minutes ago",
+        "hoursAgo_one": "{count} hour ago",
+        "hoursAgo_other": "{count} hours ago",
+        "daysAgo_one": "{count} day ago",
+        "daysAgo_other": "{count} days ago"
+      }
     }
   },
   "blogPage": {

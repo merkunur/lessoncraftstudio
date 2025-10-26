@@ -257,7 +257,16 @@
       "infoMessage": "For at fortsætte på denne enhed bliver du automatisk logget ud fra din anden enhed. Dette hjælper med at holde din konto sikker.",
       "continueButton": "Log ud fra anden enhed & fortsæt",
       "continuingButton": "Logger ind...",
-      "cancelButton": "Annuller"
+      "cancelButton": "Annuller",
+      "timeAgo": {
+        "justNow": "Lige nu",
+        "minutesAgo_one": "For {count} minut siden",
+        "minutesAgo_other": "For {count} minutter siden",
+        "hoursAgo_one": "For {count} time siden",
+        "hoursAgo_other": "For {count} timer siden",
+        "daysAgo_one": "For {count} dag siden",
+        "daysAgo_other": "For {count} dage siden"
+      }
     }
   },
   "footer": {

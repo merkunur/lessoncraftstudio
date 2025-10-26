@@ -270,7 +270,16 @@
       "infoMessage": "Para continuar en este dispositivo, cerraremos automáticamente tu sesión en el otro dispositivo. Esto ayuda a mantener tu cuenta segura.",
       "continueButton": "Cerrar sesión en otro dispositivo y continuar",
       "continuingButton": "Iniciando sesión...",
-      "cancelButton": "Cancelar"
+      "cancelButton": "Cancelar",
+      "timeAgo": {
+        "justNow": "Ahora mismo",
+        "minutesAgo_one": "Hace {count} minuto",
+        "minutesAgo_other": "Hace {count} minutos",
+        "hoursAgo_one": "Hace {count} hora",
+        "hoursAgo_other": "Hace {count} horas",
+        "daysAgo_one": "Hace {count} día",
+        "daysAgo_other": "Hace {count} días"
+      }
     }
   },
   "footer": {

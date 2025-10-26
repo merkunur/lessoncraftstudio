@@ -57,21 +57,28 @@ export default function DeviceConflictModal({
 
   const DeviceIcon = getDeviceIcon(currentSession.deviceType);
 
-  // Format last active time
+  // Format last active time with localization
   const formatLastActive = (lastActive: string) => {
     const date = new Date(lastActive);
     const now = new Date();
     const diffMs = now.getTime() - date.getTime();
     const diffMins = Math.floor(diffMs / 60000);
 
-    if (diffMins < 1) return 'Just now';
-    if (diffMins < 60) return `${diffMins} minute${diffMins > 1 ? 's' : ''} ago`;
+    if (diffMins < 1) return t('timeAgo.justNow');
+    if (diffMins < 60) {
+      const key = diffMins === 1 ? 'timeAgo.minutesAgo_one' : 'timeAgo.minutesAgo_other';
+      return t(key, { count: diffMins });
+    }
 
     const diffHours = Math.floor(diffMins / 60);
-    if (diffHours < 24) return `${diffHours} hour${diffHours > 1 ? 's' : ''} ago`;
+    if (diffHours < 24) {
+      const key = diffHours === 1 ? 'timeAgo.hoursAgo_one' : 'timeAgo.hoursAgo_other';
+      return t(key, { count: diffHours });
+    }
 
     const diffDays = Math.floor(diffHours / 24);
-    return `${diffDays} day${diffDays > 1 ? 's' : ''} ago`;
+    const key = diffDays === 1 ? 'timeAgo.daysAgo_one' : 'timeAgo.daysAgo_other';
+    return t(key, { count: diffDays });
   };
 
   return (

@@ -270,7 +270,16 @@
       "infoMessage": "Per continuare su questo dispositivo, verrai automaticamente disconnesso dall'altro dispositivo. Questo aiuta a mantenere il tuo account sicuro.",
       "continueButton": "Disconnetti altro dispositivo e continua",
       "continuingButton": "Accesso in corso...",
-      "cancelButton": "Annulla"
+      "cancelButton": "Annulla",
+      "timeAgo": {
+        "justNow": "Proprio ora",
+        "minutesAgo_one": "{count} minuto fa",
+        "minutesAgo_other": "{count} minuti fa",
+        "hoursAgo_one": "{count} ora fa",
+        "hoursAgo_other": "{count} ore fa",
+        "daysAgo_one": "{count} giorno fa",
+        "daysAgo_other": "{count} giorni fa"
+      }
     }
   },
   "pricing": {

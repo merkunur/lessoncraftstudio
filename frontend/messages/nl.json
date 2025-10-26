@@ -270,7 +270,16 @@
       "infoMessage": "Om verder te gaan op dit apparaat, word je automatisch uitgelogd op je andere apparaat. Dit helpt je account veilig te houden.",
       "continueButton": "Uitloggen op ander apparaat en doorgaan",
       "continuingButton": "Inloggen...",
-      "cancelButton": "Annuleren"
+      "cancelButton": "Annuleren",
+      "timeAgo": {
+        "justNow": "Zojuist",
+        "minutesAgo_one": "{count} minuut geleden",
+        "minutesAgo_other": "{count} minuten geleden",
+        "hoursAgo_one": "{count} uur geleden",
+        "hoursAgo_other": "{count} uur geleden",
+        "daysAgo_one": "{count} dag geleden",
+        "daysAgo_other": "{count} dagen geleden"
+      }
     }
   },
   "pricing": {

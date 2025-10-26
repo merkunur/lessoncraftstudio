@@ -257,7 +257,16 @@
       "infoMessage": "Jatkaaksesi tällä laitteella sinut kirjataan automaattisesti ulos toiselta laitteeltasi. Tämä auttaa pitämään tilisi turvassa.",
       "continueButton": "Kirjaa ulos toiselta laitteelta & jatka",
       "continuingButton": "Kirjaudutaan...",
-      "cancelButton": "Peruuta"
+      "cancelButton": "Peruuta",
+      "timeAgo": {
+        "justNow": "Juuri nyt",
+        "minutesAgo_one": "{count} minuutti sitten",
+        "minutesAgo_other": "{count} minuuttia sitten",
+        "hoursAgo_one": "{count} tunti sitten",
+        "hoursAgo_other": "{count} tuntia sitten",
+        "daysAgo_one": "{count} päivä sitten",
+        "daysAgo_other": "{count} päivää sitten"
+      }
     }
   },
   "footer": {

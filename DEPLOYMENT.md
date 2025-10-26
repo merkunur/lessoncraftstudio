@@ -496,6 +496,296 @@ A deployment script has been created at `/opt/lessoncraftstudio/deploy.sh` that 
 
 ---
 
+## 🔐🔐🔐 CRITICAL: AUTHENTICATION & SESSION SECURITY FILES 🔐🔐🔐
+
+### ⛔ NEVER MODIFY THESE FILES WITHOUT UNDERSTANDING SECURITY IMPLICATIONS ⛔
+
+**These files implement critical device signout and session validation functionality:**
+
+```
+╔═══════════════════════════════════════════════════════════════════╗
+║                                                                   ║
+║   🚨 AUTHENTICATION-CRITICAL FILES - DO NOT MODIFY! 🚨            ║
+║                                                                   ║
+║   These files were updated on 2025-10-26 to fix device           ║
+║   conflict modal functionality. Modifying them incorrectly       ║
+║   will BREAK session revocation and security features!           ║
+║                                                                   ║
+║   📁 CRITICAL FILES:                                              ║
+║   • frontend/lib/auth.ts (getCurrentUser function)               ║
+║   • frontend/lib/auth-middleware.ts (session validation)         ║
+║   • frontend/app/api/auth/me/route.ts (session verification)     ║
+║   • frontend/app/[locale]/dashboard/page.tsx (session check)     ║
+║   • frontend/app/api/auth/force-signin/route.ts (device signout) ║
+║                                                                   ║
+║   ⚠️  WARNING: These files contain database session checks        ║
+║      that prevent revoked sessions from continuing to work.      ║
+║                                                                   ║
+╚═══════════════════════════════════════════════════════════════════╝
+```
+
+### 🔒 WHAT THESE FILES DO (Security Implementation)
+
+**Commit:** `c6d4950` (2025-10-26)
+**Purpose:** Implement proper session revocation for device conflict modal
+
+#### 1. `frontend/lib/auth.ts` - Core Authentication Logic
+
+**Function:** `getCurrentUser(request: NextRequest)`
+
+**CRITICAL CODE (Lines 25-39):**
+```typescript
+// Check if session still exists in database (prevents revoked sessions from working)
+const session = await prisma.session.findFirst({
+  where: {
+    token: token,
+    userId: payload.userId,
+    expiresAt: {
+      gt: new Date()  // Session not expired
+    }
+  }
+});
+
+if (!session) {
+  // Session was revoked or doesn't exist
+  return null;
+}
+```
+
+**Why Critical:** This function is used by **most API routes** in the application. It validates that sessions still exist in the database after JWT validation. Without this check, revoked sessions continue to work.
+
+**Used By:**
+- `/api/users/me/generations`
+- All admin API routes
+- All protected API endpoints
+
+#### 2. `frontend/lib/auth-middleware.ts` - Middleware Functions
+
+**Functions:** `withAuth()`, `withAdmin()`, `withSubscription()`, `getUserIdFromRequest()`
+
+**CRITICAL CODE (Lines 28-45 in each function):**
+```typescript
+// Check if session still exists in database (prevents revoked sessions from working)
+const session = await prisma.session.findFirst({
+  where: {
+    token: token,
+    userId: payload.userId,
+    expiresAt: {
+      gt: new Date()  // Session not expired
+    }
+  }
+});
+
+if (!session) {
+  // Session was revoked or doesn't exist
+  return NextResponse.json(
+    { error: 'Session expired or revoked. Please sign in again.' },
+    { status: 401 }
+  );
+}
+```
+
+**Why Critical:** These middleware functions protect API routes that explicitly use middleware pattern. Session validation ensures revoked tokens cannot access protected resources.
+
+#### 3. `frontend/app/api/auth/me/route.ts` - User Profile API
+
+**Endpoints:** `GET /api/auth/me` and `PATCH /api/auth/me`
+
+**CRITICAL CODE (Lines 28-45 in GET, Lines 180-197 in PATCH):**
+```typescript
+// Check if session still exists in database (prevents revoked sessions from working)
+const session = await prisma.session.findFirst({
+  where: {
+    token: token,
+    userId: payload.userId,
+    expiresAt: {
+      gt: new Date()  // Session not expired
+    }
+  }
+});
+
+if (!session) {
+  // Session was revoked or doesn't exist
+  return NextResponse.json(
+    { error: 'Session expired or revoked. Please sign in again.' },
+    { status: 401 }
+  );
+}
+```
+
+**Why Critical:** The dashboard calls this endpoint to verify session validity. This is the FIRST endpoint called when a user loads the dashboard, ensuring revoked sessions are immediately detected.
+
+#### 4. `frontend/app/[locale]/dashboard/page.tsx` - Dashboard Session Check
+
+**Function:** `verifySession(token: string)`
+
+**CRITICAL CODE (Lines 143-171):**
+```typescript
+const verifySession = async (token: string) => {
+  try {
+    const response = await fetch('/api/auth/me', {
+      headers: {
+        'Authorization': `Bearer ${token}`
+      }
+    });
+
+    if (!response.ok) {
+      // Session expired or revoked - redirect to signin
+      localStorage.removeItem('accessToken');
+      localStorage.removeItem('refreshToken');
+      localStorage.removeItem('user');
+      router.push('/auth/signin');
+      return;
+    }
+
+    const data = await response.json();
+    setUser(data.user);
+    fetchRecentGenerations(token);
+  } catch (error) {
+    console.error('Session verification failed:', error);
+    // On error, clear tokens and redirect
+    localStorage.removeItem('accessToken');
+    localStorage.removeItem('refreshToken');
+    localStorage.removeItem('user');
+    router.push('/auth/signin');
+  }
+};
+```
+
+**Why Critical:** This is called IMMEDIATELY when dashboard loads. It verifies the session with the API, and if the session was revoked, it clears localStorage and redirects to signin. This is the user-facing trigger for device signout.
+
+#### 5. `frontend/app/api/auth/force-signin/route.ts` - Device Signout
+
+**Endpoint:** `POST /api/auth/force-signin`
+
+**CRITICAL CODE (Lines 106-111):**
+```typescript
+// REVOKE ALL OTHER SESSIONS (force single device)
+const revokedSessions = await prisma.session.deleteMany({
+  where: {
+    userId: user.id,
+    deviceId: { not: deviceId }, // Delete all sessions except current device
+  }
+});
+```
+
+**Why Critical:** This deletes sessions from the database when "Sign out from another device and continue" is clicked. The deletion is what triggers the 401 errors on other devices.
+
+### 🔄 HOW THE COMPLETE FLOW WORKS
+
+**When user clicks "Sign out from another device and continue":**
+
+```
+1. Device 2 calls /api/auth/force-signin
+   └─> Deletes Device 1's session from database (force-signin/route.ts:106-111)
+   └─> Creates new session for Device 2
+
+2. Device 1 loads dashboard (or refreshes page)
+   └─> Calls verifySession() (dashboard/page.tsx:143-171)
+   └─> Fetches /api/auth/me
+
+3. /api/auth/me validates request
+   └─> Checks JWT token validity (me/route.ts:20-26)
+   └─> Checks database for session (me/route.ts:28-45)
+   └─> Session not found in database!
+   └─> Returns 401 "Session expired or revoked"
+
+4. Dashboard receives 401 error
+   └─> Clears localStorage (dashboard/page.tsx:153-155)
+   └─> Redirects to /auth/signin (dashboard/page.tsx:156)
+   └─> ✅ Device 1 is signed out!
+```
+
+### ⚠️ CRITICAL WARNINGS
+
+#### ❌ NEVER DO THIS:
+
+1. **Remove database session checks**
+   ```typescript
+   // ❌ WRONG - This breaks device signout!
+   const payload = verifyAccessToken(token);
+   if (!payload) {
+     return null;
+   }
+   // Missing: Database session validation
+   return user;
+   ```
+
+2. **Skip /api/auth/me call in dashboard**
+   ```typescript
+   // ❌ WRONG - Revoked sessions won't be detected!
+   useEffect(() => {
+     const token = localStorage.getItem('accessToken');
+     const userStr = localStorage.getItem('user');
+
+     if (!token || !userStr) {
+       router.push('/auth/signin');
+       return;
+     }
+
+     setUser(JSON.parse(userStr)); // ❌ No API call!
+   }, [router]);
+   ```
+
+3. **Only check JWT without database**
+   ```typescript
+   // ❌ WRONG - Revoked sessions with valid JWTs will work!
+   const payload = verifyAccessToken(token);
+   if (payload) {
+     return user; // ❌ No database check!
+   }
+   ```
+
+#### ✅ CORRECT PATTERN:
+
+```typescript
+// ✅ CORRECT - Always check both JWT AND database
+const payload = verifyAccessToken(token);
+if (!payload) {
+  return null;
+}
+
+// Check database - this is CRITICAL
+const session = await prisma.session.findFirst({
+  where: {
+    token: token,
+    userId: payload.userId,
+    expiresAt: { gt: new Date() }
+  }
+});
+
+if (!session) {
+  return null; // Session revoked
+}
+
+// Now safe to return user
+return user;
+```
+
+### 📋 TESTING CHECKLIST
+
+**After ANY modification to these files, you MUST test:**
+
+1. ✅ Sign in on Device 1 (Chrome)
+2. ✅ Sign in on Device 2 (Firefox) → Device conflict modal appears
+3. ✅ Click "Sign out from another device and continue" on Device 2
+4. ✅ Go to Device 1 → Refresh page
+5. ✅ **VERIFY:** Device 1 redirects to signin page
+6. ✅ **VERIFY:** Device 1 cannot access dashboard
+7. ✅ **VERIFY:** Device 2 continues to work normally
+
+**If ANY of these fail, the fix is BROKEN!**
+
+### 📄 REFERENCE DOCUMENTATION
+
+See `DEVICE_SIGNOUT_BUG_ANALYSIS.md` for complete technical analysis and fix details.
+
+**Analysis Date:** 2025-10-26
+**Fixed By:** Claude Code
+**Commits:** `79f32f4` (partial), `c6d4950` (complete fix)
+
+---
+
 ## Server Information
 
 **Server Address**: 65.108.5.250
@@ -522,25 +812,26 @@ ssh root@65.108.5.250
 
 ## Important Notes
 
-1. **🚨 MANDATORY: UPDATE REFERENCE FOLDERS AFTER EVERY MODIFICATION** - This is OBLIGATORY, not optional. See "MANDATORY: UPDATING REFERENCE APPS AFTER MODIFICATIONS" section above. The deployment task is NOT complete until REFERENCE folders are updated!
-2. **🚨 WORKSHEET GENERATORS NOT IN GIT** - As of commit f9e10bb, worksheet generators are NO LONGER tracked by git. Use REFERENCE APPS folder!
-3. **🚨 CONTENT MANAGERS NOT IN GIT** - As of commit [next], content managers are NO LONGER tracked by git. Use REFERENCE CONTENT MANAGERS folder!
-4. **🚨 NEVER `cp -r public` IN DEPLOYMENTS** - This will copy MISSING files from git! Use scenario-based commands above.
-4. **For code changes** - Use Scenario 1 command (git pull + build, NO public copy)
-5. **For worksheet updates** - Use Scenario 2 command (REFERENCE APPS upload + copy to standalone)
-6. **For content manager updates** - Use Scenario 3 command (REFERENCE CONTENT MANAGERS upload + copy to standalone)
-7. **Production port is 3000** - Local development uses 3001, production uses 3000
-8. **PM2 auto-restarts** - If the app crashes, PM2 will automatically restart it
-9. **Check logs after deployment** - Always verify no errors in PM2 logs
-10. **CRITICAL: Standalone mode** - Production runs in standalone mode. Static files must be copied to `.next/standalone/.next/static/`
-11. **Database scripts** - Remember to update port numbers in database scripts (3001 → 3000)
-12. **Git conflicts** - Use `git stash && git pull` if local changes conflict
-13. **Keep credentials secure** - This file contains sensitive information; do not commit to public repos
-14. **Architecture change** - Worksheet generators and content managers are now treated as content/assets, not source code (see ROOT_CAUSE_ANALYSIS.md)
+1. **🔐 CRITICAL: AUTHENTICATION FILES - NEVER MODIFY!** - See "CRITICAL: AUTHENTICATION & SESSION SECURITY FILES" section above. These files (lib/auth.ts, lib/auth-middleware.ts, api/auth/me, dashboard/page.tsx) implement device signout functionality. Modifying them incorrectly will BREAK security features! (commit c6d4950, 2025-10-26)
+2. **🚨 MANDATORY: UPDATE REFERENCE FOLDERS AFTER EVERY MODIFICATION** - This is OBLIGATORY, not optional. See "MANDATORY: UPDATING REFERENCE APPS AFTER MODIFICATIONS" section above. The deployment task is NOT complete until REFERENCE folders are updated!
+3. **🚨 WORKSHEET GENERATORS NOT IN GIT** - As of commit f9e10bb, worksheet generators are NO LONGER tracked by git. Use REFERENCE APPS folder!
+4. **🚨 CONTENT MANAGERS NOT IN GIT** - As of commit [next], content managers are NO LONGER tracked by git. Use REFERENCE CONTENT MANAGERS folder!
+5. **🚨 NEVER `cp -r public` IN DEPLOYMENTS** - This will copy MISSING files from git! Use scenario-based commands above.
+6. **For code changes** - Use Scenario 1 command (git pull + build, NO public copy)
+7. **For worksheet updates** - Use Scenario 2 command (REFERENCE APPS upload + copy to standalone)
+8. **For content manager updates** - Use Scenario 3 command (REFERENCE CONTENT MANAGERS upload + copy to standalone)
+9. **Production port is 3000** - Local development uses 3001, production uses 3000
+10. **PM2 auto-restarts** - If the app crashes, PM2 will automatically restart it
+11. **Check logs after deployment** - Always verify no errors in PM2 logs
+12. **CRITICAL: Standalone mode** - Production runs in standalone mode. Static files must be copied to `.next/standalone/.next/static/`
+13. **Database scripts** - Remember to update port numbers in database scripts (3001 → 3000)
+14. **Git conflicts** - Use `git stash && git pull` if local changes conflict
+15. **Keep credentials secure** - This file contains sensitive information; do not commit to public repos
+16. **Architecture change** - Worksheet generators and content managers are now treated as content/assets, not source code (see ROOT_CAUSE_ANALYSIS.md)
 
 ---
 
-**Last Updated**: 2025-10-23
+**Last Updated**: 2025-10-26 (Added critical authentication files documentation)
 **Deployment Tool**: PuTTY plink for Windows
 **Process Manager**: PM2
 **Framework**: Next.js 14.2.18

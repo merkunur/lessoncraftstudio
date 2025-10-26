@@ -96,6 +96,7 @@ export default function AutoLaunchApp({
     return locale === 'de' ? 'Kostenlos' : 'Free';
   };
 
+  // Natural, native-sounding translations matching existing site terminology
   const uiTranslations = {
     en: {
       accessRequired: {
@@ -108,92 +109,92 @@ export default function AutoLaunchApp({
     },
     de: {
       accessRequired: {
-        core: 'Core-Paket erforderlich',
+        core: 'Basis-Paket erforderlich',
         full: 'Vollzugriff erforderlich'
       },
-      upgradeMessage: 'Upgraden Sie Ihr Paket, um diesen Arbeitsblattgenerator und viele weitere professionelle Tools zu nutzen.',
-      viewPricing: 'Preispläne ansehen',
-      browseFreeApps: 'Kostenlose Apps durchsuchen'
+      upgradeMessage: 'Um diesen Generator zu nutzen, wechseln Sie zu einem höheren Paket und schalten Sie viele professionelle Tools frei.',
+      viewPricing: 'Preise Ansehen',
+      browseFreeApps: 'Kostenlose Apps'
     },
     fr: {
       accessRequired: {
-        core: 'Abonnement Core requis',
-        full: 'Accès complet requis'
+        core: 'Pack Essentiel requis',
+        full: 'Accès Complet requis'
       },
-      upgradeMessage: 'Passez à un abonnement supérieur pour accéder à ce générateur et à de nombreux autres outils professionnels.',
-      viewPricing: 'Voir les tarifs',
+      upgradeMessage: 'Pour utiliser ce générateur, passez à une formule supérieure et débloquez de nombreux outils professionnels.',
+      viewPricing: 'Voir les Tarifs',
       browseFreeApps: 'Applications gratuites'
     },
     es: {
       accessRequired: {
-        core: 'Plan Core requerido',
-        full: 'Acceso completo requerido'
+        core: 'Paquete Esencial requerido',
+        full: 'Acceso Completo requerido'
       },
-      upgradeMessage: 'Mejora tu plan para acceder a este generador y muchas más herramientas profesionales.',
-      viewPricing: 'Ver planes',
+      upgradeMessage: 'Para usar este generador, mejora tu plan y desbloquea muchas herramientas profesionales.',
+      viewPricing: 'Ver Precios',
       browseFreeApps: 'Aplicaciones gratuitas'
     },
     it: {
       accessRequired: {
-        core: 'Piano Core richiesto',
-        full: 'Accesso completo richiesto'
+        core: 'Pacchetto Essenziale richiesto',
+        full: 'Accesso Completo richiesto'
       },
-      upgradeMessage: 'Passa a un piano superiore per accedere a questo generatore e a molti altri strumenti professionali.',
-      viewPricing: 'Vedi i piani',
-      browseFreeApps: 'App gratuite'
+      upgradeMessage: 'Per utilizzare questo generatore, passa a un piano superiore e sblocca numerosi strumenti professionali.',
+      viewPricing: 'Vedi i Prezzi',
+      browseFreeApps: 'Applicazioni gratuite'
     },
     pt: {
       accessRequired: {
-        core: 'Plano Core necessário',
-        full: 'Acesso completo necessário'
+        core: 'Pacote Essencial necessário',
+        full: 'Acesso Completo necessário'
       },
-      upgradeMessage: 'Mude para um plano superior para aceder a este gerador e a muitas outras ferramentas profissionais.',
-      viewPricing: 'Ver planos',
+      upgradeMessage: 'Para utilizar este gerador, mude para um plano superior e desbloqueie muitas ferramentas profissionais.',
+      viewPricing: 'Ver Preços',
       browseFreeApps: 'Aplicações gratuitas'
     },
     nl: {
       accessRequired: {
-        core: 'Core-abonnement vereist',
-        full: 'Volledige toegang vereist'
+        core: 'Basispakket vereist',
+        full: 'Volledige Toegang vereist'
       },
-      upgradeMessage: 'Upgrade je abonnement om toegang te krijgen tot deze generator en vele andere professionele tools.',
-      viewPricing: 'Bekijk tarieven',
+      upgradeMessage: 'Voor deze generator heb je een hoger abonnement nodig om veel professionele tools te ontgrendelen.',
+      viewPricing: 'Bekijk Prijzen',
       browseFreeApps: 'Gratis apps'
     },
     sv: {
       accessRequired: {
-        core: 'Core-abonnemang krävs',
-        full: 'Full åtkomst krävs'
+        core: 'Baspaket krävs',
+        full: 'Full Tillgång krävs'
       },
-      upgradeMessage: 'Uppgradera ditt abonnemang för att få tillgång till denna generator och många fler professionella verktyg.',
+      upgradeMessage: 'För att använda denna generator behöver du uppgradera till ett högre abonnemang och låsa upp många professionella verktyg.',
       viewPricing: 'Se priser',
       browseFreeApps: 'Gratis appar'
     },
     da: {
       accessRequired: {
-        core: 'Core-abonnement påkrævet',
-        full: 'Fuld adgang påkrævet'
+        core: 'Kernepakke påkrævet',
+        full: 'Fuld Adgang påkrævet'
       },
-      upgradeMessage: 'Opgrader dit abonnement for at få adgang til denne generator og mange flere professionelle værktøjer.',
-      viewPricing: 'Se priser',
+      upgradeMessage: 'For at bruge denne generator skal du opgradere til et højere abonnement og låse mange professionelle værktøjer op.',
+      viewPricing: 'Se Priser',
       browseFreeApps: 'Gratis apps'
     },
     no: {
       accessRequired: {
-        core: 'Core-abonnement kreves',
-        full: 'Full tilgang kreves'
+        core: 'Kjernepakke påkrevd',
+        full: 'Full Tilgang påkrevd'
       },
-      upgradeMessage: 'Oppgrader abonnementet ditt for å få tilgang til denne generatoren og mange flere profesjonelle verktøy.',
-      viewPricing: 'Se priser',
+      upgradeMessage: 'For å bruke denne generatoren må du oppgradere til et høyere abonnement og låse opp mange profesjonelle verktøy.',
+      viewPricing: 'Se Priser',
       browseFreeApps: 'Gratis apper'
     },
     fi: {
       accessRequired: {
-        core: 'Core-tilaus vaaditaan',
-        full: 'Täysi pääsy vaaditaan'
+        core: 'Ydinpaketti vaaditaan',
+        full: 'Täysi Pääsy vaaditaan'
       },
-      upgradeMessage: 'Päivitä tilauksesi saadaksesi käyttöoikeuden tähän generaattoriin ja moniin muihin ammattilaistyökaluihin.',
-      viewPricing: 'Katso hinnat',
+      upgradeMessage: 'Tämän generaattorin käyttöön tarvitset korkeamman tilauksen ja pääset käyttämään monia ammattilaistason työkaluja.',
+      viewPricing: 'Katso Hinnat',
       browseFreeApps: 'Ilmaiset sovellukset'
     }
   };

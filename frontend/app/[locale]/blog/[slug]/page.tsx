@@ -3,6 +3,10 @@ import Link from 'next/link';
 import { prisma } from '@/lib/prisma';
 import { generateBlogSchemas } from '@/lib/schema-generator';
 
+// Force dynamic rendering - blog content should update immediately when edited
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
+
 interface BlogPostPageProps {
   params: {
     locale: string;

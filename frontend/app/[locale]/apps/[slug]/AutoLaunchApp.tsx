@@ -97,29 +97,116 @@ export default function AutoLaunchApp({
   };
 
   const uiTranslations = {
-    de: {
-      accessRequired: {
-        core: 'Diese App erfordert Core Bundle',
-        full: 'Diese App erfordert Vollzugriff'
-      },
-      upgradeMessage: 'Upgraden Sie Ihren Plan, um auf diesen Arbeitsblattgenerator und viele weitere professionelle Tools zuzugreifen.',
-      viewPricing: 'Preispläne ansehen',
-      browseFreeApps: 'Kostenlose Apps durchsuchen'
-    },
     en: {
       accessRequired: {
-        core: 'This app requires Core Bundle',
-        full: 'This app requires Full Access'
+        core: 'Core Bundle Required',
+        full: 'Full Access Required'
       },
       upgradeMessage: 'Upgrade your plan to access this worksheet generator and many more professional tools.',
       viewPricing: 'View Pricing Plans',
       browseFreeApps: 'Browse Free Apps'
+    },
+    de: {
+      accessRequired: {
+        core: 'Core-Paket erforderlich',
+        full: 'Vollzugriff erforderlich'
+      },
+      upgradeMessage: 'Upgraden Sie Ihr Paket, um diesen Arbeitsblattgenerator und viele weitere professionelle Tools zu nutzen.',
+      viewPricing: 'Preispläne ansehen',
+      browseFreeApps: 'Kostenlose Apps durchsuchen'
+    },
+    fr: {
+      accessRequired: {
+        core: 'Abonnement Core requis',
+        full: 'Accès complet requis'
+      },
+      upgradeMessage: 'Passez à un abonnement supérieur pour accéder à ce générateur et à de nombreux autres outils professionnels.',
+      viewPricing: 'Voir les tarifs',
+      browseFreeApps: 'Applications gratuites'
+    },
+    es: {
+      accessRequired: {
+        core: 'Plan Core requerido',
+        full: 'Acceso completo requerido'
+      },
+      upgradeMessage: 'Mejora tu plan para acceder a este generador y muchas más herramientas profesionales.',
+      viewPricing: 'Ver planes',
+      browseFreeApps: 'Aplicaciones gratuitas'
+    },
+    it: {
+      accessRequired: {
+        core: 'Piano Core richiesto',
+        full: 'Accesso completo richiesto'
+      },
+      upgradeMessage: 'Passa a un piano superiore per accedere a questo generatore e a molti altri strumenti professionali.',
+      viewPricing: 'Vedi i piani',
+      browseFreeApps: 'App gratuite'
+    },
+    pt: {
+      accessRequired: {
+        core: 'Plano Core necessário',
+        full: 'Acesso completo necessário'
+      },
+      upgradeMessage: 'Mude para um plano superior para aceder a este gerador e a muitas outras ferramentas profissionais.',
+      viewPricing: 'Ver planos',
+      browseFreeApps: 'Aplicações gratuitas'
+    },
+    nl: {
+      accessRequired: {
+        core: 'Core-abonnement vereist',
+        full: 'Volledige toegang vereist'
+      },
+      upgradeMessage: 'Upgrade je abonnement om toegang te krijgen tot deze generator en vele andere professionele tools.',
+      viewPricing: 'Bekijk tarieven',
+      browseFreeApps: 'Gratis apps'
+    },
+    sv: {
+      accessRequired: {
+        core: 'Core-abonnemang krävs',
+        full: 'Full åtkomst krävs'
+      },
+      upgradeMessage: 'Uppgradera ditt abonnemang för att få tillgång till denna generator och många fler professionella verktyg.',
+      viewPricing: 'Se priser',
+      browseFreeApps: 'Gratis appar'
+    },
+    da: {
+      accessRequired: {
+        core: 'Core-abonnement påkrævet',
+        full: 'Fuld adgang påkrævet'
+      },
+      upgradeMessage: 'Opgrader dit abonnement for at få adgang til denne generator og mange flere professionelle værktøjer.',
+      viewPricing: 'Se priser',
+      browseFreeApps: 'Gratis apps'
+    },
+    no: {
+      accessRequired: {
+        core: 'Core-abonnement kreves',
+        full: 'Full tilgang kreves'
+      },
+      upgradeMessage: 'Oppgrader abonnementet ditt for å få tilgang til denne generatoren og mange flere profesjonelle verktøy.',
+      viewPricing: 'Se priser',
+      browseFreeApps: 'Gratis apper'
+    },
+    fi: {
+      accessRequired: {
+        core: 'Core-tilaus vaaditaan',
+        full: 'Täysi pääsy vaaditaan'
+      },
+      upgradeMessage: 'Päivitä tilauksesi saadaksesi käyttöoikeuden tähän generaattoriin ja moniin muihin ammattilaistyökaluihin.',
+      viewPricing: 'Katso hinnat',
+      browseFreeApps: 'Ilmaiset sovellukset'
     }
   };
 
   const t = (key: string, fallback: string) => {
-    const translations = locale === 'de' ? uiTranslations.de : uiTranslations.en;
-    return (translations as any)[key] || fallback;
+    const translations = (uiTranslations as any)[locale] || uiTranslations.en;
+    return translations[key] || fallback;
+  };
+
+  const getAccessRequiredTitle = () => {
+    const translations = (uiTranslations as any)[locale] || uiTranslations.en;
+    const tierKey = appTier === 'core' ? 'core' : 'full';
+    return translations.accessRequired[tierKey] || `${appTier.toUpperCase()} Required`;
   };
 
   return (
@@ -127,9 +214,7 @@ export default function AutoLaunchApp({
       <div className="bg-white rounded-lg shadow-lg p-12 text-center max-w-md mx-auto">
         <div className="text-6xl mb-4">🔒</div>
         <h2 className="text-2xl font-semibold mb-4">
-          {locale === 'de'
-            ? uiTranslations.de.accessRequired[appTier as keyof typeof uiTranslations.de.accessRequired] || `Diese App erfordert ${getLocalizedTierLabel()}`
-            : `This app requires ${appTier === 'core' ? 'Core Bundle' : 'Full Access'}`}
+          {getAccessRequiredTitle()}
         </h2>
         <p className="text-gray-600 mb-8">
           {t('upgradeMessage', 'Upgrade your plan to access this worksheet generator and many more professional tools.')}

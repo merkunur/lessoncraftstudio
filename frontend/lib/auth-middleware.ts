@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { verifyAccessToken, extractBearerToken } from './auth-utils';
+import { prisma } from './prisma';
 
 /**
  * Middleware to protect API routes that require authentication
@@ -23,6 +24,25 @@ export async function withAuth(
     if (!payload) {
       return NextResponse.json(
         { error: 'Invalid or expired token' },
+        { status: 401 }
+      );
+    }
+
+    // Check if session still exists in database (prevents revoked sessions from working)
+    const session = await prisma.session.findFirst({
+      where: {
+        token: token,
+        userId: payload.userId,
+        expiresAt: {
+          gt: new Date()  // Session not expired
+        }
+      }
+    });
+
+    if (!session) {
+      // Session was revoked or doesn't exist
+      return NextResponse.json(
+        { error: 'Session expired or revoked. Please sign in again.' },
         { status: 401 }
       );
     }
@@ -60,6 +80,25 @@ export async function withAdmin(
     if (!payload) {
       return NextResponse.json(
         { error: 'Invalid or expired token' },
+        { status: 401 }
+      );
+    }
+
+    // Check if session still exists in database (prevents revoked sessions from working)
+    const session = await prisma.session.findFirst({
+      where: {
+        token: token,
+        userId: payload.userId,
+        expiresAt: {
+          gt: new Date()  // Session not expired
+        }
+      }
+    });
+
+    if (!session) {
+      // Session was revoked or doesn't exist
+      return NextResponse.json(
+        { error: 'Session expired or revoked. Please sign in again.' },
         { status: 401 }
       );
     }
@@ -109,6 +148,25 @@ export async function withSubscription(
       );
     }
 
+    // Check if session still exists in database (prevents revoked sessions from working)
+    const session = await prisma.session.findFirst({
+      where: {
+        token: token,
+        userId: payload.userId,
+        expiresAt: {
+          gt: new Date()  // Session not expired
+        }
+      }
+    });
+
+    if (!session) {
+      // Session was revoked or doesn't exist
+      return NextResponse.json(
+        { error: 'Session expired or revoked. Please sign in again.' },
+        { status: 401 }
+      );
+    }
+
     // Check subscription tier hierarchy
     const tierHierarchy = {
       free: 0,
@@ -145,7 +203,7 @@ export async function withSubscription(
  * Get user ID from request without enforcing authentication
  * Returns null if not authenticated
  */
-export function getUserIdFromRequest(request: NextRequest): string | null {
+export async function getUserIdFromRequest(request: NextRequest): Promise<string | null> {
   try {
     const authHeader = request.headers.get('authorization');
     const token = extractBearerToken(authHeader);
@@ -155,7 +213,27 @@ export function getUserIdFromRequest(request: NextRequest): string | null {
     }
 
     const payload = verifyAccessToken(token);
-    return payload?.userId || null;
+    if (!payload) {
+      return null;
+    }
+
+    // Check if session still exists in database (prevents revoked sessions from working)
+    const session = await prisma.session.findFirst({
+      where: {
+        token: token,
+        userId: payload.userId,
+        expiresAt: {
+          gt: new Date()  // Session not expired
+        }
+      }
+    });
+
+    if (!session) {
+      // Session was revoked or doesn't exist
+      return null;
+    }
+
+    return payload.userId;
   } catch (error) {
     return null;
   }

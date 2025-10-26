@@ -243,10 +243,11 @@ export default async function BlogPostPage({
             margin: '0 auto'
           }}>
             {post.pdfs.map((pdf) => {
-            // Get language-specific PDF title/description from translations if available
+            // Get language-specific PDF title/description/thumbnail from translations if available
             const pdfTranslations = translation.pdfs?.[pdf.id];
             const pdfTitle = pdfTranslations?.title || pdf.title;
             const pdfDescription = pdfTranslations?.description || pdf.description;
+            const pdfThumbnail = pdfTranslations?.thumbnail || pdf.thumbnail;
 
             return (
               <div key={pdf.id} className="pdf-card-hover" style={{
@@ -261,7 +262,7 @@ export default async function BlogPostPage({
                 transition: 'transform 0.3s ease, box-shadow 0.3s ease',
                 cursor: 'pointer'
               } as React.CSSProperties}>
-                {pdf.thumbnail ? (
+                {pdfThumbnail ? (
                   <div style={{
                     position: 'relative',
                     width: '100%',
@@ -270,7 +271,7 @@ export default async function BlogPostPage({
                     overflow: 'hidden'
                   }}>
                     <img
-                      src={pdf.thumbnail}
+                      src={pdfThumbnail}
                       alt={pdfTitle}
                       style={{
                         position: 'absolute',

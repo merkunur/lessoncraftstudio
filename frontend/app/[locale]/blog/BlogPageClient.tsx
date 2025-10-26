@@ -322,16 +322,17 @@ export default function BlogPageClient({ locale, translations: t }: BlogPageClie
                     className="bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer transform transition-transform duration-300 hover:scale-105 hover:shadow-xl"
                   >
                     <Link href={`/${locale}/blog/${post.slug}`}>
-                      {/* Image - matching 4:3 aspect ratio from worksheet samples */}
-                      <div className="aspect-[4/3] bg-gray-100 overflow-hidden">
+                      {/* Image - flexible height to show natural aspect ratio without cropping */}
+                      <div className="bg-gray-100 overflow-hidden" style={{ minHeight: '200px', maxHeight: '300px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         {post.featuredImage ? (
                           <img
                             src={post.featuredImage}
                             alt={post.title}
-                            className="w-full h-full object-cover"
+                            className="w-full h-auto object-contain"
+                            style={{ maxHeight: '300px' }}
                           />
                         ) : (
-                          <div className="w-full h-full bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center">
+                          <div className="w-full h-full bg-gradient-to-br from-primary-100 to-primary-200 flex items-center justify-center" style={{ minHeight: '200px' }}>
                             {post.hasSampleWorksheets ? (
                               <div className="text-center">
                                 <span className="text-6xl opacity-50">📄</span>

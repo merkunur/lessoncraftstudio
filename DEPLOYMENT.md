@@ -507,19 +507,26 @@ A deployment script has been created at `/opt/lessoncraftstudio/deploy.sh` that 
 ║                                                                   ║
 ║   🚨 AUTHENTICATION-CRITICAL FILES - DO NOT MODIFY! 🚨            ║
 ║                                                                   ║
-║   These files were updated on 2025-10-26 to fix device           ║
-║   conflict modal functionality. Modifying them incorrectly       ║
-║   will BREAK session revocation and security features!           ║
+║   These files were updated on 2025-10-26 to fix authentication   ║
+║   issues. Modifying them incorrectly will BREAK security and     ║
+║   UI functionality!                                               ║
 ║                                                                   ║
-║   📁 CRITICAL FILES:                                              ║
+║   📁 SECURITY CRITICAL (Device Signout - Commit c6d4950):         ║
 ║   • frontend/lib/auth.ts (getCurrentUser function)               ║
 ║   • frontend/lib/auth-middleware.ts (session validation)         ║
 ║   • frontend/app/api/auth/me/route.ts (session verification)     ║
 ║   • frontend/app/[locale]/dashboard/page.tsx (session check)     ║
 ║   • frontend/app/api/auth/force-signin/route.ts (device signout) ║
 ║                                                                   ║
-║   ⚠️  WARNING: These files contain database session checks        ║
-║      that prevent revoked sessions from continuing to work.      ║
+║   📁 UI STATE CRITICAL (Header Update - Commit 968dfb1):          ║
+║   • frontend/app/[locale]/auth/signin/signin-client.tsx          ║
+║     (checkAuth() calls on lines 114 & 211)                       ║
+║                                                                   ║
+║   ⚠️  SECURITY WARNING: Database session checks prevent revoked   ║
+║      sessions from continuing to work.                           ║
+║                                                                   ║
+║   ⚠️  UX WARNING: checkAuth() calls update header immediately.    ║
+║      Removing them breaks signin UI state update!                ║
 ║                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════╝
 ```
@@ -812,7 +819,9 @@ ssh root@65.108.5.250
 
 ## Important Notes
 
-1. **🔐 CRITICAL: AUTHENTICATION FILES - NEVER MODIFY!** - See "CRITICAL: AUTHENTICATION & SESSION SECURITY FILES" section above. These files (lib/auth.ts, lib/auth-middleware.ts, api/auth/me, dashboard/page.tsx) implement device signout functionality. Modifying them incorrectly will BREAK security features! (commit c6d4950, 2025-10-26)
+1. **🔐 CRITICAL: AUTHENTICATION FILES - NEVER MODIFY!** - See "CRITICAL: AUTHENTICATION & SESSION SECURITY FILES" section above. These files implement device signout functionality AND signin UI state updates. Modifying them incorrectly will BREAK security features and UI! (commits c6d4950 & 968dfb1, 2025-10-26)
+   - Security: lib/auth.ts, lib/auth-middleware.ts, api/auth/me, dashboard/page.tsx
+   - UI State: signin/signin-client.tsx (checkAuth() lines 114 & 211)
 2. **🚨 MANDATORY: UPDATE REFERENCE FOLDERS AFTER EVERY MODIFICATION** - This is OBLIGATORY, not optional. See "MANDATORY: UPDATING REFERENCE APPS AFTER MODIFICATIONS" section above. The deployment task is NOT complete until REFERENCE folders are updated!
 3. **🚨 WORKSHEET GENERATORS NOT IN GIT** - As of commit f9e10bb, worksheet generators are NO LONGER tracked by git. Use REFERENCE APPS folder!
 4. **🚨 CONTENT MANAGERS NOT IN GIT** - As of commit [next], content managers are NO LONGER tracked by git. Use REFERENCE CONTENT MANAGERS folder!

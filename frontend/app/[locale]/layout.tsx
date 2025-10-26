@@ -7,6 +7,7 @@ import { useEffect, useState } from 'react';
 import { locales } from '@/i18n/request';
 import { Navigation } from '@/components/layout/Navigation';
 import { Footer } from '@/components/layout/Footer';
+import { Providers } from '../providers';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -57,12 +58,14 @@ export default function LocaleLayout({
     return (
       <html lang={locale} className={`${inter.variable} ${poppins.variable}`}>
         <body className="min-h-screen bg-gray-50 font-sans">
-          <NextIntlClientProvider locale={locale} messages={messages}>
-            <Navigation />
-            <main>
-              {children}
-            </main>
-          </NextIntlClientProvider>
+          <Providers>
+            <NextIntlClientProvider locale={locale} messages={messages}>
+              <Navigation />
+              <main>
+                {children}
+              </main>
+            </NextIntlClientProvider>
+          </Providers>
         </body>
       </html>
     );
@@ -72,13 +75,15 @@ export default function LocaleLayout({
   return (
     <html lang={locale} className={`${inter.variable} ${poppins.variable}`}>
       <body className="min-h-screen bg-gray-50 font-sans">
-        <NextIntlClientProvider locale={locale} messages={messages}>
-          <Navigation />
-          <main className="flex-1">
-            {children}
-          </main>
-          <Footer />
-        </NextIntlClientProvider>
+        <Providers>
+          <NextIntlClientProvider locale={locale} messages={messages}>
+            <Navigation />
+            <main className="flex-1">
+              {children}
+            </main>
+            <Footer />
+          </NextIntlClientProvider>
+        </Providers>
       </body>
     </html>
   );

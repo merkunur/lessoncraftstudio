@@ -30,80 +30,80 @@ const languages = [
 const upgradeMessages = {
   en: {
     title: 'Upgrade Required',
-    description: 'This app requires a {tier} subscription or higher.',
+    description: 'You need a {tier} plan or higher to use this app.',
     currentPlan: 'Your current plan:',
     upgradeButton: 'Upgrade Now',
     dashboardButton: 'Go to Dashboard'
   },
   de: {
     title: 'Upgrade erforderlich',
-    description: 'Für diese App benötigen Sie ein {tier}-Abonnement oder höher.',
-    currentPlan: 'Ihr aktueller Plan:',
+    description: 'Für diese App benötigen Sie das {tier}-Paket oder höher.',
+    currentPlan: 'Ihr aktuelles Paket:',
     upgradeButton: 'Jetzt upgraden',
     dashboardButton: 'Zum Dashboard'
   },
   fr: {
-    title: 'Mise à niveau requise',
-    description: 'Cette application nécessite un abonnement {tier} ou supérieur.',
-    currentPlan: 'Votre formule actuelle :',
-    upgradeButton: 'Passer à la version supérieure',
-    dashboardButton: 'Accéder au tableau de bord'
+    title: 'Abonnement requis',
+    description: 'Cette application nécessite l\'abonnement {tier} ou supérieur.',
+    currentPlan: 'Votre abonnement actuel :',
+    upgradeButton: 'Mettre à niveau',
+    dashboardButton: 'Tableau de bord'
   },
   es: {
-    title: 'Actualización necesaria',
-    description: 'Esta aplicación requiere una suscripción {tier} o superior.',
+    title: 'Plan requerido',
+    description: 'Necesitas el plan {tier} o superior para usar esta aplicación.',
     currentPlan: 'Tu plan actual:',
-    upgradeButton: 'Actualizar ahora',
+    upgradeButton: 'Mejorar plan',
     dashboardButton: 'Ir al panel'
   },
   it: {
-    title: 'Aggiornamento necessario',
-    description: 'Questa app richiede un abbonamento {tier} o superiore.',
+    title: 'Piano richiesto',
+    description: 'Per utilizzare questa app è necessario il piano {tier} o superiore.',
     currentPlan: 'Il tuo piano attuale:',
-    upgradeButton: 'Aggiorna ora',
-    dashboardButton: 'Vai alla dashboard'
+    upgradeButton: 'Passa a piano superiore',
+    dashboardButton: 'Vai al pannello'
   },
   pt: {
-    title: 'Atualização necessária',
-    description: 'Esta aplicação requer uma subscrição {tier} ou superior.',
+    title: 'Plano necessário',
+    description: 'Para usar esta aplicação, é necessário o plano {tier} ou superior.',
     currentPlan: 'O seu plano atual:',
-    upgradeButton: 'Atualizar agora',
+    upgradeButton: 'Mudar de plano',
     dashboardButton: 'Ir para o painel'
   },
   nl: {
-    title: 'Upgrade vereist',
-    description: 'Voor deze app heb je een {tier}-abonnement of hoger nodig.',
+    title: 'Upgrade nodig',
+    description: 'Voor deze app heb je het {tier}-abonnement of hoger nodig.',
     currentPlan: 'Je huidige abonnement:',
-    upgradeButton: 'Nu upgraden',
+    upgradeButton: 'Upgraden',
     dashboardButton: 'Naar dashboard'
   },
   sv: {
     title: 'Uppgradering krävs',
-    description: 'Den här appen kräver en {tier}-prenumeration eller högre.',
-    currentPlan: 'Din nuvarande plan:',
-    upgradeButton: 'Uppgradera nu',
-    dashboardButton: 'Gå till instrumentpanelen'
+    description: 'Du behöver {tier}-abonnemanget eller högre för att använda denna app.',
+    currentPlan: 'Ditt nuvarande abonnemang:',
+    upgradeButton: 'Uppgradera',
+    dashboardButton: 'Till instrumentpanelen'
   },
   da: {
     title: 'Opgradering påkrævet',
-    description: 'Denne app kræver et {tier}-abonnement eller højere.',
-    currentPlan: 'Din nuværende plan:',
-    upgradeButton: 'Opgrader nu',
-    dashboardButton: 'Gå til kontrolpanel'
+    description: 'Du skal have {tier}-abonnementet eller højere for at bruge denne app.',
+    currentPlan: 'Dit nuværende abonnement:',
+    upgradeButton: 'Opgrader',
+    dashboardButton: 'Til kontrolpanel'
   },
   no: {
     title: 'Oppgradering kreves',
-    description: 'Denne appen krever et {tier}-abonnement eller høyere.',
-    currentPlan: 'Din nåværende plan:',
-    upgradeButton: 'Oppgrader nå',
-    dashboardButton: 'Gå til dashbordet'
+    description: 'Du trenger {tier}-abonnementet eller høyere for å bruke denne appen.',
+    currentPlan: 'Ditt nåværende abonnement:',
+    upgradeButton: 'Oppgrader',
+    dashboardButton: 'Til dashbordet'
   },
   fi: {
-    title: 'Päivitys vaaditaan',
-    description: 'Tämä sovellus vaatii {tier}-tilauksen tai korkeamman.',
+    title: 'Tilaus vaaditaan',
+    description: 'Tarvitset {tier}-tilauksen tai paremman käyttääksesi tätä sovellusta.',
     currentPlan: 'Nykyinen tilauksesi:',
-    upgradeButton: 'Päivitä nyt',
-    dashboardButton: 'Siirry hallintapaneeliin'
+    upgradeButton: 'Päivitä tilaus',
+    dashboardButton: 'Hallintapaneeliin'
   }
 };
 

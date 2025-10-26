@@ -2168,8 +2168,8 @@
             // Inner border - Golden treasure
             const innerMargin = margin + 12.5;
             const innerBorder = new fabric.Rect({
-                left: innerMargin,
-                top: innerMargin,
+                left: innerMargin + 2,  // Offset 2px to the right
+                top: innerMargin + 3,   // Offset 3px downward
                 width: borderWidth - 25,
                 height: borderHeight - 25,
                 fill: 'transparent',

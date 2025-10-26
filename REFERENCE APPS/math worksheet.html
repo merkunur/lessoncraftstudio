@@ -1997,8 +1997,8 @@
           // Inner border - Cheerful orange accent
           const innerBorderMargin = borderMargin + 12.5;
           const innerBorder = new fabric.Rect({
-              left: innerBorderMargin,
-              top: innerBorderMargin,
+              left: innerBorderMargin + 2,  // Offset 2px to the right
+              top: innerBorderMargin + 3,   // Offset 3px downward
               width: pageWidth - (innerBorderMargin * 2),
               height: pageHeight - (innerBorderMargin * 2),
               fill: 'transparent',

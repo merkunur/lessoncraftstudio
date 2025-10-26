@@ -1154,8 +1154,8 @@
             // Inner border - Cheerful yellow accent (responsive)
             const innerMargin = margin + 12.5;
             const innerBorder = new fabric.Rect({
-                left: innerMargin,
-                top: innerMargin,
+                left: innerMargin + 2,  // Offset 2px to the right
+                top: innerMargin + 3,   // Offset 3px downward
                 width: pageWidth - (innerMargin * 2),
                 height: pageHeight - (innerMargin * 2),
                 fill: 'transparent',

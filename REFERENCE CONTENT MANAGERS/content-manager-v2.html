@@ -1,0 +1,2027 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LessonCraftStudio Content Manager v2 - User Friendly</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .content-type-selector {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            background: #f8f9fa;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .type-btn {
+            padding: 12px 24px;
+            margin: 0 10px;
+            border: none;
+            background: white;
+            color: #4a5568;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .type-btn.active {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .main-content {
+            display: flex;
+            height: 600px;
+        }
+
+        .theme-sidebar {
+            width: 300px;
+            background: #f8f9fa;
+            border-right: 2px solid #e2e8f0;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .theme-item {
+            background: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            transition: all 0.3s;
+            border: 2px solid transparent;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .theme-item:hover {
+            border-color: #667eea;
+            transform: translateX(5px);
+        }
+
+        .theme-item.active {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+        }
+
+        .theme-name {
+            font-weight: 600;
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+
+        .theme-count {
+            font-size: 14px;
+            opacity: 0.8;
+        }
+
+        .content-area {
+            flex: 1;
+            padding: 20px;
+            overflow-y: auto;
+        }
+
+        .content-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+
+        .content-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: #2d3748;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .action-btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+        }
+
+        .btn-success {
+            background: linear-gradient(135deg, #48bb78, #38a169);
+            color: white;
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #f56565, #e53e3e);
+            color: white;
+        }
+
+        .action-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .image-card {
+            background: white;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s;
+            position: relative;
+        }
+
+        .image-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            border-color: #667eea;
+        }
+
+        .image-card.selected {
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+        }
+
+        .image-preview {
+            width: 100%;
+            height: 150px;
+            background: #f8f9fa;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .image-preview img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            padding: 10px;
+        }
+
+        .image-checkbox {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 24px;
+            height: 24px;
+            cursor: pointer;
+            z-index: 1;
+        }
+
+        .image-info {
+            padding: 15px;
+        }
+
+        .image-name-input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        .image-name-input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .translation-grid {
+            display: grid;
+            grid-template-columns: 40px 1fr;
+            gap: 5px;
+            align-items: center;
+            font-size: 12px;
+        }
+
+        .lang-flag {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            background: #f0f0f0;
+        }
+
+        .translation-input {
+            width: 100%;
+            padding: 4px 8px;
+            border: 1px solid #e2e8f0;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+
+        .add-new-card {
+            background: #f8f9fa;
+            border: 2px dashed #cbd5e0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 250px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .add-new-card:hover {
+            border-color: #667eea;
+            background: #edf2ff;
+        }
+
+        .add-icon {
+            font-size: 48px;
+            color: #cbd5e0;
+            margin-bottom: 10px;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            max-width: 500px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .modal-header {
+            margin-bottom: 20px;
+        }
+
+        .modal-title {
+            font-size: 24px;
+            font-weight: 600;
+            color: #2d3748;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #4a5568;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .file-upload-area {
+            border: 2px dashed #cbd5e0;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .file-upload-area:hover {
+            border-color: #667eea;
+            background: #f8f9fa;
+        }
+
+        .file-upload-area.dragover {
+            border-color: #667eea;
+            background: #edf2ff;
+        }
+
+        .modal-footer {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #718096;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 60px;
+            color: #718096;
+        }
+
+        .empty-state svg {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+            opacity: 0.3;
+        }
+
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #2d3748;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            display: none;
+            z-index: 2000;
+            animation: slideIn 0.3s ease;
+        }
+
+        .toast.success {
+            background: #48bb78;
+        }
+
+        .toast.error {
+            background: #f56565;
+        }
+
+        .toast.show {
+            display: block;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
+
+        .batch-actions {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            display: none;
+        }
+
+        .batch-actions.show {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .selected-count {
+            font-weight: 500;
+            color: #4a5568;
+        }
+
+        /* Login overlay styles */
+        .login-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            z-index: 3000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login-overlay.active {
+            display: flex;
+        }
+
+        .login-box {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 400px;
+            width: 90%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .login-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .login-header h2 {
+            font-size: 28px;
+            color: #2d3748;
+            margin-bottom: 10px;
+        }
+
+        .login-header p {
+            color: #718096;
+            font-size: 14px;
+        }
+
+        .login-input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            font-size: 14px;
+            margin-bottom: 15px;
+            transition: all 0.3s;
+        }
+
+        .login-input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .login-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .login-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .login-error {
+            background: #fee;
+            color: #c33;
+            padding: 12px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 14px;
+            display: none;
+        }
+
+        .login-error.show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎨 Content Manager</h1>
+            <p>Easy management of all your worksheet assets</p>
+        </div>
+
+        <div class="content-type-selector">
+            <button class="type-btn active" data-type="images">📷 Main Images</button>
+            <button class="type-btn" data-type="borders">🖼️ Borders</button>
+            <button class="type-btn" data-type="backgrounds">🎨 Backgrounds</button>
+            <button class="type-btn" data-type="train">🚂 Train Templates</button>
+            <button class="type-btn" data-type="worksheet">📄 Worksheet Templates</button>
+        </div>
+
+        <div class="main-content">
+            <div class="theme-sidebar" id="themeSidebar">
+                <!-- Themes will be loaded here -->
+            </div>
+
+            <div class="content-area">
+                <div class="batch-actions" id="batchActions">
+                    <div class="selected-count">
+                        <span id="selectedCount">0</span> items selected
+                    </div>
+                    <div class="action-buttons">
+                        <button class="action-btn btn-danger" onclick="deleteSelected()">
+                            🗑️ Delete Selected
+                        </button>
+                        <button class="action-btn btn-primary" onclick="moveSelected()">
+                            📁 Move to Theme
+                        </button>
+                    </div>
+                </div>
+
+                <div class="content-header">
+                    <h2 class="content-title" id="contentTitle">Select a theme</h2>
+                    <div class="action-buttons">
+                        <button class="action-btn btn-success" onclick="addNewImage()">
+                            ➕ Add Image
+                        </button>
+                        <button class="action-btn btn-primary" onclick="addNewTheme()">
+                            📁 New Theme
+                        </button>
+                        <button class="action-btn btn-primary" onclick="saveChanges()">
+                            💾 Save All Changes
+                        </button>
+                    </div>
+                </div>
+
+                <div id="contentGrid">
+                    <!-- Content will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add/Edit Image Modal -->
+    <div class="modal" id="imageModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modalTitle">Add New Image</h3>
+            </div>
+            <div class="modal-body">
+                <div class="form-group" id="fileUploadGroup">
+                    <label class="form-label">Image File</label>
+                    <div class="file-upload-area" id="fileUploadArea">
+                        <input type="file" id="imageFileInput" accept="image/*" style="display: none;">
+                        <div id="fileUploadText">🖼️ Click to upload or drag & drop</div>
+                        <div id="fileName" style="margin-top: 10px; font-weight: 500;"></div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Display Name (English)</label>
+                    <input type="text" class="form-input" id="imageDisplayName" placeholder="Enter display name">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Translations</label>
+                    <div id="translationFields">
+                        <!-- Translation fields will be added here -->
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="action-btn" onclick="closeModal()">Cancel</button>
+                <button class="action-btn btn-primary" onclick="saveImage()">Save</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Theme Modal -->
+    <div class="modal" id="themeModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Add New Theme</h3>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="form-label">Theme ID (lowercase, no spaces)</label>
+                    <input type="text" class="form-input" id="themeId" placeholder="e.g., summer_fun">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Display Name (English)</label>
+                    <input type="text" class="form-input" id="themeDisplayName" placeholder="e.g., Summer Fun">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Translations</label>
+                    <div id="themeTranslationFields">
+                        <!-- Translation fields will be added here -->
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="action-btn" onclick="closeThemeModal()">Cancel</button>
+                <button class="action-btn btn-primary" onclick="saveTheme()">Create Theme</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Login Overlay -->
+    <div class="login-overlay" id="loginOverlay">
+        <div class="login-box">
+            <div class="login-header">
+                <h2>🔒 Admin Login</h2>
+                <p>Please sign in to manage content</p>
+            </div>
+            <div class="login-error" id="loginError"></div>
+            <form id="loginForm" onsubmit="handleLogin(event)">
+                <input
+                    type="email"
+                    class="login-input"
+                    id="loginEmail"
+                    placeholder="Email address"
+                    value="admin@lessoncraftstudio.com"
+                    required
+                >
+                <input
+                    type="password"
+                    class="login-input"
+                    id="loginPassword"
+                    placeholder="Password"
+                    required
+                >
+                <button type="submit" class="login-btn" id="loginBtn">
+                    Sign In
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <script>
+        // Use dynamic URL that works in all environments
+        const API_URL = window.location.origin;
+
+        // Get authentication token from localStorage
+        function getAuthToken() {
+            return localStorage.getItem('accessToken') || '';
+        }
+
+        // Generate or retrieve device ID
+        function getDeviceId() {
+            // Check if we already have a device ID stored
+            let deviceId = localStorage.getItem('deviceId');
+
+            if (!deviceId) {
+                // Generate a unique device ID based on browser characteristics
+                const canvas = document.createElement('canvas');
+                const gl = canvas.getContext('webgl');
+                const debugInfo = gl ? gl.getExtension('WEBGL_debug_renderer_info') : null;
+                const renderer = debugInfo ? gl.getParameter(debugInfo.UNMASKED_RENDERER_WEBGL) : '';
+
+                const fingerprint = [
+                    navigator.userAgent,
+                    navigator.language,
+                    screen.width + 'x' + screen.height,
+                    screen.colorDepth,
+                    new Date().getTimezoneOffset(),
+                    renderer,
+                    navigator.hardwareConcurrency || '',
+                    navigator.deviceMemory || ''
+                ].join('|');
+
+                // Create hash of fingerprint
+                deviceId = 'device_' + btoa(fingerprint).replace(/[^a-zA-Z0-9]/g, '').substring(0, 32);
+
+                // Store for future use
+                localStorage.setItem('deviceId', deviceId);
+            }
+
+            return deviceId;
+        }
+
+        // Helper function to make authenticated requests
+        async function authenticatedFetch(url, options = {}) {
+            const token = getAuthToken();
+
+            if (!token) {
+                showLoginOverlay();
+                throw new Error('No auth token');
+            }
+
+            const response = await fetch(url, {
+                ...options,
+                headers: {
+                    ...options.headers,
+                    'Authorization': `Bearer ${token}`,
+                },
+            });
+
+            // If we get 401, token might be expired - show login again
+            if (response.status === 401) {
+                showLoginOverlay();
+                throw new Error('Authentication required');
+            }
+
+            return response;
+        }
+
+        // Show login overlay
+        function showLoginOverlay() {
+            document.getElementById('loginOverlay').classList.add('active');
+            document.getElementById('loginPassword').value = ''; // Clear password
+            document.getElementById('loginEmail').focus();
+        }
+
+        // Hide login overlay
+        function hideLoginOverlay() {
+            document.getElementById('loginOverlay').classList.remove('active');
+        }
+
+        // Handle login form submission
+        async function handleLogin(event) {
+            event.preventDefault();
+
+            const email = document.getElementById('loginEmail').value;
+            const password = document.getElementById('loginPassword').value;
+            const loginBtn = document.getElementById('loginBtn');
+            const loginError = document.getElementById('loginError');
+
+            // Clear previous errors
+            loginError.classList.remove('show');
+            loginError.textContent = '';
+
+            // Disable button during login
+            loginBtn.disabled = true;
+            loginBtn.textContent = 'Signing in...';
+
+            try {
+                // Get device ID for authentication
+                const deviceId = getDeviceId();
+
+                const response = await fetch(`${API_URL}/api/auth/signin`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        email,
+                        password,
+                        deviceId,
+                        rememberMe: false
+                    }),
+                });
+
+                if (response.ok) {
+                    const data = await response.json();
+
+                    // Store token
+                    if (data.accessToken) {
+                        localStorage.setItem('accessToken', data.accessToken);
+
+                        // Hide login overlay
+                        hideLoginOverlay();
+
+                        // Show success message
+                        showToast('Successfully logged in!', 'success');
+
+                        // Load content
+                        loadContent(currentType || 'images');
+                    } else {
+                        throw new Error('No access token received');
+                    }
+                } else if (response.status === 409) {
+                    // Device conflict - user is signed in on another device
+                    const conflictData = await response.json();
+
+                    if (confirm(
+                        `You're already signed in on another device:\n\n` +
+                        `Device: ${conflictData.currentSession?.deviceName || 'Unknown'}\n` +
+                        `Last active: ${conflictData.currentSession?.lastActive ? new Date(conflictData.currentSession.lastActive).toLocaleString() : 'Unknown'}\n\n` +
+                        `Do you want to sign out from that device and sign in here?`
+                    )) {
+                        // User wants to force sign-in - call force-signin endpoint
+                        const forceResponse = await fetch(`${API_URL}/api/auth/force-signin`, {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                            },
+                            body: JSON.stringify({
+                                email,
+                                password,
+                                deviceId,
+                                rememberMe: false
+                            }),
+                        });
+
+                        if (forceResponse.ok) {
+                            const data = await forceResponse.json();
+                            localStorage.setItem('accessToken', data.accessToken);
+                            hideLoginOverlay();
+                            showToast('Successfully logged in!', 'success');
+                            loadContent(currentType || 'images');
+                        } else {
+                            const error = await forceResponse.json();
+                            loginError.textContent = error.error || 'Failed to sign in';
+                            loginError.classList.add('show');
+                        }
+                    } else {
+                        // User cancelled
+                        loginBtn.disabled = false;
+                        loginBtn.textContent = 'Sign In';
+                        return;
+                    }
+                } else {
+                    const error = await response.json();
+                    loginError.textContent = error.error || 'Invalid email or password';
+                    loginError.classList.add('show');
+                }
+            } catch (error) {
+                console.error('Login error:', error);
+                loginError.textContent = 'Login failed. Please try again.';
+                loginError.classList.add('show');
+            } finally {
+                // Re-enable button
+                loginBtn.disabled = false;
+                loginBtn.textContent = 'Sign In';
+            }
+        }
+
+        const languages = [
+            { code: 'de', name: 'German', flag: '🇩🇪' },
+            { code: 'fr', name: 'French', flag: '🇫🇷' },
+            { code: 'es', name: 'Spanish', flag: '🇪🇸' },
+            { code: 'it', name: 'Italian', flag: '🇮🇹' },
+            { code: 'pt', name: 'Portuguese', flag: '🇵🇹' },
+            { code: 'nl', name: 'Dutch', flag: '🇳🇱' },
+            { code: 'sv', name: 'Swedish', flag: '🇸🇪' },
+            { code: 'da', name: 'Danish', flag: '🇩🇰' },
+            { code: 'no', name: 'Norwegian', flag: '🇳🇴' },
+            { code: 'fi', name: 'Finnish', flag: '🇫🇮' }
+        ];
+
+        let currentType = 'images';
+        let currentTheme = null;
+        let currentData = {};
+        let currentThemeData = null; // Current theme's full data with images
+        let currentPage = 1;
+        let totalPages = 1;
+        let hasMoreImages = false;
+        let selectedItems = new Set();
+        let pendingChanges = {};
+        let editingImage = null; // Track if we're editing an existing image
+        let editingTheme = null; // Track if we're editing an existing theme
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeEventListeners();
+            setupTranslationFields();
+            setupThemeTranslationFields();
+
+            // Check if user is authenticated
+            const token = getAuthToken();
+            if (!token) {
+                // Show login overlay immediately
+                showLoginOverlay();
+            } else {
+                // Load content if already authenticated
+                loadContent('images');
+            }
+        });
+
+        function initializeEventListeners() {
+            // Content type buttons
+            document.querySelectorAll('.type-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    loadContent(this.dataset.type);
+                });
+            });
+
+            // File upload
+            const fileUploadArea = document.getElementById('fileUploadArea');
+            const fileInput = document.getElementById('imageFileInput');
+
+            fileUploadArea.addEventListener('click', () => fileInput.click());
+            fileInput.addEventListener('change', handleFileSelect);
+
+            // Drag and drop
+            fileUploadArea.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                fileUploadArea.classList.add('dragover');
+            });
+
+            fileUploadArea.addEventListener('dragleave', () => {
+                fileUploadArea.classList.remove('dragover');
+            });
+
+            fileUploadArea.addEventListener('drop', (e) => {
+                e.preventDefault();
+                fileUploadArea.classList.remove('dragover');
+                handleFileSelect(e);
+            });
+        }
+
+        function setupTranslationFields() {
+            const container = document.getElementById('translationFields');
+            let html = '';
+            languages.forEach(lang => {
+                html += `
+                    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span style="width: 30px;">${lang.flag}</span>
+                        <input type="text" class="form-input" id="trans_${lang.code}" placeholder="${lang.name} translation">
+                    </div>
+                `;
+            });
+            container.innerHTML = html;
+        }
+
+        function setupThemeTranslationFields() {
+            const container = document.getElementById('themeTranslationFields');
+            let html = '';
+            languages.forEach(lang => {
+                html += `
+                    <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 10px;">
+                        <span style="width: 30px;">${lang.flag}</span>
+                        <input type="text" class="form-input" id="theme_trans_${lang.code}" placeholder="${lang.name} translation">
+                    </div>
+                `;
+            });
+            container.innerHTML = html;
+        }
+
+        async function loadContent(type, retryCount = 0) {
+            currentType = type;
+            currentTheme = null;
+            selectedItems.clear();
+            updateBatchActions();
+
+            const endpoint = getEndpoint(type);
+            showLoading();
+
+            try {
+                const response = await authenticatedFetch(`${API_URL}${endpoint}?type=${type}`, {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                });
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                currentData = await response.json();
+                displayThemes();
+                hideError();
+            } catch (error) {
+                console.error('Error loading content:', error);
+
+                // Check if offline
+                if (!navigator.onLine) {
+                    showError('You are offline. Please check your internet connection.', true);
+                    return;
+                }
+
+                // Retry logic (max 3 attempts)
+                if (retryCount < 2) {
+                    showToast(`Loading failed, retrying... (${retryCount + 1}/2)`, 'error');
+                    setTimeout(() => loadContent(type, retryCount + 1), 2000);
+                    return;
+                }
+
+                // Show persistent error after retries
+                showError(
+                    `Failed to load ${type}. ${error.message || 'Please try refreshing the page.'}`,
+                    true
+                );
+            }
+        }
+
+        function getEndpoint(type) {
+            const endpoints = {
+                'images': '/api/admin/images/update',
+                'borders': '/api/admin/borders/update',
+                'backgrounds': '/api/admin/backgrounds/update',
+                'train': '/api/admin/train-templates/update',
+                'worksheet': '/api/admin/worksheet-templates/update'
+            };
+            return endpoints[type] || endpoints['images'];
+        }
+
+        function displayThemes() {
+            const sidebar = document.getElementById('themeSidebar');
+            const themes = currentData.themes || [];
+
+            let html = '<h3 style="margin-bottom: 15px; color: #2d3748;">Themes</h3>';
+
+            themes.forEach(theme => {
+                // Use imageCount from API (v3.0.0) or fall back to images.length (v2.0.0)
+                const imageCount = theme.imageCount !== undefined ? theme.imageCount : (theme.images ? theme.images.length : 0);
+                html += `
+                    <div class="theme-item" data-theme="${theme.id}">
+                        <div onclick="selectTheme('${theme.id}')" style="flex: 1; cursor: pointer;">
+                            <div class="theme-name">${theme.displayNames?.en || theme.name}</div>
+                            <div class="theme-count">${imageCount} images</div>
+                        </div>
+                        <div style="display: flex; gap: 5px; margin-left: 10px;">
+                            <button class="action-btn" onclick="event.stopPropagation(); editTheme('${theme.id}')"
+                                    style="padding: 5px 8px; font-size: 12px;" title="Edit theme">
+                                ✏️
+                            </button>
+                            <button class="action-btn btn-danger" onclick="event.stopPropagation(); deleteTheme('${theme.id}')"
+                                    style="padding: 5px 8px; font-size: 12px;" title="Delete theme">
+                                🗑️
+                            </button>
+                        </div>
+                    </div>
+                `;
+            });
+
+            sidebar.innerHTML = html;
+
+            // Select first theme if available
+            if (themes.length > 0) {
+                selectTheme(themes[0].id);
+            } else {
+                document.getElementById('contentGrid').innerHTML = `
+                    <div class="empty-state">
+                        <p>No themes available. Click "New Theme" to create one.</p>
+                    </div>
+                `;
+            }
+        }
+
+        async function selectTheme(themeId) {
+            currentTheme = themeId;
+            currentPage = 1; // Reset to first page
+
+            // Update sidebar selection
+            document.querySelectorAll('.theme-item').forEach(item => {
+                item.classList.remove('active');
+                if (item.dataset.theme === themeId) {
+                    item.classList.add('active');
+                }
+            });
+
+            // Load images for this theme with pagination
+            const theme = currentData.themes.find(t => t.id === themeId);
+            if (theme) {
+                document.getElementById('contentTitle').textContent = theme.displayNames?.en || theme.name;
+                showLoading();
+                await loadThemeImages(themeId, 1);
+            }
+        }
+
+        async function loadThemeImages(themeId, page = 1, append = false) {
+            try {
+                const endpoint = getEndpoint(currentType);
+                const response = await authenticatedFetch(
+                    `${API_URL}${endpoint}?type=${currentType}&themeId=${themeId}&page=${page}&limit=100`,
+                    {
+                        method: 'GET',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                    }
+                );
+
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}`);
+                }
+
+                const data = await response.json();
+
+                // Store pagination info
+                if (data.pagination) {
+                    currentPage = data.pagination.page;
+                    totalPages = data.pagination.totalPages;
+                    hasMoreImages = data.pagination.hasMore;
+                }
+
+                // Build theme data structure
+                const themeData = {
+                    ...data.theme,
+                    images: data.images || []
+                };
+
+                if (append && currentThemeData) {
+                    // Append images to existing data
+                    currentThemeData.images = [...currentThemeData.images, ...themeData.images];
+                } else {
+                    // Replace with new data
+                    currentThemeData = themeData;
+                }
+
+                displayThemeContent(currentThemeData);
+            } catch (error) {
+                console.error('Error loading theme images:', error);
+                showToast('Failed to load images', 'error');
+            }
+        }
+
+        async function loadMoreImages() {
+            if (!hasMoreImages || !currentTheme) return;
+
+            const nextPage = currentPage + 1;
+            await loadThemeImages(currentTheme, nextPage, true); // append=true
+        }
+
+        function displayThemeContent(theme) {
+            const grid = document.getElementById('contentGrid');
+            const images = theme.images || [];
+
+            if (images.length === 0) {
+                grid.innerHTML = `
+                    <div class="empty-state">
+                        <p>No images in this theme.</p>
+                        <button class="action-btn btn-primary" onclick="addNewImage()" style="margin-top: 20px;">
+                            ➕ Add First Image
+                        </button>
+                    </div>
+                `;
+                return;
+            }
+
+            let html = '<div class="image-grid">';
+
+            images.forEach((img, index) => {
+                const imgId = `${theme.id}_${index}`;
+                html += `
+                    <div class="image-card" id="card_${imgId}">
+                        <div class="image-preview">
+                            <input type="checkbox" class="image-checkbox"
+                                   onchange="toggleSelection('${imgId}')"
+                                   id="check_${imgId}">
+                            <img src="${img.path}" alt="${img.displayName}"
+                                 onerror="this.src='/images/placeholder.png'">
+                        </div>
+                        <div class="image-info">
+                            <input type="text" class="image-name-input"
+                                   value="${img.displayName || img.filename || ''}"
+                                   placeholder="Display name"
+                                   onchange="updateImageName('${theme.id}', ${index}, this.value)">
+                            <div class="translation-grid">
+                `;
+
+                // Add mini translation inputs
+                languages.slice(0, 3).forEach(lang => {
+                    const translation = img.translations?.[lang.code] || '';
+                    html += `
+                        <div class="lang-flag">${lang.code.toUpperCase()}</div>
+                        <input type="text" class="translation-input"
+                               value="${translation}"
+                               placeholder="${lang.name}"
+                               onchange="updateTranslation('${theme.id}', ${index}, '${lang.code}', this.value)">
+                    `;
+                });
+
+                html += `
+                            </div>
+                            <div style="margin-top: 10px; display: flex; gap: 5px;">
+                                <button class="action-btn" style="padding: 5px 10px; font-size: 12px;"
+                                        onclick="editImage('${theme.id}', ${index})">✏️ Edit</button>
+                                <button class="action-btn btn-danger" style="padding: 5px 10px; font-size: 12px;"
+                                        onclick="removeImage('${img.id}')">🗑️</button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            // Add "Add New" card
+            html += `
+                <div class="image-card add-new-card" onclick="addNewImage()">
+                    <div class="add-icon">➕</div>
+                    <div>Add New Image</div>
+                </div>
+            `;
+
+            html += '</div>';
+
+            // Add pagination info and "Load More" button if there are more images
+            if (hasMoreImages) {
+                html += `
+                    <div style="text-align: center; margin-top: 30px;">
+                        <div style="margin-bottom: 15px; color: #718096;">
+                            Showing ${images.length} images (Page ${currentPage} of ${totalPages})
+                        </div>
+                        <button class="action-btn btn-primary" onclick="loadMoreImages()" style="padding: 12px 24px;">
+                            ⬇️ Load More Images (${(totalPages - currentPage) * 100} remaining)
+                        </button>
+                    </div>
+                `;
+            } else if (images.length > 100) {
+                html += `
+                    <div style="text-align: center; margin-top: 30px; color: #718096;">
+                        All ${images.length} images loaded
+                    </div>
+                `;
+            }
+
+            grid.innerHTML = html;
+        }
+
+        function toggleSelection(imgId) {
+            const checkbox = document.getElementById(`check_${imgId}`);
+            const card = document.getElementById(`card_${imgId}`);
+
+            if (checkbox.checked) {
+                selectedItems.add(imgId);
+                card.classList.add('selected');
+            } else {
+                selectedItems.delete(imgId);
+                card.classList.remove('selected');
+            }
+
+            updateBatchActions();
+        }
+
+        function updateBatchActions() {
+            const batchActions = document.getElementById('batchActions');
+            const selectedCount = document.getElementById('selectedCount');
+
+            if (selectedItems.size > 0) {
+                batchActions.classList.add('show');
+                selectedCount.textContent = selectedItems.size;
+            } else {
+                batchActions.classList.remove('show');
+            }
+        }
+
+        function updateImageName(themeId, index, value) {
+            if (!pendingChanges[themeId]) pendingChanges[themeId] = {};
+            if (!pendingChanges[themeId][index]) pendingChanges[themeId][index] = {};
+            pendingChanges[themeId][index].displayName = value;
+            showToast('Changes pending - click Save to apply', 'success');
+        }
+
+        function updateTranslation(themeId, index, lang, value) {
+            if (!pendingChanges[themeId]) pendingChanges[themeId] = {};
+            if (!pendingChanges[themeId][index]) pendingChanges[themeId][index] = {};
+            if (!pendingChanges[themeId][index].translations) pendingChanges[themeId][index].translations = {};
+            pendingChanges[themeId][index].translations[lang] = value;
+            showToast('Changes pending - click Save to apply', 'success');
+        }
+
+        async function saveChanges() {
+            // Apply pending changes to currentData
+            Object.keys(pendingChanges).forEach(themeId => {
+                const theme = currentData.themes.find(t => t.id === themeId);
+                if (theme && theme.images) {
+                    Object.keys(pendingChanges[themeId]).forEach(index => {
+                        const changes = pendingChanges[themeId][index];
+                        Object.assign(theme.images[index], changes);
+                    });
+                }
+            });
+
+            const endpoint = getEndpoint(currentType);
+
+            try {
+                const response = await authenticatedFetch(`${API_URL}${endpoint}`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ ...currentData, type: currentType })
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+
+                    // Update themes with database IDs if returned
+                    if (result.themes && Array.isArray(result.themes)) {
+                        result.themes.forEach(savedTheme => {
+                            const localTheme = currentData.themes.find(t => t.name === savedTheme.name || t.id === savedTheme.name);
+                            if (localTheme && savedTheme.dbId) {
+                                localTheme.dbId = savedTheme.dbId;
+                            }
+                        });
+                    }
+
+                    pendingChanges = {};
+                    showToast('All changes saved successfully!', 'success');
+                    loadContent(currentType);
+                } else {
+                    showToast('Error saving changes', 'error');
+                }
+            } catch (error) {
+                showToast('Error saving changes', 'error');
+                console.error('Error:', error);
+            }
+        }
+
+        function addNewImage() {
+            if (!currentTheme) {
+                showToast('Please select a theme first', 'error');
+                return;
+            }
+
+            // Clear editing state
+            editingImage = null;
+
+            // Clear form
+            document.getElementById('imageDisplayName').value = '';
+            document.getElementById('fileName').textContent = '';
+            document.getElementById('imageFileInput').value = '';
+            languages.forEach(lang => {
+                const input = document.getElementById(`trans_${lang.code}`);
+                if (input) input.value = '';
+            });
+
+            // Show file upload section
+            document.getElementById('fileUploadGroup').style.display = 'block';
+            document.getElementById('fileUploadText').textContent = '🖼️ Click to upload or drag & drop';
+
+            document.getElementById('modalTitle').textContent = 'Add New Image';
+            document.getElementById('imageModal').classList.add('active');
+        }
+
+        function addNewTheme() {
+            // Clear editing state
+            editingTheme = null;
+
+            // Clear form
+            document.getElementById('themeId').value = '';
+            document.getElementById('themeId').disabled = false; // Enable ID field for new themes
+            document.getElementById('themeDisplayName').value = '';
+            languages.forEach(lang => {
+                const input = document.getElementById(`theme_trans_${lang.code}`);
+                if (input) input.value = '';
+            });
+
+            // Update modal title and button
+            document.getElementById('themeModal').querySelector('.modal-title').textContent = 'Add New Theme';
+            document.getElementById('themeModal').querySelector('.btn-primary').textContent = 'Create Theme';
+
+            document.getElementById('themeModal').classList.add('active');
+        }
+
+        function editTheme(themeId) {
+            const theme = currentData.themes.find(t => t.id === themeId);
+            if (!theme) {
+                showToast('Theme not found', 'error');
+                return;
+            }
+
+            // Set editing state
+            editingTheme = themeId;
+
+            // Fill form with existing data
+            document.getElementById('themeId').value = theme.name || theme.id;
+            document.getElementById('themeId').disabled = true; // Disable ID editing
+            document.getElementById('themeDisplayName').value = theme.displayNames?.en || theme.name || '';
+
+            // Fill translations
+            languages.forEach(lang => {
+                const input = document.getElementById(`theme_trans_${lang.code}`);
+                if (input) input.value = theme.displayNames?.[lang.code] || '';
+            });
+
+            // Update modal title and button
+            document.getElementById('themeModal').querySelector('.modal-title').textContent = 'Edit Theme';
+            document.getElementById('themeModal').querySelector('.btn-primary').textContent = 'Save Changes';
+
+            document.getElementById('themeModal').classList.add('active');
+        }
+
+        async function deleteTheme(themeId) {
+            const theme = currentData.themes.find(t => t.id === themeId);
+            if (!theme) {
+                showToast('Theme not found', 'error');
+                return;
+            }
+
+            const imageCount = theme?.images?.length || 0;
+
+            const confirmMessage = imageCount > 0
+                ? `Are you sure you want to delete theme "${theme.displayNames?.en || theme.name}" and all ${imageCount} images?`
+                : `Are you sure you want to delete theme "${theme.displayNames?.en || theme.name}"?`;
+
+            if (!confirm(confirmMessage)) {
+                return;
+            }
+
+            try {
+                showToast('Deleting theme...', 'success');
+
+                // Check if theme has database ID (UUID format)
+                const hasDbId = theme.dbId && theme.dbId.length > 20;
+
+                if (hasDbId) {
+                    // Theme exists in database - delete via API
+                    const endpoint = getEndpoint(currentType);
+                    const response = await authenticatedFetch(`${API_URL}${endpoint}?themeId=${encodeURIComponent(theme.dbId)}`, {
+                        method: 'DELETE',
+                        headers: { 'Content-Type': 'application/json' },
+                    });
+
+                    if (!response.ok) {
+                        const error = await response.json();
+                        showToast(error.error || 'Failed to delete theme', 'error');
+                        return;
+                    }
+
+                    showToast('Theme deleted successfully!', 'success');
+                    // Reload content to reflect changes
+                    await loadContent(currentType);
+                } else {
+                    // Theme not yet saved to database - just remove from local data
+                    currentData.themes = currentData.themes.filter(t => t.id !== themeId);
+                    displayThemes();
+                    showToast('Theme removed (was not saved to database)', 'success');
+
+                    // If this was the current theme, clear selection
+                    if (currentTheme === themeId) {
+                        currentTheme = null;
+                        document.getElementById('contentGrid').innerHTML = `
+                            <div class="empty-state">
+                                <div style="font-size: 64px; margin-bottom: 20px;">📁</div>
+                                <h2 style="color: #2d3748; margin-bottom: 10px;">Select a Theme</h2>
+                                <p style="color: #718096;">Choose a theme from the left sidebar to manage its images</p>
+                            </div>
+                        `;
+                    }
+                }
+            } catch (error) {
+                console.error('Error deleting theme:', error);
+                showToast('Error deleting theme', 'error');
+            }
+        }
+
+        function editImage(themeId, index) {
+            // Use currentThemeData (which has images loaded via pagination) instead of currentData
+            if (!currentThemeData || currentThemeData.id !== themeId) {
+                showToast('Please select a theme first', 'error');
+                return;
+            }
+
+            const image = currentThemeData.images[index];
+            if (!image) {
+                showToast('Image not found', 'error');
+                return;
+            }
+
+            // Set editing state
+            editingImage = {
+                themeId: themeId,
+                index: index,
+                filename: image.filename
+            };
+
+            // Hide file upload section (not needed for editing translations)
+            document.getElementById('fileUploadGroup').style.display = 'none';
+
+            document.getElementById('modalTitle').textContent = 'Edit Image Translations';
+            document.getElementById('imageDisplayName').value = image.displayName || '';
+
+            // Fill translations
+            languages.forEach(lang => {
+                const input = document.getElementById(`trans_${lang.code}`);
+                if (input) input.value = image.translations?.[lang.code] || '';
+            });
+
+            document.getElementById('imageModal').classList.add('active');
+        }
+
+        async function removeImage(imageId) {
+            if (!confirm('Are you sure you want to delete this image? This action cannot be undone.')) {
+                return;
+            }
+
+            try {
+                showToast('Deleting image...', 'success');
+
+                // Determine the correct DELETE endpoint based on content type
+                const deleteEndpoints = {
+                    'images': `/api/admin/images/${imageId}`,
+                    'borders': `/api/admin/borders/${imageId}`,
+                    'backgrounds': `/api/admin/backgrounds/${imageId}`,
+                    'train': `/api/admin/train-templates/${imageId}`,
+                    'worksheet': `/api/admin/worksheet-templates/${imageId}`
+                };
+                const deleteEndpoint = deleteEndpoints[currentType] || `/api/admin/images/${imageId}`;
+
+                const response = await authenticatedFetch(`${API_URL}${deleteEndpoint}`, {
+                    method: 'DELETE',
+                    headers: { 'Content-Type': 'application/json' }
+                });
+
+                if (response.ok) {
+                    showToast('Image deleted successfully!', 'success');
+
+                    // Reload the current theme to show updated data
+                    if (currentTheme) {
+                        await loadThemeImages(currentTheme, 1);
+                    }
+                } else {
+                    const error = await response.json();
+                    showToast(error.error || 'Failed to delete image', 'error');
+                }
+            } catch (error) {
+                console.error('Delete error:', error);
+                showToast('Failed to delete image', 'error');
+            }
+        }
+
+        function deleteSelected() {
+            if (!confirm(`Are you sure you want to delete ${selectedItems.size} image(s)?`)) {
+                return;
+            }
+
+            // Group selections by theme for batch deletion
+            const deletionsByTheme = {};
+
+            // Parse selected IDs (format: "themeid_index")
+            selectedItems.forEach(imgId => {
+                const parts = imgId.split('_');
+                const themeId = parts.slice(0, -1).join('_'); // Handle theme IDs with underscores
+                const index = parseInt(parts[parts.length - 1]);
+
+                if (!deletionsByTheme[themeId]) {
+                    deletionsByTheme[themeId] = [];
+                }
+                deletionsByTheme[themeId].push(index);
+            });
+
+            // Delete images from each theme (in reverse order to avoid index shifts)
+            Object.keys(deletionsByTheme).forEach(themeId => {
+                const theme = currentData.themes.find(t => t.id === themeId);
+                if (theme && theme.images) {
+                    // Sort indices in descending order
+                    const indicesToDelete = deletionsByTheme[themeId].sort((a, b) => b - a);
+
+                    // Delete in reverse order
+                    indicesToDelete.forEach(index => {
+                        theme.images.splice(index, 1);
+                    });
+                }
+            });
+
+            // Clear selection
+            selectedItems.clear();
+            updateBatchActions();
+
+            // Refresh display
+            if (currentTheme) {
+                const theme = currentData.themes.find(t => t.id === currentTheme);
+                if (theme) {
+                    displayThemeContent(theme);
+                }
+            }
+
+            showToast(`${Object.values(deletionsByTheme).reduce((a, b) => a + b.length, 0)} image(s) deleted - click Save All to apply`, 'success');
+        }
+
+        function handleFileSelect(e) {
+            const file = e.dataTransfer ? e.dataTransfer.files[0] : e.target.files[0];
+            if (!file) return;
+
+            // Validate file size (5MB max)
+            const maxSize = 5 * 1024 * 1024; // 5MB
+            if (file.size > maxSize) {
+                showToast(`File too large! Max size: 5MB. Your file: ${(file.size / 1024 / 1024).toFixed(2)}MB`, 'error');
+                document.getElementById('imageFileInput').value = '';
+                return;
+            }
+
+            // Validate file type
+            const validTypes = ['image/jpeg', 'image/jpg', 'image/png', 'image/svg+xml', 'image/webp'];
+            if (!validTypes.includes(file.type)) {
+                showToast('Invalid file type! Allowed: JPG, PNG, SVG, WebP', 'error');
+                document.getElementById('imageFileInput').value = '';
+                return;
+            }
+
+            // Show file name
+            document.getElementById('fileName').textContent = `✓ ${file.name} (${(file.size / 1024).toFixed(1)}KB)`;
+            document.getElementById('fileName').style.color = '#48bb78';
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').classList.remove('active');
+            editingImage = null; // Clear editing state
+        }
+
+        function closeThemeModal() {
+            document.getElementById('themeModal').classList.remove('active');
+            editingTheme = null; // Clear editing state
+        }
+
+        async function updateImageTranslations() {
+            const displayName = document.getElementById('imageDisplayName').value;
+
+            if (!displayName) {
+                showToast('Please enter a display name', 'error');
+                return;
+            }
+
+            // Collect translations
+            const translations = { en: displayName };
+            languages.forEach(lang => {
+                const input = document.getElementById(`trans_${lang.code}`);
+                if (input && input.value) {
+                    translations[lang.code] = input.value;
+                }
+            });
+
+            // Use currentThemeData (which has images loaded via pagination) instead of currentData
+            if (!currentThemeData || !editingImage) {
+                showToast('Image data not found', 'error');
+                return;
+            }
+
+            const image = currentThemeData.images[editingImage.index];
+            if (!image) {
+                showToast('Image not found', 'error');
+                return;
+            }
+
+            // Update the image in currentThemeData
+            image.displayName = displayName;
+            image.translations = translations;
+
+            // Save changes via API
+            try {
+                showToast('Saving changes...', 'success');
+
+                const endpoint = getEndpoint(currentType);
+                const response = await authenticatedFetch(`${API_URL}${endpoint}`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        type: currentType,
+                        themes: currentData.themes.map(t => {
+                            // For the current theme, use the updated images from currentThemeData
+                            if (t.id === currentThemeData.id) {
+                                return { ...t, images: currentThemeData.images };
+                            }
+                            return t;
+                        })
+                    })
+                });
+
+                if (response.ok) {
+                    showToast('Translations updated successfully!', 'success');
+                    closeModal();
+
+                    // Reload to show updated data
+                    await loadContent(currentType);
+                    if (currentTheme) {
+                        selectTheme(currentTheme);
+                    }
+                } else {
+                    const error = await response.json();
+                    showToast(error.error || 'Failed to update', 'error');
+                }
+            } catch (error) {
+                console.error('Update error:', error);
+                showToast('Failed to update translations', 'error');
+            }
+        }
+
+        async function saveImage() {
+            const fileInput = document.getElementById('imageFileInput');
+            const file = fileInput.files[0];
+            const displayName = document.getElementById('imageDisplayName').value;
+
+            // If editing existing image (no file upload needed)
+            if (editingImage) {
+                await updateImageTranslations();
+                return;
+            }
+
+            // For new images, file is required
+            if (!file) {
+                showToast('Please select a file', 'error');
+                return;
+            }
+
+            if (!currentTheme) {
+                showToast('Please select a theme first', 'error');
+                return;
+            }
+
+            if (!displayName) {
+                showToast('Please enter a display name', 'error');
+                return;
+            }
+
+            // Collect translations
+            const translations = { en: displayName };
+            languages.forEach(lang => {
+                const input = document.getElementById(`trans_${lang.code}`);
+                if (input && input.value) {
+                    translations[lang.code] = input.value;
+                }
+            });
+
+            // Prepare form data for upload
+            const formData = new FormData();
+            formData.append('files', file);
+
+            // Get the theme database ID from currentTheme
+            const theme = currentData.themes.find(t => t.id === currentTheme);
+            if (!theme) {
+                showToast('Theme not found', 'error');
+                return;
+            }
+
+            // Use theme name as themeId for the upload endpoint
+            formData.append('themeId', currentTheme);
+            formData.append('translations', JSON.stringify({ [file.name]: translations }));
+
+            try {
+                // Show uploading state
+                showToast('Uploading image...', 'success');
+
+                // Get upload endpoint based on current type
+                const uploadEndpoints = {
+                    'images': '/api/admin/images/upload',
+                    'borders': '/api/admin/borders/upload',
+                    'backgrounds': '/api/admin/backgrounds/upload',
+                    'train': '/api/admin/train-templates/upload',
+                    'worksheet': '/api/admin/worksheet-templates/upload'
+                };
+                const uploadEndpoint = uploadEndpoints[currentType] || '/api/admin/images/upload';
+
+                const response = await authenticatedFetch(`${API_URL}${uploadEndpoint}`, {
+                    method: 'POST',
+                    body: formData,
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    showToast(`Successfully uploaded ${result.images?.length || 1} image(s)!`, 'success');
+
+                    // Clear form
+                    fileInput.value = '';
+                    document.getElementById('imageDisplayName').value = '';
+                    document.getElementById('fileName').textContent = '';
+                    languages.forEach(lang => {
+                        const input = document.getElementById(`trans_${lang.code}`);
+                        if (input) input.value = '';
+                    });
+
+                    // Close modal
+                    closeModal();
+
+                    // Reload content to show new image
+                    await loadContent(currentType);
+
+                    // Re-select the current theme
+                    if (currentTheme) {
+                        selectTheme(currentTheme);
+                    }
+                } else {
+                    const error = await response.json();
+                    showToast(error.error || 'Upload failed', 'error');
+                    console.error('Upload error:', error);
+                }
+            } catch (error) {
+                console.error('Upload error:', error);
+                showToast('Upload failed. Check console for details.', 'error');
+            }
+        }
+
+        async function saveTheme() {
+            const themeId = document.getElementById('themeId').value;
+            const displayName = document.getElementById('themeDisplayName').value;
+
+            if (!themeId || !displayName) {
+                showToast('Please fill all required fields', 'error');
+                return;
+            }
+
+            if (editingTheme) {
+                // EDITING existing theme - save immediately to database
+                const theme = currentData.themes.find(t => t.id === editingTheme);
+                if (theme) {
+                    // Update display names
+                    theme.displayNames = { en: displayName };
+
+                    // Update translations
+                    languages.forEach(lang => {
+                        const input = document.getElementById(`theme_trans_${lang.code}`);
+                        if (input && input.value) {
+                            theme.displayNames[lang.code] = input.value;
+                        }
+                    });
+
+                    // Save immediately to database
+                    const endpoint = getEndpoint(currentType);
+
+                    try {
+                        showToast('Saving theme changes...', 'success');
+
+                        const response = await authenticatedFetch(`${API_URL}${endpoint}`, {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({ ...currentData, type: currentType })
+                        });
+
+                        if (response.ok) {
+                            showToast('Theme updated successfully!', 'success');
+                            closeThemeModal();
+
+                            // Reload to reflect changes
+                            await loadContent(currentType);
+
+                            // Re-select the edited theme
+                            if (currentTheme === editingTheme) {
+                                selectTheme(editingTheme);
+                            }
+
+                            editingTheme = null;
+                        } else {
+                            const error = await response.json();
+                            showToast(error.error || 'Failed to update theme', 'error');
+                        }
+                    } catch (error) {
+                        console.error('Error updating theme:', error);
+                        showToast('Error updating theme', 'error');
+                    }
+                }
+            } else {
+                // CREATING new theme - save immediately to database
+                const newTheme = {
+                    id: themeId,
+                    name: themeId,
+                    displayNames: { en: displayName },
+                    active: true,
+                    sortOrder: currentData.themes.length + 1,
+                    images: []
+                };
+
+                // Add translations
+                languages.forEach(lang => {
+                    const input = document.getElementById(`theme_trans_${lang.code}`);
+                    if (input && input.value) {
+                        newTheme.displayNames[lang.code] = input.value;
+                    }
+                });
+
+                // Add to local data first
+                currentData.themes.push(newTheme);
+
+                // Save immediately to database
+                const endpoint = getEndpoint(currentType);
+
+                try {
+                    showToast('Creating theme...', 'success');
+
+                    const response = await authenticatedFetch(`${API_URL}${endpoint}`, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ ...currentData, type: currentType })
+                    });
+
+                    if (response.ok) {
+                        const result = await response.json();
+
+                        // Update theme with database ID if returned
+                        if (result.themes && Array.isArray(result.themes)) {
+                            const savedTheme = result.themes.find(t => t.name === themeId);
+                            if (savedTheme && savedTheme.dbId) {
+                                newTheme.dbId = savedTheme.dbId;
+                            }
+                        }
+
+                        showToast('Theme created successfully!', 'success');
+                        closeThemeModal();
+
+                        // Reload to reflect changes
+                        await loadContent(currentType);
+
+                        // Auto-select the new theme
+                        selectTheme(themeId);
+                    } else {
+                        // Remove from local data if save failed
+                        currentData.themes = currentData.themes.filter(t => t.id !== themeId);
+                        const error = await response.json();
+                        showToast(error.error || 'Failed to create theme', 'error');
+                    }
+                } catch (error) {
+                    // Remove from local data if save failed
+                    currentData.themes = currentData.themes.filter(t => t.id !== themeId);
+                    console.error('Error creating theme:', error);
+                    showToast('Error creating theme', 'error');
+                }
+            }
+        }
+
+        function showToast(message, type = 'success') {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.className = `toast ${type} show`;
+
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+
+        function showLoading() {
+            document.getElementById('contentGrid').innerHTML = `
+                <div class="loading">
+                    <div style="font-size: 48px; margin-bottom: 20px;">⏳</div>
+                    <div style="font-size: 18px;">Loading content...</div>
+                </div>
+            `;
+        }
+
+        function showError(message, persistent = false) {
+            const grid = document.getElementById('contentGrid');
+            grid.innerHTML = `
+                <div class="empty-state">
+                    <div style="font-size: 64px; margin-bottom: 20px; color: #f56565;">⚠️</div>
+                    <h2 style="color: #2d3748; margin-bottom: 10px;">Error</h2>
+                    <p style="color: #718096; margin-bottom: 20px;">${message}</p>
+                    ${persistent ? `
+                        <button class="action-btn btn-primary" onclick="location.reload()" style="margin-right: 10px;">
+                            🔄 Refresh Page
+                        </button>
+                        <button class="action-btn" onclick="loadContent(currentType)">
+                            🔁 Retry
+                        </button>
+                    ` : ''}
+                </div>
+            `;
+        }
+
+        function hideError() {
+            // Error is hidden when content loads successfully
+        }
+
+        // Online/Offline detection
+        window.addEventListener('online', () => {
+            showToast('✓ Back online', 'success');
+            if (currentType) {
+                loadContent(currentType);
+            }
+        });
+
+        window.addEventListener('offline', () => {
+            showToast('⚠ You are offline', 'error');
+        });
+
+        // Global error handler
+        window.addEventListener('unhandledrejection', (event) => {
+            console.error('Unhandled promise rejection:', event.reason);
+            showToast('An unexpected error occurred', 'error');
+        });
+    </script>
+</body>
+</html>

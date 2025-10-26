@@ -2526,8 +2526,8 @@ document.addEventListener("DOMContentLoaded", function() {
         // Inner border - Sunny yellow accent (responsive)
         const innerMargin = margin + 12.5;
         const innerBorder = new fabric.Rect({
-            left: innerMargin,
-            top: innerMargin,
+            left: innerMargin + 2,  // Offset 2px to the right
+            top: innerMargin + 3,   // Offset 3px downward
             width: pageWidth - (innerMargin * 2),
             height: pageHeight - (innerMargin * 2),
             fill: 'transparent',
@@ -2645,7 +2645,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             const titleText = new fabric.IText(title, {
                 left: pageWidth / 2,
-                top: headerTop + 50,
+                top: headerTop + 40,  // Vertically centered in 80px header (80/2 = 40)
                 fontSize: titleFontSize,
                 fontFamily: 'Fredoka, sans-serif',
                 fontWeight: '700',

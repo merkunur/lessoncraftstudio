@@ -1644,8 +1644,8 @@
           const innerBorderHeight = pageHeight - (innerMargin * 2);
 
           const innerBorder = new fabric.Rect({
-              left: innerMargin,
-              top: innerMargin,
+              left: innerMargin + 2,  // Offset 2px to the right
+              top: innerMargin + 3,   // Offset 3px downward
               width: innerBorderWidth,
               height: innerBorderHeight,
               fill: 'transparent',

@@ -1797,8 +1797,8 @@ document.addEventListener("DOMContentLoaded", async function() {
 
         // Inner border - sunny yellow
         const innerBorder = new fabric.Rect({
-            left: innerMargin,
-            top: innerMargin,
+            left: innerMargin + 2,  // Offset 2px to the right
+            top: innerMargin + 3,   // Offset 3px downward
             width: width - (innerMargin * 2),
             height: height - (innerMargin * 2),
             fill: 'transparent',

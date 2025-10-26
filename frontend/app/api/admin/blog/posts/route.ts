@@ -24,13 +24,14 @@ export async function GET(request: NextRequest) {
     if (status) where.status = status;
     if (category) where.category = category;
 
-    const [posts, total] = await Promise.all([
+    const [rawPosts, total] = await Promise.all([
       prisma.blogPost.findMany({
         where,
         include: {
           pdfs: {
             orderBy: { sortOrder: 'asc' },
           },
+          author: true,
         },
         orderBy: { createdAt: 'desc' },
         take: limit,
@@ -38,6 +39,21 @@ export async function GET(request: NextRequest) {
       }),
       prisma.blogPost.count({ where }),
     ]);
+
+    // Transform posts for blog content manager UI
+    const posts = rawPosts.map(post => {
+      const translations = post.translations as any;
+      const authorName = post.author
+        ? `${post.author.firstName || ''} ${post.author.lastName || ''}`.trim() || 'Unknown'
+        : 'Unknown';
+      return {
+        ...post,
+        title: translations?.en?.title || 'Untitled',
+        excerpt: translations?.en?.content?.substring(0, 150) || '',
+        date: post.createdAt.toISOString().split('T')[0],
+        author: authorName,
+      };
+    });
 
     return NextResponse.json({
       posts,

@@ -24,15 +24,20 @@ export default function LaunchAppButton({
   const { user, loading } = useAuth();
   const [hasAccess, setHasAccess] = useState(false);
 
+  // Calculate access immediately when user data is available, even during loading
+  // This ensures tier recognition works right after sign-in without requiring a page refresh
+  // If subscription tier changes after API verification, this will recalculate automatically
   useEffect(() => {
-    if (!loading && user) {
+    if (user) {
       // Check if user has access based on subscription tier
       const tierHierarchy = { free: 0, core: 1, full: 2 };
       const userTierLevel = tierHierarchy[user.subscriptionTier as keyof typeof tierHierarchy] || 0;
       const requiredTierLevel = tierHierarchy[appTier as keyof typeof tierHierarchy] || 0;
       setHasAccess(userTierLevel >= requiredTierLevel);
+    } else {
+      setHasAccess(false);
     }
-  }, [user, loading, appTier]);
+  }, [user?.subscriptionTier, appTier]);
 
   const handleLaunchApp = () => {
     const url = `/worksheet-generators/${sourceFile}?tier=${user?.subscriptionTier || 'free'}&locale=${locale}`;

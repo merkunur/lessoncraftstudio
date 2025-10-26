@@ -65,14 +65,15 @@ export default function AppCard({ app, locale, appName, categoryName }: AppCardP
   const [hasAccess, setHasAccess] = useState(false);
 
   // Check if user has access to this app
+  // Calculate access immediately when user data is available, even during loading
+  // This ensures tier recognition works right after sign-in without requiring a page refresh
+  // If subscription tier changes after API verification, this will recalculate automatically
   useEffect(() => {
-    if (!loading) {
-      const tierHierarchy = { free: 0, core: 1, full: 2 };
-      const userTierLevel = tierHierarchy[user?.subscriptionTier as keyof typeof tierHierarchy] || 0;
-      const requiredTierLevel = tierHierarchy[app.tier as keyof typeof tierHierarchy] || 0;
-      setHasAccess(userTierLevel >= requiredTierLevel);
-    }
-  }, [user, loading, app.tier]);
+    const tierHierarchy = { free: 0, core: 1, full: 2 };
+    const userTierLevel = tierHierarchy[user?.subscriptionTier as keyof typeof tierHierarchy] || 0;
+    const requiredTierLevel = tierHierarchy[app.tier as keyof typeof tierHierarchy] || 0;
+    setHasAccess(userTierLevel >= requiredTierLevel);
+  }, [user?.subscriptionTier, app.tier]);
 
   const tierColors: Record<AppTier, string> = {
     free: 'border-green-500 bg-green-50',

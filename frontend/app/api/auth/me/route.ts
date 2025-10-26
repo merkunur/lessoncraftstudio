@@ -25,6 +25,25 @@ export async function GET(request: NextRequest) {
       );
     }
 
+    // Check if session still exists in database (prevents revoked sessions from working)
+    const session = await prisma.session.findFirst({
+      where: {
+        token: token,
+        userId: payload.userId,
+        expiresAt: {
+          gt: new Date()  // Session not expired
+        }
+      }
+    });
+
+    if (!session) {
+      // Session was revoked or doesn't exist
+      return NextResponse.json(
+        { error: 'Session expired or revoked. Please sign in again.' },
+        { status: 401 }
+      );
+    }
+
     // Get user with subscription and usage stats
     const user = await prisma.user.findUnique({
       where: { id: payload.userId },
@@ -154,6 +173,25 @@ export async function PATCH(request: NextRequest) {
     if (!payload) {
       return NextResponse.json(
         { error: 'Invalid or expired token' },
+        { status: 401 }
+      );
+    }
+
+    // Check if session still exists in database (prevents revoked sessions from working)
+    const session = await prisma.session.findFirst({
+      where: {
+        token: token,
+        userId: payload.userId,
+        expiresAt: {
+          gt: new Date()  // Session not expired
+        }
+      }
+    });
+
+    if (!session) {
+      // Session was revoked or doesn't exist
+      return NextResponse.json(
+        { error: 'Session expired or revoked. Please sign in again.' },
         { status: 401 }
       );
     }

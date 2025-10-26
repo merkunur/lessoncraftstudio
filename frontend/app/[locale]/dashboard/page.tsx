@@ -136,10 +136,39 @@ export default function DashboardPage() {
       return;
     }
 
-    const userData = JSON.parse(userStr);
-    setUser(userData);
-    fetchRecentGenerations(token);
+    // Verify session is still valid by calling API
+    verifySession(token);
   }, [router]);
+
+  const verifySession = async (token: string) => {
+    try {
+      const response = await fetch('/api/auth/me', {
+        headers: {
+          'Authorization': `Bearer ${token}`
+        }
+      });
+
+      if (!response.ok) {
+        // Session expired or revoked - redirect to signin
+        localStorage.removeItem('accessToken');
+        localStorage.removeItem('refreshToken');
+        localStorage.removeItem('user');
+        router.push('/auth/signin');
+        return;
+      }
+
+      const data = await response.json();
+      setUser(data.user);
+      fetchRecentGenerations(token);
+    } catch (error) {
+      console.error('Session verification failed:', error);
+      // On error, clear tokens and redirect
+      localStorage.removeItem('accessToken');
+      localStorage.removeItem('refreshToken');
+      localStorage.removeItem('user');
+      router.push('/auth/signin');
+    }
+  };
 
   const fetchRecentGenerations = async (token: string) => {
     try {

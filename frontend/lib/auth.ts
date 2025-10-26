@@ -22,6 +22,22 @@ export async function getCurrentUser(request: NextRequest) {
       return null;
     }
 
+    // Check if session still exists in database (prevents revoked sessions from working)
+    const session = await prisma.session.findFirst({
+      where: {
+        token: token,
+        userId: payload.userId,
+        expiresAt: {
+          gt: new Date()  // Session not expired
+        }
+      }
+    });
+
+    if (!session) {
+      // Session was revoked or doesn't exist
+      return null;
+    }
+
     // Get user from database with subscription
     const user = await prisma.user.findUnique({
       where: { id: payload.userId },

@@ -56,6 +56,17 @@ const nextConfig = {
       },
     ];
   },
+
+  // Redirects for SEO and locale routing
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/en',
+        permanent: false, // 307 temporary redirect
+      },
+    ];
+  },
 };
 
 module.exports = withNextIntl(nextConfig);

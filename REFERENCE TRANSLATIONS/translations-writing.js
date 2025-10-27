@@ -198,10 +198,10 @@ const translations = {
     "settings.pageSetup": "Seiteneinrichtung",
     "library.title": "Bilderbibliothek",
     "library.uploadTitle": "Eigene Bilder Hochladen",
-    "settings.textTools": "Textwerkzeuge",
+    "settings.textTools": "Textbearbeitung",
 
     // ===== 4. PAGE SETUP (14 items) =====
-    "settings.pageSize": "Seitengröße:",
+    "settings.pageSize": "Papierformat:",
     "pageSize.letterPortrait": "Letter Hochformat (8,5×11\")",
     "pageSize.letterLandscape": "Letter Querformat (11×8,5\")",
     "pageSize.a4Portrait": "A4 Hochformat (210×297mm)",
@@ -211,9 +211,9 @@ const translations = {
     "settings.height": "Höhe (px):",
     "decoration.backgroundTheme": "Hintergrundthema:",
     "decoration.none": "Keines",
-    "decoration.backgroundOpacity": "Hintergrunddeckkraft:",
+    "decoration.backgroundOpacity": "Hintergrund-Deckkraft:",
     "decoration.borderTheme": "Rahmenthema:",
-    "decoration.borderOpacity": "Rahmendeckkraft:",
+    "decoration.borderOpacity": "Rahmen-Deckkraft:",
     "decoration.background": "Hintergrund",
     "decoration.border": "Rahmen",
 
@@ -308,7 +308,7 @@ const translations = {
     "button.downloadPdf": "Als PDF herunterladen",
     "button.downloadJpeg": "Als JPEG herunterladen",
     "settings.grayscale": "Graustufen",
-    "button.clearAll": "Alles löschen",
+    "button.clearAll": "Alles zurücksetzen",
 
     // ===== 12. SUCCESS MESSAGES (5 items) =====
     "message.rowCropped": "Zeile erfolgreich zugeschnitten.",
@@ -320,9 +320,9 @@ const translations = {
     "message.cropNotSupported": "Zuschneiden wird für diesen Zeilentyp nicht unterstützt.",
     "message.noContentToCrop": "Diese Zeile hat keinen Inhalt zum Zuschneiden.",
     "message.noOverflow": "Kein Überlauf zum Abschneiden vorhanden.",
-    "message.generateContent": "Bitte erst Inhalt generieren.",
+    "message.generateContent": "Bitte erst Inhalt erstellen.",
     "message.pdfError": "Fehler beim Erstellen der PDF.",
-    "message.generateWorksheet": "Bitte erst ein Arbeitsblatt generieren.",
+    "message.generateWorksheet": "Bitte erst ein Arbeitsblatt erstellen.",
     "message.jpegError": "Fehler beim Vorbereiten des JPEG.",
 
     // ===== 14. INFO/LOADING MESSAGES (10 items) =====
@@ -368,7 +368,7 @@ const translations = {
     "settings.pageSetup": "Configuration de la Page",
     "library.title": "Bibliothèque d'Images",
     "library.uploadTitle": "Télécharger Vos Images",
-    "settings.textTools": "Outils de Texte",
+    "settings.textTools": "Options de texte",
 
     // ===== 4. PAGE SETUP (14 items) =====
     "settings.pageSize": "Format de Page :",
@@ -538,7 +538,7 @@ const translations = {
     "settings.pageSetup": "Configuración de Página",
     "library.title": "Biblioteca de Imágenes",
     "library.uploadTitle": "Subir Imágenes Propias",
-    "settings.textTools": "Herramientas de Texto",
+    "settings.textTools": "Opciones de texto",
 
     // ===== 4. PAGE SETUP (14 items) =====
     "settings.pageSize": "Tamaño de Página:",
@@ -687,7 +687,7 @@ const translations = {
 
   it: {
     // ===== 1. PAGE & HERO (2 items) =====
-    "page.title": "Generatore di Schede di Scrittura",
+    "page.title": "Creatore di Schede di Scrittura",
     "settings.title": "Scheda di Scrittura",
 
     // ===== 2. LANGUAGE SECTION (12 items) =====
@@ -708,7 +708,7 @@ const translations = {
     "settings.pageSetup": "Impostazione Pagina",
     "library.title": "Raccolta Immagini",
     "library.uploadTitle": "Carica le Tue Immagini",
-    "settings.textTools": "Strumenti di Testo",
+    "settings.textTools": "Opzioni di testo",
 
     // ===== 4. PAGE SETUP (14 items) =====
     "settings.pageSize": "Formato Pagina:",
@@ -826,9 +826,9 @@ const translations = {
     "message.cropNotSupported": "Il ritaglio non è supportato per questo tipo di riga.",
     "message.noContentToCrop": "Questa riga non ha contenuto da ritagliare.",
     "message.noOverflow": "Nessuna eccedenza da ritagliare.",
-    "message.generateContent": "Per favore, genera prima il contenuto.",
+    "message.generateContent": "Per favore, crea prima il contenuto.",
     "message.pdfError": "Errore nella creazione del PDF.",
-    "message.generateWorksheet": "Per favore, genera prima una scheda.",
+    "message.generateWorksheet": "Per favore, crea prima una scheda.",
     "message.jpegError": "Errore nella preparazione del JPEG.",
 
     // ===== 14. INFO/LOADING MESSAGES (10 items) =====
@@ -873,7 +873,7 @@ const translations = {
     "settings.pageSetup": "Configuração da Página",
     "library.title": "Biblioteca de Imagens",
     "library.uploadTitle": "Carregar Imagens Personalizadas",
-    "settings.textTools": "Ferramentas de Texto",
+    "settings.textTools": "Opções de texto",
 
     // ===== 4. PAGE SETUP (14 items) =====
     "settings.pageSize": "Tamanho da Página:",
@@ -1043,7 +1043,7 @@ const translations = {
     "settings.pageSetup": "Pagina-instellingen",
     "library.title": "Afbeeldingen Bibliotheek",
     "library.uploadTitle": "Eigen Afbeeldingen Uploaden",
-    "settings.textTools": "Tekstgereedschappen",
+    "settings.textTools": "Tekstopties",
 
     // ===== 4. PAGE SETUP (14 items) =====
     "settings.pageSize": "Paginaformaat:",
@@ -1056,9 +1056,9 @@ const translations = {
     "settings.height": "Hoogte (px):",
     "decoration.backgroundTheme": "Achtergrondthema:",
     "decoration.none": "Geen",
-    "decoration.backgroundOpacity": "Achtergrond Transparantie:",
+    "decoration.backgroundOpacity": "Achtergronddekking:",
     "decoration.borderTheme": "Randthema:",
-    "decoration.borderOpacity": "Rand Transparantie:",
+    "decoration.borderOpacity": "Randdekking:",
     "decoration.background": "Achtergrond",
     "decoration.border": "Rand",
 
@@ -1213,7 +1213,7 @@ const translations = {
     "settings.pageSetup": "Sidinställningar",
     "library.title": "Bildbibliotek",
     "library.uploadTitle": "Ladda upp Egna Bilder",
-    "settings.textTools": "Textverktyg",
+    "settings.textTools": "Textalternativ",
 
     // ===== 4. PAGE SETUP (14 items) =====
     "settings.pageSize": "Sidstorlek:",
@@ -1226,9 +1226,9 @@ const translations = {
     "settings.height": "Höjd (px):",
     "decoration.backgroundTheme": "Bakgrundstema:",
     "decoration.none": "Ingen",
-    "decoration.backgroundOpacity": "Bakgrundens Genomskinlighet:",
+    "decoration.backgroundOpacity": "Bakgrundsopacitet:",
     "decoration.borderTheme": "Ramtema:",
-    "decoration.borderOpacity": "Ramens Genomskinlighet:",
+    "decoration.borderOpacity": "Ramopacitet:",
     "decoration.background": "Bakgrund",
     "decoration.border": "Kant",
 
@@ -1331,9 +1331,9 @@ const translations = {
     "message.cropNotSupported": "Beskärning stöds inte för denna radtyp.",
     "message.noContentToCrop": "Denna rad har inget innehåll att beskära.",
     "message.noOverflow": "Inget överflöd att beskära.",
-    "message.generateContent": "Vänligen generera innehåll först.",
+    "message.generateContent": "Vänligen skapa innehåll först.",
     "message.pdfError": "Fel vid skapande av PDF.",
-    "message.generateWorksheet": "Vänligen generera ett arbetsblad först.",
+    "message.generateWorksheet": "Vänligen skapa ett arbetsblad först.",
     "message.jpegError": "Fel vid förberedelse av JPEG.",
 
     // ===== 14. INFO/LOADING MESSAGES (10 items) =====
@@ -1383,7 +1383,7 @@ const translations = {
     "settings.pageSetup": "Sideopsætning",
     "library.title": "Billedbibliotek",
     "library.uploadTitle": "Upload Egne Billeder",
-    "settings.textTools": "Tekstværktøjer",
+    "settings.textTools": "Tekstindstillinger",
 
     // ===== 4. PAGE SETUP (14 items) =====
     "settings.pageSize": "Sidestørrelse:",
@@ -1396,9 +1396,9 @@ const translations = {
     "settings.height": "Højde (px):",
     "decoration.backgroundTheme": "Baggrundstema:",
     "decoration.none": "Ingen",
-    "decoration.backgroundOpacity": "Baggrunds Gennemsigtighed:",
+    "decoration.backgroundOpacity": "Baggrundsdekning:",
     "decoration.borderTheme": "Rammetema:",
-    "decoration.borderOpacity": "Rammens Gennemsigtighed:",
+    "decoration.borderOpacity": "Rammedekning:",
     "decoration.background": "Baggrund",
     "decoration.border": "Ramme",
 
@@ -1501,9 +1501,9 @@ const translations = {
     "message.cropNotSupported": "Beskæring understøttes ikke for denne rækketype.",
     "message.noContentToCrop": "Denne række har intet indhold at beskære.",
     "message.noOverflow": "Intet overløb at beskære.",
-    "message.generateContent": "Generer venligst indhold først.",
+    "message.generateContent": "Opret venligst indhold først.",
     "message.pdfError": "Fejl ved oprettelse af PDF.",
-    "message.generateWorksheet": "Generer venligst et arbejdsark først.",
+    "message.generateWorksheet": "Opret venligst et arbejdsark først.",
     "message.jpegError": "Fejl ved forberedelse af JPEG.",
 
     // ===== 14. INFO/LOADING MESSAGES (10 items) =====
@@ -1553,7 +1553,7 @@ const translations = {
     "settings.pageSetup": "Sideoppsett",
     "library.title": "Bildebibliotek",
     "library.uploadTitle": "Last Opp Egne Bilder",
-    "settings.textTools": "Tekstverktøy",
+    "settings.textTools": "Tekstinnstillinger",
 
     // ===== 4. PAGE SETUP (14 items) =====
     "settings.pageSize": "Sidestørrelse:",
@@ -1566,9 +1566,9 @@ const translations = {
     "settings.height": "Høyde (px):",
     "decoration.backgroundTheme": "Bakgrunnstema:",
     "decoration.none": "Ingen",
-    "decoration.backgroundOpacity": "Bakgrunnens Gjennomsiktighet:",
+    "decoration.backgroundOpacity": "Bakgrunnsdekkevne:",
     "decoration.borderTheme": "Rammetema:",
-    "decoration.borderOpacity": "Rammens Gjennomsiktighet:",
+    "decoration.borderOpacity": "Rammedekkevne:",
     "decoration.background": "Bakgrunn",
     "decoration.border": "Ramme",
 
@@ -1659,7 +1659,7 @@ const translations = {
     "button.downloadPdf": "Last Ned som PDF",
     "button.downloadJpeg": "Last Ned som JPEG",
     "settings.grayscale": "Gråtoner",
-    "button.clearAll": "Tøm Alt",
+    "button.clearAll": "Slett alt",
 
     // ===== 12. SUCCESS MESSAGES (5 items) =====
     "message.rowCropped": "Linjen er beskåret.",
@@ -1671,9 +1671,9 @@ const translations = {
     "message.cropNotSupported": "Beskjæring støttes ikke for denne linjetypen.",
     "message.noContentToCrop": "Denne linjen har ikke innhold å beskjære.",
     "message.noOverflow": "Ingenting overflødig å beskjære.",
-    "message.generateContent": "Vennligst generer innhold først.",
+    "message.generateContent": "Vennligst opprett innhold først.",
     "message.pdfError": "Feil ved opprettelse av PDF.",
-    "message.generateWorksheet": "Vennligst generer et arbeidsark først.",
+    "message.generateWorksheet": "Vennligst opprett et arbeidsark først.",
     "message.jpegError": "Feil ved klargjøring av JPEG.",
 
     // ===== 14. INFO/LOADING MESSAGES (10 items) =====
@@ -1723,7 +1723,7 @@ const translations = {
     "settings.pageSetup": "Sivun Asetukset",
     "library.title": "Kuvakirjasto",
     "library.uploadTitle": "Lataa Omia Kuvia",
-    "settings.textTools": "Tekstityökalut",
+    "settings.textTools": "Tekstivaihtoehdot",
 
     // ===== 4. PAGE SETUP (14 items) =====
     "settings.pageSize": "Sivun Koko:",
@@ -1736,9 +1736,9 @@ const translations = {
     "settings.height": "Korkeus (px):",
     "decoration.backgroundTheme": "Taustateema:",
     "decoration.none": "Ei mitään",
-    "decoration.backgroundOpacity": "Taustan Läpinäkyvyys:",
+    "decoration.backgroundOpacity": "Taustan läpinäkyvyys:",
     "decoration.borderTheme": "Reunusteema:",
-    "decoration.borderOpacity": "Reunuksen Läpinäkyvyys:",
+    "decoration.borderOpacity": "Reunuksen läpinäkyvyys:",
     "decoration.background": "Tausta",
     "decoration.border": "Reunus",
 

@@ -259,17 +259,17 @@ const DRAWING_LINES_TRANSLATIONS = {
     "downloadAsJpeg": "Als JPEG speichern",
     "downloadAsPdf": "Als PDF speichern",
     "grayscale": "Graustufen",
-    "clearAll": "Alles löschen",
+    "clearAll": "Alles zurücksetzen",
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Seiteneinstellungen",
-    "textTools": "Textwerkzeuge",
+    "textTools": "Textbearbeitung",
     "templateAndImages": "Vorlage & Bilder",
     "imageLibrary": "Bildsammlung",
     "uploadCustomImages": "Eigene Bilder hochladen",
 
     // ============= PAGE SETUP =============
-    "pageSize": "Seitengröße:",
+    "pageSize": "Papierformat:",
     "letterPortrait": "Letter Hochformat (8,5×11\")",
     "letterLandscape": "Letter Querformat (11×8,5\")",
     "a4Portrait": "A4 Hochformat (210×297mm)",
@@ -291,13 +291,13 @@ const DRAWING_LINES_TRANSLATIONS = {
     "borderTheme": "Rahmenvorlage:",
     "none": "Keine",
     "common.none": "Kein",
-    "borderOpacity": "Rahmentransparenz:",
+    "borderOpacity": "Rahmen-Deckkraft:",
     "selectBorderTheme": "Wählen Sie ein Thema für Rahmen.",
 
     // ============= BACKGROUND SECTION =============
     "background": "Hintergrund",
     "backgroundTheme": "Hintergrundvorlage:",
-    "backgroundOpacity": "Hintergrundtransparenz:",
+    "backgroundOpacity": "Hintergrund-Deckkraft:",
     "selectBackgroundTheme": "Wählen Sie ein Thema für Hintergründe.",
 
     // ============= TEXT TOOLS =============
@@ -465,7 +465,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Mise en page",
-    "textTools": "Outils de texte",
+    "textTools": "Options de texte",
     "templateAndImages": "Modèle et images",
     "imageLibrary": "Bibliothèque d'images",
     "uploadCustomImages": "Importer vos images",
@@ -668,7 +668,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Configuración de página",
-    "textTools": "Herramientas de texto",
+    "textTools": "Opciones de texto",
     "templateAndImages": "Plantilla e imágenes",
     "imageLibrary": "Biblioteca de imágenes",
     "uploadCustomImages": "Cargar imágenes propias",
@@ -871,7 +871,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Impostazioni pagina",
-    "textTools": "Strumenti di testo",
+    "textTools": "Opzioni di testo",
     "templateAndImages": "Modello e immagini",
     "imageLibrary": "Libreria immagini",
     "uploadCustomImages": "Carica le tue immagini",
@@ -1074,7 +1074,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Configuração da página",
-    "textTools": "Ferramentas de texto",
+    "textTools": "Opções de texto",
     "templateAndImages": "Modelo e imagens",
     "imageLibrary": "Biblioteca de imagens",
     "uploadCustomImages": "Carregar suas imagens",
@@ -1277,7 +1277,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Pagina-instellingen",
-    "textTools": "Tekstgereedschappen",
+    "textTools": "Tekstopties",
     "templateAndImages": "Sjabloon & afbeeldingen",
     "imageLibrary": "Afbeeldingenbibliotheek",
     "uploadCustomImages": "Eigen afbeeldingen uploaden",
@@ -1306,13 +1306,13 @@ const DRAWING_LINES_TRANSLATIONS = {
     "none": "Geen",
     "common.none": "Geen",
     "none": "Geen",
-    "borderOpacity": "Randdoorzichtigheid:",
+    "borderOpacity": "Randdekking:",
     "selectBorderTheme": "Kies een thema om randen te bekijken.",
 
     // ============= BACKGROUND SECTION =============
     "background": "Achtergrond",
     "backgroundTheme": "Achtergrondthema:",
-    "backgroundOpacity": "Achtergronddoorzichtigheid:",
+    "backgroundOpacity": "Achtergronddekking:",
     "selectBackgroundTheme": "Kies een thema om achtergronden te bekijken.",
 
     // ============= TEXT TOOLS =============
@@ -1419,7 +1419,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "pleaseSelectDrawingTemplate": "Selecteer een verbindingssjabloon.",
     "cannotAutoFill": "Kan niet automatisch vullen. Selecteer een thema of upload afbeeldingen.",
     "pleaseFillAllImagePairs": "Vul alle afbeeldingsparen in of schakel automatisch vullen in.",
-    "errorDuringGeneration": "Er is een fout opgetreden tijdens het genereren.",
+    "errorDuringGeneration": "Er is een fout opgetreden tijdens het maken.",
     "failedToLoadOverlayImage": "Kon {type}-afbeelding niet laden.",
     "grayscaleConversionFailed": "Conversie naar grijstinten mislukt.",
     "pleaseGenerateWorksheetFirst": "Maak eerst een werkblad.",
@@ -1480,7 +1480,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Sidinställningar",
-    "textTools": "Textverktyg",
+    "textTools": "Textalternativ",
     "templateAndImages": "Mall och bilder",
     "imageLibrary": "Bildbibliotek",
     "uploadCustomImages": "Ladda upp egna bilder",
@@ -1509,13 +1509,13 @@ const DRAWING_LINES_TRANSLATIONS = {
     "none": "Ingen",
     "common.none": "Ingen",
     "none": "Ingen",
-    "borderOpacity": "Ramgenomskinlighet:",
+    "borderOpacity": "Ramopacitet:",
     "selectBorderTheme": "Välj ett tema för att se ramar.",
 
     // ============= BACKGROUND SECTION =============
     "background": "Bakgrund",
     "backgroundTheme": "Bakgrundstema:",
-    "backgroundOpacity": "Bakgrundsgenomskinlighet:",
+    "backgroundOpacity": "Bakgrundsopacitet:",
     "selectBackgroundTheme": "Välj ett tema för att se bakgrunder.",
 
     // ============= TEXT TOOLS =============
@@ -1683,7 +1683,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Sideopsætning",
-    "textTools": "Tekstværktøjer",
+    "textTools": "Tekstindstillinger",
     "templateAndImages": "Skabelon og billeder",
     "imageLibrary": "Billedbibliotek",
     "uploadCustomImages": "Upload egne billeder",
@@ -1712,13 +1712,13 @@ const DRAWING_LINES_TRANSLATIONS = {
     "none": "Ingen",
     "common.none": "Ingen",
     "none": "Ingen",
-    "borderOpacity": "Rammegennemsigtighed:",
+    "borderOpacity": "Kantdekning:",
     "selectBorderTheme": "Vælg et tema for at se rammer.",
 
     // ============= BACKGROUND SECTION =============
     "background": "Baggrund",
     "backgroundTheme": "Baggrundstema:",
-    "backgroundOpacity": "Baggrundsgennemsigtighed:",
+    "backgroundOpacity": "Baggrundsdekning:",
     "selectBackgroundTheme": "Vælg et tema for at se baggrunde.",
 
     // ============= TEXT TOOLS =============
@@ -1886,7 +1886,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Sideoppsett",
-    "textTools": "Tekstverktøy",
+    "textTools": "Tekstinnstillinger",
     "templateAndImages": "Mal og bilder",
     "imageLibrary": "Bildebibliotek",
     "uploadCustomImages": "Last opp egne bilder",
@@ -1915,13 +1915,13 @@ const DRAWING_LINES_TRANSLATIONS = {
     "none": "Ingen",
     "common.none": "Ingen",
     "none": "Ingen",
-    "borderOpacity": "Rammesynlighet:",
+    "borderOpacity": "Rammedekkevne:",
     "selectBorderTheme": "Velg et tema for å se rammer.",
 
     // ============= BACKGROUND SECTION =============
     "background": "Bakgrunn",
     "backgroundTheme": "Bakgrunnstema:",
-    "backgroundOpacity": "Bakgrunnssynlighet:",
+    "backgroundOpacity": "Bakgrunnsdekkevne:",
     "selectBackgroundTheme": "Velg et tema for å se bakgrunner.",
 
     // ============= TEXT TOOLS =============
@@ -2089,7 +2089,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Sivun asetukset",
-    "textTools": "Tekstityökalut",
+    "textTools": "Tekstivaihtoehdot",
     "templateAndImages": "Malli ja kuvat",
     "imageLibrary": "Kuvakirjasto",
     "uploadCustomImages": "Lataa omia kuvia",
@@ -2180,8 +2180,8 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= TOOLBAR =============
     "layers": "Tasot",
-    "bringForward": "Tuo eteen",
-    "sendBackward": "Vie taakse",
+    "bringForward": "Siirrä eteenpäin",
+    "sendBackward": "Siirrä taaksepäin",
     "bringToFront": "Tuo etualalle",
     "sendToBack": "Vie taustalle",
     "align": "Kohdista",

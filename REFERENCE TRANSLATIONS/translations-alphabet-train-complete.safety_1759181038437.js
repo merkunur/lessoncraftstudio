@@ -1966,13 +1966,13 @@ const translations = {
         "common.none": "Ei mitään",
     "none": "Ei mitään",
         "allThemes": "Kaikki teemat",
-        "backgroundOpacity": "Taustan peittävyys:",
+        "backgroundOpacity": "Taustan läpinäkyvyys:",
         "selectThemeForBackgrounds": "Valitse teema taustoille.",
 
         // Border Settings
         "border": "Reunus",
         "borderTheme": "Reunusteema:",
-        "borderOpacity": "Reunuksen peittävyys:",
+        "borderOpacity": "Reunuksen läpinäkyvyys:",
         "selectThemeToSeeBorders": "Valitse teema nähdäksesi reunukset.",
 
         // Text Tools

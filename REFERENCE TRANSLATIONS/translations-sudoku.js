@@ -246,7 +246,7 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     "sudoku.page.scene.title": "Seite & Szene",
     "sudoku.page.setup": "Seiteneinrichtung",
-    "sudoku.page.size.label": "Seitengröße:",
+    "sudoku.page.size.label": "Papierformat:",
     "page.size.letter.landscape": "Letter Querformat (11×8,5\")",
     "page.size.letter.portrait": "Letter Hochformat (8,5×11\")",
     "page.size.a4.landscape": "A4 Querformat (297×210mm)",
@@ -264,7 +264,7 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.background.theme.label": "Hintergrundthema:",
     "sudoku.background.none": "Kein (Grundfarbe verwenden)",
     "sudoku.background.select.message": "Wählen Sie ein Thema für Hintergründe.",
-    "sudoku.background.opacity": "Hintergrund-Transparenz:",
+    "sudoku.background.opacity": "Hintergrund-Deckkraft:",
 
     // ==========================================
     // BORDER SECTION (5 keys)
@@ -274,7 +274,7 @@ const SUDOKU_TRANSLATIONS = {
     "common.none": "Kein",
     "none": "Kein",
     "sudoku.border.select.message": "Wählen Sie ein Thema für Rahmen.",
-    "sudoku.border.opacity": "Rahmen-Transparenz:",
+    "sudoku.border.opacity": "Rahmen-Deckkraft:",
 
     // ==========================================
     // SUDOKU SETTINGS (5 keys)
@@ -288,7 +288,7 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     // TEXT TOOLS (12 keys)
     // ==========================================
-    "sudoku.text.tools": "Textwerkzeuge",
+    "sudoku.text.tools": "Textbearbeitung",
     "sudoku.text.add.title": "Neuen Text hinzufügen",
     "sudoku.text.content.label": "Inhalt:",
     "sudoku.text.placeholder": "Titel, Anleitung...",
@@ -377,7 +377,7 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.download.worksheet.pdf": "Arbeitsblatt (PDF)",
     "sudoku.download.answer.pdf": "Lösungsblatt (PDF)",
     "common.grayscale": "Graustufen",  // CRITICAL - User mentioned
-    "sudoku.clear.all": "Alles löschen",
+    "sudoku.clear.all": "Alles zurücksetzen",
 
     // ==========================================
     // SUCCESS MESSAGES (8 keys)
@@ -510,7 +510,7 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     // TEXT TOOLS (12 keys)
     // ==========================================
-    "sudoku.text.tools": "Outils de texte",
+    "sudoku.text.tools": "Options de texte",
     "sudoku.text.add.title": "Ajouter du texte",
     "sudoku.text.content.label": "Contenu :",
     "sudoku.text.placeholder": "Titre, consignes...",
@@ -733,7 +733,7 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     // TEXT TOOLS (12 keys)
     // ==========================================
-    "sudoku.text.tools": "Herramientas de texto",
+    "sudoku.text.tools": "Opciones de texto",
     "sudoku.text.add.title": "Añadir texto",
     "sudoku.text.content.label": "Contenido:",
     "sudoku.text.placeholder": "Título, instrucciones...",
@@ -762,7 +762,7 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     "sudoku.image.library": "Biblioteca de imágenes",
     "sudoku.image.source": "Fuente de imágenes para la cuadrícula",
-    "sudoku.generate.theme": "Generar desde tema:",
+    "sudoku.generate.theme": "Crear desde tema:",
     "sudoku.select.individual": "-- O seleccione imágenes individuales abajo --",
     "sudoku.image.individual": "Selección individual de imágenes",
     "sudoku.filter.theme": "Filtrar por tema:",
@@ -813,9 +813,9 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     // ACTION BUTTONS (10 keys)
     // ==========================================
-    "sudoku.generate": "Generar",
-    "sudoku.generate.worksheet": "Generar hoja de ejercicios",
-    "sudoku.generate.answer": "Generar hoja de respuestas",
+    "sudoku.generate": "Crear",
+    "sudoku.generate.worksheet": "Crear hoja de ejercicios",
+    "sudoku.generate.answer": "Crear hoja de respuestas",
     "sudoku.download": "Descargar",
     "sudoku.download.worksheet.jpeg": "Hoja de ejercicios (JPEG)",
     "sudoku.download.answer.jpeg": "Hoja de respuestas (JPEG)",
@@ -828,7 +828,7 @@ const SUDOKU_TRANSLATIONS = {
     // SUCCESS MESSAGES (8 keys)
     // ==========================================
     "sudoku.msg.worksheet.success": "¡Hoja de ejercicios creada con éxito!",
-    "sudoku.msg.answer.generated": "¡Hoja de respuestas generada!",
+    "sudoku.msg.answer.generated": "¡Hoja de respuestas creada!",
     "sudoku.msg.download.started": "¡Descarga iniciada!",
     "sudoku.msg.pdf.success": "¡PDF descargado!",
     "sudoku.msg.cleared": "Configuración borrada.",
@@ -838,15 +838,15 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     // ERROR MESSAGES (12 keys)
     // ==========================================
-    "sudoku.msg.worksheet.error": "Error al generar la hoja de ejercicios: {message}",
-    "sudoku.msg.generate.first": "Por favor, genere primero una hoja de ejercicios.",
+    "sudoku.msg.worksheet.error": "Error al crear la hoja de ejercicios: {message}",
+    "sudoku.msg.generate.first": "Por favor, cree primero una hoja de ejercicios.",
     "sudoku.msg.theme.insufficient": "El tema '{theme}' necesita al menos {count} imágenes.",
     "sudoku.msg.select.minimum": "Por favor, seleccione o suba al menos {count} imágenes.",
     "sudoku.msg.render.error": "Error al renderizar la hoja de ejercicios: {message}",
-    "sudoku.msg.clear.theme": "Desactive 'Generar desde tema' para seleccionar imágenes individuales.",
+    "sudoku.msg.clear.theme": "Desactive 'Crear desde tema' para seleccionar imágenes individuales.",
     "sudoku.msg.max.selection": "Solo puede seleccionar {count} imágenes.",
     "sudoku.msg.file.error": "Error al leer el archivo: {filename}",
-    "sudoku.msg.generate.content": "Por favor, genere primero contenido para este lienzo.",
+    "sudoku.msg.generate.content": "Por favor, cree primero contenido para este lienzo.",
     "sudoku.msg.jpeg.error": "Error al preparar el JPEG.",
     "sudoku.msg.pdf.error": "Error al crear el PDF.",
     "sudoku.asset.failed": "No se pudo cargar la imagen {asset}.",
@@ -860,7 +860,7 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.msg.loading.theme": "Cargando tema...",
     "sudoku.msg.no.images": "No se encontraron imágenes{query}.",
     "sudoku.msg.loading.specific": "Cargando tema '{theme}'...",
-    "sudoku.msg.theme.selected": "El puzle se generará con imágenes aleatorias del tema '{theme}'.",
+    "sudoku.msg.theme.selected": "El puzle se creará con imágenes aleatorias del tema '{theme}'.",
     "sudoku.msg.loading.uploads": "Cargando {count} imagen(es)...",
     "sudoku.msg.preparing": "Preparando {filename}...",
     "sudoku.asset.select": "Seleccione un tema para ver {type}.",
@@ -956,7 +956,7 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     // TEXT TOOLS (12 keys)
     // ==========================================
-    "sudoku.text.tools": "Strumenti testo",
+    "sudoku.text.tools": "Opzioni di testo",
     "sudoku.text.add.title": "Aggiungi testo",
     "sudoku.text.content.label": "Contenuto:",
     "sudoku.text.placeholder": "Titolo, istruzioni...",
@@ -985,7 +985,7 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     "sudoku.image.library": "Raccolta immagini",
     "sudoku.image.source": "Fonte immagini per la griglia",
-    "sudoku.generate.theme": "Genera dal tema:",
+    "sudoku.generate.theme": "Crea dal tema:",
     "sudoku.select.individual": "-- Oppure seleziona immagini singole qui sotto --",
     "sudoku.image.individual": "Selezione immagini singole",
     "sudoku.filter.theme": "Filtra per tema:",
@@ -1038,7 +1038,7 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     "sudoku.generate": "Crea",
     "sudoku.generate.worksheet": "Crea scheda di lavoro",
-    "sudoku.generate.answer": "Genera soluzioni",
+    "sudoku.generate.answer": "Crea soluzioni",
     "sudoku.download": "Scarica",
     "sudoku.download.worksheet.jpeg": "Scheda di lavoro (JPEG)",
     "sudoku.download.answer.jpeg": "Soluzioni (JPEG)",
@@ -1051,7 +1051,7 @@ const SUDOKU_TRANSLATIONS = {
     // SUCCESS MESSAGES (8 keys)
     // ==========================================
     "sudoku.msg.worksheet.success": "Scheda creata con successo!",
-    "sudoku.msg.answer.generated": "Soluzioni generate!",
+    "sudoku.msg.answer.generated": "Soluzioni create!",
     "sudoku.msg.download.started": "Download avviato!",
     "sudoku.msg.pdf.success": "PDF scaricato!",
     "sudoku.msg.cleared": "Tutte le impostazioni cancellate.",
@@ -1062,14 +1062,14 @@ const SUDOKU_TRANSLATIONS = {
     // ERROR MESSAGES (12 keys)
     // ==========================================
     "sudoku.msg.worksheet.error": "Errore nella creazione della scheda: {message}",
-    "sudoku.msg.generate.first": "Prima genera una scheda di lavoro.",
+    "sudoku.msg.generate.first": "Prima crea una scheda di lavoro.",
     "sudoku.msg.theme.insufficient": "Il tema '{theme}' richiede almeno {count} immagini.",
     "sudoku.msg.select.minimum": "Seleziona o carica almeno {count} immagini.",
     "sudoku.msg.render.error": "Errore nel rendering della scheda: {message}",
-    "sudoku.msg.clear.theme": "Disattiva 'Genera dal tema' per selezionare immagini singole.",
+    "sudoku.msg.clear.theme": "Disattiva 'Crea dal tema' per selezionare immagini singole.",
     "sudoku.msg.max.selection": "Puoi selezionare solo {count} immagini.",
     "sudoku.msg.file.error": "Errore nella lettura del file: {filename}",
-    "sudoku.msg.generate.content": "Prima genera contenuto per questa area di lavoro.",
+    "sudoku.msg.generate.content": "Prima crea contenuto per questa area di lavoro.",
     "sudoku.msg.jpeg.error": "Errore nella preparazione del JPEG.",
     "sudoku.msg.pdf.error": "Errore nella creazione del PDF.",
     "sudoku.asset.failed": "Impossibile caricare l'immagine {asset}.",
@@ -1083,7 +1083,7 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.msg.loading.theme": "Caricamento tema...",
     "sudoku.msg.no.images": "Nessuna immagine trovata{query}.",
     "sudoku.msg.loading.specific": "Caricamento tema '{theme}'...",
-    "sudoku.msg.theme.selected": "Il puzzle verrà generato con immagini casuali dal tema '{theme}'.",
+    "sudoku.msg.theme.selected": "Il puzzle verrà creato con immagini casuali dal tema '{theme}'.",
     "sudoku.msg.loading.uploads": "Caricamento di {count} immagine/i...",
     "sudoku.msg.preparing": "Preparazione {filename}...",
     "sudoku.asset.select": "Seleziona un tema per vedere {type}.",
@@ -1179,7 +1179,7 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     // TEXT TOOLS (12 keys)
     // ==========================================
-    "sudoku.text.tools": "Ferramentas de texto",
+    "sudoku.text.tools": "Opções de texto",
     "sudoku.text.add.title": "Adicionar texto",
     "sudoku.text.content.label": "Conteúdo:",
     "sudoku.text.placeholder": "Título, instruções...",
@@ -1208,7 +1208,7 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     "sudoku.image.library": "Biblioteca de imagens",
     "sudoku.image.source": "Fonte de imagens para a grelha",
-    "sudoku.generate.theme": "Gerar do tema:",
+    "sudoku.generate.theme": "Criar do tema:",
     "sudoku.select.individual": "-- Ou selecione imagens individuais abaixo --",
     "sudoku.image.individual": "Seleção individual de imagens",
     "sudoku.filter.theme": "Filtrar por tema:",
@@ -1259,9 +1259,9 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     // ACTION BUTTONS (10 keys)
     // ==========================================
-    "sudoku.generate": "Gerar",
-    "sudoku.generate.worksheet": "Gerar folha de exercícios",
-    "sudoku.generate.answer": "Gerar folha de respostas",
+    "sudoku.generate": "Criar",
+    "sudoku.generate.worksheet": "Criar folha de exercícios",
+    "sudoku.generate.answer": "Criar folha de respostas",
     "sudoku.download": "Descarregar",
     "sudoku.download.worksheet.jpeg": "Folha de exercícios (JPEG)",
     "sudoku.download.answer.jpeg": "Folha de respostas (JPEG)",
@@ -1274,7 +1274,7 @@ const SUDOKU_TRANSLATIONS = {
     // SUCCESS MESSAGES (8 keys)
     // ==========================================
     "sudoku.msg.worksheet.success": "Folha de exercícios criada com sucesso!",
-    "sudoku.msg.answer.generated": "Folha de respostas gerada!",
+    "sudoku.msg.answer.generated": "Folha de respostas criada!",
     "sudoku.msg.download.started": "Download iniciado!",
     "sudoku.msg.pdf.success": "PDF descarregado!",
     "sudoku.msg.cleared": "Todas as configurações limpas.",
@@ -1284,15 +1284,15 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     // ERROR MESSAGES (12 keys)
     // ==========================================
-    "sudoku.msg.worksheet.error": "Erro ao gerar a folha de exercícios: {message}",
-    "sudoku.msg.generate.first": "Por favor, gere primeiro uma folha de exercícios.",
+    "sudoku.msg.worksheet.error": "Erro ao criar a folha de exercícios: {message}",
+    "sudoku.msg.generate.first": "Por favor, crie primeiro uma folha de exercícios.",
     "sudoku.msg.theme.insufficient": "O tema '{theme}' precisa de pelo menos {count} imagens.",
     "sudoku.msg.select.minimum": "Por favor, selecione ou carregue pelo menos {count} imagens.",
     "sudoku.msg.render.error": "Erro ao renderizar a folha de exercícios: {message}",
-    "sudoku.msg.clear.theme": "Desative 'Gerar a partir do tema' para selecionar imagens individuais.",
+    "sudoku.msg.clear.theme": "Desative 'Criar a partir do tema' para selecionar imagens individuais.",
     "sudoku.msg.max.selection": "Você pode selecionar apenas {count} imagens.",
     "sudoku.msg.file.error": "Erro ao ler o arquivo: {filename}",
-    "sudoku.msg.generate.content": "Por favor, gere primeiro conteúdo para esta área de trabalho.",
+    "sudoku.msg.generate.content": "Por favor, crie primeiro conteúdo para esta área de trabalho.",
     "sudoku.msg.jpeg.error": "Erro ao preparar o JPEG.",
     "sudoku.msg.pdf.error": "Erro ao criar o PDF.",
     "sudoku.asset.failed": "Não foi possível carregar a imagem {asset}.",
@@ -1376,7 +1376,7 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.background.theme.label": "Achtergrondthema:",
     "sudoku.background.none": "Geen (gebruik basiskleur)",
     "sudoku.background.select.message": "Selecteer een thema voor achtergronden.",
-    "sudoku.background.opacity": "Achtergrondtransparantie:",
+    "sudoku.background.opacity": "Achtergronddekking:",
 
     // ==========================================
     // BORDER SECTION (5 keys)
@@ -1388,7 +1388,7 @@ const SUDOKU_TRANSLATIONS = {
     "none": "Geen",
     "none": "Geen",
     "sudoku.border.select.message": "Selecteer een thema voor randen.",
-    "sudoku.border.opacity": "Randtransparantie:",
+    "sudoku.border.opacity": "Randdekking:",
 
     // ==========================================
     // SUDOKU SETTINGS (5 keys)
@@ -1402,7 +1402,7 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     // TEXT TOOLS (12 keys)
     // ==========================================
-    "sudoku.text.tools": "Tekstgereedschap",
+    "sudoku.text.tools": "Tekstopties",
     "sudoku.text.add.title": "Tekst toevoegen",
     "sudoku.text.content.label": "Inhoud:",
     "sudoku.text.placeholder": "Titel, instructies...",
@@ -1431,7 +1431,7 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     "sudoku.image.library": "Afbeeldingencollectie",
     "sudoku.image.source": "Afbeeldingsbron voor rooster",
-    "sudoku.generate.theme": "Genereren uit thema:",
+    "sudoku.generate.theme": "Maken uit thema:",
     "sudoku.select.individual": "-- Of selecteer losse afbeeldingen hieronder --",
     "sudoku.image.individual": "Losse afbeeldingen selecteren",
     "sudoku.filter.theme": "Filteren op thema:",
@@ -1482,9 +1482,9 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     // ACTION BUTTONS (10 keys)
     // ==========================================
-    "sudoku.generate": "Genereren",
-    "sudoku.generate.worksheet": "Werkblad genereren",
-    "sudoku.generate.answer": "Antwoordblad genereren",
+    "sudoku.generate": "Maken",
+    "sudoku.generate.worksheet": "Werkblad maken",
+    "sudoku.generate.answer": "Antwoordblad maken",
     "sudoku.download": "Download",
     "sudoku.download.worksheet.jpeg": "Werkblad (JPEG)",
     "sudoku.download.answer.jpeg": "Antwoordblad (JPEG)",
@@ -1512,7 +1512,7 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.msg.theme.insufficient": "Thema '{theme}' heeft minstens {count} afbeeldingen nodig.",
     "sudoku.msg.select.minimum": "Selecteer of upload minstens {count} afbeeldingen.",
     "sudoku.msg.render.error": "Fout bij weergeven werkblad: {message}",
-    "sudoku.msg.clear.theme": "Schakel 'Genereren uit thema' uit voor losse selectie.",
+    "sudoku.msg.clear.theme": "Schakel 'Maken uit thema' uit voor losse selectie.",
     "sudoku.msg.max.selection": "Je kunt maar {count} afbeeldingen selecteren.",
     "sudoku.msg.file.error": "Fout bij lezen bestand: {filename}",
     "sudoku.msg.generate.content": "Maak eerst inhoud voor dit werkgebied.",
@@ -1599,7 +1599,7 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.background.theme.label": "Bakgrundstema:",
     "sudoku.background.none": "Ingen (använd grundfärg)",
     "sudoku.background.select.message": "Välj ett tema för bakgrunder.",
-    "sudoku.background.opacity": "Bakgrundens transparens:",
+    "sudoku.background.opacity": "Bakgrundsopacitet:",
 
     // ==========================================
     // BORDER SECTION (5 keys)
@@ -1611,7 +1611,7 @@ const SUDOKU_TRANSLATIONS = {
     "none": "Ingen",
     "none": "Ingen",
     "sudoku.border.select.message": "Välj ett tema för ramar.",
-    "sudoku.border.opacity": "Ramens transparens:",
+    "sudoku.border.opacity": "Ramopacitet:",
 
     // ==========================================
     // SUDOKU SETTINGS (5 keys)
@@ -1625,7 +1625,7 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     // TEXT TOOLS (12 keys)
     // ==========================================
-    "sudoku.text.tools": "Textverktyg",
+    "sudoku.text.tools": "Textalternativ",
     "sudoku.text.add.title": "Lägg till text",
     "sudoku.text.content.label": "Innehåll:",
     "sudoku.text.placeholder": "Rubrik, instruktioner...",
@@ -1790,7 +1790,7 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.accordion.label": "Sudoku",
     "sudoku.kids.title": "Sudoku for børn",
     "sudoku.tab.worksheet": "Arbejdsark",
-    "sudoku.tab.answer": "Facit",
+    "sudoku.tab.answer": "Svarark",
 
     // ==========================================
     // LANGUAGE SETTINGS (3 keys)
@@ -1822,7 +1822,7 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.background.theme.label": "Baggrundstema:",
     "sudoku.background.none": "Ingen (brug grundfarve)",
     "sudoku.background.select.message": "Vælg et tema for baggrunde.",
-    "sudoku.background.opacity": "Baggrunds gennemsigtighed:",
+    "sudoku.background.opacity": "Baggrundsdækning:",
 
     // ==========================================
     // BORDER SECTION (5 keys)
@@ -1834,7 +1834,7 @@ const SUDOKU_TRANSLATIONS = {
     "none": "Ingen",
     "none": "Ingen",
     "sudoku.border.select.message": "Vælg et tema for rammer.",
-    "sudoku.border.opacity": "Ramme gennemsigtighed:",
+    "sudoku.border.opacity": "Rammedækning:",
 
     // ==========================================
     // SUDOKU SETTINGS (5 keys)
@@ -1848,7 +1848,7 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     // TEXT TOOLS (12 keys)
     // ==========================================
-    "sudoku.text.tools": "Tekstværktøjer",
+    "sudoku.text.tools": "Tekstindstillinger",
     "sudoku.text.add.title": "Tilføj tekst",
     "sudoku.text.content.label": "Indhold:",
     "sudoku.text.placeholder": "Titel, instruktioner...",
@@ -1930,12 +1930,12 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     "sudoku.generate": "Opret",
     "sudoku.generate.worksheet": "Opret arbejdsark",
-    "sudoku.generate.answer": "Opret facit",
+    "sudoku.generate.answer": "Opret svarark",
     "sudoku.download": "Download",
     "sudoku.download.worksheet.jpeg": "Arbejdsark (JPEG)",
-    "sudoku.download.answer.jpeg": "Facit (JPEG)",
+    "sudoku.download.answer.jpeg": "Svarark (JPEG)",
     "sudoku.download.worksheet.pdf": "Arbejdsark (PDF)",
-    "sudoku.download.answer.pdf": "Facit (PDF)",
+    "sudoku.download.answer.pdf": "Svarark (PDF)",
     "common.grayscale": "Gråtoner",  // CRITICAL - User mentioned
     "sudoku.clear.all": "Ryd alt",
 
@@ -1943,7 +1943,7 @@ const SUDOKU_TRANSLATIONS = {
     // SUCCESS MESSAGES (8 keys)
     // ==========================================
     "sudoku.msg.worksheet.success": "Arbejdsark oprettet!",
-    "sudoku.msg.answer.generated": "Facit oprettet!",
+    "sudoku.msg.answer.generated": "Svarark oprettet!",
     "sudoku.msg.download.started": "Download startet!",
     "sudoku.msg.pdf.success": "PDF downloadet!",
     "sudoku.msg.cleared": "Alle indstillinger ryddet.",
@@ -2045,7 +2045,7 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.background.theme.label": "Bakgrunnstema:",
     "sudoku.background.none": "Ingen (bruk grunnfarge)",
     "sudoku.background.select.message": "Velg et tema for bakgrunner.",
-    "sudoku.background.opacity": "Bakgrunnens gjennomsiktighet:",
+    "sudoku.background.opacity": "Bakgrunnsdekkevne:",
 
     // ==========================================
     // BORDER SECTION (5 keys)
@@ -2057,7 +2057,7 @@ const SUDOKU_TRANSLATIONS = {
     "none": "Ingen",
     "none": "Ingen",
     "sudoku.border.select.message": "Velg et tema for rammer.",
-    "sudoku.border.opacity": "Rammens gjennomsiktighet:",
+    "sudoku.border.opacity": "Rammedekkevne:",
 
     // ==========================================
     // SUDOKU SETTINGS (5 keys)
@@ -2071,7 +2071,7 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     // TEXT TOOLS (12 keys)
     // ==========================================
-    "sudoku.text.tools": "Tekstverktøy",
+    "sudoku.text.tools": "Tekstinnstillinger",
     "sudoku.text.add.title": "Legg til tekst",
     "sudoku.text.content.label": "Innhold:",
     "sudoku.text.placeholder": "Overskrift, instruksjoner...",
@@ -2100,7 +2100,7 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     "sudoku.image.library": "Bildesamling",
     "sudoku.image.source": "Bildekilde for rutenettet",
-    "sudoku.generate.theme": "Lag fra tema:",
+    "sudoku.generate.theme": "Opprett fra tema:",
     "sudoku.select.individual": "-- Eller velg enkeltbilder nedenfor --",
     "sudoku.image.individual": "Valg av enkeltbilder",
     "sudoku.filter.theme": "Filtrer etter tema:",
@@ -2151,22 +2151,22 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     // ACTION BUTTONS (10 keys)
     // ==========================================
-    "sudoku.generate": "Lag",
-    "sudoku.generate.worksheet": "Lag oppgaveark",
-    "sudoku.generate.answer": "Lag fasit",
+    "sudoku.generate": "Opprett",
+    "sudoku.generate.worksheet": "Opprett oppgaveark",
+    "sudoku.generate.answer": "Opprett fasit",
     "sudoku.download": "Last ned",
     "sudoku.download.worksheet.jpeg": "Oppgaveark (JPEG)",
     "sudoku.download.answer.jpeg": "Fasit (JPEG)",
     "sudoku.download.worksheet.pdf": "Oppgaveark (PDF)",
     "sudoku.download.answer.pdf": "Fasit (PDF)",
     "common.grayscale": "Gråtoner",  // CRITICAL - User mentioned
-    "sudoku.clear.all": "Tøm alt",
+    "sudoku.clear.all": "Slett alt",
 
     // ==========================================
     // SUCCESS MESSAGES (8 keys)
     // ==========================================
     "sudoku.msg.worksheet.success": "Oppgaveark opprettet!",
-    "sudoku.msg.answer.generated": "Fasit laget!",
+    "sudoku.msg.answer.generated": "Fasit opprettet!",
     "sudoku.msg.download.started": "Nedlasting startet!",
     "sudoku.msg.pdf.success": "PDF lastet ned!",
     "sudoku.msg.cleared": "Alle innstillinger tømt.",
@@ -2177,14 +2177,14 @@ const SUDOKU_TRANSLATIONS = {
     // ERROR MESSAGES (12 keys)
     // ==========================================
     "sudoku.msg.worksheet.error": "Feil ved opprettelse av oppgaveark: {message}",
-    "sudoku.msg.generate.first": "Lag et oppgaveark først.",
+    "sudoku.msg.generate.first": "Opprett et oppgaveark først.",
     "sudoku.msg.theme.insufficient": "Temaet '{theme}' krever minst {count} bilder.",
     "sudoku.msg.select.minimum": "Velg eller last opp minst {count} bilder.",
     "sudoku.msg.render.error": "Feil ved gjengivelse av oppgaveark: {message}",
-    "sudoku.msg.clear.theme": "Deaktiver 'Lag fra tema' for å velge enkeltbilder.",
+    "sudoku.msg.clear.theme": "Deaktiver 'Opprett fra tema' for å velge enkeltbilder.",
     "sudoku.msg.max.selection": "Du kan bare velge {count} bilder.",
     "sudoku.msg.file.error": "Feil ved lesing av fil: {filename}",
-    "sudoku.msg.generate.content": "Lag først innhold for dette arbeidsområdet.",
+    "sudoku.msg.generate.content": "Opprett først innhold for dette arbeidsområdet.",
     "sudoku.msg.jpeg.error": "Feil ved klargjøring av JPEG.",
     "sudoku.msg.pdf.error": "Feil ved opprettelse av PDF.",
     "sudoku.asset.failed": "Kunne ikke laste inn bildet {asset}.",
@@ -2236,7 +2236,7 @@ const SUDOKU_TRANSLATIONS = {
     "sudoku.accordion.label": "Sudoku",
     "sudoku.kids.title": "Lasten sudoku",
     "sudoku.tab.worksheet": "Tehtäväsivu",
-    "sudoku.tab.answer": "Vastaukset",
+    "sudoku.tab.answer": "Vastausavain",
 
     // ==========================================
     // LANGUAGE SETTINGS (3 keys)
@@ -2294,7 +2294,7 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     // TEXT TOOLS (12 keys)
     // ==========================================
-    "sudoku.text.tools": "Tekstityökalut",
+    "sudoku.text.tools": "Tekstivaihtoehdot",
     "sudoku.text.add.title": "Lisää tekstiä",
     "sudoku.text.content.label": "Sisältö:",
     "sudoku.text.placeholder": "Otsikko, ohjeet...",
@@ -2376,12 +2376,12 @@ const SUDOKU_TRANSLATIONS = {
     // ==========================================
     "sudoku.generate": "Luo",
     "sudoku.generate.worksheet": "Luo tehtäväsivu",
-    "sudoku.generate.answer": "Luo vastaukset",
+    "sudoku.generate.answer": "Luo vastausavain",
     "sudoku.download": "Lataa",
     "sudoku.download.worksheet.jpeg": "Tehtäväsivu (JPEG)",
-    "sudoku.download.answer.jpeg": "Vastaukset (JPEG)",
+    "sudoku.download.answer.jpeg": "Vastausavain (JPEG)",
     "sudoku.download.worksheet.pdf": "Tehtäväsivu (PDF)",
-    "sudoku.download.answer.pdf": "Vastaukset (PDF)",
+    "sudoku.download.answer.pdf": "Vastausavain (PDF)",
     "common.grayscale": "Harmaasävy",  // CRITICAL - User mentioned
     "sudoku.clear.all": "Tyhjennä kaikki",
 
@@ -2389,7 +2389,7 @@ const SUDOKU_TRANSLATIONS = {
     // SUCCESS MESSAGES (8 keys)
     // ==========================================
     "sudoku.msg.worksheet.success": "Tehtäväsivu luotu onnistuneesti!",
-    "sudoku.msg.answer.generated": "Vastaukset luotu!",
+    "sudoku.msg.answer.generated": "Vastausavain luotu!",
     "sudoku.msg.download.started": "Lataus aloitettu!",
     "sudoku.msg.pdf.success": "PDF ladattu!",
     "sudoku.msg.cleared": "Kaikki asetukset tyhjennetty.",

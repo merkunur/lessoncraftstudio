@@ -167,7 +167,7 @@ const translations = {
         "downloadAsJPEG": "Als JPEG herunterladen",
         "downloadAsPDF": "Als PDF herunterladen",
         "grayscale": "Graustufen",
-        "clearAll": "Alles löschen",
+        "clearAll": "Alles zurücksetzen",
         "clearCanvasConfirmation": "Möchtest du wirklich die gesamte Zeichenfläche dauerhaft löschen?",
         "cancel": "Abbrechen",
         "yesClear": "Ja, löschen",
@@ -189,7 +189,7 @@ const translations = {
         // Page Setup
         "pageSetup": "Seiteneinrichtung",
         "pageDimensions": "Seitenmaße",
-        "pageSize": "Seitengröße:",
+        "pageSize": "Papierformat:", // Changed from "Seitengröße:"
         "letterPortrait": "Letter Hochformat (8.5×11\")",
         "letterLandscape": "Letter Querformat (11×8.5\")",
         "a4Portrait": "A4 Hochformat (210×297mm)",
@@ -219,7 +219,7 @@ const translations = {
         "brushSize": "Pinselgröße:",
 
         // Text Tools
-        "textTools": "Textwerkzeuge",
+        "textTools": "Textbearbeitung", // Changed from "Textwerkzeuge"
         "addNewText": "Neuen Text hinzufügen",
         "content": "Inhalt:",
         "helloPlaceholder": "Hallo!",
@@ -257,9 +257,9 @@ const translations = {
 
         // Toolbar & Layer Controls
         "layers": "Ebenen",
-        "bringForward": "Nach vorne bringen",
+        "bringForward": "Nach vorne",
         "bringToFront": "Ganz nach vorne",
-        "sendBackward": "Nach hinten senden",
+        "sendBackward": "Nach hinten",
         "sendToBack": "Ganz nach hinten",
 
         // Lock/Unlock
@@ -345,7 +345,7 @@ const translations = {
         "brushSize": "Taille du pinceau :",
 
         // Text Tools
-        "textTools": "Outils de texte",
+        "textTools": "Options de texte", // Changed from "Outils de texte"
         "addNewText": "Ajouter un nouveau texte",
         "content": "Contenu :",
         "helloPlaceholder": "Bonjour !",
@@ -383,9 +383,9 @@ const translations = {
 
         // Toolbar & Layer Controls
         "layers": "Calques",
-        "bringForward": "Mettre au premier plan",
+        "bringForward": "Avancer",
         "bringToFront": "Mettre tout au premier plan",
-        "sendBackward": "Mettre à l'arrière-plan",
+        "sendBackward": "Reculer",
         "sendToBack": "Mettre tout à l'arrière-plan",
 
         // Lock/Unlock
@@ -471,7 +471,7 @@ const translations = {
         "brushSize": "Tamaño del pincel:",
 
         // Text Tools
-        "textTools": "Herramientas de texto",
+        "textTools": "Opciones de texto", // Changed from "Herramientas de texto"
         "addNewText": "Añadir nuevo texto",
         "content": "Contenido:",
         "helloPlaceholder": "¡Hola!",
@@ -509,7 +509,7 @@ const translations = {
 
         // Toolbar & Layer Controls
         "layers": "Capas",
-        "bringForward": "Traer al frente",
+        "bringForward": "Traer adelante",
         "bringToFront": "Traer al frente completo",
         "sendBackward": "Enviar atrás",
         "sendToBack": "Enviar al fondo",
@@ -597,7 +597,7 @@ const translations = {
         "brushSize": "Dimensione del pennello:",
 
         // Text Tools
-        "textTools": "Strumenti di testo",
+        "textTools": "Opzioni di testo", // Changed from "Strumenti di testo"
         "addNewText": "Aggiungi nuovo testo",
         "content": "Contenuto:",
         "helloPlaceholder": "Ciao!",
@@ -637,7 +637,7 @@ const translations = {
         "layers": "Livelli",
         "bringForward": "Porta avanti",
         "bringToFront": "Porta in primo piano",
-        "sendBackward": "Manda indietro",
+        "sendBackward": "Porta indietro",
         "sendToBack": "Manda in fondo",
 
         // Lock/Unlock
@@ -723,7 +723,7 @@ const translations = {
         "brushSize": "Tamanho do pincel:",
 
         // Text Tools
-        "textTools": "Ferramentas de texto",
+        "textTools": "Opções de texto", // Changed from "Ferramentas de texto"
         "addNewText": "Adicionar novo texto",
         "content": "Conteúdo:",
         "helloPlaceholder": "Olá!",
@@ -849,7 +849,7 @@ const translations = {
         "brushSize": "Penseelgrootte:",
 
         // Text Tools
-        "textTools": "Tekstgereedschappen",
+        "textTools": "Tekstopties", // Changed from "Tekstgereedschappen"
         "addNewText": "Nieuwe tekst toevoegen",
         "content": "Inhoud:",
         "helloPlaceholder": "Hallo!",
@@ -887,9 +887,9 @@ const translations = {
 
         // Toolbar & Layer Controls
         "layers": "Lagen",
-        "bringForward": "Naar voren brengen",
+        "bringForward": "Naar voren",
         "bringToFront": "Helemaal naar voren",
-        "sendBackward": "Naar achteren sturen",
+        "sendBackward": "Naar achteren",
         "sendToBack": "Helemaal naar achteren",
 
         // Lock/Unlock
@@ -975,7 +975,7 @@ const translations = {
         "brushSize": "Penselstorlek:",
 
         // Text Tools
-        "textTools": "Textverktyg",
+        "textTools": "Textalternativ", // Changed from "Textverktyg"
         "addNewText": "Lägg till ny text",
         "content": "Innehåll:",
         "helloPlaceholder": "Hej!",
@@ -1015,7 +1015,7 @@ const translations = {
         "layers": "Lager",
         "bringForward": "Flytta framåt",
         "bringToFront": "Flytta längst fram",
-        "sendBackward": "Skicka bakåt",
+        "sendBackward": "Flytta bakåt",
         "sendToBack": "Skicka längst bak",
 
         // Lock/Unlock
@@ -1084,9 +1084,9 @@ const translations = {
         "pageColor": "Sidefarve:",
 
         // Border
-        "border": "Kant",
-        "borderTheme": "Kanttema:",
-        "selectThemeToSeeBorders": "Vælg et tema for at se kanter.",
+        "border": "Ramme",
+        "borderTheme": "Rammetema:",
+        "selectThemeToSeeBorders": "Vælg et tema for at se rammer.",
 
         // Classroom Helpers
         "classroomHelpers": "Klasseværelseshjælpere",
@@ -1101,7 +1101,7 @@ const translations = {
         "brushSize": "Penselstørrelse:",
 
         // Text Tools
-        "textTools": "Tekstværktøjer",
+        "textTools": "Tekstindstillinger", // Changed from "Tekstværktøjer"
         "addNewText": "Tilføj ny tekst",
         "content": "Indhold:",
         "helloPlaceholder": "Hej!",
@@ -1139,9 +1139,9 @@ const translations = {
 
         // Toolbar & Layer Controls
         "layers": "Lag",
-        "bringForward": "Bring fremad",
+        "bringForward": "Flyt fremad",
         "bringToFront": "Bring helt frem",
-        "sendBackward": "Send bagud",
+        "sendBackward": "Flyt bagud",
         "sendToBack": "Send helt tilbage",
 
         // Lock/Unlock
@@ -1174,7 +1174,7 @@ const translations = {
         "downloadAsJPEG": "Last ned som JPEG",
         "downloadAsPDF": "Last ned som PDF",
         "grayscale": "Gråtoner",
-        "clearAll": "Tøm alt",
+        "clearAll": "Slett alt",
         "clearCanvasConfirmation": "Er du sikker på at du vil tømme lerretet permanent?",
         "cancel": "Avbryt",
         "yesClear": "Ja, tøm",
@@ -1210,9 +1210,9 @@ const translations = {
         "pageColor": "Sidefarge:",
 
         // Border
-        "border": "Kant",
-        "borderTheme": "Kanttema:",
-        "selectThemeToSeeBorders": "Velg et tema for å se kanter.",
+        "border": "Ramme",
+        "borderTheme": "Rammetema:",
+        "selectThemeToSeeBorders": "Velg et tema for å se rammer.",
 
         // Classroom Helpers
         "classroomHelpers": "Klasseromhjelpere",
@@ -1227,7 +1227,7 @@ const translations = {
         "brushSize": "Penselstørrelse:",
 
         // Text Tools
-        "textTools": "Tekstverktøy",
+        "textTools": "Tekstinnstillinger", // Changed from "Tekstverktøy"
         "addNewText": "Legg til ny tekst",
         "content": "Innhold:",
         "helloPlaceholder": "Hei!",
@@ -1265,9 +1265,9 @@ const translations = {
 
         // Toolbar & Layer Controls
         "layers": "Lag",
-        "bringForward": "Bring fremover",
+        "bringForward": "Flytt fremover",
         "bringToFront": "Bring helt frem",
-        "sendBackward": "Send bakover",
+        "sendBackward": "Flytt bakover",
         "sendToBack": "Send helt bak",
 
         // Lock/Unlock
@@ -1375,7 +1375,7 @@ const translations = {
         "loadingImages": "Ladataan kuvia...",
 
         // Upload Custom Images
-        "uploadCustomImages": "Lataa mukautettuja kuvia",
+        "uploadCustomImages": "Lataa omia kuvia",
         "selectImagesToUpload": "Valitse ladattava(t) kuva(t):",
         "chooseFiles": "Valitse tiedostot",
         "noFileChosen": "Ei tiedostoa valittuna",
@@ -1391,9 +1391,9 @@ const translations = {
 
         // Toolbar & Layer Controls
         "layers": "Tasot",
-        "bringForward": "Tuo eteen",
+        "bringForward": "Siirrä eteenpäin",
         "bringToFront": "Tuo etualalle",
-        "sendBackward": "Lähetä taakse",
+        "sendBackward": "Siirrä taaksepäin",
         "sendToBack": "Lähetä taustalle",
 
         // Lock/Unlock

@@ -3380,7 +3380,7 @@ const translations = {
     "failedToFetchAllImages": "Alle Bilder konnten nicht abgerufen werden für automatische Generierung."
   },
   "fr": {
-    "generate": "Générer",
+    "generate": "Créer",
     "print": "Imprimer",
     "download": "[NEEDS_TRANSLATION] Download",
     "newWorksheet": "Nouvelle Feuille",
@@ -4474,7 +4474,7 @@ const translations = {
     "please_generate_worksheet_first": "Veuillez d'abord générer une feuille de travail."
   },
   "es": {
-    "generate": "Generar",
+    "generate": "Crear",
     "print": "Imprimir",
     "download": "[NEEDS_TRANSLATION] Download",
     "newWorksheet": "Nueva Hoja",
@@ -5568,7 +5568,7 @@ const translations = {
     "please_generate_worksheet_first": "Por favor, genere primero una hoja de trabajo."
   },
   "pt": {
-    "generate": "Gerar",
+    "generate": "Criar",
     "print": "Imprimir",
     "download": "[NEEDS_TRANSLATION] Download",
     "newWorksheet": "Nova Folha",
@@ -6633,7 +6633,7 @@ const translations = {
     "please_generate_worksheet_first": "Por favor, gere uma folha de trabalho primeiro."
   },
   "it": {
-    "generate": "Genera",
+    "generate": "Crea",
     "print": "Stampa",
     "download": "[NEEDS_TRANSLATION] Download",
     "newWorksheet": "Nuovo Foglio",
@@ -7698,7 +7698,7 @@ const translations = {
     "please_generate_worksheet_first": "Si prega di generare prima un foglio di lavoro."
   },
   "nl": {
-    "generate": "Genereren",
+    "generate": "Maken",
     "print": "Afdrukken",
     "download": "[NEEDS_TRANSLATION] Download",
     "newWorksheet": "Nieuw Werkblad",
@@ -9828,7 +9828,7 @@ const translations = {
     "please_generate_worksheet_first": "Vänligen generera ett arbetsblad först."
   },
   "da": {
-    "generate": "Generer",
+    "generate": "Créer",
     "print": "Udskriv",
     "download": "[NEEDS_TRANSLATION] Download",
     "newWorksheet": "Nyt Arbejdsark",
@@ -10893,7 +10893,7 @@ const translations = {
     "please_generate_worksheet_first": "Generer venligst et arbejdsark først."
   },
   "no": {
-    "generate": "Generer",
+    "generate": "Créer",
     "print": "Skriv ut",
     "download": "[NEEDS_TRANSLATION] Download",
     "newWorksheet": "Nytt Arbeidsark",

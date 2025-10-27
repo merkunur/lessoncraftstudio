@@ -207,7 +207,7 @@ const translations = {
     // ===== 2. ACCORDION HEADERS (6 items) =====
     "settings.language": "Spracheinstellungen",
     "settings.pageSetup": "Seiteneinrichtung",
-    "settings.textTools": "Textwerkzeuge",
+    "settings.textTools": "Textbearbeitung",
     "settings.exerciseConfig": "Übungseinstellungen",
     "library.title": "Bilderbibliothek",
     "library.uploadTitle": "Eigene Bilder Hochladen",
@@ -228,7 +228,7 @@ const translations = {
     "word.guess.language.description": "Wählt die Inhaltssprache. Die UI-Sprache wird durch den Haupt-Sprachselektor in der Kopfzeile gesteuert.",
 
     // ===== 4. PAGE SETUP (16 items) =====
-    "settings.pageSize": "Seitengröße:",
+    "settings.pageSize": "Papierformat:",
     "pageSize.letterPortrait": "Letter Hochformat (612×792)",
     "pageSize.letterLandscape": "Letter Querformat (792×612)",
     "pageSize.a4Portrait": "A4 Hochformat (595×842)",
@@ -242,9 +242,9 @@ const translations = {
     "decoration.backgroundTheme": "Hintergrund-Thema:",
     "decoration.none": "Kein",
     "none": "Kein",
-    "decoration.backgroundOpacity": "Hintergrund Transparenz:",
+    "decoration.backgroundOpacity": "Hintergrund-Deckkraft:",
     "decoration.borderTheme": "Rahmen-Thema:",
-    "decoration.borderOpacity": "Rahmen Transparenz:",
+    "decoration.borderOpacity": "Rahmen-Deckkraft:",
 
     // ===== 5. TEXT TOOLS (8 items) =====
     "text.content": "Inhalt:",
@@ -314,9 +314,9 @@ const translations = {
     "sendToBack": "In den Hintergrund",
 
     // ===== NON-PREFIXED ACTION KEYS (12 items) =====
-    "answerKey": "Lösungsschlüssel",
-    "answerKeyJpeg": "Lösungsschlüssel (JPEG)",
-    "answerKeyPdf": "Lösungsschlüssel (PDF)",
+    "answerKey": "Lösungsblatt",
+    "answerKeyJpeg": "Lösungsblatt (JPEG)",
+    "answerKeyPdf": "Lösungsblatt (PDF)",
     "clearAll": "Alles Löschen",
     "download": "Herunterladen",
     "generate": "Erstellen",
@@ -329,25 +329,25 @@ const translations = {
     // ===== 9. ACTION BUTTONS (11 items) =====
     "button.generate": "Erstellen",
     "button.generateWorksheet": "Arbeitsblatt Erstellen",
-    "button.generateAnswer": "Lösungsschlüssel Erstellen",
+    "button.generateAnswer": "Lösungsblatt Erstellen",
     "button.download": "Herunterladen",
     "button.worksheetJpeg": "Arbeitsblatt (JPEG)",
-    "button.answerJpeg": "Lösungsschlüssel (JPEG)",
+    "button.answerJpeg": "Lösungsblatt (JPEG)",
     "button.worksheetPdf": "Arbeitsblatt (PDF)",
-    "button.answerPdf": "Lösungsschlüssel (PDF)",
+    "button.answerPdf": "Lösungsblatt (PDF)",
     "settings.grayscale": "Graustufen",
     "button.clearAll": "Alles Löschen",
 
     // ===== 10. TABS (2 items) =====
     "tab.worksheet": "Arbeitsblatt",
-    "tab.answerKey": "Lösungsschlüssel",
+    "tab.answerKey": "Lösungsblatt",
 
     // ===== 11. SUCCESS MESSAGES (10 items) =====
     "message.customImagesAvailable": "{count} benutzerdefinierte Bild(er) verfügbar.",
     "message.generatingWorksheet": "Arbeitsblatt wird erstellt...",
     "message.worksheetGenerated": "Arbeitsblatt erfolgreich erstellt!",
-    "message.generatingAnswer": "Lösungsschlüssel wird erstellt...",
-    "message.answerGenerated": "Lösungsschlüssel erstellt!",
+    "message.generatingAnswer": "Lösungsblatt wird erstellt...",
+    "message.answerGenerated": "Lösungsblatt erstellt!",
     "message.assetAdded": "{type} hinzugefügt.",
     "message.formCleared": "Formular gelöscht.",
     "message.downloadStarted": "Download gestartet!",
@@ -402,7 +402,7 @@ const translations = {
     // ===== 2. ACCORDION HEADERS (6 items) =====
     "settings.language": "Paramètres de Langue",
     "settings.pageSetup": "Mise en Page",
-    "settings.textTools": "Outils de Texte",
+    "settings.textTools": "Options de texte",
     "settings.exerciseConfig": "Configuration de l'Exercice",
     "library.title": "Bibliothèque d'Images",
     "library.uploadTitle": "Téléverser vos Images",
@@ -496,7 +496,7 @@ const translations = {
     "toolbar.delete": "Supprimer la Sélection",
 
     // ===== 9. ACTION BUTTONS (11 items) =====
-    "button.generate": "Générer",
+    "button.generate": "Créer",
     "button.generateWorksheet": "Créer la Fiche",
     "button.generateAnswer": "Créer le Corrigé",
     "button.download": "Télécharger",
@@ -526,7 +526,7 @@ const translations = {
     "answerKeyPdf": "Corrigé (PDF)",
     "clearAll": "Tout Effacer",
     "download": "Télécharger",
-    "generate": "Générer",
+    "generate": "Créer",
     "grayscale": "Niveaux de Gris",
     "newWorksheet": "Nouvelle Fiche",
     "worksheet": "Fiche",
@@ -597,7 +597,7 @@ const translations = {
     // ===== 2. ACCORDION HEADERS (6 items) =====
     "settings.language": "Configuración de Idioma",
     "settings.pageSetup": "Configuración de Página",
-    "settings.textTools": "Herramientas de Texto",
+    "settings.textTools": "Opciones de texto",
     "settings.exerciseConfig": "Configuración del Ejercicio",
     "library.title": "Biblioteca de Imágenes",
     "library.uploadTitle": "Subir Imágenes Propias",
@@ -691,7 +691,7 @@ const translations = {
     "toolbar.delete": "Eliminar Selección",
 
     // ===== 9. ACTION BUTTONS (11 items) =====
-    "button.generate": "Generar",
+    "button.generate": "Crear",
     "button.generateWorksheet": "Crear Ficha de Trabajo",
     "button.generateAnswer": "Crear Solucionario",
     "button.download": "Descargar",
@@ -721,7 +721,7 @@ const translations = {
     "answerKeyPdf": "Solucionario (PDF)",
     "clearAll": "Borrar Todo",
     "download": "Descargar",
-    "generate": "Generar",
+    "generate": "Crear",
     "grayscale": "Escala de Grises",
     "newWorksheet": "Nueva Ficha",
     "worksheet": "Ficha de Trabajo",
@@ -734,9 +734,9 @@ const translations = {
 
     // ===== 11. SUCCESS MESSAGES (10 items) =====
     "message.customImagesAvailable": "{count} imagen(es) personalizada(s) disponible(s).",
-    "message.generatingWorksheet": "Generando ficha de trabajo...",
+    "message.generatingWorksheet": "Creando ficha de trabajo...",
     "message.worksheetGenerated": "¡Ficha de trabajo creada con éxito!",
-    "message.generatingAnswer": "Generando solucionario...",
+    "message.generatingAnswer": "Creando solucionario...",
     "message.answerGenerated": "¡Solucionario creado!",
     "message.assetAdded": "{type} añadido.",
     "message.formCleared": "Formulario borrado.",
@@ -752,7 +752,7 @@ const translations = {
     "message.generateFirst": "Por favor, primero cree una ficha de trabajo.",
     "message.cannotDownloadEmpty": "No se puede descargar el archivo vacío: {fileName}.",
     "message.imageError": "Error al preparar la imagen: {error}",
-    "message.generateContent": "Por favor, primero genere contenido.",
+    "message.generateContent": "Por favor, primero cree contenido.",
     "message.pdfError": "Error al crear el PDF.",
     "message.generateWorksheet": "Por favor, primero cree una ficha de trabajo.",
     "message.jpegError": "Error al preparar el JPEG.",
@@ -792,7 +792,7 @@ const translations = {
     // ===== 2. ACCORDION HEADERS (6 items) =====
     "settings.language": "Impostazioni Lingua",
     "settings.pageSetup": "Impostazione Pagina",
-    "settings.textTools": "Strumenti di Testo",
+    "settings.textTools": "Opzioni di testo",
     "settings.exerciseConfig": "Configurazione Esercizio",
     "library.title": "Raccolta Immagini",
     "library.uploadTitle": "Carica le Tue Immagini",
@@ -886,7 +886,7 @@ const translations = {
     "toolbar.delete": "Elimina Selezione",
 
     // ===== 9. ACTION BUTTONS (11 items) =====
-    "button.generate": "Genera",
+    "button.generate": "Crea",
     "button.generateWorksheet": "Crea Scheda di Lavoro",
     "button.generateAnswer": "Crea Soluzioni",
     "button.download": "Scarica",
@@ -916,7 +916,7 @@ const translations = {
     "answerKeyPdf": "Soluzioni (PDF)",
     "clearAll": "Cancella Tutto",
     "download": "Scarica",
-    "generate": "Genera",
+    "generate": "Crea",
     "grayscale": "Scala di Grigi",
     "newWorksheet": "Nuova Scheda",
     "worksheet": "Scheda di Lavoro",
@@ -947,7 +947,7 @@ const translations = {
     "message.generateFirst": "Per favore, crea prima una scheda di lavoro.",
     "message.cannotDownloadEmpty": "Impossibile scaricare il file vuoto: {fileName}.",
     "message.imageError": "Errore nella preparazione dell'immagine: {error}",
-    "message.generateContent": "Per favore, genera prima il contenuto.",
+    "message.generateContent": "Per favore, crea prima il contenuto.",
     "message.pdfError": "Errore nella creazione del PDF.",
     "message.generateWorksheet": "Per favore, crea prima una scheda di lavoro.",
     "message.jpegError": "Errore nella preparazione del JPEG.",
@@ -987,7 +987,7 @@ const translations = {
     // ===== 2. ACCORDION HEADERS (6 items) =====
     "settings.language": "Configurações de Idioma",
     "settings.pageSetup": "Configuração da Página",
-    "settings.textTools": "Ferramentas de Texto",
+    "settings.textTools": "Opções de texto",
     "settings.exerciseConfig": "Configuração do Exercício",
     "library.title": "Biblioteca de Imagens",
     "library.uploadTitle": "Enviar Suas Imagens",
@@ -1081,14 +1081,14 @@ const translations = {
     "toolbar.delete": "Eliminar Seleção",
 
     // ===== 9. ACTION BUTTONS (11 items) =====
-    "button.generate": "Gerar",
+    "button.generate": "Criar",
     "button.generateWorksheet": "Criar Ficha de Exercícios",
-    "button.generateAnswer": "Criar Gabarito",
+    "button.generateAnswer": "Criar Folha de Respostas",
     "button.download": "Baixar",
     "button.worksheetJpeg": "Ficha de Exercícios (JPEG)",
-    "button.answerJpeg": "Gabarito (JPEG)",
+    "button.answerJpeg": "Folha de Respostas (JPEG)",
     "button.worksheetPdf": "Ficha de Exercícios (PDF)",
-    "button.answerPdf": "Gabarito (PDF)",
+    "button.answerPdf": "Folha de Respostas (PDF)",
     "settings.grayscale": "Escala de Cinza",
     "button.clearAll": "Limpar Tudo",
 
@@ -1106,12 +1106,12 @@ const translations = {
     "sendToBack": "Enviar para o Último Plano",
 
     // ===== NON-PREFIXED ACTION KEYS (12 items) =====
-    "answerKey": "Gabarito",
-    "answerKeyJpeg": "Gabarito (JPEG)",
-    "answerKeyPdf": "Gabarito (PDF)",
+    "answerKey": "Folha de Respostas",
+    "answerKeyJpeg": "Folha de Respostas (JPEG)",
+    "answerKeyPdf": "Folha de Respostas (PDF)",
     "clearAll": "Limpar Tudo",
     "download": "Baixar",
-    "generate": "Gerar",
+    "generate": "Criar",
     "grayscale": "Escala de Cinza",
     "newWorksheet": "Nova Ficha",
     "worksheet": "Ficha de Exercícios",
@@ -1120,14 +1120,14 @@ const translations = {
 
     // ===== 10. TABS (2 items) =====
     "tab.worksheet": "Ficha de Exercícios",
-    "tab.answerKey": "Gabarito",
+    "tab.answerKey": "Folha de Respostas",
 
     // ===== 11. SUCCESS MESSAGES (10 items) =====
     "message.customImagesAvailable": "{count} imagem(ns) personalizada(s) disponível(is).",
-    "message.generatingWorksheet": "Gerando ficha de exercícios...",
+    "message.generatingWorksheet": "Criando ficha de exercícios...",
     "message.worksheetGenerated": "Ficha de exercícios criada com sucesso!",
-    "message.generatingAnswer": "Gerando gabarito...",
-    "message.answerGenerated": "Gabarito criado!",
+    "message.generatingAnswer": "Criando folha de respostas...",
+    "message.answerGenerated": "Folha de respostas criada!",
     "message.assetAdded": "{type} adicionado.",
     "message.formCleared": "Formulário limpo.",
     "message.downloadStarted": "Download iniciado!",
@@ -1142,7 +1142,7 @@ const translations = {
     "message.generateFirst": "Por favor, crie primeiro uma ficha de exercícios.",
     "message.cannotDownloadEmpty": "Não é possível baixar o arquivo vazio: {fileName}.",
     "message.imageError": "Erro ao preparar a imagem: {error}",
-    "message.generateContent": "Por favor, gere o conteúdo primeiro.",
+    "message.generateContent": "Por favor, crie o conteúdo primeiro.",
     "message.pdfError": "Erro ao criar o PDF.",
     "message.generateWorksheet": "Por favor, crie primeiro uma ficha de exercícios.",
     "message.jpegError": "Erro ao preparar o JPEG.",
@@ -1182,7 +1182,7 @@ const translations = {
     // ===== 2. ACCORDION HEADERS (6 items) =====
     "settings.language": "Taalinstellingen",
     "settings.pageSetup": "Pagina-instelling",
-    "settings.textTools": "Tekstgereedschappen",
+    "settings.textTools": "Tekstopties",
     "settings.exerciseConfig": "Oefening Configuratie",
     "library.title": "Afbeeldingen Collectie",
     "library.uploadTitle": "Upload Je Eigen Afbeeldingen",
@@ -1217,9 +1217,9 @@ const translations = {
     "decoration.backgroundTheme": "Achtergrondthema:",
     "decoration.none": "Geen",
     "none": "Geen",
-    "decoration.backgroundOpacity": "Achtergrond Transparantie:",
+    "decoration.backgroundOpacity": "Achtergronddekking:",
     "decoration.borderTheme": "Kaderthema:",
-    "decoration.borderOpacity": "Kader Transparantie:",
+    "decoration.borderOpacity": "Randdekking:",
 
     // ===== 5. TEXT TOOLS (8 items) =====
     "text.content": "Inhoud:",
@@ -1276,7 +1276,7 @@ const translations = {
     "toolbar.delete": "Selectie Verwijderen",
 
     // ===== 9. ACTION BUTTONS (11 items) =====
-    "button.generate": "Genereren",
+    "button.generate": "Maken",
     "button.generateWorksheet": "Werkblad Maken",
     "button.generateAnswer": "Antwoordblad Maken",
     "button.download": "Downloaden",
@@ -1306,7 +1306,7 @@ const translations = {
     "answerKeyPdf": "Antwoordblad (PDF)",
     "clearAll": "Alles Wissen",
     "download": "Downloaden",
-    "generate": "Genereren",
+    "generate": "Maken",
     "grayscale": "Grijswaarden",
     "newWorksheet": "Nieuw Werkblad",
     "worksheet": "Werkblad",
@@ -1337,7 +1337,7 @@ const translations = {
     "message.generateFirst": "Maak eerst een werkblad aan.",
     "message.cannotDownloadEmpty": "Kan leeg bestand niet downloaden: {fileName}.",
     "message.imageError": "Fout bij voorbereiden afbeelding: {error}",
-    "message.generateContent": "Genereer eerst de inhoud.",
+    "message.generateContent": "Maak eerst de inhoud.",
     "message.pdfError": "Fout bij maken PDF.",
     "message.generateWorksheet": "Maak eerst een werkblad aan.",
     "message.jpegError": "Fout bij voorbereiden JPEG.",
@@ -1377,7 +1377,7 @@ const translations = {
     // ===== 2. ACCORDION HEADERS (6 items) =====
     "settings.language": "Språkinställningar",
     "settings.pageSetup": "Sidformat",
-    "settings.textTools": "Textverktyg",
+    "settings.textTools": "Textalternativ",
     "settings.exerciseConfig": "Övningsinställningar",
     "library.title": "Bildsamling",
     "library.uploadTitle": "Ladda Upp Egna Bilder",
@@ -1412,9 +1412,9 @@ const translations = {
     "decoration.backgroundTheme": "Bakgrundstema:",
     "decoration.none": "Ingen",
     "none": "Ingen",
-    "decoration.backgroundOpacity": "Bakgrundens Genomskinlighet:",
+    "decoration.backgroundOpacity": "Bakgrundsopacitet:",
     "decoration.borderTheme": "Ramtema:",
-    "decoration.borderOpacity": "Ramens Genomskinlighet:",
+    "decoration.borderOpacity": "Ramopacitet:",
 
     // ===== 5. TEXT TOOLS (8 items) =====
     "text.content": "Innehåll:",
@@ -1471,7 +1471,7 @@ const translations = {
     "toolbar.delete": "Ta Bort Markering",
 
     // ===== 9. ACTION BUTTONS (11 items) =====
-    "button.generate": "Generera",
+    "button.generate": "Skapa",
     "button.generateWorksheet": "Skapa Arbetsblad",
     "button.generateAnswer": "Skapa Facit",
     "button.download": "Ladda Ner",
@@ -1501,7 +1501,7 @@ const translations = {
     "answerKeyPdf": "Facit (PDF)",
     "clearAll": "Rensa Allt",
     "download": "Ladda Ner",
-    "generate": "Generera",
+    "generate": "Skapa",
     "grayscale": "Gråskala",
     "newWorksheet": "Nytt Arbetsblad",
     "worksheet": "Arbetsblad",
@@ -1532,7 +1532,7 @@ const translations = {
     "message.generateFirst": "Skapa ett arbetsblad först.",
     "message.cannotDownloadEmpty": "Kan inte ladda ner tom fil: {fileName}.",
     "message.imageError": "Fel vid förberedelse av bild: {error}",
-    "message.generateContent": "Generera innehållet först.",
+    "message.generateContent": "Skapa innehållet först.",
     "message.pdfError": "Fel vid skapande av PDF.",
     "message.generateWorksheet": "Skapa ett arbetsblad först.",
     "message.jpegError": "Fel vid förberedelse av JPEG.",
@@ -1572,7 +1572,7 @@ const translations = {
     // ===== 2. ACCORDION HEADERS (6 items) =====
     "settings.language": "Sprogindstillinger",
     "settings.pageSetup": "Sideopsætning",
-    "settings.textTools": "Tekstværktøjer",
+    "settings.textTools": "Tekstindstillinger",
     "settings.exerciseConfig": "Opgaveindstillinger",
     "library.title": "Billedsamling",
     "library.uploadTitle": "Upload Dine Egne Billeder",
@@ -1607,9 +1607,9 @@ const translations = {
     "decoration.backgroundTheme": "Baggrundstema:",
     "decoration.none": "Ingen",
     "none": "Ingen",
-    "decoration.backgroundOpacity": "Baggrunds Gennemsigtighed:",
+    "decoration.backgroundOpacity": "Baggrundsdekning:",
     "decoration.borderTheme": "Rammetema:",
-    "decoration.borderOpacity": "Ramme Gennemsigtighed:",
+    "decoration.borderOpacity": "Rammedekning:",
 
     // ===== 5. TEXT TOOLS (8 items) =====
     "text.content": "Indhold:",
@@ -1666,14 +1666,14 @@ const translations = {
     "toolbar.delete": "Slet Markering",
 
     // ===== 9. ACTION BUTTONS (11 items) =====
-    "button.generate": "Generer",
-    "button.generateWorksheet": "Lav Opgaveark",
-    "button.generateAnswer": "Lav Facitliste",
+    "button.generate": "Opret",
+    "button.generateWorksheet": "Opret Opgaveark",
+    "button.generateAnswer": "Opret Svarark",
     "button.download": "Download",
     "button.worksheetJpeg": "Opgaveark (JPEG)",
-    "button.answerJpeg": "Facitliste (JPEG)",
+    "button.answerJpeg": "Svarark (JPEG)",
     "button.worksheetPdf": "Opgaveark (PDF)",
-    "button.answerPdf": "Facitliste (PDF)",
+    "button.answerPdf": "Svarark (PDF)",
     "settings.grayscale": "Gråtoner",
     "button.clearAll": "Ryd Alt",
 
@@ -1691,12 +1691,12 @@ const translations = {
     "sendToBack": "Send til Baggrunden",
 
     // ===== NON-PREFIXED ACTION KEYS (12 items) =====
-    "answerKey": "Facitliste",
-    "answerKeyJpeg": "Facitliste (JPEG)",
-    "answerKeyPdf": "Facitliste (PDF)",
+    "answerKey": "Svarark",
+    "answerKeyJpeg": "Svarark (JPEG)",
+    "answerKeyPdf": "Svarark (PDF)",
     "clearAll": "Ryd Alt",
     "download": "Download",
-    "generate": "Generer",
+    "generate": "Opret",
     "grayscale": "Gråtoner",
     "newWorksheet": "Nyt Opgaveark",
     "worksheet": "Opgaveark",
@@ -1705,14 +1705,14 @@ const translations = {
 
     // ===== 10. TABS (2 items) =====
     "tab.worksheet": "Opgaveark",
-    "tab.answerKey": "Facitliste",
+    "tab.answerKey": "Svarark",
 
     // ===== 11. SUCCESS MESSAGES (10 items) =====
     "message.customImagesAvailable": "{count} brugerdefiner(et/ede) billed(er) tilgængelig(e).",
-    "message.generatingWorksheet": "Laver opgaveark...",
-    "message.worksheetGenerated": "Opgaveark lavet!",
-    "message.generatingAnswer": "Laver facitliste...",
-    "message.answerGenerated": "Facitliste lavet!",
+    "message.generatingWorksheet": "Opretter opgaveark...",
+    "message.worksheetGenerated": "Opgaveark oprettet!",
+    "message.generatingAnswer": "Opretter svarark...",
+    "message.answerGenerated": "Svarark oprettet!",
     "message.assetAdded": "{type} tilføjet.",
     "message.formCleared": "Formular ryddet.",
     "message.downloadStarted": "Download startet!",
@@ -1727,7 +1727,7 @@ const translations = {
     "message.generateFirst": "Lav et opgaveark først.",
     "message.cannotDownloadEmpty": "Kan ikke downloade tom fil: {fileName}.",
     "message.imageError": "Fejl ved forberedelse af billede: {error}",
-    "message.generateContent": "Generer indholdet først.",
+    "message.generateContent": "Opret indholdet først.",
     "message.pdfError": "Fejl ved oprettelse af PDF.",
     "message.generateWorksheet": "Lav et opgaveark først.",
     "message.jpegError": "Fejl ved forberedelse af JPEG.",
@@ -1767,7 +1767,7 @@ const translations = {
     // ===== 2. ACCORDION HEADERS (6 items) =====
     "settings.language": "Språkinnstillinger",
     "settings.pageSetup": "Sideoppsett",
-    "settings.textTools": "Tekstverktøy",
+    "settings.textTools": "Tekstinnstillinger",
     "settings.exerciseConfig": "Oppgaveinnstillinger",
     "library.title": "Bildesamling",
     "library.uploadTitle": "Last Opp Egne Bilder",
@@ -1802,9 +1802,9 @@ const translations = {
     "decoration.backgroundTheme": "Bakgrunnstema:",
     "decoration.none": "Ingen",
     "none": "Ingen",
-    "decoration.backgroundOpacity": "Bakgrunn Gjennomsiktighet:",
+    "decoration.backgroundOpacity": "Bakgrunnsdekkevne:",
     "decoration.borderTheme": "Rammetema:",
-    "decoration.borderOpacity": "Ramme Gjennomsiktighet:",
+    "decoration.borderOpacity": "Rammedekkevne:",
 
     // ===== 5. TEXT TOOLS (8 items) =====
     "text.content": "Innhold:",
@@ -1861,16 +1861,16 @@ const translations = {
     "toolbar.delete": "Slett Markering",
 
     // ===== 9. ACTION BUTTONS (11 items) =====
-    "button.generate": "Generer",
-    "button.generateWorksheet": "Lag Oppgaveark",
-    "button.generateAnswer": "Lag Fasit",
+    "button.generate": "Opprett",
+    "button.generateWorksheet": "Opprett Oppgaveark",
+    "button.generateAnswer": "Opprett Fasit",
     "button.download": "Last Ned",
     "button.worksheetJpeg": "Oppgaveark (JPEG)",
     "button.answerJpeg": "Fasit (JPEG)",
     "button.worksheetPdf": "Oppgaveark (PDF)",
     "button.answerPdf": "Fasit (PDF)",
     "settings.grayscale": "Gråtoner",
-    "button.clearAll": "Tøm Alt",
+    "button.clearAll": "Slett Alt",
 
     // ===== ZOOM & HISTORY CONTROLS (5 items) =====
     "zoomIn": "Zoom Inn",
@@ -1889,9 +1889,9 @@ const translations = {
     "answerKey": "Fasit",
     "answerKeyJpeg": "Fasit (JPEG)",
     "answerKeyPdf": "Fasit (PDF)",
-    "clearAll": "Tøm Alt",
+    "clearAll": "Slett Alt",
     "download": "Last Ned",
-    "generate": "Generer",
+    "generate": "Opprett",
     "grayscale": "Gråtoner",
     "newWorksheet": "Nytt Oppgaveark",
     "worksheet": "Oppgaveark",
@@ -1904,10 +1904,10 @@ const translations = {
 
     // ===== 11. SUCCESS MESSAGES (10 items) =====
     "message.customImagesAvailable": "{count} egendefinert(e) bilde(r) tilgjengelig(e).",
-    "message.generatingWorksheet": "Lager oppgaveark...",
-    "message.worksheetGenerated": "Oppgaveark laget!",
-    "message.generatingAnswer": "Lager fasit...",
-    "message.answerGenerated": "Fasit laget!",
+    "message.generatingWorksheet": "Oppretter oppgaveark...",
+    "message.worksheetGenerated": "Oppgaveark opprettet!",
+    "message.generatingAnswer": "Oppretter fasit...",
+    "message.answerGenerated": "Fasit opprettet!",
     "message.assetAdded": "{type} lagt til.",
     "message.formCleared": "Skjema tømt.",
     "message.downloadStarted": "Nedlasting startet!",
@@ -1922,7 +1922,7 @@ const translations = {
     "message.generateFirst": "Lag et oppgaveark først.",
     "message.cannotDownloadEmpty": "Kan ikke laste ned tom fil: {fileName}.",
     "message.imageError": "Feil ved klargjøring av bilde: {error}",
-    "message.generateContent": "Generer innholdet først.",
+    "message.generateContent": "Opprett innholdet først.",
     "message.pdfError": "Feil ved opprettelse av PDF.",
     "message.generateWorksheet": "Lag et oppgaveark først.",
     "message.jpegError": "Feil ved klargjøring av JPEG.",
@@ -1962,7 +1962,7 @@ const translations = {
     // ===== 2. ACCORDION HEADERS (6 items) =====
     "settings.language": "Kieliasetukset",
     "settings.pageSetup": "Sivun Asetukset",
-    "settings.textTools": "Tekstityökalut",
+    "settings.textTools": "Tekstivaihtoehdot",
     "settings.exerciseConfig": "Tehtävän Asetukset",
     "library.title": "Kuvakirjasto",
     "library.uploadTitle": "Lataa Omia Kuvia",
@@ -1997,9 +1997,9 @@ const translations = {
     "decoration.backgroundTheme": "Taustateema:",
     "decoration.none": "Ei mitään",
     "none": "Ei mitään",
-    "decoration.backgroundOpacity": "Taustan Läpinäkyvyys:",
+    "decoration.backgroundOpacity": "Taustan läpinäkyvyys:",
     "decoration.borderTheme": "Reunusteema:",
-    "decoration.borderOpacity": "Reunuksen Läpinäkyvyys:",
+    "decoration.borderOpacity": "Reunuksen läpinäkyvyys:",
 
     // ===== 5. TEXT TOOLS (8 items) =====
     "text.content": "Sisältö:",

@@ -120,7 +120,7 @@ const translations = {
         "language": "Sprache:",
         "imageLibraryLanguage": "Bilderbibliothek-Sprache:",
         "pageSetup": "Seiteneinrichtung",
-        "pageSize": "Seitengröße:",
+        "pageSize": "Papierformat:", // Changed from "Seitengröße:"
         "letterPortrait": "Letter Hochformat (8,5×11\")",
         "letterLandscape": "Letter Querformat (11×8,5\")",
         "a4Portrait": "A4 Hochformat (210×297mm)",
@@ -246,7 +246,7 @@ const translations = {
         "fontFamily": "Police :",
         "textColor": "Couleur du texte :",
         "problemSpacing": "Espacement des problèmes :",
-        "generate": "Générer",
+        "generate": "Créer",
         "generateWorksheet": "Générer la feuille",
         "generateAnswerKey": "Générer le corrigé",
         "download": "Télécharger",
@@ -326,7 +326,7 @@ const translations = {
         "fontFamily": "Tipo de letra:",
         "textColor": "Color del texto:",
         "problemSpacing": "Espaciado de problemas:",
-        "generate": "Generar",
+        "generate": "Crear",
         "generateWorksheet": "Generar hoja",
         "generateAnswerKey": "Generar clave de respuestas",
         "download": "Descargar",
@@ -406,7 +406,7 @@ const translations = {
         "fontFamily": "Tipo di carattere:",
         "textColor": "Colore testo:",
         "problemSpacing": "Spaziatura problemi:",
-        "generate": "Genera",
+        "generate": "Crea",
         "generateWorksheet": "Genera scheda",
         "generateAnswerKey": "Genera soluzioni",
         "download": "Scarica",
@@ -486,7 +486,7 @@ const translations = {
         "fontFamily": "Tipo de fonte:",
         "textColor": "Cor do texto:",
         "problemSpacing": "Espaçamento dos problemas:",
-        "generate": "Gerar",
+        "generate": "Criar",
         "generateWorksheet": "Gerar folha",
         "generateAnswerKey": "Gerar gabarito",
         "download": "Baixar",
@@ -629,7 +629,7 @@ const translations = {
 
         // Page Setup
         "pageSetup": "Seiteneinrichtung",
-        "pageSize": "Seitengröße:",
+        "pageSize": "Papierformat:", // Changed from "Seitengröße:"
         "letterPortrait": "Letter Hochformat (8,5×11\")",
         "letterLandscape": "Letter Querformat (11×8,5\")",
         "a4Portrait": "A4 Hochformat (210×297mm)",
@@ -787,7 +787,7 @@ const translations = {
         "problemSpacing": "Espacement des problèmes :",
 
         // Actions
-        "generate": "Générer",
+        "generate": "Créer",
         "generateWorksheet": "Générer la feuille",
         "generateAnswerKey": "Générer le corrigé",
         "download": "Télécharger",
@@ -887,7 +887,7 @@ const translations = {
         "problemSpacing": "Espaciado de problemas:",
 
         // Actions
-        "generate": "Generar",
+        "generate": "Crear",
         "generateWorksheet": "Generar hoja",
         "generateAnswerKey": "Generar clave de respuestas",
         "download": "Descargar",
@@ -987,7 +987,7 @@ const translations = {
         "problemSpacing": "Spaziatura problemi:",
 
         // Actions
-        "generate": "Genera",
+        "generate": "Crea",
         "generateWorksheet": "Genera scheda",
         "generateAnswerKey": "Genera soluzioni",
         "download": "Scarica",
@@ -1087,7 +1087,7 @@ const translations = {
         "problemSpacing": "Espaçamento dos problemas:",
 
         // Actions
-        "generate": "Gerar",
+        "generate": "Criar",
         "generateWorksheet": "Gerar folha",
         "generateAnswerKey": "Gerar gabarito",
         "download": "Baixar",

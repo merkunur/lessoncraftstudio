@@ -180,7 +180,7 @@ const translations = {
         // Accordion headers
         "languageSettings": "Spracheinstellungen",
         "pageSetup": "Seitenformat",
-        "textTools": "Textgestaltung",
+        "textTools": "Textbearbeitung", // Changed from "Textgestaltung"
         "imageSelection": "Bildauswahl",
         "uploadCustomImages": "Eigene Bilder hochladen",
         "problemSettings": "Aufgabeneinstellungen",
@@ -222,10 +222,10 @@ const translations = {
         // Backgrounds and borders
         "backgroundTheme": "Hintergrundthema:",
         "selectThemeForBackgrounds": "Wählen Sie ein Thema für Hintergründe.",
-        "backgroundOpacity": "Hintergrundtransparenz:",
+        "backgroundOpacity": "Hintergrund-Deckkraft:", // Changed from "Hintergrundtransparenz:"
         "borderTheme": "Rahmenthema:",
         "selectThemeToSeeBorders": "Wählen Sie ein Thema für Rahmen.",
-        "borderOpacity": "Rahmentransparenz:",
+        "borderOpacity": "Rahmen-Deckkraft:", // Changed from "Rahmentransparenz:"
 
         // Text tools
         "selectedTextProperties": "Ausgewählte Texteigenschaften",
@@ -284,8 +284,8 @@ const translations = {
         // Layer Controls
         "layers": "Ebenen",
         "bringToFront": "Ganz nach vorne",
-        "bringForward": "Nach vorne bringen",
-        "sendBackward": "Nach hinten senden",
+        "bringForward": "Nach vorne",
+        "sendBackward": "Nach hinten",
         "sendToBack": "Ganz nach hinten",
 
         // Alignment Toolbar
@@ -348,7 +348,7 @@ const translations = {
         // Accordion headers
         "languageSettings": "Paramètres de Langue",
         "pageSetup": "Configuration de Page",
-        "textTools": "Outils de Texte",
+        "textTools": "Options de texte", // Changed from "Outils de Texte"
         "imageSelection": "Sélection d'Images",
         "uploadCustomImages": "Télécharger Vos Images",
         "problemSettings": "Paramètres des Exercices",
@@ -365,7 +365,7 @@ const translations = {
         "loading": "Chargement...",
         "error": "Erreur",
         "success": "Succès",
-        "generate": "Générer",
+        "generate": "Créer",
         "newWorksheet": "Nouvelle Feuille",
         "download": "Télécharger",
         "clearAll": "Tout Effacer",
@@ -528,7 +528,7 @@ const translations = {
         // Accordion headers
         "languageSettings": "Configuración de Idioma",
         "pageSetup": "Configuración de Página",
-        "textTools": "Herramientas de Texto",
+        "textTools": "Opciones de texto", // Changed from "Herramientas de Texto"
         "imageSelection": "Selección de Imágenes",
         "uploadCustomImages": "Subir Imágenes Propias",
         "problemSettings": "Configuración de Ejercicios",
@@ -545,14 +545,14 @@ const translations = {
         "loading": "Cargando...",
         "error": "Error",
         "success": "Éxito",
-        "generate": "Generar",
+        "generate": "Crear",
         "newWorksheet": "Nueva Hoja",
         "download": "Descargar",
         "clearAll": "Borrar Todo",
 
         // Generate dropdown options
-        "generateWorksheet": "Generar Hoja de Ejercicios",
-        "generateAnswerKey": "Generar Hoja de Respuestas",
+        "generateWorksheet": "Crear Hoja de Ejercicios",
+        "generateAnswerKey": "Crear Hoja de Respuestas",
 
         // Page setup
         "pageSize": "Tamaño de Página:",
@@ -659,18 +659,18 @@ const translations = {
         "couldNotLoadThemes": "No se pudieron cargar los temas.",
         "maxImagesSelected": "Puede seleccionar un máximo de {max} imágenes.",
         "customImagesAvailable": "{count} imagen(es) personalizada(s) disponible(s).",
-        "generatingWorksheet": "Generando hoja de ejercicios...",
+        "generatingWorksheet": "Creando hoja de ejercicios...",
         "pleaseSelectImages": "Por favor, seleccione imágenes o elija un tema con imágenes.",
-        "worksheetGeneratedSuccessfully": "¡Hoja de ejercicios generada con éxito!",
-        "pleaseGenerateWorksheetFirst": "Por favor, genere primero una hoja de ejercicios.",
-        "generatingAnswerKey": "Generando hoja de respuestas...",
-        "answerKeyGenerated": "¡Hoja de respuestas generada!",
+        "worksheetGeneratedSuccessfully": "¡Hoja de ejercicios creada con éxito!",
+        "pleaseGenerateWorksheetFirst": "Por favor, cree primero una hoja de ejercicios.",
+        "generatingAnswerKey": "Creando hoja de respuestas...",
+        "answerKeyGenerated": "¡Hoja de respuestas creada!",
         "failedToLoadImage": "Error al cargar la imagen {type}.",
         "formCleared": "Formulario borrado.",
         "preparingCanvas": "Preparando {canvas}...",
         "downloadInitiated": "¡Descarga iniciada!",
         "errorPreparingImage": "Error al preparar la imagen: {error}",
-        "pleaseGenerateContentFirst": "Por favor, genere primero el contenido.",
+        "pleaseGenerateContentFirst": "Por favor, cree primero el contenido.",
         "preparingPdf": "Preparando PDF...",
         "pdfDownloaded": "¡PDF descargado!",
         "errorCreatingPdf": "Error al crear el PDF.",
@@ -697,7 +697,7 @@ const translations = {
         // Accordion headers
         "languageSettings": "Impostazioni Lingua",
         "pageSetup": "Impostazione Pagina",
-        "textTools": "Strumenti di Testo",
+        "textTools": "Opzioni di testo", // Changed from "Strumenti di Testo"
         "imageSelection": "Selezione Immagini",
         "uploadCustomImages": "Carica le Tue Immagini",
         "problemSettings": "Impostazioni Esercizi",
@@ -714,14 +714,14 @@ const translations = {
         "loading": "Caricamento...",
         "error": "Errore",
         "success": "Successo",
-        "generate": "Genera",
+        "generate": "Crea",
         "newWorksheet": "Nuova Scheda",
         "download": "Scarica",
         "clearAll": "Cancella Tutto",
 
         // Generate dropdown options
-        "generateWorksheet": "Genera Scheda di Lavoro",
-        "generateAnswerKey": "Genera Foglio Risposte",
+        "generateWorksheet": "Crea Scheda di Lavoro",
+        "generateAnswerKey": "Crea Foglio Risposte",
 
         // Page setup
         "pageSize": "Formato Pagina:",
@@ -828,18 +828,18 @@ const translations = {
         "couldNotLoadThemes": "Impossibile caricare i temi.",
         "maxImagesSelected": "Puoi selezionare un massimo di {max} immagini.",
         "customImagesAvailable": "{count} immagine/i personalizzata/e disponibile/i.",
-        "generatingWorksheet": "Generazione scheda di lavoro...",
+        "generatingWorksheet": "Creazione scheda di lavoro...",
         "pleaseSelectImages": "Seleziona delle immagini o scegli un tema con immagini.",
-        "worksheetGeneratedSuccessfully": "Scheda di lavoro generata con successo!",
-        "pleaseGenerateWorksheetFirst": "Genera prima una scheda di lavoro.",
-        "generatingAnswerKey": "Generazione foglio risposte...",
-        "answerKeyGenerated": "Foglio risposte generato!",
+        "worksheetGeneratedSuccessfully": "Scheda di lavoro creata con successo!",
+        "pleaseGenerateWorksheetFirst": "Crea prima una scheda di lavoro.",
+        "generatingAnswerKey": "Creazione foglio risposte...",
+        "answerKeyGenerated": "Foglio risposte creato!",
         "failedToLoadImage": "Impossibile caricare l'immagine {type}.",
         "formCleared": "Modulo cancellato.",
         "preparingCanvas": "Preparazione {canvas}...",
         "downloadInitiated": "Download avviato!",
         "errorPreparingImage": "Errore nella preparazione dell'immagine: {error}",
-        "pleaseGenerateContentFirst": "Genera prima il contenuto.",
+        "pleaseGenerateContentFirst": "Crea prima il contenuto.",
         "preparingPdf": "Preparazione PDF...",
         "pdfDownloaded": "PDF scaricato!",
         "errorCreatingPdf": "Errore nella creazione del PDF.",
@@ -866,14 +866,14 @@ const translations = {
         // Accordion headers
         "languageSettings": "Configurações de Idioma",
         "pageSetup": "Configuração da Página",
-        "textTools": "Ferramentas de Texto",
+        "textTools": "Opções de texto", // Changed from "Ferramentas de Texto"
         "imageSelection": "Seleção de Imagens",
         "uploadCustomImages": "Carregar Suas Imagens",
         "problemSettings": "Configurações de Exercícios",
 
         // Tab labels
         "worksheet": "Folha de Exercícios",
-        "answerKey": "Gabarito",
+        "answerKey": "Folha de Respostas",
 
         // Common UI elements
         "language": "Idioma:",
@@ -883,14 +883,14 @@ const translations = {
         "loading": "Carregando...",
         "error": "Erro",
         "success": "Sucesso",
-        "generate": "Gerar",
+        "generate": "Criar",
         "newWorksheet": "Nova Folha",
         "download": "Baixar",
         "clearAll": "Limpar Tudo",
 
         // Generate dropdown options
-        "generateWorksheet": "Gerar Folha de Exercícios",
-        "generateAnswerKey": "Gerar Gabarito",
+        "generateWorksheet": "Criar Folha de Exercícios",
+        "generateAnswerKey": "Criar Folha de Respostas",
 
         // Page setup
         "pageSize": "Tamanho da Página:",
@@ -997,18 +997,18 @@ const translations = {
         "couldNotLoadThemes": "Não foi possível carregar os temas.",
         "maxImagesSelected": "Você pode selecionar no máximo {max} imagens.",
         "customImagesAvailable": "{count} imagem(ns) personalizada(s) disponível(is).",
-        "generatingWorksheet": "Gerando folha de exercícios...",
+        "generatingWorksheet": "Criando folha de exercícios...",
         "pleaseSelectImages": "Por favor, selecione imagens ou escolha um tema com imagens.",
-        "worksheetGeneratedSuccessfully": "Folha de exercícios gerada com sucesso!",
-        "pleaseGenerateWorksheetFirst": "Por favor, gere primeiro uma folha de exercícios.",
-        "generatingAnswerKey": "Gerando gabarito...",
-        "answerKeyGenerated": "Gabarito gerado!",
+        "worksheetGeneratedSuccessfully": "Folha de exercícios criada com sucesso!",
+        "pleaseGenerateWorksheetFirst": "Por favor, crie primeiro uma folha de exercícios.",
+        "generatingAnswerKey": "Criando folha de respostas...",
+        "answerKeyGenerated": "Folha de respostas criada!",
         "failedToLoadImage": "Falha ao carregar imagem {type}.",
         "formCleared": "Formulário limpo.",
         "preparingCanvas": "Preparando {canvas}...",
         "downloadInitiated": "Download iniciado!",
         "errorPreparingImage": "Erro ao preparar imagem: {error}",
-        "pleaseGenerateContentFirst": "Por favor, gere o conteúdo primeiro.",
+        "pleaseGenerateContentFirst": "Por favor, crie o conteúdo primeiro.",
         "preparingPdf": "Preparando PDF...",
         "pdfDownloaded": "PDF baixado!",
         "errorCreatingPdf": "Erro ao criar PDF.",
@@ -1021,9 +1021,9 @@ const translations = {
 
         // Download menu
         "worksheetJpeg": "Folha de Exercícios (JPEG)",
-        "answerKeyJpeg": "Gabarito (JPEG)",
+        "answerKeyJpeg": "Folha de Respostas (JPEG)",
         "worksheetPdf": "Folha de Exercícios (PDF)",
-        "answerKeyPdf": "Gabarito (PDF)",
+        "answerKeyPdf": "Folha de Respostas (PDF)",
         "grayscale": "Escala de Cinza"
     },
 
@@ -1035,7 +1035,7 @@ const translations = {
         // Accordion headers
         "languageSettings": "Taalinstellingen",
         "pageSetup": "Pagina-instelling",
-        "textTools": "Tekstgereedschap",
+        "textTools": "Tekstopties", // Changed from "Tekstgereedschap"
         "imageSelection": "Afbeelding Selectie",
         "uploadCustomImages": "Upload Eigen Afbeeldingen",
         "problemSettings": "Oefening Instellingen",
@@ -1052,14 +1052,14 @@ const translations = {
         "loading": "Laden...",
         "error": "Fout",
         "success": "Succes",
-        "generate": "Genereren",
+        "generate": "Maken",
         "newWorksheet": "Nieuw Werkblad",
         "download": "Downloaden",
         "clearAll": "Alles Wissen",
 
         // Generate dropdown options
-        "generateWorksheet": "Werkblad Genereren",
-        "generateAnswerKey": "Antwoordblad Genereren",
+        "generateWorksheet": "Werkblad Maken",
+        "generateAnswerKey": "Antwoordblad Maken",
 
         // Page setup
         "pageSize": "Paginaformaat:",
@@ -1166,18 +1166,18 @@ const translations = {
         "couldNotLoadThemes": "Kon thema's niet laden.",
         "maxImagesSelected": "U kunt maximaal {max} afbeeldingen selecteren.",
         "customImagesAvailable": "{count} aangepaste afbeelding(en) beschikbaar.",
-        "generatingWorksheet": "Werkblad genereren...",
+        "generatingWorksheet": "Werkblad maken...",
         "pleaseSelectImages": "Selecteer afbeeldingen of kies een thema met afbeeldingen.",
-        "worksheetGeneratedSuccessfully": "Werkblad succesvol gegenereerd!",
-        "pleaseGenerateWorksheetFirst": "Genereer eerst een werkblad.",
-        "generatingAnswerKey": "Antwoordblad genereren...",
-        "answerKeyGenerated": "Antwoordblad gegenereerd!",
+        "worksheetGeneratedSuccessfully": "Werkblad succesvol gemaakt!",
+        "pleaseGenerateWorksheetFirst": "Maak eerst een werkblad.",
+        "generatingAnswerKey": "Antwoordblad maken...",
+        "answerKeyGenerated": "Antwoordblad gemaakt!",
         "failedToLoadImage": "Kan {type} afbeelding niet laden.",
         "formCleared": "Formulier gewist.",
         "preparingCanvas": "{canvas} voorbereiden...",
         "downloadInitiated": "Download gestart!",
         "errorPreparingImage": "Fout bij het voorbereiden van afbeelding: {error}",
-        "pleaseGenerateContentFirst": "Genereer eerst inhoud.",
+        "pleaseGenerateContentFirst": "Maak eerst inhoud.",
         "preparingPdf": "PDF voorbereiden...",
         "pdfDownloaded": "PDF gedownload!",
         "errorCreatingPdf": "Fout bij het maken van PDF.",
@@ -1203,8 +1203,8 @@ const translations = {
 
         // Accordion headers
         "languageSettings": "Språkinställningar",
-        "pageSetup": "Sidinställning",
-        "textTools": "Textverktyg",
+        "pageSetup": "Sidinställningar", // Changed from "Sidinställning"
+        "textTools": "Textalternativ", // Changed from "Textverktyg"
         "imageSelection": "Bildval",
         "uploadCustomImages": "Ladda upp Egna Bilder",
         "problemSettings": "Uppgiftsinställningar",
@@ -1373,14 +1373,14 @@ const translations = {
         // Accordion headers
         "languageSettings": "Sprogindstillinger",
         "pageSetup": "Sideopsætning",
-        "textTools": "Tekstværktøjer",
+        "textTools": "Tekstindstillinger", // Changed from "Tekstværktøjer"
         "imageSelection": "Billedvalg",
         "uploadCustomImages": "Upload Egne Billeder",
         "problemSettings": "Opgaveindstillinger",
 
         // Tab labels
         "worksheet": "Arbejdsark",
-        "answerKey": "Facitliste",
+        "answerKey": "Svarark",
 
         // Common UI elements
         "language": "Sprog:",
@@ -1390,14 +1390,14 @@ const translations = {
         "loading": "Indlæser...",
         "error": "Fejl",
         "success": "Succes",
-        "generate": "Generer",
+        "generate": "Opret",
         "newWorksheet": "Nyt Arbejdsark",
         "download": "Download",
         "clearAll": "Ryd Alt",
 
         // Generate dropdown options
-        "generateWorksheet": "Generer Arbejdsark",
-        "generateAnswerKey": "Generer Facitliste",
+        "generateWorksheet": "Opret Arbejdsark",
+        "generateAnswerKey": "Opret Svarark",
 
         // Page setup
         "pageSize": "Sidestørrelse:",
@@ -1416,10 +1416,10 @@ const translations = {
         // Backgrounds and borders
         "backgroundTheme": "Baggrundstema:",
         "selectThemeForBackgrounds": "Vælg et tema til baggrunde.",
-        "backgroundOpacity": "Baggrundsgennemsigtighed:",
+        "backgroundOpacity": "Baggrundsdekning:",
         "borderTheme": "Rammetema:",
         "selectThemeToSeeBorders": "Vælg et tema til rammer.",
-        "borderOpacity": "Rammegennemsigtighed:",
+        "borderOpacity": "Rammedekning:",
 
         // Text tools
         "selectedTextProperties": "Markerede Tekstegenskaber",
@@ -1479,7 +1479,7 @@ const translations = {
         "layers": "Lag",
         "bringToFront": "Flyt forrest",
         "bringForward": "Flyt fremad",
-        "sendBackward": "Flyt tilbage",
+        "sendBackward": "Flyt bagud",
         "sendToBack": "Flyt bagerst",
 
         // Alignment Toolbar
@@ -1504,18 +1504,18 @@ const translations = {
         "couldNotLoadThemes": "Kunne ikke indlæse temaer.",
         "maxImagesSelected": "Du kan vælge maksimalt {max} billeder.",
         "customImagesAvailable": "{count} tilpasset/tilpassede billede(r) tilgængelig(e).",
-        "generatingWorksheet": "Genererer arbejdsark...",
+        "generatingWorksheet": "Opretter arbejdsark...",
         "pleaseSelectImages": "Vælg billeder eller vælg et tema med billeder.",
-        "worksheetGeneratedSuccessfully": "Arbejdsark genereret succesfuldt!",
-        "pleaseGenerateWorksheetFirst": "Generer først et arbejdsark.",
-        "generatingAnswerKey": "Genererer facitliste...",
-        "answerKeyGenerated": "Facitliste genereret!",
+        "worksheetGeneratedSuccessfully": "Arbejdsark oprettet succesfuldt!",
+        "pleaseGenerateWorksheetFirst": "Opret først et arbejdsark.",
+        "generatingAnswerKey": "Opretter svarark...",
+        "answerKeyGenerated": "Svarark oprettet!",
         "failedToLoadImage": "Kunne ikke indlæse {type}-billede.",
         "formCleared": "Formular ryddet.",
         "preparingCanvas": "Forbereder {canvas}...",
         "downloadInitiated": "Download startet!",
         "errorPreparingImage": "Fejl ved forberedelse af billede: {error}",
-        "pleaseGenerateContentFirst": "Generer først indhold.",
+        "pleaseGenerateContentFirst": "Opret først indhold.",
         "preparingPdf": "Forbereder PDF...",
         "pdfDownloaded": "PDF downloadet!",
         "errorCreatingPdf": "Fejl ved oprettelse af PDF.",
@@ -1528,9 +1528,9 @@ const translations = {
 
         // Download menu
         "worksheetJpeg": "Arbejdsark (JPEG)",
-        "answerKeyJpeg": "Facitliste (JPEG)",
+        "answerKeyJpeg": "Svarark (JPEG)",
         "worksheetPdf": "Arbejdsark (PDF)",
-        "answerKeyPdf": "Facitliste (PDF)",
+        "answerKeyPdf": "Svarark (PDF)",
         "grayscale": "Gråtoner"
     },
 
@@ -1542,7 +1542,7 @@ const translations = {
         // Accordion headers
         "languageSettings": "Språkinnstillinger",
         "pageSetup": "Sideoppsett",
-        "textTools": "Tekstverktøy",
+        "textTools": "Tekstinnstillinger", // Changed from "Tekstverktøy"
         "imageSelection": "Bildevalg",
         "uploadCustomImages": "Last opp Egne Bilder",
         "problemSettings": "Oppgaveinnstillinger",
@@ -1559,14 +1559,14 @@ const translations = {
         "loading": "Laster...",
         "error": "Feil",
         "success": "Suksess",
-        "generate": "Generer",
+        "generate": "Opprett",
         "newWorksheet": "Nytt Arbeidsark",
         "download": "Last ned",
-        "clearAll": "Tøm Alt",
+        "clearAll": "Slett alt",
 
         // Generate dropdown options
-        "generateWorksheet": "Generer Arbeidsark",
-        "generateAnswerKey": "Generer Fasit",
+        "generateWorksheet": "Opprett Arbeidsark",
+        "generateAnswerKey": "Opprett Fasit",
 
         // Page setup
         "pageSize": "Sidestørrelse:",
@@ -1673,18 +1673,18 @@ const translations = {
         "couldNotLoadThemes": "Kunne ikke laste temaer.",
         "maxImagesSelected": "Du kan velge maksimalt {max} bilder.",
         "customImagesAvailable": "{count} tilpasset(e) bilde(r) tilgjengelig.",
-        "generatingWorksheet": "Genererer arbeidsark...",
+        "generatingWorksheet": "Oppretter arbeidsark...",
         "pleaseSelectImages": "Velg bilder eller velg et tema med bilder.",
-        "worksheetGeneratedSuccessfully": "Arbeidsark generert vellykket!",
-        "pleaseGenerateWorksheetFirst": "Generer et arbeidsark først.",
-        "generatingAnswerKey": "Genererer fasit...",
-        "answerKeyGenerated": "Fasit generert!",
+        "worksheetGeneratedSuccessfully": "Arbeidsark opprettet vellykket!",
+        "pleaseGenerateWorksheetFirst": "Opprett et arbeidsark først.",
+        "generatingAnswerKey": "Oppretter fasit...",
+        "answerKeyGenerated": "Fasit opprettet!",
         "failedToLoadImage": "Kunne ikke laste {type}-bilde.",
         "formCleared": "Skjema tømt.",
         "preparingCanvas": "Forbereder {canvas}...",
         "downloadInitiated": "Nedlasting startet!",
         "errorPreparingImage": "Feil ved forberedelse av bilde: {error}",
-        "pleaseGenerateContentFirst": "Generer innhold først.",
+        "pleaseGenerateContentFirst": "Opprett innhold først.",
         "preparingPdf": "Forbereder PDF...",
         "pdfDownloaded": "PDF lastet ned!",
         "errorCreatingPdf": "Feil ved oppretting av PDF.",
@@ -1816,8 +1816,8 @@ const translations = {
         // Layer Controls
         "layers": "Tasot",
         "bringToFront": "Tuo etualalle",
-        "bringForward": "Tuo eteenpäin",
-        "sendBackward": "Lähetä taaksepäin",
+        "bringForward": "Siirrä eteenpäin",
+        "sendBackward": "Siirrä taaksepäin",
         "sendToBack": "Lähetä taka-alalle",
 
         // Alignment Toolbar

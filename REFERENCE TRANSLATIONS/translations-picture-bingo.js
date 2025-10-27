@@ -237,17 +237,17 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "worksheetPdf": "Arbeitsblatt (PDF)",
     "calloutPdf": "Aufrufliste (PDF)",
     "grayscale": "Graustufen",
-    "clearAll": "Alles löschen",
+    "clearAll": "Alles zurücksetzen",
 
     // ============= ACCORDION HEADERS (5 keys) =============
     "pageSetup": "Seiteneinstellungen",
-    "textTools": "Textwerkzeuge",
+    "textTools": "Textbearbeitung",
     "bingoCardSettings": "Bingo-Spieleinstellungen",
     "imageLibrary": "Bildsammlung",
     "uploadCustomImages": "Eigene Bilder hochladen",
 
     // ============= PAGE SETUP (11 keys) =============
-    "pageSize": "Seitengröße:",
+    "pageSize": "Papierformat:",
     "letterPortrait": "Letter Hochformat (8,5×11\")",
     "letterLandscape": "Letter Querformat (11×8,5\")",
     "a4Portrait": "A4 Hochformat (210×297mm)",
@@ -265,13 +265,13 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "none": "Keine",
     "allThemes": "Alle Themen",
     "selectBackgroundTheme": "Wählen Sie ein Thema für Hintergründe.",
-    "backgroundOpacity": "Hintergrundtransparenz:",
+    "backgroundOpacity": "Hintergrund-Deckkraft:",
 
     // ============= BORDER SECTION (4 keys) =============
     "border": "Rahmen",
     "borderTheme": "Rahmenvorlage:",
     "selectBorderTheme": "Wählen Sie ein Thema für Rahmen.",
-    "borderOpacity": "Rahmentransparenz:",
+    "borderOpacity": "Rahmen-Deckkraft:",
 
     // ============= TEXT TOOLS (10 keys) =============
     "addNewText": "Neuen Text hinzufügen",
@@ -320,8 +320,8 @@ const PICTURE_BINGO_TRANSLATIONS = {
 
     // ============= TOOLBAR (7 keys) =============
     "layers": "Ebenen",
-    "bringForward": "Nach vorne bringen",
-    "sendBackward": "Nach hinten senden",
+    "bringForward": "Nach vorne",
+    "sendBackward": "Nach hinten",
     "bringToFront": "Ganz nach vorne",
     "sendToBack": "Ganz nach hinten",
     "align": "Ausrichten",
@@ -419,7 +419,7 @@ const PICTURE_BINGO_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS (5 keys) =============
     "pageSetup": "Mise en page",
-    "textTools": "Outils de texte",
+    "textTools": "Options de texte",
     "bingoCardSettings": "Paramètres du jeu de bingo",
     "imageLibrary": "Bibliothèque d'images",
     "uploadCustomImages": "Importer vos images",
@@ -498,8 +498,8 @@ const PICTURE_BINGO_TRANSLATIONS = {
 
     // ============= TOOLBAR (7 keys) =============
     "layers": "Calques",
-    "bringForward": "Mettre au premier plan",
-    "sendBackward": "Mettre à l'arrière-plan",
+    "bringForward": "Avancer",
+    "sendBackward": "Reculer",
     "bringToFront": "Mettre au premier plan",
     "sendToBack": "Mettre à l'arrière-plan",
     "align": "Aligner",
@@ -597,7 +597,7 @@ const PICTURE_BINGO_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS (5 keys) =============
     "pageSetup": "Configuración de página",
-    "textTools": "Herramientas de texto",
+    "textTools": "Opciones de texto",
     "bingoCardSettings": "Configuración del bingo",
     "imageLibrary": "Biblioteca de imágenes",
     "uploadCustomImages": "Cargar imágenes propias",
@@ -676,7 +676,7 @@ const PICTURE_BINGO_TRANSLATIONS = {
 
     // ============= TOOLBAR (7 keys) =============
     "layers": "Capas",
-    "bringForward": "Traer al frente",
+    "bringForward": "Traer adelante",
     "sendBackward": "Enviar atrás",
     "bringToFront": "Traer al frente",
     "sendToBack": "Enviar al fondo",
@@ -775,7 +775,7 @@ const PICTURE_BINGO_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS (5 keys) =============
     "pageSetup": "Impostazioni pagina",
-    "textTools": "Strumenti di testo",
+    "textTools": "Opzioni di testo",
     "bingoCardSettings": "Impostazioni del gioco",
     "imageLibrary": "Raccolta immagini",
     "uploadCustomImages": "Carica le tue immagini",
@@ -953,7 +953,7 @@ const PICTURE_BINGO_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS (5 keys) =============
     "pageSetup": "Configuração da página",
-    "textTools": "Ferramentas de texto",
+    "textTools": "Opções de texto",
     "bingoCardSettings": "Configurações do bingo",
     "imageLibrary": "Biblioteca de imagens",
     "uploadCustomImages": "Carregar suas imagens",
@@ -1131,7 +1131,7 @@ const PICTURE_BINGO_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS (5 keys) =============
     "pageSetup": "Pagina-instelling",
-    "textTools": "Tekstgereedschap",
+    "textTools": "Tekstopties",
     "bingoCardSettings": "Bingo-instellingen",
     "imageLibrary": "Afbeeldingenbibliotheek",
     "uploadCustomImages": "Eigen afbeeldingen uploaden",
@@ -1155,13 +1155,13 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "none": "Geen",
     "allThemes": "Alle thema's",
     "selectBackgroundTheme": "Selecteer een thema voor achtergronden.",
-    "backgroundOpacity": "Achtergrond transparantie:",
+    "backgroundOpacity": "Achtergronddekking:",
 
     // ============= BORDER SECTION (4 keys) =============
     "border": "Rand",
     "borderTheme": "Rand thema:",
     "selectBorderTheme": "Selecteer een thema voor randen.",
-    "borderOpacity": "Rand transparantie:",
+    "borderOpacity": "Randdekking:",
 
     // ============= TEXT TOOLS (10 keys) =============
     "addNewText": "Tekst toevoegen",
@@ -1309,7 +1309,7 @@ const PICTURE_BINGO_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS (5 keys) =============
     "pageSetup": "Sidlayout",
-    "textTools": "Textverktyg",
+    "textTools": "Textalternativ",
     "bingoCardSettings": "Bingoinställningar",
     "imageLibrary": "Bildbibliotek",
     "uploadCustomImages": "Ladda upp egna bilder",
@@ -1487,7 +1487,7 @@ const PICTURE_BINGO_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS (5 keys) =============
     "pageSetup": "Sideopsætning",
-    "textTools": "Tekstværktøjer",
+    "textTools": "Tekstindstillinger",
     "bingoCardSettings": "Bingoindstillinger",
     "imageLibrary": "Billedbibliotek",
     "uploadCustomImages": "Upload egne billeder",
@@ -1511,13 +1511,13 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "none": "Ingen",
     "allThemes": "Alle temaer",
     "selectBackgroundTheme": "Vælg et tema til baggrunde.",
-    "backgroundOpacity": "Baggrundsgennemsigtighed:",
+    "backgroundOpacity": "Baggrundsdekning:",
 
     // ============= BORDER SECTION (4 keys) =============
     "border": "Ramme",
     "borderTheme": "Rammetema:",
     "selectBorderTheme": "Vælg et tema til rammer.",
-    "borderOpacity": "Rammegennemsigtighed:",
+    "borderOpacity": "Rammedekning:",
 
     // ============= TEXT TOOLS (10 keys) =============
     "addNewText": "Tilføj tekst",
@@ -1623,9 +1623,9 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "watermarkSmallText": "GRATIS VERSION",
 
     // ============= FILE INPUT =============
-    "chooseFiles": "Välj filer",
-    "noFileChosen": "Ingen fil vald",
-    "filesSelected": "{count} fil(er) valda"
+    "chooseFiles": "Vælg filer",
+    "noFileChosen": "Ingen fil valgt",
+    "filesSelected": "{count} fil(er) valgt"
   },
 
   /**
@@ -1654,18 +1654,18 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "callouts": "Oppropsliste",
 
     // ============= ACTION BUTTONS (8 keys) =============
-    "generate": "Lag",
+    "generate": "Opprett",
     "download": "Last ned",
     "worksheetJpeg": "Arbeidsark (JPEG)",
     "calloutJpeg": "Oppropsliste (JPEG)",
     "worksheetPdf": "Arbeidsark (PDF)",
     "calloutPdf": "Oppropsliste (PDF)",
     "grayscale": "Gråtoner",
-    "clearAll": "Fjern alt",
+    "clearAll": "Slett alt",
 
     // ============= ACCORDION HEADERS (5 keys) =============
     "pageSetup": "Sideoppsett",
-    "textTools": "Tekstverktøy",
+    "textTools": "Tekstinnstillinger",
     "bingoCardSettings": "Bingoinnstillinger",
     "imageLibrary": "Bildebibliotek",
     "uploadCustomImages": "Last opp egne bilder",
@@ -1785,7 +1785,7 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "errorCreatingZip": "Feil ved opprettelse av ZIP-fil: {error}",
     "errorCreatingPdf": "Feil ved opprettelse av PDF: {error}",
     "errorReadingFile": "Feil ved lesing av fil: {filename}",
-    "generationFailed": "Generering mislyktes: {error}",
+    "generationFailed": "Oppretting mislyktes: {error}",
     "pleaseGenerateContentFirst": "Vennligst lag innhold først.",
     "pleaseGenerateWorksheetFirst": "Vennligst lag et arbeidsark først.",
 
@@ -1834,9 +1834,9 @@ const PICTURE_BINGO_TRANSLATIONS = {
     // ============= ACTION BUTTONS (8 keys) =============
     "generate": "Luo",
     "download": "Lataa",
-    "worksheetJpeg": "Tehtäväarkki (JPEG)",
+    "worksheetJpeg": "Tehtävämoniste (JPEG)",
     "calloutJpeg": "Huutolista (JPEG)",
-    "worksheetPdf": "Tehtäväarkki (PDF)",
+    "worksheetPdf": "Tehtävämoniste (PDF)",
     "calloutPdf": "Huutolista (PDF)",
     "grayscale": "Harmaasävy",
     "clearAll": "Tyhjennä kaikki",
@@ -1922,8 +1922,8 @@ const PICTURE_BINGO_TRANSLATIONS = {
 
     // ============= TOOLBAR (7 keys) =============
     "layers": "Tasot",
-    "bringForward": "Tuo eteen",
-    "sendBackward": "Vie taakse",
+    "bringForward": "Siirrä eteenpäin",
+    "sendBackward": "Siirrä taaksepäin",
     "bringToFront": "Tuo etualalle",
     "sendToBack": "Vie taustalle",
     "align": "Tasaa",
@@ -1945,7 +1945,7 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "redo": "Tee uudelleen (Ctrl+Y)",
 
     // ============= SUCCESS MESSAGES (8 keys) =============
-    "bingoWorksheetGenerated": "Bingo-tehtäväarkki luotu!",
+    "bingoWorksheetGenerated": "Bingo-tehtävämoniste luotu!",
     "downloadInitiated": "Lataus aloitettu!",
     "zipDownloadInitiated": "ZIP-lataus aloitettu!",
     "pdfDownloaded": "PDF ladattu!",
@@ -1965,7 +1965,7 @@ const PICTURE_BINGO_TRANSLATIONS = {
     "errorReadingFile": "Virhe tiedoston lukemisessa: {filename}",
     "generationFailed": "Luominen epäonnistui: {error}",
     "pleaseGenerateContentFirst": "Luo ensin sisältö.",
-    "pleaseGenerateWorksheetFirst": "Luo ensin tehtäväarkki.",
+    "pleaseGenerateWorksheetFirst": "Luo ensin tehtävämoniste.",
 
     // ============= INFO/STATUS MESSAGES (5 keys) =============
     "preparingFile": "Valmistellaan {filename}...",

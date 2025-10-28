@@ -74,19 +74,7 @@
         }
         .panel-header { padding: 20px 25px; border-bottom: 1px solid var(--app-border-dark); display: flex; justify-content: space-between; align-items: center; }
         .panel-header h2 { font-size: 22px; font-weight: 600; color: var(--app-text-primary-dark-theme); margin: 0; }
-        
-        /* Fix canvas clipping with zoom */
-        .canvas-container-wrapper {
-            overflow: visible !important;
-            position: relative;
-            margin: 20px auto;
-        }
-        
-        .canvas-container {
-            overflow: visible !important;
-            position: relative !important;
-            margin: 0 auto;
-        }
+
         .panel-content { overflow-y: auto; flex-grow: 1; padding: 10px 15px; }
 
         /* Accordion Styles */
@@ -219,12 +207,27 @@
         .tab-button { padding: 12px 18px; background: transparent; border: none; border-bottom: 2px solid transparent; color: var(--app-text-secondary-light-theme); font-size: 14px; font-weight: 500; border-radius: 0; cursor: pointer; transition: color 0.2s ease, border-color 0.2s ease; margin-right: 10px; margin-bottom: -1px; }
         .tab-button:hover { color: var(--app-text-primary-light-theme); }
         .tab-button.active { color: var(--app-accent-primary); border-bottom: 2px solid var(--app-accent-primary); }
-        .tab-content-wrapper { flex-grow: 1; display: flex; align-items: flex-start; justify-content: center; padding: 70px 25px 25px 25px; overflow-y: auto; }
-        .tab { display: none; width: 100%; height: 100%; margin: 0 auto; }
+        .tab-content-wrapper {
+            flex-grow: 1;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 25px;
+            overflow-y: auto;
+        }
+        .tab { display: none; width: 100%; height: 100%; }
         .tab.active { display: flex; flex-direction: column; }
 
         /* Canvas */
-        .canvas-container-wrapper { border: none; background-color: var(--app-surface-light); box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-radius: 8px; overflow: auto; margin: auto; }
+        .canvas-container-wrapper {
+            border: none;
+            background-color: var(--app-surface-light);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: visible;
+            margin: auto;
+            position: relative;
+        }
         canvas { display: block; }
 
         /* Responsive */
@@ -2034,7 +2037,8 @@ document.addEventListener("DOMContentLoaded", async function() {
         }
         // Calculate responsive header height based on orientation
         const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
-        const headerHeight = isLandscape ? 145 : 165; // Header box + margins (landscape: 60+70+15, portrait: 67+110+15)
+        // Increased portrait headerHeight to account for description text wrapping and ensure bottom content isn't cut off
+        const headerHeight = isLandscape ? 145 : 200; // Increased from 165 to 200 for portrait to prevent bottom cutoff
 
         // Use actual canvas dimensions from currentCanvasConfig
         const width = currentCanvasConfig.width;
@@ -2782,10 +2786,19 @@ document.addEventListener("DOMContentLoaded", async function() {
             return;
         }
         
-        // Use the same method as Word Search - get the parent element directly
-        const mainStyle = document.getElementById('worksheetTab').parentElement;
-        const availableWidth = Math.max(mainStyle.clientWidth - 50, 800); // Minimum 800px width
-        const availableHeight = Math.max(mainStyle.clientHeight - 50, 600); // Minimum 600px height
+        // Get the tab-content-wrapper and calculate actual available space
+        // clientHeight includes padding, so we need to subtract it to get usable content space
+        const tabWrapper = document.getElementById('worksheetTab').parentElement;
+        const computedStyle = window.getComputedStyle(tabWrapper);
+        const paddingTop = parseFloat(computedStyle.paddingTop);
+        const paddingBottom = parseFloat(computedStyle.paddingBottom);
+        const paddingLeft = parseFloat(computedStyle.paddingLeft);
+        const paddingRight = parseFloat(computedStyle.paddingRight);
+
+        // Available space = clientHeight - padding - small margin
+        // Use generous available space and let wrapper scroll if needed
+        const availableWidth = Math.max(tabWrapper.clientWidth - paddingLeft - paddingRight - 40, 500);
+        const availableHeight = Math.max(tabWrapper.clientHeight - paddingTop - paddingBottom - 40, 600);
         
         // Apply 25% scaling for better visibility (same as Word Search)
         // Extra 25% for landscape orientations
@@ -2798,10 +2811,11 @@ document.addEventListener("DOMContentLoaded", async function() {
         const scaledWidth = width * displayScale;
         const scaledHeight = height * displayScale;
         
-        // Ensure it fits in available space but not too small
+        // Scale to fit available space while maintaining aspect ratio
+        // Let the wrapper scroll if content is taller than viewport
         const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
-        const baseDisplayWidth = Math.max(scaledWidth * scaleRatio, 600); // Minimum 600px display width
-        const baseDisplayHeight = Math.max(scaledHeight * scaleRatio, 700); // Minimum 700px display height
+        const baseDisplayWidth = scaledWidth * scaleRatio;
+        const baseDisplayHeight = scaledHeight * scaleRatio;
 
         // Apply user zoom level
         const displayWidth = baseDisplayWidth * userZoomLevel;

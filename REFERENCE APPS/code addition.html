@@ -2673,8 +2673,8 @@
         setupDropdown(generateDropdownBtn, generateDropdownContent);
         setupDropdown(downloadDropdownBtn, downloadDropdownContent);
         
-        window.addEventListener('click', (e) => { 
-            document.querySelectorAll('.top-right-actions .dropdown-content').forEach(d => {
+        window.addEventListener('click', (e) => {
+            document.querySelectorAll('.header-actions .dropdown-content').forEach(d => {
                 if (!d.contains(e.target) && !d.previousElementSibling.contains(e.target)) {
                     d.style.display = 'none';
                 }

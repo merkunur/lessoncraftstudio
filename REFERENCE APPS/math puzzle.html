@@ -1091,14 +1091,14 @@
                         <button id="redoBtn" class="history-btn" data-translate-title="redo" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
                     </div>
                     <div class="dropdown-container">
-                        <button id="generateDropdownBtn" class="action-button accent"><span data-translate="common.generate">Generate</span> <i class="fas fa-caret-down"></i></button>
+                        <button id="generateDropdownBtn" class="action-button accent"><span data-translate="mathpuzzle.generate">Generate</span> <i class="fas fa-caret-down"></i></button>
                         <div id="generateDropdownContent" class="dropdown-content">
                             <button id="generateWorksheetBtn" data-translate="mathpuzzle.generate.new">New Worksheet</button>
                             <button id="generateAnswerKeyBtn" disabled data-translate="mathpuzzle.generate.answer">Answer Key</button>
                         </div>
                     </div>
                     <div class="dropdown-container">
-                        <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="common.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                        <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="mathpuzzle.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
                         <div id="downloadDropdownContent" class="dropdown-content">
                             <button id="downloadWsJpegBtn" disabled data-translate="mathpuzzle.download.worksheet.jpeg">Worksheet (JPEG)</button>
                             <button id="downloadAkJpegBtn" disabled data-translate="mathpuzzle.download.answer.jpeg">Answer Key (JPEG)</button>
@@ -1163,6 +1163,15 @@ document.addEventListener("DOMContentLoaded", function() {
                         }
                     } else if (element.tagName === 'OPTION') {
                         element.textContent = translation;
+                    } else if (element.tagName === 'BUTTON') {
+                        // For buttons, preserve child elements like icons
+                        const icon = element.querySelector('i');
+                        if (icon) {
+                            element.textContent = translation + ' ';
+                            element.appendChild(icon);
+                        } else {
+                            element.textContent = translation;
+                        }
                     } else {
                         element.textContent = translation;
                     }
@@ -1405,6 +1414,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 // Reload image themes and dictionary for the new content language
                 loadThemes().then(() => {
                     loadDictionary();
+
+                    // Apply translations for UI
+                    setTimeout(() => {
+                        applyTranslations();
+                        if (typeof translatePage !== 'undefined') {
+                            translatePage();
+                        }
+                    }, 100);
                 });
             });
         } else {
@@ -1421,6 +1438,14 @@ document.addEventListener("DOMContentLoaded", function() {
                     // Reload image themes and dictionary for the new content language
                     loadThemes().then(() => {
                         loadDictionary();
+
+                        // Apply translations for UI
+                        setTimeout(() => {
+                            applyTranslations();
+                            if (typeof translatePage !== 'undefined') {
+                                translatePage();
+                            }
+                        }, 100);
                     });
                 });
             }

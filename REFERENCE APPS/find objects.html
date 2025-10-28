@@ -387,22 +387,23 @@
         border-bottom: 2px solid var(--app-accent-primary);
     }
     .tab-content-wrapper {
-        flex-grow: 1; display: flex; align-items: flex-start;
-        justify-content: center; padding: 80px 25px 25px 25px; overflow-y: auto;
+        flex-grow: 1;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 25px;
+        overflow-y: auto;
     }
-    .tab { display: none; width: 100%; height: 100%; margin: 0 auto; }
+    .tab { display: none; width: 100%; height: 100%; }
     .tab.active { display: flex; flex-direction: column; }
     .canvas-container-wrapper {
-        border: none; background-color: var(--app-surface-light);
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-radius: 8px;
-        overflow: visible !important; /* Fix canvas clipping with zoom */
-        margin: 20px auto;
+        border: none;
+        background-color: var(--app-surface-light);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        overflow: visible;
+        margin: auto;
         position: relative;
-    }
-    .canvas-container {
-        overflow: visible !important;
-        position: relative !important;
-        margin: 0 auto;
     }
     canvas { display: block; }
     #exportArea { position: absolute; left: -9999px; top: 0; width: auto; height: auto;}

@@ -51,19 +51,19 @@ async function getHomepageContent(locale: string) {
           name: rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier')?.name[locale],
           price: rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier')?.price,
           features: rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier')?.features[locale] || [],
-          cta: (rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier') as any)?.cta?.[locale] || (rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier') as any)?.cta?.en || 'Get Started Free'
+          cta: (rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier') as any)?.cta?.[locale] || (rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier') as any)?.cta?.en
         },
         core: {
           name: rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle')?.name[locale],
           price: rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle')?.price,
           features: rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle')?.features[locale] || [],
-          cta: (rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle') as any)?.cta?.[locale] || (rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle') as any)?.cta?.en || 'Upgrade to Core'
+          cta: (rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle') as any)?.cta?.[locale] || (rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle') as any)?.cta?.en
         },
         full: {
           name: rawContent.pricing.find((p: any) => p.name.en === 'Full Access')?.name[locale],
           price: rawContent.pricing.find((p: any) => p.name.en === 'Full Access')?.price,
           features: rawContent.pricing.find((p: any) => p.name.en === 'Full Access')?.features[locale] || [],
-          cta: (rawContent.pricing.find((p: any) => p.name.en === 'Full Access') as any)?.cta?.[locale] || (rawContent.pricing.find((p: any) => p.name.en === 'Full Access') as any)?.cta?.en || 'Get Full Access'
+          cta: (rawContent.pricing.find((p: any) => p.name.en === 'Full Access') as any)?.cta?.[locale] || (rawContent.pricing.find((p: any) => p.name.en === 'Full Access') as any)?.cta?.en
         }
       } : null,
       samplesSection: rawContent.samples && rawContent.samplesSection ? {
@@ -171,7 +171,46 @@ export default async function HomePage({ params }: { params: { locale: string } 
   };
 
   // Use API content for pricing, fallback to static translations
-  const pricing = content?.pricing || {
+  const pricing = content?.pricing ? {
+    title: content.pricing.title || t('pricing.title'),
+    free: {
+      name: content.pricing.free.name || t('pricing.free.name'),
+      price: content.pricing.free.price || t('pricing.free.price'),
+      features: content.pricing.free.features.length > 0 ? content.pricing.free.features : [
+        t('pricing.free.features.0'),
+        t('pricing.free.features.1'),
+        t('pricing.free.features.2'),
+        t('pricing.free.features.3')
+      ],
+      cta: content.pricing.free.cta || t('pricing.free.cta')
+    },
+    core: {
+      name: content.pricing.core.name || t('pricing.core.name'),
+      price: content.pricing.core.price || t('pricing.core.price'),
+      features: content.pricing.core.features.length > 0 ? content.pricing.core.features : [
+        t('pricing.core.features.0'),
+        t('pricing.core.features.1'),
+        t('pricing.core.features.2'),
+        t('pricing.core.features.3'),
+        t('pricing.core.features.4')
+      ],
+      cta: content.pricing.core.cta || t('pricing.core.cta')
+    },
+    full: {
+      name: content.pricing.full.name || t('pricing.full.name'),
+      price: content.pricing.full.price || t('pricing.full.price'),
+      popular: (content.pricing.full as any).popular || t('pricing.full.popular'),
+      features: content.pricing.full.features.length > 0 ? content.pricing.full.features : [
+        t('pricing.full.features.0'),
+        t('pricing.full.features.1'),
+        t('pricing.full.features.2'),
+        t('pricing.full.features.3'),
+        t('pricing.full.features.4'),
+        t('pricing.full.features.5')
+      ],
+      cta: content.pricing.full.cta || t('pricing.full.cta')
+    }
+  } : {
     title: t('pricing.title'),
     free: {
       name: t('pricing.free.name'),

@@ -155,7 +155,7 @@ export default async function PricingPage({ params: { locale } }: PricingPagePro
       cta: t('plans.full.cta'),
       ctaLink: `/${locale}/auth/signup?plan=full`,
       variant: 'full',
-      popular: true
+      popular: t('plans.full.popular')
     }
   ];
 

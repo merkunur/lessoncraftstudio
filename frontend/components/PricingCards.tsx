@@ -20,7 +20,7 @@ interface Plan {
   cta: string;
   ctaLink: string;
   variant: string;
-  popular?: boolean;
+  popular?: string;
 }
 
 interface PricingCardsProps {
@@ -160,7 +160,7 @@ export default function PricingCards({
               {plan.popular && (
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                   <span className="bg-primary text-white px-4 py-1 rounded-full text-sm font-semibold">
-                    Most Popular
+                    {plan.popular}
                   </span>
                 </div>
               )}

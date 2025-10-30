@@ -535,6 +535,47 @@
         cursor: not-allowed;
     }
 
+    /* Unlock All Button */
+    .unlock-all-controls {
+        display: none; /* Hidden by default */
+        align-items: center;
+        gap: 6px;
+        padding: 4px 12px;
+        background: rgba(255, 165, 0, 0.25);
+        border-radius: 8px;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 165, 0, 0.4);
+    }
+
+    .unlock-all-controls.visible {
+        display: flex;
+    }
+
+    .unlock-all-btn {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 4px 10px;
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 500;
+        transition: all 0.2s ease;
+        white-space: nowrap;
+    }
+
+    .unlock-all-btn:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transform: scale(1.05);
+    }
+
+    .unlock-all-btn i {
+        font-size: 14px;
+    }
+
     /* --- Dropdown Containers --- */
     .dropdown-container {
         position: relative;
@@ -856,6 +897,9 @@
               </div>
           </div>
           <div class="toolbar-group">
+              <button class="context-btn" id="toolbarLockBtn" data-translate-title="lockUnlock" title="Lock/Unlock"><i class="fas fa-lock-open"></i></button>
+          </div>
+          <div class="toolbar-group">
               <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected" data-translate-title="deleteSelected"><i class="fas fa-trash-alt"></i></button>
           </div>
       </div>
@@ -876,6 +920,15 @@
                         <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" data-translate-title="undo" disabled><i class="fas fa-undo"></i></button>
                         <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" data-translate-title="redo" disabled><i class="fas fa-redo"></i></button>
                     </div>
+
+                    <!-- Unlock All Button (shown when objects are locked) -->
+                    <div id="unlockAllControls" class="unlock-all-controls">
+                        <button id="unlockAllBtn" class="unlock-all-btn" data-translate-title="unlockAll" title="Unlock All Locked Objects">
+                            <i class="fas fa-unlock"></i>
+                            <span data-translate="unlockAll">Unlock All</span>
+                        </button>
+                    </div>
+
                     <div class="dropdown-container">
                         <button id="generateDropdownBtn" class="action-button accent"><span data-translate="generate">Generate</span> <i class="fas fa-caret-down"></i></button>
                         <div id="generateDropdownContent" class="dropdown-content">
@@ -1057,6 +1110,7 @@
             toolbarSendToBackBtn: document.getElementById('toolbarSendToBackBtn'),
             alignBtn: document.getElementById('alignBtn'),
             alignDropdown: document.getElementById('alignDropdown'),
+            toolbarLockBtn: document.getElementById('toolbarLockBtn'),
             toolbarDeleteBtn: document.getElementById('toolbarDeleteBtn'),
         };
 
@@ -1695,8 +1749,11 @@
             // Undo/Redo Controls
             const undoBtn = document.getElementById('undoBtn');
             const redoBtn = document.getElementById('redoBtn');
+            const unlockAllBtn = document.getElementById('unlockAllBtn');
+            const unlockAllControls = document.getElementById('unlockAllControls');
             if (undoBtn) undoBtn.addEventListener('click', undo);
             if (redoBtn) redoBtn.addEventListener('click', redo);
+            if (unlockAllBtn) unlockAllBtn.addEventListener('click', unlockAllObjects);
 
             // Keyboard shortcuts for undo/redo
             document.addEventListener('keydown', function(e) {
@@ -1764,6 +1821,7 @@
             ui.toolbarBringForwardBtn.addEventListener('click', bringObjectForward);
             ui.toolbarSendBackwardBtn.addEventListener('click', sendObjectBackward);
             ui.toolbarSendToBackBtn.addEventListener('click', sendObjectToBack);
+            ui.toolbarLockBtn.addEventListener('click', toggleLockSelectedObjects);
             ui.toolbarDeleteBtn.addEventListener('click', deleteSelectedObjects);
             ui.alignBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(ui.alignDropdown); });
             document.querySelectorAll('#alignDropdown button').forEach(button => {
@@ -2100,7 +2158,125 @@
             }
             closeAllPopovers();
         }
-        
+
+        function toggleLockSelectedObjects() {
+            const canvas = getActiveCanvas();
+            const activeObject = canvas.getActiveObject();
+
+            // If nothing is selected, unlock ALL locked objects on the canvas
+            if (!activeObject) {
+                const allObjects = canvas.getObjects();
+                const lockedObjects = allObjects.filter(obj => obj.lockMovementX === true);
+
+                if (lockedObjects.length > 0) {
+                    lockedObjects.forEach(obj => {
+                        obj.set({
+                            lockMovementX: false,
+                            lockMovementY: false,
+                            lockRotation: false,
+                            lockScalingX: false,
+                            lockScalingY: false,
+                            hasControls: true,
+                            hasBorders: true,
+                            selectable: true,
+                            evented: true
+                        });
+                    });
+
+                    // Update button icon to unlocked
+                    const lockIcon = ui.toolbarLockBtn.querySelector('i');
+                    lockIcon.classList.remove('fa-lock');
+                    lockIcon.classList.add('fa-lock-open');
+
+                    canvas.renderAll();
+                    console.log(`Unlocked ${lockedObjects.length} objects`);
+                }
+
+                closeAllPopovers();
+                updateUnlockAllButtonVisibility();
+                return;
+            }
+
+            // Handle both single objects and groups
+            const objectsToLock = activeObject.type === 'activeSelection'
+                ? activeObject.getObjects()
+                : [activeObject];
+
+            // Check if any object is currently locked
+            const isAnyLocked = objectsToLock.some(obj => obj.lockMovementX === true);
+
+            // Toggle lock state (opposite of current state)
+            const shouldLock = !isAnyLocked;
+
+            objectsToLock.forEach(obj => {
+                // When locking, make objects completely non-interactive
+                // This prevents them from blocking mouse drag selections
+                obj.set({
+                    lockMovementX: shouldLock,
+                    lockMovementY: shouldLock,
+                    lockRotation: shouldLock,
+                    lockScalingX: shouldLock,
+                    lockScalingY: shouldLock,
+                    hasControls: !shouldLock,
+                    hasBorders: !shouldLock,
+                    selectable: !shouldLock,  // Locked objects are not selectable
+                    evented: !shouldLock      // Locked objects don't capture mouse events
+                });
+            });
+
+            // Update button icon
+            const lockIcon = ui.toolbarLockBtn.querySelector('i');
+            if (shouldLock) {
+                lockIcon.classList.remove('fa-lock-open');
+                lockIcon.classList.add('fa-lock');
+            } else {
+                lockIcon.classList.remove('fa-lock');
+                lockIcon.classList.add('fa-lock-open');
+            }
+
+            canvas.renderAll();
+            closeAllPopovers();
+            updateUnlockAllButtonVisibility();
+        }
+
+        function unlockAllObjects() {
+            const canvas = getActiveCanvas();
+            const allObjects = canvas.getObjects();
+            const lockedObjects = allObjects.filter(obj => obj.lockMovementX === true);
+
+            if (lockedObjects.length > 0) {
+                lockedObjects.forEach(obj => {
+                    obj.set({
+                        lockMovementX: false,
+                        lockMovementY: false,
+                        lockRotation: false,
+                        lockScalingX: false,
+                        lockScalingY: false,
+                        hasControls: true,
+                        hasBorders: true,
+                        selectable: true,
+                        evented: true
+                    });
+                });
+
+                canvas.renderAll();
+                console.log(`Unlocked ${lockedObjects.length} objects`);
+                updateUnlockAllButtonVisibility();
+            }
+        }
+
+        function updateUnlockAllButtonVisibility() {
+            const canvas = getActiveCanvas();
+            const allObjects = canvas.getObjects();
+            const hasLockedObjects = allObjects.some(obj => obj.lockMovementX === true);
+
+            if (hasLockedObjects) {
+                unlockAllControls.classList.add('visible');
+            } else {
+                unlockAllControls.classList.remove('visible');
+            }
+        }
+
         function alignObjects(type) {
             const activeCanvas = getActiveCanvas();
             if (!activeCanvas) return;

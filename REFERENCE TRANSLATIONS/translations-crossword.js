@@ -136,6 +136,8 @@ const translations = {
     "toolbar.align.to.page": "Align to Page:",
     "toolbar.center.page.h": "Center on Page Horizontally",
     "toolbar.center.page.v": "Center on Page Vertically",
+    "toolbar.lockUnlock": "Lock/Unlock",
+    "toolbar.unlockAll": "Unlock All",
     "toolbar.delete": "Delete Selected",
     // Zoom & History Controls
     "zoomIn": "Zoom In",
@@ -525,6 +527,8 @@ const translations = {
     "toolbar.align.to.page": "An Seite ausrichten:",
     "toolbar.center.page.h": "Horizontal auf Seite zentrieren",
     "toolbar.center.page.v": "Vertikal auf Seite zentrieren",
+    "toolbar.lockUnlock": "Sperren/Entsperren",
+    "toolbar.unlockAll": "Alle entsperren",
     "toolbar.delete": "Auswahl löschen",
     // Zoom- & Verlauf-Steuerelemente
     "zoomIn": "Vergrößern",
@@ -894,6 +898,8 @@ const translations = {
     "toolbar.align.to.page": "Aligner sur la page :",
     "toolbar.center.page.h": "Centrer horizontalement sur la page",
     "toolbar.center.page.v": "Centrer verticalement sur la page",
+    "toolbar.lockUnlock": "Verrouiller/Déverrouiller",
+    "toolbar.unlockAll": "Tout déverrouiller",
     "toolbar.delete": "Supprimer la sélection",
     // Contrôles de zoom et d'historique
     "zoomIn": "Zoom avant",
@@ -1280,6 +1286,8 @@ const translations = {
     "toolbar.align.to.page": "Alinear en la página:",
     "toolbar.center.page.h": "Centrar horizontalmente en la página",
     "toolbar.center.page.v": "Centrar verticalmente en la página",
+    "toolbar.lockUnlock": "Bloquear/Desbloquear",
+    "toolbar.unlockAll": "Desbloquear todo",
     "toolbar.delete": "Eliminar selección",
     // Controles de zoom e historial
     "zoomIn": "Acercar",
@@ -1666,6 +1674,8 @@ const translations = {
     "toolbar.align.to.page": "Allinea alla pagina:",
     "toolbar.center.page.h": "Centra orizzontalmente sulla pagina",
     "toolbar.center.page.v": "Centra verticalmente sulla pagina",
+    "toolbar.lockUnlock": "Blocca/Sblocca",
+    "toolbar.unlockAll": "Sblocca tutto",
     "toolbar.delete": "Elimina selezione",
     // Controlli zoom e cronologia
     "zoomIn": "Ingrandisci",
@@ -2052,6 +2062,8 @@ const translations = {
     "toolbar.align.to.page": "Alinhar à página:",
     "toolbar.center.page.h": "Centralizar horizontalmente na página",
     "toolbar.center.page.v": "Centralizar verticalmente na página",
+    "toolbar.lockUnlock": "Bloquear/Desbloquear",
+    "toolbar.unlockAll": "Desbloquear tudo",
     "toolbar.delete": "Excluir seleção",
     // Controlos de zoom e histórico
     "zoomIn": "Ampliar",
@@ -2438,6 +2450,8 @@ const translations = {
     "toolbar.align.to.page": "Uitlijnen op pagina:",
     "toolbar.center.page.h": "Horizontaal centreren op pagina",
     "toolbar.center.page.v": "Verticaal centreren op pagina",
+    "toolbar.lockUnlock": "Vergrendelen/Ontgrendelen",
+    "toolbar.unlockAll": "Alles ontgrendelen",
     "toolbar.delete": "Selectie verwijderen",
     // Zoom- en geschiedeniscontroles
     "zoomIn": "Inzoomen",
@@ -2829,6 +2843,8 @@ const translations = {
     "toolbar.align.to.page": "Justera på sidan:",
     "toolbar.center.page.h": "Centrera horisontellt på sidan",
     "toolbar.center.page.v": "Centrera vertikalt på sidan",
+    "toolbar.lockUnlock": "Lås/Lås upp",
+    "toolbar.unlockAll": "Lås upp alla",
     "toolbar.delete": "Ta bort markering",
     // Zoom- och historikkontroller
     "zoomIn": "Zooma in",
@@ -3210,6 +3226,8 @@ const translations = {
     "toolbar.align.to.page": "Juster på siden:",
     "toolbar.center.page.h": "Centrer vandret på siden",
     "toolbar.center.page.v": "Centrer lodret på siden",
+    "toolbar.lockUnlock": "Lås/Lås op",
+    "toolbar.unlockAll": "Lås alle op",
     "toolbar.delete": "Slet markering",
     // Zoom- og historikkontroller
     "zoomIn": "Zoom ind",
@@ -3596,6 +3614,8 @@ const translations = {
     "toolbar.align.to.page": "Juster på siden:",
     "toolbar.center.page.h": "Sentrer horisontalt på siden",
     "toolbar.center.page.v": "Sentrer vertikalt på siden",
+    "toolbar.lockUnlock": "Lås/Lås opp",
+    "toolbar.unlockAll": "Lås opp alle",
     "toolbar.delete": "Slett markering",
     // Zoom- og historikkontroller
     "zoomIn": "Zoom inn",
@@ -3982,6 +4002,8 @@ const translations = {
     "toolbar.align.to.page": "Kohdista sivulle:",
     "toolbar.center.page.h": "Keskitä sivulle vaakasuunnassa",
     "toolbar.center.page.v": "Keskitä sivulle pystysuunnassa",
+    "toolbar.lockUnlock": "Lukitse/Avaa",
+    "toolbar.unlockAll": "Avaa kaikki",
     "toolbar.delete": "Poista valinta",
     // Zoomaus- ja historiasäätimet
     "zoomIn": "Lähennä",

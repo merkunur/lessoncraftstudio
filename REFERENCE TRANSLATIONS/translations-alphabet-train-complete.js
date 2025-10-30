@@ -133,6 +133,8 @@ const translations = {
         "bringForward": "Bring Forward",
         "sendBackward": "Send Backward",
         "sendToBack": "Send to Back",
+        "lockUnlock": "Lock/Unlock",
+        "unlockAll": "Unlock All",
         "deleteSelected": "Delete Selected",
 
         // Alignment Tools
@@ -349,6 +351,8 @@ const translations = {
         "bringForward": "Nach vorne",
         "sendBackward": "Nach hinten",
         "sendToBack": "Ganz nach hinten",
+        "lockUnlock": "Sperren/Entsperren",
+        "unlockAll": "Alle entsperren",
         "deleteSelected": "Ausgewählte löschen",
 
         // Alignment Tools
@@ -569,6 +573,8 @@ const translations = {
         "bringForward": "Avancer",
         "sendBackward": "Reculer",
         "sendToBack": "Mettre à l'arrière-plan",
+        "lockUnlock": "Verrouiller/Déverrouiller",
+        "unlockAll": "Tout déverrouiller",
         "deleteSelected": "Supprimer la sélection",
 
         // Alignment Tools
@@ -787,6 +793,8 @@ const translations = {
         "bringForward": "Traer adelante",
         "sendBackward": "Enviar atrás",
         "sendToBack": "Enviar al fondo",
+        "lockUnlock": "Bloquear/Desbloquear",
+        "unlockAll": "Desbloquear todo",
         "deleteSelected": "Eliminar seleccionados",
 
         // Alignment Tools
@@ -1002,6 +1010,8 @@ const translations = {
         "bringForward": "Porta avanti",
         "sendBackward": "Porta indietro",
         "sendToBack": "Porta sullo sfondo",
+        "lockUnlock": "Blocca/Sblocca",
+        "unlockAll": "Sblocca tutto",
         "deleteSelected": "Elimina selezionati",
 
         // Alignment Tools
@@ -1219,6 +1229,8 @@ const translations = {
         "bringForward": "Avançar",
         "sendBackward": "Recuar",
         "sendToBack": "Enviar para trás",
+        "lockUnlock": "Bloquear/Desbloquear",
+        "unlockAll": "Desbloquear tudo",
         "deleteSelected": "Excluir selecionados",
 
         // Alignment Tools
@@ -1436,6 +1448,8 @@ const translations = {
         "bringForward": "Naar voren",
         "sendBackward": "Naar achteren",
         "sendToBack": "Op de achtergrond plaatsen",
+        "lockUnlock": "Vergrendelen/Ontgrendelen",
+        "unlockAll": "Alles ontgrendelen",
         "deleteSelected": "Geselecteerde verwijderen",
 
         // Alignment Tools
@@ -1651,6 +1665,8 @@ const translations = {
         "bringForward": "Flytta framåt",
         "sendBackward": "Flytta bakåt",
         "sendToBack": "Flytta längst bak",
+        "lockUnlock": "Lås/Lås upp",
+        "unlockAll": "Lås upp alla",
         "deleteSelected": "Ta bort valda",
 
         // Alignment Tools
@@ -1868,6 +1884,8 @@ const translations = {
         "bringForward": "Flyt fremad",
         "sendBackward": "Flyt bagud",
         "sendToBack": "Flyt bagerst",
+        "lockUnlock": "Lås/Lås op",
+        "unlockAll": "Lås alle op",
         "deleteSelected": "Slet valgte",
 
         // Alignment Tools
@@ -2085,6 +2103,8 @@ const translations = {
         "bringForward": "Flytt fremover",
         "sendBackward": "Flytt bakover",
         "sendToBack": "Flytt bakerst",
+        "lockUnlock": "Lås/Lås opp",
+        "unlockAll": "Lås opp alle",
         "deleteSelected": "Slett valgte",
 
         // Alignment Tools
@@ -2302,6 +2322,8 @@ const translations = {
         "bringForward": "Siirrä eteenpäin",
         "sendBackward": "Siirrä taaksepäin",
         "sendToBack": "Siirrä taustalle",
+        "lockUnlock": "Lukitse/Avaa",
+        "unlockAll": "Avaa kaikki",
         "deleteSelected": "Poista valitut",
 
         // Alignment Tools

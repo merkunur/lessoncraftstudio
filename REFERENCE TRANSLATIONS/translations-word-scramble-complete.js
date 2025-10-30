@@ -132,6 +132,8 @@ const translations = {
         "alignBottom": "Align Bottom",
         "centerOnPageHorizontally": "Center on Page Horizontally",
         "centerOnPageVertically": "Center on Page Vertically",
+        "lockUnlock": "Lock/Unlock",
+        "unlockAll": "Unlock All",
         "deleteSelected": "Delete Selected",
 
         // Dynamic messages
@@ -300,6 +302,8 @@ const translations = {
         "alignBottom": "Unten ausrichten",
         "centerOnPageHorizontally": "Horizontal auf Seite zentrieren",
         "centerOnPageVertically": "Vertikal auf Seite zentrieren",
+        "lockUnlock": "Sperren/Entsperren",
+        "unlockAll": "Alle entsperren",
         "deleteSelected": "Ausgewählte löschen",
 
         // Dynamic messages
@@ -480,6 +484,8 @@ const translations = {
         "alignBottom": "Aligner en bas",
         "centerOnPageHorizontally": "Centrer horizontalement sur la page",
         "centerOnPageVertically": "Centrer verticalement sur la page",
+        "lockUnlock": "Verrouiller/Déverrouiller",
+        "unlockAll": "Tout déverrouiller",
         "deleteSelected": "Supprimer la sélection",
 
         // Dynamic messages
@@ -649,6 +655,8 @@ const translations = {
         "alignBottom": "Alinear abajo",
         "centerOnPageHorizontally": "Centrar horizontalmente en la página",
         "centerOnPageVertically": "Centrar verticalmente en la página",
+        "lockUnlock": "Bloquear/Desbloquear",
+        "unlockAll": "Desbloquear todo",
         "deleteSelected": "Eliminar selección",
 
         // Dynamic messages
@@ -818,6 +826,8 @@ const translations = {
         "alignBottom": "Allinea in basso",
         "centerOnPageHorizontally": "Centra orizzontalmente sulla pagina",
         "centerOnPageVertically": "Centra verticalmente sulla pagina",
+        "lockUnlock": "Blocca/Sblocca",
+        "unlockAll": "Sblocca tutto",
         "deleteSelected": "Elimina selezione",
 
         // Dynamic messages
@@ -987,6 +997,8 @@ const translations = {
         "alignBottom": "Alinhar à base",
         "centerOnPageHorizontally": "Centralizar horizontalmente na página",
         "centerOnPageVertically": "Centralizar verticalmente na página",
+        "lockUnlock": "Bloquear/Desbloquear",
+        "unlockAll": "Desbloquear tudo",
         "deleteSelected": "Excluir seleção",
 
         // Dynamic messages
@@ -1156,6 +1168,8 @@ const translations = {
         "alignBottom": "Onder Uitlijnen",
         "centerOnPageHorizontally": "Horizontaal Centreren op Pagina",
         "centerOnPageVertically": "Verticaal Centreren op Pagina",
+        "lockUnlock": "Vergrendelen/Ontgrendelen",
+        "unlockAll": "Alles ontgrendelen",
         "deleteSelected": "Selectie verwijderen",
 
         // Dynamic messages
@@ -1325,6 +1339,8 @@ const translations = {
         "alignBottom": "Justera underkant",
         "centerOnPageHorizontally": "Centrera horisontellt på sidan",
         "centerOnPageVertically": "Centrera vertikalt på sidan",
+        "lockUnlock": "Lås/Lås upp",
+        "unlockAll": "Lås upp alla",
         "deleteSelected": "Ta bort markering",
 
         // Dynamic messages
@@ -1494,6 +1510,8 @@ const translations = {
         "alignBottom": "Juster nederst",
         "centerOnPageHorizontally": "Centrer vandret på siden",
         "centerOnPageVertically": "Centrer lodret på siden",
+        "lockUnlock": "Lås/Lås op",
+        "unlockAll": "Lås alle op",
         "deleteSelected": "Slet markering",
 
         // Dynamic messages
@@ -1663,6 +1681,8 @@ const translations = {
         "alignBottom": "Juster bunn",
         "centerOnPageHorizontally": "Sentrer horisontalt på siden",
         "centerOnPageVertically": "Sentrer vertikalt på siden",
+        "lockUnlock": "Lås/Lås opp",
+        "unlockAll": "Lås opp alle",
         "deleteSelected": "Slett markering",
 
         // Dynamic messages
@@ -1832,6 +1852,8 @@ const translations = {
         "alignBottom": "Tasaa alas",
         "centerOnPageHorizontally": "Keskitä vaakasuunnassa sivulle",
         "centerOnPageVertically": "Keskitä pystysuunnassa sivulle",
+        "lockUnlock": "Lukitse/Avaa",
+        "unlockAll": "Avaa kaikki",
         "deleteSelected": "Poista valinta",
 
         // Dynamic messages

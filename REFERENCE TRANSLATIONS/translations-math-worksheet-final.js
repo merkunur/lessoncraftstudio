@@ -159,6 +159,8 @@ const translations = {
         "uploadImage": "Upload Image",
         "undo": "Undo (Ctrl+Z)",
         "redo": "Redo (Ctrl+Y)",
+        "lockUnlock": "Lock/Unlock",
+        "unlockAll": "Unlock All",
         "deleteSelected": "Delete Selected",
 
         // Zoom Controls
@@ -348,6 +350,8 @@ const translations = {
         "uploadImage": "Bild hochladen",
         "undo": "Rückgängig (Strg+Z)",
         "redo": "Wiederholen (Strg+Y)",
+        "lockUnlock": "Sperren/Entsperren",
+        "unlockAll": "Alle entsperren",
         "deleteSelected": "Ausgewählte löschen",
 
         // Zoom Controls
@@ -565,6 +569,8 @@ const translations = {
         "uploadImage": "Télécharger une Image",
         "undo": "Annuler (Ctrl+Z)",
         "redo": "Refaire (Ctrl+Y)",
+        "lockUnlock": "Verrouiller/Déverrouiller",
+        "unlockAll": "Tout déverrouiller",
         "deleteSelected": "Supprimer la Sélection",
 
         // Zoom Controls
@@ -776,6 +782,8 @@ const translations = {
         "uploadImage": "Cargar Imagen",
         "undo": "Deshacer (Ctrl+Z)",
         "redo": "Rehacer (Ctrl+Y)",
+        "lockUnlock": "Bloquear/Desbloquear",
+        "unlockAll": "Desbloquear todo",
         "deleteSelected": "Eliminar Seleccionado",
 
         // Zoom Controls
@@ -987,6 +995,8 @@ const translations = {
         "uploadImage": "Carica Immagine",
         "undo": "Annulla (Ctrl+Z)",
         "redo": "Ripristina (Ctrl+Y)",
+        "lockUnlock": "Blocca/Sblocca",
+        "unlockAll": "Sblocca tutto",
         "deleteSelected": "Elimina Selezionato",
 
         // Zoom Controls
@@ -1210,6 +1220,8 @@ const translations = {
         "uploadImage": "Carregar Imagem",
         "undo": "Desfazer (Ctrl+Z)",
         "redo": "Refazer (Ctrl+Y)",
+        "lockUnlock": "Bloquear/Desbloquear",
+        "unlockAll": "Desbloquear tudo",
         "deleteSelected": "Excluir Selecionado",
 
         // Zoom Controls
@@ -1421,6 +1433,8 @@ const translations = {
         "uploadImage": "Afbeelding Uploaden",
         "undo": "Ongedaan Maken (Ctrl+Z)",
         "redo": "Opnieuw (Ctrl+Y)",
+        "lockUnlock": "Vergrendelen/Ontgrendelen",
+        "unlockAll": "Alles ontgrendelen",
         "deleteSelected": "Selectie Verwijderen",
 
         // Zoom Controls
@@ -1626,6 +1640,8 @@ const translations = {
         "uploadImage": "Ladda upp Bild",
         "undo": "Ångra (Ctrl+Z)",
         "redo": "Gör om (Ctrl+Y)",
+        "lockUnlock": "Lås/Lås upp",
+        "unlockAll": "Lås upp alla",
         "deleteSelected": "Radera Markerat",
 
         // Zoom Controls
@@ -1831,6 +1847,8 @@ const translations = {
         "uploadImage": "Upload Billede",
         "undo": "Fortryd (Ctrl+Z)",
         "redo": "Gentag (Ctrl+Y)",
+        "lockUnlock": "Lås/Lås op",
+        "unlockAll": "Lås alle op",
         "deleteSelected": "Slet Valgte",
 
         // Zoom Controls
@@ -2036,6 +2054,8 @@ const translations = {
         "uploadImage": "Last opp Bilde",
         "undo": "Angre (Ctrl+Z)",
         "redo": "Gjenta (Ctrl+Y)",
+        "lockUnlock": "Lås/Lås opp",
+        "unlockAll": "Lås opp alle",
         "deleteSelected": "Slett Valgte",
 
         // Zoom Controls
@@ -2241,6 +2261,8 @@ const translations = {
         "uploadImage": "Lataa Kuva",
         "undo": "Kumoa (Ctrl+Z)",
         "redo": "Tee uudelleen (Ctrl+Y)",
+        "lockUnlock": "Lukitse/Avaa",
+        "unlockAll": "Avaa kaikki",
         "deleteSelected": "Poista Valittu",
 
         // Zoom Controls

@@ -103,6 +103,8 @@ const translations = {
     "toolbar.alignBottom": "Align Bottom",
     "toolbar.centerPageH": "Center on Page Horizontally",
     "toolbar.centerPageV": "Center on Page Vertically",
+    "lockUnlock": "Lock/Unlock",
+    "unlockAll": "Unlock All",
     "toolbar.delete": "Delete Selected",
 
     // ===== ZOOM & HISTORY CONTROLS (5 items) =====
@@ -298,6 +300,8 @@ const translations = {
     "toolbar.alignBottom": "Unten Ausrichten",
     "toolbar.centerPageH": "Auf Seite Horizontal Zentrieren",
     "toolbar.centerPageV": "Auf Seite Vertikal Zentrieren",
+    "lockUnlock": "Sperren/Entsperren",
+    "unlockAll": "Alle entsperren",
     "toolbar.delete": "Ausgewählte Löschen",
 
     // ===== ZOOM & HISTORY CONTROLS (5 items) =====
@@ -493,6 +497,8 @@ const translations = {
     "toolbar.alignBottom": "Aligner en Bas",
     "toolbar.centerPageH": "Centrer sur la Page Horizontalement",
     "toolbar.centerPageV": "Centrer sur la Page Verticalement",
+    "lockUnlock": "Verrouiller/Déverrouiller",
+    "unlockAll": "Tout déverrouiller",
     "toolbar.delete": "Supprimer la Sélection",
 
     // ===== 9. ACTION BUTTONS (11 items) =====
@@ -688,6 +694,8 @@ const translations = {
     "toolbar.alignBottom": "Alinear Abajo",
     "toolbar.centerPageH": "Centrar en la Página Horizontalmente",
     "toolbar.centerPageV": "Centrar en la Página Verticalmente",
+    "lockUnlock": "Bloquear/Desbloquear",
+    "unlockAll": "Desbloquear todo",
     "toolbar.delete": "Eliminar Selección",
 
     // ===== 9. ACTION BUTTONS (11 items) =====
@@ -883,6 +891,8 @@ const translations = {
     "toolbar.alignBottom": "Allinea in Basso",
     "toolbar.centerPageH": "Centra sulla Pagina Orizzontalmente",
     "toolbar.centerPageV": "Centra sulla Pagina Verticalmente",
+    "lockUnlock": "Blocca/Sblocca",
+    "unlockAll": "Sblocca tutto",
     "toolbar.delete": "Elimina Selezione",
 
     // ===== 9. ACTION BUTTONS (11 items) =====
@@ -1078,6 +1088,8 @@ const translations = {
     "toolbar.alignBottom": "Alinhar à Base",
     "toolbar.centerPageH": "Centrar na Página Horizontalmente",
     "toolbar.centerPageV": "Centrar na Página Verticalmente",
+    "lockUnlock": "Bloquear/Desbloquear",
+    "unlockAll": "Desbloquear tudo",
     "toolbar.delete": "Eliminar Seleção",
 
     // ===== 9. ACTION BUTTONS (11 items) =====
@@ -1273,6 +1285,8 @@ const translations = {
     "toolbar.alignBottom": "Onder Uitlijnen",
     "toolbar.centerPageH": "Op Pagina Horizontaal Centreren",
     "toolbar.centerPageV": "Op Pagina Verticaal Centreren",
+    "lockUnlock": "Vergrendelen/Ontgrendelen",
+    "unlockAll": "Alles ontgrendelen",
     "toolbar.delete": "Selectie Verwijderen",
 
     // ===== 9. ACTION BUTTONS (11 items) =====
@@ -1468,6 +1482,8 @@ const translations = {
     "toolbar.alignBottom": "Justera Nedåt",
     "toolbar.centerPageH": "Centrera på Sidan Horisontellt",
     "toolbar.centerPageV": "Centrera på Sidan Vertikalt",
+    "lockUnlock": "Lås/Lås upp",
+    "unlockAll": "Lås upp alla",
     "toolbar.delete": "Ta Bort Markering",
 
     // ===== 9. ACTION BUTTONS (11 items) =====
@@ -1663,6 +1679,8 @@ const translations = {
     "toolbar.alignBottom": "Juster Ned",
     "toolbar.centerPageH": "Centrer på Siden Vandret",
     "toolbar.centerPageV": "Centrer på Siden Lodret",
+    "lockUnlock": "Lås/Lås op",
+    "unlockAll": "Lås alle op",
     "toolbar.delete": "Slet Markering",
 
     // ===== 9. ACTION BUTTONS (11 items) =====
@@ -1858,6 +1876,8 @@ const translations = {
     "toolbar.alignBottom": "Juster Nederst",
     "toolbar.centerPageH": "Sentrer på Siden Horisontalt",
     "toolbar.centerPageV": "Sentrer på Siden Vertikalt",
+    "lockUnlock": "Lås/Lås opp",
+    "unlockAll": "Lås opp alle",
     "toolbar.delete": "Slett Markering",
 
     // ===== 9. ACTION BUTTONS (11 items) =====
@@ -2053,6 +2073,8 @@ const translations = {
     "toolbar.alignBottom": "Tasaa Alas",
     "toolbar.centerPageH": "Keskitä Sivulle Vaakasuunnassa",
     "toolbar.centerPageV": "Keskitä Sivulle Pystysuunnassa",
+    "lockUnlock": "Lukitse/Avaa",
+    "unlockAll": "Avaa kaikki",
     "toolbar.delete": "Poista Valinta",
 
     // ===== 9. ACTION BUTTONS (11 items) =====

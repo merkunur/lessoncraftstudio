@@ -3411,20 +3411,47 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // START: REFACTORED CODE (Part D, Step 2)
     async function downloadImageFile(canvasToExport, filename) {
-        if (!canvasToExport || canvasToExport.getObjects().length === 0) { 
-            showMessage(t('pleaseGenerateContentFirst'), 'error'); return; 
+        if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+            showMessage(t('pleaseGenerateContentFirst'), 'error'); return;
         }
         showMessage(t('preparingJpeg'), 'info', 0);
-        const exportOptions = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
+
+        // Add watermark if free tier
+        const watermarkData = addWatermarkToCanvas(canvasToExport);
+
         try {
+            // Save current state
+            const currentZoom = canvasToExport.getZoom();
+            const currentWidth = canvasToExport.getWidth();
+            const currentHeight = canvasToExport.getHeight();
+
+            // Reset for export at exact dimensions
+            canvasToExport.setZoom(1);
+            canvasToExport.setDimensions({
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
+            });
+
+            const exportOptions = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
             const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+
+            // Restore display state
+            canvasToExport.setZoom(currentZoom);
+            canvasToExport.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
+
             const link = document.createElement('a');
-            link.download = `${filename}.jpeg`; 
+            link.download = `${filename}.jpeg`;
             link.href = dataURL;
             link.click();
             showMessage(t('jpegDownloadInitiated'), 'success');
         } catch (error) {
             showMessage(t('errorDuringJpegExport').replace('{error}', error.message), 'error');
+        } finally {
+            // Remove watermark after export
+            removeWatermarkFromCanvas(canvasToExport, watermarkData);
         }
     }
 
@@ -3493,46 +3520,7 @@ document.addEventListener("DOMContentLoaded", function() {
         canvas.renderAll();
     }
 
-    // Override the original downloadPDF function
-    const originalDownloadPDF = typeof downloadPDF !== 'undefined' ? downloadPDF : null;
-    if (originalDownloadPDF) {
-        window.downloadPDF = async function(canvasToExport, fileName) {
-            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
-                return showMessage(t('pleaseGenerateContentFirst'), 'error');
-            }
-            showMessage(t('preparingPdf'), 'info', 0);
-            
-            // Add watermark if free tier
-            const watermarkData = addWatermarkToCanvas(canvasToExport);
-            
-            try {
-                const { jsPDF } = window.jspdf;
-                const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
-                const pdf = new jsPDF({ 
-                    orientation, 
-                    unit: 'pt', 
-                    format: [currentCanvasConfig.width, currentCanvasConfig.height] 
-                });
-
-                const exportOptions = { 
-                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
-                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
-                };
-                
-                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
-                pdf.addImage(dataURL, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
-                
-                pdf.save(fileName);
-                showMessage(t('pdfDownloaded'), 'success');
-            } catch(e) { 
-                showMessage(t('errorCreatingPdf'), 'error'); 
-                console.error(e); 
-            } finally {
-                // Remove watermark after export
-                removeWatermarkFromCanvas(canvasToExport, watermarkData);
-            }
-        };
-    }
+    // Note: downloadPDF override removed - the standalone function below is now correctly fixed
 
     // Override the original downloadJPEG function if it exists
     const originalDownloadJPEG = typeof downloadJPEG !== 'undefined' ? downloadJPEG : null;
@@ -3569,19 +3557,21 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
 async function downloadPDF(canvasToExport, filename) {
-        if (!canvasToExport || canvasToExport.getObjects().length === 0) { 
-            showMessage(t('pleaseGenerateContentFirst'), 'error'); return; 
+        if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+            showMessage(t('pleaseGenerateContentFirst'), 'error'); return;
         }
         showMessage(t('preparingPdfPleaseWait'), 'info', 0);
         try {
             const { jsPDF } = window.jspdf;
-            const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
-            const pdf = new jsPDF({ orientation, unit: 'pt', format: [canvasToExport.width, canvasToExport.height] });
+            // Use currentCanvasConfig dimensions (selected paper size), not canvas display dimensions
+            const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'landscape' : 'portrait';
+            const pdf = new jsPDF({ orientation, unit: 'pt', format: [currentCanvasConfig.width, currentCanvasConfig.height] });
             const exportOptions = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
-            
+
             const imgData = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
-            pdf.addImage(imgData, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
-            
+            // Add image at configured paper dimensions, not canvas display dimensions
+            pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
+
             pdf.save(`${filename}.pdf`);
             showMessage('PDF downloaded!', 'success');
         } catch (error) {

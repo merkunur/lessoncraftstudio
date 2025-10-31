@@ -766,13 +766,12 @@
 
             <div class="form-grid">
                 <div class="form-group">
-                    <label class="form-label">Featured Image <span style="background: var(--info); color: white; padding: 2px 8px; border-radius: 4px; font-size: 11px; margin-left: 8px;">Language-Specific</span></label>
+                    <label class="form-label">Featured Image</label>
                     <div id="featuredImageDropzone" style="border: 2px dashed var(--gray-300); border-radius: 8px; padding: 30px; text-align: center; cursor: pointer; transition: all 0.3s; background: var(--gray-50);">
                         <div id="featuredImagePlaceholder">
                             <div style="font-size: 48px; margin-bottom: 10px;">🖼️</div>
                             <div style="font-weight: 600; color: var(--gray-700); margin-bottom: 5px;">Drop image here or click to browse</div>
                             <div style="font-size: 13px; color: var(--gray-500);">PNG, JPG, or WEBP (Max 5MB)</div>
-                            <div style="font-size: 12px; color: var(--info); margin-top: 8px; font-weight: 500;">🌐 This image is specific to the current language</div>
                         </div>
                         <div id="featuredImagePreview" style="display: none;">
                             <img id="featuredImagePreviewImg" style="max-width: 100%; max-height: 200px; border-radius: 8px; margin-bottom: 10px;" />
@@ -782,7 +781,7 @@
                     </div>
                     <input type="file" id="postFeaturedImageFile" accept="image/*" style="display: none;">
                     <input type="hidden" id="postFeaturedImage">
-                    <small style="color: var(--gray-500); display: block; margin-top: 5px;">🌐 Language-specific thumbnail - each language can have its own image</small>
+                    <small style="color: var(--gray-500); display: block; margin-top: 5px;">Optional: Thumbnail image for blog post listing</small>
                 </div>
                 <div class="form-group">
                     <label class="form-label">Category</label>
@@ -1098,27 +1097,21 @@
                 <button class="modal-close" onclick="closePDFModal()">✕</button>
             </div>
             <div class="modal-body">
-                <div style="background: var(--info); color: white; padding: 12px; border-radius: 8px; margin-bottom: 20px; font-size: 14px;">
-                    🌐 Language-Specific PDF Content: Title, description, and thumbnail are specific to the current language (<span id="pdfModalLanguageIndicator" style="font-weight: 600;"></span>)
-                </div>
                 <div class="form-group">
-                    <label class="form-label">PDF File <span style="color: var(--gray-500); font-size: 12px;">(Shared across all languages)</span></label>
+                    <label class="form-label">PDF File</label>
                     <input type="file" id="modalPDFFile" accept=".pdf" class="form-control">
                 </div>
                 <div class="form-group">
-                    <label class="form-label">Title <span style="background: var(--info); color: white; padding: 2px 8px; border-radius: 4px; font-size: 11px; margin-left: 8px;">Language-Specific</span></label>
+                    <label class="form-label">Title</label>
                     <input type="text" id="modalPDFTitle" class="form-control" placeholder="e.g., 1 Minute Math Addition">
-                    <small style="color: var(--gray-500); display: block; margin-top: 5px;">Each language can have its own title</small>
                 </div>
                 <div class="form-group">
-                    <label class="form-label">Description <span style="background: var(--info); color: white; padding: 2px 8px; border-radius: 4px; font-size: 11px; margin-left: 8px;">Language-Specific</span></label>
+                    <label class="form-label">Description</label>
                     <textarea id="modalPDFDescription" class="form-control" placeholder="Premium educational worksheet designed to enhance learning..."></textarea>
-                    <small style="color: var(--gray-500); display: block; margin-top: 5px;">Each language can have its own description</small>
                 </div>
                 <div class="form-group">
-                    <label class="form-label">Thumbnail (optional) <span style="background: var(--info); color: white; padding: 2px 8px; border-radius: 4px; font-size: 11px; margin-left: 8px;">Language-Specific</span></label>
+                    <label class="form-label">Thumbnail (optional)</label>
                     <input type="file" id="modalPDFThumbnail" accept="image/*" class="form-control">
-                    <small style="color: var(--gray-500); display: block; margin-top: 5px;">🌐 Each language can have its own thumbnail image</small>
                 </div>
                 <div class="form-grid">
                     <div class="form-group">
@@ -1625,12 +1618,10 @@
                     // Update hidden input
                     document.getElementById('postFeaturedImage').value = imagePath;
 
-                    // 🌐 LANGUAGE-SPECIFIC FIX: Update currentPost object with language-specific image
+                    // 🔄 SYNC FIX: Update currentPost object immediately
                     if (currentPost) {
-                        if (!currentPost.translations) currentPost.translations = {};
-                        if (!currentPost.translations[currentLanguage]) currentPost.translations[currentLanguage] = {};
-                        currentPost.translations[currentLanguage].featuredImage = imagePath;
-                        console.log(`✅ currentPost.translations[${currentLanguage}].featuredImage synced:`, imagePath);
+                        currentPost.featuredImage = imagePath;
+                        console.log('✅ currentPost.featuredImage synced:', imagePath);
                     }
 
                     // Show preview
@@ -1639,8 +1630,8 @@
                     document.getElementById('featuredImagePreviewImg').src = imagePath;
                     document.getElementById('featuredImageName').textContent = file.name;
 
-                    console.log(`✅ Featured image uploaded for language ${currentLanguage}:`, imagePath);
-                    showMessage(`🌐 Image uploaded for ${currentLanguage}! Remember to click "Save Changes" to save the post with this image.`, 'success');
+                    console.log('✅ Featured image uploaded:', imagePath);
+                    showMessage('Image uploaded! Remember to click "Save Changes" to save the post with this image.', 'success');
                 } else {
                     const error = await response.json();
                     throw new Error(error.error || 'Upload failed');
@@ -2056,9 +2047,7 @@
                     document.getElementById('postMetaDescription').value = translation.metaDescription || translation.excerpt || '';
                     document.getElementById('postFocusKeyword').value = translation.focusKeyword || '';
                     document.getElementById('postKeywords').value = (post.keywords || []).join(', ');
-                    // 🌐 LANGUAGE-SPECIFIC: Load featured image from current language, fallback to global for old posts
-                    const featuredImagePath = translation.featuredImage || post.featuredImage || '';
-                    document.getElementById('postFeaturedImage').value = featuredImagePath;
+                    document.getElementById('postFeaturedImage').value = post.featuredImage || '';
                     document.getElementById('postCategory').value = post.category || 'teaching-resources';
                     document.getElementById('postPdfSectionTitle').value = translation.pdfSectionTitle || 'Free Sample Worksheets';
                     document.getElementById('postPdfSectionDescription').value = translation.pdfSectionDescription || 'Premium educational resources designed by experts to accelerate learning and inspire students';
@@ -2066,12 +2055,12 @@
                     document.getElementById('postPdfPremiumLabel').value = translation.pdfPremiumLabel || 'Premium';
                     document.getElementById('postPdfDownloadButton').value = translation.pdfDownloadButton || '📥 Download Now →';
 
-                    // 🌐 LANGUAGE-SPECIFIC: Update featured image preview (check language-specific first, then global)
-                    if (featuredImagePath) {
+                    // Update featured image preview
+                    if (post.featuredImage) {
                         document.getElementById('featuredImagePlaceholder').style.display = 'none';
                         document.getElementById('featuredImagePreview').style.display = 'block';
-                        document.getElementById('featuredImagePreviewImg').src = featuredImagePath;
-                        document.getElementById('featuredImageName').textContent = featuredImagePath.split('/').pop();
+                        document.getElementById('featuredImagePreviewImg').src = post.featuredImage;
+                        document.getElementById('featuredImageName').textContent = post.featuredImage.split('/').pop();
                     } else {
                         document.getElementById('featuredImagePlaceholder').style.display = 'block';
                         document.getElementById('featuredImagePreview').style.display = 'none';
@@ -2123,9 +2112,7 @@
                     document.getElementById('postMetaDescription').value = translation.metaDescription || translation.excerpt || '';
                     document.getElementById('postFocusKeyword').value = translation.focusKeyword || '';
                     document.getElementById('postKeywords').value = (post.keywords || []).join(', ');
-                    // 🌐 LANGUAGE-SPECIFIC: Load featured image from current language, fallback to global for old posts
-                    const featuredImagePath = translation.featuredImage || post.featuredImage || '';
-                    document.getElementById('postFeaturedImage').value = featuredImagePath;
+                    document.getElementById('postFeaturedImage').value = post.featuredImage || '';
                     document.getElementById('postCategory').value = post.category || 'teaching-resources';
                     document.getElementById('postPdfSectionTitle').value = translation.pdfSectionTitle || 'Free Sample Worksheets';
                     document.getElementById('postPdfSectionDescription').value = translation.pdfSectionDescription || 'Premium educational resources designed by experts to accelerate learning and inspire students';
@@ -2133,12 +2120,12 @@
                     document.getElementById('postPdfPremiumLabel').value = translation.pdfPremiumLabel || 'Premium';
                     document.getElementById('postPdfDownloadButton').value = translation.pdfDownloadButton || '📥 Download Now →';
 
-                    // 🌐 LANGUAGE-SPECIFIC: Show featured image preview if exists (check language-specific first, then global)
-                    if (featuredImagePath) {
+                    // Show featured image preview if exists
+                    if (post.featuredImage) {
                         document.getElementById('featuredImagePlaceholder').style.display = 'none';
                         document.getElementById('featuredImagePreview').style.display = 'block';
-                        document.getElementById('featuredImagePreviewImg').src = featuredImagePath;
-                        document.getElementById('featuredImageName').textContent = featuredImagePath.split('/').pop();
+                        document.getElementById('featuredImagePreviewImg').src = post.featuredImage;
+                        document.getElementById('featuredImageName').textContent = post.featuredImage.split('/').pop();
                     } else {
                         document.getElementById('featuredImagePlaceholder').style.display = 'block';
                         document.getElementById('featuredImagePreview').style.display = 'none';
@@ -2211,20 +2198,18 @@
                         const pdfTranslations = languageSpecificPDFs[pdf.id];
                         const merged = {
                             id: pdf.id,
-                            // 🌐 LANGUAGE-SPECIFIC: Use language-specific title/description/thumbnail if available
+                            // Use language-specific title/description if available, otherwise use BlogPDF values
                             title: pdfTranslations?.title || pdf.title,
                             description: pdfTranslations?.description || pdf.description,
                             filename: pdf.filename,
                             size: formatFileSize(pdf.fileSize),
                             price: pdf.price || 'Free',
-                            thumbnail: pdfTranslations?.thumbnail || pdf.thumbnail // 🌐 Use language-specific thumbnail
+                            thumbnail: pdf.thumbnail
                         };
                         console.log(`   🔗 Merged PDF ${pdf.id}:`, {
                             blogPdfTitle: pdf.title,
                             translationTitle: pdfTranslations?.title,
-                            translationThumbnail: pdfTranslations?.thumbnail,
-                            finalTitle: merged.title,
-                            finalThumbnail: merged.thumbnail
+                            finalTitle: merged.title
                         });
                         return merged;
                     });
@@ -2450,9 +2435,7 @@
                 pdfSectionDescription: document.getElementById('postPdfSectionDescription').value || 'Premium educational resources designed by experts to accelerate learning and inspire students',
                 pdfFreeLabel: document.getElementById('postPdfFreeLabel').value || 'Free',
                 pdfPremiumLabel: document.getElementById('postPdfPremiumLabel').value || 'Premium',
-                pdfDownloadButton: document.getElementById('postPdfDownloadButton').value || '📥 Download Now →',
-                // 🌐 LANGUAGE-SPECIFIC: Include featured image in translation data
-                featuredImage: featuredImage
+                pdfDownloadButton: document.getElementById('postPdfDownloadButton').value || '📥 Download Now →'
             };
 
             const translations = {
@@ -2478,8 +2461,7 @@
                             console.log('✅ Preserved PDF translations for', currentLanguage, ':', translations[currentLanguage].pdfs);
                         }
 
-                        // 🌐 LANGUAGE-SPECIFIC: Merge existing translations with current language update
-                        // This preserves all other languages' content, featured images, and PDF translations
+                        // Merge existing translations with current language update
                         Object.keys(existingTranslations).forEach(lang => {
                             if (lang !== currentLanguage && lang !== 'en') {
                                 translations[lang] = existingTranslations[lang];
@@ -2495,16 +2477,12 @@
                 }
             }
 
-            // 🌐 CRITICAL FIX: Use English featured image for global field (backward compatibility)
-            // Language-specific images are stored in translations[lang].featuredImage
-            const globalFeaturedImage = translations.en?.featuredImage || featuredImage || null;
-
             const formData = {
                 slug,
                 translations,
                 category,
                 keywords: keywords ? keywords.split(',').map(k => k.trim()).filter(k => k) : [],
-                featuredImage: globalFeaturedImage, // Always use English image for global field
+                featuredImage,
                 status: 'published'
             };
 
@@ -2771,9 +2749,6 @@ ${generatePDFSectionHTML()}
         // PDF Modal functions
         function openPDFModal() {
             document.getElementById('pdfModal').classList.add('active');
-            // 🌐 Set language indicator
-            const langMap = { en: 'English', de: 'German', fr: 'French', es: 'Spanish', it: 'Italian', pt: 'Portuguese', tr: 'Turkish', ar: 'Arabic', nl: 'Dutch', pl: 'Polish', ru: 'Russian' };
-            document.getElementById('pdfModalLanguageIndicator').textContent = langMap[currentLanguage] || currentLanguage.toUpperCase();
         }
 
         function closePDFModal() {
@@ -2834,8 +2809,9 @@ ${generatePDFSectionHTML()}
 
                 formData.append('price', price);
 
-                // 🌐 LANGUAGE-SPECIFIC: Don't upload thumbnail to BlogPDF - we'll handle it separately
-                // (Thumbnail will be stored in translations[language].pdfs[id].thumbnail)
+                if (thumbnailInput && thumbnailInput.files[0]) {
+                    formData.append('thumbnail', thumbnailInput.files[0]);
+                }
 
                 const response = await authenticatedFetch(`/api/admin/blog/posts/${slug}/pdfs`, {
                     method: 'POST',
@@ -2846,31 +2822,7 @@ ${generatePDFSectionHTML()}
                     const result = await response.json();
                     const pdfId = result.pdf.id;
 
-                    // 🌐 LANGUAGE-SPECIFIC: Upload thumbnail separately and store in translations
-                    let thumbnailPath = null;
-                    if (thumbnailInput && thumbnailInput.files[0]) {
-                        try {
-                            const thumbnailFormData = new FormData();
-                            thumbnailFormData.append('image', thumbnailInput.files[0]);
-                            thumbnailFormData.append('type', 'pdf-thumbnail');
-
-                            const thumbnailResponse = await authenticatedFetch('/api/admin/blog/upload-image', {
-                                method: 'POST',
-                                body: thumbnailFormData
-                            });
-
-                            if (thumbnailResponse.ok) {
-                                const thumbnailData = await thumbnailResponse.json();
-                                thumbnailPath = thumbnailData.path;
-                                console.log(`✅ Thumbnail uploaded for language ${currentLanguage}:`, thumbnailPath);
-                            }
-                        } catch (thumbnailError) {
-                            console.error('Error uploading thumbnail:', thumbnailError);
-                            // Don't fail the whole operation if thumbnail upload fails
-                        }
-                    }
-
-                    // For ALL languages: Save PDF title/description/thumbnail to BlogPost translations
+                    // For ALL languages: Save PDF title/description to BlogPost translations
                     try {
                         const postResponse = await authenticatedFetch(`/api/admin/blog/posts/${slug}`, {});
                         if (postResponse.ok) {
@@ -2885,11 +2837,10 @@ ${generatePDFSectionHTML()}
                                 post.translations[currentLanguage].pdfs = {};
                             }
 
-                            // 🌐 LANGUAGE-SPECIFIC: Save title, description, AND thumbnail for current language
+                            // Save actual user-provided title/description for current language
                             post.translations[currentLanguage].pdfs[pdfId] = {
                                 title: title,
-                                description: description,
-                                thumbnail: thumbnailPath // 🌐 Store language-specific thumbnail path
+                                description: description
                             };
 
                             // Update the blog post with new translations
@@ -3060,74 +3011,33 @@ ${generatePDFSectionHTML()}
             }
 
             try {
-                // 🌐 LANGUAGE-SPECIFIC: Upload thumbnail separately if provided
-                let thumbnailPath = null;
+                // 🔧 SIMPLIFIED FIX: Send language parameter to backend and let it handle branching
+                console.log(`   📤 Sending to API with currentLanguage: ${currentLanguage}`);
+
+                const formData = new FormData();
+                formData.append('title', title);
+                formData.append('description', description);
+                formData.append('price', price);
+                formData.append('language', currentLanguage); // ✨ KEY FIX: Send language parameter!
+
+                // Add thumbnail if a new one was selected
                 if (thumbnailInput.files && thumbnailInput.files[0]) {
-                    try {
-                        const thumbnailFormData = new FormData();
-                        thumbnailFormData.append('image', thumbnailInput.files[0]);
-                        thumbnailFormData.append('type', 'pdf-thumbnail');
-
-                        const thumbnailResponse = await authenticatedFetch('/api/admin/blog/upload-image', {
-                            method: 'POST',
-                            body: thumbnailFormData
-                        });
-
-                        if (thumbnailResponse.ok) {
-                            const thumbnailData = await thumbnailResponse.json();
-                            thumbnailPath = thumbnailData.path;
-                            console.log(`✅ Thumbnail uploaded for language ${currentLanguage}:`, thumbnailPath);
-                        }
-                    } catch (thumbnailError) {
-                        console.error('Error uploading thumbnail:', thumbnailError);
-                        // Don't fail the whole operation if thumbnail upload fails
-                    }
+                    formData.append('thumbnail', thumbnailInput.files[0]);
                 }
 
-                // 🌐 LANGUAGE-SPECIFIC: Update BlogPost translations with new title/description/thumbnail
-                const postResponse = await authenticatedFetch(`/api/admin/blog/posts/${slug}`, {});
-                if (postResponse.ok) {
-                    const postData = await postResponse.json();
-                    const post = postData.post;
+                const response = await authenticatedFetch(`/api/admin/blog/posts/${slug}/pdfs/${id}`, {
+                    method: 'PUT',
+                    body: formData
+                });
 
-                    // Initialize pdfs object for current language if it doesn't exist
-                    if (!post.translations[currentLanguage]) {
-                        post.translations[currentLanguage] = {};
-                    }
-                    if (!post.translations[currentLanguage].pdfs) {
-                        post.translations[currentLanguage].pdfs = {};
-                    }
-
-                    // Update or preserve existing PDF data
-                    const existingPdfData = post.translations[currentLanguage].pdfs[id] || {};
-                    post.translations[currentLanguage].pdfs[id] = {
-                        title: title,
-                        description: description,
-                        thumbnail: thumbnailPath || existingPdfData.thumbnail // 🌐 Use new thumbnail or keep existing
-                    };
-
-                    // Update the blog post with new translations
-                    const updateResponse = await authenticatedFetch(`/api/admin/blog/posts/${slug}`, {
-                        method: 'PUT',
-                        headers: { 'Content-Type': 'application/json' },
-                        body: JSON.stringify({
-                            translations: post.translations,
-                            slug: post.slug,
-                            category: post.category,
-                            keywords: post.keywords,
-                            status: post.status
-                        })
-                    });
-
-                    if (!updateResponse.ok) {
-                        throw new Error('Failed to update blog post translations');
-                    }
-
-                    console.log(`   ✅ PDF updated successfully for language: ${currentLanguage}`);
-                    showMessage(`🌐 PDF updated successfully for ${currentLanguage}!`, 'success');
-                } else {
-                    throw new Error('Failed to fetch blog post data');
+                if (!response.ok) {
+                    const error = await response.json();
+                    throw new Error(error.error || 'Failed to update PDF');
                 }
+
+                console.log(`   ✅ PDF updated successfully for language: ${currentLanguage}`);
+
+                showMessage('PDF updated successfully with language-specific text!', 'success');
                 closeEditPDFModal();
 
                 // Reload PDFs to show updated data

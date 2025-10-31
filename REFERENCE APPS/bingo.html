@@ -2661,20 +2661,17 @@
       // --- Initial Worksheet Generation ---
       async function generateInitialWorksheet() {
           try {
-              // Wait for themes to be loaded
+              // Wait for themes to be loaded (optimized - no polling delay)
               await new Promise(resolve => {
                   const checkThemes = () => {
                       if (themeSelect && themeSelect.options.length > 1) {
                           resolve();
                       } else {
-                          setTimeout(checkThemes, 100);
+                          setTimeout(checkThemes, 10);
                       }
                   };
                   checkThemes();
               });
-
-              // Add a small delay to ensure everything is fully initialized
-              await new Promise(resolve => setTimeout(resolve, 300));
 
               // Set default values: Alphabet theme, Letter portrait, 4x4, 1 card, Image fill for both
               themeSelect.value = 'alphabet';
@@ -2692,10 +2689,7 @@
               // Load theme images
               await loadDictionary();
 
-              // Wait for images to load
-              await new Promise(resolve => setTimeout(resolve, 200));
-
-              // Generate worksheet
+              // Generate worksheet immediately (no artificial delays)
               await generateWorksheet();
 
           } catch (error) {

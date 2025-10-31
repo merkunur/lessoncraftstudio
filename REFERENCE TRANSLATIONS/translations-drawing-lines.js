@@ -212,6 +212,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Loading...",
+    "generatingWorksheet": "Generating worksheet...",
     "loadingBorders": "Loading {theme} borders...",
     "loadingBackgrounds": "Loading {theme} backgrounds...",
     "noBackgroundsInTheme": "No backgrounds in this theme.",
@@ -416,6 +417,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Lädt...",
+    "generatingWorksheet": "Arbeitsblatt wird erstellt...",
     "loadingBorders": "Lade {theme}-Rahmen...",
     "loadingBackgrounds": "Lade {theme}-Hintergründe...",
     "noBackgroundsInTheme": "Keine Hintergründe in diesem Thema.",
@@ -621,6 +623,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Chargement...",
+    "generatingWorksheet": "Génération de la feuille de travail...",
     "loadingBorders": "Chargement des bordures {theme}...",
     "loadingBackgrounds": "Chargement des arrière-plans {theme}...",
     "noBackgroundsInTheme": "Aucun arrière-plan dans ce thème.",
@@ -826,6 +829,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Cargando...",
+    "generatingWorksheet": "Generando hoja de trabajo...",
     "loadingBorders": "Cargando bordes de {theme}...",
     "loadingBackgrounds": "Cargando fondos de {theme}...",
     "noBackgroundsInTheme": "No hay fondos en este tema.",
@@ -1031,6 +1035,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Caricamento...",
+    "generatingWorksheet": "Generazione del foglio di lavoro...",
     "loadingBorders": "Caricamento cornici {theme}...",
     "loadingBackgrounds": "Caricamento sfondi {theme}...",
     "noBackgroundsInTheme": "Nessuno sfondo in questo tema.",
@@ -1236,6 +1241,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Carregando...",
+    "generatingWorksheet": "Gerando folha de trabalho...",
     "loadingBorders": "Carregando molduras de {theme}...",
     "loadingBackgrounds": "Carregando fundos de {theme}...",
     "noBackgroundsInTheme": "Nenhum fundo neste tema.",
@@ -1441,6 +1447,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Laden...",
+    "generatingWorksheet": "Werkblad genereren...",
     "loadingBorders": "{theme}-randen laden...",
     "loadingBackgrounds": "{theme}-achtergronden laden...",
     "noBackgroundsInTheme": "Geen achtergronden in dit thema.",
@@ -1646,6 +1653,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Laddar...",
+    "generatingWorksheet": "Genererar arbetsblad...",
     "loadingBorders": "Laddar {theme}-ramar...",
     "loadingBackgrounds": "Laddar {theme}-bakgrunder...",
     "noBackgroundsInTheme": "Inga bakgrunder i detta tema.",
@@ -1851,6 +1859,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Indlæser...",
+    "generatingWorksheet": "Genererer arbejdsark...",
     "loadingBorders": "Indlæser {theme}-rammer...",
     "loadingBackgrounds": "Indlæser {theme}-baggrunde...",
     "noBackgroundsInTheme": "Ingen baggrunde i dette tema.",
@@ -2056,6 +2065,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Laster...",
+    "generatingWorksheet": "Genererer arbeidsark...",
     "loadingBorders": "Laster {theme}-rammer...",
     "loadingBackgrounds": "Laster {theme}-bakgrunner...",
     "noBackgroundsInTheme": "Ingen bakgrunner i dette temaet.",
@@ -2261,6 +2271,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Ladataan...",
+    "generatingWorksheet": "Luodaan työarkkia...",
     "loadingBorders": "Ladataan {theme}-reunuksia...",
     "loadingBackgrounds": "Ladataan {theme}-taustoja...",
     "noBackgroundsInTheme": "Ei taustoja tässä teemassa.",

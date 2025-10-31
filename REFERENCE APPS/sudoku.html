@@ -1381,7 +1381,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
         loadThemes();
 
-        // Initialize BulletproofLoader for border/background themes
+        // Generate initial worksheet immediately (don't wait for BulletproofLoader)
+        generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
+
+        // Initialize BulletproofLoader for border/background themes IN PARALLEL
         (async function() {
             if (window.BulletproofLoader) {
                 await window.BulletproofLoader.init({
@@ -1389,17 +1392,11 @@ document.addEventListener("DOMContentLoaded", function() {
                     backgroundSelect: backgroundThemeSelect,
                     locale: currentLocale  // Pass the current locale explicitly
                 });
-
-                // Generate initial default worksheet after everything is loaded
-                await generateInitialWorksheet();
             } else {
                 // Fallback to regular loading - only if BulletproofLoader not available
                 console.warn('BulletproofLoader not available, using fallback');
                 loadBorderThemes();
                 loadBackgroundThemes();
-
-                // Still try to generate initial worksheet
-                generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
             }
         })();
 
@@ -2001,20 +1998,17 @@ document.addEventListener("DOMContentLoaded", function() {
     // --- Initial Worksheet Generation ---
     async function generateInitialWorksheet() {
         try {
-            // Wait for themes to be loaded
+            // Wait for themes to be loaded (reduced polling interval for faster initialization)
             await new Promise(resolve => {
                 const checkThemes = () => {
                     if (worksheetThemeSelect && worksheetThemeSelect.options.length > 1) {
                         resolve();
                     } else {
-                        setTimeout(checkThemes, 100);
+                        setTimeout(checkThemes, 50);
                     }
                 };
                 checkThemes();
             });
-
-            // Add a small delay to ensure everything is fully initialized
-            await new Promise(resolve => setTimeout(resolve, 300));
 
             // Set default values: Animals theme, Letter portrait, Easy (4 blanks)
             worksheetThemeSelect.value = 'animals';

@@ -1161,7 +1161,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const allToolbarButtons = objectContextToolbar.querySelectorAll('.context-btn');
 
 
-    function initializeApp() {
+    async function initializeApp() {
         worksheetCanvas = initializeCanvas('worksheetCanvas');
         solutionCanvas = initializeCanvas('solutionCanvas');
         setupCanvasEventListeners(worksheetCanvas);
@@ -1169,7 +1169,7 @@ document.addEventListener('DOMContentLoaded', function() {
         updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
         setupEventListeners();
         updateZoomDisplay(); // Initialize zoom display to 100%
-        initializeImageLibrary();
+        await initializeImageLibrary(); // FIXED: Await theme loading to prevent blank page
         loadBorderThemes();
         loadBackgroundThemes(); // ** ADDED **
         updateSelectedImagesUI();
@@ -1882,20 +1882,23 @@ document.addEventListener('DOMContentLoaded', function() {
     // --- Initial Worksheet Generation ---
     async function generateInitialWorksheet() {
         try {
-            // Wait for themes to be loaded
-            await new Promise(resolve => {
-                const checkThemes = () => {
-                    if (worksheetThemeSelect && worksheetThemeSelect.options.length > 1) {
-                        resolve();
-                    } else {
-                        setTimeout(checkThemes, 100);
-                    }
-                };
-                checkThemes();
-            });
+            // FIXED: Themes are now properly awaited in initializeApp(), no need for polling
+            // Safety check: themes should already be loaded
+            if (!worksheetThemeSelect || worksheetThemeSelect.options.length <= 1) {
+                console.warn('Themes not loaded, waiting...');
+                await new Promise(resolve => {
+                    const checkThemes = () => {
+                        if (worksheetThemeSelect && worksheetThemeSelect.options.length > 1) {
+                            resolve();
+                        } else {
+                            setTimeout(checkThemes, 50);
+                        }
+                    };
+                    checkThemes();
+                });
+            }
 
-            // Add a small delay to ensure everything is fully initialized
-            await new Promise(resolve => setTimeout(resolve, 300));
+            // FIXED: Removed 300ms artificial delay - themes are already loaded
 
             // Set default values: Animals theme (random), Letter landscape
             worksheetThemeSelect.value = 'animals'; // This will trigger random selection from animals theme
@@ -3598,12 +3601,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // --- START THE APP ---
-    initializeApp();
-
-    // Generate initial default worksheet after app is initialized
-    setTimeout(() => {
-        generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
-    }, 500);
+    // FIXED: Properly await initialization and generate worksheet immediately
+    (async () => {
+        await initializeApp();
+        // Generate initial worksheet immediately after initialization completes
+        await generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
+    })();
 });
 </script>
 

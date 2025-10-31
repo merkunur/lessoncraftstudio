@@ -2209,11 +2209,11 @@ document.addEventListener("DOMContentLoaded", function() {
             });
     }
 
-    async function loadThemeImages() {
+    async function loadThemeImages(renderDict = true) {
         const theme = themeSelect.value;
         if (theme === 'all') {
             currentThemeImages = [];
-            await renderDictionary();
+            if (renderDict) await renderDictionary();
             return;
         }
 
@@ -2227,7 +2227,14 @@ document.addEventListener("DOMContentLoaded", function() {
             showMessage(error.message, 'error');
             currentThemeImages = [];
         }
-        await renderDictionary();
+
+        // Only render dictionary if explicitly requested
+        if (renderDict) {
+            await renderDictionary();
+        } else {
+            // Show a placeholder message indicating images are loaded but not displayed yet
+            dictionaryDiv.innerHTML = `<p class='dictionary-message'>${t('imagesLoaded')}</p>`;
+        }
     }
 
     async function renderDictionary() {
@@ -2567,8 +2574,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const [w, h] = pageSizeSelect.value.split('x').map(Number);
             updateCanvasDisplayDimensions(w, h);
 
-            // Load theme images
-            await loadThemeImages();
+            // Load theme images (skip dictionary rendering for faster first load)
+            await loadThemeImages(false);
 
             // Select 4 random images from the theme
             if (currentThemeImages.length >= 4) {
@@ -2590,6 +2597,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 // Generate worksheet
                 await generateWorksheet();
+
+                // Render dictionary after worksheet is ready (deferred for better performance)
+                setTimeout(() => renderDictionary(), 100);
             }
 
         } catch (error) {
@@ -2868,9 +2878,134 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         }
 
+        // Pluralization function for grammatically correct questions
+        const pluralize = (word, locale) => {
+            if (!word) return word;
+            const lowerWord = word.toLowerCase();
+
+            // Common irregular plurals across languages (already plural or special)
+            const alreadyPlural = ['scissors', 'glasses', 'pants', 'trousers', 'jeans', 'shorts', 'clothes',
+                                   'sheep', 'fish', 'deer', 'moose', 'bison', 'salmon', 'trout',
+                                   'scissors', 'binoculars', 'pliers', 'tweezers'];
+            if (alreadyPlural.includes(lowerWord)) {
+                return word; // Already plural or invariant
+            }
+
+            if (locale === 'en') {
+                // English irregular plurals
+                const irregulars = {
+                    'child': 'children', 'person': 'people', 'man': 'men', 'woman': 'women',
+                    'tooth': 'teeth', 'foot': 'feet', 'mouse': 'mice', 'goose': 'geese',
+                    'knife': 'knives', 'wife': 'wives', 'life': 'lives', 'leaf': 'leaves',
+                    'wolf': 'wolves', 'half': 'halves', 'loaf': 'loaves', 'shelf': 'shelves',
+                    'calf': 'calves', 'self': 'selves', 'elf': 'elves', 'thief': 'thieves'
+                };
+
+                if (irregulars[lowerWord]) {
+                    return word.charAt(0) === word.charAt(0).toUpperCase() ?
+                           irregulars[lowerWord].charAt(0).toUpperCase() + irregulars[lowerWord].slice(1) :
+                           irregulars[lowerWord];
+                }
+
+                // English regular pluralization rules
+                if (lowerWord.endsWith('y') && !/[aeiou]y$/.test(lowerWord)) {
+                    return word.slice(0, -1) + 'ies'; // baby -> babies
+                }
+                if (lowerWord.endsWith('s') || lowerWord.endsWith('ss') || lowerWord.endsWith('x') ||
+                    lowerWord.endsWith('ch') || lowerWord.endsWith('sh') || lowerWord.endsWith('z')) {
+                    return word + 'es'; // box -> boxes, brush -> brushes
+                }
+                if (lowerWord.endsWith('o') && !/[aeiou]o$/.test(lowerWord)) {
+                    return word + 'es'; // tomato -> tomatoes
+                }
+                return word + 's'; // Default: add 's'
+            }
+
+            if (locale === 'de') {
+                // German: Most nouns add 'n', 'en', 'e', or 's', but we'll use a simple approach
+                // For simplicity, we'll just add 'n' or 's' based on ending
+                if (lowerWord.endsWith('e')) {
+                    return word + 'n'; // Katze -> Katzen
+                }
+                if (lowerWord.endsWith('el') || lowerWord.endsWith('er')) {
+                    return word; // Often unchanged: Löffel -> Löffel
+                }
+                return word + 'e'; // Default: add 'e' (Hund -> Hunde)
+            }
+
+            if (locale === 'fr') {
+                // French: Generally add 's', except for words ending in 'eau', 'au', 'eu' (add 'x')
+                if (lowerWord.endsWith('eau') || lowerWord.endsWith('au') || lowerWord.endsWith('eu')) {
+                    return word + 'x'; // oiseau -> oiseaux
+                }
+                if (lowerWord.endsWith('al')) {
+                    return word.slice(0, -2) + 'aux'; // animal -> animaux
+                }
+                if (lowerWord.endsWith('s') || lowerWord.endsWith('x') || lowerWord.endsWith('z')) {
+                    return word; // Already plural or invariant
+                }
+                return word + 's'; // Default: add 's'
+            }
+
+            if (locale === 'es' || locale === 'pt') {
+                // Spanish & Portuguese: Add 's' or 'es'
+                if (lowerWord.endsWith('z')) {
+                    return word.slice(0, -1) + 'ces'; // pez -> peces, luz -> luces
+                }
+                if (/[aeiou]$/.test(lowerWord)) {
+                    return word + 's'; // gato -> gatos
+                }
+                return word + 'es'; // león -> leones
+            }
+
+            if (locale === 'it') {
+                // Italian: Change ending vowel based on gender
+                if (lowerWord.endsWith('o')) {
+                    return word.slice(0, -1) + 'i'; // gatto -> gatti
+                }
+                if (lowerWord.endsWith('a')) {
+                    return word.slice(0, -1) + 'e'; // casa -> case
+                }
+                if (lowerWord.endsWith('e')) {
+                    return word.slice(0, -1) + 'i'; // cane -> cani
+                }
+                return word + 's'; // Default fallback
+            }
+
+            if (locale === 'nl') {
+                // Dutch: Add 'en' or 's'
+                if (lowerWord.endsWith('e')) {
+                    return word + 'n'; // kat -> katten
+                }
+                return word + 'en'; // hond -> honden
+            }
+
+            if (locale === 'sv' || locale === 'da' || locale === 'no') {
+                // Swedish, Danish, Norwegian: Often add 'er', 'ar', or 'or'
+                // Simplified: add 'er' for most
+                if (lowerWord.endsWith('e')) {
+                    return word + 'r'; // katte -> katter
+                }
+                return word + 'er'; // Default: add 'er'
+            }
+
+            if (locale === 'fi') {
+                // Finnish: Add 't' to nominative plural (simplified)
+                if (lowerWord.endsWith('i')) {
+                    return word + 't'; // kissa -> kissat
+                }
+                return word + 't'; // Default: add 't'
+            }
+
+            // Fallback: add 's' for unhandled cases
+            return word + 's';
+        };
+
         // Task-specific instruction builder (kept for dynamic instructions)
         const getTaskInstruction = (type, items) => {
-            const itemsList = items.join(', ');
+            // Pluralize each item before joining
+            const pluralizedItems = items.map(item => pluralize(item, currentLocale));
+            const itemsList = pluralizedItems.join(', ');
             const instructions = {
                 en: {
                     circle: `Circle all the ${itemsList}`,

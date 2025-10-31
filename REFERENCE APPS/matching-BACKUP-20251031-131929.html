@@ -2612,6 +2612,9 @@
                     checkThemes();
                 });
 
+                // Add a small delay to ensure everything is fully initialized
+                await new Promise(resolve => setTimeout(resolve, 300));
+
                 // Set default values: Animals theme, Letter portrait, Include numbers, Show bullets, 6 pairs, Image-Letter mode, Random from theme
                 letterThemeEl.value = 'animals';
                 pageSizeSelect.value = '612x792'; // Letter portrait

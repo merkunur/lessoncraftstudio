@@ -2079,6 +2079,36 @@
                 showMessage(t('missingpieces.msg.themes.error'), 'error');
             }
         }
+
+        // --- PERFORMANCE OPTIMIZATION: Preload Default Theme ---
+        // Preload animals theme and images in background for instant first generation
+        // This eliminates the network delay on first worksheet load
+        async function preloadDefaultTheme() {
+            try {
+                console.log('🚀 Preloading default theme for instant first generation...');
+                const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                if (response.ok) {
+                    const data = await response.json();
+                    const images = data.images || data;
+
+                    // Store images in availableImages for instant access
+                    availableImages = images;
+
+                    // Preload first 5 images in browser cache for instant rendering
+                    const imagesToPreload = images.slice(0, 5);
+                    imagesToPreload.forEach(imgData => {
+                        const img = new Image();
+                        img.src = imgData.path;
+                    });
+
+                    console.log('✅ Default theme preloaded successfully:', images.length, 'images cached');
+                }
+            } catch (error) {
+                // Fail silently - not critical, first load will just be slightly slower
+                console.warn('Preload failed (non-critical):', error);
+            }
+        }
+
         async function loadDictionary() {
             const theme = themeSelect.value;
             const query = searchInput.value.trim().toLowerCase();
@@ -3533,21 +3563,9 @@ async function downloadPDF(canvasToExport, filename) {
         // --- INITIAL WORKSHEET GENERATION ---
         async function generateInitialWorksheet() {
             try {
-                console.log('Starting initial worksheet generation...');
+                console.log('✨ Starting optimized initial worksheet generation...');
 
-                // Wait for themes to load with polling
-                let attempts = 0;
-                const maxAttempts = 50; // 5 seconds max wait time
-
-                while (themeSelect.options.length <= 1 && attempts < maxAttempts) {
-                    await new Promise(resolve => setTimeout(resolve, 100));
-                    attempts++;
-                }
-
-                if (themeSelect.options.length <= 1) {
-                    console.error('Themes failed to load in time');
-                    return;
-                }
+                // Images already preloaded by preloadDefaultTheme() - no waiting needed!
 
                 // Set page size to Letter portrait (612x792)
                 pageSizeSelect.value = '612x792';
@@ -3560,40 +3578,25 @@ async function downloadPDF(canvasToExport, filename) {
                 // Set animals theme
                 themeSelect.value = 'animals';
 
-                // Load dictionary for animals theme
-                await loadDictionary();
-
-                // Wait for images to render in DOM
-                attempts = 0;
-                while (dictionaryDiv.querySelectorAll('.dictionary-item').length === 0 && attempts < maxAttempts) {
-                    await new Promise(resolve => setTimeout(resolve, 100));
-                    attempts++;
-                }
-
-                if (dictionaryDiv.querySelectorAll('.dictionary-item').length === 0) {
-                    console.error('Images failed to load in time');
-                    return;
-                }
-
-                // Select a random image from the loaded images
-                const dictionaryItems = dictionaryDiv.querySelectorAll('.dictionary-item');
-                const randomIndex = Math.floor(Math.random() * dictionaryItems.length);
-                const randomItem = dictionaryItems[randomIndex];
-                const imgElement = randomItem.querySelector('img');
-
-                if (imgElement) {
-                    // Get image data and select it
-                    const imagePath = imgElement.src;
-                    const imageName = randomItem.querySelector('span')?.textContent || 'image';
+                // Use preloaded images - instant access!
+                if (availableImages.length > 0) {
+                    // Select a random image from the preloaded images
+                    const randomIndex = Math.floor(Math.random() * availableImages.length);
+                    const randomImage = availableImages[randomIndex];
 
                     // Select the image for initial generation (but don't mark as manual)
                     selectedImages = [{
-                        path: imagePath,
-                        word: imageName,
-                        name: imageName
+                        path: randomImage.path,
+                        word: randomImage.name || randomImage.word,
+                        name: randomImage.name || randomImage.word
                     }];
                     renderSelectedImages();
                     isManualSelection = false; // CRITICAL: Mark as auto-selection so future generations randomize
+                } else {
+                    console.warn('No preloaded images available, falling back to loading dictionary');
+                    // Fallback: Load dictionary if preload failed
+                    await loadDictionary();
+                    await new Promise(resolve => setTimeout(resolve, 500));
                 }
 
                 // Set parameters: Missing Pieces: 1, Solution Options: 3, Piece Shape: square
@@ -3601,13 +3604,10 @@ async function downloadPDF(canvasToExport, filename) {
                 solutionOptionsInput.value = 3;
                 pieceShapeSelect.value = 'square';
 
-                // Give a small delay before generating
-                await new Promise(resolve => setTimeout(resolve, 200));
-
-                // Generate the worksheet
+                // Generate the worksheet immediately - images already cached!
                 await handleGenerateWorksheet();
 
-                console.log('Initial worksheet generated successfully (auto-selection mode active)');
+                console.log('✅ Initial worksheet generated successfully (optimized, auto-selection mode active)');
             } catch (error) {
                 console.error('Error generating initial worksheet:', error);
             }
@@ -3719,43 +3719,55 @@ async function downloadPDF(canvasToExport, filename) {
             console.log('[Missing Pieces] Translations applied successfully');
         }
 
-        // Apply translations after a short delay to ensure translations are loaded
-        setTimeout(function() {
-            applyTranslations();
+        // --- OPTIMIZED INITIALIZATION FUNCTION ---
+        // Structured async initialization for optimal first-load performance
+        async function init() {
+            try {
+                console.log('🚀 Initializing Missing Pieces (Optimized)...');
 
-            // Also apply unified translations if available
-            if (typeof translatePage !== 'undefined') {
-                translatePage();
+                // Apply translations immediately - no delay needed
+                applyTranslations();
+                if (typeof translatePage !== 'undefined') {
+                    translatePage();
+                }
+
+                // Load themes
+                await loadThemes();
+
+                // Initialize BulletproofLoader for borders and backgrounds
+                if (window.BulletproofLoader) {
+                    await window.BulletproofLoader.init({
+                        borderSelect: borderThemeSelect,
+                        backgroundSelect: backgroundThemeSelect
+                    });
+                    console.log('✅ Borders and backgrounds loaded');
+                } else {
+                    // Fallback if BulletproofLoader not available
+                    loadBorderThemes();
+                    loadBackgroundThemes();
+                }
+
+                // CRITICAL: Preload default theme BEFORE generating worksheet
+                // This eliminates the 1-2 second network delay on first load
+                await preloadDefaultTheme();
+
+                // Initialize UI state
+                handleSelectionCleared(null, getActiveCanvas());
+                accordionButtons[0].click();
+
+                // Generate initial worksheet - images already preloaded!
+                await generateInitialWorksheet();
+
+                console.log('✅ Missing Pieces initialized successfully (optimized)');
+            } catch (error) {
+                console.error('❌ Initialization failed:', error);
             }
-        }, 100);
-        loadThemes();
-
-        // Initialize BulletproofLoader for borders and backgrounds
-        if (window.BulletproofLoader) {
-            window.BulletproofLoader.init({
-                borderSelect: borderThemeSelect,
-                backgroundSelect: backgroundThemeSelect
-            }).then(() => {
-                console.log('BulletproofLoader initialized');
-            });
-        } else {
-            // Fallback if BulletproofLoader not available
-            loadBorderThemes();
-            loadBackgroundThemes();
         }
 
-        // Load dictionary after themes are loaded
-        setTimeout(() => {
-            if (themeSelect && themeSelect.value === 'all') {
-                // Load animals theme by default
-                loadDictionary();
-            }
-        }, 500);
-        handleSelectionCleared(null, getActiveCanvas());
-        accordionButtons[0].click();
-
-        // Generate initial worksheet after a delay to allow UI initialization
-        setTimeout(() => generateInitialWorksheet(), 1000);
+        // Call init immediately on DOMContentLoaded - no artificial delays!
+        init().catch(err => {
+            console.error('Failed to initialize Missing Pieces:', err);
+        });
     });
   </script>
 </body>

@@ -261,7 +261,7 @@ export default function DashboardPage() {
                 className="flex items-center space-x-2 px-4 py-2 text-gray-600 hover:text-gray-900 hover:bg-gray-100 rounded-lg transition-all duration-200"
               >
                 <MessageSquare className="h-4 w-4" />
-                <span className="font-medium">Support</span>
+                <span className="font-medium">{t('header.support')}</span>
               </Link>
               <button
                 onClick={handleLogout}

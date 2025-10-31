@@ -318,7 +318,7 @@
           "1": "Diskret vandmærke på arbejdsark",
           "2": "Basis billedbibliotek",
           "3": "Standard skabeloner",
-          "4": "Community support",
+          "4": "Community-support",
           "5": "Kun personlig brug"
         },
         "limitations": {
@@ -343,7 +343,7 @@
           "2": "Komplet billedbibliotek (over 100 temaer)",
           "3": "Alle premium skabeloner",
           "4": "POD kommerciel licens",
-          "5": "Email support",
+          "5": "E-mail-support",
           "6": "Eksporter til PDF og JPEG i høj kvalitet"
         },
         "apps": {
@@ -370,7 +370,7 @@
         "features": {
           "0": "Alle 33 generatorer tilgængelige",
           "1": "Alt fra Standard inkluderet",
-          "2": "Prioriteret email support",
+          "2": "Prioriteret e-mail-support",
           "3": "Tidlig adgang til nye funktioner",
           "4": "Avancerede tilpasningsmuligheder",
           "5": "Løbende opdateringer"
@@ -830,6 +830,7 @@
       "welcomeFallback": "Velkommen tilbage!",
       "subtitle": "Lad os skabe noget fantastisk i dag",
       "billing": "Fakturering",
+      "support": "Support",
       "signOut": "Log ud"
     },
     "stats": {
@@ -1149,7 +1150,7 @@
           "Uden vandmærke",
           "PDF-downloads i høj kvalitet",
           "Premium-skabeloner",
-          "E-mail support"
+          "E-mail-support"
         ]
       },
       "FULL": {

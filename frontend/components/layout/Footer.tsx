@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
+import { useTranslations } from 'next-intl';
 
 interface FooterContent {
   companyName?: string;
@@ -41,6 +42,7 @@ export function Footer() {
   const locale = pathname.split('/')[1] || 'en';
   const [footerContent, setFooterContent] = useState<FooterContent>({});
   const [isLoading, setIsLoading] = useState(true);
+  const t = useTranslations('footer');
 
   useEffect(() => {
     fetchFooterContent();
@@ -69,27 +71,27 @@ export function Footer() {
 
   const sections = footerContent?.sections || {
     product: {
-      title: 'Product',
+      title: t('product.title'),
       links: {
-        apps: 'Apps',
-        pricing: 'Pricing',
-        blog: 'Blog'
+        apps: t('product.apps'),
+        pricing: t('product.pricing'),
+        blog: t('product.blog')
       }
     },
     support: {
-      title: 'Support',
+      title: t('support.title'),
       links: {
-        helpCenter: 'Help Center',
-        contact: 'Contact',
-        faq: 'FAQ'
+        helpCenter: t('support.helpCenter'),
+        contact: t('support.contact'),
+        faq: t('support.faq')
       }
     },
     legal: {
-      title: 'Legal',
+      title: t('legal.title'),
       links: {
-        terms: 'Terms of Service',
-        privacy: 'Privacy Policy',
-        license: 'License Terms'
+        terms: t('legal.terms'),
+        privacy: t('legal.privacy'),
+        license: t('legal.license')
       }
     }
   };
@@ -165,7 +167,7 @@ export function Footer() {
           {sections.support && (
             <div>
               <h4 className="text-white font-semibold mb-4">
-                {sections.support.title || 'Support'}
+                {sections.support.title || t('support.title')}
               </h4>
               <ul className="space-y-2 text-sm">
                 {sections.support.links?.helpCenter && (

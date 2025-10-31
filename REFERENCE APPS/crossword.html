@@ -1260,7 +1260,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const allToolbarButtons = objectContextToolbar.querySelectorAll('.context-btn');
 
     // --- INITIALIZATION ---
-    function init() {
+    async function init() {
         setupAccordion();
         setupDropdowns();
         setupTabs();
@@ -1311,87 +1311,74 @@ document.addEventListener("DOMContentLoaded", function() {
                 window.history.replaceState({}, '', url);
             });
         }
-        
-        // Apply translations on load - with a small delay to ensure everything is loaded
-        setTimeout(() => {
-            applyTranslations();
-            console.log('Applied translations for locale:', currentLocale);
 
-            // Load themes AFTER translations are applied
-            loadThemes().then(() => {
-                renderDictionary(); // Load images after themes are loaded
-            });
+        // Apply translations immediately (no delay needed)
+        applyTranslations();
+        console.log('Applied translations for locale:', currentLocale);
 
-            // Generate initial worksheet with default settings
-            async function generateInitialWorksheet() {
-                try {
-                    console.log('Starting initial worksheet generation...');
+        // Load themes with proper async/await
+        await loadThemes();
+        console.log('Themes loaded successfully');
 
-                    // Wait for themes to be loaded by polling
-                    let attempts = 0;
-                    const maxAttempts = 30;
-                    while (worksheetThemeSelect.options.length <= 1 && attempts < maxAttempts) {
-                        await new Promise(resolve => setTimeout(resolve, 100));
-                        attempts++;
-                    }
+        // Generate initial worksheet with default settings
+        async function generateInitialWorksheet() {
+            try {
+                console.log('Starting initial worksheet generation...');
 
-                    if (worksheetThemeSelect.options.length <= 1) {
-                        console.error('Failed to load themes for initial worksheet generation');
-                        return;
-                    }
-
-                    console.log('Themes loaded, configuring worksheet...');
-
-                    // Set page size to Letter portrait
-                    pageSizeSelect.value = '612x792';
-                    const [w, h] = pageSizeSelect.value.split('x').map(Number);
-                    updateCanvasDisplayDimensions(w, h);
-
-                    // Set theme to animals
-                    worksheetThemeSelect.value = 'animals';
-
-                    console.log('Configuration complete, generating worksheet...');
-
-                    // Wait a bit for everything to settle
-                    await new Promise(resolve => setTimeout(resolve, 500));
-
-                    // Trigger worksheet generation
-                    await handleGenerateWorksheet();
-
-                    console.log('Initial worksheet generated successfully');
-                } catch (error) {
-                    console.error('Error generating initial worksheet:', error);
+                // Themes are already loaded via await above - no polling needed
+                if (worksheetThemeSelect.options.length <= 1) {
+                    console.error('Failed to load themes for initial worksheet generation');
+                    return;
                 }
-            }
 
-            // Initialize BulletproofLoader AFTER translations are applied
-            if (window.BulletproofLoader) {
-                window.BulletproofLoader.init({
+                console.log('Themes loaded, configuring worksheet...');
+
+                // Set page size to Letter portrait
+                pageSizeSelect.value = '612x792';
+                const [w, h] = pageSizeSelect.value.split('x').map(Number);
+                updateCanvasDisplayDimensions(w, h);
+
+                // Set theme to animals
+                worksheetThemeSelect.value = 'animals';
+
+                console.log('Configuration complete, generating worksheet...');
+
+                // Generate immediately (no artificial delays)
+                await handleGenerateWorksheet();
+
+                console.log('Initial worksheet generated successfully');
+            } catch (error) {
+                console.error('Error generating initial worksheet:', error);
+            }
+        }
+
+        // Initialize BulletproofLoader with proper async/await
+        if (window.BulletproofLoader) {
+            try {
+                await window.BulletproofLoader.init({
                     borderSelect: borderThemeSelect,
                     backgroundSelect: backgroundThemeSelect,
                     locale: currentLocale
-                }).then(() => {
-                    console.log('BulletproofLoader initialized successfully');
-                    // Re-apply translations after BulletproofLoader modifies dropdowns
-                    setTimeout(() => applyTranslations(), 200);
-                    // Generate initial worksheet after BulletproofLoader initialization
-                    setTimeout(() => generateInitialWorksheet(), 1000);
-                }).catch(error => {
-                    console.error('BulletproofLoader init failed:', error);
-                    // Fallback to manual loading only on error
-                    loadBorderThemes();
-                    loadBackgroundThemes();
-                    // Still generate initial worksheet even if BulletproofLoader fails
-                    setTimeout(() => generateInitialWorksheet(), 1000);
                 });
-            } else {
-                // Fallback if BulletproofLoader not available
+                console.log('BulletproofLoader initialized successfully');
+                // Generate initial worksheet immediately after BulletproofLoader
+                await generateInitialWorksheet();
+            } catch (error) {
+                console.error('BulletproofLoader init failed:', error);
+                // Fallback to manual loading on error
                 loadBorderThemes();
                 loadBackgroundThemes();
-                // Generate initial worksheet in fallback scenario
-                setTimeout(() => generateInitialWorksheet(), 1000);
+                // Still generate initial worksheet
+                await generateInitialWorksheet();
             }
-        }, 100);
+        } else {
+            // Fallback if BulletproofLoader not available
+            loadBorderThemes();
+            loadBackgroundThemes();
+            // Generate initial worksheet
+            await generateInitialWorksheet();
+        }
+
         renderUploadedImages();
         showMessage(getTranslation('crossword.help.select.images', currentLocale), 'info', 5000);
     }
@@ -3645,13 +3632,12 @@ async function downloadPDF(canvasToExport, filename) {
                 }
             });
         }
-        
+
         canvas.renderAll();
         closeAllPopovers();
     }
 
-    init();
-    // Apply translations function
+    // Apply translations function (MUST be defined before init() call)
     function applyTranslations() {
         console.log('=== applyTranslations called ===');
         console.log('currentLocale:', currentLocale);
@@ -3720,6 +3706,9 @@ async function downloadPDF(canvasToExport, filename) {
             }
         });
     }
+
+    // Start initialization (async function - runs in background)
+    init();
 
     // Global getTranslation function for dynamic content
     function getTranslation(key, locale) {

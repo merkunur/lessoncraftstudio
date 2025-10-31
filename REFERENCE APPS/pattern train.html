@@ -3978,20 +3978,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
         try {
             console.log('Starting initial worksheet generation...');
 
-            // Wait for themes to load with polling
-            let attempts = 0;
-            const maxAttempts = 50; // 5 seconds max wait time
-
-            while (worksheetThemeSelect.options.length <= 1 && attempts < maxAttempts) {
-                await new Promise(resolve => setTimeout(resolve, 100));
-                attempts++;
-            }
-
-            if (worksheetThemeSelect.options.length <= 1) {
-                console.error('Themes failed to load in time');
-                return;
-            }
-
+            // Themes are already loaded during initializeApp - no need to poll
             // Set page size to Letter portrait (612x792)
             pageSizeSelect.value = '612x792';
             const [width, height] = pageSizeSelect.value.split('x').map(Number);
@@ -4017,9 +4004,6 @@ async function downloadPDF(canvasToExport, baseFilename) {
 
             // Set Clues to Show to 5
             document.getElementById('clueCount').value = 5;
-
-            // Give a small delay before generating
-            await new Promise(resolve => setTimeout(resolve, 200));
 
             // Check if generate button is enabled and click it
             if (!generateWorksheetBtn.disabled) {
@@ -4100,7 +4084,7 @@ async function downloadPDF(canvasToExport, baseFilename) {
         }
 
         await loadTemplates();
-        
+
         patternSelect.dispatchEvent(new Event('change'));
         renderUploadedImages();
         updateGenerateButtonState();
@@ -4109,10 +4093,17 @@ async function downloadPDF(canvasToExport, baseFilename) {
         backgroundOpacityInput.disabled = true;
         document.querySelector('.tab-button[data-tab="worksheetTab"]').click();
 
-        // Generate initial worksheet after a delay to allow UI initialization
-        setTimeout(() => generateInitialWorksheet(), 1000);
+        // Generate initial worksheet immediately - themes are already loaded
+        await generateInitialWorksheet();
     }
-    initializeApp();
+
+    // Wrap initialization in DOMContentLoaded for better performance
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initializeApp);
+    } else {
+        // DOM already loaded
+        initializeApp();
+    }
   </script>
 </body>
 </html>

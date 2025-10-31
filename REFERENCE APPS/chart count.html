@@ -1623,6 +1623,31 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // --- MODIFIED IMAGE LIBRARY LOGIC ---
+
+    // ✅ PERFORMANCE OPTIMIZATION: Preload default theme
+    async function preloadDefaultTheme() {
+        // Silently preload animals theme and its images in background
+        try {
+            const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+            if (response.ok) {
+                const data = await response.json();
+                const images = data.images || data;
+
+                // Preload first 10 actual images in browser cache for instant generation
+                const imagesToPreload = images.slice(0, 10);
+                imagesToPreload.forEach(imgData => {
+                    const img = new Image();
+                    img.src = imgData.path;
+                });
+
+                console.log('✅ Preloaded animals theme:', imagesToPreload.length, 'images cached');
+            }
+        } catch (error) {
+            // Fail silently - not critical, just optimization
+            console.log('ℹ️ Theme preload skipped (not critical)');
+        }
+    }
+
     async function initializeImageLibrary() {
         showMessage('info', t('chartcount.msg.loading.themes'));
         try {
@@ -1654,6 +1679,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 themeSelect.value = 'all';
             }
             await renderDictionary();
+
+            // ✅ PERFORMANCE: Preload default theme in background for faster initial generation
+            preloadDefaultTheme(); // No await - run in background
         } catch (error) {
             console.error("Failed to initialize image library:", error);
             showMessage('error', t('chartcount.msg.library.error'));

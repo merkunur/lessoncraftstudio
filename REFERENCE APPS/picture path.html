@@ -1554,6 +1554,7 @@ document.addEventListener("DOMContentLoaded", function() {
    ********************************/
   let allImages = []; // Stores images for the currently selected theme
   let uploadedImages = []; // Stores user-uploaded images for current session
+  let allImagesCache = {}; // PERFORMANCE: Cache preloaded themes to avoid refetching
   let selectedStartImage = null;
   let selectedEndImage = null;
   let selectedPathImages = [];
@@ -6961,6 +6962,66 @@ async function downloadPDF(canvasToExport, fileName) {
       applyTranslations();
   }
 
+  // PERFORMANCE: Preload default themes for instant first generation
+  async function preloadDefaultTheme() {
+    try {
+      console.log('🚀 Preloading default themes for instant first load...');
+
+      // Preload Animals theme (for Start/End images)
+      const animalsResponse = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+      if (animalsResponse.ok) {
+        const animalsData = await animalsResponse.json();
+        const animalsImages = animalsData.images || animalsData;
+        const animalsCacheKey = `animals-${currentLocale}`;
+        allImagesCache[animalsCacheKey] = animalsImages;
+
+        // Preload first 4 animal images in browser cache
+        animalsImages.slice(0, 4).forEach(imgData => {
+          const img = new Image();
+          img.src = imgData.path;
+        });
+        console.log(`✅ Preloaded animals theme (${animalsImages.length} images)`);
+      }
+
+      // Preload Food theme (for Path images)
+      const foodResponse = await fetch(`/api/images?theme=food&locale=${currentLocale}`);
+      if (foodResponse.ok) {
+        const foodData = await foodResponse.json();
+        const foodImages = foodData.images || foodData;
+        const foodCacheKey = `food-${currentLocale}`;
+        allImagesCache[foodCacheKey] = foodImages;
+
+        // Preload first 4 food images in browser cache
+        foodImages.slice(0, 4).forEach(imgData => {
+          const img = new Image();
+          img.src = imgData.path;
+        });
+        console.log(`✅ Preloaded food theme (${foodImages.length} images)`);
+      }
+
+      // Preload Alphabet theme (for Distractor images)
+      const alphabetResponse = await fetch(`/api/images?theme=alphabet&locale=${currentLocale}`);
+      if (alphabetResponse.ok) {
+        const alphabetData = await alphabetResponse.json();
+        const alphabetImages = alphabetData.images || alphabetData;
+        const alphabetCacheKey = `alphabet-${currentLocale}`;
+        allImagesCache[alphabetCacheKey] = alphabetImages;
+
+        // Preload first 6 alphabet images in browser cache
+        alphabetImages.slice(0, 6).forEach(imgData => {
+          const img = new Image();
+          img.src = imgData.path;
+        });
+        console.log(`✅ Preloaded alphabet theme (${alphabetImages.length} images)`);
+      }
+
+      console.log('✅ All default themes preloaded successfully');
+    } catch (error) {
+      // Fail silently - not critical, will fetch on demand if needed
+      console.warn('⚠️ Theme preloading failed (non-critical):', error);
+    }
+  }
+
   async function generateInitialWorksheet() {
     try {
       console.log('Starting initial worksheet generation...');
@@ -6982,12 +7043,26 @@ async function downloadPDF(canvasToExport, fileName) {
       answerKeyCanvas.setDimensions({ width, height });
       await updateCanvasDisplayDimensions(width, height, true); // fromLoad=true for initial setup
 
-      // Helper function to fetch images from a theme
+      // PERFORMANCE: Helper function to fetch images from a theme (uses cache if available)
       async function getThemeImages(themeName) {
+        const cacheKey = `${themeName}-${currentLocale}`;
+
+        // Check cache first - instant if preloaded!
+        if (allImagesCache[cacheKey]) {
+          console.log(`⚡ Using cached ${themeName} theme (instant!)`);
+          return allImagesCache[cacheKey];
+        }
+
+        // Not in cache - fetch from API
+        console.log(`🌐 Fetching ${themeName} theme from API...`);
         const res = await fetch(`/api/images?theme=${encodeURIComponent(themeName)}&locale=${currentLocale}`);
         if (!res.ok) throw new Error(`Failed to load ${themeName} theme`);
         const data = await res.json();
-        return data.images || data;
+        const images = data.images || data;
+
+        // Store in cache for next time
+        allImagesCache[cacheKey] = images;
+        return images;
       }
 
       // Load Animals theme for Start and End images
@@ -7056,7 +7131,11 @@ async function downloadPDF(canvasToExport, fileName) {
       console.warn('⚠️ BulletproofLoader not found');
   }
 
-  setTimeout(() => generateInitialWorksheet(), 1000);
+  // PERFORMANCE: Preload themes then generate instantly (no delay!)
+  (async () => {
+    await preloadDefaultTheme();
+    await generateInitialWorksheet();
+  })();
 });
 </script>
 </body>

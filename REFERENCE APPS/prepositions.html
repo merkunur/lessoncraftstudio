@@ -1192,6 +1192,12 @@
 
             document.querySelector('.tab-button[data-tab="worksheetTab"]').click();
             handleSelectionCleared(null, getActiveCanvas());
+
+            // PERFORMANCE FIX: Preload default theme in background for instant first generation
+            await preloadDefaultTheme();
+
+            // PERFORMANCE FIX: Generate initial worksheet immediately (no setTimeout delay)
+            await generateInitialWorksheet();
         }
         
         function buildPrepositionsChecklist() {
@@ -2517,6 +2523,28 @@
             await renderDictionary('shape');
         }
 
+        // PERFORMANCE FIX: Preload default theme images for instant first generation
+        async function preloadDefaultTheme() {
+            // Silently preload animals theme and its images in background
+            try {
+                const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                if (response.ok) {
+                    const data = await response.json();
+                    // CRITICAL: API returns {images: [...]} not direct array
+                    const images = data.images || data;
+
+                    // Preload first 8 actual images in browser cache
+                    const imagesToPreload = images.slice(0, 8);
+                    imagesToPreload.forEach(imgData => {
+                        const img = new Image();
+                        img.src = imgData.path;
+                    });
+                }
+            } catch (error) {
+                // Fail silently - not critical for functionality
+            }
+        }
+
         function handleItemModeChange() { const isManual = dom.itemThemeSelect.value === 'manual'; dom.itemManualSelectionGroup.style.display = isManual ? 'block' : 'none'; updateGenerateButtonState(); }
         async function handleManualItemThemeChange() { manualSelectItemTheme = dom.themeSelect.value; dom.dictionary.innerHTML = `<p class="dictionary-message">Loading...</p>`; if (manualSelectItemTheme !== 'all') { const response = await fetchFromApi(`/api/images?theme=${encodeURIComponent(manualSelectItemTheme)}&locale=${currentLocale}`, `Failed to load images`); currentItemThemeImages = response.images || response; } await renderDictionary('item'); }
         
@@ -3708,10 +3736,8 @@
                 // Ensure all checkboxes are checked
                 dom.prepositionsGrid.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = true);
 
-                // Wait a bit for UI to update
-                await new Promise(resolve => setTimeout(resolve, 200));
-
-                // Generate worksheet
+                // PERFORMANCE FIX: No need to wait - UI updates automatically
+                // Generate worksheet immediately
                 await generateWorksheet();
 
                 console.log('Initial worksheet generated successfully');
@@ -3720,8 +3746,8 @@
             }
         }
 
-        // Call initial worksheet generation after a delay
-        setTimeout(() => generateInitialWorksheet(), 1000);
+        // PERFORMANCE FIX: generateInitialWorksheet() is now called directly from initializeApp()
+        // No setTimeout wrapper needed - immediate first load!
 
     </script>
 </body>

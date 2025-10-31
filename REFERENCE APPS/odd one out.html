@@ -1520,7 +1520,7 @@
 
               // Wait for themes to load with polling
               let attempts = 0;
-              const maxAttempts = 50; // 5 seconds max wait time
+              const maxAttempts = 20; // 2 seconds max wait time
 
               while (ui.themeSelect.options.length <= 1 && attempts < maxAttempts) {
                   await new Promise(resolve => setTimeout(resolve, 100));
@@ -1562,7 +1562,7 @@
               await loadDictionary();
 
               // Give a small delay before generating
-              await new Promise(resolve => setTimeout(resolve, 200));
+              await new Promise(resolve => setTimeout(resolve, 100));
 
               // Generate the worksheet by calling renderWorksheet
               await renderWorksheet();
@@ -2510,7 +2510,30 @@
               return images;
           } catch (e) { showMessage(t('oddoneout.msg.load.theme.error').replace('{theme}', theme), 'error'); return []; }
       };
-      
+
+      const preloadDefaultTheme = async () => {
+          // Silently preload animals theme and its images in background
+          try {
+              const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+              if (response.ok) {
+                  const data = await response.json();
+                  const images = data.images || data;
+                  imageCache['animals'] = images;
+
+                  // Preload first 8 actual images in browser cache
+                  const imagesToPreload = images.slice(0, 8);
+                  imagesToPreload.forEach(imgData => {
+                      const img = new Image();
+                      img.src = imgData.path;
+                  });
+                  console.log('✅ Preloaded default theme (animals) with', imagesToPreload.length, 'images');
+              }
+          } catch (error) {
+              // Fail silently - not critical
+              console.log('Preload skipped (non-critical):', error.message);
+          }
+      };
+
       const loadDictionary = async () => {
           const mode = ui.modeSelect.value;
           let themeA = ui.themeSelect.value;
@@ -3818,8 +3841,11 @@
         renderPreviews();
         handleSelectionCleared(null, null);
 
-        // Generate initial worksheet after a delay to allow UI initialization
-        setTimeout(() => generateInitialWorksheet(), 1000);
+        // Preload default theme in background for faster first generation
+        await preloadDefaultTheme();
+
+        // Generate initial worksheet immediately
+        await generateInitialWorksheet();
       };
 
       init();

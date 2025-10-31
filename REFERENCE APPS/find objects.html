@@ -1436,7 +1436,7 @@ function updateTranslations() {
                     console.log('Configuration complete, generating worksheet...');
 
                     // Wait a bit more for everything to settle
-                    await new Promise(resolve => setTimeout(resolve, 500));
+                    await new Promise(resolve => setTimeout(resolve, 100));
 
                     // Check if button is enabled before generating
                     if (generateDropdownBtn.disabled) {
@@ -1462,21 +1462,21 @@ function updateTranslations() {
                     console.log('BulletproofLoader initialized successfully');
                     // BulletproofLoader handles theme loading, no need for manual loading
                     // Generate initial worksheet after BulletproofLoader initialization
-                    setTimeout(() => generateInitialWorksheet(), 1000);
+                    setTimeout(() => generateInitialWorksheet(), 0);
                 }).catch(error => {
                     console.error('BulletproofLoader init failed:', error);
                     // Fallback to manual loading only on error
                     loadBorderThemes();
                     loadBackgroundThemes();
                     // Still generate initial worksheet even if BulletproofLoader fails
-                    setTimeout(() => generateInitialWorksheet(), 1000);
+                    setTimeout(() => generateInitialWorksheet(), 0);
                 });
             } else {
                 // Fallback if BulletproofLoader not available
                 loadBorderThemes();
                 loadBackgroundThemes();
                 // Generate initial worksheet in fallback scenario
-                setTimeout(() => generateInitialWorksheet(), 1000);
+                setTimeout(() => generateInitialWorksheet(), 0);
             }
 
             loadDictionary();

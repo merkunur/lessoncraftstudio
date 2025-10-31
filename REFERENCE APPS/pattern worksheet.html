@@ -954,6 +954,7 @@
     let uiLocale = 'en';  // UI language (for interface translations) - from URL parameter
     let currentLocale = 'en';  // Content language (for image library) - can be changed by sidebar selector
     let currentCanvasConfig = { width: 612, height: 792 };
+    let allImagesCache = {}; // Cache for preloaded images to improve performance
 
     // Initialize locale from URL if present
     const urlParams = new URLSearchParams(window.location.search);
@@ -1610,6 +1611,31 @@
 
 
             showMessage(t('pattern.worksheet.msg.cleared'), "success", 2000);
+        }
+
+        async function preloadDefaultTheme() {
+            // Silently preload animals theme and its images in background
+            try {
+                const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                if (response.ok) {
+                    const data = await response.json();
+                    // CRITICAL: API returns {images: [...]} not direct array
+                    const images = data.images || data;
+                    const cacheKey = `animals-${currentLocale}`;
+                    allImagesCache[cacheKey] = images;
+
+                    // Preload first 8 actual images in browser cache
+                    const imagesToPreload = images.slice(0, 8);
+                    imagesToPreload.forEach(imgData => {
+                        const img = new Image();
+                        img.src = imgData.path;
+                    });
+                    console.log('✅ Preloaded animals theme with', imagesToPreload.length, 'images');
+                }
+            } catch (error) {
+                // Fail silently - not critical
+                console.log('⚠️ Preload failed (non-critical):', error.message);
+            }
         }
 
         async function loadDictionaryImages(resetSearch = true) {
@@ -3949,27 +3975,35 @@ async function downloadPDF(canvasToExport, filename = 'download.pdf') {
             }
         }
 
-        initializeApp();
+        // --- ASYNC INITIALIZATION FUNCTION ---
+        async function init() {
+            // Initialize the app first
+            initializeApp();
 
-        // Initialize BulletproofLoader to handle border/background themes
-        // EXACTLY like addition.html and picture path.html do it
-        if (window.BulletproofLoader) {
-            console.log('Initializing BulletproofLoader with locale:', currentLocale);
-
-            window.BulletproofLoader.init({
-                borderSelect: ui.borderThemeSelect,
-                backgroundSelect: ui.backgroundThemeSelect,
-                locale: currentLocale  // EXPLICITLY pass the locale
-            }).then(() => {
+            // Initialize BulletproofLoader to handle border/background themes
+            if (window.BulletproofLoader) {
+                console.log('Initializing BulletproofLoader with locale:', currentLocale);
+                await window.BulletproofLoader.init({
+                    borderSelect: ui.borderThemeSelect,
+                    backgroundSelect: ui.backgroundThemeSelect,
+                    locale: currentLocale  // EXPLICITLY pass the locale
+                });
                 console.log('✅ BulletproofLoader initialized successfully');
-            }).catch(err => {
-                console.error('❌ BulletproofLoader failed:', err);
-            });
-        } else {
-            console.warn('⚠️ BulletproofLoader not found');
+            } else {
+                console.warn('⚠️ BulletproofLoader not found');
+            }
+
+            // Preload default theme in background for instant first generation
+            await preloadDefaultTheme();
+
+            // Generate initial default worksheet after theme is loaded
+            await generateInitialWorksheet();
         }
 
-        setTimeout(() => generateInitialWorksheet(), 1000);
+        // Start initialization
+        init().catch(err => {
+            console.error('Failed to initialize:', err);
+        });
     });
   </script>
 </body>

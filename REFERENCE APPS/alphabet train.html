@@ -1241,6 +1241,7 @@
   </script>
 
   <script>
+  document.addEventListener("DOMContentLoaded", function() {
     /********************************
      * Global State & Setup
      ********************************/
@@ -4310,6 +4311,7 @@ async function downloadPDF(canvasToExport, fileName) {
     if (typeof translatePage === 'function') {
         translatePage();
     }
+  });
   </script>
 </body>
 </html>

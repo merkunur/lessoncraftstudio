@@ -2559,9 +2559,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 checkThemes();
             });
 
-            // Add a small delay to ensure everything is fully initialized
-            await new Promise(resolve => setTimeout(resolve, 300));
-
             // Set default values: Animals theme, Letter portrait, 4 hidden objects, all four tasks
             themeSelect.value = 'animals';
             pageSizeSelect.value = '612x792'; // Letter portrait
@@ -2572,9 +2569,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // Load theme images
             await loadThemeImages();
-
-            // Wait for images to load
-            await new Promise(resolve => setTimeout(resolve, 200));
 
             // Select 4 random images from the theme
             if (currentThemeImages.length >= 4) {

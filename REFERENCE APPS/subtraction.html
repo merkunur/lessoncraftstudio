@@ -2197,6 +2197,27 @@
         }
       }
 
+      // PERFORMANCE FIX: Preload default theme proactively
+      async function preloadDefaultTheme() {
+        // Silently preload animals theme and its images in background
+        try {
+            const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+            if (response.ok) {
+                const data = await response.json();
+                // Store images in allImagesCache for instant access
+                if (data && data.images) {
+                    if (!allImagesCache['animals']) {
+                        allImagesCache['animals'] = data.images;
+                    }
+                    console.log('✅ Animals theme preloaded:', data.images.length, 'images');
+                }
+            }
+        } catch (error) {
+            // Fail silently - not critical, themes will load on demand
+            console.warn('Could not preload animals theme:', error);
+        }
+      }
+
       async function loadDictionary() {
         const theme = themeSelect.value;
         const query = searchInput.value.trim().toLowerCase();
@@ -4429,43 +4450,11 @@ async function downloadPDF(canvasToExport, fileName) {
       
       // Note: Addition app doesn't call applyTranslations, so we don't either
       // The translations.js script handles everything automatically
-      
-      clearAll(); // Set initial default state
-      setupEventListeners();
-      
-      loadThemes();
-      loadAssetThemes('borders', borderThemeSelect);
-      loadAssetThemes('backgrounds', backgroundThemeSelect);
 
-      // Initialize BulletproofLoader after app setup
-      if (window.BulletproofLoader) {
-          window.BulletproofLoader.init({
-              borderSelect: borderThemeSelect,
-              backgroundSelect: backgroundThemeSelect,
-              locale: currentLocale
-          }).then(() => {
-              console.log('BulletproofLoader initialized for Subtraction app');
-          }).catch(error => {
-              console.error('BulletproofLoader initialization failed:', error);
-          });
-      }
-
+      // PERFORMANCE FIX: Optimized initialization without polling delays
       async function generateInitialWorksheet() {
           try {
-              console.log('Starting initial worksheet generation...');
-
-              // Wait for themes to load
-              let attempts = 0;
-              const maxAttempts = 50;
-              while (themeSelect.options.length <= 1 && attempts < maxAttempts) {
-                  await new Promise(resolve => setTimeout(resolve, 100));
-                  attempts++;
-              }
-
-              if (themeSelect.options.length <= 1) {
-                  console.error('Themes failed to load');
-                  return;
-              }
+              console.log('✅ Starting optimized initial worksheet generation...');
 
               // Set page size to Letter landscape (792x612)
               pageSizeSelect.value = '792x612';
@@ -4476,7 +4465,7 @@ async function downloadPDF(canvasToExport, fileName) {
               answerKeyCanvas.setDimensions({ width, height });
               updateCanvasDisplayDimensions(width, height, false);
 
-              // Set Animals theme
+              // Set Animals theme (preloaded, so instant!)
               themeSelect.value = 'animals';
               await loadDictionary();
 
@@ -4489,19 +4478,48 @@ async function downloadPDF(canvasToExport, fileName) {
               // Enable Use Friendly Box
               useFriendlyBoxCheckbox.checked = true;
 
-              // Wait for setup to complete
-              await new Promise(resolve => setTimeout(resolve, 200));
-
-              // Generate worksheet
+              // Generate worksheet immediately
               await generateWorksheet();
 
-              console.log('Initial worksheet generated successfully');
+              console.log('✅ Initial worksheet generated successfully (optimized)');
           } catch (error) {
               console.error('Error generating initial worksheet:', error);
           }
       }
 
-      setTimeout(() => generateInitialWorksheet(), 1500);
+      // PERFORMANCE FIX: Orchestrate initialization with proactive theme loading
+      async function init() {
+          clearAll(); // Set initial default state
+          setupEventListeners();
+
+          loadThemes();
+          loadAssetThemes('borders', borderThemeSelect);
+          loadAssetThemes('backgrounds', backgroundThemeSelect);
+
+          // Initialize BulletproofLoader after app setup
+          if (window.BulletproofLoader) {
+              window.BulletproofLoader.init({
+                  borderSelect: borderThemeSelect,
+                  backgroundSelect: backgroundThemeSelect,
+                  locale: currentLocale
+              }).then(() => {
+                  console.log('✅ BulletproofLoader initialized for Subtraction app');
+              }).catch(error => {
+                  console.error('BulletproofLoader initialization failed:', error);
+              });
+          }
+
+          // Preload default theme in background for instant first generation
+          await preloadDefaultTheme();
+
+          // Generate initial default worksheet after theme is loaded
+          await generateInitialWorksheet();
+      }
+
+      // PERFORMANCE FIX: Call init immediately (removed 1500ms delay!)
+      init().catch(err => {
+          console.error('Failed to initialize:', err);
+      });
 
     });
   </script>

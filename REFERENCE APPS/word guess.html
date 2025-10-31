@@ -1130,7 +1130,7 @@
         };
 
         // --- Initialization ---
-        function initializeApp() {
+        async function initializeApp() {
             // Apply translations first
             applyTranslations();
 
@@ -1147,22 +1147,18 @@
             // Initialize undo/redo buttons
             updateHistoryButtons();
 
-            loadThemes();
+            await loadThemes();
 
             // Initialize BulletproofLoader to handle border/background themes
             // EXACTLY like treasure hunt and addition.html do it
             if (window.BulletproofLoader) {
                 console.log('Initializing BulletproofLoader with locale:', currentLocale);
-
-                window.BulletproofLoader.init({
+                await window.BulletproofLoader.init({
                     borderSelect: ui.borderThemeSelect,
                     backgroundSelect: ui.backgroundThemeSelect,
                     locale: currentLocale  // EXPLICITLY pass the locale
-                }).then(() => {
-                    console.log('✅ BulletproofLoader initialized successfully');
-                }).catch(err => {
-                    console.error('Failed to initialize BulletproofLoader:', err);
                 });
+                console.log('✅ BulletproofLoader initialized successfully');
             } else {
                 console.error('BulletproofLoader not loaded!');
             }
@@ -2023,9 +2019,27 @@
                 }
 
                 loadDictionary();
-            } catch (err) { 
+            } catch (err) {
                 console.error('Failed to load themes:', err);
-                showMessage(t('message.themesLoadError'), 'error'); 
+                showMessage(t('message.themesLoadError'), 'error');
+            }
+        }
+
+        // PERFORMANCE FIX: Preload default theme for instant first generation
+        async function preloadDefaultTheme() {
+            try {
+                // Preload animals theme and its images in background
+                console.log('Preloading default theme (animals)...');
+                const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                if (response.ok) {
+                    const data = await response.json();
+                    const images = data.images || data;
+                    currentThemeImages = images;
+                    console.log(`✅ Preloaded ${images.length} images from animals theme`);
+                }
+            } catch (err) {
+                console.error('Failed to preload default theme:', err);
+                // Non-fatal, continue with initialization
             }
         }
 
@@ -3273,26 +3287,20 @@ async function downloadPDF(canvasToExport, fileName = 'download') {
             }
         }
         
-        // --- Start the App ---
-        initializeApp();
+        // PERFORMANCE FIX: Start the app immediately without delays
+        async function startApp() {
+            await initializeApp();
+            await preloadDefaultTheme();
+            await generateInitialWorksheet();
+        }
+
+        startApp();
 
         async function generateInitialWorksheet() {
             try {
                 console.log('Starting initial worksheet generation...');
 
-                // Wait for themes to load
-                let attempts = 0;
-                const maxAttempts = 50;
-                while (ui.themeSelect.options.length <= 1 && attempts < maxAttempts) {
-                    await new Promise(resolve => setTimeout(resolve, 100));
-                    attempts++;
-                }
-
-                if (ui.themeSelect.options.length <= 1) {
-                    console.error('Themes failed to load');
-                    return;
-                }
-
+                // PERFORMANCE FIX: Themes are already loaded, no need to poll
                 // Set page size to Letter portrait (612x792)
                 ui.pageSizeSelect.value = '612x792';
                 const [width, height] = ui.pageSizeSelect.value.split('x').map(Number);
@@ -3318,9 +3326,7 @@ async function downloadPDF(canvasToExport, fileName = 'download') {
                 // Enable Include Exercise Numbers
                 ui.includeExerciseNumbers.checked = true;
 
-                // Wait for setup to complete
-                await new Promise(resolve => setTimeout(resolve, 200));
-
+                // PERFORMANCE FIX: No need to wait, generate immediately
                 // Generate worksheet
                 await generateWorksheet();
 
@@ -3330,7 +3336,7 @@ async function downloadPDF(canvasToExport, fileName = 'download') {
             }
         }
 
-        setTimeout(() => generateInitialWorksheet(), 1500);
+        // PERFORMANCE FIX: Removed setTimeout delay - function is now called directly in startApp()
     });
   </script>
 </body>

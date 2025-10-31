@@ -6,11 +6,53 @@
     <title>Grid-Match Worksheet Generator</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-    <script src="js/translations-grid-match.js"></script>
-    <script src="js/bulletproof-loader.js"></script>
-    <script src="js/unified-language-manager.js"></script>
-    <script src="js/border-background-sizer.js"></script>
+    <script src="js/translations-grid-match.js?v=2"></script>
+    <script src="js/bulletproof-loader.js?v=2"></script>
+    <script src="js/unified-language-manager.js?v=2"></script>
+    <script src="js/border-background-sizer.js?v=2"></script>
+    <script>
+        // Set locales globally BEFORE any scripts initialize
+        // uiLocale = Interface language (from main app's language selector)
+        // currentLocale = Content language for worksheets (from internal selector)
+
+        const urlParams = new URLSearchParams(window.location.search);
+
+        // UI locale comes from the main app (via URL parameter)
+        let uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
+
+        // Content locale can be different (initially same as UI for simplicity)
+        let currentLocale = urlParams.get('content') || uiLocale;
+
+        window.uiLocale = uiLocale;
+        window.currentLocale = currentLocale;
+
+        // ==========================================
+        // TRANSLATION SYSTEM
+        // ==========================================
+
+        // Global translation function (uses uiLocale for UI translations)
+        function t(key) {
+            if (typeof translations === 'undefined') {
+                console.warn('Translations not loaded, returning key:', key);
+                return key;
+            }
+            const translation = (translations[uiLocale] && translations[uiLocale][key]) ||
+                               (translations.en && translations.en[key]) ||
+                               key;
+            return translation;
+        }
+        window.t = t;
+
+        // Format translation with placeholders
+        function formatTranslation(text, ...values) {
+            let result = text;
+            values.forEach((value) => {
+                result = result.replace('{}', value);
+            });
+            return result;
+        }
+        window.formatTranslation = formatTranslation;
+    </script>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
@@ -1114,43 +1156,10 @@
     <div id="exportArea"></div>
 
     <script>
-    // MUST BE FIRST - Before ANY DOM element references
-    // Set locales globally BEFORE DOMContentLoaded (critical for enhancement scripts)
-    // uiLocale = Interface language (from main app's language selector in header)
-    // currentLocale = Content language for image library (from sidebar selector)
-    const urlParams = new URLSearchParams(window.location.search);
-
-    // UI locale comes from the main app (via URL parameter)
-    window.uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
-
-    // Content locale can be different (initially same as UI for simplicity)
-    let currentLocale = urlParams.get('content') || window.uiLocale;
-    window.currentLocale = currentLocale;
-
-    console.log('Global uiLocale set to:', window.uiLocale);
-    console.log('Global currentLocale set to:', currentLocale);
+    // Translation system already initialized in <head>
+    // Using global uiLocale and currentLocale from <head>
 
     let currentCanvasConfig = { width: 612, height: 792 };
-
-    // Translation function (uses uiLocale for UI translations)
-    function t(key, params = {}) {
-        if (typeof translations === 'undefined') return key;
-        const locale = window.uiLocale || 'en';  // Use uiLocale for UI translations
-        const translation = (translations[locale] && translations[locale][key]) ||
-                           (translations.en && translations.en[key]) ||
-                           key;
-        return formatTranslation(translation, params);
-    }
-    window.t = t;
-
-    function formatTranslation(text, params) {
-        let formatted = text;
-        for (const [key, value] of Object.entries(params)) {
-            formatted = formatted.replace(new RegExp(`\\{${key}\\}`, 'g'), value);
-        }
-        return formatted;
-    }
-    window.formatTranslation = formatTranslation;
 
     document.addEventListener("DOMContentLoaded", function () {
         // --- Global Constants & State ---
@@ -2082,7 +2091,32 @@
             }
             renderDictionary();
         }
-        
+
+        async function preloadDefaultTheme() {
+            // Silently preload animals theme and its images in background
+            try {
+                const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                if (response.ok) {
+                    const data = await response.json();
+                    // CRITICAL: API returns {images: [...]} not direct array
+                    const images = data.images || data;
+
+                    // Cache the animals theme images
+                    appState.imageCache = images;
+
+                    // Preload first 8 actual images in browser cache for instant display
+                    const imagesToPreload = images.slice(0, 8);
+                    imagesToPreload.forEach(imgData => {
+                        const img = new Image();
+                        img.src = imgData.path;
+                    });
+                }
+            } catch (error) {
+                // Fail silently - not critical, just an optimization
+                console.warn('Could not preload default theme:', error);
+            }
+        }
+
         async function loadDictionary() {
             // Load dictionary images - wrapper for renderDictionary
             const theme = themeSelect.value;
@@ -3725,56 +3759,32 @@ async function downloadPDF(canvasToExport, filename) {
             loadThemes().then(() => {
                 loadDictionary(); // Load images after themes are loaded
             });
+
             // Generate initial worksheet with default settings
             async function generateInitialWorksheet() {
                 try {
                     console.log('Starting initial worksheet generation...');
-
-                    // Wait for themes to be loaded by polling
-                    let attempts = 0;
-                    const maxAttempts = 30;
-                    while (themeSelect.options.length <= 1 && attempts < maxAttempts) {
-                        await new Promise(resolve => setTimeout(resolve, 100));
-                        attempts++;
-                    }
-
-                    if (themeSelect.options.length <= 1) {
-                        console.error('Failed to load themes for initial worksheet generation');
-                        return;
-                    }
-
-                    console.log('Themes loaded, configuring worksheet...');
 
                     // Set page size to Letter portrait
                     pageSizeSelect.value = '612x792';
                     const [w, h] = pageSizeSelect.value.split('x').map(Number);
                     updateCanvasDisplayDimensions(w, h);
 
-                    // Set theme to animals
+                    // Set theme to animals (already preloaded)
                     themeSelect.value = 'animals';
-                    await loadDictionary();
 
-                    // Wait for images to load
-                    attempts = 0;
-                    while (appState.imageCache.length === 0 && attempts < maxAttempts) {
-                        await new Promise(resolve => setTimeout(resolve, 100));
-                        attempts++;
+                    // Images already preloaded by preloadDefaultTheme()
+                    // Select a random image from the cached animals theme
+                    if (appState.imageCache.length > 0) {
+                        const randomIndex = Math.floor(Math.random() * appState.imageCache.length);
+                        const randomImage = appState.imageCache[randomIndex];
+                        appState.config.selectedImage = {
+                            word: randomImage.name || randomImage.word,
+                            path: randomImage.path
+                        };
+                        renderSelectedImagePreview();
+                        renderDictionary(); // Re-render to show selected image
                     }
-
-                    if (appState.imageCache.length === 0) {
-                        console.error('No images loaded for initial worksheet generation');
-                        return;
-                    }
-
-                    // Select a random image from the animals theme
-                    const randomIndex = Math.floor(Math.random() * appState.imageCache.length);
-                    const randomImage = appState.imageCache[randomIndex];
-                    appState.config.selectedImage = {
-                        word: randomImage.name || randomImage.word,
-                        path: randomImage.path
-                    };
-                    renderSelectedImagePreview();
-                    renderDictionary(); // Re-render to show selected image
 
                     // Set grid parameters
                     rowInput.value = 3;
@@ -3783,43 +3793,40 @@ async function downloadPDF(canvasToExport, filename) {
 
                     console.log('Configuration complete, generating worksheet...');
 
-                    // Wait a bit for everything to settle
-                    await new Promise(resolve => setTimeout(resolve, 500));
+                    // Wait a moment for settings to apply
+                    await new Promise(resolve => setTimeout(resolve, 100));
 
                     // Trigger worksheet generation
                     await handleWorksheetGeneration(false); // false = don't show message
 
-                    console.log('Initial worksheet generated successfully');
+                    console.log('✅ Initial worksheet generated successfully');
                 } catch (error) {
-                    console.error('Error generating initial worksheet:', error);
+                    console.warn('Could not generate initial worksheet:', error);
+                    // Fail silently - not critical
                 }
             }
 
             // Initialize BulletproofLoader AFTER core functionality is set up
-            if (window.BulletproofLoader) {
-                window.BulletproofLoader.init({
-                    borderSelect: borderThemeSelect,
-                    backgroundSelect: backgroundThemeSelect
-                }).then(() => {
-                    console.log('BulletproofLoader initialized successfully');
-                    // BulletproofLoader handles theme loading, no need for manual loading
-                    // Generate initial worksheet after BulletproofLoader initialization
-                    setTimeout(() => generateInitialWorksheet(), 1000);
-                }).catch(error => {
-                    console.error('BulletproofLoader init failed:', error);
-                    // Fallback to manual loading only on error
-                    loadBorderThemes();
-                    loadBackgroundThemes();
-                    // Still generate initial worksheet even if BulletproofLoader fails
-                    setTimeout(() => generateInitialWorksheet(), 1000);
-                });
-            } else {
-                // Fallback if BulletproofLoader not available
-                loadBorderThemes();
-                loadBackgroundThemes();
-                // Generate initial worksheet in fallback scenario
-                setTimeout(() => generateInitialWorksheet(), 1000);
+            async function initializeApp() {
+                if (window.BulletproofLoader) {
+                    await window.BulletproofLoader.init({
+                        borderSelect: borderThemeSelect,
+                        backgroundSelect: backgroundThemeSelect
+                    });
+                    console.log('✅ BulletproofLoader initialized successfully');
+                }
+
+                // Preload default theme in background for instant first generation
+                await preloadDefaultTheme();
+
+                // Generate initial default worksheet after theme is preloaded
+                await generateInitialWorksheet();
             }
+
+            // Start initialization
+            initializeApp().catch(error => {
+                console.error('Initialization error:', error);
+            });
 
             renderSelectedImagePreview();
             renderUploadedImages();

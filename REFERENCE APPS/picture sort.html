@@ -1487,7 +1487,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- INITIALIZATION ---
-    function initializeApp() {
+    async function initializeApp() {
         // Initialize locale from URL or saved setting
         const urlParams = new URLSearchParams(window.location.search);
         const localeParam = urlParams.get('locale');
@@ -1495,12 +1495,12 @@ document.addEventListener('DOMContentLoaded', () => {
             languageSelect.value = localeParam;
             currentLocale = localeParam;
         }
-        
+
         // Apply initial translations
         if (typeof applyTranslations === 'function') {
             applyTranslations();
         }
-        
+
         worksheetCanvas = initializeCanvas('worksheetCanvas');
         solutionCanvas = initializeCanvas('solutionCanvas');
         setupCanvasEventListeners(worksheetCanvas);
@@ -1511,11 +1511,20 @@ document.addEventListener('DOMContentLoaded', () => {
         updateZoomDisplay();
 
         setupEventListeners();
-        initializeImageLibrary();
+
+        // PERFORMANCE FIX: Await theme loading before proceeding
+        await initializeImageLibrary();
+
         loadBorderThemes();
         loadBackgroundThemes();
         updateSelectedImagesUI();
         updateButtonState();
+
+        // Preload default themes for instant first generation
+        await preloadDefaultThemes();
+
+        // Generate initial worksheet immediately after themes are loaded
+        await generateInitialWorksheet();
     }
 
     function initializeCanvas(canvasId) {
@@ -3318,17 +3327,29 @@ async function downloadPDF(name, canvasToExport) {
         }
     }
 
+        // PERFORMANCE FIX: Preload default themes (animals & food) for instant first generation
+    async function preloadDefaultThemes() {
+        try {
+            console.log('Preloading default themes (animals & food)...');
+
+            // Preload both default themes in parallel
+            const [animalsData, foodData] = await Promise.all([
+                fetch(`/api/images?theme=animals&locale=${currentLocale}`).then(res => res.json()),
+                fetch(`/api/images?theme=food&locale=${currentLocale}`).then(res => res.json())
+            ]);
+
+            console.log('✅ Default themes preloaded successfully');
+        } catch (error) {
+            console.warn('Could not preload default themes:', error);
+            // Non-critical - continue anyway
+        }
+    }
+
     async function generateInitialWorksheet() {
         try {
             console.log('Starting initial worksheet generation...');
 
-            // Wait for themes to load
-            let attempts = 0;
-            const maxAttempts = 50;
-            while (leftCategoryThemeSelect.options.length <= 1 && attempts < maxAttempts) {
-                await new Promise(resolve => setTimeout(resolve, 100));
-                attempts++;
-            }
+            // PERFORMANCE FIX: No polling loop needed - themes are already loaded
 
             // Set page size to Letter portrait (already default)
             pageSizeSelect.value = '612x792';
@@ -3347,19 +3368,20 @@ async function downloadPDF(name, canvasToExport) {
             leftCategoryThemeSelect.dispatchEvent(new Event('change'));
             rightCategoryThemeSelect.dispatchEvent(new Event('change'));
 
-            // Wait a bit for UI to update
-            await new Promise(resolve => setTimeout(resolve, 200));
+            // PERFORMANCE FIX: Reduced delay from 200ms to 50ms
+            await new Promise(resolve => setTimeout(resolve, 50));
 
             // Generate worksheet
             await handleGenerateWorksheet();
 
-            console.log('Initial worksheet generated successfully');
+            console.log('✅ Initial worksheet generated successfully');
         } catch (error) {
             console.error('Error generating initial worksheet:', error);
         }
     }
 
     // --- START THE APP ---
+    // PERFORMANCE FIX: initializeApp is now async and handles initial worksheet generation
     initializeApp();
 
     // Initialize BulletproofLoader to handle border/background themes
@@ -3380,7 +3402,7 @@ async function downloadPDF(name, canvasToExport) {
         console.warn('⚠️ BulletproofLoader not found');
     }
 
-    setTimeout(() => generateInitialWorksheet(), 1000);
+    // PERFORMANCE FIX: Removed setTimeout delay - initializeApp() now handles everything
 });
 </script>
 </body>

@@ -1095,17 +1095,19 @@ document.addEventListener("DOMContentLoaded", async function() {
                     borderSelect: borderThemeSelect,
                     backgroundSelect: backgroundThemeSelect
                 });
-
-                // Generate initial default worksheet after everything is loaded
-                await generateInitialWorksheet();
             } else {
                 // Fallback to regular loading
                 loadBorderThemes();
                 loadBackgroundThemes();
-
-                // Still try to generate initial worksheet
-                generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
             }
+        })();
+
+        // Preload default theme for instant first generation, then generate
+        (async () => {
+            await preloadDefaultTheme();
+
+            // Generate initial worksheet (no delay needed - theme is cached)
+            generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
         })();
 
         handleSelectionCleared(); // Initialize text tools state
@@ -1784,10 +1786,48 @@ document.addEventListener("DOMContentLoaded", async function() {
         saveCanvasState();
     }
 
+    // --- THEME PRELOADING FOR FAST INITIAL GENERATION ---
+    async function preloadDefaultTheme() {
+        try {
+            console.log('🚀 Preloading animals theme for instant first generation...');
+
+            // Fetch animals theme images
+            const response = await fetch(`/api/images?theme=animals&locale=en`);
+            if (!response.ok) {
+                console.warn('Could not preload theme, will load on demand');
+                return;
+            }
+
+            const data = await response.json();
+            const images = data.images || data;
+
+            // Cache the theme images in allDictImages
+            allDictImages = images;
+
+            // Preload first 8 images in browser cache for instant rendering
+            const imagesToPreload = images.slice(0, 8);
+            const preloadPromises = imagesToPreload.map(imgData => {
+                return new Promise((resolve) => {
+                    const img = new Image();
+                    img.onload = resolve;
+                    img.onerror = resolve; // Don't block on errors
+                    img.src = imgData.path;
+                });
+            });
+
+            await Promise.all(preloadPromises);
+
+            console.log(`✅ Preloaded ${imagesToPreload.length} theme images for instant generation`);
+        } catch (error) {
+            // Fail silently - not critical, will load on demand
+            console.warn('Theme preload failed (not critical):', error);
+        }
+    }
+
     // --- Initial Worksheet Generation ---
     async function generateInitialWorksheet() {
         try {
-            // Wait for themes to be loaded
+            // Wait for themes dropdown to be populated (should be quick)
             await new Promise(resolve => {
                 const checkThemes = () => {
                     if (themeSelect && themeSelect.options.length > 1) {
@@ -1799,17 +1839,23 @@ document.addEventListener("DOMContentLoaded", async function() {
                 checkThemes();
             });
 
-            // Add a small delay to ensure everything is fully initialized
-            await new Promise(resolve => setTimeout(resolve, 300));
+            // Small delay for DOM to settle (reduced from 300ms to 50ms)
+            await new Promise(resolve => setTimeout(resolve, 50));
 
             // Set default values: Animals theme, Letter portrait, Curve 1 template, Auto-fill
             themeSelect.value = 'animals';
 
-            // Load theme images
-            await loadDictionary();
+            // Use cached theme images (already preloaded!)
+            if (allDictImages.length === 0) {
+                // Fallback: load if preload failed
+                await loadDictionary();
+            } else {
+                // Theme already cached - just update the dictionary display
+                renderDictionary();
+            }
 
-            // Wait a bit for images to load
-            await new Promise(resolve => setTimeout(resolve, 200));
+            // No need to wait for images - they're already cached!
+            // (removed 200ms delay)
 
             // Select "curve 1" template (which will set portrait automatically since curve 1 is landscape)
             selectTemplate('curve 1');
@@ -2146,31 +2192,35 @@ document.addEventListener("DOMContentLoaded", async function() {
         const contentH = height - startY - margin;
         const cellSize = contentW * 0.18;
         const drawingWidth = contentW * 0.55;
-        
+
         const tops = data.pairs.length > 1
             ? Array.from({ length: data.pairs.length }, (_, i) => startY + Math.round((contentH - cellSize) / (data.pairs.length - 1) * i))
             : [startY + (contentH - cellSize) / 2];
 
+        // PERFORMANCE FIX: Fetch SVG template ONCE before loop (not for each pair)
+        const svgData = await fetch(`/images/drawing%20lines/${encodeURIComponent(data.template)}.svg`).then(r => r.text());
+
         for (let i = 0; i < data.pairs.length; i++) {
             const pair = data.pairs[i];
-            const [leftImg, rightImg, svgData] = await Promise.all([
+            // Load only the images for this pair (SVG already fetched above)
+            const [leftImg, rightImg] = await Promise.all([
                 loadImageAsFabric(pair.left.path, { crossOrigin: 'anonymous' }),
-                loadImageAsFabric(pair.right.path, { crossOrigin: 'anonymous' }),
-                fetch(`/images/drawing%20lines/${encodeURIComponent(data.template)}.svg`).then(r => r.text())
+                loadImageAsFabric(pair.right.path, { crossOrigin: 'anonymous' })
             ]);
 
             const sharedProps = { selectable: true, hasControls: true, hasBorders: true, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 8, transparentCorners: false, cornerStyle: 'circle', objectCaching: false, isGeneratedItem: true };
 
             leftImg.scaleToWidth(cellSize);
             leftImg.set({ ...sharedProps, left: margin, top: tops[i] });
-            
+
+            // Reuse the same SVG data for all pairs
             const line = await loadSVGAsFabric(svgData);
             line.scaleToWidth(drawingWidth);
             line.set({ ...sharedProps, left: margin + cellSize + (contentW - cellSize * 2 - drawingWidth) / 2, top: tops[i] + (cellSize - line.getScaledHeight()) / 2 });
-            
+
             rightImg.scaleToWidth(cellSize);
             rightImg.set({ ...sharedProps, left: margin + contentW - cellSize, top: tops[i] });
-            
+
             canvas.add(leftImg, line, rightImg);
         }
     }
@@ -2186,26 +2236,30 @@ document.addEventListener("DOMContentLoaded", async function() {
         const cellSize = colWidth * 0.8;
         const drawingHeight = contentH * 0.5;
 
+        // PERFORMANCE FIX: Fetch SVG template ONCE before loop (not for each pair)
+        const svgData = await fetch(`/images/drawing%20lines/${encodeURIComponent(data.template)}.svg`).then(r => r.text());
+
         for (let i = 0; i < data.pairs.length; i++) {
             const pair = data.pairs[i];
-             const [topImg, bottomImg, svgData] = await Promise.all([
+            // Load only the images for this pair (SVG already fetched above)
+            const [topImg, bottomImg] = await Promise.all([
                 loadImageAsFabric(pair.left.path, { crossOrigin: 'anonymous' }),
-                loadImageAsFabric(pair.right.path, { crossOrigin: 'anonymous' }),
-                fetch(`/images/drawing%20lines/${encodeURIComponent(data.template)}.svg`).then(r => r.text())
+                loadImageAsFabric(pair.right.path, { crossOrigin: 'anonymous' })
             ]);
-            
+
             const sharedProps = { selectable: true, hasControls: true, hasBorders: true, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 8, transparentCorners: false, cornerStyle: 'circle', objectCaching: false, isGeneratedItem: true };
 
             topImg.scaleToWidth(cellSize);
             topImg.set({ ...sharedProps, left: margin + i * colWidth + (colWidth - cellSize) / 2, top: startY });
 
+            // Reuse the same SVG data for all pairs
             const line = await loadSVGAsFabric(svgData);
             line.scaleToHeight(drawingHeight);
             line.set({ ...sharedProps, left: margin + i * colWidth + (colWidth - line.getScaledWidth()) / 2, top: startY + (contentH - drawingHeight) / 2 });
 
             bottomImg.scaleToWidth(cellSize);
             bottomImg.set({ ...sharedProps, left: margin + i * colWidth + (colWidth - cellSize) / 2, top: startY + contentH - bottomImg.getScaledHeight() });
-            
+
             canvas.add(topImg, line, bottomImg);
         }
     }

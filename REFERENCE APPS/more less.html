@@ -1429,10 +1429,7 @@
               // Set Illustrations
               symbolDisplaySelect.value = 'image';
 
-              // Give a small delay before generating
-              await new Promise(resolve => setTimeout(resolve, 200));
-
-              // Generate the worksheet
+              // Generate the worksheet immediately (no delay needed)
               await generateWorksheetFunc();
 
               console.log('Initial worksheet generated successfully');
@@ -2314,6 +2311,30 @@
           console.log("[UNDO DEBUG] undoBtn.disabled set to:", undoBtn ? undoBtn.disabled : 'N/A', "redoBtn.disabled set to:", redoBtn ? redoBtn.disabled : 'N/A');
       }
 
+      // Preload default theme for instant first generation
+      async function preloadDefaultTheme() {
+        // Silently preload animals theme and its images in background
+        try {
+          const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+          if (response.ok) {
+            const data = await response.json();
+            const images = data.images || data;
+
+            // Preload first 8 actual images in browser cache
+            const imagesToPreload = images.slice(0, 8);
+            imagesToPreload.forEach(imgData => {
+              const img = new Image();
+              img.src = imgData.path;
+            });
+
+            console.log('✅ Default theme preloaded:', imagesToPreload.length, 'images');
+          }
+        } catch (error) {
+          // Fail silently - not critical
+          console.log('Preload theme skipped:', error.message);
+        }
+      }
+
       // Expose loadThemes to outer scope for language change handler
       loadThemesFunc = async function loadThemes() {
         try {
@@ -3075,8 +3096,68 @@
           return [nL, nR];
         };
 
+        // ✅ IMPROVED: Create balanced relation distribution
+        const balancedRels = [];
+        const baseCount = Math.floor(problemCount / rels.length);
+        const remainder = problemCount % rels.length;
+
+        // Add base count for each relation type (ensures even distribution)
+        for (let i = 0; i < rels.length; i++) {
+            for (let j = 0; j < baseCount; j++) {
+                balancedRels.push(rels[i]);
+            }
+        }
+
+        // Distribute remainder randomly among relation types
+        for (let i = 0; i < remainder; i++) {
+            balancedRels.push(rels[rand(0, rels.length - 1)]);
+        }
+
+        // Shuffle the balanced relations for random order
+        for (let i = balancedRels.length - 1; i > 0; i--) {
+            const j = rand(0, i);
+            [balancedRels[i], balancedRels[j]] = [balancedRels[j], balancedRels[i]];
+        }
+
+        // ✅ IMPROVED: Track used combinations to avoid duplicates
+        const usedCombinations = new Set();
+
+        // ✅ IMPROVED: Create balanced image pool to minimize duplicates
+        const balancedImages = [];
+        if (imgs.length >= problemCount) {
+            // Enough images: use each image at most once
+            const shuffledImages = [...imgs];
+            for (let i = shuffledImages.length - 1; i > 0; i--) {
+                const j = rand(0, i);
+                [shuffledImages[i], shuffledImages[j]] = [shuffledImages[j], shuffledImages[i]];
+            }
+            balancedImages.push(...shuffledImages.slice(0, problemCount));
+        } else {
+            // Fewer images than exercises: distribute evenly
+            const timesEach = Math.floor(problemCount / imgs.length);
+            const remainder = problemCount % imgs.length;
+
+            // Add each image 'timesEach' times
+            for (let i = 0; i < imgs.length; i++) {
+                for (let j = 0; j < timesEach; j++) {
+                    balancedImages.push(imgs[i]);
+                }
+            }
+
+            // Add remainder images randomly
+            for (let i = 0; i < remainder; i++) {
+                balancedImages.push(imgs[rand(0, imgs.length - 1)]);
+            }
+
+            // Shuffle the balanced images
+            for (let i = balancedImages.length - 1; i > 0; i--) {
+                const j = rand(0, i);
+                [balancedImages[i], balancedImages[j]] = [balancedImages[j], balancedImages[i]];
+            }
+        }
+
         for (let i = 0; i < problemCount; i++) {
-            const picL = imgs[i % imgs.length];
+            const picL = balancedImages[i];
             let picR = picL; // Default: same image
 
             // If different variety is selected, pick a different image for right side
@@ -3088,8 +3169,22 @@
                 } while (picR === picL && attempts < 10);
             }
 
-            const rel = rels[rand(0, rels.length - 1)];
-            const [nL, nR] = pickCounts(rel);
+            // ✅ IMPROVED: Use balanced relation instead of random
+            const rel = balancedRels[i];
+            let nL, nR;
+            let attempts = 0;
+            let combinationKey;
+
+            // ✅ IMPROVED: Try to find unique number combination
+            do {
+                [nL, nR] = pickCounts(rel);
+                combinationKey = `${nL}-${rel}-${nR}`;
+                attempts++;
+            } while (usedCombinations.has(combinationKey) && attempts < 30);
+
+            // Mark this combination as used
+            usedCombinations.add(combinationKey);
+
             rows.push({
                 L: picL,
                 R: picR,
@@ -4237,22 +4332,30 @@ async function downloadPDF(canvasToExport, filename) {
         firstAccordion.nextElementSibling.classList.add('active');
     }
 
-    // Initialize BulletproofLoader for borders and backgrounds
-    if (window.BulletproofLoader) {
-        window.BulletproofLoader.init({
-            borderSelect: borderThemeSelect,
-            backgroundSelect: backgroundThemeSelect
-        }).then(() => {
-            console.log('BulletproofLoader initialized');
-        });
-    } else {
-        // Fallback if BulletproofLoader not available
-        loadBorderThemes();
-        loadBackgroundThemes();
+    // Initialize BulletproofLoader and generate initial worksheet
+    async function initializeAndGenerate() {
+        // Initialize BulletproofLoader for borders and backgrounds
+        if (window.BulletproofLoader) {
+            await window.BulletproofLoader.init({
+                borderSelect: borderThemeSelect,
+                backgroundSelect: backgroundThemeSelect
+            });
+            console.log('✅ BulletproofLoader initialized');
+        } else {
+            // Fallback if BulletproofLoader not available
+            loadBorderThemes();
+            loadBackgroundThemes();
+        }
+
+        // Preload default theme in background for instant first generation
+        await preloadDefaultTheme();
+
+        // Generate initial worksheet immediately after theme is loaded
+        await generateInitialWorksheet();
     }
 
-    // Generate initial worksheet after a delay to allow UI initialization
-    setTimeout(() => generateInitialWorksheet(), 1000);
+    // Start initialization
+    initializeAndGenerate();
     });
   </script>
 </body>

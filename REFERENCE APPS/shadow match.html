@@ -2055,7 +2055,33 @@
       }
 
       // --- WORKSHEET & ANSWER KEY GENERATION ---
-      
+
+      // PERFORMANCE FIX: Preload default theme for instant first generation
+      async function preloadDefaultTheme() {
+          // Silently preload animals theme and its images in background
+          try {
+              const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+              if (response.ok) {
+                  const data = await response.json();
+                  const images = data.images || data;
+
+                  // Store in allImages for immediate use
+                  allImages = images;
+
+                  // Preload first 8 actual images in browser cache
+                  const imagesToPreload = images.slice(0, 8);
+                  imagesToPreload.forEach(imgData => {
+                      const img = new Image();
+                      img.src = imgData.path;
+                  });
+
+                  console.log('✅ Default theme preloaded:', images.length, 'images');
+              }
+          } catch (error) {
+              console.warn('Preload theme failed (non-critical):', error);
+          }
+      }
+
       async function generateWorksheet() {
           isGenerating = true; // Prevent undo/redo capturing during generation
 
@@ -4136,45 +4162,10 @@ async function downloadPDF(canvasToExport) {
           }
       }
 
-      // Initialize translations
-      applyTranslations();
-      
-      // Now load everything with the correct locale
-      clearAll();
-      loadThemes().then(() => {
-          loadDictionary(); // Load images after themes are loaded
-      });
-      loadBorderThemes();
-      loadBackgroundThemes();
-
-      // Initialize BulletproofLoader after everything is set up
-      if (window.BulletproofLoader) {
-          window.BulletproofLoader.init({
-              borderSelect: borderThemeSelect,
-              backgroundSelect: backgroundThemeSelect
-          }).then(() => {
-              console.log('BulletproofLoader initialized');
-          }).catch(error => {
-              console.error('Failed to initialize BulletproofLoader:', error);
-          });
-      }
-
+      // PERFORMANCE FIX: Simplified initial worksheet generation (no polling needed)
       async function generateInitialWorksheet() {
           try {
               console.log('Starting initial worksheet generation...');
-
-              // Wait for themes to load
-              let attempts = 0;
-              const maxAttempts = 50;
-              while (themeSelect.options.length <= 1 && attempts < maxAttempts) {
-                  await new Promise(resolve => setTimeout(resolve, 100));
-                  attempts++;
-              }
-
-              if (themeSelect.options.length <= 1) {
-                  console.error('Themes failed to load');
-                  return;
-              }
 
               // Set page size to Letter landscape (792x612)
               pageSizeSelect.value = '792x612';
@@ -4185,22 +4176,13 @@ async function downloadPDF(canvasToExport) {
               answerKeyCanvas.setDimensions({ width, height });
               updateCanvasDisplayDimensions(width, height, false);
 
-              // Set Animals theme and wait for images to load
+              // Set Animals theme (images already preloaded)
               themeSelect.value = 'animals';
-              console.log('Loading animals theme...');
-              await loadDictionary(); // Wait for images to be loaded
-              console.log('Images loaded, allImages length:', allImages.length);
 
               // Enable show labels checkbox
               showLabelsCheckbox.checked = true;
 
-              // Check if we have images
-              if (allImages.length === 0) {
-                  console.error('No images loaded from animals theme');
-                  return;
-              }
-
-              // Generate worksheet
+              // Generate worksheet (allImages already populated by preloadDefaultTheme)
               console.log('Generating worksheet...');
               await generateWorksheet();
 
@@ -4211,7 +4193,36 @@ async function downloadPDF(canvasToExport) {
           }
       }
 
-      setTimeout(() => generateInitialWorksheet(), 2000);
+      // PERFORMANCE FIX: Async init pattern for fast loading
+      async function init() {
+          // Initialize translations
+          applyTranslations();
+
+          // Now load everything with the correct locale
+          clearAll();
+          await loadThemes();
+          loadDictionary(); // Load images after themes are loaded
+          loadBorderThemes();
+          loadBackgroundThemes();
+
+          // Initialize BulletproofLoader after everything is set up
+          if (window.BulletproofLoader) {
+              await window.BulletproofLoader.init({
+                  borderSelect: borderThemeSelect,
+                  backgroundSelect: backgroundThemeSelect
+              });
+              console.log('✅ BulletproofLoader initialized');
+          }
+
+          // Preload default theme in background for instant first generation
+          await preloadDefaultTheme();
+
+          // Generate initial default worksheet after theme is loaded
+          await generateInitialWorksheet();
+      }
+
+      // Call init immediately (NO setTimeout delay)
+      init();
     });
   </script>
 </body>

@@ -1356,6 +1356,38 @@ document.addEventListener("DOMContentLoaded", function() {
     elements.allToolbarButtons = elements.objectContextToolbar.querySelectorAll('.context-btn');
 
 
+    // --- THEME PRELOADING FOR FAST INITIAL GENERATION ---
+    async function preloadDefaultTheme() {
+        try {
+            console.log('Preloading animals theme for instant first generation...');
+
+            // Fetch animals theme images
+            const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+            if (!response.ok) {
+                console.warn('Could not preload theme, will load on demand');
+                return;
+            }
+
+            const data = await response.json();
+            const images = data.images || data;
+
+            // Cache the theme images
+            currentThemeImages = images;
+
+            // Preload first 8 images in browser cache for instant rendering
+            const imagesToPreload = images.slice(0, 8);
+            imagesToPreload.forEach(imgData => {
+                const img = new Image();
+                img.src = imgData.path;
+            });
+
+            console.log(`✅ Preloaded ${imagesToPreload.length} theme images`);
+        } catch (error) {
+            // Fail silently - not critical, will load on demand
+            console.warn('Theme preload failed (not critical):', error);
+        }
+    }
+
     // --- INITIAL WORKSHEET GENERATION ---
     async function generateInitialWorksheet() {
         try {
@@ -1388,38 +1420,26 @@ document.addEventListener("DOMContentLoaded", function() {
             // Set animals theme
             elements.themeSelect.value = 'animals';
 
-            // Load theme images and dictionary - handleThemeChange does both
-            await handleThemeChange();
+            // Images are already preloaded! Just select a random one
+            if (currentThemeImages.length > 0) {
+                const randomIndex = Math.floor(Math.random() * currentThemeImages.length);
+                const randomImage = currentThemeImages[randomIndex];
 
-            // Wait for images to render in DOM
-            attempts = 0;
-            while (elements.dictionaryDiv.querySelectorAll('.dictionary-item').length === 0 && attempts < maxAttempts) {
-                await new Promise(resolve => setTimeout(resolve, 100));
-                attempts++;
-            }
-
-            if (elements.dictionaryDiv.querySelectorAll('.dictionary-item').length === 0) {
-                console.error('Images failed to load in time');
-                return;
-            }
-
-            // Select a random image from the loaded images
-            const dictionaryItems = elements.dictionaryDiv.querySelectorAll('.dictionary-item');
-            const randomIndex = Math.floor(Math.random() * dictionaryItems.length);
-            const randomItem = dictionaryItems[randomIndex];
-            const imgElement = randomItem.querySelector('img');
-
-            if (imgElement) {
-                const imagePath = imgElement.src;
-                const imageName = randomItem.querySelector('.image-name')?.textContent || 'image';
-
-                // Use toggleImageSelection to select the image
+                // Use the preloaded image directly
                 toggleImageSelection({
-                    path: imagePath,
-                    word: imageName,
-                    name: imageName
+                    path: randomImage.path,
+                    word: randomImage.word || randomImage.name,
+                    name: randomImage.word || randomImage.name
                 }, false); // Auto-selected for initial generation
+
+                console.log(`✅ Selected random image: ${randomImage.word || randomImage.name}`);
+            } else {
+                console.warn('No preloaded images, will use default generation');
             }
+
+            // Load dictionary in background for UI display (non-blocking)
+            // This happens AFTER generation setup, so it doesn't slow down initial load
+            loadDictionary().catch(err => console.warn('Dictionary load failed:', err));
 
             // Set grid parameters: 3x3
             elements.rowInput.value = 3;
@@ -1541,8 +1561,13 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         handleSelectionCleared(null, getActiveCanvas()); // Initialize text tools
 
-        // Generate initial worksheet after a delay to allow UI initialization
-        setTimeout(() => generateInitialWorksheet(), 1000);
+        // Preload default theme for instant first generation, then generate
+        (async () => {
+            await preloadDefaultTheme();
+
+            // Generate initial worksheet (no delay needed - theme is cached)
+            await generateInitialWorksheet();
+        })();
     }
 
     function initializeCanvas(canvasEl) {

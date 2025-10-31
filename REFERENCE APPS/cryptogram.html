@@ -10,6 +10,51 @@
   <script src="js/bulletproof-loader.js?v=1759320100"></script>
   <script src="js/unified-language-manager.js"></script>
   <script src="js/border-background-sizer.js"></script>
+  <script>
+    // Set locales globally BEFORE any scripts initialize
+    // uiLocale = Interface language (from main app's language selector)
+    // currentLocale = Content language for worksheets (from internal selector)
+
+    const urlParams = new URLSearchParams(window.location.search);
+
+    // UI locale comes from the main app (via URL parameter)
+    let uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
+
+    // Content locale can be different (initially same as UI for simplicity)
+    let currentLocale = urlParams.get('content') || uiLocale;
+
+    window.uiLocale = uiLocale;
+    window.currentLocale = currentLocale;
+
+    // ==========================================
+    // TRANSLATION SYSTEM
+    // ==========================================
+
+    // Global translation function (uses uiLocale for UI translations)
+    function t(key) {
+      if (typeof translations === 'undefined') {
+        console.warn('Translations not loaded, returning key:', key);
+        return key;
+      }
+      const translation = (translations[uiLocale] && translations[uiLocale][key]) ||
+                         (translations.en && translations.en[key]) ||
+                         key;
+      return translation;
+    }
+    window.t = t;
+
+    // Format translation with placeholders
+    function formatTranslation(text, ...values) {
+      let result = text;
+      values.forEach((value) => {
+        result = result.replace('{}', value);
+      });
+      return result;
+    }
+    window.formatTranslation = formatTranslation;
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <style>
@@ -1142,17 +1187,8 @@
     // MUST BE FIRST - Before ANY DOM element references
     let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
 
-    // Initialize locales from URL if present
-    const urlParams = new URLSearchParams(window.location.search);
-
-    // UI locale (for interface language) - from 'locale' or 'ui' parameter
-    window.uiLocale = urlParams.get('locale') || urlParams.get('ui') || 'en';
-
-    // Content locale (for image library language) - from 'content' parameter, defaults to uiLocale
-    let currentLocale = urlParams.get('content') || window.uiLocale;
-
-    // Set currentLocale globally BEFORE DOMContentLoaded (critical for enhancement scripts)
-    window.currentLocale = currentLocale;
+    // Note: Locale initialization moved to inline script in <head> for performance
+    // urlParams, window.uiLocale, and window.currentLocale are now set early
 
     document.addEventListener("DOMContentLoaded", function() {
         // --- LANGUAGE SUPPORT ---
@@ -1438,31 +1474,37 @@
             }
 
             // Initialize BulletproofLoader AFTER core functionality is set up
-            if (window.BulletproofLoader) {
-                window.BulletproofLoader.init({
-                    borderSelect: borderThemeSelect,
-                    backgroundSelect: backgroundThemeSelect,
-                    locale: currentLocale
-                }).then(() => {
-                    console.log('BulletproofLoader initialized successfully');
-                    // BulletproofLoader handles theme loading, no need for manual loading
-                    // Generate initial worksheet after BulletproofLoader initialization
-                    setTimeout(() => generateInitialWorksheet(), 1000);
-                }).catch(error => {
+            async function initApp() {
+                try {
+                    if (window.BulletproofLoader) {
+                        await window.BulletproofLoader.init({
+                            borderSelect: borderThemeSelect,
+                            backgroundSelect: backgroundThemeSelect,
+                            locale: currentLocale
+                        });
+                        console.log('BulletproofLoader initialized successfully');
+                    } else {
+                        // Fallback if BulletproofLoader not available
+                        loadBorderThemes();
+                        loadBackgroundThemes();
+                    }
+
+                    // Generate initial worksheet immediately (no delay!)
+                    await generateInitialWorksheet();
+                } catch (error) {
                     console.error('BulletproofLoader init failed:', error);
-                    // Fallback to manual loading only on error
+                    // Fallback to manual loading on error
                     loadBorderThemes();
                     loadBackgroundThemes();
                     // Still generate initial worksheet even if BulletproofLoader fails
-                    setTimeout(() => generateInitialWorksheet(), 1000);
-                });
-            } else {
-                // Fallback if BulletproofLoader not available
-                loadBorderThemes();
-                loadBackgroundThemes();
-                // Generate initial worksheet in fallback scenario
-                setTimeout(() => generateInitialWorksheet(), 1000);
+                    await generateInitialWorksheet();
+                }
             }
+
+            // Start initialization
+            initApp().catch(err => {
+                console.error('Failed to initialize app:', err);
+            });
         }
 
         // --- UI SETUP FUNCTIONS ---

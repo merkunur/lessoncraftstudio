@@ -2070,6 +2070,31 @@
         if (duration > 0) setTimeout(() => { messageDiv.style.display = 'none'; }, duration);
       }
 
+      // PERFORMANCE FIX: Preload default theme for instant first generation
+      async function preloadDefaultTheme() {
+        // Silently preload animals theme and its images in background
+        try {
+            const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+            if (response.ok) {
+                const data = await response.json();
+                // Cache the images for faster access
+                const images = data.images || data;
+
+                // Preload first 8 actual images in browser cache for instant rendering
+                const imagesToPreload = images.slice(0, 8);
+                imagesToPreload.forEach(imgData => {
+                    const img = new Image();
+                    img.src = imgData.path;
+                });
+
+                console.log('[PERFORMANCE] Preloaded animals theme with', imagesToPreload.length, 'images');
+            }
+        } catch (error) {
+            // Fail silently - not critical, just a performance optimization
+            console.log('[PERFORMANCE] Theme preload failed (non-critical):', error);
+        }
+      }
+
       async function loadThemes() {
         try {
             const res = await fetch(`/api/themes-translated?locale=${currentLocale}`);
@@ -3163,24 +3188,35 @@
           }
       }
       
-      loadThemes();
+      // PERFORMANCE FIX: Async initialization for faster first load
+      async function initializeApp() {
+          // Load theme options
+          await loadThemes();
 
-      // Initialize BulletproofLoader to handle border/background themes
-      // EXACTLY like addition.html does it
-      if (window.BulletproofLoader) {
-          console.log('Initializing BulletproofLoader with locale:', currentLocale);
+          // Initialize BulletproofLoader to handle border/background themes
+          // EXACTLY like addition.html does it
+          if (window.BulletproofLoader) {
+              console.log('Initializing BulletproofLoader with locale:', currentLocale);
 
-          window.BulletproofLoader.init({
-              borderSelect: borderThemeSelect,
-              backgroundSelect: backgroundThemeSelect,
-              locale: currentLocale  // EXPLICITLY pass the locale
-          }).then(() => {
-              console.log('✅ BulletproofLoader initialized successfully');
-          }).catch(err => {
-              console.error('Failed to initialize BulletproofLoader:', err);
-          });
-      } else {
-          console.error('BulletproofLoader not loaded!');
+              try {
+                  await window.BulletproofLoader.init({
+                      borderSelect: borderThemeSelect,
+                      backgroundSelect: backgroundThemeSelect,
+                      locale: currentLocale  // EXPLICITLY pass the locale
+                  });
+                  console.log('✅ BulletproofLoader initialized successfully');
+              } catch (err) {
+                  console.error('Failed to initialize BulletproofLoader:', err);
+              }
+          } else {
+              console.error('BulletproofLoader not loaded!');
+          }
+
+          // PERFORMANCE FIX: Preload default theme in background for instant first generation
+          await preloadDefaultTheme();
+
+          // PERFORMANCE FIX: Generate initial worksheet immediately (no setTimeout delay)
+          await generateInitialWorksheet();
       }
 
       renderSelectedImages();
@@ -3232,7 +3268,10 @@
           }
       }
 
-      setTimeout(() => generateInitialWorksheet(), 1500);
+      // PERFORMANCE FIX: Call initialization immediately (removed 1500ms setTimeout)
+      initializeApp().catch(err => {
+          console.error('Failed to initialize app:', err);
+      });
     });
 
     // Check if user is on free tier

@@ -835,6 +835,47 @@
         cursor: not-allowed;
     }
 
+    /* Unlock All Button */
+    .unlock-all-controls {
+      display: none; /* Hidden by default */
+      align-items: center;
+      gap: 6px;
+      padding: 4px 12px;
+      background: rgba(255, 165, 0, 0.25);
+      border-radius: 8px;
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 165, 0, 0.4);
+    }
+
+    .unlock-all-controls.visible {
+      display: flex;
+    }
+
+    .unlock-all-btn {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 4px 10px;
+      background: rgba(255, 255, 255, 0.2);
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 12px;
+      font-weight: 500;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+
+    .unlock-all-btn:hover {
+      background: rgba(255, 255, 255, 0.3);
+      transform: scale(1.05);
+    }
+
+    .unlock-all-btn i {
+      font-size: 14px;
+    }
+
     /* --- Dropdown Containers --- */
     .dropdown-container {
         position: relative;
@@ -1156,6 +1197,9 @@
               </div>
           </div>
           <div class="toolbar-group">
+              <button class="context-btn" id="toolbarLockBtn" data-translate-title="toolbar.lockUnlock" title="Lock/Unlock"><i class="fas fa-lock-open"></i></button>
+          </div>
+          <div class="toolbar-group">
               <button class="context-btn" id="toolbarDeleteBtn" data-translate-title="toolbar.delete" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
           </div>
       </div>
@@ -1176,6 +1220,13 @@
           <div class="history-controls">
             <button id="undoBtn" class="history-btn" data-translate-title="undo" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
             <button id="redoBtn" class="history-btn" data-translate-title="redo" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+          </div>
+          <!-- Unlock All Button (shown when objects are locked) -->
+          <div id="unlockAllControls" class="unlock-all-controls">
+            <button id="unlockAllBtn" class="unlock-all-btn" data-translate-title="toolbar.unlockAll" title="Unlock All Locked Objects">
+              <i class="fas fa-unlock"></i>
+              <span data-translate="toolbar.unlockAll">Unlock All</span>
+            </button>
           </div>
           <div class="dropdown-container">
             <button id="generateDropdownBtn" class="action-button accent"><span data-translate="bigsmall.generate">Generate</span> <i class="fas fa-caret-down"></i></button>
@@ -1288,6 +1339,8 @@
       const zoomPercentage = document.getElementById('zoomPercentage');
       const undoBtn = document.getElementById('undoBtn');
       const redoBtn = document.getElementById('redoBtn');
+      const unlockAllBtn = document.getElementById('unlockAllBtn');
+      const unlockAllControls = document.getElementById('unlockAllControls');
       const worksheetCanvasWrapper = document.getElementById('worksheetCanvasWrapper');
       const worksheetCanvasElement = document.getElementById('worksheetCanvasElement');
       const answerKeyCanvasWrapper = document.getElementById('answerKeyCanvasWrapper');
@@ -1326,6 +1379,7 @@
       const toolbarSendToBackBtn = document.getElementById('toolbarSendToBackBtn');
       const alignBtn = document.getElementById('alignBtn');
       const alignDropdown = document.getElementById('alignDropdown');
+      const toolbarLockBtn = document.getElementById('toolbarLockBtn');
       const toolbarDeleteBtn = document.getElementById('toolbarDeleteBtn');
       const allToolbarButtons = objectContextToolbar.querySelectorAll('.context-btn');
 
@@ -2138,6 +2192,124 @@
         closeAllMenus();
       }
 
+      function toggleLockSelectedObjects() {
+        const canvas = getActiveCanvas();
+        const activeObject = canvas.getActiveObject();
+
+        // If nothing is selected, unlock ALL locked objects on the canvas
+        if (!activeObject) {
+            const allObjects = canvas.getObjects();
+            const lockedObjects = allObjects.filter(obj => obj.lockMovementX === true);
+
+            if (lockedObjects.length > 0) {
+                lockedObjects.forEach(obj => {
+                    obj.set({
+                        lockMovementX: false,
+                        lockMovementY: false,
+                        lockRotation: false,
+                        lockScalingX: false,
+                        lockScalingY: false,
+                        hasControls: true,
+                        hasBorders: true,
+                        selectable: true,
+                        evented: true
+                    });
+                });
+
+                // Update button icon to unlocked
+                const lockIcon = toolbarLockBtn.querySelector('i');
+                lockIcon.classList.remove('fa-lock');
+                lockIcon.classList.add('fa-lock-open');
+
+                canvas.renderAll();
+                console.log(`Unlocked ${lockedObjects.length} objects`);
+            }
+
+            closeAllMenus();
+            updateUnlockAllButtonVisibility();
+            return;
+        }
+
+        // Handle both single objects and groups
+        const objectsToLock = activeObject.type === 'activeSelection'
+            ? activeObject.getObjects()
+            : [activeObject];
+
+        // Check if any object is currently locked
+        const isAnyLocked = objectsToLock.some(obj => obj.lockMovementX === true);
+
+        // Toggle lock state (opposite of current state)
+        const shouldLock = !isAnyLocked;
+
+        objectsToLock.forEach(obj => {
+            // When locking, make objects completely non-interactive
+            // This prevents them from blocking mouse drag selections
+            obj.set({
+                lockMovementX: shouldLock,
+                lockMovementY: shouldLock,
+                lockRotation: shouldLock,
+                lockScalingX: shouldLock,
+                lockScalingY: shouldLock,
+                hasControls: !shouldLock,
+                hasBorders: !shouldLock,
+                selectable: !shouldLock,  // Locked objects are not selectable
+                evented: !shouldLock      // Locked objects don't capture mouse events
+            });
+        });
+
+        // Update button icon
+        const lockIcon = toolbarLockBtn.querySelector('i');
+        if (shouldLock) {
+            lockIcon.classList.remove('fa-lock-open');
+            lockIcon.classList.add('fa-lock');
+        } else {
+            lockIcon.classList.remove('fa-lock');
+            lockIcon.classList.add('fa-lock-open');
+        }
+
+        canvas.renderAll();
+        closeAllMenus();
+        updateUnlockAllButtonVisibility();
+      }
+
+      function unlockAllObjects() {
+        const canvas = getActiveCanvas();
+        const allObjects = canvas.getObjects();
+        const lockedObjects = allObjects.filter(obj => obj.lockMovementX === true);
+
+        if (lockedObjects.length > 0) {
+            lockedObjects.forEach(obj => {
+                obj.set({
+                    lockMovementX: false,
+                    lockMovementY: false,
+                    lockRotation: false,
+                    lockScalingX: false,
+                    lockScalingY: false,
+                    hasControls: true,
+                    hasBorders: true,
+                    selectable: true,
+                    evented: true
+                });
+            });
+
+            canvas.renderAll();
+            console.log(`Unlocked ${lockedObjects.length} objects`);
+            updateUnlockAllButtonVisibility();
+        }
+      }
+
+      function updateUnlockAllButtonVisibility() {
+        const canvas = getActiveCanvas();
+        const allObjects = canvas.getObjects();
+        const hasLockedObjects = allObjects.some(obj => obj.lockMovementX === true);
+
+        if (hasLockedObjects) {
+            unlockAllControls.classList.add('visible');
+        } else {
+            unlockAllControls.classList.remove('visible');
+        }
+      }
+
       function alignObjects(type) {
         const activeCanvas = getActiveCanvas();
         const activeObj = activeCanvas.getActiveObject();
@@ -2413,17 +2585,17 @@
           if (!showHeaderCheckbox.checked) return null;
 
           const defaultHeaders = {
-              en: { title: 'Big or Small?', description: 'Circle the big items or the small items in each box!' },
-              de: { title: 'Groß oder Klein?', description: 'Kreise die großen oder kleinen Dinge in jeder Box ein!' },
-              fr: { title: 'Grand ou Petit?', description: 'Entoure les grands ou petits objets dans chaque boîte!' },
-              es: { title: '¿Grande o Pequeño?', description: '¡Encierra en un círculo los objetos grandes o pequeños!' },
-              it: { title: 'Grande o Piccolo?', description: 'Cerchia gli oggetti grandi o piccoli in ogni riquadro!' },
-              pt: { title: 'Grande ou Pequeno?', description: 'Circule os objetos grandes ou pequenos em cada caixa!' },
-              nl: { title: 'Groot of Klein?', description: 'Cirkel de grote of kleine voorwerpen in elk vakje!' },
-              sv: { title: 'Stort eller Litet?', description: 'Ringa in de stora eller små sakerna i varje ruta!' },
-              da: { title: 'Stort eller Lille?', description: 'Sæt ring om de store eller små ting i hver boks!' },
-              no: { title: 'Stort eller Lite?', description: 'Sett ring rundt de store eller små tingene i hver boks!' },
-              fi: { title: 'Iso vai Pieni?', description: 'Ympyröi suuret tai pienet esineet jokaisessa ruudussa!' }
+              en: { title: 'Big or Small?', description: 'Circle the biggest or the smallest item in each box!' },
+              de: { title: 'Groß oder Klein?', description: 'Kreise das größte oder das kleinste Ding in jeder Box ein!' },
+              fr: { title: 'Grand ou Petit?', description: 'Entoure le plus grand ou le plus petit objet dans chaque boîte!' },
+              es: { title: '¿Grande o Pequeño?', description: '¡Encierra en un círculo el objeto más grande o el más pequeño en cada caja!' },
+              it: { title: 'Grande o Piccolo?', description: 'Cerchia l\'oggetto più grande o il più piccolo in ogni riquadro!' },
+              pt: { title: 'Grande ou Pequeno?', description: 'Circule o objeto maior ou o menor em cada caixa!' },
+              nl: { title: 'Groot of Klein?', description: 'Cirkel het grootste of het kleinste voorwerp in elk vakje!' },
+              sv: { title: 'Stort eller Litet?', description: 'Ringa in den största eller den minsta saken i varje ruta!' },
+              da: { title: 'Stort eller Lille?', description: 'Sæt ring om den største eller den mindste ting i hver boks!' },
+              no: { title: 'Stort eller Lite?', description: 'Sett ring rundt den største eller den minste tingen i hver boks!' },
+              fi: { title: 'Iso vai Pieni?', description: 'Ympyröi suurin tai pienin esine jokaisessa ruudussa!' }
           };
 
           const locale = currentLocale || 'en';
@@ -2730,9 +2902,11 @@
                 lastCanvasSize.height !== currentCanvasConfig.height;
 
             const oldCardTransforms = [];
+            let oldExerciseCount = 0;
             // Only save transforms if canvas size hasn't changed
             if (!isFirstGeneration && !canvasSizeChanged) {
                 const oldCards = worksheetCanvas.getObjects().filter(o => o.isBigSmallExercise);
+                oldExerciseCount = oldCards.length;
                 oldCards.sort((a, b) => a.originalIndex - b.originalIndex);
                 oldCards.forEach(card => {
                     oldCardTransforms[card.originalIndex] = {
@@ -2741,9 +2915,14 @@
                         scaleX: card.scaleX,
                         scaleY: card.scaleY,
                         angle: card.angle,
+                        originX: card.originX,
+                        originY: card.originY
                     };
                 });
             }
+
+            // Only preserve transforms if exercise count hasn't changed
+            const shouldPreserveTransforms = (oldExerciseCount === problemCount) && !canvasSizeChanged;
 
             const objectsToRemove = worksheetCanvas.getObjects().filter(o => o.isBigSmallExercise);
             objectsToRemove.forEach(o => worksheetCanvas.remove(o));
@@ -2906,14 +3085,16 @@
                 
                 // Center vertically in available space (between top and bottom margins)
                 const verticalOffset = TOP_MARGIN + (availableHeight - totalGridHeight) / 2;
-                
-                // Position with proper margins and centering
-                const groupX = horizontalOffset + col * (BOX_WIDTH + BOX_GAP);
-                const groupY = verticalOffset + row * (BOX_HEIGHT + BOX_GAP);
+
+                // Calculate CENTER position (not top-left) for better transform stability
+                const cellLeft = horizontalOffset + col * (BOX_WIDTH + BOX_GAP);
+                const cellTop = verticalOffset + row * (BOX_HEIGHT + BOX_GAP);
+                const groupX = cellLeft + (BOX_WIDTH / 2);  // Center X
+                const groupY = cellTop + (BOX_HEIGHT / 2);  // Center Y
 
                 const exerciseGroup = new fabric.Group(groupItems, {
                     left: groupX, top: groupY,
-                    originX: 'left', originY: 'top',  // FIX: Use absolute coordinates, not center-relative
+                    originX: 'center', originY: 'center',  // Use center origin for stable transforms
                     selectable: true, hasControls: true, hasBorders: true,
                     isBigSmallExercise: true,
                     originalIndex: i,
@@ -2926,11 +3107,14 @@
 
             const exerciseGroups = await Promise.all(allPromises);
 
-            exerciseGroups.forEach((newCard, index) => {
-                if (oldCardTransforms[index]) {
-                    newCard.set(oldCardTransforms[index]);
-                }
-            });
+            // Only restore transforms if count and canvas size unchanged
+            if (shouldPreserveTransforms) {
+                exerciseGroups.forEach((newCard, index) => {
+                    if (oldCardTransforms[index]) {
+                        newCard.set(oldCardTransforms[index]);
+                    }
+                });
+            }
 
             worksheetCanvas.add(...exerciseGroups);
 
@@ -3034,9 +3218,11 @@
                 lastCanvasSize.height !== currentCanvasConfig.height;
 
             const oldCardTransforms = [];
+            let oldExerciseCount = 0;
             // Only save transforms if canvas size hasn't changed
              if (!isFirstGeneration && !canvasSizeChanged) {
                 const oldCards = answerKeyCanvas.getObjects().filter(o => o.isBigSmallAnswer);
+                oldExerciseCount = oldCards.length;
                 oldCards.sort((a, b) => a.originalIndex - b.originalIndex);
                 oldCards.forEach(card => {
                     oldCardTransforms[card.originalIndex] = {
@@ -3045,9 +3231,17 @@
                         scaleX: card.scaleX,
                         scaleY: card.scaleY,
                         angle: card.angle,
+                        originX: card.originX,
+                        originY: card.originY
                     };
                 });
             }
+
+            // Get problem count for shouldPreserveTransforms check
+            const problemCount = lastGeneratedCells.length;
+
+            // Only preserve transforms if exercise count hasn't changed
+            const shouldPreserveTransforms = (oldExerciseCount === problemCount) && !canvasSizeChanged;
 
             const existingUserObjects = answerKeyCanvas.getObjects().filter(o =>
                 !o.isBigSmallAnswer && !o.isBorder && !o.isBackground &&
@@ -3097,9 +3291,8 @@
             // Determine optimal columns based on page orientation and exercise count
             const isLandscape = currentCanvasConfig.width > currentCanvasConfig.height;
             let COLS = isLandscape ? 3 : 2;
-            
-            // Adjust columns if we have fewer exercises
-            const problemCount = lastGeneratedCells.length;
+
+            // Adjust columns if we have fewer exercises (problemCount already defined above)
             if (problemCount <= 2) COLS = Math.min(COLS, problemCount);
             
             // Calculate rows needed
@@ -3240,13 +3433,15 @@
                 const landscapeAdjustment = isLandscape ? -80 : 0;
                 const verticalOffset = TOP_MARGIN + (availableHeight - totalGridHeight) / 2 + landscapeAdjustment;
 
-                // Position with proper margins and centering
-                const groupX = horizontalOffset + col * (BOX_WIDTH + BOX_GAP);
-                const groupY = verticalOffset + row * (BOX_HEIGHT + BOX_GAP);
+                // Calculate CENTER position (not top-left) for better transform stability
+                const cellLeft = horizontalOffset + col * (BOX_WIDTH + BOX_GAP);
+                const cellTop = verticalOffset + row * (BOX_HEIGHT + BOX_GAP);
+                const groupX = cellLeft + (BOX_WIDTH / 2);  // Center X
+                const groupY = cellTop + (BOX_HEIGHT / 2);  // Center Y
 
                 const exerciseGroup = new fabric.Group(groupItems, {
                     left: groupX, top: groupY,
-                    originX: 'left', originY: 'top',  // FIX: Use absolute coordinates, not center-relative
+                    originX: 'center', originY: 'center',  // Use center origin for stable transforms
                     selectable: true, hasControls: true, hasBorders: true,
                     isBigSmallAnswer: true,
                     originalIndex: i,
@@ -3256,12 +3451,15 @@
             });
 
             const exerciseGroups = await Promise.all(allPromises);
-          
-            exerciseGroups.forEach((newCard, index) => {
-                if (oldCardTransforms[index]) {
-                    newCard.set(oldCardTransforms[index]);
-                }
-            });
+
+            // Only restore transforms if count and canvas size unchanged
+            if (shouldPreserveTransforms) {
+                exerciseGroups.forEach((newCard, index) => {
+                    if (oldCardTransforms[index]) {
+                        newCard.set(oldCardTransforms[index]);
+                    }
+                });
+            }
 
             answerKeyCanvas.add(...exerciseGroups);
             answerKeyCanvas.add(...existingUserObjects);
@@ -3727,7 +3925,9 @@ async function downloadPDF(canvasInstance, fileName) {
         toolbarSendBackwardBtn.addEventListener('click', sendObjectBackward);
         toolbarSendToBackBtn.addEventListener('click', sendObjectToBack);
 
+        toolbarLockBtn.addEventListener('click', toggleLockSelectedObjects);
         toolbarDeleteBtn.addEventListener('click', deleteSelectedObjects);
+        unlockAllBtn.addEventListener('click', unlockAllObjects);
         document.querySelectorAll('#alignDropdown button').forEach(button => {
             button.addEventListener('click', (e) => {
                 const type = e.currentTarget.id.replace('Btn', '');

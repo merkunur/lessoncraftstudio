@@ -1679,10 +1679,16 @@
                 lastCanvasSize.height !== currentCanvasConfig.height;
 
             const oldTransforms = {};
+            let oldExerciseCount = 0;
+
             // Only save transforms if canvas size hasn't changed
             if (!canvasSizeChanged) {
                 worksheetCanvas.getObjects().forEach(obj => {
                     if (obj.isGeneratedItem && obj.originalIndex !== undefined) {
+                        // Only count actual exercises (originalIndex >= 0), not name/date (-1) or legend (-2)
+                        if (obj.originalIndex >= 0) {
+                            oldExerciseCount++;
+                        }
                         oldTransforms[obj.originalIndex] = {
                             left: obj.left, top: obj.top,
                             scaleX: obj.scaleX, scaleY: obj.scaleY,
@@ -1770,6 +1776,9 @@
                 problemPairs.push([imgA, imgB]);
             }
 
+            // Only preserve transforms if BOTH exercise count AND canvas dimensions haven't changed
+            const shouldPreserveTransforms = (oldExerciseCount === numExercises) && !canvasSizeChanged;
+
             worksheetCanvas.problemsData = { pool: baseImagePool, pairs: problemPairs, numberAssignments: numberAssignments };
 
             // Professional layout with proper margins
@@ -1788,27 +1797,32 @@
             const contentWidth = canvasWidth - (sideMargin * 2);
             const contentHeight = canvasHeight - topMargin - bottomMargin;
 
-            const allPromises = [];
+            // CRITICAL FIX: Execute sequentially to avoid race condition with currentY
+            // Previously, all promises ran in parallel, causing exercisesPromise to read
+            // currentY BEFORE legendPromise updated it, resulting in incorrect spacing.
+            const allBlocks = [];
             let currentY = topMargin;
 
+            // Step 1: Create name/date if needed (updates currentY)
             if (document.getElementById('includeNameDate').checked) {
-                const nameDatePromise = new Promise(resolve => {
+                const nameDateGroup = await new Promise(resolve => {
                     const nameText = new fabric.Textbox(t('codeaddition.name.field'), { fontSize: 20, fontFamily: 'Arial' });
                     const dateText = new fabric.Textbox(t('codeaddition.date.field'), { left: nameText.width + 30, fontSize: 20, fontFamily: 'Arial' });
-                    const group = new fabric.Group([nameText, dateText], { 
-                        top: currentY, 
-                        left: sideMargin, 
-                        isGeneratedItem: true, 
-                        originalIndex: -1, 
-                        ...getEditableGroupOptions('NameDate') 
+                    const group = new fabric.Group([nameText, dateText], {
+                        top: currentY,
+                        left: sideMargin,
+                        isGeneratedItem: true,
+                        originalIndex: -1,
+                        ...getEditableGroupOptions('NameDate')
                     });
                     currentY += group.getScaledHeight() + 30;
                     resolve(group);
                 });
-                allPromises.push(nameDatePromise);
+                allBlocks.push(nameDateGroup);
             }
-            
-            const legendPromise = new Promise(async (resolve) => {
+
+            // Step 2: Create legend (updates currentY) - MUST complete before exercises
+            const legendGroup = await new Promise(async (resolve) => {
                 // Adaptive legend sizing based on orientation and number of items
                 const legendImageHeight = isLandscape ? 50 : 60;
                 const legendSpacing = isLandscape ? 20 : 25;
@@ -1875,46 +1889,49 @@
                 currentY += legendGroup.getScaledHeight() + legendSpacingAfter;
                 resolve(legendGroup);
             });
-            allPromises.push(legendPromise);
+            allBlocks.push(legendGroup);
 
-            const exercisesPromise = new Promise(async (resolve) => {
+            // Step 3: Create exercises - NOW currentY is correctly updated after legend!
+            const exerciseRows = await new Promise(async (resolve) => {
                 const numExercises = problemPairs.length;
-                
-                // Calculate available space for exercises
+
+                // Calculate available space for exercises - currentY now includes legend height
                 const availableHeight = canvasHeight - currentY - bottomMargin;
                 const availableWidth = contentWidth;
                 
                 // Different layouts for portrait vs landscape
                 let exercisesPerRow, rowsNeeded, itemScale;
-                
+
                 if (isLandscape) {
                     // Landscape: Try 2-column layout for better space usage
                     exercisesPerRow = numExercises <= 6 ? 1 : 2;
                     rowsNeeded = Math.ceil(numExercises / exercisesPerRow);
                 } else {
-                    // Portrait: Single column
-                    exercisesPerRow = 1;
-                    rowsNeeded = numExercises;
+                    // Portrait: Use 2-column layout if more than 7 exercises to prevent overflow
+                    exercisesPerRow = numExercises > 7 ? 2 : 1;
+                    rowsNeeded = Math.ceil(numExercises / exercisesPerRow);
                 }
                 
                 // Calculate optimal scale for exercises
                 const targetRowHeight = 100; // Base height for each exercise
                 const minRowHeight = 50; // Minimum acceptable height
                 const maxRowHeight = 120; // Maximum height to prevent oversizing
-                
+
                 // Calculate height per row based on available space
                 const heightPerRow = availableHeight / rowsNeeded;
                 let rowHeight = Math.min(Math.max(heightPerRow * 0.8, minRowHeight), maxRowHeight);
-                
+
                 // Calculate scale factor based on row height
                 let scaleFactor = rowHeight / targetRowHeight;
                 scaleFactor = Math.min(scaleFactor, 1.0); // Don't scale up
                 scaleFactor = Math.max(scaleFactor, 0.4); // Don't scale down too much
-                
+
                 // Additional adjustment for safety
                 scaleFactor *= 0.85;
-                
-                const verticalSpacing = rowHeight;
+
+                // CRITICAL FIX: Use full available height for spacing to prevent blank space at bottom
+                // This ensures exercises are evenly distributed across the entire page
+                const verticalSpacing = availableHeight / rowsNeeded;
 
                 const exerciseRowPromises = problemPairs.map((pair, i) => new Promise(async (resolveRow) => {
                     let currentX = 0;
@@ -1998,14 +2015,14 @@
                     
                     // Position based on layout (1 or 2 columns)
                     let leftPosition, topPosition;
-                    
-                    if (exercisesPerRow === 2 && isLandscape) {
-                        // Two-column layout for landscape
+
+                    if (exercisesPerRow === 2) {
+                        // Two-column layout (for landscape with >6 exercises OR portrait with >7 exercises)
                         const col = i % 2;
                         const rowIndex = Math.floor(i / 2);
                         const columnWidth = contentWidth / 2;
                         const rowWidth = row.getScaledWidth();
-                        
+
                         // Center within each column
                         leftPosition = sideMargin + (col * columnWidth) + (columnWidth - rowWidth) / 2;
                         topPosition = currentY + (rowIndex * verticalSpacing);
@@ -2016,8 +2033,8 @@
                         topPosition = currentY + (i * verticalSpacing);
                     }
                     
-                    // Ensure content doesn't exceed page width
-                    const maxWidth = contentWidth;
+                    // Ensure content doesn't exceed page width (or column width for 2-column layout)
+                    const maxWidth = exercisesPerRow === 2 ? (contentWidth / 2) * 0.95 : contentWidth;
                     if (row.getScaledWidth() > maxWidth) {
                         const additionalScale = maxWidth / row.getScaledWidth();
                         row.scale(row.scaleX * additionalScale * 0.95);
@@ -2025,6 +2042,11 @@
                         const newRowWidth = row.getScaledWidth();
                         if (exercisesPerRow === 1) {
                             leftPosition = sideMargin + (contentWidth - newRowWidth) / 2;
+                        } else if (exercisesPerRow === 2) {
+                            // Recenter within column after scaling
+                            const col = i % 2;
+                            const columnWidth = contentWidth / 2;
+                            leftPosition = sideMargin + (col * columnWidth) + (columnWidth - newRowWidth) / 2;
                         }
                     }
                     
@@ -2035,20 +2057,22 @@
                         originalIndex: i,
                         ...getEditableGroupOptions(`Exercise ${i + 1}`)
                     };
-                    if (oldTransforms[i]) {
+                    // Only apply saved transforms if exercise count AND canvas size haven't changed
+                    if (shouldPreserveTransforms && oldTransforms[i]) {
                         Object.assign(newProps, oldTransforms[i]);
                     }
                     row.set(newProps);
                 });
-                
+
                 resolve(resolvedRows);
             });
-            allPromises.push(exercisesPromise);
-            
-            const allBlocks = (await Promise.all(allPromises)).flat();
+            allBlocks.push(...exerciseRows);
+
+            // Add all blocks to canvas
             allBlocks.forEach(block => {
                 if(block) {
-                    if (oldTransforms[block.originalIndex]) {
+                    // Only apply saved transforms if exercise count AND canvas size haven't changed
+                    if (shouldPreserveTransforms && oldTransforms[block.originalIndex]) {
                          block.set(oldTransforms[block.originalIndex]);
                     }
                     worksheetCanvas.add(block);
@@ -2137,10 +2161,16 @@
                 lastCanvasSize.height !== currentCanvasConfig.height;
 
             const oldTransforms = {};
+            let oldExerciseCount = 0;
+
             // Only save transforms if canvas size hasn't changed
             if (!canvasSizeChanged) {
                 answerKeyCanvas.getObjects().forEach(obj => {
                     if (obj.isAnswerKeyItem && obj.originalIndex !== undefined) {
+                        // Only count actual exercises (originalIndex >= 0)
+                        if (obj.originalIndex >= 0) {
+                            oldExerciseCount++;
+                        }
                         oldTransforms[obj.originalIndex] = {
                             left: obj.left, top: obj.top,
                             scaleX: obj.scaleX, scaleY: obj.scaleY,
@@ -2149,6 +2179,10 @@
                     }
                 });
             }
+
+            // Only preserve transforms if BOTH exercise count AND canvas dimensions haven't changed
+            const numExercises = pairs.length;
+            const shouldPreserveTransforms = (oldExerciseCount === numExercises) && !canvasSizeChanged;
 
             const userAddedObjectsOnKey = answerKeyCanvas.getObjects().filter(o =>
                 !o.isAnswerKeyItem && !o.isBorder && !o.isBackground &&
@@ -2252,7 +2286,7 @@
             const newExerciseRows = await Promise.all(exerciseRowPromises);
 
             // Run positioning on first generation OR when canvas size changes
-            if (isFirstAnswerKeyGeneration || canvasSizeChanged) {
+            if (isFirstAnswerKeyGeneration || !shouldPreserveTransforms) {
                 const worksheetExercises = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem && o.originalIndex >= 0);
 
                 // Check if worksheet has name/date field to adjust answer key positions
@@ -2275,6 +2309,7 @@
                     }
                 });
             } else {
+                // Only apply saved transforms if exercise count AND canvas size haven't changed
                 newExerciseRows.forEach((row, i) => {
                     if (oldTransforms[i]) {
                         row.set(oldTransforms[i]);

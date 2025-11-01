@@ -181,14 +181,26 @@ export default async function BlogPostPage({
           color: #FFFFFF !important;
         }
 
-        /* PDF Download Buttons - Force dark grey */
+        /* PDF Download Buttons - Modern Professional Design */
         #pdf-downloads-section .pdf-download-button {
-          background-color: #2c2c2e !important;
+          background: linear-gradient(135deg, #3B82F6 0%, #7C3AED 100%) !important;
           color: #ffffff !important;
+          box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3) !important;
+          transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+          border: none !important;
+          font-weight: 600 !important;
+          letter-spacing: 0.3px !important;
         }
 
         #pdf-downloads-section .pdf-download-button:hover {
-          background-color: #3a3a3e !important;
+          background: linear-gradient(135deg, #2563EB 0%, #6D28D9 100%) !important;
+          transform: translateY(-2px) !important;
+          box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4) !important;
+        }
+
+        #pdf-downloads-section .pdf-download-button:active {
+          transform: translateY(0) !important;
+          box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3) !important;
         }
       ` }} />
 
@@ -351,24 +363,18 @@ export default async function BlogPostPage({
                   <a
                     href={pdf.filePath}
                     download={pdf.filename}
-                    className="pdf-download-button-hover"
+                    className="pdf-download-button pdf-download-button-hover"
                     style={{
                       display: 'inline-flex',
                       alignItems: 'center',
                       justifyContent: 'center',
                       gap: '8px',
-                      backgroundColor: '#2563eb',
-                      color: '#ffffff',
-                      padding: '12px 24px',
-                      borderRadius: '8px',
+                      padding: '14px 24px',
+                      borderRadius: '10px',
                       textDecoration: 'none',
-                      fontWeight: '600',
-                      fontSize: '14px',
-                      transition: 'all 0.2s ease',
+                      fontSize: '15px',
                       width: '100%',
-                      border: 'none',
-                      cursor: 'pointer',
-                      boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)'
+                      cursor: 'pointer'
                     }}
                   >
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

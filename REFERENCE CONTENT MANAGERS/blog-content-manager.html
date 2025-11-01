@@ -831,9 +831,9 @@
                 </div>
                 <div class="form-group">
                     <label class="form-label">PDF Download Button Text</label>
-                    <input type="text" id="postPdfDownloadButton" class="form-control" placeholder="e.g., 📥 Download Now →">
+                    <input type="text" id="postPdfDownloadButton" class="form-control" placeholder="e.g., Download Now">
                     <small style="color: var(--gray-500); display: block; margin-top: 5px;">
-                        Button text for downloading PDFs (translatable per language)
+                        Button text for downloading PDFs - emojis and arrows are automatically removed (translatable per language)
                     </small>
                 </div>
             </div>
@@ -2053,7 +2053,7 @@
                     document.getElementById('postPdfSectionDescription').value = translation.pdfSectionDescription || 'Premium educational resources designed by experts to accelerate learning and inspire students';
                     document.getElementById('postPdfFreeLabel').value = translation.pdfFreeLabel || 'Free';
                     document.getElementById('postPdfPremiumLabel').value = translation.pdfPremiumLabel || 'Premium';
-                    document.getElementById('postPdfDownloadButton').value = translation.pdfDownloadButton || '📥 Download Now →';
+                    document.getElementById('postPdfDownloadButton').value = translation.pdfDownloadButton || 'Download Now';
 
                     // Update featured image preview
                     if (post.featuredImage) {
@@ -2118,7 +2118,7 @@
                     document.getElementById('postPdfSectionDescription').value = translation.pdfSectionDescription || 'Premium educational resources designed by experts to accelerate learning and inspire students';
                     document.getElementById('postPdfFreeLabel').value = translation.pdfFreeLabel || 'Free';
                     document.getElementById('postPdfPremiumLabel').value = translation.pdfPremiumLabel || 'Premium';
-                    document.getElementById('postPdfDownloadButton').value = translation.pdfDownloadButton || '📥 Download Now →';
+                    document.getElementById('postPdfDownloadButton').value = translation.pdfDownloadButton || 'Download Now';
 
                     // Show featured image preview if exists
                     if (post.featuredImage) {
@@ -2274,7 +2274,7 @@
             document.getElementById('postPdfSectionDescription').value = 'Premium educational resources designed by experts to accelerate learning and inspire students';
             document.getElementById('postPdfFreeLabel').value = 'Free';
             document.getElementById('postPdfPremiumLabel').value = 'Premium';
-            document.getElementById('postPdfDownloadButton').value = '📥 Download Now →';
+            document.getElementById('postPdfDownloadButton').value = 'Download Now';
             document.getElementById('htmlEditor').value = '';
             document.getElementById('previewFrame').srcdoc = '';
 
@@ -2341,9 +2341,36 @@
             const pdfDescription = document.getElementById('postPdfSectionDescription').value || 'Premium educational resources designed by experts to accelerate learning and inspire students';
             const pdfFreeLabel = document.getElementById('postPdfFreeLabel').value || 'Free';
             const pdfPremiumLabel = document.getElementById('postPdfPremiumLabel').value || 'Premium';
-            const pdfDownloadButton = document.getElementById('postPdfDownloadButton').value || '📥 Download Now →';
+            const pdfDownloadButton = document.getElementById('postPdfDownloadButton').value || 'Download Now';
 
             return `
+                <style>
+                    .pdf-download-btn {
+                        width: 100%;
+                        background: linear-gradient(135deg, #3B82F6 0%, #7C3AED 100%);
+                        color: white;
+                        padding: 14px 24px;
+                        border: none;
+                        border-radius: 10px;
+                        font-weight: 600;
+                        font-size: 15px;
+                        cursor: pointer;
+                        box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+                        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                        letter-spacing: 0.3px;
+                        position: relative;
+                        overflow: hidden;
+                    }
+                    .pdf-download-btn:hover {
+                        transform: translateY(-2px);
+                        box-shadow: 0 8px 20px rgba(59, 130, 246, 0.4);
+                        background: linear-gradient(135deg, #2563EB 0%, #6D28D9 100%);
+                    }
+                    .pdf-download-btn:active {
+                        transform: translateY(0);
+                        box-shadow: 0 2px 8px rgba(59, 130, 246, 0.3);
+                    }
+                </style>
                 <section style="background: #F3F4F6; padding: 60px 20px; margin-top: 60px; text-align: center;">
                     <h2 style="color: #7C3AED; font-size: 36px; margin-bottom: 20px;">${pdfTitle}</h2>
                     <p style="color: #6B7280; font-size: 18px; margin-bottom: 40px;">
@@ -2365,7 +2392,7 @@
                                         <span style="color: #6B7280; font-size: 13px;">📁 ${pdf.size}</span>
                                         <span style="color: #10B981; font-weight: 600;">💲 ${pdf.price === 'Free' ? pdfFreeLabel : pdfPremiumLabel}</span>
                                     </div>
-                                    <button style="width: 100%; background: #111827; color: white; padding: 12px; border: none; border-radius: 8px; font-weight: 600; cursor: pointer;">
+                                    <button class="pdf-download-btn">
                                         ${pdfDownloadButton}
                                     </button>
                                 </div>
@@ -2435,7 +2462,7 @@
                 pdfSectionDescription: document.getElementById('postPdfSectionDescription').value || 'Premium educational resources designed by experts to accelerate learning and inspire students',
                 pdfFreeLabel: document.getElementById('postPdfFreeLabel').value || 'Free',
                 pdfPremiumLabel: document.getElementById('postPdfPremiumLabel').value || 'Premium',
-                pdfDownloadButton: document.getElementById('postPdfDownloadButton').value || '📥 Download Now →'
+                pdfDownloadButton: document.getElementById('postPdfDownloadButton').value || 'Download Now'
             };
 
             const translations = {
@@ -2569,7 +2596,7 @@
                         pdfSectionDescription: translation.pdfSectionDescription || '',
                         pdfFreeLabel: translation.pdfFreeLabel || 'Free',
                         pdfPremiumLabel: translation.pdfPremiumLabel || 'Premium',
-                        pdfDownloadButton: translation.pdfDownloadButton || '📥 Download Now →'
+                        pdfDownloadButton: translation.pdfDownloadButton || 'Download Now'
                     };
                 }
 

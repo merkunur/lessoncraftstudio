@@ -356,26 +356,31 @@ export default async function BlogPostPage({
                     fontSize: '14px',
                     lineHeight: '1.5',
                     color: '#6B7280',
-                    margin: '0 0 12px 0'
+                    margin: '0 0 16px 0'
                   }}>
                     {pdfDescription}
                   </p>
-                  <a
-                    href={pdf.filePath}
-                    download={pdf.filename}
-                    className="pdf-download-button pdf-download-button-hover"
-                    style={{
-                      display: 'inline-block',
-                      padding: '12px 32px',
-                      borderRadius: '10px',
-                      textDecoration: 'none',
-                      fontSize: '15px',
-                      cursor: 'pointer',
-                      textAlign: 'center'
-                    }}
-                  >
-                    {translation.pdfDownloadButton || 'Download'}
-                  </a>
+                  <div style={{ textAlign: 'center' }}>
+                    <a
+                      href={pdf.filePath}
+                      download={pdf.filename}
+                      className="pdf-download-button pdf-download-button-hover"
+                      style={{
+                        display: 'inline-block',
+                        padding: '12px 32px',
+                        borderRadius: '10px',
+                        textDecoration: 'none',
+                        fontSize: '15px',
+                        cursor: 'pointer',
+                        textAlign: 'center'
+                      }}
+                    >
+                      {(translation.pdfDownloadButton || 'Download')
+                        .replace(/[📥📄📋⬇️↓→➜➔➡]/g, '')
+                        .replace(/\s+/g, ' ')
+                        .trim()}
+                    </a>
+                  </div>
                 </div>
               </div>
             );

@@ -365,25 +365,16 @@ export default async function BlogPostPage({
                     download={pdf.filename}
                     className="pdf-download-button pdf-download-button-hover"
                     style={{
-                      display: 'inline-flex',
-                      alignItems: 'center',
-                      justifyContent: 'center',
-                      gap: '8px',
-                      padding: '14px 24px',
+                      display: 'inline-block',
+                      padding: '12px 32px',
                       borderRadius: '10px',
                       textDecoration: 'none',
                       fontSize: '15px',
-                      width: '100%',
-                      cursor: 'pointer'
+                      cursor: 'pointer',
+                      textAlign: 'center'
                     }}
                   >
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M7 10l5 5 5-5M12 15V3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
-                    <span>{translation.pdfDownloadButton || 'Download'}</span>
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ marginLeft: 'auto' }}>
-                      <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
+                    {translation.pdfDownloadButton || 'Download'}
                   </a>
                 </div>
               </div>

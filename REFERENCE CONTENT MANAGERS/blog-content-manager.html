@@ -1962,7 +1962,13 @@
                 content.classList.remove('active');
             });
 
-            event.target.classList.add('active');
+            // Find and activate the clicked button
+            const buttons = document.querySelectorAll('.nav-tab');
+            buttons.forEach(btn => {
+                if (btn.textContent.toLowerCase().includes(tabName.split('-')[0])) {
+                    btn.classList.add('active');
+                }
+            });
             document.getElementById(tabName + '-tab').classList.add('active');
 
             // Load tab-specific content

@@ -61,19 +61,20 @@ nul
 # ============================================
 # WORKSHEET GENERATORS & CONTENT MANAGERS
 # ============================================
-# These files are treated as static content/assets, not source code
-# They are deployed from REFERENCE folders, NOT from git
+# Architecture:
+# - REFERENCE folders (REFERENCE APPS, REFERENCE CONTENT MANAGERS) = SOURCE OF TRUTH in git
+# - Deployed versions (frontend/public/) = NOT in git, deployed manually from REFERENCE folders
 # See DEPLOYMENT.md for complete documentation
 
-# Content Managers (NOT tracked by git - deployed from REFERENCE CONTENT MANAGERS folder)
+# Content Managers - DEPLOYED VERSIONS (NOT tracked by git)
+# These are deployed manually from REFERENCE CONTENT MANAGERS folder
 frontend/public/worksheet-generators/blog-content-manager.html
 frontend/public/homepage-content-manager.html
 frontend/public/worksheet-generators/content-manager-v2.html
 
-# REFERENCE CONTENT MANAGERS folder (GOLDEN versions - MUST BE PROTECTED!)
-REFERENCE CONTENT MANAGERS/
+# Note: REFERENCE CONTENT MANAGERS/ folder IS tracked by git (source of truth)
 
-# All local working copies and variations
+# All local working copies and variations (NOT tracked by git)
 *-MODIFIED.html
 *-CURRENT-PRODUCTION.html
 *-CURRENTLY-DEPLOYED.html

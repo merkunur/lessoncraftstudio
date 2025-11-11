@@ -57,3 +57,28 @@ docker-compose.override.yml
 *.bak
 nul
 .claude/settings.local.json
+
+# ============================================
+# WORKSHEET GENERATORS & CONTENT MANAGERS
+# ============================================
+# These files are treated as static content/assets, not source code
+# They are deployed from REFERENCE folders, NOT from git
+# See DEPLOYMENT.md for complete documentation
+
+# Content Managers (NOT tracked by git - deployed from REFERENCE CONTENT MANAGERS folder)
+frontend/public/worksheet-generators/blog-content-manager.html
+frontend/public/homepage-content-manager.html
+frontend/public/worksheet-generators/content-manager-v2.html
+
+# REFERENCE CONTENT MANAGERS folder (GOLDEN versions - MUST BE PROTECTED!)
+REFERENCE CONTENT MANAGERS/
+
+# All local working copies and variations
+*-MODIFIED.html
+*-CURRENT-PRODUCTION.html
+*-CURRENTLY-DEPLOYED.html
+*-VERIFY*.html
+*-FIX*.html
+*-production.html
+*-deployed.html
+*-current.html

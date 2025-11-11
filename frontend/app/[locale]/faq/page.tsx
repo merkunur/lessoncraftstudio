@@ -5,12 +5,40 @@ import { Button } from '@/components/ui/Button';
 import Link from 'next/link';
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
-  const t = await getTranslations({ locale: params.locale, namespace: 'faq' });
+  const locale = params.locale || 'en';
+  const baseUrl = 'https://lessoncraftstudio.com';
+  const t = await getTranslations({ locale, namespace: 'faq' });
 
   return {
     title: t('metaTitle'),
     description: t('metaDescription'),
-    keywords: t('metaKeywords')
+    keywords: t('metaKeywords'),
+    alternates: {
+      canonical: `${baseUrl}/${locale}/faq`,
+      languages: {
+        'en': `${baseUrl}/en/faq`,
+        'de': `${baseUrl}/de/faq`,
+        'fr': `${baseUrl}/fr/faq`,
+        'es': `${baseUrl}/es/faq`,
+        'pt': `${baseUrl}/pt/faq`,
+        'it': `${baseUrl}/it/faq`,
+        'nl': `${baseUrl}/nl/faq`,
+        'sv': `${baseUrl}/sv/faq`,
+        'da': `${baseUrl}/da/faq`,
+        'no': `${baseUrl}/no/faq`,
+        'fi': `${baseUrl}/fi/faq`,
+        'x-default': `${baseUrl}/en/faq`
+      }
+    },
+    openGraph: {
+      title: t('metaTitle'),
+      description: t('metaDescription'),
+      type: 'website',
+      url: `${baseUrl}/${locale}/faq`,
+      siteName: 'LessonCraftStudio',
+      locale: locale,
+      alternateLocale: ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'].filter(l => l !== locale)
+    }
   };
 }
 

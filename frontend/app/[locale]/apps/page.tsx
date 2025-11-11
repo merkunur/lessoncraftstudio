@@ -3,11 +3,42 @@ import { Button } from '@/components/ui/Button';
 import { getTranslations } from 'next-intl/server';
 import AppCard from '@/components/apps/AppCard';
 
-export const metadata: Metadata = {
-  title: 'All Worksheet Generator Apps - LessonCraftStudio',
-  description: 'Choose from 33 professional worksheet generators for Teachers Pay Teachers and educational publishers',
-  keywords: 'worksheet generators, educational tools, teaching resources, printable worksheets'
-};
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const locale = params.locale || 'en';
+  const baseUrl = 'https://lessoncraftstudio.com';
+
+  return {
+    title: 'All Worksheet Generator Apps - LessonCraftStudio',
+    description: 'Choose from 33 professional worksheet generators for Teachers Pay Teachers and educational publishers',
+    keywords: 'worksheet generators, educational tools, teaching resources, printable worksheets',
+    alternates: {
+      canonical: `${baseUrl}/${locale}/apps`,
+      languages: {
+        'en': `${baseUrl}/en/apps`,
+        'de': `${baseUrl}/de/apps`,
+        'fr': `${baseUrl}/fr/apps`,
+        'es': `${baseUrl}/es/apps`,
+        'pt': `${baseUrl}/pt/apps`,
+        'it': `${baseUrl}/it/apps`,
+        'nl': `${baseUrl}/nl/apps`,
+        'sv': `${baseUrl}/sv/apps`,
+        'da': `${baseUrl}/da/apps`,
+        'no': `${baseUrl}/no/apps`,
+        'fi': `${baseUrl}/fi/apps`,
+        'x-default': `${baseUrl}/en/apps`
+      }
+    },
+    openGraph: {
+      title: 'All Worksheet Generator Apps - LessonCraftStudio',
+      description: 'Choose from 33 professional worksheet generators for Teachers Pay Teachers and educational publishers',
+      type: 'website',
+      url: `${baseUrl}/${locale}/apps`,
+      siteName: 'LessonCraftStudio',
+      locale: locale,
+      alternateLocale: ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'].filter(l => l !== locale)
+    }
+  };
+}
 
 interface PageProps {
   params: {

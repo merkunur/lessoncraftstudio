@@ -113,6 +113,7 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   noStore(); // Force dynamic rendering for metadata
   const locale = params.locale || 'en';
   const content = await getHomepageContent(locale);
+  const baseUrl = 'https://lessoncraftstudio.com';
 
   // Use API content for SEO, with fallback defaults
   const seo = {
@@ -125,6 +126,32 @@ export async function generateMetadata({ params }: { params: { locale: string } 
     title: seo.title,
     description: seo.description,
     keywords: seo.keywords,
+    alternates: {
+      canonical: `${baseUrl}/${locale}`,
+      languages: {
+        'en': `${baseUrl}/en`,
+        'de': `${baseUrl}/de`,
+        'fr': `${baseUrl}/fr`,
+        'es': `${baseUrl}/es`,
+        'pt': `${baseUrl}/pt`,
+        'it': `${baseUrl}/it`,
+        'nl': `${baseUrl}/nl`,
+        'sv': `${baseUrl}/sv`,
+        'da': `${baseUrl}/da`,
+        'no': `${baseUrl}/no`,
+        'fi': `${baseUrl}/fi`,
+        'x-default': `${baseUrl}/en`
+      }
+    },
+    openGraph: {
+      title: seo.title,
+      description: seo.description,
+      type: 'website',
+      url: `${baseUrl}/${locale}`,
+      siteName: 'LessonCraftStudio',
+      locale: locale,
+      alternateLocale: ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'].filter(l => l !== locale)
+    }
   };
 }
 

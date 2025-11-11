@@ -1,4 +1,5 @@
 import { getTranslations } from 'next-intl/server';
+import { Metadata } from 'next';
 import Link from 'next/link';
 import FAQAccordion from '@/components/FAQAccordion';
 import PricingCards from '@/components/PricingCards';
@@ -6,6 +7,43 @@ import PricingCards from '@/components/PricingCards';
 interface PricingPageProps {
   params: {
     locale: string;
+  };
+}
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const locale = params.locale || 'en';
+  const baseUrl = 'https://lessoncraftstudio.com';
+  const t = await getTranslations({ locale, namespace: 'pricing' });
+
+  return {
+    title: t('heroTitle'),
+    description: t('heroSubtitle'),
+    alternates: {
+      canonical: `${baseUrl}/${locale}/pricing`,
+      languages: {
+        'en': `${baseUrl}/en/pricing`,
+        'de': `${baseUrl}/de/pricing`,
+        'fr': `${baseUrl}/fr/pricing`,
+        'es': `${baseUrl}/es/pricing`,
+        'pt': `${baseUrl}/pt/pricing`,
+        'it': `${baseUrl}/it/pricing`,
+        'nl': `${baseUrl}/nl/pricing`,
+        'sv': `${baseUrl}/sv/pricing`,
+        'da': `${baseUrl}/da/pricing`,
+        'no': `${baseUrl}/no/pricing`,
+        'fi': `${baseUrl}/fi/pricing`,
+        'x-default': `${baseUrl}/en/pricing`
+      }
+    },
+    openGraph: {
+      title: t('heroTitle'),
+      description: t('heroSubtitle'),
+      type: 'website',
+      url: `${baseUrl}/${locale}/pricing`,
+      siteName: 'LessonCraftStudio',
+      locale: locale,
+      alternateLocale: ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'].filter(l => l !== locale)
+    }
   };
 }
 

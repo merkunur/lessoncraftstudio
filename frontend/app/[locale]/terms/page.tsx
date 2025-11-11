@@ -1,4 +1,42 @@
 import { getTranslations } from 'next-intl/server';
+import { Metadata } from 'next';
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const locale = params.locale || 'en';
+  const baseUrl = 'https://lessoncraftstudio.com';
+  const t = await getTranslations({ locale, namespace: 'terms' });
+
+  return {
+    title: t('title'),
+    description: t('acceptance.content'),
+    alternates: {
+      canonical: `${baseUrl}/${locale}/terms`,
+      languages: {
+        'en': `${baseUrl}/en/terms`,
+        'de': `${baseUrl}/de/terms`,
+        'fr': `${baseUrl}/fr/terms`,
+        'es': `${baseUrl}/es/terms`,
+        'pt': `${baseUrl}/pt/terms`,
+        'it': `${baseUrl}/it/terms`,
+        'nl': `${baseUrl}/nl/terms`,
+        'sv': `${baseUrl}/sv/terms`,
+        'da': `${baseUrl}/da/terms`,
+        'no': `${baseUrl}/no/terms`,
+        'fi': `${baseUrl}/fi/terms`,
+        'x-default': `${baseUrl}/en/terms`
+      }
+    },
+    openGraph: {
+      title: t('title'),
+      description: t('acceptance.content'),
+      type: 'website',
+      url: `${baseUrl}/${locale}/terms`,
+      siteName: 'LessonCraftStudio',
+      locale: locale,
+      alternateLocale: ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'].filter(l => l !== locale)
+    }
+  };
+}
 
 export default async function TermsPage({
   params: { locale }

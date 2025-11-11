@@ -1,4 +1,42 @@
 import { getTranslations } from 'next-intl/server';
+import { Metadata } from 'next';
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const locale = params.locale || 'en';
+  const baseUrl = 'https://lessoncraftstudio.com';
+  const t = await getTranslations({ locale, namespace: 'privacy' });
+
+  return {
+    title: t('title'),
+    description: t('introduction.content'),
+    alternates: {
+      canonical: `${baseUrl}/${locale}/privacy`,
+      languages: {
+        'en': `${baseUrl}/en/privacy`,
+        'de': `${baseUrl}/de/privacy`,
+        'fr': `${baseUrl}/fr/privacy`,
+        'es': `${baseUrl}/es/privacy`,
+        'pt': `${baseUrl}/pt/privacy`,
+        'it': `${baseUrl}/it/privacy`,
+        'nl': `${baseUrl}/nl/privacy`,
+        'sv': `${baseUrl}/sv/privacy`,
+        'da': `${baseUrl}/da/privacy`,
+        'no': `${baseUrl}/no/privacy`,
+        'fi': `${baseUrl}/fi/privacy`,
+        'x-default': `${baseUrl}/en/privacy`
+      }
+    },
+    openGraph: {
+      title: t('title'),
+      description: t('introduction.content'),
+      type: 'website',
+      url: `${baseUrl}/${locale}/privacy`,
+      siteName: 'LessonCraftStudio',
+      locale: locale,
+      alternateLocale: ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'].filter(l => l !== locale)
+    }
+  };
+}
 
 export default async function PrivacyPage({
   params: { locale }

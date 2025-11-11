@@ -1,4 +1,42 @@
 import { getTranslations } from 'next-intl/server';
+import { Metadata } from 'next';
+
+export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
+  const locale = params.locale || 'en';
+  const baseUrl = 'https://lessoncraftstudio.com';
+  const t = await getTranslations({ locale, namespace: 'license' });
+
+  return {
+    title: t('title'),
+    description: t('grantOfLicense.intro'),
+    alternates: {
+      canonical: `${baseUrl}/${locale}/license`,
+      languages: {
+        'en': `${baseUrl}/en/license`,
+        'de': `${baseUrl}/de/license`,
+        'fr': `${baseUrl}/fr/license`,
+        'es': `${baseUrl}/es/license`,
+        'pt': `${baseUrl}/pt/license`,
+        'it': `${baseUrl}/it/license`,
+        'nl': `${baseUrl}/nl/license`,
+        'sv': `${baseUrl}/sv/license`,
+        'da': `${baseUrl}/da/license`,
+        'no': `${baseUrl}/no/license`,
+        'fi': `${baseUrl}/fi/license`,
+        'x-default': `${baseUrl}/en/license`
+      }
+    },
+    openGraph: {
+      title: t('title'),
+      description: t('grantOfLicense.intro'),
+      type: 'website',
+      url: `${baseUrl}/${locale}/license`,
+      siteName: 'LessonCraftStudio',
+      locale: locale,
+      alternateLocale: ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'].filter(l => l !== locale)
+    }
+  };
+}
 
 export default async function LicensePage({
   params: { locale }

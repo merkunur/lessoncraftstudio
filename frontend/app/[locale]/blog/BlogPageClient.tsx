@@ -154,7 +154,7 @@ export default function BlogPageClient({ locale, translations: t }: BlogPageClie
       setLoading(true);
       try {
         // Fetch blog metadata from API
-        const response = await fetch(`/api/blog/posts?locale=${locale}`);
+        const response = await fetch(`/api/blog/posts?locale=${locale}&limit=1000`);
         if (response.ok) {
           const data = await response.json();
           setBlogPosts(data.posts || []);

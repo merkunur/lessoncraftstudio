@@ -57,15 +57,13 @@ const nextConfig = {
     ];
   },
 
-  // Redirects for SEO and locale routing
+  // Redirects handled by next-intl middleware for intelligent locale detection
+  // The middleware detects user's preferred language from:
+  // 1. Browser Accept-Language header
+  // 2. preferredLanguage cookie
+  // 3. Falls back to default locale (en)
   async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/en',
-        permanent: false, // 307 temporary redirect
-      },
-    ];
+    return [];
   },
 };
 

@@ -23,7 +23,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return {
     title: `${appData.name || appData.appId} - LessonCraftStudio`,
     description: appData.description || `Create professional ${appData.name || appData.appId} worksheets for your educational materials`,
-    keywords: `${appData.name || appData.appId}, worksheet generator, teachers pay teachers, educational resources, printable worksheets`
+    keywords: `${appData.name || appData.appId}, worksheet generator, teachers pay teachers, educational resources, printable worksheets`,
+    robots: {
+      index: false,
+      follow: false,
+    }
   };
 }
 

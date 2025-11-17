@@ -99,6 +99,9 @@ export async function generateMetadata({ params }: PageProps) {
   const { locale, slug } = params;
   const pageName = slug[slug.length - 1];
 
+  // Known valid pages
+  const knownPages = ['homepage', 'contact', 'about', 'terms', 'privacy'];
+
   // Default metadata based on page
   const titles: Record<string, Record<string, string>> = {
     homepage: {
@@ -122,6 +125,18 @@ export async function generateMetadata({ params }: PageProps) {
   };
 
   const title = titles[pageName]?.[locale] || `${pageName} - LessonCraftStudio`;
+
+  // If page is not in known pages list, add noindex to prevent search engine indexing
+  if (!knownPages.includes(pageName)) {
+    return {
+      title,
+      description: 'Professional worksheet generators with 100+ themed images for educators and publishers',
+      robots: {
+        index: false,
+        follow: false,
+      },
+    };
+  }
 
   return {
     title,

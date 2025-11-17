@@ -41,3 +41,17 @@ yarn-error.log*
 next-env.d.ts
 
 /lib/generated/prisma
+
+# Static content - managed independently from code
+# These are maintained in REFERENCE APPS folder and deployed separately
+/public/worksheet-generators/*.html
+
+# Content managers - managed independently from code
+# These are maintained in REFERENCE CONTENT MANAGERS folder and deployed separately
+/public/worksheet-generators/blog-content-manager.html
+/public/homepage-content-manager.html
+/public/worksheet-generators/content-manager-v2.html
+
+# Translation files - managed independently from code
+# These are maintained in REFERENCE TRANSLATIONS folder and deployed separately
+/public/worksheet-generators/js/translations-*.js

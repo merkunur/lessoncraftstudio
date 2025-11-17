@@ -307,9 +307,11 @@ When modifying worksheet generators or content managers, you MUST complete ALL t
 
 ### IMPORTANT: Worksheet Generators Are No Longer in Git
 
-**As of commit f9e10bb (2025-10-23)**, worksheet generators (*.html files in public/worksheet-generators/) are **NO LONGER TRACKED BY GIT**. They are treated as static assets/content, not source code.
+**As of commit 9ce8ddf (2025-11-17)**, worksheet generators (*.html files in public/worksheet-generators/) are **NO LONGER TRACKED BY GIT**. They are treated as static assets/content, not source code.
 
-**Why?** Worksheet generators are large files (150-280KB) that change independently of code releases. Having them in git caused repeated production overwrites. See ROOT_CAUSE_ANALYSIS.md for details.
+**Why?** Worksheet generators are large files (150-280KB) that change independently of code releases. Having them in git caused repeated production overwrites during code deployments. See commit 9ce8ddf for details.
+
+**What was fixed:** Previous documentation incorrectly claimed commit f9e10bb removed these files, but that commit never existed. In reality, 59 worksheet generators and 51 translation files remained tracked in git until commit 9ce8ddf properly removed them and added them to .gitignore.
 
 ---
 
@@ -325,7 +327,7 @@ When modifying worksheet generators or content managers, you MUST complete ALL t
 ```
 
 **Note:** We do NOT copy `public/worksheet-generators/` because:
-- Worksheet generators are not in git (added to .gitignore)
+- Worksheet generators are not in git (removed in commit 9ce8ddf)
 - Production versions live in REFERENCE APPS folder
 - Copying them would use old/missing versions from git
 
@@ -374,7 +376,7 @@ When modifying worksheet generators or content managers, you MUST complete ALL t
 
 **Use this when:** Updating translation files for worksheet generators (translations-*.js files)
 
-**IMPORTANT:** Translation files are **NOT TRACKED BY GIT** (as of commit f9e10bb, 2025-10-23). They are treated as static content with months of improvements.
+**IMPORTANT:** Translation files are **NOT TRACKED BY GIT** (as of commit 9ce8ddf, 2025-11-17). They are treated as static content with months of improvements.
 
 **Why?** Translation files contain:
 - Natural language translations across 11 languages
@@ -457,7 +459,7 @@ cd "C:\Users\rkgen\lessoncraftstudio\REFERENCE TRANSLATIONS"
 **Why `cp -r public` is dangerous:**
 - Copies ALL of public/ directory from git
 - Git has old/missing versions of:
-  - Worksheet generators (not in git since commit f9e10bb)
+  - Worksheet generators (not in git since commit 9ce8ddf)
   - Content managers (not in git)
   - Translation files (not in git)
 - **RESULT:** Months of improvements get overwritten with old versions!
@@ -823,7 +825,7 @@ ssh root@65.108.5.250
    - Security: lib/auth.ts, lib/auth-middleware.ts, api/auth/me, dashboard/page.tsx
    - UI State: signin/signin-client.tsx (checkAuth() lines 114 & 211)
 2. **🚨 MANDATORY: UPDATE REFERENCE FOLDERS AFTER EVERY MODIFICATION** - This is OBLIGATORY, not optional. See "MANDATORY: UPDATING REFERENCE APPS AFTER MODIFICATIONS" section above. The deployment task is NOT complete until REFERENCE folders are updated!
-3. **🚨 WORKSHEET GENERATORS NOT IN GIT** - As of commit f9e10bb, worksheet generators are NO LONGER tracked by git. Use REFERENCE APPS folder!
+3. **🚨 WORKSHEET GENERATORS NOT IN GIT** - As of commit 9ce8ddf (2025-11-17), worksheet generators and translation files are NO LONGER tracked by git. Use REFERENCE APPS and REFERENCE TRANSLATIONS folders!
 4. **🚨 CONTENT MANAGERS NOT IN GIT** - As of commit [next], content managers are NO LONGER tracked by git. Use REFERENCE CONTENT MANAGERS folder!
 5. **🚨 NEVER `cp -r public` IN DEPLOYMENTS** - This will copy MISSING files from git! Use scenario-based commands above.
 6. **For code changes** - Use Scenario 1 command (git pull + build, NO public copy)
@@ -840,7 +842,22 @@ ssh root@65.108.5.250
 
 ---
 
-**Last Updated**: 2025-10-26 (Added critical authentication files documentation)
+**Last Updated**: 2025-11-17 (CRITICAL FIX: Properly removed worksheet generators and translations from git - commit 9ce8ddf)
+**Previous Update**: 2025-10-26 (Added critical authentication files documentation)
 **Deployment Tool**: PuTTY plink for Windows
 **Process Manager**: PM2
 **Framework**: Next.js 14.2.18
+
+## 2025-11-17 CRITICAL FIX NOTES
+
+**What Happened:** During SEO deployment, worksheet generators were overwritten with old versions from git.
+
+**Root Cause:** Documentation claimed commit f9e10bb removed worksheet generators from git, but that commit never existed. In reality, 59 worksheet generators and 51 translation files remained tracked in git.
+
+**Fix Applied:** Commit 9ce8ddf properly:
+- Added worksheet generators and translations to .gitignore
+- Removed all 110 files from git tracking (git rm --cached)
+- Restored production from REFERENCE APPS folder
+- Updated all incorrect references in this documentation
+
+**Result:** Worksheet generators and translations are now permanently excluded from git. Code deployments will NEVER overwrite them again.

@@ -1,0 +1,3409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-translate="picture.sort.page.title">Picture-Sort Worksheet Generator</title>
+  <script src="js/translations-picture-sort.js?v=2"></script>
+  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/unified-language-manager.js"></script>
+  <script src="js/border-background-sizer.js"></script>
+  <script src="js/auto-fix-system.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      /* Standardized Color Palette */
+      --app-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      --app-bg-dark: #2c2c2e;
+      --app-surface-dark: #3a3a3e;
+      --app-border-dark: #4a4a4a;
+      --app-text-primary-dark-theme: #e0e0e0;
+      --app-text-secondary-dark-theme: #a0a0a0;
+      --app-bg-light: #f0f2f5;
+      --app-surface-light: #ffffff;
+      --app-border-light: #dce1e6;
+      --app-text-primary-light-theme: #1c1c1e;
+      --app-text-secondary-light-theme: #545458;
+      --app-accent-primary: #007aff;
+      --app-accent-primary-hover: #005ecb;
+      --app-accent-danger: #ff3b30;
+      --sidebar-width: 340px;
+    }
+    /* Global Reset & Layout */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--app-font-stack);
+      display: flex;
+      margin: 0;
+      height: 100vh;
+      background-color: var(--app-bg-light);
+      overflow: hidden;
+      color: var(--app-text-primary-light-theme);
+    }
+    .layout {
+        display: flex; flex: 1;
+        overflow: hidden; height: 100vh; position: relative;
+    }
+    /* Sidebar Panel */
+    .panel {
+      width: var(--sidebar-width); min-width: var(--sidebar-width);
+      background-color: var(--app-bg-dark); color: var(--app-text-primary-dark-theme);
+      box-shadow: 2px 0 8px rgba(0,0,0,0.15);
+      display: flex; flex-direction: column;
+      overflow-y: hidden; z-index: 1000;
+      padding: 0;
+      transition: transform 0.3s ease-in-out;
+    }
+    .panel-header {
+        padding: 20px 25px; text-align: left;
+        border-bottom: 1px solid var(--app-border-dark);
+        display: flex; justify-content: space-between; align-items: center;
+    }
+    .panel-header h2 {
+        font-family: 'Fredoka', sans-serif; font-weight: 600;
+        font-size: 22px; color: var(--app-text-primary-dark-theme); margin: 0;
+    }
+    .panel-content { overflow-y: auto; flex-grow: 1; padding: 0; }
+    .panel-footer {
+        padding: 15px 25px; border-top: 1px solid var(--app-border-dark); margin-top: auto;
+        background-color: var(--app-bg-dark);
+    }
+    /* Main Content Area */
+    .main {
+      flex-grow: 1; display: flex; flex-direction: column;
+      position: relative; overflow: hidden; background-color: var(--app-bg-light);
+      padding: 0;
+    }
+    
+    /* Accordion Styles */
+    .accordion-item { border-bottom: 1px solid var(--app-border-dark); }
+    .accordion-item:last-of-type { border-bottom: none; }
+    .accordion-button {
+        background-color: transparent; color: var(--app-text-primary-dark-theme);
+        width: 100%; border: none; text-align: left;
+        padding: 18px 20px; font-size: 15px; font-weight: 500;
+        cursor: pointer; display: flex; justify-content: space-between;
+        align-items: center; transition: background-color 0.15s ease;
+    }
+    .accordion-button:hover { background-color: rgba(255,255,255,0.05); }
+    .accordion-button::after {
+        content: '\f078'; font-family: 'Font Awesome 5 Free'; font-weight: 900;
+        font-size: 12px; transition: transform 0.2s ease-in-out;
+    }
+    .accordion-button.active::after { transform: rotate(-180deg); }
+    .accordion-content { padding: 10px 15px 20px 15px; display: none; background: transparent; }
+    .accordion-content.active { display: block; }
+
+    /* Sidebar Controls Styling */
+    .accordion-content label {
+        display: block; font-size: 13px; font-weight: 400;
+        color: var(--app-text-secondary-dark-theme); margin-bottom: 6px;
+    }
+    .accordion-content input[type="text"],
+    .accordion-content input[type="number"],
+    .accordion-content textarea,
+    .accordion-content select {
+        width: 100%; padding: 8px 10px; font-size: 13px;
+        border-radius: 5px; border: 1px solid var(--app-border-dark);
+        background-color: var(--app-surface-dark);
+        color: var(--app-text-primary-dark-theme);
+        margin-bottom: 12px; font-family: var(--app-font-stack);
+    }
+     .accordion-content input[type="file"] {
+      display: none;
+    }
+    .custom-file-input-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .custom-file-button {
+        padding: 8px 16px;
+        background-color: var(--app-accent-primary);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 13px;
+        white-space: nowrap;
+        transition: background-color 0.2s;
+    }
+    .custom-file-button:hover {
+        background-color: var(--app-accent-primary-hover);
+    }
+    .custom-file-status {
+        color: var(--app-text-secondary-dark-theme);
+        font-size: 13px;
+        flex: 1;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .accordion-content input[type="color"] { width: 100%; padding: 2px; height: 38px; margin-bottom: 12px; border-radius: 5px; border-color: var(--app-border-dark); background-color: var(--app-surface-dark);}
+    .accordion-content input[type="range"] { width:100%; padding: 0; margin-bottom: 12px;}
+    .accordion-content h4 {
+        font-size: 13px; color: var(--app-text-secondary-dark-theme); margin-top: 15px;
+        margin-bottom: 8px; border-bottom: 1px solid var(--app-border-dark);
+        padding-bottom: 6px; font-weight: 500;
+    }
+    .accordion-content h4:first-child { margin-top: 0; }
+    .accordion-content button {
+        background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme);
+        border: 1px solid var(--app-border-dark); font-weight: 500;
+        width: 100%; padding: 8px 12px; font-size: 13px; border-radius: 6px; margin-bottom: 10px;
+        cursor: pointer;
+    }
+    .accordion-content button:hover { background-color: #4f4f53; }
+    .accordion-content input[type="checkbox"] {
+        width: auto; margin-right: 8px; vertical-align: middle;
+        accent-color: var(--app-accent-primary);
+    }
+    .accordion-content label.checkbox-label {
+        display: flex; align-items: center; font-size: 13px;
+        font-weight: 400; margin-bottom: 12px; cursor: pointer;
+        color: var(--app-text-secondary-dark-theme);
+    }
+    #message {
+        padding:10px 15px; border-radius:5px; font-size:13px;
+        text-align:center; min-height:40px; font-weight:500;
+        display:none; border-width: 1px; border-style: solid;
+        line-height: 1.4;
+    }
+    #message.error { background-color:rgba(255, 59, 48, 0.2); color: var(--app-accent-danger); border-color: var(--app-accent-danger); }
+    #message.success { background-color:rgba(52, 199, 89, 0.2); color: #34c759; border-color: #34c759; }
+    #message.info { background-color:rgba(0, 122, 255, 0.15); color:var(--app-accent-primary); border-color: var(--app-accent-primary); }
+    
+    /* Dictionary / Image Browser */
+    #dictionary, #borderDictionary, #backgroundDictionary, #uploadedImagesPreview {
+        border: 1px solid var(--app-border-dark); padding: 10px;
+        height: 150px; overflow-y:auto;
+        background-color: var(--app-surface-dark); border-radius:5px;
+        margin-bottom:10px; display: flex; flex-wrap: wrap; gap: 8px;
+        align-content: flex-start;
+    }
+    #borderDictionary, #backgroundDictionary, #uploadedImagesPreview { min-height: 70px; }
+    #dictionary .dictionary-message, #borderDictionary .dictionary-message, #backgroundDictionary .dictionary-message, #uploadedImagesPreview .dictionary-message {
+        width: 100%; text-align: center; padding: 10px;
+        font-size:12px; color: var(--app-text-secondary-dark-theme);
+        margin: 0; align-self: center;
+    }
+    .dictionary-item {
+        padding: 8px; cursor: pointer; border: 1px solid transparent;
+        display: flex; flex-direction: column; align-items: center;
+        border-radius: 4px; background-color: rgba(255,255,255,0.05);
+        transition: background-color .15s ease, border-color .15s ease;
+    }
+    .dictionary-item:hover { background-color: rgba(255,255,255,0.1); border-color: var(--app-accent-primary); }
+    .dictionary-item.selected { border-color: var(--app-accent-primary); background-color: rgba(0, 122, 255, 0.15); }
+    .dictionary-item img {
+        width: 50px; height: 50px; object-fit: contain;
+        border:1px solid var(--app-border-dark); border-radius:3px;
+        background-color: var(--app-surface-light); margin-bottom: 5px;
+    }
+    .dictionary-item span {
+        font-size: 10px; text-align: center; word-break: break-word;
+        max-width: 50px; color: var(--app-text-secondary-dark-theme);
+    }
+    .dictionary-item:hover span, .dictionary-item.selected span { color: var(--app-text-primary-dark-theme); }
+    
+    .border-thumbnail-item {
+        cursor: pointer; border: 2px solid transparent;
+        border-radius: 4px; padding: 2px;
+        transition: border-color .15s ease;
+        width: 60px; height: 60px;
+    }
+    .border-thumbnail-item:hover, .border-thumbnail-item.selected { border-color: var(--app-accent-primary); }
+    .border-thumbnail-item img {
+        width: 100%; height: 100%; object-fit: cover;
+        background-color: var(--app-surface-light); border-radius: 2px;
+    }
+    
+    #selectedImagesPreview {
+        border: 1px dashed var(--app-accent-primary); padding: 10px;
+        min-height: 150px; max-height: 250px; overflow-y: auto;
+        background-color: var(--app-surface-dark);
+        border-radius:5px; margin-top: 10px;
+        display: flex; flex-direction: column; gap: 8px;
+    }
+    .selected-preview-item {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 5px;
+        border-radius: 4px;
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+    .selected-preview-item img {
+      width:40px; height:40px; object-fit:contain;
+      border:1px solid var(--app-border-dark); border-radius:3px;
+      background-color: var(--app-surface-light);
+    }
+    .selected-preview-item .item-info {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+    }
+    .selected-preview-item .item-info span {
+        font-size: 11px;
+        color: var(--app-text-primary-dark-theme);
+    }
+    .selected-preview-item .item-info select {
+        font-size: 11px;
+        padding: 2px 4px;
+        margin-top: 4px;
+    }
+    .selected-preview-item .remove-btn {
+        background: transparent;
+        border: none;
+        color: var(--app-accent-danger);
+        cursor: pointer;
+        font-size: 16px;
+        padding: 5px;
+        line-height: 1;
+    }
+    .selected-count {
+        font-size: 12px; text-align: center;
+        color: var(--app-text-secondary-dark-theme); margin-top: 4px;
+    }
+    
+    /* Top Right Action Buttons & Dropdowns */
+    .top-right-actions {
+        position: absolute; top: 12px; right: 20px; z-index: 20;
+        display: flex; gap: 10px; align-items: center;
+    }
+    .action-button {
+        padding: 7px 14px; font-size: 13px; font-weight: 500;
+        border-radius: 6px; border: none; cursor: pointer;
+        transition: background-color 0.2s ease, transform 0.1s ease;
+    }
+    .action-button:active { transform: scale(0.98); }
+    .action-button.accent { background-color: var(--app-accent-primary); color: white; }
+    .action-button.accent:hover { background-color: var(--app-accent-primary-hover); }
+    .action-button.danger {
+        background-color: var(--app-surface-light); color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light);
+    }
+    .action-button.danger:hover { background-color: #e8e8ed; }
+    .action-button.secondary {
+        background-color: var(--app-surface-light); color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light);
+    }
+    .action-button.secondary:hover { background-color: #e8e8ed; }
+    .action-button:disabled {
+        background-color: #cccccc !important; color: #888888 !important;
+        border-color: #cccccc !important; cursor: not-allowed; opacity: 0.7;
+    }
+    .dropdown-container { position: relative; display: inline-block; }
+    .dropdown-content {
+        display: none; position: absolute; right: 0; top: calc(100% + 5px);
+        background-color: var(--app-surface-light); min-width: 200px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.15); border: 1px solid var(--app-border-light);
+        border-radius: 6px; padding: 8px; z-index: 25;
+    }
+    .dropdown-content button {
+        width: 100%; padding: 8px 12px; font-size: 13px; border-radius: 4px;
+        margin-bottom: 6px; background-color: transparent;
+        color: var(--app-text-primary-light-theme); border: none;
+        cursor: pointer; text-align: left; font-weight: 400; transition: background-color 0.15s ease;
+    }
+    .dropdown-content button:last-of-type { margin-bottom: 0; }
+    .dropdown-content button:hover { background-color: rgba(0,0,0,0.05); }
+    .dropdown-content button:disabled {
+        background-color: transparent !important; color: var(--app-text-secondary-light-theme) !important;
+        opacity: 0.6; cursor: not-allowed;
+    }
+    .dropdown-content .checkbox-label {
+        display: flex; align-items: center; font-size: 13px; font-weight: 400;
+        padding: 6px 12px; margin-top: 4px; margin-bottom: 0; cursor: pointer;
+        color: var(--app-text-primary-light-theme); border-radius: 4px;
+    }
+    .dropdown-content .checkbox-label:hover { background-color: rgba(0,0,0,0.05); }
+    .dropdown-content .checkbox-label input[type="checkbox"] {
+        width: auto; margin-right: 8px; vertical-align: middle;
+        accent-color: var(--app-accent-primary);
+    }
+    
+    /* --- Modern Unified Header --- */
+    .tab-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 24px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+        position: relative;
+        z-index: 15;
+    }
+    .tab-buttons-container {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+    .tab-button {
+        padding: 10px 20px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 6px;
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        backdrop-filter: blur(10px);
+    }
+    .tab-button:hover {
+        background: rgba(255, 255, 255, 0.15);
+        color: white;
+    }
+    .tab-button.active {
+        background: rgba(255, 255, 255, 0.95);
+        color: #667eea;
+        border-color: rgba(255, 255, 255, 0.95);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    /* --- Zoom Controls (Redesigned for Header) --- */
+    .zoom-controls {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background-color: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 6px;
+        padding: 5px 10px;
+        backdrop-filter: blur(10px);
+    }
+    .zoom-btn {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+        padding: 6px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        color: white;
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .zoom-btn:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.4);
+    }
+    .zoom-btn:active {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+    .zoom-percentage {
+        font-size: 13px;
+        font-weight: 600;
+        color: white;
+        min-width: 50px;
+        text-align: center;
+    }
+
+    /* --- Undo/Redo Controls --- */
+    .history-controls {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background-color: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 6px;
+        padding: 5px 10px;
+        backdrop-filter: blur(10px);
+    }
+    .history-btn {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+        padding: 6px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        color: white;
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .history-btn:hover:not(:disabled) {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.4);
+    }
+    .history-btn:active:not(:disabled) {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+    .history-btn:disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+    }
+
+    /* Unlock All Button */
+    .unlock-all-controls {
+        display: none; /* Hidden by default */
+        align-items: center;
+        gap: 6px;
+        padding: 4px 12px;
+        background: rgba(255, 165, 0, 0.25);
+        border-radius: 8px;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 165, 0, 0.4);
+    }
+
+    .unlock-all-controls.visible {
+        display: flex;
+    }
+
+    .unlock-all-btn {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 4px 10px;
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 500;
+        transition: all 0.2s ease;
+        white-space: nowrap;
+    }
+
+    .unlock-all-btn:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transform: scale(1.05);
+    }
+
+    .unlock-all-btn i {
+        font-size: 14px;
+    }
+
+    /* Header Action Buttons */
+    .header-actions {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .header-actions .action-button {
+        padding: 8px 16px;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 6px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    }
+    .header-actions .action-button.accent {
+        background-color: var(--app-accent-primary);
+    }
+    .header-actions .action-button.accent:hover {
+        background-color: var(--app-accent-primary-hover);
+        box-shadow: 0 2px 6px rgba(0, 122, 255, 0.3);
+    }
+    .header-actions .action-button.danger {
+        background-color: rgba(255, 255, 255, 0.15);
+        color: white;
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        backdrop-filter: blur(10px);
+    }
+    .header-actions .action-button.danger:hover {
+        background-color: rgba(255, 255, 255, 0.25);
+    }
+    .header-actions .action-button.download-btn {
+        background-color: rgba(44, 44, 46, 0.95);
+        color: white;
+        border: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    .header-actions .action-button.download-btn:hover {
+        background-color: rgba(58, 58, 62, 0.95);
+    }
+    .header-actions .action-button:disabled {
+        background-color: #cccccc !important;
+        color: #888888 !important;
+        border-color: #cccccc !important;
+        cursor: not-allowed;
+        opacity: 0.7;
+        box-shadow: none !important;
+    }
+
+    .dropdown-container {
+        position: relative;
+    }
+
+    .dropdown-container .dropdown-content {
+        position: absolute;
+        top: calc(100% + 4px);
+        right: 0;
+        background: white;
+        border: 1px solid var(--app-border-light);
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        padding: 8px;
+        min-width: 200px;
+        display: none;
+        z-index: 1000;
+    }
+
+    .dropdown-container .dropdown-content.show {
+        display: block;
+    }
+
+    .dropdown-container .dropdown-content button {
+        width: 100%;
+        padding: 10px 12px;
+        background: transparent;
+        border: none;
+        text-align: left;
+        cursor: pointer;
+        border-radius: 6px;
+        font-size: 13px;
+        color: var(--app-text-primary-light-theme);
+        transition: background 0.2s ease;
+    }
+
+    .dropdown-container .dropdown-content button:hover:not(:disabled) {
+        background: var(--app-bg-light);
+    }
+
+    .dropdown-container .dropdown-content button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+    .tab-content-wrapper {
+        flex-grow: 1; display: flex; align-items: center; justify-content: center;
+        padding: 25px; overflow: auto;
+    }
+    .tab { display: none; width: 100%; text-align: center; }
+    .tab.active { display: block; }
+    .canvas-container-wrapper {
+        border: 1px solid var(--app-border-light);
+        background-color: var(--app-surface-light);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        overflow: visible;  /* Changed from hidden to prevent clipping */
+        margin: auto;
+        position: relative;
+    }
+    /* Ensure Fabric.js container doesn't clip */
+    .canvas-container { 
+        overflow: visible !important;
+        position: relative !important;
+    }
+    canvas { display: block; }
+    
+    /* Responsive Sidebar (Mobile/Tablet) */
+    .menu-toggle-btn {
+        display: none; position: absolute; top: 12px; left: 20px; z-index: 20;
+        background-color: var(--app-surface-light); color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light); border-radius: 6px;
+        width: 38px; height: 38px; font-size: 18px;
+        cursor: pointer; align-items: center; justify-content: center;
+    }
+    .menu-toggle-btn:hover { background-color: #e8e8ed; }
+    .menu-close-btn {
+        display: none; background: none; border: none;
+        color: var(--app-text-secondary-dark-theme); font-size: 28px;
+        line-height: 1; cursor: pointer; padding: 0 5px;
+    }
+    .menu-close-btn:hover { color: var(--app-text-primary-dark-theme); }
+    .menu-overlay {
+        display: none; position: fixed; top: 0; left: 0;
+        width: 100%; height: 100%; background-color: rgba(0,0,0,0.4); z-index: 999;
+    }
+    .menu-overlay.is-active { display: block; }
+    @media (max-width: 1024px) {
+        .panel {
+            position: fixed; top: 0; left: 0; height: 100vh;
+            transform: translateX(-100%);
+        }
+        .panel.is-open { transform: translateX(0); }
+        .menu-toggle-btn { display: flex; }
+        .menu-close-btn { display: block; }
+        .tab-row { padding-left: 70px; }
+        #object-context-toolbar { top: 72px; }
+    }
+    @media (max-width: 768px) {
+        #object-context-toolbar {
+            flex-wrap: wrap;
+            justify-content: center;
+            width: auto;
+            max-width: 90%;
+        }
+    }
+    
+    /* Contextual Toolbar CSS */
+    #object-context-toolbar {
+        position: absolute;
+        top: 72px; 
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--app-surface-light);
+        border-radius: 6px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        z-index: 100;
+        align-items: center;
+        border: 1px solid var(--app-border-light);
+    }
+    .toolbar-group {
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        padding: 0 4px;
+    }
+    .toolbar-group + .toolbar-group {
+        border-left: 1px solid var(--app-border-light);
+    }
+    .toolbar-item {
+        position: relative;
+    }
+    .context-btn {
+        background: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        padding: 5px 7px;
+        cursor: pointer;
+        font-size: 15px; 
+        color: var(--app-text-secondary-light-theme);
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 32px;
+        transition: background-color 0.2s, color 0.2s;
+    }
+    .context-btn:disabled {
+        color: #c5c5c7;
+        cursor: not-allowed;
+    }
+    .context-btn:not(:disabled):hover {
+        background-color: #e8e8ed;
+        color: var(--app-text-primary-light-theme);
+    }
+    .context-btn.active-dropdown {
+        background-color: #ddeeff;
+        color: var(--app-accent-primary);
+    }
+    #toolbarDeleteBtn:not(:disabled) {
+        color: var(--app-accent-danger);
+    }
+    #object-context-toolbar .dropdown-content {
+        display: none;
+        position: absolute;
+        top: calc(100% + 5px);
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--app-surface-light);
+        min-width: 150px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+        border: 1px solid var(--app-border-light);
+        border-radius: 6px;
+        padding: 8px;
+        z-index: 101;
+    }
+    #object-context-toolbar .dropdown-content button {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 13px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 6px;
+        background-color: transparent;
+        color: var(--app-text-primary-light-theme);
+        border: none;
+        cursor: pointer;
+        text-align: left;
+        font-weight: 400;
+        transition: background-color 0.15s ease;
+    }
+    #object-context-toolbar .dropdown-content button:last-of-type {
+        margin-bottom: 0;
+    }
+    #object-context-toolbar .dropdown-content button:hover {
+        background-color: rgba(0,0,0,0.05);
+    }
+  </style>
+</head>
+<body>
+<div class="layout">
+  <div id="menuOverlay" class="menu-overlay"></div>
+
+  <div class="panel">
+    <div class="panel-header">
+      <h2 data-translate="picture.sort.settings">Sort Settings</h2>
+      <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
+    </div>
+    <!-- Language Selector -->
+    <div style="padding: 15px 25px; border-bottom: 1px solid var(--app-border-dark);">
+      <label for="languageSelect" data-translate="picture.sort.language.label" style="display: block; font-size: 13px; font-weight: 400; color: var(--app-text-secondary-dark-theme); margin-bottom: 6px;">Language</label>
+      <select id="languageSelect" style="width: 100%; padding: 8px 12px; font-size: 14px; background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); border: 1px solid var(--app-border-dark); border-radius: 6px;">
+        <option value="en" data-translate="language.english">English</option>
+        <option value="de" data-translate="language.german">Deutsch</option>
+        <option value="fr" data-translate="language.french">Français</option>
+        <option value="es" data-translate="language.spanish">Español</option>
+        <option value="pt" data-translate="language.portuguese">Português</option>
+        <option value="it" data-translate="language.italian">Italiano</option>
+        <option value="nl" data-translate="language.dutch">Nederlands</option>
+        <option value="sv" data-translate="language.swedish">Svenska</option>
+        <option value="da" data-translate="language.danish">Dansk</option>
+        <option value="no" data-translate="language.norwegian">Norsk</option>
+        <option value="fi" data-translate="language.finnish">Suomi</option>
+      </select>
+      <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="picture.sort.language.description">
+          Selects the language for image library content only. UI language is controlled by the main language selector in the header.
+      </p>
+    </div>
+    <div class="panel-content">
+
+      <div class="accordion-item">
+        <button class="accordion-button" data-translate="picture.sort.sorting.categories">Sorting Categories</button>
+        <div class="accordion-content">
+            <h4 style="margin-top: 0;" data-translate="picture.sort.auto.generation">Automatic Generation (Optional)</h4>
+            <label for="leftCategoryThemeSelect" data-translate="picture.sort.left.category.theme">Left Category Theme</label>
+            <select id="leftCategoryThemeSelect"></select>
+
+            <label for="rightCategoryThemeSelect" data-translate="picture.sort.right.category.theme">Right Category Theme</label>
+            <select id="rightCategoryThemeSelect"></select>
+        </div>
+      </div>
+      
+      <div class="accordion-item">
+        <button class="accordion-button" data-translate="picture.sort.image.library">Image Library</button>
+        <div class="accordion-content">
+            <h4 data-translate="picture.sort.browse.select">Browse & Select Images Manually</h4>
+            <label for="themeSelect" data-translate="picture.sort.browser.theme">Image Browser Theme:</label>
+            <select id="themeSelect"></select>
+            <label for="searchInput" data-translate="picture.sort.search.images">Search Images:</label>
+            <input type="text" id="searchInput" data-translate-placeholder="picture.sort.search.placeholder" placeholder="e.g., apple, car" />
+
+            <label style="margin-top: 10px;" data-translate="picture.sort.available.images">Available Images (Click to add):</label>
+            <div id="dictionary"><p class='dictionary-message' data-translate="picture.sort.loading.images">Loading images...</p></div>
+
+            <label style="margin-top:15px;" data-translate="picture.sort.selected.images">Selected Images:</label>
+            <div id="countInfo" class="selected-count" data-translate="picture.sort.count.info">Total: 0/12</div>
+            <div id="selectedImagesPreview">
+                <p class="dictionary-message" data-translate="picture.sort.selected.placeholder">Manually selected images will appear here.</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-button" data-translate="picture.sort.upload.custom">Upload Custom Images</button>
+        <div class="accordion-content">
+            <label for="imageUploadInput" data-translate="picture.sort.upload.select">Select image(s) to upload:</label>
+            <div class="custom-file-input-wrapper">
+                <button type="button" class="custom-file-button" id="customFileButton" data-translate="picture.sort.upload.button">Choose files</button>
+                <span class="custom-file-status" id="customFileStatus" data-translate="picture.sort.upload.no.file">No file chosen</span>
+            </div>
+            <input type="file" id="imageUploadInput" multiple accept="image/*">
+            <label style="margin-top:10px;" data-translate="picture.sort.uploaded.images">Your Uploaded Images (This Session):</label>
+            <div id="uploadedImagesPreview">
+                <p class="dictionary-message" data-translate="picture.sort.uploaded.placeholder">Your uploaded images will appear here.</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-button" data-translate="picture.sort.page.setup">Page Setup</button>
+        <div class="accordion-content">
+          <label for="pageSizeSelect" data-translate="picture.sort.page.size">Page Size:</label>
+          <select id="pageSizeSelect">
+              <option value="612x792" data-translate="page.size.letter.portrait">Letter Portrait (8.5×11")</option>
+              <option value="792x612" data-translate="page.size.letter.landscape">Letter Landscape (11×8.5")</option>
+              <option value="595x842" data-translate="page.size.a4.portrait">A4 Portrait (210×297mm)</option>
+              <option value="842x595" data-translate="page.size.a4.landscape">A4 Landscape (297×210mm)</option>
+              <option value="1200x1200" data-translate="page.size.square">Square (1200x1200)</option>
+              <option value="custom" data-translate="page.size.custom">Custom</option>
+          </select>
+          <div id="customPageSizeInputs" style="display:none;">
+              <label for="pageWidth" data-translate="picture.sort.width.label">Width (px):</label>
+              <input type="number" id="pageWidth" value="612">
+              <label for="pageHeight" data-translate="picture.sort.height.label">Height (px):</label>
+              <input type="number" id="pageHeight" value="792">
+          </div>
+          <label for="pageColor" data-translate="picture.sort.page.color">Page Color:</label>
+          <input type="color" id="pageColor" value="#FFFFFF">
+          <button id="setPageSizeBtn" data-translate="picture.sort.apply.size">Apply Size</button>
+          <label for="includeNameDate" class="checkbox-label" style="margin-top: 15px;">
+              <input type="checkbox" id="includeNameDate" /><span data-translate="picture.sort.include.name.date">Include Name/Date Fields</span>
+          </label>
+          <h4 style="margin-top: 15px;" data-translate="picture.sort.background.title">Background</h4>
+          <label for="backgroundThemeSelect" data-translate="picture.sort.background.theme">Background Theme:</label>
+          <select id="backgroundThemeSelect"><option value="none" data-translate="none">None</option></select>
+          <div id="backgroundDictionary"><p class="dictionary-message" data-translate="picture.sort.background.message">Select a theme to see backgrounds.</p></div>
+          <label for="backgroundOpacity" style="margin-top: 10px;" data-translate="picture.sort.background.opacity">Background Opacity:</label>
+          <input type="range" id="backgroundOpacity" min="0" max="1" value="1" step="0.05">
+          <h4 style="margin-top: 15px;" data-translate="picture.sort.border.title">Border</h4>
+          <label for="borderThemeSelect" data-translate="picture.sort.border.theme">Border Theme:</label>
+          <select id="borderThemeSelect"><option value="none" data-translate="none">None</option></select>
+          <div id="borderDictionary"><p class="dictionary-message" data-translate="picture.sort.border.message">Select a theme to see borders.</p></div>
+          <label for="borderOpacity" style="margin-top: 10px;" data-translate="picture.sort.border.opacity">Border Opacity:</label>
+          <input type="range" id="borderOpacity" min="0" max="1" value="1" step="0.05">
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <button class="accordion-button" data-translate="picture.sort.text.tools">Text Tools</button>
+        <div class="accordion-content">
+            <h4 data-translate="picture.sort.text.add.new">Add New Text</h4>
+            <label for="textInput" data-translate="picture.sort.text.content">Content:</label><input type="text" id="textInput" data-translate-placeholder="picture.sort.text.placeholder" placeholder="Hello!">
+            <button id="addTextBtn" data-translate="picture.sort.text.add.button">Add Text</button>
+            <h4 data-translate="picture.sort.text.properties">Selected Text Properties</h4>
+            <label for="textColor" data-translate="picture.sort.text.color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+            <label for="fontSize" data-translate="picture.sort.text.size">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+            <label for="fontFamily" data-translate="picture.sort.text.font">Font:</label>
+            <select id="fontFamily" disabled>
+                <option value="Lexend Deca" data-translate="font.lexend">Lexend Deca</option>
+                <option value="Baloo 2" data-translate="font.baloo">Baloo 2</option>
+                <option value="Nunito" data-translate="font.nunito">Nunito</option>
+                <option value="Quicksand" data-translate="font.quicksand">Quicksand</option>
+                <option value="Fredoka" data-translate="font.fredoka">Fredoka</option>
+                <option value="Arial" data-translate="font.arial">Arial</option>
+                <option value="Verdana" data-translate="font.verdana">Verdana</option>
+            </select>
+            <label for="textStrokeColor" data-translate="picture.sort.text.outline.color">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+            <label for="textStrokeWidth" data-translate="picture.sort.text.outline.width">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+        </div>
+      </div>
+
+    </div>
+    <div class="panel-footer">
+      <div id="message"></div>
+    </div>
+  </div>
+
+  <div class="main">
+    <button id="menuToggleBtn" class="menu-toggle-btn"><i class="fas fa-bars"></i></button>
+
+    <div class="tab-row">
+        <div class="tab-buttons-container">
+            <button class="tab-button active" data-tab="worksheetTab" data-translate="picture.sort.tab.worksheet">Worksheet</button>
+            <button class="tab-button" data-tab="solutionTab" data-translate="picture.sort.tab.answer">Answer Key</button>
+        </div>
+        <div class="header-actions">
+            <div class="zoom-controls">
+                <button id="zoomOutBtn" class="zoom-btn" data-translate-title="zoomOut" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                <span id="zoomPercentage" class="zoom-percentage">100%</span>
+                <button id="zoomInBtn" class="zoom-btn" data-translate-title="zoomIn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+                <button id="zoomResetBtn" class="zoom-btn" data-translate-title="zoomReset" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+            </div>
+            <div class="history-controls">
+                <button id="undoBtn" class="history-btn" disabled data-translate-title="undo" title="Undo (Ctrl+Z)"><i class="fas fa-undo"></i></button>
+                <button id="redoBtn" class="history-btn" disabled data-translate-title="redo" title="Redo (Ctrl+Y)"><i class="fas fa-redo"></i></button>
+            </div>
+            <!-- Unlock All Button (shown when objects are locked) -->
+            <div id="unlockAllControls" class="unlock-all-controls">
+                <button id="unlockAllBtn" class="unlock-all-btn" data-translate-title="toolbar.unlockAll" title="Unlock All Locked Objects">
+                    <i class="fas fa-unlock"></i>
+                    <span data-translate="toolbar.unlockAll">Unlock All</span>
+                </button>
+            </div>
+            <div class="dropdown-container">
+                <button id="generateDropdownBtn" class="action-button accent" disabled><span data-translate="picture.sort.generate">Generate</span> <i class="fas fa-caret-down"></i></button>
+                <div id="generateDropdownContent" class="dropdown-content">
+                    <button id="generateWorksheetBtn" data-translate="picture.sort.generate.worksheet">Generate Worksheet</button>
+                    <button id="generateSolutionBtn" disabled data-translate="picture.sort.generate.answer">Generate Answer Key</button>
+                </div>
+            </div>
+            <div class="dropdown-container">
+                <button id="downloadDropdownBtn" class="action-button download-btn" disabled><span data-translate="picture.sort.download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                <div id="downloadDropdownContent" class="dropdown-content">
+                    <button id="downloadWsJpegBtn" disabled data-translate="picture.sort.download.worksheet.jpeg">Worksheet (JPEG)</button>
+                    <button id="downloadAkJpegBtn" disabled data-translate="picture.sort.download.answer.jpeg">Answer Key (JPEG)</button>
+                    <hr style="margin: 6px 0; border-color: #eee;">
+                    <button id="downloadWsPdfBtn" disabled data-translate="picture.sort.download.worksheet.pdf">Worksheet (PDF)</button>
+                    <button id="downloadAkPdfBtn" disabled data-translate="picture.sort.download.answer.pdf">Answer Key (PDF)</button>
+                    <hr style="margin: 6px 0; border-color: #eee;">
+                    <label class="checkbox-label" id="grayscaleLabel">
+                        <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                    </label>
+                </div>
+            </div>
+            <button id="clearBtn" class="action-button danger" data-translate="picture.sort.clear.all">Clear All</button>
+        </div>
+    </div>
+    
+    <div id="object-context-toolbar" style="display:none;">
+        <div class="toolbar-group">
+            <div class="toolbar-item">
+                <button class="context-btn" id="layersBtn" data-translate-title="toolbar.layers" title="Layers"><i class="fas fa-layer-group"></i></button>
+                <div class="dropdown-content" id="layersDropdown">
+                    <button id="toolbarBringToFrontBtn" data-translate="toolbar.bring.to.front">Bring to Front</button>
+                    <button id="toolbarBringForwardBtn" data-translate="toolbar.bring.forward">Bring Forward</button>
+                    <button id="toolbarSendBackwardBtn" data-translate="toolbar.send.backward">Send Backward</button>
+                    <button id="toolbarSendToBackBtn" data-translate="toolbar.send.to.back">Send to Back</button>
+                </div>
+            </div>
+        </div>
+        <div class="toolbar-group">
+            <div class="toolbar-item">
+                <button class="context-btn" id="alignBtn" data-translate-title="toolbar.align" title="Align"><i class="fas fa-th"></i></button>
+                <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
+                    <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.selected">Align Selected:</p>
+                    <div>
+                        <button class="context-btn" id="alignLeftBtn" data-translate-title="toolbar.align.left" title="Align Left"><i class="fas fa-align-left"></i></button>
+                        <button class="context-btn" id="alignHCenterBtn" data-translate-title="toolbar.center.h" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                        <button class="context-btn" id="alignRightBtn" data-translate-title="toolbar.align.right" title="Align Right"><i class="fas fa-align-right"></i></button>
+                    </div>
+                    <div style="margin-top: 5px;">
+                        <button class="context-btn" id="alignTopBtn" data-translate-title="toolbar.align.top" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                        <button class="context-btn" id="alignVCenterBtn" data-translate-title="toolbar.center.v" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
+                        <button class="context-btn" id="alignBottomBtn" data-translate-title="toolbar.align.bottom" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                    </div>
+                    <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
+                    <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.to.page">Align to Page:</p>
+                    <div>
+                        <button class="context-btn" id="centerHCanvasBtn" data-translate-title="toolbar.center.page.h" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                        <button class="context-btn" id="centerVCanvasBtn" data-translate-title="toolbar.center.page.v" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="toolbar-group">
+            <button class="context-btn" id="toolbarLockBtn" data-translate-title="toolbar.lockUnlock" title="Lock/Unlock"><i class="fas fa-lock-open"></i></button>
+        </div>
+        <div class="toolbar-group">
+            <button class="context-btn" id="toolbarDeleteBtn" data-translate-title="toolbar.delete" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
+        </div>
+    </div>
+
+    <div class="tab-content-wrapper">
+      <div class="tab active" id="worksheetTab">
+        <div class="canvas-container-wrapper" id="worksheetCanvasWrapper">
+            <canvas id="worksheetCanvas"></canvas>
+        </div>
+      </div>
+      <div class="tab" id="solutionTab">
+        <div class="canvas-container-wrapper" id="solutionCanvasWrapper">
+            <canvas id="solutionCanvas"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// MUST BE GLOBAL - Before DOMContentLoaded for proper enhancement script initialization
+// Separate UI locale (from URL) and content locale (from sidebar selector)
+let uiLocale = 'en';  // UI language (for interface translations) - from URL parameter
+let currentLocale = 'en';  // Content language (for image library) - can be changed by sidebar selector
+const urlParams = new URLSearchParams(window.location.search);
+const localeParam = urlParams.get('locale');
+if (localeParam) {
+    uiLocale = localeParam;  // UI language comes from URL (parent app header)
+    currentLocale = localeParam;  // Initial content language matches UI language
+}
+// Set globally for all enhancement scripts
+window.uiLocale = uiLocale;
+window.currentLocale = currentLocale;
+
+// Translation function
+function t(key, params = {}) {
+    if (typeof translations === 'undefined') {
+        console.warn('Translations not loaded:', key);
+        return key;
+    }
+    // Use uiLocale for UI translations, fallback to currentLocale, then to English
+    const locale = window.uiLocale || window.currentLocale || 'en';
+    let translation = translations[locale]?.[key] || translations.en?.[key] || key;
+
+    // Handle parameter substitution
+    Object.keys(params).forEach(paramKey => {
+        const placeholder = `{${paramKey}}`;
+        translation = translation.replace(new RegExp(placeholder.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'g'), params[paramKey]);
+    });
+
+    return translation;
+}
+
+// Apply translations function
+function applyTranslations() {
+    console.log('[Picture Sort] Applying UI translations for locale:', window.uiLocale || window.currentLocale);
+    console.log('[Picture Sort] Content locale:', window.currentLocale);
+
+    document.querySelectorAll('[data-translate]').forEach(el => {
+        const key = el.getAttribute('data-translate');
+        if (key) el.textContent = t(key);
+    });
+    document.querySelectorAll('[data-translate-placeholder]').forEach(el => {
+        const key = el.getAttribute('data-translate-placeholder');
+        if (key) el.placeholder = t(key);
+    });
+    document.querySelectorAll('[data-translate-title]').forEach(el => {
+        const key = el.getAttribute('data-translate-title');
+        if (key) el.title = t(key);
+    });
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    // --- STATE MANAGEMENT ---
+    let imageCache = { themes: [], all: [] };
+    let categorizedSelections = []; // { word, path, category: 'left' | 'right' }
+    let uploadedImages = [];
+    let currentThemeImages = [];
+    let lastGeneratedData = null;
+    let worksheetCanvas, solutionCanvas;
+    let currentCanvasConfig = { width: 612, height: 792 };
+    let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
+
+    // Undo/Redo state management
+    const MAX_HISTORY = 20; // Maximum number of history states to keep
+    let historyStack = []; // Stack of previous canvas states
+    let redoStack = []; // Stack of undone states for redo
+    let isRestoringState = false; // Flag to prevent saving state while restoring
+    let isGenerating = false; // Flag to prevent saving state during worksheet generation
+
+    let worksheetCutoutCellSize = 0; // To store cell size for answer key consistency
+    const downloadMultiplier = 6;
+    const MANUAL_MODE_VALUE = 'manual';
+    const MAX_TOTAL_IMAGES = 12;
+    const MIN_TOTAL_IMAGES = 4;  // Minimum total images (2 per category * 2 categories)
+    const MIN_PER_CATEGORY = 2;
+    const MAX_PER_CATEGORY = 10;
+    const THEME_MIN_IMAGES = 4;
+    const THEME_MAX_IMAGES = 6;
+
+    // --- DOM ELEMENT REFERENCES ---
+    const leftCategoryThemeSelect = document.getElementById('leftCategoryThemeSelect');
+    const rightCategoryThemeSelect = document.getElementById('rightCategoryThemeSelect');
+    const countInfo = document.getElementById('countInfo');
+    const themeSelect = document.getElementById('themeSelect');
+    const searchInput = document.getElementById('searchInput');
+    const languageSelect = document.getElementById('languageSelect');
+    const dictionaryDiv = document.getElementById('dictionary');
+    const selectedImagesPreviewDiv = document.getElementById('selectedImagesPreview');
+    const messageDiv = document.getElementById('message');
+    const generateDropdownBtn = document.getElementById('generateDropdownBtn');
+    const generateDropdownContent = document.getElementById('generateDropdownContent');
+    const generateWorksheetBtn = document.getElementById('generateWorksheetBtn');
+    const generateSolutionBtn = document.getElementById('generateSolutionBtn');
+    const clearBtn = document.getElementById('clearBtn');
+
+    // Header Controls - Zoom
+    const zoomInBtn = document.getElementById('zoomInBtn');
+    const zoomOutBtn = document.getElementById('zoomOutBtn');
+    const zoomResetBtn = document.getElementById('zoomResetBtn');
+    const zoomPercentage = document.getElementById('zoomPercentage');
+
+    // Header Controls - Undo/Redo
+    const undoBtn = document.getElementById('undoBtn');
+    const redoBtn = document.getElementById('redoBtn');
+    const unlockAllBtn = document.getElementById('unlockAllBtn');
+    const unlockAllControls = document.getElementById('unlockAllControls');
+
+    const downloadDropdownBtn = document.getElementById('downloadDropdownBtn');
+    const downloadDropdownContent = document.getElementById('downloadDropdownContent');
+    // New Download Buttons
+    const downloadWsJpegBtn = document.getElementById('downloadWsJpegBtn');
+    const downloadAkJpegBtn = document.getElementById('downloadAkJpegBtn');
+    const downloadWsPdfBtn = document.getElementById('downloadWsPdfBtn');
+    const downloadAkPdfBtn = document.getElementById('downloadAkPdfBtn');
+    const grayscaleToggle = document.getElementById('grayscaleToggle');
+    const pageSizeSelect = document.getElementById('pageSizeSelect');
+    const customPageSizeInputsDiv = document.getElementById('customPageSizeInputs');
+    const pageWidthInput = document.getElementById('pageWidth');
+    const pageHeightInput = document.getElementById('pageHeight');
+    const setPageSizeBtn = document.getElementById('setPageSizeBtn');
+    const pageColorInput = document.getElementById('pageColor');
+    const includeNameDate = document.getElementById('includeNameDate');
+    const imageUploadInput = document.getElementById('imageUploadInput');
+    const uploadedImagesPreviewDiv = document.getElementById('uploadedImagesPreview');
+    const customFileButton = document.getElementById('customFileButton');
+    const customFileStatus = document.getElementById('customFileStatus');
+    const textInput = document.getElementById('textInput');
+    const addTextBtn = document.getElementById('addTextBtn');
+    const textColorInput = document.getElementById('textColor');
+    const fontSizeInput = document.getElementById('fontSize');
+    const fontFamilySelect = document.getElementById('fontFamily');
+    const textStrokeColorInput = document.getElementById('textStrokeColor');
+    const textStrokeWidthInput = document.getElementById('textStrokeWidth');
+    const borderThemeSelect = document.getElementById('borderThemeSelect');
+    const borderDictionary = document.getElementById('borderDictionary');
+    const borderOpacitySlider = document.getElementById('borderOpacity');
+    const backgroundThemeSelect = document.getElementById('backgroundThemeSelect');
+    const backgroundDictionary = document.getElementById('backgroundDictionary');
+    const backgroundOpacitySlider = document.getElementById('backgroundOpacity');
+    const objectContextToolbar = document.getElementById('object-context-toolbar');
+    const layersBtn = document.getElementById('layersBtn');
+    const layersDropdown = document.getElementById('layersDropdown');
+    const toolbarBringToFrontBtn = document.getElementById('toolbarBringToFrontBtn');
+    const toolbarBringForwardBtn = document.getElementById('toolbarBringForwardBtn');
+    const toolbarSendBackwardBtn = document.getElementById('toolbarSendBackwardBtn');
+    const toolbarSendToBackBtn = document.getElementById('toolbarSendToBackBtn');
+    const alignBtn = document.getElementById('alignBtn');
+    const alignDropdown = document.getElementById('alignDropdown');
+    const toolbarLockBtn = document.getElementById('toolbarLockBtn');
+    const toolbarDeleteBtn = document.getElementById('toolbarDeleteBtn');
+    const allToolbarButtons = objectContextToolbar.querySelectorAll('.context-btn');
+
+    // --- CANVAS HELPERS ---
+    function getActiveCanvas() {
+        const activeTab = document.querySelector('.tab.active');
+        // If the solution tab is active, return that canvas, otherwise default to the worksheet canvas.
+        return activeTab && activeTab.id === 'solutionTab' ? solutionCanvas : worksheetCanvas;
+    }
+    
+    function setupCanvasEventListeners(canvas) {
+        canvas.on({
+            'selection:created': function(e) { handleObjectSelection(e, this); },
+            'selection:updated': function(e) { handleObjectSelection(e, this); },
+            'selection:cleared': function(e) { handleSelectionCleared(e, this); },
+            // Undo/Redo canvas hooks - save state after modifications
+            'object:modified': function(e) { saveCanvasState(); },
+            'object:added': function(e) { saveCanvasState(); },
+            'object:removed': function(e) { saveCanvasState(); }
+            // Removed movement and scaling constraints to allow free editing
+        });
+    }
+    
+    function constrainObjectMovement(e) {
+        const obj = e.target;
+        
+        // Only constrain if it's an answer key image (not a frame)
+        if (obj.isAnswerKeyImage && obj.canvas) {
+            const frames = obj.canvas.getObjects().filter(o => o.isAnswerKeyFrame && o.frameSide === obj.containerSide);
+            if (frames.length > 0) {
+                const frame = frames[0];
+                const frameBounds = frame.getBoundingRect();
+                
+                // Calculate object bounds correctly considering its origin point
+                const objWidth = obj.getScaledWidth();
+                const objHeight = obj.getScaledHeight();
+                
+                // Since origin is center, calculate actual bounds
+                const objLeft = obj.left - (objWidth / 2);
+                const objTop = obj.top - (objHeight / 2);
+                const objRight = objLeft + objWidth;
+                const objBottom = objTop + objHeight;
+                
+                // Keep image within frame bounds with small padding
+                const padding = 5;
+                
+                // Constrain horizontally
+                if (objLeft < frameBounds.left + padding) {
+                    obj.left = frameBounds.left + padding + (objWidth / 2);
+                }
+                if (objRight > frameBounds.left + frameBounds.width - padding) {
+                    obj.left = frameBounds.left + frameBounds.width - padding - (objWidth / 2);
+                }
+                
+                // Constrain vertically
+                if (objTop < frameBounds.top + padding) {
+                    obj.top = frameBounds.top + padding + (objHeight / 2);
+                }
+                if (objBottom > frameBounds.top + frameBounds.height - padding) {
+                    obj.top = frameBounds.top + frameBounds.height - padding - (objHeight / 2);
+                }
+                
+                // Update canvas to show constrained position
+                obj.setCoords();
+            }
+        }
+    }
+    
+    function constrainObjectScaling(e) {
+        const obj = e.target;
+        
+        // Limit scaling for answer key images
+        if (obj.isAnswerKeyImage) {
+            const maxScale = 3;
+            const minScale = 0.3;
+            
+            if (obj.scaleX > maxScale) obj.scaleX = maxScale;
+            if (obj.scaleY > maxScale) obj.scaleY = maxScale;
+            if (obj.scaleX < minScale) obj.scaleX = minScale;
+            if (obj.scaleY < minScale) obj.scaleY = minScale;
+        }
+    }
+
+    function createHeaderGroup(canvas) {
+        const defaultHeaders = {
+            en: { title: 'Picture Sort', description: 'Sort the pictures into the correct groups!' },
+            de: { title: 'Bilder Sortieren', description: 'Sortiere die Bilder in die richtigen Gruppen!' },
+            fr: { title: 'Tri d\'Images', description: 'Trie les images dans les bons groupes!' },
+            es: { title: 'Clasificación de Imágenes', description: '¡Clasifica las imágenes en los grupos correctos!' },
+            it: { title: 'Classificazione Immagini', description: 'Classifica le immagini nei gruppi corretti!' },
+            pt: { title: 'Classificação de Imagens', description: 'Classifique as imagens nos grupos corretos!' },
+            nl: { title: 'Afbeeldingen Sorteren', description: 'Sorteer de afbeeldingen in de juiste groepen!' },
+            sv: { title: 'Sortera Bilder', description: 'Sortera bilderna i rätt grupper!' },
+            da: { title: 'Sorter Billeder', description: 'Sorter billederne i de rigtige grupper!' },
+            no: { title: 'Sorter Bilder', description: 'Sorter bildene i de riktige gruppene!' },
+            fi: { title: 'Lajittele Kuvat', description: 'Lajittele kuvat oikeisiin ryhmiin!' }
+        };
+
+        const locale = currentLocale || 'en';
+        const defaults = defaultHeaders[locale] || defaultHeaders.en;
+        const title = defaults.title;
+        const description = defaults.description;
+
+        // Get current canvas dimensions for responsive design
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const isLandscape = pageWidth > pageHeight;
+
+        const objects = [];
+
+        // Outer border - responsive to page size (fresh teal for sorting/organization)
+        const margin = 34;
+        const strokeWidth = 8;
+        const borderWidth = pageWidth - (margin * 2);
+        const borderHeight = pageHeight - (margin * 2);
+
+        const outerBorder = new fabric.Rect({
+            left: margin,
+            top: margin,
+            width: borderWidth,
+            height: borderHeight,
+            fill: 'transparent',
+            stroke: '#26A69A',
+            strokeWidth: strokeWidth,
+            rx: 12,
+            ry: 12,
+            selectable: true,
+            hasControls: true,
+            isPageBorder: true
+        });
+        objects.push(outerBorder);
+
+        // LANDSCAPE MODE: Compact, centered header
+        if (isLandscape) {
+            const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+            const headerHeight = 70;
+            const centerX = pageWidth / 2;
+            const headerTop = 60;
+
+            // Bright mint header background - compact size
+            const bgRect = new fabric.Rect({
+                left: centerX - maxHeaderWidth / 2,
+                top: headerTop,
+                width: maxHeaderWidth,
+                height: headerHeight,
+                fill: '#4DB6AC',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
+
+            // White pill for title - compact
+            const whitePill = new fabric.Rect({
+                left: centerX - (maxHeaderWidth - 40) / 2,
+                top: headerTop + 10,
+                width: maxHeaderWidth - 40,
+                height: 50,
+                fill: '#FFFFFF',
+                rx: 25,
+                ry: 25,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
+
+            // Title - compact size for landscape
+            let titleFontSize = 36;
+            if (title.length > 12) titleFontSize = 32;
+            if (title.length > 15) titleFontSize = 28;
+            if (title.length > 18) titleFontSize = 24;
+
+            const titleText = new fabric.IText(title, {
+                left: centerX,
+                top: headerTop + 35,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#00796B',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description - compact below header
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: headerTop + headerHeight + 5,
+                width: maxHeaderWidth - 20,
+                fontSize: 14,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#FF7043',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true,
+                isHeaderElement: true
+            });
+            objects.push(descText);
+
+        } else {
+            // PORTRAIT MODE: Full-width professional header
+            const headerMargin = 70;
+            const headerWidth = pageWidth - (headerMargin * 2);
+            const centerX = pageWidth / 2;
+
+            // Bright mint header background
+            const bgRect = new fabric.Rect({
+                left: headerMargin,
+                top: 70,
+                width: headerWidth,
+                height: 100,
+                fill: '#4DB6AC',
+                rx: 15,
+                ry: 15,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(bgRect);
+
+            // White pill for title
+            const whitePill = new fabric.Rect({
+                left: headerMargin + 20,
+                top: 85,
+                width: headerWidth - 40,
+                height: 70,
+                fill: '#FFFFFF',
+                rx: 35,
+                ry: 35,
+                selectable: true,
+                isHeaderElement: true
+            });
+            objects.push(whitePill);
+
+            // Title - Dynamic size based on length
+            let titleFontSize = 48;
+            if (title.length > 12) titleFontSize = 40;
+            if (title.length > 15) titleFontSize = 36;
+            if (title.length > 18) titleFontSize = 32;
+            if (title.length > 22) titleFontSize = 28;
+
+            const titleText = new fabric.IText(title, {
+                left: centerX,
+                top: 120,
+                fontSize: titleFontSize,
+                fontFamily: 'Fredoka, sans-serif',
+                fontWeight: '700',
+                fill: '#00796B',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'center',
+                selectable: true,
+                editable: true,
+                isHeaderElement: true
+            });
+            objects.push(titleText);
+
+            // Description text
+            const descText = new fabric.Textbox(description, {
+                left: centerX,
+                top: 190,
+                width: Math.min(450, pageWidth - 150),
+                fontSize: 20,
+                fontFamily: 'Quicksand, sans-serif',
+                fontWeight: '500',
+                fill: '#FF7043',
+                textAlign: 'center',
+                originX: 'center',
+                originY: 'top',
+                selectable: true,
+                editable: true,
+                hasControls: true,
+                isHeaderDesc: true,
+                isHeaderElement: true
+            });
+            objects.push(descText);
+        }
+
+        return objects;
+    }
+
+    function createPageBorder(canvas) {
+        return null;
+    }
+
+    function enforceZOrder(canvas) {
+        if (!canvas) return;
+
+        const allObjects = canvas.getObjects();
+
+        // MODIFIED: Remove automatic enforcement of backgrounds and borders
+        // Users should have full control over these elements via layer controls
+        // Only enforce page borders and header elements
+
+        const pageBorders = allObjects.filter(o => o.isPageBorder);
+        const headerElements = allObjects.filter(o => o.isHeaderElement && !o.isPageBorder);
+        const nameDateElements = allObjects.filter(o => o.isNameDate);
+        const worksheetItems = allObjects.filter(o => o.isWorksheetItem || o.isAnswerKeyItem);
+        const otherItems = allObjects.filter(o =>
+            !o.isPageBorder &&
+            !o.isHeaderElement &&
+            !o.isNameDate &&
+            !o.isWorksheetItem &&
+            !o.isAnswerKeyItem
+        );
+
+        // Use moveTo for precise z-order control
+        // Order from back to front: page borders, header elements, name/date, worksheet items, everything else (including user borders/backgrounds)
+        let index = 0;
+
+        pageBorders.forEach(obj => { canvas.moveTo(obj, index++); });
+        headerElements.forEach(obj => { canvas.moveTo(obj, index++); });
+        nameDateElements.forEach(obj => { canvas.moveTo(obj, index++); });
+        worksheetItems.forEach(obj => { canvas.moveTo(obj, index++); });
+        otherItems.forEach(obj => { canvas.moveTo(obj, index++); });
+    }
+
+    // CRITICAL: Paper switching regeneration system (follows wordsearch pattern EXACTLY)
+    async function regenerateHeadersOnly() {
+        // Only regenerate if worksheet exists
+        if (!lastGeneratedData) return;
+
+        // Regenerate ENTIRE worksheet (not just headers!)
+        // CRITICAL: Pass false to NOT preserve transforms during paper size change
+        await renderWorksheet(lastGeneratedData, false);
+
+        // Regenerate solution if it exists
+        const hasSolution = solutionCanvas && solutionCanvas.getObjects().some(o => o.isAnswerKeyFrame || o.isAnswerKeyImage);
+        if (hasSolution) {
+            // CRITICAL: Pass false to NOT preserve transforms during paper size change
+            await renderSolution(lastGeneratedData, false);
+        }
+    }
+
+    // --- INITIALIZATION ---
+    async function initializeApp() {
+        // Initialize locale from URL or saved setting
+        const urlParams = new URLSearchParams(window.location.search);
+        const localeParam = urlParams.get('locale');
+        if (localeParam && languageSelect) {
+            languageSelect.value = localeParam;
+            currentLocale = localeParam;
+        }
+
+        // Apply initial translations
+        if (typeof applyTranslations === 'function') {
+            applyTranslations();
+        }
+
+        worksheetCanvas = initializeCanvas('worksheetCanvas');
+        solutionCanvas = initializeCanvas('solutionCanvas');
+        setupCanvasEventListeners(worksheetCanvas);
+        setupCanvasEventListeners(solutionCanvas);
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height, true); // fromLoad=true for initial setup
+
+        // Initialize zoom display
+        updateZoomDisplay();
+
+        setupEventListeners();
+
+        // PERFORMANCE FIX: Await theme loading before proceeding
+        await initializeImageLibrary();
+
+        loadBorderThemes();
+        loadBackgroundThemes();
+        updateSelectedImagesUI();
+        updateButtonState();
+
+        // Preload default themes for instant first generation
+        await preloadDefaultThemes();
+
+        // Generate initial worksheet immediately after themes are loaded
+        await generateInitialWorksheet();
+    }
+
+    function initializeCanvas(canvasId) {
+        const canvasEl = document.getElementById(canvasId);
+        const wrapper = document.getElementById(canvasId + 'Wrapper');
+        const canvas = new fabric.Canvas(canvasEl, {
+            backgroundColor: pageColorInput.value,
+            preserveObjectStacking: true,
+            enableRetinaScaling: true
+        });
+        canvas.wrapperEl = wrapper;
+        return canvas;
+    }
+
+    // --- EVENT LISTENERS ---
+    function setupEventListeners() {
+        const panel = document.querySelector('.panel');
+        const overlay = document.getElementById('menuOverlay');
+        const openMenu = () => { panel.classList.add('is-open'); overlay.classList.add('is-active'); };
+        const closeMenu = () => { panel.classList.remove('is-open'); overlay.classList.remove('is-active'); };
+        document.getElementById('menuToggleBtn').addEventListener('click', openMenu);
+        document.getElementById('menuCloseBtn').addEventListener('click', closeMenu);
+        overlay.addEventListener('click', closeMenu);
+        document.querySelectorAll('.accordion-button').forEach(button => {
+            button.addEventListener('click', () => {
+                const isActive = button.classList.toggle('active');
+                button.nextElementSibling.style.display = isActive ? 'block' : 'none';
+            });
+            if (button.classList.contains('active')) button.nextElementSibling.style.display = 'block';
+        });
+        setupDropdown(generateDropdownBtn, generateDropdownContent);
+        setupDropdown(downloadDropdownBtn, downloadDropdownContent);
+        
+        document.querySelectorAll('.tab-button').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const currentCanvas = getActiveCanvas();
+                if (currentCanvas) {
+                    currentCanvas.discardActiveObject().renderAll();
+                    handleSelectionCleared(null, currentCanvas);
+                }
+                switchTab(e.target);
+            });
+        });
+
+        // Zoom Controls
+        zoomInBtn.addEventListener('click', zoomIn);
+        zoomOutBtn.addEventListener('click', zoomOut);
+        zoomResetBtn.addEventListener('click', zoomReset);
+
+        // Undo/Redo Controls
+        undoBtn.addEventListener('click', undo);
+        redoBtn.addEventListener('click', redo);
+
+        generateWorksheetBtn.addEventListener('click', handleGenerateWorksheet);
+        generateSolutionBtn.addEventListener('click', handleGenerateSolution);
+        clearBtn.addEventListener('click', handleClearAll);
+
+        // Download Listeners
+        downloadWsJpegBtn.addEventListener('click', () => downloadImageFile('worksheet', worksheetCanvas));
+        downloadAkJpegBtn.addEventListener('click', () => downloadImageFile('answer_key', solutionCanvas));
+        downloadWsPdfBtn.addEventListener('click', () => downloadPDF('worksheet', worksheetCanvas));
+        downloadAkPdfBtn.addEventListener('click', () => downloadPDF('answer_key', solutionCanvas));
+
+        [leftCategoryThemeSelect, rightCategoryThemeSelect].forEach(el => el.addEventListener('change', updateButtonState));
+        themeSelect.addEventListener('change', handleThemeChange);
+        searchInput.addEventListener('input', () => debounce(renderDictionary, 300));
+        imageUploadInput.addEventListener('change', handleImageUpload);
+        
+        // Initialize UnifiedLanguageManager for content language (image library)
+        if (typeof window.UnifiedLanguageManager !== 'undefined') {
+            window.languageManager = window.UnifiedLanguageManager;
+
+            // Register callback to reload image library when content language changes
+            window.languageManager.onLanguageChange(function(newLocale, oldLocale) {
+                console.log('[Picture Sort] Content language changed from', oldLocale, 'to', newLocale);
+                currentLocale = newLocale;
+                window.currentLocale = newLocale;
+
+                // Clear image cache and reinitialize
+                imageCache = { themes: [], all: [] };
+                initializeImageLibrary();
+            });
+        } else {
+            // Fallback mode with direct event handler (backward compatibility)
+            console.warn('[Picture Sort] UnifiedLanguageManager not found, using fallback mode');
+            languageSelect.addEventListener('change', function() {
+                const newLocale = this.value;
+                currentLocale = newLocale;
+                window.currentLocale = newLocale;
+
+                // Clear image cache and reinitialize (do NOT reload UI translations)
+                imageCache = { themes: [], all: [] };
+                initializeImageLibrary();
+            });
+        }
+        pageSizeSelect.addEventListener('change', async () => {
+            customPageSizeInputsDiv.style.display = pageSizeSelect.value === 'custom' ? 'block' : 'none';
+            if (pageSizeSelect.value !== 'custom') {
+                const [w, h] = pageSizeSelect.value.split('x').map(Number);
+                await updateCanvasDisplayDimensions(w, h);
+            }
+        });
+        setPageSizeBtn.addEventListener('click', async () => {
+            const newWidth = parseInt(pageWidthInput.value, 10);
+            const newHeight = parseInt(pageHeightInput.value, 10);
+            await updateCanvasDisplayDimensions(newWidth, newHeight);
+        });
+        pageColorInput.addEventListener('input', handlePageColorChange);
+        backgroundThemeSelect.addEventListener('change', loadBackgroundImages);
+        backgroundOpacitySlider.addEventListener('input', handleBackgroundOpacityChange);
+        borderThemeSelect.addEventListener('change', loadBorderImages);
+        borderOpacitySlider.addEventListener('input', handleBorderOpacityChange);
+        addTextBtn.addEventListener('click', addTextToCanvas);
+        [textInput, textColorInput, fontSizeInput, textStrokeColorInput, textStrokeWidthInput].forEach(el => el.addEventListener('input', updateActiveTextObjectProperties));
+        fontFamilySelect.addEventListener('change', updateActiveTextObjectProperties);
+        setupGlobalKeydownListener();
+        layersBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(layersDropdown, layersBtn); });
+        alignBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(alignDropdown, alignBtn); });
+        toolbarBringToFrontBtn.addEventListener('click', bringObjectToFront);
+        toolbarBringForwardBtn.addEventListener('click', bringObjectForward);
+        toolbarSendBackwardBtn.addEventListener('click', sendObjectBackward);
+        toolbarSendToBackBtn.addEventListener('click', sendObjectToBack);
+        toolbarLockBtn.addEventListener('click', toggleLockSelectedObjects);
+        toolbarDeleteBtn.addEventListener('click', deleteSelectedObjects);
+        unlockAllBtn.addEventListener('click', unlockAllObjects);
+        document.querySelectorAll('#alignDropdown button').forEach(button => button.addEventListener('click', (e) => alignObjects(e.currentTarget.id.replace('Btn', ''))));
+        window.addEventListener('click', closeAllPopovers);
+    }
+    
+    // --- IMAGE LIBRARY AND SELECTION LOGIC ---
+    async function initializeImageLibrary() {
+        showMessage('info', t('picture.sort.msg.loading.themes'), 0);
+        try {
+            const themes = await fetch(`/api/themes-translated?locale=${currentLocale}`).then(res => res.ok ? res.json() : []);
+            imageCache.themes = themes;
+            const manualOpt = `<option value="${MANUAL_MODE_VALUE}">${t('picture.sort.manual.selection')}</option>`;
+            leftCategoryThemeSelect.innerHTML = manualOpt;
+            rightCategoryThemeSelect.innerHTML = manualOpt;
+
+            // Get translated "All Themes" text
+            const allThemesText = t('picture.sort.themes.all');
+            themeSelect.innerHTML = `<option value="all">${allThemesText}</option>`;
+
+            themes.forEach(theme => {
+                const opt = `<option value="${theme.value}">${theme.displayName}</option>`;
+                themeSelect.innerHTML += opt;
+                leftCategoryThemeSelect.innerHTML += opt;
+                rightCategoryThemeSelect.innerHTML += opt;
+            });
+            showMessage('success', t('picture.sort.msg.library.ready'));
+            await renderDictionary();
+        } catch (error) {
+            console.error("Failed to initialize image library:", error);
+            showMessage('error', t('picture.sort.msg.library.error'));
+        }
+    }
+
+    async function handleThemeChange() {
+        const selectedTheme = themeSelect.value;
+        if (selectedTheme && selectedTheme !== 'all') {
+            dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('picture.sort.msg.loading.theme.images', {theme: selectedTheme})}</p>`;
+            try {
+                const data = await fetch(`/api/images?theme=${encodeURIComponent(selectedTheme)}&locale=${currentLocale}`).then(res => res.json());
+                currentThemeImages = data.images || data;
+            } catch (e) {
+                showMessage('error', t('picture.sort.msg.theme.failed', {theme: selectedTheme}));
+                currentThemeImages = [];
+            }
+        } else {
+            // STANDARD: Load "animals" theme by default when "All Themes" selected
+            currentThemeImages = [];
+            if (!searchInput.value.trim()) {
+                try {
+                    const data = await fetch(`/api/images?theme=animals&locale=${currentLocale}`).then(res => res.json());
+                    currentThemeImages = data.images || data;
+                } catch (e) {
+                    console.error('Failed to load default animals theme');
+                }
+            }
+        }
+        await renderDictionary();
+    }
+    
+    async function renderDictionary() {
+        const query = searchInput.value.trim().toLowerCase();
+        const selectedTheme = themeSelect.value;
+        dictionaryDiv.innerHTML = '';
+        let imagesToDisplay = [];
+        try {
+            if (selectedTheme === 'all') {
+                if (!query && currentThemeImages.length === 0) {
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('picture.sort.search.all.placeholder')}</p>`;
+                    return;
+                }
+                if (query) {
+                    dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('picture.sort.msg.searching')}</p>`;
+                    const data = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`).then(res => res.ok ? res.json() : {images: []});
+                    imagesToDisplay = data.images || data;
+                } else {
+                    // Use the default animals theme images loaded in handleThemeChange
+                    imagesToDisplay = currentThemeImages;
+                }
+            } else {
+                imagesToDisplay = query ? currentThemeImages.filter(img => {
+                    const displayName = img.name || img.word;
+                    return displayName.toLowerCase().includes(query);
+                }) : currentThemeImages;
+            }
+        } catch (error) {
+            console.error('Error fetching/filtering images:', error);
+            showMessage('error', t('picture.sort.msg.retrieve.error'));
+        }
+        if (imagesToDisplay.length === 0) {
+            dictionaryDiv.innerHTML = `<p class="dictionary-message">${t('picture.sort.msg.no.images')}</p>`;
+            return;
+        }
+        imagesToDisplay.sort((a, b) => {
+            const aName = a.name || a.word;
+            const bName = b.name || b.word;
+            return aName.localeCompare(bName);
+        }).forEach(imgData => {
+            const item = document.createElement('div');
+            item.className = 'dictionary-item';
+            item.dataset.path = imgData.path;
+            if (categorizedSelections.some(sel => sel.path === imgData.path)) {
+                item.classList.add('selected');
+            }
+            const displayName = imgData.name || imgData.word;
+            item.innerHTML = `<img src="${imgData.path}" crossOrigin="anonymous" alt="${displayName}"/><span>${displayName}</span>`;
+            item.onclick = () => handleImageClick(imgData);
+            dictionaryDiv.appendChild(item);
+        });
+    }
+    
+    function handleImageClick(image) {
+        const index = categorizedSelections.findIndex(img => img.path === image.path);
+        if (index > -1) {
+            categorizedSelections.splice(index, 1);
+        } else {
+            if (categorizedSelections.length >= MAX_TOTAL_IMAGES) {
+                showMessage('info', t('picture.sort.msg.max.images', {MAX_TOTAL_IMAGES}), 3000);
+                return;
+            }
+            categorizedSelections.push({ ...image, category: 'left' });
+            leftCategoryThemeSelect.value = MANUAL_MODE_VALUE;
+            rightCategoryThemeSelect.value = MANUAL_MODE_VALUE;
+        }
+        updateSelectedImagesUI();
+        updateButtonState();
+        document.querySelectorAll(`.dictionary-item[data-path="${image.path}"]`).forEach(el => el.classList.toggle('selected', index === -1));
+        document.querySelectorAll(`#uploadedImagesPreview .dictionary-item[data-path="${image.path}"]`).forEach(el => el.classList.toggle('selected', index === -1));
+    }
+
+    function updateSelectedImagesUI() {
+        selectedImagesPreviewDiv.innerHTML = '';
+        if (categorizedSelections.length === 0) {
+            selectedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">${t('picture.sort.selected.placeholder')}</p>`;
+        }
+        categorizedSelections.forEach((img, index) => {
+            const item = document.createElement("div");
+            item.className = 'selected-preview-item';
+            const displayName = img.name || img.word;
+            item.innerHTML = `
+                <img src="${img.path}" alt="${displayName}" />
+                <div class="item-info">
+                    <span>${displayName}</span>
+                    <select data-index="${index}">
+                        <option value="left" ${img.category === 'left' ? 'selected' : ''}>${t('picture.sort.left.category')}</option>
+                        <option value="right" ${img.category === 'right' ? 'selected' : ''}>${t('picture.sort.right.category')}</option>
+                    </select>
+                </div>
+                <button class="remove-btn" data-index="${index}">&times;</button>
+            `;
+            selectedImagesPreviewDiv.appendChild(item);
+        });
+        selectedImagesPreviewDiv.querySelectorAll('select').forEach(sel => {
+            sel.addEventListener('change', (e) => {
+                const index = parseInt(e.target.dataset.index);
+                categorizedSelections[index].category = e.target.value;
+                updateButtonState();
+            });
+        });
+        selectedImagesPreviewDiv.querySelectorAll('.remove-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const index = parseInt(e.target.dataset.index);
+                const removedImage = categorizedSelections.splice(index, 1)[0];
+                if (removedImage) {
+                    document.querySelectorAll(`.dictionary-item.selected[data-path="${removedImage.path}"]`).forEach(el => el.classList.remove('selected'));
+                }
+                updateSelectedImagesUI();
+                updateButtonState();
+            });
+        });
+        updateButtonState();
+    }
+
+    function updateButtonState() {
+        const isThemeMode = leftCategoryThemeSelect.value !== MANUAL_MODE_VALUE && rightCategoryThemeSelect.value !== MANUAL_MODE_VALUE;
+        const leftCount = categorizedSelections.filter(i => i.category === 'left').length;
+        const rightCount = categorizedSelections.filter(i => i.category === 'right').length;
+        const totalCount = categorizedSelections.length;
+        countInfo.textContent = t('picture.sort.count.format', {left: leftCount, right: rightCount, total: totalCount, max: MAX_TOTAL_IMAGES});
+        const isManualModeValid = totalCount >= MIN_TOTAL_IMAGES && totalCount <= MAX_TOTAL_IMAGES &&
+                                  leftCount >= MIN_PER_CATEGORY && leftCount <= MAX_PER_CATEGORY &&
+                                  rightCount >= MIN_PER_CATEGORY && rightCount <= MAX_PER_CATEGORY;
+        generateDropdownBtn.disabled = !(isThemeMode || isManualModeValid);
+    }
+    
+    // --- WORKSHEET GENERATION LOGIC ---
+    async function handleGenerateWorksheet() {
+        generateWorksheetBtn.disabled = true;
+        const data = await buildSortData();
+        if (data) {
+            lastGeneratedData = data;
+            await renderWorksheet(data);
+            generateSolutionBtn.disabled = false;
+            updateDownloadButtonsState(true, false);
+            showMessage('success', t('picture.sort.msg.worksheet.updated'));
+        }
+        generateWorksheetBtn.disabled = false;
+        updateButtonState();
+    }
+
+    async function handleGenerateSolution() {
+        if (!lastGeneratedData) {
+            showMessage('error', t('picture.sort.msg.generate.first'));
+            return;
+        }
+        await renderSolution(lastGeneratedData);
+        updateDownloadButtonsState(true, true);
+        switchTab(document.querySelector('.tab-button[data-tab="solutionTab"]'));
+    }
+
+    async function buildSortData() {
+        const isThemeMode = leftCategoryThemeSelect.value !== MANUAL_MODE_VALUE && rightCategoryThemeSelect.value !== MANUAL_MODE_VALUE;
+        let finalSelections = [];
+        if (isThemeMode) {
+            showMessage('info', t('picture.sort.msg.generating.themes'), 0);
+            try {
+                const leftData = await fetch(`/api/images?theme=${encodeURIComponent(leftCategoryThemeSelect.value)}&locale=${currentLocale}`).then(res => res.json());
+                const rightData = await fetch(`/api/images?theme=${encodeURIComponent(rightCategoryThemeSelect.value)}&locale=${currentLocale}`).then(res => res.json());
+                const leftThemeImages = leftData.images || leftData;
+                const rightThemeImages = rightData.images || rightData;
+                if (leftThemeImages.length < THEME_MIN_IMAGES) throw new Error(t('picture.sort.msg.theme.insufficient', {theme: leftCategoryThemeSelect.options[leftCategoryThemeSelect.selectedIndex].text, min: THEME_MIN_IMAGES}));
+                if (rightThemeImages.length < THEME_MIN_IMAGES) throw new Error(t('picture.sort.msg.theme.insufficient', {theme: rightCategoryThemeSelect.options[rightCategoryThemeSelect.selectedIndex].text, min: THEME_MIN_IMAGES}));
+                const leftSet = getRandomElements(leftThemeImages, THEME_MIN_IMAGES, THEME_MAX_IMAGES).map(img => ({...img, category: 'left'}));
+                const rightSet = getRandomElements(rightThemeImages, THEME_MIN_IMAGES, THEME_MAX_IMAGES).map(img => ({...img, category: 'right'}));
+                finalSelections = [...leftSet, ...rightSet];
+            } catch (e) {
+                showMessage('error', e.message);
+                return null;
+            }
+        } else {
+            finalSelections = [...categorizedSelections];
+        }
+        return {
+            leftImages: finalSelections.filter(i => i.category === 'left'),
+            rightImages: finalSelections.filter(i => i.category === 'right'),
+            allShuffled: shuffleArray(finalSelections),
+        };
+    }
+
+    // --- CANVAS RENDERING ---
+    async function renderWorksheet(data, preserveTransforms = true) {
+        isGenerating = true; // Prevent saving state during generation
+        const oldTransforms = {};
+
+        // Only save transforms if preserveTransforms is true (not during paper size changes)
+        if (preserveTransforms) {
+            worksheetCanvas.getObjects().forEach(obj => {
+                if (obj.isGeneratedItem) {
+                    oldTransforms[obj.originalIndex] = {
+                        left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle
+                    };
+                }
+            });
+        }
+        const userAddedObjects = worksheetCanvas.getObjects().filter(o => !o.isGeneratedItem && !o.isBorder && !o.isBackground && !o.isNameDate && !o.isPageBorder && !o.isHeaderElement);
+
+        // Remove existing header and borders
+        const oldHeadersAndBorders = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
+        oldHeadersAndBorders.forEach(o => worksheetCanvas.remove(o));
+
+        // Create and add header with borders
+        const headerObjects = createHeaderGroup(worksheetCanvas);
+        headerObjects.forEach(obj => worksheetCanvas.add(obj));
+
+        const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem);
+        oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
+
+        if (includeNameDate.checked && !worksheetCanvas.getObjects().find(o => o.isNameDate)) {
+            worksheetCanvas.add(createFabricNameDateGroup());
+        } else if (!includeNameDate.checked) {
+            worksheetCanvas.getObjects().filter(o => o.isNameDate).forEach(o => worksheetCanvas.remove(o));
+        }
+
+        // CRITICAL: Use actual page dimensions, not display dimensions
+        const canvasWidth = currentCanvasConfig.width;
+        const canvasHeight = currentCanvasConfig.height;
+        const isLandscape = canvasWidth > canvasHeight;
+
+        // Responsive header height (CRITICAL: must account for description bottom!)
+        // Landscape: desc at top=135, fontSize=14 → desc bottom ~165px (add 30px buffer)
+        // Portrait: desc at top=190, fontSize=20 → desc bottom ~230px (add 40px buffer)
+        const HEADER_HEIGHT = isLandscape ? 165 : 240;
+
+        // Professional margins that scale with page size
+        const MARGIN = Math.min(50, canvasWidth * 0.08); // 8% of width or 50px max
+        const TOP_MARGIN = HEADER_HEIGHT + 10; // Header + small gap
+        const BOTTOM_MARGIN = Math.min(60, canvasHeight * 0.08); // 8% for bottom
+        
+        // Calculate available content area
+        const contentWidth = canvasWidth - (MARGIN * 2);
+        const contentHeight = canvasHeight - TOP_MARGIN - BOTTOM_MARGIN;
+        
+        // Category frames take up top 40% of content area
+        const catFrameWidth = contentWidth / 2;
+        const catFrameHeight = contentHeight * 0.4;
+        const catFrameTop = TOP_MARGIN;
+
+        const leftFrame = createCategoryFrame({left: MARGIN, top: catFrameTop, width: catFrameWidth, height: catFrameHeight});
+        const rightFrame = createCategoryFrame({left: MARGIN + catFrameWidth, top: catFrameTop, width: catFrameWidth, height: catFrameHeight});
+        leftFrame.set({isGeneratedItem: true, originalIndex: 'frame_left'});
+        rightFrame.set({isGeneratedItem: true, originalIndex: 'frame_right'});
+        worksheetCanvas.add(leftFrame, rightFrame);
+
+        // Cutouts area takes up remaining 55% of content (leaving 5% gap)
+        const cutoutsTop = catFrameTop + catFrameHeight + (contentHeight * 0.05);
+        const cutoutsHeight = contentHeight * 0.55;
+        const cutouts = await createCutoutGrid(data.allShuffled, {
+            left: MARGIN, 
+            top: cutoutsTop, 
+            width: contentWidth, 
+            height: cutoutsHeight
+        });
+        worksheetCutoutCellSize = cutouts.cellSize;
+
+        cutouts.items.forEach(c => {
+            if(oldTransforms[c.originalIndex]) {
+                c.set(oldTransforms[c.originalIndex]);
+            }
+            worksheetCanvas.add(c);
+        });
+
+        enforceZOrder(worksheetCanvas);
+        userAddedObjects.forEach(o => worksheetCanvas.bringToFront(o));
+        const nameDate = worksheetCanvas.getObjects().find(o => o.isNameDate);
+        if (nameDate) worksheetCanvas.bringToFront(nameDate);
+        worksheetCanvas.renderAll();
+
+        // Undo/Redo: Clear history and save initial state after generation
+        isGenerating = false;
+        historyStack = [];
+        redoStack = [];
+        saveCanvasState();
+        updateUndoRedoButtons();
+    }
+
+    async function renderSolution(data, preserveTransforms = true) {
+        isGenerating = true; // Prevent saving state during generation
+        const oldTransforms = {};
+        let imageIndex = {};
+
+        // Only save transforms if preserveTransforms is true (not during paper size changes)
+        if (preserveTransforms) {
+            // Save transforms for frames and images
+            solutionCanvas.getObjects().forEach(obj => {
+                if (obj.isAnswerKeyFrame) {
+                    // Save frame transforms
+                    oldTransforms[`frame_${obj.frameSide}`] = {
+                        left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, width: obj.width, height: obj.height
+                    };
+                } else if (obj.isAnswerKeyImage) {
+                    // Save image transforms
+                    const side = obj.containerSide || 'unknown';
+                    if (!imageIndex[side]) imageIndex[side] = 0;
+                    oldTransforms[`img_${side}_${imageIndex[side]++}`] = {
+                        left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle
+                    };
+                }
+            });
+        }
+
+        const userAddedObjects = solutionCanvas.getObjects().filter(o => !o.isAnswerKeyImage && !o.isAnswerKeyFrame && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement);
+        const objectsToRemove = solutionCanvas.getObjects().filter(o => o.isAnswerKeyImage || o.isAnswerKeyFrame || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderElement);
+        objectsToRemove.forEach(o => solutionCanvas.remove(o));
+
+        const background = worksheetCanvas.getObjects().find(o => o.isBackground);
+        if (background) {
+            await new Promise(resolve => background.clone(cloned => {
+                cloned.set({ isBackground: true });
+                solutionCanvas.add(cloned);
+                resolve();
+            }, ['isBackground']));
+        }
+        const border = worksheetCanvas.getObjects().find(o => o.isBorder);
+        if (border) {
+            await new Promise(resolve => border.clone(cloned => {
+                cloned.set({ isBorder: true });
+                solutionCanvas.add(cloned);
+                resolve();
+            }, ['isBorder']));
+        }
+
+        // Clone header elements and page borders from worksheet
+        const headerAndBorderObjects = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
+        for (const obj of headerAndBorderObjects) {
+            await new Promise(resolve => obj.clone(cloned => {
+                if (obj.isPageBorder) cloned.set({ isPageBorder: true });
+                if (obj.isHeaderElement) cloned.set({ isHeaderElement: true });
+                if (obj.isHeaderDesc) cloned.set({ isHeaderDesc: true });
+                solutionCanvas.add(cloned);
+                resolve();
+            }));
+        }
+        
+        // CRITICAL: Use actual page dimensions for answer key too
+        const canvasWidth = currentCanvasConfig.width;
+        const canvasHeight = currentCanvasConfig.height;
+        const isLandscape = canvasWidth > canvasHeight;
+
+        // Responsive header height (same as worksheet)
+        const HEADER_HEIGHT = isLandscape ? 165 : 240;
+
+        // Use same professional margins as worksheet
+        const MARGIN = Math.min(50, canvasWidth * 0.08);
+        const TOP_MARGIN = HEADER_HEIGHT + 10; // Header + small gap
+        const BOTTOM_MARGIN = Math.min(60, canvasHeight * 0.08);
+        
+        const contentWidth = canvasWidth - (MARGIN * 2);
+        const contentHeight = canvasHeight - TOP_MARGIN - BOTTOM_MARGIN;
+        
+        const catFrameWidth = contentWidth / 2;
+        const catFrameHeight = contentHeight * 0.7; // Answer key uses more vertical space
+        const catFrameTop = TOP_MARGIN;
+        
+        const leftCategory = await createSolutionCategory(data.leftImages, {
+            left: MARGIN, 
+            top: catFrameTop, 
+            width: catFrameWidth, 
+            height: catFrameHeight
+        }, 'left');
+        const rightCategory = await createSolutionCategory(data.rightImages, {
+            left: MARGIN + catFrameWidth, 
+            top: catFrameTop, 
+            width: catFrameWidth, 
+            height: catFrameHeight
+        }, 'right');
+        
+        // Add frames first (background layer) with saved transforms
+        if (oldTransforms['frame_left']) {
+            leftCategory.frame.set(oldTransforms['frame_left']);
+        }
+        if (oldTransforms['frame_right']) {
+            rightCategory.frame.set(oldTransforms['frame_right']);
+        }
+        solutionCanvas.add(leftCategory.frame);
+        solutionCanvas.add(rightCategory.frame);
+        
+        // Add individual editable images
+        leftCategory.images.forEach((img, index) => {
+            // Check if we have saved transforms for this image
+            if (oldTransforms[`img_left_${index}`]) {
+                img.set(oldTransforms[`img_left_${index}`]);
+            }
+            solutionCanvas.add(img);
+        });
+        
+        rightCategory.images.forEach((img, index) => {
+            // Check if we have saved transforms for this image
+            if (oldTransforms[`img_right_${index}`]) {
+                img.set(oldTransforms[`img_right_${index}`]);
+            }
+            solutionCanvas.add(img);
+        });
+
+        enforceZOrder(solutionCanvas);
+        userAddedObjects.forEach(o => solutionCanvas.bringToFront(o));
+        solutionCanvas.renderAll();
+
+        // Undo/Redo: Clear history and save initial state after generation
+        isGenerating = false;
+        historyStack = [];
+        redoStack = [];
+        saveCanvasState();
+        updateUndoRedoButtons();
+    }
+    
+    function createCategoryFrame({left, top, width, height}) {
+        // Professional frame with subtle background and elegant border
+        const border = new fabric.Rect({ 
+            width, 
+            height, 
+            fill: '#fafafa', // Very light gray background for contrast
+            stroke: '#444', 
+            strokeWidth: 2.5, 
+            rx: 12, 
+            ry: 12,
+            strokeDashArray: [8, 4] // Elegant dashed border
+        });
+        return new fabric.Group([border], { 
+            left, 
+            top, 
+            selectable: true, 
+            evented: true, 
+            cornerColor: 'var(--app-accent-primary)', 
+            borderColor: 'var(--app-accent-primary)', 
+            cornerSize: 10, 
+            transparentCorners: false, 
+            cornerStyle: 'circle' 
+        });
+    }
+
+    async function createCutoutGrid(images, {left, top, width, height}) {
+        // Determine optimal grid layout based on number of items
+        const count = images.length;
+        let cols, rows;
+        
+        // Smart grid layout based on item count
+        if (count <= 6) {
+            cols = Math.min(count, 3);
+            rows = Math.ceil(count / cols);
+        } else if (count <= 12) {
+            cols = 4;
+            rows = Math.ceil(count / cols);
+        } else {
+            // For larger counts, try to maintain reasonable aspect ratio
+            cols = Math.ceil(Math.sqrt(count * (width / height)));
+            rows = Math.ceil(count / cols);
+        }
+        
+        // Calculate gap based on available space (smaller for more items)
+        const gap = Math.max(8, Math.min(15, 200 / count));
+        
+        // Calculate cell size ensuring items fit within bounds
+        const cellWidth = (width - (cols - 1) * gap) / cols;
+        const cellHeight = (height - (rows - 1) * gap) / rows;
+        
+        // Limit maximum cell size for professional appearance
+        const maxCellSize = Math.min(100, width / 4, height / 3);
+        const cellSize = Math.min(cellWidth, cellHeight, maxCellSize);
+        
+        // Recalculate actual grid dimensions with final cell size
+        const totalGridWidth = cols * cellSize + (cols - 1) * gap;
+        const totalGridHeight = rows * cellSize + (rows - 1) * gap;
+        
+        // Center the grid within available space
+        const startX = left + (width - totalGridWidth) / 2;
+        const startY = top + (height - totalGridHeight) / 2;
+        const gridItemPromises = images.map((imgData, i) => {
+            const r = Math.floor(i / cols);
+            const c = i % cols;
+            return new Promise(resolve => {
+                fabric.Image.fromURL(imgData.path, img => {
+                    // Scale image to fit within cell with padding
+                    const imageSize = cellSize * 0.85; // 85% of cell size for padding
+                    if (img.width > img.height) {
+                        img.scaleToWidth(imageSize);
+                    } else {
+                        img.scaleToHeight(imageSize);
+                    }
+                    img.set({ originX: 'center', originY: 'center' });
+                    
+                    const cell = new fabric.Rect({
+                        width: cellSize, height: cellSize, fill: 'white', stroke: '#666',
+                        strokeWidth: 1.5, strokeDashArray: [4, 4], originX: 'center', originY: 'center',
+                        rx: 4, ry: 4 // Slight rounding for professional look
+                    });
+                    
+                    const group = new fabric.Group([cell, img], {
+                        left: startX + c * (cellSize + gap), 
+                        top: startY + r * (cellSize + gap),
+                        selectable: true, evented: true, isGeneratedItem: true, originalIndex: i,
+                        cornerColor: 'var(--app-accent-primary)', borderColor: 'var(--app-accent-primary)',
+                        cornerSize: Math.min(8, cellSize * 0.15), transparentCorners: false, cornerStyle: 'circle'
+                    });
+                    resolve(group);
+                }, { crossOrigin: 'anonymous' });
+            });
+        });
+        const items = await Promise.all(gridItemPromises);
+        return { items, cellSize };
+    }
+
+    async function createSolutionCategory(images, {left, top, width, height}, side) {
+        // Create frame as separate editable object
+        const frame = createCategoryFrame({left, top, width, height});
+        frame.set({
+            selectable: true,  // Make frame editable
+            evented: true,     // Enable events
+            isAnswerKeyFrame: true,
+            frameSide: side,
+            hasControls: true, // Show resize/rotate controls
+            hasBorders: true,  // Show selection border
+            lockRotation: true, // Prevent rotation for frames
+            borderColor: 'var(--app-accent-secondary)',
+            cornerColor: 'var(--app-accent-secondary)',
+            cornerSize: 12,
+            transparentCorners: false,
+            cornerStyle: 'rect', // Rectangle corners for frames
+            borderScaleFactor: 2
+        });
+        const PADDING = 25; // Professional padding
+        const availableWidth = width - PADDING * 2;
+        const availableHeight = height - PADDING * 2;
+        
+        // Professional grid layout - FIXED: Maximum 2 columns for answer key
+        const count = images.length;
+        let cols, rows;
+        
+        // Answer key always uses maximum 2 columns for better visibility
+        if (count === 1) {
+            cols = 1; rows = 1;
+        } else if (count === 2) {
+            // 2 items: vertical stack for portrait containers, horizontal for landscape
+            if (availableHeight > availableWidth) {
+                cols = 1; rows = 2;
+            } else {
+                cols = 2; rows = 1;
+            }
+        } else if (count === 3) {
+            cols = 2; rows = 2; // 2x2 grid with one empty space
+        } else if (count === 4) {
+            cols = 2; rows = 2;
+        } else {
+            // For any count > 4, use 2 columns maximum
+            cols = 2;
+            rows = Math.ceil(count / cols);
+        }
+        
+        // Professional gap sizing - larger gaps for fewer items
+        const baseGap = count <= 4 ? 20 : count <= 9 ? 15 : 12;
+        const gap = Math.min(baseGap, availableWidth * 0.03, availableHeight * 0.03);
+        
+        // Calculate maximum possible cell size to fill container
+        const cellW = (availableWidth - (cols - 1) * gap) / cols;
+        const cellH = (availableHeight - (rows - 1) * gap) / rows;
+        
+        // Use larger cells to fill space professionally
+        // FIXED: Double the image size for answer key
+        const worksheetSize = worksheetCutoutCellSize || 60;
+        const idealCellSize = worksheetSize * 6;  // Doubled from 3x to 6x
+        
+        // Allow cells to be as large as space permits, with increased maximum
+        const maxCellSize = Math.min(300, availableWidth * 0.45, availableHeight * 0.45);  // Doubled from 150 to 300
+        const cellSize = Math.min(cellW, cellH, Math.max(idealCellSize, cellW * 0.9, cellH * 0.9), maxCellSize);
+        
+        // Calculate actual grid size with optimized cells
+        const actualCols = Math.min(cols, count); // Don't create more columns than items
+        const actualRows = Math.ceil(count / actualCols);
+        const totalGridWidth = actualCols * cellSize + (actualCols - 1) * gap;
+        const totalGridHeight = actualRows * cellSize + (actualRows - 1) * gap;
+        
+        // Center the grid elegantly within the container
+        const startX = PADDING + (availableWidth - totalGridWidth) / 2;
+        const startY = PADDING + (availableHeight - totalGridHeight) / 2;
+        const imageItemPromises = images.map((imgData, i) => {
+            return new Promise(resolve => {
+                fabric.Image.fromURL(imgData.path, img => {
+                    // Professional image sizing - fill most of the cell
+                    const imageSize = cellSize * 0.95; // Use 95% for minimal padding
+                    
+                    // Scale to fit while maintaining aspect ratio
+                    const scale = Math.min(imageSize / img.width, imageSize / img.height);
+                    img.scale(scale);
+                    
+                    // Position in grid using actual columns calculated
+                    const col = i % actualCols;
+                    const row = Math.floor(i / actualCols);
+                    const imgLeft = (-width / 2) + startX + col * (cellSize + gap) + (cellSize / 2);
+                    const imgTop = (-height / 2) + startY + row * (cellSize + gap) + (cellSize / 2);
+                    
+                    // Make each image individually editable
+                    img.set({ 
+                        left: left + imgLeft + (width / 2), // Adjust position for non-grouped placement
+                        top: top + imgTop + (height / 2),   // Adjust position for non-grouped placement
+                        originX: 'center', 
+                        originY: 'center',
+                        selectable: true,  // Enable individual selection
+                        evented: true,      // Enable events
+                        isAnswerKeyImage: true,
+                        containerSide: side,
+                        hasControls: true,  // Show resize/rotate controls
+                        hasBorders: true,   // Show selection border
+                        borderColor: 'var(--app-accent-primary)',
+                        cornerColor: 'var(--app-accent-primary)',
+                        cornerSize: 8,
+                        transparentCorners: false,
+                        cornerStyle: 'circle',
+                        shadow: new fabric.Shadow({
+                            color: 'rgba(0,0,0,0.1)',
+                            blur: 8,
+                            offsetX: 2,
+                            offsetY: 2
+                        })
+                    });
+                    resolve(img);
+                }, { crossOrigin: 'anonymous' });
+            });
+        });
+        const imageItems = await Promise.all(imageItemPromises);
+        
+        // Return frame and images separately (not grouped)
+        return { 
+            frame: frame, 
+            images: imageItems
+        };
+    }
+    
+    // --- STANDARD HELPER & UTILITY FUNCTIONS ---
+    function setupDropdown(button, content) { if (!button || !content) return; button.addEventListener('click', (event) => { if (button.disabled) return; const isVisible = content.style.display === 'block'; document.querySelectorAll('.dropdown-content').forEach(d => d.style.display = 'none'); content.style.display = isVisible ? 'none' : 'block'; event.stopPropagation(); }); content.addEventListener('click', (event) => event.stopPropagation()); window.addEventListener('click', () => content.style.display = 'none'); }
+    function switchTab(tabButton) { document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active')); tabButton.classList.add('active'); document.querySelectorAll('.tab').forEach(tab => tab.classList.remove('active')); document.getElementById(tabButton.dataset.tab).classList.add('active'); if (worksheetCanvas) worksheetCanvas.calcOffset(); if (solutionCanvas) solutionCanvas.calcOffset(); }
+    function showMessage(type, msg, duration = 3000) { messageDiv.textContent = msg; messageDiv.className = `message ${type}`; messageDiv.style.display = 'block'; if (duration > 0) setTimeout(() => { if (messageDiv.textContent === msg) messageDiv.style.display = 'none'; }, duration); }
+    let debounceTimer; function debounce(func, delay) { clearTimeout(debounceTimer); debounceTimer = setTimeout(func, delay); }
+    function shuffleArray(arr) { const a = [...arr]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+    function getRandomElements(arr, min, max) { return shuffleArray(arr).slice(0, Math.floor(Math.random() * (max - min + 1)) + min); }
+    
+    function updateDownloadButtonsState(worksheetEnabled, answerKeyEnabled) {
+        downloadDropdownBtn.disabled = !worksheetEnabled;
+        downloadWsJpegBtn.disabled = !worksheetEnabled;
+        downloadWsPdfBtn.disabled = !worksheetEnabled;
+        downloadAkJpegBtn.disabled = !answerKeyEnabled;
+        downloadAkPdfBtn.disabled = !answerKeyEnabled;
+        if (!worksheetEnabled && !answerKeyEnabled) {
+            downloadDropdownContent.style.display = 'none';
+        }
+    }
+
+    async function updateCanvasDisplayDimensions(width, height, fromLoad = false, fromZoom = false) {
+        if (!width || !height) return;
+        currentCanvasConfig.width = width;
+        currentCanvasConfig.height = height;
+
+        const mainContentAreaStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
+        const availableWidth = parseFloat(mainContentAreaStyle.width) - parseFloat(mainContentAreaStyle.paddingLeft) - parseFloat(mainContentAreaStyle.paddingRight) - 10;
+        const availableHeight = parseFloat(mainContentAreaStyle.height) - parseFloat(mainContentAreaStyle.paddingTop) - parseFloat(mainContentAreaStyle.paddingBottom) - 10;
+
+        // CRITICAL: Apply 25% scaling for better visibility
+        // Extra 25% for landscape orientations (MUST MATCH IMAGE ADDITION APP)
+        const isLandscape = width > height;
+        const baseScale = 1.25; // Base 25% larger for all
+        const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+        const displayScale = baseScale * landscapeBonus * userZoomLevel;
+
+        // Calculate display dimensions with scaling
+        const scaledWidth = width * displayScale;
+        const scaledHeight = height * displayScale;
+
+        // When zoomed beyond 100%, allow canvas to overflow viewport
+        let scaleRatio;
+        if (userZoomLevel > 1.0) {
+            scaleRatio = 1; // No viewport constraint - allow overflow
+        } else {
+            scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+        }
+        const displayWidth = scaledWidth * scaleRatio;
+        const displayHeight = scaledHeight * scaleRatio;
+
+        [worksheetCanvas, solutionCanvas].forEach(c => {
+            if (c) {
+                // CRITICAL: Update actual canvas dimensions FIRST
+                c.setWidth(width);
+                c.setHeight(height);
+
+                // Apply zoom for display scaling
+                const finalZoom = (displayWidth / width);
+                c.setZoom(finalZoom);
+
+                // CRITICAL: Set dimensions AFTER zoom to ensure viewport matches zoomed size
+                c.setDimensions({
+                    width: displayWidth,
+                    height: displayHeight
+                });
+
+                c.calcOffset();
+
+                // Update hit detection areas for all objects after zoom
+                c.getObjects().forEach(obj => {
+                    obj.setCoords();
+                });
+
+                c.renderAll();
+            }
+        });
+
+        pageWidthInput.value = width;
+        pageHeightInput.value = height;
+
+        if (!fromLoad && !fromZoom) {
+            // Regenerate headers when page size changes (but not during zoom)
+            await regenerateHeadersOnly();
+        }
+    }
+    function handlePageColorChange() { const newColor = pageColorInput.value; if (worksheetCanvas) { worksheetCanvas.backgroundColor = newColor; worksheetCanvas.renderAll(); } if (solutionCanvas) { solutionCanvas.backgroundColor = newColor; solutionCanvas.renderAll(); } }
+    function createFabricNameDateGroup() { const nameText = new fabric.Textbox(t('picture.sort.name.field'), { left: 0, top: 0, fontSize: 18, fontFamily: 'Fredoka', fill: '#333', width: 250 }); const dateText = new fabric.Textbox(t('picture.sort.date.field'), { left: nameText.width + 30, top: 0, fontSize: 18, fontFamily: 'Fredoka', fill: '#333', width: 180 }); return new fabric.Group([nameText, dateText], { left: 50, top: currentCanvasConfig.height - 50, isNameDate: true, borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)', cornerSize: 8, transparentCorners: false, cornerStyle: 'circle' }); }
+
+    // ============================================
+    // ZOOM CONTROLS
+    // ============================================
+    function zoomIn() {
+        userZoomLevel = Math.min(userZoomLevel + 0.25, 3.0);
+        updateZoomDisplay();
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height, false, true);
+    }
+
+    function zoomOut() {
+        userZoomLevel = Math.max(userZoomLevel - 0.25, 0.25);
+        updateZoomDisplay();
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height, false, true);
+    }
+
+    function zoomReset() {
+        userZoomLevel = 1.0;
+        updateZoomDisplay();
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height, false, true);
+    }
+
+    function updateZoomDisplay() {
+        if (zoomPercentage) {
+            zoomPercentage.textContent = Math.round(userZoomLevel * 100) + '%';
+        }
+    }
+
+    function handleClearAll() {
+        lastGeneratedData = null; categorizedSelections = []; uploadedImages = [];
+        worksheetCanvas.clear().set('backgroundColor', '#FFFFFF').renderAll();
+        solutionCanvas.clear().set('backgroundColor', '#FFFFFF').renderAll();
+        updateSelectedImagesUI(); updateButtonState();
+        pageColorInput.value = '#FFFFFF'; includeNameDate.checked = false; grayscaleToggle.checked = false;
+        leftCategoryThemeSelect.value = MANUAL_MODE_VALUE; rightCategoryThemeSelect.value = MANUAL_MODE_VALUE;
+        document.querySelectorAll('.dictionary-item.selected').forEach(el => el.classList.remove('selected'));
+        renderUploadedImages();
+        generateSolutionBtn.disabled = true; updateDownloadButtonsState(false, false);
+        borderThemeSelect.value = 'none'; loadBorderImages(); borderOpacitySlider.value = 1;
+        backgroundThemeSelect.value = 'none'; loadBackgroundImages(); backgroundOpacitySlider.value = 1;
+        showMessage('success', t('picture.sort.msg.form.cleared'));
+    }
+    
+    // Custom file button handler
+    customFileButton.addEventListener('click', () => {
+        imageUploadInput.click();
+    });
+
+    function handleImageUpload(e) {
+        const files = e.target.files;
+        if (!files || files.length === 0) {
+            customFileStatus.textContent = t('picture.sort.upload.no.file');
+            return;
+        }
+
+        // Update custom file status
+        const count = files.length;
+        if (count === 1) {
+            customFileStatus.textContent = files[0].name;
+        } else {
+            customFileStatus.textContent = t('picture.sort.upload.files.selected', {count: count});
+        }
+
+        let filesToLoad = Array.from(files).filter(f => f.type.startsWith('image/')).length;
+        if (filesToLoad === 0) return;
+        showMessage('info', t('picture.sort.msg.loading.count', {count: filesToLoad}), 0);
+        for (const file of files) {
+            if (!file.type.startsWith('image/')) continue;
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                const fileName = file.name.split('.').slice(0, -1).join('.') || file.name;
+                if (!uploadedImages.some(img => img.path === event.target.result)) {
+                    uploadedImages.push({ word: fileName, path: event.target.result });
+                }
+                filesToLoad--;
+                if (filesToLoad === 0) {
+                    renderUploadedImages();
+                    showMessage('success', t('picture.sort.msg.custom.available', {'uploadedImages.length': uploadedImages.length}));
+                }
+            };
+            reader.onerror = () => {
+                filesToLoad--;
+                showMessage('error', t('picture.sort.msg.file.error', {name: file.name}));
+            };
+            reader.readAsDataURL(file);
+        }
+        imageUploadInput.value = '';
+        customFileStatus.textContent = t('picture.sort.upload.no.file'); // Reset status
+    }
+    function renderUploadedImages() {
+        uploadedImagesPreviewDiv.innerHTML = "";
+        if (uploadedImages.length === 0) {
+            uploadedImagesPreviewDiv.innerHTML = `<p class="dictionary-message">${t('picture.sort.uploaded.placeholder')}</p>`; 
+            return; 
+        } 
+        uploadedImages.forEach(imgData => { 
+            const item = document.createElement("div"); 
+            item.className = "dictionary-item"; 
+            item.dataset.path = imgData.path; 
+            if (categorizedSelections.some(sel => sel.path === imgData.path)) { 
+                item.classList.add('selected'); 
+            } 
+            const displayName = imgData.name || imgData.word;
+            item.innerHTML = `<img src="${imgData.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`; 
+            item.onclick = () => handleImageClick(imgData); 
+            uploadedImagesPreviewDiv.appendChild(item); 
+        }); 
+    }
+    
+    // These functions are now handled by BulletproofLoader
+    async function loadBorderThemes() {
+        // Deprecated - Now handled by BulletproofLoader.init()
+    }
+    async function loadBorderImages() {
+        const theme = borderThemeSelect.value;
+        removeCanvasObject('isBorder');
+        if (theme === 'none' || !theme) {
+            borderDictionary.innerHTML = `<p class="dictionary-message">${t('picture.sort.border.message')}</p>`;
+            return;
+        }
+        borderDictionary.innerHTML = `<p class="dictionary-message">${t('picture.sort.msg.loading.borders', {theme})}</p>`;
+        try {
+            const response = await fetch(`/api/borders/images?theme=${theme}&locale=${currentLocale}`).then(res => res.ok ? res.json() : {});
+            const images = response.images || response.borders || response || [];
+            borderDictionary.innerHTML = "";
+            const fragment = document.createDocumentFragment();
+            images.forEach(d => {
+                const i = document.createElement("div");
+                i.className = "border-thumbnail-item";
+                const imgPath = d.url || d.path;
+                i.innerHTML = `<img src="${imgPath}" alt="${d.name}" />`;
+                i.onclick = () => {
+                    addBorderToCanvas(imgPath);
+                    document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
+                    i.classList.add('selected');
+                };
+                fragment.appendChild(i);
+            });
+            borderDictionary.appendChild(fragment);
+        } catch (e) {
+            borderDictionary.innerHTML = `<p class="dictionary-message">${t('picture.sort.msg.borders.error')}</p>`;
+        }
+    }
+    async function loadBackgroundThemes() {
+        // Deprecated - Now handled by BulletproofLoader.init()
+    }
+    async function loadBackgroundImages() {
+        const theme = backgroundThemeSelect.value;
+        removeCanvasObject('isBackground');
+        if (theme === 'none' || !theme) {
+            backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('picture.sort.background.message')}</p>`;
+            return;
+        }
+        backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('picture.sort.msg.loading.backgrounds', {theme})}</p>`;
+        try {
+            const response = await fetch(`/api/backgrounds/images?theme=${theme}&locale=${currentLocale}`).then(res => res.ok ? res.json() : {});
+            const images = response.images || response.backgrounds || response || [];
+            backgroundDictionary.innerHTML = "";
+            const fragment = document.createDocumentFragment();
+            images.forEach(d => {
+                const i = document.createElement("div");
+                i.className = "border-thumbnail-item";
+                const imgPath = d.url || d.path;
+                i.innerHTML = `<img src="${imgPath}" alt="${d.name}" />`;
+                i.onclick = () => {
+                    addBackgroundToCanvas(imgPath);
+                    document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
+                    i.classList.add('selected');
+                };
+                fragment.appendChild(i);
+            });
+            backgroundDictionary.appendChild(fragment);
+        } catch (e) {
+            backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('picture.sort.msg.backgrounds.error')}</p>`;
+        }
+    }
+    function handleBackgroundOpacityChange() { const opacity = parseFloat(backgroundOpacitySlider.value); [worksheetCanvas, solutionCanvas].forEach(c => { if (!c) return; const bg = c.getObjects().find(o => o.isBackground); if (bg) { bg.set('opacity', opacity); c.renderAll(); } }); }
+    function handleBorderOpacityChange() { const opacity = parseFloat(borderOpacitySlider.value); [worksheetCanvas, solutionCanvas].forEach(c => { if (!c) return; const border = c.getObjects().find(o => o.isBorder); if (border) { border.set('opacity', opacity); c.renderAll(); } }); }
+    function removeCanvasObject(prop) { [worksheetCanvas, solutionCanvas].forEach(c => { if (!c) return; c.getObjects().filter(o => o[prop]).forEach(o => c.remove(o)); c.renderAll(); }); }
+    
+    // Border and background functions - use unified overlay like addition.html
+    function addBorderToCanvas(path) {
+        addOverlayToCanvas(path, 'isBorder', borderOpacitySlider);
+    }
+    function addBackgroundToCanvas(path) {
+        addOverlayToCanvas(path, 'isBackground', backgroundOpacitySlider);
+    }
+
+    // Unified overlay function - EXACTLY like addition.html and picture path.html
+    async function addOverlayToCanvas(path, propName, opacitySlider) {
+        const img = await new Promise((resolve) => fabric.Image.fromURL(path, resolve, { crossOrigin: 'anonymous' }));
+        if (!img) return;
+
+        const canvas = getActiveCanvas();
+        if (!canvas) return;
+
+        const existing = canvas.getObjects().find(obj => obj[propName]);
+        if (existing) canvas.remove(existing);
+
+        // Use ACTUAL canvas dimensions, not display dimensions
+        const actualWidth = 612;  // Standard worksheet width
+        const actualHeight = 792; // Standard worksheet height
+
+        // Scale to 70% of ACTUAL canvas height while preserving aspect ratio
+        const targetHeight = actualHeight * 0.7;
+        const scaleFactor = targetHeight / img.height;
+
+        img.set({
+            [propName]: true,
+            originX: 'center',
+            originY: 'center',
+            left: actualWidth / 2,  // Use actual dimensions for correct centering
+            top: actualHeight / 2,  // Use actual dimensions for correct centering
+            scaleX: scaleFactor,
+            scaleY: scaleFactor,
+            selectable: true,
+            evented: true,
+            opacity: parseFloat(opacitySlider.value),
+            borderColor: 'var(--app-accent-primary)',
+            cornerColor: 'var(--app-accent-primary)',
+            cornerSize: 10,
+            transparentCorners: false,
+            cornerStyle: 'circle'
+        });
+
+        canvas.add(img);
+        enforceZOrder(canvas);
+        canvas.renderAll();
+        opacitySlider.disabled = false;
+
+        const typeName = propName === 'isBorder' ? t('picture.sort.border.title') : t('picture.sort.background.title');
+        showMessage('success', t('picture.sort.msg.overlay.added', {typeName}));
+    }
+
+    function addTextToCanvas() {
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+        const textContent = textInput.value.trim() || t('picture.sort.text.default');
+        const textObject = new fabric.Textbox(textContent, {
+            left: (currentCanvasConfig.width - 250) / 2,
+            top: (currentCanvasConfig.height - 100) / 2,
+            fontSize: 48,
+            fill: '#333333',
+            fontFamily: 'Arial',
+            width: 250,
+            padding: 8,
+            borderColor: 'var(--app-accent-primary)',
+            cornerColor: 'var(--app-accent-primary)',
+            cornerSize: 10,
+            transparentCorners: false,
+            cornerStyle: 'circle',
+            stroke: '#000000',
+            strokeWidth: 0
+        });
+        activeCanvas.add(textObject);
+        activeCanvas.setActiveObject(textObject);
+        activeCanvas.renderAll();
+        textInput.value = '';
+        showMessage('success', t('picture.sort.msg.text.added'), 1500);
+    }
+    
+    function updateActiveTextObjectProperties() { 
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return; 
+        const activeObject = activeCanvas.getActiveObject(); 
+        if (activeObject && activeObject.type !== 'activeSelection' && (activeObject.type === 'textbox' || activeObject.type === 'i-text')) { 
+            const newProps = {}; 
+            if (document.activeElement === textInput && textInput.value !== activeObject.text) newProps.text = textInput.value; 
+            if (textColorInput.value !== activeObject.fill) newProps.fill = textColorInput.value; 
+            const newFontSize = parseInt(fontSizeInput.value, 10); 
+            if (newFontSize > 0 && newFontSize !== activeObject.fontSize) newProps.fontSize = newFontSize; 
+            if (fontFamilySelect.value !== activeObject.fontFamily) newProps.fontFamily = fontFamilySelect.value; 
+            if (textStrokeColorInput.value !== activeObject.stroke) newProps.stroke = textStrokeColorInput.value; 
+            const newStrokeWidth = parseFloat(textStrokeWidthInput.value); 
+            if (!isNaN(newStrokeWidth) && newStrokeWidth !== activeObject.strokeWidth) newProps.strokeWidth = newStrokeWidth; 
+            if (Object.keys(newProps).length > 0) { 
+                activeObject.set(newProps); 
+                activeCanvas.renderAll(); 
+            } 
+        } 
+    }
+
+    function setupGlobalKeydownListener() {
+        window.addEventListener('keydown', (e) => {
+            const activeEl = document.activeElement;
+            if (activeEl && (activeEl.tagName === 'INPUT' || activeEl.tagName === 'TEXTAREA' || activeEl.tagName === 'SELECT')) {
+                if (activeEl.closest('.panel')) return;
+            }
+
+            // Undo: Ctrl+Z (or Cmd+Z on Mac)
+            if ((e.ctrlKey || e.metaKey) && e.key === 'z' && !e.shiftKey) {
+                e.preventDefault();
+                undo();
+                return;
+            }
+
+            // Redo: Ctrl+Y or Ctrl+Shift+Z (or Cmd+Y / Cmd+Shift+Z on Mac)
+            if ((e.ctrlKey || e.metaKey) && (e.key === 'y' || (e.key === 'z' && e.shiftKey))) {
+                e.preventDefault();
+                redo();
+                return;
+            }
+
+            const activeCanvas = getActiveCanvas();
+            const activeObject = activeCanvas ? activeCanvas.getActiveObject() : null;
+            if (activeObject && (e.key === 'Delete' || e.key === 'Backspace')) {
+                if (activeObject.isEditing) return;
+                e.preventDefault();
+                deleteSelectedObjects();
+            }
+        });
+    }
+    
+    let activePopover = null;
+    function togglePopover(popover, button) { const isOpening = popover.style.display !== 'block'; closeAllPopovers(); if (isOpening) { popover.style.display = 'block'; activePopover = popover; button.classList.add('active-dropdown'); } }
+    function closeAllPopovers() { if (activePopover) { activePopover.style.display = 'none'; activePopover = null; } if(document.getElementById('layersBtn')) document.getElementById('layersBtn').classList.remove('active-dropdown'); if(document.getElementById('alignBtn')) document.getElementById('alignBtn').classList.remove('active-dropdown'); }
+    
+    function bringObjectToFront() {
+        const activeCanvas = getActiveCanvas();
+        const activeObject = activeCanvas.getActiveObject();
+        if (activeObject) {
+            activeCanvas.bringToFront(activeObject);
+            enforceZOrder(activeCanvas);
+            activeCanvas.renderAll();
+        }
+        closeAllPopovers();
+    }
+
+    function bringObjectForward() {
+        const activeCanvas = getActiveCanvas();
+        const activeObject = activeCanvas ? activeCanvas.getActiveObject() : null;
+        if (activeObject) {
+            activeCanvas.bringForward(activeObject);
+            enforceZOrder(activeCanvas);
+            activeCanvas.renderAll();
+        }
+        closeAllPopovers();
+    }
+
+    function sendObjectBackward() {
+        const activeCanvas = getActiveCanvas();
+        const activeObject = activeCanvas ? activeCanvas.getActiveObject() : null;
+        if (activeObject) {
+            activeCanvas.sendBackwards(activeObject);
+            enforceZOrder(activeCanvas);
+            activeCanvas.renderAll();
+        }
+        closeAllPopovers();
+    }
+
+    function sendObjectToBack() {
+        const activeCanvas = getActiveCanvas();
+        const activeObject = activeCanvas.getActiveObject();
+        if (activeObject) {
+            activeCanvas.sendToBack(activeObject);
+            enforceZOrder(activeCanvas);
+            activeCanvas.renderAll();
+        }
+        closeAllPopovers();
+    }
+    
+    function deleteSelectedObjects() {
+        const activeCanvas = getActiveCanvas();
+        const activeObjects = activeCanvas ? activeCanvas.getActiveObjects() : [];
+        if (activeObjects.length > 0) {
+            activeObjects.forEach(obj => {
+                activeCanvas.remove(obj);
+            });
+            activeCanvas.discardActiveObject().renderAll();
+        }
+        closeAllPopovers();
+    }
+
+    function toggleLockSelectedObjects() {
+        const canvas = getActiveCanvas();
+        const activeObject = canvas.getActiveObject();
+
+        // If nothing is selected, unlock ALL locked objects on the canvas
+        if (!activeObject) {
+            const allObjects = canvas.getObjects();
+            const lockedObjects = allObjects.filter(obj => obj.lockMovementX === true);
+
+            if (lockedObjects.length > 0) {
+                lockedObjects.forEach(obj => {
+                    obj.set({
+                        lockMovementX: false,
+                        lockMovementY: false,
+                        lockRotation: false,
+                        lockScalingX: false,
+                        lockScalingY: false,
+                        hasControls: true,
+                        hasBorders: true,
+                        selectable: true,
+                        evented: true
+                    });
+                });
+
+                // Update button icon to unlocked
+                const lockIcon = toolbarLockBtn.querySelector('i');
+                lockIcon.classList.remove('fa-lock');
+                lockIcon.classList.add('fa-lock-open');
+
+                canvas.renderAll();
+                console.log(`Unlocked ${lockedObjects.length} objects`);
+            }
+
+            closeAllPopovers();
+            updateUnlockAllButtonVisibility();
+            return;
+        }
+
+        // Handle both single objects and groups
+        const objectsToLock = activeObject.type === 'activeSelection'
+            ? activeObject.getObjects()
+            : [activeObject];
+
+        // Check if any object is currently locked
+        const isAnyLocked = objectsToLock.some(obj => obj.lockMovementX === true);
+
+        // Toggle lock state (opposite of current state)
+        const shouldLock = !isAnyLocked;
+
+        objectsToLock.forEach(obj => {
+            // When locking, make objects completely non-interactive
+            // This prevents them from blocking mouse drag selections
+            obj.set({
+                lockMovementX: shouldLock,
+                lockMovementY: shouldLock,
+                lockRotation: shouldLock,
+                lockScalingX: shouldLock,
+                lockScalingY: shouldLock,
+                hasControls: !shouldLock,
+                hasBorders: !shouldLock,
+                selectable: !shouldLock,  // Locked objects are not selectable
+                evented: !shouldLock      // Locked objects don't capture mouse events
+            });
+        });
+
+        // Update button icon
+        const lockIcon = toolbarLockBtn.querySelector('i');
+        if (shouldLock) {
+            lockIcon.classList.remove('fa-lock-open');
+            lockIcon.classList.add('fa-lock');
+        } else {
+            lockIcon.classList.remove('fa-lock');
+            lockIcon.classList.add('fa-lock-open');
+        }
+
+        canvas.renderAll();
+        closeAllPopovers();
+        updateUnlockAllButtonVisibility();
+    }
+
+    function unlockAllObjects() {
+        const canvas = getActiveCanvas();
+        const allObjects = canvas.getObjects();
+        const lockedObjects = allObjects.filter(obj => obj.lockMovementX === true);
+
+        if (lockedObjects.length > 0) {
+            lockedObjects.forEach(obj => {
+                obj.set({
+                    lockMovementX: false,
+                    lockMovementY: false,
+                    lockRotation: false,
+                    lockScalingX: false,
+                    lockScalingY: false,
+                    hasControls: true,
+                    hasBorders: true,
+                    selectable: true,
+                    evented: true
+                });
+            });
+
+            canvas.renderAll();
+            console.log(`Unlocked ${lockedObjects.length} objects`);
+            updateUnlockAllButtonVisibility();
+        }
+    }
+
+    function updateUnlockAllButtonVisibility() {
+        const canvas = getActiveCanvas();
+        const allObjects = canvas.getObjects();
+        const hasLockedObjects = allObjects.some(obj => obj.lockMovementX === true);
+
+        if (hasLockedObjects) {
+            unlockAllControls.classList.add('visible');
+        } else {
+            unlockAllControls.classList.remove('visible');
+        }
+    }
+
+    // ============================================
+    // UNDO/REDO SYSTEM - Full state management with custom properties
+    // ============================================
+
+    function saveCanvasState() {
+        if (isRestoringState || isGenerating) return; // Don't save during restore or generation
+
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+
+        // Save canvas state with ALL custom properties to prevent duplication bugs
+        const state = JSON.stringify(activeCanvas.toJSON([
+            'selectable', 'evented', 'hasControls', 'hasBorders', 'lockMovementX', 'lockMovementY',
+            'lockScalingX', 'lockScalingY', 'lockRotation', 'hoverCursor',
+            'isWorksheetItem', 'isAnswerKeyItem', 'isAnswerKeyFrame', 'isAnswerKeyImage',
+            'isPageBorder', 'isHeaderElement', 'isHeaderDesc',
+            'isBorder', 'isBackground', 'isNameDate', 'containerSide', 'frameSide',
+            'isGeneratedItem', 'originalIndex', 'crossOrigin', 'objectCaching'
+        ]));
+
+        historyStack.push(state);
+        if (historyStack.length > MAX_HISTORY) {
+            historyStack.shift(); // Remove oldest state if exceeding max history
+        }
+
+        redoStack = []; // Clear redo stack when new action is performed
+        updateUndoRedoButtons();
+    }
+
+    function undo() {
+        if (historyStack.length === 0) return;
+
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+
+        // Save current state to redo stack before undoing
+        const currentState = JSON.stringify(activeCanvas.toJSON([
+            'selectable', 'evented', 'hasControls', 'hasBorders', 'lockMovementX', 'lockMovementY',
+            'lockScalingX', 'lockScalingY', 'lockRotation', 'hoverCursor',
+            'isWorksheetItem', 'isAnswerKeyItem', 'isAnswerKeyFrame', 'isAnswerKeyImage',
+            'isPageBorder', 'isHeaderElement', 'isHeaderDesc',
+            'isBorder', 'isBackground', 'isNameDate', 'containerSide', 'frameSide',
+            'isGeneratedItem', 'originalIndex', 'crossOrigin', 'objectCaching'
+        ]));
+        redoStack.push(currentState);
+
+        // Pop and restore previous state
+        const previousState = historyStack.pop();
+        restoreCanvasState(previousState);
+        updateUndoRedoButtons();
+    }
+
+    function redo() {
+        if (redoStack.length === 0) return;
+
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+
+        // Save current state to history stack before redoing
+        const currentState = JSON.stringify(activeCanvas.toJSON([
+            'selectable', 'evented', 'hasControls', 'hasBorders', 'lockMovementX', 'lockMovementY',
+            'lockScalingX', 'lockScalingY', 'lockRotation', 'hoverCursor',
+            'isWorksheetItem', 'isAnswerKeyItem', 'isAnswerKeyFrame', 'isAnswerKeyImage',
+            'isPageBorder', 'isHeaderElement', 'isHeaderDesc',
+            'isBorder', 'isBackground', 'isNameDate', 'containerSide', 'frameSide',
+            'isGeneratedItem', 'originalIndex', 'crossOrigin', 'objectCaching'
+        ]));
+        historyStack.push(currentState);
+
+        // Pop and restore next state
+        const nextState = redoStack.pop();
+        restoreCanvasState(nextState);
+        updateUndoRedoButtons();
+    }
+
+    function restoreCanvasState(state) {
+        const activeCanvas = getActiveCanvas();
+        if (!activeCanvas) return;
+
+        isRestoringState = true; // Set flag to prevent saving during restore
+
+        activeCanvas.loadFromJSON(state, () => {
+            activeCanvas.renderAll();
+            isRestoringState = false; // Reset flag after restore completes
+        });
+    }
+
+    function updateUndoRedoButtons() {
+        if (undoBtn) {
+            undoBtn.disabled = historyStack.length === 0;
+        }
+        if (redoBtn) {
+            redoBtn.disabled = redoStack.length === 0;
+        }
+    }
+    
+    function alignObjects(type) { 
+        const activeCanvas = getActiveCanvas();
+        const activeObj = activeCanvas ? activeCanvas.getActiveObject() : null; 
+        if (!activeObj) { 
+            closeAllPopovers(); 
+            return; 
+        } 
+        if (type.includes('Canvas')) { 
+            // CRITICAL: Use actual canvas dimensions, not display dimensions
+            const actualCenterX = currentCanvasConfig.width / 2;
+            const actualCenterY = currentCanvasConfig.height / 2;
+            
+            if (type === 'centerHCanvas') {
+                const objWidth = activeObj.getScaledWidth();
+                const currentOriginX = activeObj.originX;
+                
+                let centerLeft;
+                if (currentOriginX === 'center') {
+                    centerLeft = actualCenterX;
+                } else if (currentOriginX === 'right') {
+                    centerLeft = actualCenterX + (objWidth / 2);
+                } else { // left or default
+                    centerLeft = actualCenterX - (objWidth / 2);
+                }
+                
+                activeObj.set('left', centerLeft);
+            }
+            
+            if (type === 'centerVCanvas') {
+                const objHeight = activeObj.getScaledHeight();
+                const currentOriginY = activeObj.originY;
+                
+                let centerTop;
+                if (currentOriginY === 'center') {
+                    centerTop = actualCenterY;
+                } else if (currentOriginY === 'bottom') {
+                    centerTop = actualCenterY + (objHeight / 2);
+                } else { // top or default
+                    centerTop = actualCenterY - (objHeight / 2);
+                }
+                
+                activeObj.set('top', centerTop);
+            }
+            
+            activeObj.setCoords(); 
+        } else if (activeObj.type === 'activeSelection') { 
+            const group = activeObj; 
+            group.forEachObject(function(obj) { 
+                switch (type) { 
+                    case 'alignLeft': obj.set('left', -group.width / 2); break; 
+                    case 'alignHCenter': obj.set('left', 0 - obj.getScaledWidth() / 2); break; 
+                    case 'alignRight': obj.set('left', group.width / 2 - obj.getScaledWidth()); break; 
+                    case 'alignTop': obj.set('top', -group.height / 2); break; 
+                    case 'alignVCenter': obj.set('top', 0 - obj.getScaledHeight() / 2); break; 
+                    case 'alignBottom': obj.set('top', group.height / 2 - obj.getScaledHeight()); break; 
+                } 
+            }); 
+        } 
+        activeCanvas.renderAll(); 
+        closeAllPopovers(); 
+    }
+    
+    function handleObjectSelection(e, canvas) { 
+        const activeObject = canvas.getActiveObject(); 
+        if (!activeObject || !activeObject.selectable) { 
+            handleSelectionCleared(null, canvas); 
+            return; 
+        } 
+        objectContextToolbar.style.display = 'flex'; 
+        const isGroup = activeObject.type === 'activeSelection'; 
+        allToolbarButtons.forEach(btn => btn.disabled = false); 
+        document.querySelectorAll('#alignDropdown button').forEach(btn => { 
+            if (btn.id.includes('Canvas')) { 
+                btn.disabled = isGroup; 
+            } else { 
+                btn.disabled = !isGroup; 
+            } 
+        }); 
+        const isSingleTextObject = !isGroup && (activeObject.type === 'textbox' || activeObject.type === 'i-text'); 
+        [textColorInput, fontSizeInput, fontFamilySelect, textStrokeColorInput, textStrokeWidthInput].forEach(el => el.disabled = !isSingleTextObject); 
+        if (isSingleTextObject) { 
+            textColorInput.value = activeObject.fill || '#333333'; 
+            fontSizeInput.value = activeObject.fontSize || 48; 
+            fontFamilySelect.value = activeObject.fontFamily || 'Arial'; 
+            textStrokeColorInput.value = activeObject.stroke || '#000000'; 
+            textStrokeWidthInput.value = activeObject.strokeWidth || 0; 
+            textInput.value = activeObject.text || ''; 
+        } 
+    }
+    
+    function handleSelectionCleared(e, canvas) { 
+        objectContextToolbar.style.display = 'none'; 
+        closeAllPopovers(); 
+        [textColorInput, fontSizeInput, fontFamilySelect, textStrokeColorInput, textStrokeWidthInput].forEach(el => el.disabled = true); 
+        textColorInput.value = '#333333'; 
+        fontSizeInput.value = 48; 
+        fontFamilySelect.value = fontFamilySelect.options[0].value; 
+        textStrokeColorInput.value = '#000000'; 
+        textStrokeWidthInput.value = 0; 
+        if (document.activeElement !== textInput) textInput.value = ''; 
+    }
+    
+    async function getCanvasDataURLWithOptions(canvasInstance, exportOpts) {
+        canvasInstance.discardActiveObject().renderAll();
+        
+        // Save current state
+        const currentZoom = canvasInstance.getZoom();
+        const currentWidth = canvasInstance.getWidth();
+        const currentHeight = canvasInstance.getHeight();
+        
+        // Reset for export at actual size
+        canvasInstance.setZoom(1);
+        canvasInstance.setDimensions({
+            width: currentCanvasConfig.width,
+            height: currentCanvasConfig.height
+        });
+        
+        let dataURL = canvasInstance.toDataURL({ 
+            format: 'jpeg', 
+            quality: 1.0, 
+            multiplier: exportOpts.multiplier 
+        });
+        
+        // Restore display state
+        canvasInstance.setZoom(currentZoom);
+        canvasInstance.setDimensions({
+            width: currentWidth,
+            height: currentHeight
+        });
+        
+        if (exportOpts.applyPixelLevelGrayscale) { 
+            try { 
+                dataURL = await applyGrayscaleToDataURL(dataURL); 
+            } catch (error) { 
+                console.error("Grayscale filter failed:", error); 
+            } 
+        } 
+        return dataURL; 
+    }
+    async function applyGrayscaleToDataURL(dataURL) { return new Promise((resolve, reject) => { const img = new Image(); img.onload = () => { const tempCanvas = document.createElement('canvas'); tempCanvas.width = img.width; tempCanvas.height = img.height; const ctx = tempCanvas.getContext('2d'); if (!ctx) return reject(new Error("Failed to get 2D context.")); ctx.drawImage(img, 0, 0); const imageData = ctx.getImageData(0, 0, tempCanvas.width, tempCanvas.height); const data = imageData.data; for (let i = 0; i < data.length; i += 4) { const gray = 0.2126 * data[i] + 0.7152 * data[i + 1] + 0.0722 * data[i + 2]; data[i] = data[i + 1] = data[i + 2] = gray; } ctx.putImageData(imageData, 0, 0); resolve(tempCanvas.toDataURL('image/jpeg', 1.0)); }; img.onerror = (err) => reject(err); img.src = dataURL; }); }
+    
+    async function downloadImageFile(name, canvasToExport) {
+        if (!canvasToExport) { showMessage("error", t('picture.sort.msg.canvas.unavailable')); return; }
+        showMessage('info', t('picture.sort.msg.preparing.jpeg', {name}), 0);
+        updateDownloadButtonsState(false, false);
+        const exportOpts = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
+        try {
+            const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOpts);
+            const link = document.createElement('a');
+            link.download = `${name}_${new Date().toISOString().slice(0,10)}.jpeg`;
+            link.href = dataURL;
+            link.click();
+            showMessage('success', t('picture.sort.msg.jpeg.initiated', {Name: name.charAt(0).toUpperCase() + name.slice(1)}));
+        } catch (e) {
+            showMessage('error', t('picture.sort.msg.jpeg.error', {message: e.message}));
+        } finally {
+            updateDownloadButtonsState(true, lastGeneratedData != null);
+        }
+    }
+
+    
+    // Check if user is on free tier
+    function isFreeTier() {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get('tier') === 'free';
+    }
+
+    // Add watermark to canvas before export
+    function addWatermarkToCanvas(canvas) {
+        if (!isFreeTier()) return;
+        
+        const watermarkText = new fabric.Text(t('picture.sort.watermark.main'), {
+            fontSize: 40,
+            fill: 'rgba(0, 0, 0, 0.2)',
+            angle: -45,
+            left: canvas.width / 2,
+            top: canvas.height / 2,
+            originX: 'center',
+            originY: 'center',
+            selectable: false,
+            evented: false,
+            fontFamily: 'Arial, sans-serif',
+            fontWeight: 'bold'
+        });
+
+        // Add multiple watermarks across the canvas
+        const watermarks = [];
+        const spacing = 250;
+        for (let x = 0; x < canvas.width; x += spacing) {
+            for (let y = 0; y < canvas.height; y += spacing) {
+                const wm = new fabric.Text(t('picture.sort.watermark.small'), {
+                    fontSize: 20,
+                    fill: 'rgba(0, 0, 0, 0.15)',
+                    angle: -45,
+                    left: x,
+                    top: y,
+                    selectable: false,
+                    evented: false,
+                    fontFamily: 'Arial, sans-serif'
+                });
+                watermarks.push(wm);
+                canvas.add(wm);
+            }
+        }
+        
+        // Add main watermark
+        canvas.add(watermarkText);
+        canvas.renderAll();
+        
+        return { mainWatermark: watermarkText, watermarks };
+    }
+
+    // Remove watermark after export
+    function removeWatermarkFromCanvas(canvas, watermarkData) {
+        if (!watermarkData) return;
+        
+        if (watermarkData.mainWatermark) {
+            canvas.remove(watermarkData.mainWatermark);
+        }
+        if (watermarkData.watermarks) {
+            watermarkData.watermarks.forEach(wm => canvas.remove(wm));
+        }
+        canvas.renderAll();
+    }
+
+    // Override the original downloadPDF function
+    const originalDownloadPDF = typeof downloadPDF !== 'undefined' ? downloadPDF : null;
+    if (originalDownloadPDF) {
+        window.downloadPDF = async function(canvasToExport, fileName) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                return showMessage('error', t('picture.sort.msg.generate.content.first'));
+            }
+            showMessage('info', t('picture.sort.msg.preparing.pdf'), 0);
+
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+
+            try {
+                const { jsPDF } = window.jspdf;
+                const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
+                const pdf = new jsPDF({
+                    orientation,
+                    unit: 'pt',
+                    format: [canvasToExport.width, canvasToExport.height]
+                });
+
+                const exportOptions = {
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6,
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked
+                };
+
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+
+                pdf.save(fileName);
+                showMessage('success', t('picture.sort.msg.pdf.downloaded'));
+            } catch(e) {
+                showMessage('error', t('picture.sort.msg.pdf.error'));
+                console.error(e);
+            } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
+        };
+    }
+
+    // Override the original downloadJPEG function if it exists
+    const originalDownloadJPEG = typeof downloadJPEG !== 'undefined' ? downloadJPEG : null;
+    if (originalDownloadJPEG) {
+        window.downloadJPEG = async function(canvasToExport, fileName) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                return showMessage('error', t('picture.sort.msg.generate.worksheet.first'));
+            }
+            showMessage('info', t('picture.sort.msg.preparing.jpeg.simple'), 0);
+
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+
+            try {
+                const exportOptions = {
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6,
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked
+                };
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+
+                const link = document.createElement('a');
+                link.href = dataURL;
+                link.download = fileName;
+                link.click();
+                showMessage('success', t('picture.sort.msg.jpeg.initiated.alt'));
+            } catch(e) {
+                showMessage('error', t('picture.sort.msg.jpeg.error.simple'));
+                console.error(e);
+            } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
+        };
+    }
+
+async function downloadPDF(name, canvasToExport) {
+        if (!canvasToExport) { showMessage("error", t('picture.sort.msg.canvas.unavailable')); return; }
+        showMessage('info', t('picture.sort.msg.preparing.pdf.named', {name}), 0);
+        updateDownloadButtonsState(false, false);
+        const { jsPDF } = window.jspdf;
+        const exportOpts = { multiplier: downloadMultiplier, applyPixelLevelGrayscale: grayscaleToggle.checked };
+        try {
+            const imgData = await getCanvasDataURLWithOptions(canvasToExport, exportOpts);
+            const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
+            const pdf = new jsPDF({ orientation, unit: 'pt', format: [currentCanvasConfig.width, currentCanvasConfig.height] });
+            pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
+            pdf.save(`${name}_${new Date().toISOString().slice(0,10)}.pdf`);
+            showMessage('success', t('picture.sort.msg.pdf.downloaded.named', {Name: name.charAt(0).toUpperCase() + name.slice(1)}));
+        } catch (e) {
+            showMessage('error', t('picture.sort.msg.pdf.error.detailed', {message: e.message}));
+        } finally {
+            updateDownloadButtonsState(true, lastGeneratedData != null);
+        }
+    }
+
+        // PERFORMANCE FIX: Preload default themes (animals & food) for instant first generation
+    async function preloadDefaultThemes() {
+        try {
+            console.log('Preloading default themes (animals & food)...');
+
+            // Preload both default themes in parallel
+            const [animalsData, foodData] = await Promise.all([
+                fetch(`/api/images?theme=animals&locale=${currentLocale}`).then(res => res.json()),
+                fetch(`/api/images?theme=food&locale=${currentLocale}`).then(res => res.json())
+            ]);
+
+            console.log('✅ Default themes preloaded successfully');
+        } catch (error) {
+            console.warn('Could not preload default themes:', error);
+            // Non-critical - continue anyway
+        }
+    }
+
+    async function generateInitialWorksheet() {
+        try {
+            console.log('Starting initial worksheet generation...');
+
+            // PERFORMANCE FIX: No polling loop needed - themes are already loaded
+
+            // Set page size to Letter portrait (already default)
+            pageSizeSelect.value = '612x792';
+            const [width, height] = pageSizeSelect.value.split('x').map(Number);
+            currentCanvasConfig.width = width;
+            currentCanvasConfig.height = height;
+            worksheetCanvas.setDimensions({ width, height });
+            solutionCanvas.setDimensions({ width, height });
+            updateCanvasDisplayDimensions(width, height, true); // fromLoad=true for initialization
+
+            // Set theme selections
+            leftCategoryThemeSelect.value = 'animals';
+            rightCategoryThemeSelect.value = 'food';
+
+            // Trigger change events to update UI state
+            leftCategoryThemeSelect.dispatchEvent(new Event('change'));
+            rightCategoryThemeSelect.dispatchEvent(new Event('change'));
+
+            // PERFORMANCE FIX: Reduced delay from 200ms to 50ms
+            await new Promise(resolve => setTimeout(resolve, 50));
+
+            // Generate worksheet
+            await handleGenerateWorksheet();
+
+            console.log('✅ Initial worksheet generated successfully');
+        } catch (error) {
+            console.error('Error generating initial worksheet:', error);
+        }
+    }
+
+    // --- START THE APP ---
+    // PERFORMANCE FIX: initializeApp is now async and handles initial worksheet generation
+    initializeApp();
+
+    // Initialize BulletproofLoader to handle border/background themes
+    // EXACTLY like addition.html and picture path.html do it
+    if (window.BulletproofLoader) {
+        console.log('Initializing BulletproofLoader with locale:', currentLocale);
+
+        window.BulletproofLoader.init({
+            borderSelect: borderThemeSelect,
+            backgroundSelect: backgroundThemeSelect,
+            locale: currentLocale  // EXPLICITLY pass the locale
+        }).then(() => {
+            console.log('✅ BulletproofLoader initialized successfully');
+        }).catch(err => {
+            console.error('❌ BulletproofLoader failed:', err);
+        });
+    } else {
+        console.warn('⚠️ BulletproofLoader not found');
+    }
+
+    // PERFORMANCE FIX: Removed setTimeout delay - initializeApp() now handles everything
+});
+</script>
+</body>
+</html>

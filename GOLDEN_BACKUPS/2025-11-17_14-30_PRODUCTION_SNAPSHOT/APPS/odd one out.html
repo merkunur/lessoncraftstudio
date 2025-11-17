@@ -1,0 +1,3995 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Odd-One-Out Worksheet Generator</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="js/translations-odd-one-out.js?v=2"></script>
+  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/unified-language-manager.js"></script>
+  <script src="js/border-background-sizer.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" xintegrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    :root {
+        /* New Theme Colors */
+        --app-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        --app-bg-dark: #2c2c2e; /* Sidebar background */
+        --app-surface-dark: #3a3a3e; /* Sidebar input backgrounds */
+        --app-border-dark: #4a4a4a; /* Sidebar borders */
+        --app-text-primary-dark-theme: #e0e0e0; /* Primary text on dark */
+        --app-text-secondary-dark-theme: #a0a0a0; /* Secondary text/labels on dark */
+
+        --app-bg-light: #f0f2f5; /* Main content area background */
+        --app-surface-light: #ffffff; /* Canvas, cards on light bg */
+        --app-border-light: #dce1e6; /* Borders on light bg */
+        --app-text-primary-light-theme: #1c1c1e; /* Primary text on light */
+        --app-text-secondary-light-theme: #545458; /* Secondary text on light */
+
+        --app-accent-primary: #007aff; /* New primary accent (blue) */
+        --app-accent-primary-hover: #005ecb;
+        --app-accent-secondary: #5856d6; /* Example for a different accent if needed */
+        --app-accent-danger: #ff3b30;
+        --app-accent-danger-hover: #d92c23;
+
+        --sidebar-width: 340px;
+    }
+
+    /* Global Reset & Layout */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--app-font-stack); /* UPDATED FONT */
+      display: flex;
+      margin: 0;
+      height: 100vh;
+      background-color: var(--app-bg-light); /* UPDATED */
+      overflow: hidden;
+      color: var(--app-text-primary-light-theme); /* UPDATED */
+      position: relative;
+    }
+    .layout {
+        display: flex;
+        flex: 1;
+        overflow: hidden;
+        height: 100vh;
+        position: relative; /* Added for sidebar positioning context */
+    }
+
+    /* Sidebar Panel */
+    .panel {
+      width: var(--sidebar-width);
+      min-width: var(--sidebar-width);
+      background-color: var(--app-bg-dark); /* UPDATED */
+      color: var(--app-text-primary-dark-theme); /* UPDATED */
+      box-shadow: 2px 0 8px rgba(0,0,0,0.15); /* UPDATED SHADOW */
+      display: flex;
+      flex-direction: column;
+      overflow-y: hidden;
+      z-index: 10;
+      padding: 0;
+      transition: transform 0.3s ease-in-out; /* Added for slide animation */
+    }
+
+    .panel-header {
+        padding: 20px 25px; /* Increased padding */
+        text-align: left; /* Changed to left align */
+        border-bottom: 1px solid var(--app-border-dark); /* UPDATED BORDER */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .panel-header h2 {
+        font-size: 22px; /* Slightly smaller */
+        font-weight: 600;
+        color: var(--app-text-primary-dark-theme); /* UPDATED */
+        margin: 0;
+    }
+
+    .panel-content {
+        overflow-y: auto;
+        flex-grow: 1;
+        padding: 10px 15px; /* Adjusted padding */
+    }
+
+    /* Accordion Styles - Transformed to look like sections */
+    .accordion-item {
+        background-color: transparent; /* UPDATED */
+        border: none; /* REMOVED BORDER */
+        border-bottom: 1px solid var(--app-border-dark); /* Separator */
+        margin-bottom: 0;
+        border-radius: 0;
+        overflow: hidden;
+    }
+    .accordion-item:last-child {
+        border-bottom: none;
+    }
+    .accordion-button {
+        background-color: transparent; /* UPDATED */
+        color: var(--app-text-primary-dark-theme); /* UPDATED */
+        width: 100%;
+        border: none;
+        text-align: left;
+        padding: 18px 10px; /* Adjusted padding */
+        font-size: 15px; /* UPDATED */
+        font-weight: 500; /* Medium weight for header */
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: background-color 0.15s ease; /* Subtle hover */
+    }
+    .accordion-button:hover {
+        color: var(--app-text-primary-dark-theme);
+        background-color: rgba(255,255,255,0.05); /* Subtle hover for dark theme */
+    }
+    .accordion-button::after {
+        content: '\f078'; /* FontAwesome chevron-down */
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        font-size: 12px;
+        transition: transform 0.2s ease-in-out;
+    }
+    .accordion-button.active::after {
+        transform: rotate(-180deg);
+    }
+    .accordion-content {
+        padding: 10px 10px 20px 10px; /* Adjusted padding */
+        display: none;
+        background-color: transparent; /* UPDATED */
+        border-top: none; /* Removed default top border */
+    }
+    .accordion-content.active {
+        display: block;
+    }
+     .accordion-content h4 { /* Sub-headings within sections */
+        font-size: 13px;
+        color: var(--app-text-secondary-dark-theme); /* UPDATED */
+        margin-top: 15px;
+        margin-bottom: 8px;
+        border-bottom: 1px solid var(--app-border-dark); /* UPDATED */
+        padding-bottom: 6px;
+        font-weight: 500;
+    }
+     .accordion-content h4:first-child {
+        margin-top: 0;
+     }
+
+
+    .accordion-content label {
+        display: block;
+        font-size: 13px;
+        font-weight: 400; /* Regular weight for labels */
+        color: var(--app-text-secondary-dark-theme); /* UPDATED */
+        margin-bottom: 6px;
+    }
+    .accordion-content input[type="text"],
+    .accordion-content input[type="number"],
+    .accordion-content textarea,
+    .accordion-content select {
+        width: 100%;
+        padding: 8px 10px; /* UPDATED PADDING */
+        font-size: 13px; /* UPDATED */
+        border-radius: 5px; /* UPDATED */
+        border: 1px solid var(--app-border-dark); /* UPDATED */
+        background-color: var(--app-surface-dark); /* UPDATED */
+        color: var(--app-text-primary-dark-theme); /* UPDATED */
+        box-sizing: border-box;
+        margin-bottom: 12px; /* UPDATED MARGIN */
+    }
+     .accordion-content input[type="file"] {
+      color: var(--app-text-secondary-dark-theme);
+      background-color: var(--app-surface-dark);
+      border: 1px solid var(--app-border-dark);
+      border-radius: 5px;
+      padding: 8px;
+      font-size: 13px;
+      margin-bottom: 12px;
+      width: 100%;
+    }
+     .accordion-content input[type="file"]::file-selector-button {
+        margin-right: 10px;
+        border: 1px solid var(--app-border-dark);
+        background: var(--app-bg-dark);
+        padding: 4px 8px;
+        border-radius: 3px;
+        color: var(--app-text-primary-dark-theme);
+        cursor: pointer;
+     }
+     /* Custom File Input Wrapper for Translation */
+     .custom-file-input-wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 12px;
+     }
+     .custom-file-button {
+        background-color: var(--app-surface-dark);
+        color: var(--app-text-primary-dark-theme);
+        border: 1px solid var(--app-border-dark);
+        border-radius: 5px;
+        padding: 8px 12px;
+        font-size: 13px;
+        cursor: pointer;
+        transition: background-color 0.15s ease;
+     }
+     .custom-file-button:hover {
+        background-color: lighten(var(--app-surface-dark), 5%);
+        border-color: lighten(var(--app-border-dark), 10%);
+     }
+     .file-input-status {
+        font-size: 12px;
+        color: var(--app-text-secondary-dark-theme);
+     }
+     .custom-file-input-wrapper input[type="file"] {
+        position: absolute;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        cursor: pointer;
+     }
+    .accordion-content input[type="color"] {
+         width: 100%; padding: 2px; height: 38px; margin-bottom: 12px; border-radius: 5px; border-color: var(--app-border-dark);
+    }
+    .accordion-content input[type="range"] { width:100%; padding: 0; margin-bottom: 12px;}
+
+
+    .accordion-content input[type="number"] {
+        -moz-appearance: textfield;
+    }
+    .accordion-content input[type="number"]::-webkit-outer-spin-button,
+    .accordion-content input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    .accordion-content input[type="checkbox"] {
+        width: auto;
+        margin-right: 8px;
+        vertical-align: middle;
+        accent-color: var(--app-accent-primary); /* Modern checkbox color */
+    }
+    .accordion-content label.checkbox-label {
+        display: flex;
+        align-items: center;
+        font-size: 13px; /* UPDATED */
+        font-weight: 400;
+        margin-bottom: 12px;
+        cursor: pointer;
+        color: var(--app-text-secondary-dark-theme); /* UPDATED */
+    }
+
+    /* Buttons within accordion (sidebar) */
+    .accordion-content button {
+        background-color: var(--app-surface-dark); /* Darker button for secondary actions */
+        color: var(--app-text-primary-dark-theme);
+        border: 1px solid var(--app-border-dark);
+        font-weight: 500;
+        width: 100%;
+        padding: 8px 12px; /* UPDATED */
+        font-size: 13px; /* UPDATED */
+        border-radius: 5px; /* UPDATED */
+        margin-bottom: 10px;
+    }
+    .accordion-content button:hover {
+        background-color: lighten(var(--app-surface-dark), 5%);
+        border-color: lighten(var(--app-border-dark), 10%);
+        filter: none;
+    }
+     .accordion-content button:active { transform: scale(0.98); }
+     .accordion-content button:disabled {
+        background-color: var(--app-surface-dark) !important;
+        color: var(--app-text-secondary-dark-theme) !important;
+        border-color: var(--app-border-dark) !important;
+        opacity: 0.6;
+        cursor: not-allowed;
+     }
+
+
+    #dictionary, #uploadedImagesPreview, #prevCommon, #prevOdd {
+        border: 1px solid var(--app-border-dark);
+        padding:10px;
+        overflow-y:auto;
+        background-color: var(--app-surface-dark);
+        border-radius:5px;
+        margin-bottom:10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    #dictionary { max-height: 180px; }
+    #prevCommon, #prevOdd { min-height: 70px; border-style: dashed; border-color: var(--app-accent-primary); }
+
+    #dictionary p.dictionary-message, #uploadedImagesPreview p.dictionary-message, #borderDictionary p.dictionary-message, #backgroundDictionary p.dictionary-message {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        font-size:12px;
+        color: var(--app-text-secondary-dark-theme);
+        margin: 0;
+        align-self: center;
+    }
+    .dictionary-item {
+        padding:8px;
+        cursor:pointer;
+        border: 1px solid transparent;
+        font-size:13px;
+        transition: background-color .15s ease, border-color .15s ease;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,0.05);
+    }
+    .dictionary-item:hover {
+        background-color: rgba(255,255,255,0.1);
+        border-color: var(--app-accent-primary);
+        color: var(--app-text-primary-dark-theme);
+    }
+    .dictionary-item img {
+        width: 50px; height: 50px;
+        object-fit: contain;
+        border:1px solid var(--app-border-dark);
+        border-radius:3px;
+        background-color: var(--app-surface-light);
+        margin-bottom: 5px;
+    }
+    .dictionary-item span {
+        font-size: 10px; text-align: center; word-break: break-word; max-width: 50px;
+        color: var(--app-text-secondary-dark-theme);
+    }
+    .dictionary-item:hover span {
+        color: var(--app-text-primary-dark-theme);
+    }
+    
+    #borderDictionary, #backgroundDictionary {
+        border: 1px solid var(--app-border-dark);
+        padding: 8px;
+        max-height: 140px;
+        overflow-y: auto;
+        background-color: var(--app-surface-dark);
+        border-radius: 5px;
+        margin-top: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-content: flex-start;
+    }
+    .border-thumbnail-item {
+        cursor: pointer;
+        border: 2px solid transparent;
+        border-radius: 4px;
+        padding: 2px;
+        transition: border-color .15s ease;
+        width: 60px;
+        height: 60px;
+    }
+    .border-thumbnail-item:hover, .border-thumbnail-item.selected {
+        border-color: var(--app-accent-primary);
+    }
+    .border-thumbnail-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        background-color: var(--app-surface-light);
+        border-radius: 2px;
+    }
+
+
+    #prevCommon img, #prevOdd img {
+      width:50px; height:50px; object-fit:contain;
+      border:1px solid var(--app-accent-primary); border-radius:3px; cursor:pointer;
+    }
+
+    .panel-footer {
+        padding: 15px 25px; /* Increased padding */
+        border-top: 1px solid var(--app-border-dark); /* UPDATED */
+        margin-top: auto;
+        background-color: var(--app-bg-dark); /* Match panel background */
+    }
+    #message { /* For messages at the bottom of sidebar */
+        padding:10px 15px;
+        border-radius:5px;
+        font-size:13px;
+        text-align:center;
+        min-height:20px;
+        font-weight:500;
+        display:none;
+        margin-bottom: 0;
+        border-width: 1px;
+        border-style: solid;
+    }
+    #message.error {background-color:rgba(255, 59, 48, 0.2); color: var(--app-accent-danger); border-color: var(--app-accent-danger);}
+    #message.success {background-color:rgba(52, 199, 89, 0.2); color: #34c759; border-color: #34c759;}
+    #message.info {background-color:rgba(0, 122, 255, 0.15); color:var(--app-accent-primary); border-color: var(--app-accent-primary);}
+
+    /* Main Content Area */
+    .main {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+      padding: 0;
+      background-color: var(--app-bg-light); /* UPDATED */
+    }
+    
+    /* --- Responsive Controls --- */
+    .menu-toggle-btn {
+        display: none; /* Hidden by default on desktop */
+        position: absolute;
+        top: 12px;
+        left: 20px;
+        z-index: 20;
+        background-color: var(--app-surface-light);
+        color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light);
+        border-radius: 6px;
+        width: 38px;
+        height: 38px;
+        font-size: 18px;
+        cursor: pointer;
+        align-items: center;
+        justify-content: center;
+    }
+     .menu-toggle-btn:hover {
+        background-color: #e8e8ed;
+    }
+
+    .menu-close-btn {
+        display: none; /* Hidden by default on desktop */
+        background: none;
+        border: none;
+        color: var(--app-text-secondary-dark-theme);
+        font-size: 28px;
+        line-height: 1;
+        cursor: pointer;
+        padding: 0 5px;
+    }
+    .menu-close-btn:hover {
+        color: var(--app-text-primary-dark-theme);
+    }
+
+    .menu-overlay {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.4);
+        z-index: 998; /* Below sidebar, above main content */
+    }
+    .menu-overlay.is-active {
+        display: block;
+    }
+
+    /* --- Top Right Actions Area --- */
+    .top-right-actions {
+        position: absolute;
+        top: 12px;
+        right: 20px;
+        z-index: 20;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .top-right-actions .action-button {
+        padding: 7px 14px;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 6px;
+        border: none;
+        color: white;
+        cursor: pointer;
+        transition: background-color 0.2s ease, transform 0.1s ease;
+    }
+    .top-right-actions .action-button:active { transform: scale(0.98); }
+
+    .top-right-actions .action-button.accent { background-color: var(--app-accent-primary); }
+    .top-right-actions .action-button.accent:hover { background-color: var(--app-accent-primary-hover); }
+
+    .top-right-actions .action-button.danger {
+        background-color: var(--app-surface-light);
+        color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light);
+    }
+    .top-right-actions .action-button.danger:hover {
+        background-color: #e8e8ed;
+    }
+
+    .top-right-actions .action-button.secondary {
+        background-color: var(--app-surface-light);
+        color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light);
+    }
+    .top-right-actions .action-button.secondary:hover { background-color: #e8e8ed; }
+    .top-right-actions .action-button:disabled {
+        background-color: #cccccc !important;
+        color: #888888 !important;
+        border-color: #cccccc !important;
+        cursor: not-allowed;
+        transform: none;
+    }
+
+
+    .dropdown-container {
+        position: relative;
+        display: inline-block;
+    }
+    .dropdown-content { /* For download dropdown */
+        display: none;
+        position: absolute;
+        right: 0;
+        top: calc(100% + 5px);
+        background-color: var(--app-surface-light);
+        min-width: 200px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+        border: 1px solid var(--app-border-light);
+        border-radius: 6px;
+        padding: 8px;
+        z-index: 25;
+    }
+    .dropdown-content button {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 13px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 6px;
+        background-color: transparent;
+        color: var(--app-text-primary-light-theme);
+        border: none;
+        cursor: pointer;
+        text-align: left;
+        font-weight: 400;
+        transition: background-color 0.15s ease;
+    }
+    .dropdown-content button:last-of-type { margin-bottom: 0; }
+    .dropdown-content button:hover { background-color: rgba(0,0,0,0.05); }
+    .dropdown-content button:disabled {
+        background-color: transparent !important;
+        color: var(--app-text-secondary-light-theme) !important;
+        opacity: 0.6;
+        cursor: not-allowed;
+    }
+
+    .dropdown-content .checkbox-label {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        font-weight: 400;
+        padding: 6px 12px;
+        margin-top: 4px;
+        margin-bottom: 0;
+        cursor: pointer;
+        color: var(--app-text-primary-light-theme);
+        border-radius: 4px;
+    }
+     .dropdown-content .checkbox-label:hover { background-color: rgba(0,0,0,0.05); }
+    .dropdown-content .checkbox-label input[type="checkbox"] {
+        width: auto;
+        margin-right: 8px;
+        vertical-align: middle;
+        accent-color: var(--app-accent-primary);
+    }
+
+
+    /* ============================================
+       MODERN UNIFIED HEADER STYLES
+       Exact implementation from wordsearch.html
+       ============================================ */
+
+    .tab-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 24px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+        position: relative;
+        z-index: 15;
+        border-radius: 0;
+        margin: 0;
+        gap: 16px;
+    }
+
+    .tab-buttons-container {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .tab-button {
+        padding: 10px 24px;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        background: rgba(255, 255, 255, 0.15);
+        color: rgba(255, 255, 255, 0.8);
+        cursor: pointer;
+        border-radius: 8px;
+        transition: all 0.2s ease;
+        backdrop-filter: blur(10px);
+        position: relative;
+    }
+
+    .tab-button:hover {
+        background: rgba(255, 255, 255, 0.25);
+        color: white;
+        transform: translateY(-1px);
+    }
+
+    .tab-button.active {
+        background: rgba(255, 255, 255, 0.95);
+        color: #667eea;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Header Actions Container */
+    .header-actions {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    /* --- Zoom Controls --- */
+    .zoom-controls {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background-color: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 6px;
+        padding: 5px 10px;
+        backdrop-filter: blur(10px);
+    }
+
+    .zoom-btn {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+        padding: 6px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        color: white;
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .zoom-btn:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .zoom-btn:active {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .zoom-percentage {
+        min-width: 45px;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 600;
+        color: white;
+        user-select: none;
+    }
+
+    /* --- Undo/Redo Controls --- */
+    .history-controls {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background-color: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 6px;
+        padding: 5px 10px;
+        backdrop-filter: blur(10px);
+    }
+
+    .history-btn {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+        padding: 6px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        color: white;
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .history-btn:hover:not(:disabled) {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .history-btn:active:not(:disabled) {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .history-btn:disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+    }
+
+    /* Unlock All Button */
+    .unlock-all-controls {
+        display: none; /* Hidden by default */
+        align-items: center;
+        gap: 6px;
+        padding: 4px 12px;
+        background: rgba(255, 165, 0, 0.25);
+        border-radius: 8px;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 165, 0, 0.4);
+    }
+
+    .unlock-all-controls.visible {
+        display: flex;
+    }
+
+    .unlock-all-btn {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 4px 10px;
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 500;
+        transition: all 0.2s ease;
+        white-space: nowrap;
+    }
+
+    .unlock-all-btn:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transform: scale(1.05);
+    }
+
+    .unlock-all-btn i {
+        font-size: 14px;
+    }
+
+    /* --- Dropdown Containers --- */
+    .dropdown-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: white;
+        min-width: 200px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        border-radius: 8px;
+        z-index: 1000;
+        margin-top: 8px;
+        padding: 8px 0;
+    }
+
+    .dropdown-content.show {
+        display: block;
+    }
+
+    .dropdown-content button {
+        display: block;
+        width: 100%;
+        padding: 10px 16px;
+        border: none;
+        background: none;
+        text-align: left;
+        cursor: pointer;
+        font-size: 14px;
+        color: #333;
+        transition: background-color 0.2s;
+    }
+
+    .dropdown-content button:hover:not(:disabled) {
+        background-color: #f5f5f5;
+    }
+
+    .dropdown-content button:disabled {
+        color: #ccc;
+        cursor: not-allowed;
+    }
+
+    /* --- Action Buttons --- */
+    .action-button {
+        padding: 8px 16px;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .action-button.accent {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .action-button.accent:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    .action-button.download-btn {
+        background: rgba(255, 255, 255, 0.95);
+        color: #667eea;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .action-button.download-btn:hover {
+        background: white;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .action-button.danger {
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .action-button.danger:hover {
+        background: rgba(255, 59, 48, 0.9);
+        border-color: rgba(255, 255, 255, 0.5);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(255, 59, 48, 0.3);
+    }
+
+    .tab-content-wrapper {
+        flex-grow: 1;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 25px;
+        overflow-y: auto;
+    }
+
+    .tab {
+      display: none;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+    }
+    .tab.active { display: flex; flex-direction: column; }
+
+    .canvas-container-wrapper {
+        border: none;
+        background-color: var(--app-surface-light);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        overflow: visible; /* CRITICAL FIX: Changed from auto to prevent clipping */
+        margin: auto;
+        position: relative;
+    }
+    /* Ensure Fabric.js container doesn't clip */
+    .canvas-container { 
+        overflow: visible !important;
+        position: relative !important;
+    }
+    canvas { display: block; }
+
+    #exportArea { position: absolute; left: -9999px; top: 0; width: auto; height: auto;}
+    
+    
+    /* --- RESPONSIVE STYLES FOR TABLET --- */
+    @media (max-width: 1024px) {
+        :root {
+            --sidebar-width: 300px; /* Slightly reduce width for tablet view */
+        }
+        .panel {
+            position: fixed; /* Changed from absolute to fixed to cover full height */
+            top: 0;
+            left: 0;
+            height: 100vh;
+            z-index: 1000;
+            transform: translateX(-100%);
+        }
+        .panel.is-open {
+            transform: translateX(0);
+        }
+        .menu-toggle-btn {
+            display: flex;
+        }
+        .menu-close-btn {
+            display: block;
+        }
+        .tab-row {
+            padding: 0 15px 0 70px; /* Make space for the menu toggle button */
+        }
+    }
+    /* START: Contextual Toolbar CSS */
+    #object-context-toolbar {
+        position: absolute;
+        top: 72px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--app-surface-light);
+        border-radius: 6px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        padding: 5px;
+        display: flex;
+        flex-direction: row;
+        gap: 4px;
+        z-index: 100;
+        align-items: center;
+        border: 1px solid var(--app-border-light);
+    }
+    .toolbar-group {
+        display: flex;
+        gap: 2px;
+        align-items: center;
+        padding: 0 4px;
+    }
+    .toolbar-group + .toolbar-group {
+        border-left: 1px solid var(--app-border-light);
+    }
+    .toolbar-item {
+        position: relative;
+    }
+    .context-btn {
+        background: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        padding: 5px 7px;
+        cursor: pointer;
+        font-size: 15px; 
+        color: var(--app-text-secondary-light-theme);
+        line-height: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 32px;
+        transition: background-color 0.2s, color 0.2s;
+    }
+    .context-btn:disabled {
+        color: #c5c5c7;
+        cursor: not-allowed;
+    }
+    .context-btn:not(:disabled):hover {
+        background-color: #e8e8ed;
+        color: var(--app-text-primary-light-theme);
+    }
+    .context-btn.active-dropdown {
+        background-color: #ddeeff;
+        color: var(--app-accent-primary);
+    }
+    #toolbarDeleteBtn:not(:disabled) {
+        color: var(--app-accent-danger);
+    }
+    #object-context-toolbar .dropdown-content {
+        display: none;
+        position: absolute;
+        top: calc(100% + 5px);
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: var(--app-surface-light);
+        min-width: 150px;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+        border: 1px solid var(--app-border-light);
+        border-radius: 6px;
+        padding: 8px;
+        z-index: 101;
+    }
+    #object-context-toolbar .dropdown-content button {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 13px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-bottom: 6px;
+        background-color: transparent;
+        color: var(--app-text-primary-light-theme);
+        border: none;
+        cursor: pointer;
+        text-align: left;
+        font-weight: 400;
+        transition: background-color 0.15s ease;
+    }
+    #object-context-toolbar .dropdown-content button:last-of-type {
+        margin-bottom: 0;
+    }
+    #object-context-toolbar .dropdown-content button:hover {
+        background-color: rgba(0,0,0,0.05);
+    }
+    /* END: Contextual Toolbar CSS */
+  </style>
+</head>
+<body>
+  <div class="layout">
+    <div id="menuOverlay" class="menu-overlay"></div>
+    <div class="panel">
+      <div class="panel-header">
+        <h2 data-translate="oddoneout.title">Odd One Out</h2>
+        <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
+      </div>
+      <div class="panel-content">
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="settings">Language Settings</button>
+            <div class="accordion-content">
+                <label for="languageSelect" data-translate="language">Language:</label>
+                <select id="languageSelect">
+                    <option value="en" data-translate="language.english">English</option>
+                    <option value="de" data-translate="language.german">Deutsch</option>
+                    <option value="fr" data-translate="language.french">Français</option>
+                    <option value="es" data-translate="language.spanish">Español</option>
+                    <option value="pt" data-translate="language.portuguese">Português</option>
+                    <option value="it" data-translate="language.italian">Italiano</option>
+                    <option value="nl" data-translate="language.dutch">Nederlands</option>
+                    <option value="sv" data-translate="language.swedish">Svenska</option>
+                    <option value="da" data-translate="language.danish">Dansk</option>
+                    <option value="no" data-translate="language.norwegian">Norsk</option>
+                    <option value="fi" data-translate="language.finnish">Suomi</option>
+                </select>
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin-top: 10px;" data-translate="oddoneout.language.description">
+                    Selects the language for image library content only. UI language is controlled by the main language selector in the header.
+                </p>
+            </div>
+        </div>
+        
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="oddoneout.page.setup">Page Setup</button>
+            <div class="accordion-content">
+                <label for="pageSizeSelect" data-translate="oddoneout.page.size">Page Size:</label>
+                <select id="pageSizeSelect">
+                    <option value="612x792" data-translate="page.size.letter.portrait">Letter Portrait (8.5×11")</option>
+                    <option value="792x612" data-translate="page.size.letter.landscape">Letter Landscape (11×8.5")</option>
+                    <option value="595x842" data-translate="page.size.a4.portrait">A4 Portrait (210×297mm)</option>
+                    <option value="842x595" data-translate="page.size.a4.landscape">A4 Landscape (297×210mm)</option>
+                    <option value="1200x1200" data-translate="page.size.square">Square (1200x1200)</option>
+                    <option value="custom" data-translate="page.size.custom">Custom</option>
+                </select>
+                <div id="customPageSizeInputs" style="display:none;">
+                    <label for="pageWidth" data-translate="oddoneout.width.label">Width (px):</label>
+                    <input type="number" id="pageWidth" value="612">
+                    <label for="pageHeight" data-translate="oddoneout.height.label">Height (px):</label>
+                    <input type="number" id="pageHeight" value="792">
+                </div>
+                <label for="pageColor" data-translate="oddoneout.page.color">Page Color:</label>
+                <input type="color" id="pageColor" value="#FFFFFF">
+                <button id="setPageSizeBtn" data-translate="oddoneout.apply.size">Apply Size</button>
+                
+                <h4 data-translate="oddoneout.background.title">Background</h4>
+                <label for="backgroundThemeSelect" data-translate="oddoneout.background.theme">Background Theme:</label>
+                <select id="backgroundThemeSelect">
+                    <option value="none" data-translate="none">None</option>
+                </select>
+                <div id="backgroundDictionary"><p class="dictionary-message" data-translate="oddoneout.background.message">Select a theme for backgrounds.</p></div>
+                <label for="backgroundOpacitySlider" data-translate="oddoneout.background.opacity">Background Opacity:</label>
+                <input type="range" id="backgroundOpacitySlider" min="0" max="1" step="0.05" value="1" disabled>
+
+                <h4 data-translate="oddoneout.border.title">Border</h4>
+                <label for="borderThemeSelect" data-translate="oddoneout.border.theme">Border Theme:</label>
+                <select id="borderThemeSelect">
+                    <option value="none" data-translate="none">None</option>
+                </select>
+                <div id="borderDictionary">
+                    <p class="dictionary-message" data-translate="oddoneout.border.message">Select a theme to see borders.</p>
+                </div>
+                <label for="borderOpacitySlider" data-translate="oddoneout.border.opacity">Border Opacity:</label>
+                <input type="range" id="borderOpacitySlider" min="0" max="1" value="1" step="0.05" disabled>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="oddoneout.text.tools">Text Tools</button>
+            <div class="accordion-content">
+                <h4 data-translate="oddoneout.text.add.new">Add New Text</h4>
+                <label for="textInput" data-translate="oddoneout.text.content">Content:</label><input type="text" id="textInput" data-translate-placeholder="oddoneout.text.placeholder">
+                <button id="addTextBtn" data-translate="oddoneout.text.add.button">Add Text</button>
+                <h4 data-translate="oddoneout.text.properties">Selected Text Properties</h4>
+                <label for="textColor" data-translate="oddoneout.text.color">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                <label for="fontSize" data-translate="oddoneout.text.size">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+                <label for="fontFamily" data-translate="oddoneout.text.font">Font:</label>
+                <select id="fontFamily" disabled>
+                    <option value="Lexend Deca" data-translate="font.lexend">Lexend Deca</option>
+                    <option value="Baloo 2" data-translate="font.baloo">Baloo 2</option>
+                    <option value="Nunito" data-translate="font.nunito">Nunito</option>
+                    <option value="Quicksand" data-translate="font.quicksand">Quicksand</option>
+                    <option value="Fredoka" data-translate="font.fredoka">Fredoka</option>
+                    <option value="Arial" data-translate="font.arial">Arial</option>
+                    <option value="Verdana" data-translate="font.verdana">Verdana</option>
+                </select>
+                <label for="textStrokeColor" data-translate="oddoneout.text.outline.color">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                <label for="textStrokeWidth" data-translate="oddoneout.text.outline.width">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="oddoneout.exercise.config">Exercise Configuration</button>
+            <div class="accordion-content">
+                <label for="exerciseCountSelect" data-translate="oddoneout.exercises.count">Number of Exercises:</label>
+                <select id="exerciseCountSelect">
+                  <option value="5" data-translate="oddoneout.exercises.5">5 Exercises</option>
+                  <option value="6" selected data-translate="oddoneout.exercises.6">6 Exercises</option>
+                  <option value="7" data-translate="oddoneout.exercises.7">7 Exercises</option>
+                  <option value="8" data-translate="oddoneout.exercises.8">8 Exercises</option>
+                  <option value="9" data-translate="oddoneout.exercises.9">9 Exercises</option>
+                  <option value="10" data-translate="oddoneout.exercises.10">10 Exercises</option>
+                </select>
+
+                <label for="modeSelect" data-translate="oddoneout.mode.label">Mode:</label>
+                <select id="modeSelect">
+                  <option value="identical" data-translate="oddoneout.mode.identical">Identical (3 + 1 from same theme)</option>
+                  <option value="similar" selected data-translate="oddoneout.mode.similar">Similar (3 from Theme A, 1 from Theme B)</option>
+                </select>
+
+                <label for="rowSelect" data-translate="oddoneout.configure.exercise">Configure Exercise:</label>
+                <select id="rowSelect"></select>
+
+                <label for="exerciseModeSelect" data-translate="oddoneout.exercise.mode">Mode for this Exercise:</label>
+                <select id="exerciseModeSelect">
+                  <option value="" data-translate="oddoneout.use.global">Use Global Mode</option>
+                  <option value="identical" data-translate="oddoneout.mode.identical">Identical (3 + 1 from same theme)</option>
+                  <option value="similar" data-translate="oddoneout.mode.similar">Similar (3 from Theme A, 1 from Theme B)</option>
+                </select>
+
+                <button id="clearRowBtn" data-translate="oddoneout.clear.selections">Clear Selections for This Exercise</button>
+                
+                <label for="includeNameDate" class="checkbox-label" style="margin-top: 15px;">
+                    <input type="checkbox" id="includeNameDate" /><span data-translate="oddoneout.include.name.date">Include Name/Date Fields</span>
+                </label>
+                <label for="includeExerciseNumbers" class="checkbox-label">
+                    <input type="checkbox" id="includeExerciseNumbers" /><span data-translate="oddoneout.include.numbers">Include Exercise Numbers</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="oddoneout.image.library">Image Library</button>
+            <div class="accordion-content">
+                <label for="themeSelect" data-translate="oddoneout.theme.a">Theme A (for Similar/Identical):</label>
+                <select id="themeSelect"></select>
+                <label for="themeBSelect" data-translate="oddoneout.theme.b">Theme B (for Similar Mode Odd One Out):</label>
+                <select id="themeBSelect"></select>
+
+                <label for="searchInput" data-translate="oddoneout.search.images">Search Images:</label>
+                <input type="text" id="searchInput" data-translate-placeholder="oddoneout.search.placeholder" />
+
+                <label data-translate="oddoneout.available.images">Available Images (click to add to exercise below):</label>
+                <div id="dictionary"><p class='dictionary-message' data-translate="oddoneout.loading.images">Loading images...</p></div>
+
+                <h4 data-translate="oddoneout.exercise.selections">Exercise Selections</h4>
+                <label data-translate="oddoneout.common.images">Common Images (3):</label>
+                <div id="prevCommon"></div>
+                <label data-translate="oddoneout.odd.image">Odd Image (1):</label>
+                <div id="prevOdd"></div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="oddoneout.upload.custom">Upload Custom Images</button>
+            <div class="accordion-content">
+                <div class="custom-file-input-wrapper">
+                    <button type="button" class="custom-file-button">
+                        <span data-translate="oddoneout.upload.select">Select image(s) to upload</span>
+                    </button>
+                    <span class="file-input-status" data-translate="none">None</span>
+                    <input type="file" id="imageUploadInput" multiple accept="image/*" style="opacity: 0;">
+                </div>
+                <label style="margin-top:10px;" data-translate="oddoneout.uploaded.images">Your Uploaded Images (This Session):</label>
+                <div id="uploadedImagesPreview">
+                    <p class="dictionary-message" data-translate="oddoneout.uploaded.placeholder">Your uploaded images will appear here.</p>
+                </div>
+            </div>
+        </div>
+
+      </div>
+      <div class="panel-footer">
+          <div id="message"></div>
+      </div>
+    </div>
+
+    <div class="main">
+      <button id="menuToggleBtn" class="menu-toggle-btn"><i class="fas fa-bars"></i></button>
+      
+      <div id="object-context-toolbar" style="display:none;">
+          <div class="toolbar-group">
+              <div class="toolbar-item">
+                  <button class="context-btn" id="layersBtn" data-translate-title="toolbar.layers" title="Layers"><i class="fas fa-layer-group"></i></button>
+                  <div class="dropdown-content" id="layersDropdown">
+                          <button id="toolbarBringToFrontBtn" data-translate="toolbar.bring.to.front">Bring to Front</button>
+                          <button id="toolbarBringForwardBtn" data-translate="toolbar.bring.forward">Bring Forward</button>
+                          <button id="toolbarSendBackwardBtn" data-translate="toolbar.send.backward">Send Backward</button>
+                          <button id="toolbarSendToBackBtn" data-translate="toolbar.send.to.back">Send to Back</button>
+                  </div>
+              </div>
+          </div>
+          <div class="toolbar-group">
+              <div class="toolbar-item">
+                  <button class="context-btn" id="alignBtn" data-translate-title="toolbar.align" title="Align"><i class="fas fa-th"></i></button>
+                  <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
+                          <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.selected">Align Selected:</p>
+                          <div>
+                                  <button class="context-btn" id="alignLeftBtn" data-translate-title="toolbar.align.left" title="Align Left"><i class="fas fa-align-left"></i></button>
+                                  <button class="context-btn" id="alignHCenterBtn" data-translate-title="toolbar.center.h" title="Center Horizontally"><i class="fas fa-align-center"></i></button>
+                                  <button class="context-btn" id="alignRightBtn" data-translate-title="toolbar.align.right" title="Align Right"><i class="fas fa-align-right"></i></button>
+                          </div>
+                          <div style="margin-top: 5px;">
+                                  <button class="context-btn" id="alignTopBtn" data-translate-title="toolbar.align.top" title="Align Top"><i class="fas fa-long-arrow-alt-up"></i></button>
+                                  <button class="context-btn" id="alignVCenterBtn" data-translate-title="toolbar.center.v" title="Center Vertically"><i class="fas fa-grip-lines"></i></button>
+                                  <button class="context-btn" id="alignBottomBtn" data-translate-title="toolbar.align.bottom" title="Align Bottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                          </div>
+                          <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
+                          <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="toolbar.align.to.page">Align to Page:</p>
+                          <div>
+                                  <button class="context-btn" id="centerHCanvasBtn" data-translate-title="toolbar.center.page.h" title="Center on Page Horizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                                  <button class="context-btn" id="centerVCanvasBtn" data-translate-title="toolbar.center.page.v" title="Center on Page Vertically"><i class="fas fa-arrows-alt-v"></i></button>
+                          </div>
+                  </div>
+              </div>
+          </div>
+          <div class="toolbar-group">
+              <button class="context-btn" id="toolbarLockBtn" data-translate-title="lockUnlock" title="Lock/Unlock"><i class="fas fa-lock-open"></i></button>
+          </div>
+          <div class="toolbar-group">
+              <button class="context-btn" id="toolbarDeleteBtn" data-translate-title="toolbar.delete" title="Delete Selected"><i class="fas fa-trash-alt"></i></button>
+          </div>
+      </div>
+      <div class="tab-row">
+                <div class="tab-buttons-container">
+                    <button class="tab-button active" data-tab="worksheetTab" data-translate="oddoneout.tab.worksheet">Worksheet</button>
+                    <button class="tab-button" data-tab="answerKeyTab" data-translate="oddoneout.tab.answer">Answer Key</button>
+                </div>
+                <div class="header-actions">
+                    <div class="zoom-controls">
+                        <button id="zoomOutBtn" class="zoom-btn" data-translate-title="zoomOut" title="Zoom Out"><i class="fas fa-search-minus"></i></button>
+                        <span id="zoomPercentage" class="zoom-percentage">100%</span>
+                        <button id="zoomInBtn" class="zoom-btn" data-translate-title="zoomIn" title="Zoom In"><i class="fas fa-search-plus"></i></button>
+                        <button id="zoomResetBtn" class="zoom-btn" data-translate-title="zoomReset" title="Reset Zoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                    </div>
+                    <div class="history-controls">
+                        <button id="undoBtn" class="history-btn" data-translate-title="undo" title="Undo (Ctrl+Z)" disabled><i class="fas fa-undo"></i></button>
+                        <button id="redoBtn" class="history-btn" data-translate-title="redo" title="Redo (Ctrl+Y)" disabled><i class="fas fa-redo"></i></button>
+                    </div>
+
+                    <!-- Unlock All Button (shown when objects are locked) -->
+                    <div id="unlockAllControls" class="unlock-all-controls">
+                        <button id="unlockAllBtn" class="unlock-all-btn" data-translate-title="unlockAll" title="Unlock All Locked Objects">
+                            <i class="fas fa-unlock"></i>
+                            <span data-translate="unlockAll">Unlock All</span>
+                        </button>
+                    </div>
+
+                    <div class="dropdown-container">
+                        <button id="generateDropdownBtn" class="action-button accent" data-translate="oddoneout.generate"><span>Generate</span> <i class="fas fa-caret-down"></i></button>
+                        <div id="generateDropdownContent" class="dropdown-content">
+                            <button id="generateWorksheetBtn" data-translate="oddoneout.generate.worksheet">New Worksheet</button>
+                            <button id="generateAnswerKeyBtn" disabled data-translate="oddoneout.generate.answer">Answer Key</button>
+                        </div>
+                    </div>
+                    <div class="dropdown-container">
+                        <button id="downloadDropdownBtn" class="action-button download-btn" data-translate="oddoneout.download"><span>Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                        <div id="downloadDropdownContent" class="dropdown-content">
+                            <button id="downloadWorksheetJpegBtn" data-translate="oddoneout.download.worksheet.jpeg">Worksheet (JPEG)</button>
+                            <button id="downloadAnswerKeyJpegBtn" disabled data-translate="oddoneout.download.answer.jpeg">Answer Key (JPEG)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadWorksheetPdfBtn" data-translate="oddoneout.download.worksheet.pdf">Worksheet (PDF)</button>
+                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="oddoneout.download.answer.pdf">Answer Key (PDF)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
+                            <label class="checkbox-label" id="grayscaleLabel">
+                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="common.grayscale">Grayscale</span>
+                            </label>
+                        </div>
+                    </div>
+                    <button id="clearBtn" class="action-button danger" data-translate="oddoneout.clear.all">Clear All</button>
+                </div>
+            </div>
+      <div class="tab-content-wrapper">
+        <div class="tab active" id="worksheetTab">
+            <div class="canvas-container-wrapper" id="worksheetCanvasWrapper">
+                <canvas id="worksheetCanvasElement"></canvas>
+            </div>
+        </div>
+        <div class="tab" id="answerKeyTab">
+             <div class="canvas-container-wrapper" id="answerKeyCanvasWrapper">
+                <canvas id="answerKeyCanvasElement"></canvas>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Separate UI locale (from URL) and content locale (from sidebar selector)
+    let uiLocale = 'en';  // UI language (for interface translations) - from URL parameter
+    let currentLocale = 'en';  // Content language (for image library) - can be changed by sidebar selector
+    const urlParams = new URLSearchParams(window.location.search);
+    const localeParam = urlParams.get('locale');
+    if (localeParam) {
+        uiLocale = localeParam;  // UI language comes from URL (parent app header)
+        currentLocale = localeParam;  // Initial content language matches UI language
+    }
+    window.uiLocale = uiLocale;
+    window.currentLocale = currentLocale;
+
+    // Translation function with fallback
+    function t(key) {
+      if (typeof translations === 'undefined') {
+        console.warn('Translations not loaded, returning key:', key);
+        return key;
+      }
+      // Use uiLocale for UI translations, fallback to currentLocale, then to English
+      const locale = window.uiLocale || window.currentLocale || 'en';
+      return translations[locale]?.[key] || translations.en?.[key] || key;
+    }
+    window.t = t;
+
+    // Apply translations to elements with data-translate attributes
+    function applyTranslations() {
+      console.log('[Odd One Out] Applying UI translations for locale:', window.uiLocale || window.currentLocale);
+      console.log('[Odd One Out] Content locale:', window.currentLocale);
+
+      // Translate elements with data-translate attribute
+      document.querySelectorAll('[data-translate]').forEach(el => {
+        const key = el.getAttribute('data-translate');
+        el.textContent = t(key);
+      });
+
+      // Translate placeholders
+      document.querySelectorAll('[data-translate-placeholder]').forEach(el => {
+        const key = el.getAttribute('data-translate-placeholder');
+        el.placeholder = t(key);
+      });
+
+      // Translate title attributes
+      document.querySelectorAll('[data-translate-title]').forEach(el => {
+        const key = el.getAttribute('data-translate-title');
+        if (key) {
+          el.title = t(key);
+        }
+      });
+    }
+    window.applyTranslations = applyTranslations;
+
+    document.addEventListener("DOMContentLoaded", function() {
+      // --- CONSTANTS & DEFAULTS ---
+      let EXERCISE_COUNT = 6; // Default, can be changed by user
+      const DEFAULT_PAGE_SIZE = "612x792";
+      const downloadMultiplier = 6; // For high-res export
+
+      // --- DOM ELEMENT REFERENCES ---
+      const ui = {
+        panel: document.querySelector('.panel'),
+        menuToggleBtn: document.getElementById('menuToggleBtn'),
+        menuCloseBtn: document.getElementById('menuCloseBtn'),
+        menuOverlay: document.getElementById('menuOverlay'),
+        
+        pageSizeSelect: document.getElementById('pageSizeSelect'),
+        customPageSizeInputs: document.getElementById('customPageSizeInputs'),
+        pageWidth: document.getElementById('pageWidth'),
+        pageHeight: document.getElementById('pageHeight'),
+        setPageSizeBtn: document.getElementById('setPageSizeBtn'),
+        pageColor: document.getElementById('pageColor'),
+
+        backgroundThemeSelect: document.getElementById('backgroundThemeSelect'),
+        backgroundDictionary: document.getElementById('backgroundDictionary'),
+        backgroundOpacitySlider: document.getElementById('backgroundOpacitySlider'),
+        borderThemeSelect: document.getElementById('borderThemeSelect'),
+        borderDictionary: document.getElementById('borderDictionary'),
+        borderOpacitySlider: document.getElementById('borderOpacitySlider'),
+
+        textInput: document.getElementById('textInput'),
+        addTextBtn: document.getElementById('addTextBtn'),
+        textColor: document.getElementById('textColor'),
+        fontSize: document.getElementById('fontSize'),
+        fontFamily: document.getElementById('fontFamily'),
+        textStrokeColor: document.getElementById('textStrokeColor'),
+        textStrokeWidth: document.getElementById('textStrokeWidth'),
+
+        exerciseCountSelect: document.getElementById('exerciseCountSelect'),
+        modeSelect: document.getElementById('modeSelect'),
+        rowSelect: document.getElementById('rowSelect'),
+        exerciseModeSelect: document.getElementById('exerciseModeSelect'),
+        clearRowBtn: document.getElementById('clearRowBtn'),
+        includeNameDate: document.getElementById('includeNameDate'),
+        includeExerciseNumbers: document.getElementById('includeExerciseNumbers'),
+        
+        themeSelect: document.getElementById('themeSelect'),
+        themeBSelect: document.getElementById('themeBSelect'),
+        searchInput: document.getElementById('searchInput'),
+        dictionary: document.getElementById('dictionary'),
+        prevCommon: document.getElementById('prevCommon'),
+        prevOdd: document.getElementById('prevOdd'),
+
+        imageUploadInput: document.getElementById('imageUploadInput'),
+        uploadedImagesPreview: document.getElementById('uploadedImagesPreview'),
+        
+        message: document.getElementById('message'),
+
+        generateDropdownBtn: document.getElementById('generateDropdownBtn'),
+        generateDropdownContent: document.getElementById('generateDropdownContent'),
+        generateWorksheetBtn: document.getElementById('generateWorksheetBtn'),
+        generateAnswerKeyBtn: document.getElementById('generateAnswerKeyBtn'),
+        
+        downloadDropdownBtn: document.getElementById('downloadDropdownBtn'),
+        downloadDropdownContent: document.getElementById('downloadDropdownContent'),
+        // START OF CHANGES
+        downloadWorksheetJpegBtn: document.getElementById('downloadWorksheetJpegBtn'),
+        downloadAnswerKeyJpegBtn: document.getElementById('downloadAnswerKeyJpegBtn'),
+        downloadWorksheetPdfBtn: document.getElementById('downloadWorksheetPdfBtn'),
+        downloadAnswerKeyPdfBtn: document.getElementById('downloadAnswerKeyPdfBtn'),
+        // END OF CHANGES
+        clearBtn: document.getElementById('clearBtn'),
+        grayscaleToggle: document.getElementById('grayscaleToggle'),
+
+        // Zoom controls
+        zoomInBtn: document.getElementById('zoomInBtn'),
+        zoomOutBtn: document.getElementById('zoomOutBtn'),
+        zoomResetBtn: document.getElementById('zoomResetBtn'),
+        zoomPercentage: document.getElementById('zoomPercentage'),
+
+        // History controls
+        undoBtn: document.getElementById('undoBtn'),
+        redoBtn: document.getElementById('redoBtn'),
+        unlockAllBtn: document.getElementById('unlockAllBtn'),
+        unlockAllControls: document.getElementById('unlockAllControls'),
+
+        worksheetCanvasWrapper: document.getElementById('worksheetCanvasWrapper'),
+        worksheetCanvasElement: document.getElementById('worksheetCanvasElement'),
+        answerKeyCanvasWrapper: document.getElementById('answerKeyCanvasWrapper'),
+        answerKeyCanvasElement: document.getElementById('answerKeyCanvasElement'),
+
+        objectContextToolbar: document.getElementById('object-context-toolbar'),
+        layersBtn: document.getElementById('layersBtn'),
+        layersDropdown: document.getElementById('layersDropdown'),
+        toolbarBringToFrontBtn: document.getElementById('toolbarBringToFrontBtn'),
+        toolbarBringForwardBtn: document.getElementById('toolbarBringForwardBtn'),
+        toolbarSendBackwardBtn: document.getElementById('toolbarSendBackwardBtn'),
+        toolbarSendToBackBtn: document.getElementById('toolbarSendToBackBtn'),
+        alignBtn: document.getElementById('alignBtn'),
+        alignDropdown: document.getElementById('alignDropdown'),
+        toolbarLockBtn: document.getElementById('toolbarLockBtn'),
+        toolbarDeleteBtn: document.getElementById('toolbarDeleteBtn'),
+        allToolbarButtons: document.querySelectorAll('#object-context-toolbar .context-btn'),
+        languageSelect: document.getElementById('languageSelect')
+      };
+
+      // --- INITIALIZE LOCALE ---
+      // Set language selector value to current content locale
+      if (ui.languageSelect) {
+        ui.languageSelect.value = currentLocale;
+      }
+
+      // Initialize UnifiedLanguageManager for content language (image library)
+      if (typeof window.UnifiedLanguageManager !== 'undefined') {
+          window.languageManager = window.UnifiedLanguageManager;
+
+          // Register callback to reload image library when content language changes
+          window.languageManager.onLanguageChange(function(newLocale, oldLocale) {
+              console.log('[Odd One Out] Content language changed from', oldLocale, 'to', newLocale);
+              currentLocale = newLocale;
+              window.currentLocale = newLocale;
+
+              // Clear cache and reload image themes and dictionary
+              imageCache = {};
+              fetchImageThemes().then(() => {
+                  loadDictionary();
+              });
+          });
+      } else {
+          // Fallback mode with direct event handler (backward compatibility)
+          console.warn('[Odd One Out] UnifiedLanguageManager not found, using fallback mode');
+          if (ui.languageSelect) {
+              ui.languageSelect.addEventListener('change', function() {
+                  const newLocale = this.value;
+                  currentLocale = newLocale;
+                  window.currentLocale = newLocale;
+
+                  // Clear cache and reload image themes and dictionary
+                  imageCache = {};
+                  fetchImageThemes().then(() => {
+                      loadDictionary();
+                  });
+              });
+          }
+      }
+
+      // Apply initial translations
+      if (typeof applyTranslations === 'function') {
+        applyTranslations();
+      }
+
+      // --- INITIAL WORKSHEET GENERATION ---
+      async function generateInitialWorksheet() {
+          try {
+              console.log('Starting initial worksheet generation...');
+
+              // Wait for themes to load with polling
+              let attempts = 0;
+              const maxAttempts = 20; // 2 seconds max wait time
+
+              while (ui.themeSelect.options.length <= 1 && attempts < maxAttempts) {
+                  await new Promise(resolve => setTimeout(resolve, 100));
+                  attempts++;
+              }
+
+              if (ui.themeSelect.options.length <= 1) {
+                  console.error('Themes failed to load in time');
+                  return;
+              }
+
+              // Set page size to Letter portrait (612x792)
+              ui.pageSizeSelect.value = '612x792';
+              const [width, height] = ui.pageSizeSelect.value.split('x').map(Number);
+              currentCanvasConfig.width = width;
+              currentCanvasConfig.height = height;
+
+              worksheetCanvas.setDimensions({ width, height });
+              answerKeyCanvas.setDimensions({ width, height });
+              updateCanvasDisplayDimensions(width, height, false);
+
+              // Set Number of Exercises to 5
+              ui.exerciseCountSelect.value = '5';
+              EXERCISE_COUNT = 5;
+
+              // Set Mode to Similar
+              ui.modeSelect.value = 'similar';
+
+              // Set Theme A to Animals
+              ui.themeSelect.value = 'animals';
+
+              // Set Theme B to Food
+              ui.themeBSelect.value = 'food';
+
+              // Include Exercise Numbers
+              ui.includeExerciseNumbers.checked = true;
+
+              // Load dictionary to populate images
+              await loadDictionary();
+
+              // Give a small delay before generating
+              await new Promise(resolve => setTimeout(resolve, 100));
+
+              // Generate the worksheet by calling renderWorksheet
+              await renderWorksheet();
+
+              console.log('Initial worksheet generated successfully');
+          } catch (error) {
+              console.error('Error generating initial worksheet:', error);
+          }
+      }
+
+      // --- STATE MANAGEMENT ---
+      let worksheetCanvas, answerKeyCanvas;
+      let currentCanvasConfig = { width: 612, height: 792 };
+      let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
+
+      // Undo/Redo state management
+      const MAX_HISTORY = 20; // Maximum number of history states to keep
+      let historyStack = []; // Stack of previous canvas states
+      let redoStack = []; // Stack of undone states for redo
+      let isRestoringState = false; // Flag to prevent saving state while restoring
+      let isGenerating = false; // Flag to prevent saving state during worksheet generation
+
+      let allThemes = [];
+      let imageCache = {};
+      let uploadedImages = [];
+      let lastGeneratedRows = [];
+      let lastGeneratedExerciseCount = null; // Track last exercise count used
+      let lastAnswerKeyExerciseCount = null; // Track last answer key exercise count
+      let lastIncludeExerciseNumbers = null; // Track if exercise numbers setting changed
+
+      let commonSelections = Array.from({ length: 10 }, () => []); // Max 10 exercises
+      let oddSelections = Array(10).fill(null);
+      let exerciseModes = Array(10).fill(null); // Per-exercise mode settings
+      
+      // --- HELPER FUNCTIONS ---
+      const showMessage = (msg, type = 'error', duration = 3000) => {
+        ui.message.textContent = msg;
+        ui.message.className = `message ${type}`;
+        ui.message.style.display = 'block';
+        if (duration > 0) {
+            setTimeout(() => { ui.message.style.display = 'none'; ui.message.textContent = ""; }, duration);
+        }
+      };
+      const shuffle = a => { for(let i=a.length-1; i>0; i--) { const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; } return a; };
+      const getRandomElement = arr => arr.length > 0 ? arr[Math.floor(Math.random() * arr.length)] : null;
+      
+      // START OF CHANGES
+      function enforceZOrder(canvas) {
+        if (!canvas) return;
+
+        const allObjects = canvas.getObjects();
+
+        // MODIFIED: Remove automatic enforcement of backgrounds and borders
+        // Users should have full control over these elements via layer controls
+        // Only enforce page borders and header elements
+
+        const pageBorders = allObjects.filter(o => o.isPageBorder);
+        const headerElements = allObjects.filter(o => o.isHeaderElement && !o.isPageBorder);
+        const nameDateElements = allObjects.filter(o => o.isNameDate);
+        const worksheetItems = allObjects.filter(o => o.isWorksheetItem || o.isAnswerKeyItem);
+        const otherItems = allObjects.filter(o =>
+            !o.isPageBorder &&
+            !o.isHeaderElement &&
+            !o.isNameDate &&
+            !o.isWorksheetItem &&
+            !o.isAnswerKeyItem
+        );
+
+        // Use moveTo for precise z-order control
+        // Order from back to front: page borders, header elements, name/date, worksheet items, everything else (including user borders/backgrounds)
+        let index = 0;
+
+        pageBorders.forEach(obj => { canvas.moveTo(obj, index++); });
+        headerElements.forEach(obj => { canvas.moveTo(obj, index++); });
+        nameDateElements.forEach(obj => { canvas.moveTo(obj, index++); });
+        worksheetItems.forEach(obj => { canvas.moveTo(obj, index++); });
+        otherItems.forEach(obj => { canvas.moveTo(obj, index++); });
+      }
+      // END OF CHANGES
+
+      // --- HEADER AND BORDER FUNCTIONS ---
+      function createHeaderGroup(canvas) {
+          const defaultHeaders = {
+              en: { title: 'Find the Odd One Out', description: 'Circle the picture that is different in each row!' },
+              de: { title: 'Finde das Andere', description: 'Kreise das Bild ein, das anders ist!' },
+              fr: { title: 'Trouve l\'Intrus', description: 'Entoure l\'image différente dans chaque rangée!' },
+              es: { title: 'Encuentra el Diferente', description: '¡Rodea la imagen diferente en cada fila!' },
+              it: { title: 'Trova il Diverso', description: 'Cerchia l\'immagine diversa in ogni riga!' },
+              pt: { title: 'Encontra o Diferente', description: 'Circunda a imagem diferente em cada linha!' },
+              nl: { title: 'Vind de Vreemde Eend', description: 'Omcirkel de afbeelding die anders is!' },
+              sv: { title: 'Hitta Udda Fågeln', description: 'Ringa in bilden som är annorlunda!' },
+              da: { title: 'Find den Ulige', description: 'Sæt ring om billedet der er anderledes!' },
+              no: { title: 'Finn den Rare', description: 'Ring rundt bildet som er forskjellig!' },
+              fi: { title: 'Löydä Outo Lintu', description: 'Ympyröi kuva, joka on erilainen!' }
+          };
+
+          const locale = currentLocale || 'en';
+          const defaults = defaultHeaders[locale] || defaultHeaders.en;
+          const title = defaults.title;
+          const description = defaults.description;
+
+          // Get current canvas dimensions for responsive design
+          const pageWidth = currentCanvasConfig.width;
+          const pageHeight = currentCanvasConfig.height;
+          const isLandscape = pageWidth > pageHeight;
+
+          const objects = [];
+
+          // Outer border - responsive to page size (bright coral - playful, friendly)
+          const margin = 34;
+          const strokeWidth = 8;
+          const borderWidth = pageWidth - (margin * 2);
+          const borderHeight = pageHeight - (margin * 2);
+
+          const outerBorder = new fabric.Rect({
+              left: margin,
+              top: margin,
+              width: borderWidth,
+              height: borderHeight,
+              fill: 'transparent',
+              stroke: '#FF6B6B',
+              strokeWidth: strokeWidth,
+              rx: 12,
+              ry: 12,
+              selectable: true,
+              hasControls: true,
+              isPageBorder: true
+          });
+          objects.push(outerBorder);
+
+          // Inner border - Sunny amber (cheerful, warm)
+          const innerStrokeWidth = 3;
+          const innerMargin = margin + strokeWidth + 4.5;
+          const innerBorderWidth = pageWidth - (innerMargin * 2);
+          const innerBorderHeight = pageHeight - (innerMargin * 2);
+
+          const innerBorder = new fabric.Rect({
+              left: innerMargin + 2,  // Offset 2px to the right
+              top: innerMargin + 3,   // Offset 3px downward
+              width: innerBorderWidth,
+              height: innerBorderHeight,
+              fill: 'transparent',
+              stroke: '#FFB84D',
+              strokeWidth: innerStrokeWidth,
+              rx: 8,
+              ry: 8,
+              selectable: true,
+              hasControls: true,
+              isPageBorder: true
+          });
+          objects.push(innerBorder);
+
+          // LANDSCAPE MODE: Compact, centered header
+          if (isLandscape) {
+              const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+              const headerHeight = 70;
+              const centerX = pageWidth / 2;
+              const headerTop = 60;
+
+              // Vibrant turquoise header background - compact size
+              const bgRect = new fabric.Rect({
+                  left: centerX - maxHeaderWidth / 2,
+                  top: headerTop,
+                  width: maxHeaderWidth,
+                  height: headerHeight,
+                  fill: '#4ECDC4',
+                  rx: 35,
+                  ry: 35,
+                  selectable: true,
+                  isHeaderElement: true
+              });
+              objects.push(bgRect);
+
+              // White pill for title - compact
+              const whitePill = new fabric.Rect({
+                  left: centerX - (maxHeaderWidth - 40) / 2,
+                  top: headerTop + 10,
+                  width: maxHeaderWidth - 40,
+                  height: 50,
+                  fill: '#FFFFFF',
+                  rx: 25,
+                  ry: 25,
+                  selectable: true,
+                  isHeaderElement: true
+              });
+              objects.push(whitePill);
+
+              // Title - Compact size for landscape
+              let titleFontSize = 36;
+              if (title.length > 12) titleFontSize = 32;
+              if (title.length > 15) titleFontSize = 28;
+              if (title.length > 18) titleFontSize = 24;
+
+              const titleText = new fabric.IText(title, {
+                  left: centerX,
+                  top: headerTop + 35,
+                  fontSize: titleFontSize,
+                  fontFamily: 'Fredoka, sans-serif',
+                  fontWeight: '700',
+                  fill: '#1A535C',
+                  textAlign: 'center',
+                  originX: 'center',
+                  originY: 'center',
+                  selectable: true,
+                  editable: true,
+                  isHeaderElement: true
+              });
+              objects.push(titleText);
+
+              // Description - compact below header
+              const descText = new fabric.Textbox(description, {
+                  left: centerX,
+                  top: headerTop + headerHeight + 5,
+                  width: maxHeaderWidth - 20,
+                  fontSize: 14,
+                  fontFamily: 'Quicksand, sans-serif',
+                  fontWeight: '500',
+                  fill: '#E63946',
+                  textAlign: 'center',
+                  originX: 'center',
+                  originY: 'top',
+                  selectable: true,
+                  editable: true,
+                  hasControls: true,
+                  isHeaderDesc: true
+              });
+              objects.push(descText);
+
+          } else {
+              // PORTRAIT MODE: Full-width professional header
+              const headerMargin = 70;
+              const headerWidth = pageWidth - (headerMargin * 2);
+              const centerX = pageWidth / 2;
+
+              // Vibrant turquoise header background
+              const bgRect = new fabric.Rect({
+                  left: headerMargin,
+                  top: 70,
+                  width: headerWidth,
+                  height: 100,
+                  fill: '#4ECDC4',
+                  rx: 15,
+                  ry: 15,
+                  selectable: true,
+                  isHeaderElement: true
+              });
+              objects.push(bgRect);
+
+              // White pill for title
+              const whitePill = new fabric.Rect({
+                  left: headerMargin + 20,
+                  top: 85,
+                  width: headerWidth - 40,
+                  height: 70,
+                  fill: '#FFFFFF',
+                  rx: 35,
+                  ry: 35,
+                  selectable: true,
+                  isHeaderElement: true
+              });
+              objects.push(whitePill);
+
+              // Title - Dynamic size based on length
+              let titleFontSize = 48;
+              if (title.length > 12) titleFontSize = 40;
+              if (title.length > 15) titleFontSize = 36;
+              if (title.length > 18) titleFontSize = 32;
+              if (title.length > 22) titleFontSize = 28;
+
+              const titleText = new fabric.IText(title, {
+                  left: centerX,
+                  top: 120,
+                  fontSize: titleFontSize,
+                  fontFamily: 'Fredoka, sans-serif',
+                  fontWeight: '700',
+                  fill: '#1A535C',
+                  textAlign: 'center',
+                  originX: 'center',
+                  originY: 'center',
+                  selectable: true,
+                  editable: true,
+                  isHeaderElement: true
+              });
+              objects.push(titleText);
+
+              // Description text
+              const descText = new fabric.Textbox(description, {
+                  left: centerX,
+                  top: 190,
+                  width: Math.min(450, pageWidth - 150),
+                  fontSize: 20,
+                  fontFamily: 'Quicksand, sans-serif',
+                  fontWeight: '500',
+                  fill: '#E63946',
+                  textAlign: 'center',
+                  originX: 'center',
+                  originY: 'top',
+                  selectable: true,
+                  editable: true,
+                  hasControls: true,
+                  isHeaderDesc: true,
+                  isHeaderElement: true
+              });
+              objects.push(descText);
+          }
+
+          return objects;
+      }
+
+      function createPageBorder(canvas) {
+          return null;
+      }
+
+      async function regenerateHeadersOnly() {
+          // Only regenerate if worksheet exists
+          if (!lastGeneratedRows || lastGeneratedRows.length === 0) return;
+
+          // Regenerate worksheet canvas
+          await regenerateCanvasLayout(worksheetCanvas, false);
+
+          // Regenerate answer key canvas if it exists
+          const hasAnswerKey = answerKeyCanvas && answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem);
+          if (hasAnswerKey) {
+              await regenerateCanvasLayout(answerKeyCanvas, true);
+          }
+      }
+
+      async function regenerateCanvasLayout(canvas, isAnswerKey) {
+          if (!canvas || !lastGeneratedRows || lastGeneratedRows.length === 0) return;
+
+          // Preserve user-added objects
+          const userAddedObjects = canvas.getObjects().filter(o =>
+              !o.isWorksheetItem &&
+              !o.isAnswerKeyItem &&
+              !o.isNameDate &&
+              !o.isBorder &&
+              !o.isBackground &&
+              !o.isPageBorder &&
+              !o.isHeaderDesc &&
+              !o.isHeaderElement
+          );
+
+          // Remove all generated content (headers, borders, exercise cards)
+          const oldItems = canvas.getObjects().filter(o =>
+              o.isWorksheetItem ||
+              o.isAnswerKeyItem ||
+              o.isNameDate ||
+              o.isPageBorder ||
+              o.isHeaderDesc ||
+              o.isHeaderElement ||
+              o.isBorder ||
+              o.isBackground
+          );
+          oldItems.forEach(o => canvas.remove(o));
+
+          // Set background color
+          canvas.backgroundColor = ui.pageColor.value || '#FFFFFF';
+
+          // Recreate background and border from original canvas if needed
+          if (isAnswerKey) {
+              const worksheetBackground = worksheetCanvas.getObjects().find(o => o.isBackground);
+              if (worksheetBackground) {
+                  await new Promise(resolve => worksheetBackground.clone(cloned => {
+                      cloned.set({ isBackground: true });
+                      canvas.add(cloned);
+                      resolve();
+                  }));
+              }
+
+              const worksheetBorder = worksheetCanvas.getObjects().find(o => o.isBorder);
+              if (worksheetBorder) {
+                  await new Promise(resolve => worksheetBorder.clone(cloned => {
+                      cloned.set({ isBorder: true });
+                      canvas.add(cloned);
+                      resolve();
+                  }));
+              }
+          }
+
+          // Recreate header with current page dimensions
+          const headerObjects = createHeaderGroup(canvas);
+          if (headerObjects) {
+              canvas.add(...headerObjects);
+          }
+
+          // Recreate exercise cards with no transform preservation (fresh layout for new dimensions)
+          await renderCardsToCanvas(lastGeneratedRows, canvas, isAnswerKey, {});
+
+          enforceZOrder(canvas);
+          userAddedObjects.forEach(obj => obj.bringToFront());
+          canvas.renderAll();
+      }
+
+      const setupDropdown = (button, content) => {
+          if (!button || !content) return;
+          button.addEventListener('click', (event) => {
+              content.style.display = content.style.display === 'block' ? 'none' : 'block';
+              event.stopPropagation();
+          });
+          return { button, content };
+      };
+      const generateDropdown = setupDropdown(ui.generateDropdownBtn, ui.generateDropdownContent);
+      const downloadDropdown = setupDropdown(ui.downloadDropdownBtn, ui.downloadDropdownContent);
+      
+      // Close dropdowns when clicking outside
+      window.addEventListener('click', (event) => {
+          closeAllPopovers();
+          if (generateDropdown && generateDropdown.content.style.display === 'block' && !generateDropdown.button.contains(event.target) && !generateDropdown.content.contains(event.target)) {
+              generateDropdown.content.style.display = 'none';
+          }
+          if (downloadDropdown && downloadDropdown.content.style.display === 'block' && !downloadDropdown.button.contains(event.target) && !downloadDropdown.content.contains(event.target)) {
+              downloadDropdown.content.style.display = 'none';
+          }
+      });
+      
+      // --- ACCORDION & RESPONSIVE SIDEBAR ---
+      const initSidebar = () => {
+        document.querySelectorAll('.accordion-button').forEach(button => {
+          button.addEventListener('click', () => {
+            const isActive = button.classList.contains('active');
+            // Optional: Close all other accordions
+            // document.querySelectorAll('.accordion-button.active').forEach(b => b.classList.remove('active'));
+            // document.querySelectorAll('.accordion-content.active').forEach(c => c.classList.remove('active'));
+            if (!isActive) {
+              button.classList.add('active');
+              button.nextElementSibling.classList.add('active');
+            } else {
+              button.classList.remove('active');
+              button.nextElementSibling.classList.remove('active');
+            }
+          });
+        });
+        document.querySelector('.accordion-button').click();
+
+        const openMenu = () => { ui.panel.classList.add('is-open'); ui.menuOverlay.classList.add('is-active'); };
+        const closeMenu = () => { ui.panel.classList.remove('is-open'); ui.menuOverlay.classList.remove('is-active'); };
+        ui.menuToggleBtn.addEventListener('click', openMenu);
+        ui.menuCloseBtn.addEventListener('click', closeMenu);
+        ui.menuOverlay.addEventListener('click', closeMenu);
+      };
+      
+      // --- BORDER AND BACKGROUND FUNCTIONS ---
+      async function loadBorderThemes() {
+          try {
+              ui.borderThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
+              const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
+              if (!response.ok) {
+                  console.error('Failed to load border themes');
+                  return;
+              }
+              const themes = await response.json();
+              themes.forEach(theme => {
+                  ui.borderThemeSelect.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
+              });
+          } catch (error) {
+              console.error('Error loading border themes:', error);
+          }
+      }
+
+      async function loadBackgroundThemes() {
+          try {
+              ui.backgroundThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
+              const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
+              if (!response.ok) {
+                  console.error('Failed to load background themes');
+                  return;
+              }
+              const themes = await response.json();
+              themes.forEach(theme => {
+                  ui.backgroundThemeSelect.innerHTML += `<option value="${theme.value}">${theme.displayName}</option>`;
+              });
+          } catch (error) {
+              console.error('Error loading background themes:', error);
+          }
+      }
+
+      function loadBorderImages() {
+          const theme = ui.borderThemeSelect.value;
+          const activeCanvas = getActiveCanvas();
+          if (theme === 'none') {
+              ui.borderDictionary.innerHTML = `<p class="dictionary-message">${t('oddoneout.border.message')}</p>`;
+              const existing = activeCanvas.getObjects().find(o => o.isBorder);
+              if (existing) activeCanvas.remove(existing);
+              activeCanvas.renderAll();
+              ui.borderOpacitySlider.disabled = true;
+              return;
+          }
+          ui.borderDictionary.innerHTML = `<p class="dictionary-message">${t('oddoneout.loading.images')}</p>`;
+          fetch(`/api/borders/images?theme=${theme}`)
+              .then(res => res.ok ? res.json() : Promise.reject('Failed to load border images'))
+              .then(data => {
+                  const images = data.images || data || [];
+                  ui.borderDictionary.innerHTML = "";
+                  images.forEach(img => {
+                      const item = document.createElement("div");
+                      item.className = "border-thumbnail-item";
+                      item.innerHTML = `<img src="${img.path}" alt="${img.name}" loading="lazy" />`;
+                      item.onclick = () => {
+                          addBorderToCanvas(img.path);
+                          document.querySelectorAll('#borderDictionary .selected').forEach(el => el.classList.remove('selected'));
+                          item.classList.add('selected');
+                      };
+                      ui.borderDictionary.appendChild(item);
+                  });
+              })
+              .catch(err => {
+                  console.error('Error loading border images:', err);
+                  ui.borderDictionary.innerHTML = `<p class="dictionary-message">${t('oddoneout.msg.load.failed', { type: 'border' })}</p>`;
+              });
+      }
+
+      function loadBackgroundImages() {
+          const theme = ui.backgroundThemeSelect.value;
+          const activeCanvas = getActiveCanvas();
+          if (theme === 'none') {
+              ui.backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('oddoneout.background.message')}</p>`;
+              const existing = activeCanvas.getObjects().find(o => o.isBackground);
+              if (existing) activeCanvas.remove(existing);
+              activeCanvas.renderAll();
+              ui.backgroundOpacitySlider.disabled = true;
+              return;
+          }
+          ui.backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('oddoneout.loading.images')}</p>`;
+          fetch(`/api/backgrounds/images?theme=${theme}`)
+              .then(res => res.ok ? res.json() : Promise.reject('Failed to load background images'))
+              .then(data => {
+                  const images = data.images || data || [];
+                  ui.backgroundDictionary.innerHTML = "";
+                  images.forEach(img => {
+                      const item = document.createElement("div");
+                      item.className = "border-thumbnail-item";
+                      item.innerHTML = `<img src="${img.path}" alt="${img.name}" loading="lazy" />`;
+                      item.onclick = () => {
+                          addBackgroundToCanvas(img.path);
+                          document.querySelectorAll('#backgroundDictionary .selected').forEach(el => el.classList.remove('selected'));
+                          item.classList.add('selected');
+                      };
+                      ui.backgroundDictionary.appendChild(item);
+                  });
+              })
+              .catch(err => {
+                  console.error('Error loading background images:', err);
+                  ui.backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('oddoneout.msg.load.failed', { type: 'background' })}</p>`;
+              });
+      }
+
+      function addBorderToCanvas(path) {
+          const activeCanvas = getActiveCanvas();
+          const existing = activeCanvas.getObjects().find(o => o.isBorder);
+          if (existing) activeCanvas.remove(existing);
+
+          fabric.Image.fromURL(path, (img) => {
+              // Scale to 70% of canvas height (professional standard)
+              const targetHeight = currentCanvasConfig.height * 0.7;
+              img.scaleToHeight(targetHeight);
+
+              img.set({
+                  isBorder: true,
+                  selectable: true,
+                  evented: true,
+                  originX: 'center',
+                  originY: 'center',
+                  left: currentCanvasConfig.width / 2,
+                  top: currentCanvasConfig.height / 2,
+                  opacity: parseFloat(ui.borderOpacitySlider.value)
+              });
+              activeCanvas.add(img);
+              activeCanvas.bringToFront(img); // Bring to front initially, user can control z-order
+              activeCanvas.renderAll();
+              ui.borderOpacitySlider.disabled = false;
+          }, { crossOrigin: 'anonymous' });
+      }
+
+      function addBackgroundToCanvas(path) {
+          const activeCanvas = getActiveCanvas();
+          const existing = activeCanvas.getObjects().find(o => o.isBackground);
+          if (existing) activeCanvas.remove(existing);
+
+          fabric.Image.fromURL(path, (img) => {
+              // Scale to 70% of canvas height (professional standard)
+              const targetHeight = currentCanvasConfig.height * 0.7;
+              img.scaleToHeight(targetHeight);
+
+              img.set({
+                  isBackground: true,
+                  selectable: true,
+                  evented: true,
+                  originX: 'center',
+                  originY: 'center',
+                  left: currentCanvasConfig.width / 2,
+                  top: currentCanvasConfig.height / 2,
+                  opacity: parseFloat(ui.backgroundOpacitySlider.value)
+              });
+              activeCanvas.add(img);
+              activeCanvas.bringToFront(img); // Bring to front initially, user can control z-order
+              activeCanvas.renderAll();
+              ui.backgroundOpacitySlider.disabled = false;
+          }, { crossOrigin: 'anonymous' });
+      }
+
+      // --- CANVAS SETUP ---
+      const initializeCanvas = (canvasEl) => {
+          return new fabric.Canvas(canvasEl, {
+              width: currentCanvasConfig.width,
+              height: currentCanvasConfig.height,
+              backgroundColor: '#fff',
+              preserveObjectStacking: true,
+              enableRetinaScaling: true // For sharp previews
+          });
+      };
+
+      const updateCanvasDisplayDimensions = (width, height) => {
+          currentCanvasConfig.width = width;
+          currentCanvasConfig.height = height;
+
+          const mainContentAreaStyle = getComputedStyle(document.querySelector('.tab-content-wrapper'));
+          const availableWidth = parseFloat(mainContentAreaStyle.width) - parseFloat(mainContentAreaStyle.paddingLeft) - parseFloat(mainContentAreaStyle.paddingRight) - 10;
+          const availableHeight = parseFloat(mainContentAreaStyle.height) - parseFloat(mainContentAreaStyle.paddingTop) - parseFloat(mainContentAreaStyle.paddingBottom) - 10;
+          
+          // Apply 25% scaling for better visibility
+          // Extra 25% for landscape orientations
+          const isLandscape = width > height;
+          const baseScale = 1.25; // Base 25% larger for all
+          const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+          const displayScale = baseScale * landscapeBonus;
+          
+          // Calculate display dimensions with scaling
+          const scaledWidth = width * displayScale;
+          const scaledHeight = height * displayScale;
+          
+          // Ensure it fits in available space
+          const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+          const displayWidth = scaledWidth * scaleRatio;
+          const displayHeight = scaledHeight * scaleRatio;
+
+          [worksheetCanvas, answerKeyCanvas].forEach(c => {
+              if (c) {
+                  // Apply zoom: base zoom (fit to container) * user zoom level
+                  const baseZoom = (displayWidth / width);
+                  const finalZoom = baseZoom * userZoomLevel;
+                  c.setZoom(finalZoom);
+
+                  // Apply user zoom to display dimensions
+                  const finalDisplayWidth = displayWidth * userZoomLevel;
+                  const finalDisplayHeight = displayHeight * userZoomLevel;
+
+                  // Set dimensions AFTER zoom to ensure viewport matches zoomed size
+                  c.setDimensions({
+                      width: finalDisplayWidth,
+                      height: finalDisplayHeight
+                  });
+
+                  c.calcOffset();
+                  c.renderAll();
+              }
+          });
+          [ui.worksheetCanvasWrapper, ui.answerKeyCanvasWrapper].forEach(w => {
+              if (w) {
+                  const finalDisplayWidth = displayWidth * userZoomLevel;
+                  const finalDisplayHeight = displayHeight * userZoomLevel;
+                  w.style.width = finalDisplayWidth + 'px';
+                  w.style.height = finalDisplayHeight + 'px';
+              }
+          });
+
+          ui.pageWidth.value = width;
+          ui.pageHeight.value = height;
+      };
+
+      // ============================================
+      // ZOOM FUNCTIONALITY
+      // ============================================
+
+      function zoomIn() {
+          userZoomLevel = Math.min(userZoomLevel + 0.25, 3.0); // Max 300%
+          updateZoomDisplay();
+          updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+      }
+
+      function zoomOut() {
+          userZoomLevel = Math.max(userZoomLevel - 0.25, 0.25); // Min 25%
+          updateZoomDisplay();
+          updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+      }
+
+      function zoomReset() {
+          userZoomLevel = 1.0; // Reset to 100%
+          updateZoomDisplay();
+          updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+      }
+
+      function updateZoomDisplay() {
+          if (ui.zoomPercentage) {
+              ui.zoomPercentage.textContent = Math.round(userZoomLevel * 100) + '%';
+          }
+      }
+
+      // --- UNDO/REDO FUNCTIONS ---
+      function saveCanvasState() {
+          if (isRestoringState || isGenerating) return; // Don't save during restore or generation
+
+          const activeCanvas = getActiveCanvas();
+          if (!activeCanvas) return;
+
+          // Save canvas state with ALL custom properties to prevent duplication bugs
+          const state = JSON.stringify(activeCanvas.toJSON([
+              'selectable', 'evented', 'hasControls', 'hasBorders', 'lockMovementX', 'lockMovementY',
+              'lockScalingX', 'lockScalingY', 'lockRotation', 'hoverCursor',
+              'isWorksheetItem', 'isAnswerKeyItem', 'isNameDate', 'isPageBorder',
+              'isHeaderElement', 'isBorder', 'isBackground',
+              'exerciseNumber', 'category', 'imagePath', 'originalWidth', 'originalHeight'
+          ]));
+
+          historyStack.push(state);
+          if (historyStack.length > MAX_HISTORY) {
+              historyStack.shift(); // Remove oldest state if exceeding max history
+          }
+
+          redoStack = []; // Clear redo stack when new action is performed
+          updateHistoryButtons();
+      }
+
+      function undo() {
+          if (historyStack.length === 0) return;
+
+          const activeCanvas = getActiveCanvas();
+          if (!activeCanvas) return;
+
+          // Save current state to redo stack before undoing
+          const currentState = JSON.stringify(activeCanvas.toJSON([
+              'selectable', 'evented', 'hasControls', 'hasBorders', 'lockMovementX', 'lockMovementY',
+              'lockScalingX', 'lockScalingY', 'lockRotation', 'hoverCursor',
+              'isWorksheetItem', 'isAnswerKeyItem', 'isNameDate', 'isPageBorder',
+              'isHeaderElement', 'isBorder', 'isBackground',
+              'exerciseNumber', 'category', 'imagePath', 'originalWidth', 'originalHeight'
+          ]));
+          redoStack.push(currentState);
+
+          // Pop and restore previous state
+          const previousState = historyStack.pop();
+          restoreCanvasState(previousState);
+          updateHistoryButtons();
+      }
+
+      function redo() {
+          if (redoStack.length === 0) return;
+
+          const activeCanvas = getActiveCanvas();
+          if (!activeCanvas) return;
+
+          // Save current state to history stack before redoing
+          const currentState = JSON.stringify(activeCanvas.toJSON([
+              'selectable', 'evented', 'hasControls', 'hasBorders', 'lockMovementX', 'lockMovementY',
+              'lockScalingX', 'lockScalingY', 'lockRotation', 'hoverCursor',
+              'isWorksheetItem', 'isAnswerKeyItem', 'isNameDate', 'isPageBorder',
+              'isHeaderElement', 'isBorder', 'isBackground',
+              'exerciseNumber', 'category', 'imagePath', 'originalWidth', 'originalHeight'
+          ]));
+          historyStack.push(currentState);
+
+          // Pop and restore next state
+          const nextState = redoStack.pop();
+          restoreCanvasState(nextState);
+          updateHistoryButtons();
+      }
+
+      function restoreCanvasState(state) {
+          const activeCanvas = getActiveCanvas();
+          if (!activeCanvas) return;
+
+          isRestoringState = true; // Set flag to prevent saving during restore
+
+          activeCanvas.loadFromJSON(state, () => {
+              activeCanvas.renderAll();
+              isRestoringState = false; // Reset flag after restore completes
+          });
+      }
+
+      function updateHistoryButtons() {
+          if (ui.undoBtn) {
+              ui.undoBtn.disabled = historyStack.length === 0;
+          }
+          if (ui.redoBtn) {
+              ui.redoBtn.disabled = redoStack.length === 0;
+          }
+      }
+
+      // --- PAGE SETUP & ASSETS (Borders, Backgrounds) ---
+      const setupPageControls = () => {
+        ui.pageSizeSelect.addEventListener('change', function() {
+            const selectedValue = this.value;
+            if (selectedValue === 'custom') {
+                ui.customPageSizeInputs.style.display = 'block';
+            } else {
+                ui.customPageSizeInputs.style.display = 'none';
+                const [w, h] = selectedValue.split('x').map(Number);
+                updateCanvasDisplayDimensions(w, h);
+                // Regenerate header when page size changes
+                regenerateHeadersOnly();
+            }
+        });
+        ui.setPageSizeBtn.addEventListener('click', () => {
+            const val = ui.pageSizeSelect.value;
+            let w, h;
+            if (val === 'custom') {
+                w = parseInt(ui.pageWidth.value, 10) || currentCanvasConfig.width;
+                h = parseInt(ui.pageHeight.value, 10) || currentCanvasConfig.height;
+            } else {
+                [w, h] = val.split('x').map(Number);
+            }
+            updateCanvasDisplayDimensions(w, h);
+            // Regenerate header when custom size is applied
+            regenerateHeadersOnly();
+        });
+        ui.pageColor.addEventListener('input', () => {
+            const color = ui.pageColor.value;
+            [worksheetCanvas, answerKeyCanvas].forEach(c => {
+                if(c) { c.backgroundColor = color; c.renderAll(); }
+            });
+        });
+      };
+
+      const addAssetToCanvas = (path, type) => {
+        if (!worksheetCanvas) return;
+        const isBorder = type === 'border';
+        const propName = isBorder ? 'isBorder' : 'isBackground';
+        
+        const existingAsset = worksheetCanvas.getObjects().find(o => o[propName]);
+        if (existingAsset) worksheetCanvas.remove(existingAsset);
+
+        fabric.Image.fromURL(path, (img) => {
+            if (!img) { showMessage(t('oddoneout.msg.load.failed').replace('{type}', type), 'error'); return; }
+            img.set({
+                originX: 'center', originY: 'center',
+                selectable: true, evented: true, [propName]: true,
+                opacity: parseFloat(isBorder ? ui.borderOpacitySlider.value : ui.backgroundOpacitySlider.value),
+            }).scaleToWidth(worksheetCanvas.width);
+
+            img.top = worksheetCanvas.height / 2;
+            img.left = worksheetCanvas.width / 2;
+
+            worksheetCanvas.add(img);
+            worksheetCanvas.bringToFront(img); // Bring to front initially, user can control z-order
+            worksheetCanvas.renderAll();
+
+            if (isBorder) ui.borderOpacitySlider.disabled = false;
+            else ui.backgroundOpacitySlider.disabled = false;
+        }, { crossOrigin: 'anonymous' });
+      };
+
+      const loadAssetThemes = (type) => {
+        fetch(`/api/${type}/themes`)
+            .then(res => res.ok ? res.json() : Promise.reject('Failed to load themes'))
+            .then(themes => {
+                const selectEl = (type === 'borders') ? ui.borderThemeSelect : ui.backgroundThemeSelect;
+                selectEl.innerHTML = `<option value="none">${t('none')}</option>`;
+                themes.forEach(theme => {
+                    const opt = document.createElement("option");
+                    opt.value = theme;
+                    opt.textContent = theme.charAt(0).toUpperCase() + theme.slice(1);
+                    selectEl.appendChild(opt);
+                });
+            }).catch(err => showMessage(t('oddoneout.msg.themes.error').replace('{type}', type), 'error'));
+      };
+      
+      const loadAssetImages = (type) => {
+        const selectEl = (type === 'borders') ? ui.borderThemeSelect : ui.backgroundThemeSelect;
+        const dictEl = (type === 'borders') ? ui.borderDictionary : ui.backgroundDictionary;
+        const sliderEl = (type === 'borders') ? ui.borderOpacitySlider : ui.backgroundOpacitySlider;
+        const propName = (type === 'borders') ? 'isBorder' : 'isBackground';
+        const theme = selectEl.value;
+
+        if (theme === 'none') {
+            dictEl.innerHTML = `<p class="dictionary-message">${t('oddoneout.border.message')}</p>`;
+            const existing = worksheetCanvas.getObjects().find(obj => obj[propName]);
+            if (existing) worksheetCanvas.remove(existing).renderAll();
+            document.querySelectorAll(`.${type==='borders'?'border':'background'}-thumbnail-item.selected`).forEach(el => el.classList.remove('selected'));
+            sliderEl.disabled = true;
+            return;
+        }
+        
+        dictEl.innerHTML = `<p class="dictionary-message">${t('oddoneout.loading.images')}</p>`;
+        fetch(`/api/${type}/images?theme=${theme}`)
+            .then(res => res.ok ? res.json() : Promise.reject('Failed to load images'))
+            .then(images => {
+                dictEl.innerHTML = "";
+                images.forEach(imgData => {
+                    const item = document.createElement("div");
+                    item.className = "border-thumbnail-item";
+                    item.innerHTML = `<img src="${imgData.path}" alt="${imgData.name}" loading="lazy" />`;
+                    item.onclick = () => {
+                        addAssetToCanvas(imgData.path, type === 'borders' ? 'border' : 'background');
+                        dictEl.querySelectorAll('.border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
+                        item.classList.add('selected');
+                    };
+                    dictEl.appendChild(item);
+                });
+            }).catch(err => { dictEl.innerHTML = `<p class="dictionary-message">${t('oddoneout.msg.load.failed', { type: 'asset' })}</p>`; });
+      };
+
+      const setupAssetControls = () => {
+        ui.borderThemeSelect.addEventListener("change", loadBorderImages);
+        ui.backgroundThemeSelect.addEventListener("change", loadBackgroundImages);
+        ui.borderOpacitySlider.addEventListener('input', () => {
+            const activeCanvas = getActiveCanvas();
+            const asset = activeCanvas.getObjects().find(o => o.isBorder);
+            if (asset) {
+                asset.set('opacity', parseFloat(ui.borderOpacitySlider.value));
+                activeCanvas.renderAll();
+            }
+        });
+        ui.backgroundOpacitySlider.addEventListener('input', () => {
+            const activeCanvas = getActiveCanvas();
+            const asset = activeCanvas.getObjects().find(o => o.isBackground);
+            if (asset) {
+                asset.set('opacity', parseFloat(ui.backgroundOpacitySlider.value));
+                activeCanvas.renderAll();
+            }
+        });
+      };
+      
+      // --- IMAGE LIBRARY & SELECTION ---
+      const fetchImageThemes = async () => {
+          try {
+              const themes = await(await fetch(`/api/themes-translated?locale=${currentLocale}`)).json();
+              allThemes = themes.map(t => t.value); // Store just the values for random selection
+              const themeOptions = [`<option value="">${t('oddoneout.theme.random')}</option>`, ...themes.map(t => `<option value="${t.value}">${t.displayName}</option>`)].join('');
+              ui.themeSelect.innerHTML = themeOptions;
+              ui.themeBSelect.innerHTML = themeOptions;
+              
+              // Set default theme to 'animals' if available
+              if (allThemes.includes('animals')) {
+                  ui.themeSelect.value = 'animals';
+              }
+          } catch (e) { showMessage(t('oddoneout.msg.load.themes.error'), 'error'); }
+      };
+
+      const fetchImagesByTheme = async (theme) => {
+          if (!theme) return [];
+          if (imageCache[theme]) return imageCache[theme];
+          try {
+              const data = await(await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`)).json();
+              const images = data.images || data;
+              imageCache[theme] = images;
+              return images;
+          } catch (e) { showMessage(t('oddoneout.msg.load.theme.error').replace('{theme}', theme), 'error'); return []; }
+      };
+
+      const preloadDefaultTheme = async () => {
+          // Silently preload animals theme and its images in background
+          try {
+              const response = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+              if (response.ok) {
+                  const data = await response.json();
+                  const images = data.images || data;
+                  imageCache['animals'] = images;
+
+                  // Preload first 8 actual images in browser cache
+                  const imagesToPreload = images.slice(0, 8);
+                  imagesToPreload.forEach(imgData => {
+                      const img = new Image();
+                      img.src = imgData.path;
+                  });
+                  console.log('✅ Preloaded default theme (animals) with', imagesToPreload.length, 'images');
+              }
+          } catch (error) {
+              // Fail silently - not critical
+              console.log('Preload skipped (non-critical):', error.message);
+          }
+      };
+
+      const loadDictionary = async () => {
+          const mode = ui.modeSelect.value;
+          let themeA = ui.themeSelect.value;
+          let themeB = ui.themeBSelect.value;
+          
+          // STANDARD: Load "animals" theme by default when no theme selected
+          if (!themeA && !ui.searchInput.value.trim()) {
+              themeA = 'animals';
+              ui.themeSelect.value = 'animals';
+          } else if (!themeA && allThemes.length > 0) {
+              themeA = getRandomElement(allThemes) || '';
+          }
+          
+          if ((!themeB || themeB === themeA) && allThemes.length > 0) themeB = getRandomElement(allThemes.filter(t => t !== themeA)) || '';
+
+          let pool = [];
+          if (mode === 'identical') {
+              pool = await fetchImagesByTheme(themeA);
+          } else {
+              pool = [...await fetchImagesByTheme(themeA), ...await fetchImagesByTheme(themeB)];
+          }
+          
+          const query = ui.searchInput.value.trim().toLowerCase();
+          const filteredPool = query ? pool.filter(img => (img.name || img.word).toLowerCase().includes(query)) : pool;
+
+          ui.dictionary.innerHTML = '';
+          if (!filteredPool.length) {
+              ui.dictionary.innerHTML = `<p class="dictionary-message">${t('oddoneout.msg.no.images.found')}</p>`;
+              return;
+          }
+          
+          // Implement lazy loading: show first 20, load rest on scroll
+          const MAX_INITIAL_IMAGES = 20;
+          let loadedCount = 0;
+          
+          const renderImages = (startIdx, endIdx) => {
+              for (let i = startIdx; i < Math.min(endIdx, filteredPool.length); i++) {
+                  const img = filteredPool[i];
+                  const item = document.createElement("div");
+                  item.className = "dictionary-item";
+                  const displayName = img.name || img.word;
+                  item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
+                  item.onclick = () => handleImageSelection(img);
+                  ui.dictionary.appendChild(item);
+              }
+              loadedCount = endIdx;
+          };
+          
+          // Load initial batch
+          renderImages(0, MAX_INITIAL_IMAGES);
+          
+          // Load more on scroll if needed
+          if (filteredPool.length > MAX_INITIAL_IMAGES) {
+              const loadMoreOnScroll = () => {
+                  if (ui.dictionary.scrollTop + ui.dictionary.clientHeight >= ui.dictionary.scrollHeight - 50) {
+                      if (loadedCount < filteredPool.length) {
+                          renderImages(loadedCount, loadedCount + 20);
+                      }
+                      if (loadedCount >= filteredPool.length) {
+                          ui.dictionary.removeEventListener('scroll', loadMoreOnScroll);
+                      }
+                  }
+              };
+              ui.dictionary.addEventListener('scroll', loadMoreOnScroll);
+          }
+      };
+
+      const handleImageSelection = (image) => {
+        const r = +ui.rowSelect.value;
+        // Use per-exercise mode if set, otherwise use global mode
+        const mode = exerciseModes[r] || ui.modeSelect.value;
+        
+        // Ensure image has both word and name for compatibility
+        if (!image.name && image.word) image.name = image.word;
+        if (!image.word && image.name) image.word = image.name;
+
+        if (mode === 'identical') {
+            if (!commonSelections[r][0]) {
+                commonSelections[r] = [image];
+            } else if (!oddSelections[r] && image.path !== commonSelections[r][0].path) {
+                oddSelections[r] = image;
+            }
+        } else { // Similar mode
+            if (commonSelections[r].length < 3 && !commonSelections[r].some(o => o.path === image.path)) {
+                commonSelections[r].push(image);
+            } else if (!oddSelections[r] && !commonSelections[r].some(o => o.path === image.path)) {
+                oddSelections[r] = image;
+            }
+        }
+        renderPreviews();
+      };
+      
+      const renderPreviews = () => {
+        const r = +ui.rowSelect.value;
+        const createImgTag = (img) => {
+            const displayName = img.name || img.word;
+            return `<img src="${img.path}" data-path="${img.path}" alt="${displayName}">`;
+        };
+        
+        ui.prevCommon.innerHTML = commonSelections[r].map(createImgTag).join('') || `<p class="dictionary-message">${t('none')}</p>`;
+        ui.prevOdd.innerHTML = oddSelections[r] ? createImgTag(oddSelections[r]) : `<p class="dictionary-message">${t('none')}</p>`;
+        
+        // Update exercise mode selector to show current exercise's mode
+        if (ui.exerciseModeSelect) {
+            ui.exerciseModeSelect.value = exerciseModes[r] || '';
+        }
+      };
+
+      const handleUploadedImages = (e) => {
+          const files = e.target.files;
+          if(!files || files.length === 0) return;
+
+          let filesToLoad = Array.from(files).filter(f => f.type.startsWith('image/')).length;
+          if(filesToLoad === 0) return;
+          
+          ui.uploadedImagesPreview.innerHTML = `<p class='dictionary-message'>${t('oddoneout.loading.images')}</p>`;
+          
+          for(const file of files) {
+              if(!file.type.startsWith('image/')) continue;
+              const reader = new FileReader();
+              reader.onload = (event) => {
+                  if (!uploadedImages.some(img => img.path === event.target.result)) {
+                      uploadedImages.push({word: file.name, path: event.target.result});
+                  }
+                  filesToLoad--;
+                  if (filesToLoad === 0) {
+                      renderUploadedImages();
+                      showMessage(t('oddoneout.msg.uploads.available').replace('{count}', uploadedImages.length), 'success');
+                  }
+              };
+              reader.onerror = () => {
+                  filesToLoad--;
+                  showMessage(t('oddoneout.msg.file.error').replace('{filename}', file.name), 'error');
+              };
+              reader.readAsDataURL(file);
+          }
+          ui.imageUploadInput.value = ''; // Reset file input
+
+          // Update custom file input status
+          const fileInputStatus = document.querySelector('.file-input-status');
+          if (fileInputStatus) {
+              fileInputStatus.textContent = t('none');
+          }
+      };
+
+      // Update file input status display when files are selected
+      ui.imageUploadInput.addEventListener('change', (e) => {
+          const fileInputStatus = document.querySelector('.file-input-status');
+          if (fileInputStatus && e.target.files.length > 0) {
+              const count = e.target.files.length;
+              fileInputStatus.textContent = `${count} ${count === 1 ? 'file' : 'files'}`;
+          }
+      });
+
+      const renderUploadedImages = () => {
+          ui.uploadedImagesPreview.innerHTML = "";
+          if (uploadedImages.length === 0) {
+              ui.uploadedImagesPreview.innerHTML = `<p class="dictionary-message">${t('oddoneout.uploaded.placeholder')}</p>`;
+              return;
+          }
+          uploadedImages.forEach(img => {
+              const item = document.createElement("div");
+              item.className = "dictionary-item";
+              item.innerHTML = `<img src="${img.path}" alt="${img.word}" loading="lazy"/><span>${img.word}</span>`;
+              item.onclick = () => handleImageSelection(img);
+              ui.uploadedImagesPreview.appendChild(item);
+          });
+      };
+      
+      // --- CORE LOGIC: DATA GENERATION & RENDERING ---
+      const buildRowsData = async () => {
+        const globalMode = ui.modeSelect.value;
+        const generatedRows = [];
+        const usedPaths = new Set();
+        
+        const getUniqueImage = (pool) => {
+            if (!pool || pool.length === 0) return null;
+            let candidate;
+            let attempts = 0;
+            do {
+                candidate = getRandomElement(pool);
+                if (attempts++ > 100) break; // Avoid infinite loop
+            } while (candidate && usedPaths.has(candidate.path));
+            if (candidate) usedPaths.add(candidate.path);
+            return candidate;
+        };
+
+        const getFullPool = async (themeName) => {
+          const themePool = await fetchImagesByTheme(themeName);
+          return [...themePool, ...uploadedImages];
+        }
+
+        for (let i = 0; i < EXERCISE_COUNT; i++) {
+            let commonItems = [...commonSelections[i]];
+            let oddItem = oddSelections[i];
+            
+            // Use exercise-specific mode if set, otherwise use global mode
+            const mode = exerciseModes[i] || globalMode;
+
+            if (mode === 'identical') {
+                const themeA = ui.themeSelect.value || getRandomElement(allThemes);
+                const poolA = await getFullPool(themeA);
+                
+                const baseImage = commonItems[0] || getUniqueImage(poolA);
+                if (!baseImage) {
+                    showMessage(t('oddoneout.msg.insufficient.theme').replace('{theme}', themeA).replace('{row}', i + 1), 'error');
+                    return null;
+                }
+                commonItems = [baseImage, baseImage, baseImage];
+                if (!oddItem || oddItem.path === baseImage.path) {
+                    oddItem = getUniqueImage(poolA.filter(p => p.path !== baseImage.path));
+                    if (!oddItem) {
+                        showMessage(t('oddoneout.msg.no.unique.odd').replace('{row}', i + 1), 'error');
+                        return null;
+                    }
+                }
+            } else { // Similar
+                let themeA = ui.themeSelect.value || getRandomElement(allThemes);
+                let themeB = ui.themeBSelect.value || getRandomElement(allThemes.filter(t => t !== themeA));
+                if (themeA === themeB && allThemes.length > 1) themeA = getRandomElement(allThemes.filter(t => t !== themeB));
+
+                const poolA = await getFullPool(themeA);
+                const poolB = await getFullPool(themeB);
+
+                while(commonItems.length < 3) {
+                    const newItem = getUniqueImage(poolA);
+                    if (newItem) commonItems.push(newItem);
+                    else break;
+                }
+                if (!oddItem) oddItem = getUniqueImage(poolB);
+                
+                if (commonItems.length < 3 || !oddItem) {
+                    showMessage(t('oddoneout.msg.insufficient.images').replace('{row}', i + 1), 'error');
+                    return null;
+                }
+            }
+            
+            // NOTE: The following two lines were removed.
+            // This was the source of the issue, as it saved the generated
+            // images and prevented new ones from being selected on the next run.
+            // commonSelections[i] = commonItems;
+            // oddSelections[i] = oddItem;
+            
+            const allRowItems = shuffle([...commonItems, oddItem]);
+            generatedRows.push({
+                items: allRowItems,
+                oddItemPath: oddItem.path
+            });
+        }
+        return generatedRows;
+      };
+      
+      // START OF CHANGES
+      const renderWorksheet = async () => {
+        isGenerating = true; // Prevent saving state during bulk generation
+        showMessage(t('oddoneout.msg.generating'), 'info', 0);
+
+        // Check if exercise count or exercise numbers setting changed
+        const exerciseCountChanged = lastGeneratedExerciseCount !== null && lastGeneratedExerciseCount !== EXERCISE_COUNT;
+        const exerciseNumbersChanged = lastIncludeExerciseNumbers !== null && lastIncludeExerciseNumbers !== ui.includeExerciseNumbers.checked;
+        
+        const oldTransforms = {};
+        // Only preserve transforms if neither exercise count nor exercise numbers setting changed
+        if (!exerciseCountChanged && !exerciseNumbersChanged) {
+            worksheetCanvas.getObjects().forEach(o => {
+                if (o.isWorksheetItem && typeof o.originalIndex !== 'undefined') {
+                    oldTransforms[o.originalIndex] = {
+                        left: o.left, top: o.top,
+                        scaleX: o.scaleX, scaleY: o.scaleY,
+                        angle: o.angle
+                    };
+                }
+            });
+        }
+        
+        // Store current settings
+        lastGeneratedExerciseCount = EXERCISE_COUNT;
+        lastIncludeExerciseNumbers = ui.includeExerciseNumbers.checked;
+        // Reset answer key count to force fresh layout on next answer key generation
+        lastAnswerKeyExerciseCount = null;
+        
+        const userAddedObjects = worksheetCanvas.getObjects().filter(o =>
+            !o.isWorksheetItem && !o.isBorder && !o.isBackground && !o.isNameDate && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc
+        );
+
+        const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isWorksheetItem);
+        oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
+
+        // Remove old header objects before creating new ones
+        const oldHeaderObjects = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
+        oldHeaderObjects.forEach(o => worksheetCanvas.remove(o));
+
+        // Create and add header objects
+        const headerObjects = createHeaderGroup(worksheetCanvas);
+        if (headerObjects) {
+            headerObjects.forEach(obj => worksheetCanvas.add(obj));
+        }
+
+        const rowsData = await buildRowsData();
+        if (!rowsData) {
+            showMessage(t('oddoneout.msg.generation.failed'), 'error');
+            return;
+        }
+        lastGeneratedRows = rowsData;
+
+        const nameDateObj = worksheetCanvas.getObjects().find(o => o.isNameDate);
+        if (ui.includeNameDate.checked) {
+            if (!nameDateObj) {
+                // Professional name/date field positioning
+                const pageWidth = currentCanvasConfig.width;
+                const pageHeight = currentCanvasConfig.height;
+                const PAGE_MARGIN_H = pageWidth * 0.1;
+                const PAGE_MARGIN_V = pageHeight * 0.08;
+                const fontSize = Math.min(pageWidth * 0.022, 14);
+                
+                // Position at top with proper spacing
+                const nameDateText = new fabric.Group([
+                    new fabric.Textbox("Name: ________________", { 
+                        fontSize: fontSize, 
+                        left: 0, 
+                        top: 0,
+                        fill: '#333'
+                    }),
+                    new fabric.Textbox("Date: ________", { 
+                        fontSize: fontSize, 
+                        left: pageWidth * 0.32, 
+                        top: 0,
+                        fill: '#333'
+                    })
+                ], { 
+                    left: PAGE_MARGIN_H, 
+                    top: PAGE_MARGIN_V, 
+                    selectable: true, 
+                    isNameDate: true 
+                });
+                worksheetCanvas.add(nameDateText);
+            }
+        } else {
+            if (nameDateObj) {
+                worksheetCanvas.remove(nameDateObj);
+            }
+        }
+        
+        await renderCardsToCanvas(lastGeneratedRows, worksheetCanvas, false, oldTransforms);
+
+        // Force page borders to the back
+        const pageBorders = worksheetCanvas.getObjects().filter(o => o.isPageBorder);
+        pageBorders.forEach(border => worksheetCanvas.sendToBack(border));
+
+        userAddedObjects.forEach(o => worksheetCanvas.bringToFront(o));
+        worksheetCanvas.renderAll();
+
+        ui.generateAnswerKeyBtn.disabled = false;
+
+        // Reset flag and save initial state after generation completes
+        isGenerating = false;
+        historyStack = []; // Clear history on new worksheet
+        redoStack = [];
+        saveCanvasState(); // Save initial state
+
+        showMessage(t('oddoneout.msg.worksheet.generated'), 'success');
+      };
+      
+      const renderAnswerKey = async () => {
+          if (lastGeneratedRows.length === 0) {
+              showMessage(t('oddoneout.msg.generate.first'), "error");
+              return;
+          }
+          
+          // CRITICAL: Check if exercise count matches current setting
+          if (lastGeneratedRows.length !== EXERCISE_COUNT) {
+              showMessage(t('oddoneout.msg.exercise.changed'), "error");
+              return;
+          }
+
+          isGenerating = true; // Prevent saving state during bulk generation
+          showMessage(t('oddoneout.msg.generating.answer'), 'info');
+
+          // ALWAYS use fresh layout for answer key to match worksheet
+          // Don't preserve old transforms since worksheet was regenerated
+          const oldTransforms = {};
+
+          const userAddedObjects = answerKeyCanvas.getObjects().filter(o =>
+              !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderElement && !o.isHeaderDesc
+          );
+
+          const objectsToRemove = answerKeyCanvas.getObjects().filter(o =>
+              o.isAnswerKeyItem || o.isBorder || o.isBackground || o.isPageBorder || o.isHeaderElement || o.isHeaderDesc
+          );
+          objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
+
+          answerKeyCanvas.backgroundColor = ui.pageColor.value;
+
+          const background = worksheetCanvas.getObjects().find(o => o.isBackground);
+          if (background) {
+              await new Promise(resolve => background.clone(cloned => {
+                  cloned.set({ isBackground: true });
+                  answerKeyCanvas.add(cloned);
+                  resolve();
+              }, ['isBackground', 'isBorder']));
+          }
+          const border = worksheetCanvas.getObjects().find(o => o.isBorder);
+          if (border) {
+              await new Promise(resolve => border.clone(cloned => {
+                  cloned.set({ isBorder: true });
+                  answerKeyCanvas.add(cloned);
+                  resolve();
+              }, ['isBackground', 'isBorder']));
+          }
+
+          // Copy header elements from worksheet canvas
+          const headerElements = worksheetCanvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
+          for (const headerEl of headerElements) {
+              await new Promise(resolve => headerEl.clone(cloned => {
+                  if (headerEl.isPageBorder) cloned.set({ isPageBorder: true });
+                  if (headerEl.isHeaderDesc) cloned.set({ isHeaderDesc: true });
+                  if (headerEl.isHeaderElement) cloned.set({ isHeaderElement: true });
+                  answerKeyCanvas.add(cloned);
+                  resolve();
+              }, ['isPageBorder', 'isHeaderDesc', 'isHeaderElement', 'isBackground', 'isBorder']));
+          }
+          
+          await renderCardsToCanvas(lastGeneratedRows, answerKeyCanvas, true, oldTransforms);
+
+          // Force ONLY page borders (outer frames) to the very back
+          const akPageBorders = answerKeyCanvas.getObjects().filter(o => o.isPageBorder);
+          akPageBorders.forEach(border => answerKeyCanvas.sendToBack(border));
+
+          userAddedObjects.forEach(o => answerKeyCanvas.bringToFront(o));
+          answerKeyCanvas.renderAll();
+
+          // Store current exercise count for answer key
+          lastAnswerKeyExerciseCount = EXERCISE_COUNT;
+
+          // Reset flag and save initial state after generation completes
+          isGenerating = false;
+          historyStack = []; // Clear history on new answer key
+          redoStack = [];
+          saveCanvasState(); // Save initial state
+
+          document.querySelector('.tab-button[data-tab="answerKeyTab"]').click();
+          showMessage(t('oddoneout.msg.answer.generated'), "success");
+
+          ui.downloadAnswerKeyJpegBtn.disabled = false;
+          ui.downloadAnswerKeyPdfBtn.disabled = false;
+      };
+
+      const renderCardsToCanvas = async (rowsData, canvas, isAnswerKey, oldTransforms = {}) => {
+        // Use actual page dimensions from config, not canvas display dimensions
+        const pageWidth = currentCanvasConfig.width;
+        const pageHeight = currentCanvasConfig.height;
+        const isLandscape = pageWidth > pageHeight;
+        const exerciseCount = rowsData.length;
+        
+        // Smart column layout: 2 columns for landscape OR portrait with 7+ exercises
+        const COLUMNS = (isLandscape || (!isLandscape && exerciseCount >= 7)) ? 2 : 1;
+        const ROWS_PER_COLUMN = Math.ceil(exerciseCount / COLUMNS);
+        
+        // Professional margins - slightly larger for breathing room
+        const PAGE_MARGIN_H = pageWidth * 0.1;  // 10% horizontal margins
+        const PAGE_MARGIN_V = pageHeight * 0.08; // 8% vertical margins
+
+        // Header height - responsive to orientation
+        const headerObjects = canvas.getObjects().filter(o => o.isPageBorder || o.isHeaderElement);
+        const baseHeaderHeight = headerObjects.length > 0 ? 200 : 0;
+        // In landscape, reduce header height by 50px to move exercises up
+        const headerHeight = isLandscape ? baseHeaderHeight - 50 : baseHeaderHeight;
+
+        // Name/Date spacing
+        const NAME_DATE_HEIGHT = 35;
+        const NAME_DATE_SPACING = 20;
+        const TOP_OFFSET = ui.includeNameDate.checked
+          ? headerHeight + NAME_DATE_HEIGHT + NAME_DATE_SPACING + 10
+          : headerHeight + 10;
+        
+        // FIXED positioning for exercise numbers
+        const EXERCISE_NUMBER_WIDTH = 25; // Fixed width for number
+        const NUMBER_CARD_GAP = 15; // FIXED 15px gap between number and card
+        
+        // Calculate available content area
+        const totalContentWidth = pageWidth - (PAGE_MARGIN_H * 2);
+        const contentHeight = pageHeight - TOP_OFFSET - PAGE_MARGIN_V;
+        
+        // BETTER SPACING: Distribute cards evenly to fill the page
+        // Calculate optimal row spacing to fill vertical space
+        const MIN_ROW_SPACING = 20;
+        const MAX_ROW_SPACING = 60;
+        const OPTIMAL_ROW_SPACING = (contentHeight - (contentHeight / ROWS_PER_COLUMN * ROWS_PER_COLUMN)) / (ROWS_PER_COLUMN - 1 || 1);
+        const ROW_SPACING = Math.min(Math.max(OPTIMAL_ROW_SPACING, MIN_ROW_SPACING), MAX_ROW_SPACING);
+        
+        // Column spacing for two columns - more generous
+        const COLUMN_SPACING = COLUMNS === 2 ? pageWidth * 0.08 : 0;
+        
+        // Calculate card height to fit available space
+        const CARD_HEIGHT = (contentHeight - (ROW_SPACING * (ROWS_PER_COLUMN - 1))) / ROWS_PER_COLUMN;
+        
+        // Card aspect ratio - wider cards for better content display
+        const CARD_ASPECT_RATIO = 3.8;
+        
+        // Calculate maximum card width available
+        const SPACE_FOR_NUMBERS = ui.includeExerciseNumbers.checked 
+          ? (EXERCISE_NUMBER_WIDTH + NUMBER_CARD_GAP) * COLUMNS 
+          : 0;
+        const MAX_CARD_WIDTH = (totalContentWidth - COLUMN_SPACING - SPACE_FOR_NUMBERS) / COLUMNS;
+        
+        // Final card width - use smaller of ideal or max
+        const IDEAL_CARD_WIDTH = CARD_HEIGHT * CARD_ASPECT_RATIO;
+        const FINAL_CARD_WIDTH = Math.min(IDEAL_CARD_WIDTH, MAX_CARD_WIDTH) * 0.95;
+
+        // If cards are too wide, reduce height to maintain aspect ratio
+        const FINAL_CARD_HEIGHT = Math.min(CARD_HEIGHT, FINAL_CARD_WIDTH / CARD_ASPECT_RATIO / 0.95) * 0.95;
+        
+        // Internal card padding
+        const CARD_PADDING_H = FINAL_CARD_WIDTH * 0.05;
+        const CARD_PADDING_V = FINAL_CARD_HEIGHT * 0.15;
+        
+        // Image size proportional to card - increased for better visibility
+        const IMAGE_CONTAINER_SIZE = (FINAL_CARD_HEIGHT - (CARD_PADDING_V * 2)) * 1.4;
+
+        for (let i = 0; i < rowsData.length; i++) {
+            const rowData = rowsData[i];
+            
+            // Calculate position based on column layout
+            const column = COLUMNS === 2 ? Math.floor(i / ROWS_PER_COLUMN) : 0;
+            const rowInColumn = COLUMNS === 2 ? i % ROWS_PER_COLUMN : i;
+            
+            // Calculate vertical position with even distribution
+            const verticalSpacing = contentHeight / ROWS_PER_COLUMN;
+            const cardY = TOP_OFFSET + rowInColumn * verticalSpacing + (verticalSpacing - FINAL_CARD_HEIGHT) / 2;
+            
+            // Calculate horizontal positioning
+            let cardX, numberX;
+            
+            if (COLUMNS === 2) {
+                // Two columns - center each column's content
+                const columnWidth = (totalContentWidth - COLUMN_SPACING) / 2;
+                const columnStartX = PAGE_MARGIN_H + column * (columnWidth + COLUMN_SPACING);
+                
+                // Center card+number unit within column
+                const unitWidth = (ui.includeExerciseNumbers.checked ? EXERCISE_NUMBER_WIDTH + NUMBER_CARD_GAP : 0) + FINAL_CARD_WIDTH;
+                const unitStartX = columnStartX + (columnWidth - unitWidth) / 2;
+                
+                numberX = unitStartX;
+                cardX = unitStartX + (ui.includeExerciseNumbers.checked ? EXERCISE_NUMBER_WIDTH + NUMBER_CARD_GAP : 0);
+            } else {
+                // Single column - center in page
+                const unitWidth = (ui.includeExerciseNumbers.checked ? EXERCISE_NUMBER_WIDTH + NUMBER_CARD_GAP : 0) + FINAL_CARD_WIDTH;
+                const unitStartX = PAGE_MARGIN_H + (totalContentWidth - unitWidth) / 2;
+                
+                numberX = unitStartX;
+                cardX = unitStartX + (ui.includeExerciseNumbers.checked ? EXERCISE_NUMBER_WIDTH + NUMBER_CARD_GAP : 0);
+            }
+            
+            const numberY = cardY + FINAL_CARD_HEIGHT / 2;
+
+            const cardElements = [];
+
+            // Exercise number OUTSIDE the card (not in cardElements)
+            if (ui.includeExerciseNumbers.checked) {
+                const fontSize = Math.min(FINAL_CARD_HEIGHT * 0.35, 18);
+                const numText = new fabric.Text(`${i + 1}.`, {
+                    fontSize: fontSize,
+                    fill: '#444',
+                    fontWeight: 'bold',
+                    left: numberX,
+                    top: numberY,
+                    originX: 'left',
+                    originY: 'center',
+                    selectable: true,
+                    evented: true,
+                    isWorksheetItem: !isAnswerKey,
+                    isAnswerKeyItem: isAnswerKey
+                });
+                canvas.add(numText);
+            }
+            
+            // Card background
+            const cornerRadius = Math.min(FINAL_CARD_HEIGHT * 0.1, 12);
+            const strokeWidth = 1;
+            
+            const cardBg = new fabric.Rect({
+                width: FINAL_CARD_WIDTH, 
+                height: FINAL_CARD_HEIGHT,
+                fill: '#ffffff', 
+                stroke: '#d0d0d0', 
+                strokeWidth: strokeWidth,
+                rx: cornerRadius, 
+                ry: cornerRadius,
+                shadow: 'rgba(0,0,0,0.06) 0px 2px 4px',
+                selectable: false, 
+                evented: false,
+            });
+            cardElements.push(cardBg);
+
+            const imagePromises = rowData.items.map(imgData => 
+              new Promise(resolve => fabric.Image.fromURL(imgData.path, img => resolve(img), { crossOrigin: 'anonymous' }))
+            );
+            const images = await Promise.all(imagePromises);
+
+            const numImages = images.filter(Boolean).length;
+            // Calculate content area for images
+            const imageAreaWidth = FINAL_CARD_WIDTH - (CARD_PADDING_H * 2);
+            
+            // Start with desired spacing
+            let imageSpacing = IMAGE_CONTAINER_SIZE * 0.08; // Reduced from 0.15 for larger images
+            let actualImageSize = IMAGE_CONTAINER_SIZE;
+            
+            // Calculate if images fit with current size and spacing
+            let totalImagesWidth = numImages * actualImageSize + (numImages - 1) * imageSpacing;
+            
+            // If images don't fit, scale them down proportionally
+            if (totalImagesWidth > imageAreaWidth) {
+                // First try minimal spacing
+                const minSpacing = 5;
+                totalImagesWidth = numImages * actualImageSize + (numImages - 1) * minSpacing;
+                
+                if (totalImagesWidth > imageAreaWidth) {
+                    // Scale down images to fit with minimal spacing
+                    actualImageSize = (imageAreaWidth - (numImages - 1) * minSpacing) / numImages;
+                    imageSpacing = minSpacing;
+                } else {
+                    // Use minimal spacing
+                    imageSpacing = minSpacing;
+                }
+                totalImagesWidth = numImages * actualImageSize + (numImages - 1) * imageSpacing;
+            }
+            
+            // Center images within card
+            let startX = CARD_PADDING_H + (imageAreaWidth - totalImagesWidth) / 2;
+
+            for (let j = 0; j < images.length; j++) {
+                const img = images[j];
+                if (img) {
+                    img.scaleToHeight(actualImageSize);
+                    img.scaleToWidth(actualImageSize);
+                    img.set({
+                        left: startX + (j * (actualImageSize + imageSpacing)),
+                        top: (FINAL_CARD_HEIGHT - img.getScaledHeight()) / 2,
+                        selectable: false, evented: false
+                    });
+
+                    if (isAnswerKey && rowData.items[j].path === rowData.oddItemPath) {
+                        // Scale circle stroke based on actual image size
+                        const strokeWidth = Math.max(actualImageSize * 0.04, 3);
+                        const circle = new fabric.Circle({
+                            radius: (img.getScaledWidth() / 2) + strokeWidth,
+                            left: img.left + img.getScaledWidth() / 2,
+                            top: img.top + img.getScaledHeight() / 2,
+                            originX: 'center', originY: 'center',
+                            fill: 'transparent', stroke: 'red', strokeWidth: strokeWidth,
+                            selectable: false, evented: false
+                        });
+                        cardElements.push(img, circle);
+                    } else {
+                        cardElements.push(img);
+                    }
+                }
+            }
+
+            const cardGroup = new fabric.Group(cardElements, {
+                left: cardX, top: cardY,
+                isWorksheetItem: !isAnswerKey,
+                isAnswerKeyItem: isAnswerKey,
+                originalIndex: i,
+                selectable: true,
+                objectCaching: false,
+                cornerColor: 'var(--app-accent-primary)',
+                borderColor: 'var(--app-accent-primary)',
+            });
+
+            if (oldTransforms[i]) {
+                cardGroup.set(oldTransforms[i]);
+            }
+            
+            canvas.add(cardGroup);
+        }
+      };
+      // END OF CHANGES
+      
+      // --- TEXT TOOLS & CONTEXTUAL TOOLBAR ---
+      let activePopover = null;
+
+      function getActiveCanvas() {
+        const activeTab = document.querySelector('.tab.active');
+        // If the answer key tab is active, return that canvas, otherwise default to the worksheet canvas.
+        return activeTab && activeTab.id === 'answerKeyTab' ? answerKeyCanvas : worksheetCanvas;
+      }
+
+      function setupCanvasEventListeners(canvas) {
+        canvas.on({
+            'selection:created': function(e) { handleObjectSelection(e, this); },
+            'selection:updated': function(e) { handleObjectSelection(e, this); },
+            'selection:cleared': function(e) { handleSelectionCleared(e, this); },
+            // Undo/Redo canvas hooks - save state after modifications
+            'object:modified': function(e) { saveCanvasState(); },
+            'object:added': function(e) { saveCanvasState(); },
+            'object:removed': function(e) { saveCanvasState(); }
+        });
+      }
+      
+      function togglePopover(popover) {
+        const isOpening = popover.style.display !== 'block';
+        closeAllPopovers();
+        if (isOpening) { popover.style.display = 'block'; activePopover = popover; }
+      }
+      function closeAllPopovers() {
+        if (activePopover) { activePopover.style.display = 'none'; activePopover = null; }
+      }
+      // ============================================
+      // ENHANCED LAYER CONTROLS (Z-ORDER)
+      // 4-button system for complete control
+      // ============================================
+
+      function bringObjectToFront() {
+        const activeCanvas = getActiveCanvas();
+        const activeObject = activeCanvas.getActiveObject();
+        if (activeObject) {
+            activeCanvas.bringToFront(activeObject);
+            activeCanvas.renderAll();
+        }
+        closeAllPopovers();
+      }
+
+      function bringObjectForward() {
+        const activeCanvas = getActiveCanvas();
+        const activeObject = activeCanvas.getActiveObject();
+        if (activeObject) {
+            activeCanvas.bringForward(activeObject);
+            activeCanvas.renderAll();
+        }
+        closeAllPopovers();
+      }
+
+      function sendObjectBackward() {
+        const activeCanvas = getActiveCanvas();
+        const activeObject = activeCanvas.getActiveObject();
+        if (activeObject) {
+            activeCanvas.sendBackwards(activeObject);
+            activeCanvas.renderAll();
+        }
+        closeAllPopovers();
+      }
+
+      function sendObjectToBack() {
+        const activeCanvas = getActiveCanvas();
+        const activeObject = activeCanvas.getActiveObject();
+        if (activeObject) {
+            activeCanvas.sendToBack(activeObject);
+            activeCanvas.renderAll();
+        }
+        closeAllPopovers();
+      }
+      function deleteSelectedObjects() {
+        const activeCanvas = getActiveCanvas();
+        const activeObjects = activeCanvas.getActiveObjects();
+        if (activeObjects.length > 0) {
+            activeObjects.forEach(obj => {
+                activeCanvas.remove(obj);
+            });
+            activeCanvas.discardActiveObject().renderAll();
+        }
+        closeAllPopovers();
+      }
+
+      function toggleLockSelectedObjects() {
+        const canvas = getActiveCanvas();
+        const activeObject = canvas.getActiveObject();
+
+        // If nothing is selected, unlock ALL locked objects on the canvas
+        if (!activeObject) {
+            const allObjects = canvas.getObjects();
+            const lockedObjects = allObjects.filter(obj => obj.lockMovementX === true);
+
+            if (lockedObjects.length > 0) {
+                lockedObjects.forEach(obj => {
+                    obj.set({
+                        lockMovementX: false,
+                        lockMovementY: false,
+                        lockRotation: false,
+                        lockScalingX: false,
+                        lockScalingY: false,
+                        hasControls: true,
+                        hasBorders: true,
+                        selectable: true,
+                        evented: true
+                    });
+                });
+
+                // Update button icon to unlocked
+                const lockIcon = ui.toolbarLockBtn.querySelector('i');
+                lockIcon.classList.remove('fa-lock');
+                lockIcon.classList.add('fa-lock-open');
+
+                canvas.renderAll();
+                console.log(`Unlocked ${lockedObjects.length} objects`);
+            }
+
+            closeAllPopovers();
+            updateUnlockAllButtonVisibility();
+            return;
+        }
+
+        // Handle both single objects and groups
+        const objectsToLock = activeObject.type === 'activeSelection'
+            ? activeObject.getObjects()
+            : [activeObject];
+
+        // Check if any object is currently locked
+        const isAnyLocked = objectsToLock.some(obj => obj.lockMovementX === true);
+
+        // Toggle lock state (opposite of current state)
+        const shouldLock = !isAnyLocked;
+
+        objectsToLock.forEach(obj => {
+            // When locking, make objects completely non-interactive
+            // This prevents them from blocking mouse drag selections
+            obj.set({
+                lockMovementX: shouldLock,
+                lockMovementY: shouldLock,
+                lockRotation: shouldLock,
+                lockScalingX: shouldLock,
+                lockScalingY: shouldLock,
+                hasControls: !shouldLock,
+                hasBorders: !shouldLock,
+                selectable: !shouldLock,  // Locked objects are not selectable
+                evented: !shouldLock      // Locked objects don't capture mouse events
+            });
+        });
+
+        // Update button icon
+        const lockIcon = ui.toolbarLockBtn.querySelector('i');
+        if (shouldLock) {
+            lockIcon.classList.remove('fa-lock-open');
+            lockIcon.classList.add('fa-lock');
+        } else {
+            lockIcon.classList.remove('fa-lock');
+            lockIcon.classList.add('fa-lock-open');
+        }
+
+        canvas.renderAll();
+        closeAllPopovers();
+        updateUnlockAllButtonVisibility();
+      }
+
+      function unlockAllObjects() {
+        const canvas = getActiveCanvas();
+        const allObjects = canvas.getObjects();
+        const lockedObjects = allObjects.filter(obj => obj.lockMovementX === true);
+
+        if (lockedObjects.length > 0) {
+            lockedObjects.forEach(obj => {
+                obj.set({
+                    lockMovementX: false,
+                    lockMovementY: false,
+                    lockRotation: false,
+                    lockScalingX: false,
+                    lockScalingY: false,
+                    hasControls: true,
+                    hasBorders: true,
+                    selectable: true,
+                    evented: true
+                });
+            });
+
+            canvas.renderAll();
+            console.log(`Unlocked ${lockedObjects.length} objects`);
+            updateUnlockAllButtonVisibility();
+        }
+      }
+
+      function updateUnlockAllButtonVisibility() {
+        const canvas = getActiveCanvas();
+        const allObjects = canvas.getObjects();
+        const hasLockedObjects = allObjects.some(obj => obj.lockMovementX === true);
+
+        if (hasLockedObjects) {
+            ui.unlockAllControls.classList.add('visible');
+        } else {
+            ui.unlockAllControls.classList.remove('visible');
+        }
+      }
+
+      function alignObjects(type) {
+        const activeCanvas = getActiveCanvas();
+        const activeObj = activeCanvas.getActiveObject();
+        if (!activeObj) { closeAllPopovers(); return; }
+        if (type.includes('Canvas')) {
+            if (type === 'centerHCanvas') activeObj.centerH();
+            if (type === 'centerVCanvas') activeObj.centerV();
+        } else if (activeObj.type === 'activeSelection') {
+            const group = activeObj;
+            group.forEachObject(function(obj) {
+                switch (type) {
+                    case 'alignLeft': obj.left = -group.width / 2; break;
+                    case 'alignHCenter': obj.left = 0 - (obj.getScaledWidth() / 2); break;
+                    case 'alignRight': obj.left = group.width / 2 - obj.getScaledWidth(); break;
+                    case 'alignTop': obj.top = -group.height / 2; break;
+                    case 'alignVCenter': obj.top = 0 - (obj.getScaledHeight() / 2); break;
+                    case 'alignBottom': obj.top = group.height / 2 - obj.getScaledHeight(); break;
+                }
+            });
+        }
+        activeObj.setCoords();
+        activeCanvas.renderAll();
+        closeAllPopovers();
+      }
+      const addText = () => {
+          const activeCanvas = getActiveCanvas();
+          if (!activeCanvas) return;
+          const textContent = ui.textInput.value.trim() || 'New Text';
+          const textObject = new fabric.Textbox(textContent, {
+              left: (currentCanvasConfig.width - 250) / 2,
+              top: (currentCanvasConfig.height - 100) / 2,
+              fontSize: 48,
+              fill: '#333333',
+              fontFamily: 'Arial',
+              width: 250,
+              padding: 8,
+              borderColor: 'var(--app-accent-primary)',
+              cornerColor: 'var(--app-accent-primary)',
+              cornerSize: 10,
+              transparentCorners: false,
+              cornerStyle: 'circle',
+              stroke: '#000000',
+              strokeWidth: 0
+          });
+          activeCanvas.add(textObject).setActiveObject(textObject).renderAll();
+          ui.textInput.value = '';
+      };
+      const handleObjectSelection = (e, canvas) => {
+          const activeObject = e.target || canvas.getActiveObject();
+          if(!activeObject) return;
+
+          ui.objectContextToolbar.style.display = 'flex';
+          const isGroup = activeObject.type === 'activeSelection';
+
+          // Enable align buttons based on selection type (group vs single object)
+          document.querySelectorAll('#alignDropdown button').forEach(btn => {
+              if (btn.id.includes('Canvas')) { btn.disabled = isGroup; }
+              else { btn.disabled = !isGroup; }
+          });
+
+          const isSingleText = activeObject.type === 'textbox';
+          [ui.textColor, ui.fontSize, ui.fontFamily, ui.textStrokeColor, ui.textStrokeWidth].forEach(el => el.disabled = !isSingleText);
+          ui.textInput.disabled = !isSingleText;
+          if(isSingleText) {
+              ui.textInput.value = activeObject.text || "";
+              ui.textColor.value = activeObject.fill || '#333333';
+              ui.fontSize.value = activeObject.fontSize || 48;
+              ui.fontFamily.value = activeObject.fontFamily || 'Arial';
+              ui.textStrokeColor.value = activeObject.stroke || '#000000';
+              ui.textStrokeWidth.value = activeObject.strokeWidth || 0;
+          }
+      };
+      const handleSelectionCleared = (e, canvas) => {
+          ui.objectContextToolbar.style.display = 'none';
+          closeAllPopovers();
+          [ui.textColor, ui.fontSize, ui.fontFamily, ui.textStrokeColor, ui.textStrokeWidth, ui.textInput].forEach(el => el.disabled = true);
+          if (document.activeElement !== ui.textInput) ui.textInput.value = "";
+          ui.textInput.disabled = false;
+      };
+      const updateActiveTextObjectProperties = () => {
+          const activeCanvas = getActiveCanvas();
+          const activeObject = activeCanvas.getActiveObject();
+          if (!activeObject || activeObject.type !== 'textbox') return;
+
+          const newProps = {};
+          if (ui.textColor.value !== activeObject.fill) newProps.fill = ui.textColor.value;
+          if (parseInt(ui.fontSize.value) !== activeObject.fontSize) newProps.fontSize = parseInt(ui.fontSize.value);
+          if (ui.fontFamily.value !== activeObject.fontFamily) newProps.fontFamily = ui.fontFamily.value;
+          if (ui.textStrokeColor.value !== activeObject.stroke) newProps.stroke = ui.textStrokeColor.value;
+          if (parseFloat(ui.textStrokeWidth.value) !== activeObject.strokeWidth) newProps.strokeWidth = parseFloat(ui.textStrokeWidth.value);
+          if (document.activeElement === ui.textInput && ui.textInput.value !== activeObject.text) newProps.text = ui.textInput.value;
+          
+          if(Object.keys(newProps).length > 0) {
+            activeObject.set(newProps);
+            activeCanvas.renderAll();
+          }
+      };
+      
+      // --- DOWNLOADS ---
+      // START OF CHANGES
+      const applyGrayscaleToDataURL = async (dataURL) => {
+          return new Promise((resolve, reject) => {
+              const img = new Image();
+              img.onload = () => {
+                  const c = document.createElement('canvas');
+                  c.width = img.width; c.height = img.height;
+                  const ctx = c.getContext('2d');
+                  ctx.drawImage(img, 0, 0);
+                  const imgData = ctx.getImageData(0, 0, c.width, c.height);
+                  for (let i = 0; i < imgData.data.length; i += 4) {
+                      const gray = 0.299 * imgData.data[i] + 0.587 * imgData.data[i+1] + 0.114 * imgData.data[i+2];
+                      imgData.data[i] = imgData.data[i+1] = imgData.data[i+2] = gray;
+                  }
+                  ctx.putImageData(imgData, 0, 0);
+                  resolve(c.toDataURL('image/jpeg', 1.0));
+              };
+              img.onerror = reject;
+              img.src = dataURL;
+          });
+      };
+
+      const getCanvasDataURL = async (canvas, grayscale) => {
+          // Save current state
+          const currentZoom = canvas.getZoom();
+          const currentWidth = canvas.getWidth();
+          const currentHeight = canvas.getHeight();
+          
+          // Reset for export
+          canvas.setZoom(1);
+          canvas.setDimensions({
+              width: currentCanvasConfig.width,
+              height: currentCanvasConfig.height
+          });
+          
+          let dataURL = canvas.toDataURL({ format: 'jpeg', quality: 1.0, multiplier: downloadMultiplier });
+          if (grayscale) {
+              dataURL = await applyGrayscaleToDataURL(dataURL);
+          }
+          
+          // Restore display state
+          canvas.setZoom(currentZoom);
+          canvas.setDimensions({
+              width: currentWidth,
+              height: currentHeight
+          });
+          
+          return dataURL;
+      };
+
+      const downloadImageFile = async (canvas, fileName) => {
+          if (!canvas || canvas.getObjects().length === 0) {
+              showMessage(t('oddoneout.msg.canvas.empty'), 'error');
+              return;
+          }
+          showMessage(t('oddoneout.msg.preparing.jpeg'), 'info', 0);
+          try {
+              const grayscale = ui.grayscaleToggle.checked;
+              const dataURL = await getCanvasDataURL(canvas, grayscale);
+              const link = document.createElement('a');
+              link.download = fileName;
+              link.href = dataURL;
+              link.click();
+              showMessage(t('oddoneout.msg.download.initiated'), 'success');
+          } catch(e) {
+              showMessage(t('oddoneout.msg.jpeg.error'), 'error');
+              console.error("JPEG Download Error:", e);
+          }
+      };
+      
+      const downloadPDF = async (canvas, fileName) => {
+          if (!canvas || canvas.getObjects().length === 0) {
+              showMessage(t('oddoneout.msg.canvas.empty'), 'error');
+              return;
+          }
+          showMessage(t('oddoneout.msg.preparing.pdf'), 'info', 0);
+          try {
+              const { jsPDF } = window.jspdf;
+              const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'l' : 'p';
+              const pdf = new jsPDF({ 
+                  orientation, 
+                  unit: 'pt', 
+                  format: [currentCanvasConfig.width, currentCanvasConfig.height] // Use user's selected size
+              });
+              const grayscale = ui.grayscaleToggle.checked;
+              
+              const imgData = await getCanvasDataURL(canvas, grayscale);
+              pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
+              pdf.save(fileName);
+              showMessage(t('oddoneout.msg.pdf.downloaded'), 'success');
+          } catch(e) {
+              showMessage(t('oddoneout.msg.pdf.error'), 'error'); 
+              console.error("PDF Download Error:", e);
+          }
+      };
+      // END OF CHANGES
+
+      // --- MAIN CONTROL & CLEAR FUNCTIONS ---
+      const clearRow = (rowIndex) => {
+        commonSelections[rowIndex] = [];
+        oddSelections[rowIndex] = null;
+        exerciseModes[rowIndex] = null;
+      };
+      const clearAll = () => {
+        commonSelections = Array.from({ length: 10 }, () => []); // Reset to max size
+        oddSelections = Array(10).fill(null);
+        uploadedImages = [];
+        lastGeneratedRows = [];
+        lastGeneratedExerciseCount = null; // Reset exercise count tracking
+        lastAnswerKeyExerciseCount = null; // Reset answer key count tracking
+        lastIncludeExerciseNumbers = null; // Reset exercise numbers tracking
+        
+        ui.pageSizeSelect.value = DEFAULT_PAGE_SIZE;
+        updateCanvasDisplayDimensions(...DEFAULT_PAGE_SIZE.split('x').map(Number));
+        ui.pageColor.value = '#FFFFFF';
+        
+        [worksheetCanvas, answerKeyCanvas].forEach(c => {
+          if (c) {
+            c.clear(); c.backgroundColor = '#FFFFFF'; c.renderAll();
+          }
+        });
+
+        ui.includeNameDate.checked = false;
+        ui.includeExerciseNumbers.checked = false;
+        
+        loadAssetImages('borders'); // This also clears the selection
+        loadAssetImages('backgrounds');
+
+        renderPreviews();
+        renderUploadedImages();
+        handleSelectionCleared(null, null);
+        
+        ui.generateAnswerKeyBtn.disabled = true;
+        // START OF CHANGES
+        ui.downloadAnswerKeyJpegBtn.disabled = true;
+        ui.downloadAnswerKeyPdfBtn.disabled = true;
+        // END OF CHANGES
+
+        showMessage(t('oddoneout.msg.form.cleared'), 'success', 2000);
+      };
+
+      // --- EXERCISE COUNT MANAGEMENT ---
+      const updateExerciseCount = () => {
+        const oldCount = EXERCISE_COUNT;
+        EXERCISE_COUNT = parseInt(ui.exerciseCountSelect.value);
+        
+        // Update row selector options
+        ui.rowSelect.innerHTML = '';
+        for (let i = 0; i < EXERCISE_COUNT; i++) {
+          const opt = document.createElement('option');
+          opt.value = i;
+          opt.textContent = `Exercise ${i + 1}`;
+          ui.rowSelect.appendChild(opt);
+        }
+        
+        // Clear selections beyond the new count
+        for (let i = EXERCISE_COUNT; i < 10; i++) {
+          commonSelections[i] = [];
+          oddSelections[i] = null;
+        }
+        
+        // CRITICAL: Clear generated rows when exercise count changes
+        // This forces regeneration of worksheet before answer key can be created
+        if (oldCount !== EXERCISE_COUNT && lastGeneratedRows.length > 0) {
+          lastGeneratedRows = [];
+          lastAnswerKeyExerciseCount = null; // Reset answer key count too
+          // Disable answer key button until worksheet is regenerated
+          ui.generateAnswerKeyBtn.disabled = true;
+          ui.downloadAnswerKeyJpegBtn.disabled = true;
+          ui.downloadAnswerKeyPdfBtn.disabled = true;
+          showMessage(t('oddoneout.msg.regenerate'), 'info');
+        }
+        
+        renderPreviews();
+      };
+      
+      // --- INITIALIZATION ---
+      const init = async () => {
+        initSidebar();
+        
+        // Setup canvases
+        worksheetCanvas = initializeCanvas(ui.worksheetCanvasElement);
+        answerKeyCanvas = initializeCanvas(ui.answerKeyCanvasElement);
+        updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+
+        // Initialize zoom display
+        updateZoomDisplay();
+
+        // Initialize history buttons (will be disabled on load)
+        updateHistoryButtons();
+
+        // Initialize exercise count and row selector
+        updateExerciseCount();
+
+        // Setup Event Listeners
+        ui.clearBtn.addEventListener('click', clearAll);
+        ui.clearRowBtn.addEventListener('click', () => { clearRow(+ui.rowSelect.value); renderPreviews(); });
+
+        ui.generateWorksheetBtn.addEventListener('click', () => { renderWorksheet(); generateDropdown.content.style.display = 'none'; });
+        ui.generateAnswerKeyBtn.addEventListener('click', () => { renderAnswerKey(); generateDropdown.content.style.display = 'none'; });
+
+        // START OF CHANGES
+        if (ui.downloadWorksheetJpegBtn) ui.downloadWorksheetJpegBtn.addEventListener('click', () => downloadImageFile(worksheetCanvas, 'worksheet.jpeg'));
+        if (ui.downloadAnswerKeyJpegBtn) ui.downloadAnswerKeyJpegBtn.addEventListener('click', () => downloadImageFile(answerKeyCanvas, 'answer-key.jpeg'));
+        if (ui.downloadWorksheetPdfBtn) ui.downloadWorksheetPdfBtn.addEventListener('click', () => downloadPDF(worksheetCanvas, 'worksheet.pdf'));
+        if (ui.downloadAnswerKeyPdfBtn) ui.downloadAnswerKeyPdfBtn.addEventListener('click', () => downloadPDF(answerKeyCanvas, 'answer-key.pdf'));
+        // END OF CHANGES
+
+        // Zoom controls event listeners
+        if (ui.zoomInBtn) ui.zoomInBtn.addEventListener('click', zoomIn);
+        if (ui.zoomOutBtn) ui.zoomOutBtn.addEventListener('click', zoomOut);
+        if (ui.zoomResetBtn) ui.zoomResetBtn.addEventListener('click', zoomReset);
+
+        // Undo/Redo event listeners
+        if (ui.undoBtn) ui.undoBtn.addEventListener('click', undo);
+        if (ui.redoBtn) ui.redoBtn.addEventListener('click', redo);
+
+        ui.imageUploadInput.addEventListener('change', handleUploadedImages);
+
+        // Canvas & Toolbar Listeners
+        setupCanvasEventListeners(worksheetCanvas);
+        setupCanvasEventListeners(answerKeyCanvas);
+
+        ui.layersBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(ui.layersDropdown); });
+        ui.alignBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(ui.alignDropdown); });
+        if (ui.toolbarBringToFrontBtn) ui.toolbarBringToFrontBtn.addEventListener('click', bringObjectToFront);
+        if (ui.toolbarBringForwardBtn) ui.toolbarBringForwardBtn.addEventListener('click', bringObjectForward);
+        if (ui.toolbarSendBackwardBtn) ui.toolbarSendBackwardBtn.addEventListener('click', sendObjectBackward);
+        if (ui.toolbarSendToBackBtn) ui.toolbarSendToBackBtn.addEventListener('click', sendObjectToBack);
+        ui.toolbarLockBtn.addEventListener('click', toggleLockSelectedObjects);
+        ui.toolbarDeleteBtn.addEventListener('click', deleteSelectedObjects);
+        ui.unlockAllBtn.addEventListener('click', unlockAllObjects);
+        document.querySelectorAll('#alignDropdown button').forEach(b => b.addEventListener('click', e => alignObjects(e.currentTarget.id.replace('Btn', ''))));
+        window.addEventListener('keydown', e => {
+            // Delete/Backspace to delete selected objects
+            if((e.key === 'Delete' || e.key === 'Backspace') && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+                deleteSelectedObjects();
+            }
+            // Ctrl+Z to undo
+            if(e.ctrlKey && e.key === 'z' && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+                e.preventDefault();
+                undo();
+            }
+            // Ctrl+Y to redo
+            if(e.ctrlKey && e.key === 'y' && !['INPUT', 'TEXTAREA'].includes(document.activeElement.tagName)) {
+                e.preventDefault();
+                redo();
+            }
+        });
+
+        // Text Tool listeners
+        ui.addTextBtn.addEventListener('click', addText);
+        ['input', 'change'].forEach(evt => {
+            [ui.textColor, ui.fontSize, ui.fontFamily, ui.textStrokeColor, ui.textStrokeWidth, ui.textInput].forEach(el => {
+                if(el.tagName === 'SELECT' && evt === 'input') return;
+                if(el.tagName !== 'SELECT' && evt === 'change') return;
+                el.addEventListener(evt, updateActiveTextObjectProperties);
+            });
+        });
+        
+        // App specific listeners
+        ui.exerciseCountSelect.addEventListener('change', updateExerciseCount);
+        
+        // Row select handler - update previews and mode selector
+        ui.rowSelect.addEventListener('change', () => {
+            renderPreviews();
+            loadDictionary();
+        });
+        
+        // Exercise mode selector handler
+        ui.exerciseModeSelect.addEventListener('change', () => {
+            const r = +ui.rowSelect.value;
+            exerciseModes[r] = ui.exerciseModeSelect.value || null;
+            // Clear selections for this exercise if mode changed
+            if (ui.exerciseModeSelect.value) {
+                commonSelections[r] = [];
+                oddSelections[r] = null;
+                renderPreviews();
+                loadDictionary();
+            }
+        });
+        
+        // Theme and global mode selectors handler
+        [ui.modeSelect, ui.themeSelect, ui.themeBSelect].forEach(el => el.addEventListener('change', () => {
+            // Don't clear selections when global mode changes anymore
+            renderPreviews();
+            loadDictionary();
+        }));
+        ui.searchInput.addEventListener('input', () => { if(this.searchTimeout) clearTimeout(this.searchTimeout); this.searchTimeout = setTimeout(loadDictionary, 300); });
+        
+        // Tab listeners
+        document.querySelectorAll(".tab-button").forEach(btn => btn.addEventListener("click", (e) => {
+            document.querySelectorAll(".tab-button.active").forEach(b => b.classList.remove("active"));
+            e.currentTarget.classList.add("active");
+            document.querySelectorAll(".tab.active").forEach(t => t.classList.remove("active"));
+            document.getElementById(e.currentTarget.dataset.tab).classList.add("active");
+            
+            const activeCanvas = getActiveCanvas();
+            if (activeCanvas) {
+                activeCanvas.discardActiveObject().renderAll();
+                handleSelectionCleared(null, activeCanvas);
+            }
+        }));
+
+        setupPageControls();
+        setupAssetControls();
+        
+        await fetchImageThemes();
+
+        // Initialize BulletproofLoader for borders and backgrounds
+        if (window.BulletproofLoader) {
+            await window.BulletproofLoader.init({
+                borderSelect: ui.borderThemeSelect,
+                backgroundSelect: ui.backgroundThemeSelect
+            });
+            console.log('BulletproofLoader initialized');
+        } else {
+            // Fallback if BulletproofLoader not available
+            await loadBorderThemes();
+            await loadBackgroundThemes();
+        }
+
+        loadDictionary();
+        renderPreviews();
+        handleSelectionCleared(null, null);
+
+        // Preload default theme in background for faster first generation
+        await preloadDefaultTheme();
+
+        // Generate initial worksheet immediately
+        await generateInitialWorksheet();
+      };
+
+      init();
+    });
+  
+    // Check if user is on free tier
+    function isFreeTier() {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get('tier') === 'free';
+    }
+
+    // Add watermark to canvas before export
+    function addWatermarkToCanvas(canvas) {
+        if (!isFreeTier()) return;
+        
+        const watermarkText = new fabric.Text('FREE VERSION - LessonCraftStudio.com', {
+            fontSize: 40,
+            fill: 'rgba(0, 0, 0, 0.2)',
+            angle: -45,
+            left: canvas.width / 2,
+            top: canvas.height / 2,
+            originX: 'center',
+            originY: 'center',
+            selectable: false,
+            evented: false,
+            fontFamily: 'Arial, sans-serif',
+            fontWeight: 'bold'
+        });
+        
+        // Add multiple watermarks across the canvas
+        const watermarks = [];
+        const spacing = 250;
+        for (let x = 0; x < canvas.width; x += spacing) {
+            for (let y = 0; y < canvas.height; y += spacing) {
+                const wm = new fabric.Text('FREE VERSION', {
+                    fontSize: 20,
+                    fill: 'rgba(0, 0, 0, 0.15)',
+                    angle: -45,
+                    left: x,
+                    top: y,
+                    selectable: false,
+                    evented: false,
+                    fontFamily: 'Arial, sans-serif'
+                });
+                watermarks.push(wm);
+                canvas.add(wm);
+            }
+        }
+        
+        // Add main watermark
+        canvas.add(watermarkText);
+        canvas.renderAll();
+        
+        return { mainWatermark: watermarkText, watermarks };
+    }
+
+    // Remove watermark after export
+    function removeWatermarkFromCanvas(canvas, watermarkData) {
+        if (!watermarkData) return;
+        
+        if (watermarkData.mainWatermark) {
+            canvas.remove(watermarkData.mainWatermark);
+        }
+        if (watermarkData.watermarks) {
+            watermarkData.watermarks.forEach(wm => canvas.remove(wm));
+        }
+        canvas.renderAll();
+    }
+
+    // Override the original downloadPDF function
+    const originalDownloadPDF = typeof downloadPDF !== 'undefined' ? downloadPDF : null;
+    if (originalDownloadPDF) {
+        window.downloadPDF = async function(canvasToExport, fileName) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                return showMessage(t('oddoneout.msg.generate.content'), 'error');
+            }
+            showMessage(t('oddoneout.msg.preparing.pdf'), 'info', 0);
+            
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+            
+            try {
+                const { jsPDF } = window.jspdf;
+                const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
+                const pdf = new jsPDF({ 
+                    orientation, 
+                    unit: 'pt', 
+                    format: [canvasToExport.width, canvasToExport.height] 
+                });
+
+                const exportOptions = { 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
+                };
+                
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+                
+                pdf.save(fileName);
+                showMessage(t('oddoneout.msg.pdf.downloaded'), 'success');
+            } catch(e) {
+                showMessage(t('oddoneout.msg.pdf.error.simple'), 'error'); 
+                console.error(e); 
+            } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
+        };
+    }
+
+    // Override the original downloadJPEG function if it exists
+    const originalDownloadJPEG = typeof downloadJPEG !== 'undefined' ? downloadJPEG : null;
+    if (originalDownloadJPEG) {
+        window.downloadJPEG = async function(canvasToExport, fileName) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                return showMessage(t('oddoneout.msg.generate.worksheet.first'), 'error');
+            }
+            showMessage(t('oddoneout.msg.preparing.jpeg'), 'info', 0);
+            
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+            
+            try {
+                const exportOptions = { 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
+                };
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                
+                const link = document.createElement('a');
+                link.href = dataURL;
+                link.download = fileName;
+                link.click();
+                showMessage(t('oddoneout.msg.jpeg.initiated'), 'success');
+            } catch(e) {
+                showMessage(t('oddoneout.msg.jpeg.error.simple'), 'error'); 
+                console.error(e); 
+            } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
+        };
+    }
+
+</script>
+</body>
+</html>

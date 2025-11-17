@@ -44,14 +44,21 @@ next-env.d.ts
 
 # Static content - managed independently from code
 # These are maintained in REFERENCE APPS folder and deployed separately
+# NOTE: GOLDEN_BACKUPS and REFERENCE folders are EXCLUDED from these rules (they should be in git)
 /public/worksheet-generators/*.html
+!/GOLDEN_BACKUPS/**/*.html
+!/REFERENCE*/**/*.html
 
 # Content managers - managed independently from code
 # These are maintained in REFERENCE CONTENT MANAGERS folder and deployed separately
 /public/worksheet-generators/blog-content-manager.html
 /public/homepage-content-manager.html
 /public/worksheet-generators/content-manager-v2.html
+!/GOLDEN_BACKUPS/**/*content-manager.html
+!/REFERENCE*/**/*content-manager.html
 
 # Translation files - managed independently from code
 # These are maintained in REFERENCE TRANSLATIONS folder and deployed separately
 /public/worksheet-generators/js/translations-*.js
+!/GOLDEN_BACKUPS/**/translations-*.js
+!/REFERENCE*/**/translations-*.js

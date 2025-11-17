@@ -1,0 +1,3386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Word Scramble Worksheet</title>
+  <script src="js/translations-word-scramble-complete.js"></script>
+  <script src="js/bulletproof-loader.js"></script>
+  <script src="js/unified-language-manager.js"></script>
+  <script src="js/border-background-sizer.js"></script>
+  <script src="js/auto-fix-system.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Fredoka:wght@400;500;600&family=Lexend+Deca&family=Nunito:wght@400;700&family=Quicksand:wght@300..700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <style>
+    :root {
+        --app-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        --app-bg-dark: #2c2c2e;
+        --app-surface-dark: #3a3a3e;
+        --app-border-dark: #4a4a4a;
+        --app-text-primary-dark-theme: #e0e0e0;
+        --app-text-secondary-dark-theme: #a0a0a0;
+        --app-bg-light: #f0f2f5;
+        --app-surface-light: #ffffff;
+        --app-border-light: #dce1e6;
+        --app-text-primary-light-theme: #1c1c1e;
+        --app-text-secondary-light-theme: #545458;
+        --app-accent-primary: #007aff;
+        --app-accent-primary-hover: #005ecb;
+        --app-accent-danger: #ff3b30;
+        --sidebar-width: 340px;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: var(--app-font-stack);
+      display: flex;
+      margin: 0;
+      height: 100vh;
+      background-color: var(--app-bg-light);
+      overflow: hidden;
+      color: var(--app-text-primary-light-theme);
+    }
+    .layout { display: flex; flex: 1; overflow: hidden; height: 100vh; position: relative; }
+    .panel {
+      width: var(--sidebar-width);
+      min-width: var(--sidebar-width);
+      background-color: var(--app-bg-dark);
+      color: var(--app-text-primary-dark-theme);
+      box-shadow: 2px 0 8px rgba(0,0,0,0.15);
+      display: flex;
+      flex-direction: column;
+      z-index: 10;
+      padding: 0;
+      transition: transform 0.3s ease-in-out;
+    }
+    .panel-header {
+        padding: 20px 25px;
+        border-bottom: 1px solid var(--app-border-dark);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .panel-header h2 { font-size: 22px; font-weight: 600; color: var(--app-text-primary-dark-theme); margin: 0; }
+    .panel-content { overflow-y: auto; flex-grow: 1; padding: 10px 15px; }
+    .accordion-item {
+        background-color: transparent;
+        border: none;
+        border-bottom: 1px solid var(--app-border-dark);
+        margin-bottom: 0;
+        border-radius: 0;
+        overflow: hidden;
+    }
+    .accordion-item:last-child { border-bottom: none; }
+    .accordion-button {
+        background-color: transparent;
+        color: var(--app-text-primary-dark-theme);
+        width: 100%;
+        border: none;
+        text-align: left;
+        padding: 18px 10px;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transition: background-color 0.15s ease;
+    }
+    .accordion-button:hover { background-color: rgba(255,255,255,0.05); }
+    .accordion-button::after {
+        content: '\f078';
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        font-size: 12px;
+        transition: transform 0.2s ease-in-out;
+    }
+    .accordion-button.active::after { transform: rotate(-180deg); }
+    .accordion-content { padding: 10px 10px 20px 10px; display: none; background-color: transparent; }
+    .accordion-content.active { display: block; }
+    .accordion-content h4 {
+        font-size: 13px;
+        color: var(--app-text-secondary-dark-theme);
+        margin-top: 15px;
+        margin-bottom: 8px;
+        border-bottom: 1px solid var(--app-border-dark);
+        padding-bottom: 6px;
+        font-weight: 500;
+    }
+    .accordion-content h4:first-child { margin-top: 0; }
+    .accordion-content label {
+        display: block;
+        font-size: 13px;
+        font-weight: 400;
+        color: var(--app-text-secondary-dark-theme);
+        margin-bottom: 6px;
+    }
+    .accordion-content input[type="text"],
+    .accordion-content input[type="number"],
+    .accordion-content textarea,
+    .accordion-content select {
+        width: 100%;
+        padding: 8px 10px;
+        font-size: 13px;
+        border-radius: 5px;
+        border: 1px solid var(--app-border-dark);
+        background-color: var(--app-surface-dark);
+        color: var(--app-text-primary-dark-theme);
+        box-sizing: border-box;
+        margin-bottom: 12px;
+    }
+    .accordion-content input[type="file"] {
+        color: var(--app-text-secondary-dark-theme);
+        background-color: var(--app-surface-dark);
+        border: 1px solid var(--app-border-dark);
+        border-radius: 5px;
+        padding: 8px;
+        font-size: 13px;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .accordion-content input[type="file"]::file-selector-button {
+        margin-right: 10px;
+        border: 1px solid var(--app-border-dark);
+        background: var(--app-bg-dark);
+        padding: 4px 8px;
+        border-radius: 3px;
+        color: var(--app-text-primary-dark-theme);
+        cursor: pointer;
+    }
+    .accordion-content input[type="color"] {
+        width: 100%; padding: 2px; height: 38px; margin-bottom: 12px; border-radius: 5px; border-color: var(--app-border-dark);
+    }
+    .accordion-content input[type="range"] { width:100%; padding: 0; margin-bottom: 12px; }
+    .accordion-content input[type="checkbox"], .accordion-content input[type="radio"] {
+        width: auto;
+        margin-right: 8px;
+        vertical-align: middle;
+        accent-color: var(--app-accent-primary);
+    }
+    .accordion-content .checkbox-label, .accordion-content .radio-label {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        font-weight: 400;
+        margin-bottom: 12px;
+        cursor: pointer;
+        color: var(--app-text-secondary-dark-theme);
+    }
+    .control-group { margin-bottom: 12px; }
+    .control-group .group-label { font-size: 13px; color: var(--app-text-secondary-dark-theme); margin-bottom: 8px; }
+
+    .accordion-content button {
+        background-color: var(--app-surface-dark);
+        color: var(--app-text-primary-dark-theme);
+        border: 1px solid var(--app-border-dark);
+        font-weight: 500;
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 13px;
+        border-radius: 5px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .accordion-content button:active { transform: scale(0.98); }
+    #dictionary, #selectedImagesPreview, #uploadedImagesPreview {
+        border: 1px solid var(--app-border-dark);
+        padding:10px;
+        max-height: 180px;
+        overflow-y:auto;
+        background-color: var(--app-surface-dark);
+        border-radius:5px;
+        margin-bottom:10px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    #selectedImagesPreview { min-height: 70px; border-style: dashed; border-color: var(--app-accent-primary); }
+    #dictionary p.dictionary-message, #uploadedImagesPreview p.dictionary-message, #borderDictionary p.dictionary-message, #backgroundDictionary p.dictionary-message {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+        font-size:12px;
+        color: var(--app-text-secondary-dark-theme);
+        margin: 0;
+        align-self: center;
+    }
+    .dictionary-item {
+        padding:8px;
+        cursor:pointer;
+        border: 1px solid transparent;
+        font-size:13px;
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        border-radius: 4px;
+        background-color: rgba(255,255,255,0.05);
+    }
+    .dictionary-item:hover { background-color: rgba(255,255,255,0.1); border-color: var(--app-accent-primary); }
+    .dictionary-item.selected { border-color: var(--app-accent-primary); background-color: rgba(0, 122, 255, 0.15); }
+    .dictionary-item img {
+        width: 50px; height: 50px;
+        object-fit: contain;
+        border:1px solid var(--app-border-dark);
+        border-radius:3px;
+        background-color: var(--app-surface-light);
+        margin-bottom: 5px;
+    }
+    .dictionary-item span { font-size: 10px; text-align: center; word-break: break-word; max-width: 50px; color: var(--app-text-secondary-dark-theme); }
+    .dictionary-item:hover span, .dictionary-item.selected span { color: var(--app-text-primary-dark-theme); }
+    #borderDictionary, #backgroundDictionary {
+        border: 1px solid var(--app-border-dark);
+        padding: 8px;
+        max-height: 140px;
+        overflow-y: auto;
+        background-color: var(--app-surface-dark);
+        border-radius: 5px;
+        margin-top: 8px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-content: flex-start;
+    }
+    .border-thumbnail-item {
+        cursor: pointer;
+        border: 2px solid transparent;
+        border-radius: 4px;
+        padding: 2px;
+        width: 60px;
+        height: 60px;
+    }
+    .border-thumbnail-item:hover, .border-thumbnail-item.selected { border-color: var(--app-accent-primary); }
+    .border-thumbnail-item img { width: 100%; height: 100%; object-fit: contain; background-color: var(--app-surface-light); border-radius: 2px; }
+    .selected-preview img { width:50px; height:50px; object-fit:contain; border:1px solid var(--app-accent-primary); border-radius:3px; cursor:pointer; }
+    .selected-count { font-size: 12px; text-align: center; color: var(--app-text-secondary-dark-theme); margin-bottom: 10px; }
+    .panel-footer { padding: 15px 25px; border-top: 1px solid var(--app-border-dark); margin-top: auto; }
+    #message {
+        padding:10px 15px; border-radius:5px; font-size:13px; text-align:center; min-height:20px;
+        font-weight:500; display:none; margin-bottom: 0; border-width: 1px; border-style: solid;
+    }
+    #message.error {background-color:rgba(255, 59, 48, 0.2); color: var(--app-accent-danger); border-color: var(--app-accent-danger);}
+    #message.success {background-color:rgba(52, 199, 89, 0.2); color: #34c759; border-color: #34c759;}
+    #message.info {background-color:rgba(0, 122, 255, 0.15); color:var(--app-accent-primary); border-color: var(--app-accent-primary);}
+
+    .main { flex-grow: 1; display: flex; flex-direction: column; position: relative; overflow: hidden; padding: 0; }
+    .menu-toggle-btn {
+        display: none; position: absolute; top: 12px; left: 20px; z-index: 20;
+        background-color: var(--app-surface-light); color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light); border-radius: 6px; width: 38px; height: 38px;
+        font-size: 18px; cursor: pointer; align-items: center; justify-content: center;
+    }
+    .menu-toggle-btn:hover { background-color: #e8e8ed; }
+    .menu-close-btn {
+        display: none; background: none; border: none; color: var(--app-text-secondary-dark-theme);
+        font-size: 28px; line-height: 1; cursor: pointer; padding: 0 5px;
+    }
+    .menu-close-btn:hover { color: var(--app-text-primary-dark-theme); }
+    .menu-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.4); z-index: 998; }
+    .menu-overlay.is-active { display: block; }
+    .top-right-actions { position: absolute; top: 12px; right: 20px; z-index: 20; display: flex; gap: 10px; align-items: center; }
+    .top-right-actions .action-button {
+        padding: 7px 14px; font-size: 13px; font-weight: 500; border-radius: 6px;
+        border: none; color: white; cursor: pointer; transition: background-color 0.2s ease, transform 0.1s ease;
+    }
+    .top-right-actions .action-button:active { transform: scale(0.98); }
+    .top-right-actions .action-button.accent { background-color: var(--app-accent-primary); }
+    .top-right-actions .action-button.accent:hover { background-color: var(--app-accent-primary-hover); }
+    .top-right-actions .action-button.secondary {
+        background-color: var(--app-surface-light); color: var(--app-text-primary-light-theme);
+        border: 1px solid var(--app-border-light);
+    }
+    .top-right-actions .action-button.secondary:hover { background-color: #e8e8ed; }
+    .top-right-actions .action-button:disabled {
+        background-color: #cccccc !important; color: #888888 !important; border-color: #cccccc !important; cursor: not-allowed;
+    }
+    .dropdown-container { position: relative; display: inline-block; }
+    .dropdown-content {
+        display: none; position: absolute; right: 0; top: calc(100% + 5px);
+        background-color: var(--app-surface-light); min-width: 200px; box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+        border: 1px solid var(--app-border-light); border-radius: 6px; padding: 8px; z-index: 25;
+    }
+    .dropdown-content button {
+        width: 100%; padding: 8px 12px; font-size: 13px; border-radius: 4px; margin-bottom: 6px;
+        background-color: transparent; color: var(--app-text-primary-light-theme); border: none;
+        cursor: pointer; text-align: left; font-weight: 400; transition: background-color 0.15s ease;
+    }
+    .dropdown-content button:last-of-type { margin-bottom: 0; }
+    .dropdown-content button:hover { background-color: rgba(0,0,0,0.05); }
+    .dropdown-content button:disabled { background-color: transparent !important; color: var(--app-text-secondary-light-theme) !important; opacity: 0.6; cursor: not-allowed; }
+    .dropdown-content .checkbox-label {
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+        font-weight: 400;
+        padding: 6px 12px;
+        margin-top: 4px;
+        margin-bottom: 0;
+        cursor: pointer;
+        color: var(--app-text-primary-light-theme);
+        border-radius: 4px;
+    }
+    .dropdown-content .checkbox-label:hover { background-color: rgba(0,0,0,0.05); }
+    .dropdown-content .checkbox-label input[type="checkbox"] { margin-right: 8px; accent-color: var(--app-accent-primary); }
+    .tab-row {
+      display: flex; justify-content: flex-start; padding: 0 20px;
+      border-bottom: 1px solid var(--app-border-light); background-color: var(--app-surface-light); margin-top: 60px;
+    }
+    .tab-button {
+      padding: 12px 18px; background: transparent; border: none; border-bottom: 2px solid transparent;
+      color: var(--app-text-secondary-light-theme); font-size: 14px; font-weight: 500;
+      cursor: pointer; transition: color 0.2s ease, border-color 0.2s ease; margin-bottom: -1px;
+    }
+    .tab-button:hover { color: var(--app-text-primary-light-theme); }
+    .tab-button.active { color: var(--app-accent-primary); border-bottom: 2px solid var(--app-accent-primary); }
+    .tab-content-wrapper { flex-grow: 1; display: flex; align-items: flex-start; justify-content: center; padding: 25px; overflow-y: auto; }
+    .tab { display: none; width: 100%; height: 100%; margin: 0 auto; }
+    .tab.active { display: flex; flex-direction: column; }
+    .canvas-container-wrapper {
+        border: none; background-color: var(--app-surface-light);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1); border-radius: 8px; 
+        overflow: visible !important; /* Fix canvas clipping with zoom */
+        margin: auto;
+        position: relative;
+    }
+    .canvas-container {
+        overflow: visible !important;
+        position: relative !important;
+        margin: 0 auto;
+    }
+    canvas { display: block; }
+
+    #object-context-toolbar {
+        position: absolute; top: 72px; left: 50%; transform: translateX(-50%);
+        background-color: var(--app-surface-light); border-radius: 6px; box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        padding: 5px; display: flex; flex-direction: row; gap: 4px; z-index: 100;
+        align-items: center; border: 1px solid var(--app-border-light);
+    }
+    .toolbar-group { display: flex; gap: 2px; align-items: center; padding: 0 4px; }
+    .toolbar-group + .toolbar-group { border-left: 1px solid var(--app-border-light); }
+    .toolbar-item { position: relative; }
+    .context-btn {
+        background: none; border: 1px solid transparent; border-radius: 4px; padding: 5px 7px;
+        cursor: pointer; font-size: 15px; color: var(--app-text-secondary-light-theme);
+        line-height: 1; display: flex; align-items: center; justify-content: center;
+        min-width: 32px; transition: background-color 0.2s, color 0.2s;
+    }
+    .context-btn:disabled { color: #c5c5c7; cursor: not-allowed; }
+    .context-btn:not(:disabled):hover { background-color: #e8e8ed; color: var(--app-text-primary-light-theme); }
+    #toolbarDeleteBtn:not(:disabled) { color: var(--app-accent-danger); }
+    #object-context-toolbar .dropdown-content {
+        display: none; position: absolute; top: calc(100% + 5px); left: 50%; transform: translateX(-50%);
+        background-color: var(--app-surface-light); min-width: 150px; box-shadow: 0px 5px 15px rgba(0,0,0,0.15);
+        border: 1px solid var(--app-border-light); border-radius: 6px; padding: 8px; z-index: 101;
+    }
+    #object-context-toolbar .dropdown-content button {
+        width: 100%; padding: 8px 12px; font-size: 13px; border-radius: 4px; margin-bottom: 6px;
+        background-color: transparent; color: var(--app-text-primary-light-theme); border: none;
+        cursor: pointer; text-align: left; font-weight: 400; transition: background-color 0.15s ease;
+    }
+    #object-context-toolbar .dropdown-content button:last-of-type { margin-bottom: 0; }
+    #object-context-toolbar .dropdown-content button:hover { background-color: rgba(0,0,0,0.05); }
+
+    @media (max-width: 1024px) {
+        :root { --sidebar-width: 300px; }
+        .panel {
+            position: fixed; top: 0; left: 0; height: 100vh;
+            z-index: 1000; transform: translateX(-100%);
+        }
+        .panel.is-open { transform: translateX(0); }
+        .menu-toggle-btn { display: flex; }
+        .menu-close-btn { display: block; }
+        .tab-row { padding: 0 15px 0 70px; }
+    }
+
+    /* ============================================
+       MODERN UNIFIED HEADER STYLES
+       Exact implementation from wordsearch.html
+       ============================================ */
+
+    .tab-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 14px 24px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+        position: relative;
+        z-index: 15;
+        border-radius: 0;
+        margin: 0;
+        gap: 16px;
+    }
+
+    .tab-buttons-container {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+    }
+
+    .tab-button {
+        padding: 10px 24px;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        background: rgba(255, 255, 255, 0.15);
+        color: rgba(255, 255, 255, 0.8);
+        cursor: pointer;
+        border-radius: 8px;
+        transition: all 0.2s ease;
+        backdrop-filter: blur(10px);
+        position: relative;
+    }
+
+    .tab-button:hover {
+        background: rgba(255, 255, 255, 0.25);
+        color: white;
+        transform: translateY(-1px);
+    }
+
+    .tab-button.active {
+        background: rgba(255, 255, 255, 0.95);
+        color: #667eea;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Header Actions Container */
+    .header-actions {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        flex-shrink: 0;
+    }
+
+    /* --- Zoom Controls --- */
+    .zoom-controls {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        background-color: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 6px;
+        padding: 5px 10px;
+        backdrop-filter: blur(10px);
+    }
+
+    .zoom-btn {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+        padding: 6px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        color: white;
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .zoom-btn:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .zoom-btn:active {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .zoom-percentage {
+        min-width: 45px;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 600;
+        color: white;
+        user-select: none;
+    }
+
+    /* --- Undo/Redo Controls --- */
+    .history-controls {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background-color: rgba(255, 255, 255, 0.15);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 6px;
+        padding: 5px 10px;
+        backdrop-filter: blur(10px);
+    }
+
+    .history-btn {
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 4px;
+        padding: 6px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        color: white;
+        transition: all 0.2s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .history-btn:hover:not(:disabled) {
+        background-color: rgba(255, 255, 255, 0.2);
+        border-color: rgba(255, 255, 255, 0.4);
+    }
+
+    .history-btn:active:not(:disabled) {
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .history-btn:disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+    }
+
+    /* Unlock All Button */
+    .unlock-all-controls {
+        display: none; /* Hidden by default */
+        align-items: center;
+        gap: 6px;
+        padding: 4px 12px;
+        background: rgba(255, 165, 0, 0.25);
+        border-radius: 8px;
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 165, 0, 0.4);
+    }
+
+    .unlock-all-controls.visible {
+        display: flex;
+    }
+
+    .unlock-all-btn {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        padding: 4px 10px;
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 12px;
+        font-weight: 500;
+        transition: all 0.2s ease;
+        white-space: nowrap;
+    }
+
+    .unlock-all-btn:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transform: scale(1.05);
+    }
+
+    .unlock-all-btn i {
+        font-size: 14px;
+    }
+
+    /* --- Dropdown Containers --- */
+    .dropdown-container {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: white;
+        min-width: 200px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        border-radius: 8px;
+        z-index: 1000;
+        margin-top: 8px;
+        padding: 8px 0;
+    }
+
+    .dropdown-content.show {
+        display: block;
+    }
+
+    .dropdown-content button {
+        display: block;
+        width: 100%;
+        padding: 10px 16px;
+        border: none;
+        background: none;
+        text-align: left;
+        cursor: pointer;
+        font-size: 14px;
+        color: #333;
+        transition: background-color 0.2s;
+    }
+
+    .dropdown-content button:hover:not(:disabled) {
+        background-color: #f5f5f5;
+    }
+
+    .dropdown-content button:disabled {
+        color: #ccc;
+        cursor: not-allowed;
+    }
+
+    /* --- Action Buttons --- */
+    .action-button {
+        padding: 8px 16px;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+    .action-button.accent {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .action-button.accent:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+    }
+
+    .action-button.download-btn {
+        background: rgba(255, 255, 255, 0.95);
+        color: #667eea;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+    }
+
+    .action-button.download-btn:hover {
+        background: white;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .action-button.danger {
+        background: rgba(255, 255, 255, 0.2);
+        color: white;
+        border: 2px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .action-button.danger:hover {
+        background: rgba(255, 59, 48, 0.9);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(255, 59, 48, 0.3);
+    }
+  </style>
+  <script>
+    // Set currentLocale globally BEFORE any scripts initialize
+    let currentLocale = 'en';
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('locale')) {
+        currentLocale = urlParams.get('locale');
+    }
+    window.currentLocale = currentLocale;
+
+    // Define t() function GLOBALLY (not inside DOMContentLoaded!)
+    window.t = function(key) {
+        if (typeof translations === 'undefined') {
+            console.warn('Translations not loaded, returning key:', key);
+            return key;
+        }
+        const locale = window.currentLocale || 'en';
+        const translation = (translations[locale] && translations[locale][key]) ||
+                           (translations.en && translations.en[key]) ||
+                           key;
+        return translation;
+    };
+  </script>
+</head>
+<body>
+  <div class="layout">
+    <div id="menuOverlay" class="menu-overlay"></div>
+    <div class="panel">
+      <div class="panel-header">
+        <h2 data-translate="wordScrambleTitle">Word Scramble</h2>
+        <button id="menuCloseBtn" class="menu-close-btn">&times;</button>
+      </div>
+      <div class="panel-content">
+        <!-- Language Selector -->
+        <div class="language-selector" style="padding: 15px 10px; border-bottom: 1px solid var(--app-border-dark);">
+            <label data-translate="language" style="display: block; font-size: 13px; margin-bottom: 8px; color: var(--app-text-secondary-dark-theme);">Language:</label>
+            <select id="languageSelect" style="width: 100%; padding: 8px 10px; font-size: 13px; border-radius: 5px; border: 1px solid var(--app-border-dark); background-color: var(--app-surface-dark); color: var(--app-text-primary-dark-theme);">
+                <option value="en">English</option>
+                <option value="de">Deutsch</option>
+                <option value="fr">Français</option>
+                <option value="es">Español</option>
+                <option value="pt">Português</option>
+                <option value="it">Italiano</option>
+                <option value="nl">Nederlands</option>
+                <option value="sv">Svenska</option>
+                <option value="da">Dansk</option>
+                <option value="no">Norsk</option>
+                <option value="fi">Suomi</option>
+            </select>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="pageSetup">Page Setup</button>
+            <div class="accordion-content">
+                <label for="pageSizeSelect" data-translate="pageSize">Page Size:</label>
+                <select id="pageSizeSelect">
+                    <option value="612x792" data-translate="letterPortrait">Letter Portrait (8.5×11")</option>
+                    <option value="792x612" data-translate="letterLandscape">Letter Landscape (11×8.5")</option>
+                    <option value="595x842" data-translate="a4Portrait">A4 Portrait (210×297mm)</option>
+                    <option value="842x595" data-translate="a4Landscape">A4 Landscape (297×210mm)</option>
+                    <option value="1200x1200">Square (1200x1200)</option>
+                    <option value="custom" data-translate="custom">Custom</option>
+                </select>
+                <div id="customPageSizeInputs" style="display:none;">
+                    <label for="pageWidth" data-translate="width">Width (px):</label>
+                    <input type="number" id="pageWidth" value="612">
+                    <label for="pageHeight" data-translate="height">Height (px):</label>
+                    <input type="number" id="pageHeight" value="792">
+                </div>
+                <label for="pageColor" data-translate="pageColor">Page Color:</label>
+                <input type="color" id="pageColor" value="#FFFFFF">
+                <button id="setPageSizeBtn" data-translate="setPageSize">Apply Size</button>
+                
+                <h4 data-translate="backgroundTheme">Background</h4>
+                <label for="backgroundThemeSelect" data-translate="backgroundTheme">Background Theme:</label>
+                <select id="backgroundThemeSelect"><option value="none" data-translate="none">None</option></select>
+                <div id="backgroundDictionary"><p class="dictionary-message" data-translate="selectThemeForBackgrounds">Select a theme for backgrounds.</p></div>
+                <label for="backgroundOpacitySlider" data-translate="backgroundOpacity">Background Opacity:</label>
+                <input type="range" id="backgroundOpacitySlider" min="0" max="1" step="0.05" value="1" disabled>
+
+                <h4 data-translate="borderTheme">Border</h4>
+                <label for="borderThemeSelect" data-translate="borderTheme">Border Theme:</label>
+                <select id="borderThemeSelect"><option value="none" data-translate="none">None</option></select>
+                <div id="borderDictionary"><p class="dictionary-message" data-translate="selectThemeToSeeBorders">Select a theme to see borders.</p></div>
+                <label for="borderOpacitySlider" data-translate="borderOpacity">Border Opacity:</label>
+                <input type="range" id="borderOpacitySlider" min="0" max="1" step="0.05" value="1" disabled>
+
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="textTools">Text Tools</button>
+            <div class="accordion-content">
+                <h4 data-translate="addText">Add New Text</h4>
+                <label for="textInput" data-translate="textToAdd">Content:</label><input type="text" id="textInput" placeholder="Hello!">
+                <button id="addTextBtn" data-translate="addText">Add Text</button>
+                <h4 data-translate="selectedTextProperties">Selected Text Properties</h4>
+                <label for="textColor" data-translate="textColor">Color:</label><input type="color" id="textColor" value="#333333" disabled>
+                <label for="fontSize" data-translate="fontSize">Size:</label><input type="number" id="fontSize" value="48" min="8" disabled>
+                <label for="fontFamily" data-translate="fontFamily">Font:</label>
+                <select id="fontFamily" disabled>
+                    <option value="Lexend Deca">Lexend Deca</option>
+                    <option value="Baloo 2">Baloo 2</option>
+                    <option value="Nunito">Nunito</option>
+                    <option value="Quicksand">Quicksand</option>
+                    <option value="Fredoka">Fredoka</option>
+                    <option value="Arial">Arial</option>
+                    <option value="Verdana">Verdana</option>
+                </select>
+                <label for="textStrokeColor" data-translate="strokeColor">Outline Color:</label><input type="color" id="textStrokeColor" value="#000000" disabled>
+                <label for="textStrokeWidth" data-translate="strokeWidth">Outline (0-10):</label><input type="range" id="textStrokeWidth" min="0" max="10" value="0" step="0.5" disabled>
+            </div>
+        </div>
+
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="problemSettings">Exercise Configuration</button>
+            <div class="accordion-content">
+                <label for="puzzleCount" data-translate="puzzlesPerPage">Number of Puzzles (1–10):</label>
+                <input type="number" id="puzzleCount" value="6" min="1" max="10" />
+                
+                <div class="control-group">
+                    <label class="group-label" data-translate="difficulty">Difficulty (Number of Clues)</label>
+                    <label class="radio-label"><input type="radio" name="difficulty" value="0" checked/> <span data-translate="noClues">No clues</span></label>
+                    <label class="radio-label"><input type="radio" name="difficulty" value="2"/> <span data-translate="easy">Easy (1/2)</span></label>
+                    <label class="radio-label"><input type="radio" name="difficulty" value="4"/> <span data-translate="normal">Normal (1/4)</span></label>
+                    <label class="radio-label"><input type="radio" name="difficulty" value="6"/> <span data-translate="tough">Tough (1/6)</span></label>
+                </div>
+
+                <div class="control-group">
+                    <label class="group-label" data-translate="letterCase">Letter Case</label>
+                    <label class="radio-label"><input type="radio" name="letterCase" value="upper" checked/> <span data-translate="uppercase">Uppercase</span></label>
+                    <label class="radio-label"><input type="radio" name="letterCase" value="lower"/> <span data-translate="lowercase">Lowercase</span></label>
+                </div>
+                
+                <div class="control-group">
+                    <label class="group-label" data-translate="letterColors">Letter Colors</label>
+                    <label class="radio-label"><input type="radio" name="letterColor" value="color" checked/> <span data-translate="colorCodedVowelConsonant">Color Coded (Vowel/Consonant)</span></label>
+                    <label class="radio-label"><input type="radio" name="letterColor" value="black"/> <span data-translate="allBlack">All Black</span></label>
+                </div>
+
+                <label class="checkbox-label">
+                    <input type="checkbox" id="includeNameDate" /><span data-translate="includeNameDateLine">Include Name/Date Fields</span>
+                </label>
+                 <label class="checkbox-label">
+                    <input type="checkbox" id="includeExerciseNumbers" checked/><span data-translate="includeExerciseNumbers">Include Puzzle Numbers</span>
+                </label>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="imageSelection">Image Library</button>
+            <div class="accordion-content">
+                <label for="themeSelect" data-translate="selectTheme">Select Theme:</label>
+                <select id="themeSelect"></select>
+                <label for="searchInput" data-translate="searchImages">Search Images:</label>
+                <input type="text" id="searchInput" placeholder="e.g., apple, car" data-translate-placeholder="searchPlaceholder" />
+                <p class="selected-count" id="selectedCountMsg">Selected: 0 / 6</p>
+                <label data-translate="searchImages">Available Images:</label>
+                <div id="dictionary"><p class='dictionary-message'>Loading themes...</p></div>
+                <label style="margin-top:10px;" data-translate="selectedImagesForPuzzles">Selected Images for Puzzles:</label>
+                <div id="selectedImagesPreview" class="selected-preview"></div>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="uploadCustomImages">Upload Custom Images</button>
+            <div class="accordion-content">
+                <label for="imageUploadInput" data-translate="selectImagesToUpload">Select image(s) to upload:</label>
+                <div style="position: relative; margin: 10px 0;">
+                    <button type="button" id="customFileButton" class="action-button" style="padding: 8px 16px; font-size: 14px;" data-translate="chooseFiles">Choose Files</button>
+                    <span id="fileSelectionText" style="margin-left: 10px; color: var(--app-text-secondary-dark-theme);" data-translate="noFileChosen">No file chosen</span>
+                    <input type="file" id="imageUploadInput" multiple accept="image/*" style="position: absolute; left: -9999px;">
+                </div>
+                <label style="margin-top:10px;" data-translate="yourUploadedImages">Your Uploaded Images (This Session):</label>
+                <div id="uploadedImagesPreview">
+                    <p class="dictionary-message" data-translate="yourUploadedImagesAppearHere">Your uploaded images will appear here.</p>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="panel-footer">
+          <div id="message"></div>
+      </div>
+    </div>
+
+    <div class="main">
+      <button id="menuToggleBtn" class="menu-toggle-btn"><i class="fas fa-bars"></i></button>
+      
+      <div id="object-context-toolbar" style="display:none;">
+          <div class="toolbar-group">
+              <div class="toolbar-item">
+                  <button class="context-btn" id="layersBtn" title="Layers" data-translate-title="layers"><i class="fas fa-layer-group"></i></button>
+                  <div class="dropdown-content" id="layersDropdown">
+                      <button id="toolbarBringToFrontBtn" data-translate="bringToFront">Bring to Front</button>
+                      <button id="toolbarBringForwardBtn" data-translate="bringForward">Bring Forward</button>
+                      <button id="toolbarSendBackwardBtn" data-translate="sendBackward">Send Backward</button>
+                      <button id="toolbarSendToBackBtn" data-translate="sendToBack">Send to Back</button>
+                  </div>
+              </div>
+          </div>
+          <div class="toolbar-group">
+              <div class="toolbar-item">
+                  <button class="context-btn" id="alignBtn" title="Align" data-translate-title="align"><i class="fas fa-th"></i></button>
+                  <div class="dropdown-content" id="alignDropdown" style="min-width: 220px; padding: 12px;">
+                          <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="alignSelected">Align Selected:</p>
+                          <div>
+                                  <button class="context-btn" id="alignLeftBtn" title="Align Left" data-translate-title="alignLeft"><i class="fas fa-align-left"></i></button>
+                                  <button class="context-btn" id="alignHCenterBtn" title="Center Horizontally" data-translate-title="centerHorizontally"><i class="fas fa-align-center"></i></button>
+                                  <button class="context-btn" id="alignRightBtn" title="Align Right" data-translate-title="alignRight"><i class="fas fa-align-right"></i></button>
+                          </div>
+                          <div style="margin-top: 5px;">
+                                  <button class="context-btn" id="alignTopBtn" title="Align Top" data-translate-title="alignTop"><i class="fas fa-long-arrow-alt-up"></i></button>
+                                  <button class="context-btn" id="alignVCenterBtn" title="Center Vertically" data-translate-title="centerVertically"><i class="fas fa-grip-lines"></i></button>
+                                  <button class="context-btn" id="alignBottomBtn" title="Align Bottom" data-translate-title="alignBottom"><i class="fas fa-long-arrow-alt-down"></i></button>
+                          </div>
+                          <hr style="margin:8px 0; border:none; border-top:1px solid #eee;">
+                          <p style="font-size:11px; margin-bottom:5px; color:#555;" data-translate="alignToPage">Align to Page:</p>
+                          <div>
+                                  <button class="context-btn" id="centerHCanvasBtn" title="Center on Page Horizontally" data-translate-title="centerOnPageHorizontally"><i class="fas fa-arrows-alt-h"></i></button>
+                                  <button class="context-btn" id="centerVCanvasBtn" title="Center on Page Vertically" data-translate-title="centerOnPageVertically"><i class="fas fa-arrows-alt-v"></i></button>
+                          </div>
+                  </div>
+              </div>
+          </div>
+          <div class="toolbar-group">
+              <button class="context-btn" id="toolbarLockBtn" data-translate-title="lockUnlock" title="Lock/Unlock"><i class="fas fa-lock-open"></i></button>
+          </div>
+          <div class="toolbar-group">
+              <button class="context-btn" id="toolbarDeleteBtn" title="Delete Selected" data-translate-title="deleteSelected"><i class="fas fa-trash-alt"></i></button>
+          </div>
+      </div>
+
+      <div class="tab-row">
+                <div class="tab-buttons-container">
+                    <button class="tab-button active" data-tab="worksheetTab" data-translate="worksheet">Worksheet</button>
+                    <button class="tab-button" data-tab="answerKeyTab" data-translate="answerKey">Answer Key</button>
+                </div>
+                <div class="header-actions">
+                    <div class="zoom-controls">
+                        <button id="zoomOutBtn" class="zoom-btn" title="Zoom Out" data-translate-title="zoomOut"><i class="fas fa-search-minus"></i></button>
+                        <span id="zoomPercentage" class="zoom-percentage">100%</span>
+                        <button id="zoomInBtn" class="zoom-btn" title="Zoom In" data-translate-title="zoomIn"><i class="fas fa-search-plus"></i></button>
+                        <button id="zoomResetBtn" class="zoom-btn" title="Reset Zoom" data-translate-title="resetZoom"><i class="fas fa-compress-arrows-alt"></i></button>
+                    </div>
+                    <div class="history-controls">
+                        <button id="undoBtn" class="history-btn" title="Undo (Ctrl+Z)" data-translate-title="undo" disabled><i class="fas fa-undo"></i></button>
+                        <button id="redoBtn" class="history-btn" title="Redo (Ctrl+Y)" data-translate-title="redo" disabled><i class="fas fa-redo"></i></button>
+                    </div>
+
+                    <!-- Unlock All Button (shown when objects are locked) -->
+                    <div id="unlockAllControls" class="unlock-all-controls">
+                        <button id="unlockAllBtn" class="unlock-all-btn" data-translate-title="unlockAll" title="Unlock All Locked Objects">
+                            <i class="fas fa-unlock"></i>
+                            <span data-translate="unlockAll">Unlock All</span>
+                        </button>
+                    </div>
+
+                    <div class="dropdown-container">
+                        <button id="generateDropdownBtn" class="action-button accent"><span data-translate="generate">Generate</span> <i class="fas fa-caret-down"></i></button>
+                        <div id="generateDropdownContent" class="dropdown-content">
+                            <button id="generateWorksheetBtn" data-translate="newWorksheet">New Worksheet</button>
+                            <button id="generateAnswerKeyBtn" disabled data-translate="answerKey">Answer Key</button>
+                        </div>
+                    </div>
+                    <div class="dropdown-container">
+                        <button id="downloadDropdownBtn" class="action-button download-btn"><span data-translate="download">Download</span> <i class="fas fa-caret-down" style="margin-left: 5px;"></i></button>
+                        <div id="downloadDropdownContent" class="dropdown-content">
+                            <button id="downloadWorksheetJpegBtn" disabled data-translate="worksheetJpeg">Worksheet (JPEG)</button>
+                            <button id="downloadAnswerKeyJpegBtn" disabled data-translate="answerKeyJpeg">Answer Key (JPEG)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
+                            <button id="downloadWorksheetPdfBtn" disabled data-translate="worksheetPdf">Worksheet (PDF)</button>
+                            <button id="downloadAnswerKeyPdfBtn" disabled data-translate="answerKeyPdf">Answer Key (PDF)</button>
+                            <hr style="margin: 6px 0; border-color: #eee;">
+                            <label class="checkbox-label" id="grayscaleLabel">
+                                <input type="checkbox" id="grayscaleToggle" /><span data-translate="grayscale">Grayscale</span>
+                            </label>
+                        </div>
+                    </div>
+                    <button id="clearBtn" class="action-button danger" data-translate="clearAll">Clear All</button>
+                </div>
+            </div>
+      <div class="tab-content-wrapper">
+        <div class="tab active" id="worksheetTab">
+            <div class="canvas-container-wrapper" id="worksheetCanvasWrapper">
+                <canvas id="worksheetCanvasElement"></canvas>
+            </div>
+        </div>
+        <div class="tab" id="answerKeyTab">
+             <div class="canvas-container-wrapper" id="answerKeyCanvasWrapper">
+                <canvas id="answerKeyCanvasElement"></canvas>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Apply translations function
+    function applyTranslations() {
+        // Translate elements with data-translate
+        document.querySelectorAll('[data-translate]').forEach(element => {
+            const key = element.getAttribute('data-translate');
+            if (key && typeof t !== 'undefined') {
+                const translation = t(key);
+                if (translation && translation !== key) {
+                    if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                        if (element.type === 'button' || element.type === 'submit') {
+                            element.value = translation;
+                        }
+                    } else if (element.tagName === 'OPTION') {
+                        element.textContent = translation;
+                    } else if (element.tagName === 'BUTTON' || element.tagName === 'A') {
+                        // For buttons with icons, preserve the icon
+                        const icon = element.querySelector('i');
+                        if (icon) {
+                            element.innerHTML = translation + ' ' + icon.outerHTML;
+                        } else {
+                            element.textContent = translation;
+                        }
+                    } else {
+                        element.textContent = translation;
+                    }
+                }
+            }
+        });
+
+        // Translate placeholders
+        document.querySelectorAll('[data-translate-placeholder]').forEach(element => {
+            const key = element.getAttribute('data-translate-placeholder');
+            if (key && typeof t !== 'undefined') {
+                element.placeholder = t(key);
+            }
+        });
+
+        // Translate titles
+        document.querySelectorAll('[data-translate-title]').forEach(element => {
+            const key = element.getAttribute('data-translate-title');
+            if (key && typeof t !== 'undefined') {
+                element.title = t(key);
+            }
+        });
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+        // Apply translations immediately
+        applyTranslations();
+
+        // --- Locale/Language Handling ---
+        // currentLocale is already set globally before scripts load
+
+        // --- App State ---
+        let currentThemeImages = [];
+        let uploadedImages = [];
+        let selectedImages = [];
+        let lastGeneratedPuzzles = null;
+        const downloadMultiplier = 6;
+
+        // --- DOM Element Caching ---
+        const ui = {
+            panel: document.querySelector('.panel'),
+            menuToggleBtn: document.getElementById('menuToggleBtn'),
+            menuCloseBtn: document.getElementById('menuCloseBtn'),
+            menuOverlay: document.getElementById('menuOverlay'),
+            accordionButtons: document.querySelectorAll('.accordion-button'),
+            messageDiv: document.getElementById("message"),
+            
+            pageSizeSelect: document.getElementById('pageSizeSelect'),
+            customPageSizeInputsDiv: document.getElementById('customPageSizeInputs'),
+            pageWidthInput: document.getElementById('pageWidth'),
+            pageHeightInput: document.getElementById('pageHeight'),
+            setPageSizeBtn: document.getElementById('setPageSizeBtn'),
+            pageColorInput: document.getElementById('pageColor'),
+            backgroundThemeSelect: document.getElementById('backgroundThemeSelect'),
+            backgroundDictionary: document.getElementById('backgroundDictionary'),
+            backgroundOpacitySlider: document.getElementById('backgroundOpacitySlider'),
+            borderThemeSelect: document.getElementById('borderThemeSelect'),
+            borderDictionary: document.getElementById('borderDictionary'),
+            borderOpacitySlider: document.getElementById('borderOpacitySlider'),
+
+            showHeaderCheckbox: document.getElementById('showHeaderCheckbox'),
+            headerTitleInput: document.getElementById('headerTitleInput'),
+            headerDescriptionInput: document.getElementById('headerDescriptionInput'),
+            headerControls: document.getElementById('headerControls'),
+
+            textInput: document.getElementById('textInput'),
+            addTextBtn: document.getElementById('addTextBtn'),
+            textColorInput: document.getElementById('textColor'),
+            fontSizeInput: document.getElementById('fontSize'),
+            fontFamilySelect: document.getElementById('fontFamily'),
+            textStrokeColorInput: document.getElementById('textStrokeColor'),
+            textStrokeWidthInput: document.getElementById('textStrokeWidth'),
+
+            puzzleCount: document.getElementById('puzzleCount'),
+            includeNameDate: document.getElementById('includeNameDate'),
+            includeExerciseNumbers: document.getElementById('includeExerciseNumbers'),
+
+            themeSelect: document.getElementById("themeSelect"),
+            searchInput: document.getElementById("searchInput"),
+            dictionary: document.getElementById("dictionary"),
+            selectedImagesPreview: document.getElementById("selectedImagesPreview"),
+            selectedCountMsg: document.getElementById("selectedCountMsg"),
+            imageUploadInput: document.getElementById("imageUploadInput"),
+            customFileButton: document.getElementById("customFileButton"),
+            fileSelectionText: document.getElementById("fileSelectionText"),
+            uploadedImagesPreview: document.getElementById("uploadedImagesPreview"),
+            
+            languageSelect: document.getElementById('languageSelect'),
+
+            generateDropdownBtn: document.getElementById("generateDropdownBtn"),
+            generateDropdownContent: document.getElementById("generateDropdownContent"),
+            generateWorksheetBtn: document.getElementById("generateWorksheetBtn"),
+            generateAnswerKeyBtn: document.getElementById("generateAnswerKeyBtn"),
+            downloadDropdownBtn: document.getElementById("downloadDropdownBtn"),
+            downloadDropdownContent: document.getElementById("downloadDropdownContent"),
+            
+            downloadWorksheetJpegBtn: document.getElementById("downloadWorksheetJpegBtn"),
+            downloadAnswerKeyJpegBtn: document.getElementById("downloadAnswerKeyJpegBtn"),
+            downloadWorksheetPdfBtn: document.getElementById("downloadWorksheetPdfBtn"),
+            downloadAnswerKeyPdfBtn: document.getElementById("downloadAnswerKeyPdfBtn"),
+
+            grayscaleToggle: document.getElementById('grayscaleToggle'),
+            clearBtn: document.getElementById("clearBtn"),
+            
+            worksheetCanvasWrapper: document.getElementById('worksheetCanvasWrapper'),
+            worksheetCanvasElement: document.getElementById('worksheetCanvasElement'),
+            answerKeyCanvasWrapper: document.getElementById('answerKeyCanvasWrapper'),
+            answerKeyCanvasElement: document.getElementById('answerKeyCanvasElement'),
+            tabButtons: document.querySelectorAll(".tab-button"),
+
+            objectContextToolbar: document.getElementById('object-context-toolbar'),
+            layersBtn: document.getElementById('layersBtn'),
+            layersDropdown: document.getElementById('layersDropdown'),
+            toolbarBringToFrontBtn: document.getElementById('toolbarBringToFrontBtn'),
+            toolbarBringForwardBtn: document.getElementById('toolbarBringForwardBtn'),
+            toolbarSendBackwardBtn: document.getElementById('toolbarSendBackwardBtn'),
+            toolbarSendToBackBtn: document.getElementById('toolbarSendToBackBtn'),
+            alignBtn: document.getElementById('alignBtn'),
+            alignDropdown: document.getElementById('alignDropdown'),
+            toolbarLockBtn: document.getElementById('toolbarLockBtn'),
+            toolbarDeleteBtn: document.getElementById('toolbarDeleteBtn'),
+        };
+
+        // Shorter references for header elements
+        const showHeaderCheckbox = ui.showHeaderCheckbox;
+        const headerTitleInput = ui.headerTitleInput;
+        const headerDescriptionInput = ui.headerDescriptionInput;
+        const headerControls = ui.headerControls;
+
+        // --- Canvas & Config ---
+        let worksheetCanvas, answerKeyCanvas;
+        let currentCanvasConfig = { width: 612, height: 792 }; // Letter Portrait default
+        let userZoomLevel = 1.0; // User-controlled zoom level (100% = 1.0)
+
+        // --- Undo/Redo State Management ---
+        let historyStack = [];
+        let redoStack = [];
+        const MAX_HISTORY = 20;
+        let isRestoringState = false; // Flag to prevent saving state during restoration
+        let isGenerating = false; // Flag to prevent saving state during bulk generation
+
+        // --- Utility Functions ---
+        // --- Sidebar Message Function ---
+        function showMessage(message, type = 'info', duration = 3000) {
+            ui.messageDiv.textContent = message;
+            ui.messageDiv.className = type;
+            ui.messageDiv.style.display = 'block';
+            if (duration > 0) {
+                setTimeout(() => { ui.messageDiv.style.display = 'none'; }, duration);
+            }
+        }
+        const shuffleArray = (arr) => {
+            for (let i = arr.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [arr[i], arr[j]] = [arr[j], arr[i]];
+            }
+            return arr;
+        };
+        const isVowel = (letter) => 'AEIOU'.includes(letter.toUpperCase());
+
+        function getActiveCanvas() {
+            const activeTab = document.querySelector('.tab.active');
+            return activeTab && activeTab.id === 'answerKeyTab' ? answerKeyCanvas : worksheetCanvas;
+        }
+
+        function createHeaderGroup(canvas) {
+            const defaultHeaders = {
+                en: { title: 'Word Scramble', description: 'Unscramble the letters to make words!' },
+                de: { title: 'Buchstabensalat', description: 'Ordne die Buchstaben und finde die Wörter!' },
+                fr: { title: 'Mots Mêlés', description: 'Remets les lettres dans le bon ordre pour faire des mots!' },
+                es: { title: 'Palabras Revueltas', description: '¡Ordena las letras para formar palabras!' },
+                it: { title: 'Lettere Mescolate', description: 'Riordina le lettere per formare le parole!' },
+                pt: { title: 'Letras Embaralhadas', description: 'Organize as letras para formar palavras!' },
+                nl: { title: 'Letterzaak', description: 'Zet de letters in de juiste volgorde om woorden te maken!' },
+                sv: { title: 'Bokstavspussel', description: 'Ordna bokstäverna för att bilda ord!' },
+                da: { title: 'Bogstavrod', description: 'Sæt bogstaverne i den rigtige rækkefølge!' },
+                no: { title: 'Bokstavblanding', description: 'Sett bokstavene i riktig rekkefølge for å lage ord!' },
+                fi: { title: 'Kirjainsekoitus', description: 'Järjestä kirjaimet muodostaaksesi sanoja!' }
+            };
+
+            const locale = currentLocale || 'en';
+            const defaults = defaultHeaders[locale] || defaultHeaders.en;
+            const title = defaults.title;
+            const description = defaults.description;
+
+            // Get current canvas dimensions for responsive design
+            const pageWidth = currentCanvasConfig.width;
+            const pageHeight = currentCanvasConfig.height;
+            const isLandscape = pageWidth > pageHeight;
+
+            const objects = [];
+
+            // Outer border - Fresh green for word learning (responsive)
+            const margin = 34;
+            const strokeWidth = 8;
+            const borderWidth = pageWidth - (margin * 2);
+            const borderHeight = pageHeight - (margin * 2);
+
+            const outerBorder = new fabric.Rect({
+                left: margin,
+                top: margin,
+                width: borderWidth,
+                height: borderHeight,
+                fill: 'transparent',
+                stroke: '#5CB85C',
+                strokeWidth: strokeWidth,
+                rx: 12,
+                ry: 12,
+                selectable: true,
+                hasControls: true,
+                isPageBorder: true
+            });
+            objects.push(outerBorder);
+
+            // Inner border - Cheerful yellow accent (responsive)
+            const innerMargin = margin + 12.5;
+            const innerBorder = new fabric.Rect({
+                left: innerMargin + 2,  // Offset 2px to the right
+                top: innerMargin + 3,   // Offset 3px downward
+                width: pageWidth - (innerMargin * 2),
+                height: pageHeight - (innerMargin * 2),
+                fill: 'transparent',
+                stroke: '#FFC107',
+                strokeWidth: 3,
+                rx: 8,
+                ry: 8,
+                selectable: true,
+                hasControls: true,
+                isPageBorder: true
+            });
+            objects.push(innerBorder);
+
+            // RESPONSIVE HEADER - Landscape vs Portrait
+            if (isLandscape) {
+                // LANDSCAPE: Compact centered header
+                const maxHeaderWidth = Math.min(500, pageWidth * 0.6);
+                const headerLeft = (pageWidth - maxHeaderWidth) / 2;
+                const headerTop = 60;
+                const headerHeight = 90;
+
+                // Header background - Vibrant orange for energy
+                const bgRect = new fabric.Rect({
+                    left: headerLeft,
+                    top: headerTop,
+                    width: maxHeaderWidth,
+                    height: headerHeight,
+                    fill: '#FF7043',
+                    rx: 15,
+                    ry: 15,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(bgRect);
+
+                // White pill for title
+                const pillMargin = 10;
+                const whitePill = new fabric.Rect({
+                    left: headerLeft + pillMargin,
+                    top: headerTop + pillMargin,
+                    width: maxHeaderWidth - (pillMargin * 2),
+                    height: headerHeight - (pillMargin * 2),
+                    fill: '#FFFFFF',
+                    rx: 35,
+                    ry: 35,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(whitePill);
+
+                // Title - Compact size for landscape
+                let titleFontSize = 32;
+                if (title.length > 15) titleFontSize = 28;
+                if (title.length > 20) titleFontSize = 24;
+
+                const titleText = new fabric.IText(title, {
+                    left: pageWidth / 2,
+                    top: headerTop + (headerHeight / 2),
+                    fontSize: titleFontSize,
+                    fontFamily: 'Fredoka, sans-serif',
+                    fontWeight: '700',
+                    fill: '#2C3E50',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'center',
+                    selectable: true,
+                    editable: true,
+                    isHeaderElement: true
+                });
+                objects.push(titleText);
+
+                // Description - Compact for landscape
+                const descText = new fabric.Textbox(description, {
+                    left: pageWidth / 2,
+                    top: headerTop + headerHeight + 5,
+                    width: maxHeaderWidth - 20,
+                    fontSize: 14,
+                    fontFamily: 'Quicksand, sans-serif',
+                    fontWeight: '500',
+                    fill: '#555555',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'top',
+                    selectable: true,
+                    editable: true,
+                    hasControls: true,
+                    isHeaderDesc: true
+                });
+                objects.push(descText);
+
+            } else {
+                // PORTRAIT: Full-width professional header
+                const headerMargin = 70;
+                const headerWidth = pageWidth - (headerMargin * 2);
+                const headerTop = 70;
+
+                // Header background - Vibrant orange for energy
+                const bgRect = new fabric.Rect({
+                    left: headerMargin,
+                    top: headerTop,
+                    width: headerWidth,
+                    height: 100,
+                    fill: '#FF7043',
+                    rx: 15,
+                    ry: 15,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(bgRect);
+
+                // White pill for title
+                const pillMargin = 20;
+                const whitePill = new fabric.Rect({
+                    left: headerMargin + pillMargin,
+                    top: headerTop + 15,
+                    width: headerWidth - (pillMargin * 2),
+                    height: 70,
+                    fill: '#FFFFFF',
+                    rx: 35,
+                    ry: 35,
+                    selectable: true,
+                    isHeaderElement: true
+                });
+                objects.push(whitePill);
+
+                // Title - Dynamic size based on length
+                let titleFontSize = 48;
+                if (title.length > 12) titleFontSize = 40;
+                if (title.length > 15) titleFontSize = 36;
+                if (title.length > 18) titleFontSize = 32;
+                if (title.length > 22) titleFontSize = 28;
+
+                const titleText = new fabric.IText(title, {
+                    left: pageWidth / 2,
+                    top: headerTop + 50,
+                    fontSize: titleFontSize,
+                    fontFamily: 'Fredoka, sans-serif',
+                    fontWeight: '700',
+                    fill: '#2C3E50',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'center',
+                    selectable: true,
+                    editable: true,
+                    isHeaderElement: true
+                });
+                objects.push(titleText);
+
+                // Description text
+                const descText = new fabric.Textbox(description, {
+                    left: pageWidth / 2,
+                    top: headerTop + 120,
+                    width: Math.min(450, pageWidth - 150),
+                    fontSize: 20,
+                    fontFamily: 'Quicksand, sans-serif',
+                    fontWeight: '500',
+                    fill: '#555555',
+                    textAlign: 'center',
+                    originX: 'center',
+                    originY: 'top',
+                    selectable: true,
+                    editable: true,
+                    hasControls: true,
+                    isHeaderDesc: true
+                });
+                objects.push(descText);
+            }
+
+            return objects;
+        }
+
+        function createPageBorder(canvas) {
+            return null;
+        }
+
+        function enforceZOrder(canvas) {
+            if (!canvas) return;
+
+            // REMOVED: Automatic z-order enforcement for backgrounds and borders
+            // Users should have full control over these elements via layer controls
+
+            // Only enforce for page border (purple border around page)
+            const pageBorder = canvas.getObjects().find(o => o.isPageBorder);
+            if (pageBorder) {
+                canvas.sendToBack(pageBorder);
+            }
+        }
+
+        // ============================================
+        // ZOOM FUNCTIONALITY
+        // Exact implementation from wordsearch.html
+        // ============================================
+
+        function updateZoomDisplay() {
+            const zoomPercentage = document.getElementById('zoomPercentage');
+            if (zoomPercentage) {
+                zoomPercentage.textContent = Math.round(userZoomLevel * 100) + '%';
+            }
+        }
+
+        function zoomIn() {
+            // Increase zoom by 25%, max 300%
+            userZoomLevel = Math.min(userZoomLevel + 0.25, 3.0);
+            updateZoomDisplay();
+            updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+        }
+
+        function zoomOut() {
+            // Decrease zoom by 25%, min 25%
+            userZoomLevel = Math.max(userZoomLevel - 0.25, 0.25);
+            updateZoomDisplay();
+            updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+        }
+
+        function zoomReset() {
+            // Reset to 100%
+            userZoomLevel = 1.0;
+            updateZoomDisplay();
+            updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+        }
+
+        // ============================================
+        // Z-ORDER FUNCTIONS
+        // Exact implementation from wordsearch.html
+        // ============================================
+
+        function bringObjectToFront() {
+            const canvas = getActiveCanvas();
+            const activeObject = canvas.getActiveObject();
+            if (activeObject) {
+                const beforeIndex = canvas.getObjects().indexOf(activeObject);
+                console.log('[Z-ORDER] Bring to Front - Before index:', beforeIndex);
+
+                canvas.bringToFront(activeObject);
+
+                const afterIndex = canvas.getObjects().indexOf(activeObject);
+                console.log('[Z-ORDER] After index:', afterIndex);
+                canvas.renderAll();
+            }
+            closeAllPopovers();
+        }
+
+        function bringObjectForward() {
+            const canvas = getActiveCanvas();
+            const activeObject = canvas.getActiveObject();
+            if (activeObject) {
+                const beforeIndex = canvas.getObjects().indexOf(activeObject);
+                console.log('[Z-ORDER] Bring Forward - Before index:', beforeIndex);
+
+                canvas.bringForward(activeObject);
+
+                const afterIndex = canvas.getObjects().indexOf(activeObject);
+                console.log('[Z-ORDER] After index:', afterIndex);
+                canvas.renderAll();
+            }
+            closeAllPopovers();
+        }
+
+        function sendObjectBackward() {
+            const canvas = getActiveCanvas();
+            const activeObject = canvas.getActiveObject();
+            if (activeObject) {
+                const beforeIndex = canvas.getObjects().indexOf(activeObject);
+                console.log('[Z-ORDER] Send Backward - Before index:', beforeIndex);
+
+                canvas.sendBackwards(activeObject);
+
+                const afterIndex = canvas.getObjects().indexOf(activeObject);
+                console.log('[Z-ORDER] After index:', afterIndex);
+                canvas.renderAll();
+            }
+            closeAllPopovers();
+        }
+
+        function sendObjectToBack() {
+            const canvas = getActiveCanvas();
+            const activeObject = canvas.getActiveObject();
+            if (activeObject) {
+                const beforeIndex = canvas.getObjects().indexOf(activeObject);
+                console.log('[Z-ORDER] Send to Back - Before index:', beforeIndex);
+
+                canvas.sendToBack(activeObject);
+
+                const afterIndex = canvas.getObjects().indexOf(activeObject);
+                console.log('[Z-ORDER] After index:', afterIndex);
+                canvas.renderAll();
+            }
+            closeAllPopovers();
+        }
+
+        // ============================================
+        // UNDO/REDO FUNCTIONS
+        // Exact implementation from wordsearch.html
+        // ============================================
+
+        function saveCanvasState() {
+            if (isRestoringState || isGenerating) return; // Don't save during undo/redo or generation
+            console.log("[UNDO DEBUG] saveCanvasState called, isRestoringState:", isRestoringState, "isGenerating:", isGenerating);
+
+            const activeCanvas = getActiveCanvas();
+            console.log("[UNDO DEBUG] saveCanvasState guard passed, activeCanvas:", activeCanvas);
+            if (!activeCanvas) return;
+
+            const state = {
+                canvasJSON: activeCanvas.toJSON(['isPuzzleElement', 'isAnswerKeyItem', 'isPageBorder', 'isHeaderDesc', 'isHeaderElement', 'isBorder', 'isBackground', 'originalIndex', 'isGeneratedItem', 'position']),
+                canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+                timestamp: Date.now()
+            };
+
+            historyStack.push(state);
+            if (historyStack.length > MAX_HISTORY) {
+                console.log("[UNDO DEBUG] State pushed to historyStack, new length:", historyStack.length);
+                historyStack.shift(); // Remove oldest state
+            }
+
+            redoStack = []; // Clear redo stack on new action
+            updateHistoryButtons();
+        }
+
+        function undo() {
+            if (historyStack.length === 0) return;
+
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+
+            // Save current state to redo stack before undoing
+            const currentState = {
+                canvasJSON: activeCanvas.toJSON(['isPuzzleElement', 'isAnswerKeyItem', 'isPageBorder', 'isHeaderDesc', 'isHeaderElement', 'isBorder', 'isBackground', 'originalIndex', 'isGeneratedItem', 'position']),
+                canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+                timestamp: Date.now()
+            };
+            redoStack.push(currentState);
+
+            // Restore previous state
+            const previousState = historyStack.pop();
+            restoreCanvasState(previousState);
+
+            updateHistoryButtons();
+            showMessage('Undo', 'info');
+        }
+
+        function redo() {
+            if (redoStack.length === 0) return;
+
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+
+            // Save current state to history stack
+            const currentState = {
+                canvasJSON: activeCanvas.toJSON(['isPuzzleElement', 'isAnswerKeyItem', 'isPageBorder', 'isHeaderDesc', 'isHeaderElement', 'isBorder', 'isBackground', 'originalIndex', 'isGeneratedItem', 'position']),
+                canvasType: activeCanvas === worksheetCanvas ? 'worksheet' : 'answerKey',
+                timestamp: Date.now()
+            };
+            historyStack.push(currentState);
+
+            // Restore next state
+            const nextState = redoStack.pop();
+            restoreCanvasState(nextState);
+
+            updateHistoryButtons();
+            showMessage('Redo', 'info');
+        }
+
+        function restoreCanvasState(state) {
+            if (!state) return;
+
+            isRestoringState = true; // Prevent saving during restoration
+
+            const targetCanvas = state.canvasType === 'worksheet' ? worksheetCanvas : answerKeyCanvas;
+            if (!targetCanvas) {
+                isRestoringState = false;
+                return;
+            }
+
+            targetCanvas.loadFromJSON(state.canvasJSON, function() {
+                targetCanvas.renderAll();
+                isRestoringState = false;
+            });
+        }
+
+        function updateHistoryButtons() {
+            const undoBtn = document.getElementById('undoBtn');
+            console.log("[UNDO DEBUG] updateHistoryButtons called, historyStack.length:", historyStack.length, "redoStack.length:", redoStack.length);
+            const redoBtn = document.getElementById('redoBtn');
+
+            if (undoBtn) {
+                undoBtn.disabled = historyStack.length === 0;
+            }
+            console.log("[UNDO DEBUG] undoBtn.disabled set to:", undoBtn ? undoBtn.disabled : 'N/A', "redoBtn.disabled set to:", redoBtn ? redoBtn.disabled : 'N/A');
+            if (redoBtn) {
+                redoBtn.disabled = redoStack.length === 0;
+            }
+        }
+
+        // --- Initialization ---
+        function initializeApp() {
+            // Set language selector to current locale
+            if (ui.languageSelect) {
+                ui.languageSelect.value = currentLocale;
+                ui.languageSelect.addEventListener('change', async function() {
+                    currentLocale = this.value;
+                    if (typeof translatePage === 'function') {
+                        translatePage();
+                    }
+                    await loadThemes(); // Reload themes with translations
+                    // No need to call loadDictionary separately as loadThemes already does it
+                });
+            }
+            
+            // Apply translations on load
+            if (typeof translatePage === 'function') {
+                translatePage();
+            }
+            
+            worksheetCanvas = initializeCanvas(ui.worksheetCanvasElement);
+            answerKeyCanvas = initializeCanvas(ui.answerKeyCanvasElement);
+            
+            setupEventListeners();
+            setupCanvasEventListeners(worksheetCanvas);
+            setupCanvasEventListeners(answerKeyCanvas);
+
+            // Initialize undo/redo button states
+            updateHistoryButtons();
+
+            updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height, true);
+            loadThemes();
+
+            // Initialize BulletproofLoader for borders and backgrounds
+            (async function() {
+                if (window.BulletproofLoader) {
+                    await window.BulletproofLoader.init({
+                        borderSelect: ui.borderThemeSelect,
+                        backgroundSelect: ui.backgroundThemeSelect
+                    });
+
+                    // Generate initial default worksheet after everything is loaded
+                    await generateInitialWorksheet();
+                } else {
+                    // Fallback if BulletproofLoader not available
+                    loadBorderThemes();
+                    loadBackgroundThemes();
+
+                    // Still try to generate initial worksheet
+                    generateInitialWorksheet().catch(err => console.warn('Initial worksheet generation failed:', err));
+                }
+            })();
+            updateSelectedImagesUI();
+            handleSelectionCleared(null, getActiveCanvas());
+
+            // Initialize zoom display
+            updateZoomDisplay();
+        }
+
+        function initializeCanvas(canvasEl) {
+            return new fabric.Canvas(canvasEl, {
+                backgroundColor: '#fff',
+                preserveObjectStacking: true,
+                enableRetinaScaling: true 
+            });
+        }
+        
+        // --- Event Listeners Setup ---
+        function setupEventListeners() {
+            ui.accordionButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const content = button.nextElementSibling;
+                    button.classList.toggle('active');
+                    content.classList.toggle('active');
+                });
+            });
+            
+            ui.menuToggleBtn.addEventListener('click', () => ui.panel.classList.add('is-open') || ui.menuOverlay.classList.add('is-active'));
+            const closeMenu = () => ui.panel.classList.remove('is-open') || ui.menuOverlay.classList.remove('is-active');
+            ui.menuCloseBtn.addEventListener('click', closeMenu);
+            ui.menuOverlay.addEventListener('click', closeMenu);
+
+            const setupDropdown = (button, content) => {
+                if (button && content) {
+                    button.addEventListener('click', (e) => {
+                        content.style.display = content.style.display === 'block' ? 'none' : 'block';
+                        e.stopPropagation();
+                    });
+                }
+            };
+            setupDropdown(ui.generateDropdownBtn, ui.generateDropdownContent);
+            setupDropdown(ui.downloadDropdownBtn, ui.downloadDropdownContent);
+            
+            ui.pageSizeSelect.addEventListener('change', handlePageSizeChange);
+            ui.setPageSizeBtn.addEventListener('click', applyCustomPageSize);
+            ui.pageColorInput.addEventListener('input', () => {
+                const newColor = ui.pageColorInput.value;
+                [worksheetCanvas, answerKeyCanvas].forEach(c => {
+                    if (c) { c.backgroundColor = newColor; c.renderAll(); }
+                });
+            });
+
+            // Header Event Listeners
+            //             showHeaderCheckbox.addEventListener('change', () => {
+            //                 headerControls.style.display = showHeaderCheckbox.checked ? 'block' : 'none';
+            //                 generateWorksheet();
+            //             });
+
+            // Text Tools Event Listeners
+            ui.addTextBtn.addEventListener('click', addText);
+            ui.textInput.addEventListener('input', updateActiveTextObjectProperties);
+            ui.textColorInput.addEventListener('input', updateActiveTextObjectProperties);
+            ui.fontSizeInput.addEventListener('input', updateActiveTextObjectProperties);
+            ui.fontFamilySelect.addEventListener('change', updateActiveTextObjectProperties);
+            ui.textStrokeColorInput.addEventListener('input', updateActiveTextObjectProperties);
+            ui.textStrokeWidthInput.addEventListener('input', updateActiveTextObjectProperties);
+            
+            ui.puzzleCount.addEventListener("input", updateSelectedImagesUI);
+            ui.themeSelect.addEventListener("change", loadDictionary);
+            ui.searchInput.addEventListener("input", () => {
+                if(this.searchTimeout) clearTimeout(this.searchTimeout);
+                this.searchTimeout = setTimeout(loadDictionary, 300);
+            });
+            ui.imageUploadInput.addEventListener('change', handleImageUpload);
+
+            // Custom file button handler
+            if (ui.customFileButton) {
+                ui.customFileButton.addEventListener('click', () => {
+                    ui.imageUploadInput.click();
+                });
+            }
+            
+            ui.clearBtn.addEventListener("click", clearAll);
+
+            // Zoom Controls
+            const zoomInBtn = document.getElementById('zoomInBtn');
+            const zoomOutBtn = document.getElementById('zoomOutBtn');
+            const zoomResetBtn = document.getElementById('zoomResetBtn');
+            if (zoomInBtn) zoomInBtn.addEventListener('click', zoomIn);
+            if (zoomOutBtn) zoomOutBtn.addEventListener('click', zoomOut);
+            if (zoomResetBtn) zoomResetBtn.addEventListener('click', zoomReset);
+
+            // Undo/Redo Controls
+            const undoBtn = document.getElementById('undoBtn');
+            const redoBtn = document.getElementById('redoBtn');
+            const unlockAllBtn = document.getElementById('unlockAllBtn');
+            const unlockAllControls = document.getElementById('unlockAllControls');
+            if (undoBtn) undoBtn.addEventListener('click', undo);
+            if (redoBtn) redoBtn.addEventListener('click', redo);
+            if (unlockAllBtn) unlockAllBtn.addEventListener('click', unlockAllObjects);
+
+            // Keyboard shortcuts for undo/redo
+            document.addEventListener('keydown', function(e) {
+                if ((e.ctrlKey || e.metaKey) && e.key === 'z' && !e.shiftKey) {
+                    e.preventDefault();
+                    undo();
+                } else if ((e.ctrlKey || e.metaKey) && (e.key === 'y' || (e.key === 'z' && e.shiftKey))) {
+                    e.preventDefault();
+                    redo();
+                }
+            });
+
+            ui.generateWorksheetBtn.addEventListener("click", () => {
+                ui.generateDropdownContent.style.display = 'none';
+                generateWorksheet();
+            });
+            ui.generateAnswerKeyBtn.addEventListener("click", () => {
+                ui.generateDropdownContent.style.display = 'none';
+                generateAnswerKey();
+            });
+
+            // Download Listeners
+            ui.downloadWorksheetJpegBtn.addEventListener("click", () => downloadImageFile('jpeg', worksheetCanvas));
+            ui.downloadAnswerKeyJpegBtn.addEventListener("click", () => downloadImageFile('jpeg', answerKeyCanvas));
+            ui.downloadWorksheetPdfBtn.addEventListener("click", () => downloadPDF(worksheetCanvas));
+            ui.downloadAnswerKeyPdfBtn.addEventListener("click", () => downloadPDF(answerKeyCanvas));
+
+            ui.tabButtons.forEach(btn => {
+                btn.addEventListener("click", () => {
+                    ui.tabButtons.forEach(b => b.classList.remove("active"));
+                    btn.classList.add("active");
+                    document.querySelectorAll(".tab").forEach(t => t.classList.remove("active"));
+                    document.getElementById(btn.dataset.tab)?.classList.add("active");
+                    
+                    const activeCanvas = getActiveCanvas();
+                    if (activeCanvas) {
+                        activeCanvas.discardActiveObject().renderAll();
+                        handleSelectionCleared(null, activeCanvas); 
+                    }
+                });
+            });
+
+            ui.borderThemeSelect.addEventListener("change", loadBorderImages);
+            ui.borderOpacitySlider.addEventListener('input', () => {
+                const activeCanvas = getActiveCanvas();
+                const activeBorder = activeCanvas.getObjects().find(obj => obj.isBorder);
+                if (activeBorder) {
+                    activeBorder.set('opacity', parseFloat(ui.borderOpacitySlider.value));
+                    activeCanvas.renderAll();
+                }
+            });
+            ui.backgroundThemeSelect.addEventListener("change", loadBackgroundImages);
+            ui.backgroundOpacitySlider.addEventListener('input', () => {
+                const newOpacity = parseFloat(ui.backgroundOpacitySlider.value);
+                [worksheetCanvas, answerKeyCanvas].forEach(c => {
+                    if (!c) return;
+                    const bg = c.getObjects().find(obj => obj.isBackground);
+                    if (bg) { bg.set('opacity', newOpacity); c.renderAll(); }
+                });
+            });
+
+            // Toolbar Listeners
+            ui.layersBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(ui.layersDropdown); });
+            ui.toolbarBringToFrontBtn.addEventListener('click', bringObjectToFront);
+            ui.toolbarBringForwardBtn.addEventListener('click', bringObjectForward);
+            ui.toolbarSendBackwardBtn.addEventListener('click', sendObjectBackward);
+            ui.toolbarSendToBackBtn.addEventListener('click', sendObjectToBack);
+            ui.toolbarLockBtn.addEventListener('click', toggleLockSelectedObjects);
+            ui.toolbarDeleteBtn.addEventListener('click', deleteSelectedObjects);
+            ui.alignBtn.addEventListener('click', (e) => { e.stopPropagation(); togglePopover(ui.alignDropdown); });
+            document.querySelectorAll('#alignDropdown button').forEach(button => {
+                button.addEventListener('click', (e) => {
+                    const type = e.currentTarget.id.replace('Btn', '');
+                    alignObjects(type);
+                });
+            });
+
+             window.addEventListener('keydown', (e) => {
+                const activeEl = document.activeElement;
+                if (activeEl && (activeEl.tagName === 'INPUT' || activeEl.tagName === 'TEXTAREA' || activeEl.tagName === 'SELECT')) return;
+                if (e.key === 'Delete' || e.key === 'Backspace') {
+                    deleteSelectedObjects();
+                }
+            });
+
+            // Global click listener to close popovers and dropdowns
+            window.addEventListener('click', (e) => {
+                 [ui.generateDropdownContent, ui.downloadDropdownContent].forEach(d => {
+                    if (d && d.style.display === 'block' && !d.parentElement.contains(e.target)) {
+                        d.style.display = 'none';
+                    }
+                });
+                if (!e.target.closest('#object-context-toolbar')) {
+                    closeAllPopovers();
+                }
+            });
+        }
+
+        function setupCanvasEventListeners(canvas) {
+            canvas.on({
+                'selection:created': function(e) { handleObjectSelection(e, this); },
+                'selection:updated': function(e) { handleObjectSelection(e, this); },
+                'selection:cleared': function(e) { handleSelectionCleared(e, this); },
+
+                // Undo/Redo integration
+                'mouse:down': function(e) {
+                    if (e.target) saveCanvasState(); // Save state when user clicks object
+                },
+                'object:added': function(e) {
+                    if (!isRestoringState && !isGenerating) {
+                        setTimeout(() => saveCanvasState(), 100);
+                    }
+                },
+                'object:removed': function(e) {
+                    if (!isRestoringState && !isGenerating) {
+                        setTimeout(() => saveCanvasState(), 100);
+                    }
+                }
+            });
+        }
+        
+        // --- Page Setup & Canvas Management ---
+        function updateCanvasDisplayDimensions(width, height, fromLoad = false) {
+            currentCanvasConfig.width = width;
+            currentCanvasConfig.height = height;
+            
+            const mainStyle = document.querySelector('.tab-content-wrapper');
+            const availableWidth = mainStyle.clientWidth - 50;
+            const availableHeight = mainStyle.clientHeight - 50;
+            
+            // Apply 25% scaling for better visibility
+            // Extra 25% for landscape orientations
+            const isLandscape = width > height;
+            const baseScale = 1.25; // Base 25% larger for all
+            const landscapeBonus = isLandscape ? 1.25 : 1.0; // Additional 25% for landscape
+            const displayScale = baseScale * landscapeBonus;
+            
+            // Calculate display dimensions with scaling
+            const scaledWidth = width * displayScale;
+            const scaledHeight = height * displayScale;
+            
+            // Ensure it fits in available space
+            const scaleRatio = Math.min(availableWidth / scaledWidth, availableHeight / scaledHeight, 1);
+            const displayWidth = scaledWidth * scaleRatio;
+            const displayHeight = scaledHeight * scaleRatio;
+
+            // Apply zoom for display (incorporate user zoom level)
+            const finalZoom = (displayWidth / width) * userZoomLevel;
+
+            // Update canvas display dimensions with user zoom
+            const finalDisplayWidth = displayWidth * userZoomLevel;
+            const finalDisplayHeight = displayHeight * userZoomLevel;
+
+            [worksheetCanvas, answerKeyCanvas].forEach(c => {
+                if (c) {
+                    c.setZoom(finalZoom);
+                    // CRITICAL: Set dimensions AFTER zoom
+                    c.setDimensions({
+                        width: finalDisplayWidth,
+                        height: finalDisplayHeight
+                    });
+                    c.renderAll();
+                }
+            });
+
+            // Set wrapper dimensions for proper display
+            [ui.worksheetCanvasWrapper, ui.answerKeyCanvasWrapper].forEach(wrapper => {
+                if (wrapper) {
+                    wrapper.style.width = finalDisplayWidth + 'px';
+                    wrapper.style.height = finalDisplayHeight + 'px';
+                }
+            });
+            
+            if (!fromLoad) { ui.pageWidthInput.value = width; ui.pageHeightInput.value = height; }
+        }
+
+        async function handlePageSizeChange() {
+            if (ui.pageSizeSelect.value === 'custom') {
+                ui.customPageSizeInputsDiv.style.display = 'block';
+            } else {
+                ui.customPageSizeInputsDiv.style.display = 'none';
+                const [w, h] = ui.pageSizeSelect.value.split('x').map(Number);
+                updateCanvasDisplayDimensions(w, h);
+
+                // Auto-regenerate if worksheet exists
+                if (lastGeneratedPuzzles && lastGeneratedPuzzles.length > 0) {
+                    await generateWorksheet();
+
+                    // Also regenerate answer key if it exists
+                    const hasAnswerKey = answerKeyCanvas && answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem);
+                    if (hasAnswerKey) {
+                        await generateAnswerKey();
+                    }
+                }
+            }
+        }
+
+        async function applyCustomPageSize() {
+            const newWidth = parseInt(ui.pageWidthInput.value, 10) || currentCanvasConfig.width;
+            const newHeight = parseInt(ui.pageHeightInput.value, 10) || currentCanvasConfig.height;
+            updateCanvasDisplayDimensions(newWidth, newHeight);
+
+            // Auto-regenerate if worksheet exists
+            if (lastGeneratedPuzzles && lastGeneratedPuzzles.length > 0) {
+                await generateWorksheet();
+
+                // Also regenerate answer key if it exists
+                const hasAnswerKey = answerKeyCanvas && answerKeyCanvas.getObjects().some(o => o.isAnswerKeyItem);
+                if (hasAnswerKey) {
+                    await generateAnswerKey();
+                }
+            }
+        }
+
+        // --- Text & Object Tools ---
+        function addText() {
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+            const textContent = ui.textInput.value.trim() || 'New Text';
+            const textObject = new fabric.Textbox(textContent, {
+                // Position - Always centered
+                left: (currentCanvasConfig.width - 250) / 2,
+                top: (currentCanvasConfig.height - 100) / 2,
+
+                // Typography - Always consistent
+                fontSize: 48,
+                fill: '#333333',
+                fontFamily: 'Arial',  // Standardized font
+
+                // Dimensions - Prevent text wrapping
+                width: 250,
+                padding: 8,
+
+                // Styling - Professional appearance
+                borderColor: 'var(--app-accent-primary)',
+                cornerColor: 'var(--app-accent-primary)',
+                cornerSize: 10,
+                transparentCorners: false,
+                cornerStyle: 'circle',
+
+                // Stroke - No outline by default
+                stroke: '#000000',
+                strokeWidth: 0
+            });
+            activeCanvas.add(textObject);
+            activeCanvas.setActiveObject(textObject);
+            activeCanvas.renderAll();
+            ui.textInput.value = '';
+        }
+        
+        function updateActiveTextObjectProperties() {
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+            const activeObject = activeCanvas.getActiveObject();
+            if (!activeObject || activeObject.type !== 'textbox' || activeObject.isGeneratedItem || activeObject.isAnswerKeyItem || activeObject.isBorderOrBg) {
+                return;
+            }
+
+            const newProps = {};
+            let propsChanged = false;
+
+            const checkProp = (prop, value, transform = v => v) => {
+                const currentVal = activeObject.get(prop);
+                const newVal = transform(value);
+                if (newVal !== undefined && newVal !== currentVal) {
+                    newProps[prop] = newVal;
+                    propsChanged = true;
+                }
+            };
+            
+            if (document.activeElement === ui.textInput && ui.textInput.value !== activeObject.text) {
+                newProps.text = ui.textInput.value;
+                propsChanged = true;
+            }
+            checkProp('fill', ui.textColorInput.value);
+            checkProp('fontSize', ui.fontSizeInput.value, (v) => parseInt(v, 10));
+            checkProp('fontFamily', ui.fontFamilySelect.value);
+            checkProp('stroke', ui.textStrokeColorInput.value);
+            checkProp('strokeWidth', ui.textStrokeWidthInput.value, (v) => parseFloat(v));
+
+            if (propsChanged && Object.keys(newProps).length > 0) {
+                activeObject.set(newProps);
+                activeCanvas.renderAll();
+            }
+        }
+        
+        function handleObjectSelection(e, canvas) {
+            if (!canvas) return;
+            ui.objectContextToolbar.style.display = 'flex';
+            const activeObject = e.target || canvas.getActiveObject();
+            
+            if (!activeObject) {
+                handleSelectionCleared(null, canvas);
+                return;
+            }
+
+            const isSingleText = activeObject && activeObject.type === 'textbox' && !activeObject.isGeneratedItem && !activeObject.isAnswerKeyItem && !activeObject.isBorderOrBg;
+            const isGroup = activeObject.type === 'activeSelection';
+            
+            [ui.textInput, ui.textColorInput, ui.fontSizeInput, ui.fontFamilySelect, ui.textStrokeColorInput, ui.textStrokeWidthInput].forEach(el => {
+                el.disabled = !isSingleText;
+            });
+            
+            if (isSingleText) {
+                ui.textInput.value = activeObject.text || '';
+                ui.textColorInput.value = activeObject.fill || '#333333';
+                ui.fontSizeInput.value = activeObject.fontSize || 48;
+                ui.fontFamilySelect.value = activeObject.fontFamily || ui.fontFamilySelect.options[0].value;
+                ui.textStrokeColorInput.value = activeObject.stroke || '#000000';
+                ui.textStrokeWidthInput.value = activeObject.strokeWidth || 0;
+            } else {
+                handleSelectionCleared(null, canvas, false); 
+            }
+
+            document.querySelectorAll('#alignDropdown button').forEach(btn => {
+                if (btn.id.includes('Canvas')) {
+                    btn.disabled = isGroup; 
+                } else {
+                    btn.disabled = !isGroup;
+                }
+            });
+        }
+
+        function handleSelectionCleared(e, canvasInstance, hideToolbar = true) {
+            if (hideToolbar) {
+                ui.objectContextToolbar.style.display = 'none';
+                closeAllPopovers();
+            }
+            
+            [ui.textColorInput, ui.fontSizeInput, ui.fontFamilySelect, ui.textStrokeColorInput, ui.textStrokeWidthInput].forEach(el => {
+                el.disabled = true;
+            });
+            ui.textInput.disabled = false;
+            
+            if (document.activeElement !== ui.textInput) {
+                ui.textInput.value = '';
+            }
+            ui.textColorInput.value = '#333333';
+            ui.fontSizeInput.value = 48;
+            ui.fontFamilySelect.value = ui.fontFamilySelect.options[0].value;
+            ui.textStrokeColorInput.value = '#000000';
+            ui.textStrokeWidthInput.value = 0;
+        }
+
+        let activePopover = null;
+        function togglePopover(popover) {
+            if (!popover) return;
+            const isOpening = popover.style.display !== 'block';
+            closeAllPopovers();
+            if (isOpening) { popover.style.display = 'block'; activePopover = popover; }
+        }
+        function closeAllPopovers() {
+            if (activePopover) { activePopover.style.display = 'none'; activePopover = null; }
+        }
+        function bringObjectForward() {
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+            const activeObject = activeCanvas.getActiveObject();
+            if (activeObject) {
+                activeCanvas.bringForward(activeObject);
+                const border = activeCanvas.getObjects().find(obj => obj.isBorder);
+                if (border) activeCanvas.bringToFront(border);
+                activeCanvas.renderAll();
+            }
+            closeAllPopovers();
+        }
+        function sendObjectBackward() {
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+            const activeObject = activeCanvas.getActiveObject();
+            if (activeObject) {
+                activeCanvas.sendBackwards(activeObject);
+                enforceZOrder(activeCanvas);
+                activeCanvas.renderAll();
+            }
+            closeAllPopovers();
+        }
+        function deleteSelectedObjects() {
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+            const activeObjects = activeCanvas.getActiveObjects();
+            if (activeObjects.length > 0) {
+                activeObjects.forEach(obj => {
+                    // Allow deletion of borders and backgrounds, but protect generated items
+                    if (!obj.isGeneratedItem && !obj.isAnswerKeyItem) {
+                        activeCanvas.remove(obj);
+
+                        // If we deleted a border or background, update the UI
+                        if (obj.isBorder) {
+                            ui.borderThemeSelect.value = 'none';
+                            ui.borderDictionary.innerHTML = `<p class="dictionary-message">${t('selectThemeToSeeBorders')}</p>`;
+                            ui.borderOpacitySlider.disabled = true;
+                        }
+                        if (obj.isBackground) {
+                            ui.backgroundThemeSelect.value = 'none';
+                            ui.backgroundDictionary.innerHTML = `<p class="dictionary-message">${t('selectThemeForBackgrounds')}</p>`;
+                            ui.backgroundOpacitySlider.disabled = true;
+                        }
+                    }
+                });
+                activeCanvas.discardActiveObject().renderAll();
+            }
+            closeAllPopovers();
+        }
+
+        function toggleLockSelectedObjects() {
+            const canvas = getActiveCanvas();
+            const activeObject = canvas.getActiveObject();
+
+            // If nothing is selected, unlock ALL locked objects on the canvas
+            if (!activeObject) {
+                const allObjects = canvas.getObjects();
+                const lockedObjects = allObjects.filter(obj => obj.lockMovementX === true);
+
+                if (lockedObjects.length > 0) {
+                    lockedObjects.forEach(obj => {
+                        obj.set({
+                            lockMovementX: false,
+                            lockMovementY: false,
+                            lockRotation: false,
+                            lockScalingX: false,
+                            lockScalingY: false,
+                            hasControls: true,
+                            hasBorders: true,
+                            selectable: true,
+                            evented: true
+                        });
+                    });
+
+                    // Update button icon to unlocked
+                    const lockIcon = ui.toolbarLockBtn.querySelector('i');
+                    lockIcon.classList.remove('fa-lock');
+                    lockIcon.classList.add('fa-lock-open');
+
+                    canvas.renderAll();
+                    console.log(`Unlocked ${lockedObjects.length} objects`);
+                }
+
+                closeAllPopovers();
+                updateUnlockAllButtonVisibility();
+                return;
+            }
+
+            // Handle both single objects and groups
+            const objectsToLock = activeObject.type === 'activeSelection'
+                ? activeObject.getObjects()
+                : [activeObject];
+
+            // Check if any object is currently locked
+            const isAnyLocked = objectsToLock.some(obj => obj.lockMovementX === true);
+
+            // Toggle lock state (opposite of current state)
+            const shouldLock = !isAnyLocked;
+
+            objectsToLock.forEach(obj => {
+                // When locking, make objects completely non-interactive
+                // This prevents them from blocking mouse drag selections
+                obj.set({
+                    lockMovementX: shouldLock,
+                    lockMovementY: shouldLock,
+                    lockRotation: shouldLock,
+                    lockScalingX: shouldLock,
+                    lockScalingY: shouldLock,
+                    hasControls: !shouldLock,
+                    hasBorders: !shouldLock,
+                    selectable: !shouldLock,  // Locked objects are not selectable
+                    evented: !shouldLock      // Locked objects don't capture mouse events
+                });
+            });
+
+            // Update button icon
+            const lockIcon = ui.toolbarLockBtn.querySelector('i');
+            if (shouldLock) {
+                lockIcon.classList.remove('fa-lock-open');
+                lockIcon.classList.add('fa-lock');
+            } else {
+                lockIcon.classList.remove('fa-lock');
+                lockIcon.classList.add('fa-lock-open');
+            }
+
+            canvas.renderAll();
+            closeAllPopovers();
+            updateUnlockAllButtonVisibility();
+        }
+
+        function unlockAllObjects() {
+            const canvas = getActiveCanvas();
+            const allObjects = canvas.getObjects();
+            const lockedObjects = allObjects.filter(obj => obj.lockMovementX === true);
+
+            if (lockedObjects.length > 0) {
+                lockedObjects.forEach(obj => {
+                    obj.set({
+                        lockMovementX: false,
+                        lockMovementY: false,
+                        lockRotation: false,
+                        lockScalingX: false,
+                        lockScalingY: false,
+                        hasControls: true,
+                        hasBorders: true,
+                        selectable: true,
+                        evented: true
+                    });
+                });
+
+                canvas.renderAll();
+                console.log(`Unlocked ${lockedObjects.length} objects`);
+                updateUnlockAllButtonVisibility();
+            }
+        }
+
+        function updateUnlockAllButtonVisibility() {
+            const canvas = getActiveCanvas();
+            const allObjects = canvas.getObjects();
+            const hasLockedObjects = allObjects.some(obj => obj.lockMovementX === true);
+
+            if (hasLockedObjects) {
+                unlockAllControls.classList.add('visible');
+            } else {
+                unlockAllControls.classList.remove('visible');
+            }
+        }
+
+        function alignObjects(type) {
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+            const activeObj = activeCanvas.getActiveObject();
+            if (!activeObj) return;
+
+            if (type.includes('Canvas')) { 
+                // Use actual canvas dimensions, not display dimensions
+                const actualCenterX = currentCanvasConfig.width / 2;
+                const actualCenterY = currentCanvasConfig.height / 2;
+                
+                if (type === 'centerHCanvas') {
+                    activeObj.set('left', actualCenterX);
+                    if (activeObj.originX !== 'center') {
+                        activeObj.set('left', actualCenterX - (activeObj.width * activeObj.scaleX) / 2);
+                    }
+                }
+                if (type === 'centerVCanvas') {
+                    activeObj.set('top', actualCenterY);
+                    if (activeObj.originY !== 'center') {
+                        activeObj.set('top', actualCenterY - (activeObj.height * activeObj.scaleY) / 2);
+                    }
+                }
+                activeObj.setCoords();
+            }
+            else if (activeObj.type === 'activeSelection') { 
+                const group = activeObj;
+                group.forEachObject(function(obj) {
+                    switch (type) {
+                        case 'alignLeft': obj.set('left', -group.width / 2); break;
+                        case 'alignHCenter': obj.set('left', 0 - (obj.getScaledWidth() / 2)); break;
+                        case 'alignRight': obj.set('left', group.width / 2 - obj.getScaledWidth()); break;
+                        case 'alignTop': obj.set('top', -group.height / 2); break;
+                        case 'alignVCenter': obj.set('top', 0 - (obj.getScaledHeight() / 2)); break;
+                        case 'alignBottom': obj.set('top', group.height / 2 - obj.getScaledHeight()); break;
+                    }
+                });
+            }
+            activeObj.setCoords();
+            activeCanvas.renderAll();
+            closeAllPopovers();
+        }
+
+        // --- Image Library & Upload ---
+        async function loadThemes() {
+            try {
+                // Save current selection
+                const currentSelection = ui.themeSelect.value;
+                
+                const res = await fetch(`/api/themes-translated?locale=${currentLocale}`);
+                const themes = await res.json();
+                
+                // Build options HTML exactly like Word Search does
+                ui.themeSelect.innerHTML = `<option value="all">${t('allThemes')}</option>`;
+                
+                // Add theme options using innerHTML like Word Search
+                themes.forEach(theme => {
+                    const optionHtml = `<option value="${theme.value}">${theme.displayName}</option>`;
+                    ui.themeSelect.innerHTML += optionHtml;
+                });
+                
+                // Restore selection if it still exists
+                if (currentSelection && Array.from(ui.themeSelect.options).some(opt => opt.value === currentSelection)) {
+                    ui.themeSelect.value = currentSelection;
+                }
+                
+                // Apply translations to new elements - use the correct function name
+                if (typeof translatePage === 'function') {
+                    translatePage();
+                }
+                
+                loadDictionary();
+            } catch (err) { 
+                console.error('Error loading themes:', err);
+                showMessage(t('couldNotLoadThemes'), 'error'); 
+            }
+        }
+
+        async function loadDictionary() {
+            const theme = ui.themeSelect.value;
+            const query = ui.searchInput.value.trim().toLowerCase();
+            let imagesToRender = [];
+            ui.dictionary.innerHTML = `<p class="dictionary-message">${t('loadingImages')}</p>`;
+            
+            try {
+                if (theme === 'all') {
+                    if (!query) {
+                        // Load default 'animals' theme when 'All Themes' is selected with no search
+                        const res = await fetch(`/api/images?theme=animals&locale=${currentLocale}`);
+                        const data = await res.json();
+                        currentThemeImages = data.images || data || [];
+                        imagesToRender = currentThemeImages;
+                    } else {
+                        const res = await fetch(`/api/images?search=${encodeURIComponent(query)}&locale=${currentLocale}`);
+                        const data = await res.json();
+                        imagesToRender = data.images || data || [];
+                        currentThemeImages = [];
+                    }
+                } else {
+                    if (currentThemeImages.length === 0 || ui.themeSelect.dataset.currentTheme !== theme) {
+                        const res = await fetch(`/api/images?theme=${encodeURIComponent(theme)}&locale=${currentLocale}`);
+                        const data = await res.json();
+                        currentThemeImages = data.images || data || [];
+                        ui.themeSelect.dataset.currentTheme = theme;
+                    }
+                    imagesToRender = query ? currentThemeImages.filter(img => {
+                        const searchName = (img.name || img.word || '').toLowerCase();
+                        return searchName.includes(query);
+                    }) : currentThemeImages;
+                }
+            } catch (err) {
+                ui.dictionary.innerHTML = `<p class='dictionary-message'>${t('errorLoadingImages')}</p>`;
+                return;
+            }
+            renderDictionaryItems(imagesToRender, query);
+        }
+        
+        function renderDictionaryItems(images, query) {
+            ui.dictionary.innerHTML = "";
+            if (images.length === 0) {
+                const msg = query ? t('noImagesFoundFor').replace('{query}', query) : t('noImagesFound');
+                ui.dictionary.innerHTML = `<p class="dictionary-message">${msg}</p>`;
+                return;
+            }
+            images.sort((a, b) => {
+                const nameA = a.name || a.word || '';
+                const nameB = b.name || b.word || '';
+                return nameA.localeCompare(nameB);
+            }).forEach(img => {
+                const item = document.createElement("div");
+                item.className = "dictionary-item";
+                if (selectedImages.some(sel => sel.path === img.path)) item.classList.add('selected');
+                const displayName = img.name || img.word;
+                item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
+                item.onclick = () => toggleImageSelection(img, item);
+                ui.dictionary.appendChild(item);
+            });
+        }
+        
+        function renderUploadedImages() {
+            ui.uploadedImagesPreview.innerHTML = "";
+            if (uploadedImages.length === 0) {
+                ui.uploadedImagesPreview.innerHTML = `<p class="dictionary-message">${t('yourUploadedImagesAppearHere')}</p>`;
+                return;
+            }
+            uploadedImages.forEach(img => {
+                const item = document.createElement("div");
+                item.className = "dictionary-item";
+                if (selectedImages.some(sel => sel.path === img.path)) item.classList.add('selected');
+                const displayName = img.name || img.word;
+                item.innerHTML = `<img src="${img.path}" alt="${displayName}" loading="lazy"/><span>${displayName}</span>`;
+                item.onclick = () => toggleImageSelection(img, item);
+                ui.uploadedImagesPreview.appendChild(item);
+            });
+        }
+
+        function toggleImageSelection(image, element) {
+            const maxPuzzles = parseInt(ui.puzzleCount.value, 10);
+            const index = selectedImages.findIndex(img => img.path === image.path);
+            if (index > -1) {
+                selectedImages.splice(index, 1);
+                element?.classList.remove('selected');
+            } else {
+                if (selectedImages.length >= maxPuzzles) {
+                    showMessage(t('maxImagesSelected').replace('{max}', maxPuzzles), 'info');
+                    return;
+                }
+                selectedImages.push(image);
+                element?.classList.add('selected');
+            }
+            updateSelectedImagesUI();
+        }
+
+        function updateSelectedImagesUI() {
+            ui.selectedImagesPreview.innerHTML = "";
+            selectedImages.forEach(img => {
+                const imgEl = document.createElement("img");
+                imgEl.src = img.path;
+                const imgDisplayName = img.name || img.word;
+                imgEl.alt = imgDisplayName;
+                imgEl.onclick = () => {
+                    const itemInDict = [...ui.dictionary.querySelectorAll('.dictionary-item')].find(el => el.querySelector('img').src.endsWith(img.path));
+                    const itemInUpload = [...ui.uploadedImagesPreview.querySelectorAll('.dictionary-item')].find(el => el.querySelector('img').src === img.path);
+                    toggleImageSelection(img, itemInDict || itemInUpload);
+                };
+                ui.selectedImagesPreview.appendChild(imgEl);
+            });
+            const maxPuzzles = parseInt(ui.puzzleCount.value, 10);
+            ui.selectedCountMsg.textContent = t('selectedCountMsg').replace('{count}', selectedImages.length).replace('{max}', maxPuzzles);
+        }
+        
+        function handleImageUpload(e) {
+            // Update file selection text
+            if (ui.fileSelectionText) {
+                const fileCount = e.target.files ? e.target.files.length : 0;
+                if (fileCount > 0) {
+                    ui.fileSelectionText.textContent = t('filesSelected').replace('{count}', fileCount);
+                } else {
+                    ui.fileSelectionText.textContent = t('noFileChosen');
+                }
+            }
+
+            const files = Array.from(e.target.files).filter(f => f.type.startsWith('image/'));
+            if (files.length === 0) {
+                // Reset file selection text if no images selected
+                if (ui.fileSelectionText) {
+                    ui.fileSelectionText.textContent = t('noFileChosen');
+                }
+                return;
+            }
+
+            let loadedCount = 0;
+            files.forEach(file => {
+                const reader = new FileReader();
+                reader.onload = (event) => {
+                    const newImage = { word: file.name.split('.')[0].replace(/[\s_-]/g, ''), path: event.target.result };
+                    if (!uploadedImages.some(img => img.path === newImage.path)) {
+                        uploadedImages.push(newImage);
+                    }
+                    loadedCount++;
+                    if (loadedCount === files.length) {
+                        renderUploadedImages();
+                        showMessage(t('customImagesAvailable').replace('{count}', loadedCount), 'success');
+                    }
+                };
+                reader.readAsDataURL(file);
+            });
+            e.target.value = '';
+            // Reset file selection text after clearing
+            if (ui.fileSelectionText) {
+                ui.fileSelectionText.textContent = t('noFileChosen');
+            }
+        }
+        
+        // --- Generation Logic ---
+        async function generateWorksheet() {
+            isGenerating = true; // Prevent saving state during generation
+            showMessage(t('generatingWorksheet'), 'info', 0);
+
+            // Check if canvas dimensions changed
+            const oldCanvasWidth = worksheetCanvas.getWidth();
+            const oldCanvasHeight = worksheetCanvas.getHeight();
+            const canvasDimensionsChanged = (oldCanvasWidth !== currentCanvasConfig.width || oldCanvasHeight !== currentCanvasConfig.height);
+
+            const oldTransforms = {};
+            const oldPuzzleCount = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem).length;
+
+            worksheetCanvas.getObjects().forEach(obj => {
+                if (obj.isGeneratedItem) {
+                    oldTransforms[obj.originalIndex] = {
+                        left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle
+                    };
+                }
+            });
+
+            const oldGeneratedItems = worksheetCanvas.getObjects().filter(o => o.isGeneratedItem);
+            oldGeneratedItems.forEach(o => worksheetCanvas.remove(o));
+
+            const puzzleCount = parseInt(ui.puzzleCount.value, 10);
+
+            // Clear old transforms if we're changing the puzzle count OR canvas dimensions
+            const newPuzzleCount = puzzleCount;
+            if (newPuzzleCount !== oldPuzzleCount || canvasDimensionsChanged) {
+                Object.keys(oldTransforms).forEach(key => delete oldTransforms[key]);
+            }
+            
+            let puzzleImagePool = [...selectedImages];
+            if (puzzleImagePool.length < puzzleCount) {
+                let sourcePool = [...uploadedImages];
+                if (currentThemeImages.length > 0) {
+                   sourcePool.push(...currentThemeImages);
+                } else {
+                     try {
+                        const res = await fetch(`/api/images?search=`);
+                        const data = await res.json();
+                        const images = data.images || data || [];
+                        sourcePool.push(...images);
+                     } catch(e) { /* ignore */ }
+                }
+                sourcePool = sourcePool.filter(img => !puzzleImagePool.some(p => p.path === img.path));
+                shuffleArray(sourcePool);
+                while(puzzleImagePool.length < puzzleCount && sourcePool.length > 0) {
+                    puzzleImagePool.push(sourcePool.pop());
+                }
+            }
+             if (puzzleImagePool.length === 0) {
+                showMessage(t('pleaseSelectImages'), 'error');
+                return;
+            }
+
+            const difficulty = parseInt(document.querySelector('input[name="difficulty"]:checked').value, 10);
+            lastGeneratedPuzzles = [];
+            for (let i = 0; i < puzzleCount; i++) {
+                const image = puzzleImagePool[i % puzzleImagePool.length];
+                const displayWord = (image.name || image.word).toUpperCase();
+                const word = displayWord;
+                
+                let scrambled;
+                do {
+                  scrambled = shuffleArray(word.split('')).join('');
+                } while (scrambled === word && word.length > 1);
+                
+                const clueIndices = new Set();
+                if (difficulty > 0) {
+                    const possibleClueIndices = [...word].map((_, idx) => idx);
+                    shuffleArray(possibleClueIndices);
+                    const clueCount = Math.floor(word.length / difficulty);
+                    for(let j=0; j<clueCount; j++) {
+                        if (possibleClueIndices[j] !== undefined) clueIndices.add(possibleClueIndices[j]);
+                    }
+                }
+                lastGeneratedPuzzles.push({ image, word, scrambled, clueIndices });
+            }
+            
+            await renderPuzzles(worksheetCanvas, lastGeneratedPuzzles, false, oldTransforms);
+            enforceZOrder(worksheetCanvas);
+
+            [ui.downloadWorksheetJpegBtn, ui.downloadWorksheetPdfBtn, ui.generateAnswerKeyBtn].forEach(b => b.disabled = false);
+            showMessage(t('worksheetGeneratedSuccessfully'), 'success');
+
+            // Save state after generation completes
+            isGenerating = false;
+            saveCanvasState();
+        }
+
+        async function generateAnswerKey() {
+            if (!lastGeneratedPuzzles) {
+                showMessage(t('pleaseGenerateWorksheetFirst'), 'error');
+                return;
+            }
+            isGenerating = true; // Prevent saving state during generation
+            showMessage(t('generatingAnswerKey'), 'info', 0);
+
+            // Check if canvas dimensions changed
+            const oldCanvasWidth = answerKeyCanvas.getWidth();
+            const oldCanvasHeight = answerKeyCanvas.getHeight();
+            const canvasDimensionsChanged = (oldCanvasWidth !== currentCanvasConfig.width || oldCanvasHeight !== currentCanvasConfig.height);
+
+            const oldTransforms = {};
+            const oldPuzzleCount = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem).length;
+
+            answerKeyCanvas.getObjects().forEach(obj => {
+                if (obj.isAnswerKeyItem) {
+                    oldTransforms[obj.originalIndex] = {
+                        left: obj.left, top: obj.top, scaleX: obj.scaleX, scaleY: obj.scaleY, angle: obj.angle
+                    };
+                }
+            });
+
+            const objectsToRemove = answerKeyCanvas.getObjects().filter(o => o.isAnswerKeyItem || o.isBorder || o.isBackground);
+            objectsToRemove.forEach(o => answerKeyCanvas.remove(o));
+
+            // Clear old transforms if puzzle count changed OR canvas dimensions changed
+            const newPuzzleCount = lastGeneratedPuzzles.length;
+            if (newPuzzleCount !== oldPuzzleCount || canvasDimensionsChanged) {
+                Object.keys(oldTransforms).forEach(key => delete oldTransforms[key]);
+            }
+
+            const userAddedObjects = answerKeyCanvas.getObjects().filter(o => !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+
+            const background = worksheetCanvas.getObjects().find(o => o.isBackground);
+            if (background) {
+                await new Promise(resolve => background.clone(cloned => {
+                    cloned.set({ isBackground: true, isBorderOrBg: true });
+                    answerKeyCanvas.add(cloned);
+                    resolve();
+                }));
+            }
+            const border = worksheetCanvas.getObjects().find(o => o.isBorder);
+            if (border) {
+                 await new Promise(resolve => border.clone(cloned => {
+                    cloned.set({ isBorder: true, isBorderOrBg: true });
+                    answerKeyCanvas.add(cloned);
+                    resolve();
+                }));
+            }
+            
+            await renderPuzzles(answerKeyCanvas, lastGeneratedPuzzles, true, oldTransforms);
+            enforceZOrder(answerKeyCanvas);
+            userAddedObjects.forEach(o => answerKeyCanvas.bringToFront(o));
+            answerKeyCanvas.renderAll();
+
+            [ui.downloadAnswerKeyJpegBtn, ui.downloadAnswerKeyPdfBtn].forEach(b => b.disabled = false);
+            if (!document.querySelector('.tab-button[data-tab="answerKeyTab"]').classList.contains('active')) {
+                ui.tabButtons[1].click();
+            }
+            showMessage(t('answerKeyGenerated'), 'success');
+
+            // Save state after generation completes
+            isGenerating = false;
+            saveCanvasState();
+        }
+
+        async function renderPuzzles(canvas, puzzlesData, isAnswerKey, transforms = {}) {
+            // Use actual page dimensions, not zoomed canvas dimensions
+            const pageWidth = currentCanvasConfig.width;
+            const pageHeight = currentCanvasConfig.height;
+            const isLandscape = pageWidth > pageHeight;
+
+            const userAddedObjects = canvas.getObjects().filter(o => !o.isGeneratedItem && !o.isAnswerKeyItem && !o.isBorder && !o.isBackground && !o.isPageBorder && !o.isHeaderDesc && !o.isHeaderElement);
+            userAddedObjects.forEach(o => canvas.remove(o));
+
+            // Remove old header/border objects if they exist
+            const oldHeaderObjects = canvas.getObjects().filter(o =>
+                o.isPageBorder ||
+                o.isHeaderDesc ||
+                o.isHeaderElement
+            );
+            oldHeaderObjects.forEach(o => canvas.remove(o));
+
+            // Create and add header (BEFORE calculating layout)
+            const headerObjects = createHeaderGroup(canvas);
+            if (headerObjects) {
+                headerObjects.forEach(obj => canvas.add(obj));
+            }
+            // Dynamic header height based on orientation
+            const headerHeight = isLandscape ? 150 : 220;
+
+            // Professional margins - adjusted for header and borders
+            const topMargin = headerHeight + (pageHeight * 0.05);
+            const bottomMargin = pageHeight * 0.07;
+            const leftMargin = headerObjects ? 70 : (pageWidth * 0.07);
+            const rightMargin = headerObjects ? 70 : (pageWidth * 0.07);
+
+            let availableWidth = pageWidth - leftMargin - rightMargin;
+            
+            // Determine if we should use two columns (landscape with more than 5 exercises)
+            const useColumns = isLandscape && puzzlesData.length > 5;
+            const columnGap = useColumns ? pageWidth * 0.05 : 0;
+            const columnWidth = useColumns ? (availableWidth - columnGap) / 2 : availableWidth;
+            
+            // Add name/date if needed
+            const nameDateHeight = (ui.includeNameDate.checked && !isAnswerKey) ? 50 : 0;
+            if (ui.includeNameDate.checked && !isAnswerKey) {
+                const nameDateGroup = new fabric.Group([
+                    new fabric.Textbox("Name: ________________", { left: 0, top: 0, fontSize: 18 }),
+                    new fabric.Textbox("Date: ________", { left: 350, top: 0, fontSize: 18 })
+                ], { left: leftMargin, top: topMargin, selectable: true, hasControls: true, evented: true, isGeneratedItem: false });
+                canvas.add(nameDateGroup);
+            }
+            
+            // Calculate puzzle area
+            const puzzleAreaTop = topMargin + nameDateHeight;
+            const puzzleAreaHeight = pageHeight - puzzleAreaTop - bottomMargin;
+            
+            // Distribute items across columns
+            let columnItems = [];
+            if (useColumns) {
+                // Split items evenly between columns
+                const itemsPerColumn = Math.ceil(puzzlesData.length / 2);
+                columnItems = [
+                    puzzlesData.slice(0, itemsPerColumn),
+                    puzzlesData.slice(itemsPerColumn)
+                ];
+            } else {
+                columnItems = [puzzlesData];
+            }
+            
+            // Calculate base dimensions
+            const baseRowHeight = 95;
+            const baseRowWidth = 150 + 15 + (10 * 40); // image + padding + max 10 letter cells
+            
+            // Calculate optimal scale
+            let scale = 1.0;
+            
+            // First check horizontal constraints
+            const horizontalScale = Math.min(1.0, columnWidth / baseRowWidth);
+            
+            // Then check vertical constraints for each column
+            let verticalScale = 1.0;
+            for (let items of columnItems) {
+                if (items.length > 0) {
+                    // Each item gets equal share of the height
+                    const heightPerItem = puzzleAreaHeight / items.length;
+                    const itemScale = heightPerItem / baseRowHeight;
+                    verticalScale = Math.min(verticalScale, itemScale);
+                }
+            }
+            
+            // Use the smaller scale, but cap for readability
+            scale = Math.min(horizontalScale, verticalScale);
+            scale = Math.min(scale, 1.2); // Don't make it too large
+            scale = Math.max(scale, 0.4); // Don't make it too small
+            
+            // Calculate scaled dimensions
+            const imageWidth = 150 * scale;
+            const cellWidth = 40 * scale;
+            const cellHeight = 40 * scale;
+            const fontSize = Math.max(18, 30 * scale);
+            const numFontSize = Math.max(14, 24 * scale);
+            
+            // Calculate actual row height after scaling
+            const actualRowHeight = Math.max(cellHeight * 2 + 10, imageWidth * 0.75); // Two rows of letters + gap
+
+            const caseValue = document.querySelector('input[name="letterCase"]:checked').value;
+            const colorCoded = document.querySelector('input[name="letterColor"]:checked').value === 'color';
+            const vowelColor = '#e0f7fa';
+            const consonantColor = '#ffffff';
+
+            const newItems = [];
+            
+            // Render each column
+            let globalIndex = 0;
+            for (let colIdx = 0; colIdx < columnItems.length; colIdx++) {
+                const items = columnItems[colIdx];
+                if (items.length === 0) continue;
+                
+                // Calculate column position
+                const columnX = leftMargin + (colIdx * (columnWidth + columnGap));
+                
+                // Calculate spacing for this column to fill the height
+                const totalItemHeight = actualRowHeight * items.length;
+                const totalSpacing = puzzleAreaHeight - totalItemHeight;
+                
+                // Distribute spacing: half at top/bottom, rest between items
+                const edgeSpacing = totalSpacing * 0.15; // 15% at top and bottom
+                const betweenSpacing = items.length > 1 
+                    ? (totalSpacing - 2 * edgeSpacing) / (items.length - 1)
+                    : 0;
+                
+                // Start position for this column
+                let currentY = puzzleAreaTop + edgeSpacing;
+                
+                // Render items in this column
+                for (let itemIdx = 0; itemIdx < items.length; itemIdx++) {
+                    const puzzle = items[itemIdx];
+                    const img = await new Promise(resolve => fabric.Image.fromURL(puzzle.image.path, resolve, { crossOrigin: 'anonymous' }));
+                    img.scaleToWidth(imageWidth);
+
+                    const numText = ui.includeExerciseNumbers.checked ? new fabric.Text(`${globalIndex + 1}.`, {
+                        fontSize: numFontSize, originY: 'center', fill: '#333'
+                    }) : null;
+
+                    const puzzleContentGroup = new fabric.Group([], { objectCaching: false });
+
+                    const answerGridElements = [];
+                    for (let j = 0; j < puzzle.word.length; j++) {
+                        const letter = caseValue === 'lower' ? puzzle.word[j].toLowerCase() : puzzle.word[j];
+                        const bgColor = colorCoded ? (isVowel(letter) ? vowelColor : consonantColor) : '#ffffff';
+                        const rect = new fabric.Rect({ width: cellWidth, height: cellHeight, fill: bgColor, stroke: '#333', strokeWidth: 1 });
+                        const text = new fabric.Text(letter, {
+                            fontSize: fontSize, fontFamily: 'Fredoka', originX: 'center', originY: 'center', textBaseline: 'middle', left: cellWidth / 2, top: cellHeight / 2,
+                            visible: isAnswerKey || puzzle.clueIndices.has(j)
+                        });
+                        answerGridElements.push(new fabric.Group([rect, text], { left: j * cellWidth, top: 0 }));
+                    }
+                    const answerGridGroup = new fabric.Group(answerGridElements, { top: 0 });
+                    puzzleContentGroup.addWithUpdate(answerGridGroup);
+
+                    const scrambledElements = [];
+                    for (let j = 0; j < puzzle.scrambled.length; j++) {
+                        const letter = caseValue === 'lower' ? puzzle.scrambled[j].toLowerCase() : puzzle.scrambled[j];
+                        const bgColor = colorCoded ? (isVowel(letter) ? vowelColor : consonantColor) : 'transparent';
+                        const text = new fabric.Text(letter, {
+                            fontSize: fontSize, fontFamily: 'Fredoka', originX: 'center', originY: 'center', textBaseline: 'middle',
+                            left: cellWidth / 2, top: cellHeight / 2
+                        });
+                        const cellGroup = new fabric.Group([new fabric.Rect({width: cellWidth, height: cellHeight, fill: bgColor, stroke: 'transparent'}), text], { left: j * cellWidth });
+                        scrambledElements.push(cellGroup);
+                    }
+                    const scrambledGroup = new fabric.Group(scrambledElements, { top: answerGridGroup.height + (5 * scale) });
+                    if (!isAnswerKey) {
+                        puzzleContentGroup.addWithUpdate(scrambledGroup);
+                    }
+
+                    const rowHeight = Math.max(img.getScaledHeight(), puzzleContentGroup.height, numText ? numText.height : 0);
+                    img.top = (rowHeight - img.getScaledHeight()) / 2;
+                    puzzleContentGroup.top = (rowHeight - puzzleContentGroup.height) / 2;
+                    if (numText) numText.top = rowHeight / 2;
+
+                    let currentX = 0;
+                    const rowElements = [];
+                    if (numText) {
+                        numText.left = currentX;
+                        currentX += numText.width + (5 * scale);
+                        rowElements.push(numText);
+                    }
+                    img.left = currentX;
+                    currentX += img.getScaledWidth() + (10 * scale);
+                    rowElements.push(img);
+
+                    puzzleContentGroup.left = currentX;
+                    rowElements.push(puzzleContentGroup);
+
+                    const rowGroup = new fabric.Group(rowElements, {
+                        top: currentY,
+                        left: columnX,
+                        isGeneratedItem: !isAnswerKey,
+                        isAnswerKeyItem: isAnswerKey,
+                        originalIndex: globalIndex,
+                        selectable: true, evented: true, objectCaching: false,
+                        borderColor: 'var(--app-accent-primary)', cornerColor: 'var(--app-accent-primary)',
+                    });
+
+                    if (transforms[globalIndex]) {
+                        rowGroup.set(transforms[globalIndex]);
+                    }
+                    
+                    newItems.push(rowGroup);
+                    
+                    // Move to next position
+                    currentY += actualRowHeight + betweenSpacing;
+                    globalIndex++;
+                }
+            }
+
+            newItems.forEach(item => canvas.add(item));
+            userAddedObjects.forEach(obj => canvas.add(obj).bringToFront());
+            canvas.renderAll();
+        }
+
+        // --- Initial Worksheet Generation ---
+        async function generateInitialWorksheet() {
+            try {
+                // Wait for themes to be loaded
+                await new Promise(resolve => {
+                    const checkThemes = () => {
+                        if (ui.themeSelect && ui.themeSelect.options.length > 1) {
+                            resolve();
+                        } else {
+                            setTimeout(checkThemes, 100);
+                        }
+                    };
+                    checkThemes();
+                });
+
+                // Add a small delay to ensure everything is fully initialized
+                await new Promise(resolve => setTimeout(resolve, 200));
+
+                // Set default values: Animals theme, Letter portrait, 6 puzzles, Easy (1/2), Uppercase, Color Coded, Include numbers
+                ui.themeSelect.value = 'animals';
+                ui.pageSizeSelect.value = '612x792'; // Letter portrait
+                ui.puzzleCount.value = 6;
+
+                // Set difficulty to Easy (1/2) - value="2"
+                document.querySelector('input[name="difficulty"][value="2"]').checked = true;
+
+                // Set letter case to Uppercase
+                document.querySelector('input[name="letterCase"][value="upper"]').checked = true;
+
+                // Set letter color to Color Coded (Vowel/Consonant)
+                document.querySelector('input[name="letterColor"][value="color"]').checked = true;
+
+                // Include exercise numbers
+                ui.includeExerciseNumbers.checked = true;
+
+                // Apply page size
+                handlePageSizeChange();
+
+                // Load theme images by calling loadDictionary
+                await loadDictionary();
+
+                // Generate worksheet
+                await generateWorksheet();
+
+            } catch (error) {
+                console.error('Error generating initial worksheet:', error);
+            }
+        }
+
+        // --- Asset Management (Borders/Backgrounds) ---
+        async function loadBorderThemes() {
+            try {
+                ui.borderThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
+                const response = await fetch(`/api/borders/themes?locale=${currentLocale}`);
+                if (!response.ok) {
+                    console.error('Failed to load border themes');
+                    return;
+                }
+                const themes = await response.json();
+                themes.forEach(theme => {
+                    const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                    ui.borderThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                });
+            } catch (error) {
+                console.error('Error loading border themes:', error);
+            }
+        }
+
+        function loadBorderImages() {
+            const theme = ui.borderThemeSelect.value;
+            ui.borderDictionary.innerHTML = `<p class="dictionary-message">${t('selectThemeToSeeBorders')}</p>`;
+            // Remove border from all canvases when theme changes
+            removeAsset('isBorder');
+            
+            if (theme === 'none') {
+                ui.borderOpacitySlider.disabled = true;
+                return;
+            }
+
+            const apiUrl = `/api/borders/images?theme=${theme}`;
+            fetch(apiUrl).then(r => r.json()).then(data => {
+                const images = data.images || data;
+                ui.borderDictionary.innerHTML = "";
+                images.forEach(img => {
+                    const item = document.createElement("div");
+                    item.className = "border-thumbnail-item";
+                    item.innerHTML = `<img src="${img.path}" alt="${img.name}" />`;
+                    item.onclick = () => {
+                        addBorderToCanvas(img.path);
+                        document.querySelectorAll('#borderDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
+                        item.classList.add('selected');
+                    };
+                    ui.borderDictionary.appendChild(item);
+                });
+            });
+        }
+        
+        // Unified overlay function for borders and backgrounds with proper centering
+        async function addOverlayToCanvas(path, propName, opacitySlider) {
+            // Use the active canvas (worksheet or answer key)
+            const activeCanvas = getActiveCanvas();
+            if (!activeCanvas) return;
+
+            const img = await new Promise((resolve) =>
+                fabric.Image.fromURL(path, resolve, { crossOrigin: 'anonymous' })
+            );
+
+            if (!img) {
+                const type = propName === 'isBorder' ? t('borderTheme') : t('backgroundTheme');
+                showMessage(t('failedToLoadImage').replace('{type}', type), 'error');
+                return;
+            }
+
+            // Remove existing overlay of the same type from the active canvas
+            removeAsset(propName, activeCanvas);
+
+            // Use ACTUAL canvas dimensions from currentCanvasConfig, not display dimensions
+            const actualWidth = currentCanvasConfig.width;
+            const actualHeight = currentCanvasConfig.height;
+
+            // Scale to 70% of ACTUAL canvas height while preserving aspect ratio
+            const targetHeight = actualHeight * 0.7;
+            const scaleFactor = targetHeight / img.height;
+
+            img.set({
+                [propName]: true,
+                isBorderOrBg: true,
+                originX: 'center',
+                originY: 'center',
+                left: actualWidth / 2,
+                top: actualHeight / 2,
+                scaleX: scaleFactor,
+                scaleY: scaleFactor,
+                selectable: true,
+                evented: true,
+                opacity: parseFloat(opacitySlider.value)
+            });
+
+            activeCanvas.add(img);
+            enforceZOrder(activeCanvas);
+            activeCanvas.renderAll();
+            opacitySlider.disabled = false;
+        }
+
+        function addBorderToCanvas(path) {
+            addOverlayToCanvas(path, 'isBorder', ui.borderOpacitySlider);
+        }
+        
+        async function loadBackgroundThemes() {
+            try {
+                ui.backgroundThemeSelect.innerHTML = `<option value="none">${t('none')}</option>`;
+                const response = await fetch(`/api/backgrounds/themes?locale=${currentLocale}`);
+                if (!response.ok) {
+                    console.error('Failed to load background themes');
+                    return;
+                }
+                const themes = await response.json();
+                themes.forEach(theme => {
+                    const displayName = theme.charAt(0).toUpperCase() + theme.slice(1);
+                    ui.backgroundThemeSelect.innerHTML += `<option value="${theme}">${displayName}</option>`;
+                });
+            } catch (error) {
+                console.error('Error loading background themes:', error);
+            }
+        }
+        
+        function loadBackgroundImages() {
+            const theme = ui.backgroundThemeSelect.value;
+            ui.backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme for backgrounds.</p>';
+            removeAsset('isBackground');
+            if (theme === 'none') {
+                ui.backgroundOpacitySlider.disabled = true;
+                return;
+            }
+            const apiUrl = `/api/backgrounds/images?theme=${theme}`;
+            fetch(apiUrl).then(r => r.json()).then(data => {
+                const images = data.images || data;
+                 ui.backgroundDictionary.innerHTML = "";
+                images.forEach(img => {
+                    const item = document.createElement("div");
+                    item.className = "border-thumbnail-item";
+                    item.innerHTML = `<img src="${img.path}" alt="${img.name}" />`;
+                    item.onclick = () => {
+                        addBackgroundToCanvas(img.path);
+                        document.querySelectorAll('#backgroundDictionary .border-thumbnail-item.selected').forEach(el => el.classList.remove('selected'));
+                        item.classList.add('selected');
+                    };
+                    ui.backgroundDictionary.appendChild(item);
+                });
+            });
+        }
+
+        function addBackgroundToCanvas(path) {
+            addOverlayToCanvas(path, 'isBackground', ui.backgroundOpacitySlider);
+        }
+
+        function removeAsset(prop, canvasInstance = null) {
+            const canvases = canvasInstance ? [canvasInstance] : [worksheetCanvas, answerKeyCanvas];
+            canvases.forEach(c => {
+                if (!c) return;
+                const existing = c.getObjects().find(obj => obj[prop]);
+                if (existing) c.remove(existing);
+                c.renderAll();
+            });
+        }
+
+        // --- Cleanup & Reset ---
+        function clearAll() {
+            lastGeneratedPuzzles = null;
+            selectedImages = [];
+            uploadedImages = [];
+            currentThemeImages = [];
+            
+            worksheetCanvas.clear();
+            answerKeyCanvas.clear();
+            
+            [ui.downloadWorksheetJpegBtn, ui.downloadWorksheetPdfBtn, ui.downloadAnswerKeyJpegBtn, ui.downloadAnswerKeyPdfBtn, ui.generateAnswerKeyBtn].forEach(b => b.disabled = true);
+            
+            ui.puzzleCount.value = 6;
+            document.querySelector('input[name="difficulty"][value="0"]').checked = true;
+            document.querySelector('input[name="letterCase"][value="upper"]').checked = true;
+             document.querySelector('input[name="letterColor"][value="color"]').checked = true;
+            ui.includeNameDate.checked = false;
+            ui.includeExerciseNumbers.checked = true;
+
+            ui.searchInput.value = "";
+            ui.themeSelect.value = "all";
+            loadDictionary();
+            updateSelectedImagesUI();
+            renderUploadedImages();
+
+            ui.borderThemeSelect.value = "none";
+            ui.borderDictionary.innerHTML = `<p class="dictionary-message">${t('selectThemeToSeeBorders')}</p>`;
+            ui.borderOpacitySlider.disabled = true; ui.borderOpacitySlider.value = 1;
+            ui.backgroundThemeSelect.value = "none";
+            ui.backgroundDictionary.innerHTML = '<p class="dictionary-message">Select a theme for backgrounds.</p>';
+            ui.backgroundOpacitySlider.disabled = true; ui.backgroundOpacitySlider.value = 1;
+            
+            const newColor = '#FFFFFF';
+            ui.pageColorInput.value = newColor;
+            [worksheetCanvas, answerKeyCanvas].forEach(c => {
+                if(c) { c.backgroundColor = newColor; c.renderAll(); }
+            });
+
+            ui.pageSizeSelect.value = "612x792";
+            handlePageSizeChange();
+            handleSelectionCleared(null, getActiveCanvas());
+
+            showMessage(t('formCleared'), 'success', 2000); 
+        }
+        
+        // --- Download Logic ---
+        async function getCanvasDataURL(canvasInstance, format = 'jpeg') {
+            // Save current state
+            const currentZoom = canvasInstance.getZoom();
+            const currentWidth = canvasInstance.getWidth();
+            const currentHeight = canvasInstance.getHeight();
+            
+            // Reset to actual size for export
+            canvasInstance.setZoom(1);
+            canvasInstance.setDimensions({
+                width: currentCanvasConfig.width,
+                height: currentCanvasConfig.height
+            });
+            
+            const options = { format: format, quality: 1.0, multiplier: downloadMultiplier };
+            let dataURL = canvasInstance.toDataURL(options);
+            
+            // Restore display state
+            canvasInstance.setZoom(currentZoom);
+            canvasInstance.setDimensions({
+                width: currentWidth,
+                height: currentHeight
+            });
+            
+            if (ui.grayscaleToggle.checked) {
+                try { dataURL = await applyGrayscaleToDataURL(dataURL, `image/${format}`); }
+                catch (error) { console.error("Grayscale failed:", error); }
+            }
+            return dataURL;
+        }
+
+        async function applyGrayscaleToDataURL(dataURL, outputFormat = 'image/jpeg') {
+            return new Promise((resolve, reject) => {
+                const img = new Image();
+                img.onload = () => {
+                    const c = document.createElement('canvas');
+                    c.width = img.width; c.height = img.height;
+                    const ctx = c.getContext('2d');
+                    ctx.drawImage(img, 0, 0);
+                    const imageData = ctx.getImageData(0, 0, c.width, c.height);
+                    const data = imageData.data;
+                    for (let i = 0; i < data.length; i += 4) {
+                        const gray = 0.299 * data[i] + 0.587 * data[i + 1] + 0.114 * data[i + 2];
+                        data[i] = data[i + 1] = data[i + 2] = gray;
+                    }
+                    ctx.putImageData(imageData, 0, 0);
+                    resolve(c.toDataURL(outputFormat));
+                };
+                img.onerror = reject;
+                img.src = dataURL;
+            });
+        }
+
+        async function downloadImageFile(format, canvasToExport) {
+            const canvasName = canvasToExport === answerKeyCanvas ? 'answer-key' : 'worksheet';
+            const canvasText = canvasName.replace('-', ' ');
+            showMessage(t('preparingCanvas').replace('{canvas}', canvasText), 'info', 0);
+            
+            try {
+                const dataURL = await getCanvasDataURL(canvasToExport, format);
+                const link = document.createElement('a');
+                link.download = `word-scramble_${canvasName}.${format}`; 
+                link.href = dataURL;
+                link.click();
+                showMessage(t('downloadInitiated'), 'success');
+            } catch (error) { 
+                showMessage(t('errorPreparingImage').replace('{error}', error.message), 'error');
+            }
+        }
+
+        
+    // Check if user is on free tier
+    function isFreeTier() {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get('tier') === 'free';
+    }
+
+    // Add watermark to canvas before export
+    function addWatermarkToCanvas(canvas) {
+        if (!isFreeTier()) return;
+        
+        const watermarkText = new fabric.Text('FREE VERSION - LessonCraftStudio.com', {
+            fontSize: 40,
+            fill: 'rgba(0, 0, 0, 0.2)',
+            angle: -45,
+            left: canvas.width / 2,
+            top: canvas.height / 2,
+            originX: 'center',
+            originY: 'center',
+            selectable: false,
+            evented: false,
+            fontFamily: 'Arial, sans-serif',
+            fontWeight: 'bold'
+        });
+        
+        // Add multiple watermarks across the canvas
+        const watermarks = [];
+        const spacing = 250;
+        for (let x = 0; x < canvas.width; x += spacing) {
+            for (let y = 0; y < canvas.height; y += spacing) {
+                const wm = new fabric.Text('FREE VERSION', {
+                    fontSize: 20,
+                    fill: 'rgba(0, 0, 0, 0.15)',
+                    angle: -45,
+                    left: x,
+                    top: y,
+                    selectable: false,
+                    evented: false,
+                    fontFamily: 'Arial, sans-serif'
+                });
+                watermarks.push(wm);
+                canvas.add(wm);
+            }
+        }
+        
+        // Add main watermark
+        canvas.add(watermarkText);
+        canvas.renderAll();
+        
+        return { mainWatermark: watermarkText, watermarks };
+    }
+
+    // Remove watermark after export
+    function removeWatermarkFromCanvas(canvas, watermarkData) {
+        if (!watermarkData) return;
+        
+        if (watermarkData.mainWatermark) {
+            canvas.remove(watermarkData.mainWatermark);
+        }
+        if (watermarkData.watermarks) {
+            watermarkData.watermarks.forEach(wm => canvas.remove(wm));
+        }
+        canvas.renderAll();
+    }
+
+    // Override the original downloadPDF function
+    const originalDownloadPDF = typeof downloadPDF !== 'undefined' ? downloadPDF : null;
+    if (originalDownloadPDF) {
+        window.downloadPDF = async function(canvasToExport, fileName) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                return showMessage(t('pleaseGenerateContentFirst'), 'error');
+            }
+            showMessage(t('preparingPdf'), 'info', 0);
+            
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+            
+            try {
+                const { jsPDF } = window.jspdf;
+                const orientation = canvasToExport.width > canvasToExport.height ? 'l' : 'p';
+                const pdf = new jsPDF({ 
+                    orientation, 
+                    unit: 'pt', 
+                    format: [canvasToExport.width, canvasToExport.height] 
+                });
+
+                const exportOptions = { 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
+                };
+                
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                pdf.addImage(dataURL, 'JPEG', 0, 0, canvasToExport.width, canvasToExport.height);
+                
+                pdf.save(fileName);
+                showMessage(t('pdfDownloaded'), 'success');
+            } catch(e) { 
+                showMessage(t('errorCreatingPdf'), 'error'); 
+                console.error(e); 
+            } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
+        };
+    }
+
+    // Override the original downloadJPEG function if it exists
+    const originalDownloadJPEG = typeof downloadJPEG !== 'undefined' ? downloadJPEG : null;
+    if (originalDownloadJPEG) {
+        window.downloadJPEG = async function(canvasToExport, fileName) {
+            if (!canvasToExport || canvasToExport.getObjects().length === 0) {
+                return showMessage(t('pleaseGenerateWorksheetFirst'), 'error');
+            }
+            showMessage(t('preparingJpeg'), 'info', 0);
+            
+            // Add watermark if free tier
+            const watermarkData = addWatermarkToCanvas(canvasToExport);
+            
+            try {
+                const exportOptions = { 
+                    multiplier: typeof downloadMultiplier !== 'undefined' ? downloadMultiplier : 6, 
+                    applyGrayscale: typeof grayscaleToggle !== 'undefined' && grayscaleToggle.checked 
+                };
+                const dataURL = await getCanvasDataURLWithOptions(canvasToExport, exportOptions);
+                
+                const link = document.createElement('a');
+                link.href = dataURL;
+                link.download = fileName;
+                link.click();
+                showMessage(t('jpegDownloadInitiated'), 'success');
+            } catch(e) { 
+                showMessage(t('errorPreparingJpeg'), 'error'); 
+                console.error(e); 
+            } finally {
+                // Remove watermark after export
+                removeWatermarkFromCanvas(canvasToExport, watermarkData);
+            }
+        };
+    }
+
+        async function downloadPDF(canvasToExport) {
+            const canvasName = canvasToExport === answerKeyCanvas ? 'answer-key' : 'worksheet';
+            const canvasText = canvasName.replace('-', ' ');
+            showMessage(t('preparingCanvasPdf').replace('{canvas}', canvasText), 'info', 0);
+
+            try {
+                const { jsPDF } = window.jspdf;
+                const orientation = currentCanvasConfig.width > currentCanvasConfig.height ? 'landscape' : 'portrait';
+                const pdf = new jsPDF({ 
+                    orientation, 
+                    unit: 'pt', 
+                    format: [currentCanvasConfig.width, currentCanvasConfig.height] 
+                });
+                
+                const imgData = await getCanvasDataURL(canvasToExport, 'jpeg');
+                pdf.addImage(imgData, 'JPEG', 0, 0, currentCanvasConfig.width, currentCanvasConfig.height);
+                
+                pdf.save(`word-scramble_${canvasName}.pdf`);
+                showMessage(t('pdfDownloadComplete'), 'success');
+            } catch (error) { 
+                showMessage(t('errorCreatingPdfWithMessage').replace('{error}', error.message), 'error');
+            }
+        }
+
+        // Update on window resize
+        window.addEventListener('resize', () => {
+            updateCanvasDisplayDimensions(currentCanvasConfig.width, currentCanvasConfig.height);
+        });
+        
+        // --- Start the App ---
+        initializeApp();
+    });
+  </script>
+</body>
+</html>

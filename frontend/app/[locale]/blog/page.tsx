@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: BlogPageProps): Promise<Metad
     },
     fr: {
       title: 'Blog Éducatif - Ressources Pédagogiques & Conseils | LessonCraftStudio',
-      description: 'Découvrez des stratégies d'enseignement expertes, des conseils de conception de feuilles de travail et des ressources éducatives. Guides gratuits pour enseignants et parents.'
+      description: 'Découvrez des stratégies d\'enseignement expertes, des conseils de conception de feuilles de travail et des ressources éducatives. Guides gratuits pour enseignants et parents.'
     },
     es: {
       title: 'Blog Educativo - Recursos Didácticos & Consejos | LessonCraftStudio',

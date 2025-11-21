@@ -1,5 +1,6 @@
 import { PrismaClient } from '@prisma/client';
 import bcrypt from 'bcryptjs';
+import { seedBlogPosts } from './seeds/blog-posts';
 
 const prisma = new PrismaClient();
 
@@ -226,6 +227,9 @@ async function main() {
     },
   });
   console.log('✅ Created default security settings');
+
+  // Seed blog posts
+  await seedBlogPosts();
 
   console.log('\n🎉 Seeding completed!');
   console.log('\n📝 Test Users Created:');

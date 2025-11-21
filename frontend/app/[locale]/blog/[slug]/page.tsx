@@ -3,9 +3,8 @@ import Link from 'next/link';
 import { prisma } from '@/lib/prisma';
 import { generateBlogSchemas } from '@/lib/schema-generator';
 
-// Force dynamic rendering - blog content should update immediately when edited
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
+// Enable ISR - revalidate every hour
+export const revalidate = 3600;
 
 interface BlogPostPageProps {
   params: {
@@ -59,9 +58,30 @@ async function getBlogPost(slug: string): Promise<BlogPost | null> {
 
 // Generate static params for all existing blog posts
 export async function generateStaticParams() {
-  // In production, you'd fetch this from the database
-  // For now, return empty array to allow dynamic generation
-  return [];
+  try {
+    const posts = await prisma.blogPost.findMany({
+      where: { status: 'published' },
+      select: { slug: true }
+    });
+
+    // Generate params for all locales
+    const locales = ['en', 'de', 'es', 'fr', 'it', 'pt', 'nl', 'da', 'sv', 'no', 'fi'];
+    const params = [];
+
+    for (const post of posts) {
+      for (const locale of locales) {
+        params.push({
+          locale,
+          slug: post.slug
+        });
+      }
+    }
+
+    return params;
+  } catch (error) {
+    console.error('Error generating static params for blog posts:', error);
+    return [];
+  }
 }
 
 // Get related blog posts

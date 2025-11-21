@@ -4,16 +4,11 @@ import { Card } from '@/components/ui/Card';
 import WorksheetSamples from '@/components/WorksheetSamples';
 import { getTranslations } from 'next-intl/server';
 import { homepageContentManager } from '@/lib/homepage-content-manager';
-import { unstable_noStore as noStore } from 'next/cache';
 
-// Force dynamic rendering - never cache this page
-export const dynamic = 'force-dynamic';
-export const revalidate = 0;
+// Enable ISR - revalidate every hour
+export const revalidate = 3600;
 
 async function getHomepageContent(locale: string) {
-  // Force dynamic rendering - prevent static generation
-  noStore();
-
   try {
     // Call content manager directly - no HTTP fetch to avoid SSR deadlock
     const rawContent = await homepageContentManager.getHomepageContent(locale);
@@ -110,7 +105,6 @@ async function getHomepageContent(locale: string) {
 }
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
-  noStore(); // Force dynamic rendering for metadata
   const locale = params.locale || 'en';
   const content = await getHomepageContent(locale);
   const baseUrl = 'https://lessoncraftstudio.com';

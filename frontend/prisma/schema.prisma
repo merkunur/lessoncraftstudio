@@ -365,6 +365,7 @@ model ImageLibraryItem {
 model BlogPDF {
   id          String   @id @default(cuid())
   postId      String   @map("post_id") // Links to blog post
+  language    String   @default("en") // Language code (en, de, fr, es, pt, it, nl, sv, da, no, fi)
   title       String
   description String   @db.Text
   filename    String
@@ -381,6 +382,7 @@ model BlogPDF {
   post      BlogPost @relation("BlogPostPDFs", fields: [postId], references: [id], onDelete: Cascade)
 
   @@index([postId])
+  @@index([postId, language]) // Compound index for efficient language-specific queries
   @@map("blog_pdfs")
 }
 

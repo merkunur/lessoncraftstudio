@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
+import { prisma } from '@/lib/prisma';
 
 export const dynamic = 'force-dynamic';
 
@@ -109,64 +110,18 @@ async function generateStaticHTML(data: any, locale: string): Promise<string> {
     `  <link rel="alternate" hreflang="${lang}" href="https://lessoncraftstudio.com/${lang}/blog/${slug}" />`
   ).join('\n');
 
-  // Check for PDFs directly on filesystem
-  let pdfMetadata: any[] = [];
-  let sharedPDFs: any[] = [];
-  const pdfDir = path.join(process.cwd(), 'public', 'blog', 'pdfs', slug);
-  const thumbDir = path.join(process.cwd(), 'public', 'blog', 'thumbnails', slug);
+  // Fetch PDFs for this language from database
+  const post = await prisma.blogPost.findUnique({
+    where: { slug },
+    include: {
+      pdfs: {
+        where: { language: locale }, // Filter by language
+        orderBy: { sortOrder: 'asc' }
+      }
+    }
+  });
 
-  try {
-    await fs.access(pdfDir);
-    const files = await fs.readdir(pdfDir);
-    pdfMetadata = await Promise.all(
-      files.filter(file => file.endsWith('.pdf')).map(async (fileName) => {
-        const filePath = path.join(pdfDir, fileName);
-        const stats = await fs.stat(filePath);
-
-        // Check for thumbnail - try multiple extensions
-        let thumbnail = '/blog/thumbnails/default-pdf.svg';
-        const baseThumbName = fileName.replace('.pdf', '');
-        const thumbExtensions = ['.png', '.jpg', '.jpeg', '.svg'];
-
-        for (const ext of thumbExtensions) {
-          const thumbPath = path.join(thumbDir, baseThumbName + ext);
-          try {
-            await fs.access(thumbPath);
-            thumbnail = `/blog/thumbnails/${slug}/${baseThumbName}${ext}`;
-            console.log(`Found thumbnail for publish: ${thumbnail}`);
-            break;
-          } catch {
-            // Try next extension
-          }
-        }
-
-        // Try to load custom metadata with translations
-        let customMetadata: any = null;
-        try {
-          const metadataPath = path.join(process.cwd(), 'data', 'blog', 'pdf-metadata', slug, `${fileName}.json`);
-          const metadataContent = await fs.readFile(metadataPath, 'utf-8');
-          customMetadata = JSON.parse(metadataContent);
-        } catch {
-          // No custom metadata found
-        }
-
-        return {
-          fileName,
-          fileSize: `${(stats.size / 1024).toFixed(1)} KB`,
-          path: `/blog/pdfs/${slug}/${fileName}`,
-          thumbnail,
-          title: fileName.replace('.pdf', '').replace(/-/g, ' ').replace(/_/g, ' ')
-            .split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' '),
-          customMetadata
-        };
-      })
-    );
-  } catch (error) {
-    console.log('No PDFs found for', slug);
-  }
-
-  // Use pdfMetadata if available, otherwise use sharedPDFs
-  const pdfsToShow = pdfMetadata.length > 0 ? pdfMetadata : sharedPDFs;
+  const pdfsToShow = post?.pdfs || [];
 
   // Get PDF section translations from post data or fall back to defaults
   const pdfTitle = data.pdfSectionTitle || (WORKSHEET_TRANSLATIONS[locale] || WORKSHEET_TRANSLATIONS['en']).title;
@@ -189,26 +144,12 @@ async function generateStaticHTML(data: any, locale: string): Promise<string> {
 
         <div class="worksheet-grid">
           ${pdfsToShow.map((pdf: any, index: number) => {
-            // Use custom translations if available, otherwise use filename
-            let displayTitle = pdf.title || pdf.fileName
-              .replace('.pdf', '')
-              .replace(/-/g, ' ')
-              .replace(/_/g, ' ')
-              .split(' ')
-              .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1))
-              .join(' ');
-
-            let displayDescription = translations.descriptionText;
-
-            // Check if custom metadata exists for this PDF
-            if (pdf.customMetadata && pdf.customMetadata.translations && pdf.customMetadata.translations[locale]) {
-              const customTrans = pdf.customMetadata.translations[locale];
-              if (customTrans.title) displayTitle = customTrans.title;
-              if (customTrans.description) displayDescription = customTrans.description;
-            }
-
+            // Use title and description from database (language-specific)
+            const displayTitle = pdf.title;
+            const displayDescription = pdf.description;
             const thumbnail = pdf.thumbnail || '/blog/thumbnails/default-pdf.svg';
-            const fileSize = pdf.fileSize || 'PDF';
+            const fileSize = `${(pdf.fileSize / 1024).toFixed(1)} KB`;
+            const filePath = pdf.filePath;
 
             return `
           <div class="worksheet-card">
@@ -256,8 +197,8 @@ async function generateStaticHTML(data: any, locale: string): Promise<string> {
                 </span>
               </div>
             </div>
-            <a href="${pdf.path}"
-               download="${pdf.fileName || displayTitle + '.pdf'}"
+            <a href="${filePath}"
+               download="${pdf.filename}"
                class="download-btn">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
                 <path d="M12 2v13m0 0l-4-4m4 4l4-4"/>

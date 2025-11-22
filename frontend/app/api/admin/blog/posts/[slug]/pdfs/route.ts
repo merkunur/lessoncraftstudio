@@ -43,6 +43,7 @@ export async function POST(
     const title = formData.get('title') as string;
     const description = formData.get('description') as string;
     const price = formData.get('price') as string || 'Free';
+    const language = (formData.get('language') as string) || 'en'; // Language code
 
     if (!pdfFile || !title) {
       return NextResponse.json(
@@ -71,30 +72,34 @@ export async function POST(
       }
     }
 
-    // Save PDF file
+    // Save PDF file to language-specific directory
     const pdfBuffer = Buffer.from(await pdfFile.arrayBuffer());
     const pdfFilename = generateUniqueFilename(pdfFile.name);
-    const pdfPath = await saveFile(pdfBuffer, pdfFilename, 'blogPdfs', params.slug);
+    const pdfPath = await saveFile(pdfBuffer, pdfFilename, 'blogPdfs', `${params.slug}/${language}`);
 
-    // Save thumbnail if provided
+    // Save thumbnail to language-specific directory if provided
     let thumbnailPath: string | null = null;
     if (thumbnailFile) {
       const thumbnailBuffer = Buffer.from(await thumbnailFile.arrayBuffer());
       const thumbnailFilename = generateUniqueFilename(thumbnailFile.name);
-      thumbnailPath = await saveFile(thumbnailBuffer, thumbnailFilename, 'blogThumbnails', params.slug);
+      thumbnailPath = await saveFile(thumbnailBuffer, thumbnailFilename, 'blogThumbnails', `${params.slug}/${language}`);
     }
 
-    // Get max sortOrder
+    // Get max sortOrder for this language
     const maxSortOrder = await prisma.blogPDF.findFirst({
-      where: { postId: post.id },
+      where: {
+        postId: post.id,
+        language: language,
+      },
       orderBy: { sortOrder: 'desc' },
       select: { sortOrder: true },
     });
 
-    // Create PDF record
+    // Create PDF record with language
     const pdf = await prisma.blogPDF.create({
       data: {
         postId: post.id,
+        language,
         title,
         description: description || '',
         filename: pdfFilename,
@@ -116,7 +121,7 @@ export async function POST(
   }
 }
 
-// GET /api/admin/blog/posts/:slug/pdfs - List PDFs for post
+// GET /api/admin/blog/posts/:slug/pdfs - List PDFs for post (optionally filtered by language)
 export async function GET(
   request: NextRequest,
   { params }: { params: { slug: string } }
@@ -127,10 +132,14 @@ export async function GET(
   }
 
   try {
+    const { searchParams } = new URL(request.url);
+    const language = searchParams.get('language'); // Optional language filter
+
     const post = await prisma.blogPost.findUnique({
       where: { slug: params.slug },
       include: {
         pdfs: {
+          where: language ? { language } : undefined, // Filter by language if specified
           orderBy: { sortOrder: 'asc' },
         },
       },

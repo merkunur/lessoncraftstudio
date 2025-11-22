@@ -95,7 +95,7 @@ export async function PUT(
     const description = formData.get('description') as string | null;
     const price = formData.get('price') as string | null;
     const thumbnailFile = formData.get('thumbnail') as File | null;
-    const language = formData.get('language') as string | null; // Get language parameter
+    // Note: language is immutable and cannot be changed after creation
 
     // Handle thumbnail upload if provided
     let thumbnailPath: string | null = null;
@@ -108,85 +108,44 @@ export async function PUT(
         );
       }
 
-      // Save new thumbnail
+      // Save new thumbnail to language-specific directory
       const thumbnailBuffer = Buffer.from(await thumbnailFile.arrayBuffer());
       const thumbnailFilename = generateUniqueFilename(thumbnailFile.name);
-      thumbnailPath = await saveFile(thumbnailBuffer, thumbnailFilename, 'blogThumbnails', params.slug);
+      // Extract language from existing PDF to maintain directory structure
+      thumbnailPath = await saveFile(
+        thumbnailBuffer,
+        thumbnailFilename,
+        'blogThumbnails',
+        `${params.slug}/${existingPdf.language}`
+      );
     }
 
-    // If language is English or not specified, update the BlogPDF table (default)
-    if (!language || language === 'en') {
-      const updateData: any = {};
-      if (title !== null) updateData.title = title;
-      if (description !== null) updateData.description = description;
-      if (price !== null) updateData.price = price;
-      if (thumbnailPath) {
-        // Delete old thumbnail if exists
-        if (existingPdf.thumbnail) {
-          try {
-            const oldThumbnailPath = path.join(process.cwd(), 'public', existingPdf.thumbnail);
-            if (fs.existsSync(oldThumbnailPath)) {
-              fs.unlinkSync(oldThumbnailPath);
-            }
-          } catch (error) {
-            console.warn('Failed to delete old thumbnail:', error);
+    // Update BlogPDF record (language is immutable, so we don't change it)
+    const updateData: any = {};
+    if (title !== null) updateData.title = title;
+    if (description !== null) updateData.description = description;
+    if (price !== null) updateData.price = price;
+    if (thumbnailPath) {
+      // Delete old thumbnail if exists
+      if (existingPdf.thumbnail) {
+        try {
+          const oldThumbnailPath = path.join(process.cwd(), 'public', existingPdf.thumbnail);
+          if (fs.existsSync(oldThumbnailPath)) {
+            fs.unlinkSync(oldThumbnailPath);
           }
+        } catch (error) {
+          console.warn('Failed to delete old thumbnail:', error);
         }
-        updateData.thumbnail = thumbnailPath;
       }
-
-      const pdf = await prisma.blogPDF.update({
-        where: { id: params.id },
-        data: updateData,
-      });
-
-      return NextResponse.json({ pdf });
-    } else {
-      // For non-English languages, update BlogPost.translations[language].pdfs[pdfId]
-      const post = await prisma.blogPost.findUnique({
-        where: { slug: params.slug },
-      });
-
-      if (!post) {
-        return NextResponse.json(
-          { error: 'Post not found' },
-          { status: 404 }
-        );
-      }
-
-      const translations = post.translations as any;
-
-      // Initialize translations structure if needed
-      if (!translations[language]) {
-        translations[language] = {};
-      }
-      if (!translations[language].pdfs) {
-        translations[language].pdfs = {};
-      }
-
-      // Update language-specific PDF data
-      const pdfData: any = translations[language].pdfs[params.id] || {};
-      if (title !== null) pdfData.title = title;
-      if (description !== null) pdfData.description = description;
-      if (thumbnailPath) pdfData.thumbnail = thumbnailPath;
-
-      translations[language].pdfs[params.id] = pdfData;
-
-      // Save updated translations
-      await prisma.blogPost.update({
-        where: { id: post.id },
-        data: { translations },
-      });
-
-      return NextResponse.json({
-        pdf: {
-          id: params.id,
-          title,
-          description,
-          thumbnail: thumbnailPath || existingPdf.thumbnail,
-        }
-      });
+      updateData.thumbnail = thumbnailPath;
     }
+
+    const pdf = await prisma.blogPDF.update({
+      where: { id: params.id },
+      data: updateData,
+    });
+
+    return NextResponse.json({ pdf });
   } catch (error) {
     console.error('Failed to update PDF:', error);
     return NextResponse.json(

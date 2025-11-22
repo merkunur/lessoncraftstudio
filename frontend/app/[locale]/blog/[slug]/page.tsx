@@ -38,12 +38,13 @@ interface BlogPost {
 }
 
 // Fetch blog post from database directly
-async function getBlogPost(slug: string): Promise<BlogPost | null> {
+async function getBlogPost(slug: string, locale: string): Promise<BlogPost | null> {
   try {
     const post = await prisma.blogPost.findUnique({
       where: { slug },
       include: {
         pdfs: {
+          where: { language: locale }, // Filter PDFs by language
           orderBy: { sortOrder: 'asc' }
         }
       }
@@ -107,7 +108,7 @@ export default async function BlogPostPage({
   params
 }: BlogPostPageProps) {
   const { locale, slug } = params;
-  const post = await getBlogPost(slug);
+  const post = await getBlogPost(slug, locale);
 
   if (!post) {
     notFound();
@@ -279,11 +280,10 @@ export default async function BlogPostPage({
             margin: '0 auto'
           }}>
             {post.pdfs.map((pdf) => {
-            // Get language-specific PDF title/description/thumbnail from translations if available
-            const pdfTranslations = translation.pdfs?.[pdf.id];
-            const pdfTitle = pdfTranslations?.title || pdf.title;
-            const pdfDescription = pdfTranslations?.description || pdf.description;
-            const pdfThumbnail = pdfTranslations?.thumbnail || pdf.thumbnail;
+            // PDFs are now language-specific in the database
+            const pdfTitle = pdf.title;
+            const pdfDescription = pdf.description;
+            const pdfThumbnail = pdf.thumbnail;
 
             return (
               <div key={pdf.id} className="pdf-card-hover" style={{
@@ -530,7 +530,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
   const baseUrl = 'https://lessoncraftstudio.com';
 
   try {
-    const post = await getBlogPost(slug);
+    const post = await getBlogPost(slug, locale);
 
     if (!post) {
       return {

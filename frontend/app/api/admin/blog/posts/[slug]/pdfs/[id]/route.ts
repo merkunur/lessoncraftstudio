@@ -1,6 +1,7 @@
 export const dynamic = 'force-dynamic';
 
 import { NextRequest, NextResponse } from 'next/server';
+import { revalidatePath } from 'next/cache';
 import { prisma } from '@/lib/prisma';
 import { requireAdmin } from '@/lib/admin-auth';
 import {
@@ -145,6 +146,12 @@ export async function PUT(
       data: updateData,
     });
 
+    // Revalidate blog post pages for all languages to show updated PDF immediately
+    const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+    for (const locale of locales) {
+      revalidatePath(`/${locale}/blog/${params.slug}`);
+    }
+
     return NextResponse.json({ pdf });
   } catch (error) {
     console.error('Failed to update PDF:', error);
@@ -216,6 +223,12 @@ export async function DELETE(
     await prisma.blogPDF.delete({
       where: { id: params.id },
     });
+
+    // Revalidate blog post pages for all languages to remove deleted PDF immediately
+    const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+    for (const locale of locales) {
+      revalidatePath(`/${locale}/blog/${params.slug}`);
+    }
 
     return NextResponse.json({ message: 'PDF deleted successfully' });
   } catch (error) {

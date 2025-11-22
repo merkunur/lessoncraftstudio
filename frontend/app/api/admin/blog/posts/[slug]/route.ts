@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { revalidatePath } from 'next/cache';
 import { prisma } from '@/lib/prisma';
 import { requireAdmin } from '@/lib/admin-auth';
 
@@ -89,6 +90,12 @@ export async function PUT(
         },
       },
     });
+
+    // Revalidate blog post pages for all languages to show updated translations immediately
+    const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+    for (const locale of locales) {
+      revalidatePath(`/${locale}/blog/${params.slug}`);
+    }
 
     return NextResponse.json({ post });
   } catch (error) {

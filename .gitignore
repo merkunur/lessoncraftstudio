@@ -66,13 +66,21 @@ nul
 # - Deployed versions (frontend/public/) = NOT in git, deployed manually from REFERENCE folders
 # See DEPLOYMENT.md for complete documentation
 
-# Content Managers - DEPLOYED VERSIONS (NOT tracked by git)
-# These are deployed manually from REFERENCE CONTENT MANAGERS folder
-frontend/public/worksheet-generators/blog-content-manager.html
-frontend/public/homepage-content-manager.html
-frontend/public/worksheet-generators/content-manager-v2.html
+# Worksheet Generators - ALL HTML files in worksheet-generators (NOT tracked by git)
+# These are deployed manually from REFERENCE APPS and REFERENCE CONTENT MANAGERS folders
+frontend/public/worksheet-generators/*.html
 
-# Note: REFERENCE CONTENT MANAGERS/ folder IS tracked by git (source of truth)
+# Translation Files - NOT tracked by git
+# Deployed manually from REFERENCE TRANSLATIONS folder
+frontend/public/worksheet-generators/js/translations-*.js
+frontend/public/worksheet-generators/translations-*.js
+frontend/public/worksheet-generators/js/translations.js
+
+# Content Managers in public root - DEPLOYED VERSIONS (NOT tracked by git)
+# These are deployed manually from REFERENCE CONTENT MANAGERS folder
+frontend/public/homepage-content-manager.html
+
+# Note: REFERENCE APPS/ and REFERENCE CONTENT MANAGERS/ folders ARE tracked by git (source of truth)
 
 # All local working copies and variations (NOT tracked by git)
 *-MODIFIED.html

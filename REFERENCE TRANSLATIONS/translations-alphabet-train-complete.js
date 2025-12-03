@@ -2227,8 +2227,8 @@ const translations = {
 
     fi: {
         // App Metadata & Title
-        "alphabetTrainWorksheet": "Aakkosjuna Tehtäväarkki Generaattori",
-        "trainSettings": "Juna-asetukset",
+        "alphabetTrainWorksheet": "Aakkosijuna Tehtäväarkkigeneraattori",
+        "trainSettings": "Junan asetukset",
 
         // Language Settings
         "languageSettings": "Kieliasetukset",
@@ -2354,16 +2354,16 @@ const translations = {
         "workspaceCleared": "Työtila tyhjennetty.",
 
         // Additional keys
-        "generateAnswerKey": "Luo vastausavain",
+        "generateAnswerKey": "Luo vastaukset",
         "generate": "Luo",
-        "worksheetJPEG": "Tehtävämoniste (JPEG)",
-        "answerKeyJPEG": "Vastausavain (JPEG)",
-        "worksheetPDF": "Tehtävämoniste (PDF)",
-        "answerKeyPDF": "Vastausavain (PDF)",
+        "worksheetJPEG": "Tehtäväarkki (JPEG)",
+        "answerKeyJPEG": "Vastaukset (JPEG)",
+        "worksheetPDF": "Tehtäväarkki (PDF)",
+        "answerKeyPDF": "Vastaukset (PDF)",
         "clearAll": "Tyhjennä kaikki",
         "grayscale": "Harmaasävy",
-        "worksheet": "Tehtävämoniste",
-        "answerKey": "Vastausavain",
+        "worksheet": "Tehtäväarkki",
+        "answerKey": "Vastaukset",
         "bringForward": "Siirrä eteenpäin",
         "sendBackward": "Siirrä taaksepäin",
         "mode": "Tila",
@@ -2401,8 +2401,8 @@ const translations = {
         "failedToLoadBackgroundImages": "Taustakuvien lataus epäonnistui",
         "failedToLoadTrainTemplates": "Junamallien lataus epäonnistui",
         "allSelectionsCleared": "Kaikki valinnat tyhjennetty.",
-        "answerKeyError": "Virhe vastausavaimen luomisessa.",
-        "answerKeyGenerated": "Vastausavain luotu.",
+        "answerKeyError": "Virhe vastausten luomisessa.",
+        "answerKeyGenerated": "Vastaukset luotu.",
         "assignedImageToLetter": "Kuva liitetty kirjaimeen {}.",
         "autoCreateEnabledSelectTheme": "Automaattinen luonti käytössä. Valitse teema.",
         "autoCreateErrorFailedToFind11Pairs": "11 kirjain-kuva paria ei löytynyt.",
@@ -2417,8 +2417,8 @@ const translations = {
         "errorCreatingPDF": "Virhe PDF:n luomisessa.",
         "errorPreparingJPEG": "Virhe JPEG:n valmistelussa.",
         "errorReadingFile": "Virhe tiedoston lukemisessa.",
-        "generatingAnswerKey": "Luodaan vastausavainta...",
-        "generatingWorksheet": "Luodaan tehtäväpaperia...",
+        "generatingAnswerKey": "Luodaan vastauksia...",
+        "generatingWorksheet": "Luodaan tehtäväarkkia...",
         "grayscaleFailed": "Harmaasävymuunnos epäonnistui.",
         "imageAlreadyAssigned": "Kuva on jo liitetty.",
         "imageNotInSelectedLetters": "Kuva ei ole valituissa kirjaimissa.",
@@ -2434,14 +2434,14 @@ const translations = {
         "pdfDownloaded": "PDF ladattu.",
         "pdfError": "Virhe PDF:n luomisessa.",
         "pleaseGenerateContentFirst": "Luo ensin sisältö.",
-        "pleaseGenerateWorksheetFirst": "Luo ensin tehtäväpaperi.",
+        "pleaseGenerateWorksheetFirst": "Luo ensin tehtäväarkki.",
         "pleaseSelect11LettersFirst": "Valitse ensin 11 kirjainta.",
         "pleaseSelectAll11Letters": "Valitse kaikki 11 kirjainta.",
         "preparingData": "Valmistellaan dataa...",
         "preparingJPEG": "Valmistellaan JPEG:iä...",
         "preparingPDF": "Valmistellaan PDF:ää...",
         "selectSpecificThemeForAutoCreate": "Valitse tietty teema automaattiseen luontiin.",
-        "worksheetGeneratedCanGenerateAnswerKey": "Tehtäväpaperi luotu. Voit nyt luoda vastausavaimen."
+        "worksheetGeneratedCanGenerateAnswerKey": "Tehtäväarkki luotu. Voit nyt luoda vastaukset."
     }
 };
 

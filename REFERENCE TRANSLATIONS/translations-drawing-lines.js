@@ -44,7 +44,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "allThemes": "All Themes",
 
     // ============= ACTION BUTTONS =============
-    "generate": "Generate",
+    "generate": "Create",
     "download": "Download",
     "downloadAsJpeg": "Download as JPEG",
     "downloadAsPdf": "Download as PDF",
@@ -177,7 +177,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "nameDatePlaceholder": "Name: _________________________ Date: ____________",
 
     // ============= SUCCESS MESSAGES =============
-    "worksheetGenerated": "Worksheet generated!",
+    "worksheetGenerated": "Worksheet created!",
     "textAddedToWorksheet": "Text added to worksheet.",
     "formCleared": "Form cleared.",
     "jpegDownloadInitiated": "JPEG Download Initiated!",
@@ -203,8 +203,8 @@ const DRAWING_LINES_TRANSLATIONS = {
     "errorDuringGeneration": "An error occurred during generation.",
     "failedToLoadOverlayImage": "Failed to load {type} image.",
     "grayscaleConversionFailed": "Grayscale conversion failed.",
-    "pleaseGenerateWorksheetFirst": "Please generate a worksheet first.",
-    "pleaseGenerateContentFirst": "Please generate content first.",
+    "pleaseGenerateWorksheetFirst": "Please create a worksheet first.",
+    "pleaseGenerateContentFirst": "Please create content first.",
     "errorPreparingJpeg": "Error preparing JPEG: {error}",
     "errorCreatingPdf": "Error creating PDF: {error}",
     "preparingJpegWait": "Preparing JPEG... Please wait.",
@@ -212,7 +212,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Loading...",
-    "generatingWorksheet": "Generating worksheet...",
+    "creatingWorksheet": "Creating worksheet...",
     "loadingBorders": "Loading {theme} borders...",
     "loadingBackgrounds": "Loading {theme} backgrounds...",
     "noBackgroundsInTheme": "No backgrounds in this theme.",
@@ -266,9 +266,9 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Seiteneinstellungen",
-    "textTools": "Textbearbeitung",
+    "textTools": "Textwerkzeuge",
     "templateAndImages": "Vorlage & Bilder",
-    "imageLibrary": "Bildsammlung",
+    "imageLibrary": "Bildbibliothek",
     "uploadCustomImages": "Eigene Bilder hochladen",
 
     // ============= PAGE SETUP =============
@@ -294,13 +294,13 @@ const DRAWING_LINES_TRANSLATIONS = {
     "borderTheme": "Rahmenvorlage:",
     "none": "Keine",
     "common.none": "Kein",
-    "borderOpacity": "Rahmen-Deckkraft:",
+    "borderOpacity": "Rahmen-Transparenz:",
     "selectBorderTheme": "Wählen Sie ein Thema für Rahmen.",
 
     // ============= BACKGROUND SECTION =============
     "background": "Hintergrund",
     "backgroundTheme": "Hintergrundvorlage:",
-    "backgroundOpacity": "Hintergrund-Deckkraft:",
+    "backgroundOpacity": "Hintergrund-Transparenz:",
     "selectBackgroundTheme": "Wählen Sie ein Thema für Hintergründe.",
 
     // ============= TEXT TOOLS =============
@@ -312,8 +312,8 @@ const DRAWING_LINES_TRANSLATIONS = {
     "color": "Farbe:",
     "size": "Größe:",
     "font": "Schriftart:",
-    "outlineColor": "Konturfarbe:",
-    "outlineWidth": "Konturstärke (0-10):",
+    "outlineColor": "Umrissfarbe:",
+    "outlineWidth": "Umrissstärke (0-10):",
 
     // ============= FONT OPTIONS =============
     "font_lexend": "Lexend Deca",
@@ -391,7 +391,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     // ============= SUCCESS MESSAGES =============
     "worksheetGenerated": "Arbeitsblatt erstellt!",
     "textAddedToWorksheet": "Text zum Arbeitsblatt hinzugefügt.",
-    "formCleared": "Formular gelöscht.",
+    "formCleared": "Formular zurückgesetzt.",
     "jpegDownloadInitiated": "JPEG-Download gestartet!",
     "overlayAdded": "{type} hinzugefügt.",
     "customImagesAvailable": "{count} eigene(s) Bild(er) verfügbar.",
@@ -471,7 +471,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Mise en page",
-    "textTools": "Options de texte",
+    "textTools": "Options de texte", // Platform standard - retroactive update 2025-11-27
     "templateAndImages": "Modèle et images",
     "imageLibrary": "Bibliothèque d'images",
     "uploadCustomImages": "Importer vos images",
@@ -491,8 +491,8 @@ const DRAWING_LINES_TRANSLATIONS = {
     "options": "Options",
     "includeNameDateFields": "Inclure les champs nom/date",
     "showHeaderTitle": "Afficher l'en-tête/titre",
-    "titleText": "Titre:",
-    "descriptionText": "Description:",
+    "titleText": "Titre :",
+    "descriptionText": "Description :",
 
     // ============= BORDER SECTION =============
     "border": "Bordure",
@@ -513,7 +513,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "addNewText": "Ajouter du texte",
     "content": "Contenu :",
     "helloPlaceholder": "Bonjour !",
-    "addText": "Insérer le texte",
+    "addText": "Ajouter du texte", // Platform standard - retroactive update 2025-11-27
     "selectedTextProperties": "Propriétés du texte sélectionné",
     "color": "Couleur :",
     "size": "Taille :",
@@ -623,7 +623,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Chargement...",
-    "generatingWorksheet": "Génération de la feuille de travail...",
+    "generatingWorksheet": "Création de la fiche d'exercices...",
     "loadingBorders": "Chargement des bordures {theme}...",
     "loadingBackgrounds": "Chargement des arrière-plans {theme}...",
     "noBackgroundsInTheme": "Aucun arrière-plan dans ce thème.",
@@ -663,12 +663,12 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= CORE UI =============
     "settings": "Configuración",
-    "worksheet": "Hoja de ejercicios",
+    "worksheet": "Ficha de trabajo",
     "language": "Idioma:",
     "allThemes": "Todos los temas",
 
     // ============= ACTION BUTTONS =============
-    "generate": "Crear",
+    "generate": "Generar",
     "download": "Descargar",
     "downloadAsJpeg": "Descargar como JPEG",
     "downloadAsPdf": "Descargar como PDF",
@@ -677,10 +677,10 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Configuración de página",
-    "textTools": "Opciones de texto",
+    "textTools": "Herramientas de texto",
     "templateAndImages": "Plantilla e imágenes",
     "imageLibrary": "Biblioteca de imágenes",
-    "uploadCustomImages": "Cargar imágenes propias",
+    "uploadCustomImages": "Subir imágenes personalizadas",
 
     // ============= PAGE SETUP =============
     "pageSize": "Tamaño de página:",
@@ -706,13 +706,13 @@ const DRAWING_LINES_TRANSLATIONS = {
     "none": "Ninguno",
     "common.none": "Ninguno",
     "none": "Ninguno",
-    "borderOpacity": "Opacidad del borde:",
+    "borderOpacity": "Transparencia del borde:",
     "selectBorderTheme": "Selecciona un tema para ver los bordes.",
 
     // ============= BACKGROUND SECTION =============
     "background": "Fondo",
     "backgroundTheme": "Tema de fondo:",
-    "backgroundOpacity": "Opacidad del fondo:",
+    "backgroundOpacity": "Transparencia del fondo:",
     "selectBackgroundTheme": "Selecciona un tema para ver los fondos.",
 
     // ============= TEXT TOOLS =============
@@ -759,9 +759,9 @@ const DRAWING_LINES_TRANSLATIONS = {
     "loadingThemes": "Cargando temas...",
 
     // ============= UPLOAD SECTION =============
-    "selectImagesToUpload": "Seleccionar imágenes para cargar:",
-    "yourUploadedImages": "Tus imágenes cargadas (sesión actual):",
-    "uploadedImagesWillAppear": "Tus imágenes cargadas aparecerán aquí.",
+    "selectImagesToUpload": "Seleccionar imágenes para subir:",
+    "yourUploadedImages": "Tus imágenes subidas (sesión actual):",
+    "uploadedImagesWillAppear": "Tus imágenes subidas aparecerán aquí.",
     "chooseFiles": "Elegir archivos",
     "noFileChosen": "Ningún archivo elegido",
     "filesSelected": "{count} archivo(s) seleccionado(s)",
@@ -801,8 +801,8 @@ const DRAWING_LINES_TRANSLATIONS = {
     "nameDatePlaceholder": "Nombre: _________________________ Fecha: ____________",
 
     // ============= SUCCESS MESSAGES =============
-    "worksheetGenerated": "¡Hoja de ejercicios creada!",
-    "textAddedToWorksheet": "Texto agregado a la hoja.",
+    "worksheetGenerated": "¡Ficha de trabajo creada!",
+    "textAddedToWorksheet": "Texto agregado a la ficha.",
     "formCleared": "Formulario borrado.",
     "jpegDownloadInitiated": "¡Descarga JPEG iniciada!",
     "overlayAdded": "{type} agregado.",
@@ -819,17 +819,17 @@ const DRAWING_LINES_TRANSLATIONS = {
     "errorReadingFile": "Error al leer el archivo: {filename}",
     "pleaseSelectSlotFirst": "Por favor, primero selecciona un espacio en la sección \"Asignar pares de imágenes\".",
     "pleaseSelectDrawingTemplate": "Por favor, selecciona una plantilla de conexión.",
-    "cannotAutoFill": "No se puede rellenar automáticamente. Por favor, selecciona un tema o carga imágenes.",
+    "cannotAutoFill": "No se puede rellenar automáticamente. Por favor, selecciona un tema o sube imágenes.",
     "pleaseFillAllImagePairs": "Por favor, completa todos los pares de imágenes o activa el relleno automático.",
     "errorDuringGeneration": "Ocurrió un error durante la creación.",
     "failedToLoadOverlayImage": "No se pudo cargar la imagen de {type}.",
     "grayscaleConversionFailed": "La conversión a escala de grises falló.",
-    "pleaseGenerateWorksheetFirst": "Por favor, primero crea una hoja de ejercicios.",
+    "pleaseGenerateWorksheetFirst": "Por favor, primero crea una ficha de trabajo.",
     "errorPreparingJpeg": "Error al preparar el JPEG: {error}",
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Cargando...",
-    "generatingWorksheet": "Generando hoja de trabajo...",
+    "generatingWorksheet": "Generando ficha de trabajo...",
     "loadingBorders": "Cargando bordes de {theme}...",
     "loadingBackgrounds": "Cargando fondos de {theme}...",
     "noBackgroundsInTheme": "No hay fondos en este tema.",
@@ -883,7 +883,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Impostazioni pagina",
-    "textTools": "Opzioni di testo",
+    "textTools": "Strumenti testo",
     "templateAndImages": "Modello e immagini",
     "imageLibrary": "Libreria immagini",
     "uploadCustomImages": "Carica le tue immagini",
@@ -907,13 +907,13 @@ const DRAWING_LINES_TRANSLATIONS = {
     "descriptionText": "Descrizione:",
 
     // ============= BORDER SECTION =============
-    "border": "Cornice",
-    "borderTheme": "Tema cornice:",
+    "border": "Bordo",
+    "borderTheme": "Tema bordo:",
     "none": "Nessuno",
     "common.none": "Nessuno",
     "none": "Nessuno",
-    "borderOpacity": "Opacità cornice:",
-    "selectBorderTheme": "Seleziona un tema per vedere le cornici.",
+    "borderOpacity": "Opacità bordo:",
+    "selectBorderTheme": "Seleziona un tema per vedere i bordi.",
 
     // ============= BACKGROUND SECTION =============
     "background": "Sfondo",
@@ -970,7 +970,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "uploadedImagesWillAppear": "Le tue immagini caricate appariranno qui.",
     "chooseFiles": "Scegli file",
     "noFileChosen": "Nessun file scelto",
-    "filesSelected": "{count} file selezionato/i",
+    "filesSelected": "{count} file selezionati",
 
     // ============= TOOLBAR =============
     "layers": "Livelli",
@@ -1010,16 +1010,16 @@ const DRAWING_LINES_TRANSLATIONS = {
     "worksheetGenerated": "Scheda creata!",
     "textAddedToWorksheet": "Testo aggiunto alla scheda.",
     "formCleared": "Modulo cancellato.",
-    "jpegDownloadInitiated": "Download JPEG avviato!",
+    "jpegDownloadInitiated": "Scaricamento JPEG avviato!",
     "overlayAdded": "{type} aggiunto.",
-    "customImagesAvailable": "{count} immagine/i personalizzata/e disponibile/i.",
+    "customImagesAvailable": "{count} immagini personalizzate disponibili.",
 
     // ============= ERROR MESSAGES =============
     "couldNotLoadThemes": "Impossibile caricare i temi delle immagini.",
     "errorLoadingThemes": "Errore nel caricamento dei temi.",
     "errorLoadingImages": "Errore nel caricamento delle immagini.",
-    "couldNotLoadBorderImages": "Impossibile caricare le immagini delle cornici.",
-    "errorLoadingBorders": "Errore nel caricamento delle cornici.",
+    "couldNotLoadBorderImages": "Impossibile caricare le immagini dei bordi.",
+    "errorLoadingBorders": "Errore nel caricamento dei bordi.",
     "couldNotLoadBackgroundImages": "Impossibile caricare le immagini di sfondo.",
     "errorLoadingBackgrounds": "Errore nel caricamento degli sfondi.",
     "errorReadingFile": "Errore nella lettura del file: {filename}",
@@ -1035,12 +1035,12 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Caricamento...",
-    "generatingWorksheet": "Generazione del foglio di lavoro...",
-    "loadingBorders": "Caricamento cornici {theme}...",
+    "generatingWorksheet": "Generazione della scheda di esercizi...",
+    "loadingBorders": "Caricamento bordi {theme}...",
     "loadingBackgrounds": "Caricamento sfondi {theme}...",
     "noBackgroundsInTheme": "Nessuno sfondo in questo tema.",
-    "noBordersInTheme": "Nessuna cornice in questo tema.",
-    "loadingImages": "Caricamento di {count} immagine/i...",
+    "noBordersInTheme": "Nessun bordo in questo tema.",
+    "loadingImages": "Caricamento di {count} immagini...",
     "loadingDefaultTheme": "Caricamento tema predefinito...",
     "searching": "Ricerca in corso...",
     "noImagesFound": "Nessuna immagine trovata{query}.",
@@ -1241,7 +1241,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Carregando...",
-    "generatingWorksheet": "Gerando folha de trabalho...",
+    "generatingWorksheet": "Criando folha de exercícios...", // FIXED 2025-11-29: Brazilian Portuguese (Criando not Gerando) + consistency (folha de exercícios)
     "loadingBorders": "Carregando molduras de {theme}...",
     "loadingBackgrounds": "Carregando fundos de {theme}...",
     "noBackgroundsInTheme": "Nenhum fundo neste tema.",
@@ -1297,7 +1297,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "pageSetup": "Pagina-instellingen",
     "textTools": "Tekstopties",
     "templateAndImages": "Sjabloon & afbeeldingen",
-    "imageLibrary": "Afbeeldingenbibliotheek",
+    "imageLibrary": "Afbeeldingsbibliotheek",
     "uploadCustomImages": "Eigen afbeeldingen uploaden",
 
     // ============= PAGE SETUP =============
@@ -1313,8 +1313,8 @@ const DRAWING_LINES_TRANSLATIONS = {
     "pageColor": "Paginakleur:",
     "applySize": "Formaat toepassen",
     "options": "Opties",
-    "includeNameDateFields": "Naam-/datumvelden toevoegen",
-    "showHeaderTitle": "Kop/titel tonen",
+    "includeNameDateFields": "Naam- en datumvelden toevoegen",
+    "showHeaderTitle": "Titel tonen",
     "titleText": "Titel:",
     "descriptionText": "Beschrijving:",
 
@@ -1323,14 +1323,13 @@ const DRAWING_LINES_TRANSLATIONS = {
     "borderTheme": "Randthema:",
     "none": "Geen",
     "common.none": "Geen",
-    "none": "Geen",
-    "borderOpacity": "Randdekking:",
+    "borderOpacity": "Randtransparantie:",
     "selectBorderTheme": "Kies een thema om randen te bekijken.",
 
     // ============= BACKGROUND SECTION =============
     "background": "Achtergrond",
     "backgroundTheme": "Achtergrondthema:",
-    "backgroundOpacity": "Achtergronddekking:",
+    "backgroundOpacity": "Achtergrondtransparantie:",
     "selectBackgroundTheme": "Kies een thema om achtergronden te bekijken.",
 
     // ============= TEXT TOOLS =============
@@ -1447,7 +1446,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Laden...",
-    "generatingWorksheet": "Werkblad genereren...",
+    "generatingWorksheet": "Werkblad maken...",
     "loadingBorders": "{theme}-randen laden...",
     "loadingBackgrounds": "{theme}-achtergronden laden...",
     "noBackgroundsInTheme": "Geen achtergronden in dit thema.",
@@ -1487,7 +1486,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= CORE UI =============
     "settings": "Inställningar",
-    "worksheet": "Arbetsblad",
+    "worksheet": "Övningsblad",
     "language": "Språk:",
     "allThemes": "Alla teman",
 
@@ -1501,17 +1500,17 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Sidinställningar",
-    "textTools": "Textalternativ",
+    "textTools": "Textverktyg",
     "templateAndImages": "Mall och bilder",
     "imageLibrary": "Bildbibliotek",
     "uploadCustomImages": "Ladda upp egna bilder",
 
     // ============= PAGE SETUP =============
     "pageSize": "Sidstorlek:",
-    "letterPortrait": "Letter Stående (8,5×11\")",
-    "letterLandscape": "Letter Liggande (11×8,5\")",
-    "a4Portrait": "A4 Stående (210×297mm)",
-    "a4Landscape": "A4 Liggande (297×210mm)",
+    "letterPortrait": "Letter stående (8,5×11\")",
+    "letterLandscape": "Letter liggande (11×8,5\")",
+    "a4Portrait": "A4 stående (210×297mm)",
+    "a4Landscape": "A4 liggande (297×210mm)",
     "square": "Kvadrat (1200x1200)",
     "custom": "Anpassad",
     "widthPx": "Bredd (px):",
@@ -1530,13 +1529,13 @@ const DRAWING_LINES_TRANSLATIONS = {
     "none": "Ingen",
     "common.none": "Ingen",
     "none": "Ingen",
-    "borderOpacity": "Ramopacitet:",
+    "borderOpacity": "Ramens genomskinlighet:",
     "selectBorderTheme": "Välj ett tema för att se ramar.",
 
     // ============= BACKGROUND SECTION =============
     "background": "Bakgrund",
     "backgroundTheme": "Bakgrundstema:",
-    "backgroundOpacity": "Bakgrundsopacitet:",
+    "backgroundOpacity": "Bakgrundens genomskinlighet:",
     "selectBackgroundTheme": "Välj ett tema för att se bakgrunder.",
 
     // ============= TEXT TOOLS =============
@@ -1625,8 +1624,8 @@ const DRAWING_LINES_TRANSLATIONS = {
     "nameDatePlaceholder": "Namn: _________________________ Datum: ____________",
 
     // ============= SUCCESS MESSAGES =============
-    "worksheetGenerated": "Arbetsblad skapat!",
-    "textAddedToWorksheet": "Text tillagd på arbetsbladet.",
+    "worksheetGenerated": "Övningsblad skapat!",
+    "textAddedToWorksheet": "Text tillagd på övningsbladet.",
     "formCleared": "Formulär rensat.",
     "jpegDownloadInitiated": "JPEG-nedladdning startad!",
     "overlayAdded": "{type} tillagd.",
@@ -1648,12 +1647,12 @@ const DRAWING_LINES_TRANSLATIONS = {
     "errorDuringGeneration": "Ett fel uppstod vid skapandet.",
     "failedToLoadOverlayImage": "Kunde inte ladda {type}-bild.",
     "grayscaleConversionFailed": "Konvertering till gråskala misslyckades.",
-    "pleaseGenerateWorksheetFirst": "Skapa först ett arbetsblad.",
+    "pleaseGenerateWorksheetFirst": "Skapa först ett övningsblad.",
     "errorPreparingJpeg": "Fel vid förberedelse av JPEG: {error}",
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Laddar...",
-    "generatingWorksheet": "Genererar arbetsblad...",
+    "generatingWorksheet": "Skapar övningsblad...",
     "loadingBorders": "Laddar {theme}-ramar...",
     "loadingBackgrounds": "Laddar {theme}-bakgrunder...",
     "noBackgroundsInTheme": "Inga bakgrunder i detta tema.",
@@ -1693,7 +1692,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= CORE UI =============
     "settings": "Indstillinger",
-    "worksheet": "Arbejdsark",
+    "worksheet": "Opgaveark",
     "language": "Sprog:",
     "allThemes": "Alle temaer",
 
@@ -1707,19 +1706,19 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Sideopsætning",
-    "textTools": "Tekstindstillinger",
+    "textTools": "Tekstværktøjer",
     "templateAndImages": "Skabelon og billeder",
     "imageLibrary": "Billedbibliotek",
     "uploadCustomImages": "Upload egne billeder",
 
     // ============= PAGE SETUP =============
     "pageSize": "Sidestørrelse:",
-    "letterPortrait": "Letter Stående (8,5×11\")",
-    "letterLandscape": "Letter Liggende (11×8,5\")",
-    "a4Portrait": "A4 Stående (210×297mm)",
-    "a4Landscape": "A4 Liggende (297×210mm)",
+    "letterPortrait": "Letter stående (8,5×11\")",
+    "letterLandscape": "Letter liggende (11×8,5\")",
+    "a4Portrait": "A4 stående (210×297mm)",
+    "a4Landscape": "A4 liggende (297×210mm)",
     "square": "Kvadrat (1200x1200)",
-    "custom": "Tilpasset",
+    "custom": "Brugerdefineret",
     "widthPx": "Bredde (px):",
     "heightPx": "Højde (px):",
     "pageColor": "Sidefarve:",
@@ -1736,13 +1735,13 @@ const DRAWING_LINES_TRANSLATIONS = {
     "none": "Ingen",
     "common.none": "Ingen",
     "none": "Ingen",
-    "borderOpacity": "Kantdekning:",
+    "borderOpacity": "Rammegennemsigtighed:",
     "selectBorderTheme": "Vælg et tema for at se rammer.",
 
     // ============= BACKGROUND SECTION =============
     "background": "Baggrund",
     "backgroundTheme": "Baggrundstema:",
-    "backgroundOpacity": "Baggrundsdekning:",
+    "backgroundOpacity": "Baggrundsgennemsigtighed:",
     "selectBackgroundTheme": "Vælg et tema for at se baggrunde.",
 
     // ============= TEXT TOOLS =============
@@ -1831,8 +1830,8 @@ const DRAWING_LINES_TRANSLATIONS = {
     "nameDatePlaceholder": "Navn: _________________________ Dato: ____________",
 
     // ============= SUCCESS MESSAGES =============
-    "worksheetGenerated": "Arbejdsark oprettet!",
-    "textAddedToWorksheet": "Tekst tilføjet til arbejdsarket.",
+    "worksheetGenerated": "Opgaveark oprettet!",
+    "textAddedToWorksheet": "Tekst tilføjet til opgavearket.",
     "formCleared": "Formular ryddet.",
     "jpegDownloadInitiated": "JPEG-download startet!",
     "overlayAdded": "{type} tilføjet.",
@@ -1854,12 +1853,12 @@ const DRAWING_LINES_TRANSLATIONS = {
     "errorDuringGeneration": "Der opstod en fejl under oprettelsen.",
     "failedToLoadOverlayImage": "Kunne ikke indlæse {type}-billede.",
     "grayscaleConversionFailed": "Konvertering til gråtoner mislykkedes.",
-    "pleaseGenerateWorksheetFirst": "Opret først et arbejdsark.",
+    "pleaseGenerateWorksheetFirst": "Opret først et opgaveark.",
     "errorPreparingJpeg": "Fejl ved forberedelse af JPEG: {error}",
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Indlæser...",
-    "generatingWorksheet": "Genererer arbejdsark...",
+    "generatingWorksheet": "Opretter opgaveark...",
     "loadingBorders": "Indlæser {theme}-rammer...",
     "loadingBackgrounds": "Indlæser {theme}-baggrunde...",
     "noBackgroundsInTheme": "Ingen baggrunde i dette tema.",
@@ -1899,7 +1898,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= CORE UI =============
     "settings": "Innstillinger",
-    "worksheet": "Arbeidsark",
+    "worksheet": "Oppgaveark",
     "language": "Språk:",
     "allThemes": "Alle temaer",
 
@@ -1913,19 +1912,19 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Sideoppsett",
-    "textTools": "Tekstinnstillinger",
+    "textTools": "Tekstverktøy",
     "templateAndImages": "Mal og bilder",
     "imageLibrary": "Bildebibliotek",
     "uploadCustomImages": "Last opp egne bilder",
 
     // ============= PAGE SETUP =============
     "pageSize": "Sidestørrelse:",
-    "letterPortrait": "Letter Stående (8,5×11\")",
-    "letterLandscape": "Letter Liggende (11×8,5\")",
-    "a4Portrait": "A4 Stående (210×297mm)",
-    "a4Landscape": "A4 Liggende (297×210mm)",
+    "letterPortrait": "Letter stående (8,5×11\")",
+    "letterLandscape": "Letter liggende (11×8,5\")",
+    "a4Portrait": "A4 stående (210×297mm)",
+    "a4Landscape": "A4 liggende (297×210mm)",
     "square": "Kvadrat (1200x1200)",
-    "custom": "Tilpasset",
+    "custom": "Egendefinert",
     "widthPx": "Bredde (px):",
     "heightPx": "Høyde (px):",
     "pageColor": "Sidefarge:",
@@ -1942,13 +1941,13 @@ const DRAWING_LINES_TRANSLATIONS = {
     "none": "Ingen",
     "common.none": "Ingen",
     "none": "Ingen",
-    "borderOpacity": "Rammedekkevne:",
+    "borderOpacity": "Rammesynlighet:",
     "selectBorderTheme": "Velg et tema for å se rammer.",
 
     // ============= BACKGROUND SECTION =============
     "background": "Bakgrunn",
     "backgroundTheme": "Bakgrunnstema:",
-    "backgroundOpacity": "Bakgrunnsdekkevne:",
+    "backgroundOpacity": "Bakgrunnssynlighet:",
     "selectBackgroundTheme": "Velg et tema for å se bakgrunner.",
 
     // ============= TEXT TOOLS =============
@@ -2037,8 +2036,8 @@ const DRAWING_LINES_TRANSLATIONS = {
     "nameDatePlaceholder": "Navn: _________________________ Dato: ____________",
 
     // ============= SUCCESS MESSAGES =============
-    "worksheetGenerated": "Arbeidsark laget!",
-    "textAddedToWorksheet": "Tekst lagt til arbeidsarket.",
+    "worksheetGenerated": "Oppgaveark laget!",
+    "textAddedToWorksheet": "Tekst lagt til oppgavearket.",
     "formCleared": "Skjema tømt.",
     "jpegDownloadInitiated": "JPEG-nedlasting startet!",
     "overlayAdded": "{type} lagt til.",
@@ -2060,12 +2059,12 @@ const DRAWING_LINES_TRANSLATIONS = {
     "errorDuringGeneration": "Det oppstod en feil under opprettelsen.",
     "failedToLoadOverlayImage": "Kunne ikke laste {type}-bilde.",
     "grayscaleConversionFailed": "Konvertering til gråtoner mislyktes.",
-    "pleaseGenerateWorksheetFirst": "Lag først et arbeidsark.",
+    "pleaseGenerateWorksheetFirst": "Lag først et oppgaveark.",
     "errorPreparingJpeg": "Feil ved klargjøring av JPEG: {error}",
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Laster...",
-    "generatingWorksheet": "Genererer arbeidsark...",
+    "generatingWorksheet": "Lager oppgaveark...",
     "loadingBorders": "Laster {theme}-rammer...",
     "loadingBackgrounds": "Laster {theme}-bakgrunner...",
     "noBackgroundsInTheme": "Ingen bakgrunner i dette temaet.",
@@ -2105,7 +2104,7 @@ const DRAWING_LINES_TRANSLATIONS = {
 
     // ============= CORE UI =============
     "settings": "Asetukset",
-    "worksheet": "Työarkki",
+    "worksheet": "Tehtävämoniste",
     "language": "Kieli:",
     "allThemes": "Kaikki teemat",
 
@@ -2122,7 +2121,7 @@ const DRAWING_LINES_TRANSLATIONS = {
     "textTools": "Tekstivaihtoehdot",
     "templateAndImages": "Malli ja kuvat",
     "imageLibrary": "Kuvakirjasto",
-    "uploadCustomImages": "Lataa omia kuvia",
+    "uploadCustomImages": "Lähetä omia kuvia",
 
     // ============= PAGE SETUP =============
     "pageSize": "Sivukoko:",
@@ -2143,13 +2142,13 @@ const DRAWING_LINES_TRANSLATIONS = {
     "descriptionText": "Kuvaus:",
 
     // ============= BORDER SECTION =============
-    "border": "Reunus",
-    "borderTheme": "Reunusteema:",
+    "border": "Kehys",
+    "borderTheme": "Kehysteema:",
     "none": "Ei mitään",
     "common.none": "Ei mitään",
     "none": "Ei mitään",
-    "borderOpacity": "Reunuksen läpinäkyvyys:",
-    "selectBorderTheme": "Valitse teema nähdäksesi reunukset.",
+    "borderOpacity": "Kehyksen läpinäkyvyys:",
+    "selectBorderTheme": "Valitse teema nähdäksesi kehykset.",
 
     // ============= BACKGROUND SECTION =============
     "background": "Tausta",
@@ -2201,9 +2200,9 @@ const DRAWING_LINES_TRANSLATIONS = {
     "loadingThemes": "Ladataan teemoja...",
 
     // ============= UPLOAD SECTION =============
-    "selectImagesToUpload": "Valitse ladattavat kuvat:",
-    "yourUploadedImages": "Omat ladatut kuvat (tämä istunto):",
-    "uploadedImagesWillAppear": "Ladatut kuvat näkyvät täällä.",
+    "selectImagesToUpload": "Valitse lähetettävät kuvat:",
+    "yourUploadedImages": "Omat lähetetyt kuvat (tämä istunto):",
+    "uploadedImagesWillAppear": "Lähetetyt kuvat näkyvät täällä.",
     "chooseFiles": "Valitse tiedostot",
     "noFileChosen": "Ei tiedostoa valittu",
     "filesSelected": "{count} tiedosto(a) valittu",
@@ -2243,8 +2242,8 @@ const DRAWING_LINES_TRANSLATIONS = {
     "nameDatePlaceholder": "Nimi: _________________________ Päivämäärä: ____________",
 
     // ============= SUCCESS MESSAGES =============
-    "worksheetGenerated": "Työarkki luotu!",
-    "textAddedToWorksheet": "Teksti lisätty työarkkiin.",
+    "worksheetGenerated": "Tehtävämoniste luotu!",
+    "textAddedToWorksheet": "Teksti lisätty tehtävämonisteeseen.",
     "formCleared": "Lomake tyhjennetty.",
     "jpegDownloadInitiated": "JPEG-lataus aloitettu!",
     "overlayAdded": "{type} lisätty.",
@@ -2254,28 +2253,28 @@ const DRAWING_LINES_TRANSLATIONS = {
     "couldNotLoadThemes": "Kuvateemoja ei voitu ladata.",
     "errorLoadingThemes": "Virhe teemojen latauksessa.",
     "errorLoadingImages": "Virhe kuvien latauksessa.",
-    "couldNotLoadBorderImages": "Reunuskuvia ei voitu ladata.",
-    "errorLoadingBorders": "Virhe reunusten latauksessa.",
+    "couldNotLoadBorderImages": "Kehyskuvia ei voitu ladata.",
+    "errorLoadingBorders": "Virhe kehysten latauksessa.",
     "couldNotLoadBackgroundImages": "Taustakuvia ei voitu ladata.",
     "errorLoadingBackgrounds": "Virhe taustojen latauksessa.",
     "errorReadingFile": "Virhe tiedoston lukemisessa: {filename}",
     "pleaseSelectSlotFirst": "Valitse ensin paikka osiosta \"Määritä kuvaparit\".",
     "pleaseSelectDrawingTemplate": "Valitse yhdistämismalli.",
-    "cannotAutoFill": "Automaattinen täyttö ei onnistu. Valitse teema tai lataa kuvia.",
+    "cannotAutoFill": "Automaattinen täyttö ei onnistu. Valitse teema tai lähetä kuvia.",
     "pleaseFillAllImagePairs": "Täytä kaikki kuvaparit tai ota automaattinen täyttö käyttöön.",
     "errorDuringGeneration": "Virhe luonnin aikana.",
     "failedToLoadOverlayImage": "Ei voitu ladata {type}-kuvaa.",
     "grayscaleConversionFailed": "Harmaasävymuunnos epäonnistui.",
-    "pleaseGenerateWorksheetFirst": "Luo ensin työarkki.",
+    "pleaseGenerateWorksheetFirst": "Luo ensin tehtävämoniste.",
     "errorPreparingJpeg": "Virhe JPEG:n valmistelussa: {error}",
 
     // ============= INFO/STATUS MESSAGES =============
     "loading": "Ladataan...",
-    "generatingWorksheet": "Luodaan työarkkia...",
-    "loadingBorders": "Ladataan {theme}-reunuksia...",
+    "generatingWorksheet": "Luodaan tehtävämонistetta...",
+    "loadingBorders": "Ladataan {theme}-kehyksiä...",
     "loadingBackgrounds": "Ladataan {theme}-taustoja...",
     "noBackgroundsInTheme": "Ei taustoja tässä teemassa.",
-    "noBordersInTheme": "Ei reunuksia tässä teemassa.",
+    "noBordersInTheme": "Ei kehyksiä tässä teemassa.",
     "loadingImages": "Ladataan {count} kuva(a)...",
     "loadingDefaultTheme": "Ladataan oletusteemaa...",
     "searching": "Haetaan...",

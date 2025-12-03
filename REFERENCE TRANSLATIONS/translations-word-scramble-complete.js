@@ -28,14 +28,14 @@ const translations = {
         "loading": "Loading...",
         "error": "Error",
         "success": "Success",
-        "generate": "Generate",
+        "create": "Create",
         "newWorksheet": "New Worksheet",
         "download": "Download",
         "clearAll": "Clear All",
 
         // Generate dropdown options
-        "generateWorksheet": "Generate Worksheet",
-        "generateAnswerKey": "Generate Answer Key",
+        "generateWorksheet": "Create Worksheet",
+        "generateAnswerKey": "Create Answer Key",
 
         // Page setup
         "pageSize": "Page Size:",
@@ -144,18 +144,18 @@ const translations = {
         "couldNotLoadThemes": "Could not load themes.",
         "maxImagesSelected": "You can select a maximum of {max} images.",
         "customImagesAvailable": "{count} custom image(s) available.",
-        "generatingWorksheet": "Generating worksheet...",
+        "creatingWorksheet": "Creating worksheet...",
         "pleaseSelectImages": "Please select some images or choose a theme with images.",
-        "worksheetGeneratedSuccessfully": "Worksheet generated successfully!",
-        "pleaseGenerateWorksheetFirst": "Please generate a worksheet first.",
-        "generatingAnswerKey": "Generating answer key...",
-        "answerKeyGenerated": "Answer key generated!",
+        "worksheetGeneratedSuccessfully": "Worksheet created successfully!",
+        "pleaseGenerateWorksheetFirst": "Please create a worksheet first.",
+        "creatingAnswerKey": "Creating answer key...",
+        "answerKeyGenerated": "Answer key created!",
         "failedToLoadImage": "Failed to load {type} image.",
         "formCleared": "Form cleared.",
         "preparingCanvas": "Preparing {canvas}...",
         "downloadInitiated": "Download Initiated!",
         "errorPreparingImage": "Error preparing image: {error}",
-        "pleaseGenerateContentFirst": "Please generate content first.",
+        "pleaseGenerateContentFirst": "Please create content first.",
         "preparingPdf": "Preparing PDF...",
         "pdfDownloaded": "PDF downloaded!",
         "errorCreatingPdf": "Error creating PDF.",
@@ -182,10 +182,10 @@ const translations = {
         // Accordion headers
         "languageSettings": "Spracheinstellungen",
         "pageSetup": "Seitenformat",
-        "textTools": "Textbearbeitung", // Changed from "Textgestaltung"
+        "textTools": "Textwerkzeuge",
         "imageSelection": "Bildauswahl",
         "uploadCustomImages": "Eigene Bilder hochladen",
-        "problemSettings": "Aufgabeneinstellungen",
+        "problemSettings": "Rätseleinstellungen",
 
         // Tab labels
         "worksheet": "Arbeitsblatt",
@@ -224,10 +224,10 @@ const translations = {
         // Backgrounds and borders
         "backgroundTheme": "Hintergrundthema:",
         "selectThemeForBackgrounds": "Wählen Sie ein Thema für Hintergründe.",
-        "backgroundOpacity": "Hintergrund-Deckkraft:", // Changed from "Hintergrundtransparenz:"
+        "backgroundOpacity": "Hintergrund-Transparenz:",
         "borderTheme": "Rahmenthema:",
         "selectThemeToSeeBorders": "Wählen Sie ein Thema für Rahmen.",
-        "borderOpacity": "Rahmen-Deckkraft:", // Changed from "Rahmentransparenz:"
+        "borderOpacity": "Rahmen-Transparenz:",
 
         // Text tools
         "selectedTextProperties": "Ausgewählte Texteigenschaften",
@@ -236,8 +236,8 @@ const translations = {
         "textColor": "Textfarbe:",
         "fontSize": "Schriftgröße:",
         "fontFamily": "Schriftart:",
-        "strokeColor": "Konturfarbe:",
-        "strokeWidth": "Konturstärke:",
+        "strokeColor": "Umrissfarbe:",
+        "strokeWidth": "Umrissstärke:",
 
         // Image selection
         "selectTheme": "Thema auswählen:",
@@ -245,7 +245,7 @@ const translations = {
         "searchImages": "Bilder suchen:",
         "searchPlaceholder": "z.B. Apfel, Auto",
         "selectedCountMsg": "Ausgewählt: {count} / {max}",
-        "selectedImagesForPuzzles": "Ausgewählte Bilder für Aufgaben:",
+        "selectedImagesForPuzzles": "Ausgewählte Bilder für Rätsel:",
 
         // Upload section
         "selectImagesToUpload": "Bilder zum Hochladen auswählen:",
@@ -256,11 +256,11 @@ const translations = {
         "yourUploadedImagesAppearHere": "Ihre hochgeladenen Bilder erscheinen hier.",
 
         // Problem settings
-        "puzzlesPerPage": "Aufgaben pro Seite:",
-        "difficulty": "Schwierigkeit (Anzahl Hinweise)",
+        "puzzlesPerPage": "Rätsel pro Seite:",
+        "difficulty": "Schwierigkeitsgrad (Anzahl Hinweise)",
         "noClues": "Keine Hinweise",
-        "easy": "Einfach (1/2)",
-        "normal": "Normal (1/4)",
+        "easy": "Leicht (1/2)",
+        "normal": "Mittel (1/4)",
         "tough": "Schwer (1/6)",
         "letterCase": "Buchstabengröße",
         "uppercase": "Großbuchstaben",
@@ -269,7 +269,7 @@ const translations = {
         "colorCodedVowelConsonant": "Farbcodiert (Vokal/Konsonant)",
         "allBlack": "Alles Schwarz",
         "includeNameDateLine": "Name/Datum-Zeile einfügen",
-        "includeExerciseNumbers": "Aufgabennummern einfügen",
+        "includeExerciseNumbers": "Rätselnummern einfügen",
         "letterColor": "Buchstabenfarbe:",
         "blackWhite": "Schwarz & Weiß",
         "colorCoded": "Farbcodiert",
@@ -312,12 +312,12 @@ const translations = {
         "noImagesFoundFor": "Keine Bilder gefunden für \"{query}\"",
         "errorLoadingImages": "Fehler beim Laden der Bilder.",
         "couldNotLoadThemes": "Themen konnten nicht geladen werden.",
-        "maxImagesSelected": "Sie können maximal {max} Bilder auswählen.",
+        "maxImagesSelected": "Maximal {max} Bilder können ausgewählt werden.",
         "customImagesAvailable": "{count} eigene Bild(er) verfügbar.",
         "generatingWorksheet": "Arbeitsblatt wird erstellt...",
-        "pleaseSelectImages": "Bitte wählen Sie Bilder aus oder wählen Sie ein Thema mit Bildern.",
+        "pleaseSelectImages": "Bitte Bilder auswählen oder ein Thema mit Bildern wählen.",
         "worksheetGeneratedSuccessfully": "Arbeitsblatt erfolgreich erstellt!",
-        "pleaseGenerateWorksheetFirst": "Bitte erstellen Sie zuerst ein Arbeitsblatt.",
+        "pleaseGenerateWorksheetFirst": "Bitte zuerst ein Arbeitsblatt erstellen.",
         "generatingAnswerKey": "Lösungsblatt wird erstellt...",
         "answerKeyGenerated": "Lösungsblatt erstellt!",
         "failedToLoadImage": "{type}-Bild konnte nicht geladen werden.",
@@ -325,7 +325,7 @@ const translations = {
         "preparingCanvas": "{canvas} wird vorbereitet...",
         "downloadInitiated": "Download gestartet!",
         "errorPreparingImage": "Fehler beim Vorbereiten des Bildes: {error}",
-        "pleaseGenerateContentFirst": "Bitte erstellen Sie zuerst Inhalte.",
+        "pleaseGenerateContentFirst": "Bitte zuerst Inhalte erstellen.",
         "preparingPdf": "PDF wird vorbereitet...",
         "pdfDownloaded": "PDF heruntergeladen!",
         "errorCreatingPdf": "Fehler beim Erstellen der PDF.",
@@ -346,40 +346,39 @@ const translations = {
 
     fr: {
         // Page title and main headers
-        "wordScrambleTitle": "Générateur de Mots Mélangés",
-        "worksheetSettings": "Paramètres de la Feuille",
+        "wordScrambleTitle": "Générateur de mots mélangés",
+        "worksheetSettings": "Paramètres de la fiche d'exercices",
 
         // Accordion headers
-        "languageSettings": "Paramètres de Langue",
-        "pageSetup": "Configuration de Page",
-        "textTools": "Options de texte", // Changed from "Outils de Texte"
-        "imageSelection": "Sélection d'Images",
-        "uploadCustomImages": "Télécharger Vos Images",
-        "problemSettings": "Paramètres des Exercices",
+        "languageSettings": "Paramètres de langue",
+        "pageSetup": "Mise en page",
+        "textTools": "Options de texte", // Platform standard - retroactive update 2025-11-27
+        "imageSelection": "Sélection d'images",
+        "uploadCustomImages": "Importer vos images",
+        "problemSettings": "Paramètres des énigmes",
 
         // Tab labels
-        "worksheet": "Feuille d'Exercices",
+        "worksheet": "Fiche d'exercices",
         "answerKey": "Corrigé",
 
         // Common UI elements
         "language": "Langue :",
         "none": "Aucun",
         "common.none": "Aucun",
-    "none": "Aucun",
         "loading": "Chargement...",
         "error": "Erreur",
         "success": "Succès",
         "generate": "Créer",
-        "newWorksheet": "Nouvelle Feuille",
+        "newWorksheet": "Nouvelle fiche",
         "download": "Télécharger",
-        "clearAll": "Tout Effacer",
+        "clearAll": "Tout effacer",
 
         // Generate dropdown options
-        "generateWorksheet": "Générer la Feuille",
-        "generateAnswerKey": "Générer le Corrigé",
+        "generateWorksheet": "Créer la fiche",
+        "generateAnswerKey": "Créer le corrigé",
 
         // Page setup
-        "pageSize": "Format de Page :",
+        "pageSize": "Format de page :",
         "letterPortrait": "Lettre (Portrait)",
         "letterLandscape": "Lettre (Paysage)",
         "a4Portrait": "A4 (Portrait)",
@@ -389,72 +388,61 @@ const translations = {
         "custom": "Personnalisé",
         "width": "Largeur :",
         "height": "Hauteur :",
-        "setPageSize": "Définir la Taille",
-        "pageColor": "Couleur de Page :",
+        "setPageSize": "Définir la taille",
+        "pageColor": "Couleur de page :",
 
         // Backgrounds and borders
-        "backgroundTheme": "Thème de Fond :",
+        "backgroundTheme": "Thème d'arrière-plan :",
         "selectThemeForBackgrounds": "Sélectionnez un thème pour les arrière-plans.",
-        "backgroundOpacity": "Opacité du Fond :",
-        "borderTheme": "Thème de Bordure :",
+        "backgroundOpacity": "Opacité de l'arrière-plan :",
+        "borderTheme": "Thème de bordure :",
         "selectThemeToSeeBorders": "Sélectionnez un thème pour les bordures.",
-        "borderOpacity": "Opacité de Bordure :",
+        "borderOpacity": "Opacité de la bordure :",
 
         // Text tools
-        "selectedTextProperties": "Propriétés du Texte Sélectionné",
+        "selectedTextProperties": "Propriétés du texte sélectionné",
         "textToAdd": "Texte à ajouter :",
-        "addText": "Ajouter du Texte",
-        "textColor": "Couleur du Texte :",
-        "fontSize": "Taille de Police :",
+        "addText": "Ajouter du texte",
+        "textColor": "Couleur du texte :",
+        "fontSize": "Taille de police :",
         "fontFamily": "Police :",
-        "strokeColor": "Couleur de Contour :",
-        "strokeWidth": "Largeur de Contour :",
+        "strokeColor": "Couleur du contour :",
+        "strokeWidth": "Largeur du contour :",
 
         // Image selection
-        "selectTheme": "Sélectionner le Thème :",
-        "allThemes": "Tous les Thèmes",
-        "searchImages": "Rechercher des Images :",
-        "searchPlaceholder": "ex: pomme, voiture",
+        "selectTheme": "Sélectionner le thème :",
+        "allThemes": "Tous les thèmes",
+        "searchImages": "Rechercher des images :",
+        "searchPlaceholder": "ex : pomme, voiture",
         "selectedCountMsg": "Sélectionné : {count} / {max}",
-        "selectedImagesForPuzzles": "Images Sélectionnées pour les Exercices :",
+        "selectedImagesForPuzzles": "Images sélectionnées pour les énigmes :",
 
         // Upload section
-        "selectImagesToUpload": "Sélectionner des images à télécharger :",
-        "chooseFiles": "Choisir les Fichiers",
+        "selectImagesToUpload": "Sélectionner des images à importer :",
+        "chooseFiles": "Choisir les fichiers",
         "noFileChosen": "Aucun fichier choisi",
         "filesSelected": "{count} fichier(s) sélectionné(s)",
-        "yourUploadedImages": "Vos images téléchargées",
-        "yourUploadedImagesAppearHere": "Vos images téléchargées apparaissent ici.",
+        "yourUploadedImages": "Vos images importées",
+        "yourUploadedImagesAppearHere": "Vos images importées apparaissent ici.",
 
         // Problem settings
-        "puzzlesPerPage": "Exercices par page :",
-        "allBlack": "Todo Negro",
-        "colorCodedVowelConsonant": "Codificado por Color (Vocal/Consonante)",
-        "letterColors": "Colores de las Letras",
-        "lowercase": "Minúsculas",
-        "uppercase": "Mayúsculas",
-        "letterCase": "Mayúsculas/Minúsculas",
-        "tough": "Difícil (1/6)",
-        "normal": "Normal (1/4)",
-        "easy": "Fácil (1/2)",
-        "noClues": "Sin pistas",
-        "difficulty": "Dificultad (Número de Pistas)",
-        "allBlack": "Tout Noir",
-        "colorCodedVowelConsonant": "Codé par Couleur (Voyelle/Consonne)",
-        "letterColors": "Couleurs des Lettres",
-        "lowercase": "Minuscules",
-        "uppercase": "Majuscules",
-        "letterCase": "Casse des Lettres",
-        "tough": "Difficile (1/6)",
-        "normal": "Normal (1/4)",
+        "puzzlesPerPage": "Énigmes par page :",
+        "difficulty": "Difficulté (Nombre d'indices)",
+        "noClues": "Sans indices",
         "easy": "Facile (1/2)",
-        "noClues": "Aucun indice",
-        "difficulty": "Difficulté (Nombre d'Indices)",
+        "normal": "Moyen (1/4)",
+        "tough": "Difficile (1/6)",
+        "letterCase": "Casse des lettres",
+        "uppercase": "Majuscules",
+        "lowercase": "Minuscules",
+        "letterColors": "Couleurs des lettres",
+        "colorCodedVowelConsonant": "Code couleur (voyelles/consonnes)",
+        "allBlack": "Noir et blanc",
         "includeNameDateLine": "Inclure ligne nom/date",
-        "includeExerciseNumbers": "Inclure numéros d'exercices",
+        "includeExerciseNumbers": "Inclure numéros d'énigmes",
         "letterColor": "Couleur des lettres :",
-        "blackWhite": "Noir & Blanc",
-        "colorCoded": "Codé par couleur",
+        "blackWhite": "Noir et blanc",
+        "colorCoded": "Code couleur",
 
         // Zoom Controls
         "zoomIn": "Zoom avant",
@@ -496,18 +484,18 @@ const translations = {
         "couldNotLoadThemes": "Impossible de charger les thèmes.",
         "maxImagesSelected": "Vous pouvez sélectionner un maximum de {max} images.",
         "customImagesAvailable": "{count} image(s) personnalisée(s) disponible(s).",
-        "generatingWorksheet": "Génération de la feuille d'exercices...",
+        "generatingWorksheet": "Création de la fiche d'exercices...",
         "pleaseSelectImages": "Veuillez sélectionner des images ou choisir un thème avec des images.",
-        "worksheetGeneratedSuccessfully": "Feuille d'exercices générée avec succès !",
-        "pleaseGenerateWorksheetFirst": "Veuillez d'abord générer une feuille d'exercices.",
-        "generatingAnswerKey": "Génération du corrigé...",
-        "answerKeyGenerated": "Corrigé généré !",
+        "worksheetGeneratedSuccessfully": "Fiche d'exercices créée avec succès !",
+        "pleaseGenerateWorksheetFirst": "Veuillez d'abord créer une fiche d'exercices.",
+        "generatingAnswerKey": "Création du corrigé...",
+        "answerKeyGenerated": "Corrigé créé !",
         "failedToLoadImage": "Échec du chargement de l'image {type}.",
         "formCleared": "Formulaire effacé.",
         "preparingCanvas": "Préparation de {canvas}...",
         "downloadInitiated": "Téléchargement lancé !",
         "errorPreparingImage": "Erreur lors de la préparation de l'image : {error}",
-        "pleaseGenerateContentFirst": "Veuillez d'abord générer du contenu.",
+        "pleaseGenerateContentFirst": "Veuillez d'abord créer du contenu.",
         "preparingPdf": "Préparation du PDF...",
         "pdfDownloaded": "PDF téléchargé !",
         "errorCreatingPdf": "Erreur lors de la création du PDF.",
@@ -519,16 +507,16 @@ const translations = {
         "errorCreatingPdfWithMessage": "Erreur lors de la création du PDF : {error}",
 
         // Download menu
-        "worksheetJpeg": "Feuille d'Exercices (JPEG)",
+        "worksheetJpeg": "Fiche d'exercices (JPEG)",
         "answerKeyJpeg": "Corrigé (JPEG)",
-        "worksheetPdf": "Feuille d'Exercices (PDF)",
+        "worksheetPdf": "Fiche d'exercices (PDF)",
         "answerKeyPdf": "Corrigé (PDF)",
-        "grayscale": "Niveaux de Gris"
+        "grayscale": "Niveaux de gris"
     },
 
     es: {
         // Page title and main headers
-        "wordScrambleTitle": "Generador de Palabras Revueltas",
+        "wordScrambleTitle": "Generador de palabras desordenadas",
         "worksheetSettings": "Configuración de la Hoja",
 
         // Accordion headers
@@ -537,7 +525,7 @@ const translations = {
         "textTools": "Opciones de texto", // Changed from "Herramientas de Texto"
         "imageSelection": "Selección de Imágenes",
         "uploadCustomImages": "Subir Imágenes Propias",
-        "problemSettings": "Configuración de Ejercicios",
+        "problemSettings": "Configuración de Actividades",
 
         // Tab labels
         "worksheet": "Hoja de Ejercicios",
@@ -566,8 +554,8 @@ const translations = {
         "letterLandscape": "Carta (Horizontal)",
         "a4Portrait": "A4 (Vertical)",
         "a4Landscape": "A4 (Horizontal)",
-        "legalPortrait": "Legal (Vertical)",
-        "legalLandscape": "Legal (Horizontal)",
+        "legalPortrait": "Oficio (Vertical)",
+        "legalLandscape": "Oficio (Horizontal)",
         "custom": "Personalizado",
         "width": "Ancho:",
         "height": "Alto:",
@@ -598,7 +586,7 @@ const translations = {
         "searchImages": "Buscar Imágenes:",
         "searchPlaceholder": "ej: manzana, coche",
         "selectedCountMsg": "Seleccionado: {count} / {max}",
-        "selectedImagesForPuzzles": "Imágenes Seleccionadas para Ejercicios:",
+        "selectedImagesForPuzzles": "Imágenes Seleccionadas para Actividades:",
 
         // Upload section
         "selectImagesToUpload": "Seleccionar imágenes para subir:",
@@ -609,7 +597,7 @@ const translations = {
         "yourUploadedImagesAppearHere": "Sus imágenes subidas aparecen aquí.",
 
         // Problem settings
-        "puzzlesPerPage": "Ejercicios por página:",
+        "puzzlesPerPage": "Actividades por página:",
         "allBlack": "Todo Negro",
         "colorCodedVowelConsonant": "Codificado por Color (Vocal/Consonante)",
         "letterColors": "Colores de las Letras",
@@ -617,12 +605,12 @@ const translations = {
         "uppercase": "Mayúsculas",
         "letterCase": "Mayúsculas/Minúsculas",
         "tough": "Difícil (1/6)",
-        "normal": "Normal (1/4)",
+        "normal": "Intermedio (1/4)",
         "easy": "Fácil (1/2)",
         "noClues": "Sin pistas",
         "difficulty": "Dificultad (Número de Pistas)",
         "includeNameDateLine": "Incluir línea de nombre/fecha",
-        "includeExerciseNumbers": "Incluir números de ejercicios",
+        "includeExerciseNumbers": "Incluir números de actividades",
         "letterColor": "Color de las letras:",
         "blackWhite": "Blanco y Negro",
         "colorCoded": "Codificado por colores",
@@ -699,8 +687,8 @@ const translations = {
 
     it: {
         // Page title and main headers
-        "wordScrambleTitle": "Generatore di Parole Mescolate",
-        "worksheetSettings": "Impostazioni del Foglio",
+        "wordScrambleTitle": "Generatore di parole mescolate",
+        "worksheetSettings": "Impostazioni della scheda didattica",
 
         // Accordion headers
         "languageSettings": "Impostazioni Lingua",
@@ -708,11 +696,11 @@ const translations = {
         "textTools": "Opzioni di testo", // Changed from "Strumenti di Testo"
         "imageSelection": "Selezione Immagini",
         "uploadCustomImages": "Carica le Tue Immagini",
-        "problemSettings": "Impostazioni Esercizi",
+        "problemSettings": "Impostazioni Attività",
 
         // Tab labels
-        "worksheet": "Scheda di Lavoro",
-        "answerKey": "Foglio Risposte",
+        "worksheet": "Scheda didattica",
+        "answerKey": "Soluzioni",
 
         // Common UI elements
         "language": "Lingua:",
@@ -723,13 +711,13 @@ const translations = {
         "error": "Errore",
         "success": "Successo",
         "generate": "Crea",
-        "newWorksheet": "Nuova Scheda",
+        "newWorksheet": "Nuova scheda",
         "download": "Scarica",
-        "clearAll": "Cancella Tutto",
+        "clearAll": "Cancella tutto",
 
         // Generate dropdown options
-        "generateWorksheet": "Crea Scheda di Lavoro",
-        "generateAnswerKey": "Crea Foglio Risposte",
+        "generateWorksheet": "Crea Scheda didattica",
+        "generateAnswerKey": "Crea Soluzioni",
 
         // Page setup
         "pageSize": "Formato Pagina:",
@@ -742,65 +730,65 @@ const translations = {
         "custom": "Personalizzato",
         "width": "Larghezza:",
         "height": "Altezza:",
-        "setPageSize": "Imposta Dimensione",
-        "pageColor": "Colore Pagina:",
+        "setPageSize": "Imposta dimensione",
+        "pageColor": "Colore della pagina:",
 
         // Backgrounds and borders
-        "backgroundTheme": "Tema Sfondo:",
+        "backgroundTheme": "Tema sfondo:",
         "selectThemeForBackgrounds": "Seleziona un tema per gli sfondi.",
-        "backgroundOpacity": "Opacità Sfondo:",
-        "borderTheme": "Tema Bordo:",
+        "backgroundOpacity": "Opacità sfondo:",
+        "borderTheme": "Tema bordo:",
         "selectThemeToSeeBorders": "Seleziona un tema per i bordi.",
-        "borderOpacity": "Opacità Bordo:",
+        "borderOpacity": "Opacità bordo:",
 
         // Text tools
-        "selectedTextProperties": "Proprietà del Testo Selezionato",
+        "selectedTextProperties": "Proprietà del testo selezionato",
         "textToAdd": "Testo da aggiungere:",
-        "addText": "Aggiungi Testo",
-        "textColor": "Colore Testo:",
-        "fontSize": "Dimensione Font:",
-        "fontFamily": "Font:",
-        "strokeColor": "Colore Contorno:",
-        "strokeWidth": "Larghezza Contorno:",
+        "addText": "Aggiungi testo",
+        "textColor": "Colore del testo:",
+        "fontSize": "Dimensione carattere:",
+        "fontFamily": "Carattere:",
+        "strokeColor": "Colore del contorno:",
+        "strokeWidth": "Larghezza del contorno:",
 
         // Image selection
-        "selectTheme": "Seleziona Tema:",
-        "allThemes": "Tutti i Temi",
-        "searchImages": "Cerca Immagini:",
+        "selectTheme": "Seleziona tema:",
+        "allThemes": "Tutti i temi",
+        "searchImages": "Cerca immagini:",
         "searchPlaceholder": "es: mela, auto",
         "selectedCountMsg": "Selezionato: {count} / {max}",
-        "selectedImagesForPuzzles": "Immagini Selezionate per gli Esercizi:",
+        "selectedImagesForPuzzles": "Immagini selezionate per le attività:",
 
         // Upload section
         "selectImagesToUpload": "Seleziona immagini da caricare:",
-        "chooseFiles": "Scegli File",
+        "chooseFiles": "Scegli file",
         "noFileChosen": "Nessun file scelto",
         "filesSelected": "{count} file selezionato/i",
         "yourUploadedImages": "Le tue immagini caricate",
         "yourUploadedImagesAppearHere": "Le tue immagini caricate appaiono qui.",
 
         // Problem settings
-        "puzzlesPerPage": "Esercizi per pagina:",
-        "allBlack": "Tutto Nero",
-        "colorCodedVowelConsonant": "Codificato a Colori (Vocale/Consonante)",
-        "letterColors": "Colori delle Lettere",
-        "lowercase": "Minuscole",
-        "uppercase": "Maiuscole",
-        "letterCase": "Maiuscole/Minuscole",
+        "puzzlesPerPage": "Attività per pagina:",
+        "allBlack": "Tutto nero",
+        "colorCodedVowelConsonant": "Codice colori (Vocali/Consonanti)",
+        "letterColors": "Colori delle lettere",
+        "lowercase": "Minuscolo",
+        "uppercase": "Maiuscolo",
+        "letterCase": "Tipo di lettere",
         "tough": "Difficile (1/6)",
-        "normal": "Normale (1/4)",
+        "normal": "Medio (1/4)",
         "easy": "Facile (1/2)",
-        "noClues": "Nessun indizio",
+        "noClues": "Senza indizi",
         "difficulty": "Difficoltà (Numero di Indizi)",
         "includeNameDateLine": "Includi riga nome/data",
-        "includeExerciseNumbers": "Includi numeri esercizi",
+        "includeExerciseNumbers": "Includi numeri attività",
         "letterColor": "Colore delle lettere:",
-        "blackWhite": "Bianco e Nero",
-        "colorCoded": "Codificato a colori",
+        "blackWhite": "Bianco e nero",
+        "colorCoded": "Codice colori",
 
         // Zoom Controls
-        "zoomIn": "Zoom avanti",
-        "zoomOut": "Zoom indietro",
+        "zoomIn": "Ingrandisci",
+        "zoomOut": "Riduci",
         "resetZoom": "Reimposta zoom",
 
         // History Controls
@@ -838,12 +826,12 @@ const translations = {
         "couldNotLoadThemes": "Impossibile caricare i temi.",
         "maxImagesSelected": "Puoi selezionare un massimo di {max} immagini.",
         "customImagesAvailable": "{count} immagine/i personalizzata/e disponibile/i.",
-        "generatingWorksheet": "Creazione scheda di lavoro...",
+        "generatingWorksheet": "Creazione scheda didattica...",
         "pleaseSelectImages": "Seleziona delle immagini o scegli un tema con immagini.",
-        "worksheetGeneratedSuccessfully": "Scheda di lavoro creata con successo!",
-        "pleaseGenerateWorksheetFirst": "Crea prima una scheda di lavoro.",
-        "generatingAnswerKey": "Creazione foglio risposte...",
-        "answerKeyGenerated": "Foglio risposte creato!",
+        "worksheetGeneratedSuccessfully": "Scheda didattica creata con successo!",
+        "pleaseGenerateWorksheetFirst": "Crea prima una scheda didattica.",
+        "generatingAnswerKey": "Creazione soluzioni...",
+        "answerKeyGenerated": "Soluzioni create!",
         "failedToLoadImage": "Impossibile caricare l'immagine {type}.",
         "formCleared": "Modulo cancellato.",
         "preparingCanvas": "Preparazione {canvas}...",
@@ -861,35 +849,34 @@ const translations = {
         "errorCreatingPdfWithMessage": "Errore nella creazione del PDF: {error}",
 
         // Download menu
-        "worksheetJpeg": "Scheda di Lavoro (JPEG)",
-        "answerKeyJpeg": "Foglio Risposte (JPEG)",
-        "worksheetPdf": "Scheda di Lavoro (PDF)",
-        "answerKeyPdf": "Foglio Risposte (PDF)",
-        "grayscale": "Scala di Grigi"
+        "worksheetJpeg": "Scheda didattica (JPEG)",
+        "answerKeyJpeg": "Soluzioni (JPEG)",
+        "worksheetPdf": "Scheda didattica (PDF)",
+        "answerKeyPdf": "Soluzioni (PDF)",
+        "grayscale": "Scala di grigi"
     },
 
     pt: {
         // Page title and main headers
         "wordScrambleTitle": "Gerador de Palavras Embaralhadas",
-        "worksheetSettings": "Configurações da Folha",
+        "worksheetSettings": "Configurações da Folha de Atividades",
 
         // Accordion headers
         "languageSettings": "Configurações de Idioma",
         "pageSetup": "Configuração da Página",
-        "textTools": "Opções de texto", // Changed from "Ferramentas de Texto"
+        "textTools": "Opções de Texto", // Changed from "Ferramentas de Texto"
         "imageSelection": "Seleção de Imagens",
-        "uploadCustomImages": "Carregar Suas Imagens",
-        "problemSettings": "Configurações de Exercícios",
+        "uploadCustomImages": "Enviar Imagens Personalizadas",
+        "problemSettings": "Configurações de Atividades",
 
         // Tab labels
-        "worksheet": "Folha de Exercícios",
-        "answerKey": "Folha de Respostas",
+        "worksheet": "Folha de Atividades",
+        "answerKey": "Gabarito",
 
         // Common UI elements
         "language": "Idioma:",
         "none": "Nenhum",
         "common.none": "Nenhum",
-    "none": "Nenhum",
         "loading": "Carregando...",
         "error": "Erro",
         "success": "Sucesso",
@@ -899,8 +886,8 @@ const translations = {
         "clearAll": "Limpar Tudo",
 
         // Generate dropdown options
-        "generateWorksheet": "Criar Folha de Exercícios",
-        "generateAnswerKey": "Criar Folha de Respostas",
+        "generateWorksheet": "Criar Folha de Atividades",
+        "generateAnswerKey": "Criar Gabarito",
 
         // Page setup
         "pageSize": "Tamanho da Página:",
@@ -918,10 +905,10 @@ const translations = {
 
         // Backgrounds and borders
         "backgroundTheme": "Tema de Fundo:",
-        "selectThemeForBackgrounds": "Selecione um tema para fundos.",
+        "selectThemeForBackgrounds": "Selecione um tema para o fundo.",
         "backgroundOpacity": "Opacidade do Fundo:",
         "borderTheme": "Tema de Borda:",
-        "selectThemeToSeeBorders": "Selecione um tema para bordas.",
+        "selectThemeToSeeBorders": "Selecione um tema para as bordas.",
         "borderOpacity": "Opacidade da Borda:",
 
         // Text tools
@@ -940,7 +927,7 @@ const translations = {
         "searchImages": "Buscar Imagens:",
         "searchPlaceholder": "ex: maçã, carro",
         "selectedCountMsg": "Selecionado: {count} / {max}",
-        "selectedImagesForPuzzles": "Imagens Selecionadas para Exercícios:",
+        "selectedImagesForPuzzles": "Imagens Selecionadas para Atividades:",
 
         // Upload section
         "selectImagesToUpload": "Selecionar imagens para carregar:",
@@ -951,21 +938,21 @@ const translations = {
         "yourUploadedImagesAppearHere": "Suas imagens carregadas aparecem aqui.",
 
         // Problem settings
-        "puzzlesPerPage": "Exercícios por página:",
-        "allBlack": "Todo Preto",
+        "puzzlesPerPage": "Atividades por página:",
+        "allBlack": "Tudo Preto",
         "colorCodedVowelConsonant": "Codificado por Cor (Vogal/Consoante)",
         "letterColors": "Cores das Letras",
         "lowercase": "Minúsculas",
         "uppercase": "Maiúsculas",
-        "letterCase": "Caixa das Letras",
+        "letterCase": "Tipo de Letra",
         "tough": "Difícil (1/6)",
         "normal": "Normal (1/4)",
         "easy": "Fácil (1/2)",
         "noClues": "Sem pistas",
         "difficulty": "Dificuldade (Número de Pistas)",
         "includeNameDateLine": "Incluir linha nome/data",
-        "includeExerciseNumbers": "Incluir números dos exercícios",
-        "letterColor": "Cor das letras:",
+        "includeExerciseNumbers": "Incluir números das atividades",
+        "letterColor": "Cor das Letras:",
         "blackWhite": "Preto e Branco",
         "colorCoded": "Codificado por cores",
 
@@ -994,7 +981,7 @@ const translations = {
         "alignRight": "Alinhar à direita",
         "alignTop": "Alinhar ao topo",
         "centerVertically": "Centralizar verticalmente",
-        "alignBottom": "Alinhar à base",
+        "alignBottom": "Alinhar embaixo",
         "centerOnPageHorizontally": "Centralizar horizontalmente na página",
         "centerOnPageVertically": "Centralizar verticalmente na página",
         "lockUnlock": "Bloquear/Desbloquear",
@@ -1009,12 +996,12 @@ const translations = {
         "couldNotLoadThemes": "Não foi possível carregar os temas.",
         "maxImagesSelected": "Você pode selecionar no máximo {max} imagens.",
         "customImagesAvailable": "{count} imagem(ns) personalizada(s) disponível(is).",
-        "generatingWorksheet": "Criando folha de exercícios...",
+        "generatingWorksheet": "Criando folha de atividades...",
         "pleaseSelectImages": "Por favor, selecione imagens ou escolha um tema com imagens.",
-        "worksheetGeneratedSuccessfully": "Folha de exercícios criada com sucesso!",
-        "pleaseGenerateWorksheetFirst": "Por favor, crie primeiro uma folha de exercícios.",
-        "generatingAnswerKey": "Criando folha de respostas...",
-        "answerKeyGenerated": "Folha de respostas criada!",
+        "worksheetGeneratedSuccessfully": "Folha de atividades criada com sucesso!",
+        "pleaseGenerateWorksheetFirst": "Por favor, crie primeiro uma folha de atividades.",
+        "generatingAnswerKey": "Criando gabarito...",
+        "answerKeyGenerated": "Gabarito criado!",
         "failedToLoadImage": "Falha ao carregar imagem {type}.",
         "formCleared": "Formulário limpo.",
         "preparingCanvas": "Preparando {canvas}...",
@@ -1032,25 +1019,25 @@ const translations = {
         "errorCreatingPdfWithMessage": "Erro ao criar PDF: {error}",
 
         // Download menu
-        "worksheetJpeg": "Folha de Exercícios (JPEG)",
-        "answerKeyJpeg": "Folha de Respostas (JPEG)",
-        "worksheetPdf": "Folha de Exercícios (PDF)",
-        "answerKeyPdf": "Folha de Respostas (PDF)",
+        "worksheetJpeg": "Folha de Atividades (JPEG)",
+        "answerKeyJpeg": "Gabarito (JPEG)",
+        "worksheetPdf": "Folha de Atividades (PDF)",
+        "answerKeyPdf": "Gabarito (PDF)",
         "grayscale": "Escala de Cinza"
     },
 
     nl: {
         // Page title and main headers
-        "wordScrambleTitle": "Lettermix Generator",
+        "wordScrambleTitle": "Letterhusselen generator",
         "worksheetSettings": "Werkbladinstellingen",
 
         // Accordion headers
         "languageSettings": "Taalinstellingen",
-        "pageSetup": "Pagina-instelling",
-        "textTools": "Tekstopties", // Changed from "Tekstgereedschap"
-        "imageSelection": "Afbeelding Selectie",
-        "uploadCustomImages": "Upload Eigen Afbeeldingen",
-        "problemSettings": "Oefening Instellingen",
+        "pageSetup": "Paginainstellingen",
+        "textTools": "Tekstgereedschappen",
+        "imageSelection": "Afbeeldingselectie",
+        "uploadCustomImages": "Eigen Afbeeldingen Uploaden",
+        "problemSettings": "Oefeningingstellingen",
 
         // Tab labels
         "worksheet": "Werkblad",
@@ -1060,7 +1047,6 @@ const translations = {
         "language": "Taal:",
         "none": "Geen",
         "common.none": "Geen",
-    "none": "Geen",
         "loading": "Laden...",
         "error": "Fout",
         "success": "Succes",
@@ -1090,10 +1076,10 @@ const translations = {
         // Backgrounds and borders
         "backgroundTheme": "Achtergrondthema:",
         "selectThemeForBackgrounds": "Selecteer een thema voor achtergronden.",
-        "backgroundOpacity": "Achtergrond Transparantie:",
+        "backgroundOpacity": "Achtergronddekking:",
         "borderTheme": "Randthema:",
         "selectThemeToSeeBorders": "Selecteer een thema voor randen.",
-        "borderOpacity": "Rand Transparantie:",
+        "borderOpacity": "Randdekking:",
 
         // Text tools
         "selectedTextProperties": "Geselecteerde Teksteigenschappen",
@@ -1111,18 +1097,18 @@ const translations = {
         "searchImages": "Zoek Afbeeldingen:",
         "searchPlaceholder": "bijv: appel, auto",
         "selectedCountMsg": "Geselecteerd: {count} / {max}",
-        "selectedImagesForPuzzles": "Geselecteerde Afbeeldingen voor Oefeningen:",
+        "selectedImagesForPuzzles": "Geselecteerde Afbeeldingen voor Puzzels:",
 
         // Upload section
         "selectImagesToUpload": "Selecteer afbeeldingen om te uploaden:",
         "chooseFiles": "Bestanden Kiezen",
         "noFileChosen": "Geen bestand gekozen",
         "filesSelected": "{count} bestand(en) geselecteerd",
-        "yourUploadedImages": "Uw geüploade afbeeldingen",
-        "yourUploadedImagesAppearHere": "Uw geüploade afbeeldingen verschijnen hier.",
+        "yourUploadedImages": "Geüploade afbeeldingen",
+        "yourUploadedImagesAppearHere": "Geüploade afbeeldingen verschijnen hier.",
 
         // Problem settings
-        "puzzlesPerPage": "Oefeningen per pagina:",
+        "puzzlesPerPage": "Puzzels per pagina:",
         "allBlack": "Alles Zwart",
         "colorCodedVowelConsonant": "Kleurgecodeerd (Klinker/Medeklinker)",
         "letterColors": "Letterkleuren",
@@ -1133,9 +1119,9 @@ const translations = {
         "normal": "Normaal (1/4)",
         "easy": "Makkelijk (1/2)",
         "noClues": "Geen aanwijzingen",
-        "difficulty": "Moeilijkheid (Aantal Aanwijzingen)",
+        "difficulty": "Moeilijkheidsgraad (Aantal Aanwijzingen)",
         "includeNameDateLine": "Naam/datum regel toevoegen",
-        "includeExerciseNumbers": "Oefening nummers toevoegen",
+        "includeExerciseNumbers": "Puzzelnummers toevoegen",
         "letterColor": "Letterkleur:",
         "blackWhite": "Zwart & Wit",
         "colorCoded": "Kleurgecodeerd",
@@ -1143,7 +1129,7 @@ const translations = {
         // Zoom Controls
         "zoomIn": "Inzoomen",
         "zoomOut": "Uitzoomen",
-        "resetZoom": "Zoom Resetten",
+        "resetZoom": "Zoom terugzetten",
 
         // History Controls
         "undo": "Ongedaan Maken (Ctrl+Z)",
@@ -1178,7 +1164,7 @@ const translations = {
         "noImagesFoundFor": "Geen afbeeldingen gevonden voor \"{query}\"",
         "errorLoadingImages": "Fout bij het laden van afbeeldingen.",
         "couldNotLoadThemes": "Kon thema's niet laden.",
-        "maxImagesSelected": "U kunt maximaal {max} afbeeldingen selecteren.",
+        "maxImagesSelected": "Maximaal {max} afbeeldingen kunnen worden geselecteerd.",
         "customImagesAvailable": "{count} aangepaste afbeelding(en) beschikbaar.",
         "generatingWorksheet": "Werkblad maken...",
         "pleaseSelectImages": "Selecteer afbeeldingen of kies een thema met afbeeldingen.",
@@ -1212,19 +1198,19 @@ const translations = {
 
     sv: {
         // Page title and main headers
-        "wordScrambleTitle": "Bokstavsblandare",
-        "worksheetSettings": "Arbetsbladsinställningar",
+        "wordScrambleTitle": "Bokstavspusselgenerator",
+        "worksheetSettings": "Övningsbladsinställningar",
 
         // Accordion headers
         "languageSettings": "Språkinställningar",
-        "pageSetup": "Sidinställningar", // Changed from "Sidinställning"
-        "textTools": "Textalternativ", // Changed from "Textverktyg"
+        "pageSetup": "Sidinställningar",
+        "textTools": "Textverktyg",
         "imageSelection": "Bildval",
-        "uploadCustomImages": "Ladda upp Egna Bilder",
+        "uploadCustomImages": "Ladda upp egna bilder",
         "problemSettings": "Uppgiftsinställningar",
 
         // Tab labels
-        "worksheet": "Arbetsblad",
+        "worksheet": "Övningsblad",
         "answerKey": "Facit",
 
         // Common UI elements
@@ -1236,13 +1222,13 @@ const translations = {
         "error": "Fel",
         "success": "Lyckades",
         "generate": "Skapa",
-        "newWorksheet": "Nytt Arbetsblad",
+        "newWorksheet": "Nytt övningsblad",
         "download": "Ladda ner",
-        "clearAll": "Rensa Allt",
+        "clearAll": "Rensa allt",
 
         // Generate dropdown options
-        "generateWorksheet": "Skapa Arbetsblad",
-        "generateAnswerKey": "Skapa Facit",
+        "generateWorksheet": "Skapa övningsblad",
+        "generateAnswerKey": "Skapa facit",
 
         // Page setup
         "pageSize": "Sidstorlek:",
@@ -1255,21 +1241,21 @@ const translations = {
         "custom": "Anpassad",
         "width": "Bredd:",
         "height": "Höjd:",
-        "setPageSize": "Ställ in Storlek",
+        "setPageSize": "Ställ in storlek",
         "pageColor": "Sidfärg:",
 
         // Backgrounds and borders
         "backgroundTheme": "Bakgrundstema:",
         "selectThemeForBackgrounds": "Välj ett tema för bakgrunder.",
-        "backgroundOpacity": "Bakgrundsopacitet:",
+        "backgroundOpacity": "Bakgrundsgenomskinlighet:",
         "borderTheme": "Ramtema:",
         "selectThemeToSeeBorders": "Välj ett tema för ramar.",
-        "borderOpacity": "Ramopacitet:",
+        "borderOpacity": "Ramgenomskinlighet:",
 
         // Text tools
-        "selectedTextProperties": "Markerad Textegenskaper",
+        "selectedTextProperties": "Markerade textegenskaper",
         "textToAdd": "Text att lägga till:",
-        "addText": "Lägg till Text",
+        "addText": "Lägg till text",
         "textColor": "Textfärg:",
         "fontSize": "Teckenstorlek:",
         "fontFamily": "Typsnitt:",
@@ -1277,16 +1263,16 @@ const translations = {
         "strokeWidth": "Konturbredd:",
 
         // Image selection
-        "selectTheme": "Välj Tema:",
-        "allThemes": "Alla Teman",
-        "searchImages": "Sök Bilder:",
+        "selectTheme": "Välj tema:",
+        "allThemes": "Alla teman",
+        "searchImages": "Sök bilder:",
         "searchPlaceholder": "t.ex. äpple, bil",
         "selectedCountMsg": "Vald: {count} / {max}",
-        "selectedImagesForPuzzles": "Valda Bilder för Uppgifter:",
+        "selectedImagesForPuzzles": "Valda bilder för uppgifter:",
 
         // Upload section
         "selectImagesToUpload": "Välj bilder att ladda upp:",
-        "chooseFiles": "Välj Filer",
+        "chooseFiles": "Välj filer",
         "noFileChosen": "Ingen fil vald",
         "filesSelected": "{count} fil(er) valda",
         "yourUploadedImages": "Dina uppladdade bilder",
@@ -1294,21 +1280,21 @@ const translations = {
 
         // Problem settings
         "puzzlesPerPage": "Uppgifter per sida:",
-        "allBlack": "Allt Svart",
-        "colorCodedVowelConsonant": "Färgkodad (Vokal/Konsonant)",
+        "allBlack": "Allt svart",
+        "colorCodedVowelConsonant": "Färgkodad (vokal/konsonant)",
         "letterColors": "Bokstavsfärger",
         "lowercase": "Gemener",
         "uppercase": "Versaler",
-        "letterCase": "Bokstavsstorlek",
+        "letterCase": "Bokstavsläge",
         "tough": "Svår (1/6)",
         "normal": "Normal (1/4)",
         "easy": "Lätt (1/2)",
         "noClues": "Inga ledtrådar",
-        "difficulty": "Svårighet (Antal Ledtrådar)",
+        "difficulty": "Svårighetsgrad (Antal ledtrådar)",
         "includeNameDateLine": "Inkludera namn/datum-rad",
         "includeExerciseNumbers": "Inkludera uppgiftsnummer",
         "letterColor": "Bokstavsfärg:",
-        "blackWhite": "Svart & Vit",
+        "blackWhite": "Svart & vit",
         "colorCoded": "Färgkodad",
 
         // Zoom Controls
@@ -1351,10 +1337,10 @@ const translations = {
         "couldNotLoadThemes": "Kunde inte ladda teman.",
         "maxImagesSelected": "Du kan välja max {max} bilder.",
         "customImagesAvailable": "{count} egen/egna bild(er) tillgänglig(a).",
-        "generatingWorksheet": "Skapar arbetsblad...",
+        "generatingWorksheet": "Skapar övningsblad...",
         "pleaseSelectImages": "Välj bilder eller välj ett tema med bilder.",
-        "worksheetGeneratedSuccessfully": "Arbetsblad skapat framgångsrikt!",
-        "pleaseGenerateWorksheetFirst": "Skapa ett arbetsblad först.",
+        "worksheetGeneratedSuccessfully": "Övningsblad skapat!",
+        "pleaseGenerateWorksheetFirst": "Skapa ett övningsblad först.",
         "generatingAnswerKey": "Skapar facit...",
         "answerKeyGenerated": "Facit skapat!",
         "failedToLoadImage": "Kunde inte ladda {type}-bild.",
@@ -1374,29 +1360,29 @@ const translations = {
         "errorCreatingPdfWithMessage": "Fel vid skapande av PDF: {error}",
 
         // Download menu
-        "worksheetJpeg": "Arbetsblad (JPEG)",
+        "worksheetJpeg": "Övningsblad (JPEG)",
         "answerKeyJpeg": "Facit (JPEG)",
-        "worksheetPdf": "Arbetsblad (PDF)",
+        "worksheetPdf": "Övningsblad (PDF)",
         "answerKeyPdf": "Facit (PDF)",
         "grayscale": "Gråskala"
     },
 
     da: {
         // Page title and main headers
-        "wordScrambleTitle": "Bogstavblander",
-        "worksheetSettings": "Arbejdsarkindstillinger",
+        "wordScrambleTitle": "Bogstavblanding",
+        "worksheetSettings": "Opgavearkindstillinger",
 
         // Accordion headers
         "languageSettings": "Sprogindstillinger",
         "pageSetup": "Sideopsætning",
-        "textTools": "Tekstindstillinger", // Changed from "Tekstværktøjer"
+        "textTools": "Tekstindstillinger", // Fixed: Platform standard (retroactive fix 2025-11-30)
         "imageSelection": "Billedvalg",
-        "uploadCustomImages": "Upload Egne Billeder",
+        "uploadCustomImages": "Upload egne billeder",
         "problemSettings": "Opgaveindstillinger",
 
         // Tab labels
-        "worksheet": "Arbejdsark",
-        "answerKey": "Svarark",
+        "worksheet": "Opgaveark",
+        "answerKey": "Facitliste",
 
         // Common UI elements
         "language": "Sprog:",
@@ -1407,40 +1393,40 @@ const translations = {
         "error": "Fejl",
         "success": "Succes",
         "generate": "Opret",
-        "newWorksheet": "Nyt Arbejdsark",
+        "newWorksheet": "Nyt opgaveark",
         "download": "Download",
-        "clearAll": "Ryd Alt",
+        "clearAll": "Ryd alt",
 
         // Generate dropdown options
-        "generateWorksheet": "Opret Arbejdsark",
-        "generateAnswerKey": "Opret Svarark",
+        "generateWorksheet": "Opret opgaveark",
+        "generateAnswerKey": "Opret facitliste",
 
         // Page setup
         "pageSize": "Sidestørrelse:",
-        "letterPortrait": "Letter (Stående)",
-        "letterLandscape": "Letter (Liggende)",
-        "a4Portrait": "A4 (Stående)",
-        "a4Landscape": "A4 (Liggende)",
-        "legalPortrait": "Legal (Stående)",
-        "legalLandscape": "Legal (Liggende)",
-        "custom": "Tilpasset",
+        "letterPortrait": "Letter (stående)",
+        "letterLandscape": "Letter (liggende)",
+        "a4Portrait": "A4 (stående)",
+        "a4Landscape": "A4 (liggende)",
+        "legalPortrait": "Legal (stående)",
+        "legalLandscape": "Legal (liggende)",
+        "custom": "Brugerdefineret",
         "width": "Bredde:",
         "height": "Højde:",
-        "setPageSize": "Indstil Størrelse",
+        "setPageSize": "Indstil størrelse",
         "pageColor": "Sidefarve:",
 
         // Backgrounds and borders
         "backgroundTheme": "Baggrundstema:",
         "selectThemeForBackgrounds": "Vælg et tema til baggrunde.",
-        "backgroundOpacity": "Baggrundsdekning:",
+        "backgroundOpacity": "Baggrundsgennemsigtighed:",
         "borderTheme": "Rammetema:",
         "selectThemeToSeeBorders": "Vælg et tema til rammer.",
-        "borderOpacity": "Rammedekning:",
+        "borderOpacity": "Rammegennemsigtighed:",
 
         // Text tools
-        "selectedTextProperties": "Markerede Tekstegenskaber",
+        "selectedTextProperties": "Markerede tekstegenskaber",
         "textToAdd": "Tekst at tilføje:",
-        "addText": "Tilføj Tekst",
+        "addText": "Tilføj tekst",
         "textColor": "Tekstfarve:",
         "fontSize": "Skriftstørrelse:",
         "fontFamily": "Skrifttype:",
@@ -1448,16 +1434,16 @@ const translations = {
         "strokeWidth": "Konturbredde:",
 
         // Image selection
-        "selectTheme": "Vælg Tema:",
-        "allThemes": "Alle Temaer",
-        "searchImages": "Søg Billeder:",
+        "selectTheme": "Vælg tema:",
+        "allThemes": "Alle temaer",
+        "searchImages": "Søg billeder:",
         "searchPlaceholder": "f.eks. æble, bil",
         "selectedCountMsg": "Valgt: {count} / {max}",
-        "selectedImagesForPuzzles": "Valgte Billeder til Opgaver:",
+        "selectedImagesForPuzzles": "Valgte billeder til opgaver:",
 
         // Upload section
         "selectImagesToUpload": "Vælg billeder at uploade:",
-        "chooseFiles": "Vælg Filer",
+        "chooseFiles": "Vælg filer",
         "noFileChosen": "Ingen fil valgt",
         "filesSelected": "{count} fil(er) valgt",
         "yourUploadedImages": "Dine uploadede billeder",
@@ -1465,21 +1451,21 @@ const translations = {
 
         // Problem settings
         "puzzlesPerPage": "Opgaver per side:",
-        "allBlack": "Alt Sort",
-        "colorCodedVowelConsonant": "Farvekodet (Vokal/Konsonant)",
+        "allBlack": "Alt sort",
+        "colorCodedVowelConsonant": "Farvekodet (vokal/konsonant)",
         "letterColors": "Bogstavfarver",
-        "lowercase": "Små Bogstaver",
-        "uppercase": "Store Bogstaver",
-        "letterCase": "Store/Små Bogstaver",
+        "lowercase": "Små bogstaver",
+        "uppercase": "Store bogstaver",
+        "letterCase": "Store/små bogstaver",
         "tough": "Svær (1/6)",
         "normal": "Normal (1/4)",
         "easy": "Let (1/2)",
         "noClues": "Ingen ledetråde",
-        "difficulty": "Sværhedsgrad (Antal Ledetråde)",
+        "difficulty": "Sværhedsgrad (antal ledetråde)",
         "includeNameDateLine": "Inkluder navn/dato-linje",
         "includeExerciseNumbers": "Inkluder opgavenumre",
         "letterColor": "Bogstavfarve:",
-        "blackWhite": "Sort & Hvid",
+        "blackWhite": "Sort og hvid",
         "colorCoded": "Farvekodede",
 
         // Zoom Controls
@@ -1510,7 +1496,7 @@ const translations = {
         "alignBottom": "Juster nederst",
         "centerOnPageHorizontally": "Centrer vandret på siden",
         "centerOnPageVertically": "Centrer lodret på siden",
-        "lockUnlock": "Lås/Lås op",
+        "lockUnlock": "Lås/lås op",
         "unlockAll": "Lås alle op",
         "deleteSelected": "Slet markering",
 
@@ -1521,13 +1507,13 @@ const translations = {
         "errorLoadingImages": "Fejl ved indlæsning af billeder.",
         "couldNotLoadThemes": "Kunne ikke indlæse temaer.",
         "maxImagesSelected": "Du kan vælge maksimalt {max} billeder.",
-        "customImagesAvailable": "{count} tilpasset/tilpassede billede(r) tilgængelig(e).",
-        "generatingWorksheet": "Opretter arbejdsark...",
+        "customImagesAvailable": "{count} brugerdefinerede billede(r) tilgængelig(e).",
+        "generatingWorksheet": "Opretter opgaveark...",
         "pleaseSelectImages": "Vælg billeder eller vælg et tema med billeder.",
-        "worksheetGeneratedSuccessfully": "Arbejdsark oprettet succesfuldt!",
-        "pleaseGenerateWorksheetFirst": "Opret først et arbejdsark.",
-        "generatingAnswerKey": "Opretter svarark...",
-        "answerKeyGenerated": "Svarark oprettet!",
+        "worksheetGeneratedSuccessfully": "Opgaveark oprettet!",
+        "pleaseGenerateWorksheetFirst": "Opret først et opgaveark.",
+        "generatingAnswerKey": "Opretter facitliste...",
+        "answerKeyGenerated": "Facitliste oprettet!",
         "failedToLoadImage": "Kunne ikke indlæse {type}-billede.",
         "formCleared": "Formular ryddet.",
         "preparingCanvas": "Forbereder {canvas}...",
@@ -1545,28 +1531,28 @@ const translations = {
         "errorCreatingPdfWithMessage": "Fejl ved oprettelse af PDF: {error}",
 
         // Download menu
-        "worksheetJpeg": "Arbejdsark (JPEG)",
-        "answerKeyJpeg": "Svarark (JPEG)",
-        "worksheetPdf": "Arbejdsark (PDF)",
-        "answerKeyPdf": "Svarark (PDF)",
+        "worksheetJpeg": "Opgaveark (JPEG)",
+        "answerKeyJpeg": "Facitliste (JPEG)",
+        "worksheetPdf": "Opgaveark (PDF)",
+        "answerKeyPdf": "Facitliste (PDF)",
         "grayscale": "Gråtoner"
     },
 
     no: {
         // Page title and main headers
-        "wordScrambleTitle": "Bokstavblander",
-        "worksheetSettings": "Arbeidsarkinnstillinger",
+        "wordScrambleTitle": "Bokstavkaos-generator",
+        "worksheetSettings": "Oppgavearkinnstillinger",
 
         // Accordion headers
         "languageSettings": "Språkinnstillinger",
         "pageSetup": "Sideoppsett",
-        "textTools": "Tekstinnstillinger", // Changed from "Tekstverktøy"
+        "textTools": "Tekstverktøy",
         "imageSelection": "Bildevalg",
-        "uploadCustomImages": "Last opp Egne Bilder",
+        "uploadCustomImages": "Last opp egne bilder",
         "problemSettings": "Oppgaveinnstillinger",
 
         // Tab labels
-        "worksheet": "Arbeidsark",
+        "worksheet": "Oppgaveark",
         "answerKey": "Fasit",
 
         // Common UI elements
@@ -1577,80 +1563,80 @@ const translations = {
         "loading": "Laster...",
         "error": "Feil",
         "success": "Suksess",
-        "generate": "Opprett",
-        "newWorksheet": "Nytt Arbeidsark",
+        "generate": "Lag",
+        "newWorksheet": "Nytt oppgaveark",
         "download": "Last ned",
-        "clearAll": "Slett alt",
+        "clearAll": "Tøm alt",
 
         // Generate dropdown options
-        "generateWorksheet": "Opprett Arbeidsark",
-        "generateAnswerKey": "Opprett Fasit",
+        "generateWorksheet": "Lag oppgaveark",
+        "generateAnswerKey": "Lag fasit",
 
         // Page setup
         "pageSize": "Sidestørrelse:",
-        "letterPortrait": "Letter (Stående)",
-        "letterLandscape": "Letter (Liggende)",
-        "a4Portrait": "A4 (Stående)",
-        "a4Landscape": "A4 (Liggende)",
-        "legalPortrait": "Legal (Stående)",
-        "legalLandscape": "Legal (Liggende)",
-        "custom": "Tilpasset",
+        "letterPortrait": "Letter (stående)",
+        "letterLandscape": "Letter (liggende)",
+        "a4Portrait": "A4 (stående)",
+        "a4Landscape": "A4 (liggende)",
+        "legalPortrait": "Legal (stående)",
+        "legalLandscape": "Legal (liggende)",
+        "custom": "Egendefinert",
         "width": "Bredde:",
         "height": "Høyde:",
-        "setPageSize": "Sett Størrelse",
+        "setPageSize": "Sett størrelse",
         "pageColor": "Sidefarge:",
 
         // Backgrounds and borders
         "backgroundTheme": "Bakgrunnstema:",
         "selectThemeForBackgrounds": "Velg et tema for bakgrunner.",
-        "backgroundOpacity": "Bakgrunnsopasitet:",
+        "backgroundOpacity": "Bakgrunnssynlighet:",
         "borderTheme": "Rammetema:",
         "selectThemeToSeeBorders": "Velg et tema for rammer.",
-        "borderOpacity": "Rammeopasitet:",
+        "borderOpacity": "Rammesynlighet:",
 
         // Text tools
-        "selectedTextProperties": "Valgte Tekstegenskaper",
+        "selectedTextProperties": "Valgte tekstegenskaper",
         "textToAdd": "Tekst å legge til:",
-        "addText": "Legg til Tekst",
+        "addText": "Legg til tekst",
         "textColor": "Tekstfarge:",
         "fontSize": "Skriftstørrelse:",
         "fontFamily": "Skrifttype:",
-        "strokeColor": "Konturfarge:",
-        "strokeWidth": "Konturbredde:",
+        "strokeColor": "Omrissfarge:",
+        "strokeWidth": "Omrissbredde:",
 
         // Image selection
-        "selectTheme": "Velg Tema:",
-        "allThemes": "Alle Temaer",
-        "searchImages": "Søk Bilder:",
+        "selectTheme": "Velg tema:",
+        "allThemes": "Alle temaer",
+        "searchImages": "Søk i bilder:",
         "searchPlaceholder": "f.eks. eple, bil",
         "selectedCountMsg": "Valgt: {count} / {max}",
-        "selectedImagesForPuzzles": "Valgte Bilder for Oppgaver:",
+        "selectedImagesForPuzzles": "Valgte bilder for oppgaver:",
 
         // Upload section
         "selectImagesToUpload": "Velg bilder å laste opp:",
-        "chooseFiles": "Velg Filer",
+        "chooseFiles": "Velg filer",
         "noFileChosen": "Ingen fil valgt",
         "filesSelected": "{count} fil(er) valgt",
         "yourUploadedImages": "Dine opplastede bilder",
         "yourUploadedImagesAppearHere": "Dine opplastede bilder vises her.",
 
         // Problem settings
-        "puzzlesPerPage": "Oppgaver per side:",
-        "allBlack": "Alt Svart",
-        "colorCodedVowelConsonant": "Fargekodet (Vokal/Konsonant)",
+        "puzzlesPerPage": "Gåter per side:",
+        "allBlack": "Alt svart",
+        "colorCodedVowelConsonant": "Fargekodet (vokal/konsonant)",
         "letterColors": "Bokstavfarger",
-        "lowercase": "Små Bokstaver",
-        "uppercase": "Store Bokstaver",
-        "letterCase": "Store/Små Bokstaver",
+        "lowercase": "Små bokstaver",
+        "uppercase": "Store bokstaver",
+        "letterCase": "Store/små bokstaver",
         "tough": "Vanskelig (1/6)",
         "normal": "Normal (1/4)",
         "easy": "Lett (1/2)",
-        "noClues": "Ingen ledetråder",
-        "difficulty": "Vanskelighetsgrad (Antall Ledetråder)",
+        "noClues": "Ingen hint",
+        "difficulty": "Vanskelighetsgrad (antall hint)",
         "includeNameDateLine": "Inkluder navn/dato-linje",
         "includeExerciseNumbers": "Inkluder oppgavenummer",
         "letterColor": "Bokstavfarge:",
-        "blackWhite": "Svart & Hvit",
+        "blackWhite": "Svart og hvitt",
         "colorCoded": "Fargekodet",
 
         // Zoom Controls
@@ -1660,7 +1646,7 @@ const translations = {
 
         // History Controls
         "undo": "Angre (Ctrl+Z)",
-        "redo": "Gjenta (Ctrl+Y)",
+        "redo": "Gjør om (Ctrl+Y)",
 
         // Layer Controls
         "layers": "Lag",
@@ -1683,62 +1669,62 @@ const translations = {
         "centerOnPageVertically": "Sentrer vertikalt på siden",
         "lockUnlock": "Lås/Lås opp",
         "unlockAll": "Lås opp alle",
-        "deleteSelected": "Slett markering",
+        "deleteSelected": "Slett markerte",
 
         // Dynamic messages
         "loadingImages": "Laster bilder...",
         "noImagesFound": "Ingen bilder funnet",
-        "noImagesFoundFor": "Ingen bilder funnet for \"{query}\"",
+        "noImagesFoundFor": "Ingen bilder funnet for «{query}»",
         "errorLoadingImages": "Feil ved lasting av bilder.",
         "couldNotLoadThemes": "Kunne ikke laste temaer.",
         "maxImagesSelected": "Du kan velge maksimalt {max} bilder.",
-        "customImagesAvailable": "{count} tilpasset(e) bilde(r) tilgjengelig.",
-        "generatingWorksheet": "Oppretter arbeidsark...",
+        "customImagesAvailable": "{count} egendefinert(e) bilde(r) tilgjengelig.",
+        "generatingWorksheet": "Lager oppgaveark...",
         "pleaseSelectImages": "Velg bilder eller velg et tema med bilder.",
-        "worksheetGeneratedSuccessfully": "Arbeidsark opprettet vellykket!",
-        "pleaseGenerateWorksheetFirst": "Opprett et arbeidsark først.",
-        "generatingAnswerKey": "Oppretter fasit...",
-        "answerKeyGenerated": "Fasit opprettet!",
+        "worksheetGeneratedSuccessfully": "Oppgaveark laget!",
+        "pleaseGenerateWorksheetFirst": "Lag et oppgaveark først.",
+        "generatingAnswerKey": "Lager fasit...",
+        "answerKeyGenerated": "Fasit laget!",
         "failedToLoadImage": "Kunne ikke laste {type}-bilde.",
         "formCleared": "Skjema tømt.",
         "preparingCanvas": "Forbereder {canvas}...",
         "downloadInitiated": "Nedlasting startet!",
         "errorPreparingImage": "Feil ved forberedelse av bilde: {error}",
-        "pleaseGenerateContentFirst": "Opprett innhold først.",
+        "pleaseGenerateContentFirst": "Lag innhold først.",
         "preparingPdf": "Forbereder PDF...",
         "pdfDownloaded": "PDF lastet ned!",
-        "errorCreatingPdf": "Feil ved oppretting av PDF.",
+        "errorCreatingPdf": "Feil ved laging av PDF.",
         "preparingJpeg": "Forbereder JPEG...",
         "jpegDownloadInitiated": "JPEG-nedlasting startet!",
         "errorPreparingJpeg": "Feil ved forberedelse av JPEG.",
-        "preparingCanvasPdf": "Forbereder {canvas} PDF...",
+        "preparingCanvasPdf": "Forbereder {canvas}-PDF...",
         "pdfDownloadComplete": "PDF lastet ned!",
-        "errorCreatingPdfWithMessage": "Feil ved oppretting av PDF: {error}",
+        "errorCreatingPdfWithMessage": "Feil ved laging av PDF: {error}",
 
         // Download menu
-        "worksheetJpeg": "Arbeidsark (JPEG)",
+        "worksheetJpeg": "Oppgaveark (JPEG)",
         "answerKeyJpeg": "Fasit (JPEG)",
-        "worksheetPdf": "Arbeidsark (PDF)",
+        "worksheetPdf": "Oppgaveark (PDF)",
         "answerKeyPdf": "Fasit (PDF)",
         "grayscale": "Gråtoner"
     },
 
     fi: {
         // Page title and main headers
-        "wordScrambleTitle": "Kirjainsekoittaja",
-        "worksheetSettings": "Tehtäväpaperin Asetukset",
+        "wordScrambleTitle": "Kirjainsalaatti-generaattori",
+        "worksheetSettings": "Tehtävämonisteen Asetukset",
 
         // Accordion headers
         "languageSettings": "Kieliasetukset",
-        "pageSetup": "Sivun Asetus",
+        "pageSetup": "Sivun Asetukset",
         "textTools": "Tekstityökalut",
         "imageSelection": "Kuvan Valinta",
-        "uploadCustomImages": "Lataa Omia Kuvia",
+        "uploadCustomImages": "Lähetä Omia Kuvia",
         "problemSettings": "Tehtäväasetukset",
 
         // Tab labels
-        "worksheet": "Tehtäväpaperi",
-        "answerKey": "Vastauslomake",
+        "worksheet": "Tehtävämoniste",
+        "answerKey": "Vastaukset",
 
         // Common UI elements
         "language": "Kieli:",
@@ -1749,13 +1735,13 @@ const translations = {
         "error": "Virhe",
         "success": "Onnistui",
         "generate": "Luo",
-        "newWorksheet": "Uusi Tehtäväpaperi",
+        "newWorksheet": "Uusi Tehtävämoniste",
         "download": "Lataa",
         "clearAll": "Tyhjennä Kaikki",
 
         // Generate dropdown options
-        "generateWorksheet": "Luo Tehtäväpaperi",
-        "generateAnswerKey": "Luo Vastauslomake",
+        "generateWorksheet": "Luo Tehtävämoniste",
+        "generateAnswerKey": "Luo Vastaukset",
 
         // Page setup
         "pageSize": "Sivukoko:",
@@ -1775,9 +1761,9 @@ const translations = {
         "backgroundTheme": "Taustateema:",
         "selectThemeForBackgrounds": "Valitse teema taustoille.",
         "backgroundOpacity": "Taustan Läpinäkyvyys:",
-        "borderTheme": "Reunateema:",
-        "selectThemeToSeeBorders": "Valitse teema reunoille.",
-        "borderOpacity": "Reunan Läpinäkyvyys:",
+        "borderTheme": "Kehysteema:",
+        "selectThemeToSeeBorders": "Valitse teema kehyksille.",
+        "borderOpacity": "Kehyksen Läpinäkyvyys:",
 
         // Text tools
         "selectedTextProperties": "Valitun Tekstin Ominaisuudet",
@@ -1795,18 +1781,18 @@ const translations = {
         "searchImages": "Hae Kuvia:",
         "searchPlaceholder": "esim. omena, auto",
         "selectedCountMsg": "Valittu: {count} / {max}",
-        "selectedImagesForPuzzles": "Valitut Kuvat Tehtäviin:",
+        "selectedImagesForPuzzles": "Valitut Kuvat Pulmiin:",
 
         // Upload section
-        "selectImagesToUpload": "Valitse ladattavat kuvat:",
+        "selectImagesToUpload": "Valitse lähetettävät kuvat:",
         "chooseFiles": "Valitse Tiedostot",
         "noFileChosen": "Ei tiedostoa valittuna",
         "filesSelected": "{count} tiedosto(a) valittu",
-        "yourUploadedImages": "Lataamasi kuvat",
-        "yourUploadedImagesAppearHere": "Lataamasi kuvat näkyvät täällä.",
+        "yourUploadedImages": "Lähettämäsi kuvat",
+        "yourUploadedImagesAppearHere": "Lähettämäsi kuvat näkyvät täällä.",
 
         // Problem settings
-        "puzzlesPerPage": "Tehtäviä per sivu:",
+        "puzzlesPerPage": "Pulmia per sivu:",
         "allBlack": "Kaikki Musta",
         "colorCodedVowelConsonant": "Värikoodattu (Vokaali/Konsonantti)",
         "letterColors": "Kirjainten Värit",
@@ -1817,7 +1803,7 @@ const translations = {
         "normal": "Normaali (1/4)",
         "easy": "Helppo (1/2)",
         "noClues": "Ei vihjeitä",
-        "difficulty": "Vaikeus (Vihjeiden Määrä)",
+        "difficulty": "Vaikeustaso (Vihjeiden Määrä)",
         "includeNameDateLine": "Sisällytä nimi/päivämäärä-rivi",
         "includeExerciseNumbers": "Sisällytä tehtävänumerot",
         "letterColor": "Kirjainten väri:",
@@ -1864,12 +1850,12 @@ const translations = {
         "couldNotLoadThemes": "Teemoja ei voitu ladata.",
         "maxImagesSelected": "Voit valita enintään {max} kuvaa.",
         "customImagesAvailable": "{count} mukautettu(a) kuva(a) saatavilla.",
-        "generatingWorksheet": "Luodaan tehtäväpaperia...",
+        "generatingWorksheet": "Luodaan tehtävämonistetta...",
         "pleaseSelectImages": "Valitse kuvia tai valitse teema, jossa on kuvia.",
-        "worksheetGeneratedSuccessfully": "Tehtäväpaperi luotu onnistuneesti!",
-        "pleaseGenerateWorksheetFirst": "Luo ensin tehtäväpaperi.",
-        "generatingAnswerKey": "Luodaan vastauslomaketta...",
-        "answerKeyGenerated": "Vastauslomake luotu!",
+        "worksheetGeneratedSuccessfully": "Tehtävämoniste luotu onnistuneesti!",
+        "pleaseGenerateWorksheetFirst": "Luo ensin tehtävämoniste.",
+        "generatingAnswerKey": "Luodaan vastauksia...",
+        "answerKeyGenerated": "Vastaukset luotu!",
         "failedToLoadImage": "{type}-kuvan lataus epäonnistui.",
         "formCleared": "Lomake tyhjennetty.",
         "preparingCanvas": "Valmistellaan {canvas}...",
@@ -1887,10 +1873,10 @@ const translations = {
         "errorCreatingPdfWithMessage": "Virhe PDF:n luonnissa: {error}",
 
         // Download menu
-        "worksheetJpeg": "Tehtäväpaperi (JPEG)",
-        "answerKeyJpeg": "Vastauslomake (JPEG)",
-        "worksheetPdf": "Tehtäväpaperi (PDF)",
-        "answerKeyPdf": "Vastauslomake (PDF)",
+        "worksheetJpeg": "Tehtävämoniste (JPEG)",
+        "answerKeyJpeg": "Vastaukset (JPEG)",
+        "worksheetPdf": "Tehtävämoniste (PDF)",
+        "answerKeyPdf": "Vastaukset (PDF)",
         "grayscale": "Harmaasävy"
     }
 };

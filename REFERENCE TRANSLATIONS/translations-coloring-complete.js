@@ -171,7 +171,7 @@ const translations = {
         "clearCanvasConfirmation": "Möchtest du wirklich die gesamte Zeichenfläche dauerhaft löschen?",
         "cancel": "Abbrechen",
         "yesClear": "Ja, löschen",
-        "opacity": "Deckkraft",
+        "opacity": "Transparenz", // Fixed 2025-11-26: Platform standard (user-friendly over technical)
         "deleteSelected": "Ausgewähltes löschen",
         "lockObject": "Objekt sperren",
 
@@ -184,7 +184,7 @@ const translations = {
         // Language Settings
         "languageSettings": "Spracheinstellungen",
         "language": "Sprache:",
-        "imageLibraryLanguage": "Bilderbibliothek-Sprache:",
+        "imageLibraryLanguage": "Bildbibliothek-Sprache:", // Fixed 2025-11-26: Platform standard (singular compound)
 
         // Page Setup
         "pageSetup": "Seiteneinrichtung",
@@ -219,7 +219,7 @@ const translations = {
         "brushSize": "Pinselgröße:",
 
         // Text Tools
-        "textTools": "Textbearbeitung", // Changed from "Textwerkzeuge"
+        "textTools": "Textwerkzeuge", // Fixed 2025-11-26: Platform standard (tools not editing)
         "addNewText": "Neuen Text hinzufügen",
         "content": "Inhalt:",
         "helloPlaceholder": "Hallo!",
@@ -228,11 +228,11 @@ const translations = {
         "color": "Farbe:",
         "size": "Größe:",
         "font": "Schriftart:",
-        "outlineColor": "Konturfarbe:",
-        "outlineWidth": "Kontur (0-10):",
+        "outlineColor": "Umrissfarbe:",
+        "outlineWidth": "Umriss (0-10):",
 
         // Image Library
-        "imageLibrary": "Bilderbibliothek",
+        "imageLibrary": "Bildbibliothek", // Fixed 2025-11-26: Platform standard (singular compound)
         "selectTheme": "Thema auswählen:",
         "searchImages": "Bilder suchen:",
         "searchPlaceholder": "z.B. Apfel, Auto",
@@ -286,8 +286,8 @@ const translations = {
 
     fr: {
         // Core UI Elements
-        "coloringPageDesigner": "Concepteur de pages à colorier",
-        "coloringDesigner": "Concepteur de coloriage",
+        "coloringPageDesigner": "Créateur de Pages à Colorier",
+        "coloringDesigner": "Créateur de Coloriage",
         "download": "Télécharger",
         "downloadAsJPEG": "Télécharger en JPEG",
         "downloadAsPDF": "Télécharger en PDF",
@@ -303,9 +303,8 @@ const translations = {
         // Common keys
         "none": "Aucun",
         "common.none": "Aucun",
-    "none": "Aucun",
         "allThemes": "Tous les thèmes",
-        "yourUploadedImagesWillAppearHere": "Vos images téléversées apparaîtront ici.",
+        "yourUploadedImagesWillAppearHere": "Vos images importées apparaîtront ici.",
 
         // Language Settings
         "languageSettings": "Paramètres de langue",
@@ -313,7 +312,7 @@ const translations = {
         "imageLibraryLanguage": "Langue de la bibliothèque d'images :",
 
         // Page Setup
-        "pageSetup": "Configuration de page",
+        "pageSetup": "Mise en page",
         "pageDimensions": "Dimensions de page",
         "pageSize": "Taille de page :",
         "letterPortrait": "Lettre Portrait (8,5×11\")",
@@ -345,7 +344,7 @@ const translations = {
         "brushSize": "Taille du pinceau :",
 
         // Text Tools
-        "textTools": "Options de texte", // Changed from "Outils de texte"
+        "textTools": "Options de texte", // Platform standard - retroactive update 2025-11-27
         "addNewText": "Ajouter un nouveau texte",
         "content": "Contenu :",
         "helloPlaceholder": "Bonjour !",
@@ -367,12 +366,12 @@ const translations = {
         "loadingImages": "Chargement des images...",
 
         // Upload Custom Images
-        "uploadCustomImages": "Téléverser des images personnalisées",
-        "selectImagesToUpload": "Sélectionner image(s) à téléverser :",
+        "uploadCustomImages": "Importer des images personnalisées",
+        "selectImagesToUpload": "Sélectionner image(s) à importer :",
         "chooseFiles": "Choisir des fichiers",
         "noFileChosen": "Aucun fichier choisi",
         "filesSelected": "{} fichier(s) sélectionné(s)",
-        "yourUploadedImagesClickToAdd": "Vos images téléversées (Cliquez pour ajouter) :",
+        "yourUploadedImagesClickToAdd": "Vos images importées (Cliquez pour ajouter) :",
 
         // Zoom & History Controls
         "zoomIn": "Zoomer",
@@ -412,8 +411,8 @@ const translations = {
 
     es: {
         // Core UI Elements
-        "coloringPageDesigner": "Diseñador de páginas para colorear",
-        "coloringDesigner": "Diseñador de colorear",
+        "coloringPageDesigner": "Creador de Páginas para Colorear",
+        "coloringDesigner": "Creador de Colorear",
         "download": "Descargar",
         "downloadAsJPEG": "Descargar como JPEG",
         "downloadAsPDF": "Descargar como PDF",
@@ -423,7 +422,7 @@ const translations = {
         "cancel": "Cancelar",
         "yesClear": "Sí, borrar",
         "opacity": "Opacidad",
-        "deleteSelected": "Eliminar seleccionado",
+        "deleteSelected": "Eliminar selección",
         "lockObject": "Bloquear objeto",
 
         // Common keys
@@ -431,7 +430,7 @@ const translations = {
         "common.none": "Ninguno",
     "none": "Ninguno",
         "allThemes": "Todos los temas",
-        "yourUploadedImagesWillAppearHere": "Tus imágenes cargadas aparecerán aquí.",
+        "yourUploadedImagesWillAppearHere": "Tus imágenes subidas aparecerán aquí.",
 
         // Language Settings
         "languageSettings": "Configuración de idioma",
@@ -471,7 +470,7 @@ const translations = {
         "brushSize": "Tamaño del pincel:",
 
         // Text Tools
-        "textTools": "Opciones de texto", // Changed from "Herramientas de texto"
+        "textTools": "Herramientas de texto",
         "addNewText": "Añadir nuevo texto",
         "content": "Contenido:",
         "helloPlaceholder": "¡Hola!",
@@ -510,7 +509,7 @@ const translations = {
         // Toolbar & Layer Controls
         "layers": "Capas",
         "bringForward": "Traer adelante",
-        "bringToFront": "Traer al frente completo",
+        "bringToFront": "Traer al frente",
         "sendBackward": "Enviar atrás",
         "sendToBack": "Enviar al fondo",
 
@@ -538,8 +537,8 @@ const translations = {
 
     it: {
         // Core UI Elements
-        "coloringPageDesigner": "Designer di pagine da colorare",
-        "coloringDesigner": "Designer da colorare",
+        "coloringPageDesigner": "Creatore di Pagine da Colorare", // Fixed: Per RATIONALE - more natural Italian than "Designer"
+        "coloringDesigner": "Creatore da Colorare", // Fixed: Consistency with main title
         "download": "Scarica",
         "downloadAsJPEG": "Scarica come JPEG",
         "downloadAsPDF": "Scarica come PDF",
@@ -553,16 +552,14 @@ const translations = {
         "lockObject": "Blocca oggetto",
 
         // Common keys
-        "none": "Nessuno",
         "common.none": "Nessuno",
-    "none": "Nessuno",
         "allThemes": "Tutti i temi",
         "yourUploadedImagesWillAppearHere": "Le tue immagini caricate appariranno qui.",
 
         // Language Settings
         "languageSettings": "Impostazioni lingua",
         "language": "Lingua:",
-        "imageLibraryLanguage": "Lingua libreria immagini:",
+        "imageLibraryLanguage": "Lingua raccolta immagini:", // Fixed: Consistency with "Raccolta immagini"
 
         // Page Setup
         "pageSetup": "Impostazione pagina",
@@ -597,7 +594,7 @@ const translations = {
         "brushSize": "Dimensione del pennello:",
 
         // Text Tools
-        "textTools": "Opzioni di testo", // Changed from "Strumenti di testo"
+        "textTools": "Strumenti testo", // Fixed 2025-11-28: Platform standard (3 apps already use this)
         "addNewText": "Aggiungi nuovo testo",
         "content": "Contenuto:",
         "helloPlaceholder": "Ciao!",
@@ -610,7 +607,7 @@ const translations = {
         "outlineWidth": "Contorno (0-10):",
 
         // Image Library
-        "imageLibrary": "Libreria immagini",
+        "imageLibrary": "Raccolta immagini", // Fixed: Per RATIONALE - more natural than "Libreria" (explicitly rejected)
         "selectTheme": "Seleziona tema:",
         "searchImages": "Cerca immagini:",
         "searchPlaceholder": "es. mela, auto",
@@ -638,7 +635,7 @@ const translations = {
         "bringForward": "Porta avanti",
         "bringToFront": "Porta in primo piano",
         "sendBackward": "Porta indietro",
-        "sendToBack": "Manda in fondo",
+        "sendToBack": "Porta in fondo", // Fixed: Consistency - use "Porta" like all other layer commands
 
         // Lock/Unlock
         "unlockObject": "Sblocca oggetto",
@@ -646,9 +643,9 @@ const translations = {
         "objectUnlocked": "Oggetto sbloccato",
 
         // Flip & Align
-        "flip": "Capovolgi",
-        "flipHorizontal": "Capovolgi orizzontalmente",
-        "flipVertical": "Capovolgi verticalmente",
+        "flip": "Rifletti", // Fixed: Per RATIONALE - more precise than "Capovolgi"
+        "flipHorizontal": "Rifletti orizzontalmente",
+        "flipVertical": "Rifletti verticalmente",
         "align": "Allinea",
         "alignSelected": "Allinea selezione:",
         "alignLeft": "Allinea a sinistra",
@@ -664,8 +661,8 @@ const translations = {
 
     pt: {
         // Core UI Elements
-        "coloringPageDesigner": "Designer de páginas para colorir",
-        "coloringDesigner": "Designer de colorir",
+        "coloringPageDesigner": "Criador de Páginas para Colorir", // Fixed 2025-11-29: Per RATIONALE - more natural than "Designer"
+        "coloringDesigner": "Criador de Colorir", // Fixed 2025-11-29: Consistency with main title
         "download": "Baixar",
         "downloadAsJPEG": "Baixar como JPEG",
         "downloadAsPDF": "Baixar como PDF",
@@ -675,15 +672,14 @@ const translations = {
         "cancel": "Cancelar",
         "yesClear": "Sim, limpar",
         "opacity": "Opacidade",
-        "deleteSelected": "Excluir selecionado",
+        "deleteSelected": "Excluir seleção", // Fixed 2025-11-29: Per RATIONALE line 145 - more natural than "selecionado"
         "lockObject": "Bloquear objeto",
 
         // Common keys
         "none": "Nenhum",
         "common.none": "Nenhum",
-    "none": "Nenhum",
         "allThemes": "Todos os temas",
-        "yourUploadedImagesWillAppearHere": "As suas imagens carregadas aparecerão aqui.",
+        "yourUploadedImagesWillAppearHere": "Suas imagens enviadas aparecerão aqui.", // Fixed 2025-11-29: BR Portuguese (no article "As") + "enviadas" per RATIONALE
 
         // Language Settings
         "languageSettings": "Configurações de idioma",
@@ -711,7 +707,7 @@ const translations = {
         "selectThemeToSeeBorders": "Selecione um tema para ver as bordas.",
 
         // Classroom Helpers
-        "classroomHelpers": "Auxiliares de sala de aula",
+        "classroomHelpers": "Recursos para sala de aula", // Fixed 2025-11-29: More natural BR Portuguese than formal "Auxiliares"
         "addNameField": "Adicionar \"Nome: ___\"",
         "addHandwritingLines": "Adicionar linhas de escrita",
 
@@ -723,7 +719,7 @@ const translations = {
         "brushSize": "Tamanho do pincel:",
 
         // Text Tools
-        "textTools": "Opções de texto", // Changed from "Ferramentas de texto"
+        "textTools": "Opções de texto", // Fixed 2025-11-29: Platform standard (2/2 Portuguese apps use this - Wordsearch, Addition)
         "addNewText": "Adicionar novo texto",
         "content": "Conteúdo:",
         "helloPlaceholder": "Olá!",
@@ -745,12 +741,12 @@ const translations = {
         "loadingImages": "Carregando imagens...",
 
         // Upload Custom Images
-        "uploadCustomImages": "Carregar imagens personalizadas",
-        "selectImagesToUpload": "Selecionar imagem(ns) para carregar:",
+        "uploadCustomImages": "Enviar imagens personalizadas", // Fixed 2025-11-29: Per RATIONALE line 242 - "Enviar" not "Carregar"
+        "selectImagesToUpload": "Selecionar imagem(ns) para enviar:", // Fixed 2025-11-29: Consistency with "Enviar"
         "chooseFiles": "Escolher arquivos",
         "noFileChosen": "Nenhum arquivo escolhido",
         "filesSelected": "{} arquivo(s) selecionado(s)",
-        "yourUploadedImagesClickToAdd": "Suas imagens carregadas (Clique para adicionar):",
+        "yourUploadedImagesClickToAdd": "Suas imagens enviadas (Clique para adicionar):", // Fixed 2025-11-29: "enviadas" per RATIONALE + BR Portuguese
 
         // Zoom & History Controls
         "zoomIn": "Aproximar",
@@ -762,7 +758,7 @@ const translations = {
         // Toolbar & Layer Controls
         "layers": "Camadas",
         "bringForward": "Trazer para frente",
-        "bringToFront": "Trazer para frente completo",
+        "bringToFront": "Trazer para frente do tudo", // Fixed 2025-11-29: More natural BR Portuguese than awkward "completo"
         "sendBackward": "Enviar para trás",
         "sendToBack": "Enviar para o fundo",
 
@@ -780,9 +776,9 @@ const translations = {
         "alignLeft": "Alinhar à esquerda",
         "centerHorizontally": "Centralizar horizontalmente",
         "alignRight": "Alinhar à direita",
-        "alignTop": "Alinhar no topo",
+        "alignTop": "Alinhar acima", // Fixed 2025-11-29: BR design software standard (Adobe BR uses "acima")
         "centerVertically": "Centralizar verticalmente",
-        "alignBottom": "Alinhar na base",
+        "alignBottom": "Alinhar abaixo", // Fixed 2025-11-29: BR design software standard (Adobe BR uses "abaixo")
         "alignToPage": "Alinhar à página:",
         "centerOnPageHorizontally": "Centralizar na página horizontalmente",
         "centerOnPageVertically": "Centralizar na página verticalmente"
@@ -790,14 +786,14 @@ const translations = {
 
     nl: {
         // Core UI Elements
-        "coloringPageDesigner": "Kleurplaat ontwerper",
-        "coloringDesigner": "Kleur ontwerper",
+        "coloringPageDesigner": "Kleurplaat Ontwerper", // Fixed: Capitalized per RATIONALE line 24-34
+        "coloringDesigner": "Kleurontwerper", // Fixed: Proper Dutch compound (short form)
         "download": "Downloaden",
         "downloadAsJPEG": "Downloaden als JPEG",
         "downloadAsPDF": "Downloaden als PDF",
         "grayscale": "Grijstinten",
         "clearAll": "Alles wissen",
-        "clearCanvasConfirmation": "Weet je zeker dat je het canvas permanent wilt wissen?",
+        "clearCanvasConfirmation": "Weet je zeker dat je het tekenvlak permanent wilt wissen?", // Fixed: "tekenvlak" instead of anglicism "canvas"
         "cancel": "Annuleren",
         "yesClear": "Ja, wissen",
         "opacity": "Dekking",
@@ -807,19 +803,18 @@ const translations = {
         // Common keys
         "none": "Geen",
         "common.none": "Geen",
-    "none": "Geen",
         "allThemes": "Alle thema's",
         "yourUploadedImagesWillAppearHere": "Je geüploade afbeeldingen verschijnen hier.",
 
         // Language Settings
         "languageSettings": "Taalinstellingen",
         "language": "Taal:",
-        "imageLibraryLanguage": "Afbeeldingenbibliotheek taal:",
+        "imageLibraryLanguage": "Afbeeldingenbibliotheek-taal:", // Fixed: Hyphenated compound for consistency
 
         // Page Setup
         "pageSetup": "Pagina-instelling",
         "pageDimensions": "Pagina-afmetingen",
-        "pageSize": "Paginagrootte:",
+        "pageSize": "Pagina-grootte:", // Fixed: Hyphen for consistency with other "Pagina-" compounds
         "letterPortrait": "Letter Staand (8,5×11\")",
         "letterLandscape": "Letter Liggend (11×8,5\")",
         "a4Portrait": "A4 Staand (210×297mm)",
@@ -829,7 +824,7 @@ const translations = {
         "widthPx": "Breedte (px):",
         "heightPx": "Hoogte (px):",
         "applySize": "Grootte toepassen",
-        "pageColor": "Paginakleur:",
+        "pageColor": "Pagina-kleur:", // Fixed: Hyphen for consistency with other "Pagina-" compounds
 
         // Border
         "border": "Rand",
@@ -837,19 +832,19 @@ const translations = {
         "selectThemeToSeeBorders": "Selecteer een thema om randen te zien.",
 
         // Classroom Helpers
-        "classroomHelpers": "Klaslokaal helpers",
+        "classroomHelpers": "Klaslokaal-helpers", // Fixed: Hyphenated compound (Dutch standard)
         "addNameField": "\"Naam: ___\" toevoegen",
         "addHandwritingLines": "Schrijflijnen toevoegen",
 
         // Drawing Tools
-        "drawingTools": "Tekengereedschappen",
+        "drawingTools": "Tekengereedschap", // Fixed: Singular per RATIONALE line 63-71 (no unnecessary plural)
         "selectTool": "Selectiegereedschap",
         "drawingTool": "Tekengereedschap",
         "brushColor": "Penseelkleur:",
         "brushSize": "Penseelgrootte:",
 
         // Text Tools
-        "textTools": "Tekstopties", // Changed from "Tekstgereedschappen"
+        "textTools": "Tekstgereedschappen", // Fixed: Per platform standard (professional tool context)
         "addNewText": "Nieuwe tekst toevoegen",
         "content": "Inhoud:",
         "helloPlaceholder": "Hallo!",
@@ -862,7 +857,7 @@ const translations = {
         "outlineWidth": "Omlijning (0-10):",
 
         // Image Library
-        "imageLibrary": "Afbeeldingsbibliotheek",
+        "imageLibrary": "Afbeeldingenbibliotheek", // Fixed: Plural per RATIONALE line 73-81 (friendlier)
         "selectTheme": "Thema selecteren:",
         "searchImages": "Afbeeldingen zoeken:",
         "searchPlaceholder": "bijv. appel, auto",
@@ -881,7 +876,7 @@ const translations = {
         // Zoom & History Controls
         "zoomIn": "Inzoomen",
         "zoomOut": "Uitzoomen",
-        "resetZoom": "Zoom resetten",
+        "resetZoom": "Zoom terugzetten", // Fixed: Per platform standard (avoids anglicism "resetten")
         "undo": "Ongedaan maken (Ctrl+Z)",
         "redo": "Opnieuw (Ctrl+Y)",
 
@@ -898,9 +893,9 @@ const translations = {
         "objectUnlocked": "Object ontgrendeld",
 
         // Flip & Align
-        "flip": "Omdraaien",
-        "flipHorizontal": "Horizontaal omdraaien",
-        "flipVertical": "Verticaal omdraaien",
+        "flip": "Spiegelen", // Fixed: Per RATIONALE line 217-221 (precise Dutch verb, not "Omdraaien")
+        "flipHorizontal": "Horizontaal spiegelen",
+        "flipVertical": "Verticaal spiegelen",
         "align": "Uitlijnen",
         "alignSelected": "Selectie uitlijnen:",
         "alignLeft": "Links uitlijnen",
@@ -916,8 +911,8 @@ const translations = {
 
     sv: {
         // Core UI Elements
-        "coloringPageDesigner": "Målarbok-designer",
-        "coloringDesigner": "Målar-designer",
+        "coloringPageDesigner": "Målarbladsdesigner", // Fixed 2025-11-30: Per RATIONALE - "Målarblad" is standard for coloring pages, natural Swedish compound
+        "coloringDesigner": "Målarbladsdesigner", // Fixed 2025-11-30: Consistency with main title (short form)
         "download": "Ladda ner",
         "downloadAsJPEG": "Ladda ner som JPEG",
         "downloadAsPDF": "Ladda ner som PDF",
@@ -926,7 +921,7 @@ const translations = {
         "clearCanvasConfirmation": "Är du säker på att du vill rensa duken permanent?",
         "cancel": "Avbryt",
         "yesClear": "Ja, rensa",
-        "opacity": "Opacitet",
+        "opacity": "Genomskinlighet", // Fixed 2025-11-30: Platform standard (user-friendly over technical "Opacitet")
         "deleteSelected": "Ta bort valt",
         "lockObject": "Lås objekt",
 
@@ -975,7 +970,7 @@ const translations = {
         "brushSize": "Penselstorlek:",
 
         // Text Tools
-        "textTools": "Textalternativ", // Changed from "Textverktyg"
+        "textTools": "Textverktyg", // Fixed 2025-11-30: Platform standard per Addition & Alphabet-Train RATIONALEs
         "addNewText": "Lägg till ny text",
         "content": "Innehåll:",
         "helloPlaceholder": "Hej!",
@@ -1016,7 +1011,7 @@ const translations = {
         "bringForward": "Flytta framåt",
         "bringToFront": "Flytta längst fram",
         "sendBackward": "Flytta bakåt",
-        "sendToBack": "Skicka längst bak",
+        "sendToBack": "Flytta längst bak", // Fixed 2025-11-30: Consistency with other layer commands (all use "Flytta")
 
         // Lock/Unlock
         "unlockObject": "Lås upp objekt",
@@ -1042,8 +1037,8 @@ const translations = {
 
     da: {
         // Core UI Elements
-        "coloringPageDesigner": "Farvelægningsside-designer",
-        "coloringDesigner": "Farvelægnings-designer",
+        "coloringPageDesigner": "Farvelægningsdesigner", // Fixed 2025-11-30: Per RATIONALE line 24 - natural Danish compound without "side-"
+        "coloringDesigner": "Farvelægningsdesigner", // Fixed 2025-11-30: Consistency with main title
         "download": "Download",
         "downloadAsJPEG": "Download som JPEG",
         "downloadAsPDF": "Download som PDF",
@@ -1052,7 +1047,7 @@ const translations = {
         "clearCanvasConfirmation": "Er du sikker på, at du vil slette lærredet permanent?",
         "cancel": "Annuller",
         "yesClear": "Ja, ryd",
-        "opacity": "Uigennemsigtighed",
+        "opacity": "Gennemsigtighed", // Fixed 2025-11-30: Per RATIONALE line 131 - user-friendly term
         "deleteSelected": "Slet valgte",
         "lockObject": "Lås objekt",
 
@@ -1168,17 +1163,17 @@ const translations = {
 
     no: {
         // Core UI Elements
-        "coloringPageDesigner": "Fargeark-designer",
-        "coloringDesigner": "Farge-designer",
+        "coloringPageDesigner": "Fargeleggingsdesigner", // Fixed 2025-11-30: Per RATIONALE line 24 - natural compound, "Fargelegging" is standard term
+        "coloringDesigner": "Fargeleggingsdesigner", // Fixed 2025-11-30: Consistency with main title
         "download": "Last ned",
         "downloadAsJPEG": "Last ned som JPEG",
         "downloadAsPDF": "Last ned som PDF",
         "grayscale": "Gråtoner",
-        "clearAll": "Slett alt",
+        "clearAll": "Tøm alt", // Fixed 2025-11-30: Per RATIONALE line 257 + Platform standard (Wordsearch, Addition, Alphabet-Train)
         "clearCanvasConfirmation": "Er du sikker på at du vil tømme lerretet permanent?",
         "cancel": "Avbryt",
         "yesClear": "Ja, tøm",
-        "opacity": "Ugjennomsiktighet",
+        "opacity": "Gjennomsiktighet", // Fixed 2025-11-30: Per RATIONALE line 131 + Platform standard (user-friendly). "Ugjennomsiktighet" was WRONG (opposite meaning)
         "deleteSelected": "Slett valgte",
         "lockObject": "Lås objekt",
 
@@ -1192,7 +1187,7 @@ const translations = {
         // Language Settings
         "languageSettings": "Språkinnstillinger",
         "language": "Språk:",
-        "imageLibraryLanguage": "Bildbiblioteksspråk:",
+        "imageLibraryLanguage": "Bildebiblioteksspråk:", // Fixed 2025-11-30: "Bilde" not "Bild" (correct Norwegian compound)
 
         // Page Setup
         "pageSetup": "Sideoppsett",
@@ -1203,7 +1198,7 @@ const translations = {
         "a4Portrait": "A4 Stående (210×297mm)",
         "a4Landscape": "A4 Liggende (297×210mm)",
         "square": "Kvadrat (1200x1200)",
-        "custom": "Tilpasset",
+        "custom": "Egendefinert", // Fixed 2025-11-30: Platform standard (Wordsearch, Addition, Alphabet-Train). "Egendefinert" is standard in Norwegian software
         "widthPx": "Bredde (px):",
         "heightPx": "Høyde (px):",
         "applySize": "Bruk størrelse",
@@ -1227,7 +1222,7 @@ const translations = {
         "brushSize": "Penselstørrelse:",
 
         // Text Tools
-        "textTools": "Tekstinnstillinger", // Changed from "Tekstverktøy"
+        "textTools": "Tekstverktøy", // Fixed 2025-11-30: Platform standard (Wordsearch, Addition, Alphabet-Train). Standard compound format
         "addNewText": "Legg til ny tekst",
         "content": "Innhold:",
         "helloPlaceholder": "Hei!",
@@ -1236,8 +1231,8 @@ const translations = {
         "color": "Farge:",
         "size": "Størrelse:",
         "font": "Skrifttype:",
-        "outlineColor": "Konturfarge:",
-        "outlineWidth": "Kontur (0-10):",
+        "outlineColor": "Omrissfarge:", // Fixed 2025-11-30: Platform standard "Omriss" not "Kontur" (Wordsearch, Addition, Alphabet-Train)
+        "outlineWidth": "Omriss (0-10):", // Fixed 2025-11-30: Platform standard "Omriss" not "Kontur"
 
         // Image Library
         "imageLibrary": "Bildebibliotek",
@@ -1249,7 +1244,7 @@ const translations = {
         "loadingImages": "Laster bilder...",
 
         // Upload Custom Images
-        "uploadCustomImages": "Last opp tilpassede bilder",
+        "uploadCustomImages": "Last opp egendefinerte bilder", // Fixed 2025-11-30: Consistency with "Egendefinert" (custom) platform standard
         "selectImagesToUpload": "Velg bilde(r) å laste opp:",
         "chooseFiles": "Velg filer",
         "noFileChosen": "Ingen fil valgt",
@@ -1266,9 +1261,9 @@ const translations = {
         // Toolbar & Layer Controls
         "layers": "Lag",
         "bringForward": "Flytt fremover",
-        "bringToFront": "Bring helt frem",
+        "bringToFront": "Flytt forrest", // Fixed 2025-11-30: Platform standard - use "Flytt" consistently (per Alphabet-Train)
         "sendBackward": "Flytt bakover",
-        "sendToBack": "Send helt bak",
+        "sendToBack": "Flytt bakerst", // Fixed 2025-11-30: Platform standard - use "Flytt" consistently (per Alphabet-Train)
 
         // Lock/Unlock
         "unlockObject": "Lås opp objekt",
@@ -1294,8 +1289,8 @@ const translations = {
 
     fi: {
         // Core UI Elements
-        "coloringPageDesigner": "Värityssivu-suunnittelija",
-        "coloringDesigner": "Väritys-suunnittelija",
+        "coloringPageDesigner": "Värityskuvasuunnittelija", // Fixed 2025-12-02: Per RATIONALE line 24 - "Värityskuva" is standard term, not "Värityssivu" (rejected line 33)
+        "coloringDesigner": "Värityskuvasuunnittelija", // Fixed 2025-12-02: Consistency with main title
         "download": "Lataa",
         "downloadAsJPEG": "Lataa JPEG-muodossa",
         "downloadAsPDF": "Lataa PDF-muodossa",
@@ -1304,7 +1299,7 @@ const translations = {
         "clearCanvasConfirmation": "Oletko varma, että haluat tyhjentää piirtoalustan pysyvästi?",
         "cancel": "Peruuta",
         "yesClear": "Kyllä, tyhjennä",
-        "opacity": "Peittävyys",
+        "opacity": "Läpinäkyvyys", // Fixed 2025-12-02: Per RATIONALE line 131 - "Läpinäkyvyys" is standard Finnish term for opacity
         "deleteSelected": "Poista valittu",
         "lockObject": "Lukitse objekti",
 
@@ -1336,9 +1331,9 @@ const translations = {
         "pageColor": "Sivun väri:",
 
         // Border
-        "border": "Reunus",
-        "borderTheme": "Reunuksen teema:",
-        "selectThemeToSeeBorders": "Valitse teema nähdäksesi reunukset.",
+        "border": "Kehys", // Fixed 2025-12-02: Per RATIONALE line 35 (CRITICAL) - "Kehys" is standard, "Reunus" explicitly rejected (line 42)
+        "borderTheme": "Kehyksen teema:", // Fixed 2025-12-02: Consistency with "Kehys"
+        "selectThemeToSeeBorders": "Valitse teema nähdäksesi kehykset.", // Fixed 2025-12-02: Consistency with "Kehys"
 
         // Classroom Helpers
         "classroomHelpers": "Luokkahuoneen apuvälineet",

@@ -150,9 +150,9 @@ const translations = {
     "message.cropNotSupported": "Cropping is not supported for this row type.",
     "message.noContentToCrop": "This row has no content to crop.",
     "message.noOverflow": "No overflow to crop.",
-    "message.generateContent": "Please generate content first.",
+    "message.generateContent": "Please create content first.",
     "message.pdfError": "Error creating PDF.",
-    "message.generateWorksheet": "Please generate a worksheet first.",
+    "message.generateWorksheet": "Please create a worksheet first.",
     "message.jpegError": "Error preparing JPEG.",
 
     // ===== 14. INFO/LOADING MESSAGES (10 items) =====
@@ -196,9 +196,9 @@ const translations = {
 
     // ===== 3. ACCORDION HEADERS (4 items) =====
     "settings.pageSetup": "Seiteneinrichtung",
-    "library.title": "Bilderbibliothek",
-    "library.uploadTitle": "Eigene Bilder Hochladen",
-    "settings.textTools": "Textbearbeitung",
+    "library.title": "Bildbibliothek",
+    "library.uploadTitle": "Eigene Bilder hochladen",
+    "settings.textTools": "Textwerkzeuge",
 
     // ===== 4. PAGE SETUP (14 items) =====
     "settings.pageSize": "Papierformat:",
@@ -211,9 +211,9 @@ const translations = {
     "settings.height": "Höhe (px):",
     "decoration.backgroundTheme": "Hintergrundthema:",
     "decoration.none": "Keines",
-    "decoration.backgroundOpacity": "Hintergrund-Deckkraft:",
+    "decoration.backgroundOpacity": "Hintergrund-Transparenz:",
     "decoration.borderTheme": "Rahmenthema:",
-    "decoration.borderOpacity": "Rahmen-Deckkraft:",
+    "decoration.borderOpacity": "Rahmen-Transparenz:",
     "decoration.background": "Hintergrund",
     "decoration.border": "Rahmen",
 
@@ -312,7 +312,7 @@ const translations = {
 
     // ===== 12. SUCCESS MESSAGES (5 items) =====
     "message.rowCropped": "Zeile erfolgreich zugeschnitten.",
-    "message.worksheetCleared": "Arbeitsblatt gelöscht.",
+    "message.worksheetCleared": "Arbeitsblatt zurückgesetzt.",
     "message.pdfDownloaded": "PDF heruntergeladen!",
     "message.jpegDownloaded": "JPEG-Download gestartet!",
 
@@ -338,7 +338,7 @@ const translations = {
     "message.preparingJpeg": "JPEG wird vorbereitet...",
 
     // ===== 15. CONFIRM/PROMPT MESSAGES (1 item) =====
-    "message.confirmClear": "Möchten Sie das Arbeitsblatt wirklich löschen? Dies kann nicht rückgängig gemacht werden.",
+    "message.confirmClear": "Möchten Sie das Arbeitsblatt wirklich zurücksetzen? Dies kann nicht rückgängig gemacht werden.",
 
     // ===== 16. WATERMARKS (2 items) =====
     "watermark.free": "KOSTENLOSE VERSION - LessonCraftStudio.com",
@@ -348,7 +348,7 @@ const translations = {
   fr: {
     // ===== 1. PAGE & HERO (2 items) =====
     "page.title": "Générateur d'Exercices d'Écriture",
-    "settings.title": "Feuille d'Exercices d'Écriture",
+    "settings.title": "Fiche d'Exercices d'Écriture",
 
     // ===== 2. LANGUAGE SECTION (12 items) =====
     "settings.languageLabel": "Langue :",
@@ -367,7 +367,7 @@ const translations = {
     // ===== 3. ACCORDION HEADERS (4 items) =====
     "settings.pageSetup": "Configuration de la Page",
     "library.title": "Bibliothèque d'Images",
-    "library.uploadTitle": "Télécharger Vos Images",
+    "library.uploadTitle": "Ajouter Vos Images",
     "settings.textTools": "Options de texte",
 
     // ===== 4. PAGE SETUP (14 items) =====
@@ -381,9 +381,9 @@ const translations = {
     "settings.height": "Hauteur (px) :",
     "decoration.backgroundTheme": "Thème de Fond :",
     "decoration.none": "Aucun",
-    "decoration.backgroundOpacity": "Opacité du Fond :",
+    "decoration.backgroundOpacity": "Transparence du Fond :",
     "decoration.borderTheme": "Thème de Bordure :",
-    "decoration.borderOpacity": "Opacité de la Bordure :",
+    "decoration.borderOpacity": "Transparence de la Bordure :",
     "decoration.background": "Arrière-plan",
     "decoration.border": "Bordure",
 
@@ -429,11 +429,11 @@ const translations = {
     "library.allThemes": "Tous les Thèmes",
     "library.searchPlaceholder": "Rechercher des images...",
     "library.selectedStatus": "Sélectionné : {word}",
-    "library.selectUpload": "Sélectionner image(s) à télécharger :",
+    "library.selectUpload": "Sélectionner image(s) à ajouter :",
     "library.chooseFiles": "Choisir des fichiers",
     "library.noFileChosen": "Aucun fichier choisi",
     "library.filesSelected": "{x} fichier(s) sélectionné(s)",
-    "library.uploadedImages": "Vos Images Téléchargées :",
+    "library.uploadedImages": "Vos Images Ajoutées :",
     "button.unselectImage": "Désélectionner l'Image",
     "button.clearSelection": "Effacer la Sélection",
     "button.addSelectedImage": "Ajouter l'Image Sélectionnée",
@@ -442,12 +442,12 @@ const translations = {
     "text.addNewTitle": "Ajouter un Nouveau Texte",
     "text.content": "Contenu :",
     "text.placeholder": "Nouveau Texte",
-    "text.selectedProperties": "Propriétés du Texte Sélectionné",
+    "text.selectedProperties": "Propriétés du texte sélectionné",
     "text.color": "Couleur :",
     "text.size": "Taille :",
     "text.font": "Police :",
-    "text.outlineColor": "Couleur du Contour :",
-    "text.outlineWidth": "Contour (0-10) :",
+    "text.outlineColor": "Couleur du contour :",
+    "text.outlineWidth": "Épaisseur du contour (0-10) :",
 
     // ===== 10. TOOLBAR (14 items) =====
     "toolbar.bringForward": "Mettre au Premier Plan",
@@ -482,7 +482,7 @@ const translations = {
 
     // ===== 12. SUCCESS MESSAGES (5 items) =====
     "message.rowCropped": "Ligne recadrée avec succès.",
-    "message.worksheetCleared": "Feuille d'exercices effacée.",
+    "message.worksheetCleared": "Fiche d'exercices effacée.",
     "message.pdfDownloaded": "PDF téléchargé !",
     "message.jpegDownloaded": "Téléchargement JPEG lancé !",
 
@@ -490,9 +490,9 @@ const translations = {
     "message.cropNotSupported": "Le recadrage n'est pas pris en charge pour ce type de ligne.",
     "message.noContentToCrop": "Cette ligne n'a pas de contenu à recadrer.",
     "message.noOverflow": "Aucun débordement à recadrer.",
-    "message.generateContent": "Veuillez d'abord générer du contenu.",
+    "message.generateContent": "Veuillez d'abord créer du contenu.",
     "message.pdfError": "Erreur lors de la création du PDF.",
-    "message.generateWorksheet": "Veuillez d'abord générer une feuille d'exercices.",
+    "message.generateWorksheet": "Veuillez d'abord créer une fiche d'exercices.",
     "message.jpegError": "Erreur lors de la préparation du JPEG.",
 
     // ===== 14. INFO/LOADING MESSAGES (10 items) =====
@@ -508,7 +508,7 @@ const translations = {
     "message.preparingJpeg": "Préparation du JPEG...",
 
     // ===== 15. CONFIRM/PROMPT MESSAGES (1 item) =====
-    "message.confirmClear": "Êtes-vous sûr de vouloir effacer la feuille d'exercices ? Cette action ne peut pas être annulée.",
+    "message.confirmClear": "Êtes-vous sûr de vouloir effacer la fiche d'exercices ? Cette action ne peut pas être annulée.",
 
     // ===== 16. WATERMARKS (2 items) =====
     "watermark.free": "VERSION GRATUITE - LessonCraftStudio.com",
@@ -518,7 +518,7 @@ const translations = {
   es: {
     // ===== 1. PAGE & HERO (2 items) =====
     "page.title": "Generador de Ejercicios de Escritura",
-    "settings.title": "Hoja de Ejercicios de Escritura",
+    "settings.title": "Ficha de Trabajo de Escritura",
 
     // ===== 2. LANGUAGE SECTION (12 items) =====
     "settings.languageLabel": "Idioma:",
@@ -537,8 +537,8 @@ const translations = {
     // ===== 3. ACCORDION HEADERS (4 items) =====
     "settings.pageSetup": "Configuración de Página",
     "library.title": "Biblioteca de Imágenes",
-    "library.uploadTitle": "Subir Imágenes Propias",
-    "settings.textTools": "Opciones de texto",
+    "library.uploadTitle": "Subir Imágenes Personalizadas",
+    "settings.textTools": "Herramientas de Texto",
 
     // ===== 4. PAGE SETUP (14 items) =====
     "settings.pageSize": "Tamaño de Página:",
@@ -551,9 +551,9 @@ const translations = {
     "settings.height": "Alto (px):",
     "decoration.backgroundTheme": "Tema de Fondo:",
     "decoration.none": "Ninguno",
-    "decoration.backgroundOpacity": "Opacidad del Fondo:",
+    "decoration.backgroundOpacity": "Transparencia del Fondo:",
     "decoration.borderTheme": "Tema del Marco:",
-    "decoration.borderOpacity": "Opacidad del Marco:",
+    "decoration.borderOpacity": "Transparencia del Marco:",
     "decoration.background": "Fondo",
     "decoration.border": "Borde",
 
@@ -652,7 +652,7 @@ const translations = {
 
     // ===== 12. SUCCESS MESSAGES (5 items) =====
     "message.rowCropped": "Línea recortada con éxito.",
-    "message.worksheetCleared": "Hoja de ejercicios borrada.",
+    "message.worksheetCleared": "Ficha de trabajo borrada.",
     "message.pdfDownloaded": "¡PDF descargado!",
     "message.jpegDownloaded": "¡Descarga JPEG iniciada!",
 
@@ -660,9 +660,9 @@ const translations = {
     "message.cropNotSupported": "El recorte no está disponible para este tipo de línea.",
     "message.noContentToCrop": "Esta línea no tiene contenido para recortar.",
     "message.noOverflow": "No hay desbordamiento para recortar.",
-    "message.generateContent": "Por favor, primero genere contenido.",
+    "message.generateContent": "Por favor, primero cree contenido.",
     "message.pdfError": "Error al crear el PDF.",
-    "message.generateWorksheet": "Por favor, primero genere una hoja de ejercicios.",
+    "message.generateWorksheet": "Por favor, primero cree una ficha de trabajo.",
     "message.jpegError": "Error al preparar el JPEG.",
 
     // ===== 14. INFO/LOADING MESSAGES (10 items) =====
@@ -678,7 +678,7 @@ const translations = {
     "message.preparingJpeg": "Preparando JPEG...",
 
     // ===== 15. CONFIRM/PROMPT MESSAGES (1 item) =====
-    "message.confirmClear": "¿Está seguro de que desea borrar la hoja de ejercicios? Esta acción no se puede deshacer.",
+    "message.confirmClear": "¿Está seguro de que desea borrar la ficha de trabajo? Esta acción no se puede deshacer.",
 
     // ===== 16. WATERMARKS (2 items) =====
     "watermark.free": "VERSIÓN GRATUITA - LessonCraftStudio.com",
@@ -687,7 +687,7 @@ const translations = {
 
   it: {
     // ===== 1. PAGE & HERO (2 items) =====
-    "page.title": "Creatore di Schede di Scrittura",
+    "page.title": "Generatore di Schede di Scrittura",
     "settings.title": "Scheda di Scrittura",
 
     // ===== 2. LANGUAGE SECTION (12 items) =====
@@ -708,7 +708,7 @@ const translations = {
     "settings.pageSetup": "Impostazione Pagina",
     "library.title": "Raccolta Immagini",
     "library.uploadTitle": "Carica le Tue Immagini",
-    "settings.textTools": "Opzioni di testo",
+    "settings.textTools": "Strumenti di Testo",
 
     // ===== 4. PAGE SETUP (14 items) =====
     "settings.pageSize": "Formato Pagina:",
@@ -766,9 +766,13 @@ const translations = {
     "imageMode.exercise": "Immagine di Esercizio",
     "imageMode.custom": "Immagini Personalizzate",
     "library.pickExercise": "Scegli un'immagine di esercizio (opzionale):",
+    "library.allThemes": "Tutti i Temi",
     "library.searchPlaceholder": "Cerca immagini...",
     "library.selectedStatus": "Selezionato: {word}",
     "library.selectUpload": "Seleziona immagine/i da caricare:",
+    "library.chooseFiles": "Scegli File",
+    "library.noFileChosen": "Nessun file scelto",
+    "library.filesSelected": "{x} file selezionati",
     "library.uploadedImages": "Le Tue Immagini Caricate:",
     "button.unselectImage": "Deseleziona Immagine",
     "button.clearSelection": "Cancella Selezione",
@@ -872,8 +876,8 @@ const translations = {
     // ===== 3. ACCORDION HEADERS (4 items) =====
     "settings.pageSetup": "Configuração da Página",
     "library.title": "Biblioteca de Imagens",
-    "library.uploadTitle": "Carregar Imagens Personalizadas",
-    "settings.textTools": "Opções de texto",
+    "library.uploadTitle": "Enviar Imagens Personalizadas",
+    "settings.textTools": "Ferramentas de texto",
 
     // ===== 4. PAGE SETUP (14 items) =====
     "settings.pageSize": "Tamanho da Página:",
@@ -886,9 +890,9 @@ const translations = {
     "settings.height": "Altura (px):",
     "decoration.backgroundTheme": "Tema de Fundo:",
     "decoration.none": "Nenhum",
-    "decoration.backgroundOpacity": "Opacidade do Fundo:",
-    "decoration.borderTheme": "Tema de Moldura:",
-    "decoration.borderOpacity": "Opacidade da Moldura:",
+    "decoration.backgroundOpacity": "Transparência do Fundo:",
+    "decoration.borderTheme": "Tema de Borda:",
+    "decoration.borderOpacity": "Transparência da Borda:",
     "decoration.background": "Fundo",
     "decoration.border": "Borda",
 
@@ -908,13 +912,13 @@ const translations = {
     "row.content": "Conteúdo:",
     "content.empty": "Vazio",
     "content.beginningLetter": "Letra Inicial",
-    "content.wholeFileName": "Nome Completo do Ficheiro",
+    "content.wholeFileName": "Nome Completo do Arquivo",
     "content.customText": "Texto Personalizado",
     "content.preWriting": "Grafismo",
-    "row.customTextPlaceholder": "Introduza o texto para traçar...",
+    "row.customTextPlaceholder": "Digite o texto para traçar...",
 
     // ===== 6. CASE OPTIONS (4 items) =====
-    "row.case": "Tipo de Letra:",
+    "row.case": "Formato:",
     "case.uppercase": "Maiúsculas",
     "case.lowercase": "Minúsculas",
     "case.titleCase": "Inicial Maiúscula",
@@ -933,8 +937,8 @@ const translations = {
     "library.pickExercise": "Escolha uma imagem de exercício (opcional):",
     "library.searchPlaceholder": "Pesquisar imagens...",
     "library.selectedStatus": "Selecionado: {word}",
-    "library.selectUpload": "Selecionar imagem(ns) para carregar:",
-    "library.uploadedImages": "As Suas Imagens Carregadas:",
+    "library.selectUpload": "Selecionar imagem(ns) para enviar:",
+    "library.uploadedImages": "Suas Imagens Enviadas:",
     "button.unselectImage": "Desselecionar Imagem",
     "button.clearSelection": "Limpar Seleção",
     "button.addSelectedImage": "Adicionar Imagem Selecionada",
@@ -946,7 +950,7 @@ const translations = {
     "text.selectedProperties": "Propriedades do Texto Selecionado",
     "text.color": "Cor:",
     "text.size": "Tamanho:",
-    "text.font": "Tipo de Letra:",
+    "text.font": "Fonte:",
     "text.outlineColor": "Cor do Contorno:",
     "text.outlineWidth": "Contorno (0-10):",
 
@@ -965,56 +969,56 @@ const translations = {
     "toolbar.cropOverflow": "Recortar Excesso",
     "toolbar.lock": "Bloquear",
     "toolbar.unlock": "Desbloquear",
-    "toolbar.delete": "Eliminar",
+    "toolbar.delete": "Excluir",
     "toolbar.zoomIn": "Ampliar",
     "toolbar.zoomOut": "Reduzir",
     "toolbar.resetZoom": "Redefinir Zoom",
 
     // ===== 11. ACTION BUTTONS (10 items) =====
-    "button.deleteRow": "Eliminar Linha",
+    "button.deleteRow": "Excluir Linha",
     "button.addRow": "Adicionar Linha",
     "button.addText": "Adicionar Texto à Ficha",
-    "button.deleteSelectedText": "Eliminar Texto Selecionado",
-    "button.download": "Transferir",
-    "button.downloadPdf": "Transferir como PDF",
-    "button.downloadJpeg": "Transferir como JPEG",
+    "button.deleteSelectedText": "Excluir Texto Selecionado",
+    "button.download": "Baixar",
+    "button.downloadPdf": "Baixar como PDF",
+    "button.downloadJpeg": "Baixar como JPEG",
     "settings.grayscale": "Escala de Cinzentos",
     "button.clearAll": "Limpar Tudo",
 
     // ===== 12. SUCCESS MESSAGES (5 items) =====
     "message.rowCropped": "Linha recortada com sucesso.",
     "message.worksheetCleared": "Ficha limpa.",
-    "message.pdfDownloaded": "PDF transferido!",
-    "message.jpegDownloaded": "Transferência JPEG iniciada!",
+    "message.pdfDownloaded": "PDF baixado!",
+    "message.jpegDownloaded": "Download JPEG iniciado!",
 
     // ===== 13. ERROR MESSAGES (7 items) =====
-    "message.cropNotSupported": "O recorte não é suportado para este tipo de linha.",
+    "message.cropNotSupported": "O recorte não é compatível com este tipo de linha.",
     "message.noContentToCrop": "Esta linha não tem conteúdo para recortar.",
     "message.noOverflow": "Não há excesso para recortar.",
-    "message.generateContent": "Por favor, gere primeiro o conteúdo.",
+    "message.generateContent": "Por favor, crie primeiro o conteúdo.",
     "message.pdfError": "Erro ao criar o PDF.",
-    "message.generateWorksheet": "Por favor, gere primeiro uma ficha.",
+    "message.generateWorksheet": "Por favor, crie primeiro uma ficha.",
     "message.jpegError": "Erro ao preparar o JPEG.",
 
     // ===== 14. INFO/LOADING MESSAGES (10 items) =====
     "message.selectBackgroundTheme": "Selecione um tema para os fundos.",
-    "message.selectBorderTheme": "Selecione um tema para as molduras.",
+    "message.selectBorderTheme": "Selecione um tema para as bordas.",
     "message.noImages": "Nenhuma imagem encontrada. Selecione um tema ou tente outra pesquisa.",
     "message.themeLoadError": "Erro ao carregar os temas de {type}:",
     "message.selectTheme": "Selecione um tema.",
-    "message.loading": "A carregar...",
+    "message.loading": "Carregando...",
     "message.loadError": "Erro ao carregar {type}.",
-    "message.preparingPdf": "A preparar PDF...",
-    "message.preparingJpeg": "A preparar JPEG...",
+    "message.preparingPdf": "Preparando PDF...",
+    "message.preparingJpeg": "Preparando JPEG...",
 
     // ===== 15. CONFIRM/PROMPT MESSAGES (1 item) =====
-    "message.confirmClear": "Tem a certeza de que deseja limpar a ficha? Esta ação não pode ser anulada.",
+    "message.confirmClear": "Tem certeza de que deseja limpar a ficha? Esta ação não pode ser anulada.",
 
     // ===== 16. WATERMARKS (2 items) =====
     "watermark.free": "VERSÃO GRATUITA - LessonCraftStudio.com",
     "watermark.freeShort": "VERSÃO GRATUITA",
     "library.allThemes": "Todos os Temas",
-    "library.chooseFiles": "Escolher arquivos",
+    "library.chooseFiles": "Selecionar imagens",
     "library.noFileChosen": "Nenhum arquivo escolhido",
     "library.filesSelected": "{x} arquivo(s) selecionado(s)",
     "message.selectImageToInclude": "Por favor, selecione uma imagem para incluir.",
@@ -1041,9 +1045,9 @@ const translations = {
 
     // ===== 3. ACCORDION HEADERS (4 items) =====
     "settings.pageSetup": "Pagina-instellingen",
-    "library.title": "Afbeeldingen Bibliotheek",
+    "library.title": "Afbeeldingenbibliotheek",
     "library.uploadTitle": "Eigen Afbeeldingen Uploaden",
-    "settings.textTools": "Tekstopties",
+    "settings.textTools": "Tekstgereedschappen",
 
     // ===== 4. PAGE SETUP (14 items) =====
     "settings.pageSize": "Paginaformaat:",
@@ -1084,7 +1088,7 @@ const translations = {
     "row.customTextPlaceholder": "Voer tekst in om over te trekken...",
 
     // ===== 6. CASE OPTIONS (4 items) =====
-    "row.case": "Lettertype:",
+    "row.case": "Letters:",
     "case.uppercase": "Hoofdletters",
     "case.lowercase": "Kleine Letters",
     "case.titleCase": "Beginhoofdletter",
@@ -1117,7 +1121,7 @@ const translations = {
     "text.color": "Kleur:",
     "text.size": "Grootte:",
     "text.font": "Lettertype:",
-    "text.outlineColor": "Omlijning Kleur:",
+    "text.outlineColor": "Omlijningskleur:",
     "text.outlineWidth": "Omlijning (0-10):",
 
     // ===== 10. TOOLBAR (14 items) =====
@@ -1161,9 +1165,9 @@ const translations = {
     "message.cropNotSupported": "Bijsnijden wordt niet ondersteund voor dit regeltype.",
     "message.noContentToCrop": "Deze regel heeft geen inhoud om bij te snijden.",
     "message.noOverflow": "Geen overloop om bij te snijden.",
-    "message.generateContent": "Genereer eerst de inhoud.",
+    "message.generateContent": "Maak eerst de inhoud.",
     "message.pdfError": "Fout bij het maken van de PDF.",
-    "message.generateWorksheet": "Genereer eerst een werkblad.",
+    "message.generateWorksheet": "Maak eerst een werkblad.",
     "message.jpegError": "Fout bij het voorbereiden van de JPEG.",
 
     // ===== 14. INFO/LOADING MESSAGES (10 items) =====
@@ -1193,7 +1197,7 @@ const translations = {
   sv: {
     // ===== 1. PAGE & HERO (2 items) =====
     "page.title": "Skrivövningar Generator",
-    "settings.title": "Skrivarbetsblad",
+    "settings.title": "Skrivövningsblad",
 
     // ===== 2. LANGUAGE SECTION (12 items) =====
     "settings.languageLabel": "Språk:",
@@ -1212,8 +1216,8 @@ const translations = {
     // ===== 3. ACCORDION HEADERS (4 items) =====
     "settings.pageSetup": "Sidinställningar",
     "library.title": "Bildbibliotek",
-    "library.uploadTitle": "Ladda upp Egna Bilder",
-    "settings.textTools": "Textalternativ",
+    "library.uploadTitle": "Ladda upp egna bilder", // Fixed: Sentence case per Swedish platform standard (2025-11-30)
+    "settings.textTools": "Textverktyg", // Fixed: Platform standard "Textverktyg" per RATIONALE (2025-11-30)
 
     // ===== 4. PAGE SETUP (14 items) =====
     "settings.pageSize": "Sidstorlek:",
@@ -1226,104 +1230,104 @@ const translations = {
     "settings.height": "Höjd (px):",
     "decoration.backgroundTheme": "Bakgrundstema:",
     "decoration.none": "Ingen",
-    "decoration.backgroundOpacity": "Bakgrundsopacitet:",
+    "decoration.backgroundOpacity": "Bakgrundsgenomskinlighet:", // Fixed: Platform standard "Genomskinlighet" per RATIONALE (2025-11-30)
     "decoration.borderTheme": "Ramtema:",
-    "decoration.borderOpacity": "Ramopacitet:",
+    "decoration.borderOpacity": "Ramgenomskinlighet:", // Fixed: Platform standard "Genomskinlighet" per RATIONALE (2025-11-30)
     "decoration.background": "Bakgrund",
     "decoration.border": "Kant",
 
-    // ===== 5. WRITING ROW CONFIGURATION (19 items) =====
+    // ===== 5. WRITING ROW CONFIGURATION (19 items) ===== // Fixed: All sentence case per Swedish platform standard (2025-11-30)
     "row.title": "Rad {number}",
     "row.type": "Radtyp:",
-    "rowType.trace": "Skriva Över",
-    "rowType.fadingTrace": "Gradvis Överskrivning",
-    "rowType.guidedCopy": "Guidad Avskrivning",
-    "rowType.fill": "Fylla I",
+    "rowType.trace": "Skriva över",
+    "rowType.fadingTrace": "Gradvis överskrivning",
+    "rowType.guidedCopy": "Guidad avskrivning",
+    "rowType.fill": "Fylla i",
     "row.fontStyle": "Skrivstil:",
     "fontStyle.printRegular": "Textning",
-    "fontStyle.printRegularArrow": "Textning med Pilar",
-    "fontStyle.printTracing": "Textning för Överskrivning",
-    "fontStyle.printTracingArrow": "Textning för Överskrivning med Pilar",
+    "fontStyle.printRegularArrow": "Textning med pilar",
+    "fontStyle.printTracing": "Textning för överskrivning",
+    "fontStyle.printTracingArrow": "Textning för överskrivning med pilar",
     "fontStyle.cursive": "Skrivstil",
     "row.content": "Innehåll:",
     "content.empty": "Tom",
     "content.beginningLetter": "Begynnelsebokstav",
-    "content.wholeFileName": "Hela Filnamnet",
-    "content.customText": "Egen Text",
-    "content.preWriting": "Förberedande Skrivning",
+    "content.wholeFileName": "Hela filnamnet",
+    "content.customText": "Egen text",
+    "content.preWriting": "Förberedande skrivning",
     "row.customTextPlaceholder": "Skriv in text att skriva över...",
 
-    // ===== 6. CASE OPTIONS (4 items) =====
+    // ===== 6. CASE OPTIONS (4 items) ===== // Fixed: Sentence case per Swedish standard (2025-11-30)
     "row.case": "Bokstavstyp:",
     "case.uppercase": "Versaler",
     "case.lowercase": "Gemener",
-    "case.titleCase": "Inledande Versal",
+    "case.titleCase": "Inledande versal",
 
-    // ===== 7. STROKE TYPES (5 items) =====
+    // ===== 7. STROKE TYPES (5 items) ===== // Fixed: Sentence case per Swedish standard (2025-11-30)
     "row.strokeType": "Strecktyp:",
-    "stroke.vertical": "Lodrät Linje",
-    "stroke.horizontal": "Vågrät Linje",
+    "stroke.vertical": "Lodrät linje",
+    "stroke.horizontal": "Vågrät linje",
     "stroke.circle": "Cirkel",
     "stroke.zigzag": "Sicksacklinje",
 
-    // ===== 8. IMAGE LIBRARY (14 items) =====
+    // ===== 8. IMAGE LIBRARY (14 items) ===== // Fixed: Sentence case per Swedish standard (2025-11-30)
     "library.imageMode": "Bildläge:",
     "imageMode.exercise": "Övningsbild",
-    "imageMode.custom": "Egna Bilder",
+    "imageMode.custom": "Egna bilder",
     "library.pickExercise": "Välj en övningsbild (valfritt):",
     "library.searchPlaceholder": "Sök bilder...",
     "library.selectedStatus": "Vald: {word}",
     "library.selectUpload": "Välj bild(er) att ladda upp:",
-    "library.uploadedImages": "Dina Uppladdade Bilder:",
-    "button.unselectImage": "Avmarkera Bild",
-    "button.clearSelection": "Rensa Val",
-    "button.addSelectedImage": "Lägg Till Vald Bild",
+    "library.uploadedImages": "Dina uppladdade bilder:", // Fixed: Sentence case per Swedish standard (2025-11-30)
+    "button.unselectImage": "Avmarkera bild", // Fixed: Sentence case per Swedish standard (2025-11-30)
+    "button.clearSelection": "Rensa val", // Fixed: Sentence case per Swedish standard (2025-11-30)
+    "button.addSelectedImage": "Lägg till vald bild", // Fixed: Sentence case per Swedish platform standard (2025-11-30)
 
     // ===== 9. TEXT TOOLS (9 items) =====
-    "text.addNewTitle": "Lägg Till Ny Text",
+    "text.addNewTitle": "Lägg till ny text", // Fixed: Sentence case per Swedish platform standard (2025-11-30)
     "text.content": "Innehåll:",
-    "text.placeholder": "Ny Text",
-    "text.selectedProperties": "Egenskaper för Markerad Text",
+    "text.placeholder": "Ny text", // Fixed: Sentence case (2025-11-30)
+    "text.selectedProperties": "Egenskaper för markerad text", // Fixed: Sentence case (2025-11-30)
     "text.color": "Färg:",
     "text.size": "Storlek:",
     "text.font": "Typsnitt:",
     "text.outlineColor": "Konturfärg:",
     "text.outlineWidth": "Kontur (0-10):",
 
-    // ===== 10. TOOLBAR (14 items) =====
-    "toolbar.bringForward": "Flytta Framåt",
-    "toolbar.sendBackward": "Flytta Bakåt",
+    // ===== 10. TOOLBAR (14 items) ===== // Fixed: All sentence case per Swedish platform standard (2025-11-30)
+    "toolbar.bringForward": "Flytta framåt",
+    "toolbar.sendBackward": "Flytta bakåt",
     "toolbar.align": "Justera",
     "toolbar.alignLeft": "Vänsterjustera",
-    "toolbar.centerH": "Centrera Horisontellt",
+    "toolbar.centerH": "Centrera horisontellt",
     "toolbar.alignRight": "Högerjustera",
-    "toolbar.alignTop": "Justera Upptill",
-    "toolbar.centerV": "Centrera Vertikalt",
-    "toolbar.alignBottom": "Justera Nedtill",
-    "toolbar.centerPageH": "Centrera på Sidan Horisontellt",
-    "toolbar.centerPageV": "Centrera på Sidan Vertikalt",
-    "toolbar.cropOverflow": "Beskär Överflöd",
+    "toolbar.alignTop": "Justera upptill",
+    "toolbar.centerV": "Centrera vertikalt",
+    "toolbar.alignBottom": "Justera nedtill",
+    "toolbar.centerPageH": "Centrera på sidan horisontellt",
+    "toolbar.centerPageV": "Centrera på sidan vertikalt",
+    "toolbar.cropOverflow": "Beskär överflöd",
     "toolbar.lock": "Lås",
-    "toolbar.unlock": "Lås Upp",
-    "toolbar.delete": "Ta Bort",
-    "toolbar.zoomIn": "Zooma In",
-    "toolbar.zoomOut": "Zooma Ut",
-    "toolbar.resetZoom": "Återställ Zoom",
+    "toolbar.unlock": "Lås upp",
+    "toolbar.delete": "Ta bort",
+    "toolbar.zoomIn": "Zooma in",
+    "toolbar.zoomOut": "Zooma ut",
+    "toolbar.resetZoom": "Återställ zoom",
 
-    // ===== 11. ACTION BUTTONS (10 items) =====
-    "button.deleteRow": "Ta Bort Rad",
-    "button.addRow": "Lägg Till Rad",
-    "button.addText": "Lägg Till Text på Arbetsbladet",
-    "button.deleteSelectedText": "Ta Bort Markerad Text",
-    "button.download": "Ladda Ner",
-    "button.downloadPdf": "Ladda Ner som PDF",
-    "button.downloadJpeg": "Ladda Ner som JPEG",
+    // ===== 11. ACTION BUTTONS (10 items) ===== // Fixed: All sentence case per Swedish platform standard (2025-11-30)
+    "button.deleteRow": "Ta bort rad",
+    "button.addRow": "Lägg till rad",
+    "button.addText": "Lägg till text på övningsbladet",
+    "button.deleteSelectedText": "Ta bort markerad text",
+    "button.download": "Ladda ner",
+    "button.downloadPdf": "Ladda ner som PDF",
+    "button.downloadJpeg": "Ladda ner som JPEG",
     "settings.grayscale": "Gråskala",
-    "button.clearAll": "Rensa Allt",
+    "button.clearAll": "Rensa allt",
 
     // ===== 12. SUCCESS MESSAGES (5 items) =====
     "message.rowCropped": "Raden har beskurits.",
-    "message.worksheetCleared": "Arbetsbladet har rensats.",
+    "message.worksheetCleared": "Övningsbladet har rensats.",
     "message.pdfDownloaded": "PDF nedladdad!",
     "message.jpegDownloaded": "JPEG-nedladdning påbörjad!",
 
@@ -1333,7 +1337,7 @@ const translations = {
     "message.noOverflow": "Inget överflöd att beskära.",
     "message.generateContent": "Vänligen skapa innehåll först.",
     "message.pdfError": "Fel vid skapande av PDF.",
-    "message.generateWorksheet": "Vänligen skapa ett arbetsblad först.",
+    "message.generateWorksheet": "Vänligen skapa ett övningsblad först.",
     "message.jpegError": "Fel vid förberedelse av JPEG.",
 
     // ===== 14. INFO/LOADING MESSAGES (10 items) =====
@@ -1348,12 +1352,12 @@ const translations = {
     "message.preparingJpeg": "Förbereder JPEG...",
 
     // ===== 15. CONFIRM/PROMPT MESSAGES (1 item) =====
-    "message.confirmClear": "Är du säker på att du vill rensa arbetsbladet? Detta kan inte ångras.",
+    "message.confirmClear": "Är du säker på att du vill rensa övningsbladet? Detta kan inte ångras.",
 
     // ===== 16. WATERMARKS (2 items) =====
     "watermark.free": "GRATISVERSION - LessonCraftStudio.com",
     "watermark.freeShort": "GRATISVERSION",
-    "library.allThemes": "Alla Teman",
+    "library.allThemes": "Alla teman", // Fixed: Sentence case per Swedish standard (2025-11-30)
     "library.chooseFiles": "Välj filer",
     "library.noFileChosen": "Ingen fil vald",
     "library.filesSelected": "{x} fil(er) valda",
@@ -1383,7 +1387,7 @@ const translations = {
     "settings.pageSetup": "Sideopsætning",
     "library.title": "Billedbibliotek",
     "library.uploadTitle": "Upload Egne Billeder",
-    "settings.textTools": "Tekstindstillinger",
+    "settings.textTools": "Tekstværktøjer", // Fixed: Platform standard "Tekstværktøjer" per RATIONALE (2025-11-30)
 
     // ===== 4. PAGE SETUP (14 items) =====
     "settings.pageSize": "Sidestørrelse:",
@@ -1396,9 +1400,9 @@ const translations = {
     "settings.height": "Højde (px):",
     "decoration.backgroundTheme": "Baggrundstema:",
     "decoration.none": "Ingen",
-    "decoration.backgroundOpacity": "Baggrundsdekning:",
+    "decoration.backgroundOpacity": "Baggrundsgennemsigtighed:",
     "decoration.borderTheme": "Rammetema:",
-    "decoration.borderOpacity": "Rammedekning:",
+    "decoration.borderOpacity": "Rammegennemsigtighed:",
     "decoration.background": "Baggrund",
     "decoration.border": "Ramme",
 
@@ -1551,9 +1555,9 @@ const translations = {
 
     // ===== 3. ACCORDION HEADERS (4 items) =====
     "settings.pageSetup": "Sideoppsett",
-    "library.title": "Bildebibliotek",
+    "library.title": "Bildesamling", // Platform standard (warmer, more accessible than "Bildebibliotek")
     "library.uploadTitle": "Last Opp Egne Bilder",
-    "settings.textTools": "Tekstinnstillinger",
+    "settings.textTools": "Tekstverktøy",
 
     // ===== 4. PAGE SETUP (14 items) =====
     "settings.pageSize": "Sidestørrelse:",
@@ -1566,9 +1570,9 @@ const translations = {
     "settings.height": "Høyde (px):",
     "decoration.backgroundTheme": "Bakgrunnstema:",
     "decoration.none": "Ingen",
-    "decoration.backgroundOpacity": "Bakgrunnsdekkevne:",
+    "decoration.backgroundOpacity": "Bakgrunnssynlighet:", // Platform standard "synlighet" (adopted 2025-12-01)
     "decoration.borderTheme": "Rammetema:",
-    "decoration.borderOpacity": "Rammedekkevne:",
+    "decoration.borderOpacity": "Rammesynlighet:", // Platform standard "synlighet" (adopted 2025-12-01)
     "decoration.background": "Bakgrunn",
     "decoration.border": "Ramme",
 
@@ -1659,7 +1663,7 @@ const translations = {
     "button.downloadPdf": "Last Ned som PDF",
     "button.downloadJpeg": "Last Ned som JPEG",
     "settings.grayscale": "Gråtoner",
-    "button.clearAll": "Slett alt",
+    "button.clearAll": "Tøm Alt",
 
     // ===== 12. SUCCESS MESSAGES (5 items) =====
     "message.rowCropped": "Linjen er beskåret.",
@@ -1837,7 +1841,7 @@ const translations = {
 
     // ===== 12. SUCCESS MESSAGES (5 items) =====
     "message.rowCropped": "Rivi rajattu onnistuneesti.",
-    "message.worksheetCleared": "Tehtävä tyhjennetty.",
+    "message.worksheetCleared": "Tehtävämoniste tyhjennetty.",
     "message.pdfDownloaded": "PDF ladattu!",
     "message.jpegDownloaded": "JPEG-lataus aloitettu!",
 
@@ -1847,7 +1851,7 @@ const translations = {
     "message.noOverflow": "Ei ylimääräistä rajattavaa.",
     "message.generateContent": "Luo ensin sisältö.",
     "message.pdfError": "Virhe PDF:n luomisessa.",
-    "message.generateWorksheet": "Luo ensin tehtävä.",
+    "message.generateWorksheet": "Luo ensin tehtävämoniste.",
     "message.jpegError": "Virhe JPEG:n valmistelussa.",
 
     // ===== 14. INFO/LOADING MESSAGES (11 items) =====

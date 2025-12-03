@@ -126,7 +126,7 @@ const translations = {
     "answerKeyPdf": "Answer Key (PDF)",
     "clearAll": "Clear All",
     "download": "Download",
-    "generate": "Generate",
+    "generate": "Create",
     "grayscale": "Grayscale",
     "newWorksheet": "New Worksheet",
     "worksheet": "Worksheet",
@@ -151,10 +151,10 @@ const translations = {
 
     // ===== 11. SUCCESS MESSAGES (10 items) =====
     "message.customImagesAvailable": "{count} custom image(s) available.",
-    "message.generatingWorksheet": "Generating worksheet...",
-    "message.worksheetGenerated": "Worksheet regenerated successfully!",
-    "message.generatingAnswer": "Generating answer key...",
-    "message.answerGenerated": "Answer key generated!",
+    "message.creatingWorksheet": "Creating worksheet...",
+    "message.worksheetGenerated": "Worksheet recreated successfully!",
+    "message.creatingAnswer": "Creating answer key...",
+    "message.answerGenerated": "Answer key created!",
     "message.assetAdded": "{type} added.",
     "message.formCleared": "Form cleared.",
     "message.downloadStarted": "Download Initiated!",
@@ -166,12 +166,12 @@ const translations = {
     "message.themesLoadError": "Could not load themes.",
     "message.maxImages": "You can select a maximum of {count} images.",
     "message.selectImages": "Please select some images or choose a theme with images.",
-    "message.generateFirst": "Please generate a worksheet first.",
+    "message.generateFirst": "Please create a worksheet first.",
     "message.cannotDownloadEmpty": "Cannot download empty {fileName}.",
     "message.imageError": "Error preparing image: {error}",
-    "message.generateContent": "Please generate content first.",
+    "message.generateContent": "Please create content first.",
     "message.pdfError": "Error creating PDF.",
-    "message.generateWorksheet": "Please generate a worksheet first.",
+    "message.generateWorksheet": "Please create a worksheet first.",
     "message.jpegError": "Error preparing JPEG.",
     "message.pdfCreateError": "Error creating PDF: {error}",
     "message.imagesError": "Error loading images.",
@@ -209,7 +209,7 @@ const translations = {
     // ===== 2. ACCORDION HEADERS (6 items) =====
     "settings.language": "Spracheinstellungen",
     "settings.pageSetup": "Seiteneinrichtung",
-    "settings.textTools": "Textbearbeitung",
+    "settings.textTools": "Textwerkzeuge",
     "settings.exerciseConfig": "Übungseinstellungen",
     "library.title": "Bilderbibliothek",
     "library.uploadTitle": "Eigene Bilder Hochladen",
@@ -244,9 +244,9 @@ const translations = {
     "decoration.backgroundTheme": "Hintergrund-Thema:",
     "decoration.none": "Kein",
     "none": "Kein",
-    "decoration.backgroundOpacity": "Hintergrund-Deckkraft:",
+    "decoration.backgroundOpacity": "Hintergrund-Transparenz:",
     "decoration.borderTheme": "Rahmen-Thema:",
-    "decoration.borderOpacity": "Rahmen-Deckkraft:",
+    "decoration.borderOpacity": "Rahmen-Transparenz:",
 
     // ===== 5. TEXT TOOLS (8 items) =====
     "text.content": "Inhalt:",
@@ -284,7 +284,7 @@ const translations = {
     "library.chooseFiles": "Dateien auswählen",
     "library.noFileChosen": "Keine Datei ausgewählt",
     "library.filesSelected": "{x} Datei(en) ausgewählt",
-    "library.uploadedImages": "Ihre Hochgeladenen Bilder (Diese Sitzung):",
+    "library.uploadedImages": "Ihre hochgeladenen Bilder (Diese Sitzung):",
     "library.selectedCount": "Ausgewählt: {x} / {y}",
 
     // ===== 8. TOOLBAR (13 items) =====
@@ -380,7 +380,7 @@ const translations = {
     "message.typeToSearch": "Tippen Sie, um alle Bilder zu durchsuchen.",
     "message.noImages": "Keine Bilder gefunden {query}.",
     "message.uploadedHere": "Ihre hochgeladenen Bilder erscheinen hier.",
-    "message.preparing": "Vorbereitung {format}...",
+    "message.preparing": "{format} wird vorbereitet...",
     "message.preparingPdf": "PDF wird vorbereitet...",
     "message.preparingJpeg": "JPEG wird vorbereitet...",
     "decoration.allBorders": "Alle Rahmen",
@@ -409,7 +409,7 @@ const translations = {
     "settings.textTools": "Options de texte",
     "settings.exerciseConfig": "Configuration de l'Exercice",
     "library.title": "Bibliothèque d'Images",
-    "library.uploadTitle": "Téléverser vos Images",
+    "library.uploadTitle": "Ajouter vos Images",
 
     // ===== 3. LANGUAGE SECTION (13 items) =====
     "settings.languageLabel": "Langue :",
@@ -424,7 +424,7 @@ const translations = {
     "lang.da": "Dansk (Danois)",
     "lang.no": "Norsk (Norvégien)",
     "lang.fi": "Suomi (Finnois)",
-    "word.guess.language.description": "Sélectionne la langue du contenu. La langue de l'interface est contrôlée par le sélecteur de langue principal dans l'en-tête.",
+    "word.guess.language.description": "Permet de sélectionner la langue du contenu. La langue de l'interface est contrôlée par le sélecteur de langue principal dans l'en-tête.",
 
     // ===== 4. PAGE SETUP (16 items) =====
     "settings.pageSize": "Format de Page :",
@@ -441,9 +441,9 @@ const translations = {
     "decoration.backgroundTheme": "Thème de Fond :",
     "decoration.none": "Aucun",
     "none": "Aucun",
-    "decoration.backgroundOpacity": "Opacité du Fond :",
+    "decoration.backgroundOpacity": "Transparence du Fond :",
     "decoration.borderTheme": "Thème de Bordure :",
-    "decoration.borderOpacity": "Opacité de la Bordure :",
+    "decoration.borderOpacity": "Transparence de la Bordure :",
 
     // ===== 5. TEXT TOOLS (8 items) =====
     "text.content": "Contenu :",
@@ -477,11 +477,11 @@ const translations = {
     "library.searchPlaceholder": "ex : pomme, voiture",
     "library.availableImages": "Images Disponibles :",
     "library.selectedImages": "Images Sélectionnées pour les Devinettes :",
-    "library.selectUpload": "Sélectionner des images à téléverser :",
+    "library.selectUpload": "Sélectionner des images à ajouter :",
     "library.chooseFiles": "Choisir des fichiers",
     "library.noFileChosen": "Aucun fichier choisi",
     "library.filesSelected": "{x} fichier(s) sélectionné(s)",
-    "library.uploadedImages": "Vos Images Téléversées (Cette Session) :",
+    "library.uploadedImages": "Vos Images Ajoutées (Cette Session) :",
     "library.selectedCount": "Sélectionnées : {x} / {y}",
 
     // ===== 8. TOOLBAR (13 items) =====
@@ -576,7 +576,7 @@ const translations = {
     "message.loading": "Chargement...",
     "message.typeToSearch": "Tapez pour rechercher dans toutes les images.",
     "message.noImages": "Aucune image trouvée {query}.",
-    "message.uploadedHere": "Vos images téléversées apparaissent ici.",
+    "message.uploadedHere": "Vos images ajoutées apparaissent ici.",
     "message.preparing": "Préparation du {format}...",
     "message.preparingPdf": "Préparation du PDF...",
     "message.preparingJpeg": "Préparation du JPEG...",
@@ -597,13 +597,13 @@ const translations = {
 
   es: {
     // ===== 1. PAGE & HERO (2 items) =====
-    "page.title": "Generador de Palabras Ocultas",
+    "page.title": "Creador de Palabras Ocultas",
     "settings.title": "Configuración de Palabras Ocultas",
 
     // ===== 2. ACCORDION HEADERS (6 items) =====
     "settings.language": "Configuración de Idioma",
     "settings.pageSetup": "Configuración de Página",
-    "settings.textTools": "Opciones de texto",
+    "settings.textTools": "Herramientas de texto",
     "settings.exerciseConfig": "Configuración del Ejercicio",
     "library.title": "Biblioteca de Imágenes",
     "library.uploadTitle": "Subir Imágenes Propias",
@@ -638,9 +638,9 @@ const translations = {
     "decoration.backgroundTheme": "Tema de Fondo:",
     "decoration.none": "Ninguno",
     "none": "Ninguno",
-    "decoration.backgroundOpacity": "Opacidad del Fondo:",
+    "decoration.backgroundOpacity": "Transparencia del Fondo:",
     "decoration.borderTheme": "Tema del Marco:",
-    "decoration.borderOpacity": "Opacidad del Marco:",
+    "decoration.borderOpacity": "Transparencia del Marco:",
 
     // ===== 5. TEXT TOOLS (8 items) =====
     "text.content": "Contenido:",
@@ -675,7 +675,7 @@ const translations = {
     "library.availableImages": "Imágenes Disponibles:",
     "library.selectedImages": "Imágenes Seleccionadas para los Acertijos:",
     "library.selectUpload": "Seleccionar imágenes para subir:",
-    "library.chooseFiles": "Elegir archivos",
+    "library.chooseFiles": "Seleccionar imágenes",
     "library.noFileChosen": "Ningún archivo elegido",
     "library.filesSelected": "{x} archivo(s) seleccionado(s)",
     "library.uploadedImages": "Tus Imágenes Subidas (Esta Sesión):",
@@ -800,10 +800,10 @@ const translations = {
     // ===== 2. ACCORDION HEADERS (6 items) =====
     "settings.language": "Impostazioni Lingua",
     "settings.pageSetup": "Impostazione Pagina",
-    "settings.textTools": "Opzioni di testo",
+    "settings.textTools": "Strumenti testo",
     "settings.exerciseConfig": "Configurazione Esercizio",
     "library.title": "Raccolta Immagini",
-    "library.uploadTitle": "Carica le Tue Immagini",
+    "library.uploadTitle": "Carica le tue immagini",
 
     // ===== 3. LANGUAGE SECTION (13 items) =====
     "settings.languageLabel": "Lingua:",
@@ -836,8 +836,8 @@ const translations = {
     "decoration.none": "Nessuno",
     "none": "Nessuno",
     "decoration.backgroundOpacity": "Opacità Sfondo:",
-    "decoration.borderTheme": "Tema Cornice:",
-    "decoration.borderOpacity": "Opacità Cornice:",
+    "decoration.borderTheme": "Tema Bordo:",
+    "decoration.borderOpacity": "Opacità Bordo:",
 
     // ===== 5. TEXT TOOLS (8 items) =====
     "text.content": "Contenuto:",
@@ -945,10 +945,10 @@ const translations = {
     "message.answerGenerated": "Soluzioni create!",
     "message.assetAdded": "{type} aggiunto.",
     "message.formCleared": "Modulo cancellato.",
-    "message.downloadStarted": "Download avviato!",
+    "message.downloadStarted": "Scaricamento avviato!",
     "message.pdfDownloaded": "PDF scaricato!",
     "message.pdfSuccess": "PDF scaricato!",
-    "message.jpegDownloaded": "Download JPEG avviato!",
+    "message.jpegDownloaded": "Scaricamento JPEG avviato!",
 
     // ===== 12. ERROR MESSAGES (13 items) =====
     "message.themesLoadError": "Impossibile caricare i temi.",
@@ -963,7 +963,7 @@ const translations = {
     "message.jpegError": "Errore nella preparazione del JPEG.",
     "message.pdfCreateError": "Errore nella creazione del PDF: {error}",
     "message.imagesError": "Errore nel caricamento delle immagini.",
-    "message.borderError": "Errore nel caricamento delle cornici.",
+    "message.borderError": "Errore nel caricamento dei bordi.",
 
     // ===== 13. INFO/LOADING MESSAGES (12 items) =====
     "themes.all": "Tutti i Temi (usa traduzioni)",
@@ -974,10 +974,10 @@ const translations = {
     "message.preparing": "Preparazione {format}...",
     "message.preparingPdf": "Preparazione PDF...",
     "message.preparingJpeg": "Preparazione JPEG...",
-    "decoration.allBorders": "Tutte le Cornici",
-    "message.selectBorderTheme": "Seleziona un tema per vedere le cornici.",
-    "message.loadingBorders": "Caricamento cornici {theme}...",
-    "message.noBorders": "Nessuna cornice trovata.",
+    "decoration.allBorders": "Tutti i Bordi",
+    "message.selectBorderTheme": "Seleziona un tema per vedere i bordi.",
+    "message.loadingBorders": "Caricamento bordi {theme}...",
+    "message.noBorders": "Nessun bordo trovato.",
     "decoration.allBackgrounds": "Tutti gli Sfondi",
 
     // ===== 14. FORM FIELDS (2 items) =====
@@ -997,7 +997,7 @@ const translations = {
     // ===== 2. ACCORDION HEADERS (6 items) =====
     "settings.language": "Configurações de Idioma",
     "settings.pageSetup": "Configuração da Página",
-    "settings.textTools": "Opções de texto",
+    "settings.textTools": "Ferramentas de Texto",
     "settings.exerciseConfig": "Configuração do Exercício",
     "library.title": "Biblioteca de Imagens",
     "library.uploadTitle": "Enviar Suas Imagens",
@@ -1014,8 +1014,8 @@ const translations = {
     "lang.sv": "Svenska (Sueco)",
     "lang.da": "Dansk (Dinamarquês)",
     "lang.no": "Norsk (Norueguês)",
-    "word.guess.language.description": "Seleciona o idioma do conteúdo. O idioma da interface é controlado pelo seletor de idioma principal no cabeçalho.",
     "lang.fi": "Suomi (Finlandês)",
+    "word.guess.language.description": "Seleciona o idioma do conteúdo. O idioma da interface é controlado pelo seletor de idioma principal no cabeçalho.",
 
     // ===== 4. PAGE SETUP (16 items) =====
     "settings.pageSize": "Tamanho da Página:",
@@ -1090,17 +1090,17 @@ const translations = {
     "toolbar.centerPageV": "Centrar na Página Verticalmente",
     "lockUnlock": "Bloquear/Desbloquear",
     "unlockAll": "Desbloquear tudo",
-    "toolbar.delete": "Eliminar Seleção",
+    "toolbar.delete": "Excluir Seleção",
 
     // ===== 9. ACTION BUTTONS (11 items) =====
-    "button.generate": "Criar",
-    "button.generateWorksheet": "Criar Ficha de Exercícios",
-    "button.generateAnswer": "Criar Folha de Respostas",
+    "button.generate": "Gerar",
+    "button.generateWorksheet": "Criar Folha de Exercícios",
+    "button.generateAnswer": "Criar Gabarito",
     "button.download": "Baixar",
-    "button.worksheetJpeg": "Ficha de Exercícios (JPEG)",
-    "button.answerJpeg": "Folha de Respostas (JPEG)",
-    "button.worksheetPdf": "Ficha de Exercícios (PDF)",
-    "button.answerPdf": "Folha de Respostas (PDF)",
+    "button.worksheetJpeg": "Folha de Exercícios (JPEG)",
+    "button.answerJpeg": "Gabarito (JPEG)",
+    "button.worksheetPdf": "Folha de Exercícios (PDF)",
+    "button.answerPdf": "Gabarito (PDF)",
     "settings.grayscale": "Escala de Cinza",
     "button.clearAll": "Limpar Tudo",
 
@@ -1118,28 +1118,28 @@ const translations = {
     "sendToBack": "Enviar para o Último Plano",
 
     // ===== NON-PREFIXED ACTION KEYS (12 items) =====
-    "answerKey": "Folha de Respostas",
-    "answerKeyJpeg": "Folha de Respostas (JPEG)",
-    "answerKeyPdf": "Folha de Respostas (PDF)",
+    "answerKey": "Gabarito",
+    "answerKeyJpeg": "Gabarito (JPEG)",
+    "answerKeyPdf": "Gabarito (PDF)",
     "clearAll": "Limpar Tudo",
     "download": "Baixar",
-    "generate": "Criar",
+    "generate": "Gerar",
     "grayscale": "Escala de Cinza",
-    "newWorksheet": "Nova Ficha",
-    "worksheet": "Ficha de Exercícios",
-    "worksheetJpeg": "Ficha de Exercícios (JPEG)",
-    "worksheetPdf": "Ficha de Exercícios (PDF)",
+    "newWorksheet": "Nova Folha",
+    "worksheet": "Folha de Exercícios",
+    "worksheetJpeg": "Folha de Exercícios (JPEG)",
+    "worksheetPdf": "Folha de Exercícios (PDF)",
 
     // ===== 10. TABS (2 items) =====
-    "tab.worksheet": "Ficha de Exercícios",
-    "tab.answerKey": "Folha de Respostas",
+    "tab.worksheet": "Folha de Exercícios",
+    "tab.answerKey": "Gabarito",
 
     // ===== 11. SUCCESS MESSAGES (10 items) =====
     "message.customImagesAvailable": "{count} imagem(ns) personalizada(s) disponível(is).",
-    "message.generatingWorksheet": "Criando ficha de exercícios...",
-    "message.worksheetGenerated": "Ficha de exercícios criada com sucesso!",
-    "message.generatingAnswer": "Criando folha de respostas...",
-    "message.answerGenerated": "Folha de respostas criada!",
+    "message.generatingWorksheet": "Gerando folha de exercícios...",
+    "message.worksheetGenerated": "Folha de exercícios criada com sucesso!",
+    "message.generatingAnswer": "Gerando gabarito...",
+    "message.answerGenerated": "Gabarito criado!",
     "message.assetAdded": "{type} adicionado.",
     "message.formCleared": "Formulário limpo.",
     "message.downloadStarted": "Download iniciado!",
@@ -1151,12 +1151,12 @@ const translations = {
     "message.themesLoadError": "Não foi possível carregar os temas.",
     "message.maxImages": "Você pode selecionar no máximo {count} imagens.",
     "message.selectImages": "Por favor, selecione algumas imagens ou escolha um tema com imagens.",
-    "message.generateFirst": "Por favor, crie primeiro uma ficha de exercícios.",
+    "message.generateFirst": "Por favor, crie primeiro uma folha de exercícios.",
     "message.cannotDownloadEmpty": "Não é possível baixar o arquivo vazio: {fileName}.",
     "message.imageError": "Erro ao preparar a imagem: {error}",
-    "message.generateContent": "Por favor, crie o conteúdo primeiro.",
+    "message.generateContent": "Por favor, gere o conteúdo primeiro.",
     "message.pdfError": "Erro ao criar o PDF.",
-    "message.generateWorksheet": "Por favor, crie primeiro uma ficha de exercícios.",
+    "message.generateWorksheet": "Por favor, crie primeiro uma folha de exercícios.",
     "message.jpegError": "Erro ao preparar o JPEG.",
     "message.pdfCreateError": "Erro ao criar o PDF: {error}",
     "message.imagesError": "Erro ao carregar as imagens.",
@@ -1188,15 +1188,15 @@ const translations = {
 
   nl: {
     // ===== 1. PAGE & HERO (2 items) =====
-    "page.title": "Woordpuzzel Generator",
-    "settings.title": "Woordpuzzel Instellingen",
+    "page.title": "Woordpuzzelgenerator",
+    "settings.title": "Woordpuzzelinstellingen",
 
     // ===== 2. ACCORDION HEADERS (6 items) =====
     "settings.language": "Taalinstellingen",
     "settings.pageSetup": "Pagina-instelling",
-    "settings.textTools": "Tekstopties",
-    "settings.exerciseConfig": "Oefening Configuratie",
-    "library.title": "Afbeeldingen Collectie",
+    "settings.textTools": "Tekstgereedschappen",
+    "settings.exerciseConfig": "Oefenconfiguratie",
+    "library.title": "Afbeeldingenbibliotheek",
     "library.uploadTitle": "Upload Je Eigen Afbeeldingen",
 
     // ===== 3. LANGUAGE SECTION (13 items) =====
@@ -1240,8 +1240,8 @@ const translations = {
     "text.color": "Kleur:",
     "text.size": "Grootte:",
     "text.font": "Lettertype:",
-    "text.outlineColor": "Omlijning Kleur:",
-    "text.outlineWidth": "Omlijning Dikte (0-10):",
+    "text.outlineColor": "Omlijningskleur:",
+    "text.outlineWidth": "Omlijningsdikte (0-10):",
 
     // ===== 6. EXERCISE CONFIGURATION (13 items) =====
     "config.puzzleCount": "Aantal Puzzels (1–10):",
@@ -1252,7 +1252,7 @@ const translations = {
     "difficulty.tough": "Moeilijk (1/6)",
     "config.excludeLetters": "Letters Uitsluiten van Hints:",
     "config.excludePlaceholder": "bijv. AEIOU",
-    "config.letterCase": "Lettertype",
+    "config.letterCase": "Letterkeuze",
     "case.uppercase": "Hoofdletters",
     "case.lowercase": "Kleine letters",
     "config.includeNameDate": "Naam en Datum Toevoegen",
@@ -1304,7 +1304,7 @@ const translations = {
     // ===== ZOOM & HISTORY CONTROLS (5 items) =====
     "zoomIn": "Inzoomen",
     "zoomOut": "Uitzoomen",
-    "zoomReset": "Zoom Resetten",
+    "zoomReset": "Zoom terugzetten",
     "undo": "Ongedaan Maken",
     "redo": "Opnieuw",
 
@@ -1347,17 +1347,17 @@ const translations = {
     // ===== 12. ERROR MESSAGES (13 items) =====
     "message.themesLoadError": "Kon thema's niet laden.",
     "message.maxImages": "Je kunt maximaal {count} afbeeldingen selecteren.",
-    "message.selectImages": "Selecteer alstublieft enkele afbeeldingen of kies een thema met afbeeldingen.",
+    "message.selectImages": "Selecteer enkele afbeeldingen of kies een thema met afbeeldingen.",
     "message.generateFirst": "Maak eerst een werkblad aan.",
     "message.cannotDownloadEmpty": "Kan leeg bestand niet downloaden: {fileName}.",
-    "message.imageError": "Fout bij voorbereiden afbeelding: {error}",
+    "message.imageError": "Fout bij het voorbereiden van de afbeelding: {error}",
     "message.generateContent": "Maak eerst de inhoud.",
-    "message.pdfError": "Fout bij maken PDF.",
+    "message.pdfError": "Fout bij het maken van de PDF.",
     "message.generateWorksheet": "Maak eerst een werkblad aan.",
-    "message.jpegError": "Fout bij voorbereiden JPEG.",
-    "message.pdfCreateError": "Fout bij maken PDF: {error}",
-    "message.imagesError": "Fout bij laden afbeeldingen.",
-    "message.borderError": "Fout bij laden kaders.",
+    "message.jpegError": "Fout bij het voorbereiden van de JPEG.",
+    "message.pdfCreateError": "Fout bij het maken van de PDF: {error}",
+    "message.imagesError": "Fout bij het laden van afbeeldingen.",
+    "message.borderError": "Fout bij het laden van kaders.",
 
     // ===== 13. INFO/LOADING MESSAGES (12 items) =====
     "themes.all": "Alle Thema's (gebruikt vertalingen)",
@@ -1370,7 +1370,7 @@ const translations = {
     "message.preparingJpeg": "JPEG voorbereiden...",
     "decoration.allBorders": "Alle Kaders",
     "message.selectBorderTheme": "Selecteer een thema om kaders te zien.",
-    "message.loadingBorders": "Kaders laden van {theme}...",
+    "message.loadingBorders": "{theme}-kaders laden...",
     "message.noBorders": "Geen kaders gevonden.",
     "decoration.allBackgrounds": "Alle Achtergronden",
 
@@ -1426,9 +1426,9 @@ const translations = {
     "decoration.backgroundTheme": "Bakgrundstema:",
     "decoration.none": "Ingen",
     "none": "Ingen",
-    "decoration.backgroundOpacity": "Bakgrundsopacitet:",
+    "decoration.backgroundOpacity": "Bakgrundens genomskinlighet:", // Fixed: Platform standard (2025-11-30)
     "decoration.borderTheme": "Ramtema:",
-    "decoration.borderOpacity": "Ramopacitet:",
+    "decoration.borderOpacity": "Ramens genomskinlighet:", // Fixed: Platform standard (2025-11-30)
 
     // ===== 5. TEXT TOOLS (8 items) =====
     "text.content": "Innehåll:",
@@ -1488,12 +1488,12 @@ const translations = {
 
     // ===== 9. ACTION BUTTONS (11 items) =====
     "button.generate": "Skapa",
-    "button.generateWorksheet": "Skapa Arbetsblad",
+    "button.generateWorksheet": "Skapa Övningsblad",
     "button.generateAnswer": "Skapa Facit",
     "button.download": "Ladda Ner",
-    "button.worksheetJpeg": "Arbetsblad (JPEG)",
+    "button.worksheetJpeg": "Övningsblad (JPEG)",
     "button.answerJpeg": "Facit (JPEG)",
-    "button.worksheetPdf": "Arbetsblad (PDF)",
+    "button.worksheetPdf": "Övningsblad (PDF)",
     "button.answerPdf": "Facit (PDF)",
     "settings.grayscale": "Gråskala",
     "button.clearAll": "Rensa Allt",
@@ -1519,19 +1519,19 @@ const translations = {
     "download": "Ladda Ner",
     "generate": "Skapa",
     "grayscale": "Gråskala",
-    "newWorksheet": "Nytt Arbetsblad",
-    "worksheet": "Arbetsblad",
-    "worksheetJpeg": "Arbetsblad (JPEG)",
-    "worksheetPdf": "Arbetsblad (PDF)",
+    "newWorksheet": "Nytt Övningsblad",
+    "worksheet": "Övningsblad",
+    "worksheetJpeg": "Övningsblad (JPEG)",
+    "worksheetPdf": "Övningsblad (PDF)",
 
     // ===== 10. TABS (2 items) =====
-    "tab.worksheet": "Arbetsblad",
+    "tab.worksheet": "Övningsblad",
     "tab.answerKey": "Facit",
 
     // ===== 11. SUCCESS MESSAGES (10 items) =====
     "message.customImagesAvailable": "{count} egen/egna bild(er) tillgänglig(a).",
-    "message.generatingWorksheet": "Skapar arbetsblad...",
-    "message.worksheetGenerated": "Arbetsblad skapat!",
+    "message.generatingWorksheet": "Skapar övningsblad...",
+    "message.worksheetGenerated": "Övningsblad skapat!",
     "message.generatingAnswer": "Skapar facit...",
     "message.answerGenerated": "Facit skapat!",
     "message.assetAdded": "{type} tillagd.",
@@ -1545,12 +1545,12 @@ const translations = {
     "message.themesLoadError": "Kunde inte ladda teman.",
     "message.maxImages": "Du kan välja max {count} bilder.",
     "message.selectImages": "Välj några bilder eller välj ett tema med bilder.",
-    "message.generateFirst": "Skapa ett arbetsblad först.",
+    "message.generateFirst": "Skapa ett övningsblad först.",
     "message.cannotDownloadEmpty": "Kan inte ladda ner tom fil: {fileName}.",
     "message.imageError": "Fel vid förberedelse av bild: {error}",
     "message.generateContent": "Skapa innehållet först.",
     "message.pdfError": "Fel vid skapande av PDF.",
-    "message.generateWorksheet": "Skapa ett arbetsblad först.",
+    "message.generateWorksheet": "Skapa ett övningsblad först.",
     "message.jpegError": "Fel vid förberedelse av JPEG.",
     "message.pdfCreateError": "Fel vid skapande av PDF: {error}",
     "message.imagesError": "Fel vid laddning av bilder.",
@@ -1588,9 +1588,9 @@ const translations = {
     // ===== 2. ACCORDION HEADERS (6 items) =====
     "settings.language": "Sprogindstillinger",
     "settings.pageSetup": "Sideopsætning",
-    "settings.textTools": "Tekstindstillinger",
+    "settings.textTools": "Tekstværktøjer", // Fixed: Platform standard (2025-11-30)
     "settings.exerciseConfig": "Opgaveindstillinger",
-    "library.title": "Billedsamling",
+    "library.title": "Billedbibliotek", // Fixed: Platform standard (2025-11-30)
     "library.uploadTitle": "Upload Dine Egne Billeder",
 
     // ===== 3. LANGUAGE SECTION (13 items) =====
@@ -1601,7 +1601,7 @@ const translations = {
     "lang.es": "Español (Spansk)",
     "lang.pt": "Português (Portugisisk)",
     "lang.it": "Italiano (Italiensk)",
-    "lang.nl": "Nederlands (Hollandsk)",
+    "lang.nl": "Nederlands (Nederlandsk)", // Fixed: Platform standard (2025-11-30)
     "lang.sv": "Svenska (Svensk)",
     "lang.da": "Dansk",
     "lang.no": "Norsk",
@@ -1615,7 +1615,7 @@ const translations = {
     "pageSize.a4Portrait": "A4 Stående (595×842)",
     "pageSize.a4Landscape": "A4 Liggende (842×595)",
     "pageSize.square": "Kvadratisk (1200×1200)",
-    "pageSize.custom": "Tilpasset",
+    "pageSize.custom": "Brugerdefineret", // Fixed: Platform standard (2025-11-30)
     "settings.width": "Bredde (px):",
     "settings.height": "Højde (px):",
     "settings.pageColor": "Sidefarve:",
@@ -1623,9 +1623,9 @@ const translations = {
     "decoration.backgroundTheme": "Baggrundstema:",
     "decoration.none": "Ingen",
     "none": "Ingen",
-    "decoration.backgroundOpacity": "Baggrundsdekning:",
+    "decoration.backgroundOpacity": "Baggrundsgennemsigtighed:",
     "decoration.borderTheme": "Rammetema:",
-    "decoration.borderOpacity": "Rammedekning:",
+    "decoration.borderOpacity": "Rammegennemsigtighed:",
 
     // ===== 5. TEXT TOOLS (8 items) =====
     "text.content": "Indhold:",
@@ -1674,9 +1674,9 @@ const translations = {
     "toolbar.alignLeft": "Venstrejuster",
     "toolbar.centerH": "Centrer Vandret",
     "toolbar.alignRight": "Højrejuster",
-    "toolbar.alignTop": "Juster Op",
+    "toolbar.alignTop": "Juster Øverst", // Fixed: Cross-app consistency with Alphabet-Train (2025-11-30)
     "toolbar.centerV": "Centrer Lodret",
-    "toolbar.alignBottom": "Juster Ned",
+    "toolbar.alignBottom": "Juster Nederst", // Fixed: Cross-app consistency with Alphabet-Train (2025-11-30)
     "toolbar.centerPageH": "Centrer på Siden Vandret",
     "toolbar.centerPageV": "Centrer på Siden Lodret",
     "lockUnlock": "Lås/Lås op",
@@ -1686,12 +1686,12 @@ const translations = {
     // ===== 9. ACTION BUTTONS (11 items) =====
     "button.generate": "Opret",
     "button.generateWorksheet": "Opret Opgaveark",
-    "button.generateAnswer": "Opret Svarark",
+    "button.generateAnswer": "Opret Facitliste",
     "button.download": "Download",
     "button.worksheetJpeg": "Opgaveark (JPEG)",
-    "button.answerJpeg": "Svarark (JPEG)",
+    "button.answerJpeg": "Facitliste (JPEG)",
     "button.worksheetPdf": "Opgaveark (PDF)",
-    "button.answerPdf": "Svarark (PDF)",
+    "button.answerPdf": "Facitliste (PDF)",
     "settings.grayscale": "Gråtoner",
     "button.clearAll": "Ryd Alt",
 
@@ -1709,9 +1709,9 @@ const translations = {
     "sendToBack": "Send til Baggrunden",
 
     // ===== NON-PREFIXED ACTION KEYS (12 items) =====
-    "answerKey": "Svarark",
-    "answerKeyJpeg": "Svarark (JPEG)",
-    "answerKeyPdf": "Svarark (PDF)",
+    "answerKey": "Facitliste",
+    "answerKeyJpeg": "Facitliste (JPEG)",
+    "answerKeyPdf": "Facitliste (PDF)",
     "clearAll": "Ryd Alt",
     "download": "Download",
     "generate": "Opret",
@@ -1723,14 +1723,14 @@ const translations = {
 
     // ===== 10. TABS (2 items) =====
     "tab.worksheet": "Opgaveark",
-    "tab.answerKey": "Svarark",
+    "tab.answerKey": "Facitliste",
 
     // ===== 11. SUCCESS MESSAGES (10 items) =====
     "message.customImagesAvailable": "{count} brugerdefiner(et/ede) billed(er) tilgængelig(e).",
     "message.generatingWorksheet": "Opretter opgaveark...",
     "message.worksheetGenerated": "Opgaveark oprettet!",
-    "message.generatingAnswer": "Opretter svarark...",
-    "message.answerGenerated": "Svarark oprettet!",
+    "message.generatingAnswer": "Opretter facitliste...",
+    "message.answerGenerated": "Facitliste oprettet!",
     "message.assetAdded": "{type} tilføjet.",
     "message.formCleared": "Formular ryddet.",
     "message.downloadStarted": "Download startet!",
@@ -1742,12 +1742,12 @@ const translations = {
     "message.themesLoadError": "Kunne ikke indlæse temaer.",
     "message.maxImages": "Du kan vælge maksimalt {count} billeder.",
     "message.selectImages": "Vælg venligst nogle billeder eller vælg et tema med billeder.",
-    "message.generateFirst": "Lav et opgaveark først.",
+    "message.generateFirst": "Opret et opgaveark først.", // Fixed: Internal consistency with button.generate (2025-11-30)
     "message.cannotDownloadEmpty": "Kan ikke downloade tom fil: {fileName}.",
     "message.imageError": "Fejl ved forberedelse af billede: {error}",
     "message.generateContent": "Opret indholdet først.",
     "message.pdfError": "Fejl ved oprettelse af PDF.",
-    "message.generateWorksheet": "Lav et opgaveark først.",
+    "message.generateWorksheet": "Opret et opgaveark først.", // Fixed: Internal consistency with button.generate (2025-11-30)
     "message.jpegError": "Fejl ved forberedelse af JPEG.",
     "message.pdfCreateError": "Fejl ved oprettelse af PDF: {error}",
     "message.imagesError": "Fejl ved indlæsning af billeder.",
@@ -1762,7 +1762,7 @@ const translations = {
     "message.preparing": "Forbereder {format}...",
     "message.preparingPdf": "Forbereder PDF...",
     "message.preparingJpeg": "Forbereder JPEG...",
-    "decoration.allBorders": "Alle Rammer",
+    "decoration.allBorders": "Alle rammer",
     "message.selectBorderTheme": "Vælg et tema for at se rammer.",
     "message.loadingBorders": "Indlæser rammer fra {theme}...",
     "message.noBorders": "Ingen rammer fundet.",
@@ -1788,7 +1788,7 @@ const translations = {
     "settings.textTools": "Tekstinnstillinger",
     "settings.exerciseConfig": "Oppgaveinnstillinger",
     "library.title": "Bildesamling",
-    "library.uploadTitle": "Last Opp Egne Bilder",
+    "library.uploadTitle": "Last opp egne bilder",
 
     // ===== 3. LANGUAGE SECTION (13 items) =====
     "settings.languageLabel": "Språk:",
@@ -1816,18 +1816,18 @@ const translations = {
     "settings.width": "Bredde (px):",
     "settings.height": "Høyde (px):",
     "settings.pageColor": "Sidefarge:",
-    "button.applySize": "Bruk Størrelse",
+    "button.applySize": "Bruk størrelse",
     "decoration.backgroundTheme": "Bakgrunnstema:",
     "decoration.none": "Ingen",
     "none": "Ingen",
-    "decoration.backgroundOpacity": "Bakgrunnsdekkevne:",
+    "decoration.backgroundOpacity": "Bakgrunnssynlighet:",
     "decoration.borderTheme": "Rammetema:",
-    "decoration.borderOpacity": "Rammedekkevne:",
+    "decoration.borderOpacity": "Rammesynlighet:",
 
     // ===== 5. TEXT TOOLS (8 items) =====
     "text.content": "Innhold:",
     "text.placeholder": "Hei!",
-    "button.addText": "Legg Til Tekst",
+    "button.addText": "Legg til tekst",
     "text.color": "Farge:",
     "text.size": "Størrelse:",
     "text.font": "Skrifttype:",
@@ -1841,21 +1841,21 @@ const translations = {
     "difficulty.easy": "Lett (1/2)",
     "difficulty.normal": "Normal (1/4)",
     "difficulty.tough": "Vanskelig (1/6)",
-    "config.excludeLetters": "Utelukk Bokstaver fra Hint:",
+    "config.excludeLetters": "Utelukk bokstaver fra hint:",
     "config.excludePlaceholder": "f.eks. AEIOUÆØÅ",
     "config.letterCase": "Bokstavtype",
     "case.uppercase": "Store bokstaver",
     "case.lowercase": "Små bokstaver",
-    "config.includeNameDate": "Ta Med Navn & Dato",
-    "config.includeExerciseNumbers": "Nummerer Oppgavene",
+    "config.includeNameDate": "Ta med navn & dato",
+    "config.includeExerciseNumbers": "Nummerer oppgavene",
 
     // ===== 7. IMAGE LIBRARY (12 items) =====
-    "library.selectTheme": "Velg Tema:",
-    "library.allThemes": "Alle Temaer",
-    "library.search": "Søk Bilder:",
+    "library.selectTheme": "Velg tema:",
+    "library.allThemes": "Alle temaer",
+    "library.search": "Søk bilder:",
     "library.searchPlaceholder": "f.eks. eple, bil",
-    "library.availableImages": "Tilgjengelige Bilder:",
-    "library.selectedImages": "Valgte Bilder for Gåter:",
+    "library.availableImages": "Tilgjengelige bilder:",
+    "library.selectedImages": "Valgte bilder for gåter:",
     "library.selectUpload": "Velg bilder for opplasting:",
     "library.chooseFiles": "Velg filer",
     "library.noFileChosen": "Ingen fil valgt",
@@ -1865,55 +1865,55 @@ const translations = {
 
     // ===== 8. TOOLBAR (13 items) =====
     "toolbar.layers": "Lag",
-    "toolbar.bringForward": "Flytt Fremover",
-    "toolbar.sendBackward": "Flytt Bakover",
+    "toolbar.bringForward": "Flytt fremover",
+    "toolbar.sendBackward": "Flytt bakover",
     "toolbar.align": "Juster",
     "toolbar.alignLeft": "Venstrejuster",
-    "toolbar.centerH": "Sentrer Horisontalt",
+    "toolbar.centerH": "Sentrer horisontalt",
     "toolbar.alignRight": "Høyrejuster",
-    "toolbar.alignTop": "Juster Øverst",
-    "toolbar.centerV": "Sentrer Vertikalt",
-    "toolbar.alignBottom": "Juster Nederst",
-    "toolbar.centerPageH": "Sentrer på Siden Horisontalt",
-    "toolbar.centerPageV": "Sentrer på Siden Vertikalt",
+    "toolbar.alignTop": "Juster øverst",
+    "toolbar.centerV": "Sentrer vertikalt",
+    "toolbar.alignBottom": "Juster nederst",
+    "toolbar.centerPageH": "Sentrer på siden horisontalt",
+    "toolbar.centerPageV": "Sentrer på siden vertikalt",
     "lockUnlock": "Lås/Lås opp",
     "unlockAll": "Lås opp alle",
-    "toolbar.delete": "Slett Markering",
+    "toolbar.delete": "Slett markering",
 
     // ===== 9. ACTION BUTTONS (11 items) =====
-    "button.generate": "Opprett",
-    "button.generateWorksheet": "Opprett Oppgaveark",
-    "button.generateAnswer": "Opprett Fasit",
-    "button.download": "Last Ned",
+    "button.generate": "Lag",
+    "button.generateWorksheet": "Lag oppgaveark",
+    "button.generateAnswer": "Lag fasit",
+    "button.download": "Last ned",
     "button.worksheetJpeg": "Oppgaveark (JPEG)",
     "button.answerJpeg": "Fasit (JPEG)",
     "button.worksheetPdf": "Oppgaveark (PDF)",
     "button.answerPdf": "Fasit (PDF)",
     "settings.grayscale": "Gråtoner",
-    "button.clearAll": "Slett Alt",
+    "button.clearAll": "Tøm alt",
 
     // ===== ZOOM & HISTORY CONTROLS (5 items) =====
-    "zoomIn": "Zoom Inn",
-    "zoomOut": "Zoom Ut",
-    "zoomReset": "Tilbakestill Zoom",
+    "zoomIn": "Zoom inn",
+    "zoomOut": "Zoom ut",
+    "zoomReset": "Tilbakestill zoom",
     "undo": "Angre",
-    "redo": "Gjør Om",
+    "redo": "Gjør om",
 
     // ===== LAYER CONTROLS (4 items) =====
-    "bringForward": "Flytt Fremover",
-    "bringToFront": "Flytt til Front",
-    "sendBackward": "Flytt Bakover",
-    "sendToBack": "Flytt til Bakgrunn",
+    "bringForward": "Flytt fremover",
+    "bringToFront": "Flytt til front",
+    "sendBackward": "Flytt bakover",
+    "sendToBack": "Flytt til bakgrunn",
 
     // ===== NON-PREFIXED ACTION KEYS (12 items) =====
     "answerKey": "Fasit",
     "answerKeyJpeg": "Fasit (JPEG)",
     "answerKeyPdf": "Fasit (PDF)",
-    "clearAll": "Slett Alt",
-    "download": "Last Ned",
-    "generate": "Opprett",
+    "clearAll": "Tøm alt",
+    "download": "Last ned",
+    "generate": "Lag",
     "grayscale": "Gråtoner",
-    "newWorksheet": "Nytt Oppgaveark",
+    "newWorksheet": "Nytt oppgaveark",
     "worksheet": "Oppgaveark",
     "worksheetJpeg": "Oppgaveark (JPEG)",
     "worksheetPdf": "Oppgaveark (PDF)",
@@ -1924,10 +1924,10 @@ const translations = {
 
     // ===== 11. SUCCESS MESSAGES (10 items) =====
     "message.customImagesAvailable": "{count} egendefinert(e) bilde(r) tilgjengelig(e).",
-    "message.generatingWorksheet": "Oppretter oppgaveark...",
-    "message.worksheetGenerated": "Oppgaveark opprettet!",
-    "message.generatingAnswer": "Oppretter fasit...",
-    "message.answerGenerated": "Fasit opprettet!",
+    "message.generatingWorksheet": "Lager oppgaveark...",
+    "message.worksheetGenerated": "Oppgaveark laget!",
+    "message.generatingAnswer": "Lager fasit...",
+    "message.answerGenerated": "Fasit laget!",
     "message.assetAdded": "{type} lagt til.",
     "message.formCleared": "Skjema tømt.",
     "message.downloadStarted": "Nedlasting startet!",
@@ -1942,11 +1942,11 @@ const translations = {
     "message.generateFirst": "Lag et oppgaveark først.",
     "message.cannotDownloadEmpty": "Kan ikke laste ned tom fil: {fileName}.",
     "message.imageError": "Feil ved klargjøring av bilde: {error}",
-    "message.generateContent": "Opprett innholdet først.",
-    "message.pdfError": "Feil ved opprettelse av PDF.",
+    "message.generateContent": "Lag innholdet først.",
+    "message.pdfError": "Feil ved laging av PDF.",
     "message.generateWorksheet": "Lag et oppgaveark først.",
     "message.jpegError": "Feil ved klargjøring av JPEG.",
-    "message.pdfCreateError": "Feil ved opprettelse av PDF: {error}",
+    "message.pdfCreateError": "Feil ved laging av PDF: {error}",
     "message.imagesError": "Feil ved lasting av bilder.",
     "message.borderError": "Feil ved lasting av rammer.",
 
@@ -1959,11 +1959,11 @@ const translations = {
     "message.preparing": "Klargjør {format}...",
     "message.preparingPdf": "Klargjør PDF...",
     "message.preparingJpeg": "Klargjør JPEG...",
-    "decoration.allBorders": "Alle Rammer",
+    "decoration.allBorders": "Alle rammer",
     "message.selectBorderTheme": "Velg et tema for å se rammer.",
     "message.loadingBorders": "Laster rammer fra {theme}...",
     "message.noBorders": "Ingen rammer funnet.",
-    "decoration.allBackgrounds": "Alle Bakgrunner",
+    "decoration.allBackgrounds": "Alle bakgrunner",
 
     // ===== 14. FORM FIELDS (2 items) =====
     "form.nameField": "Navn: ________________",
@@ -1982,7 +1982,7 @@ const translations = {
     // ===== 2. ACCORDION HEADERS (6 items) =====
     "settings.language": "Kieliasetukset",
     "settings.pageSetup": "Sivun Asetukset",
-    "settings.textTools": "Tekstivaihtoehdot",
+    "settings.textTools": "Tekstityökalut",
     "settings.exerciseConfig": "Tehtävän Asetukset",
     "library.title": "Kuvakirjasto",
     "library.uploadTitle": "Lataa Omia Kuvia",
@@ -2121,9 +2121,9 @@ const translations = {
 
     // ===== 11. SUCCESS MESSAGES (10 items) =====
     "message.customImagesAvailable": "{count} omaa kuvaa käytettävissä.",
-    "message.generatingWorksheet": "Luodaan tehtävämonistetta...",
+    "message.creatingWorksheet": "Luodaan tehtävämonistetta...",
     "message.worksheetGenerated": "Tehtävämoniste luotu!",
-    "message.generatingAnswer": "Luodaan vastauksia...",
+    "message.creatingAnswer": "Luodaan vastauksia...",
     "message.answerGenerated": "Vastaukset luotu!",
     "message.assetAdded": "{type} lisätty.",
     "message.formCleared": "Lomake tyhjennetty.",

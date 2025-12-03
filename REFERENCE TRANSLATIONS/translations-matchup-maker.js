@@ -68,7 +68,7 @@ const translations = {
     "answerKey": "Answer Key",
 
     // ============= ACTION BUTTONS =============
-    "generate": "Generate",
+    "generate": "Create",
     "generateWorksheet": "Generate Worksheet",
     "generateAnswerKey": "Generate Answer Key",
     "download": "Download",
@@ -201,9 +201,9 @@ const translations = {
     "datePlaceholder": "Date: ________________",
 
     // ============= SUCCESS MESSAGES =============
-    "generatingWorksheet": "Generating Worksheet...",
-    "worksheetGeneratedSuccessfully": "Worksheet generated successfully!",
-    "generatingAnswerKey": "Generating Answer Key...",
+    "creatingWorksheet": "Creating Worksheet...",
+    "worksheetGeneratedSuccessfully": "Worksheet created successfully!",
+    "creatingAnswerKey": "Creating Answer Key...",
     "downloadInitiated": "{filename} download initiated!",
     "downloadComplete": "{filename} downloaded!",
     "clearedAllSettings": "Cleared all settings.",
@@ -218,10 +218,10 @@ const translations = {
     "pleaseSelectAtLeastImages": "Please select at least {count} images.",
     "notEnoughImagesInTheme": "Not enough images in the selected theme. Found {found}, need {needed}.",
     "pleaseFillExerciseSlot": "Please fill in at least one exercise slot.",
-    "pleaseGenerateWorksheetFirst": "Please generate a worksheet first.",
+    "pleaseGenerateWorksheetFirst": "Please create a worksheet first.",
     "canvasIsEmpty": "Canvas is empty.",
     "couldNotLoadThemes": "Could not load themes.",
-    "pleaseGenerateContentFirst": "Please generate content first.",
+    "pleaseGenerateContentFirst": "Please create content first.",
     "errorCreatingPdf": "Error creating PDF.",
     "errorPreparingJpeg": "Error preparing JPEG.",
 
@@ -293,13 +293,13 @@ const translations = {
 
     // ============= LANGUAGE SETTINGS =============
     "language": "Sprache:",
-    "imageLibraryLanguage": "Bilderbibliothek-Sprache:",
+    "imageLibraryLanguage": "Bildbibliothek-Sprache:",
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Seiteneinstellungen",
-    "textTools": "Textbearbeitung",
+    "textTools": "Textwerkzeuge",
     "worksheetConfiguration": "Arbeitsblatt-Konfiguration",
-    "imageLibrary": "Bildersammlung",
+    "imageLibrary": "Bildbibliothek",
     "uploadCustomImages": "Eigene Bilder hochladen",
     "itemConfiguration": "Zuordnungselemente",
 
@@ -322,13 +322,13 @@ const translations = {
     "none": "Kein",
     "common.none": "Kein",
     "selectBackgroundTheme": "Wählen Sie ein Thema für Hintergründe.",
-    "backgroundOpacity": "Hintergrund-Deckkraft:",
+    "backgroundOpacity": "Hintergrund-Transparenz:",
 
     // ============= BORDER SECTION =============
     "border": "Rahmen",
     "borderTheme": "Rahmenthema:",
     "selectBorderTheme": "Wählen Sie ein Thema für Rahmen.",
-    "borderOpacity": "Rahmen-Deckkraft:",
+    "borderOpacity": "Rahmen-Transparenz:",
 
     // ============= TEXT TOOLS =============
     "addNewText": "Text hinzufügen",
@@ -339,8 +339,8 @@ const translations = {
     "color": "Farbe:",
     "size": "Größe:",
     "font": "Schriftart:",
-    "outlineColor": "Konturfarbe:",
-    "outlineWidth": "Konturstärke (0-10):",
+    "outlineColor": "Umrissfarbe:",
+    "outlineWidth": "Umrissstärke (0-10):",
 
     // ============= FONT OPTIONS =============
     "font_lexend": "Lexend Deca",
@@ -417,7 +417,7 @@ const translations = {
     "generatingAnswerKey": "Lösungsblatt wird erstellt...",
     "downloadInitiated": "{filename}-Download gestartet!",
     "downloadComplete": "{filename} heruntergeladen!",
-    "clearedAllSettings": "Alle Einstellungen gelöscht.",
+    "clearedAllSettings": "Alle Einstellungen zurückgesetzt.",
     "pdfDownloaded": "PDF heruntergeladen!",
     "jpegDownloadInitiated": "JPEG-Download gestartet!",
 
@@ -492,8 +492,8 @@ const translations = {
 
     // ============= ACTION BUTTONS =============
     "generate": "Créer",
-    "generateWorksheet": "Générer la fiche",
-    "generateAnswerKey": "Générer le corrigé",
+    "generateWorksheet": "Créer la fiche",
+    "generateAnswerKey": "Créer le corrigé",
     "download": "Télécharger",
     "worksheetJpeg": "Fiche d'exercices (JPEG)",
     "answerKeyJpeg": "Corrigé (JPEG)",
@@ -624,9 +624,9 @@ const translations = {
     "datePlaceholder": "Date : ________________",
 
     // ============= SUCCESS MESSAGES =============
-    "generatingWorksheet": "Génération de la fiche...",
+    "generatingWorksheet": "Création de la fiche...",
     "worksheetGeneratedSuccessfully": "Fiche créée avec succès !",
-    "generatingAnswerKey": "Génération du corrigé...",
+    "generatingAnswerKey": "Création du corrigé...",
     "downloadInitiated": "Téléchargement de {filename} lancé !",
     "downloadComplete": "{filename} téléchargé !",
     "clearedAllSettings": "Tous les paramètres ont été effacés.",
@@ -641,10 +641,10 @@ const translations = {
     "pleaseSelectAtLeastImages": "Veuillez sélectionner au moins {count} images.",
     "notEnoughImagesInTheme": "Pas assez d'images dans le thème choisi. Trouvées : {found}, nécessaires : {needed}.",
     "pleaseFillExerciseSlot": "Veuillez remplir au moins un champ d'exercice.",
-    "pleaseGenerateWorksheetFirst": "Veuillez d'abord générer une fiche d'exercices.",
+    "pleaseGenerateWorksheetFirst": "Veuillez d'abord créer une fiche d'exercices.",
     "canvasIsEmpty": "La zone de travail est vide.",
     "couldNotLoadThemes": "Impossible de charger les thèmes.",
-    "pleaseGenerateContentFirst": "Veuillez d'abord générer le contenu.",
+    "pleaseGenerateContentFirst": "Veuillez d'abord créer le contenu.",
     "errorCreatingPdf": "Erreur lors de la création du PDF.",
     "errorPreparingJpeg": "Erreur lors de la préparation du JPEG.",
 
@@ -698,18 +698,18 @@ const translations = {
     "lang_fi": "Suomi",
 
     // ============= CORE UI =============
-    "matchupMaker": "Creador de Emparejamientos",
-    "worksheet": "Hoja de trabajo",
+    "matchupMaker": "Generador de Emparejamientos",
+    "worksheet": "Ficha de trabajo",
     "answerKey": "Hoja de respuestas",
 
     // ============= ACTION BUTTONS =============
-    "generate": "Crear",
-    "generateWorksheet": "Crear hoja de trabajo",
-    "generateAnswerKey": "Crear hoja de respuestas",
+    "generate": "Generar",
+    "generateWorksheet": "Crear ficha de trabajo",
+    "generateAnswerKey": "Generar hoja de respuestas",
     "download": "Descargar",
-    "worksheetJpeg": "Hoja de trabajo (JPEG)",
+    "worksheetJpeg": "Ficha de trabajo (JPEG)",
     "answerKeyJpeg": "Hoja de respuestas (JPEG)",
-    "worksheetPdf": "Hoja de trabajo (PDF)",
+    "worksheetPdf": "Ficha de trabajo (PDF)",
     "answerKeyPdf": "Hoja de respuestas (PDF)",
     "grayscale": "Escala de grises",
     "clearAll": "Borrar todo",
@@ -744,15 +744,14 @@ const translations = {
     "backgroundTheme": "Tema de fondo:",
     "none": "Ninguno",
     "common.none": "Ninguno",
-    "none": "Ninguno",
     "selectBackgroundTheme": "Seleccione un tema para el fondo.",
-    "backgroundOpacity": "Opacidad del fondo:",
+    "backgroundOpacity": "Transparencia del fondo:",
 
     // ============= BORDER SECTION =============
     "border": "Borde",
     "borderTheme": "Tema de borde:",
     "selectBorderTheme": "Seleccione un tema para los bordes.",
-    "borderOpacity": "Opacidad del borde:",
+    "borderOpacity": "Transparencia del borde:",
 
     // ============= TEXT TOOLS =============
     "addNewText": "Añadir texto",
@@ -836,8 +835,8 @@ const translations = {
     "datePlaceholder": "Fecha: ________________",
 
     // ============= SUCCESS MESSAGES =============
-    "generatingWorksheet": "Creando hoja de trabajo...",
-    "worksheetGeneratedSuccessfully": "¡Hoja de trabajo creada con éxito!",
+    "generatingWorksheet": "Generando ficha de trabajo...",
+    "worksheetGeneratedSuccessfully": "¡Ficha de trabajo creada con éxito!",
     "generatingAnswerKey": "Creando hoja de respuestas...",
     "downloadInitiated": "¡Descarga de {filename} iniciada!",
     "downloadComplete": "¡{filename} descargado!",
@@ -853,7 +852,7 @@ const translations = {
     "pleaseSelectAtLeastImages": "Por favor selecciona al menos {count} imágenes.",
     "notEnoughImagesInTheme": "No hay suficientes imágenes en el tema elegido. Encontradas: {found}, necesarias: {needed}.",
     "pleaseFillExerciseSlot": "Por favor completa al menos un campo de ejercicio.",
-    "pleaseGenerateWorksheetFirst": "Por favor crea primero una hoja de trabajo.",
+    "pleaseGenerateWorksheetFirst": "Por favor crea primero una ficha de trabajo.",
     "canvasIsEmpty": "El área de trabajo está vacía.",
     "couldNotLoadThemes": "No se pudieron cargar los temas.",
     "pleaseGenerateContentFirst": "Por favor crea primero el contenido.",
@@ -928,11 +927,11 @@ const translations = {
 
     // ============= LANGUAGE SETTINGS =============
     "language": "Lingua:",
-    "imageLibraryLanguage": "Lingua della biblioteca di immagini:",
+    "imageLibraryLanguage": "Lingua della raccolta di immagini:",
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Impostazioni pagina",
-    "textTools": "Opzioni di testo",
+    "textTools": "Strumenti testo",
     "worksheetConfiguration": "Configurazione scheda",
     "imageLibrary": "Raccolta immagini",
     "uploadCustomImages": "Carica immagini personali",
@@ -1051,11 +1050,11 @@ const translations = {
     "generatingWorksheet": "Creazione scheda in corso...",
     "worksheetGeneratedSuccessfully": "Scheda didattica creata con successo!",
     "generatingAnswerKey": "Creazione soluzioni...",
-    "downloadInitiated": "Download di {filename} avviato!",
+    "downloadInitiated": "Scaricamento di {filename} avviato!",
     "downloadComplete": "{filename} scaricato!",
     "clearedAllSettings": "Tutte le impostazioni sono state cancellate.",
     "pdfDownloaded": "PDF scaricato!",
-    "jpegDownloadInitiated": "Download JPEG avviato!",
+    "jpegDownloadInitiated": "Scaricamento JPEG avviato!",
 
     // ============= ERROR MESSAGES =============
     "failedToLoadImage": "Impossibile caricare l'immagine {type}.",
@@ -1124,17 +1123,17 @@ const translations = {
     // ============= CORE UI =============
     "matchupMaker": "Gerador de Correspondências",
     "worksheet": "Folha de trabalho",
-    "answerKey": "Folha de respostas",
+    "answerKey": "Gabarito",
 
     // ============= ACTION BUTTONS =============
     "generate": "Criar",
     "generateWorksheet": "Criar folha de trabalho",
-    "generateAnswerKey": "Criar folha de respostas",
+    "generateAnswerKey": "Criar gabarito",
     "download": "Baixar",
     "worksheetJpeg": "Folha de trabalho (JPEG)",
-    "answerKeyJpeg": "Folha de respostas (JPEG)",
+    "answerKeyJpeg": "Gabarito (JPEG)",
     "worksheetPdf": "Folha de trabalho (PDF)",
-    "answerKeyPdf": "Folha de respostas (PDF)",
+    "answerKeyPdf": "Gabarito (PDF)",
     "grayscale": "Tons de cinza",
     "clearAll": "Limpar tudo",
 
@@ -1168,7 +1167,6 @@ const translations = {
     "backgroundTheme": "Tema de fundo:",
     "none": "Nenhum",
     "common.none": "Nenhum",
-    "none": "Nenhum",
     "selectBackgroundTheme": "Selecione um tema para o fundo.",
     "backgroundOpacity": "Opacidade do fundo:",
 
@@ -1231,8 +1229,8 @@ const translations = {
 
     // ============= TOOLBAR =============
     "layers": "Camadas",
-    "bringForward": "Trazer para frente",
-    "sendBackward": "Enviar para trás",
+    "bringForward": "Avançar",
+    "sendBackward": "Recuar",
     "bringToFront": "Trazer para frente",
     "sendToBack": "Enviar para trás",
     "align": "Alinhar",
@@ -1262,7 +1260,7 @@ const translations = {
     // ============= SUCCESS MESSAGES =============
     "generatingWorksheet": "Criando folha de trabalho...",
     "worksheetGeneratedSuccessfully": "Folha de trabalho criada com sucesso!",
-    "generatingAnswerKey": "Criando folha de respostas...",
+    "generatingAnswerKey": "Criando gabarito...",
     "downloadInitiated": "Download de {filename} iniciado!",
     "downloadComplete": "{filename} baixado!",
     "clearedAllSettings": "Todas as configurações foram limpas.",
@@ -1309,7 +1307,7 @@ const translations = {
     "chooseTheme": "-- Escolher tema --",
 
     // ITEM CONFIGURATION UI
-    "pickImg": "Escolher img",
+    "pickImg": "Escolher imagem",
     "pickAnImage": "Escolher uma imagem",
     "image": "Imagem",
     "word": "Palavra",
@@ -1352,13 +1350,13 @@ const translations = {
 
     // ============= LANGUAGE SETTINGS =============
     "language": "Taal:",
-    "imageLibraryLanguage": "Afbeeldingsbibliotheek-taal:",
+    "imageLibraryLanguage": "Afbeeldingenverzameling-taal:",
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Pagina-instellingen",
-    "textTools": "Tekstopties",
+    "textTools": "Tekstgereedschappen",
     "worksheetConfiguration": "Werkbladconfiguratie",
-    "imageLibrary": "Afbeeldingenbibliotheek",
+    "imageLibrary": "Afbeeldingenverzameling",
     "uploadCustomImages": "Eigen afbeeldingen uploaden",
     "itemConfiguration": "Onderdelen instellen",
 
@@ -1380,15 +1378,14 @@ const translations = {
     "backgroundTheme": "Achtergrondthema:",
     "none": "Geen",
     "common.none": "Geen",
-    "none": "Geen",
     "selectBackgroundTheme": "Selecteer een thema voor de achtergrond.",
-    "backgroundOpacity": "Achtergronddekking:",
+    "backgroundOpacity": "Achtergrondtransparantie:",
 
     // ============= BORDER SECTION =============
     "border": "Rand",
     "borderTheme": "Randthema:",
     "selectBorderTheme": "Selecteer een thema voor de randen.",
-    "borderOpacity": "Randdekking:",
+    "borderOpacity": "Randtransparantie:",
 
     // ============= TEXT TOOLS =============
     "addNewText": "Tekst toevoegen",
@@ -1547,29 +1544,29 @@ const translations = {
 
     // ============= CORE UI =============
     "matchupMaker": "Parkopplingsgenerator",
-    "worksheet": "Arbetsblad",
+    "worksheet": "Övningsblad",
     "answerKey": "Facit",
 
     // ============= ACTION BUTTONS =============
     "generate": "Skapa",
-    "generateWorksheet": "Skapa arbetsblad",
+    "generateWorksheet": "Skapa övningsblad",
     "generateAnswerKey": "Skapa facit",
     "download": "Ladda ner",
-    "worksheetJpeg": "Arbetsblad (JPEG)",
+    "worksheetJpeg": "Övningsblad (JPEG)",
     "answerKeyJpeg": "Facit (JPEG)",
-    "worksheetPdf": "Arbetsblad (PDF)",
+    "worksheetPdf": "Övningsblad (PDF)",
     "answerKeyPdf": "Facit (PDF)",
     "grayscale": "Gråskala",
     "clearAll": "Rensa allt",
 
     // ============= LANGUAGE SETTINGS =============
     "language": "Språk:",
-    "imageLibraryLanguage": "Bildbiblioteksspråk:",
+    "imageLibraryLanguage": "Bildsamlingsspråk:", // FIXED: Platform standard "Bildsamling" for consistency
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Sidinställningar",
     "textTools": "Textalternativ",
-    "worksheetConfiguration": "Arbetsbladsinställningar",
+    "worksheetConfiguration": "Övningsbladsinställningar",
     "imageLibrary": "Bildsamling",
     "uploadCustomImages": "Ladda upp egna bilder",
     "itemConfiguration": "Elementinställningar",
@@ -1594,13 +1591,13 @@ const translations = {
     "common.none": "Ingen",
     "none": "Ingen",
     "selectBackgroundTheme": "Välj ett tema för bakgrunden.",
-    "backgroundOpacity": "Bakgrundsopacitet:",
+    "backgroundOpacity": "Bakgrundens genomskinlighet:", // FIXED: Platform standard native Swedish term
 
     // ============= BORDER SECTION =============
     "border": "Ram",
     "borderTheme": "Ramtema:",
     "selectBorderTheme": "Välj ett tema för ramar.",
-    "borderOpacity": "Ramopacitet:",
+    "borderOpacity": "Ramens genomskinlighet:", // FIXED: Platform standard native Swedish term
 
     // ============= TEXT TOOLS =============
     "addNewText": "Lägg till text",
@@ -1636,7 +1633,7 @@ const translations = {
     "randomThemeAndImages": "Slumpmässigt tema & bilder",
     "randomFromChosenTheme": "Slumpmässigt från valt tema",
     "selectSpecificImages": "Välj specifika bilder",
-    "worksheetTheme": "Arbetsbladstema:",
+    "worksheetTheme": "Övningsbladstema:",
 
     // ============= IMAGE LIBRARY =============
     "filterByTheme": "Filtrera efter tema:",
@@ -1684,8 +1681,8 @@ const translations = {
     "datePlaceholder": "Datum: ________________",
 
     // ============= SUCCESS MESSAGES =============
-    "generatingWorksheet": "Skapar arbetsblad...",
-    "worksheetGeneratedSuccessfully": "Arbetsblad skapat!",
+    "generatingWorksheet": "Skapar övningsblad...",
+    "worksheetGeneratedSuccessfully": "Övningsblad skapat!",
     "generatingAnswerKey": "Skapar facit...",
     "downloadInitiated": "Nedladdning av {filename} startad!",
     "downloadComplete": "{filename} nedladdat!",
@@ -1701,7 +1698,7 @@ const translations = {
     "pleaseSelectAtLeastImages": "Välj minst {count} bilder.",
     "notEnoughImagesInTheme": "För få bilder i valt tema. Hittade: {found}, behöver: {needed}.",
     "pleaseFillExerciseSlot": "Fyll i minst ett övningsfält.",
-    "pleaseGenerateWorksheetFirst": "Skapa ett arbetsblad först.",
+    "pleaseGenerateWorksheetFirst": "Skapa ett övningsblad först.",
     "canvasIsEmpty": "Arbetsytan är tom.",
     "couldNotLoadThemes": "Kunde inte ladda teman.",
     "pleaseGenerateContentFirst": "Skapa innehållet först.",
@@ -1760,17 +1757,17 @@ const translations = {
     // ============= CORE UI =============
     "matchupMaker": "Sammenkoblings-generator",
     "worksheet": "Arbejdsark",
-    "answerKey": "Facit",
+    "answerKey": "Facitliste",
 
     // ============= ACTION BUTTONS =============
     "generate": "Opret",
     "generateWorksheet": "Opret arbejdsark",
-    "generateAnswerKey": "Opret facit",
+    "generateAnswerKey": "Opret facitliste",
     "download": "Hent",
     "worksheetJpeg": "Arbejdsark (JPEG)",
-    "answerKeyJpeg": "Facit (JPEG)",
+    "answerKeyJpeg": "Facitliste (JPEG)",
     "worksheetPdf": "Arbejdsark (PDF)",
-    "answerKeyPdf": "Facit (PDF)",
+    "answerKeyPdf": "Facitliste (PDF)",
     "grayscale": "Gråtoner",
     "clearAll": "Ryd alt",
 
@@ -1806,19 +1803,19 @@ const translations = {
     "common.none": "Ingen",
     "none": "Ingen",
     "selectBackgroundTheme": "Vælg et tema til baggrunden.",
-    "backgroundOpacity": "Baggrundsdekning:",
+    "backgroundOpacity": "Baggrundsgennemsigtighed:",
 
     // ============= BORDER SECTION =============
     "border": "Ramme",
     "borderTheme": "Rammetema:",
     "selectBorderTheme": "Vælg et tema til rammer.",
-    "borderOpacity": "Rammedekning:",
+    "borderOpacity": "Rammegennemsigtighed:",
 
     // ============= TEXT TOOLS =============
     "addNewText": "Tilføj tekst",
     "content": "Indhold:",
     "helloPlaceholder": "Hej!",
-    "addText": "Indsæt tekst",
+    "addText": "Tilføj tekst",
     "selectedTextProperties": "Egenskaber for valgt tekst",
     "color": "Farve:",
     "size": "Størrelse:",
@@ -1898,7 +1895,7 @@ const translations = {
     // ============= SUCCESS MESSAGES =============
     "generatingWorksheet": "Opretter arbejdsark...",
     "worksheetGeneratedSuccessfully": "Arbejdsark oprettet!",
-    "generatingAnswerKey": "Opretter facit...",
+    "generatingAnswerKey": "Opretter facitliste...",
     "downloadInitiated": "Download af {filename} startet!",
     "downloadComplete": "{filename} hentet!",
     "clearedAllSettings": "Alle indstillinger ryddet.",
@@ -1971,30 +1968,30 @@ const translations = {
 
     // ============= CORE UI =============
     "matchupMaker": "Sammenkoblingsgenerator",
-    "worksheet": "Arbeidsark",
+    "worksheet": "Oppgaveark",
     "answerKey": "Fasit",
 
     // ============= ACTION BUTTONS =============
     "generate": "Lag",
-    "generateWorksheet": "Lag arbeidsark",
+    "generateWorksheet": "Lag oppgaveark",
     "generateAnswerKey": "Lag fasit",
     "download": "Last ned",
-    "worksheetJpeg": "Arbeidsark (JPEG)",
+    "worksheetJpeg": "Oppgaveark (JPEG)",
     "answerKeyJpeg": "Fasit (JPEG)",
-    "worksheetPdf": "Arbeidsark (PDF)",
+    "worksheetPdf": "Oppgaveark (PDF)",
     "answerKeyPdf": "Fasit (PDF)",
     "grayscale": "Gråtoner",
-    "clearAll": "Fjern alt",
+    "clearAll": "Tøm alt",
 
     // ============= LANGUAGE SETTINGS =============
     "language": "Språk:",
-    "imageLibraryLanguage": "Bildebiblioteksspråk:",
+    "imageLibraryLanguage": "Bildesamlingsspråk:",
 
     // ============= ACCORDION HEADERS =============
     "pageSetup": "Sideoppsett",
     "textTools": "Tekstinnstillinger",
-    "worksheetConfiguration": "Arbeidsarkinnstillinger",
-    "imageLibrary": "Bildebibliotek",
+    "worksheetConfiguration": "Oppgavearkinnstillinger",
+    "imageLibrary": "Bildesamling",
     "uploadCustomImages": "Last opp egne bilder",
     "itemConfiguration": "Elementinnstillinger",
 
@@ -2018,13 +2015,13 @@ const translations = {
     "common.none": "Ingen",
     "none": "Ingen",
     "selectBackgroundTheme": "Velg et tema for bakgrunnen.",
-    "backgroundOpacity": "Bakgrunnsdekkevne:",
+    "backgroundOpacity": "Bakgrunnssynlighet:",
 
     // ============= BORDER SECTION =============
     "border": "Ramme",
     "borderTheme": "Rammetema:",
     "selectBorderTheme": "Velg et tema for rammer.",
-    "borderOpacity": "Rammedekkevne:",
+    "borderOpacity": "Rammesynlighet:",
 
     // ============= TEXT TOOLS =============
     "addNewText": "Legg til tekst",
@@ -2060,7 +2057,7 @@ const translations = {
     "randomThemeAndImages": "Tilfeldig tema & bilder",
     "randomFromChosenTheme": "Tilfeldig fra valgt tema",
     "selectSpecificImages": "Velg spesifikke bilder",
-    "worksheetTheme": "Arbeidsarktema:",
+    "worksheetTheme": "Oppgavearktema:",
 
     // ============= IMAGE LIBRARY =============
     "filterByTheme": "Filtrer etter tema:",
@@ -2108,12 +2105,12 @@ const translations = {
     "datePlaceholder": "Dato: ________________",
 
     // ============= SUCCESS MESSAGES =============
-    "generatingWorksheet": "Lager arbeidsark...",
-    "worksheetGeneratedSuccessfully": "Arbeidsark opprettet!",
+    "generatingWorksheet": "Lager oppgaveark...",
+    "worksheetGeneratedSuccessfully": "Oppgaveark opprettet!",
     "generatingAnswerKey": "Lager fasit...",
     "downloadInitiated": "Nedlasting av {filename} startet!",
     "downloadComplete": "{filename} lastet ned!",
-    "clearedAllSettings": "Alle innstillinger fjernet.",
+    "clearedAllSettings": "Alle innstillinger tømt.",
     "pdfDownloaded": "PDF lastet ned!",
     "jpegDownloadInitiated": "JPEG-nedlasting startet!",
 
@@ -2125,7 +2122,7 @@ const translations = {
     "pleaseSelectAtLeastImages": "Velg minst {count} bilder.",
     "notEnoughImagesInTheme": "Ikke nok bilder i valgt tema. Funnet: {found}, trenger: {needed}.",
     "pleaseFillExerciseSlot": "Fyll ut minst ett oppgavefelt.",
-    "pleaseGenerateWorksheetFirst": "Lag et arbeidsark først.",
+    "pleaseGenerateWorksheetFirst": "Lag et oppgaveark først.",
     "canvasIsEmpty": "Arbeidsområdet er tomt.",
     "couldNotLoadThemes": "Kunne ikke laste temaer.",
     "pleaseGenerateContentFirst": "Lag innholdet først.",
@@ -2184,17 +2181,17 @@ const translations = {
     // ============= CORE UI =============
     "matchupMaker": "Yhdistämistehtävien luoja",
     "worksheet": "Tehtävämoniste",
-    "answerKey": "Vastausavain",
+    "answerKey": "Vastaukset",
 
     // ============= ACTION BUTTONS =============
     "generate": "Luo",
     "generateWorksheet": "Luo tehtävämoniste",
-    "generateAnswerKey": "Luo vastausavain",
+    "generateAnswerKey": "Luo vastaukset",
     "download": "Lataa",
     "worksheetJpeg": "Tehtävämoniste (JPEG)",
-    "answerKeyJpeg": "Vastausavain (JPEG)",
+    "answerKeyJpeg": "Vastaukset (JPEG)",
     "worksheetPdf": "Tehtävämoniste (PDF)",
-    "answerKeyPdf": "Vastausavain (PDF)",
+    "answerKeyPdf": "Vastaukset (PDF)",
     "grayscale": "Harmaasävy",
     "clearAll": "Tyhjennä kaikki",
 
@@ -2207,7 +2204,7 @@ const translations = {
     "textTools": "Tekstityökalut",
     "worksheetConfiguration": "Tehtävämonisteen asetukset",
     "imageLibrary": "Kuvakirjasto",
-    "uploadCustomImages": "Lataa omia kuvia",
+    "uploadCustomImages": "Lähetä omia kuvia",
     "itemConfiguration": "Kohteiden asetukset",
 
     // ============= PAGE SETUP =============
@@ -2228,7 +2225,6 @@ const translations = {
     "backgroundTheme": "Taustateema:",
     "none": "Ei mitään",
     "common.none": "Ei mitään",
-    "none": "Ei mitään",
     "selectBackgroundTheme": "Valitse taustateema.",
     "backgroundOpacity": "Taustan läpinäkyvyys:",
 
@@ -2272,7 +2268,7 @@ const translations = {
     "randomThemeAndImages": "Satunnainen teema & kuvat",
     "randomFromChosenTheme": "Satunnainen valitusta teemasta",
     "selectSpecificImages": "Valitse tietyt kuvat",
-    "worksheetTheme": "Tehtäväarkin teema:",
+    "worksheetTheme": "Tehtävämonisteen teema:",
 
     // ============= IMAGE LIBRARY =============
     "filterByTheme": "Suodata teeman mukaan:",
@@ -2283,8 +2279,8 @@ const translations = {
     "selectedImages": "Valitut kuvat:",
 
     // ============= UPLOAD SECTION =============
-    "selectImagesToUpload": "Valitse ladattavat kuvat:",
-    "yourUploadedImages": "Omat ladatut kuvat:",
+    "selectImagesToUpload": "Valitse lähetettävät kuvat:",
+    "yourUploadedImages": "Omat lähetetyt kuvat:",
 
     // ============= MODAL DIALOG =============
     "pickAnImage": "Valitse kuva",
@@ -2322,7 +2318,7 @@ const translations = {
     // ============= SUCCESS MESSAGES =============
     "generatingWorksheet": "Luodaan tehtävämonistetta...",
     "worksheetGeneratedSuccessfully": "Tehtävämoniste luotu!",
-    "generatingAnswerKey": "Luodaan vastausavainta...",
+    "generatingAnswerKey": "Luodaan vastauksia...",
     "downloadInitiated": "Tiedoston {filename} lataus aloitettu!",
     "downloadComplete": "{filename} ladattu!",
     "clearedAllSettings": "Kaikki asetukset tyhjennetty.",

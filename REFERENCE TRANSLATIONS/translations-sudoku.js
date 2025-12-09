@@ -110,7 +110,7 @@ const SUDOKU_TRANSLATIONS = {
     // ============= IMAGE LIBRARY =============
     "sudoku.image.library": "Image Library",
     "sudoku.image.source": "Image Source for Puzzle",
-    "sudoku.generate.theme": "Generate from Theme:",
+    "sudoku.generate.theme": "Create from Theme:",
     "sudoku.select.individual": "-- Or Select Individual Images Below --",
     "sudoku.image.individual": "Individual Image Selection",
     "sudoku.filter.theme": "Filter by Theme:",
@@ -157,9 +157,9 @@ const SUDOKU_TRANSLATIONS = {
     "redo": "Redo (Ctrl+Y)",
 
     // ============= ACTION BUTTONS =============
-    "sudoku.generate": "Generate",
-    "sudoku.generate.worksheet": "Generate Worksheet",
-    "sudoku.generate.answer": "Generate Answer Key",
+    "sudoku.generate": "Create",
+    "sudoku.generate.worksheet": "Create Worksheet",
+    "sudoku.generate.answer": "Create Answer Key",
     "sudoku.download": "Download",
     "sudoku.download.worksheet.jpeg": "Worksheet (JPEG)",
     "sudoku.download.answer.jpeg": "Answer Key (JPEG)",

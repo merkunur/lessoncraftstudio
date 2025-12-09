@@ -147,6 +147,22 @@ const translations = {
         "uploadedImagesWillAppearHere": "Your uploaded images will appear here.",
         "filesSelected": "{} file(s) selected",
 
+        // Manual Image Edit
+        "manualImageEdit": "Manual Image Name Editing",
+        "enableManualEdit": "Edit image names before generating",
+        "manualEditDescription": "When enabled, you can manually select images and edit their names below before generating the puzzle.",
+        "selectAndEditImages": "Select and Edit Images",
+        "manualEditInstructions": "Click to add images, then edit names below:",
+        "clickImagesToAddThem": "Click images from the library to add them here for editing.",
+
+        // Custom Word List
+        "customWordList": "Custom Word List",
+        "useCustomWords": "Use custom word list",
+        "customWordListDescription": "When enabled, generate text-only puzzles using your custom word list (no images).",
+        "enterWords": "Enter words (one per line, max 8):",
+        "customWordsPlaceholder": "apple\nbanana\norange\ngrape",
+        "customWordListNote": "Only letters are allowed. Special characters and numbers will be removed.",
+
         // Toolbar & Alignment
         "layers": "Layers",
         "bringForward": "Bring Forward",
@@ -194,6 +210,7 @@ const translations = {
         "allSettingsCleared": "All settings cleared.",
         "puzzleWillGenerateUsing": "Puzzle will be created using the '{}' theme.",
         "customImagesAvailable": "{} custom image(s) available.",
+        "customWordListEnabled": "Custom word list mode enabled. Puzzle will be text-only.",
         "jpegDownloadInitiated": "JPEG download initiated!",
         "pdfDownloaded": "PDF downloaded!",
 
@@ -214,6 +231,7 @@ const translations = {
         "themeNeedsMinImages": "Theme '{}' needs at least {} images.",
         "pleaseWaitForThemes": "Please wait for themes to load...",
         "noImagesSelectedOrAvailable": "No images selected or available to create the puzzle.",
+        "customWordListEmpty": "Please enter at least one word in the custom word list.",
         "failedToPlaceWords": "Failed to place any words. Try a larger grid or different words.",
         "noImagesFound": "No images found",
         "maxImagesSelected": "You can select a maximum of {} images.",
@@ -344,6 +362,22 @@ const translations = {
         "uploadedImagesWillAppearHere": "Ihre hochgeladenen Bilder erscheinen hier.",
         "filesSelected": "{} Datei(en) ausgewählt",
 
+        // Manuelle Bildnamensbearbeitung
+        "manualImageEdit": "Manuelle Bildnamensbearbeitung",
+        "enableManualEdit": "Bildnamen vor dem Generieren bearbeiten",
+        "manualEditDescription": "Wenn aktiviert, können Sie Bilder manuell auswählen und deren Namen unten bearbeiten, bevor Sie das Rätsel generieren.",
+        "selectAndEditImages": "Bilder auswählen und bearbeiten",
+        "manualEditInstructions": "Klicken Sie, um Bilder hinzuzufügen, und bearbeiten Sie die Namen unten:",
+        "clickImagesToAddThem": "Klicken Sie auf Bilder aus der Bibliothek, um sie hier zur Bearbeitung hinzuzufügen.",
+
+        // Eigene Wortliste
+        "customWordList": "Eigene Wortliste",
+        "useCustomWords": "Eigene Wortliste verwenden",
+        "customWordListDescription": "Wenn aktiviert, werden reine Texträtsel mit Ihrer eigenen Wortliste erstellt (ohne Bilder).",
+        "enterWords": "Wörter eingeben (ein Wort pro Zeile, max. 8):",
+        "customWordsPlaceholder": "Apfel\nBanane\nOrange\nTraube",
+        "customWordListNote": "Nur Buchstaben sind erlaubt. Sonderzeichen und Zahlen werden entfernt.",
+
         // Werkzeugleiste & Ausrichtung
         "layers": "Ebenen",
         "bringForward": "Nach vorne",
@@ -391,6 +425,7 @@ const translations = {
         "allSettingsCleared": "Alle Einstellungen gelöscht.",
         "puzzleWillGenerateUsing": "Rätsel wird mit dem Thema '{}' erstellt.",
         "customImagesAvailable": "{} benutzerdefinierte(s) Bild(er) verfügbar.",
+        "customWordListEnabled": "Eigene Wortliste aktiviert. Das Rätsel wird nur aus Text bestehen.",
         "jpegDownloadInitiated": "JPEG-Download gestartet!",
         "pdfDownloaded": "PDF heruntergeladen!",
 
@@ -411,6 +446,7 @@ const translations = {
         "themeNeedsMinImages": "Thema '{}' benötigt mindestens {} Bilder.",
         "pleaseWaitForThemes": "Bitte warten Sie, bis die Themen geladen sind...",
         "noImagesSelectedOrAvailable": "Keine Bilder ausgewählt oder verfügbar für das Rätsel.",
+        "customWordListEmpty": "Bitte geben Sie mindestens ein Wort in die eigene Wortliste ein.",
         "failedToPlaceWords": "Keine Wörter konnten platziert werden. Versuchen Sie ein größeres Gitter oder andere Wörter.",
         "noImagesFound": "Keine Bilder gefunden",
         "maxImagesSelected": "Sie können maximal {} Bilder auswählen.",
@@ -542,6 +578,22 @@ const translations = {
         "uploadedImagesWillAppearHere": "Vos images téléchargées apparaîtront ici.",
         "filesSelected": "{} fichier(s) sélectionné(s)",
 
+        // Modification manuelle des noms d'images
+        "manualImageEdit": "Modification manuelle des noms d'images",
+        "enableManualEdit": "Modifier les noms d'images avant la création",
+        "manualEditDescription": "Lorsque cette option est activée, vous pouvez sélectionner manuellement les images et modifier leurs noms ci-dessous avant de créer le puzzle.",
+        "selectAndEditImages": "Sélectionner et modifier les images",
+        "manualEditInstructions": "Cliquez pour ajouter des images, puis modifiez les noms ci-dessous :",
+        "clickImagesToAddThem": "Cliquez sur des images de la bibliothèque pour les ajouter ici et les modifier.",
+
+        // Liste de mots personnalisée
+        "customWordList": "Liste de mots personnalisée",
+        "useCustomWords": "Utiliser une liste de mots personnalisée",
+        "customWordListDescription": "Lorsque cette option est activée, créez des puzzles contenant uniquement du texte à partir de votre liste de mots personnalisée (sans images).",
+        "enterWords": "Entrez les mots (un par ligne, 8 max.) :",
+        "customWordsPlaceholder": "pomme\nbanane\norange\nraisin",
+        "customWordListNote": "Seules les lettres sont autorisées. Les caractères spéciaux et les chiffres seront supprimés.",
+
         // Barre d'outils et alignement
         "layers": "Calques",
         "bringForward": "Avancer",
@@ -589,6 +641,7 @@ const translations = {
         "allSettingsCleared": "Tous les paramètres ont été effacés.",
         "puzzleWillGenerateUsing": "Le puzzle sera créé avec le thème '{}'.",
         "customImagesAvailable": "{} image(s) personnalisée(s) disponible(s).",
+        "customWordListEnabled": "Mode liste de mots personnalisée activé. Le puzzle sera uniquement textuel.",
         "jpegDownloadInitiated": "Téléchargement JPEG lancé !",
         "pdfDownloaded": "PDF téléchargé !",
 
@@ -609,6 +662,7 @@ const translations = {
         "themeNeedsMinImages": "Le thème '{}' nécessite au moins {} images.",
         "pleaseWaitForThemes": "Veuillez attendre le chargement des thèmes...",
         "noImagesSelectedOrAvailable": "Aucune image sélectionnée ou disponible pour créer le puzzle.",
+        "customWordListEmpty": "Veuillez entrer au moins un mot dans la liste de mots personnalisée.",
         "failedToPlaceWords": "Impossible de placer les mots. Essayez une grille plus grande ou des mots différents.",
         "noImagesFound": "Aucune image trouvée",
         "maxImagesSelected": "Vous pouvez sélectionner un maximum de {} images.",
@@ -740,6 +794,22 @@ const translations = {
         "uploadedImagesWillAppearHere": "Sus imágenes cargadas aparecerán aquí.",
         "filesSelected": "{} archivo(s) seleccionado(s)",
 
+        // Edición manual de nombres de imágenes
+        "manualImageEdit": "Edición manual de nombres de imágenes",
+        "enableManualEdit": "Editar nombres de imágenes antes de crear",
+        "manualEditDescription": "Cuando esta opción está activada, puede seleccionar manualmente las imágenes y editar sus nombres a continuación antes de crear el juego.",
+        "selectAndEditImages": "Seleccionar y editar imágenes",
+        "manualEditInstructions": "Haz clic para añadir imágenes y luego edita los nombres a continuación:",
+        "clickImagesToAddThem": "Haz clic en las imágenes de la biblioteca para añadirlas aquí y editarlas.",
+
+        // Lista de palabras personalizada
+        "customWordList": "Lista de palabras personalizada",
+        "useCustomWords": "Usar lista de palabras personalizada",
+        "customWordListDescription": "Cuando esta opción está activada, cree juegos que solo contengan texto usando su lista de palabras personalizada (sin imágenes).",
+        "enterWords": "Introduce las palabras (una por línea, máx. 8):",
+        "customWordsPlaceholder": "manzana\nplátano\nnaranja\nuva",
+        "customWordListNote": "Solo se permiten letras. Los caracteres especiales y los números se eliminarán.",
+
         // Barra de herramientas y alineación
         "layers": "Capas",
         "bringForward": "Traer adelante",
@@ -787,6 +857,7 @@ const translations = {
         "allSettingsCleared": "Toda la configuración ha sido borrada.",
         "puzzleWillGenerateUsing": "El juego se creará usando el tema '{}'.",
         "customImagesAvailable": "{} imagen(es) propia(s) disponible(s).",
+        "customWordListEnabled": "Modo de lista de palabras personalizada activado. El juego será solo de texto.",
         "jpegDownloadInitiated": "¡Descarga de JPEG iniciada!",
         "pdfDownloaded": "¡PDF descargado!",
 
@@ -807,6 +878,7 @@ const translations = {
         "themeNeedsMinImages": "El tema '{}' necesita al menos {} imágenes.",
         "pleaseWaitForThemes": "Por favor, espera a que se carguen los temas...",
         "noImagesSelectedOrAvailable": "No hay imágenes seleccionadas o disponibles para crear el juego.",
+        "customWordListEmpty": "Por favor, introduce al menos una palabra en la lista de palabras personalizada.",
         "failedToPlaceWords": "No se pudieron colocar palabras. Intenta con una cuadrícula más grande o palabras diferentes.",
         "noImagesFound": "No se encontraron imágenes",
         "maxImagesSelected": "Puedes seleccionar un máximo de {} imágenes.",
@@ -936,6 +1008,22 @@ const translations = {
         "uploadedImagesWillAppearHere": "Le tue immagini caricate appariranno qui.",
         "filesSelected": "{} file selezionato/i",
 
+        // Modifica manuale dei nomi delle immagini
+        "manualImageEdit": "Modifica manuale dei nomi delle immagini",
+        "enableManualEdit": "Modifica i nomi delle immagini prima di creare",
+        "manualEditDescription": "Quando questa opzione è attivata, è possibile selezionare manualmente le immagini e modificare i loro nomi qui sotto prima di creare il puzzle.",
+        "selectAndEditImages": "Seleziona e modifica immagini",
+        "manualEditInstructions": "Clicca per aggiungere immagini, poi modifica i nomi qui sotto:",
+        "clickImagesToAddThem": "Clicca sulle immagini dalla biblioteca per aggiungerle qui e modificarle.",
+
+        // Elenco parole personalizzato
+        "customWordList": "Elenco parole personalizzato",
+        "useCustomWords": "Usa elenco parole personalizzato",
+        "customWordListDescription": "Quando questa opzione è attivata, crea puzzle contenenti solo testo usando il tuo elenco parole personalizzato (senza immagini).",
+        "enterWords": "Inserisci le parole (una per riga, max 8):",
+        "customWordsPlaceholder": "mela\nbanana\narancia\nuva",
+        "customWordListNote": "Sono ammesse solo lettere. I caratteri speciali e i numeri verranno rimossi.",
+
         // Barra strumenti e allineamento
         "layers": "Livelli",
         "bringForward": "Porta avanti",
@@ -983,6 +1071,7 @@ const translations = {
         "allSettingsCleared": "Tutte le impostazioni sono state cancellate.",
         "puzzleWillGenerateUsing": "Il puzzle verrà creato usando il tema '{}'.",
         "customImagesAvailable": "{} immagine/i personalizzata/e disponibile/i.",
+        "customWordListEnabled": "Modalità elenco parole personalizzato attivata. Il puzzle sarà solo testuale.",
         "jpegDownloadInitiated": "Scaricamento JPEG avviato!",
         "pdfDownloaded": "PDF scaricato!",
 
@@ -1003,6 +1092,7 @@ const translations = {
         "themeNeedsMinImages": "Il tema '{}' richiede almeno {} immagini.",
         "pleaseWaitForThemes": "Attendi il caricamento dei temi...",
         "noImagesSelectedOrAvailable": "Nessuna immagine selezionata o disponibile per creare il puzzle.",
+        "customWordListEmpty": "Inserisci almeno una parola nell'elenco parole personalizzato.",
         "failedToPlaceWords": "Impossibile posizionare le parole. Prova con una griglia più grande o parole diverse.",
         "noImagesFound": "Nessuna immagine trovata",
         "maxImagesSelected": "Puoi selezionare un massimo di {} immagini.",
@@ -1134,6 +1224,22 @@ const translations = {
         "uploadedImagesWillAppearHere": "Suas imagens carregadas aparecerão aqui.",
         "filesSelected": "{} arquivo(s) selecionado(s)",
 
+        // Edição manual de nomes de imagens
+        "manualImageEdit": "Edição manual de nomes de imagens",
+        "enableManualEdit": "Editar nomes de imagens antes de criar",
+        "manualEditDescription": "Quando ativada, você pode selecionar manualmente as imagens e editar seus nomes abaixo antes de criar o quebra-cabeça.",
+        "selectAndEditImages": "Selecionar e editar imagens",
+        "manualEditInstructions": "Clique para adicionar imagens e depois edite os nomes abaixo:",
+        "clickImagesToAddThem": "Clique nas imagens da biblioteca para adicioná-las aqui para edição.",
+
+        // Lista de palavras personalizada
+        "customWordList": "Lista de palavras personalizada",
+        "useCustomWords": "Usar lista de palavras personalizada",
+        "customWordListDescription": "Quando ativada, crie quebra-cabeças apenas de texto usando sua lista de palavras personalizada (sem imagens).",
+        "enterWords": "Digite as palavras (uma por linha, máx. 8):",
+        "customWordsPlaceholder": "maçã\nbanana\nlaranja\nuva",
+        "customWordListNote": "Apenas letras são permitidas. Caracteres especiais e números serão removidos.",
+
         // Barra de ferramentas e alinhamento
         "layers": "Camadas",
         "bringForward": "Trazer para frente",
@@ -1181,6 +1287,7 @@ const translations = {
         "allSettingsCleared": "Todas as configurações foram limpas.",
         "puzzleWillGenerateUsing": "O quebra-cabeça será criado usando o tema '{}'.",
         "customImagesAvailable": "{} imagem(ns) personalizada(s) disponível(is).",
+        "customWordListEnabled": "Modo de lista de palavras personalizada ativado. O quebra-cabeça será apenas textual.",
         "jpegDownloadInitiated": "Download de JPEG iniciado!",
         "pdfDownloaded": "PDF baixado!",
 
@@ -1201,6 +1308,7 @@ const translations = {
         "themeNeedsMinImages": "O tema '{}' precisa de pelo menos {} imagens.",
         "pleaseWaitForThemes": "Por favor, aguarde o carregamento dos temas...",
         "noImagesSelectedOrAvailable": "Nenhuma imagem selecionada ou disponível para criar o quebra-cabeça.",
+        "customWordListEmpty": "Por favor, digite pelo menos uma palavra na lista de palavras personalizada.",
         "failedToPlaceWords": "Falha ao posicionar palavras. Tente uma grade maior ou palavras diferentes.",
         "noImagesFound": "Nenhuma imagem encontrada",
         "maxImagesSelected": "Você pode selecionar no máximo {} imagens.",
@@ -1330,6 +1438,22 @@ const translations = {
         "uploadedImagesWillAppearHere": "Je geüploade afbeeldingen verschijnen hier.",
         "filesSelected": "{} bestand(en) geselecteerd",
 
+        // Handmatige bewerking van afbeeldingsnamen
+        "manualImageEdit": "Handmatige bewerking van afbeeldingsnamen",
+        "enableManualEdit": "Afbeeldingsnamen bewerken voor het maken",
+        "manualEditDescription": "Wanneer ingeschakeld, kun je handmatig afbeeldingen selecteren en hun namen hieronder bewerken voordat je de puzzel maakt.",
+        "selectAndEditImages": "Selecteer en bewerk afbeeldingen",
+        "manualEditInstructions": "Klik om afbeeldingen toe te voegen, bewerk vervolgens de namen hieronder:",
+        "clickImagesToAddThem": "Klik op afbeeldingen uit de bibliotheek om ze hier toe te voegen en te bewerken.",
+
+        // Aangepaste woordenlijst
+        "customWordList": "Aangepaste woordenlijst",
+        "useCustomWords": "Gebruik aangepaste woordenlijst",
+        "customWordListDescription": "Wanneer ingeschakeld, maak tekstpuzzels met je aangepaste woordenlijst (geen afbeeldingen).",
+        "enterWords": "Voer woorden in (één per regel, max. 8):",
+        "customWordsPlaceholder": "appel\nbanaan\nsinaasappel\ndruif",
+        "customWordListNote": "Alleen letters zijn toegestaan. Speciale tekens en cijfers worden verwijderd.",
+
         // Werkbalk en uitlijning
         "layers": "Lagen",
         "bringForward": "Naar voren",
@@ -1377,6 +1501,7 @@ const translations = {
         "allSettingsCleared": "Alle instellingen gewist.",
         "puzzleWillGenerateUsing": "Puzzel wordt gemaakt met thema '{}'.",
         "customImagesAvailable": "{} aangepaste afbeelding(en) beschikbaar.",
+        "customWordListEnabled": "Aangepaste woordenlijst-modus ingeschakeld. De puzzel bestaat alleen uit tekst.",
         "jpegDownloadInitiated": "JPEG download gestart!",
         "pdfDownloaded": "PDF gedownload!",
 
@@ -1397,6 +1522,7 @@ const translations = {
         "themeNeedsMinImages": "Thema '{}' heeft minstens {} afbeeldingen nodig.",
         "pleaseWaitForThemes": "Wacht tot de thema's zijn geladen...",
         "noImagesSelectedOrAvailable": "Geen afbeeldingen geselecteerd of beschikbaar om de puzzel te maken.",
+        "customWordListEmpty": "Voer minimaal één woord in de aangepaste woordenlijst in.",
         "failedToPlaceWords": "Kon geen woorden plaatsen. Probeer een groter rooster of andere woorden.",
         "noImagesFound": "Geen afbeeldingen gevonden",
         "maxImagesSelected": "Je kunt maximaal {} afbeeldingen selecteren.",
@@ -1528,6 +1654,22 @@ const translations = {
         "uploadedImagesWillAppearHere": "Dina uppladdade bilder visas här.",
         "filesSelected": "{} fil(er) valda",
 
+        // Manuell redigering av bildnamn
+        "manualImageEdit": "Manuell redigering av bildnamn",
+        "enableManualEdit": "Redigera bildnamn innan skapande",
+        "manualEditDescription": "När denna funktion är aktiverad kan du välja bilder manuellt och redigera deras namn nedan innan du skapar pusslet.",
+        "selectAndEditImages": "Välj och redigera bilder",
+        "manualEditInstructions": "Klicka för att lägga till bilder, redigera sedan namnen nedan:",
+        "clickImagesToAddThem": "Klicka på bilder från biblioteket för att lägga till dem här för redigering.",
+
+        // Anpassad ordlista
+        "customWordList": "Anpassad ordlista",
+        "useCustomWords": "Använd anpassad ordlista",
+        "customWordListDescription": "När denna funktion är aktiverad, skapa textpussel med din anpassade ordlista (inga bilder).",
+        "enterWords": "Ange ord (ett per rad, max 8):",
+        "customWordsPlaceholder": "äpple\nbanan\napelsin\ndruva",
+        "customWordListNote": "Endast bokstäver är tillåtna. Specialtecken och siffror tas bort.",
+
         // Verktygsfält och justering
         "layers": "Lager",
         "bringForward": "Flytta framåt",
@@ -1575,6 +1717,7 @@ const translations = {
         "allSettingsCleared": "Alla inställningar rensade.",
         "puzzleWillGenerateUsing": "Spelet kommer att skapas med temat '{}'.",
         "customImagesAvailable": "{} anpassad(e) bild(er) tillgängliga.",
+        "customWordListEnabled": "Anpassat ordlisteläge aktiverat. Pusslet kommer endast att vara text.",
         "jpegDownloadInitiated": "JPEG-nedladdning startad!",
         "pdfDownloaded": "PDF nedladdad!",
 
@@ -1595,6 +1738,7 @@ const translations = {
         "themeNeedsMinImages": "Temat '{}' behöver minst {} bilder.",
         "pleaseWaitForThemes": "Vänta medan teman laddas...",
         "noImagesSelectedOrAvailable": "Inga bilder valda eller tillgängliga för att skapa spelet.",
+        "customWordListEmpty": "Ange minst ett ord i den anpassade ordlistan.",
         "failedToPlaceWords": "Kunde inte placera några ord. Prova ett större rutnät eller andra ord.",
         "noImagesFound": "Inga bilder hittades",
         "maxImagesSelected": "Du kan välja maximalt {} bilder.",
@@ -1726,6 +1870,22 @@ const translations = {
         "uploadedImagesWillAppearHere": "Dine uploadede billeder vises her.",
         "filesSelected": "{} fil(er) valgt",
 
+        // Manuel redigering af billednavne
+        "manualImageEdit": "Manuel redigering af billednavne",
+        "enableManualEdit": "Rediger billednavne før oprettelse",
+        "manualEditDescription": "Når denne funktion er aktiveret, kan du manuelt vælge billeder og redigere deres navne nedenfor, inden du opretter puslespillet.",
+        "selectAndEditImages": "Vælg og rediger billeder",
+        "manualEditInstructions": "Klik for at tilføje billeder, og rediger derefter navnene nedenfor:",
+        "clickImagesToAddThem": "Klik på billeder fra biblioteket for at tilføje dem her til redigering.",
+
+        // Tilpasset ordliste
+        "customWordList": "Tilpasset ordliste",
+        "useCustomWords": "Brug tilpasset ordliste",
+        "customWordListDescription": "Når denne funktion er aktiveret, opret tekstpuslespil med din tilpassede ordliste (ingen billeder).",
+        "enterWords": "Indtast ord (ét pr. linje, maks. 8):",
+        "customWordsPlaceholder": "æble\nbanan\nappelsin\ndrue",
+        "customWordListNote": "Kun bogstaver er tilladt. Specialtegn og tal vil blive fjernet.",
+
         // Værktøjslinje og justering
         "layers": "Lag",
         "bringForward": "Flyt fremad",
@@ -1773,6 +1933,7 @@ const translations = {
         "allSettingsCleared": "Alle indstillinger ryddet.",
         "puzzleWillGenerateUsing": "Puslespillet oprettes med temaet '{}'.",
         "customImagesAvailable": "{} tilpasset(e) billede(r) tilgængelige.",
+        "customWordListEnabled": "Tilpasset ordliste-tilstand aktiveret. Puslespillet bliver kun tekst.",
         "jpegDownloadInitiated": "JPEG-download startet!",
         "pdfDownloaded": "PDF downloadet!",
 
@@ -1793,6 +1954,7 @@ const translations = {
         "themeNeedsMinImages": "Temaet '{}' kræver mindst {} billeder.",
         "pleaseWaitForThemes": "Vent venligst på at temaerne indlæses...",
         "noImagesSelectedOrAvailable": "Ingen billeder valgt eller tilgængelige til at oprette puslespillet.",
+        "customWordListEmpty": "Indtast venligst mindst ét ord i den tilpassede ordliste.",
         "failedToPlaceWords": "Kunne ikke placere ord. Prøv et større gitter eller andre ord.",
         "noImagesFound": "Ingen billeder fundet",
         "maxImagesSelected": "Du kan vælge maksimalt {} billeder.",
@@ -1924,6 +2086,22 @@ const translations = {
         "uploadedImagesWillAppearHere": "Dine opplastede bilder vises her.",
         "filesSelected": "{} fil(er) valgt",
 
+        // Manuell redigering av bildenavn
+        "manualImageEdit": "Manuell redigering av bildenavn",
+        "enableManualEdit": "Rediger bildenavn før oppretting",
+        "manualEditDescription": "Når dette er aktivert, kan du velge bilder manuelt og redigere navnene deres nedenfor før du oppretter oppgaven.",
+        "selectAndEditImages": "Velg og rediger bilder",
+        "manualEditInstructions": "Klikk for å legge til bilder, rediger deretter navnene nedenfor:",
+        "clickImagesToAddThem": "Klikk på bilder fra biblioteket for å legge dem til her for redigering.",
+
+        // Tilpasset ordliste
+        "customWordList": "Tilpasset ordliste",
+        "useCustomWords": "Bruk tilpasset ordliste",
+        "customWordListDescription": "Når dette er aktivert, opprett tekstoppgaver med din tilpassede ordliste (ingen bilder).",
+        "enterWords": "Skriv inn ord (ett per linje, maks. 8):",
+        "customWordsPlaceholder": "eple\nbanan\nappelsin\ndrue",
+        "customWordListNote": "Kun bokstaver er tillatt. Spesialtegn og tall vil bli fjernet.",
+
         // Verktøylinje og justering
         "layers": "Lag",
         "bringForward": "Flytt fremover",
@@ -1971,6 +2149,7 @@ const translations = {
         "allSettingsCleared": "Alle innstillinger slettet.",
         "puzzleWillGenerateUsing": "Oppgaven vil lages med temaet '{}'.",
         "customImagesAvailable": "{} egendefinert(e) bilde(r) tilgjengelig.",
+        "customWordListEnabled": "Tilpasset ordliste-modus aktivert. Oppgaven vil kun være tekst.",
         "jpegDownloadInitiated": "JPEG-nedlasting startet!",
         "pdfDownloaded": "PDF lastet ned!",
 
@@ -1991,6 +2170,7 @@ const translations = {
         "themeNeedsMinImages": "Temaet '{}' trenger minst {} bilder.",
         "pleaseWaitForThemes": "Vennligst vent på at temaene lastes...",
         "noImagesSelectedOrAvailable": "Ingen bilder valgt eller tilgjengelige for å lage oppgaven.",
+        "customWordListEmpty": "Vennligst skriv inn minst ett ord i den tilpassede ordlisten.",
         "failedToPlaceWords": "Kunne ikke plassere ord. Prøv et større rutenett eller andre ord.",
         "noImagesFound": "Ingen bilder funnet",
         "maxImagesSelected": "Du kan velge maksimalt {} bilder.",
@@ -2120,6 +2300,22 @@ const translations = {
         "uploadedImagesWillAppearHere": "Ladatut kuvasi näkyvät täällä.",
         "filesSelected": "{} tiedosto(a) valittu",
 
+        // Kuvannimien manuaalinen muokkaus
+        "manualImageEdit": "Kuvannimien manuaalinen muokkaus",
+        "enableManualEdit": "Muokkaa kuvannimiä ennen luomista",
+        "manualEditDescription": "Kun tämä on käytössä, voit valita kuvat manuaalisesti ja muokata niiden nimiä alla ennen tehtävän luomista.",
+        "selectAndEditImages": "Valitse ja muokkaa kuvia",
+        "manualEditInstructions": "Klikkaa lisätäksesi kuvia, muokkaa sitten nimiä alla:",
+        "clickImagesToAddThem": "Klikkaa kirjaston kuvia lisätäksesi ne tähän muokattavaksi.",
+
+        // Mukautettu sanalista
+        "customWordList": "Mukautettu sanalista",
+        "useCustomWords": "Käytä mukautettua sanalistaa",
+        "customWordListDescription": "Kun tämä on käytössä, luo vain tekstiä sisältäviä tehtäviä mukautetulla sanalistallasi (ei kuvia).",
+        "enterWords": "Kirjoita sanat (yksi per rivi, max. 8):",
+        "customWordsPlaceholder": "omena\nbanaani\nappelsiini\nrypäle",
+        "customWordListNote": "Vain kirjaimet ovat sallittuja. Erikoismerkit ja numerot poistetaan.",
+
         // Työkalupalkki ja kohdistus
         "layers": "Tasot",
         "bringForward": "Siirrä eteenpäin",
@@ -2167,6 +2363,7 @@ const translations = {
         "allSettingsCleared": "Kaikki asetukset tyhjennetty.",
         "puzzleWillGenerateUsing": "Ristikko luodaan teemalla '{}'.",
         "customImagesAvailable": "{} mukautettu(a) kuva(a) saatavilla.",
+        "customWordListEnabled": "Mukautettu sanalista -tila käytössä. Ristikko on vain tekstiä.",
         "jpegDownloadInitiated": "JPEG-lataus aloitettu!",
         "pdfDownloaded": "PDF ladattu!",
 
@@ -2187,6 +2384,7 @@ const translations = {
         "themeNeedsMinImages": "Teema '{}' tarvitsee vähintään {} kuvaa.",
         "pleaseWaitForThemes": "Odota kunnes teemat on ladattu...",
         "noImagesSelectedOrAvailable": "Ei valittuja tai saatavilla olevia kuvia ristikon luomiseen.",
+        "customWordListEmpty": "Kirjoita vähintään yksi sana mukautettuun sanalistaan.",
         "failedToPlaceWords": "Sanojen sijoitus epäonnistui. Kokeile suurempaa ruudukkoa tai eri sanoja.",
         "noImagesFound": "Kuvia ei löytynyt",
         "maxImagesSelected": "Voit valita enintään {} kuvaa.",

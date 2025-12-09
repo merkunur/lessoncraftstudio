@@ -999,6 +999,40 @@
                         </div>
                     </div>
                 </div>
+                <div class="accordion-item">
+                    <button class="accordion-button" data-translate="manualImageEdit">Manual Image Name Editing</button>
+                    <div class="accordion-wrapper">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="enableManualEditMode" />
+                            <span data-translate="enableManualEdit">Edit image names before generating</span>
+                        </label>
+                        <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin: 10px 0;" data-translate="manualEditDescription">
+                            When enabled, you can manually select images and edit their names below before generating the puzzle.
+                        </p>
+                        <div id="manualEditContainer" style="display: none;">
+                            <h4 data-translate="selectAndEditImages">Select and Edit Images</h4>
+                            <label data-translate="manualEditInstructions">Click to add images, then edit names below:</label>
+                            <div id="manualEditImagesPreview" style="border: 1px dashed var(--app-border-dark); padding: 10px; min-height: 120px; background-color: var(--app-surface-dark); border-radius: 5px; margin: 10px 0;">
+                                <p class="dictionary-message" data-translate="clickImagesToAddThem">Click images from the library to add them here for editing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button" data-translate="customWordList">Custom Word List with Clues</button>
+                    <div class="accordion-wrapper">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="enableCustomWordList" />
+                            <span data-translate="useCustomWords">Use custom word list with clues</span>
+                        </label>
+                        <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin: 10px 0;" data-translate="customWordListDescription"></p>
+                        <div id="customWordListContainer" style="display: none;">
+                            <label for="customWordListInput" data-translate="enterWordsAndClues"></label>
+                            <textarea id="customWordListInput" rows="10" data-translate-placeholder="customWordsPlaceholder" style="font-family: monospace; resize: vertical;"></textarea>
+                            <p style="font-size: 11px; color: var(--app-text-secondary-dark-theme); margin-top: 5px;" data-translate="customWordListNote"></p>
+                        </div>
+                    </div>
+                </div>
                 <div id="message"></div>
             </div>
         </div>
@@ -1171,6 +1205,10 @@ document.addEventListener("DOMContentLoaded", function() {
     let lastGeneratedPlacedWords = [];
     let lastGeneratedClueImages = [];
     let searchTimeout;
+    let manualEditMode = false;
+    let manualEditImages = [];
+    let customWordListMode = false;
+    let customWordList = [];
 
     let worksheetCanvas, answerKeyCanvas;
     // currentCanvasConfig already declared globally
@@ -1484,7 +1522,48 @@ document.addEventListener("DOMContentLoaded", function() {
             searchTimeout = setTimeout(renderDictionary, 300);
         });
         imageUploadInput.addEventListener('change', handleImageUpload);
-        
+
+        // Manual Edit Mode
+        const enableManualEditCheckbox = document.getElementById('enableManualEditMode');
+        const manualEditContainer = document.getElementById('manualEditContainer');
+        if (enableManualEditCheckbox && manualEditContainer) {
+            enableManualEditCheckbox.addEventListener('change', () => {
+                manualEditMode = enableManualEditCheckbox.checked;
+                manualEditContainer.style.display = manualEditMode ? 'block' : 'none';
+                if (manualEditMode) {
+                    // Clear normal selection when entering manual edit mode
+                    worksheetThemeSelect.value = 'random_auto';
+                    renderManualEditImages();
+                } else {
+                    // Clear manual edit when disabling
+                    manualEditImages = [];
+                    renderSelectedImages();
+                    renderDictionary();
+                }
+            });
+        }
+
+        // Custom Word List Mode
+        const enableCustomWordListInput = document.getElementById('enableCustomWordList');
+        const customWordListContainer = document.getElementById('customWordListContainer');
+        const customWordListInput = document.getElementById('customWordListInput');
+        if (enableCustomWordListInput && customWordListContainer) {
+            enableCustomWordListInput.addEventListener('change', () => {
+                customWordListMode = enableCustomWordListInput.checked;
+                customWordListContainer.style.display = customWordListMode ? 'block' : 'none';
+                if (customWordListMode) {
+                    // Disable manual edit mode if custom word list is enabled
+                    if (manualEditMode && enableManualEditCheckbox) {
+                        enableManualEditCheckbox.checked = false;
+                        enableManualEditCheckbox.dispatchEvent(new Event('change'));
+                    }
+                    showMessage(t('customWordListEnabled') || 'Custom word list mode enabled. Crossword will use text clues.', 'info', 3000);
+                } else {
+                    customWordList = [];
+                }
+            });
+        }
+
         addTextBtn.addEventListener('click', handleAddText);
         [textColorInput, fontSizeInput, fontFamilySelect, textStrokeColorInput, textStrokeWidthInput].forEach(el => {
             el.addEventListener('input', updateActiveTextObjectProperties);
@@ -1939,6 +2018,91 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
+    function renderManualEditImages() {
+        const manualEditPreview = document.getElementById('manualEditImagesPreview');
+        if (!manualEditPreview) return;
+
+        manualEditPreview.innerHTML = "";
+
+        if (manualEditImages.length === 0) {
+            manualEditPreview.innerHTML = `<p class="dictionary-message">${getTranslation('clickImagesToAddThem', currentLocale)}</p>`;
+            return;
+        }
+
+        manualEditImages.forEach((img, index) => {
+            const item = document.createElement('div');
+            item.style.cssText = 'display: flex; align-items: center; gap: 8px; padding: 10px; margin-bottom: 10px; background-color: rgba(255, 255, 255, 0.03); border-radius: 6px; border: 1px solid var(--app-border-dark); transition: background-color 0.2s;';
+
+            const imgPreview = document.createElement('img');
+            imgPreview.src = img.path;
+            imgPreview.style.cssText = 'width: 45px; height: 45px; object-fit: contain; border: 1px solid var(--app-border-dark); border-radius: 4px; background-color: var(--app-surface-light); flex-shrink: 0;';
+
+            const initialValue = img.editedName || img.name || img.word || '';
+
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.placeholder = 'Enter name...';
+            input.tabIndex = 0;
+            input.style.cssText = 'flex: 1; padding: 8px 10px; font-size: 14px; border-radius: 4px; border: 1px solid var(--app-border-dark); background: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); cursor: text;';
+            input.setAttribute('data-index', index);
+            input.setAttribute('autocomplete', 'off');
+            input.setAttribute('spellcheck', 'false');
+            input.id = `input-${index}`;
+
+            input.addEventListener('input', (e) => {
+                e.stopPropagation();
+                manualEditImages[index].editedName = e.target.value;
+            });
+
+            input.addEventListener('focus', (e) => {
+                e.stopPropagation();
+                const currentValue = input.value;
+                input.value = '';
+                input.value = currentValue;
+                input.setSelectionRange(currentValue.length, currentValue.length);
+                item.style.backgroundColor = 'rgba(0, 122, 255, 0.1)';
+            });
+
+            input.addEventListener('blur', (e) => {
+                item.style.backgroundColor = 'rgba(255, 255, 255, 0.03)';
+            });
+
+            input.addEventListener('click', (e) => {
+                e.stopPropagation();
+            });
+
+            input.addEventListener('keydown', (e) => {
+                e.stopPropagation();
+            });
+
+            const removeBtn = document.createElement('button');
+            removeBtn.innerHTML = '<i class="fas fa-times"></i>';
+            removeBtn.title = 'Remove';
+            removeBtn.style.cssText = 'width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; background: transparent; border: 1px solid var(--app-border-dark); border-radius: 4px; color: var(--app-text-secondary-dark-theme); cursor: pointer; flex-shrink: 0; transition: all 0.2s;';
+            removeBtn.onclick = () => {
+                manualEditImages.splice(index, 1);
+                renderManualEditImages();
+            };
+            removeBtn.onmouseover = () => {
+                removeBtn.style.backgroundColor = 'rgba(255, 59, 48, 0.15)';
+                removeBtn.style.borderColor = '#ff3b30';
+                removeBtn.style.color = '#ff3b30';
+            };
+            removeBtn.onmouseout = () => {
+                removeBtn.style.backgroundColor = 'transparent';
+                removeBtn.style.borderColor = 'var(--app-border-dark)';
+                removeBtn.style.color = 'var(--app-text-secondary-dark-theme)';
+            };
+
+            item.appendChild(imgPreview);
+            item.appendChild(input);
+            item.appendChild(removeBtn);
+            manualEditPreview.appendChild(item);
+
+            input.value = initialValue;
+        });
+    }
+
     function renderSelectedImages() {
         selectedImagesPreviewDiv.innerHTML = "";
         userSelectedImages.forEach((img) => {
@@ -2008,7 +2172,53 @@ document.addEventListener("DOMContentLoaded", function() {
     async function generatePuzzleData() {
         let sourceImages = [];
         const selectedWorksheetTheme = worksheetThemeSelect.value;
-        if (selectedWorksheetTheme) {
+
+        // Check custom word list mode first
+        if (customWordListMode && customWordListInput && customWordListInput.value.trim()) {
+            // Parse custom words with hints from textarea (format: word: hint)
+            const lines = customWordListInput.value
+                .split('\n')
+                .map(line => line.trim())
+                .filter(line => line.length > 0);
+
+            const parsedWords = [];
+            for (const line of lines) {
+                // Split by first colon to separate word from hint
+                const colonIndex = line.indexOf(':');
+                if (colonIndex > 0) {
+                    const word = line.substring(0, colonIndex).trim().toUpperCase();
+                    const hint = line.substring(colonIndex + 1).trim();
+
+                    if (word && hint) {
+                        parsedWords.push({
+                            word: word,
+                            name: word,
+                            path: null,  // No image path for custom words
+                            hint: hint   // Store the hint text
+                        });
+                    }
+                }
+            }
+
+            if (parsedWords.length < PUZZLE_IMAGE_COUNT) {
+                showMessage(`Please enter at least ${PUZZLE_IMAGE_COUNT} words with clues (format: WORD: clue text).`, 'error');
+                return null;
+            }
+
+            // Limit to PUZZLE_IMAGE_COUNT words
+            sourceImages = parsedWords.slice(0, PUZZLE_IMAGE_COUNT);
+        } else if (manualEditMode && manualEditImages.length > 0) {
+            if (manualEditImages.length < PUZZLE_IMAGE_COUNT) {
+                showMessage(formatTranslation('crossword.msg.min.images', {min: PUZZLE_IMAGE_COUNT}, currentLocale), 'error');
+                return null;
+            }
+            // Use manually edited images with custom names
+            sourceImages = manualEditImages.slice(0, PUZZLE_IMAGE_COUNT).map(img => ({
+                ...img,
+                word: img.editedName || img.name || img.word,
+                name: img.editedName || img.name || img.word
+            }));
+        } else if (selectedWorksheetTheme) {
             // Include locale in cache key to ensure correct language names
             const cacheKey = `${selectedWorksheetTheme}-${currentLocale}`;
             if (!allImagesCache[cacheKey]) {
@@ -2040,6 +2250,8 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         
         let words = sourceImages.map(i => i.word.toUpperCase());
+        // Shuffle words first to ensure different layouts each time, then sort by length for better placement
+        words = shuffleArray(words);
         words.sort((a, b) => b.length - a.length);
         const N = 15;
         let placed = [];
@@ -2397,6 +2609,25 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     
     function handleImageSelection(image) {
+        // Handle manual edit mode differently
+        if (manualEditMode) {
+            const index = manualEditImages.findIndex(i => i.path === image.path);
+            if (index > -1) {
+                manualEditImages.splice(index, 1);
+            } else {
+                if (manualEditImages.length >= PUZZLE_IMAGE_COUNT) {
+                    showMessage(getTranslation('crossword.max.images.selected', currentLocale).replace('{count}', PUZZLE_IMAGE_COUNT), 'error');
+                    return;
+                }
+                // Add a copy with editedName property
+                const newImage = {...image, editedName: image.name || image.word || image.path.split('/').pop().split('.')[0]};
+                manualEditImages.push(newImage);
+            }
+            renderManualEditImages();
+            return;
+        }
+
+        // Normal mode behavior
         if (worksheetThemeSelect.value) {
             showMessage(getTranslation('crossword.click.select', currentLocale), 'info');
             return;
@@ -2695,27 +2926,37 @@ document.addEventListener("DOMContentLoaded", function() {
 
     async function createClueGroups() {
         const clueGroups = [];
-        
-        // Wait for all images to load first to calculate dimensions
+
+        // Wait for all images/hints to load first to calculate dimensions
         const loadedImages = [];
         for (let i = 0; i < lastGeneratedPlacedWords.length; i++) {
             const p = lastGeneratedPlacedWords[i];
             const imageInfo = lastGeneratedClueImages.find(s => s.word.toUpperCase() === p.word);
-            
+
             if (imageInfo) {
-                const promise = new Promise((resolve) => {
-                    fabric.Image.fromURL(imageInfo.path, (img) => {
-                        if (!img) { resolve(null); return; }
-                        resolve({ img, p, imageInfo });
-                    }, { crossOrigin: 'anonymous' });
-                });
-                loadedImages.push(promise);
+                // Check if this is a custom word with hint (no path)
+                if (imageInfo.hint && !imageInfo.path) {
+                    // Create text clue instead of image
+                    const promise = new Promise((resolve) => {
+                        resolve({ img: null, p, imageInfo, isTextClue: true });
+                    });
+                    loadedImages.push(promise);
+                } else {
+                    // Load image as usual
+                    const promise = new Promise((resolve) => {
+                        fabric.Image.fromURL(imageInfo.path, (img) => {
+                            if (!img) { resolve(null); return; }
+                            resolve({ img, p, imageInfo, isTextClue: false });
+                        }, { crossOrigin: 'anonymous' });
+                    });
+                    loadedImages.push(promise);
+                }
             }
         }
-        
+
         const imageData = await Promise.all(loadedImages);
         const validImages = imageData.filter(data => data !== null);
-        
+
         if (validImages.length === 0) return [];
         
         // This function will be called after grid position is determined
@@ -2750,29 +2991,63 @@ document.addEventListener("DOMContentLoaded", function() {
             
             // Create clue groups with proper positioning
             validImages.forEach((data, index) => {
-                const { img, p } = data;
-                
-                img.scaleToWidth(clueWidth);
-                const numText = new fabric.Text(p.num.toString(), { 
-                    fontSize: Math.floor(clueWidth * 0.25),  // Scale font with image size
-                    fontFamily: 'Fredoka', 
-                    originX: 'center',
-                    fill: '#333',
-                    fontWeight: 'bold'
-                });
-                
-                const gap = -5;
-                const numHeight = numText.getScaledHeight();
-                const imgHeight = img.getScaledHeight();
-                const totalHeight = numHeight + gap + imgHeight;
-                
-                numText.set({ left: clueWidth / 2, top: -totalHeight / 2 });
-                img.set({ top: numText.top + numHeight + gap, left: 0 });
-                
-                const clueGroup = new fabric.Group([numText, img], {
-                    borderColor: 'var(--app-accent-primary)', 
-                    cornerColor: 'var(--app-accent-primary)',
-                });
+                const { img, p, imageInfo, isTextClue } = data;
+
+                let clueGroup, totalHeight;
+
+                if (isTextClue && imageInfo.hint) {
+                    // Create text clue (for custom words with hints)
+                    const numText = new fabric.Text(p.num.toString() + '.', {
+                        fontSize: 16,
+                        fontFamily: 'Fredoka',
+                        fill: '#333',
+                        fontWeight: 'bold'
+                    });
+
+                    const hintText = new fabric.Textbox(imageInfo.hint, {
+                        fontSize: 14,
+                        fontFamily: 'Arial',
+                        fill: '#333',
+                        width: clueWidth * 3,  // Wider for text
+                        textAlign: 'left'
+                    });
+
+                    const gap = 5;
+                    const numHeight = numText.getScaledHeight();
+                    const hintHeight = hintText.getScaledHeight();
+                    totalHeight = numHeight + gap + hintHeight;
+
+                    numText.set({ left: 0, top: 0 });
+                    hintText.set({ left: numText.width + gap, top: 0 });
+
+                    clueGroup = new fabric.Group([numText, hintText], {
+                        borderColor: 'var(--app-accent-primary)',
+                        cornerColor: 'var(--app-accent-primary)',
+                    });
+                } else {
+                    // Create image clue (traditional)
+                    img.scaleToWidth(clueWidth);
+                    const numText = new fabric.Text(p.num.toString(), {
+                        fontSize: Math.floor(clueWidth * 0.25),  // Scale font with image size
+                        fontFamily: 'Fredoka',
+                        originX: 'center',
+                        fill: '#333',
+                        fontWeight: 'bold'
+                    });
+
+                    const gap = -5;
+                    const numHeight = numText.getScaledHeight();
+                    const imgHeight = img.getScaledHeight();
+                    totalHeight = numHeight + gap + imgHeight;
+
+                    numText.set({ left: clueWidth / 2, top: -totalHeight / 2 });
+                    img.set({ top: numText.top + numHeight + gap, left: 0 });
+
+                    clueGroup = new fabric.Group([numText, img], {
+                        borderColor: 'var(--app-accent-primary)',
+                        cornerColor: 'var(--app-accent-primary)',
+                    });
+                }
                 
                 // Position based on orientation
                 if (isLandscape) {
@@ -2839,7 +3114,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
     
     function shuffleArray(arr) { return arr.slice().sort(() => Math.random() - 0.5); }
-    function buildGridFromWords(words, N, placed) { const grid = Array.from({length:N}, ()=>Array(N).fill('')); const first=words[0]; const mid=Math.floor(N/2); const startCol=mid-Math.floor(first.length/2); for(let k=0;k<first.length;k++){grid[mid][startCol+k]=first[k];} placed.push({word:first,x:startCol,y:mid,dir:'across',num:1}); for(let idx=1;idx<words.length;idx++){ const w=words[idx]; let pF=false; const ints=findIntersections(w,grid); shuffleArray(ints); for(const{r_intersect:rI,c_intersect:cI,char_idx_in_w:cW} of ints){for(const dir of ['across','down']){const row=rI-(dir==='down'?cW:0);const col=cI-(dir==='across'?cW:0);if(canPlace(w,row,col,dir,rI,cI,grid)){doPlace(w,row,col,dir,grid,placed);pF=true;break;}}if(pF)break;}}return grid; }
+    function buildGridFromWords(words, N, placed) { const grid = Array.from({length:N}, ()=>Array(N).fill('')); const first=words[0]; const mid=Math.floor(N/2); const startCol=mid-Math.floor(first.length/2); for(let k=0;k<first.length;k++){grid[mid][startCol+k]=first[k];} placed.push({word:first,x:startCol,y:mid,dir:'across',num:1}); for(let idx=1;idx<words.length;idx++){ const w=words[idx]; let pF=false; const ints=findIntersections(w,grid); shuffleArray(ints); for(const{r_intersect:rI,c_intersect:cI,char_idx_in_w:cW} of ints){const dirs=shuffleArray(['across','down']); for(const dir of dirs){const row=rI-(dir==='down'?cW:0);const col=cI-(dir==='across'?cW:0);if(canPlace(w,row,col,dir,rI,cI,grid)){doPlace(w,row,col,dir,grid,placed);pF=true;break;}}if(pF)break;}}return grid; }
     function findIntersections(word, grid) { const N = 15; const gL = []; for(let r=0;r<N;r++)for(let c=0;c<N;c++)if(grid[r][c])gL.push({ch:grid[r][c],r,c}); const iS=[]; gL.forEach(({ch,r,c})=>{ for(let j=0;j<word.length;j++)if(word[j]===ch)iS.push({r_intersect:r,c_intersect:c,char_idx_in_w:j}); }); return iS;}
     function canPlace(word, row, col, dir, iR, iC, grid) { const N=15; const dr=dir==='down'?1:0, dc=dir==='across'?1:0; for(let k=0;k<word.length;k++){ const r=row+dr*k, c=col+dc*k; if(r<0||r>=N||c<0||c>=N)return false; const ex=grid[r][c]; if(ex&&!(r===iR&&c===iC))return false; if(!(r===iR&&c===iC)){if(dir==='across'){if((r>0&&grid[r-1][c])||(r<N-1&&grid[r+1][c]))return false;}else{if((c>0&&grid[r][c-1])||(c<N-1&&grid[r][c+1]))return false;}}}const bR=row-dr,bC=col-dc;if(bR>=0&&bC>=0&&bR<N&&bC<N&&grid[bR][bC])return false;const aR=row+dr*word.length,aC=col+dc*word.length;if(aR>=0&&aC>=0&&aR<N&&aC<N&&grid[aR][aC])return false;return true; }
     function doPlace(word, row, col, dir, grid, placed) { const dr=dir==='down'?1:0, dc=dir==='across'?1:0; for(let k=0;k<word.length;k++)grid[row+dr*k][col+dc*k]=word[k]; placed.push({word,x:col,y:row,dir,num:placed.length+1}); }

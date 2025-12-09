@@ -85,6 +85,25 @@ const translations = {
         "yourUploadedImages": "Your uploaded images",
         "yourUploadedImagesAppearHere": "Your uploaded images appear here.",
 
+        // Manual edit mode
+        "manualImageEdit": "Manual Image Name Editing",
+        "enableManualEdit": "Edit image names before generating",
+        "manualEditDescription": "When enabled, you can manually select images and edit their names below before generating the puzzle.",
+        "selectAndEditImages": "Select and Edit Images",
+        "manualEditInstructions": "Click to add images, then edit names below:",
+        "clickImagesToAddThem": "Click images from the library to add them here for editing.",
+
+        // Custom Word List
+        "customWordList": "Custom Word List",
+        "useCustomWords": "Use custom word list",
+        "customWordListDescription": "When enabled, generate text-only exercises using your custom word list (no images).",
+        "enterWords": "Enter words (one per line, max 8):",
+        "customWordsPlaceholder": "apple\nbanana\norange\ngrape",
+        "customWordListNote": "Only letters are allowed. Special characters and numbers will be removed.",
+        "customWordListEnabled": "Custom word list mode enabled. Exercise will be text-only.",
+        "customWordListEmpty": "Please enter at least one word in the custom word list.",
+        "customWordListTruncated": "Using {count} word(s) from your list. Add more words for more exercises.",
+
         // Problem settings
         "puzzlesPerPage": "Puzzles per page:",
         "difficulty": "Difficulty (Number of Clues)",
@@ -255,6 +274,25 @@ const translations = {
         "yourUploadedImages": "Ihre hochgeladenen Bilder",
         "yourUploadedImagesAppearHere": "Ihre hochgeladenen Bilder erscheinen hier.",
 
+        // Manual edit mode
+        "manualImageEdit": "Manuelle Bildnamensbearbeitung",
+        "enableManualEdit": "Bildnamen vor dem Generieren bearbeiten",
+        "manualEditDescription": "Wenn aktiviert, können Sie Bilder manuell auswählen und deren Namen unten bearbeiten, bevor Sie das Rätsel generieren.",
+        "selectAndEditImages": "Bilder auswählen und bearbeiten",
+        "manualEditInstructions": "Klicken Sie, um Bilder hinzuzufügen, und bearbeiten Sie die Namen unten:",
+        "clickImagesToAddThem": "Klicken Sie auf Bilder aus der Bibliothek, um sie hier zur Bearbeitung hinzuzufügen.",
+
+        // Eigene Wortliste
+        "customWordList": "Eigene Wortliste",
+        "useCustomWords": "Eigene Wortliste verwenden",
+        "customWordListDescription": "Wenn aktiviert, werden reine Textübungen mit Ihrer eigenen Wortliste erstellt (ohne Bilder).",
+        "enterWords": "Wörter eingeben (ein Wort pro Zeile, max. 8):",
+        "customWordsPlaceholder": "Apfel\nBanane\nOrange\nTraube",
+        "customWordListNote": "Nur Buchstaben sind erlaubt. Sonderzeichen und Zahlen werden entfernt.",
+        "customWordListEnabled": "Eigene Wortliste aktiviert. Die Übung wird nur aus Text bestehen.",
+        "customWordListEmpty": "Bitte geben Sie mindestens ein Wort in die eigene Wortliste ein.",
+        "customWordListTruncated": "{count} Wort/Wörter aus Ihrer Liste verwendet. Fügen Sie mehr Wörter für mehr Übungen hinzu.",
+
         // Problem settings
         "puzzlesPerPage": "Rätsel pro Seite:",
         "difficulty": "Schwierigkeitsgrad (Anzahl Hinweise)",
@@ -424,6 +462,25 @@ const translations = {
         "filesSelected": "{count} fichier(s) sélectionné(s)",
         "yourUploadedImages": "Vos images importées",
         "yourUploadedImagesAppearHere": "Vos images importées apparaissent ici.",
+
+        // Modification manuelle des noms d'images
+        "manualImageEdit": "Modification manuelle des noms d'images",
+        "enableManualEdit": "Modifier les noms d'images avant la création",
+        "manualEditDescription": "Lorsque cette option est activée, vous pouvez sélectionner manuellement les images et modifier leurs noms ci-dessous avant de créer l'exercice.",
+        "selectAndEditImages": "Sélectionner et modifier les images",
+        "manualEditInstructions": "Cliquez pour ajouter des images, puis modifiez les noms ci-dessous :",
+        "clickImagesToAddThem": "Cliquez sur des images de la bibliothèque pour les ajouter ici et les modifier.",
+
+        // Liste de mots personnalisée
+        "customWordList": "Liste de mots personnalisée",
+        "useCustomWords": "Utiliser une liste de mots personnalisée",
+        "customWordListDescription": "Lorsque cette option est activée, créez des exercices contenant uniquement du texte à partir de votre liste de mots personnalisée (sans images).",
+        "enterWords": "Entrez les mots (un par ligne, 8 max.) :",
+        "customWordsPlaceholder": "pomme\nbanane\norange\nraisin",
+        "customWordListNote": "Seules les lettres sont autorisées. Les caractères spéciaux et les chiffres seront supprimés.",
+        "customWordListEnabled": "Mode liste de mots personnalisée activé. L'exercice sera uniquement textuel.",
+        "customWordListEmpty": "Veuillez entrer au moins un mot dans la liste de mots personnalisée.",
+        "customWordListTruncated": "Utilisation de {count} mot(s) de votre liste. Ajoutez plus de mots pour plus d'exercices.",
 
         // Problem settings
         "puzzlesPerPage": "Énigmes par page :",
@@ -596,6 +653,25 @@ const translations = {
         "yourUploadedImages": "Sus imágenes subidas",
         "yourUploadedImagesAppearHere": "Sus imágenes subidas aparecen aquí.",
 
+        // Edición manual de nombres de imágenes
+        "manualImageEdit": "Edición manual de nombres de imágenes",
+        "enableManualEdit": "Editar nombres de imágenes antes de crear",
+        "manualEditDescription": "Cuando esta opción está activada, puede seleccionar manualmente las imágenes y editar sus nombres a continuación antes de crear el ejercicio.",
+        "selectAndEditImages": "Seleccionar y editar imágenes",
+        "manualEditInstructions": "Haz clic para añadir imágenes y luego edita los nombres a continuación:",
+        "clickImagesToAddThem": "Haz clic en las imágenes de la biblioteca para añadirlas aquí y editarlas.",
+
+        // Lista de palabras personalizada
+        "customWordList": "Lista de palabras personalizada",
+        "useCustomWords": "Usar lista de palabras personalizada",
+        "customWordListDescription": "Cuando esta opción está activada, cree ejercicios que solo contengan texto usando su lista de palabras personalizada (sin imágenes).",
+        "enterWords": "Introduce las palabras (una por línea, máx. 8):",
+        "customWordsPlaceholder": "manzana\nplátano\nnaranja\nuva",
+        "customWordListNote": "Solo se permiten letras. Los caracteres especiales y los números se eliminarán.",
+        "customWordListEnabled": "Modo de lista de palabras personalizada activado. El ejercicio será solo de texto.",
+        "customWordListEmpty": "Por favor, introduce al menos una palabra en la lista de palabras personalizada.",
+        "customWordListTruncated": "Usando {count} palabra(s) de su lista. Añada más palabras para más ejercicios.",
+
         // Problem settings
         "puzzlesPerPage": "Actividades por página:",
         "allBlack": "Todo Negro",
@@ -767,6 +843,25 @@ const translations = {
         "yourUploadedImages": "Le tue immagini caricate",
         "yourUploadedImagesAppearHere": "Le tue immagini caricate appaiono qui.",
 
+        // Modifica manuale dei nomi delle immagini
+        "manualImageEdit": "Modifica manuale dei nomi delle immagini",
+        "enableManualEdit": "Modifica i nomi delle immagini prima di creare",
+        "manualEditDescription": "Quando questa opzione è attivata, è possibile selezionare manualmente le immagini e modificare i loro nomi qui sotto prima di creare l'esercizio.",
+        "selectAndEditImages": "Seleziona e modifica immagini",
+        "manualEditInstructions": "Clicca per aggiungere immagini, poi modifica i nomi qui sotto:",
+        "clickImagesToAddThem": "Clicca sulle immagini dalla biblioteca per aggiungerle qui e modificarle.",
+
+        // Elenco parole personalizzato
+        "customWordList": "Elenco parole personalizzato",
+        "useCustomWords": "Usa elenco parole personalizzato",
+        "customWordListDescription": "Quando questa opzione è attivata, crea esercizi contenenti solo testo usando il tuo elenco parole personalizzato (senza immagini).",
+        "enterWords": "Inserisci le parole (una per riga, max 8):",
+        "customWordsPlaceholder": "mela\nbanana\narancia\nuva",
+        "customWordListNote": "Sono ammesse solo lettere. I caratteri speciali e i numeri verranno rimossi.",
+        "customWordListEnabled": "Modalità elenco parole personalizzato attivata. L'esercizio sarà solo testuale.",
+        "customWordListEmpty": "Inserisci almeno una parola nell'elenco parole personalizzato.",
+        "customWordListTruncated": "Utilizzo di {count} parola/e dalla tua lista. Aggiungi più parole per più esercizi.",
+
         // Problem settings
         "puzzlesPerPage": "Attività per pagina:",
         "allBlack": "Tutto nero",
@@ -937,6 +1032,25 @@ const translations = {
         "yourUploadedImages": "Suas imagens carregadas",
         "yourUploadedImagesAppearHere": "Suas imagens carregadas aparecem aqui.",
 
+        // Edição manual de nomes de imagens
+        "manualImageEdit": "Edição manual de nomes de imagens",
+        "enableManualEdit": "Editar nomes de imagens antes de criar",
+        "manualEditDescription": "Quando ativada, você pode selecionar manualmente as imagens e editar seus nomes abaixo antes de criar o exercício.",
+        "selectAndEditImages": "Selecionar e editar imagens",
+        "manualEditInstructions": "Clique para adicionar imagens e depois edite os nomes abaixo:",
+        "clickImagesToAddThem": "Clique nas imagens da biblioteca para adicioná-las aqui para edição.",
+
+        // Lista de palavras personalizada
+        "customWordList": "Lista de palavras personalizada",
+        "useCustomWords": "Usar lista de palavras personalizada",
+        "customWordListDescription": "Quando ativada, crie exercícios apenas de texto usando sua lista de palavras personalizada (sem imagens).",
+        "enterWords": "Digite as palavras (uma por linha, máx. 8):",
+        "customWordsPlaceholder": "maçã\nbanana\nlaranja\nuva",
+        "customWordListNote": "Apenas letras são permitidas. Caracteres especiais e números serão removidos.",
+        "customWordListEnabled": "Modo de lista de palavras personalizada ativado. O exercício será apenas textual.",
+        "customWordListEmpty": "Por favor, digite pelo menos uma palavra na lista de palavras personalizada.",
+        "customWordListTruncated": "Usando {count} palavra(s) da sua lista. Adicione mais palavras para mais exercícios.",
+
         // Problem settings
         "puzzlesPerPage": "Atividades por página:",
         "allBlack": "Tudo Preto",
@@ -1106,6 +1220,25 @@ const translations = {
         "filesSelected": "{count} bestand(en) geselecteerd",
         "yourUploadedImages": "Geüploade afbeeldingen",
         "yourUploadedImagesAppearHere": "Geüploade afbeeldingen verschijnen hier.",
+
+        // Handmatige bewerking van afbeeldingsnamen
+        "manualImageEdit": "Handmatige bewerking van afbeeldingsnamen",
+        "enableManualEdit": "Afbeeldingsnamen bewerken voor het maken",
+        "manualEditDescription": "Wanneer ingeschakeld, kun je handmatig afbeeldingen selecteren en hun namen hieronder bewerken voordat je de oefening maakt.",
+        "selectAndEditImages": "Selecteer en bewerk afbeeldingen",
+        "manualEditInstructions": "Klik om afbeeldingen toe te voegen, bewerk vervolgens de namen hieronder:",
+        "clickImagesToAddThem": "Klik op afbeeldingen uit de bibliotheek om ze hier toe te voegen en te bewerken.",
+
+        // Aangepaste woordenlijst
+        "customWordList": "Aangepaste woordenlijst",
+        "useCustomWords": "Gebruik aangepaste woordenlijst",
+        "customWordListDescription": "Wanneer ingeschakeld, maak tekstoefeningen met je aangepaste woordenlijst (geen afbeeldingen).",
+        "enterWords": "Voer woorden in (één per regel, max. 8):",
+        "customWordsPlaceholder": "appel\nbanaan\nsinaasappel\ndruif",
+        "customWordListNote": "Alleen letters zijn toegestaan. Speciale tekens en cijfers worden verwijderd.",
+        "customWordListEnabled": "Aangepaste woordenlijst-modus ingeschakeld. De oefening bestaat alleen uit tekst.",
+        "customWordListEmpty": "Voer minimaal één woord in de aangepaste woordenlijst in.",
+        "customWordListTruncated": "{count} woord(en) van je lijst gebruikt. Voeg meer woorden toe voor meer oefeningen.",
 
         // Problem settings
         "puzzlesPerPage": "Puzzels per pagina:",
@@ -1278,6 +1411,25 @@ const translations = {
         "yourUploadedImages": "Dina uppladdade bilder",
         "yourUploadedImagesAppearHere": "Dina uppladdade bilder visas här.",
 
+        // Manuell redigering av bildnamn
+        "manualImageEdit": "Manuell redigering av bildnamn",
+        "enableManualEdit": "Redigera bildnamn innan skapande",
+        "manualEditDescription": "När denna funktion är aktiverad kan du välja bilder manuellt och redigera deras namn nedan innan du skapar övningen.",
+        "selectAndEditImages": "Välj och redigera bilder",
+        "manualEditInstructions": "Klicka för att lägga till bilder, redigera sedan namnen nedan:",
+        "clickImagesToAddThem": "Klicka på bilder från biblioteket för att lägga till dem här för redigering.",
+
+        // Anpassad ordlista
+        "customWordList": "Anpassad ordlista",
+        "useCustomWords": "Använd anpassad ordlista",
+        "customWordListDescription": "När denna funktion är aktiverad, skapa textövningar med din anpassade ordlista (inga bilder).",
+        "enterWords": "Ange ord (ett per rad, max 8):",
+        "customWordsPlaceholder": "äpple\nbanan\napelsin\ndruva",
+        "customWordListNote": "Endast bokstäver är tillåtna. Specialtecken och siffror tas bort.",
+        "customWordListEnabled": "Anpassat ordlisteläge aktiverat. Övningen kommer endast att vara text.",
+        "customWordListEmpty": "Ange minst ett ord i den anpassade ordlistan.",
+        "customWordListTruncated": "Använder {count} ord från din lista. Lägg till fler ord för fler övningar.",
+
         // Problem settings
         "puzzlesPerPage": "Uppgifter per sida:",
         "allBlack": "Allt svart",
@@ -1448,6 +1600,25 @@ const translations = {
         "filesSelected": "{count} fil(er) valgt",
         "yourUploadedImages": "Dine uploadede billeder",
         "yourUploadedImagesAppearHere": "Dine uploadede billeder vises her.",
+
+        // Manuel redigering af billednavne
+        "manualImageEdit": "Manuel redigering af billednavne",
+        "enableManualEdit": "Rediger billednavne før oprettelse",
+        "manualEditDescription": "Når denne funktion er aktiveret, kan du manuelt vælge billeder og redigere deres navne nedenfor, inden du opretter øvelsen.",
+        "selectAndEditImages": "Vælg og rediger billeder",
+        "manualEditInstructions": "Klik for at tilføje billeder, og rediger derefter navnene nedenfor:",
+        "clickImagesToAddThem": "Klik på billeder fra biblioteket for at tilføje dem her til redigering.",
+
+        // Tilpasset ordliste
+        "customWordList": "Tilpasset ordliste",
+        "useCustomWords": "Brug tilpasset ordliste",
+        "customWordListDescription": "Når denne funktion er aktiveret, opret tekstøvelser med din tilpassede ordliste (ingen billeder).",
+        "enterWords": "Indtast ord (ét pr. linje, maks. 8):",
+        "customWordsPlaceholder": "æble\nbanan\nappelsin\ndrue",
+        "customWordListNote": "Kun bogstaver er tilladt. Specialtegn og tal vil blive fjernet.",
+        "customWordListEnabled": "Tilpasset ordliste-tilstand aktiveret. Øvelsen bliver kun tekst.",
+        "customWordListEmpty": "Indtast venligst mindst ét ord i den tilpassede ordliste.",
+        "customWordListTruncated": "Bruger {count} ord fra din liste. Tilføj flere ord for flere øvelser.",
 
         // Problem settings
         "puzzlesPerPage": "Opgaver per side:",
@@ -1620,6 +1791,25 @@ const translations = {
         "yourUploadedImages": "Dine opplastede bilder",
         "yourUploadedImagesAppearHere": "Dine opplastede bilder vises her.",
 
+        // Manuell redigering av bildenavn
+        "manualImageEdit": "Manuell redigering av bildenavn",
+        "enableManualEdit": "Rediger bildenavn før oppretting",
+        "manualEditDescription": "Når dette er aktivert, kan du velge bilder manuelt og redigere navnene deres nedenfor før du oppretter øvelsen.",
+        "selectAndEditImages": "Velg og rediger bilder",
+        "manualEditInstructions": "Klikk for å legge til bilder, rediger deretter navnene nedenfor:",
+        "clickImagesToAddThem": "Klikk på bilder fra biblioteket for å legge dem til her for redigering.",
+
+        // Tilpasset ordliste
+        "customWordList": "Tilpasset ordliste",
+        "useCustomWords": "Bruk tilpasset ordliste",
+        "customWordListDescription": "Når dette er aktivert, opprett tekstøvelser med din tilpassede ordliste (ingen bilder).",
+        "enterWords": "Skriv inn ord (ett per linje, maks. 8):",
+        "customWordsPlaceholder": "eple\nbanan\nappelsin\ndrue",
+        "customWordListNote": "Kun bokstaver er tillatt. Spesialtegn og tall vil bli fjernet.",
+        "customWordListEnabled": "Tilpasset ordliste-modus aktivert. Øvelsen vil kun være tekst.",
+        "customWordListEmpty": "Vennligst skriv inn minst ett ord i den tilpassede ordlisten.",
+        "customWordListTruncated": "Bruker {count} ord fra listen din. Legg til flere ord for flere øvelser.",
+
         // Problem settings
         "puzzlesPerPage": "Gåter per side:",
         "allBlack": "Alt svart",
@@ -1790,6 +1980,25 @@ const translations = {
         "filesSelected": "{count} tiedosto(a) valittu",
         "yourUploadedImages": "Lähettämäsi kuvat",
         "yourUploadedImagesAppearHere": "Lähettämäsi kuvat näkyvät täällä.",
+
+        // Kuvannimien manuaalinen muokkaus
+        "manualImageEdit": "Kuvannimien manuaalinen muokkaus",
+        "enableManualEdit": "Muokkaa kuvannimiä ennen luomista",
+        "manualEditDescription": "Kun tämä on käytössä, voit valita kuvat manuaalisesti ja muokata niiden nimiä alla ennen harjoituksen luomista.",
+        "selectAndEditImages": "Valitse ja muokkaa kuvia",
+        "manualEditInstructions": "Klikkaa lisätäksesi kuvia, muokkaa sitten nimiä alla:",
+        "clickImagesToAddThem": "Klikkaa kirjaston kuvia lisätäksesi ne tähän muokattavaksi.",
+
+        // Mukautettu sanalista
+        "customWordList": "Mukautettu sanalista",
+        "useCustomWords": "Käytä mukautettua sanalistaa",
+        "customWordListDescription": "Kun tämä on käytössä, luo vain tekstiä sisältäviä harjoituksia mukautetulla sanalistallasi (ei kuvia).",
+        "enterWords": "Kirjoita sanat (yksi per rivi, max. 8):",
+        "customWordsPlaceholder": "omena\nbanaani\nappelsiini\nrypäle",
+        "customWordListNote": "Vain kirjaimet ovat sallittuja. Erikoismerkit ja numerot poistetaan.",
+        "customWordListEnabled": "Mukautettu sanalista -tila käytössä. Harjoitus on vain tekstiä.",
+        "customWordListEmpty": "Kirjoita vähintään yksi sana mukautettuun sanalistaan.",
+        "customWordListTruncated": "Käytetään {count} sanaa listastasi. Lisää sanoja saadaksesi lisää harjoituksia.",
 
         // Problem settings
         "puzzlesPerPage": "Pulmia per sivu:",

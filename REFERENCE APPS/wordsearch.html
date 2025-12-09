@@ -987,6 +987,44 @@
                         </div>
                     </div>
                 </div>
+                <div class="accordion-item">
+                    <button class="accordion-button" data-translate="manualImageEdit">Manual Image Name Editing</button>
+                    <div class="accordion-content">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="enableManualEditMode" />
+                            <span data-translate="enableManualEdit">Edit image names before generating</span>
+                        </label>
+                        <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin: 10px 0;" data-translate="manualEditDescription">
+                            When enabled, you can manually select images and edit their names below before generating the puzzle.
+                        </p>
+                        <div id="manualEditContainer" style="display: none;">
+                            <h4 data-translate="selectAndEditImages">Select and Edit Images</h4>
+                            <label data-translate="manualEditInstructions">Click to add images, then edit names below:</label>
+                            <div id="manualEditImagesPreview" style="border: 1px dashed var(--app-border-dark); padding: 10px; min-height: 120px; background-color: var(--app-surface-dark); border-radius: 5px; margin: 10px 0;">
+                                <p class="dictionary-message" data-translate="clickImagesToAddThem">Click images from the library to add them here for editing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-button" data-translate="customWordList">Custom Word List</button>
+                    <div class="accordion-content">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="enableCustomWordList" />
+                            <span data-translate="useCustomWords">Use custom word list</span>
+                        </label>
+                        <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin: 10px 0;" data-translate="customWordListDescription">
+                            When enabled, generate text-only puzzles using your custom word list (no images).
+                        </p>
+                        <div id="customWordListContainer" style="display: none;">
+                            <label for="customWordListInput" data-translate="enterWords">Enter words (one per line, max 8):</label>
+                            <textarea id="customWordListInput" rows="8" placeholder="apple&#10;banana&#10;orange&#10;grape" data-translate-placeholder="customWordsPlaceholder" style="font-family: monospace; resize: vertical;"></textarea>
+                            <p style="font-size: 11px; color: var(--app-text-secondary-dark-theme); margin-top: 5px;" data-translate="customWordListNote">
+                                Only letters are allowed. Special characters and numbers will be removed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
                 <div id="message"></div>
             </div>
         </div>
@@ -1156,8 +1194,12 @@ document.addEventListener("DOMContentLoaded", function() {
     let allImagesCache = {};
     let uploadedImages = [];
     let userSelectedImages = [];
-    let lastGeneratedData = null; 
+    let lastGeneratedData = null;
     let searchTimeout;
+    let manualEditMode = false;
+    let manualEditImages = [];
+    let customWordListMode = false;
+    let customWordList = [];
 
     // Language/locale handling (already set globally)
     // currentLocale is available from global scope
@@ -1271,6 +1313,11 @@ document.addEventListener("DOMContentLoaded", function() {
     const selectedImagesPreviewDiv = getEl('selectedImagesPreview');
     const imageUploadInput = getEl('imageUploadInput');
     const uploadedImagesPreviewDiv = getEl('uploadedImagesPreview');
+
+    // Custom Word List
+    const enableCustomWordListInput = getEl('enableCustomWordList');
+    const customWordListContainer = getEl('customWordListContainer');
+    const customWordListInput = getEl('customWordListInput');
 
     // Context Toolbar
     const objectContextToolbar = getEl('object-context-toolbar');
@@ -1624,6 +1671,51 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }
         });
+
+        // Manual Edit Mode
+        const enableManualEditCheckbox = document.getElementById('enableManualEditMode');
+        const manualEditContainer = document.getElementById('manualEditContainer');
+        if (enableManualEditCheckbox && manualEditContainer) {
+            enableManualEditCheckbox.addEventListener('change', () => {
+                manualEditMode = enableManualEditCheckbox.checked;
+                manualEditContainer.style.display = manualEditMode ? 'block' : 'none';
+                if (manualEditMode) {
+                    // Clear normal selection when entering manual edit mode
+                    worksheetThemeSelect.value = 'random_auto';
+                    renderManualEditImages();
+                } else {
+                    // Clear manual edit when disabling
+                    manualEditImages = [];
+                    renderSelectedImages();
+                    renderDictionary();
+                }
+            });
+        }
+
+        // Custom Word List Mode
+        if (enableCustomWordListInput && customWordListContainer) {
+            enableCustomWordListInput.addEventListener('change', () => {
+                customWordListMode = enableCustomWordListInput.checked;
+                customWordListContainer.style.display = customWordListMode ? 'block' : 'none';
+                if (customWordListMode) {
+                    // Disable manual edit mode if custom word list is enabled
+                    if (manualEditMode && enableManualEditCheckbox) {
+                        enableManualEditCheckbox.checked = false;
+                        enableManualEditCheckbox.dispatchEvent(new Event('change'));
+                    }
+                    // Force text-only mode
+                    if (showOnlyWordsInput) {
+                        showOnlyWordsInput.checked = true;
+                    }
+                    if (showOnlyImagesInput) {
+                        showOnlyImagesInput.checked = false;
+                    }
+                    showMessage(t('customWordListEnabled') || 'Custom word list mode enabled. Puzzle will be text-only.', 'info', 3000);
+                } else {
+                    customWordList = [];
+                }
+            });
+        }
 
         // Text Tools
         addTextBtn.addEventListener('click', handleAddText);
@@ -1991,7 +2083,40 @@ document.addEventListener("DOMContentLoaded", function() {
         const selectedWorksheetTheme = worksheetThemeSelect.value;
         const numWords = getRandomInt(MIN_THEME_IMAGES, MAX_WORDS);
 
-        if (selectedWorksheetTheme && selectedWorksheetTheme !== 'random_auto') {
+        // Check custom word list mode first
+        if (customWordListMode && customWordListInput && customWordListInput.value.trim()) {
+            // Parse custom words from textarea (one per line)
+            const rawWords = customWordListInput.value
+                .split('\n')
+                .map(w => w.trim())
+                .filter(w => w.length > 0);
+
+            // Limit to MAX_WORDS
+            const limitedWords = rawWords.slice(0, MAX_WORDS);
+
+            if (limitedWords.length === 0) {
+                showMessage(t('customWordListEmpty') || 'Please enter at least one word in the custom word list.', 'error');
+                return null;
+            }
+
+            // Convert words to sourceImages format (text-only, no paths)
+            sourceImages = limitedWords.map(word => ({
+                word: word,
+                name: word,
+                path: null  // No image path for custom words
+            }));
+
+            if (limitedWords.length !== rawWords.length) {
+                showMessage(t('customWordListTruncated') || `Using first ${MAX_WORDS} words from your list.`, 'info', 3000);
+            }
+        } else if (manualEditMode && manualEditImages.length > 0) {
+            // Use manually edited images with custom names
+            sourceImages = manualEditImages.map(img => ({
+                ...img,
+                word: img.editedName || img.name || img.word,
+                name: img.editedName || img.name || img.word
+            }));
+        } else if (selectedWorksheetTheme && selectedWorksheetTheme !== 'random_auto') {
             const themeName = selectedWorksheetTheme === 'all' ? 'all' : selectedWorksheetTheme;
             const cacheKey = `${themeName}-${currentLocale}`;
             let themeImages = allImagesCache[cacheKey];
@@ -2944,6 +3069,25 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     function handleImageSelection(image) {
+        // Handle manual edit mode differently
+        if (manualEditMode) {
+            const index = manualEditImages.findIndex(i => i.path === image.path);
+            if (index > -1) {
+                manualEditImages.splice(index, 1);
+            } else {
+                if (manualEditImages.length >= MAX_WORDS) {
+                    showMessage(t('maxImagesSelected', {value: MAX_WORDS}), 'error');
+                    return;
+                }
+                // Add a copy with editedName property
+                const newImage = {...image, editedName: image.name || image.word || image.path.split('/').pop().split('.')[0]};
+                manualEditImages.push(newImage);
+            }
+            renderManualEditImages();
+            return;
+        }
+
+        // Normal mode behavior
         worksheetThemeSelect.value = "random_auto";
         const index = userSelectedImages.findIndex(i => i.path === image.path);
         if (index > -1) {
@@ -3045,6 +3189,96 @@ document.addEventListener("DOMContentLoaded", function() {
         uploadedImages.forEach(img => {
             const item = createThumbnailItem(img);
             uploadedImagesPreviewDiv.appendChild(item);
+        });
+    }
+
+    function renderManualEditImages() {
+        const manualEditPreview = document.getElementById('manualEditImagesPreview');
+        if (!manualEditPreview) return;
+
+        manualEditPreview.innerHTML = "";
+
+        if (manualEditImages.length === 0) {
+            manualEditPreview.innerHTML = `<p class="dictionary-message">${t('clickImagesToAddThem')}</p>`;
+            return;
+        }
+
+        manualEditImages.forEach((img, index) => {
+            const item = document.createElement('div');
+            item.style.cssText = 'display: flex; align-items: center; gap: 8px; padding: 10px; margin-bottom: 10px; background-color: rgba(255, 255, 255, 0.03); border-radius: 6px; border: 1px solid var(--app-border-dark); transition: background-color 0.2s;';
+
+            const imgPreview = document.createElement('img');
+            imgPreview.src = img.path;
+            imgPreview.style.cssText = 'width: 45px; height: 45px; object-fit: contain; border: 1px solid var(--app-border-dark); border-radius: 4px; background-color: var(--app-surface-light); flex-shrink: 0;';
+
+            const initialValue = img.editedName || img.name || img.word || '';
+
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.placeholder = 'Enter name...';
+            input.tabIndex = 0;
+            input.style.cssText = 'flex: 1; padding: 8px 10px; font-size: 14px; border-radius: 4px; border: 1px solid var(--app-border-dark); background: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); cursor: text;';
+            input.setAttribute('data-index', index);
+            input.setAttribute('autocomplete', 'off');
+            input.setAttribute('spellcheck', 'false');
+            input.id = `input-${index}`;
+
+            input.addEventListener('input', (e) => {
+                e.stopPropagation();
+                manualEditImages[index].editedName = e.target.value;
+            });
+
+            input.addEventListener('focus', (e) => {
+                e.stopPropagation();
+                // Clear and reset to allow normal typing
+                const currentValue = input.value;
+                input.value = '';
+                input.value = currentValue;
+                // Position cursor at end
+                input.setSelectionRange(currentValue.length, currentValue.length);
+                // Highlight the row
+                item.style.backgroundColor = 'rgba(0, 122, 255, 0.1)';
+            });
+
+            input.addEventListener('blur', (e) => {
+                // Remove highlight when unfocused
+                item.style.backgroundColor = 'rgba(255, 255, 255, 0.03)';
+            });
+
+            input.addEventListener('click', (e) => {
+                e.stopPropagation();
+            });
+
+            input.addEventListener('keydown', (e) => {
+                e.stopPropagation();
+            });
+
+            const removeBtn = document.createElement('button');
+            removeBtn.innerHTML = '<i class="fas fa-times"></i>';
+            removeBtn.title = 'Remove';
+            removeBtn.style.cssText = 'width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; background: transparent; border: 1px solid var(--app-border-dark); border-radius: 4px; color: var(--app-text-secondary-dark-theme); cursor: pointer; flex-shrink: 0; transition: all 0.2s;';
+            removeBtn.onclick = () => {
+                manualEditImages.splice(index, 1);
+                renderManualEditImages();
+            };
+            removeBtn.onmouseover = () => {
+                removeBtn.style.backgroundColor = 'rgba(255, 59, 48, 0.15)';
+                removeBtn.style.borderColor = '#ff3b30';
+                removeBtn.style.color = '#ff3b30';
+            };
+            removeBtn.onmouseout = () => {
+                removeBtn.style.backgroundColor = 'transparent';
+                removeBtn.style.borderColor = 'var(--app-border-dark)';
+                removeBtn.style.color = 'var(--app-text-secondary-dark-theme)';
+            };
+
+            item.appendChild(imgPreview);
+            item.appendChild(input);
+            item.appendChild(removeBtn);
+            manualEditPreview.appendChild(item);
+
+            // Set value AFTER appending to DOM
+            input.value = initialValue;
         });
     }
 

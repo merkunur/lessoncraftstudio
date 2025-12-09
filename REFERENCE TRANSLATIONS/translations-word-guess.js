@@ -90,6 +90,25 @@ const translations = {
     "library.uploadedImages": "Your Uploaded Images (This Session):",
     "library.selectedCount": "Selected: {x} / {y}",
 
+    // Manual edit mode
+    "manualImageEdit": "Manual Image Name Editing",
+    "enableManualEdit": "Edit image names before generating",
+    "manualEditDescription": "When enabled, you can manually select images and edit their names below before generating the puzzle.",
+    "selectAndEditImages": "Select and Edit Images",
+    "manualEditInstructions": "Click to add images, then edit names below:",
+    "clickImagesToAddThem": "Click images from the library to add them here for editing.",
+
+    // Custom Word List
+    "customWordList": "Custom Word List",
+    "useCustomWords": "Use custom word list",
+    "customWordListDescription": "When enabled, generate text-only exercises using your custom word list (no images).",
+    "enterWords": "Enter words (one per line, max 8):",
+    "customWordsPlaceholder": "apple\nbanana\norange\ngrape",
+    "customWordListNote": "Only letters are allowed. Special characters and numbers will be removed.",
+    "customWordListEnabled": "Custom word list mode enabled. Exercise will be text-only.",
+    "customWordListEmpty": "Please enter at least one word in the custom word list.",
+    "customWordListTruncated": "Using {count} word(s) from your list. Add more words for more exercises.",
+
     // ===== 8. TOOLBAR (13 items) =====
     "toolbar.layers": "Layers",
     "toolbar.bringForward": "Bring Forward",
@@ -286,6 +305,25 @@ const translations = {
     "library.filesSelected": "{x} Datei(en) ausgewählt",
     "library.uploadedImages": "Ihre hochgeladenen Bilder (Diese Sitzung):",
     "library.selectedCount": "Ausgewählt: {x} / {y}",
+
+    // Manual edit mode
+    "manualImageEdit": "Manuelle Bildnamensbearbeitung",
+    "enableManualEdit": "Bildnamen vor dem Generieren bearbeiten",
+    "manualEditDescription": "Wenn aktiviert, können Sie Bilder manuell auswählen und deren Namen unten bearbeiten, bevor Sie das Rätsel generieren.",
+    "selectAndEditImages": "Bilder auswählen und bearbeiten",
+    "manualEditInstructions": "Klicken Sie, um Bilder hinzuzufügen, und bearbeiten Sie die Namen unten:",
+    "clickImagesToAddThem": "Klicken Sie auf Bilder aus der Bibliothek, um sie hier zur Bearbeitung hinzuzufügen.",
+
+    // Eigene Wortliste
+    "customWordList": "Eigene Wortliste",
+    "useCustomWords": "Eigene Wortliste verwenden",
+    "customWordListDescription": "Wenn aktiviert, werden reine Textübungen mit Ihrer eigenen Wortliste erstellt (ohne Bilder).",
+    "enterWords": "Wörter eingeben (ein Wort pro Zeile, max. 8):",
+    "customWordsPlaceholder": "Apfel\nBanane\nOrange\nTraube",
+    "customWordListNote": "Nur Buchstaben sind erlaubt. Sonderzeichen und Zahlen werden entfernt.",
+    "customWordListEnabled": "Eigene Wortliste aktiviert. Die Übung wird nur aus Text bestehen.",
+    "customWordListEmpty": "Bitte geben Sie mindestens ein Wort in die eigene Wortliste ein.",
+    "customWordListTruncated": "{count} Wort/Wörter aus Ihrer Liste verwendet. Fügen Sie mehr Wörter für mehr Übungen hinzu.",
 
     // ===== 8. TOOLBAR (13 items) =====
     "toolbar.layers": "Ebenen",
@@ -484,6 +522,25 @@ const translations = {
     "library.uploadedImages": "Vos Images Ajoutées (Cette Session) :",
     "library.selectedCount": "Sélectionnées : {x} / {y}",
 
+    // Modification manuelle des noms d'images
+    "manualImageEdit": "Modification manuelle des noms d'images",
+    "enableManualEdit": "Modifier les noms d'images avant la création",
+    "manualEditDescription": "Lorsque cette option est activée, vous pouvez sélectionner manuellement les images et modifier leurs noms ci-dessous avant de créer l'exercice.",
+    "selectAndEditImages": "Sélectionner et modifier les images",
+    "manualEditInstructions": "Cliquez pour ajouter des images, puis modifiez les noms ci-dessous :",
+    "clickImagesToAddThem": "Cliquez sur des images de la bibliothèque pour les ajouter ici et les modifier.",
+
+    // Liste de mots personnalisée
+    "customWordList": "Liste de mots personnalisée",
+    "useCustomWords": "Utiliser une liste de mots personnalisée",
+    "customWordListDescription": "Lorsque cette option est activée, créez des exercices contenant uniquement du texte à partir de votre liste de mots personnalisée (sans images).",
+    "enterWords": "Entrez les mots (un par ligne, 8 max.) :",
+    "customWordsPlaceholder": "pomme\nbanane\norange\nraisin",
+    "customWordListNote": "Seules les lettres sont autorisées. Les caractères spéciaux et les chiffres seront supprimés.",
+    "customWordListEnabled": "Mode liste de mots personnalisée activé. L'exercice sera uniquement textuel.",
+    "customWordListEmpty": "Veuillez entrer au moins un mot dans la liste de mots personnalisée.",
+    "customWordListTruncated": "Utilisation de {count} mot(s) de votre liste. Ajoutez plus de mots pour plus d'exercices.",
+
     // ===== 8. TOOLBAR (13 items) =====
     "toolbar.layers": "Calques",
     "toolbar.bringForward": "Avancer",
@@ -680,6 +737,25 @@ const translations = {
     "library.filesSelected": "{x} archivo(s) seleccionado(s)",
     "library.uploadedImages": "Tus Imágenes Subidas (Esta Sesión):",
     "library.selectedCount": "Seleccionadas: {x} / {y}",
+
+    // Edición manual de nombres de imágenes
+    "manualImageEdit": "Edición manual de nombres de imágenes",
+    "enableManualEdit": "Editar nombres de imágenes antes de crear",
+    "manualEditDescription": "Cuando está activado, puedes seleccionar manualmente las imágenes y editar sus nombres a continuación antes de crear el ejercicio.",
+    "selectAndEditImages": "Seleccionar y editar imágenes",
+    "manualEditInstructions": "Haz clic para agregar imágenes, luego edita los nombres a continuación:",
+    "clickImagesToAddThem": "Haz clic en las imágenes de la biblioteca para agregarlas aquí y editarlas.",
+
+    // Lista de palabras personalizada
+    "customWordList": "Lista de palabras personalizada",
+    "useCustomWords": "Usar lista de palabras personalizada",
+    "customWordListDescription": "Cuando está activado, crea ejercicios de solo texto usando tu lista de palabras personalizada (sin imágenes).",
+    "enterWords": "Ingresa las palabras (una por línea, máx. 8):",
+    "customWordsPlaceholder": "manzana\nplátano\nnaranja\nuva",
+    "customWordListNote": "Solo se permiten letras. Los caracteres especiales y números serán eliminados.",
+    "customWordListEnabled": "Modo de lista de palabras personalizada activado. El ejercicio será solo de texto.",
+    "customWordListEmpty": "Por favor, ingresa al menos una palabra en la lista de palabras personalizada.",
+    "customWordListTruncated": "Usando {count} palabra(s) de tu lista. Agrega más palabras para más ejercicios.",
 
     // ===== 8. TOOLBAR (13 items) =====
     "toolbar.layers": "Capas",
@@ -878,6 +954,25 @@ const translations = {
     "library.uploadedImages": "Le Tue Immagini Caricate (Questa Sessione):",
     "library.selectedCount": "Selezionate: {x} / {y}",
 
+    // Modifica manuale dei nomi delle immagini
+    "manualImageEdit": "Modifica manuale dei nomi delle immagini",
+    "enableManualEdit": "Modifica i nomi delle immagini prima di creare",
+    "manualEditDescription": "Quando è abilitata, puoi selezionare manualmente le immagini e modificarne i nomi qui sotto prima di creare l'esercizio.",
+    "selectAndEditImages": "Seleziona e modifica le immagini",
+    "manualEditInstructions": "Clicca per aggiungere immagini, poi modifica i nomi qui sotto:",
+    "clickImagesToAddThem": "Clicca sulle immagini della biblioteca per aggiungerle qui e modificarle.",
+
+    // Lista di parole personalizzata
+    "customWordList": "Lista di parole personalizzata",
+    "useCustomWords": "Usa lista di parole personalizzata",
+    "customWordListDescription": "Quando è abilitata, crea esercizi di solo testo usando la tua lista di parole personalizzata (senza immagini).",
+    "enterWords": "Inserisci le parole (una per riga, max 8):",
+    "customWordsPlaceholder": "mela\nbanana\narancia\nuva",
+    "customWordListNote": "Sono consentite solo lettere. I caratteri speciali e i numeri verranno rimossi.",
+    "customWordListEnabled": "Modalità lista di parole personalizzata attivata. L'esercizio sarà di solo testo.",
+    "customWordListEmpty": "Inserisci almeno una parola nella lista di parole personalizzata.",
+    "customWordListTruncated": "Usando {count} parola/e dalla tua lista. Aggiungi più parole per più esercizi.",
+
     // ===== 8. TOOLBAR (13 items) =====
     "toolbar.layers": "Livelli",
     "toolbar.bringForward": "Porta Avanti",
@@ -1074,6 +1169,25 @@ const translations = {
     "library.filesSelected": "{x} arquivo(s) selecionado(s)",
     "library.uploadedImages": "Suas Imagens Enviadas (Esta Sessão):",
     "library.selectedCount": "Selecionadas: {x} / {y}",
+
+    // Edição manual de nomes de imagens
+    "manualImageEdit": "Edição manual de nomes de imagens",
+    "enableManualEdit": "Editar nomes de imagens antes de criar",
+    "manualEditDescription": "Quando ativado, você pode selecionar manualmente as imagens e editar seus nomes abaixo antes de criar o exercício.",
+    "selectAndEditImages": "Selecionar e editar imagens",
+    "manualEditInstructions": "Clique para adicionar imagens, depois edite os nomes abaixo:",
+    "clickImagesToAddThem": "Clique nas imagens da biblioteca para adicioná-las aqui e editá-las.",
+
+    // Lista de palavras personalizada
+    "customWordList": "Lista de palavras personalizada",
+    "useCustomWords": "Usar lista de palavras personalizada",
+    "customWordListDescription": "Quando ativado, cria exercícios apenas com texto usando sua lista de palavras personalizada (sem imagens).",
+    "enterWords": "Digite as palavras (uma por linha, máx. 8):",
+    "customWordsPlaceholder": "maçã\nbanana\nlaranja\nuva",
+    "customWordListNote": "Apenas letras são permitidas. Caracteres especiais e números serão removidos.",
+    "customWordListEnabled": "Modo de lista de palavras personalizada ativado. O exercício será apenas texto.",
+    "customWordListEmpty": "Por favor, digite pelo menos uma palavra na lista de palavras personalizada.",
+    "customWordListTruncated": "Usando {count} palavra(s) da sua lista. Adicione mais palavras para mais exercícios.",
 
     // ===== 8. TOOLBAR (13 items) =====
     "toolbar.layers": "Camadas",
@@ -1272,6 +1386,25 @@ const translations = {
     "library.uploadedImages": "Jouw Geüploade Afbeeldingen (Deze Sessie):",
     "library.selectedCount": "Geselecteerd: {x} / {y}",
 
+    // Handmatige bewerking van afbeeldingsnamen
+    "manualImageEdit": "Handmatige bewerking van afbeeldingsnamen",
+    "enableManualEdit": "Afbeeldingsnamen bewerken voor maken",
+    "manualEditDescription": "Wanneer ingeschakeld, kun je handmatig afbeeldingen selecteren en hun namen hieronder bewerken voordat je de oefening maakt.",
+    "selectAndEditImages": "Afbeeldingen selecteren en bewerken",
+    "manualEditInstructions": "Klik om afbeeldingen toe te voegen, bewerk dan de namen hieronder:",
+    "clickImagesToAddThem": "Klik op afbeeldingen in de bibliotheek om ze hier toe te voegen en te bewerken.",
+
+    // Aangepaste woordenlijst
+    "customWordList": "Aangepaste woordenlijst",
+    "useCustomWords": "Aangepaste woordenlijst gebruiken",
+    "customWordListDescription": "Wanneer ingeschakeld, maak alleen-tekst oefeningen met je aangepaste woordenlijst (geen afbeeldingen).",
+    "enterWords": "Voer woorden in (één per regel, max. 8):",
+    "customWordsPlaceholder": "appel\nbanaan\nsinaasappel\ndruif",
+    "customWordListNote": "Alleen letters zijn toegestaan. Speciale tekens en cijfers worden verwijderd.",
+    "customWordListEnabled": "Aangepaste woordenlijst modus ingeschakeld. De oefening bevat alleen tekst.",
+    "customWordListEmpty": "Voer minstens één woord in de aangepaste woordenlijst in.",
+    "customWordListTruncated": "{count} woord(en) uit je lijst gebruikt. Voeg meer woorden toe voor meer oefeningen.",
+
     // ===== 8. TOOLBAR (13 items) =====
     "toolbar.layers": "Lagen",
     "toolbar.bringForward": "Naar Voren",
@@ -1468,6 +1601,25 @@ const translations = {
     "library.filesSelected": "{x} fil(er) valda",
     "library.uploadedImages": "Dina Uppladdade Bilder (Denna Session):",
     "library.selectedCount": "Valda: {x} / {y}",
+
+    // Manuell redigering av bildnamn
+    "manualImageEdit": "Manuell redigering av bildnamn",
+    "enableManualEdit": "Redigera bildnamn före skapande",
+    "manualEditDescription": "När den är aktiverad kan du manuellt välja bilder och redigera deras namn nedan innan du skapar övningen.",
+    "selectAndEditImages": "Välj och redigera bilder",
+    "manualEditInstructions": "Klicka för att lägga till bilder, redigera sedan namnen nedan:",
+    "clickImagesToAddThem": "Klicka på bilder från biblioteket för att lägga till dem här och redigera dem.",
+
+    // Anpassad ordlista
+    "customWordList": "Anpassad ordlista",
+    "useCustomWords": "Använd anpassad ordlista",
+    "customWordListDescription": "När den är aktiverad, skapa endast textövningar med din anpassade ordlista (inga bilder).",
+    "enterWords": "Ange ord (ett per rad, max 8):",
+    "customWordsPlaceholder": "äpple\nbanan\napelsin\ndruvа",
+    "customWordListNote": "Endast bokstäver är tillåtna. Specialtecken och siffror kommer att tas bort.",
+    "customWordListEnabled": "Anpassat ordlisteläge aktiverat. Övningen kommer endast att vara text.",
+    "customWordListEmpty": "Vänligen ange minst ett ord i den anpassade ordlistan.",
+    "customWordListTruncated": "Använder {count} ord från din lista. Lägg till fler ord för fler övningar.",
 
     // ===== 8. TOOLBAR (13 items) =====
     "toolbar.layers": "Lager",
@@ -1666,6 +1818,25 @@ const translations = {
     "library.uploadedImages": "Dine Uploadede Billeder (Denne Session):",
     "library.selectedCount": "Valgt: {x} / {y}",
 
+    // Manuel redigering af billednavne
+    "manualImageEdit": "Manuel redigering af billednavne",
+    "enableManualEdit": "Rediger billednavne før oprettelse",
+    "manualEditDescription": "Når den er aktiveret, kan du manuelt vælge billeder og redigere deres navne nedenfor, før du opretter opgaven.",
+    "selectAndEditImages": "Vælg og rediger billeder",
+    "manualEditInstructions": "Klik for at tilføje billeder, rediger derefter navnene nedenfor:",
+    "clickImagesToAddThem": "Klik på billeder fra biblioteket for at tilføje dem her og redigere dem.",
+
+    // Tilpasset ordliste
+    "customWordList": "Tilpasset ordliste",
+    "useCustomWords": "Brug tilpasset ordliste",
+    "customWordListDescription": "Når den er aktiveret, opret opgaver med kun tekst ved hjælp af din tilpassede ordliste (ingen billeder).",
+    "enterWords": "Indtast ord (ét pr. linje, maks. 8):",
+    "customWordsPlaceholder": "æble\nbanan\napelsin\ndrue",
+    "customWordListNote": "Kun bogstaver er tilladt. Specialtegn og tal vil blive fjernet.",
+    "customWordListEnabled": "Tilpasset ordliste-tilstand aktiveret. Opgaven vil kun være tekst.",
+    "customWordListEmpty": "Indtast venligst mindst ét ord i den tilpassede ordliste.",
+    "customWordListTruncated": "Bruger {count} ord fra din liste. Tilføj flere ord for flere opgaver.",
+
     // ===== 8. TOOLBAR (13 items) =====
     "toolbar.layers": "Lag",
     "toolbar.bringForward": "Flyt Fremad",
@@ -1863,6 +2034,25 @@ const translations = {
     "library.uploadedImages": "Dine Opplastede Bilder (Denne Økten):",
     "library.selectedCount": "Valgt: {x} / {y}",
 
+    // Manuell redigering av bildenavn
+    "manualImageEdit": "Manuell redigering av bildenavn",
+    "enableManualEdit": "Rediger bildenavn før opprettelse",
+    "manualEditDescription": "Når den er aktivert, kan du manuelt velge bilder og redigere navnene deres nedenfor før du oppretter oppgaven.",
+    "selectAndEditImages": "Velg og rediger bilder",
+    "manualEditInstructions": "Klikk for å legge til bilder, rediger deretter navnene nedenfor:",
+    "clickImagesToAddThem": "Klikk på bilder fra biblioteket for å legge dem til her og redigere dem.",
+
+    // Tilpasset ordliste
+    "customWordList": "Tilpasset ordliste",
+    "useCustomWords": "Bruk tilpasset ordliste",
+    "customWordListDescription": "Når den er aktivert, opprett oppgaver med kun tekst ved hjelp av din tilpassede ordliste (ingen bilder).",
+    "enterWords": "Skriv inn ord (ett per linje, maks. 8):",
+    "customWordsPlaceholder": "eple\nbanan\nappelsin\ndrue",
+    "customWordListNote": "Kun bokstaver er tillatt. Spesialtegn og tall vil bli fjernet.",
+    "customWordListEnabled": "Tilpasset ordliste-modus aktivert. Oppgaven vil kun være tekst.",
+    "customWordListEmpty": "Vennligst skriv inn minst ett ord i den tilpassede ordlisten.",
+    "customWordListTruncated": "Bruker {count} ord fra listen din. Legg til flere ord for flere oppgaver.",
+
     // ===== 8. TOOLBAR (13 items) =====
     "toolbar.layers": "Lag",
     "toolbar.bringForward": "Flytt fremover",
@@ -2059,6 +2249,25 @@ const translations = {
     "library.filesSelected": "{x} tiedosto(a) valittu",
     "library.uploadedImages": "Lataamasi Kuvat (Tämä Istunto):",
     "library.selectedCount": "Valittu: {x} / {y}",
+
+    // Kuvien nimien manuaalinen muokkaus
+    "manualImageEdit": "Kuvien nimien manuaalinen muokkaus",
+    "enableManualEdit": "Muokkaa kuvien nimiä ennen luomista",
+    "manualEditDescription": "Kun tämä on käytössä, voit valita kuvat manuaalisesti ja muokata niiden nimiä alla ennen tehtävän luomista.",
+    "selectAndEditImages": "Valitse ja muokkaa kuvia",
+    "manualEditInstructions": "Napsauta lisätäksesi kuvia, muokkaa sitten nimiä alla:",
+    "clickImagesToAddThem": "Napsauta kirjaston kuvia lisätäksesi ne tähän ja muokataksesi niitä.",
+
+    // Mukautettu sanalista
+    "customWordList": "Mukautettu sanalista",
+    "useCustomWords": "Käytä mukautettua sanalistaa",
+    "customWordListDescription": "Kun tämä on käytössä, luo vain tekstistä koostuvia tehtäviä käyttäen mukautettua sanalistaasi (ei kuvia).",
+    "enterWords": "Kirjoita sanat (yksi per rivi, enintään 8):",
+    "customWordsPlaceholder": "omena\nbanaani\nappelsiini\nrypäle",
+    "customWordListNote": "Vain kirjaimet ovat sallittuja. Erikoismerkit ja numerot poistetaan.",
+    "customWordListEnabled": "Mukautettu sanalista -tila käytössä. Tehtävä on vain tekstiä.",
+    "customWordListEmpty": "Ole hyvä ja kirjoita vähintään yksi sana mukautettuun sanalistaan.",
+    "customWordListTruncated": "Käytetään {count} sanaa listaltasi. Lisää sanoja saadaksesi lisää tehtäviä.",
 
     // ===== 8. TOOLBAR (13 items) =====
     "toolbar.layers": "Tasot",

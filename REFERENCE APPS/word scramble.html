@@ -851,6 +851,45 @@
                 </div>
             </div>
         </div>
+
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="manualImageEdit">Manual Image Name Editing</button>
+            <div class="accordion-content">
+                <label class="checkbox-label">
+                    <input type="checkbox" id="enableManualEditMode" />
+                    <span data-translate="enableManualEdit">Edit image names before generating</span>
+                </label>
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin: 10px 0;" data-translate="manualEditDescription">
+                    When enabled, you can manually select images and edit their names below before generating the puzzle.
+                </p>
+                <div id="manualEditContainer" style="display: none;">
+                    <h4 data-translate="selectAndEditImages">Select and Edit Images</h4>
+                    <label data-translate="manualEditInstructions">Click to add images, then edit names below:</label>
+                    <div id="manualEditImagesPreview" style="border: 1px dashed var(--app-border-dark); padding: 10px; min-height: 120px; background-color: var(--app-surface-dark); border-radius: 5px; margin: 10px 0;">
+                        <p class="dictionary-message" data-translate="clickImagesToAddThem">Click images from the library to add them here for editing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <button class="accordion-button" data-translate="customWordList">Custom Word List</button>
+            <div class="accordion-content">
+                <label class="checkbox-label">
+                    <input type="checkbox" id="enableCustomWordList" />
+                    <span data-translate="useCustomWords">Use custom word list</span>
+                </label>
+                <p style="font-size: 12px; color: var(--app-text-secondary-dark-theme); margin: 10px 0;" data-translate="customWordListDescription">
+                    When enabled, generate text-only exercises using your custom word list (no images).
+                </p>
+                <div id="customWordListContainer" style="display: none;">
+                    <label for="customWordListInput" data-translate="enterWords">Enter words (one per line, max 8):</label>
+                    <textarea id="customWordListInput" rows="8" placeholder="apple&#10;banana&#10;orange&#10;grape" data-translate-placeholder="customWordsPlaceholder" style="font-family: monospace; resize: vertical;"></textarea>
+                    <p style="font-size: 11px; color: var(--app-text-secondary-dark-theme); margin-top: 5px;" data-translate="customWordListNote">
+                        Only letters are allowed. Special characters and numbers will be removed.
+                    </p>
+                </div>
+            </div>
+        </div>
       </div>
       <div class="panel-footer">
           <div id="message"></div>
@@ -930,7 +969,7 @@
                     </div>
 
                     <div class="dropdown-container">
-                        <button id="generateDropdownBtn" class="action-button accent"><span data-translate="generate">Generate</span> <i class="fas fa-caret-down"></i></button>
+                        <button id="generateDropdownBtn" class="action-button accent"><span data-translate="generate">Create</span> <i class="fas fa-caret-down"></i></button>
                         <div id="generateDropdownContent" class="dropdown-content">
                             <button id="generateWorksheetBtn" data-translate="newWorksheet">New Worksheet</button>
                             <button id="generateAnswerKeyBtn" disabled data-translate="answerKey">Answer Key</button>
@@ -1027,6 +1066,10 @@
         let uploadedImages = [];
         let selectedImages = [];
         let lastGeneratedPuzzles = null;
+        let manualEditMode = false;
+        let manualEditImages = [];
+        let customWordListMode = false;
+        let customWordList = [];
         const downloadMultiplier = 6;
 
         // --- DOM Element Caching ---
@@ -1077,8 +1120,13 @@
             customFileButton: document.getElementById("customFileButton"),
             fileSelectionText: document.getElementById("fileSelectionText"),
             uploadedImagesPreview: document.getElementById("uploadedImagesPreview"),
-            
+
             languageSelect: document.getElementById('languageSelect'),
+
+            // Custom Word List
+            enableCustomWordListInput: document.getElementById('enableCustomWordList'),
+            customWordListContainer: document.getElementById('customWordListContainer'),
+            customWordListInput: document.getElementById('customWordListInput'),
 
             generateDropdownBtn: document.getElementById("generateDropdownBtn"),
             generateDropdownContent: document.getElementById("generateDropdownContent"),
@@ -1735,7 +1783,43 @@
                     ui.imageUploadInput.click();
                 });
             }
-            
+
+            // Manual Edit Mode
+            const enableManualEditCheckbox = document.getElementById('enableManualEditMode');
+            const manualEditContainer = document.getElementById('manualEditContainer');
+            if (enableManualEditCheckbox && manualEditContainer) {
+                enableManualEditCheckbox.addEventListener('change', () => {
+                    manualEditMode = enableManualEditCheckbox.checked;
+                    manualEditContainer.style.display = manualEditMode ? 'block' : 'none';
+                    if (manualEditMode) {
+                        ui.themeSelect.value = '';
+                        renderManualEditImages();
+                    } else {
+                        manualEditImages = [];
+                        updateSelectedImagesUI();
+                        loadDictionary();
+                    }
+                });
+            }
+
+            // Custom Word List Mode
+            if (ui.enableCustomWordListInput && ui.customWordListContainer) {
+                ui.enableCustomWordListInput.addEventListener('change', () => {
+                    customWordListMode = ui.enableCustomWordListInput.checked;
+                    ui.customWordListContainer.style.display = customWordListMode ? 'block' : 'none';
+                    if (customWordListMode) {
+                        // Disable manual edit mode if custom word list is enabled
+                        if (manualEditMode && enableManualEditCheckbox) {
+                            enableManualEditCheckbox.checked = false;
+                            enableManualEditCheckbox.dispatchEvent(new Event('change'));
+                        }
+                        showMessage(t('customWordListEnabled') || 'Custom word list mode enabled. Exercise will be text-only.', 'info', 3000);
+                    } else {
+                        customWordList = [];
+                    }
+                });
+            }
+
             ui.clearBtn.addEventListener("click", clearAll);
 
             // Zoom Controls
@@ -2435,6 +2519,25 @@
 
         function toggleImageSelection(image, element) {
             const maxPuzzles = parseInt(ui.puzzleCount.value, 10);
+
+            // Handle manual edit mode
+            if (manualEditMode) {
+                const index = manualEditImages.findIndex(img => img.path === image.path);
+                if (index > -1) {
+                    manualEditImages.splice(index, 1);
+                } else {
+                    if (manualEditImages.length >= maxPuzzles) {
+                        showMessage(t('maxImagesSelected').replace('{max}', maxPuzzles), 'info');
+                        return;
+                    }
+                    const newImage = {...image, editedName: image.name || image.word || image.path.split('/').pop().split('.')[0]};
+                    manualEditImages.push(newImage);
+                }
+                renderManualEditImages();
+                return;
+            }
+
+            // Normal mode
             const index = selectedImages.findIndex(img => img.path === image.path);
             if (index > -1) {
                 selectedImages.splice(index, 1);
@@ -2467,7 +2570,92 @@
             const maxPuzzles = parseInt(ui.puzzleCount.value, 10);
             ui.selectedCountMsg.textContent = t('selectedCountMsg').replace('{count}', selectedImages.length).replace('{max}', maxPuzzles);
         }
-        
+
+        function renderManualEditImages() {
+            const manualEditPreview = document.getElementById('manualEditImagesPreview');
+            if (!manualEditPreview) return;
+
+            manualEditPreview.innerHTML = "";
+
+            if (manualEditImages.length === 0) {
+                manualEditPreview.innerHTML = `<p class="dictionary-message">${t('clickImagesToAddThem')}</p>`;
+                return;
+            }
+
+            manualEditImages.forEach((img, index) => {
+                const item = document.createElement('div');
+                item.style.cssText = 'display: flex; align-items: center; gap: 8px; padding: 10px; margin-bottom: 10px; background-color: rgba(255, 255, 255, 0.03); border-radius: 6px; border: 1px solid var(--app-border-dark); transition: background-color 0.2s;';
+
+                const imgPreview = document.createElement('img');
+                imgPreview.src = img.path;
+                imgPreview.style.cssText = 'width: 45px; height: 45px; object-fit: contain; border: 1px solid var(--app-border-dark); border-radius: 4px; background-color: var(--app-surface-light); flex-shrink: 0;';
+
+                const initialValue = img.editedName || img.name || img.word || '';
+
+                const input = document.createElement('input');
+                input.type = 'text';
+                input.placeholder = 'Enter name...';
+                input.tabIndex = 0;
+                input.style.cssText = 'flex: 1; padding: 8px 10px; font-size: 14px; border-radius: 4px; border: 1px solid var(--app-border-dark); background: var(--app-surface-dark); color: var(--app-text-primary-dark-theme); cursor: text;';
+                input.setAttribute('data-index', index);
+                input.setAttribute('autocomplete', 'off');
+                input.setAttribute('spellcheck', 'false');
+                input.id = `input-${index}`;
+
+                input.addEventListener('input', (e) => {
+                    e.stopPropagation();
+                    manualEditImages[index].editedName = e.target.value;
+                });
+
+                input.addEventListener('focus', (e) => {
+                    e.stopPropagation();
+                    const currentValue = input.value;
+                    input.value = '';
+                    input.value = currentValue;
+                    input.setSelectionRange(currentValue.length, currentValue.length);
+                    item.style.backgroundColor = 'rgba(0, 122, 255, 0.1)';
+                });
+
+                input.addEventListener('blur', (e) => {
+                    item.style.backgroundColor = 'rgba(255, 255, 255, 0.03)';
+                });
+
+                input.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                });
+
+                input.addEventListener('keydown', (e) => {
+                    e.stopPropagation();
+                });
+
+                const removeBtn = document.createElement('button');
+                removeBtn.innerHTML = '<i class="fas fa-times"></i>';
+                removeBtn.title = 'Remove';
+                removeBtn.style.cssText = 'width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; background: transparent; border: 1px solid var(--app-border-dark); border-radius: 4px; color: var(--app-text-secondary-dark-theme); cursor: pointer; flex-shrink: 0; transition: all 0.2s;';
+                removeBtn.onclick = () => {
+                    manualEditImages.splice(index, 1);
+                    renderManualEditImages();
+                };
+                removeBtn.onmouseover = () => {
+                    removeBtn.style.backgroundColor = 'rgba(255, 59, 48, 0.15)';
+                    removeBtn.style.borderColor = '#ff3b30';
+                    removeBtn.style.color = '#ff3b30';
+                };
+                removeBtn.onmouseout = () => {
+                    removeBtn.style.backgroundColor = 'transparent';
+                    removeBtn.style.borderColor = 'var(--app-border-dark)';
+                    removeBtn.style.color = 'var(--app-text-secondary-dark-theme)';
+                };
+
+                item.appendChild(imgPreview);
+                item.appendChild(input);
+                item.appendChild(removeBtn);
+                manualEditPreview.appendChild(item);
+
+                input.value = initialValue;
+            });
+        }
+
         function handleImageUpload(e) {
             // Update file selection text
             if (ui.fileSelectionText) {
@@ -2542,8 +2730,44 @@
             if (newPuzzleCount !== oldPuzzleCount || canvasDimensionsChanged) {
                 Object.keys(oldTransforms).forEach(key => delete oldTransforms[key]);
             }
-            
-            let puzzleImagePool = [...selectedImages];
+
+            // Check custom word list mode first
+            let puzzleImagePool = [];
+            if (customWordListMode && ui.customWordListInput && ui.customWordListInput.value.trim()) {
+                // Parse custom words from textarea (one per line)
+                const rawWords = ui.customWordListInput.value
+                    .split('\n')
+                    .map(w => w.trim())
+                    .filter(w => w.length > 0);
+
+                // Limit to puzzleCount or available words
+                const limitedWords = rawWords.slice(0, puzzleCount);
+
+                if (limitedWords.length === 0) {
+                    showMessage(t('customWordListEmpty') || 'Please enter at least one word in the custom word list.', 'error');
+                    isGenerating = false;
+                    return;
+                }
+
+                // Convert words to puzzleImagePool format (text-only, no paths)
+                puzzleImagePool = limitedWords.map(word => ({
+                    word: word,
+                    name: word,
+                    path: null  // No image path for custom words
+                }));
+
+                if (limitedWords.length < puzzleCount) {
+                    showMessage(t('customWordListTruncated') || `Using ${limitedWords.length} word(s) from your list. Add more words for more exercises.`, 'info', 3000);
+                }
+            } else if (manualEditMode && manualEditImages.length > 0) {
+                puzzleImagePool = manualEditImages.map(img => ({
+                    ...img,
+                    word: img.editedName || img.name || img.word,
+                    name: img.editedName || img.name || img.word
+                }));
+            } else {
+                puzzleImagePool = [...selectedImages];
+            }
             if (puzzleImagePool.length < puzzleCount) {
                 let sourcePool = [...uploadedImages];
                 if (currentThemeImages.length > 0) {
@@ -2803,8 +3027,22 @@
                 // Render items in this column
                 for (let itemIdx = 0; itemIdx < items.length; itemIdx++) {
                     const puzzle = items[itemIdx];
-                    const img = await new Promise(resolve => fabric.Image.fromURL(puzzle.image.path, resolve, { crossOrigin: 'anonymous' }));
-                    img.scaleToWidth(imageWidth);
+
+                    // Handle custom words (no image path)
+                    let img;
+                    if (puzzle.image.path) {
+                        img = await new Promise(resolve => fabric.Image.fromURL(puzzle.image.path, resolve, { crossOrigin: 'anonymous' }));
+                        img.scaleToWidth(imageWidth);
+                    } else {
+                        // Text-only mode: create a text placeholder instead of image
+                        img = new fabric.Text('', {
+                            fontSize: fontSize,
+                            fontFamily: 'Fredoka',
+                            fill: 'transparent',
+                            width: 0,
+                            height: 0
+                        });
+                    }
 
                     const numText = ui.includeExerciseNumbers.checked ? new fabric.Text(`${globalIndex + 1}.`, {
                         fontSize: numFontSize, originY: 'center', fill: '#333'

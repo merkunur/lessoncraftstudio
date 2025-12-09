@@ -92,6 +92,24 @@ const translations = {
     "crossword.loading.images": "Loading images...",
     "crossword.selected.images": "Selected Images:",
     "crossword.click.select": "Click images to select.",
+    "manualImageEdit": "Manual Image Name Editing",
+    "enableManualEdit": "Edit image names before generating",
+    "manualEditDescription": "When enabled, you can manually select images and edit their names below before generating the puzzle.",
+    "selectAndEditImages": "Select and Edit Images",
+    "manualEditInstructions": "Click to add images, then edit names below:",
+    "clickImagesToAddThem": "Click images from the library to add them here for editing.",
+
+    // Custom Word List with Clues
+    "customWordList": "Custom Word List with Clues",
+    "useCustomWords": "Use custom word list",
+    "customWordListDescription": "When enabled, generate a crossword puzzle using your custom words and clues (text-only, no images).",
+    "enterWordsAndClues": "Enter words and clues (format: WORD:Clue text, one per line, max 20):",
+    "customWordsPlaceholder": "APPLE:A red or green fruit\nBANANA:A yellow curved fruit\nORANGE:A citrus fruit\nGRAPE:Small round purple or green fruit",
+    "customWordListNote": "Use format WORD:Clue. Only letters in words. Clues can contain any characters.",
+    "customWordListEnabled": "Custom word list mode enabled. Puzzle will use your words and clues.",
+    "customWordListEmpty": "Please enter at least one word with its clue.",
+    "customWordListInvalidFormat": "Invalid format. Each line must be WORD:Clue (e.g., APPLE:A fruit).",
+
     "crossword.grid.options": "Rooster-opties",
     "crossword.grid.size": "Grid Size",
     "crossword.grid.small": "Klein (10×10)",
@@ -652,6 +670,24 @@ const translations = {
     "generateContentFirst": "Erstelle zuerst Inhalte.",
     "puzzleCleared": "Rätsel zurückgesetzt.",
     "crossword.click.select": "Klicke auf Bilder zum Auswählen.",
+    "manualImageEdit": "Manuelle Bildnamensbearbeitung",
+    "enableManualEdit": "Bildnamen vor dem Generieren bearbeiten",
+    "manualEditDescription": "Wenn aktiviert, können Sie Bilder manuell auswählen und deren Namen unten bearbeiten, bevor Sie das Rätsel generieren.",
+    "selectAndEditImages": "Bilder auswählen und bearbeiten",
+    "manualEditInstructions": "Klicken Sie, um Bilder hinzuzufügen, und bearbeiten Sie die Namen unten:",
+    "clickImagesToAddThem": "Klicken Sie auf Bilder aus der Bibliothek, um sie hier zur Bearbeitung hinzuzufügen.",
+
+    // Eigene Wortliste mit Hinweisen
+    "customWordList": "Eigene Wortliste mit Hinweisen",
+    "useCustomWords": "Eigene Wortliste verwenden",
+    "customWordListDescription": "Wenn aktiviert, wird ein Kreuzworträtsel mit Ihren eigenen Wörtern und Hinweisen erstellt (nur Text, keine Bilder).",
+    "enterWordsAndClues": "Wörter und Hinweise eingeben (Format: WORT:Hinweistext, ein Eintrag pro Zeile, max. 20):",
+    "customWordsPlaceholder": "APFEL:Ein rotes oder grünes Obst\nBANANE:Eine gelbe gebogene Frucht\nORANGE:Eine Zitrusfrucht\nTRAUBE:Kleine runde lila oder grüne Frucht",
+    "customWordListNote": "Format: WORT:Hinweis verwenden. Nur Buchstaben in Wörtern. Hinweise können beliebige Zeichen enthalten.",
+    "customWordListEnabled": "Eigene Wortliste aktiviert. Das Rätsel verwendet Ihre Wörter und Hinweise.",
+    "customWordListEmpty": "Bitte geben Sie mindestens ein Wort mit seinem Hinweis ein.",
+    "customWordListInvalidFormat": "Ungültiges Format. Jede Zeile muss WORT:Hinweis sein (z.B. APFEL:Ein Obst).",
+
     "crossword.msg.image.selected": "Bild ausgewählt.",
     "crossword.msg.uploads.complete": "{count} Bilder erfolgreich hochgeladen.",
     "crossword.msg.download.ready": "Download bereit.",
@@ -1050,6 +1086,26 @@ const translations = {
     "generatePuzzleFirst": "Créez d'abord un puzzle.",
     "puzzleCleared": "Puzzle effacé.",
     "crossword.click.select": "Cliquez sur les images pour sélectionner.",
+
+    // Modification manuelle des noms d'images
+    "manualImageEdit": "Modification manuelle des noms d'images",
+    "enableManualEdit": "Modifier les noms d'images avant de générer",
+    "manualEditDescription": "Lorsque cette option est activée, vous pouvez sélectionner manuellement les images et modifier leurs noms ci-dessous avant de générer le puzzle.",
+    "selectAndEditImages": "Sélectionner et modifier les images",
+    "manualEditInstructions": "Cliquez pour ajouter des images, puis modifiez les noms ci-dessous :",
+    "clickImagesToAddThem": "Cliquez sur des images de la bibliothèque pour les ajouter ici et les modifier.",
+
+    // Liste de mots personnalisée avec indices
+    "customWordList": "Liste de mots personnalisée avec indices",
+    "useCustomWords": "Utiliser une liste de mots personnalisée",
+    "customWordListDescription": "Lorsque cette option est activée, générez un puzzle de mots croisés en utilisant vos propres mots et indices (texte uniquement, sans images).",
+    "enterWordsAndClues": "Entrez les mots et les indices (format : MOT:Texte de l'indice, un par ligne, 20 max.) :",
+    "customWordsPlaceholder": "POMME:Un fruit rouge ou vert\nBANANE:Un fruit jaune et courbé\nORANGE:Un agrume\nRAISIN:Petit fruit rond violet ou vert",
+    "customWordListNote": "Utilisez le format MOT:Indice. Seules les lettres dans les mots. Les indices peuvent contenir tous les caractères.",
+    "customWordListEnabled": "Mode liste de mots personnalisée activé. Le puzzle utilisera vos mots et indices.",
+    "customWordListEmpty": "Veuillez entrer au moins un mot avec son indice.",
+    "customWordListInvalidFormat": "Format invalide. Chaque ligne doit être MOT:Indice (par ex. POMME:Un fruit).",
+
     "crossword.msg.image.selected": "Image sélectionnée.",
     "crossword.msg.min.images": "Au moins {min} images requises.",
     "crossword.msg.theme.insufficient": "Le thème \"{theme}\" n'a pas assez d'images. {count} nécessaires.",
@@ -1438,6 +1494,26 @@ const translations = {
     "generatePuzzleFirst": "Crea un crucigrama primero.",
     "puzzleCleared": "Crucigrama limpiado.",
     "crossword.click.select": "Haz clic en las imágenes para seleccionar.",
+
+    // Edición manual de nombres de imágenes
+    "manualImageEdit": "Edición manual de nombres de imágenes",
+    "enableManualEdit": "Editar nombres de imágenes antes de generar",
+    "manualEditDescription": "Cuando está activado, puedes seleccionar manualmente las imágenes y editar sus nombres a continuación antes de generar el rompecabezas.",
+    "selectAndEditImages": "Seleccionar y editar imágenes",
+    "manualEditInstructions": "Haz clic para agregar imágenes, luego edita los nombres a continuación:",
+    "clickImagesToAddThem": "Haz clic en las imágenes de la biblioteca para agregarlas aquí y editarlas.",
+
+    // Lista de palabras personalizada con pistas
+    "customWordList": "Lista de palabras personalizada con pistas",
+    "useCustomWords": "Usar lista de palabras personalizada",
+    "customWordListDescription": "Cuando está activado, genera un crucigrama usando tus propias palabras y pistas (solo texto, sin imágenes).",
+    "enterWordsAndClues": "Ingresa las palabras y pistas (formato: PALABRA:Texto de pista, una por línea, máx. 20):",
+    "customWordsPlaceholder": "MANZANA:Una fruta roja o verde\nPLATANO:Una fruta amarilla y curva\nNARANJA:Un cítrico\nUVA:Fruta pequeña redonda morada o verde",
+    "customWordListNote": "Usa el formato PALABRA:Pista. Solo letras en las palabras. Las pistas pueden contener cualquier carácter.",
+    "customWordListEnabled": "Modo de lista de palabras personalizada activado. El rompecabezas usará tus palabras y pistas.",
+    "customWordListEmpty": "Por favor, ingresa al menos una palabra con su pista.",
+    "customWordListInvalidFormat": "Formato inválido. Cada línea debe ser PALABRA:Pista (ej. MANZANA:Una fruta).",
+
     "crossword.msg.image.selected": "Imagen seleccionada.",
     "crossword.msg.min.images": "Se requieren al menos {min} imágenes.",
     "crossword.msg.theme.insufficient": "El tema \"{theme}\" no tiene suficientes imágenes. Se necesitan {count}.",
@@ -1824,6 +1900,26 @@ const translations = {
     "generatePuzzleFirst": "Crea prima un puzzle.",
     "puzzleCleared": "Puzzle cancellato.",
     "crossword.click.select": "Clicca sulle immagini per selezionare.",
+
+    // Modifica manuale dei nomi delle immagini
+    "manualImageEdit": "Modifica manuale dei nomi delle immagini",
+    "enableManualEdit": "Modifica i nomi delle immagini prima di generare",
+    "manualEditDescription": "Quando è abilitata, puoi selezionare manualmente le immagini e modificarne i nomi qui sotto prima di generare il puzzle.",
+    "selectAndEditImages": "Seleziona e modifica le immagini",
+    "manualEditInstructions": "Clicca per aggiungere immagini, poi modifica i nomi qui sotto:",
+    "clickImagesToAddThem": "Clicca sulle immagini della biblioteca per aggiungerle qui e modificarle.",
+
+    // Lista di parole personalizzata con indizi
+    "customWordList": "Lista di parole personalizzata con indizi",
+    "useCustomWords": "Usa lista di parole personalizzata",
+    "customWordListDescription": "Quando è abilitata, genera un cruciverba usando le tue parole e indizi personalizzati (solo testo, senza immagini).",
+    "enterWordsAndClues": "Inserisci parole e indizi (formato: PAROLA:Testo dell'indizio, uno per riga, max 20):",
+    "customWordsPlaceholder": "MELA:Un frutto rosso o verde\nBANANA:Un frutto giallo e curvo\nARANCIA:Un agrume\nUVA:Piccolo frutto rotondo viola o verde",
+    "customWordListNote": "Usa il formato PAROLA:Indizio. Solo lettere nelle parole. Gli indizi possono contenere qualsiasi carattere.",
+    "customWordListEnabled": "Modalità lista di parole personalizzata attivata. Il puzzle userà le tue parole e indizi.",
+    "customWordListEmpty": "Inserisci almeno una parola con il suo indizio.",
+    "customWordListInvalidFormat": "Formato non valido. Ogni riga deve essere PAROLA:Indizio (es. MELA:Un frutto).",
+
     "crossword.msg.image.selected": "Immagine selezionata.",
     "crossword.msg.min.images": "Minimo {min} immagini richieste.",
     "crossword.msg.theme.insufficient": "Il tema \"{theme}\" non ha abbastanza immagini. Necessarie {count}.",
@@ -2212,6 +2308,26 @@ const translations = {
     "generatePuzzleFirst": "Crie um quebra-cabeça primeiro.",
     "puzzleCleared": "Quebra-cabeça apagado.",
     "crossword.click.select": "Clique nas imagens para selecionar.",
+
+    // Edição manual de nomes de imagens
+    "manualImageEdit": "Edição manual de nomes de imagens",
+    "enableManualEdit": "Editar nomes de imagens antes de gerar",
+    "manualEditDescription": "Quando ativado, você pode selecionar manualmente as imagens e editar seus nomes abaixo antes de gerar o quebra-cabeça.",
+    "selectAndEditImages": "Selecionar e editar imagens",
+    "manualEditInstructions": "Clique para adicionar imagens, depois edite os nomes abaixo:",
+    "clickImagesToAddThem": "Clique nas imagens da biblioteca para adicioná-las aqui e editá-las.",
+
+    // Lista de palavras personalizada com dicas
+    "customWordList": "Lista de palavras personalizada com dicas",
+    "useCustomWords": "Usar lista de palavras personalizada",
+    "customWordListDescription": "Quando ativado, gera uma palavras cruzadas usando suas próprias palavras e dicas (apenas texto, sem imagens).",
+    "enterWordsAndClues": "Digite as palavras e dicas (formato: PALAVRA:Texto da dica, uma por linha, máx. 20):",
+    "customWordsPlaceholder": "MAÇÃ:Uma fruta vermelha ou verde\nBANANA:Uma fruta amarela e curva\nLARANJA:Uma fruta cítrica\nUVA:Pequena fruta redonda roxa ou verde",
+    "customWordListNote": "Use o formato PALAVRA:Dica. Apenas letras nas palavras. As dicas podem conter quaisquer caracteres.",
+    "customWordListEnabled": "Modo de lista de palavras personalizada ativado. O quebra-cabeça usará suas palavras e dicas.",
+    "customWordListEmpty": "Por favor, digite pelo menos uma palavra com sua dica.",
+    "customWordListInvalidFormat": "Formato inválido. Cada linha deve ser PALAVRA:Dica (ex. MAÇÃ:Uma fruta).",
+
     "crossword.msg.image.selected": "Imagem selecionada.",
     "crossword.msg.min.images": "Mínimo de {min} imagens necessário.",
     "crossword.msg.theme.insufficient": "O tema \"{theme}\" não tem imagens suficientes. Necessário {count}.",
@@ -2600,6 +2716,26 @@ const translations = {
     "generatePuzzleFirst": "Maak eerst een puzzel.",
     "puzzleCleared": "Puzzel gewist.",
     "crossword.click.select": "Klik op afbeeldingen om te selecteren.",
+
+    // Handmatige bewerking van afbeeldingsnamen
+    "manualImageEdit": "Handmatige bewerking van afbeeldingsnamen",
+    "enableManualEdit": "Afbeeldingsnamen bewerken voor genereren",
+    "manualEditDescription": "Wanneer ingeschakeld, kun je handmatig afbeeldingen selecteren en hun namen hieronder bewerken voordat je de puzzel genereert.",
+    "selectAndEditImages": "Afbeeldingen selecteren en bewerken",
+    "manualEditInstructions": "Klik om afbeeldingen toe te voegen, bewerk dan de namen hieronder:",
+    "clickImagesToAddThem": "Klik op afbeeldingen in de bibliotheek om ze hier toe te voegen en te bewerken.",
+
+    // Aangepaste woordenlijst met aanwijzingen
+    "customWordList": "Aangepaste woordenlijst met aanwijzingen",
+    "useCustomWords": "Aangepaste woordenlijst gebruiken",
+    "customWordListDescription": "Wanneer ingeschakeld, genereer een kruiswoordpuzzel met je eigen woorden en aanwijzingen (alleen tekst, geen afbeeldingen).",
+    "enterWordsAndClues": "Voer woorden en aanwijzingen in (formaat: WOORD:Aanwijzingstekst, één per regel, max. 20):",
+    "customWordsPlaceholder": "APPEL:Een rode of groene vrucht\nBANAAN:Een gele gebogen vrucht\nSINAASAPPEL:Een citrusvrucht\nDRUIF:Kleine ronde paarse of groene vrucht",
+    "customWordListNote": "Gebruik formaat WOORD:Aanwijzing. Alleen letters in woorden. Aanwijzingen mogen alle tekens bevatten.",
+    "customWordListEnabled": "Aangepaste woordenlijst modus ingeschakeld. De puzzel gebruikt je woorden en aanwijzingen.",
+    "customWordListEmpty": "Voer minstens één woord met zijn aanwijzing in.",
+    "customWordListInvalidFormat": "Ongeldig formaat. Elke regel moet WOORD:Aanwijzing zijn (bijv. APPEL:Een vrucht).",
+
     "crossword.msg.image.selected": "Afbeelding geselecteerd.",
     "crossword.msg.min.images": "Minimaal {min} afbeeldingen vereist.",
     "crossword.msg.theme.insufficient": "Thema \"{theme}\" heeft onvoldoende afbeeldingen. Nodig: {count}.",
@@ -2991,6 +3127,26 @@ const translations = {
     "generatePuzzleFirst": "Skapa ett pussel först.",
     "puzzleCleared": "Pussel rensat.",
     "crossword.click.select": "Klicka på bilder för att välja.",
+
+    // Manuell redigering av bildnamn
+    "manualImageEdit": "Manuell redigering av bildnamn",
+    "enableManualEdit": "Redigera bildnamn före generering",
+    "manualEditDescription": "När den är aktiverad kan du manuellt välja bilder och redigera deras namn nedan innan du genererar pusslet.",
+    "selectAndEditImages": "Välj och redigera bilder",
+    "manualEditInstructions": "Klicka för att lägga till bilder, redigera sedan namnen nedan:",
+    "clickImagesToAddThem": "Klicka på bilder från biblioteket för att lägga till dem här och redigera dem.",
+
+    // Anpassad ordlista med ledtrådar
+    "customWordList": "Anpassad ordlista med ledtrådar",
+    "useCustomWords": "Använd anpassad ordlista",
+    "customWordListDescription": "När den är aktiverad, generera ett korsord med dina egna ord och ledtrådar (endast text, inga bilder).",
+    "enterWordsAndClues": "Ange ord och ledtrådar (format: ORD:Ledtrådtext, ett per rad, max 20):",
+    "customWordsPlaceholder": "ÄPPLE:Ett rött eller grönt frukt\nBERGANAN:En gul böjd frukt\nAPELSIN:En citrusfrukt\nDRUVA:Liten rund lila eller grön frukt",
+    "customWordListNote": "Använd format ORD:Ledtråd. Endast bokstäver i ord. Ledtrådar kan innehålla alla tecken.",
+    "customWordListEnabled": "Anpassat ordlisteläge aktiverat. Pusslet kommer att använda dina ord och ledtrådar.",
+    "customWordListEmpty": "Vänligen ange minst ett ord med dess ledtråd.",
+    "customWordListInvalidFormat": "Ogiltigt format. Varje rad måste vara ORD:Ledtråd (t.ex. ÄPPLE:En frukt).",
+
     "crossword.msg.image.selected": "Bild vald.",
     "crossword.msg.theme.insufficient": "Temat \"{theme}\" har inte tillräckligt med bilder. Behöver {count}.",
     "crossword.msg.uploads.complete": "{count} bilder uppladdade.",
@@ -3272,6 +3428,26 @@ const translations = {
     "generatePuzzleFirst": "Opret et krydsord først.",
     "puzzleCleared": "Krydsord ryddet.",
     "crossword.click.select": "Klik på billeder for at vælge.",
+
+    // Manuel redigering af billednavne
+    "manualImageEdit": "Manuel redigering af billednavne",
+    "enableManualEdit": "Rediger billednavne før generering",
+    "manualEditDescription": "Når den er aktiveret, kan du manuelt vælge billeder og redigere deres navne nedenfor, før du genererer puslespillet.",
+    "selectAndEditImages": "Vælg og rediger billeder",
+    "manualEditInstructions": "Klik for at tilføje billeder, rediger derefter navnene nedenfor:",
+    "clickImagesToAddThem": "Klik på billeder fra biblioteket for at tilføje dem her og redigere dem.",
+
+    // Tilpasset ordliste med ledetråde
+    "customWordList": "Tilpasset ordliste med ledetråde",
+    "useCustomWords": "Brug tilpasset ordliste",
+    "customWordListDescription": "Når den er aktiveret, generer et krydsord ved hjælp af dine egne ord og ledetråde (kun tekst, ingen billeder).",
+    "enterWordsAndClues": "Indtast ord og ledetråde (format: ORD:Ledetråds-tekst, ét pr. linje, maks. 20):",
+    "customWordsPlaceholder": "ÆBLE:En rød eller grøn frugt\nBANAN:En gul buet frugt\nAPPELSIN:En citrusfrugt\nDRUE:Lille rund lilla eller grøn frugt",
+    "customWordListNote": "Brug format ORD:Ledetråd. Kun bogstaver i ord. Ledetråde kan indeholde alle tegn.",
+    "customWordListEnabled": "Tilpasset ordliste-tilstand aktiveret. Puslespillet vil bruge dine ord og ledetråde.",
+    "customWordListEmpty": "Indtast venligst mindst ét ord med sin ledetråd.",
+    "customWordListInvalidFormat": "Ugyldigt format. Hver linje skal være ORD:Ledetråd (f.eks. ÆBLE:En frugt).",
+
     "crossword.msg.image.selected": "Billede valgt.",
     "crossword.msg.min.images": "Minimum {min} billeder påkrævet.",
     "crossword.msg.theme.insufficient": "Tema \"{theme}\" har ikke nok billeder. Behov for {count}.",
@@ -3658,6 +3834,26 @@ const translations = {
     "generatePuzzleFirst": "Lag et puslespill først.",
     "puzzleCleared": "Puslespill tømt.",
     "crossword.click.select": "Klikk på bilder for å velge.",
+
+    // Manuell redigering av bildenavn
+    "manualImageEdit": "Manuell redigering av bildenavn",
+    "enableManualEdit": "Rediger bildenavn før generering",
+    "manualEditDescription": "Når den er aktivert, kan du manuelt velge bilder og redigere navnene deres nedenfor før du genererer puslespillet.",
+    "selectAndEditImages": "Velg og rediger bilder",
+    "manualEditInstructions": "Klikk for å legge til bilder, rediger deretter navnene nedenfor:",
+    "clickImagesToAddThem": "Klikk på bilder fra biblioteket for å legge dem til her og redigere dem.",
+
+    // Tilpasset ordliste med ledetråder
+    "customWordList": "Tilpasset ordliste med ledetråder",
+    "useCustomWords": "Bruk tilpasset ordliste",
+    "customWordListDescription": "Når den er aktivert, generer et kryssord ved hjelp av dine egne ord og ledetråder (kun tekst, ingen bilder).",
+    "enterWordsAndClues": "Skriv inn ord og ledetråder (format: ORD:Ledetråd-tekst, ett per linje, maks. 20):",
+    "customWordsPlaceholder": "EPLE:En rød eller grønn frukt\nBANAN:En gul buet frukt\nAPPELSIN:En sitrusfrukt\nDRUE:Liten rund lilla eller grønn frukt",
+    "customWordListNote": "Bruk format ORD:Ledetråd. Kun bokstaver i ord. Ledetråder kan inneholde alle tegn.",
+    "customWordListEnabled": "Tilpasset ordliste-modus aktivert. Puslespillet vil bruke dine ord og ledetråder.",
+    "customWordListEmpty": "Vennligst skriv inn minst ett ord med sin ledetråd.",
+    "customWordListInvalidFormat": "Ugyldig format. Hver linje må være ORD:Ledetråd (f.eks. EPLE:En frukt).",
+
     "crossword.msg.image.selected": "Bilde valgt.",
     "crossword.msg.min.images": "Minimum {min} bilder påkrevd.",
     "crossword.msg.theme.insufficient": "Tema \"{theme}\" har ikke nok bilder. Trenger {count}.",
@@ -4046,6 +4242,26 @@ const translations = {
     "generatePuzzleFirst": "Luo ristikko ensin.",
     "puzzleCleared": "Ristikko tyhjennetty.",
     "crossword.click.select": "Napsauta kuvia valitaksesi.",
+
+    // Kuvien nimien manuaalinen muokkaus
+    "manualImageEdit": "Kuvien nimien manuaalinen muokkaus",
+    "enableManualEdit": "Muokkaa kuvien nimiä ennen luomista",
+    "manualEditDescription": "Kun tämä on käytössä, voit valita kuvat manuaalisesti ja muokata niiden nimiä alla ennen ristikon luomista.",
+    "selectAndEditImages": "Valitse ja muokkaa kuvia",
+    "manualEditInstructions": "Napsauta lisätäksesi kuvia, muokkaa sitten nimiä alla:",
+    "clickImagesToAddThem": "Napsauta kirjaston kuvia lisätäksesi ne tähän ja muokataksesi niitä.",
+
+    // Mukautettu sanalista vihjeineen
+    "customWordList": "Mukautettu sanalista vihjeineen",
+    "useCustomWords": "Käytä mukautettua sanalistaa",
+    "customWordListDescription": "Kun tämä on käytössä, luo ristikko käyttäen omia sanojasi ja vihjeitäsi (vain tekstiä, ei kuvia).",
+    "enterWordsAndClues": "Kirjoita sanat ja vihjeet (muoto: SANA:Vihje-teksti, yksi per rivi, enintään 20):",
+    "customWordsPlaceholder": "OMENA:Punainen tai vihreä hedelmä\nBANAANI:Keltainen kaareva hedelmä\nAPPELSIINI:Sitrushedelmä\nRYPÄLE:Pieni pyöreä violetti tai vihreä hedelmä",
+    "customWordListNote": "Käytä muotoa SANA:Vihje. Vain kirjaimia sanoissa. Vihjeet voivat sisältää mitä tahansa merkkejä.",
+    "customWordListEnabled": "Mukautettu sanalista -tila käytössä. Ristikko käyttää sanojasi ja vihjeitäsi.",
+    "customWordListEmpty": "Ole hyvä ja kirjoita vähintään yksi sana vihjeineen.",
+    "customWordListInvalidFormat": "Virheellinen muoto. Jokaisen rivin on oltava SANA:Vihje (esim. OMENA:Hedelmä).",
+
     "crossword.msg.image.selected": "Kuva valittu.",
     "crossword.msg.min.images": "Vähintään {min} kuvaa vaaditaan.",
     "crossword.msg.theme.insufficient": "Teemalla \"{theme}\" ei ole tarpeeksi kuvia. Tarvitaan {count}.",

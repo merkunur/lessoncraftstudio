@@ -116,7 +116,7 @@ const DRAW_COLOR_TRANSLATIONS = {
     "zoom.reset": "Reset Zoom",
     "undo": "Undo (Ctrl+Z)",
     "redo": "Redo (Ctrl+Y)",
-    "drawcolor.generate": "Generate",
+    "drawcolor.generate": "Create",
     "drawcolor.download": "Download",
     "drawcolor.download.jpeg": "Download as JPEG",
     "drawcolor.download.pdf": "Download as PDF",

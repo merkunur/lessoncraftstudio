@@ -87,7 +87,7 @@ const translations = {
     "font.fredoka": "Fredoka",
     "font.arial": "Arial",
     "font.verdana": "Verdana",
-    "cryptogram.generate": "Generate",
+    "cryptogram.generate": "Create",
     "cryptogram.clear.all": "Clear All",
     "cryptogram.download": "Download",
     "cryptogram.download.worksheet.pdf": "Download Worksheet (PDF)",

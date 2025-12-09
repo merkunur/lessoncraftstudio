@@ -151,9 +151,9 @@ const translations = {
         "centerOnPageVertically": "Center on Page Vertically",
 
         // Actions
-        "generateWorksheet": "Generate Worksheet",
-        "generateAnswerKey": "Generate Answer Key",
-        "generate": "Generate",
+        "generateWorksheet": "Create Worksheet",
+        "generateAnswerKey": "Create Answer Key",
+        "generate": "Create",
         "download": "Download",
         "downloadAsJPEG": "Download as JPEG",
         "downloadAsPDF": "Download as PDF",
@@ -190,9 +190,9 @@ const translations = {
         "outlineWidth": "Outline (0-10):",
 
         // Messages
-        "selectAtLeastOneLetter": "Please select at least one letter to generate the worksheet.",
+        "selectAtLeastOneLetter": "Please select at least one letter to create the worksheet.",
         "noImagesForLetter": "No image found for letter: {}",
-        "worksheetGeneratedSuccessfully": "Worksheet generated successfully!",
+        "worksheetGeneratedSuccessfully": "Worksheet created successfully!",
         "clearWorksheetConfirmation": "Are you sure you want to clear the worksheet? This cannot be undone.",
         "workspaceCleared": "Workspace cleared.",
         "disableAutoCreateToSelectLetters": "Disable Auto Create mode to select letters manually.",
@@ -210,7 +210,7 @@ const translations = {
         "failedToLoadTrainTemplates": "Failed to load train templates",
         "allSelectionsCleared": "All selections cleared.",
         "answerKeyError": "Error generating answer key.",
-        "answerKeyGenerated": "Answer key generated.",
+        "answerKeyGenerated": "Answer key created.",
         "assignedImageToLetter": "Assigned image to letter {}.",
         "autoCreateEnabledSelectTheme": "Auto Create enabled. Please select a theme.",
         "autoCreateErrorFailedToFind11Pairs": "Failed to find 11 letter-image pairs.",
@@ -225,8 +225,8 @@ const translations = {
         "errorCreatingPDF": "Error creating PDF.",
         "errorPreparingJPEG": "Error preparing JPEG.",
         "errorReadingFile": "Error reading file.",
-        "generatingAnswerKey": "Generating answer key...",
-        "generatingWorksheet": "Generating worksheet...",
+        "generatingAnswerKey": "Creating answer key...",
+        "generatingWorksheet": "Creating worksheet...",
         "grayscaleFailed": "Grayscale conversion failed.",
         "imageAlreadyAssigned": "Image already assigned.",
         "imageNotInSelectedLetters": "Image not in selected letters.",
@@ -241,15 +241,15 @@ const translations = {
         "noImagesFound": "No images found.",
         "pdfDownloaded": "PDF downloaded.",
         "pdfError": "Error creating PDF.",
-        "pleaseGenerateContentFirst": "Please generate content first.",
-        "pleaseGenerateWorksheetFirst": "Please generate worksheet first.",
+        "pleaseGenerateContentFirst": "Please create content first.",
+        "pleaseGenerateWorksheetFirst": "Please create worksheet first.",
         "pleaseSelect11LettersFirst": "Please select 11 letters first.",
         "pleaseSelectAll11Letters": "Please select all 11 letters.",
         "preparingData": "Preparing data...",
         "preparingJPEG": "Preparing JPEG...",
         "preparingPDF": "Preparing PDF...",
         "selectSpecificThemeForAutoCreate": "Please select a specific theme for Auto Create.",
-        "worksheetGeneratedCanGenerateAnswerKey": "Worksheet generated. You can now generate the answer key."
+        "worksheetGeneratedCanGenerateAnswerKey": "Worksheet created. You can now create the answer key."
     },
 
     de: {
@@ -1570,7 +1570,7 @@ const translations = {
 
     sv: {
         // App Metadata & Title
-        "alphabetTrainWorksheet": "Alfabetståg Arbetsblad Generator",
+        "alphabetTrainWorksheet": "Alfabetståg Övningsblad Generator",
         "trainSettings": "Tåginställningar",
 
         // Language Settings
@@ -1690,22 +1690,22 @@ const translations = {
         "clearCanvas": "Rensa duk",
 
         // Messages
-        "selectAtLeastOneLetter": "Välj minst en bokstav för att skapa arbetsbladet.",
+        "selectAtLeastOneLetter": "Välj minst en bokstav för att skapa övningsbladet.",
         "noImagesForLetter": "Ingen bild hittades för bokstav: {}",
-        "worksheetGeneratedSuccessfully": "Arbetsblad skapat framgångsrikt!",
-        "clearWorksheetConfirmation": "Är du säker på att du vill rensa arbetsbladet? Detta kan inte ångras.",
+        "worksheetGeneratedSuccessfully": "Övningsblad skapat framgångsrikt!",
+        "clearWorksheetConfirmation": "Är du säker på att du vill rensa övningsbladet? Detta kan inte ångras.",
         "workspaceCleared": "Arbetsyta rensad.",
 
         // Additional keys
         "generateAnswerKey": "Skapa facit",
         "generate": "Skapa",
-        "worksheetJPEG": "Arbetsblad (JPEG)",
+        "worksheetJPEG": "Övningsblad (JPEG)",
         "answerKeyJPEG": "Facit (JPEG)",
-        "worksheetPDF": "Arbetsblad (PDF)",
+        "worksheetPDF": "Övningsblad (PDF)",
         "answerKeyPDF": "Facit (PDF)",
         "clearAll": "Rensa allt",
         "grayscale": "Gråskala",
-        "worksheet": "Arbetsblad",
+        "worksheet": "Övningsblad",
         "answerKey": "Facit",
         "bringForward": "Flytta framåt",
         "sendBackward": "Flytta bakåt",
@@ -1724,7 +1724,7 @@ const translations = {
         "selectedCount": "Valt: {current}/11",
         "selectedTextProperties": "Egenskaper för vald text",
         "addTextToPage": "Lägg till text på sidan",
-        "worksheetTitle": "Arbetsbladstitel...",
+        "worksheetTitle": "Övningsbladstitel...",
         "outlineColor": "Konturfärg:",
         "outlineWidth": "Kontur (0-10):",
 
@@ -1784,7 +1784,7 @@ const translations = {
         "preparingJPEG": "Förbereder JPEG...",
         "preparingPDF": "Förbereder PDF...",
         "selectSpecificThemeForAutoCreate": "Välj ett specifikt tema för auto-skapa.",
-        "worksheetGeneratedCanGenerateAnswerKey": "Arbetsblad skapat. Du kan nu skapa facit."
+        "worksheetGeneratedCanGenerateAnswerKey": "Övningsblad skapat. Du kan nu skapa facit."
     },
 
     da: {

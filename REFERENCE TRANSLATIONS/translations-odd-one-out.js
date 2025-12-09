@@ -61,9 +61,9 @@ const translations = {
     "oddoneout.exercises.8": "8 Exercises",
     "oddoneout.exercises.9": "9 Exercises",
     "oddoneout.exercises.count": "Number of Exercises:",
-    "oddoneout.generate": "Generate",
-    "oddoneout.generate.answer": "Generate Answer Key",
-    "oddoneout.generate.worksheet": "Generate Worksheet",
+    "oddoneout.generate": "Create",
+    "oddoneout.generate.answer": "Create Answer Key",
+    "oddoneout.generate.worksheet": "Create Worksheet",
     "oddoneout.height.label": "Height (px):",
     "oddoneout.image.library": "Image Library",
     "oddoneout.include.name.date": "Include Name/Date Fields",
@@ -1597,7 +1597,7 @@ const translations = {
     "oddoneout.msg.pdf.error.simple": "Kunne ikke lage PDF.", // FIXED 2025-12-01: More natural + consistent with "Lag"
     "oddoneout.msg.preparing.jpeg": "Forbereder JPEG...",
     "oddoneout.msg.preparing.pdf": "Forbereder PDF...",
-    "oddoneout.msg.regenerate": "Antall oppgaver er endret. Lag arbeidsarket på nytt." // FIXED 2025-12-01: "Opprett" → "Lag" (platform standard),
+    "oddoneout.msg.regenerate": "Antall oppgaver er endret. Lag arbeidsarket på nytt.", // FIXED 2025-12-01: "Opprett" → "Lag" (platform standard)
     "oddoneout.msg.themes.error": "Kunne ikke laste inn {type}-temaer.",
     "oddoneout.msg.uploads.available": "{count} egne bilder tilgjengelige.", // FIXED 2025-12-01: Removed awkward parentheses, use plural form (standard in Norwegian software)
     "oddoneout.msg.worksheet.generated": "Arbeidsark laget!", // FIXED 2025-12-01: "opprettet" → "laget" (consistent with "Lag")

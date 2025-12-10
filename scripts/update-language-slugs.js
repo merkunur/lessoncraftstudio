@@ -12,7 +12,10 @@ const { PrismaClient } = require('../frontend/node_modules/@prisma/client');
 const prisma = new PrismaClient();
 
 // Configuration
-const BLOG_BUILDING_DIR = 'C:/Users/rkgen/lessoncraftstudio/BLOG BUILDING';
+// Detect environment and use appropriate path
+const BLOG_BUILDING_DIR = process.platform === 'win32'
+  ? 'C:/Users/rkgen/lessoncraftstudio/BLOG BUILDING'
+  : '/opt/lessoncraftstudio/BLOG BUILDING';
 
 const LANGUAGES = {
   'ENGLISH BLOGPOSTS': 'en',

@@ -40,8 +40,35 @@ export function LanguageSelector() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const handleLocaleChange = (newLocale: string) => {
-    // Replace the locale in the current path
+  const handleLocaleChange = async (newLocale: string) => {
+    // Check if we're on a blog post page
+    const isBlogPost = pathSegments[2] === 'blog' && pathSegments[3];
+
+    if (isBlogPost) {
+      const currentSlug = pathSegments[3];
+
+      try {
+        // Fetch the blog post to get the language-specific slug
+        const response = await fetch(`/api/blog/posts/${currentSlug}?locale=${currentLocale}`);
+
+        if (response.ok) {
+          const post = await response.json();
+          const translations = post.translations || {};
+          const newLocaleTranslation = translations[newLocale];
+
+          // Use language-specific slug if available, otherwise fallback to current slug
+          const newSlug = newLocaleTranslation?.slug || currentSlug;
+
+          router.push(`/${newLocale}/blog/${newSlug}`);
+          setIsOpen(false);
+          return;
+        }
+      } catch (error) {
+        console.error('Error fetching blog post for language switch:', error);
+      }
+    }
+
+    // Default behavior: just replace locale in path
     const newPathSegments = [...pathSegments];
     newPathSegments[1] = newLocale;
     const newPath = newPathSegments.join('/') || `/${newLocale}`;

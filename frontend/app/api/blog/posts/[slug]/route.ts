@@ -11,8 +11,11 @@ export async function GET(
 ) {
   try {
     const { slug } = params;
+    const { searchParams } = new URL(request.url);
+    const locale = searchParams.get('locale') || 'en';
 
-    const post = await prisma.blogPost.findFirst({
+    // First try to find by primary slug
+    let post = await prisma.blogPost.findFirst({
       where: {
         slug,
         status: 'published', // Only show published posts publicly
@@ -72,6 +75,76 @@ export async function GET(
         },
       },
     });
+
+    // If not found by primary slug, try to find by language-specific slug
+    if (!post) {
+      const posts = await prisma.blogPost.findMany({
+        where: { status: 'published' },
+        include: {
+          author: {
+            select: {
+              id: true,
+              firstName: true,
+              lastName: true,
+              email: true,
+            },
+          },
+          categories: true,
+          tags: true,
+          comments: {
+            where: {
+              status: 'approved',
+              parentId: null,
+            },
+            include: {
+              user: {
+                select: {
+                  id: true,
+                  firstName: true,
+                  lastName: true,
+                },
+              },
+              replies: {
+                where: {
+                  status: 'approved',
+                },
+                include: {
+                  user: {
+                    select: {
+                      id: true,
+                      firstName: true,
+                      lastName: true,
+                    },
+                  },
+                },
+              },
+            },
+            orderBy: {
+              createdAt: 'desc',
+            },
+          },
+          _count: {
+            select: {
+              likes: true,
+              comments: {
+                where: {
+                  status: 'approved',
+                },
+              },
+            },
+          },
+        },
+      });
+
+      // Find post where the translation for the locale has the matching slug
+      for (const p of posts) {
+        const translations = p.translations as any;
+        if (translations[locale] && translations[locale].slug === slug) {
+          post = p;
+          break;
+        }
+      }
+    }
 
     if (!post) {
       return NextResponse.json(

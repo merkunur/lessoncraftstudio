@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { revalidatePath } from 'next/cache';
 import { prisma } from '@/lib/prisma';
 import { requireAdmin } from '@/lib/admin-auth';
+import { normalizeSlug } from '@/lib/slug-utils';
 
 export const dynamic = 'force-dynamic';
 
@@ -63,7 +64,29 @@ export async function PUT(
     } = body;
 
     const updateData: any = {};
-    if (translations !== undefined) updateData.translations = translations;
+    if (translations !== undefined) {
+      // Auto-generate language-specific slugs from titles
+      const processedTranslations: any = {};
+      for (const [locale, translation] of Object.entries(translations)) {
+        if (translation && typeof translation === 'object') {
+          const trans: any = { ...translation };
+
+          // If slug is not provided or is empty, generate it from title
+          if (!trans.slug && trans.title) {
+            trans.slug = normalizeSlug(trans.title);
+          }
+          // If slug is provided but contains special characters, normalize it
+          else if (trans.slug) {
+            trans.slug = normalizeSlug(trans.slug);
+          }
+
+          processedTranslations[locale] = trans;
+        } else {
+          processedTranslations[locale] = translation;
+        }
+      }
+      updateData.translations = processedTranslations;
+    }
     if (category !== undefined) updateData.category = category;
     if (keywords !== undefined) updateData.keywords = keywords;
     if (featuredImage !== undefined) updateData.featuredImage = featuredImage;

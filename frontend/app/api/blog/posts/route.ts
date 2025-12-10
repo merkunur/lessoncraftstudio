@@ -44,7 +44,8 @@ async function getBlogPostsForLocale(locale: string): Promise<BlogMetadata[]> {
         const translation = translations[locale];
 
         return {
-          slug: post.slug,
+          // Use language-specific slug if available, otherwise fall back to primary slug
+          slug: translation.slug || post.slug,
           title: translation.title || post.slug,
           excerpt: translation.excerpt || '',
           author: translation.author || 'LessonCraftStudio Team',

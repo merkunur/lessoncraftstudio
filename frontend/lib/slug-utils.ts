@@ -9,11 +9,15 @@ const CHAR_MAP: Record<string, string> = {
   'ä': 'ae', 'ö': 'oe', 'ü': 'ue', 'ß': 'ss',
   'Ä': 'Ae', 'Ö': 'Oe', 'Ü': 'Ue',
 
-  // French (ü already defined in German)
-  'à': 'a', 'â': 'a', 'æ': 'ae', 'ç': 'c', 'é': 'e', 'è': 'e',
+  // Scandinavian (Danish, Swedish, Norwegian)
+  'å': 'aa', 'ø': 'oe', 'æ': 'ae',
+  'Å': 'Aa', 'Ø': 'Oe', 'Æ': 'Ae',
+
+  // French (æ/Æ defined in Scandinavian, ü/Ü in German)
+  'à': 'a', 'â': 'a', 'ç': 'c', 'é': 'e', 'è': 'e',
   'ê': 'e', 'ë': 'e', 'î': 'i', 'ï': 'i', 'ô': 'o', 'œ': 'oe',
   'ù': 'u', 'û': 'u', 'ÿ': 'y',
-  'À': 'A', 'Â': 'A', 'Æ': 'Ae', 'Ç': 'C', 'É': 'E', 'È': 'E',
+  'À': 'A', 'Â': 'A', 'Ç': 'C', 'É': 'E', 'È': 'E',
   'Ê': 'E', 'Ë': 'E', 'Î': 'I', 'Ï': 'I', 'Ô': 'O', 'Œ': 'Oe',
   'Ù': 'U', 'Û': 'U', 'Ÿ': 'Y',
 
@@ -30,10 +34,6 @@ const CHAR_MAP: Record<string, string> = {
 
   // Dutch
   // (shares characters with German, already covered)
-
-  // Scandinavian (Danish, Swedish, Norwegian)
-  'å': 'aa', 'ø': 'oe', 'æ': 'ae',
-  'Å': 'Aa', 'Ø': 'Oe', 'Æ': 'Ae',
 
   // Polish (common characters)
   'ą': 'a', 'ć': 'c', 'ę': 'e', 'ł': 'l', 'ń': 'n',

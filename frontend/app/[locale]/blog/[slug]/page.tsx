@@ -40,8 +40,9 @@ interface BlogPost {
 // Fetch blog post from database directly
 async function getBlogPost(slug: string, locale: string): Promise<BlogPost | null> {
   try {
-    const post = await prisma.blogPost.findUnique({
-      where: { slug },
+    // First try to find by language-specific slug in translations
+    const posts = await prisma.blogPost.findMany({
+      where: { status: 'published' },
       include: {
         pdfs: {
           where: { language: locale }, // Filter PDFs by language
@@ -50,7 +51,26 @@ async function getBlogPost(slug: string, locale: string): Promise<BlogPost | nul
       }
     });
 
-    return post;
+    // Find post where the translation for this locale has the matching slug
+    for (const post of posts) {
+      const translations = post.translations as any;
+      if (translations[locale] && translations[locale].slug === slug) {
+        return post;
+      }
+    }
+
+    // Fallback: try to find by primary slug (for backwards compatibility)
+    const postBySlug = await prisma.blogPost.findUnique({
+      where: { slug },
+      include: {
+        pdfs: {
+          where: { language: locale },
+          orderBy: { sortOrder: 'asc' }
+        }
+      }
+    });
+
+    return postBySlug;
   } catch (error) {
     console.error(`Error fetching blog post ${slug}:`, error);
     return null;
@@ -62,18 +82,23 @@ export async function generateStaticParams() {
   try {
     const posts = await prisma.blogPost.findMany({
       where: { status: 'published' },
-      select: { slug: true }
+      select: { slug: true, translations: true }
     });
 
-    // Generate params for all locales
+    // Generate params for all locales with language-specific slugs
     const locales = ['en', 'de', 'es', 'fr', 'it', 'pt', 'nl', 'da', 'sv', 'no', 'fi'];
     const params = [];
 
     for (const post of posts) {
+      const translations = post.translations as any;
+
       for (const locale of locales) {
+        // Use language-specific slug if available, otherwise fallback to primary slug
+        const localeSlug = translations[locale]?.slug || post.slug;
+
         params.push({
           locale,
-          slug: post.slug
+          slug: localeSlug
         });
       }
     }
@@ -443,6 +468,7 @@ export default async function BlogPostPage({
             {relatedPosts.map((relatedPost) => {
               const relatedTranslations = relatedPost.translations as any;
               const relatedTranslation = relatedTranslations[locale] || relatedTranslations['en'] || {};
+              const relatedSlug = relatedTranslation.slug || relatedPost.slug;
 
               return (
                 <article
@@ -456,7 +482,7 @@ export default async function BlogPostPage({
                   }}
                 >
                   <Link
-                    href={`/${locale}/blog/${relatedPost.slug}`}
+                    href={`/${locale}/blog/${relatedSlug}`}
                     style={{
                       textDecoration: 'none',
                       display: 'block',
@@ -546,6 +572,15 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     const keywords = post.keywords?.join(', ') || '';
     const canonicalUrl = `${baseUrl}/${locale}/blog/${slug}`;
 
+    // Build language alternates with language-specific slugs
+    const languageAlternates: { [key: string]: string } = {};
+    const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
+
+    for (const lang of locales) {
+      const langSlug = translations[lang]?.slug || post.slug;
+      languageAlternates[lang] = `${baseUrl}/${lang}/blog/${langSlug}`;
+    }
+
     return {
       title,
       description,
@@ -553,19 +588,7 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
       // AUTOMATED: Canonical URL (prevents duplicate content penalties)
       alternates: {
         canonical: canonicalUrl,
-        languages: {
-          'en': `${baseUrl}/en/blog/${slug}`,
-          'de': `${baseUrl}/de/blog/${slug}`,
-          'fr': `${baseUrl}/fr/blog/${slug}`,
-          'es': `${baseUrl}/es/blog/${slug}`,
-          'pt': `${baseUrl}/pt/blog/${slug}`,
-          'it': `${baseUrl}/it/blog/${slug}`,
-          'nl': `${baseUrl}/nl/blog/${slug}`,
-          'sv': `${baseUrl}/sv/blog/${slug}`,
-          'da': `${baseUrl}/da/blog/${slug}`,
-          'no': `${baseUrl}/no/blog/${slug}`,
-          'fi': `${baseUrl}/fi/blog/${slug}`,
-        }
+        languages: languageAlternates
       },
       // AUTOMATED: Open Graph tags (Facebook, LinkedIn, etc.)
       openGraph: {

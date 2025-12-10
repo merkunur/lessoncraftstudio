@@ -46,19 +46,27 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       },
       select: {
         slug: true,
+        translations: true,
         updatedAt: true,
       },
     });
 
-    // Generate sitemap entries for each blog post in all locales
-    blogRoutes = blogPosts.flatMap((post) =>
-      locales.map((locale) => ({
-        url: `${baseUrl}/${locale}/blog/${post.slug}`,
-        lastModified: post.updatedAt,
-        changeFrequency: 'weekly' as const,
-        priority: 0.7,
-      }))
-    );
+    // Generate sitemap entries for each blog post in all locales with language-specific slugs
+    blogRoutes = blogPosts.flatMap((post) => {
+      const translations = post.translations as any;
+
+      return locales.map((locale) => {
+        // Use language-specific slug if available, otherwise fallback to primary slug
+        const localeSlug = translations[locale]?.slug || post.slug;
+
+        return {
+          url: `${baseUrl}/${locale}/blog/${localeSlug}`,
+          lastModified: post.updatedAt,
+          changeFrequency: 'weekly' as const,
+          priority: 0.7,
+        };
+      });
+    });
   } catch (error) {
     console.error('Error fetching blog posts for sitemap:', error);
     // Continue without blog posts if database is unavailable

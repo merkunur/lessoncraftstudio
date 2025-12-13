@@ -1,6 +1,10 @@
 import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import BlogPageClient from './BlogPageClient';
+import { getBlogPostsForLocale, getBlogCategoriesForLocale } from '@/lib/blog-data';
+
+// Enable ISR - revalidate every hour for fast language switching
+export const revalidate = 3600;
 
 interface BlogPageProps {
   params: {
@@ -99,6 +103,12 @@ export async function generateMetadata({ params }: BlogPageProps): Promise<Metad
 export default async function BlogPage({ params }: BlogPageProps) {
   const t = await getTranslations({ locale: params.locale, namespace: 'blogPage' });
 
+  // Fetch blog posts and categories server-side (cached via ISR)
+  const [initialPosts, initialCategories] = await Promise.all([
+    getBlogPostsForLocale(params.locale),
+    Promise.resolve(getBlogCategoriesForLocale(params.locale))
+  ]);
+
   // Prepare all translations for the client component
   const translations = {
     hero: {
@@ -142,5 +152,12 @@ export default async function BlogPage({ params }: BlogPageProps) {
     }
   };
 
-  return <BlogPageClient locale={params.locale} translations={translations} />;
+  return (
+    <BlogPageClient
+      locale={params.locale}
+      translations={translations}
+      initialPosts={initialPosts}
+      initialCategories={initialCategories}
+    />
+  );
 }

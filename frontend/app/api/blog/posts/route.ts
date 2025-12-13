@@ -1,7 +1,8 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 
-export const dynamic = 'force-dynamic';
+// Cache for 1 hour instead of force-dynamic for better performance
+export const revalidate = 3600;
 
 interface BlogMetadata {
   slug: string;

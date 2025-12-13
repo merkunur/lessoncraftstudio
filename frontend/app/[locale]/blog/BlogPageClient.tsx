@@ -12,7 +12,7 @@ interface BlogPost {
   date: string;
   category: string;
   readTime: string;
-  featuredImage?: string;
+  featuredImage?: string | null;
   metaTitle?: string;
   metaDescription?: string;
   keywords?: string[];
@@ -62,116 +62,47 @@ interface BlogPageClientProps {
       noSpam: string;
     };
   };
+  // Server-provided initial data for instant loading
+  initialPosts: BlogPost[];
+  initialCategories: Array<{id: string; label: string}>;
 }
 
 const POSTS_PER_PAGE = 12;
 
-export default function BlogPageClient({ locale, translations: t }: BlogPageClientProps) {
-  const [blogPosts, setBlogPosts] = useState<BlogPost[]>([]);
-  const [filteredPosts, setFilteredPosts] = useState<BlogPost[]>([]);
-  const [selectedCategory, setSelectedCategory] = useState('');
+export default function BlogPageClient({
+  locale,
+  translations: t,
+  initialPosts,
+  initialCategories
+}: BlogPageClientProps) {
+  // Build initial category structures from server-provided data
+  const buildCategoryStructures = (cats: Array<{id: string; label: string}>) => {
+    const allCategories = [{ id: 'all', label: t.categories.all }, ...cats];
+    const map: Record<string, string> = {};
+    const idToLabel: Record<string, string> = {};
+    allCategories.forEach(cat => {
+      map[cat.label] = cat.id;
+      idToLabel[cat.id] = cat.label;
+    });
+    return { allCategories, map, idToLabel };
+  };
+
+  const initialCategoryData = buildCategoryStructures(initialCategories);
+
+  // Initialize state with server-provided data (no loading state needed!)
+  const [blogPosts, setBlogPosts] = useState<BlogPost[]>(initialPosts);
+  const [filteredPosts, setFilteredPosts] = useState<BlogPost[]>(initialPosts);
+  const [selectedCategory, setSelectedCategory] = useState(t.categories.all);
   const [currentPage, setCurrentPage] = useState(1);
-  const [totalPages, setTotalPages] = useState(1);
-  const [loading, setLoading] = useState(true);
-  const [categories, setCategories] = useState<Array<{id: string; label: string}>>([]);
-  const [categoryMap, setCategoryMap] = useState<Record<string, string>>({});
-  const [categoryIdToLabel, setCategoryIdToLabel] = useState<Record<string, string>>({});
+  const [totalPages, setTotalPages] = useState(Math.ceil(initialPosts.length / POSTS_PER_PAGE));
+  const [loading, setLoading] = useState(false); // No loading - data is pre-fetched!
+  const [categories, setCategories] = useState<Array<{id: string; label: string}>>(initialCategoryData.allCategories);
+  const [categoryMap, setCategoryMap] = useState<Record<string, string>>(initialCategoryData.map);
+  const [categoryIdToLabel, setCategoryIdToLabel] = useState<Record<string, string>>(initialCategoryData.idToLabel);
 
-  // Fetch categories from API
-  useEffect(() => {
-    const fetchCategories = async () => {
-      try {
-        const response = await fetch(`/api/blog/categories?locale=${locale}`);
-        if (response.ok) {
-          const data = await response.json();
-          // Add "All" category at the beginning
-          const allCategories = [
-            { id: 'all', label: t.categories.all },
-            ...data.categories
-          ];
-          setCategories(allCategories);
-
-          // Build category map: label -> id
-          const map: Record<string, string> = {};
-          allCategories.forEach(cat => {
-            map[cat.label] = cat.id;
-          });
-          setCategoryMap(map);
-
-          // Build reverse map: id -> label (for displaying category names)
-          const idToLabelMap: Record<string, string> = {};
-          allCategories.forEach(cat => {
-            idToLabelMap[cat.id] = cat.label;
-          });
-          setCategoryIdToLabel(idToLabelMap);
-
-          // Set default selected category
-          if (!selectedCategory && allCategories.length > 0) {
-            setSelectedCategory(allCategories[0].label);
-          }
-        }
-      } catch (error) {
-        console.error('Error fetching categories:', error);
-        // Fallback to hardcoded categories if API fails
-        const fallbackCategories = [
-          { id: 'all', label: t.categories.all },
-          { id: 'worksheet-tips', label: t.categories.worksheetTips },
-          { id: 'teaching-resources', label: t.categories.teachingResources },
-          { id: 'educational-activities', label: t.categories.educationalActivities },
-          { id: 'learning-strategies', label: t.categories.learningStrategies },
-          { id: 'curriculum-guides', label: t.categories.curriculumGuides },
-          { id: 'parent-resources', label: t.categories.parentResources },
-          { id: 'seasonal-content', label: t.categories.seasonalContent }
-        ];
-        setCategories(fallbackCategories);
-
-        const map: Record<string, string> = {};
-        fallbackCategories.forEach(cat => {
-          map[cat.label] = cat.id;
-        });
-        setCategoryMap(map);
-
-        // Build reverse map: id -> label (for displaying category names)
-        const idToLabelMap: Record<string, string> = {};
-        fallbackCategories.forEach(cat => {
-          idToLabelMap[cat.id] = cat.label;
-        });
-        setCategoryIdToLabel(idToLabelMap);
-
-        if (!selectedCategory && fallbackCategories.length > 0) {
-          setSelectedCategory(fallbackCategories[0].label);
-        }
-      }
-    };
-
-    fetchCategories();
-  }, [locale]);
-
-
-  // Fetch blog posts from API
-  useEffect(() => {
-    const fetchBlogPosts = async () => {
-      setLoading(true);
-      try {
-        // Fetch blog metadata from API
-        const response = await fetch(`/api/blog/posts?locale=${locale}&limit=1000`);
-        if (response.ok) {
-          const data = await response.json();
-          setBlogPosts(data.posts || []);
-          setFilteredPosts(data.posts || []);
-        }
-      } catch (error) {
-        console.error('Error fetching blog posts:', error);
-        // If API fails, set empty array (no placeholder content)
-        setBlogPosts([]);
-        setFilteredPosts([]);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchBlogPosts();
-  }, [locale]);
+  // NOTE: Categories and posts are now fetched server-side via ISR
+  // No client-side fetching needed - data comes from initialPosts and initialCategories props
+  // This eliminates the loading delay when switching languages
 
   // Filter by category
   useEffect(() => {

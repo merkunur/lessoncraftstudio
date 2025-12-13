@@ -2,7 +2,8 @@ import { NextRequest, NextResponse } from 'next/server';
 import fs from 'fs/promises';
 import path from 'path';
 
-export const dynamic = 'force-dynamic';
+// Cache for 24 hours - categories rarely change
+export const revalidate = 86400;
 
 const CATEGORIES_FILE_PATH = path.join(
   process.cwd(),

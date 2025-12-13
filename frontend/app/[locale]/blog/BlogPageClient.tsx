@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useRouter, useSearchParams } from 'next/navigation';
 
 // Blog post metadata interface
 interface BlogPost {
@@ -65,6 +66,9 @@ interface BlogPageClientProps {
   // Server-provided initial data for instant loading
   initialPosts: BlogPost[];
   initialCategories: Array<{id: string; label: string}>;
+  // URL-based pagination
+  initialPage: number;
+  totalPages: number;
 }
 
 const POSTS_PER_PAGE = 12;
@@ -73,8 +77,13 @@ export default function BlogPageClient({
   locale,
   translations: t,
   initialPosts,
-  initialCategories
+  initialCategories,
+  initialPage,
+  totalPages: serverTotalPages
 }: BlogPageClientProps) {
+  const router = useRouter();
+  const searchParams = useSearchParams();
+
   // Build initial category structures from server-provided data
   const buildCategoryStructures = (cats: Array<{id: string; label: string}>) => {
     const allCategories = [{ id: 'all', label: t.categories.all }, ...cats];
@@ -93,16 +102,21 @@ export default function BlogPageClient({
   const [blogPosts, setBlogPosts] = useState<BlogPost[]>(initialPosts);
   const [filteredPosts, setFilteredPosts] = useState<BlogPost[]>(initialPosts);
   const [selectedCategory, setSelectedCategory] = useState(t.categories.all);
-  const [currentPage, setCurrentPage] = useState(1);
-  const [totalPages, setTotalPages] = useState(Math.ceil(initialPosts.length / POSTS_PER_PAGE));
+  const [currentPage, setCurrentPage] = useState(initialPage);
+  const [totalPages, setTotalPages] = useState(serverTotalPages);
   const [loading, setLoading] = useState(false); // No loading - data is pre-fetched!
   const [categories, setCategories] = useState<Array<{id: string; label: string}>>(initialCategoryData.allCategories);
   const [categoryMap, setCategoryMap] = useState<Record<string, string>>(initialCategoryData.map);
   const [categoryIdToLabel, setCategoryIdToLabel] = useState<Record<string, string>>(initialCategoryData.idToLabel);
 
-  // NOTE: Categories and posts are now fetched server-side via ISR
-  // No client-side fetching needed - data comes from initialPosts and initialCategories props
-  // This eliminates the loading delay when switching languages
+  // Sync page from URL on initial load and URL changes
+  useEffect(() => {
+    const pageParam = searchParams.get('page');
+    const page = pageParam ? parseInt(pageParam, 10) : 1;
+    if (page !== currentPage && page >= 1 && page <= totalPages) {
+      setCurrentPage(page);
+    }
+  }, [searchParams, totalPages]);
 
   // Filter by category
   useEffect(() => {
@@ -116,10 +130,13 @@ export default function BlogPageClient({
       );
       setFilteredPosts(filtered);
     }
-    setCurrentPage(1); // Reset to first page when category changes
+    // Reset to page 1 when category changes and update URL
+    if (currentPage !== 1) {
+      router.push(`/${locale}/blog`, { scroll: false });
+    }
   }, [selectedCategory, blogPosts, categoryMap, t.categories.all]);
 
-  // Calculate pagination
+  // Calculate pagination when filtered posts change
   useEffect(() => {
     setTotalPages(Math.ceil(filteredPosts.length / POSTS_PER_PAGE));
   }, [filteredPosts]);
@@ -131,8 +148,11 @@ export default function BlogPageClient({
     return filteredPosts.slice(startIndex, endIndex);
   };
 
-  // Pagination handlers
+  // Pagination handlers - URL-based for SEO
   const goToPage = (page: number) => {
+    // Update URL with page parameter (page 1 has no param for cleaner URLs)
+    const url = page === 1 ? `/${locale}/blog` : `/${locale}/blog?page=${page}`;
+    router.push(url, { scroll: false });
     setCurrentPage(page);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -301,74 +321,84 @@ export default function BlogPageClient({
                 ))}
               </div>
 
-              {/* Pagination */}
+              {/* Pagination - Using Links for SEO crawlability */}
               {totalPages > 1 && (
-                <div className="mt-12 flex items-center justify-center gap-2">
-                  {/* Previous button */}
-                  <button
-                    onClick={goToPreviousPage}
-                    disabled={currentPage === 1}
-                    className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                      currentPage === 1
-                        ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
-                        : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'
-                    }`}
-                  >
-                    {t.pagination.previous}
-                  </button>
+                <nav className="mt-12 flex items-center justify-center gap-2" aria-label="Pagination">
+                  {/* Previous link */}
+                  {currentPage === 1 ? (
+                    <span className="px-3 py-2 rounded-md text-sm font-medium bg-gray-100 text-gray-400 cursor-not-allowed">
+                      {t.pagination.previous}
+                    </span>
+                  ) : (
+                    <Link
+                      href={currentPage === 2 ? `/${locale}/blog` : `/${locale}/blog?page=${currentPage - 1}`}
+                      className="px-3 py-2 rounded-md text-sm font-medium bg-white text-gray-700 hover:bg-gray-100 border border-gray-300 transition-colors"
+                      rel="prev"
+                    >
+                      {t.pagination.previous}
+                    </Link>
+                  )}
 
                   {/* Page numbers */}
                   {currentPage > 3 && (
                     <>
-                      <button
-                        onClick={() => goToPage(1)}
+                      <Link
+                        href={`/${locale}/blog`}
                         className="px-3 py-2 rounded-md text-sm font-medium bg-white text-gray-700 hover:bg-gray-100 border border-gray-300"
                       >
                         1
-                      </button>
+                      </Link>
                       {currentPage > 4 && <span className="text-gray-400">...</span>}
                     </>
                   )}
 
                   {getPageNumbers().map((page) => (
-                    <button
-                      key={page}
-                      onClick={() => goToPage(page)}
-                      className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                        page === currentPage
-                          ? 'bg-primary text-white'
-                          : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'
-                      }`}
-                    >
-                      {page}
-                    </button>
+                    page === currentPage ? (
+                      <span
+                        key={page}
+                        className="px-3 py-2 rounded-md text-sm font-medium bg-primary text-white"
+                        aria-current="page"
+                      >
+                        {page}
+                      </span>
+                    ) : (
+                      <Link
+                        key={page}
+                        href={page === 1 ? `/${locale}/blog` : `/${locale}/blog?page=${page}`}
+                        className="px-3 py-2 rounded-md text-sm font-medium bg-white text-gray-700 hover:bg-gray-100 border border-gray-300 transition-colors"
+                      >
+                        {page}
+                      </Link>
+                    )
                   ))}
 
                   {currentPage < totalPages - 2 && (
                     <>
                       {currentPage < totalPages - 3 && <span className="text-gray-400">...</span>}
-                      <button
-                        onClick={() => goToPage(totalPages)}
+                      <Link
+                        href={`/${locale}/blog?page=${totalPages}`}
                         className="px-3 py-2 rounded-md text-sm font-medium bg-white text-gray-700 hover:bg-gray-100 border border-gray-300"
                       >
                         {totalPages}
-                      </button>
+                      </Link>
                     </>
                   )}
 
-                  {/* Next button */}
-                  <button
-                    onClick={goToNextPage}
-                    disabled={currentPage === totalPages}
-                    className={`px-3 py-2 rounded-md text-sm font-medium transition-colors ${
-                      currentPage === totalPages
-                        ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
-                        : 'bg-white text-gray-700 hover:bg-gray-100 border border-gray-300'
-                    }`}
-                  >
-                    {t.pagination.next}
-                  </button>
-                </div>
+                  {/* Next link */}
+                  {currentPage === totalPages ? (
+                    <span className="px-3 py-2 rounded-md text-sm font-medium bg-gray-100 text-gray-400 cursor-not-allowed">
+                      {t.pagination.next}
+                    </span>
+                  ) : (
+                    <Link
+                      href={`/${locale}/blog?page=${currentPage + 1}`}
+                      className="px-3 py-2 rounded-md text-sm font-medium bg-white text-gray-700 hover:bg-gray-100 border border-gray-300 transition-colors"
+                      rel="next"
+                    >
+                      {t.pagination.next}
+                    </Link>
+                  )}
+                </nav>
               )}
             </>
           )}

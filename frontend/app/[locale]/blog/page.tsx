@@ -2,21 +2,32 @@ import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import BlogPageClient from './BlogPageClient';
 import { getBlogPostsForLocale, getBlogCategoriesForLocale } from '@/lib/blog-data';
+import Breadcrumb from '@/components/Breadcrumb';
 
 // Enable ISR - revalidate every hour for fast language switching
 export const revalidate = 3600;
+
+const POSTS_PER_PAGE = 12;
 
 interface BlogPageProps {
   params: {
     locale: string;
   };
+  searchParams: {
+    page?: string;
+  };
 }
 
 
-// Generate metadata for SEO
-export async function generateMetadata({ params }: BlogPageProps): Promise<Metadata> {
+// Generate metadata for SEO with pagination support
+export async function generateMetadata({ params, searchParams }: BlogPageProps): Promise<Metadata> {
   const locale = params.locale || 'en';
   const baseUrl = 'https://lessoncraftstudio.com';
+  const currentPage = parseInt(searchParams.page || '1', 10);
+
+  // Fetch posts to calculate total pages
+  const posts = await getBlogPostsForLocale(locale);
+  const totalPages = Math.ceil(posts.length / POSTS_PER_PAGE);
 
   // Localized titles and descriptions
   const metadata: Record<string, { title: string; description: string }> = {
@@ -68,46 +79,86 @@ export async function generateMetadata({ params }: BlogPageProps): Promise<Metad
 
   const localeMeta = metadata[locale] || metadata['en'];
 
+  // Build canonical URL (page 1 has no query param)
+  const canonicalUrl = currentPage === 1
+    ? `${baseUrl}/${locale}/blog`
+    : `${baseUrl}/${locale}/blog?page=${currentPage}`;
+
+  // Build title with page number for pages > 1
+  const pageTitle = currentPage > 1
+    ? `${localeMeta.title} - Page ${currentPage}`
+    : localeMeta.title;
+
+  // Build other pagination links
+  const otherLinks: Record<string, string> = {};
+  if (currentPage > 1) {
+    otherLinks.prev = currentPage === 2
+      ? `${baseUrl}/${locale}/blog`
+      : `${baseUrl}/${locale}/blog?page=${currentPage - 1}`;
+  }
+  if (currentPage < totalPages) {
+    otherLinks.next = `${baseUrl}/${locale}/blog?page=${currentPage + 1}`;
+  }
+
   return {
-    title: localeMeta.title,
+    title: pageTitle,
     description: localeMeta.description,
     alternates: {
-      canonical: `${baseUrl}/${locale}/blog`,
+      canonical: canonicalUrl,
       languages: {
-        'en': `${baseUrl}/en/blog`,
-        'de': `${baseUrl}/de/blog`,
-        'fr': `${baseUrl}/fr/blog`,
-        'es': `${baseUrl}/es/blog`,
-        'pt': `${baseUrl}/pt/blog`,
-        'it': `${baseUrl}/it/blog`,
-        'nl': `${baseUrl}/nl/blog`,
-        'sv': `${baseUrl}/sv/blog`,
-        'da': `${baseUrl}/da/blog`,
-        'no': `${baseUrl}/no/blog`,
-        'fi': `${baseUrl}/fi/blog`,
-        'x-default': `${baseUrl}/en/blog`
+        'en': `${baseUrl}/en/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
+        'de': `${baseUrl}/de/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
+        'fr': `${baseUrl}/fr/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
+        'es': `${baseUrl}/es/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
+        'pt': `${baseUrl}/pt/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
+        'it': `${baseUrl}/it/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
+        'nl': `${baseUrl}/nl/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
+        'sv': `${baseUrl}/sv/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
+        'da': `${baseUrl}/da/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
+        'no': `${baseUrl}/no/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
+        'fi': `${baseUrl}/fi/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`,
+        'x-default': `${baseUrl}/en/blog${currentPage > 1 ? `?page=${currentPage}` : ''}`
       }
     },
     openGraph: {
-      title: localeMeta.title,
+      title: pageTitle,
       description: localeMeta.description,
       type: 'website',
-      url: `${baseUrl}/${locale}/blog`,
+      url: canonicalUrl,
       siteName: 'LessonCraftStudio',
       locale: locale,
       alternateLocale: ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'].filter(l => l !== locale)
-    }
+    },
+    other: otherLinks
   };
 }
 
-export default async function BlogPage({ params }: BlogPageProps) {
+export default async function BlogPage({ params, searchParams }: BlogPageProps) {
   const t = await getTranslations({ locale: params.locale, namespace: 'blogPage' });
+  const currentPage = parseInt(searchParams.page || '1', 10);
 
   // Fetch blog posts and categories server-side (cached via ISR)
   const [initialPosts, initialCategories] = await Promise.all([
     getBlogPostsForLocale(params.locale),
     Promise.resolve(getBlogCategoriesForLocale(params.locale))
   ]);
+
+  const totalPages = Math.ceil(initialPosts.length / POSTS_PER_PAGE);
+
+  // Localized breadcrumb labels
+  const breadcrumbLabels: Record<string, string> = {
+    en: 'Blog',
+    de: 'Blog',
+    fr: 'Blog',
+    es: 'Blog',
+    pt: 'Blog',
+    it: 'Blog',
+    nl: 'Blog',
+    sv: 'Blogg',
+    da: 'Blog',
+    no: 'Blogg',
+    fi: 'Blogi'
+  };
 
   // Prepare all translations for the client component
   const translations = {
@@ -200,11 +251,17 @@ export default async function BlogPage({ params }: BlogPageProps) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
       />
+      <Breadcrumb
+        locale={params.locale}
+        items={[{ label: breadcrumbLabels[params.locale] || 'Blog' }]}
+      />
       <BlogPageClient
         locale={params.locale}
         translations={translations}
         initialPosts={initialPosts}
         initialCategories={initialCategories}
+        initialPage={currentPage}
+        totalPages={totalPages}
       />
     </>
   );

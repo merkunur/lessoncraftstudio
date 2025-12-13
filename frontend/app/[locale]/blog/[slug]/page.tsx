@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { prisma } from '@/lib/prisma';
 import { generateBlogSchemas } from '@/lib/schema-generator';
+import Breadcrumb from '@/components/Breadcrumb';
 
 // Enable ISR - revalidate every hour
 export const revalidate = 3600;
@@ -180,6 +181,21 @@ export default async function BlogPostPage({
     updatedAt: post.updatedAt
   }, locale);
 
+  // Localized breadcrumb labels
+  const breadcrumbLabels: Record<string, string> = {
+    en: 'Blog',
+    de: 'Blog',
+    fr: 'Blog',
+    es: 'Blog',
+    pt: 'Blog',
+    it: 'Blog',
+    nl: 'Blog',
+    sv: 'Blogg',
+    da: 'Blog',
+    no: 'Blogg',
+    fi: 'Blogi'
+  };
+
   // Render the extracted content with inline styles, PDFs after header, and related posts before footer
   return (
     <>
@@ -187,6 +203,15 @@ export default async function BlogPostPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemas) }}
+      />
+
+      {/* Breadcrumb Navigation */}
+      <Breadcrumb
+        locale={locale}
+        items={[
+          { label: breadcrumbLabels[locale] || 'Blog', href: `/${locale}/blog` },
+          { label: translation.title || slug }
+        ]}
       />
 
       <div dangerouslySetInnerHTML={{ __html: styles }} />

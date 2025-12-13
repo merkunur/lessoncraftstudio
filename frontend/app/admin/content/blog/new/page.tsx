@@ -43,6 +43,7 @@ interface BlogContent {
   excerpt: string;
   metaTitle: string;
   metaDescription: string;
+  focusKeyword: string;  // Primary SEO keyword to optimize for
   keywords: string[];
   ogImage: string;
   canonicalUrl: string;
@@ -72,6 +73,7 @@ export default function NewBlogPost() {
         excerpt: '',
         metaTitle: '',
         metaDescription: '',
+        focusKeyword: '',
         keywords: [],
         ogImage: '',
         canonicalUrl: '',
@@ -158,10 +160,11 @@ export default function NewBlogPost() {
   const getSEOScore = () => {
     const content = currentContent;
     let score = 0;
+    const wordCount = content.content.split(/\s+/).filter(w => w).length;
 
-    // Title checks (20 points)
-    if (content.title) score += 10;
-    if (content.title.length >= 30 && content.title.length <= 60) score += 10;
+    // Title checks (15 points)
+    if (content.title) score += 7;
+    if (content.title.length >= 30 && content.title.length <= 60) score += 8;
 
     // Meta title (15 points)
     if (content.metaTitle) score += 7;
@@ -171,13 +174,16 @@ export default function NewBlogPost() {
     if (content.metaDescription) score += 7;
     if (content.metaDescription.length >= 120 && content.metaDescription.length <= 160) score += 8;
 
-    // Keywords (10 points)
+    // Focus keyword (10 points) - Critical for SEO targeting
+    if (content.focusKeyword) score += 10;
+
+    // Additional keywords (10 points)
     if (content.keywords.length >= 3) score += 5;
     if (content.keywords.length >= 5) score += 5;
 
-    // Content (20 points)
-    if (content.content.length >= 300) score += 10;
-    if (content.content.length >= 1000) score += 10;
+    // Content length - word count based (15 points)
+    if (wordCount >= 300) score += 7;
+    if (wordCount >= 600) score += 8;
 
     // Slug (10 points)
     if (content.slug) score += 10;
@@ -457,6 +463,7 @@ export default function NewBlogPost() {
           excerpt: content.excerpt,
           metaTitle: content.metaTitle || content.title,
           metaDescription: content.metaDescription || content.excerpt,
+          focusKeyword: content.focusKeyword,
           keywords: content.keywords.join(','),
           category: category,
           author: 'LessonCraftStudio Team',
@@ -771,12 +778,31 @@ export default function NewBlogPost() {
                         className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 px-3 py-2 border font-mono text-sm"
                         placeholder="Paste your translated HTML content here..."
                       />
-                      <p className="mt-1 text-sm text-gray-500">
-                        Word count: {currentContent.content.split(/\s+/).filter(w => w).length} words
-                        {currentContent.content.length < 300 &&
-                          <span className="text-red-500 ml-2">• Need at least 300 characters for good SEO</span>
-                        }
-                      </p>
+                      {(() => {
+                        const wordCount = currentContent.content.split(/\s+/).filter(w => w).length;
+                        return (
+                          <div className="mt-2 flex items-center justify-between">
+                            <p className="text-sm text-gray-500">
+                              Word count: <span className={wordCount >= 300 ? 'text-green-600 font-medium' : wordCount >= 150 ? 'text-yellow-600 font-medium' : 'text-red-600 font-medium'}>{wordCount}</span> words
+                            </p>
+                            {wordCount < 300 && (
+                              <div className={`px-3 py-1 rounded-md text-xs font-medium ${wordCount < 150 ? 'bg-red-100 text-red-700' : 'bg-yellow-100 text-yellow-700'}`}>
+                                {wordCount < 150 ? '⚠️ Thin content - aim for 300+ words' : '📝 Good start - add more for better SEO'}
+                              </div>
+                            )}
+                            {wordCount >= 300 && wordCount < 600 && (
+                              <div className="px-3 py-1 rounded-md text-xs font-medium bg-green-100 text-green-700">
+                                ✓ Good length
+                              </div>
+                            )}
+                            {wordCount >= 600 && (
+                              <div className="px-3 py-1 rounded-md text-xs font-medium bg-blue-100 text-blue-700">
+                                ★ Excellent depth
+                              </div>
+                            )}
+                          </div>
+                        );
+                      })()}
                     </div>
                   </div>
                 )}
@@ -793,11 +819,14 @@ export default function NewBlogPost() {
                         <li className={currentContent.metaDescription && currentContent.metaDescription.length >= 120 && currentContent.metaDescription.length <= 160 ? 'line-through' : ''}>
                           ✓ Meta description: 120-160 characters
                         </li>
-                        <li className={currentContent.keywords.length >= 3 ? 'line-through' : ''}>
-                          ✓ At least 3 keywords
+                        <li className={currentContent.focusKeyword ? 'line-through' : ''}>
+                          ✓ Focus keyword defined
                         </li>
-                        <li className={currentContent.content.length >= 300 ? 'line-through' : ''}>
-                          ✓ Content minimum 300 characters
+                        <li className={currentContent.keywords.length >= 3 ? 'line-through' : ''}>
+                          ✓ At least 3 additional keywords
+                        </li>
+                        <li className={currentContent.content.split(/\s+/).filter(w => w).length >= 300 ? 'line-through' : ''}>
+                          ✓ Content minimum 300 words
                         </li>
                         <li className={currentContent.slug ? 'line-through' : ''}>
                           ✓ URL slug defined
@@ -836,8 +865,25 @@ export default function NewBlogPost() {
                     </div>
 
                     <div>
+                      <label htmlFor="focusKeyword" className="block text-sm font-medium text-gray-700">
+                        Focus Keyword (Primary SEO Target)
+                      </label>
+                      <input
+                        type="text"
+                        id="focusKeyword"
+                        value={currentContent.focusKeyword}
+                        onChange={(e) => updateTranslation('focusKeyword', e.target.value)}
+                        className="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500 px-3 py-2 border"
+                        placeholder="e.g., free math worksheets, multiplication practice..."
+                      />
+                      <p className="mt-1 text-xs text-gray-500">
+                        The main keyword you want this post to rank for. Use in title, meta description, and content.
+                      </p>
+                    </div>
+
+                    <div>
                       <label htmlFor="keywords" className="block text-sm font-medium text-gray-700">
-                        Keywords (comma separated)
+                        Additional Keywords (comma separated)
                       </label>
                       <input
                         type="text"

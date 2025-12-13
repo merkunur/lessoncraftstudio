@@ -26,7 +26,7 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
   const postUrl = `${baseUrl}/${locale}/blog/${post.slug}`;
   const title = post.metaTitle || post.title;
   const description = post.metaDescription || post.excerpt || '';
-  const image = post.featuredImage ? `${baseUrl}${post.featuredImage}` : `${baseUrl}/default-blog-image.jpg`;
+  const image = post.featuredImage ? `${baseUrl}${post.featuredImage}` : `${baseUrl}/default-blog-image.svg`;
 
   // 1. Article Schema (Primary)
   const articleSchema = {
@@ -36,9 +36,14 @@ export function generateBlogSchemas(post: BlogPostData, locale: string, baseUrl:
     "description": description,
     "image": image,
     "author": {
-      "@type": "Organization",
-      "name": post.author || "LessonCraftStudio",
-      "url": `${baseUrl}/${locale}`
+      "@type": "Person",
+      "name": post.author || "LessonCraftStudio Team",
+      "url": `${baseUrl}/${locale}`,
+      "jobTitle": "Educational Content Creator",
+      "worksFor": {
+        "@type": "EducationalOrganization",
+        "name": "LessonCraftStudio"
+      }
     },
     "publisher": {
       "@type": "Organization",

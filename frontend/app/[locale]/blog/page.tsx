@@ -152,12 +152,60 @@ export default async function BlogPage({ params }: BlogPageProps) {
     }
   };
 
+  // Generate CollectionPage schema for blog listing (helps Google understand this is an article archive)
+  const baseUrl = 'https://lessoncraftstudio.com';
+  const localeMeta = {
+    en: { name: 'Educational Blog', description: 'Teaching resources, worksheet tips, and educational guides for teachers and parents.' },
+    de: { name: 'Bildungs-Blog', description: 'Unterrichtsmaterialien, Arbeitsblatt-Tipps und Bildungsleitfäden für Lehrer und Eltern.' },
+    fr: { name: 'Blog Éducatif', description: 'Ressources pédagogiques, conseils et guides éducatifs pour enseignants et parents.' },
+    es: { name: 'Blog Educativo', description: 'Recursos didácticos, consejos y guías educativas para maestros y padres.' },
+    pt: { name: 'Blog Educacional', description: 'Recursos pedagógicos, dicas e guias educacionais para professores e pais.' },
+    it: { name: 'Blog Educativo', description: 'Risorse didattiche, consigli e guide educative per insegnanti e genitori.' },
+    nl: { name: 'Educatieve Blog', description: 'Lesmateriaal, werkbladtips en educatieve gidsen voor leraren en ouders.' },
+    sv: { name: 'Utbildningsblogg', description: 'Undervisningsmaterial, arbetsbladstips och utbildningsguider för lärare och föräldrar.' },
+    da: { name: 'Uddannelsesblog', description: 'Undervisningsmaterialer, arbejdsarkstips og uddannelsesguider til lærere og forældre.' },
+    no: { name: 'Utdanningsblogg', description: 'Undervisningsressurser, arbeidsarktips og utdanningsguider for lærere og foreldre.' },
+    fi: { name: 'Koulutusblogi', description: 'Opetusmateriaalit, työarkkivinkit ja koulutusoppaat opettajille ja vanhemmille.' }
+  };
+
+  const blogMeta = localeMeta[params.locale as keyof typeof localeMeta] || localeMeta.en;
+
+  const collectionSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": blogMeta.name,
+    "description": blogMeta.description,
+    "url": `${baseUrl}/${params.locale}/blog`,
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "LessonCraftStudio",
+      "url": baseUrl
+    },
+    "about": {
+      "@type": "Thing",
+      "name": "Educational Resources"
+    },
+    "inLanguage": params.locale,
+    "numberOfItems": initialPosts.length,
+    "provider": {
+      "@type": "EducationalOrganization",
+      "name": "LessonCraftStudio",
+      "url": baseUrl
+    }
+  };
+
   return (
-    <BlogPageClient
-      locale={params.locale}
-      translations={translations}
-      initialPosts={initialPosts}
-      initialCategories={initialCategories}
-    />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionSchema) }}
+      />
+      <BlogPageClient
+        locale={params.locale}
+        translations={translations}
+        initialPosts={initialPosts}
+        initialCategories={initialCategories}
+      />
+    </>
   );
 }

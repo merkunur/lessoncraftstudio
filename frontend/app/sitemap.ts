@@ -1,6 +1,9 @@
 import { MetadataRoute } from 'next';
 import { prisma } from '@/lib/prisma';
 
+// Enable ISR for sitemap - revalidate every hour to include new/updated blog posts
+export const revalidate = 3600;
+
 /**
  * Dynamic sitemap generation with hreflang alternates
  * Includes all public pages, blog posts, and multilingual routes

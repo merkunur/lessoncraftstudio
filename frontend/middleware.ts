@@ -36,7 +36,7 @@ function continueWithIntlMiddleware(
   return response as NextResponse;
 }
 
-export default async function middleware(request: NextRequest) {
+export default function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
   // Set pathname header for root layout to detect locale for SEO (html lang attribute)
@@ -49,46 +49,9 @@ export default async function middleware(request: NextRequest) {
   const validLocales = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
   const detectedLocale = validLocales.includes(urlLocale) ? urlLocale : 'en';
 
-  // Handle blog post redirects for wrong language prefixes (SEO fix for old Google-indexed URLs)
-  // Pattern: /xx/blog/slug where xx is a valid locale
-  if (pathname.match(/^\/[a-z]{2}\/blog\/[^/]+$/) && validLocales.includes(urlLocale)) {
-    const slug = pathSegments[2];
-
-    // Use absolute external URL for the API call to avoid internal fetch issues
-    const baseUrl = process.env.NODE_ENV === 'production'
-      ? 'https://www.lessoncraftstudio.com'
-      : request.nextUrl.origin;
-    const checkUrl = `${baseUrl}/api/blog/check-slug-language?slug=${encodeURIComponent(slug)}&locale=${urlLocale}`;
-
-    try {
-      // Use AbortController for timeout
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 3000); // 3 second timeout
-
-      const checkResponse = await fetch(checkUrl, {
-        signal: controller.signal,
-        headers: {
-          'Accept': 'application/json',
-        },
-      });
-      clearTimeout(timeoutId);
-
-      if (checkResponse.ok) {
-        const { correctLocale } = await checkResponse.json();
-        if (correctLocale && correctLocale !== urlLocale) {
-          // Slug belongs to a different language - redirect with 301
-          const redirectUrl = new URL(`/${correctLocale}/blog/${slug}`, request.url);
-          return NextResponse.redirect(redirectUrl, 301);
-        }
-      }
-    } catch (error) {
-      // On timeout or error, continue normally (page-level redirect will handle it)
-      console.error('Blog slug check failed:', error);
-    }
-
-    // No redirect needed - continue with normal middleware
-    return continueWithIntlMiddleware(request, requestHeaders, detectedLocale, pathname);
-  }
+  // Note: Blog redirect for wrong language prefixes is handled at page level
+  // The hreflang tags in sitemap and pages tell Google which version to serve
+  // Page-level redirect handles any remaining edge cases
 
   // Redirect common pages without locale to default locale
   const pagesNeedingLocale = ['/contact', '/pricing', '/privacy', '/terms', '/about'];

@@ -48,23 +48,20 @@ export function LanguageSelector() {
       const currentSlug = pathSegments[3];
 
       try {
-        // Fetch the blog post to get the language-specific slug
-        const response = await fetch(`/api/blog/posts/${currentSlug}?locale=${currentLocale}`);
+        // Use lightweight slugs API (much faster than full post API)
+        const response = await fetch(`/api/blog/slugs/${currentSlug}?locale=${currentLocale}`);
 
         if (response.ok) {
-          const post = await response.json();
-          const translations = post.translations || {};
-          const newLocaleTranslation = translations[newLocale];
-
+          const { slugs } = await response.json();
           // Use language-specific slug if available, otherwise fallback to current slug
-          const newSlug = newLocaleTranslation?.slug || currentSlug;
+          const newSlug = slugs[newLocale] || currentSlug;
 
           router.push(`/${newLocale}/blog/${newSlug}`);
           setIsOpen(false);
           return;
         }
       } catch (error) {
-        console.error('Error fetching blog post for language switch:', error);
+        console.error('Error fetching blog slugs for language switch:', error);
       }
     }
 

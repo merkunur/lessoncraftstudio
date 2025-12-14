@@ -6,13 +6,35 @@ import type { NextRequest } from 'next/server';
 const intlMiddleware = createMiddleware({
   // A list of all locales that are supported
   locales,
-  
+
   // Used when no locale matches
   defaultLocale,
-  
+
   // Always use a locale prefix in the URL
   localePrefix: 'always'
 });
+
+// Helper function to continue with intl middleware and set locale cookie
+function continueWithIntlMiddleware(
+  request: NextRequest,
+  requestHeaders: Headers,
+  detectedLocale: string,
+  pathname: string
+): NextResponse {
+  const response = intlMiddleware(request);
+
+  // Set locale cookie for root layout to detect language for SEO (html lang attribute)
+  if (response instanceof NextResponse) {
+    response.headers.set('x-pathname', pathname);
+    response.cookies.set('NEXT_LOCALE', detectedLocale, {
+      path: '/',
+      sameSite: 'lax',
+      maxAge: 60 * 60 * 24 // 24 hours
+    });
+  }
+
+  return response as NextResponse;
+}
 
 export default function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
@@ -26,6 +48,36 @@ export default function middleware(request: NextRequest) {
   const urlLocale = pathSegments[0];
   const validLocales = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
   const detectedLocale = validLocales.includes(urlLocale) ? urlLocale : 'en';
+
+  // Handle blog post redirects for wrong language prefixes (SEO fix for old Google-indexed URLs)
+  // Pattern: /xx/blog/slug where xx is a valid locale
+  if (pathname.match(/^\/[a-z]{2}\/blog\/[^/]+$/) && validLocales.includes(urlLocale)) {
+    const slug = pathSegments[2];
+
+    // Call API to check which language this slug actually belongs to
+    const checkUrl = new URL('/api/blog/check-slug-language', request.url);
+    checkUrl.searchParams.set('slug', slug);
+    checkUrl.searchParams.set('locale', urlLocale);
+
+    // Use fetch to check - wrapped in try/catch to not block on errors
+    return fetch(checkUrl.toString())
+      .then(async (checkResponse) => {
+        if (checkResponse.ok) {
+          const { correctLocale } = await checkResponse.json();
+          if (correctLocale && correctLocale !== urlLocale) {
+            // Slug belongs to a different language - redirect with 301
+            const redirectUrl = new URL(`/${correctLocale}/blog/${slug}`, request.url);
+            return NextResponse.redirect(redirectUrl, 301);
+          }
+        }
+        // No redirect needed - continue with normal middleware
+        return continueWithIntlMiddleware(request, requestHeaders, detectedLocale, pathname);
+      })
+      .catch(() => {
+        // On error, continue normally
+        return continueWithIntlMiddleware(request, requestHeaders, detectedLocale, pathname);
+      });
+  }
 
   // Redirect common pages without locale to default locale
   const pagesNeedingLocale = ['/contact', '/pricing', '/privacy', '/terms', '/about'];
@@ -109,20 +161,8 @@ export default function middleware(request: NextRequest) {
     }
   }
 
-  // Use intl middleware for other paths, passing the pathname header
-  const response = intlMiddleware(request);
-
-  // Set locale cookie for root layout to detect language for SEO (html lang attribute)
-  if (response instanceof NextResponse) {
-    response.headers.set('x-pathname', pathname);
-    response.cookies.set('NEXT_LOCALE', detectedLocale, {
-      path: '/',
-      sameSite: 'lax',
-      maxAge: 60 * 60 * 24 // 24 hours
-    });
-  }
-
-  return response;
+  // Use intl middleware for other paths
+  return continueWithIntlMiddleware(request, requestHeaders, detectedLocale, pathname);
 }
 
 export const config = {

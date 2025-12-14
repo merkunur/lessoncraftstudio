@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter, Poppins } from 'next/font/google';
-import { headers } from 'next/headers';
+import { cookies } from 'next/headers';
 import './globals.css';
 import { Providers } from './providers';
 
@@ -29,14 +29,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  // Extract locale from URL path to set correct html lang attribute
-  const headersList = headers();
-  const pathname = headersList.get('x-pathname') || headersList.get('x-invoke-path') || '';
-
-  // Extract locale from pathname (e.g., /de/blog/... -> de)
-  const pathSegments = pathname.split('/').filter(Boolean);
-  const urlLocale = pathSegments[0];
-  const lang = supportedLocales.includes(urlLocale) ? urlLocale : 'en';
+  // Get locale from cookie set by middleware for correct html lang attribute (SEO)
+  const cookieStore = cookies();
+  const localeCookie = cookieStore.get('NEXT_LOCALE')?.value;
+  const lang = localeCookie && supportedLocales.includes(localeCookie) ? localeCookie : 'en';
 
   return (
     <html lang={lang}>

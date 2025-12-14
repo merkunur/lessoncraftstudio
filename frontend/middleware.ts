@@ -21,6 +21,12 @@ export default function middleware(request: NextRequest) {
   const requestHeaders = new Headers(request.headers);
   requestHeaders.set('x-pathname', pathname);
 
+  // Extract locale from URL for SEO (html lang attribute)
+  const pathSegments = pathname.split('/').filter(Boolean);
+  const urlLocale = pathSegments[0];
+  const validLocales = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
+  const detectedLocale = validLocales.includes(urlLocale) ? urlLocale : 'en';
+
   // Redirect common pages without locale to default locale
   const pagesNeedingLocale = ['/contact', '/pricing', '/privacy', '/terms', '/about'];
   if (pagesNeedingLocale.includes(pathname)) {
@@ -106,9 +112,14 @@ export default function middleware(request: NextRequest) {
   // Use intl middleware for other paths, passing the pathname header
   const response = intlMiddleware(request);
 
-  // Add pathname header to intl middleware response for locale detection
+  // Set locale cookie for root layout to detect language for SEO (html lang attribute)
   if (response instanceof NextResponse) {
     response.headers.set('x-pathname', pathname);
+    response.cookies.set('NEXT_LOCALE', detectedLocale, {
+      path: '/',
+      sameSite: 'lax',
+      maxAge: 60 * 60 * 24 // 24 hours
+    });
   }
 
   return response;

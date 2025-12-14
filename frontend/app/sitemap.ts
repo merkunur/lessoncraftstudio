@@ -2,8 +2,9 @@ import { MetadataRoute } from 'next';
 import { prisma } from '@/lib/prisma';
 
 /**
- * Dynamic sitemap generation
+ * Dynamic sitemap generation with hreflang alternates
  * Includes all public pages, blog posts, and multilingual routes
+ * Each entry includes alternates to all language versions for better SEO
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://lessoncraftstudio.com';
@@ -13,7 +14,16 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const currentDate = new Date();
 
-  // Static routes for each locale
+  // Helper to generate language alternates for static pages
+  function generateStaticAlternates(path: string): Record<string, string> {
+    const alternates: Record<string, string> = {};
+    for (const lang of locales) {
+      alternates[lang] = `${baseUrl}/${lang}${path}`;
+    }
+    return alternates;
+  }
+
+  // Static routes for each locale with hreflang alternates
   const staticRoutes: MetadataRoute.Sitemap = [];
   const staticPages = [
     { path: '', priority: 1.0 }, // Homepage
@@ -25,7 +35,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: '/support', priority: 0.7 },
   ];
 
-  // Add static pages for all locales
+  // Add static pages for all locales with alternates
   for (const locale of locales) {
     for (const page of staticPages) {
       staticRoutes.push({
@@ -33,6 +43,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         lastModified: currentDate,
         changeFrequency: 'monthly' as const,
         priority: page.priority,
+        alternates: {
+          languages: generateStaticAlternates(page.path),
+        },
       });
     }
   }
@@ -55,6 +68,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     blogRoutes = blogPosts.flatMap((post) => {
       const translations = post.translations as any;
 
+      // Build alternates map with language-specific slugs for this post
+      const blogAlternates: Record<string, string> = {};
+      for (const lang of locales) {
+        const langSlug = translations[lang]?.slug || post.slug;
+        blogAlternates[lang] = `${baseUrl}/${lang}/blog/${langSlug}`;
+      }
+
       return locales.map((locale) => {
         // Use language-specific slug if available, otherwise fallback to primary slug
         const localeSlug = translations[locale]?.slug || post.slug;
@@ -64,6 +84,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
           lastModified: post.updatedAt,
           changeFrequency: 'weekly' as const,
           priority: 0.7,
+          alternates: {
+            languages: blogAlternates,
+          },
         };
       });
     });

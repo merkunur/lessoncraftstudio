@@ -36,7 +36,7 @@ function continueWithIntlMiddleware(
   return response as NextResponse;
 }
 
-export default function middleware(request: NextRequest) {
+export default async function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
   // Set pathname header for root layout to detect locale for SEO (html lang attribute)
@@ -54,29 +54,40 @@ export default function middleware(request: NextRequest) {
   if (pathname.match(/^\/[a-z]{2}\/blog\/[^/]+$/) && validLocales.includes(urlLocale)) {
     const slug = pathSegments[2];
 
-    // Call API to check which language this slug actually belongs to
-    const checkUrl = new URL('/api/blog/check-slug-language', request.url);
-    checkUrl.searchParams.set('slug', slug);
-    checkUrl.searchParams.set('locale', urlLocale);
+    // Use absolute external URL for the API call to avoid internal fetch issues
+    const baseUrl = process.env.NODE_ENV === 'production'
+      ? 'https://www.lessoncraftstudio.com'
+      : request.nextUrl.origin;
+    const checkUrl = `${baseUrl}/api/blog/check-slug-language?slug=${encodeURIComponent(slug)}&locale=${urlLocale}`;
 
-    // Use fetch to check - wrapped in try/catch to not block on errors
-    return fetch(checkUrl.toString())
-      .then(async (checkResponse) => {
-        if (checkResponse.ok) {
-          const { correctLocale } = await checkResponse.json();
-          if (correctLocale && correctLocale !== urlLocale) {
-            // Slug belongs to a different language - redirect with 301
-            const redirectUrl = new URL(`/${correctLocale}/blog/${slug}`, request.url);
-            return NextResponse.redirect(redirectUrl, 301);
-          }
-        }
-        // No redirect needed - continue with normal middleware
-        return continueWithIntlMiddleware(request, requestHeaders, detectedLocale, pathname);
-      })
-      .catch(() => {
-        // On error, continue normally
-        return continueWithIntlMiddleware(request, requestHeaders, detectedLocale, pathname);
+    try {
+      // Use AbortController for timeout
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 3000); // 3 second timeout
+
+      const checkResponse = await fetch(checkUrl, {
+        signal: controller.signal,
+        headers: {
+          'Accept': 'application/json',
+        },
       });
+      clearTimeout(timeoutId);
+
+      if (checkResponse.ok) {
+        const { correctLocale } = await checkResponse.json();
+        if (correctLocale && correctLocale !== urlLocale) {
+          // Slug belongs to a different language - redirect with 301
+          const redirectUrl = new URL(`/${correctLocale}/blog/${slug}`, request.url);
+          return NextResponse.redirect(redirectUrl, 301);
+        }
+      }
+    } catch (error) {
+      // On timeout or error, continue normally (page-level redirect will handle it)
+      console.error('Blog slug check failed:', error);
+    }
+
+    // No redirect needed - continue with normal middleware
+    return continueWithIntlMiddleware(request, requestHeaders, detectedLocale, pathname);
   }
 
   // Redirect common pages without locale to default locale

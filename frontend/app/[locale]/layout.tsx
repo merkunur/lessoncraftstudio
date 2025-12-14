@@ -1,24 +1,11 @@
 'use client';
 
-import { Inter, Poppins } from 'next/font/google';
 import { notFound, usePathname } from 'next/navigation';
 import { NextIntlClientProvider } from 'next-intl';
 import { useEffect, useState } from 'react';
 import { locales } from '@/i18n/request';
 import { Navigation } from '@/components/layout/Navigation';
 import { Footer } from '@/components/layout/Footer';
-import { Providers } from '../providers';
-
-const inter = Inter({
-  subsets: ['latin'],
-  variable: '--font-inter'
-});
-
-const poppins = Poppins({
-  weight: ['400', '500', '600', '700'],
-  subsets: ['latin'],
-  variable: '--font-poppins'
-});
 
 export default function LocaleLayout({
   children,
@@ -56,35 +43,23 @@ export default function LocaleLayout({
   // Apps routes: Scrollable page, no Footer
   if (isAppsRoute) {
     return (
-      <html lang={locale} className={`${inter.variable} ${poppins.variable}`}>
-        <body className="min-h-screen bg-gray-50 font-sans">
-          <Providers>
-            <NextIntlClientProvider locale={locale} messages={messages}>
-              <Navigation />
-              <main>
-                {children}
-              </main>
-            </NextIntlClientProvider>
-          </Providers>
-        </body>
-      </html>
+      <NextIntlClientProvider locale={locale} messages={messages}>
+        <Navigation />
+        <main>
+          {children}
+        </main>
+      </NextIntlClientProvider>
     );
   }
 
   // Other routes: Normal document flow with Footer
   return (
-    <html lang={locale} className={`${inter.variable} ${poppins.variable}`}>
-      <body className="min-h-screen bg-gray-50 font-sans">
-        <Providers>
-          <NextIntlClientProvider locale={locale} messages={messages}>
-            <Navigation />
-            <main className="flex-1">
-              {children}
-            </main>
-            <Footer />
-          </NextIntlClientProvider>
-        </Providers>
-      </body>
-    </html>
+    <NextIntlClientProvider locale={locale} messages={messages}>
+      <Navigation />
+      <main className="flex-1">
+        {children}
+      </main>
+      <Footer />
+    </NextIntlClientProvider>
   );
 }

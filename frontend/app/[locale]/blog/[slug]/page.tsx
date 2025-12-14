@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import Link from 'next/link';
 import { prisma } from '@/lib/prisma';
 import { generateBlogSchemas } from '@/lib/schema-generator';
@@ -78,6 +78,41 @@ async function getBlogPost(slug: string, locale: string): Promise<BlogPost | nul
   }
 }
 
+/**
+ * Search all blog posts to find which language a slug belongs to.
+ * Used for redirecting when a slug is accessed with the wrong language prefix.
+ * Returns the correct locale if found, null otherwise.
+ */
+async function findSlugLanguage(slug: string): Promise<string | null> {
+  try {
+    const posts = await prisma.blogPost.findMany({
+      where: { status: 'published' },
+      select: { slug: true, translations: true }
+    });
+
+    for (const post of posts) {
+      const translations = post.translations as any;
+
+      // Check each language's slug
+      for (const [locale, translation] of Object.entries(translations)) {
+        if ((translation as any)?.slug === slug) {
+          return locale;
+        }
+      }
+
+      // Also check primary slug
+      if (post.slug === slug) {
+        return 'en'; // Primary slug defaults to English
+      }
+    }
+
+    return null;
+  } catch (error) {
+    console.error('Error finding slug language:', error);
+    return null;
+  }
+}
+
 // Generate static params for all existing blog posts
 export async function generateStaticParams() {
   try {
@@ -137,6 +172,15 @@ export default async function BlogPostPage({
   const post = await getBlogPost(slug, locale);
 
   if (!post) {
+    // Post not found for this locale - check if slug exists in another language
+    const correctLocale = await findSlugLanguage(slug);
+
+    if (correctLocale && correctLocale !== locale) {
+      // Slug belongs to a different language - redirect with 301
+      redirect(`/${correctLocale}/blog/${slug}`);
+    }
+
+    // Slug doesn't exist anywhere - show 404
     notFound();
   }
 

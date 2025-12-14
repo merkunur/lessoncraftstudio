@@ -17,6 +17,10 @@ const intlMiddleware = createMiddleware({
 export default function middleware(request: NextRequest) {
   const pathname = request.nextUrl.pathname;
 
+  // Set pathname header for root layout to detect locale for SEO (html lang attribute)
+  const requestHeaders = new Headers(request.headers);
+  requestHeaders.set('x-pathname', pathname);
+
   // Redirect common pages without locale to default locale
   const pagesNeedingLocale = ['/contact', '/pricing', '/privacy', '/terms', '/about'];
   if (pagesNeedingLocale.includes(pathname)) {
@@ -34,7 +38,9 @@ export default function middleware(request: NextRequest) {
 
     // Allow dev bypass
     if (authHeader === 'Bearer dev-bypass' || process.env.NODE_ENV === 'development') {
-      return NextResponse.next();
+      return NextResponse.next({
+        request: { headers: requestHeaders }
+      });
     }
 
     // If no admin token, redirect to login
@@ -44,12 +50,16 @@ export default function middleware(request: NextRequest) {
       return NextResponse.redirect(loginUrl);
     }
 
-    return NextResponse.next();
+    return NextResponse.next({
+      request: { headers: requestHeaders }
+    });
   }
 
   // Skip middleware for other static HTML files and public assets
   if (pathname.endsWith('.html') || pathname.includes('/worksheet-generators/')) {
-    return NextResponse.next();
+    return NextResponse.next({
+      request: { headers: requestHeaders }
+    });
   }
 
   // Skip middleware for admin and other app routes (but NOT dashboard - it needs i18n)
@@ -59,7 +69,9 @@ export default function middleware(request: NextRequest) {
       pathname.startsWith('/collaboration') ||
       pathname.startsWith('/testing') ||
       pathname.startsWith('/search')) {
-    return NextResponse.next();
+    return NextResponse.next({
+      request: { headers: requestHeaders }
+    });
   }
 
   // Handle static pages with language persistence
@@ -70,7 +82,9 @@ export default function middleware(request: NextRequest) {
     // Check if locale is valid
     if (locale && locales.includes(locale as any)) {
       // Set language cookie for persistence
-      const response = NextResponse.next();
+      const response = NextResponse.next({
+        request: { headers: requestHeaders }
+      });
       response.cookies.set('preferredLanguage', locale, {
         httpOnly: true,
         sameSite: 'strict',
@@ -89,8 +103,15 @@ export default function middleware(request: NextRequest) {
     }
   }
 
-  // Use intl middleware for other paths
-  return intlMiddleware(request);
+  // Use intl middleware for other paths, passing the pathname header
+  const response = intlMiddleware(request);
+
+  // Add pathname header to intl middleware response for locale detection
+  if (response instanceof NextResponse) {
+    response.headers.set('x-pathname', pathname);
+  }
+
+  return response;
 }
 
 export const config = {

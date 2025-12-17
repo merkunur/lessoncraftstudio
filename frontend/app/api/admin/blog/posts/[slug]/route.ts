@@ -116,11 +116,11 @@ export async function PUT(
 
     // Revalidate blog post pages for all languages using language-specific slugs
     const locales = ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'];
-    const translations = post.translations as Record<string, { slug?: string }>;
+    const postTranslations = post.translations as Record<string, { slug?: string }>;
 
     for (const locale of locales) {
       // Use language-specific slug if available, otherwise primary slug
-      const localeSlug = translations[locale]?.slug || post.slug;
+      const localeSlug = postTranslations[locale]?.slug || post.slug;
       revalidatePath(`/${locale}/blog/${localeSlug}`);
 
       // Also revalidate primary slug path for backwards compatibility

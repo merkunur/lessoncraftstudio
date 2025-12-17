@@ -1,11 +1,54 @@
 import { notFound, redirect } from 'next/navigation';
 import Link from 'next/link';
+import { cache } from 'react';
 import { prisma } from '@/lib/prisma';
 import { generateBlogSchemas } from '@/lib/schema-generator';
 import Breadcrumb from '@/components/Breadcrumb';
 
 // Enable ISR - revalidate every hour
 export const revalidate = 3600;
+
+// Shared in-memory slug cache for fast lookups (maps any slug -> primary slug)
+let slugCache: Map<string, string> | null = null;
+let cacheTimestamp: number = 0;
+const SLUG_CACHE_TTL = 60 * 60 * 1000; // 1 hour (aligned with ISR)
+
+/**
+ * Build/refresh the slug cache
+ * Maps all language-specific slugs to their primary slug
+ */
+async function buildSlugCache(): Promise<Map<string, string>> {
+  const posts = await prisma.blogPost.findMany({
+    where: { status: 'published' },
+    select: { slug: true, translations: true }
+  });
+
+  const cache = new Map<string, string>();
+  for (const post of posts) {
+    // Primary slug maps to itself
+    cache.set(post.slug, post.slug);
+    // All translated slugs map to primary slug
+    const translations = post.translations as Record<string, { slug?: string }>;
+    for (const translation of Object.values(translations)) {
+      if (translation?.slug) {
+        cache.set(translation.slug, post.slug);
+      }
+    }
+  }
+  return cache;
+}
+
+/**
+ * Get the slug cache, building it if expired or not initialized
+ */
+async function getSlugCache(): Promise<Map<string, string>> {
+  const now = Date.now();
+  if (!slugCache || now - cacheTimestamp > SLUG_CACHE_TTL) {
+    slugCache = await buildSlugCache();
+    cacheTimestamp = now;
+  }
+  return slugCache;
+}
 
 interface BlogPostPageProps {
   params: {
@@ -38,31 +81,19 @@ interface BlogPost {
   pdfs: BlogPDF[];
 }
 
-// Fetch blog post from database directly
-async function getBlogPost(slug: string, locale: string): Promise<BlogPost | null> {
+/**
+ * Fetch blog post from database - OPTIMIZED VERSION
+ * Uses React cache() for request deduplication between generateMetadata() and page component
+ * Uses direct indexed lookup instead of loading ALL posts (O(1) instead of O(n))
+ */
+const getBlogPost = cache(async (slug: string, locale: string): Promise<BlogPost | null> => {
   try {
-    // First try to find by language-specific slug in translations
-    const posts = await prisma.blogPost.findMany({
-      where: { status: 'published' },
-      include: {
-        pdfs: {
-          where: { language: locale }, // Filter PDFs by language
-          orderBy: { sortOrder: 'asc' }
-        }
-      }
-    });
-
-    // Find post where the translation for this locale has the matching slug
-    for (const post of posts) {
-      const translations = post.translations as any;
-      if (translations[locale] && translations[locale].slug === slug) {
-        return post;
-      }
-    }
-
-    // Fallback: try to find by primary slug (for backwards compatibility)
-    const postBySlug = await prisma.blogPost.findUnique({
-      where: { slug },
+    // Step 1: Try direct primary slug lookup (indexed, fast - O(1))
+    let post = await prisma.blogPost.findFirst({
+      where: {
+        status: 'published',
+        slug: slug
+      },
       include: {
         pdfs: {
           where: { language: locale },
@@ -71,53 +102,83 @@ async function getBlogPost(slug: string, locale: string): Promise<BlogPost | nul
       }
     });
 
-    // If found by primary slug, check if it's published
-    if (postBySlug && postBySlug.status === 'published') {
-      return postBySlug;
+    if (post) {
+      return post;
+    }
+
+    // Step 2: Use slug cache to find primary slug (for language-specific slugs)
+    const slugCacheMap = await getSlugCache();
+    const primarySlug = slugCacheMap.get(slug);
+
+    if (primarySlug && primarySlug !== slug) {
+      // Found mapping - fetch by primary slug (indexed, fast)
+      post = await prisma.blogPost.findFirst({
+        where: {
+          status: 'published',
+          slug: primarySlug
+        },
+        include: {
+          pdfs: {
+            where: { language: locale },
+            orderBy: { sortOrder: 'asc' }
+          }
+        }
+      });
+
+      if (post) {
+        return post;
+      }
     }
 
     // Log for debugging when slug is not found
-    if (!postBySlug) {
-      console.log(`Blog post not found: slug="${slug}", locale="${locale}". ` +
-        `Checked ${posts.length} published posts and primary slug lookup.`);
-    }
-
+    console.log(`Blog post not found: slug="${slug}", locale="${locale}", primarySlug="${primarySlug || 'none'}"`);
     return null;
   } catch (error) {
     console.error(`Error fetching blog post ${slug}:`, error);
     return null;
   }
-}
+});
 
 /**
  * Search all blog posts to find which language a slug belongs to.
  * Used for redirecting when a slug is accessed with the wrong language prefix.
  * Returns the correct locale if found, null otherwise.
+ * OPTIMIZED: Uses slug cache instead of loading all posts
  */
 async function findSlugLanguage(slug: string): Promise<string | null> {
   try {
-    const posts = await prisma.blogPost.findMany({
-      where: { status: 'published' },
-      select: { slug: true, translations: true }
+    // Use slug cache to find the primary slug
+    const slugCacheMap = await getSlugCache();
+    const primarySlug = slugCacheMap.get(slug);
+
+    if (!primarySlug) {
+      return null; // Slug doesn't exist anywhere
+    }
+
+    // If slug is the primary slug, it's English
+    if (slug === primarySlug) {
+      return 'en';
+    }
+
+    // Otherwise, find which language this slug belongs to
+    // We need to fetch just this one post to check translations
+    const post = await prisma.blogPost.findFirst({
+      where: { status: 'published', slug: primarySlug },
+      select: { translations: true }
     });
 
-    for (const post of posts) {
-      const translations = post.translations as any;
+    if (!post) {
+      return null;
+    }
 
-      // Check each language's slug
-      for (const [locale, translation] of Object.entries(translations)) {
-        if ((translation as any)?.slug === slug) {
-          return locale;
-        }
-      }
-
-      // Also check primary slug
-      if (post.slug === slug) {
-        return 'en'; // Primary slug defaults to English
+    const translations = post.translations as Record<string, { slug?: string }>;
+    for (const [locale, translation] of Object.entries(translations)) {
+      if (translation?.slug === slug) {
+        return locale;
       }
     }
 
-    return null;
+    return 'en'; // Default to English if found in cache but not in translations
   } catch (error) {
     console.error('Error finding slug language:', error);
     return null;
@@ -157,7 +218,7 @@ export async function generateStaticParams() {
   }
 }
 
-// Get related blog posts
+// Get related blog posts - OPTIMIZED: select only necessary fields
 async function getRelatedPosts(currentSlug: string, category: string, limit: number = 3) {
   try {
     const posts = await prisma.blogPost.findMany({
@@ -165,6 +226,13 @@ async function getRelatedPosts(currentSlug: string, category: string, limit: num
         status: 'published',
         slug: { not: currentSlug },
         category: category
+      },
+      select: {
+        id: true,
+        slug: true,
+        featuredImage: true,
+        translations: true,  // Needed for locale-specific title, excerpt, slug
+        createdAt: true
       },
       take: limit,
       orderBy: { createdAt: 'desc' }

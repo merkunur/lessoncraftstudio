@@ -4,7 +4,7 @@ import { prisma } from '@/lib/prisma';
 // In-memory cache for slug lookups (slug -> primary slug mapping)
 let slugCache: Map<string, string> | null = null;
 let cacheTimestamp: number = 0;
-const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
+const CACHE_TTL = 60 * 60 * 1000; // 1 hour (aligned with ISR revalidation)
 
 /**
  * Build/refresh the slug cache

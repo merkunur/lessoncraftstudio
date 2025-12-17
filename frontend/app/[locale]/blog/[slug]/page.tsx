@@ -71,7 +71,18 @@ async function getBlogPost(slug: string, locale: string): Promise<BlogPost | nul
       }
     });
 
-    return postBySlug;
+    // If found by primary slug, check if it's published
+    if (postBySlug && postBySlug.status === 'published') {
+      return postBySlug;
+    }
+
+    // Log for debugging when slug is not found
+    if (!postBySlug) {
+      console.log(`Blog post not found: slug="${slug}", locale="${locale}". ` +
+        `Checked ${posts.length} published posts and primary slug lookup.`);
+    }
+
+    return null;
   } catch (error) {
     console.error(`Error fetching blog post ${slug}:`, error);
     return null;
@@ -628,9 +639,21 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     const post = await getBlogPost(slug, locale);
 
     if (!post) {
+      // Check if this slug exists in another language - if so, we'll redirect in the page
+      const correctLocale = await findSlugLanguage(slug);
+      if (correctLocale && correctLocale !== locale) {
+        // Return minimal metadata - page will redirect
+        return {
+          title: 'Redirecting...',
+          robots: { index: false, follow: false }
+        };
+      }
+      // Slug doesn't exist anywhere - return 404 metadata
+      // The page component will call notFound() to trigger proper 404 status
       return {
-        title: slug.replace(/-/g, ' '),
-        description: 'Blog post on LessonCraftStudio'
+        title: 'Page Not Found',
+        description: 'The requested blog post could not be found.',
+        robots: { index: false, follow: false }
       };
     }
 
@@ -710,9 +733,11 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
       }
     };
   } catch (error) {
+    console.error(`Error generating metadata for blog post ${slug}:`, error);
     return {
-      title: slug.replace(/-/g, ' '),
-      description: 'Blog post on LessonCraftStudio'
+      title: 'Page Not Found',
+      description: 'The requested blog post could not be found.',
+      robots: { index: false, follow: false }
     };
   }
 }

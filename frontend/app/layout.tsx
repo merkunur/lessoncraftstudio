@@ -19,6 +19,35 @@ export const metadata: Metadata = {
   title: 'LessonCraftStudio - Professional Worksheet Generator',
   description: '33 powerful worksheet generators with 100+ themed images for Teachers Pay Teachers sellers and educational publishers',
   keywords: 'worksheet generator, teachers pay teachers, educational resources, printable worksheets, POD license',
+  icons: {
+    icon: [
+      { url: '/favicon.ico', sizes: '48x48' },
+      { url: '/icon.png', sizes: '32x32', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
+  openGraph: {
+    title: 'LessonCraftStudio - Professional Worksheet Generator',
+    description: '33 powerful worksheet generators with 100+ themed images for Teachers Pay Teachers sellers and educational publishers',
+    siteName: 'LessonCraftStudio',
+    images: [
+      {
+        url: '/opengraph-image.png',
+        width: 512,
+        height: 512,
+        alt: 'LessonCraftStudio Logo',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'LessonCraftStudio - Professional Worksheet Generator',
+    description: '33 powerful worksheet generators with 100+ themed images for Teachers Pay Teachers sellers and educational publishers',
+    images: ['/opengraph-image.png'],
+  },
 };
 
 // Supported locales for language detection

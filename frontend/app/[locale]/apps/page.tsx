@@ -2,15 +2,78 @@ import { Metadata } from 'next';
 import { Button } from '@/components/ui/Button';
 import { getTranslations } from 'next-intl/server';
 import AppCard from '@/components/apps/AppCard';
+import { generateAppsCollectionSchema } from '@/lib/schema-generator';
+
+// Localized SEO metadata for all 11 languages
+const appsMetadata: Record<string, { title: string; description: string; keywords: string }> = {
+  en: {
+    title: '33 Free Worksheet Generators - Educational Apps | LessonCraftStudio',
+    description: 'Browse all 33 professional worksheet generators. Word search, crossword, math puzzles, and more. Free for teachers and parents.',
+    keywords: 'worksheet generators, educational apps, word search maker, crossword generator, math worksheets'
+  },
+  de: {
+    title: '33 Kostenlose Arbeitsblatt-Generatoren | LessonCraftStudio',
+    description: 'Entdecken Sie 33 professionelle Arbeitsblatt-Generatoren. Wortsuchrätsel, Kreuzworträtsel, Mathe-Puzzles und mehr.',
+    keywords: 'Arbeitsblatt-Generatoren, Bildungs-Apps, Wortsuchrätsel erstellen, Kreuzworträtsel Generator'
+  },
+  fr: {
+    title: '33 Générateurs de Fiches Gratuits | LessonCraftStudio',
+    description: 'Découvrez 33 générateurs de fiches professionnels. Mots cachés, mots croisés, puzzles mathématiques et plus.',
+    keywords: 'générateurs de fiches, applications éducatives, créateur de mots cachés, générateur de mots croisés'
+  },
+  es: {
+    title: '33 Generadores de Fichas Gratis | LessonCraftStudio',
+    description: 'Explore 33 generadores de fichas profesionales. Sopa de letras, crucigramas, puzzles matemáticos y más.',
+    keywords: 'generadores de fichas, apps educativas, creador de sopa de letras, generador de crucigramas'
+  },
+  pt: {
+    title: '33 Geradores de Planilhas Grátis | LessonCraftStudio',
+    description: 'Descubra 33 geradores de planilhas profissionais. Caça-palavras, palavras cruzadas, quebra-cabeças de matemática e mais.',
+    keywords: 'geradores de planilhas, apps educativos, criador de caça-palavras, gerador de palavras cruzadas'
+  },
+  it: {
+    title: '33 Generatori di Schede Gratis | LessonCraftStudio',
+    description: 'Scopri 33 generatori di schede professionali. Ricerca di parole, cruciverba, puzzle matematici e altro.',
+    keywords: 'generatori di schede, app educative, creatore di crucipuzzle, generatore di cruciverba'
+  },
+  nl: {
+    title: '33 Gratis Werkblad Generatoren | LessonCraftStudio',
+    description: 'Ontdek 33 professionele werkblad generatoren. Woordzoekers, kruiswoordpuzzels, rekenpuzzels en meer.',
+    keywords: 'werkblad generatoren, educatieve apps, woordzoeker maker, kruiswoordpuzzel generator'
+  },
+  sv: {
+    title: '33 Gratis Arbetsblad Generatorer | LessonCraftStudio',
+    description: 'Utforska 33 professionella arbetsblad generatorer. Ordjaktar, korsord, mattepussel och mer.',
+    keywords: 'arbetsblad generatorer, utbildningsappar, ordjakts skapare, korsords generator'
+  },
+  da: {
+    title: '33 Gratis Arbejdsark Generatorer | LessonCraftStudio',
+    description: 'Udforsk 33 professionelle arbejdsark generatorer. Ordsøgning, krydsord, matematikpuslespil og mere.',
+    keywords: 'arbejdsark generatorer, uddannelsesapps, ordsøgnings maker, krydsords generator'
+  },
+  no: {
+    title: '33 Gratis Arbeidsark Generatorer | LessonCraftStudio',
+    description: 'Utforsk 33 profesjonelle arbeidsark generatorer. Ordsøking, kryssord, mattepuslespill og mer.',
+    keywords: 'arbeidsark generatorer, utdanningsapper, ordsøking maker, kryssord generator'
+  },
+  fi: {
+    title: '33 Ilmaista Työarkki Generaattoria | LessonCraftStudio',
+    description: 'Tutustu 33 ammattimaiseen työarkki generaattoriin. Sanaristikot, ristisanatehtävät, matemaattiset pulmat ja muuta.',
+    keywords: 'työarkki generaattorit, koulutussovellukset, sanaristikko luoja, ristisanageneraattori'
+  }
+};
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
   const baseUrl = 'https://lessoncraftstudio.com';
 
+  // Get localized metadata
+  const meta = appsMetadata[locale] || appsMetadata.en;
+
   return {
-    title: 'All Worksheet Generator Apps - LessonCraftStudio',
-    description: 'Choose from 33 professional worksheet generators for Teachers Pay Teachers and educational publishers',
-    keywords: 'worksheet generators, educational tools, teaching resources, printable worksheets',
+    title: meta.title,
+    description: meta.description,
+    keywords: meta.keywords,
     alternates: {
       canonical: `${baseUrl}/${locale}/apps`,
       languages: {
@@ -29,13 +92,25 @@ export async function generateMetadata({ params }: { params: { locale: string } 
       }
     },
     openGraph: {
-      title: 'All Worksheet Generator Apps - LessonCraftStudio',
-      description: 'Choose from 33 professional worksheet generators for Teachers Pay Teachers and educational publishers',
+      title: meta.title,
+      description: meta.description,
       type: 'website',
       url: `${baseUrl}/${locale}/apps`,
       siteName: 'LessonCraftStudio',
       locale: locale,
-      alternateLocale: ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'].filter(l => l !== locale)
+      alternateLocale: ['en', 'de', 'fr', 'es', 'pt', 'it', 'nl', 'sv', 'da', 'no', 'fi'].filter(l => l !== locale),
+      images: [{
+        url: `${baseUrl}/opengraph-image.png`,
+        width: 1200,
+        height: 630,
+        alt: 'LessonCraftStudio - 33 Worksheet Generators'
+      }]
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: meta.title,
+      description: meta.description,
+      images: [`${baseUrl}/opengraph-image.png`]
     }
   };
 }
@@ -654,8 +729,18 @@ export default async function AppsPage({ params: { locale } }: PageProps) {
     // Fallback to English if translation file doesn't exist
     console.error(`Failed to load translations for locale: ${locale}`);
   }
+
+  // Generate JSON-LD schema for SEO
+  const schema = generateAppsCollectionSchema(locale);
+
   return (
     <div className="min-h-screen bg-gray-50">
+      {/* JSON-LD Structured Data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-blue-600 to-blue-700 text-white py-16">
         <div className="container mx-auto px-4">

@@ -5,13 +5,13 @@ import { prisma } from '@/lib/prisma';
 import { generateBlogSchemas } from '@/lib/schema-generator';
 import Breadcrumb from '@/components/Breadcrumb';
 
-// Enable ISR - revalidate every hour
-export const revalidate = 3600;
+// Enable ISR - revalidate every 30 minutes (reduced from 1 hour for faster updates)
+export const revalidate = 1800;
 
 // Shared in-memory slug cache for fast lookups (maps any slug -> primary slug)
 let slugCache: Map<string, string> | null = null;
 let cacheTimestamp: number = 0;
-const SLUG_CACHE_TTL = 60 * 60 * 1000; // 1 hour (aligned with ISR)
+const SLUG_CACHE_TTL = 5 * 60 * 1000; // 5 minutes (reduced for faster updates)
 
 /**
  * Build/refresh the slug cache
@@ -186,6 +186,8 @@ async function findSlugLanguage(slug: string): Promise<string | null> {
 }
 
 // Generate static params for all existing blog posts
+// FIXED: Only generates routes for locales with actual translations to prevent 404 errors
+// (Google Search Console reported 131+ 404 errors from generated routes for non-existent translations)
 export async function generateStaticParams() {
   try {
     const posts = await prisma.blogPost.findMany({
@@ -193,7 +195,7 @@ export async function generateStaticParams() {
       select: { slug: true, translations: true }
     });
 
-    // Generate params for all locales with language-specific slugs
+    // Generate params ONLY for locales that have actual translated content
     const locales = ['en', 'de', 'es', 'fr', 'it', 'pt', 'nl', 'da', 'sv', 'no', 'fi'];
     const params = [];
 
@@ -201,13 +203,24 @@ export async function generateStaticParams() {
       const translations = post.translations as any;
 
       for (const locale of locales) {
-        // Use language-specific slug if available, otherwise fallback to primary slug
-        const localeSlug = translations[locale]?.slug || post.slug;
+        const translation = translations[locale];
 
-        params.push({
-          locale,
-          slug: localeSlug
-        });
+        // CRITICAL FIX: Only generate route if translation exists AND has content
+        // This prevents 404 pages from being generated for non-translated posts
+        if (translation && translation.title && translation.content) {
+          // Use language-specific slug if available, otherwise fallback to primary slug
+          const localeSlug = translation.slug || post.slug;
+          params.push({
+            locale,
+            slug: localeSlug
+          });
+        } else if (locale === 'en') {
+          // Always include English with primary slug (English is always available)
+          params.push({
+            locale: 'en',
+            slug: post.slug
+          });
+        }
       }
     }
 

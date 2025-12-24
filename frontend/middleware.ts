@@ -53,6 +53,20 @@ export default function middleware(request: NextRequest) {
   // The hreflang tags in sitemap and pages tell Google which version to serve
   // Page-level redirect handles any remaining edge cases
 
+  // Handle /blog and /blog/* routes - redirect to locale-prefixed versions with 301
+  // This fixes SEO duplicate content issues (Google Search Console shows 89+ duplicates without canonical)
+  if (pathname === '/blog' || pathname.startsWith('/blog/')) {
+    const preferredLang = request.cookies.get('preferredLanguage')?.value ||
+                          request.cookies.get('NEXT_LOCALE')?.value ||
+                          defaultLocale;
+    const newUrl = new URL(`/${preferredLang}${pathname}`, request.url);
+    // Preserve query parameters
+    request.nextUrl.searchParams.forEach((value, key) => {
+      newUrl.searchParams.set(key, value);
+    });
+    return NextResponse.redirect(newUrl, { status: 301 });
+  }
+
   // Redirect common pages without locale to default locale
   const pagesNeedingLocale = ['/contact', '/pricing', '/privacy', '/terms', '/about'];
   if (pagesNeedingLocale.includes(pathname)) {

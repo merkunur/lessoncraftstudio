@@ -4,8 +4,8 @@ import BlogPageClient from './BlogPageClient';
 import { getBlogPostsForLocale, getBlogCategoriesForLocale } from '@/lib/blog-data';
 import Breadcrumb from '@/components/Breadcrumb';
 
-// Enable ISR - revalidate every hour for fast language switching
-export const revalidate = 3600;
+// Enable ISR - revalidate every 30 minutes (reduced from 1 hour for faster updates)
+export const revalidate = 1800;
 
 const POSTS_PER_PAGE = 12;
 

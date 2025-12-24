@@ -62,8 +62,22 @@ const nextConfig = {
   // 1. Browser Accept-Language header
   // 2. preferredLanguage cookie
   // 3. Falls back to default locale (en)
+  // Note: /blog redirects are also in middleware.ts (which handles cookie-based language preference)
   async redirects() {
-    return [];
+    return [
+      // SEO FIX: Redirect old non-localized blog URLs to locale-prefixed versions
+      // This catches any requests that bypass middleware (direct hits, search engine cached URLs)
+      {
+        source: '/blog',
+        destination: '/en/blog',
+        permanent: true,
+      },
+      {
+        source: '/blog/:slug',
+        destination: '/en/blog/:slug',
+        permanent: true,
+      },
+    ];
   },
 };
 

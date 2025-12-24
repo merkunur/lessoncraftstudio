@@ -742,7 +742,12 @@ export async function generateMetadata({ params }: BlogPostPageProps) {
     const translation = translations[locale] || translations['en'] || {};
     const title = translation.metaTitle || translation.title || slug.replace(/-/g, ' ');
     const description = translation.metaDescription || translation.excerpt || '';
-    const keywords = post.keywords?.join(', ') || '';
+    // Use language-specific focusKeyword first, then fall back to general keywords
+    const focusKeyword = translation.focusKeyword || '';
+    const generalKeywords = post.keywords?.join(', ') || '';
+    const keywords = focusKeyword
+      ? (generalKeywords ? `${focusKeyword}, ${generalKeywords}` : focusKeyword)
+      : generalKeywords;
     const canonicalUrl = `${baseUrl}/${locale}/blog/${slug}`;
 
     // Build language alternates with language-specific slugs

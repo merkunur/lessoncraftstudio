@@ -10,7 +10,7 @@ export const revalidate = 1800;
  * Each entry includes alternates to all language versions for better SEO
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://lessoncraftstudio.com';
+  const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 'https://www.lessoncraftstudio.com';
 
   // Supported locales
   const locales = ['en', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'sv', 'da', 'no', 'fi'];
@@ -28,6 +28,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   // Static routes for each locale with hreflang alternates
   const staticRoutes: MetadataRoute.Sitemap = [];
+  // Only include pages that actually exist with proper routes
   const staticPages = [
     { path: '', priority: 1.0 }, // Homepage
     { path: '/apps', priority: 0.9 },
@@ -35,7 +36,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: '/blog', priority: 0.8 },
     { path: '/terms', priority: 0.5 },
     { path: '/privacy', priority: 0.5 },
-    { path: '/support', priority: 0.7 },
+    // Note: /support removed - no public support page exists (falls to catch-all with noindex)
   ];
 
   // Add static pages for all locales with alternates

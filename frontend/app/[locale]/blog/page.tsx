@@ -22,7 +22,7 @@ interface BlogPageProps {
 // Generate metadata for SEO with pagination support
 export async function generateMetadata({ params, searchParams }: BlogPageProps): Promise<Metadata> {
   const locale = params.locale || 'en';
-  const baseUrl = 'https://lessoncraftstudio.com';
+  const baseUrl = 'https://www.lessoncraftstudio.com';
   const currentPage = parseInt(searchParams.page || '1', 10);
 
   // Fetch posts to calculate total pages
@@ -204,7 +204,7 @@ export default async function BlogPage({ params, searchParams }: BlogPageProps) 
   };
 
   // Generate CollectionPage schema for blog listing (helps Google understand this is an article archive)
-  const baseUrl = 'https://lessoncraftstudio.com';
+  const baseUrl = 'https://www.lessoncraftstudio.com';
   const localeMeta = {
     en: { name: 'Educational Blog', description: 'Teaching resources, worksheet tips, and educational guides for teachers and parents.' },
     de: { name: 'Bildungs-Blog', description: 'Unterrichtsmaterialien, Arbeitsblatt-Tipps und Bildungsleitfäden für Lehrer und Eltern.' },

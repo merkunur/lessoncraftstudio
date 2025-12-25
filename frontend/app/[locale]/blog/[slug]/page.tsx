@@ -714,7 +714,7 @@ export default async function BlogPostPage({
 // Metadata generation (ENHANCED WITH AUTOMATED SEO)
 export async function generateMetadata({ params }: BlogPostPageProps) {
   const { locale, slug } = params;
-  const baseUrl = 'https://lessoncraftstudio.com';
+  const baseUrl = 'https://www.lessoncraftstudio.com';
 
   try {
     const post = await getBlogPost(slug, locale);

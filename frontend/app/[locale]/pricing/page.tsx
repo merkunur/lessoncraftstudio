@@ -12,7 +12,7 @@ interface PricingPageProps {
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
-  const baseUrl = 'https://lessoncraftstudio.com';
+  const baseUrl = 'https://www.lessoncraftstudio.com';
   const t = await getTranslations({ locale, namespace: 'pricing' });
 
   return {

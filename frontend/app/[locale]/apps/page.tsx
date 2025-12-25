@@ -65,7 +65,7 @@ const appsMetadata: Record<string, { title: string; description: string; keyword
 
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
-  const baseUrl = 'https://lessoncraftstudio.com';
+  const baseUrl = 'https://www.lessoncraftstudio.com';
 
   // Get localized metadata
   const meta = appsMetadata[locale] || appsMetadata.en;

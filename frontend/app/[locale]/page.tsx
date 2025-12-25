@@ -167,7 +167,7 @@ async function getHomepageContent(locale: string) {
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
   const content = await getHomepageContent(locale);
-  const baseUrl = 'https://lessoncraftstudio.com';
+  const baseUrl = 'https://www.lessoncraftstudio.com';
 
   // Use API content for SEO, with fallback to researched localized metadata
   // Keywords always use researched data (more SEO-valuable than generic content manager values)

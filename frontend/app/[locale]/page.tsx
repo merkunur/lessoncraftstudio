@@ -170,11 +170,12 @@ export async function generateMetadata({ params }: { params: { locale: string } 
   const baseUrl = 'https://lessoncraftstudio.com';
 
   // Use API content for SEO, with fallback to researched localized metadata
+  // Keywords always use researched data (more SEO-valuable than generic content manager values)
   const localizedMeta = homepageMetadata[locale] || homepageMetadata.en;
   const seo = {
     title: content?.seo?.title || localizedMeta.title,
     description: content?.seo?.description || localizedMeta.description,
-    keywords: content?.seo?.keywords || localizedMeta.keywords
+    keywords: localizedMeta.keywords // Always use researched keywords
   };
 
   return {

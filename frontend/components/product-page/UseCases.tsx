@@ -49,9 +49,9 @@ function UseCaseCard({
 }) {
   const [isExpanded, setIsExpanded] = useState(false);
 
-  // Split description into sentences - show only 2 sentences by default (collapsed)
+  // Split description into sentences - show only 3 sentences by default (collapsed)
   const sentences = useCase.description.split(/(?<=[.!?])\s+/);
-  const maxSentences = 2;
+  const maxSentences = 3;
   const shouldTruncate = sentences.length > maxSentences;
   const displayText = isExpanded ? useCase.description : sentences.slice(0, maxSentences).join(' ');
 

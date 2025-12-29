@@ -1,745 +1,374 @@
-# Individual App Pages - Design & Implementation Guide
+# Product Page Design & Implementation Guide
 
+## 5 UNBREAKABLE RULES
+
+| # | Rule | Why It Matters |
+|---|------|----------------|
+| 1 | NO FAKE STATS | Never invent user counts, ratings, or numbers |
+| 2 | NO APP LINKS | Links go to `/signup`, `/apps`, `/pricing`, or homepage ONLY |
+| 3 | FULL TEXT | Use 100% of .md content - never truncate or summarize |
+| 4 | REAL SAMPLES | Only use actual files from `samples/` folder - VERIFY THEY EXIST |
+| 5 | FREE PDF | Direct download link, no login required |
+
+---
+
+## FILE STRUCTURE - KNOW WHERE EVERYTHING GOES
+
+### Content Files Location
 ```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║  🚨🚨🚨 CRITICAL WARNING - READ BEFORE ANY WORK 🚨🚨🚨                       ║
-║                                                                              ║
-║  YOU SHOULD BE VERY CAREFUL NOT TO OVERWRITE ANYTHING.                       ║
-║  YOU DID IT SEVERAL TIMES AND YOU OVERWROTE THINGS WITH OLDER VERSIONS.      ║
-║  YOU SHOULD ANALYZE THE DEPLOYMENT.MD FILE THOROUGHLY NOT TO MAKE            ║
-║  SUCH MISTAKE.                                                               ║
-║                                                                              ║
-║  You should always use the REFERENCE APPS, REFERENCE CONTENT MANAGERS        ║
-║  AND REFERENCE TRANSLATIONS in case of redeployment of the website.          ║
-║                                                                              ║
-║  📁 REFERENCE APPS = Source of truth for worksheet generators                ║
-║  📁 REFERENCE CONTENT MANAGERS = Source of truth for content managers        ║
-║  📁 REFERENCE TRANSLATIONS = Source of truth for translation files           ║
-║                                                                              ║
-║  ⚠️  BEFORE ANY DEPLOYMENT: Read DEPLOYMENT.md completely!                   ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
+frontend/
+└── content/
+    └── product-pages/
+        └── en/                              ← Language folder
+            ├── addition-worksheets.ts       ← Content file
+            └── word-search-worksheets.ts    ← Content file
 ```
 
-## 🚨 5 UNBREAKABLE RULES
+**Path pattern:** `frontend/content/product-pages/{locale}/{app-slug}.ts`
 
+**WRONG location (DO NOT USE):**
 ```
-1. NO FAKE STATS    → Never invent: user counts, download counts, ratings
-2. NO APP LINKS     → Only: /{locale}/auth/signup, /{locale}/apps, /{locale}/pricing, /{locale}
-3. FULL TEXT        → Use 100% of .md content, never summarize or shorten
-4. REAL SAMPLES     → Use actual files from samples/{language}/{app}/
-5. FREE PDF         → Direct download link, no login required
+frontend/components/product-page/content/    ← NEVER put content files here!
+```
+
+### Sample Files Location
+```
+frontend/
+└── public/
+    └── samples/
+        └── english/                         ← Language folder (full name, not code)
+            ├── addition/                    ← App folder
+            │   ├── addition_worksheet portrait.jpeg
+            │   ├── addition_worksheet portrait.pdf
+            │   └── ...
+            └── wordsearch/                  ← App folder
+                ├── wordsearch portrait.jpeg
+                ├── wordsearch portrait.pdf
+                └── ...
+```
+
+**Path pattern:** `frontend/public/samples/{language}/{app-name}/`
+
+**URL pattern in content file:** `/samples/english/wordsearch/wordsearch portrait.pdf`
+
+### Source Samples Location (master copies)
+```
+lessoncraftstudio/
+└── samples/
+    └── english/
+        └── wordsearch/                      ← Master sample files
+            ├── wordsearch portrait.jpeg
+            └── ...
 ```
 
 ---
 
-**Created:** 2025-12-29
-**Purpose:** Comprehensive reference for designing and implementing 363 product pages
-**Status:** Pre-implementation planning
+## STEP-BY-STEP: CREATING A NEW PRODUCT PAGE
 
----
-
-## 🎯 PROJECT OVERVIEW
-
-### What We're Building
-- **363 unique product pages** (33 apps × 11 languages)
-- Each page is a **separate product**, NOT a translation
-- Purpose: **Drive organic traffic** through SEO-optimized content
-- Design: **Modern SaaS style** (Canva/Notion-inspired)
-
-### What We're NOT Doing
-- ❌ NOT modifying worksheet generator HTML apps
-- ❌ NOT touching REFERENCE APPS, REFERENCE TRANSLATIONS, or REFERENCE CONTENT MANAGERS
-- ❌ NOT linking to subscription-required apps directly
-
----
-
-## 🔗 CRITICAL: LINKING STRATEGY
-
-### ⛔ NEVER Link To:
-```
-❌ /worksheet-generators/addition.html (requires subscription)
-❌ /worksheet-generators/wordsearch.html (requires subscription)
-❌ Any URL that opens the actual app generator
-```
-
-**Why:** The worksheet generator apps require a subscription. Linking directly would show users a paywall or error, creating a bad user experience.
-
-### ✅ ALWAYS Link To THE SAME LANGUAGE:
-
-## 🔴🔴🔴 CRITICAL: ALL LINKS MUST MATCH PAGE LANGUAGE 🔴🔴🔴
-
-**If user is on a GERMAN page → ALL links go to GERMAN pages**
-**If user is on a FRENCH page → ALL links go to FRENCH pages**
-**NEVER mix languages in links!**
-
-### VERIFIED ROUTES (from Navigation.tsx lines 113-229):
-
-| CTA Button | Link Pattern | Source Verification |
-|------------|--------------|---------------------|
-| Sign Up | `/{locale}/auth/signup` | Navigation.tsx:144, 229 |
-| Sign In | `/{locale}/auth/signin` | Navigation.tsx:141, 221 |
-| Apps Page | `/{locale}/apps` | Navigation.tsx:113, 168 |
-| Pricing | `/{locale}/pricing` | Navigation.tsx:116, 175 |
-| Homepage | `/{locale}` | Navigation.tsx:74 |
-| Blog | `/{locale}/blog` | Navigation.tsx:119, 182 |
-| Dashboard | `/{locale}/dashboard` | Navigation.tsx:122, 189 |
-| Download Sample | `/samples/{language}/{app}/{file}.pdf` | Direct file download |
-| Related App Links | `/{locale}/apps/{native-slug}` | Product page links |
-
-### CORRECT Examples - Links Match Page Language:
-
-**On German page `/de/apps/additionsarbeitsblatter`:**
-```
-✅ Signup:    /de/auth/signup
-✅ Apps:      /de/apps
-✅ Pricing:   /de/pricing
-✅ Homepage:  /de
-✅ Related:   /de/apps/subtraktionsarbeitsblatter (German slug!)
-```
-
-**On French page `/fr/apps/fiches-addition`:**
-```
-✅ Signup:    /fr/auth/signup
-✅ Apps:      /fr/apps
-✅ Pricing:   /fr/pricing
-✅ Homepage:  /fr
-✅ Related:   /fr/apps/fiches-soustraction (French slug!)
-```
-
-**On Spanish page `/es/apps/fichas-de-sumas`:**
-```
-✅ Signup:    /es/auth/signup
-✅ Apps:      /es/apps
-✅ Pricing:   /es/pricing
-✅ Homepage:  /es
-✅ Related:   /es/apps/fichas-de-restas (Spanish slug!)
-```
-
-### ❌ WRONG Examples - NEVER Do This:
-
-**On German page `/de/apps/additionsarbeitsblatter`:**
-```
-❌ /en/auth/signup (WRONG - English link on German page!)
-❌ /en/apps (WRONG - English link on German page!)
-❌ /de/apps/subtraction-worksheets (WRONG - English slug on German page!)
-```
-
-### Implementation in Code:
-
-```tsx
-// The locale prop comes from the page params
-interface ProductPageProps {
-  locale: string; // 'en', 'de', 'fr', 'es', etc.
-}
-
-// ALL links use the same locale
-const ProductPage = ({ locale }: ProductPageProps) => {
-  return (
-    <>
-      {/* Primary CTA - SAME locale */}
-      <Button href={`/${locale}/auth/signup`}>
-        {translations[locale].startCreating}
-      </Button>
-
-      {/* Apps page - SAME locale */}
-      <Link href={`/${locale}/apps`}>
-        {translations[locale].viewAllApps}
-      </Link>
-
-      {/* Pricing - SAME locale */}
-      <Link href={`/${locale}/pricing`}>
-        {translations[locale].seePricing}
-      </Link>
-
-      {/* Related apps - SAME locale + native slug */}
-      <Link href={`/${locale}/apps/${relatedApp.nativeSlug}`}>
-        {relatedApp.nativeName}
-      </Link>
-    </>
-  );
-};
-```
-
-### Full Link Matrix by Language (VERIFIED from Navigation.tsx):
-
-| Locale | Signup | Apps | Pricing | Homepage | Blog |
-|--------|--------|------|---------|----------|------|
-| en | /en/auth/signup | /en/apps | /en/pricing | /en | /en/blog |
-| de | /de/auth/signup | /de/apps | /de/pricing | /de | /de/blog |
-| fr | /fr/auth/signup | /fr/apps | /fr/pricing | /fr | /fr/blog |
-| es | /es/auth/signup | /es/apps | /es/pricing | /es | /es/blog |
-| it | /it/auth/signup | /it/apps | /it/pricing | /it | /it/blog |
-| pt | /pt/auth/signup | /pt/apps | /pt/pricing | /pt | /pt/blog |
-| nl | /nl/auth/signup | /nl/apps | /nl/pricing | /nl | /nl/blog |
-| sv | /sv/auth/signup | /sv/apps | /sv/pricing | /sv | /sv/blog |
-| da | /da/auth/signup | /da/apps | /da/pricing | /da | /da/blog |
-| no | /no/auth/signup | /no/apps | /no/pricing | /no | /no/blog |
-| fi | /fi/auth/signup | /fi/apps | /fi/pricing | /fi | /fi/blog |
-
-**Source:** `frontend/components/layout/Navigation.tsx` lines 74, 113-229
-
----
-
-## 🚨 DEPLOYMENT SAFEGUARDS (FROM DEPLOYMENT.md)
-
-### Files I Must NEVER Touch:
-```
-❌ REFERENCE APPS/ folder
-❌ REFERENCE TRANSLATIONS/ folder
-❌ REFERENCE CONTENT MANAGERS/ folder
-❌ frontend/public/worksheet-generators/*.html
-❌ frontend/public/worksheet-generators/js/translations-*.js
-❌ Any file that should be deployed from REFERENCE folders
-```
-
-### Files I WILL Create/Modify:
-```
-✅ frontend/components/product-page/*.tsx (NEW components)
-✅ frontend/app/[locale]/apps/[slug]/page.tsx (modify for new design)
-✅ frontend/app/[locale]/apps/[slug]/ProductPageClient.tsx (NEW)
-✅ frontend/lib/product-page-content.ts (NEW - content loader)
-✅ Content JSON files for 363 pages
-✅ frontend/tailwind.config.js (add animations)
-✅ frontend/app/globals.css (add styles)
-```
-
-### This Is Scenario 1 (Code Changes):
+### Step 1: Verify Sample Files Exist
 ```bash
-# Safe deployment command - does NOT touch worksheet generators
-git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio
+# Check if samples exist in the master samples folder
+ls -la samples/english/{app-name}/
+
+# Example:
+ls -la samples/english/wordsearch/
 ```
 
----
+**If samples don't exist, CREATE THEM FIRST before proceeding.**
 
-## 📐 DESIGN SPECIFICATIONS
+### Step 2: Copy Samples to Frontend Public Folder
+```bash
+# Create directory and copy samples
+mkdir -p frontend/public/samples/english/{app-name}
+cp -r samples/english/{app-name}/* frontend/public/samples/english/{app-name}/
 
-### Style: Modern SaaS (Canva/Notion-inspired)
-
-**Design Principles:**
-1. Clean & Minimal - generous whitespace, clear hierarchy
-2. Soft Shadows - subtle depth without heavy borders
-3. Rounded Corners - friendly, modern feel (rounded-2xl)
-4. Gradient Accents - subtle gradients for CTAs and highlights
-5. Smooth Animations - polished micro-interactions using Framer Motion
-
-**Color Palette:**
-| Color | Hex | Usage |
-|-------|-----|-------|
-| Primary Blue | #1E40AF | Trust, CTAs, headings |
-| Secondary Orange | #FB923C | Action buttons, accents |
-| Background | #F9FAFB (gray-50) | Page background |
-| Cards | #FFFFFF | Content containers |
-| Text (headings) | #111827 (gray-900) | H1, H2, H3 |
-| Text (body) | #4B5563 (gray-600) | Paragraphs |
-
----
-
-## 📝 THE 7-PART DESIGN PROCESS
-
-Each app page is designed in 7 sequential parts with approval between each:
-
-### Part 1: Hero Section
-**Content Source:** H1 + intro paragraphs from `INDIVIDUAL APP PAGES/{Language}/{app}.md`
-
-**Elements:**
-- Full-width hero with subtle gradient background
-- H1 title with primary keyword
-- 2-line value proposition (first paragraph summary)
-- **CTA Buttons:**
-  - Primary: "Start Creating Free" → `/{locale}/auth/signup`
-  - Secondary: "View Samples" → scrolls to sample gallery
-- Trust badges row: "11 Languages", "3000+ Images", "POD License", "300 DPI"
-- Floating worksheet preview image (from samples folder)
-
-**Props:**
-```typescript
-interface HeroSectionProps {
-  title: string;
-  subtitle: string;
-  primaryCta: { label: string; href: string };
-  secondaryCta: { label: string; onClick: () => void }; // Scroll to samples
-  previewImage: string;
-  trustBadges: { icon: string; label: string }[];
-  locale: string;
-}
+# Verify
+ls -la frontend/public/samples/english/{app-name}/
 ```
 
-### Part 2: Sample Gallery
-**Content Source:** JPEG/PDF files from `samples/{language}/{app}/`
-
-**Elements:**
-- Dynamic carousel (handles variable sample counts)
-- Thumbnail strip below main image
-- Portrait/landscape view toggle
-- Answer key toggle (worksheet ↔ answer key)
-- Lightbox zoom on click
-- **"Download Free Sample" button** → direct PDF download (NO login required)
-
-**Props:**
-```typescript
-interface SampleGalleryProps {
-  samples: {
-    thumbnail: string;
-    fullImage: string;
-    pdfDownload: string;
-    altText: string;
-    hasAnswerKey: boolean;
-    answerKeyImage?: string;
-    answerKeyPdf?: string;
-  }[];
-  locale: string;
-}
-```
-
-### Part 3: Features Showcase
-**Content Source:** H2 "Features" section + 7 H3 subsections from markdown
-
-**Elements:**
-- 7 feature cards in responsive grid (3 columns desktop, 1 mobile)
-- Icon + title + short description per card
-- Scroll-triggered fade-up animations
-- Visual emphasis on: POD license, 300 DPI, 11 languages
-
-**The 7 Standard Features (all apps):**
-1. Easy creation (theme selection or individual images)
-2. Full editability (drag, rotate, scale, delete)
-3. Upload custom images
-4. 11 languages support
-5. POD commercial license
-6. 3000+ image library
-7. Professional 300 DPI quality
-
-### Part 4: How-To Guide
-**Content Source:** H2 "How to Create" section + 5 H3 steps from markdown
-
-**Elements:**
-- 5-step visual process with numbered indicators
-- Step title + description
-- Optional illustration per step
-- Progress indicator design
-- **CTA at bottom:** "Ready to Start?" → `/{locale}/auth/signup`
-
-### Part 5: Use Cases
-**Content Source:** H2 "Use Cases" section + 6 user personas from markdown
-
-**Elements:**
-- 6 persona cards (teacher, parent, homeschooler, tutor, entrepreneur, therapist)
-- Quote-style design with user type icon
-- Local education terminology per language
-- Gradient accent colors
-
-### Part 6: FAQ & Subscription
-**Content Source:** H2 "FAQ" section (12 questions) + pricing info from markdown
-
-**Elements:**
-- 12 expandable FAQ accordion items
-- Smooth open/close animations
-- Pricing comparison (Core Bundle vs Full Access)
-- Value proposition highlights
-- **CTA:** "Subscribe Now" → `/{locale}/pricing`
-
-### Part 7: Related Apps & Footer CTA
-**Content Source:** H2 "Combine Apps" section from markdown
-
-**Elements:**
-- "Works Great With" carousel of 4-6 related apps
-- **CRITICAL: Related app links use SAME locale + NATIVE slug:**
-  - On `/de/apps/additionsarbeitsblatter` → link to `/de/apps/subtraktionsarbeitsblatter` (NOT subtraction-worksheets!)
-  - On `/fr/apps/fiches-addition` → link to `/fr/apps/fiches-soustraction` (NOT subtraction-worksheets!)
-- Final conversion CTA section
-- **Primary CTA:** "Create Your First Worksheet" → `/{locale}/auth/signup`
-- **Secondary:** "Explore All Apps" → `/{locale}/apps`
-
-**Related Apps Link Pattern:**
-```tsx
-// CORRECT - Same locale + native slug
-<Link href={`/${locale}/apps/${relatedApp.slugs[locale]}`}>
-  {relatedApp.names[locale]}
-</Link>
-
-// Example on German page:
-<Link href="/de/apps/subtraktionsarbeitsblatter">
-  Subtraktionsarbeitsblätter
-</Link>
-
-// Example on French page:
-<Link href="/fr/apps/fiches-soustraction">
-  Fiches de Soustraction
-</Link>
-```
-
----
-
-## 🌐 SEO REQUIREMENTS
-
-### Each Language Page Must Have:
-
-**Unique Native Slug:**
-```
-/en/apps/addition-worksheets
-/de/apps/additionsarbeitsblatter
-/fr/apps/fiches-addition
-/es/apps/fichas-de-sumas
-...etc (see full mapping below)
-```
-
-**Independent Metadata:**
-```typescript
-// Each page generates its own metadata
-export async function generateMetadata({ params }): Promise<Metadata> {
-  return {
-    title: nativeTitle, // From content file
-    description: nativeDescription, // From content file
-    keywords: nativeKeywords, // From keywords.txt
-    robots: { index: true, follow: true }, // MUST be indexable!
-    alternates: {
-      canonical: `https://www.lessoncraftstudio.com/${locale}/apps/${nativeSlug}`,
-      languages: {
-        // hreflang for all 11 versions
-        'en': '/en/apps/addition-worksheets',
-        'de': '/de/apps/additionsarbeitsblatter',
-        // ... etc
-      }
-    }
-  };
-}
-```
-
-**Language-Specific Elements:**
-- Native alt text for all images
-- Native anchor text for internal links
-- Native schema markup (ProductPage JSON-LD)
-- Native Open Graph tags
-
----
-
-## 📁 CONTENT SOURCES
-
-### Text Content:
-```
-INDIVIDUAL APP PAGES/
-├── English/
-│   ├── addition.md
-│   ├── alphabet-train.md
-│   └── ... (33 files)
-├── German/
-├── French/
-├── Spanish/
-├── Italian/
-├── Portuguese/
-├── Dutch/
-├── Swedish/
-├── Danish/
-├── Norwegian/
-└── Finnish/
-```
-
-### Sample Images/PDFs:
-```
-samples/
-├── english/
-│   ├── addition/
-│   │   ├── addition_worksheet portrait.jpeg
-│   │   ├── addition_worksheet portrait.pdf
-│   │   ├── addition_answer_key portrait.jpeg
-│   │   └── ...
-│   ├── wordsearch/
-│   └── ... (per app)
-├── german/
-├── french/
-└── ... (per language - to be added)
-```
-
-### Keywords:
-```
-INDIVIDUAL APP PAGES/keywords.txt
-- 10 keywords per language
-- Must appear 10+ times in H2/H3 titles
-```
-
----
-
-## 🏗️ FILE STRUCTURE
-
-### Product Page Components (IMPLEMENTED):
-```
-frontend/components/product-page/
-├── HeroSection.tsx      ✅ CREATED - Full-width hero with gradient, CTAs, trust badges
-├── SampleGallery.tsx    ✅ CREATED - Carousel with worksheet/answer key toggle, lightbox
-├── FeaturesGrid.tsx     ✅ CREATED - 7 feature cards with staggered animations
-├── HowToGuide.tsx       ✅ CREATED - 5-step timeline with progress indicator
-├── UseCases.tsx         ✅ CREATED - 6 persona cards with quotes
-├── FAQSection.tsx       ✅ CREATED - Accordion FAQ with pricing sidebar
-├── RelatedApps.tsx      ✅ CREATED - Related apps grid + final CTA section
-├── ProductPageClient.tsx ✅ CREATED - Main assembly component with type definitions
-└── index.ts             ✅ CREATED - Exports all components and types
-```
-
-### Key Type Definitions (from ProductPageClient.tsx):
-- `ProductPageContent` - Main interface for all page content
-- `Sample` - Worksheet/answer key image data
-- `Feature` - Feature card data
-- `Step` - How-to step data
-- `UseCase` - User persona data
-- `FAQItem` - Question/answer pair
-- `RelatedApp` - Related app card data
-
-### Content Files Structure (ACTUAL - IMPLEMENTED):
-```
-frontend/content/product-pages/
-├── en/                              ← English content files
-│   ├── addition-worksheets.ts       ✅ CREATED (First file!)
-│   ├── subtraction-worksheets.ts    (to be created)
-│   ├── alphabet-train.ts            (to be created)
-│   └── ... (33 files total)
-├── de/                              ← German content files
-│   ├── additionsarbeitsblatter.ts   (to be created)
-│   └── ...
-├── fr/                              ← French content files
-├── es/                              ← Spanish content files
-├── it/                              ← Italian content files
-├── pt/                              ← Portuguese content files
-├── nl/                              ← Dutch content files
-├── sv/                              ← Swedish content files
-├── da/                              ← Danish content files
-├── no/                              ← Norwegian content files
-└── fi/                              ← Finnish content files
-
-Total: 11 languages × 33 apps = 363 TypeScript content files
-```
-
-### Content File Format (TypeScript):
-Each content file exports a `ProductPageContent` object:
+### Step 3: Create Content File
+Create file at: `frontend/content/product-pages/en/{app-slug}.ts`
 
 ```typescript
-// Example: frontend/content/product-pages/en/addition-worksheets.ts
 import { ProductPageContent } from '@/components/product-page/ProductPageClient';
 
-export const additionEnContent: ProductPageContent = {
-  hero: { title, subtitle, description, previewImageSrc, ctaLabels, trustBadges },
-  samples: { sectionTitle, items: Sample[] },
-  features: { sectionTitle, sectionDescription, items: Feature[] },
-  howTo: { sectionTitle, steps: Step[] },
-  useCases: { sectionTitle, items: UseCase[] },
-  faq: { sectionTitle, items: FAQItem[] },
-  pricing: { title, price, priceInterval, benefits },
-  relatedApps: { sectionTitle, items: RelatedApp[] },
-};
-
-export default additionEnContent;
-```
-
-### Why TypeScript Instead of JSON:
-- Type-safe content structure
-- Import type definitions from ProductPageClient
-- Better IDE autocomplete and error checking
-- Can include comments for translators
-
-### Modified Files:
-```
-frontend/app/[locale]/apps/[slug]/
-├── page.tsx (restructure for product pages)
-└── ProductPageClient.tsx (new client component)
-
-frontend/tailwind.config.js (add animations)
-frontend/app/globals.css (add product page styles)
-```
-
----
-
-## 🔀 NATIVE SLUG MAPPING
-
-### 🔴 CRITICAL: Slug Mapping Must Be Created First
-
-Before implementation, we need a complete mapping file:
-```
-frontend/lib/product-page-slugs.ts
-```
-
-This file will contain the native slugs for ALL 33 apps in ALL 11 languages (363 entries).
-
-### Example Structure:
-```typescript
-// frontend/lib/product-page-slugs.ts
-
-export const appSlugs: Record<string, Record<string, string>> = {
-  'addition': {
-    en: 'addition-worksheets',
-    de: 'additionsarbeitsblatter',
-    fr: 'fiches-addition',
-    es: 'fichas-de-sumas',
-    it: 'schede-addizione',
-    pt: 'fichas-adicao',
-    nl: 'optel-werkbladen',
-    sv: 'additions-arbetsblad',
-    da: 'additions-arbejdsark',
-    no: 'addisjons-arbeidsark',
-    fi: 'yhteenlasku-tehtavat',
+export const appNameEnContent: ProductPageContent = {
+  hero: { ... },
+  samples: {
+    items: [
+      {
+        id: '1',
+        worksheetSrc: '/samples/english/{app-name}/filename.jpeg',  // Must match actual filename!
+        answerKeySrc: '/samples/english/{app-name}/filename answer_key.jpeg',
+        altText: 'Description',
+        pdfDownloadUrl: '/samples/english/{app-name}/filename.pdf',
+      },
+    ],
   },
-  'subtraction': {
-    en: 'subtraction-worksheets',
-    de: 'subtraktionsarbeitsblatter',
-    fr: 'fiches-soustraction',
-    es: 'fichas-de-restas',
-    // ... etc
-  },
-  // ... 31 more apps
+  // ... rest of content
 };
 
-// Reverse lookup: find app ID from any native slug
-export const slugToAppId: Record<string, string> = {
-  'addition-worksheets': 'addition',
-  'additionsarbeitsblatter': 'addition',
-  'fiches-addition': 'addition',
-  'fichas-de-sumas': 'addition',
-  // ... all 363 slugs
-};
-
-// Get native slug for an app in a specific locale
-export function getNativeSlug(appId: string, locale: string): string {
-  return appSlugs[appId]?.[locale] || appId;
-}
-
-// Get app ID from any native slug
-export function getAppIdFromSlug(slug: string): string | null {
-  return slugToAppId[slug] || null;
-}
+export default appNameEnContent;
 ```
 
-### Example: Addition Worksheets
-| Language | Native Slug | Content File |
-|----------|-------------|--------------|
-| English | `addition-worksheets` | `en/addition-worksheets.json` |
-| German | `additionsarbeitsblatter` | `de/additionsarbeitsblatter.json` |
-| French | `fiches-addition` | `fr/fiches-addition.json` |
-| Spanish | `fichas-de-sumas` | `es/fichas-de-sumas.json` |
-| Italian | `schede-addizione` | `it/schede-addizione.json` |
-| Portuguese | `fichas-adicao` | `pt/fichas-adicao.json` |
-| Dutch | `optel-werkbladen` | `nl/optel-werkbladen.json` |
-| Swedish | `additions-arbetsblad` | `sv/additions-arbetsblad.json` |
-| Danish | `additions-arbejdsark` | `da/additions-arbejdsark.json` |
-| Norwegian | `addisjons-arbeidsark` | `no/addisjons-arbeidsark.json` |
-| Finnish | `yhteenlasku-tehtavat` | `fi/yhteenlasku-tehtavat.json` |
+### Step 4: Update page.tsx
+File: `frontend/app/[locale]/apps/[slug]/page.tsx`
 
-### How Slugs Are Derived:
-The native slugs are extracted from the H1 title of each markdown file:
+Add:
+1. Import statement
+2. Metadata generation for the slug
+3. Rendering condition
+4. Add slug to generateStaticParams
 
-**From `INDIVIDUAL APP PAGES/German/addition.md`:**
-```markdown
-# Kostenlose Additionsarbeitsblätter zum Ausdrucken...
-```
-→ Slug: `additionsarbeitsblatter` (lowercase, no umlauts, hyphenated)
-
-**From `INDIVIDUAL APP PAGES/French/addition.md`:**
-```markdown
-# Fiches d'Addition Gratuites à Imprimer...
-```
-→ Slug: `fiches-addition` (lowercase, no accents, hyphenated)
-
-*Note: Full slug mapping for all 33 apps × 11 languages = 363 slugs will be extracted from markdown H1 titles*
-
----
-
-## ✅ APPROVAL WORKFLOW
-
-For each app (starting with English Addition):
-
-1. **Part 1 (Hero)** → I design → You approve → Proceed
-2. **Part 2 (Samples)** → I design → You approve → Proceed
-3. **Part 3 (Features)** → I design → You approve → Proceed
-4. **Part 4 (How-To)** → I design → You approve → Proceed
-5. **Part 5 (Use Cases)** → I design → You approve → Proceed
-6. **Part 6 (FAQ)** → I design → You approve → Proceed
-7. **Part 7 (Related)** → I design → You approve → Complete
-
-After English Addition is complete:
-- Apply template to remaining 32 English apps
-- Adapt for 10 other languages (330 more pages)
-
----
-
-## 🚫 COMMON MISTAKES TO AVOID
-
-### ❌ Wrong Link Targets:
-```tsx
-// WRONG - Links to app that requires subscription
-<Button href="/worksheet-generators/addition.html">Try Now</Button>
-
-// CORRECT - Links to signup
-<Button href={`/${locale}/auth/signup`}>Start Creating Free</Button>
-```
-
-### ❌ Hardcoded English Text:
-```tsx
-// WRONG
-<h1>Free Printable Addition Worksheets</h1>
-
-// CORRECT - From content file
-<h1>{content.hero.title}</h1>
-```
-
-### ❌ Same Slug Across Languages:
-```tsx
-// WRONG - Using English slug for all
-/de/apps/addition-worksheets
-/fr/apps/addition-worksheets
-
-// CORRECT - Native slugs
-/de/apps/additionsarbeitsblatter
-/fr/apps/fiches-addition
-```
-
-### ❌ Missing robots directive:
-```tsx
-// WRONG - Not indexable (current state!)
-robots: { index: false, follow: false }
-
-// CORRECT - Must be indexable
-robots: { index: true, follow: true }
-```
-
----
-
-## 📋 CHECKLIST BEFORE EACH DESIGN PART
-
-Before designing any part, verify:
-
-- [ ] I'm creating NEW React/TypeScript components
-- [ ] I'm NOT touching REFERENCE folders
-- [ ] All CTAs link to signup/apps/pricing pages (NOT worksheet generators)
-- [ ] Content comes from `INDIVIDUAL APP PAGES/{Language}/{app}.md`
-- [ ] Samples come from `samples/{language}/{app}/`
-- [ ] The design is Modern SaaS style
-- [ ] Animations use Framer Motion
-- [ ] The component is responsive (mobile-first)
-
----
-
-## 📞 QUICK REFERENCE
-
-### When You Say "Design Part X":
-I will use the `frontend-design` plugin to create:
-- A React/TypeScript component
-- Tailwind CSS styling
-- Framer Motion animations
-- Props interface for content injection
-
-### I Will NOT:
-- Touch any REFERENCE folders
-- Link to subscription-required apps
-- Modify worksheet generator HTML files
-- Overwrite any existing production assets
-
-### Deployment After All Parts Complete:
+### Step 5: Commit and Push
 ```bash
-# Scenario 1: Code changes only
-git pull && cd frontend && npm run build && ...
+git add frontend/content/product-pages/en/{app-slug}.ts
+git add frontend/public/samples/english/{app-name}/
+git add frontend/app/[locale]/apps/[slug]/page.tsx
+git commit -m "feat: Add {App Name} product page (English)"
+git push origin main
+```
+
+### Step 6: Deploy to Server
+```bash
+# Pull and build
+plink root@server "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
+```
+
+### Step 7: Upload Samples to Server
+```bash
+# Create directory on server
+plink root@server "mkdir -p /opt/lessoncraftstudio/frontend/public/samples/english/{app-name}"
+
+# Upload files
+pscp -r frontend/public/samples/english/{app-name}/* root@server:/opt/lessoncraftstudio/frontend/public/samples/english/{app-name}/
+
+# CRITICAL: Copy to standalone directory (or files won't be accessible!)
+plink root@server "cp -r /opt/lessoncraftstudio/frontend/public/samples/english/{app-name} /opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/"
+
+# Restart
+plink root@server "pm2 restart lessoncraftstudio"
+```
+
+### Step 8: Verify Everything Works
+```bash
+# Test page loads
+curl -s -o /dev/null -w '%{http_code}' 'https://www.lessoncraftstudio.com/en/apps/{app-slug}'
+# Expected: 200
+
+# Test image loads
+curl -s -o /dev/null -w '%{http_code}' 'https://www.lessoncraftstudio.com/samples/english/{app-name}/filename.jpeg'
+# Expected: 200
+
+# Test PDF downloads
+curl -s -I 'https://www.lessoncraftstudio.com/samples/english/{app-name}/filename.pdf' | head -5
+# Expected: HTTP/1.1 200 OK, Content-Type: application/pdf
+```
+
+**DO NOT announce completion until ALL tests pass!**
+
+---
+
+## PRE-DEPLOYMENT CHECKLIST
+
+Before saying "done", verify ALL of these:
+
+### Sample Files
+- [ ] Sample files exist in `samples/english/{app}/` (master location)
+- [ ] Sample files copied to `frontend/public/samples/english/{app}/`
+- [ ] Filenames in content file EXACTLY match actual filenames (including spaces!)
+- [ ] Both JPEG and PDF versions exist for each sample
+
+### Server Deployment
+- [ ] Sample files uploaded to `/opt/lessoncraftstudio/frontend/public/samples/english/{app}/`
+- [ ] Sample files copied to `/opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/{app}/`
+- [ ] PM2 restarted after copying files
+
+### URL Verification (run these commands!)
+- [ ] Page URL returns HTTP 200
+- [ ] Each image URL returns HTTP 200
+- [ ] Each PDF URL returns HTTP 200 with `Content-Type: application/pdf`
+
+---
+
+## CRITICAL DESIGN MISTAKES TO AVOID
+
+### 1. Collapsible Text - DEFAULT TO COLLAPSED
+
+**WRONG:**
+```tsx
+const [isExpanded, setIsExpanded] = useState(true);  // Shows everything
+```
+
+**CORRECT:**
+```tsx
+const [isExpanded, setIsExpanded] = useState(false); // Collapsed by default
+
+// Split by sentences, show only 3
+const sentences = text.split(/(?<=[.!?])\s+/);
+const maxSentences = 3;
+const displayText = isExpanded ? text : sentences.slice(0, maxSentences).join(' ');
+```
+
+**Rule:** Long text sections MUST show only 3 sentences by default with "Read more" toggle.
+
+---
+
+### 2. PDF Downloads - MIDDLEWARE EXCLUSIONS
+
+**Problem:** PDFs return HTML because middleware redirects `/samples/...` to `/en/samples/...`
+
+**Fix in `middleware.ts`:**
+```typescript
+export const config = {
+  matcher: [
+    '/((?!api|_next/static|...|samples|...\\.pdf).*)',
+    //                        ^^^^^^^ ADD THIS
+  ]
+};
+```
+
+**Exclusions that MUST be in matcher:**
+- `samples` - PDF sample files directory
+- `pdf` - PDF file extension
+- `blog/pdfs` - Blog PDF downloads
+
+---
+
+### 3. Related Apps - NO INDIVIDUAL APP LINKS
+
+**WRONG:**
+```tsx
+<Link href={`/${locale}/apps/${app.slug}`}>  // Links to individual app
+```
+
+**CORRECT:**
+```tsx
+<Link href={`/${locale}/apps`}>  // Links to apps listing page
+// OR
+<Link href={`/${locale}/auth/signup`}>  // Links to signup
+```
+
+**Rule:** RelatedApps cards are informational only. CTA buttons go to `/apps` or `/auth/signup`.
+
+---
+
+### 4. Design Quality - NO GENERIC AI AESTHETICS
+
+**NEVER USE:**
+- Generic fonts: Inter, Roboto, Arial, system fonts
+- Cliche colors: Purple gradients on white, indigo/slate palettes
+- Boring layouts: Predictable grids, cookie-cutter patterns
+
+**ALWAYS USE:**
+- Distinctive fonts: Cormorant Garamond, Space Grotesk, Playfair Display
+- Rich palettes: Stone, amber, rose, emerald, cream tones
+- Bold design: Animated gradients, mesh backgrounds, parallax effects
+
+**Test:** Would a user remember this design? If it looks like every other SaaS page, redesign it.
+
+---
+
+### 5. Download Buttons - ON THE THUMBNAILS
+
+**WRONG:** Separate download button below gallery
+
+**CORRECT:** Download button directly ON each thumbnail that has a PDF
+```tsx
+{sample.pdfDownloadUrl && (
+  <button className="absolute bottom-2 left-1/2 -translate-x-1/2 ...">
+    <DownloadIcon /> PDF
+  </button>
+)}
 ```
 
 ---
 
-**Document Version:** 1.0
-**Last Updated:** 2025-12-29
-**Author:** Claude (for user reference)
+## SERVER COMMANDS REFERENCE
+
+### Full Connection Details
+```
+Server: 65.108.5.250
+User: root
+Password: JfmiPF_QW4_Nhm
+Hostkey: SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU
+```
+
+### Upload Files
+```bash
+pscp -batch -pw PASSWORD -hostkey "HOSTKEY" "local/path/*" root@65.108.5.250:"/remote/path/"
+```
+
+### Run Commands
+```bash
+plink -batch -pw PASSWORD -hostkey "HOSTKEY" root@65.108.5.250 "command here"
+```
+
+### Full Deploy Sequence
+```bash
+# 1. Pull, build, restart
+plink ... "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
+
+# 2. Upload samples
+pscp ... -r "frontend/public/samples/english/{app}/*" root@server:"/opt/lessoncraftstudio/frontend/public/samples/english/{app}/"
+
+# 3. Copy to standalone (CRITICAL!)
+plink ... "cp -r /opt/lessoncraftstudio/frontend/public/samples/english/{app} /opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/"
+
+# 4. Restart
+plink ... "pm2 restart lessoncraftstudio"
+```
+
+---
+
+## COMPONENT CHECKLIST
+
+### HeroSection.tsx
+- [ ] Description text collapsed by default (3 sentences max)
+- [ ] "Read more" toggle works
+- [ ] No fake user counts or stats
+- [ ] Design is distinctive (not generic corporate)
+
+### SampleGallery.tsx
+- [ ] Download buttons ON thumbnails (not separate)
+- [ ] Only shows download for samples WITH PDFs
+- [ ] PDF URLs work (test with curl)
+- [ ] Descriptive filenames generated from altText
+
+### FeaturesGrid.tsx
+- [ ] Long descriptions collapsed (3 sentences default)
+- [ ] "Read more" / "Show less" toggles work
+
+### UseCases.tsx
+- [ ] Long descriptions collapsed (3 sentences default)
+- [ ] "Read more" / "Show less" toggles work
+
+### RelatedApps.tsx
+- [ ] NO links to individual app pages (`/apps/[slug]`)
+- [ ] Cards link to `/apps` or `/auth/signup` only
+- [ ] CTA buttons go to signup or apps page
+
+---
+
+## QUICK REFERENCE
+
+| Component | Collapsed Default | Links Allowed | Download Location |
+|-----------|------------------|---------------|-------------------|
+| HeroSection | 3 sentences | N/A | N/A |
+| FeaturesGrid | 3 sentences | N/A | N/A |
+| UseCases | 3 sentences | N/A | N/A |
+| SampleGallery | N/A | N/A | ON thumbnail |
+| RelatedApps | N/A | `/apps`, `/signup` only | N/A |
+
+---
+
+## COMMON MISTAKES & FIXES
+
+| Mistake | Symptom | Fix |
+|---------|---------|-----|
+| Content file in wrong folder | Import fails | Move to `frontend/content/product-pages/en/` |
+| Samples not on server | Images show broken | Upload with pscp |
+| Samples not in standalone | 404 errors | Copy to `.next/standalone/public/samples/` |
+| Wrong sample filename | 404 errors | Match exact filename including spaces |
+| Forgot pm2 restart | Old content shows | `pm2 restart lessoncraftstudio` |
+| Middleware blocking PDFs | PDF returns HTML | Add `samples` to middleware exclusions |

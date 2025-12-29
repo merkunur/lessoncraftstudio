@@ -38,7 +38,7 @@ const defaultTrustBadges = {
 // Collapsible text component - shows SHORT text by default
 function CollapsibleText({
   text,
-  maxSentences = 2,
+  maxSentences = 3,
   readMoreLabel = 'Read more',
   showLessLabel = 'Show less',
 }: {
@@ -265,7 +265,7 @@ export default function HeroSection({
             >
               <CollapsibleText
                 text={description}
-                maxSentences={2}
+                maxSentences={3}
                 readMoreLabel={readMoreLabel}
                 showLessLabel={showLessLabel}
               />

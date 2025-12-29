@@ -10,6 +10,53 @@ interface FAQItem {
   answer: string;
 }
 
+// Collapsible text component for FAQ answers
+function CollapsibleAnswer({
+  text,
+  maxSentences = 3,
+  readMoreLabel = 'Read more',
+  showLessLabel = 'Show less'
+}: {
+  text: string;
+  maxSentences?: number;
+  readMoreLabel?: string;
+  showLessLabel?: string;
+}) {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const sentences = text.split(/(?<=[.!?])\s+/);
+  const shouldTruncate = sentences.length > maxSentences;
+  const displayText = isExpanded ? text : sentences.slice(0, maxSentences).join(' ');
+
+  return (
+    <>
+      <p className="text-stone-600 leading-relaxed">
+        {displayText}
+        {!isExpanded && shouldTruncate && '...'}
+      </p>
+      {shouldTruncate && (
+        <button
+          onClick={(e) => {
+            e.stopPropagation();
+            setIsExpanded(!isExpanded);
+          }}
+          className="mt-2 text-sm font-medium text-amber-700 hover:text-amber-800 transition-colors inline-flex items-center gap-1"
+        >
+          {isExpanded ? showLessLabel : readMoreLabel}
+          <svg
+            className={`w-4 h-4 transition-transform ${isExpanded ? 'rotate-180' : ''}`}
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+      )}
+    </>
+  );
+}
+
 interface FAQSectionProps {
   locale: string;
   sectionTitle: string;
@@ -184,9 +231,8 @@ export default function FAQSection({
                           >
                             <div className="px-6 pb-5 pt-0">
                               <div className="h-px bg-stone-100 mb-4" />
-                              <p className="text-stone-600 leading-relaxed">
-                                {faq.answer}
-                              </p>
+                              {/* Answer - Collapsible to 3 sentences by default */}
+                              <CollapsibleAnswer text={faq.answer} />
                             </div>
                           </motion.div>
                         )}

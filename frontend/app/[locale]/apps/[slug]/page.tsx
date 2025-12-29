@@ -7,6 +7,7 @@ import wordSearchEnContent from '@/content/product-pages/en/word-search-workshee
 import alphabetTrainEnContent from '@/content/product-pages/en/alphabet-train-worksheets';
 import coloringEnContent from '@/content/product-pages/en/coloring-worksheets';
 import mathWorksheetsEnContent from '@/content/product-pages/en/math-worksheets';
+import wordScrambleEnContent from '@/content/product-pages/en/word-scramble-worksheets';
 
 interface PageProps {
   params: {
@@ -126,6 +127,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Math Worksheets for Kindergarten | LessonCraftStudio',
         description: 'Create picture-based math puzzles with our math worksheet generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/math-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Word Scramble Worksheets product page SEO
+  if (params.slug === 'word-scramble-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Word Scramble Worksheets | Word Scramble Generator for Kindergarten',
+      description: 'Create professional word scramble worksheets with our word scramble generator. Generate custom printable word scramble worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'word scramble worksheets, word scramble generator, kindergarten worksheets, printable worksheets, word scramble puzzles, free worksheets, first grade worksheets, vocabulary worksheets, sight words worksheets, phonics worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/word-scramble-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Word Scramble Worksheets | LessonCraftStudio',
+        description: 'Create professional word scramble worksheets with our word scramble generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/word-scramble-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3161,6 +3185,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
 
   if (slug === 'math-worksheets' && locale === 'en') {
     return <ProductPageClient locale={locale} content={mathWorksheetsEnContent} />;
+  }
+
+  if (slug === 'word-scramble-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={wordScrambleEnContent} />;
   }
 
   // Fetch app data from Strapi

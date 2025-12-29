@@ -188,31 +188,6 @@ export default function UseCases({
             );
           })}
         </motion.div>
-
-        {/* Social proof bar */}
-        <motion.div
-          className="mt-16 flex flex-wrap justify-center gap-8 lg:gap-16"
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ delay: 0.4 }}
-        >
-          {[
-            { number: '50,000+', label: 'Teachers Worldwide' },
-            { number: '2M+', label: 'Worksheets Created' },
-            { number: '4.9/5', label: 'Average Rating' },
-          ].map((stat, index) => (
-            <div key={index} className="text-center">
-              <p
-                className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent"
-                style={{ fontFamily: "'Plus Jakarta Sans', system-ui, sans-serif" }}
-              >
-                {stat.number}
-              </p>
-              <p className="text-sm text-slate-500 mt-1">{stat.label}</p>
-            </div>
-          ))}
-        </motion.div>
       </div>
     </section>
   );

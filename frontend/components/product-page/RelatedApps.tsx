@@ -24,23 +24,13 @@ interface RelatedAppsProps {
   primaryCtaHref?: string;
   secondaryCtaText?: string;
   secondaryCtaHref?: string;
-  statsData?: {
-    users: string;
-    worksheets: string;
-    rating: string;
-  };
 }
 
 const defaultProps = {
   ctaTitle: 'Ready to Create Amazing Worksheets?',
-  ctaDescription: 'Join thousands of educators creating professional worksheets. Unlimited generation, commercial license included.',
+  ctaDescription: 'Join educators creating professional worksheets. Unlimited generation, commercial license included.',
   primaryCtaText: 'Start Free Trial',
   secondaryCtaText: 'View All 33 Apps',
-  statsData: {
-    users: '50,000+',
-    worksheets: '2M+',
-    rating: '4.9/5',
-  },
 };
 
 // Category colors for variety
@@ -64,7 +54,6 @@ export default function RelatedApps({
   primaryCtaHref,
   secondaryCtaText = defaultProps.secondaryCtaText,
   secondaryCtaHref,
-  statsData = defaultProps.statsData,
 }: RelatedAppsProps) {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
@@ -295,26 +284,6 @@ export default function RelatedApps({
         />
 
         <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          {/* Stats bar */}
-          <motion.div
-            className="flex flex-wrap justify-center gap-6 sm:gap-12 mb-10"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            {[
-              { value: statsData.users, label: 'Educators' },
-              { value: statsData.worksheets, label: 'Worksheets Created' },
-              { value: statsData.rating, label: 'Average Rating' },
-            ].map((stat, index) => (
-              <div key={index} className="text-center">
-                <p className="text-2xl sm:text-3xl font-bold text-white">{stat.value}</p>
-                <p className="text-sm text-indigo-200">{stat.label}</p>
-              </div>
-            ))}
-          </motion.div>
-
           {/* Main CTA content */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}

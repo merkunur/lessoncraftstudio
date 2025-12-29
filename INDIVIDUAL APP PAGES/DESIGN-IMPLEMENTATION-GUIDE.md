@@ -22,6 +22,16 @@
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
+## 🚨 5 UNBREAKABLE RULES
+
+```
+1. NO FAKE STATS    → Never invent: user counts, download counts, ratings
+2. NO APP LINKS     → Only: /{locale}/auth/signup, /{locale}/apps, /{locale}/pricing, /{locale}
+3. FULL TEXT        → Use 100% of .md content, never summarize or shorten
+4. REAL SAMPLES     → Use actual files from samples/{language}/{app}/
+5. FREE PDF         → Direct download link, no login required
+```
+
 ---
 
 **Created:** 2025-12-29

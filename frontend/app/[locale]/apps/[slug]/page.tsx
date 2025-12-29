@@ -18,6 +18,7 @@ import chartCountEnContent from '@/content/product-pages/en/chart-count-workshee
 import codeAdditionEnContent from '@/content/product-pages/en/code-addition-worksheets';
 import drawAndColorEnContent from '@/content/product-pages/en/draw-and-color-worksheets';
 import findObjectsEnContent from '@/content/product-pages/en/find-objects-worksheets';
+import gridMatchEnContent from '@/content/product-pages/en/grid-match-worksheets';
 
 interface PageProps {
   params: {
@@ -390,6 +391,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Find Objects Worksheets | LessonCraftStudio',
         description: 'Create professional find objects worksheets with our visual discrimination worksheet generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/find-objects-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Grid Match Worksheets product page SEO
+  if (params.slug === 'grid-match-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Kindergarten Worksheets | Grid Match Puzzle Worksheet Generator for First Grade',
+      description: 'Create professional grid match puzzle worksheets with our advanced worksheet generator. Generate custom printable matching worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'grid match worksheets, puzzle worksheets, matching worksheets, kindergarten worksheets, printable worksheets, first grade worksheets, visual discrimination worksheets, spatial reasoning worksheets, picture puzzles, educational worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/grid-match-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Grid Match Worksheets | LessonCraftStudio',
+        description: 'Create professional grid match puzzle worksheets with our worksheet generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/grid-match-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3471,6 +3495,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={findObjectsEnContent} />;
   }
 
+  if (slug === 'grid-match-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={gridMatchEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3607,6 +3635,7 @@ export async function generateStaticParams() {
     'code-addition-worksheets', // Product page slug
     'draw-and-color-worksheets', // Product page slug
     'find-objects-worksheets', // Product page slug
+    'grid-match-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

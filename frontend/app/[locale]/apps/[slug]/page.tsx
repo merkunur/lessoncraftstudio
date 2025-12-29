@@ -19,6 +19,7 @@ import codeAdditionEnContent from '@/content/product-pages/en/code-addition-work
 import drawAndColorEnContent from '@/content/product-pages/en/draw-and-color-worksheets';
 import findObjectsEnContent from '@/content/product-pages/en/find-objects-worksheets';
 import gridMatchEnContent from '@/content/product-pages/en/grid-match-worksheets';
+import crosswordEnContent from '@/content/product-pages/en/crossword-worksheets';
 
 interface PageProps {
   params: {
@@ -414,6 +415,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Grid Match Worksheets | LessonCraftStudio',
         description: 'Create professional grid match puzzle worksheets with our worksheet generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/grid-match-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Crossword Worksheets product page SEO
+  if (params.slug === 'crossword-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Crossword Worksheets | Picture Crossword Generator for Kindergarten',
+      description: 'Create professional picture crossword worksheets with our crossword puzzle generator. Generate custom printable crossword worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'crossword worksheets, picture crossword, crossword generator, kindergarten worksheets, printable worksheets, first grade worksheets, phonics worksheets, sight words worksheets, vocabulary worksheets, spelling worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/crossword-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Crossword Worksheets | LessonCraftStudio',
+        description: 'Create professional picture crossword worksheets with our crossword puzzle generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/crossword-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3499,6 +3523,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={gridMatchEnContent} />;
   }
 
+  if (slug === 'crossword-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={crosswordEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3636,6 +3664,7 @@ export async function generateStaticParams() {
     'draw-and-color-worksheets', // Product page slug
     'find-objects-worksheets', // Product page slug
     'grid-match-worksheets', // Product page slug
+    'crossword-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

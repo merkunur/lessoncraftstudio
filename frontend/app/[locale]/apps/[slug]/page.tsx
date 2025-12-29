@@ -15,6 +15,7 @@ import pictureBingoEnContent from '@/content/product-pages/en/picture-bingo-work
 import sudokuEnContent from '@/content/product-pages/en/sudoku-worksheets';
 import bigSmallEnContent from '@/content/product-pages/en/big-small-worksheets';
 import chartCountEnContent from '@/content/product-pages/en/chart-count-worksheets';
+import codeAdditionEnContent from '@/content/product-pages/en/code-addition-worksheets';
 
 interface PageProps {
   params: {
@@ -318,6 +319,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Picture Graph Worksheets | LessonCraftStudio',
         description: 'Create professional picture graph worksheets with our math worksheet generator. Perfect for kindergarten and first grade students learning counting and graphing.',
         url: 'https://www.lessoncraftstudio.com/en/apps/chart-count-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Code Addition Worksheets (Image Addition) product page SEO
+  if (params.slug === 'code-addition-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Addition Worksheets | Image Addition Worksheet Generator for Kindergarten',
+      description: 'Create professional picture-based addition worksheets with our image addition worksheet generator. Generate custom printable math worksheets perfect for kindergarten and first grade students learning to count and add. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'image addition worksheets, picture addition worksheets, kindergarten worksheets, printable worksheets, math worksheet generator, free worksheets, first grade math, visual addition, counting worksheets, addition practice',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/code-addition-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Addition Worksheets | LessonCraftStudio',
+        description: 'Create professional picture-based addition worksheets with our image addition worksheet generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/code-addition-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3387,6 +3411,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={chartCountEnContent} />;
   }
 
+  if (slug === 'code-addition-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={codeAdditionEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3520,6 +3548,7 @@ export async function generateStaticParams() {
     'sudoku-worksheets', // Product page slug
     'big-small-worksheets', // Product page slug
     'chart-count-worksheets', // Product page slug
+    'code-addition-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

@@ -9,6 +9,7 @@ import coloringEnContent from '@/content/product-pages/en/coloring-worksheets';
 import mathWorksheetsEnContent from '@/content/product-pages/en/math-worksheets';
 import wordScrambleEnContent from '@/content/product-pages/en/word-scramble-worksheets';
 import findAndCountEnContent from '@/content/product-pages/en/find-and-count-worksheets';
+import matchingEnContent from '@/content/product-pages/en/matching-worksheets';
 
 interface PageProps {
   params: {
@@ -174,6 +175,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Find and Count Worksheets | LessonCraftStudio',
         description: 'Create professional find and count I Spy worksheets with our worksheet generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/find-and-count-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Matching Worksheets product page SEO
+  if (params.slug === 'matching-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Matching Worksheets | MatchUp Maker for Kindergarten and First Grade',
+      description: 'Create professional matching worksheets with our MatchUp Maker generator. Generate custom printable matching worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'matching worksheets, MatchUp Maker, kindergarten worksheets, printable worksheets, alphabet worksheets, phonics worksheets, sight words worksheets, free worksheets, first grade worksheets, vocabulary worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/matching-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Matching Worksheets | LessonCraftStudio',
+        description: 'Create professional matching worksheets with our MatchUp Maker generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/matching-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3219,6 +3243,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={findAndCountEnContent} />;
   }
 
+  if (slug === 'matching-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={matchingEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3346,6 +3374,7 @@ export async function generateStaticParams() {
     'math-worksheets', // Product page slug
     'word-scramble-worksheets', // Product page slug
     'find-and-count-worksheets', // Product page slug
+    'matching-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

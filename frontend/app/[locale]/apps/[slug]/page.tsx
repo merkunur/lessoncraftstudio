@@ -1,6 +1,8 @@
 import { Metadata } from 'next';
 import AutoLaunchApp from './AutoLaunchApp';
 import { notFound } from 'next/navigation';
+import ProductPageClient from '@/components/product-page/ProductPageClient';
+import additionEnContent from '@/content/product-pages/en/addition-worksheets';
 
 interface PageProps {
   params: {
@@ -11,8 +13,31 @@ interface PageProps {
 
 // Generate metadata for SEO
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  // Product pages have custom SEO metadata
+  if (params.slug === 'addition-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Addition Worksheets | Professional Math Worksheet Generator',
+      description: 'Create professional addition worksheets with our math worksheet generator. Generate custom printable worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'addition worksheets, math worksheets, kindergarten worksheets, printable worksheets, addition practice, math worksheet generator, free worksheets, first grade math, addition problems, visual addition',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/addition-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Addition Worksheets | LessonCraftStudio',
+        description: 'Create professional addition worksheets with our math worksheet generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/addition-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
   const appData = await getAppData(params.slug, params.locale);
-  
+
   if (!appData) {
     return {
       title: 'App Not Found - LessonCraftStudio',
@@ -3020,6 +3045,12 @@ function getTierLabel(tier: string, locale: string): string {
 }
 
 export default async function AppPage({ params: { locale, slug } }: PageProps) {
+  // Check if this is a product page with custom content
+  // For now, only addition-worksheets in English has a product page
+  if (slug === 'addition-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={additionEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3140,6 +3171,7 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
 export async function generateStaticParams() {
   // List of all app slugs
   const apps = [
+    'addition-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

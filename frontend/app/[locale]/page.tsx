@@ -441,6 +441,28 @@ export default async function HomePage({ params }: { params: { locale: string } 
         </div>
       </section>
 
+      {/* Featured Product Page - Addition Worksheets (Testing) */}
+      {locale === 'en' && (
+        <section className="py-12 bg-gradient-to-r from-blue-50 to-indigo-50">
+          <div className="container mx-auto px-4">
+            <div className="max-w-3xl mx-auto text-center">
+              <span className="inline-block px-3 py-1 text-sm font-medium text-blue-600 bg-blue-100 rounded-full mb-4">
+                NEW: Product Pages
+              </span>
+              <h2 className="text-h2 mb-4 text-gray-900">
+                Free Printable Addition Worksheets
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Check out our new detailed product page with samples, features, and everything you need to know about creating professional addition worksheets.
+              </p>
+              <Button size="lg" variant="primary" href={`/${locale}/apps/addition-worksheets`}>
+                View Addition Worksheets Page
+              </Button>
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Pricing Section */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">

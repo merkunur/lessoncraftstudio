@@ -5,6 +5,7 @@ import ProductPageClient from '@/components/product-page/ProductPageClient';
 import additionEnContent from '@/content/product-pages/en/addition-worksheets';
 import wordSearchEnContent from '@/content/product-pages/en/word-search-worksheets';
 import alphabetTrainEnContent from '@/content/product-pages/en/alphabet-train-worksheets';
+import coloringEnContent from '@/content/product-pages/en/coloring-worksheets';
 
 interface PageProps {
   params: {
@@ -78,6 +79,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable ABC Worksheets for Kindergarten | LessonCraftStudio',
         description: 'Create custom alphabet train worksheets with our professional worksheet generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/alphabet-train-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Coloring Worksheets product page SEO
+  if (params.slug === 'coloring-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Coloring Pages | Coloring Worksheet Generator for Kindergarten',
+      description: 'Create professional coloring worksheets with our easy-to-use coloring page designer. Generate custom printable coloring pages perfect for kindergarten and first grade students. Download high-quality PDF and JPEG files ready for printing.',
+      keywords: 'coloring worksheets, coloring pages, kindergarten worksheets, printable coloring pages, free coloring worksheets, coloring page generator, first grade worksheets, preschool coloring, printable worksheets, coloring activities',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/coloring-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Coloring Pages | LessonCraftStudio',
+        description: 'Create professional coloring worksheets with our coloring page designer. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/coloring-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3107,6 +3131,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={alphabetTrainEnContent} />;
   }
 
+  if (slug === 'coloring-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={coloringEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3230,6 +3258,7 @@ export async function generateStaticParams() {
     'addition-worksheets', // Product page slug
     'word-search-worksheets', // Product page slug
     'alphabet-train-worksheets', // Product page slug
+    'coloring-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

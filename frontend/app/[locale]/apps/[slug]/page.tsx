@@ -16,6 +16,7 @@ import sudokuEnContent from '@/content/product-pages/en/sudoku-worksheets';
 import bigSmallEnContent from '@/content/product-pages/en/big-small-worksheets';
 import chartCountEnContent from '@/content/product-pages/en/chart-count-worksheets';
 import codeAdditionEnContent from '@/content/product-pages/en/code-addition-worksheets';
+import drawAndColorEnContent from '@/content/product-pages/en/draw-and-color-worksheets';
 
 interface PageProps {
   params: {
@@ -342,6 +343,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Addition Worksheets | LessonCraftStudio',
         description: 'Create professional picture-based addition worksheets with our image addition worksheet generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/code-addition-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Draw and Color (Grid Drawing) Worksheets product page SEO
+  if (params.slug === 'draw-and-color-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Grid Drawing Worksheets | Coloring Worksheet Generator for Kindergarten',
+      description: 'Create professional grid drawing coloring worksheets with our specialized worksheet generator. Generate custom printable coloring worksheets perfect for kindergarten and first grade students. Download high-quality PDF coloring worksheets in under 3 minutes.',
+      keywords: 'grid drawing worksheets, coloring worksheets, kindergarten worksheets, printable worksheets, coloring worksheet generator, free worksheets, first grade worksheets, visual-spatial skills, pattern worksheets, drawing worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/draw-and-color-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Grid Drawing Worksheets | LessonCraftStudio',
+        description: 'Create professional grid drawing coloring worksheets with our specialized worksheet generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/draw-and-color-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3415,6 +3439,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={codeAdditionEnContent} />;
   }
 
+  if (slug === 'draw-and-color-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={drawAndColorEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3549,6 +3577,7 @@ export async function generateStaticParams() {
     'big-small-worksheets', // Product page slug
     'chart-count-worksheets', // Product page slug
     'code-addition-worksheets', // Product page slug
+    'draw-and-color-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

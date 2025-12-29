@@ -12,6 +12,7 @@ import findAndCountEnContent from '@/content/product-pages/en/find-and-count-wor
 import matchingEnContent from '@/content/product-pages/en/matching-worksheets';
 import drawingLinesEnContent from '@/content/product-pages/en/drawing-lines-worksheets';
 import pictureBingoEnContent from '@/content/product-pages/en/picture-bingo-worksheets';
+import sudokuEnContent from '@/content/product-pages/en/sudoku-worksheets';
 
 interface PageProps {
   params: {
@@ -246,6 +247,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Kindergarten Bingo Cards | LessonCraftStudio',
         description: 'Create professional picture bingo cards with our bingo worksheet generator. Perfect for kindergarten and first grade classrooms.',
         url: 'https://www.lessoncraftstudio.com/en/apps/picture-bingo-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Sudoku Worksheets product page SEO
+  if (params.slug === 'sudoku-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Sudoku for Kids | Sudoku Worksheets for Kindergarten and First Grade',
+      description: 'Create visual sudoku puzzles with our sudoku generator designed for young children. Generate custom 4x4 picture-based sudoku puzzles perfect for kindergarten and first grade students. Download professional-quality PDF worksheets with answer keys in under 3 minutes.',
+      keywords: 'sudoku for kids, sudoku worksheets, kindergarten worksheets, printable sudoku, logic puzzles, free worksheets, first grade worksheets, picture sudoku, visual sudoku, math worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/sudoku-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Sudoku for Kids | LessonCraftStudio',
+        description: 'Create visual sudoku puzzles with our sudoku generator. Perfect for kindergarten and first grade students learning logic skills.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/sudoku-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3303,6 +3327,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={pictureBingoEnContent} />;
   }
 
+  if (slug === 'sudoku-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={sudokuEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3433,6 +3461,7 @@ export async function generateStaticParams() {
     'matching-worksheets', // Product page slug
     'drawing-lines-worksheets', // Product page slug
     'picture-bingo-worksheets', // Product page slug
+    'sudoku-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

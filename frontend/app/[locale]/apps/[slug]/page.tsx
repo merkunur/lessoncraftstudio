@@ -3,6 +3,7 @@ import AutoLaunchApp from './AutoLaunchApp';
 import { notFound } from 'next/navigation';
 import ProductPageClient from '@/components/product-page/ProductPageClient';
 import additionEnContent from '@/content/product-pages/en/addition-worksheets';
+import wordSearchEnContent from '@/content/product-pages/en/word-search-worksheets';
 
 interface PageProps {
   params: {
@@ -30,6 +31,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Addition Worksheets | LessonCraftStudio',
         description: 'Create professional addition worksheets with our math worksheet generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/addition-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Word Search Worksheets product page SEO
+  if (params.slug === 'word-search-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Word Search Worksheets | Word Search Generator for Kindergarten',
+      description: 'Create professional word search worksheets in seconds with our word search generator. Perfect for kindergarten teachers, first grade educators, and homeschool parents. Generate custom word search puzzles using images or words in just three clicks.',
+      keywords: 'word search worksheets, word search generator, kindergarten worksheets, printable worksheets, word search puzzles, free worksheets, first grade worksheets, vocabulary worksheets, sight words worksheets, phonics worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/word-search-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Word Search Worksheets | LessonCraftStudio',
+        description: 'Create professional word search worksheets with our word search generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3046,9 +3070,13 @@ function getTierLabel(tier: string, locale: string): string {
 
 export default async function AppPage({ params: { locale, slug } }: PageProps) {
   // Check if this is a product page with custom content
-  // For now, only addition-worksheets in English has a product page
+  // Product pages with full SEO content
   if (slug === 'addition-worksheets' && locale === 'en') {
     return <ProductPageClient locale={locale} content={additionEnContent} />;
+  }
+
+  if (slug === 'word-search-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={wordSearchEnContent} />;
   }
 
   // Fetch app data from Strapi
@@ -3172,6 +3200,7 @@ export async function generateStaticParams() {
   // List of all app slugs
   const apps = [
     'addition-worksheets', // Product page slug
+    'word-search-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

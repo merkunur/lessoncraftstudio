@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import ProductPageClient from '@/components/product-page/ProductPageClient';
 import additionEnContent from '@/content/product-pages/en/addition-worksheets';
 import wordSearchEnContent from '@/content/product-pages/en/word-search-worksheets';
+import alphabetTrainEnContent from '@/content/product-pages/en/alphabet-train-worksheets';
 
 interface PageProps {
   params: {
@@ -54,6 +55,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Word Search Worksheets | LessonCraftStudio',
         description: 'Create professional word search worksheets with our word search generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Alphabet Train Worksheets product page SEO
+  if (params.slug === 'alphabet-train-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable ABC Worksheets for Kindergarten | Alphabet Train Generator',
+      description: 'Create custom alphabet train worksheets with our professional worksheet generator. Generate printable ABC worksheets that help kids learn letter recognition through a fun train theme. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'alphabet worksheets, ABC worksheets, kindergarten worksheets, printable worksheets, alphabet train, letter recognition, free worksheets, first grade worksheets, phonics worksheets, tracing worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/alphabet-train-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable ABC Worksheets for Kindergarten | LessonCraftStudio',
+        description: 'Create custom alphabet train worksheets with our professional worksheet generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/alphabet-train-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3079,6 +3103,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={wordSearchEnContent} />;
   }
 
+  if (slug === 'alphabet-train-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={alphabetTrainEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3201,6 +3229,7 @@ export async function generateStaticParams() {
   const apps = [
     'addition-worksheets', // Product page slug
     'word-search-worksheets', // Product page slug
+    'alphabet-train-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

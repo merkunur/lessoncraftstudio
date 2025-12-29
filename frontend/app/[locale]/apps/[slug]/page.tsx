@@ -17,6 +17,7 @@ import bigSmallEnContent from '@/content/product-pages/en/big-small-worksheets';
 import chartCountEnContent from '@/content/product-pages/en/chart-count-worksheets';
 import codeAdditionEnContent from '@/content/product-pages/en/code-addition-worksheets';
 import drawAndColorEnContent from '@/content/product-pages/en/draw-and-color-worksheets';
+import findObjectsEnContent from '@/content/product-pages/en/find-objects-worksheets';
 
 interface PageProps {
   params: {
@@ -366,6 +367,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Grid Drawing Worksheets | LessonCraftStudio',
         description: 'Create professional grid drawing coloring worksheets with our specialized worksheet generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/draw-and-color-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Find Objects Worksheets product page SEO
+  if (params.slug === 'find-objects-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Kindergarten Worksheets | Find Objects Worksheet Generator for First Grade',
+      description: 'Create professional find objects worksheets with our visual discrimination worksheet generator. Generate custom printable I Spy and Odd One Out worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'find objects worksheets, I Spy worksheets, odd one out worksheets, visual discrimination worksheets, kindergarten worksheets, printable worksheets, first grade worksheets, hidden objects worksheets, attention worksheets, visual perception worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/find-objects-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Find Objects Worksheets | LessonCraftStudio',
+        description: 'Create professional find objects worksheets with our visual discrimination worksheet generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/find-objects-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3443,6 +3467,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={drawAndColorEnContent} />;
   }
 
+  if (slug === 'find-objects-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={findObjectsEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3578,6 +3606,7 @@ export async function generateStaticParams() {
     'chart-count-worksheets', // Product page slug
     'code-addition-worksheets', // Product page slug
     'draw-and-color-worksheets', // Product page slug
+    'find-objects-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

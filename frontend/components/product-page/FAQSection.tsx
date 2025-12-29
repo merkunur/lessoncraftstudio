@@ -76,11 +76,11 @@ export default function FAQSection({
   };
 
   return (
-    <section className="py-24 bg-gradient-to-b from-slate-50 to-white relative overflow-hidden">
+    <section className="py-24 bg-gradient-to-b from-stone-50 to-white relative overflow-hidden">
       {/* Background decorations */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/3 -left-20 w-80 h-80 bg-indigo-100/30 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/3 -right-20 w-96 h-96 bg-purple-100/20 rounded-full blur-3xl" />
+        <div className="absolute top-1/3 -left-20 w-80 h-80 bg-amber-100/20 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/3 -right-20 w-96 h-96 bg-stone-200/20 rounded-full blur-3xl" />
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
@@ -96,7 +96,7 @@ export default function FAQSection({
             initial={{ opacity: 0, scale: 0.9 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-50 border border-indigo-100 text-sm font-medium text-indigo-700 mb-6"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-100/60 border border-amber-200/60 text-sm font-medium text-amber-800 mb-6"
           >
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -105,14 +105,14 @@ export default function FAQSection({
           </motion.div>
 
           <h2
-            className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-6"
-            style={{ fontFamily: "'Plus Jakarta Sans', system-ui, sans-serif" }}
+            className="text-3xl sm:text-4xl lg:text-5xl font-bold text-stone-800 mb-6"
+            style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
           >
             {sectionTitle}
           </h2>
 
           {sectionDescription && (
-            <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+            <p className="text-lg text-stone-600 max-w-2xl mx-auto">
               {sectionDescription}
             </p>
           )}
@@ -142,8 +142,8 @@ export default function FAQSection({
                     <div
                       className={`bg-white rounded-xl border transition-all duration-300 ${
                         openId === faq.id
-                          ? 'border-indigo-200 shadow-lg shadow-indigo-100/50'
-                          : 'border-slate-200 hover:border-slate-300 hover:shadow-md'
+                          ? 'border-amber-200 shadow-lg shadow-amber-100/30'
+                          : 'border-stone-200/60 hover:border-stone-300 hover:shadow-md'
                       }`}
                     >
                       <button
@@ -152,9 +152,9 @@ export default function FAQSection({
                       >
                         <span
                           className={`font-semibold pr-4 transition-colors ${
-                            openId === faq.id ? 'text-indigo-700' : 'text-slate-900'
+                            openId === faq.id ? 'text-amber-800' : 'text-stone-800'
                           }`}
-                          style={{ fontFamily: "'Plus Jakarta Sans', system-ui, sans-serif" }}
+                          style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
                         >
                           {faq.question}
                         </span>
@@ -163,8 +163,8 @@ export default function FAQSection({
                           transition={{ duration: 0.3 }}
                           className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-colors ${
                             openId === faq.id
-                              ? 'bg-indigo-100 text-indigo-600'
-                              : 'bg-slate-100 text-slate-500 group-hover:bg-slate-200'
+                              ? 'bg-amber-100 text-amber-700'
+                              : 'bg-stone-100 text-stone-500 group-hover:bg-stone-200'
                           }`}
                         >
                           <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -183,8 +183,8 @@ export default function FAQSection({
                             className="overflow-hidden"
                           >
                             <div className="px-6 pb-5 pt-0">
-                              <div className="h-px bg-slate-100 mb-4" />
-                              <p className="text-slate-600 leading-relaxed">
+                              <div className="h-px bg-stone-100 mb-4" />
+                              <p className="text-stone-600 leading-relaxed">
                                 {faq.answer}
                               </p>
                             </div>
@@ -207,7 +207,7 @@ export default function FAQSection({
               >
                 <button
                   onClick={() => setShowAll(!showAll)}
-                  className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium text-indigo-600 bg-indigo-50 rounded-full hover:bg-indigo-100 transition-colors"
+                  className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-medium text-amber-700 bg-amber-50 rounded-full hover:bg-amber-100 transition-colors"
                 >
                   {showAll ? showLessText : showMoreText}
                   <motion.svg
@@ -233,22 +233,22 @@ export default function FAQSection({
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <div className="sticky top-8">
-              <div className="relative bg-white rounded-2xl shadow-xl shadow-slate-200/60 border border-slate-100 overflow-hidden">
+              <div className="relative bg-white rounded-2xl shadow-xl shadow-stone-200/40 border border-stone-200/60 overflow-hidden">
                 {/* Gradient header */}
-                <div className="bg-gradient-to-r from-indigo-600 via-purple-600 to-indigo-700 px-6 py-8 text-center">
-                  <p className="text-indigo-200 text-sm font-medium mb-2">
+                <div className="bg-gradient-to-r from-stone-800 via-stone-700 to-stone-800 px-6 py-8 text-center">
+                  <p className="text-stone-300 text-sm font-medium mb-2">
                     {pricingTitle}
                   </p>
                   <div className="flex items-baseline justify-center gap-1">
                     <span
                       className="text-5xl font-bold text-white"
-                      style={{ fontFamily: "'Plus Jakarta Sans', system-ui, sans-serif" }}
+                      style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
                     >
                       {price}
                     </span>
-                    <span className="text-xl text-indigo-200">{priceInterval}</span>
+                    <span className="text-xl text-stone-300">{priceInterval}</span>
                   </div>
-                  <p className="text-indigo-200 text-sm mt-2">{priceSuffix}</p>
+                  <p className="text-stone-400 text-sm mt-2">{priceSuffix}</p>
                 </div>
 
                 {/* Benefits list */}
@@ -268,7 +268,7 @@ export default function FAQSection({
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                           </svg>
                         </div>
-                        <span className="text-slate-700">{benefit}</span>
+                        <span className="text-stone-700">{benefit}</span>
                       </motion.li>
                     ))}
                   </ul>
@@ -278,7 +278,7 @@ export default function FAQSection({
                 <div className="px-6 pb-6">
                   <Link
                     href={ctaHref || `/${locale}/auth/signup`}
-                    className="group w-full inline-flex items-center justify-center gap-2 px-6 py-4 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-xl shadow-lg shadow-indigo-300/50 hover:shadow-xl hover:shadow-indigo-400/50 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
+                    className="group w-full inline-flex items-center justify-center gap-2 px-6 py-4 bg-stone-800 text-white font-semibold rounded-xl shadow-lg shadow-stone-300/40 hover:bg-stone-900 hover:shadow-xl active:scale-[0.98] transition-all duration-300"
                   >
                     {ctaText}
                     <svg
@@ -307,14 +307,14 @@ export default function FAQSection({
               </div>
 
               {/* Trust indicators */}
-              <div className="mt-6 flex items-center justify-center gap-4 text-sm text-slate-500">
+              <div className="mt-6 flex items-center justify-center gap-4 text-sm text-stone-500">
                 <span className="flex items-center gap-1">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                   </svg>
                   Secure checkout
                 </span>
-                <span className="w-1 h-1 rounded-full bg-slate-300" />
+                <span className="w-1 h-1 rounded-full bg-stone-300" />
                 <span className="flex items-center gap-1">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />

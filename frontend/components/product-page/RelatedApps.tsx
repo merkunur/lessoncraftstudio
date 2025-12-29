@@ -134,7 +134,7 @@ export default function RelatedApps({
               return (
                 <motion.div key={app.id} variants={cardVariants}>
                   <Link
-                    href={`/${locale}/apps/${app.slug}`}
+                    href={`/${locale}/apps`}
                     className="group block h-full"
                   >
                     <div className="relative h-full bg-white rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-xl hover:shadow-slate-200/60 hover:border-indigo-200 transition-all duration-300 hover:-translate-y-1">
@@ -165,8 +165,8 @@ export default function RelatedApps({
                       </p>
 
                       {/* Arrow indicator */}
-                      <div className="mt-4 flex items-center text-sm font-medium text-indigo-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                        <span>Learn more</span>
+                      <div className="mt-4 flex items-center text-sm font-medium text-amber-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <span>Explore all apps</span>
                         <svg
                           className="w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform"
                           fill="none"
@@ -206,7 +206,7 @@ export default function RelatedApps({
                     className="flex-shrink-0 w-72 snap-center"
                   >
                     <Link
-                      href={`/${locale}/apps/${app.slug}`}
+                      href={`/${locale}/apps`}
                       className="group block h-full"
                     >
                       <div className="h-full bg-white rounded-2xl p-5 border border-slate-200 shadow-sm">

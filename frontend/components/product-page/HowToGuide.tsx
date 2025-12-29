@@ -53,11 +53,11 @@ export default function HowToGuide({
   };
 
   return (
-    <section className="py-24 bg-gradient-to-b from-slate-50 to-white relative overflow-hidden">
+    <section className="py-24 bg-gradient-to-b from-stone-50 to-white relative overflow-hidden">
       {/* Background decorations */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute top-1/4 -left-20 w-80 h-80 bg-blue-100/40 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-indigo-100/30 rounded-full blur-3xl" />
+        <div className="absolute top-1/4 -left-20 w-80 h-80 bg-amber-100/30 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-stone-200/30 rounded-full blur-3xl" />
       </div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative" ref={containerRef}>
@@ -82,14 +82,14 @@ export default function HowToGuide({
           </motion.div>
 
           <h2
-            className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 mb-6"
-            style={{ fontFamily: "'Plus Jakarta Sans', system-ui, sans-serif" }}
+            className="text-3xl sm:text-4xl lg:text-5xl font-bold text-stone-800 mb-6"
+            style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
           >
             {sectionTitle}
           </h2>
 
           {sectionDescription && (
-            <p className="text-lg sm:text-xl text-slate-600 max-w-2xl mx-auto">
+            <p className="text-lg sm:text-xl text-stone-600 max-w-2xl mx-auto">
               {sectionDescription}
             </p>
           )}
@@ -99,18 +99,18 @@ export default function HowToGuide({
         <div className="relative">
           {/* Central timeline line - desktop only */}
           <div className="hidden lg:block absolute left-1/2 top-0 bottom-0 w-px -translate-x-1/2">
-            <div className="absolute inset-0 bg-gradient-to-b from-slate-200 via-slate-200 to-slate-200" />
+            <div className="absolute inset-0 bg-gradient-to-b from-stone-200 via-stone-200 to-stone-200" />
             <motion.div
-              className="absolute top-0 left-0 right-0 bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 origin-top"
+              className="absolute top-0 left-0 right-0 bg-gradient-to-b from-amber-500 via-amber-600 to-emerald-500 origin-top"
               style={{ height: lineHeight }}
             />
           </div>
 
           {/* Mobile timeline line */}
           <div className="lg:hidden absolute left-8 top-0 bottom-0 w-px">
-            <div className="absolute inset-0 bg-gradient-to-b from-slate-200 via-slate-200 to-slate-200" />
+            <div className="absolute inset-0 bg-gradient-to-b from-stone-200 via-stone-200 to-stone-200" />
             <motion.div
-              className="absolute top-0 left-0 right-0 bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 origin-top"
+              className="absolute top-0 left-0 right-0 bg-gradient-to-b from-amber-500 via-amber-600 to-emerald-500 origin-top"
               style={{ height: lineHeight }}
             />
           </div>
@@ -136,7 +136,7 @@ export default function HowToGuide({
                   {/* Step number circle - Mobile */}
                   <div className="lg:hidden flex-shrink-0 relative z-10">
                     <motion.div
-                      className="w-16 h-16 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-indigo-300/50"
+                      className="w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-amber-200/50"
                       whileHover={{ scale: 1.1, rotate: 5 }}
                     >
                       {step.number}
@@ -146,13 +146,13 @@ export default function HowToGuide({
                   {/* Content card */}
                   <div className={`flex-1 lg:w-[calc(50%-60px)] ${isEven ? 'lg:pr-16' : 'lg:pl-16'}`}>
                     <motion.div
-                      className="group relative bg-white rounded-2xl p-6 sm:p-8 shadow-lg shadow-slate-100/80 border border-slate-100 hover:shadow-xl hover:shadow-indigo-100/50 hover:border-indigo-100 transition-all duration-300"
+                      className="group relative bg-white rounded-2xl p-6 sm:p-8 shadow-lg shadow-stone-100/60 border border-stone-200/60 hover:shadow-xl hover:border-amber-200/60 transition-all duration-300"
                       whileHover={{ y: -5 }}
                     >
                       {/* Icon badge */}
                       <div className="absolute -top-4 right-6">
                         <motion.div
-                          className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center text-2xl shadow-lg shadow-orange-200/50"
+                          className="w-12 h-12 rounded-xl bg-gradient-to-br from-amber-400 to-amber-500 flex items-center justify-center text-2xl shadow-lg shadow-amber-200/50"
                           whileHover={{ scale: 1.15, rotate: 10 }}
                         >
                           {icon}
@@ -160,26 +160,26 @@ export default function HowToGuide({
                       </div>
 
                       {/* Step label */}
-                      <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 text-xs font-semibold text-slate-600 mb-4">
+                      <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-stone-100 text-xs font-semibold text-stone-600 mb-4">
                         Step {step.number}
                       </div>
 
                       {/* Title */}
                       <h3
-                        className="text-xl sm:text-2xl font-bold text-slate-900 mb-3 group-hover:text-indigo-700 transition-colors"
-                        style={{ fontFamily: "'Plus Jakarta Sans', system-ui, sans-serif" }}
+                        className="text-xl sm:text-2xl font-bold text-stone-800 mb-3 group-hover:text-amber-700 transition-colors"
+                        style={{ fontFamily: "'Cormorant Garamond', Georgia, serif" }}
                       >
                         {step.title}
                       </h3>
 
                       {/* Description */}
-                      <p className="text-slate-600 leading-relaxed">
+                      <p className="text-stone-600 leading-relaxed">
                         {step.description}
                       </p>
 
                       {/* Decorative arrow pointing to timeline - Desktop only */}
                       <div
-                        className={`hidden lg:block absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-white border-t border-r border-slate-100 ${
+                        className={`hidden lg:block absolute top-1/2 -translate-y-1/2 w-4 h-4 bg-white border-t border-r border-stone-200/60 ${
                           isEven
                             ? 'right-0 translate-x-1/2 rotate-45'
                             : 'left-0 -translate-x-1/2 -rotate-[135deg]'
@@ -191,7 +191,7 @@ export default function HowToGuide({
                   {/* Center step indicator - Desktop only */}
                   <div className="hidden lg:flex absolute left-1/2 -translate-x-1/2 z-10">
                     <motion.div
-                      className="w-14 h-14 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white font-bold text-lg shadow-xl shadow-indigo-300/50 ring-4 ring-white"
+                      className="w-14 h-14 rounded-full bg-gradient-to-br from-amber-500 to-amber-600 flex items-center justify-center text-white font-bold text-lg shadow-xl shadow-amber-200/50 ring-4 ring-white"
                       whileHover={{ scale: 1.2 }}
                       transition={{ type: 'spring', stiffness: 400, damping: 17 }}
                     >
@@ -215,7 +215,7 @@ export default function HowToGuide({
             >
               {/* Mobile position */}
               <div className="lg:hidden absolute left-8 -translate-x-1/2 z-10">
-                <div className="w-8 h-8 rounded-full bg-gradient-to-br from-emerald-400 to-teal-500 flex items-center justify-center shadow-lg shadow-emerald-200/50">
+                <div className="w-8 h-8 rounded-full bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center shadow-lg shadow-emerald-200/50">
                   <svg className="w-4 h-4 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                   </svg>
@@ -225,7 +225,7 @@ export default function HowToGuide({
               {/* Desktop position */}
               <div className="hidden lg:flex absolute left-1/2 -translate-x-1/2 z-10">
                 <motion.div
-                  className="w-16 h-16 rounded-full bg-gradient-to-br from-emerald-400 to-teal-500 flex items-center justify-center shadow-xl shadow-emerald-300/50 ring-4 ring-white"
+                  className="w-16 h-16 rounded-full bg-gradient-to-br from-emerald-500 to-emerald-600 flex items-center justify-center shadow-xl shadow-emerald-200/50 ring-4 ring-white"
                   whileHover={{ scale: 1.1 }}
                 >
                   <svg className="w-8 h-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -237,7 +237,7 @@ export default function HowToGuide({
               {/* Completion message */}
               <div className="ml-20 lg:ml-0 lg:mt-8 text-center">
                 <p className="text-lg font-semibold text-emerald-600 mb-1">Done!</p>
-                <p className="text-sm text-slate-500">Your worksheet is ready</p>
+                <p className="text-sm text-stone-500">Your worksheet is ready</p>
               </div>
             </motion.div>
           </div>
@@ -251,7 +251,7 @@ export default function HowToGuide({
           viewport={{ once: true }}
           transition={{ delay: 0.3 }}
         >
-          <div className="inline-flex flex-col sm:flex-row items-center gap-4 p-6 rounded-2xl bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 border border-indigo-100">
+          <div className="inline-flex flex-col sm:flex-row items-center gap-4 p-6 rounded-2xl bg-gradient-to-r from-amber-50 via-stone-50 to-amber-50 border border-amber-100/60">
             <div className="flex items-center gap-3">
               <div className="flex -space-x-2">
                 {['⏱️', '💡', '🎯'].map((emoji, i) => (
@@ -264,16 +264,16 @@ export default function HowToGuide({
                 ))}
               </div>
               <div className="text-left">
-                <p className="text-sm font-semibold text-slate-900">Ready in under 3 minutes</p>
-                <p className="text-xs text-slate-500">No design skills needed</p>
+                <p className="text-sm font-semibold text-stone-800">Ready in under 3 minutes</p>
+                <p className="text-xs text-stone-500">No design skills needed</p>
               </div>
             </div>
 
-            <div className="w-px h-10 bg-slate-200 hidden sm:block" />
+            <div className="w-px h-10 bg-stone-200 hidden sm:block" />
 
             <Link
               href={ctaHref || `/${locale}/auth/signup`}
-              className="group inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-semibold rounded-xl shadow-lg shadow-indigo-300/50 hover:shadow-xl hover:shadow-indigo-400/50 hover:scale-[1.02] active:scale-[0.98] transition-all duration-300"
+              className="group inline-flex items-center gap-2 px-6 py-3 bg-stone-800 text-white font-semibold rounded-xl shadow-lg shadow-stone-300/40 hover:bg-stone-900 hover:shadow-xl active:scale-[0.98] transition-all duration-300"
             >
               {ctaText}
               <svg

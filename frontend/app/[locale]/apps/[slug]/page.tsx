@@ -8,6 +8,7 @@ import alphabetTrainEnContent from '@/content/product-pages/en/alphabet-train-wo
 import coloringEnContent from '@/content/product-pages/en/coloring-worksheets';
 import mathWorksheetsEnContent from '@/content/product-pages/en/math-worksheets';
 import wordScrambleEnContent from '@/content/product-pages/en/word-scramble-worksheets';
+import findAndCountEnContent from '@/content/product-pages/en/find-and-count-worksheets';
 
 interface PageProps {
   params: {
@@ -150,6 +151,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Word Scramble Worksheets | LessonCraftStudio',
         description: 'Create professional word scramble worksheets with our word scramble generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/word-scramble-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Find and Count Worksheets product page SEO
+  if (params.slug === 'find-and-count-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Kindergarten Worksheets | Find and Count I Spy Worksheet Generator',
+      description: 'Create professional find and count worksheets with our I Spy worksheet generator. Generate custom printable kindergarten worksheets perfect for visual discrimination and counting practice. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'find and count worksheets, I Spy worksheets, kindergarten worksheets, printable worksheets, counting worksheets, free worksheets, first grade worksheets, visual discrimination, math worksheets, hidden objects worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/find-and-count-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Find and Count Worksheets | LessonCraftStudio',
+        description: 'Create professional find and count I Spy worksheets with our worksheet generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/find-and-count-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3191,6 +3215,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={wordScrambleEnContent} />;
   }
 
+  if (slug === 'find-and-count-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={findAndCountEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3316,6 +3344,8 @@ export async function generateStaticParams() {
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug
+    'word-scramble-worksheets', // Product page slug
+    'find-and-count-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

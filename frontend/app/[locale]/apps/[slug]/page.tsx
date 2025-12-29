@@ -11,6 +11,7 @@ import wordScrambleEnContent from '@/content/product-pages/en/word-scramble-work
 import findAndCountEnContent from '@/content/product-pages/en/find-and-count-worksheets';
 import matchingEnContent from '@/content/product-pages/en/matching-worksheets';
 import drawingLinesEnContent from '@/content/product-pages/en/drawing-lines-worksheets';
+import pictureBingoEnContent from '@/content/product-pages/en/picture-bingo-worksheets';
 
 interface PageProps {
   params: {
@@ -222,6 +223,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Drawing Lines Worksheets | LessonCraftStudio',
         description: 'Create professional drawing lines worksheets for fine motor skills development. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/drawing-lines-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Picture Bingo Worksheets product page SEO
+  if (params.slug === 'picture-bingo-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Kindergarten Bingo Cards | Picture Bingo Worksheet Generator',
+      description: 'Create professional picture bingo cards with our bingo worksheet generator. Generate custom printable bingo cards perfect for kindergarten and first grade classrooms. Download high-quality PDF and JPEG bingo worksheets in under 3 minutes.',
+      keywords: 'bingo worksheets, picture bingo, kindergarten worksheets, printable bingo cards, bingo card generator, free worksheets, first grade worksheets, classroom bingo, educational games, bingo printables',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/picture-bingo-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Kindergarten Bingo Cards | LessonCraftStudio',
+        description: 'Create professional picture bingo cards with our bingo worksheet generator. Perfect for kindergarten and first grade classrooms.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/picture-bingo-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3275,6 +3299,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={drawingLinesEnContent} />;
   }
 
+  if (slug === 'picture-bingo-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={pictureBingoEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3404,6 +3432,7 @@ export async function generateStaticParams() {
     'find-and-count-worksheets', // Product page slug
     'matching-worksheets', // Product page slug
     'drawing-lines-worksheets', // Product page slug
+    'picture-bingo-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

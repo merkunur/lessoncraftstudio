@@ -1,14 +1,159 @@
 # Product Page Design & Implementation Guide
 
-## 5 UNBREAKABLE RULES
+---
+
+## 🚨🚨🚨 STOP! DEPLOYMENT IS MANDATORY - NOT OPTIONAL 🚨🚨🚨
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   THE TASK IS NOT COMPLETE UNTIL THE PAGE IS LIVE ON PRODUCTION                   ║
+║                                                                                   ║
+║   Creating files locally and verifying "npm run build" passes is NOT enough!     ║
+║                                                                                   ║
+║   YOU MUST:                                                                       ║
+║   1. git commit && git push                                                       ║
+║   2. Deploy to server (git pull, npm run build, pm2 restart)                     ║
+║   3. Copy samples to standalone directory on server                              ║
+║   4. Verify LIVE URL returns HTTP 200:                                           ║
+║      curl https://www.lessoncraftstudio.com/en/apps/{app-slug}                   ║
+║                                                                                   ║
+║   ❌ "Build passed locally" = NOT DONE                                            ║
+║   ❌ "Files created" = NOT DONE                                                   ║
+║   ❌ "Committed to git" = NOT DONE                                                ║
+║   ✅ "Live URL returns 200" = DONE                                                ║
+║                                                                                   ║
+║   IF YOU SAY "DONE" BEFORE VERIFYING THE LIVE URL, YOU ARE WRONG.                ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+### Complete Deployment Commands (COPY-PASTE READY)
+
+```bash
+# Step 1: Commit and push
+git add frontend/content/product-pages/en/{app-slug}.ts
+git add "frontend/public/samples/english/{app-name}/"
+git add frontend/app/[locale]/apps/[slug]/page.tsx
+git commit -m "feat: Add {App Name} product page (English)"
+git push origin main
+
+# Step 2: Deploy to server
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
+
+# Step 3: Copy samples to standalone (CRITICAL - samples won't load without this!)
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "cp -r '/opt/lessoncraftstudio/frontend/public/samples/english/{app-name}' '/opt/lessoncraftstudio/frontend/.next/standalone/public/samples/english/' && pm2 restart lessoncraftstudio"
+
+# Step 4: VERIFY LIVE URL (MUST return 200!)
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "curl -s -o /dev/null -w '%{http_code}' 'https://www.lessoncraftstudio.com/en/apps/{app-slug}'"
+# Expected output: 200
+
+# Step 5: VERIFY SAMPLE IMAGE (MUST return 200!)
+"C:\Program Files\PuTTY\plink.exe" -batch -pw JfmiPF_QW4_Nhm -hostkey "SHA256:zGvE6IIIBmoCYDkeCqseB4CHA9Uxdl0d1Wh31QAY1jU" root@65.108.5.250 "curl -s -o /dev/null -w '%{http_code}' 'https://www.lessoncraftstudio.com/samples/english/{app-name}/{filename}.jpeg'"
+# Expected output: 200
+```
+
+**ONLY AFTER BOTH CURL COMMANDS RETURN 200, THE TASK IS COMPLETE.**
+
+---
+
+## ⚠️⚠️⚠️ CRITICAL: COLLAPSIBLE TEXT - READ THIS FIRST ⚠️⚠️⚠️
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   ALL LONG TEXT SECTIONS MUST BE COLLAPSIBLE WITH ONLY 3 SENTENCES SHOWN         ║
+║                                                                                   ║
+║   This applies to:                                                                ║
+║   • Hero description                                                              ║
+║   • Feature descriptions                                                          ║
+║   • Use case descriptions                                                         ║
+║   • How-to step descriptions                                                      ║
+║   • FAQ answers                                                                   ║
+║   • ANY text longer than 3 sentences                                              ║
+║                                                                                   ║
+║   DEFAULT STATE = COLLAPSED (showing only 3 sentences)                            ║
+║   User clicks "Read more" to expand                                               ║
+║                                                                                   ║
+║   ❌ WRONG: useState(true)   - Shows all text                                     ║
+║   ✅ RIGHT: useState(false)  - Shows only 3 sentences                             ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+**THE COMPONENTS ALREADY HANDLE THIS AUTOMATICALLY.**
+**YOU JUST PUT THE FULL TEXT IN THE CONTENT FILE.**
+**THE COMPONENT WILL COLLAPSE IT TO 3 SENTENCES BY DEFAULT.**
+
+**DO NOT:**
+- Manually truncate text in the content file
+- Worry about text length - components handle display
+- Set any expansion state - default is collapsed
+
+---
+
+## 7 UNBREAKABLE RULES
 
 | # | Rule | Why It Matters |
 |---|------|----------------|
-| 1 | NO FAKE STATS | Never invent user counts, ratings, or numbers |
-| 2 | NO APP LINKS | Links go to `/signup`, `/apps`, `/pricing`, or homepage ONLY |
-| 3 | FULL TEXT | Use 100% of .md content - never truncate or summarize |
-| 4 | REAL SAMPLES | Only use actual files from `samples/` folder - VERIFY THEY EXIST |
-| 5 | FREE PDF | Direct download link, no login required |
+| 1 | **🚨 DEPLOY TO PRODUCTION** | Task is NOT complete until live URL returns HTTP 200 - local build is NOT enough! |
+| 2 | **3 SENTENCES DEFAULT** | ALL long text shows only 3 sentences initially - components handle this automatically |
+| 3 | NO FAKE STATS | Never invent user counts, ratings, or numbers |
+| 4 | NO APP LINKS | Links go to `/signup`, `/apps`, `/pricing`, or homepage ONLY |
+| 5 | FULL TEXT | Use 100% of .md content in content file - components will collapse it |
+| 6 | REAL SAMPLES | Only use actual files from `samples/` folder - VERIFY THEY EXIST |
+| 7 | FREE PDF | Direct download link, no login required |
+
+---
+
+## ⚠️ COLLAPSIBLE TEXT - DETAILED EXPLANATION ⚠️
+
+### What Gets Collapsed (3 sentences shown by default)
+
+| Component | Field | Collapsed? |
+|-----------|-------|------------|
+| HeroSection | `description` | ✅ YES - 3 sentences |
+| FeaturesGrid | `feature.description` | ✅ YES - 3 sentences |
+| UseCases | `useCase.description` | ✅ YES - 3 sentences |
+| HowToGuide | `step.description` | ✅ YES - 3 sentences |
+| FAQSection | `item.answer` | ✅ YES - 3 sentences |
+
+### How It Works
+
+The React components handle collapsing automatically:
+
+```tsx
+// INSIDE THE COMPONENT (already implemented)
+const [isExpanded, setIsExpanded] = useState(false); // DEFAULT = COLLAPSED
+
+const sentences = text.split(/(?<=[.!?])\s+/);
+const maxSentences = 3;
+const displayText = isExpanded ? text : sentences.slice(0, maxSentences).join(' ');
+const needsToggle = sentences.length > maxSentences;
+
+return (
+  <>
+    <p>{displayText}{!isExpanded && needsToggle && '...'}</p>
+    {needsToggle && (
+      <button onClick={() => setIsExpanded(!isExpanded)}>
+        {isExpanded ? 'Show less' : 'Read more'}
+      </button>
+    )}
+  </>
+);
+```
+
+### Your Job (Content File)
+
+Just put the FULL text. Don't truncate. Don't summarize.
+
+```typescript
+// CORRECT - Put full text, component handles display
+description: `First sentence here. Second sentence here. Third sentence here. Fourth sentence here. Fifth sentence here. Sixth sentence here.`,
+
+// WRONG - Don't manually truncate
+description: `First sentence... [truncated]`,
+```
 
 ---
 
@@ -63,16 +208,57 @@ lessoncraftstudio/
 
 ---
 
+## 🚨🚨🚨 WHERE TO FIND SAMPLE FILES - READ THIS CAREFULLY 🚨🚨🚨
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   SAMPLES ARE IN THE ROOT "samples" FOLDER, NOT frontend/public/samples!          ║
+║                                                                                   ║
+║   MASTER LOCATION (source of truth):                                              ║
+║   lessoncraftstudio/samples/english/{app-name}/                                   ║
+║                                                                                   ║
+║   Example paths:                                                                  ║
+║   • samples/english/bingo/image and image.jpeg                                    ║
+║   • samples/english/addition/addition_worksheet portrait.jpeg                     ║
+║   • samples/english/wordsearch/wordsearch portrait.jpeg                           ║
+║                                                                                   ║
+║   HOW TO FIND SAMPLES:                                                            ║
+║   1. List all app folders:                                                        ║
+║      powershell -Command "Get-ChildItem -Path 'samples' -Recurse -Directory"      ║
+║                                                                                   ║
+║   2. Search for specific app:                                                     ║
+║      Glob: samples/english/{app-name}/**/*                                        ║
+║                                                                                   ║
+║   3. List contents of an app folder:                                              ║
+║      Glob: samples/english/bingo/**/*                                             ║
+║                                                                                   ║
+║   DO NOT:                                                                         ║
+║   • Search in frontend/public/samples (these are COPIES, not source)              ║
+║   • Use 'dir' or 'findstr' (use Glob tool or PowerShell instead)                  ║
+║   • Assume samples don't exist without checking the root samples folder           ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
 ## STEP-BY-STEP: CREATING A NEW PRODUCT PAGE
 
 ### Step 1: Verify Sample Files Exist
 ```bash
-# Check if samples exist in the master samples folder
-ls -la samples/english/{app-name}/
+# CORRECT: Check if samples exist in the ROOT samples folder (master location)
+Glob: samples/english/{app-name}/**/*
 
-# Example:
-ls -la samples/english/wordsearch/
+# OR using PowerShell:
+powershell -Command "Get-ChildItem -Path 'samples/english/{app-name}' -Recurse"
+
+# Examples:
+Glob: samples/english/bingo/**/*
+Glob: samples/english/addition/**/*
 ```
+
+**IMPORTANT:** Always use Glob tool or PowerShell. Do not use `dir` or `findstr` as they often fail with special characters.
 
 **If samples don't exist, CREATE THEM FIRST before proceeding.**
 
@@ -93,19 +279,38 @@ Create file at: `frontend/content/product-pages/en/{app-slug}.ts`
 import { ProductPageContent } from '@/components/product-page/ProductPageClient';
 
 export const appNameEnContent: ProductPageContent = {
-  hero: { ... },
+  hero: {
+    title: 'Page Title',
+    subtitle: 'Subtitle here',
+    // ⚠️ PUT FULL TEXT - Component will show only 3 sentences by default
+    description: `Full paragraph 1. Full paragraph 2. Full paragraph 3. Full paragraph 4...`,
+    previewImageSrc: '/samples/english/{app-name}/filename.jpeg',
+    // ...
+  },
   samples: {
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/{app-name}/filename.jpeg',  // Must match actual filename!
+        worksheetSrc: '/samples/english/{app-name}/filename.jpeg',
         answerKeySrc: '/samples/english/{app-name}/filename answer_key.jpeg',
         altText: 'Description',
         pdfDownloadUrl: '/samples/english/{app-name}/filename.pdf',
       },
     ],
   },
-  // ... rest of content
+  features: {
+    items: [
+      {
+        id: '1',
+        icon: '⚡',
+        title: 'Feature Title',
+        // ⚠️ PUT FULL TEXT - Component will show only 3 sentences by default
+        description: 'Full feature description with many sentences...',
+        highlighted: false,
+      },
+    ],
+  },
+  // ... rest of content - ALL LONG TEXT WILL BE COLLAPSED AUTOMATICALLY
 };
 
 export default appNameEnContent;
@@ -173,6 +378,10 @@ curl -s -I 'https://www.lessoncraftstudio.com/samples/english/{app-name}/filenam
 
 Before saying "done", verify ALL of these:
 
+### ⚠️ Text Display (MOST IMPORTANT)
+- [ ] **All long text in content file is FULL text (not truncated)**
+- [ ] **Components will auto-collapse to 3 sentences - you don't do anything**
+
 ### Sample Files
 - [ ] Sample files exist in `samples/english/{app}/` (master location)
 - [ ] Sample files copied to `frontend/public/samples/english/{app}/`
@@ -193,24 +402,44 @@ Before saying "done", verify ALL of these:
 
 ## CRITICAL DESIGN MISTAKES TO AVOID
 
-### 1. Collapsible Text - DEFAULT TO COLLAPSED
+### 1. ⚠️⚠️⚠️ COLLAPSIBLE TEXT - DEFAULT TO COLLAPSED ⚠️⚠️⚠️
 
-**WRONG:**
-```tsx
-const [isExpanded, setIsExpanded] = useState(true);  // Shows everything
+**THIS IS THE #1 MOST COMMON MISTAKE**
+
+```
+┌─────────────────────────────────────────────────────────────────────┐
+│                                                                     │
+│   The components ALREADY handle collapsing.                         │
+│   You just put FULL TEXT in the content file.                       │
+│   The component shows 3 sentences by default.                       │
+│   User clicks "Read more" to see the rest.                          │
+│                                                                     │
+│   YOU DO NOT NEED TO:                                               │
+│   • Truncate text manually                                          │
+│   • Set any state                                                   │
+│   • Add "Read more" buttons                                         │
+│   • Split text into sentences                                       │
+│                                                                     │
+│   JUST PUT THE FULL TEXT. THAT'S IT.                                │
+│                                                                     │
+└─────────────────────────────────────────────────────────────────────┘
 ```
 
-**CORRECT:**
-```tsx
-const [isExpanded, setIsExpanded] = useState(false); // Collapsed by default
+**Components that auto-collapse:**
+- `HeroSection.tsx` - hero.description
+- `FeaturesGrid.tsx` - feature.description
+- `UseCases.tsx` - useCase.description
+- `HowToGuide.tsx` - step.description
+- `FAQSection.tsx` - faq.answer
 
-// Split by sentences, show only 3
+**How it's implemented in components:**
+```tsx
+const [isExpanded, setIsExpanded] = useState(false); // COLLAPSED by default
+
 const sentences = text.split(/(?<=[.!?])\s+/);
 const maxSentences = 3;
 const displayText = isExpanded ? text : sentences.slice(0, maxSentences).join(' ');
 ```
-
-**Rule:** Long text sections MUST show only 3 sentences by default with "Read more" toggle.
 
 ---
 
@@ -324,7 +553,7 @@ plink ... "pm2 restart lessoncraftstudio"
 ## COMPONENT CHECKLIST
 
 ### HeroSection.tsx
-- [ ] Description text collapsed by default (3 sentences max)
+- [ ] ⚠️ Description text collapsed by default (3 sentences max) - **AUTOMATIC**
 - [ ] "Read more" toggle works
 - [ ] No fake user counts or stats
 - [ ] Design is distinctive (not generic corporate)
@@ -336,11 +565,19 @@ plink ... "pm2 restart lessoncraftstudio"
 - [ ] Descriptive filenames generated from altText
 
 ### FeaturesGrid.tsx
-- [ ] Long descriptions collapsed (3 sentences default)
+- [ ] ⚠️ Long descriptions collapsed (3 sentences default) - **AUTOMATIC**
 - [ ] "Read more" / "Show less" toggles work
 
 ### UseCases.tsx
-- [ ] Long descriptions collapsed (3 sentences default)
+- [ ] ⚠️ Long descriptions collapsed (3 sentences default) - **AUTOMATIC**
+- [ ] "Read more" / "Show less" toggles work
+
+### HowToGuide.tsx
+- [ ] ⚠️ Long descriptions collapsed (3 sentences default) - **AUTOMATIC**
+- [ ] "Read more" / "Show less" toggles work
+
+### FAQSection.tsx
+- [ ] ⚠️ Long answers collapsed (3 sentences default) - **AUTOMATIC**
 - [ ] "Read more" / "Show less" toggles work
 
 ### RelatedApps.tsx
@@ -354,9 +591,11 @@ plink ... "pm2 restart lessoncraftstudio"
 
 | Component | Collapsed Default | Links Allowed | Download Location |
 |-----------|------------------|---------------|-------------------|
-| HeroSection | 3 sentences | N/A | N/A |
-| FeaturesGrid | 3 sentences | N/A | N/A |
-| UseCases | 3 sentences | N/A | N/A |
+| HeroSection | ⚠️ 3 sentences (AUTO) | N/A | N/A |
+| FeaturesGrid | ⚠️ 3 sentences (AUTO) | N/A | N/A |
+| UseCases | ⚠️ 3 sentences (AUTO) | N/A | N/A |
+| HowToGuide | ⚠️ 3 sentences (AUTO) | N/A | N/A |
+| FAQSection | ⚠️ 3 sentences (AUTO) | N/A | N/A |
 | SampleGallery | N/A | N/A | ON thumbnail |
 | RelatedApps | N/A | `/apps`, `/signup` only | N/A |
 
@@ -372,3 +611,30 @@ plink ... "pm2 restart lessoncraftstudio"
 | Wrong sample filename | 404 errors | Match exact filename including spaces |
 | Forgot pm2 restart | Old content shows | `pm2 restart lessoncraftstudio` |
 | Middleware blocking PDFs | PDF returns HTML | Add `samples` to middleware exclusions |
+
+---
+
+## TL;DR - THE MOST IMPORTANT THINGS
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   🚨 0. DEPLOY TO PRODUCTION - THIS IS NOT OPTIONAL 🚨                            ║
+║      git push → server git pull → npm run build → copy samples → verify URL      ║
+║      "Local build passed" = NOT DONE. "Live URL returns 200" = DONE.             ║
+║                                                                                   ║
+║   1. PUT FULL TEXT IN CONTENT FILE                                                ║
+║      Components auto-collapse to 3 sentences                                      ║
+║                                                                                   ║
+║   2. VERIFY SAMPLES EXIST BEFORE CREATING PAGE                                    ║
+║      Check samples/english/{app}/ folder first                                    ║
+║                                                                                   ║
+║   3. COPY SAMPLES TO STANDALONE ON SERVER                                         ║
+║      Or they won't be accessible                                                  ║
+║                                                                                   ║
+║   4. TEST ALL LIVE URLs BEFORE ANNOUNCING COMPLETION                              ║
+║      Page, images, and PDFs must all return 200 ON PRODUCTION                     ║
+║      curl https://www.lessoncraftstudio.com/en/apps/{app-slug}                   ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```

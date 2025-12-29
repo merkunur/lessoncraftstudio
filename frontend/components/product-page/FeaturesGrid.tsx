@@ -90,11 +90,6 @@ function FeatureCard({
           </div>
         )}
 
-        {/* Accent line for highlighted */}
-        {feature.highlighted && (
-          <div className="absolute top-0 left-8 right-8 h-1 bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 rounded-full" />
-        )}
-
         {/* Icon */}
         <div className="mb-5">
           <motion.div

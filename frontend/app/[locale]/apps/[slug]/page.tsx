@@ -14,6 +14,7 @@ import drawingLinesEnContent from '@/content/product-pages/en/drawing-lines-work
 import pictureBingoEnContent from '@/content/product-pages/en/picture-bingo-worksheets';
 import sudokuEnContent from '@/content/product-pages/en/sudoku-worksheets';
 import bigSmallEnContent from '@/content/product-pages/en/big-small-worksheets';
+import chartCountEnContent from '@/content/product-pages/en/chart-count-worksheets';
 
 interface PageProps {
   params: {
@@ -294,6 +295,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Size Comparison Worksheets | LessonCraftStudio',
         description: 'Create professional size comparison worksheets with our Big and Small generator. Perfect for kindergarten and first grade students learning size concepts.',
         url: 'https://www.lessoncraftstudio.com/en/apps/big-small-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Chart Count (Picture Graph) Worksheets product page SEO
+  if (params.slug === 'chart-count-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Picture Graph Worksheets | Math Worksheet Generator for Kindergarten',
+      description: 'Create professional picture graph worksheets with our math worksheet generator. Generate custom printable kindergarten and first grade worksheets for counting and graphing. Download high-quality PDF worksheets with answer keys in under 3 minutes.',
+      keywords: 'picture graph worksheets, chart count worksheets, kindergarten worksheets, printable worksheets, graphing worksheets, counting worksheets, math worksheets, first grade worksheets, data worksheets, coloring worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/chart-count-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Picture Graph Worksheets | LessonCraftStudio',
+        description: 'Create professional picture graph worksheets with our math worksheet generator. Perfect for kindergarten and first grade students learning counting and graphing.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/chart-count-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3359,6 +3383,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={bigSmallEnContent} />;
   }
 
+  if (slug === 'chart-count-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={chartCountEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3491,6 +3519,7 @@ export async function generateStaticParams() {
     'picture-bingo-worksheets', // Product page slug
     'sudoku-worksheets', // Product page slug
     'big-small-worksheets', // Product page slug
+    'chart-count-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

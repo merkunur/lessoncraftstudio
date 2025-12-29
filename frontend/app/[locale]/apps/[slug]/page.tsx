@@ -6,6 +6,7 @@ import additionEnContent from '@/content/product-pages/en/addition-worksheets';
 import wordSearchEnContent from '@/content/product-pages/en/word-search-worksheets';
 import alphabetTrainEnContent from '@/content/product-pages/en/alphabet-train-worksheets';
 import coloringEnContent from '@/content/product-pages/en/coloring-worksheets';
+import mathWorksheetsEnContent from '@/content/product-pages/en/math-worksheets';
 
 interface PageProps {
   params: {
@@ -102,6 +103,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Coloring Pages | LessonCraftStudio',
         description: 'Create professional coloring worksheets with our coloring page designer. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/coloring-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Math Worksheets product page SEO
+  if (params.slug === 'math-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Math Worksheets for Kindergarten | Math Worksheet Generator',
+      description: 'Create picture-based math puzzles with our math worksheet generator. Generate custom printable math worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'math worksheets, kindergarten worksheets, printable worksheets, math worksheet generator, free printable worksheets, first grade worksheets, addition worksheets, math puzzles, picture puzzles, visual math',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/math-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Math Worksheets for Kindergarten | LessonCraftStudio',
+        description: 'Create picture-based math puzzles with our math worksheet generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/math-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3135,6 +3159,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={coloringEnContent} />;
   }
 
+  if (slug === 'math-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={mathWorksheetsEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3259,6 +3287,7 @@ export async function generateStaticParams() {
     'word-search-worksheets', // Product page slug
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
+    'math-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

@@ -13,6 +13,7 @@ import matchingEnContent from '@/content/product-pages/en/matching-worksheets';
 import drawingLinesEnContent from '@/content/product-pages/en/drawing-lines-worksheets';
 import pictureBingoEnContent from '@/content/product-pages/en/picture-bingo-worksheets';
 import sudokuEnContent from '@/content/product-pages/en/sudoku-worksheets';
+import bigSmallEnContent from '@/content/product-pages/en/big-small-worksheets';
 
 interface PageProps {
   params: {
@@ -270,6 +271,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Sudoku for Kids | LessonCraftStudio',
         description: 'Create visual sudoku puzzles with our sudoku generator. Perfect for kindergarten and first grade students learning logic skills.',
         url: 'https://www.lessoncraftstudio.com/en/apps/sudoku-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Big and Small Worksheets product page SEO
+  if (params.slug === 'big-small-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Size Comparison Worksheets | Big and Small Worksheet Generator for Kindergarten',
+      description: 'Create professional size comparison worksheets with our Big and Small worksheet generator. Generate custom printable worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets with answer keys in under 3 minutes.',
+      keywords: 'big and small worksheets, size comparison worksheets, kindergarten worksheets, printable worksheets, size discrimination, free worksheets, first grade worksheets, math worksheets, preschool worksheets, visual comparison',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/big-small-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Size Comparison Worksheets | LessonCraftStudio',
+        description: 'Create professional size comparison worksheets with our Big and Small generator. Perfect for kindergarten and first grade students learning size concepts.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/big-small-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3331,6 +3355,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={sudokuEnContent} />;
   }
 
+  if (slug === 'big-small-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={bigSmallEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3462,6 +3490,7 @@ export async function generateStaticParams() {
     'drawing-lines-worksheets', // Product page slug
     'picture-bingo-worksheets', // Product page slug
     'sudoku-worksheets', // Product page slug
+    'big-small-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

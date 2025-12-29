@@ -42,24 +42,28 @@ Every element on your coloring page is fully editable. Drag images anywhere on t
       {
         id: '1',
         worksheetSrc: '/samples/english/coloring/coloring portrait 1.png',
+        answerKeySrc: '',
         altText: 'Portrait coloring page with themed images for kindergarten fine motor skills development',
         pdfDownloadUrl: '/samples/english/coloring/coloring portrait 1.png',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/coloring/coloring portrait 2.png',
+        answerKeySrc: '',
         altText: 'Printable coloring worksheet with child-friendly images for preschool and kindergarten',
         pdfDownloadUrl: '/samples/english/coloring/coloring portrait 2.png',
       },
       {
         id: '3',
         worksheetSrc: '/samples/english/coloring/coloring landscape 1.png',
+        answerKeySrc: '',
         altText: 'Landscape coloring page with multiple images for classroom activities',
         pdfDownloadUrl: '/samples/english/coloring/coloring landscape 1.png',
       },
       {
         id: '4',
         worksheetSrc: '/samples/english/coloring/coloring portrait 3.png',
+        answerKeySrc: '',
         altText: 'Themed coloring worksheet for early childhood education and homeschool',
         pdfDownloadUrl: '/samples/english/coloring/coloring portrait 3.png',
       },

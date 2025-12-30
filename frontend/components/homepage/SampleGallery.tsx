@@ -9,8 +9,10 @@ interface Sample {
   id: string;
   nameEn: string;
   nameDe: string;
+  nameFr: string;
   categoryEn: string;
   categoryDe: string;
+  categoryFr: string;
   imageSrc: string;
   pdfUrl: string;
   productPageSlug: string;
@@ -66,16 +68,33 @@ const localeContent: Record<string, {
     viewDetails: 'Mehr erfahren',
     viewAllGenerators: 'Alle 33 Generatoren entdecken',
   },
+  fr: {
+    badge: 'Exemples gratuits',
+    title: 'Téléchargez des fiches gratuites',
+    subtitle: 'Testez avant de vous abonner. Téléchargez des exemples PDF haute qualité de nos générateurs les plus populaires.',
+    statSamples: '10+',
+    statSamplesLabel: 'Exemples gratuits',
+    statQuality: '300 DPI',
+    statQualityLabel: 'Qualité impression',
+    statFormat: 'PDF',
+    statFormatLabel: 'Format',
+    downloadPdf: 'Télécharger le PDF',
+    downloading: 'Téléchargement...',
+    viewDetails: 'En savoir plus',
+    viewAllGenerators: 'Explorer les 33 générateurs',
+  },
 };
 
-// Real samples from /samples/english/ folder with German translations
+// Real samples from /samples/english/ folder with translations
 const samples: Sample[] = [
   {
     id: '1',
     nameEn: 'Addition Worksheets',
     nameDe: 'Additions-Arbeitsblätter',
+    nameFr: 'Fiches d\'addition',
     categoryEn: 'Math',
     categoryDe: 'Mathematik',
+    categoryFr: 'Maths',
     imageSrc: '/samples/english/addition/addition_worksheet portrait.jpeg',
     pdfUrl: '/samples/english/addition/addition_worksheet portrait.pdf',
     productPageSlug: 'addition-worksheets',
@@ -84,8 +103,10 @@ const samples: Sample[] = [
     id: '2',
     nameEn: 'Word Search',
     nameDe: 'Wortsuche',
+    nameFr: 'Mots mêlés',
     categoryEn: 'Language',
     categoryDe: 'Sprache',
+    categoryFr: 'Langue',
     imageSrc: '/samples/english/wordsearch/wordsearch landscape.jpeg',
     pdfUrl: '/samples/english/wordsearch/wordsearch landscape.pdf',
     productPageSlug: 'word-search-worksheets',
@@ -94,8 +115,10 @@ const samples: Sample[] = [
     id: '3',
     nameEn: 'Crossword Puzzles',
     nameDe: 'Kreuzworträtsel',
+    nameFr: 'Mots croisés',
     categoryEn: 'Language',
     categoryDe: 'Sprache',
+    categoryFr: 'Langue',
     imageSrc: '/samples/english/crossword/crossword_worksheet.jpeg',
     pdfUrl: '/samples/english/crossword/crossword_worksheet.jpeg',
     productPageSlug: 'crossword-worksheets',
@@ -104,8 +127,10 @@ const samples: Sample[] = [
     id: '4',
     nameEn: 'Drawing Lines',
     nameDe: 'Linien zeichnen',
+    nameFr: 'Tracer des lignes',
     categoryEn: 'Visual',
     categoryDe: 'Visuell',
+    categoryFr: 'Visuel',
     imageSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
     pdfUrl: '/samples/english/drawing lines/drawing_lines_curve 1.pdf',
     productPageSlug: 'drawing-lines-worksheets',
@@ -114,8 +139,10 @@ const samples: Sample[] = [
     id: '5',
     nameEn: 'Alphabet Train',
     nameDe: 'ABC-Zug',
+    nameFr: 'Train de l\'alphabet',
     categoryEn: 'Creative',
     categoryDe: 'Kreativ',
+    categoryFr: 'Créatif',
     imageSrc: '/samples/english/alphabet-train/alphabet train landscape.jpeg',
     pdfUrl: '/samples/english/alphabet-train/alphabet train landscape.pdf',
     productPageSlug: 'alphabet-train-worksheets',
@@ -124,8 +151,10 @@ const samples: Sample[] = [
     id: '6',
     nameEn: 'Sudoku Puzzles',
     nameDe: 'Sudoku-Rätsel',
+    nameFr: 'Grilles de Sudoku',
     categoryEn: 'Logic',
     categoryDe: 'Logik',
+    categoryFr: 'Logique',
     imageSrc: '/samples/english/sudoku/sudoku hard.jpeg',
     pdfUrl: '/samples/english/sudoku/sudoku hard.pdf',
     productPageSlug: 'sudoku-worksheets',
@@ -134,8 +163,10 @@ const samples: Sample[] = [
     id: '7',
     nameEn: 'Coloring Pages',
     nameDe: 'Ausmalbilder',
+    nameFr: 'Coloriages',
     categoryEn: 'Creative',
     categoryDe: 'Kreativ',
+    categoryFr: 'Créatif',
     imageSrc: '/samples/english/coloring/coloring portrait 1.png',
     pdfUrl: '/samples/english/coloring/coloring portrait 1.pdf',
     productPageSlug: 'coloring-worksheets',
@@ -144,8 +175,10 @@ const samples: Sample[] = [
     id: '8',
     nameEn: 'Find Objects',
     nameDe: 'Suchbilder',
+    nameFr: 'Cherche et trouve',
     categoryEn: 'Visual',
     categoryDe: 'Visuell',
+    categoryFr: 'Visuel',
     imageSrc: '/samples/english/find objects/find objects landscape.jpeg',
     pdfUrl: '/samples/english/find objects/find objects landscape.pdf',
     productPageSlug: 'find-objects-worksheets',
@@ -154,8 +187,10 @@ const samples: Sample[] = [
     id: '9',
     nameEn: 'Matching Game',
     nameDe: 'Zuordnungsspiel',
+    nameFr: 'Jeu d\'association',
     categoryEn: 'Visual',
     categoryDe: 'Visuell',
+    categoryFr: 'Visuel',
     imageSrc: '/samples/english/matching/matching landscape.jpeg',
     pdfUrl: '/samples/english/matching/matching landscape.pdf',
     productPageSlug: 'matching-worksheets',
@@ -164,8 +199,10 @@ const samples: Sample[] = [
     id: '10',
     nameEn: 'Code Addition',
     nameDe: 'Rechencode',
+    nameFr: 'Addition codée',
     categoryEn: 'Math',
     categoryDe: 'Mathematik',
+    categoryFr: 'Maths',
     imageSrc: '/samples/english/code addition/code addition landscape.jpeg',
     pdfUrl: '/samples/english/code addition/code addition landscape.pdf',
     productPageSlug: 'code-addition-worksheets',
@@ -188,17 +225,38 @@ const categoryColorsDe: Record<string, string> = {
   Logik: 'from-rose-500 to-red-500',
 };
 
+const categoryColorsFr: Record<string, string> = {
+  Maths: 'from-cyan-500 to-blue-500',
+  Langue: 'from-purple-500 to-pink-500',
+  Visuel: 'from-amber-500 to-orange-500',
+  Créatif: 'from-green-500 to-emerald-500',
+  Logique: 'from-rose-500 to-red-500',
+};
+
 export default function SampleGallery({ locale }: SampleGalleryProps) {
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [downloadingId, setDownloadingId] = useState<string | null>(null);
 
   // Get content for current locale, fallback to English
   const content = localeContent[locale] || localeContent.en;
-  const categoryColors = locale === 'de' ? categoryColorsDe : categoryColorsEn;
+  const getCategoryColors = () => {
+    if (locale === 'fr') return categoryColorsFr;
+    if (locale === 'de') return categoryColorsDe;
+    return categoryColorsEn;
+  };
+  const categoryColors = getCategoryColors();
 
   // Helper to get localized name/category
-  const getSampleName = (sample: Sample) => locale === 'de' ? sample.nameDe : sample.nameEn;
-  const getSampleCategory = (sample: Sample) => locale === 'de' ? sample.categoryDe : sample.categoryEn;
+  const getSampleName = (sample: Sample) => {
+    if (locale === 'fr') return sample.nameFr;
+    if (locale === 'de') return sample.nameDe;
+    return sample.nameEn;
+  };
+  const getSampleCategory = (sample: Sample) => {
+    if (locale === 'fr') return sample.categoryFr;
+    if (locale === 'de') return sample.categoryDe;
+    return sample.categoryEn;
+  };
 
   const handleDownload = async (sample: Sample) => {
     setDownloadingId(sample.id);

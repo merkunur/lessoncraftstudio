@@ -41,6 +41,17 @@ const localeContent: Record<string, {
     trustFreeGenerators: '3 kostenlose Generatoren',
     trustCancelAnytime: 'Jederzeit kündbar',
   },
+  fr: {
+    badge: 'Rejoignez des milliers d\'enseignants',
+    titleStart: 'Prêt à créer des ',
+    titleHighlight: 'fiches professionnelles',
+    subtitle: 'Commencez gratuitement. Testez les mots mêlés, mots croisés et fiches de maths. Passez à l\'accès complet aux 33 générateurs quand vous voulez.',
+    ctaPrimary: 'Commencer gratuitement',
+    ctaSecondary: 'Explorer les 33 générateurs',
+    trustNoCard: 'Aucune carte bancaire requise',
+    trustFreeGenerators: '3 générateurs gratuits',
+    trustCancelAnytime: 'Résiliable à tout moment',
+  },
 };
 
 export default function HomepageCTA({ locale }: HomepageCTAProps) {
@@ -164,7 +175,7 @@ export default function HomepageCTA({ locale }: HomepageCTAProps) {
             >
               {content.titleHighlight}
             </span>
-            {locale === 'de' ? ' zu erstellen?' : '?'}
+            {locale === 'de' ? ' zu erstellen?' : ' ?'}
           </motion.h2>
 
           {/* Subtitle */}

@@ -6,8 +6,10 @@ interface Feature {
   icon: string;
   titleEn: string;
   titleDe: string;
+  titleFr: string;
   descriptionEn: string;
   descriptionDe: string;
+  descriptionFr: string;
   highlighted?: boolean;
 }
 
@@ -43,6 +45,15 @@ const localeContent: Record<string, {
     unlimitedDownloads: 'Unbegrenzte Downloads',
     autoAnswerKeys: 'Automatische Lösungsblätter',
   },
+  fr: {
+    badge: 'Fonctionnalités',
+    title: 'Tout ce qu\'il vous faut',
+    subtitle: 'Des outils professionnels conçus pour les enseignants. Créez des fiches dignes d\'un graphiste en quelques minutes.',
+    keyFeature: '⭐ Essentiel',
+    noFees: 'Aucun coût par fiche',
+    unlimitedDownloads: 'Téléchargements illimités',
+    autoAnswerKeys: 'Corrigés générés automatiquement',
+  },
 };
 
 // Real features only - no fake information
@@ -51,48 +62,60 @@ const features: Feature[] = [
     icon: '⚡',
     titleEn: 'Create in Under 3 Minutes',
     titleDe: 'Erstellen in unter 3 Minuten',
+    titleFr: 'Créez en moins de 3 minutes',
     descriptionEn: 'Generate complete worksheets instantly. Select your theme, customize settings, and download professional PDFs ready for printing.',
     descriptionDe: 'Generieren Sie fertige Arbeitsblätter im Handumdrehen. Wählen Sie Ihr Thema, passen Sie die Einstellungen an und laden Sie druckfertige PDFs herunter.',
+    descriptionFr: 'Générez des fiches complètes instantanément. Choisissez votre thème, personnalisez les paramètres et téléchargez des PDF prêts à imprimer.',
     highlighted: false,
   },
   {
     icon: '🎨',
     titleEn: '3000+ Child-Friendly Images',
     titleDe: 'Über 3000 kindgerechte Bilder',
+    titleFr: 'Plus de 3000 images adaptées aux enfants',
     descriptionEn: 'Browse our curated library organized by themes: animals, food, vehicles, nature, seasons, and more. Search or filter to find exactly what you need.',
     descriptionDe: 'Durchsuchen Sie unsere Bilderbibliothek nach Themen: Tiere, Essen, Fahrzeuge, Natur, Jahreszeiten und vieles mehr. Suchen und filtern Sie, um genau das Richtige zu finden.',
+    descriptionFr: 'Parcourez notre bibliothèque organisée par thèmes : animaux, nourriture, véhicules, nature, saisons et bien plus. Recherchez ou filtrez pour trouver exactement ce qu\'il vous faut.',
     highlighted: false,
   },
   {
     icon: '🌍',
     titleEn: '11 Languages Supported',
     titleDe: '11 Sprachen verfügbar',
+    titleFr: '11 langues disponibles',
     descriptionEn: 'Create worksheets in English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish.',
     descriptionDe: 'Erstellen Sie Arbeitsblätter auf Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch.',
+    descriptionFr: 'Créez des fiches en français, anglais, allemand, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois.',
     highlighted: false,
   },
   {
     icon: '✏️',
     titleEn: 'Full Canvas Editing',
     titleDe: 'Vollständige Bearbeitung',
+    titleFr: 'Édition complète sur le canevas',
     descriptionEn: 'Every element is editable. Drag to move, resize with handles, rotate freely. Add custom text with 7 fonts. Upload your own images.',
     descriptionDe: 'Jedes Element ist bearbeitbar. Verschieben, skalieren und drehen Sie frei. Fügen Sie Text mit 7 Schriftarten hinzu. Laden Sie eigene Bilder hoch.',
+    descriptionFr: 'Chaque élément est modifiable. Déplacez, redimensionnez et faites pivoter librement. Ajoutez du texte personnalisé avec 7 polices. Importez vos propres images.',
     highlighted: false,
   },
   {
     icon: '💰',
     titleEn: 'Commercial License Included',
     titleDe: 'Kommerzielle Nutzung inklusive',
+    titleFr: 'Usage commercial inclus',
     descriptionEn: 'Sell your worksheets on Teachers Pay Teachers, Etsy, or Amazon KDP. No attribution required. No extra licensing fees.',
     descriptionDe: 'Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers, Etsy oder Amazon KDP. Keine Quellenangabe nötig. Keine zusätzlichen Lizenzgebühren.',
+    descriptionFr: 'Vendez vos fiches sur Teachers Pay Teachers, Etsy ou Amazon KDP. Aucune mention de source requise. Aucun frais de licence supplémentaire.',
     highlighted: true,
   },
   {
     icon: '🖨️',
     titleEn: '300 DPI Print Quality',
     titleDe: '300 DPI Druckqualität',
+    titleFr: 'Qualité d\'impression 300 DPI',
     descriptionEn: 'Export high-resolution PDFs perfect for classroom printing and commercial publishing. Answer keys included automatically.',
     descriptionDe: 'Exportieren Sie hochauflösende PDFs, perfekt für den Klassenraum oder die kommerzielle Veröffentlichung. Lösungsblätter werden automatisch erstellt.',
+    descriptionFr: 'Exportez des PDF haute résolution parfaits pour l\'impression en classe ou la publication commerciale. Les corrigés sont générés automatiquement.',
     highlighted: true,
   },
 ];
@@ -102,8 +125,16 @@ export default function HomepageFeatures({ locale }: HomepageFeaturesProps) {
   const content = localeContent[locale] || localeContent.en;
 
   // Helper functions for localized content
-  const getFeatureTitle = (feature: Feature) => locale === 'de' ? feature.titleDe : feature.titleEn;
-  const getFeatureDescription = (feature: Feature) => locale === 'de' ? feature.descriptionDe : feature.descriptionEn;
+  const getFeatureTitle = (feature: Feature) => {
+    if (locale === 'fr') return feature.titleFr;
+    if (locale === 'de') return feature.titleDe;
+    return feature.titleEn;
+  };
+  const getFeatureDescription = (feature: Feature) => {
+    if (locale === 'fr') return feature.descriptionFr;
+    if (locale === 'de') return feature.descriptionDe;
+    return feature.descriptionEn;
+  };
   return (
     <section className="relative py-24 overflow-hidden">
       {/* Warm gradient background */}

@@ -9,8 +9,10 @@ interface Step {
   icon: string;
   titleEn: string;
   titleDe: string;
+  titleFr: string;
   descriptionEn: string;
   descriptionDe: string;
+  descriptionFr: string;
 }
 
 interface HowItWorksProps {
@@ -36,6 +38,12 @@ const localeContent: Record<string, {
     subtitle: 'Erstellen Sie professionelle Arbeitsblätter in 4 einfachen Schritten. Keine Designkenntnisse erforderlich.',
     ctaButton: 'Jetzt starten',
   },
+  fr: {
+    badge: 'Démarrage rapide',
+    title: 'Comment ça marche',
+    subtitle: 'Créez des fiches professionnelles en 4 étapes simples. Aucune compétence en design requise.',
+    ctaButton: 'Commencer maintenant',
+  },
 };
 
 const steps: Step[] = [
@@ -44,32 +52,40 @@ const steps: Step[] = [
     icon: '🎯',
     titleEn: 'Choose a Generator',
     titleDe: 'Generator auswählen',
+    titleFr: 'Choisissez un générateur',
     descriptionEn: 'Select from 33 professional worksheet generators. Math, language, puzzles, and creative activities for all ages.',
     descriptionDe: 'Wählen Sie aus 33 professionellen Arbeitsblatt-Generatoren. Mathematik, Sprache, Rätsel und kreative Aktivitäten für alle Altersgruppen.',
+    descriptionFr: 'Sélectionnez parmi 33 générateurs professionnels. Maths, langue, énigmes et activités créatives pour tous les âges.',
   },
   {
     number: 2,
     icon: '🖼️',
     titleEn: 'Select Your Theme',
     titleDe: 'Thema wählen',
+    titleFr: 'Sélectionnez votre thème',
     descriptionEn: 'Browse 3000+ child-friendly images organized by category. Animals, food, vehicles, seasons, and more.',
     descriptionDe: 'Durchsuchen Sie über 3000 kindgerechte Bilder nach Kategorien. Tiere, Essen, Fahrzeuge, Jahreszeiten und mehr.',
+    descriptionFr: 'Parcourez plus de 3000 images adaptées aux enfants par catégorie. Animaux, nourriture, véhicules, saisons et plus encore.',
   },
   {
     number: 3,
     icon: '✨',
     titleEn: 'Customize',
     titleDe: 'Anpassen',
+    titleFr: 'Personnalisez',
     descriptionEn: 'Edit every element on the canvas. Add text, upload images, adjust difficulty. Make it perfect for your students.',
     descriptionDe: 'Bearbeiten Sie jedes Element auf der Arbeitsfläche. Text hinzufügen, Bilder hochladen, Schwierigkeit anpassen. Perfekt für Ihre Schüler.',
+    descriptionFr: 'Modifiez chaque élément sur le canevas. Ajoutez du texte, importez des images, ajustez la difficulté. Parfait pour vos élèves.',
   },
   {
     number: 4,
     icon: '📥',
     titleEn: 'Download & Print',
     titleDe: 'Herunterladen & Drucken',
+    titleFr: 'Téléchargez et imprimez',
     descriptionEn: 'Export as high-quality PDF at 300 DPI. Answer keys included. Print or sell commercially.',
     descriptionDe: 'Exportieren Sie als hochwertiges PDF mit 300 DPI. Lösungsblätter inklusive. Drucken oder kommerziell verkaufen.',
+    descriptionFr: 'Exportez en PDF haute qualité à 300 DPI. Corrigés inclus. Imprimez ou vendez à des fins commerciales.',
   },
 ];
 
@@ -86,8 +102,16 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
   const content = localeContent[locale] || localeContent.en;
 
   // Helper functions for localized content
-  const getStepTitle = (step: Step) => locale === 'de' ? step.titleDe : step.titleEn;
-  const getStepDescription = (step: Step) => locale === 'de' ? step.descriptionDe : step.descriptionEn;
+  const getStepTitle = (step: Step) => {
+    if (locale === 'fr') return step.titleFr;
+    if (locale === 'de') return step.titleDe;
+    return step.titleEn;
+  };
+  const getStepDescription = (step: Step) => {
+    if (locale === 'fr') return step.descriptionFr;
+    if (locale === 'de') return step.descriptionDe;
+    return step.descriptionEn;
+  };
 
   return (
     <section

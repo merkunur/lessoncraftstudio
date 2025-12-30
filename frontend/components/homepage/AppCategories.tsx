@@ -7,16 +7,19 @@ import Link from 'next/link';
 interface App {
   nameEn: string;
   nameDe: string;
+  nameFr: string;
   slug: string;
   icon: string;
   descriptionEn: string;
   descriptionDe: string;
+  descriptionFr: string;
 }
 
 interface Category {
   id: string;
   nameEn: string;
   nameDe: string;
+  nameFr: string;
   icon: string;
   gradient: string;
   borderColor: string;
@@ -49,77 +52,89 @@ const localeContent: Record<string, {
     learnMore: 'Mehr erfahren',
     viewAllGenerators: 'Alle 33 Generatoren entdecken',
   },
+  fr: {
+    badge: '33 générateurs de fiches',
+    title: 'Parcourir par catégorie',
+    subtitle: 'Des exercices de maths aux activités créatives, trouvez le générateur idéal pour votre classe.',
+    learnMore: 'En savoir plus',
+    viewAllGenerators: 'Explorer les 33 générateurs',
+  },
 };
 
-// Real apps with their product page slugs and German translations
+// Real apps with their product page slugs and translations
 const categories: Category[] = [
   {
     id: 'math',
     nameEn: 'Math',
     nameDe: 'Mathematik',
+    nameFr: 'Mathématiques',
     icon: '🔢',
     gradient: 'from-cyan-500/10 to-blue-500/10',
     borderColor: 'border-cyan-500/20',
     apps: [
-      { nameEn: 'Addition', nameDe: 'Addition', slug: 'addition-worksheets', icon: '➕', descriptionEn: 'Visual counting & sums', descriptionDe: 'Anschauliches Zählen & Rechnen' },
-      { nameEn: 'Code Addition', nameDe: 'Rechencode', slug: 'code-addition-worksheets', icon: '🔐', descriptionEn: 'Crack the code math', descriptionDe: 'Knack den Zahlencode' },
-      { nameEn: 'Math Worksheet', nameDe: 'Mathe-Arbeitsblatt', slug: 'math-worksheets', icon: '📐', descriptionEn: 'Custom math problems', descriptionDe: 'Individuelle Rechenaufgaben' },
-      { nameEn: 'Chart Count', nameDe: 'Diagramm-Zählen', slug: 'chart-count-worksheets', icon: '📊', descriptionEn: 'Counting with charts', descriptionDe: 'Zählen mit Diagrammen' },
+      { nameEn: 'Addition', nameDe: 'Addition', nameFr: 'Addition', slug: 'addition-worksheets', icon: '➕', descriptionEn: 'Visual counting & sums', descriptionDe: 'Anschauliches Zählen & Rechnen', descriptionFr: 'Comptage visuel et additions' },
+      { nameEn: 'Code Addition', nameDe: 'Rechencode', nameFr: 'Addition codée', slug: 'code-addition-worksheets', icon: '🔐', descriptionEn: 'Crack the code math', descriptionDe: 'Knack den Zahlencode', descriptionFr: 'Calculs à décoder' },
+      { nameEn: 'Math Worksheet', nameDe: 'Mathe-Arbeitsblatt', nameFr: 'Fiche de maths', slug: 'math-worksheets', icon: '📐', descriptionEn: 'Custom math problems', descriptionDe: 'Individuelle Rechenaufgaben', descriptionFr: 'Exercices personnalisés' },
+      { nameEn: 'Chart Count', nameDe: 'Diagramm-Zählen', nameFr: 'Comptage graphique', slug: 'chart-count-worksheets', icon: '📊', descriptionEn: 'Counting with charts', descriptionDe: 'Zählen mit Diagrammen', descriptionFr: 'Comptage avec diagrammes' },
     ],
   },
   {
     id: 'language',
     nameEn: 'Language',
     nameDe: 'Sprache',
+    nameFr: 'Langue',
     icon: '📝',
     gradient: 'from-purple-500/10 to-pink-500/10',
     borderColor: 'border-purple-500/20',
     apps: [
-      { nameEn: 'Word Search', nameDe: 'Wortsuche', slug: 'word-search-worksheets', icon: '🔍', descriptionEn: 'Hidden word puzzles', descriptionDe: 'Versteckte Wörter finden' },
-      { nameEn: 'Crossword', nameDe: 'Kreuzworträtsel', slug: 'crossword-worksheets', icon: '⬜', descriptionEn: 'Classic word puzzles', descriptionDe: 'Klassische Worträtsel' },
-      { nameEn: 'Cryptogram', nameDe: 'Kryptogramm', slug: 'cryptogram-worksheets', icon: '🔮', descriptionEn: 'Secret message codes', descriptionDe: 'Geheime Botschaften' },
-      { nameEn: 'Word Scramble', nameDe: 'Buchstabensalat', slug: 'word-scramble-worksheets', icon: '🔀', descriptionEn: 'Unscramble letters', descriptionDe: 'Buchstaben entwirren' },
+      { nameEn: 'Word Search', nameDe: 'Wortsuche', nameFr: 'Mots mêlés', slug: 'word-search-worksheets', icon: '🔍', descriptionEn: 'Hidden word puzzles', descriptionDe: 'Versteckte Wörter finden', descriptionFr: 'Grilles de mots cachés' },
+      { nameEn: 'Crossword', nameDe: 'Kreuzworträtsel', nameFr: 'Mots croisés', slug: 'crossword-worksheets', icon: '⬜', descriptionEn: 'Classic word puzzles', descriptionDe: 'Klassische Worträtsel', descriptionFr: 'Grilles de mots croisés' },
+      { nameEn: 'Cryptogram', nameDe: 'Kryptogramm', nameFr: 'Cryptogramme', slug: 'cryptogram-worksheets', icon: '🔮', descriptionEn: 'Secret message codes', descriptionDe: 'Geheime Botschaften', descriptionFr: 'Messages secrets codés' },
+      { nameEn: 'Word Scramble', nameDe: 'Buchstabensalat', nameFr: 'Lettres mélangées', slug: 'word-scramble-worksheets', icon: '🔀', descriptionEn: 'Unscramble letters', descriptionDe: 'Buchstaben entwirren', descriptionFr: 'Remettre les lettres en ordre' },
     ],
   },
   {
     id: 'visual',
     nameEn: 'Visual Learning',
     nameDe: 'Visuelles Lernen',
+    nameFr: 'Apprentissage visuel',
     icon: '👁️',
     gradient: 'from-amber-500/10 to-orange-500/10',
     borderColor: 'border-amber-500/20',
     apps: [
-      { nameEn: 'Matching', nameDe: 'Zuordnung', slug: 'matching-worksheets', icon: '🎯', descriptionEn: 'Match pairs together', descriptionDe: 'Paare zuordnen' },
-      { nameEn: 'Drawing Lines', nameDe: 'Linien zeichnen', slug: 'drawing-lines-worksheets', icon: '✏️', descriptionEn: 'Trace & connect', descriptionDe: 'Nachspuren & Verbinden' },
-      { nameEn: 'Find Objects', nameDe: 'Suchbilder', slug: 'find-objects-worksheets', icon: '🔎', descriptionEn: 'I Spy activities', descriptionDe: 'Objekte suchen & finden' },
-      { nameEn: 'Grid Match', nameDe: 'Gitter-Zuordnung', slug: 'grid-match-worksheets', icon: '🔲', descriptionEn: 'Pattern matching', descriptionDe: 'Muster erkennen' },
-      { nameEn: 'Find & Count', nameDe: 'Suchen & Zählen', slug: 'find-and-count-worksheets', icon: '🧮', descriptionEn: 'Count hidden items', descriptionDe: 'Versteckte Objekte zählen' },
+      { nameEn: 'Matching', nameDe: 'Zuordnung', nameFr: 'Association', slug: 'matching-worksheets', icon: '🎯', descriptionEn: 'Match pairs together', descriptionDe: 'Paare zuordnen', descriptionFr: 'Associer les paires' },
+      { nameEn: 'Drawing Lines', nameDe: 'Linien zeichnen', nameFr: 'Tracer des lignes', slug: 'drawing-lines-worksheets', icon: '✏️', descriptionEn: 'Trace & connect', descriptionDe: 'Nachspuren & Verbinden', descriptionFr: 'Tracer et relier' },
+      { nameEn: 'Find Objects', nameDe: 'Suchbilder', nameFr: 'Cherche et trouve', slug: 'find-objects-worksheets', icon: '🔎', descriptionEn: 'I Spy activities', descriptionDe: 'Objekte suchen & finden', descriptionFr: 'Jeux d\'observation' },
+      { nameEn: 'Grid Match', nameDe: 'Gitter-Zuordnung', nameFr: 'Grille d\'association', slug: 'grid-match-worksheets', icon: '🔲', descriptionEn: 'Pattern matching', descriptionDe: 'Muster erkennen', descriptionFr: 'Reconnaissance de motifs' },
+      { nameEn: 'Find & Count', nameDe: 'Suchen & Zählen', nameFr: 'Chercher et compter', slug: 'find-and-count-worksheets', icon: '🧮', descriptionEn: 'Count hidden items', descriptionDe: 'Versteckte Objekte zählen', descriptionFr: 'Compter les objets cachés' },
     ],
   },
   {
     id: 'creative',
     nameEn: 'Creative',
     nameDe: 'Kreativ',
+    nameFr: 'Créatif',
     icon: '🎨',
     gradient: 'from-green-500/10 to-emerald-500/10',
     borderColor: 'border-green-500/20',
     apps: [
-      { nameEn: 'Coloring', nameDe: 'Ausmalen', slug: 'coloring-worksheets', icon: '🖍️', descriptionEn: 'Color by sections', descriptionDe: 'Nach Bereichen ausmalen' },
-      { nameEn: 'Draw & Color', nameDe: 'Zeichnen & Ausmalen', slug: 'draw-and-color-worksheets', icon: '🎨', descriptionEn: 'Grid drawing', descriptionDe: 'Rasterzeichnen' },
-      { nameEn: 'Alphabet Train', nameDe: 'ABC-Zug', slug: 'alphabet-train-worksheets', icon: '🚂', descriptionEn: 'ABC on trains', descriptionDe: 'Buchstaben auf Zügen' },
-      { nameEn: 'Picture Bingo', nameDe: 'Bilder-Bingo', slug: 'picture-bingo-worksheets', icon: '🎰', descriptionEn: 'Visual bingo cards', descriptionDe: 'Bingokarten mit Bildern' },
+      { nameEn: 'Coloring', nameDe: 'Ausmalen', nameFr: 'Coloriage', slug: 'coloring-worksheets', icon: '🖍️', descriptionEn: 'Color by sections', descriptionDe: 'Nach Bereichen ausmalen', descriptionFr: 'Colorier par zones' },
+      { nameEn: 'Draw & Color', nameDe: 'Zeichnen & Ausmalen', nameFr: 'Dessiner et colorier', slug: 'draw-and-color-worksheets', icon: '🎨', descriptionEn: 'Grid drawing', descriptionDe: 'Rasterzeichnen', descriptionFr: 'Dessin sur quadrillage' },
+      { nameEn: 'Alphabet Train', nameDe: 'ABC-Zug', nameFr: 'Train de l\'alphabet', slug: 'alphabet-train-worksheets', icon: '🚂', descriptionEn: 'ABC on trains', descriptionDe: 'Buchstaben auf Zügen', descriptionFr: 'L\'alphabet en train' },
+      { nameEn: 'Picture Bingo', nameDe: 'Bilder-Bingo', nameFr: 'Loto images', slug: 'picture-bingo-worksheets', icon: '🎰', descriptionEn: 'Visual bingo cards', descriptionDe: 'Bingokarten mit Bildern', descriptionFr: 'Cartes de loto illustrées' },
     ],
   },
   {
     id: 'logic',
     nameEn: 'Logic & Puzzles',
     nameDe: 'Logik & Rätsel',
+    nameFr: 'Logique et énigmes',
     icon: '🧩',
     gradient: 'from-rose-500/10 to-red-500/10',
     borderColor: 'border-rose-500/20',
     apps: [
-      { nameEn: 'Sudoku', nameDe: 'Sudoku', slug: 'sudoku-worksheets', icon: '🔢', descriptionEn: 'Number logic grids', descriptionDe: 'Zahlenrätsel' },
-      { nameEn: 'Big & Small', nameDe: 'Groß & Klein', slug: 'big-small-worksheets', icon: '📏', descriptionEn: 'Size comparison', descriptionDe: 'Größenvergleich' },
+      { nameEn: 'Sudoku', nameDe: 'Sudoku', nameFr: 'Sudoku', slug: 'sudoku-worksheets', icon: '🔢', descriptionEn: 'Number logic grids', descriptionDe: 'Zahlenrätsel', descriptionFr: 'Grilles de chiffres' },
+      { nameEn: 'Big & Small', nameDe: 'Groß & Klein', nameFr: 'Grand et petit', slug: 'big-small-worksheets', icon: '📏', descriptionEn: 'Size comparison', descriptionDe: 'Größenvergleich', descriptionFr: 'Comparaison de tailles' },
     ],
   },
 ];
@@ -132,9 +147,21 @@ export default function AppCategories({ locale }: AppCategoriesProps) {
   const content = localeContent[locale] || localeContent.en;
 
   // Helper functions for localized content
-  const getCategoryName = (category: Category) => locale === 'de' ? category.nameDe : category.nameEn;
-  const getAppName = (app: App) => locale === 'de' ? app.nameDe : app.nameEn;
-  const getAppDescription = (app: App) => locale === 'de' ? app.descriptionDe : app.descriptionEn;
+  const getCategoryName = (category: Category) => {
+    if (locale === 'fr') return category.nameFr;
+    if (locale === 'de') return category.nameDe;
+    return category.nameEn;
+  };
+  const getAppName = (app: App) => {
+    if (locale === 'fr') return app.nameFr;
+    if (locale === 'de') return app.nameDe;
+    return app.nameEn;
+  };
+  const getAppDescription = (app: App) => {
+    if (locale === 'fr') return app.descriptionFr;
+    if (locale === 'de') return app.descriptionDe;
+    return app.descriptionEn;
+  };
 
   const activeData = categories.find(c => c.id === activeCategory);
 

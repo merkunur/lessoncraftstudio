@@ -52,6 +52,20 @@ const localeContent: Record<string, {
     answerKey: 'Lösungsschlüssel',
     previewTitles: ['Addition', 'Wortsuche'],
   },
+  fr: {
+    badge: '33 générateurs de fiches pédagogiques',
+    titleLine1: 'Créez des supports ',
+    titleHighlight: 'pédagogiques',
+    titleLine2: 'exceptionnels',
+    subtitle: 'Des outils professionnels plébiscités par les enseignants du monde entier. Concevez, personnalisez et téléchargez vos fiches en quelques minutes.',
+    ctaPrimary: 'Découvrir les exemples gratuits',
+    ctaSecondary: 'Explorer tous les générateurs',
+    trustLanguages: '11 langues',
+    trustImages: '3000+ images',
+    trustLicense: 'Usage commercial inclus',
+    answerKey: 'Corrigé inclus',
+    previewTitles: ['Addition', 'Mots mêlés'],
+  },
 };
 
 export default function HomepageHero({ locale }: HomepageHeroProps) {
@@ -93,15 +107,31 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
   };
 
   // Preview worksheets - real samples
+  const getAltText = (type: 'addition' | 'wordsearch') => {
+    const altTexts = {
+      addition: {
+        en: 'Addition Worksheet Sample',
+        de: 'Additions-Arbeitsblatt Beispiel',
+        fr: 'Exemple de fiche d\'addition',
+      },
+      wordsearch: {
+        en: 'Word Search Worksheet Sample',
+        de: 'Wortsuche-Arbeitsblatt Beispiel',
+        fr: 'Exemple de mots mêlés',
+      },
+    };
+    return altTexts[type][locale as keyof typeof altTexts.addition] || altTexts[type].en;
+  };
+
   const previewWorksheets = [
     {
       src: '/samples/english/addition/addition_worksheet portrait.jpeg',
-      alt: locale === 'de' ? 'Additions-Arbeitsblatt Beispiel' : 'Addition Worksheet Sample',
+      alt: getAltText('addition'),
       title: content.previewTitles[0],
     },
     {
       src: '/samples/english/wordsearch/wordsearch landscape.jpeg',
-      alt: locale === 'de' ? 'Wortsuche-Arbeitsblatt Beispiel' : 'Word Search Worksheet Sample',
+      alt: getAltText('wordsearch'),
       title: content.previewTitles[1],
     },
   ];

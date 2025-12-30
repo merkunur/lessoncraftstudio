@@ -23,6 +23,7 @@ import crosswordEnContent from '@/content/product-pages/en/crossword-worksheets'
 import cryptogramEnContent from '@/content/product-pages/en/cryptogram-worksheets';
 import mathPuzzleEnContent from '@/content/product-pages/en/math-puzzle-worksheets';
 import missingPiecesEnContent from '@/content/product-pages/en/missing-pieces-worksheets';
+import moreLessEnContent from '@/content/product-pages/en/more-less-worksheets';
 
 interface PageProps {
   params: {
@@ -510,6 +511,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Missing Pieces Worksheets | LessonCraftStudio',
         description: 'Create professional missing pieces puzzle worksheets with our visual puzzle generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/missing-pieces-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // More or Less (Comparison) Worksheets product page SEO
+  if (params.slug === 'more-less-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Comparison Worksheets | Greater Than Less Than Worksheet Maker',
+      description: 'Create professional comparison worksheets with our greater than less than worksheet maker. Generate custom printable math worksheets perfect for kindergarten and first grade students learning number comparison skills. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'comparison worksheets, greater than less than worksheets, kindergarten worksheets, math worksheets, printable worksheets, number comparison, worksheet generator, free worksheets, first grade worksheets, more or less worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/more-less-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Comparison Worksheets | LessonCraftStudio',
+        description: 'Create professional comparison worksheets with our greater than less than worksheet maker. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/more-less-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3611,6 +3635,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={missingPiecesEnContent} />;
   }
 
+  if (slug === 'more-less-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={moreLessEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3752,6 +3780,7 @@ export async function generateStaticParams() {
     'cryptogram-worksheets', // Product page slug
     'math-puzzle-worksheets', // Product page slug
     'missing-pieces-worksheets', // Product page slug
+    'more-less-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

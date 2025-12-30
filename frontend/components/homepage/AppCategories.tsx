@@ -5,15 +5,18 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 
 interface App {
-  name: string;
+  nameEn: string;
+  nameDe: string;
   slug: string;
   icon: string;
-  description: string;
+  descriptionEn: string;
+  descriptionDe: string;
 }
 
 interface Category {
   id: string;
-  name: string;
+  nameEn: string;
+  nameDe: string;
   icon: string;
   gradient: string;
   borderColor: string;
@@ -24,70 +27,99 @@ interface AppCategoriesProps {
   locale: string;
 }
 
-// Real apps with their product page slugs
+// Localization content
+const localeContent: Record<string, {
+  badge: string;
+  title: string;
+  subtitle: string;
+  learnMore: string;
+  viewAllGenerators: string;
+}> = {
+  en: {
+    badge: '33 Worksheet Generators',
+    title: 'Browse by Category',
+    subtitle: 'From math exercises to creative activities, find the perfect worksheet generator for your classroom.',
+    learnMore: 'Learn more',
+    viewAllGenerators: 'View All 33 Generators',
+  },
+  de: {
+    badge: '33 Arbeitsblatt-Generatoren',
+    title: 'Nach Kategorie durchsuchen',
+    subtitle: 'Von Matheübungen bis zu kreativen Aktivitäten – finden Sie den perfekten Generator für Ihren Unterricht.',
+    learnMore: 'Mehr erfahren',
+    viewAllGenerators: 'Alle 33 Generatoren ansehen',
+  },
+};
+
+// Real apps with their product page slugs and German translations
 const categories: Category[] = [
   {
     id: 'math',
-    name: 'Math',
+    nameEn: 'Math',
+    nameDe: 'Mathematik',
     icon: '🔢',
     gradient: 'from-cyan-500/10 to-blue-500/10',
     borderColor: 'border-cyan-500/20',
     apps: [
-      { name: 'Addition', slug: 'addition-worksheets', icon: '➕', description: 'Visual counting & sums' },
-      { name: 'Code Addition', slug: 'code-addition-worksheets', icon: '🔐', description: 'Crack the code math' },
-      { name: 'Math Worksheet', slug: 'math-worksheets', icon: '📐', description: 'Custom math problems' },
-      { name: 'Chart Count', slug: 'chart-count-worksheets', icon: '📊', description: 'Counting with charts' },
+      { nameEn: 'Addition', nameDe: 'Addition', slug: 'addition-worksheets', icon: '➕', descriptionEn: 'Visual counting & sums', descriptionDe: 'Anschauliches Zählen & Rechnen' },
+      { nameEn: 'Code Addition', nameDe: 'Rechencode', slug: 'code-addition-worksheets', icon: '🔐', descriptionEn: 'Crack the code math', descriptionDe: 'Knack den Zahlencode' },
+      { nameEn: 'Math Worksheet', nameDe: 'Mathe-Arbeitsblatt', slug: 'math-worksheets', icon: '📐', descriptionEn: 'Custom math problems', descriptionDe: 'Individuelle Rechenaufgaben' },
+      { nameEn: 'Chart Count', nameDe: 'Diagramm-Zählen', slug: 'chart-count-worksheets', icon: '📊', descriptionEn: 'Counting with charts', descriptionDe: 'Zählen mit Diagrammen' },
     ],
   },
   {
     id: 'language',
-    name: 'Language',
+    nameEn: 'Language',
+    nameDe: 'Sprache',
     icon: '📝',
     gradient: 'from-purple-500/10 to-pink-500/10',
     borderColor: 'border-purple-500/20',
     apps: [
-      { name: 'Word Search', slug: 'word-search-worksheets', icon: '🔍', description: 'Hidden word puzzles' },
-      { name: 'Crossword', slug: 'crossword-worksheets', icon: '⬜', description: 'Classic word puzzles' },
-      { name: 'Cryptogram', slug: 'cryptogram-worksheets', icon: '🔮', description: 'Secret message codes' },
-      { name: 'Word Scramble', slug: 'word-scramble-worksheets', icon: '🔀', description: 'Unscramble letters' },
+      { nameEn: 'Word Search', nameDe: 'Wortsuche', slug: 'word-search-worksheets', icon: '🔍', descriptionEn: 'Hidden word puzzles', descriptionDe: 'Versteckte Wörter finden' },
+      { nameEn: 'Crossword', nameDe: 'Kreuzworträtsel', slug: 'crossword-worksheets', icon: '⬜', descriptionEn: 'Classic word puzzles', descriptionDe: 'Klassische Worträtsel' },
+      { nameEn: 'Cryptogram', nameDe: 'Kryptogramm', slug: 'cryptogram-worksheets', icon: '🔮', descriptionEn: 'Secret message codes', descriptionDe: 'Geheime Botschaften' },
+      { nameEn: 'Word Scramble', nameDe: 'Buchstabensalat', slug: 'word-scramble-worksheets', icon: '🔀', descriptionEn: 'Unscramble letters', descriptionDe: 'Buchstaben entwirren' },
     ],
   },
   {
     id: 'visual',
-    name: 'Visual Learning',
+    nameEn: 'Visual Learning',
+    nameDe: 'Visuelles Lernen',
     icon: '👁️',
     gradient: 'from-amber-500/10 to-orange-500/10',
     borderColor: 'border-amber-500/20',
     apps: [
-      { name: 'Matching', slug: 'matching-worksheets', icon: '🎯', description: 'Match pairs together' },
-      { name: 'Drawing Lines', slug: 'drawing-lines-worksheets', icon: '✏️', description: 'Trace & connect' },
-      { name: 'Find Objects', slug: 'find-objects-worksheets', icon: '🔎', description: 'I Spy activities' },
-      { name: 'Grid Match', slug: 'grid-match-worksheets', icon: '🔲', description: 'Pattern matching' },
-      { name: 'Find & Count', slug: 'find-and-count-worksheets', icon: '🧮', description: 'Count hidden items' },
+      { nameEn: 'Matching', nameDe: 'Zuordnung', slug: 'matching-worksheets', icon: '🎯', descriptionEn: 'Match pairs together', descriptionDe: 'Paare zuordnen' },
+      { nameEn: 'Drawing Lines', nameDe: 'Linien zeichnen', slug: 'drawing-lines-worksheets', icon: '✏️', descriptionEn: 'Trace & connect', descriptionDe: 'Nachspuren & Verbinden' },
+      { nameEn: 'Find Objects', nameDe: 'Suchbilder', slug: 'find-objects-worksheets', icon: '🔎', descriptionEn: 'I Spy activities', descriptionDe: 'Objekte suchen & finden' },
+      { nameEn: 'Grid Match', nameDe: 'Gitter-Zuordnung', slug: 'grid-match-worksheets', icon: '🔲', descriptionEn: 'Pattern matching', descriptionDe: 'Muster erkennen' },
+      { nameEn: 'Find & Count', nameDe: 'Suchen & Zählen', slug: 'find-and-count-worksheets', icon: '🧮', descriptionEn: 'Count hidden items', descriptionDe: 'Versteckte Objekte zählen' },
     ],
   },
   {
     id: 'creative',
-    name: 'Creative',
+    nameEn: 'Creative',
+    nameDe: 'Kreativ',
     icon: '🎨',
     gradient: 'from-green-500/10 to-emerald-500/10',
     borderColor: 'border-green-500/20',
     apps: [
-      { name: 'Coloring', slug: 'coloring-worksheets', icon: '🖍️', description: 'Color by sections' },
-      { name: 'Draw & Color', slug: 'draw-and-color-worksheets', icon: '🎨', description: 'Grid drawing' },
-      { name: 'Alphabet Train', slug: 'alphabet-train-worksheets', icon: '🚂', description: 'ABC on trains' },
-      { name: 'Picture Bingo', slug: 'picture-bingo-worksheets', icon: '🎰', description: 'Visual bingo cards' },
+      { nameEn: 'Coloring', nameDe: 'Ausmalen', slug: 'coloring-worksheets', icon: '🖍️', descriptionEn: 'Color by sections', descriptionDe: 'Nach Bereichen ausmalen' },
+      { nameEn: 'Draw & Color', nameDe: 'Zeichnen & Ausmalen', slug: 'draw-and-color-worksheets', icon: '🎨', descriptionEn: 'Grid drawing', descriptionDe: 'Rasterzeichnen' },
+      { nameEn: 'Alphabet Train', nameDe: 'ABC-Zug', slug: 'alphabet-train-worksheets', icon: '🚂', descriptionEn: 'ABC on trains', descriptionDe: 'Buchstaben auf Zügen' },
+      { nameEn: 'Picture Bingo', nameDe: 'Bilder-Bingo', slug: 'picture-bingo-worksheets', icon: '🎰', descriptionEn: 'Visual bingo cards', descriptionDe: 'Bingokarten mit Bildern' },
     ],
   },
   {
     id: 'logic',
-    name: 'Logic & Puzzles',
+    nameEn: 'Logic & Puzzles',
+    nameDe: 'Logik & Rätsel',
     icon: '🧩',
     gradient: 'from-rose-500/10 to-red-500/10',
     borderColor: 'border-rose-500/20',
     apps: [
-      { name: 'Sudoku', slug: 'sudoku-worksheets', icon: '🔢', description: 'Number logic grids' },
-      { name: 'Big & Small', slug: 'big-small-worksheets', icon: '📏', description: 'Size comparison' },
+      { nameEn: 'Sudoku', nameDe: 'Sudoku', slug: 'sudoku-worksheets', icon: '🔢', descriptionEn: 'Number logic grids', descriptionDe: 'Zahlenrätsel' },
+      { nameEn: 'Big & Small', nameDe: 'Groß & Klein', slug: 'big-small-worksheets', icon: '📏', descriptionEn: 'Size comparison', descriptionDe: 'Größenvergleich' },
     ],
   },
 ];
@@ -95,6 +127,14 @@ const categories: Category[] = [
 export default function AppCategories({ locale }: AppCategoriesProps) {
   const [activeCategory, setActiveCategory] = useState<string>('math');
   const [hoveredApp, setHoveredApp] = useState<string | null>(null);
+
+  // Get content for current locale, fallback to English
+  const content = localeContent[locale] || localeContent.en;
+
+  // Helper functions for localized content
+  const getCategoryName = (category: Category) => locale === 'de' ? category.nameDe : category.nameEn;
+  const getAppName = (app: App) => locale === 'de' ? app.nameDe : app.nameEn;
+  const getAppDescription = (app: App) => locale === 'de' ? app.descriptionDe : app.descriptionEn;
 
   const activeData = categories.find(c => c.id === activeCategory);
 
@@ -150,17 +190,17 @@ export default function AppCategories({ locale }: AppCategoriesProps) {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-amber-100 border border-amber-200"
           >
             <span className="text-amber-600">✨</span>
-            <span className="text-sm font-medium text-amber-700">33 Worksheet Generators</span>
+            <span className="text-sm font-medium text-amber-700">{content.badge}</span>
           </motion.div>
 
           <h2
             className="text-3xl sm:text-4xl lg:text-5xl font-bold text-stone-800 mb-4"
             style={{ fontFamily: 'var(--font-cormorant), Georgia, serif' }}
           >
-            Browse by Category
+            {content.title}
           </h2>
           <p className="text-lg text-stone-600 max-w-2xl mx-auto">
-            From math exercises to creative activities, find the perfect worksheet generator for your classroom.
+            {content.subtitle}
           </p>
         </motion.div>
 
@@ -193,7 +233,7 @@ export default function AppCategories({ locale }: AppCategoriesProps) {
               )}
               <span className="relative z-10 flex items-center gap-2">
                 <span>{category.icon}</span>
-                <span>{category.name}</span>
+                <span>{getCategoryName(category)}</span>
               </span>
             </button>
           ))}
@@ -247,17 +287,17 @@ export default function AppCategories({ locale }: AppCategoriesProps) {
 
                         {/* Name */}
                         <h3 className="text-lg font-bold text-stone-800 mb-1 group-hover:text-stone-900">
-                          {app.name}
+                          {getAppName(app)}
                         </h3>
 
                         {/* Description */}
                         <p className="text-sm text-stone-500 mb-4">
-                          {app.description}
+                          {getAppDescription(app)}
                         </p>
 
                         {/* Link indicator */}
                         <div className="flex items-center gap-1 text-sm font-medium text-amber-600 group-hover:text-amber-700">
-                          <span>Learn more</span>
+                          <span>{content.learnMore}</span>
                           <motion.svg
                             className="w-4 h-4"
                             fill="none"
@@ -289,7 +329,7 @@ export default function AppCategories({ locale }: AppCategoriesProps) {
             href={`/${locale}/apps`}
             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-semibold text-white bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 shadow-lg shadow-amber-500/25 transition-all duration-300 hover:shadow-xl hover:shadow-amber-500/30"
           >
-            View All 33 Generators
+            {content.viewAllGenerators}
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>

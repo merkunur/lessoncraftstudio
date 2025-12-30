@@ -7,7 +7,45 @@ interface HomepageCTAProps {
   locale: string;
 }
 
+// Localization content
+const localeContent: Record<string, {
+  badge: string;
+  titleStart: string;
+  titleHighlight: string;
+  subtitle: string;
+  ctaPrimary: string;
+  ctaSecondary: string;
+  trustNoCard: string;
+  trustFreeGenerators: string;
+  trustCancelAnytime: string;
+}> = {
+  en: {
+    badge: 'Join Thousands of Educators',
+    titleStart: 'Ready to Create ',
+    titleHighlight: 'Professional Worksheets',
+    subtitle: 'Start with our free tier. Try Word Search, Crossword, and Math Worksheets. Upgrade anytime for full access to all 33 generators.',
+    ctaPrimary: 'Start Free Trial',
+    ctaSecondary: 'View All 33 Generators',
+    trustNoCard: 'No credit card required',
+    trustFreeGenerators: '3 free generators',
+    trustCancelAnytime: 'Cancel anytime',
+  },
+  de: {
+    badge: 'Tausende Lehrkräfte vertrauen uns',
+    titleStart: 'Bereit, ',
+    titleHighlight: 'professionelle Arbeitsblätter',
+    subtitle: 'Starten Sie kostenlos. Testen Sie Wortsuche, Kreuzworträtsel und Mathe-Arbeitsblätter. Jederzeit auf alle 33 Generatoren erweitern.',
+    ctaPrimary: 'Kostenlos starten',
+    ctaSecondary: 'Alle 33 Generatoren ansehen',
+    trustNoCard: 'Keine Kreditkarte erforderlich',
+    trustFreeGenerators: '3 kostenlose Generatoren',
+    trustCancelAnytime: 'Jederzeit kündbar',
+  },
+};
+
 export default function HomepageCTA({ locale }: HomepageCTAProps) {
+  // Get content for current locale, fallback to English
+  const content = localeContent[locale] || localeContent.en;
   return (
     <section className="relative py-24 overflow-hidden">
       {/* Dark gradient background */}
@@ -104,7 +142,7 @@ export default function HomepageCTA({ locale }: HomepageCTAProps) {
               transition={{ duration: 2, repeat: Infinity }}
             />
             <span className="text-sm font-medium text-cyan-300">
-              Join Thousands of Educators
+              {content.badge}
             </span>
           </motion.div>
 
@@ -117,16 +155,16 @@ export default function HomepageCTA({ locale }: HomepageCTAProps) {
             className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 leading-tight"
             style={{ fontFamily: 'var(--font-cormorant), Georgia, serif' }}
           >
-            Ready to Create{' '}
+            {content.titleStart}
             <span
               className="bg-clip-text text-transparent"
               style={{
                 backgroundImage: 'linear-gradient(135deg, #06b6d4 0%, #a855f7 50%, #ec4899 100%)',
               }}
             >
-              Professional Worksheets
+              {content.titleHighlight}
             </span>
-            ?
+            {locale === 'de' ? ' zu erstellen?' : '?'}
           </motion.h2>
 
           {/* Subtitle */}
@@ -137,8 +175,7 @@ export default function HomepageCTA({ locale }: HomepageCTAProps) {
             transition={{ delay: 0.4 }}
             className="text-lg sm:text-xl text-white/60 mb-10 max-w-2xl mx-auto"
           >
-            Start with our free tier. Try Word Search, Crossword, and Math Worksheets.
-            Upgrade anytime for full access to all 33 generators.
+            {content.subtitle}
           </motion.p>
 
           {/* CTAs */}
@@ -158,7 +195,7 @@ export default function HomepageCTA({ locale }: HomepageCTAProps) {
               }}
             >
               <span className="relative z-10 flex items-center justify-center gap-2">
-                Start Free Trial
+                {content.ctaPrimary}
                 <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
@@ -170,7 +207,7 @@ export default function HomepageCTA({ locale }: HomepageCTAProps) {
               href={`/${locale}/apps`}
               className="group px-8 py-4 rounded-xl font-semibold text-white/90 border border-white/20 hover:border-white/40 hover:bg-white/5 transition-all duration-300 flex items-center justify-center gap-2"
             >
-              View All 33 Generators
+              {content.ctaSecondary}
               <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 10h16M4 14h16M4 18h16" />
               </svg>
@@ -189,19 +226,19 @@ export default function HomepageCTA({ locale }: HomepageCTAProps) {
               <svg className="w-4 h-4 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
-              <span>No credit card required</span>
+              <span>{content.trustNoCard}</span>
             </div>
             <div className="flex items-center gap-2">
               <svg className="w-4 h-4 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
-              <span>3 free generators</span>
+              <span>{content.trustFreeGenerators}</span>
             </div>
             <div className="flex items-center gap-2">
               <svg className="w-4 h-4 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
-              <span>Cancel anytime</span>
+              <span>{content.trustCancelAnytime}</span>
             </div>
           </motion.div>
         </motion.div>

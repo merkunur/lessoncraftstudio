@@ -7,38 +7,69 @@ import Link from 'next/link';
 interface Step {
   number: number;
   icon: string;
-  title: string;
-  description: string;
+  titleEn: string;
+  titleDe: string;
+  descriptionEn: string;
+  descriptionDe: string;
 }
 
 interface HowItWorksProps {
   locale: string;
 }
 
+// Localization content
+const localeContent: Record<string, {
+  badge: string;
+  title: string;
+  subtitle: string;
+  ctaButton: string;
+}> = {
+  en: {
+    badge: 'Quick Start',
+    title: 'How It Works',
+    subtitle: 'Create professional worksheets in 4 simple steps. No design skills required.',
+    ctaButton: 'Start Creating Now',
+  },
+  de: {
+    badge: 'Schnellstart',
+    title: 'So funktioniert es',
+    subtitle: 'Erstellen Sie professionelle Arbeitsblätter in 4 einfachen Schritten. Keine Designkenntnisse erforderlich.',
+    ctaButton: 'Jetzt starten',
+  },
+};
+
 const steps: Step[] = [
   {
     number: 1,
     icon: '🎯',
-    title: 'Choose a Generator',
-    description: 'Select from 33 professional worksheet generators. Math, language, puzzles, and creative activities for all ages.',
+    titleEn: 'Choose a Generator',
+    titleDe: 'Generator auswählen',
+    descriptionEn: 'Select from 33 professional worksheet generators. Math, language, puzzles, and creative activities for all ages.',
+    descriptionDe: 'Wählen Sie aus 33 professionellen Arbeitsblatt-Generatoren. Mathematik, Sprache, Rätsel und kreative Aktivitäten für alle Altersgruppen.',
   },
   {
     number: 2,
     icon: '🖼️',
-    title: 'Select Your Theme',
-    description: 'Browse 3000+ child-friendly images organized by category. Animals, food, vehicles, seasons, and more.',
+    titleEn: 'Select Your Theme',
+    titleDe: 'Thema wählen',
+    descriptionEn: 'Browse 3000+ child-friendly images organized by category. Animals, food, vehicles, seasons, and more.',
+    descriptionDe: 'Durchsuchen Sie über 3000 kindgerechte Bilder nach Kategorien. Tiere, Essen, Fahrzeuge, Jahreszeiten und mehr.',
   },
   {
     number: 3,
     icon: '✨',
-    title: 'Customize',
-    description: 'Edit every element on the canvas. Add text, upload images, adjust difficulty. Make it perfect for your students.',
+    titleEn: 'Customize',
+    titleDe: 'Anpassen',
+    descriptionEn: 'Edit every element on the canvas. Add text, upload images, adjust difficulty. Make it perfect for your students.',
+    descriptionDe: 'Bearbeiten Sie jedes Element auf der Arbeitsfläche. Text hinzufügen, Bilder hochladen, Schwierigkeit anpassen. Perfekt für Ihre Schüler.',
   },
   {
     number: 4,
     icon: '📥',
-    title: 'Download & Print',
-    description: 'Export as high-quality PDF at 300 DPI. Answer keys included. Print or sell commercially.',
+    titleEn: 'Download & Print',
+    titleDe: 'Herunterladen & Drucken',
+    descriptionEn: 'Export as high-quality PDF at 300 DPI. Answer keys included. Print or sell commercially.',
+    descriptionDe: 'Exportieren Sie als hochwertiges PDF mit 300 DPI. Lösungsblätter inklusive. Drucken oder kommerziell verkaufen.',
   },
 ];
 
@@ -50,6 +81,13 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
   });
 
   const lineHeight = useTransform(scrollYProgress, [0.1, 0.9], ["0%", "100%"]);
+
+  // Get content for current locale, fallback to English
+  const content = localeContent[locale] || localeContent.en;
+
+  // Helper functions for localized content
+  const getStepTitle = (step: Step) => locale === 'de' ? step.titleDe : step.titleEn;
+  const getStepDescription = (step: Step) => locale === 'de' ? step.descriptionDe : step.descriptionEn;
 
   return (
     <section
@@ -86,17 +124,17 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-stone-100 border border-stone-200"
           >
             <span className="text-stone-600">🚀</span>
-            <span className="text-sm font-medium text-stone-700">Quick Start</span>
+            <span className="text-sm font-medium text-stone-700">{content.badge}</span>
           </motion.div>
 
           <h2
             className="text-3xl sm:text-4xl lg:text-5xl font-bold text-stone-800 mb-4"
             style={{ fontFamily: 'var(--font-cormorant), Georgia, serif' }}
           >
-            How It Works
+            {content.title}
           </h2>
           <p className="text-lg text-stone-600 max-w-2xl mx-auto">
-            Create professional worksheets in 4 simple steps. No design skills required.
+            {content.subtitle}
           </p>
         </motion.div>
 
@@ -152,10 +190,10 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
                       <div className="text-3xl flex-shrink-0">{step.icon}</div>
                       <div className="flex-1">
                         <h3 className="text-xl font-bold text-stone-800 mb-2">
-                          {step.title}
+                          {getStepTitle(step)}
                         </h3>
                         <p className="text-stone-600 text-sm leading-relaxed">
-                          {step.description}
+                          {getStepDescription(step)}
                         </p>
                       </div>
                     </div>
@@ -193,7 +231,7 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
             href={`/${locale}/auth/signup`}
             className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-semibold text-white bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 shadow-lg shadow-amber-500/25 transition-all duration-300 hover:shadow-xl hover:shadow-amber-500/30"
           >
-            Start Creating Now
+            {content.ctaButton}
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>

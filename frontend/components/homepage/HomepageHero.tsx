@@ -9,10 +9,58 @@ interface HomepageHeroProps {
   locale: string;
 }
 
+// Localization content - native language versions
+const localeContent: Record<string, {
+  badge: string;
+  titleLine1: string;
+  titleHighlight: string;
+  titleLine2: string;
+  subtitle: string;
+  ctaPrimary: string;
+  ctaSecondary: string;
+  trustLanguages: string;
+  trustImages: string;
+  trustLicense: string;
+  answerKey: string;
+  previewTitles: string[];
+}> = {
+  en: {
+    badge: '33 Professional Worksheet Generators',
+    titleLine1: 'Create ',
+    titleHighlight: 'Beautiful',
+    titleLine2: 'Educational Materials',
+    subtitle: 'Professional worksheet generators trusted by teachers worldwide. Create, customize, and download in minutes.',
+    ctaPrimary: 'View Free Samples',
+    ctaSecondary: 'See All Generators',
+    trustLanguages: '11 Languages',
+    trustImages: '3000+ Images',
+    trustLicense: 'Commercial License',
+    answerKey: 'Answer Key',
+    previewTitles: ['Addition', 'Word Search'],
+  },
+  de: {
+    badge: '33 professionelle Arbeitsblatt-Generatoren',
+    titleLine1: 'Erstellen Sie ',
+    titleHighlight: 'wunderschöne',
+    titleLine2: 'Unterrichtsmaterialien',
+    subtitle: 'Professionelle Arbeitsblatt-Generatoren, denen Lehrkräfte weltweit vertrauen. Erstellen, anpassen und herunterladen – in wenigen Minuten.',
+    ctaPrimary: 'Kostenlose Beispiele ansehen',
+    ctaSecondary: 'Alle Generatoren entdecken',
+    trustLanguages: '11 Sprachen',
+    trustImages: '3000+ Bilder',
+    trustLicense: 'Kommerzielle Nutzung',
+    answerKey: 'Lösungsschlüssel',
+    previewTitles: ['Addition', 'Wortsuche'],
+  },
+};
+
 export default function HomepageHero({ locale }: HomepageHeroProps) {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isHovered, setIsHovered] = useState<'left' | 'right' | null>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+
+  // Get content for current locale, fallback to English
+  const content = localeContent[locale] || localeContent.en;
 
   const { scrollY } = useScroll();
   const y1 = useTransform(scrollY, [0, 500], [0, 150]);
@@ -48,13 +96,13 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
   const previewWorksheets = [
     {
       src: '/samples/english/addition/addition_worksheet portrait.jpeg',
-      alt: 'Addition Worksheet Sample',
-      title: 'Addition',
+      alt: locale === 'de' ? 'Additions-Arbeitsblatt Beispiel' : 'Addition Worksheet Sample',
+      title: content.previewTitles[0],
     },
     {
       src: '/samples/english/wordsearch/wordsearch landscape.jpeg',
-      alt: 'Word Search Worksheet Sample',
-      title: 'Word Search',
+      alt: locale === 'de' ? 'Wortsuche-Arbeitsblatt Beispiel' : 'Word Search Worksheet Sample',
+      title: content.previewTitles[1],
     },
   ];
 
@@ -233,7 +281,7 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
                   transition={{ duration: 2, repeat: Infinity }}
                 />
                 <span className="text-sm font-medium text-cyan-300">
-                  33 Professional Worksheet Generators
+                  {content.badge}
                 </span>
               </motion.div>
 
@@ -245,17 +293,17 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
                 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black leading-[1.1] tracking-tight mb-6"
                 style={{ fontFamily: 'var(--font-space-grotesk), system-ui, sans-serif' }}
               >
-                <span className="text-white">Create </span>
+                <span className="text-white">{content.titleLine1}</span>
                 <span
                   className="bg-clip-text text-transparent"
                   style={{
                     backgroundImage: 'linear-gradient(135deg, #06b6d4 0%, #a855f7 50%, #ec4899 100%)',
                   }}
                 >
-                  Beautiful
+                  {content.titleHighlight}
                 </span>
                 <br />
-                <span className="text-white">Educational Materials</span>
+                <span className="text-white">{content.titleLine2}</span>
               </motion.h1>
 
               {/* Subtitle */}
@@ -265,8 +313,7 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
                 transition={{ delay: 0.4 }}
                 className="text-lg sm:text-xl text-white/60 mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed"
               >
-                Professional worksheet generators trusted by teachers worldwide.
-                Create, customize, and download in minutes.
+                {content.subtitle}
               </motion.p>
 
               {/* CTAs */}
@@ -285,7 +332,7 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
                   }}
                 >
                   <span className="relative z-10 flex items-center justify-center gap-2">
-                    View Free Samples
+                    {content.ctaPrimary}
                     <svg className="w-5 h-5 transition-transform group-hover:translate-y-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
                     </svg>
@@ -297,7 +344,7 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
                   href={`/${locale}/apps`}
                   className="group px-8 py-4 rounded-xl font-semibold text-white/90 border border-white/20 hover:border-white/40 hover:bg-white/5 transition-all duration-300 flex items-center justify-center gap-2"
                 >
-                  See All Generators
+                  {content.ctaSecondary}
                   <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
@@ -312,9 +359,9 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
                 className="flex flex-wrap gap-6 justify-center lg:justify-start"
               >
                 {[
-                  { icon: '🌍', label: '11 Languages' },
-                  { icon: '🎨', label: '3000+ Images' },
-                  { icon: '💼', label: 'Commercial License' },
+                  { icon: '🌍', label: content.trustLanguages },
+                  { icon: '🎨', label: content.trustImages },
+                  { icon: '💼', label: content.trustLicense },
                 ].map((badge, index) => (
                   <div
                     key={index}
@@ -455,7 +502,7 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
                       <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                       </svg>
-                      Answer Key
+                      {content.answerKey}
                     </motion.div>
                   </div>
                 </motion.div>

@@ -150,7 +150,7 @@ export default async function HomePage({ params }: { params: { locale: string } 
       <AppCategories locale={locale} />
 
       {/* Features - Warm amber accents */}
-      <HomepageFeatures />
+      <HomepageFeatures locale={locale} />
 
       {/* How It Works - Timeline */}
       <HowItWorks locale={locale} />

@@ -4,52 +4,106 @@ import { motion } from 'framer-motion';
 
 interface Feature {
   icon: string;
-  title: string;
-  description: string;
+  titleEn: string;
+  titleDe: string;
+  descriptionEn: string;
+  descriptionDe: string;
   highlighted?: boolean;
 }
+
+interface HomepageFeaturesProps {
+  locale: string;
+}
+
+// Localization content
+const localeContent: Record<string, {
+  badge: string;
+  title: string;
+  subtitle: string;
+  keyFeature: string;
+  noFees: string;
+  unlimitedDownloads: string;
+  autoAnswerKeys: string;
+}> = {
+  en: {
+    badge: 'Platform Features',
+    title: 'Everything You Need',
+    subtitle: 'Professional tools designed for educators. Create worksheets that look like they took hours, in just minutes.',
+    keyFeature: '⭐ Key Feature',
+    noFees: 'No per-worksheet fees',
+    unlimitedDownloads: 'Unlimited downloads',
+    autoAnswerKeys: 'Auto-generated answer keys',
+  },
+  de: {
+    badge: 'Plattform-Funktionen',
+    title: 'Alles, was Sie brauchen',
+    subtitle: 'Professionelle Werkzeuge für Lehrkräfte. Erstellen Sie Arbeitsblätter in wenigen Minuten, die aussehen, als hätten Sie Stunden daran gearbeitet.',
+    keyFeature: '⭐ Highlight',
+    noFees: 'Keine Kosten pro Arbeitsblatt',
+    unlimitedDownloads: 'Unbegrenzte Downloads',
+    autoAnswerKeys: 'Automatische Lösungsblätter',
+  },
+};
 
 // Real features only - no fake information
 const features: Feature[] = [
   {
     icon: '⚡',
-    title: 'Create in Under 3 Minutes',
-    description: 'Generate complete worksheets instantly. Select your theme, customize settings, and download professional PDFs ready for printing.',
+    titleEn: 'Create in Under 3 Minutes',
+    titleDe: 'Erstellen in unter 3 Minuten',
+    descriptionEn: 'Generate complete worksheets instantly. Select your theme, customize settings, and download professional PDFs ready for printing.',
+    descriptionDe: 'Generieren Sie fertige Arbeitsblätter im Handumdrehen. Wählen Sie Ihr Thema, passen Sie die Einstellungen an und laden Sie druckfertige PDFs herunter.',
     highlighted: false,
   },
   {
     icon: '🎨',
-    title: '3000+ Child-Friendly Images',
-    description: 'Browse our curated library organized by themes: animals, food, vehicles, nature, seasons, and more. Search or filter to find exactly what you need.',
+    titleEn: '3000+ Child-Friendly Images',
+    titleDe: 'Über 3000 kindgerechte Bilder',
+    descriptionEn: 'Browse our curated library organized by themes: animals, food, vehicles, nature, seasons, and more. Search or filter to find exactly what you need.',
+    descriptionDe: 'Durchsuchen Sie unsere Bilderbibliothek nach Themen: Tiere, Essen, Fahrzeuge, Natur, Jahreszeiten und vieles mehr. Suchen und filtern Sie, um genau das Richtige zu finden.',
     highlighted: false,
   },
   {
     icon: '🌍',
-    title: '11 Languages Supported',
-    description: 'Create worksheets in English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish.',
+    titleEn: '11 Languages Supported',
+    titleDe: '11 Sprachen verfügbar',
+    descriptionEn: 'Create worksheets in English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish.',
+    descriptionDe: 'Erstellen Sie Arbeitsblätter auf Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch.',
     highlighted: false,
   },
   {
     icon: '✏️',
-    title: 'Full Canvas Editing',
-    description: 'Every element is editable. Drag to move, resize with handles, rotate freely. Add custom text with 7 fonts. Upload your own images.',
+    titleEn: 'Full Canvas Editing',
+    titleDe: 'Vollständige Bearbeitung',
+    descriptionEn: 'Every element is editable. Drag to move, resize with handles, rotate freely. Add custom text with 7 fonts. Upload your own images.',
+    descriptionDe: 'Jedes Element ist bearbeitbar. Verschieben, skalieren und drehen Sie frei. Fügen Sie Text mit 7 Schriftarten hinzu. Laden Sie eigene Bilder hoch.',
     highlighted: false,
   },
   {
     icon: '💰',
-    title: 'Commercial License Included',
-    description: 'Sell your worksheets on Teachers Pay Teachers, Etsy, or Amazon KDP. No attribution required. No extra licensing fees.',
+    titleEn: 'Commercial License Included',
+    titleDe: 'Kommerzielle Nutzung inklusive',
+    descriptionEn: 'Sell your worksheets on Teachers Pay Teachers, Etsy, or Amazon KDP. No attribution required. No extra licensing fees.',
+    descriptionDe: 'Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers, Etsy oder Amazon KDP. Keine Quellenangabe nötig. Keine zusätzlichen Lizenzgebühren.',
     highlighted: true,
   },
   {
     icon: '🖨️',
-    title: '300 DPI Print Quality',
-    description: 'Export high-resolution PDFs perfect for classroom printing and commercial publishing. Answer keys included automatically.',
+    titleEn: '300 DPI Print Quality',
+    titleDe: '300 DPI Druckqualität',
+    descriptionEn: 'Export high-resolution PDFs perfect for classroom printing and commercial publishing. Answer keys included automatically.',
+    descriptionDe: 'Exportieren Sie hochauflösende PDFs, perfekt für den Klassenraum oder die kommerzielle Veröffentlichung. Lösungsblätter werden automatisch erstellt.',
     highlighted: true,
   },
 ];
 
-export default function HomepageFeatures() {
+export default function HomepageFeatures({ locale }: HomepageFeaturesProps) {
+  // Get content for current locale, fallback to English
+  const content = localeContent[locale] || localeContent.en;
+
+  // Helper functions for localized content
+  const getFeatureTitle = (feature: Feature) => locale === 'de' ? feature.titleDe : feature.titleEn;
+  const getFeatureDescription = (feature: Feature) => locale === 'de' ? feature.descriptionDe : feature.descriptionEn;
   return (
     <section className="relative py-24 overflow-hidden">
       {/* Warm gradient background */}
@@ -112,17 +166,17 @@ export default function HomepageFeatures() {
             className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-6 bg-amber-200/50 border border-amber-300"
           >
             <span className="text-amber-700">🌟</span>
-            <span className="text-sm font-medium text-amber-800">Platform Features</span>
+            <span className="text-sm font-medium text-amber-800">{content.badge}</span>
           </motion.div>
 
           <h2
             className="text-3xl sm:text-4xl lg:text-5xl font-bold text-stone-800 mb-4"
             style={{ fontFamily: 'var(--font-cormorant), Georgia, serif' }}
           >
-            Everything You Need
+            {content.title}
           </h2>
           <p className="text-lg text-stone-600 max-w-2xl mx-auto">
-            Professional tools designed for educators. Create worksheets that look like they took hours, in just minutes.
+            {content.subtitle}
           </p>
         </motion.div>
 
@@ -157,7 +211,7 @@ export default function HomepageFeatures() {
                 {feature.highlighted && (
                   <div className="absolute -top-3 left-6">
                     <div className="px-3 py-1 rounded-full text-xs font-semibold text-white bg-gradient-to-r from-amber-500 to-orange-500 shadow-lg">
-                      ⭐ Key Feature
+                      {content.keyFeature}
                     </div>
                   </div>
                 )}
@@ -183,12 +237,12 @@ export default function HomepageFeatures() {
                   `}
                   style={{ fontFamily: 'var(--font-cormorant), Georgia, serif' }}
                 >
-                  {feature.title}
+                  {getFeatureTitle(feature)}
                 </h3>
 
                 {/* Description */}
                 <p className={`text-sm leading-relaxed ${feature.highlighted ? 'text-stone-700' : 'text-stone-600'}`}>
-                  {feature.description}
+                  {getFeatureDescription(feature)}
                 </p>
               </motion.div>
             </motion.div>
@@ -209,21 +263,21 @@ export default function HomepageFeatures() {
                 <svg className="w-5 h-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span>No per-worksheet fees</span>
+                <span>{content.noFees}</span>
               </div>
               <div className="w-px h-5 bg-stone-200 hidden sm:block" />
               <div className="flex items-center gap-2">
                 <svg className="w-5 h-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span>Unlimited downloads</span>
+                <span>{content.unlimitedDownloads}</span>
               </div>
               <div className="w-px h-5 bg-stone-200 hidden sm:block" />
               <div className="flex items-center gap-2">
                 <svg className="w-5 h-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                 </svg>
-                <span>Auto-generated answer keys</span>
+                <span>{content.autoAnswerKeys}</span>
               </div>
             </div>
           </div>

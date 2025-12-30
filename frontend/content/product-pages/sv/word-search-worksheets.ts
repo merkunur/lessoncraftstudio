@@ -4,13 +4,23 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  * Word Search Worksheets - Swedish Content
  *
  * File: frontend/content/product-pages/sv/word-search-worksheets.ts
- * URL: /sv/apps/word-search-worksheets
+ * URL: /sv/apps/ordletar-arbetsblad (Swedish SEO-optimized slug)
  *
  * FULL SEO content from: INDIVIDUAL APP PAGES/Swedish/wordsearch.md
  * DO NOT SHORTEN - Every paragraph is SEO-optimized
  */
 
 export const wordSearchSvContent: ProductPageContent = {
+  // SEO Metadata - Swedish language-specific
+  seo: {
+    slug: 'ordletar-arbetsblad',
+    appId: 'word-search',
+    title: 'Gratis Ordletare Generator | Arbetsblad för Förskoleklass och Lågstadiet',
+    description: 'Skapa professionella ordletarpussel med vår gratis ordletare generator. Perfekt för förskoleklass material och lågstadiet. Ladda ner arbetsblad gratis som högkvalitativa PDF-filer på under tre minuter.',
+    keywords: 'ordletare generator, arbetsblad gratis, förskoleklass material, matematik arbetsblad, ordletarpussel, gratis arbetsblad, lågstadiet, bokstäver lära sig, skriva bokstäver, målarbilder barn',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad',
+  },
+
   // Hero Section - FULL text from wordsearch.md paragraphs 1-4
   hero: {
     title: 'Gratis Ordletare Generator',

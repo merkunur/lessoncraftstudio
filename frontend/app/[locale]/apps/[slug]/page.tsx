@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import AutoLaunchApp from './AutoLaunchApp';
 import { notFound } from 'next/navigation';
 import ProductPageClient from '@/components/product-page/ProductPageClient';
+import { getContentBySlug, getAllStaticParams, getAlternateLanguageUrls } from '@/config/product-page-content';
 import additionEnContent from '@/content/product-pages/en/addition-worksheets';
 import wordSearchEnContent from '@/content/product-pages/en/word-search-worksheets';
 import alphabetTrainEnContent from '@/content/product-pages/en/alphabet-train-worksheets';
@@ -80,7 +81,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         follow: true,
       },
       alternates: {
-        canonical: `https://www.lessoncraftstudio.com/en/apps/word-search-worksheets`,
+        canonical: 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
+        },
       },
       openGraph: {
         title: 'Free Printable Word Search Worksheets | LessonCraftStudio',
@@ -92,8 +98,8 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  // Word Search Worksheets - Swedish product page SEO
-  if (params.slug === 'word-search-worksheets' && params.locale === 'sv') {
+  // Word Search Worksheets - Swedish product page SEO (new Swedish slug)
+  if (params.slug === 'ordletar-arbetsblad' && params.locale === 'sv') {
     return {
       title: 'Gratis Ordletare Generator | Arbetsblad för Förskoleklass och Lågstadiet',
       description: 'Skapa professionella ordletarpussel med vår gratis ordletare generator. Perfekt för förskoleklass material och lågstadiet. Ladda ner arbetsblad gratis som högkvalitativa PDF-filer på under tre minuter.',
@@ -103,14 +109,34 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         follow: true,
       },
       alternates: {
-        canonical: `https://www.lessoncraftstudio.com/sv/apps/word-search-worksheets`,
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
+        },
       },
       openGraph: {
         title: 'Gratis Ordletare Generator | LessonCraftStudio',
         description: 'Skapa professionella ordletarpussel med vår gratis ordletare generator. Perfekt för förskoleklass och lågstadiet.',
-        url: 'https://www.lessoncraftstudio.com/sv/apps/word-search-worksheets',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad',
         siteName: 'LessonCraftStudio',
         type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish slug to new slug (for backwards compatibility)
+  if (params.slug === 'word-search-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Gratis Ordletare Generator | Arbetsblad för Förskoleklass och Lågstadiet',
+      description: 'Skapa professionella ordletarpussel med vår gratis ordletare generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad', // Point to new URL
       },
     };
   }
@@ -3837,18 +3863,17 @@ function getTierLabel(tier: string, locale: string): string {
 }
 
 export default async function AppPage({ params: { locale, slug } }: PageProps) {
-  // Check if this is a product page with custom content
-  // Product pages with full SEO content
+  // Check if this is a product page with custom content using the content registry
+  // This handles both English slugs and language-specific slugs (e.g., 'ordletar-arbetsblad' for Swedish)
+  const content = getContentBySlug(locale, slug);
+  if (content) {
+    return <ProductPageClient locale={locale} content={content} />;
+  }
+
+  // Legacy fallback for content not yet in the registry
+  // TODO: Remove these once all content files have SEO sections
   if (slug === 'addition-worksheets' && locale === 'en') {
     return <ProductPageClient locale={locale} content={additionEnContent} />;
-  }
-
-  if (slug === 'word-search-worksheets' && locale === 'en') {
-    return <ProductPageClient locale={locale} content={wordSearchEnContent} />;
-  }
-
-  if (slug === 'word-search-worksheets' && locale === 'sv') {
-    return <ProductPageClient locale={locale} content={wordSearchSvContent} />;
   }
 
   if (slug === 'alphabet-train-worksheets' && locale === 'en') {
@@ -4096,7 +4121,8 @@ export async function generateStaticParams() {
   // List of all app slugs
   const apps = [
     'addition-worksheets', // Product page slug
-    'word-search-worksheets', // Product page slug
+    'word-search-worksheets', // Product page slug (English)
+    'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

@@ -23,8 +23,37 @@ interface AppCardProps {
   categoryName: string;
 }
 
-// Map app IDs to SEO-optimized product page slugs
+// Map app IDs to SEO-optimized product page slugs per locale
 // Apps without entries will fallback to their app ID
+// Language-specific slugs for better SEO in target markets
+const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string } } = {
+  'word-search': {
+    en: 'word-search-worksheets',
+    sv: 'ordletar-arbetsblad',
+    de: 'wortsuche-arbeitsblaetter',
+    fr: 'mots-caches-fiches',
+    es: 'sopa-letras-fichas',
+    it: 'cerca-parole-schede',
+    pt: 'caca-palavras-fichas',
+    nl: 'woordzoeker-werkbladen',
+    da: 'ordsoegning-arbejdsark',
+    no: 'ordsoek-arbeidsark',
+    fi: 'sananhaku-tyoarkit',
+  },
+};
+
+// Helper function to get the product page slug for an app in a specific locale
+function getProductSlug(appId: string, locale: string): string {
+  // First check if there's a locale-specific slug
+  const localeSlug = appIdToProductSlugByLocale[appId]?.[locale];
+  if (localeSlug) return localeSlug;
+
+  // Fallback to default (English) slug
+  return appIdToProductSlug[appId] || appId;
+}
+
+// Legacy: Map app IDs to default (English) product page slugs
+// Used as fallback when locale-specific slug is not available
 const appIdToProductSlug: { [key: string]: string } = {
   'word-search': 'word-search-worksheets',
   'image-addition': 'addition-worksheets',
@@ -203,8 +232,8 @@ export default function AppCard({ app, locale, appName, categoryName }: AppCardP
       const userTier = user?.subscriptionTier || 'free';
       window.open(`/worksheet-generators/${encodeURIComponent(htmlFile)}?tier=${userTier}&locale=${locale}`, '_blank');
     } else {
-      // User doesn't have access - navigate to product page (use mapped slug if available)
-      const productSlug = appIdToProductSlug[app.id] || app.id;
+      // User doesn't have access - navigate to product page (use locale-specific slug if available)
+      const productSlug = getProductSlug(app.id, locale);
       router.push(`/${locale}/apps/${productSlug}`);
     }
   };
@@ -236,9 +265,9 @@ export default function AppCard({ app, locale, appName, categoryName }: AppCardP
       <h3 className="font-semibold text-gray-900 mb-2">{appName}</h3>
       <p className="text-sm text-gray-600 mb-4">{categoryName}</p>
 
-      {/* Learn More button - links to SEO-optimized product page */}
+      {/* Learn More button - links to SEO-optimized product page (uses locale-specific slug) */}
       <Link
-        href={`/${locale}/apps/${appIdToProductSlug[app.id] || app.id}`}
+        href={`/${locale}/apps/${getProductSlug(app.id, locale)}`}
         onClick={(e) => e.stopPropagation()}
         className="inline-flex items-center justify-center w-full px-4 py-2 text-sm font-medium text-blue-600 bg-white border border-blue-200 rounded-lg hover:bg-blue-50 hover:border-blue-300 transition-all duration-200 group"
       >

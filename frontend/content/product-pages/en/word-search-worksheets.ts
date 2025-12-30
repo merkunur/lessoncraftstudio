@@ -11,6 +11,16 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  */
 
 export const wordSearchEnContent: ProductPageContent = {
+  // SEO Metadata
+  seo: {
+    slug: 'word-search-worksheets',
+    appId: 'word-search',
+    title: 'Free Printable Word Search Worksheets | Word Search Generator for Kindergarten',
+    description: 'Create professional word search worksheets in seconds with our word search generator. Perfect for kindergarten teachers, first grade educators, and homeschool parents. Generate custom word search puzzles using images or words in just three clicks.',
+    keywords: 'word search worksheets, word search generator, kindergarten worksheets, printable worksheets, word search puzzles, free worksheets, first grade worksheets, vocabulary worksheets, sight words worksheets, phonics worksheets',
+    canonicalUrl: 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
+  },
+
   // Hero Section - FULL text from wordsearch.md paragraphs 1-3
   hero: {
     title: 'Free Printable Word Search Worksheets',

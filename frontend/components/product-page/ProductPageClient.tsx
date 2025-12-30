@@ -58,6 +58,17 @@ export interface RelatedApp {
 }
 
 export interface ProductPageContent {
+  // SEO Metadata - used for routing and hreflang
+  // Optional for backwards compatibility during migration to language-specific slugs
+  seo?: {
+    slug: string;           // Language-specific slug (e.g., 'ordletar-arbetsblad' for Swedish)
+    appId: string;          // Internal app identifier (e.g., 'word-search')
+    title: string;          // SEO title
+    description: string;    // Meta description
+    keywords?: string;      // Meta keywords
+    canonicalUrl?: string;  // Canonical URL
+  };
+
   // Hero Section
   hero: {
     title: string;

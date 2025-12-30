@@ -3,6 +3,7 @@
 import { useRouter } from 'next/navigation';
 import { useAuth } from '@/contexts/auth-context';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 type AppTier = 'free' | 'core' | 'full';
 
@@ -21,6 +22,31 @@ interface AppCardProps {
   appName: string;
   categoryName: string;
 }
+
+// Map app IDs to SEO-optimized product page slugs
+// Apps without entries will fallback to their app ID
+const appIdToProductSlug: { [key: string]: string } = {
+  'word-search': 'word-search-worksheets',
+  'image-addition': 'addition-worksheets',
+  'alphabet-train': 'alphabet-train-worksheets',
+  'coloring': 'coloring-worksheets',
+  'math-worksheet': 'math-worksheets',
+  'word-scramble': 'word-scramble-worksheets',
+  'find-and-count': 'find-and-count-worksheets',
+  'matching-app': 'matching-worksheets',
+  'drawing-lines': 'drawing-lines-worksheets',
+  'picture-bingo': 'picture-bingo-worksheets',
+  'sudoku': 'sudoku-worksheets',
+  'big-small-app': 'big-small-worksheets',
+  'chart-count-color': 'chart-count-worksheets',
+  'code-addition': 'code-addition-worksheets',
+  'draw-and-color': 'draw-and-color-worksheets',
+  'find-objects': 'find-objects-worksheets',
+  'grid-match': 'grid-match-worksheets',
+  'image-crossword': 'crossword-worksheets',
+  'image-cryptogram': 'cryptogram-worksheets',
+  'math-puzzle': 'math-puzzle-worksheets',
+};
 
 // Map app slugs to HTML filenames
 const slugToHtmlMap: { [key: string]: string } = {
@@ -138,6 +164,21 @@ export default function AppCard({ app, locale, appName, categoryName }: AppCardP
     return 'Upgrade';
   };
 
+  // "Learn More" button translations - natural phrasing for each language
+  const getLearnMoreLabel = () => {
+    if (locale === 'de') return 'Mehr erfahren';
+    if (locale === 'fr') return 'En savoir plus';
+    if (locale === 'es') return 'Más información';
+    if (locale === 'it') return 'Scopri di più';
+    if (locale === 'pt') return 'Saiba mais';
+    if (locale === 'nl') return 'Meer informatie';
+    if (locale === 'sv') return 'Läs mer';
+    if (locale === 'da') return 'Læs mere';
+    if (locale === 'no') return 'Les mer';
+    if (locale === 'fi') return 'Lue lisää';
+    return 'Learn More';
+  };
+
   const handleClick = () => {
     // If loading, do nothing
     if (loading) return;
@@ -149,8 +190,9 @@ export default function AppCard({ app, locale, appName, categoryName }: AppCardP
       const userTier = user?.subscriptionTier || 'free';
       window.open(`/worksheet-generators/${encodeURIComponent(htmlFile)}?tier=${userTier}&locale=${locale}`, '_blank');
     } else {
-      // User doesn't have access - navigate to app page to show paywall
-      router.push(`/${locale}/apps/${app.id}`);
+      // User doesn't have access - navigate to product page (use mapped slug if available)
+      const productSlug = appIdToProductSlug[app.id] || app.id;
+      router.push(`/${locale}/apps/${productSlug}`);
     }
   };
 
@@ -179,7 +221,24 @@ export default function AppCard({ app, locale, appName, categoryName }: AppCardP
       </div>
 
       <h3 className="font-semibold text-gray-900 mb-2">{appName}</h3>
-      <p className="text-sm text-gray-600">{categoryName}</p>
+      <p className="text-sm text-gray-600 mb-4">{categoryName}</p>
+
+      {/* Learn More button - links to SEO-optimized product page */}
+      <Link
+        href={`/${locale}/apps/${appIdToProductSlug[app.id] || app.id}`}
+        onClick={(e) => e.stopPropagation()}
+        className="inline-flex items-center justify-center w-full px-4 py-2 text-sm font-medium text-blue-600 bg-white border border-blue-200 rounded-lg hover:bg-blue-50 hover:border-blue-300 transition-all duration-200 group"
+      >
+        {getLearnMoreLabel()}
+        <svg
+          className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+        </svg>
+      </Link>
     </div>
   );
 }

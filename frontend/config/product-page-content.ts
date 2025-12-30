@@ -47,6 +47,7 @@ import wordSearchSvContent from '@/content/product-pages/sv/word-search-workshee
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
+import mathWorksheetsSvContent from '@/content/product-pages/sv/math-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -113,6 +114,10 @@ export const contentRegistry: ContentRegistry = {
     'malarbilder-arbetsblad': coloringSvContent,
     // Also keep old slug for backwards compatibility during transition
     'coloring-worksheets': coloringSvContent,
+    // Swedish Math Worksheets - uses Swedish slug
+    'matematik-arbetsblad': mathWorksheetsSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'math-worksheets': mathWorksheetsSvContent,
   },
 };
 

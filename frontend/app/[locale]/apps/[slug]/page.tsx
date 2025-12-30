@@ -40,6 +40,7 @@ import wordSearchSvContent from '@/content/product-pages/sv/word-search-workshee
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
+import mathWorksheetsSvContent from '@/content/product-pages/sv/math-worksheets';
 
 interface PageProps {
   params: {
@@ -269,6 +270,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/sv/apps/malarbilder-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
+  // Math Worksheets - Swedish product page SEO (new Swedish slug)
+  if (params.slug === 'matematik-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Matematik Arbetsblad Generator - Gratis Arbetsblad för Förskoleklass och Lågstadiet',
+      description: 'Skapa professionella matematik arbetsblad med vår enkla generator för matte övningar. Generera anpassade arbetsblad perfekta för förskoleklass, årskurs 1-3. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
+      keywords: 'matematik arbetsblad, arbetsblad gratis, matte övningar, förskoleklass material, addition och subtraktion, siffror och tal, multiplikationstabellen, klockan lära sig, bokstäver lära sig, målarbilder barn, finmotorik övningar',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/matematik-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/math-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/matematik-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/math-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Matematik Arbetsblad Generator - Gratis Arbetsblad | LessonCraftStudio',
+        description: 'Skapa professionella matematik arbetsblad med vår enkla generator för matte övningar. Perfekt för förskoleklass och lågstadiet.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/matematik-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish math worksheet slug to new slug (for backwards compatibility)
+  if (params.slug === 'math-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Matematik Arbetsblad Generator - Gratis Arbetsblad för Förskoleklass och Lågstadiet',
+      description: 'Skapa professionella matematik arbetsblad med vår enkla generator för matte övningar.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/matematik-arbetsblad', // Point to new URL
       },
     };
   }
@@ -4273,6 +4317,8 @@ export async function generateStaticParams() {
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'malarbilder-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'matematik-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

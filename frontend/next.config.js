@@ -102,6 +102,12 @@ const nextConfig = {
         destination: '/sv/apps/malarbilder-arbetsblad',
         permanent: true,
       },
+      // Swedish: math-worksheets → matematik-arbetsblad
+      {
+        source: '/sv/apps/math-worksheets',
+        destination: '/sv/apps/matematik-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

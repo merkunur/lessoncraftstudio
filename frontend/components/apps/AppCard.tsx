@@ -54,6 +54,7 @@ const appIdToProductSlug: { [key: string]: string } = {
   'picture-path': 'picture-path-worksheets',
   'picture-sort': 'picture-sort-worksheets',
   'prepositions': 'prepositions-worksheets',
+  'shadow-match': 'shadow-match-worksheets',
 };
 
 // Map app slugs to HTML filenames

@@ -30,6 +30,7 @@ import patternWorksheetsEnContent from '@/content/product-pages/en/pattern-works
 import picturePathEnContent from '@/content/product-pages/en/picture-path-worksheets';
 import pictureSortEnContent from '@/content/product-pages/en/picture-sort-worksheets';
 import prepositionsEnContent from '@/content/product-pages/en/prepositions-worksheets';
+import shadowMatchEnContent from '@/content/product-pages/en/shadow-match-worksheets';
 
 interface PageProps {
   params: {
@@ -678,6 +679,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Prepositions Worksheets | LessonCraftStudio',
         description: 'Create professional prepositions worksheets with our generator. Perfect for teaching spatial concepts to kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/prepositions-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Shadow Match Worksheets product page SEO
+  if (params.slug === 'shadow-match-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Shadow Match Worksheets | Visual Perception Worksheet Generator',
+      description: 'Create professional shadow match worksheets with our visual perception worksheet generator. Generate custom printable shadow matching worksheets perfect for kindergarten and first grade students developing visual discrimination skills. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'shadow match worksheets, visual perception worksheets, kindergarten worksheets, printable worksheets, shadow matching, silhouette worksheets, make it whole worksheets, spatial reasoning, visual discrimination, preschool worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/shadow-match-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Shadow Match Worksheets | LessonCraftStudio',
+        description: 'Create professional shadow match worksheets with our visual perception generator. Perfect for developing visual discrimination skills in kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/shadow-match-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3807,6 +3831,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={prepositionsEnContent} />;
   }
 
+  if (slug === 'shadow-match-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={shadowMatchEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3955,6 +3983,7 @@ export async function generateStaticParams() {
     'picture-path-worksheets', // Product page slug
     'picture-sort-worksheets', // Product page slug
     'prepositions-worksheets', // Product page slug
+    'shadow-match-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

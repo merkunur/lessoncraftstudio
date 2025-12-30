@@ -36,7 +36,7 @@ const localeContent: Record<string, {
     titleHighlight: 'professionelle Arbeitsblätter',
     subtitle: 'Starten Sie kostenlos. Testen Sie Wortsuche, Kreuzworträtsel und Mathe-Arbeitsblätter. Jederzeit auf alle 33 Generatoren erweitern.',
     ctaPrimary: 'Kostenlos starten',
-    ctaSecondary: 'Alle 33 Generatoren ansehen',
+    ctaSecondary: 'Alle 33 Generatoren entdecken',
     trustNoCard: 'Keine Kreditkarte erforderlich',
     trustFreeGenerators: '3 kostenlose Generatoren',
     trustCancelAnytime: 'Jederzeit kündbar',

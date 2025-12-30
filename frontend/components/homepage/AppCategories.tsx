@@ -47,7 +47,7 @@ const localeContent: Record<string, {
     title: 'Nach Kategorie durchsuchen',
     subtitle: 'Von Matheübungen bis zu kreativen Aktivitäten – finden Sie den perfekten Generator für Ihren Unterricht.',
     learnMore: 'Mehr erfahren',
-    viewAllGenerators: 'Alle 33 Generatoren ansehen',
+    viewAllGenerators: 'Alle 33 Generatoren entdecken',
   },
 };
 

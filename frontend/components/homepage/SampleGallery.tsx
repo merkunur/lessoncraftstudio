@@ -63,8 +63,8 @@ const localeContent: Record<string, {
     statFormatLabel: 'Format',
     downloadPdf: 'PDF herunterladen',
     downloading: 'Wird heruntergeladen...',
-    viewDetails: 'Details ansehen',
-    viewAllGenerators: 'Alle 33 Generatoren ansehen',
+    viewDetails: 'Mehr erfahren',
+    viewAllGenerators: 'Alle 33 Generatoren entdecken',
   },
 };
 

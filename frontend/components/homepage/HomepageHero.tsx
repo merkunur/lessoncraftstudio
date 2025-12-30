@@ -44,7 +44,7 @@ const localeContent: Record<string, {
     titleHighlight: 'wunderschöne',
     titleLine2: 'Unterrichtsmaterialien',
     subtitle: 'Professionelle Arbeitsblatt-Generatoren, denen Lehrkräfte weltweit vertrauen. Erstellen, anpassen und herunterladen – in wenigen Minuten.',
-    ctaPrimary: 'Kostenlose Beispiele ansehen',
+    ctaPrimary: 'Gratis-Beispiele entdecken',
     ctaSecondary: 'Alle Generatoren entdecken',
     trustLanguages: '11 Sprachen',
     trustImages: '3000+ Bilder',

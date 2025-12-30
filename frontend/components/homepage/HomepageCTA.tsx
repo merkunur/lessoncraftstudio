@@ -118,6 +118,17 @@ const localeContent: Record<string, {
     trustFreeGenerators: '3 gratisverktyg',
     trustCancelAnytime: 'Avsluta när du vill',
   },
+  no: {
+    badge: 'Bli med tusenvis av lærere',
+    titleStart: 'Klar til å lage ',
+    titleHighlight: 'profesjonelle oppgaveark',
+    subtitle: 'Start gratis. Prøv Finn ord, Kryssord og Matteoppgaver. Oppgrader når du vil for tilgang til alle 33 generatorer.',
+    ctaPrimary: 'Begynn gratis',
+    ctaSecondary: 'Se alle 33 generatorer',
+    trustNoCard: 'Ingen kredittkort nødvendig',
+    trustFreeGenerators: '3 gratis generatorer',
+    trustCancelAnytime: 'Avslutt når du vil',
+  },
 };
 
 export default function HomepageCTA({ locale }: HomepageCTAProps) {
@@ -241,7 +252,7 @@ export default function HomepageCTA({ locale }: HomepageCTAProps) {
             >
               {content.titleHighlight}
             </span>
-            {locale === 'de' ? ' zu erstellen?' : locale === 'es' || locale === 'it' || locale === 'pt' || locale === 'da' || locale === 'sv' ? '?' : ' ?'}
+            {locale === 'de' ? ' zu erstellen?' : locale === 'es' || locale === 'it' || locale === 'pt' || locale === 'da' || locale === 'sv' || locale === 'no' ? '?' : ' ?'}
           </motion.h2>
 
           {/* Subtitle */}

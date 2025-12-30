@@ -150,6 +150,20 @@ const localeContent: Record<string, {
     answerKey: 'Facit',
     previewTitles: ['Addition', 'Ordsök'],
   },
+  no: {
+    badge: '33 profesjonelle oppgavegeneratorer',
+    titleLine1: 'Lag ',
+    titleHighlight: 'profesjonelle',
+    titleLine2: 'oppgaveark',
+    subtitle: 'Oppgavegeneratorer som lærere over hele verden stoler på. Lag, tilpass og last ned på få minutter.',
+    ctaPrimary: 'Se gratis eksempler',
+    ctaSecondary: 'Utforsk alle generatorer',
+    trustLanguages: '11 språk',
+    trustImages: 'Over 3000 bilder',
+    trustLicense: 'Kommersiell lisens',
+    answerKey: 'Fasit',
+    previewTitles: ['Addisjon', 'Finn ord'],
+  },
 };
 
 export default function HomepageHero({ locale }: HomepageHeroProps) {
@@ -203,6 +217,7 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
         nl: 'Voorbeeld optelwerkblad',
         da: 'Eksempel på additionsopgave',
         sv: 'Exempel på additionsövningsblad',
+        no: 'Eksempel på addisjonsoppgave',
       },
       wordsearch: {
         en: 'Word Search Worksheet Sample',
@@ -214,6 +229,7 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
         nl: 'Voorbeeld woordzoeker',
         da: 'Eksempel på find ord-opgave',
         sv: 'Exempel på ordsöksövningsblad',
+        no: 'Eksempel på finn ord-oppgave',
       },
     };
     return altTexts[type][locale as keyof typeof altTexts.addition] || altTexts[type].en;

@@ -129,6 +129,17 @@ const localeContent: Record<string, {
     trustFreeGenerators: '3 gratis generatorer',
     trustCancelAnytime: 'Avslutt når du vil',
   },
+  fi: {
+    badge: 'Liity tuhansien opettajien joukkoon',
+    titleStart: 'Valmis luomaan ',
+    titleHighlight: 'ammattimaisia tehtävämonisteja',
+    subtitle: 'Aloita ilmaiseksi. Kokeile Sananetsintää, Ristikoita ja Matematiikkatehtäviä. Päivitä milloin tahansa kaikkiin 33 generaattoriin.',
+    ctaPrimary: 'Aloita ilmaiseksi',
+    ctaSecondary: 'Tutustu kaikkiin 33 generaattoriin',
+    trustNoCard: 'Ei luottokorttia tarvita',
+    trustFreeGenerators: '3 ilmaista generaattoria',
+    trustCancelAnytime: 'Peruuta milloin tahansa',
+  },
 };
 
 export default function HomepageCTA({ locale }: HomepageCTAProps) {
@@ -252,7 +263,7 @@ export default function HomepageCTA({ locale }: HomepageCTAProps) {
             >
               {content.titleHighlight}
             </span>
-            {locale === 'de' ? ' zu erstellen?' : locale === 'es' || locale === 'it' || locale === 'pt' || locale === 'da' || locale === 'sv' || locale === 'no' ? '?' : ' ?'}
+            {locale === 'de' ? ' zu erstellen?' : locale === 'es' || locale === 'it' || locale === 'pt' || locale === 'da' || locale === 'sv' || locale === 'no' || locale === 'fi' ? '?' : ' ?'}
           </motion.h2>
 
           {/* Subtitle */}

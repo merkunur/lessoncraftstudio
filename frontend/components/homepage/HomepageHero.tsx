@@ -164,6 +164,20 @@ const localeContent: Record<string, {
     answerKey: 'Fasit',
     previewTitles: ['Addisjon', 'Finn ord'],
   },
+  fi: {
+    badge: '33 ammattimaista tehtävägeneraattoria',
+    titleLine1: 'Luo ',
+    titleHighlight: 'upeita',
+    titleLine2: 'oppimateriaaleja',
+    subtitle: 'Ammattimaisia tehtävägeneraattoreita, joihin opettajat ympäri maailmaa luottavat. Luo, muokkaa ja lataa muutamassa minuutissa.',
+    ctaPrimary: 'Katso ilmaiset esimerkit',
+    ctaSecondary: 'Tutustu kaikkiin generaattoreihin',
+    trustLanguages: '11 kieltä',
+    trustImages: 'Yli 3000 kuvaa',
+    trustLicense: 'Kaupallinen lisenssi',
+    answerKey: 'Vastaukset',
+    previewTitles: ['Yhteenlasku', 'Sananetsintä'],
+  },
 };
 
 export default function HomepageHero({ locale }: HomepageHeroProps) {
@@ -218,6 +232,7 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
         da: 'Eksempel på additionsopgave',
         sv: 'Exempel på additionsövningsblad',
         no: 'Eksempel på addisjonsoppgave',
+        fi: 'Esimerkki yhteenlaskutehtävästä',
       },
       wordsearch: {
         en: 'Word Search Worksheet Sample',
@@ -230,6 +245,7 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
         da: 'Eksempel på find ord-opgave',
         sv: 'Exempel på ordsöksövningsblad',
         no: 'Eksempel på finn ord-oppgave',
+        fi: 'Esimerkki sananetsintätehtävästä',
       },
     };
     return altTexts[type][locale as keyof typeof altTexts.addition] || altTexts[type].en;

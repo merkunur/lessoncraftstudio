@@ -17,6 +17,7 @@ interface Step {
   titleDa: string;
   titleSv: string;
   titleNo: string;
+  titleFi: string;
   descriptionEn: string;
   descriptionDe: string;
   descriptionFr: string;
@@ -27,6 +28,7 @@ interface Step {
   descriptionDa: string;
   descriptionSv: string;
   descriptionNo: string;
+  descriptionFi: string;
 }
 
 interface HowItWorksProps {
@@ -100,6 +102,12 @@ const localeContent: Record<string, {
     subtitle: 'Lag profesjonelle oppgaveark i 4 enkle trinn. Ingen designkunnskaper nødvendig.',
     ctaButton: 'Begynn å lage nå',
   },
+  fi: {
+    badge: 'Pikaopas',
+    title: 'Näin se toimii',
+    subtitle: 'Luo ammattimaisia tehtävämonisteja neljässä yksinkertaisessa vaiheessa. Suunnittelutaitoja ei tarvita.',
+    ctaButton: 'Aloita luominen nyt',
+  },
 };
 
 const steps: Step[] = [
@@ -116,6 +124,7 @@ const steps: Step[] = [
     titleDa: 'Vælg en generator',
     titleSv: 'Välj en generator',
     titleNo: 'Velg en generator',
+    titleFi: 'Valitse generaattori',
     descriptionEn: 'Select from 33 professional worksheet generators. Math, language, puzzles, and creative activities for all ages.',
     descriptionDe: 'Wählen Sie aus 33 professionellen Arbeitsblatt-Generatoren. Mathematik, Sprache, Rätsel und kreative Aktivitäten für alle Altersgruppen.',
     descriptionFr: 'Sélectionnez parmi 33 générateurs professionnels. Maths, langue, énigmes et activités créatives pour tous les âges.',
@@ -126,6 +135,7 @@ const steps: Step[] = [
     descriptionDa: 'Vælg mellem 33 professionelle opgavegeneratorer. Matematik, sprog, puslespil og kreative aktiviteter til alle aldre.',
     descriptionSv: 'Välj bland 33 professionella övningsbladsgeneratorer. Matte, språk, pyssel och kreativa aktiviteter för alla åldrar.',
     descriptionNo: 'Velg blant 33 profesjonelle oppgavegeneratorer. Matte, språk, hjernetrim og kreative aktiviteter for alle aldre.',
+    descriptionFi: 'Valitse 33 ammattimaisesta tehtävägeneraattorista. Matematiikkaa, kieltä, palapelejä ja luovia aktiviteetteja kaikille ikäryhmille.',
   },
   {
     number: 2,
@@ -140,6 +150,7 @@ const steps: Step[] = [
     titleDa: 'Vælg dit tema',
     titleSv: 'Välj ditt tema',
     titleNo: 'Velg ditt tema',
+    titleFi: 'Valitse teemasi',
     descriptionEn: 'Browse 3000+ child-friendly images organized by category. Animals, food, vehicles, seasons, and more.',
     descriptionDe: 'Durchsuchen Sie über 3000 kindgerechte Bilder nach Kategorien. Tiere, Essen, Fahrzeuge, Jahreszeiten und mehr.',
     descriptionFr: 'Parcourez plus de 3000 images adaptées aux enfants par catégorie. Animaux, nourriture, véhicules, saisons et plus encore.',
@@ -150,6 +161,7 @@ const steps: Step[] = [
     descriptionDa: 'Gennemse over 3000 børnevenlige billeder organiseret efter kategori. Dyr, mad, køretøjer, årstider og meget mere.',
     descriptionSv: 'Bläddra bland över 3000 barnvänliga bilder sorterade efter kategori. Djur, mat, fordon, årstider och mer.',
     descriptionNo: 'Bla gjennom over 3000 barnevennlige bilder sortert etter kategori. Dyr, mat, kjøretøy, årstider og mer.',
+    descriptionFi: 'Selaa yli 3000 lapsiystävällistä kuvaa kategorioittain. Eläimiä, ruokaa, ajoneuvoja, vuodenaikoja ja paljon muuta.',
   },
   {
     number: 3,
@@ -164,6 +176,7 @@ const steps: Step[] = [
     titleDa: 'Tilpas',
     titleSv: 'Anpassa',
     titleNo: 'Tilpass',
+    titleFi: 'Muokkaa',
     descriptionEn: 'Edit every element on the canvas. Add text, upload images, adjust difficulty. Make it perfect for your students.',
     descriptionDe: 'Bearbeiten Sie jedes Element auf der Arbeitsfläche. Text hinzufügen, Bilder hochladen, Schwierigkeit anpassen. Perfekt für Ihre Schüler.',
     descriptionFr: 'Modifiez chaque élément sur le canevas. Ajoutez du texte, importez des images, ajustez la difficulté. Parfait pour vos élèves.',
@@ -174,6 +187,7 @@ const steps: Step[] = [
     descriptionDa: 'Rediger hvert element på lærredet. Tilføj tekst, upload billeder, juster sværhedsgrad. Gør det perfekt til dine elever.',
     descriptionSv: 'Redigera varje element på arbetsytan. Lägg till text, ladda upp bilder, justera svårighetsgrad. Gör det perfekt för dina elever.',
     descriptionNo: 'Rediger hvert element på lerretet. Legg til tekst, last opp bilder, juster vanskelighetsgrad. Gjør det perfekt for elevene dine.',
+    descriptionFi: 'Muokkaa jokaista elementtiä työalueella. Lisää tekstiä, lataa kuvia, säädä vaikeustasoa. Tee siitä täydellinen oppilaillesi.',
   },
   {
     number: 4,
@@ -188,6 +202,7 @@ const steps: Step[] = [
     titleDa: 'Download og print',
     titleSv: 'Ladda ner och skriv ut',
     titleNo: 'Last ned og skriv ut',
+    titleFi: 'Lataa ja tulosta',
     descriptionEn: 'Export as high-quality PDF at 300 DPI. Answer keys included. Print or sell commercially.',
     descriptionDe: 'Exportieren Sie als hochwertiges PDF mit 300 DPI. Lösungsblätter inklusive. Drucken oder kommerziell verkaufen.',
     descriptionFr: 'Exportez en PDF haute qualité à 300 DPI. Corrigés inclus. Imprimez ou vendez à des fins commerciales.',
@@ -198,6 +213,7 @@ const steps: Step[] = [
     descriptionDa: 'Eksporter som højkvalitets-PDF i 300 DPI. Facitlister inkluderet. Print eller sælg kommercielt.',
     descriptionSv: 'Exportera som högkvalitets-PDF i 300 DPI. Facit inkluderat. Skriv ut eller sälj kommersiellt.',
     descriptionNo: 'Eksporter som høykvalitets-PDF i 300 DPI. Fasit inkludert. Skriv ut eller selg kommersielt.',
+    descriptionFi: 'Vie korkealaatuisena 300 DPI PDF-tiedostona. Vastauslomakkeet mukana. Tulosta tai myy kaupallisesti.',
   },
 ];
 
@@ -215,6 +231,7 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
 
   // Helper functions for localized content
   const getStepTitle = (step: Step) => {
+    if (locale === 'fi') return step.titleFi;
     if (locale === 'no') return step.titleNo;
     if (locale === 'sv') return step.titleSv;
     if (locale === 'da') return step.titleDa;
@@ -227,6 +244,7 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
     return step.titleEn;
   };
   const getStepDescription = (step: Step) => {
+    if (locale === 'fi') return step.descriptionFi;
     if (locale === 'no') return step.descriptionNo;
     if (locale === 'sv') return step.descriptionSv;
     if (locale === 'da') return step.descriptionDa;

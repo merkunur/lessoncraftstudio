@@ -66,6 +66,20 @@ const localeContent: Record<string, {
     answerKey: 'Corrigé inclus',
     previewTitles: ['Addition', 'Mots mêlés'],
   },
+  es: {
+    badge: '33 generadores de fichas educativas',
+    titleLine1: 'Crea materiales ',
+    titleHighlight: 'educativos',
+    titleLine2: 'increíbles',
+    subtitle: 'Herramientas profesionales que usan maestros en todo el mundo. Diseña, personaliza y descarga tus fichas en minutos.',
+    ctaPrimary: 'Ver ejemplos gratis',
+    ctaSecondary: 'Explorar todos los generadores',
+    trustLanguages: '11 idiomas',
+    trustImages: '3000+ imágenes',
+    trustLicense: 'Uso comercial incluido',
+    answerKey: 'Con respuestas',
+    previewTitles: ['Sumas', 'Sopa de letras'],
+  },
 };
 
 export default function HomepageHero({ locale }: HomepageHeroProps) {
@@ -113,11 +127,13 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
         en: 'Addition Worksheet Sample',
         de: 'Additions-Arbeitsblatt Beispiel',
         fr: 'Exemple de fiche d\'addition',
+        es: 'Ejemplo de ficha de sumas',
       },
       wordsearch: {
         en: 'Word Search Worksheet Sample',
         de: 'Wortsuche-Arbeitsblatt Beispiel',
         fr: 'Exemple de mots mêlés',
+        es: 'Ejemplo de sopa de letras',
       },
     };
     return altTexts[type][locale as keyof typeof altTexts.addition] || altTexts[type].en;

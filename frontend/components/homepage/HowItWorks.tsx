@@ -10,9 +10,11 @@ interface Step {
   titleEn: string;
   titleDe: string;
   titleFr: string;
+  titleEs: string;
   descriptionEn: string;
   descriptionDe: string;
   descriptionFr: string;
+  descriptionEs: string;
 }
 
 interface HowItWorksProps {
@@ -44,6 +46,12 @@ const localeContent: Record<string, {
     subtitle: 'Créez des fiches professionnelles en 4 étapes simples. Aucune compétence en design requise.',
     ctaButton: 'Commencer maintenant',
   },
+  es: {
+    badge: 'Inicio rápido',
+    title: 'Cómo funciona',
+    subtitle: 'Crea fichas profesionales en 4 pasos sencillos. No necesitas saber diseñar.',
+    ctaButton: 'Empieza a crear ahora',
+  },
 };
 
 const steps: Step[] = [
@@ -53,9 +61,11 @@ const steps: Step[] = [
     titleEn: 'Choose a Generator',
     titleDe: 'Generator auswählen',
     titleFr: 'Choisissez un générateur',
+    titleEs: 'Elige un generador',
     descriptionEn: 'Select from 33 professional worksheet generators. Math, language, puzzles, and creative activities for all ages.',
     descriptionDe: 'Wählen Sie aus 33 professionellen Arbeitsblatt-Generatoren. Mathematik, Sprache, Rätsel und kreative Aktivitäten für alle Altersgruppen.',
     descriptionFr: 'Sélectionnez parmi 33 générateurs professionnels. Maths, langue, énigmes et activités créatives pour tous les âges.',
+    descriptionEs: 'Elige entre 33 generadores profesionales. Matemáticas, lenguaje, rompecabezas y actividades creativas para todas las edades.',
   },
   {
     number: 2,
@@ -63,9 +73,11 @@ const steps: Step[] = [
     titleEn: 'Select Your Theme',
     titleDe: 'Thema wählen',
     titleFr: 'Sélectionnez votre thème',
+    titleEs: 'Selecciona tu tema',
     descriptionEn: 'Browse 3000+ child-friendly images organized by category. Animals, food, vehicles, seasons, and more.',
     descriptionDe: 'Durchsuchen Sie über 3000 kindgerechte Bilder nach Kategorien. Tiere, Essen, Fahrzeuge, Jahreszeiten und mehr.',
     descriptionFr: 'Parcourez plus de 3000 images adaptées aux enfants par catégorie. Animaux, nourriture, véhicules, saisons et plus encore.',
+    descriptionEs: 'Explora más de 3000 imágenes para niños organizadas por categoría. Animales, comida, vehículos, estaciones y más.',
   },
   {
     number: 3,
@@ -73,9 +85,11 @@ const steps: Step[] = [
     titleEn: 'Customize',
     titleDe: 'Anpassen',
     titleFr: 'Personnalisez',
+    titleEs: 'Personaliza',
     descriptionEn: 'Edit every element on the canvas. Add text, upload images, adjust difficulty. Make it perfect for your students.',
     descriptionDe: 'Bearbeiten Sie jedes Element auf der Arbeitsfläche. Text hinzufügen, Bilder hochladen, Schwierigkeit anpassen. Perfekt für Ihre Schüler.',
     descriptionFr: 'Modifiez chaque élément sur le canevas. Ajoutez du texte, importez des images, ajustez la difficulté. Parfait pour vos élèves.',
+    descriptionEs: 'Edita cada elemento en el lienzo. Agrega texto, sube imágenes, ajusta la dificultad. Hazlo perfecto para tus alumnos.',
   },
   {
     number: 4,
@@ -83,9 +97,11 @@ const steps: Step[] = [
     titleEn: 'Download & Print',
     titleDe: 'Herunterladen & Drucken',
     titleFr: 'Téléchargez et imprimez',
+    titleEs: 'Descarga e imprime',
     descriptionEn: 'Export as high-quality PDF at 300 DPI. Answer keys included. Print or sell commercially.',
     descriptionDe: 'Exportieren Sie als hochwertiges PDF mit 300 DPI. Lösungsblätter inklusive. Drucken oder kommerziell verkaufen.',
     descriptionFr: 'Exportez en PDF haute qualité à 300 DPI. Corrigés inclus. Imprimez ou vendez à des fins commerciales.',
+    descriptionEs: 'Exporta como PDF de alta calidad a 300 DPI. Incluye respuestas. Imprime o vende comercialmente.',
   },
 ];
 
@@ -103,11 +119,13 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
 
   // Helper functions for localized content
   const getStepTitle = (step: Step) => {
+    if (locale === 'es') return step.titleEs;
     if (locale === 'fr') return step.titleFr;
     if (locale === 'de') return step.titleDe;
     return step.titleEn;
   };
   const getStepDescription = (step: Step) => {
+    if (locale === 'es') return step.descriptionEs;
     if (locale === 'fr') return step.descriptionFr;
     if (locale === 'de') return step.descriptionDe;
     return step.descriptionEn;

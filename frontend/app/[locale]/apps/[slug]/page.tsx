@@ -32,6 +32,7 @@ import pictureSortEnContent from '@/content/product-pages/en/picture-sort-worksh
 import prepositionsEnContent from '@/content/product-pages/en/prepositions-worksheets';
 import shadowMatchEnContent from '@/content/product-pages/en/shadow-match-worksheets';
 import subtractionEnContent from '@/content/product-pages/en/subtraction-worksheets';
+import treasureHuntEnContent from '@/content/product-pages/en/treasure-hunt-worksheets';
 
 interface PageProps {
   params: {
@@ -726,6 +727,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Subtraction Worksheets | LessonCraftStudio',
         description: 'Create professional subtraction worksheets with our math worksheet generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/subtraction-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Treasure Hunt Worksheets product page SEO
+  if (params.slug === 'treasure-hunt-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Following Directions Worksheets | Treasure Hunt Generator for Kindergarten',
+      description: 'Create professional treasure hunt worksheets with our following directions worksheet generator. Generate custom printable treasure hunt worksheets perfect for kindergarten and first grade students learning directional vocabulary and reading comprehension. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'treasure hunt worksheets, following directions worksheets, kindergarten worksheets, printable worksheets, directional vocabulary, free worksheets, first grade worksheets, spatial awareness, reading comprehension, navigation worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Treasure Hunt Worksheets | LessonCraftStudio',
+        description: 'Create professional treasure hunt worksheets with our following directions generator. Perfect for kindergarten and first grade students learning directional vocabulary.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3863,6 +3887,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={subtractionEnContent} />;
   }
 
+  if (slug === 'treasure-hunt-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={treasureHuntEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -4013,6 +4041,7 @@ export async function generateStaticParams() {
     'prepositions-worksheets', // Product page slug
     'shadow-match-worksheets', // Product page slug
     'subtraction-worksheets', // Product page slug
+    'treasure-hunt-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

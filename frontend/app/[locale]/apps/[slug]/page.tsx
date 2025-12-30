@@ -31,6 +31,7 @@ import picturePathEnContent from '@/content/product-pages/en/picture-path-worksh
 import pictureSortEnContent from '@/content/product-pages/en/picture-sort-worksheets';
 import prepositionsEnContent from '@/content/product-pages/en/prepositions-worksheets';
 import shadowMatchEnContent from '@/content/product-pages/en/shadow-match-worksheets';
+import subtractionEnContent from '@/content/product-pages/en/subtraction-worksheets';
 
 interface PageProps {
   params: {
@@ -702,6 +703,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Shadow Match Worksheets | LessonCraftStudio',
         description: 'Create professional shadow match worksheets with our visual perception generator. Perfect for developing visual discrimination skills in kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/shadow-match-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Subtraction Worksheets product page SEO
+  if (params.slug === 'subtraction-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Subtraction Worksheets | Math Worksheet Generator for Kindergarten',
+      description: 'Create professional subtraction worksheets with our math worksheet generator. Generate custom printable subtraction worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'subtraction worksheets, math worksheets, kindergarten worksheets, printable worksheets, subtraction practice, math worksheet generator, free worksheets, first grade math, subtraction problems, visual subtraction',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/subtraction-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Subtraction Worksheets | LessonCraftStudio',
+        description: 'Create professional subtraction worksheets with our math worksheet generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/subtraction-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3835,6 +3859,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={shadowMatchEnContent} />;
   }
 
+  if (slug === 'subtraction-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={subtractionEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3984,6 +4012,7 @@ export async function generateStaticParams() {
     'picture-sort-worksheets', // Product page slug
     'prepositions-worksheets', // Product page slug
     'shadow-match-worksheets', // Product page slug
+    'subtraction-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

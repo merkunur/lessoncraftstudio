@@ -55,6 +55,7 @@ const appIdToProductSlug: { [key: string]: string } = {
   'picture-sort': 'picture-sort-worksheets',
   'prepositions': 'prepositions-worksheets',
   'shadow-match': 'shadow-match-worksheets',
+  'subtraction': 'subtraction-worksheets',
 };
 
 // Map app slugs to HTML filenames

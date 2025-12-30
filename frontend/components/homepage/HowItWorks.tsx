@@ -12,11 +12,13 @@ interface Step {
   titleFr: string;
   titleEs: string;
   titleIt: string;
+  titlePt: string;
   descriptionEn: string;
   descriptionDe: string;
   descriptionFr: string;
   descriptionEs: string;
   descriptionIt: string;
+  descriptionPt: string;
 }
 
 interface HowItWorksProps {
@@ -60,6 +62,12 @@ const localeContent: Record<string, {
     subtitle: 'Crea schede professionali in 4 semplici passaggi. Nessuna competenza grafica richiesta.',
     ctaButton: 'Inizia a creare ora',
   },
+  pt: {
+    badge: 'Início rápido',
+    title: 'Como funciona',
+    subtitle: 'Crie atividades profissionais em 4 passos simples. Não precisa saber design.',
+    ctaButton: 'Comece a criar agora',
+  },
 };
 
 const steps: Step[] = [
@@ -71,11 +79,13 @@ const steps: Step[] = [
     titleFr: 'Choisissez un générateur',
     titleEs: 'Elige un generador',
     titleIt: 'Scegli un generatore',
+    titlePt: 'Escolha um gerador',
     descriptionEn: 'Select from 33 professional worksheet generators. Math, language, puzzles, and creative activities for all ages.',
     descriptionDe: 'Wählen Sie aus 33 professionellen Arbeitsblatt-Generatoren. Mathematik, Sprache, Rätsel und kreative Aktivitäten für alle Altersgruppen.',
     descriptionFr: 'Sélectionnez parmi 33 générateurs professionnels. Maths, langue, énigmes et activités créatives pour tous les âges.',
     descriptionEs: 'Elige entre 33 generadores profesionales. Matemáticas, lenguaje, rompecabezas y actividades creativas para todas las edades.',
     descriptionIt: 'Scegli tra 33 generatori professionali. Matematica, linguaggio, rompicapo e attività creative per tutte le età.',
+    descriptionPt: 'Escolha entre 33 geradores profissionais. Matemática, linguagem, jogos de lógica e atividades criativas para todas as idades.',
   },
   {
     number: 2,
@@ -85,11 +95,13 @@ const steps: Step[] = [
     titleFr: 'Sélectionnez votre thème',
     titleEs: 'Selecciona tu tema',
     titleIt: 'Scegli il tuo tema',
+    titlePt: 'Escolha seu tema',
     descriptionEn: 'Browse 3000+ child-friendly images organized by category. Animals, food, vehicles, seasons, and more.',
     descriptionDe: 'Durchsuchen Sie über 3000 kindgerechte Bilder nach Kategorien. Tiere, Essen, Fahrzeuge, Jahreszeiten und mehr.',
     descriptionFr: 'Parcourez plus de 3000 images adaptées aux enfants par catégorie. Animaux, nourriture, véhicules, saisons et plus encore.',
     descriptionEs: 'Explora más de 3000 imágenes para niños organizadas por categoría. Animales, comida, vehículos, estaciones y más.',
     descriptionIt: 'Esplora oltre 3000 immagini per bambini organizzate per categoria. Animali, cibo, veicoli, stagioni e molto altro.',
+    descriptionPt: 'Explore mais de 3000 imagens infantis organizadas por categoria. Animais, comida, veículos, estações do ano e muito mais.',
   },
   {
     number: 3,
@@ -99,11 +111,13 @@ const steps: Step[] = [
     titleFr: 'Personnalisez',
     titleEs: 'Personaliza',
     titleIt: 'Personalizza',
+    titlePt: 'Personalize',
     descriptionEn: 'Edit every element on the canvas. Add text, upload images, adjust difficulty. Make it perfect for your students.',
     descriptionDe: 'Bearbeiten Sie jedes Element auf der Arbeitsfläche. Text hinzufügen, Bilder hochladen, Schwierigkeit anpassen. Perfekt für Ihre Schüler.',
     descriptionFr: 'Modifiez chaque élément sur le canevas. Ajoutez du texte, importez des images, ajustez la difficulté. Parfait pour vos élèves.',
     descriptionEs: 'Edita cada elemento en el lienzo. Agrega texto, sube imágenes, ajusta la dificultad. Hazlo perfecto para tus alumnos.',
     descriptionIt: 'Modifica ogni elemento sulla tela. Aggiungi testo, carica immagini, regola la difficoltà. Rendilo perfetto per i tuoi studenti.',
+    descriptionPt: 'Edite cada elemento na tela. Adicione texto, envie imagens, ajuste a dificuldade. Deixe perfeito para seus alunos.',
   },
   {
     number: 4,
@@ -113,11 +127,13 @@ const steps: Step[] = [
     titleFr: 'Téléchargez et imprimez',
     titleEs: 'Descarga e imprime',
     titleIt: 'Scarica e stampa',
+    titlePt: 'Baixe e imprima',
     descriptionEn: 'Export as high-quality PDF at 300 DPI. Answer keys included. Print or sell commercially.',
     descriptionDe: 'Exportieren Sie als hochwertiges PDF mit 300 DPI. Lösungsblätter inklusive. Drucken oder kommerziell verkaufen.',
     descriptionFr: 'Exportez en PDF haute qualité à 300 DPI. Corrigés inclus. Imprimez ou vendez à des fins commerciales.',
     descriptionEs: 'Exporta como PDF de alta calidad a 300 DPI. Incluye respuestas. Imprime o vende comercialmente.',
     descriptionIt: 'Esporta come PDF di alta qualità a 300 DPI. Soluzioni incluse. Stampa o vendi commercialmente.',
+    descriptionPt: 'Exporte como PDF de alta qualidade a 300 DPI. Gabarito incluso. Imprima ou venda comercialmente.',
   },
 ];
 
@@ -135,6 +151,7 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
 
   // Helper functions for localized content
   const getStepTitle = (step: Step) => {
+    if (locale === 'pt') return step.titlePt;
     if (locale === 'it') return step.titleIt;
     if (locale === 'es') return step.titleEs;
     if (locale === 'fr') return step.titleFr;
@@ -142,6 +159,7 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
     return step.titleEn;
   };
   const getStepDescription = (step: Step) => {
+    if (locale === 'pt') return step.descriptionPt;
     if (locale === 'it') return step.descriptionIt;
     if (locale === 'es') return step.descriptionEs;
     if (locale === 'fr') return step.descriptionFr;

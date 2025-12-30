@@ -94,6 +94,20 @@ const localeContent: Record<string, {
     answerKey: 'Soluzioni incluse',
     previewTitles: ['Addizioni', 'Cerca parole'],
   },
+  pt: {
+    badge: '33 geradores de atividades profissionais',
+    titleLine1: 'Crie materiais ',
+    titleHighlight: 'educativos',
+    titleLine2: 'incríveis',
+    subtitle: 'Ferramentas profissionais usadas por professores no mundo todo. Crie, personalize e baixe suas atividades em poucos minutos.',
+    ctaPrimary: 'Ver exemplos grátis',
+    ctaSecondary: 'Explorar todos os geradores',
+    trustLanguages: '11 idiomas',
+    trustImages: 'Mais de 3000 imagens',
+    trustLicense: 'Licença comercial inclusa',
+    answerKey: 'Gabarito incluso',
+    previewTitles: ['Adição', 'Caça-palavras'],
+  },
 };
 
 export default function HomepageHero({ locale }: HomepageHeroProps) {
@@ -143,6 +157,7 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
         fr: 'Exemple de fiche d\'addition',
         es: 'Ejemplo de ficha de sumas',
         it: 'Esempio di scheda di addizioni',
+        pt: 'Exemplo de atividade de adição',
       },
       wordsearch: {
         en: 'Word Search Worksheet Sample',
@@ -150,6 +165,7 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
         fr: 'Exemple de mots mêlés',
         es: 'Ejemplo de sopa de letras',
         it: 'Esempio di cerca parole',
+        pt: 'Exemplo de caça-palavras',
       },
     };
     return altTexts[type][locale as keyof typeof altTexts.addition] || altTexts[type].en;

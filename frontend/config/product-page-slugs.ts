@@ -72,7 +72,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'alphabet-train',
     slugs: {
       en: 'alphabet-train-worksheets',
-      sv: 'alfabetståg-arbetsblad',
+      sv: 'alfabettag-arbetsblad',
       de: 'alphabet-zug-arbeitsblaetter',
       fr: 'train-alphabet-fiches',
       es: 'tren-alfabeto-fichas',

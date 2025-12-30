@@ -45,6 +45,7 @@ import writingEnContent from '@/content/product-pages/en/writing-worksheets';
 // Swedish content imports
 import wordSearchSvContent from '@/content/product-pages/sv/word-search-worksheets';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
+import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -103,6 +104,10 @@ export const contentRegistry: ContentRegistry = {
     'addition-arbetsblad': additionSvContent,
     // Also keep old slug for backwards compatibility during transition
     'addition-worksheets': additionSvContent,
+    // Swedish Alphabet Train - uses Swedish slug
+    'alfabettag-arbetsblad': alphabetTrainSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'alphabet-train-worksheets': alphabetTrainSvContent,
   },
 };
 

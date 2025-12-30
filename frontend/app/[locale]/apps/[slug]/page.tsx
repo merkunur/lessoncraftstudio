@@ -38,6 +38,7 @@ import wordGuessEnContent from '@/content/product-pages/en/word-guess-worksheets
 import writingEnContent from '@/content/product-pages/en/writing-worksheets';
 import wordSearchSvContent from '@/content/product-pages/sv/word-search-worksheets';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
+import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 
 interface PageProps {
   params: {
@@ -181,6 +182,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/sv/apps/addition-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
+  // Alphabet Train Worksheets - Swedish product page SEO (new Swedish slug)
+  if (params.slug === 'alfabettag-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Alfabettåg Arbetsblad - Bokstäver Lära Sig | Förskoleklass Material Gratis',
+      description: 'Skapa professionella alfabettåg-arbetsblad med vår alfabetgenerator. Generera anpassade arbetsblad gratis för utskrift perfekta för förskoleklass och lågstadiebarn. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
+      keywords: 'alfabettåg arbetsblad, bokstäver lära sig, förskoleklass material, arbetsblad gratis, alfabetgenerator, skriva bokstäver, målarbilder barn, finmotorik övningar, matematik arbetsblad, siffror och tal',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/alfabettag-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/alphabet-train-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/alfabettag-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/alphabet-train-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Alfabettåg Arbetsblad - Bokstäver Lära Sig | LessonCraftStudio',
+        description: 'Skapa professionella alfabettåg-arbetsblad med vår alfabetgenerator. Perfekt för förskoleklass och lågstadiet.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/alfabettag-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish alphabet-train slug to new slug (for backwards compatibility)
+  if (params.slug === 'alphabet-train-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Alfabettåg Arbetsblad - Bokstäver Lära Sig | Förskoleklass Material Gratis',
+      description: 'Skapa professionella alfabettåg-arbetsblad med vår alfabetgenerator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/alfabettag-arbetsblad', // Point to new URL
       },
     };
   }
@@ -4184,6 +4228,7 @@ export async function generateStaticParams() {
     'word-search-worksheets', // Product page slug (English)
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

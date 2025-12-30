@@ -90,6 +90,12 @@ const nextConfig = {
         destination: '/sv/apps/addition-arbetsblad',
         permanent: true,
       },
+      // Swedish: alphabet-train-worksheets → alfabettag-arbetsblad
+      {
+        source: '/sv/apps/alphabet-train-worksheets',
+        destination: '/sv/apps/alfabettag-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

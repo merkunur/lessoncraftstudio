@@ -53,6 +53,19 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     no: 'addisjon-arbeidsark',
     fi: 'yhteenlasku-tyoarkit',
   },
+  'alphabet-train': {
+    en: 'alphabet-train-worksheets',
+    sv: 'alfabettag-arbetsblad',
+    de: 'alphabet-zug-arbeitsblaetter',
+    fr: 'train-alphabet-fiches',
+    es: 'tren-alfabeto-fichas',
+    it: 'treno-alfabeto-schede',
+    pt: 'trem-alfabeto-fichas',
+    nl: 'alfabet-trein-werkbladen',
+    da: 'alfabet-tog-arbejdsark',
+    no: 'alfabet-tog-arbeidsark',
+    fi: 'aakkosjuna-tyoarkit',
+  },
 };
 
 // Helper function to get the product page slug for an app in a specific locale

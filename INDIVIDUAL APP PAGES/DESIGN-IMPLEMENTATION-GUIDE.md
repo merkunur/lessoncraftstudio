@@ -92,17 +92,106 @@ git push origin main
 
 ---
 
-## 7 UNBREAKABLE RULES
+## 🌍🌍🌍 CRITICAL: 100% NATIVE LANGUAGE - ZERO ENGLISH ON NON-ENGLISH PAGES 🌍🌍🌍
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   EVERY SINGLE WORD ON THE PAGE MUST BE IN THE TARGET LANGUAGE                    ║
+║                                                                                   ║
+║   When creating a Swedish page → EVERYTHING is Swedish                            ║
+║   When creating a German page → EVERYTHING is German                              ║
+║   When creating a French page → EVERYTHING is French                              ║
+║                                                                                   ║
+║   THIS INCLUDES:                                                                  ║
+║   ✗ Product names: "Core Bundle" → "Grundpaketet" (Swedish)                       ║
+║   ✗ UI labels: "Read more" → "Läs mer" (Swedish)                                  ║
+║   ✗ Badge text: "Features" → "Funktioner" (Swedish)                               ║
+║   ✗ Step labels: "Step 1" → "Steg 1" (Swedish)                                    ║
+║   ✗ Completion text: "Done!" → "Klart!" (Swedish)                                 ║
+║   ✗ Trust badges: "Secure payment" → "Säker betalning" (Swedish)                  ║
+║   ✗ Button text: "Start Creating" → "Börja Skapa" (Swedish)                       ║
+║   ✗ Section headers: "Who It's For" → "Vem Det Är För" (Swedish)                  ║
+║   ✗ Pricing: "Full Access" → "Full Tillgång" (Swedish)                            ║
+║                                                                                   ║
+║   NOTHING IN ENGLISH - NOT EVEN PRODUCT NAMES!                                    ║
+║   "Core Bundle" is NOT a proper noun like "iPhone" - it MUST be translated!       ║
+║                                                                                   ║
+║   ❌ WRONG: Swedish page with "Core Bundle", "Read more", "Features"              ║
+║   ✅ RIGHT: Swedish page with "Grundpaketet", "Läs mer", "Funktioner"             ║
+║                                                                                   ║
+║   THE TEXT MUST SOUND NATURAL TO A NATIVE SPEAKER                                 ║
+║   Not literal translations - idiomatic expressions!                               ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+### UI Labels That MUST Be Translated
+
+All these fields in the content file MUST be in the target language:
+
+| Field | English | Swedish | German | French |
+|-------|---------|---------|--------|--------|
+| `hero.readMoreLabel` | Read more | Läs mer | Mehr lesen | Lire plus |
+| `hero.showLessLabel` | Show less | Visa mindre | Weniger anzeigen | Voir moins |
+| `hero.floatingStats.time` | 3 min | 3 min | 3 Min | 3 min |
+| `hero.floatingStats.action` | Create & Download | Skapa & Ladda Ner | Erstellen & Herunterladen | Créer et Télécharger |
+| `hero.floatingStats.quality` | 300 DPI | 300 DPI | 300 DPI | 300 DPI |
+| `samples.badgeText` | Free Samples | Gratis Exempel | Kostenlose Beispiele | Exemples Gratuits |
+| `samples.downloadingLabel` | Downloading... | Laddar ner... | Wird heruntergeladen... | Téléchargement... |
+| `samples.ofLabel` | of | av | von | de |
+| `features.badgeText` | Features | Funktioner | Funktionen | Fonctionnalités |
+| `features.trustBadges.allFeatures` | All features included | Alla funktioner ingår | Alle Funktionen enthalten | Toutes les fonctionnalités incluses |
+| `features.trustBadges.noHiddenFees` | No hidden fees | Inga dolda avgifter | Keine versteckten Gebühren | Pas de frais cachés |
+| `features.trustBadges.cancelAnytime` | Cancel anytime | Avsluta när som helst | Jederzeit kündbar | Annulez à tout moment |
+| `howTo.badgeText` | How It Works | Så Fungerar Det | So funktioniert es | Comment ça marche |
+| `howTo.stepLabel` | Step | Steg | Schritt | Étape |
+| `howTo.completionTitle` | Done! | Klart! | Fertig! | Terminé ! |
+| `howTo.completionSubtitle` | Your worksheet is ready | Ditt arbetsblad är redo | Ihr Arbeitsblatt ist fertig | Votre fiche est prête |
+| `howTo.readyTime` | Ready in under 3 minutes | Klart på under 3 minuter | Fertig in unter 3 Minuten | Prêt en moins de 3 minutes |
+| `howTo.noSkillsNeeded` | No design skills needed | Inga designkunskaper behövs | Keine Designkenntnisse erforderlich | Aucune compétence en design requise |
+| `useCases.badgeText` | Who It's For | Vem Det Är För | Für wen es ist | Pour qui c'est |
+| `faq.badgeText` | FAQ | Vanliga Frågor | Häufige Fragen | Questions fréquentes |
+| `faq.secureCheckout` | Secure checkout | Säker betalning | Sichere Zahlung | Paiement sécurisé |
+| `faq.cancelAnytime` | Cancel anytime | Avsluta när som helst | Jederzeit kündbar | Annulez à tout moment |
+| `relatedApps.badgeText` | Works Great With | Fungerar Utmärkt Med | Funktioniert gut mit | Fonctionne bien avec |
+| `relatedApps.exploreText` | Explore all apps | Utforska alla appar | Alle Apps erkunden | Explorer toutes les apps |
+| `relatedApps.trustBadges.guarantee` | 30-day guarantee | 30 dagars garanti | 30-Tage-Garantie | Garantie 30 jours |
+| `relatedApps.trustBadges.securePayment` | Secure payment | Säker betalning | Sichere Zahlung | Paiement sécurisé |
+| `pricing.title` | Core Bundle | Grundpaketet | Basispaket | Forfait de Base |
+
+### Product Names MUST Be Translated
+
+| English | Swedish | German | French | Spanish | Italian |
+|---------|---------|--------|--------|---------|---------|
+| Core Bundle | Grundpaketet | Basispaket | Forfait de Base | Paquete Básico | Pacchetto Base |
+| Full Access | Full Tillgång | Voller Zugang | Accès Complet | Acceso Completo | Accesso Completo |
+
+### How to Verify: Page Language Audit
+
+Before deploying any non-English page, search for these common English words:
+
+```bash
+# Search for English words that should NOT appear on non-English pages
+grep -i "Read more\|Show less\|Features\|How It Works\|Step \|Done!\|Cancel anytime\|Core Bundle\|Full Access" content-file.ts
+```
+
+If ANY of these appear in the content file for a non-English page → FIX THEM!
+
+---
+
+## 8 UNBREAKABLE RULES
 
 | # | Rule | Why It Matters |
 |---|------|----------------|
-| 1 | **🚨 DEPLOY TO PRODUCTION** | Task is NOT complete until live URL returns HTTP 200 - local build is NOT enough! |
-| 2 | **3 SENTENCES DEFAULT** | ALL long text shows only 3 sentences initially - components handle this automatically |
-| 3 | NO FAKE STATS | Never invent user counts, ratings, or numbers |
-| 4 | NO APP LINKS | Links go to `/signup`, `/apps`, `/pricing`, or homepage ONLY |
-| 5 | FULL TEXT | Use 100% of .md content in content file - components will collapse it |
-| 6 | REAL SAMPLES | Only use actual files from `samples/` folder - VERIFY THEY EXIST |
-| 7 | FREE PDF | Direct download link, no login required |
+| 1 | **🌍 100% NATIVE LANGUAGE** | EVERY word must be in target language - NO English on non-English pages! "Core Bundle" → "Grundpaketet" |
+| 2 | **🚨 DEPLOY TO PRODUCTION** | Task is NOT complete until live URL returns HTTP 200 - local build is NOT enough! |
+| 3 | **3 SENTENCES DEFAULT** | ALL long text shows only 3 sentences initially - components handle this automatically |
+| 4 | NO FAKE STATS | Never invent user counts, ratings, or numbers |
+| 5 | NO APP LINKS | Links go to `/signup`, `/apps`, `/pricing`, or homepage ONLY |
+| 6 | FULL TEXT | Use 100% of .md content in content file - components will collapse it |
+| 7 | REAL SAMPLES | Only use actual files from `samples/` folder - VERIFY THEY EXIST |
+| 8 | FREE PDF | Direct download link, no login required |
 
 ---
 
@@ -205,6 +294,162 @@ lessoncraftstudio/
             ├── wordsearch portrait.jpeg
             └── ...
 ```
+
+---
+
+## 🔄 APP ID vs PRODUCT PAGE SLUG - CRITICAL DISTINCTION 🔄
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   THE SYSTEM HAS TWO DIFFERENT IDENTIFIERS FOR EACH APP:                          ║
+║                                                                                   ║
+║   1. APP ID (internal identifier)                                                 ║
+║      - Used in /apps listing grid                                                 ║
+║      - Stored in apps array in AppCategories.tsx                                  ║
+║      - Examples: math-puzzle, image-addition, matching-app                        ║
+║                                                                                   ║
+║   2. PRODUCT PAGE SLUG (SEO-optimized URL)                                        ║
+║      - Used in product page URLs                                                  ║
+║      - Stored in content file names and page.tsx                                  ║
+║      - Examples: math-puzzle-worksheets, addition-worksheets, matching-worksheets ║
+║                                                                                   ║
+║   THE MAPPING BETWEEN THEM IS IN AppCard.tsx:                                     ║
+║   'image-addition' → 'addition-worksheets'                                        ║
+║   'matching-app' → 'matching-worksheets'                                          ║
+║   'math-puzzle' → 'math-puzzle-worksheets'                                        ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+### Why Two Different Identifiers?
+
+| Identifier | Purpose | Example |
+|------------|---------|---------|
+| **App ID** | Internal system identifier, often technical or legacy names | `image-addition`, `matching-app`, `big-small-app` |
+| **Product Page Slug** | SEO-optimized URL that users see, includes "worksheets" keyword | `addition-worksheets`, `matching-worksheets`, `big-small-worksheets` |
+
+### The Mapping File: AppCard.tsx
+
+Location: `frontend/components/apps/AppCard.tsx`
+
+This file contains the `appIdToProductSlug` mapping that translates app IDs to product page slugs:
+
+```typescript
+const appIdToProductSlug: { [key: string]: string } = {
+  'word-search': 'word-search-worksheets',
+  'image-addition': 'addition-worksheets',
+  'alphabet-train': 'alphabet-train-worksheets',
+  'coloring': 'coloring-worksheets',
+  'math-worksheet': 'math-worksheets',
+  'word-scramble': 'word-scramble-worksheets',
+  'find-and-count': 'find-and-count-worksheets',
+  'matching-app': 'matching-worksheets',
+  'drawing-lines': 'drawing-lines-worksheets',
+  'picture-bingo': 'picture-bingo-worksheets',
+  'sudoku': 'sudoku-worksheets',
+  'big-small-app': 'big-small-worksheets',
+  'chart-count-color': 'chart-count-worksheets',
+  'code-addition': 'code-addition-worksheets',
+  'draw-and-color': 'draw-and-color-worksheets',
+  'find-objects': 'find-objects-worksheets',
+  'grid-match': 'grid-match-worksheets',
+  'image-crossword': 'crossword-worksheets',
+  'image-cryptogram': 'cryptogram-worksheets',
+  'math-puzzle': 'math-puzzle-worksheets',
+};
+```
+
+### Complete App ID → Product Page Slug Mapping (All 33 Apps)
+
+| # | App ID | Product Page Slug | HTML Generator |
+|---|--------|-------------------|----------------|
+| 1 | `word-search` | `word-search-worksheets` | wordsearch.html |
+| 2 | `image-addition` | `addition-worksheets` | addition.html |
+| 3 | `alphabet-train` | `alphabet-train-worksheets` | alphabet train.html |
+| 4 | `coloring` | `coloring-worksheets` | coloring.html |
+| 5 | `math-worksheet` | `math-worksheets` | math worksheet.html |
+| 6 | `word-scramble` | `word-scramble-worksheets` | word scramble.html |
+| 7 | `find-and-count` | `find-and-count-worksheets` | find and count.html |
+| 8 | `matching-app` | `matching-worksheets` | matching.html |
+| 9 | `drawing-lines` | `drawing-lines-worksheets` | drawing lines.html |
+| 10 | `picture-bingo` | `picture-bingo-worksheets` | bingo.html |
+| 11 | `sudoku` | `sudoku-worksheets` | sudoku.html |
+| 12 | `big-small-app` | `big-small-worksheets` | big small.html |
+| 13 | `chart-count-color` | `chart-count-worksheets` | chart count.html |
+| 14 | `code-addition` | `code-addition-worksheets` | code addition.html |
+| 15 | `draw-and-color` | `draw-and-color-worksheets` | draw and color.html |
+| 16 | `find-objects` | `find-objects-worksheets` | find objects.html |
+| 17 | `grid-match` | `grid-match-worksheets` | grid match.html |
+| 18 | `image-crossword` | `crossword-worksheets` | crossword.html |
+| 19 | `image-cryptogram` | `cryptogram-worksheets` | cryptogram.html |
+| 20 | `math-puzzle` | `math-puzzle-worksheets` | math puzzle.html |
+| 21 | `missing-pieces` | `missing-pieces-worksheets` | missing pieces.html |
+| 22 | `more-less` | `more-less-worksheets` | more less.html |
+| 23 | `odd-one-out` | `odd-one-out-worksheets` | odd one out.html |
+| 24 | `pattern-train` | `pattern-train-worksheets` | pattern train.html |
+| 25 | `pattern-worksheet` | `pattern-worksheets` | pattern worksheet.html |
+| 26 | `picture-path` | `picture-path-worksheets` | picture path.html |
+| 27 | `picture-sort` | `picture-sort-worksheets` | picture sort.html |
+| 28 | `prepositions` | `prepositions-worksheets` | prepositions.html |
+| 29 | `shadow-match` | `shadow-match-worksheets` | shadow match.html |
+| 30 | `subtraction` | `subtraction-worksheets` | subtraction.html |
+| 31 | `treasure-hunt` | `treasure-hunt-worksheets` | treasure hunt.html |
+| 32 | `word-guess` | `word-guess-worksheets` | word guess.html |
+| 33 | `writing-app` | `writing-worksheets` | writing.html |
+
+---
+
+## 📋 4 FILES TO UPDATE FOR EACH NEW PRODUCT PAGE 📋
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   WHEN CREATING A NEW PRODUCT PAGE, YOU MUST UPDATE 4 FILES:                      ║
+║                                                                                   ║
+║   1. CONTENT FILE (create new)                                                    ║
+║      frontend/content/product-pages/en/{app-slug}.ts                              ║
+║                                                                                   ║
+║   2. PAGE.TSX (add import, metadata, render, staticParams)                        ║
+║      frontend/app/[locale]/apps/[slug]/page.tsx                                   ║
+║                                                                                   ║
+║   3. APPCARD.TSX (add to appIdToProductSlug mapping)                              ║
+║      frontend/components/apps/AppCard.tsx                                         ║
+║      → Makes "Learn More" button link to the product page                         ║
+║                                                                                   ║
+║   4. APPCATEGORIES.TSX (add app to homepage if not there)                         ║
+║      frontend/components/homepage/AppCategories.tsx                               ║
+║      → Makes app appear in "Browse by Category" on homepage                       ║
+║                                                                                   ║
+║   FORGETTING ANY OF THESE = BROKEN LINKS OR MISSING CONTENT                       ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+### File 1: Content File
+- **Location:** `frontend/content/product-pages/en/{app-slug}.ts`
+- **Purpose:** Contains all SEO content for the product page
+- **Naming:** Use the PRODUCT PAGE SLUG (e.g., `math-puzzle-worksheets.ts`)
+
+### File 2: page.tsx
+- **Location:** `frontend/app/[locale]/apps/[slug]/page.tsx`
+- **Updates needed:**
+  1. Add import statement for the content
+  2. Add metadata generation for the slug
+  3. Add rendering condition
+  4. Add slug to `generateStaticParams`
+
+### File 3: AppCard.tsx
+- **Location:** `frontend/components/apps/AppCard.tsx`
+- **Updates needed:**
+  1. Add entry to `appIdToProductSlug` mapping
+- **Purpose:** Links the "Learn More" button on app cards to the correct product page
+
+### File 4: AppCategories.tsx
+- **Location:** `frontend/components/homepage/AppCategories.tsx`
+- **Updates needed:** Add app to the appropriate category array (if not already present)
+- **Purpose:** Makes the app visible in "Browse by Category" section on homepage
+- **Translations:** Must include ALL 11 languages for app name and description
 
 ---
 
@@ -325,22 +570,95 @@ Add:
 3. Rendering condition
 4. Add slug to generateStaticParams
 
-### Step 5: Commit and Push
+```typescript
+// 1. Add import at top of file
+import appNameEnContent from '@/content/product-pages/en/{app-slug}';
+
+// 2. Add metadata generation (inside generateMetadata function)
+if (params.slug === '{app-slug}' && params.locale === 'en') {
+  return {
+    title: 'SEO Title | LessonCraft Studio',
+    description: 'SEO meta description...',
+    // ... rest of metadata
+  };
+}
+
+// 3. Add rendering condition (inside component)
+if (slug === '{app-slug}' && locale === 'en') {
+  return <ProductPageClient locale={locale} content={appNameEnContent} />;
+}
+
+// 4. Add slug to generateStaticParams slugs array
+export async function generateStaticParams() {
+  const slugs = [
+    // ... existing slugs ...
+    '{app-slug}',  // Add this
+  ];
+  // ...
+}
+```
+
+### Step 5: Update AppCard.tsx (CRITICAL - Makes "Learn More" Work!)
+File: `frontend/components/apps/AppCard.tsx`
+
+Add entry to `appIdToProductSlug` mapping:
+
+```typescript
+const appIdToProductSlug: { [key: string]: string } = {
+  // ... existing mappings ...
+  '{app-id}': '{app-slug}',  // Add this line
+};
+```
+
+**Why is this needed?** Without this mapping, the "Learn More" button on the app card will link to `/{locale}/apps/{app-id}` instead of `/{locale}/apps/{app-slug}`, resulting in a 404 error.
+
+### Step 6: Verify AppCategories.tsx (Homepage Visibility)
+File: `frontend/components/homepage/AppCategories.tsx`
+
+Check if the app is already in the `apps` array. If not, add it with ALL 11 language translations:
+
+```typescript
+// Inside the appropriate category array (math, language, visual, creative, or logic)
+{
+  nameEn: 'App Name',
+  nameDe: 'German Name',
+  nameFr: 'French Name',
+  nameEs: 'Spanish Name',
+  nameIt: 'Italian Name',
+  namePt: 'Portuguese Name',
+  nameNl: 'Dutch Name',
+  nameDa: 'Danish Name',
+  nameSv: 'Swedish Name',
+  nameNo: 'Norwegian Name',
+  nameFi: 'Finnish Name',
+  slug: '{app-slug}',  // Use PRODUCT PAGE SLUG here
+  icon: '🧩',
+  descriptionEn: 'Short description in English',
+  descriptionDe: 'German description',
+  // ... all 11 language descriptions
+},
+```
+
+**Note:** All 33 apps should already be in AppCategories.tsx. This step is usually just verification.
+
+### Step 7: Commit and Push
 ```bash
 git add frontend/content/product-pages/en/{app-slug}.ts
 git add frontend/public/samples/english/{app-name}/
 git add frontend/app/[locale]/apps/[slug]/page.tsx
+git add frontend/components/apps/AppCard.tsx
+git add frontend/components/homepage/AppCategories.tsx  # If modified
 git commit -m "feat: Add {App Name} product page (English)"
 git push origin main
 ```
 
-### Step 6: Deploy to Server
+### Step 8: Deploy to Server
 ```bash
 # Pull and build
 plink root@server "cd /opt/lessoncraftstudio && git pull && cd frontend && npm run build && cp -r .next/static .next/standalone/.next/static && pm2 restart lessoncraftstudio"
 ```
 
-### Step 7: Upload Samples to Server
+### Step 9: Upload Samples to Server
 ```bash
 # Create directory on server
 plink root@server "mkdir -p /opt/lessoncraftstudio/frontend/public/samples/english/{app-name}"
@@ -355,7 +673,7 @@ plink root@server "cp -r /opt/lessoncraftstudio/frontend/public/samples/english/
 plink root@server "pm2 restart lessoncraftstudio"
 ```
 
-### Step 8: Verify Everything Works
+### Step 10: Verify Everything Works
 ```bash
 # Test page loads
 curl -s -o /dev/null -w '%{http_code}' 'https://www.lessoncraftstudio.com/en/apps/{app-slug}'
@@ -378,9 +696,22 @@ curl -s -I 'https://www.lessoncraftstudio.com/samples/english/{app-name}/filenam
 
 Before saying "done", verify ALL of these:
 
-### ⚠️ Text Display (MOST IMPORTANT)
+### 🌍 Language Verification (MOST IMPORTANT FOR NON-ENGLISH PAGES)
+- [ ] **ZERO English words on non-English pages** - search for "Read more", "Features", "Step", "Done!"
+- [ ] **Product names translated** - "Core Bundle" → native language equivalent
+- [ ] **All UI labels in target language** - badges, buttons, trust text, step labels
+- [ ] **Text sounds natural** - not literal translations, idiomatic expressions
+- [ ] **All fields populated** - hero.readMoreLabel, features.badgeText, howTo.stepLabel, etc.
+
+### ⚠️ Text Display
 - [ ] **All long text in content file is FULL text (not truncated)**
 - [ ] **Components will auto-collapse to 3 sentences - you don't do anything**
+
+### 4 Required File Updates
+- [ ] **Content file created** at `frontend/content/product-pages/en/{app-slug}.ts`
+- [ ] **page.tsx updated** with import, metadata, render condition, staticParams
+- [ ] **AppCard.tsx updated** - entry added to `appIdToProductSlug` mapping
+- [ ] **AppCategories.tsx verified** - app exists in homepage categories (all 33 apps should be there)
 
 ### Sample Files
 - [ ] Sample files exist in `samples/english/{app}/` (master location)
@@ -619,24 +950,32 @@ plink ... "pm2 restart lessoncraftstudio"
 ```
 ╔═══════════════════════════════════════════════════════════════════════════════════╗
 ║                                                                                   ║
-║   🚨 0. DEPLOY TO PRODUCTION - THIS IS NOT OPTIONAL 🚨                            ║
+║   🌍 0. 100% NATIVE LANGUAGE - ZERO ENGLISH ON NON-ENGLISH PAGES 🌍               ║
+║      EVERY word must be in the target language - including product names!         ║
+║      "Core Bundle" → "Grundpaketet" (Swedish), "Basispaket" (German)             ║
+║      "Full Access" → "Full Tillgång" (Swedish), "Voller Zugang" (German)         ║
+║      "Read more" → "Läs mer" (Swedish), "Mehr lesen" (German)                    ║
+║      "Features" → "Funktioner" (Swedish), "Funktionen" (German)                  ║
+║      ALL UI LABELS, BADGES, BUTTONS - EVERYTHING IN TARGET LANGUAGE!             ║
+║                                                                                   ║
+║   🚨 1. DEPLOY TO PRODUCTION - THIS IS NOT OPTIONAL 🚨                            ║
 ║      git push → server git pull → npm run build → copy samples → verify URL      ║
 ║      "Local build passed" = NOT DONE. "Live URL returns 200" = DONE.             ║
 ║                                                                                   ║
-║   1. PUT FULL TEXT IN CONTENT FILE                                                ║
+║   2. PUT FULL TEXT IN CONTENT FILE                                                ║
 ║      Components auto-collapse to 3 sentences                                      ║
 ║                                                                                   ║
-║   2. VERIFY SAMPLES EXIST BEFORE CREATING PAGE                                    ║
+║   3. VERIFY SAMPLES EXIST BEFORE CREATING PAGE                                    ║
 ║      Check samples/english/{app}/ folder first                                    ║
 ║                                                                                   ║
-║   3. COPY SAMPLES TO STANDALONE ON SERVER                                         ║
+║   4. COPY SAMPLES TO STANDALONE ON SERVER                                         ║
 ║      Or they won't be accessible                                                  ║
 ║                                                                                   ║
-║   4. TEST ALL LIVE URLs BEFORE ANNOUNCING COMPLETION                              ║
+║   5. TEST ALL LIVE URLs BEFORE ANNOUNCING COMPLETION                              ║
 ║      Page, images, and PDFs must all return 200 ON PRODUCTION                     ║
 ║      curl https://www.lessoncraftstudio.com/en/apps/{app-slug}                   ║
 ║                                                                                   ║
-║   🏠 5. NEVER REGENERATE THE HOMEPAGE - IT IS COMPLETE 🏠                          ║
+║   🏠 6. NEVER REGENERATE THE HOMEPAGE - IT IS COMPLETE 🏠                          ║
 ║      The homepage was finished in Dec 2025 with 11 languages and 12 samples      ║
 ║      Only fix bugs - never redesign or regenerate from scratch                   ║
 ║                                                                                   ║
@@ -737,44 +1076,71 @@ To add a new downloadable sample that links to a product page:
 
 ### Adding a New Category Card to AppCategories.tsx
 
-To add a new app card that links to a product page:
+**Location:** `frontend/components/homepage/AppCategories.tsx`
+
+This file contains ALL 33 apps organized into 5 categories that appear in the "Browse by Category" section on the homepage.
+
+#### The 5 Categories and Their Apps
+
+| Category | Apps (33 total) |
+|----------|-----------------|
+| **Math** (6 apps) | Addition, Subtraction, Math Worksheet, Code Addition, Chart Count, Math Puzzle |
+| **Language** (6 apps) | Word Search, Word Scramble, Crossword, Cryptogram, Word Guess, Writing |
+| **Visual Learning** (10 apps) | Find & Count, Find Objects, Matching, Grid Match, Drawing Lines, Missing Pieces, Shadow Match, Picture Path, Picture Sort, Prepositions |
+| **Creative** (7 apps) | Coloring, Draw & Color, Alphabet Train, Big Small, Pattern Train, Pattern Worksheet, Treasure Hunt |
+| **Logic & Puzzles** (4 apps) | Sudoku, Picture Bingo, More or Less, Odd One Out |
+
+#### To add a new app:
 
 1. Open `frontend/components/homepage/AppCategories.tsx`
-2. Find the `apps` array
-3. Add a new app object:
+2. Find the appropriate category array (math, language, visual, creative, or logic)
+3. Add a new app object with ALL 11 language translations:
 
 ```typescript
 {
-  id: 'app-id',
   nameEn: 'App Name',
-  nameDe: 'German Name',
-  // ... all language translations ...
-  icon: '🔢',                           // Emoji icon
-  categoryEn: 'Math',                   // Category translations
-  categoryDe: 'Mathematik',
-  // ... all category translations ...
-  appSlug: 'app-name-worksheets',       // ← LINK TO /[locale]/apps/app-name-worksheets
+  nameDe: 'German Name',           // Must sound natural in German
+  nameFr: 'French Name',           // Must sound natural in French
+  nameEs: 'Spanish Name',          // Must sound natural in Spanish
+  nameIt: 'Italian Name',          // Must sound natural in Italian
+  namePt: 'Portuguese Name',       // Must sound natural in Portuguese (Brazilian)
+  nameNl: 'Dutch Name',            // Must sound natural in Dutch
+  nameDa: 'Danish Name',           // Must sound natural in Danish
+  nameSv: 'Swedish Name',          // Must sound natural in Swedish
+  nameNo: 'Norwegian Name',        // Must sound natural in Norwegian
+  nameFi: 'Finnish Name',          // Must sound natural in Finnish
+  slug: 'app-name-worksheets',     // Use PRODUCT PAGE SLUG (not App ID!)
+  icon: '🧩',                      // Emoji icon
+  descriptionEn: 'Short description',
+  descriptionDe: 'German description',
+  // ... all 11 language descriptions
 },
 ```
 
-### Available Product Page Slugs
+#### Translation Quality Requirements
 
-Only link to product pages that exist in `frontend/content/product-pages/en/`:
+**CRITICAL:** All translations must:
+- Sound natural in the target language (not literal translations)
+- Be consistent with existing app names in that language
+- Use proper terminology for that country's education system
 
-```
-addition-worksheets          alphabet-train-worksheets
-big-small-worksheets         chart-count-worksheets
-code-addition-worksheets     coloring-worksheets
-crossword-worksheets         cryptogram-worksheets
-draw-and-color-worksheets    drawing-lines-worksheets
-find-and-count-worksheets    find-objects-worksheets
-grid-match-worksheets        matching-worksheets
-math-worksheets              picture-bingo-worksheets
-sudoku-worksheets            word-scramble-worksheets
-word-search-worksheets
+**Example of GOOD translations:**
+```typescript
+nameEn: 'Math Puzzle',
+nameDe: 'Mathe-Puzzle',          // ✅ Natural German compound word
+nameFr: 'Puzzle mathématique',   // ✅ Natural French word order
 ```
 
-**ALWAYS verify the product page file exists before using the slug!**
+**Example of BAD translations:**
+```typescript
+nameEn: 'Math Puzzle',
+nameDe: 'Mathematik Puzzle',     // ❌ Awkward - should be "Mathe-Puzzle"
+nameFr: 'Math Puzzle',           // ❌ Not translated at all
+```
+
+### All 33 Apps Are Already in AppCategories.tsx
+
+As of December 2025, all 33 apps have been added to AppCategories.tsx with complete translations in all 11 languages. When creating a new product page, you typically only need to **verify** the app exists, not add it.
 
 ---
 

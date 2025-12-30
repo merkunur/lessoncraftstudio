@@ -84,6 +84,12 @@ const nextConfig = {
         destination: '/sv/apps/ordletar-arbetsblad',
         permanent: true,
       },
+      // Swedish: addition-worksheets → addition-arbetsblad
+      {
+        source: '/sv/apps/addition-worksheets',
+        destination: '/sv/apps/addition-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

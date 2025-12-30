@@ -40,6 +40,19 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     no: 'ordsoek-arbeidsark',
     fi: 'sananhaku-tyoarkit',
   },
+  'image-addition': {
+    en: 'addition-worksheets',
+    sv: 'addition-arbetsblad',
+    de: 'addition-arbeitsblaetter',
+    fr: 'addition-fiches',
+    es: 'suma-fichas',
+    it: 'addizione-schede',
+    pt: 'adicao-fichas',
+    nl: 'optellen-werkbladen',
+    da: 'addition-arbejdsark',
+    no: 'addisjon-arbeidsark',
+    fi: 'yhteenlasku-tyoarkit',
+  },
 };
 
 // Helper function to get the product page slug for an app in a specific locale

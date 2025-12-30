@@ -37,6 +37,7 @@ import treasureHuntEnContent from '@/content/product-pages/en/treasure-hunt-work
 import wordGuessEnContent from '@/content/product-pages/en/word-guess-worksheets';
 import writingEnContent from '@/content/product-pages/en/writing-worksheets';
 import wordSearchSvContent from '@/content/product-pages/sv/word-search-worksheets';
+import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 
 interface PageProps {
   params: {
@@ -137,6 +138,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
+  // Addition Worksheets - Swedish product page SEO (new Swedish slug)
+  if (params.slug === 'addition-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Arbetsblad Gratis - Addition och Subtraktion Generator | Matematik Arbetsblad för Förskoleklass',
+      description: 'Skapa professionella additionsarbetsblad med vår bildbaserade matematik arbetsblad generator. Generera skräddarsydda utskrivbara matte övningar perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
+      keywords: 'arbetsblad gratis, addition och subtraktion, matematik arbetsblad, förskoleklass material, matte övningar, siffror och tal, additionsarbetsblad, multiplikationstabellen, klockan lära sig, bokstäver lära sig, skriva bokstäver, målarbilder barn, finmotorik övningar',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/addition-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/addition-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/addition-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/addition-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Arbetsblad Gratis - Addition och Subtraktion Generator | LessonCraftStudio',
+        description: 'Skapa professionella additionsarbetsblad med vår matematik arbetsblad generator. Perfekt för förskoleklass och lågstadiet.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/addition-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish addition slug to new slug (for backwards compatibility)
+  if (params.slug === 'addition-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Arbetsblad Gratis - Addition och Subtraktion Generator | Matematik Arbetsblad för Förskoleklass',
+      description: 'Skapa professionella additionsarbetsblad med vår bildbaserade matematik arbetsblad generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/addition-arbetsblad', // Point to new URL
       },
     };
   }
@@ -3866,6 +3910,7 @@ function getTierLabel(tier: string, locale: string): string {
 const seoRedirects: { [locale: string]: { [englishSlug: string]: string } } = {
   sv: {
     'word-search-worksheets': 'ordletar-arbetsblad',
+    'addition-worksheets': 'addition-arbetsblad',
   },
   // Add more languages as they get localized slugs:
   // de: { 'word-search-worksheets': 'wortsuche-arbeitsblaetter' },
@@ -4138,6 +4183,7 @@ export async function generateStaticParams() {
     'addition-worksheets', // Product page slug
     'word-search-worksheets', // Product page slug (English)
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

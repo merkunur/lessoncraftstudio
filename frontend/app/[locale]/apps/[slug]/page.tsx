@@ -39,6 +39,7 @@ import writingEnContent from '@/content/product-pages/en/writing-worksheets';
 import wordSearchSvContent from '@/content/product-pages/sv/word-search-worksheets';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
+import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
 
 interface PageProps {
   params: {
@@ -225,6 +226,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/sv/apps/alfabettag-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
+  // Coloring Worksheets - Swedish product page SEO (new Swedish slug)
+  if (params.slug === 'malarbilder-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Målarbilder Barn - Gratis Arbetsblad att Skriva Ut | Förskoleklass Material',
+      description: 'Skapa professionella målarbilder barn med vårt enkla verktyg. Generera anpassade målarbilder perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-filer på under 3 minuter.',
+      keywords: 'målarbilder barn, arbetsblad gratis, förskoleklass material, finmotorik övningar, matematik arbetsblad, bokstäver lära sig, siffror och tal, multiplikationstabellen, klockan lära sig, addition och subtraktion',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/malarbilder-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/coloring-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/malarbilder-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/coloring-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Målarbilder Barn - Gratis Arbetsblad | LessonCraftStudio',
+        description: 'Skapa professionella målarbilder barn med vårt enkla verktyg. Perfekt för förskoleklass och lågstadiet.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/malarbilder-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish coloring slug to new slug (for backwards compatibility)
+  if (params.slug === 'coloring-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Målarbilder Barn - Gratis Arbetsblad att Skriva Ut | Förskoleklass Material',
+      description: 'Skapa professionella målarbilder barn med vårt enkla verktyg.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/malarbilder-arbetsblad', // Point to new URL
       },
     };
   }

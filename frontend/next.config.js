@@ -96,6 +96,12 @@ const nextConfig = {
         destination: '/sv/apps/alfabettag-arbetsblad',
         permanent: true,
       },
+      // Swedish: coloring-worksheets → malarbilder-arbetsblad
+      {
+        source: '/sv/apps/coloring-worksheets',
+        destination: '/sv/apps/malarbilder-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

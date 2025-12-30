@@ -68,31 +68,37 @@ Verktyget för målarbilder barn stöder 11 språk för användargränssnittet. 
       {
         id: '1',
         worksheetSrc: '/samples/english/coloring/coloring portrait 1.png',
+        answerKeySrc: '',
         altText: 'Målarbilder barn porträttformat med jultema för förskoleklass',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/coloring/coloring portrait 2.png',
+        answerKeySrc: '',
         altText: 'Målarbilder barn med djurtema för lågstadiet',
       },
       {
         id: '3',
         worksheetSrc: '/samples/english/coloring/coloring portrait 3.png',
+        answerKeySrc: '',
         altText: 'Målarbilder barn med naturtema för finmotorik övningar',
       },
       {
         id: '4',
         worksheetSrc: '/samples/english/coloring/coloring landscape 1.png',
+        answerKeySrc: '',
         altText: 'Målarbilder barn landskapsformat för klassrummet',
       },
       {
         id: '5',
         worksheetSrc: '/samples/english/coloring/coloring landscape 2.png',
+        answerKeySrc: '',
         altText: 'Målarbilder barn med fordon för pojkar och flickor',
       },
       {
         id: '6',
         worksheetSrc: '/samples/english/coloring/coloring landscape 3.png',
+        answerKeySrc: '',
         altText: 'Målarbilder barn med säsongstema för kreativitet',
       },
     ],

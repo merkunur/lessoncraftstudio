@@ -20,12 +20,24 @@ interface FeaturesGridProps {
   highlightBadgeText?: string;
   readMoreLabel?: string;
   showLessLabel?: string;
+  badgeText?: string;
+  trustBadges?: {
+    allFeatures: string;
+    noHiddenFees: string;
+    cancelAnytime: string;
+  };
 }
 
 const defaultProps = {
   highlightBadgeText: 'Key Feature',
   readMoreLabel: 'Read more',
   showLessLabel: 'Show less',
+  badgeText: 'Features',
+  trustBadges: {
+    allFeatures: 'All features included',
+    noHiddenFees: 'No hidden fees',
+    cancelAnytime: 'Cancel anytime',
+  },
 };
 
 // Collapsible feature card
@@ -166,6 +178,8 @@ export default function FeaturesGrid({
   highlightBadgeText = defaultProps.highlightBadgeText,
   readMoreLabel = defaultProps.readMoreLabel,
   showLessLabel = defaultProps.showLessLabel,
+  badgeText = defaultProps.badgeText,
+  trustBadges = defaultProps.trustBadges,
 }: FeaturesGridProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const isInView = useInView(containerRef, { once: true, margin: '-100px' });
@@ -204,7 +218,7 @@ export default function FeaturesGrid({
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
             </svg>
-            Features
+            {badgeText}
           </motion.div>
 
           <h2
@@ -251,21 +265,21 @@ export default function FeaturesGrid({
               <svg className="w-5 h-5 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
-              All features included
+              {trustBadges.allFeatures}
             </span>
             <span className="w-px h-4 bg-stone-200" />
             <span className="flex items-center gap-2 text-sm text-stone-600">
               <svg className="w-5 h-5 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
-              No hidden fees
+              {trustBadges.noHiddenFees}
             </span>
             <span className="w-px h-4 bg-stone-200" />
             <span className="flex items-center gap-2 text-sm text-stone-600">
               <svg className="w-5 h-5 text-emerald-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
-              Cancel anytime
+              {trustBadges.cancelAnytime}
             </span>
           </div>
         </motion.div>

@@ -65,6 +65,11 @@ interface FAQSectionProps {
   initialVisibleCount?: number;
   showMoreText?: string;
   showLessText?: string;
+  badgeText?: string;
+  readMoreLabel?: string;
+  showLessLabel?: string;
+  secureCheckout?: string;
+  cancelAnytime?: string;
   pricingTitle?: string;
   price?: string;
   priceInterval?: string;
@@ -79,6 +84,11 @@ const defaultProps = {
   initialVisibleCount: 6,
   showMoreText: 'Show more questions',
   showLessText: 'Show less',
+  badgeText: 'FAQ',
+  readMoreLabel: 'Read more',
+  showLessLabel: 'Show less',
+  secureCheckout: 'Secure checkout',
+  cancelAnytime: 'Cancel anytime',
   pricingTitle: 'Core Bundle',
   price: '$144',
   priceInterval: '/year',
@@ -103,6 +113,11 @@ export default function FAQSection({
   initialVisibleCount = defaultProps.initialVisibleCount,
   showMoreText = defaultProps.showMoreText,
   showLessText = defaultProps.showLessText,
+  badgeText = defaultProps.badgeText,
+  readMoreLabel = defaultProps.readMoreLabel,
+  showLessLabel = defaultProps.showLessLabel,
+  secureCheckout = defaultProps.secureCheckout,
+  cancelAnytime = defaultProps.cancelAnytime,
   pricingTitle = defaultProps.pricingTitle,
   price = defaultProps.price,
   priceInterval = defaultProps.priceInterval,
@@ -148,7 +163,7 @@ export default function FAQSection({
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
             </svg>
-            FAQ
+            {badgeText}
           </motion.div>
 
           <h2
@@ -232,7 +247,11 @@ export default function FAQSection({
                             <div className="px-6 pb-5 pt-0">
                               <div className="h-px bg-stone-100 mb-4" />
                               {/* Answer - Collapsible to 3 sentences by default */}
-                              <CollapsibleAnswer text={faq.answer} />
+                              <CollapsibleAnswer
+                                text={faq.answer}
+                                readMoreLabel={readMoreLabel}
+                                showLessLabel={showLessLabel}
+                              />
                             </div>
                           </motion.div>
                         )}
@@ -358,14 +377,14 @@ export default function FAQSection({
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
                   </svg>
-                  Secure checkout
+                  {secureCheckout}
                 </span>
                 <span className="w-1 h-1 rounded-full bg-stone-300" />
                 <span className="flex items-center gap-1">
                   <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
                   </svg>
-                  Cancel anytime
+                  {cancelAnytime}
                 </span>
               </div>
             </div>

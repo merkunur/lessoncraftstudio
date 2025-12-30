@@ -22,6 +22,11 @@ interface HeroSectionProps {
   };
   readMoreLabel?: string;
   showLessLabel?: string;
+  floatingStats?: {
+    time: string;
+    action: string;
+    quality: string;
+  };
 }
 
 const defaultCtaLabels = {
@@ -33,6 +38,12 @@ const defaultTrustBadges = {
   languages: '11 Languages',
   images: '3000+ Images',
   license: 'Commercial License',
+};
+
+const defaultFloatingStats = {
+  time: '3 min',
+  action: 'Create & Download',
+  quality: '300 DPI',
 };
 
 // Collapsible text component - shows SHORT text by default
@@ -102,6 +113,7 @@ export default function HeroSection({
   trustBadges = defaultTrustBadges,
   readMoreLabel = 'Read more',
   showLessLabel = 'Show less',
+  floatingStats = defaultFloatingStats,
 }: HeroSectionProps) {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
@@ -455,8 +467,8 @@ export default function HeroSection({
                       </motion.span>
                     </div>
                     <div>
-                      <p className="text-2xl font-black text-white">3 min</p>
-                      <p className="text-sm text-white/60">Create & Download</p>
+                      <p className="text-2xl font-black text-white">{floatingStats.time}</p>
+                      <p className="text-sm text-white/60">{floatingStats.action}</p>
                     </div>
                   </div>
                 </div>
@@ -473,7 +485,7 @@ export default function HeroSection({
                   <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                   </svg>
-                  <span className="text-sm font-bold text-white">300 DPI</span>
+                  <span className="text-sm font-bold text-white">{floatingStats.quality}</span>
                 </div>
               </motion.div>
             </motion.div>

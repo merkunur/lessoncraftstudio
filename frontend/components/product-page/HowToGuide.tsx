@@ -63,17 +63,43 @@ interface HowToGuideProps {
   steps: Step[];
   ctaText?: string;
   ctaHref?: string;
+  badgeText?: string;
+  stepLabel?: string;
+  completionTitle?: string;
+  completionSubtitle?: string;
+  readyTime?: string;
+  noSkillsNeeded?: string;
+  readMoreLabel?: string;
+  showLessLabel?: string;
 }
 
 const defaultIcons = ['🖼️', '⚙️', '✨', '✏️', '📥'];
+
+const defaultLabels = {
+  badgeText: 'How It Works',
+  stepLabel: 'Step',
+  completionTitle: 'Done!',
+  completionSubtitle: 'Your worksheet is ready',
+  readyTime: 'Ready in under 3 minutes',
+  noSkillsNeeded: 'No design skills needed',
+  ctaText: 'Start Creating Now',
+};
 
 export default function HowToGuide({
   locale,
   sectionTitle,
   sectionDescription,
   steps,
-  ctaText = 'Start Creating Now',
+  ctaText = defaultLabels.ctaText,
   ctaHref,
+  badgeText = defaultLabels.badgeText,
+  stepLabel = defaultLabels.stepLabel,
+  completionTitle = defaultLabels.completionTitle,
+  completionSubtitle = defaultLabels.completionSubtitle,
+  readyTime = defaultLabels.readyTime,
+  noSkillsNeeded = defaultLabels.noSkillsNeeded,
+  readMoreLabel = 'Read more',
+  showLessLabel = 'Show less',
 }: HowToGuideProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -122,7 +148,7 @@ export default function HowToGuide({
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
             </svg>
-            How It Works
+            {badgeText}
           </motion.div>
 
           <h2
@@ -205,7 +231,7 @@ export default function HowToGuide({
 
                       {/* Step label */}
                       <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-stone-100 text-xs font-semibold text-stone-600 mb-4">
-                        Step {step.number}
+                        {stepLabel} {step.number}
                       </div>
 
                       {/* Title */}
@@ -217,7 +243,11 @@ export default function HowToGuide({
                       </h3>
 
                       {/* Description - Collapsible to 3 sentences by default */}
-                      <CollapsibleDescription text={step.description} />
+                      <CollapsibleDescription
+                        text={step.description}
+                        readMoreLabel={readMoreLabel}
+                        showLessLabel={showLessLabel}
+                      />
 
                       {/* Decorative arrow pointing to timeline - Desktop only */}
                       <div
@@ -278,8 +308,8 @@ export default function HowToGuide({
 
               {/* Completion message */}
               <div className="ml-20 lg:ml-0 lg:mt-8 text-center">
-                <p className="text-lg font-semibold text-emerald-600 mb-1">Done!</p>
-                <p className="text-sm text-stone-500">Your worksheet is ready</p>
+                <p className="text-lg font-semibold text-emerald-600 mb-1">{completionTitle}</p>
+                <p className="text-sm text-stone-500">{completionSubtitle}</p>
               </div>
             </motion.div>
           </div>
@@ -306,8 +336,8 @@ export default function HowToGuide({
                 ))}
               </div>
               <div className="text-left">
-                <p className="text-sm font-semibold text-stone-800">Ready in under 3 minutes</p>
-                <p className="text-xs text-stone-500">No design skills needed</p>
+                <p className="text-sm font-semibold text-stone-800">{readyTime}</p>
+                <p className="text-xs text-stone-500">{noSkillsNeeded}</p>
               </div>
             </div>
 

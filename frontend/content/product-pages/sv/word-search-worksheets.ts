@@ -30,14 +30,28 @@ Generatorn stöder elev material för alla åldrar. Använd den för att skapa m
       images: '3000+ Bilder',
       license: 'Kommersiell Licens',
     },
+    readMoreLabel: 'Läs mer',
+    showLessLabel: 'Visa mindre',
+    floatingStats: {
+      time: '3 min',
+      action: 'Skapa & Ladda Ner',
+      quality: '300 DPI',
+    },
   },
 
   // Sample Gallery - REAL file paths from samples/english/wordsearch/
   samples: {
     sectionTitle: 'Ordletare Arbetsblad Exempel',
+    sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
     answerKeyLabel: 'Facit',
+    viewAllLabel: 'Visa större',
+    noPdfLabel: 'Endast förhandsgranskning',
+    freePdfCountLabel: 'gratis nedladdningar',
+    badgeText: 'Gratis Exempel',
+    downloadingLabel: 'Laddar ner...',
+    ofLabel: 'av',
     items: [
       {
         id: '1',
@@ -68,6 +82,14 @@ Generatorn stöder elev material för alla åldrar. Använd den för att skapa m
     sectionTitle: 'Ordletare Funktioner - Arbetsblad Gratis för Förskoleklass Material och Matematik Arbetsblad',
     sectionDescription: 'Vår gratis ordletare generator innehåller alla funktioner du behöver. Skapa arbetsblad gratis för förskoleklass och lågstadiet. Generatorn är perfekt för att skapa matte övningar och matematik arbetsblad.',
     highlightBadgeText: 'Nyckelfunktion',
+    readMoreLabel: 'Läs mer',
+    showLessLabel: 'Visa mindre',
+    badgeText: 'Funktioner',
+    trustBadges: {
+      allFeatures: 'Alla funktioner ingår',
+      noHiddenFees: 'Inga dolda avgifter',
+      cancelAnytime: 'Avsluta när som helst',
+    },
     items: [
       {
         id: '1',
@@ -154,6 +176,14 @@ Gråskala alternativ sparar bläck vid utskrift. Välj gråskala för att konver
     sectionTitle: 'Hur Man Skapar Arbetsblad Gratis i 5 Enkla Steg',
     sectionDescription: 'Skapa professionella ordletarpussel på under tre minuter totalt. Följ dessa fem enkla steg för att skapa arbetsblad gratis. Varje steg är designat för enkelhet och effektivitet. Inga designkunskaper behövs för att skapa förskoleklass material.',
     ctaText: 'Börja Skapa Nu',
+    badgeText: 'Så Fungerar Det',
+    stepLabel: 'Steg',
+    completionTitle: 'Klart!',
+    completionSubtitle: 'Ditt arbetsblad är redo',
+    readyTime: 'Klart på under 3 minuter',
+    noSkillsNeeded: 'Inga designkunskaper behövs',
+    readMoreLabel: 'Läs mer',
+    showLessLabel: 'Visa mindre',
     steps: [
       {
         id: '1',
@@ -217,6 +247,9 @@ Välj gråskala för att spara bläck vid utskrift. Gråskala konverterar färgb
   useCases: {
     sectionTitle: 'Perfekt för Lärare och Föräldrar',
     sectionDescription: 'Ordletare generatorn är perfekt för alla som undervisar barn. Lärare i förskoleklass och lågstadiet använder den dagligen. Föräldrar som hemundervisar skapar arbetsblad gratis för sina barn. Specialpedagoger skapar anpassade arbetsblad för olika behov.',
+    badgeText: 'Vem Det Är För',
+    readMoreLabel: 'Läs mer',
+    showLessLabel: 'Visa mindre',
     items: [
       {
         id: '1',
@@ -299,6 +332,11 @@ Skapa återkommande inkomst med populära teman. Addition och subtraktion arbets
     sectionDescription: 'Vanliga frågor om vår ordletare generator och arbetsblad gratis.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
+    badgeText: 'Vanliga Frågor',
+    readMoreLabel: 'Läs mer',
+    showLessLabel: 'Visa mindre',
+    secureCheckout: 'Säker betalning',
+    cancelAnytime: 'Avsluta när som helst',
     items: [
       {
         id: '1',
@@ -389,6 +427,13 @@ Skapa återkommande inkomst med populära teman. Addition och subtraktion arbets
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',
     primaryCtaText: 'Starta Gratis Provperiod',
     secondaryCtaText: 'Visa Alla 33 Appar',
+    badgeText: 'Fungerar Utmärkt Med',
+    exploreText: 'Utforska alla appar',
+    trustBadges: {
+      guarantee: '30 dagars pengarna-tillbaka-garanti',
+      securePayment: 'Säker betalning',
+      cancelAnytime: 'Avsluta när som helst',
+    },
     items: [
       {
         id: '1',

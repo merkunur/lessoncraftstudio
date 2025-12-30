@@ -16,22 +16,30 @@ interface SampleGalleryProps {
   locale: string;
   samples: Sample[];
   sectionTitle?: string;
+  sectionDescription?: string;
   downloadLabel?: string;
   worksheetLabel?: string;
   answerKeyLabel?: string;
   viewAllLabel?: string;
   noPdfLabel?: string;
   freePdfCountLabel?: string;
+  badgeText?: string;
+  downloadingLabel?: string;
+  ofLabel?: string;
 }
 
 const defaultLabels = {
   sectionTitle: 'Sample Worksheets',
+  sectionDescription: 'Download free sample worksheets to see our professional quality',
   downloadLabel: 'Download PDF',
   worksheetLabel: 'Worksheet',
   answerKeyLabel: 'Answer Key',
   viewAllLabel: 'View larger',
   noPdfLabel: 'Preview only',
   freePdfCountLabel: 'free downloads',
+  badgeText: 'Free Samples',
+  downloadingLabel: 'Downloading...',
+  ofLabel: 'of',
 };
 
 // Generate descriptive filename from altText
@@ -53,12 +61,16 @@ export default function SampleGallery({
   locale,
   samples,
   sectionTitle = defaultLabels.sectionTitle,
+  sectionDescription = defaultLabels.sectionDescription,
   downloadLabel = defaultLabels.downloadLabel,
   worksheetLabel = defaultLabels.worksheetLabel,
   answerKeyLabel = defaultLabels.answerKeyLabel,
   viewAllLabel = defaultLabels.viewAllLabel,
   noPdfLabel = defaultLabels.noPdfLabel,
   freePdfCountLabel = defaultLabels.freePdfCountLabel,
+  badgeText = defaultLabels.badgeText,
+  downloadingLabel = defaultLabels.downloadingLabel,
+  ofLabel = defaultLabels.ofLabel,
 }: SampleGalleryProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showAnswerKey, setShowAnswerKey] = useState(false);
@@ -220,7 +232,7 @@ export default function SampleGallery({
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
             </svg>
-            Free Samples
+            {badgeText}
           </motion.div>
 
           <h2
@@ -231,7 +243,7 @@ export default function SampleGallery({
           </h2>
 
           <p className="text-lg text-blue-100/70 max-w-2xl mx-auto mb-4">
-            Download free sample worksheets to see our professional quality
+            {sectionDescription}
           </p>
 
           {samplesWithPdf > 0 && (
@@ -393,7 +405,7 @@ export default function SampleGallery({
             {/* Current sample info */}
             <div className="flex items-center gap-3 text-white/60 text-sm">
               <span className="font-semibold text-white">{currentIndex + 1}</span>
-              <span>of</span>
+              <span>{ofLabel}</span>
               <span>{samples.length}</span>
             </div>
           </div>
@@ -503,7 +515,7 @@ export default function SampleGallery({
                       <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
                       <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z" />
                     </svg>
-                    <span>Downloading...</span>
+                    <span>{downloadingLabel}</span>
                   </>
                 ) : (
                   <>

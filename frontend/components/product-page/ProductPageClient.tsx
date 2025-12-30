@@ -73,14 +73,28 @@ export interface ProductPageContent {
       images: string;
       license: string;
     };
+    readMoreLabel?: string;
+    showLessLabel?: string;
+    floatingStats?: {
+      time: string;
+      action: string;
+      quality: string;
+    };
   };
 
   // Sample Gallery
   samples: {
     sectionTitle: string;
+    sectionDescription?: string;
     downloadLabel?: string;
     worksheetLabel?: string;
     answerKeyLabel?: string;
+    viewAllLabel?: string;
+    noPdfLabel?: string;
+    freePdfCountLabel?: string;
+    badgeText?: string;
+    downloadingLabel?: string;
+    ofLabel?: string;
     items: Sample[];
   };
 
@@ -89,6 +103,14 @@ export interface ProductPageContent {
     sectionTitle: string;
     sectionDescription?: string;
     highlightBadgeText?: string;
+    readMoreLabel?: string;
+    showLessLabel?: string;
+    badgeText?: string;
+    trustBadges?: {
+      allFeatures: string;
+      noHiddenFees: string;
+      cancelAnytime: string;
+    };
     items: Feature[];
   };
 
@@ -97,6 +119,14 @@ export interface ProductPageContent {
     sectionTitle: string;
     sectionDescription?: string;
     ctaText?: string;
+    badgeText?: string;
+    stepLabel?: string;
+    completionTitle?: string;
+    completionSubtitle?: string;
+    readyTime?: string;
+    noSkillsNeeded?: string;
+    readMoreLabel?: string;
+    showLessLabel?: string;
     steps: Step[];
   };
 
@@ -104,6 +134,9 @@ export interface ProductPageContent {
   useCases: {
     sectionTitle: string;
     sectionDescription?: string;
+    badgeText?: string;
+    readMoreLabel?: string;
+    showLessLabel?: string;
     items: UseCase[];
   };
 
@@ -113,6 +146,11 @@ export interface ProductPageContent {
     sectionDescription?: string;
     showMoreText?: string;
     showLessText?: string;
+    badgeText?: string;
+    readMoreLabel?: string;
+    showLessLabel?: string;
+    secureCheckout?: string;
+    cancelAnytime?: string;
     items: FAQItem[];
   };
 
@@ -136,6 +174,13 @@ export interface ProductPageContent {
     ctaDescription?: string;
     primaryCtaText?: string;
     secondaryCtaText?: string;
+    badgeText?: string;
+    exploreText?: string;
+    trustBadges?: {
+      guarantee: string;
+      securePayment: string;
+      cancelAnytime: string;
+    };
   };
 }
 
@@ -159,6 +204,9 @@ export default function ProductPageClient({
         previewImageSrc={content.hero.previewImageSrc || ''}
         ctaLabels={content.hero.ctaLabels}
         trustBadges={content.hero.trustBadges}
+        readMoreLabel={content.hero.readMoreLabel}
+        showLessLabel={content.hero.showLessLabel}
+        floatingStats={content.hero.floatingStats}
       />
 
       {/* Part 2: Sample Gallery */}
@@ -166,9 +214,16 @@ export default function ProductPageClient({
         <SampleGallery
           locale={locale}
           sectionTitle={content.samples.sectionTitle}
+          sectionDescription={content.samples.sectionDescription}
           downloadLabel={content.samples.downloadLabel}
           worksheetLabel={content.samples.worksheetLabel}
           answerKeyLabel={content.samples.answerKeyLabel}
+          viewAllLabel={content.samples.viewAllLabel}
+          noPdfLabel={content.samples.noPdfLabel}
+          freePdfCountLabel={content.samples.freePdfCountLabel}
+          badgeText={content.samples.badgeText}
+          downloadingLabel={content.samples.downloadingLabel}
+          ofLabel={content.samples.ofLabel}
           samples={content.samples.items}
         />
       )}
@@ -180,6 +235,10 @@ export default function ProductPageClient({
         sectionDescription={content.features.sectionDescription}
         features={content.features.items}
         highlightBadgeText={content.features.highlightBadgeText}
+        readMoreLabel={content.features.readMoreLabel}
+        showLessLabel={content.features.showLessLabel}
+        badgeText={content.features.badgeText}
+        trustBadges={content.features.trustBadges}
       />
 
       {/* Part 4: How-To Guide */}
@@ -190,6 +249,14 @@ export default function ProductPageClient({
         steps={content.howTo.steps}
         ctaText={content.howTo.ctaText}
         ctaHref={`/${locale}/auth/signup`}
+        badgeText={content.howTo.badgeText}
+        stepLabel={content.howTo.stepLabel}
+        completionTitle={content.howTo.completionTitle}
+        completionSubtitle={content.howTo.completionSubtitle}
+        readyTime={content.howTo.readyTime}
+        noSkillsNeeded={content.howTo.noSkillsNeeded}
+        readMoreLabel={content.howTo.readMoreLabel}
+        showLessLabel={content.howTo.showLessLabel}
       />
 
       {/* Part 5: Use Cases */}
@@ -198,6 +265,9 @@ export default function ProductPageClient({
         sectionTitle={content.useCases.sectionTitle}
         sectionDescription={content.useCases.sectionDescription}
         useCases={content.useCases.items}
+        badgeText={content.useCases.badgeText}
+        readMoreLabel={content.useCases.readMoreLabel}
+        showLessLabel={content.useCases.showLessLabel}
       />
 
       {/* Part 6: FAQ & Subscription */}
@@ -208,6 +278,11 @@ export default function ProductPageClient({
         faqs={content.faq.items}
         showMoreText={content.faq.showMoreText}
         showLessText={content.faq.showLessText}
+        badgeText={content.faq.badgeText}
+        readMoreLabel={content.faq.readMoreLabel}
+        showLessLabel={content.faq.showLessLabel}
+        secureCheckout={content.faq.secureCheckout}
+        cancelAnytime={content.faq.cancelAnytime}
         pricingTitle={content.pricing.title}
         price={content.pricing.price}
         priceInterval={content.pricing.priceInterval}
@@ -230,6 +305,9 @@ export default function ProductPageClient({
         primaryCtaHref={`/${locale}/auth/signup`}
         secondaryCtaText={content.relatedApps.secondaryCtaText}
         secondaryCtaHref={`/${locale}/apps`}
+        badgeText={content.relatedApps.badgeText}
+        exploreText={content.relatedApps.exploreText}
+        trustBadges={content.relatedApps.trustBadges}
       />
     </main>
   );

@@ -1,66 +1,69 @@
 import { Metadata } from 'next';
-import { Button } from '@/components/ui/Button';
-import { Card } from '@/components/ui/Card';
-import WorksheetSamples from '@/components/WorksheetSamples';
-import { getTranslations } from 'next-intl/server';
-import { homepageContentManager } from '@/lib/homepage-content-manager';
 import { generateHomepageSchemas } from '@/lib/schema-generator';
+import {
+  HomepageHero,
+  SampleGallery,
+  AppCategories,
+  HomepageFeatures,
+  HowItWorks,
+  HomepageCTA,
+} from '@/components/homepage';
 
 // Localized SEO metadata with researched keywords for all 11 languages
 const homepageMetadata: Record<string, { title: string; description: string; keywords: string }> = {
   en: {
     title: 'LessonCraftStudio - Free Worksheet Generators for Teachers',
-    description: '33 professional worksheet generators with 100+ themed images. Create kindergarten worksheets, math worksheets, and printable activities in seconds.',
+    description: '33 professional worksheet generators with 3000+ themed images. Create kindergarten worksheets, math worksheets, and printable activities in minutes. Commercial license included.',
     keywords: 'kindergarten worksheets, math worksheets, free printable worksheets, worksheet generator, alphabet worksheets, first grade worksheets, addition worksheets, coloring worksheets, phonics worksheets, tracing worksheets'
   },
   de: {
     title: 'LessonCraftStudio - Kostenlose Arbeitsblatt-Generatoren',
-    description: '33 professionelle Arbeitsblatt-Generatoren. Erstellen Sie Grundschul-Arbeitsblätter, Mathe-Übungen und druckbare Aktivitäten.',
+    description: '33 professionelle Arbeitsblatt-Generatoren mit 3000+ thematischen Bildern. Erstellen Sie Grundschul-Arbeitsblätter, Mathe-Übungen und druckbare Aktivitäten.',
     keywords: 'Arbeitsblätter Grundschule, Mathe Arbeitsblätter, kostenlose Arbeitsblätter, Vorschule Arbeitsblätter, Ausmalbilder, Buchstaben lernen, Schwungübungen, Einmaleins, Rechnen 1. Klasse, Arbeitsblatt Generator'
   },
   fr: {
     title: 'LessonCraftStudio - Générateurs de Fiches Pédagogiques Gratuits',
-    description: '33 générateurs de fiches professionnels. Créez des fiches maternelle, exercices CP et activités à imprimer.',
+    description: '33 générateurs de fiches professionnels avec 3000+ images thématiques. Créez des fiches maternelle, exercices CP et activités à imprimer.',
     keywords: 'fiches maternelle, exercices CP CE1, coloriage à imprimer, fiches à imprimer gratuit, graphisme maternelle, apprendre à lire, exercices maths, alphabet, tables de multiplication, générateur de fiches'
   },
   es: {
     title: 'LessonCraftStudio - Generadores de Fichas Educativas Gratis',
-    description: '33 generadores de fichas profesionales. Cree fichas infantil, ejercicios de matemáticas y actividades para imprimir.',
+    description: '33 generadores de fichas profesionales con 3000+ imágenes temáticas. Cree fichas infantil, ejercicios de matemáticas y actividades para imprimir.',
     keywords: 'fichas para imprimir, fichas infantil, fichas preescolar, grafomotricidad, ejercicios matemáticas, dibujos para colorear, abecedario, fichas gratis, lectoescritura, tablas de multiplicar'
   },
   pt: {
     title: 'LessonCraftStudio - Geradores de Atividades Educativas Grátis',
-    description: '33 geradores de atividades profissionais. Crie atividades de alfabetização, matemática e coordenação motora.',
+    description: '33 geradores de atividades profissionais com 3000+ imagens temáticas. Crie atividades de alfabetização, matemática e coordenação motora.',
     keywords: 'atividades para imprimir, atividades educação infantil, atividades de alfabetização, atividades de matemática, desenhos para colorir, coordenação motora, atividades 1º ano, tabuada, letra cursiva, atividades grátis'
   },
   it: {
     title: 'LessonCraftStudio - Generatori di Schede Didattiche Gratis',
-    description: '33 generatori di schede professionali. Crea schede didattiche, esercizi di matematica e attività da stampare.',
+    description: '33 generatori di schede professionali con 3000+ immagini tematiche. Crea schede didattiche, esercizi di matematica e attività da stampare.',
     keywords: 'schede didattiche, schede didattiche scuola primaria, pregrafismo, schede matematica, disegni da colorare, tabelline, alfabeto, scuola dell\'infanzia, numeri da stampare, generatori di schede'
   },
   nl: {
     title: 'LessonCraftStudio - Gratis Werkblad Generatoren',
-    description: '33 professionele werkblad generatoren. Maak werkbladen voor groep 3, rekenen en kleurplaten.',
+    description: '33 professionele werkblad generatoren met 3000+ thema afbeeldingen. Maak werkbladen voor groep 3, rekenen en kleurplaten.',
     keywords: 'werkbladen groep 3, werkbladen kleuters, rekenen werkbladen, kleurplaten, oefenbladen gratis, letters leren, tafels oefenen, fijne motoriek, sommen tot 20, werkblad generatoren'
   },
   sv: {
     title: 'LessonCraftStudio - Gratis Arbetsblad Generatorer',
-    description: '33 professionella arbetsblad generatorer. Skapa matematik arbetsblad, målarbilder och förskoleklass material.',
+    description: '33 professionella arbetsblad generatorer med 3000+ tema bilder. Skapa matematik arbetsblad, målarbilder och förskoleklass material.',
     keywords: 'arbetsblad gratis, matematik arbetsblad, målarbilder barn, förskoleklass material, bokstäver lära sig, multiplikationstabellen, finmotorik övningar, addition subtraktion, siffror tal, arbetsblad generatorer'
   },
   da: {
     title: 'LessonCraftStudio - Gratis Arbejdsark Generatorer',
-    description: '33 professionelle arbejdsark generatorer. Lav matematikopgaver, malebøger og skoleopgaver.',
+    description: '33 professionelle arbejdsark generatorer med 3000+ tema billeder. Lav matematikopgaver, malebøger og skoleopgaver.',
     keywords: 'opgaver til print, matematikopgaver, gratis skoleopgaver, arbejdsark, 0. klasse opgaver, 1. klasse, malebog, gangetabeller, finmotorik øvelser, lære bogstaver'
   },
   no: {
     title: 'LessonCraftStudio - Gratis Arbeidsark Generatorer',
-    description: '33 profesjonelle arbeidsark generatorer. Lag matteoppgaver, fargeleggingsbilder og oppgavehefter.',
+    description: '33 profesjonelle arbeidsark generatorer med 3000+ tema bilder. Lag matteoppgaver, fargeleggingsbilder og oppgavehefter.',
     keywords: 'arbeidsark gratis, matteoppgaver, fargeleggingsbilder barn, oppgavehefter barn, gangetabellen, addisjon subtraksjon, finmotorikk øvelser, bokstaver lære skrive, lesetrening, arbeidsark generatorer'
   },
   fi: {
     title: 'LessonCraftStudio - Ilmaiset Työarkki Generaattorit',
-    description: '33 ammattimaista työarkki generaattoria. Luo matematiikka tehtäviä, värityskuvia ja esiopetus materiaalia.',
+    description: '33 ammattimaista työarkki generaattoria 3000+ teemakuvalla. Luo matematiikka tehtäviä, värityskuvia ja esiopetus materiaalia.',
     keywords: 'tulostettavat tehtävät lapsille ilmainen, esiopetus materiaali, matematiikka tehtävät alakoulu, värityskuvia lapsille, kertotaulut, hienomotoriikka harjoitukset, kirjaimet harjoittelu, yhteenlasku vähennyslasku, lukemaan oppiminen, työarkki generaattorit'
   }
 };
@@ -68,120 +71,17 @@ const homepageMetadata: Record<string, { title: string; description: string; key
 // Enable ISR - revalidate every hour
 export const revalidate = 3600;
 
-async function getHomepageContent(locale: string) {
-  try {
-    // Call content manager directly - no HTTP fetch to avoid SSR deadlock
-    const rawContent = await homepageContentManager.getHomepageContent(locale);
-
-    if (!rawContent || !rawContent.hero) {
-      return null; // Fallback to static content
-    }
-
-    // Transform multilingual data to locale-specific data
-    return {
-      seo: {
-        title: rawContent.seo?.title?.[locale] || rawContent.seo?.title?.en,
-        description: rawContent.seo?.description?.[locale] || rawContent.seo?.description?.en,
-        keywords: rawContent.seo?.keywords?.[locale] || rawContent.seo?.keywords?.en
-      },
-      hero: {
-        title: rawContent.hero.title[locale] || rawContent.hero.title.en,
-        subtitle: rawContent.hero.subtitle[locale] || rawContent.hero.subtitle.en,
-        ctaButtons: {
-          tryFree: rawContent.hero.cta_primary_text[locale] || rawContent.hero.cta_primary_text.en,
-          viewApps: rawContent.hero.cta_secondary_text[locale] || rawContent.hero.cta_secondary_text.en
-        }
-      },
-      features: {
-        title: rawContent.featuresSection?.title[locale] || rawContent.featuresSection?.title.en,
-        items: rawContent.features?.map((f: any) => ({
-          icon: f.icon,
-          title: f.title[locale] || f.title.en,
-          description: f.description[locale] || f.description.en
-        }))
-      },
-      pricing: rawContent.pricing ? {
-        title: rawContent.pricingSection?.title[locale] || rawContent.pricingSection?.title.en,
-        free: {
-          name: rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier')?.name[locale],
-          price: rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier')?.price,
-          features: rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier')?.features[locale] || [],
-          cta: (rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier') as any)?.cta?.[locale] || (rawContent.pricing.find((p: any) => p.name.en === 'Free' || p.name.en === 'Free Tier') as any)?.cta?.en
-        },
-        core: {
-          name: rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle')?.name[locale],
-          price: rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle')?.price,
-          features: rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle')?.features[locale] || [],
-          cta: (rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle') as any)?.cta?.[locale] || (rawContent.pricing.find((p: any) => p.name.en === 'Core Bundle') as any)?.cta?.en
-        },
-        full: {
-          name: rawContent.pricing.find((p: any) => p.name.en === 'Full Access')?.name[locale],
-          price: rawContent.pricing.find((p: any) => p.name.en === 'Full Access')?.price,
-          features: rawContent.pricing.find((p: any) => p.name.en === 'Full Access')?.features[locale] || [],
-          cta: (rawContent.pricing.find((p: any) => p.name.en === 'Full Access') as any)?.cta?.[locale] || (rawContent.pricing.find((p: any) => p.name.en === 'Full Access') as any)?.cta?.en
-        }
-      } : null,
-      samplesSection: rawContent.samples && rawContent.samplesSection ? {
-        samples: rawContent.samples.map((sample: any, index: number) => ({
-          id: sample.id || sample.image_url || `sample-${index}`,
-          name: (typeof sample.name === 'object' ? (sample.name[locale] || sample.name.en) : sample.name) || 'Untitled',
-          category: (typeof sample.category === 'string' ? sample.category.toLowerCase() : sample.category) || 'general',
-          image: sample.image || sample.image_url || '/worksheet-samples/placeholder.png',
-          description: (typeof sample.description === 'object' ? (sample.description[locale] || sample.description.en) : sample.description) || 'No description available',
-          difficulty: sample.difficulty || 'Easy',
-          ageRange: (typeof sample.age_range === 'object' ? (sample.age_range[locale] || sample.age_range.en) : sample.age_range) || '5-7 years'
-        })),
-        sectionTitle: rawContent.samplesSection.title[locale] || rawContent.samplesSection.title.en,
-        sectionSubtitle: rawContent.samplesSection.subtitle[locale] || rawContent.samplesSection.subtitle.en,
-        ctaText: rawContent.samplesSection.cta?.[locale] || rawContent.samplesSection.cta?.en || 'Explore All Generators →',
-        ctaUrl: `/${locale}/dashboard`,
-        categories: rawContent.samplesSection.categories
-          ? Object.keys(rawContent.samplesSection.categories).reduce((acc: Record<string, string>, key: string) => {
-              const categoryKey = key as keyof typeof rawContent.samplesSection.categories;
-              const value = rawContent.samplesSection.categories[categoryKey];
-              acc[key.toLowerCase()] = (typeof value === 'object' ? (value[locale] || value.en) : value) || key;
-              return acc;
-            }, {})
-          : {},
-        difficulties: rawContent.samplesSection.difficulties
-          ? Object.keys(rawContent.samplesSection.difficulties).reduce((acc: Record<string, string>, key: string) => {
-              const difficultyKey = key as keyof typeof rawContent.samplesSection.difficulties;
-              const value = rawContent.samplesSection.difficulties[difficultyKey];
-              acc[key] = (typeof value === 'object' ? (value[locale] || value.en) : value) || key;
-              return acc;
-            }, {})
-          : {},
-        modalLabels: {
-          ageRange: (typeof (rawContent.samplesSection as any).modalLabels?.ageRange === 'object' ? ((rawContent.samplesSection as any).modalLabels.ageRange[locale] || (rawContent.samplesSection as any).modalLabels.ageRange.en) : (rawContent.samplesSection as any).modalLabels?.ageRange) || 'Age Range',
-          difficulty: (typeof (rawContent.samplesSection as any).modalLabels?.difficulty === 'object' ? ((rawContent.samplesSection as any).modalLabels.difficulty[locale] || (rawContent.samplesSection as any).modalLabels.difficulty.en) : (rawContent.samplesSection as any).modalLabels?.difficulty) || 'Difficulty',
-          category: (typeof (rawContent.samplesSection as any).modalLabels?.category === 'object' ? ((rawContent.samplesSection as any).modalLabels.category[locale] || (rawContent.samplesSection as any).modalLabels.category.en) : (rawContent.samplesSection as any).modalLabels?.category) || 'Category'
-        }
-      } : null
-    };
-  } catch (error) {
-    console.error('Failed to load homepage content from database:', error);
-    return null; // Fallback to static translations
-  }
-}
-
 export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
   const locale = params.locale || 'en';
-  const content = await getHomepageContent(locale);
   const baseUrl = 'https://www.lessoncraftstudio.com';
 
-  // Use API content for SEO, with fallback to researched localized metadata
-  // Keywords always use researched data (more SEO-valuable than generic content manager values)
+  // Use researched localized metadata
   const localizedMeta = homepageMetadata[locale] || homepageMetadata.en;
-  const seo = {
-    title: content?.seo?.title || localizedMeta.title,
-    description: content?.seo?.description || localizedMeta.description,
-    keywords: localizedMeta.keywords // Always use researched keywords
-  };
 
   return {
-    title: seo.title,
-    description: seo.description,
-    keywords: seo.keywords,
+    title: localizedMeta.title,
+    description: localizedMeta.description,
+    keywords: localizedMeta.keywords,
     alternates: {
       canonical: `${baseUrl}/${locale}`,
       languages: {
@@ -200,8 +100,8 @@ export async function generateMetadata({ params }: { params: { locale: string } 
       }
     },
     openGraph: {
-      title: seo.title,
-      description: seo.description,
+      title: localizedMeta.title,
+      description: localizedMeta.description,
       type: 'website',
       url: `${baseUrl}/${locale}`,
       siteName: 'LessonCraftStudio',
@@ -216,8 +116,8 @@ export async function generateMetadata({ params }: { params: { locale: string } 
     },
     twitter: {
       card: 'summary_large_image',
-      title: seo.title,
-      description: seo.description,
+      title: localizedMeta.title,
+      description: localizedMeta.description,
       images: [`${baseUrl}/opengraph-image.png`]
     }
   };
@@ -225,160 +125,6 @@ export async function generateMetadata({ params }: { params: { locale: string } 
 
 export default async function HomePage({ params }: { params: { locale: string } }) {
   const locale = params.locale || 'en';
-  const t = await getTranslations({ locale, namespace: 'homepage' });
-  const content = await getHomepageContent(locale);
-
-  // Use API content first, fallback to static translations
-  const hero = {
-    title: content?.hero?.title || t('hero.title'),
-    subtitle: content?.hero?.subtitle || t('hero.subtitle'),
-    ctaButtons: {
-      tryFree: content?.hero?.ctaButtons?.tryFree || t('hero.cta.tryFree'),
-      viewApps: content?.hero?.ctaButtons?.viewApps || t('hero.cta.viewApps')
-    }
-  };
-
-  // Use API content for features, fallback to static translations
-  const features = {
-    title: content?.features?.title || t('features.title'),
-    items: content?.features?.items || [
-      {
-        icon: 'apps',
-        title: t('features.items.apps.title'),
-        description: t('features.items.apps.description')
-      },
-      {
-        icon: 'images',
-        title: t('features.items.images.title'),
-        description: t('features.items.images.description')
-      },
-      {
-        icon: 'languages',
-        title: t('features.items.languages.title'),
-        description: t('features.items.languages.description')
-      },
-      {
-        icon: 'pod',
-        title: t('features.items.pod.title'),
-        description: t('features.items.pod.description')
-      }
-    ]
-  };
-
-  // Use API content for pricing, fallback to static translations
-  const pricing = content?.pricing ? {
-    title: content.pricing.title || t('pricing.title'),
-    free: {
-      name: content.pricing.free.name || t('pricing.free.name'),
-      price: content.pricing.free.price || t('pricing.free.price'),
-      features: content.pricing.free.features.length > 0 ? content.pricing.free.features : [
-        t('pricing.free.features.0'),
-        t('pricing.free.features.1'),
-        t('pricing.free.features.2'),
-        t('pricing.free.features.3')
-      ],
-      cta: content.pricing.free.cta || t('pricing.free.cta')
-    },
-    core: {
-      name: content.pricing.core.name || t('pricing.core.name'),
-      price: content.pricing.core.price || t('pricing.core.price'),
-      features: content.pricing.core.features.length > 0 ? content.pricing.core.features : [
-        t('pricing.core.features.0'),
-        t('pricing.core.features.1'),
-        t('pricing.core.features.2'),
-        t('pricing.core.features.3'),
-        t('pricing.core.features.4')
-      ],
-      cta: content.pricing.core.cta || t('pricing.core.cta')
-    },
-    full: {
-      name: content.pricing.full.name || t('pricing.full.name'),
-      price: content.pricing.full.price || t('pricing.full.price'),
-      popular: (content.pricing.full as any).popular || t('pricing.full.popular'),
-      features: content.pricing.full.features.length > 0 ? content.pricing.full.features : [
-        t('pricing.full.features.0'),
-        t('pricing.full.features.1'),
-        t('pricing.full.features.2'),
-        t('pricing.full.features.3'),
-        t('pricing.full.features.4'),
-        t('pricing.full.features.5')
-      ],
-      cta: content.pricing.full.cta || t('pricing.full.cta')
-    }
-  } : {
-    title: t('pricing.title'),
-    free: {
-      name: t('pricing.free.name'),
-      price: t('pricing.free.price'),
-      features: [
-        t('pricing.free.features.0'),
-        t('pricing.free.features.1'),
-        t('pricing.free.features.2'),
-        t('pricing.free.features.3')
-      ],
-      cta: t('pricing.free.cta')
-    },
-    core: {
-      name: t('pricing.core.name'),
-      price: t('pricing.core.price'),
-      features: [
-        t('pricing.core.features.0'),
-        t('pricing.core.features.1'),
-        t('pricing.core.features.2'),
-        t('pricing.core.features.3'),
-        t('pricing.core.features.4')
-      ],
-      cta: t('pricing.core.cta')
-    },
-    full: {
-      name: t('pricing.full.name'),
-      price: t('pricing.full.price'),
-      popular: t('pricing.full.popular'),
-      features: [
-        t('pricing.full.features.0'),
-        t('pricing.full.features.1'),
-        t('pricing.full.features.2'),
-        t('pricing.full.features.3'),
-        t('pricing.full.features.4'),
-        t('pricing.full.features.5')
-      ],
-      cta: t('pricing.full.cta')
-    }
-  };
-
-  // Icon components for features
-  const IconComponents: Record<string, JSX.Element> = {
-    apps: (
-      <svg className="w-8 h-8 text-primary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
-      </svg>
-    ),
-    images: (
-      <svg className="w-8 h-8 text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
-      </svg>
-    ),
-    languages: (
-      <svg className="w-8 h-8 text-accent-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129" />
-      </svg>
-    ),
-    pod: (
-      <svg className="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-      </svg>
-    )
-  };
-
-  const getIconColor = (icon: string) => {
-    switch(icon) {
-      case 'apps': return 'bg-primary-100';
-      case 'images': return 'bg-secondary-100';
-      case 'languages': return 'bg-accent-100';
-      case 'pod': return 'bg-green-100';
-      default: return 'bg-gray-100';
-    }
-  };
 
   // Generate JSON-LD schemas for SEO
   const schemas = generateHomepageSchemas(locale);
@@ -394,165 +140,23 @@ export default async function HomePage({ params }: { params: { locale: string } 
         />
       ))}
 
-      {/* Hero Section */}
-      <section className="bg-gradient-to-b from-primary-50 to-white py-20">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-display mb-6 text-gray-900">
-              {hero.title}
-            </h1>
-            <p className="text-body-lg text-gray-600 mb-8 max-w-2xl mx-auto">
-              {hero.subtitle}
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="primary" href={`/${locale}/auth/signup`}>
-                {hero.ctaButtons.tryFree}
-              </Button>
-              <Button size="lg" variant="ghost" href={`/${locale}/apps`}>
-                {hero.ctaButtons.viewApps}
-              </Button>
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Hero Section - Dark dramatic design */}
+      <HomepageHero locale={locale} />
 
-      {/* Worksheet Samples Gallery */}
-      <WorksheetSamples locale={locale} initialContent={content?.samplesSection || undefined} />
+      {/* Free Sample Downloads - Dark background continues */}
+      <SampleGallery locale={locale} />
 
-      {/* Features Section */}
-      <section className="py-20">
-        <div className="container mx-auto px-4">
-          <h2 className="text-h1 text-center mb-12 text-gray-900">
-            {features.title}
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {features.items.map((item: any, index: number) => (
-              <Card key={index} hoverable>
-                <div className="text-center">
-                  <div className={`w-16 h-16 ${getIconColor(item.icon)} rounded-lg flex items-center justify-center mx-auto mb-4`}>
-                    {IconComponents[item.icon] || IconComponents.apps}
-                  </div>
-                  <h3 className="text-h3 mb-2">{item.title}</h3>
-                  <p className="text-gray-600">{item.description}</p>
-                </div>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* App Categories - Light background transition */}
+      <AppCategories locale={locale} />
 
-      {/* Featured Product Page - Addition Worksheets (Testing) */}
-      {locale === 'en' && (
-        <section className="py-12 bg-gradient-to-r from-blue-50 to-indigo-50">
-          <div className="container mx-auto px-4">
-            <div className="max-w-3xl mx-auto text-center">
-              <span className="inline-block px-3 py-1 text-sm font-medium text-blue-600 bg-blue-100 rounded-full mb-4">
-                NEW: Product Pages
-              </span>
-              <h2 className="text-h2 mb-4 text-gray-900">
-                Free Printable Addition Worksheets
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Check out our new detailed product page with samples, features, and everything you need to know about creating professional addition worksheets.
-              </p>
-              <Button size="lg" variant="primary" href={`/${locale}/apps/addition-worksheets`}>
-                View Addition Worksheets Page
-              </Button>
-            </div>
-          </div>
-        </section>
-      )}
+      {/* Features - Warm amber accents */}
+      <HomepageFeatures />
 
-      {/* Pricing Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <h2 className="text-h1 text-center mb-12 text-gray-900">
-            {pricing.title}
-          </h2>
+      {/* How It Works - Timeline */}
+      <HowItWorks locale={locale} />
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {/* Free Tier */}
-            <Card padding="large">
-              <div className="text-center">
-                <h3 className="text-h2 mb-2">{pricing.free.name}</h3>
-                <p className="text-display mb-6">{pricing.free.price}</p>
-                <ul className="space-y-3 mb-8 text-left">
-                  {pricing.free.features.map((feature: string, i: number) => (
-                    <li key={i} className="flex items-start">
-                      <svg className="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                      <span>{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-                <Button fullWidth variant="ghost" href={`/${locale}/auth/signup`}>
-                  {pricing.free.cta}
-                </Button>
-              </div>
-            </Card>
-
-            {/* Core Bundle */}
-            <Card padding="large">
-              <div className="text-center">
-                <h3 className="text-h2 mb-2">{pricing.core.name}</h3>
-                <p className="text-display mb-6">
-                  {pricing.core.price}
-                  {(pricing.core as any).period && (
-                    <span className="text-body text-gray-600">{(pricing.core as any).period}</span>
-                  )}
-                </p>
-                <ul className="space-y-3 mb-8 text-left">
-                  {pricing.core.features.map((feature: string, i: number) => (
-                    <li key={i} className="flex items-start">
-                      <svg className="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                      <span>{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-                <Button fullWidth variant="secondary" href={`/${locale}/pricing`}>
-                  {pricing.core.cta}
-                </Button>
-              </div>
-            </Card>
-
-            {/* Full Access */}
-            <Card padding="large" className="relative">
-              {(pricing.full as any).popular && (
-                <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                  <span className="bg-primary text-white px-4 py-1 rounded-full text-sm">
-                    {(pricing.full as any).popular}
-                  </span>
-                </div>
-              )}
-              <div className="text-center">
-                <h3 className="text-h2 mb-2">{pricing.full.name}</h3>
-                <p className="text-display mb-6">
-                  {pricing.full.price}
-                  {(pricing.full as any).period && (
-                    <span className="text-body text-gray-600">{(pricing.full as any).period}</span>
-                  )}
-                </p>
-                <ul className="space-y-3 mb-8 text-left">
-                  {pricing.full.features.map((feature: string, i: number) => (
-                    <li key={i} className="flex items-start">
-                      <svg className="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                      </svg>
-                      <span>{feature}</span>
-                    </li>
-                  ))}
-                </ul>
-                <Button fullWidth href={`/${locale}/pricing`}>
-                  {pricing.full.cta}
-                </Button>
-              </div>
-            </Card>
-          </div>
-        </div>
-      </section>
+      {/* Final CTA - Dark gradient */}
+      <HomepageCTA locale={locale} />
     </>
   );
 }

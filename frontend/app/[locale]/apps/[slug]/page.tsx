@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 import AutoLaunchApp from './AutoLaunchApp';
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import ProductPageClient from '@/components/product-page/ProductPageClient';
 import { getContentBySlug, getAllStaticParams, getAlternateLanguageUrls } from '@/config/product-page-content';
 import additionEnContent from '@/content/product-pages/en/addition-worksheets';
@@ -3862,7 +3862,22 @@ function getTierLabel(tier: string, locale: string): string {
   return tierLabels[tier]?.[locale] || tierLabels[tier]?.['en'] || tier.toUpperCase();
 }
 
+// SEO redirects: English slugs to language-specific slugs (301 redirect for SEO)
+const seoRedirects: { [locale: string]: { [englishSlug: string]: string } } = {
+  sv: {
+    'word-search-worksheets': 'ordletar-arbetsblad',
+  },
+  // Add more languages as they get localized slugs:
+  // de: { 'word-search-worksheets': 'wortsuche-arbeitsblaetter' },
+};
+
 export default async function AppPage({ params: { locale, slug } }: PageProps) {
+  // SEO: Redirect English slugs to language-specific slugs (301 permanent redirect)
+  const localeRedirects = seoRedirects[locale];
+  if (localeRedirects && localeRedirects[slug]) {
+    redirect(`/${locale}/apps/${localeRedirects[slug]}`);
+  }
+
   // Check if this is a product page with custom content using the content registry
   // This handles both English slugs and language-specific slugs (e.g., 'ordletar-arbetsblad' for Swedish)
   const content = getContentBySlug(locale, slug);

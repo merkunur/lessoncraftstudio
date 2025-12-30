@@ -21,6 +21,7 @@ import findObjectsEnContent from '@/content/product-pages/en/find-objects-worksh
 import gridMatchEnContent from '@/content/product-pages/en/grid-match-worksheets';
 import crosswordEnContent from '@/content/product-pages/en/crossword-worksheets';
 import cryptogramEnContent from '@/content/product-pages/en/cryptogram-worksheets';
+import mathPuzzleEnContent from '@/content/product-pages/en/math-puzzle-worksheets';
 
 interface PageProps {
   params: {
@@ -462,6 +463,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Picture Cryptogram Worksheets | LessonCraftStudio',
         description: 'Create engaging picture cryptogram worksheets with our professional worksheet generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/cryptogram-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Math Puzzle Worksheets product page SEO
+  if (params.slug === 'math-puzzle-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Math Worksheets | Math Puzzle Generator for Kindergarten and First Grade',
+      description: 'Create professional math puzzle worksheets with our math worksheet generator. Generate custom printable math worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'math puzzle worksheets, math worksheets, kindergarten worksheets, printable worksheets, addition worksheets, subtraction worksheets, math worksheet generator, free worksheets, first grade math, visual math',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/math-puzzle-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Math Puzzle Worksheets | LessonCraftStudio',
+        description: 'Create professional math puzzle worksheets with our math worksheet generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/math-puzzle-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3555,6 +3579,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={cryptogramEnContent} />;
   }
 
+  if (slug === 'math-puzzle-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={mathPuzzleEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3694,6 +3722,7 @@ export async function generateStaticParams() {
     'grid-match-worksheets', // Product page slug
     'crossword-worksheets', // Product page slug
     'cryptogram-worksheets', // Product page slug
+    'math-puzzle-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

@@ -77,6 +77,20 @@ const nextConfig = {
         destination: '/en/blog/:slug',
         permanent: true,
       },
+      // SEO: Redirect English product page slugs to language-specific slugs
+      // Swedish: word-search-worksheets → ordletar-arbetsblad
+      {
+        source: '/sv/apps/word-search-worksheets',
+        destination: '/sv/apps/ordletar-arbetsblad',
+        permanent: true,
+      },
+      // Add more language-specific redirects as pages are created:
+      // German: word-search-worksheets → wortsuche-arbeitsblaetter
+      // {
+      //   source: '/de/apps/word-search-worksheets',
+      //   destination: '/de/apps/wortsuche-arbeitsblaetter',
+      //   permanent: true,
+      // },
     ];
   },
 };

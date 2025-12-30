@@ -24,6 +24,7 @@ import cryptogramEnContent from '@/content/product-pages/en/cryptogram-worksheet
 import mathPuzzleEnContent from '@/content/product-pages/en/math-puzzle-worksheets';
 import missingPiecesEnContent from '@/content/product-pages/en/missing-pieces-worksheets';
 import moreLessEnContent from '@/content/product-pages/en/more-less-worksheets';
+import oddOneOutEnContent from '@/content/product-pages/en/odd-one-out-worksheets';
 
 interface PageProps {
   params: {
@@ -534,6 +535,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Comparison Worksheets | LessonCraftStudio',
         description: 'Create professional comparison worksheets with our greater than less than worksheet maker. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/more-less-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Odd One Out Worksheets product page SEO
+  if (params.slug === 'odd-one-out-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Odd One Out Worksheets | Critical Thinking Worksheet Generator',
+      description: 'Create professional odd one out worksheets with our critical thinking worksheet generator. Generate custom printable worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'odd one out worksheets, critical thinking worksheets, kindergarten worksheets, visual discrimination, printable worksheets, categorization worksheets, worksheet generator, free worksheets, first grade worksheets, logic worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/odd-one-out-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Odd One Out Worksheets | LessonCraftStudio',
+        description: 'Create professional odd one out worksheets with our critical thinking worksheet generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/odd-one-out-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3639,6 +3663,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={moreLessEnContent} />;
   }
 
+  if (slug === 'odd-one-out-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={oddOneOutEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3781,6 +3809,7 @@ export async function generateStaticParams() {
     'math-puzzle-worksheets', // Product page slug
     'missing-pieces-worksheets', // Product page slug
     'more-less-worksheets', // Product page slug
+    'odd-one-out-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

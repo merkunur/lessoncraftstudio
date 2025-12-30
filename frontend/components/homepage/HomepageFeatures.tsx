@@ -12,6 +12,7 @@ interface Feature {
   titlePt: string;
   titleNl: string;
   titleDa: string;
+  titleSv: string;
   descriptionEn: string;
   descriptionDe: string;
   descriptionFr: string;
@@ -20,6 +21,7 @@ interface Feature {
   descriptionPt: string;
   descriptionNl: string;
   descriptionDa: string;
+  descriptionSv: string;
   highlighted?: boolean;
 }
 
@@ -109,6 +111,15 @@ const localeContent: Record<string, {
     unlimitedDownloads: 'Ubegrænsede downloads',
     autoAnswerKeys: 'Automatisk genererede facitlister',
   },
+  sv: {
+    badge: 'Plattformsfunktioner',
+    title: 'Allt du behöver',
+    subtitle: 'Professionella verktyg skapade för lärare. Skapa arbetsblad på bara några minuter som ser ut som om de tog timmar att göra.',
+    keyFeature: '⭐ Nyckelfunktion',
+    noFees: 'Ingen kostnad per arbetsblad',
+    unlimitedDownloads: 'Obegränsade nedladdningar',
+    autoAnswerKeys: 'Automatiskt genererade facit',
+  },
 };
 
 // Real features only - no fake information
@@ -123,6 +134,7 @@ const features: Feature[] = [
     titlePt: 'Crie em menos de 3 minutos',
     titleNl: 'Maak in minder dan 3 minuten',
     titleDa: 'Opret på under 3 minutter',
+    titleSv: 'Skapa på under 3 minuter',
     descriptionEn: 'Generate complete worksheets instantly. Select your theme, customize settings, and download professional PDFs ready for printing.',
     descriptionDe: 'Generieren Sie fertige Arbeitsblätter im Handumdrehen. Wählen Sie Ihr Thema, passen Sie die Einstellungen an und laden Sie druckfertige PDFs herunter.',
     descriptionFr: 'Générez des fiches complètes instantanément. Choisissez votre thème, personnalisez les paramètres et téléchargez des PDF prêts à imprimer.',
@@ -131,6 +143,7 @@ const features: Feature[] = [
     descriptionPt: 'Gere atividades completas instantaneamente. Escolha seu tema, personalize as opções e baixe PDFs profissionais prontos para imprimir.',
     descriptionNl: 'Genereer complete werkbladen in een handomdraai. Kies je thema, pas de instellingen aan en download drukklare PDFs.',
     descriptionDa: 'Generer færdige opgaveark på et øjeblik. Vælg dit tema, tilpas indstillingerne og download printklare PDF-filer.',
+    descriptionSv: 'Skapa färdiga arbetsblad på ett ögonblick. Välj ditt tema, anpassa inställningarna och ladda ner utskriftsklara PDF-filer.',
     highlighted: false,
   },
   {
@@ -143,6 +156,7 @@ const features: Feature[] = [
     titlePt: 'Mais de 3000 imagens infantis',
     titleNl: 'Meer dan 3000 kindvriendelijke afbeeldingen',
     titleDa: 'Over 3000 børnevenlige billeder',
+    titleSv: 'Över 3000 barnvänliga bilder',
     descriptionEn: 'Browse our curated library organized by themes: animals, food, vehicles, nature, seasons, and more. Search or filter to find exactly what you need.',
     descriptionDe: 'Durchsuchen Sie unsere Bilderbibliothek nach Themen: Tiere, Essen, Fahrzeuge, Natur, Jahreszeiten und vieles mehr. Suchen und filtern Sie, um genau das Richtige zu finden.',
     descriptionFr: 'Parcourez notre bibliothèque organisée par thèmes : animaux, nourriture, véhicules, nature, saisons et bien plus. Recherchez ou filtrez pour trouver exactement ce qu\'il vous faut.',
@@ -151,6 +165,7 @@ const features: Feature[] = [
     descriptionPt: 'Explore nossa biblioteca organizada por temas: animais, comida, veículos, natureza, estações do ano e muito mais. Pesquise ou filtre para encontrar exatamente o que você precisa.',
     descriptionNl: 'Blader door onze bibliotheek ingedeeld op thema: dieren, eten, voertuigen, natuur, seizoenen en meer. Zoek of filter om precies te vinden wat je nodig hebt.',
     descriptionDa: 'Gennemse vores håndplukkede billedbibliotek organiseret efter temaer: dyr, mad, køretøjer, natur, årstider og meget mere. Søg eller filtrer for at finde præcis det, du har brug for.',
+    descriptionSv: 'Bläddra i vårt noggrant utvalda bildbibliotek sorterat efter teman: djur, mat, fordon, natur, årstider och mer. Sök eller filtrera för att hitta exakt det du behöver.',
     highlighted: false,
   },
   {
@@ -163,6 +178,7 @@ const features: Feature[] = [
     titlePt: '11 idiomas disponíveis',
     titleNl: '11 talen beschikbaar',
     titleDa: '11 sprog understøttet',
+    titleSv: '11 språk tillgängliga',
     descriptionEn: 'Create worksheets in English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish.',
     descriptionDe: 'Erstellen Sie Arbeitsblätter auf Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch.',
     descriptionFr: 'Créez des fiches en français, anglais, allemand, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois.',
@@ -171,6 +187,7 @@ const features: Feature[] = [
     descriptionPt: 'Crie atividades em português, inglês, alemão, francês, espanhol, italiano, holandês, sueco, dinamarquês, norueguês e finlandês.',
     descriptionNl: 'Maak werkbladen in het Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins.',
     descriptionDa: 'Lav opgaveark på dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk.',
+    descriptionSv: 'Skapa arbetsblad på svenska, engelska, tyska, franska, spanska, portugisiska, italienska, holländska, danska, norska och finska.',
     highlighted: false,
   },
   {
@@ -183,6 +200,7 @@ const features: Feature[] = [
     titlePt: 'Edição completa na tela',
     titleNl: 'Volledige canvasbewerking',
     titleDa: 'Fuld redigering på lærredet',
+    titleSv: 'Fullständig redigering på arbetsytan',
     descriptionEn: 'Every element is editable. Drag to move, resize with handles, rotate freely. Add custom text with 7 fonts. Upload your own images.',
     descriptionDe: 'Jedes Element ist bearbeitbar. Verschieben, skalieren und drehen Sie frei. Fügen Sie Text mit 7 Schriftarten hinzu. Laden Sie eigene Bilder hoch.',
     descriptionFr: 'Chaque élément est modifiable. Déplacez, redimensionnez et faites pivoter librement. Ajoutez du texte personnalisé avec 7 polices. Importez vos propres images.',
@@ -191,6 +209,7 @@ const features: Feature[] = [
     descriptionPt: 'Cada elemento é editável. Arraste para mover, redimensione e gire livremente. Adicione textos com 7 fontes. Envie suas próprias imagens.',
     descriptionNl: 'Elk element is bewerkbaar. Sleep om te verplaatsen, schaal met handvatten, draai vrij. Voeg tekst toe met 7 lettertypen. Upload je eigen afbeeldingen.',
     descriptionDa: 'Hvert element kan redigeres. Træk for at flytte, ændr størrelse med håndtag, roter frit. Tilføj din egen tekst med 7 skrifttyper. Upload dine egne billeder.',
+    descriptionSv: 'Varje element kan redigeras. Dra för att flytta, ändra storlek med handtag, rotera fritt. Lägg till egen text med 7 typsnitt. Ladda upp dina egna bilder.',
     highlighted: false,
   },
   {
@@ -203,6 +222,7 @@ const features: Feature[] = [
     titlePt: 'Licença comercial inclusa',
     titleNl: 'Commerciële licentie inbegrepen',
     titleDa: 'Kommerciel licens inkluderet',
+    titleSv: 'Kommersiell licens ingår',
     descriptionEn: 'Sell your worksheets on Teachers Pay Teachers, Etsy, or Amazon KDP. No attribution required. No extra licensing fees.',
     descriptionDe: 'Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers, Etsy oder Amazon KDP. Keine Quellenangabe nötig. Keine zusätzlichen Lizenzgebühren.',
     descriptionFr: 'Vendez vos fiches sur Teachers Pay Teachers, Etsy ou Amazon KDP. Aucune mention de source requise. Aucun frais de licence supplémentaire.',
@@ -211,6 +231,7 @@ const features: Feature[] = [
     descriptionPt: 'Venda suas atividades no Teachers Pay Teachers, Etsy ou Amazon KDP. Sem necessidade de crédito. Sem taxas de licença adicionais.',
     descriptionNl: 'Verkoop je werkbladen op Teachers Pay Teachers, Etsy of Amazon KDP. Geen bronvermelding vereist. Geen extra licentiekosten.',
     descriptionDa: 'Sælg dine opgaveark på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen kildeangivelse påkrævet. Ingen ekstra licensgebyrer.',
+    descriptionSv: 'Sälj dina arbetsblad på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen källhänvisning krävs. Inga extra licensavgifter.',
     highlighted: true,
   },
   {
@@ -223,6 +244,7 @@ const features: Feature[] = [
     titlePt: 'Qualidade de impressão 300 DPI',
     titleNl: '300 DPI afdrukkwaliteit',
     titleDa: '300 DPI printkvalitet',
+    titleSv: '300 DPI utskriftskvalitet',
     descriptionEn: 'Export high-resolution PDFs perfect for classroom printing and commercial publishing. Answer keys included automatically.',
     descriptionDe: 'Exportieren Sie hochauflösende PDFs, perfekt für den Klassenraum oder die kommerzielle Veröffentlichung. Lösungsblätter werden automatisch erstellt.',
     descriptionFr: 'Exportez des PDF haute résolution parfaits pour l\'impression en classe ou la publication commerciale. Les corrigés sont générés automatiquement.',
@@ -231,6 +253,7 @@ const features: Feature[] = [
     descriptionPt: 'Exporte PDFs em alta resolução perfeitos para impressão em sala de aula e venda comercial. Gabaritos incluídos automaticamente.',
     descriptionNl: 'Exporteer hoge-resolutie PDFs perfect voor de klas en commerciële publicatie. Antwoordbladen worden automatisch gegenereerd.',
     descriptionDa: 'Eksporter højopløselige PDF-filer perfekte til print i klasseværelset og kommerciel udgivelse. Facitlister inkluderes automatisk.',
+    descriptionSv: 'Exportera högupplösta PDF-filer perfekta för klassrumsutskrifter och kommersiell publicering. Facit inkluderas automatiskt.',
     highlighted: true,
   },
 ];
@@ -241,6 +264,7 @@ export default function HomepageFeatures({ locale }: HomepageFeaturesProps) {
 
   // Helper functions for localized content
   const getFeatureTitle = (feature: Feature) => {
+    if (locale === 'sv') return feature.titleSv;
     if (locale === 'da') return feature.titleDa;
     if (locale === 'nl') return feature.titleNl;
     if (locale === 'pt') return feature.titlePt;
@@ -251,6 +275,7 @@ export default function HomepageFeatures({ locale }: HomepageFeaturesProps) {
     return feature.titleEn;
   };
   const getFeatureDescription = (feature: Feature) => {
+    if (locale === 'sv') return feature.descriptionSv;
     if (locale === 'da') return feature.descriptionDa;
     if (locale === 'nl') return feature.descriptionNl;
     if (locale === 'pt') return feature.descriptionPt;

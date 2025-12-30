@@ -136,6 +136,20 @@ const localeContent: Record<string, {
     answerKey: 'Facitliste',
     previewTitles: ['Addition', 'Find ord'],
   },
+  sv: {
+    badge: '33 professionella arbetsbladsgeneratorer',
+    titleLine1: 'Skapa ',
+    titleHighlight: 'vackra',
+    titleLine2: 'undervisningsmaterial',
+    subtitle: 'Professionella arbetsbladsgeneratorer som lärare världen över litar på. Skapa, anpassa och ladda ner på några minuter.',
+    ctaPrimary: 'Se gratis exempel',
+    ctaSecondary: 'Utforska alla generatorer',
+    trustLanguages: '11 språk',
+    trustImages: 'Över 3000 bilder',
+    trustLicense: 'Kommersiell licens',
+    answerKey: 'Facit',
+    previewTitles: ['Addition', 'Ordsök'],
+  },
 };
 
 export default function HomepageHero({ locale }: HomepageHeroProps) {
@@ -188,6 +202,7 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
         pt: 'Exemplo de atividade de adição',
         nl: 'Voorbeeld optelwerkblad',
         da: 'Eksempel på additionsopgave',
+        sv: 'Exempel på additionsarbetsblad',
       },
       wordsearch: {
         en: 'Word Search Worksheet Sample',
@@ -198,6 +213,7 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
         pt: 'Exemplo de caça-palavras',
         nl: 'Voorbeeld woordzoeker',
         da: 'Eksempel på find ord-opgave',
+        sv: 'Exempel på ordsöksarbetsblad',
       },
     };
     return altTexts[type][locale as keyof typeof altTexts.addition] || altTexts[type].en;

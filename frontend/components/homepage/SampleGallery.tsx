@@ -15,6 +15,7 @@ interface Sample {
   namePt: string;
   nameNl: string;
   nameDa: string;
+  nameSv: string;
   categoryEn: string;
   categoryDe: string;
   categoryFr: string;
@@ -23,6 +24,7 @@ interface Sample {
   categoryPt: string;
   categoryNl: string;
   categoryDa: string;
+  categorySv: string;
   imageSrc: string;
   pdfUrl: string;
   productPageSlug: string;
@@ -168,6 +170,21 @@ const localeContent: Record<string, {
     viewDetails: 'Læs mere',
     viewAllGenerators: 'Se alle 33 generatorer',
   },
+  sv: {
+    badge: 'Gratis exempel',
+    title: 'Ladda ner gratis arbetsbladsexempel',
+    subtitle: 'Testa innan du prenumererar. Ladda ner högkvalitativa PDF-exempel från våra mest populära generatorer.',
+    statSamples: '10+',
+    statSamplesLabel: 'Gratis exempel',
+    statQuality: '300 DPI',
+    statQualityLabel: 'Utskriftskvalitet',
+    statFormat: 'PDF',
+    statFormatLabel: 'Format',
+    downloadPdf: 'Ladda ner PDF',
+    downloading: 'Laddar ner...',
+    viewDetails: 'Läs mer',
+    viewAllGenerators: 'Se alla 33 generatorer',
+  },
 };
 
 // Real samples from /samples/english/ folder with translations
@@ -182,6 +199,7 @@ const samples: Sample[] = [
     namePt: 'Atividades de Adição',
     nameNl: 'Optelwerkbladen',
     nameDa: 'Additionsopgaver',
+    nameSv: 'Additionsarbetsblad',
     categoryEn: 'Math',
     categoryDe: 'Mathematik',
     categoryFr: 'Maths',
@@ -190,6 +208,7 @@ const samples: Sample[] = [
     categoryPt: 'Matemática',
     categoryNl: 'Rekenen',
     categoryDa: 'Matematik',
+    categorySv: 'Matematik',
     imageSrc: '/samples/english/addition/addition_worksheet portrait.jpeg',
     pdfUrl: '/samples/english/addition/addition_worksheet portrait.pdf',
     productPageSlug: 'addition-worksheets',
@@ -204,6 +223,7 @@ const samples: Sample[] = [
     namePt: 'Caça-palavras',
     nameNl: 'Woordzoeker',
     nameDa: 'Find ord',
+    nameSv: 'Ordsök',
     categoryEn: 'Language',
     categoryDe: 'Sprache',
     categoryFr: 'Langue',
@@ -212,6 +232,7 @@ const samples: Sample[] = [
     categoryPt: 'Linguagem',
     categoryNl: 'Taal',
     categoryDa: 'Sprog',
+    categorySv: 'Språk',
     imageSrc: '/samples/english/wordsearch/wordsearch landscape.jpeg',
     pdfUrl: '/samples/english/wordsearch/wordsearch landscape.pdf',
     productPageSlug: 'word-search-worksheets',
@@ -226,6 +247,7 @@ const samples: Sample[] = [
     namePt: 'Palavras cruzadas',
     nameNl: 'Kruiswoordpuzzels',
     nameDa: 'Krydsord',
+    nameSv: 'Korsord',
     categoryEn: 'Language',
     categoryDe: 'Sprache',
     categoryFr: 'Langue',
@@ -234,6 +256,7 @@ const samples: Sample[] = [
     categoryPt: 'Linguagem',
     categoryNl: 'Taal',
     categoryDa: 'Sprog',
+    categorySv: 'Språk',
     imageSrc: '/samples/english/crossword/crossword_worksheet.jpeg',
     pdfUrl: '/samples/english/crossword/crossword_worksheet.jpeg',
     productPageSlug: 'crossword-worksheets',
@@ -248,6 +271,7 @@ const samples: Sample[] = [
     namePt: 'Traçar linhas',
     nameNl: 'Lijnen trekken',
     nameDa: 'Tegn streger',
+    nameSv: 'Dra streck',
     categoryEn: 'Visual',
     categoryDe: 'Visuell',
     categoryFr: 'Visuel',
@@ -256,6 +280,7 @@ const samples: Sample[] = [
     categoryPt: 'Visual',
     categoryNl: 'Visueel',
     categoryDa: 'Visuel',
+    categorySv: 'Visuellt',
     imageSrc: '/samples/english/drawing lines/drawing_lines_curve 1.jpeg',
     pdfUrl: '/samples/english/drawing lines/drawing_lines_curve 1.pdf',
     productPageSlug: 'drawing-lines-worksheets',
@@ -270,6 +295,7 @@ const samples: Sample[] = [
     namePt: 'Trenzinho do alfabeto',
     nameNl: 'Alfabettrein',
     nameDa: 'Alfabettog',
+    nameSv: 'Alfabetståget',
     categoryEn: 'Creative',
     categoryDe: 'Kreativ',
     categoryFr: 'Créatif',
@@ -278,6 +304,7 @@ const samples: Sample[] = [
     categoryPt: 'Criativo',
     categoryNl: 'Creatief',
     categoryDa: 'Kreativ',
+    categorySv: 'Kreativt',
     imageSrc: '/samples/english/alphabet-train/alphabet train landscape.jpeg',
     pdfUrl: '/samples/english/alphabet-train/alphabet train landscape.pdf',
     productPageSlug: 'alphabet-train-worksheets',
@@ -292,6 +319,7 @@ const samples: Sample[] = [
     namePt: 'Sudoku',
     nameNl: 'Sudoku-puzzels',
     nameDa: 'Sudoku',
+    nameSv: 'Sudoku',
     categoryEn: 'Logic',
     categoryDe: 'Logik',
     categoryFr: 'Logique',
@@ -300,6 +328,7 @@ const samples: Sample[] = [
     categoryPt: 'Lógica',
     categoryNl: 'Logica',
     categoryDa: 'Logik',
+    categorySv: 'Logik',
     imageSrc: '/samples/english/sudoku/sudoku hard.jpeg',
     pdfUrl: '/samples/english/sudoku/sudoku hard.pdf',
     productPageSlug: 'sudoku-worksheets',
@@ -314,6 +343,7 @@ const samples: Sample[] = [
     namePt: 'Desenhos para colorir',
     nameNl: 'Kleurplaten',
     nameDa: 'Tegnesider',
+    nameSv: 'Målarbilder',
     categoryEn: 'Creative',
     categoryDe: 'Kreativ',
     categoryFr: 'Créatif',
@@ -322,6 +352,7 @@ const samples: Sample[] = [
     categoryPt: 'Criativo',
     categoryNl: 'Creatief',
     categoryDa: 'Kreativ',
+    categorySv: 'Kreativt',
     imageSrc: '/samples/english/coloring/coloring portrait 1.png',
     pdfUrl: '/samples/english/coloring/coloring portrait 1.pdf',
     productPageSlug: 'coloring-worksheets',
@@ -336,6 +367,7 @@ const samples: Sample[] = [
     namePt: 'Encontre os objetos',
     nameNl: 'Zoek en vind',
     nameDa: 'Find objekterne',
+    nameSv: 'Hitta föremålen',
     categoryEn: 'Visual',
     categoryDe: 'Visuell',
     categoryFr: 'Visuel',
@@ -344,6 +376,7 @@ const samples: Sample[] = [
     categoryPt: 'Visual',
     categoryNl: 'Visueel',
     categoryDa: 'Visuel',
+    categorySv: 'Visuellt',
     imageSrc: '/samples/english/find objects/find objects landscape.jpeg',
     pdfUrl: '/samples/english/find objects/find objects landscape.pdf',
     productPageSlug: 'find-objects-worksheets',
@@ -358,6 +391,7 @@ const samples: Sample[] = [
     namePt: 'Jogo de correspondência',
     nameNl: 'Koppelspel',
     nameDa: 'Parspil',
+    nameSv: 'Para ihop',
     categoryEn: 'Visual',
     categoryDe: 'Visuell',
     categoryFr: 'Visuel',
@@ -366,6 +400,7 @@ const samples: Sample[] = [
     categoryPt: 'Visual',
     categoryNl: 'Visueel',
     categoryDa: 'Visuel',
+    categorySv: 'Visuellt',
     imageSrc: '/samples/english/matching/matching landscape.jpeg',
     pdfUrl: '/samples/english/matching/matching landscape.pdf',
     productPageSlug: 'matching-worksheets',
@@ -380,6 +415,7 @@ const samples: Sample[] = [
     namePt: 'Adição com código',
     nameNl: 'Optellen met code',
     nameDa: 'Kodeaddition',
+    nameSv: 'Kodaddition',
     categoryEn: 'Math',
     categoryDe: 'Mathematik',
     categoryFr: 'Maths',
@@ -388,6 +424,7 @@ const samples: Sample[] = [
     categoryPt: 'Matemática',
     categoryNl: 'Rekenen',
     categoryDa: 'Matematik',
+    categorySv: 'Matematik',
     imageSrc: '/samples/english/code addition/code addition landscape.jpeg',
     pdfUrl: '/samples/english/code addition/code addition landscape.pdf',
     productPageSlug: 'code-addition-worksheets',
@@ -458,6 +495,14 @@ const categoryColorsDa: Record<string, string> = {
   Logik: 'from-rose-500 to-red-500',
 };
 
+const categoryColorsSv: Record<string, string> = {
+  Matematik: 'from-cyan-500 to-blue-500',
+  Språk: 'from-purple-500 to-pink-500',
+  Visuellt: 'from-amber-500 to-orange-500',
+  Kreativt: 'from-green-500 to-emerald-500',
+  Logik: 'from-rose-500 to-red-500',
+};
+
 export default function SampleGallery({ locale }: SampleGalleryProps) {
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [downloadingId, setDownloadingId] = useState<string | null>(null);
@@ -465,6 +510,7 @@ export default function SampleGallery({ locale }: SampleGalleryProps) {
   // Get content for current locale, fallback to English
   const content = localeContent[locale] || localeContent.en;
   const getCategoryColors = () => {
+    if (locale === 'sv') return categoryColorsSv;
     if (locale === 'da') return categoryColorsDa;
     if (locale === 'nl') return categoryColorsNl;
     if (locale === 'pt') return categoryColorsPt;
@@ -478,6 +524,7 @@ export default function SampleGallery({ locale }: SampleGalleryProps) {
 
   // Helper to get localized name/category
   const getSampleName = (sample: Sample) => {
+    if (locale === 'sv') return sample.nameSv;
     if (locale === 'da') return sample.nameDa;
     if (locale === 'nl') return sample.nameNl;
     if (locale === 'pt') return sample.namePt;
@@ -488,6 +535,7 @@ export default function SampleGallery({ locale }: SampleGalleryProps) {
     return sample.nameEn;
   };
   const getSampleCategory = (sample: Sample) => {
+    if (locale === 'sv') return sample.categorySv;
     if (locale === 'da') return sample.categoryDa;
     if (locale === 'nl') return sample.categoryNl;
     if (locale === 'pt') return sample.categoryPt;

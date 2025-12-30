@@ -107,6 +107,17 @@ const localeContent: Record<string, {
     trustFreeGenerators: '3 gratis generatorer',
     trustCancelAnytime: 'Annuller når som helst',
   },
+  sv: {
+    badge: 'Gå med tusentals lärare',
+    titleStart: 'Redo att skapa ',
+    titleHighlight: 'professionella arbetsblad',
+    subtitle: 'Börja gratis. Testa Bokstavssök, Korsord och Mattestenciler. Uppgradera när du vill för tillgång till alla 33 generatorer.',
+    ctaPrimary: 'Börja gratis',
+    ctaSecondary: 'Se alla 33 generatorer',
+    trustNoCard: 'Inget kreditkort krävs',
+    trustFreeGenerators: '3 gratisverktyg',
+    trustCancelAnytime: 'Avsluta när du vill',
+  },
 };
 
 export default function HomepageCTA({ locale }: HomepageCTAProps) {
@@ -230,7 +241,7 @@ export default function HomepageCTA({ locale }: HomepageCTAProps) {
             >
               {content.titleHighlight}
             </span>
-            {locale === 'de' ? ' zu erstellen?' : locale === 'es' || locale === 'it' || locale === 'pt' || locale === 'da' ? '?' : ' ?'}
+            {locale === 'de' ? ' zu erstellen?' : locale === 'es' || locale === 'it' || locale === 'pt' || locale === 'da' || locale === 'sv' ? '?' : ' ?'}
           </motion.h2>
 
           {/* Subtitle */}

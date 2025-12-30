@@ -29,6 +29,7 @@ import patternTrainEnContent from '@/content/product-pages/en/pattern-train-work
 import patternWorksheetsEnContent from '@/content/product-pages/en/pattern-worksheets';
 import picturePathEnContent from '@/content/product-pages/en/picture-path-worksheets';
 import pictureSortEnContent from '@/content/product-pages/en/picture-sort-worksheets';
+import prepositionsEnContent from '@/content/product-pages/en/prepositions-worksheets';
 
 interface PageProps {
   params: {
@@ -654,6 +655,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Kindergarten Worksheets for Sorting | LessonCraftStudio',
         description: 'Create professional picture sorting worksheets with our generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/picture-sort-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Prepositions Worksheets product page SEO
+  if (params.slug === 'prepositions-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Prepositions Worksheets | Kindergarten Worksheet Generator',
+      description: 'Create professional prepositions worksheets with our worksheet generator. Generate custom printable kindergarten worksheets perfect for teaching spatial concepts like in, on, under, and behind. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'prepositions worksheets, spatial concepts worksheets, kindergarten worksheets, printable worksheets, in on under behind, free worksheets, first grade worksheets, ESL worksheets, language worksheets, position words',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/prepositions-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Prepositions Worksheets | LessonCraftStudio',
+        description: 'Create professional prepositions worksheets with our generator. Perfect for teaching spatial concepts to kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/prepositions-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3779,6 +3803,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={pictureSortEnContent} />;
   }
 
+  if (slug === 'prepositions-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={prepositionsEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3926,6 +3954,7 @@ export async function generateStaticParams() {
     'pattern-worksheets', // Product page slug
     'picture-path-worksheets', // Product page slug
     'picture-sort-worksheets', // Product page slug
+    'prepositions-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

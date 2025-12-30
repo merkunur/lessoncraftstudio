@@ -22,6 +22,7 @@ import gridMatchEnContent from '@/content/product-pages/en/grid-match-worksheets
 import crosswordEnContent from '@/content/product-pages/en/crossword-worksheets';
 import cryptogramEnContent from '@/content/product-pages/en/cryptogram-worksheets';
 import mathPuzzleEnContent from '@/content/product-pages/en/math-puzzle-worksheets';
+import missingPiecesEnContent from '@/content/product-pages/en/missing-pieces-worksheets';
 
 interface PageProps {
   params: {
@@ -486,6 +487,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Math Puzzle Worksheets | LessonCraftStudio',
         description: 'Create professional math puzzle worksheets with our math worksheet generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/math-puzzle-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Missing Pieces Worksheets product page SEO
+  if (params.slug === 'missing-pieces-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Missing Pieces Worksheets | Visual Puzzle Generator for Kindergarten',
+      description: 'Create professional missing pieces puzzle worksheets with our visual puzzle generator. Generate custom printable missing pieces worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'missing pieces worksheets, visual puzzle worksheets, kindergarten worksheets, printable worksheets, visual discrimination, spatial reasoning, worksheet generator, free worksheets, first grade worksheets, puzzle worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/missing-pieces-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Missing Pieces Worksheets | LessonCraftStudio',
+        description: 'Create professional missing pieces puzzle worksheets with our visual puzzle generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/missing-pieces-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3583,6 +3607,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={mathPuzzleEnContent} />;
   }
 
+  if (slug === 'missing-pieces-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={missingPiecesEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3723,6 +3751,7 @@ export async function generateStaticParams() {
     'crossword-worksheets', // Product page slug
     'cryptogram-worksheets', // Product page slug
     'math-puzzle-worksheets', // Product page slug
+    'missing-pieces-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

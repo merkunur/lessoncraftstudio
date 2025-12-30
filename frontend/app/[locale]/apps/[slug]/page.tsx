@@ -35,6 +35,7 @@ import subtractionEnContent from '@/content/product-pages/en/subtraction-workshe
 import treasureHuntEnContent from '@/content/product-pages/en/treasure-hunt-worksheets';
 import wordGuessEnContent from '@/content/product-pages/en/word-guess-worksheets';
 import writingEnContent from '@/content/product-pages/en/writing-worksheets';
+import wordSearchSvContent from '@/content/product-pages/sv/word-search-worksheets';
 
 interface PageProps {
   params: {
@@ -85,6 +86,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Word Search Worksheets | LessonCraftStudio',
         description: 'Create professional word search worksheets with our word search generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Word Search Worksheets - Swedish product page SEO
+  if (params.slug === 'word-search-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Gratis Ordletare Generator | Arbetsblad för Förskoleklass och Lågstadiet',
+      description: 'Skapa professionella ordletarpussel med vår gratis ordletare generator. Perfekt för förskoleklass material och lågstadiet. Ladda ner arbetsblad gratis som högkvalitativa PDF-filer på under tre minuter.',
+      keywords: 'ordletare generator, arbetsblad gratis, förskoleklass material, matematik arbetsblad, ordletarpussel, gratis arbetsblad, lågstadiet, bokstäver lära sig, skriva bokstäver, målarbilder barn',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/sv/apps/word-search-worksheets`,
+      },
+      openGraph: {
+        title: 'Gratis Ordletare Generator | LessonCraftStudio',
+        description: 'Skapa professionella ordletarpussel med vår gratis ordletare generator. Perfekt för förskoleklass och lågstadiet.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/word-search-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3821,6 +3845,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
 
   if (slug === 'word-search-worksheets' && locale === 'en') {
     return <ProductPageClient locale={locale} content={wordSearchEnContent} />;
+  }
+
+  if (slug === 'word-search-worksheets' && locale === 'sv') {
+    return <ProductPageClient locale={locale} content={wordSearchSvContent} />;
   }
 
   if (slug === 'alphabet-train-worksheets' && locale === 'en') {

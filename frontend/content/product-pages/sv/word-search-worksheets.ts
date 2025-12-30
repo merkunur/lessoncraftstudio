@@ -139,7 +139,7 @@ Bildbiblioteket innehåller svenska översättningar för alla 3000+ bilder. Bil
         id: '5',
         icon: '💰',
         title: 'Kommersiell Licens Tillgänglig',
-        description: `Gratis versionen är för personlig användning i klassrummet. För att sälja arbetsblad behöver du en prenumeration. Core Bundle prenumeration kostar 144 dollar per år. Full Access prenumeration kostar 240 dollar per år. Båda prenumerationerna inkluderar kommersiell print-on-demand licens.
+        description: `Gratis versionen är för personlig användning i klassrummet. För att sälja arbetsblad behöver du en prenumeration. Grundpaketet kostar 144 dollar per år. Full Tillgång kostar 240 dollar per år. Båda prenumerationerna inkluderar kommersiell print-on-demand licens.
 
 Med kommersiell licens kan du sälja på Teachers Pay Teachers. Sälj på Etsy som utskrivbara digitala produkter. Skapa arbetsboksböcker för Amazon KDP. Ingen attribution krävs när du säljer dina arbetsblad. Detta gör det perfekt för lärare som vill bygga ett sidoinkomst.
 
@@ -341,7 +341,7 @@ Skapa återkommande inkomst med populära teman. Addition och subtraktion arbets
       {
         id: '1',
         question: 'Är Ordletare Generatorn Verkligen Gratis för Förskoleklass Material och Målarbilder Barn?',
-        answer: 'Ordletare generatorn är gratis att använda för personlig användning. Skapa obegränsat med arbetsblad gratis för ditt klassrum. Alla grundfunktioner fungerar utan betalning. Genererade arbetsblad innehåller en liten vattenstämpel. Vattenstämpeln stör inte elevernas arbete men visar att det är gratis version. För att ta bort vattenstämpel behöver du en prenumeration. Core Bundle kostar 144 dollar per år eller 15 dollar per månad.',
+        answer: 'Ordletare generatorn är gratis att använda för personlig användning. Skapa obegränsat med arbetsblad gratis för ditt klassrum. Alla grundfunktioner fungerar utan betalning. Genererade arbetsblad innehåller en liten vattenstämpel. Vattenstämpeln stör inte elevernas arbete men visar att det är gratis version. För att ta bort vattenstämpel behöver du en prenumeration. Grundpaketet kostar 144 dollar per år eller 15 dollar per månad.',
       },
       {
         id: '2',
@@ -366,7 +366,7 @@ Skapa återkommande inkomst med populära teman. Addition och subtraktion arbets
       {
         id: '6',
         question: 'Kan Jag Sälja Arbetsblad för Klockan Lära Sig och Multiplikationstabellen på Teachers Pay Teachers?',
-        answer: 'Ja med en prenumeration kan du sälja alla arbetsblad du skapar. Både Core Bundle och Full Access inkluderar kommersiell print-on-demand licens. Ingen extra licensavgift krävs. Ingen attribution behövs på sålda produkter. Du äger fullt ut arbetsbladet du skapar. Teachers Pay Teachers är en enorm marknad för arbetsblad.',
+        answer: 'Ja med en prenumeration kan du sälja alla arbetsblad du skapar. Både Grundpaketet och Full Tillgång inkluderar kommersiell print-on-demand licens. Ingen extra licensavgift krävs. Ingen attribution behövs på sålda produkter. Du äger fullt ut arbetsbladet du skapar. Teachers Pay Teachers är en enorm marknad för arbetsblad.',
       },
       {
         id: '7',
@@ -403,7 +403,7 @@ Skapa återkommande inkomst med populära teman. Addition och subtraktion arbets
 
   // Pricing
   pricing: {
-    title: 'Core Bundle',
+    title: 'Grundpaketet',
     price: '144$',
     priceInterval: '/år',
     priceSuffix: 'Faktureras årligen',

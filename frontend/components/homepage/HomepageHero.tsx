@@ -448,8 +448,9 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 0.8 }}
-                className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black leading-[1.1] tracking-tight mb-6"
+                className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-black leading-[1.1] tracking-tight mb-6 break-words hyphens-auto"
                 style={{ fontFamily: 'var(--font-space-grotesk), system-ui, sans-serif' }}
+                lang={locale}
               >
                 <span className="text-white">{content.titleLine1}</span>
                 <span

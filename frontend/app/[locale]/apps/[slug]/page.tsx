@@ -25,6 +25,7 @@ import mathPuzzleEnContent from '@/content/product-pages/en/math-puzzle-workshee
 import missingPiecesEnContent from '@/content/product-pages/en/missing-pieces-worksheets';
 import moreLessEnContent from '@/content/product-pages/en/more-less-worksheets';
 import oddOneOutEnContent from '@/content/product-pages/en/odd-one-out-worksheets';
+import patternTrainEnContent from '@/content/product-pages/en/pattern-train-worksheets';
 
 interface PageProps {
   params: {
@@ -558,6 +559,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Odd One Out Worksheets | LessonCraftStudio',
         description: 'Create professional odd one out worksheets with our critical thinking worksheet generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/odd-one-out-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Pattern Train Worksheets product page SEO
+  if (params.slug === 'pattern-train-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Pattern Train Worksheets | Pattern Recognition Worksheet Generator',
+      description: 'Create professional pattern train worksheets with our pattern recognition worksheet generator. Generate custom printable worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'pattern train worksheets, pattern recognition worksheets, kindergarten worksheets, printable worksheets, AB patterns, ABC patterns, worksheet generator, free worksheets, first grade worksheets, math worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/pattern-train-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Pattern Train Worksheets | LessonCraftStudio',
+        description: 'Create professional pattern train worksheets with our pattern recognition worksheet generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/pattern-train-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3667,6 +3691,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={oddOneOutEnContent} />;
   }
 
+  if (slug === 'pattern-train-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={patternTrainEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3810,6 +3838,7 @@ export async function generateStaticParams() {
     'missing-pieces-worksheets', // Product page slug
     'more-less-worksheets', // Product page slug
     'odd-one-out-worksheets', // Product page slug
+    'pattern-train-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

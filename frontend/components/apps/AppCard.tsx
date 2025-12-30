@@ -49,6 +49,7 @@ const appIdToProductSlug: { [key: string]: string } = {
   'missing-pieces': 'missing-pieces-worksheets',
   'more-less': 'more-less-worksheets',
   'odd-one-out': 'odd-one-out-worksheets',
+  'pattern-train': 'pattern-train-worksheets',
 };
 
 // Map app slugs to HTML filenames

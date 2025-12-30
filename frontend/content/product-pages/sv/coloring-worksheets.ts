@@ -16,7 +16,7 @@ export const coloringSvContent: ProductPageContent = {
     slug: 'malarbilder-arbetsblad',
     appId: 'coloring',
     title: 'Målarbilder Barn - Gratis Arbetsblad att Skriva Ut - Förskoleklass Material',
-    description: 'Skapa professionella målarbilder barn med vårt enkla verktyg. Din Core Bundle-prenumeration ger dig obegränsad tillgång att skapa målarbilder barn utan extra kostnad per arbetsblad. Generera anpassade målarbilder barn perfekta för förskoleklass och lågstadiet.',
+    description: 'Skapa professionella målarbilder barn med vårt enkla verktyg. Din Grundpaketet-prenumeration ger dig obegränsad tillgång att skapa målarbilder barn utan extra kostnad per arbetsblad. Generera anpassade målarbilder barn perfekta för förskoleklass och lågstadiet.',
     keywords: 'målarbilder barn, arbetsblad gratis, förskoleklass material, finmotorik övningar, matematik arbetsblad, bokstäver lära sig, siffror och tal, multiplikationstabellen, klockan lära sig, addition och subtraktion',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/malarbilder-arbetsblad',
   },
@@ -25,11 +25,11 @@ export const coloringSvContent: ProductPageContent = {
   hero: {
     title: 'Målarbilder Barn - Gratis Arbetsblad att Skriva Ut',
     subtitle: 'Förskoleklass Material',
-    description: `Skapa professionella målarbilder barn med vårt enkla verktyg. Din Core Bundle-prenumeration ger dig obegränsad tillgång att skapa målarbilder barn utan extra kostnad per arbetsblad. Generera anpassade målarbilder barn perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-filer på under 3 minuter.
+    description: `Skapa professionella målarbilder barn med vårt enkla verktyg. Din Grundpaketet-prenumeration ger dig obegränsad tillgång att skapa målarbilder barn utan extra kostnad per arbetsblad. Generera anpassade målarbilder barn perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-filer på under 3 minuter.
 
 Vårt verktyg för målarbilder barn gör det lätt att skapa arbetsblad gratis att skriva ut. Perfekt för lärare i förskoleklass material som behöver unika målarbilder snabbt. Kombinera målarbilder barn med finmotorik övningar för komplett inlärning. Varje målarbilder barn hjälper barn utveckla kreativitet och färgkänsla.
 
-Core Bundle-prenumeration inkluderar 10 populära arbetsbladsverktyg för endast $144 per år. Din prenumeration ger tillgång till obegränsad skapande av målarbilder barn. Inga extra avgifter per arbetsblad. Skapa så många målarbilder barn som dina elever behöver. Alla målarbilder barn exporteras i professionell 300 DPI-kvalitet.
+Grundpaketet-prenumeration inkluderar 10 populära arbetsbladsverktyg för endast $144 per år. Din prenumeration ger tillgång till obegränsad skapande av målarbilder barn. Inga extra avgifter per arbetsblad. Skapa så många målarbilder barn som dina elever behöver. Alla målarbilder barn exporteras i professionell 300 DPI-kvalitet.
 
 Verktyget för målarbilder barn stöder 11 språk för användargränssnittet. Lätt att använda för alla lärare oavsett teknisk erfarenhet. Skapar målarbilder barn med tema från vårt bibliotek med över 3000 bilder. Anpassa varje målarbilder barn med egna bilder och text. Exportera målarbilder barn som PDF eller JPEG i högupplöst kvalitet.`,
     previewImageSrc: '/samples/english/coloring/coloring portrait 1.png',
@@ -113,7 +113,7 @@ Verktyget för målarbilder barn stöder 11 språk för användargränssnittet. 
   // Features Grid - FULL text from coloring.md feature sections
   features: {
     sectionTitle: 'Målarbilder Barn Funktioner - Allt du Behöver för Arbetsblad Gratis och Förskoleklass Material',
-    sectionDescription: 'Vårt verktyg för målarbilder barn innehåller alla funktioner du behöver för att skapa professionella arbetsblad gratis. Perfekt för lärare som arbetar med förskoleklass material och finmotorik övningar. Kombinera målarbilder barn med matematik arbetsblad och bokstäver lära sig aktiviteter. Varje funktion är utformad för att göra skapandet av målarbilder barn snabbt och enkelt. Core Bundle-prenumeration ger dig tillgång till alla dessa kraftfulla verktyg.',
+    sectionDescription: 'Vårt verktyg för målarbilder barn innehåller alla funktioner du behöver för att skapa professionella arbetsblad gratis. Perfekt för lärare som arbetar med förskoleklass material och finmotorik övningar. Kombinera målarbilder barn med matematik arbetsblad och bokstäver lära sig aktiviteter. Varje funktion är utformad för att göra skapandet av målarbilder barn snabbt och enkelt. Grundpaketet-prenumeration ger dig tillgång till alla dessa kraftfulla verktyg.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
     showLessLabel: 'Visa mindre',
@@ -164,7 +164,7 @@ Bildnamnen i biblioteket finns på 11 språk. Detta påverkar hur målarbilder b
         id: '5',
         icon: '💰',
         title: 'Kommersiell Licens för Målarbilder Barn - Sälj Arbetsblad Gratis på Etsy och TPT',
-        description: `Core Bundle inkluderar fullständig kommersiell print-on-demand-licens. Sälj dina målarbilder barn på Etsy, Teachers Pay Teachers och Amazon KDP. Ingen extra licenskostnad utöver din prenumeration. Perfekt för lärarentreprenörer som skapar förskoleklass material.
+        description: `Grundpaketet inkluderar fullständig kommersiell print-on-demand-licens. Sälj dina målarbilder barn på Etsy, Teachers Pay Teachers och Amazon KDP. Ingen extra licenskostnad utöver din prenumeration. Perfekt för lärarentreprenörer som skapar förskoleklass material.
 
 Alla målarbilder barn exporteras i professionell 300 DPI-kvalitet. Perfekt för att sälja som digitala nedladdningar. Skapa målarbilder barn buntar och sälj dem online. Kombinera målarbilder barn med matematik arbetsblad och finmotorik övningar. Bygg ett lönsamt lärarföretag med arbetsblad gratis verktyg.`,
         highlighted: true,
@@ -341,7 +341,7 @@ Skapa differenterade målarbilder barn för inkluderande klassrum. Enkla målarb
 
 Skapa tematiska målarbilder barn buntar. Matematik arbetsblad paket med addition och subtraktion. Bokstäver lära sig buntar med alfabetmålarbilder barn. Multiplikationstabellen paket för årskurs 2-3. Klockan lära sig aktiviteter med målarbilder barn. Varje bunt innehåller finmotorik övningar.
 
-Core Bundle inkluderar kommersiell licens för målarbilder barn. Sälj dina målarbilder barn utan extra avgifter. Kombinera målarbilder barn med matematik arbetsblad, bokstäver lära sig, siffror och tal, multiplikationstabellen och klockan lära sig aktiviteter. Bygg lönsamt lärarföretag med arbetsblad gratis verktyg och förskoleklass material.`,
+Grundpaketet inkluderar kommersiell licens för målarbilder barn. Sälj dina målarbilder barn utan extra avgifter. Kombinera målarbilder barn med matematik arbetsblad, bokstäver lära sig, siffror och tal, multiplikationstabellen och klockan lära sig aktiviteter. Bygg lönsamt lärarföretag med arbetsblad gratis verktyg och förskoleklass material.`,
         quote: 'Min prenumeration betalade sig själv första månaden!',
       },
     ],
@@ -362,7 +362,7 @@ Core Bundle inkluderar kommersiell licens för målarbilder barn. Sälj dina må
       {
         id: '1',
         question: 'Är denna Generator för Målarbilder Barn med Addition och Subtraktion Verkligen Gratis?',
-        answer: 'Verktyget för målarbilder barn med addition och subtraktion kräver Core Bundle-prenumeration som kostar $144 årligen eller $15 månatligen. Din prenumeration ger obegränsad skapande av målarbilder barn med addition och subtraktion utan extra avgifter per arbetsblad. Generera så många målarbilder barn med siffror och tal som du behöver utan tilläggsavgifter. Kombinera målarbilder barn med matematik arbetsblad för multiplikationstabellen och klockan lära sig. Core Bundle inkluderar 10 populära arbetsbladsverktyg. Full Access-prenumeration kostar $240 årligen och inkluderar alla 33 arbetsbladstyper. Båda prenumerationerna inkluderar kommersiell licensiering, 11 språkstöd och professionell 300 DPI-kvalitet export.',
+        answer: 'Verktyget för målarbilder barn med addition och subtraktion kräver Grundpaketet-prenumeration som kostar $144 årligen eller $15 månatligen. Din prenumeration ger obegränsad skapande av målarbilder barn med addition och subtraktion utan extra avgifter per arbetsblad. Generera så många målarbilder barn med siffror och tal som du behöver utan tilläggsavgifter. Kombinera målarbilder barn med matematik arbetsblad för multiplikationstabellen och klockan lära sig. Grundpaketet inkluderar 10 populära arbetsbladsverktyg. Full Access-prenumeration kostar $240 årligen och inkluderar alla 33 arbetsbladstyper. Båda prenumerationerna inkluderar kommersiell licensiering, 11 språkstöd och professionell 300 DPI-kvalitet export.',
       },
       {
         id: '2',
@@ -377,7 +377,7 @@ Core Bundle inkluderar kommersiell licens för målarbilder barn. Sälj dina må
       {
         id: '4',
         question: 'Kan jag Använda Målarbilder Barn med Addition och Subtraktion i mitt Klassrum för Elever?',
-        answer: 'Core Bundle-prenumeration inkluderar obegränsad klassrumsanvändning av målarbilder barn med addition och subtraktion. Skriv ut så många målarbilder barn med siffror och tal som dina elever behöver. Dela målarbilder barn med matematik arbetsblad digitalt. Använd målarbilder barn för multiplikationstabellen träning. Kombinera med klockan lära sig och bokstäver lära sig aktiviteter. Skapa målarbilder barn för hela klassen utan extra kostnad. Kombinera målarbilder barn med finmotorik övningar för alla elever. Använd målarbilder barn i förskoleklass material. Varje målarbilder barn kan kopieras för klassrumsbruk. Core Bundle-licens täcker all utbildningsanvändning för $144 per år.',
+        answer: 'Grundpaketet-prenumeration inkluderar obegränsad klassrumsanvändning av målarbilder barn med addition och subtraktion. Skriv ut så många målarbilder barn med siffror och tal som dina elever behöver. Dela målarbilder barn med matematik arbetsblad digitalt. Använd målarbilder barn för multiplikationstabellen träning. Kombinera med klockan lära sig och bokstäver lära sig aktiviteter. Skapa målarbilder barn för hela klassen utan extra kostnad. Kombinera målarbilder barn med finmotorik övningar för alla elever. Använd målarbilder barn i förskoleklass material. Varje målarbilder barn kan kopieras för klassrumsbruk. Grundpaketet-licens täcker all utbildningsanvändning för $144 per år.',
       },
       {
         id: '5',
@@ -387,7 +387,7 @@ Core Bundle inkluderar kommersiell licens för målarbilder barn. Sälj dina må
       {
         id: '6',
         question: 'Kan jag Sälja Målarbilder Barn med Multiplikationstabellen och Addition och Subtraktion jag Skapar?',
-        answer: 'Ja, Core Bundle-prenumeration inkluderar fullständig kommersiell print-on-demand-licens utan extra kostnad. Sälj målarbilder barn med multiplikationstabellen på Teachers Pay Teachers, Etsy och Amazon KDP. Skapa målarbilder barn med addition och subtraktion buntar. Kombinera målarbilder barn med matematik arbetsblad för siffror och tal. Lägg till klockan lära sig och bokstäver lära sig element. Inkludera finmotorik övningar i varje målarbilder barn paket. Inga extra licensavgifter utöver din $144 årsprenumeration. Sälj målarbilder barn digitalt eller som fysiska produkter. Kombinera målarbilder barn med arbetsblad gratis paket. Varje målarbilder barn exporterad i professionell 300 DPI-kvalitet perfekt för försäljning.',
+        answer: 'Ja, Grundpaketet-prenumeration inkluderar fullständig kommersiell print-on-demand-licens utan extra kostnad. Sälj målarbilder barn med multiplikationstabellen på Teachers Pay Teachers, Etsy och Amazon KDP. Skapa målarbilder barn med addition och subtraktion buntar. Kombinera målarbilder barn med matematik arbetsblad för siffror och tal. Lägg till klockan lära sig och bokstäver lära sig element. Inkludera finmotorik övningar i varje målarbilder barn paket. Inga extra licensavgifter utöver din $144 årsprenumeration. Sälj målarbilder barn digitalt eller som fysiska produkter. Kombinera målarbilder barn med arbetsblad gratis paket. Varje målarbilder barn exporterad i professionell 300 DPI-kvalitet perfekt för försäljning.',
       },
       {
         id: '7',
@@ -424,7 +424,7 @@ Core Bundle inkluderar kommersiell licens för målarbilder barn. Sälj dina må
 
   // Pricing
   pricing: {
-    title: 'Core Bundle',
+    title: 'Grundpaketet',
     price: '144$',
     priceInterval: '/år',
     priceSuffix: 'Faktureras årligen',

@@ -10,12 +10,14 @@ interface Feature {
   titleEs: string;
   titleIt: string;
   titlePt: string;
+  titleNl: string;
   descriptionEn: string;
   descriptionDe: string;
   descriptionFr: string;
   descriptionEs: string;
   descriptionIt: string;
   descriptionPt: string;
+  descriptionNl: string;
   highlighted?: boolean;
 }
 
@@ -87,6 +89,15 @@ const localeContent: Record<string, {
     unlimitedDownloads: 'Downloads ilimitados',
     autoAnswerKeys: 'Gabaritos gerados automaticamente',
   },
+  nl: {
+    badge: 'Platformfuncties',
+    title: 'Alles wat je nodig hebt',
+    subtitle: 'Professionele tools speciaal voor leerkrachten. Maak werkbladen die eruitzien alsof ze uren werk kostten, in slechts enkele minuten.',
+    keyFeature: '⭐ Belangrijkste functie',
+    noFees: 'Geen kosten per werkblad',
+    unlimitedDownloads: 'Onbeperkt downloaden',
+    autoAnswerKeys: 'Automatisch gegenereerde antwoordbladen',
+  },
 };
 
 // Real features only - no fake information
@@ -99,12 +110,14 @@ const features: Feature[] = [
     titleEs: 'Crea en menos de 3 minutos',
     titleIt: 'Crea in meno di 3 minuti',
     titlePt: 'Crie em menos de 3 minutos',
+    titleNl: 'Maak in minder dan 3 minuten',
     descriptionEn: 'Generate complete worksheets instantly. Select your theme, customize settings, and download professional PDFs ready for printing.',
     descriptionDe: 'Generieren Sie fertige Arbeitsblätter im Handumdrehen. Wählen Sie Ihr Thema, passen Sie die Einstellungen an und laden Sie druckfertige PDFs herunter.',
     descriptionFr: 'Générez des fiches complètes instantanément. Choisissez votre thème, personnalisez les paramètres et téléchargez des PDF prêts à imprimer.',
     descriptionEs: 'Genera fichas completas al instante. Elige tu tema, personaliza las opciones y descarga PDFs profesionales listos para imprimir.',
     descriptionIt: 'Genera schede complete in un istante. Scegli il tema, personalizza le impostazioni e scarica PDF professionali pronti per la stampa.',
     descriptionPt: 'Gere atividades completas instantaneamente. Escolha seu tema, personalize as opções e baixe PDFs profissionais prontos para imprimir.',
+    descriptionNl: 'Genereer complete werkbladen in een handomdraai. Kies je thema, pas de instellingen aan en download drukklare PDFs.',
     highlighted: false,
   },
   {
@@ -115,12 +128,14 @@ const features: Feature[] = [
     titleEs: 'Más de 3000 imágenes para niños',
     titleIt: 'Oltre 3000 immagini per bambini',
     titlePt: 'Mais de 3000 imagens infantis',
+    titleNl: 'Meer dan 3000 kindvriendelijke afbeeldingen',
     descriptionEn: 'Browse our curated library organized by themes: animals, food, vehicles, nature, seasons, and more. Search or filter to find exactly what you need.',
     descriptionDe: 'Durchsuchen Sie unsere Bilderbibliothek nach Themen: Tiere, Essen, Fahrzeuge, Natur, Jahreszeiten und vieles mehr. Suchen und filtern Sie, um genau das Richtige zu finden.',
     descriptionFr: 'Parcourez notre bibliothèque organisée par thèmes : animaux, nourriture, véhicules, nature, saisons et bien plus. Recherchez ou filtrez pour trouver exactement ce qu\'il vous faut.',
     descriptionEs: 'Explora nuestra biblioteca organizada por temas: animales, comida, vehículos, naturaleza, estaciones y más. Busca o filtra para encontrar justo lo que necesitas.',
     descriptionIt: 'Esplora la nostra libreria organizzata per temi: animali, cibo, veicoli, natura, stagioni e molto altro. Cerca o filtra per trovare esattamente ciò che ti serve.',
     descriptionPt: 'Explore nossa biblioteca organizada por temas: animais, comida, veículos, natureza, estações do ano e muito mais. Pesquise ou filtre para encontrar exatamente o que você precisa.',
+    descriptionNl: 'Blader door onze bibliotheek ingedeeld op thema: dieren, eten, voertuigen, natuur, seizoenen en meer. Zoek of filter om precies te vinden wat je nodig hebt.',
     highlighted: false,
   },
   {
@@ -131,12 +146,14 @@ const features: Feature[] = [
     titleEs: '11 idiomas disponibles',
     titleIt: '11 lingue disponibili',
     titlePt: '11 idiomas disponíveis',
+    titleNl: '11 talen beschikbaar',
     descriptionEn: 'Create worksheets in English, German, French, Spanish, Portuguese, Italian, Dutch, Swedish, Danish, Norwegian, and Finnish.',
     descriptionDe: 'Erstellen Sie Arbeitsblätter auf Deutsch, Englisch, Französisch, Spanisch, Portugiesisch, Italienisch, Niederländisch, Schwedisch, Dänisch, Norwegisch und Finnisch.',
     descriptionFr: 'Créez des fiches en français, anglais, allemand, espagnol, portugais, italien, néerlandais, suédois, danois, norvégien et finnois.',
     descriptionEs: 'Crea fichas en español, inglés, alemán, francés, portugués, italiano, holandés, sueco, danés, noruego y finlandés.',
     descriptionIt: 'Crea schede in italiano, inglese, tedesco, francese, spagnolo, portoghese, olandese, svedese, danese, norvegese e finlandese.',
     descriptionPt: 'Crie atividades em português, inglês, alemão, francês, espanhol, italiano, holandês, sueco, dinamarquês, norueguês e finlandês.',
+    descriptionNl: 'Maak werkbladen in het Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins.',
     highlighted: false,
   },
   {
@@ -147,12 +164,14 @@ const features: Feature[] = [
     titleEs: 'Edición completa en el lienzo',
     titleIt: 'Modifica completa sulla tela',
     titlePt: 'Edição completa na tela',
+    titleNl: 'Volledige canvasbewerking',
     descriptionEn: 'Every element is editable. Drag to move, resize with handles, rotate freely. Add custom text with 7 fonts. Upload your own images.',
     descriptionDe: 'Jedes Element ist bearbeitbar. Verschieben, skalieren und drehen Sie frei. Fügen Sie Text mit 7 Schriftarten hinzu. Laden Sie eigene Bilder hoch.',
     descriptionFr: 'Chaque élément est modifiable. Déplacez, redimensionnez et faites pivoter librement. Ajoutez du texte personnalisé avec 7 polices. Importez vos propres images.',
     descriptionEs: 'Cada elemento es editable. Arrastra para mover, cambia el tamaño, gira libremente. Agrega texto con 7 fuentes. Sube tus propias imágenes.',
     descriptionIt: 'Ogni elemento è modificabile. Trascina per spostare, ridimensiona, ruota liberamente. Aggiungi testo con 7 font. Carica le tue immagini.',
     descriptionPt: 'Cada elemento é editável. Arraste para mover, redimensione e gire livremente. Adicione textos com 7 fontes. Envie suas próprias imagens.',
+    descriptionNl: 'Elk element is bewerkbaar. Sleep om te verplaatsen, schaal met handvatten, draai vrij. Voeg tekst toe met 7 lettertypen. Upload je eigen afbeeldingen.',
     highlighted: false,
   },
   {
@@ -163,12 +182,14 @@ const features: Feature[] = [
     titleEs: 'Licencia comercial incluida',
     titleIt: 'Licenza commerciale inclusa',
     titlePt: 'Licença comercial inclusa',
+    titleNl: 'Commerciële licentie inbegrepen',
     descriptionEn: 'Sell your worksheets on Teachers Pay Teachers, Etsy, or Amazon KDP. No attribution required. No extra licensing fees.',
     descriptionDe: 'Verkaufen Sie Ihre Arbeitsblätter auf Teachers Pay Teachers, Etsy oder Amazon KDP. Keine Quellenangabe nötig. Keine zusätzlichen Lizenzgebühren.',
     descriptionFr: 'Vendez vos fiches sur Teachers Pay Teachers, Etsy ou Amazon KDP. Aucune mention de source requise. Aucun frais de licence supplémentaire.',
     descriptionEs: 'Vende tus fichas en Teachers Pay Teachers, Etsy o Amazon KDP. Sin necesidad de dar crédito. Sin cuotas de licencia adicionales.',
     descriptionIt: 'Vendi le tue schede su Teachers Pay Teachers, Etsy o Amazon KDP. Nessuna attribuzione richiesta. Nessun costo di licenza aggiuntivo.',
     descriptionPt: 'Venda suas atividades no Teachers Pay Teachers, Etsy ou Amazon KDP. Sem necessidade de crédito. Sem taxas de licença adicionais.',
+    descriptionNl: 'Verkoop je werkbladen op Teachers Pay Teachers, Etsy of Amazon KDP. Geen bronvermelding vereist. Geen extra licentiekosten.',
     highlighted: true,
   },
   {
@@ -179,12 +200,14 @@ const features: Feature[] = [
     titleEs: 'Calidad de impresión 300 DPI',
     titleIt: 'Qualità di stampa 300 DPI',
     titlePt: 'Qualidade de impressão 300 DPI',
+    titleNl: '300 DPI afdrukkwaliteit',
     descriptionEn: 'Export high-resolution PDFs perfect for classroom printing and commercial publishing. Answer keys included automatically.',
     descriptionDe: 'Exportieren Sie hochauflösende PDFs, perfekt für den Klassenraum oder die kommerzielle Veröffentlichung. Lösungsblätter werden automatisch erstellt.',
     descriptionFr: 'Exportez des PDF haute résolution parfaits pour l\'impression en classe ou la publication commerciale. Les corrigés sont générés automatiquement.',
     descriptionEs: 'Exporta PDFs de alta resolución perfectos para imprimir en el salón y para venta comercial. Las respuestas se incluyen automáticamente.',
     descriptionIt: 'Esporta PDF ad alta risoluzione perfetti per la stampa in classe e la vendita commerciale. Le soluzioni sono generate automaticamente.',
     descriptionPt: 'Exporte PDFs em alta resolução perfeitos para impressão em sala de aula e venda comercial. Gabaritos incluídos automaticamente.',
+    descriptionNl: 'Exporteer hoge-resolutie PDFs perfect voor de klas en commerciële publicatie. Antwoordbladen worden automatisch gegenereerd.',
     highlighted: true,
   },
 ];
@@ -195,6 +218,7 @@ export default function HomepageFeatures({ locale }: HomepageFeaturesProps) {
 
   // Helper functions for localized content
   const getFeatureTitle = (feature: Feature) => {
+    if (locale === 'nl') return feature.titleNl;
     if (locale === 'pt') return feature.titlePt;
     if (locale === 'it') return feature.titleIt;
     if (locale === 'es') return feature.titleEs;
@@ -203,6 +227,7 @@ export default function HomepageFeatures({ locale }: HomepageFeaturesProps) {
     return feature.titleEn;
   };
   const getFeatureDescription = (feature: Feature) => {
+    if (locale === 'nl') return feature.descriptionNl;
     if (locale === 'pt') return feature.descriptionPt;
     if (locale === 'it') return feature.descriptionIt;
     if (locale === 'es') return feature.descriptionEs;

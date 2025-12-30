@@ -85,6 +85,17 @@ const localeContent: Record<string, {
     trustFreeGenerators: '3 geradores grátis',
     trustCancelAnytime: 'Cancele quando quiser',
   },
+  nl: {
+    badge: 'Sluit je aan bij duizenden leerkrachten',
+    titleStart: 'Klaar om ',
+    titleHighlight: 'professionele werkbladen',
+    subtitle: 'Start gratis. Probeer Woordzoeker, Kruiswoordpuzzel en Rekenwerkbladen. Upgrade wanneer je wilt naar alle 33 generatoren.',
+    ctaPrimary: 'Gratis beginnen',
+    ctaSecondary: 'Bekijk alle 33 generatoren',
+    trustNoCard: 'Geen creditcard nodig',
+    trustFreeGenerators: '3 gratis generatoren',
+    trustCancelAnytime: 'Opzeggen wanneer je wilt',
+  },
 };
 
 export default function HomepageCTA({ locale }: HomepageCTAProps) {

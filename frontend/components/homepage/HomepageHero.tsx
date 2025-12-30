@@ -108,6 +108,20 @@ const localeContent: Record<string, {
     answerKey: 'Gabarito incluso',
     previewTitles: ['Adição', 'Caça-palavras'],
   },
+  nl: {
+    badge: '33 professionele werkbladgeneratoren',
+    titleLine1: 'Maak ',
+    titleHighlight: 'prachtige',
+    titleLine2: 'lesmateriaal',
+    subtitle: 'Professionele werkbladgeneratoren waar leerkrachten wereldwijd op vertrouwen. Maak, pas aan en download binnen enkele minuten.',
+    ctaPrimary: 'Bekijk gratis voorbeelden',
+    ctaSecondary: 'Ontdek alle generatoren',
+    trustLanguages: '11 talen',
+    trustImages: '3000+ afbeeldingen',
+    trustLicense: 'Commerciële licentie',
+    answerKey: 'Antwoordblad',
+    previewTitles: ['Optellen', 'Woordzoeker'],
+  },
 };
 
 export default function HomepageHero({ locale }: HomepageHeroProps) {
@@ -158,6 +172,7 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
         es: 'Ejemplo de ficha de sumas',
         it: 'Esempio di scheda di addizioni',
         pt: 'Exemplo de atividade de adição',
+        nl: 'Voorbeeld optelwerkblad',
       },
       wordsearch: {
         en: 'Word Search Worksheet Sample',
@@ -166,6 +181,7 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
         es: 'Ejemplo de sopa de letras',
         it: 'Esempio di cerca parole',
         pt: 'Exemplo de caça-palavras',
+        nl: 'Voorbeeld woordzoeker',
       },
     };
     return altTexts[type][locale as keyof typeof altTexts.addition] || altTexts[type].en;

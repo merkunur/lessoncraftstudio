@@ -2,6 +2,50 @@
 
 ---
 
+## ⛔⛔⛔ MANDATORY: READ THIS ENTIRE FILE BEFORE STARTING ⛔⛔⛔
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   🔴🔴🔴 CRITICAL INSTRUCTION FOR AI ASSISTANTS 🔴🔴🔴                            ║
+║                                                                                   ║
+║   YOU MUST ANALYZE THIS FILE THOROUGHLY AND READ EVERY SINGLE LINE               ║
+║   WHEN THIS FILE IS REFERRED TO - EVEN IF IT IS A LONG FILE AND                  ║
+║   EXCEEDS YOUR TOKEN LIMIT FOR ONE SINGLE ACTION.                                ║
+║                                                                                   ║
+║   WORKAROUNDS YOU MUST USE:                                                       ║
+║   1. Divide the file into multiple parts (read offset 0-200, 200-400, etc.)      ║
+║   2. Ask the user for continuation if needed                                      ║
+║   3. Use Grep to search for specific sections                                     ║
+║   4. Read section by section until you've covered the entire file                 ║
+║                                                                                   ║
+║   FAILURES THAT OCCUR FROM SKIMMING THIS FILE:                                    ║
+║   ❌ Wrong sample paths (e.g., "alphabet train" vs "alphabet-train")             ║
+║   ❌ English words left untranslated (e.g., "Core Bundle" instead of             ║
+║      "Grundpaketet" in Swedish)                                                   ║
+║   ❌ Missing deployment steps (samples not copied to standalone)                  ║
+║   ❌ Missing hreflang tags and canonical URLs                                     ║
+║   ❌ Wrong URL slugs (English slugs on non-English pages)                        ║
+║                                                                                   ║
+║   IF YOU DON'T READ THE ENTIRE FILE, YOU WILL MAKE THESE MISTAKES!               ║
+║                                                                                   ║
+║   EVERY SECTION IN THIS FILE EXISTS BECAUSE SOMEONE MADE THAT MISTAKE.           ║
+║   DON'T REPEAT HISTORY.                                                           ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+### How to Read This File Properly
+
+1. **First pass**: Read lines 1-200 (introduction, deployment, collapsible text)
+2. **Second pass**: Read lines 200-400 (language requirements, SEO slugs)
+3. **Third pass**: Read lines 400-600 (sample paths, file structure)
+4. **Fourth pass**: Read lines 600+ (content template, checklist)
+
+**DO NOT PROCEED WITH IMPLEMENTATION UNTIL YOU'VE READ ALL SECTIONS.**
+
+---
+
 ## 🚨🚨🚨 STOP! DEPLOYMENT IS MANDATORY - NOT OPTIONAL 🚨🚨🚨
 
 ```
@@ -180,18 +224,364 @@ If ANY of these appear in the content file for a non-English page → FIX THEM!
 
 ---
 
-## 8 UNBREAKABLE RULES
+## 🔍🔍🔍 CRITICAL: SEO - LANGUAGE-SPECIFIC SLUGS & HREFLANG 🔍🔍🔍
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   THE URL SLUG MUST BE IN THE TARGET LANGUAGE FOR SEO!                            ║
+║                                                                                   ║
+║   ❌ WRONG: /sv/apps/word-search-worksheets  (English slug on Swedish page)       ║
+║   ✅ RIGHT: /sv/apps/ordletar-arbetsblad     (Swedish slug on Swedish page)       ║
+║                                                                                   ║
+║   ❌ WRONG: /de/apps/addition-worksheets     (English slug on German page)        ║
+║   ✅ RIGHT: /de/apps/additionsaufgaben-arbeitsblaetter (German slug)              ║
+║                                                                                   ║
+║   WHY THIS MATTERS:                                                               ║
+║   • Swedish users search for "ordletare" not "word search"                        ║
+║   • German users search for "Arbeitsblätter" not "worksheets"                     ║
+║   • URLs with native keywords rank MUCH higher in local search                    ║
+║   • Google uses URL keywords as a ranking signal                                  ║
+║   • Users trust URLs in their own language (higher CTR)                           ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+### The SEO Architecture (6 Files You MUST Update)
+
+When creating a non-English product page, you must update **6 files** for proper SEO:
+
+| # | File | Purpose |
+|---|------|---------|
+| 1 | **Content file** | Add `seo` section with language-specific slug, title, description, keywords |
+| 2 | **product-page-content.ts** | Register the content with the slug in content registry |
+| 3 | **product-page-slugs.ts** | Add the language-specific slug to the slug configuration |
+| 4 | **AppCard.tsx** | Add slug to `appIdToProductSlugByLocale` mapping |
+| 5 | **page.tsx** | Add slug to `generateStaticParams` and ensure hreflang tags work |
+| 6 | **next.config.js** | Add 301 redirect from English slug to language-specific slug |
+
+### File 1: Content File - The SEO Section
+
+Every content file MUST have an `seo` section at the top:
+
+```typescript
+// frontend/content/product-pages/sv/word-search-worksheets.ts
+import { ProductPageContent } from '@/components/product-page/ProductPageClient';
+
+export const wordSearchSvContent: ProductPageContent = {
+  // ┌─────────────────────────────────────────────────────────────────┐
+  // │  SEO SECTION - REQUIRED FOR NON-ENGLISH PAGES                   │
+  // └─────────────────────────────────────────────────────────────────┘
+  seo: {
+    slug: 'ordletar-arbetsblad',           // ← SWEDISH slug (NOT English!)
+    appId: 'word-search',                   // ← Internal app ID (stays English)
+    title: 'Gratis Ordletare Generator | Arbetsblad för Förskoleklass',  // Swedish title
+    description: 'Skapa professionella ordletarpussel...',  // Swedish description
+    keywords: 'ordletare generator, arbetsblad gratis, förskoleklass material',  // Swedish keywords
+    canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad',
+  },
+
+  hero: {
+    // ... rest of content IN SWEDISH
+  },
+};
+```
+
+### SEO Section Fields Explained
+
+| Field | Purpose | Example (Swedish) |
+|-------|---------|-------------------|
+| `slug` | Language-specific URL slug | `ordletar-arbetsblad` |
+| `appId` | Internal identifier (always English) | `word-search` |
+| `title` | SEO page title with keywords | `Gratis Ordletare Generator \| Arbetsblad` |
+| `description` | Meta description (150-160 chars) | Swedish description with keywords |
+| `keywords` | Meta keywords (comma-separated) | Swedish search terms |
+| `canonicalUrl` | Full canonical URL | `https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad` |
+
+### File 2: Content Registry - product-page-content.ts
+
+Location: `frontend/config/product-page-content.ts`
+
+Register your content file with its language-specific slug:
+
+```typescript
+// Add import at top
+import wordSearchSvContent from '@/content/product-pages/sv/word-search-worksheets';
+
+// Add to contentRegistry
+export const contentRegistry: ContentRegistry = {
+  en: {
+    'word-search-worksheets': wordSearchEnContent,
+    // ... other English content
+  },
+  sv: {
+    'ordletar-arbetsblad': wordSearchSvContent,        // ← Swedish slug
+    'word-search-worksheets': wordSearchSvContent,     // ← Backwards compatibility
+  },
+  de: {
+    'wortsuche-arbeitsblaetter': wordSearchDeContent,  // ← German slug
+  },
+  // ... other languages
+};
+```
+
+### File 3: Slug Configuration - product-page-slugs.ts
+
+Location: `frontend/config/product-page-slugs.ts`
+
+Add the language-specific slug for the app:
+
+```typescript
+export const productPageSlugs: AppSlugConfig[] = [
+  {
+    appId: 'word-search',
+    slugs: {
+      en: 'word-search-worksheets',
+      sv: 'ordletar-arbetsblad',           // ← Swedish
+      de: 'wortsuche-arbeitsblaetter',     // ← German
+      fr: 'mots-caches-fiches',            // ← French
+      es: 'sopa-letras-fichas',            // ← Spanish
+      it: 'cerca-parole-schede',           // ← Italian
+      pt: 'caca-palavras-fichas',          // ← Portuguese
+      nl: 'woordzoeker-werkbladen',        // ← Dutch
+      da: 'ordsoegning-arbejdsark',        // ← Danish
+      no: 'ordsoek-arbeidsark',            // ← Norwegian
+      fi: 'sananhaku-tyoarkit',            // ← Finnish
+    },
+  },
+  // ... other apps
+];
+```
+
+### File 4: AppCard.tsx - Link Mapping
+
+Location: `frontend/components/apps/AppCard.tsx`
+
+Add the slug to `appIdToProductSlugByLocale`:
+
+```typescript
+const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string } } = {
+  'word-search': {
+    en: 'word-search-worksheets',
+    sv: 'ordletar-arbetsblad',           // ← Swedish users see Swedish slug
+    de: 'wortsuche-arbeitsblaetter',     // ← German users see German slug
+    fr: 'mots-caches-fiches',
+    es: 'sopa-letras-fichas',
+    it: 'cerca-parole-schede',
+    pt: 'caca-palavras-fichas',
+    nl: 'woordzoeker-werkbladen',
+    da: 'ordsoegning-arbejdsark',
+    no: 'ordsoek-arbeidsark',
+    fi: 'sananhaku-tyoarkit',
+  },
+  // ... other apps
+};
+```
+
+**Why this matters:** When a Swedish user clicks "Läs mer" (Learn More) on an app card, they go to `/sv/apps/ordletar-arbetsblad` instead of `/sv/apps/word-search-worksheets`.
+
+### File 5: page.tsx - Static Params & hreflang
+
+Location: `frontend/app/[locale]/apps/[slug]/page.tsx`
+
+Add the slug to `generateStaticParams`:
+
+```typescript
+export async function generateStaticParams() {
+  const apps = [
+    'word-search-worksheets',      // English
+    'ordletar-arbetsblad',         // Swedish - ADD THIS
+    'wortsuche-arbeitsblaetter',   // German - ADD THIS
+    // ... other language-specific slugs
+  ];
+  // ...
+}
+```
+
+### File 6: next.config.js - 301 Redirect (CRITICAL FOR SEO!)
+
+```
+┌─────────────────────────────────────────────────────────────────────────────────┐
+│  ⚠️  THIS IS THE MOST IMPORTANT FILE FOR SEO!  ⚠️                               │
+│                                                                                 │
+│  Without this redirect, Google will index BOTH URLs:                            │
+│  • /sv/apps/word-search-worksheets  (BAD - English slug)                        │
+│  • /sv/apps/ordletar-arbetsblad     (GOOD - Swedish slug)                       │
+│                                                                                 │
+│  The 301 redirect tells Google: "The English slug is PERMANENTLY moved         │
+│  to the Swedish slug. Only index the Swedish one."                              │
+└─────────────────────────────────────────────────────────────────────────────────┘
+```
+
+Location: `frontend/next.config.js`
+
+Add the redirect in the `redirects()` function:
+
+```javascript
+async redirects() {
+  return [
+    // ... existing redirects ...
+
+    // SEO: Redirect English product page slugs to language-specific slugs
+    // Swedish: word-search-worksheets → ordletar-arbetsblad
+    {
+      source: '/sv/apps/word-search-worksheets',
+      destination: '/sv/apps/ordletar-arbetsblad',
+      permanent: true,  // 301 redirect - tells Google this is permanent
+    },
+    // German example:
+    // {
+    //   source: '/de/apps/word-search-worksheets',
+    //   destination: '/de/apps/wortsuche-arbeitsblaetter',
+    //   permanent: true,
+    // },
+  ];
+},
+```
+
+**Why this is critical:**
+- Without this, both URLs work and Google may index the wrong one
+- The 301/308 redirect passes SEO value to the correct URL
+- Old bookmarks and cached search results automatically go to the right page
+- This is the ONLY way to ensure Google indexes just ONE URL per language
+
+**Verification after deployment:**
+```bash
+# Must return 308 Permanent Redirect with correct Location header
+curl -sI 'https://www.lessoncraftstudio.com/sv/apps/word-search-worksheets' | head -5
+
+# Expected output:
+# HTTP/1.1 308 Permanent Redirect
+# location: /sv/apps/ordletar-arbetsblad
+```
+
+### hreflang Tags - Automatic with SEO Section
+
+When your content file has an `seo` section, hreflang tags are automatically generated:
+
+```html
+<!-- Generated automatically for Swedish word search page -->
+<link rel="canonical" href="https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad"/>
+<link rel="alternate" hrefLang="en" href="https://www.lessoncraftstudio.com/en/apps/word-search-worksheets"/>
+<link rel="alternate" hrefLang="sv" href="https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad"/>
+<link rel="alternate" hrefLang="x-default" href="https://www.lessoncraftstudio.com/en/apps/word-search-worksheets"/>
+```
+
+**What hreflang does:**
+- Tells Google which language version to show in each country
+- Prevents duplicate content penalties across languages
+- Ensures Swedish users see Swedish page in Google.se results
+- `x-default` tells Google what to show for unsupported languages
+
+### Complete Language-Specific Slug Examples
+
+| App | English | Swedish | German | French |
+|-----|---------|---------|--------|--------|
+| Word Search | word-search-worksheets | ordletar-arbetsblad | wortsuche-arbeitsblaetter | mots-caches-fiches |
+| Addition | addition-worksheets | additions-arbetsblad | additionsaufgaben-arbeitsblaetter | addition-fiches |
+| Matching | matching-worksheets | matchnings-arbetsblad | zuordnungs-arbeitsblaetter | association-fiches |
+
+### Slug Creation Rules
+
+1. **Use target language keywords** - What would a native speaker search for?
+2. **Keep it URL-safe** - No special characters (ä → ae, ö → oe, ü → ue for German URLs)
+3. **Include "worksheets" equivalent** - "arbetsblad" (Swedish), "Arbeitsblätter" (German), "fiches" (French)
+4. **Be consistent** - All apps follow same pattern within a language
+5. **Test with Google** - Search for the keywords in target language to verify they're used
+
+### SEO Verification Checklist
+
+Before deploying a non-English product page, verify ALL of these:
+
+```bash
+# 1. Content file has seo section
+grep -A 10 "seo:" frontend/content/product-pages/sv/{app-slug}.ts
+
+# 2. Slug is registered in content registry
+grep "ordletar-arbetsblad" frontend/config/product-page-content.ts
+
+# 3. Slug is in slug configuration
+grep "ordletar-arbetsblad" frontend/config/product-page-slugs.ts
+
+# 4. Slug is in AppCard mapping
+grep "ordletar-arbetsblad" frontend/components/apps/AppCard.tsx
+
+# 5. Slug is in generateStaticParams
+grep "ordletar-arbetsblad" frontend/app/[locale]/apps/[slug]/page.tsx
+
+# 6. 301 REDIRECT IS IN next.config.js (CRITICAL!)
+grep "word-search-worksheets" frontend/next.config.js | grep "/sv/"
+
+# 7. After deployment - verify hreflang tags
+curl -s 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad' | grep -i 'hreflang'
+
+# 8. After deployment - verify 301 redirect works
+curl -sI 'https://www.lessoncraftstudio.com/sv/apps/word-search-worksheets' | head -5
+# MUST show: HTTP/1.1 308 Permanent Redirect + location: /sv/apps/ordletar-arbetsblad
+```
+
+### Complete SEO Deployment Flow
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│  CREATING A NON-ENGLISH PRODUCT PAGE WITH PROPER SEO                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+1. CREATE CONTENT FILE with seo section
+   └── frontend/content/product-pages/sv/word-search-worksheets.ts
+       ├── seo.slug = 'ordletar-arbetsblad'
+       ├── seo.appId = 'word-search'
+       ├── seo.title = Swedish SEO title
+       ├── seo.description = Swedish meta description
+       └── seo.canonicalUrl = full Swedish URL
+
+2. REGISTER IN CONTENT REGISTRY
+   └── frontend/config/product-page-content.ts
+       └── sv: { 'ordletar-arbetsblad': wordSearchSvContent }
+
+3. ADD TO SLUG CONFIGURATION
+   └── frontend/config/product-page-slugs.ts
+       └── 'word-search': { sv: 'ordletar-arbetsblad', ... }
+
+4. ADD TO APPCARD MAPPING
+   └── frontend/components/apps/AppCard.tsx
+       └── appIdToProductSlugByLocale['word-search']['sv'] = 'ordletar-arbetsblad'
+
+5. ADD TO STATIC PARAMS
+   └── frontend/app/[locale]/apps/[slug]/page.tsx
+       └── generateStaticParams apps array: 'ordletar-arbetsblad'
+
+6. ADD 301 REDIRECT (CRITICAL!)
+   └── frontend/next.config.js
+       └── redirects(): { source: '/sv/apps/word-search-worksheets',
+                          destination: '/sv/apps/ordletar-arbetsblad',
+                          permanent: true }
+   ⚠️  WITHOUT THIS, GOOGLE WILL INDEX BOTH URLs!
+
+7. BUILD & DEPLOY
+   └── git push → server pull → npm run build → pm2 restart
+
+8. VERIFY SEO
+   └── curl -sI English-slug URL → MUST return 308 redirect
+   └── curl Swedish-slug URL → check hreflang tags
+   └── curl canonical URL → verify 200
+```
+
+---
+
+## 9 UNBREAKABLE RULES
 
 | # | Rule | Why It Matters |
 |---|------|----------------|
 | 1 | **🌍 100% NATIVE LANGUAGE** | EVERY word must be in target language - NO English on non-English pages! "Core Bundle" → "Grundpaketet" |
-| 2 | **🚨 DEPLOY TO PRODUCTION** | Task is NOT complete until live URL returns HTTP 200 - local build is NOT enough! |
-| 3 | **3 SENTENCES DEFAULT** | ALL long text shows only 3 sentences initially - components handle this automatically |
-| 4 | NO FAKE STATS | Never invent user counts, ratings, or numbers |
-| 5 | NO APP LINKS | Links go to `/signup`, `/apps`, `/pricing`, or homepage ONLY |
-| 6 | FULL TEXT | Use 100% of .md content in content file - components will collapse it |
-| 7 | REAL SAMPLES | Only use actual files from `samples/` folder - VERIFY THEY EXIST |
-| 8 | FREE PDF | Direct download link, no login required |
+| 2 | **🔍 LANGUAGE-SPECIFIC SEO SLUGS** | URL must be in target language! `/sv/apps/ordletar-arbetsblad` NOT `/sv/apps/word-search-worksheets` |
+| 3 | **🚨 DEPLOY TO PRODUCTION** | Task is NOT complete until live URL returns HTTP 200 - local build is NOT enough! |
+| 4 | **3 SENTENCES DEFAULT** | ALL long text shows only 3 sentences initially - components handle this automatically |
+| 5 | NO FAKE STATS | Never invent user counts, ratings, or numbers |
+| 6 | NO APP LINKS | Links go to `/signup`, `/apps`, `/pricing`, or homepage ONLY |
+| 7 | FULL TEXT | Use 100% of .md content in content file - components will collapse it |
+| 8 | REAL SAMPLES | Only use actual files from `samples/` folder - VERIFY THEY EXIST |
+| 9 | FREE PDF | Direct download link, no login required |
 
 ---
 
@@ -703,15 +1093,28 @@ Before saying "done", verify ALL of these:
 - [ ] **Text sounds natural** - not literal translations, idiomatic expressions
 - [ ] **All fields populated** - hero.readMoreLabel, features.badgeText, howTo.stepLabel, etc.
 
+### 🔍 SEO Verification (CRITICAL FOR NON-ENGLISH PAGES)
+- [ ] **URL slug is in target language** - `/sv/apps/ordletar-arbetsblad` NOT `/sv/apps/word-search-worksheets`
+- [ ] **Content file has seo section** - with slug, appId, title, description, keywords, canonicalUrl
+- [ ] **Slug registered in product-page-content.ts** - `sv: { 'ordletar-arbetsblad': content }`
+- [ ] **Slug added to product-page-slugs.ts** - `'word-search': { sv: 'ordletar-arbetsblad' }`
+- [ ] **Slug added to AppCard.tsx** - `appIdToProductSlugByLocale['word-search']['sv']`
+- [ ] **Slug in generateStaticParams** - `page.tsx` apps array includes the new slug
+- [ ] **301 REDIRECT in next.config.js** - English slug redirects to language-specific slug (CRITICAL!)
+- [ ] **After deploy: redirect works** - `curl -sI English-slug URL` returns 308 with correct location
+- [ ] **After deploy: hreflang tags present** - `curl URL | grep hreflang` shows all language versions
+
 ### ⚠️ Text Display
 - [ ] **All long text in content file is FULL text (not truncated)**
 - [ ] **Components will auto-collapse to 3 sentences - you don't do anything**
 
-### 4 Required File Updates
-- [ ] **Content file created** at `frontend/content/product-pages/en/{app-slug}.ts`
+### 6 Required File Updates (for non-English pages)
+- [ ] **Content file created** at `frontend/content/product-pages/{locale}/{app-slug}.ts` with seo section
+- [ ] **product-page-content.ts updated** - slug registered in content registry
+- [ ] **product-page-slugs.ts updated** - slug added to app's slug configuration
 - [ ] **page.tsx updated** with import, metadata, render condition, staticParams
-- [ ] **AppCard.tsx updated** - entry added to `appIdToProductSlug` mapping
-- [ ] **AppCategories.tsx verified** - app exists in homepage categories (all 33 apps should be there)
+- [ ] **AppCard.tsx updated** - entry added to `appIdToProductSlugByLocale` mapping
+- [ ] **next.config.js updated** - 301 redirect from English slug to language-specific slug
 
 ### Sample Files
 - [ ] Sample files exist in `samples/english/{app}/` (master location)
@@ -958,24 +1361,33 @@ plink ... "pm2 restart lessoncraftstudio"
 ║      "Features" → "Funktioner" (Swedish), "Funktionen" (German)                  ║
 ║      ALL UI LABELS, BADGES, BUTTONS - EVERYTHING IN TARGET LANGUAGE!             ║
 ║                                                                                   ║
-║   🚨 1. DEPLOY TO PRODUCTION - THIS IS NOT OPTIONAL 🚨                            ║
+║   🔍 1. SEO: URL SLUG MUST BE IN TARGET LANGUAGE 🔍                               ║
+║      ❌ /sv/apps/word-search-worksheets  (English slug = BAD SEO)                 ║
+║      ✅ /sv/apps/ordletar-arbetsblad     (Swedish slug = GOOD SEO)                ║
+║      Update 6 files: content file, product-page-content.ts, product-page-slugs.ts║
+║      AppCard.tsx, page.tsx, AND next.config.js (301 REDIRECT - CRITICAL!)        ║
+║      The redirect in next.config.js is the MOST IMPORTANT - without it Google    ║
+║      will index both URLs. After deploy: curl -sI must show 308 redirect.        ║
+║                                                                                   ║
+║   🚨 2. DEPLOY TO PRODUCTION - THIS IS NOT OPTIONAL 🚨                            ║
 ║      git push → server git pull → npm run build → copy samples → verify URL      ║
 ║      "Local build passed" = NOT DONE. "Live URL returns 200" = DONE.             ║
 ║                                                                                   ║
-║   2. PUT FULL TEXT IN CONTENT FILE                                                ║
+║   3. PUT FULL TEXT IN CONTENT FILE                                                ║
 ║      Components auto-collapse to 3 sentences                                      ║
 ║                                                                                   ║
-║   3. VERIFY SAMPLES EXIST BEFORE CREATING PAGE                                    ║
+║   4. VERIFY SAMPLES EXIST BEFORE CREATING PAGE                                    ║
 ║      Check samples/english/{app}/ folder first                                    ║
 ║                                                                                   ║
-║   4. COPY SAMPLES TO STANDALONE ON SERVER                                         ║
+║   5. COPY SAMPLES TO STANDALONE ON SERVER                                         ║
 ║      Or they won't be accessible                                                  ║
 ║                                                                                   ║
-║   5. TEST ALL LIVE URLs BEFORE ANNOUNCING COMPLETION                              ║
+║   6. TEST ALL LIVE URLs BEFORE ANNOUNCING COMPLETION                              ║
 ║      Page, images, and PDFs must all return 200 ON PRODUCTION                     ║
 ║      curl https://www.lessoncraftstudio.com/en/apps/{app-slug}                   ║
+║      For non-English: verify hreflang tags with curl | grep hreflang              ║
 ║                                                                                   ║
-║   🏠 6. NEVER REGENERATE THE HOMEPAGE - IT IS COMPLETE 🏠                          ║
+║   🏠 7. NEVER REGENERATE THE HOMEPAGE - IT IS COMPLETE 🏠                          ║
 ║      The homepage was finished in Dec 2025 with 11 languages and 12 samples      ║
 ║      Only fix bugs - never redesign or regenerate from scratch                   ║
 ║                                                                                   ║

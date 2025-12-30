@@ -58,6 +58,7 @@ const appIdToProductSlug: { [key: string]: string } = {
   'subtraction': 'subtraction-worksheets',
   'treasure-hunt': 'treasure-hunt-worksheets',
   'word-guess': 'word-guess-worksheets',
+  'writing-app': 'writing-worksheets',
 };
 
 // Map app slugs to HTML filenames

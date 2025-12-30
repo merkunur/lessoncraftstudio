@@ -34,6 +34,7 @@ import shadowMatchEnContent from '@/content/product-pages/en/shadow-match-worksh
 import subtractionEnContent from '@/content/product-pages/en/subtraction-worksheets';
 import treasureHuntEnContent from '@/content/product-pages/en/treasure-hunt-worksheets';
 import wordGuessEnContent from '@/content/product-pages/en/word-guess-worksheets';
+import writingEnContent from '@/content/product-pages/en/writing-worksheets';
 
 interface PageProps {
   params: {
@@ -774,6 +775,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Word Guess Worksheets | LessonCraftStudio',
         description: 'Create professional word guess worksheets with our word guess generator. Perfect for kindergarten and first grade students learning vocabulary and spelling.',
         url: 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Writing Worksheets product page SEO
+  if (params.slug === 'writing-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Tracing Worksheets | Letter Tracing Worksheets Generator for Kindergarten',
+      description: 'Create professional handwriting practice worksheets with our writing worksheet generator. Generate custom printable tracing worksheets perfect for kindergarten and first grade students learning letter formation. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'tracing worksheets, letter tracing worksheets, handwriting worksheets, kindergarten worksheets, printable worksheets, writing worksheets, free worksheets, first grade worksheets, alphabet worksheets, phonics worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/writing-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Tracing Worksheets | LessonCraftStudio',
+        description: 'Create professional handwriting practice worksheets with our writing worksheet generator. Perfect for kindergarten and first grade students learning letter formation.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/writing-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3919,6 +3943,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={wordGuessEnContent} />;
   }
 
+  if (slug === 'writing-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={writingEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -4071,6 +4099,7 @@ export async function generateStaticParams() {
     'subtraction-worksheets', // Product page slug
     'treasure-hunt-worksheets', // Product page slug
     'word-guess-worksheets', // Product page slug
+    'writing-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

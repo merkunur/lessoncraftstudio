@@ -636,5 +636,214 @@ plink ... "pm2 restart lessoncraftstudio"
 ║      Page, images, and PDFs must all return 200 ON PRODUCTION                     ║
 ║      curl https://www.lessoncraftstudio.com/en/apps/{app-slug}                   ║
 ║                                                                                   ║
+║   🏠 5. NEVER REGENERATE THE HOMEPAGE - IT IS COMPLETE 🏠                          ║
+║      The homepage was finished in Dec 2025 with 11 languages and 12 samples      ║
+║      Only fix bugs - never redesign or regenerate from scratch                   ║
+║                                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════════════════════╝
 ```
+
+---
+
+## 🏠 HOMEPAGE ARCHITECTURE - DO NOT OVERWRITE
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   ⚠️⚠️⚠️ THE HOMEPAGE IS COMPLETE - DO NOT REGENERATE ⚠️⚠️⚠️                          ║
+║                                                                                   ║
+║   The homepage was completed in December 2025 with:                               ║
+║   - 11 languages fully translated                                                 ║
+║   - 12 downloadable PDF samples                                                   ║
+║   - All links to product pages working                                            ║
+║   - Responsive design tested across devices                                       ║
+║                                                                                   ║
+║   DO NOT use the frontend-design skill on the homepage!                           ║
+║   DO NOT regenerate from a plan file!                                             ║
+║   DO NOT copy old homepage code from backups!                                     ║
+║                                                                                   ║
+║   ONLY fix bugs (broken links, missing translations, typos)                       ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+### Current Homepage Structure (December 2025)
+
+The homepage is composed of 6 modular components located in `frontend/components/homepage/`:
+
+| Component | File | Purpose |
+|-----------|------|---------|
+| HomepageHero | `HomepageHero.tsx` | Dark gradient hero with badge, title, 3D preview cards |
+| SampleGallery | `SampleGallery.tsx` | 12 downloadable PDF samples with translations |
+| AppCategories | `AppCategories.tsx` | Category cards linking to product pages |
+| HomepageFeatures | `HomepageFeatures.tsx` | 6 feature cards with amber highlights |
+| HowItWorks | `HowItWorks.tsx` | 4-step timeline with scroll animations |
+| HomepageCTA | `HomepageCTA.tsx` | Final dark CTA section |
+
+### Main Page File
+- **`frontend/app/[locale]/page.tsx`** - Imports and renders all 6 components
+
+### Language Support
+All components support **11 languages** with inline `localeContent` objects:
+- English (en), German (de), French (fr), Spanish (es), Italian (it)
+- Portuguese (pt), Dutch (nl), Danish (da), Swedish (sv), Norwegian (no), Finnish (fi)
+
+### Design System
+- **Dark sections**: Hero, Sample Gallery, CTA - using `#0a0a0a`, `#1a1a2e`, `#16213e`
+- **Light sections**: Features, How It Works - using white, stone-50
+- **Accents**: Cyan `#06b6d4`, Purple `#a855f7`, Pink `#ec4899`, Amber highlights
+- **Typography**: Space Grotesk (hero), Cormorant Garamond (sections)
+- **Animations**: Framer Motion for scroll reveals, hovers, parallax
+
+---
+
+## 🔗 HOW TO ADD LINKS TO INDIVIDUAL APP PAGES ON HOMEPAGE
+
+### Adding a New Sample to SampleGallery.tsx
+
+To add a new downloadable sample that links to a product page:
+
+1. Open `frontend/components/homepage/SampleGallery.tsx`
+2. Find the `samples` array (around line 200)
+3. Add a new sample object:
+
+```typescript
+{
+  id: '13',                              // Next available ID
+  nameEn: 'App Name',                    // English name
+  nameDe: 'German Name',                 // German translation
+  nameFr: 'French Name',                 // French translation
+  nameEs: 'Spanish Name',                // Spanish translation
+  nameIt: 'Italian Name',                // Italian translation
+  namePt: 'Portuguese Name',             // Portuguese translation
+  nameNl: 'Dutch Name',                  // Dutch translation
+  nameDa: 'Danish Name',                 // Danish translation
+  nameSv: 'Swedish Name',                // Swedish translation
+  nameNo: 'Norwegian Name',              // Norwegian translation
+  nameFi: 'Finnish Name',                // Finnish translation
+  categoryEn: 'Math',                    // Category in each language
+  categoryDe: 'Mathematik',
+  // ... all category translations ...
+  imageSrc: '/samples/english/app-name/filename.jpeg',    // Preview image
+  pdfUrl: '/samples/english/app-name/filename.pdf',       // Download PDF
+  productPageSlug: 'app-name-worksheets',                 // ← CREATES LINK TO PRODUCT PAGE
+},
+```
+
+4. Update `statSamples` from `12+` to `13+` in all locale content objects
+5. Commit and deploy
+
+**The link is automatically generated as:** `/${locale}/apps/${productPageSlug}`
+
+### Adding a New Category Card to AppCategories.tsx
+
+To add a new app card that links to a product page:
+
+1. Open `frontend/components/homepage/AppCategories.tsx`
+2. Find the `apps` array
+3. Add a new app object:
+
+```typescript
+{
+  id: 'app-id',
+  nameEn: 'App Name',
+  nameDe: 'German Name',
+  // ... all language translations ...
+  icon: '🔢',                           // Emoji icon
+  categoryEn: 'Math',                   // Category translations
+  categoryDe: 'Mathematik',
+  // ... all category translations ...
+  appSlug: 'app-name-worksheets',       // ← LINK TO /[locale]/apps/app-name-worksheets
+},
+```
+
+### Available Product Page Slugs
+
+Only link to product pages that exist in `frontend/content/product-pages/en/`:
+
+```
+addition-worksheets          alphabet-train-worksheets
+big-small-worksheets         chart-count-worksheets
+code-addition-worksheets     coloring-worksheets
+crossword-worksheets         cryptogram-worksheets
+draw-and-color-worksheets    drawing-lines-worksheets
+find-and-count-worksheets    find-objects-worksheets
+grid-match-worksheets        matching-worksheets
+math-worksheets              picture-bingo-worksheets
+sudoku-worksheets            word-scramble-worksheets
+word-search-worksheets
+```
+
+**ALWAYS verify the product page file exists before using the slug!**
+
+---
+
+## 🛡️ PROTECTING HOMEPAGE FROM ACCIDENTAL OVERWRITES
+
+### NEVER DO THESE THINGS:
+```
+❌ Do NOT copy old homepage code from backups or archives
+❌ Do NOT revert homepage commits without explicit user approval
+❌ Do NOT regenerate the homepage from scratch - it's COMPLETE
+❌ Do NOT use the frontend-design skill on the homepage
+❌ Do NOT delete or replace any homepage component files
+```
+
+### Git Commands to Verify Homepage Status
+
+Before ANY homepage changes, run these commands:
+
+```bash
+# Check recent homepage commits
+git log --oneline -10 -- frontend/components/homepage/ frontend/app/[locale]/page.tsx
+
+# Verify all homepage files are tracked
+git ls-files frontend/components/homepage/
+
+# Expected output:
+# frontend/components/homepage/AppCategories.tsx
+# frontend/components/homepage/HomepageCTA.tsx
+# frontend/components/homepage/HomepageFeatures.tsx
+# frontend/components/homepage/HomepageHero.tsx
+# frontend/components/homepage/HowItWorks.tsx
+# frontend/components/homepage/SampleGallery.tsx
+```
+
+### If You Accidentally Modify Homepage
+
+```bash
+# View what changed
+git diff frontend/components/homepage/
+
+# Restore a single file to last commit
+git checkout HEAD -- frontend/components/homepage/SampleGallery.tsx
+
+# Restore entire homepage folder to last commit
+git checkout HEAD -- frontend/components/homepage/
+
+# If already committed, revert the specific commit
+git revert <commit-hash>
+```
+
+### What Changes ARE Allowed
+
+✅ **Bug fixes only:**
+- Fix broken PDF download links
+- Fix missing/incorrect translations
+- Fix typos in text content
+- Fix layout bugs (overflow, spacing)
+
+✅ **Adding content:**
+- Add new samples to SampleGallery (when new apps are created)
+- Update sample count from "12+" to "13+"
+- Add new app cards to AppCategories
+
+### What Changes ARE NOT Allowed
+
+❌ **Never do these without explicit user approval:**
+- Redesign the layout or structure
+- Change the component architecture
+- Replace components with new implementations
+- Change the color scheme or typography
+- Regenerate from the plan file
+- Use frontend-design skill on homepage

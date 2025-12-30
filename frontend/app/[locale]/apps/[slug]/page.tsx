@@ -20,6 +20,7 @@ import drawAndColorEnContent from '@/content/product-pages/en/draw-and-color-wor
 import findObjectsEnContent from '@/content/product-pages/en/find-objects-worksheets';
 import gridMatchEnContent from '@/content/product-pages/en/grid-match-worksheets';
 import crosswordEnContent from '@/content/product-pages/en/crossword-worksheets';
+import cryptogramEnContent from '@/content/product-pages/en/cryptogram-worksheets';
 
 interface PageProps {
   params: {
@@ -438,6 +439,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Crossword Worksheets | LessonCraftStudio',
         description: 'Create professional picture crossword worksheets with our crossword puzzle generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/crossword-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Cryptogram Worksheets product page SEO
+  if (params.slug === 'cryptogram-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Picture Cryptogram Worksheets | Cryptogram Generator for Kindergarten',
+      description: 'Create engaging picture cryptogram worksheets with our professional worksheet generator. Generate custom free printable worksheets perfect for kindergarten and first grade. Download high-quality PDF cryptogram worksheets in under 3 minutes.',
+      keywords: 'cryptogram worksheets, picture cryptogram, cryptogram generator, kindergarten worksheets, printable worksheets, first grade worksheets, phonics worksheets, sight words worksheets, alphabet worksheets, code worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/cryptogram-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Picture Cryptogram Worksheets | LessonCraftStudio',
+        description: 'Create engaging picture cryptogram worksheets with our professional worksheet generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/cryptogram-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3527,6 +3551,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={crosswordEnContent} />;
   }
 
+  if (slug === 'cryptogram-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={cryptogramEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3665,6 +3693,7 @@ export async function generateStaticParams() {
     'find-objects-worksheets', // Product page slug
     'grid-match-worksheets', // Product page slug
     'crossword-worksheets', // Product page slug
+    'cryptogram-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

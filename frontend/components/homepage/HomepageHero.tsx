@@ -80,6 +80,20 @@ const localeContent: Record<string, {
     answerKey: 'Con respuestas',
     previewTitles: ['Sumas', 'Sopa de letras'],
   },
+  it: {
+    badge: '33 generatori di schede didattiche',
+    titleLine1: 'Crea materiali ',
+    titleHighlight: 'didattici',
+    titleLine2: 'straordinari',
+    subtitle: 'Strumenti professionali utilizzati da insegnanti in tutto il mondo. Crea, personalizza e scarica le tue schede in pochi minuti.',
+    ctaPrimary: 'Scopri gli esempi gratuiti',
+    ctaSecondary: 'Esplora tutti i generatori',
+    trustLanguages: '11 lingue',
+    trustImages: 'Oltre 3000 immagini',
+    trustLicense: 'Licenza commerciale inclusa',
+    answerKey: 'Soluzioni incluse',
+    previewTitles: ['Addizioni', 'Cerca parole'],
+  },
 };
 
 export default function HomepageHero({ locale }: HomepageHeroProps) {
@@ -128,12 +142,14 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
         de: 'Additions-Arbeitsblatt Beispiel',
         fr: 'Exemple de fiche d\'addition',
         es: 'Ejemplo de ficha de sumas',
+        it: 'Esempio di scheda di addizioni',
       },
       wordsearch: {
         en: 'Word Search Worksheet Sample',
         de: 'Wortsuche-Arbeitsblatt Beispiel',
         fr: 'Exemple de mots mêlés',
         es: 'Ejemplo de sopa de letras',
+        it: 'Esempio di cerca parole',
       },
     };
     return altTexts[type][locale as keyof typeof altTexts.addition] || altTexts[type].en;

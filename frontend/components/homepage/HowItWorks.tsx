@@ -11,10 +11,12 @@ interface Step {
   titleDe: string;
   titleFr: string;
   titleEs: string;
+  titleIt: string;
   descriptionEn: string;
   descriptionDe: string;
   descriptionFr: string;
   descriptionEs: string;
+  descriptionIt: string;
 }
 
 interface HowItWorksProps {
@@ -52,6 +54,12 @@ const localeContent: Record<string, {
     subtitle: 'Crea fichas profesionales en 4 pasos sencillos. No necesitas saber diseñar.',
     ctaButton: 'Empieza a crear ahora',
   },
+  it: {
+    badge: 'Guida rapida',
+    title: 'Come funziona',
+    subtitle: 'Crea schede professionali in 4 semplici passaggi. Nessuna competenza grafica richiesta.',
+    ctaButton: 'Inizia a creare ora',
+  },
 };
 
 const steps: Step[] = [
@@ -62,10 +70,12 @@ const steps: Step[] = [
     titleDe: 'Generator auswählen',
     titleFr: 'Choisissez un générateur',
     titleEs: 'Elige un generador',
+    titleIt: 'Scegli un generatore',
     descriptionEn: 'Select from 33 professional worksheet generators. Math, language, puzzles, and creative activities for all ages.',
     descriptionDe: 'Wählen Sie aus 33 professionellen Arbeitsblatt-Generatoren. Mathematik, Sprache, Rätsel und kreative Aktivitäten für alle Altersgruppen.',
     descriptionFr: 'Sélectionnez parmi 33 générateurs professionnels. Maths, langue, énigmes et activités créatives pour tous les âges.',
     descriptionEs: 'Elige entre 33 generadores profesionales. Matemáticas, lenguaje, rompecabezas y actividades creativas para todas las edades.',
+    descriptionIt: 'Scegli tra 33 generatori professionali. Matematica, linguaggio, rompicapo e attività creative per tutte le età.',
   },
   {
     number: 2,
@@ -74,10 +84,12 @@ const steps: Step[] = [
     titleDe: 'Thema wählen',
     titleFr: 'Sélectionnez votre thème',
     titleEs: 'Selecciona tu tema',
+    titleIt: 'Scegli il tuo tema',
     descriptionEn: 'Browse 3000+ child-friendly images organized by category. Animals, food, vehicles, seasons, and more.',
     descriptionDe: 'Durchsuchen Sie über 3000 kindgerechte Bilder nach Kategorien. Tiere, Essen, Fahrzeuge, Jahreszeiten und mehr.',
     descriptionFr: 'Parcourez plus de 3000 images adaptées aux enfants par catégorie. Animaux, nourriture, véhicules, saisons et plus encore.',
     descriptionEs: 'Explora más de 3000 imágenes para niños organizadas por categoría. Animales, comida, vehículos, estaciones y más.',
+    descriptionIt: 'Esplora oltre 3000 immagini per bambini organizzate per categoria. Animali, cibo, veicoli, stagioni e molto altro.',
   },
   {
     number: 3,
@@ -86,10 +98,12 @@ const steps: Step[] = [
     titleDe: 'Anpassen',
     titleFr: 'Personnalisez',
     titleEs: 'Personaliza',
+    titleIt: 'Personalizza',
     descriptionEn: 'Edit every element on the canvas. Add text, upload images, adjust difficulty. Make it perfect for your students.',
     descriptionDe: 'Bearbeiten Sie jedes Element auf der Arbeitsfläche. Text hinzufügen, Bilder hochladen, Schwierigkeit anpassen. Perfekt für Ihre Schüler.',
     descriptionFr: 'Modifiez chaque élément sur le canevas. Ajoutez du texte, importez des images, ajustez la difficulté. Parfait pour vos élèves.',
     descriptionEs: 'Edita cada elemento en el lienzo. Agrega texto, sube imágenes, ajusta la dificultad. Hazlo perfecto para tus alumnos.',
+    descriptionIt: 'Modifica ogni elemento sulla tela. Aggiungi testo, carica immagini, regola la difficoltà. Rendilo perfetto per i tuoi studenti.',
   },
   {
     number: 4,
@@ -98,10 +112,12 @@ const steps: Step[] = [
     titleDe: 'Herunterladen & Drucken',
     titleFr: 'Téléchargez et imprimez',
     titleEs: 'Descarga e imprime',
+    titleIt: 'Scarica e stampa',
     descriptionEn: 'Export as high-quality PDF at 300 DPI. Answer keys included. Print or sell commercially.',
     descriptionDe: 'Exportieren Sie als hochwertiges PDF mit 300 DPI. Lösungsblätter inklusive. Drucken oder kommerziell verkaufen.',
     descriptionFr: 'Exportez en PDF haute qualité à 300 DPI. Corrigés inclus. Imprimez ou vendez à des fins commerciales.',
     descriptionEs: 'Exporta como PDF de alta calidad a 300 DPI. Incluye respuestas. Imprime o vende comercialmente.',
+    descriptionIt: 'Esporta come PDF di alta qualità a 300 DPI. Soluzioni incluse. Stampa o vendi commercialmente.',
   },
 ];
 
@@ -119,12 +135,14 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
 
   // Helper functions for localized content
   const getStepTitle = (step: Step) => {
+    if (locale === 'it') return step.titleIt;
     if (locale === 'es') return step.titleEs;
     if (locale === 'fr') return step.titleFr;
     if (locale === 'de') return step.titleDe;
     return step.titleEn;
   };
   const getStepDescription = (step: Step) => {
+    if (locale === 'it') return step.descriptionIt;
     if (locale === 'es') return step.descriptionEs;
     if (locale === 'fr') return step.descriptionFr;
     if (locale === 'de') return step.descriptionDe;

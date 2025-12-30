@@ -27,6 +27,7 @@ import moreLessEnContent from '@/content/product-pages/en/more-less-worksheets';
 import oddOneOutEnContent from '@/content/product-pages/en/odd-one-out-worksheets';
 import patternTrainEnContent from '@/content/product-pages/en/pattern-train-worksheets';
 import patternWorksheetsEnContent from '@/content/product-pages/en/pattern-worksheets';
+import picturePathEnContent from '@/content/product-pages/en/picture-path-worksheets';
 
 interface PageProps {
   params: {
@@ -606,6 +607,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Pattern Worksheets | LessonCraftStudio',
         description: 'Create professional pattern recognition worksheets with our pattern worksheet generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/pattern-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Picture Path Worksheets product page SEO
+  if (params.slug === 'picture-path-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Maze Worksheets | Picture Path Generator for Kindergarten',
+      description: 'Create professional picture path maze worksheets with our maze generator. Generate custom printable maze worksheets with three game modes perfect for kindergarten and first grade. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'maze worksheets, picture path, kindergarten worksheets, printable worksheets, maze generator, free worksheets, first grade worksheets, visual learning, pathfinding activities, educational mazes',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/picture-path-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Maze Worksheets | LessonCraftStudio',
+        description: 'Create professional picture path maze worksheets with our maze generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/picture-path-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3723,6 +3747,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={patternWorksheetsEnContent} />;
   }
 
+  if (slug === 'picture-path-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={picturePathEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3868,6 +3896,7 @@ export async function generateStaticParams() {
     'odd-one-out-worksheets', // Product page slug
     'pattern-train-worksheets', // Product page slug
     'pattern-worksheets', // Product page slug
+    'picture-path-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

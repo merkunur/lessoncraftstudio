@@ -33,6 +33,7 @@ import prepositionsEnContent from '@/content/product-pages/en/prepositions-works
 import shadowMatchEnContent from '@/content/product-pages/en/shadow-match-worksheets';
 import subtractionEnContent from '@/content/product-pages/en/subtraction-worksheets';
 import treasureHuntEnContent from '@/content/product-pages/en/treasure-hunt-worksheets';
+import wordGuessEnContent from '@/content/product-pages/en/word-guess-worksheets';
 
 interface PageProps {
   params: {
@@ -750,6 +751,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Treasure Hunt Worksheets | LessonCraftStudio',
         description: 'Create professional treasure hunt worksheets with our following directions generator. Perfect for kindergarten and first grade students learning directional vocabulary.',
         url: 'https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Word Guess Worksheets product page SEO
+  if (params.slug === 'word-guess-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Word Guess Worksheets | Word Guess Generator for Kindergarten',
+      description: 'Create professional word guess worksheets with our word guess generator. Generate custom printable word guess worksheets perfect for kindergarten and first grade students learning vocabulary and spelling. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'word guess worksheets, word guess generator, kindergarten worksheets, printable worksheets, vocabulary worksheets, free worksheets, first grade worksheets, sight words worksheets, phonics worksheets, spelling worksheets',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Word Guess Worksheets | LessonCraftStudio',
+        description: 'Create professional word guess worksheets with our word guess generator. Perfect for kindergarten and first grade students learning vocabulary and spelling.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3891,6 +3915,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={treasureHuntEnContent} />;
   }
 
+  if (slug === 'word-guess-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={wordGuessEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -4042,6 +4070,7 @@ export async function generateStaticParams() {
     'shadow-match-worksheets', // Product page slug
     'subtraction-worksheets', // Product page slug
     'treasure-hunt-worksheets', // Product page slug
+    'word-guess-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

@@ -110,7 +110,7 @@ const localeContent: Record<string, {
   sv: {
     badge: 'Gå med tusentals lärare',
     titleStart: 'Redo att skapa ',
-    titleHighlight: 'professionella arbetsblad',
+    titleHighlight: 'professionella övningsblad',
     subtitle: 'Börja gratis. Testa Bokstavssök, Korsord och Mattestenciler. Uppgradera när du vill för tillgång till alla 33 generatorer.',
     ctaPrimary: 'Börja gratis',
     ctaSecondary: 'Se alla 33 generatorer',

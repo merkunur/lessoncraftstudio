@@ -114,9 +114,9 @@ const localeContent: Record<string, {
   sv: {
     badge: 'Plattformsfunktioner',
     title: 'Allt du behöver',
-    subtitle: 'Professionella verktyg skapade för lärare. Skapa arbetsblad på bara några minuter som ser ut som om de tog timmar att göra.',
+    subtitle: 'Professionella verktyg skapade för lärare. Skapa övningsblad på bara några minuter som ser ut som om de tog timmar att göra.',
     keyFeature: '⭐ Nyckelfunktion',
-    noFees: 'Ingen kostnad per arbetsblad',
+    noFees: 'Ingen kostnad per övningsblad',
     unlimitedDownloads: 'Obegränsade nedladdningar',
     autoAnswerKeys: 'Automatiskt genererade facit',
   },
@@ -143,7 +143,7 @@ const features: Feature[] = [
     descriptionPt: 'Gere atividades completas instantaneamente. Escolha seu tema, personalize as opções e baixe PDFs profissionais prontos para imprimir.',
     descriptionNl: 'Genereer complete werkbladen in een handomdraai. Kies je thema, pas de instellingen aan en download drukklare PDFs.',
     descriptionDa: 'Generer færdige opgaveark på et øjeblik. Vælg dit tema, tilpas indstillingerne og download printklare PDF-filer.',
-    descriptionSv: 'Skapa färdiga arbetsblad på ett ögonblick. Välj ditt tema, anpassa inställningarna och ladda ner utskriftsklara PDF-filer.',
+    descriptionSv: 'Skapa färdiga övningsblad på ett ögonblick. Välj ditt tema, anpassa inställningarna och ladda ner utskriftsklara PDF-filer.',
     highlighted: false,
   },
   {
@@ -187,7 +187,7 @@ const features: Feature[] = [
     descriptionPt: 'Crie atividades em português, inglês, alemão, francês, espanhol, italiano, holandês, sueco, dinamarquês, norueguês e finlandês.',
     descriptionNl: 'Maak werkbladen in het Nederlands, Engels, Duits, Frans, Spaans, Portugees, Italiaans, Zweeds, Deens, Noors en Fins.',
     descriptionDa: 'Lav opgaveark på dansk, engelsk, tysk, fransk, spansk, portugisisk, italiensk, hollandsk, svensk, norsk og finsk.',
-    descriptionSv: 'Skapa arbetsblad på svenska, engelska, tyska, franska, spanska, portugisiska, italienska, holländska, danska, norska och finska.',
+    descriptionSv: 'Skapa övningsblad på svenska, engelska, tyska, franska, spanska, portugisiska, italienska, holländska, danska, norska och finska.',
     highlighted: false,
   },
   {
@@ -231,7 +231,7 @@ const features: Feature[] = [
     descriptionPt: 'Venda suas atividades no Teachers Pay Teachers, Etsy ou Amazon KDP. Sem necessidade de crédito. Sem taxas de licença adicionais.',
     descriptionNl: 'Verkoop je werkbladen op Teachers Pay Teachers, Etsy of Amazon KDP. Geen bronvermelding vereist. Geen extra licentiekosten.',
     descriptionDa: 'Sælg dine opgaveark på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen kildeangivelse påkrævet. Ingen ekstra licensgebyrer.',
-    descriptionSv: 'Sälj dina arbetsblad på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen källhänvisning krävs. Inga extra licensavgifter.',
+    descriptionSv: 'Sälj dina övningsblad på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen källhänvisning krävs. Inga extra licensavgifter.',
     highlighted: true,
   },
   {

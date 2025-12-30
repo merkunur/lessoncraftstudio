@@ -172,7 +172,7 @@ const localeContent: Record<string, {
   },
   sv: {
     badge: 'Gratis exempel',
-    title: 'Ladda ner gratis arbetsbladsexempel',
+    title: 'Ladda ner gratis övningsbladsexempel',
     subtitle: 'Testa innan du prenumererar. Ladda ner högkvalitativa PDF-exempel från våra mest populära generatorer.',
     statSamples: '10+',
     statSamplesLabel: 'Gratis exempel',
@@ -199,7 +199,7 @@ const samples: Sample[] = [
     namePt: 'Atividades de Adição',
     nameNl: 'Optelwerkbladen',
     nameDa: 'Additionsopgaver',
-    nameSv: 'Additionsarbetsblad',
+    nameSv: 'Additionsövningsblad',
     categoryEn: 'Math',
     categoryDe: 'Mathematik',
     categoryFr: 'Maths',

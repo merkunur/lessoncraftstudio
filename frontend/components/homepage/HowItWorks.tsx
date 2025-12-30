@@ -89,7 +89,7 @@ const localeContent: Record<string, {
   sv: {
     badge: 'Snabbstart',
     title: 'Så här fungerar det',
-    subtitle: 'Skapa professionella arbetsblad i 4 enkla steg. Inga designkunskaper krävs.',
+    subtitle: 'Skapa professionella övningsblad i 4 enkla steg. Inga designkunskaper krävs.',
     ctaButton: 'Börja skapa nu',
   },
 };
@@ -115,7 +115,7 @@ const steps: Step[] = [
     descriptionPt: 'Escolha entre 33 geradores profissionais. Matemática, linguagem, jogos de lógica e atividades criativas para todas as idades.',
     descriptionNl: 'Kies uit 33 professionele werkbladgeneratoren. Rekenen, taal, puzzels en creatieve activiteiten voor alle leeftijden.',
     descriptionDa: 'Vælg mellem 33 professionelle opgavegeneratorer. Matematik, sprog, puslespil og kreative aktiviteter til alle aldre.',
-    descriptionSv: 'Välj bland 33 professionella arbetsbladsgeneratorer. Matte, språk, pyssel och kreativa aktiviteter för alla åldrar.',
+    descriptionSv: 'Välj bland 33 professionella övningsbladsgeneratorer. Matte, språk, pyssel och kreativa aktiviteter för alla åldrar.',
   },
   {
     number: 2,

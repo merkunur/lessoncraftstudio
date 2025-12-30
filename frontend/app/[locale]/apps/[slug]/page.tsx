@@ -28,6 +28,7 @@ import oddOneOutEnContent from '@/content/product-pages/en/odd-one-out-worksheet
 import patternTrainEnContent from '@/content/product-pages/en/pattern-train-worksheets';
 import patternWorksheetsEnContent from '@/content/product-pages/en/pattern-worksheets';
 import picturePathEnContent from '@/content/product-pages/en/picture-path-worksheets';
+import pictureSortEnContent from '@/content/product-pages/en/picture-sort-worksheets';
 
 interface PageProps {
   params: {
@@ -630,6 +631,29 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         title: 'Free Printable Maze Worksheets | LessonCraftStudio',
         description: 'Create professional picture path maze worksheets with our maze generator. Perfect for kindergarten and first grade students.',
         url: 'https://www.lessoncraftstudio.com/en/apps/picture-path-worksheets',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Picture Sort Worksheets product page SEO
+  if (params.slug === 'picture-sort-worksheets' && params.locale === 'en') {
+    return {
+      title: 'Free Printable Kindergarten Worksheets for Sorting Activities | Picture Sort Generator',
+      description: 'Create professional picture sorting worksheets with our easy-to-use generator. Generate custom printable sorting worksheets perfect for kindergarten and first grade students. Download high-quality PDF worksheets in under 3 minutes.',
+      keywords: 'picture sort worksheets, sorting worksheets, kindergarten worksheets, printable worksheets, classification activities, free worksheets, first grade worksheets, sorting activities, categorization worksheets, visual sorting',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: `https://www.lessoncraftstudio.com/en/apps/picture-sort-worksheets`,
+      },
+      openGraph: {
+        title: 'Free Printable Kindergarten Worksheets for Sorting | LessonCraftStudio',
+        description: 'Create professional picture sorting worksheets with our generator. Perfect for kindergarten and first grade students.',
+        url: 'https://www.lessoncraftstudio.com/en/apps/picture-sort-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
       },
@@ -3751,6 +3775,10 @@ export default async function AppPage({ params: { locale, slug } }: PageProps) {
     return <ProductPageClient locale={locale} content={picturePathEnContent} />;
   }
 
+  if (slug === 'picture-sort-worksheets' && locale === 'en') {
+    return <ProductPageClient locale={locale} content={pictureSortEnContent} />;
+  }
+
   // Fetch app data from Strapi
   const appData = await getAppData(slug, locale);
   
@@ -3897,6 +3925,7 @@ export async function generateStaticParams() {
     'pattern-train-worksheets', // Product page slug
     'pattern-worksheets', // Product page slug
     'picture-path-worksheets', // Product page slug
+    'picture-sort-worksheets', // Product page slug
     'word-search',
     'image-addition',
     'alphabet-train',

@@ -122,6 +122,20 @@ const localeContent: Record<string, {
     answerKey: 'Antwoordblad',
     previewTitles: ['Optellen', 'Woordzoeker'],
   },
+  da: {
+    badge: '33 professionelle opgavegeneratorer',
+    titleLine1: 'Skab ',
+    titleHighlight: 'flotte',
+    titleLine2: 'undervisningsmaterialer',
+    subtitle: 'Professionelle opgavegeneratorer, som lærere verden over stoler på. Opret, tilpas og download på få minutter.',
+    ctaPrimary: 'Se gratis eksempler',
+    ctaSecondary: 'Udforsk alle generatorer',
+    trustLanguages: '11 sprog',
+    trustImages: 'Over 3000 billeder',
+    trustLicense: 'Kommerciel licens',
+    answerKey: 'Facitliste',
+    previewTitles: ['Addition', 'Find ord'],
+  },
 };
 
 export default function HomepageHero({ locale }: HomepageHeroProps) {
@@ -173,6 +187,7 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
         it: 'Esempio di scheda di addizioni',
         pt: 'Exemplo de atividade de adição',
         nl: 'Voorbeeld optelwerkblad',
+        da: 'Eksempel på additionsopgave',
       },
       wordsearch: {
         en: 'Word Search Worksheet Sample',
@@ -182,6 +197,7 @@ export default function HomepageHero({ locale }: HomepageHeroProps) {
         it: 'Esempio di cerca parole',
         pt: 'Exemplo de caça-palavras',
         nl: 'Voorbeeld woordzoeker',
+        da: 'Eksempel på find ord-opgave',
       },
     };
     return altTexts[type][locale as keyof typeof altTexts.addition] || altTexts[type].en;

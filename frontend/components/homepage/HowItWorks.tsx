@@ -14,6 +14,7 @@ interface Step {
   titleIt: string;
   titlePt: string;
   titleNl: string;
+  titleDa: string;
   descriptionEn: string;
   descriptionDe: string;
   descriptionFr: string;
@@ -21,6 +22,7 @@ interface Step {
   descriptionIt: string;
   descriptionPt: string;
   descriptionNl: string;
+  descriptionDa: string;
 }
 
 interface HowItWorksProps {
@@ -76,6 +78,12 @@ const localeContent: Record<string, {
     subtitle: 'Maak professionele werkbladen in 4 simpele stappen. Geen ontwerpvaardigheden nodig.',
     ctaButton: 'Begin nu met maken',
   },
+  da: {
+    badge: 'Hurtig start',
+    title: 'Sådan virker det',
+    subtitle: 'Lav professionelle opgaveark i 4 enkle trin. Ingen designfærdigheder påkrævet.',
+    ctaButton: 'Begynd at lave nu',
+  },
 };
 
 const steps: Step[] = [
@@ -89,6 +97,7 @@ const steps: Step[] = [
     titleIt: 'Scegli un generatore',
     titlePt: 'Escolha um gerador',
     titleNl: 'Kies een generator',
+    titleDa: 'Vælg en generator',
     descriptionEn: 'Select from 33 professional worksheet generators. Math, language, puzzles, and creative activities for all ages.',
     descriptionDe: 'Wählen Sie aus 33 professionellen Arbeitsblatt-Generatoren. Mathematik, Sprache, Rätsel und kreative Aktivitäten für alle Altersgruppen.',
     descriptionFr: 'Sélectionnez parmi 33 générateurs professionnels. Maths, langue, énigmes et activités créatives pour tous les âges.',
@@ -96,6 +105,7 @@ const steps: Step[] = [
     descriptionIt: 'Scegli tra 33 generatori professionali. Matematica, linguaggio, rompicapo e attività creative per tutte le età.',
     descriptionPt: 'Escolha entre 33 geradores profissionais. Matemática, linguagem, jogos de lógica e atividades criativas para todas as idades.',
     descriptionNl: 'Kies uit 33 professionele werkbladgeneratoren. Rekenen, taal, puzzels en creatieve activiteiten voor alle leeftijden.',
+    descriptionDa: 'Vælg mellem 33 professionelle opgavegeneratorer. Matematik, sprog, puslespil og kreative aktiviteter til alle aldre.',
   },
   {
     number: 2,
@@ -107,6 +117,7 @@ const steps: Step[] = [
     titleIt: 'Scegli il tuo tema',
     titlePt: 'Escolha seu tema',
     titleNl: 'Kies je thema',
+    titleDa: 'Vælg dit tema',
     descriptionEn: 'Browse 3000+ child-friendly images organized by category. Animals, food, vehicles, seasons, and more.',
     descriptionDe: 'Durchsuchen Sie über 3000 kindgerechte Bilder nach Kategorien. Tiere, Essen, Fahrzeuge, Jahreszeiten und mehr.',
     descriptionFr: 'Parcourez plus de 3000 images adaptées aux enfants par catégorie. Animaux, nourriture, véhicules, saisons et plus encore.',
@@ -114,6 +125,7 @@ const steps: Step[] = [
     descriptionIt: 'Esplora oltre 3000 immagini per bambini organizzate per categoria. Animali, cibo, veicoli, stagioni e molto altro.',
     descriptionPt: 'Explore mais de 3000 imagens infantis organizadas por categoria. Animais, comida, veículos, estações do ano e muito mais.',
     descriptionNl: 'Blader door meer dan 3000 kindvriendelijke afbeeldingen ingedeeld per categorie. Dieren, eten, voertuigen, seizoenen en meer.',
+    descriptionDa: 'Gennemse over 3000 børnevenlige billeder organiseret efter kategori. Dyr, mad, køretøjer, årstider og meget mere.',
   },
   {
     number: 3,
@@ -125,6 +137,7 @@ const steps: Step[] = [
     titleIt: 'Personalizza',
     titlePt: 'Personalize',
     titleNl: 'Pas aan',
+    titleDa: 'Tilpas',
     descriptionEn: 'Edit every element on the canvas. Add text, upload images, adjust difficulty. Make it perfect for your students.',
     descriptionDe: 'Bearbeiten Sie jedes Element auf der Arbeitsfläche. Text hinzufügen, Bilder hochladen, Schwierigkeit anpassen. Perfekt für Ihre Schüler.',
     descriptionFr: 'Modifiez chaque élément sur le canevas. Ajoutez du texte, importez des images, ajustez la difficulté. Parfait pour vos élèves.',
@@ -132,6 +145,7 @@ const steps: Step[] = [
     descriptionIt: 'Modifica ogni elemento sulla tela. Aggiungi testo, carica immagini, regola la difficoltà. Rendilo perfetto per i tuoi studenti.',
     descriptionPt: 'Edite cada elemento na tela. Adicione texto, envie imagens, ajuste a dificuldade. Deixe perfeito para seus alunos.',
     descriptionNl: 'Bewerk elk element op het canvas. Voeg tekst toe, upload afbeeldingen, pas de moeilijkheidsgraad aan. Maak het perfect voor jouw leerlingen.',
+    descriptionDa: 'Rediger hvert element på lærredet. Tilføj tekst, upload billeder, juster sværhedsgrad. Gør det perfekt til dine elever.',
   },
   {
     number: 4,
@@ -143,6 +157,7 @@ const steps: Step[] = [
     titleIt: 'Scarica e stampa',
     titlePt: 'Baixe e imprima',
     titleNl: 'Download en print',
+    titleDa: 'Download og print',
     descriptionEn: 'Export as high-quality PDF at 300 DPI. Answer keys included. Print or sell commercially.',
     descriptionDe: 'Exportieren Sie als hochwertiges PDF mit 300 DPI. Lösungsblätter inklusive. Drucken oder kommerziell verkaufen.',
     descriptionFr: 'Exportez en PDF haute qualité à 300 DPI. Corrigés inclus. Imprimez ou vendez à des fins commerciales.',
@@ -150,6 +165,7 @@ const steps: Step[] = [
     descriptionIt: 'Esporta come PDF di alta qualità a 300 DPI. Soluzioni incluse. Stampa o vendi commercialmente.',
     descriptionPt: 'Exporte como PDF de alta qualidade a 300 DPI. Gabarito incluso. Imprima ou venda comercialmente.',
     descriptionNl: 'Exporteer als hoogwaardige PDF met 300 DPI. Antwoordbladen inbegrepen. Print of verkoop commercieel.',
+    descriptionDa: 'Eksporter som højkvalitets-PDF i 300 DPI. Facitlister inkluderet. Print eller sælg kommercielt.',
   },
 ];
 
@@ -167,6 +183,7 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
 
   // Helper functions for localized content
   const getStepTitle = (step: Step) => {
+    if (locale === 'da') return step.titleDa;
     if (locale === 'nl') return step.titleNl;
     if (locale === 'pt') return step.titlePt;
     if (locale === 'it') return step.titleIt;
@@ -176,6 +193,7 @@ export default function HowItWorks({ locale }: HowItWorksProps) {
     return step.titleEn;
   };
   const getStepDescription = (step: Step) => {
+    if (locale === 'da') return step.descriptionDa;
     if (locale === 'nl') return step.descriptionNl;
     if (locale === 'pt') return step.descriptionPt;
     if (locale === 'it') return step.descriptionIt;

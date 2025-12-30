@@ -12,6 +12,7 @@ interface App {
   nameIt: string;
   namePt: string;
   nameNl: string;
+  nameDa: string;
   slug: string;
   icon: string;
   descriptionEn: string;
@@ -21,6 +22,7 @@ interface App {
   descriptionIt: string;
   descriptionPt: string;
   descriptionNl: string;
+  descriptionDa: string;
 }
 
 interface Category {
@@ -32,6 +34,7 @@ interface Category {
   nameIt: string;
   namePt: string;
   nameNl: string;
+  nameDa: string;
   icon: string;
   gradient: string;
   borderColor: string;
@@ -99,6 +102,13 @@ const localeContent: Record<string, {
     learnMore: 'Meer informatie',
     viewAllGenerators: 'Bekijk alle 33 generatoren',
   },
+  da: {
+    badge: '33 opgavegeneratorer',
+    title: 'Udforsk efter kategori',
+    subtitle: 'Fra regneopgaver til kreative aktiviteter – find den perfekte generator til dit klasseværelse.',
+    learnMore: 'Læs mere',
+    viewAllGenerators: 'Se alle 33 generatorer',
+  },
 };
 
 // Real apps with their product page slugs and translations
@@ -112,14 +122,15 @@ const categories: Category[] = [
     nameIt: 'Matematica',
     namePt: 'Matemática',
     nameNl: 'Rekenen',
+    nameDa: 'Matematik',
     icon: '🔢',
     gradient: 'from-cyan-500/10 to-blue-500/10',
     borderColor: 'border-cyan-500/20',
     apps: [
-      { nameEn: 'Addition', nameDe: 'Addition', nameFr: 'Addition', nameEs: 'Sumas', nameIt: 'Addizioni', namePt: 'Adição', nameNl: 'Optellen', slug: 'addition-worksheets', icon: '➕', descriptionEn: 'Visual counting & sums', descriptionDe: 'Anschauliches Zählen & Rechnen', descriptionFr: 'Comptage visuel et additions', descriptionEs: 'Conteo visual y sumas', descriptionIt: 'Conteggio visivo e somme', descriptionPt: 'Contagem visual e somas', descriptionNl: 'Visueel tellen en optellen' },
-      { nameEn: 'Code Addition', nameDe: 'Rechencode', nameFr: 'Addition codée', nameEs: 'Sumas con código', nameIt: 'Addizioni in codice', namePt: 'Adição com código', nameNl: 'Optellen met code', slug: 'code-addition-worksheets', icon: '🔐', descriptionEn: 'Crack the code math', descriptionDe: 'Knack den Zahlencode', descriptionFr: 'Calculs à décoder', descriptionEs: 'Descifra el código matemático', descriptionIt: 'Decifra il codice matematico', descriptionPt: 'Desvende o código matemático', descriptionNl: 'Kraak de rekencode' },
-      { nameEn: 'Math Worksheet', nameDe: 'Mathe-Arbeitsblatt', nameFr: 'Fiche de maths', nameEs: 'Ficha de matemáticas', nameIt: 'Scheda di matematica', namePt: 'Atividade de matemática', nameNl: 'Rekenwerkblad', slug: 'math-worksheets', icon: '📐', descriptionEn: 'Custom math problems', descriptionDe: 'Individuelle Rechenaufgaben', descriptionFr: 'Exercices personnalisés', descriptionEs: 'Ejercicios personalizados', descriptionIt: 'Esercizi personalizzati', descriptionPt: 'Exercícios personalizados', descriptionNl: 'Zelf sommen maken' },
-      { nameEn: 'Chart Count', nameDe: 'Diagramm-Zählen', nameFr: 'Comptage graphique', nameEs: 'Conteo con gráficas', nameIt: 'Conta con i grafici', namePt: 'Contagem com gráficos', nameNl: 'Tellen met diagrammen', slug: 'chart-count-worksheets', icon: '📊', descriptionEn: 'Counting with charts', descriptionDe: 'Zählen mit Diagrammen', descriptionFr: 'Comptage avec diagrammes', descriptionEs: 'Contar con diagramas', descriptionIt: 'Contare con i grafici', descriptionPt: 'Contar usando gráficos', descriptionNl: 'Tellen met grafieken' },
+      { nameEn: 'Addition', nameDe: 'Addition', nameFr: 'Addition', nameEs: 'Sumas', nameIt: 'Addizioni', namePt: 'Adição', nameNl: 'Optellen', nameDa: 'Addition', slug: 'addition-worksheets', icon: '➕', descriptionEn: 'Visual counting & sums', descriptionDe: 'Anschauliches Zählen & Rechnen', descriptionFr: 'Comptage visuel et additions', descriptionEs: 'Conteo visual y sumas', descriptionIt: 'Conteggio visivo e somme', descriptionPt: 'Contagem visual e somas', descriptionNl: 'Visueel tellen en optellen', descriptionDa: 'Visuel tælling og plus' },
+      { nameEn: 'Code Addition', nameDe: 'Rechencode', nameFr: 'Addition codée', nameEs: 'Sumas con código', nameIt: 'Addizioni in codice', namePt: 'Adição com código', nameNl: 'Optellen met code', nameDa: 'Kodeaddition', slug: 'code-addition-worksheets', icon: '🔐', descriptionEn: 'Crack the code math', descriptionDe: 'Knack den Zahlencode', descriptionFr: 'Calculs à décoder', descriptionEs: 'Descifra el código matemático', descriptionIt: 'Decifra il codice matematico', descriptionPt: 'Desvende o código matemático', descriptionNl: 'Kraak de rekencode', descriptionDa: 'Knæk koden med tal' },
+      { nameEn: 'Math Worksheet', nameDe: 'Mathe-Arbeitsblatt', nameFr: 'Fiche de maths', nameEs: 'Ficha de matemáticas', nameIt: 'Scheda di matematica', namePt: 'Atividade de matemática', nameNl: 'Rekenwerkblad', nameDa: 'Regneopgaver', slug: 'math-worksheets', icon: '📐', descriptionEn: 'Custom math problems', descriptionDe: 'Individuelle Rechenaufgaben', descriptionFr: 'Exercices personnalisés', descriptionEs: 'Ejercicios personalizados', descriptionIt: 'Esercizi personalizzati', descriptionPt: 'Exercícios personalizados', descriptionNl: 'Zelf sommen maken', descriptionDa: 'Tilpassede regneopgaver' },
+      { nameEn: 'Chart Count', nameDe: 'Diagramm-Zählen', nameFr: 'Comptage graphique', nameEs: 'Conteo con gráficas', nameIt: 'Conta con i grafici', namePt: 'Contagem com gráficos', nameNl: 'Tellen met diagrammen', nameDa: 'Tæl med diagrammer', slug: 'chart-count-worksheets', icon: '📊', descriptionEn: 'Counting with charts', descriptionDe: 'Zählen mit Diagrammen', descriptionFr: 'Comptage avec diagrammes', descriptionEs: 'Contar con diagramas', descriptionIt: 'Contare con i grafici', descriptionPt: 'Contar usando gráficos', descriptionNl: 'Tellen met grafieken', descriptionDa: 'Tælling med diagrammer' },
     ],
   },
   {
@@ -131,14 +142,15 @@ const categories: Category[] = [
     nameIt: 'Linguaggio',
     namePt: 'Linguagem',
     nameNl: 'Taal',
+    nameDa: 'Sprog',
     icon: '📝',
     gradient: 'from-purple-500/10 to-pink-500/10',
     borderColor: 'border-purple-500/20',
     apps: [
-      { nameEn: 'Word Search', nameDe: 'Wortsuche', nameFr: 'Mots mêlés', nameEs: 'Sopa de letras', nameIt: 'Cerca parole', namePt: 'Caça-palavras', nameNl: 'Woordzoeker', slug: 'word-search-worksheets', icon: '🔍', descriptionEn: 'Hidden word puzzles', descriptionDe: 'Versteckte Wörter finden', descriptionFr: 'Grilles de mots cachés', descriptionEs: 'Encuentra palabras escondidas', descriptionIt: 'Trova le parole nascoste', descriptionPt: 'Encontre palavras escondidas', descriptionNl: 'Zoek verborgen woorden' },
-      { nameEn: 'Crossword', nameDe: 'Kreuzworträtsel', nameFr: 'Mots croisés', nameEs: 'Crucigrama', nameIt: 'Cruciverba', namePt: 'Palavras cruzadas', nameNl: 'Kruiswoordpuzzel', slug: 'crossword-worksheets', icon: '⬜', descriptionEn: 'Classic word puzzles', descriptionDe: 'Klassische Worträtsel', descriptionFr: 'Grilles de mots croisés', descriptionEs: 'El clásico juego de palabras', descriptionIt: 'Il classico gioco di parole', descriptionPt: 'O clássico jogo de palavras', descriptionNl: 'Klassiek woordspel' },
-      { nameEn: 'Cryptogram', nameDe: 'Kryptogramm', nameFr: 'Cryptogramme', nameEs: 'Criptograma', nameIt: 'Crittogramma', namePt: 'Criptograma', nameNl: 'Cryptogram', slug: 'cryptogram-worksheets', icon: '🔮', descriptionEn: 'Secret message codes', descriptionDe: 'Geheime Botschaften', descriptionFr: 'Messages secrets codés', descriptionEs: 'Mensajes secretos codificados', descriptionIt: 'Messaggi segreti in codice', descriptionPt: 'Mensagens secretas em código', descriptionNl: 'Geheime codeberichten' },
-      { nameEn: 'Word Scramble', nameDe: 'Buchstabensalat', nameFr: 'Lettres mélangées', nameEs: 'Letras revueltas', nameIt: 'Anagrammi', namePt: 'Embaralha letras', nameNl: 'Letterpuzzel', slug: 'word-scramble-worksheets', icon: '🔀', descriptionEn: 'Unscramble letters', descriptionDe: 'Buchstaben entwirren', descriptionFr: 'Remettre les lettres en ordre', descriptionEs: 'Ordena las letras', descriptionIt: 'Riordina le lettere', descriptionPt: 'Desembaralhe as letras', descriptionNl: 'Ontwar de letters' },
+      { nameEn: 'Word Search', nameDe: 'Wortsuche', nameFr: 'Mots mêlés', nameEs: 'Sopa de letras', nameIt: 'Cerca parole', namePt: 'Caça-palavras', nameNl: 'Woordzoeker', nameDa: 'Find ord', slug: 'word-search-worksheets', icon: '🔍', descriptionEn: 'Hidden word puzzles', descriptionDe: 'Versteckte Wörter finden', descriptionFr: 'Grilles de mots cachés', descriptionEs: 'Encuentra palabras escondidas', descriptionIt: 'Trova le parole nascoste', descriptionPt: 'Encontre palavras escondidas', descriptionNl: 'Zoek verborgen woorden', descriptionDa: 'Find skjulte ord' },
+      { nameEn: 'Crossword', nameDe: 'Kreuzworträtsel', nameFr: 'Mots croisés', nameEs: 'Crucigrama', nameIt: 'Cruciverba', namePt: 'Palavras cruzadas', nameNl: 'Kruiswoordpuzzel', nameDa: 'Krydsord', slug: 'crossword-worksheets', icon: '⬜', descriptionEn: 'Classic word puzzles', descriptionDe: 'Klassische Worträtsel', descriptionFr: 'Grilles de mots croisés', descriptionEs: 'El clásico juego de palabras', descriptionIt: 'Il classico gioco di parole', descriptionPt: 'O clássico jogo de palavras', descriptionNl: 'Klassiek woordspel', descriptionDa: 'Klassisk ordpuslespil' },
+      { nameEn: 'Cryptogram', nameDe: 'Kryptogramm', nameFr: 'Cryptogramme', nameEs: 'Criptograma', nameIt: 'Crittogramma', namePt: 'Criptograma', nameNl: 'Cryptogram', nameDa: 'Kryptogram', slug: 'cryptogram-worksheets', icon: '🔮', descriptionEn: 'Secret message codes', descriptionDe: 'Geheime Botschaften', descriptionFr: 'Messages secrets codés', descriptionEs: 'Mensajes secretos codificados', descriptionIt: 'Messaggi segreti in codice', descriptionPt: 'Mensagens secretas em código', descriptionNl: 'Geheime codeberichten', descriptionDa: 'Hemmelige beskeder i kode' },
+      { nameEn: 'Word Scramble', nameDe: 'Buchstabensalat', nameFr: 'Lettres mélangées', nameEs: 'Letras revueltas', nameIt: 'Anagrammi', namePt: 'Embaralha letras', nameNl: 'Letterpuzzel', nameDa: 'Bogstavsalat', slug: 'word-scramble-worksheets', icon: '🔀', descriptionEn: 'Unscramble letters', descriptionDe: 'Buchstaben entwirren', descriptionFr: 'Remettre les lettres en ordre', descriptionEs: 'Ordena las letras', descriptionIt: 'Riordina le lettere', descriptionPt: 'Desembaralhe as letras', descriptionNl: 'Ontwar de letters', descriptionDa: 'Sæt bogstaverne i orden' },
     ],
   },
   {
@@ -150,15 +162,16 @@ const categories: Category[] = [
     nameIt: 'Apprendimento visivo',
     namePt: 'Aprendizado visual',
     nameNl: 'Visueel leren',
+    nameDa: 'Visuel læring',
     icon: '👁️',
     gradient: 'from-amber-500/10 to-orange-500/10',
     borderColor: 'border-amber-500/20',
     apps: [
-      { nameEn: 'Matching', nameDe: 'Zuordnung', nameFr: 'Association', nameEs: 'Relacionar parejas', nameIt: 'Abbinamenti', namePt: 'Jogo de correspondência', nameNl: 'Koppelen', slug: 'matching-worksheets', icon: '🎯', descriptionEn: 'Match pairs together', descriptionDe: 'Paare zuordnen', descriptionFr: 'Associer les paires', descriptionEs: 'Une las parejas', descriptionIt: 'Abbina le coppie', descriptionPt: 'Ligue os pares', descriptionNl: 'Koppel de paren' },
-      { nameEn: 'Drawing Lines', nameDe: 'Linien zeichnen', nameFr: 'Tracer des lignes', nameEs: 'Trazar líneas', nameIt: 'Traccia le linee', namePt: 'Traçando linhas', nameNl: 'Lijnen trekken', slug: 'drawing-lines-worksheets', icon: '✏️', descriptionEn: 'Trace & connect', descriptionDe: 'Nachspuren & Verbinden', descriptionFr: 'Tracer et relier', descriptionEs: 'Traza y conecta', descriptionIt: 'Traccia e collega', descriptionPt: 'Trace e conecte', descriptionNl: 'Trek na en verbind' },
-      { nameEn: 'Find Objects', nameDe: 'Suchbilder', nameFr: 'Cherche et trouve', nameEs: 'Busca y encuentra', nameIt: 'Cerca e trova', namePt: 'Encontre objetos', nameNl: 'Zoek en vind', slug: 'find-objects-worksheets', icon: '🔎', descriptionEn: 'I Spy activities', descriptionDe: 'Objekte suchen & finden', descriptionFr: 'Jeux d\'observation', descriptionEs: 'Actividades de observación', descriptionIt: 'Attività di osservazione', descriptionPt: 'Atividades de observação', descriptionNl: 'Kijkspelletjes' },
-      { nameEn: 'Grid Match', nameDe: 'Gitter-Zuordnung', nameFr: 'Grille d\'association', nameEs: 'Cuadrícula de asociación', nameIt: 'Griglia di abbinamento', namePt: 'Grade de correspondência', nameNl: 'Raster koppelen', slug: 'grid-match-worksheets', icon: '🔲', descriptionEn: 'Pattern matching', descriptionDe: 'Muster erkennen', descriptionFr: 'Reconnaissance de motifs', descriptionEs: 'Reconoce los patrones', descriptionIt: 'Riconosci i pattern', descriptionPt: 'Reconheça os padrões', descriptionNl: 'Patronen herkennen' },
-      { nameEn: 'Find & Count', nameDe: 'Suchen & Zählen', nameFr: 'Chercher et compter', nameEs: 'Buscar y contar', nameIt: 'Cerca e conta', namePt: 'Encontre e conte', nameNl: 'Zoek en tel', slug: 'find-and-count-worksheets', icon: '🧮', descriptionEn: 'Count hidden items', descriptionDe: 'Versteckte Objekte zählen', descriptionFr: 'Compter les objets cachés', descriptionEs: 'Cuenta los objetos escondidos', descriptionIt: 'Conta gli oggetti nascosti', descriptionPt: 'Conte os objetos escondidos', descriptionNl: 'Tel verborgen voorwerpen' },
+      { nameEn: 'Matching', nameDe: 'Zuordnung', nameFr: 'Association', nameEs: 'Relacionar parejas', nameIt: 'Abbinamenti', namePt: 'Jogo de correspondência', nameNl: 'Koppelen', nameDa: 'Parspil', slug: 'matching-worksheets', icon: '🎯', descriptionEn: 'Match pairs together', descriptionDe: 'Paare zuordnen', descriptionFr: 'Associer les paires', descriptionEs: 'Une las parejas', descriptionIt: 'Abbina le coppie', descriptionPt: 'Ligue os pares', descriptionNl: 'Koppel de paren', descriptionDa: 'Find par sammen' },
+      { nameEn: 'Drawing Lines', nameDe: 'Linien zeichnen', nameFr: 'Tracer des lignes', nameEs: 'Trazar líneas', nameIt: 'Traccia le linee', namePt: 'Traçando linhas', nameNl: 'Lijnen trekken', nameDa: 'Tegn streger', slug: 'drawing-lines-worksheets', icon: '✏️', descriptionEn: 'Trace & connect', descriptionDe: 'Nachspuren & Verbinden', descriptionFr: 'Tracer et relier', descriptionEs: 'Traza y conecta', descriptionIt: 'Traccia e collega', descriptionPt: 'Trace e conecte', descriptionNl: 'Trek na en verbind', descriptionDa: 'Tegn og forbind' },
+      { nameEn: 'Find Objects', nameDe: 'Suchbilder', nameFr: 'Cherche et trouve', nameEs: 'Busca y encuentra', nameIt: 'Cerca e trova', namePt: 'Encontre objetos', nameNl: 'Zoek en vind', nameDa: 'Find objekterne', slug: 'find-objects-worksheets', icon: '🔎', descriptionEn: 'I Spy activities', descriptionDe: 'Objekte suchen & finden', descriptionFr: 'Jeux d\'observation', descriptionEs: 'Actividades de observación', descriptionIt: 'Attività di osservazione', descriptionPt: 'Atividades de observação', descriptionNl: 'Kijkspelletjes', descriptionDa: 'Find og se aktiviteter' },
+      { nameEn: 'Grid Match', nameDe: 'Gitter-Zuordnung', nameFr: 'Grille d\'association', nameEs: 'Cuadrícula de asociación', nameIt: 'Griglia di abbinamento', namePt: 'Grade de correspondência', nameNl: 'Raster koppelen', nameDa: 'Gittermatching', slug: 'grid-match-worksheets', icon: '🔲', descriptionEn: 'Pattern matching', descriptionDe: 'Muster erkennen', descriptionFr: 'Reconnaissance de motifs', descriptionEs: 'Reconoce los patrones', descriptionIt: 'Riconosci i pattern', descriptionPt: 'Reconheça os padrões', descriptionNl: 'Patronen herkennen', descriptionDa: 'Mønstergenkendelse' },
+      { nameEn: 'Find & Count', nameDe: 'Suchen & Zählen', nameFr: 'Chercher et compter', nameEs: 'Buscar y contar', nameIt: 'Cerca e conta', namePt: 'Encontre e conte', nameNl: 'Zoek en tel', nameDa: 'Find og tæl', slug: 'find-and-count-worksheets', icon: '🧮', descriptionEn: 'Count hidden items', descriptionDe: 'Versteckte Objekte zählen', descriptionFr: 'Compter les objets cachés', descriptionEs: 'Cuenta los objetos escondidos', descriptionIt: 'Conta gli oggetti nascosti', descriptionPt: 'Conte os objetos escondidos', descriptionNl: 'Tel verborgen voorwerpen', descriptionDa: 'Tæl skjulte ting' },
     ],
   },
   {
@@ -170,14 +183,15 @@ const categories: Category[] = [
     nameIt: 'Creativo',
     namePt: 'Criativo',
     nameNl: 'Creatief',
+    nameDa: 'Kreativ',
     icon: '🎨',
     gradient: 'from-green-500/10 to-emerald-500/10',
     borderColor: 'border-green-500/20',
     apps: [
-      { nameEn: 'Coloring', nameDe: 'Ausmalen', nameFr: 'Coloriage', nameEs: 'Colorear', nameIt: 'Colorare', namePt: 'Colorir', nameNl: 'Kleuren', slug: 'coloring-worksheets', icon: '🖍️', descriptionEn: 'Color by sections', descriptionDe: 'Nach Bereichen ausmalen', descriptionFr: 'Colorier par zones', descriptionEs: 'Colorea por secciones', descriptionIt: 'Colora per sezioni', descriptionPt: 'Pinte por seções', descriptionNl: 'Kleur per vlak' },
-      { nameEn: 'Draw & Color', nameDe: 'Zeichnen & Ausmalen', nameFr: 'Dessiner et colorier', nameEs: 'Dibujar y colorear', nameIt: 'Disegna e colora', namePt: 'Desenhe e pinte', nameNl: 'Tekenen en kleuren', slug: 'draw-and-color-worksheets', icon: '🎨', descriptionEn: 'Grid drawing', descriptionDe: 'Rasterzeichnen', descriptionFr: 'Dessin sur quadrillage', descriptionEs: 'Dibujo en cuadrícula', descriptionIt: 'Disegno su griglia', descriptionPt: 'Desenho em grade', descriptionNl: 'Rastertekenen' },
-      { nameEn: 'Alphabet Train', nameDe: 'ABC-Zug', nameFr: 'Train de l\'alphabet', nameEs: 'Tren del abecedario', nameIt: 'Trenino dell\'alfabeto', namePt: 'Trenzinho do alfabeto', nameNl: 'Alfabettrein', slug: 'alphabet-train-worksheets', icon: '🚂', descriptionEn: 'ABC on trains', descriptionDe: 'Buchstaben auf Zügen', descriptionFr: 'L\'alphabet en train', descriptionEs: 'El ABC en trenes', descriptionIt: 'L\'alfabeto sul trenino', descriptionPt: 'O ABC no trenzinho', descriptionNl: 'Het ABC op treintjes' },
-      { nameEn: 'Picture Bingo', nameDe: 'Bilder-Bingo', nameFr: 'Loto images', nameEs: 'Lotería de imágenes', nameIt: 'Tombola illustrata', namePt: 'Bingo de imagens', nameNl: 'Plaatjesbingo', slug: 'picture-bingo-worksheets', icon: '🎰', descriptionEn: 'Visual bingo cards', descriptionDe: 'Bingokarten mit Bildern', descriptionFr: 'Cartes de loto illustrées', descriptionEs: 'Cartas de lotería ilustradas', descriptionIt: 'Cartelle tombola con immagini', descriptionPt: 'Cartelas de bingo ilustradas', descriptionNl: 'Bingokaarten met plaatjes' },
+      { nameEn: 'Coloring', nameDe: 'Ausmalen', nameFr: 'Coloriage', nameEs: 'Colorear', nameIt: 'Colorare', namePt: 'Colorir', nameNl: 'Kleuren', nameDa: 'Tegnesider', slug: 'coloring-worksheets', icon: '🖍️', descriptionEn: 'Color by sections', descriptionDe: 'Nach Bereichen ausmalen', descriptionFr: 'Colorier par zones', descriptionEs: 'Colorea por secciones', descriptionIt: 'Colora per sezioni', descriptionPt: 'Pinte por seções', descriptionNl: 'Kleur per vlak', descriptionDa: 'Mal efter områder' },
+      { nameEn: 'Draw & Color', nameDe: 'Zeichnen & Ausmalen', nameFr: 'Dessiner et colorier', nameEs: 'Dibujar y colorear', nameIt: 'Disegna e colora', namePt: 'Desenhe e pinte', nameNl: 'Tekenen en kleuren', nameDa: 'Tegn og mal', slug: 'draw-and-color-worksheets', icon: '🎨', descriptionEn: 'Grid drawing', descriptionDe: 'Rasterzeichnen', descriptionFr: 'Dessin sur quadrillage', descriptionEs: 'Dibujo en cuadrícula', descriptionIt: 'Disegno su griglia', descriptionPt: 'Desenho em grade', descriptionNl: 'Rastertekenen', descriptionDa: 'Gittertegning' },
+      { nameEn: 'Alphabet Train', nameDe: 'ABC-Zug', nameFr: 'Train de l\'alphabet', nameEs: 'Tren del abecedario', nameIt: 'Trenino dell\'alfabeto', namePt: 'Trenzinho do alfabeto', nameNl: 'Alfabettrein', nameDa: 'Alfabettog', slug: 'alphabet-train-worksheets', icon: '🚂', descriptionEn: 'ABC on trains', descriptionDe: 'Buchstaben auf Zügen', descriptionFr: 'L\'alphabet en train', descriptionEs: 'El ABC en trenes', descriptionIt: 'L\'alfabeto sul trenino', descriptionPt: 'O ABC no trenzinho', descriptionNl: 'Het ABC op treintjes', descriptionDa: 'ABC på tog' },
+      { nameEn: 'Picture Bingo', nameDe: 'Bilder-Bingo', nameFr: 'Loto images', nameEs: 'Lotería de imágenes', nameIt: 'Tombola illustrata', namePt: 'Bingo de imagens', nameNl: 'Plaatjesbingo', nameDa: 'Billed-bingo', slug: 'picture-bingo-worksheets', icon: '🎰', descriptionEn: 'Visual bingo cards', descriptionDe: 'Bingokarten mit Bildern', descriptionFr: 'Cartes de loto illustrées', descriptionEs: 'Cartas de lotería ilustradas', descriptionIt: 'Cartelle tombola con immagini', descriptionPt: 'Cartelas de bingo ilustradas', descriptionNl: 'Bingokaarten met plaatjes', descriptionDa: 'Bingoplader med billeder' },
     ],
   },
   {
@@ -189,12 +203,13 @@ const categories: Category[] = [
     nameIt: 'Logica e rompicapo',
     namePt: 'Lógica e quebra-cabeças',
     nameNl: 'Logica en puzzels',
+    nameDa: 'Logik og puslespil',
     icon: '🧩',
     gradient: 'from-rose-500/10 to-red-500/10',
     borderColor: 'border-rose-500/20',
     apps: [
-      { nameEn: 'Sudoku', nameDe: 'Sudoku', nameFr: 'Sudoku', nameEs: 'Sudoku', nameIt: 'Sudoku', namePt: 'Sudoku', nameNl: 'Sudoku', slug: 'sudoku-worksheets', icon: '🔢', descriptionEn: 'Number logic grids', descriptionDe: 'Zahlenrätsel', descriptionFr: 'Grilles de chiffres', descriptionEs: 'Cuadrículas de lógica numérica', descriptionIt: 'Griglie di logica numerica', descriptionPt: 'Grades de lógica numérica', descriptionNl: 'Logische cijferrasters' },
-      { nameEn: 'Big & Small', nameDe: 'Groß & Klein', nameFr: 'Grand et petit', nameEs: 'Grande y pequeño', nameIt: 'Grande e piccolo', namePt: 'Grande e pequeno', nameNl: 'Groot en klein', slug: 'big-small-worksheets', icon: '📏', descriptionEn: 'Size comparison', descriptionDe: 'Größenvergleich', descriptionFr: 'Comparaison de tailles', descriptionEs: 'Comparación de tamaños', descriptionIt: 'Confronto di dimensioni', descriptionPt: 'Comparação de tamanhos', descriptionNl: 'Groottevergelijking' },
+      { nameEn: 'Sudoku', nameDe: 'Sudoku', nameFr: 'Sudoku', nameEs: 'Sudoku', nameIt: 'Sudoku', namePt: 'Sudoku', nameNl: 'Sudoku', nameDa: 'Sudoku', slug: 'sudoku-worksheets', icon: '🔢', descriptionEn: 'Number logic grids', descriptionDe: 'Zahlenrätsel', descriptionFr: 'Grilles de chiffres', descriptionEs: 'Cuadrículas de lógica numérica', descriptionIt: 'Griglie di logica numerica', descriptionPt: 'Grades de lógica numérica', descriptionNl: 'Logische cijferrasters', descriptionDa: 'Logiske talgitre' },
+      { nameEn: 'Big & Small', nameDe: 'Groß & Klein', nameFr: 'Grand et petit', nameEs: 'Grande y pequeño', nameIt: 'Grande e piccolo', namePt: 'Grande e pequeno', nameNl: 'Groot en klein', nameDa: 'Stor og lille', slug: 'big-small-worksheets', icon: '📏', descriptionEn: 'Size comparison', descriptionDe: 'Größenvergleich', descriptionFr: 'Comparaison de tailles', descriptionEs: 'Comparación de tamaños', descriptionIt: 'Confronto di dimensioni', descriptionPt: 'Comparação de tamanhos', descriptionNl: 'Groottevergelijking', descriptionDa: 'Størrelsesammenligning' },
     ],
   },
 ];
@@ -208,6 +223,7 @@ export default function AppCategories({ locale }: AppCategoriesProps) {
 
   // Helper functions for localized content
   const getCategoryName = (category: Category) => {
+    if (locale === 'da') return category.nameDa;
     if (locale === 'nl') return category.nameNl;
     if (locale === 'pt') return category.namePt;
     if (locale === 'it') return category.nameIt;
@@ -217,6 +233,7 @@ export default function AppCategories({ locale }: AppCategoriesProps) {
     return category.nameEn;
   };
   const getAppName = (app: App) => {
+    if (locale === 'da') return app.nameDa;
     if (locale === 'nl') return app.nameNl;
     if (locale === 'pt') return app.namePt;
     if (locale === 'it') return app.nameIt;
@@ -226,6 +243,7 @@ export default function AppCategories({ locale }: AppCategoriesProps) {
     return app.nameEn;
   };
   const getAppDescription = (app: App) => {
+    if (locale === 'da') return app.descriptionDa;
     if (locale === 'nl') return app.descriptionNl;
     if (locale === 'pt') return app.descriptionPt;
     if (locale === 'it') return app.descriptionIt;

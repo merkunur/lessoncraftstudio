@@ -108,6 +108,12 @@ const nextConfig = {
         destination: '/sv/apps/matematik-arbetsblad',
         permanent: true,
       },
+      // Swedish: word-scramble-worksheets → ordpussel-arbetsblad
+      {
+        source: '/sv/apps/word-scramble-worksheets',
+        destination: '/sv/apps/ordpussel-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

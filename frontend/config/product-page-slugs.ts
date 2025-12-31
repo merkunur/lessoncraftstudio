@@ -101,6 +101,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'word-scramble',
     slugs: {
       en: 'word-scramble-worksheets',
+      sv: 'ordpussel-arbetsblad',
     },
   },
   {

@@ -41,6 +41,7 @@ import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
 import mathWorksheetsSvContent from '@/content/product-pages/sv/math-worksheets';
+import wordScrambleSvContent from '@/content/product-pages/sv/word-scramble-worksheets';
 
 interface PageProps {
   params: {
@@ -313,6 +314,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/sv/apps/matematik-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
+  // Word Scramble Worksheets - Swedish product page SEO (new Swedish slug)
+  if (params.slug === 'ordpussel-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Ordpussel Generator - Arbetsblad Gratis för Bokstäver Lära Sig | Förskoleklass Material',
+      description: 'Skapa professionella ordpussel med vår ordpussel-generator. Generera anpassningsbara arbetsblad gratis för utskrift perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
+      keywords: 'ordpussel generator, arbetsblad gratis, förskoleklass material, bokstäver lära sig, skriva bokstäver, ordpussel, matematik arbetsblad, finmotorik övningar, målarbilder barn, lågstadiet',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/ordpussel-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/word-scramble-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/ordpussel-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/word-scramble-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Ordpussel Generator - Arbetsblad Gratis | LessonCraftStudio',
+        description: 'Skapa professionella ordpussel med vår ordpussel-generator. Perfekt för förskoleklass och lågstadiet.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/ordpussel-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish word-scramble slug to new slug (for backwards compatibility)
+  if (params.slug === 'word-scramble-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Ordpussel Generator - Arbetsblad Gratis för Bokstäver Lära Sig | Förskoleklass Material',
+      description: 'Skapa professionella ordpussel med vår ordpussel-generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/ordpussel-arbetsblad', // Point to new URL
       },
     };
   }
@@ -4319,6 +4363,7 @@ export async function generateStaticParams() {
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'malarbilder-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'matematik-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'ordpussel-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

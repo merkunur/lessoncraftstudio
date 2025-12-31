@@ -114,6 +114,12 @@ const nextConfig = {
         destination: '/sv/apps/ordpussel-arbetsblad',
         permanent: true,
       },
+      // Swedish: find-and-count-worksheets → hitta-och-rakna-arbetsblad
+      {
+        source: '/sv/apps/find-and-count-worksheets',
+        destination: '/sv/apps/hitta-och-rakna-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -102,6 +102,10 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     en: 'big-small-worksheets',
     sv: 'stort-litet-arbetsblad',
   },
+  'chart-count-color': {
+    en: 'chart-count-worksheets',
+    sv: 'diagram-rakning-arbetsblad',
+  },
 };
 
 // Helper function to get the product page slug for an app in a specific locale

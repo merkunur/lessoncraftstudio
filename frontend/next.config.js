@@ -150,6 +150,12 @@ const nextConfig = {
         destination: '/sv/apps/stort-litet-arbetsblad',
         permanent: true,
       },
+      // Swedish: chart-count-worksheets → diagram-rakning-arbetsblad
+      {
+        source: '/sv/apps/chart-count-worksheets',
+        destination: '/sv/apps/diagram-rakning-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

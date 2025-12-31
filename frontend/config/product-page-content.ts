@@ -55,6 +55,7 @@ import drawingLinesSvContent from '@/content/product-pages/sv/drawing-lines-work
 import pictureBingoSvContent from '@/content/product-pages/sv/picture-bingo-worksheets';
 import sudokuSvContent from '@/content/product-pages/sv/sudoku-worksheets';
 import bigSmallSvContent from '@/content/product-pages/sv/big-small-worksheets';
+import chartCountSvContent from '@/content/product-pages/sv/chart-count-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -153,6 +154,10 @@ export const contentRegistry: ContentRegistry = {
     'stort-litet-arbetsblad': bigSmallSvContent,
     // Also keep old slug for backwards compatibility during transition
     'big-small-worksheets': bigSmallSvContent,
+    // Swedish Chart Count - uses Swedish slug
+    'diagram-rakning-arbetsblad': chartCountSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'chart-count-worksheets': chartCountSvContent,
   },
 };
 

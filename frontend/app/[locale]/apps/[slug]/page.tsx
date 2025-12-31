@@ -4502,6 +4502,7 @@ export async function generateStaticParams() {
     'hitta-och-rakna-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'bildsudoku-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'stort-litet-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'diagram-rakning-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

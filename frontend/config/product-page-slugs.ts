@@ -150,6 +150,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'chart-count-color',
     slugs: {
       en: 'chart-count-worksheets',
+      sv: 'diagram-rakning-arbetsblad',
     },
   },
   {

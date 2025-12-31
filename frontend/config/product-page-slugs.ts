@@ -129,6 +129,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'picture-bingo',
     slugs: {
       en: 'picture-bingo-worksheets',
+      sv: 'bildlotto-arbetsblad',
     },
   },
   {

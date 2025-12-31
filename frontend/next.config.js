@@ -132,6 +132,12 @@ const nextConfig = {
         destination: '/sv/apps/rita-linjer-arbetsblad',
         permanent: true,
       },
+      // Swedish: picture-bingo-worksheets → bildlotto-arbetsblad
+      {
+        source: '/sv/apps/picture-bingo-worksheets',
+        destination: '/sv/apps/bildlotto-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

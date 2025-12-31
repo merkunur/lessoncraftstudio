@@ -53,6 +53,7 @@ import findAndCountSvContent from '@/content/product-pages/sv/find-and-count-wor
 import matchingSvContent from '@/content/product-pages/sv/matching-worksheets';
 import drawingLinesSvContent from '@/content/product-pages/sv/drawing-lines-worksheets';
 import pictureBingoSvContent from '@/content/product-pages/sv/picture-bingo-worksheets';
+import sudokuSvContent from '@/content/product-pages/sv/sudoku-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -143,6 +144,10 @@ export const contentRegistry: ContentRegistry = {
     'bildlotto-arbetsblad': pictureBingoSvContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-bingo-worksheets': pictureBingoSvContent,
+    // Swedish Sudoku - uses Swedish slug
+    'bildsudoku-arbetsblad': sudokuSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'sudoku-worksheets': sudokuSvContent,
   },
 };
 

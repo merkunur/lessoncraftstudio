@@ -43,6 +43,7 @@ import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
 import mathWorksheetsSvContent from '@/content/product-pages/sv/math-worksheets';
 import wordScrambleSvContent from '@/content/product-pages/sv/word-scramble-worksheets';
 import matchingSvContent from '@/content/product-pages/sv/matching-worksheets';
+import sudokuSvContent from '@/content/product-pages/sv/sudoku-worksheets';
 
 interface PageProps {
   params: {
@@ -401,6 +402,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/sv/apps/matchnings-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
+  // Sudoku Worksheets - Swedish product page SEO (new Swedish slug)
+  if (params.slug === 'bildsudoku-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Gratis Sudoku för Barn Generator | Arbetsblad för Förskoleklass och Lågstadiet',
+      description: 'Skapa professionella bildsudoku med vår sudoku för barn generator. Perfekt för förskoleklass material och matematik arbetsblad. Ladda ner arbetsblad gratis som högkvalitativa PDF-filer på under 3 minuter.',
+      keywords: 'sudoku för barn, bildsudoku, arbetsblad gratis, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, bokstäver lära sig, siffror och tal, målarbilder barn, lågstadiet',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/bildsudoku-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/sudoku-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildsudoku-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/sudoku-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Gratis Sudoku för Barn Generator | LessonCraftStudio',
+        description: 'Skapa professionella bildsudoku med vår sudoku för barn generator. Perfekt för förskoleklass och lågstadiet.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/bildsudoku-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish sudoku slug to new slug (for backwards compatibility)
+  if (params.slug === 'sudoku-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Gratis Sudoku för Barn Generator | Arbetsblad för Förskoleklass och Lågstadiet',
+      description: 'Skapa professionella bildsudoku med vår sudoku för barn generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/bildsudoku-arbetsblad', // Point to new URL
       },
     };
   }
@@ -4131,6 +4175,7 @@ const seoRedirects: { [locale: string]: { [englishSlug: string]: string } } = {
   sv: {
     'word-search-worksheets': 'ordletar-arbetsblad',
     'addition-worksheets': 'addition-arbetsblad',
+    'sudoku-worksheets': 'bildsudoku-arbetsblad',
   },
   // Add more languages as they get localized slugs:
   // de: { 'word-search-worksheets': 'wortsuche-arbeitsblaetter' },
@@ -4411,6 +4456,7 @@ export async function generateStaticParams() {
     'matchnings-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'rita-linjer-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'hitta-och-rakna-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'bildsudoku-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

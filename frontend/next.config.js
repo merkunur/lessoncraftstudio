@@ -138,6 +138,12 @@ const nextConfig = {
         destination: '/sv/apps/bildlotto-arbetsblad',
         permanent: true,
       },
+      // Swedish: sudoku-worksheets → bildsudoku-arbetsblad
+      {
+        source: '/sv/apps/sudoku-worksheets',
+        destination: '/sv/apps/bildsudoku-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

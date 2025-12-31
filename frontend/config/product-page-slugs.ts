@@ -136,6 +136,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'sudoku',
     slugs: {
       en: 'sudoku-worksheets',
+      sv: 'bildsudoku-arbetsblad',
     },
   },
   {

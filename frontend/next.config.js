@@ -156,6 +156,12 @@ const nextConfig = {
         destination: '/sv/apps/diagram-rakning-arbetsblad',
         permanent: true,
       },
+      // Swedish: code-addition-worksheets → kodaddition-arbetsblad
+      {
+        source: '/sv/apps/code-addition-worksheets',
+        destination: '/sv/apps/kodaddition-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

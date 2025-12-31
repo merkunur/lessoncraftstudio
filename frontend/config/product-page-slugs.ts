@@ -157,6 +157,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'code-addition',
     slugs: {
       en: 'code-addition-worksheets',
+      sv: 'kodaddition-arbetsblad',
     },
   },
   {

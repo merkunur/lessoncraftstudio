@@ -56,6 +56,7 @@ import pictureBingoSvContent from '@/content/product-pages/sv/picture-bingo-work
 import sudokuSvContent from '@/content/product-pages/sv/sudoku-worksheets';
 import bigSmallSvContent from '@/content/product-pages/sv/big-small-worksheets';
 import chartCountSvContent from '@/content/product-pages/sv/chart-count-worksheets';
+import codeAdditionSvContent from '@/content/product-pages/sv/code-addition-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -158,6 +159,10 @@ export const contentRegistry: ContentRegistry = {
     'diagram-rakning-arbetsblad': chartCountSvContent,
     // Also keep old slug for backwards compatibility during transition
     'chart-count-worksheets': chartCountSvContent,
+    // Swedish Code Addition - uses Swedish slug
+    'kodaddition-arbetsblad': codeAdditionSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'code-addition-worksheets': codeAdditionSvContent,
   },
 };
 

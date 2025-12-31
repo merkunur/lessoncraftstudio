@@ -44,6 +44,7 @@ import mathWorksheetsSvContent from '@/content/product-pages/sv/math-worksheets'
 import wordScrambleSvContent from '@/content/product-pages/sv/word-scramble-worksheets';
 import matchingSvContent from '@/content/product-pages/sv/matching-worksheets';
 import sudokuSvContent from '@/content/product-pages/sv/sudoku-worksheets';
+import bigSmallSvContent from '@/content/product-pages/sv/big-small-worksheets';
 
 interface PageProps {
   params: {
@@ -445,6 +446,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/sv/apps/bildsudoku-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
+  // Big Small Worksheets - Swedish product page SEO (new Swedish slug)
+  if (params.slug === 'stort-litet-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Arbetsblad Gratis för Stort och Litet - Matematik Arbetsblad och Förskoleklass Material för Storleksträning',
+      description: 'Skapa professionella arbetsblad för att lära barn skilja på stort och litet. Generera anpassade matematik arbetsblad för storleksjämförelse på under 3 minuter. Ladda ner högkvalitativa PDF-filer för förskoleklass material.',
+      keywords: 'arbetsblad gratis, stort och litet, storleksjämförelse, förskoleklass material, matematik arbetsblad, matte övningar, finmotorik övningar, målarbilder barn, siffror och tal',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/stort-litet-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/big-small-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/stort-litet-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/big-small-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Arbetsblad Gratis för Stort och Litet | LessonCraftStudio',
+        description: 'Skapa professionella arbetsblad för storleksjämförelse. Perfekt för förskoleklass och lågstadiet.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/stort-litet-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish big-small slug to new slug (for backwards compatibility)
+  if (params.slug === 'big-small-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Arbetsblad Gratis för Stort och Litet | Förskoleklass Material',
+      description: 'Skapa professionella arbetsblad för storleksjämförelse.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/stort-litet-arbetsblad', // Point to new URL
       },
     };
   }
@@ -4457,6 +4501,7 @@ export async function generateStaticParams() {
     'rita-linjer-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'hitta-och-rakna-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'bildsudoku-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'stort-litet-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

@@ -98,6 +98,10 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     en: 'sudoku-worksheets',
     sv: 'bildsudoku-arbetsblad',
   },
+  'big-small-app': {
+    en: 'big-small-worksheets',
+    sv: 'stort-litet-arbetsblad',
+  },
 };
 
 // Helper function to get the product page slug for an app in a specific locale

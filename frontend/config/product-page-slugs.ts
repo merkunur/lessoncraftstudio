@@ -143,6 +143,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'big-small-app',
     slugs: {
       en: 'big-small-worksheets',
+      sv: 'stort-litet-arbetsblad',
     },
   },
   {

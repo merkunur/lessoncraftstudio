@@ -144,6 +144,12 @@ const nextConfig = {
         destination: '/sv/apps/bildsudoku-arbetsblad',
         permanent: true,
       },
+      // Swedish: big-small-worksheets → stort-litet-arbetsblad
+      {
+        source: '/sv/apps/big-small-worksheets',
+        destination: '/sv/apps/stort-litet-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

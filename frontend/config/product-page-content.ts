@@ -54,6 +54,7 @@ import matchingSvContent from '@/content/product-pages/sv/matching-worksheets';
 import drawingLinesSvContent from '@/content/product-pages/sv/drawing-lines-worksheets';
 import pictureBingoSvContent from '@/content/product-pages/sv/picture-bingo-worksheets';
 import sudokuSvContent from '@/content/product-pages/sv/sudoku-worksheets';
+import bigSmallSvContent from '@/content/product-pages/sv/big-small-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -148,6 +149,10 @@ export const contentRegistry: ContentRegistry = {
     'bildsudoku-arbetsblad': sudokuSvContent,
     // Also keep old slug for backwards compatibility during transition
     'sudoku-worksheets': sudokuSvContent,
+    // Swedish Big Small - uses Swedish slug
+    'stort-litet-arbetsblad': bigSmallSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'big-small-worksheets': bigSmallSvContent,
   },
 };
 

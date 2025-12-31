@@ -42,6 +42,7 @@ import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-wo
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
 import mathWorksheetsSvContent from '@/content/product-pages/sv/math-worksheets';
 import wordScrambleSvContent from '@/content/product-pages/sv/word-scramble-worksheets';
+import matchingSvContent from '@/content/product-pages/sv/matching-worksheets';
 
 interface PageProps {
   params: {
@@ -357,6 +358,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/sv/apps/ordpussel-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
+  // Matching Worksheets - Swedish product page SEO (new Swedish slug)
+  if (params.slug === 'matchnings-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Arbetsblad Gratis Matching - Matematik Arbetsblad och Bokstäver Lära Sig | MatchUp Maker för Förskoleklass Material',
+      description: 'Skapa professionella matchningsövningar med vår arbetsblad gratis generator. Generera anpassningsbara matematik arbetsblad och bokstäver lära sig material perfekt för förskoleklass material och årskurs 1-3. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
+      keywords: 'matchningsarbetsblad, arbetsblad gratis, förskoleklass material, matematik arbetsblad, bokstäver lära sig, matchningsövningar, finmotorik övningar, målarbilder barn, siffror och tal, multiplikationstabellen',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/matchnings-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/matching-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/matchnings-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/matching-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Arbetsblad Gratis Matching - Matematik Arbetsblad | LessonCraftStudio',
+        description: 'Skapa professionella matchningsövningar med vår arbetsblad gratis generator. Perfekt för förskoleklass och lågstadiet.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/matchnings-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish matching slug to new slug (for backwards compatibility)
+  if (params.slug === 'matching-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Arbetsblad Gratis Matching - Matematik Arbetsblad och Bokstäver Lära Sig | Förskoleklass Material',
+      description: 'Skapa professionella matchningsövningar med vår arbetsblad gratis generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/matchnings-arbetsblad', // Point to new URL
       },
     };
   }
@@ -4364,6 +4408,7 @@ export async function generateStaticParams() {
     'malarbilder-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'matematik-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'ordpussel-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'matchnings-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

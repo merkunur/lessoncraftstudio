@@ -115,6 +115,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'matching-app',
     slugs: {
       en: 'matching-worksheets',
+      sv: 'matchnings-arbetsblad',
     },
   },
   {

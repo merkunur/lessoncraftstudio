@@ -120,6 +120,12 @@ const nextConfig = {
         destination: '/sv/apps/hitta-och-rakna-arbetsblad',
         permanent: true,
       },
+      // Swedish: matching-worksheets → matchnings-arbetsblad
+      {
+        source: '/sv/apps/matching-worksheets',
+        destination: '/sv/apps/matchnings-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

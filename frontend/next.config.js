@@ -126,6 +126,12 @@ const nextConfig = {
         destination: '/sv/apps/matchnings-arbetsblad',
         permanent: true,
       },
+      // Swedish: drawing-lines-worksheets → rita-linjer-arbetsblad
+      {
+        source: '/sv/apps/drawing-lines-worksheets',
+        destination: '/sv/apps/rita-linjer-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

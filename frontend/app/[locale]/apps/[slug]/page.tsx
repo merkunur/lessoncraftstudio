@@ -4409,6 +4409,8 @@ export async function generateStaticParams() {
     'matematik-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'ordpussel-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'matchnings-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'rita-linjer-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'hitta-och-rakna-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

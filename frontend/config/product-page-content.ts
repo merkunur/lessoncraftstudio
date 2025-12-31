@@ -51,6 +51,7 @@ import mathWorksheetsSvContent from '@/content/product-pages/sv/math-worksheets'
 import wordScrambleSvContent from '@/content/product-pages/sv/word-scramble-worksheets';
 import findAndCountSvContent from '@/content/product-pages/sv/find-and-count-worksheets';
 import matchingSvContent from '@/content/product-pages/sv/matching-worksheets';
+import drawingLinesSvContent from '@/content/product-pages/sv/drawing-lines-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -133,6 +134,10 @@ export const contentRegistry: ContentRegistry = {
     'matchnings-arbetsblad': matchingSvContent,
     // Also keep old slug for backwards compatibility during transition
     'matching-worksheets': matchingSvContent,
+    // Swedish Drawing Lines - uses Swedish slug
+    'rita-linjer-arbetsblad': drawingLinesSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'drawing-lines-worksheets': drawingLinesSvContent,
   },
 };
 

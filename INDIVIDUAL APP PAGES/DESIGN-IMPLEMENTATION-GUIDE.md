@@ -139,12 +139,12 @@
 ║   "Core Bundle" translations (for $144/year subscription):                        ║
 ║   ─────────────────────────────────────────────────────────────────────────────   ║
 ║   Swedish (sv):     "Grundpaketet"                                                ║
-║   German (de):      "Basispaket"                                                  ║
-║   French (fr):      "Pack de Base"                                                ║
-║   Spanish (es):     "Paquete Básico"                                              ║
-║   Italian (it):     "Pacchetto Base"                                              ║
-║   Portuguese (pt):  "Pacote Básico"                                               ║
-║   Dutch (nl):       "Basispakket"                                                 ║
+║   German (de):      "Basis-Paket"      ← FROM messages/de.json:128                ║
+║   French (fr):      "Pack Essentiel"   ← FROM messages/fr.json:180                ║
+║   Spanish (es):     "Paquete Esencial" ← FROM messages/es.json:180                ║
+║   Italian (it):     "Pacchetto Essenziale" ← FROM messages/it.json:180            ║
+║   Portuguese (pt):  "Pacote Essencial" ← FROM messages/pt.json:180                ║
+║   Dutch (nl):       "Basispakket"      ← FROM messages/nl.json:180                ║
 ║   Danish (da):      "Grundpakke"                                                  ║
 ║   Norwegian (no):   "Grunnpakke"                                                  ║
 ║   Finnish (fi):     "Peruspaketti"                                                ║
@@ -165,6 +165,34 @@
 ║   ❌ Content file was CORRECT, but page.tsx was ENGLISH                           ║
 ║   ❌ Took multiple rebuilds to diagnose because grep on content files             ║
 ║      showed 0 matches - the English was hidden in page.tsx!                       ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   🔴 REAL FAILURE CASE #3 (January 2026) - GUESSING TRANSLATIONS:                 ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   ❌ German Alphabet Train page had pricing.title: "Basispaket" (WRONG!)          ║
+║   ❌ GUESSED the translation instead of checking messages/de.json                 ║
+║   ❌ Then WRONGLY "fixed" to "Voller Zugang" (Full Access) - ALSO WRONG!          ║
+║   ❌ Alphabet Train is Core Bundle, not Full Access!                              ║
+║   ✅ CORRECT translation from messages/de.json:128 is "Basis-Paket" (with hyphen) ║
+║                                                                                   ║
+║   ROOT CAUSE: Did not verify in messages/[locale].json - GUESSED instead!         ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   🚨 MANDATORY VERIFICATION STEP - NEVER SKIP THIS! 🚨                            ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   BEFORE writing pricing.title for ANY non-English page:                          ║
+║                                                                                   ║
+║   1. Determine if app is Core Bundle or Full Access (check SEO-RULES.md)          ║
+║   2. Open frontend/messages/[locale].json                                         ║
+║   3. Search for "coreBundle" or "fullAccess" key                                  ║
+║   4. Copy the EXACT translation - do NOT guess or modify!                         ║
+║                                                                                   ║
+║   Example for German Core Bundle app:                                             ║
+║   grep -n '"coreBundle"' frontend/messages/de.json                                ║
+║   → Line 128: "coreBundle": "Basis-Paket"                                         ║
+║   → Use EXACTLY "Basis-Paket" in pricing.title                                    ║
 ║                                                                                   ║
 ║   ═══════════════════════════════════════════════════════════════════════════     ║
 ║   GREP CHECK - RUN BOTH COMMANDS BEFORE EVERY NON-ENGLISH COMMIT:                 ║
@@ -252,8 +280,10 @@
 
 | English | Swedish | German | French | Spanish | Italian |
 |---------|---------|--------|--------|---------|---------|
-| **Core Bundle** | Grundpaketet | Basispaket | Forfait de Base | Paquete Básico | Pacchetto Base |
+| **Core Bundle** | Grundpaketet | Basis-Paket | Pack Essentiel | Paquete Esencial | Pacchetto Essenziale |
 | **Full Access** | Full Tillgång | Voller Zugang | Accès Complet | Acceso Completo | Accesso Completo |
+
+⚠️ **SOURCE OF TRUTH: `frontend/messages/[locale].json`** - ALWAYS verify translations there!
 
 ### Required Sample Properties (TypeScript will FAIL if missing!)
 
@@ -493,14 +523,16 @@ All these fields in the content file MUST be in the target language:
 | `relatedApps.exploreText` | Explore all apps | Utforska alla appar | Alle Apps erkunden | Explorer toutes les apps |
 | `relatedApps.trustBadges.guarantee` | 30-day guarantee | 30 dagars garanti | 30-Tage-Garantie | Garantie 30 jours |
 | `relatedApps.trustBadges.securePayment` | Secure payment | Säker betalning | Sichere Zahlung | Paiement sécurisé |
-| `pricing.title` | Core Bundle | Grundpaketet | Basispaket | Forfait de Base |
+| `pricing.title` | Core Bundle | Grundpaketet | Basis-Paket | Pack Essentiel |
 
-### Product Names MUST Be Translated
+### Product Names MUST Be Translated (FROM messages/[locale].json!)
 
 | English | Swedish | German | French | Spanish | Italian |
 |---------|---------|--------|--------|---------|---------|
-| Core Bundle | Grundpaketet | Basispaket | Forfait de Base | Paquete Básico | Pacchetto Base |
+| Core Bundle | Grundpaketet | Basis-Paket | Pack Essentiel | Paquete Esencial | Pacchetto Essenziale |
 | Full Access | Full Tillgång | Voller Zugang | Accès Complet | Acceso Completo | Accesso Completo |
+
+⚠️ **NEVER GUESS TRANSLATIONS!** Always check `frontend/messages/[locale].json` for the exact spelling!
 
 ### How to Verify: Page Language Audit
 
@@ -1122,8 +1154,8 @@ const appIdToProductSlug: { [key: string]: string } = {
 ║                                                                                   ║
 ║   □ I have read the translation table at the top of this guide                   ║
 ║   □ I have opened an existing content file in my target language                 ║
-║   □ I know "Core Bundle" translations:                                            ║
-║       Swedish: Grundpaketet  |  German: Basispaket  |  French: Forfait de Base   ║
+║   □ I know "Core Bundle" translations (FROM messages/[locale].json!):             ║
+║       Swedish: Grundpaketet  |  German: Basis-Paket  |  French: Pack Essentiel   ║
 ║   □ I have reviewed the Sample interface in ProductPageClient.tsx                ║
 ║   □ I understand answerKeySrc is REQUIRED (use '' for coloring/drawing pages)    ║
 ║   □ I will NOT use any English words in the content                              ║
@@ -1724,7 +1756,7 @@ plink ... "pm2 restart lessoncraftstudio"
 ║                                                                                   ║
 ║   🌍 0. 100% NATIVE LANGUAGE - ZERO ENGLISH ON NON-ENGLISH PAGES 🌍               ║
 ║      EVERY word must be in the target language - including product names!         ║
-║      "Core Bundle" → "Grundpaketet" (Swedish), "Basispaket" (German)             ║
+║      "Core Bundle" → "Grundpaketet" (Swedish), "Basis-Paket" (German)            ║
 ║      "Full Access" → "Full Tillgång" (Swedish), "Voller Zugang" (German)         ║
 ║      "Read more" → "Läs mer" (Swedish), "Mehr lesen" (German)                    ║
 ║      "Features" → "Funktioner" (Swedish), "Funktionen" (German)                  ║

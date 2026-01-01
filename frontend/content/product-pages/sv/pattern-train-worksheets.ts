@@ -27,13 +27,13 @@ export const patternTrainSvContent: ProductPageContent = {
   hero: {
     title: 'Mönster Arbetsblad Gratis för Förskoleklass Material',
     subtitle: 'Pattern Train Generator för Matematik Arbetsblad och Mönsterigenkänning',
-    description: `Skapa professionella mönsterigenkänningsarbetsblad med vår Pattern Train-generator. Din Full Access-prenumeration ger dig obegränsad tillgång att skapa arbetsblad utan extra avgifter per arbetsblad. Generera anpassade mönster arbetsblad perfekta för förskoleklass material och lågstadiets matematikundervisning. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
+    description: `Skapa professionella mönsterigenkänningsarbetsblad med vår Pattern Train-generator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång att skapa arbetsblad utan extra avgifter per arbetsblad. Generera anpassade mönster arbetsblad perfekta för förskoleklass material och lågstadiets matematikundervisning. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
-Pattern Train-generatorn skapar visuella mönsterigenkänningsuppgifter där barn identifierar och fortsätter mönster. Välj mellan fem mönstertyper: AB, AAB, ABB, ABC och AABB. Varje arbetsblad använder bilder istället för abstrakta former vilket gör mönsterigenkänning mer engagerande för förskoleklass material och lågstadiet. Ditt arbetsblad gratis skapas med Full Access-prenumerationen som kostar 240 dollar per år eller 25 dollar per månad.
+Pattern Train-generatorn skapar visuella mönsterigenkänningsuppgifter där barn identifierar och fortsätter mönster. Välj mellan fem mönstertyper: AB, AAB, ABB, ABC och AABB. Varje arbetsblad använder bilder istället för abstrakta former vilket gör mönsterigenkänning mer engagerande för förskoleklass material och lågstadiet. Ditt arbetsblad gratis skapas med Full Tillgång-prenumerationen som kostar 240 dollar per år eller 25 dollar per månad.
 
 Använd temabaserade bilder från vårt bibliotek med över 3000 barnvänliga bilder eller ladda upp dina egna bilder för personliga mönster arbetsblad. Generatorn skapar både arbetsblad och facit automatiskt vilket sparar dig timmar av manuellt arbete. Perfekt för matematik arbetsblad och matte övningar i mönsterigenkänning som är centrala färdigheter i förskoleklass och årskurs 1-3.
 
-Full Access-prenumerationen inkluderar kommersiell print-on-demand-licens. Sälj dina mönster arbetsblad på Teachers Pay Teachers, Etsy eller Amazon KDP utan extra licensavgifter. Skapa obegränsat med arbetsblad i alla 11 språk som stöds inklusive svenska.`,
+Full Tillgång-prenumerationen inkluderar kommersiell print-on-demand-licens. Sälj dina mönster arbetsblad på Teachers Pay Teachers, Etsy eller Amazon KDP utan extra licensavgifter. Skapa obegränsat med arbetsblad i alla 11 språk som stöds inklusive svenska.`,
     previewImageSrc: '/samples/english/pattern train/pattern_train portrait.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
@@ -87,7 +87,7 @@ Full Access-prenumerationen inkluderar kommersiell print-on-demand-licens. Sälj
   // Features Grid - FULL descriptions from pattern-train.md H3 sections
   features: {
     sectionTitle: 'Pattern Train Funktioner - Allt du Behöver för Mönster Arbetsblad',
-    sectionDescription: 'Vår Pattern Train-generator kombinerar kraftfulla funktioner med användarvänlighet för att skapa professionella mönsterigenkänningsarbetsblad. Din Full Access-prenumeration ger dig tillgång till alla verktyg du behöver för att skapa anpassade matematik arbetsblad och matte övningar för förskoleklass material och lågstadiet. Varje funktion är designad för att spara tid samtidigt som den levererar arbetsblad gratis med högsta kvalitet för din undervisning.',
+    sectionDescription: 'Vår Pattern Train-generator kombinerar kraftfulla funktioner med användarvänlighet för att skapa professionella mönsterigenkänningsarbetsblad. Din Full Tillgång-prenumeration ger dig tillgång till alla verktyg du behöver för att skapa anpassade matematik arbetsblad och matte övningar för förskoleklass material och lågstadiet. Varje funktion är designad för att spara tid samtidigt som den levererar arbetsblad gratis med högsta kvalitet för din undervisning.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
     showLessLabel: 'Visa mindre',
@@ -102,7 +102,7 @@ Full Access-prenumerationen inkluderar kommersiell print-on-demand-licens. Sälj
         id: '1',
         icon: '⚡',
         title: 'Skapa Mönster Arbetsblad på 3 Klick',
-        description: `Generera färdiga mönsterigenkänningsarbetsblad på bara tre klick. Välj ditt mönstertyp (AB, AAB, ABB, ABC eller AABB). Välj bilder från vårt temabibliotek eller dina uppladdade bilder. Klicka på Skapa och ditt arbetsblad är klart att ladda ner. Full Access-prenumerationen ger dig obegränsad skapande av arbetsblad utan extra kostnader per arbetsblad.
+        description: `Generera färdiga mönsterigenkänningsarbetsblad på bara tre klick. Välj ditt mönstertyp (AB, AAB, ABB, ABC eller AABB). Välj bilder från vårt temabibliotek eller dina uppladdade bilder. Klicka på Skapa och ditt arbetsblad är klart att ladda ner. Full Tillgång-prenumerationen ger dig obegränsad skapande av arbetsblad utan extra kostnader per arbetsblad.
 
 Den snabba processen gör det perfekt för att skapa förskoleklass material och matematik arbetsblad när du behöver dem. Ingen designkunskap krävs. Välj helt enkelt dina inställningar och låt generatorn skapa professionella mönster arbetsblad. Varje arbetsblad inkluderar facit automatiskt vilket sparar ytterligare tid. Din prenumeration inkluderar alla mönstertyper från enkla AB-mönster för förskoleklass till mer komplexa AABB-mönster för årskurs 2-3.
 
@@ -146,7 +146,7 @@ Flerspråkig support är också perfekt för att undervisa svenska som andraspr�
         id: '5',
         icon: '💰',
         title: 'Kommersiell POD-Licens Ingår',
-        description: `Full Access-prenumerationen inkluderar fullständig kommersiell print-on-demand-licens utan extra kostnad. Sälj dina mönster arbetsblad på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen tillskrivning krävs. Inga extra licensavgifter. Din 240 dollar per år prenumeration inkluderar allt.
+        description: `Full Tillgång-prenumerationen inkluderar fullständig kommersiell print-on-demand-licens utan extra kostnad. Sälj dina mönster arbetsblad på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen tillskrivning krävs. Inga extra licensavgifter. Din 240 dollar per år prenumeration inkluderar allt.
 
 Detta är enormt värde jämfört med konkurrenter som tar 79 till 199 dollar per år extra för kommersiella rättigheter. Skapa förskoleklass material-paket och sälj dem online. Designa tematiska matematik arbetsblad-samlingar för olika årstider. Bygg en bibliotek av mönsterigenkänning matte övningar för alla fem mönstertyper. Din försäljning kan snabbt täcka prenumerationskostnaden och generera löpande inkomster.
 
@@ -183,7 +183,7 @@ Ladda ner både arbetsblad och facit med ett klick. Arbetsbladet visar ofullstä
 
 Justera svårigheten ytterligare genom att ändra antal ledtrådar från 4 till 10. Fler ledtrådar betyder enklare arbetsblad eftersom eleverna ser mönstret upprepas fler gånger. Färre ledtrådar gör arbetsblad gratis mer utmanande för äldre elever. För förskoleklass material rekommenderas 6-8 ledtrådar. För årskurs 2-3 fungerar 4-5 ledtrådar bra.
 
-Denna flexibilitet gör det möjligt att differentiera undervisningen effektivt. Skapa enklare mönster arbetsblad för elever som behöver extra stöd. Generera komplexa AABB-mönster för elever som behöver utmaning. Samma verktyg tjänar alla elever oavsett kunskapsnivå. Full Access-prenumerationen inkluderar alla fem mönstertyper utan begränsning.`,
+Denna flexibilitet gör det möjligt att differentiera undervisningen effektivt. Skapa enklare mönster arbetsblad för elever som behöver extra stöd. Generera komplexa AABB-mönster för elever som behöver utmaning. Samma verktyg tjänar alla elever oavsett kunskapsnivå. Full Tillgång-prenumerationen inkluderar alla fem mönstertyper utan begränsning.`,
         highlighted: true,
       },
     ],
@@ -233,7 +233,7 @@ Välj sidans bakgrundsfärg. Vit bakgrund är standard och sparar bläck. Ljusbl
 
 Pattern Train skapar automatiskt både arbetsbladet och facit samtidigt. Arbetsbladet visar mönstret med några tomma positioner där eleverna fyller i saknade element. Facit visar det kompletta mönstret med alla positioner ifyllda. Båda versionerna använder exakt samma bilder och layout vilket gör rättning superenkel.
 
-Om du inte är nöjd med resultatet klickar du bara på "Skapa" igen. Varje klick genererar en helt ny layout. Bilderna kan placeras olika. Mönsterelementens storlek kan variera. Tågvagnernas positioner kan ändras. Klicka flera gånger tills du får en layout du gillar. Obegränsad regenerering ingår i din Full Access-prenumeration.`,
+Om du inte är nöjd med resultatet klickar du bara på "Skapa" igen. Varje klick genererar en helt ny layout. Bilderna kan placeras olika. Mönsterelementens storlek kan variera. Tågvagnernas positioner kan ändras. Klicka flera gånger tills du får en layout du gillar. Obegränsad regenerering ingår i din Full Tillgång-prenumeration.`,
         icon: '✨',
       },
       {
@@ -264,7 +264,7 @@ Kryssa i "Gråskala"-rutan innan nedladdning för att konvertera ditt färgarbet
   // Use Cases - FULL descriptions from pattern-train.md persona sections
   useCases: {
     sectionTitle: 'Perfekt för Lärare, Föräldrar och Pedagoger',
-    sectionDescription: 'Pattern Train-generatorn möter behoven hos olika typer av pedagoger och föräldrar. Från förskoleklass till årskurs 3 skapar dessa mönster arbetsblad engagerande lärandemöjligheter. Full Access-prenumerationen ger alla användartyper tillgång till professionella verktyg för att skapa arbetsblad gratis med obegränsad kreativ frihet. Upptäck hur Pattern Train passar just dina undervisningsbehov.',
+    sectionDescription: 'Pattern Train-generatorn möter behoven hos olika typer av pedagoger och föräldrar. Från förskoleklass till årskurs 3 skapar dessa mönster arbetsblad engagerande lärandemöjligheter. Full Tillgång-prenumerationen ger alla användartyper tillgång till professionella verktyg för att skapa arbetsblad gratis med obegränsad kreativ frihet. Upptäck hur Pattern Train passar just dina undervisningsbehov.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
     showLessLabel: 'Visa mindre',
@@ -278,7 +278,7 @@ Kryssa i "Gråskala"-rutan innan nedladdning för att konvertera ditt färgarbet
 
 Kombinera mönsterigenkänning med bokstäver lära sig genom att använda bilder vars namn börjar på samma ljud. Skapa AB-mönster med Äpple-Banan-Äpple-Banan för att öva A och B-ljud. Detta integrerar fonologisk medvetenhet med matematiskt tänkande. Eleverna ser både visuella mönster och hör ljudmönster samtidigt.
 
-Lägg till textfält där eleverna kan skriva bokstäver och öva skriva bokstäver bredvid varje bild. Efter att ha slutfört mönstret kan eleverna skriva första bokstaven i varje bildnamn. Detta kombinerar mönster arbetsblad med skrivförberedande övningar perfekt för förskoleklass material. Full Access-prenumerationen låter dig skapa obegränsat med dessa integrerade lärandearbetsblad.`,
+Lägg till textfält där eleverna kan skriva bokstäver och öva skriva bokstäver bredvid varje bild. Efter att ha slutfört mönstret kan eleverna skriva första bokstaven i varje bildnamn. Detta kombinerar mönster arbetsblad med skrivförberedande övningar perfekt för förskoleklass material. Full Tillgång-prenumerationen låter dig skapa obegränsat med dessa integrerade lärandearbetsblad.`,
         quote: 'Mina elever älskar att identifiera och fortsätta mönster med tågtemat!',
       },
       {
@@ -298,7 +298,7 @@ För årskurs 2-3 kan du integrera multiplikationstabellen i mönsterarbetsblad.
         icon: '🏠',
         title: 'Hemundervisande Föräldrar',
         subtitle: 'Målarbilder Barn och Finmotorik Övningar',
-        description: `Hemundervisande föräldrar uppskattar mångsidigheten i Pattern Train för flernivåundervisning. Skapa olika mönstertyper för olika åldrar samtidigt. Förskolebarn får enkla AB-mönster. Sexåringar får AAB-mönster. Äldre barn får ABC och AABB-mönster. Samma verktyg tjänar hela familjen vilket maximerar värdet av din Full Access-prenumeration.
+        description: `Hemundervisande föräldrar uppskattar mångsidigheten i Pattern Train för flernivåundervisning. Skapa olika mönstertyper för olika åldrar samtidigt. Förskolebarn får enkla AB-mönster. Sexåringar får AAB-mönster. Äldre barn får ABC och AABB-mönster. Samma verktyg tjänar hela familjen vilket maximerar värdet av din Full Tillgång-prenumeration.
 
 Kombinera mönster arbetsblad med målarbilder barn för integrerade lärandestunder. Efter att barn slutfört mönsterigenkänningsuppgiften färglägger de bilderna. Detta ger finmotorik övningar samtidigt som det förstärker mönsterkonceptet. Barn kan färglägga mönsterelement i matchande färger vilket visualiserar mönstret ytterligare.
 
@@ -334,11 +334,11 @@ Kombinera mönster arbetsblad med finmotorik övningar genom att låta elever kl
         icon: '💰',
         title: 'Lärarentreprenörer',
         subtitle: 'Sälj Mönster Arbetsblad på Etsy och Teachers Pay Teachers',
-        description: `Lärarentreprenörer använder Pattern Train för att skapa säljbara produkter. Full Access-prenumerationens kommersiella licens låter dig sälja mönster arbetsblad på Teachers Pay Teachers, Etsy och Amazon KDP. Ingen extra licensavgift. Ingen tillskrivning krävs. Din 240 dollar per år prenumeration inkluderar fullständiga försäljningsrättigheter.
+        description: `Lärarentreprenörer använder Pattern Train för att skapa säljbara produkter. Full Tillgång-prenumerationens kommersiella licens låter dig sälja mönster arbetsblad på Teachers Pay Teachers, Etsy och Amazon KDP. Ingen extra licensavgift. Ingen tillskrivning krävs. Din 240 dollar per år prenumeration inkluderar fullständiga försäljningsrättigheter.
 
 Skapa tematiska mönsterpaket för säsongsmässig försäljning. Höstens djur-mönster paket. Vinterstjärnor mönstersamling. Vårbloммor mönsterbunt. Sommarfrukt mönsterset. Varje paket innehåller alla fem mönstertyper (AB, AAB, ABB, ABC, AABB) vilket ger värde till köpare. Inkludera både färgversioner och gråskaleversioner för högre kundnöjdhet.
 
-Kombinera mönster arbetsblad med målarbilder barn för premiumpaket. Varje paket inkluderar mönsterigenkänningsversionen plus en färgläggningsversion. Köpare får två aktiviteter i en produkt vilket motiverar högre prissättning. Många Teachers Pay Teachers-säljare tjänar 500 till 5000 dollar per månad. Din Full Access-prenumeration kan betala sig själv månadsvis genom försäljning.`,
+Kombinera mönster arbetsblad med målarbilder barn för premiumpaket. Varje paket inkluderar mönsterigenkänningsversionen plus en färgläggningsversion. Köpare får två aktiviteter i en produkt vilket motiverar högre prissättning. Många Teachers Pay Teachers-säljare tjänar 500 till 5000 dollar per månad. Din Full Tillgång-prenumeration kan betala sig själv månadsvis genom försäljning.`,
         quote: 'Min prenumeration betalade sig själv första månaden genom försäljning!',
       },
     ],
@@ -359,7 +359,7 @@ Kombinera mönster arbetsblad med målarbilder barn för premiumpaket. Varje pak
       {
         id: '1',
         question: 'Är Pattern Train-Generatorn Verkligen Gratis för Arbetsblad och Förskoleklass Material?',
-        answer: 'Pattern Train-generatorn kräver en Full Access-prenumeration som kostar 240 dollar årligen eller 25 dollar månadsvis. Din prenumeration ger dig obegränsad skapande av mönster arbetsblad utan extra avgifter per arbetsblad. Generera så många förskoleklass material och matematik arbetsblad som du behöver utan ytterligare kostnader. Grundpaketet inkluderar 10 populära arbetsblad-generatorer och kostar 144 dollar årligen. Full Access-prenumerationen kostar 240 dollar årligen och inkluderar alla 33 arbetsblad-generatorer inklusive Pattern Train. Båda prenumerationerna inkluderar kommersiell licens, 11-språksstöd och professionell 300 DPI kvalitetsexport.',
+        answer: 'Pattern Train-generatorn kräver en Full Tillgång-prenumeration som kostar 240 dollar årligen eller 25 dollar månadsvis. Din prenumeration ger dig obegränsad skapande av mönster arbetsblad utan extra avgifter per arbetsblad. Generera så många förskoleklass material och matematik arbetsblad som du behöver utan ytterligare kostnader. Grundpaketet inkluderar 10 populära arbetsblad-generatorer och kostar 144 dollar årligen. Full Tillgång-prenumerationen kostar 240 dollar årligen och inkluderar alla 33 arbetsblad-generatorer inklusive Pattern Train. Båda prenumerationerna inkluderar kommersiell licens, 11-språksstöd och professionell 300 DPI kvalitetsexport.',
       },
       {
         id: '2',
@@ -384,7 +384,7 @@ Kombinera mönster arbetsblad med målarbilder barn för premiumpaket. Varje pak
       {
         id: '6',
         question: 'Kan Jag Sälja Mönster Arbetsblad Jag Skapar på Teachers Pay Teachers?',
-        answer: 'Ja. Full Access-prenumerationen inkluderar fullständig kommersiell print-on-demand-licens utan extra kostnad. Sälj dina mönster arbetsblad på Teachers Pay Teachers, Etsy och Amazon KDP. Ingen tillskrivning krävs. Inga extra licensavgifter. Din 240 dollar per år prenumeration inkluderar kommersiella rättigheter för alla arbetsblad du skapar. Många lärare tjänar 500 till 5000 dollar per månad genom att sälja arbetsblad. Professionell 300 DPI-export gör dina produkter konkurrenskraftiga med professionellt designade arbetsblad.',
+        answer: 'Ja. Full Tillgång-prenumerationen inkluderar fullständig kommersiell print-on-demand-licens utan extra kostnad. Sälj dina mönster arbetsblad på Teachers Pay Teachers, Etsy och Amazon KDP. Ingen tillskrivning krävs. Inga extra licensavgifter. Din 240 dollar per år prenumeration inkluderar kommersiella rättigheter för alla arbetsblad du skapar. Många lärare tjänar 500 till 5000 dollar per månad genom att sälja arbetsblad. Professionell 300 DPI-export gör dina produkter konkurrenskraftiga med professionellt designade arbetsblad.',
       },
       {
         id: '7',
@@ -421,7 +421,7 @@ Kombinera mönster arbetsblad med målarbilder barn för premiumpaket. Varje pak
 
   // Pricing
   pricing: {
-    title: 'Full Access',
+    title: 'Full Tillgång',
     price: '240$',
     priceInterval: '/år',
     priceSuffix: 'Faktureras årligen',

@@ -46,6 +46,7 @@ import matchingSvContent from '@/content/product-pages/sv/matching-worksheets';
 import sudokuSvContent from '@/content/product-pages/sv/sudoku-worksheets';
 import bigSmallSvContent from '@/content/product-pages/sv/big-small-worksheets';
 import drawAndColorSvContent from '@/content/product-pages/sv/draw-and-color-worksheets';
+import crosswordSvContent from '@/content/product-pages/sv/crossword-worksheets';
 
 interface PageProps {
   params: {
@@ -533,6 +534,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/sv/apps/rutritning-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
+  // Crossword Worksheets - Swedish product page SEO (new Swedish slug)
+  if (params.slug === 'bildkorsord-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Bildkorsord Generator - Arbetsblad Gratis för Förskoleklass Material och Bokstäver Lära Sig',
+      description: 'Skapa professionella bildkorsord med vår bildkorsordsgenerator. Din Full Access-prenumeration ger dig obegränsad tillgång till att skapa korsord utan extra avgifter per arbetsblad. Generera anpassade utskrivbara bildkorsord perfekta för förskoleklass material och bokstäver lära sig aktiviteter.',
+      keywords: 'bildkorsord generator, arbetsblad gratis, förskoleklass material, bokstäver lära sig, korsord barn, bildkorsord, matematik arbetsblad, finmotorik övningar, målarbilder barn, ordförråd',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/bildkorsord-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/crossword-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildkorsord-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/crossword-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Bildkorsord Generator - Arbetsblad Gratis | LessonCraftStudio',
+        description: 'Skapa professionella bildkorsord med vår bildkorsordsgenerator. Perfekt för förskoleklass och lågstadiet.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/bildkorsord-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish crossword slug to new slug (for backwards compatibility)
+  if (params.slug === 'crossword-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Bildkorsord Generator - Arbetsblad Gratis | Förskoleklass Material',
+      description: 'Skapa professionella bildkorsord med vår bildkorsordsgenerator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/bildkorsord-arbetsblad', // Point to new URL
       },
     };
   }
@@ -4550,6 +4594,9 @@ export async function generateStaticParams() {
     'diagram-rakning-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'kodaddition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'rutritning-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'hitta-foremal-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'rutnatsmatching-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'bildkorsord-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

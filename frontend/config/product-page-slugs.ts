@@ -185,6 +185,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'image-crossword',
     slugs: {
       en: 'crossword-worksheets',
+      sv: 'bildkorsord-arbetsblad',
     },
   },
   {

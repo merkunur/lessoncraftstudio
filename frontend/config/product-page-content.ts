@@ -60,6 +60,7 @@ import codeAdditionSvContent from '@/content/product-pages/sv/code-addition-work
 import drawAndColorSvContent from '@/content/product-pages/sv/draw-and-color-worksheets';
 import findObjectsSvContent from '@/content/product-pages/sv/find-objects-worksheets';
 import gridMatchSvContent from '@/content/product-pages/sv/grid-match-worksheets';
+import crosswordSvContent from '@/content/product-pages/sv/crossword-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -178,6 +179,10 @@ export const contentRegistry: ContentRegistry = {
     'rutnatsmatching-arbetsblad': gridMatchSvContent,
     // Also keep old slug for backwards compatibility during transition
     'grid-match-worksheets': gridMatchSvContent,
+    // Swedish Crossword - uses Swedish slug
+    'bildkorsord-arbetsblad': crosswordSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'crossword-worksheets': crosswordSvContent,
   },
 };
 

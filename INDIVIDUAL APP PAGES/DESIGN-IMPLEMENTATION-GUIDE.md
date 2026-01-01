@@ -94,43 +94,92 @@
 ```
 ╔═══════════════════════════════════════════════════════════════════════════════════╗
 ║                                                                                   ║
-║   ⛔⛔⛔ RUN THIS GREP COMMAND BEFORE EVERY COMMIT ⛔⛔⛔                            ║
+║   ⛔⛔⛔ CHECK BOTH FILES BEFORE EVERY COMMIT ⛔⛔⛔                                 ║
 ║                                                                                   ║
 ║   ENGLISH WORDS ON NON-ENGLISH PAGES IS A CRITICAL FAILURE.                       ║
-║   YOU MUST CHECK FOR ENGLISH WORDS BEFORE COMMITTING.                             ║
+║   YOU MUST CHECK TWO LOCATIONS - NOT JUST THE CONTENT FILE!                       ║
 ║                                                                                   ║
 ║   ═══════════════════════════════════════════════════════════════════════════     ║
-║   FORBIDDEN ENGLISH TERMS - THESE MUST ALWAYS BE TRANSLATED:                      ║
+║   ⚠️ TWO LOCATIONS WHERE ENGLISH CAN SNEAK IN:                                    ║
 ║   ═══════════════════════════════════════════════════════════════════════════     ║
 ║                                                                                   ║
-║   English Term      │ Swedish         │ German          │ Other Languages         ║
+║   1. CONTENT FILE: frontend/content/product-pages/{locale}/*.ts                   ║
+║      └─ Contains hero text, features, FAQs, etc.                                  ║
+║                                                                                   ║
+║   2. PAGE.TSX: frontend/app/[locale]/apps/[slug]/page.tsx                         ║
+║      └─ Contains HARDCODED SEO metadata in generateMetadata()                     ║
+║      └─ This is the meta description shown in Google search results!              ║
+║      └─ MUST ALSO BE IN THE TARGET LANGUAGE!                                      ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   ⚠️ BEFORE WRITING ANY NON-ENGLISH CONTENT - ASK YOURSELF:                       ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   □ Am I about to write "Full Access"? → Use translation below!                   ║
+║   □ Am I about to write "Core Bundle"? → Use translation below!                   ║
+║   □ Am I about to write any English subscription term? → STOP AND TRANSLATE!      ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   COMPLETE TRANSLATION TABLE - ALL 11 LANGUAGES:                                  ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   "Full Access" translations (for $240/year subscription):                        ║
 ║   ─────────────────────────────────────────────────────────────────────────────   ║
-║   "Full Access"     │ "Full Tillgång" │ "Voller Zugang" │ Check translation table ║
-║   "Core Bundle"     │ "Grundpaketet"  │ "Basispaket"    │ Check translation table ║
-║   "Read more"       │ "Läs mer"       │ "Mehr lesen"    │ Check translation table ║
-║   "Show less"       │ "Visa mindre"   │ "Weniger"       │ Check translation table ║
-║   "Download"        │ "Ladda ner"     │ "Herunterladen" │ Check translation table ║
-║   "Free"            │ "Gratis"        │ "Kostenlos"     │ Check translation table ║
+║   Swedish (sv):     "Full Tillgång"                                               ║
+║   German (de):      "Voller Zugang"                                               ║
+║   French (fr):      "Accès Complet"                                               ║
+║   Spanish (es):     "Acceso Completo"                                             ║
+║   Italian (it):     "Accesso Completo"                                            ║
+║   Portuguese (pt):  "Acesso Completo"                                             ║
+║   Dutch (nl):       "Volledige Toegang"                                           ║
+║   Danish (da):      "Fuld Adgang"                                                 ║
+║   Norwegian (no):   "Full Tilgang"                                                ║
+║   Finnish (fi):     "Täysi Käyttöoikeus"                                          ║
+║                                                                                   ║
+║   "Core Bundle" translations (for $144/year subscription):                        ║
+║   ─────────────────────────────────────────────────────────────────────────────   ║
+║   Swedish (sv):     "Grundpaketet"                                                ║
+║   German (de):      "Basispaket"                                                  ║
+║   French (fr):      "Pack de Base"                                                ║
+║   Spanish (es):     "Paquete Básico"                                              ║
+║   Italian (it):     "Pacchetto Base"                                              ║
+║   Portuguese (pt):  "Pacote Básico"                                               ║
+║   Dutch (nl):       "Basispakket"                                                 ║
+║   Danish (da):      "Grundpakke"                                                  ║
+║   Norwegian (no):   "Grunnpakke"                                                  ║
+║   Finnish (fi):     "Peruspaketti"                                                ║
 ║                                                                                   ║
 ║   ═══════════════════════════════════════════════════════════════════════════     ║
-║   REAL FAILURE CASE (January 2026):                                               ║
+║   🔴 REAL FAILURE CASE #1 (January 2026) - Content File:                          ║
 ║   ═══════════════════════════════════════════════════════════════════════════     ║
 ║                                                                                   ║
-║   ❌ Swedish Pattern Worksheets page had "Full Access" in 11 places               ║
+║   ❌ Swedish Pattern Worksheets content file had "Full Access" in 11 places       ║
 ║      instead of "Full Tillgång"                                                   ║
 ║                                                                                   ║
-║   The page looked unprofessional with English mixed into Swedish text.            ║
-║   This destroys SEO value and user trust.                                         ║
-║                                                                                   ║
 ║   ═══════════════════════════════════════════════════════════════════════════     ║
-║   GREP CHECK - RUN THIS BEFORE EVERY NON-ENGLISH PAGE COMMIT:                     ║
+║   🔴 REAL FAILURE CASE #2 (January 2026) - page.tsx:                              ║
 ║   ═══════════════════════════════════════════════════════════════════════════     ║
 ║                                                                                   ║
-║   grep -n "Full Access\|Core Bundle\|Read more\|Show less" {your-file}.ts         ║
+║   ❌ page.tsx generateMetadata() had hardcoded "Full Access-prenumeration"        ║
+║      in the Swedish meta description                                              ║
+║   ❌ Content file was CORRECT, but page.tsx was ENGLISH                           ║
+║   ❌ Took multiple rebuilds to diagnose because grep on content files             ║
+║      showed 0 matches - the English was hidden in page.tsx!                       ║
 ║                                                                                   ║
-║   If ANY matches found → FIX THEM before committing!                              ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   GREP CHECK - RUN BOTH COMMANDS BEFORE EVERY NON-ENGLISH COMMIT:                 ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   # CHECK 1: Content file                                                         ║
+║   grep -n "Full Access\|Core Bundle" frontend/content/product-pages/sv/*.ts      ║
+║                                                                                   ║
+║   # CHECK 2: page.tsx SEO metadata (CRITICAL - DON'T FORGET THIS!)                ║
+║   grep -n "Full Access\|Core Bundle" frontend/app/[locale]/apps/[slug]/page.tsx  ║
+║                                                                                   ║
+║   If ANY matches found in EITHER file → FIX THEM before committing!               ║
 ║                                                                                   ║
 ║   THERE ARE NO EXCEPTIONS. EVERY WORD MUST BE IN THE TARGET LANGUAGE.             ║
+║   THIS INCLUDES THE SEO META DESCRIPTION IN page.tsx!                             ║
 ║                                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════════════════════╝
 ```

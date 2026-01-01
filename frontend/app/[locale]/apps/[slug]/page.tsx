@@ -503,7 +503,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (params.slug === 'rutritning-arbetsblad' && params.locale === 'sv') {
     return {
       title: 'Målarbilder Barn och Ritövningar - Arbetsblad Gratis för Förskoleklass Material',
-      description: 'Skapa professionella målarbilder barn med vårt rutnätstekniska verktyg. Med Full Access-prenumerationen får du obegränsad tillgång till ritövningar och målarbilder barn utan extra avgifter. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar.',
+      description: 'Skapa professionella målarbilder barn med vårt rutnätstekniska verktyg. Med Full Tillgång-prenumerationen får du obegränsad tillgång till ritövningar och målarbilder barn utan extra avgifter. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar.',
       keywords: 'målarbilder barn, ritövningar, arbetsblad gratis, förskoleklass material, finmotorik övningar, rutnätsteknik, matematik arbetsblad, bokstäver lära sig, siffror och tal, rutnätsritning',
       robots: {
         index: true,
@@ -546,7 +546,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (params.slug === 'bildkorsord-arbetsblad' && params.locale === 'sv') {
     return {
       title: 'Bildkorsord Generator - Arbetsblad Gratis för Förskoleklass Material och Bokstäver Lära Sig',
-      description: 'Skapa professionella bildkorsord med vår bildkorsordsgenerator. Din Full Access-prenumeration ger dig obegränsad tillgång till att skapa korsord utan extra avgifter per arbetsblad. Generera anpassade utskrivbara bildkorsord perfekta för förskoleklass material och bokstäver lära sig aktiviteter.',
+      description: 'Skapa professionella bildkorsord med vår bildkorsordsgenerator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till att skapa korsord utan extra avgifter per arbetsblad. Generera anpassade utskrivbara bildkorsord perfekta för förskoleklass material och bokstäver lära sig aktiviteter.',
       keywords: 'bildkorsord generator, arbetsblad gratis, förskoleklass material, bokstäver lära sig, korsord barn, bildkorsord, matematik arbetsblad, finmotorik övningar, målarbilder barn, ordförråd',
       robots: {
         index: true,
@@ -632,7 +632,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (params.slug === 'saknade-bitar-arbetsblad' && params.locale === 'sv') {
     return {
       title: 'Saknade Bitar Arbetsblad Gratis - Generator för Förskoleklass Material och Finmotorik Övningar',
-      description: 'Skapa professionella arbetsblad med saknade bitar på bara tre minuter. Din Full Access-prenumeration ger dig obegränsad skapande av saknade bitar-pussel utan extra kostnader per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar.',
+      description: 'Skapa professionella arbetsblad med saknade bitar på bara tre minuter. Din Full Tillgång-prenumeration ger dig obegränsad skapande av saknade bitar-pussel utan extra kostnader per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar.',
       keywords: 'saknade bitar arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, matematik arbetsblad, bokstäver lära sig, siffror och tal, matte övningar, målarbilder barn, visuella pussel',
       robots: {
         index: true,
@@ -718,7 +718,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (params.slug === 'monster-arbetsblad' && params.locale === 'sv') {
     return {
       title: 'Mönsterigenkänning Arbetsblad Gratis | Matematik Arbetsblad Generator för Förskoleklass Material',
-      description: 'Skapa professionella mönsterigenkänning arbetsblad med vår digitala generator. Din Full Access-prenumeration ger dig obegränsad tillgång till arbetsblad utan extra kostnader. Generera anpassade arbetsblad gratis för förskoleklass och lågstadiet.',
+      description: 'Skapa professionella mönsterigenkänning arbetsblad med vår digitala generator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till arbetsblad utan extra kostnader. Generera anpassade arbetsblad gratis för förskoleklass och lågstadiet.',
       keywords: 'mönsterigenkänning arbetsblad, arbetsblad gratis, förskoleklass material, matematik arbetsblad, matte övningar, siffror och tal, bokstäver lära sig, finmotorik övningar, målarbilder barn, lågstadiet',
       robots: {
         index: true,

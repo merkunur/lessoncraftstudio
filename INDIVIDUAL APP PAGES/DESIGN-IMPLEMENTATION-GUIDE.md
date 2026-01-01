@@ -282,99 +282,58 @@ Every item in `samples.items` MUST have ALL of these properties:
 
 ---
 
-## 🚨🚨🚨 CRITICAL: HERO TITLE LENGTH LIMITS 🚨🚨🚨
+## Hero Title Best Practices
 
-```
-╔═══════════════════════════════════════════════════════════════════════════════════╗
-║                                                                                   ║
-║   HERO TITLES WILL BE CUT OFF IF THEY'RE TOO LONG!                                ║
-║                                                                                   ║
-║   The HeroSection component has these constraints:                                ║
-║   • Container: max-w-2xl (672px)                                                  ║
-║   • Font size: xl:text-8xl (96px at large screens)                                ║
-║   • Titles are split at word boundaries for two-tone styling                      ║
-║                                                                                   ║
-║   ═══════════════════════════════════════════════════════════════════════════     ║
-║   MANDATORY LIMITS - FOLLOW THESE OR TITLES WILL BE CUT OFF:                      ║
-║   ═══════════════════════════════════════════════════════════════════════════     ║
-║                                                                                   ║
-║   📏 MAXIMUM WORD LENGTH: 12 characters                                           ║
-║      ❌ "Bildkryptogram" (14 chars) - TOO LONG, will be cut off                   ║
-║      ❌ "Rutnätsmatching" (15 chars) - TOO LONG, will be cut off                  ║
-║      ✅ "Bild Kryptogram" (split: 4+10 chars) - OK                                ║
-║      ✅ "Rutnäts Match" (split: 7+5 chars) - OK                                   ║
-║                                                                                   ║
-║   📏 MAXIMUM TITLE LENGTH: 2-4 words, 25 characters total                         ║
-║      ✅ "Bildkorsord Arbetsblad" (22 chars, 2 words) - OK                         ║
-║      ✅ "Addition Worksheets" (19 chars, 2 words) - OK                            ║
-║      ❌ "Arbetsbladsgenerator för Bildkryptogram" (40 chars) - TOO LONG           ║
-║                                                                                   ║
-║   🔧 HOW TO FIX LONG SWEDISH/NORDIC COMPOUND WORDS:                               ║
-║      Split them with a space! Swedish allows this for clarity.                    ║
-║      • "Bildkryptogram" → "Bild Kryptogram"                                       ║
-║      • "Rutnätsmatching" → "Rutnäts Match" (or "Rutnäts Matchning")              ║
-║      • "Ordletarpussel" → "Ordletar Pussel"                                       ║
-║                                                                                   ║
-║   ⚠️  ALWAYS TEST AFTER CREATING A NEW PRODUCT PAGE:                              ║
-║      1. Load the page at full width (1920px+)                                     ║
-║      2. Check if any words are cut off in the hero title                          ║
-║      3. If cut off: shorten the title by splitting compound words                 ║
-║                                                                                   ║
-╚═══════════════════════════════════════════════════════════════════════════════════╝
+The HeroSection component **automatically handles long titles** with smart responsive design:
+
+### Automatic Features (No Action Required)
+
+| Feature | Description |
+|---------|-------------|
+| **Fluid Font Sizing** | Uses CSS `clamp()` - automatically scales based on viewport size |
+| **Dynamic Title Sizing** | Shorter titles display larger, longer titles use smaller readable fonts |
+| **Word Breaking** | `break-words` class ensures long words wrap instead of overflow |
+| **Language-Aware Hyphenation** | `hyphens-auto` with `lang` attribute enables proper hyphenation |
+
+### How Title Sizing Works
+
+The component automatically adjusts font size based on title length:
+
+| Title Length | Font Size | Example |
+|--------------|-----------|---------|
+| Under 35 chars | Large & dramatic | "Addition Worksheets" |
+| 35-50 chars | Medium size | "Sorteringsaktiviteter Barn - Arbetsblad" |
+| Over 50 chars | Smaller, readable | "Sorteringsaktiviteter Barn - Arbetsblad Gratis" |
+
+```typescript
+// HeroSection.tsx - Automatic font sizing
+const getTitleFontSize = (title: string): string => {
+  const charCount = title.length;
+  if (charCount > 50) return 'clamp(1.75rem, 4vw + 0.5rem, 3.5rem)';
+  if (charCount > 35) return 'clamp(2rem, 4.5vw + 0.75rem, 4rem)';
+  return 'clamp(2.25rem, 5vw + 1rem, 4.5rem)';
+};
 ```
 
-### Hero Title Examples by Language
+### Tips for Best Visual Results
 
-| Language | ❌ BAD (Too Long) | ✅ GOOD (Split/Shortened) |
-|----------|------------------|---------------------------|
-| Swedish | Mönsterigenkänning Arbetsblad (18 chars!) | Mönster Arbetsblad Gratis |
-| Swedish | Bildkryptogram Generator | Bild Kryptogram |
-| Swedish | Rutnätsmatching Arbetsblad | Rutnäts Match |
-| Swedish | Ordletarpussel Generator | Ordletar Arbetsblad |
-| German | Kreuzworträtselgenerator | Kreuzworträtsel Generator |
-| Danish | Undervisningsmaterialer | Undervisnings Materialer |
-| Finnish | Sanaristikkotyöarkit | Sanaristikko Työarkit |
+**No character limits required** - but for optimal visual impact:
 
-### ⚠️ Pattern Worksheets Failure Case Study (January 2026)
+- **Shorter titles (under 35 chars)** display larger and more dramatic
+- **Use SEO keywords** in your title - they rank well AND fit naturally
+- **Compound words will hyphenate** when needed (e.g., "Sorterings-aktiviteter")
 
-The Swedish Pattern Worksheets page was created with:
-```
-title: 'Mönsterigenkänning Arbetsblad Gratis för Förskoleklass Material'
-```
+### Two-Tone Title Effect
 
-**Result on screen:** "Mönsterigenkä" (cut off after 13 characters due to container overflow)
+Titles are split at the midpoint by word count:
+- **First half**: White gradient text
+- **Second half**: Cyan → Purple → Pink gradient text
 
-**Why it failed:**
-- "Mönsterigenkänning" = 18 characters (exceeds 12 char limit by 50%!)
-- Total title = 58 characters (exceeds 25 char limit by 132%!)
-
-**The fix:**
-```
-title: 'Mönster Arbetsblad Gratis'
-```
-
-**Why this works:**
-- "Mönster" = 7 chars ✓
-- "Arbetsblad" = 10 chars ✓
-- "Gratis" = 6 chars ✓
-- Total = 23 chars ✓ (under 25)
-
-**Lesson learned:** ALWAYS count characters BEFORE writing. No exceptions.
-
-### Technical Details
-
-The HeroSection.tsx (lines 138-141) splits titles at the midpoint by word count:
 ```typescript
 const titleWords = title.split(' ');
 const firstPart = titleWords.slice(0, Math.ceil(titleWords.length / 2)).join(' ');
 const secondPart = titleWords.slice(Math.ceil(titleWords.length / 2)).join(' ');
 ```
-
-This creates the two-tone effect:
-- First half: White gradient text
-- Second half: Cyan → Purple → Pink gradient text
-
-If a single word is too long, it cannot be split and will overflow the container.
 
 ---
 

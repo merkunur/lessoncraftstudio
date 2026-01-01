@@ -46,6 +46,14 @@ const defaultFloatingStats = {
   quality: '300 DPI',
 };
 
+// Dynamic font sizing based on title length - prevents text cutoff on long titles
+const getTitleFontSize = (title: string): string => {
+  const charCount = title.length;
+  if (charCount > 50) return 'clamp(1.75rem, 4vw + 0.5rem, 3.5rem)';
+  if (charCount > 35) return 'clamp(2rem, 4.5vw + 0.75rem, 4rem)';
+  return 'clamp(2.25rem, 5vw + 1rem, 4.5rem)';
+};
+
 // Collapsible text component - shows SHORT text by default
 function CollapsibleText({
   text,
@@ -225,7 +233,7 @@ export default function HeroSection({
         <div className="grid lg:grid-cols-12 gap-12 lg:gap-8 items-center min-h-[80vh]">
           {/* Left column - Text content */}
           <motion.div
-            className="lg:col-span-7 max-w-2xl"
+            className="lg:col-span-7"
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
@@ -247,23 +255,23 @@ export default function HeroSection({
               </span>
             </motion.div>
 
-            {/* Main title - Bold and dramatic */}
+            {/* Main title - Responsive with word-break support */}
             <motion.h1
-              className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black tracking-tight leading-[1.1] mb-8"
+              className="font-black tracking-tight leading-[1.15] mb-8 break-words hyphens-auto"
+              style={{
+                fontSize: getTitleFontSize(title),
+                fontFamily: "'Space Grotesk', 'Inter', system-ui, sans-serif",
+                fontWeight: 900,
+              }}
+              lang={locale}
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.8 }}
             >
-              <span
-                className="block text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/80"
-                style={{ fontFamily: "'Space Grotesk', 'Inter', system-ui, sans-serif", fontWeight: 900 }}
-              >
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-white via-white to-white/80">
                 {firstPart}
               </span>
-              <span
-                className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 pb-2"
-                style={{ fontFamily: "'Space Grotesk', 'Inter', system-ui, sans-serif", fontWeight: 900 }}
-              >
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 pb-2">
                 {secondPart}
               </span>
             </motion.h1>

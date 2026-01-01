@@ -30,7 +30,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
   'word-search': {
     en: 'word-search-worksheets',
     sv: 'ordletar-arbetsblad',
-    de: 'wortsuche-arbeitsblaetter',
+    de: 'suchsel-arbeitsblaetter',
     fr: 'mots-caches-fiches',
     es: 'sopa-letras-fichas',
     it: 'cerca-parole-schede',

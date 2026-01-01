@@ -25,7 +25,7 @@ export const wordScrambleSvContent: ProductPageContent = {
   hero: {
     title: 'Ordpussel Generator',
     subtitle: 'Arbetsblad Gratis för Bokstäver Lära Sig - Förskoleklass Material',
-    description: `Skapa professionella ordpussel med vår ordpussel-generator. Din Core Bundle-prenumeration ger dig obegränsad ordpusselgenerering utan extra kostnader per arbetsblad. Generera anpassningsbara arbetsblad gratis för utskrift perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
+    description: `Skapa professionella ordpussel med vår ordpussel-generator. Din Grundpaket-prenumeration ger dig obegränsad ordpusselgenerering utan extra kostnader per arbetsblad. Generera anpassningsbara arbetsblad gratis för utskrift perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Vår ordpussel-generator är perfekt för att träna bokstäver lära sig och skriva bokstäver. Barn älskar att lösa ordpussel där bokstäverna i ett ord är blandade. Varje pussel hjälper barn att känna igen bokstavsmönster och öva stavning. Välj mellan bildbaserade pussel eller textbaserade övningar med din egen ordlista.
 
@@ -109,7 +109,7 @@ Generatorn skapar vackra arbetsblad med professionell 300 DPI-kvalitet. Perfekt 
 
 Välj antal pussel per sida från 1 till 10. Anpassa svårighetsgrad med ledtrådar eller utan ledtrådar. Perfekt för att skapa förskoleklass material och arbetsblad för lågstadiet. Varje pussel genereras direkt på arbetsytan.
 
-Använd ordpussel tillsammans med matematik arbetsblad och addition och subtraktion övningar. Skapa kompletta läropaket för olika ämnen. Din Core Bundle-prenumeration ger obegränsad generering av arbetsblad gratis för utskrift.`,
+Använd ordpussel tillsammans med matematik arbetsblad och addition och subtraktion övningar. Skapa kompletta läropaket för olika ämnen. Din Grundpaket-prenumeration ger obegränsad generering av arbetsblad gratis för utskrift.`,
         highlighted: false,
       },
       {
@@ -131,7 +131,7 @@ Kombinera ordpussel med målarbilder barn på samma arbetsblad. Lägg till finmo
 
 Perfekt för att skapa ordpussel med elevernas namn och foton. Använd bilder från klassrummet eller temaenheter ni arbetar med. Skapa arbetsblad gratis med helt personligt innehåll för dina elever. Bilderna sparas i sessionen för upprepad användning.
 
-Kombinera egenuppladdade bilder med matematik arbetsblad och siffror och tal övningar. Skapa temaarbetsblad med bilder från högtider eller årstider. Din Core Bundle-prenumeration tillåter obegränsad bilduppladdning utan extra kostnader.`,
+Kombinera egenuppladdade bilder med matematik arbetsblad och siffror och tal övningar. Skapa temaarbetsblad med bilder från högtider eller årstider. Din Grundpaket-prenumeration tillåter obegränsad bilduppladdning utan extra kostnader.`,
         highlighted: false,
       },
       {

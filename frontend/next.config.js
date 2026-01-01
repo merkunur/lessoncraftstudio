@@ -246,6 +246,12 @@ const nextConfig = {
         destination: '/sv/apps/prepositioner-arbetsblad',
         permanent: true,
       },
+      // Swedish: shadow-match-worksheets → skuggmatchning-arbetsblad
+      {
+        source: '/sv/apps/shadow-match-worksheets',
+        destination: '/sv/apps/skuggmatchning-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -262,6 +262,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'shadow-match',
     slugs: {
       en: 'shadow-match-worksheets',
+      sv: 'skuggmatchning-arbetsblad',
     },
   },
   {

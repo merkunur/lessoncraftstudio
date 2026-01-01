@@ -51,6 +51,7 @@ import mathPuzzleSvContent from '@/content/product-pages/sv/math-puzzle-workshee
 import oddOneOutSvContent from '@/content/product-pages/sv/odd-one-out-worksheets';
 import patternTrainSvContent from '@/content/product-pages/sv/pattern-train-worksheets';
 import patternWorksheetsSvContent from '@/content/product-pages/sv/pattern-worksheets';
+import shadowMatchSvContent from '@/content/product-pages/sv/shadow-match-worksheets';
 
 interface PageProps {
   params: {
@@ -796,6 +797,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/sv/apps/prepositioner-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
+  // Swedish Shadow Match Worksheets product page SEO
+  if (params.slug === 'skuggmatchning-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Skuggmatchning Arbetsblad Gratis - Förskoleklass Material för Visuell Perception',
+      description: 'Skapa professionella skuggmatchningsövningar med vår skuggmatchningsgenerator. Generera anpassade utskrivbara skuggmatchningsarbetsblad perfekta för förskoleklass material och finmotorik övningar. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
+      keywords: 'skuggmatchning arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, visuell perception, matcha skuggor, gör det helt, svenska arbetsblad, lågstadiet material',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/skuggmatchning-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/shadow-match-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/skuggmatchning-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/shadow-match-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Skuggmatchning Arbetsblad Gratis | LessonCraftStudio',
+        description: 'Skapa professionella skuggmatchningsövningar för förskoleklass och lågstadiet. Perfekt för att utveckla visuell perception.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/skuggmatchning-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish shadow-match slug to new slug (for backwards compatibility)
+  if (params.slug === 'shadow-match-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Skuggmatchning Arbetsblad Gratis | Förskoleklass Material',
+      description: 'Skapa professionella skuggmatchningsövningar för förskoleklass och lågstadiet.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/skuggmatchning-arbetsblad', // Point to new URL
       },
     };
   }
@@ -4825,6 +4869,7 @@ export async function generateStaticParams() {
     'bildlabyrint-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for picture-path
     'bildsortering-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for picture-sort
     'prepositioner-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for prepositions
+    'skuggmatchning-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for shadow-match
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

@@ -38,6 +38,7 @@ import wordGuessEnContent from '@/content/product-pages/en/word-guess-worksheets
 import writingEnContent from '@/content/product-pages/en/writing-worksheets';
 import wordSearchSvContent from '@/content/product-pages/sv/word-search-worksheets';
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
+import alphabetTrainDeContent from '@/content/product-pages/de/alphabet-train-worksheets';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -203,6 +204,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/suchsel-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // Alphabet Train Worksheets - German product page SEO (new German slug)
+  if (params.slug === 'alphabet-zug-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Alphabet-Zug Generator - Kostenlose Arbeitsblätter Grundschule zum Buchstaben lernen',
+      description: 'Erstellen Sie professionelle Arbeitsblätter zum Buchstaben lernen mit unserem Alphabet-Zug Generator. Perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule. Kombinieren Sie mit Schwungübungen und Ausmalbilder für komplette Lernpakete.',
+      keywords: 'alphabet zug, buchstaben lernen, arbeitsblätter grundschule, vorschule arbeitsblätter, kostenlose arbeitsblätter, deutsch arbeitsblätter, schwungübungen, ausmalbilder, abc lernen, alphabet arbeitsblätter',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/alphabet-zug-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/alphabet-train-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/alfabettag-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/alphabet-zug-arbeitsblaetter',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/alphabet-train-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Alphabet-Zug Generator - Kostenlose Arbeitsblätter Grundschule | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Arbeitsblätter zum Buchstaben lernen mit unserem Alphabet-Zug Generator. Perfekt für Vorschule und Grundschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/alphabet-zug-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German alphabet-train slug to new slug (for backwards compatibility)
+  if (params.slug === 'alphabet-train-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Alphabet-Zug Generator - Kostenlose Arbeitsblätter Grundschule',
+      description: 'Erstellen Sie professionelle Alphabet-Zug Arbeitsblätter mit unserem kostenlosen Generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/alphabet-zug-arbeitsblaetter', // Point to new URL
       },
     };
   }
@@ -5077,6 +5122,7 @@ export async function generateStaticParams() {
     'addition-worksheets', // Product page slug
     'word-search-worksheets', // Product page slug (English)
     'suchsel-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
+    'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

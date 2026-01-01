@@ -73,6 +73,7 @@ import pictureSortSvContent from '@/content/product-pages/sv/picture-sort-worksh
 import prepositionsSvContent from '@/content/product-pages/sv/prepositions-worksheets';
 import shadowMatchSvContent from '@/content/product-pages/sv/shadow-match-worksheets';
 import subtractionSvContent from '@/content/product-pages/sv/subtraction-worksheets';
+import treasureHuntSvContent from '@/content/product-pages/sv/treasure-hunt-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -243,6 +244,10 @@ export const contentRegistry: ContentRegistry = {
     'subtraktion-arbetsblad': subtractionSvContent,
     // Also keep old slug for backwards compatibility during transition
     'subtraction-worksheets': subtractionSvContent,
+    // Swedish Treasure Hunt - uses Swedish slug
+    'skattjakt-arbetsblad': treasureHuntSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'treasure-hunt-worksheets': treasureHuntSvContent,
   },
 };
 

@@ -53,6 +53,7 @@ import patternTrainSvContent from '@/content/product-pages/sv/pattern-train-work
 import patternWorksheetsSvContent from '@/content/product-pages/sv/pattern-worksheets';
 import shadowMatchSvContent from '@/content/product-pages/sv/shadow-match-worksheets';
 import subtractionSvContent from '@/content/product-pages/sv/subtraction-worksheets';
+import treasureHuntSvContent from '@/content/product-pages/sv/treasure-hunt-worksheets';
 
 interface PageProps {
   params: {
@@ -884,6 +885,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/sv/apps/subtraktion-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
+  // Swedish Treasure Hunt Worksheets product page SEO
+  if (params.slug === 'skattjakt-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Gratis Skattjakt Arbetsblad | Riktningsövningar för Förskoleklass Material',
+      description: 'Skapa professionella skattjakt arbetsblad med vår generator. Generera anpassade utskrivbara riktningsövningar perfekta för förskoleklass material och lågstadiet. Ladda ner PDF på under 3 minuter.',
+      keywords: 'skattjakt arbetsblad, riktningsövningar, förskoleklass material, arbetsblad gratis, bokstäver lära sig, väderstreck, upp ner vänster höger, elev material, lågstadiet, finmotorik övningar',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/skattjakt-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/skattjakt-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/treasure-hunt-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Gratis Skattjakt Arbetsblad | LessonCraftStudio',
+        description: 'Skapa professionella skattjakt arbetsblad för förskoleklass och lågstadiet. Perfekt för riktningsövningar och spatial medvetenhet.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/skattjakt-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish treasure hunt slug to new slug (for backwards compatibility)
+  if (params.slug === 'treasure-hunt-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Gratis Skattjakt Arbetsblad | Förskoleklass Material',
+      description: 'Skapa professionella skattjakt arbetsblad för förskoleklass och lågstadiet.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/skattjakt-arbetsblad', // Point to new URL
       },
     };
   }
@@ -4915,6 +4959,7 @@ export async function generateStaticParams() {
     'prepositioner-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for prepositions
     'skuggmatchning-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for shadow-match
     'subtraktion-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for subtraction
+    'skattjakt-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for treasure-hunt
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

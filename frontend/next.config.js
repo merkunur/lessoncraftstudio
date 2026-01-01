@@ -258,6 +258,12 @@ const nextConfig = {
         destination: '/sv/apps/subtraktion-arbetsblad',
         permanent: true,
       },
+      // Swedish: treasure-hunt-worksheets → skattjakt-arbetsblad
+      {
+        source: '/sv/apps/treasure-hunt-worksheets',
+        destination: '/sv/apps/skattjakt-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

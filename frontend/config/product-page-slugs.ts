@@ -171,6 +171,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'find-objects',
     slugs: {
       en: 'find-objects-worksheets',
+      sv: 'hitta-foremal-arbetsblad',
     },
   },
   {

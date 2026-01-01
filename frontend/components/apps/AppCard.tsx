@@ -114,6 +114,10 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     en: 'draw-and-color-worksheets',
     sv: 'rutritning-arbetsblad',
   },
+  'find-objects': {
+    en: 'find-objects-worksheets',
+    sv: 'hitta-foremal-arbetsblad',
+  },
 };
 
 // Helper function to get the product page slug for an app in a specific locale

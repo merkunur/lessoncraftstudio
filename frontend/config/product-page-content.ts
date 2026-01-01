@@ -58,6 +58,7 @@ import bigSmallSvContent from '@/content/product-pages/sv/big-small-worksheets';
 import chartCountSvContent from '@/content/product-pages/sv/chart-count-worksheets';
 import codeAdditionSvContent from '@/content/product-pages/sv/code-addition-worksheets';
 import drawAndColorSvContent from '@/content/product-pages/sv/draw-and-color-worksheets';
+import findObjectsSvContent from '@/content/product-pages/sv/find-objects-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -168,6 +169,10 @@ export const contentRegistry: ContentRegistry = {
     'rutritning-arbetsblad': drawAndColorSvContent,
     // Also keep old slug for backwards compatibility during transition
     'draw-and-color-worksheets': drawAndColorSvContent,
+    // Swedish Find Objects - uses Swedish slug
+    'hitta-foremal-arbetsblad': findObjectsSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'find-objects-worksheets': findObjectsSvContent,
   },
 };
 

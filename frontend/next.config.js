@@ -264,6 +264,12 @@ const nextConfig = {
         destination: '/sv/apps/skattjakt-arbetsblad',
         permanent: true,
       },
+      // Swedish: word-guess-worksheets → gissa-ordet-arbetsblad
+      {
+        source: '/sv/apps/word-guess-worksheets',
+        destination: '/sv/apps/gissa-ordet-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

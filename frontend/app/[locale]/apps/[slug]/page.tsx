@@ -54,6 +54,7 @@ import patternWorksheetsSvContent from '@/content/product-pages/sv/pattern-works
 import shadowMatchSvContent from '@/content/product-pages/sv/shadow-match-worksheets';
 import subtractionSvContent from '@/content/product-pages/sv/subtraction-worksheets';
 import treasureHuntSvContent from '@/content/product-pages/sv/treasure-hunt-worksheets';
+import wordGuessSvContent from '@/content/product-pages/sv/word-guess-worksheets';
 
 interface PageProps {
   params: {
@@ -1611,6 +1612,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: `https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets`,
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/gissa-ordet-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
+        },
       },
       openGraph: {
         title: 'Free Printable Word Guess Worksheets | LessonCraftStudio',
@@ -1618,6 +1624,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         url: 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
+      },
+    };
+  }
+
+  // Swedish Word Guess Worksheets product page SEO
+  if (params.slug === 'gissa-ordet-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Gissa Ordet Generator - Arbetsblad Gratis för Bokstäver Lära Sig | Förskoleklass Material',
+      description: 'Skapa professionella gissa-ordet-arbetsblad med vår generator. Generera anpassade arbetsblad gratis perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
+      keywords: 'gissa ordet generator, arbetsblad gratis, förskoleklass material, bokstäver lära sig, skriva bokstäver, ordgissning, matematik arbetsblad, finmotorik övningar, målarbilder barn, lågstadiet',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/gissa-ordet-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/gissa-ordet-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/word-guess-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Gissa Ordet Generator - Arbetsblad Gratis | LessonCraftStudio',
+        description: 'Skapa professionella gissa-ordet-arbetsblad för förskoleklass och lågstadiet. Perfekt för bokstäver lära sig och stavningsträning.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/gissa-ordet-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish word-guess slug to new slug (for backwards compatibility)
+  if (params.slug === 'word-guess-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Gissa Ordet Generator - Arbetsblad Gratis | Förskoleklass Material',
+      description: 'Skapa professionella gissa-ordet-arbetsblad för förskoleklass och lågstadiet.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/gissa-ordet-arbetsblad', // Point to new URL
       },
     };
   }
@@ -4960,6 +5009,7 @@ export async function generateStaticParams() {
     'skuggmatchning-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for shadow-match
     'subtraktion-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for subtraction
     'skattjakt-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for treasure-hunt
+    'gissa-ordet-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for word-guess
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

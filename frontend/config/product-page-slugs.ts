@@ -283,6 +283,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'word-guess',
     slugs: {
       en: 'word-guess-worksheets',
+      sv: 'gissa-ordet-arbetsblad',
     },
   },
   {

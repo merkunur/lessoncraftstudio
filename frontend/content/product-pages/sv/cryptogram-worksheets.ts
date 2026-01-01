@@ -23,7 +23,7 @@ export const cryptogramSvContent: ProductPageContent = {
 
   // Hero Section - FULL text from cryptogram.md paragraphs 1-4
   hero: {
-    title: 'Bildkryptogram Generator',
+    title: 'Bild Kryptogram',
     subtitle: 'Arbetsblad Gratis för Bokstäver Lära Sig och Matematik Arbetsblad',
     description: `Skapa professionella bildkryptogram med vår bildkryptogram-generator. Din Full Access-prenumeration ger dig obegränsad skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade utskrivbara bildkryptogram perfekta för förskoleklass material och lågstadiebarn. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 

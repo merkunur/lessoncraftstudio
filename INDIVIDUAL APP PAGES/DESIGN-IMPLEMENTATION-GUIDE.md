@@ -46,6 +46,160 @@
 
 ---
 
+## 🔢 MANDATORY WORKFLOW - FOLLOW EVERY STEP IN ORDER 🔢
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   COMPLETE THESE STEPS IN ORDER - DO NOT SKIP ANY STEP                            ║
+║   DO NOT SAY "DONE" UNTIL YOU REACH STEP 7                                        ║
+║                                                                                   ║
+║   □ STEP 1: Create content file                                                   ║
+║             frontend/content/product-pages/{locale}/{app-slug}.ts                 ║
+║                                                                                   ║
+║   □ STEP 2: Update 5 configuration files                                          ║
+║             • product-page-content.ts (add import + registry)                     ║
+║             • product-page-slugs.ts (add locale slug)                             ║
+║             • AppCard.tsx (add slug mapping)                                      ║
+║             • page.tsx (add import, metadata, staticParams)                       ║
+║             • next.config.js (add 301 redirect for non-English)                   ║
+║                                                                                   ║
+║   □ STEP 3: Verify TypeScript compiles (use IDE diagnostics)                      ║
+║                                                                                   ║
+║   □ STEP 4: git add, commit, push                                                 ║
+║                                                                                   ║
+║   □ STEP 5: Deploy to server                                                      ║
+║             plink ... "git pull && npm run build && pm2 restart"                  ║
+║                                                                                   ║
+║   □ STEP 6: Copy samples to standalone directory                                  ║
+║             plink ... "cp -r samples standalone/samples"                          ║
+║                                                                                   ║
+║   □ STEP 7: VERIFY LIVE URLs return HTTP 200                                      ║
+║             • Page URL must return 200                                            ║
+║             • Sample image URL must return 200                                    ║
+║             • PDF download URL must return 200                                    ║
+║             • (Non-English) Redirect from English slug must return 308            ║
+║                                                                                   ║
+║   ════════════════════════════════════════════════════════════════════════════    ║
+║                                                                                   ║
+║   ✅ TASK IS COMPLETE ONLY WHEN STEP 7 PASSES                                     ║
+║                                                                                   ║
+║   ❌ "Files created" = STEP 1-2 ONLY - NOT DONE                                   ║
+║   ❌ "TypeScript verified" = STEP 3 ONLY - NOT DONE                               ║
+║   ❌ "Committed to git" = STEP 4 ONLY - NOT DONE                                  ║
+║   ❌ "Deployed to server" = STEP 5-6 ONLY - NOT DONE                              ║
+║   ✅ "Live URL returns 200" = STEP 7 = DONE                                       ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## ⚡ QUICK REFERENCE - CHECK BEFORE WRITING ⚡
+
+### Product Name Translations (NEVER use English on non-English pages!)
+
+| English | Swedish | German | French | Spanish | Italian |
+|---------|---------|--------|--------|---------|---------|
+| **Core Bundle** | Grundpaketet | Basispaket | Forfait de Base | Paquete Básico | Pacchetto Base |
+| **Full Access** | Full Tillgång | Voller Zugang | Accès Complet | Acceso Completo | Accesso Completo |
+
+### Required Sample Properties (TypeScript will FAIL if missing!)
+
+Every item in `samples.items` MUST have ALL of these properties:
+
+```typescript
+{
+  id: string,           // REQUIRED - Unique identifier (e.g., '1', '2', '3')
+  worksheetSrc: string, // REQUIRED - Path to worksheet image
+  answerKeySrc: string, // REQUIRED - Path to answer key (use '' for coloring pages!)
+  altText: string,      // REQUIRED - Alt text in TARGET language
+  pdfDownloadUrl?: string, // Optional but recommended - enables PDF download
+}
+```
+
+**⚠️ `answerKeySrc` is NOT optional!** Use empty string `''` for apps without answer keys (coloring, drawing, etc.)
+
+### Before You Start Any Non-English Page
+
+1. **Open an existing file in your target language** as a template:
+   - Swedish: `frontend/content/product-pages/sv/*.ts`
+   - German: `frontend/content/product-pages/de/*.ts`
+   - French: `frontend/content/product-pages/fr/*.ts`
+2. **Copy and modify** that file - don't start from scratch
+3. **Check the translation table above** for product name translations
+
+---
+
+## 🚨🚨🚨 CRITICAL: HERO TITLE LENGTH LIMITS 🚨🚨🚨
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   HERO TITLES WILL BE CUT OFF IF THEY'RE TOO LONG!                                ║
+║                                                                                   ║
+║   The HeroSection component has these constraints:                                ║
+║   • Container: max-w-2xl (672px)                                                  ║
+║   • Font size: xl:text-8xl (96px at large screens)                                ║
+║   • Titles are split at word boundaries for two-tone styling                      ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   MANDATORY LIMITS - FOLLOW THESE OR TITLES WILL BE CUT OFF:                      ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   📏 MAXIMUM WORD LENGTH: 12 characters                                           ║
+║      ❌ "Bildkryptogram" (14 chars) - TOO LONG, will be cut off                   ║
+║      ❌ "Rutnätsmatching" (15 chars) - TOO LONG, will be cut off                  ║
+║      ✅ "Bild Kryptogram" (split: 4+10 chars) - OK                                ║
+║      ✅ "Rutnäts Match" (split: 7+5 chars) - OK                                   ║
+║                                                                                   ║
+║   📏 MAXIMUM TITLE LENGTH: 2-4 words, 25 characters total                         ║
+║      ✅ "Bildkorsord Arbetsblad" (22 chars, 2 words) - OK                         ║
+║      ✅ "Addition Worksheets" (19 chars, 2 words) - OK                            ║
+║      ❌ "Arbetsbladsgenerator för Bildkryptogram" (40 chars) - TOO LONG           ║
+║                                                                                   ║
+║   🔧 HOW TO FIX LONG SWEDISH/NORDIC COMPOUND WORDS:                               ║
+║      Split them with a space! Swedish allows this for clarity.                    ║
+║      • "Bildkryptogram" → "Bild Kryptogram"                                       ║
+║      • "Rutnätsmatching" → "Rutnäts Match" (or "Rutnäts Matchning")              ║
+║      • "Ordletarpussel" → "Ordletar Pussel"                                       ║
+║                                                                                   ║
+║   ⚠️  ALWAYS TEST AFTER CREATING A NEW PRODUCT PAGE:                              ║
+║      1. Load the page at full width (1920px+)                                     ║
+║      2. Check if any words are cut off in the hero title                          ║
+║      3. If cut off: shorten the title by splitting compound words                 ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+### Hero Title Examples by Language
+
+| Language | ❌ BAD (Too Long) | ✅ GOOD (Split/Shortened) |
+|----------|------------------|---------------------------|
+| Swedish | Bildkryptogram Generator | Bild Kryptogram |
+| Swedish | Rutnätsmatching Arbetsblad | Rutnäts Match |
+| Swedish | Ordletarpussel Generator | Ordletar Arbetsblad |
+| German | Kreuzworträtselgenerator | Kreuzworträtsel Generator |
+| Danish | Undervisningsmaterialer | Undervisnings Materialer |
+| Finnish | Sanaristikkotyöarkit | Sanaristikko Työarkit |
+
+### Technical Details
+
+The HeroSection.tsx (lines 138-141) splits titles at the midpoint by word count:
+```typescript
+const titleWords = title.split(' ');
+const firstPart = titleWords.slice(0, Math.ceil(titleWords.length / 2)).join(' ');
+const secondPart = titleWords.slice(Math.ceil(titleWords.length / 2)).join(' ');
+```
+
+This creates the two-tone effect:
+- First half: White gradient text
+- Second half: Cyan → Purple → Pink gradient text
+
+If a single word is too long, it cannot be split and will overflow the container.
+
+---
+
 ## 🚨🚨🚨 STOP! DEPLOYMENT IS MANDATORY - NOT OPTIONAL 🚨🚨🚨
 
 ```
@@ -221,6 +375,38 @@ grep -i "Read more\|Show less\|Features\|How It Works\|Step \|Done!\|Cancel anyt
 ```
 
 If ANY of these appear in the content file for a non-English page → FIX THEM!
+
+---
+
+## 📁 REFERENCE FILES - USE THESE AS TEMPLATES 📁
+
+### Existing Content Files by Language
+
+When creating a new product page, **always open an existing file in your target language** as a reference:
+
+| Language | Example Files | Path |
+|----------|--------------|------|
+| **Swedish** | addition-worksheets.ts, coloring-worksheets.ts, word-search-worksheets.ts | `frontend/content/product-pages/sv/` |
+| **German** | addition-worksheets.ts, coloring-worksheets.ts | `frontend/content/product-pages/de/` |
+| **French** | addition-worksheets.ts | `frontend/content/product-pages/fr/` |
+| **English** | All apps available | `frontend/content/product-pages/en/` |
+
+### TypeScript Interface Definition
+
+If you're unsure about required properties, check the interface definition:
+- **File:** `frontend/components/product-page/ProductPageClient.tsx` (lines 12-196)
+- **Sample interface:** Lines 12-18 show exactly which properties are required vs optional
+
+```typescript
+// From ProductPageClient.tsx - Sample interface
+export interface Sample {
+  id: string;           // REQUIRED
+  worksheetSrc: string; // REQUIRED
+  answerKeySrc: string; // REQUIRED (not optional! use '' if no answer key)
+  altText: string;      // REQUIRED
+  pdfDownloadUrl?: string; // Optional (marked with ?)
+}
+```
 
 ---
 
@@ -790,6 +976,29 @@ const appIdToProductSlug: { [key: string]: string } = {
 
 ---
 
+## ✅ PRE-IMPLEMENTATION CHECKLIST (Non-English Pages) ✅
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   BEFORE WRITING ANY NON-ENGLISH CONTENT, VERIFY:                                 ║
+║                                                                                   ║
+║   □ I have read the translation table at the top of this guide                   ║
+║   □ I have opened an existing content file in my target language                 ║
+║   □ I know "Core Bundle" translations:                                            ║
+║       Swedish: Grundpaketet  |  German: Basispaket  |  French: Forfait de Base   ║
+║   □ I have reviewed the Sample interface in ProductPageClient.tsx                ║
+║   □ I understand answerKeySrc is REQUIRED (use '' for coloring/drawing pages)    ║
+║   □ I will NOT use any English words in the content                              ║
+║   □ I have a language-specific SEO slug ready (not English slug!)                ║
+║                                                                                   ║
+║   IF YOU CANNOT CHECK ALL BOXES → STOP AND READ THE GUIDE AGAIN                  ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
 ## 📋 4 FILES TO UPDATE FOR EACH NEW PRODUCT PAGE 📋
 
 ```
@@ -950,6 +1159,29 @@ export const appNameEnContent: ProductPageContent = {
 
 export default appNameEnContent;
 ```
+
+### ⚠️ SAMPLE ITEMS - REQUIRED STRUCTURE WARNING ⚠️
+
+Every sample item **MUST** include ALL of these properties:
+
+```typescript
+{
+  id: '1',
+  worksheetSrc: '/samples/english/coloring/coloring portrait 1.png',
+  answerKeySrc: '',  // ← REQUIRED! Use empty string for pages without answer keys
+  altText: 'Målarbilder barn porträttformat', // ← In TARGET language
+  pdfDownloadUrl: '/samples/english/coloring/coloring portrait 1.pdf', // ← Optional but recommended
+}
+```
+
+**TypeScript will FAIL if `answerKeySrc` is missing!**
+
+| App Type | answerKeySrc Value |
+|----------|-------------------|
+| Coloring pages | `''` (empty string) |
+| Drawing worksheets | `''` (empty string) |
+| Math with answer key | `'/path/to/answer_key.jpeg'` |
+| Word puzzles with solutions | `'/path/to/solution.jpeg'` |
 
 ### Step 4: Update page.tsx
 File: `frontend/app/[locale]/apps/[slug]/page.tsx`

@@ -227,6 +227,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'pattern-train',
     slugs: {
       en: 'pattern-train-worksheets',
+      sv: 'monster-tag-arbetsblad',
     },
   },
   {

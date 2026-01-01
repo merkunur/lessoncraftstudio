@@ -216,6 +216,12 @@ const nextConfig = {
         destination: '/sv/apps/hitta-udda-bilden-arbetsblad',
         permanent: true,
       },
+      // Swedish: pattern-train-worksheets → monster-tag-arbetsblad
+      {
+        source: '/sv/apps/pattern-train-worksheets',
+        destination: '/sv/apps/monster-tag-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

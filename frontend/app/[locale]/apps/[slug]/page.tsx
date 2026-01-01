@@ -49,6 +49,7 @@ import drawAndColorSvContent from '@/content/product-pages/sv/draw-and-color-wor
 import crosswordSvContent from '@/content/product-pages/sv/crossword-worksheets';
 import mathPuzzleSvContent from '@/content/product-pages/sv/math-puzzle-worksheets';
 import oddOneOutSvContent from '@/content/product-pages/sv/odd-one-out-worksheets';
+import patternTrainSvContent from '@/content/product-pages/sv/pattern-train-worksheets';
 
 interface PageProps {
   params: {
@@ -4732,6 +4733,7 @@ export async function generateStaticParams() {
     'saknade-bitar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'jamforelse-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'hitta-udda-bilden-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'monster-tag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

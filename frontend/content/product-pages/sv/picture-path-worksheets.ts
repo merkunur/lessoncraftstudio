@@ -346,8 +346,6 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
     ],
     ctaText: 'Börja Skapa Nu',
     guaranteeText: '30 dagars pengarna-tillbaka-garanti',
-    secureCheckout: 'Säker betalning',
-    cancelAnytime: 'Avsluta när som helst',
   },
 
   // Related Apps

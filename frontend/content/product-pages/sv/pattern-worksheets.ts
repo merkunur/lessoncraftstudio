@@ -18,7 +18,7 @@ export const patternWorksheetsSvContent: ProductPageContent = {
     slug: 'monster-arbetsblad',
     appId: 'pattern-worksheet',
     title: 'Mönsterigenkänning Arbetsblad Gratis | Matematik Arbetsblad Generator för Förskoleklass Material',
-    description: 'Skapa professionella mönsterigenkänning arbetsblad med vår digitala generator. Din Full Access-prenumeration ger dig obegränsad tillgång till arbetsblad utan extra kostnader. Generera anpassade arbetsblad gratis för förskoleklass och lågstadiet.',
+    description: 'Skapa professionella mönsterigenkänning arbetsblad med vår digitala generator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till arbetsblad utan extra kostnader. Generera anpassade arbetsblad gratis för förskoleklass och lågstadiet.',
     keywords: 'mönsterigenkänning arbetsblad, arbetsblad gratis, förskoleklass material, matematik arbetsblad, matte övningar, siffror och tal, bokstäver lära sig, finmotorik övningar, målarbilder barn, lågstadiet',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/monster-arbetsblad',
   },
@@ -27,7 +27,7 @@ export const patternWorksheetsSvContent: ProductPageContent = {
   hero: {
     title: 'Mönster Arbetsblad Gratis',
     subtitle: 'Matematik Arbetsblad Generator för Logiskt Tänkande och Problemlösning',
-    description: `Skapa professionella mönsterigenkänning arbetsblad med vår digitala generator. Din Full Access-prenumeration ger dig obegränsad tillgång till arbetsblad utan extra kostnader per ark. Generera anpassade arbetsblad gratis för mönsterigenkänning perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
+    description: `Skapa professionella mönsterigenkänning arbetsblad med vår digitala generator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till arbetsblad utan extra kostnader per ark. Generera anpassade arbetsblad gratis för mönsterigenkänning perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Mönsterigenkänning är en grundläggande matematisk färdighet för barn i förskoleklass och årskurs 1-3. Vårt verktyg hjälper lärare att skapa matematik arbetsblad som utvecklar logiskt tänkande. Eleverna lär sig identifiera och fortsätta mönster med bilder, former och färger. Detta stärker deras problemlösningsförmågor och förberedelser för mer avancerad matematik.
 
@@ -146,7 +146,7 @@ Detta stärker både logiskt tänkande och ordförråd samtidigt. Skapa matemati
         id: '5',
         icon: '💰',
         title: 'Kommersiell Licens för Mönsterigenkänning Arbetsblad',
-        description: `Full Access-prenumerationen inkluderar fullständig kommersiell print-on-demand licens utan extra kostnader. Sälj dina mönsterigenkänning arbetsblad på Etsy, Teachers Pay Teachers eller Amazon KDP. Ingen tillskrivning krävs på de sålda arbetsbladena. Detta är perfekt för lärarentreprenörer som vill bygga en extra inkomst.
+        description: `Full Tillgång-prenumerationen inkluderar fullständig kommersiell print-on-demand licens utan extra kostnader. Sälj dina mönsterigenkänning arbetsblad på Etsy, Teachers Pay Teachers eller Amazon KDP. Ingen tillskrivning krävs på de sålda arbetsbladena. Detta är perfekt för lärarentreprenörer som vill bygga en extra inkomst.
 
 300 DPI-kvaliteten säkerställer professionella resultat för både digital försäljning och fysiska produkter. Skapa arbetsbladspaket som kombinerar mönsterigenkänning med addition och subtraktion, multiplikationstabellen eller klockan lära sig.
 
@@ -183,7 +183,7 @@ Högkvalitetsexporten gör dina arbetsblad gratis lämpliga för kommersiell fö
 
 Välj även mellan två frågetyper: tomma rutor där elever fyller i det saknade elementet, eller flervalsfrågor med flera svarsalternativ. Tom ruta-format fungerar utmärkt som finmotorik övningar eftersom elever ritar eller klistrar in rätt element.
 
-Denna flexibilitet gör det möjligt att differentiera undervisningen effektivt. Skapa enklare mönster arbetsblad för elever som behöver extra stöd. Generera komplexa ABCD-mönster för elever som behöver utmaning. Full Access-prenumerationen inkluderar alla nio mönstertyper utan begränsning.`,
+Denna flexibilitet gör det möjligt att differentiera undervisningen effektivt. Skapa enklare mönster arbetsblad för elever som behöver extra stöd. Generera komplexa ABCD-mönster för elever som behöver utmaning. Full Tillgång-prenumerationen inkluderar alla nio mönstertyper utan begränsning.`,
         highlighted: true,
       },
     ],
@@ -255,7 +255,7 @@ Redigeringsarbetsytan inkluderar zoom-funktionalitet för precisionsarbete. Ång
 
 Välj färgalternativ vid nedladdning: färg eller gråskala. Färgutskrifter ser professionella ut och engagerar visuellt. Gråskala sparar bläck och skapar automatiskt målarbilder barn av dina arbetsblad.
 
-Facit exporteras automatiskt som en separat sida i PDF-filen vilket underlättar rättning. Alla nedladdningar är obegränsade med din Full Access-prenumeration.`,
+Facit exporteras automatiskt som en separat sida i PDF-filen vilket underlättar rättning. Alla nedladdningar är obegränsade med din Full Tillgång-prenumeration.`,
         icon: '📥',
       },
     ],
@@ -302,7 +302,7 @@ Lågstadielärare uppskattar hur ett verktyg kan täcka flera läroplansmål sam
 
 Exportera mönsterigenkänning arbetsblad som målarbilder barn för att skapa tysta aktiviteter när föräldrar arbetar med andra barn. Gråskala-versioner fungerar perfekt som lugnande aktiviteter eller belöningar efter koncentrerat arbete.
 
-Kombinera flera ämnen genom att integrera mönster med bokstäver, siffror eller andra lärandemål. Full Access-prenumerationen betyder obegränsade arbetsblad för hela familjen utan extra kostnader per barn.`,
+Kombinera flera ämnen genom att integrera mönster med bokstäver, siffror eller andra lärandemål. Full Tillgång-prenumerationen betyder obegränsade arbetsblad för hela familjen utan extra kostnader per barn.`,
         quote: 'Ett verktyg täcker alla mina barns olika åldrar och behov.',
       },
       {
@@ -336,7 +336,7 @@ Använd stora textstorlekar och hög kontrast för elever med synsvårigheter. S
         subtitle: 'Sälj Mönsterigenkänning Arbetsblad på Etsy och Teachers Pay Teachers',
         description: `Lärarentreprenörer tjänar 500-5000 kronor per månad genom att sälja mönsterigenkänning arbetsblad på Teachers Pay Teachers och Etsy. Skapa förskoleklass material buntar med olika teman och svårighetsnivåer. Säsongsbuntar med höst-, vinter-, vår- och sommarteman säljer särskilt bra.
 
-Kombinera mönsterigenkänning med matematik arbetsblad för addition och subtraktion för att skapa omfattande läropaket. Den kommersiella licensen inkluderad i Full Access täcker all försäljning utan ytterligare avgifter.
+Kombinera mönsterigenkänning med matematik arbetsblad för addition och subtraktion för att skapa omfattande läropaket. Den kommersiella licensen inkluderad i Full Tillgång täcker all försäljning utan ytterligare avgifter.
 
 Skapa obegränsade arbetsblad utan oro för licensbegränsningar. 300 DPI-kvaliteten säkerställer att dina produkter ser professionella ut vilket motiverar premiumpriser.`,
         quote: 'Min prenumeration betalade sig själv första månaden genom försäljning!',
@@ -359,7 +359,7 @@ Skapa obegränsade arbetsblad utan oro för licensbegränsningar. 300 DPI-kvalit
       {
         id: '1',
         question: 'Är Denna Mönsterigenkänning Generator Verkligen Gratis - Skapa Arbetsblad Gratis utan Betalning?',
-        answer: 'Mönsterigenkänning generatorn kräver en Full Access-prenumeration som kostar 240 dollar årligen eller 25 dollar månatligen. Din prenumeration ger dig obegränsad skapande av mönsterigenkänning arbetsblad utan extra kostnader per ark. Generera så många arbetsblad gratis som du behöver utan ytterligare avgifter. Full Access inkluderar alla 33 arbetsbladsverktyg på plattformen inte bara mönsterigenkänning.',
+        answer: 'Mönsterigenkänning generatorn kräver en Full Tillgång-prenumeration som kostar 240 dollar årligen eller 25 dollar månatligen. Din prenumeration ger dig obegränsad skapande av mönsterigenkänning arbetsblad utan extra kostnader per ark. Generera så många arbetsblad gratis som du behöver utan ytterligare avgifter. Full Tillgång inkluderar alla 33 arbetsbladsverktyg på plattformen inte bara mönsterigenkänning.',
       },
       {
         id: '2',
@@ -374,7 +374,7 @@ Skapa obegränsade arbetsblad utan oro för licensbegränsningar. 300 DPI-kvalit
       {
         id: '4',
         question: 'Kan Jag Använda Mönsterigenkänning i Mitt Klassrum - Förskoleklass Material och Addition och Subtraktion för Elever?',
-        answer: 'Full Access-prenumerationen inkluderar obegränsad klassrumsanvändning. Skapa mönsterigenkänning arbetsblad för alla dina elever utan extra avgifter. Använd arbetsbladena i förskoleklass, lågstadiet eller vilken utbildningsnivå som helst. Integrera mönster med addition och subtraktion undervisning för tvärämnesintegrering. Licensen täcker alla klassrumssituationer: helklassundervisning, små grupper, individuellt arbete och hemuppgifter.',
+        answer: 'Full Tillgång-prenumerationen inkluderar obegränsad klassrumsanvändning. Skapa mönsterigenkänning arbetsblad för alla dina elever utan extra avgifter. Använd arbetsbladena i förskoleklass, lågstadiet eller vilken utbildningsnivå som helst. Integrera mönster med addition och subtraktion undervisning för tvärämnesintegrering. Licensen täcker alla klassrumssituationer: helklassundervisning, små grupper, individuellt arbete och hemuppgifter.',
       },
       {
         id: '5',
@@ -384,7 +384,7 @@ Skapa obegränsade arbetsblad utan oro för licensbegränsningar. 300 DPI-kvalit
       {
         id: '6',
         question: 'Kan Jag Sälja Mönsterigenkänning Arbetsblad - Målarbilder Barn, Finmotorik Övningar och Klockan Lära Sig på Teachers Pay Teachers?',
-        answer: 'Ja, Full Access-prenumerationen inkluderar fullständig kommersiell print-on-demand licens utan extra kostnader. Sälj alla mönsterigenkänning arbetsblad du skapar på Etsy, Teachers Pay Teachers eller Amazon KDP. Detta inkluderar målarbilder barn versioner, finmotorik övningar kombinationer och klockan lära sig buntar. Ingen tillskrivning krävs på sålda produkter.',
+        answer: 'Ja, Full Tillgång-prenumerationen inkluderar fullständig kommersiell print-on-demand licens utan extra kostnader. Sälj alla mönsterigenkänning arbetsblad du skapar på Etsy, Teachers Pay Teachers eller Amazon KDP. Detta inkluderar målarbilder barn versioner, finmotorik övningar kombinationer och klockan lära sig buntar. Ingen tillskrivning krävs på sålda produkter.',
       },
       {
         id: '7',
@@ -421,7 +421,7 @@ Skapa obegränsade arbetsblad utan oro för licensbegränsningar. 300 DPI-kvalit
 
   // Pricing
   pricing: {
-    title: 'Full Access',
+    title: 'Full Tillgång',
     price: '240$',
     priceInterval: '/år',
     priceSuffix: 'Faktureras årligen',

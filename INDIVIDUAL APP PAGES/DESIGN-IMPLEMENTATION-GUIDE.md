@@ -89,6 +89,54 @@
 
 ---
 
+## 🛑🛑🛑 MANDATORY: ZERO ENGLISH ON NON-ENGLISH PAGES 🛑🛑🛑
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   ⛔⛔⛔ RUN THIS GREP COMMAND BEFORE EVERY COMMIT ⛔⛔⛔                            ║
+║                                                                                   ║
+║   ENGLISH WORDS ON NON-ENGLISH PAGES IS A CRITICAL FAILURE.                       ║
+║   YOU MUST CHECK FOR ENGLISH WORDS BEFORE COMMITTING.                             ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   FORBIDDEN ENGLISH TERMS - THESE MUST ALWAYS BE TRANSLATED:                      ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   English Term      │ Swedish         │ German          │ Other Languages         ║
+║   ─────────────────────────────────────────────────────────────────────────────   ║
+║   "Full Access"     │ "Full Tillgång" │ "Voller Zugang" │ Check translation table ║
+║   "Core Bundle"     │ "Grundpaketet"  │ "Basispaket"    │ Check translation table ║
+║   "Read more"       │ "Läs mer"       │ "Mehr lesen"    │ Check translation table ║
+║   "Show less"       │ "Visa mindre"   │ "Weniger"       │ Check translation table ║
+║   "Download"        │ "Ladda ner"     │ "Herunterladen" │ Check translation table ║
+║   "Free"            │ "Gratis"        │ "Kostenlos"     │ Check translation table ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   REAL FAILURE CASE (January 2026):                                               ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   ❌ Swedish Pattern Worksheets page had "Full Access" in 11 places               ║
+║      instead of "Full Tillgång"                                                   ║
+║                                                                                   ║
+║   The page looked unprofessional with English mixed into Swedish text.            ║
+║   This destroys SEO value and user trust.                                         ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   GREP CHECK - RUN THIS BEFORE EVERY NON-ENGLISH PAGE COMMIT:                     ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   grep -n "Full Access\|Core Bundle\|Read more\|Show less" {your-file}.ts         ║
+║                                                                                   ║
+║   If ANY matches found → FIX THEM before committing!                              ║
+║                                                                                   ║
+║   THERE ARE NO EXCEPTIONS. EVERY WORD MUST BE IN THE TARGET LANGUAGE.             ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
 ### How to Read This File Properly
 
 1. **First pass**: Read lines 1-200 (introduction, deployment, collapsible text)

@@ -35,6 +35,60 @@
 ╚═══════════════════════════════════════════════════════════════════════════════════╝
 ```
 
+---
+
+## 🛑🛑🛑 MANDATORY PRE-FLIGHT CHECKLIST FOR HERO TITLES 🛑🛑🛑
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   ⛔⛔⛔ BEFORE WRITING ANY HERO TITLE, COMPLETE THIS CHECKLIST ⛔⛔⛔              ║
+║                                                                                   ║
+║   HERO TITLES GET CUT OFF CONSTANTLY. THIS CHECKLIST IS MANDATORY.               ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   FOR EACH WORD IN YOUR PROPOSED TITLE:                                           ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   □ Word 1: _____________ = ___ characters (MUST be ≤12)                          ║
+║   □ Word 2: _____________ = ___ characters (MUST be ≤12)                          ║
+║   □ Word 3: _____________ = ___ characters (MUST be ≤12)                          ║
+║   □ Word 4: _____________ = ___ characters (MUST be ≤12)                          ║
+║                                                                                   ║
+║   □ TOTAL CHARACTERS: ___ (MUST be ≤25)                                           ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   REAL EXAMPLES OF FAILURES (SO YOU DON'T REPEAT THEM):                           ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   ❌ "Mönsterigenkänning Arbetsblad Gratis för Förskoleklass Material"            ║
+║      └─ "Mönsterigenkänning" = 18 chars → DISPLAYS AS "Mönsterigenkä"             ║
+║      └─ Total = 58 chars → WAY OVER 25 LIMIT                                      ║
+║                                                                                   ║
+║   ✅ "Mönster Arbetsblad Gratis"                                                  ║
+║      └─ "Mönster" = 7 chars ✓                                                     ║
+║      └─ "Arbetsblad" = 10 chars ✓                                                 ║
+║      └─ "Gratis" = 6 chars ✓                                                      ║
+║      └─ Total = 23 chars ✓                                                        ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   NORDIC/GERMAN COMPOUND WORDS - ALWAYS SPLIT THEM:                               ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   ❌ Mönsterigenkänning (18) → ✅ Mönster (7)                                     ║
+║   ❌ Bildkryptogram (14) → ✅ Bild Kryptogram (4+10)                              ║
+║   ❌ Rutnätsmatching (15) → ✅ Rutnäts Match (7+5)                                ║
+║   ❌ Arbeitsblätter (14) → ✅ Arbeits Blätter (7+7)                               ║
+║                                                                                   ║
+║   IF ANY WORD EXCEEDS 12 CHARACTERS, THE TITLE WILL BE CUT OFF.                   ║
+║   IF TOTAL EXCEEDS 25 CHARACTERS, THE TITLE WILL BE CUT OFF.                      ║
+║   THERE ARE NO EXCEPTIONS. COUNT THE CHARACTERS BEFORE WRITING.                   ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
 ### How to Read This File Properly
 
 1. **First pass**: Read lines 1-200 (introduction, deployment, collapsible text)
@@ -176,12 +230,39 @@ Every item in `samples.items` MUST have ALL of these properties:
 
 | Language | ❌ BAD (Too Long) | ✅ GOOD (Split/Shortened) |
 |----------|------------------|---------------------------|
+| Swedish | Mönsterigenkänning Arbetsblad (18 chars!) | Mönster Arbetsblad Gratis |
 | Swedish | Bildkryptogram Generator | Bild Kryptogram |
 | Swedish | Rutnätsmatching Arbetsblad | Rutnäts Match |
 | Swedish | Ordletarpussel Generator | Ordletar Arbetsblad |
 | German | Kreuzworträtselgenerator | Kreuzworträtsel Generator |
 | Danish | Undervisningsmaterialer | Undervisnings Materialer |
 | Finnish | Sanaristikkotyöarkit | Sanaristikko Työarkit |
+
+### ⚠️ Pattern Worksheets Failure Case Study (January 2026)
+
+The Swedish Pattern Worksheets page was created with:
+```
+title: 'Mönsterigenkänning Arbetsblad Gratis för Förskoleklass Material'
+```
+
+**Result on screen:** "Mönsterigenkä" (cut off after 13 characters due to container overflow)
+
+**Why it failed:**
+- "Mönsterigenkänning" = 18 characters (exceeds 12 char limit by 50%!)
+- Total title = 58 characters (exceeds 25 char limit by 132%!)
+
+**The fix:**
+```
+title: 'Mönster Arbetsblad Gratis'
+```
+
+**Why this works:**
+- "Mönster" = 7 chars ✓
+- "Arbetsblad" = 10 chars ✓
+- "Gratis" = 6 chars ✓
+- Total = 23 chars ✓ (under 25)
+
+**Lesson learned:** ALWAYS count characters BEFORE writing. No exceptions.
 
 ### Technical Details
 

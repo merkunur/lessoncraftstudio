@@ -25,7 +25,7 @@ export const patternWorksheetsSvContent: ProductPageContent = {
 
   // Hero Section - FULL text from pattern-worksheet.md paragraphs 1-4
   hero: {
-    title: 'Mönsterigenkänning Arbetsblad Gratis för Förskoleklass Material',
+    title: 'Mönster Arbetsblad Gratis',
     subtitle: 'Matematik Arbetsblad Generator för Logiskt Tänkande och Problemlösning',
     description: `Skapa professionella mönsterigenkänning arbetsblad med vår digitala generator. Din Full Access-prenumeration ger dig obegränsad tillgång till arbetsblad utan extra kostnader per ark. Generera anpassade arbetsblad gratis för mönsterigenkänning perfekta för förskoleklass och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 

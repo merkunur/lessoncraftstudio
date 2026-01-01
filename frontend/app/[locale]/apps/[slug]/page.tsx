@@ -45,6 +45,7 @@ import wordScrambleSvContent from '@/content/product-pages/sv/word-scramble-work
 import matchingSvContent from '@/content/product-pages/sv/matching-worksheets';
 import sudokuSvContent from '@/content/product-pages/sv/sudoku-worksheets';
 import bigSmallSvContent from '@/content/product-pages/sv/big-small-worksheets';
+import drawAndColorSvContent from '@/content/product-pages/sv/draw-and-color-worksheets';
 
 interface PageProps {
   params: {
@@ -489,6 +490,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/sv/apps/stort-litet-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
+  // Draw and Color Worksheets - Swedish product page SEO (new Swedish slug)
+  if (params.slug === 'rutritning-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Målarbilder Barn och Ritövningar - Arbetsblad Gratis för Förskoleklass Material',
+      description: 'Skapa professionella målarbilder barn med vårt rutnätstekniska verktyg. Med Full Access-prenumerationen får du obegränsad tillgång till ritövningar och målarbilder barn utan extra avgifter. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar.',
+      keywords: 'målarbilder barn, ritövningar, arbetsblad gratis, förskoleklass material, finmotorik övningar, rutnätsteknik, matematik arbetsblad, bokstäver lära sig, siffror och tal, rutnätsritning',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/rutritning-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/draw-and-color-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/rutritning-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/draw-and-color-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Målarbilder Barn och Ritövningar | LessonCraftStudio',
+        description: 'Skapa professionella rutnätsritningar med målarbilder barn. Perfekt för förskoleklass och lågstadiet.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/rutritning-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish draw-and-color slug to new slug (for backwards compatibility)
+  if (params.slug === 'draw-and-color-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Målarbilder Barn och Ritövningar | Förskoleklass Material',
+      description: 'Skapa professionella rutnätsritningar med målarbilder barn.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/rutritning-arbetsblad', // Point to new URL
       },
     };
   }
@@ -4220,6 +4264,7 @@ const seoRedirects: { [locale: string]: { [englishSlug: string]: string } } = {
     'word-search-worksheets': 'ordletar-arbetsblad',
     'addition-worksheets': 'addition-arbetsblad',
     'sudoku-worksheets': 'bildsudoku-arbetsblad',
+    'draw-and-color-worksheets': 'rutritning-arbetsblad',
   },
   // Add more languages as they get localized slugs:
   // de: { 'word-search-worksheets': 'wortsuche-arbeitsblaetter' },
@@ -4503,6 +4548,8 @@ export async function generateStaticParams() {
     'bildsudoku-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'stort-litet-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'diagram-rakning-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'kodaddition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'rutritning-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

@@ -164,6 +164,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'draw-and-color',
     slugs: {
       en: 'draw-and-color-worksheets',
+      sv: 'rutritning-arbetsblad',
     },
   },
   {

@@ -57,6 +57,7 @@ import sudokuSvContent from '@/content/product-pages/sv/sudoku-worksheets';
 import bigSmallSvContent from '@/content/product-pages/sv/big-small-worksheets';
 import chartCountSvContent from '@/content/product-pages/sv/chart-count-worksheets';
 import codeAdditionSvContent from '@/content/product-pages/sv/code-addition-worksheets';
+import drawAndColorSvContent from '@/content/product-pages/sv/draw-and-color-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -163,6 +164,10 @@ export const contentRegistry: ContentRegistry = {
     'kodaddition-arbetsblad': codeAdditionSvContent,
     // Also keep old slug for backwards compatibility during transition
     'code-addition-worksheets': codeAdditionSvContent,
+    // Swedish Draw and Color - uses Swedish slug
+    'rutritning-arbetsblad': drawAndColorSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'draw-and-color-worksheets': drawAndColorSvContent,
   },
 };
 

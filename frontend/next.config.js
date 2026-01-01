@@ -162,6 +162,12 @@ const nextConfig = {
         destination: '/sv/apps/kodaddition-arbetsblad',
         permanent: true,
       },
+      // Swedish: draw-and-color-worksheets → rutritning-arbetsblad
+      {
+        source: '/sv/apps/draw-and-color-worksheets',
+        destination: '/sv/apps/rutritning-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

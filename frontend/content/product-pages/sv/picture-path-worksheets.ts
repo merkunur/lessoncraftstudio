@@ -83,6 +83,14 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
     sectionTitle: 'Bildlabyrint Funktioner - Arbetsblad Gratis för Förskoleklass Material och Matematik Arbetsblad Matte Övningar',
     sectionDescription: 'Vår bildlabyrint generator innehåller alla funktioner du behöver för professionella arbetsblad. Skapa arbetsblad gratis som vattenstämplade filer eller prenumerera för kommersiell användning. Generatorn är perfekt för att skapa förskoleklass material och matematik arbetsblad. Använd den för matte övningar och finmotorik övningar. Varje funktion är designad för att göra arbetsbladet professionellt och engagerande för eleverna.',
     highlightBadgeText: 'Nyckelfunktion',
+    badgeText: 'Funktioner',
+    readMoreLabel: 'Läs mer',
+    showLessLabel: 'Visa mindre',
+    trustBadges: {
+      allFeatures: 'Alla funktioner inkluderade',
+      noHiddenFees: 'Inga dolda avgifter',
+      cancelAnytime: 'Avsluta när som helst',
+    },
     items: [
       {
         id: '1',
@@ -141,6 +149,12 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
     sectionTitle: 'Hur Man Skapar Arbetsblad Gratis i 5 Enkla Steg - Multiplikationstabellen och Addition och Subtraktion Arbetsblad',
     sectionDescription: 'Skapa professionella bildlabyrint arbetsblad på under tre minuter totalt. Följ dessa fem enkla steg för att skapa arbetsblad gratis. Varje steg är designat för enkelhet och effektivitet. Inga designkunskaper behövs för att skapa förskoleklass material. Generatorn guidar dig genom hela processen automatiskt.',
     ctaText: 'Börja Skapa Nu',
+    badgeText: 'Så Fungerar Det',
+    stepLabel: 'Steg',
+    completionTitle: 'Klart!',
+    completionSubtitle: 'Ditt arbetsblad är redo',
+    readyTime: 'Klart på under 3 minuter',
+    noSkillsNeeded: 'Inga designkunskaper behövs',
     steps: [
       {
         id: '1',
@@ -184,6 +198,9 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
   useCases: {
     sectionTitle: 'Perfekt för Lärare och Föräldrar - Arbetsblad Gratis för Förskoleklass Material och Målarbilder Barn',
     sectionDescription: 'Bildlabyrint generatorn är perfekt för olika användargrupper. Lärare i förskoleklass och lågstadiet använder den dagligen. Föräldrar som hemundervisar uppskattar flexibiliteten. Speciallärare skapar anpassade arbetsblad för individuella behov. Lärare entreprenörer säljer bildlabyrint på Teachers Pay Teachers. Varje användargrupp drar nytta av generatorns funktioner.',
+    badgeText: 'Användningsområden',
+    readMoreLabel: 'Läs mer',
+    showLessLabel: 'Visa mindre',
     items: [
       {
         id: '1',
@@ -242,6 +259,11 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
     sectionDescription: 'Lärare och föräldrar har vanligtvis liknande frågor om bildlabyrint generatorn. Dessa vanliga frågor täcker de mest efterfrågade ämnena. Lär dig hur du skapar multiplikationstabellen arbetsblad effektivt. Förstå hur siffror och tal arbetsblad fungerar. Upptäck hur målarbilder barn kan integreras i labyrinterna.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
+    badgeText: 'Vanliga Frågor',
+    readMoreLabel: 'Läs mer',
+    showLessLabel: 'Visa mindre',
+    secureCheckout: 'Säker betalning',
+    cancelAnytime: 'Avsluta när som helst',
     items: [
       {
         id: '1',
@@ -324,6 +346,8 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
     ],
     ctaText: 'Börja Skapa Nu',
     guaranteeText: '30 dagars pengarna-tillbaka-garanti',
+    secureCheckout: 'Säker betalning',
+    cancelAnytime: 'Avsluta när som helst',
   },
 
   // Related Apps
@@ -334,6 +358,13 @@ Bildlabyrint generatorn stöder svenska och tio andra språk. Bildnamn visas på
     ctaDescription: 'Gå med tusentals pedagoger som skapar professionella arbetsblad. Obegränsat skapande, kommersiell licens inkluderad.',
     primaryCtaText: 'Starta Gratis Provperiod',
     secondaryCtaText: 'Visa Alla 33 Appar',
+    badgeText: 'Fungerar Utmärkt Med',
+    exploreText: 'Utforska alla appar',
+    trustBadges: {
+      guarantee: '30 dagars garanti',
+      securePayment: 'Säker betalning',
+      cancelAnytime: 'Avsluta när som helst',
+    },
     items: [
       {
         id: '1',

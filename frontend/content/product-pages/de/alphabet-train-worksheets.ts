@@ -44,7 +44,7 @@ export const alphabetTrainDeContent: ProductPageContent = {
 Unser Generator für Buchstaben lernen macht die Erstellung kinderleicht. Wählen Sie 11 Buchstaben aus dem deutschen Alphabet aus. Der Alphabet-Zug zeigt dann jeden Buchstaben mit einem passenden Bild auf einem bunten Waggon. Kinder lernen so Buchstaben und verbinden sie gleichzeitig mit Bildern. Diese Verbindung von visuellen und sprachlichen Elementen unterstützt den Lernprozess nachhaltig.
 
 Die Arbeitsblätter eignen sich hervorragend für Vorschule Arbeitsblätter und Deutsch Arbeitsblätter in der Grundschule. Laden Sie hochauflösende PDF-Dateien in professioneller 300 DPI Qualität herunter. Drucken Sie Ihre kostenlose Arbeitsblätter zu Hause oder in der Schule aus. Jedes Arbeitsblatt enthält einen Lösungsschlüssel für schnelle Kontrolle.`,
-    previewImageSrc: '/samples/english/alphabet train/alphabet train portrait.jpeg',
+    previewImageSrc: '/samples/english/alphabet-train/alphabet train portrait.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
       viewSamples: 'Beispiele Ansehen',
@@ -79,17 +79,17 @@ Die Arbeitsblätter eignen sich hervorragend für Vorschule Arbeitsblätter und 
     items: [
       {
         id: '1',
-        worksheetSrc: '/samples/english/alphabet train/alphabet train portrait.jpeg',
-        answerKeySrc: '/samples/english/alphabet train/alphabet train portrait answer_key.jpeg',
+        worksheetSrc: '/samples/english/alphabet-train/alphabet train portrait.jpeg',
+        answerKeySrc: '/samples/english/alphabet-train/alphabet train portrait answer_key.jpeg',
         altText: 'Alphabet-Zug Arbeitsblatt im Hochformat für Buchstaben lernen in der Vorschule und Grundschule',
-        pdfDownloadUrl: '/samples/english/alphabet train/alphabet train portrait.pdf',
+        pdfDownloadUrl: '/samples/english/alphabet-train/alphabet train portrait.pdf',
       },
       {
         id: '2',
-        worksheetSrc: '/samples/english/alphabet train/alphabet train landscape.jpeg',
-        answerKeySrc: '/samples/english/alphabet train/alphabet train landscape answer_key.jpeg',
+        worksheetSrc: '/samples/english/alphabet-train/alphabet train landscape.jpeg',
+        answerKeySrc: '/samples/english/alphabet-train/alphabet train landscape answer_key.jpeg',
         altText: 'Alphabet-Zug Arbeitsblatt im Querformat mit bunten Waggons für Arbeitsblätter Grundschule',
-        pdfDownloadUrl: '/samples/english/alphabet train/alphabet train landscape.pdf',
+        pdfDownloadUrl: '/samples/english/alphabet-train/alphabet train landscape.pdf',
       },
     ],
   },

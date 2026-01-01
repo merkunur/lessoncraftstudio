@@ -241,6 +241,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'picture-path',
     slugs: {
       en: 'picture-path-worksheets',
+      sv: 'bildlabyrint-arbetsblad',
     },
   },
   {

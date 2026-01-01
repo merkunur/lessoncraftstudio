@@ -249,7 +249,7 @@ export default function HeroSection({
 
             {/* Main title - Bold and dramatic */}
             <motion.h1
-              className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black tracking-tight leading-[0.9] mb-8"
+              className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-black tracking-tight leading-[1.1] mb-8"
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 0.8 }}
@@ -261,7 +261,7 @@ export default function HeroSection({
                 {firstPart}
               </span>
               <span
-                className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400"
+                className="block text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 pb-2"
                 style={{ fontFamily: "'Space Grotesk', 'Inter', system-ui, sans-serif", fontWeight: 900 }}
               >
                 {secondPart}

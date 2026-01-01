@@ -192,6 +192,12 @@ const nextConfig = {
         destination: '/sv/apps/bildkryptogram-arbetsblad',
         permanent: true,
       },
+      // Swedish: math-puzzle-worksheets → mattepussel-arbetsblad
+      {
+        source: '/sv/apps/math-puzzle-worksheets',
+        destination: '/sv/apps/mattepussel-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -199,6 +199,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'math-puzzle',
     slugs: {
       en: 'math-puzzle-worksheets',
+      sv: 'mattepussel-arbetsblad',
     },
   },
   {

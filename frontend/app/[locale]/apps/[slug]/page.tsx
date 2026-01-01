@@ -47,6 +47,7 @@ import sudokuSvContent from '@/content/product-pages/sv/sudoku-worksheets';
 import bigSmallSvContent from '@/content/product-pages/sv/big-small-worksheets';
 import drawAndColorSvContent from '@/content/product-pages/sv/draw-and-color-worksheets';
 import crosswordSvContent from '@/content/product-pages/sv/crossword-worksheets';
+import mathPuzzleSvContent from '@/content/product-pages/sv/math-puzzle-worksheets';
 
 interface PageProps {
   params: {
@@ -577,6 +578,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/sv/apps/bildkorsord-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
+  // Swedish Math Puzzle Worksheets product page SEO
+  if (params.slug === 'mattepussel-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Mattepussel Arbetsblad - Addition och Subtraktion Generator | Matematik Arbetsblad för Förskoleklass',
+      description: 'Skapa professionella mattepussel med vår generator för matematik arbetsblad. Generera anpassade pussel med addition och subtraktion perfekta för förskoleklass och årskurs 1-3. Ladda ner högkvalitativa PDF-filer på under tre minuter.',
+      keywords: 'mattepussel, matematik arbetsblad, addition och subtraktion, förskoleklass material, matte övningar, siffror och tal, arbetsblad gratis, multiplikationstabellen, klockan lära sig, bokstäver lära sig, skriva bokstäver, målarbilder barn, finmotorik övningar',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/mattepussel-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/math-puzzle-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/mattepussel-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/math-puzzle-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Mattepussel Arbetsblad - Addition och Subtraktion Generator | LessonCraftStudio',
+        description: 'Skapa professionella mattepussel med vår generator för matematik arbetsblad. Perfekt för förskoleklass och lågstadiet.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/mattepussel-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish math puzzle slug to new slug (for backwards compatibility)
+  if (params.slug === 'math-puzzle-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Mattepussel Arbetsblad - Addition och Subtraktion Generator | Förskoleklass Material',
+      description: 'Skapa professionella mattepussel med vår generator för matematik arbetsblad.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/mattepussel-arbetsblad', // Point to new URL
       },
     };
   }
@@ -4597,6 +4641,7 @@ export async function generateStaticParams() {
     'hitta-foremal-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'rutnatsmatching-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'bildkorsord-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'mattepussel-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

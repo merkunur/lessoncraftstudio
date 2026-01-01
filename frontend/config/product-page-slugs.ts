@@ -248,6 +248,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'picture-sort',
     slugs: {
       en: 'picture-sort-worksheets',
+      sv: 'bildsortering-arbetsblad',
     },
   },
   {

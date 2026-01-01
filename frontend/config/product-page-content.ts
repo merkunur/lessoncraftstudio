@@ -69,6 +69,7 @@ import oddOneOutSvContent from '@/content/product-pages/sv/odd-one-out-worksheet
 import patternTrainSvContent from '@/content/product-pages/sv/pattern-train-worksheets';
 import patternWorksheetsSvContent from '@/content/product-pages/sv/pattern-worksheets';
 import picturePathSvContent from '@/content/product-pages/sv/picture-path-worksheets';
+import pictureSortSvContent from '@/content/product-pages/sv/picture-sort-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -223,6 +224,10 @@ export const contentRegistry: ContentRegistry = {
     'bildlabyrint-arbetsblad': picturePathSvContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-path-worksheets': picturePathSvContent,
+    // Swedish Picture Sort - uses Swedish slug
+    'bildsortering-arbetsblad': pictureSortSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-sort-worksheets': pictureSortSvContent,
   },
 };
 

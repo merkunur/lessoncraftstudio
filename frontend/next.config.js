@@ -204,6 +204,12 @@ const nextConfig = {
         destination: '/sv/apps/saknade-bitar-arbetsblad',
         permanent: true,
       },
+      // Swedish: more-less-worksheets → jamforelse-arbetsblad
+      {
+        source: '/sv/apps/more-less-worksheets',
+        destination: '/sv/apps/jamforelse-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

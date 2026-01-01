@@ -4686,6 +4686,7 @@ export async function generateStaticParams() {
     'bildkorsord-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'mattepussel-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'saknade-bitar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'jamforelse-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

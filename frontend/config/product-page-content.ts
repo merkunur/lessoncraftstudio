@@ -65,6 +65,7 @@ import cryptogramSvContent from '@/content/product-pages/sv/cryptogram-worksheet
 import mathPuzzleSvContent from '@/content/product-pages/sv/math-puzzle-worksheets';
 import missingPiecesSvContent from '@/content/product-pages/sv/missing-pieces-worksheets';
 import moreLessSvContent from '@/content/product-pages/sv/more-less-worksheets';
+import oddOneOutSvContent from '@/content/product-pages/sv/odd-one-out-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -203,6 +204,10 @@ export const contentRegistry: ContentRegistry = {
     'jamforelse-arbetsblad': moreLessSvContent,
     // Also keep old slug for backwards compatibility during transition
     'more-less-worksheets': moreLessSvContent,
+    // Swedish Odd One Out - uses Swedish slug
+    'hitta-udda-bilden-arbetsblad': oddOneOutSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'odd-one-out-worksheets': oddOneOutSvContent,
   },
 };
 

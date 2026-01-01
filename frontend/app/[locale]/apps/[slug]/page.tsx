@@ -48,6 +48,7 @@ import bigSmallSvContent from '@/content/product-pages/sv/big-small-worksheets';
 import drawAndColorSvContent from '@/content/product-pages/sv/draw-and-color-worksheets';
 import crosswordSvContent from '@/content/product-pages/sv/crossword-worksheets';
 import mathPuzzleSvContent from '@/content/product-pages/sv/math-puzzle-worksheets';
+import oddOneOutSvContent from '@/content/product-pages/sv/odd-one-out-worksheets';
 
 interface PageProps {
   params: {
@@ -664,6 +665,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/sv/apps/saknade-bitar-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
+  // Swedish Odd One Out Worksheets product page SEO
+  if (params.slug === 'hitta-udda-bilden-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Arbetsblad Gratis - Hitta Udda Bilden Generator för Förskoleklass Material och Finmotorik Övningar | LessonCraft Studio',
+      description: 'Skapa professionella arbetsblad gratis med vår hitta-udda-bilden generator. Perfekt för förskoleklass material och finmotorik övningar. Ladda ner högkvalitativa PDF-filer på under tre minuter.',
+      keywords: 'arbetsblad gratis, hitta udda bilden, förskoleklass material, finmotorik övningar, matematik arbetsblad, bokstäver lära sig, visuell diskriminering, kognitiv utveckling',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/hitta-udda-bilden-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/odd-one-out-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/hitta-udda-bilden-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/odd-one-out-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Arbetsblad Gratis - Hitta Udda Bilden Generator | LessonCraftStudio',
+        description: 'Skapa professionella arbetsblad gratis med vår hitta-udda-bilden generator. Perfekt för förskoleklass och lågstadiet.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/hitta-udda-bilden-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish odd-one-out slug to new slug (for backwards compatibility)
+  if (params.slug === 'odd-one-out-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Arbetsblad Gratis - Hitta Udda Bilden Generator | Förskoleklass Material',
+      description: 'Skapa professionella arbetsblad gratis med vår hitta-udda-bilden generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/hitta-udda-bilden-arbetsblad', // Point to new URL
       },
     };
   }
@@ -4687,6 +4731,7 @@ export async function generateStaticParams() {
     'mattepussel-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'saknade-bitar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'jamforelse-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'hitta-udda-bilden-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

@@ -220,6 +220,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'odd-one-out',
     slugs: {
       en: 'odd-one-out-worksheets',
+      sv: 'hitta-udda-bilden-arbetsblad',
     },
   },
   {

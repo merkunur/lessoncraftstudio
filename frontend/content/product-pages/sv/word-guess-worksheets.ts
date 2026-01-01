@@ -25,7 +25,7 @@ export const wordGuessSvContent: ProductPageContent = {
   hero: {
     title: 'Gissa Ordet Generator',
     subtitle: 'Arbetsblad Gratis för Bokstäver Lära Sig - Förskoleklass Material',
-    description: `Skapa professionella gissa-ordet-arbetsblad med vår gissa-ordet-generator. Din Full Access-prenumeration ger dig obegränsad arbetsblad-skapande utan avgifter per arbetsblad. Generera anpassade arbetsblad gratis perfekta för förskoleklass material och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
+    description: `Skapa professionella gissa-ordet-arbetsblad med vår gissa-ordet-generator. Din Full Tillgång-prenumeration ger dig obegränsad arbetsblad-skapande utan avgifter per arbetsblad. Generera anpassade arbetsblad gratis perfekta för förskoleklass material och lågstadiet. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Våra gissa-ordet-arbetsblad kombinerar bildtips med bokstavsrutor. Eleverna använder bilden för att gissa ordet. De skriver sedan bokstäverna i rutorna. Detta gör bokstäver lära sig roligt och visuellt.
 
@@ -149,7 +149,7 @@ De 11 språken inkluderar engelska, tyska, franska, spanska och italienska. Port
         id: '5',
         icon: '💰',
         title: 'Kommersiell Licens Ingår',
-        description: `Full Access inkluderar en kommersiell print-on-demand-licens. Sälj dina gissa-ordet-arbetsblad på Teachers Pay Teachers. Lista dem på Etsy som digitala nedladdningar. Publicera arbetsbladsböcker på Amazon KDP. Ingen attribution krävs.
+        description: `Full Tillgång inkluderar en kommersiell print-on-demand-licens. Sälj dina gissa-ordet-arbetsblad på Teachers Pay Teachers. Lista dem på Etsy som digitala nedladdningar. Publicera arbetsbladsböcker på Amazon KDP. Ingen attribution krävs.
 
 Många lärare tjänar 500-5000 dollar per månad genom att sälja arbetsblad. Skapa paket av matematik arbetsblad och finmotorik övningar. Kombinera gissa-ordet-gåtor med andra arbetsbladstyper. Erbjud tematiska samlingsbuntar.
 
@@ -326,7 +326,7 @@ Kombinera gissa-ordet-arbetsblad med finmotorik övningar för elever som behöv
         icon: '💰',
         title: 'Lärarentreprenörer',
         subtitle: 'Sälj Arbetsblad Gratis på Teachers Pay Teachers och Etsy',
-        description: `Lärarentreprenörer använder vår generator för att skapa arbetsblad gratis för försäljning på Teachers Pay Teachers och Etsy. Full Access inkluderar full kommersiell licens utan extra avgifter. Skapa, sälj och tjäna pengar på dina gissa-ordet-arbetsblad utan begränsningar.
+        description: `Lärarentreprenörer använder vår generator för att skapa arbetsblad gratis för försäljning på Teachers Pay Teachers och Etsy. Full Tillgång inkluderar full kommersiell licens utan extra avgifter. Skapa, sälj och tjäna pengar på dina gissa-ordet-arbetsblad utan begränsningar.
 
 Många lärare tjänar 5 000-20 000 kronor per månad genom att sälja digitala arbetsblad. Skapa gissa-ordet-arbetsblad, matematik arbetsblad, målarbilder barn och förskoleklass material för försäljning.
 
@@ -351,7 +351,7 @@ Skapa produktpaket med gissa-ordet-arbetsblad, matematik arbetsblad för additio
       {
         id: '1',
         question: 'Är Gissa-Ordet-Generatorn Verkligen Gratis för Förskoleklass Material?',
-        answer: 'Gissa-ordet-generatorn kräver en Full Access-prenumeration som kostar 240 dollar årligen eller 25 dollar månaden. Din prenumeration ger dig obegränsad gissa-ordet-skapande utan extra avgifter per arbetsblad. Generera så många arbetsblad gratis för utskrift som du behöver utan tilläggskostnader. Full Access inkluderar alla 33 arbetsblad-generatorer på plattformen.',
+        answer: 'Gissa-ordet-generatorn kräver en Full Tillgång-prenumeration som kostar 240 dollar årligen eller 25 dollar månaden. Din prenumeration ger dig obegränsad gissa-ordet-skapande utan extra avgifter per arbetsblad. Generera så många arbetsblad gratis för utskrift som du behöver utan tilläggskostnader. Full Tillgång inkluderar alla 33 arbetsblad-generatorer på plattformen.',
       },
       {
         id: '2',
@@ -366,7 +366,7 @@ Skapa produktpaket med gissa-ordet-arbetsblad, matematik arbetsblad för additio
       {
         id: '4',
         question: 'Kan Jag Använda Gissa-Ordet-Arbetsblad i Mitt Klassrum?',
-        answer: 'Ja, Full Access-prenumerationen inkluderar obegränsad klassrumsanvändning för alla arbetsblad. Skapa gissa-ordet-arbetsblad för bokstäver lära sig, matematik arbetsblad för multiplikationstabellen, målarbilder barn för konstlektioner. Skapa obegränsat antal kopior för alla dina elever. Dela digitalt via lärplattformar som Google Classroom.',
+        answer: 'Ja, Full Tillgång-prenumerationen inkluderar obegränsad klassrumsanvändning för alla arbetsblad. Skapa gissa-ordet-arbetsblad för bokstäver lära sig, matematik arbetsblad för multiplikationstabellen, målarbilder barn för konstlektioner. Skapa obegränsat antal kopior för alla dina elever. Dela digitalt via lärplattformar som Google Classroom.',
       },
       {
         id: '5',
@@ -376,7 +376,7 @@ Skapa produktpaket med gissa-ordet-arbetsblad, matematik arbetsblad för additio
       {
         id: '6',
         question: 'Kan Jag Sälja Gissa-Ordet-Arbetsblad Jag Skapar?',
-        answer: 'Ja, Full Access-prenumerationen inkluderar full kommersiell print-on-demand-licens utan extra avgifter. Sälj dina gissa-ordet-arbetsblad på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen extra licensavgift utöver prenumerationsavgiften. Ingen attribution krävs på dina arbetsblad.',
+        answer: 'Ja, Full Tillgång-prenumerationen inkluderar full kommersiell print-on-demand-licens utan extra avgifter. Sälj dina gissa-ordet-arbetsblad på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen extra licensavgift utöver prenumerationsavgiften. Ingen attribution krävs på dina arbetsblad.',
       },
       {
         id: '7',
@@ -413,7 +413,7 @@ Skapa produktpaket med gissa-ordet-arbetsblad, matematik arbetsblad för additio
 
   // Pricing
   pricing: {
-    title: 'Full Access',
+    title: 'Full Tillgång',
     price: '240$',
     priceInterval: '/år',
     priceSuffix: 'Faktureras årligen',

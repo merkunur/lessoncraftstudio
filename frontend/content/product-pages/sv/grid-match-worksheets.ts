@@ -23,7 +23,7 @@ export const gridMatchSvContent: ProductPageContent = {
 
   // Hero Section - FULL text from grid-match.md paragraphs 1-4
   hero: {
-    title: 'Rutnätsmatching Arbetsblad',
+    title: 'Rutnätsmatching',
     subtitle: 'Arbetsblad Gratis för Förskoleklass och Lågstadiet - Finmotorik Övningar och Matte Övningar',
     description: `Skapa professionella rutnätsmatching-arbetsblad med vår svenska arbetsbladsgenerator. Din Full Access-prenumeration ger dig obegränsad skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade arbetsblad gratis som är perfekta för förskoleklass, årskurs 1, 2 och 3.
 

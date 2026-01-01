@@ -420,7 +420,7 @@ Erfolgreiche Lehrer-Unternehmer erzielen 500 bis 5000 Euro monatlich mit Arbeits
 
   // Pricing - Alphabet Train is Core Bundle ($144/year or $15/month)
   pricing: {
-    title: 'Basispaket',
+    title: 'Basis-Paket',
     price: '144€',
     priceInterval: '/Jahr',
     priceSuffix: 'Jährliche Abrechnung',

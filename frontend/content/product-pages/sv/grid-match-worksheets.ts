@@ -16,7 +16,7 @@ export const gridMatchSvContent: ProductPageContent = {
     slug: 'rutnatsmatching-arbetsblad',
     appId: 'grid-match',
     title: 'Rutnätsmatching Arbetsblad - Arbetsblad Gratis för Förskoleklass Material och Finmotorik Övningar',
-    description: 'Skapa professionella rutnätsmatching-arbetsblad med vår svenska arbetsbladsgenerator. Din Full Access-prenumeration ger dig obegränsad skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade arbetsblad gratis som är perfekta för förskoleklass, årskurs 1, 2 och 3.',
+    description: 'Skapa professionella rutnätsmatching-arbetsblad med vår svenska arbetsbladsgenerator. Din Full Access-prenumeration ger dig obegränsat skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade arbetsblad gratis som är perfekta för förskoleklass, årskurs 1, 2 och 3.',
     keywords: 'rutnätsmatching arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, rutnätsmatching, visuell diskriminering, matematik arbetsblad, rumsligt tänkande, spatial medvetenhet, problemlösning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/rutnatsmatching-arbetsblad',
   },
@@ -25,7 +25,7 @@ export const gridMatchSvContent: ProductPageContent = {
   hero: {
     title: 'Rutnäts Match',
     subtitle: 'Arbetsblad Gratis för Förskoleklass och Lågstadiet - Finmotorik Övningar och Matte Övningar',
-    description: `Skapa professionella rutnätsmatching-arbetsblad med vår svenska arbetsbladsgenerator. Din Full Access-prenumeration ger dig obegränsad skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade arbetsblad gratis som är perfekta för förskoleklass, årskurs 1, 2 och 3.
+    description: `Skapa professionella rutnätsmatching-arbetsblad med vår svenska arbetsbladsgenerator. Din Full Access-prenumeration ger dig obegränsat skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade arbetsblad gratis som är perfekta för förskoleklass, årskurs 1, 2 och 3.
 
 Rutnätsmatching-arbetsblad utvecklar visuell diskriminering och rumsligt tänkande. Barn matchar bilddelar för att komplettera en större bild. Denna aktivitet stärker problemlösningsförmåga, finmotorik och spatial medvetenhet.
 
@@ -53,7 +53,7 @@ Rutnätsmatching-arbetsblad fungerar utmärkt som finmotorik övningar för för
 
   // Sample Gallery - REAL file paths from samples/english/grid match/
   samples: {
-    sectionTitle: 'RutnätsmatchingExempel',
+    sectionTitle: 'Exempel på rutnätsmatching',
     sectionDescription: 'Ladda ner gratis exempelarbetsblad för att se vår professionella kvalitet',
     downloadLabel: 'Ladda Ner Gratis Exempel',
     worksheetLabel: 'Arbetsblad',
@@ -99,7 +99,7 @@ Rutnätsmatching-arbetsblad fungerar utmärkt som finmotorik övningar för för
       {
         id: '1',
         icon: '⚡',
-        title: 'Skapa Arbetsblad Gratis på 3 Klick - Rutnätsmatchingför Förskoleklass Material',
+        title: 'Skapa Arbetsblad Gratis på 3 Klick - Rutnätsmatching för Förskoleklass',
         description: `Rutnätsmatching-arbetsblad skapas på mindre än tre minuter. Välj en bild från vårt bibliotek med 3000+ barnvänliga motiv. Välj rutnätsstorlek mellan 2×2 och 4×4. Klicka på "Skapa" för att generera ditt arbetsblad. Ingen designkunskap krävs för att skapa professionella arbetsblad gratis.
 
 Vår generator automatiserar hela processen. Bilden delas i rutnät och ledtrådar placeras automatiskt. Du får både arbetsblad och facit. Ladda ner direkt som PDF eller JPEG. Perfekt för förskoleklass material och lågstadiet.`,
@@ -126,7 +126,7 @@ Multi-fil-uppladdning stöder JPEG, PNG och GIF. Ladda upp flera bilder samtidig
       {
         id: '4',
         icon: '🌍',
-        title: '11 Språk - Svenska Rutnätsmatchingför Matematik Arbetsblad och Matte Övningar',
+        title: '11 Språk - Svensk Rutnätsmatching för Matematik och Matte Övningar',
         description: `Användargränssnittet finns på 11 språk inklusive svenska. Bildbiblioteket är organiserat på svenska med svenska söktermer. Perfekt för flerspråkiga klassrum och internationella skolor. Skapa matematik arbetsblad och matte övningar på elevernas modersmål.
 
 Svenska bildnamn gör det enkelt att hitta rätt motiv. Sök efter "äpple", "bil" eller "hund" på svenska. Bildbiblioteket inkluderar svenska alfabetbilder för bokstäver lära sig. Svenska siffror och tal för matematik arbetsblad. Multiplikationstabellen och klockan lära sig-motiv på svenska.`,
@@ -164,7 +164,7 @@ Högupplöst kvalitet säkerställer tydliga bilder även vid utskrift. Rutnäts
 
   // How-To Guide - FULL text from grid-match.md step sections
   howTo: {
-    sectionTitle: 'Hur man Skapar Arbetsblad Gratis med Rutnätsmatchingpå 5 Enkla Steg',
+    sectionTitle: 'Hur du Skapar Arbetsblad Gratis med Rutnätsmatching i 5 Enkla Steg',
     sectionDescription: 'Skapa professionella rutnätsmatching-arbetsblad på mindre än tre minuter. Vår svenska generator gör det enkelt att skapa arbetsblad gratis för förskoleklass och lågstadiet. Ingen teknisk kunskap krävs. Följ dessa fem enkla steg för att skapa finmotorik övningar, matematik arbetsblad och målarbilder barn-aktiviteter.',
     ctaText: 'Börja Skapa Nu',
     badgeText: 'Så Fungerar Det',
@@ -254,7 +254,7 @@ Spara digitala kopior för framtida användning. Organisera efter tema, svårigh
 
   // Use Cases - FULL text from grid-match.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt för Lärare och Föräldrar - RutnätsmatchingArbetsblad Gratis för Förskoleklass Material',
+    sectionTitle: 'Perfekt för Lärare och Föräldrar - Rutnätsmatching Arbetsblad Gratis för Förskoleklass',
     sectionDescription: 'Rutnätsmatching-arbetsblad passar många olika undervisningssituationer. Förskoleklass lärare använder dem för finmotorik övningar. Lågstadielärare integrerar addition och subtraktion. Hemmaskolelärare skapar anpassade matte övningar. Specialpedagoger differentierar förskoleklass material. Lärarentreprenörer säljer multiplikationstabellen och klockan lära sig-arbetsblad.',
     badgeText: 'Vem Det Är För',
     readMoreLabel: 'Läs mer',
@@ -301,7 +301,7 @@ Skapa veckans läromedelspaket med multiplikationstabellen tema. Måndag: 2-tabe
 
 Kombinera bokstäver lära sig med rutnätsmatching för integrerad literacy. Använd alfabetsbilder för bokstavsigenkänning. Skapa "Hitta bokstav A"-arbetsblad gratis med A-ord som äpple, apa, apelsin. Visuell matchning stärker bokstäver lära sig för förskoleklass och årskurs 1.
 
-Hemmaskolelärare uppskattar flexibilitet att skapa vid behov. Barn visar intresse för rymden? Generera rymdobjekt rutnätsmatchingomedelbart. Läser ni om havet? Skapa havs-rutnätsmatchingsamma dag. Obegränsad skapande av förskoleklass material utan extra kostnader.
+Hemmaskolelärare uppskattar flexibiliteten att skapa vid behov. Visar barnen intresse för rymden? Generera rutnätsmatching med rymdobjekt omedelbart. Läser ni om havet? Skapa havs-rutnätsmatching samma dag. Obegränsat skapande av förskoleklass material utan extra kostnader.
 
 Syskonundervisning förenklas med anpassningsbara svårighetsgrader. Förskoleklass syskoning får 2×2 målarbilder barn. Årskurs 2 syskoning får 3×3 addition och subtraktion. Årskurs 3 syskoning får 4×4 multiplikationstabellen. Alla arbetar med samma tema på sin nivå.`,
         quote: 'En prenumeration täcker alla mina barns nivåer!',
@@ -359,7 +359,7 @@ Ingen kreditering krävs på sålda produkter. Ditt varumärke syns på alla fö
 
   // FAQ Section - Selected FAQs from grid-match.md
   faq: {
-    sectionTitle: 'Vanliga Frågor om Rutnätsmatching- Arbetsblad Gratis för Matte Övningar och Matematik Arbetsblad',
+    sectionTitle: 'Vanliga Frågor om Rutnätsmatching - Arbetsblad Gratis för Matte och Matematik',
     sectionDescription: 'Svenska lärare ställer ofta samma frågor om rutnätsmatching-generatorn. Här är svar på de vanligaste frågorna om att skapa arbetsblad gratis med matematik arbetsblad, klockan lära sig, siffror och tal och förskoleklass material.',
     showMoreText: 'Visa fler frågor',
     showLessText: 'Visa färre',
@@ -372,7 +372,7 @@ Ingen kreditering krävs på sålda produkter. Ditt varumärke syns på alla fö
       {
         id: '1',
         question: 'Är Rutnätsmatching-Generatorn Verkligen Gratis för Arbetsblad Gratis och Förskoleklass Material?',
-        answer: 'Rutnätsmatching-generatorn kräver Full Access-prenumeration som kostar 240 USD årligen eller 25 USD månadsvis. Din prenumeration ger obegränsad skapande av rutnätsmatching-arbetsblad utan extra avgifter per arbetsblad. Generera så många arbetsblad gratis som du behöver utan ytterligare kostnader. Full Access inkluderar alla 33 arbetsbladsgeneratorer på plattformen. Du får rutnätsmatching plus matematik arbetsblad-generatorer för addition och subtraktion, multiplikationstabellen, siffror och tal. Också inkluderat: bokstäver lära sig, klockan lära sig, målarbilder barn och finmotorik övningar-generatorer. Prenumerationen inkluderar kommersiell print-on-demand-licens utan extra kostnad. Sälj dina rutnätsmatching-arbetsblad på Teachers Pay Teachers, Etsy och Amazon KDP. Många lärare tjänar tillbaka prenumerationskostnaden genom försäljning av förskoleklass material och matte övningar. Full Access ger också 11 språk inklusive svenska, professionell 300 DPI-kvalitet, obegränsad nedladdning och tillgång till 3000+ bildbibliotek. Allt inkluderat i en prenumeration för arbetsblad gratis utan dolda avgifter.',
+        answer: 'Rutnätsmatching-generatorn kräver Full Access-prenumeration som kostar 240 USD årligen eller 25 USD månadsvis. Din prenumeration ger obegränsat skapande av rutnätsmatching-arbetsblad utan extra avgifter per arbetsblad. Generera så många arbetsblad gratis som du behöver utan ytterligare kostnader. Full Access inkluderar alla 33 arbetsbladsgeneratorer på plattformen. Du får rutnätsmatching plus matematik arbetsblad-generatorer för addition och subtraktion, multiplikationstabellen, siffror och tal. Också inkluderat: bokstäver lära sig, klockan lära sig, målarbilder barn och finmotorik övningar-generatorer. Prenumerationen inkluderar kommersiell print-on-demand-licens utan extra kostnad. Sälj dina rutnätsmatching-arbetsblad på Teachers Pay Teachers, Etsy och Amazon KDP. Många lärare tjänar tillbaka prenumerationskostnaden genom försäljning av förskoleklass material och matte övningar. Full Access ger också 11 språk inklusive svenska, professionell 300 DPI-kvalitet, obegränsad nedladdning och tillgång till 3000+ bildbibliotek. Allt inkluderat i en prenumeration för arbetsblad gratis utan dolda avgifter.',
       },
       {
         id: '2',
@@ -419,7 +419,7 @@ Ingen kreditering krävs på sålda produkter. Ditt varumärke syns på alla fö
     priceInterval: '/år',
     priceSuffix: 'Faktureras årligen',
     benefits: [
-      'Obegränsad arbetsbladskapning',
+      'Obegränsat skapande av arbetsblad',
       'Alla 33 arbetsbladsverktyg',
       'Kommersiell licens ingår',
       '11 språk stöds',

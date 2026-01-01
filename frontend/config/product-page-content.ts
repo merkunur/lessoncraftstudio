@@ -59,6 +59,7 @@ import chartCountSvContent from '@/content/product-pages/sv/chart-count-workshee
 import codeAdditionSvContent from '@/content/product-pages/sv/code-addition-worksheets';
 import drawAndColorSvContent from '@/content/product-pages/sv/draw-and-color-worksheets';
 import findObjectsSvContent from '@/content/product-pages/sv/find-objects-worksheets';
+import gridMatchSvContent from '@/content/product-pages/sv/grid-match-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -173,6 +174,10 @@ export const contentRegistry: ContentRegistry = {
     'hitta-foremal-arbetsblad': findObjectsSvContent,
     // Also keep old slug for backwards compatibility during transition
     'find-objects-worksheets': findObjectsSvContent,
+    // Swedish Grid Match - uses Swedish slug
+    'rutnatsmatching-arbetsblad': gridMatchSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'grid-match-worksheets': gridMatchSvContent,
   },
 };
 

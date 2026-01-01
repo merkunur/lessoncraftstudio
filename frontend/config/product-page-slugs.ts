@@ -178,6 +178,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'grid-match',
     slugs: {
       en: 'grid-match-worksheets',
+      sv: 'rutnatsmatching-arbetsblad',
     },
   },
   {

@@ -198,6 +198,12 @@ const nextConfig = {
         destination: '/sv/apps/mattepussel-arbetsblad',
         permanent: true,
       },
+      // Swedish: missing-pieces-worksheets → saknade-bitar-arbetsblad
+      {
+        source: '/sv/apps/missing-pieces-worksheets',
+        destination: '/sv/apps/saknade-bitar-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

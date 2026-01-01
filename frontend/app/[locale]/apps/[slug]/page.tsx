@@ -625,6 +625,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Swedish Missing Pieces Worksheets product page SEO
+  if (params.slug === 'saknade-bitar-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Saknade Bitar Arbetsblad Gratis - Generator för Förskoleklass Material och Finmotorik Övningar',
+      description: 'Skapa professionella arbetsblad med saknade bitar på bara tre minuter. Din Full Access-prenumeration ger dig obegränsad skapande av saknade bitar-pussel utan extra kostnader per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar.',
+      keywords: 'saknade bitar arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, matematik arbetsblad, bokstäver lära sig, siffror och tal, matte övningar, målarbilder barn, visuella pussel',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/saknade-bitar-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/missing-pieces-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/saknade-bitar-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/missing-pieces-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Saknade Bitar Arbetsblad Gratis - Generator för Förskoleklass Material | LessonCraftStudio',
+        description: 'Skapa professionella arbetsblad med saknade bitar på bara tre minuter. Perfekt för förskoleklass och lågstadiet.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/saknade-bitar-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish missing pieces slug to new slug (for backwards compatibility)
+  if (params.slug === 'missing-pieces-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Saknade Bitar Arbetsblad Gratis - Generator för Förskoleklass Material',
+      description: 'Skapa professionella arbetsblad med saknade bitar på bara tre minuter.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/saknade-bitar-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
   // Alphabet Train Worksheets product page SEO
   if (params.slug === 'alphabet-train-worksheets' && params.locale === 'en') {
     return {
@@ -4642,6 +4685,7 @@ export async function generateStaticParams() {
     'rutnatsmatching-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'bildkorsord-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'mattepussel-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'saknade-bitar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

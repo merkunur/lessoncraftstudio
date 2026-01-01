@@ -134,6 +134,10 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     en: 'math-puzzle-worksheets',
     sv: 'mattepussel-arbetsblad',
   },
+  'missing-pieces': {
+    en: 'missing-pieces-worksheets',
+    sv: 'saknade-bitar-arbetsblad',
+  },
 };
 
 // Helper function to get the product page slug for an app in a specific locale

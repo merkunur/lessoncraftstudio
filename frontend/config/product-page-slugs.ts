@@ -206,6 +206,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'missing-pieces',
     slugs: {
       en: 'missing-pieces-worksheets',
+      sv: 'saknade-bitar-arbetsblad',
     },
   },
   {

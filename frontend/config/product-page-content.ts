@@ -63,6 +63,7 @@ import gridMatchSvContent from '@/content/product-pages/sv/grid-match-worksheets
 import crosswordSvContent from '@/content/product-pages/sv/crossword-worksheets';
 import cryptogramSvContent from '@/content/product-pages/sv/cryptogram-worksheets';
 import mathPuzzleSvContent from '@/content/product-pages/sv/math-puzzle-worksheets';
+import missingPiecesSvContent from '@/content/product-pages/sv/missing-pieces-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -193,6 +194,10 @@ export const contentRegistry: ContentRegistry = {
     'mattepussel-arbetsblad': mathPuzzleSvContent,
     // Also keep old slug for backwards compatibility during transition
     'math-puzzle-worksheets': mathPuzzleSvContent,
+    // Swedish Missing Pieces - uses Swedish slug
+    'saknade-bitar-arbetsblad': missingPiecesSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'missing-pieces-worksheets': missingPiecesSvContent,
   },
 };
 

@@ -52,6 +52,7 @@ import oddOneOutSvContent from '@/content/product-pages/sv/odd-one-out-worksheet
 import patternTrainSvContent from '@/content/product-pages/sv/pattern-train-worksheets';
 import patternWorksheetsSvContent from '@/content/product-pages/sv/pattern-worksheets';
 import shadowMatchSvContent from '@/content/product-pages/sv/shadow-match-worksheets';
+import subtractionSvContent from '@/content/product-pages/sv/subtraction-worksheets';
 
 interface PageProps {
   params: {
@@ -840,6 +841,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/sv/apps/skuggmatchning-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
+  // Swedish Subtraction Worksheets product page SEO
+  if (params.slug === 'subtraktion-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Gratis Matematik Arbetsblad för Subtraktion | Arbetsblad Gratis för Förskoleklass Material',
+      description: 'Skapa professionella subtraktionsblad med vår matematikgenerator. Generera anpassade utskrivbara matematik arbetsblad perfekta för förskoleklass material och lågstadiet. Ladda ner högkvalitativa PDF-filer med siffror och tal på under 3 minuter.',
+      keywords: 'subtraktion arbetsblad, matematik arbetsblad, förskoleklass material, matte övningar, siffror och tal, arbetsblad gratis, addition och subtraktion, subtraktionsblad, räkneövningar, taluppfattning',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/subtraktion-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/subtraction-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/subtraktion-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/subtraction-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Gratis Matematik Arbetsblad för Subtraktion | LessonCraftStudio',
+        description: 'Skapa professionella subtraktionsblad för förskoleklass och lågstadiet. Perfekt för addition och subtraktion övningar.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/subtraktion-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish subtraction slug to new slug (for backwards compatibility)
+  if (params.slug === 'subtraction-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Gratis Matematik Arbetsblad för Subtraktion | Förskoleklass Material',
+      description: 'Skapa professionella subtraktionsblad för förskoleklass och lågstadiet.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/subtraktion-arbetsblad', // Point to new URL
       },
     };
   }
@@ -4870,6 +4914,7 @@ export async function generateStaticParams() {
     'bildsortering-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for picture-sort
     'prepositioner-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for prepositions
     'skuggmatchning-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for shadow-match
+    'subtraktion-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for subtraction
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

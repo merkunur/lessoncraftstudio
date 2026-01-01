@@ -162,6 +162,10 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     en: 'shadow-match-worksheets',
     sv: 'skuggmatchning-arbetsblad',
   },
+  'subtraction': {
+    en: 'subtraction-worksheets',
+    sv: 'subtraktion-arbetsblad',
+  },
 };
 
 // Helper function to get the product page slug for an app in a specific locale

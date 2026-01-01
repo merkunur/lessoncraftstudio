@@ -252,6 +252,12 @@ const nextConfig = {
         destination: '/sv/apps/skuggmatchning-arbetsblad',
         permanent: true,
       },
+      // Swedish: subtraction-worksheets → subtraktion-arbetsblad
+      {
+        source: '/sv/apps/subtraction-worksheets',
+        destination: '/sv/apps/subtraktion-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

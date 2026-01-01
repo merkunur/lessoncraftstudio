@@ -72,6 +72,7 @@ import picturePathSvContent from '@/content/product-pages/sv/picture-path-worksh
 import pictureSortSvContent from '@/content/product-pages/sv/picture-sort-worksheets';
 import prepositionsSvContent from '@/content/product-pages/sv/prepositions-worksheets';
 import shadowMatchSvContent from '@/content/product-pages/sv/shadow-match-worksheets';
+import subtractionSvContent from '@/content/product-pages/sv/subtraction-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -238,6 +239,10 @@ export const contentRegistry: ContentRegistry = {
     'skuggmatchning-arbetsblad': shadowMatchSvContent,
     // Also keep old slug for backwards compatibility during transition
     'shadow-match-worksheets': shadowMatchSvContent,
+    // Swedish Subtraction - uses Swedish slug
+    'subtraktion-arbetsblad': subtractionSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'subtraction-worksheets': subtractionSvContent,
   },
 };
 

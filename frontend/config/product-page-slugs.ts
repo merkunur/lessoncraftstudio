@@ -269,6 +269,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'subtraction',
     slugs: {
       en: 'subtraction-worksheets',
+      sv: 'subtraktion-arbetsblad',
     },
   },
   {

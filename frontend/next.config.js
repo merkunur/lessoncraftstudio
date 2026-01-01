@@ -186,6 +186,12 @@ const nextConfig = {
         destination: '/sv/apps/bildkorsord-arbetsblad',
         permanent: true,
       },
+      // Swedish: cryptogram-worksheets → bildkryptogram-arbetsblad
+      {
+        source: '/sv/apps/cryptogram-worksheets',
+        destination: '/sv/apps/bildkryptogram-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

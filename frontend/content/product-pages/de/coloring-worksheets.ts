@@ -446,9 +446,9 @@ Bildbasierte Malvorlagen funktionieren ohne Lesekompetenz bei Vorschule Arbeitsb
     ],
   },
 
-  // Pricing - Coloring is CORE BUNDLE
+  // Pricing - Coloring is CORE BUNDLE (German: Basis-Paket)
   pricing: {
-    title: 'Core Bundle',
+    title: 'Basis-Paket',
     price: '144€',
     priceInterval: '/Jahr',
     priceSuffix: 'Jährliche Abrechnung',

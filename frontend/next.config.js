@@ -228,6 +228,24 @@ const nextConfig = {
         destination: '/sv/apps/monster-arbetsblad',
         permanent: true,
       },
+      // Swedish: picture-path-worksheets → bildlabyrint-arbetsblad
+      {
+        source: '/sv/apps/picture-path-worksheets',
+        destination: '/sv/apps/bildlabyrint-arbetsblad',
+        permanent: true,
+      },
+      // Swedish: picture-sort-worksheets → bildsortering-arbetsblad
+      {
+        source: '/sv/apps/picture-sort-worksheets',
+        destination: '/sv/apps/bildsortering-arbetsblad',
+        permanent: true,
+      },
+      // Swedish: prepositions-worksheets → prepositioner-arbetsblad
+      {
+        source: '/sv/apps/prepositions-worksheets',
+        destination: '/sv/apps/prepositioner-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

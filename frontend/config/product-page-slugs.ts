@@ -255,6 +255,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'prepositions',
     slugs: {
       en: 'prepositions-worksheets',
+      sv: 'prepositioner-arbetsblad',
     },
   },
   {

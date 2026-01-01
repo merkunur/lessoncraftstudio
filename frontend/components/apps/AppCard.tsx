@@ -154,6 +154,10 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     en: 'pattern-worksheets',
     sv: 'monster-arbetsblad',
   },
+  'prepositions': {
+    en: 'prepositions-worksheets',
+    sv: 'prepositioner-arbetsblad',
+  },
 };
 
 // Helper function to get the product page slug for an app in a specific locale

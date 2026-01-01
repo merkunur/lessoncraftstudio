@@ -70,6 +70,7 @@ import patternTrainSvContent from '@/content/product-pages/sv/pattern-train-work
 import patternWorksheetsSvContent from '@/content/product-pages/sv/pattern-worksheets';
 import picturePathSvContent from '@/content/product-pages/sv/picture-path-worksheets';
 import pictureSortSvContent from '@/content/product-pages/sv/picture-sort-worksheets';
+import prepositionsSvContent from '@/content/product-pages/sv/prepositions-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -228,6 +229,10 @@ export const contentRegistry: ContentRegistry = {
     'bildsortering-arbetsblad': pictureSortSvContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-sort-worksheets': pictureSortSvContent,
+    // Swedish Prepositions - uses Swedish slug
+    'prepositioner-arbetsblad': prepositionsSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'prepositions-worksheets': prepositionsSvContent,
   },
 };
 

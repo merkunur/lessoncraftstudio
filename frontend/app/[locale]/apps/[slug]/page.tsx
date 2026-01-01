@@ -757,6 +757,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Swedish Prepositions Worksheets product page SEO
+  if (params.slug === 'prepositioner-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Prepositioner Arbetsblad Gratis - Förskoleklass Material för Barn',
+      description: 'Skapa professionella prepositionsarbetsblad för förskoleklass och lågstadiet. Generera arbetsblad gratis för elever som lär sig rumsliga begrepp. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.',
+      keywords: 'prepositioner arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, rumsliga begrepp, i på under, bredvid bakom, svenska prepositioner, lågstadiet material',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/prepositioner-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/prepositions-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/prepositioner-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/prepositions-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Prepositioner Arbetsblad Gratis | LessonCraftStudio',
+        description: 'Skapa professionella prepositionsarbetsblad för förskoleklass och lågstadiet. Perfekt för att lära ut rumsliga begrepp.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/prepositioner-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish prepositions slug to new slug (for backwards compatibility)
+  if (params.slug === 'prepositions-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Prepositioner Arbetsblad Gratis | Förskoleklass Material',
+      description: 'Skapa professionella prepositionsarbetsblad för förskoleklass och lågstadiet.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/prepositioner-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
   // Alphabet Train Worksheets product page SEO
   if (params.slug === 'alphabet-train-worksheets' && params.locale === 'en') {
     return {
@@ -4779,6 +4822,9 @@ export async function generateStaticParams() {
     'hitta-udda-bilden-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'monster-tag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'monster-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for pattern worksheets
+    'bildlabyrint-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for picture-path
+    'bildsortering-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for picture-sort
+    'prepositioner-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for prepositions
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

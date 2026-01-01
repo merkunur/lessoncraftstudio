@@ -50,6 +50,7 @@ import crosswordSvContent from '@/content/product-pages/sv/crossword-worksheets'
 import mathPuzzleSvContent from '@/content/product-pages/sv/math-puzzle-worksheets';
 import oddOneOutSvContent from '@/content/product-pages/sv/odd-one-out-worksheets';
 import patternTrainSvContent from '@/content/product-pages/sv/pattern-train-worksheets';
+import patternWorksheetsSvContent from '@/content/product-pages/sv/pattern-worksheets';
 
 interface PageProps {
   params: {
@@ -709,6 +710,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/sv/apps/hitta-udda-bilden-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
+  // Swedish Pattern Worksheets product page SEO
+  if (params.slug === 'monster-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Mönsterigenkänning Arbetsblad Gratis | Matematik Arbetsblad Generator för Förskoleklass Material',
+      description: 'Skapa professionella mönsterigenkänning arbetsblad med vår digitala generator. Din Full Access-prenumeration ger dig obegränsad tillgång till arbetsblad utan extra kostnader. Generera anpassade arbetsblad gratis för förskoleklass och lågstadiet.',
+      keywords: 'mönsterigenkänning arbetsblad, arbetsblad gratis, förskoleklass material, matematik arbetsblad, matte övningar, siffror och tal, bokstäver lära sig, finmotorik övningar, målarbilder barn, lågstadiet',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/monster-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/pattern-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/monster-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/pattern-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Mönsterigenkänning Arbetsblad Gratis | LessonCraftStudio',
+        description: 'Skapa professionella mönsterigenkänning arbetsblad med vår digitala generator. Perfekt för förskoleklass och lågstadiet.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/monster-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish pattern-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'pattern-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Mönsterigenkänning Arbetsblad Gratis | Förskoleklass Material',
+      description: 'Skapa professionella mönsterigenkänning arbetsblad med vår digitala generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/monster-arbetsblad', // Point to new URL
       },
     };
   }
@@ -4734,6 +4778,7 @@ export async function generateStaticParams() {
     'jamforelse-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'hitta-udda-bilden-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'monster-tag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
+    'monster-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for pattern worksheets
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

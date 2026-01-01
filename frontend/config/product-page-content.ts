@@ -67,6 +67,7 @@ import missingPiecesSvContent from '@/content/product-pages/sv/missing-pieces-wo
 import moreLessSvContent from '@/content/product-pages/sv/more-less-worksheets';
 import oddOneOutSvContent from '@/content/product-pages/sv/odd-one-out-worksheets';
 import patternTrainSvContent from '@/content/product-pages/sv/pattern-train-worksheets';
+import patternWorksheetsSvContent from '@/content/product-pages/sv/pattern-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -213,6 +214,10 @@ export const contentRegistry: ContentRegistry = {
     'monster-tag-arbetsblad': patternTrainSvContent,
     // Also keep old slug for backwards compatibility during transition
     'pattern-train-worksheets': patternTrainSvContent,
+    // Swedish Pattern Worksheets - uses Swedish slug
+    'monster-arbetsblad': patternWorksheetsSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'pattern-worksheets': patternWorksheetsSvContent,
   },
 };
 

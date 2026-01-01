@@ -222,6 +222,12 @@ const nextConfig = {
         destination: '/sv/apps/monster-tag-arbetsblad',
         permanent: true,
       },
+      // Swedish: pattern-worksheets → monster-arbetsblad
+      {
+        source: '/sv/apps/pattern-worksheets',
+        destination: '/sv/apps/monster-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

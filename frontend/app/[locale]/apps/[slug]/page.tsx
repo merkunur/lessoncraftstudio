@@ -5076,6 +5076,7 @@ export async function generateStaticParams() {
   const apps = [
     'addition-worksheets', // Product page slug
     'word-search-worksheets', // Product page slug (English)
+    'suchsel-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

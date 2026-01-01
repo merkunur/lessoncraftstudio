@@ -77,6 +77,9 @@ import treasureHuntSvContent from '@/content/product-pages/sv/treasure-hunt-work
 import wordGuessSvContent from '@/content/product-pages/sv/word-guess-worksheets';
 import writingSvContent from '@/content/product-pages/sv/writing-worksheets';
 
+// German content imports
+import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
+
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
   [locale: string]: {
@@ -258,6 +261,12 @@ export const contentRegistry: ContentRegistry = {
     'skrivovningar-arbetsblad': writingSvContent,
     // Also keep old slug for backwards compatibility during transition
     'writing-worksheets': writingSvContent,
+  },
+  de: {
+    // German Word Search - uses German SEO slug
+    'suchsel-arbeitsblaetter': wordSearchDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'word-search-worksheets': wordSearchDeContent,
   },
 };
 

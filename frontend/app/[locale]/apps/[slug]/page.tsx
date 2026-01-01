@@ -37,6 +37,7 @@ import treasureHuntEnContent from '@/content/product-pages/en/treasure-hunt-work
 import wordGuessEnContent from '@/content/product-pages/en/word-guess-worksheets';
 import writingEnContent from '@/content/product-pages/en/writing-worksheets';
 import wordSearchSvContent from '@/content/product-pages/sv/word-search-worksheets';
+import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -104,6 +105,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         languages: {
           'en': 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
           'sv': 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/suchsel-arbeitsblaetter',
           'x-default': 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
         },
       },
@@ -132,6 +134,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         languages: {
           'en': 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
           'sv': 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/suchsel-arbeitsblaetter',
           'x-default': 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
         },
       },
@@ -156,6 +159,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad', // Point to new URL
+      },
+    };
+  }
+
+  // Word Search Worksheets - German product page SEO (new German slug)
+  if (params.slug === 'suchsel-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Suchsel Generator - Kostenlose Arbeitsblätter Grundschule - Buchstaben lernen und Deutsch Arbeitsblätter',
+      description: 'Erstellen Sie professionelle Suchsel-Arbeitsblätter für die Grundschule mit unserem kostenlosen Generator. Perfekt für Buchstaben lernen, Deutsch Arbeitsblätter und Vorschule Arbeitsblätter. Der Suchsel Generator eignet sich ideal für kostenlose Arbeitsblätter in der 1. Klasse bis 3. Klasse.',
+      keywords: 'suchsel generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/suchsel-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/suchsel-arbeitsblaetter',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Suchsel Generator - Kostenlose Arbeitsblätter Grundschule | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Suchsel-Arbeitsblätter für die Grundschule mit unserem kostenlosen Generator. Perfekt für Buchstaben lernen und Deutsch Arbeitsblätter.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/suchsel-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German slug to new slug (for backwards compatibility)
+  if (params.slug === 'word-search-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Suchsel Generator - Kostenlose Arbeitsblätter Grundschule',
+      description: 'Erstellen Sie professionelle Suchsel-Arbeitsblätter mit unserem kostenlosen Generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/suchsel-arbeitsblaetter', // Point to new URL
       },
     };
   }

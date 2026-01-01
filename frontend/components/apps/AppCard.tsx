@@ -174,6 +174,10 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     en: 'word-guess-worksheets',
     sv: 'gissa-ordet-arbetsblad',
   },
+  'writing-app': {
+    en: 'writing-worksheets',
+    sv: 'skrivovningar-arbetsblad',
+  },
 };
 
 // Helper function to get the product page slug for an app in a specific locale

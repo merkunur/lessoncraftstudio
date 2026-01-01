@@ -270,6 +270,12 @@ const nextConfig = {
         destination: '/sv/apps/gissa-ordet-arbetsblad',
         permanent: true,
       },
+      // Swedish: writing-worksheets → skrivovningar-arbetsblad
+      {
+        source: '/sv/apps/writing-worksheets',
+        destination: '/sv/apps/skrivovningar-arbetsblad',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

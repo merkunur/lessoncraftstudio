@@ -55,6 +55,7 @@ import shadowMatchSvContent from '@/content/product-pages/sv/shadow-match-worksh
 import subtractionSvContent from '@/content/product-pages/sv/subtraction-worksheets';
 import treasureHuntSvContent from '@/content/product-pages/sv/treasure-hunt-worksheets';
 import wordGuessSvContent from '@/content/product-pages/sv/word-guess-worksheets';
+import writingSvContent from '@/content/product-pages/sv/writing-worksheets';
 
 interface PageProps {
   params: {
@@ -1683,6 +1684,11 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: `https://www.lessoncraftstudio.com/en/apps/writing-worksheets`,
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/writing-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/skrivovningar-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/writing-worksheets',
+        },
       },
       openGraph: {
         title: 'Free Printable Tracing Worksheets | LessonCraftStudio',
@@ -1690,6 +1696,49 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         url: 'https://www.lessoncraftstudio.com/en/apps/writing-worksheets',
         siteName: 'LessonCraftStudio',
         type: 'website',
+      },
+    };
+  }
+
+  // Swedish Writing Worksheets product page SEO
+  if (params.slug === 'skrivovningar-arbetsblad' && params.locale === 'sv') {
+    return {
+      title: 'Skriva Bokstäver Arbetsblad - Bokstäver Lära Sig Förskoleklass Material | Finmotorik Övningar Gratis',
+      description: 'Skapa professionella arbetsblad för skrivövning med vår handstilsgenerator. Full Tillgång-prenumeration ger dig obegränsad åtkomst till alla 33 verktyg. Generera anpassade arbetsblad för bokstäver lära sig perfekta för förskoleklass och lågstadiet.',
+      keywords: 'skriva bokstäver, arbetsblad gratis, förskoleklass material, finmotorik övningar, bokstäver lära sig, handstilsövningar, skrivarbetsblad, spårningsövningar, matematik arbetsblad, målarbilder barn',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/skrivovningar-arbetsblad',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/writing-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/skrivovningar-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/writing-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Skriva Bokstäver Arbetsblad - Arbetsblad Gratis | LessonCraftStudio',
+        description: 'Skapa professionella skrivarbetsblad för förskoleklass och lågstadiet. Perfekt för bokstäver lära sig och finmotorik övningar.',
+        url: 'https://www.lessoncraftstudio.com/sv/apps/skrivovningar-arbetsblad',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old Swedish writing slug to new slug (for backwards compatibility)
+  if (params.slug === 'writing-worksheets' && params.locale === 'sv') {
+    return {
+      title: 'Skriva Bokstäver Arbetsblad - Arbetsblad Gratis | Förskoleklass Material',
+      description: 'Skapa professionella skrivarbetsblad för förskoleklass och lågstadiet.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/sv/apps/skrivovningar-arbetsblad', // Point to new URL
       },
     };
   }
@@ -5010,6 +5059,7 @@ export async function generateStaticParams() {
     'subtraktion-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for subtraction
     'skattjakt-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for treasure-hunt
     'gissa-ordet-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for word-guess
+    'skrivovningar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug for writing
     'alphabet-train-worksheets', // Product page slug
     'coloring-worksheets', // Product page slug
     'math-worksheets', // Product page slug

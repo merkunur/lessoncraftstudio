@@ -75,6 +75,7 @@ import shadowMatchSvContent from '@/content/product-pages/sv/shadow-match-worksh
 import subtractionSvContent from '@/content/product-pages/sv/subtraction-worksheets';
 import treasureHuntSvContent from '@/content/product-pages/sv/treasure-hunt-worksheets';
 import wordGuessSvContent from '@/content/product-pages/sv/word-guess-worksheets';
+import writingSvContent from '@/content/product-pages/sv/writing-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -253,6 +254,10 @@ export const contentRegistry: ContentRegistry = {
     'gissa-ordet-arbetsblad': wordGuessSvContent,
     // Also keep old slug for backwards compatibility during transition
     'word-guess-worksheets': wordGuessSvContent,
+    // Swedish Writing - uses Swedish slug
+    'skrivovningar-arbetsblad': writingSvContent,
+    // Also keep old slug for backwards compatibility during transition
+    'writing-worksheets': writingSvContent,
   },
 };
 

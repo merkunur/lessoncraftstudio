@@ -290,6 +290,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'writing-app',
     slugs: {
       en: 'writing-worksheets',
+      sv: 'skrivovningar-arbetsblad',
     },
   },
 ];

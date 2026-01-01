@@ -39,6 +39,7 @@ import writingEnContent from '@/content/product-pages/en/writing-worksheets';
 import wordSearchSvContent from '@/content/product-pages/sv/word-search-worksheets';
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
 import alphabetTrainDeContent from '@/content/product-pages/de/alphabet-train-worksheets';
+import coloringDeContent from '@/content/product-pages/de/coloring-worksheets';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -248,6 +249,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/alphabet-zug-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // Coloring Worksheets - German product page SEO (new German slug)
+  if (params.slug === 'malvorlagen-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Malvorlagen-Generator - Kostenlose Ausmalbilder für Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
+      description: 'Erstelle professionelle Malvorlagen und Ausmalbilder mit unserem Malvorlagen-Generator für Arbeitsblätter Grundschule. Kombiniere Ausmalbilder mit Schwungübungen, Buchstaben lernen und Mathe Arbeitsblättern. Perfekt für Vorschule Arbeitsblätter und kostenlose Arbeitsblätter 1. Klasse.',
+      keywords: 'malvorlagen generator, ausmalbilder, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, schwungübungen, buchstaben lernen, mathe arbeitsblätter, deutsch arbeitsblätter, einmaleins',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/malvorlagen-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/coloring-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/malarbilder-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/malvorlagen-arbeitsblaetter',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/coloring-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Malvorlagen-Generator - Kostenlose Ausmalbilder für Arbeitsblätter Grundschule | LessonCraftStudio',
+        description: 'Erstelle professionelle Malvorlagen und Ausmalbilder mit unserem Malvorlagen-Generator. Perfekt für Vorschule und Grundschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/malvorlagen-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German coloring slug to new slug (for backwards compatibility)
+  if (params.slug === 'coloring-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Malvorlagen-Generator - Kostenlose Ausmalbilder für Arbeitsblätter Grundschule',
+      description: 'Erstelle professionelle Malvorlagen und Ausmalbilder mit unserem kostenlosen Generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/malvorlagen-arbeitsblaetter', // Point to new URL
       },
     };
   }
@@ -5123,6 +5168,7 @@ export async function generateStaticParams() {
     'word-search-worksheets', // Product page slug (English)
     'suchsel-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
+    'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

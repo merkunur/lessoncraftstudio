@@ -88,6 +88,8 @@ export const productPageSlugs: AppSlugConfig[] = [
     appId: 'coloring',
     slugs: {
       en: 'coloring-worksheets',
+      sv: 'malarbilder-arbetsblad',
+      de: 'malvorlagen-arbeitsblaetter',
     },
   },
   {

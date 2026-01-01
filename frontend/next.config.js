@@ -276,6 +276,12 @@ const nextConfig = {
         destination: '/sv/apps/skrivovningar-arbetsblad',
         permanent: true,
       },
+      // German: coloring-worksheets → malvorlagen-arbeitsblaetter
+      {
+        source: '/de/apps/coloring-worksheets',
+        destination: '/de/apps/malvorlagen-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

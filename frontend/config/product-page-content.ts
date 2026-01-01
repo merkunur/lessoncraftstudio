@@ -81,6 +81,7 @@ import writingSvContent from '@/content/product-pages/sv/writing-worksheets';
 import wordSearchDeContent from '@/content/product-pages/de/word-search-worksheets';
 import additionDeContent from '@/content/product-pages/de/addition-worksheets';
 import alphabetTrainDeContent from '@/content/product-pages/de/alphabet-train-worksheets';
+import coloringDeContent from '@/content/product-pages/de/coloring-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -277,6 +278,10 @@ export const contentRegistry: ContentRegistry = {
     'alphabet-zug-arbeitsblaetter': alphabetTrainDeContent,
     // Also keep old slug for backwards compatibility during transition
     'alphabet-train-worksheets': alphabetTrainDeContent,
+    // German Coloring - uses German SEO slug
+    'malvorlagen-arbeitsblaetter': coloringDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'coloring-worksheets': coloringDeContent,
   },
 };
 

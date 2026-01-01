@@ -16,7 +16,7 @@ export const missingPiecesSvContent: ProductPageContent = {
     slug: 'saknade-bitar-arbetsblad',
     appId: 'missing-pieces',
     title: 'Saknade Bitar Arbetsblad Gratis - Generator för Förskoleklass Material och Finmotorik Övningar',
-    description: 'Skapa professionella arbetsblad med saknade bitar på bara tre minuter. Din Full Access-prenumeration ger dig obegränsad skapande av saknade bitar-pussel utan extra kostnader per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar.',
+    description: 'Skapa professionella arbetsblad med saknade bitar på bara tre minuter. Din Full Tillgång-prenumeration ger dig obegränsad skapande av saknade bitar-pussel utan extra kostnader per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar.',
     keywords: 'saknade bitar arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, matematik arbetsblad, bokstäver lära sig, siffror och tal, matte övningar, målarbilder barn, visuella pussel',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/saknade-bitar-arbetsblad',
   },
@@ -25,7 +25,7 @@ export const missingPiecesSvContent: ProductPageContent = {
   hero: {
     title: 'Saknade Bitar Arbetsblad',
     subtitle: 'Arbetsblad Gratis för Förskoleklass Material och Finmotorik Övningar',
-    description: `Skapa professionella arbetsblad med saknade bitar på bara tre minuter. Din Full Access-prenumeration ger dig obegränsad skapande av saknade bitar-pussel utan extra kostnader per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar. Ladda ner högkvalitativa PDF-arbetsblad på under tre minuter.
+    description: `Skapa professionella arbetsblad med saknade bitar på bara tre minuter. Din Full Tillgång-prenumeration ger dig obegränsad skapande av saknade bitar-pussel utan extra kostnader per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar. Ladda ner högkvalitativa PDF-arbetsblad på under tre minuter.
 
 Vårt verktyg för saknade bitar skapar visuella pussel där eleverna identifierar saknade delar och matchar dem till rätt alternativ. Perfekt för matematik arbetsblad, bokstäver lära sig och siffror och tal. Varje pussel genererar både ett arbetsblad och en facit automatiskt. Användbart för matte övningar och målarbilder barn.
 
@@ -136,7 +136,7 @@ Skapa arbetsblad gratis på elevens modersmål. Bildfilnamn översätts automati
         id: '5',
         icon: '💰',
         title: 'Kommersiell Licens för Arbetsblad Gratis',
-        description: `Full Access-prenumerationen inkluderar kommersiell print-on-demand-licens. Sälj dina arbetsblad på Teachers Pay Teachers. Starta en Etsy-butik med arbetsblad gratis. Publicera på Amazon KDP som låginnehållsböcker. Ingen attribution krävs på dina sålda produkter.
+        description: `Full Tillgång-prenumerationen inkluderar kommersiell print-on-demand-licens. Sälj dina arbetsblad på Teachers Pay Teachers. Starta en Etsy-butik med arbetsblad gratis. Publicera på Amazon KDP som låginnehållsböcker. Ingen attribution krävs på dina sålda produkter.
 
 Skapa paket med matematik arbetsblad för försäljning. Kombinera matte övningar med andra ämnen. Exportera i 300 DPI för professionell utskriftskvalitet. Många lärare tjänar 500-5000 kr extra per månad. Skapa arbetsblad gratis som kompletterar dina befintliga produkter. Licensen täcker både digitala och fysiska försäljningar.`,
         highlighted: true,
@@ -287,7 +287,7 @@ Eller skapa komplexa pussel för begåvade elever. Fem små bitar med sex altern
         icon: '💰',
         title: 'Lärarentreprenörer',
         subtitle: 'Sälj Matematik Arbetsblad och Matte Övningar med Kommersiell Licens',
-        description: `Lärare som säljer material behöver professionella verktyg. Full Access inkluderar kommersiell print-on-demand-licens. Skapa produkter för Teachers Pay Teachers. Bygg en produktportfölj med matematik arbetsblad.
+        description: `Lärare som säljer material behöver professionella verktyg. Full Tillgång inkluderar kommersiell print-on-demand-licens. Skapa produkter för Teachers Pay Teachers. Bygg en produktportfölj med matematik arbetsblad.
 
 Matte övningar för alla årskurser. Addition och subtraktion för årskurs 1-2. Multiplikationstabellen för årskurs 3. Kombinera olika ämnen i paket. Saknade bitar-pussel plus målarbilder barn. Finmotorik övningar kombinerat med bokstäver lära sig. Skapa arbetsblad gratis och sälj för vinst. 300 DPI kommersiell kvalitet garanterad.`,
         quote: 'Min prenumeration betalade sig själv första månaden!',

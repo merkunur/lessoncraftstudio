@@ -16,7 +16,7 @@ export const drawAndColorSvContent: ProductPageContent = {
     slug: 'rutritning-arbetsblad',
     appId: 'draw-and-color',
     title: 'Målarbilder Barn och Ritövningar - Arbetsblad Gratis för Förskoleklass Material',
-    description: 'Skapa professionella målarbilder barn med vårt rutnätstekniska verktyg. Med Full Access-prenumerationen får du obegränsad tillgång till ritövningar och målarbilder barn utan extra avgifter. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar.',
+    description: 'Skapa professionella målarbilder barn med vårt rutnätstekniska verktyg. Med Full Tillgång-prenumerationen får du obegränsad tillgång till ritövningar och målarbilder barn utan extra avgifter. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar.',
     keywords: 'målarbilder barn, ritövningar, arbetsblad gratis, förskoleklass material, finmotorik övningar, rutnätsteknik, matematik arbetsblad, bokstäver lära sig, siffror och tal, rutnätsritning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/rutritning-arbetsblad',
   },
@@ -25,13 +25,13 @@ export const drawAndColorSvContent: ProductPageContent = {
   hero: {
     title: 'Målarbilder Barn och Ritövningar',
     subtitle: 'Arbetsblad Gratis för Förskoleklass Material',
-    description: `Skapa professionella målarbilder barn med vårt rutnätstekniska verktyg. Med Full Access-prenumerationen får du obegränsad tillgång till ritövningar och målarbilder barn utan extra avgifter. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar. Ladda ner högkvalitativa PDF-arbetsblad på under tre minuter.
+    description: `Skapa professionella målarbilder barn med vårt rutnätstekniska verktyg. Med Full Tillgång-prenumerationen får du obegränsad tillgång till ritövningar och målarbilder barn utan extra avgifter. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och finmotorik övningar. Ladda ner högkvalitativa PDF-arbetsblad på under tre minuter.
 
 Vårt verktyg kombinerar målarbilder barn med matematik arbetsblad genom att använda rutnätsteknik. Barn lär sig rumsliga relationer genom att kopiera pixelmönster från ledtrådsrutnätet till ritrutnätet. Dessa arbetsblad gratis för utskrift utvecklar finmotorik övningar samtidigt som de introducerar grundläggande matte övningar genom koordinater.
 
 Perfekt för förskoleklass material och lågstadiet. Varje målarbilder barn-aktivitet kombinerar konst med matematik arbetsblad-koncept. Barn övar finmotorik övningar medan de lär sig rumslig orientering. Ladda ner arbetsblad gratis i PDF-format och börja använda målarbilder barn direkt i klassrummet.
 
-Full Access-prenumerationen kostar 240 dollar per år. Du får tillgång till alla 33 arbetsbladsverktyg inklusive målarbilder barn-generatorn. Skapa förskoleklass material med professionell 300 DPI-kvalitet. Inga extra avgifter per arbetsblad. Generera så många målarbilder barn och finmotorik övningar som du behöver.`,
+Full Tillgång-prenumerationen kostar 240 dollar per år. Du får tillgång till alla 33 arbetsbladsverktyg inklusive målarbilder barn-generatorn. Skapa förskoleklass material med professionell 300 DPI-kvalitet. Inga extra avgifter per arbetsblad. Generera så många målarbilder barn och finmotorik övningar som du behöver.`,
     previewImageSrc: '/samples/english/draw and color/grid-drawing_worksheet.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
@@ -113,7 +113,7 @@ Full Access-prenumerationen kostar 240 dollar per år. Du får tillgång till al
   // Features Grid - FULL text from draw-and-color.md feature sections
   features: {
     sectionTitle: 'Funktioner för Målarbilder Barn och Arbetsblad Gratis - Allt Du Behöver för Förskoleklass Material',
-    sectionDescription: 'Vår målarbilder barn-generator inkluderar alla funktioner lärare behöver för att skapa förskoleklass material. Verktyget kombinerar enkel användning med professionella resultat. Du får tillgång till över 3000 bilder för målarbilder barn. Full redigerbarhet på arbetsytan ger dig total kontroll. Ladda upp egna bilder för personligt förskoleklass material. Full Access-prenumerationen kostar 240 dollar per år eller 25 dollar per månad. Du får alla 33 arbetsbladsverktyg inklusive målarbilder barn-generatorn.',
+    sectionDescription: 'Vår målarbilder barn-generator inkluderar alla funktioner lärare behöver för att skapa förskoleklass material. Verktyget kombinerar enkel användning med professionella resultat. Du får tillgång till över 3000 bilder för målarbilder barn. Full redigerbarhet på arbetsytan ger dig total kontroll. Ladda upp egna bilder för personligt förskoleklass material. Full Tillgång-prenumerationen kostar 240 dollar per år eller 25 dollar per månad. Du får alla 33 arbetsbladsverktyg inklusive målarbilder barn-generatorn.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
     showLessLabel: 'Visa mindre',
@@ -154,7 +154,7 @@ Finmotorik övningar kräver precis utformning. Rutnätsstorlek påverkar svåri
 
 Använd klassfoton för personliga målarbilder barn. Ladda upp bilder av klassdjur eller skolmiljö. Skapa rutnätsritningar av barnens egna teckningar. Förskoleklass material blir mer engagerande med bekanta motiv. Barn känner igen bilder från sitt eget liv.
 
-Uppladdade bilder sparas under hela sessionen. Använd samma bilder i flera målarbilder barn-arbetsblad. Skapa serier av förskoleklass material med samma tema. Full Access-prenumerationen inkluderar obegränsad bilduppladdning. Inga begränsningar på filstorlek eller antal uppladdningar.`,
+Uppladdade bilder sparas under hela sessionen. Använd samma bilder i flera målarbilder barn-arbetsblad. Skapa serier av förskoleklass material med samma tema. Full Tillgång-prenumerationen inkluderar obegränsad bilduppladdning. Inga begränsningar på filstorlek eller antal uppladdningar.`,
         highlighted: false,
       },
       {
@@ -172,11 +172,11 @@ ESL-lärare använder verktyget för språkinlärning. Flerspråkigt förskolekl
         id: '5',
         icon: '💰',
         title: 'Kommersiell Licens Ingår - Sälj Dina Arbetsblad Gratis Nedladdningar Som Förskoleklass Material',
-        description: `Full Access-prenumerationen inkluderar full kommersiell print-on-demand-licens. Sälj dina målarbilder barn på Etsy utan extra licensavgifter. Ladda upp förskoleklass material till Teachers Pay Teachers. Publicera arbetsböcker på Amazon KDP. Ingen attribution krävs.
+        description: `Full Tillgång-prenumerationen inkluderar full kommersiell print-on-demand-licens. Sälj dina målarbilder barn på Etsy utan extra licensavgifter. Ladda upp förskoleklass material till Teachers Pay Teachers. Publicera arbetsböcker på Amazon KDP. Ingen attribution krävs.
 
 Lärare tjänar 500 till 5000 dollar per månad genom att sälja förskoleklass material. Målarbilder barn är extremt populära på Etsy och Teachers Pay Teachers. Föräldrar söker ständigt efter arbetsblad gratis att köpa. Professionell 300 DPI-kvalitet gör dina produkter konkurrenskraftiga.
 
-Skapa produktpaket med 20 målarbilder barn för 5 till 10 dollar. Förskoleklass material i tematiska serier säljer bäst. Kombinera flera svårighetsgrader i samma paket. Full Access-prenumerationen betalar sig själv efter bara några försäljningar. Kommersiell licens som vanligtvis kostar 100 till 200 dollar extra per år ingår.`,
+Skapa produktpaket med 20 målarbilder barn för 5 till 10 dollar. Förskoleklass material i tematiska serier säljer bäst. Kombinera flera svårighetsgrader i samma paket. Full Tillgång-prenumerationen betalar sig själv efter bara några försäljningar. Kommersiell licens som vanligtvis kostar 100 till 200 dollar extra per år ingår.`,
         highlighted: true,
       },
       {
@@ -187,7 +187,7 @@ Skapa produktpaket med 20 målarbilder barn för 5 till 10 dollar. Förskoleklas
 
 Sökfunktion hittar bilder direkt på svenska. Skriv "hund" och alla hundbilder visas. Filtrera efter tema eller sök i hela biblioteket. Alla målarbilder barn-motiv är barnvänliga och pedagogiskt lämpliga. Inga olämpliga bilder.
 
-Nya bilder läggs till regelbundet. Biblioteket växer konstant med fler alternativ för förskoleklass material. Alla bakgrunder och ramar ingår utan extra kostnad. Konkurrenter tar betalt per bild eller per mall. Med Full Access får du allt för 240 dollar per år. Skapa obegränsade målarbilder barn med vilket motiv som helst.`,
+Nya bilder läggs till regelbundet. Biblioteket växer konstant med fler alternativ för förskoleklass material. Alla bakgrunder och ramar ingår utan extra kostnad. Konkurrenter tar betalt per bild eller per mall. Med Full Tillgång får du allt för 240 dollar per år. Skapa obegränsade målarbilder barn med vilket motiv som helst.`,
         highlighted: false,
       },
       {
@@ -329,7 +329,7 @@ Kombinera målarbilder barn med klockan lära sig-aktiviteter. Skapa rutnät med
         subtitle: 'Anpassat för Olika Åldrar',
         description: `Hemmaskolelärare undervisar ofta barn i olika åldrar samtidigt. Målarbilder barn fungerar för alla nivåer. Femåringen får 3×3-rutnät med många ledtrådar. Sjuåringen får 6×6-rutnät med färre ledtrådar. Samma bild men anpassad svårighetsgrad. Alla barn arbetar tillsammans på relaterat förskoleklass material.
 
-Skapa obegränsade arbetsblad gratis utan prenumerationsavgift per arbetsblad. Hemmaskolefamiljer behöver mycket material. Full Access-prenumerationen på 240 dollar per år är mer ekonomisk än att köpa enskilda arbetsböcker. Generera nya målarbilder barn varje dag utan extra kostnad.
+Skapa obegränsade arbetsblad gratis utan prenumerationsavgift per arbetsblad. Hemmaskolefamiljer behöver mycket material. Full Tillgång-prenumerationen på 240 dollar per år är mer ekonomisk än att köpa enskilda arbetsböcker. Generera nya målarbilder barn varje dag utan extra kostnad.
 
 Ladda upp familjefoton för personligt förskoleklass material. Skapa rutnätsritningar av husdjuret. Använd semesterfoton som motiv. Barn älskar att rita saker från sitt eget liv. Personliga målarbilder barn ökar motivation och engagemang kraftigt.
 
@@ -371,7 +371,7 @@ Skapa arbetsblad gratis för varje elevs individuella utbildningsplan. Anpassa s
         subtitle: 'Kommersiell Licens Ingår',
         description: `Lärare tjänar 500 till 5000 dollar per månad på Teachers Pay Teachers. Målarbilder barn är extremt populära produkter. Föräldrar söker ständigt efter arbetsblad gratis att köpa. Tematiska paket med 20 målarbilder barn säljer för 5 till 10 dollar. Skapa flera paket per månad för stabil inkomst.
 
-Full Access-prenumerationen inkluderar kommersiell print-on-demand-licens. Sälj ditt förskoleklass material utan extra licensavgifter. Ladda upp till Etsy som digitala nedladdningar. Publicera arbetsböcker på Amazon KDP. Professionell 300 DPI-kvalitet konkurrerar med stora förlag.
+Full Tillgång-prenumerationen inkluderar kommersiell print-on-demand-licens. Sälj ditt förskoleklass material utan extra licensavgifter. Ladda upp till Etsy som digitala nedladdningar. Publicera arbetsböcker på Amazon KDP. Professionell 300 DPI-kvalitet konkurrerar med stora förlag.
 
 Skapa säsongstematiskt förskoleklass material året runt. Sommar-målarbilder barn i maj. Halloween-tema i september. Jul-rutnät i november. Säsongsbaserade produkter säljer bäst när de är relevanta. Planera och skapa arbetsblad gratis månader i förväg.
 
@@ -396,7 +396,7 @@ Kombinera flera svårighetsgrader i samma paket. "25 Djur-målarbilder Barn - F�
       {
         id: '1',
         question: 'Är Detta Verktyg för Målarbilder Barn Verkligen Gratis att Använda?',
-        answer: 'Målarbilder barn-generatorn kräver Full Access-prenumeration som kostar 240 dollar årligen eller 25 dollar månadsvis. Din prenumeration ger obegränsad skapande av målarbilder barn utan avgift per arbetsblad. Generera så många arbetsblad gratis för nedladdning som du behöver utan extra kostnader. Detta inkluderar allt förskoleklass material du skapar året runt. Full Access inkluderar alla 33 arbetsbladsverktyg. Du får inte bara målarbilder barn utan också matematik arbetsblad-generatorer. Finmotorik övningar kan skapas med flera verktyg. Alla ingår för 240 dollar totalt per år. Båda prenumerationerna inkluderar kommersiell licens, stöd för elva språk och professionell 300 DPI-kvalitetsexport.',
+        answer: 'Målarbilder barn-generatorn kräver Full Tillgång-prenumeration som kostar 240 dollar årligen eller 25 dollar månadsvis. Din prenumeration ger obegränsad skapande av målarbilder barn utan avgift per arbetsblad. Generera så många arbetsblad gratis för nedladdning som du behöver utan extra kostnader. Detta inkluderar allt förskoleklass material du skapar året runt. Full Tillgång inkluderar alla 33 arbetsbladsverktyg. Du får inte bara målarbilder barn utan också matematik arbetsblad-generatorer. Finmotorik övningar kan skapas med flera verktyg. Alla ingår för 240 dollar totalt per år. Båda prenumerationerna inkluderar kommersiell licens, stöd för elva språk och professionell 300 DPI-kvalitetsexport.',
       },
       {
         id: '2',
@@ -411,7 +411,7 @@ Kombinera flera svårighetsgrader i samma paket. "25 Djur-målarbilder Barn - F�
       {
         id: '4',
         question: 'Kan Jag Använda Målarbilder Barn i Min Förskoleklass för Mina Elever?',
-        answer: 'Full Access-prenumerationen inkluderar obegränsad klassrumsanvändning. Skapa så många målarbilder barn som du behöver för dina elever. Skriv ut 25 kopior av samma arbetsblad gratis för hela klassen. Generera olika versioner för differentierad undervisning. Allt förskoleklass material får användas fritt i din undervisning. Skapa målarbilder barn för alla ämnesområden. Naturkunskap med djurtema. Samhällskunskap med transporttema. Matematik arbetsblad med siffror och tal integrerade i rutnäten. Finmotorik övningar dagligen som morgonaktivitet. Full Access täcker all pedagogisk användning utan begränsningar. Din prenumeration ger komplett frihet i klassrummet.',
+        answer: 'Full Tillgång-prenumerationen inkluderar obegränsad klassrumsanvändning. Skapa så många målarbilder barn som du behöver för dina elever. Skriv ut 25 kopior av samma arbetsblad gratis för hela klassen. Generera olika versioner för differentierad undervisning. Allt förskoleklass material får användas fritt i din undervisning. Skapa målarbilder barn för alla ämnesområden. Naturkunskap med djurtema. Samhällskunskap med transporttema. Matematik arbetsblad med siffror och tal integrerade i rutnäten. Finmotorik övningar dagligen som morgonaktivitet. Full Tillgång täcker all pedagogisk användning utan begränsningar. Din prenumeration ger komplett frihet i klassrummet.',
       },
       {
         id: '5',
@@ -421,7 +421,7 @@ Kombinera flera svårighetsgrader i samma paket. "25 Djur-målarbilder Barn - F�
       {
         id: '6',
         question: 'Kan Jag Sälja Målarbilder Barn Jag Skapar med Denna Generator som Arbetsblad Gratis?',
-        answer: 'Ja. Full Access-prenumerationen inkluderar full kommersiell print-on-demand-licens utan extra kostnad. Sälj dina målarbilder barn på Teachers Pay Teachers utan licensavgifter. Ladda upp förskoleklass material till Etsy. Publicera arbetsböcker på Amazon KDP. Ingen attribution krävs. Professionell 300 DPI-kvalitet gör dina produkter konkurrenskraftiga. Teachers Pay Teachers-kunder förväntar sig högkvalitativa arbetsblad gratis. Etsy-köpare kräver printbar kvalitet. Ditt förskoleklass material möter alla standarder. Kommersiell licens som vanligtvis kostar 100 till 200 dollar extra per år ingår i din 240 dollar prenumeration. Börja sälja omedelbart efter skapande.',
+        answer: 'Ja. Full Tillgång-prenumerationen inkluderar full kommersiell print-on-demand-licens utan extra kostnad. Sälj dina målarbilder barn på Teachers Pay Teachers utan licensavgifter. Ladda upp förskoleklass material till Etsy. Publicera arbetsböcker på Amazon KDP. Ingen attribution krävs. Professionell 300 DPI-kvalitet gör dina produkter konkurrenskraftiga. Teachers Pay Teachers-kunder förväntar sig högkvalitativa arbetsblad gratis. Etsy-köpare kräver printbar kvalitet. Ditt förskoleklass material möter alla standarder. Kommersiell licens som vanligtvis kostar 100 till 200 dollar extra per år ingår i din 240 dollar prenumeration. Börja sälja omedelbart efter skapande.',
       },
       {
         id: '7',
@@ -436,7 +436,7 @@ Kombinera flera svårighetsgrader i samma paket. "25 Djur-målarbilder Barn - F�
       {
         id: '9',
         question: 'Kan Jag Ladda Upp Egna Bilder till Målarbilder Barn för Personligt Förskoleklass Material?',
-        answer: 'Ja. Multifil-uppladdning låter dig välja flera bilder samtidigt. Alla bildformat fungerar inklusive JPEG, PNG och GIF. Kombinera dina foton med biblioteksbilder på samma arbetsblad gratis. Perfekt för att skapa personligt förskoleklass material med bekanta motiv för barnen. Använd klassfoton för personliga målarbilder barn. Ladda upp bilder av klassdjur eller skolmiljö. Skapa rutnätsritningar av barnens egna teckningar. Personliga bilder ökar motivation kraftigt. Barn känner igen motiv från sitt eget liv. Uppladdade bilder sparas under hela sessionen. Skapa multipla arbetsblad gratis från samma uppladdade foton. Full Access-prenumerationen inkluderar obegränsad bilduppladdning.',
+        answer: 'Ja. Multifil-uppladdning låter dig välja flera bilder samtidigt. Alla bildformat fungerar inklusive JPEG, PNG och GIF. Kombinera dina foton med biblioteksbilder på samma arbetsblad gratis. Perfekt för att skapa personligt förskoleklass material med bekanta motiv för barnen. Använd klassfoton för personliga målarbilder barn. Ladda upp bilder av klassdjur eller skolmiljö. Skapa rutnätsritningar av barnens egna teckningar. Personliga bilder ökar motivation kraftigt. Barn känner igen motiv från sitt eget liv. Uppladdade bilder sparas under hela sessionen. Skapa multipla arbetsblad gratis från samma uppladdade foton. Full Tillgång-prenumerationen inkluderar obegränsad bilduppladdning.',
       },
       {
         id: '10',
@@ -477,7 +477,7 @@ Kombinera flera svårighetsgrader i samma paket. "25 Djur-målarbilder Barn - F�
   // Related Apps
   relatedApps: {
     sectionTitle: 'Kombinera Målarbilder Barn med Andra Arbetsblad Gratis - Kompletta Inlärningspaket för Förskoleklass Material',
-    sectionDescription: 'Full Access-prenumerationen inkluderar 33 gratis arbetsbladsverktyg. Kombinera målarbilder barn med matematik arbetsblad för tematiska paket. Integrera finmotorik övningar med bokstäver lära sig-aktiviteter. Blanda klockan lära sig med målarbilder barn för tidsundervisning. Skapa förskoleklass material som täcker multipla färdigheter samtidigt. Arbetsblad gratis från olika verktyg kombineras till kompletta lektioner.',
+    sectionDescription: 'Full Tillgång-prenumerationen inkluderar 33 gratis arbetsbladsverktyg. Kombinera målarbilder barn med matematik arbetsblad för tematiska paket. Integrera finmotorik övningar med bokstäver lära sig-aktiviteter. Blanda klockan lära sig med målarbilder barn för tidsundervisning. Skapa förskoleklass material som täcker multipla färdigheter samtidigt. Arbetsblad gratis från olika verktyg kombineras till kompletta lektioner.',
     ctaTitle: 'Redo att Skapa Fantastiska Målarbilder Barn?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',
     primaryCtaText: 'Starta Gratis Provperiod',

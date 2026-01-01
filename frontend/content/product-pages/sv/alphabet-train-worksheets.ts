@@ -344,7 +344,7 @@ Skapa tematiska arbetsbladspaket. Jul-alfabettåg med svenska julbilder. Påsk-a
       {
         id: '1',
         question: 'Är Denna Alfabettåg-Generator Verkligen Gratis att Använda för Förskoleklass Material?',
-        answer: 'Alfabettåg-generatorn kräver en Grundpaket-prenumeration som kostar 144 dollar årligen eller 15 dollar månadsvis. Din prenumeration ger dig obegränsad skapande av alfabettåg utan extra avgifter per arbetsblad. Generera så många förskoleklass material arbetsblad du behöver utan ytterligare kostnader. Grundpaketet inkluderar 10 populära arbetsbladsappar. Full Access-prenumeration kostar 240 dollar årligen och inkluderar alla 33 arbetsbladstyper.',
+        answer: 'Alfabettåg-generatorn kräver en Grundpaket-prenumeration som kostar 144 dollar årligen eller 15 dollar månadsvis. Din prenumeration ger dig obegränsad skapande av alfabettåg utan extra avgifter per arbetsblad. Generera så många förskoleklass material arbetsblad du behöver utan ytterligare kostnader. Grundpaketet inkluderar 10 populära arbetsbladsappar. Full Tillgång-prenumeration kostar 240 dollar årligen och inkluderar alla 33 arbetsbladstyper.',
       },
       {
         id: '2',

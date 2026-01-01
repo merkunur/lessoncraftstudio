@@ -16,7 +16,7 @@ export const cryptogramSvContent: ProductPageContent = {
     slug: 'bildkryptogram-arbetsblad',
     appId: 'image-cryptogram',
     title: 'Bildkryptogram Generator - Arbetsblad Gratis för Bokstäver Lära Sig och Matematik Arbetsblad',
-    description: 'Skapa professionella bildkryptogram med vår bildkryptogram-generator. Din Full Access-prenumeration ger dig obegränsad skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade utskrivbara bildkryptogram perfekta för förskoleklass material och lågstadiebarn.',
+    description: 'Skapa professionella bildkryptogram med vår bildkryptogram-generator. Din Full Tillgång-prenumeration ger dig obegränsad skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade utskrivbara bildkryptogram perfekta för förskoleklass material och lågstadiebarn.',
     keywords: 'bildkryptogram generator, arbetsblad gratis, förskoleklass material, bokstäver lära sig, kryptogram barn, bildkryptogram, matematik arbetsblad, finmotorik övningar, målarbilder barn, bokstavsigenkänning',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildkryptogram-arbetsblad',
   },
@@ -25,13 +25,13 @@ export const cryptogramSvContent: ProductPageContent = {
   hero: {
     title: 'Bild Kryptogram',
     subtitle: 'Arbetsblad Gratis för Bokstäver Lära Sig och Matematik Arbetsblad',
-    description: `Skapa professionella bildkryptogram med vår bildkryptogram-generator. Din Full Access-prenumeration ger dig obegränsad skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade utskrivbara bildkryptogram perfekta för förskoleklass material och lågstadiebarn. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
+    description: `Skapa professionella bildkryptogram med vår bildkryptogram-generator. Din Full Tillgång-prenumeration ger dig obegränsad skapande av arbetsblad utan extra avgifter per arbetsblad. Generera anpassade utskrivbara bildkryptogram perfekta för förskoleklass material och lågstadiebarn. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Bildkryptogram är roliga pusselarbetsblad där bokstäver ersätts med bilder. Barn löser pusslet genom att dechiffrera vilken bild som representerar varje bokstav. Detta skapar engagerande aktiviteter för bokstäver lära sig och läsförståelse. Perfekt för att göra bokstavsträning och stavning roligt och interaktivt.
 
 Vår generator skapar både arbetsblad och facit automatiskt. Arbetet med bildkryptogram stödjer flera lärandemål samtidigt. Barn tränar bokstavsigenkänning, problemlösning, logiskt tänkande och uthållighet. Varje bildkryptogram kan anpassas efter elevernas nivå genom att visa ledtrådar i form av avslöjade bokstäver.
 
-Full Access-prenumerationen inkluderar alla 33 arbetsbladsverktyg för 2 880 kr per år. Det motsvarar bara 240 kr per månad. Ingen extra kostnad för kommersiell licens, bildbibliotek eller obegränsad nedladdning. Allt ingår i en prenumeration.`,
+Full Tillgång-prenumerationen inkluderar alla 33 arbetsbladsverktyg för 2 880 kr per år. Det motsvarar bara 240 kr per månad. Ingen extra kostnad för kommersiell licens, bildbibliotek eller obegränsad nedladdning. Allt ingår i en prenumeration.`,
     previewImageSrc: '/samples/english/cryptogram/cryptogram_worksheet.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
@@ -150,7 +150,7 @@ Flerspråkiga skolor kan använda samma verktyg för alla språk. En prenumerati
         id: '5',
         icon: '💰',
         title: 'Kommersiell Licens Ingår',
-        description: `Full Access-prenumerationen inkluderar kommersiell print-on-demand-licens. Sälj dina bildkryptogram på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen extra licensavgift utöver prenumerationen. Ingen krav på attribution eller källhänvisning.
+        description: `Full Tillgång-prenumerationen inkluderar kommersiell print-on-demand-licens. Sälj dina bildkryptogram på Teachers Pay Teachers, Etsy eller Amazon KDP. Ingen extra licensavgift utöver prenumerationen. Ingen krav på attribution eller källhänvisning.
 
 Kommersiell licens är annars dyrt hos konkurrenterna. Andra plattformar tar 800-2 000 kr extra per år för kommersiell användning. Vi inkluderar det i din 2 880 kr prenumeration. Du sparar hundratals kronor årligen.
 
@@ -353,7 +353,7 @@ Visuella inlärare, som många autistiska elever, blomstrar med bildbaserade upp
         icon: '💰',
         title: 'Lärarföretagare',
         subtitle: 'Sälj Arbetsblad Gratis Material och Målarbilder Barn på Teachers Pay Teachers',
-        description: `Lärarföretagare tjänar pengar genom att sälja pedagogiskt material online. Teachers Pay Teachers, Etsy och egna webbshoppar är vanliga plattformar. Bildkryptogram-paket säljer bra eftersom de är unika och roliga. Kommersiell licens ingår i Full Access-prenumerationen.
+        description: `Lärarföretagare tjänar pengar genom att sälja pedagogiskt material online. Teachers Pay Teachers, Etsy och egna webbshoppar är vanliga plattformar. Bildkryptogram-paket säljer bra eftersom de är unika och roliga. Kommersiell licens ingår i Full Tillgång-prenumerationen.
 
 Målarbilder barn kombinerat med bildkryptogram blir populära produkter. Skapa paket där barn först målar, sedan löser bildkryptogram. Eller bildkryptogram som barn färglägger efter lösning. Kreativa kombinationer attraherar köpare.
 
@@ -380,7 +380,7 @@ Många lärare tjänar 4 000-40 000 kr per månad på Teachers Pay Teachers. Bil
       {
         id: '1',
         question: 'Är Bildkryptogram-Generatorn Gratis för Matematik Arbetsblad och Förskoleklass Material?',
-        answer: 'Bildkryptogram-generatorn kräver Full Access-prenumeration som kostar 2 880 kr årligen eller 240 kr månadsvis. Din prenumeration ger obegränsad bildkryptogram-skapande utan extra avgifter per arbetsblad. Generera så många matematik arbetsblad och förskoleklass material som du behöver utan tilläggskostnader. Onlinegeneratorn spar dig tusentals kronor jämfört med köpta arbetsbokshäften.',
+        answer: 'Bildkryptogram-generatorn kräver Full Tillgång-prenumeration som kostar 2 880 kr årligen eller 240 kr månadsvis. Din prenumeration ger obegränsad bildkryptogram-skapande utan extra avgifter per arbetsblad. Generera så många matematik arbetsblad och förskoleklass material som du behöver utan tilläggskostnader. Onlinegeneratorn spar dig tusentals kronor jämfört med köpta arbetsbokshäften.',
       },
       {
         id: '2',
@@ -395,7 +395,7 @@ Många lärare tjänar 4 000-40 000 kr per månad på Teachers Pay Teachers. Bil
       {
         id: '4',
         question: 'Kan Jag Använda Bildkryptogram i Klassrummet för Addition och Subtraktion samt Multiplikationstabellen?',
-        answer: 'Ja, Full Access-prenumerationen inkluderar obegränsad klassrumsanvändning. Skriv ut så många kopior du behöver för alla elever. Ingen begränsning på antal utskrifter eller antal klasser. Din prenumeration täcker all pedagogisk användning. Addition och subtraktion integreras enkelt i bildkryptogram-fraser.',
+        answer: 'Ja, Full Tillgång-prenumerationen inkluderar obegränsad klassrumsanvändning. Skriv ut så många kopior du behöver för alla elever. Ingen begränsning på antal utskrifter eller antal klasser. Din prenumeration täcker all pedagogisk användning. Addition och subtraktion integreras enkelt i bildkryptogram-fraser.',
       },
       {
         id: '5',
@@ -405,7 +405,7 @@ Många lärare tjänar 4 000-40 000 kr per månad på Teachers Pay Teachers. Bil
       {
         id: '6',
         question: 'Kan Jag Sälja Bildkryptogram Med Skriva Bokstäver och Finmotorik Övningar på Teachers Pay Teachers?',
-        answer: 'Ja, Full Access inkluderar full kommersiell print-on-demand-licens. Sälj dina bildkryptogram på Teachers Pay Teachers, Etsy, Amazon KDP eller egen webbshop. Ingen extra licensavgift utöver din 2 880 kr årsprenumeration. Ingen krav på attribution eller källhänvisning.',
+        answer: 'Ja, Full Tillgång inkluderar full kommersiell print-on-demand-licens. Sälj dina bildkryptogram på Teachers Pay Teachers, Etsy, Amazon KDP eller egen webbshop. Ingen extra licensavgift utöver din 2 880 kr årsprenumeration. Ingen krav på attribution eller källhänvisning.',
       },
       {
         id: '7',

@@ -16,7 +16,7 @@ export const crosswordSvContent: ProductPageContent = {
     slug: 'bildkorsord-arbetsblad',
     appId: 'image-crossword',
     title: 'Bildkorsord Generator - Arbetsblad Gratis för Förskoleklass Material och Bokstäver Lära Sig',
-    description: 'Skapa professionella bildkorsord med vår bildkorsordsgenerator. Din Full Access-prenumeration ger dig obegränsad tillgång till att skapa korsord utan extra avgifter per arbetsblad. Generera anpassade utskrivbara bildkorsord perfekta för förskoleklass material och bokstäver lära sig aktiviteter.',
+    description: 'Skapa professionella bildkorsord med vår bildkorsordsgenerator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till att skapa korsord utan extra avgifter per arbetsblad. Generera anpassade utskrivbara bildkorsord perfekta för förskoleklass material och bokstäver lära sig aktiviteter.',
     keywords: 'bildkorsord generator, arbetsblad gratis, förskoleklass material, bokstäver lära sig, korsord barn, bildkorsord, matematik arbetsblad, finmotorik övningar, målarbilder barn, ordförråd',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/bildkorsord-arbetsblad',
   },
@@ -25,13 +25,13 @@ export const crosswordSvContent: ProductPageContent = {
   hero: {
     title: 'Bildkorsord Generator',
     subtitle: 'Arbetsblad Gratis för Förskoleklass Material och Bokstäver Lära Sig',
-    description: `Skapa professionella bildkorsord med vår bildkorsordsgenerator. Din Full Access-prenumeration ger dig obegränsad tillgång till att skapa korsord utan extra avgifter per arbetsblad. Generera anpassade utskrivbara bildkorsord perfekta för förskoleklass material och bokstäver lära sig aktiviteter. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
+    description: `Skapa professionella bildkorsord med vår bildkorsordsgenerator. Din Full Tillgång-prenumeration ger dig obegränsad tillgång till att skapa korsord utan extra avgifter per arbetsblad. Generera anpassade utskrivbara bildkorsord perfekta för förskoleklass material och bokstäver lära sig aktiviteter. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Bildkorsord kombinerar bilder med ordkunskap på ett roligt sätt. Eleverna ser bilder och skriver motsvarande ord i korsordsrutan. Detta hjälper barn att lära sig bokstäver samtidigt som de utvecklar ordförråd och stavningsförmåga. Perfekt för svenska klassrum från förskoleklass till årskurs 3.
 
 Vår bildkorsordsgenerator erbjuder över 3000 barnvänliga bilder organiserade efter tema. Välj bilder från vårt bibliotek eller ladda upp dina egna foton. Anpassa allt från bakgrunder och ramar till textstorlek och färg. Skapa unika bildkorsord som passar dina elevers behov och intressen.
 
-Varje bildkorsord exporteras i professionell 300 DPI-kvalitet. Ladda ner som PDF eller JPEG för perfekt utskrift. Full Access-prenumerationen inkluderar kommersiell licens så du kan sälja dina bildkorsord på Teachers Pay Teachers, Etsy eller Amazon KDP. Alla 33 arbetsbladsgeneratorer ingår för endast $240 per år.`,
+Varje bildkorsord exporteras i professionell 300 DPI-kvalitet. Ladda ner som PDF eller JPEG för perfekt utskrift. Full Tillgång-prenumerationen inkluderar kommersiell licens så du kan sälja dina bildkorsord på Teachers Pay Teachers, Etsy eller Amazon KDP. Alla 33 arbetsbladsgeneratorer ingår för endast $240 per år.`,
     previewImageSrc: '/samples/english/crossword/crossword_worksheet.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
@@ -111,7 +111,7 @@ Kombinera med matte övningar för komplett lektionsplanering. Ingen förkunskap
         title: 'Redigera Allt på Canvas',
         description: `Efter generering kan du redigera varje element på bildkorsordet. Dra bilder till nya positioner. Ändra storlek genom att skala med musen. Rotera element för perfekt layout. Ta bort bilder som inte passar. Lägg till nya bilder från biblioteket. Justera textstorlek och färg.
 
-Alla ändringar sker direkt på canvasen. Skapa arbetsblad gratis med Full Access-prenumerationen. Perfekt för att anpassa bildkorsord till bokstäver lära sig aktiviteter i svenska klassrum.`,
+Alla ändringar sker direkt på canvasen. Skapa arbetsblad gratis med Full Tillgång-prenumerationen. Perfekt för att anpassa bildkorsord till bokstäver lära sig aktiviteter i svenska klassrum.`,
         highlighted: false,
       },
       {
@@ -136,7 +136,7 @@ Skapa bildkorsord för svenska elever som lär sig bokstäver. Eller skapa engel
         id: '5',
         icon: '💰',
         title: 'Kommersiell Licens Ingår',
-        description: `Full Access-prenumerationen inkluderar kommersiell print-on-demand-licens. Sälj bildkorsord du skapar på Teachers Pay Teachers. Öppna Etsy-butik med utskrivbara arbetsblad. Publicera arbetsboksböcker på Amazon KDP. Ingen attribution krävs. Inga extra licensavgifter utöver din prenumeration.
+        description: `Full Tillgång-prenumerationen inkluderar kommersiell print-on-demand-licens. Sälj bildkorsord du skapar på Teachers Pay Teachers. Öppna Etsy-butik med utskrivbara arbetsblad. Publicera arbetsboksböcker på Amazon KDP. Ingen attribution krävs. Inga extra licensavgifter utöver din prenumeration.
 
 Lärare tjänar $500-5000 per månad genom att sälja arbetsblad online. Skapa arbetsblad gratis med din prenumeration och sälj för vinst. 300 DPI kommersiell kvalitet garanterad på alla exporter.`,
         highlighted: true,
@@ -147,7 +147,7 @@ Lärare tjänar $500-5000 per månad genom att sälja arbetsblad online. Skapa a
         title: '3000+ Bildbibliotek',
         description: `Över 3000 barnvänliga bilder ingår i bildbiblioteket. Organiserade efter teman som djur, fordon, mat, kläder, leksaker och mer. Sök efter specifika bildnamn på svenska. Bläddra genom teman för inspiration.
 
-Välj individuella bilder eller hela teman. Kombinera målarbilder barn med bildkorsord för extra aktiviteter. Alla bilder är optimerade för utskrift. Tydliga konturer perfekta för yngre barn. Nytt innehåll läggs till regelbundet. Tillgång till hela biblioteket ingår i Full Access.`,
+Välj individuella bilder eller hela teman. Kombinera målarbilder barn med bildkorsord för extra aktiviteter. Alla bilder är optimerade för utskrift. Tydliga konturer perfekta för yngre barn. Nytt innehåll läggs till regelbundet. Tillgång till hela biblioteket ingår i Full Tillgång.`,
         highlighted: false,
       },
       {
@@ -156,7 +156,7 @@ Välj individuella bilder eller hela teman. Kombinera målarbilder barn med bild
         title: 'Professionell 300 DPI Kvalitet',
         description: `Alla bildkorsord exporteras i professionell 300 DPI upplösning. Perfekt för utskrift på hemskrivare eller professionella tryckerier. Ladda ner som PDF för bästa kvalitet. Eller välj JPEG för enkel delning online.
 
-Gråskaleläge sparar bläck vid utskrift. Perfekt för addition och subtraktion arbetsblad i kombination med bildkorsord. Skapa arbetsblad gratis och skriv ut obegränsat. Varje nedladdning har professionell kvalitet värd att sälja. Inga vattenstämplar på Full Access-prenumerationen.`,
+Gråskaleläge sparar bläck vid utskrift. Perfekt för addition och subtraktion arbetsblad i kombination med bildkorsord. Skapa arbetsblad gratis och skriv ut obegränsat. Varje nedladdning har professionell kvalitet värd att sälja. Inga vattenstämplar på Full Tillgång-prenumerationen.`,
         highlighted: true,
       },
     ],
@@ -287,7 +287,7 @@ Använd elevernas specialintressen som teman. Skapa förskoleklass material anpa
         icon: '💰',
         title: 'Lärarentreprenörer',
         subtitle: 'Sälj Arbetsblad Gratis med Multiplikationstabellen och Klockan Lära Sig på Etsy',
-        description: `Lärarentreprenörer använder bildkorsord för att bygga online-affärer. Full Access-prenumerationen inkluderar kommersiell print-on-demand-licens. Skapa arbetsblad gratis och sälj på Teachers Pay Teachers eller Etsy.
+        description: `Lärarentreprenörer använder bildkorsord för att bygga online-affärer. Full Tillgång-prenumerationen inkluderar kommersiell print-on-demand-licens. Skapa arbetsblad gratis och sälj på Teachers Pay Teachers eller Etsy.
 
 Multiplikationstabellen arbetsblad är mycket populära produkter. Klockan lära sig bildkorsord säljer bra för årskurs 1-2. Skapa tematiska paket som täcker hela läsåret. Svenska lärare köper gärna färdiga arbetsblad. Lärare tjänar $500-5000 per månad.`,
         quote: 'Min prenumeration betalade sig själv första månaden!',
@@ -310,7 +310,7 @@ Multiplikationstabellen arbetsblad är mycket populära produkter. Klockan lära
       {
         id: '1',
         question: 'Är Denna Bildkorsordsgenerator Verkligen Gratis att Använda för Matematik Arbetsblad och Bokstäver Lära Sig?',
-        answer: 'Bildkorsordsgeneratorn kräver Full Access-prenumeration som kostar $240 årligen eller $25 per månad. Din prenumeration ger dig obegränsad skapande av bildkorsord utan extra avgifter per arbetsblad. Generera så många matematik arbetsblad och bokstäver lära sig bildkorsord som du behöver utan ytterligare kostnader. Full Access-prenumerationen inkluderar alla 33 arbetsbladsgeneratorer på plattformen.',
+        answer: 'Bildkorsordsgeneratorn kräver Full Tillgång-prenumeration som kostar $240 årligen eller $25 per månad. Din prenumeration ger dig obegränsad skapande av bildkorsord utan extra avgifter per arbetsblad. Generera så många matematik arbetsblad och bokstäver lära sig bildkorsord som du behöver utan ytterligare kostnader. Full Tillgång-prenumerationen inkluderar alla 33 arbetsbladsgeneratorer på plattformen.',
       },
       {
         id: '2',
@@ -325,7 +325,7 @@ Multiplikationstabellen arbetsblad är mycket populära produkter. Klockan lära
       {
         id: '4',
         question: 'Kan Jag Använda Bildkorsord i Mitt Klassrum för Bokstäver Lära Sig och Klockan Lära Sig?',
-        answer: 'Full Access-prenumerationen inkluderar obegränsad klassrumsanvändning. Skapa så många bildkorsord du behöver för alla dina elever. Perfekt för bokstäver lära sig aktiviteter i förskoleklass och årskurs 1. Utmärkt för klockan lära sig övningar i årskurs 2. Använd bildkorsord som morgonarbete, stationsarbete eller extrauppgifter.',
+        answer: 'Full Tillgång-prenumerationen inkluderar obegränsad klassrumsanvändning. Skapa så många bildkorsord du behöver för alla dina elever. Perfekt för bokstäver lära sig aktiviteter i förskoleklass och årskurs 1. Utmärkt för klockan lära sig övningar i årskurs 2. Använd bildkorsord som morgonarbete, stationsarbete eller extrauppgifter.',
       },
       {
         id: '5',
@@ -335,7 +335,7 @@ Multiplikationstabellen arbetsblad är mycket populära produkter. Klockan lära
       {
         id: '6',
         question: 'Kan Jag Sälja Bildkorsord Jag Skapar med Multiplikationstabellen och Klockan Lära Sig på Etsy?',
-        answer: 'Ja, Full Access-prenumerationen inkluderar full kommersiell print-on-demand-licens utan extra kostnad. Sälj bildkorsord du skapar på Teachers Pay Teachers, Etsy eller Amazon KDP. Multiplikationstabellen arbetsblad säljer extremt bra för årskurs 2-3. Klockan lära sig bildkorsord är populära produkter för tidsinlärning.',
+        answer: 'Ja, Full Tillgång-prenumerationen inkluderar full kommersiell print-on-demand-licens utan extra kostnad. Sälj bildkorsord du skapar på Teachers Pay Teachers, Etsy eller Amazon KDP. Multiplikationstabellen arbetsblad säljer extremt bra för årskurs 2-3. Klockan lära sig bildkorsord är populära produkter för tidsinlärning.',
       },
       {
         id: '7',

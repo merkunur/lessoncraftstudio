@@ -16,7 +16,7 @@ export const findObjectsSvContent: ProductPageContent = {
     slug: 'hitta-foremal-arbetsblad',
     appId: 'find-objects',
     title: 'Hitta Föremål Arbetsblad - Arbetsblad Gratis för Förskoleklass Material och Finmotorik Övningar',
-    description: 'Skapa professionella hitta föremål-arbetsblad med vår arbetsbladsgenerat or. Din Full Access-prenumeration ger dig obegränsad arbetsbladskapande utan avgifter per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och lågstadieeleverna.',
+    description: 'Skapa professionella hitta föremål-arbetsblad med vår arbetsbladsgenerat or. Din Full Tillgång-prenumeration ger dig obegränsad arbetsbladskapande utan avgifter per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och lågstadieeleverna.',
     keywords: 'hitta föremål arbetsblad, arbetsblad gratis, förskoleklass material, finmotorik övningar, i spy arbetsblad, odd one out, visuell perception, matematik arbetsblad, bokstäver lära sig, siffror och tal',
     canonicalUrl: 'https://www.lessoncraftstudio.com/sv/apps/hitta-foremal-arbetsblad',
   },
@@ -25,13 +25,13 @@ export const findObjectsSvContent: ProductPageContent = {
   hero: {
     title: 'Hitta Föremål Arbetsblad',
     subtitle: 'Arbetsblad Gratis för Förskoleklass Material och Finmotorik Övningar',
-    description: `Skapa professionella hitta föremål-arbetsblad med vår arbetsbladsgenerat or. Din Full Access-prenumeration ger dig obegränsad arbetsbladskapande utan avgifter per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och lågstadieeleverna. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
+    description: `Skapa professionella hitta föremål-arbetsblad med vår arbetsbladsgenerat or. Din Full Tillgång-prenumeration ger dig obegränsad arbetsbladskapande utan avgifter per arbetsblad. Generera anpassade arbetsblad gratis för utskrift perfekt för förskoleklass material och lågstadieeleverna. Ladda ner högkvalitativa PDF-arbetsblad på under 3 minuter.
 
 Våra hitta föremål-arbetsblad utvecklar visuell perception hos barn. Lärare använder dessa arbetsblad gratis som komplement till matematik arbetsblad och bokstäver lära sig-aktiviteter. Varje arbetsblad tränar koncentration och uppmärksamhet. Förskoleklass material som detta stödjer finmotorik övningar genom pek- och markeringsaktiviteter.
 
 Verktyget erbjuder två aktivitetslägen för varierande svårighetsgrad. I Spy-läget hittar barn 1-5 gömda föremål bland 8-12 distraktionsbilder. Odd One Out-läget tränar matchning där elever identifierar 1-3 oparade bilder bland 8-12 par. Båda lägena fungerar utmärkt som förskoleklass material och kompletterar målarbilder barn-aktiviteter. Din prenumeration inkluderar kommersiell licens för försäljning på Teachers Pay Teachers och Etsy.
 
-Generera arbetsblad gratis som kombinerar målarbilder barn med perceptionsträning. Lägg till egna bilder tillsammans med vårt bibliotek på 3000+ bilder. Anpassa sidstorlek, bakgrunder, ramar och text för förskoleklass material. Exportera professionella 300 DPI-arbetsblad som PDF eller JPEG. Arbetsbladen kompletterar matematik arbetsblad, addition och subtraktion-övningar samt bokstärer skriva-lektioner. Full redigerbarhet innebär att du kan dra, rotera och skala varje element. Din Full Access-prenumeration kostar $240/år eller $25/månad och inkluderar alla 33 verktyg.`,
+Generera arbetsblad gratis som kombinerar målarbilder barn med perceptionsträning. Lägg till egna bilder tillsammans med vårt bibliotek på 3000+ bilder. Anpassa sidstorlek, bakgrunder, ramar och text för förskoleklass material. Exportera professionella 300 DPI-arbetsblad som PDF eller JPEG. Arbetsbladen kompletterar matematik arbetsblad, addition och subtraktion-övningar samt bokstärer skriva-lektioner. Full redigerbarhet innebär att du kan dra, rotera och skala varje element. Din Full Tillgång-prenumeration kostar $240/år eller $25/månad och inkluderar alla 33 verktyg.`,
     previewImageSrc: '/samples/english/find objects/find objects portrait.jpeg',
     ctaLabels: {
       tryFree: 'Prova Gratis',
@@ -85,7 +85,7 @@ Generera arbetsblad gratis som kombinerar målarbilder barn med perceptionsträn
   // Features Grid - FULL text from find-objects.md feature sections
   features: {
     sectionTitle: 'Hitta Föremål Funktioner - Arbetsblad Gratis och Förskoleklass Material för Finmotorik Övningar',
-    sectionDescription: 'Vår hitta föremål-generator erbjuder professionella funktioner för förskoleklass material och lågstadiet. Verktyget kombinerar arbetsblad gratis-format med pedagogisk kvalitet. Skapa visuella perceptionsarbetsblad som kompletterar matematik arbetsblad och målarbilder barn. Varje funktion är utformad för snabb arbetsbladskapande. Lärare genererar färdiga arbetsblad på under 3 minuter. Verktygen stödjer finmotorik övningar och koncentrationsträning. Din Full Access-prenumeration inkluderar alla funktioner utan extra avgifter.',
+    sectionDescription: 'Vår hitta föremål-generator erbjuder professionella funktioner för förskoleklass material och lågstadiet. Verktyget kombinerar arbetsblad gratis-format med pedagogisk kvalitet. Skapa visuella perceptionsarbetsblad som kompletterar matematik arbetsblad och målarbilder barn. Varje funktion är utformad för snabb arbetsbladskapande. Lärare genererar färdiga arbetsblad på under 3 minuter. Verktygen stödjer finmotorik övningar och koncentrationsträning. Din Full Tillgång-prenumeration inkluderar alla funktioner utan extra avgifter.',
     highlightBadgeText: 'Nyckelfunktion',
     readMoreLabel: 'Läs mer',
     showLessLabel: 'Visa mindre',
@@ -136,9 +136,9 @@ Utmärkt för flerspråkiga klassrum. ESL-lärare använder verktyget för ordf�
         id: '5',
         icon: '💰',
         title: 'Kommersiell Licens Inkluderad - Sälj Arbetsblad Gratis och Målarbilder Barn Material',
-        description: `Full Access-prenumeration inkluderar print-on-demand kommersiell licens. Sälj dina skapade arbetsblad på Teachers Pay Teachers utan extra avgifter. Öppna Etsy-butik med arbetsbladsmaterial. Publicera på Amazon KDP som låginnehållsböcker. Ingen upphovsrätt krävs på dina produkter. Professionell 300 DPI-kvalitet perfekt för försäljning.
+        description: `Full Tillgång-prenumeration inkluderar print-on-demand kommersiell licens. Sälj dina skapade arbetsblad på Teachers Pay Teachers utan extra avgifter. Öppna Etsy-butik med arbetsbladsmaterial. Publicera på Amazon KDP som låginnehållsböcker. Ingen upphovsrätt krävs på dina produkter. Professionell 300 DPI-kvalitet perfekt för försäljning.
 
-Skapa arbetsblad gratis för utskrift och sälj dem som PDF-nedladdningar. Lärarentreprenörer tjänar $500-$5000/månad med arbetsbladssäljning. Kombinera målarbilder barn med hitta föremål-arbetsblad. Skapa produktbuntar för högre försäljning. Prenumerationen kostar $240/år men kan ge inkomst på tusentals dollar. Generera 10-20 arbetsblad per timme för snabb produktframställning. Säljlicensen täcker alla 33 verktyg i Full Access. Inga ytterligare licensavgifter någonsin.`,
+Skapa arbetsblad gratis för utskrift och sälj dem som PDF-nedladdningar. Lärarentreprenörer tjänar $500-$5000/månad med arbetsbladssäljning. Kombinera målarbilder barn med hitta föremål-arbetsblad. Skapa produktbuntar för högre försäljning. Prenumerationen kostar $240/år men kan ge inkomst på tusentals dollar. Generera 10-20 arbetsblad per timme för snabb produktframställning. Säljlicensen täcker alla 33 verktyg i Full Tillgång. Inga ytterligare licensavgifter någonsin.`,
         highlighted: true,
       },
       {
@@ -307,7 +307,7 @@ Elever med koncentrationssvårigheter fördrar enklare, mindre visuellt överbel
         icon: '💰',
         title: 'Lärarentreprenörer - Multiplikationstabellen och Klockan Lära Sig Produkter för Försäljning',
         subtitle: 'Kommersiell Licens Ingår',
-        description: `Lärarentreprenörer skapar arbetsbladsprodukter för försäljning online. Teachers Pay Teachers-säljare genererar målarbilder barn och perceptionsarbetsblad. Full Access-prenumerationen inkluderar kommersiell licens. Säljare skapar produktbuntar med 20-50 arbetsblad gratis för utskrift.
+        description: `Lärarentreprenörer skapar arbetsbladsprodukter för försäljning online. Teachers Pay Teachers-säljare genererar målarbilder barn och perceptionsarbetsblad. Full Tillgång-prenumerationen inkluderar kommersiell licens. Säljare skapar produktbuntar med 20-50 arbetsblad gratis för utskrift.
 
 Multiplikationstabellen-produkter med visuella hitta-föremål aktiviteter säljer bra. Klockan lära sig-arbetsblad paketeras med olika tidsformat. Digital-analog klockpraxis kombineras med hitta-gömda-klockor. Matematik arbetsblad-buntar inkluderar addition och subtraktion-teman. Siffror och tal-arbetsblad för förskoleklass material-kategorin. Bokstäver lära sig-produkter med bildnamnsassociationer. Finmotorik övningar-buntar för tidig barndom.
 
@@ -393,7 +393,7 @@ Säljare genererar 10-20 unika arbetsblad per timme. En mångsidig produktlinje 
   // Related Apps
   relatedApps: {
     sectionTitle: 'Kombinera Hitta Föremål med Andra Arbetsblad Gratis - Kompletta Inlärningspaket för Förskoleklass Material',
-    sectionDescription: 'Full Access-prenumerationen inkluderar 33 gratis arbetsbladsverktyg. Kombinera hitta föremål med matematik arbetsblad för tematiska paket. Integrera finmotorik övningar med bokstäver lära sig-aktiviteter. Blanda klockan lära sig med visuella sökarbetsblad för tidsundervisning. Skapa förskoleklass material som täcker multipla färdigheter samtidigt. Arbetsblad gratis från olika verktyg kombineras till kompletta lektioner.',
+    sectionDescription: 'Full Tillgång-prenumerationen inkluderar 33 gratis arbetsbladsverktyg. Kombinera hitta föremål med matematik arbetsblad för tematiska paket. Integrera finmotorik övningar med bokstäver lära sig-aktiviteter. Blanda klockan lära sig med visuella sökarbetsblad för tidsundervisning. Skapa förskoleklass material som täcker multipla färdigheter samtidigt. Arbetsblad gratis från olika verktyg kombineras till kompletta lektioner.',
     ctaTitle: 'Redo att Skapa Fantastiska Hitta Föremål-Arbetsblad?',
     ctaDescription: 'Gå med tusentals lärare som skapar professionella arbetsblad. Obegränsad generering, kommersiell licens ingår.',
     primaryCtaText: 'Starta Gratis Provperiod',

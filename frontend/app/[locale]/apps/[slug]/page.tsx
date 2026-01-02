@@ -48,6 +48,7 @@ import chartCountDeContent from '@/content/product-pages/de/chart-count-workshee
 import codeAdditionDeContent from '@/content/product-pages/de/code-addition-worksheets';
 import findObjectsDeContent from '@/content/product-pages/de/find-objects-worksheets';
 import crosswordDeContent from '@/content/product-pages/de/crossword-worksheets';
+import cryptogramDeContent from '@/content/product-pages/de/cryptogram-worksheets';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -653,6 +654,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/bilderkreuzwortraetsel-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // Cryptogram Worksheets - German product page SEO (new German slug)
+  if (params.slug === 'bildkryptogramm-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Bilder-Kryptogramm Generator - Kostenlose Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
+      description: 'Erstellen Sie professionelle Bilder-Kryptogramm Arbeitsblätter mit unserem Kryptogramm-Generator. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Deutsch Arbeitsblätter. Schüler entschlüsseln geheime Botschaften mit Bildcodes. Laden Sie druckfertige PDF-Dateien in unter 3 Minuten herunter.',
+      keywords: 'bilder-kryptogramm, kryptogramm generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, deutsch arbeitsblätter, buchstaben lernen, mathe arbeitsblätter, schwungübungen, ausmalbilder',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/bildkryptogramm-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/cryptogram-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildkryptogram-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bildkryptogramm-arbeitsblaetter',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/cryptogram-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Bilder-Kryptogramm Generator - Kostenlose Arbeitsblätter Grundschule | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Bilder-Kryptogramm Arbeitsblätter mit unserem Kryptogramm-Generator. Perfekt für Arbeitsblätter Grundschule und Vorschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/bildkryptogramm-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German cryptogram-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'cryptogram-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Bilder-Kryptogramm Generator - Kostenlose Arbeitsblätter Grundschule',
+      description: 'Erstellen Sie professionelle Bilder-Kryptogramm Arbeitsblätter mit unserem Kryptogramm-Generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/bildkryptogramm-arbeitsblaetter', // Point to new URL
       },
     };
   }
@@ -5537,6 +5582,7 @@ export async function generateStaticParams() {
     'bilder-additions-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for code-addition
     'suchbilder-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for find-objects
     'bilderkreuzwortraetsel-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for crossword
+    'bildkryptogramm-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for cryptogram
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

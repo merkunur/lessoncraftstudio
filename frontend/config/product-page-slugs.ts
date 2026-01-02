@@ -207,6 +207,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'cryptogram-worksheets',
       sv: 'bildkryptogram-arbetsblad',
+      de: 'bildkryptogramm-arbeitsblaetter',
     },
   },
   {

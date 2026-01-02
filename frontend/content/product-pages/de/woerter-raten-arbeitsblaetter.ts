@@ -1,7 +1,7 @@
 import { ProductPageContent } from '@/components/product-page/ProductPageClient';
 
 /**
- * Wörter Raten (Word Guess) Worksheets - German Content
+ * Worträtsel (Word Guess) Worksheets - German Content
  *
  * File: frontend/content/product-pages/de/woerter-raten-arbeitsblaetter.ts
  * URL: /de/apps/woerter-raten-arbeitsblaetter (German SEO-optimized slug)
@@ -29,21 +29,21 @@ export const wordGuessDeContent: ProductPageContent = {
   seo: {
     slug: 'woerter-raten-arbeitsblaetter',
     appId: 'word-guess',
-    title: 'Wörter Raten Generator - Kostenlose Arbeitsblätter zum Ausdrucken für die Grundschule',
-    description: 'Erstellen Sie professionelle Worträtsel mit Bildhinweisen für Ihre Schüler. Der Wörter Raten Generator von LessonCraft Studio ist Ihr Werkzeug für Arbeitsblätter Grundschule. Mit Ihrem Full Access Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten.',
+    title: 'Worträtsel-Generator - Kostenlose Arbeitsblätter zum Ausdrucken für die Grundschule',
+    description: 'Erstellen Sie professionelle Worträtsel mit Bildhinweisen für Ihre Schüler. Der Worträtsel-Generator von LessonCraft Studio ist Ihr Werkzeug für Arbeitsblätter Grundschule. Mit Ihrem Full Access Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten.',
     keywords: 'wörter raten arbeitsblätter, worträtsel arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, deutsch arbeitsblätter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/woerter-raten-arbeitsblaetter',
   },
 
   // Hero Section - FULL text from woerter-raten.md
   hero: {
-    title: 'Wörter Raten Generator',
+    title: 'Worträtsel-Generator',
     subtitle: 'Kostenlose Arbeitsblätter zum Ausdrucken für die Grundschule',
-    description: `Erstellen Sie professionelle Worträtsel mit Bildhinweisen für Ihre Schüler. Der Wörter Raten Generator von LessonCraft Studio ist Ihr Werkzeug für Arbeitsblätter Grundschule. Mit Ihrem Full Access Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten.
+    description: `Erstellen Sie professionelle Worträtsel mit Bildhinweisen für Ihre Schüler. Der Worträtsel-Generator von LessonCraft Studio ist Ihr Werkzeug für Arbeitsblätter Grundschule. Mit Ihrem Full Access Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten.
 
 Kinder lieben Rätsel. Worträtsel mit Bildhinweisen verbinden Spaß mit Lernen. Ein Bild zeigt einen Gegenstand. Daneben stehen leere Kästchen für jeden Buchstaben. Die Kinder erraten das Wort und schreiben es auf.
 
-Der Wörter Raten Generator erstellt Arbeitsblätter für die Grundschule in Sekunden. Wählen Sie Bilder aus über 3.000 kindgerechten Motiven. Das System extrahiert automatisch die Wörter. Sie können die Wörter auch manuell anpassen.`,
+Der Worträtsel-Generator erstellt Arbeitsblätter für die Grundschule in Sekunden. Wählen Sie Bilder aus über 3.000 kindgerechten Motiven. Das System extrahiert automatisch die Wörter. Sie können die Wörter auch manuell anpassen.`,
     previewImageSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
@@ -65,7 +65,7 @@ Der Wörter Raten Generator erstellt Arbeitsblätter für die Grundschule in Sek
 
   // Sample Gallery - REAL file paths from samples/english/word guess/
   samples: {
-    sectionTitle: 'Wörter Raten Arbeitsblätter Beispiele',
+    sectionTitle: 'Worträtsel-Arbeitsblätter Beispiele',
     sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
@@ -81,21 +81,21 @@ Der Wörter Raten Generator erstellt Arbeitsblätter für die Grundschule in Sek
         id: '1',
         worksheetSrc: '/samples/english/word guess/clue-grid_worksheet.jpeg',
         answerKeySrc: '/samples/english/word guess/clue-grid_answer-key.jpeg',
-        altText: 'Wörter Raten Arbeitsblatt mit Hinweisraster für Arbeitsblätter Grundschule und Buchstaben lernen',
+        altText: 'Worträtsel-Arbeitsblatt mit Hinweisraster für Arbeitsblätter Grundschule und Buchstaben lernen',
         pdfDownloadUrl: '/samples/english/word guess/clue-grid_worksheet.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/word guess/landscape.jpeg',
         answerKeySrc: '/samples/english/word guess/landscape answer-key.jpeg',
-        altText: 'Wörter Raten Arbeitsblatt im Querformat für Deutsch Arbeitsblätter und Vorschule Arbeitsblätter',
+        altText: 'Worträtsel-Arbeitsblatt im Querformat für Deutsch Arbeitsblätter und Vorschule Arbeitsblätter',
         pdfDownloadUrl: '/samples/english/word guess/landscape.pdf',
       },
       {
         id: '3',
         worksheetSrc: '/samples/english/word guess/custom word list.jpeg',
         answerKeySrc: '/samples/english/word guess/custom word list answer-key.jpeg',
-        altText: 'Wörter Raten Arbeitsblatt mit eigener Wortliste für Kostenlose Arbeitsblätter und Mathe Arbeitsblätter',
+        altText: 'Worträtsel-Arbeitsblatt mit eigener Wortliste für Kostenlose Arbeitsblätter und Mathe Arbeitsblätter',
         pdfDownloadUrl: '/samples/english/word guess/custom word list.pdf',
       },
     ],
@@ -103,8 +103,8 @@ Der Wörter Raten Generator erstellt Arbeitsblätter für die Grundschule in Sek
 
   // Features Grid - FULL text from woerter-raten.md feature sections
   features: {
-    sectionTitle: 'Funktionen des Wörter Raten Generators - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule erstellen',
-    sectionDescription: 'Der Wörter Raten Generator bietet alle Werkzeuge für professionelle Arbeitsblätter. Jede Funktion wurde für Lehrkräfte entwickelt. Keine technischen Kenntnisse erforderlich. Erstellen Sie in Minuten Arbeitsblätter, die sonst Stunden dauern würden.',
+    sectionTitle: 'Funktionen des Worträtsel-Generators - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule erstellen',
+    sectionDescription: 'Der Worträtsel-Generator bietet alle Werkzeuge für professionelle Arbeitsblätter. Jede Funktion wurde für Lehrkräfte entwickelt. Keine technischen Kenntnisse erforderlich. Erstellen Sie in Minuten Arbeitsblätter, die sonst Stunden dauern würden.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
@@ -200,7 +200,7 @@ Arbeitsblätter Grundschule sehen gedruckt genauso gut aus wie am Bildschirm. Pe
         number: 1,
         icon: '🎯',
         title: 'Schritt 1: Thema und Bilder wählen für Vorschule Arbeitsblätter und Buchstaben lernen',
-        description: `Öffnen Sie den Wörter Raten Generator in Ihrem Browser. Im linken Menü finden Sie die Bildbibliothek. Wählen Sie ein Thema aus dem Dropdown-Menü. Sofort erscheinen alle passenden Bilder.
+        description: `Öffnen Sie den Worträtsel-Generator in Ihrem Browser. Im linken Menü finden Sie die Bildbibliothek. Wählen Sie ein Thema aus dem Dropdown-Menü. Sofort erscheinen alle passenden Bilder.
 
 Für Vorschule Arbeitsblätter eignen sich einfache Themen. Tiere, Obst und Farben sind ideal für Anfänger. Buchstaben lernen gelingt am besten mit vertrauten Gegenständen. Wählen Sie Bilder, die Ihre Kinder bereits kennen.
 
@@ -259,8 +259,8 @@ Die Graustufen-Option spart Druckertinte. Aktivieren Sie diese vor dem Download.
 
   // Use Cases Section - FULL text from woerter-raten.md
   useCases: {
-    sectionTitle: 'Wer profitiert vom Wörter Raten Generator - Kostenlose Arbeitsblätter für jeden Bedarf',
-    sectionDescription: 'Der Wörter Raten Generator ist für viele Zielgruppen konzipiert. Lehrkräfte, Eltern und Therapeuten nutzen das Tool täglich. Jede Gruppe hat unterschiedliche Anforderungen. Unser Generator erfüllt sie alle.',
+    sectionTitle: 'Wer profitiert vom Worträtsel-Generator - Kostenlose Arbeitsblätter für jeden Bedarf',
+    sectionDescription: 'Der Worträtsel-Generator ist für viele Zielgruppen konzipiert. Lehrkräfte, Eltern und Therapeuten nutzen das Tool täglich. Jede Gruppe hat unterschiedliche Anforderungen. Unser Generator erfüllt sie alle.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
@@ -330,7 +330,7 @@ Wiederholung ist im Förderunterricht besonders wichtig. Erstellen Sie täglich 
         icon: '💼',
         title: 'Lehrkräfte als Unternehmer - Arbeitsblätter Grundschule verkaufen auf Teachers Pay Teachers',
         subtitle: 'Verkauf auf Online-Plattformen',
-        description: `Viele Lehrkräfte verkaufen ihre Materialien online. Arbeitsblätter Grundschule sind auf Teachers Pay Teachers sehr gefragt. Der Wörter Raten Generator erstellt verkaufsfähige Produkte. Die kommerzielle Lizenz ist im Full Access Abo enthalten.
+        description: `Viele Lehrkräfte verkaufen ihre Materialien online. Arbeitsblätter Grundschule sind auf Teachers Pay Teachers sehr gefragt. Der Worträtsel-Generator erstellt verkaufsfähige Produkte. Die kommerzielle Lizenz ist im Full Access Abo enthalten.
 
 Erstellen Sie thematische Pakete für verschiedene Anlässe. Weihnachts-Worträtsel im Dezember. Oster-Worträtsel im Frühling. Saisonale Produkte verkaufen sich besonders gut.
 
@@ -343,7 +343,7 @@ Die 300 DPI Qualität erfüllt professionelle Standards. Verkaufen Sie auf Etsy,
   // FAQ Section - FULL text from woerter-raten.md
   faq: {
     sectionTitle: 'Häufig gestellte Fragen - Mathe Arbeitsblätter, Einmaleins und Vorschule Arbeitsblätter erstellen',
-    sectionDescription: 'Hier finden Sie Antworten auf die häufigsten Fragen zum Wörter Raten Generator. Wir erklären alles von der Anmeldung bis zum Verkauf Ihrer Materialien.',
+    sectionDescription: 'Hier finden Sie Antworten auf die häufigsten Fragen zum Worträtsel-Generator. Wir erklären alles von der Anmeldung bis zum Verkauf Ihrer Materialien.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
     badgeText: 'Häufige Fragen',
@@ -354,10 +354,10 @@ Die 300 DPI Qualität erfüllt professionelle Standards. Verkaufen Sie auf Etsy,
     items: [
       {
         id: '1',
-        question: 'Ist der Wörter Raten Generator wirklich kostenlos für Deutsch Arbeitsblätter?',
-        answer: `Der Wörter Raten Generator erfordert ein Full Access Abo. Dieses kostet 240 Euro pro Jahr oder 25 Euro pro Monat. Mit Ihrem Abo erstellen Sie unbegrenzt Worträtsel ohne zusätzliche Kosten pro Arbeitsblatt.
+        question: 'Ist der Worträtsel-Generator wirklich kostenlos für Deutsch Arbeitsblätter?',
+        answer: `Der Worträtsel-Generator erfordert ein Full Access Abo. Dieses kostet 240 Euro pro Jahr oder 25 Euro pro Monat. Mit Ihrem Abo erstellen Sie unbegrenzt Worträtsel ohne zusätzliche Kosten pro Arbeitsblatt.
 
-Das Core Bundle mit 10 Apps kostet 144 Euro pro Jahr. Der Wörter Raten Generator ist jedoch nur im Full Access Abo enthalten. Full Access umfasst alle 33 Worksheet-Generatoren inklusive kommerzieller Lizenz.
+Das Core Bundle mit 10 Apps kostet 144 Euro pro Jahr. Der Worträtsel-Generator ist jedoch nur im Full Access Abo enthalten. Full Access umfasst alle 33 Worksheet-Generatoren inklusive kommerzieller Lizenz.
 
 Deutsch Arbeitsblätter und alle anderen Sprachen sind im Preis enthalten. Keine versteckten Kosten für Bilder oder Downloads. 11 Sprachen, über 3.000 Bilder, unbegrenzte Downloads.`,
       },
@@ -466,8 +466,8 @@ Alternativ geben Sie eigene Wörter ein. Bis zu 8 Wörter ohne Bilder. Fachbegri
   // Related Apps Section - FULL text from woerter-raten.md
   relatedApps: {
     sectionTitle: 'Worträtsel kombinieren mit anderen Apps - Mathe Arbeitsblätter und Schwungübungen Komplettpaket',
-    sectionDescription: 'Der Wörter Raten Generator ist Teil eines umfassenden Systems. 33 Worksheet-Generatoren arbeiten zusammen. Erstellen Sie komplette Lernpakete zu jedem Thema. Alle Apps nutzen die gleiche Bildbibliothek.',
-    ctaTitle: 'Bereit für professionelle Wörter Raten Arbeitsblätter?',
+    sectionDescription: 'Der Worträtsel-Generator ist Teil eines umfassenden Systems. 33 Worksheet-Generatoren arbeiten zusammen. Erstellen Sie komplette Lernpakete zu jedem Thema. Alle Apps nutzen die gleiche Bildbibliothek.',
+    ctaTitle: 'Bereit für professionelle Worträtsel-Arbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',
     primaryCtaText: 'Kostenlos Testen',
     secondaryCtaText: 'Alle 33 Apps Ansehen',

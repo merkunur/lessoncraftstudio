@@ -1242,12 +1242,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  // Wörter Raten (Word Guess) - German product page SEO
+  // Worträtsel (Word Guess) - German product page SEO
   if (params.slug === 'woerter-raten-arbeitsblaetter' && params.locale === 'de') {
     return {
-      title: 'Wörter Raten Generator - Kostenlose Arbeitsblätter zum Ausdrucken für die Grundschule',
-      description: 'Erstellen Sie professionelle Worträtsel mit Bildhinweisen für Ihre Schüler. Der Wörter Raten Generator von LessonCraft Studio ist Ihr Werkzeug für Arbeitsblätter Grundschule. Mit Ihrem Full Access Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten.',
-      keywords: 'wörter raten arbeitsblätter, worträtsel arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, deutsch arbeitsblätter',
+      title: 'Worträtsel-Generator - Kostenlose Arbeitsblätter zum Ausdrucken für die Grundschule',
+      description: 'Erstellen Sie professionelle Worträtsel mit Bildhinweisen für Ihre Schüler. Der Worträtsel-Generator von LessonCraft Studio ist Ihr Werkzeug für Arbeitsblätter Grundschule. Mit Ihrem Full Access Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten.',
+      keywords: 'worträtsel arbeitsblätter, worträtsel generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, deutsch arbeitsblätter',
       robots: {
         index: true,
         follow: true,
@@ -1262,7 +1262,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         },
       },
       openGraph: {
-        title: 'Wörter Raten Generator - Kostenlose Arbeitsblätter | LessonCraftStudio',
+        title: 'Worträtsel-Generator - Kostenlose Arbeitsblätter | LessonCraftStudio',
         description: 'Erstellen Sie professionelle Worträtsel mit Bildhinweisen für Ihre Schüler. Perfekt für Grundschule und Vorschule.',
         url: 'https://www.lessoncraftstudio.com/de/apps/woerter-raten-arbeitsblaetter',
         siteName: 'LessonCraftStudio',
@@ -1274,7 +1274,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // Legacy: Redirect old German word-guess slug to new slug (for backwards compatibility)
   if (params.slug === 'word-guess-worksheets' && params.locale === 'de') {
     return {
-      title: 'Wörter Raten Generator - Kostenlose Arbeitsblätter | LessonCraftStudio',
+      title: 'Worträtsel-Generator - Kostenlose Arbeitsblätter | LessonCraftStudio',
       description: 'Erstellen Sie professionelle Worträtsel mit Bildhinweisen für Ihre Schüler.',
       robots: {
         index: false, // Don't index old URL
@@ -3662,9 +3662,9 @@ async function getAppData(slug: string, locale: string) {
       features: ['Individuelle Karten', 'Versteckte Objekte', 'Hinweise und Rätsel', 'Abenteuer-Thema']
     },
     'word-guess': {
-      name: 'Wörter Raten',
+      name: 'Worträtsel',
       appId: 'word-guess',
-      description: 'Wortschatz und Rechtschreibung mit bildergestützten Ratespiele fördern',
+      description: 'Wortschatz und Rechtschreibung mit bildergestützten Ratespielen fördern',
       category: 'Wortspiele',
       requiredTier: 'full',
       features: ['Bildhinweise', 'Buchstabenlücken', 'Thematische Wörter', 'Verschiedene Schwierigkeitsgrade']

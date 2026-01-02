@@ -22,6 +22,8 @@
 ║   FAILURES THAT OCCUR FROM SKIMMING THIS FILE:                                    ║
 ║   ❌ LITERAL TRANSLATION of app names instead of NATURAL language terms          ║
 ║      (e.g., "Bilder Sortieren Generator" instead of "Sortierübungen Generator")  ║
+║   ❌ BLINDLY COPYING app names from source .md files without verification        ║
+║      (Source files may contain literal translation errors too!)                   ║
 ║   ❌ Wrong sample paths (e.g., "alphabet train" vs "alphabet-train")             ║
 ║   ❌ English words left untranslated (e.g., "Core Bundle" instead of             ║
 ║      "Grundpaketet" in Swedish)                                                   ║
@@ -84,6 +86,8 @@
 ║                                                                                   ║
 ║   GERMAN:                                                                         ║
 ║   ❌ "Bilder Sortieren Generator" → ✅ "Sortierübungen Generator"                 ║
+║   ❌ "Wörter Raten Generator" → ✅ "Worträtsel-Generator"                         ║
+║      └─ "Wörter Raten" = infinitive phrase = AWKWARD (same pattern as above!)    ║
 ║   ❌ "Wort Suche Generator" → ✅ "Suchsel Generator" or "Wortgitter Generator"    ║
 ║   ❌ "Bild Kreuzworträtsel" → ✅ "Bilderkreuzworträtsel" (proper compound)        ║
 ║                                                                                   ║
@@ -122,6 +126,67 @@
 ║   grep -n "Old Name" frontend/app/[locale]/apps/[slug]/page.tsx                   ║
 ║                                                                                   ║
 ║   ALL MATCHES MUST BE REPLACED WITH THE NATURAL LANGUAGE NAME!                    ║
+║                                                                                   ║
+╚═══════════════════════════════════════════════════════════════════════════════════╝
+```
+
+---
+
+## 🚨🚨🚨 CRITICAL: SOURCE .MD FILES MAY CONTAIN LITERAL TRANSLATION ERRORS 🚨🚨🚨
+
+```
+╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   ⛔⛔⛔ DO NOT BLINDLY COPY APP NAMES FROM THE SOURCE .MD FILE! ⛔⛔⛔            ║
+║                                                                                   ║
+║   THE SOURCE .MD FILE IN "INDIVIDUAL APP PAGES/{Language}/" IS NOT               ║
+║   AUTOMATICALLY CORRECT! IT MAY CONTAIN THE SAME LITERAL TRANSLATION             ║
+║   ERRORS THIS GUIDE WARNS AGAINST!                                               ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   🔴 REAL FAILURE CASE (January 2026) - German Word Guess:                        ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   The source file "INDIVIDUAL APP PAGES/German/woerter-raten.md" contained:      ║
+║                                                                                   ║
+║   ❌ Title: "Wörter Raten Generator"                                              ║
+║      └─ This is a LITERAL TRANSLATION of "Word Guess Generator"                   ║
+║      └─ "Wörter Raten" = infinitive phrase = AWKWARD GERMAN                      ║
+║      └─ The AI blindly copied this without verification!                          ║
+║                                                                                   ║
+║   ✅ The body text of the SAME FILE used: "Worträtsel"                            ║
+║      └─ This is the NATURAL German term!                                          ║
+║      └─ The AI should have noticed this inconsistency!                            ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   MANDATORY RULE: ALWAYS VERIFY APP NAMES FROM SOURCE .MD FILES                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║                                                                                   ║
+║   BEFORE copying any app name from a source .md file, you MUST:                   ║
+║                                                                                   ║
+║   1. READ THE BODY TEXT - What term does the body actually use?                   ║
+║      If the body uses a different term than the title → USE THE BODY TERM!        ║
+║                                                                                   ║
+║   2. APPLY THE VERIFICATION CHECKLIST (from previous section):                    ║
+║      □ Does this name use natural language-specific terminology?                  ║
+║      □ Would a native speaker actually use this term?                             ║
+║      □ Is the grammar correct for this language?                                  ║
+║      □ Have I avoided literal word-for-word translation from English?             ║
+║                                                                                   ║
+║   3. CHECK FOR THE "INFINITIVE + NOUN" PATTERN:                                   ║
+║      ❌ "Wörter Raten" = "Words Guess" = infinitive pattern = WRONG               ║
+║      ❌ "Bilder Sortieren" = "Pictures Sort" = infinitive pattern = WRONG         ║
+║      ✅ "Worträtsel" = compound noun = CORRECT                                    ║
+║      ✅ "Sortierübungen" = compound noun = CORRECT                                ║
+║                                                                                   ║
+║   4. IF IN DOUBT → ASK THE USER before proceeding!                                ║
+║      "The source file uses 'X' but this appears to be a literal translation.      ║
+║       Should I use 'Y' instead, which is used in the body text?"                  ║
+║                                                                                   ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
+║   THE SOURCE .MD FILE IS INPUT, NOT GOSPEL!                                       ║
+║   YOUR JOB IS TO VERIFY AND CORRECT, NOT BLINDLY COPY!                            ║
+║   ═══════════════════════════════════════════════════════════════════════════     ║
 ║                                                                                   ║
 ╚═══════════════════════════════════════════════════════════════════════════════════╝
 ```
@@ -1848,6 +1913,13 @@ plink ... "pm2 restart lessoncraftstudio"
 
 ```
 ╔═══════════════════════════════════════════════════════════════════════════════════╗
+║                                                                                   ║
+║   📄 -1. SOURCE .MD FILES ARE NOT GOSPEL - VERIFY APP NAMES! 📄                   ║
+║      The source .md file may contain literal translation errors!                  ║
+║      ALWAYS check: Does body text use a different (better) term than title?       ║
+║      ALWAYS apply the natural language verification checklist!                    ║
+║      Example: woerter-raten.md had "Wörter Raten" in title but "Worträtsel"       ║
+║      in the body → USE "Worträtsel-Generator" (the natural German term)!          ║
 ║                                                                                   ║
 ║   🌍 0. 100% NATIVE LANGUAGE - ZERO ENGLISH ON NON-ENGLISH PAGES 🌍               ║
 ║      EVERY word must be in the target language - including product names!         ║

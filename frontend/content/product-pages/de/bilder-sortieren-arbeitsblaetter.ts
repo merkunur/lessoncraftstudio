@@ -1,7 +1,7 @@
 import { ProductPageContent } from '@/components/product-page/ProductPageClient';
 
 /**
- * Bilder Sortieren (Picture Sort) Worksheets - German Content
+ * Sortierübungen (Picture Sort) Worksheets - German Content
  *
  * File: frontend/content/product-pages/de/bilder-sortieren-arbeitsblaetter.ts
  * URL: /de/apps/bilder-sortieren-arbeitsblaetter (German SEO-optimized slug)
@@ -29,19 +29,19 @@ export const pictureSortDeContent: ProductPageContent = {
   seo: {
     slug: 'bilder-sortieren-arbeitsblaetter',
     appId: 'picture-sort',
-    title: 'Bilder Sortieren Generator - Kostenlose Arbeitsblätter für Vorschule und Arbeitsblätter Grundschule',
-    description: 'Erstellen Sie professionelle Sortierarbeitsblätter mit dem Bilder Sortieren Generator. Mit Ihrem Full Access Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für die Vorschule und Grundschule. Kinder lernen spielerisch das Kategorisieren von Bildern in zwei Gruppen.',
+    title: 'Sortierübungen Generator - Kostenlose Arbeitsblätter für Vorschule und Arbeitsblätter Grundschule',
+    description: 'Erstellen Sie professionelle Sortierarbeitsblätter mit dem Sortierübungen Generator. Mit Ihrem Full Access Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für die Vorschule und Grundschule. Kinder lernen spielerisch das Kategorisieren von Bildern in zwei Gruppen.',
     keywords: 'bilder sortieren arbeitsblätter, sortierarbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/bilder-sortieren-arbeitsblaetter',
   },
 
   // Hero Section - FULL text from bilder-sortieren.md
   hero: {
-    title: 'Bilder Sortieren Generator',
+    title: 'Sortierübungen Generator',
     subtitle: 'Kostenlose Arbeitsblätter für Vorschule und Arbeitsblätter Grundschule',
-    description: `Mit dem Bilder Sortieren Generator erstellen Sie professionelle Sortierarbeitsblätter in wenigen Minuten. Ihr Full Access Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Kosten. Kinder lernen spielerisch das Kategorisieren von Bildern in zwei Gruppen. Diese Sortierübungen fördern logisches Denken und visuelle Wahrnehmung.
+    description: `Mit dem Sortierübungen Generator erstellen Sie professionelle Sortierarbeitsblätter in wenigen Minuten. Ihr Full Access Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Kosten. Kinder lernen spielerisch das Kategorisieren von Bildern in zwei Gruppen. Diese Sortierübungen fördern logisches Denken und visuelle Wahrnehmung.
 
-Der Bilder Sortieren Generator ist ideal für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule. Kinder ordnen Bilder nach Kategorien wie Tiere, Obst oder Farben. Dabei trainieren sie wichtige kognitive Fähigkeiten. Die Sortierübungen eignen sich perfekt für den Sachunterricht. Auch für den Deutschunterricht sind diese Arbeitsblätter wertvoll.
+Der Sortierübungen Generator ist ideal für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule. Kinder ordnen Bilder nach Kategorien wie Tiere, Obst oder Farben. Dabei trainieren sie wichtige kognitive Fähigkeiten. Die Sortierübungen eignen sich perfekt für den Sachunterricht. Auch für den Deutschunterricht sind diese Arbeitsblätter wertvoll.
 
 Sortierarbeitsblätter verbinden verschiedene Lernbereiche miteinander. Als Mathe Arbeitsblätter trainieren Kinder das Zählen und Gruppieren. Als Deutsch Arbeitsblätter üben sie Wortschatz und Kategorisierung. Für die Vorschule sind diese Übungen besonders wertvoll. Sie bereiten Kinder optimal auf die 1. Klasse vor.
 
@@ -98,8 +98,8 @@ Mit Ihrem Abonnement erhalten Sie Zugang zu über 3000 kindgerechten Bildern. Di
 
   // Features Grid - FULL text from bilder-sortieren.md feature sections
   features: {
-    sectionTitle: 'Bilder Sortieren Generator Funktionen - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
-    sectionDescription: 'Der Bilder Sortieren Generator bietet umfangreiche Funktionen für die Erstellung professioneller Sortierarbeitsblätter. Alle Features sind speziell für Pädagogen entwickelt worden. Sie sparen Zeit und erstellen hochwertige Materialien. Hier finden Sie alle wichtigen Funktionen im Überblick.',
+    sectionTitle: 'Sortierübungen Generator Funktionen - Kostenlose Arbeitsblätter für Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
+    sectionDescription: 'Der Sortierübungen Generator bietet umfangreiche Funktionen für die Erstellung professioneller Sortierarbeitsblätter. Alle Features sind speziell für Pädagogen entwickelt worden. Sie sparen Zeit und erstellen hochwertige Materialien. Hier finden Sie alle wichtigen Funktionen im Überblick.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
@@ -311,8 +311,8 @@ Das Full Access Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
 
   // FAQ Section - FULL text from bilder-sortieren.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zum Bilder Sortieren Generator - Einmaleins und Schwungübungen Arbeitsblätter erstellen',
-    sectionDescription: 'Hier finden Sie Antworten auf die wichtigsten Fragen zum Bilder Sortieren Generator. Erfahren Sie alles über Funktionen, Preise und Einsatzmöglichkeiten.',
+    sectionTitle: 'Häufig gestellte Fragen zum Sortierübungen Generator - Einmaleins und Schwungübungen Arbeitsblätter erstellen',
+    sectionDescription: 'Hier finden Sie Antworten auf die wichtigsten Fragen zum Sortierübungen Generator. Erfahren Sie alles über Funktionen, Preise und Einsatzmöglichkeiten.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
     badgeText: 'Häufige Fragen',
@@ -323,8 +323,8 @@ Das Full Access Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
     items: [
       {
         id: '1',
-        question: 'Ist der Bilder Sortieren Generator wirklich kostenlos für Mathe Arbeitsblätter und Einmaleins Übungen?',
-        answer: `Der Bilder Sortieren Generator erfordert ein Full Access Abonnement für 240 Euro jährlich oder 25 Euro monatlich. Mit Ihrem Abonnement erstellen Sie unbegrenzt Sortierarbeitsblätter ohne zusätzliche Kosten. Keine Gebühren pro Arbeitsblatt fallen an. Das Full Access Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Die kommerzielle Lizenz und 11 Sprachversionen sind inklusive.`,
+        question: 'Ist der Sortierübungen Generator wirklich kostenlos für Mathe Arbeitsblätter und Einmaleins Übungen?',
+        answer: `Der Sortierübungen Generator erfordert ein Full Access Abonnement für 240 Euro jährlich oder 25 Euro monatlich. Mit Ihrem Abonnement erstellen Sie unbegrenzt Sortierarbeitsblätter ohne zusätzliche Kosten. Keine Gebühren pro Arbeitsblatt fallen an. Das Full Access Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Die kommerzielle Lizenz und 11 Sprachversionen sind inklusive.`,
       },
       {
         id: '2',
@@ -387,8 +387,8 @@ Das Full Access Abonnement für 240 Euro jährlich amortisiert sich schnell. Ber
   // Related Apps Section - FULL text from bilder-sortieren.md
   relatedApps: {
     sectionTitle: 'Sortierarbeitsblätter mit anderen Generatoren kombinieren - Schwungübungen und Buchstaben lernen Lernpakete erstellen',
-    sectionDescription: 'Der Bilder Sortieren Generator ist eines von 33 Tools im Full Access Abonnement. Kombinieren Sie verschiedene Arbeitsblatt-Typen für umfassende Lernpakete. Erstellen Sie thematisch abgestimmte Materialien für Ihren Unterricht.',
-    ctaTitle: 'Bereit für professionelle Bilder Sortieren Arbeitsblätter?',
+    sectionDescription: 'Der Sortierübungen Generator ist eines von 33 Tools im Full Access Abonnement. Kombinieren Sie verschiedene Arbeitsblatt-Typen für umfassende Lernpakete. Erstellen Sie thematisch abgestimmte Materialien für Ihren Unterricht.',
+    ctaTitle: 'Bereit für professionelle Sortierarbeitsblätter?',
     ctaDescription: 'Schließen Sie sich tausenden Pädagogen an, die professionelle Arbeitsblätter in Minuten erstellen.',
     primaryCtaText: 'Kostenlos Testen',
     secondaryCtaText: 'Alle 33 Apps Ansehen',

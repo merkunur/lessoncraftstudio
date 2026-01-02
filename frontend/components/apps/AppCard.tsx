@@ -176,6 +176,11 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     sv: 'monster-arbetsblad',
     de: 'muster-arbeitsblatt-arbeitsblaetter',
   },
+  'picture-path': {
+    en: 'picture-path-worksheets',
+    sv: 'bildlabyrint-arbetsblad',
+    de: 'bilderpfad-arbeitsblaetter',
+  },
   'prepositions': {
     en: 'prepositions-worksheets',
     sv: 'prepositioner-arbetsblad',

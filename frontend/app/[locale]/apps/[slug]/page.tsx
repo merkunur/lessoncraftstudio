@@ -54,6 +54,7 @@ import moreLessDeContent from '@/content/product-pages/de/mehr-weniger-arbeitsbl
 import oddOneOutDeContent from '@/content/product-pages/de/was-passt-nicht-arbeitsblaetter';
 import patternTrainDeContent from '@/content/product-pages/de/muster-zug-arbeitsblaetter';
 import patternWorksheetDeContent from '@/content/product-pages/de/muster-arbeitsblatt-arbeitsblaetter';
+import picturePathDeContent from '@/content/product-pages/de/bilderpfad-arbeitsblaetter';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -967,6 +968,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/muster-arbeitsblatt-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // Picture Path (Bilderpfad) - German product page SEO
+  if (params.slug === 'bilderpfad-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Bilderpfad Labyrinth Generator - Kostenlose Arbeitsblätter zum Ausdrucken für Vorschule und Grundschule',
+      description: 'Erstellen Sie professionelle Labyrinth-Arbeitsblätter mit dem Bilderpfad Generator. Mit Ihrem Full Access Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für die Vorschule und Grundschule. Kinder navigieren von einem Startbild zum Zielbild.',
+      keywords: 'bilderpfad arbeitsblätter, labyrinth arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/bilderpfad-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/picture-path-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildlabyrint-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilderpfad-arbeitsblaetter',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/picture-path-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Bilderpfad Labyrinth Generator - Kostenlose Arbeitsblätter | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Labyrinth-Arbeitsblätter mit dem Bilderpfad Generator. Perfekt für Vorschule und Grundschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/bilderpfad-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German picture-path slug to new slug (for backwards compatibility)
+  if (params.slug === 'picture-path-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Bilderpfad Labyrinth Generator - Kostenlose Arbeitsblätter | LessonCraftStudio',
+      description: 'Erstellen Sie professionelle Labyrinth-Arbeitsblätter mit dem Bilderpfad Generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/bilderpfad-arbeitsblaetter', // Point to new URL
       },
     };
   }
@@ -5858,6 +5903,7 @@ export async function generateStaticParams() {
     'was-passt-nicht-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for odd-one-out
     'muster-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for pattern-train
     'muster-arbeitsblatt-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for pattern-worksheet
+    'bilderpfad-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for picture-path
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

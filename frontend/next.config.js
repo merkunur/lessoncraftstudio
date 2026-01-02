@@ -384,6 +384,12 @@ const nextConfig = {
         destination: '/de/apps/muster-arbeitsblatt-arbeitsblaetter',
         permanent: true,
       },
+      // German: picture-path-worksheets → bilderpfad-arbeitsblaetter
+      {
+        source: '/de/apps/picture-path-worksheets',
+        destination: '/de/apps/bilderpfad-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

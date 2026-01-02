@@ -119,6 +119,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
   'code-addition': {
     en: 'code-addition-worksheets',
     sv: 'kodaddition-arbetsblad',
+    de: 'bilder-additions-arbeitsblaetter',
   },
   'draw-and-color': {
     en: 'draw-and-color-worksheets',

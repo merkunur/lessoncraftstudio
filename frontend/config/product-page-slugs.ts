@@ -168,6 +168,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'code-addition-worksheets',
       sv: 'kodaddition-arbetsblad',
+      de: 'bilder-additions-arbeitsblaetter',
     },
   },
   {

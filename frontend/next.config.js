@@ -324,6 +324,12 @@ const nextConfig = {
         destination: '/de/apps/bilddiagramm-arbeitsblaetter',
         permanent: true,
       },
+      // German: code-addition-worksheets → bilder-additions-arbeitsblaetter
+      {
+        source: '/de/apps/code-addition-worksheets',
+        destination: '/de/apps/bilder-additions-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

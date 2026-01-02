@@ -91,6 +91,7 @@ import pictureBingoDeContent from '@/content/product-pages/de/picture-bingo-work
 import sudokuDeContent from '@/content/product-pages/de/sudoku-worksheets';
 import bigSmallDeContent from '@/content/product-pages/de/big-small-worksheets';
 import chartCountDeContent from '@/content/product-pages/de/chart-count-worksheets';
+import codeAdditionDeContent from '@/content/product-pages/de/code-addition-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -327,6 +328,10 @@ export const contentRegistry: ContentRegistry = {
     'bilddiagramm-arbeitsblaetter': chartCountDeContent,
     // Also keep old slug for backwards compatibility during transition
     'chart-count-worksheets': chartCountDeContent,
+    // German Code Addition - uses German SEO slug
+    'bilder-additions-arbeitsblaetter': codeAdditionDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'code-addition-worksheets': codeAdditionDeContent,
   },
 };
 

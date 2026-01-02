@@ -45,6 +45,7 @@ import matchingDeContent from '@/content/product-pages/de/matching-worksheets';
 import drawingLinesDeContent from '@/content/product-pages/de/drawing-lines-worksheets';
 import pictureBingoDeContent from '@/content/product-pages/de/picture-bingo-worksheets';
 import chartCountDeContent from '@/content/product-pages/de/chart-count-worksheets';
+import codeAdditionDeContent from '@/content/product-pages/de/code-addition-worksheets';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -518,6 +519,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/bilddiagramm-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // German Code Addition (Bilder-Additions) Worksheets product page SEO
+  if (params.slug === 'bilder-additions-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Bilder-Additions-Generator - Mathe Arbeitsblätter Grundschule - Rechnen lernen mit Bildern',
+      description: 'Erstellen Sie professionelle Bilder-Additions-Arbeitsblätter für Grundschule und Vorschule mit unserem Generator. Perfekt für Rechnen lernen, Mathe Arbeitsblätter und Vorschule Arbeitsblätter. Der Bilder-Additions-Generator eignet sich ideal für kostenlose Arbeitsblätter mit visueller Mathematik.',
+      keywords: 'bilder addition generator, mathe arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, rechnen 1 klasse, einmaleins, schwungübungen, ausmalbilder',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/bilder-additions-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/code-addition-worksheets',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilder-additions-arbeitsblaetter',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/kodaddition-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/code-addition-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Bilder-Additions-Generator - Mathe Arbeitsblätter Grundschule | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Bilder-Additions-Arbeitsblätter mit unserem Mathe Arbeitsblätter Generator für Grundschule und Vorschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/bilder-additions-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German code-addition-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'code-addition-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Bilder-Additions-Generator - Mathe Arbeitsblätter Grundschule',
+      description: 'Erstellen Sie professionelle Bilder-Additions-Arbeitsblätter mit unserem Mathe Arbeitsblätter Generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/bilder-additions-arbeitsblaetter', // Point to new URL
       },
     };
   }
@@ -5399,6 +5444,7 @@ export async function generateStaticParams() {
     'suchen-und-zaehlen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for find-and-count
     'gross-klein-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for big-small
     'bilddiagramm-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for chart-count
+    'bilder-additions-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for code-addition
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

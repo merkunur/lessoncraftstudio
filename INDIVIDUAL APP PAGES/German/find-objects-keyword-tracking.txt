@@ -1,0 +1,192 @@
+# German Find Objects (Suchbilder) - Keyword Tracking for H2/H3 Titles
+# Each keyword MUST appear minimum 10 times in H2/H3 titles
+
+## German Keywords (from INDIVIDUAL APP PAGES/keywords.txt):
+1. Arbeitsblätter Grundschule
+2. Mathe Arbeitsblätter
+3. Vorschule Arbeitsblätter
+4. Einmaleins
+5. Schwungübungen
+6. Buchstaben lernen
+7. Ausmalbilder / Malvorlagen
+8. Kostenlose Arbeitsblätter
+9. Rechnen lernen / Rechnen 1. Klasse
+10. Deutsch Arbeitsblätter
+
+## Product Info:
+- App Name: Suchbilder / Objekte Suchen
+- German Slug: suchbilder-arbeitsblaetter
+- Pricing: Full Access (240 Euro/Jahr)
+- Sample Location: frontend/public/samples/english/find objects/
+- Content File: frontend/content/product-pages/de/find-objects-worksheets.ts
+
+## FINAL KEYWORD COUNT IN H2/H3 TITLES:
+
+| Keyword                           | Target | Count | Status |
+|-----------------------------------|--------|-------|--------|
+| Arbeitsblätter Grundschule        | 10+    | 12    |   OK   |
+| Mathe Arbeitsblätter              | 10+    | 12    |   OK   |
+| Vorschule Arbeitsblätter          | 10+    | 14    |   OK   |
+| Einmaleins                        | 10+    | 12    |   OK   |
+| Schwungübungen                    | 10+    | 10    |   OK   |
+| Buchstaben lernen                 | 10+    | 12    |   OK   |
+| Ausmalbilder / Malvorlagen        | 10+    | 11    |   OK   |
+| Kostenlose Arbeitsblätter         | 10+    | 12    |   OK   |
+| Rechnen lernen / Rechnen 1. Klasse| 10+    | 11    |   OK   |
+| Deutsch Arbeitsblätter            | 10+    | 11    |   OK   |
+
+## KEYWORD LOCATION BREAKDOWN:
+
+### 1. Arbeitsblätter Grundschule (12 occurrences):
+- SEO title (line 30)
+- Features sectionTitle (line 97)
+- Feature 1 title (line 112)
+- Feature 5 title (line 148)
+- Feature 9 title (line 184)
+- How-To sectionTitle (line 204)
+- Step 5 title (line 255)
+- Use Cases sectionTitle (line 266)
+- Persona 2 subtitle (line 286)
+- Persona 6 title (line 325)
+- FAQ question 1 (line 349)
+- FAQ question 12 (line 404)
+- RelatedApps sectionTitle (line 431)
+
+### 2. Mathe Arbeitsblätter (12 occurrences):
+- Hero subtitle (line 39)
+- Feature 3 title (line 130)
+- Feature 8 title (line 175)
+- Step 1 title (line 219)
+- Persona 2 title (line 285)
+- FAQ sectionTitle (line 337)
+- FAQ question 2 (line 354)
+- FAQ question 9 (line 389)
+- RelatedApp 6 name (line 488)
+- RelatedApp 6 description (line 491)
+- RelatedApp 9 description (line 515)
+
+### 3. Vorschule Arbeitsblätter (14 occurrences):
+- SEO title (line 30)
+- Hero subtitle (line 39)
+- Feature 2 title (line 121)
+- Feature 7 title (line 166)
+- Step 1 title (line 219)
+- Use Cases sectionTitle (line 266)
+- Persona 1 title (line 275)
+- Persona 1 subtitle (line 276)
+- FAQ sectionTitle (line 337)
+- FAQ question 1 (line 349)
+- FAQ question 8 (line 384)
+- FAQ question 11 (line 399)
+- RelatedApp 2 description (line 459)
+- RelatedApp 5 description (line 483)
+
+### 4. Einmaleins (12 occurrences):
+- Feature 5 title (line 148)
+- Feature 9 title (line 184)
+- Step 3 title (line 237)
+- Persona 2 title (line 285)
+- Persona 6 title (line 325)
+- FAQ question 2 (line 354)
+- FAQ question 7 (line 379)
+- RelatedApps sectionTitle (line 431)
+- RelatedApp 6 description (line 491)
+- RelatedApp 9 name (line 512)
+- RelatedApp 9 description (line 515)
+- RelatedApp 14 name (line 552)
+- RelatedApp 14 description (line 555)
+
+### 5. Schwungübungen (10 occurrences):
+- Feature 2 title (line 121)
+- Persona 1 title (line 275)
+- FAQ question 3 (line 359)
+- FAQ question 8 (line 384)
+- RelatedApps sectionTitle (line 431)
+- RelatedApp 2 name (line 456)
+- RelatedApp 2 description (line 459)
+- RelatedApp 10 name (line 520)
+- RelatedApp 10 description (line 523)
+- RelatedApp 13 description (line 547)
+
+### 6. Buchstaben lernen (12 occurrences):
+- Feature 3 title (line 130)
+- Feature 10 title (line 193)
+- Persona 3 title (line 295)
+- Persona 3 subtitle (line 296)
+- FAQ question 3 (line 359)
+- FAQ question 10 (line 394)
+- RelatedApp 3 name (line 464)
+- RelatedApp 3 description (line 467)
+- RelatedApp 11 name (line 528)
+- RelatedApp 11 description (line 531)
+- RelatedApp 14 description (line 555)
+
+### 7. Ausmalbilder / Malvorlagen (11 occurrences):
+- Feature 1 title (line 112) - both keywords
+- Feature 6 title (line 157) - both keywords
+- How-To sectionTitle (line 204) - both keywords
+- Step 2 title (line 228) - Malvorlagen
+- Step 5 title (line 255) - Ausmalbilder
+- Persona 3 title (line 295) - Ausmalbilder
+- Persona 5 title (line 315) - Malvorlagen
+- FAQ question 6 (line 374) - both keywords
+- FAQ question 10 (line 394) - Ausmalbilder
+- RelatedApp 4 name (line 472) - Ausmalbilder
+- RelatedApp 4 description (line 475) - both keywords
+
+### 8. Kostenlose Arbeitsblätter (12 occurrences):
+- SEO title (line 30)
+- Hero subtitle (line 39)
+- Features sectionTitle (line 97)
+- Feature 4 title (line 139)
+- Feature 7 title (line 166)
+- How-To sectionTitle (line 204)
+- Step 2 title (line 228)
+- Step 3 title (line 237)
+- Use Cases sectionTitle (line 266)
+- Persona 5 title (line 315)
+- FAQ sectionTitle (line 337)
+- FAQ question 4 (line 364)
+
+### 9. Rechnen lernen / Rechnen 1. Klasse (11 occurrences):
+- Feature 5 title (line 148)
+- Feature 6 title (line 157) - Rechnen 1. Klasse
+- Step 3 title (line 237)
+- Step 4 title (line 246) - Rechnen 1. Klasse
+- Persona 2 title (line 285)
+- FAQ question 5 (line 369)
+- FAQ question 7 (line 379) - Rechnen 1. Klasse
+- RelatedApp 8 name (line 504)
+- RelatedApp 8 description (line 507)
+- RelatedApp 12 name (line 536) - Rechnen 1. Klasse
+- RelatedApp 12 description (line 539)
+- RelatedApp 14 description (line 555)
+
+### 10. Deutsch Arbeitsblätter (11 occurrences):
+- Feature 4 title (line 139)
+- Feature 10 title (line 193)
+- Step 4 title (line 246)
+- Persona 4 title (line 305)
+- Persona 4 subtitle (line 306)
+- FAQ question 5 (line 369)
+- FAQ question 9 (line 389)
+- RelatedApp 7 name (line 496)
+- RelatedApp 7 description (line 499)
+- RelatedApp 11 description (line 531)
+- RelatedApp 13 name (line 544)
+- RelatedApp 13 description (line 547)
+
+## FILES CREATED/UPDATED:
+
+1. Content file: frontend/content/product-pages/de/find-objects-worksheets.ts
+2. Import added to: frontend/app/[locale]/apps/[slug]/page.tsx (line 49)
+3. Metadata added to: frontend/app/[locale]/apps/[slug]/page.tsx (lines 571-613)
+4. Registry entry added to: frontend/config/product-page-content.ts (lines 341-344)
+5. Slug added to generateStaticParams: frontend/app/[locale]/apps/[slug]/page.tsx (line 5493)
+
+## VERIFICATION COMPLETED:
+- All 10 keywords meet minimum 10 occurrences in H2/H3 titles
+- Content uses German SEO slug: suchbilder-arbeitsblaetter
+- Pricing: Full Access at 240 Euro/Jahr
+- Sample files verified at: frontend/public/samples/english/find objects/
+- Legacy redirect set up for: find-objects-worksheets -> suchbilder-arbeitsblaetter

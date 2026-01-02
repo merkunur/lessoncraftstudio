@@ -46,6 +46,7 @@ import drawingLinesDeContent from '@/content/product-pages/de/drawing-lines-work
 import pictureBingoDeContent from '@/content/product-pages/de/picture-bingo-worksheets';
 import chartCountDeContent from '@/content/product-pages/de/chart-count-worksheets';
 import codeAdditionDeContent from '@/content/product-pages/de/code-addition-worksheets';
+import findObjectsDeContent from '@/content/product-pages/de/find-objects-worksheets';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -563,6 +564,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/bilder-additions-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // German Find Objects (Suchbilder) Worksheets product page SEO
+  if (params.slug === 'suchbilder-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Suchbilder Generator - Kostenlose Arbeitsblätter Grundschule - Ich-Sehe-Was Vorschule Arbeitsblätter',
+      description: 'Erstellen Sie professionelle Suchbilder-Arbeitsblätter mit unserem Generator für visuelle Wahrnehmung. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Mathe Arbeitsblätter. Generieren Sie Ich-Sehe-Was und Welches-Passt-Nicht Aktivitäten.',
+      keywords: 'suchbilder arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, mathe arbeitsblätter, ich sehe was, welches passt nicht, visuelle wahrnehmung, schwungübungen, ausmalbilder',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/suchbilder-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/find-objects-worksheets',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/suchbilder-arbeitsblaetter',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/hitta-foremal-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/find-objects-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Suchbilder Generator - Kostenlose Arbeitsblätter Grundschule | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Suchbilder-Arbeitsblätter mit unserem Generator für visuelle Wahrnehmung. Perfekt für Vorschule und Grundschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/suchbilder-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German find-objects-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'find-objects-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Suchbilder Generator - Kostenlose Arbeitsblätter Grundschule',
+      description: 'Erstellen Sie professionelle Suchbilder-Arbeitsblätter mit unserem Generator für visuelle Wahrnehmung.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/suchbilder-arbeitsblaetter', // Point to new URL
       },
     };
   }
@@ -5445,6 +5490,7 @@ export async function generateStaticParams() {
     'gross-klein-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for big-small
     'bilddiagramm-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for chart-count
     'bilder-additions-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for code-addition
+    'suchbilder-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for find-objects
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

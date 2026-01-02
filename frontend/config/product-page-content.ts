@@ -93,6 +93,7 @@ import bigSmallDeContent from '@/content/product-pages/de/big-small-worksheets';
 import chartCountDeContent from '@/content/product-pages/de/chart-count-worksheets';
 import codeAdditionDeContent from '@/content/product-pages/de/code-addition-worksheets';
 import drawAndColorDeContent from '@/content/product-pages/de/draw-and-color-worksheets';
+import findObjectsDeContent from '@/content/product-pages/de/find-objects-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -337,6 +338,10 @@ export const contentRegistry: ContentRegistry = {
     'rasterzeichnen-arbeitsblaetter': drawAndColorDeContent,
     // Also keep old slug for backwards compatibility during transition
     'draw-and-color-worksheets': drawAndColorDeContent,
+    // German Find Objects - uses German SEO slug
+    'suchbilder-arbeitsblaetter': findObjectsDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'find-objects-worksheets': findObjectsDeContent,
   },
 };
 

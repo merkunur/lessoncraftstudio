@@ -11,15 +11,15 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  *
  * German Keywords (from keywords.txt):
  * 1. Arbeitsblätter Grundschule
- * 2. Mathe Arbeitsblätter
- * 3. Vorschule Arbeitsblätter
+ * 2. Mathe-Arbeitsblätter
+ * 3. Vorschul-Arbeitsblätter
  * 4. Einmaleins
  * 5. Schwungübungen
  * 6. Buchstaben lernen
  * 7. Ausmalbilder / Malvorlagen
  * 8. Kostenlose Arbeitsblätter
  * 9. Rechnen lernen / Rechnen 1. Klasse
- * 10. Deutsch Arbeitsblätter
+ * 10. Deutsch-Arbeitsblätter
  */
 
 export const matchingDeContent: ProductPageContent = {
@@ -28,7 +28,7 @@ export const matchingDeContent: ProductPageContent = {
     slug: 'zuordnungs-arbeitsblaetter',
     appId: 'matching-app',
     title: 'Zuordnungs-Arbeitsblätter - Kostenlose Arbeitsblätter Grundschule - Zuordnungs-Generator für Vorschule und Buchstaben lernen',
-    description: 'Erstellen Sie professionelle Zuordnungsübungen mit unserem Zuordnungs-Generator. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter, Buchstaben lernen und Deutsch Arbeitsblätter. Laden Sie kostenlose Arbeitsblätter in unter 3 Minuten herunter.',
+    description: 'Erstellen Sie professionelle Zuordnungsübungen mit unserem Zuordnungs-Generator. Perfekt für Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter, Buchstaben lernen und Deutsch-Arbeitsblätter. Laden Sie kostenlose Arbeitsblätter in unter 3 Minuten herunter.',
     keywords: 'zuordnungs arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/zuordnungs-arbeitsblaetter',
   },
@@ -39,9 +39,9 @@ export const matchingDeContent: ProductPageContent = {
     subtitle: 'Kostenlose Arbeitsblätter Grundschule - Zuordnungsübungen für Vorschule und Buchstaben lernen',
     description: `Erstellen Sie professionelle Zuordnungsübungen mit unserem Zuordnungs-Generator. Mit Ihrem Core Bundle Abonnement können Sie unbegrenzt Arbeitsblätter erstellen ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie individuelle Arbeitsblätter zum Ausdrucken, perfekt für Vorschule und Grundschule. Laden Sie hochwertige PDF-Arbeitsblätter in unter 3 Minuten herunter. Sparen Sie jede Woche Stunden an Vorbereitungszeit.
 
-Unser Zuordnungsübungen-Generator hilft Lehrkräften beim Erstellen von Arbeitsblättern, bei denen Schüler Linien ziehen, um passende Paare zu verbinden. Wählen Sie aus vier verschiedenen Zuordnungsmodi, einschließlich Bild-zu-Buchstabe für Arbeitsblätter zum Buchstaben lernen. Nutzen Sie Bild-zu-Wort-Zuordnung für Deutsch Arbeitsblätter und Leseübungen. Verwenden Sie eigene Vokabeln für Mathe Arbeitsblätter und Sachunterricht. Perfekt für die Entwicklung von Lese- und Schreibfähigkeiten in der Grundschule.
+Unser Zuordnungsübungen-Generator hilft Lehrkräften beim Erstellen von Arbeitsblättern, bei denen Schüler Linien ziehen, um passende Paare zu verbinden. Wählen Sie aus vier verschiedenen Zuordnungsmodi, einschließlich Bild-zu-Buchstabe für Arbeitsblätter zum Buchstaben lernen. Nutzen Sie Bild-zu-Wort-Zuordnung für Deutsch-Arbeitsblätter und Leseübungen. Verwenden Sie eigene Vokabeln für Mathe-Arbeitsblätter und Sachunterricht. Perfekt für die Entwicklung von Lese- und Schreibfähigkeiten in der Grundschule.
 
-Der Zuordnungs-Generator bietet flexible Inhaltserstellung für jedes Fach. Erstellen Sie Mathe Arbeitsblätter mit visueller Zuordnung für Zahlenerkennung und Rechnen lernen. Generieren Sie Arbeitsblätter, bei denen Schüler Aufgaben den Lösungen zuordnen. Gestalten Sie Arbeitsblätter zum Buchstaben lernen für die Vorschule. Kombinieren Sie Schwungübungen mit Zuordnungsaktivitäten für die Entwicklung der Feinmotorik. Alle Inhalte nutzen unsere Bibliothek mit über 3000 kindgerechten Bildern.`,
+Der Zuordnungs-Generator bietet flexible Inhaltserstellung für jedes Fach. Erstellen Sie Mathe-Arbeitsblätter mit visueller Zuordnung für Zahlenerkennung und Rechnen lernen. Generieren Sie Arbeitsblätter, bei denen Schüler Aufgaben den Lösungen zuordnen. Gestalten Sie Arbeitsblätter zum Buchstaben lernen für die Vorschule. Kombinieren Sie Schwungübungen mit Zuordnungsaktivitäten für die Entwicklung der Feinmotorik. Alle Inhalte nutzen unsere Bibliothek mit über 3000 kindgerechten Bildern.`,
     previewImageSrc: '/samples/english/matching/matching portrait.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
@@ -86,14 +86,14 @@ Der Zuordnungs-Generator bietet flexible Inhaltserstellung für jedes Fach. Erst
         id: '2',
         worksheetSrc: '/samples/english/matching/image and word.jpeg',
         answerKeySrc: '/samples/english/matching/image and word answer_key.jpeg',
-        altText: 'Bild-und-Wort-Zuordnungsarbeitsblatt für Deutsch Arbeitsblätter und Vokabelpraxis',
+        altText: 'Bild-und-Wort-Zuordnungsarbeitsblatt für Deutsch-Arbeitsblätter und Vokabelpraxis',
         pdfDownloadUrl: '/samples/english/matching/image and word.pdf',
       },
       {
         id: '3',
         worksheetSrc: '/samples/english/matching/image and custom word.jpeg',
         answerKeySrc: '/samples/english/matching/image and custom word answer_key.jpeg',
-        altText: 'Benutzerdefinierte Vokabel-Zuordnung für Mathe Arbeitsblätter und thematische Einheiten',
+        altText: 'Benutzerdefinierte Vokabel-Zuordnung für Mathe-Arbeitsblätter und thematische Einheiten',
         pdfDownloadUrl: '/samples/english/matching/image and custom word.pdf',
       },
     ],
@@ -101,8 +101,8 @@ Der Zuordnungs-Generator bietet flexible Inhaltserstellung für jedes Fach. Erst
 
   // Features Grid - FULL text from matching.md feature sections
   features: {
-    sectionTitle: 'Zuordnungs-Generator Funktionen - Alles für Kostenlose Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
-    sectionDescription: 'Unser Zuordnungsarbeitsblätter-Generator enthält professionelle Funktionen speziell für Lehrkräfte entwickelt, die Arbeitsblätter Grundschule und Vorschule Arbeitsblätter erstellen. Jede Funktion hilft Ihnen beim schnelleren Erstellen kostenloser Arbeitsblätter als mit traditionellen Methoden. Erstellen Sie Arbeitsblätter zum Buchstaben lernen, Deutsch Arbeitsblätter, Mathe Arbeitsblätter und mehr mit demselben benutzerfreundlichen Werkzeug. Greifen Sie auf alle Premium-Funktionen mit Ihrem Core Bundle Abonnement zu. Keine Gebühren pro Arbeitsblatt, keine Bildkosten, keine Vorlagengebühren. Generieren Sie unbegrenzt Zuordnungsübungen für alle Ihre Unterrichtsbedürfnisse in der Grundschule.',
+    sectionTitle: 'Zuordnungs-Generator Funktionen - Alles für Kostenlose Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter',
+    sectionDescription: 'Unser Zuordnungsarbeitsblätter-Generator enthält professionelle Funktionen speziell für Lehrkräfte entwickelt, die Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter erstellen. Jede Funktion hilft Ihnen beim schnelleren Erstellen kostenloser Arbeitsblätter als mit traditionellen Methoden. Erstellen Sie Arbeitsblätter zum Buchstaben lernen, Deutsch-Arbeitsblätter, Mathe-Arbeitsblätter und mehr mit demselben benutzerfreundlichen Werkzeug. Greifen Sie auf alle Premium-Funktionen mit Ihrem Core Bundle Abonnement zu. Keine Gebühren pro Arbeitsblatt, keine Bildkosten, keine Vorlagengebühren. Generieren Sie unbegrenzt Zuordnungsübungen für alle Ihre Unterrichtsbedürfnisse in der Grundschule.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
@@ -119,52 +119,52 @@ Der Zuordnungs-Generator bietet flexible Inhaltserstellung für jedes Fach. Erst
         title: 'Erstellen Sie Arbeitsblätter Grundschule in 3 Klicks - Kostenlose Arbeitsblätter für jedes Fach',
         description: `Generieren Sie vollständige Zuordnungsarbeitsblätter in unter drei Minuten vom Start bis zum Download. Wählen Sie Ihren Zuordnungsmodus aus vier Optionen. Wählen Sie Ihre Bilder aus unserer 3000+ Bibliothek oder laden Sie eigene hoch. Klicken Sie auf Generieren und Ihr Arbeitsblatt erscheint sofort auf der Arbeitsfläche. Keine Designkenntnisse erforderlich für professionelle Arbeitsblätter Grundschule.
 
-Unsere Ein-Klick-Generierung funktioniert für alle Arbeitsblatttypen. Erstellen Sie Arbeitsblätter zum Buchstaben lernen, bei denen Schüler Bilder den Anfangsbuchstaben zuordnen. Gestalten Sie Deutsch Arbeitsblätter für Phonetik und Lautverbindungen. Entwickeln Sie Mathe Arbeitsblätter zur Zahlenzuordnung mit visuellen Darstellungen. Generieren Sie Vokabelarbeitsblätter, die Wörter mit Bildern verbinden. Alle Zuordnungsarbeitsblatt-Typen verwenden denselben einfachen Drei-Klick-Prozess.`,
+Unsere Ein-Klick-Generierung funktioniert für alle Arbeitsblatttypen. Erstellen Sie Arbeitsblätter zum Buchstaben lernen, bei denen Schüler Bilder den Anfangsbuchstaben zuordnen. Gestalten Sie Deutsch-Arbeitsblätter für Phonetik und Lautverbindungen. Entwickeln Sie Mathe-Arbeitsblätter zur Zahlenzuordnung mit visuellen Darstellungen. Generieren Sie Vokabelarbeitsblätter, die Wörter mit Bildern verbinden. Alle Zuordnungsarbeitsblatt-Typen verwenden denselben einfachen Drei-Klick-Prozess.`,
         highlighted: false,
       },
       {
         id: '2',
         icon: '✏️',
-        title: 'Bearbeiten Sie alles auf Ihren Vorschule Arbeitsblättern - Vollständige Anpassung für Mathe Arbeitsblätter',
+        title: 'Bearbeiten Sie alles auf Ihren Vorschul-Arbeitsblättern - Vollständige Anpassung für Mathe-Arbeitsblätter',
         description: `Jedes Element auf Ihrem Zuordnungsarbeitsblatt ist vollständig editierbar auf der Arbeitsfläche. Klicken Sie auf ein beliebiges Bild zum Verschieben, Skalieren oder Drehen. Ziehen Sie Textelemente überall auf die Seite. Löschen Sie Elemente, die Sie nicht benötigen. Fügen Sie benutzerdefinierte Textanweisungen für Schüler hinzu. Ändern Sie Farben passend zu Ihrem Klassenraum-Thema. Fügen Sie Ihr Schullogo oder Klassenmaskottchen ein.
 
-Die vollständige Bearbeitung funktioniert für alle kostenlosen Arbeitsblätter. Passen Sie Vorschule Arbeitsblätter mit größeren Bildern für jüngere Schüler an. Modifizieren Sie Mathe Arbeitsblätter zur Betonung bestimmter Konzepte. Personalisieren Sie Arbeitsblätter mit vertrauten Objekten aus Ihrem Klassenzimmer. Machen Sie jedes Arbeitsblatt einzigartig für Ihre Schüler.`,
+Die vollständige Bearbeitung funktioniert für alle kostenlosen Arbeitsblätter. Passen Sie Vorschul-Arbeitsblätter mit größeren Bildern für jüngere Schüler an. Modifizieren Sie Mathe-Arbeitsblätter zur Betonung bestimmter Konzepte. Personalisieren Sie Arbeitsblätter mit vertrauten Objekten aus Ihrem Klassenzimmer. Machen Sie jedes Arbeitsblatt einzigartig für Ihre Schüler.`,
         highlighted: false,
       },
       {
         id: '3',
         icon: '📤',
-        title: 'Laden Sie eigene Bilder hoch für Deutsch Arbeitsblätter und Arbeitsblätter zum Buchstaben lernen',
-        description: `Laden Sie Ihre eigenen Bilder hoch, um personalisierte Zuordnungsarbeitsblätter für Ihre spezifischen Schüler zu erstellen. Multi-Datei-Upload akzeptiert JPEG, PNG und GIF Formate. Fügen Sie Fotos von Klassenzimmerobjekten für vertraute Deutsch Arbeitsblätter hinzu. Integrieren Sie Bilder von Schülerkunstwerken für mehr Engagement. Laden Sie Bilder von Lernmaterialien für praktische Verbindungen zu Mathe Arbeitsblättern hoch.
+        title: 'Laden Sie eigene Bilder hoch für Deutsch-Arbeitsblätter und Arbeitsblätter zum Buchstaben lernen',
+        description: `Laden Sie Ihre eigenen Bilder hoch, um personalisierte Zuordnungsarbeitsblätter für Ihre spezifischen Schüler zu erstellen. Multi-Datei-Upload akzeptiert JPEG, PNG und GIF Formate. Fügen Sie Fotos von Klassenzimmerobjekten für vertraute Deutsch-Arbeitsblätter hinzu. Integrieren Sie Bilder von Schülerkunstwerken für mehr Engagement. Laden Sie Bilder von Lernmaterialien für praktische Verbindungen zu Mathe-Arbeitsblättern hoch.
 
-Der benutzerdefinierte Bild-Upload funktioniert nahtlos mit Bibliotheksbildern. Kombinieren Sie Ihre Fotos mit unserer 3000+ Bildersammlung. Erstellen Sie Arbeitsblätter zum Buchstaben lernen, die Schülernamenfotos mit Buchstabenbildern mischen. Gestalten Sie Deutsch Arbeitsblätter mit Klassenzimmergegenständen, die Schüler erkennen.`,
+Der benutzerdefinierte Bild-Upload funktioniert nahtlos mit Bibliotheksbildern. Kombinieren Sie Ihre Fotos mit unserer 3000+ Bildersammlung. Erstellen Sie Arbeitsblätter zum Buchstaben lernen, die Schülernamenfotos mit Buchstabenbildern mischen. Gestalten Sie Deutsch-Arbeitsblätter mit Klassenzimmergegenständen, die Schüler erkennen.`,
         highlighted: false,
       },
       {
         id: '4',
         icon: '🌍',
-        title: '11 Sprachen für Vorschule Arbeitsblätter - Mehrsprachiger Unterricht mit kostenlosen Arbeitsblättern',
-        description: `Generieren Sie Zuordnungsarbeitsblätter in 11 verschiedenen Sprachen für mehrsprachige Klassenzimmer. Vollständige Oberflächenübersetzung und Inhaltslokalisierung enthalten. Erstellen Sie Vorschule Arbeitsblätter auf Deutsch, Englisch, Französisch, Spanisch oder Italienisch. Gestalten Sie Arbeitsblätter Grundschule auf Portugiesisch, Niederländisch, Dänisch, Schwedisch, Norwegisch oder Finnisch.
+        title: '11 Sprachen für Vorschul-Arbeitsblätter - Mehrsprachiger Unterricht mit kostenlosen Arbeitsblättern',
+        description: `Generieren Sie Zuordnungsarbeitsblätter in 11 verschiedenen Sprachen für mehrsprachige Klassenzimmer. Vollständige Oberflächenübersetzung und Inhaltslokalisierung enthalten. Erstellen Sie Vorschul-Arbeitsblätter auf Deutsch, Englisch, Französisch, Spanisch oder Italienisch. Gestalten Sie Arbeitsblätter Grundschule auf Portugiesisch, Niederländisch, Dänisch, Schwedisch, Norwegisch oder Finnisch.
 
-Die Sprachunterstützung geht über einfache Übersetzung hinaus. Bildbeschriftungen wechseln automatisch zur gewählten Sprache. Anfangsbuchstaben-Zuordnungsarbeitsblätter zeigen korrekte Buchstaben für jedes Sprachalphabet. Deutsch Arbeitsblätter spiegeln sprachspezifische Lautmuster wider. Alle Arbeitsblätter zum Buchstaben lernen passen sich an Sprachanforderungen an.`,
+Die Sprachunterstützung geht über einfache Übersetzung hinaus. Bildbeschriftungen wechseln automatisch zur gewählten Sprache. Anfangsbuchstaben-Zuordnungsarbeitsblätter zeigen korrekte Buchstaben für jedes Sprachalphabet. Deutsch-Arbeitsblätter spiegeln sprachspezifische Lautmuster wider. Alle Arbeitsblätter zum Buchstaben lernen passen sich an Sprachanforderungen an.`,
         highlighted: false,
       },
       {
         id: '5',
         icon: '💰',
         title: 'Kommerzielle Lizenz enthalten - Verkaufen Sie Ihre Arbeitsblätter Grundschule auf Eduki',
-        description: `Ihr Core Bundle Abonnement beinhaltet Print-on-Demand-Lizenzierung für kommerzielle Nutzung ohne Aufpreis. Verkaufen Sie Zuordnungsarbeitsblätter, die Sie erstellen, auf Eduki, Teachers Pay Teachers, Etsy oder Amazon KDP. Keine zusätzlichen Lizenzgebühren über Ihr 144€ jährliches Abonnement hinaus. Erstellen Sie unbegrenzt Arbeitsblätter Grundschule und Vorschule Arbeitsblätter für den kommerziellen Verkauf.
+        description: `Ihr Core Bundle Abonnement beinhaltet Print-on-Demand-Lizenzierung für kommerzielle Nutzung ohne Aufpreis. Verkaufen Sie Zuordnungsarbeitsblätter, die Sie erstellen, auf Eduki, Teachers Pay Teachers, Etsy oder Amazon KDP. Keine zusätzlichen Lizenzgebühren über Ihr 144€ jährliches Abonnement hinaus. Erstellen Sie unbegrenzt Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter für den kommerziellen Verkauf.
 
-Die kommerzielle Lizenzierung deckt alle von Ihnen generierten Arbeitsblatttypen ab. Verkaufen Sie Arbeitsblätter zum Buchstaben lernen in thematischen Bundles. Vermarkten Sie Deutsch Arbeitsblätter als Lehrplanergänzungen. Bieten Sie Mathe Arbeitsblätter in saisonalen Sammlungen an. Jedes Zuordnungsarbeitsblatt qualifiziert sich für die kommerzielle Nutzung.`,
+Die kommerzielle Lizenzierung deckt alle von Ihnen generierten Arbeitsblatttypen ab. Verkaufen Sie Arbeitsblätter zum Buchstaben lernen in thematischen Bundles. Vermarkten Sie Deutsch-Arbeitsblätter als Lehrplanergänzungen. Bieten Sie Mathe-Arbeitsblätter in saisonalen Sammlungen an. Jedes Zuordnungsarbeitsblatt qualifiziert sich für die kommerzielle Nutzung.`,
         highlighted: true,
       },
       {
         id: '6',
         icon: '🎨',
-        title: '3000+ Bilderbibliothek für Mathe Arbeitsblätter, Schwungübungen und Ausmalbilder',
+        title: '3000+ Bilderbibliothek für Mathe-Arbeitsblätter, Schwungübungen und Ausmalbilder',
         description: `Greifen Sie mit Ihrem Core Bundle Abonnement auf unsere vollständige 3000+ kinderfreundliche Bilderbibliothek zu. Keine Pro-Bild-Gebühren wie bei Stock-Foto-Websites. Keine Download-Limits wie bei Clipart-Abonnements. Durchsuchen Sie nach Themen organisierte Bilder einschließlich Tiere, Essen, Transport, Schule, Natur und Jahreszeiten. Suchen Sie nach Stichwort, um spezifische Bilder schnell zu finden.
 
-Jedes Bild funktioniert perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule. Kindgerechte Illustrationen mit klaren, einfachen Designs. Helle Farben, die junge Lernende ansprechen. Erkennbare Objekte, denen Schüler täglich begegnen.`,
+Jedes Bild funktioniert perfekt für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule. Kindgerechte Illustrationen mit klaren, einfachen Designs. Helle Farben, die junge Lernende ansprechen. Erkennbare Objekte, denen Schüler täglich begegnen.`,
         highlighted: true,
       },
       {
@@ -173,16 +173,16 @@ Jedes Bild funktioniert perfekt für Vorschule Arbeitsblätter und Arbeitsblätt
         title: 'Professionelle 300 DPI Qualität - Arbeitsblätter für Rechnen lernen und Einmaleins Übungen',
         description: `Alle Zuordnungsarbeitsblätter werden mit 300 DPI professioneller Qualität heruntergeladen. Perfekte Klarheit für Klassenzimmerdruck oder kommerziellen Verkauf. Scharfe Bilder, die beim Drucken zu Hause auf normalen Druckern scharf aussehen. Professionelles Erscheinungsbild für auf Eduki oder Teachers Pay Teachers verkaufte Arbeitsblätter.
 
-Erstellen Sie Arbeitsblätter für Rechnen lernen mit kristallklaren Zahlen und Rechenzeichen. Entwickeln Sie Einmaleins Übungsarbeitsblätter mit perfekt lesbaren Multiplikationstabellen. Generieren Sie Mathe Arbeitsblätter mit scharfen visuellen Darstellungen mathematischer Konzepte. Alle Arbeitsblätter Grundschule erfüllen professionelle Veröffentlichungsstandards.`,
+Erstellen Sie Arbeitsblätter für Rechnen lernen mit kristallklaren Zahlen und Rechenzeichen. Entwickeln Sie Einmaleins Übungsarbeitsblätter mit perfekt lesbaren Multiplikationstabellen. Generieren Sie Mathe-Arbeitsblätter mit scharfen visuellen Darstellungen mathematischer Konzepte. Alle Arbeitsblätter Grundschule erfüllen professionelle Veröffentlichungsstandards.`,
         highlighted: true,
       },
       {
         id: '8',
         icon: '🎯',
-        title: 'Vier Zuordnungsmodi für Buchstaben lernen, Deutsch Arbeitsblätter und Mathe Arbeitsblätter',
+        title: 'Vier Zuordnungsmodi für Buchstaben lernen, Deutsch-Arbeitsblätter und Mathe-Arbeitsblätter',
         description: `Wählen Sie aus vier verschiedenen Zuordnungsmodi, die Ihren Unterrichtszielen entsprechen. Der Bild-zu-Anfangsbuchstabe-Modus erstellt perfekte Arbeitsblätter zum Buchstaben lernen für die Buchstabenerkennung. Schüler ordnen Bilder dem ersten Buchstaben jedes Wortes zu. Apfel passt zu A, Ball passt zu B.
 
-Der Bild-plus-Wort zu Bild-plus-Wort-Modus baut Gedächtnis- und Erkennungs-Vokabelarbeitsblätter auf. Der Bild-oder-Wort zu Bild-oder-Wort-Modus erstellt die flexibelsten Zuordnungsarbeitsblätter. Der Bild-zu-benutzerdefiniertem-Wort-Modus baut Vokabel-Zuordnungsarbeitsblätter für jedes Fach auf. Perfekt für Mathe Arbeitsblätter, Deutsch Arbeitsblätter und mehr.`,
+Der Bild-plus-Wort zu Bild-plus-Wort-Modus baut Gedächtnis- und Erkennungs-Vokabelarbeitsblätter auf. Der Bild-oder-Wort zu Bild-oder-Wort-Modus erstellt die flexibelsten Zuordnungsarbeitsblätter. Der Bild-zu-benutzerdefiniertem-Wort-Modus baut Vokabel-Zuordnungsarbeitsblätter für jedes Fach auf. Perfekt für Mathe-Arbeitsblätter, Deutsch-Arbeitsblätter und mehr.`,
         highlighted: false,
       },
       {
@@ -197,10 +197,10 @@ Lösungsblätter spiegeln Ihr Arbeitsblatt-Layout genau wider und behalten diese
       {
         id: '10',
         icon: '🔗',
-        title: 'Schwungübungen und Buchstaben lernen Integration für ganzheitliche Vorschule Arbeitsblätter',
+        title: 'Schwungübungen und Buchstaben lernen Integration für ganzheitliche Vorschul-Arbeitsblätter',
         description: `Kombinieren Sie Zuordnungsarbeitsblätter mit Schwungübungen für vollständige Feinmotorikentwicklung. Erstellen Sie Buchstaben-Zuordnung gefolgt von koordinierten Schwungübungen für Schreibvorbereitung. Gestalten Sie Arbeitsblätter zum Buchstaben lernen, die Buchstabenerkennung und Schreibfähigkeiten gleichzeitig aufbauen.
 
-Integrieren Sie Ausmalbilder mit Zuordnungsaktivitäten für erweiterte Engagementperioden. Schüler vervollständigen pädagogische Zuordnung gefolgt von verwandten Ausmalbilder-Aktivitäten. Erstellen Sie umfassende Vorschule Arbeitsblätter Pakete, die Zuordnung, Schwungübungen und Ausmalbilder kombinieren.`,
+Integrieren Sie Ausmalbilder mit Zuordnungsaktivitäten für erweiterte Engagementperioden. Schüler vervollständigen pädagogische Zuordnung gefolgt von verwandten Ausmalbilder-Aktivitäten. Erstellen Sie umfassende Vorschul-Arbeitsblätter Pakete, die Zuordnung, Schwungübungen und Ausmalbilder kombinieren.`,
         highlighted: false,
       },
     ],
@@ -209,7 +209,7 @@ Integrieren Sie Ausmalbilder mit Zuordnungsaktivitäten für erweiterte Engageme
   // How-To Guide - FULL text from matching.md step sections
   howTo: {
     sectionTitle: 'So erstellen Sie kostenlose Arbeitsblätter Grundschule in 5 einfachen Schritten',
-    sectionDescription: 'Das Erstellen von Zuordnungsarbeitsblättern dauert weniger als 3 Minuten vom Start bis zum Download. Folgen Sie fünf einfachen Schritten, um professionelle Arbeitsblätter Grundschule und Vorschule Arbeitsblätter zu generieren. Keine Designerfahrung erforderlich für die Erstellung von Arbeitsblättern zum Buchstaben lernen, Deutsch Arbeitsblättern oder Mathe Arbeitsblättern.',
+    sectionDescription: 'Das Erstellen von Zuordnungsarbeitsblättern dauert weniger als 3 Minuten vom Start bis zum Download. Folgen Sie fünf einfachen Schritten, um professionelle Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter zu generieren. Keine Designerfahrung erforderlich für die Erstellung von Arbeitsblättern zum Buchstaben lernen, Deutsch-Arbeitsblättern oder Mathe-Arbeitsblättern.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
     stepLabel: 'Schritt',
@@ -224,22 +224,22 @@ Integrieren Sie Ausmalbilder mit Zuordnungsaktivitäten für erweiterte Engageme
         id: '1',
         number: 1,
         title: 'Schritt 1: Wählen Sie Inhalte für Ihre Arbeitsblätter zum Buchstaben lernen',
-        description: `Wählen Sie zuerst Ihren Zuordnungsmodus, um den Arbeitsblattinhaltstyp festzulegen. Klicken Sie auf das Dropdown-Menü "Zuordnungsmodus" in der linken Seitenleiste unter Arbeitsblatt-Konfiguration. Vier Modi verfügbar für verschiedene Lernziele bei Vorschule Arbeitsblättern und Arbeitsblättern Grundschule.
+        description: `Wählen Sie zuerst Ihren Zuordnungsmodus, um den Arbeitsblattinhaltstyp festzulegen. Klicken Sie auf das Dropdown-Menü "Zuordnungsmodus" in der linken Seitenleiste unter Arbeitsblatt-Konfiguration. Vier Modi verfügbar für verschiedene Lernziele bei Vorschul-Arbeitsblättern und Arbeitsblättern Grundschule.
 
-Wählen Sie den Bild-zu-Anfangsbuchstabe-Modus für Arbeitsblätter zum Buchstaben lernen und Buchstabenerkennungspraxis. Perfekt für ABC-Arbeitsblätter, die Buchstablaute lehren. Wählen Sie den Bild-plus-Wort zu Bild-plus-Wort-Modus für Deutsch Arbeitsblätter und Vokabelverstärkung. Wählen Sie den Bild-zu-benutzerdefiniertem-Wort-Modus für Vokabel-Zuordnungsarbeitsblätter.
+Wählen Sie den Bild-zu-Anfangsbuchstabe-Modus für Arbeitsblätter zum Buchstaben lernen und Buchstabenerkennungspraxis. Perfekt für ABC-Arbeitsblätter, die Buchstablaute lehren. Wählen Sie den Bild-plus-Wort zu Bild-plus-Wort-Modus für Deutsch-Arbeitsblätter und Vokabelverstärkung. Wählen Sie den Bild-zu-benutzerdefiniertem-Wort-Modus für Vokabel-Zuordnungsarbeitsblätter.
 
-Wählen Sie nach der Modusauswahl Ihre Bildauswahlmethode. Klicken Sie auf "Zufälliges Thema & Bilder" für vollständig automatische Generierung von Vorschule Arbeitsblättern. Wählen Sie "Zufällig aus gewähltem Thema" für thematische Arbeitsblätter zum Buchstaben lernen. Wählen Sie "Spezifische Bilder auswählen" für vollständige Kontrolle über kostenlose Arbeitsblätter.`,
+Wählen Sie nach der Modusauswahl Ihre Bildauswahlmethode. Klicken Sie auf "Zufälliges Thema & Bilder" für vollständig automatische Generierung von Vorschul-Arbeitsblättern. Wählen Sie "Zufällig aus gewähltem Thema" für thematische Arbeitsblätter zum Buchstaben lernen. Wählen Sie "Spezifische Bilder auswählen" für vollständige Kontrolle über kostenlose Arbeitsblätter.`,
         icon: '🖼️',
       },
       {
         id: '2',
         number: 2,
-        title: 'Schritt 2: Passen Sie Einstellungen an für Mathe Arbeitsblätter und Rechnen 1. Klasse',
-        description: `Legen Sie die Anzahl der Zuordnungspaare für Ihr Arbeitsblatt fest. Klicken Sie auf das Dropdown-Menü "Maximale Anzahl der Paare". Wählen Sie 4, 5 oder 6 Paare je nach Schülerfähigkeitsniveau. Vier Paare funktionieren gut für beginnende Vorschule Arbeitsblätter. Sechs Paare fordern fortgeschrittene Arbeitsblätter Grundschule Benutzer heraus.
+        title: 'Schritt 2: Passen Sie Einstellungen an für Mathe-Arbeitsblätter und Rechnen 1. Klasse',
+        description: `Legen Sie die Anzahl der Zuordnungspaare für Ihr Arbeitsblatt fest. Klicken Sie auf das Dropdown-Menü "Maximale Anzahl der Paare". Wählen Sie 4, 5 oder 6 Paare je nach Schülerfähigkeitsniveau. Vier Paare funktionieren gut für beginnende Vorschul-Arbeitsblätter. Sechs Paare fordern fortgeschrittene Arbeitsblätter Grundschule Benutzer heraus.
 
 Wählen Sie Ihre Seitengröße und Ausrichtung. Klicken Sie auf das Dropdown-Menü "Seitengröße" oben in der Seitenleiste. Wählen Sie Letter Hochformat für vertikale Standard-Arbeitsblätter. Wählen Sie A4 Hochformat oder A4 Querformat für europäisches Standardpapier.
 
-Konfigurieren Sie Namens- und Datumsfelder für Klassenzimmerverwaltung. Aktivieren Sie das Kontrollkästchen "Namens-/Datumsfelder einschließen", um Schülerinformationszeilen hinzuzufügen. Hilfreich beim Sammeln und Bewerten von Arbeitsblättern zum Buchstaben lernen und Deutsch Arbeitsblättern.`,
+Konfigurieren Sie Namens- und Datumsfelder für Klassenzimmerverwaltung. Aktivieren Sie das Kontrollkästchen "Namens-/Datumsfelder einschließen", um Schülerinformationszeilen hinzuzufügen. Hilfreich beim Sammeln und Bewerten von Arbeitsblättern zum Buchstaben lernen und Deutsch-Arbeitsblättern.`,
         icon: '⚙️',
       },
       {
@@ -250,7 +250,7 @@ Konfigurieren Sie Namens- und Datumsfelder für Klassenzimmerverwaltung. Aktivie
 
 Beobachten Sie, wie Ihr Zuordnungsarbeitsblatt auf der Arbeitsfläche erscheint. Bilder laden in linken und rechten Spalten. Textelemente erscheinen bei Verwendung wortbasierter Modi. Seitenrand, Hintergrund und dekorative Elemente fügen sich automatisch hinzu.
 
-Die Arbeitsblatt-Arbeitsfläche zeigt Ihre Arbeitsblätter Grundschule genau so, wie Schüler sie sehen werden. Die Generierung dauert 10-15 Sekunden für die meisten Vorschule Arbeitsblätter.`,
+Die Arbeitsblatt-Arbeitsfläche zeigt Ihre Arbeitsblätter Grundschule genau so, wie Schüler sie sehen werden. Die Generierung dauert 10-15 Sekunden für die meisten Vorschul-Arbeitsblätter.`,
         icon: '✨',
       },
       {
@@ -259,7 +259,7 @@ Die Arbeitsblatt-Arbeitsfläche zeigt Ihre Arbeitsblätter Grundschule genau so,
         title: 'Schritt 4: Bearbeiten Sie Arbeitsblätter auf der Arbeitsfläche - Passen Sie Ausmalbilder an',
         description: `Klicken Sie auf ein beliebiges Bild auf Ihrem Zuordnungsarbeitsblatt, um es auszuwählen. Ein blauer Begrenzungsrahmen mit Eckgriffen erscheint um das ausgewählte Objekt. Ziehen Sie das Bild an eine neue Position irgendwo auf der Arbeitsfläche. Ändern Sie die Bildgröße durch Ziehen der Eckgriffe. Drehen Sie das Bild durch Greifen der Drehsteuerung über dem Objekt.
 
-Fügen Sie benutzerdefinierte Textanweisungen überall auf Ihren Vorschule Arbeitsblättern hinzu. Klicken Sie auf "Text-Tools" in der linken Seitenleiste. Geben Sie Anweisungstext in das Eingabefeld ein. Wählen Sie Schriftart, Größe und Farbe. Klicken Sie auf "Text hinzufügen", um Text auf der Arbeitsfläche zu platzieren.
+Fügen Sie benutzerdefinierte Textanweisungen überall auf Ihren Vorschul-Arbeitsblättern hinzu. Klicken Sie auf "Text-Tools" in der linken Seitenleiste. Geben Sie Anweisungstext in das Eingabefeld ein. Wählen Sie Schriftart, Größe und Farbe. Klicken Sie auf "Text hinzufügen", um Text auf der Arbeitsfläche zu platzieren.
 
 Wenden Sie Hintergründe an, um Zuordnungsarbeitsblätter ansprechender zu machen. Klicken Sie auf das Dropdown-Menü "Hintergrund-Thema" im Seiteneinrichtungsbereich. Wählen Sie aus Dutzenden themenbasierter Hintergründe.`,
         icon: '✏️',
@@ -281,7 +281,7 @@ Aktivieren Sie die Graustufenoption vor dem Herunterladen, um Druckertinte zu sp
   // Use Cases - FULL descriptions from matching.md persona sections
   useCases: {
     sectionTitle: 'Perfekt für Lehrkräfte und Eltern - Kostenlose Arbeitsblätter Grundschule für jeden Bedarf',
-    sectionDescription: 'Zuordnungsarbeitsblätter dienen verschiedenen Bildungsbedürfnissen in verschiedenen Unterrichtsumgebungen. Erzieher in der Vorschule nutzen Zuordnungsarbeitsblätter für Buchstabenerkennung und phonetische Praxis. Grundschullehrkräfte gestalten Deutsch Arbeitsblätter für Leseentwicklung. Homeschool-Eltern erstellen Arbeitsblätter zum Buchstaben lernen, die an das individuelle Lerntempo angepasst sind. DaZ-Lehrkräfte entwickeln Mathe Arbeitsblätter mit visueller Vokabelunterstützung.',
+    sectionDescription: 'Zuordnungsarbeitsblätter dienen verschiedenen Bildungsbedürfnissen in verschiedenen Unterrichtsumgebungen. Erzieher in der Vorschule nutzen Zuordnungsarbeitsblätter für Buchstabenerkennung und phonetische Praxis. Grundschullehrkräfte gestalten Deutsch-Arbeitsblätter für Leseentwicklung. Homeschool-Eltern erstellen Arbeitsblätter zum Buchstaben lernen, die an das individuelle Lerntempo angepasst sind. DaZ-Lehrkräfte entwickeln Mathe-Arbeitsblätter mit visueller Vokabelunterstützung.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
@@ -290,20 +290,20 @@ Aktivieren Sie die Graustufenoption vor dem Herunterladen, um Druckertinte zu sp
         id: '1',
         icon: '👶',
         title: 'Erzieher in Vorschule und Kindergarten',
-        subtitle: 'Vorschule Arbeitsblätter und Buchstaben lernen für frühe Bildung',
-        description: `Erzieher in der Vorschule benötigen ständig Vorschule Arbeitsblätter für tägliche Buchstabeneinführung. Erstellen Sie Zuordnungsarbeitsblätter, die Bilder mit Anfangsbuchstaben für phonetische Grundlagen verbinden. Generieren Sie Arbeitsblätter zum Buchstaben lernen für jeden Buchstaben des Alphabets im Laufe des Jahres. Gestalten Sie kostenlose Arbeitsblätter für Stationsaktivitäten und Kleingruppenunterricht.
+        subtitle: 'Vorschul-Arbeitsblätter und Buchstaben lernen für frühe Bildung',
+        description: `Erzieher in der Vorschule benötigen ständig Vorschul-Arbeitsblätter für tägliche Buchstabeneinführung. Erstellen Sie Zuordnungsarbeitsblätter, die Bilder mit Anfangsbuchstaben für phonetische Grundlagen verbinden. Generieren Sie Arbeitsblätter zum Buchstaben lernen für jeden Buchstaben des Alphabets im Laufe des Jahres. Gestalten Sie kostenlose Arbeitsblätter für Stationsaktivitäten und Kleingruppenunterricht.
 
-Der Bild-zu-Anfangsbuchstabe-Modus erstellt perfekte Vorschule Arbeitsblätter für Lernzentren. Schüler ordnen Apfel zu A, Ball zu B, Katze zu K zu. Visuelle Verbindungen helfen Vorlesern, Buchstaben-Laut-Beziehungen zu verstehen. Generieren Sie wöchentlich neue Arbeitsblätter zum Buchstaben lernen, um das Engagement der Schüler aufrechtzuerhalten.
+Der Bild-zu-Anfangsbuchstabe-Modus erstellt perfekte Vorschul-Arbeitsblätter für Lernzentren. Schüler ordnen Apfel zu A, Ball zu B, Katze zu K zu. Visuelle Verbindungen helfen Vorlesern, Buchstaben-Laut-Beziehungen zu verstehen. Generieren Sie wöchentlich neue Arbeitsblätter zum Buchstaben lernen, um das Engagement der Schüler aufrechtzuerhalten.
 
-Kombinieren Sie Vorschule Arbeitsblätter mit Schwungübungen für vollständige Schreibvorbereitung. Erstellen Sie Buchstaben-Zuordnung gefolgt von koordinierten Schwungübungen. Integrieren Sie Ausmalbilder für erweiterte feinmotorische Praxis.`,
+Kombinieren Sie Vorschul-Arbeitsblätter mit Schwungübungen für vollständige Schreibvorbereitung. Erstellen Sie Buchstaben-Zuordnung gefolgt von koordinierten Schwungübungen. Integrieren Sie Ausmalbilder für erweiterte feinmotorische Praxis.`,
         quote: 'Meine Kinder lieben die bunten Zuordnungsübungen mit Tierbildern!',
       },
       {
         id: '2',
         icon: '📚',
         title: 'Grundschullehrkräfte 1. bis 3. Klasse',
-        subtitle: 'Arbeitsblätter Grundschule, Deutsch Arbeitsblätter und Mathe Arbeitsblätter',
-        description: `Grundschullehrkräfte in der 1. Klasse benötigen Deutsch Arbeitsblätter für Dolch- und Fry-Wortlisten. Erstellen Sie Zuordnungsarbeitsblätter, die Sichtwörter mit Bilddarstellungen verbinden. Gestalten Sie Arbeitsblätter zum Buchstaben lernen für Mischungen, Digraphen und Wortfamilien. Generieren Sie Vokabel-Zuordnung für Sachunterrichts- und Sozialkundeeinheiten. Entwickeln Sie Mathe Arbeitsblätter, die Zahlwörter mit Ziffern zuordnen.
+        subtitle: 'Arbeitsblätter Grundschule, Deutsch-Arbeitsblätter und Mathe-Arbeitsblätter',
+        description: `Grundschullehrkräfte in der 1. Klasse benötigen Deutsch-Arbeitsblätter für Dolch- und Fry-Wortlisten. Erstellen Sie Zuordnungsarbeitsblätter, die Sichtwörter mit Bilddarstellungen verbinden. Gestalten Sie Arbeitsblätter zum Buchstaben lernen für Mischungen, Digraphen und Wortfamilien. Generieren Sie Vokabel-Zuordnung für Sachunterrichts- und Sozialkundeeinheiten. Entwickeln Sie Mathe-Arbeitsblätter, die Zahlwörter mit Ziffern zuordnen.
 
 Lehrkräfte in der 2. Klasse verwenden den benutzerdefinierten Wortmodus für fachspezifische Vokabel-Zuordnung. Ordnen Sie Bundesländer zu Hauptstädten für Geografie zu. Verbinden Sie mathematische Begriffe mit Definitionen. Verknüpfen Sie naturwissenschaftliches Vokabular mit Beispielen.
 
@@ -314,20 +314,20 @@ Erstellen Sie differenzierte kostenlose Arbeitsblätter für gemischte Fähigkei
         id: '3',
         icon: '🏠',
         title: 'Homeschool-Eltern',
-        subtitle: 'Individuelles Lerntempo mit Vorschule Arbeitsblättern und Ausmalbilder-Integration',
-        description: `Homeschool-Eltern erstellen personalisierte Zuordnungsarbeitsblätter, die zum Lernniveau jedes Kindes passen. Generieren Sie Arbeitsblätter zum Buchstaben lernen, wenn Schüler Buchstabenerkennung meistern. Gestalten Sie Deutsch Arbeitsblätter nach gewählter Lehrplansequenz. Entwickeln Sie Vokabel-Zuordnung im individuellen Lesetempo. Erstellen Sie Mathe Arbeitsblätter, die auf das aktuelle Fähigkeitsniveau des Schülers abgestimmt sind.
+        subtitle: 'Individuelles Lerntempo mit Vorschul-Arbeitsblättern und Ausmalbilder-Integration',
+        description: `Homeschool-Eltern erstellen personalisierte Zuordnungsarbeitsblätter, die zum Lernniveau jedes Kindes passen. Generieren Sie Arbeitsblätter zum Buchstaben lernen, wenn Schüler Buchstabenerkennung meistern. Gestalten Sie Deutsch-Arbeitsblätter nach gewählter Lehrplansequenz. Entwickeln Sie Vokabel-Zuordnung im individuellen Lesetempo. Erstellen Sie Mathe-Arbeitsblätter, die auf das aktuelle Fähigkeitsniveau des Schülers abgestimmt sind.
 
-Laden Sie Familienfotos für hochgradig personalisierte Vorschule Arbeitsblätter hoch. Ordnen Sie den Namen des Kindes dem Foto für Namenserkennung zu. Verbinden Sie Familienmitglieder mit Beziehungswörtern. Verknüpfen Sie Haushaltsgegenstände mit Vokabelwörtern. Personalisierung erhöht Engagement für Heimlernende.
+Laden Sie Familienfotos für hochgradig personalisierte Vorschul-Arbeitsblätter hoch. Ordnen Sie den Namen des Kindes dem Foto für Namenserkennung zu. Verbinden Sie Familienmitglieder mit Beziehungswörtern. Verknüpfen Sie Haushaltsgegenstände mit Vokabelwörtern. Personalisierung erhöht Engagement für Heimlernende.
 
-Generieren Sie Zuordnungsarbeitsblätter für mehrere Kinder gleichzeitig. Erstellen Sie altersgerechte Vorschule Arbeitsblätter für Kindergartenkind. Das Core Bundle Abonnement unterstützt mehrere Klassenstufen in einem Haushalt.`,
+Generieren Sie Zuordnungsarbeitsblätter für mehrere Kinder gleichzeitig. Erstellen Sie altersgerechte Vorschul-Arbeitsblätter für Kindergartenkind. Das Core Bundle Abonnement unterstützt mehrere Klassenstufen in einem Haushalt.`,
         quote: 'Ein Werkzeug deckt alle Klassenstufen meiner Kinder ab.',
       },
       {
         id: '4',
         icon: '🌍',
         title: 'DaZ- und Fremdsprachenlehrkräfte',
-        subtitle: 'Deutsch Arbeitsblätter und mehrsprachige Vorschule Arbeitsblätter',
-        description: `DaZ-Lehrkräfte nutzen Zuordnungsarbeitsblätter für visuellen Vokabelunterricht. Bilder bieten Kontexthinweise, die Deutschlernende benötigen. Ordnen Sie Bilder deutschen Wörtern für grundlegenden Vokabelaufbau zu. Erstellen Sie Arbeitsblätter zum Buchstaben lernen, die Buchstaben-Laut-Verbindungen zeigen. Gestalten Sie Deutsch Arbeitsblätter, die deutsche Aussprachemuster verstärken.
+        subtitle: 'Deutsch-Arbeitsblätter und mehrsprachige Vorschul-Arbeitsblätter',
+        description: `DaZ-Lehrkräfte nutzen Zuordnungsarbeitsblätter für visuellen Vokabelunterricht. Bilder bieten Kontexthinweise, die Deutschlernende benötigen. Ordnen Sie Bilder deutschen Wörtern für grundlegenden Vokabelaufbau zu. Erstellen Sie Arbeitsblätter zum Buchstaben lernen, die Buchstaben-Laut-Verbindungen zeigen. Gestalten Sie Deutsch-Arbeitsblätter, die deutsche Aussprachemuster verstärken.
 
 Mehrsprachige Zuordnungsarbeitsblätter unterstützen Herkunftssprachenprogramme. Erstellen Sie türkische Arbeitsblätter zum Buchstaben lernen für zweisprachige Klassenzimmer. Generieren Sie polnische Vokabel-Zuordnung für Immersionsprogramme. Alle 11 Sprachen verfügbar mit derselben einfachen Oberfläche.
 
@@ -338,8 +338,8 @@ Zweisprachige Lehrkräfte erstellen parallele Zuordnungsarbeitsblätter in zwei 
         id: '5',
         icon: '💜',
         title: 'Förderlehrkräfte',
-        subtitle: 'Differenzierte Mathe Arbeitsblätter und angepasste Arbeitsblätter Grundschule',
-        description: `Förderlehrkräfte benötigen hochgradig anpassbare Zuordnungsarbeitsblätter für Förderplanziele. Erstellen Sie Vier-Paar-Arbeitsblätter für Schüler mit Aufmerksamkeitsherausforderungen. Generieren Sie Großbild-Arbeitsblätter zum Buchstaben lernen für visuelle Verarbeitungsunterstützung. Gestalten Sie einfache Vokabel-Zuordnung für modifizierten Leseunterricht. Entwickeln Sie konkrete Mathe Arbeitsblätter mit visuellen Darstellungen.
+        subtitle: 'Differenzierte Mathe-Arbeitsblätter und angepasste Arbeitsblätter Grundschule',
+        description: `Förderlehrkräfte benötigen hochgradig anpassbare Zuordnungsarbeitsblätter für Förderplanziele. Erstellen Sie Vier-Paar-Arbeitsblätter für Schüler mit Aufmerksamkeitsherausforderungen. Generieren Sie Großbild-Arbeitsblätter zum Buchstaben lernen für visuelle Verarbeitungsunterstützung. Gestalten Sie einfache Vokabel-Zuordnung für modifizierten Leseunterricht. Entwickeln Sie konkrete Mathe-Arbeitsblätter mit visuellen Darstellungen.
 
 Laden Sie Fotos von Klassenzimmer-Lernmaterialien für praktische Lernverbindung hoch. Ordnen Sie echte Zählbären zu Zahlwörtern zu. Verbinden Sie tatsächliche Formblöcke mit Geometriebegriffen. Überbrücken Sie konkrete Lernmaterial-Arbeit zu abstrakter Arbeitsblatt-Praxis.
 
@@ -351,9 +351,9 @@ Generieren Sie Fortschrittsüberwachungs-kostenlose Arbeitsblätter zur Verfolgu
         icon: '💰',
         title: 'Lehrer-Unternehmer',
         subtitle: 'Verkauf von kostenlosen Arbeitsblättern auf Eduki mit Einmaleins und Rechnen lernen Inhalten',
-        description: `Lehrer-Unternehmer bauen erfolgreiche Geschäfte mit dem Verkauf von Zuordnungsarbeitsblatt-Bundles online auf. Erstellen Sie thematische Arbeitsblätter zum Buchstaben lernen Pakete für saisonale Nachfrage. Generieren Sie umfassende Deutsch Arbeitsblätter Sets, organisiert nach Fähigkeitsprogression. Gestalten Sie Vokabel-Zuordnungs-Bundles sortiert nach Lesestufe.
+        description: `Lehrer-Unternehmer bauen erfolgreiche Geschäfte mit dem Verkauf von Zuordnungsarbeitsblatt-Bundles online auf. Erstellen Sie thematische Arbeitsblätter zum Buchstaben lernen Pakete für saisonale Nachfrage. Generieren Sie umfassende Deutsch-Arbeitsblätter Sets, organisiert nach Fähigkeitsprogression. Gestalten Sie Vokabel-Zuordnungs-Bundles sortiert nach Lesestufe.
 
-Eduki-Verkäufer preisen Zuordnungsarbeitsblatt-Bundles bei 3-8€ pro Paket. Erstellen Sie 10-seitige Arbeitsblätter zum Buchstaben lernen Bundle, das A-Z Buchstaben abdeckt. Generieren Sie 15-seitige Deutsch Arbeitsblätter Set, das Phonetik lehrt. Verkaufen Sie Hunderte Exemplare monatlich, die erhebliches passives Einkommen generieren.
+Eduki-Verkäufer preisen Zuordnungsarbeitsblatt-Bundles bei 3-8€ pro Paket. Erstellen Sie 10-seitige Arbeitsblätter zum Buchstaben lernen Bundle, das A-Z Buchstaben abdeckt. Generieren Sie 15-seitige Deutsch-Arbeitsblätter Set, das Phonetik lehrt. Verkaufen Sie Hunderte Exemplare monatlich, die erhebliches passives Einkommen generieren.
 
 Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fokussierte Käufer. Gestalten Sie Einmaleins-Übungsarbeitsblätter für Multiplikationsfluenz. Generieren Sie Rechnen-1.-Klasse-Zuordnung für frühe mathematische Fähigkeiten.`,
         quote: 'Mein Abonnement hat sich im ersten Monat bezahlt gemacht!',
@@ -363,8 +363,8 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
 
   // FAQ Section - FULL FAQs from matching.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen - Kostenlose Arbeitsblätter, Schwungübungen und Deutsch Arbeitsblätter',
-    sectionDescription: 'Lehrkräfte stellen häufige Fragen zum Erstellen von Zuordnungsarbeitsblättern mit Zuordnungs-Generator. Hier finden Sie Antworten zu kostenlosen Arbeitsblättern, Ausmalbilder, Schwungübungen und mehr. Erfahren Sie, wie Sie Arbeitsblätter zum Buchstaben lernen erstellen, Deutsch Arbeitsblätter generieren und Mathe Arbeitsblätter für Einmaleins-Praxis gestalten.',
+    sectionTitle: 'Häufig gestellte Fragen - Kostenlose Arbeitsblätter, Schwungübungen und Deutsch-Arbeitsblätter',
+    sectionDescription: 'Lehrkräfte stellen häufige Fragen zum Erstellen von Zuordnungsarbeitsblättern mit Zuordnungs-Generator. Hier finden Sie Antworten zu kostenlosen Arbeitsblättern, Ausmalbilder, Schwungübungen und mehr. Erfahren Sie, wie Sie Arbeitsblätter zum Buchstaben lernen erstellen, Deutsch-Arbeitsblätter generieren und Mathe-Arbeitsblätter für Einmaleins-Praxis gestalten.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
     badgeText: 'Häufige Fragen',
@@ -375,7 +375,7 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
     items: [
       {
         id: '1',
-        question: 'Kann ich Schwungübungen mit Zuordnungsarbeitsblättern kombinieren für Vorschule Arbeitsblätter?',
+        question: 'Kann ich Schwungübungen mit Zuordnungsarbeitsblättern kombinieren für Vorschul-Arbeitsblätter?',
         answer: 'Ja, das Core Bundle Abonnement beinhaltet sowohl Zuordnungs-Generator als auch den Schwungübungen-Generator. Erstellen Sie Zuordnungsarbeitsblätter für Buchstabenerkennung, dann fügen Sie passende Schwungübungen für Schreibvorbereitung hinzu. Koordinieren Sie Schwungübungen-Themen mit Zuordnungsaktivitäten. Schüler vervollständigen Buchstaben-Zuordnung gefolgt von verwandten Schwungübungen. Kombinierte Aktivitäten bauen sowohl Erkennungs- als auch Schreibfähigkeiten auf. Generieren Sie beide Materialien von demselben Abonnement ohne zusätzliche Kosten.',
       },
       {
@@ -385,8 +385,8 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
       },
       {
         id: '3',
-        question: 'Kann ich Deutsch Arbeitsblätter für Wortschatz und Leseverständnis mit benutzerdefinierten Wörtern erstellen?',
-        answer: 'Ja, verwenden Sie den Bild-zu-benutzerdefiniertem-Wort-Modus für Deutsch Arbeitsblätter. Wählen Sie Bilder aus der Bibliothek. Geben Sie benutzerdefinierte deutsche Vokabelwörter für jedes Bild ein. Erstellen Sie Zuordnung von Bildern zu Dolch-Wörtern, Fry-Wörtern oder thematischem Vokabular. Gestalten Sie Deutsch Arbeitsblätter für phonetische Muster wie Mischungen oder Digraphen. Generieren Sie Vokabel-Zuordnung für Literatureinheiten. Vollständige Kontrolle über Wortauswahl für zielgerichtete Deutsch Arbeitsblätter.',
+        question: 'Kann ich Deutsch-Arbeitsblätter für Wortschatz und Leseverständnis mit benutzerdefinierten Wörtern erstellen?',
+        answer: 'Ja, verwenden Sie den Bild-zu-benutzerdefiniertem-Wort-Modus für Deutsch-Arbeitsblätter. Wählen Sie Bilder aus der Bibliothek. Geben Sie benutzerdefinierte deutsche Vokabelwörter für jedes Bild ein. Erstellen Sie Zuordnung von Bildern zu Dolch-Wörtern, Fry-Wörtern oder thematischem Vokabular. Gestalten Sie Deutsch-Arbeitsblätter für phonetische Muster wie Mischungen oder Digraphen. Generieren Sie Vokabel-Zuordnung für Literatureinheiten. Vollständige Kontrolle über Wortauswahl für zielgerichtete Deutsch-Arbeitsblätter.',
       },
       {
         id: '4',
@@ -395,8 +395,8 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
       },
       {
         id: '5',
-        question: 'Wie erstelle ich Mathe Arbeitsblätter für Zahlenerkennung und visuelles Zählen?',
-        answer: 'Verwenden Sie den Bild-zu-benutzerdefiniertem-Wort-Modus für Mathe Arbeitsblätter. Wählen Sie Bilder, die Mengen zeigen (drei Äpfel, fünf Bälle). Geben Sie entsprechende Ziffern oder Zahlwörter ein. Erstellen Sie Zuordnung von visuellen Mengen zu Zahlen. Gestalten Sie Mathe Arbeitsblätter, die Punkte-Mengen Ziffern zuordnen. Generieren Sie Zahlwort-zu-Ziffer-Zuordnung. Entwickeln Sie mathematische Vokabel-Zuordnung für Geometrie-Begriffe. Alle Mathe Arbeitsblätter passen sich an Ihr Lehrplan-Sequenzieren an.',
+        question: 'Wie erstelle ich Mathe-Arbeitsblätter für Zahlenerkennung und visuelles Zählen?',
+        answer: 'Verwenden Sie den Bild-zu-benutzerdefiniertem-Wort-Modus für Mathe-Arbeitsblätter. Wählen Sie Bilder, die Mengen zeigen (drei Äpfel, fünf Bälle). Geben Sie entsprechende Ziffern oder Zahlwörter ein. Erstellen Sie Zuordnung von visuellen Mengen zu Zahlen. Gestalten Sie Mathe-Arbeitsblätter, die Punkte-Mengen Ziffern zuordnen. Generieren Sie Zahlwort-zu-Ziffer-Zuordnung. Entwickeln Sie mathematische Vokabel-Zuordnung für Geometrie-Begriffe. Alle Mathe-Arbeitsblätter passen sich an Ihr Lehrplan-Sequenzieren an.',
       },
       {
         id: '6',
@@ -420,8 +420,8 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
       },
       {
         id: '10',
-        question: 'Kann ich Deutsch Arbeitsblätter auf anderen Sprachen für zweisprachigen Unterricht erstellen?',
-        answer: 'Ja, generieren Sie Zuordnungsarbeitsblätter in 11 verschiedenen Sprachen. Wählen Sie Spracheinstellung für UI und Bildbeschriftungen. Erstellen Sie englische, französische oder spanische Vokabel-Zuordnung. Gestalten Sie türkische, polnische oder italienische Deutsch Arbeitsblätter. Generieren Sie parallele Versionen in zwei Sprachen für Vergleich. Unterstützen Sie DaZ-Schüler mit muttersprachlichen Materialien. Alle Deutsch Arbeitsblätter verfügbar in mehreren Sprachen für bilinguale Programme.',
+        question: 'Kann ich Deutsch-Arbeitsblätter auf anderen Sprachen für zweisprachigen Unterricht erstellen?',
+        answer: 'Ja, generieren Sie Zuordnungsarbeitsblätter in 11 verschiedenen Sprachen. Wählen Sie Spracheinstellung für UI und Bildbeschriftungen. Erstellen Sie englische, französische oder spanische Vokabel-Zuordnung. Gestalten Sie türkische, polnische oder italienische Deutsch-Arbeitsblätter. Generieren Sie parallele Versionen in zwei Sprachen für Vergleich. Unterstützen Sie DaZ-Schüler mit muttersprachlichen Materialien. Alle Deutsch-Arbeitsblätter verfügbar in mehreren Sprachen für bilinguale Programme.',
       },
       {
         id: '11',
@@ -456,7 +456,7 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
 
   // Related Apps - FULL text from matching.md combine apps section
   relatedApps: {
-    sectionTitle: 'Kombinieren Sie Apps für umfassende Lehrplan-Bundles - Buchstaben lernen, Einmaleins und Deutsch Arbeitsblätter',
+    sectionTitle: 'Kombinieren Sie Apps für umfassende Lehrplan-Bundles - Buchstaben lernen, Einmaleins und Deutsch-Arbeitsblätter',
     sectionDescription: 'Das Core Bundle Abonnement beinhaltet zehn verschiedene Arbeitsblatt-Generator-Apps, die zusammenarbeiten, um vollständige Unterrichtspakete zu erstellen. Kombinieren Sie Zuordnungs-Generator mit anderen Generatoren für umfassende Lehrplan-Bundles. Erstellen Sie koordinierte Materialien über mehrere Arbeitsblatttypen hinweg. Generieren Sie thematische Pakete, die alle Fähigkeitsbereiche abdecken. Verkaufen Sie Multi-App-Bundles auf Eduki für höhere Preispunkte.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
@@ -476,7 +476,7 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
         name: 'Schwungübungen',
         category: 'Feinmotorik',
         icon: '✍️',
-        description: 'Erstellen Sie Schwungübungen für Schreibvorbereitung kombiniert mit Buchstaben-Zuordnung für vollständige Vorschule Arbeitsblätter.',
+        description: 'Erstellen Sie Schwungübungen für Schreibvorbereitung kombiniert mit Buchstaben-Zuordnung für vollständige Vorschul-Arbeitsblätter.',
       },
       {
         id: '2',
@@ -492,7 +492,7 @@ Erstellen Sie Produkte mit Einmaleins und Rechnen lernen Inhalten für Mathe-fok
         name: 'Wortsuche',
         category: 'Sprache',
         icon: '🔍',
-        description: 'Erweitern Sie Deutsch Arbeitsblätter mit Wortsuche-Puzzles für umfassendes Vokabeltraining.',
+        description: 'Erweitern Sie Deutsch-Arbeitsblätter mit Wortsuche-Puzzles für umfassendes Vokabeltraining.',
       },
       {
         id: '4',

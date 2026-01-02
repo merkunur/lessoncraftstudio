@@ -11,15 +11,15 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  *
  * German Keywords (from keywords.txt):
  * 1. Arbeitsblätter Grundschule
- * 2. Mathe Arbeitsblätter
- * 3. Vorschule Arbeitsblätter
+ * 2. Mathe-Arbeitsblätter
+ * 3. Vorschul-Arbeitsblätter
  * 4. Einmaleins
  * 5. Schwungübungen
  * 6. Buchstaben lernen
  * 7. Ausmalbilder / Malvorlagen
  * 8. Kostenlose Arbeitsblätter
  * 9. Rechnen lernen / Rechnen 1. Klasse
- * 10. Deutsch Arbeitsblätter
+ * 10. Deutsch-Arbeitsblätter
  */
 
 export const wordScrambleDeContent: ProductPageContent = {
@@ -27,7 +27,7 @@ export const wordScrambleDeContent: ProductPageContent = {
   seo: {
     slug: 'buchstabensalat-arbeitsblaetter',
     appId: 'word-scramble',
-    title: 'Buchstabensalat Generator - Kostenlose Arbeitsblätter Grundschule - Buchstaben lernen und Deutsch Arbeitsblätter',
+    title: 'Buchstabensalat Generator - Kostenlose Arbeitsblätter Grundschule - Buchstaben lernen und Deutsch-Arbeitsblätter',
     description: 'Erstellen Sie professionelle Buchstabensalat-Arbeitsblätter mit unserem Arbeitsblatt-Generator. Ihr Core Bundle Abonnement ermöglicht unbegrenzte Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie kostenlose Arbeitsblätter für Vorschule und Grundschule in wenigen Minuten.',
     keywords: 'buchstabensalat generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/buchstabensalat-arbeitsblaetter',
@@ -37,13 +37,13 @@ export const wordScrambleDeContent: ProductPageContent = {
   hero: {
     title: 'Buchstabensalat Generator',
     subtitle: 'Kostenlose Arbeitsblätter für Grundschule und Vorschule',
-    description: `Erstellen Sie professionelle Buchstabensalat-Arbeitsblätter mit unserem Arbeitsblatt-Generator. Ihr Core Bundle Abonnement ermöglicht unbegrenzte Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie kostenlose Arbeitsblätter für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule in wenigen Minuten. Laden Sie hochwertige PDF-Arbeitsblätter in unter 3 Minuten herunter.
+    description: `Erstellen Sie professionelle Buchstabensalat-Arbeitsblätter mit unserem Arbeitsblatt-Generator. Ihr Core Bundle Abonnement ermöglicht unbegrenzte Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie kostenlose Arbeitsblätter für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule in wenigen Minuten. Laden Sie hochwertige PDF-Arbeitsblätter in unter 3 Minuten herunter.
 
-Unser Buchstabensalat-Generator kombiniert Bildhinweise mit durcheinandergewürfelten Buchstaben. Perfekt für Deutsch Arbeitsblätter und Buchstaben lernen in der Grundschule. Kinder sehen ein Bild und ordnen die gemischten Buchstaben zum richtigen Wort. Die visuelle Unterstützung macht das Buchstaben lernen einfacher und motivierender.
+Unser Buchstabensalat-Generator kombiniert Bildhinweise mit durcheinandergewürfelten Buchstaben. Perfekt für Deutsch-Arbeitsblätter und Buchstaben lernen in der Grundschule. Kinder sehen ein Bild und ordnen die gemischten Buchstaben zum richtigen Wort. Die visuelle Unterstützung macht das Buchstaben lernen einfacher und motivierender.
 
-Der Generator funktioniert in 11 Sprachen. Die Bilddateinamen passen sich automatisch Ihrer gewählten Sprache an. Wenn Sie Deutsch wählen, verwendet die App deutsche Wörter für die Buchstabensalat-Rätsel. Dies macht unsere Arbeitsblätter Grundschule ideal für Deutschunterricht, Vorschule Arbeitsblätter und Sprachförderung.
+Der Generator funktioniert in 11 Sprachen. Die Bilddateinamen passen sich automatisch Ihrer gewählten Sprache an. Wenn Sie Deutsch wählen, verwendet die App deutsche Wörter für die Buchstabensalat-Rätsel. Dies macht unsere Arbeitsblätter Grundschule ideal für Deutschunterricht, Vorschul-Arbeitsblätter und Sprachförderung.
 
-Lehrer nutzen unseren Generator für Rechtschreibübungen, Wortschatzerweiterung und Buchstaben lernen. Die einstellbaren Schwierigkeitsgrade passen zu verschiedenen Klassenstufen. Von einfachen Vorschule Arbeitsblätter bis zu anspruchsvollen Deutsch Arbeitsblätter für die 3. Klasse. Erstellen Sie kostenlose Arbeitsblätter für jeden Lernbedarf.`,
+Lehrer nutzen unseren Generator für Rechtschreibübungen, Wortschatzerweiterung und Buchstaben lernen. Die einstellbaren Schwierigkeitsgrade passen zu verschiedenen Klassenstufen. Von einfachen Vorschul-Arbeitsblätter bis zu anspruchsvollen Deutsch-Arbeitsblätter für die 3. Klasse. Erstellen Sie kostenlose Arbeitsblätter für jeden Lernbedarf.`,
     previewImageSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
@@ -81,7 +81,7 @@ Lehrer nutzen unseren Generator für Rechtschreibübungen, Wortschatzerweiterung
         id: '1',
         worksheetSrc: '/samples/english/word scramble/word scramble portrait.jpeg',
         answerKeySrc: '/samples/english/word scramble/word scramble portrait answer-key.jpeg',
-        altText: 'Buchstabensalat im Hochformat mit thematischen Bildern für Vorschule Arbeitsblätter und Wortschatztraining',
+        altText: 'Buchstabensalat im Hochformat mit thematischen Bildern für Vorschul-Arbeitsblätter und Wortschatztraining',
         pdfDownloadUrl: '/samples/english/word scramble/word scramble portrait.pdf',
       },
       {
@@ -95,7 +95,7 @@ Lehrer nutzen unseren Generator für Rechtschreibübungen, Wortschatzerweiterung
         id: '3',
         worksheetSrc: '/samples/english/word scramble/custom word list.jpeg',
         answerKeySrc: '/samples/english/word scramble/custom word list answer-key.jpeg',
-        altText: 'Buchstabensalat mit eigener Wortliste für Rechtschreibübungen und Deutsch Arbeitsblätter',
+        altText: 'Buchstabensalat mit eigener Wortliste für Rechtschreibübungen und Deutsch-Arbeitsblätter',
         pdfDownloadUrl: '/samples/english/word scramble/custom word list.pdf',
       },
     ],
@@ -103,8 +103,8 @@ Lehrer nutzen unseren Generator für Rechtschreibübungen, Wortschatzerweiterung
 
   // Features Grid - FULL text from word-scramble.md feature sections
   features: {
-    sectionTitle: 'Buchstabensalat-Generator Funktionen - Alles für Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
-    sectionDescription: 'Unser Buchstabensalat-Generator bietet alle Funktionen für professionelle kostenlose Arbeitsblätter. Von Vorschule Arbeitsblätter bis Deutsch Arbeitsblätter für die 3. Klasse. Erstellen Sie Arbeitsblätter Grundschule für Buchstaben lernen, Mathe Arbeitsblätter und Ausmalbilder. Jede Funktion wurde für Lehrer entwickelt, die hochwertige kostenlose Arbeitsblätter benötigen. Die Kombination aus Bildunterstützung und Buchstabensalat macht das Buchstaben lernen effektiver. Kinder sehen das Bild und ordnen die Buchstaben. Dies unterstützt Deutsch Arbeitsblätter, Vorschule Arbeitsblätter und frühes Lesen.',
+    sectionTitle: 'Buchstabensalat-Generator Funktionen - Alles für Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter',
+    sectionDescription: 'Unser Buchstabensalat-Generator bietet alle Funktionen für professionelle kostenlose Arbeitsblätter. Von Vorschul-Arbeitsblätter bis Deutsch-Arbeitsblätter für die 3. Klasse. Erstellen Sie Arbeitsblätter Grundschule für Buchstaben lernen, Mathe-Arbeitsblätter und Ausmalbilder. Jede Funktion wurde für Lehrer entwickelt, die hochwertige kostenlose Arbeitsblätter benötigen. Die Kombination aus Bildunterstützung und Buchstabensalat macht das Buchstaben lernen effektiver. Kinder sehen das Bild und ordnen die Buchstaben. Dies unterstützt Deutsch-Arbeitsblätter, Vorschul-Arbeitsblätter und frühes Lesen.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
@@ -121,20 +121,20 @@ Lehrer nutzen unseren Generator für Rechtschreibübungen, Wortschatzerweiterung
         title: 'Erstellen Sie Arbeitsblätter Grundschule in 3 Klicks - Schneller Generator für Kostenlose Arbeitsblätter',
         description: `Buchstabensalat-Arbeitsblätter in drei einfachen Schritten erstellen. Wählen Sie Bilder aus der Bibliothek. Passen Sie Schwierigkeit und Layout an. Generieren Sie Ihr Arbeitsblatt. Der gesamte Prozess dauert unter 3 Minuten. Keine Designkenntnisse erforderlich für kostenlose Arbeitsblätter.
 
-Die intuitive Benutzeroberfläche macht die Erstellung einfach. Lehrer ohne technische Erfahrung erstellen professionelle Arbeitsblätter Grundschule. Von Vorschule Arbeitsblätter bis Deutsch Arbeitsblätter für höhere Klassen. Der Generator führt Sie durch jeden Schritt. Klicken, anpassen, herunterladen. So einfach erstellen Sie kostenlose Arbeitsblätter.
+Die intuitive Benutzeroberfläche macht die Erstellung einfach. Lehrer ohne technische Erfahrung erstellen professionelle Arbeitsblätter Grundschule. Von Vorschul-Arbeitsblätter bis Deutsch-Arbeitsblätter für höhere Klassen. Der Generator führt Sie durch jeden Schritt. Klicken, anpassen, herunterladen. So einfach erstellen Sie kostenlose Arbeitsblätter.
 
-Wählen Sie aus über 3000 Bildern für Ihre Buchstabensalat-Rätsel. Themen umfassen Tiere, Essen, Jahreszeiten und Schulmaterialien. Jedes Bild funktioniert perfekt für Arbeitsblätter Grundschule. Die Bildnamen passen sich automatisch der deutschen Sprache an. Erstellen Sie Vorschule Arbeitsblätter und Deutsch Arbeitsblätter mit nur drei Klicks.`,
+Wählen Sie aus über 3000 Bildern für Ihre Buchstabensalat-Rätsel. Themen umfassen Tiere, Essen, Jahreszeiten und Schulmaterialien. Jedes Bild funktioniert perfekt für Arbeitsblätter Grundschule. Die Bildnamen passen sich automatisch der deutschen Sprache an. Erstellen Sie Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter mit nur drei Klicks.`,
         highlighted: false,
       },
       {
         id: '2',
         icon: '✏️',
-        title: 'Vollständige Bearbeitbarkeit für Vorschule Arbeitsblätter und Deutsch Arbeitsblätter',
+        title: 'Vollständige Bearbeitbarkeit für Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter',
         description: `Jedes Element auf dem Arbeitsblatt ist vollständig bearbeitbar. Verschieben Sie Bilder, Texte und Buchstaben nach der Generierung. Drehen, skalieren und positionieren Sie alle Objekte. Passen Sie Farben, Schriftarten und Größen an. Diese Flexibilität macht unsere kostenlose Arbeitsblätter einzigartig.
 
 Die Canvas-Bearbeitung funktioniert intuitiv per Drag-and-Drop. Klicken Sie auf ein Objekt und verschieben Sie es. Ziehen Sie an den Ecken zum Vergrößern oder Verkleinern. Drehen Sie mit dem Drehgriff. Löschen Sie unerwünschte Elemente mit einem Klick. Erstellen Sie perfekt angepasste Arbeitsblätter Grundschule für Ihre Klasse.
 
-Fügen Sie eigene Textelemente hinzu. Schreiben Sie Anweisungen in Ihrer bevorzugten Schriftart. Ändern Sie Textfarben für bessere Lesbarkeit. Passen Sie Schriftgrößen für verschiedene Altersgruppen an. Von großen Buchstaben für Vorschule Arbeitsblätter bis zu kleineren Texten für Deutsch Arbeitsblätter der 3. Klasse.
+Fügen Sie eigene Textelemente hinzu. Schreiben Sie Anweisungen in Ihrer bevorzugten Schriftart. Ändern Sie Textfarben für bessere Lesbarkeit. Passen Sie Schriftgrößen für verschiedene Altersgruppen an. Von großen Buchstaben für Vorschul-Arbeitsblätter bis zu kleineren Texten für Deutsch-Arbeitsblätter der 3. Klasse.
 
 Die Ebenen-Funktionen ermöglichen präzise Gestaltung. Bringen Sie wichtige Elemente nach vorne. Senden Sie Hintergrundbilder nach hinten. Richten Sie Objekte horizontal oder vertikal aus. Diese professionellen Tools machen Ihre kostenlose Arbeitsblätter druckreif.`,
         highlighted: false,
@@ -143,37 +143,37 @@ Die Ebenen-Funktionen ermöglichen präzise Gestaltung. Bringen Sie wichtige Ele
         id: '3',
         icon: '📤',
         title: 'Laden Sie Eigene Bilder Hoch für Personalisierte Kostenlose Arbeitsblätter',
-        description: `Laden Sie Ihre eigenen Bilder für individuelle Buchstabensalat-Rätsel hoch. Mehrfach-Upload unterstützt JPEG, PNG und GIF. Kombinieren Sie Bibliotheksbilder mit Ihren eigenen Fotos. Perfekt für themenspezifische Vorschule Arbeitsblätter und Deutsch Arbeitsblätter.
+        description: `Laden Sie Ihre eigenen Bilder für individuelle Buchstabensalat-Rätsel hoch. Mehrfach-Upload unterstützt JPEG, PNG und GIF. Kombinieren Sie Bibliotheksbilder mit Ihren eigenen Fotos. Perfekt für themenspezifische Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter.
 
 Die Upload-Funktion ermöglicht unbegrenzte Personalisierung. Laden Sie Fotos Ihrer Schüler hoch für Namensübungen. Nutzen Sie Klassenfotos für motivierende Arbeitsblätter Grundschule. Fügen Sie lokale Wahrzeichen für Heimatkunde hinzu. Ihre Kreativität bestimmt die Möglichkeiten für kostenlose Arbeitsblätter.
 
-Hochgeladene Bilder funktionieren wie Bibliotheksbilder. Bearbeiten Sie die Bildnamen für korrekte Wörter. Die App generiert Buchstabensalat basierend auf Ihren Namen. Erstellen Sie Vokabelübungen für Deutsch Arbeitsblätter mit spezifischen Wörtern. Oder laden Sie Symbole für Mathe Arbeitsblätter hoch.
+Hochgeladene Bilder funktionieren wie Bibliotheksbilder. Bearbeiten Sie die Bildnamen für korrekte Wörter. Die App generiert Buchstabensalat basierend auf Ihren Namen. Erstellen Sie Vokabelübungen für Deutsch-Arbeitsblätter mit spezifischen Wörtern. Oder laden Sie Symbole für Mathe-Arbeitsblätter hoch.
 
-Die kombinierten Bilder aus Bibliothek und Upload erweitern Ihre Optionen. Erstellen Sie thematische Einheiten mit passenden Bildern. Kombinieren Sie allgemeine Vokabeln mit fachspezifischen Begriffen. Ihre Vorschule Arbeitsblätter und Arbeitsblätter Grundschule werden einzigartig und relevant für Ihre Schüler.`,
+Die kombinierten Bilder aus Bibliothek und Upload erweitern Ihre Optionen. Erstellen Sie thematische Einheiten mit passenden Bildern. Kombinieren Sie allgemeine Vokabeln mit fachspezifischen Begriffen. Ihre Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule werden einzigartig und relevant für Ihre Schüler.`,
         highlighted: false,
       },
       {
         id: '4',
         icon: '🌍',
-        title: '11 Sprachen für Deutsch Arbeitsblätter, Buchstaben Lernen und Mehrsprachige Arbeitsblätter Grundschule',
-        description: `Der Generator funktioniert in 11 Sprachen perfekt. Wählen Sie Deutsch und alle Bildnamen wechseln zu deutschen Wörtern. Dies macht echte Deutsch Arbeitsblätter möglich, nicht nur übersetzte Oberflächen. Die Buchstabensalat-Rätsel verwenden korrekte deutsche Vokabeln.
+        title: '11 Sprachen für Deutsch-Arbeitsblätter, Buchstaben Lernen und Mehrsprachige Arbeitsblätter Grundschule',
+        description: `Der Generator funktioniert in 11 Sprachen perfekt. Wählen Sie Deutsch und alle Bildnamen wechseln zu deutschen Wörtern. Dies macht echte Deutsch-Arbeitsblätter möglich, nicht nur übersetzte Oberflächen. Die Buchstabensalat-Rätsel verwenden korrekte deutsche Vokabeln.
 
 Mehrsprachigkeit ist besonders wichtig für Sprachunterricht. Erstellen Sie Englisch-Vokabelübungen durch Sprachwechsel. Vergleichen Sie Wörter in verschiedenen Sprachen. Perfekt für Grundschulen mit DaZ-Unterricht. Ihre kostenlose Arbeitsblätter unterstützen Zweitsprachenerwerb effektiv.
 
 Die 11 unterstützten Sprachen sind Deutsch, Englisch, Französisch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Dänisch, Schwedisch, Norwegisch und Finnisch. Jede Sprache nutzt muttersprachliche Bildnamen. Wechseln Sie die Sprache in den Einstellungen. Generieren Sie sofort authentische Arbeitsblätter Grundschule in der gewählten Sprache.
 
-Internationale Schulen schätzen diese Funktion besonders. Erstellen Sie Vorschule Arbeitsblätter für verschiedene Sprachgruppen. Ein Klick ändert alle Inhalte zur Zielsprache. Dies spart enorme Zeit bei der Erstellung mehrsprachiger kostenlose Arbeitsblätter. Buchstaben lernen funktioniert in jeder unterstützten Sprache authentisch.`,
+Internationale Schulen schätzen diese Funktion besonders. Erstellen Sie Vorschul-Arbeitsblätter für verschiedene Sprachgruppen. Ein Klick ändert alle Inhalte zur Zielsprache. Dies spart enorme Zeit bei der Erstellung mehrsprachiger kostenlose Arbeitsblätter. Buchstaben lernen funktioniert in jeder unterstützten Sprache authentisch.`,
         highlighted: false,
       },
       {
         id: '5',
         icon: '💰',
-        title: 'POD-Lizenz für Verkauf von Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Ausmalbilder',
+        title: 'POD-Lizenz für Verkauf von Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter und Ausmalbilder',
         description: `Ihre Core Bundle Mitgliedschaft beinhaltet volle kommerzielle Print-on-Demand Lizenz. Verkaufen Sie Ihre erstellten Arbeitsblätter auf Etsy, Teachers Pay Teachers oder Amazon KDP. Keine zusätzlichen Lizenzgebühren über Ihr Abonnement hinaus. Perfekt für Lehrerunternehmer.
 
-Die POD-Lizenz deckt alle Nutzungsarten ab. Verkaufen Sie einzelne Arbeitsblätter Grundschule als PDF-Downloads. Bündeln Sie thematische Vorschule Arbeitsblätter zu Paketen. Erstellen Sie Arbeitsbuch-PDFs mit mehreren Übungsseiten. Kombinieren Sie Deutsch Arbeitsblätter mit Ausmalbilder für umfassende Lernpakete.
+Die POD-Lizenz deckt alle Nutzungsarten ab. Verkaufen Sie einzelne Arbeitsblätter Grundschule als PDF-Downloads. Bündeln Sie thematische Vorschul-Arbeitsblätter zu Paketen. Erstellen Sie Arbeitsbuch-PDFs mit mehreren Übungsseiten. Kombinieren Sie Deutsch-Arbeitsblätter mit Ausmalbilder für umfassende Lernpakete.
 
-Lehrer erzielen regelmäßiges Einkommen durch Arbeitsblatt-Verkauf. Erstellen Sie jahreszeitliche Pakete für passive Einnahmen. Weihnachts-Buchstabensalat, Oster-Vorschule Arbeitsblätter, Schulanfangs-Deutsch Arbeitsblätter. Die 300 DPI Qualität macht Ihre kostenlose Arbeitsblätter verkaufsfähig professionell.
+Lehrer erzielen regelmäßiges Einkommen durch Arbeitsblatt-Verkauf. Erstellen Sie jahreszeitliche Pakete für passive Einnahmen. Weihnachts-Buchstabensalat, Oster-Vorschul-Arbeitsblätter, Schulanfangs-Deutsch-Arbeitsblätter. Die 300 DPI Qualität macht Ihre kostenlose Arbeitsblätter verkaufsfähig professionell.
 
 Die kommerziellen Rechte ohne Zusatzkosten sind ein enormer Wert. Andere Plattformen berechnen 50-200 Euro jährlich extra für Verkaufslizenzen. Mit Core Bundle ist alles inklusive. Erstellen Sie unbegrenzt Arbeitsblätter Grundschule zum Verkauf. Keine Mengenbegrenzung, keine Umsatzbeteiligung.`,
         highlighted: true,
@@ -184,9 +184,9 @@ Die kommerziellen Rechte ohne Zusatzkosten sind ein enormer Wert. Andere Plattfo
         title: '3000+ Bilderbibliothek für Buchstaben Lernen, Ausmalbilder und Kostenlose Arbeitsblätter',
         description: `Zugriff auf über 3000 kinderfreundliche Bilder inklusive. Organisiert nach Themen für schnelle Auswahl. Tiere, Essen, Fahrzeuge, Natur, Schule und mehr. Jedes Bild perfekt für Buchstaben lernen und Wortschatzaufbau. Alle in Ihrem Core Bundle enthalten.
 
-Die thematische Organisation beschleunigt die Arbeitsblatt-Erstellung. Wählen Sie das Thema "Bauernhof" für Tier-Vokabeln. Nutzen Sie "Lebensmittel" für Ernährungslehre. Kombinieren Sie mehrere Themen in einem Arbeitsblatt. Erstellen Sie abwechslungsreiche Vorschule Arbeitsblätter und Arbeitsblätter Grundschule.
+Die thematische Organisation beschleunigt die Arbeitsblatt-Erstellung. Wählen Sie das Thema "Bauernhof" für Tier-Vokabeln. Nutzen Sie "Lebensmittel" für Ernährungslehre. Kombinieren Sie mehrere Themen in einem Arbeitsblatt. Erstellen Sie abwechslungsreiche Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule.
 
-Suchfunktion findet spezifische Bilder schnell. Tippen Sie "Apfel" und sehen Sie alle Apfelbilder. Dies spart Zeit bei der Erstellung thematischer kostenlose Arbeitsblätter. Kombinieren Sie Bildauswahl mit Themenwahl für maximale Effizienz. Ihre Deutsch Arbeitsblätter entstehen in Minuten statt Stunden.
+Suchfunktion findet spezifische Bilder schnell. Tippen Sie "Apfel" und sehen Sie alle Apfelbilder. Dies spart Zeit bei der Erstellung thematischer kostenlose Arbeitsblätter. Kombinieren Sie Bildauswahl mit Themenwahl für maximale Effizienz. Ihre Deutsch-Arbeitsblätter entstehen in Minuten statt Stunden.
 
 Alle Bilder sind qualitätsgeprüft und kindgerecht. Klare Linien für einfache Erkennung. Ansprechende Farben ohne Ablenkung. Altersgerechte Darstellung für Vorschule bis 3. Klasse. Die Bibliothek wächst regelmäßig mit neuen Bildern. Ihr Abonnement beinhaltet alle zukünftigen Ergänzungen für kostenlose Arbeitsblätter.`,
         highlighted: true,
@@ -194,10 +194,10 @@ Alle Bilder sind qualitätsgeprüft und kindgerecht. Klare Linien für einfache 
       {
         id: '7',
         icon: '🖨️',
-        title: 'Professionelle 300 DPI Qualität für Druckfähige Arbeitsblätter Grundschule und Deutsch Arbeitsblätter',
+        title: 'Professionelle 300 DPI Qualität für Druckfähige Arbeitsblätter Grundschule und Deutsch-Arbeitsblätter',
         description: `Alle Downloads in gestochen scharfer 300 DPI Auflösung. Perfekt für Heimdrucker und professionellen Druck. PDF und JPEG Formate verfügbar. Ihre Arbeitsblätter Grundschule sehen gedruckt genauso gut aus wie am Bildschirm.
 
-Die hohe Auflösung macht den Unterschied für Verkauf. Kunden erwarten druckfertige Qualität bei kostenpflichtigen Vorschule Arbeitsblätter. 300 DPI ist Industriestandard für professionelle Druckerzeugnisse. Ihre Deutsch Arbeitsblätter erfüllen höchste Qualitätsansprüche.
+Die hohe Auflösung macht den Unterschied für Verkauf. Kunden erwarten druckfertige Qualität bei kostenpflichtigen Vorschul-Arbeitsblätter. 300 DPI ist Industriestandard für professionelle Druckerzeugnisse. Ihre Deutsch-Arbeitsblätter erfüllen höchste Qualitätsansprüche.
 
 Graustufen-Option spart Tinte beim Drucken. Konvertieren Sie farbige Arbeitsblätter zu Schwarz-Weiß. Perfekt für Schulen mit begrenzten Druckbudgets. Die Graustufen-Version erhält alle Details. Buchstaben bleiben klar lesbar. Bilder erkennbar. Ihre kostenlose Arbeitsblätter bleiben effektiv in Farbe oder Graustufen.
 
@@ -209,8 +209,8 @@ PDF-Format sichert konsistente Darstellung auf allen Geräten. Schüler drucken 
 
   // How-To Guide - FULL text from word-scramble.md step sections
   howTo: {
-    sectionTitle: 'So Erstellen Sie Kostenlose Arbeitsblätter in 5 Einfachen Schritten - Von Vorschule Arbeitsblätter bis Deutsch Arbeitsblätter',
-    sectionDescription: 'Buchstabensalat-Arbeitsblätter in unter 3 Minuten erstellen. Keine Vorkenntnisse erforderlich. Der Generator führt Sie durch jeden Schritt. Von Bildauswahl bis zum fertigen PDF. Erstellen Sie Arbeitsblätter Grundschule schneller als je zuvor. Die fünf Schritte funktionieren für alle Arbeitsblatttypen. Ob Vorschule Arbeitsblätter für Buchstaben lernen oder Deutsch Arbeitsblätter für Wortschatz. Der Prozess bleibt gleich einfach.',
+    sectionTitle: 'So Erstellen Sie Kostenlose Arbeitsblätter in 5 Einfachen Schritten - Von Vorschul-Arbeitsblätter bis Deutsch-Arbeitsblätter',
+    sectionDescription: 'Buchstabensalat-Arbeitsblätter in unter 3 Minuten erstellen. Keine Vorkenntnisse erforderlich. Der Generator führt Sie durch jeden Schritt. Von Bildauswahl bis zum fertigen PDF. Erstellen Sie Arbeitsblätter Grundschule schneller als je zuvor. Die fünf Schritte funktionieren für alle Arbeitsblatttypen. Ob Vorschul-Arbeitsblätter für Buchstaben lernen oder Deutsch-Arbeitsblätter für Wortschatz. Der Prozess bleibt gleich einfach.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
     stepLabel: 'Schritt',
@@ -224,14 +224,14 @@ PDF-Format sichert konsistente Darstellung auf allen Geräten. Schüler drucken 
       {
         id: '1',
         number: 1,
-        title: 'Wählen Sie Inhalte für Arbeitsblätter Grundschule - Bilder, Mathe Arbeitsblätter oder Vorschule Arbeitsblätter Themen',
+        title: 'Wählen Sie Inhalte für Arbeitsblätter Grundschule - Bilder, Mathe-Arbeitsblätter oder Vorschul-Arbeitsblätter Themen',
         description: `Beginnen Sie mit der Inhaltsauswahl aus drei Optionen. Wählen Sie Bilder aus der 3000+ Bibliothek. Laden Sie eigene Bilder hoch. Oder verwenden Sie die benutzerdefinierte Wortliste. Jede Option perfekt für verschiedene Arbeitsblätter Grundschule Bedürfnisse.
 
-Die Themenwahl beschleunigt Bildauswahl erheblich. Klicken Sie "Tiere" für Tiervokabular-Übungen. Wählen Sie "Essen" für Ernährungslehre-Arbeitsblätter. Kombinieren Sie Themen für abwechslungsreiche Vorschule Arbeitsblätter. Jedes Thema enthält dutzende altersgerechte Bilder für kostenlose Arbeitsblätter.
+Die Themenwahl beschleunigt Bildauswahl erheblich. Klicken Sie "Tiere" für Tiervokabular-Übungen. Wählen Sie "Essen" für Ernährungslehre-Arbeitsblätter. Kombinieren Sie Themen für abwechslungsreiche Vorschul-Arbeitsblätter. Jedes Thema enthält dutzende altersgerechte Bilder für kostenlose Arbeitsblätter.
 
-Die Suchfunktion findet spezifische Bilder blitzschnell. Tippen Sie "Ball" für alle Ballbilder. Suchen Sie "Baum" für Naturthemen. Die Suche durchsucht deutsche Bildnamen automatisch. Perfekt für gezielte Deutsch Arbeitsblätter und Buchstaben lernen Übungen.
+Die Suchfunktion findet spezifische Bilder blitzschnell. Tippen Sie "Ball" für alle Ballbilder. Suchen Sie "Baum" für Naturthemen. Die Suche durchsucht deutsche Bildnamen automatisch. Perfekt für gezielte Deutsch-Arbeitsblätter und Buchstaben lernen Übungen.
 
-Eigene Bilder hochladen für maximale Personalisierung. Fotografieren Sie Klassenzimmerobjekte für relevante Vokabeln. Nutzen Sie Schülerzeichnungen für motivierende Arbeitsblätter. Laden Sie Symbole für Mathe Arbeitsblätter hoch. Die Upload-Funktion akzeptiert mehrere Dateien gleichzeitig.
+Eigene Bilder hochladen für maximale Personalisierung. Fotografieren Sie Klassenzimmerobjekte für relevante Vokabeln. Nutzen Sie Schülerzeichnungen für motivierende Arbeitsblätter. Laden Sie Symbole für Mathe-Arbeitsblätter hoch. Die Upload-Funktion akzeptiert mehrere Dateien gleichzeitig.
 
 Die benutzerdefinierte Wortliste umgeht Bilder komplett. Geben Sie wöchentliche Rechtschreibwörter direkt ein. Erstellen Sie textbasierte Buchstabensalat ohne Bildhinweise. Ideal für ältere Schüler oder Schwungübungen zum Schreibenlernen. Bis zu 8 Wörter pro Arbeitsblatt möglich.
 
@@ -241,14 +241,14 @@ Kombinieren Sie Bibliotheksbilder mit hochgeladenen Bildern frei. Dies erweitert
       {
         id: '2',
         number: 2,
-        title: 'Passen Sie Einstellungen für Vorschule Arbeitsblätter und Mathe Arbeitsblätter an - Schwierigkeit und Layout',
+        title: 'Passen Sie Einstellungen für Vorschul-Arbeitsblätter und Mathe-Arbeitsblätter an - Schwierigkeit und Layout',
         description: `Wählen Sie die Anzahl der Rätsel pro Seite. 1-10 Buchstabensalat-Übungen möglich. Mehr Rätsel für kompakte Arbeitsblätter Grundschule. Weniger Rätsel für größere Bilder und Buchstaben. Passen Sie an Klassenstufe und Zeit an.
 
-Die Schwierigkeitseinstellung macht Arbeitsblätter differenzierbar. "Keine Hinweise" für fortgeschrittene Schüler - alle Buchstaben durcheinander. "Leicht" zeigt die Hälfte der Buchstaben an richtiger Position. "Normal" enthüllt ein Viertel. "Schwer" zeigt ein Sechstel. Perfekt für Vorschule Arbeitsblätter bis 3. Klasse.
+Die Schwierigkeitseinstellung macht Arbeitsblätter differenzierbar. "Keine Hinweise" für fortgeschrittene Schüler - alle Buchstaben durcheinander. "Leicht" zeigt die Hälfte der Buchstaben an richtiger Position. "Normal" enthüllt ein Viertel. "Schwer" zeigt ein Sechstel. Perfekt für Vorschul-Arbeitsblätter bis 3. Klasse.
 
-Buchstabenformat zwischen Groß- und Kleinbuchstaben wählen. Großbuchstaben für Vorschule Arbeitsblätter und Anfänger. Kleinbuchstaben für fortgeschrittene Deutsch Arbeitsblätter. Die Wahl beeinflusst Schwierigkeit erheblich. Kleinbuchstaben sind anspruchsvoller für junge Lerner.
+Buchstabenformat zwischen Groß- und Kleinbuchstaben wählen. Großbuchstaben für Vorschul-Arbeitsblätter und Anfänger. Kleinbuchstaben für fortgeschrittene Deutsch-Arbeitsblätter. Die Wahl beeinflusst Schwierigkeit erheblich. Kleinbuchstaben sind anspruchsvoller für junge Lerner.
 
-Farbcodierung hilft beim Buchstaben lernen visuell. "Farbcodiert" zeigt Vokale und Konsonanten in verschiedenen Farben. Dies unterstützt Phonetikverständnis in Deutsch Arbeitsblätter. "Alles Schwarz" für traditionelle Arbeitsblätter ohne Farbhilfe. Wählen Sie basierend auf Lernzielen.
+Farbcodierung hilft beim Buchstaben lernen visuell. "Farbcodiert" zeigt Vokale und Konsonanten in verschiedenen Farben. Dies unterstützt Phonetikverständnis in Deutsch-Arbeitsblätter. "Alles Schwarz" für traditionelle Arbeitsblätter ohne Farbhilfe. Wählen Sie basierend auf Lernzielen.
 
 Seitenformat zwischen Hochformat und Querformat wählen. Letter oder A4 Größen verfügbar. Benutzerdefinierte Größen für spezielle Bedürfnisse. Hochformat Standard für die meisten Arbeitsblätter Grundschule. Querformat für breite Layouts mit vielen Bildern.
 
@@ -258,14 +258,14 @@ Name-Datum-Zeile optional hinzufügen am Seitenanfang. Praktisch für Klassenorg
       {
         id: '3',
         number: 3,
-        title: 'Generieren Sie Deutsch Arbeitsblätter und Kostenlose Arbeitsblätter - Sofortige Vorschau',
+        title: 'Generieren Sie Deutsch-Arbeitsblätter und Kostenlose Arbeitsblätter - Sofortige Vorschau',
         description: `Klicken Sie "Erstellen" für sofortige Arbeitsblatt-Generierung. Die App erstellt Ihr Buchstabensalat-Arbeitsblatt in Sekunden. Alle ausgewählten Bilder werden eingebunden. Buchstaben automatisch gemischt nach Schwierigkeitsgrad. Professionelles Layout ohne manuelles Design.
 
 Die Vorschau zeigt das vollständige Arbeitsblatt sofort. Überprüfen Sie Layout und Buchstabenanordnung. Stellen Sie sicher alle gewünschten Bilder enthalten sind. Die Vorschau entspricht exakt dem gedruckten Ergebnis. Was Sie sehen ist was Schüler bekommen.
 
 Nicht zufrieden mit dem ersten Versuch? Klicken Sie erneut "Erstellen" für neue Anordnung. Die Buchstaben werden neu gemischt. Bildpositionen ändern sich. Jede Generierung erstellt einzigartige Arbeitsblätter Grundschule. Keine zwei Arbeitsblätter sind identisch.
 
-Der Antwortschlüssel wird automatisch mitvorbereitet. Zeigt alle Wörter in korrekter Reihenfolge. Identisches Layout wie das Arbeitsblatt. Separat herunterladbar für Lehrernutzung. Spart Zeit bei Korrektur von Vorschule Arbeitsblätter und Deutsch Arbeitsblätter.
+Der Antwortschlüssel wird automatisch mitvorbereitet. Zeigt alle Wörter in korrekter Reihenfolge. Identisches Layout wie das Arbeitsblatt. Separat herunterladbar für Lehrernutzung. Spart Zeit bei Korrektur von Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter.
 
 Die Vorschau funktioniert auf allen Geräten perfekt. Desktop, Tablet oder Smartphone zeigen identische Ansicht. Erstellen Sie kostenlose Arbeitsblätter überall. Zu Hause, in der Schule oder unterwegs. Der webbasierte Generator erfordert keine Installation.
 
@@ -275,37 +275,37 @@ Zoom-Funktion ermöglicht detaillierte Inspektion vor Download. Vergrößern Sie
       {
         id: '4',
         number: 4,
-        title: 'Bearbeiten Sie Arbeitsblätter Grundschule auf der Arbeitsfläche - Vollständige Anpassung für Mathe Arbeitsblätter und Ausmalbilder',
+        title: 'Bearbeiten Sie Arbeitsblätter Grundschule auf der Arbeitsfläche - Vollständige Anpassung für Mathe-Arbeitsblätter und Ausmalbilder',
         description: `Nach Generierung beginnt echte Anpassung auf der Arbeitsfläche. Klicken Sie jedes Element zum Auswählen. Verschieben Sie durch Ziehen. Größe ändern an Ecken. Drehen mit Drehgriff. Vollständige Kontrolle über jedes Detail.
 
 Verschieben Sie Bilder für besseres Layout. Ordnen Sie Buchstabensalat-Rätsel neu an. Passen Sie Abstände zwischen Elementen an. Dies garantiert perfekte Arbeitsblätter Grundschule für Ihre Anforderungen. Jedes Arbeitsblatt wird individuell optimiert.
 
-Fügen Sie zusätzliche Textelemente nach Bedarf hinzu. Schreiben Sie spezifische Anweisungen für Ihre Klasse. Fügen Sie Motivationstext hinzu für Vorschule Arbeitsblätter. Ändern Sie Schriftarten für bessere Lesbarkeit. Passen Sie Textfarben an Ihr Farbschema an.
+Fügen Sie zusätzliche Textelemente nach Bedarf hinzu. Schreiben Sie spezifische Anweisungen für Ihre Klasse. Fügen Sie Motivationstext hinzu für Vorschul-Arbeitsblätter. Ändern Sie Schriftarten für bessere Lesbarkeit. Passen Sie Textfarben an Ihr Farbschema an.
 
-Die Textbearbeitung bietet professionelle Typografie-Optionen. Wählen Sie aus mehreren kinderfreundlichen Schriftarten. Passen Sie Schriftgröße von 8 bis 200 Punkt an. Fügen Sie Textumrisse für bessere Sichtbarkeit hinzu. Diese Tools erstellen druckfertige Deutsch Arbeitsblätter.
+Die Textbearbeitung bietet professionelle Typografie-Optionen. Wählen Sie aus mehreren kinderfreundlichen Schriftarten. Passen Sie Schriftgröße von 8 bis 200 Punkt an. Fügen Sie Textumrisse für bessere Sichtbarkeit hinzu. Diese Tools erstellen druckfertige Deutsch-Arbeitsblätter.
 
 Hintergründe und Rahmen fügen visuelles Interesse hinzu. Wählen Sie thematische Hintergründe aus der Bibliothek. Fügen Sie dekorative Rahmen für ansprechende kostenlose Arbeitsblätter hinzu. Passen Sie Deckkraft für subtile Effekte an. Hintergründe überwältigen Inhalte nicht.
 
 Ebenen-Werkzeuge organisieren überlappende Elemente präzise. Bringen Sie wichtige Texte nach vorne. Senden Sie Hintergrundbilder nach hinten. Ausrichtungswerkzeuge positionieren Elemente perfekt. Diese professionellen Funktionen heben Ihre Arbeitsblätter Grundschule hervor.
 
-Rückgängig- und Wiederherstellen-Funktionen ermöglichen risikofreies Experimentieren. Probieren Sie verschiedene Layouts ohne Angst. Kehren Sie jederzeit zu vorherigen Versionen zurück. Dies fördert kreative Gestaltung von Vorschule Arbeitsblätter. Erstellen Sie das perfekte Design durch Iteration.`,
+Rückgängig- und Wiederherstellen-Funktionen ermöglichen risikofreies Experimentieren. Probieren Sie verschiedene Layouts ohne Angst. Kehren Sie jederzeit zu vorherigen Versionen zurück. Dies fördert kreative Gestaltung von Vorschul-Arbeitsblätter. Erstellen Sie das perfekte Design durch Iteration.`,
         icon: '✏️',
       },
       {
         id: '5',
         number: 5,
-        title: 'Laden Sie Kostenlose Arbeitsblätter Herunter - PDF und JPEG für Vorschule Arbeitsblätter und Deutsch Arbeitsblätter',
+        title: 'Laden Sie Kostenlose Arbeitsblätter Herunter - PDF und JPEG für Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter',
         description: `Wählen Sie Download-Format für Ihre Bedürfnisse. PDF für Druck zu Hause oder in Schule. JPEG für digitale Nutzung auf Tablets. Beide Formate in professioneller 300 DPI Auflösung. Arbeitsblätter Grundschule sehen gedruckt perfekt aus.
 
 Arbeitsblatt und Antwortschlüssel getrennt herunterladbar. Drucken Sie Arbeitsblätter für Schüler. Behalten Sie Antwortschlüssel für sich. Oder teilen Sie Antwortschlüssel für Selbstkontrolle. Flexibilität für verschiedene Unterrichtsmethoden mit kostenlose Arbeitsblätter.
 
 Die Graustufen-Option spart Druckertinte erheblich. Konvertieren Sie farbige Arbeitsblätter zu Schwarz-Weiß automatisch. Perfekt für Schulen mit limitierten Druckbudgets. Graustufen erhält alle Bilddetails und Lesbarkeit. Kinder erkennen Bilder problemlos auch ohne Farbe.
 
-PDF-Download sichert konsistente Formatierung überall. Öffnen Sie auf Windows, Mac oder Tablets identisch. Drucken Sie ohne Layoutverschiebungen oder Formatprobleme. PDF ist ideal für Vorschule Arbeitsblätter zum Verteilen. Schüler zu Hause drucken exakt Ihre Version.
+PDF-Download sichert konsistente Formatierung überall. Öffnen Sie auf Windows, Mac oder Tablets identisch. Drucken Sie ohne Layoutverschiebungen oder Formatprobleme. PDF ist ideal für Vorschul-Arbeitsblätter zum Verteilen. Schüler zu Hause drucken exakt Ihre Version.
 
 JPEG-Format perfekt für digitale Klassenzimmer. Fügen Sie in Google Classroom oder andere LMS ein. Zeigen Sie auf Smartboards während des Unterrichts. Schüler öffnen auf iPads für digitale Vervollständigung. JPEG funktioniert überall wo Bilder unterstützt werden.
 
-Unbegrenzte Downloads ohne zusätzliche Kosten inklusive. Erstellen Sie so viele Arbeitsblätter Grundschule wie benötigt. Drucken Sie für ganze Klassen. Erstellen Sie Kopien für mehrere Schuljahre. Ihr Core Bundle Abonnement deckt alles ab. Keine versteckten Gebühren für Downloads von Deutsch Arbeitsblätter.
+Unbegrenzte Downloads ohne zusätzliche Kosten inklusive. Erstellen Sie so viele Arbeitsblätter Grundschule wie benötigt. Drucken Sie für ganze Klassen. Erstellen Sie Kopien für mehrere Schuljahre. Ihr Core Bundle Abonnement deckt alles ab. Keine versteckten Gebühren für Downloads von Deutsch-Arbeitsblätter.
 
 Speichern Sie Downloads in organisierten Ordnern auf Computer. Benennen Sie nach Thema oder Woche für einfaches Wiederfinden. Bauen Sie eine Bibliothek wiederverwendbarer kostenlose Arbeitsblätter auf. Teilen Sie mit Kollegen in Ihrer Schule. Digitale Organisation spart Zeit langfristig.`,
         icon: '📥',
@@ -315,7 +315,7 @@ Speichern Sie Downloads in organisierten Ordnern auf Computer. Benennen Sie nach
 
   // Use Cases - FULL text from word-scramble.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt für Lehrer und Eltern - Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Deutsch Arbeitsblätter für Jeden Bedarf',
+    sectionTitle: 'Perfekt für Lehrer und Eltern - Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter für Jeden Bedarf',
     sectionDescription: 'Buchstabensalat-Arbeitsblätter nutzen verschiedene Pädagogen täglich. Von Vorschule bis 3. Klasse. Jede Benutzergruppe findet einzigartige Anwendungen. Der Generator passt zu allen Unterrichtsstilen und Lernumgebungen. Kostenlose Arbeitsblätter für jede pädagogische Situation. Die Vielseitigkeit macht den Generator wertvoll für verschiedene Kontexte. Klassenzimmer, Heimunterricht, Nachhilfe und Therapie. Alle nutzen Buchstabensalat-Arbeitsblätter für Alphabetisierung.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -324,37 +324,37 @@ Speichern Sie Downloads in organisierten Ordnern auf Computer. Benennen Sie nach
       {
         id: '1',
         icon: '👶',
-        title: 'Erzieher in der Vorschule - Vorschule Arbeitsblätter für Schwungübungen und Buchstaben Lernen',
-        subtitle: 'Vorschule Arbeitsblätter und Buchstaben lernen',
+        title: 'Erzieher in der Vorschule - Vorschul-Arbeitsblätter für Schwungübungen und Buchstaben Lernen',
+        subtitle: 'Vorschul-Arbeitsblätter und Buchstaben lernen',
         description: `Vorschullehrer nutzen Buchstabensalat für erste Buchstabenerkennung. Kinder im Alter 4-6 lernen Buchstaben durch visuelle Zuordnung. Das Bild zeigt einen Apfel. Die Buchstaben A-P-F-E-L müssen geordnet werden. Diese Kombination prägt Buchstabenformen ein.
 
-Die Bildunterstützung ist entscheidend für Vorlesealter. Kinder können noch nicht lesen aber erkennen Bilder. Sie lernen Buchstaben als Bestandteile bekannter Wörter. Dies baut phonemisches Bewusstsein auf. Vorschule Arbeitsblätter mit Bildern beschleunigen Buchstaben lernen erheblich.
+Die Bildunterstützung ist entscheidend für Vorlesealter. Kinder können noch nicht lesen aber erkennen Bilder. Sie lernen Buchstaben als Bestandteile bekannter Wörter. Dies baut phonemisches Bewusstsein auf. Vorschul-Arbeitsblätter mit Bildern beschleunigen Buchstaben lernen erheblich.
 
 Schwungübungen integrieren perfekt mit Buchstabensalat. Kinder zeichnen Buchstaben nach bevor sie ordnen. Die großen Druckbuchstaben eignen sich ideal für Vorschule. Lehrer erstellen Arbeitsblätter mit vertrauten Objekten aus dem Klassenraum. Persönliche Relevanz erhöht Engagement.
 
-Die einfachste Schwierigkeitsstufe zeigt die Hälfte der Buchstaben bereits korrekt. Dies gibt Vorschulkindern Erfolgserlebnisse. Sie müssen nur wenige Buchstaben bewegen. Perfekt für Kinder die gerade mit Buchstaben lernen beginnen. Vorschule Arbeitsblätter können wöchentlich schwieriger werden.
+Die einfachste Schwierigkeitsstufe zeigt die Hälfte der Buchstaben bereits korrekt. Dies gibt Vorschulkindern Erfolgserlebnisse. Sie müssen nur wenige Buchstaben bewegen. Perfekt für Kinder die gerade mit Buchstaben lernen beginnen. Vorschul-Arbeitsblätter können wöchentlich schwieriger werden.
 
-Erzieher schätzen die 11-Sprachen-Funktion besonders. Viele Kindergärten haben mehrsprachige Gruppen. Erstellen Sie deutsche Arbeitsblätter für eine Gruppe. Wechseln Sie zu Türkisch für DaZ-Kinder. Oder erstellen Sie zweisprachige Vorschule Arbeitsblätter für Vergleiche. Schwungübungen funktionieren in allen Sprachen.
+Erzieher schätzen die 11-Sprachen-Funktion besonders. Viele Kindergärten haben mehrsprachige Gruppen. Erstellen Sie deutsche Arbeitsblätter für eine Gruppe. Wechseln Sie zu Türkisch für DaZ-Kinder. Oder erstellen Sie zweisprachige Vorschul-Arbeitsblätter für Vergleiche. Schwungübungen funktionieren in allen Sprachen.
 
-Thematische Einheiten profitieren vom Bildauswahl-System. Bauernhof-Woche nutzt nur Tierbilder. Herbst-Thema zeigt Blätter und Kürbisse. Diese Konsistenz verstärkt Wortschatzlernen. Vorschule Arbeitsblätter werden Teil größerer Unterrichtseinheiten. Buchstaben lernen integriert mit anderen Aktivitäten.`,
+Thematische Einheiten profitieren vom Bildauswahl-System. Bauernhof-Woche nutzt nur Tierbilder. Herbst-Thema zeigt Blätter und Kürbisse. Diese Konsistenz verstärkt Wortschatzlernen. Vorschul-Arbeitsblätter werden Teil größerer Unterrichtseinheiten. Buchstaben lernen integriert mit anderen Aktivitäten.`,
         quote: 'Meine Kinder lieben die bunten Buchstabensalat mit Tierbildern!',
       },
       {
         id: '2',
         icon: '📚',
-        title: 'Grundschullehrer 1.-3. Klasse - Arbeitsblätter Grundschule für Deutsch Arbeitsblätter, Einmaleins und Rechnen Lernen',
-        subtitle: 'Deutsch Arbeitsblätter und Mathe Arbeitsblätter',
+        title: 'Grundschullehrer 1.-3. Klasse - Arbeitsblätter Grundschule für Deutsch-Arbeitsblätter, Einmaleins und Rechnen Lernen',
+        subtitle: 'Deutsch-Arbeitsblätter und Mathe-Arbeitsblätter',
         description: `Grundschullehrer nutzen Buchstabensalat für Rechtschreibung und Vokabular. Erste Klasse übt Grundwortschatz mit Bildunterstützung. Zweite Klasse arbeitet ohne Bilder mit benutzerdefinierten Wortlisten. Dritte Klasse löst schwierige Rätsel ohne Buchstabenhinweise. Arbeitsblätter Grundschule wachsen mit Fähigkeiten.
 
-Wöchentliche Rechtschreiblisten werden zu Buchstabensalat-Übungen. Montag lernen Kinder neue Wörter. Mittwoch üben sie mit Buchstabensalat. Freitag schreiben sie Test. Diese Wiederholung festigt Schreibweisen. Deutsch Arbeitsblätter unterstützen Lehrplanfortschritt systematisch.
+Wöchentliche Rechtschreiblisten werden zu Buchstabensalat-Übungen. Montag lernen Kinder neue Wörter. Mittwoch üben sie mit Buchstabensalat. Freitag schreiben sie Test. Diese Wiederholung festigt Schreibweisen. Deutsch-Arbeitsblätter unterstützen Lehrplanfortschritt systematisch.
 
 Die Bildname-Bearbeitungsfunktion ermöglicht Synonymübungen. Zeigen Sie Hundbild aber nennen Sie es "Welpe". Oder "Hund" und "Haustier" für Wortbeziehungen. Kinder lernen mehrere Wörter für Konzepte. Dies erweitert Vokabular über einfache Objektbenennung hinaus. Arbeitsblätter Grundschule werden zu Denkübungen.
 
 Einmaleins üben durch kreative Bildnutzung. Laden Sie Zahlenbilder hoch und benennen Sie sie mit Einmaleins-Aufgaben. "3x4" wird zu Buchstabensalat. Kinder ordnen und berechnen. Kombinieren Sie Buchstaben lernen mit Mathekonzepten. Einmaleins-Arbeitsblätter mal anders gestaltet.
 
-Rechnen lernen in 1. Klasse integriert mit Buchstaben. Erstellen Sie Arbeitsblätter mit Zahlwörtern. "DREI" und "SIEBEN" als Buchstabensalat. Kinder lernen Zahlwörter schreiben während sie Rechnen lernen. Deutsch Arbeitsblätter kombiniert mit Mathematik-Grundlagen. Rechnen 1. Klasse wird multisensorisch.
+Rechnen lernen in 1. Klasse integriert mit Buchstaben. Erstellen Sie Arbeitsblätter mit Zahlwörtern. "DREI" und "SIEBEN" als Buchstabensalat. Kinder lernen Zahlwörter schreiben während sie Rechnen lernen. Deutsch-Arbeitsblätter kombiniert mit Mathematik-Grundlagen. Rechnen 1. Klasse wird multisensorisch.
 
-Fachübergreifender Unterricht nutzt thematische Bildersets. Sachkunde-Thema "Wetter" kombiniert mit Wetterwortvokabular. Musikunterricht mit Instrumentennamen. Kunstunterricht mit Farbwörtern. Arbeitsblätter Grundschule verbinden alle Fächer durch Sprache. Deutsch Arbeitsblätter werden zum Lernzentrum.
+Fachübergreifender Unterricht nutzt thematische Bildersets. Sachkunde-Thema "Wetter" kombiniert mit Wetterwortvokabular. Musikunterricht mit Instrumentennamen. Kunstunterricht mit Farbwörtern. Arbeitsblätter Grundschule verbinden alle Fächer durch Sprache. Deutsch-Arbeitsblätter werden zum Lernzentrum.
 
 Differenzierung für verschiedene Leistungsniveaus einfach gemacht. Starke Schüler bekommen keine Buchstabenhinweise. Schwächere erhalten Hälfte der Buchstaben vorgegeben. Alle arbeiten am gleichen Wortschatz unterschiedlich schwer. Dies erhält Selbstbewusstsein in inklusiven Klassen. Kostenlose Arbeitsblätter für jeden Schüler individualisiert.`,
         quote: 'Buchstabensalat sind perfekt für differenzierten Unterricht.',
@@ -362,17 +362,17 @@ Differenzierung für verschiedene Leistungsniveaus einfach gemacht. Starke Schü
       {
         id: '3',
         icon: '🏠',
-        title: 'Homeschool-Eltern - Kostenlose Arbeitsblätter für Mathe Arbeitsblätter und Flexible Vorschule Arbeitsblätter',
+        title: 'Homeschool-Eltern - Kostenlose Arbeitsblätter für Mathe-Arbeitsblätter und Flexible Vorschul-Arbeitsblätter',
         subtitle: 'Kostenlose Arbeitsblätter für individuelles Lernen',
         description: `Homeschool-Familien schätzen die Flexibilität des Generators. Erstellen Sie Arbeitsblätter passend zum Lerntempo jedes Kindes. Kein Warten auf Schulprogramm oder Klassendurchschnitt. Jedes Kind arbeitet auf seinem Niveau. Kostenlose Arbeitsblätter ermöglichen individualisiertes Lernen.
 
-Mehrere Kinder verschiedener Altersstufen gleichzeitig unterrichten. Erstellen Sie Vorschule Arbeitsblätter für Vierjährige. Deutsch Arbeitsblätter für Achtjährige. Mathe Arbeitsblätter für Zehnjährige. Alle zum gleichen Thema unterschiedlich schwer. Ein Generator für alle Kinder.
+Mehrere Kinder verschiedener Altersstufen gleichzeitig unterrichten. Erstellen Sie Vorschul-Arbeitsblätter für Vierjährige. Deutsch-Arbeitsblätter für Achtjährige. Mathe-Arbeitsblätter für Zehnjährige. Alle zum gleichen Thema unterschiedlich schwer. Ein Generator für alle Kinder.
 
 Die unbegrenzte Erstellung ohne Extrakosten ist entscheidend für Homeschool-Budgets. Schulbücher kosten hunderte Euro jährlich. Arbeitsblattabo für 144 Euro deckt alle Fächer ab. Erstellen Sie täglich neue kostenlose Arbeitsblätter ohne Schuldgefühle. Dies reduziert Homeschool-Kosten dramatisch.
 
 Thematisches Lernen funktioniert perfekt mit Bildauswahl. Dinosaurier-Woche verwendet nur Dino-Bilder für Buchstabensalat. Kombinieren Sie mit Dino-Sachbüchern und Museumsbesuch. Die Arbeitsblätter Grundschule verstärken Thema durch Schreibpraxis. Tiefes Lernen durch Wiederholung in verschiedenen Formaten.
 
-Eigene Fotos hochladen macht Lernen persönlich relevant. Fotografieren Sie Familienhaustier für Buchstabensalat. Nutzen Sie Urlaubsfotos für Geografie-Vokabular. Laden Sie Spielzeuge für Vorschule Arbeitsblätter hoch. Kinder sind motivierter bei vertrauten Objekten. Homeschool nutzt Alltagsleben für Bildung.
+Eigene Fotos hochladen macht Lernen persönlich relevant. Fotografieren Sie Familienhaustier für Buchstabensalat. Nutzen Sie Urlaubsfotos für Geografie-Vokabular. Laden Sie Spielzeuge für Vorschul-Arbeitsblätter hoch. Kinder sind motivierter bei vertrauten Objekten. Homeschool nutzt Alltagsleben für Bildung.
 
 Fortschrittsdokumentation durch Sammeln erstellter Arbeitsblätter. Viele Länder verlangen Homeschool-Portfolios. Speichern Sie alle Downloads nach Datum organisiert. Zeigen Sie Behörden systematischen Lehrplan. Die professionellen kostenlose Arbeitsblätter beweisen Bildungsqualität. Arbeitsblätter Grundschule werden zu Bildungsnachweisen.`,
         quote: 'Ein Werkzeug deckt alle Klassenstufen meiner Kinder ab.',
@@ -380,15 +380,15 @@ Fortschrittsdokumentation durch Sammeln erstellter Arbeitsblätter. Viele Lände
       {
         id: '4',
         icon: '🌍',
-        title: 'Deutsch-als-Zweitsprache-Lehrer - Deutsch Arbeitsblätter für Buchstaben Lernen und Mehrsprachige Kostenlose Arbeitsblätter',
-        subtitle: 'Mehrsprachige Deutsch Arbeitsblätter',
+        title: 'Deutsch-als-Zweitsprache-Lehrer - Deutsch-Arbeitsblätter für Buchstaben Lernen und Mehrsprachige Kostenlose Arbeitsblätter',
+        subtitle: 'Mehrsprachige Deutsch-Arbeitsblätter',
         description: `DaZ-Lehrer nutzen die 11-Sprachen-Funktion intensiv. Vergleichen Sie deutsche Wörter mit Muttersprache der Schüler. Zeigen Sie gleiches Bild in Deutsch und Arabisch. Kinder sehen wie Sprachen unterschiedliche Wörter nutzen. Dies baut metalinguistisches Bewusstsein auf.
 
-Bildunterstützung ist kritisch für Sprachanfänger. DaZ-Kinder kennen deutsche Wörter noch nicht. Das Bild gibt Bedeutungskontext ohne Übersetzung. Sie lernen Wort und Schreibweise gleichzeitig. Deutsch Arbeitsblätter mit Bildern beschleunigen Vokabelerwerb erheblich.
+Bildunterstützung ist kritisch für Sprachanfänger. DaZ-Kinder kennen deutsche Wörter noch nicht. Das Bild gibt Bedeutungskontext ohne Übersetzung. Sie lernen Wort und Schreibweise gleichzeitig. Deutsch-Arbeitsblätter mit Bildern beschleunigen Vokabelerwerb erheblich.
 
 Anfängerkurse starten mit einfachsten Wörtern und Bildunterstützung. "Ball", "Auto", "Haus" sind universal erkennbar. Kinder ordnen Buchstaben mit visueller Hilfe. Keine Übersetzung nötig. Dies baut Selbstvertrauen bei Nullsprachlern auf. Buchstaben lernen und Wortschatz gleichzeitig entwickeln.
 
-Fortgeschrittene DaZ-Schüler nutzen benutzerdefinierte Wortlisten. Eingeben spezifischer Vokabeln aus Lehrbuch. Üben Sie neue Wörter durch Buchstabenordnung. Dies verstärkt korrekte Schreibweise bei nicht-muttersprachlichen Lernern. Deutsch Arbeitsblätter ergänzen Lehrbuchprogramm perfekt.
+Fortgeschrittene DaZ-Schüler nutzen benutzerdefinierte Wortlisten. Eingeben spezifischer Vokabeln aus Lehrbuch. Üben Sie neue Wörter durch Buchstabenordnung. Dies verstärkt korrekte Schreibweise bei nicht-muttersprachlichen Lernern. Deutsch-Arbeitsblätter ergänzen Lehrbuchprogramm perfekt.
 
 Alphabetunterschiede thematisieren bei Schülern mit anderen Schriftsystemen. Arabische oder chinesische Kinder lernen lateinisches Alphabet. Buchstabensalat zwingt zur Buchstabenidentifikation. Sie müssen jedes Zeichen unterscheiden. Dies ist fundamentale Fähigkeit für deutsches Lesen. Kostenlose Arbeitsblätter für Alphabetisierung.
 
@@ -398,17 +398,17 @@ Kulturell relevante Vokabeln durch eigene Bilduploads. Fotografieren Sie deutsch
       {
         id: '5',
         icon: '💜',
-        title: 'Sonderpädagogen - Vorschule Arbeitsblätter mit Schwungübungen und Angepasste Arbeitsblätter Grundschule',
-        subtitle: 'Angepasste Vorschule Arbeitsblätter und Arbeitsblätter Grundschule',
+        title: 'Sonderpädagogen - Vorschul-Arbeitsblätter mit Schwungübungen und Angepasste Arbeitsblätter Grundschule',
+        subtitle: 'Angepasste Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule',
         description: `Förderschullehrer schätzen die visuelle Unterstützung für Schüler mit Leseschwierigkeiten. Bilder geben Kontext den Text allein nicht bietet. Kinder mit Legasthenie nutzen Bildhinweise zum Erraten. Dies reduziert Frustration und baut Erfolgserlebnisse auf.
 
-Die einstellbare Schwierigkeit ermöglicht präzise IEP-Anpassung. Förderziel: 3-Buchstaben-Wörter mit 50% Hinweisen. Starten Sie dort. Erhöhen Sie schrittweise zu 4-Buchstaben-Wörtern. Dann reduzieren Sie Hinweise zu 25%. Dokumentieren Sie Fortschritt durch gespeicherte Arbeitsblätter. Vorschule Arbeitsblätter wachsen mit Fähigkeiten.
+Die einstellbare Schwierigkeit ermöglicht präzise IEP-Anpassung. Förderziel: 3-Buchstaben-Wörter mit 50% Hinweisen. Starten Sie dort. Erhöhen Sie schrittweise zu 4-Buchstaben-Wörtern. Dann reduzieren Sie Hinweise zu 25%. Dokumentieren Sie Fortschritt durch gespeicherte Arbeitsblätter. Vorschul-Arbeitsblätter wachsen mit Fähigkeiten.
 
 Farbcodierung hilft Schülern mit Verarbeitungsschwierigkeiten. Vokale in Rot, Konsonanten in Blau erleichtert Mustererkennung. Kinder mit ADHS fokussieren besser auf farbige Elemente. Dies reduziert kognitive Belastung bei schwierigen Aufgaben. Arbeitsblätter Grundschule werden zugänglicher.
 
 Große Druckbuchstaben perfekt für Schüler mit Sehschwierigkeiten. Passen Sie Schriftgröße nach Generierung an. Vergrößern Sie bis Buchstaben klar erkennbar sind. Keine speziellen Großdruckversionen nötig. Reguläre kostenlose Arbeitsblätter werden barrierefrei durch Anpassung.
 
-Schwungübungen vorbereiten auf Buchstabensalat-Arbeit. Lassen Sie Schüler Buchstaben auf separatem Papier nachzeichnen. Dann ordnen Sie diese im Rätsel. Die motorische Praxis verstärkt visuelle Erkennung. Kombinieren Sie Feinmotorik mit Kognition. Vorschule Arbeitsblätter werden zu Therapiewerkzeugen.
+Schwungübungen vorbereiten auf Buchstabensalat-Arbeit. Lassen Sie Schüler Buchstaben auf separatem Papier nachzeichnen. Dann ordnen Sie diese im Rätsel. Die motorische Praxis verstärkt visuelle Erkennung. Kombinieren Sie Feinmotorik mit Kognition. Vorschul-Arbeitsblätter werden zu Therapiewerkzeugen.
 
 Repetition ohne Langeweile durch neu generierte Layouts. Üben Sie gleiches Wort zehnmal. Jedes Mal neue Buchstabenanordnung. Dies erhält Engagement bei nötiger Wiederholung. Schüler merken nicht dass sie üben. Arbeitsblätter Grundschule machen Therapie spielerisch. Schwungübungen und Buchstaben lernen integriert.`,
         quote: 'Ich kann schnell individualisierte Arbeitsblätter erstellen.',
@@ -418,13 +418,13 @@ Repetition ohne Langeweile durch neu generierte Layouts. Üben Sie gleiches Wort
         icon: '💰',
         title: 'Lehrerunternehmer - Verkauf von Kostenlose Arbeitsblätter, Ausmalbilder und Arbeitsblätter Grundschule auf TPT und Etsy',
         subtitle: 'Verkaufen Sie Arbeitsblätter Grundschule',
-        description: `Lehrer verkaufen Buchstabensalat-Pakete auf Teachers Pay Teachers erfolgreich. Thematische Bundles erzielen 3-10 Euro pro Download. Jahreszeitenpakete besonders beliebt. Weihnachts-Buchstabensalat, Oster-Vorschule Arbeitsblätter, Schulanfangs-Sets. Wiederkehrende passive Einnahmen jährlich.
+        description: `Lehrer verkaufen Buchstabensalat-Pakete auf Teachers Pay Teachers erfolgreich. Thematische Bundles erzielen 3-10 Euro pro Download. Jahreszeitenpakete besonders beliebt. Weihnachts-Buchstabensalat, Oster-Vorschul-Arbeitsblätter, Schulanfangs-Sets. Wiederkehrende passive Einnahmen jährlich.
 
 Die POD-Lizenz ohne Zusatzkosten ist enormer Wettbewerbsvorteil. Konkurrenten zahlen 50-200 Euro jährlich extra für Verkaufsrechte. Sie zahlen nur 144 Euro Core Bundle total. Dies erhöht Gewinnmargen erheblich. Kostenlose Arbeitsblätter erstellen wird profitables Geschäft.
 
 Mehrsprachige Pakete erschließen internationale Märkte. Erstellen Sie deutsches Paket für deutsche TPT-Käufer. Gleiches Paket auf Spanisch für US-Hispanics. Auf Französisch für Kanada. Ein Design, elf Sprachmärkte. Dies multipliziert Umsatzpotential ohne Mehrarbeit.
 
-Kombinieren Sie Buchstabensalat mit anderen Arbeitsblatttypen zu Paketen. Fügen Sie Ausmalbilder der gleichen Bilder hinzu. Mathe Arbeitsblätter mit thematischen Bildern. Schreibübungen mit Vokabular. Umfassende Lernpakete erzielen höhere Preise. Arbeitsblätter Grundschule in kompletten Einheiten.
+Kombinieren Sie Buchstabensalat mit anderen Arbeitsblatttypen zu Paketen. Fügen Sie Ausmalbilder der gleichen Bilder hinzu. Mathe-Arbeitsblätter mit thematischen Bildern. Schreibübungen mit Vokabular. Umfassende Lernpakete erzielen höhere Preise. Arbeitsblätter Grundschule in kompletten Einheiten.
 
 Pinterest-Marketing funktioniert perfekt für visuelle Arbeitsblätter. Erstellen Sie auffällige Cover-Seiten mit Hintergründen und Rahmen. Pinnen Sie Vorschaubilder mit "Kostenlose Arbeitsblätter" im Titel. Pinterest leitet zu TPT-Store. Dies generiert passiven Traffic konstant. Ausmalbilder und bunte Layouts ziehen Klicks an.
 
@@ -436,7 +436,7 @@ Kundenbewertungen betonen professionelle 300 DPI Qualität. Käufer erwarten dru
 
   // FAQ Section - FULL FAQs from word-scramble.md
   faq: {
-    sectionTitle: 'Häufig Gestellte Fragen zu Arbeitsblätter Grundschule, Mathe Arbeitsblätter und Kostenlose Arbeitsblätter',
+    sectionTitle: 'Häufig Gestellte Fragen zu Arbeitsblätter Grundschule, Mathe-Arbeitsblätter und Kostenlose Arbeitsblätter',
     sectionDescription: 'Lehrer stellen häufig gleiche Fragen zu Buchstabensalat-Arbeitsblättern. Von Kosten über Verwendung bis zu technischen Details. Diese FAQ beantwortet die wichtigsten Fragen. Informieren Sie sich vor dem Erstellen Ihrer ersten kostenlose Arbeitsblätter. Alle Antworten basieren auf Core Bundle Funktionen.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
@@ -449,12 +449,12 @@ Kundenbewertungen betonen professionelle 300 DPI Qualität. Käufer erwarten dru
       {
         id: '1',
         question: 'Ist Dieser Generator für Kostenlose Arbeitsblätter Wirklich Kostenlos zu Nutzen?',
-        answer: 'Der Buchstabensalat-Generator erfordert ein Core Bundle Abonnement für 144 Euro jährlich oder 15 Euro monatlich. Ihr Abonnement ermöglicht unbegrenzte Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie so viele kostenlose Arbeitsblätter wie benötigt ohne Extragebühren. Dies ist erheblicher Wert für Lehrer mit hohem Materialbedarf. Core Bundle beinhaltet 10 beliebte Arbeitsblatt-Generatoren. Buchstabensalat, Mathe Arbeitsblätter, Ausmalbilder und mehr. Full Access Abonnement kostet 240 Euro jährlich und beinhaltet alle 33 Generatoren. Beide Abonnements inkludieren kommerzielle Lizenzierung, 11-Sprachen-Support und professionelle 300 DPI Qualität. Das Preis-Leistungs-Verhältnis übertrifft Konkurrenz deutlich. Einzelkäufe von Arbeitsblättern kosten 1-3 Euro pro Blatt. Bei wöchentlicher Nutzung zahlen Sie hunderte Euro jährlich. Core Bundle für 144 Euro deckt unbegrenzte Erstellung. Die Investition amortisiert sich nach 50-100 Downloads.',
+        answer: 'Der Buchstabensalat-Generator erfordert ein Core Bundle Abonnement für 144 Euro jährlich oder 15 Euro monatlich. Ihr Abonnement ermöglicht unbegrenzte Erstellung ohne zusätzliche Kosten pro Arbeitsblatt. Generieren Sie so viele kostenlose Arbeitsblätter wie benötigt ohne Extragebühren. Dies ist erheblicher Wert für Lehrer mit hohem Materialbedarf. Core Bundle beinhaltet 10 beliebte Arbeitsblatt-Generatoren. Buchstabensalat, Mathe-Arbeitsblätter, Ausmalbilder und mehr. Full Access Abonnement kostet 240 Euro jährlich und beinhaltet alle 33 Generatoren. Beide Abonnements inkludieren kommerzielle Lizenzierung, 11-Sprachen-Support und professionelle 300 DPI Qualität. Das Preis-Leistungs-Verhältnis übertrifft Konkurrenz deutlich. Einzelkäufe von Arbeitsblättern kosten 1-3 Euro pro Blatt. Bei wöchentlicher Nutzung zahlen Sie hunderte Euro jährlich. Core Bundle für 144 Euro deckt unbegrenzte Erstellung. Die Investition amortisiert sich nach 50-100 Downloads.',
       },
       {
         id: '2',
-        question: 'Kann Ich Mathe Arbeitsblätter und Ausmalbilder zu Hause auf Normalem Drucker Drucken?',
-        answer: 'Ja, alle Arbeitsblätter Grundschule drucken perfekt auf Standard-Heimdruckern. Die 300 DPI Auflösung garantiert scharfen Druck auf jedem Drucker. PDF-Format sichert konsistente Ergebnisse. JPEG funktioniert ebenfalls auf allen Druckern. Keine speziellen Anforderungen nötig. Farbdrucker zeigen volle Farbpalette bei Ausmalbilder und bunten Mathe Arbeitsblätter. Schwarz-Weiß-Drucker funktionieren mit Graustufen-Option perfekt. Aktivieren Sie Graustufen vor Download für tinteneffizientes Drucken. Die Konvertierung erhält alle Details und Lesbarkeit. Normale Kopiererpapier (80g) reicht für die meisten Arbeitsblätter Grundschule aus. Dickeres Papier (120g) empfohlen für Ausmalbilder die Kinder länger nutzen. Laminieren erhöht Haltbarkeit für wiederverwendbare Materialien. Alle Formate drucken rahmenlos auf A4 und Letter.',
+        question: 'Kann Ich Mathe-Arbeitsblätter und Ausmalbilder zu Hause auf Normalem Drucker Drucken?',
+        answer: 'Ja, alle Arbeitsblätter Grundschule drucken perfekt auf Standard-Heimdruckern. Die 300 DPI Auflösung garantiert scharfen Druck auf jedem Drucker. PDF-Format sichert konsistente Ergebnisse. JPEG funktioniert ebenfalls auf allen Druckern. Keine speziellen Anforderungen nötig. Farbdrucker zeigen volle Farbpalette bei Ausmalbilder und bunten Mathe-Arbeitsblätter. Schwarz-Weiß-Drucker funktionieren mit Graustufen-Option perfekt. Aktivieren Sie Graustufen vor Download für tinteneffizientes Drucken. Die Konvertierung erhält alle Details und Lesbarkeit. Normale Kopiererpapier (80g) reicht für die meisten Arbeitsblätter Grundschule aus. Dickeres Papier (120g) empfohlen für Ausmalbilder die Kinder länger nutzen. Laminieren erhöht Haltbarkeit für wiederverwendbare Materialien. Alle Formate drucken rahmenlos auf A4 und Letter.',
       },
       {
         id: '3',
@@ -468,13 +468,13 @@ Kundenbewertungen betonen professionelle 300 DPI Qualität. Käufer erwarten dru
       },
       {
         id: '5',
-        question: 'Welche Sprachen Sind für Buchstaben Lernen und Deutsch Arbeitsblätter Verfügbar?',
-        answer: 'Der Generator funktioniert in 11 vollständig unterstützten Sprachen. Deutsch, Englisch, Französisch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Dänisch, Schwedisch, Norwegisch und Finnisch. Nicht nur UI-Übersetzung - die Bildnamen ändern sich zur gewählten Sprache. Dies macht echte mehrsprachige Deutsch Arbeitsblätter möglich. Für Buchstaben lernen ist Sprachfunktion besonders kritisch. Deutsche Bildnamen erstellen deutschen Buchstabensalat. Kinder lernen deutsche Rechtschreibung authentisch. Nicht einfach übersetzte Arbeitsblätter sondern sprachangemessene Vokabeln. Dies unterscheidet uns von einfachen Übersetzungstools. Wechseln Sie Sprache in Einstellungen mit einem Klick. Alle Inhalte aktualisieren sofort. Erstellen Sie gleiche Übung in verschiedenen Sprachen für Vergleich. Perfekt für DaZ-Unterricht und mehrsprachige Klassen. Buchstaben lernen funktioniert authentisch in jeder unterstützten Sprache.',
+        question: 'Welche Sprachen Sind für Buchstaben Lernen und Deutsch-Arbeitsblätter Verfügbar?',
+        answer: 'Der Generator funktioniert in 11 vollständig unterstützten Sprachen. Deutsch, Englisch, Französisch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Dänisch, Schwedisch, Norwegisch und Finnisch. Nicht nur UI-Übersetzung - die Bildnamen ändern sich zur gewählten Sprache. Dies macht echte mehrsprachige Deutsch-Arbeitsblätter möglich. Für Buchstaben lernen ist Sprachfunktion besonders kritisch. Deutsche Bildnamen erstellen deutschen Buchstabensalat. Kinder lernen deutsche Rechtschreibung authentisch. Nicht einfach übersetzte Arbeitsblätter sondern sprachangemessene Vokabeln. Dies unterscheidet uns von einfachen Übersetzungstools. Wechseln Sie Sprache in Einstellungen mit einem Klick. Alle Inhalte aktualisieren sofort. Erstellen Sie gleiche Übung in verschiedenen Sprachen für Vergleich. Perfekt für DaZ-Unterricht und mehrsprachige Klassen. Buchstaben lernen funktioniert authentisch in jeder unterstützten Sprache.',
       },
       {
         id: '6',
-        question: 'Kann Ich Ausmalbilder und Mathe Arbeitsblätter die Ich Erstelle Verkaufen?',
-        answer: 'Ja, Core Bundle beinhaltet volle kommerzielle Print-on-Demand Lizenz. Verkaufen Sie alle erstellten Ausmalbilder und Mathe Arbeitsblätter legal. Teachers Pay Teachers, Etsy, Amazon KDP erlaubt. Keine Umsatzbeteiligung über Ihr 144 Euro Jahresabo hinaus. Unbegrenztes Verkaufspotential ohne Extrakosten. Die POD-Lizenz ist enormer Wert im Vergleich zu Konkurrenz. Andere Plattformen berechnen 50-200 Euro jährlich extra für Verkaufsrechte. Bei uns inklusive ohne Aufpreis. Dies macht Lehrerunternehmertum profitabler. Mehr Gewinn pro Verkauf durch niedrigere Fixkosten. Ausmalbilder verkaufen sich besonders gut als digitale Downloads. Jahreszeitenpakete erzielen 5-15 Euro pro Download. Mathe Arbeitsblätter in thematischen Bundles 8-20 Euro. Mit professioneller 300 DPI Qualität rechtfertigen Sie Premium-Preise. TPT-Bestseller nutzen Core Bundle für Materialerstellung.',
+        question: 'Kann Ich Ausmalbilder und Mathe-Arbeitsblätter die Ich Erstelle Verkaufen?',
+        answer: 'Ja, Core Bundle beinhaltet volle kommerzielle Print-on-Demand Lizenz. Verkaufen Sie alle erstellten Ausmalbilder und Mathe-Arbeitsblätter legal. Teachers Pay Teachers, Etsy, Amazon KDP erlaubt. Keine Umsatzbeteiligung über Ihr 144 Euro Jahresabo hinaus. Unbegrenztes Verkaufspotential ohne Extrakosten. Die POD-Lizenz ist enormer Wert im Vergleich zu Konkurrenz. Andere Plattformen berechnen 50-200 Euro jährlich extra für Verkaufsrechte. Bei uns inklusive ohne Aufpreis. Dies macht Lehrerunternehmertum profitabler. Mehr Gewinn pro Verkauf durch niedrigere Fixkosten. Ausmalbilder verkaufen sich besonders gut als digitale Downloads. Jahreszeitenpakete erzielen 5-15 Euro pro Download. Mathe-Arbeitsblätter in thematischen Bundles 8-20 Euro. Mit professioneller 300 DPI Qualität rechtfertigen Sie Premium-Preise. TPT-Bestseller nutzen Core Bundle für Materialerstellung.',
       },
       {
         id: '7',
@@ -530,7 +530,7 @@ Kundenbewertungen betonen professionelle 300 DPI Qualität. Käufer erwarten dru
   // Related Apps
   relatedApps: {
     sectionTitle: 'Kombinieren Sie Buchstabensalat mit Anderen Apps - Einmaleins, Schwungübungen und Rechnen Lernen für Komplette Lernpakete',
-    sectionDescription: 'LessonCraft Studio bietet 33 kostenlose Arbeitsblatt-Generatoren auf einer Plattform. Kombinieren Sie Buchstabensalat mit Mathe Arbeitsblätter, Schwungübungen und Ausmalbilder für thematische Einheiten. Erstellen Sie umfassende Lernpakete die alle Grundschulfächer abdecken. Von Buchstaben lernen über Einmaleins bis Kunst. Arbeitsblätter Grundschule für ganzheitliches Lernen.',
+    sectionDescription: 'LessonCraft Studio bietet 33 kostenlose Arbeitsblatt-Generatoren auf einer Plattform. Kombinieren Sie Buchstabensalat mit Mathe-Arbeitsblätter, Schwungübungen und Ausmalbilder für thematische Einheiten. Erstellen Sie umfassende Lernpakete die alle Grundschulfächer abdecken. Von Buchstaben lernen über Einmaleins bis Kunst. Arbeitsblätter Grundschule für ganzheitliches Lernen.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlose Testversion Starten',

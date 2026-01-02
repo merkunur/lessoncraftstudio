@@ -11,15 +11,15 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  *
  * German Keywords (from keywords.txt):
  * 1. Arbeitsblätter Grundschule
- * 2. Mathe Arbeitsblätter
- * 3. Vorschule Arbeitsblätter
+ * 2. Mathe-Arbeitsblätter
+ * 3. Vorschul-Arbeitsblätter
  * 4. Einmaleins
  * 5. Schwungübungen
  * 6. Buchstaben lernen
  * 7. Ausmalbilder / Malvorlagen
  * 8. Kostenlose Arbeitsblätter
  * 9. Rechnen lernen / Rechnen 1. Klasse
- * 10. Deutsch Arbeitsblätter
+ * 10. Deutsch-Arbeitsblätter
  */
 
 export const gridMatchDeContent: ProductPageContent = {
@@ -27,21 +27,21 @@ export const gridMatchDeContent: ProductPageContent = {
   seo: {
     slug: 'raster-puzzle-arbeitsblaetter',
     appId: 'grid-match',
-    title: 'Raster-Puzzle Generator - Kostenlose Arbeitsblätter Grundschule - Vorschule Arbeitsblätter für räumliches Denken',
-    description: 'Erstellen Sie professionelle Raster-Puzzle Arbeitsblätter mit unserem Generator. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Mathe Arbeitsblätter. Generieren Sie Puzzle-Aktivitäten für räumliches Denken. Laden Sie druckfertige PDF-Dateien in unter 3 Minuten herunter.',
+    title: 'Raster-Puzzle Generator - Kostenlose Arbeitsblätter Grundschule - Vorschul-Arbeitsblätter für räumliches Denken',
+    description: 'Erstellen Sie professionelle Raster-Puzzle-Arbeitsblätter mit unserem Generator. Perfekt für Arbeitsblätter Grundschule, Vorschul-Arbeitsblätter und Mathe-Arbeitsblätter. Generieren Sie Puzzle-Aktivitäten für räumliches Denken. Laden Sie druckfertige PDF-Dateien in unter 3 Minuten herunter.',
     keywords: 'raster-puzzle arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, mathe arbeitsblätter, räumliches denken, puzzle arbeitsblätter, schwungübungen, ausmalbilder, einmaleins',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/raster-puzzle-arbeitsblaetter',
   },
 
   // Hero Section - FULL text from raster-puzzle.md
   hero: {
-    title: 'Raster-Puzzle Arbeitsblätter',
-    subtitle: 'Kostenlose Arbeitsblätter Grundschule - Puzzle Generator für Vorschule Arbeitsblätter und Mathe Arbeitsblätter',
-    description: `Erstellen Sie professionelle Raster-Puzzle Arbeitsblätter mit unserem Generator. Mit Ihrem Full Access Abo für 240 Euro im Jahr erstellen Sie unbegrenzt viele Arbeitsblätter Grundschule. Keine zusätzlichen Kosten pro Arbeitsblatt. Perfekt für Kinder in Vorschule und 1. Klasse. Das Raster-Puzzle fördert das räumliche Denken und die visuelle Wahrnehmung.
+    title: 'Raster-Puzzle-Arbeitsblätter',
+    subtitle: 'Kostenlose Arbeitsblätter Grundschule - Puzzle Generator für Vorschul-Arbeitsblätter und Mathe-Arbeitsblätter',
+    description: `Erstellen Sie professionelle Raster-Puzzle-Arbeitsblätter mit unserem Generator. Mit Ihrem Full Access Abo für 240 Euro im Jahr erstellen Sie unbegrenzt viele Arbeitsblätter Grundschule. Keine zusätzlichen Kosten pro Arbeitsblatt. Perfekt für Kinder in Vorschule und 1. Klasse. Das Raster-Puzzle fördert das räumliche Denken und die visuelle Wahrnehmung.
 
-Kinder lieben Puzzle. Mit unserem Raster-Puzzle Generator erstellen Sie Lernmaterialien in wenigen Minuten. Die Kinder ordnen nummerierte Puzzleteile dem richtigen Rasterfeld zu. So trainieren sie spielerisch räumliches Denken. Das Puzzle bereitet auf Mathe Arbeitsblätter und Einmaleins vor.
+Kinder lieben Puzzle. Mit unserem Raster-Puzzle Generator erstellen Sie Lernmaterialien in wenigen Minuten. Die Kinder ordnen nummerierte Puzzleteile dem richtigen Rasterfeld zu. So trainieren sie spielerisch räumliches Denken. Das Puzzle bereitet auf Mathe-Arbeitsblätter und Einmaleins vor.
 
-Das Full Access Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombinieren Sie Raster-Puzzle mit Schwungübungen, Deutsch Arbeitsblättern und Arbeitsblättern zum Buchstaben lernen. Ihr Abonnement beinhaltet die kommerzielle Lizenz für den Verkauf auf Teachers Pay Teachers und Etsy. Professionelle 300 DPI Qualität garantiert perfektes Drucken.`,
+Das Full Access Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombinieren Sie Raster-Puzzle mit Schwungübungen, Deutsch-Arbeitsblättern und Arbeitsblättern zum Buchstaben lernen. Ihr Abonnement beinhaltet die kommerzielle Lizenz für den Verkauf auf Teachers Pay Teachers und Etsy. Professionelle 300 DPI Qualität garantiert perfektes Drucken.`,
     previewImageSrc: '/samples/english/grid match/grid match portrait .jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
@@ -63,7 +63,7 @@ Das Full Access Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombiniere
 
   // Sample Gallery - REAL file paths from samples/english/grid match/
   samples: {
-    sectionTitle: 'Raster-Puzzle Arbeitsblätter Beispiele',
+    sectionTitle: 'Raster-Puzzle-Arbeitsblätter Beispiele',
     sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
@@ -79,7 +79,7 @@ Das Full Access Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombiniere
         id: '1',
         worksheetSrc: '/samples/english/grid match/grid match portrait .jpeg',
         answerKeySrc: '/samples/english/grid match/grid match portrait  answer_key.jpeg',
-        altText: 'Raster-Puzzle Arbeitsblatt Hochformat für Vorschule Arbeitsblätter und räumliches Denken',
+        altText: 'Raster-Puzzle Arbeitsblatt Hochformat für Vorschul-Arbeitsblätter und räumliches Denken',
         pdfDownloadUrl: '/samples/english/grid match/grid match portrait .pdf',
       },
       {
@@ -109,17 +109,17 @@ Das Full Access Abonnement enthält alle 33 Arbeitsblatt-Generatoren. Kombiniere
       {
         id: '1',
         icon: '⚡',
-        title: 'Kostenlose Arbeitsblätter in 3 Klicks erstellen - Mathe Arbeitsblätter und Arbeitsblätter Grundschule',
-        description: `Die Erstellung ist kinderleicht. Wählen Sie ein Bild aus der Bibliothek. Stellen Sie die Rastergröße ein. Klicken Sie auf Generieren. Ihr Arbeitsblatt ist fertig. Perfekt für Mathe Arbeitsblätter und andere Fächer. Kostenlose Arbeitsblätter waren noch nie so einfach.
+        title: 'Kostenlose Arbeitsblätter in 3 Klicks erstellen - Mathe-Arbeitsblätter und Arbeitsblätter Grundschule',
+        description: `Die Erstellung ist kinderleicht. Wählen Sie ein Bild aus der Bibliothek. Stellen Sie die Rastergröße ein. Klicken Sie auf Generieren. Ihr Arbeitsblatt ist fertig. Perfekt für Mathe-Arbeitsblätter und andere Fächer. Kostenlose Arbeitsblätter waren noch nie so einfach.
 
-Das Raster kann 2x2 bis 4x4 Felder haben. Sie bestimmen die Schwierigkeit. Für Vorschule Arbeitsblätter empfehlen wir 2x2 oder 3x3. Für die Grundschule eignen sich 3x3 oder 4x4 Raster. Die Hinweisfelder zeigen bereits platzierte Teile.`,
+Das Raster kann 2x2 bis 4x4 Felder haben. Sie bestimmen die Schwierigkeit. Für Vorschul-Arbeitsblätter empfehlen wir 2x2 oder 3x3. Für die Grundschule eignen sich 3x3 oder 4x4 Raster. Die Hinweisfelder zeigen bereits platzierte Teile.`,
         highlighted: false,
       },
       {
         id: '2',
         icon: '✏️',
-        title: 'Vorschule Arbeitsblätter vollständig bearbeiten - Einmaleins und Buchstaben lernen vorbereiten',
-        description: `Jedes Element auf dem Arbeitsblatt ist bearbeitbar. Verschieben Sie Bilder mit der Maus. Drehen und skalieren Sie alle Objekte. Löschen Sie ungewollte Elemente. Diese Flexibilität ist ideal für Vorschule Arbeitsblätter.
+        title: 'Vorschul-Arbeitsblätter vollständig bearbeiten - Einmaleins und Buchstaben lernen vorbereiten',
+        description: `Jedes Element auf dem Arbeitsblatt ist bearbeitbar. Verschieben Sie Bilder mit der Maus. Drehen und skalieren Sie alle Objekte. Löschen Sie ungewollte Elemente. Diese Flexibilität ist ideal für Vorschul-Arbeitsblätter.
 
 Die Bearbeitungsfunktion unterstützt das Einmaleins Training. Fügen Sie Zahlen und Symbole hinzu. Bereiten Sie Kinder auf Buchstaben lernen vor. Kombinieren Sie visuelle Puzzle mit Schriftzeichen. Das Kontextmenü bietet alle Optionen.`,
         highlighted: false,
@@ -136,8 +136,8 @@ Personalisierte Puzzle motivieren die Kinder. Kombinieren Sie eigene Bilder mit 
       {
         id: '4',
         icon: '🌍',
-        title: 'Deutsch Arbeitsblätter in 11 Sprachen - Rechnen 1. Klasse international',
-        description: `Die Bildbibliothek ist in 11 Sprachen verfügbar. Deutsch Arbeitsblätter mit deutschen Bildnamen. Englische Begriffe für den Fremdsprachenunterricht. Französisch, Spanisch und weitere Sprachen. Perfekt für mehrsprachige Klassen.
+        title: 'Deutsch-Arbeitsblätter in 11 Sprachen - Rechnen 1. Klasse international',
+        description: `Die Bildbibliothek ist in 11 Sprachen verfügbar. Deutsch-Arbeitsblätter mit deutschen Bildnamen. Englische Begriffe für den Fremdsprachenunterricht. Französisch, Spanisch und weitere Sprachen. Perfekt für mehrsprachige Klassen.
 
 Diese Funktion unterstützt auch Rechnen 1. Klasse mit Bildern. Die Bildnamen erscheinen in der gewählten Sprache. So lernen Kinder gleichzeitig neue Wörter. International einsetzbar für alle Schulformen.`,
         highlighted: false,
@@ -172,7 +172,7 @@ Rechnen lernen macht mehr Spaß mit klaren Bildern. Die hohe Auflösung zeigt je
       {
         id: '8',
         icon: '🎯',
-        title: 'Anpassbare Rastergröße für Mathe Arbeitsblätter - Schwierigkeit individuell einstellen',
+        title: 'Anpassbare Rastergröße für Mathe-Arbeitsblätter - Schwierigkeit individuell einstellen',
         description: `Navigieren Sie zu den Rasteroptionen. Hier stellen Sie Zeilen und Spalten ein. Für Arbeitsblätter Grundschule eignen sich 3x3 Raster. Jüngere Kinder beginnen mit 2x2. Ältere Schüler meistern auch 4x4.
 
 Die Hinweisfelder bestimmen die Schwierigkeit. Ein Hinweisfeld zeigt ein bereits platziertes Teil. Mehr Hinweise machen das Puzzle einfacher. Für Einmaleins Übungen wählen Sie mittlere Schwierigkeit. So bleibt die Herausforderung motivierend.`,
@@ -190,8 +190,8 @@ Das Lösungsblatt laden Sie separat herunter. Arbeitsblätter Grundschule und L�
       {
         id: '10',
         icon: '📊',
-        title: 'Räumliches Denken fördern mit Vorschule Arbeitsblättern und Buchstaben lernen',
-        description: `Das Raster-Puzzle fördert wichtige Vorläuferfertigkeiten. Es bereitet auf Mathe Arbeitsblätter und Einmaleins vor. Auch Deutsch Arbeitsblätter profitieren von dieser Methode. Kinder lernen, genau hinzusehen und zu vergleichen.
+        title: 'Räumliches Denken fördern mit Vorschul-Arbeitsblättern und Buchstaben lernen',
+        description: `Das Raster-Puzzle fördert wichtige Vorläuferfertigkeiten. Es bereitet auf Mathe-Arbeitsblätter und Einmaleins vor. Auch Deutsch-Arbeitsblätter profitieren von dieser Methode. Kinder lernen, genau hinzusehen und zu vergleichen.
 
 Das räumliche Denken hilft beim Buchstaben lernen. Die Schwungübungen werden durch Puzzle-Training verbessert. Kinder entwickeln eine bessere Hand-Auge-Koordination. Diese Fähigkeit ist wichtig für das Schreiben.`,
         highlighted: false,
@@ -202,7 +202,7 @@ Das räumliche Denken hilft beim Buchstaben lernen. Die Schwungübungen werden d
   // How-To Guide - FULL text from raster-puzzle.md step sections
   howTo: {
     sectionTitle: 'Anleitung: Kostenlose Arbeitsblätter Grundschule erstellen in 5 einfachen Schritten - Raster-Puzzle Generator',
-    sectionDescription: 'Generieren Sie professionelle Vorschule Arbeitsblätter und Arbeitsblätter Grundschule in unter drei Minuten. Diese Schritt-für-Schritt-Anleitung zeigt Ihnen den kompletten Erstellungsprozess. Keine Designkenntnisse erforderlich für kostenlose Arbeitsblätter. Der optimierte Workflow hilft Lehrkräften, Mathe Arbeitsblätter und Puzzle effizient zu erstellen.',
+    sectionDescription: 'Generieren Sie professionelle Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule in unter drei Minuten. Diese Schritt-für-Schritt-Anleitung zeigt Ihnen den kompletten Erstellungsprozess. Keine Designkenntnisse erforderlich für kostenlose Arbeitsblätter. Der optimierte Workflow hilft Lehrkräften, Mathe-Arbeitsblätter und Puzzle effizient zu erstellen.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
     stepLabel: 'Schritt',
@@ -216,10 +216,10 @@ Das räumliche Denken hilft beim Buchstaben lernen. Die Schwungübungen werden d
       {
         id: '1',
         number: 1,
-        title: 'Schritt 1: Bild auswählen für Vorschule Arbeitsblätter - Mathe Arbeitsblätter mit Motiven',
-        description: `Öffnen Sie den Raster-Puzzle Generator. Die Bildbibliothek erscheint automatisch. Wählen Sie ein Thema aus dem Dropdown-Menü. Tiere, Fahrzeuge oder Lebensmittel stehen zur Verfügung. Für Vorschule Arbeitsblätter empfehlen wir einfache Motive.
+        title: 'Schritt 1: Bild auswählen für Vorschul-Arbeitsblätter - Mathe-Arbeitsblätter mit Motiven',
+        description: `Öffnen Sie den Raster-Puzzle Generator. Die Bildbibliothek erscheint automatisch. Wählen Sie ein Thema aus dem Dropdown-Menü. Tiere, Fahrzeuge oder Lebensmittel stehen zur Verfügung. Für Vorschul-Arbeitsblätter empfehlen wir einfache Motive.
 
-Klicken Sie auf das gewünschte Bild. Es erscheint in der Vorschau. Auch eigene Bilder können Sie hochladen. Die Suche hilft beim Finden bestimmter Motive. Mathe Arbeitsblätter mit Zahlenbildern sind besonders beliebt. Alternativ nutzen Sie die Suchfunktion für schnelles Finden.`,
+Klicken Sie auf das gewünschte Bild. Es erscheint in der Vorschau. Auch eigene Bilder können Sie hochladen. Die Suche hilft beim Finden bestimmter Motive. Mathe-Arbeitsblätter mit Zahlenbildern sind besonders beliebt. Alternativ nutzen Sie die Suchfunktion für schnelles Finden.`,
         icon: '🖼️',
       },
       {
@@ -234,8 +234,8 @@ Die Hinweisfelder bestimmen die Schwierigkeit. Ein Hinweisfeld zeigt ein bereits
       {
         id: '3',
         number: 3,
-        title: 'Schritt 3: Arbeitsblatt generieren - Deutsch Arbeitsblätter und Ausmalbilder in Sekunden',
-        description: `Klicken Sie auf "Neues Arbeitsblatt". Der Generator erstellt Ihr Puzzle sofort. Das Raster erscheint mit nummerierten Feldern. Die Puzzleteile zeigen sich daneben. Deutsch Arbeitsblätter sind in Sekunden fertig.
+        title: 'Schritt 3: Arbeitsblatt generieren - Deutsch-Arbeitsblätter und Ausmalbilder in Sekunden',
+        description: `Klicken Sie auf "Neues Arbeitsblatt". Der Generator erstellt Ihr Puzzle sofort. Das Raster erscheint mit nummerierten Feldern. Die Puzzleteile zeigen sich daneben. Deutsch-Arbeitsblätter sind in Sekunden fertig.
 
 Die Vorschau zeigt das komplette Layout. Prüfen Sie die Anordnung der Teile. Fragezeichen markieren die leeren Felder. Hinweisfelder zeigen bereits die Lösung. Ausmalbilder werden automatisch in Puzzleteile zerlegt.`,
         icon: '✨',
@@ -263,7 +263,7 @@ Rechnen lernen Materialien drucken Sie so kostengünstig. Malvorlagen sehen auch
 
   // Use Cases - FULL descriptions from raster-puzzle.md persona sections
   useCases: {
-    sectionTitle: 'Perfekt für Lehrkräfte und Eltern - Kostenlose Arbeitsblätter für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule',
+    sectionTitle: 'Perfekt für Lehrkräfte und Eltern - Kostenlose Arbeitsblätter für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule',
     sectionDescription: 'Der Raster-Puzzle Generator eignet sich für viele Zielgruppen. Lehrer, Erzieher und Eltern nutzen ihn täglich. Die vielfältigen Einsatzmöglichkeiten überraschen immer wieder. Entdecken Sie, wie auch Sie profitieren können.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
@@ -272,9 +272,9 @@ Rechnen lernen Materialien drucken Sie so kostengünstig. Malvorlagen sehen auch
       {
         id: '1',
         icon: '👶',
-        title: 'Erzieher und Vorschullehrer - Vorschule Arbeitsblätter mit Schwungübungen kombinieren',
-        subtitle: 'Vorschule Arbeitsblätter für kognitive Entwicklung',
-        description: `Erzieher in Kindertagesstätten lieben dieses Werkzeug. Vorschule Arbeitsblätter entstehen in Minuten. Das Raster-Puzzle fördert wichtige Vorläuferfertigkeiten. Die visuelle Wahrnehmung wird spielerisch trainiert. Schwungübungen ergänzen das Puzzle perfekt.
+        title: 'Erzieher und Vorschullehrer - Vorschul-Arbeitsblätter mit Schwungübungen kombinieren',
+        subtitle: 'Vorschul-Arbeitsblätter für kognitive Entwicklung',
+        description: `Erzieher in Kindertagesstätten lieben dieses Werkzeug. Vorschul-Arbeitsblätter entstehen in Minuten. Das Raster-Puzzle fördert wichtige Vorläuferfertigkeiten. Die visuelle Wahrnehmung wird spielerisch trainiert. Schwungübungen ergänzen das Puzzle perfekt.
 
 Die 2x2 Raster sind ideal für Vorschulkinder. Einfache Motive halten die Aufmerksamkeit. Tiere und Fahrzeuge begeistern die Kleinen. Schwungübungen können Sie direkt hinzufügen. So entsteht ein komplettes Lernpaket für die Vorschule.`,
         quote: 'Meine Vorschulkinder lieben die bunten Puzzle mit Tierbildern!',
@@ -282,11 +282,11 @@ Die 2x2 Raster sind ideal für Vorschulkinder. Einfache Motive halten die Aufmer
       {
         id: '2',
         icon: '📚',
-        title: 'Grundschullehrer 1. bis 3. Klasse - Mathe Arbeitsblätter und Einmaleins mit Puzzle',
+        title: 'Grundschullehrer 1. bis 3. Klasse - Mathe-Arbeitsblätter und Einmaleins mit Puzzle',
         subtitle: 'Arbeitsblätter Grundschule für 1. bis 3. Klasse',
-        description: `Lehrer der 1. Klasse bis 3. Klasse Grundschule setzen auf Abwechslung. Mathe Arbeitsblätter werden durch Puzzle aufgelockert. Das Einmaleins üben Kinder motivierter mit Rätseln. Die Belohnung nach der Rechenaufgabe ist das fertige Bild.
+        description: `Lehrer der 1. Klasse bis 3. Klasse Grundschule setzen auf Abwechslung. Mathe-Arbeitsblätter werden durch Puzzle aufgelockert. Das Einmaleins üben Kinder motivierter mit Rätseln. Die Belohnung nach der Rechenaufgabe ist das fertige Bild.
 
-Für die 1. Klasse eignen sich 3x3 Raster. In der 2. und 3. Klasse steigern Sie auf 4x4. Das Einmaleins Training wird so zum Spiel. Mathe Arbeitsblätter mit Puzzle-Elementen sind beliebter. Die Kinder arbeiten konzentrierter und länger.`,
+Für die 1. Klasse eignen sich 3x3 Raster. In der 2. und 3. Klasse steigern Sie auf 4x4. Das Einmaleins Training wird so zum Spiel. Mathe-Arbeitsblätter mit Puzzle-Elementen sind beliebter. Die Kinder arbeiten konzentrierter und länger.`,
         quote: 'Ich erstelle differenzierte Puzzle für alle meine Schüler in Minuten!',
       },
       {
@@ -302,11 +302,11 @@ Erstellen Sie individuelle Lernpläne. Buchstaben lernen am Montag mit A-Puzzle.
       {
         id: '4',
         icon: '🌍',
-        title: 'DaZ-Lehrer - Deutsch Arbeitsblätter in 11 Sprachen für Sprachförderung',
-        subtitle: 'Deutsch Arbeitsblätter für mehrsprachigen Unterricht',
-        description: `Deutsch als Fremdsprache Lehrer profitieren besonders. Deutsch Arbeitsblätter mit Bildvokabeln sind effektiv. Die 11 Sprachen der Bildbibliothek helfen beim Übersetzen. Kinder lernen deutsche Begriffe mit Bildern. Das Puzzle macht den Wortschatz lebendig.
+        title: 'DaZ-Lehrer - Deutsch-Arbeitsblätter in 11 Sprachen für Sprachförderung',
+        subtitle: 'Deutsch-Arbeitsblätter für mehrsprachigen Unterricht',
+        description: `Deutsch als Fremdsprache Lehrer profitieren besonders. Deutsch-Arbeitsblätter mit Bildvokabeln sind effektiv. Die 11 Sprachen der Bildbibliothek helfen beim Übersetzen. Kinder lernen deutsche Begriffe mit Bildern. Das Puzzle macht den Wortschatz lebendig.
 
-Die mehrsprachige Funktion ist einzigartig. Deutsch Arbeitsblätter zeigen das Bild mit deutschem Namen. Der Vergleich zur Muttersprache ist möglich. DaZ-Kinder verstehen schneller den Zusammenhang. Sprachförderung wird spielerisch und effektiv.`,
+Die mehrsprachige Funktion ist einzigartig. Deutsch-Arbeitsblätter zeigen das Bild mit deutschem Namen. Der Vergleich zur Muttersprache ist möglich. DaZ-Kinder verstehen schneller den Zusammenhang. Sprachförderung wird spielerisch und effektiv.`,
         quote: 'Die Mehrsprachigkeit ist genau was meine DaZ-Schüler brauchen.',
       },
       {
@@ -334,8 +334,8 @@ Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut
 
   // FAQ Section - FULL FAQs from raster-puzzle.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zum Raster-Puzzle Generator - Vorschule Arbeitsblätter, Mathe Arbeitsblätter und Kostenlose Arbeitsblätter FAQ',
-    sectionDescription: 'Diese Fragen beantworten die häufigsten Anliegen von Lehrkräften zum Raster-Puzzle Generator. Erfahren Sie mehr über Funktionen, Preise und Anwendungsmöglichkeiten für Ihre Arbeitsblätter Grundschule und Vorschule Arbeitsblätter.',
+    sectionTitle: 'Häufig gestellte Fragen zum Raster-Puzzle Generator - Vorschul-Arbeitsblätter, Mathe-Arbeitsblätter und Kostenlose Arbeitsblätter FAQ',
+    sectionDescription: 'Diese Fragen beantworten die häufigsten Anliegen von Lehrkräften zum Raster-Puzzle Generator. Erfahren Sie mehr über Funktionen, Preise und Anwendungsmöglichkeiten für Ihre Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
     badgeText: 'Häufige Fragen',
@@ -351,18 +351,18 @@ Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut
       },
       {
         id: '2',
-        question: 'Kann ich Mathe Arbeitsblätter zu Hause auf einem normalen Drucker drucken?',
-        answer: 'Ja, alle Mathe Arbeitsblätter sind für Heimdrucker optimiert. Die PDF-Dateien drucken Sie auf jedem Standarddrucker. Letter und A4 Format sind verfügbar. Die Graustufen-Option spart Tinte bei Mathe Arbeitsblättern. Die 300 DPI Qualität garantiert scharfe Ergebnisse.',
+        question: 'Kann ich Mathe-Arbeitsblätter zu Hause auf einem normalen Drucker drucken?',
+        answer: 'Ja, alle Mathe-Arbeitsblätter sind für Heimdrucker optimiert. Die PDF-Dateien drucken Sie auf jedem Standarddrucker. Letter und A4 Format sind verfügbar. Die Graustufen-Option spart Tinte bei Mathe-Arbeitsblättern. Die 300 DPI Qualität garantiert scharfe Ergebnisse.',
       },
       {
         id: '3',
-        question: 'Brauche ich Designkenntnisse für Vorschule Arbeitsblätter mit Einmaleins?',
-        answer: 'Nein, keinerlei Designkenntnisse sind erforderlich. Vorschule Arbeitsblätter erstellen Sie in wenigen Klicks. Das Einmaleins Training fügen Sie einfach als Text hinzu. Der Generator übernimmt die komplette Gestaltung. Wählen Sie Bild und Rastergröße, dann klicken Sie auf Generieren.',
+        question: 'Brauche ich Designkenntnisse für Vorschul-Arbeitsblätter mit Einmaleins?',
+        answer: 'Nein, keinerlei Designkenntnisse sind erforderlich. Vorschul-Arbeitsblätter erstellen Sie in wenigen Klicks. Das Einmaleins Training fügen Sie einfach als Text hinzu. Der Generator übernimmt die komplette Gestaltung. Wählen Sie Bild und Rastergröße, dann klicken Sie auf Generieren.',
       },
       {
         id: '4',
-        question: 'Darf ich Deutsch Arbeitsblätter im Unterricht mit Schülern verwenden?',
-        answer: 'Ja, das Full Access Abonnement erlaubt unbegrenzte Unterrichtsnutzung. Deutsch Arbeitsblätter für Ihre gesamte Klasse sind erlaubt. Kopieren und Verteilen ist inklusive. Keine Einschränkung bei der Schüleranzahl. Die Lizenz gilt für Ihre gesamte Lehrtätigkeit.',
+        question: 'Darf ich Deutsch-Arbeitsblätter im Unterricht mit Schülern verwenden?',
+        answer: 'Ja, das Full Access Abonnement erlaubt unbegrenzte Unterrichtsnutzung. Deutsch-Arbeitsblätter für Ihre gesamte Klasse sind erlaubt. Kopieren und Verteilen ist inklusive. Keine Einschränkung bei der Schüleranzahl. Die Lizenz gilt für Ihre gesamte Lehrtätigkeit.',
       },
       {
         id: '5',
@@ -401,8 +401,8 @@ Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut
       },
       {
         id: '12',
-        question: 'Kann ich Deutsch Arbeitsblätter zu bestimmten Schulfächern erstellen?',
-        answer: 'Das Raster-Puzzle ist fächerübergreifend einsetzbar. Deutsch Arbeitsblätter mit Vokabelbildern sind beliebt. Sachunterricht mit Tierbildern funktioniert hervorragend. Mathematik durch Zahlenbilder ergänzen. Die thematische Bildbibliothek hilft dabei.',
+        question: 'Kann ich Deutsch-Arbeitsblätter zu bestimmten Schulfächern erstellen?',
+        answer: 'Das Raster-Puzzle ist fächerübergreifend einsetzbar. Deutsch-Arbeitsblätter mit Vokabelbildern sind beliebt. Sachunterricht mit Tierbildern funktioniert hervorragend. Mathematik durch Zahlenbilder ergänzen. Die thematische Bildbibliothek hilft dabei.',
       },
     ],
   },
@@ -429,7 +429,7 @@ Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut
   // Related Apps - Apps that work well with grid-match
   relatedApps: {
     sectionTitle: 'Raster-Puzzle mit 32 anderen Generatoren kombinieren - Einmaleins, Schwungübungen und Arbeitsblätter Grundschule',
-    sectionDescription: 'Das Full Access Abonnement enthält 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie Raster-Puzzle Arbeitsblätter mit anderen Generatortypen für vollständige Lernpakete. Erstellen Sie thematische Einheiten die mehrere Fähigkeiten gleichzeitig trainieren. Jeder Generator nutzt dieselbe intuitive Benutzeroberfläche.',
+    sectionDescription: 'Das Full Access Abonnement enthält 33 verschiedene Arbeitsblatt-Generatoren. Kombinieren Sie Raster-Puzzle-Arbeitsblätter mit anderen Generatortypen für vollständige Lernpakete. Erstellen Sie thematische Einheiten die mehrere Fähigkeiten gleichzeitig trainieren. Jeder Generator nutzt dieselbe intuitive Benutzeroberfläche.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlose Testversion Starten',
@@ -456,7 +456,7 @@ Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut
         name: 'Schwungübungen',
         category: 'Feinmotorik',
         icon: '✍️',
-        description: 'Ergänzen Sie Puzzle mit Schwungübungen für vollständige Vorschule Arbeitsblätter. Beide Apps trainieren Feinmotorik und visuelle Wahrnehmung.',
+        description: 'Ergänzen Sie Puzzle mit Schwungübungen für vollständige Vorschul-Arbeitsblätter. Beide Apps trainieren Feinmotorik und visuelle Wahrnehmung.',
       },
       {
         id: '3',
@@ -480,23 +480,23 @@ Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut
         name: 'Zuordnungs-Generator',
         category: 'Logik',
         icon: '🔗',
-        description: 'Ergänzen Sie Puzzle mit Vorschule Arbeitsblätter für Matching-Übungen. Beide trainieren visuelle Unterscheidung.',
+        description: 'Ergänzen Sie Puzzle mit Vorschul-Arbeitsblätter für Matching-Übungen. Beide trainieren visuelle Unterscheidung.',
       },
       {
         id: '6',
         slug: 'math-puzzle',
-        name: 'Mathe Arbeitsblätter',
+        name: 'Mathe-Arbeitsblätter',
         category: 'Mathematik',
         icon: '🧮',
-        description: 'Kombinieren Sie Mathe Arbeitsblätter mit Raster-Puzzle für unterhaltsame Übungspakete. Einmaleins und Zahlenrätsel inklusive.',
+        description: 'Kombinieren Sie Mathe-Arbeitsblätter mit Raster-Puzzle für unterhaltsame Übungspakete. Einmaleins und Zahlenrätsel inklusive.',
       },
       {
         id: '7',
         slug: 'word-search',
-        name: 'Deutsch Arbeitsblätter',
+        name: 'Deutsch-Arbeitsblätter',
         category: 'Sprache',
         icon: '🔍',
-        description: 'Erstellen Sie Deutsch Arbeitsblätter mit Wortsuche und Puzzle. Perfekt für Rechtschreibung und Vokabeltraining.',
+        description: 'Erstellen Sie Deutsch-Arbeitsblätter mit Wortsuche und Puzzle. Perfekt für Rechtschreibung und Vokabeltraining.',
       },
       {
         id: '8',
@@ -512,7 +512,7 @@ Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut
         name: 'Einmaleins Generator',
         category: 'Mathematik',
         icon: '➖',
-        description: 'Ergänzen Sie Einmaleins Übungen mit Raster-Puzzle. Mathe Arbeitsblätter für die Grundschule.',
+        description: 'Ergänzen Sie Einmaleins Übungen mit Raster-Puzzle. Mathe-Arbeitsblätter für die Grundschule.',
       },
       {
         id: '10',
@@ -528,7 +528,7 @@ Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut
         name: 'Buchstaben lernen Schrift',
         category: 'Schreiben',
         icon: '📝',
-        description: 'Ergänzen Sie Buchstaben lernen mit Schreibübungen. Deutsch Arbeitsblätter für die Vorschule.',
+        description: 'Ergänzen Sie Buchstaben lernen mit Schreibübungen. Deutsch-Arbeitsblätter für die Vorschule.',
       },
       {
         id: '12',
@@ -541,10 +541,10 @@ Erstellen Sie thematische Pakete. Malvorlagen zu Jahreszeiten verkaufen sich gut
       {
         id: '13',
         slug: 'crossword',
-        name: 'Deutsch Arbeitsblätter Rätsel',
+        name: 'Deutsch-Arbeitsblätter Rätsel',
         category: 'Sprache',
         icon: '✏️',
-        description: 'Erstellen Sie Deutsch Arbeitsblätter mit Kreuzworträtseln. Kombinieren Sie mit Schwungübungen.',
+        description: 'Erstellen Sie Deutsch-Arbeitsblätter mit Kreuzworträtseln. Kombinieren Sie mit Schwungübungen.',
       },
       {
         id: '14',

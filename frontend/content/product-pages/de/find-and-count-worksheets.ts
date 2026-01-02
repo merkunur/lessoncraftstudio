@@ -11,15 +11,15 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  *
  * German Keywords (from keywords.txt):
  * 1. Arbeitsblätter Grundschule
- * 2. Mathe Arbeitsblätter
- * 3. Vorschule Arbeitsblätter
+ * 2. Mathe-Arbeitsblätter
+ * 3. Vorschul-Arbeitsblätter
  * 4. Einmaleins
  * 5. Schwungübungen
  * 6. Buchstaben lernen
  * 7. Ausmalbilder / Malvorlagen
  * 8. Kostenlose Arbeitsblätter
  * 9. Rechnen lernen / Rechnen 1. Klasse
- * 10. Deutsch Arbeitsblätter
+ * 10. Deutsch-Arbeitsblätter
  */
 
 export const findAndCountDeContent: ProductPageContent = {
@@ -27,8 +27,8 @@ export const findAndCountDeContent: ProductPageContent = {
   seo: {
     slug: 'suchen-und-zaehlen-arbeitsblaetter',
     appId: 'find-and-count',
-    title: 'Suchen und Zählen Generator - Kostenlose Arbeitsblätter Grundschule für Vorschule und Mathe Arbeitsblätter',
-    description: 'Erstellen Sie professionelle Suchen-und-Zählen-Arbeitsblätter mit unserem Generator für Arbeitsblätter Grundschule. Kombinieren Sie visuelle Diskriminierung mit Zählübungen für Vorschule Arbeitsblätter. Perfekt für Mathe Arbeitsblätter und kostenlose Arbeitsblätter 1. Klasse.',
+    title: 'Suchen und Zählen Generator - Kostenlose Arbeitsblätter Grundschule für Vorschule und Mathe-Arbeitsblätter',
+    description: 'Erstellen Sie professionelle Suchen-und-Zählen-Arbeitsblätter mit unserem Generator für Arbeitsblätter Grundschule. Kombinieren Sie visuelle Diskriminierung mit Zählübungen für Vorschul-Arbeitsblätter. Perfekt für Mathe-Arbeitsblätter und kostenlose Arbeitsblätter 1. Klasse.',
     keywords: 'suchen und zählen generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, ich sehe was was du nicht siehst, zählen lernen, visuelle wahrnehmung, einmaleins',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/suchen-und-zaehlen-arbeitsblaetter',
   },
@@ -36,7 +36,7 @@ export const findAndCountDeContent: ProductPageContent = {
   // Hero Section - FULL text from suchen-und-zaehlen.md paragraphs 1-4
   hero: {
     title: 'Suchen und Zählen Generator',
-    subtitle: 'Kostenlose Arbeitsblätter Grundschule für Vorschule und Mathe Arbeitsblätter',
+    subtitle: 'Kostenlose Arbeitsblätter Grundschule für Vorschule und Mathe-Arbeitsblätter',
     description: `Erstellen Sie professionelle Suchen-und-Zählen-Arbeitsblätter mit unserem Generator. Ihr Core Bundle-Abonnement ermöglicht unbegrenzte Arbeitsblatters erstellung ohne zusätzliche Gebühren pro Arbeitsblatt. Generieren Sie individuelle druckbare Arbeitsblätter für Grundschule und Vorschule. Laden Sie hochwertige PDF-Arbeitsblätter in unter 3 Minuten herunter.
 
 Das Suchen-und-Zählen-Format kombiniert visuelle Diskriminierung mit Zählübungen. Kinder suchen versteckte Objekte in einem Bildraster und führen verschiedene Aufgaben aus. Sie können Objekte einkreisen, mit einem Quadrat umrahmen, durchstreichen oder zählen. Perfekt für Erzieher in der Vorschule und Grundschullehrer.
@@ -81,14 +81,14 @@ Die Arbeitsblätter unterstützen verschiedene pädagogische Ziele. Fördern Sie
         id: '1',
         worksheetSrc: '/samples/english/find and count/find and count portrait.jpeg',
         answerKeySrc: '/samples/english/find and count/find and count portrait answer_key.jpeg',
-        altText: 'Hochformat Suchen und Zählen Arbeitsblatt für Vorschule Arbeitsblätter und visuelle Wahrnehmung',
+        altText: 'Hochformat Suchen und Zählen Arbeitsblatt für Vorschul-Arbeitsblätter und visuelle Wahrnehmung',
         pdfDownloadUrl: '/samples/english/find and count/find and count portrait.pdf',
       },
       {
         id: '2',
         worksheetSrc: '/samples/english/find and count/find and count landscape.jpeg',
         answerKeySrc: '/samples/english/find and count/find and count landscape answer_key.jpeg',
-        altText: 'Querformat Suchen und Zählen Arbeitsblatt für Arbeitsblätter Grundschule und Mathe Arbeitsblätter',
+        altText: 'Querformat Suchen und Zählen Arbeitsblatt für Arbeitsblätter Grundschule und Mathe-Arbeitsblätter',
         pdfDownloadUrl: '/samples/english/find and count/find and count landscape.pdf',
       },
     ],
@@ -97,7 +97,7 @@ Die Arbeitsblätter unterstützen verschiedene pädagogische Ziele. Fördern Sie
   // Features Grid - FULL text from suchen-und-zaehlen.md feature sections
   features: {
     sectionTitle: 'Suchen und Zählen Generator Funktionen - Alles für Kostenlose Arbeitsblätter Grundschule',
-    sectionDescription: 'Der Suchen-und-Zählen-Generator bietet umfassende Funktionen für die Erstellung von Arbeitsblättern Grundschule. Alle Werkzeuge sind intuitiv gestaltet und erfordern keine Designkenntnisse. Erstellen Sie in 3 Minuten professionelle Vorschule Arbeitsblätter für Ihre Schüler.',
+    sectionDescription: 'Der Suchen-und-Zählen-Generator bietet umfassende Funktionen für die Erstellung von Arbeitsblättern Grundschule. Alle Werkzeuge sind intuitiv gestaltet und erfordern keine Designkenntnisse. Erstellen Sie in 3 Minuten professionelle Vorschul-Arbeitsblätter für Ihre Schüler.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
@@ -111,7 +111,7 @@ Die Arbeitsblätter unterstützen verschiedene pädagogische Ziele. Fördern Sie
       {
         id: '1',
         icon: '🔍',
-        title: 'Arbeitsblätter Grundschule in 3 Klicks erstellen - Schneller Mathe Arbeitsblätter Generator',
+        title: 'Arbeitsblätter Grundschule in 3 Klicks erstellen - Schneller Mathe-Arbeitsblätter Generator',
         description: `Unser Generator erstellt Arbeitsblätter Grundschule in drei einfachen Schritten. Wählen Sie zuerst Bilder aus unserer Bibliothek mit 3000+ kinderfreundlichen Bildern. Wählen Sie 1 bis 4 Objekte als versteckte Suchziele aus. Klicken Sie auf Generieren und Ihr Arbeitsblatt erscheint sofort.
 
 Die Benutzeroberfläche ist klar strukturiert. Alle Optionen sind logisch angeordnet. Dropdown-Menüs zeigen verfügbare Themen. Bildvorschauen erleichtern die Auswahl. Ein Zähler zeigt wie viele Objekte Sie ausgewählt haben.
@@ -122,7 +122,7 @@ Keine technischen Kenntnisse erforderlich. Kindergärtnerinnen und Grundschulleh
       {
         id: '2',
         icon: '✏️',
-        title: 'Kostenlose Arbeitsblätter vollständig bearbeiten - Komplette Anpassung für Vorschule Arbeitsblätter',
+        title: 'Kostenlose Arbeitsblätter vollständig bearbeiten - Komplette Anpassung für Vorschul-Arbeitsblätter',
         description: `Jedes Element auf dem Arbeitsblatt ist vollständig editierbar. Klicken Sie auf ein Bild um es auszuwählen. Ziehen Sie es an eine neue Position. Verwenden Sie die Eck-Griffe zum Skalieren. Der Rotationsgriff ermöglicht freies Drehen.
 
 Die Bearbeitungswerkzeuge funktionieren intuitiv. Mehrfachauswahl durch Klicken und Ziehen. Gruppen von Objekten gemeinsam verschieben. Ebenenkontrollen für die Z-Reihenfolge. Ausrichtungswerkzeuge für präzise Platzierung.
@@ -133,23 +133,23 @@ Text überall auf der Leinwand hinzufügen. 7 kinderfreundliche Schriftarten ver
       {
         id: '3',
         icon: '📤',
-        title: 'Eigene Bilder hochladen - Individuelle Mathe Arbeitsblätter für Ihre Klasse',
+        title: 'Eigene Bilder hochladen - Individuelle Mathe-Arbeitsblätter für Ihre Klasse',
         description: `Laden Sie eigene Fotos und Bilder hoch. Unterstützt alle gängigen Bildformate (JPEG, PNG, GIF). Mehrfach-Upload für schnelles Hinzufügen mehrerer Bilder. Hochgeladene Bilder können als versteckte Objekte verwendet werden.
 
 Diese Funktion ermöglicht themenbezogene Arbeitsblätter. Fotografieren Sie Objekte aus Ihrem Klassenzimmer. Verwenden Sie Bilder passend zu aktuellen Unterrichtsthemen. Erstellen Sie personalisierte Arbeitsblätter mit Schülernamen.
 
-Kombinieren Sie Bibliotheksbilder mit eigenen Uploads. Mischen Sie verschiedene Bildquellen im gleichen Arbeitsblatt. Alle Bilder lassen sich gleich bearbeiten. Perfekt für individualisierte Vorschule Arbeitsblätter.`,
+Kombinieren Sie Bibliotheksbilder mit eigenen Uploads. Mischen Sie verschiedene Bildquellen im gleichen Arbeitsblatt. Alle Bilder lassen sich gleich bearbeiten. Perfekt für individualisierte Vorschul-Arbeitsblätter.`,
         highlighted: false,
       },
       {
         id: '4',
         icon: '🌍',
-        title: 'Arbeitsblätter Grundschule in 11 Sprachen - Mehrsprachiger Deutsch Arbeitsblätter Generator',
+        title: 'Arbeitsblätter Grundschule in 11 Sprachen - Mehrsprachiger Deutsch-Arbeitsblätter Generator',
         description: `Der Generator unterstützt 11 Sprachen vollständig. UI-Sprache und Inhaltssprache getrennt wählbar. Alle Beschriftungen und Anweisungen übersetzt. Bildnamen in der gewählten Sprache angezeigt.
 
 Unterstützte Sprachen: Deutsch, Englisch, Französisch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Schwedisch, Dänisch, Norwegisch, Finnisch. Der Titel passt sich automatisch der Sprache an. Deutsch: "Ich sehe was, was du nicht siehst", Englisch: "I Spy".
 
-Besonders wertvoll für mehrsprachige Grundschulen. Erstellen Sie Deutsch Arbeitsblätter für DaF-Unterricht. Unterstützen Sie zweisprachigen Immersionsunterricht. Ideal für internationale Schulen und Sprachförderung.`,
+Besonders wertvoll für mehrsprachige Grundschulen. Erstellen Sie Deutsch-Arbeitsblätter für DaF-Unterricht. Unterstützen Sie zweisprachigen Immersionsunterricht. Ideal für internationale Schulen und Sprachförderung.`,
         highlighted: true,
       },
       {
@@ -171,7 +171,7 @@ Viele Konkurrenzplattformen berechnen 100-200€ extra pro Jahr für kommerziell
 
 Suchfunktion über alle Bilder. Filtern nach Thema oder alle Themen durchsuchen. Bildnamen in Ihrer gewählten Sprache. Alphabetische Sortierung für schnellen Zugriff.
 
-Hintergründe und Rahmen inklusive. Hunderte dekorative Rahmenvorlagen. Themenbasierte Hintergründe verfügbar. Deckkraft von Hintergrund und Rahmen einstellbar (0-100%). Perfekt für ansprechende Mathe Arbeitsblätter.`,
+Hintergründe und Rahmen inklusive. Hunderte dekorative Rahmenvorlagen. Themenbasierte Hintergründe verfügbar. Deckkraft von Hintergrund und Rahmen einstellbar (0-100%). Perfekt für ansprechende Mathe-Arbeitsblätter.`,
         highlighted: false,
       },
       {
@@ -182,7 +182,7 @@ Hintergründe und Rahmen inklusive. Hunderte dekorative Rahmenvorlagen. Themenba
 
 Graustufen-Option spart Druckertinte. Mit einem Klick Farbarbeitsblätter in Schwarz-Weiß umwandeln. Behält alle Details und Klarheit bei. Ideal für Klassensätze und Kopien.
 
-Download von Arbeitsblatt und Lösungsschlüssel getrennt. Jedes als separate Datei verfügbar. Drucken Sie nur was Sie brauchen. Professionelle Qualität für Vorschule Arbeitsblätter und Grundschule.`,
+Download von Arbeitsblatt und Lösungsschlüssel getrennt. Jedes als separate Datei verfügbar. Drucken Sie nur was Sie brauchen. Professionelle Qualität für Vorschul-Arbeitsblätter und Grundschule.`,
         highlighted: true,
       },
     ],
@@ -210,7 +210,7 @@ Download von Arbeitsblatt und Lösungsschlüssel getrennt. Jedes als separate Da
 
 Die Bildbibliothek ist thematisch organisiert. Vorschau-Miniaturen zeigen jedes Bild mit Namen. Klicken Sie auf 1 bis 4 Bilder um sie als versteckte Objekte auszuwählen. Ein Zähler zeigt Ihre aktuelle Auswahl.
 
-Für Buchstaben lernen Aktivitäten wählen Sie Alphabet-Bilder. Für Rechnen lernen verwenden Sie Zahlen und Formen. Für Schwungübungen kombinieren Sie mit Schreibaktivitäten. Die Bildauswahl bestimmt den pädagogischen Fokus Ihrer Vorschule Arbeitsblätter.`,
+Für Buchstaben lernen Aktivitäten wählen Sie Alphabet-Bilder. Für Rechnen lernen verwenden Sie Zahlen und Formen. Für Schwungübungen kombinieren Sie mit Schreibaktivitäten. Die Bildauswahl bestimmt den pädagogischen Fokus Ihrer Vorschul-Arbeitsblätter.`,
         icon: '🎨',
       },
       {
@@ -227,7 +227,7 @@ Wählen Sie Seitengröße und Ausrichtung. Letter Hochformat ist Standard für U
       {
         id: '3',
         number: 3,
-        title: 'Arbeitsblatt generieren für Vorschule Arbeitsblätter - Sofortige Vorschau',
+        title: 'Arbeitsblatt generieren für Vorschul-Arbeitsblätter - Sofortige Vorschau',
         description: `Klicken Sie auf die Schaltfläche "Generieren". Das System erstellt Ihr Arbeitsblatt sofort. Die Generierung dauert nur wenige Sekunden. Ihr Arbeitsblatt Grundschule erscheint auf der Leinwand.
 
 Das System platziert die versteckten Objekte zufällig im Raster. Jedes ausgewählte Objekt erscheint 2-mal im Raster. Die verbleibenden Zellen werden mit verschiedenen Bildern aus dem gewählten Thema gefüllt. Der Algorithmus sorgt für gleichmäßige Verteilung.
@@ -238,12 +238,12 @@ Der automatische Lösungsschlüssel wird gleichzeitig erstellt. Wechseln Sie zum
       {
         id: '4',
         number: 4,
-        title: 'Auf Leinwand bearbeiten für Deutsch Arbeitsblätter - Volle Anpassung',
+        title: 'Auf Leinwand bearbeiten für Deutsch-Arbeitsblätter - Volle Anpassung',
         description: `Jetzt kommt die vollständige Bearbeitung. Klicken Sie auf jedes Element um es auszuwählen. Ziehen Sie Bilder an neue Positionen. Verwenden Sie Eck-Griffe zum Skalieren. Der Rotationsgriff ermöglicht Drehen.
 
 Fügen Sie benutzerdefinierten Text hinzu. Klicken Sie auf "Text hinzufügen". Geben Sie Namen, Anweisungen oder Fragen ein. Wählen Sie aus 7 kinderfreundlichen Schriftarten. Passen Sie Farbe, Größe und Konturenbreite an.
 
-Die Ausrichtungswerkzeuge helfen bei präziser Platzierung. Links, Mitte, Rechts für horizontale Ausrichtung. Oben, Mitte, Unten für vertikale Ausrichtung. Ideal für symmetrische Deutsch Arbeitsblätter.`,
+Die Ausrichtungswerkzeuge helfen bei präziser Platzierung. Links, Mitte, Rechts für horizontale Ausrichtung. Oben, Mitte, Unten für vertikale Ausrichtung. Ideal für symmetrische Deutsch-Arbeitsblätter.`,
         icon: '📝',
       },
       {
@@ -272,7 +272,7 @@ Laden Sie Arbeitsblatt und Antwortschlüssel getrennt herunter. Jedes als separa
         id: '1',
         icon: '👶',
         title: 'Erzieher in Vorschule',
-        subtitle: 'Schwungübungen und Ausmalbilder für Vorschule Arbeitsblätter',
+        subtitle: 'Schwungübungen und Ausmalbilder für Vorschul-Arbeitsblätter',
         description: `Erzieher in der Vorschule verwenden Suchen-und-Zählen-Arbeitsblätter täglich. Die visuellen Suchaufgaben fördern Aufmerksamkeit und Konzentration. Kinder lernen Details zu beobachten. Sie entwickeln visuelle Diskriminierungsfähigkeiten die fürs Lesen wichtig sind.
 
 Die Einkreis-Aufgabe trainiert Schwungübungen perfekt. Kinder üben kreisförmige Bewegungen. Diese Bewegungen sind Vorstufen zum Schreiben. Schwungübungen bereiten auf Buchstaben lernen vor. Die motorische Kontrolle verbessert sich durch wiederholtes Üben.
@@ -284,7 +284,7 @@ Kombinieren Sie Suchen-und-Zählen mit Ausmalbilder Aktivitäten. Nach dem Finde
         id: '2',
         icon: '📚',
         title: 'Grundschullehrer 1. bis 3. Klasse',
-        subtitle: 'Einmaleins und Rechnen lernen mit Mathe Arbeitsblätter',
+        subtitle: 'Einmaleins und Rechnen lernen mit Mathe-Arbeitsblätter',
         description: `Grundschullehrer der 1. bis 3. Klasse integrieren Suchen-und-Zählen in den Mathematikunterricht. Die Zählaufgabe trainiert Rechnen lernen praktisch. Kinder zählen versteckte Objekte und schreiben die Zahl auf. Dies festigt Zahlenverständnis und Zahlschreibung.
 
 Erstellen Sie Einmaleins-Übungen mit dem Generator. Platzieren Sie Objekte in bestimmten Mengen. Kinder zählen und multiplizieren die Ergebnisse. Einmaleins wird visuell greifbar.
@@ -296,19 +296,19 @@ Die anpassbare Rastergröße ermöglicht Differenzierung. Leistungsschwächere S
         id: '3',
         icon: '🏠',
         title: 'Homeschool-Eltern',
-        subtitle: 'Buchstaben lernen und Deutsch Arbeitsblätter für zu Hause',
+        subtitle: 'Buchstaben lernen und Deutsch-Arbeitsblätter für zu Hause',
         description: `Homeschool-Eltern schätzen die Flexibilität des Generators. Erstellen Sie morgens frische Arbeitsblätter passend zur Tagesstimmung. Keine Vorbereitung am Vorabend nötig. Drei Minuten genügen für ein komplettes Arbeitsblatt.
 
 Integrieren Sie Buchstaben lernen in Suchaufgaben. Verwenden Sie Objekte die mit bestimmten Buchstaben beginnen. "Finde alle Objekte die mit B beginnen." Kinder verbinden visuelle Suche mit Phonetik. Buchstaben lernen wird spielerisch.
 
-Erstellen Sie thematische Lernpakete für die Woche. Montag: Bauernhoftiere für Deutsch Arbeitsblätter. Dienstag: Formen für Geometrie. Mittwoch: Essen für Ernährungskunde. Freitag: Wiederholung mit Lieblingsthemen.`,
+Erstellen Sie thematische Lernpakete für die Woche. Montag: Bauernhoftiere für Deutsch-Arbeitsblätter. Dienstag: Formen für Geometrie. Mittwoch: Essen für Ernährungskunde. Freitag: Wiederholung mit Lieblingsthemen.`,
         quote: 'Meine Kinder lieben die personalisierten Suchen-und-Zählen-Arbeitsblätter!',
       },
       {
         id: '4',
         icon: '🌐',
         title: 'DaF- und Fremdsprachenlehrer',
-        subtitle: 'Mehrsprachige Deutsch Arbeitsblätter und Vokabeln',
+        subtitle: 'Mehrsprachige Deutsch-Arbeitsblätter und Vokabeln',
         description: `DaF-Lehrer (Deutsch als Fremdsprache) nutzen den Generator für Vokabeltraining. Die Bildnamen erscheinen in der gewählten Sprache. Schüler lernen Wörter mit visueller Unterstützung. Der Kontext hilft beim Erinnern.
 
 Erstellen Sie identische Arbeitsblätter in zwei Sprachen. Schüler vergleichen deutsche und englische Versionen. Sie erkennen Wortunterschiede und Ähnlichkeiten. Dies fördert metalinguistisches Bewusstsein.
@@ -320,7 +320,7 @@ Die 11 Sprachen ermöglichen vielfältige Sprachkombinationen. Deutsch-Französi
         id: '5',
         icon: '🎯',
         title: 'Sonderpädagogen',
-        subtitle: 'Differenzierte Vorschule Arbeitsblätter und visuelle Unterstützung',
+        subtitle: 'Differenzierte Vorschul-Arbeitsblätter und visuelle Unterstützung',
         description: `Sonderpädagogen nutzen die anpassbare Komplexität. Schüler mit Aufmerksamkeitsschwierigkeiten erhalten 5×5 Raster. Weniger visuelle Ablenkung hilft bei Fokussierung. Klare, große Bilder erleichtern Erkennung.
 
 Die Aufgabenvielfalt unterstützt verschiedene Fähigkeiten. Einkreisen für Schüler mit guter Feinmotorik. Durchstreichen für Schüler die Kreise schwierig finden. Zählen für Schüler die Schreiben vermeiden. Jeder findet eine passende Aufgabe.
@@ -335,7 +335,7 @@ Erstellen Sie personalisierte Arbeitsblätter mit vertrauten Objekten. Laden Sie
         subtitle: 'Kostenlose Arbeitsblätter verkaufen mit POD-Lizenz',
         description: `Lehrerunternehmer verkaufen selbsterstellte Materialien auf Teachers Pay Teachers und Etsy. Der Generator mit POD-Lizenz ist ideal für dieses Geschäftsmodell. Erstellen Sie unbegrenzt viele Arbeitsblätter ohne zusätzliche Kosten.
 
-Erstellen Sie thematische Bundles für bessere Verkäufe. "20 Herbst-Suchaufgaben für Vorschule Arbeitsblätter". "15 Weihnachts-Themen für Grundschule". Bundles erzielen höhere Preise als einzelne Arbeitsblätter.
+Erstellen Sie thematische Bundles für bessere Verkäufe. "20 Herbst-Suchaufgaben für Vorschul-Arbeitsblätter". "15 Weihnachts-Themen für Grundschule". Bundles erzielen höhere Preise als einzelne Arbeitsblätter.
 
 Die 300-DPI-Qualität ist essenziell für kommerzielle Produkte. Käufer erwarten gestochen scharfe Ausdrucke. Professionelle Qualität rechtfertigt höhere Preise. Ihre Produkte stechen hervor.`,
         quote: 'Meine Suchen-und-Zählen-Bundles verkaufen sich hervorragend auf TPT!',
@@ -357,28 +357,28 @@ Die 300-DPI-Qualität ist essenziell für kommerzielle Produkte. Käufer erwarte
     items: [
       {
         id: '1',
-        question: 'Ist dieser Suchen-und-Zählen-Generator wirklich kostenlos für Vorschule Arbeitsblätter und Schwungübungen zu verwenden?',
-        answer: 'Der Suchen-und-Zählen-Generator erfordert ein Core Bundle-Abonnement für 144€ jährlich oder 15€ monatlich. Ihr Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Gebühren pro Blatt. Generieren Sie so viele Vorschule Arbeitsblätter und Schwungübungen wie Sie benötigen ohne Extrakosten. Das Core Bundle enthält 10 beliebte Arbeitsblatt-Generatoren inklusive Suchen-und-Zählen.',
+        question: 'Ist dieser Suchen-und-Zählen-Generator wirklich kostenlos für Vorschul-Arbeitsblätter und Schwungübungen zu verwenden?',
+        answer: 'Der Suchen-und-Zählen-Generator erfordert ein Core Bundle-Abonnement für 144€ jährlich oder 15€ monatlich. Ihr Abonnement ermöglicht unbegrenzte Arbeitsblatt-Erstellung ohne zusätzliche Gebühren pro Blatt. Generieren Sie so viele Vorschul-Arbeitsblätter und Schwungübungen wie Sie benötigen ohne Extrakosten. Das Core Bundle enthält 10 beliebte Arbeitsblatt-Generatoren inklusive Suchen-und-Zählen.',
       },
       {
         id: '2',
-        question: 'Kann ich Arbeitsblätter Grundschule und Mathe Arbeitsblätter zu Hause auf einem normalen Drucker ausdrucken?',
-        answer: 'Ja, alle Arbeitsblätter Grundschule und Mathe Arbeitsblätter sind für Heimdrucker optimiert. Die PDF-Exporte funktionieren mit jedem Standarddrucker. Wählen Sie Letter- oder A4-Format je nach Region. Die Dateien öffnen sich in jedem PDF-Reader problemlos. Die Graustufen-Option ist ideal für Heimdruck um Tinte zu sparen.',
+        question: 'Kann ich Arbeitsblätter Grundschule und Mathe-Arbeitsblätter zu Hause auf einem normalen Drucker ausdrucken?',
+        answer: 'Ja, alle Arbeitsblätter Grundschule und Mathe-Arbeitsblätter sind für Heimdrucker optimiert. Die PDF-Exporte funktionieren mit jedem Standarddrucker. Wählen Sie Letter- oder A4-Format je nach Region. Die Dateien öffnen sich in jedem PDF-Reader problemlos. Die Graustufen-Option ist ideal für Heimdruck um Tinte zu sparen.',
       },
       {
         id: '3',
-        question: 'Benötige ich Designkenntnisse um Deutsch Arbeitsblätter und Einmaleins-Übungen zu erstellen?',
-        answer: 'Nein, keinerlei Designkenntnisse erforderlich für Deutsch Arbeitsblätter und Einmaleins-Übungen. Die Benutzeroberfläche ist intuitiv gestaltet. Alle Optionen sind klar beschriftet. Dropdown-Menüs zeigen verfügbare Auswahlmöglichkeiten. Der Generator führt Sie durch jeden Schritt. Die 3-Minuten-Erstellung ist keine Übertreibung.',
+        question: 'Benötige ich Designkenntnisse um Deutsch-Arbeitsblätter und Einmaleins-Übungen zu erstellen?',
+        answer: 'Nein, keinerlei Designkenntnisse erforderlich für Deutsch-Arbeitsblätter und Einmaleins-Übungen. Die Benutzeroberfläche ist intuitiv gestaltet. Alle Optionen sind klar beschriftet. Dropdown-Menüs zeigen verfügbare Auswahlmöglichkeiten. Der Generator führt Sie durch jeden Schritt. Die 3-Minuten-Erstellung ist keine Übertreibung.',
       },
       {
         id: '4',
-        question: 'Kann ich Vorschule Arbeitsblätter und Schwungübungen in meinem Klassenzimmer für Schüler verwenden?',
-        answer: 'Das Core Bundle-Abonnement umfasst unbegrenzte Klassenzimmer-Nutzung. Drucken Sie so viele Kopien wie Sie benötigen für alle Schüler. Nutzen Sie die Vorschule Arbeitsblätter und Schwungübungen in Vorschulgruppen, Kindergarten und Grundschule. Keine Einschränkungen bei der Anzahl der Schüler.',
+        question: 'Kann ich Vorschul-Arbeitsblätter und Schwungübungen in meinem Klassenzimmer für Schüler verwenden?',
+        answer: 'Das Core Bundle-Abonnement umfasst unbegrenzte Klassenzimmer-Nutzung. Drucken Sie so viele Kopien wie Sie benötigen für alle Schüler. Nutzen Sie die Vorschul-Arbeitsblätter und Schwungübungen in Vorschulgruppen, Kindergarten und Grundschule. Keine Einschränkungen bei der Anzahl der Schüler.',
       },
       {
         id: '5',
-        question: 'Welche Sprachen sind verfügbar für Mathe Arbeitsblätter und Rechnen lernen Aktivitäten?',
-        answer: 'Der Generator unterstützt 11 Sprachen vollständig für Mathe Arbeitsblätter und Rechnen lernen. Verfügbare Sprachen: Deutsch, Englisch, Französisch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Schwedisch, Dänisch, Norwegisch, Finnisch. Sowohl UI als auch Bildnamen sind übersetzt.',
+        question: 'Welche Sprachen sind verfügbar für Mathe-Arbeitsblätter und Rechnen lernen Aktivitäten?',
+        answer: 'Der Generator unterstützt 11 Sprachen vollständig für Mathe-Arbeitsblätter und Rechnen lernen. Verfügbare Sprachen: Deutsch, Englisch, Französisch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Schwedisch, Dänisch, Norwegisch, Finnisch. Sowohl UI als auch Bildnamen sind übersetzt.',
       },
       {
         id: '6',
@@ -387,13 +387,13 @@ Die 300-DPI-Qualität ist essenziell für kommerzielle Produkte. Käufer erwarte
       },
       {
         id: '7',
-        question: 'Für welche Altersgruppen eignen sich Vorschule Arbeitsblätter und Einmaleins-Übungen am besten?',
-        answer: 'Vorschule Arbeitsblätter eignen sich ideal für 3-6-jährige Kinder. Diese Altersgruppe liebt visuelle Suchspiele. Einfache Einkreis-Aufgaben trainieren Feinmotorik. Einmaleins-Übungen funktionieren am besten für 6-9-Jährige in der Grundschule. Die anpassbare Schwierigkeit unterstützt alle Entwicklungsstufen perfekt.',
+        question: 'Für welche Altersgruppen eignen sich Vorschul-Arbeitsblätter und Einmaleins-Übungen am besten?',
+        answer: 'Vorschul-Arbeitsblätter eignen sich ideal für 3-6-jährige Kinder. Diese Altersgruppe liebt visuelle Suchspiele. Einfache Einkreis-Aufgaben trainieren Feinmotorik. Einmaleins-Übungen funktionieren am besten für 6-9-Jährige in der Grundschule. Die anpassbare Schwierigkeit unterstützt alle Entwicklungsstufen perfekt.',
       },
       {
         id: '8',
-        question: 'Kann ich eigene Fotos hochladen für Mathe Arbeitsblätter und Schwungübungen?',
-        answer: 'Ja, die Upload-Funktion unterstützt eigene Fotos für Mathe Arbeitsblätter und Schwungübungen. Klicken Sie auf "Bilder hochladen" und wählen Sie mehrere Dateien aus. Alle gängigen Formate werden akzeptiert (JPEG, PNG, GIF). Ihre Bilder erscheinen sofort zur Verwendung als versteckte Objekte.',
+        question: 'Kann ich eigene Fotos hochladen für Mathe-Arbeitsblätter und Schwungübungen?',
+        answer: 'Ja, die Upload-Funktion unterstützt eigene Fotos für Mathe-Arbeitsblätter und Schwungübungen. Klicken Sie auf "Bilder hochladen" und wählen Sie mehrere Dateien aus. Alle gängigen Formate werden akzeptiert (JPEG, PNG, GIF). Ihre Bilder erscheinen sofort zur Verwendung als versteckte Objekte.',
       },
       {
         id: '9',
@@ -407,13 +407,13 @@ Die 300-DPI-Qualität ist essenziell für kommerzielle Produkte. Käufer erwarte
       },
       {
         id: '11',
-        question: 'Kann ich Mathe Arbeitsblätter und Buchstaben lernen Aktivitäten über spezifische Schulfächer erstellen?',
-        answer: 'Ja, erstellen Sie Mathe Arbeitsblätter und Buchstaben lernen Aktivitäten zu jedem Schulfach. Die 3000+ Bildbibliothek deckt alle Themen ab. Mathematik: Zahlen, Formen, Muster. Deutsch: Buchstaben, Objekte für Phonetik. Sachunterricht: Tiere, Pflanzen, Wetter. Jedes Fach profitiert vom visuellen Suchformat.',
+        question: 'Kann ich Mathe-Arbeitsblätter und Buchstaben lernen Aktivitäten über spezifische Schulfächer erstellen?',
+        answer: 'Ja, erstellen Sie Mathe-Arbeitsblätter und Buchstaben lernen Aktivitäten zu jedem Schulfach. Die 3000+ Bildbibliothek deckt alle Themen ab. Mathematik: Zahlen, Formen, Muster. Deutsch: Buchstaben, Objekte für Phonetik. Sachunterricht: Tiere, Pflanzen, Wetter. Jedes Fach profitiert vom visuellen Suchformat.',
       },
       {
         id: '12',
-        question: 'Wie kann ich Deutsch Arbeitsblätter und Buchstaben lernen Aktivitäten für meine Schüler anpassen?',
-        answer: 'Deutsch Arbeitsblätter und Buchstaben lernen Aktivitäten sind vollständig anpassbar. Wählen Sie Buchstaben-Bilder aus der Bibliothek für Phonetik-Übungen. Laden Sie eigene Fotos von Gegenständen hoch die mit bestimmten Buchstaben beginnen. Fügen Sie benutzerdefinierten Text für spezielle Anweisungen hinzu.',
+        question: 'Wie kann ich Deutsch-Arbeitsblätter und Buchstaben lernen Aktivitäten für meine Schüler anpassen?',
+        answer: 'Deutsch-Arbeitsblätter und Buchstaben lernen Aktivitäten sind vollständig anpassbar. Wählen Sie Buchstaben-Bilder aus der Bibliothek für Phonetik-Übungen. Laden Sie eigene Fotos von Gegenständen hoch die mit bestimmten Buchstaben beginnen. Fügen Sie benutzerdefinierten Text für spezielle Anweisungen hinzu.',
       },
     ],
   },
@@ -439,7 +439,7 @@ Die 300-DPI-Qualität ist essenziell für kommerzielle Produkte. Käufer erwarte
   // Related Apps - Kombinieren Sie Suchen-und-Zählen mit anderen Generatoren
   relatedApps: {
     sectionTitle: 'Kombinieren Sie Suchen-und-Zählen mit anderen Generatoren - Ganzheitliche Arbeitsblätter Grundschule',
-    sectionDescription: 'Ihr Core Bundle Abonnement beinhaltet 10 Generatoren, die perfekt zusammenarbeiten. Kombinieren Sie Suchen-und-Zählen mit Mathe Arbeitsblättern für Rechnen lernen. Verbinden Sie mit Schwungübungen für Feinmotorik-Training. Erstellen Sie thematische Lernpakete.',
+    sectionDescription: 'Ihr Core Bundle Abonnement beinhaltet 10 Generatoren, die perfekt zusammenarbeiten. Kombinieren Sie Suchen-und-Zählen mit Mathe-Arbeitsblättern für Rechnen lernen. Verbinden Sie mit Schwungübungen für Feinmotorik-Training. Erstellen Sie thematische Lernpakete.',
     ctaTitle: 'Bereit, fantastische Suchen-und-Zählen-Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlos Testen',
@@ -455,7 +455,7 @@ Die 300-DPI-Qualität ist essenziell für kommerzielle Produkte. Käufer erwarte
       {
         id: '1',
         slug: 'image-addition',
-        name: 'Mathe Arbeitsblätter',
+        name: 'Mathe-Arbeitsblätter',
         category: 'Mathematik',
         icon: '➕',
         description: 'Kombinieren Sie Suchen-und-Zählen mit Additions-Arbeitsblättern für ganzheitliches Rechnen lernen.',

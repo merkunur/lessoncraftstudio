@@ -11,15 +11,15 @@ import { ProductPageContent } from '@/components/product-page/ProductPageClient'
  *
  * German Keywords (from keywords.txt):
  * 1. Arbeitsblätter Grundschule
- * 2. Mathe Arbeitsblätter
- * 3. Vorschule Arbeitsblätter
+ * 2. Mathe-Arbeitsblätter
+ * 3. Vorschul-Arbeitsblätter
  * 4. Einmaleins
  * 5. Schwungübungen
  * 6. Buchstaben lernen
  * 7. Ausmalbilder / Malvorlagen
  * 8. Kostenlose Arbeitsblätter
  * 9. Rechnen lernen / Rechnen 1. Klasse
- * 10. Deutsch Arbeitsblätter
+ * 10. Deutsch-Arbeitsblätter
  *
  * Pricing: Core Bundle = 144€/year or 15€/month
  */
@@ -30,7 +30,7 @@ export const alphabetTrainDeContent: ProductPageContent = {
     slug: 'alphabet-zug-arbeitsblaetter',
     appId: 'alphabet-train',
     title: 'Alphabet-Zug Generator - Kostenlose Arbeitsblätter Grundschule zum Buchstaben lernen',
-    description: 'Erstellen Sie professionelle Arbeitsblätter zum Buchstaben lernen mit unserem Alphabet-Zug Generator. Perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule. Kombinieren Sie mit Schwungübungen und Ausmalbilder für komplette Lernpakete.',
+    description: 'Erstellen Sie professionelle Arbeitsblätter zum Buchstaben lernen mit unserem Alphabet-Zug Generator. Perfekt für Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule. Kombinieren Sie mit Schwungübungen und Ausmalbilder für komplette Lernpakete.',
     keywords: 'alphabet zug, buchstaben lernen, arbeitsblätter grundschule, vorschule arbeitsblätter, kostenlose arbeitsblätter, deutsch arbeitsblätter, schwungübungen, ausmalbilder, abc lernen, alphabet arbeitsblätter',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/alphabet-zug-arbeitsblaetter',
   },
@@ -39,11 +39,11 @@ export const alphabetTrainDeContent: ProductPageContent = {
   hero: {
     title: 'Alphabet-Zug Generator',
     subtitle: 'Kostenlose Arbeitsblätter zum Buchstaben lernen für Vorschule und Grundschule',
-    description: `Erstellen Sie professionelle Arbeitsblätter zum Buchstaben lernen mit unserem Alphabet-Zug Generator. Mit Ihrem Core Bundle Abonnement (15 € pro Monat) erstellen Sie unbegrenzt viele Vorschule Arbeitsblätter ohne zusätzliche Kosten pro Arbeitsblatt. Der Alphabet-Zug verbindet spielerisches Lernen mit systematischer Buchstabenerkennung. Jeder Waggon zeigt einen Buchstaben und ein passendes Bild. Perfekt für Erzieher in der Vorschule und Lehrer in der 1. bis 3. Klasse Grundschule.
+    description: `Erstellen Sie professionelle Arbeitsblätter zum Buchstaben lernen mit unserem Alphabet-Zug Generator. Mit Ihrem Core Bundle Abonnement (15 € pro Monat) erstellen Sie unbegrenzt viele Vorschul-Arbeitsblätter ohne zusätzliche Kosten pro Arbeitsblatt. Der Alphabet-Zug verbindet spielerisches Lernen mit systematischer Buchstabenerkennung. Jeder Waggon zeigt einen Buchstaben und ein passendes Bild. Perfekt für Erzieher in der Vorschule und Lehrer in der 1. bis 3. Klasse Grundschule.
 
 Unser Generator für Buchstaben lernen macht die Erstellung kinderleicht. Wählen Sie 11 Buchstaben aus dem deutschen Alphabet aus. Der Alphabet-Zug zeigt dann jeden Buchstaben mit einem passenden Bild auf einem bunten Waggon. Kinder lernen so Buchstaben und verbinden sie gleichzeitig mit Bildern. Diese Verbindung von visuellen und sprachlichen Elementen unterstützt den Lernprozess nachhaltig.
 
-Die Arbeitsblätter eignen sich hervorragend für Vorschule Arbeitsblätter und Deutsch Arbeitsblätter in der Grundschule. Laden Sie hochauflösende PDF-Dateien in professioneller 300 DPI Qualität herunter. Drucken Sie Ihre kostenlose Arbeitsblätter zu Hause oder in der Schule aus. Jedes Arbeitsblatt enthält einen Lösungsschlüssel für schnelle Kontrolle.`,
+Die Arbeitsblätter eignen sich hervorragend für Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter in der Grundschule. Laden Sie hochauflösende PDF-Dateien in professioneller 300 DPI Qualität herunter. Drucken Sie Ihre kostenlose Arbeitsblätter zu Hause oder in der Schule aus. Jedes Arbeitsblatt enthält einen Lösungsschlüssel für schnelle Kontrolle.`,
     previewImageSrc: '/samples/english/alphabet-train/alphabet train portrait.jpeg',
     ctaLabels: {
       tryFree: 'Kostenlos Testen',
@@ -96,7 +96,7 @@ Die Arbeitsblätter eignen sich hervorragend für Vorschule Arbeitsblätter und 
 
   // Features Grid - FULL text from alphabet-train.md feature sections
   features: {
-    sectionTitle: 'Funktionen des Alphabet-Zug Generators - Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
+    sectionTitle: 'Funktionen des Alphabet-Zug Generators - Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter',
     sectionDescription: 'Unser Alphabet-Zug Generator bietet alle Funktionen die Erzieher und Grundschullehrer benötigen. Erstellen Sie kostenlose Arbeitsblätter für Buchstaben lernen in wenigen Minuten. Jede Funktion wurde speziell für die Bedürfnisse von Vorschule und Grundschule entwickelt.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',
@@ -111,10 +111,10 @@ Die Arbeitsblätter eignen sich hervorragend für Vorschule Arbeitsblätter und 
       {
         id: '1',
         icon: '🚂',
-        title: 'Arbeitsblätter erstellen in nur 3 Klicks - Schnelle Vorschule Arbeitsblätter und Buchstaben lernen',
+        title: 'Arbeitsblätter erstellen in nur 3 Klicks - Schnelle Vorschul-Arbeitsblätter und Buchstaben lernen',
         description: `Die Erstellung von Arbeitsblätter Grundschule war noch nie so einfach. Wählen Sie 11 Buchstaben aus dem deutschen Alphabet. Jeder Buchstabe bekommt automatisch einen bunten Waggon im Alphabet-Zug. Wählen Sie Bilder aus über 3000 kindgerechten Motiven. Klicken Sie auf Generieren. Fertig.
 
-Der gesamte Prozess dauert unter 3 Minuten. Kein kompliziertes Design-Programm erforderlich. Keine Einarbeitungszeit nötig. Ideal für vielbeschäftigte Erzieher die schnell kostenlose Arbeitsblätter benötigen. Perfekt für Lehrer die Deutsch Arbeitsblätter und Vorschule Arbeitsblätter in hoher Qualität erstellen möchten.
+Der gesamte Prozess dauert unter 3 Minuten. Kein kompliziertes Design-Programm erforderlich. Keine Einarbeitungszeit nötig. Ideal für vielbeschäftigte Erzieher die schnell kostenlose Arbeitsblätter benötigen. Perfekt für Lehrer die Deutsch-Arbeitsblätter und Vorschul-Arbeitsblätter in hoher Qualität erstellen möchten.
 
 Die automatische Zuordnung funktioniert intelligent. Wählen Sie ein Thema wie Tiere oder Essen. Das System wählt automatisch 11 passende Buchstaben und Bilder aus. Aktivieren Sie einfach die Auto-Erstellen Funktion. Der Alphabet-Zug wird komplett automatisch generiert.`,
         highlighted: true,
@@ -127,27 +127,27 @@ Die automatische Zuordnung funktioniert intelligent. Wählen Sie ein Thema wie T
 
 Die Bearbeitungsfunktionen sind intuitiv gestaltet. Klicken Sie auf ein Element und bewegen Sie es. Ziehen Sie an den Ecken zum Vergrößern oder Verkleinern. Drehen Sie mit dem Drehgriff. Löschen Sie mit der Entfernen-Taste. Einfacher geht es nicht für kostenlose Arbeitsblätter Erstellung.
 
-Fügen Sie eigene Textelemente hinzu. Schreiben Sie Überschriften für Ihre Vorschule Arbeitsblätter. Fügen Sie Anweisungen für Buchstaben lernen Aufgaben hinzu. Wählen Sie aus 7 verschiedenen Schriftarten. Passen Sie Farben und Größen individuell an.`,
+Fügen Sie eigene Textelemente hinzu. Schreiben Sie Überschriften für Ihre Vorschul-Arbeitsblätter. Fügen Sie Anweisungen für Buchstaben lernen Aufgaben hinzu. Wählen Sie aus 7 verschiedenen Schriftarten. Passen Sie Farben und Größen individuell an.`,
         highlighted: false,
       },
       {
         id: '3',
         icon: '📤',
-        title: 'Eigene Bilder hochladen für personalisierte Vorschule Arbeitsblätter und Deutsch Arbeitsblätter',
+        title: 'Eigene Bilder hochladen für personalisierte Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter',
         description: `Laden Sie Ihre eigenen Bilder hoch für individualisierte Arbeitsblätter Grundschule. Fotografieren Sie Gegenstände aus Ihrem Klassenzimmer. Nutzen Sie Bilder von Klassentieren oder Schulmaterialien. Machen Sie Ihre Buchstaben lernen Arbeitsblätter persönlich und vertraut.
 
 Der Multi-Datei Upload funktioniert mit allen gängigen Formaten. JPEG, PNG und GIF werden unterstützt. Laden Sie mehrere Bilder gleichzeitig hoch. Die Bilder werden sofort in der Bibliothek angezeigt. Weisen Sie sie den gewünschten Buchstaben zu.
 
-Kombinieren Sie hochgeladene Bilder mit der 3000+ Bilder Bibliothek. Erstellen Sie thematische Arbeitsblätter. Nutzen Sie Fotos von Schülernamen für personalisierte Vorschule Arbeitsblätter.`,
+Kombinieren Sie hochgeladene Bilder mit der 3000+ Bilder Bibliothek. Erstellen Sie thematische Arbeitsblätter. Nutzen Sie Fotos von Schülernamen für personalisierte Vorschul-Arbeitsblätter.`,
         highlighted: false,
       },
       {
         id: '4',
         icon: '🌍',
-        title: 'Arbeitsblätter in 11 Sprachen - Mehrsprachige Vorschule Arbeitsblätter für Buchstaben lernen',
+        title: 'Arbeitsblätter in 11 Sprachen - Mehrsprachige Vorschul-Arbeitsblätter für Buchstaben lernen',
         description: `Der Alphabet-Zug Generator unterstützt 11 verschiedene Sprachen. Perfekt für mehrsprachige Grundschulen. Ideal für Deutsch als Fremdsprache Unterricht. Erstellen Sie Arbeitsblätter Grundschule in der Muttersprache Ihrer Schüler.
 
-Die deutsche Version enthält das komplette deutsche Alphabet inklusive Ä, Ö und Ü. Die Buchstaben erscheinen in der korrekten alphabetischen Reihenfolge. Alle 3000+ Bilder in der Bibliothek sind auf Deutsch beschriftet. Perfekt für authentische Deutsch Arbeitsblätter und Buchstaben lernen Materialien.
+Die deutsche Version enthält das komplette deutsche Alphabet inklusive Ä, Ö und Ü. Die Buchstaben erscheinen in der korrekten alphabetischen Reihenfolge. Alle 3000+ Bilder in der Bibliothek sind auf Deutsch beschriftet. Perfekt für authentische Deutsch-Arbeitsblätter und Buchstaben lernen Materialien.
 
 Wechseln Sie die Sprache mit einem Klick. Die gesamte Benutzeroberfläche wird übersetzt. Die Bildernamen ändern sich automatisch. Erstellen Sie dasselbe Arbeitsblatt in verschiedenen Sprachen.`,
         highlighted: true,
@@ -158,7 +158,7 @@ Wechseln Sie die Sprache mit einem Klick. Die gesamte Benutzeroberfläche wird �
         title: 'Kommerzielle Lizenz inklusive - Verkaufen Sie Ihre Arbeitsblätter Grundschule',
         description: `Ihr Core Bundle Abonnement beinhaltet eine vollständige Print-on-Demand Lizenz. Verkaufen Sie Ihre erstellten Arbeitsblätter Grundschule legal. Keine zusätzlichen Lizenzgebühren. Keine Einschränkungen. Perfekt für Lehrer-Unternehmer.
 
-Verkaufen Sie auf Plattformen wie Etsy, Lehrermarktplatz oder Amazon KDP. Ihre Buchstaben lernen Materialien können als digitale Downloads angeboten werden. Erstellen Sie Pakete mit Deutsch Arbeitsblätter, Vorschule Arbeitsblätter und Schwungübungen. Verkaufen Sie thematische Sammlungen mit Ausmalbilder.
+Verkaufen Sie auf Plattformen wie Etsy, Lehrermarktplatz oder Amazon KDP. Ihre Buchstaben lernen Materialien können als digitale Downloads angeboten werden. Erstellen Sie Pakete mit Deutsch-Arbeitsblätter, Vorschul-Arbeitsblätter und Schwungübungen. Verkaufen Sie thematische Sammlungen mit Ausmalbilder.
 
 Die 300 DPI Qualität erfüllt alle Anforderungen für kommerziellen Druck. Viele Lehrer erzielen Nebeneinkommen zwischen 500 und 5000 Euro monatlich mit Arbeitsblätter-Verkauf.`,
         highlighted: false,
@@ -166,10 +166,10 @@ Die 300 DPI Qualität erfüllt alle Anforderungen für kommerziellen Druck. Viel
       {
         id: '6',
         icon: '🖼️',
-        title: '3000+ Bilder Bibliothek - Perfekte Motive für Buchstaben lernen und Vorschule Arbeitsblätter',
+        title: '3000+ Bilder Bibliothek - Perfekte Motive für Buchstaben lernen und Vorschul-Arbeitsblätter',
         description: `Über 3000 kindgerechte Bilder stehen zur Verfügung. Alle Bilder sind thematisch organisiert. Wählen Sie aus Kategorien wie Tiere, Essen, Fahrzeuge oder Natur. Jedes Bild ist perfekt für Arbeitsblätter Grundschule und Buchstaben lernen optimiert.
 
-Die Bilderbibliothek ist auf Deutsch durchsuchbar. Geben Sie einen Buchstaben ein und sehen Sie alle passenden Bilder. Suchen Sie nach Themen für Ihre Vorschule Arbeitsblätter. Die Filterfunktion zeigt nur relevante Ergebnisse. Finden Sie das perfekte Bild in Sekunden.
+Die Bilderbibliothek ist auf Deutsch durchsuchbar. Geben Sie einen Buchstaben ein und sehen Sie alle passenden Bilder. Suchen Sie nach Themen für Ihre Vorschul-Arbeitsblätter. Die Filterfunktion zeigt nur relevante Ergebnisse. Finden Sie das perfekte Bild in Sekunden.
 
 Alle Bilder sind im Core Bundle enthalten. Keine zusätzlichen Kosten pro Bild. Keine versteckten Gebühren. Andere Anbieter berechnen oft 1 bis 5 Euro pro Clipart.`,
         highlighted: true,
@@ -178,11 +178,11 @@ Alle Bilder sind im Core Bundle enthalten. Keine zusätzlichen Kosten pro Bild. 
         id: '7',
         icon: '🖨️',
         title: 'Professionelle 300 DPI Qualität - Hochwertige Arbeitsblätter Grundschule zum Drucken',
-        description: `Alle Arbeitsblätter werden in professioneller 300 DPI Auflösung exportiert. Das ist Druckqualität wie bei kommerziellen Verlagen. Ihre Vorschule Arbeitsblätter sehen gestochen scharf aus. Buchstaben sind perfekt lesbar. Bilder sind kristallklar.
+        description: `Alle Arbeitsblätter werden in professioneller 300 DPI Auflösung exportiert. Das ist Druckqualität wie bei kommerziellen Verlagen. Ihre Vorschul-Arbeitsblätter sehen gestochen scharf aus. Buchstaben sind perfekt lesbar. Bilder sind kristallklar.
 
 Exportieren Sie als JPEG oder PDF. JPEG eignet sich für schnelle Ausdrucke. PDF behält die Qualität über alle Geräte hinweg. Beide Formate unterstützen volle 300 DPI Auflösung. Wählen Sie das Format das zu Ihrem Workflow passt.
 
-Die Graustufen-Option spart Druckertinte. Wandeln Sie farbige Deutsch Arbeitsblätter in Schwarz-Weiß um. Perfekt für Schulen mit begrenztem Druckerbudget.`,
+Die Graustufen-Option spart Druckertinte. Wandeln Sie farbige Deutsch-Arbeitsblätter in Schwarz-Weiß um. Perfekt für Schulen mit begrenztem Druckerbudget.`,
         highlighted: false,
       },
     ],
@@ -191,7 +191,7 @@ Die Graustufen-Option spart Druckertinte. Wandeln Sie farbige Deutsch Arbeitsbl�
   // How-To Guide - FULL text from alphabet-train.md step sections
   howTo: {
     sectionTitle: 'Alphabet-Zug Arbeitsblätter erstellen in 5 Schritten - Kostenlose Arbeitsblätter für Buchstaben lernen',
-    sectionDescription: 'Die Erstellung von Arbeitsblätter Grundschule dauert weniger als 3 Minuten. Folgen Sie diesen fünf einfachen Schritten. Keine Design-Erfahrung erforderlich. Perfekt für Vorschule Arbeitsblätter und Deutsch Arbeitsblätter.',
+    sectionDescription: 'Die Erstellung von Arbeitsblätter Grundschule dauert weniger als 3 Minuten. Folgen Sie diesen fünf einfachen Schritten. Keine Design-Erfahrung erforderlich. Perfekt für Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter.',
     ctaText: 'Jetzt Erstellen',
     badgeText: 'So funktioniert es',
     stepLabel: 'Schritt',
@@ -205,7 +205,7 @@ Die Graustufen-Option spart Druckertinte. Wandeln Sie farbige Deutsch Arbeitsbl�
       {
         id: '1',
         number: 1,
-        title: 'Buchstaben auswählen für Vorschule Arbeitsblätter und Deutsch Arbeitsblätter',
+        title: 'Buchstaben auswählen für Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter',
         description: `Wählen Sie 11 Buchstaben aus dem deutschen Alphabet. Klicken Sie einfach auf die gewünschten Buchstaben im Alphabet-Raster. Das deutsche Alphabet enthält alle Buchstaben inklusive Ä, Ö und Ü. Die Buchstaben erscheinen in korrekter alphabetischer Reihenfolge.
 
 Die Auswahl von 11 Buchstaben ermöglicht gezielte Förderung. Konzentrieren Sie sich auf Problemlaute. Wählen Sie Buchstaben für eine thematische Einheit. Erstellen Sie Arbeitsblätter Grundschule die zu Ihrem aktuellen Unterricht passen.
@@ -216,7 +216,7 @@ Ein Zähler zeigt Ihren Fortschritt. "Ausgewählt: 7/11" sehen Sie während der 
       {
         id: '2',
         number: 2,
-        title: 'Bilder zuweisen für Buchstaben lernen - Vorschule Arbeitsblätter mit passenden Motiven',
+        title: 'Bilder zuweisen für Buchstaben lernen - Vorschul-Arbeitsblätter mit passenden Motiven',
         description: `Wählen Sie ein Thema aus der Dropdown-Liste. Über 50 verschiedene Themen stehen zur Verfügung. Tiere, Essen, Fahrzeuge, Natur und viele mehr. Jedes Thema enthält dutzende kindgerechte Bilder. Perfekt für thematische Arbeitsblätter Grundschule.
 
 Klicken Sie auf ein Bild um es einem Buchstaben zuzuweisen. Das System ordnet das Bild automatisch dem passenden Buchstaben zu. Ein Apfel wird automatisch dem Buchstaben A zugeordnet. Intelligent und zeitsparend für Ihre kostenlose Arbeitsblätter.
@@ -262,8 +262,8 @@ Laden Sie beide Dateien herunter. Wählen Sie zwischen JPEG und PDF Format. Beid
 
   // Use Cases - FULL text from alphabet-train.md use case sections
   useCases: {
-    sectionTitle: 'Perfekt für Erzieher und Lehrer - Arbeitsblätter Grundschule und Vorschule Arbeitsblätter für jeden Bedarf',
-    sectionDescription: 'Der Alphabet-Zug Generator eignet sich für verschiedenste Einsatzbereiche im Bildungswesen. Erzieher in der Vorschule nutzen ihn für Buchstaben lernen Aktivitäten. Grundschullehrer erstellen Deutsch Arbeitsblätter für die 1. bis 3. Klasse.',
+    sectionTitle: 'Perfekt für Erzieher und Lehrer - Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter für jeden Bedarf',
+    sectionDescription: 'Der Alphabet-Zug Generator eignet sich für verschiedenste Einsatzbereiche im Bildungswesen. Erzieher in der Vorschule nutzen ihn für Buchstaben lernen Aktivitäten. Grundschullehrer erstellen Deutsch-Arbeitsblätter für die 1. bis 3. Klasse.',
     badgeText: 'Anwendungsbereiche',
     readMoreLabel: 'Mehr lesen',
     showLessLabel: 'Weniger anzeigen',
@@ -273,7 +273,7 @@ Laden Sie beide Dateien herunter. Wählen Sie zwischen JPEG und PDF Format. Beid
         icon: '👶',
         title: 'Erzieher in der Vorschule',
         subtitle: 'Buchstaben lernen mit Schwungübungen und Ausmalbilder kombinieren',
-        description: `Vorschulerzieher nutzen den Alphabet-Zug für erste Buchstabeneinführungen. Die bunten Waggons mit Tierbildern begeistern Kinder ab 4 Jahren. Jedes Kind lernt die Verbindung zwischen Buchstaben und Bildern spielerisch. Perfekt für Vorschule Arbeitsblätter die Spaß machen.
+        description: `Vorschulerzieher nutzen den Alphabet-Zug für erste Buchstabeneinführungen. Die bunten Waggons mit Tierbildern begeistern Kinder ab 4 Jahren. Jedes Kind lernt die Verbindung zwischen Buchstaben und Bildern spielerisch. Perfekt für Vorschul-Arbeitsblätter die Spaß machen.
 
 Kombinieren Sie Buchstaben lernen mit feinmotorischer Förderung. Fügen Sie Schwungübungen auf derselben Seite hinzu. Kinder üben Wellenlinien und Bögen vor dem Schreiben. Ergänzen Sie mit Ausmalbilder der Zugtiere.
 
@@ -284,7 +284,7 @@ Erstellen Sie thematische Wochenpläne mit dem Alphabet-Zug. Woche 1 konzentrier
         id: '2',
         icon: '📚',
         title: 'Grundschullehrer 1. bis 3. Klasse',
-        subtitle: 'Deutsch Arbeitsblätter und Arbeitsblätter Grundschule für Buchstaben lernen',
+        subtitle: 'Deutsch-Arbeitsblätter und Arbeitsblätter Grundschule für Buchstaben lernen',
         description: `Grundschullehrer in der 1. Klasse nutzen den Alphabet-Zug für systematisches Buchstaben lernen. Die ersten Schulwochen konzentrieren sich auf Buchstabeneinführung. Jede Woche wird ein neuer Buchstabe eingeführt mit passendem Arbeitsblatt.
 
 Lehrer in der 2. und 3. Klasse verwenden den Generator für Wiederholung und Festigung. Kinder die Buchstaben noch verwechseln bekommen gezielte Übungen. Der Alphabet-Zug zeigt visuell die Unterschiede zwischen ähnlichen Buchstaben.
@@ -296,8 +296,8 @@ Die Lösungsschlüssel sparen wertvolle Korrekturzeit. Lehrer können schnell ü
         id: '3',
         icon: '🏠',
         title: 'Homeschool-Eltern',
-        subtitle: 'Mathe Arbeitsblätter und Rechnen lernen mit Buchstaben lernen kombinieren',
-        description: `Homeschool-Eltern schätzen die Vielseitigkeit des Alphabet-Zug Generators. Morgens erstellen Sie Deutsch Arbeitsblätter für Buchstaben lernen. Mittags generieren Sie Mathe Arbeitsblätter mit dem Mathe-Generator. Nachmittags kommen Schwungübungen und Ausmalbilder dazu.
+        subtitle: 'Mathe-Arbeitsblätter und Rechnen lernen mit Buchstaben lernen kombinieren',
+        description: `Homeschool-Eltern schätzen die Vielseitigkeit des Alphabet-Zug Generators. Morgens erstellen Sie Deutsch-Arbeitsblätter für Buchstaben lernen. Mittags generieren Sie Mathe-Arbeitsblätter mit dem Mathe-Generator. Nachmittags kommen Schwungübungen und Ausmalbilder dazu.
 
 Die Kombination verschiedener Arbeitsblätter Grundschule Typen unterstützt ganzheitliches Lernen. Kinder sehen Verbindungen zwischen Fächern.
 
@@ -308,7 +308,7 @@ Homeschool-Eltern mit mehreren Kindern profitieren besonders. Erstellen Sie vers
         id: '4',
         icon: '🌍',
         title: 'DaF/DaZ Lehrer',
-        subtitle: 'Deutsch Arbeitsblätter für Buchstaben lernen und mehrsprachige Arbeitsblätter',
+        subtitle: 'Deutsch-Arbeitsblätter für Buchstaben lernen und mehrsprachige Arbeitsblätter',
         description: `Deutsch als Fremdsprache und Deutsch als Zweitsprache Lehrer haben besondere Anforderungen. Die 11-Sprachen-Funktion ist hier unverzichtbar. Erstellen Sie parallele Arbeitsblätter in der Muttersprache und auf Deutsch.
 
 Das deutsche Alphabet mit Ä, Ö und Ü ist für viele Lerner neu. Der Alphabet-Zug zeigt diese Sonderbuchstaben in natürlichem Kontext. Kinder lernen "Äpfel" mit Ä, "Öl" mit Ö. Visuelles Lernen funktioniert besser als abstrakte Erklärungen.
@@ -345,8 +345,8 @@ Erfolgreiche Lehrer-Unternehmer erzielen 500 bis 5000 Euro monatlich mit Arbeits
 
   // FAQ Section - FULL FAQs from alphabet-train.md
   faq: {
-    sectionTitle: 'Häufig gestellte Fragen zu Arbeitsblätter Grundschule und Vorschule Arbeitsblätter',
-    sectionDescription: 'Erzieher und Lehrer haben viele Fragen zum Alphabet-Zug Generator. Hier beantworten wir die häufigsten Fragen zu Arbeitsblätter Grundschule, Deutsch Arbeitsblätter und Buchstaben lernen Materialien.',
+    sectionTitle: 'Häufig gestellte Fragen zu Arbeitsblätter Grundschule und Vorschul-Arbeitsblätter',
+    sectionDescription: 'Erzieher und Lehrer haben viele Fragen zum Alphabet-Zug Generator. Hier beantworten wir die häufigsten Fragen zu Arbeitsblätter Grundschule, Deutsch-Arbeitsblätter und Buchstaben lernen Materialien.',
     showMoreText: 'Mehr Fragen anzeigen',
     showLessText: 'Weniger anzeigen',
     badgeText: 'Häufige Fragen',
@@ -357,13 +357,13 @@ Erfolgreiche Lehrer-Unternehmer erzielen 500 bis 5000 Euro monatlich mit Arbeits
     items: [
       {
         id: '1',
-        question: 'Ist dieser Alphabet-Zug Generator wirklich kostenlos für Vorschule Arbeitsblätter und Deutsch Arbeitsblätter?',
-        answer: 'Der Alphabet-Zug Generator benötigt ein Core Bundle Abonnement für 144 Euro jährlich oder 15 Euro monatlich. Ihr Abonnement gibt Ihnen unbegrenzte Erstellung von Arbeitsblätter Grundschule ohne zusätzliche Kosten pro Blatt. Generieren Sie so viele Vorschule Arbeitsblätter und Deutsch Arbeitsblätter wie Sie benötigen ohne weitere Gebühren. Das Core Bundle enthält 10 beliebte Generatoren für verschiedene Arbeitsblätter-Typen. Sie erstellen Buchstaben lernen Materialien, Mathe Arbeitsblätter und andere kostenlose Arbeitsblätter alle mit einem Abonnement.',
+        question: 'Ist dieser Alphabet-Zug Generator wirklich kostenlos für Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter?',
+        answer: 'Der Alphabet-Zug Generator benötigt ein Core Bundle Abonnement für 144 Euro jährlich oder 15 Euro monatlich. Ihr Abonnement gibt Ihnen unbegrenzte Erstellung von Arbeitsblätter Grundschule ohne zusätzliche Kosten pro Blatt. Generieren Sie so viele Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter wie Sie benötigen ohne weitere Gebühren. Das Core Bundle enthält 10 beliebte Generatoren für verschiedene Arbeitsblätter-Typen. Sie erstellen Buchstaben lernen Materialien, Mathe-Arbeitsblätter und andere kostenlose Arbeitsblätter alle mit einem Abonnement.',
       },
       {
         id: '2',
         question: 'Kann ich Arbeitsblätter Grundschule zu Hause auf einem normalen Drucker ausdrucken?',
-        answer: 'Ja, alle Arbeitsblätter Grundschule sind zum Heimdruck optimiert. Die 300 DPI Auflösung funktioniert perfekt auf Standard-Tintenstrahldruckern und Laserdruckern. Ihre Vorschule Arbeitsblätter sehen professionell aus auf normalem Kopierpapier. Wählen Sie zwischen Letter und A4 Format je nach Ihrem Drucker. Die Graustufen-Option spart erheblich Tinte. Wandeln Sie farbige Arbeitsblätter Grundschule in Schwarz-Weiß um.',
+        answer: 'Ja, alle Arbeitsblätter Grundschule sind zum Heimdruck optimiert. Die 300 DPI Auflösung funktioniert perfekt auf Standard-Tintenstrahldruckern und Laserdruckern. Ihre Vorschul-Arbeitsblätter sehen professionell aus auf normalem Kopierpapier. Wählen Sie zwischen Letter und A4 Format je nach Ihrem Drucker. Die Graustufen-Option spart erheblich Tinte. Wandeln Sie farbige Arbeitsblätter Grundschule in Schwarz-Weiß um.',
       },
       {
         id: '3',
@@ -373,11 +373,11 @@ Erfolgreiche Lehrer-Unternehmer erzielen 500 bis 5000 Euro monatlich mit Arbeits
       {
         id: '4',
         question: 'Kann ich diese Arbeitsblätter Grundschule im Unterricht verwenden?',
-        answer: 'Ja, das Core Bundle Abonnement beinhaltet unbegrenzte Klassenzimmernutzung für Arbeitsblätter Grundschule. Drucken Sie so viele Kopien wie Sie für Ihre Klasse benötigen. Verwenden Sie die Vorschule Arbeitsblätter und Deutsch Arbeitsblätter für Unterricht, Hausaufgaben oder Tests ohne Einschränkungen. Verteilen Sie digitale Kopien an Schüler für Heimarbeit. Die PDFs funktionieren auf allen Geräten. Schulen können das Abonnement teilen unter Kollegen.',
+        answer: 'Ja, das Core Bundle Abonnement beinhaltet unbegrenzte Klassenzimmernutzung für Arbeitsblätter Grundschule. Drucken Sie so viele Kopien wie Sie für Ihre Klasse benötigen. Verwenden Sie die Vorschul-Arbeitsblätter und Deutsch-Arbeitsblätter für Unterricht, Hausaufgaben oder Tests ohne Einschränkungen. Verteilen Sie digitale Kopien an Schüler für Heimarbeit. Die PDFs funktionieren auf allen Geräten. Schulen können das Abonnement teilen unter Kollegen.',
       },
       {
         id: '5',
-        question: 'Welche Sprachen sind für Deutsch Arbeitsblätter und Buchstaben lernen verfügbar?',
+        question: 'Welche Sprachen sind für Deutsch-Arbeitsblätter und Buchstaben lernen verfügbar?',
         answer: 'Der Alphabet-Zug Generator unterstützt 11 Sprachen für Arbeitsblätter Grundschule. Die deutsche Version enthält das vollständige Alphabet inklusive Ä, Ö und Ü. Alle Bildernamen sind auf Deutsch übersetzt. Die anderen 10 Sprachen sind Englisch, Französisch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Dänisch, Schwedisch, Norwegisch und Finnisch. DaF und DaZ Lehrer nutzen mehrere Sprachen gleichzeitig.',
       },
       {
@@ -392,12 +392,12 @@ Erfolgreiche Lehrer-Unternehmer erzielen 500 bis 5000 Euro monatlich mit Arbeits
       },
       {
         id: '8',
-        question: 'Für welche Altersgruppen eignen sich diese Vorschule Arbeitsblätter und Arbeitsblätter Grundschule?',
+        question: 'Für welche Altersgruppen eignen sich diese Vorschul-Arbeitsblätter und Arbeitsblätter Grundschule?',
         answer: 'Die Arbeitsblätter Grundschule eignen sich primär für 4 bis 8-jährige Kinder. Vorschulkinder ab 4 Jahren profitieren von der visuellen Buchstaben-Bild-Verbindung. Die bunten Waggons motivieren zum Buchstaben lernen. Kinder in der 1. Klasse nutzen die Materialien für systematisches Alphabet-Training. 2. und 3. Klasse Schüler verwenden die Arbeitsblätter für Wiederholung und Festigung.',
       },
       {
         id: '9',
-        question: 'Kann ich eigene Bilder hochladen für personalisierte Deutsch Arbeitsblätter?',
+        question: 'Kann ich eigene Bilder hochladen für personalisierte Deutsch-Arbeitsblätter?',
         answer: 'Ja, der Multi-Datei Upload erlaubt das Hochladen eigener Bilder für Arbeitsblätter Grundschule. Unterstützte Formate sind JPEG, PNG und GIF. Laden Sie mehrere Bilder gleichzeitig hoch. Fotografieren Sie Gegenstände aus Ihrem Klassenzimmer für vertraute Motive. Kombinieren Sie hochgeladene Bilder mit der 3000+ Bilder Bibliothek für thematische Arbeitsblätter.',
       },
       {
@@ -407,7 +407,7 @@ Erfolgreiche Lehrer-Unternehmer erzielen 500 bis 5000 Euro monatlich mit Arbeits
       },
       {
         id: '11',
-        question: 'Enthalten Arbeitsblätter Grundschule Lösungsschlüssel für Vorschule Arbeitsblätter?',
+        question: 'Enthalten Arbeitsblätter Grundschule Lösungsschlüssel für Vorschul-Arbeitsblätter?',
         answer: 'Ja, der Generator erstellt automatisch vollständige Lösungsschlüssel für alle Arbeitsblätter Grundschule. Klicken Sie auf "Lösungsschlüssel erstellen" und erhalten Sie ein komplettes Lösungsblatt. Alle Buchstaben sind sichtbar auf den Waggons für schnelle Korrektur. Der Lösungsschlüssel verwendet dasselbe Design wie das Arbeitsblatt. Schüler können selbstständig kontrollieren.',
       },
       {
@@ -439,7 +439,7 @@ Erfolgreiche Lehrer-Unternehmer erzielen 500 bis 5000 Euro monatlich mit Arbeits
   // Related Apps - Kombinieren Sie Alphabet-Zug mit anderen Generatoren
   relatedApps: {
     sectionTitle: 'Kombinieren Sie Alphabet-Zug mit anderen Generatoren - Ganzheitliche Arbeitsblätter Grundschule',
-    sectionDescription: 'Ihr Core Bundle Abonnement beinhaltet 10 Premium-Generatoren, die perfekt zusammenarbeiten. Kombinieren Sie Buchstaben lernen mit Mathe Arbeitsblätter. Integrieren Sie Schwungübungen für Schreibvorbereitung. Verbinden Sie mit Ausmalbilder für feinmotorische Förderung.',
+    sectionDescription: 'Ihr Core Bundle Abonnement beinhaltet 10 Premium-Generatoren, die perfekt zusammenarbeiten. Kombinieren Sie Buchstaben lernen mit Mathe-Arbeitsblätter. Integrieren Sie Schwungübungen für Schreibvorbereitung. Verbinden Sie mit Ausmalbilder für feinmotorische Förderung.',
     ctaTitle: 'Bereit, fantastische Arbeitsblätter zu erstellen?',
     ctaDescription: 'Schließen Sie sich tausenden Lehrkräften an, die professionelle Alphabet-Zug Arbeitsblätter erstellen. Unbegrenzte Generierung, kommerzielle Lizenz inklusive.',
     primaryCtaText: 'Kostenlos Testen',

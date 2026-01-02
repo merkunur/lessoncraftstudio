@@ -112,6 +112,9 @@ import treasureHuntDeContent from '@/content/product-pages/de/schatzsuche-arbeit
 import wordGuessDeContent from '@/content/product-pages/de/woerter-raten-arbeitsblaetter';
 import writingDeContent from '@/content/product-pages/de/schreibuebungen-arbeitsblaetter';
 
+// French content imports
+import wordSearchFrContent from '@/content/product-pages/fr/word-search-worksheets';
+
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
   [locale: string]: {
@@ -427,6 +430,12 @@ export const contentRegistry: ContentRegistry = {
     'schreibuebungen-arbeitsblaetter': writingDeContent,
     // Also keep old slug for backwards compatibility during transition
     'writing-worksheets': writingDeContent,
+  },
+  fr: {
+    // French Word Search - uses French SEO slug
+    'mots-caches-fiches': wordSearchFrContent,
+    // Also keep old slug for backwards compatibility during transition
+    'word-search-worksheets': wordSearchFrContent,
   },
 };
 

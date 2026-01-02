@@ -432,6 +432,12 @@ const nextConfig = {
         destination: '/de/apps/schreibuebungen-arbeitsblaetter',
         permanent: true,
       },
+      // French: word-search-worksheets → mots-caches-fiches
+      {
+        source: '/fr/apps/word-search-worksheets',
+        destination: '/fr/apps/mots-caches-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

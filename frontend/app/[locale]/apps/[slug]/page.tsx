@@ -80,6 +80,7 @@ import subtractionSvContent from '@/content/product-pages/sv/subtraction-workshe
 import treasureHuntSvContent from '@/content/product-pages/sv/treasure-hunt-worksheets';
 import wordGuessSvContent from '@/content/product-pages/sv/word-guess-worksheets';
 import writingSvContent from '@/content/product-pages/sv/writing-worksheets';
+import wordSearchFrContent from '@/content/product-pages/fr/word-search-worksheets';
 
 interface PageProps {
   params: {
@@ -226,6 +227,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/suchsel-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // Word Search Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'mots-caches-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Générateur de Mots Mêlés Gratuit | Fiches à Imprimer Gratuit Maternelle et CP',
+      description: 'Créez des mots mêlés professionnels avec notre générateur de fiches maternelle. Parfait pour les enseignants de maternelle, CP et CE1. Téléchargez des fiches à imprimer gratuit en PDF haute qualité en moins de trois minutes.',
+      keywords: 'mots mêlés, générateur mots cachés, fiches maternelle, fiches à imprimer gratuit, exercices CP, apprendre à lire, alphabet, graphisme maternelle, tables de multiplication, coloriage à imprimer',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/mots-caches-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/ordletar-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/suchsel-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/mots-caches-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/word-search-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Générateur de Mots Mêlés Gratuit | LessonCraftStudio',
+        description: 'Créez des mots mêlés professionnels avec notre générateur de fiches maternelle. Parfait pour les enseignants de maternelle, CP et CE1.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/mots-caches-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French slug to new slug (for backwards compatibility)
+  if (params.slug === 'word-search-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Générateur de Mots Mêlés Gratuit - Fiches Maternelle',
+      description: 'Créez des mots mêlés professionnels avec notre générateur de fiches gratuit.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/mots-caches-fiches', // Point to new URL
       },
     };
   }
@@ -6156,6 +6202,7 @@ export async function generateStaticParams() {
     'addition-worksheets', // Product page slug
     'word-search-worksheets', // Product page slug (English)
     'suchsel-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
+    'mots-caches-fiches', // Product page slug (French) - language-specific SEO slug
     'alphabet-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets

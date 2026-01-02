@@ -747,6 +747,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // Missing Pieces Worksheets - German product page SEO (new German slug)
+  if (params.slug === 'fehlende-puzzleteile-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Fehlende Puzzleteile Generator - Kostenlose Arbeitsblätter Grundschule - Vorschule Arbeitsblätter zum Ausdrucken',
+      description: 'Erstellen Sie professionelle Puzzle-Arbeitsblätter mit unserem Generator für fehlende Puzzleteile. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter und Mathe Arbeitsblätter. Generieren Sie visuelle Wahrnehmungs-Aktivitäten. Laden Sie druckfertige PDF-Dateien in unter 3 Minuten herunter.',
+      keywords: 'fehlende puzzleteile arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, vorschule arbeitsblätter, mathe arbeitsblätter, visuelle wahrnehmung, puzzle arbeitsblätter, schwungübungen, ausmalbilder, buchstaben lernen',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/fehlende-puzzleteile-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/missing-pieces-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/saknade-bitar-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/fehlende-puzzleteile-arbeitsblaetter',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/missing-pieces-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Fehlende Puzzleteile Generator - Kostenlose Arbeitsblätter Grundschule | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Puzzle-Arbeitsblätter mit unserem Generator für fehlende Puzzleteile. Perfekt für Arbeitsblätter Grundschule und Vorschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/fehlende-puzzleteile-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German missing pieces slug to new slug (for backwards compatibility)
+  if (params.slug === 'missing-pieces-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Fehlende Puzzleteile Generator - Kostenlose Arbeitsblätter Grundschule',
+      description: 'Erstellen Sie professionelle Puzzle-Arbeitsblätter mit unserem Generator für fehlende Puzzleteile.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/fehlende-puzzleteile-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
   // Addition Worksheets - Swedish product page SEO (new Swedish slug)
   if (params.slug === 'addition-arbetsblad' && params.locale === 'sv') {
     return {
@@ -5629,6 +5673,7 @@ export async function generateStaticParams() {
     'bilderkreuzwortraetsel-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for crossword
     'bildkryptogramm-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for cryptogram
     'mathe-raetsel-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math-puzzle
+    'fehlende-puzzleteile-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for missing-pieces
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

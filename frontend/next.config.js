@@ -354,6 +354,12 @@ const nextConfig = {
         destination: '/de/apps/mathe-raetsel-arbeitsblaetter',
         permanent: true,
       },
+      // German: missing-pieces-worksheets → fehlende-puzzleteile-arbeitsblaetter
+      {
+        source: '/de/apps/missing-pieces-worksheets',
+        destination: '/de/apps/fehlende-puzzleteile-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

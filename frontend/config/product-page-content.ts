@@ -98,6 +98,7 @@ import gridMatchDeContent from '@/content/product-pages/de/grid-match-worksheets
 import crosswordDeContent from '@/content/product-pages/de/crossword-worksheets';
 import cryptogramDeContent from '@/content/product-pages/de/cryptogram-worksheets';
 import mathPuzzleDeContent from '@/content/product-pages/de/math-puzzle-worksheets';
+import missingPiecesDeContent from '@/content/product-pages/de/missing-pieces-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -362,6 +363,10 @@ export const contentRegistry: ContentRegistry = {
     'mathe-raetsel-arbeitsblaetter': mathPuzzleDeContent,
     // Also keep old slug for backwards compatibility during transition
     'math-puzzle-worksheets': mathPuzzleDeContent,
+    // German Missing Pieces - uses German SEO slug
+    'fehlende-puzzleteile-arbeitsblaetter': missingPiecesDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'missing-pieces-worksheets': missingPiecesDeContent,
   },
 };
 

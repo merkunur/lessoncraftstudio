@@ -164,6 +164,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
   'odd-one-out': {
     en: 'odd-one-out-worksheets',
     sv: 'hitta-udda-bilden-arbetsblad',
+    de: 'was-passt-nicht-arbeitsblaetter',
   },
   'pattern-train': {
     en: 'pattern-train-worksheets',

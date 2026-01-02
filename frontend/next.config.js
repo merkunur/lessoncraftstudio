@@ -366,6 +366,12 @@ const nextConfig = {
         destination: '/de/apps/mehr-weniger-arbeitsblaetter',
         permanent: true,
       },
+      // German: odd-one-out-worksheets → was-passt-nicht-arbeitsblaetter
+      {
+        source: '/de/apps/odd-one-out-worksheets',
+        destination: '/de/apps/was-passt-nicht-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

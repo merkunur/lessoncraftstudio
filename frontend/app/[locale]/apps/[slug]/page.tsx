@@ -51,6 +51,7 @@ import crosswordDeContent from '@/content/product-pages/de/crossword-worksheets'
 import cryptogramDeContent from '@/content/product-pages/de/cryptogram-worksheets';
 import mathPuzzleDeContent from '@/content/product-pages/de/math-puzzle-worksheets';
 import moreLessDeContent from '@/content/product-pages/de/mehr-weniger-arbeitsblaetter';
+import oddOneOutDeContent from '@/content/product-pages/de/was-passt-nicht-arbeitsblaetter';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -832,6 +833,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/mehr-weniger-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // Odd One Out (Was passt nicht) - German product page SEO
+  if (params.slug === 'was-passt-nicht-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Was passt nicht Arbeitsblätter Generator - Kostenlose Arbeitsblätter für Vorschule und Grundschule',
+      description: 'Erstellen Sie professionelle "Was passt nicht"-Arbeitsblätter mit unserem Generator für Arbeitsblätter Grundschule. Perfekt für Vorschule Arbeitsblätter und Mathe Arbeitsblätter. Laden Sie druckfertige PDF-Arbeitsblätter in weniger als 3 Minuten herunter.',
+      keywords: 'was passt nicht arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/was-passt-nicht-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/odd-one-out-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/hitta-udda-bilden-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/was-passt-nicht-arbeitsblaetter',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/odd-one-out-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Was passt nicht Arbeitsblätter Generator - Kostenlose Arbeitsblätter | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle "Was passt nicht"-Arbeitsblätter mit unserem Generator. Perfekt für Grundschule und Vorschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/was-passt-nicht-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German odd-one-out slug to new slug (for backwards compatibility)
+  if (params.slug === 'odd-one-out-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Was passt nicht Arbeitsblätter Generator - Kostenlose Arbeitsblätter | LessonCraftStudio',
+      description: 'Erstellen Sie professionelle "Was passt nicht"-Arbeitsblätter mit unserem Generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/was-passt-nicht-arbeitsblaetter', // Point to new URL
       },
     };
   }
@@ -5720,6 +5765,7 @@ export async function generateStaticParams() {
     'mathe-raetsel-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math-puzzle
     'fehlende-puzzleteile-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for missing-pieces
     'mehr-weniger-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for more-less
+    'was-passt-nicht-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for odd-one-out
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

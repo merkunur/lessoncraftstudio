@@ -239,6 +239,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'odd-one-out-worksheets',
       sv: 'hitta-udda-bilden-arbetsblad',
+      de: 'was-passt-nicht-arbeitsblaetter',
     },
   },
   {

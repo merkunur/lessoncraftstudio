@@ -100,6 +100,7 @@ import cryptogramDeContent from '@/content/product-pages/de/cryptogram-worksheet
 import mathPuzzleDeContent from '@/content/product-pages/de/math-puzzle-worksheets';
 import missingPiecesDeContent from '@/content/product-pages/de/missing-pieces-worksheets';
 import moreLessDeContent from '@/content/product-pages/de/mehr-weniger-arbeitsblaetter';
+import oddOneOutDeContent from '@/content/product-pages/de/was-passt-nicht-arbeitsblaetter';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -372,6 +373,10 @@ export const contentRegistry: ContentRegistry = {
     'mehr-weniger-arbeitsblaetter': moreLessDeContent,
     // Also keep old slug for backwards compatibility during transition
     'more-less-worksheets': moreLessDeContent,
+    // German Odd One Out - uses German SEO slug
+    'was-passt-nicht-arbeitsblaetter': oddOneOutDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'odd-one-out-worksheets': oddOneOutDeContent,
   },
 };
 

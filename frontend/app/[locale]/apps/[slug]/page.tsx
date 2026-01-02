@@ -53,6 +53,7 @@ import mathPuzzleDeContent from '@/content/product-pages/de/math-puzzle-workshee
 import moreLessDeContent from '@/content/product-pages/de/mehr-weniger-arbeitsblaetter';
 import oddOneOutDeContent from '@/content/product-pages/de/was-passt-nicht-arbeitsblaetter';
 import patternTrainDeContent from '@/content/product-pages/de/muster-zug-arbeitsblaetter';
+import patternWorksheetDeContent from '@/content/product-pages/de/muster-arbeitsblatt-arbeitsblaetter';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -922,6 +923,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/muster-zug-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // Pattern Worksheet (Muster-Arbeitsblatt) - German product page SEO
+  if (params.slug === 'muster-arbeitsblatt-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Muster-Arbeitsblatt Generator - Kostenlose Arbeitsblätter für Mustererkennung - Arbeitsblätter Grundschule und Vorschule',
+      description: 'Erstellen Sie professionelle Muster-Arbeitsblätter mit dem Muster-Arbeitsblatt Generator. Mit Ihrem Full Access Abo generieren Sie unbegrenzt Arbeitsblätter ohne zusätzliche Kosten. Perfekt für Vorschule Arbeitsblätter und Arbeitsblätter Grundschule.',
+      keywords: 'muster arbeitsblatt generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/muster-arbeitsblatt-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/pattern-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/monster-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/muster-arbeitsblatt-arbeitsblaetter',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/pattern-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Muster-Arbeitsblatt Generator - Kostenlose Arbeitsblätter für Mustererkennung | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Muster-Arbeitsblätter mit dem Muster-Arbeitsblatt Generator. Perfekt für Vorschule und Grundschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/muster-arbeitsblatt-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German pattern-worksheet slug to new slug (for backwards compatibility)
+  if (params.slug === 'pattern-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Muster-Arbeitsblatt Generator - Kostenlose Arbeitsblätter für Mustererkennung | LessonCraftStudio',
+      description: 'Erstellen Sie professionelle Muster-Arbeitsblätter mit dem Muster-Arbeitsblatt Generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/muster-arbeitsblatt-arbeitsblaetter', // Point to new URL
       },
     };
   }
@@ -5812,6 +5857,7 @@ export async function generateStaticParams() {
     'mehr-weniger-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for more-less
     'was-passt-nicht-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for odd-one-out
     'muster-zug-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for pattern-train
+    'muster-arbeitsblatt-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for pattern-worksheet
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

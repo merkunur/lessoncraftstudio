@@ -255,6 +255,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'pattern-worksheets',
       sv: 'monster-arbetsblad',
+      de: 'muster-arbeitsblatt-arbeitsblaetter',
     },
   },
   {

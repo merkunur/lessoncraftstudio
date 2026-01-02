@@ -378,6 +378,12 @@ const nextConfig = {
         destination: '/de/apps/muster-zug-arbeitsblaetter',
         permanent: true,
       },
+      // German: pattern-worksheets → muster-arbeitsblatt-arbeitsblaetter
+      {
+        source: '/de/apps/pattern-worksheets',
+        destination: '/de/apps/muster-arbeitsblatt-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

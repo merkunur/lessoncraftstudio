@@ -174,6 +174,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
   'pattern-worksheet': {
     en: 'pattern-worksheets',
     sv: 'monster-arbetsblad',
+    de: 'muster-arbeitsblatt-arbeitsblaetter',
   },
   'prepositions': {
     en: 'prepositions-worksheets',

@@ -102,6 +102,7 @@ import missingPiecesDeContent from '@/content/product-pages/de/missing-pieces-wo
 import moreLessDeContent from '@/content/product-pages/de/mehr-weniger-arbeitsblaetter';
 import oddOneOutDeContent from '@/content/product-pages/de/was-passt-nicht-arbeitsblaetter';
 import patternTrainDeContent from '@/content/product-pages/de/muster-zug-arbeitsblaetter';
+import patternWorksheetDeContent from '@/content/product-pages/de/muster-arbeitsblatt-arbeitsblaetter';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -382,6 +383,10 @@ export const contentRegistry: ContentRegistry = {
     'muster-zug-arbeitsblaetter': patternTrainDeContent,
     // Also keep old slug for backwards compatibility during transition
     'pattern-train-worksheets': patternTrainDeContent,
+    // German Pattern Worksheet - uses German SEO slug
+    'muster-arbeitsblatt-arbeitsblaetter': patternWorksheetDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'pattern-worksheets': patternWorksheetDeContent,
   },
 };
 

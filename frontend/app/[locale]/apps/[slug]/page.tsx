@@ -362,12 +362,12 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
-  // German Find and Count (Suchen und Zählen) Worksheets product page SEO
+  // German Find and Count (Zählübungen) Worksheets product page SEO
   if (params.slug === 'suchen-und-zaehlen-arbeitsblaetter' && params.locale === 'de') {
     return {
-      title: 'Suchen und Zählen Generator - Kostenlose Arbeitsblätter Grundschule für Vorschule und Mathe Arbeitsblätter',
+      title: 'Zählübungen-Generator - Kostenlose Arbeitsblätter Grundschule für Vorschule und Mathe Arbeitsblätter',
       description: 'Erstellen Sie professionelle Suchen-und-Zählen-Arbeitsblätter mit unserem Generator für Arbeitsblätter Grundschule. Kombinieren Sie visuelle Diskriminierung mit Zählübungen für Vorschule Arbeitsblätter. Perfekt für Mathe Arbeitsblätter und kostenlose Arbeitsblätter 1. Klasse.',
-      keywords: 'suchen und zählen generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, ich sehe was was du nicht siehst, zählen lernen, visuelle wahrnehmung, einmaleins',
+      keywords: 'zählübungen generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, ich sehe was was du nicht siehst, zählen lernen, visuelle wahrnehmung, einmaleins',
       robots: {
         index: true,
         follow: true,
@@ -382,7 +382,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
         },
       },
       openGraph: {
-        title: 'Suchen und Zählen Generator - Kostenlose Arbeitsblätter Grundschule | LessonCraftStudio',
+        title: 'Zählübungen-Generator - Kostenlose Arbeitsblätter Grundschule | LessonCraftStudio',
         description: 'Erstellen Sie professionelle Suchen-und-Zählen-Arbeitsblätter mit unserem Generator für Vorschule und Grundschule.',
         url: 'https://www.lessoncraftstudio.com/de/apps/suchen-und-zaehlen-arbeitsblaetter',
         siteName: 'LessonCraftStudio',
@@ -394,7 +394,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   // Legacy: Redirect old German find-and-count-worksheets slug to new slug (for backwards compatibility)
   if (params.slug === 'find-and-count-worksheets' && params.locale === 'de') {
     return {
-      title: 'Suchen und Zählen Generator - Kostenlose Arbeitsblätter Grundschule',
+      title: 'Zählübungen-Generator - Kostenlose Arbeitsblätter Grundschule',
       description: 'Erstellen Sie professionelle Suchen-und-Zählen-Arbeitsblätter mit unserem Generator für Vorschule und Grundschule.',
       robots: {
         index: false, // Don't index old URL

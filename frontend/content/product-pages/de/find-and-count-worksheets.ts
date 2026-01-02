@@ -27,7 +27,7 @@ export const findAndCountDeContent: ProductPageContent = {
   seo: {
     slug: 'suchen-und-zaehlen-arbeitsblaetter',
     appId: 'find-and-count',
-    title: 'Suchen und Zählen Generator - Kostenlose Arbeitsblätter Grundschule für Vorschule und Mathe-Arbeitsblätter',
+    title: 'Zählübungen-Generator - Kostenlose Arbeitsblätter Grundschule für Vorschule und Mathe-Arbeitsblätter',
     description: 'Erstellen Sie professionelle Suchen-und-Zählen-Arbeitsblätter mit unserem Generator für Arbeitsblätter Grundschule. Kombinieren Sie visuelle Diskriminierung mit Zählübungen für Vorschul-Arbeitsblätter. Perfekt für Mathe-Arbeitsblätter und kostenlose Arbeitsblätter 1. Klasse.',
     keywords: 'suchen und zählen generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, ich sehe was was du nicht siehst, zählen lernen, visuelle wahrnehmung, einmaleins',
     canonicalUrl: 'https://www.lessoncraftstudio.com/de/apps/suchen-und-zaehlen-arbeitsblaetter',
@@ -35,7 +35,7 @@ export const findAndCountDeContent: ProductPageContent = {
 
   // Hero Section - FULL text from suchen-und-zaehlen.md paragraphs 1-4
   hero: {
-    title: 'Suchen und Zählen Generator',
+    title: 'Zählübungen-Generator',
     subtitle: 'Kostenlose Arbeitsblätter Grundschule für Vorschule und Mathe-Arbeitsblätter',
     description: `Erstellen Sie professionelle Suchen-und-Zählen-Arbeitsblätter mit unserem Generator. Ihr Core Bundle-Abonnement ermöglicht unbegrenzte Arbeitsblatters erstellung ohne zusätzliche Gebühren pro Arbeitsblatt. Generieren Sie individuelle druckbare Arbeitsblätter für Grundschule und Vorschule. Laden Sie hochwertige PDF-Arbeitsblätter in unter 3 Minuten herunter.
 
@@ -65,7 +65,7 @@ Die Arbeitsblätter unterstützen verschiedene pädagogische Ziele. Fördern Sie
 
   // Sample Gallery - REAL file paths from samples/english/find and count/
   samples: {
-    sectionTitle: 'Suchen und Zählen Beispiele',
+    sectionTitle: 'Zählübungen Beispiele',
     sectionDescription: 'Laden Sie kostenlose Beispiel-Arbeitsblätter herunter, um unsere professionelle Qualität zu sehen',
     downloadLabel: 'Kostenloses Beispiel Herunterladen',
     worksheetLabel: 'Arbeitsblatt',
@@ -96,7 +96,7 @@ Die Arbeitsblätter unterstützen verschiedene pädagogische Ziele. Fördern Sie
 
   // Features Grid - FULL text from suchen-und-zaehlen.md feature sections
   features: {
-    sectionTitle: 'Suchen und Zählen Generator Funktionen - Alles für Kostenlose Arbeitsblätter Grundschule',
+    sectionTitle: 'Zählübungen-Generator Funktionen - Alles für Kostenlose Arbeitsblätter Grundschule',
     sectionDescription: 'Der Suchen-und-Zählen-Generator bietet umfassende Funktionen für die Erstellung von Arbeitsblättern Grundschule. Alle Werkzeuge sind intuitiv gestaltet und erfordern keine Designkenntnisse. Erstellen Sie in 3 Minuten professionelle Vorschul-Arbeitsblätter für Ihre Schüler.',
     highlightBadgeText: 'Hauptfunktion',
     readMoreLabel: 'Mehr lesen',

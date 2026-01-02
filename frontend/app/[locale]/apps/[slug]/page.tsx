@@ -44,6 +44,7 @@ import mathWorksheetsDeContent from '@/content/product-pages/de/math-worksheets'
 import matchingDeContent from '@/content/product-pages/de/matching-worksheets';
 import drawingLinesDeContent from '@/content/product-pages/de/drawing-lines-worksheets';
 import pictureBingoDeContent from '@/content/product-pages/de/picture-bingo-worksheets';
+import chartCountDeContent from '@/content/product-pages/de/chart-count-worksheets';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -473,6 +474,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/bilder-bingo-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // German Chart Count (Bilddiagramm) Worksheets product page SEO
+  if (params.slug === 'bilddiagramm-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Bilddiagramm Arbeitsblätter Generator - Kostenlose Arbeitsblätter für Mathe in der Grundschule und Vorschule',
+      description: 'Erstellen Sie professionelle Bilddiagramm Arbeitsblätter mit unserem Mathe Arbeitsblätter Generator. Mit Ihrem Full Access Abo erhalten Sie unbegrenzten Zugang ohne zusätzliche Gebühren pro Arbeitsblatt. Generieren Sie druckfertige Arbeitsblätter Grundschule und Vorschule Arbeitsblätter perfekt zum Zählen und für Datenvisualisierung.',
+      keywords: 'bilddiagramm arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/bilddiagramm-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/chart-count-worksheets',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilddiagramm-arbeitsblaetter',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/diagram-rakning-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/chart-count-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Bilddiagramm Arbeitsblätter Generator - Kostenlose Arbeitsblätter für Mathe | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Bilddiagramm Arbeitsblätter mit unserem Mathe Arbeitsblätter Generator für Grundschule und Vorschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/bilddiagramm-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German chart-count-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'chart-count-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Bilddiagramm Arbeitsblätter Generator - Kostenlose Arbeitsblätter für Mathe',
+      description: 'Erstellen Sie professionelle Bilddiagramm Arbeitsblätter mit unserem Mathe Arbeitsblätter Generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/bilddiagramm-arbeitsblaetter', // Point to new URL
       },
     };
   }
@@ -5353,6 +5398,7 @@ export async function generateStaticParams() {
     'buchstabensalat-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for word scramble
     'suchen-und-zaehlen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for find-and-count
     'gross-klein-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for big-small
+    'bilddiagramm-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for chart-count
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

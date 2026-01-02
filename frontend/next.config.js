@@ -318,6 +318,12 @@ const nextConfig = {
         destination: '/de/apps/gross-klein-arbeitsblaetter',
         permanent: true,
       },
+      // German: chart-count-worksheets → bilddiagramm-arbeitsblaetter
+      {
+        source: '/de/apps/chart-count-worksheets',
+        destination: '/de/apps/bilddiagramm-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

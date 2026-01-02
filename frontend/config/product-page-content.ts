@@ -90,6 +90,7 @@ import drawingLinesDeContent from '@/content/product-pages/de/drawing-lines-work
 import pictureBingoDeContent from '@/content/product-pages/de/picture-bingo-worksheets';
 import sudokuDeContent from '@/content/product-pages/de/sudoku-worksheets';
 import bigSmallDeContent from '@/content/product-pages/de/big-small-worksheets';
+import chartCountDeContent from '@/content/product-pages/de/chart-count-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -322,6 +323,10 @@ export const contentRegistry: ContentRegistry = {
     'gross-klein-arbeitsblaetter': bigSmallDeContent,
     // Also keep old slug for backwards compatibility during transition
     'big-small-worksheets': bigSmallDeContent,
+    // German Chart Count - uses German SEO slug
+    'bilddiagramm-arbeitsblaetter': chartCountDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'chart-count-worksheets': chartCountDeContent,
   },
 };
 

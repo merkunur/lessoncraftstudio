@@ -114,6 +114,7 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
   'chart-count-color': {
     en: 'chart-count-worksheets',
     sv: 'diagram-rakning-arbetsblad',
+    de: 'bilddiagramm-arbeitsblaetter',
   },
   'code-addition': {
     en: 'code-addition-worksheets',

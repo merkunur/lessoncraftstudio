@@ -88,6 +88,7 @@ import findAndCountDeContent from '@/content/product-pages/de/find-and-count-wor
 import matchingDeContent from '@/content/product-pages/de/matching-worksheets';
 import drawingLinesDeContent from '@/content/product-pages/de/drawing-lines-worksheets';
 import pictureBingoDeContent from '@/content/product-pages/de/picture-bingo-worksheets';
+import sudokuDeContent from '@/content/product-pages/de/sudoku-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -312,6 +313,10 @@ export const contentRegistry: ContentRegistry = {
     'bilder-bingo-arbeitsblaetter': pictureBingoDeContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-bingo-worksheets': pictureBingoDeContent,
+    // German Sudoku - uses German SEO slug
+    'kinder-sudoku-arbeitsblaetter': sudokuDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'sudoku-worksheets': sudokuDeContent,
   },
 };
 

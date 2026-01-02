@@ -144,6 +144,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'sudoku-worksheets',
       sv: 'bildsudoku-arbetsblad',
+      de: 'kinder-sudoku-arbeitsblaetter',
     },
   },
   {

@@ -306,6 +306,12 @@ const nextConfig = {
         destination: '/de/apps/bilder-bingo-arbeitsblaetter',
         permanent: true,
       },
+      // German: sudoku-worksheets → kinder-sudoku-arbeitsblaetter
+      {
+        source: '/de/apps/sudoku-worksheets',
+        destination: '/de/apps/kinder-sudoku-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

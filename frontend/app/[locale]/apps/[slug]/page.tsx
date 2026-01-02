@@ -55,6 +55,7 @@ import oddOneOutDeContent from '@/content/product-pages/de/was-passt-nicht-arbei
 import patternTrainDeContent from '@/content/product-pages/de/muster-zug-arbeitsblaetter';
 import patternWorksheetDeContent from '@/content/product-pages/de/muster-arbeitsblatt-arbeitsblaetter';
 import picturePathDeContent from '@/content/product-pages/de/bilderpfad-arbeitsblaetter';
+import pictureSortDeContent from '@/content/product-pages/de/bilder-sortieren-arbeitsblaetter';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -1012,6 +1013,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/bilderpfad-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // Bilder Sortieren (Picture Sort) - German product page SEO
+  if (params.slug === 'bilder-sortieren-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Bilder Sortieren Generator - Kostenlose Arbeitsblätter für Vorschule und Arbeitsblätter Grundschule',
+      description: 'Erstellen Sie professionelle Sortierarbeitsblätter mit dem Bilder Sortieren Generator. Mit Ihrem Full Access Abonnement gestalten Sie unbegrenzt druckbare Arbeitsblätter für die Vorschule und Grundschule. Kinder lernen spielerisch das Kategorisieren von Bildern in zwei Gruppen.',
+      keywords: 'bilder sortieren arbeitsblätter, sortierarbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, einmaleins, schwungübungen, buchstaben lernen, rechnen lernen, ausmalbilder',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/bilder-sortieren-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/picture-sort-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildsortering-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilder-sortieren-arbeitsblaetter',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/picture-sort-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Bilder Sortieren Generator - Kostenlose Arbeitsblätter | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Sortierarbeitsblätter mit dem Bilder Sortieren Generator. Perfekt für Vorschule und Grundschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/bilder-sortieren-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German picture-sort slug to new slug (for backwards compatibility)
+  if (params.slug === 'picture-sort-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Bilder Sortieren Generator - Kostenlose Arbeitsblätter | LessonCraftStudio',
+      description: 'Erstellen Sie professionelle Sortierarbeitsblätter mit dem Bilder Sortieren Generator.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/bilder-sortieren-arbeitsblaetter', // Point to new URL
       },
     };
   }

@@ -181,6 +181,11 @@ const appIdToProductSlugByLocale: { [appId: string]: { [locale: string]: string 
     sv: 'bildlabyrint-arbetsblad',
     de: 'bilderpfad-arbeitsblaetter',
   },
+  'picture-sort': {
+    en: 'picture-sort-worksheets',
+    sv: 'bildsortering-arbetsblad',
+    de: 'bilder-sortieren-arbeitsblaetter',
+  },
   'prepositions': {
     en: 'prepositions-worksheets',
     sv: 'prepositioner-arbetsblad',

@@ -104,6 +104,7 @@ import oddOneOutDeContent from '@/content/product-pages/de/was-passt-nicht-arbei
 import patternTrainDeContent from '@/content/product-pages/de/muster-zug-arbeitsblaetter';
 import patternWorksheetDeContent from '@/content/product-pages/de/muster-arbeitsblatt-arbeitsblaetter';
 import picturePathDeContent from '@/content/product-pages/de/bilderpfad-arbeitsblaetter';
+import pictureSortDeContent from '@/content/product-pages/de/bilder-sortieren-arbeitsblaetter';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -392,6 +393,10 @@ export const contentRegistry: ContentRegistry = {
     'bilderpfad-arbeitsblaetter': picturePathDeContent,
     // Also keep old slug for backwards compatibility during transition
     'picture-path-worksheets': picturePathDeContent,
+    // German Picture Sort - uses German SEO slug
+    'bilder-sortieren-arbeitsblaetter': pictureSortDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-sort-worksheets': pictureSortDeContent,
   },
 };
 

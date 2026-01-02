@@ -271,6 +271,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'picture-sort-worksheets',
       sv: 'bildsortering-arbetsblad',
+      de: 'bilder-sortieren-arbeitsblaetter',
     },
   },
   {

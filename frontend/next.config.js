@@ -390,6 +390,12 @@ const nextConfig = {
         destination: '/de/apps/bilderpfad-arbeitsblaetter',
         permanent: true,
       },
+      // German: picture-sort-worksheets → bilder-sortieren-arbeitsblaetter
+      {
+        source: '/de/apps/picture-sort-worksheets',
+        destination: '/de/apps/bilder-sortieren-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

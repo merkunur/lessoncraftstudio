@@ -450,6 +450,12 @@ const nextConfig = {
         destination: '/fr/apps/train-alphabet-fiches',
         permanent: true,
       },
+      // French: coloring-worksheets → coloriage-fiches
+      {
+        source: '/fr/apps/coloring-worksheets',
+        destination: '/fr/apps/coloriage-fiches',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

@@ -90,6 +90,7 @@ export const productPageSlugs: AppSlugConfig[] = [
       en: 'coloring-worksheets',
       sv: 'malarbilder-arbetsblad',
       de: 'malvorlagen-arbeitsblaetter',
+      fr: 'coloriage-fiches',
     },
   },
   {

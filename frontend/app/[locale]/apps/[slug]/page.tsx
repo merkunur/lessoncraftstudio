@@ -83,6 +83,7 @@ import writingSvContent from '@/content/product-pages/sv/writing-worksheets';
 import wordSearchFrContent from '@/content/product-pages/fr/word-search-worksheets';
 import additionFrContent from '@/content/product-pages/fr/addition-worksheets';
 import alphabetTrainFrContent from '@/content/product-pages/fr/alphabet-train-worksheets';
+import coloringFrContent from '@/content/product-pages/fr/coloring-worksheets';
 
 interface PageProps {
   params: {
@@ -364,6 +365,51 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/fr/apps/train-alphabet-fiches', // Point to new URL
+      },
+    };
+  }
+
+  // Coloring Worksheets - French product page SEO (new French slug)
+  if (params.slug === 'coloriage-fiches' && params.locale === 'fr') {
+    return {
+      title: 'Coloriage à Imprimer Gratuit | Générateur de Fiches Maternelle et CP',
+      description: 'Créez des pages de coloriage personnalisées avec notre générateur de fiches maternelle. Plus de 3000 images adaptées aux enfants. Téléchargez en PDF haute qualité 300 DPI. Parfait pour les enseignants de maternelle, CP et CE1.',
+      keywords: 'coloriage à imprimer, fiches maternelle, graphisme maternelle, fiches à imprimer gratuit, exercices CP, exercices CE1, coloriage enfant, générateur coloriage, coloriage maternelle, pages de coloriage',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/coloriage-fiches',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/coloring-worksheets',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/malarbilder-arbetsblad',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/malvorlagen-arbeitsblaetter',
+          'fr': 'https://www.lessoncraftstudio.com/fr/apps/coloriage-fiches',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/coloring-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Coloriage à Imprimer Gratuit | LessonCraftStudio',
+        description: 'Créez des pages de coloriage personnalisées avec notre générateur de fiches maternelle. Plus de 3000 images adaptées aux enfants.',
+        url: 'https://www.lessoncraftstudio.com/fr/apps/coloriage-fiches',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old French coloring slug to new slug (for backwards compatibility)
+  if (params.slug === 'coloring-worksheets' && params.locale === 'fr') {
+    return {
+      title: 'Coloriage à Imprimer Gratuit - Générateur de Fiches Maternelle',
+      description: 'Créez des pages de coloriage personnalisées avec notre générateur de fiches maternelle.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/fr/apps/coloriage-fiches', // Point to new URL
       },
     };
   }

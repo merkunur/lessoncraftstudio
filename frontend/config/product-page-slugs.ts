@@ -176,6 +176,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'draw-and-color-worksheets',
       sv: 'rutritning-arbetsblad',
+      de: 'rasterzeichnen-arbeitsblaetter',
     },
   },
   {

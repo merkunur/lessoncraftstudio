@@ -330,6 +330,12 @@ const nextConfig = {
         destination: '/de/apps/bilder-additions-arbeitsblaetter',
         permanent: true,
       },
+      // German: draw-and-color-worksheets → rasterzeichnen-arbeitsblaetter
+      {
+        source: '/de/apps/draw-and-color-worksheets',
+        destination: '/de/apps/rasterzeichnen-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

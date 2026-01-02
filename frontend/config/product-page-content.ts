@@ -92,6 +92,7 @@ import sudokuDeContent from '@/content/product-pages/de/sudoku-worksheets';
 import bigSmallDeContent from '@/content/product-pages/de/big-small-worksheets';
 import chartCountDeContent from '@/content/product-pages/de/chart-count-worksheets';
 import codeAdditionDeContent from '@/content/product-pages/de/code-addition-worksheets';
+import drawAndColorDeContent from '@/content/product-pages/de/draw-and-color-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -332,6 +333,10 @@ export const contentRegistry: ContentRegistry = {
     'bilder-additions-arbeitsblaetter': codeAdditionDeContent,
     // Also keep old slug for backwards compatibility during transition
     'code-addition-worksheets': codeAdditionDeContent,
+    // German Draw and Color - uses German SEO slug
+    'rasterzeichnen-arbeitsblaetter': drawAndColorDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'draw-and-color-worksheets': drawAndColorDeContent,
   },
 };
 

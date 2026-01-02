@@ -87,6 +87,7 @@ import wordScrambleDeContent from '@/content/product-pages/de/word-scramble-work
 import findAndCountDeContent from '@/content/product-pages/de/find-and-count-worksheets';
 import matchingDeContent from '@/content/product-pages/de/matching-worksheets';
 import drawingLinesDeContent from '@/content/product-pages/de/drawing-lines-worksheets';
+import pictureBingoDeContent from '@/content/product-pages/de/picture-bingo-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -307,6 +308,10 @@ export const contentRegistry: ContentRegistry = {
     'linien-ziehen-arbeitsblaetter': drawingLinesDeContent,
     // Also keep old slug for backwards compatibility during transition
     'drawing-lines-worksheets': drawingLinesDeContent,
+    // German Picture Bingo - uses German SEO slug
+    'bilder-bingo-arbeitsblaetter': pictureBingoDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'picture-bingo-worksheets': pictureBingoDeContent,
   },
 };
 

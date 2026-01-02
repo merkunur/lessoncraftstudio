@@ -42,6 +42,8 @@ import alphabetTrainDeContent from '@/content/product-pages/de/alphabet-train-wo
 import coloringDeContent from '@/content/product-pages/de/coloring-worksheets';
 import mathWorksheetsDeContent from '@/content/product-pages/de/math-worksheets';
 import matchingDeContent from '@/content/product-pages/de/matching-worksheets';
+import drawingLinesDeContent from '@/content/product-pages/de/drawing-lines-worksheets';
+import pictureBingoDeContent from '@/content/product-pages/de/picture-bingo-worksheets';
 import additionSvContent from '@/content/product-pages/sv/addition-worksheets';
 import alphabetTrainSvContent from '@/content/product-pages/sv/alphabet-train-worksheets';
 import coloringSvContent from '@/content/product-pages/sv/coloring-worksheets';
@@ -427,6 +429,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       },
       alternates: {
         canonical: 'https://www.lessoncraftstudio.com/de/apps/zuordnungs-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
+  // German Picture Bingo (Bilder-Bingo) Worksheets product page SEO
+  if (params.slug === 'bilder-bingo-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Bilder-Bingo Generator - Kostenlose Arbeitsblätter für Vorschule und Grundschule',
+      description: 'Erstellen Sie professionelle Bilder-Bingo-Karten mit unserem Bingo-Generator. Perfekt für Arbeitsblätter Grundschule, Vorschule Arbeitsblätter, Buchstaben lernen und Rechnen lernen. Laden Sie kostenlose Arbeitsblätter in unter 3 Minuten herunter.',
+      keywords: 'bilder bingo arbeitsblätter, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, buchstaben lernen, deutsch arbeitsblätter, einmaleins, schwungübungen, ausmalbilder',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/bilder-bingo-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/picture-bingo-worksheets',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/bilder-bingo-arbeitsblaetter',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/bildlotto-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/picture-bingo-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Bilder-Bingo Generator - Kostenlose Arbeitsblätter für Vorschule und Grundschule | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Bilder-Bingo-Karten mit unserem Bingo-Generator für Vorschule und Grundschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/bilder-bingo-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German picture-bingo-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'picture-bingo-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Bilder-Bingo Generator - Kostenlose Arbeitsblätter für Vorschule und Grundschule',
+      description: 'Erstellen Sie professionelle Bilder-Bingo-Karten mit unserem Bingo-Generator für Vorschule und Grundschule.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/bilder-bingo-arbeitsblaetter', // Point to new URL
       },
     };
   }

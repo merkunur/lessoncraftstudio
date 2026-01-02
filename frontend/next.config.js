@@ -300,6 +300,12 @@ const nextConfig = {
         destination: '/de/apps/suchen-und-zaehlen-arbeitsblaetter',
         permanent: true,
       },
+      // German: picture-bingo-worksheets → bilder-bingo-arbeitsblaetter
+      {
+        source: '/de/apps/picture-bingo-worksheets',
+        destination: '/de/apps/bilder-bingo-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

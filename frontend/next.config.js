@@ -294,6 +294,12 @@ const nextConfig = {
         destination: '/de/apps/buchstabensalat-arbeitsblaetter',
         permanent: true,
       },
+      // German: find-and-count-worksheets → suchen-und-zaehlen-arbeitsblaetter
+      {
+        source: '/de/apps/find-and-count-worksheets',
+        destination: '/de/apps/suchen-und-zaehlen-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

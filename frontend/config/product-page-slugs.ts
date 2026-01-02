@@ -113,6 +113,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'find-and-count-worksheets',
       sv: 'hitta-och-rakna-arbetsblad',
+      de: 'suchen-und-zaehlen-arbeitsblaetter',
     },
   },
   {

@@ -84,6 +84,7 @@ import alphabetTrainDeContent from '@/content/product-pages/de/alphabet-train-wo
 import coloringDeContent from '@/content/product-pages/de/coloring-worksheets';
 import mathWorksheetsDeContent from '@/content/product-pages/de/math-worksheets';
 import wordScrambleDeContent from '@/content/product-pages/de/word-scramble-worksheets';
+import findAndCountDeContent from '@/content/product-pages/de/find-and-count-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -292,6 +293,10 @@ export const contentRegistry: ContentRegistry = {
     'buchstabensalat-arbeitsblaetter': wordScrambleDeContent,
     // Also keep old slug for backwards compatibility during transition
     'word-scramble-worksheets': wordScrambleDeContent,
+    // German Find and Count - uses German SEO slug
+    'suchen-und-zaehlen-arbeitsblaetter': findAndCountDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'find-and-count-worksheets': findAndCountDeContent,
   },
 };
 

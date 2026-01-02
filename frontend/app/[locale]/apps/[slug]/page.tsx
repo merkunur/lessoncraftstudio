@@ -342,6 +342,50 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  // German Find and Count (Suchen und Zählen) Worksheets product page SEO
+  if (params.slug === 'suchen-und-zaehlen-arbeitsblaetter' && params.locale === 'de') {
+    return {
+      title: 'Suchen und Zählen Generator - Kostenlose Arbeitsblätter Grundschule für Vorschule und Mathe Arbeitsblätter',
+      description: 'Erstellen Sie professionelle Suchen-und-Zählen-Arbeitsblätter mit unserem Generator für Arbeitsblätter Grundschule. Kombinieren Sie visuelle Diskriminierung mit Zählübungen für Vorschule Arbeitsblätter. Perfekt für Mathe Arbeitsblätter und kostenlose Arbeitsblätter 1. Klasse.',
+      keywords: 'suchen und zählen generator, arbeitsblätter grundschule, kostenlose arbeitsblätter, mathe arbeitsblätter, vorschule arbeitsblätter, rechnen lernen, ich sehe was was du nicht siehst, zählen lernen, visuelle wahrnehmung, einmaleins',
+      robots: {
+        index: true,
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/suchen-und-zaehlen-arbeitsblaetter',
+        languages: {
+          'en': 'https://www.lessoncraftstudio.com/en/apps/find-and-count-worksheets',
+          'de': 'https://www.lessoncraftstudio.com/de/apps/suchen-und-zaehlen-arbeitsblaetter',
+          'sv': 'https://www.lessoncraftstudio.com/sv/apps/hitta-och-rakna-arbetsblad',
+          'x-default': 'https://www.lessoncraftstudio.com/en/apps/find-and-count-worksheets',
+        },
+      },
+      openGraph: {
+        title: 'Suchen und Zählen Generator - Kostenlose Arbeitsblätter Grundschule | LessonCraftStudio',
+        description: 'Erstellen Sie professionelle Suchen-und-Zählen-Arbeitsblätter mit unserem Generator für Vorschule und Grundschule.',
+        url: 'https://www.lessoncraftstudio.com/de/apps/suchen-und-zaehlen-arbeitsblaetter',
+        siteName: 'LessonCraftStudio',
+        type: 'website',
+      },
+    };
+  }
+
+  // Legacy: Redirect old German find-and-count-worksheets slug to new slug (for backwards compatibility)
+  if (params.slug === 'find-and-count-worksheets' && params.locale === 'de') {
+    return {
+      title: 'Suchen und Zählen Generator - Kostenlose Arbeitsblätter Grundschule',
+      description: 'Erstellen Sie professionelle Suchen-und-Zählen-Arbeitsblätter mit unserem Generator für Vorschule und Grundschule.',
+      robots: {
+        index: false, // Don't index old URL
+        follow: true,
+      },
+      alternates: {
+        canonical: 'https://www.lessoncraftstudio.com/de/apps/suchen-und-zaehlen-arbeitsblaetter', // Point to new URL
+      },
+    };
+  }
+
   // Addition Worksheets - Swedish product page SEO (new Swedish slug)
   if (params.slug === 'addition-arbetsblad' && params.locale === 'sv') {
     return {
@@ -5216,6 +5260,7 @@ export async function generateStaticParams() {
     'malvorlagen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug
     'mathe-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for math worksheets
     'buchstabensalat-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for word scramble
+    'suchen-und-zaehlen-arbeitsblaetter', // Product page slug (German) - language-specific SEO slug for find-and-count
     'ordletar-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'addition-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug
     'alfabettag-arbetsblad', // Product page slug (Swedish) - language-specific SEO slug

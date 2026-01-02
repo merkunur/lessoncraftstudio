@@ -191,6 +191,7 @@ export const productPageSlugs: AppSlugConfig[] = [
     slugs: {
       en: 'grid-match-worksheets',
       sv: 'rutnatsmatching-arbetsblad',
+      de: 'raster-puzzle-arbeitsblaetter',
     },
   },
   {

@@ -94,6 +94,7 @@ import chartCountDeContent from '@/content/product-pages/de/chart-count-workshee
 import codeAdditionDeContent from '@/content/product-pages/de/code-addition-worksheets';
 import drawAndColorDeContent from '@/content/product-pages/de/draw-and-color-worksheets';
 import findObjectsDeContent from '@/content/product-pages/de/find-objects-worksheets';
+import gridMatchDeContent from '@/content/product-pages/de/grid-match-worksheets';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -342,6 +343,10 @@ export const contentRegistry: ContentRegistry = {
     'suchbilder-arbeitsblaetter': findObjectsDeContent,
     // Also keep old slug for backwards compatibility during transition
     'find-objects-worksheets': findObjectsDeContent,
+    // German Grid Match - uses German SEO slug
+    'raster-puzzle-arbeitsblaetter': gridMatchDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'grid-match-worksheets': gridMatchDeContent,
   },
 };
 

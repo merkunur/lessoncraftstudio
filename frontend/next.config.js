@@ -336,6 +336,12 @@ const nextConfig = {
         destination: '/de/apps/rasterzeichnen-arbeitsblaetter',
         permanent: true,
       },
+      // German: grid-match-worksheets → raster-puzzle-arbeitsblaetter
+      {
+        source: '/de/apps/grid-match-worksheets',
+        destination: '/de/apps/raster-puzzle-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

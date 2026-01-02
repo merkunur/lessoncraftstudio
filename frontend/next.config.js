@@ -426,6 +426,12 @@ const nextConfig = {
         destination: '/de/apps/woerter-raten-arbeitsblaetter',
         permanent: true,
       },
+      // German: writing-worksheets → schreibuebungen-arbeitsblaetter
+      {
+        source: '/de/apps/writing-worksheets',
+        destination: '/de/apps/schreibuebungen-arbeitsblaetter',
+        permanent: true,
+      },
       // Add more language-specific redirects as pages are created:
       // German: word-search-worksheets → wortsuche-arbeitsblaetter
       // {

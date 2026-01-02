@@ -110,6 +110,7 @@ import shadowMatchDeContent from '@/content/product-pages/de/schattenbilder-zuor
 import subtractionDeContent from '@/content/product-pages/de/subtraktion-arbeitsblaetter';
 import treasureHuntDeContent from '@/content/product-pages/de/schatzsuche-arbeitsblaetter';
 import wordGuessDeContent from '@/content/product-pages/de/woerter-raten-arbeitsblaetter';
+import writingDeContent from '@/content/product-pages/de/schreibuebungen-arbeitsblaetter';
 
 // Content registry: maps slug to content for each locale
 interface ContentRegistry {
@@ -422,6 +423,10 @@ export const contentRegistry: ContentRegistry = {
     'woerter-raten-arbeitsblaetter': wordGuessDeContent,
     // Also keep old slug for backwards compatibility during transition
     'word-guess-worksheets': wordGuessDeContent,
+    // German Writing - uses German SEO slug
+    'schreibuebungen-arbeitsblaetter': writingDeContent,
+    // Also keep old slug for backwards compatibility during transition
+    'writing-worksheets': writingDeContent,
   },
 };
 
